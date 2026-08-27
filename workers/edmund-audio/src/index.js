@@ -82,12 +82,12 @@ function listeningTrackNumbers(key) {
   // The existing private audio inventory names each set "Listening N", while the portal
   // presents it to students as "Practice N". Accept both stable catalogue
   // labels without renaming or duplicating any uploaded audio object.
-  const practice = filename.match(/(?:^|[^a-z])(?:practice|listening)[\s_.-]*0*(\d{1,2})(?:[^0-9]|$)/i);
+  const practice = filename.match(/(?:^|[^a-z])(?:practice|listening)[\s_.-]*0*(\d{1,4})(?:[^0-9]|$)/i);
   const part = filename.match(/(?:^|[^a-z])part[\s_.-]*0*([1-4])(?:[^0-9]|$)/i);
   if (!practice || !part) return null;
   const practiceNumber = Number(practice[1]);
   const partNumber = Number(part[1]);
-  if (!Number.isInteger(practiceNumber) || practiceNumber < 1 || practiceNumber > 20) return null;
+  if (!Number.isInteger(practiceNumber) || practiceNumber < 1 || practiceNumber > 9999) return null;
   return { practice: practiceNumber, part: partNumber };
 }
 
@@ -135,14 +135,17 @@ async function listeningCatalogue(request, env) {
     unique.push(track);
   }
   const missing = [];
-  for (let practice = 1; practice <= 20; practice += 1) {
+  // Retain the original 20-practice completeness check, and automatically
+  // validate all four parts for later practices as their recordings arrive.
+  const expectedPractices = new Set([...Array.from({ length: 20 }, (_, i) => i + 1), ...unique.map(track => track.practice)]);
+  for (const practice of [...expectedPractices].sort((a,b) => a-b)) {
     for (let part = 1; part <= 4; part += 1) {
       if (!seen.has(`${practice}:${part}`)) missing.push({ practice, part });
     }
   }
   return jsonResponse({
-    expectedTracks: 80,
-    complete: unique.length === 80 && missing.length === 0 && duplicates.length === 0,
+    expectedTracks: expectedPractices.size * 4,
+    complete: missing.length === 0 && duplicates.length === 0,
     tracks: unique.map(({ practice, part, url }) => ({ practice, part, url })),
     missing,
     duplicateCount: duplicates.length,

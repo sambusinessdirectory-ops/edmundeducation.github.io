@@ -1,0 +1,4193 @@
+{
+  "schemaVersion": 1,
+  "practice": 14,
+  "title": "IELTS Listening Practice 14",
+  "source": {
+    "file": "IELTS Listening - Practice - 14.pdf",
+    "sha256": "a606bc3881cdfaaf1ac7b7cefa328723f24849fb9b23237ecae5c5c1f1df9af1",
+    "pageCount": 65,
+    "corrections": []
+  },
+  "parts": [
+    {
+      "part": 1,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        4
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 1–10\nComplete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nAdvice on Surfing Holidays\nJack’s advice\n● Recommends surfing for 1 __________ holidays in the summer\n● Need to be quite 2 __________\nIrish surfing locations\nCounty Clare\n● Lahinch has some good quality 3 __________ and surf schools\n● There are famous cliffs nearby\nCounty Mayo\n● Good surf school at 4 __________ beach\n● Surf camp lasts for one 5 __________\n● Can also explore the local 6 __________ by kayak\nWeather\n● Best month to go: 7 __________\n● Average temperature in summer: approx. 8 __________ degrees\nCosts\nEquipment\n● Wetsuit and surfboard: 9 __________ euros per day\n● Also advisable to hire 10 __________ for warmth",
+          "page": 4
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 1,
+          "prompt": "● Recommends surfing for 1 __________ holidays in the summer",
+          "translation": "",
+          "answer": "family",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 2,
+          "prompt": "● Need to be quite 2 __________",
+          "translation": "",
+          "answer": "fit",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 3,
+          "prompt": "● Lahinch has some good quality 3 __________ and surf schools",
+          "translation": "",
+          "answer": "hotels",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 4,
+          "prompt": "● Good surf school at 4 __________ beach",
+          "translation": "",
+          "answer": "Carrowniskey",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 5,
+          "prompt": "● Surf camp lasts for one 5 __________",
+          "translation": "",
+          "answer": "week",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 6,
+          "prompt": "● Can also explore the local 6 __________ by kayak",
+          "translation": "",
+          "answer": "bay",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 7,
+          "prompt": "● Best month to go: 7 __________",
+          "translation": "",
+          "answer": "September",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 8,
+          "prompt": "● Average temperature in summer: approx. 8 __________ degrees",
+          "translation": "",
+          "answer": "19",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 9,
+          "prompt": "● Wetsuit and surfboard: 9 __________ euros per day",
+          "translation": "",
+          "answer": "30",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 10,
+          "prompt": "● Also advisable to hire 10 __________ for warmth",
+          "translation": "",
+          "answer": "boots",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        6,
+        7,
+        8
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 11 and 12\nChoose TWO letters, A–E.\nWhich TWO facts are given about the school’s extended hours childcare\nservice?\nA. It started recently.\nB. More children attend after school than before school.\nC. An average of 50 children attend in the mornings.\nD. A child cannot attend both the before and after school sessions.\nE. The maximum number of children who can attend is 70.",
+          "page": 6
+        },
+        {
+          "type": "text",
+          "text": "Questions 13–15\nChoose the correct letter, A, B or C.\n13. How much does childcare cost for a complete afternoon session per\nchild?\nA. £3.50\nB. £5.70\nC. £7.20\n14. What does the manager say about food?\nA. Children with allergies should bring their own food.\nB. Children may bring healthy snacks with them.\nC. Children are given a proper meal at 5 p.m.\n15. What is different about arrangements in the school holidays?\nA. Children from other schools can attend.\nB. Older children can attend.\nC. A greater number of children can attend.",
+          "page": 7
+        },
+        {
+          "type": "text",
+          "text": "Questions 16–20\nWhat information is given about each of the following activities on offer?\nChoose FIVE answers from the box and write the correct letter, A–G, next to\nQuestions 16–20.\nInformation\nA. has limited availability\nB. is no longer available\nC. is for over 8s only\nD. requires help from parents\nE. involves an additional fee\nF. is a new activity\nG. was requested by children\nActivities\n16. Spanish __________\n17. Music __________\n18. Painting __________\n19. Yoga __________\n20. Cooking __________",
+          "page": 8
+        }
+      ],
+      "questions": [
+        {
+          "type": "multi",
+          "part": 2,
+          "numbers": [
+            11,
+            12
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO facts are given about the school’s extended hours childcare service?",
+          "translation": "",
+          "answers": [
+            "B",
+            "E"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "It started recently.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "More children attend after school than before school.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "An average of 50 children attend in the mornings.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "A child cannot attend both the before and after school sessions.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "The maximum number of children who can attend is 70.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 13,
+          "prompt": "How much does childcare cost for a complete afternoon session per child?",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "£3.50",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "£5.70",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "£7.20",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 14,
+          "prompt": "What does the manager say about food?",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "Children with allergies should bring their own food.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Children may bring healthy snacks with them.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "Children are given a proper meal at 5 p.m.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 15,
+          "prompt": "What is different about arrangements in the school holidays?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "Children from other schools can attend.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Older children can attend.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "A greater number of children can attend.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 16,
+          "prompt": "Spanish",
+          "translation": "",
+          "answer": "E",
+          "options": [
+            {
+              "key": "A",
+              "en": "has limited availability",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "is no longer available",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "is for over 8s only",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "requires help from parents",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "involves an additional fee",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "is a new activity",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "was requested by children",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 17,
+          "prompt": "Music",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "has limited availability",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "is no longer available",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "is for over 8s only",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "requires help from parents",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "involves an additional fee",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "is a new activity",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "was requested by children",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 18,
+          "prompt": "Painting",
+          "translation": "",
+          "answer": "G",
+          "options": [
+            {
+              "key": "A",
+              "en": "has limited availability",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "is no longer available",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "is for over 8s only",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "requires help from parents",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "involves an additional fee",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "is a new activity",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "was requested by children",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 19,
+          "prompt": "Yoga",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "has limited availability",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "is no longer available",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "is for over 8s only",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "requires help from parents",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "involves an additional fee",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "is a new activity",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "was requested by children",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 20,
+          "prompt": "Cooking",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "has limited availability",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "is no longer available",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "is for over 8s only",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "requires help from parents",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "involves an additional fee",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "is a new activity",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "was requested by children",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        10,
+        11
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 21–24\nChoose the correct letter, A, B or C.\nHolly’s Work Placement Tutorial\n21. Holly has chosen the Orion Stadium placement because\nA. it involves children.\nB. it is outdoors.\nC. it sounds like fun.\n22. Which aspect of safety does Dr Green emphasise most?\nA. ensuring children stay in the stadium\nB. checking the equipment children will use\nC. removing obstacles in changing rooms\n23. What does Dr Green say about the spectators?\nA. They can be hard to manage.\nB. They make useful volunteers.\nC. They shouldn’t take photographs.\n24. What has affected the schedule in the past?\nA. bad weather\nB. an injury\nC. extra time",
+          "page": 10
+        },
+        {
+          "type": "text",
+          "text": "Questions 25–30\nWhat do Holly and her tutor agree is an important aspect of each of the following\nevents management skills?\nChoose SIX answers from the box and write the correct letter, A–H, next to\nQuestions 25–30.\nImportant aspects\nA. being flexible\nB. focusing on details\nC. having a smart appearance\nD. hiding your emotions\nE. relying on experts\nF. trusting your own views\nG. doing one thing at a time\nH. thinking of the future\nEvents management skills\n25. Communication __________\n26. Organisation __________\n27. Time management __________\n28. Creativity __________\n29. Leadership __________\n30. Networking __________",
+          "page": 11
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 21,
+          "prompt": "Holly has chosen the Orion Stadium placement because",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "it involves children.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "it is outdoors.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "it sounds like fun.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 22,
+          "prompt": "Which aspect of safety does Dr Green emphasise most?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "ensuring children stay in the stadium",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "checking the equipment children will use",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "removing obstacles in changing rooms",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 23,
+          "prompt": "What does Dr Green say about the spectators?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "They can be hard to manage.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They make useful volunteers.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They shouldn’t take photographs.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 24,
+          "prompt": "What has affected the schedule in the past?",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "bad weather",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "an injury",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "extra time",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 25,
+          "prompt": "Communication",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "being flexible",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "focusing on details",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "having a smart appearance",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "hiding your emotions",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "relying on experts",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "trusting your own views",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "doing one thing at a time",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "thinking of the future",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 26,
+          "prompt": "Organisation",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "being flexible",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "focusing on details",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "having a smart appearance",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "hiding your emotions",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "relying on experts",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "trusting your own views",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "doing one thing at a time",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "thinking of the future",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 27,
+          "prompt": "Time management",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "being flexible",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "focusing on details",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "having a smart appearance",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "hiding your emotions",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "relying on experts",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "trusting your own views",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "doing one thing at a time",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "thinking of the future",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 28,
+          "prompt": "Creativity",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "being flexible",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "focusing on details",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "having a smart appearance",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "hiding your emotions",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "relying on experts",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "trusting your own views",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "doing one thing at a time",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "thinking of the future",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 29,
+          "prompt": "Leadership",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "being flexible",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "focusing on details",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "having a smart appearance",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "hiding your emotions",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "relying on experts",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "trusting your own views",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "doing one thing at a time",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "thinking of the future",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 30,
+          "prompt": "Networking",
+          "translation": "",
+          "answer": "H",
+          "options": [
+            {
+              "key": "A",
+              "en": "being flexible",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "focusing on details",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "having a smart appearance",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "hiding your emotions",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "relying on experts",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "trusting your own views",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "doing one thing at a time",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "thinking of the future",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        13,
+        14
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 31–40\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nBird Migration Theory\nMost birds are believed to migrate seasonally.\nHibernation theory\n● It was believed that birds hibernated underwater or buried themselves in\n31 __________.\n● This theory was later disproved by experiments on caged birds.\nTransmutation theory\n● Aristotle believed birds changed from one species into another in\nsummer and winter.\n○ In autumn he observed that redstarts experience the loss of 32\n__________ and thought they then turned into robins.\n○ Aristotle’s assumptions were logical because the two species of\nbirds had a similar 33 __________.",
+          "page": 13
+        },
+        {
+          "type": "text",
+          "text": "17th century\n● Charles Morton popularised the idea that birds fly to the 34 __________\nin winter.\nScientific developments\n● In 1822, a stork was killed in Germany which had an African spear in its\n35 __________.\n○ previously there had been no 36 __________ that storks migrate to\nAfrica\n● Little was known about the 37 __________ and journeys of migrating\nbirds until the practice of ringing was established.\n○ It was thought large birds carried small birds on some journeys\nbecause they were considered incapable of travelling across huge\n38 __________.\n○ Ringing depended on what is called the 39 “__________” of dead\nbirds.\n● In 1931, the first 40 __________ to show the migration of European birds\nwas printed.",
+          "page": 14
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 31,
+          "prompt": "31 __________.",
+          "translation": "",
+          "answer": "mud",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 32,
+          "prompt": "○ In autumn he observed that redstarts experience the loss of 32 __________ and thought they then turned into robins.",
+          "translation": "",
+          "answer": "feathers",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 33,
+          "prompt": "birds had a similar 33 __________.",
+          "translation": "",
+          "answer": "shape",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 34,
+          "prompt": "● Charles Morton popularised the idea that birds fly to the 34 __________",
+          "translation": "",
+          "answer": "moon",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 35,
+          "prompt": "35 __________.",
+          "translation": "",
+          "answer": "neck",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 36,
+          "prompt": "○ previously there had been no 36 __________ that storks migrate to",
+          "translation": "",
+          "answer": "evidence",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 37,
+          "prompt": "● Little was known about the 37 __________ and journeys of migrating",
+          "translation": "",
+          "answer": "destinations",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 38,
+          "prompt": "38 __________.",
+          "translation": "",
+          "answer": "oceans",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 39,
+          "prompt": "Ringing depended on what is called the ‘_____’ of dead birds.",
+          "translation": "",
+          "answer": "recovery",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 40,
+          "prompt": "● In 1931, the first 40 __________ to show the migration of European birds",
+          "translation": "",
+          "answer": "atlas",
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "1": [
+      {
+        "en": "WOMAN: Jack, I’m thinking of taking the kids to the seaside on a surfing holiday this summer and I wanted to ask your advice – as I know you’re such an expert.",
+        "zh": "女士：Jack，我在想今年夏天帶孩子們去海邊度假學衝浪，所以想問問你的建議——因為我知道你很懂這方面。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-001"
+      },
+      {
+        "en": "JACK: Well, I don’t know about that, but yes, I’ve done a bit of surfing over the years.",
+        "zh": "Jack：嗯，專家倒不敢說，但這些年我的確有衝過一些浪。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-002"
+      },
+      {
+        "en": "I’d thoroughly recommend it.",
+        "zh": "我非常推薦。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-003"
+      },
+      {
+        "en": "I think it’s the kind of holiday all the family can enjoy together.",
+        "zh": "我覺得這是一種全家人都能一起享受的假期。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-004"
+      },
+      {
+        "en": "The thing about surfing is that it’s great for all ages and all abilities.",
+        "zh": "衝浪的好處是，它適合各個年齡和不同能力的人。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-005"
+      },
+      {
+        "en": "My youngest started when he was only three!",
+        "zh": "我最小的孩子三歲就開始了！",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-006"
+      },
+      {
+        "en": "WOMAN: Wow! But it’s quite physically demanding, isn’t it?",
+        "zh": "女士：哇！不過它對體力要求挺高的，對吧？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-007"
+      },
+      {
+        "en": "I’ve heard you need to be pretty fit.",
+        "zh": "我聽說需要身體相當健壯。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-008"
+      },
+      {
+        "en": "JACK: Yes. You’ll certainly learn more quickly and won’t tire as easily.",
+        "zh": "Jack：是的。這樣肯定會學得更快，也不會那麼容易累。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-009"
+      },
+      {
+        "en": "WOMAN: Well – that should be OK for us.",
+        "zh": "女士：嗯，那我們應該沒問題。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-010"
+      },
+      {
+        "en": "You’ve been surfing a few times in Ireland, haven’t you?",
+        "zh": "你在愛爾蘭衝浪過幾次，對吧？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-011"
+      },
+      {
+        "en": "JACK: Yes. There’s some great surfing there, which people don’t always realise.",
+        "zh": "Jack：是的。那裡有很棒的衝浪地點，只是人們不一定知道。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-012"
+      },
+      {
+        "en": "WOMAN: And which locations would you recommend? – there seem to be quite a few.",
+        "zh": "女士：那你會推薦哪些地方？看起來選擇不少。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-013"
+      },
+      {
+        "en": "JACK: Yes, there are loads.",
+        "zh": "Jack：是的，很多。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-014"
+      },
+      {
+        "en": "Last year we went to County Donegal.",
+        "zh": "去年我們去了 County Donegal。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-015"
+      },
+      {
+        "en": "There are several great places to surf there.",
+        "zh": "那裡有幾個很棒的衝浪地點。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-016"
+      },
+      {
+        "en": "WOMAN: What about in County Clare?",
+        "zh": "女士：County Clare 呢？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-017"
+      },
+      {
+        "en": "I read that’s also really good for surfing.",
+        "zh": "我看到那裡也很適合衝浪。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-018"
+      },
+      {
+        "en": "JACK: Yes, it is. I’ve been there a few times.",
+        "zh": "Jack：是的，確實。我去過幾次。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-019"
+      },
+      {
+        "en": "Most people go to Lahinch.",
+        "zh": "大多數人會去 Lahinch。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-020"
+      },
+      {
+        "en": "My kids love it there.",
+        "zh": "我的孩子們很喜歡那裡。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-021"
+      },
+      {
+        "en": "The waves aren’t too challenging and the town is very lively.",
+        "zh": "那裡的浪不會太難，而且小鎮很熱鬧。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-022"
+      },
+      {
+        "en": "WOMAN: Are there good hotels there?",
+        "zh": "女士：那裡有不錯的飯店嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-023"
+      },
+      {
+        "en": "JACK: Yes – some very nice ones and there are also a few basic hostels and campsites.",
+        "zh": "Jack：有，有些飯店很不錯，也有一些簡單的旅舍和露營地。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-024"
+      },
+      {
+        "en": "It’s great if you need lessons as the surf schools are excellent.",
+        "zh": "如果你需要上課，那裡也很適合，因為衝浪學校非常好。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-025"
+      },
+      {
+        "en": "WOMAN: Sounds good.",
+        "zh": "女士：聽起來不錯。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-026"
+      },
+      {
+        "en": "JACK: Yes and there’s lots to see in the area – like those well-known cliffs – … I’ve forgotten the name of them …",
+        "zh": "Jack：是啊，而且那一帶有很多景點，比如那些著名的懸崖……我忘了名字了……",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-027"
+      },
+      {
+        "en": "WOMAN: Oh don’t worry – I can look them up.",
+        "zh": "女士：哦，沒關係，我可以查一下。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-028"
+      },
+      {
+        "en": "JACK: I’ve also been surfing in County Mayo, which is less well-known for surfing, but we had a really good time.",
+        "zh": "Jack：我也在 County Mayo 衝過浪，那裡比較不以衝浪聞名，但我們玩得很開心。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-029"
+      },
+      {
+        "en": "That was a few years ago when the kids were younger.",
+        "zh": "那是幾年前，孩子們還比較小的時候。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-030"
+      },
+      {
+        "en": "There’s a good surf school at Carrowniskey beach.",
+        "zh": "Carrowniskey beach 有一所很好的衝浪學校。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-031"
+      },
+      {
+        "en": "WOMAN: How do you spell that?",
+        "zh": "女士：那怎麼拼？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-032"
+      },
+      {
+        "en": "JACK: C-A-double R-O-W-N-I-S-K-E-Y.",
+        "zh": "Jack：C-A，兩個 R， O-W-N-I-S-K-E-Y。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-033"
+      },
+      {
+        "en": "WOMAN: OK.",
+        "zh": "女士：好的。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-034"
+      },
+      {
+        "en": "JACK: I put the kids into the surf camp they run during the summer for 10–16 year olds.",
+        "zh": "Jack：我讓孩子們參加了他們夏天為 10 到 16 歲孩子辦的衝浪營。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-035"
+      },
+      {
+        "en": "WOMAN: Oh right. How long was that for?",
+        "zh": "女士：哦，這樣。那持續多久？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-036"
+      },
+      {
+        "en": "JACK: Three hours every day for a week.",
+        "zh": "Jack：每天三小時，為期一週。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-037"
+      },
+      {
+        "en": "It was perfect – they were so tired out after that.",
+        "zh": "很完美——他們之後都累壞了。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-038"
+      },
+      {
+        "en": "WOMAN: I can imagine.",
+        "zh": "女士：我能想像。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-039"
+      },
+      {
+        "en": "JACK: One thing we did while the kids were surfing was to rent some kayaks to have a look around the bay which is nearby.",
+        "zh": "Jack：孩子們衝浪時，我們做了一件事，就是租了幾艘皮艇，去附近的海灣看看。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-040"
+      },
+      {
+        "en": "It’s really beautiful.",
+        "zh": "那裡真的很美。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-041"
+      },
+      {
+        "en": "WOMAN: Oh, I’d love to do that.",
+        "zh": "女士：哦，我很想那樣做。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-042"
+      },
+      {
+        "en": "Now the only time I went to Ireland it rained practically every day.",
+        "zh": "我唯一一次去愛爾蘭時，幾乎天天下雨。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-043"
+      },
+      {
+        "en": "JACK: Mmm yes – that can be a problem – but you can surf in the rain, you know.",
+        "zh": "Jack：嗯，是的，那可能是個問題。不過你知道，下雨也可以衝浪。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-044"
+      },
+      {
+        "en": "WOMAN: It doesn’t have the same appeal, somehow.",
+        "zh": "女士：不知怎麼的，那樣就沒那麼吸引人了。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-045"
+      },
+      {
+        "en": "JACK: Well, the weather’s been fine the last couple of years when I’ve been there, but actually, it tends to rain more in August than in the spring or autumn.",
+        "zh": "Jack：嗯，過去幾年我去的時候天氣都不錯。不過實際上，八月通常比春天或秋天更容易下雨。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-046"
+      },
+      {
+        "en": "September’s my favourite month because the water is warmer then.",
+        "zh": "我最喜歡九月，因為那時水比較暖。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-047"
+      },
+      {
+        "en": "WOMAN: The only problem is that the kids are back to school then.",
+        "zh": "女士：唯一的問題是孩子們那時已經回學校了。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-048"
+      },
+      {
+        "en": "JACK: I know. But one good thing about Irish summers is that it doesn’t get too hot.",
+        "zh": "Jack：我知道。不過愛爾蘭夏天有個好處，就是不會太熱。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-049"
+      },
+      {
+        "en": "The average temperature is about 19 degrees and it usually doesn’t go above 25 degrees.",
+        "zh": "平均溫度大約是 19 度，通常不會超過 25 度。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-050"
+      },
+      {
+        "en": "WOMAN: That sounds alright. Now what about costs?",
+        "zh": "女士：聽起來還可以。那費用呢？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-051"
+      },
+      {
+        "en": "JACK: Surfing is a pretty cheap holiday really – the only cost is the hire of equipment.",
+        "zh": "Jack：衝浪其實是相當便宜的假期，唯一的費用就是租裝備。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-052"
+      },
+      {
+        "en": "You can expect to pay a daily rate of about 30 euros for the hire of a wetsuit and board – but you can save about 40 euros if you hire by the week.",
+        "zh": "租潛水衣和衝浪板每天大約 30 歐元，不過如果按週租，大約可以省 40 歐元。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-053"
+      },
+      {
+        "en": "WOMAN: That’s not too bad.",
+        "zh": "女士：那還不錯。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-054"
+      },
+      {
+        "en": "JACK: No. It’s important to make sure you get good quality wetsuits – you’ll all get too cold if you don’t.",
+        "zh": "Jack：是啊。重要的是一定要租品質好的潛水衣，否則你們都會太冷。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-055"
+      },
+      {
+        "en": "And make sure you also get boots.",
+        "zh": "也一定要租靴子。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-056"
+      },
+      {
+        "en": "They keep your feet warm and it’s easier to surf with them on too.",
+        "zh": "它們能讓腳保持溫暖，而且穿著它們衝浪也比較容易。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-057"
+      },
+      {
+        "en": "WOMAN: OK. Well, thanks very much …",
+        "zh": "女士：好的。非常謝謝你……",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-058"
+      }
+    ],
+    "2": [
+      {
+        "en": "Good afternoon. My name’s Mrs Carter and I run the before and after school extended hours childcare service.",
+        "zh": "下午好。我是 Carter 太太，負責上學前和放學後的延時托育服務。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-001"
+      },
+      {
+        "en": "I hope you’ve had a chance to have a good look around the school and talk to staff and pupils.",
+        "zh": "希望你們已經有機會好好參觀學校，並和教職員及學生聊過。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-002"
+      },
+      {
+        "en": "I know that many of you are interested in using our childcare service when your child joins the school, and perhaps you already know something about it, but for those that don’t, I’ll go through the main details now.",
+        "zh": "我知道很多人在孩子入學後會對我們的托育服務感興趣，也許你們已經了解一些情況；如果還不了解，我現在會介紹主要細節。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-003"
+      },
+      {
+        "en": "We offer childcare for children from the ages of four to eleven both before and after school.",
+        "zh": "我們為 4 歲到 11 歲的孩子提供上學前和放學後托育服務。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-004"
+      },
+      {
+        "en": "I know that many parents who work find this service invaluable.",
+        "zh": "我知道很多工作的父母都覺得這項服務非常有價值。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-005"
+      },
+      {
+        "en": "You can leave your child with us safe in the knowledge that they will be extremely well cared for.",
+        "zh": "你可以放心把孩子交給我們， 因為他們會受到非常好的照顧。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-006"
+      },
+      {
+        "en": "We are insured to provide care for up to 70 children, although we rarely have this many attending at any one session.",
+        "zh": "我們的保險允許我們最多照顧 70 名兒童，雖然任何一個時段通常都不會有這麼多人。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-007"
+      },
+      {
+        "en": "I think we generally expect around 50–60 children for the afternoon sessions and about half that number for the breakfast sessions.",
+        "zh": "一般來說，下午時段大約有 50 到 60 名兒童，早餐時段大約是這個數字的一半。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-008"
+      },
+      {
+        "en": "Although we currently do have 70 children registered with us, not all of these attend every day.",
+        "zh": "雖然目前有 70 名兒童在我們這裡註冊，但並不是每天都全部參加。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-009"
+      },
+      {
+        "en": "It’s ten years since we began offering an extended hours service and we’ve come a long way during that time.",
+        "zh": "我們開始提供延時托育服務已經十年了，這段時間我們發展了很多。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-010"
+      },
+      {
+        "en": "When we first opened, we only had about 20 children attending regularly.",
+        "zh": "剛開始時，只有大約 20 名孩子固定參加。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-011"
+      },
+      {
+        "en": "We try to keep our costs as low as we can and we think we provide very good value for money.",
+        "zh": "我們盡量把費用維持在較低水平，也認為我們的服務物有所值。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-012"
+      },
+      {
+        "en": "For the afternoon sessions, which run from 3.30 until 6 p.m., it’s £7.20.",
+        "zh": "下午時段從 3:30 到 6:00，費用是 7.20 英鎊。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-013"
+      },
+      {
+        "en": "But if you prefer, you can pay for one hour only, which costs £3.50, or two hours which costs £5.70.",
+        "zh": "不過如果你願意，也可以只付一小時費用，為 3.50 英鎊，或兩小時，為 5.70 英鎊。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-014"
+      },
+      {
+        "en": "The cost of the childcare includes food and snacks.",
+        "zh": "托育費用包括食物和點心。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-015"
+      },
+      {
+        "en": "They’ll be given breakfast in the morning and in the afternoon, a healthy snack as soon as they finish school.",
+        "zh": "早上會提供早餐，下午孩子們一放學就會有健康點心。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-016"
+      },
+      {
+        "en": "At 5 p.m. children are given something more substantial, such as pasta or a casserole.",
+        "zh": "下午 5 點，孩子們會吃到更有份量的食物，例如義大利麵或燉菜。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-017"
+      },
+      {
+        "en": "Please inform us of any allergies that your child might have and we’ll make sure they’re offered a suitable alternative.",
+        "zh": "請告知我們孩子是否有任何過敏，我們會確保提供合適的替代食物。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-018"
+      },
+      {
+        "en": "As you may know, the childcare service runs through the school holidays from 8 a.m. to 6 p.m.",
+        "zh": "如你們可能知道的，學校假期期間也有托育服務，時間是早上 8 點到下午 6 點。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-019"
+      },
+      {
+        "en": "We offer a really varied and exciting programme to keep the children entertained – we don’t want them to feel as if they are still at school!",
+        "zh": "我們提供非常多樣且有趣的活動，讓孩子們開心參與——我們不希望他們覺得自己還在上學！",
+        "sourcePages": [
+          29,
+          30
+        ],
+        "id": "p2-row-020"
+      },
+      {
+        "en": "It will also feel different because they’ll get the chance to make new friends with children from other schools.",
+        "zh": "這也會讓他們覺得不同，因為他們有機會和其他學校的孩子交朋友。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-021"
+      },
+      {
+        "en": "Spaces are available for them because a lot of our term-time children don’t always attend during the holiday.",
+        "zh": "因為很多平時上課期間參加托育的孩子假期不一定會來，所以有空位給其他學校的孩子。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-022"
+      },
+      {
+        "en": "In the past, parents have asked if children over the age of 11 are allowed to come with their younger brothers and sisters.",
+        "zh": "過去有家長問過，11 歲以上的孩子是否可以和弟弟妹妹一起來。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-023"
+      },
+      {
+        "en": "But I’m afraid we’re unable to do this because of the type of insurance we have.",
+        "zh": "但很抱歉，因為我們的保險類型不允許這樣做。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-024"
+      },
+      {
+        "en": "So now let me tell you about some of the activities that your child can do during the afterschool sessions.",
+        "zh": "現在讓我介紹一些孩子在課後時段可以參加的活動。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-025"
+      },
+      {
+        "en": "As well as being able to use the playground equipment, computers and the library, there is usually at least one “special” activity that children can do each day.",
+        "zh": "除了可以使用遊樂場設備、電腦和圖書館外，孩子們每天通常至少可以參加一項「特別」活動。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-026"
+      },
+      {
+        "en": "For example, Spanish.",
+        "zh": "例如西班牙語。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-027"
+      },
+      {
+        "en": "We have a specialist teacher coming in every Thursday to give a basic introduction to the language through games and songs.",
+        "zh": "每週四會有一位專業老師來， 透過遊戲和歌曲教孩子們西班牙語入門。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-028"
+      },
+      {
+        "en": "She does two sessions: one for the over 8s and one for the younger children.",
+        "zh": "她會開兩個班：一個給 8 歲以上孩子，另一個給年紀較小的孩子。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-029"
+      },
+      {
+        "en": "This is the only activity which we have to make an extra charge for – but it’s well worth it.",
+        "zh": "這是唯一需要額外收費的活動，但非常值得。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-030"
+      },
+      {
+        "en": "Once a week the children have the opportunity to do some music.",
+        "zh": "孩子們每週有一次參加音樂活動的機會。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-031"
+      },
+      {
+        "en": "We’re very lucky that one of our staff is a member of a folk band.",
+        "zh": "我們很幸運，有一位工作人員是民謠樂團成員。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-032"
+      },
+      {
+        "en": "On Mondays, she teaches singing and percussion to groups of children.",
+        "zh": "每週一，她會教孩子們唱歌和打擊樂。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-033"
+      },
+      {
+        "en": "We do rely on parental support for this, so if any of you sing or play an instrument and would be prepared to help out at these sessions, we’d be delighted.",
+        "zh": "這項活動確實需要家長支援， 所以如果你們當中有人會唱歌或演奏樂器，也願意協助這些課程，我們會非常高興。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-034"
+      },
+      {
+        "en": "Painting continues to be one of the most popular activities.",
+        "zh": "繪畫仍然是最受歡迎的活動之一。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-035"
+      },
+      {
+        "en": "To begin with we weren’t keen on offering this because of the extra mess involved, but children kept asking if they could do some art and so we finally gave in.",
+        "zh": "一開始我們不太願意提供這項活動，因為會弄得比較亂，但孩子們一直要求做美術，所以我們最後讓步了。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-036"
+      },
+      {
+        "en": "Art is great for helping the children to relax after working hard at school all day.",
+        "zh": "藝術很適合幫助孩子在學校努力學習一整天後放鬆。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-037"
+      },
+      {
+        "en": "Yoga is something that we’ve been meaning to introduce for some time but haven’t been able to find anyone available to teach it – until now that is.",
+        "zh": "瑜伽是我們一直想引進的活動，但之前一直找不到能教的人，直到現在才找到。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-038"
+      },
+      {
+        "en": "So we’ll see how this goes.",
+        "zh": "所以我們會看看效果如何。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-039"
+      },
+      {
+        "en": "Hopefully, children will benefit in all sorts of ways from this.",
+        "zh": "希望孩子們能從中獲得各方面的益處。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-040"
+      },
+      {
+        "en": "Cooking is another popular activity.",
+        "zh": "烹飪也是另一項受歡迎的活動。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-041"
+      },
+      {
+        "en": "They make a different sort of cake, or pizza or bread each week.",
+        "zh": "他們每週會做不同種類的蛋糕、披薩或麵包。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-042"
+      },
+      {
+        "en": "Although the younger children love doing it, we found that the mess was just too much, so we’ve decided to restrict this to the over 8s, as they are better able to clean up after themselves.",
+        "zh": "雖然年紀較小的孩子很喜歡， 但我們發現場面實在太亂，所以決定只限 8 歲以上孩子參加，因為他們比較能自己收拾。",
+        "sourcePages": [
+          32,
+          33
+        ],
+        "id": "p2-row-043"
+      }
+    ],
+    "3": [
+      {
+        "en": "HOLLY: Hello Dr Green – I’m here to talk to you about my work placement.",
+        "zh": "Holly：您好，Green 博士。我是來跟您談我的工作實習的。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-001"
+      },
+      {
+        "en": "TUTOR: Oh yes, it’s Holly, isn’t it?",
+        "zh": "導師：哦，是的，你是 Holly，對吧？",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-002"
+      },
+      {
+        "en": "HOLLY: Yes.",
+        "zh": "Holly：是的。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-003"
+      },
+      {
+        "en": "TUTOR: So, which work placement have you chosen?",
+        "zh": "導師：那你選擇了哪個實習項目？",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-004"
+      },
+      {
+        "en": "HOLLY: I decided to go for the Orion Stadium placement.",
+        "zh": "Holly：我決定選 Orion Stadium 的實習。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-005"
+      },
+      {
+        "en": "The event I’ll be managing is one where I’m helping to set up a sports competition for primary school children.",
+        "zh": "我要負責的活動是協助舉辦一場小學生體育比賽。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-006"
+      },
+      {
+        "en": "TUTOR: Yup. That’s always a popular placement – even though it can be tougher than you think working with children.",
+        "zh": "導師：是的。那一直是很受歡迎的實習項目，雖然和孩子一起工作可能比你想像中更困難。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-007"
+      },
+      {
+        "en": "HOLLY: I know, but it’s the fresh air that attracts me – organising something indoors doesn’t have the same appeal, even though it might be fun.",
+        "zh": "Holly：我知道，但吸引我的是戶外的新鮮空氣——雖然室內活動可能也有趣，但對我來說吸引力不同。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-008"
+      },
+      {
+        "en": "TUTOR: OK, so obviously safety’s going to be one of your key concerns for this event.",
+        "zh": "導師：好的，那很明顯，安全會是這次活動的重點之一。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-009"
+      },
+      {
+        "en": "HOLLY: Yes, I’ve already thought about that.",
+        "zh": "Holly：是的，我已經想過了。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-010"
+      },
+      {
+        "en": "I’ll need to make sure none of the equipment’s damaged.",
+        "zh": "我需要確保所有設備都沒有損壞。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-011"
+      },
+      {
+        "en": "TUTOR: Ah well, you’ll be working with schools, so the equipment will be their responsibility.",
+        "zh": "導師：嗯，你會和學校合作，所以設備會是他們的責任。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-012"
+      },
+      {
+        "en": "However, the grounds and what goes on there will be yours.",
+        "zh": "不過，場地和場地內發生的事情會由你負責。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-013"
+      },
+      {
+        "en": "HOLLY: Oh I see – that’ll include keeping everyone within the boundary once they’re in their kit and on the field?",
+        "zh": "Holly：哦，我明白了——那包括孩子們換好裝備上場後，要確保他們都待在界線內？",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-014"
+      },
+      {
+        "en": "TUTOR: Exactly – you’ll need to inspect areas like changing rooms as well for anything someone can trip over, but your main priority will be not to lose anyone!",
+        "zh": "導師：沒錯。你也需要檢查更衣室等地方，看是否有會讓人絆倒的東西，但你的首要任務是不讓任何人走失！",
+        "sourcePages": [
+          35,
+          36
+        ],
+        "id": "p3-row-015"
+      },
+      {
+        "en": "HOLLY: Right. I’ll need staff to help with that.",
+        "zh": "Holly：明白。我需要工作人員幫忙。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-016"
+      },
+      {
+        "en": "TUTOR: And don’t forget about the spectators.",
+        "zh": "導師：也別忘了觀眾。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-017"
+      },
+      {
+        "en": "HOLLY: Mmm. I was thinking that many of them will be parents, who could help run the event.",
+        "zh": "Holly：嗯。我本來想，很多觀眾會是家長，也許可以幫忙運作活動。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-018"
+      },
+      {
+        "en": "TUTOR: I wouldn’t rely on that.",
+        "zh": "導師：我不會依賴這一點。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-019"
+      },
+      {
+        "en": "They’ll be more interested in filming their children than volunteering.",
+        "zh": "他們會更想拍攝自己的孩子， 而不是當志工。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-020"
+      },
+      {
+        "en": "HOLLY: I’ll need to make sure they don’t interfere with events doing that!",
+        "zh": "Holly：那我得確保他們拍攝時不會干擾活動！",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-021"
+      },
+      {
+        "en": "TUTOR: And that’s not always easy, especially when a proud parent’s trying to get a snap of their child and you want them to move elsewhere.",
+        "zh": "導師：那並不總是容易，尤其是當一位自豪的家長想拍自己的孩子，而你又希望他們移到別處時。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-022"
+      },
+      {
+        "en": "HOLLY: OK. What about the scheduling?",
+        "zh": "Holly：好的。那時間安排呢？",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-023"
+      },
+      {
+        "en": "TUTOR: With sporting events there are all sorts of things that can alter the timetable – like rain, for instance – though so far, we’ve always been lucky with that.",
+        "zh": "導師：體育活動中有各種事情可能改變時間表，比如下雨，不過到目前為止我們在這方面一直很幸運。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-024"
+      },
+      {
+        "en": "HOLLY: Yeah, and I was thinking about what to do if someone got hurt as well.",
+        "zh": "Holly：是啊，我也在想如果有人受傷該怎麼辦。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-025"
+      },
+      {
+        "en": "I know that last year that caused a terrible delay.",
+        "zh": "我知道去年就是因為有人受傷而造成嚴重延誤。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-026"
+      },
+      {
+        "en": "TUTOR: You have to be prepared for such things.",
+        "zh": "導師：你必須為這類事情做好準備。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-027"
+      },
+      {
+        "en": "HOLLY: Oh. What if a match ends in a draw – do you let the teams keep going until someone wins?",
+        "zh": "Holly：哦。如果一場比賽平手呢？會讓隊伍繼續比，直到有人贏嗎？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-028"
+      },
+      {
+        "en": "TUTOR: That’ll be up to you – and again, you need to plan for it.",
+        "zh": "導師：那由你決定，而且同樣需要事先計畫。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-029"
+      },
+      {
+        "en": "HOLLY: Right.",
+        "zh": "Holly：好的。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-030"
+      },
+      {
+        "en": "TUTOR: Now, the aim of your work placement is to give you the opportunity to develop the skills that an events manager needs.",
+        "zh": "導師：現在，你這次實習的目的，是讓你有機會培養活動管理者需要的技能。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-031"
+      },
+      {
+        "en": "So, let’s talk about those a bit.",
+        "zh": "所以我們來談談這些技能。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-032"
+      },
+      {
+        "en": "HOLLY: Well, I think my communication skills are pretty good.",
+        "zh": "Holly：嗯，我覺得我的溝通能力相當不錯。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-033"
+      },
+      {
+        "en": "I can talk on the phone to people and book venues and that kind of thing.",
+        "zh": "我可以打電話和人溝通、預訂場地之類的。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-034"
+      },
+      {
+        "en": "TUTOR: Good – just remember it isn’t only about what you say.",
+        "zh": "導師：很好。但記住，溝通不只是你說了什麼。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-035"
+      },
+      {
+        "en": "If you meet someone face-to-face and want to persuade them to be a sponsor, for example …",
+        "zh": "例如，如果你和某人面對面見面，想說服他們成為贊助商 ……",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-036"
+      },
+      {
+        "en": "HOLLY: Oh, I’ll dress up for that! Sure.",
+        "zh": "Holly：哦，那我會穿得正式得體！當然。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-037"
+      },
+      {
+        "en": "TUTOR: Good. Let’s go on to think about your organisational skills.",
+        "zh": "導師：很好。我們接著談你的組織能力。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-038"
+      },
+      {
+        "en": "You’re working in a very people-based industry and that means things won’t always go to plan.",
+        "zh": "你是在一個以人為主的行業工作，這意味著事情不會總是按計畫進行。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-039"
+      },
+      {
+        "en": "HOLLY: I guess it’s being prepared to make changes that matters.",
+        "zh": "Holly：我想重要的是要準備好隨時做出改變。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-040"
+      },
+      {
+        "en": "TUTOR: That’s right. You may have to make an on-the-spot change to a timetable because of a problem you hadn’t anticipated …",
+        "zh": "導師：沒錯。你可能因為未預料到的問題，必須當場調整時間表……",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-041"
+      },
+      {
+        "en": "HOLLY: … just do it! OK.",
+        "zh": "Holly：……那就直接改！明白。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-042"
+      },
+      {
+        "en": "TUTOR: How’s your time management these days?",
+        "zh": "導師：你最近的時間管理怎麼樣？",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-043"
+      },
+      {
+        "en": "HOLLY: I’m working on it – I’m certainly better when I have a deadline, which is why this work suits me.",
+        "zh": "Holly：我正在努力改善。有截止期限時我肯定表現更好，這也是為什麼這份工作適合我。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-044"
+      },
+      {
+        "en": "TUTOR: Yes, but it’s how you respond as that deadline approaches!",
+        "zh": "導師：是的，但關鍵是截止期限接近時你如何反應！",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-045"
+      },
+      {
+        "en": "HOLLY: I know I’ve got to look calm even if I’m in a panic.",
+        "zh": "Holly：我知道即使心裡很慌，也得看起來冷靜。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-046"
+      },
+      {
+        "en": "TUTOR: Just think to yourself – no one must know I’m under pressure.",
+        "zh": "導師：就告訴自己——不能讓任何人知道我有壓力。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-047"
+      },
+      {
+        "en": "HOLLY: Yeah – even though I’m multi-tasking like crazy!",
+        "zh": "Holly：是啊，即使我正在瘋狂地同時處理很多事情！",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-048"
+      },
+      {
+        "en": "TUTOR: Another skill that events managers need is creativity.",
+        "zh": "導師：活動管理者需要的另一項技能是創造力。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-049"
+      },
+      {
+        "en": "Often your client has what we call the “big picture” idea, but it’s up to the events manager to think of all the fine points that go to making it work.",
+        "zh": "通常客戶會有我們所說的「大方向」想法，但活動管理者要負責思考所有讓它能實際運作的細節。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-050"
+      },
+      {
+        "en": "HOLLY: Right, so I need to listen carefully to that idea and then fill in all the gaps.",
+        "zh": "Holly：對，所以我需要仔細聽那個想法，然後補上所有細節。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-051"
+      },
+      {
+        "en": "TUTOR: That’s right. And you’ll have a team working under you, so another key skill is leadership.",
+        "zh": "導師：沒錯。你手下會有一個團隊，所以另一項關鍵技能是領導力。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-052"
+      },
+      {
+        "en": "Your team may have lots of ideas too, but you’ve got to make the ultimate choices.",
+        "zh": "你的團隊可能也有很多想法， 但你必須做最終決定。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-053"
+      },
+      {
+        "en": "Do we have refreshments inside or out, for example?",
+        "zh": "例如，我們是在室內還是室外提供茶點？",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-054"
+      },
+      {
+        "en": "HOLLY: Isn’t it better to be democratic?",
+        "zh": "Holly：民主一點不是更好嗎？",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-055"
+      },
+      {
+        "en": "TUTOR: It’s a nice idea, but you have the ultimate responsibility.",
+        "zh": "導師：這想法很好，但你負有最終責任。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-056"
+      },
+      {
+        "en": "So, believe in what you think best.",
+        "zh": "所以，要相信自己認為最好的判斷。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-057"
+      },
+      {
+        "en": "Be prepared to say “yes, that’s a good idea but it won’t work here”.",
+        "zh": "要準備好說：「是的，這是個好想法，但在這裡行不通。」",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-058"
+      },
+      {
+        "en": "HOLLY: I see what you mean.",
+        "zh": "Holly：我明白你的意思了。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-059"
+      },
+      {
+        "en": "What about the networking side of things?",
+        "zh": "那人脈建立方面呢？",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-060"
+      },
+      {
+        "en": "I know it’s an area that a lot of students worry about because we don’t have much experience to offer others.",
+        "zh": "我知道這是很多學生擔心的領域，因為我們沒有太多經驗可以提供給別人。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-061"
+      },
+      {
+        "en": "TUTOR: But even without it – you can still be an interesting person with useful ideas.",
+        "zh": "導師：但即使沒有經驗，你仍然可以是一個有趣、又有實用想法的人。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-062"
+      },
+      {
+        "en": "And the more people you impress, the better.",
+        "zh": "你讓越多人留下好印象，就越好。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-063"
+      },
+      {
+        "en": "HOLLY: I guess that will help me when I apply for a real job.",
+        "zh": "Holly：我想那會在我申請真正工作時有幫助。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-064"
+      },
+      {
+        "en": "TUTOR: Exactly – think ahead – remember what your ambitions are and keep them in mind.",
+        "zh": "導師：正是如此。要往前想，記住自己的抱負，並始終放在心上。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-065"
+      },
+      {
+        "en": "HOLLY: Definitely.",
+        "zh": "Holly：一定會。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-066"
+      }
+    ],
+    "4": [
+      {
+        "en": "Scientists believe that a majority of the earth’s bird population migrate in some fashion or other.",
+        "zh": "科學家認為，地球上大多數鳥類都會以某種方式遷徙。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-001"
+      },
+      {
+        "en": "Some travel seasonally for relatively short distances, such as birds that move from their winter habitats in lowlands to mountain tops for the summers.",
+        "zh": "有些鳥會進行相對短距離的季節性遷徙，例如從低地冬季棲地遷往山頂度夏的鳥類。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-002"
+      },
+      {
+        "en": "Others, like the Arctic Tern, travel more than 25,000 miles seasonally between the northern and southern poles.",
+        "zh": "其他鳥類，例如北極燕鷗，會在南北極之間進行超過 25,000 英里的季節性遷徙。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-003"
+      },
+      {
+        "en": "Bird migration has been studied over many centuries through a variety of observations.",
+        "zh": "幾個世紀以來，人們透過各種觀察研究鳥類遷徙。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-004"
+      },
+      {
+        "en": "But until relatively recently, where birds went to in the winter was considered something of a mystery.",
+        "zh": "但直到相對近代以前，鳥類冬天去了哪裡仍被視為一個謎。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-005"
+      },
+      {
+        "en": "The lack of modern science and technology led to many theories that we now recognize as error-filled and even somewhat amusing.",
+        "zh": "由於缺乏現代科學與技術，人們提出了許多如今看來充滿錯誤，甚至有些好笑的理論。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-006"
+      },
+      {
+        "en": "Take hibernation theory for example – two thousand years ago, it was commonly believed that when birds left an area, they went underwater to hibernate in the seas and oceans.",
+        "zh": "以冬眠理論為例，兩千年前， 人們普遍認為鳥類離開某地後，會潛入水下，在海洋中冬眠。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-007"
+      },
+      {
+        "en": "Another theory for the regular appearance and disappearance of birds was that they spent winter hidden in mud till the weather changed and food became abundant again.",
+        "zh": "另一種解釋鳥類定期出現與消失的理論認為，牠們冬天藏在泥裡，直到天氣轉變、食物再次充足才出現。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-008"
+      },
+      {
+        "en": "The theory that some birds hibernate persisted until experiments were done on caged birds in the 1940s which demonstrated that birds have no hibernation instinct.",
+        "zh": "某些鳥類會冬眠的理論一直延續到 1940 年代，當時對籠中鳥所做的實驗證明，鳥類並沒有冬眠本能。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-009"
+      },
+      {
+        "en": "One of the earliest naturalists and philosophers from ancient Greece was Aristotle who was the first writer to discuss the disappearance and reappearance of some bird species at certain times of year.",
+        "zh": "古希臘最早的自然學家和哲學家之一 Aristotle，是第一位書寫討論某些鳥類在一年中特定時間消失又出現的人。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-010"
+      },
+      {
+        "en": "He developed the theory of transmutation, the seasonal change of one species into another, by observing redstarts and robins.",
+        "zh": "他透過觀察紅尾鴝和知更鳥， 提出了物種轉變理論，也就是一種鳥會隨季節變成另一種鳥。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-011"
+      },
+      {
+        "en": "He observed that in the autumn, small birds called “redstarts” began to lose their feathers, which convinced Aristotle that they changed into robins for the winter, and back into redstarts in the summer.",
+        "zh": "他觀察到秋天時，一種叫 redstarts 的小鳥開始掉羽毛， 這讓 Aristotle 相信牠們冬天會變成 robins，夏天又變回 redstarts。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-012"
+      },
+      {
+        "en": "These assumptions are understandable given that this pair of species are similar in shape, but are a classic example of an incorrect interpretation based on correct observations.",
+        "zh": "鑑於這兩種鳥外形相似，這些假設可以理解，但它們是基於正確觀察卻做出錯誤解釋的典型例子。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-013"
+      },
+      {
+        "en": "The most bizarre theory was put forward by an English amateur scientist, Charles Morton, in the seventeenth century.",
+        "zh": "最古怪的理論是 17 世紀英國業餘科學家 Charles Morton 提出的。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-014"
+      },
+      {
+        "en": "He wrote a surprisingly well-regarded paper claiming that birds migrate to the moon and back every year.",
+        "zh": "他寫了一篇出人意料地頗受重視的論文，聲稱鳥類每年會遷徙到月球再返回。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-015"
+      },
+      {
+        "en": "He came to this conclusion as the only logical explanation for the total disappearance of some species.",
+        "zh": "他得出這個結論，是因為他認為這是某些物種完全消失的唯一合理解釋。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-016"
+      },
+      {
+        "en": "One of the key moments in the development of migration theory came in 1822 when a white stork was shot in Germany.",
+        "zh": "遷徙理論發展中的一個關鍵時刻出現在 1822 年，當時一隻白鸛在德國被射殺。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-017"
+      },
+      {
+        "en": "This particular stork made history because of the long spear in its neck which incredibly had not killed it – everyone immediately realised this spear was definitely not European.",
+        "zh": "這隻白鸛載入史冊，是因為牠脖子上插著一支長矛，令人難以置信的是牠並沒有因此死亡；大家立刻意識到這支矛絕不是歐洲的。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-018"
+      },
+      {
+        "en": "It turned out to be a spear from a tribe in Central Africa.",
+        "zh": "結果證明，那是一支來自中非某部落的長矛。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-019"
+      },
+      {
+        "en": "This was a truly defining moment in the history of ornithology because it was the first evidence that storks spend their winters in sub-Saharan Africa.",
+        "zh": "這是鳥類學史上真正具有決定意義的時刻，因為它是白鸛會在撒哈拉以南非洲過冬的第一個證據。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-020"
+      },
+      {
+        "en": "You can still see the “arrow stork” in the Zoological Collection of the University of Rostock in Germany.",
+        "zh": "如今你仍可在德國 Rostock University 的動物收藏中看到這隻「箭鸛」。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-021"
+      },
+      {
+        "en": "People gradually became aware that European birds moved south in autumn and north in summer but didn’t know much about it until the practice of catching birds and putting rings on their legs became established.",
+        "zh": "人們逐漸意識到歐洲鳥類秋天南飛、夏天北返，但直到捕捉鳥類並在牠們腿上套環的做法建立之前，人們對此了解並不多。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-022"
+      },
+      {
+        "en": "Before this, very little information was available about the actual destinations of particular species and how they travelled there.",
+        "zh": "在此之前，人們幾乎不知道特定物種實際前往的目的地，以及牠們如何抵達那裡。",
+        "sourcePages": [
+          45,
+          46
+        ],
+        "id": "p4-row-023"
+      },
+      {
+        "en": "People speculated that larger birds provided a kind of taxi service for smaller birds by carrying them on their backs.",
+        "zh": "人們猜測，大型鳥類會把小型鳥類背在背上，為牠們提供一種類似計程車的服務。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-024"
+      },
+      {
+        "en": "This idea came about because it seemed impossible that small birds weighing only a few grams could fly over vast oceans.",
+        "zh": "這個想法之所以產生，是因為人們覺得只有幾克重的小鳥不可能飛越廣闊海洋。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-025"
+      },
+      {
+        "en": "This idea was supported by observations of bird behavior such as the harassment of larger birds by smaller birds.",
+        "zh": "這種想法也被一些鳥類行為觀察所支持，例如小型鳥類騷擾大型鳥類。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-026"
+      },
+      {
+        "en": "The development of bird ringing, by a Danish schoolteacher, Hans Christian Cornelius Mortensen, made many discoveries possible.",
+        "zh": "丹麥教師 Hans Christian Cornelius Mortensen 發展出的鳥類繫放技術，使許多發現成為可能。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-027"
+      },
+      {
+        "en": "This is still common practice today and relies upon what is known as “recovery” – this is when ringed birds are found dead in the place they have migrated to, and identified.",
+        "zh": "這至今仍是常見做法，並依賴所謂的 “recovery”，也就是在鳥類遷徙到的地方發現死亡的繫放鳥，並加以識別。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-028"
+      },
+      {
+        "en": "Huge amounts of data were gathered in the early part of the twentieth century and for the first time in history people understood where birds actually went to in winter.",
+        "zh": "20 世紀初期，人們收集了大量資料，歷史上第一次真正了解鳥類冬天實際去了哪裡。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-029"
+      },
+      {
+        "en": "In 1931, an atlas was published showing where the most common species of European birds migrated to.",
+        "zh": "1931 年，一本地圖集出版，顯示歐洲最常見鳥類遷徙到哪些地方。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-030"
+      },
+      {
+        "en": "More recent theories about bird migration …",
+        "zh": "關於鳥類遷徙的較新理論……",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-031"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "answer": "family",
+      "explanation": "題目寫： “Recommends surfing for _____ holidays in the summer” Jack 說： “I think it’s the kind of holiday all the family can enjoy together.” 所以他推薦的是全家一起參與的 surfing holiday。 答案是 family。",
+      "sourcePages": [
+        47
+      ]
+    },
+    "2": {
+      "answer": "fit",
+      "explanation": "題目寫： “Need to be quite _____” 女士說： “I’ve heard you need to be pretty fit.” Jack 也確認，體能好會學得更快，而且比較不容易疲累。 所以答案是 fit。",
+      "sourcePages": [
+        47
+      ]
+    },
+    "3": {
+      "answer": "hotels",
+      "explanation": "題目寫： “Lahinch has some good quality _____ and surf schools” 女士問： “Are there good hotels there?” Jack 回答： “Yes – some very nice ones” 後面再說 surf schools are excellent。 因此題目把兩項優點並列： good hotels + good surf schools 答案是 hotels。",
+      "sourcePages": [
+        48
+      ]
+    },
+    "4": {
+      "answer": "Carrowniskey",
+      "explanation": "題目寫： “Good surf school at _____ beach” 錄音說： “There’s a good surf school at Carrowniskey beach.” 之後還逐字拼出： “C-A-double R-O-W-N-I-S-K-E-Y.” 所以答案是 Carrowniskey。 這類地名題最安全的方法就是跟錄音拼字。",
+      "sourcePages": [
+        48
+      ]
+    },
+    "5": {
+      "answer": "week",
+      "explanation": "題目寫： “Surf camp lasts for one _____” 女士問 surf camp 持續多久。 Jack 回答： “Three hours every day for a week.” 所以整個 camp 為期一星期。 答案是 week。 中伏位：three hours 是每天的上課時間，題目問整個 camp 持續多久。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "6": {
+      "answer": "bay",
+      "explanation": "題目寫： “Can also explore the local _____ by kayak” Jack 說孩子們 surfing 時，他們： “rent some kayaks to have a look around the bay which is nearby.” kayak + nearby bay 正好對應題目。 答案是 bay。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "7": {
+      "answer": "September",
+      "explanation": "題目寫： “Best month to go: _____” Jack 比較天氣後說： “September’s my favourite month because the water is warmer then.” 題目用 “Best month” 概括他的個人推薦；“my favourite month” 正是最直接的判斷。 所以答案是 September。 中伏位：August 被提到，但 Jack 說八月通常較多雨，因此沒有被推薦為最佳月份。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "8": {
+      "answer": "19",
+      "explanation": "題目寫： “Average temperature in summer: approx. _____ degrees” 錄音說： “The average temperature is about 19 degrees” about = approx. 所以答案是 19。 後面的 25 degrees 是通常不會超過的最高程度，並非 average。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "9": {
+      "answer": "30",
+      "explanation": "題目寫： “Wetsuit and surfboard: _____ euros per day” Jack 說： “a daily rate of about 30 euros for the hire of a wetsuit and board” 所以答案是 30。 中伏位：40 euros 是按星期租可節省的金額；題目問每日租金。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "10": {
+      "answer": "boots",
+      "explanation": "題目寫： “Also advisable to hire _____ for warmth” Jack 說： “make sure you also get boots.” 原因是： “They keep your feet warm” 所以答案是 boots。",
+      "sourcePages": [
+        51,
+        52
+      ]
+    },
+    "11": {
+      "answer": "B and E",
+      "explanation": "題目問 extended hours childcare service 的兩項正確事實。 B — More children attend after school than before school 錄音說： “around 50–60 children for the afternoon sessions” 而 breakfast sessions： “about half that number” 所以下午約 50–60 人，早上約 25–30 人。 下午明顯較多人，因此 B 正確。 E — The maximum number of children who can attend is 70 錄音說： “We are insured to provide care for up to 70 children” “up to 70” 就是最多 70 人。 所以 E 正確。 中伏位：A 不合，因為這項服務已經開始 ten years。C 也不合，早上人數只有下午的一半。D 沒有任何規定說同一孩子不能參加早上及下午時段。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "12": {
+      "answer": "B and E",
+      "explanation": "題目問 extended hours childcare service 的兩項正確事實。 B — More children attend after school than before school 錄音說： “around 50–60 children for the afternoon sessions” 而 breakfast sessions： “about half that number” 所以下午約 50–60 人，早上約 25–30 人。 下午明顯較多人，因此 B 正確。 E — The maximum number of children who can attend is 70 錄音說： “We are insured to provide care for up to 70 children” “up to 70” 就是最多 70 人。 所以 E 正確。 中伏位：A 不合，因為這項服務已經開始 ten years。C 也不合，早上人數只有下午的一半。D 沒有任何規定說同一孩子不能參加早上及下午時段。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "13": {
+      "answer": "C — £7.20",
+      "explanation": "題目問完整 afternoon session 每名孩子多少錢。 錄音說： “afternoon sessions, which run from 3.30 until 6 p.m., it’s £7.20.” 這就是完整下午時段。 其他價格： ● £3.50 = one hour ● £5.70 = two hours ● £7.20 = full afternoon session 所以答案是 C。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "14": {
+      "answer": "C — Children are given a proper meal at 5 p.m.",
+      "explanation": "錄音先說下午放學後會有： “a healthy snack” 到了 5 p.m.： “children are given something more substantial, such as pasta or a casserole.” “more substantial” 表示這已經比普通 snack 更接近一頓正式餐點。 所以 C 最符合。 A 不合，因為有 allergy 的孩子會由服務提供 suitable alternative，無需自己帶食物。 B 也沒有得到錄音支持。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "15": {
+      "answer": "A — Children from other schools can attend",
+      "explanation": "題目問 school holidays 的安排有甚麼不同。 錄音說假期時孩子： “get the chance to make new friends with children from other schools.” 而且因為部分 term-time children 假期不來，所以有空位給他們。 所以答案是 A。 中伏位：11 歲以上的兄姊仍然不能參加；capacity 也沒有增加，保險上限仍然受限制。",
+      "sourcePages": [
+        54,
+        55
+      ]
+    },
+    "16": {
+      "answer": "E — involves an additional fee",
+      "explanation": "活動是 Spanish。 錄音說： “This is the only activity which we have to make an extra charge for” 所以 Spanish 需要額外付費。 答案是 E。",
+      "sourcePages": [
+        55
+      ]
+    },
+    "17": {
+      "answer": "D — requires help from parents",
+      "explanation": "活動是 Music。 錄音說： “We do rely on parental support for this” 並邀請會唱歌或樂器的 parents 幫忙。 所以答案是 D。",
+      "sourcePages": [
+        55
+      ]
+    },
+    "18": {
+      "answer": "G — was requested by children",
+      "explanation": "活動是 Painting。 錄音說一開始工作人員不太想提供 painting，因為太 mess。 可是： “children kept asking if they could do some art and so we finally gave in.” 所以這項活動是孩子們一直要求後才加入。 答案是 G。",
+      "sourcePages": [
+        55
+      ]
+    },
+    "19": {
+      "answer": "F — is a new activity",
+      "explanation": "活動是 Yoga。 錄音說： “we’ve been meaning to introduce [it] for some time” 之前一直找不到老師： “until now” 所以現在才正式開始提供。 答案是 F — a new activity。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "20": {
+      "answer": "C — is for over 8s only",
+      "explanation": "活動是 Cooking。 錄音說 younger children 也很喜歡，但 mess 太多，所以： “we’ve decided to restrict this to the over 8s” 所以答案是 C。",
+      "sourcePages": [
+        56,
+        57
+      ]
+    },
+    "21": {
+      "answer": "B — it is outdoors",
+      "explanation": "題目問 Holly 為甚麼選 Orion Stadium placement。 她說： “it’s the fresh air that attracts me” 再比較 indoor event，吸引力沒有那麼大。 所以真正令她選擇這個 placement 的原因是戶外環境。 答案是 B。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "22": {
+      "answer": "A — ensuring children stay in the stadium",
+      "explanation": "題目問 Dr Green 最強調哪一項 safety concern。 Holly 一開始想到 equipment，但 tutor 說 equipment 是 schools 的責任。 他真正強調 Holly 的主要責任： “your main priority will be not to lose anyone!” 也就是要確保孩子留在活動範圍內，不要走失。 因此答案是 A。 中伏位：changing rooms 的 obstacles 的確要檢查，但 tutor 明確用 main priority 告訴我們最重要的安全事項是孩子的位置與管控。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "23": {
+      "answer": "A — They can be hard to manage",
+      "explanation": "題目問 Dr Green 對 spectators 有甚麼看法。 Holly 原本想家長可以幫忙做 volunteers。 Tutor 說： “I wouldn’t rely on that.” 因為他們更想： “filming their children” 而且如果需要他們移位置： “that’s not always easy” 所以 spectators，尤其家長，可能會干擾活動安排，管理起來不容易。 答案是 A。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "24": {
+      "answer": "B — an injury",
+      "explanation": "題目問過去甚麼事情影響 schedule。 Tutor 說 rain 有可能影響，但： “so far, we’ve always been lucky with that.” Holly 接著說： “last year [someone getting hurt] caused a terrible delay.” 所以真正曾經造成 timetable disruption 的是 injury。 答案是 B。",
+      "sourcePages": [
+        58,
+        59
+      ]
+    },
+    "25": {
+      "answer": "C — having a smart appearance",
+      "explanation": "技能是 Communication。 Tutor 說 communication： “isn’t only about what you say.” 如果要 face-to-face 說服別人成為 sponsor，Holly 馬上說： “I’ll dress up for that!” 這表示外在形象也屬於 face-to-face communication 的一部分。 所以答案是 C — having a smart appearance。",
+      "sourcePages": [
+        59
+      ]
+    },
+    "26": {
+      "answer": "A — being flexible",
+      "explanation": "技能是 Organisation。 Tutor 說 events 是 people-based： “things won’t always go to plan.” Holly 總結： “it’s being prepared to make changes that matters.” Tutor 同意，並說可能要： “make an on-the-spot change to a timetable” 所以組織能力的重要一環是根據突發情況靈活調整。 答案是 A。",
+      "sourcePages": [
+        59
+      ]
+    },
+    "27": {
+      "answer": "D — hiding your emotions",
+      "explanation": "技能是 Time management。 Tutor 問 deadline 接近時 Holly 怎樣反應。 Holly 說： “I’ve got to look calm even if I’m in a panic.” Tutor 再說： “no one must know I’m under pressure.” 所以在時間壓力下要保持外表鎮定，不讓別人看出慌亂。 答案是 D。",
+      "sourcePages": [
+        60
+      ]
+    },
+    "28": {
+      "answer": "B — focusing on details",
+      "explanation": "技能是 Creativity。 Tutor 說 client 可能只提供： “the ‘big picture’ idea” events manager 要負責： “think of all the fine points that go to making it work.” Holly 回： “fill in all the gaps.” 所以 creativity 在這裡不只是想一個大概念，更重要是補足所有細節。 答案是 B。",
+      "sourcePages": [
+        60
+      ]
+    },
+    "29": {
+      "answer": "F — trusting your own views",
+      "explanation": "技能是 Leadership。 Tutor 說 team 可能有很多 ideas，但： “you’ve got to make the ultimate choices.” 最後提醒： “believe in what you think best.” 所以領導者最終要相信自己的判斷，並承擔決策責任。 答案是 F。",
+      "sourcePages": [
+        61
+      ]
+    },
+    "30": {
+      "answer": "H — thinking of the future",
+      "explanation": "技能是 Networking。 Holly 說建立人脈可以幫助： “when I apply for a real job.” Tutor 回： “Exactly – think ahead – remember what your ambitions are” 所以 networking 要和未來職涯目標連結起來。 答案是 H。",
+      "sourcePages": [
+        61,
+        62
+      ]
+    },
+    "31": {
+      "answer": "mud",
+      "explanation": "題目寫： “It was believed that birds hibernated underwater or buried themselves in _____.” 錄音介紹另一種 hibernation theory： “they spent winter hidden in mud” 所以答案是 mud。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "32": {
+      "answer": "feathers",
+      "explanation": "題目寫： “In autumn he observed that redstarts experience the loss of _____” 錄音說： “redstarts began to lose their feathers” 所以答案是 feathers。 這項正確觀察後來被 Aristotle 錯誤解讀為 species transformation。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "33": {
+      "answer": "shape",
+      "explanation": "題目寫： “the two species of birds had a similar _____” 錄音說： “this pair of species are similar in shape” 所以 Aristotle 的假設在當時看起來有一定邏輯，因為 redstarts 和 robins 外形相近。 答案是 shape。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "34": {
+      "answer": "moon",
+      "explanation": "題目寫： “Charles Morton popularised the idea that birds fly to the _____ in winter.” 錄音說他聲稱： “birds migrate to the moon and back every year.” 所以答案是 moon。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "35": {
+      "answer": "neck",
+      "explanation": "題目寫： “a stork was killed in Germany which had an African spear in its _____.” 錄音說： “the long spear in its neck” 所以答案是 neck。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "36": {
+      "answer": "evidence",
+      "explanation": "題目寫： “previously there had been no _____ that storks migrate to Africa” 錄音說這隻 stork 上的 Central African spear： “was the first evidence that storks spend their winters in sub-Saharan Africa.” 所以在此之前，雖然可能有猜測，但沒有實際證據。 答案是 evidence。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "37": {
+      "answer": "destinations",
+      "explanation": "題目寫： “Little was known about the _____ and journeys of migrating birds” 錄音說： “very little information was available about the actual destinations of particular species and how they travelled there.” 題目把： ● destinations ● how they travelled there 整理成： destinations and journeys 所以答案是 destinations。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "38": {
+      "answer": "oceans",
+      "explanation": "題目寫： “small birds … were considered incapable of travelling across huge _____.” 錄音說人們不相信只有幾克重的小鳥可以： “fly over vast oceans.” vast = huge。 所以答案是 oceans。 這也解釋了為甚麼當時有人提出「大鳥背小鳥」這種理論。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "39": {
+      "answer": "recovery",
+      "explanation": "題目寫： “Ringing depended on what is called the ‘_____’ of dead birds.” 錄音解釋 bird ringing： “relies upon what is known as ‘recovery’” 並進一步定義： “when ringed birds are found dead in the place they have migrated to, and identified.” 所以 recovery 指的是之後找到已死亡的 ringed bird，再利用腳環資料確認牠從哪裡遷徙而來。 答案是 recovery。",
+      "sourcePages": [
+        65
+      ]
+    },
+    "40": {
+      "answer": "atlas",
+      "explanation": "題目寫： “In 1931, the first _____ to show the migration of European birds was printed.” 錄音說： “In 1931, an atlas was published showing where the most common species of European birds migrated to.” 所以答案是 atlas。 這代表 bird ringing 在 20 世紀初累積的大量資料，終於可以系統地整理成地圖集，讓人們第一次清楚看到不同 European bird species 的 migration destinations。",
+      "sourcePages": [
+        65
+      ]
+    }
+  },
+  "timings": {
+    "parts": {
+      "1": {
+        "duration": 348.395125,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2014%20Part%201.mp3",
+        "audioSha256": "0170b47be5696b1f590cb01a336e98678625e485d74753348ecfc368668d9add",
+        "transcriptSha256": "4ee392cd310ec40be58c32648d65f5050bdabe541b11895953d3f2fe8d8cf330",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9914,
+        "lines": [
+          {
+            "start": 50.16,
+            "end": 61.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 61.7,
+            "end": 66.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 67.06,
+            "end": 68.58,
+            "coverage": 0.9565
+          },
+          {
+            "start": 69.14,
+            "end": 72.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 73.68,
+            "end": 78.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 79.16,
+            "end": 81.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 81.3,
+            "end": 86.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 86.98,
+            "end": 89.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 89.46,
+            "end": 93.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 94.14,
+            "end": 96.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 96.92,
+            "end": 100.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 100.64,
+            "end": 105.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 106.14,
+            "end": 111.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 111.42,
+            "end": 112.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 113.06,
+            "end": 114.96,
+            "coverage": 0.8966
+          },
+          {
+            "start": 115.38,
+            "end": 118.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 118.92,
+            "end": 120.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 121.78,
+            "end": 124.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 124.94,
+            "end": 127.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 128.18,
+            "end": 129.54,
+            "coverage": 0.9524
+          },
+          {
+            "start": 130.36,
+            "end": 131.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 131.88,
+            "end": 134.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 136.26,
+            "end": 137.64,
+            "coverage": 0.8696
+          },
+          {
+            "start": 138.06,
+            "end": 144.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 144.68,
+            "end": 148.08,
+            "coverage": 0.9231
+          },
+          {
+            "start": 148.78,
+            "end": 149.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 150.14,
+            "end": 156.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 156.88,
+            "end": 159.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 159.32,
+            "end": 166.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 167.6,
+            "end": 169.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 170.66,
+            "end": 173.46,
+            "coverage": 0.85
+          },
+          {
+            "start": 174.12,
+            "end": 176.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 176.32,
+            "end": 185.74,
+            "coverage": 0.9412
+          },
+          {
+            "start": 186.32,
+            "end": 186.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 187.64,
+            "end": 192.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 193.06,
+            "end": 195.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 196.3,
+            "end": 198.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 199.12,
+            "end": 202.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 202.9,
+            "end": 203.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 204.34,
+            "end": 211.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 212.16,
+            "end": 213.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 213.54,
+            "end": 215.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 251.4,
+            "end": 256.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 256.64,
+            "end": 261.42,
+            "coverage": 0.9808,
+            "refined": true
+          },
+          {
+            "start": 261.42,
+            "end": 264.48,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 264.48,
+            "end": 273.98,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 275.16,
+            "end": 278.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 279.02,
+            "end": 282.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 282.78,
+            "end": 288.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 288.7,
+            "end": 295.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 296.32,
+            "end": 299.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 300.4,
+            "end": 305.38,
+            "coverage": 0.9846
+          },
+          {
+            "start": 306.36,
+            "end": 317.24,
+            "coverage": 0.9916
+          },
+          {
+            "start": 317.74,
+            "end": 318.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 319.08,
+            "end": 326.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 326.5,
+            "end": 328.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 329.74,
+            "end": 333.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 334.26,
+            "end": 336.6,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "2": {
+        "duration": 420.075125,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2014%20Part%202.mp3",
+        "audioSha256": "31c4bb12ea55a9271d109bb109b3fac0adeb9d18fe2071566a278500d3095ab1",
+        "transcriptSha256": "523656ab2d2c71c24d8ebddb8f58e648b694f80f9a1224cb3dc7ac1a08c68a13",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.993,
+        "lines": [
+          {
+            "start": 60.22,
+            "end": 68.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 68.74,
+            "end": 73.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 74.72,
+            "end": 88.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 88.02,
+            "end": 95.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 96.68,
+            "end": 100.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 101.3,
+            "end": 107.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 107.88,
+            "end": 115.84,
+            "coverage": 0.9894
+          },
+          {
+            "start": 115.84,
+            "end": 125.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 127.08,
+            "end": 133.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 134.82,
+            "end": 141.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 142.1,
+            "end": 146.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 147.96,
+            "end": 154.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 154.9,
+            "end": 160.7,
+            "coverage": 0.9571
+          },
+          {
+            "start": 161.44,
+            "end": 170.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 171.32,
+            "end": 175.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 176.02,
+            "end": 182.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 183.44,
+            "end": 189.78,
+            "coverage": 0.9437
+          },
+          {
+            "start": 190.32,
+            "end": 197.84,
+            "coverage": 0.9898
+          },
+          {
+            "start": 199.18,
+            "end": 205.62,
+            "coverage": 0.8961
+          },
+          {
+            "start": 206.44,
+            "end": 214.54,
+            "coverage": 0.9821
+          },
+          {
+            "start": 215.58,
+            "end": 221.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 222.28,
+            "end": 228.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 229.94,
+            "end": 236.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 237.4,
+            "end": 242.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 284.58,
+            "end": 291.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 291.88,
+            "end": 302.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 303.22,
+            "end": 304.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 305.32,
+            "end": 312.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 313.26,
+            "end": 318.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 319.26,
+            "end": 325.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 326.0,
+            "end": 329.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 330.6,
+            "end": 334.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 335.3,
+            "end": 339.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 340.36,
+            "end": 350.56,
+            "coverage": 0.9754
+          },
+          {
+            "start": 351.52,
+            "end": 355.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 356.06,
+            "end": 366.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 367.14,
+            "end": 372.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 373.4,
+            "end": 382.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 382.9,
+            "end": 384.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 385.2,
+            "end": 389.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 390.12,
+            "end": 392.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 393.42,
+            "end": 397.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 397.9,
+            "end": 409.46,
+            "coverage": 0.9867
+          }
+        ]
+      },
+      "3": {
+        "duration": 425.6391875,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2014%20Part%203.mp3",
+        "audioSha256": "1b2d5c044a05463e29eff06ad6c8112ad36a5c4000b76b98723227f20fd49645",
+        "transcriptSha256": "009e61a888ee12ba20ed3df879eb2b3599c0c4e31be82a67cb8245ea1c8c1b84",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9977,
+        "lines": [
+          {
+            "start": 53.04,
+            "end": 57.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 57.66,
+            "end": 60.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 60.66,
+            "end": 61.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 61.46,
+            "end": 63.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 64.42,
+            "end": 67.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 68.8,
+            "end": 74.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 75.42,
+            "end": 81.14,
+            "coverage": 0.9884
+          },
+          {
+            "start": 81.48,
+            "end": 89.82,
+            "coverage": 0.9907
+          },
+          {
+            "start": 90.46,
+            "end": 95.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 95.9,
+            "end": 98.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 99.26,
+            "end": 102.54,
+            "coverage": 0.9767
+          },
+          {
+            "start": 103.0,
+            "end": 107.56,
+            "coverage": 0.9714
+          },
+          {
+            "start": 108.32,
+            "end": 112.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 112.7,
+            "end": 119.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 120.24,
+            "end": 130.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 130.76,
+            "end": 134.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 134.9,
+            "end": 136.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 137.68,
+            "end": 142.22,
+            "coverage": 0.9538
+          },
+          {
+            "start": 142.22,
+            "end": 144.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 144.8,
+            "end": 147.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 148.5,
+            "end": 151.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 152.28,
+            "end": 160.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 160.84,
+            "end": 163.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 164.82,
+            "end": 174.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 175.2,
+            "end": 180.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 180.84,
+            "end": 183.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 184.14,
+            "end": 186.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 186.9,
+            "end": 193.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 194.0,
+            "end": 197.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 198.12,
+            "end": 198.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 247.2,
+            "end": 254.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 254.88,
+            "end": 256.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 256.84,
+            "end": 260.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 261.34,
+            "end": 265.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 266.48,
+            "end": 270.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 270.78,
+            "end": 275.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 275.88,
+            "end": 278.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 278.52,
+            "end": 282.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 283.26,
+            "end": 289.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 289.68,
+            "end": 292.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 293.44,
+            "end": 299.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 300.36,
+            "end": 302.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 302.84,
+            "end": 305.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 305.48,
+            "end": 311.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 311.8,
+            "end": 315.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 316.1,
+            "end": 319.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 320.0,
+            "end": 323.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 323.98,
+            "end": 326.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 327.86,
+            "end": 331.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 332.42,
+            "end": 341.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 341.36,
+            "end": 347.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 347.98,
+            "end": 354.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 355.0,
+            "end": 360.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 361.18,
+            "end": 364.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 365.06,
+            "end": 366.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 367.68,
+            "end": 371.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 372.34,
+            "end": 374.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 375.58,
+            "end": 380.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 380.88,
+            "end": 382.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 382.9,
+            "end": 385.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 386.16,
+            "end": 392.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 393.12,
+            "end": 398.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 399.18,
+            "end": 401.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 402.24,
+            "end": 405.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 405.62,
+            "end": 411.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 411.56,
+            "end": 411.94,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "4": {
+        "duration": 414.1453125,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2014%20Part%204.mp3",
+        "audioSha256": "0d354f6e374435c655a63bf5871adbab5adaea10a05ec72dfa3c1b3c1b7337fc",
+        "transcriptSha256": "8a21fa90755ba57eb0ca1a9c5eed8e745eb3b7668d76c2735559268b62b39be1",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9886,
+        "lines": [
+          {
+            "start": 70.1,
+            "end": 76.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 77.6,
+            "end": 87.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 88.7,
+            "end": 97.5,
+            "coverage": 0.9899
+          },
+          {
+            "start": 99.58,
+            "end": 104.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 105.62,
+            "end": 112.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 113.3,
+            "end": 122.28,
+            "coverage": 0.9714
+          },
+          {
+            "start": 123.76,
+            "end": 136.38,
+            "coverage": 0.922
+          },
+          {
+            "start": 137.32,
+            "end": 149.32,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 150.32,
+            "end": 162.32,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 163.82,
+            "end": 178.48,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 179.56,
+            "end": 188.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 189.72,
+            "end": 204.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 205.48,
+            "end": 217.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 218.94,
+            "end": 227.52,
+            "coverage": 0.9062
+          },
+          {
+            "start": 228.4,
+            "end": 236.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 236.84,
+            "end": 243.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 248.2,
+            "end": 258.08,
+            "coverage": 0.9783
+          },
+          {
+            "start": 259.42,
+            "end": 273.2,
+            "coverage": 0.9866
+          },
+          {
+            "start": 274.32,
+            "end": 278.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 279.12,
+            "end": 289.8,
+            "coverage": 0.984
+          },
+          {
+            "start": 291.1,
+            "end": 298.7,
+            "coverage": 0.9765
+          },
+          {
+            "start": 300.6,
+            "end": 314.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 315.8,
+            "end": 324.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 325.76,
+            "end": 333.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 334.68,
+            "end": 343.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 344.68,
+            "end": 352.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 355.18,
+            "end": 364.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 365.1,
+            "end": 377.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 378.84,
+            "end": 389.5,
+            "coverage": 0.9496
+          },
+          {
+            "start": 390.82,
+            "end": 398.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 399.3,
+            "end": 401.54,
+            "coverage": 1.0
+          }
+        ]
+      }
+    },
+    "questions": {
+      "1": {
+        "part": 1,
+        "time": 69.14,
+        "line": 3,
+        "evidenceScore": 73.0
+      },
+      "2": {
+        "part": 1,
+        "time": 86.98,
+        "line": 7,
+        "evidenceScore": 48.0
+      },
+      "3": {
+        "part": 1,
+        "time": 136.26,
+        "line": 22,
+        "evidenceScore": 43.0
+      },
+      "4": {
+        "part": 1,
+        "time": 170.66,
+        "line": 30,
+        "evidenceScore": 60.0
+      },
+      "5": {
+        "part": 1,
+        "time": 196.3,
+        "line": 36,
+        "evidenceScore": 46.0
+      },
+      "6": {
+        "part": 1,
+        "time": 204.34,
+        "line": 39,
+        "evidenceScore": 70.0
+      },
+      "7": {
+        "part": 1,
+        "time": 275.16,
+        "line": 46,
+        "evidenceScore": 73.0
+      },
+      "8": {
+        "part": 1,
+        "time": 288.7,
+        "line": 49,
+        "evidenceScore": 63.0
+      },
+      "9": {
+        "part": 1,
+        "time": 306.36,
+        "line": 52,
+        "evidenceScore": 76.0
+      },
+      "10": {
+        "part": 1,
+        "time": 326.5,
+        "line": 55,
+        "evidenceScore": 43.0
+      },
+      "11": {
+        "part": 2,
+        "time": 107.88,
+        "line": 6,
+        "evidenceScore": 42.0
+      },
+      "12": {
+        "part": 2,
+        "time": 107.88,
+        "line": 6,
+        "evidenceScore": 42.0
+      },
+      "13": {
+        "part": 2,
+        "time": 154.9,
+        "line": 12,
+        "evidenceScore": 64.0
+      },
+      "14": {
+        "part": 2,
+        "time": 183.44,
+        "line": 16,
+        "evidenceScore": 63.0
+      },
+      "15": {
+        "part": 2,
+        "time": 215.58,
+        "line": 20,
+        "evidenceScore": 56.0
+      },
+      "16": {
+        "part": 2,
+        "time": 319.26,
+        "line": 29,
+        "evidenceScore": 54.0
+      },
+      "17": {
+        "part": 2,
+        "time": 340.36,
+        "line": 33,
+        "evidenceScore": 32.0
+      },
+      "18": {
+        "part": 2,
+        "time": 356.06,
+        "line": 35,
+        "evidenceScore": 58.0
+      },
+      "19": {
+        "part": 2,
+        "time": 373.4,
+        "line": 37,
+        "evidenceScore": 17.33
+      },
+      "20": {
+        "part": 2,
+        "time": 397.9,
+        "line": 42,
+        "evidenceScore": 36.0
+      },
+      "21": {
+        "part": 3,
+        "time": 81.48,
+        "line": 7,
+        "evidenceScore": 28.0
+      },
+      "22": {
+        "part": 3,
+        "time": 120.24,
+        "line": 14,
+        "evidenceScore": 37.0
+      },
+      "23": {
+        "part": 3,
+        "time": 144.8,
+        "line": 19,
+        "evidenceScore": 20.0
+      },
+      "24": {
+        "part": 3,
+        "time": 164.82,
+        "line": 23,
+        "evidenceScore": 32.0
+      },
+      "25": {
+        "part": 3,
+        "time": 266.48,
+        "line": 34,
+        "evidenceScore": 23.0
+      },
+      "26": {
+        "part": 3,
+        "time": 289.68,
+        "line": 39,
+        "evidenceScore": 40.0
+      },
+      "27": {
+        "part": 3,
+        "time": 316.1,
+        "line": 45,
+        "evidenceScore": 32.0
+      },
+      "28": {
+        "part": 3,
+        "time": 332.42,
+        "line": 49,
+        "evidenceScore": 43.0
+      },
+      "29": {
+        "part": 3,
+        "time": 355.0,
+        "line": 52,
+        "evidenceScore": 32.0
+      },
+      "30": {
+        "part": 3,
+        "time": 405.62,
+        "line": 64,
+        "evidenceScore": 45.0
+      },
+      "31": {
+        "part": 4,
+        "time": 137.32,
+        "line": 7,
+        "evidenceScore": 46.0
+      },
+      "32": {
+        "part": 4,
+        "time": 189.72,
+        "line": 11,
+        "evidenceScore": 53.0
+      },
+      "33": {
+        "part": 4,
+        "time": 205.48,
+        "line": 12,
+        "evidenceScore": 54.0
+      },
+      "34": {
+        "part": 4,
+        "time": 228.4,
+        "line": 14,
+        "evidenceScore": 57.0
+      },
+      "35": {
+        "part": 4,
+        "time": 259.42,
+        "line": 17,
+        "evidenceScore": 41.0
+      },
+      "36": {
+        "part": 4,
+        "time": 279.12,
+        "line": 19,
+        "evidenceScore": 84.0
+      },
+      "37": {
+        "part": 4,
+        "time": 315.8,
+        "line": 22,
+        "evidenceScore": 122.0
+      },
+      "38": {
+        "part": 4,
+        "time": 334.68,
+        "line": 24,
+        "evidenceScore": 37.0
+      },
+      "39": {
+        "part": 4,
+        "time": 365.1,
+        "line": 27,
+        "evidenceScore": 88.0
+      },
+      "40": {
+        "part": 4,
+        "time": 390.82,
+        "line": 29,
+        "evidenceScore": 102.0
+      }
+    }
+  }
+}

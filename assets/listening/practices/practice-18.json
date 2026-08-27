@@ -1,0 +1,3568 @@
+{
+  "schemaVersion": 1,
+  "practice": 18,
+  "title": "IELTS Listening Practice 18",
+  "source": {
+    "file": "IELTS Listening - Practice - 18.pdf",
+    "sha256": "36ad2490104d5b626d97ae720da80d3b0ebf0f399b78035e7322c1afeb748cbc",
+    "pageCount": 66,
+    "corrections": []
+  },
+  "parts": [
+    {
+      "part": 1,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 1–10\nComplete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nJunior Cycle Camp\nThe course focuses on skills and safety.\n● Charlie would be placed in Level 5.\n● First of all, children at this level are taken to practise in a 1 __________.\nInstructors\n● Instructors wear 2 __________ shirts.\n● A 3 __________ is required and training is given.\nClasses\n● The size of the classes is limited.\n● There are quiet times during the morning for a 4 __________ or a\ngame.\n● Classes are held even if there is 5 __________.",
+          "page": 4
+        },
+        {
+          "type": "text",
+          "text": "What to bring\n● a change of clothing\n● a 6 __________\n● shoes, not sandals\n● Charlie’s 7 __________\nDay 1\n● Charlie should arrive at 9.20 a.m. on the first day.\n● Before the class, his 8 __________ will be checked.\n● He should then go to the 9 __________ to meet his class instructor.\nCost\n● The course costs $10 __________ per week.",
+          "page": 5
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 1,
+          "prompt": "● First of all, children at this level are taken to practise in a 1 __________.",
+          "translation": "",
+          "answer": "park",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 2,
+          "prompt": "● Instructors wear 2 __________ shirts.",
+          "translation": "",
+          "answer": "blue",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 3,
+          "prompt": "● A 3 __________ is required and training is given.",
+          "translation": "",
+          "answer": "reference",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 4,
+          "prompt": "● There are quiet times during the morning for a 4 __________ or a",
+          "translation": "",
+          "answer": "story",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 5,
+          "prompt": "● Classes are held even if there is 5 __________.",
+          "translation": "",
+          "answer": "rain",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 6,
+          "prompt": "● a 6 __________",
+          "translation": "",
+          "answer": "snack",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 7,
+          "prompt": "● Charlie’s 7 __________",
+          "translation": "",
+          "answer": "medication",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 8,
+          "prompt": "● Before the class, his 8 __________ will be checked.",
+          "translation": "",
+          "answer": "helmet",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 9,
+          "prompt": "● He should then go to the 9 __________ to meet his class instructor.",
+          "translation": "",
+          "answer": "tent",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 10,
+          "prompt": "● The course costs $10 __________ per week.",
+          "translation": "",
+          "answer": "199",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        7,
+        8,
+        9
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 11 and 12\nChoose TWO letters, A–E.\nAccording to Megan, what are the TWO main advantages of working in the\nagriculture and horticulture sectors?\nA. the active lifestyle\nB. the above-average salaries\nC. the flexible working opportunities\nD. the opportunities for overseas travel\nE. the chance to be in a natural environment",
+          "page": 7
+        },
+        {
+          "type": "text",
+          "text": "Questions 13 and 14\nChoose TWO letters, A–E.\nWhich TWO of the following are likely to be disadvantages for people working\noutdoors?\nA. the increasing risk of accidents\nB. being in a very quiet location\nC. difficult weather conditions at times\nD. the cost of housing\nE. the level of physical fitness required",
+          "page": 8
+        },
+        {
+          "type": "text",
+          "text": "Questions 15–20\nWhat information does Megan give about each of the following job\nopportunities?\nChoose SIX answers from the box and write the correct letter, A–H, next to\nQuestions 15–20.\nInformation\nA. not a permanent job\nB. involves leading a team\nC. experience not essential\nD. intensive work but also fun\nE. chance to earn more through overtime\nF. chance for rapid promotion\nG. accommodation available\nH. local travel involved\nJob opportunities\n15. Fresh food commercial manager __________\n16. Agronomist __________\n17. Fresh produce buyer __________\n18. Garden centre sales manager __________\n19. Tree technician __________\n20. Farm worker __________",
+          "page": 9
+        }
+      ],
+      "questions": [
+        {
+          "type": "multi",
+          "part": 2,
+          "numbers": [
+            11,
+            12
+          ],
+          "prompt": "Choose TWO letters, A–E. According to Megan, what are the TWO main advantages of working in the agriculture and horticulture sectors?",
+          "translation": "",
+          "answers": [
+            "A",
+            "C"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "the active lifestyle",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "the above-average salaries",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "the flexible working opportunities",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "the opportunities for overseas travel",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "the chance to be in a natural environment",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 2,
+          "numbers": [
+            13,
+            14
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO of the following are likely to be disadvantages for people working outdoors?",
+          "translation": "",
+          "answers": [
+            "B",
+            "C"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "the increasing risk of accidents",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "being in a very quiet location",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "difficult weather conditions at times",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "the cost of housing",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "the level of physical fitness required",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 15,
+          "prompt": "Fresh food commercial manager",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "not a permanent job",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "involves leading a team",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "experience not essential",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "intensive work but also fun",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "chance to earn more through overtime",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "chance for rapid promotion",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "accommodation available",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "local travel involved",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 16,
+          "prompt": "Agronomist",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "not a permanent job",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "involves leading a team",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "experience not essential",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "intensive work but also fun",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "chance to earn more through overtime",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "chance for rapid promotion",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "accommodation available",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "local travel involved",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 17,
+          "prompt": "Fresh produce buyer",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "not a permanent job",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "involves leading a team",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "experience not essential",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "intensive work but also fun",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "chance to earn more through overtime",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "chance for rapid promotion",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "accommodation available",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "local travel involved",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 18,
+          "prompt": "Garden centre sales manager",
+          "translation": "",
+          "answer": "H",
+          "options": [
+            {
+              "key": "A",
+              "en": "not a permanent job",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "involves leading a team",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "experience not essential",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "intensive work but also fun",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "chance to earn more through overtime",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "chance for rapid promotion",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "accommodation available",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "local travel involved",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 19,
+          "prompt": "Tree technician",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "not a permanent job",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "involves leading a team",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "experience not essential",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "intensive work but also fun",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "chance to earn more through overtime",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "chance for rapid promotion",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "accommodation available",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "local travel involved",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 20,
+          "prompt": "Farm worker",
+          "translation": "",
+          "answer": "G",
+          "options": [
+            {
+              "key": "A",
+              "en": "not a permanent job",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "involves leading a team",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "experience not essential",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "intensive work but also fun",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "chance to earn more through overtime",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "chance for rapid promotion",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "accommodation available",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "local travel involved",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        11,
+        12,
+        13
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 21 and 22\nChoose TWO letters, A–E.\nWhich TWO points does Adam make about his experiment on artificial\nsweeteners?\nA. The results were what he had predicted.\nB. The experiment was simple to set up.\nC. A large sample of people was tested.\nD. The subjects were unaware of what they were drinking.\nE. The test was repeated several times for each person.\nQuestions 23 and 24\nChoose TWO letters, A–E.\nWhich TWO problems did Rosie have when measuring the fat content of nuts?\nA. She used the wrong sort of nuts.\nB. She used an unsuitable chemical.\nC. She did not grind the nuts finely enough.\nD. The information on the nut package was incorrect.\nE. The weighing scales may have been unsuitable.",
+          "page": 11
+        },
+        {
+          "type": "text",
+          "text": "Questions 25–30\nChoose the correct letter, A, B or C.\n25. Adam suggests that restaurants could reduce obesity if their menus\nA. offered fewer options.\nB. had more low-calorie foods.\nC. were organised in a particular way.\n26. The students agree that food manufacturers deliberately\nA. make calorie counts hard to understand.\nB. fail to provide accurate calorie counts.\nC. use ineffective methods to reduce calories.\n27. What does Rosie say about levels of exercise in England?\nA. The amount recommended is much too low.\nB. Most people overestimate how much they do.\nC. Women now exercise more than they used to.",
+          "page": 12
+        },
+        {
+          "type": "text",
+          "text": "28. Adam refers to the location and width of stairs in a train station to\nillustrate\nA. practical changes that can influence people’s behaviour.\nB. methods of helping people who have mobility problems.\nC. ways of preventing accidents by controlling crowd movement.\n29. What do the students agree about including reference to exercise in\ntheir presentation?\nA. They should probably leave it out.\nB. They need to do more research on it.\nC. They should discuss this with their tutor.\n30. What are the students going to do next for their presentation?\nA. prepare some slides for it\nB. find out how long they have for it\nC. decide on its content and organisation",
+          "page": 13
+        }
+      ],
+      "questions": [
+        {
+          "type": "multi",
+          "part": 3,
+          "numbers": [
+            21,
+            22
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO points does Adam make about his experiment on artificial sweeteners?",
+          "translation": "",
+          "answers": [
+            "C",
+            "D"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "The results were what he had predicted.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The experiment was simple to set up.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "A large sample of people was tested.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "The subjects were unaware of what they were drinking.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "The test was repeated several times for each person.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 3,
+          "numbers": [
+            23,
+            24
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO problems did Rosie have when measuring the fat content of nuts?",
+          "translation": "",
+          "answers": [
+            "C",
+            "E"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "She used the wrong sort of nuts.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "She used an unsuitable chemical.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "She did not grind the nuts finely enough.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "The information on the nut package was incorrect.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "The weighing scales may have been unsuitable.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 25,
+          "prompt": "Adam suggests that restaurants could reduce obesity if their menus",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "offered fewer options.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "had more low-calorie foods.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "were organised in a particular way.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 26,
+          "prompt": "The students agree that food manufacturers deliberately",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "make calorie counts hard to understand.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "fail to provide accurate calorie counts.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "use ineffective methods to reduce calories.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 27,
+          "prompt": "What does Rosie say about levels of exercise in England?",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "The amount recommended is much too low.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Most people overestimate how much they do.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "Women now exercise more than they used to.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 28,
+          "prompt": "Adam refers to the location and width of stairs in a train station to illustrate",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "practical changes that can influence people’s behaviour.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "methods of helping people who have mobility problems.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "ways of preventing accidents by controlling crowd movement.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 29,
+          "prompt": "What do the students agree about including reference to exercise in their presentation?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "They should probably leave it out.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They need to do more research on it.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They should discuss this with their tutor.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 30,
+          "prompt": "What are the students going to do next for their presentation?",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "prepare some slides for it",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "find out how long they have for it",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "decide on its content and organisation",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        15
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 31–40\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nHand Knitting\nInterest in knitting\n● Knitting has a long history around the world.\n● We imagine someone like a 31 __________ knitting.\n● A 32 __________ ago, knitting was expected to disappear.\n● The number of knitting classes is now increasing.\n● People are buying more 33 __________ for knitting nowadays.\nBenefits of knitting\n● gives support in times of 34 __________ difficulty\n● requires only 35 __________ skills and little money to start\n● reduces stress in a busy life\nEarly knitting\n● The origins are not known.\n● Findings show early knitted items to be 36 __________ in shape.\n● The first needles were made of natural materials such as wood and 37\n__________.\n● Early yarns felt 38 __________ to touch.\n● Wool became the most popular yarn for spinning.\n● Geographical areas had their own 39 __________ of knitting.\n● Everyday tasks like looking after 40 __________ were done while\nknitting.",
+          "page": 15
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 31,
+          "prompt": "● We imagine someone like a 31 __________ knitting.",
+          "translation": "",
+          "answer": "grandmother",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 32,
+          "prompt": "● A 32 __________ ago, knitting was expected to disappear.",
+          "translation": "",
+          "answer": "decade",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 33,
+          "prompt": "● People are buying more 33 __________ for knitting nowadays.",
+          "translation": "",
+          "answer": "equipment",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 34,
+          "prompt": "● gives support in times of 34 __________ difficulty",
+          "translation": "",
+          "answer": "economic",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 35,
+          "prompt": "● requires only 35 __________ skills and little money to start",
+          "translation": "",
+          "answer": "basic",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 36,
+          "prompt": "● Findings show early knitted items to be 36 __________ in shape.",
+          "translation": "",
+          "answer": "round",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 37,
+          "prompt": "● The first needles were made of natural materials such as wood and 37 __________.",
+          "translation": "",
+          "answer": "bone",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 38,
+          "prompt": "● Early yarns felt 38 __________ to touch.",
+          "translation": "",
+          "answer": "rough",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 39,
+          "prompt": "● Geographical areas had their own 39 __________ of knitting.",
+          "translation": "",
+          "answer": "style",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 40,
+          "prompt": "● Everyday tasks like looking after 40 __________ were done while",
+          "translation": "",
+          "answer": "sheep",
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "1": [
+      {
+        "en": "JAKE: Hello, Junior Cycle camp, Jake speaking.",
+        "zh": "Jake：您好，這裡是 Junior Cycle Camp，我是 Jake。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-001"
+      },
+      {
+        "en": "WOMAN: Hi. I’m calling for some information about the cycle camp – I’m thinking of sending my son.",
+        "zh": "Woman：你好。我打電話是想了解一些關於自行車營的資訊，我正在考慮讓我兒子參加。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-002"
+      },
+      {
+        "en": "JAKE: Great. Well, it’s held every weekday morning over the summer vacation and we focus on basic cycling skills and safety.",
+        "zh": "Jake：太好了。這個營隊在暑假期間每個工作日早上舉行，重點是基本騎車技巧和安全。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-003"
+      },
+      {
+        "en": "We have eight levels for children from three years upwards.",
+        "zh": "我們為三歲以上的孩子設有八個級別。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-004"
+      },
+      {
+        "en": "How old’s your son?",
+        "zh": "你兒子幾歲？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-005"
+      },
+      {
+        "en": "WOMAN: Charlie? He’s seven.",
+        "zh": "Woman：Charlie 嗎？他七歲。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-006"
+      },
+      {
+        "en": "He can ride a bike, but he needs a little more training before he’s safe to go on the road.",
+        "zh": "他會騎自行車，但在能安全上路之前，還需要再多一些訓練。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-007"
+      },
+      {
+        "en": "JAKE: He’d probably be best in Level 5.",
+        "zh": "Jake：他大概最適合 Level 5。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-008"
+      },
+      {
+        "en": "They start off practising on the site here, and we aim to get them riding on the road, but first they’re taken to ride in the park, away from the traffic.",
+        "zh": "他們一開始會在我們這裡的場地練習，我們的目標是讓他們能上路騎車，但首先會帶他們去公園騎，遠離車流。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-009"
+      },
+      {
+        "en": "WOMAN: Right. And can you tell me a bit about the instructors?",
+        "zh": "Woman：好的。你能告訴我一些關於教練的情況嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-010"
+      },
+      {
+        "en": "JAKE: Well, all our staff wear different coloured shirts.",
+        "zh": "Jake：嗯，我們所有工作人員都穿不同顏色的襯衫。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-011"
+      },
+      {
+        "en": "So, we have three supervisors, and they have red shirts.",
+        "zh": "我們有三名主管，他們穿紅色襯衫。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-012"
+      },
+      {
+        "en": "They support the instructors, and they also stand in for me if I’m not around.",
+        "zh": "他們會支援教練，如果我不在，也會代替我處理事情。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-013"
+      },
+      {
+        "en": "Then the instructors themselves are in blue shirts, and one of these is responsible for each class.",
+        "zh": "教練本人則穿藍色襯衫，每個班都有一位教練負責。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-014"
+      },
+      {
+        "en": "WOMAN: OK.",
+        "zh": "Woman：好的。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-015"
+      },
+      {
+        "en": "JAKE: In order to be accepted, all our instructors have to submit a reference from someone who’s seen them work with children – like if they’ve worked as a babysitter, for example.",
+        "zh": "Jake：為了被錄用，我們所有教練都必須提交一封推薦信，推薦人要見過他們和孩子一起工作，例如曾經做過保姆。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-016"
+      },
+      {
+        "en": "Then they have to complete our training course, including how to do lesson plans, and generally care for the well-being of the kids in their class.",
+        "zh": "然後他們必須完成我們的培訓課程，包括如何制定課程計畫，以及如何全面照顧班上孩子的身心狀況。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-017"
+      },
+      {
+        "en": "They do a great job, I have to say.",
+        "zh": "我必須說，他們做得非常好。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-018"
+      },
+      {
+        "en": "WOMAN: Right. And tell me a bit about the classes.",
+        "zh": "Woman：明白。那再跟我說說班級吧。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-019"
+      },
+      {
+        "en": "What size will Charlie’s class be?",
+        "zh": "Charlie 的班會有多少人？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-020"
+      },
+      {
+        "en": "JAKE: We have a limit of eight children in each class, so their instructor really gets to know them well.",
+        "zh": "Jake：每班最多八個孩子，所以教練真的能很好地了解每個孩子。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-021"
+      },
+      {
+        "en": "They’re out riding most of the time but they have quiet times too, where their instructor might tell them a story that’s got something to do with cycling, or get them to play a game together.",
+        "zh": "他們大部分時間都在外面騎車，但也會有安靜時間，教練可能會講一個和騎車有關的故事，或者讓他們一起玩遊戲。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-022"
+      },
+      {
+        "en": "It’s a lot of fun.",
+        "zh": "這很有趣。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-023"
+      },
+      {
+        "en": "WOMAN: It must be.",
+        "zh": "Woman：一定很有趣。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-024"
+      },
+      {
+        "en": "Now, what happens if there’s rain?",
+        "zh": "那如果下雨怎麼辦？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-025"
+      },
+      {
+        "en": "Do the classes still run?",
+        "zh": "課程還會照常進行嗎？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-026"
+      },
+      {
+        "en": "JAKE: Oh yes. We don’t let that put us off – we just put on our waterproofs and keep cycling.",
+        "zh": "Jake：會的。我們不會因為下雨就停下來，只會穿上防水衣繼續騎。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-027"
+      },
+      {
+        "en": "WOMAN: And is there anything special Charlie should bring along with him?",
+        "zh": "Woman：那 Charlie 有什麼特別需要帶的東西嗎？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-028"
+      },
+      {
+        "en": "JAKE: Well, maybe some spare clothes, especially if the weather’s not so good.",
+        "zh": "Jake：嗯，也許要帶一些備用衣服，尤其是天氣不太好的時候。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-029"
+      },
+      {
+        "en": "And a snack for break time.",
+        "zh": "還要帶一份休息時間吃的小點心。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-030"
+      },
+      {
+        "en": "WOMAN: How about a drink?",
+        "zh": "Woman：飲料呢？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-031"
+      },
+      {
+        "en": "JAKE: No, we’ll provide that.",
+        "zh": "Jake：不用，我們會提供。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-032"
+      },
+      {
+        "en": "And make sure he has shoes, not sandals.",
+        "zh": "還要確保他穿鞋子，不要穿涼鞋。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-033"
+      },
+      {
+        "en": "WOMAN: Sure. And just at present Charlie has to take medication every few hours, so I’ll make sure he has that.",
+        "zh": "Woman：好的。目前 Charlie 每隔幾個小時就要服藥，所以我會確保他帶著藥。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-034"
+      },
+      {
+        "en": "JAKE: Absolutely. Just give us details of when he has to take it and we’ll make sure he does.",
+        "zh": "Jake：沒問題。只要把他什麼時候需要服藥的細節告訴我們， 我們會確保他按時服用。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-035"
+      },
+      {
+        "en": "WOMAN: Thanks.",
+        "zh": "Woman：謝謝。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-036"
+      },
+      {
+        "en": "JAKE: Now, there are a few things you should know about Day 1 of the camp.",
+        "zh": "Jake：接下來，有幾件關於營隊第一天的事情你需要知道。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-037"
+      },
+      {
+        "en": "The classes normally start at 9.30 every morning, but on Day 1 you should aim to get Charlie here by 9.20.",
+        "zh": "課程通常每天早上 9:30 開始， 但第一天你應該盡量在 9:20 前把 Charlie 送到。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-038"
+      },
+      {
+        "en": "The finishing time will be 12.30 as usual.",
+        "zh": "結束時間和平常一樣，是 12:30。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-039"
+      },
+      {
+        "en": "We need the additional time because there are a few extra things to do.",
+        "zh": "我們需要額外時間，因為有幾件額外事情要做。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-040"
+      },
+      {
+        "en": "The most important is that we have a very careful check to make sure that every child’s helmet fits properly.",
+        "zh": "最重要的是，我們會非常仔細地檢查，確保每個孩子的頭盔都合適。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-041"
+      },
+      {
+        "en": "If it doesn’t fit, we’ll try to adjust it, or we’ll find him another one – but he must wear it all the time he’s on the bike.",
+        "zh": "如果不合適，我們會試著調整，或者給他找另一頂；但只要他在自行車上，就必須一直戴著。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-042"
+      },
+      {
+        "en": "WOMAN: Of course.",
+        "zh": "Woman：當然。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-043"
+      },
+      {
+        "en": "JAKE: Then after that, all the instructors will be waiting to meet their classes, and they’ll meet up in the tent – you can’t miss it.",
+        "zh": "Jake：之後，所有教練會等著和自己的班級見面，他們會在帳篷集合，你不會錯過的。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-044"
+      },
+      {
+        "en": "And each instructor will take their class away and get started.",
+        "zh": "然後每位教練會帶自己的班離開並開始活動。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-045"
+      },
+      {
+        "en": "WOMAN: OK. Well that all sounds good.",
+        "zh": "Woman：好的，聽起來都很好。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-046"
+      },
+      {
+        "en": "Now can you tell me how much the camp costs a week?",
+        "zh": "那你能告訴我這個營隊每週費用是多少嗎？",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-047"
+      },
+      {
+        "en": "JAKE: One hundred ninety-nine dollars.",
+        "zh": "Jake：199 美元。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-048"
+      },
+      {
+        "en": "We’ve managed to keep the price more or less the same as last year – it was one hundred ninety then.",
+        "zh": "我們已經盡量讓價格和去年差不多，去年是 190 美元。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-049"
+      },
+      {
+        "en": "But the places are filling up quite quickly.",
+        "zh": "不過名額很快就會滿。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-050"
+      },
+      {
+        "en": "WOMAN: Right. OK, well I’d like to book for …",
+        "zh": "Woman：明白。好的，那我想預訂……",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-051"
+      }
+    ],
+    "2": [
+      {
+        "en": "Hello everyone. My name’s Megan Baker and I’m a recruitment consultant at AVT Recruitment specialists.",
+        "zh": "大家好。我叫 Megan Baker，是 AVT Recruitment specialists 的招聘顧問。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-001"
+      },
+      {
+        "en": "Now, our company specialises in positions that involve working in the agriculture and horticulture sectors, so that’s fresh food production, garden and park maintenance and so on.",
+        "zh": "我們公司專門招聘農業和園藝領域相關職位，也就是新鮮食品生產、花園和公園維護等等。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-002"
+      },
+      {
+        "en": "And these sectors do provide some very special career opportunities.",
+        "zh": "這些產業確實提供一些非常特別的職涯機會。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-003"
+      },
+      {
+        "en": "For a start, they often offer opportunities for those who don’t want to be stuck with a 40-hour week, but need to juggle work with other responsibilities such as child care – and this is very important for many of our recruits.",
+        "zh": "首先，它們常常為那些不想被固定 40 小時工時束縛、但又需要兼顧育兒等其他責任的人提供機會，而這對我們許多求職者來說非常重要。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-004"
+      },
+      {
+        "en": "Some people like working in a rural setting, surrounded by plants and trees instead of buildings, although we can’t guarantee that.",
+        "zh": "有些人喜歡在鄉村環境工作， 周圍是植物和樹木，而不是建築物，雖然我們不能保證每份工作都是如此。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-005"
+      },
+      {
+        "en": "But there are certainly health benefits, especially in jobs where you’re not sitting all day looking at a screen – a big plus for many people.",
+        "zh": "但這確實有健康益處，尤其是那些不需要整天坐著盯著螢幕的工作，對很多人來說是一大優點。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-006"
+      },
+      {
+        "en": "Salaries can sometimes be good too, although there’s a lot of variety here.",
+        "zh": "薪水有時也不錯，雖然差異很大。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-007"
+      },
+      {
+        "en": "And you may have the opportunity in some types of jobs for travel overseas, although that obviously depends on the job, and not everyone is keen to do it.",
+        "zh": "某些職位也可能有海外旅行機會，不過這顯然取決於工作內容，而且不是每個人都想這樣做。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-008"
+      },
+      {
+        "en": "Of course, working outdoors does have its challenges.",
+        "zh": "當然，戶外工作也有挑戰。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-009"
+      },
+      {
+        "en": "It’s fine in summer, but can be extremely unpleasant when it’s cold and windy.",
+        "zh": "夏天還好，但寒冷又多風時可能非常不舒服。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-010"
+      },
+      {
+        "en": "You may need to be pretty fit for some jobs, though with modern technology that’s not as important as it once was.",
+        "zh": "某些工作可能需要相當好的體能，不過有了現代科技，這點不像以前那麼重要。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-011"
+      },
+      {
+        "en": "And standards of health and safety are much higher now than they used to be, so there are fewer work-related accidents.",
+        "zh": "現在健康與安全標準比過去高很多，所以工作相關事故也更少。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-012"
+      },
+      {
+        "en": "But if you like a lively city environment surrounded by lots of people, these jobs are probably not for you – they’re often in pretty remote areas.",
+        "zh": "但如果你喜歡熱鬧、周圍有很多人的城市環境，這些工作可能不適合你，因為它們通常位於相當偏遠的地方。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-013"
+      },
+      {
+        "en": "And some people worry about finding a suitable place to live, but in our experience, this usually turns out fine.",
+        "zh": "有些人也會擔心找不到合適住所，但根據我們的經驗，通常最後都沒問題。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-014"
+      },
+      {
+        "en": "Now let me tell you about some of the exciting jobs that we have on our books right now.",
+        "zh": "現在讓我介紹一些目前我們手上令人興奮的職缺。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-015"
+      },
+      {
+        "en": "One is for a fresh food commercial manager.",
+        "zh": "其中一個是新鮮食品商務經理。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-016"
+      },
+      {
+        "en": "Our client here is a very large fresh food producer supplying a range of top supermarkets.",
+        "zh": "我們的客戶是一家大型新鮮食品生產商，為多家頂級超市供貨。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-017"
+      },
+      {
+        "en": "They operate in a very fast-paced environment with low profit margins – the staff there work hard, but they play hard as well, so if you’ve a sociable personality this may be for you.",
+        "zh": "他們在節奏很快、利潤率較低的環境中運作，員工工作很努力，但也很會享受生活；所以如果你個性外向，這可能適合你。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-018"
+      },
+      {
+        "en": "We have an exciting post as an agronomist advising farmers on issues such as crop nutrition, protection against pests, and the latest legislation on farming and agricultural practices.",
+        "zh": "我們還有一個令人期待的農藝師職位，需要就作物營養、病蟲害防治，以及最新農業法規和實務向農民提供建議。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-019"
+      },
+      {
+        "en": "There are good opportunities for the right person to quickly make their way up the career ladder, but a deep knowledge of the agricultural sector is expected of applicants.",
+        "zh": "對合適的人來說，這是快速晉升的好機會，但申請者需要對農業領域有深入了解。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-020"
+      },
+      {
+        "en": "A leading supermarket is looking for a fresh produce buyer who is available for a 12-month maternity cover contract.",
+        "zh": "一家大型超市正在尋找一位新鮮農產品採購員，職位是為期 12 個月的產假代職合約。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-021"
+      },
+      {
+        "en": "You need to have experience in administration, planning and buying in the fresh produce industry, and in return will receive a very competitive salary.",
+        "zh": "你需要具備新鮮農產品行業中的行政、規劃和採購經驗，而作為回報，你會獲得很有競爭力的薪資。",
+        "sourcePages": [
+          31,
+          32
+        ],
+        "id": "p2-row-022"
+      },
+      {
+        "en": "We have also received a request for a sales manager for a chain of garden centres.",
+        "zh": "我們也收到一家連鎖園藝中心招聘銷售經理的需求。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-023"
+      },
+      {
+        "en": "You will be visiting centres in the region to ensure their high levels of customer service are maintained.",
+        "zh": "你需要走訪該地區的各個中心，確保它們維持高水準的客戶服務。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-024"
+      },
+      {
+        "en": "This post is only suitable for someone who is prepared to live in the region.",
+        "zh": "這個職位只適合願意住在該地區的人。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-025"
+      },
+      {
+        "en": "There is also a vacancy for a tree technician to carry out tree cutting, forestry and conservation work.",
+        "zh": "另外還有一個樹木技術員空缺，需要進行樹木修剪、林業和保育工作。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-026"
+      },
+      {
+        "en": "Candidates must have a clean driving licence and have training in safety procedures.",
+        "zh": "申請者必須持有無違規紀錄的駕照，並接受過安全程序培訓。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-027"
+      },
+      {
+        "en": "A year’s experience would be preferred but the company might be prepared to consider someone who has just completed an appropriate training course.",
+        "zh": "有一年經驗者優先，但公司也可能考慮剛完成相關培訓課程的人。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-028"
+      },
+      {
+        "en": "Finally, we have a position for a farm worker.",
+        "zh": "最後，我們有一個農場工人的職位。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-029"
+      },
+      {
+        "en": "This will involve a wide range of farm duties including crop sowing and harvesting, machine maintenance and animal care.",
+        "zh": "這份工作涉及各種農場職責， 包括播種與收成、機器維護和動物照料。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-030"
+      },
+      {
+        "en": "Perks of the job include the possibility of renting a small cottage on the estate, and the chance to earn a competitive salary.",
+        "zh": "這份工作的福利包括有機會在農場租一間小屋，以及獲得具有競爭力薪資的機會。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-031"
+      },
+      {
+        "en": "A driving licence and tractor driving experience are essential.",
+        "zh": "駕照和拖拉機駕駛經驗是必要條件。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-032"
+      }
+    ],
+    "3": [
+      {
+        "en": "ADAM: OK Rosie, shall we try to get some ideas together for our presentation on diet and obesity?",
+        "zh": "Adam：好，Rosie，我們要不要為飲食和肥胖的簡報整理一些想法？",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-001"
+      },
+      {
+        "en": "ROSIE: Sure.",
+        "zh": "Rosie：當然。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-002"
+      },
+      {
+        "en": "ADAM: I can talk about the experiment I did to see if people can tell the difference between real sugar and artificial sweeteners.",
+        "zh": "Adam：我可以談談我做的實驗，看看人們是否能分辨真糖和人工甜味劑。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-003"
+      },
+      {
+        "en": "ROSIE: Where you gave people drinks with either sugar or artificial sweeteners and they had to say which they thought it was?",
+        "zh": "Rosie：就是你給人們喝含糖或人工甜味劑的飲料，然後讓他們判斷是哪一種？",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-004"
+      },
+      {
+        "en": "ADAM: Yeah. It took me ages to decide exactly how I’d organise it, especially how I could make sure that people didn’t know which drink I was giving them.",
+        "zh": "Adam：是的。我花了很久才決定要怎麼安排，尤其是要如何確保他們不知道我給他們的是哪種飲料。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-005"
+      },
+      {
+        "en": "It was hard to keep track of it all, especially as I had so many people doing it – I had to make sure I kept a proper record of what each person had had.",
+        "zh": "要記錄所有內容很困難，尤其是參與的人很多；我必須確保正確記錄每個人喝過什麼。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-006"
+      },
+      {
+        "en": "ROSIE: So could most people tell the difference?",
+        "zh": "Rosie：那大多數人能分辨出差別嗎？",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-007"
+      },
+      {
+        "en": "ADAM: Yeah – I hadn’t thought they would be able to, but most people could.",
+        "zh": "Adam：能。我原本以為他們做不到，但大多數人都能。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-008"
+      },
+      {
+        "en": "ROSIE: Then there’s that experiment I did measuring the fat content of nuts, to see if the nutritional information given on the packet was accurate.",
+        "zh": "Rosie：然後還有我做的那個測量堅果脂肪含量的實驗，看看包裝上的營養資訊是否準確。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-009"
+      },
+      {
+        "en": "ADAM: The one where you ground up the nuts and mixed them with a chemical to absorb the fat?",
+        "zh": "Adam：就是你把堅果磨碎，然後和一種化學物質混合，用來吸收脂肪的那個？",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-010"
+      },
+      {
+        "en": "ROSIE: Yes. My results were a bit problematic – the fat content for that type of nut seemed much lower than it said on the package.",
+        "zh": "Rosie：是的。我的結果有點問題，這種堅果的脂肪含量看起來比包裝上標示的低很多。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-011"
+      },
+      {
+        "en": "But I reckon the package information was right.",
+        "zh": "但我認為包裝資訊是正確的。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-012"
+      },
+      {
+        "en": "I think I should probably have ground up the nuts more than I did.",
+        "zh": "我覺得我可能應該把堅果磨得更細。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-013"
+      },
+      {
+        "en": "It’s possible that the scales for weighing the fat weren’t accurate enough, too.",
+        "zh": "也有可能稱脂肪的秤不夠精準。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-014"
+      },
+      {
+        "en": "I’d really like to try the experiment again some time.",
+        "zh": "我真的很想找時間再做一次這個實驗。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-015"
+      },
+      {
+        "en": "ADAM: So what can we say about helping people to lose weight?",
+        "zh": "Adam：那我們可以怎麼談幫助人們減重呢？",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-016"
+      },
+      {
+        "en": "There’s a lot we could say about what restaurants could do to reduce obesity.",
+        "zh": "關於餐廳可以如何降低肥胖率，我們可以談很多。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-017"
+      },
+      {
+        "en": "I read that the items at the start of a menu and the items at the end of a menu are much more likely to be chosen than the items in the middle.",
+        "zh": "我讀到，菜單開頭和結尾的菜品比中間的菜品更容易被選。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-018"
+      },
+      {
+        "en": "So, if you put the low-calorie items at the beginning and end of the menu, people will probably go for the food with fewer calories, without even realising what they’re doing.",
+        "zh": "所以如果把低熱量食物放在菜單開頭和結尾，人們可能會選擇熱量較低的食物，甚至沒有意識到自己這樣做了。",
+        "sourcePages": [
+          36,
+          37
+        ],
+        "id": "p3-row-019"
+      },
+      {
+        "en": "ROSIE: I think food manufacturers could do more to encourage healthy eating.",
+        "zh": "Rosie：我覺得食品製造商可以做更多事來鼓勵健康飲食。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-020"
+      },
+      {
+        "en": "ADAM: How?",
+        "zh": "Adam：怎麼做？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-021"
+      },
+      {
+        "en": "ROSIE: Well, when manufacturers put calorie counts of a food on the label, they’re sometimes really confusing and I suspect they do it on purpose.",
+        "zh": "Rosie：嗯，製造商把食物熱量標示在標籤上時，有時真的很令人困惑，我懷疑他們是故意的。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-022"
+      },
+      {
+        "en": "Because food that’s high in calories tastes better, and so they’ll sell more.",
+        "zh": "因為高熱量食物味道更好，所以會賣得更多。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-023"
+      },
+      {
+        "en": "ADAM: Yeah, so if you look at the amount of calories in a pizza, they’ll give you the calories per quarter pizza and you think, oh that’s not too bad.",
+        "zh": "Adam：是啊，如果你看一個披薩的熱量，他們會標示四分之一個披薩的熱量，你就會想， 哦，那還不算太糟。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-024"
+      },
+      {
+        "en": "But who’s going to eat a quarter pizza?",
+        "zh": "但誰會只吃四分之一個披薩？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-025"
+      },
+      {
+        "en": "ROSIE: Exactly.",
+        "zh": "Rosie：正是。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-026"
+      },
+      {
+        "en": "ADAM: I suppose another approach to this problem is to get people to exercise more.",
+        "zh": "Adam：我想解決這個問題的另一種方法是讓人們多運動。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-027"
+      },
+      {
+        "en": "ROSIE: Right. In England, the current guidelines are for at least 30 minutes of brisk walking, five days a week.",
+        "zh": "Rosie：對。在英格蘭，目前的指引是每週五天、每天至少快走 30 分鐘。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-028"
+      },
+      {
+        "en": "Now when you ask them, about 40% of men and 30% of women say they do this, but when you objectively measure the amount of walking they do with motion sensors, you find that only 6% of men and 4% of women do the recommended amount of exercise.",
+        "zh": "當你問他們時，大約 40% 的男性和 30% 的女性說自己做到了；但如果用動作感測器客觀測量他們的步行量，你會發現只有 6% 的男性和 4% 的女性達到建議運動量。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-029"
+      },
+      {
+        "en": "ADAM: Mm, so you can see why obesity is growing.",
+        "zh": "Adam：嗯，所以你可以看出為什麼肥胖率在上升。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-030"
+      },
+      {
+        "en": "ROSIE: So how can people be encouraged to take more exercise?",
+        "zh": "Rosie：那要怎麼鼓勵人們多運動呢？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-031"
+      },
+      {
+        "en": "ADAM: Well, for example, think of the location of stairs in a train station.",
+        "zh": "Adam：嗯，例如想想火車站裡樓梯的位置。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-032"
+      },
+      {
+        "en": "If people reach the stairs before they reach the escalator when they’re leaving the station, they’re more likely to take the stairs.",
+        "zh": "如果人們離開車站時先看到樓梯，然後才看到電扶梯，他們就更可能走樓梯。",
+        "sourcePages": [
+          38,
+          39
+        ],
+        "id": "p3-row-033"
+      },
+      {
+        "en": "And if you increase the width of the stairs, you’ll get more people using them at the same time.",
+        "zh": "如果增加樓梯寬度，也會有更多人同時使用樓梯。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-034"
+      },
+      {
+        "en": "It’s an unconscious process and influenced by minor modifications in their environment.",
+        "zh": "這是一種無意識過程，會受到環境中細微改變的影響。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-035"
+      },
+      {
+        "en": "ROSIE: Right. And it might not be a big change, but if it happens every day, it all adds up.",
+        "zh": "Rosie：對。這也許不是很大的變化，但如果每天都發生，累積起來就會有效果。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-036"
+      },
+      {
+        "en": "ADAM: Yes. But actually, I’m not sure if we should be talking about exercise in our presentation.",
+        "zh": "Adam：是的。不過其實我不確定我們是否應該在簡報裡談運動。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-037"
+      },
+      {
+        "en": "ROSIE: Well, we’ve done quite a bit of reading about it.",
+        "zh": "Rosie：嗯，我們已經讀了不少相關資料。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-038"
+      },
+      {
+        "en": "ADAM: I know, but it’s going to mean we have a very wide focus, and our tutor did say that we need to focus on causes and solutions in terms of nutrition.",
+        "zh": "Adam：我知道，但那會讓簡報範圍變得很廣，而且導師說我們需要從營養角度聚焦於原因和解決方案。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-039"
+      },
+      {
+        "en": "ROSIE: I suppose so. And we’ve got plenty of information about that.",
+        "zh": "Rosie：我想也是。而且我們有很多這方面資料。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-040"
+      },
+      {
+        "en": "OK, well that will be simpler.",
+        "zh": "好吧，那樣會簡單一些。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-041"
+      },
+      {
+        "en": "ADAM: So what shall we do now?",
+        "zh": "Adam：那我們現在要做什麼？",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-042"
+      },
+      {
+        "en": "We’ve still got half an hour before our next lecture.",
+        "zh": "下一堂課前我們還有半小時。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-043"
+      },
+      {
+        "en": "ROSIE: Let’s think about what we’re going to include and what will go where.",
+        "zh": "Rosie：我們來想想要包含哪些內容，以及各部分放在哪裡。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-044"
+      },
+      {
+        "en": "Then we can decide what slides we need.",
+        "zh": "然後再決定需要哪些投影片。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-045"
+      },
+      {
+        "en": "ADAM: OK, fine.",
+        "zh": "Adam：好，沒問題。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-046"
+      }
+    ],
+    "4": [
+      {
+        "en": "Good morning everyone. So today we’re going to look at an important creative activity and that’s hand knitting.",
+        "zh": "大家早安。今天我們要來看一項重要的創意活動，也就是手工編織。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-001"
+      },
+      {
+        "en": "Ancient knitted garments have been found in many different countries, showing that knitting is a global activity with a long history.",
+        "zh": "許多不同國家都發現了古代針織衣物，這顯示編織是一項歷史悠久的全球性活動。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-002"
+      },
+      {
+        "en": "When someone says the word “knitting” we might well picture an elderly person – a grandmother perhaps – sitting by the fire knitting garments for themselves or other members of the family.",
+        "zh": "當有人說到「編織」這個詞時，我們很可能會想像一位老人，也許是一位祖母，坐在火爐旁為自己或其他家人織衣服。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-003"
+      },
+      {
+        "en": "It’s homely image, but one that may lead you to feel that knitting is an activity of the past – and, indeed, during the previous decade, it was one of the skills that was predicted to vanish from everyday life.",
+        "zh": "這是一幅溫馨的家庭畫面， 但也可能讓你覺得編織是過去的活動；事實上，在前一個十年裡，它曾被預測為會從日常生活中消失的技能之一。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-004"
+      },
+      {
+        "en": "For although humans have sewn and knitted their own clothing for a very long time, many of these craft-based skills went into decline when industrial machines took over – mainly because they were no longer passed down from one generation to another.",
+        "zh": "雖然人類很久以來都會縫製和編織自己的衣物，但當工業機器取代手工後，許多這類手工技能開始衰退，主要是因為它們不再代代相傳。",
+        "sourcePages": [
+          41,
+          42
+        ],
+        "id": "p4-row-005"
+      },
+      {
+        "en": "However, that’s all changing and interest in knitting classes in many countries is actually rising, as more and more people are seeking formal instruction in the skill.",
+        "zh": "然而，這一切正在改變，許多國家對編織課的興趣實際上正在上升，因為越來越多人正在尋求正式教學。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-006"
+      },
+      {
+        "en": "With that trend, we’re also seeing an increase in the sales figures for knitting equipment.",
+        "zh": "隨著這股趨勢，我們也看到編織工具設備的銷售數字增加。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-007"
+      },
+      {
+        "en": "So why do people want to be taught to knit at a time when a machine can readily do the job for them?",
+        "zh": "那麼，在機器已能輕易替人完成這項工作的時代，為什麼人們還想學編織呢？",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-008"
+      },
+      {
+        "en": "The answer is that knitting, as a handicraft, has numerous benefits for those doing it.",
+        "zh": "答案是，編織作為一種手工藝，對從事它的人有許多好處。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-009"
+      },
+      {
+        "en": "Let’s consider what some of these might be.",
+        "zh": "我們來看看其中一些好處。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-010"
+      },
+      {
+        "en": "While many people knitted garments in the past because they couldn’t afford to buy clothes, it’s still true today that knitting can be helpful if you’re experiencing economic hardship.",
+        "zh": "過去很多人編織衣物是因為買不起衣服，而今天如果你正經歷經濟困難，編織仍然可能很有幫助。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-011"
+      },
+      {
+        "en": "If you have several children who all need warm winter clothes, knitting may save you a lot of money.",
+        "zh": "如果你有幾個孩子都需要保暖冬衣，編織可以幫你省很多錢。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-012"
+      },
+      {
+        "en": "And the results of knitting your own clothes can be very rewarding, even though the skills you need to get going are really quite basic and the financial outlay is minimal.",
+        "zh": "而且自己織衣服的成果會非常有成就感，即使開始所需技能其實相當基礎，花費也很低。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-013"
+      },
+      {
+        "en": "But the more significant benefits in today’s world are to do with well-being.",
+        "zh": "但在今天，更重要的好處與身心健康有關。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-014"
+      },
+      {
+        "en": "In a world where it’s estimated that we spend up to nine hours a day online, doing something with our hands that is craft-based makes us feel good.",
+        "zh": "在一個據估計每天最多花九小時上網的世界裡，動手做一件手工藝活動會讓我們感覺很好。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-015"
+      },
+      {
+        "en": "It releases us from the stress of a technological, fast-paced life.",
+        "zh": "它讓我們從科技化、快節奏生活的壓力中釋放出來。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-016"
+      },
+      {
+        "en": "Now, let’s look back a bit to early knitting activities.",
+        "zh": "現在，讓我們回顧一下早期的編織活動。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-017"
+      },
+      {
+        "en": "In fact, no one really knows when knitting first began, but archaeological remains have disclosed plenty of information for us to think about.",
+        "zh": "事實上，沒有人真正知道編織最早何時開始，但考古遺跡已揭示了許多值得思考的資訊。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-018"
+      },
+      {
+        "en": "One of the interesting things about knitting is that the earliest pieces of clothing that have been found suggest that most of the items produced were round rather than flat.",
+        "zh": "關於編織有趣的一點是，目前發現的最早衣物顯示，大多數製成品是圓形的，而不是平面的。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-019"
+      },
+      {
+        "en": "Discoveries from the 3rd and 4th centuries in Egypt show that things like socks and gloves, that were needed to keep hands and feet warm, were knitted in one piece using four or five needles.",
+        "zh": "在埃及發現的 3、4 世紀物品顯示，襪子和手套等用來讓手腳保暖的物品，是用四五根針一次織成的。",
+        "sourcePages": [
+          43,
+          44
+        ],
+        "id": "p4-row-020"
+      },
+      {
+        "en": "That’s very different from most knitting patterns today, which only require two.",
+        "zh": "這和今天大多數只需要兩根針的編織方式非常不同。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-021"
+      },
+      {
+        "en": "What’s more, the very first needles people used were hand carved out of wood and other natural materials, like bone, whereas today’s needles are largely made of steel or plastic and make that characteristic clicking sound when someone’s using them.",
+        "zh": "此外，人們最早使用的針是用木頭和骨頭等天然材料手工雕刻而成，而今天的針大多由鋼或塑膠製成，使用時會發出特有的喀嗒聲。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-022"
+      },
+      {
+        "en": "Ancient people knitted using yarns made from linen, hemp, cotton and wool, and these were often very rough on the skin.",
+        "zh": "古人用亞麻、大麻、棉和羊毛製成的紗線編織，而這些紗線接觸皮膚時通常相當粗糙。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-023"
+      },
+      {
+        "en": "The spinning wheel, which allowed people to make finer yarns and produce much greater quantities of them, led to the dominance of wool in the knitting industry – often favoured for its warmth.",
+        "zh": "紡車讓人們能製作更細的紗線，並大量生產，這使羊毛在編織業中占據主導地位，而羊毛常因保暖性受到青睞。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-024"
+      },
+      {
+        "en": "Another interesting fact about knitting is that because it was practised in so many parts of the world for so many purposes, regional differences in style developed.",
+        "zh": "關於編織的另一個有趣事實是，由於世界許多地區都為不同目的進行編織，因此形成了地區性的風格差異。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-025"
+      },
+      {
+        "en": "This visual identity has allowed researchers to match bits of knitted clothing that have been unearthed over time to the region from which the wearer came or the job that he or she did.",
+        "zh": "這種視覺特徵讓研究人員能將出土的針織衣物碎片，與穿著者來自的地區或其從事的工作聯繫起來。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-026"
+      },
+      {
+        "en": "As I’ve mentioned, knitting offered people from poor communities a way of making extra money while doing other tasks.",
+        "zh": "正如我提到的，編織為貧困社群的人提供了一種在做其他事情時賺取額外收入的方法。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-027"
+      },
+      {
+        "en": "For many centuries, it seems, men, women and children took every opportunity to knit, for example, while watching over sheep, walking to market or riding in boats.",
+        "zh": "幾個世紀以來，男性、女性和兒童似乎都會利用一切機會編織，例如看羊、走路去市場或乘船時。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-028"
+      },
+      {
+        "en": "So, let’s move on to take a …",
+        "zh": "那麼，接下來我們來看看……",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-029"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "answer": "park",
+      "explanation": "題目寫： “First of all, children at this level are taken to practise in a _____.” Charlie 已經會騎單車，但還未準備好直接上公路。Jake 說 Level 5 的進程是： “They start off practising on the site here … but first they’re taken to ride in the park, away from the traffic.” 題目中的 First of all 對應這個公路騎行之前的過渡階段。 答案是 park。",
+      "sourcePages": [
+        46
+      ]
+    },
+    "2": {
+      "answer": "blue",
+      "explanation": "題目寫： “Instructors wear _____ shirts.” 錄音有兩種職員顏色： ● supervisors → red shirts ● instructors → blue shirts Jake 說： “the instructors themselves are in blue shirts” 因此答案是 blue。 中伏位：red 也非常清楚地出現在錄音，但那是 supervisors 的制服。",
+      "sourcePages": [
+        46
+      ]
+    },
+    "3": {
+      "answer": "reference",
+      "explanation": "題目寫： “A _____ is required and training is given.” Jake 解釋 instructor 申請要求： “all our instructors have to submit a reference from someone who’s seen them work with children” 之後才接受 camp 的 training course。 所以： reference required + training provided 答案是 reference。",
+      "sourcePages": [
+        47
+      ]
+    },
+    "4": {
+      "answer": "story",
+      "explanation": "題目寫： “There are quiet times during the morning for a _____ or a game.” Jake 說 quiet time 時，instructor 可能： “tell them a story … or get them to play a game together.” 所以答案是 story。",
+      "sourcePages": [
+        47
+      ]
+    },
+    "5": {
+      "answer": "rain",
+      "explanation": "題目寫： “Classes are held even if there is _____.” 女士問： “what happens if there’s rain? Do the classes still run?” Jake 回答： “Oh yes … we just put on our waterproofs and keep cycling.” 因此即使下雨，課程照常。 答案是 rain。",
+      "sourcePages": [
+        48
+      ]
+    },
+    "6": {
+      "answer": "snack",
+      "explanation": "題目列出 Charlie 要帶的東西： “a _____” Jake 說： “And a snack for break time.” 飲料則由 camp 提供，所以不用自己帶。 答案是 snack。",
+      "sourcePages": [
+        48
+      ]
+    },
+    "7": {
+      "answer": "medication",
+      "explanation": "題目寫： “Charlie’s _____” 女士說 Charlie 現在： “has to take medication every few hours” 她會確保他帶著，並把服藥時間告訴 staff。 答案是 medication。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "8": {
+      "answer": "helmet",
+      "explanation": "題目寫： “Before the class, his _____ will be checked.” Day 1 提早十分鐘到的主要原因之一，是 staff 要： “make sure that every child’s helmet fits properly.” 如果尺寸不合，會調整或換另一頂。 所以答案是 helmet。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "9": {
+      "answer": "tent",
+      "explanation": "題目寫： “He should then go to the _____ to meet his class instructor.” 完成 helmet check 後： “all the instructors will be waiting to meet their classes” 集合地點是： “they’ll meet up in the tent” 答案是 tent。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "10": {
+      "answer": "199",
+      "explanation": "題目問： “The course costs $ _____ per week.” Jake 說： “One hundred ninety-nine dollars.” 後面馬上又提： “last year – it was one hundred ninety then.” 所以： ● 今年：$199 ● 去年：$190 題目問目前 course cost，因此答案是 199。 這是典型 IELTS 數字干擾：先給正確價格，再補一個非常接近的舊價格。要聽清楚時間標籤 last year。",
+      "sourcePages": [
+        50,
+        51
+      ]
+    },
+    "11": {
+      "answer": "A and C",
+      "explanation": "題目問 agriculture / horticulture sectors 的 TWO main advantages。 A — the active lifestyle Megan 說很多工作： “you’re not sitting all day looking at a screen” 並說這帶來： “health benefits” 所以這類工作較活躍，符合 active lifestyle。 C — the flexible working opportunities 一開始她特別指出，有些工作適合不想固定： “a 40-hour week” 並需要兼顧： “other responsibilities such as child care” 這正是 flexible working opportunities。 因此答案是 A、C。 中伏位：E「natural environment」也有提到，但 Megan 隨即補一句： “although we can’t guarantee that.” 薪資和 overseas travel 也只適用於部分工作，因此沒有被她當成兩項主要優勢。",
+      "sourcePages": [
+        51,
+        52
+      ]
+    },
+    "12": {
+      "answer": "A and C",
+      "explanation": "題目問 agriculture / horticulture sectors 的 TWO main advantages。 A — the active lifestyle Megan 說很多工作： “you’re not sitting all day looking at a screen” 並說這帶來： “health benefits” 所以這類工作較活躍，符合 active lifestyle。 C — the flexible working opportunities 一開始她特別指出，有些工作適合不想固定： “a 40-hour week” 並需要兼顧： “other responsibilities such as child care” 這正是 flexible working opportunities。 因此答案是 A、C。 中伏位：E「natural environment」也有提到，但 Megan 隨即補一句： “although we can’t guarantee that.” 薪資和 overseas travel 也只適用於部分工作，因此沒有被她當成兩項主要優勢。",
+      "sourcePages": [
+        51,
+        52
+      ]
+    },
+    "13": {
+      "answer": "B and C",
+      "explanation": "C — difficult weather conditions at times 戶外工作： “can be extremely unpleasant when it’s cold and windy.” 所以惡劣天氣確實是一項缺點。 B — being in a very quiet location Megan 說這些工作： “are often in pretty remote areas.” 如果一個人喜歡 lively city environment 和很多人，這種偏遠工作環境可能不適合。 所以答案是 B、C。 中伏位：E 的 physical fitness 有被提到，但 Megan 說只適用於 some jobs，而且現代科技令體能的重要性比以前低。A 方向更加相反：health and safety standards 提升後，work-related accidents 已經減少。",
+      "sourcePages": [
+        52,
+        53
+      ]
+    },
+    "14": {
+      "answer": "B and C",
+      "explanation": "C — difficult weather conditions at times 戶外工作： “can be extremely unpleasant when it’s cold and windy.” 所以惡劣天氣確實是一項缺點。 B — being in a very quiet location Megan 說這些工作： “are often in pretty remote areas.” 如果一個人喜歡 lively city environment 和很多人，這種偏遠工作環境可能不適合。 所以答案是 B、C。 中伏位：E 的 physical fitness 有被提到，但 Megan 說只適用於 some jobs，而且現代科技令體能的重要性比以前低。A 方向更加相反：health and safety standards 提升後，work-related accidents 已經減少。",
+      "sourcePages": [
+        52,
+        53
+      ]
+    },
+    "15": {
+      "answer": "D — intensive work but also fun",
+      "explanation": "Fresh food commercial manager 錄音形容工作環境： “very fast-paced” 員工： “work hard, but they play hard as well” 因此工作強度高，同時社交與娛樂氣氛也強。 答案是 D。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "16": {
+      "answer": "F — chance for rapid promotion",
+      "explanation": "Agronomist Megan 說： “good opportunities … to quickly make their way up the career ladder” quickly move up the career ladder = rapid promotion。 所以答案是 F。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "17": {
+      "answer": "A — not a permanent job",
+      "explanation": "Fresh produce buyer 錄音說： “a 12-month maternity cover contract.” maternity cover 表示替代休產假的員工，而且只有 12 個月。 因此這不是 permanent post。 答案是 A。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "18": {
+      "answer": "H — local travel involved",
+      "explanation": "Garden centre sales manager 工作需要： “visiting centres in the region” 也就是在當地／區域內不同 garden centres 之間走訪。 所以答案是 H — local travel involved。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "19": {
+      "answer": "C — experience not essential",
+      "explanation": "Tree technician Megan 說： “A year’s experience would be preferred” 但公司也可能考慮： “someone who has just completed an appropriate training course.” 所以 experience 有會更好，但並非絕對必要。 preferred ≠ essential 答案是 C。",
+      "sourcePages": [
+        55
+      ]
+    },
+    "20": {
+      "answer": "G — accommodation available",
+      "explanation": "Farm worker 福利包括： “the possibility of renting a small cottage on the estate” 所以工作地點能提供住宿選項。 答案是 G。",
+      "sourcePages": [
+        55,
+        56
+      ]
+    },
+    "21": {
+      "answer": "C and D",
+      "explanation": "C — A large sample of people was tested Adam 說實驗很難管理，原因之一是： “I had so many people doing it” 所以參與者數量很大。 答案 C。 D — The subjects were unaware of what they were drinking 他花很多時間設計實驗，尤其要： “make sure that people didn’t know which drink I was giving them.” 即受試者不知道自己喝的是 real sugar 還是 artificial sweetener。 所以 D 正確。 中伏位： A 錯在結果和 Adam 預測相反。他原本以為大家分辨不到，結果大多數人都能。 B 也不合，因為： “It took me ages to decide exactly how I’d organise it.” 所以 setup 並不簡單。",
+      "sourcePages": [
+        56,
+        57
+      ]
+    },
+    "22": {
+      "answer": "C and D",
+      "explanation": "C — A large sample of people was tested Adam 說實驗很難管理，原因之一是： “I had so many people doing it” 所以參與者數量很大。 答案 C。 D — The subjects were unaware of what they were drinking 他花很多時間設計實驗，尤其要： “make sure that people didn’t know which drink I was giving them.” 即受試者不知道自己喝的是 real sugar 還是 artificial sweetener。 所以 D 正確。 中伏位： A 錯在結果和 Adam 預測相反。他原本以為大家分辨不到，結果大多數人都能。 B 也不合，因為： “It took me ages to decide exactly how I’d organise it.” 所以 setup 並不簡單。",
+      "sourcePages": [
+        56,
+        57
+      ]
+    },
+    "23": {
+      "answer": "C and E",
+      "explanation": "Rosie 的實驗測量 nuts 的 fat content，結果比 package 上的數字低很多。她認為 package 本身沒有錯， 所以開始找自己的實驗問題。 C — She did not grind the nuts finely enough 她說： “I should probably have ground up the nuts more than I did.” 所以樣本可能磨得不夠細。 E — The weighing scales may have been unsuitable 她又說： “the scales for weighing the fat weren’t accurate enough” 所以 weighing equipment 也可能造成誤差。 答案是 C、E。 中伏位：D 看似很合理，因為實驗結果與 package 不一致，但 Rosie 明確說： “I reckon the package information was right.”",
+      "sourcePages": [
+        57,
+        58
+      ]
+    },
+    "24": {
+      "answer": "C and E",
+      "explanation": "Rosie 的實驗測量 nuts 的 fat content，結果比 package 上的數字低很多。她認為 package 本身沒有錯， 所以開始找自己的實驗問題。 C — She did not grind the nuts finely enough 她說： “I should probably have ground up the nuts more than I did.” 所以樣本可能磨得不夠細。 E — The weighing scales may have been unsuitable 她又說： “the scales for weighing the fat weren’t accurate enough” 所以 weighing equipment 也可能造成誤差。 答案是 C、E。 中伏位：D 看似很合理，因為實驗結果與 package 不一致，但 Rosie 明確說： “I reckon the package information was right.”",
+      "sourcePages": [
+        57,
+        58
+      ]
+    },
+    "25": {
+      "answer": "C — were organised in a particular way",
+      "explanation": "Adam 說 menu 的位置會影響選擇： “items at the start … and at the end … are much more likely to be chosen” 所以餐廳可以： “put the low-calorie items at the beginning and end” 這個方法沒有減少選項數量，也沒有要求增加更多 low-calorie dishes； 關鍵是重新安排 menu 的位置所以答案是 C。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "26": {
+      "answer": "A — make calorie counts hard to understand",
+      "explanation": "Rosie 說 calorie labels： “are sometimes really confusing” 更重要的是： “I suspect they do it on purpose.” Adam 立即舉 pizza 的例子：只標示 quarter pizza 的 calories，令整體熱量看起來不高。 所以兩人認為 manufacturers 有意把 calorie information 呈現得難以理解。 答案是 A。 這題沒有說 calorie numbers 本身不準確；問題在 presentation / interpretation。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "27": {
+      "answer": "B — Most people overestimate how much they do",
+      "explanation": "這題數字差距非常大。 人們自行報告： ● 40% men ● 30% women 說自己做到 recommended exercise。 但 motion sensors 客觀測量後，真正達標只有： ● 6% men ● 4% women 所以很多人認為自己運動很多，實際活動量遠低於自我估計。 答案是 B。",
+      "sourcePages": [
+        59
+      ],
+      "evidenceRows": [
+        28
+      ]
+    },
+    "28": {
+      "answer": "A — practical changes that can influence people’s behaviour",
+      "explanation": "Adam 用 train station 的 stairs 舉例： 如果 stairs 比 escalator 更早出現在人的路線上，大家： “are more likely to take the stairs.” 如果 stairs 更寬： “you’ll get more people using them” 他最後總結： “an unconscious process and influenced by minor modifications in their environment.” 所以這個例子展示：小型、實際的環境設計變動，可以在不知不覺中改變人的行為。 答案是 A。",
+      "sourcePages": [
+        59
+      ]
+    },
+    "29": {
+      "answer": "A — They should probably leave it out",
+      "explanation": "Adam 擔心加入 exercise： “is going to mean we have a very wide focus” 而 tutor 已經明確要求： “focus on causes and solutions in terms of nutrition.” Rosie 最後接受： “I suppose so.” 並說： “OK, well that will be simpler.” 所以兩人決定 presentation 聚焦 nutrition，exercise 很可能刪除。 答案是 A。 中伏位：他們已經 “done quite a bit of reading” about exercise，所以 B「需要更多 research」完全相反。",
+      "sourcePages": [
+        60
+      ]
+    },
+    "30": {
+      "answer": "C — decide on its content and organisation",
+      "explanation": "Rosie 說接下來： “Let’s think about what we’re going to include and what will go where.” 這兩部分分別就是： ● what to include → content ● what will go where → organisation / structure 然後才： “decide what slides we need.” 所以 slides 是下一步之後的工作。 答案是 C。",
+      "sourcePages": [
+        61,
+        62
+      ]
+    },
+    "31": {
+      "answer": "grandmother",
+      "explanation": "題目寫： “We imagine someone like a _____ knitting.” 講者說提到 knitting 時，可能想像： “an elderly person – a grandmother perhaps” 所以答案是 grandmother。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "32": {
+      "answer": "decade",
+      "explanation": "題目寫： “A _____ ago, knitting was expected to disappear.” 錄音說： “during the previous decade, it was one of the skills that was predicted to vanish” 題目把 “during the previous decade” 濃縮成 a decade ago。 答案是 decade。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "33": {
+      "answer": "equipment",
+      "explanation": "題目寫： “People are buying more _____ for knitting nowadays.” 隨著 knitting classes 再次流行： “we’re also seeing an increase in the sales figures for knitting equipment.” 所以答案是 equipment。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "34": {
+      "answer": "economic",
+      "explanation": "題目寫： “gives support in times of _____ difficulty” 錄音說： “knitting can be helpful if you’re experiencing economic hardship.” economic hardship = economic difficulty。 答案是 economic。 背後原因也很實際：自己編織家庭所需衣物，可以節省不少金錢。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "35": {
+      "answer": "basic",
+      "explanation": "題目寫： “requires only _____ skills and little money to start” 錄音說： “the skills you need to get going are really quite basic and the financial outlay is minimal.” 所以： ● basic skills ● minimal financial outlay 正好對應題目兩部分。 答案是 basic。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "36": {
+      "answer": "round",
+      "explanation": "題目寫： “early knitted items to be _____ in shape.” 考古發現顯示最早的 knitted items： “were round rather than flat.” 所以答案是 round。 例如 socks 和 gloves 會用四、五根 needles 整件環形編織。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "37": {
+      "answer": "bone",
+      "explanation": "題目寫： “The first needles were made of natural materials such as wood and _____.” 錄音說： “wood and other natural materials, like bone” 現代則多為 steel 或 plastic。 所以答案是 bone。",
+      "sourcePages": [
+        65
+      ]
+    },
+    "38": {
+      "answer": "rough",
+      "explanation": "題目寫： “Early yarns felt _____ to touch.” 古代 yarns 由 linen、hemp、cotton、wool 等製成： “these were often very rough on the skin.” 所以觸感粗糙。 答案是 rough。",
+      "sourcePages": [
+        65
+      ]
+    },
+    "39": {
+      "answer": "style",
+      "explanation": "題目寫： “Geographical areas had their own _____ of knitting.” 因為 knitting 在世界很多地區獨立發展： “regional differences in style developed.” 這些 style differences 甚至形成 visual identity，讓研究者可以從 knitted clothing 判斷來源地區。 所以答案是 style。",
+      "sourcePages": [
+        66
+      ]
+    },
+    "40": {
+      "answer": "sheep",
+      "explanation": "題目寫： “Everyday tasks like looking after _____ were done while knitting.” 講者說過去人們會利用各種空檔 knitting，例如： “while watching over sheep, walking to market or riding in boats.” watching over sheep = looking after sheep。 所以答案是 sheep。",
+      "sourcePages": [
+        66
+      ]
+    }
+  },
+  "timings": {
+    "parts": {
+      "1": {
+        "duration": 423.52325,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2018%20Part%201.mp3",
+        "audioSha256": "736ea0690f2d264062b6575f9c72a16b2719d74cec63583f9439b389bd68a13f",
+        "transcriptSha256": "9adc92bdecc6103eec81f7dd3c54d2444511d0d5f327c413d2c1341531243bfe",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9992,
+        "lines": [
+          {
+            "start": 46.12,
+            "end": 49.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 50.52,
+            "end": 57.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 57.84,
+            "end": 69.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 70.34,
+            "end": 75.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 76.22,
+            "end": 77.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 77.98,
+            "end": 79.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 80.74,
+            "end": 87.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 88.14,
+            "end": 91.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 92.02,
+            "end": 104.5,
+            "coverage": 0.9916
+          },
+          {
+            "start": 105.3,
+            "end": 109.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 109.9,
+            "end": 115.26,
+            "coverage": 0.9762
+          },
+          {
+            "start": 116.2,
+            "end": 120.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 121.88,
+            "end": 128.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 128.74,
+            "end": 138.06,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 138.74,
+            "end": 139.26,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 140.68,
+            "end": 155.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 156.7,
+            "end": 168.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 169.24,
+            "end": 171.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 172.36,
+            "end": 176.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 177.24,
+            "end": 180.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 181.0,
+            "end": 189.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 190.38,
+            "end": 206.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 206.9,
+            "end": 207.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 208.54,
+            "end": 209.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 210.58,
+            "end": 213.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 214.76,
+            "end": 216.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 216.46,
+            "end": 224.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 265.86,
+            "end": 271.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 271.2,
+            "end": 278.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 279.14,
+            "end": 281.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 282.5,
+            "end": 283.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 284.48,
+            "end": 286.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 287.54,
+            "end": 290.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 291.42,
+            "end": 302.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 302.66,
+            "end": 310.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 310.86,
+            "end": 311.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 311.98,
+            "end": 317.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 318.48,
+            "end": 328.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 330.06,
+            "end": 334.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 335.6,
+            "end": 341.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 342.06,
+            "end": 351.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 352.16,
+            "end": 362.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 363.3,
+            "end": 363.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 364.84,
+            "end": 375.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 375.74,
+            "end": 380.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 381.6,
+            "end": 385.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 385.5,
+            "end": 390.58,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 391.6,
+            "end": 394.14,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 395.14,
+            "end": 403.58,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 403.9,
+            "end": 407.36,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 408.3,
+            "end": 417.58,
+            "coverage": 1.0,
+            "refined": true
+          }
+        ]
+      },
+      "2": {
+        "duration": 379.3763125,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2018%20Part%202.mp3",
+        "audioSha256": "9e956d98e0dfc6ba057c8d157911e0029217e0cb7997010bccfd7fd926a86790",
+        "transcriptSha256": "d6bde1d09de36e97c23fd3f08249c6f89c700c9fc302effa196d5e6f23dda493",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.999,
+        "lines": [
+          {
+            "start": 44.58,
+            "end": 52.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 53.16,
+            "end": 65.9,
+            "coverage": 0.9932
+          },
+          {
+            "start": 66.76,
+            "end": 70.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 71.56,
+            "end": 86.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 87.56,
+            "end": 96.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 97.36,
+            "end": 106.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 107.06,
+            "end": 111.9,
+            "coverage": 0.9833
+          },
+          {
+            "start": 112.78,
+            "end": 122.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 124.6,
+            "end": 127.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 128.74,
+            "end": 133.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 134.52,
+            "end": 141.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 142.94,
+            "end": 150.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 151.1,
+            "end": 161.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 161.44,
+            "end": 169.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 216.52,
+            "end": 222.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 223.56,
+            "end": 226.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 227.58,
+            "end": 233.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 234.62,
+            "end": 247.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 248.68,
+            "end": 261.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 261.66,
+            "end": 273.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 274.82,
+            "end": 282.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 283.4,
+            "end": 294.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 296.04,
+            "end": 300.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 301.72,
+            "end": 307.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 309.22,
+            "end": 313.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 314.96,
+            "end": 322.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 323.44,
+            "end": 329.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 330.38,
+            "end": 339.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 340.22,
+            "end": 343.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 344.36,
+            "end": 353.32,
+            "coverage": 0.99
+          },
+          {
+            "start": 353.76,
+            "end": 362.26,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 363.58,
+            "end": 367.72,
+            "coverage": 1.0,
+            "refined": true
+          }
+        ]
+      },
+      "3": {
+        "duration": 382.798375,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2018%20Part%203.mp3",
+        "audioSha256": "f8e0045b960cb2f2e12096c536ab6bde4091e087d6d1c1cba6810b541e342f50",
+        "transcriptSha256": "68e3518c597a205675d2bb524eafd0f49b39c744bce1124d5423e773f4e852bb",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9961,
+        "lines": [
+          {
+            "start": 12.52,
+            "end": 49.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 49.66,
+            "end": 50.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 50.96,
+            "end": 57.8,
+            "coverage": 0.9706
+          },
+          {
+            "start": 58.06,
+            "end": 64.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 64.86,
+            "end": 73.94,
+            "coverage": 0.9914
+          },
+          {
+            "start": 74.34,
+            "end": 84.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 84.56,
+            "end": 86.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 87.44,
+            "end": 91.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 92.24,
+            "end": 101.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 102.22,
+            "end": 106.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 107.1,
+            "end": 115.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 116.48,
+            "end": 118.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 119.58,
+            "end": 122.8,
+            "coverage": 0.9808
+          },
+          {
+            "start": 123.6,
+            "end": 127.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 128.26,
+            "end": 130.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 193.5,
+            "end": 197.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 197.82,
+            "end": 201.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 202.68,
+            "end": 210.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 211.3,
+            "end": 222.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 222.64,
+            "end": 227.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 227.62,
+            "end": 227.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 228.26,
+            "end": 236.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 236.9,
+            "end": 242.47,
+            "coverage": 1.0
+          },
+          {
+            "start": 242.93,
+            "end": 252.03,
+            "coverage": 1.0
+          },
+          {
+            "start": 252.55,
+            "end": 254.87,
+            "coverage": 1.0
+          },
+          {
+            "start": 255.15,
+            "end": 255.59,
+            "coverage": 1.0
+          },
+          {
+            "start": 256.33,
+            "end": 261.39,
+            "coverage": 1.0
+          },
+          {
+            "start": 261.55,
+            "end": 268.93,
+            "coverage": 0.954
+          },
+          {
+            "start": 269.85,
+            "end": 288.81,
+            "coverage": 1.0
+          },
+          {
+            "start": 289.43,
+            "end": 292.01,
+            "coverage": 0.9375
+          },
+          {
+            "start": 292.01,
+            "end": 296.35,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.29,
+            "end": 302.21,
+            "coverage": 1.0
+          },
+          {
+            "start": 302.85,
+            "end": 310.59,
+            "coverage": 1.0
+          },
+          {
+            "start": 311.35,
+            "end": 316.99,
+            "coverage": 1.0
+          },
+          {
+            "start": 317.67,
+            "end": 323.19,
+            "coverage": 1.0
+          },
+          {
+            "start": 323.59,
+            "end": 329.67,
+            "coverage": 1.0
+          },
+          {
+            "start": 329.99,
+            "end": 335.05,
+            "coverage": 1.0
+          },
+          {
+            "start": 335.65,
+            "end": 338.49,
+            "coverage": 1.0
+          },
+          {
+            "start": 338.89,
+            "end": 348.67,
+            "coverage": 1.0
+          },
+          {
+            "start": 349.63,
+            "end": 353.63,
+            "coverage": 1.0
+          },
+          {
+            "start": 354.19,
+            "end": 356.77,
+            "coverage": 1.0
+          },
+          {
+            "start": 357.49,
+            "end": 359.39,
+            "coverage": 1.0
+          },
+          {
+            "start": 359.83,
+            "end": 362.53,
+            "coverage": 1.0
+          },
+          {
+            "start": 362.95,
+            "end": 366.51,
+            "coverage": 0.9815
+          },
+          {
+            "start": 367.21,
+            "end": 369.19,
+            "coverage": 1.0
+          },
+          {
+            "start": 369.71,
+            "end": 370.51,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "4": {
+        "duration": 443.115125,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2018%20Part%204.mp3",
+        "audioSha256": "fd033abdb99e76460d2d3d06e169ae4341f0235ff2a2b2270448c4ec752bd751",
+        "transcriptSha256": "177caf1ae63358a241c6efcc9a48a39162c649ee5707aed137e62c94a7401911",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9997,
+        "lines": [
+          {
+            "start": 73.66,
+            "end": 82.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 83.18,
+            "end": 92.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 94.22,
+            "end": 109.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 109.78,
+            "end": 126.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 127.6,
+            "end": 147.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 148.68,
+            "end": 163.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 163.58,
+            "end": 171.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 172.44,
+            "end": 180.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 181.82,
+            "end": 188.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 188.94,
+            "end": 192.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 193.78,
+            "end": 207.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 208.96,
+            "end": 217.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 218.38,
+            "end": 232.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 233.6,
+            "end": 239.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 239.9,
+            "end": 252.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 253.18,
+            "end": 258.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 263.52,
+            "end": 268.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 269.5,
+            "end": 281.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 282.48,
+            "end": 296.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.38,
+            "end": 314.02,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 315.1,
+            "end": 321.2,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 321.2,
+            "end": 343.26,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 344.24,
+            "end": 355.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 356.38,
+            "end": 370.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 371.6,
+            "end": 385.28,
+            "coverage": 0.9927
+          },
+          {
+            "start": 386.32,
+            "end": 401.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 402.56,
+            "end": 410.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 412.12,
+            "end": 426.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 428.0,
+            "end": 434.2,
+            "coverage": 1.0
+          }
+        ]
+      }
+    },
+    "questions": {
+      "1": {
+        "part": 1,
+        "time": 92.02,
+        "line": 8,
+        "evidenceScore": 51.08
+      },
+      "2": {
+        "part": 1,
+        "time": 128.74,
+        "line": 13,
+        "evidenceScore": 59.0
+      },
+      "3": {
+        "part": 1,
+        "time": 140.68,
+        "line": 15,
+        "evidenceScore": 98.0
+      },
+      "4": {
+        "part": 1,
+        "time": 190.38,
+        "line": 21,
+        "evidenceScore": 38.67
+      },
+      "5": {
+        "part": 1,
+        "time": 216.46,
+        "line": 26,
+        "evidenceScore": 34.57
+      },
+      "6": {
+        "part": 1,
+        "time": 279.14,
+        "line": 29,
+        "evidenceScore": 41.0
+      },
+      "7": {
+        "part": 1,
+        "time": 291.42,
+        "line": 33,
+        "evidenceScore": 52.0
+      },
+      "8": {
+        "part": 1,
+        "time": 342.06,
+        "line": 40,
+        "evidenceScore": 61.0
+      },
+      "9": {
+        "part": 1,
+        "time": 364.84,
+        "line": 43,
+        "evidenceScore": 68.0
+      },
+      "10": {
+        "part": 1,
+        "time": 395.14,
+        "line": 48,
+        "evidenceScore": 33.0
+      },
+      "11": {
+        "part": 2,
+        "time": 97.36,
+        "line": 5,
+        "evidenceScore": 37.0
+      },
+      "12": {
+        "part": 2,
+        "time": 97.36,
+        "line": 5,
+        "evidenceScore": 37.0
+      },
+      "13": {
+        "part": 2,
+        "time": 128.74,
+        "line": 9,
+        "evidenceScore": 43.0
+      },
+      "14": {
+        "part": 2,
+        "time": 128.74,
+        "line": 9,
+        "evidenceScore": 43.0
+      },
+      "15": {
+        "part": 2,
+        "time": 234.62,
+        "line": 17,
+        "evidenceScore": 29.0
+      },
+      "16": {
+        "part": 2,
+        "time": 261.66,
+        "line": 19,
+        "evidenceScore": 26.25
+      },
+      "17": {
+        "part": 2,
+        "time": 274.82,
+        "line": 20,
+        "evidenceScore": 34.0
+      },
+      "18": {
+        "part": 2,
+        "time": 301.72,
+        "line": 23,
+        "evidenceScore": 26.0
+      },
+      "19": {
+        "part": 2,
+        "time": 330.38,
+        "line": 27,
+        "evidenceScore": 53.0
+      },
+      "20": {
+        "part": 2,
+        "time": 353.76,
+        "line": 30,
+        "evidenceScore": 47.0
+      },
+      "21": {
+        "part": 3,
+        "time": 64.86,
+        "line": 4,
+        "evidenceScore": 51.0
+      },
+      "22": {
+        "part": 3,
+        "time": 64.86,
+        "line": 4,
+        "evidenceScore": 51.0
+      },
+      "23": {
+        "part": 3,
+        "time": 123.6,
+        "line": 13,
+        "evidenceScore": 46.0
+      },
+      "24": {
+        "part": 3,
+        "time": 123.6,
+        "line": 13,
+        "evidenceScore": 46.0
+      },
+      "25": {
+        "part": 3,
+        "time": 211.3,
+        "line": 18,
+        "evidenceScore": 41.0
+      },
+      "26": {
+        "part": 3,
+        "time": 228.26,
+        "line": 21,
+        "evidenceScore": 25.04
+      },
+      "28": {
+        "part": 3,
+        "time": 317.67,
+        "line": 34,
+        "evidenceScore": 71.0
+      },
+      "29": {
+        "part": 3,
+        "time": 338.89,
+        "line": 38,
+        "evidenceScore": 43.0
+      },
+      "30": {
+        "part": 3,
+        "time": 362.95,
+        "line": 43,
+        "evidenceScore": 54.0
+      },
+      "31": {
+        "part": 4,
+        "time": 94.22,
+        "line": 2,
+        "evidenceScore": 54.0
+      },
+      "32": {
+        "part": 4,
+        "time": 109.78,
+        "line": 3,
+        "evidenceScore": 86.0
+      },
+      "33": {
+        "part": 4,
+        "time": 163.58,
+        "line": 6,
+        "evidenceScore": 81.0
+      },
+      "34": {
+        "part": 4,
+        "time": 193.78,
+        "line": 10,
+        "evidenceScore": 75.0
+      },
+      "35": {
+        "part": 4,
+        "time": 218.38,
+        "line": 12,
+        "evidenceScore": 95.0
+      },
+      "36": {
+        "part": 4,
+        "time": 282.48,
+        "line": 18,
+        "evidenceScore": 43.0
+      },
+      "37": {
+        "part": 4,
+        "time": 321.2,
+        "line": 21,
+        "evidenceScore": 56.0
+      },
+      "38": {
+        "part": 4,
+        "time": 344.24,
+        "line": 22,
+        "evidenceScore": 52.0
+      },
+      "39": {
+        "part": 4,
+        "time": 371.6,
+        "line": 24,
+        "evidenceScore": 55.0
+      },
+      "40": {
+        "part": 4,
+        "time": 412.12,
+        "line": 27,
+        "evidenceScore": 72.0
+      },
+      "27": {
+        "part": 3,
+        "time": 269.85,
+        "line": 28,
+        "evidenceScore": 100
+      }
+    }
+  }
+}

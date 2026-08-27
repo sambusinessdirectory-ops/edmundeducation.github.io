@@ -174,9 +174,12 @@ jobs:
 
       - name: Validate Listening portal, 80-track catalogue and playback speeds
         run: |
+          node tools/listening/generate_catalog.mjs
+          git diff --exit-code -- listening-system-catalog.js
           node tools/test-listening-system.mjs
           node tools/test-grammar-listening-practice1.mjs
           node --test tools/test-listening-study.mjs
+          node --test tools/test-listening-imports.mjs
 
       - name: Validate IELTS Listening Practice download catalogue and thumbnails
         run: node tools/test-ielts-listening-download-catalog.mjs

@@ -1,0 +1,262 @@
+[
+  {
+    "practice": 3,
+    "part": 3,
+    "row": 54,
+    "start": 399.12,
+    "end": 404.28,
+    "reason": "ASR says 200,000 while the source spells two hundred thousand; the opening and closing words match the recording.",
+    "audioSha256": "4c519dbfe53916a5ff1486f0d761c814c0d048155c553d1535f8d96b86e43c42",
+    "transcriptText": "It already comprises over two hundred thousand programmes, which is amazing."
+  },
+  {
+    "practice": 5,
+    "part": 1,
+    "row": 20,
+    "start": 171.25,
+    "end": 171.77,
+    "reason": "Isolated-window recognition resolves Uh-huh, omitted by the full-track recognizer.",
+    "audioSha256": "0a98a26a28d4cf9c22e36b990508233099a9d70eda10646207b811239866daf0",
+    "transcriptText": "JOHN: Uhuh."
+  },
+  {
+    "practice": 5,
+    "part": 1,
+    "row": 21,
+    "start": 171.88,
+    "end": 174.0,
+    "reason": "Short-window recognition separates Another from the preceding Uh-huh.",
+    "audioSha256": "0a98a26a28d4cf9c22e36b990508233099a9d70eda10646207b811239866daf0",
+    "transcriptText": "SALLY: Another focus is on geography."
+  },
+  {
+    "practice": 5,
+    "part": 3,
+    "row": 13,
+    "start": 139.7,
+    "end": 139.94,
+    "reason": "Isolated-window recognition resolves Hmm, written Mmm in the PDF.",
+    "audioSha256": "12303706d9f504cb32c0545a4b9a891375add43c73ae856354441bb6d9dac8b5",
+    "transcriptText": "COLIN: Mmm?"
+  },
+  {
+    "practice": 6,
+    "part": 1,
+    "row": 1,
+    "start": 52.06,
+    "end": 52.58,
+    "reason": "Recording says Good, thanks; PDF says Fine, thanks. Use the actual reply boundaries.",
+    "audioSha256": "6b9026ae39e3b4336f96515265be75cc9953dde3981dc66a53431dbbb72983e4",
+    "transcriptText": "COLMAN: Fine, thanks."
+  },
+  {
+    "practice": 6,
+    "part": 1,
+    "row": 39,
+    "start": 284.98,
+    "end": 289.56,
+    "reason": "Recording says an app and others, while PDF says apps and some people. Same sentence and meaning; retain source wording.",
+    "audioSha256": "6b9026ae39e3b4336f96515265be75cc9953dde3981dc66a53431dbbb72983e4",
+    "transcriptText": "COLMAN: Some people have apps they use, but some people do it by ear."
+  },
+  {
+    "practice": 6,
+    "part": 1,
+    "row": 55,
+    "start": 361.46,
+    "end": 371.38,
+    "reason": "Recording says hands out, a new chord, practice that and really slowly; the PDF paraphrases the same instruction. Boundaries verified against the recognized speech.",
+    "audioSha256": "6b9026ae39e3b4336f96515265be75cc9953dde3981dc66a53431dbbb72983e4",
+    "transcriptText": "Then he gives out the song, and if there are any new chords in it, we practise those first, and then we play it together very slowly."
+  },
+  {
+    "practice": 6,
+    "part": 1,
+    "row": 62,
+    "start": 407.14,
+    "end": 408.6,
+    "reason": "Recording says Oh, that's scary; PDF says That sounds terrifying. Use the full actual reply.",
+    "audioSha256": "6b9026ae39e3b4336f96515265be75cc9953dde3981dc66a53431dbbb72983e4",
+    "transcriptText": "WOMAN: That sounds terrifying."
+  },
+  {
+    "practice": 8,
+    "part": 1,
+    "row": 14,
+    "start": 109.18,
+    "end": 115.42,
+    "reason": "Short-window recognition ends the previous speaker at use, before the next reply.",
+    "audioSha256": "9a601eb962eb2c1faebae734325ff436b99b20ba1f898ee57a6f6460086287f7",
+    "transcriptText": "KAEDEN: Yes. Try not to lose it. At the end of the day, leave it in the door for the next person to use."
+  },
+  {
+    "practice": 8,
+    "part": 1,
+    "row": 15,
+    "start": 115.78,
+    "end": 116.34,
+    "reason": "Short-window recognition captures both reply words (ASR Will they, PDF Will do). Retain the supplied text.",
+    "audioSha256": "9a601eb962eb2c1faebae734325ff436b99b20ba1f898ee57a6f6460086287f7",
+    "transcriptText": "CHARLOTTE: Will do."
+  },
+  {
+    "practice": 8,
+    "part": 1,
+    "row": 39,
+    "start": 257.88,
+    "end": 258.3,
+    "reason": "Short-window recognition separates Okay from the following sentence.",
+    "audioSha256": "9a601eb962eb2c1faebae734325ff436b99b20ba1f898ee57a6f6460086287f7",
+    "transcriptText": "CHARLOTTE: OK."
+  },
+  {
+    "practice": 8,
+    "part": 1,
+    "row": 40,
+    "start": 258.94,
+    "end": 261.94,
+    "reason": "Short-window recognition starts After that after the preceding Okay, rather than overlapping it.",
+    "audioSha256": "9a601eb962eb2c1faebae734325ff436b99b20ba1f898ee57a6f6460086287f7",
+    "transcriptText": "KAEDEN: After that, you'll go to the sushi takeaway counter."
+  },
+  {
+    "practice": 9,
+    "part": 3,
+    "row": 27,
+    "start": 206.12,
+    "end": 206.56,
+    "reason": "Isolated-window recognition resolves Mm, omitted by the full-track recognizer.",
+    "audioSha256": "14bb045a6495186a9379391d782a214d3b0acb941c5ad345c3a4f5db683e903a",
+    "transcriptText": "CHANTAL: Mmm."
+  },
+  {
+    "practice": 10,
+    "part": 1,
+    "row": 5,
+    "start": 65.12,
+    "end": 65.4,
+    "reason": "ASR writes Alright where the PDF writes Oh right; both words occupy this reply interval.",
+    "audioSha256": "f4f1b301daf8d33487778a089c079fe0b0f0d7af24ee4958eefba71bb28dc3a7",
+    "transcriptText": "MAN: Oh right."
+  },
+  {
+    "practice": 12,
+    "part": 3,
+    "row": 16,
+    "start": 135.65,
+    "end": 135.91,
+    "reason": "Isolated-window recognition resolves Hmm, written Mm in the PDF.",
+    "audioSha256": "a0a19b13a003430acb7e5e9485795ca9599b64d9d77c58d6e4967f42578b5e74",
+    "transcriptText": "DIANA: Mm."
+  },
+  {
+    "practice": 13,
+    "part": 1,
+    "row": 42,
+    "start": 271.6,
+    "end": 271.98,
+    "reason": "Isolated-window recognition resolves Uh huh, omitted by the full-track recognizer.",
+    "audioSha256": "0259992896317885d4eb8b2f258c65e8ffbf5aafb23cd1404e687f9e6a855cc5",
+    "transcriptText": "FRANK: Uhuh."
+  },
+  {
+    "practice": 13,
+    "part": 3,
+    "row": 59,
+    "start": 360.05,
+    "end": 361.87,
+    "reason": "Isolated-window recognition resolves That's really important because, instead of wrongly matching the narrator's end-of-part announcement.",
+    "audioSha256": "0f434f3110676f1060200637332bc5aad62040515d1bcc559a3088b65e271175",
+    "transcriptText": "GEMMA: That’s really important because …"
+  },
+  {
+    "practice": 16,
+    "part": 3,
+    "row": 61,
+    "start": 360.3,
+    "end": 361.04,
+    "reason": "Window recognition captures the two-word reply (No right in ASR; Ah right in the source). Include both words before the narrator begins.",
+    "audioSha256": "06929197ad2cb7abc828eb41037c0ff367d1a1b183430fa624c301e5fe921a23",
+    "transcriptText": "JESS: Ah right."
+  },
+  {
+    "practice": 11,
+    "part": 3,
+    "row": 22,
+    "start": 193.26,
+    "end": 196.48,
+    "reason": "Focused speaker-change window starts Yeah after the preceding future, eliminating the cross-window overlap.",
+    "audioSha256": "95044483b165765643447e42fe2fb136a195f0445d2de9d1500822b1d71f5465",
+    "transcriptText": "YOUNG MAN: Yeah, incredible. Like accountants."
+  },
+  {
+    "practice": 13,
+    "part": 1,
+    "row": 35,
+    "start": 198.84,
+    "end": 201.0,
+    "reason": "Focused window separates Oh from the preceding I could do that.",
+    "audioSha256": "0259992896317885d4eb8b2f258c65e8ffbf5aafb23cd1404e687f9e6a855cc5",
+    "transcriptText": "JANE: Oh, that would be great. Thank you."
+  },
+  {
+    "practice": 2,
+    "part": 3,
+    "row": 16,
+    "start": 107.34,
+    "end": 107.74,
+    "reason": "Focused window isolates Has it after the preceding syllabus sentence.",
+    "audioSha256": "1b10e1803b4d31fe77e76d57a1f00e04dbe3ca28f68b07e79a0765761b257c83",
+    "transcriptText": "COLIN: Has it?"
+  },
+  {
+    "practice": 4,
+    "part": 1,
+    "row": 32,
+    "start": 198.46,
+    "end": 200.76,
+    "reason": "Focused window separates Okay from Sandra's preceding sentence ending too.",
+    "audioSha256": "db4db65463672088d11327c2505b68ef136b7a18357a37f108058938a4f35d77",
+    "transcriptText": "MAN: OK, well I'll mention that to my cousin."
+  },
+  {
+    "practice": 4,
+    "part": 3,
+    "row": 7,
+    "start": 77.86,
+    "end": 82.8,
+    "reason": "Focused window separates That's right from the previous speaker's memory.",
+    "audioSha256": "10043ae7c7b77f35183187ff74f7a7dbfee20630777705ec4e2fb4d2310fdcec",
+    "transcriptText": "WOMAN: That's right. The physical act of writing helps children to remember letters."
+  },
+  {
+    "practice": 7,
+    "part": 1,
+    "row": 20,
+    "start": 137.56,
+    "end": 141.12,
+    "reason": "Focused window separates Yeah from the preceding speaker's nice name.",
+    "audioSha256": "9a193ec455f20d8699335331b359101d9992367975e03fcdef445a3313293469",
+    "transcriptText": "LEON: Yeah – it sells vegetables and quite a lot of other stuff."
+  },
+  {
+    "practice": 8,
+    "part": 3,
+    "row": 57,
+    "start": 379.72,
+    "end": 386.1,
+    "reason": "Focused window separates Jane's Yeah from Kieran's preceding very nice.",
+    "audioSha256": "654075f5b5982911ae81a60cbc4764f2c6badfb1a991ee7987353388256292a7",
+    "transcriptText": "JANE: Yeah – and books people or institutions have requested, they all go at the far end."
+  },
+  {
+    "practice": 3,
+    "part": 4,
+    "row": 39,
+    "start": 401.8,
+    "end": 413.19,
+    "reason": "Isolated tail recognition captures This is before the cutoff. End at that speech boundary, not the narrator's later That is announcement.",
+    "audioSha256": "d3742b20d416758a47aeab47c17ad29cfb8742b1ca097b36e89a78c00bf647a7",
+    "transcriptText": "As you can see from the examples I've just mentioned, there are serious consequences for designs which don't consider the needs of all users. This is …"
+  }
+]

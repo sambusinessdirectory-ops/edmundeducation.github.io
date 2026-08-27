@@ -1,0 +1,4051 @@
+{
+  "schemaVersion": 1,
+  "practice": 19,
+  "title": "IELTS Listening Practice 19",
+  "source": {
+    "file": "IELTS Listening - Practice - 19.pdf",
+    "sha256": "ad76aa6cca0c31a58a2cb78bd32069843af199e375c3e7971dc0828013927be6",
+    "pageCount": 74,
+    "corrections": []
+  },
+  "parts": [
+    {
+      "part": 1,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        4
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 1–10\nComplete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nHoliday Rental\nOwners’ names: Jack Fitzgerald and Shirley Fitzgerald\nGranary Cottage\n● available for week beginning 1 __________ May\n● cost for the week: £2 __________\n3 __________ Cottage\n● cost for the week: £480\n● building was originally a 4 __________\n● walk through doors from living room into a 5 __________\n● several 6 __________ spaces at the front\n● bathroom has a shower\n● central heating and stove that burns 7 __________\n● views of old 8 __________ from living room\n● view of hilltop 9 __________ from the bedroom\nPayment\n● deposit: £144\n● deadline for final payment: end of 10 __________",
+          "page": 4
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 1,
+          "prompt": "● available for week beginning 1 __________ May",
+          "translation": "",
+          "answer": "28th",
+          "alternatives": [
+            "28"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 2,
+          "prompt": "● cost for the week: £2 __________",
+          "translation": "",
+          "answer": "550",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 3,
+          "prompt": "3 __________ Cottage",
+          "translation": "",
+          "answer": "Chervil",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 4,
+          "prompt": "● building was originally a 4 __________",
+          "translation": "",
+          "answer": "garage",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 5,
+          "prompt": "● walk through doors from living room into a 5 __________",
+          "translation": "",
+          "answer": "garden",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 6,
+          "prompt": "● several 6 __________ spaces at the front",
+          "translation": "",
+          "answer": "parking",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 7,
+          "prompt": "● central heating and stove that burns 7 __________",
+          "translation": "",
+          "answer": "wood",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 8,
+          "prompt": "● views of old 8 __________ from living room",
+          "translation": "",
+          "answer": "bridge",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 9,
+          "prompt": "● view of hilltop 9 __________ from the bedroom",
+          "translation": "",
+          "answer": "monument",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 10,
+          "prompt": "● deadline for final payment: end of 10 __________",
+          "translation": "",
+          "answer": "March",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 11–14\nChoose the correct letter, A, B or C.\nLocal Council Report on Traffic and Highways\n11. A survey found people’s main concern about traffic in the area was\nA. cuts to public transport.\nB. poor maintenance of roads.\nC. changes in the type of traffic.\n12. Which change will shortly be made to the cycle path next to the river?\nA. It will be widened.\nB. It will be extended.\nC. It will be resurfaced.\n13. Plans for a pedestrian crossing have been postponed because\nA. the Post Office has moved.\nB. the proposed location is unsafe.\nC. funding is not available at present.\n14. On Station Road, notices have been erected\nA. telling cyclists not to leave their bikes outside the station ticket office.\nB. asking motorists to switch off engines when waiting at the level\ncrossing.\nC. warning pedestrians to leave enough time when crossing the railway\nline.",
+          "page": 6
+        },
+        {
+          "type": "text",
+          "text": "Questions 15–20\nLabel the map below.\nWrite the correct letter, A–I, next to Questions 15–20.\n15. New car park __________\n16. New cricket pitch __________\n17. Children’s playground __________\n18. Skateboard ramp __________\n19. Pavilion __________\n20. Notice board __________",
+          "page": 7
+        },
+        {
+          "type": "image",
+          "src": "assets/listening/practices/images/practice-19-page-7-1.webp",
+          "alt": "Practice 19, source question diagram/table, PDF page 7",
+          "text": "",
+          "page": 7
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 11,
+          "prompt": "A survey found people’s main concern about traffic in the area was",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "cuts to public transport.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "poor maintenance of roads.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "changes in the type of traffic.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 12,
+          "prompt": "Which change will shortly be made to the cycle path next to the river?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "It will be widened.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "It will be extended.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "It will be resurfaced.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 13,
+          "prompt": "Plans for a pedestrian crossing have been postponed because",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "the Post Office has moved.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "the proposed location is unsafe.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "funding is not available at present.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 14,
+          "prompt": "On Station Road, notices have been erected",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "telling cyclists not to leave their bikes outside the station ticket office.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "asking motorists to switch off engines when waiting at the level crossing.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "warning pedestrians to leave enough time when crossing the railway line.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 15,
+          "prompt": "New car park",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 16,
+          "prompt": "New cricket pitch",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 17,
+          "prompt": "Children’s playground",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 18,
+          "prompt": "Skateboard ramp",
+          "translation": "",
+          "answer": "I",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 19,
+          "prompt": "Pavilion",
+          "translation": "",
+          "answer": "E",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 20,
+          "prompt": "Notice board",
+          "translation": "",
+          "answer": "H",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        9,
+        10
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 21 and 22\nChoose TWO letters, A–E.\nWhich TWO benefits of city bike-sharing schemes do the students agree are the\nmost important?\nA. reducing noise pollution\nB. reducing traffic congestion\nC. improving air quality\nD. encouraging health and fitness\nE. making cycling affordable\nQuestions 23 and 24\nChoose TWO letters, A–E.\nWhich TWO things do the students think are necessary for successful\nbike-sharing schemes?\nA. Bikes should have a GPS system.\nB. The app should be easy to use.\nC. Public awareness should be raised.\nD. Only one scheme should be available.\nE. There should be a large network of cycle lanes.",
+          "page": 9
+        },
+        {
+          "type": "text",
+          "text": "Questions 25–30\nWhat is the speakers’ opinion of the bike-sharing schemes in each of the\nfollowing cities?\nChoose SIX answers from the box and write the correct letter, A–G, next to\nQuestions 25–30.\nOpinion of bike-sharing scheme\nA. They agree it has been disappointing.\nB. They think it should be cheaper.\nC. They are surprised it has been so successful.\nD. They agree that more investment is required.\nE. They think the system has been well designed.\nF. They disagree about the reasons for its success.\nG. They think it has expanded too quickly.\nCities\n25. Amsterdam __________\n26. Dublin __________\n27. London __________\n28. Buenos Aires __________\n29. New York __________\n30. Sydney __________",
+          "page": 10
+        }
+      ],
+      "questions": [
+        {
+          "type": "multi",
+          "part": 3,
+          "numbers": [
+            21,
+            22
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO benefits of city bike-sharing schemes do the students agree are the most important?",
+          "translation": "",
+          "answers": [
+            "B",
+            "C"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "reducing noise pollution",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "reducing traffic congestion",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "improving air quality",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "encouraging health and fitness",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "making cycling affordable",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 3,
+          "numbers": [
+            23,
+            24
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO things do the students think are necessary for successful bike-sharing schemes?",
+          "translation": "",
+          "answers": [
+            "B",
+            "C"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "Bikes should have a GPS system.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The app should be easy to use.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "Public awareness should be raised.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "Only one scheme should be available.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "There should be a large network of cycle lanes.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 25,
+          "prompt": "Amsterdam",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "They agree it has been disappointing.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They think it should be cheaper.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They are surprised it has been so successful.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "They agree that more investment is required.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "They think the system has been well designed.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "They disagree about the reasons for its success.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "They think it has expanded too quickly.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 26,
+          "prompt": "Dublin",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "They agree it has been disappointing.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They think it should be cheaper.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They are surprised it has been so successful.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "They agree that more investment is required.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "They think the system has been well designed.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "They disagree about the reasons for its success.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "They think it has expanded too quickly.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 27,
+          "prompt": "London",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "They agree it has been disappointing.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They think it should be cheaper.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They are surprised it has been so successful.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "They agree that more investment is required.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "They think the system has been well designed.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "They disagree about the reasons for its success.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "They think it has expanded too quickly.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 28,
+          "prompt": "Buenos Aires",
+          "translation": "",
+          "answer": "E",
+          "options": [
+            {
+              "key": "A",
+              "en": "They agree it has been disappointing.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They think it should be cheaper.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They are surprised it has been so successful.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "They agree that more investment is required.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "They think the system has been well designed.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "They disagree about the reasons for its success.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "They think it has expanded too quickly.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 29,
+          "prompt": "New York",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "They agree it has been disappointing.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They think it should be cheaper.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They are surprised it has been so successful.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "They agree that more investment is required.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "They think the system has been well designed.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "They disagree about the reasons for its success.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "They think it has expanded too quickly.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 30,
+          "prompt": "Sydney",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "They agree it has been disappointing.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They think it should be cheaper.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They are surprised it has been so successful.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "They agree that more investment is required.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "They think the system has been well designed.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "They disagree about the reasons for its success.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "They think it has expanded too quickly.",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        12,
+        13
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 31–40\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nThe Extinction of the Dodo Bird\nThe dodo was a large flightless bird which used to inhabit the island of\nMauritius.\nHistory\n● 1507 — Portuguese ships transporting 31 __________ stopped at the\nisland to collect food and water.\n● 1638 — The Dutch established a 32 __________ on the island.\n● They killed the dodo birds for their meat.\n● The last one was killed in 1681.",
+          "page": 12
+        },
+        {
+          "type": "text",
+          "text": "Description\n● The only record we have is written descriptions and pictures, possibly\nunreliable.\n● A Dutch painting suggests the dodo was very 33 __________.\n● The only remaining soft tissue is a dried 34 __________.\n● Recent studies of a dodo skeleton suggest the birds were capable of rapid\n35 __________.\n● It’s thought they were able to use their small wings to maintain 36\n__________.\n● Their 37 __________ was of average size.\n● Their sense of 38 __________ enabled them to find food.\nReasons for extinction\n● Hunting was probably not the main cause.\n● Sailors brought dogs and monkeys.\n● 39 __________ also escaped onto the island and ate the birds’ eggs.\n● The arrival of farming meant the 40 __________ was destroyed.",
+          "page": 13
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 31,
+          "prompt": "● 1507 — Portuguese ships transporting 31 __________ stopped at the",
+          "translation": "",
+          "answer": "spices",
+          "alternatives": [
+            "spice"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 32,
+          "prompt": "● 1638 — The Dutch established a 32 __________ on the island.",
+          "translation": "",
+          "answer": "colony",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 33,
+          "prompt": "● A Dutch painting suggests the dodo was very 33 __________.",
+          "translation": "",
+          "answer": "fat",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 34,
+          "prompt": "● The only remaining soft tissue is a dried 34 __________.",
+          "translation": "",
+          "answer": "head",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 35,
+          "prompt": "35 __________.",
+          "translation": "",
+          "answer": "movement",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 36,
+          "prompt": "● It’s thought they were able to use their small wings to maintain 36 __________.",
+          "translation": "",
+          "answer": "balance",
+          "alternatives": [
+            "balancing"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 37,
+          "prompt": "● Their 37 __________ was of average size.",
+          "translation": "",
+          "answer": "brain",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 38,
+          "prompt": "● Their sense of 38 __________ enabled them to find food.",
+          "translation": "",
+          "answer": "smell",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 39,
+          "prompt": "● 39 __________ also escaped onto the island and ate the birds’ eggs.",
+          "translation": "",
+          "answer": "rats",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 40,
+          "prompt": "● The arrival of farming meant the 40 __________ was destroyed.",
+          "translation": "",
+          "answer": "forest",
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "1": [
+      {
+        "en": "SHIRLEY: Hello?",
+        "zh": "Shirley：您好？",
+        "sourcePages": [
+          19
+        ],
+        "id": "p1-row-001"
+      },
+      {
+        "en": "TOM: Oh hello. I was hoping to speak to Jack Fitzgerald about renting a cottage.",
+        "zh": "Tom：哦，您好。我想找 Jack Fitzgerald 談談租小屋的事情。",
+        "sourcePages": [
+          19
+        ],
+        "id": "p1-row-002"
+      },
+      {
+        "en": "SHIRLEY: I’m his wife, Shirley, and we own the cottages together, so I’m sure I can help you.",
+        "zh": "Shirley：我是他的妻子 Shirley， 這些小屋是我們共同擁有的， 所以我相信我也可以幫你。",
+        "sourcePages": [
+          19
+        ],
+        "id": "p1-row-003"
+      },
+      {
+        "en": "TOM: Great. My name’s Tom.",
+        "zh": "Tom：太好了。我叫 Tom。",
+        "sourcePages": [
+          19
+        ],
+        "id": "p1-row-004"
+      },
+      {
+        "en": "Some friends of ours rented Granary Cottage from you last year, and they thought it was great.",
+        "zh": "我們有些朋友去年向你們租了 Granary Cottage，他們覺得非常好。",
+        "sourcePages": [
+          19
+        ],
+        "id": "p1-row-005"
+      },
+      {
+        "en": "So my wife and I are hoping to come in May for a week.",
+        "zh": "所以我和妻子希望五月來住一週。",
+        "sourcePages": [
+          19
+        ],
+        "id": "p1-row-006"
+      },
+      {
+        "en": "SHIRLEY: What date did you have in mind?",
+        "zh": "Shirley：你們想哪一天開始？",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-007"
+      },
+      {
+        "en": "TOM: The week beginning the 14th, if possible.",
+        "zh": "Tom：如果可以的話，從 14 日開始那一週。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-008"
+      },
+      {
+        "en": "SHIRLEY: I’ll just check … I’m sorry, Tom, it’s already booked that week.",
+        "zh": "Shirley：我查一下……抱歉，Tom ，那一週已經被預訂了。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-009"
+      },
+      {
+        "en": "It’s free the week beginning the 28th, though, for seven nights.",
+        "zh": "不過從 28 日開始那一週還空著，可以住七晚。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-010"
+      },
+      {
+        "en": "In fact, that’s the only time you could have it in May.",
+        "zh": "事實上，那是五月唯一能訂到的時間。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-011"
+      },
+      {
+        "en": "TOM: Oh. Well, we could manage that, I think.",
+        "zh": "Tom：哦。嗯，我想我們可以安排一下。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-012"
+      },
+      {
+        "en": "We’d just need to change a couple of things.",
+        "zh": "我們只需要調整幾件事情。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-013"
+      },
+      {
+        "en": "How much would it cost?",
+        "zh": "費用是多少？",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-014"
+      },
+      {
+        "en": "SHIRLEY: That’s the beginning of high season, so it’d be £550 for the week.",
+        "zh": "Shirley：那是旺季開始的時候， 所以一週是 550 英鎊。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-015"
+      },
+      {
+        "en": "TOM: Ah. That’s a bit more than we wanted to pay, I’m afraid.",
+        "zh": "Tom：啊，恐怕這比我們想付的高了一點。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-016"
+      },
+      {
+        "en": "We’ve budgeted up to £500 for accommodation.",
+        "zh": "我們住宿預算最高是 500 英鎊。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-017"
+      },
+      {
+        "en": "SHIRLEY: Well, we’ve just finished converting another building into a cottage, which we’re calling Chervil Cottage.",
+        "zh": "Shirley：嗯，我們剛把另一棟建築改造成小屋，叫做 Chervil Cottage。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-018"
+      },
+      {
+        "en": "TOM: Sorry? What was that again?",
+        "zh": "Tom：抱歉？叫什麼？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-019"
+      },
+      {
+        "en": "SHIRLEY: Chervil. C-H-E-R-V for Victor I-L.",
+        "zh": "Shirley：Chervil。C-H-E-R-V，V 是 Victor 的 V，I-L。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-020"
+      },
+      {
+        "en": "TOM: Oh, that’s a herb, isn’t it?",
+        "zh": "Tom：哦，那是一種香草，對吧？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-021"
+      },
+      {
+        "en": "SHIRLEY: That’s right. It grows fairly wild around here.",
+        "zh": "Shirley：沒錯。這附近到處都長著 Chervil。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-022"
+      },
+      {
+        "en": "You could have that for the week you want for £480.",
+        "zh": "你們想要的那一週可以租這間，價格是 480 英鎊。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-023"
+      },
+      {
+        "en": "TOM: OK. So could you tell me something about it, please?",
+        "zh": "Tom：好的。可以請你介紹一下這間小屋嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-024"
+      },
+      {
+        "en": "SHIRLEY: Of course. The building was built as a garage.",
+        "zh": "Shirley：當然。這棟建築原本是車庫。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-025"
+      },
+      {
+        "en": "It’s a little smaller than Granary Cottage.",
+        "zh": "它比 Granary Cottage 小一點。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-026"
+      },
+      {
+        "en": "TOM: So that must sleep two people, as well?",
+        "zh": "Tom：那它應該也能住兩個人吧？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-027"
+      },
+      {
+        "en": "SHIRLEY: That’s right. There’s a double bedroom.",
+        "zh": "Shirley：沒錯。有一間雙人臥室。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-028"
+      },
+      {
+        "en": "TOM: Does it have a garden?",
+        "zh": "Tom：有花園嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-029"
+      },
+      {
+        "en": "SHIRLEY: Yes, you get to it from the living room through French doors, and we provide two deckchairs.",
+        "zh": "Shirley：有，從客廳穿過法式玻璃門就能到花園，我們還提供兩張摺疊躺椅。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-030"
+      },
+      {
+        "en": "We hope to build a patio in the near future, but I wouldn’t like to guarantee it’ll be finished by May.",
+        "zh": "我們希望近期建一個露台，但我不能保證五月前會完工。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-031"
+      },
+      {
+        "en": "TOM: OK.",
+        "zh": "Tom：好的。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-032"
+      },
+      {
+        "en": "SHIRLEY: The front door opens onto the old farmyard, and parking isn’t a problem – there’s plenty of room at the front for that.",
+        "zh": "Shirley：前門通向舊農家院子， 停車不是問題，前面有很多空間可以停車。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-033"
+      },
+      {
+        "en": "There are some trees and potted plants there.",
+        "zh": "那裡還有一些樹和盆栽。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-034"
+      },
+      {
+        "en": "TOM: What about facilities in the cottage?",
+        "zh": "Tom：小屋裡有哪些設施？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-035"
+      },
+      {
+        "en": "It has standard things like a cooker and fridge, I presume.",
+        "zh": "我想應該有爐具和冰箱這些基本設備吧。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-036"
+      },
+      {
+        "en": "SHIRLEY: In the kitchen area there’s a fridge-freezer and we’ve just put in an electric cooker.",
+        "zh": "Shirley：廚房區有冷凍冷藏冰箱，我們也剛裝了一台電爐。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-037"
+      },
+      {
+        "en": "TOM: Is there a washing machine?",
+        "zh": "Tom：有洗衣機嗎？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-038"
+      },
+      {
+        "en": "SHIRLEY: Yes. There’s also a TV in the living room, which plays DVDs too.",
+        "zh": "Shirley：有。客廳裡還有電視， 也可以播放 DVD。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-039"
+      },
+      {
+        "en": "The bathroom is too small for a bath, so there’s a shower instead.",
+        "zh": "浴室太小，放不下浴缸，所以改成淋浴。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-040"
+      },
+      {
+        "en": "I think a lot of people prefer that nowadays, anyway.",
+        "zh": "不過我想現在很多人本來就比較喜歡淋浴。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-041"
+      },
+      {
+        "en": "TOM: It’s more environmentally friendly, isn’t it?",
+        "zh": "Tom：這也比較環保，不是嗎？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-042"
+      },
+      {
+        "en": "Unless you spend half the day in it!",
+        "zh": "除非你在裡面洗上半天！",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-043"
+      },
+      {
+        "en": "SHIRLEY: Exactly.",
+        "zh": "Shirley：正是。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-044"
+      },
+      {
+        "en": "TOM: What about heating?",
+        "zh": "Tom：暖氣怎麼樣？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-045"
+      },
+      {
+        "en": "It sometimes gets quite cool at that time of year.",
+        "zh": "那個時候有時候會挺冷。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-046"
+      },
+      {
+        "en": "SHIRLEY: There’s central heating, and if you want to light a fire, there’s a stove.",
+        "zh": "Shirley：有中央暖氣，如果你想生火，也有火爐。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-047"
+      },
+      {
+        "en": "We can provide all the wood you need for it.",
+        "zh": "我們可以提供所有需要的木柴。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-048"
+      },
+      {
+        "en": "It smells so much nicer than coal, and it makes the room very cosy – we’ve got one in our own house.",
+        "zh": "它比煤聞起來好多了，也會讓房間非常舒適。我們自己家裡也有一個。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-049"
+      },
+      {
+        "en": "TOM: That sounds very pleasant.",
+        "zh": "Tom：聽起來很舒服。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-050"
+      },
+      {
+        "en": "Perhaps we should come in the winter, to make the most of it!",
+        "zh": "也許我們應該冬天來，好好享受一下！",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-051"
+      },
+      {
+        "en": "SHIRLEY: Yes, we find we don’t want to go out when we’ve got the fire burning.",
+        "zh": "Shirley：是啊，我們發現火爐一燒起來，就不想出門了。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-052"
+      },
+      {
+        "en": "There are some attractive views from the cottage, which I haven’t mentioned.",
+        "zh": "小屋裡還能看到一些很迷人的景色，我剛才還沒提到。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-053"
+      },
+      {
+        "en": "There’s a famous stone bridge – it’s one of the oldest in the region, and you can see it from the living room.",
+        "zh": "有一座著名的石橋，是這個地區最古老的橋之一，從客廳就能看到。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-054"
+      },
+      {
+        "en": "It isn’t far away.",
+        "zh": "它離這裡不遠。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-055"
+      },
+      {
+        "en": "The bedroom window looks in the opposite direction, and has a lovely view of the hills and the monument at the top.",
+        "zh": "臥室窗戶朝另一個方向，可以看到美麗的山丘和山頂上的紀念碑。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-056"
+      },
+      {
+        "en": "TOM: Well, that all sounds perfect.",
+        "zh": "Tom：嗯，聽起來都很完美。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-057"
+      },
+      {
+        "en": "I’d like to book it, please.",
+        "zh": "我想預訂這間。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-058"
+      },
+      {
+        "en": "Would you want a deposit?",
+        "zh": "需要付訂金嗎？",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-059"
+      },
+      {
+        "en": "SHIRLEY: Yes, we ask for thirty percent to secure your booking, so that’ll be, um, £144.",
+        "zh": "Shirley：是的，我們需要 30% 作為訂金來保留預訂，所以是，嗯，144 英鎊。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-060"
+      },
+      {
+        "en": "TOM: And when would you like the rest of the money?",
+        "zh": "Tom：那剩下的錢什麼時候付？",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-061"
+      },
+      {
+        "en": "SHIRLEY: You’re coming in May, so the last day of March, please.",
+        "zh": "Shirley：你們五月來，所以請在三月最後一天前付清。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-062"
+      },
+      {
+        "en": "TOM: Fine.",
+        "zh": "Tom：好的。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-063"
+      },
+      {
+        "en": "SHIRLEY: Excellent. Could I just take your details …",
+        "zh": "Shirley：太好了。可以請你提供一下詳細資料嗎……",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-064"
+      }
+    ],
+    "2": [
+      {
+        "en": "CHAIRPERSON: Right. Next on the agenda we have traffic and highways. Councillor Thornton.",
+        "zh": "Chairperson：好的。下一項議程是交通與道路。請 Thornton 議員發言。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-001"
+      },
+      {
+        "en": "COUNCILLOR THORNTON: Thank you. Well, we now have the results of the survey carried out last month about traffic and road transport in the town.",
+        "zh": "Councillor Thornton：謝謝。現在我們已經有了上個月關於本鎮交通和道路運輸調查的結果。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-002"
+      },
+      {
+        "en": "People were generally satisfied with the state of the roads.",
+        "zh": "人們整體上對道路狀況感到滿意。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-003"
+      },
+      {
+        "en": "There were one or two complaints about potholes which will be addressed, but a significant number of people complained about the increasing number of heavy vehicles using our local roads to avoid traffic elsewhere.",
+        "zh": "有一兩起關於路面坑洞的投訴，我們會處理；但相當多人抱怨越來越多重型車輛使用本地道路，以避開其他地方的交通。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-004"
+      },
+      {
+        "en": "We’d expected more complaints by commuters about the reduction in the train service, but it doesn’t seem to have affected people too much.",
+        "zh": "我們原本預期通勤者會對火車服務減少有更多投訴，但這似乎沒有對人們造成太大影響。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-005"
+      },
+      {
+        "en": "The cycle path that runs alongside the river is very well used by both cyclists and pedestrians since the surface was improved last year, but overtaking can be a problem so we’re going to add a bit on the side to make it wider.",
+        "zh": "沿河自行車道自去年改善路面後，騎車者和行人都很常使用， 但超車可能是個問題，所以我們打算在旁邊加寬一點。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-006"
+      },
+      {
+        "en": "At some stage, we’d like to extend the path so that it goes all the way through the town, but that won’t be happening in the immediate future.",
+        "zh": "在某個階段，我們希望把這條路延伸到穿過整個城鎮，但近期不會實施。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-007"
+      },
+      {
+        "en": "The plans to have a pedestrian crossing next to the Post Office have unfortunately had to be put on hold for the time being.",
+        "zh": "很遺憾，在郵局旁設置行人穿越道的計畫目前必須暫停。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-008"
+      },
+      {
+        "en": "We’d budgeted for this to be done this financial year, but then there were rumours that the Post Office was going to move, which would have meant there wasn’t really a need for a crossing.",
+        "zh": "我們原本已將這項工程列入本財政年度預算，但後來有傳聞說郵局要搬走，那樣就不一定需要穿越道了。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-009"
+      },
+      {
+        "en": "Now they’ve confirmed that they’re staying where they are, but the Highways Department have told us that it would be dangerous to have a pedestrian crossing where we’d originally planned it as there’s a bend in the road there.",
+        "zh": "現在郵局已確認會留在原地， 但道路部門告訴我們，在原本計畫的位置設置行人穿越道會很危險，因為那裡有彎道。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-010"
+      },
+      {
+        "en": "So that’ll need some more thought.",
+        "zh": "所以這還需要進一步考慮。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-011"
+      },
+      {
+        "en": "On Station Road near the station and level crossing, drivers can face quite long waits if the level crossing’s closed, and we’ve now got signs up requesting them not to leave their engines running at that time.",
+        "zh": "在車站和鐵路平交道附近的 Station Road，如果平交道關閉，司機可能要等很久；我們現在已設置標誌，要求他們等待時不要讓引擎持續運轉。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-012"
+      },
+      {
+        "en": "This means pedestrians waiting on the pavement to cross the railway line don’t have to breathe in car fumes.",
+        "zh": "這樣在人行道上等著穿越鐵路線的行人就不用吸入汽車廢氣。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-013"
+      },
+      {
+        "en": "We’ve had some problems with cyclists leaving their bikes chained to the railings outside the ticket office, but the station has agreed to provide bike racks there.",
+        "zh": "我們曾遇到一些問題，騎車者把自行車鎖在售票處外的欄杆上，但車站已同意在那裡提供自行車架。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-014"
+      },
+      {
+        "en": "CHAIRPERSON: So next on the agenda is “Proposals for improvements to the recreation ground”. Councillor Thornton again.",
+        "zh": "Chairperson：下一項議程是「改善休閒運動場的提案」。再次請 Thornton 議員發言。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-015"
+      },
+      {
+        "en": "COUNCILLOR THORNTON: Well, since we managed to extend the recreation ground, we’ve spent some time talking to local people about how it could be made a more attractive and useful space.",
+        "zh": "Councillor Thornton：嗯，自從我們成功擴建休閒運動場後， 我們花了一些時間和當地居民討論如何讓它變得更有吸引力，也更實用。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-016"
+      },
+      {
+        "en": "If you have a look at the map up on the screen, you can see the river up in the north, and the Community Hall near the entrance from the road.",
+        "zh": "如果大家看螢幕上的地圖，可以看到北邊有河流， Community Hall 靠近道路入口。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-017"
+      },
+      {
+        "en": "At present, cars can park between the Community Hall and that line of trees to the east, but this is quite dangerous for pedestrians so we’re suggesting a new car park on the opposite side of the Community Hall, right next to it.",
+        "zh": "目前，車輛可以停在 Community Hall 和東邊那排樹之間，但這對行人很危險，所以我們建議在 Community Hall 的另一側、緊鄰它的位置設置新停車場。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-018"
+      },
+      {
+        "en": "We also have a new location for the cricket pitch.",
+        "zh": "我們也為板球場選定了新位置。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-019"
+      },
+      {
+        "en": "As we’ve now purchased additional space to the east of the recreation ground, beyond the trees, we plan to move it away from its current location, which is rather near the road, into this new area beyond the line of trees.",
+        "zh": "由於我們現在已購買休閒運動場東側、樹木之外的額外土地， 所以計畫把板球場從目前靠近道路的位置，移到樹線之外的新區域。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-020"
+      },
+      {
+        "en": "This means there’s less danger of stray balls hitting cars or pedestrians.",
+        "zh": "這表示偏離方向的球擊中車輛或行人的風險會降低。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-021"
+      },
+      {
+        "en": "We’ve got plans for a children’s playground which will be accessible by a footpath from the Community Hall and will be alongside the river.",
+        "zh": "我們計畫設置一個兒童遊樂場，可以從 Community Hall 經由人行道到達，位置會在河邊。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-022"
+      },
+      {
+        "en": "We’d originally thought of having it close to the road, but we think this will be a more attractive location.",
+        "zh": "我們原本想把它設在靠近道路的地方，但現在認為河邊會是更吸引人的位置。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-023"
+      },
+      {
+        "en": "The skateboard ramp is very popular with both younger and older children – we had considered moving this up towards the river, but in the end we decided to have it in the southeast corner near the road.",
+        "zh": "滑板坡道很受年紀較小和較大的孩子歡迎。我們曾考慮把它移到靠近河邊的位置，但最後決定把它設在靠近道路的東南角。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-024"
+      },
+      {
+        "en": "The pavilion is very well used at present by both football players and cricketers.",
+        "zh": "目前，足球員和板球員都經常使用這座涼亭。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-025"
+      },
+      {
+        "en": "It will stay where it is now – to the left of the line of trees and near to the river – handy for both the football and cricket pitches.",
+        "zh": "它會保留在原處，也就是那排樹的左側、靠近河流的位置，對足球場和板球場都很方便。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-026"
+      },
+      {
+        "en": "And finally, we’ll be getting a new notice board for local information, and that will be directly on people’s right as they go from the road into the recreation ground.",
+        "zh": "最後，我們會設置一個新的本地資訊公告板，位置就在大家從道路進入休閒運動場時右手邊。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-027"
+      }
+    ],
+    "3": [
+      {
+        "en": "JAKE: Now that we’ve done all the research into bike-sharing schemes in cities around the world, we need to think about how we’re going to organise our report.",
+        "zh": "Jake：既然我們已經完成了對世界各城市共享單車計畫的研究，現在需要思考如何組織報告。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-001"
+      },
+      {
+        "en": "AMY: Right. I think we should start by talking about the benefits.",
+        "zh": "Amy：對。我覺得我們應該先談好處。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-002"
+      },
+      {
+        "en": "I mean it’s great that so many cities have introduced these schemes where anyone can pick up a bike from dozens of different locations and hire it for a few hours.",
+        "zh": "我的意思是，很多城市都推出了這類計畫，任何人都可以從許多不同地點取車，租用幾個小時，這很棒。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-003"
+      },
+      {
+        "en": "It makes riding a bike very convenient for people.",
+        "zh": "這讓人們騎自行車變得非常方便。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-004"
+      },
+      {
+        "en": "JAKE: Yes, but the costs can add up and that puts people on low incomes off in some places.",
+        "zh": "Jake：是的，但費用累積起來也不少，在某些地方會讓低收入者卻步。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-005"
+      },
+      {
+        "en": "AMY: I suppose so, but if it means more people in general are cycling rather than driving, then because they’re increasing the amount of physical activity they do, it’s good for their health.",
+        "zh": "Amy：我想也是。不過如果這意味著整體上更多人騎自行車而不是開車，那他們的身體活動量就增加了，對健康有好處。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-006"
+      },
+      {
+        "en": "JAKE: OK. But isn’t that of less importance?",
+        "zh": "Jake：好。但那不是比較次要嗎？",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-007"
+      },
+      {
+        "en": "I mean, doesn’t the impact of reduced emissions on air pollution have a more significant effect on people’s health?",
+        "zh": "我的意思是，減少排放對空氣污染的影響，對人們健康不是更重要嗎？",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-008"
+      },
+      {
+        "en": "AMY: Certainly, in some cities bike-sharing has made a big contribution to that.",
+        "zh": "Amy：當然，在一些城市，共享單車在這方面貢獻很大。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-009"
+      },
+      {
+        "en": "And also helped to cut the number of cars on the road significantly.",
+        "zh": "而且也顯著減少了道路上的汽車數量。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-010"
+      },
+      {
+        "en": "JAKE: Which is the main point.",
+        "zh": "Jake：這才是重點。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-011"
+      },
+      {
+        "en": "AMY: Exactly. But I’d say it’s had less of an impact on noise pollution because there are still loads of buses and lorries around.",
+        "zh": "Amy：沒錯。不過我會說，它對噪音污染的影響比較小，因為路上仍然有很多公車和卡車。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-012"
+      },
+      {
+        "en": "JAKE: Right.",
+        "zh": "Jake：對。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-013"
+      },
+      {
+        "en": "AMY: Shall we quickly discuss the recommendations we’re going to make?",
+        "zh": "Amy：我們要不要快速討論一下要提出的建議？",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-014"
+      },
+      {
+        "en": "JAKE: In order to ensure bike-sharing schemes are successful?",
+        "zh": "Jake：為了確保共享單車計畫成功？",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-015"
+      },
+      {
+        "en": "AMY: Yes.",
+        "zh": "Amy：是的。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-016"
+      },
+      {
+        "en": "JAKE: OK. Well, while I think it’s nice to have really state-of-the art bikes with things like GPS, I wouldn’t say they’re absolutely necessary.",
+        "zh": "Jake：好的。雖然我覺得有配備 GPS 等先進功能的自行車很好，但我不會說這是絕對必要的。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-017"
+      },
+      {
+        "en": "AMY: But some technical things are really important – like a fully functional app – so people can make payments and book bikes easily.",
+        "zh": "Amy：但有些技術方面真的很重要，例如功能完整的應用程式，這樣人們才能輕鬆付款和預訂自行車。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-018"
+      },
+      {
+        "en": "Places which haven’t invested in that have really struggled.",
+        "zh": "沒有在這方面投資的地方確實遇到了很大困難。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-019"
+      },
+      {
+        "en": "JAKE: Good point … Some people say there shouldn’t be competing companies offering separate bike-sharing schemes, but in some really big cities, competition’s beneficial and anyway one company might not be able to manage the whole thing.",
+        "zh": "Jake：有道理……有些人說不應該有競爭公司提供各自的共享單車計畫，但在一些非常大的城市裡，競爭是有益的，而且一家公司可能也無法管理整個系統。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-020"
+      },
+      {
+        "en": "AMY: Right. Deciding how much to invest is a big question.",
+        "zh": "Amy：對。要投資多少是一個大問題。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-021"
+      },
+      {
+        "en": "Cities which have opened loads of new bike lanes at the same time as introducing bike-sharing schemes have generally been more successful – but there are examples of successful schemes where this hasn’t happened …",
+        "zh": "那些在推出共享單車計畫的同時開闢大量新自行車道的城市通常更成功，但也有一些成功案例並沒有這樣做……",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-022"
+      },
+      {
+        "en": "What does matter though – is having a big publicity campaign.",
+        "zh": "不過真正重要的是要有大規模宣傳活動。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-023"
+      },
+      {
+        "en": "JAKE: Definitely. If people don’t know how to use the scheme or don’t understand its benefits, they won’t use it.",
+        "zh": "Jake：絕對是。如果人們不知道如何使用這個計畫，或不了解它的好處，就不會使用。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-024"
+      },
+      {
+        "en": "People need a lot of persuasion to stop using their cars.",
+        "zh": "要讓人們停止開車，需要大量說服。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-025"
+      },
+      {
+        "en": "AMY: Shall we look at some examples now?",
+        "zh": "Amy：我們現在來看看一些例子吧？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-026"
+      },
+      {
+        "en": "And say what we think is good or bad about them.",
+        "zh": "然後說說我們覺得它們好在哪裡或不好在哪裡。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-027"
+      },
+      {
+        "en": "JAKE: I suppose we should start with Amsterdam as this was one of the first cities to have a bike sharing scheme.",
+        "zh": "Jake：我想我們應該從 Amsterdam 開始，因為它是最早擁有共享單車計畫的城市之一。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-028"
+      },
+      {
+        "en": "AMY: Yes. There was already a strong culture of cycling here.",
+        "zh": "Amy：是的。那裡本來就有很強的自行車文化。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-029"
+      },
+      {
+        "en": "In a way it’s strange that there was such a demand for bike-sharing because you’d have thought most people would have used their own bikes.",
+        "zh": "從某種程度上說，共享單車需求這麼大有點奇怪，因為你會以為大多數人會用自己的自行車。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-030"
+      },
+      {
+        "en": "JAKE: And yet it’s one of the best-used schemes …",
+        "zh": "Jake：然而它卻是使用率最高的計畫之一……",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-031"
+      },
+      {
+        "en": "Dublin’s an interesting example of a success story.",
+        "zh": "Dublin 是一個有趣的成功例子。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-032"
+      },
+      {
+        "en": "AMY: It must be because the public transport system’s quite limited.",
+        "zh": "Amy：那一定是因為公共交通系統很有限。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-033"
+      },
+      {
+        "en": "JAKE: Not really – there’s no underground, but there are trams and a good bus network.",
+        "zh": "Jake：不完全是。那裡沒有地鐵，但有電車和良好的公車網絡。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-034"
+      },
+      {
+        "en": "I’d say price has a lot to do with it.",
+        "zh": "我會說價格和成功很有關係。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-035"
+      },
+      {
+        "en": "It’s one of the cheapest schemes in Europe to join.",
+        "zh": "它是歐洲加入費用最低的計畫之一。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-036"
+      },
+      {
+        "en": "AMY: But the buses are really slow – anyway the weather certainly can’t be a factor!",
+        "zh": "Amy：但公車真的很慢。不管怎樣，天氣肯定不是因素！",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-037"
+      },
+      {
+        "en": "JAKE: No – definitely not. The London scheme’s been quite successful.",
+        "zh": "Jake：對，絕對不是。London 的計畫相當成功。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-038"
+      },
+      {
+        "en": "AMY: Yes – it’s been a really good thing for the city.",
+        "zh": "Amy：是的，這對城市來說是件很好的事。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-039"
+      },
+      {
+        "en": "The bikes are popular and the whole system is well maintained but it isn’t expanding quickly enough.",
+        "zh": "自行車很受歡迎，整個系統維護得很好，但擴張速度不夠快。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-040"
+      },
+      {
+        "en": "JAKE: Basically, not enough’s been spent on increasing the number of cycle lanes.",
+        "zh": "Jake：基本上，在增加自行車道數量方面投入還不夠。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-041"
+      },
+      {
+        "en": "Hopefully that’ll change.",
+        "zh": "希望之後會改變。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-042"
+      },
+      {
+        "en": "AMY: Yes. Now what about outside Europe?",
+        "zh": "Amy：是的。那歐洲以外呢？",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-043"
+      },
+      {
+        "en": "JAKE: Well bike-sharing schemes have taken off in places like Buenos Aires.",
+        "zh": "Jake：共享單車計畫在 Buenos Aires 這類地方已經發展起來。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-044"
+      },
+      {
+        "en": "AMY: Mmm. They built a huge network of cycle lanes to support the introduction of the scheme there, didn’t they?",
+        "zh": "Amy：嗯。他們建了一個龐大的自行車道網絡來支持這個計畫的引入，對吧？",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-045"
+      },
+      {
+        "en": "It attracted huge numbers of cyclists where previously there were hardly any.",
+        "zh": "它吸引了大量騎車者，而以前那裡幾乎沒有人騎車。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-046"
+      },
+      {
+        "en": "JAKE: An example of good planning.",
+        "zh": "Jake：這是良好規劃的例子。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-047"
+      },
+      {
+        "en": "AMY: Absolutely. New York is a good example of how not to introduce a scheme.",
+        "zh": "Amy：完全同意。New York 則是如何不應該推行計畫的好例子。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-048"
+      },
+      {
+        "en": "When they launched it, it was more than ten times the price of most other schemes.",
+        "zh": "他們推出時，價格是大多數其他計畫的十倍以上。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-049"
+      },
+      {
+        "en": "JAKE: More than it costs to take a taxi. Crazy.",
+        "zh": "Jake：比搭計程車還貴，太瘋狂了。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-050"
+      },
+      {
+        "en": "I think the organisers lacked vision and ambition there.",
+        "zh": "我覺得那裡的組織者缺乏遠見和企圖心。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-051"
+      },
+      {
+        "en": "AMY: I think so too.",
+        "zh": "Amy：我也這麼覺得。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-052"
+      },
+      {
+        "en": "Sydney would be a good example to use.",
+        "zh": "Sydney 也是可以使用的一個好例子。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-053"
+      },
+      {
+        "en": "I would have expected it to have grown pretty quickly here.",
+        "zh": "我原本以為它在那裡會發展得很快。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-054"
+      },
+      {
+        "en": "JAKE: Yes. I can’t quite work out why it hasn’t been an instant success like some of the others.",
+        "zh": "Jake：是啊。我不太明白為什麼它沒有像其他一些城市那樣立刻成功。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-055"
+      },
+      {
+        "en": "It’s a shame really.",
+        "zh": "真的很可惜。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-056"
+      },
+      {
+        "en": "AMY: I know. OK so now we’ve thought about …",
+        "zh": "Amy：我知道。好，那現在我們已經想過……",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-057"
+      }
+    ],
+    "4": [
+      {
+        "en": "One of the most famous cases of extinction is that of a bird known as the dodo.",
+        "zh": "最著名的滅絕案例之一，是一種名為 dodo 的鳥。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-001"
+      },
+      {
+        "en": "In fact there’s even a saying in English, “as dead as the dodo”, used to refer to something which no longer exists.",
+        "zh": "事實上，英語裡甚至有一句說法 “as dead as the dodo”，用來形容已經不存在的事物。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-002"
+      },
+      {
+        "en": "But for many centuries the dodo was alive and well, although it could only be found in one place, the island of Mauritius in the Indian Ocean.",
+        "zh": "但在許多世紀裡，dodo 曾經生存得很好，雖然它只存在於一個地方，也就是印度洋上的 Mauritius 島。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-003"
+      },
+      {
+        "en": "It was a very large bird, about one metre tall, and over the centuries it had lost the ability to fly, but it survived happily under the trees that covered the island.",
+        "zh": "它是一種非常大的鳥，約一公尺高。數百年間，它失去了飛行能力，但仍在覆蓋島嶼的樹木下安然生存。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-004"
+      },
+      {
+        "en": "Then in the year 1507 the first Portuguese ships stopped at the island.",
+        "zh": "後來，在 1507 年，第一批葡萄牙船隻停靠在這座島上。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-005"
+      },
+      {
+        "en": "The sailors were carrying spices back to Europe, and found the island a convenient stopping place where they could stock up with food and water for the rest of the voyage, but they didn’t settle on Mauritius.",
+        "zh": "水手們正把香料運回歐洲，發現這座島是方便停靠的地方， 可以為接下來的航程補充食物和水，但他們沒有在 Mauritius 定居。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-006"
+      },
+      {
+        "en": "However, in 1638 the Dutch arrived and set up a colony there.",
+        "zh": "然而，1638 年荷蘭人抵達，並在那裡建立了殖民地。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-007"
+      },
+      {
+        "en": "These first human inhabitants of the island found the dodo birds a convenient source of meat, although not everyone liked the taste.",
+        "zh": "這些島上最早的人類居民發現 dodo 是方便取得的肉類來源， 雖然不是每個人都喜歡它的味道。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-008"
+      },
+      {
+        "en": "It’s hard to get an accurate description of what the dodo actually looked like.",
+        "zh": "要準確描述 dodo 真正的樣子很困難。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-009"
+      },
+      {
+        "en": "We do have some written records from sailors, and a few pictures, but we don’t know how reliable these are.",
+        "zh": "我們確實有一些水手留下的文字記錄和幾幅圖畫，但不知道它們有多可靠。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-010"
+      },
+      {
+        "en": "The best-known picture is a Dutch painting in which the bird appears to be extremely fat, but this may not be accurate – an Indian painting done at the same time shows a much thinner bird.",
+        "zh": "最著名的是一幅荷蘭畫作，畫中的鳥看起來非常肥胖，但這可能不準確；同時期的一幅印度畫則畫出一隻瘦得多的鳥。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-011"
+      },
+      {
+        "en": "Although attempts were made to preserve the bodies of some of the birds, no complete specimen survives.",
+        "zh": "雖然有人曾試圖保存一些 dodo 的屍體，但沒有任何完整標本留存下來。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-012"
+      },
+      {
+        "en": "In the early 17th century four dried parts of a bird were known to exist – of these, three have disappeared, so only one example of soft tissue from the dodo survives, a dodo head.",
+        "zh": "在 17 世紀初，人們知道曾有四塊乾燥的 dodo 身體部位存在；其中三塊已經消失，因此目前唯一留下的 dodo 軟組織是一顆 dodo 頭部。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-013"
+      },
+      {
+        "en": "Bones have also been found, but there’s only one complete skeleton in existence.",
+        "zh": "人們也發現了一些骨頭，但現存完整骨架只有一副。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-014"
+      },
+      {
+        "en": "This single dodo skeleton has recently been the subject of scientific research which suggests that many of the earlier beliefs about dodos may have been incorrect.",
+        "zh": "這副唯一完整的 dodo 骨架最近成為科學研究對象，研究顯示許多早期關於 dodo 的觀點可能是錯誤的。",
+        "sourcePages": [
+          43,
+          44
+        ],
+        "id": "p4-row-015"
+      },
+      {
+        "en": "For example, early accounts of the birds mention how slow and clumsy it was, but scientists now believe the bird’s strong knee joints would have made it capable of movement which was not slow, but actually quite fast.",
+        "zh": "例如，早期記載提到這種鳥行動緩慢又笨拙，但科學家現在認為，dodo 強壯的膝關節使牠能夠快速移動，而不是緩慢移動。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-016"
+      },
+      {
+        "en": "In fact, one 17th century sailor wrote that he found the birds hard to catch.",
+        "zh": "事實上，一位 17 世紀水手曾寫道，他覺得這些鳥很難捕捉。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-017"
+      },
+      {
+        "en": "It’s true that the dodo’s small wings wouldn’t have allowed it to leave the ground, but the scientists suggest that these were probably employed for balance while going over uneven ground.",
+        "zh": "的確，dodo 的小翅膀無法讓牠離地飛行，但科學家認為，這些翅膀可能用來在不平地面上移動時保持平衡。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-018"
+      },
+      {
+        "en": "Another group of scientists carried out analysis of the dodo’s skull.",
+        "zh": "另一組科學家對 dodo 的頭骨進行了分析。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-019"
+      },
+      {
+        "en": "They found that the reports of the lack of intelligence of the dodo were not borne out by their research, which suggested the bird’s brain was not small, but average in size.",
+        "zh": "他們發現，關於 dodo 缺乏智力的說法並未得到研究支持； 研究顯示牠的大腦並不小，而是平均大小。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-020"
+      },
+      {
+        "en": "In fact, in relation to its body size, it was similar to that of the pigeon, which is known to be a highly intelligent bird.",
+        "zh": "事實上，相對於身體大小， dodo 的大腦比例和鴿子相似， 而鴿子是已知非常聰明的鳥類。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-021"
+      },
+      {
+        "en": "The researchers also found that the structure of the bird’s skull suggested that one sense which was particularly well-developed was that of smell.",
+        "zh": "研究人員還發現，這種鳥的頭骨結構顯示，牠特別發達的一種感官是嗅覺。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-022"
+      },
+      {
+        "en": "So the dodo may also have been particularly good at locating ripe fruit and other food in the island’s thick vegetation.",
+        "zh": "因此，dodo 可能也特別擅長在島上茂密植被中尋找成熟水果和其他食物。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-023"
+      },
+      {
+        "en": "So it looks as if the dodo was better able to survive and defend itself than was originally believed.",
+        "zh": "因此，看起來 dodo 比人們最初認為的更能生存和保護自己。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-024"
+      },
+      {
+        "en": "Yet less than 200 years after Europeans first arrived on the island, they had become extinct.",
+        "zh": "然而，在歐洲人首次抵達這座島後不到 200 年，牠們就滅絕了。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-025"
+      },
+      {
+        "en": "So what was the reason for this?",
+        "zh": "那麼原因是什麼呢？",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-026"
+      },
+      {
+        "en": "For a long time, it was believed that the dodos were hunted to extinction, but scientists now believe the situation was more complicated than this.",
+        "zh": "很長一段時間，人們認為 dodo 是被獵殺到滅絕的，但科學家現在認為情況比這更複雜。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-027"
+      },
+      {
+        "en": "Another factor may have been the new species brought to the island by the sailors.",
+        "zh": "另一個因素可能是水手們帶到島上的新物種。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-028"
+      },
+      {
+        "en": "These included dogs, which would have been a threat to the dodos, and also monkeys, which ate the fruit that was the main part of the dodos’ diet.",
+        "zh": "其中包括狗，牠們會威脅 dodo ；還有猴子，牠們會吃 dodo 主要食物來源中的水果。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-029"
+      },
+      {
+        "en": "These were brought to the island deliberately, but the ships also brought another type of creature – rats, which came to land from the ships and rapidly overran the island.",
+        "zh": "這些動物是被刻意帶到島上的，但船隻也帶來了另一種生物 ——老鼠；牠們從船上下到陸地，很快遍布整座島。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-030"
+      },
+      {
+        "en": "These upset the ecology of the island, not just the dodos but other species too.",
+        "zh": "這些老鼠破壞了島上的生態， 不只是 dodo，其他物種也受到影響。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-031"
+      },
+      {
+        "en": "However, they were a particular danger to the dodos because they consumed their eggs, and since each dodo only laid one at a time, this probably had a devastating effect on populations.",
+        "zh": "然而，老鼠對 dodo 特別危險， 因為牠們會吃 dodo 的蛋；而每隻 dodo 一次只下一顆蛋，這很可能對族群造成毀滅性影響。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-032"
+      },
+      {
+        "en": "However, we now think that probably the main cause of the birds’ extinction was not the introduction of non-native species, but the introduction of agriculture.",
+        "zh": "不過，我們現在認為，這種鳥滅絕的主要原因可能不是外來物種的引入，而是農業的引入。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-033"
+      },
+      {
+        "en": "This meant that the forest that had once covered all the island, and that had provided a perfect home for the dodo, was cut down so that crops such as sugar could be grown.",
+        "zh": "這意味著曾經覆蓋整座島、為 dodo 提供完美棲地的森林被砍伐，以便種植甘蔗等作物。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-034"
+      },
+      {
+        "en": "So although the dodo had survived for thousands of years, suddenly it was gone.",
+        "zh": "所以，儘管 dodo 已經生存了數千年，卻突然消失了。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-035"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "answer": "28th / 28",
+      "explanation": "題目寫： “available for week beginning _____ May” Tom 原先想要： “the week beginning the 14th” Shirley 查過後說那星期已經 booked，接著修正： “It’s free the week beginning the 28th, though” 而且： “that’s the only time you could have it in May.” 所以 14 May 是原本希望的日期，真正有空的是 28 May。 答案是 28th / 28。",
+      "sourcePages": [
+        47
+      ]
+    },
+    "2": {
+      "answer": "550",
+      "explanation": "題目寫： “cost for the week: £ _____” Granary Cottage 在 28 May 開始進入 high season，所以 Shirley 說： “it’d be £550 for the week.” 所以答案是 550。 後面出現的 £500 是 Tom 自己的 accommodation budget，不能填進去。",
+      "sourcePages": [
+        47
+      ]
+    },
+    "3": {
+      "answer": "Chervil",
+      "explanation": "題目寫： “_____ Cottage” Granary Cottage 超出 Tom 的預算後，Shirley 推薦另一間： “we’re calling Chervil Cottage.” 還特別拼字： “C-H-E-R-V … I-L.” 所以答案是 Chervil。",
+      "sourcePages": [
+        48
+      ]
+    },
+    "4": {
+      "answer": "garage",
+      "explanation": "題目寫： “building was originally a _____” Shirley 說： “The building was built as a garage.” 現在改造成 holiday cottage。 答案是 garage。",
+      "sourcePages": [
+        48
+      ]
+    },
+    "5": {
+      "answer": "garden",
+      "explanation": "題目寫： “walk through doors from living room into a _____” Tom 問： “Does it have a garden?” Shirley 回答： “Yes, you get to it from the living room through French doors” 所以從 living room 經 French doors 直接進入 garden。 答案是 garden。 中伏位：後面提到 patio，但那只是未來打算興建，而且五月前未必完成。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "6": {
+      "answer": "parking",
+      "explanation": "題目寫： “several _____ spaces at the front” 錄音說： “parking isn’t a problem – there’s plenty of room at the front for that.” 題目把 “plenty of room … for parking” 整理成 parking spaces。 所以答案是 parking。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "7": {
+      "answer": "wood",
+      "explanation": "題目寫： “stove that burns _____” Shirley 說 cottage 有 central heating，也有 stove： “We can provide all the wood you need for it.” 之後還將 wood 與 coal 的氣味作比較。 所以 stove 燒的是 wood。 答案是 wood。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "8": {
+      "answer": "bridge",
+      "explanation": "題目寫： “views of old _____ from living room” 錄音說： “There’s a famous stone bridge – it’s one of the oldest in the region, and you can see it from the living room.” 所以答案是 bridge。 題目中的 old 來自 “one of the oldest in the region”。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "9": {
+      "answer": "monument",
+      "explanation": "題目寫： “view of hilltop _____ from the bedroom” Bedroom window 朝另一方向，可以看到： “the hills and the monument at the top.” at the top = hilltop。 所以答案是 monument。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "10": {
+      "answer": "March",
+      "explanation": "題目寫： “deadline for final payment: end of _____” Tom 五月入住。 Shirley 要求尾款： “the last day of March, please.” last day of March = end of March。 所以答案是 March。",
+      "sourcePages": [
+        51,
+        52
+      ]
+    },
+    "11": {
+      "answer": "C — changes in the type of traffic",
+      "explanation": "這題問 survey 中居民對 traffic 的 main concern。 錄音先排除兩個常見問題： 道路狀況方面： “People were generally satisfied with the state of the roads.” 只有： “one or two complaints about potholes” 所以 road maintenance 不是主要問題。 Train service 減少方面，議會原本預期會有很多投訴，但： “it doesn’t seem to have affected people too much.” 真正有： “a significant number of people complained” 的是： “the increasing number of heavy vehicles using our local roads” 也就是道路上的車輛類型出現變化，尤其重型車增加。 所以答案是 C。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "12": {
+      "answer": "A — It will be widened",
+      "explanation": "題目問 shortly 會對 river cycle path 做甚麼。 錄音說去年已經： “the surface was improved” 所以 resurfacing 已完成。 目前問題是 overtaking，因此： “we’re going to add a bit on the side to make it wider.” 未來某階段也想： “extend the path” 但馬上補充： “that won’t be happening in the immediate future.” 因此近期真正會做的是 widening。 答案是 A。 這題的時間線很重要： 去年：改善 surface → 近期：widen → 更遠未來：extend",
+      "sourcePages": [
+        53
+      ]
+    },
+    "13": {
+      "answer": "B — the proposed location is unsafe",
+      "explanation": "Pedestrian crossing 原本 planned next to the Post Office。 期間曾經聽說 Post Office 可能搬走，所以一度懷疑 crossing 是否仍有需要。 不過後來： “they’ve confirmed that they’re staying where they are” 所以搬遷已經不是阻礙。 真正令計畫暫停的是 Highways Department 指出： “it would be dangerous to have a pedestrian crossing where we’d originally planned it” 原因： “there’s a bend in the road there.” 因此需要重新考慮位置。 答案是 B。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "14": {
+      "answer": "B — asking motorists to switch off engines when waiting at the level",
+      "explanation": "crossing Station Road 的 level crossing 關閉時，drivers 可能要等很久。 Council 已設置 signs： “requesting them not to leave their engines running” 也就是等待時把 engine 關掉。 目的在於減少 fumes，避免旁邊 pedestrians 吸入廢氣。 所以答案是 B。 A 提到 cyclists 鎖車問題，但解決方法是增加 bike racks，沒有說張貼禁止告示。",
+      "sourcePages": [
+        54,
+        55
+      ]
+    },
+    "15": {
+      "answer": "C — New car park",
+      "explanation": "首先找到地圖中央偏左的 Community Hall。 錄音說目前車停在： “between the Community Hall and that line of trees to the east” 也就是 Community Hall 右邊／東邊。 新的 car park 要搬去： “the opposite side of the Community Hall, right next to it.” Community Hall 右側是現有停車位置，那麼 opposite side 就是左／西側。 地圖中 Community Hall 左邊、緊貼它的大區域是 C。 所以： Community Hall → 原停車在東側 → 新停車場改到相反的西側 → C 答案是 C。",
+      "sourcePages": [
+        55
+      ]
+    },
+    "16": {
+      "answer": "F — New cricket pitch",
+      "explanation": "錄音說 recreation ground 東側新增了土地： “additional space to the east … beyond the trees” 新的 cricket pitch 要： “move … into this new area beyond the line of trees.” 看地圖右側： ● 中間有一列南北方向的 trees ● trees 東邊／右邊是大片新區域 F 所以新 cricket pitch 就是 F。 答案是 F。 這一題關鍵詞： east + beyond the trees 兩個條件一起使用，位置非常明確。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "17": {
+      "answer": "A — Children’s playground",
+      "explanation": "錄音給兩個核心條件： 1. “accessible by a footpath from the Community Hall” 2. “will be alongside the river” 從 Community Hall 往北看，可以看到 dashed footpath 一直通往 river。 靠 river、又在該 footpath 末端附近的區域就是 A。 所以： Community Hall → 沿 footpath 向北 → river 邊 = A 答案是 A。 中伏位：錄音特別提到原先曾想放在： “close to the road” 但那是舊構想，最後選擇 river-side location。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "18": {
+      "answer": "I — Skateboard ramp",
+      "explanation": "這是一題典型的「原方案 → 最終方案」干擾題。 錄音先說： “we had considered moving this up towards the river” 如果聽到這裡就選，很容易錯。 接著最重要的轉折： “but in the end we decided to have it in the southeast corner near the road.” 地圖： ● South = 下 ● East = 右 ● southeast corner = 右下角 ● near the road = 緊靠底部 Road 右下角標示的位置是 I。 所以答案是 I。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "19": {
+      "answer": "E — Pavilion",
+      "explanation": "錄音說 pavilion 不搬： “It will stay where it is now” 位置是： “to the left of the line of trees and near to the river.” 看看地圖： ● 一列 trees 在右半部 ● 其左邊 ● 又靠近北側 river 符合的建築位置是 E。 所以答案是 E。",
+      "sourcePages": [
+        59
+      ]
+    },
+    "20": {
+      "answer": "H — Notice board",
+      "explanation": "錄音說 new notice board： “will be directly on people’s right as they go from the road into the recreation ground.” 這題方向一定要以「人從 Road 進入」為視角。 入口在地圖底部中央附近。人面向北走入 recreation ground 時： ● 自己的右手 = 地圖東側／右邊入口右邊最近的位置是 H。 所以： Road → 往北進場 → 立即看右手邊 = H 答案是 H。",
+      "sourcePages": [
+        59,
+        60
+      ]
+    },
+    "21": {
+      "answer": "B and C",
+      "explanation": "題目問兩人認為 bike-sharing 最重要的兩項 benefits。 B — reducing traffic congestion Amy 說 bike sharing： “helped to cut the number of cars on the road significantly.” Jake 馬上說： “Which is the main point.” 這是一個非常強的控制詞，直接把 reducing cars / congestion 提升到主要好處。 所以 B 正確。 C — improving air quality Jake 說 cycling 增加 physical activity 當然有健康好處，但他認為更重要的是： “the impact of reduced emissions on air pollution” Amy 同意： “Certainly” 因此改善空氣品質也是兩人共同認為非常重要的 benefit。 所以答案是 B、C。 D health and fitness 有益，但 Jake 明確說它相對次要。A noise pollution 的效果更小。",
+      "sourcePages": [
+        60,
+        61
+      ]
+    },
+    "22": {
+      "answer": "B and C",
+      "explanation": "題目問兩人認為 bike-sharing 最重要的兩項 benefits。 B — reducing traffic congestion Amy 說 bike sharing： “helped to cut the number of cars on the road significantly.” Jake 馬上說： “Which is the main point.” 這是一個非常強的控制詞，直接把 reducing cars / congestion 提升到主要好處。 所以 B 正確。 C — improving air quality Jake 說 cycling 增加 physical activity 當然有健康好處，但他認為更重要的是： “the impact of reduced emissions on air pollution” Amy 同意： “Certainly” 因此改善空氣品質也是兩人共同認為非常重要的 benefit。 所以答案是 B、C。 D health and fitness 有益，但 Jake 明確說它相對次要。A noise pollution 的效果更小。",
+      "sourcePages": [
+        60,
+        61
+      ]
+    },
+    "23": {
+      "answer": "B and C",
+      "explanation": "B — The app should be easy to use Jake 說 GPS 很好： “but I wouldn’t say they’re absolutely necessary.” 所以 GPS 被排除。 Amy 接著說真正重要的是： “a fully functional app” 讓人能： “make payments and book bikes easily.” 而沒有做好 app 的城市： “have really struggled.” 所以 B 是必要條件。 C — Public awareness should be raised 談到 cycle lanes 時，Amy 說有大量 lanes 一般有幫助，但也存在沒有大量增建 cycle lanes 卻成功的例子。 接著她強調： “What does matter though – is having a big publicity campaign.” Jake： “Definitely.” 因為如果市民不知道如何使用，也不了解 benefits： “they won’t use it.” 所以 public awareness 是兩人都認為必要的條件。 答案是 B、C。",
+      "sourcePages": [
+        61,
+        62,
+        63
+      ]
+    },
+    "24": {
+      "answer": "B and C",
+      "explanation": "B — The app should be easy to use Jake 說 GPS 很好： “but I wouldn’t say they’re absolutely necessary.” 所以 GPS 被排除。 Amy 接著說真正重要的是： “a fully functional app” 讓人能： “make payments and book bikes easily.” 而沒有做好 app 的城市： “have really struggled.” 所以 B 是必要條件。 C — Public awareness should be raised 談到 cycle lanes 時，Amy 說有大量 lanes 一般有幫助，但也存在沒有大量增建 cycle lanes 卻成功的例子。 接著她強調： “What does matter though – is having a big publicity campaign.” Jake： “Definitely.” 因為如果市民不知道如何使用，也不了解 benefits： “they won’t use it.” 所以 public awareness 是兩人都認為必要的條件。 答案是 B、C。",
+      "sourcePages": [
+        61,
+        62,
+        63
+      ]
+    },
+    "25": {
+      "answer": "C — They are surprised it has been so successful",
+      "explanation": "城市：Amsterdam Amy 說 Amsterdam 本身早就有： “a strong culture of cycling” 因此她覺得奇怪： “you’d have thought most people would have used their own bikes.” 照理共享單車需求可能不會很大。 Jake 接著卻說： “it’s one of the best-used schemes” 所以實際成功程度超出他們原先預期。 答案是 C。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "26": {
+      "answer": "F — They disagree about the reasons for its success",
+      "explanation": "城市：Dublin 兩人都承認 Dublin 是： “a success story.” 分歧出現在「為甚麼成功」。 Amy 推測： “the public transport system’s quite limited.” Jake 不完全同意： “Not really” 他認為： “price has a lot to do with it” 因為是 Europe 最便宜的 schemes 之一。 Amy 又說 buses 很慢可能也是因素。 所以他們認同「成功」，但對成功原因沒有一致意見。 答案是 F。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "27": {
+      "answer": "D — They agree that more investment is required",
+      "explanation": "城市：London 兩人都覺得 scheme 整體成功： “quite successful” “a really good thing for the city” 系統也： “well maintained” 問題在於： “it isn’t expanding quickly enough.” Jake 明確指出： “not enough’s been spent on increasing the number of cycle lanes.” 所以需要進一步投資，尤其 cycle infrastructure。 答案是 D。",
+      "sourcePages": [
+        65
+      ]
+    },
+    "28": {
+      "answer": "E — They think the system has been well designed",
+      "explanation": "城市：Buenos Aires Amy 說城市為 bike sharing： “built a huge network of cycle lanes” 結果吸引： “huge numbers of cyclists” Jake 總結： “An example of good planning.” Amy： “Absolutely.” 所以兩人認同這個 scheme 的設計與規劃做得好。 答案是 E。",
+      "sourcePages": [
+        66
+      ]
+    },
+    "29": {
+      "answer": "B — They think it should be cheaper",
+      "explanation": "城市：New York Amy 說 launch 時價格： “more than ten times the price of most other schemes.” Jake 更說： “More than it costs to take a taxi. Crazy.” 兩人都明顯認為價格過高。 所以答案是 B — should be cheaper。 後面 “lacked vision and ambition” 也是批評，但選項中最直接對應共同意見的是價格問題。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "30": {
+      "answer": "A — They agree it has been disappointing",
+      "explanation": "城市：Sydney Amy 原本預計： “it [would] have grown pretty quickly” Jake 也說： “I can’t quite work out why it hasn’t been an instant success” 再補： “It’s a shame really.” Amy： “I know.” 所以兩人都覺得發展沒有達到預期，有失望感。 答案是 A。",
+      "sourcePages": [
+        68,
+        69
+      ]
+    },
+    "31": {
+      "answer": "spices / spice",
+      "explanation": "題目寫： “1507 — Portuguese ships transporting _____ stopped at the island” 錄音說： “The sailors were carrying spices back to Europe” 途中在 Mauritius 補充 food and water。 所以答案是 spices；官方也接受 spice。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "32": {
+      "answer": "colony",
+      "explanation": "題目寫： “1638 — The Dutch established a _____ on the island.” 錄音： “the Dutch arrived and set up a colony there.” set up = established。 所以答案是 colony。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "33": {
+      "answer": "fat",
+      "explanation": "題目寫： “A Dutch painting suggests the dodo was very _____.” 錄音特別提醒現存 pictures 未必可靠。 最知名的 Dutch painting 中： “the bird appears to be extremely fat” 但 Indian painting 同期卻畫得較瘦。 題目只問 Dutch painting suggests，因此不需要判斷 dodo 真正身形。 答案是 fat。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "34": {
+      "answer": "head",
+      "explanation": "題目寫： “The only remaining soft tissue is a dried _____.” 歷史上曾有四個 dried body parts，三個後來消失。 現在唯一 remaining soft tissue 是： “a dodo head.” 所以答案是 head。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "35": {
+      "answer": "movement",
+      "explanation": "題目寫： “Recent studies of a dodo skeleton suggest the birds were capable of rapid _____.” 早期記載形容 dodo： “slow and clumsy” 但 skeleton research 顯示 strong knee joints 可以令牠： “capable of movement which was not slow, but actually quite fast.” 題目把： movement … quite fast 改寫成： rapid movement 答案是 movement。",
+      "sourcePages": [
+        71
+      ]
+    },
+    "36": {
+      "answer": "balance / balancing",
+      "explanation": "題目寫： “It’s thought they were able to use their small wings to maintain _____.” 小翅膀不能讓 dodo 飛起來。 科學家推測其用途是： “employed for balance while going over uneven ground.” 所以小翅膀可能協助牠在不平地面行走時保持平衡。 答案是 balance；官方也接受 balancing。",
+      "sourcePages": [
+        71
+      ]
+    },
+    "37": {
+      "answer": "brain",
+      "explanation": "題目寫： “Their _____ was of average size.” 研究分析 skull 後發現，早期說 dodo intelligence 很低的看法沒有得到支持。 研究顯示： “the bird’s brain was not small, but average in size.” 所以答案是 brain。",
+      "sourcePages": [
+        72
+      ]
+    },
+    "38": {
+      "answer": "smell",
+      "explanation": "題目寫： “Their sense of _____ enabled them to find food.” Skull structure 顯示： “one sense which was particularly well-developed was that of smell.” 因此 dodo 可能很擅長： “locating ripe fruit and other food” 尤其在 thick vegetation 裡，視線受阻時，嗅覺會更有價值。 所以答案是 smell。",
+      "sourcePages": [
+        72
+      ]
+    },
+    "39": {
+      "answer": "rats",
+      "explanation": "題目寫： “_____ also escaped onto the island and ate the birds’ eggs.” Dogs 和 monkeys 是 sailors 刻意帶到島上的。 另一種生物則跟著 ships 到來： “rats, which came to land from the ships” 牠們迅速遍布島嶼，而且： “they consumed their eggs.” 因為每隻 dodo 一次只下一顆蛋，所以這對族群繁殖造成非常嚴重的影響。 答案是 rats。",
+      "sourcePages": [
+        73
+      ]
+    },
+    "40": {
+      "answer": "forest",
+      "explanation": "題目寫： “The arrival of farming meant the _____ was destroyed.” 最後 speaker 把滅絕原因再往深一層推。 Hunting 有影響，外來動物也有影響，但研究認為主要原因更可能是 agriculture。 農業發展令： “the forest that had once covered all the island … was cut down” 原本這片 forest： “had provided a perfect home for the dodo.” 也就是： agriculture expansion → forest clearance → habitat loss → dodo survival space disappears 所以答案是 forest。 這題的關鍵不只在聽到 “forest”。它反映整段 extinction explanation 的層次： 獵殺是早期最直觀的解釋；後來研究加入 rats 等 introduced species； 講者最後把 habitat destruction caused by agriculture 提升為可能的主要因素。 答案 forest 因此代表的是 dodo 生存環境本身被破壞。",
+      "sourcePages": [
+        74
+      ]
+    }
+  },
+  "timings": {
+    "parts": {
+      "1": {
+        "duration": 356.3885625,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2019%20Part%201.mp3",
+        "audioSha256": "ddd7673870461bc26a1859c5f080837472985e1b0c78bf79891f8e57969d7421",
+        "transcriptSha256": "3d936df6966f3aaf9679360667a785d2708979b50929c5ed19cc1812afcda2c4",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9953,
+        "lines": [
+          {
+            "start": 47.84,
+            "end": 48.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 49.12,
+            "end": 54.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 54.34,
+            "end": 60.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 60.54,
+            "end": 62.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 62.94,
+            "end": 67.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 68.36,
+            "end": 71.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 72.56,
+            "end": 74.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 75.06,
+            "end": 77.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 78.42,
+            "end": 84.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 85.1,
+            "end": 89.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 90.14,
+            "end": 93.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 93.5,
+            "end": 97.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 97.86,
+            "end": 100.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 100.92,
+            "end": 102.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 102.98,
+            "end": 108.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 108.78,
+            "end": 113.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 114.12,
+            "end": 117.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 118.4,
+            "end": 125.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 126.28,
+            "end": 127.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 128.4,
+            "end": 136.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 137.12,
+            "end": 138.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 138.64,
+            "end": 142.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 143.2,
+            "end": 146.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 147.72,
+            "end": 151.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 151.56,
+            "end": 155.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 156.48,
+            "end": 158.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 159.28,
+            "end": 161.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 161.86,
+            "end": 163.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 164.76,
+            "end": 165.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 165.6,
+            "end": 172.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 173.38,
+            "end": 179.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 179.78,
+            "end": 180.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 180.9,
+            "end": 189.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 189.12,
+            "end": 192.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 228.02,
+            "end": 230.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 231.28,
+            "end": 234.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 236.02,
+            "end": 241.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 242.76,
+            "end": 244.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 244.18,
+            "end": 250.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 250.76,
+            "end": 255.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 256.26,
+            "end": 259.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 259.68,
+            "end": 262.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 262.38,
+            "end": 264.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 264.5,
+            "end": 264.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 265.54,
+            "end": 266.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 266.86,
+            "end": 270.04,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 270.68,
+            "end": 275.04,
+            "coverage": 0.9821,
+            "refined": true
+          },
+          {
+            "start": 275.82,
+            "end": 278.5,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 279.24,
+            "end": 285.52,
+            "coverage": 0.9867
+          },
+          {
+            "start": 286.1,
+            "end": 287.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 288.26,
+            "end": 291.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 291.3,
+            "end": 295.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 295.84,
+            "end": 300.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 300.76,
+            "end": 307.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 308.38,
+            "end": 309.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 310.34,
+            "end": 317.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 318.08,
+            "end": 320.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 320.74,
+            "end": 321.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 322.64,
+            "end": 323.42,
+            "coverage": 0.95
+          },
+          {
+            "start": 323.42,
+            "end": 331.88,
+            "coverage": 0.8448
+          },
+          {
+            "start": 333.04,
+            "end": 335.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 336.04,
+            "end": 340.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 340.84,
+            "end": 341.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 341.82,
+            "end": 344.7,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "2": {
+        "duration": 355.3698125,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/LIstening%2019%20Part%202.mp3",
+        "audioSha256": "4c9b0d29ece3f889592728d8ffaed8a06c1e634cab578b23e6734edb042ed47b",
+        "transcriptSha256": "c6fcfe460dc56622ea4b5f20c79b0c41662ffa318019c888fe3486931419bfb7",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 1.0,
+        "lines": [
+          {
+            "start": 50.32,
+            "end": 55.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 56.28,
+            "end": 64.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 64.98,
+            "end": 67.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 68.44,
+            "end": 80.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 81.52,
+            "end": 89.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 90.84,
+            "end": 105.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 106.6,
+            "end": 115.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 116.9,
+            "end": 123.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 124.7,
+            "end": 134.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 135.04,
+            "end": 146.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 147.2,
+            "end": 148.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 149.98,
+            "end": 162.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 163.28,
+            "end": 169.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 170.18,
+            "end": 179.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 226.12,
+            "end": 233.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 234.34,
+            "end": 244.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 244.64,
+            "end": 252.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 253.42,
+            "end": 267.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 268.88,
+            "end": 271.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 272.36,
+            "end": 286.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 286.88,
+            "end": 290.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 292.26,
+            "end": 299.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 300.68,
+            "end": 305.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 307.7,
+            "end": 319.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 321.08,
+            "end": 325.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 326.24,
+            "end": 333.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 335.02,
+            "end": 344.32,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "3": {
+        "duration": 378.6449375,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2019%20Part%203.mp3",
+        "audioSha256": "25bfdbde570ba58ecc2fd1213c1ad874459cab581cb2976ffddffd03564b3427",
+        "transcriptSha256": "f4f9fa9df3215a6f1bbb0d16efe88ecf07cb785ec3e0b0f0f56214b0a7ea2304",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9997,
+        "lines": [
+          {
+            "start": 40.44,
+            "end": 48.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 49.2,
+            "end": 53.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 54.0,
+            "end": 63.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 64.36,
+            "end": 67.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 67.34,
+            "end": 72.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 74.02,
+            "end": 85.3,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 85.58,
+            "end": 88.42,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 89.62,
+            "end": 95.96,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 96.5,
+            "end": 101.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 101.5,
+            "end": 105.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 105.74,
+            "end": 106.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 107.1,
+            "end": 115.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 115.54,
+            "end": 115.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 116.44,
+            "end": 119.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 120.34,
+            "end": 122.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 123.16,
+            "end": 123.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 123.76,
+            "end": 133.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 133.64,
+            "end": 142.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 143.3,
+            "end": 146.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 146.68,
+            "end": 160.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 160.5,
+            "end": 164.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 165.48,
+            "end": 177.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 178.48,
+            "end": 182.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 182.6,
+            "end": 188.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 189.2,
+            "end": 192.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 239.12,
+            "end": 241.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 241.58,
+            "end": 245.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 245.46,
+            "end": 250.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 250.68,
+            "end": 254.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 255.38,
+            "end": 262.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 263.28,
+            "end": 265.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 266.48,
+            "end": 268.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 269.32,
+            "end": 272.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 273.0,
+            "end": 277.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 278.34,
+            "end": 280.57,
+            "coverage": 1.0
+          },
+          {
+            "start": 281.13,
+            "end": 283.43,
+            "coverage": 1.0
+          },
+          {
+            "start": 283.93,
+            "end": 289.45,
+            "coverage": 1.0
+          },
+          {
+            "start": 289.81,
+            "end": 293.69,
+            "coverage": 1.0
+          },
+          {
+            "start": 294.11,
+            "end": 296.85,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.47,
+            "end": 303.37,
+            "coverage": 1.0
+          },
+          {
+            "start": 303.71,
+            "end": 307.25,
+            "coverage": 1.0
+          },
+          {
+            "start": 307.81,
+            "end": 309.01,
+            "coverage": 1.0
+          },
+          {
+            "start": 309.41,
+            "end": 312.89,
+            "coverage": 1.0
+          },
+          {
+            "start": 313.89,
+            "end": 317.37,
+            "coverage": 1.0
+          },
+          {
+            "start": 317.81,
+            "end": 323.23,
+            "coverage": 0.9882
+          },
+          {
+            "start": 323.79,
+            "end": 328.33,
+            "coverage": 1.0
+          },
+          {
+            "start": 328.61,
+            "end": 330.03,
+            "coverage": 1.0
+          },
+          {
+            "start": 330.35,
+            "end": 335.23,
+            "coverage": 1.0
+          },
+          {
+            "start": 335.91,
+            "end": 340.67,
+            "coverage": 1.0
+          },
+          {
+            "start": 341.19,
+            "end": 343.67,
+            "coverage": 1.0
+          },
+          {
+            "start": 344.85,
+            "end": 347.75,
+            "coverage": 1.0
+          },
+          {
+            "start": 348.15,
+            "end": 349.07,
+            "coverage": 1.0
+          },
+          {
+            "start": 349.67,
+            "end": 352.13,
+            "coverage": 1.0
+          },
+          {
+            "start": 352.81,
+            "end": 355.61,
+            "coverage": 1.0
+          },
+          {
+            "start": 355.61,
+            "end": 361.57,
+            "coverage": 1.0
+          },
+          {
+            "start": 362.43,
+            "end": 363.33,
+            "coverage": 1.0
+          },
+          {
+            "start": 363.69,
+            "end": 367.31,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "4": {
+        "duration": 481.306125,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2019%20Part%204.mp3",
+        "audioSha256": "7daf5df07e54d5582195154d7a7f8a52e1eb8e157edc1125f28a835e7557cebd",
+        "transcriptSha256": "05626fb65ef9ca3a82a33794ccd3bc00ee31b4d8efe71ef9454a03f3b1167373",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 1.0,
+        "lines": [
+          {
+            "start": 71.5,
+            "end": 77.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 78.2,
+            "end": 86.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 87.74,
+            "end": 97.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 98.38,
+            "end": 110.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 111.6,
+            "end": 118.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 119.28,
+            "end": 134.44,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 135.94,
+            "end": 143.02,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 144.2,
+            "end": 154.5,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 155.6,
+            "end": 161.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 161.58,
+            "end": 169.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 171.6,
+            "end": 185.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 187.2,
+            "end": 194.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 196.46,
+            "end": 212.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 214.16,
+            "end": 220.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 222.44,
+            "end": 236.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 237.86,
+            "end": 256.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 257.9,
+            "end": 265.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 266.34,
+            "end": 281.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 282.16,
+            "end": 287.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 288.34,
+            "end": 303.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 304.06,
+            "end": 313.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 313.64,
+            "end": 325.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 326.28,
+            "end": 335.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 340.48,
+            "end": 347.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 348.48,
+            "end": 356.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 358.18,
+            "end": 360.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 361.12,
+            "end": 372.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 373.12,
+            "end": 378.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 380.24,
+            "end": 390.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 392.02,
+            "end": 405.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 406.92,
+            "end": 413.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 414.98,
+            "end": 430.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 432.66,
+            "end": 445.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 446.84,
+            "end": 460.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 461.78,
+            "end": 469.0,
+            "coverage": 1.0
+          }
+        ]
+      }
+    },
+    "questions": {
+      "1": {
+        "part": 1,
+        "time": 85.1,
+        "line": 9,
+        "evidenceScore": 56.0
+      },
+      "2": {
+        "part": 1,
+        "time": 102.98,
+        "line": 14,
+        "evidenceScore": 38.0
+      },
+      "3": {
+        "part": 1,
+        "time": 118.4,
+        "line": 17,
+        "evidenceScore": 45.0
+      },
+      "4": {
+        "part": 1,
+        "time": 151.56,
+        "line": 24,
+        "evidenceScore": 48.0
+      },
+      "5": {
+        "part": 1,
+        "time": 165.6,
+        "line": 29,
+        "evidenceScore": 48.0
+      },
+      "6": {
+        "part": 1,
+        "time": 180.9,
+        "line": 32,
+        "evidenceScore": 74.0
+      },
+      "7": {
+        "part": 1,
+        "time": 275.82,
+        "line": 47,
+        "evidenceScore": 54.0
+      },
+      "8": {
+        "part": 1,
+        "time": 300.76,
+        "line": 53,
+        "evidenceScore": 103.0
+      },
+      "9": {
+        "part": 1,
+        "time": 310.34,
+        "line": 55,
+        "evidenceScore": 50.0
+      },
+      "10": {
+        "part": 1,
+        "time": 336.04,
+        "line": 61,
+        "evidenceScore": 43.0
+      },
+      "11": {
+        "part": 2,
+        "time": 68.44,
+        "line": 3,
+        "evidenceScore": 52.0
+      },
+      "12": {
+        "part": 2,
+        "time": 90.84,
+        "line": 5,
+        "evidenceScore": 40.0
+      },
+      "13": {
+        "part": 2,
+        "time": 135.04,
+        "line": 9,
+        "evidenceScore": 70.0
+      },
+      "14": {
+        "part": 2,
+        "time": 149.98,
+        "line": 11,
+        "evidenceScore": 43.0
+      },
+      "15": {
+        "part": 2,
+        "time": 253.42,
+        "line": 17,
+        "evidenceScore": 50.0
+      },
+      "16": {
+        "part": 2,
+        "time": 272.36,
+        "line": 19,
+        "evidenceScore": 31.41
+      },
+      "17": {
+        "part": 2,
+        "time": 292.26,
+        "line": 21,
+        "evidenceScore": 41.0
+      },
+      "18": {
+        "part": 2,
+        "time": 307.7,
+        "line": 23,
+        "evidenceScore": 59.0
+      },
+      "19": {
+        "part": 2,
+        "time": 326.24,
+        "line": 25,
+        "evidenceScore": 42.0
+      },
+      "20": {
+        "part": 2,
+        "time": 335.02,
+        "line": 26,
+        "evidenceScore": 70.0
+      },
+      "21": {
+        "part": 3,
+        "time": 101.5,
+        "line": 9,
+        "evidenceScore": 48.0
+      },
+      "22": {
+        "part": 3,
+        "time": 101.5,
+        "line": 9,
+        "evidenceScore": 48.0
+      },
+      "23": {
+        "part": 3,
+        "time": 178.48,
+        "line": 22,
+        "evidenceScore": 49.0
+      },
+      "24": {
+        "part": 3,
+        "time": 178.48,
+        "line": 22,
+        "evidenceScore": 49.0
+      },
+      "25": {
+        "part": 3,
+        "time": 255.38,
+        "line": 29,
+        "evidenceScore": 51.0
+      },
+      "26": {
+        "part": 3,
+        "time": 269.32,
+        "line": 32,
+        "evidenceScore": 37.0
+      },
+      "27": {
+        "part": 3,
+        "time": 303.71,
+        "line": 40,
+        "evidenceScore": 52.0
+      },
+      "28": {
+        "part": 3,
+        "time": 317.81,
+        "line": 44,
+        "evidenceScore": 29.0
+      },
+      "29": {
+        "part": 3,
+        "time": 335.91,
+        "line": 48,
+        "evidenceScore": 42.0
+      },
+      "30": {
+        "part": 3,
+        "time": 355.61,
+        "line": 54,
+        "evidenceScore": 47.0
+      },
+      "31": {
+        "part": 4,
+        "time": 119.28,
+        "line": 5,
+        "evidenceScore": 60.0
+      },
+      "32": {
+        "part": 4,
+        "time": 135.94,
+        "line": 6,
+        "evidenceScore": 55.0
+      },
+      "33": {
+        "part": 4,
+        "time": 171.6,
+        "line": 10,
+        "evidenceScore": 50.0
+      },
+      "34": {
+        "part": 4,
+        "time": 196.46,
+        "line": 12,
+        "evidenceScore": 20
+      },
+      "35": {
+        "part": 4,
+        "time": 237.86,
+        "line": 15,
+        "evidenceScore": 72.0
+      },
+      "36": {
+        "part": 4,
+        "time": 266.34,
+        "line": 17,
+        "evidenceScore": 64.0
+      },
+      "37": {
+        "part": 4,
+        "time": 288.34,
+        "line": 19,
+        "evidenceScore": 60.0
+      },
+      "38": {
+        "part": 4,
+        "time": 313.64,
+        "line": 21,
+        "evidenceScore": 75.0
+      },
+      "39": {
+        "part": 4,
+        "time": 392.02,
+        "line": 29,
+        "evidenceScore": 51.0
+      },
+      "40": {
+        "part": 4,
+        "time": 446.84,
+        "line": 33,
+        "evidenceScore": 53.0
+      }
+    }
+  }
+}

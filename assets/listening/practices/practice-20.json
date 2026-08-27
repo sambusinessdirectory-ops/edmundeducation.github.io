@@ -1,0 +1,3668 @@
+{
+  "schemaVersion": 1,
+  "practice": 20,
+  "title": "IELTS Listening Practice 20",
+  "source": {
+    "file": "IELTS Listening - Practice - 20.pdf",
+    "sha256": "674bbeb329f5fc5ce47545c28677bbdcf2c7603fe624b7f0b6d8246f47d3c8ba",
+    "pageCount": 72,
+    "corrections": []
+  },
+  "parts": [
+    {
+      "part": 1,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        4
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 1–10\nComplete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nBankside Recruitment Agency\n● Address of agency: 497 Eastside, Docklands\n● Name of agent: Becky 1 __________\n● Phone number: 07866 510333\n● Best to call her in the 2 __________\nTypical jobs\n● Clerical and admin roles, mainly in the finance industry\n● Must have good 3 __________ skills\n● Jobs are usually for at least one 4 __________\n● Pay is usually £5 __________ per hour\nRegistration process\n● Wear a 6 __________ to the interview\n● Must bring your 7 __________ to the interview\n● They will ask questions about each applicant’s 8 __________\nAdvantages of using an agency\n● The 9 __________ you receive at interview will benefit you\n● Will get access to vacancies which are not advertised\n● Less 10 __________ is involved in applying for jobs",
+          "page": 4
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 1,
+          "prompt": "● Name of agent: Becky 1 __________",
+          "translation": "",
+          "answer": "Jamieson",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 2,
+          "prompt": "● Best to call her in the 2 __________",
+          "translation": "",
+          "answer": "afternoon",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 3,
+          "prompt": "● Must have good 3 __________ skills",
+          "translation": "",
+          "answer": "communication",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 4,
+          "prompt": "● Jobs are usually for at least one 4 __________",
+          "translation": "",
+          "answer": "week",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 5,
+          "prompt": "● Pay is usually £5 __________ per hour",
+          "translation": "",
+          "answer": "10",
+          "alternatives": [
+            "ten"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 6,
+          "prompt": "● Wear a 6 __________ to the interview",
+          "translation": "",
+          "answer": "suit",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 7,
+          "prompt": "● Must bring your 7 __________ to the interview",
+          "translation": "",
+          "answer": "passport",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 8,
+          "prompt": "● They will ask questions about each applicant’s 8 __________",
+          "translation": "",
+          "answer": "personality",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 9,
+          "prompt": "● The 9 __________ you receive at interview will benefit you",
+          "translation": "",
+          "answer": "feedback",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 10,
+          "prompt": "● Less 10 __________ is involved in applying for jobs",
+          "translation": "",
+          "answer": "time",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 11–14\nChoose the correct letter, A, B or C.\nMatthews Island Holidays\n11. According to the speaker, the company\nA. has been in business for longer than most of its competitors.\nB. arranges holidays to more destinations than its competitors.\nC. has more customers than its competitors.\n12. Where can customers meet the tour manager before travelling to the\nIsle of Man?\nA. Liverpool\nB. Heysham\nC. Luton\n13. How many lunches are included in the price of the holiday?\nA. three\nB. four\nC. five\n14. Customers have to pay extra for\nA. guaranteeing themselves a larger room.\nB. booking at short notice.\nC. transferring to another date.",
+          "page": 6
+        },
+        {
+          "type": "text",
+          "text": "Questions 15–20\nComplete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "page": 7
+        },
+        {
+          "type": "image",
+          "src": "assets/listening/practices/images/practice-20-page-7-1.webp",
+          "alt": "Practice 20, source question diagram/table, PDF page 7",
+          "text": "",
+          "page": 7
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 11,
+          "prompt": "According to the speaker, the company",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "has been in business for longer than most of its competitors.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "arranges holidays to more destinations than its competitors.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "has more customers than its competitors.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 12,
+          "prompt": "Where can customers meet the tour manager before travelling to the Isle of Man?",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "Liverpool",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Heysham",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "Luton",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 13,
+          "prompt": "How many lunches are included in the price of the holiday?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "three",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "four",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "five",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 14,
+          "prompt": "Customers have to pay extra for",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "guaranteeing themselves a larger room.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "booking at short notice.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "transferring to another date.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 2,
+          "number": 15,
+          "prompt": "Hotel dining room has view of the 15 _____",
+          "translation": "",
+          "answer": "river",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 2,
+          "number": 16,
+          "prompt": "Tynwald may have been founded in _____, not 979.",
+          "translation": "",
+          "answer": "1422",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 2,
+          "number": 17,
+          "prompt": "train to the _____ of Snaefell",
+          "translation": "",
+          "answer": "top",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 2,
+          "number": 18,
+          "prompt": "Company provides a _____ for local transport and heritage sites.",
+          "translation": "",
+          "answer": "pass",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 2,
+          "number": 19,
+          "prompt": "Take the _____ railway train from Douglas to Port Erin",
+          "translation": "",
+          "answer": "steam",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 2,
+          "number": 20,
+          "prompt": "former _____ has old castle.",
+          "translation": "",
+          "answer": "capital",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        9,
+        10,
+        11
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 21–26\nWhat did findings of previous research claim about the personality traits a child\nis likely to have because of their position in the family?\nChoose SIX answers from the box and write the correct letter, A–H, next to\nQuestions 21–26.\nPersonality Traits\nA. outgoing\nB. selfish\nC. independent\nD. attention-seeking\nE. introverted\nF. co-operative\nG. caring\nH. competitive\nPosition in family\n21. the eldest child __________\n22. a middle child __________\n23. the youngest child __________\n24. a twin __________\n25. an only child __________\n26. a child with much older siblings __________",
+          "page": 9
+        },
+        {
+          "type": "text",
+          "text": "Questions 27 and 28\nChoose the correct letter, A, B or C.\n27. What do the speakers say about the evidence relating to birth order\nand academic success?\nA. There is conflicting evidence about whether oldest children perform\nbest in intelligence tests.\nB. There is little doubt that birth order has less influence on academic\nachievement than socio-economic status.\nC. Some studies have neglected to include important factors such as\nfamily size.\n28. What does Ruth think is surprising about the difference in oldest\nchildren’s academic performance?\nA. It is mainly thanks to their roles as teachers for their younger siblings.\nB. The advantages they have only lead to a slightly higher level of\nachievement.\nC. The extra parental attention they receive at a young age makes little\ndifference.",
+          "page": 10
+        },
+        {
+          "type": "text",
+          "text": "Questions 29 and 30\nChoose TWO letters, A–E.\nWhich TWO experiences of sibling rivalry do the speakers agree has been\nvaluable for them?\nA. learning to share\nB. learning to stand up for oneself\nC. learning to be a good loser\nD. learning to be tolerant\nE. learning to say sorry",
+          "page": 11
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 21,
+          "prompt": "the eldest child",
+          "translation": "",
+          "answer": "G",
+          "options": [
+            {
+              "key": "A",
+              "en": "outgoing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "selfish",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "independent",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "attention-seeking",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "introverted",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "co-operative",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "caring",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "competitive",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 22,
+          "prompt": "a middle child",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "outgoing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "selfish",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "independent",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "attention-seeking",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "introverted",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "co-operative",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "caring",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "competitive",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 23,
+          "prompt": "the youngest child",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "outgoing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "selfish",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "independent",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "attention-seeking",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "introverted",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "co-operative",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "caring",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "competitive",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 24,
+          "prompt": "a twin",
+          "translation": "",
+          "answer": "E",
+          "options": [
+            {
+              "key": "A",
+              "en": "outgoing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "selfish",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "independent",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "attention-seeking",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "introverted",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "co-operative",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "caring",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "competitive",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 25,
+          "prompt": "an only child",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "outgoing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "selfish",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "independent",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "attention-seeking",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "introverted",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "co-operative",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "caring",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "competitive",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 26,
+          "prompt": "a child with much older siblings",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "outgoing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "selfish",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "independent",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "attention-seeking",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "introverted",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "co-operative",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "caring",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "competitive",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 27,
+          "prompt": "What do the speakers say about the evidence relating to birth order and academic success?",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "There is conflicting evidence about whether oldest children perform best in intelligence tests.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "There is little doubt that birth order has less influence on academic achievement than socio-economic status.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "Some studies have neglected to include important factors such as family size.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 28,
+          "prompt": "What does Ruth think is surprising about the difference in oldest children’s academic performance?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "It is mainly thanks to their roles as teachers for their younger siblings.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The advantages they have only lead to a slightly higher level of achievement.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "The extra parental attention they receive at a young age makes little difference.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 3,
+          "numbers": [
+            29,
+            30
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO experiences of sibling rivalry do the speakers agree has been valuable for them?",
+          "translation": "",
+          "answers": [
+            "B",
+            "D"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "learning to share",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "learning to stand up for oneself",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "learning to be a good loser",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "learning to be tolerant",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "learning to say sorry",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        13,
+        14
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 31–40\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nThe Eucalyptus Tree in Australia\nImportance\n● it provides 31 __________ and food for a wide range of species\n● its leaves provide 32 __________ which is used to make a disinfectant\nReasons for present decline in number\nA) Diseases\ni. “Mundulla Yellows”\nCause\n● lime used for making 33 __________ was absorbed\n● trees were unable to take in necessary iron through their roots\nii. “Bell-miner Associated Die-back”\nCause\n● 34 __________ feed on eucalyptus leaves\n● they secrete a substance containing sugar\n● bell-miner birds are attracted by this and keep away other species",
+          "page": 13
+        },
+        {
+          "type": "text",
+          "text": "B) Bushfires\nWilliam Jackson’s theory\n● high-frequency bushfires have impact on vegetation, resulting in the\ngrowth of 35 __________\n● mid-frequency bushfires result in the growth of eucalyptus forests,\nbecause they:\n○ make more 36 __________ available to the trees\n○ maintain the quality of the 37 __________\n● low-frequency bushfires result in the growth of 38 “__________\nrainforest”, which is:\n○ a 39 __________ ecosystem\n○ an ideal environment for the 40 __________ of the bell-miner",
+          "page": 14
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 31,
+          "prompt": "● it provides 31 __________ and food for a wide range of species",
+          "translation": "",
+          "answer": "shelter",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 32,
+          "prompt": "● its leaves provide 32 __________ which is used to make a disinfectant",
+          "translation": "",
+          "answer": "oil",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 33,
+          "prompt": "● lime used for making 33 __________ was absorbed",
+          "translation": "",
+          "answer": "roads",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 34,
+          "prompt": "● 34 __________ feed on eucalyptus leaves",
+          "translation": "",
+          "answer": "insects",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 35,
+          "prompt": "growth of 35 __________",
+          "translation": "",
+          "answer": "grass",
+          "alternatives": [
+            "grasses"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 36,
+          "prompt": "○ make more 36 __________ available to the trees",
+          "translation": "",
+          "answer": "water",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 37,
+          "prompt": "○ maintain the quality of the 37 __________",
+          "translation": "",
+          "answer": "soil",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 38,
+          "prompt": "low-frequency bushfires result in the growth of ‘_____ rainforest’",
+          "translation": "",
+          "answer": "dry",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 39,
+          "prompt": "○ a 39 __________ ecosystem",
+          "translation": "",
+          "answer": "simple",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 40,
+          "prompt": "○ an ideal environment for the 40 __________ of the bell-miner",
+          "translation": "",
+          "answer": "nests",
+          "alternatives": [
+            "nest"
+          ]
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "1": [
+      {
+        "en": "AMBER: Hello William. This is Amber — you said to phone if I wanted to get more information about the job agency you mentioned.",
+        "zh": "Amber：William，你好。我是 Amber。你之前說如果我想多了解你提到的那家職業介紹所，可以打電話給你。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-001"
+      },
+      {
+        "en": "Is now a good time?",
+        "zh": "現在方便嗎？",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-002"
+      },
+      {
+        "en": "WILLIAM: Oh, hi Amber. Yes. Fine.",
+        "zh": "William：哦，嗨，Amber。可以， 沒問題。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-003"
+      },
+      {
+        "en": "So the agency I was talking about is called Bankside — they’re based in Docklands — I can tell you the address now — 497 Eastside.",
+        "zh": "我之前說的那家機構叫 Bankside，位於 Docklands。我現在可以告訴你地址，是 497 Eastside。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-004"
+      },
+      {
+        "en": "AMBER: OK, thanks. So is there anyone in particular I should speak to there?",
+        "zh": "Amber：好的，謝謝。那我到那裡應該特別找誰嗎？",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-005"
+      },
+      {
+        "en": "WILLIAM: The agent I always deal with is called Becky Jamieson.",
+        "zh": "William：我一直聯絡的那位職業介紹顧問叫 Becky Jamieson。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-006"
+      },
+      {
+        "en": "AMBER: Let me write that down — Becky …",
+        "zh": "Amber：我記一下，Becky……",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-007"
+      },
+      {
+        "en": "WILLIAM: Jamieson, J-A-M-I-E-S-O-N.",
+        "zh": "William：Jamieson，拼作 J-A-M-I-E-S-O-N。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-008"
+      },
+      {
+        "en": "AMBER: Do you have her direct line?",
+        "zh": "Amber：你有她的直線電話嗎？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-009"
+      },
+      {
+        "en": "WILLIAM: Yes, it’s in my contacts somewhere — right, here we are: 078 double 6, 510 triple 3.",
+        "zh": "William：有，在我的聯絡人裡。 找到了：07866 510333。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-010"
+      },
+      {
+        "en": "I wouldn’t call her until the afternoon if I were you — she’s always really busy in the morning trying to fill last-minute vacancies.",
+        "zh": "如果我是你，我會下午再打給她。她上午總是很忙，要處理臨時出現的職缺。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-011"
+      },
+      {
+        "en": "She’s really helpful and friendly so I’m sure it would be worth getting in touch with her for an informal chat.",
+        "zh": "她非常樂於助人，也很友善，所以我相信聯絡她隨便聊聊會很值得。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-012"
+      },
+      {
+        "en": "AMBER: It’s mainly clerical and admin jobs they deal with, isn’t it?",
+        "zh": "Amber：他們主要處理文書和行政類工作，對吧？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-013"
+      },
+      {
+        "en": "WILLIAM: That’s right. I know you’re hoping to find a full-time job in the media eventually — but Becky mostly recruits temporary staff for the finance sector — which will look good on your CV — and generally pays better too.",
+        "zh": "William：沒錯。我知道你最終希望在媒體行業找到全職工作，但 Becky 主要為金融業招聘臨時員工，這會讓你的履歷更好看，而且通常薪水也更高。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-014"
+      },
+      {
+        "en": "AMBER: Yeah — I’m just a bit worried because I don’t have much office experience.",
+        "zh": "Amber：是啊。我只是有點擔心，因為我沒有太多辦公室工作經驗。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-015"
+      },
+      {
+        "en": "WILLIAM: I wouldn’t worry. They’ll probably start you as a receptionist, or something like that.",
+        "zh": "William：我不會太擔心。他們可能會先讓你做接待員之類的工作。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-016"
+      },
+      {
+        "en": "So what’s important for that kind of job isn’t so much having business skills or knowing lots of different computer systems — it’s communication that really matters — so you’d be fine there.",
+        "zh": "這類工作重要的不是商業技能，也不是懂很多不同電腦系統； 真正重要的是溝通能力，所以你會沒問題。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-017"
+      },
+      {
+        "en": "And you’ll pick up office skills really quickly on the job.",
+        "zh": "而且你會在工作中很快學會辦公室技能。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-018"
+      },
+      {
+        "en": "It’s not that complicated.",
+        "zh": "其實沒有那麼複雜。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-019"
+      },
+      {
+        "en": "AMBER: OK good. So how long do people generally need temporary staff for?",
+        "zh": "Amber：好的，那就好。一般公司需要臨時員工多久？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-020"
+      },
+      {
+        "en": "It would be great if I could get something lasting at least a month.",
+        "zh": "如果能找到至少持續一個月的工作就太好了。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-021"
+      },
+      {
+        "en": "WILLIAM: That shouldn’t be too difficult.",
+        "zh": "William：那應該不太難。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-022"
+      },
+      {
+        "en": "But you’re more likely to be offered something for a week at first, which might get extended.",
+        "zh": "不過一開始你更可能得到一週的工作，之後可能會延長。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-023"
+      },
+      {
+        "en": "It’s unusual to be sent somewhere for just a day or two.",
+        "zh": "只派去工作一兩天的情況不常見。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-024"
+      },
+      {
+        "en": "AMBER: Right. I’ve heard the pay isn’t too bad — better than working in a shop or a restaurant.",
+        "zh": "Amber：明白。我聽說薪水還不錯，比在商店或餐廳工作好。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-025"
+      },
+      {
+        "en": "WILLIAM: Oh yes — definitely. The hourly rate is about £10, 11 if you’re lucky.",
+        "zh": "William：哦，是的，當然。時薪大約是 10 英鎊，運氣好的話是 11 英鎊。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-026"
+      },
+      {
+        "en": "AMBER: That’s pretty good. I was only expecting to get eight or nine pounds an hour.",
+        "zh": "Amber：那挺不錯。我本來只期待每小時 8 或 9 英鎊。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-027"
+      },
+      {
+        "en": "WILLIAM: Do you want me to tell you anything about the registration process?",
+        "zh": "William：你想聽我說說註冊流程嗎？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-028"
+      },
+      {
+        "en": "AMBER: Yes, please. I know you have to have an interview.",
+        "zh": "Amber：好，麻煩你。我知道需要面試。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-029"
+      },
+      {
+        "en": "WILLIAM: The interview usually takes about an hour and you should arrange that about a week in advance.",
+        "zh": "William：面試通常大約一小時，你應該提前大約一週安排。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-030"
+      },
+      {
+        "en": "AMBER: I suppose I should dress smartly if it’s for office work — I can probably borrow a suit from Mum.",
+        "zh": "Amber：如果是辦公室工作，我想我應該穿得正式一點。我大概可以向媽媽借一套西裝。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-031"
+      },
+      {
+        "en": "WILLIAM: Good idea. It’s better to look too smart than too casual.",
+        "zh": "William：好主意。穿得太正式總比太隨便好。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-032"
+      },
+      {
+        "en": "AMBER: Will I need to bring copies of my exam certificates or anything like that?",
+        "zh": "Amber：我需要帶考試證書影本之類的東西嗎？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-033"
+      },
+      {
+        "en": "WILLIAM: No — they don’t need to see those, I don’t think.",
+        "zh": "William：不用。我覺得他們不需要看那些。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-034"
+      },
+      {
+        "en": "AMBER: What about my passport?",
+        "zh": "Amber：那護照呢？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-035"
+      },
+      {
+        "en": "WILLIAM: Oh yes — they will ask to see that.",
+        "zh": "William：哦，要的。他們會要求看護照。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-036"
+      },
+      {
+        "en": "AMBER: OK.",
+        "zh": "Amber：好的。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-037"
+      },
+      {
+        "en": "WILLIAM: I wouldn’t get stressed about the interview though.",
+        "zh": "William：不過我不會太緊張這個面試。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-038"
+      },
+      {
+        "en": "It’s just a chance for them to build a relationship with you — so they can try and match you to a job which you’ll like.",
+        "zh": "這只是讓他們和你建立關係的機會，這樣他們才能嘗試為你配對你會喜歡的工作。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-039"
+      },
+      {
+        "en": "So there are questions about personality that they always ask candidates — fairly basic ones.",
+        "zh": "所以他們通常會問應徵者一些關於個性的問題，都是相當基本的問題。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-040"
+      },
+      {
+        "en": "And they probably won’t ask anything too difficult like what your plans are for the future.",
+        "zh": "他們大概不會問太難的問題， 比如你的未來計畫是什麼。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-041"
+      },
+      {
+        "en": "AMBER: Hope not.",
+        "zh": "Amber：希望不會。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-042"
+      },
+      {
+        "en": "WILLIAM: Anyway, there are lots of benefits to using an agency — for example, the interview will be useful because they’ll give you feedback on your performance so you can improve next time.",
+        "zh": "William：總之，透過職業介紹所有很多好處。例如，面試會很有用，因為他們會給你表現回饋，讓你下次能改進。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-043"
+      },
+      {
+        "en": "AMBER: And they’ll have access to jobs which aren’t advertised.",
+        "zh": "Amber：而且他們能接觸到沒有公開刊登的工作。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-044"
+      },
+      {
+        "en": "WILLIAM: Exactly — most temporary jobs aren’t advertised.",
+        "zh": "William：沒錯，大多數臨時工作都不會公開刊登。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-045"
+      },
+      {
+        "en": "AMBER: And I expect finding a temporary job this way takes a lot less time — it’s much easier than ringing up individual companies.",
+        "zh": "Amber：我想用這種方式找臨時工作會省很多時間，比一家公司一家公司打電話容易多了。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-046"
+      },
+      {
+        "en": "WILLIAM: Yes indeed. Well I think …",
+        "zh": "William：確實是。嗯，我想……",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-047"
+      }
+    ],
+    "2": [
+      {
+        "en": "Good morning. My name’s Erica Matthews, and I’m the owner of Matthews Island Holidays, a company set up by my parents.",
+        "zh": "早安。我叫 Erica Matthews， 是 Matthews Island Holidays 的負責人，這家公司是我父母創立的。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-001"
+      },
+      {
+        "en": "Thank you for coming to this presentation, in which I hope to interest you in what we have to offer.",
+        "zh": "感謝大家來參加這場介紹會， 希望我能讓你們對我們提供的假期產品感興趣。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-002"
+      },
+      {
+        "en": "We’re a small, family-run company, and we believe in the importance of the personal touch, so we don’t aim to compete with other companies on the number of customers.",
+        "zh": "我們是一家小型家族企業，我們重視個人化服務，所以不打算在顧客數量上和其他公司競爭。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-003"
+      },
+      {
+        "en": "What we do is build on our many years’ experience — more than almost any other rail holiday company — to ensure we provide perfect holidays in a small number of destinations, which we’ve got to know extremely well.",
+        "zh": "我們做的是憑藉多年經驗，這比幾乎任何其他鐵路假期公司都更豐富，確保在少數幾個我們非常熟悉的目的地提供完美假期。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-004"
+      },
+      {
+        "en": "I’ll start with our six-day Isle of Man holiday.",
+        "zh": "我先介紹我們六天的 Isle of Man 假期。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-005"
+      },
+      {
+        "en": "This is a fascinating island in the Irish Sea, with Wales to the south, England to the east, Scotland to the north and Northern Ireland to the west.",
+        "zh": "這是一座位於愛爾蘭海中的迷人島嶼，南邊是 Wales，東邊是 England，北邊是 Scotland，西邊是 Northern Ireland。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-006"
+      },
+      {
+        "en": "Our holiday starts in Heysham, where your tour manager will meet you, then you’ll travel by ferry to the Isle of Man.",
+        "zh": "我們的假期從 Heysham 開始，你們的旅行負責人會在那裡與你們會合，然後你們會乘渡輪前往 Isle of Man。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-007"
+      },
+      {
+        "en": "Some people prefer to fly from Luton instead, and another popular option is to go by train to Liverpool and take a ferry from there.",
+        "zh": "有些人更喜歡從 Luton 搭飛機，另一個受歡迎的選擇是搭火車到 Liverpool，再從那裡搭渡輪。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-008"
+      },
+      {
+        "en": "You have five nights in the hotel, and the price covers five breakfasts and dinners, and lunch on the three days when there are organised trips.",
+        "zh": "你們會在飯店住五晚，價格包含五次早餐和晚餐，以及有安排團體行程那三天的午餐。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-009"
+      },
+      {
+        "en": "Day four is free, and most people have lunch in a café or restaurant in Douglas.",
+        "zh": "第四天是自由活動日，大多數人會在 Douglas 的咖啡館或餐廳吃午餐。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-010"
+      },
+      {
+        "en": "The price of the holiday includes the ferry to the Isle of Man, all travel on the island, the hotel, and the meals I’ve mentioned.",
+        "zh": "假期價格包括前往 Isle of Man 的渡輪、島上所有交通、 飯店住宿，以及我剛才提到的餐食。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-011"
+      },
+      {
+        "en": "Incidentally, we try to make booking our holidays as simple and fair as possible.",
+        "zh": "順便說一下，我們盡量讓假期預訂流程簡單且公平。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-012"
+      },
+      {
+        "en": "So unlike with many companies, the price is the same whether you book six months in advance or at the last minute, and there’s no supplement for single rooms in hotels.",
+        "zh": "所以不同於很多公司，無論你提前六個月預訂，還是最後一刻預訂，價格都一樣；飯店單人房也不加收費用。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-013"
+      },
+      {
+        "en": "If you make a booking then need to change the start date, for example because of illness, you’re welcome to change to an alternative date or a different tour, for a small administrative fee.",
+        "zh": "如果你預訂後需要更改出發日期，例如因病無法出行，你可以支付一小筆行政費，改到其他日期或改選不同旅程。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-014"
+      },
+      {
+        "en": "OK, so what does the holiday consist of?",
+        "zh": "好，那麼這個假期包含哪些內容呢？",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-015"
+      },
+      {
+        "en": "Well, on day one you’ll arrive in time for a short introduction by your tour manager, followed by dinner in the hotel.",
+        "zh": "第一天，你們會抵達並聽旅行負責人簡短介紹，然後在飯店享用晚餐。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-016"
+      },
+      {
+        "en": "The dining room looks out at the river, close to where it flows into the harbour, and there’s usually plenty of activity going on.",
+        "zh": "餐廳面向河流，靠近河水流入港口的位置，通常有很多活動可以看。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-017"
+      },
+      {
+        "en": "On day two you’ll take the coach to the small town of Peel, on the way calling in at the Tynwald Exhibition.",
+        "zh": "第二天，你們會搭乘長途巴士前往 Peel 小鎮，途中會參觀 Tynwald Exhibition。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-018"
+      },
+      {
+        "en": "The Isle of Man isn’t part of the United Kingdom, and it has its own parliament, called Tynwald.",
+        "zh": "Isle of Man 並不屬於 United Kingdom，它有自己的議會， 叫做 Tynwald。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-019"
+      },
+      {
+        "en": "It’s claimed that this is the world’s oldest parliament that’s still functioning, and that it dates back to 979.",
+        "zh": "據稱，這是世界上仍在運作的最古老議會，可追溯到 979 年。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-020"
+      },
+      {
+        "en": "However, the earliest surviving reference to it is from 1422, so perhaps it isn’t quite as old as it claims!",
+        "zh": "不過，現存最早提到它的文獻來自 1422 年，所以它也許沒有宣稱的那麼古老！",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-021"
+      },
+      {
+        "en": "Day three we have a trip to the mountain Snaefell.",
+        "zh": "第三天，我們會去 Snaefell 山。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-022"
+      },
+      {
+        "en": "This begins with a leisurely ride along the promenade in Douglas in a horse-drawn tram.",
+        "zh": "行程從在 Douglas 海濱長廊搭乘馬車電車悠閒前行開始。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-023"
+      },
+      {
+        "en": "Then you board an electric train which takes you to the fishing village of Laxey.",
+        "zh": "接著你們會搭乘電車前往漁村 Laxey。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-024"
+      },
+      {
+        "en": "From there it’s an eight-kilometre ride in the Snaefell Mountain Railway to the top.",
+        "zh": "從那裡搭乘 Snaefell Mountain Railway 行駛 8 公里到山頂。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-025"
+      },
+      {
+        "en": "Lunch will be in the café, giving you spectacular views of the island.",
+        "zh": "午餐會在咖啡館享用，並能欣賞島上的壯麗景色。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-026"
+      },
+      {
+        "en": "Day four is free for you to explore, using the pass which we’ll give you.",
+        "zh": "第四天是自由探索日，你們可以使用我們提供的通行證。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-027"
+      },
+      {
+        "en": "So you won’t have to pay for travel on local transport, or for entrance to the island’s heritage sites.",
+        "zh": "因此，你們不必支付當地交通費，也不必為島上歷史景點門票付費。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-028"
+      },
+      {
+        "en": "Or you might just want to take it easy in Douglas and perhaps do a little light shopping.",
+        "zh": "或者你們也可以只是在 Douglas 放鬆一下，也許逛逛街。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-029"
+      },
+      {
+        "en": "The last full day, day five, is for some people the highlight of the holiday, with a ride on the steam railway, from Douglas to Port Erin.",
+        "zh": "最後一個完整日，也就是第五天，對有些人來說是假期亮點，會搭乘蒸汽鐵路從 Douglas 到 Port Erin。",
+        "sourcePages": [
+          31,
+          32
+        ],
+        "id": "p2-row-030"
+      },
+      {
+        "en": "After some time to explore, a coach will take you to the headland that overlooks the Calf of Man, a small island just off the coast.",
+        "zh": "探索一段時間後，長途巴士會帶你們前往可以俯瞰 Calf of Man 的海岬，那是離岸不遠的一座小島。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-031"
+      },
+      {
+        "en": "From there you continue to Castletown, which used to be the capital of the Isle of Man, and its medieval castle.",
+        "zh": "從那裡你們會繼續前往 Castletown，它曾是 Isle of Man 的首府，並有一座中世紀城堡。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-032"
+      },
+      {
+        "en": "And on day six it’s back to the ferry — or the airport, if you flew to the island — and time to go home.",
+        "zh": "第六天就要返回渡輪碼頭，若你是搭飛機來島上，則前往機場，準備回家。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-033"
+      },
+      {
+        "en": "Now I’d like to tell you ...",
+        "zh": "現在我想告訴大家……",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-034"
+      }
+    ],
+    "3": [
+      {
+        "en": "RUTH: Ed, how are you getting on with the reading for our presentation next week?",
+        "zh": "Ruth：Ed，下週簡報要用的閱讀資料，你看得怎麼樣了？",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-001"
+      },
+      {
+        "en": "ED: Well, OK, Ruth — but there’s so much of it.",
+        "zh": "Ed：還可以，Ruth，不過資料真的太多了。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-002"
+      },
+      {
+        "en": "RUTH: I know, I hadn’t realised birth order was such a popular area of research.",
+        "zh": "Ruth：我知道，我之前沒想到出生順序竟然是這麼熱門的研究領域。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-003"
+      },
+      {
+        "en": "ED: But the stuff on birth order and personality is mostly unreliable.",
+        "zh": "Ed：但關於出生順序和人格的內容大多不太可靠。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-004"
+      },
+      {
+        "en": "From what I’ve been reading a lot of the claims about how your position in the family determines certain personality traits are just stereotypes, with no robust evidence to support them.",
+        "zh": "從我讀到的資料來看，很多關於家庭排行如何決定某些人格特質的說法只是刻板印象，沒有強有力證據支持。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-005"
+      },
+      {
+        "en": "RUTH: OK, but that’s an interesting point — we could start by outlining what previous research has shown.",
+        "zh": "Ruth：好，但這是個有趣的觀點。我們可以先概述過去研究顯示了什麼。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-006"
+      },
+      {
+        "en": "There are studies going back over a hundred years.",
+        "zh": "有些研究可以追溯到一百多年前。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-007"
+      },
+      {
+        "en": "ED: Yeah — so we could just run through some of the typical traits.",
+        "zh": "Ed：是啊，所以我們可以快速介紹一些典型特質。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-008"
+      },
+      {
+        "en": "Like the consensus seems to be that oldest children are generally less well-adjusted because they never get over the arrival of a younger sibling.",
+        "zh": "比如普遍看法似乎是，老大通常適應能力較差，因為他們一直無法從弟弟妹妹出生這件事中恢復過來。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-009"
+      },
+      {
+        "en": "RUTH: Right, but on a positive note, some studies claimed that they were thought to be good at nurturing.",
+        "zh": "Ruth：對，但從正面來看，一些研究認為老大很擅長照顧人。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-010"
+      },
+      {
+        "en": "Certainly in the past when people had large families they would have been expected to look after the younger ones.",
+        "zh": "當然，在過去家庭孩子較多時， 父母會期望老大照顧年幼的弟妹。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-011"
+      },
+      {
+        "en": "ED: There isn’t such a clear picture for middle children — but one trait that a lot of the studies mention is that they are easier to get on with than older or younger siblings.",
+        "zh": "Ed：中間孩子的情況就沒那麼明確，但很多研究提到的一個特點是，他們比年長或年幼的兄弟姐妹更容易相處。",
+        "sourcePages": [
+          34,
+          35
+        ],
+        "id": "p3-row-012"
+      },
+      {
+        "en": "RUTH: Generally eager to please and helpful — although that’s certainly not accurate as far as my family goes.",
+        "zh": "Ruth：通常會討好別人，也樂於助人。不過就我家而言，這絕對不準。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-013"
+      },
+      {
+        "en": "My middle brother was a nightmare — always causing fights and envious of whatever I had.",
+        "zh": "我的中間哥哥簡直是噩夢，總是挑起爭吵，而且無論我有什麼他都嫉妒。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-014"
+      },
+      {
+        "en": "ED: As I said — none of this seems to relate to my own experience.",
+        "zh": "Ed：就像我說的，這些似乎都和我的個人經驗不符。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-015"
+      },
+      {
+        "en": "I’m the youngest in my family and I don’t recognise myself in any of the studies I’ve read about.",
+        "zh": "我是家裡最小的孩子，但我在讀過的任何研究中都找不到自己的影子。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-016"
+      },
+      {
+        "en": "I’m supposed to have been a sociable and confident child who made friends easily — but I was actually terribly shy.",
+        "zh": "按理說我應該是個外向、自信、 容易交朋友的孩子，但其實我非常害羞。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-017"
+      },
+      {
+        "en": "RUTH: Really? That’s funny.",
+        "zh": "Ruth：真的嗎？那很有趣。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-018"
+      },
+      {
+        "en": "There have been hundreds of studies on twins but mostly about nurture versus nature …",
+        "zh": "關於雙胞胎有數百項研究，但大多是關於後天養育和先天本性的關係……",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-019"
+      },
+      {
+        "en": "ED: There was one on personality, which said that a twin is likely to be quite shy in social situations because they always have their twin around to depend on for support.",
+        "zh": "Ed：有一項是關於人格的，說雙胞胎在社交場合可能會比較害羞，因為他們身邊總有另一個雙胞胎可以依靠支持。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-020"
+      },
+      {
+        "en": "RUTH: My cousins were like that when they were small — they were only interested in each other and found it hard to engage with other kids.",
+        "zh": "Ruth：我的堂兄弟小時候就是那樣。他們只對彼此感興趣，很難和其他孩子互動。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-021"
+      },
+      {
+        "en": "They’re fine now though.",
+        "zh": "不過他們現在沒問題了。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-022"
+      },
+      {
+        "en": "ED: Only children have had a really bad press — a lot of studies have branded them as loners who think the world revolves around them because they’ve never had to fight for their parents’ attention.",
+        "zh": "Ed：獨生子女的名聲一直很差。 很多研究把他們貼上孤僻的標籤，說他們認為世界圍著自己轉，因為他們從不需要爭取父母的注意。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-023"
+      },
+      {
+        "en": "RUTH: That does seem a bit harsh.",
+        "zh": "Ruth：這確實有點苛刻。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-024"
+      },
+      {
+        "en": "One category I hadn’t considered before was children with much older siblings.",
+        "zh": "我之前沒有考慮過的一類，是有年長很多的兄弟姐妹的孩子。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-025"
+      },
+      {
+        "en": "A couple of studies mentioned that these children grow up more quickly and are expected to do basic things for themselves — like getting dressed.",
+        "zh": "有幾項研究提到，這些孩子成長得更快，並被期待自己完成基本事情，例如穿衣服。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-026"
+      },
+      {
+        "en": "ED: I can see how that might be true — although I expect they’re sometimes the exact opposite — playing the baby role and clamouring for special treatment.",
+        "zh": "Ed：我能理解這可能是真的，不過我想有時也會完全相反，他們會扮演小寶寶角色，吵著要求特殊待遇。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-027"
+      },
+      {
+        "en": "RUTH: What was the problem with most of these studies, do you think?",
+        "zh": "Ruth：你覺得這些研究大多有什麼問題？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-028"
+      },
+      {
+        "en": "ED: I think it was because in a lot of cases data was collected from only one sibling per family, who rated him or herself and his or her siblings at the same time.",
+        "zh": "Ed：我覺得問題在於，很多情況下每個家庭只從一位子女收集資料，而這個人同時評價自己和自己的兄弟姐妹。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-029"
+      },
+      {
+        "en": "RUTH: Mmm. Some of the old research into the relationship between birth order and academic achievement has been proved to be accurate though.",
+        "zh": "Ruth：嗯。不過一些早期關於出生順序和學業成就關係的研究已被證明是準確的。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-030"
+      },
+      {
+        "en": "Performances in intelligence tests decline slightly from the eldest child to his or her younger siblings.",
+        "zh": "智力測驗表現從老大到年幼兄弟姐妹會略微下降。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-031"
+      },
+      {
+        "en": "This has been proved in lots of recent studies.",
+        "zh": "這已在許多近期研究中得到證實。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-032"
+      },
+      {
+        "en": "ED: Yes. Although what many of them didn’t take into consideration was family size.",
+        "zh": "Ed：是的。不過很多研究沒有考慮家庭規模。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-033"
+      },
+      {
+        "en": "The more siblings there are, the likelier the family is to have a low socioeconomic status — which can also account for differences between siblings in academic performance.",
+        "zh": "兄弟姐妹越多，家庭社會經濟地位較低的可能性越大，而這也能解釋兄弟姐妹之間學業表現的差異。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-034"
+      },
+      {
+        "en": "RUTH: The oldest boy might be given more opportunities than his younger sisters, for example.",
+        "zh": "Ruth：例如，最大的男孩可能比妹妹們獲得更多機會。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-035"
+      },
+      {
+        "en": "ED: Exactly.",
+        "zh": "Ed：正是如此。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-036"
+      },
+      {
+        "en": "RUTH: But the main reason for the marginally higher academic performance of oldest children is quite surprising, I think.",
+        "zh": "Ruth：但我覺得，老大學業表現略高的主要原因相當令人驚訝。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-037"
+      },
+      {
+        "en": "It’s not only that they benefit intellectually from extra attention at a young age — which is what I would have expected.",
+        "zh": "這不只是因為他們年幼時得到額外關注，從而在智力上受益， 雖然這是我原本預期的。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-038"
+      },
+      {
+        "en": "It’s that they benefit from being teachers for their younger siblings, by verbalising processes.",
+        "zh": "真正原因是，他們透過向年幼弟妹講解過程，從扮演老師的角色中受益。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-039"
+      },
+      {
+        "en": "ED: Right, and this gives them status and confidence, which again contribute, in a small way, to better performance.",
+        "zh": "Ed：對，而這會給他們地位和自信，也會在小程度上促進更好的表現。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-040"
+      },
+      {
+        "en": "So would you say sibling rivalry has been a useful thing for you?",
+        "zh": "那你會說兄弟姐妹之間的競爭對你有幫助嗎？",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-041"
+      },
+      {
+        "en": "RUTH: I think so — my younger brother was incredibly annoying and we fought a lot but I think this has made me a stronger person.",
+        "zh": "Ruth：我覺得有。我弟弟非常煩人，我們經常吵架，但我認為這讓我變成了更堅強的人。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-042"
+      },
+      {
+        "en": "I know how to defend myself.",
+        "zh": "我知道如何保護自己。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-043"
+      },
+      {
+        "en": "We had some terrible arguments and I would have died rather than apologise to him.",
+        "zh": "我們曾經吵得很厲害，而我寧願死也不願向他道歉。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-044"
+      },
+      {
+        "en": "But we had to put up with each other and most of the time we co-existed amicably enough.",
+        "zh": "但我們必須忍受彼此，而且大多數時候也能相當友好地共處。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-045"
+      },
+      {
+        "en": "ED: Yes, my situation was pretty similar.",
+        "zh": "Ed：是的，我的情況也很類似。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-046"
+      },
+      {
+        "en": "But I don’t think having two older brothers made me any less selfish — I was never prepared to let my brothers use any of my stuff …",
+        "zh": "但我不覺得有兩個哥哥讓我變得更不自私；我從來不願意讓哥哥們用我的任何東西……",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-047"
+      },
+      {
+        "en": "RUTH: That’s perfectly normal, whereas …",
+        "zh": "Ruth：那完全正常，然而……",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-048"
+      }
+    ],
+    "4": [
+      {
+        "en": "Today I’m going to talk about the eucalyptus tree.",
+        "zh": "今天我要談的是 eucalyptus tree， 也就是桉樹。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-001"
+      },
+      {
+        "en": "This is a very common tree here in Australia, where it’s also sometimes called the gum tree.",
+        "zh": "這種樹在澳洲非常常見，有時也被稱為 gum tree。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-002"
+      },
+      {
+        "en": "First I’m going to talk about why it’s important, then I’m going to describe some problems it faces at present.",
+        "zh": "首先我會談談它為什麼重要，接著會描述它目前面臨的一些問題。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-003"
+      },
+      {
+        "en": "Right, well the eucalyptus tree is an important tree for lots of reasons.",
+        "zh": "好，桉樹之所以重要，有很多原因。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-004"
+      },
+      {
+        "en": "For example, it gives shelter to creatures like birds and bats, and these and other species also depend on it for food, particularly the nectar from its flowers.",
+        "zh": "例如，它為鳥類和蝙蝠等生物提供庇護，而這些及其他物種也依賴它作為食物來源，尤其是它花朵中的花蜜。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-005"
+      },
+      {
+        "en": "So it supports biodiversity.",
+        "zh": "因此，它支持生物多樣性。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-006"
+      },
+      {
+        "en": "It’s useful to us humans too, because we can kill germs with a disinfectant made from oil extracted from eucalyptus leaves.",
+        "zh": "它對人類也有用，因為我們可以用從桉樹葉中提取的油製成消毒劑來殺死細菌。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-007"
+      },
+      {
+        "en": "The eucalyptus grows all over Australia and the trees can live for up to four hundred years.",
+        "zh": "桉樹遍布澳洲，而且可以活到 400 年。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-008"
+      },
+      {
+        "en": "So it’s alarming that all across the country, numbers of eucalyptus are falling because the trees are dying off prematurely.",
+        "zh": "因此，全國各地桉樹數量正在下降，因為這些樹過早死亡，這令人擔憂。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-009"
+      },
+      {
+        "en": "So what are the reasons for this?",
+        "zh": "那麼原因是什麼呢？",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-010"
+      },
+      {
+        "en": "One possible reason is disease.",
+        "zh": "一個可能原因是疾病。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-011"
+      },
+      {
+        "en": "As far back as the 1970s the trees started getting a disease called Mundulla Yellows.",
+        "zh": "早在 1970 年代，桉樹就開始感染一種叫 Mundulla Yellows 的疾病。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-012"
+      },
+      {
+        "en": "The trees’ leaves would gradually turn yellow, then the tree would die.",
+        "zh": "樹葉會逐漸變黃，然後整棵樹死亡。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-013"
+      },
+      {
+        "en": "It wasn’t until 2004 that they found the cause of the problem was lime, or calcium hydroxide to give it its proper chemical name, which was being used in the construction of roads.",
+        "zh": "直到 2004 年，人們才發現問題原因是石灰，也就是化學名稱氫氧化鈣，它被用於道路建設。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-014"
+      },
+      {
+        "en": "The lime was being washed away into the ground and affecting the roots of the eucalyptus trees nearby.",
+        "zh": "石灰被沖刷進土壤中，影響附近桉樹的根部。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-015"
+      },
+      {
+        "en": "What it was doing was preventing the trees from sucking up the iron they needed for healthy growth.",
+        "zh": "它的作用是阻止樹木吸收健康生長所需的鐵。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-016"
+      },
+      {
+        "en": "When this was injected back into the affected trees, they immediately recovered.",
+        "zh": "當鐵被重新注入受影響的樹木後，樹木立即恢復。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-017"
+      },
+      {
+        "en": "But this problem only affected a relatively small number of trees.",
+        "zh": "不過這個問題只影響了相對少數的樹。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-018"
+      },
+      {
+        "en": "By 2000, huge numbers of eucalyptus were dying along Australia’s East Coast, of a disease known as Bell-miner Associated Die-back.",
+        "zh": "到 2000 年，澳洲東海岸大量桉樹死於一種稱為 Bell-miner Associated Die-back 的疾病。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-019"
+      },
+      {
+        "en": "The bell-miner is a bird, and the disease seems to be common where there are high populations of bell-miners.",
+        "zh": "bell-miner 是一種鳥，而這種疾病似乎在 bell-miner 數量多的地方很常見。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-020"
+      },
+      {
+        "en": "Again it’s the leaves of the trees that are affected.",
+        "zh": "受到影響的同樣是樹葉。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-021"
+      },
+      {
+        "en": "What happens is that insects settle on the leaves and eat their way round them, destroying them as they go, and at the same time they secrete a solution which has sugar in it.",
+        "zh": "情況是昆蟲停留在葉片上，沿著葉片啃食，一邊移動一邊破壞葉子，同時分泌一種含糖溶液。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-022"
+      },
+      {
+        "en": "The bell-miner birds really like this solution, and in order to get as much as possible, they keep away other creatures that might try to get it.",
+        "zh": "bell-miner 鳥非常喜歡這種溶液， 為了盡可能多地取得它，牠們會趕走其他可能試圖取得它的生物。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-023"
+      },
+      {
+        "en": "So these birds and insects flourish at the expense of other species, and eventually so much damage is done to the leaves that the tree dies.",
+        "zh": "因此，這些鳥和昆蟲以犧牲其他物種為代價大量繁盛，最後樹葉受到嚴重破壞，樹木死亡。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-024"
+      },
+      {
+        "en": "But experts say that trees can start looking sick before any sign of Bell-miner Associated Dieback.",
+        "zh": "但專家說，樹木在出現 Bell-miner Associated Die-back 任何跡象之前，就可能已經開始看起來生病。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-025"
+      },
+      {
+        "en": "So it looks as if the problem might have another explanation.",
+        "zh": "因此，看起來這個問題可能還有另一種解釋。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-026"
+      },
+      {
+        "en": "One possibility is that it’s to do with the huge bushfires that we have in Australia.",
+        "zh": "一種可能是它與澳洲的大型叢林火災有關。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-027"
+      },
+      {
+        "en": "A theory proposed over 40 years ago by ecologist William Jackson is that the frequency of bushfires in a particular region affects the type of vegetation that grows there.",
+        "zh": "生態學家 William Jackson 在 40 多年前提出一個理論：某一地區叢林火災的頻率會影響那裡生長的植被類型。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-028"
+      },
+      {
+        "en": "If there are very frequent bushfires in a region, this encourages grass to grow afterwards, while if the bushfires are rather less frequent, this results in the growth of eucalyptus forests.",
+        "zh": "如果某地叢林火災非常頻繁，火災後會促進草類生長；而如果火災頻率較低，則會形成桉樹林。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-029"
+      },
+      {
+        "en": "So why is this? Why do fairly frequent bushfires actually support the growth of eucalyptus?",
+        "zh": "那為什麼會這樣？為什麼相當頻繁的叢林火災反而能支持桉樹生長？",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-030"
+      },
+      {
+        "en": "Well, one reason is that the fire stops the growth of other species which would consume water needed by eucalyptus trees.",
+        "zh": "一個原因是，火會阻止其他物種生長，而那些物種會消耗桉樹所需的水。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-031"
+      },
+      {
+        "en": "And there’s another reason.",
+        "zh": "還有另一個原因。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-032"
+      },
+      {
+        "en": "If these other quick-growing species of bushes and plants are allowed to proliferate, they harm the eucalyptus in another way, by affecting the composition of the soil, and removing nutrients from it.",
+        "zh": "如果這些其他快速生長的灌木和植物大量繁殖，它們會以另一種方式傷害桉樹，也就是影響土壤成分並帶走養分。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-033"
+      },
+      {
+        "en": "So some bushfires are actually essential for the eucalyptus to survive as long as they are not too frequent.",
+        "zh": "因此，只要火災不過於頻繁，一些叢林火災其實對桉樹生存是必要的。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-034"
+      },
+      {
+        "en": "In fact there’s evidence that Australia’s indigenous people practised regular burning of bush land for thousands of years before the arrival of the Europeans.",
+        "zh": "事實上，有證據顯示，在歐洲人到來前數千年，澳洲原住民就有規律地焚燒灌木地。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-035"
+      },
+      {
+        "en": "But since Europeans arrived on the continent, the number of bushfires has been strictly controlled.",
+        "zh": "但自從歐洲人抵達這片大陸後， 叢林火災的數量受到嚴格控制。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-036"
+      },
+      {
+        "en": "Now scientists believe that this reduced frequency of bushfires to low levels has led to what’s known as “dry rainforest”, which seems an odd name as usually we associate tropical rainforest with wet conditions.",
+        "zh": "現在科學家認為，火災頻率降低到很低水平，導致了所謂的 “dry rainforest” 形成；這個名稱聽起來有些奇怪，因為我們通常把熱帶雨林和潮濕環境聯繫在一起。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-037"
+      },
+      {
+        "en": "And what’s special about this type of rainforest?",
+        "zh": "那這類雨林有什麼特別之處呢？",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-038"
+      },
+      {
+        "en": "Well, unlike tropical rainforest which is a rich ecosystem, this type of ecosystem is usually a simple one.",
+        "zh": "不同於生態系統豐富的熱帶雨林，這類生態系統通常很簡單。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-039"
+      },
+      {
+        "en": "It has very thick, dense vegetation, but not much variety of species.",
+        "zh": "它有非常厚密的植被，但物種多樣性不高。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-040"
+      },
+      {
+        "en": "The vegetation provides lots of shade, so one species that does find it ideal is the bell-miner bird, which builds its nests in the undergrowth there.",
+        "zh": "這些植被提供大量陰影，因此有一種物種確實覺得這裡很理想， 那就是 bell-miner 鳥，牠們會在下層灌木中築巢。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-041"
+      },
+      {
+        "en": "But again that’s not helpful for the eucalyptus tree.",
+        "zh": "但這同樣對桉樹沒有幫助。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-042"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "answer": "Jamieson",
+      "explanation": "題目寫： “Name of agent: Becky _____” William 說： “The agent I always deal with is called Becky Jamieson.” 而且立即逐字拼出： “J-A-M-I-E-S-O-N.” 所以答案是 Jamieson。 這種姓名題如果錄音主動拼字，通常代表考點就在 spelling，本題應直接跟著字母落筆。",
+      "sourcePages": [
+        47
+      ]
+    },
+    "2": {
+      "answer": "afternoon",
+      "explanation": "題目寫： “Best to call her in the _____” William 建議： “I wouldn’t call her until the afternoon” 原因是 Becky： “always really busy in the morning” 所以 morning 是不建議致電的時間，最佳時段是 afternoon。 答案是 afternoon。",
+      "sourcePages": [
+        47
+      ]
+    },
+    "3": {
+      "answer": "communication",
+      "explanation": "題目寫： “Must have good _____ skills” Amber 擔心自己缺少 office experience。William 解釋 receptionist 類工作真正重要的是： “it’s communication that really matters” 前面提到的 business skills、computer systems 都被降低重要性。 所以完整搭配是： communication skills 答案是 communication。",
+      "sourcePages": [
+        48
+      ]
+    },
+    "4": {
+      "answer": "week",
+      "explanation": "題目寫： “Jobs are usually for at least one _____” Amber 希望找到： “something lasting at least a month” 這只是她自己的期望。 William 接著介紹實際情況： “you’re more likely to be offered something for a week at first” 而且： “It’s unusual to be sent somewhere for just a day or two.” 所以典型 temporary job 至少大約一週。 答案是 week。 中伏位： month 很容易令人落筆，但題目問 agency 的 typical jobs，並非 Amber 理想中的長度。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "5": {
+      "answer": "10 / ten",
+      "explanation": "題目寫： “Pay is usually £ _____ per hour” William 說： “The hourly rate is about £10, 11 if you’re lucky.” 所以： ● 一般：約 £10 ● 運氣好：£11 Amber 自己原本預期的 £8–9 也只是她的估計。 答案是 10 / ten。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "6": {
+      "answer": "suit",
+      "explanation": "題目寫： “Wear a _____ to the interview” Amber 說自己應該 dress smartly，並表示： “I can probably borrow a suit from Mum.” William 回： “Good idea.” 所以答案是 suit。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "7": {
+      "answer": "passport",
+      "explanation": "題目寫： “Must bring your _____ to the interview” Amber 先問 exam certificates。 William 說： “they don’t need to see those” 接著她問： “What about my passport?” William 回： “Oh yes — they will ask to see that.” 所以真正必須攜帶的是 passport。 答案是 passport。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "8": {
+      "answer": "personality",
+      "explanation": "題目寫： “They will ask questions about each applicant’s _____” William 說面試主要用來了解 applicant，以便配對合適工作，因此： “there are questions about personality that they always ask candidates” 後面的 future plans 則說： “probably won’t ask” 所以答案是 personality。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "9": {
+      "answer": "feedback",
+      "explanation": "題目寫： “The _____ you receive at interview will benefit you” William 說 agency interview 很有用，因為： “they’ll give you feedback on your performance” 用途是： “so you can improve next time.” 所以這項 benefit 就是 interview feedback。 答案是 feedback。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "10": {
+      "answer": "time",
+      "explanation": "題目寫： “Less _____ is involved in applying for jobs” Amber 說透過 agency 找 temporary work： “takes a lot less time” 比逐家公司打電話容易很多。 所以答案是 time。",
+      "sourcePages": [
+        52,
+        53
+      ]
+    },
+    "11": {
+      "answer": "A — has been in business for longer than most of its competitors",
+      "explanation": "Speaker 先說 Matthews Island Holidays 是 small family-run company，因此： “we don’t aim to compete … on the number of customers” → C 可排除。 公司也只專注： “a small number of destinations” → B 也不符合。 真正被強調的是： “our many years’ experience — more than almost any other rail holiday company” 意思是其經營經驗比幾乎所有同業都長。 所以答案是 A。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "12": {
+      "answer": "B — Heysham",
+      "explanation": "題目問在前往 Isle of Man 之前，customers 在哪裡見 tour manager。 錄音直接說： “Our holiday starts in Heysham, where your tour manager will meet you” Liverpool 和 Luton 都是其他可行交通方式： ● Luton → 搭飛機 ● Liverpool → 搭 ferry 標準行程的集合點是 Heysham。 答案是 B。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "13": {
+      "answer": "A — three",
+      "explanation": "價格包括： “five breakfasts and dinners” 以及： “lunch on the three days when there are organised trips.” 題目只問 lunches，所以答案是 three。 答案是 A。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "14": {
+      "answer": "C — transferring to another date",
+      "explanation": "這題三個選項都要分開處理。 短期預訂： “the price is the same whether you book six months in advance or at the last minute” 所以 B 不收額外費用。 單人房： “there’s no supplement for single rooms” 所以 A 也不符合。 若要修改 departure date： “change to an alternative date … for a small administrative fee.” 因此只有更改日期會額外收費。 答案是 C。",
+      "sourcePages": [
+        55,
+        56
+      ]
+    },
+    "15": {
+      "answer": "river",
+      "explanation": "圖片中 Day 1： “Hotel dining room has view of the 15 _____” 錄音說： “The dining room looks out at the river, close to where it flows into the harbour” 所以真正從 dining room 看到的是 river。 harbour 只是河流流入的位置。 答案是 river。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "16": {
+      "answer": "1422",
+      "explanation": "表格寫： “Tynwald may have been founded in _____, not 979.” 錄音先介紹官方說法： “it dates back to 979.” 但緊接著提出質疑： “the earliest surviving reference to it is from 1422, so perhaps it isn’t quite as old as it claims!” 所以： ● 傳統宣稱：979 ● 現存最早證據：1422 題目中的 “may have been founded … not 979” 正是在考這個修正。 答案是 1422。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "17": {
+      "answer": "top",
+      "explanation": "Day 3 表格寫： “train to the _____ of Snaefell” 從 Laxey 搭 Snaefell Mountain Railway： “an eight-kilometre ride … to the top.” 因此： the top of Snaefell 答案是 top。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "18": {
+      "answer": "pass",
+      "explanation": "Day 4 是 free day。 公司會提供： “the pass which we’ll give you.” 有了這張 pass： ● local transport 免費 ● heritage sites 入場免費因此表格： “Company provides a _____ for local transport and heritage sites.” 答案是 pass。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "19": {
+      "answer": "steam",
+      "explanation": "圖片中 Day 5： “Take the _____ railway train from Douglas to Port Erin” 錄音稱這段旅程為： “a ride on the steam railway, from Douglas to Port Erin.” 所以完整詞組是： steam railway 答案是 steam。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "20": {
+      "answer": "capital",
+      "explanation": "Day 5 後段前往 Castletown。 錄音說： “Castletown, which used to be the capital of the Isle of Man” 題目整理為： “former _____ has old castle.” 所以： former capital 答案是 capital。 這部分題目特別強調： What did findings of previous research claim ...? 所以我們要選的是「過去研究的刻板印象／研究主張」，不能拿學生自己的個人經驗來推翻答案",
+      "sourcePages": [
+        59,
+        60
+      ]
+    },
+    "21": {
+      "answer": "G — caring",
+      "explanation": "the eldest child Ruth 說一些 studies 認為 oldest children： “were thought to be good at nurturing.” 因為傳統大家庭裡，老大常被要求： “look after the younger ones.” nurturing / looking after others → caring 所以答案是 G。",
+      "sourcePages": [
+        60
+      ]
+    },
+    "22": {
+      "answer": "F — co-operative",
+      "explanation": "a middle child 研究提到 middle children： “are easier to get on with” 並且： “eager to please and helpful” 這些特質最接近 co-operative。 Ruth 自己的 middle brother 很愛吵架，那只是她用來說明研究不一定適用於每個人。 所以答案是 F。",
+      "sourcePages": [
+        61
+      ]
+    },
+    "23": {
+      "answer": "A — outgoing",
+      "explanation": "the youngest child Ed 說研究描述 youngest children 應該是： “a sociable and confident child who made friends easily” 這正是 outgoing。 Ed 自己其實 “terribly shy”，恰好證明他覺得 stereotype 不準，但題目問的是 previous research 的 claim 所以答案是 A。",
+      "sourcePages": [
+        61
+      ]
+    },
+    "24": {
+      "answer": "E — introverted",
+      "explanation": "a twin 研究說 twin： “likely to be quite shy in social situations” 因為有自己的 twin 作為固定 support，不一定主動與其他孩子互動。 Ruth 的 cousins 也： “only interested in each other” 並： “found it hard to engage with other kids.” 所以最符合 introverted。 答案是 E。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "25": {
+      "answer": "B — selfish",
+      "explanation": "an only child 研究把 only children 描述成： “loners who think the world revolves around them” 原因是從未需要和 siblings 競爭父母注意力。 這種 stereotype 最接近 selfish。 答案是 B。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "26": {
+      "answer": "C — independent",
+      "explanation": "a child with much older siblings 研究認為這類孩子： “grow up more quickly” 而且： “are expected to do basic things for themselves” 例如自己穿衣服。 能夠較早照顧自己，最貼近 independent。 答案是 C。",
+      "sourcePages": [
+        63,
+        64
+      ]
+    },
+    "27": {
+      "answer": "C — Some studies have neglected to include important factors such as family",
+      "explanation": "size Ruth 說很多 recent studies 已確認： “Performances in intelligence tests decline slightly from the eldest child to … younger siblings.” 所以 A「證據互相矛盾」不符合這段。 Ed 接著指出一個 methodology 問題： “what many of them didn’t take into consideration was family size.” 為甚麼 family size 很重要？ 因為： “the more siblings there are, the likelier the family is to have a low socioeconomic status” 而 socioeconomic status 本身也會影響 academic performance。 所以若研究只看到： birth order → achievement difference 卻忽略： family size → socioeconomic status → achievement 就可能把部分差異錯誤歸因於 birth order。 答案是 C。",
+      "sourcePages": [
+        64,
+        65
+      ]
+    },
+    "28": {
+      "answer": "A — It is mainly thanks to their roles as teachers for their younger siblings",
+      "explanation": "Ruth 說她覺得最令人意外的是 oldest children 略高的 academic performance 的主要原因。 她原先預期的是： “extra attention at a young age” 但真正令她驚訝的是： “they benefit from being teachers for their younger siblings, by verbalising processes.” 也就是當老大向弟妹解釋事情時，自己也需要把思考過程說清楚。 這種「教別人」的過程會： ● 加深自己的理解 ● 增加 confidence ● 提升 status ● 最終對 academic performance 有少量正面作用所以答案是 A。",
+      "sourcePages": [
+        65,
+        66
+      ]
+    },
+    "29": {
+      "answer": "B and D",
+      "explanation": "題目問 sibling rivalry 哪兩種經驗，兩位 speakers 都認為對自己有價值。 B — learning to stand up for oneself Ruth 說： “we fought a lot but I think this has made me a stronger person.” 並明確補充： “I know how to defend myself.” 這就是學會為自己站出來。 Ed 接著說： “my situation was pretty similar.” 所以兩人都有這項經驗。 答案包括 B。 D — learning to be tolerant Ruth 說即使經常爭吵： “we had to put up with each other” 而且大部分時間： “we co-existed amicably enough.” put up with someone = 容忍、忍受某人的習慣和缺點。 Ed 說自己的情況也很相似，因此這項經驗同樣適用兩人。 答案包括 D。 其他選項可以排除： ● A sharing：Ed 明確說自己從不願讓兄弟用他的東西 ● E saying sorry：Ruth 說自己當時寧死也不願道歉 ● C being a good loser：這段沒有相關證據所以答案是 B、D。",
+      "sourcePages": [
+        66,
+        67,
+        68
+      ]
+    },
+    "30": {
+      "answer": "B and D",
+      "explanation": "題目問 sibling rivalry 哪兩種經驗，兩位 speakers 都認為對自己有價值。 B — learning to stand up for oneself Ruth 說： “we fought a lot but I think this has made me a stronger person.” 並明確補充： “I know how to defend myself.” 這就是學會為自己站出來。 Ed 接著說： “my situation was pretty similar.” 所以兩人都有這項經驗。 答案包括 B。 D — learning to be tolerant Ruth 說即使經常爭吵： “we had to put up with each other” 而且大部分時間： “we co-existed amicably enough.” put up with someone = 容忍、忍受某人的習慣和缺點。 Ed 說自己的情況也很相似，因此這項經驗同樣適用兩人。 答案包括 D。 其他選項可以排除： ● A sharing：Ed 明確說自己從不願讓兄弟用他的東西 ● E saying sorry：Ruth 說自己當時寧死也不願道歉 ● C being a good loser：這段沒有相關證據所以答案是 B、D。",
+      "sourcePages": [
+        66,
+        67,
+        68
+      ]
+    },
+    "31": {
+      "answer": "shelter",
+      "explanation": "題目寫： “it provides _____ and food for a wide range of species” 錄音說 eucalyptus： “gives shelter to creatures like birds and bats” 這些 species 同時也依賴 eucalyptus 作為 food source。 所以： shelter + food 答案是 shelter。",
+      "sourcePages": [
+        68
+      ]
+    },
+    "32": {
+      "answer": "oil",
+      "explanation": "題目寫： “its leaves provide _____ which is used to make a disinfectant” 錄音說 disinfectant： “made from oil extracted from eucalyptus leaves.” 所以 eucalyptus leaves 提供 oil。 答案是 oil。",
+      "sourcePages": [
+        68
+      ]
+    },
+    "33": {
+      "answer": "roads",
+      "explanation": "Mundulla Yellows 的原因與 lime 有關。 錄音說 lime / calcium hydroxide： “was being used in the construction of roads.” 之後被沖入 ground，影響 eucalyptus roots 吸收 iron。 所以完整因果是： lime used in road construction → washed into soil → roots affected → iron uptake blocked → tree becomes sick 答案是 roads。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "34": {
+      "answer": "insects",
+      "explanation": "Bell-miner Associated Die-back 部分： “What happens is that insects settle on the leaves and eat their way round them” 同時 insects： “secrete a solution which has sugar in it.” bell-miner birds 喜歡這種 sugary solution，因此會保護這些 insects、驅趕其他生物，間接令葉片受害加劇。 所以答案是 insects。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "35": {
+      "answer": "grass / grasses",
+      "explanation": "William Jackson 的理論認為 fire frequency 決定 vegetation type。 如果 bushfires： “very frequent” 結果： “this encourages grass to grow afterwards.” 所以 high-frequency fires → grass。 答案是 grass / grasses。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "36": {
+      "answer": "water",
+      "explanation": "題目談 mid-frequency bushfires 為何有利 eucalyptus。 第一個原因是 fire 會阻止其他 species 大量生長。 這些其他植物原本會： “consume water needed by eucalyptus trees.” 火災減少競爭植物後，eucalyptus 能得到更多可用 water。 所以答案是 water。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "37": {
+      "answer": "soil",
+      "explanation": "第二個原因涉及 fast-growing bushes and plants。 如果這些植物大量繁殖： “they harm the eucalyptus … by affecting the composition of the soil, and removing nutrients from it.” 所以適當頻率的 fire 抑制這些植物，有助於維持 soil composition / quality。 題目寫： “maintain the quality of the _____” 答案是 soil。",
+      "sourcePages": [
+        71
+      ]
+    },
+    "38": {
+      "answer": "dry",
+      "explanation": "當 bushfire frequency 降得很低時： “has led to what’s known as ‘dry rainforest’” 所以題目： “low-frequency bushfires result in the growth of ‘_____ rainforest’” 答案是 dry。",
+      "sourcePages": [
+        71
+      ]
+    },
+    "39": {
+      "answer": "simple",
+      "explanation": "Speaker 將兩種 rainforest 比較： tropical rainforest： “a rich ecosystem” dry rainforest： “this type of ecosystem is usually a simple one.” 它雖然 vegetation 很 dense，但： “not much variety of species.” 所以 simple ecosystem 指物種組成相對單一。 答案是 simple。",
+      "sourcePages": [
+        72
+      ]
+    },
+    "40": {
+      "answer": "nests / nest",
+      "explanation": "Dry rainforest 的 dense vegetation 和 shade 很適合 bell-miner birds。 錄音說 bell-miner： “builds its nests in the undergrowth there.” 所以題目： “an ideal environment for the _____ of the bell-miner” 意思是這個環境非常適合 bell-miner 建巢和繁衍。 答案是 nests / nest。 這一題也連回整段的生態因果： 低頻率 bushfires → dry rainforest 增加 → dense undergrowth → bell-miner 更容易築巢 → bell-miner 數量增加 → 保護會傷害 eucalyptus leaves 的 insects → eucalyptus decline 加劇。",
+      "sourcePages": [
+        72
+      ]
+    }
+  },
+  "timings": {
+    "parts": {
+      "1": {
+        "duration": 341.4988125,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2020%20Part%201.mp3",
+        "audioSha256": "a4c19c196fe676a940fe57119acb312ee7b633c48527355c3e223feb2420ff0d",
+        "transcriptSha256": "0355a91663c741af05a9070025e70eb7e26f327c6132a955740a1b03cf1ce09c",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.997,
+        "lines": [
+          {
+            "start": 45.26,
+            "end": 54.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 55.52,
+            "end": 56.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 57.58,
+            "end": 59.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 60.4,
+            "end": 68.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 69.32,
+            "end": 74.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 75.32,
+            "end": 78.56,
+            "coverage": 0.9773
+          },
+          {
+            "start": 79.26,
+            "end": 81.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 82.74,
+            "end": 89.62,
+            "coverage": 0.9375
+          },
+          {
+            "start": 90.16,
+            "end": 92.66,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 93.24,
+            "end": 102.88,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 103.68,
+            "end": 110.1,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 110.94,
+            "end": 116.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 116.94,
+            "end": 121.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 121.6,
+            "end": 134.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 134.48,
+            "end": 139.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 140.1,
+            "end": 144.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 144.66,
+            "end": 155.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 155.6,
+            "end": 158.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 159.0,
+            "end": 159.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 160.68,
+            "end": 166.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 166.98,
+            "end": 170.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 171.14,
+            "end": 172.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 172.96,
+            "end": 177.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 177.76,
+            "end": 180.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 180.8,
+            "end": 186.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 186.9,
+            "end": 192.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 192.6,
+            "end": 198.18,
+            "coverage": 0.9
+          },
+          {
+            "start": 239.38,
+            "end": 242.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 243.04,
+            "end": 246.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 247.1,
+            "end": 251.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 252.1,
+            "end": 258.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 259.38,
+            "end": 262.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 263.78,
+            "end": 268.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 268.72,
+            "end": 270.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 271.2,
+            "end": 272.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 273.52,
+            "end": 275.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 275.76,
+            "end": 276.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 276.92,
+            "end": 278.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 279.3,
+            "end": 284.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 285.06,
+            "end": 290.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 291.46,
+            "end": 295.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 296.56,
+            "end": 297.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 298.7,
+            "end": 308.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 309.66,
+            "end": 312.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 313.04,
+            "end": 316.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 317.34,
+            "end": 325.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 326.54,
+            "end": 329.1,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "2": {
+        "duration": 388.8065625,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2020%20Part%202.mp3",
+        "audioSha256": "2e458749f86357322678ed2550db6d8ba1c9cf677277f5ad5184b6eb790dd92f",
+        "transcriptSha256": "28bcdafc13b15ab19c97e6a8322b3ef0050381d0062825d6c236c657ab7e7058",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9931,
+        "lines": [
+          {
+            "start": 52.7,
+            "end": 62.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 63.66,
+            "end": 69.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 70.02,
+            "end": 81.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 82.04,
+            "end": 97.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 98.12,
+            "end": 101.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 102.1,
+            "end": 111.9,
+            "coverage": 0.9829
+          },
+          {
+            "start": 112.68,
+            "end": 120.86,
+            "coverage": 0.9783,
+            "refined": true
+          },
+          {
+            "start": 121.62,
+            "end": 129.54,
+            "coverage": 0.9811,
+            "refined": true
+          },
+          {
+            "start": 130.62,
+            "end": 140.16,
+            "coverage": 0.9828,
+            "refined": true
+          },
+          {
+            "start": 141.02,
+            "end": 146.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 147.28,
+            "end": 155.64,
+            "coverage": 0.9703
+          },
+          {
+            "start": 156.52,
+            "end": 161.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 161.8,
+            "end": 172.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 173.72,
+            "end": 184.86,
+            "coverage": 0.9868
+          },
+          {
+            "start": 191.96,
+            "end": 235.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 236.08,
+            "end": 243.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 244.56,
+            "end": 252.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 252.76,
+            "end": 260.28,
+            "coverage": 0.9881
+          },
+          {
+            "start": 261.74,
+            "end": 268.06,
+            "coverage": 0.9867
+          },
+          {
+            "start": 268.98,
+            "end": 276.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 277.38,
+            "end": 286.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 288.2,
+            "end": 291.84,
+            "coverage": 0.975
+          },
+          {
+            "start": 292.28,
+            "end": 298.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 299.12,
+            "end": 304.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 304.92,
+            "end": 311.18,
+            "coverage": 0.9853
+          },
+          {
+            "start": 311.98,
+            "end": 316.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 318.02,
+            "end": 322.98,
+            "coverage": 0.9821
+          },
+          {
+            "start": 323.54,
+            "end": 329.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 330.5,
+            "end": 335.14,
+            "coverage": 0.9859
+          },
+          {
+            "start": 336.58,
+            "end": 347.2,
+            "coverage": 0.9907
+          },
+          {
+            "start": 347.98,
+            "end": 356.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 356.92,
+            "end": 364.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 366.16,
+            "end": 373.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 375.06,
+            "end": 376.66,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "3": {
+        "duration": 403.0694375,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2020%20Part%203.mp3",
+        "audioSha256": "611191247c9adc74f4c4b73c3400a33effa952184f623512cce1aa054d527996",
+        "transcriptSha256": "39a9cb23577187a81e74c720fe625d719596dd559e0e5385081bdaca3929d816",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9946,
+        "lines": [
+          {
+            "start": 53.46,
+            "end": 58.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 58.4,
+            "end": 61.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 62.04,
+            "end": 66.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 67.56,
+            "end": 71.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 71.96,
+            "end": 82.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 83.2,
+            "end": 89.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 90.6,
+            "end": 92.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 93.34,
+            "end": 97.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 97.76,
+            "end": 105.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 106.12,
+            "end": 111.24,
+            "coverage": 0.8608
+          },
+          {
+            "start": 111.24,
+            "end": 118.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 118.38,
+            "end": 127.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 129.18,
+            "end": 134.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 134.62,
+            "end": 141.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 141.4,
+            "end": 144.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 145.3,
+            "end": 150.12,
+            "coverage": 0.9867
+          },
+          {
+            "start": 150.66,
+            "end": 158.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 158.68,
+            "end": 160.66,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 161.56,
+            "end": 166.08,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 166.76,
+            "end": 176.9,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 177.64,
+            "end": 184.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 185.34,
+            "end": 186.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 186.84,
+            "end": 197.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 198.1,
+            "end": 199.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 200.6,
+            "end": 204.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 205.56,
+            "end": 213.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 213.76,
+            "end": 222.98,
+            "coverage": 0.9835
+          },
+          {
+            "start": 265.18,
+            "end": 268.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 269.08,
+            "end": 280.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 281.38,
+            "end": 289.88,
+            "coverage": 0.9911
+          },
+          {
+            "start": 290.56,
+            "end": 297.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.74,
+            "end": 300.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 300.28,
+            "end": 305.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 306.18,
+            "end": 315.98,
+            "coverage": 0.979
+          },
+          {
+            "start": 316.94,
+            "end": 321.08,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 321.08,
+            "end": 321.62,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 322.38,
+            "end": 329.18,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 329.98,
+            "end": 336.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 337.16,
+            "end": 342.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 342.72,
+            "end": 350.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 351.22,
+            "end": 355.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 355.4,
+            "end": 363.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 364.2,
+            "end": 365.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 366.54,
+            "end": 371.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 371.96,
+            "end": 376.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 377.48,
+            "end": 379.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 380.54,
+            "end": 388.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 389.0,
+            "end": 402.36,
+            "coverage": 0.9259
+          }
+        ]
+      },
+      "4": {
+        "duration": 474.096375,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2020%20Part%204.mp3",
+        "audioSha256": "fa873b92bd0720bad545a3ae4572200b7627aec390de14888affd2058bf20252",
+        "transcriptSha256": "177026fec233047c0005ee05d1a00544922801e613863cac1c4da5d5f94ade03",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9953,
+        "lines": [
+          {
+            "start": 89.6,
+            "end": 93.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 93.86,
+            "end": 100.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 101.38,
+            "end": 109.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 110.4,
+            "end": 115.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 116.66,
+            "end": 129.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 130.26,
+            "end": 132.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 133.9,
+            "end": 143.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 145.88,
+            "end": 152.34,
+            "coverage": 0.8533
+          },
+          {
+            "start": 153.18,
+            "end": 162.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 163.6,
+            "end": 165.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 166.74,
+            "end": 169.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 170.46,
+            "end": 177.38,
+            "coverage": 0.9857
+          },
+          {
+            "start": 178.36,
+            "end": 182.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 183.92,
+            "end": 197.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 199.0,
+            "end": 205.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 206.52,
+            "end": 213.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 214.38,
+            "end": 219.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 221.6,
+            "end": 225.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 226.74,
+            "end": 237.68,
+            "coverage": 0.9905
+          },
+          {
+            "start": 238.62,
+            "end": 245.8,
+            "coverage": 0.9885
+          },
+          {
+            "start": 246.82,
+            "end": 250.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 251.36,
+            "end": 264.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 264.9,
+            "end": 276.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 276.68,
+            "end": 287.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 292.68,
+            "end": 300.18,
+            "coverage": 0.9878
+          },
+          {
+            "start": 300.88,
+            "end": 304.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 306.22,
+            "end": 311.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 311.48,
+            "end": 325.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 327.12,
+            "end": 341.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 342.74,
+            "end": 351.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 351.74,
+            "end": 361.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 363.0,
+            "end": 364.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 365.9,
+            "end": 380.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 381.7,
+            "end": 389.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 390.16,
+            "end": 400.42,
+            "coverage": 0.9924
+          },
+          {
+            "start": 401.92,
+            "end": 408.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 409.5,
+            "end": 425.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 427.38,
+            "end": 430.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 431.2,
+            "end": 440.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 440.06,
+            "end": 445.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 447.36,
+            "end": 458.86,
+            "coverage": 0.9917
+          },
+          {
+            "start": 459.74,
+            "end": 462.88,
+            "coverage": 1.0
+          }
+        ]
+      }
+    },
+    "questions": {
+      "1": {
+        "part": 1,
+        "time": 75.32,
+        "line": 5,
+        "evidenceScore": 64.0
+      },
+      "2": {
+        "part": 1,
+        "time": 103.68,
+        "line": 10,
+        "evidenceScore": 52.0
+      },
+      "3": {
+        "part": 1,
+        "time": 144.66,
+        "line": 16,
+        "evidenceScore": 53.0
+      },
+      "4": {
+        "part": 1,
+        "time": 172.96,
+        "line": 22,
+        "evidenceScore": 70.0
+      },
+      "5": {
+        "part": 1,
+        "time": 186.9,
+        "line": 25,
+        "evidenceScore": 61.0
+      },
+      "6": {
+        "part": 1,
+        "time": 252.1,
+        "line": 30,
+        "evidenceScore": 50.0
+      },
+      "7": {
+        "part": 1,
+        "time": 271.2,
+        "line": 34,
+        "evidenceScore": 39.0
+      },
+      "8": {
+        "part": 1,
+        "time": 285.06,
+        "line": 39,
+        "evidenceScore": 80.0
+      },
+      "9": {
+        "part": 1,
+        "time": 298.7,
+        "line": 42,
+        "evidenceScore": 58.0
+      },
+      "10": {
+        "part": 1,
+        "time": 317.34,
+        "line": 45,
+        "evidenceScore": 37.0
+      },
+      "11": {
+        "part": 2,
+        "time": 82.04,
+        "line": 3,
+        "evidenceScore": 62.0
+      },
+      "12": {
+        "part": 2,
+        "time": 112.68,
+        "line": 6,
+        "evidenceScore": 56.0
+      },
+      "13": {
+        "part": 2,
+        "time": 130.62,
+        "line": 8,
+        "evidenceScore": 45.0
+      },
+      "14": {
+        "part": 2,
+        "time": 161.8,
+        "line": 12,
+        "evidenceScore": 66.0
+      },
+      "15": {
+        "part": 2,
+        "time": 244.56,
+        "line": 16,
+        "evidenceScore": 84.0
+      },
+      "16": {
+        "part": 2,
+        "time": 277.38,
+        "line": 20,
+        "evidenceScore": 98.0
+      },
+      "17": {
+        "part": 2,
+        "time": 304.92,
+        "line": 24,
+        "evidenceScore": 34.29
+      },
+      "18": {
+        "part": 2,
+        "time": 318.02,
+        "line": 26,
+        "evidenceScore": 43.0
+      },
+      "19": {
+        "part": 2,
+        "time": 336.58,
+        "line": 29,
+        "evidenceScore": 63.0
+      },
+      "20": {
+        "part": 2,
+        "time": 356.92,
+        "line": 31,
+        "evidenceScore": 67.0
+      },
+      "21": {
+        "part": 3,
+        "time": 106.12,
+        "line": 9,
+        "evidenceScore": 30.0
+      },
+      "22": {
+        "part": 3,
+        "time": 129.18,
+        "line": 12,
+        "evidenceScore": 23.0
+      },
+      "23": {
+        "part": 3,
+        "time": 150.66,
+        "line": 16,
+        "evidenceScore": 46.0
+      },
+      "24": {
+        "part": 3,
+        "time": 166.76,
+        "line": 19,
+        "evidenceScore": 36.0
+      },
+      "25": {
+        "part": 3,
+        "time": 186.84,
+        "line": 22,
+        "evidenceScore": 40.0
+      },
+      "26": {
+        "part": 3,
+        "time": 205.56,
+        "line": 25,
+        "evidenceScore": 39.0
+      },
+      "27": {
+        "part": 3,
+        "time": 306.18,
+        "line": 33,
+        "evidenceScore": 74.0
+      },
+      "28": {
+        "part": 3,
+        "time": 337.16,
+        "line": 38,
+        "evidenceScore": 73.0
+      },
+      "29": {
+        "part": 3,
+        "time": 355.4,
+        "line": 41,
+        "evidenceScore": 49.0
+      },
+      "30": {
+        "part": 3,
+        "time": 355.4,
+        "line": 41,
+        "evidenceScore": 49.0
+      },
+      "31": {
+        "part": 4,
+        "time": 116.66,
+        "line": 4,
+        "evidenceScore": 59.0
+      },
+      "32": {
+        "part": 4,
+        "time": 133.9,
+        "line": 6,
+        "evidenceScore": 60.0
+      },
+      "33": {
+        "part": 4,
+        "time": 183.92,
+        "line": 13,
+        "evidenceScore": 56.0
+      },
+      "34": {
+        "part": 4,
+        "time": 251.36,
+        "line": 21,
+        "evidenceScore": 84.0
+      },
+      "35": {
+        "part": 4,
+        "time": 327.12,
+        "line": 28,
+        "evidenceScore": 55.0
+      },
+      "36": {
+        "part": 4,
+        "time": 351.74,
+        "line": 30,
+        "evidenceScore": 55.0
+      },
+      "37": {
+        "part": 4,
+        "time": 365.9,
+        "line": 32,
+        "evidenceScore": 64.44
+      },
+      "38": {
+        "part": 4,
+        "time": 409.5,
+        "line": 36,
+        "evidenceScore": 53.0
+      },
+      "39": {
+        "part": 4,
+        "time": 431.2,
+        "line": 38,
+        "evidenceScore": 58.0
+      },
+      "40": {
+        "part": 4,
+        "time": 447.36,
+        "line": 40,
+        "evidenceScore": 55.0
+      }
+    }
+  }
+}

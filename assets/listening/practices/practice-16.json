@@ -1,0 +1,4076 @@
+{
+  "schemaVersion": 1,
+  "practice": 16,
+  "title": "IELTS Listening Practice 16",
+  "source": {
+    "file": "IELTS Listening - Practice - 16.pdf",
+    "sha256": "7077374a9ffcd0cbdf29fef3f57322849be641da151bc9d39067e64637086daf",
+    "pageCount": 72,
+    "corrections": []
+  },
+  "parts": [
+    {
+      "part": 1,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        4
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 1–10\nComplete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nChildren’s Engineering Workshops\nTiny Engineers, ages 4–5\nActivities\n● Create a cover for an 1 __________ so they can drop it from a height\nwithout breaking it.\n● Take part in a competition to build the tallest 2 __________.\n● Make a 3 __________ powered by a balloon.\nJunior Engineers, ages 6–8\nActivities\n● Build model cars, trucks and 4 __________ and learn how to program\nthem so they can move.\n● Take part in a competition to build the longest 5 __________ using\ncard and wood.\n● Create a short 6 __________ with special software.\n● Build, 7 __________ and program a humanoid robot.\nCost for a five-week block: £50\nHeld on: 8 __________ from 10 a.m. to 11 a.m.\nLocation\nBuilding 10A, 9 __________ Industrial Estate, Grasford\nPlenty of 10 __________ is available.",
+          "page": 4
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 1,
+          "prompt": "● Create a cover for an 1 __________ so they can drop it from a height",
+          "translation": "",
+          "answer": "egg",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 2,
+          "prompt": "● Take part in a competition to build the tallest 2 __________.",
+          "translation": "",
+          "answer": "tower",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 3,
+          "prompt": "● Make a 3 __________ powered by a balloon.",
+          "translation": "",
+          "answer": "car",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 4,
+          "prompt": "● Build model cars, trucks and 4 __________ and learn how to program",
+          "translation": "",
+          "answer": "animals",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 5,
+          "prompt": "● Take part in a competition to build the longest 5 __________ using",
+          "translation": "",
+          "answer": "bridge",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 6,
+          "prompt": "● Create a short 6 __________ with special software.",
+          "translation": "",
+          "answer": "movie",
+          "alternatives": [
+            "film"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 7,
+          "prompt": "● Build, 7 __________ and program a humanoid robot.",
+          "translation": "",
+          "answer": "decorate",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 8,
+          "prompt": "Held on: 8 __________ from 10 a.m. to 11 a.m.",
+          "translation": "",
+          "answer": "Wednesdays",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 9,
+          "prompt": "Building 10A, 9 __________ Industrial Estate, Grasford",
+          "translation": "",
+          "answer": "Fradstone",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 10,
+          "prompt": "Plenty of 10 __________ is available.",
+          "translation": "",
+          "answer": "parking",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 11–14\nChoose the correct letter, A, B or C.\n11. Stevenson’s was founded in\nA. 1923.\nB. 1924.\nC. 1926.\n12. Originally, Stevenson’s manufactured goods for\nA. the healthcare industry.\nB. the automotive industry.\nC. the machine tools industry.\n13. What does the speaker say about the company premises?\nA. The company has recently moved.\nB. The company has no plans to move.\nC. The company is going to move shortly.\n14. The programme for the work experience group includes\nA. time to do research.\nB. meetings with a teacher.\nC. talks by staff.",
+          "page": 6
+        },
+        {
+          "type": "text",
+          "text": "Questions 15–20",
+          "page": 7
+        },
+        {
+          "type": "image",
+          "src": "assets/listening/practices/images/practice-16-page-7-1.webp",
+          "alt": "Practice 16, source question diagram/table, PDF page 7",
+          "text": "",
+          "page": 7
+        },
+        {
+          "type": "text",
+          "text": "Label the map below.\nWrite the correct letter, A–J, next to Questions 15–20.\n15. coffee room __________\n16. warehouse __________\n17. staff canteen __________\n18. meeting room __________\n19. human resources __________\n20. boardroom __________",
+          "page": 7
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 11,
+          "prompt": "Stevenson’s was founded in",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "1923.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "1924.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "1926.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 12,
+          "prompt": "Originally, Stevenson’s manufactured goods for",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "the healthcare industry.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "the automotive industry.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "the machine tools industry.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 13,
+          "prompt": "What does the speaker say about the company premises?",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "The company has recently moved.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The company has no plans to move.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "The company is going to move shortly.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 14,
+          "prompt": "The programme for the work experience group includes",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "time to do research.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "meetings with a teacher.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "talks by staff.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 15,
+          "prompt": "coffee room",
+          "translation": "",
+          "answer": "H",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 16,
+          "prompt": "warehouse",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 17,
+          "prompt": "staff canteen",
+          "translation": "",
+          "answer": "G",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 18,
+          "prompt": "meeting room",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 19,
+          "prompt": "human resources",
+          "translation": "",
+          "answer": "I",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 20,
+          "prompt": "boardroom",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        9,
+        10,
+        11
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 21 and 22\nChoose TWO letters, A–E.\nWhich TWO parts of the introductory stage to their art projects do Jess and\nTom agree were useful?\nA. the Bird Park visit\nB. the workshop sessions\nC. the Natural History Museum visit\nD. the projects done in previous years\nE. the handouts with research sources",
+          "page": 9
+        },
+        {
+          "type": "text",
+          "text": "Questions 23 and 24\nChoose TWO letters, A–E.\nIn which TWO ways do both Jess and Tom decide to change their proposals?\nA. by giving a rationale for their action plans\nB. by being less specific about the outcome\nC. by adding a video diary presentation\nD. by providing a timeline and a mind map\nE. by making their notes more evaluative",
+          "page": 10
+        },
+        {
+          "type": "text",
+          "text": "Questions 25–30\nWhich personal meaning do the students decide to give to each of the following\npictures?\nChoose SIX answers from the box and write the correct letter, A–H, next to\nQuestions 25–30.\nPersonal meanings\nA. a childhood memory\nB. hope for the future\nC. fast movement\nD. a potential threat\nE. the power of colour\nF. the continuity of life\nG. protection of nature\nH. a confused attitude to nature\nPictures\n25. Falcon — Landseer __________\n26. Fish hawk — Audubon __________\n27. Kingfisher — van Gogh __________\n28. Portrait of William Wells __________\n29. Vairumati — Gauguin __________\n30. Portrait of Giovanni de Medici __________",
+          "page": 11
+        }
+      ],
+      "questions": [
+        {
+          "type": "multi",
+          "part": 3,
+          "numbers": [
+            21,
+            22
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO parts of the introductory stage to their art projects do Jess and Tom agree were useful?",
+          "translation": "",
+          "answers": [
+            "C",
+            "E"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "the Bird Park visit",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "the workshop sessions",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "the Natural History Museum visit",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "the projects done in previous years",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "the handouts with research sources",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 3,
+          "numbers": [
+            23,
+            24
+          ],
+          "prompt": "Choose TWO letters, A–E. In which TWO ways do both Jess and Tom decide to change their proposals?",
+          "translation": "",
+          "answers": [
+            "B",
+            "E"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "by giving a rationale for their action plans",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "by being less specific about the outcome",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "by adding a video diary presentation",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "by providing a timeline and a mind map",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "by making their notes more evaluative",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 25,
+          "prompt": "Falcon — Landseer",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "a childhood memory",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "hope for the future",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "fast movement",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "a potential threat",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "the power of colour",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "the continuity of life",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "protection of nature",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "a confused attitude to nature",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 26,
+          "prompt": "Fish hawk — Audubon",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "a childhood memory",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "hope for the future",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "fast movement",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "a potential threat",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "the power of colour",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "the continuity of life",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "protection of nature",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "a confused attitude to nature",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 27,
+          "prompt": "Kingfisher — van Gogh",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "a childhood memory",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "hope for the future",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "fast movement",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "a potential threat",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "the power of colour",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "the continuity of life",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "protection of nature",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "a confused attitude to nature",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 28,
+          "prompt": "Portrait of William Wells",
+          "translation": "",
+          "answer": "H",
+          "options": [
+            {
+              "key": "A",
+              "en": "a childhood memory",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "hope for the future",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "fast movement",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "a potential threat",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "the power of colour",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "the continuity of life",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "protection of nature",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "a confused attitude to nature",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 29,
+          "prompt": "Vairumati — Gauguin",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "a childhood memory",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "hope for the future",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "fast movement",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "a potential threat",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "the power of colour",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "the continuity of life",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "protection of nature",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "a confused attitude to nature",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 30,
+          "prompt": "Portrait of Giovanni de Medici",
+          "translation": "",
+          "answer": "G",
+          "options": [
+            {
+              "key": "A",
+              "en": "a childhood memory",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "hope for the future",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "fast movement",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "a potential threat",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "the power of colour",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "the continuity of life",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "protection of nature",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "a confused attitude to nature",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        13,
+        14
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 31–40\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nStoicism\nStoicism is still relevant today because of its 31 __________ appeal.\nAncient Stoics\n● Stoicism was founded over 2,000 years ago in Greece.\n● The Stoics’ ideas are surprisingly well known, despite not being intended\nfor 32 __________.\nStoic principles\n● Happiness could be achieved by leading a virtuous life.\n● Controlling emotions was essential.\n● Epictetus said that external events cannot be controlled but the 33\n__________ people make in response can be controlled.\n● A Stoic is someone who has a different view on experiences which others\nwould consider as 34 __________.",
+          "page": 13
+        },
+        {
+          "type": "text",
+          "text": "The influence of Stoicism\n● George Washington organised a 35 __________ about Cato to motivate\nhis men.\n● The French artist Delacroix was a Stoic.\n● Adam Smith’s ideas on 36 __________ were influenced by Stoicism.\n● Some of today’s political leaders are inspired by the Stoics.\n● Cognitive Behaviour Therapy, CBT:\n○ the treatment for 37 __________ is based on ideas from Stoicism\n○ people learn to base their thinking on 38 __________.\n● In business, people benefit from Stoicism by identifying obstacles as 39\n__________.\nRelevance of Stoicism\n● It requires a lot of 40 __________, but Stoicism can help people to lead\na good life.\n● It teaches people that having a strong character is more important than\nanything else.",
+          "page": 14
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 31,
+          "prompt": "Stoicism is still relevant today because of its 31 __________ appeal.",
+          "translation": "",
+          "answer": "practical",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 32,
+          "prompt": "for 32 __________.",
+          "translation": "",
+          "answer": "publication",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 33,
+          "prompt": "● Epictetus said that external events cannot be controlled but the 33 __________ people make in response can be controlled.",
+          "translation": "",
+          "answer": "choices",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 34,
+          "prompt": "would consider as 34 __________.",
+          "translation": "",
+          "answer": "negative",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 35,
+          "prompt": "● George Washington organised a 35 __________ about Cato to motivate",
+          "translation": "",
+          "answer": "play",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 36,
+          "prompt": "● Adam Smith’s ideas on 36 __________ were influenced by Stoicism.",
+          "translation": "",
+          "answer": "capitalism",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 37,
+          "prompt": "○ the treatment for 37 __________ is based on ideas from Stoicism",
+          "translation": "",
+          "answer": "depression",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 38,
+          "prompt": "○ people learn to base their thinking on 38 __________.",
+          "translation": "",
+          "answer": "logic",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 39,
+          "prompt": "● In business, people benefit from Stoicism by identifying obstacles as 39 __________.",
+          "translation": "",
+          "answer": "opportunity",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 40,
+          "prompt": "● It requires a lot of 40 __________, but Stoicism can help people to lead",
+          "translation": "",
+          "answer": "practice",
+          "alternatives": [
+            "practise"
+          ]
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "1": [
+      {
+        "en": "SARAH: Hello. Children’s Engineering Workshops.",
+        "zh": "Sarah：您好，這裡是 Children’s Engineering Workshops。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-001"
+      },
+      {
+        "en": "FATHER: Oh hello. I wanted some information about the workshops in the school holidays.",
+        "zh": "Father：哦，你好。我想了解一下學校假期期間工作坊的資訊。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-002"
+      },
+      {
+        "en": "SARAH: Sure.",
+        "zh": "Sarah：當然。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-003"
+      },
+      {
+        "en": "FATHER: I have two daughters who are interested.",
+        "zh": "Father：我有兩個女兒，她們都很感興趣。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-004"
+      },
+      {
+        "en": "The younger one’s Lydia, she’s four – do you take children as young as that?",
+        "zh": "小女兒叫 Lydia，她四歲了—— 你們收這麼小的孩子嗎？",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-005"
+      },
+      {
+        "en": "SARAH: Yes, our Tiny Engineers workshop is for four to five-year-olds.",
+        "zh": "Sarah：收的。我們的 Tiny Engineers 工作坊就是為 4 到 5 歲孩子設計的。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-006"
+      },
+      {
+        "en": "FATHER: What sorts of activities do they do?",
+        "zh": "Father：他們會做哪些活動呢？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-007"
+      },
+      {
+        "en": "SARAH: All sorts. For example, they work together to design a special cover that goes round an egg so that when it’s inside they can drop it from a height and it doesn’t break.",
+        "zh": "Sarah：各式各樣的活動都有。 例如，他們會一起設計一種特殊保護套，把雞蛋包在裡面， 這樣從高處掉下來時雞蛋就不會破。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-008"
+      },
+      {
+        "en": "Well, sometimes it does break but that’s part of the fun!",
+        "zh": "當然，有時候還是會破，不過那也是樂趣的一部分！",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-009"
+      },
+      {
+        "en": "FATHER: Right. And Lydia loves building things.",
+        "zh": "Father：明白。Lydia 很喜歡搭建東西。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-010"
+      },
+      {
+        "en": "Is there any opportunity for her to do that?",
+        "zh": "她有機會做這類活動嗎？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-011"
+      },
+      {
+        "en": "SARAH: Well, they have a competition to see who can make the highest tower.",
+        "zh": "Sarah：有的。他們會比賽，看誰能搭出最高的塔。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-012"
+      },
+      {
+        "en": "You’d be amazed how high they can go.",
+        "zh": "你會驚訝他們能搭得多高。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-013"
+      },
+      {
+        "en": "FATHER: Right.",
+        "zh": "Father：明白。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-014"
+      },
+      {
+        "en": "SARAH: But they’re learning all the time as well as having fun.",
+        "zh": "Sarah：不過他們在玩得開心的同時，也一直在學習。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-015"
+      },
+      {
+        "en": "For example, one thing they do is to design and build a car that’s attached to a balloon, and the force of the air in that actually powers the car and makes it move along.",
+        "zh": "例如，他們會設計並製作一輛連著氣球的小車，而氣球裡空氣的力量會推動小車前進。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-016"
+      },
+      {
+        "en": "They go really fast too.",
+        "zh": "而且小車跑得真的很快。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-017"
+      },
+      {
+        "en": "FATHER: OK, well, all this sounds perfect.",
+        "zh": "Father：好的，這些聽起來都很棒。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-018"
+      },
+      {
+        "en": "FATHER: Now Carly, that’s my older daughter, has just had her seventh birthday, so presumably she’d be in a different group?",
+        "zh": "Father：那 Carly，也就是我的大女兒，剛過七歲生日，所以她應該會在另一個組別吧？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-019"
+      },
+      {
+        "en": "SARAH: Yes, she’d be in the Junior Engineers.",
+        "zh": "Sarah：是的，她會參加 Junior Engineers。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-020"
+      },
+      {
+        "en": "That’s for children from six to eight.",
+        "zh": "那是為 6 到 8 歲孩子設計的。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-021"
+      },
+      {
+        "en": "FATHER: And do they do the same sorts of activities?",
+        "zh": "Father：他們做的活動也差不多嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-022"
+      },
+      {
+        "en": "SARAH: Some are the same, but a bit more advanced.",
+        "zh": "Sarah：有些相同，但會更進階一些。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-023"
+      },
+      {
+        "en": "So they work out how to build model vehicles, things like cars and trucks, but also how to construct animals using the same sorts of material and technique, and then they learn how they can program them and make them move.",
+        "zh": "他們會學習如何製作模型交通工具，例如汽車和卡車，也會用相同材料和技巧製作動物模型，然後學習如何為它們編程，讓它們動起來。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-024"
+      },
+      {
+        "en": "FATHER: So they learn a bit of coding?",
+        "zh": "Father：所以他們會學一點編程？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-025"
+      },
+      {
+        "en": "SARAH: They do. They pick it up really quickly.",
+        "zh": "Sarah：會的。而且他們學得很快。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-026"
+      },
+      {
+        "en": "We’re there to help if they need it, but they learn from one another too.",
+        "zh": "如果他們需要，我們會在旁協助，不過他們也會互相學習。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-027"
+      },
+      {
+        "en": "FATHER: Right. And do they have competitions too?",
+        "zh": "Father：明白。那他們也有比賽嗎？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-028"
+      },
+      {
+        "en": "SARAH: Yes, with the Junior Engineers, it’s to use recycled materials like card and wood to build a bridge, and the longest one gets a prize.",
+        "zh": "Sarah：有的。Junior Engineers 會使用卡紙和木頭等回收材料搭橋，最長的橋可以得獎。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-029"
+      },
+      {
+        "en": "FATHER: That sounds fun. I wouldn’t mind doing that myself!",
+        "zh": "Father：聽起來很有趣。我自己都想試試！",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-030"
+      },
+      {
+        "en": "SARAH: Then they have something a bit different, which is to think up an idea for a five-minute movie and then film it, using special animation software.",
+        "zh": "Sarah：接著他們還會做一個有點不同的活動，就是構思一部五分鐘短片，然後用特殊動畫軟體把它拍出來。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-031"
+      },
+      {
+        "en": "You’d be amazed what they come up with.",
+        "zh": "你會驚訝他們能想出什麼點子。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-032"
+      },
+      {
+        "en": "FATHER: And of course, that’s something they can put on their phone and take home to show all their friends.",
+        "zh": "Father：當然，他們可以把影片放到手機裡，帶回家給朋友看。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-033"
+      },
+      {
+        "en": "SARAH: Exactly. And then they also build a robot in the shape of a human, and they decorate it and program it so that it can move its arms and legs.",
+        "zh": "Sarah：沒錯。然後他們還會製作一個人形機器人，裝飾它並為它編程，讓它的手臂和腿能動。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-034"
+      },
+      {
+        "en": "FATHER: Perfect. So, is it the same price as the Tiny Engineers?",
+        "zh": "Father：太好了。那價格和 Tiny Engineers 一樣嗎？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-035"
+      },
+      {
+        "en": "SARAH: It’s just a bit more: £50 for the five weeks.",
+        "zh": "Sarah：只貴一點，五週 50 英鎊。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-036"
+      },
+      {
+        "en": "FATHER: And are the classes on a Monday, too?",
+        "zh": "Father：課程也是星期一嗎？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-037"
+      },
+      {
+        "en": "SARAH: They used to be, but we found it didn’t give our staff enough time to clear up after the first workshop, so we moved them to Wednesdays.",
+        "zh": "Sarah：以前是，但我們發現第一個工作坊結束後，工作人員沒有足夠時間清理，所以改到星期三了。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-038"
+      },
+      {
+        "en": "The classes are held in the morning from ten to eleven.",
+        "zh": "課程時間是上午 10 點到 11 點。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-039"
+      },
+      {
+        "en": "FATHER: OK. That’s better for me actually.",
+        "zh": "Father：好的。其實這對我更方便。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-040"
+      },
+      {
+        "en": "And what about the location? Where exactly are the workshops held?",
+        "zh": "那地點呢？工作坊具體在哪裡舉行？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-041"
+      },
+      {
+        "en": "SARAH: They’re in building 10A – there’s a big sign on the door, you can’t miss it, and that’s in Fradstone Industrial Estate.",
+        "zh": "Sarah：在 10A 大樓，門上有很大的標誌，你不會錯過。地點是在 Fradstone Industrial Estate。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-042"
+      },
+      {
+        "en": "FATHER: Sorry?",
+        "zh": "Father：抱歉，怎麼拼？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-043"
+      },
+      {
+        "en": "SARAH: Fradstone – that’s F-R-A-D-S-T-O-N-E.",
+        "zh": "Sarah：Fradstone，拼作 F-R-A-D-S-T-O-N-E。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-044"
+      },
+      {
+        "en": "FATHER: And that’s in Grasford, isn’t it?",
+        "zh": "Father：那是在 Grasford，對吧？",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-045"
+      },
+      {
+        "en": "SARAH: Yes, up past the station.",
+        "zh": "Sarah：是的，過了車站再往前。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-046"
+      },
+      {
+        "en": "FATHER: And will I have any parking problems there?",
+        "zh": "Father：那裡停車會有問題嗎？",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-047"
+      },
+      {
+        "en": "SARAH: No, there’s always plenty available.",
+        "zh": "Sarah：不會，那裡一直有很多停車位。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-048"
+      },
+      {
+        "en": "So would you like to enrol Lydia and Carly now?",
+        "zh": "那你現在要幫 Lydia 和 Carly 報名嗎？",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-049"
+      },
+      {
+        "en": "FATHER: OK.",
+        "zh": "Father：好的。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-050"
+      },
+      {
+        "en": "SARAH: So can I have your full name …",
+        "zh": "Sarah：那請問你的全名是……",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-051"
+      }
+    ],
+    "2": [
+      {
+        "en": "Good morning, everyone, and welcome to Stevenson’s, one of the country’s major manufacturers of metal goods.",
+        "zh": "各位早安，歡迎來到 Stevenson’s，這是本國主要的金屬製品製造商之一。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-001"
+      },
+      {
+        "en": "Thank you for choosing us for your two weeks of work experience.",
+        "zh": "感謝你們選擇來我們這裡進行兩週的工作體驗。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-002"
+      },
+      {
+        "en": "My name is Julia Simmons, and since the beginning of this year I’ve been the managing director.",
+        "zh": "我叫 Julia Simmons，從今年年初開始擔任董事總經理。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-003"
+      },
+      {
+        "en": "Stevenson’s is quite an old company.",
+        "zh": "Stevenson’s 是一家相當老牌的公司。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-004"
+      },
+      {
+        "en": "Like me, the founder, Ronald Stevenson, went into the steel industry when he left school – that was in 1923.",
+        "zh": "創辦人 Ronald Stevenson 和我一樣，離開學校後就進入鋼鐵業，那是在 1923 年。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-005"
+      },
+      {
+        "en": "He set up this company when he finished his apprenticeship, in 1926, although he actually started making plans two years earlier, in 1924.",
+        "zh": "他在 1926 年完成學徒訓練後創立了這家公司，雖然實際上他早在兩年前，也就是 1924 年，就開始規劃了。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-006"
+      },
+      {
+        "en": "He was a very determined young man!",
+        "zh": "他當時真是一位非常有決心的年輕人！",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-007"
+      },
+      {
+        "en": "Stevenson’s long-term plan was to manufacture components for the machine tools industry – although in fact that never came about – and for the automotive industry, that is, cars and lorries.",
+        "zh": "Stevenson’s 的長期計畫是為工具機產業製造零件，雖然那其實從未實現；另一個方向則是為汽車產業，也就是小汽車和卡車製造零件。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-008"
+      },
+      {
+        "en": "However, there was a delay of five years before that happened, because shortly before the company went into production, Stevenson was given the opportunity to make goods for hospitals and other players in the healthcare industry, so that’s what we did for the first five years.",
+        "zh": "不過，汽車產業的生產延後了五年，因為在公司投產前不久，Stevenson 得到機會為醫院和醫療保健產業的其他機構製造產品，所以公司最初五年做的是這方面業務。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-009"
+      },
+      {
+        "en": "Over the years, we’ve expanded the premises considerably – we were lucky that the site is big enough, so moving to a new location has never been necessary.",
+        "zh": "多年來，我們大幅擴建了廠區。幸運的是，這片場地足夠大，所以從未有必要搬到新地點。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-010"
+      },
+      {
+        "en": "However, the layout is far from ideal for modern machinery and production methods, so we intend to carry out major refurbishment of this site over the next five years.",
+        "zh": "不過，對現代機械和生產方式來說，這裡的布局遠非理想， 所以我們計畫在未來五年對這個廠區進行大規模翻修。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-011"
+      },
+      {
+        "en": "I’d better give you some idea of what you’ll be doing during your two weeks with us, so you know what to expect.",
+        "zh": "我最好先讓你們了解一下這兩週會做些什麼，這樣你們就知道會有哪些安排。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-012"
+      },
+      {
+        "en": "Most mornings you’ll have a presentation from one of the managers, to learn about their department, starting this morning with research and development.",
+        "zh": "大多數上午，你們會聽一位經理介紹自己的部門，從今天上午的研發部門開始。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-013"
+      },
+      {
+        "en": "And you’ll all spend some time in each department, observing what’s going on and talking to people – as long as you don’t stop them from doing their work altogether!",
+        "zh": "你們也會在每個部門待一段時間，觀察部門運作並和員工交流——只要不要完全妨礙他們工作就行！",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-014"
+      },
+      {
+        "en": "In the past, a teacher from your school has come in at the end of each week to find out how the group were getting on, but your school isn’t able to arrange that this year.",
+        "zh": "過去，你們學校每週末都會有老師來了解大家的情況，但今年學校無法安排。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-015"
+      },
+      {
+        "en": "OK, now I’ll briefly help you to orientate yourselves around the site.",
+        "zh": "好的，現在我會簡單幫你們熟悉一下廠區方位。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-016"
+      },
+      {
+        "en": "As you can see, we’re in the reception area, which we try to make attractive and welcoming to visitors.",
+        "zh": "如你們所見，我們現在在接待區，這裡我們盡量布置得有吸引力，也讓訪客感到受歡迎。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-017"
+      },
+      {
+        "en": "There’s a corridor running left from here, and if you go along that, the door facing you at the end is the entrance to the coffee room.",
+        "zh": "從這裡往左有一條走廊，沿著走廊走到盡頭，正對著你的那扇門就是咖啡室入口。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-018"
+      },
+      {
+        "en": "This looks out onto the main road on one side, and some trees on the other, and that’ll be where you meet each morning.",
+        "zh": "咖啡室一側面向主路，另一側可以看到一些樹木，你們每天早上會在那裡集合。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-019"
+      },
+      {
+        "en": "The factory is the very big room on the far side of the site.",
+        "zh": "工廠是場地遠端那個非常大的空間。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-020"
+      },
+      {
+        "en": "Next to it is the warehouse, which can be accessed by lorries going up the road to the turning area at the end.",
+        "zh": "旁邊是倉庫，卡車可以沿道路開到盡頭的轉彎區進入。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-021"
+      },
+      {
+        "en": "You can get to the warehouse by crossing to the far side of the courtyard, and then the door is on your right.",
+        "zh": "你們可以穿過庭院到另一側， 然後倉庫門就在右手邊。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-022"
+      },
+      {
+        "en": "Somewhere you’ll be keen to find is the staff canteen.",
+        "zh": "你們肯定會想知道員工餐廳在哪裡。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-023"
+      },
+      {
+        "en": "This is right next to reception.",
+        "zh": "它就在接待區旁邊。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-024"
+      },
+      {
+        "en": "I can confidently say that the food’s very good, but the view isn’t.",
+        "zh": "我可以很有信心地說，那裡食物很好，但景觀不怎麼樣。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-025"
+      },
+      {
+        "en": "The windows on one side look onto a corridor and courtyard, which aren’t very attractive at all, and on the other onto the access road, which isn’t much better.",
+        "zh": "一側窗戶看出去是走廊和庭院，完全不吸引人；另一側看出去是通道道路，也好不到哪裡去。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-026"
+      },
+      {
+        "en": "You’ll be using the meeting room quite often, and you’ll find it by walking along the corridor to the left of the courtyard, and continuing along it to the end.",
+        "zh": "你們會經常使用會議室。從庭院左側的走廊往前走，一直走到盡頭就能找到。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-027"
+      },
+      {
+        "en": "The meeting room is the last one on the right, and I’m afraid there’s no natural daylight in the room.",
+        "zh": "會議室是右手邊最後一間，很遺憾，裡面沒有自然光。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-028"
+      },
+      {
+        "en": "Then you’ll need to know where some of the offices are.",
+        "zh": "接著你們需要知道一些辦公室的位置。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-029"
+      },
+      {
+        "en": "The human resources department is at the front of this building, so you head to the left along the corridor from reception, and it’s the second room you come to.",
+        "zh": "人力資源部在這棟建築的前方，所以從接待區沿走廊往左走，第二間房就是。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-030"
+      },
+      {
+        "en": "It looks out onto the main road.",
+        "zh": "它面向主路。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-031"
+      },
+      {
+        "en": "And finally, the boardroom, where you’ll be meeting sometimes.",
+        "zh": "最後是董事會會議室，你們有時會在那裡開會。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-032"
+      },
+      {
+        "en": "That has quite a pleasant view, as it looks out on to the trees.",
+        "zh": "那間房景觀相當不錯，因為窗外可以看到樹木。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-033"
+      },
+      {
+        "en": "Go along the corridor past the courtyard, right to the end.",
+        "zh": "沿著走廊走，經過庭院，一直走到盡頭。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-034"
+      },
+      {
+        "en": "The boardroom is on the left, next to the factory.",
+        "zh": "董事會會議室在左手邊，緊鄰工廠。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-035"
+      },
+      {
+        "en": "OK, now are there any questions before we …",
+        "zh": "好的，在我們開始之前，有沒有任何問題……",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-036"
+      }
+    ],
+    "3": [
+      {
+        "en": "JESS: How are you getting on with your art project, Tom?",
+        "zh": "Jess：Tom，你的藝術專題進展如何？",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-001"
+      },
+      {
+        "en": "TOM: OK. Like, they gave us the theme of birds to base our project on, and I’m not really all that interested in wildlife.",
+        "zh": "Tom：還可以。老師給我們的主題是鳥，要以此作為專題基礎，但我其實對野生動物不是很感興趣。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-002"
+      },
+      {
+        "en": "But I’m starting to get into it.",
+        "zh": "不過我開始慢慢投入了。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-003"
+      },
+      {
+        "en": "I’ve pretty well finished the introductory stage.",
+        "zh": "我基本上已經完成了引入階段。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-004"
+      },
+      {
+        "en": "JESS: So have I.",
+        "zh": "Jess：我也是。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-005"
+      },
+      {
+        "en": "When they gave us all those handouts with details of books and websites to look at, I was really put off, but the more I read, the more interested I got.",
+        "zh": "當老師發給我們那些列著書籍和網站資料的講義時，我真的有點被嚇退，但我讀得越多，就越感興趣。",
+        "sourcePages": [
+          33,
+          34
+        ],
+        "id": "p3-row-006"
+      },
+      {
+        "en": "TOM: Me too. I found I could research so many different aspects of birds in art – colour, movement, texture.",
+        "zh": "Tom：我也是。我發現可以從藝術角度研究鳥的很多不同面向，例如色彩、動作和質感。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-007"
+      },
+      {
+        "en": "So I was looking forward to the Bird Park visit.",
+        "zh": "所以我原本很期待去 Bird Park 參觀。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-008"
+      },
+      {
+        "en": "JESS: What a letdown!",
+        "zh": "Jess：結果真讓人失望！",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-009"
+      },
+      {
+        "en": "It poured with rain and we hardly saw a single bird.",
+        "zh": "當天大雨傾盆，我們幾乎一隻鳥都沒看到。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-010"
+      },
+      {
+        "en": "Much less use than the trip to the Natural History Museum.",
+        "zh": "遠不如去 Natural History Museum 那次有用。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-011"
+      },
+      {
+        "en": "TOM: Yeah. I liked all the stuff about evolution there.",
+        "zh": "Tom：是啊。我很喜歡那裡關於演化的內容。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-012"
+      },
+      {
+        "en": "The workshop sessions with Dr Fletcher were good too, especially the brainstorming sessions.",
+        "zh": "Fletcher 博士的工作坊也不錯， 尤其是腦力激盪環節。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-013"
+      },
+      {
+        "en": "JESS: I missed those because I was ill.",
+        "zh": "Jess：我生病了，所以錯過了那些。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-014"
+      },
+      {
+        "en": "I wish we could’ve seen the projects last year’s students did.",
+        "zh": "我真希望我們能看到去年學生做的專題。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-015"
+      },
+      {
+        "en": "TOM: Mm. I suppose they want us to do our own thing, not copy.",
+        "zh": "Tom：嗯。我想老師希望我們做自己的東西，而不是模仿。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-016"
+      },
+      {
+        "en": "JESS: Have you drafted your proposal yet?",
+        "zh": "Jess：你的提案草稿寫好了嗎？",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-017"
+      },
+      {
+        "en": "TOM: Yes, but I haven’t handed it in.",
+        "zh": "Tom：寫好了，但還沒交。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-018"
+      },
+      {
+        "en": "I need to amend some parts.",
+        "zh": "我需要修改一些部分。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-019"
+      },
+      {
+        "en": "I’ve realised the notes from my research are almost all just descriptions.",
+        "zh": "我發現我的研究筆記幾乎全都是描述。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-020"
+      },
+      {
+        "en": "I haven’t actually evaluated anything. So I’ll have to fix that.",
+        "zh": "我其實沒有真正評估任何內容。 所以我得修改。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-021"
+      },
+      {
+        "en": "JESS: Oh, I didn’t know we had to do that.",
+        "zh": "Jess：哦，我不知道我們還得那樣做。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-022"
+      },
+      {
+        "en": "I’ll have to look at that too.",
+        "zh": "我也得檢查一下。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-023"
+      },
+      {
+        "en": "Did you do a timeline for the project?",
+        "zh": "你做了專題時間表嗎？",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-024"
+      },
+      {
+        "en": "TOM: Yes, and a mind map.",
+        "zh": "Tom：做了，還有心智圖。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-025"
+      },
+      {
+        "en": "JESS: Yeah, so did I. I quite enjoyed that.",
+        "zh": "Jess：嗯，我也做了。我還挺喜歡那部分。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-026"
+      },
+      {
+        "en": "But it was hard having to explain the basis for my decisions in my action plan.",
+        "zh": "但要在行動計畫裡解釋我做決定的依據，真的有點難。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-027"
+      },
+      {
+        "en": "TOM: What?",
+        "zh": "Tom：什麼意思？",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-028"
+      },
+      {
+        "en": "JESS: You know, give a rationale.",
+        "zh": "Jess：就是給出理由依據。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-029"
+      },
+      {
+        "en": "TOM: I didn’t realise we had to do that.",
+        "zh": "Tom：我不知道我們得做那個。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-030"
+      },
+      {
+        "en": "OK, I can add it now.",
+        "zh": "好，我現在可以補上。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-031"
+      },
+      {
+        "en": "And I’ve done the video diary presentation, and worked out what I want my outcome to be in the project.",
+        "zh": "我已經完成了影片日誌展示，也想好了專題的預期成果。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-032"
+      },
+      {
+        "en": "JESS: Someone told me it’s best not to be too precise about your actual outcome at this stage, so you have more scope to explore your ideas later on.",
+        "zh": "Jess：有人告訴我，在這個階段最好不要把實際成果寫得太精確， 這樣後面才有更多空間探索想法。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-033"
+      },
+      {
+        "en": "So I’m going to go back to my proposal to make it a bit more vague.",
+        "zh": "所以我打算回去把提案改得稍微模糊一點。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-034"
+      },
+      {
+        "en": "TOM: Really? OK, I’ll change that too then.",
+        "zh": "Tom：真的嗎？好，那我也改一下。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-035"
+      },
+      {
+        "en": "TOM: One part of the project I’m unsure about is where we choose some paintings of birds and say what they mean to us.",
+        "zh": "Tom：這個專題有一部分我不太確定，就是我們要選一些鳥類畫作，然後說明它們對我們的意義。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-036"
+      },
+      {
+        "en": "Like, I chose a painting of a falcon by Landseer.",
+        "zh": "例如，我選了 Landseer 畫的一幅獵鷹。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-037"
+      },
+      {
+        "en": "I like it because the bird’s standing there with his head turned to one side, but he seems to be staring straight at you.",
+        "zh": "我喜歡它，因為那隻鳥站在那裡，頭轉向一邊，但又好像正直直盯著你。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-038"
+      },
+      {
+        "en": "But I can’t just say it’s a bit scary, can I?",
+        "zh": "但我不能只是說它有點可怕，對吧？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-039"
+      },
+      {
+        "en": "JESS: You could talk about the possible danger suggested by the bird’s look.",
+        "zh": "Jess：你可以談談那隻鳥的眼神暗示的潛在危險。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-040"
+      },
+      {
+        "en": "TOM: Oh, OK.",
+        "zh": "Tom：哦，好的。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-041"
+      },
+      {
+        "en": "JESS: There’s a picture of a fish hawk by Audubon I like.",
+        "zh": "Jess：我喜歡 Audubon 的一幅魚鷹圖。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-042"
+      },
+      {
+        "en": "It’s swooping over the water with a fish in its talons, and with great black wings which take up most of the picture.",
+        "zh": "牠用爪子抓著一條魚，正掠過水面，巨大的黑色翅膀佔據了畫面大部分。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-043"
+      },
+      {
+        "en": "TOM: So you could discuss it in relation to predators and food chains?",
+        "zh": "Tom：所以你可以從掠食者和食物鏈的角度來討論？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-044"
+      },
+      {
+        "en": "JESS: Well actually I think I’ll concentrate on the impression of rapid motion it gives.",
+        "zh": "Jess：其實我想集中在它帶來的快速動作感。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-045"
+      },
+      {
+        "en": "TOM: Right.",
+        "zh": "Tom：明白。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-046"
+      },
+      {
+        "en": "JESS: Do you know that picture of a kingfisher by van Gogh – it’s perching on a reed growing near stream.",
+        "zh": "Jess：你知道 van Gogh 那幅翠鳥圖嗎？牠棲息在溪邊長出的蘆葦上。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-047"
+      },
+      {
+        "en": "TOM: Yes, it’s got these beautiful blue and red and black shades.",
+        "zh": "Tom：知道，裡面有漂亮的藍色、 紅色和黑色調。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-048"
+      },
+      {
+        "en": "JESS: Mm hm. I’ve actually chosen it because I saw a real kingfisher once when I was little, I was out walking with my grandfather, and I’ve never forgotten it.",
+        "zh": "Jess：嗯。我選它其實是因為我小時候曾經看過一隻真正的翠鳥。 當時我和祖父一起散步，我一直沒有忘記那一幕。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-049"
+      },
+      {
+        "en": "TOM: So we can use a personal link?",
+        "zh": "Tom：所以我們可以用個人連結來解讀？",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-050"
+      },
+      {
+        "en": "JESS: Sure.",
+        "zh": "Jess：當然。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-051"
+      },
+      {
+        "en": "TOM: OK. There’s a portrait called William Wells, I can’t remember the artist but it’s a middle-aged man who’s just shot a bird.",
+        "zh": "Tom：好。有一幅肖像畫叫 William Wells，我不記得畫家是誰，但畫中是一位剛射下一隻鳥的中年男子。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-052"
+      },
+      {
+        "en": "And his expression, and the way he’s holding the bird in his hand suggests he’s not sure about what he’s done.",
+        "zh": "他的表情，以及他手裡拿著鳥的方式，都暗示他不太確定自己剛做了什麼。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-053"
+      },
+      {
+        "en": "To me it’s about how ambiguous people are in the way they exploit the natural world.",
+        "zh": "對我來說，這幅畫是關於人類在利用自然世界時那種矛盾又混亂的態度。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-054"
+      },
+      {
+        "en": "JESS: Interesting. There’s Gauguin’s picture Vairumati.",
+        "zh": "Jess：很有意思。還有 Gauguin 的畫作 Vairumati。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-055"
+      },
+      {
+        "en": "He did it in Tahiti.",
+        "zh": "他是在 Tahiti 創作這幅畫的。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-056"
+      },
+      {
+        "en": "It’s a woman with a white bird behind her that is eating a lizard, and what I’m interested in is what idea this bird refers to.",
+        "zh": "畫中是一名女子，身後有一隻正在吃蜥蜴的白鳥，而我感興趣的是這隻鳥象徵什麼。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-057"
+      },
+      {
+        "en": "Apparently, it’s a reference to the never-ending cycle of existence.",
+        "zh": "顯然，它指的是永無止境的生命循環。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-058"
+      },
+      {
+        "en": "TOM: Wow. I chose a portrait of a little boy, Giovanni de Medici.",
+        "zh": "Tom：哇。我選了一幅小男孩 Giovanni de Medici 的肖像。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-059"
+      },
+      {
+        "en": "He’s holding a tiny bird in one fist.",
+        "zh": "他一隻手握著一隻小鳥。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-060"
+      },
+      {
+        "en": "I like the way he’s holding it carefully so he doesn’t hurt it.",
+        "zh": "我喜歡他小心握著牠的樣子，像是不想傷害牠。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-061"
+      },
+      {
+        "en": "JESS: Ah right.",
+        "zh": "Jess：啊，明白。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-062"
+      }
+    ],
+    "4": [
+      {
+        "en": "Ancient philosophy is not just about talking or lecturing, or even reading long, dense books.",
+        "zh": "古代哲學不只是談論、講授，甚至也不只是閱讀冗長艱深的書籍。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-001"
+      },
+      {
+        "en": "In fact, it is something people have used throughout history – to solve their problems and to achieve their greatest triumphs.",
+        "zh": "事實上，歷史上人們一直用它來解決問題，並取得最偉大的成就。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-002"
+      },
+      {
+        "en": "Specifically, I am referring to Stoicism, which, in my opinion, is the most practical of all philosophies and therefore the most appealing.",
+        "zh": "具體來說，我指的是 Stoicism；在我看來，它是所有哲學中最實用的一種，因此也最具吸引力。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-003"
+      },
+      {
+        "en": "Stoicism was founded in Ancient Greece by Zeno of Citium in the early 3rd century BC, but was practised by the likes of Epictetus, Cato, Seneca and Marcus Aurelius.",
+        "zh": "Stoicism 由 Citium 的 Zeno 於西元前 3 世紀初在古希臘創立，而 Epictetus、Cato、Seneca 和 Marcus Aurelius 等人都實踐過這種哲學。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-004"
+      },
+      {
+        "en": "Amazingly, we still have access to these ideas, despite the fact that the most famous Stoics never wrote anything down for publication.",
+        "zh": "令人驚訝的是，儘管最著名的 Stoics 從未為出版目的寫下任何內容，我們今天仍能接觸到這些思想。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-005"
+      },
+      {
+        "en": "Cato definitely didn’t.",
+        "zh": "Cato 肯定沒有。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-006"
+      },
+      {
+        "en": "Marcus Aurelius never intended his Meditations to be anything but personal.",
+        "zh": "Marcus Aurelius 從未打算讓他的 《Meditations》成為私人記錄以外的東西。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-007"
+      },
+      {
+        "en": "Seneca’s letters were, well, letters and Epictetus’ thoughts come to us by way of a note-taking student.",
+        "zh": "Seneca 的書信，嗯，就是書信；而 Epictetus 的思想則是透過一位做筆記的學生傳到我們這裡的。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-008"
+      },
+      {
+        "en": "Stoic principles were based on the idea that its followers could have an unshakable happiness in this life and the key to achieving this was virtue.",
+        "zh": "Stoic 原則建立在一個理念上：追隨者可以在此生獲得不可動搖的幸福，而實現這一點的關鍵是美德。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-009"
+      },
+      {
+        "en": "The road to virtue, in turn, lay in understanding that destructive emotions, like anger and jealousy, are under our conscious control – they don’t have to control us, because we can learn to control them.",
+        "zh": "通往美德的道路，則在於理解破壞性情緒，例如憤怒和嫉妒，是可以受我們有意識控制的；它們不必控制我們，因為我們可以學會控制它們。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-010"
+      },
+      {
+        "en": "In the words of Epictetus: “external events I cannot control, but the choices I make with regard to them, I do control”.",
+        "zh": "用 Epictetus 的話說：「外在事件我無法控制，但我可以控制自己對它們所做的選擇。」",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-011"
+      },
+      {
+        "en": "The modern day philosopher and writer Nassim Nicholas Taleb defines a Stoic as someone who has a different perspective on experiences which most of us would see as wholly negative.",
+        "zh": "現代哲學家兼作家 Nassim Nicholas Taleb 將 Stoic 定義為一種人：他們對大多數人視為完全負面的經歷有不同看法。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-012"
+      },
+      {
+        "en": "A Stoic “transforms fear into caution, pain into transformation, mistakes into initiation and desire into undertaking”.",
+        "zh": "Stoic 會「將恐懼轉化為謹慎，將痛苦轉化為蛻變，將錯誤轉化為啟程，將欲望轉化為行動」。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-013"
+      },
+      {
+        "en": "Using this definition as a model, we can see that throughout the centuries Stoicism has been practised in more recent history by kings, presidents, artists, writers and entrepreneurs.",
+        "zh": "以這個定義為模型，我們可以看到，幾個世紀以來，在較近代歷史中，國王、總統、藝術家、作家和企業家都曾實踐 Stoicism。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-014"
+      },
+      {
+        "en": "The founding fathers of the United States were inspired by the philosophy.",
+        "zh": "美國開國元勳們也受到這種哲學啟發。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-015"
+      },
+      {
+        "en": "George Washington was introduced to Stoicism by his neighbours at age seventeen, and later, put on a play based on the life of Cato to inspire his men.",
+        "zh": "George Washington 在 17 歲時由鄰居介紹接觸 Stoicism，後來還安排了一齣以 Cato 生平為基礎的戲劇來激勵他的士兵。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-016"
+      },
+      {
+        "en": "Thomas Jefferson kept a copy of Seneca beside his bed.",
+        "zh": "Thomas Jefferson 在床邊放著一本 Seneca 的作品。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-017"
+      },
+      {
+        "en": "Writers and artists have also been inspired by the Stoics.",
+        "zh": "作家和藝術家也受到 Stoics 啟發。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-018"
+      },
+      {
+        "en": "Eugène Delacroix, the renowned French Romantic artist known best for his painting Liberty Leading the People, was an ardent Stoic, referring to it as his “consoling religion”.",
+        "zh": "著名法國浪漫主義畫家 Eugène Delacroix 以《Liberty Leading the People》最為人所知，他是一位熱切的 Stoic，並稱 Stoicism 為他的 「安慰宗教」。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-019"
+      },
+      {
+        "en": "The economist Adam Smith’s theories on capitalism were significantly influenced by the Stoicism that he studied as a schoolboy, under a teacher who had translated Marcus Aurelius’ works.",
+        "zh": "經濟學家 Adam Smith 關於資本主義的理論，深受他學生時代所學 Stoicism 的影響；當時他的老師曾翻譯 Marcus Aurelius 的作品。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-020"
+      },
+      {
+        "en": "Today’s political leaders are no different, with many finding their inspiration from the ancient texts.",
+        "zh": "今天的政治領袖也不例外，許多人從古代文本中獲得靈感。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-021"
+      },
+      {
+        "en": "Former US president Bill Clinton rereads Marcus Aurelius every single year, and many have compared former President Obama’s calm leadership style to that of Cato.",
+        "zh": "美國前總統 Bill Clinton 每年都會重讀 Marcus Aurelius，而許多人也將前總統 Obama 冷靜的領導風格比作 Cato。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-022"
+      },
+      {
+        "en": "Wen Jiabao, the former prime minister of China, claims that Meditations is one of two books he travels with and that he has read it more than one hundred times over the course of his life.",
+        "zh": "中國前總理 Wen Jiabao 表示，《 Meditations》是他旅行時隨身攜帶的兩本書之一，而且他一生中已讀過一百多遍。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-023"
+      },
+      {
+        "en": "Stoicism had a profound influence on Albert Ellis, who invented Cognitive Behaviour Therapy, which is used to help people manage their problems by changing the way that they think and behave.",
+        "zh": "Stoicism 對 Albert Ellis 產生了深遠影響；他創立了認知行為療法，用來幫助人們透過改變思考和行為方式來管理問題。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-024"
+      },
+      {
+        "en": "It’s most commonly used to treat depression.",
+        "zh": "它最常用於治療憂鬱症。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-025"
+      },
+      {
+        "en": "The idea is that we can take control of our lives by challenging the irrational beliefs that create our faulty thinking, symptoms and behaviours by using logic instead.",
+        "zh": "其理念是，我們可以透過邏輯挑戰那些造成錯誤思維、症狀和行為的非理性信念，從而掌控自己的生活。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-026"
+      },
+      {
+        "en": "Stoicism has also become popular in the world of business.",
+        "zh": "Stoicism 在商業世界中也變得很受歡迎。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-027"
+      },
+      {
+        "en": "Stoic principles can build the resilience and state of mind required to overcome setbacks because Stoics teach turning obstacles into opportunity.",
+        "zh": "Stoic 原則能培養克服挫折所需的韌性和心態，因為 Stoics 教導人們把障礙轉化為機會。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-028"
+      },
+      {
+        "en": "A lesson every business entrepreneur needs to learn.",
+        "zh": "這是每一位企業家都需要學習的一課。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-029"
+      },
+      {
+        "en": "I would argue that studying Stoicism is as relevant today as it was 2,000 years ago, thanks to its brilliant insights into how to lead a good life.",
+        "zh": "我認為，研究 Stoicism 在今天和 2000 年前一樣具有現實意義，因為它對如何過上美好生活有深刻洞察。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-030"
+      },
+      {
+        "en": "At the very root of the thinking, there is a very simple way of living – control what you can and accept what you can’t.",
+        "zh": "在這種思想的根本處，有一種非常簡單的生活方式：控制你能控制的，接受你不能控制的。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-031"
+      },
+      {
+        "en": "This is not as easy as it sounds and will require considerable practice – it can take a lifetime to master.",
+        "zh": "這並不像聽起來那麼容易，而且需要大量練習；要真正掌握它， 可能需要一生。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-032"
+      },
+      {
+        "en": "The Stoics also believed the most important foundation for a good and happy life is not money, fame, power or pleasure, but having a disciplined and principled character – something which seems to resonate with many people today.",
+        "zh": "Stoics 也相信，美好而幸福人生最重要的基礎不是金錢、名聲、 權力或享樂，而是擁有自律且有原則的品格——這一點似乎至今仍能引起許多人的共鳴。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-033"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "answer": "egg",
+      "explanation": "題目寫： “Create a cover for an _____ so they can drop it from a height without breaking it.” 錄音說孩子會： “design a special cover that goes round an egg” 目的就是： “drop it from a height and it doesn’t break.” 所以答案是 egg。 題目前有 “an”，文法上也正好形成 an egg。",
+      "sourcePages": [
+        46
+      ]
+    },
+    "2": {
+      "answer": "tower",
+      "explanation": "題目寫： “Take part in a competition to build the tallest _____.” 錄音說： “they have a competition to see who can make the highest tower.” highest tower = tallest tower。 所以答案是 tower。",
+      "sourcePages": [
+        46
+      ]
+    },
+    "3": {
+      "answer": "car",
+      "explanation": "題目寫： “Make a _____ powered by a balloon.” 錄音說： “design and build a car that’s attached to a balloon” 而且氣球中的空氣： “powers the car and makes it move along.” 所以答案是 car。",
+      "sourcePages": [
+        47
+      ]
+    },
+    "4": {
+      "answer": "animals",
+      "explanation": "題目寫： “Build model cars, trucks and _____ and learn how to program them so they can move.” Sarah 說 Junior Engineers 會製作： “cars and trucks” 也會： “construct animals using the same sorts of material and technique” 之後再學 programming，使這些模型可以 move。 所以答案是 animals。",
+      "sourcePages": [
+        47
+      ]
+    },
+    "5": {
+      "answer": "bridge",
+      "explanation": "題目寫： “build the longest _____ using card and wood.” 錄音說： “use recycled materials like card and wood to build a bridge, and the longest one gets a prize.” 題目的 material 和 competition criterion 都完全吻合。 所以答案是 bridge。",
+      "sourcePages": [
+        48
+      ]
+    },
+    "6": {
+      "answer": "movie / film",
+      "explanation": "題目寫： “Create a short _____ with special software.” 錄音說： “think up an idea for a five-minute movie and then film it, using special animation software.” 所以孩子會利用動畫軟件製作短片。 答案可寫 movie 或 film。",
+      "sourcePages": [
+        48
+      ]
+    },
+    "7": {
+      "answer": "decorate",
+      "explanation": "題目寫： “Build, _____ and program a humanoid robot.” 錄音說： “they also build a robot in the shape of a human, and they decorate it and program it” 題目直接保留三個動作： build → decorate → program 所以答案是 decorate。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "8": {
+      "answer": "Wednesdays",
+      "explanation": "題目寫： “Held on: _____ from 10 a.m. to 11 a.m.” 父親先問： “are the classes on a Monday, too?” Sarah 說： “They used to be, but … we moved them to Wednesdays.” 所以 Monday 是舊安排，目前課堂改在 Wednesdays。 答案是 Wednesdays。 中伏位：used to be 是非常重要的修正訊號。題目問現行安排，要跟最後確認的 Wednesday。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "9": {
+      "answer": "Fradstone",
+      "explanation": "題目寫： “Building 10A, _____ Industrial Estate, Grasford” 錄音說： “that’s in Fradstone Industrial Estate.” Sarah 還特別拼字： “F-R-A-D-S-T-O-N-E.” 所以答案是 Fradstone。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "10": {
+      "answer": "parking",
+      "explanation": "題目寫： “Plenty of _____ is available.” 父親問： “will I have any parking problems there?” Sarah 回答： “No, there’s always plenty available.” 這裡省略的內容就是 parking。 因此： plenty of parking is available 答案是 parking。",
+      "sourcePages": [
+        50,
+        51
+      ]
+    },
+    "11": {
+      "answer": "C — 1926",
+      "explanation": "這題有三個年份連續出現，非常典型。 錄音說 Ronald Stevenson： ● 1923 — left school and entered the steel industry ● 1924 — started making plans ● 1926 — “He set up this company when he finished his apprenticeship” 題目問的是： “Stevenson’s was founded in…” set up the company = founded the company 所以真正的成立年份是 1926。 答案是 C。 中伏位：1923 和 1924 都屬於公司成立前的背景時間。要把每個年份貼上自己的事件標籤，不能只記住最先聽到的日期。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "12": {
+      "answer": "A — the healthcare industry",
+      "explanation": "題目問 Stevenson’s 最初實際生產產品給哪個產業。 錄音先提公司的 long-term plan： ● machine tools industry ● automotive industry 但 machine tools： “that never came about” automotive 則： “there was a delay of five years before that happened” 真正最初投入生產時，Stevenson 得到機會： “to make goods for hospitals and other players in the healthcare industry” 所以： “that’s what we did for the first five years.” 因此答案是 A — healthcare industry。 這題要分清楚： 原本計畫 ≠ 最初實際業務公司最早五年的真正客戶來自 healthcare。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "13": {
+      "answer": "B — The company has no plans to move",
+      "explanation": "錄音說多年來公司一直擴建現有 premises： “the site is big enough, so moving to a new location has never been necessary.” 雖然目前 layout 不太適合 modern machinery，但他們的計畫是： “carry out major refurbishment of this site over the next five years.” 所以公司會翻新現有廠區，沒有計畫搬遷。 答案是 B。 中伏位：聽到 major refurbishment 很容易誤以為會換新 premises； 實際上 refurbishment 明確指 this site。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "14": {
+      "answer": "C — talks by staff",
+      "explanation": "題目問 work experience programme 包含甚麼。 錄音說： “Most mornings you’ll have a presentation from one of the managers, to learn about their department.” manager 是公司 staff；presentation 就是 talk / briefing。 所以答案是 C — talks by staff。 中伏位：research and development 是當天介紹的 department 名稱，沒有說學生獲得時間自己做 research。Teacher visits 則是以前安排，今年學校無法提供。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "15": {
+      "answer": "H — coffee room",
+      "explanation": "錄音先建立起點： “As you can see, we’re in the reception area.” 所以所有方向都應該先從地圖右下方的 RECEPTION 開始。 接著說： “There’s a corridor running left from here” 也就是從 Reception 沿著前方建築底部的走廊一直向左。 最關鍵的一句是： “the door facing you at the end is the entrance to the coffee room.” 所以不是找「走廊左邊其中一間房」，而要一路走到走廊的最盡頭，找正面對著你的房間。 地圖上沿 Reception 向左走，會經過 J → I，最後走廊盡頭正對著的就是 H。 還有第二組線索可以驗證： “This looks out onto the main road on one side, and some trees on the other.” H 的南面正是 MAIN ROAD，西面又直接面向一排 trees，兩個景觀條件都完全符合。 因此： Reception → 向左 → 走廊盡頭 → 面向 Main Road + trees = H 答案是 H。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "16": {
+      "answer": "C — warehouse",
+      "explanation": "錄音先說： “The factory is the very big room on the far side of the site.” 地圖上方最大的一整塊區域就是 FACTORY。 接著： “Next to it is the warehouse” 所以 warehouse 必須非常靠近 factory。 但只靠 “next to factory” 還不夠，因為 A、B、C 都位於 factory 附近。真正把答案鎖定的是後面兩組資訊。 第一： “which can be accessed by lorries going up the road to the turning area at the end.” 地圖右邊有一條 ACCESS ROAD，上方還有明顯的車輛 turning area。C 正好就在這條 access road 旁第二： “You can get to the warehouse by crossing to the far side of the courtyard, and then the door is on your right.” 從 Reception 一帶穿過 Open Courtyard 往遠端走，到了 courtyard 另一邊後， warehouse 位於右側，即 C 所以完整定位鏈是： Factory 旁邊 + 靠 Access Road + lorry turning area + courtyard 遠端右側 = C 答案是 C。",
+      "sourcePages": [
+        55
+      ]
+    },
+    "17": {
+      "answer": "G — staff canteen",
+      "explanation": "這題最直接的定位句是： “This is right next to reception.” 地圖上 Reception 位於右下方，因此先找與 Reception 直接相鄰的房間。 G 就緊貼 Reception 上方，是最明顯的候選。 錄音隨後再提供窗外景觀： “The windows on one side look onto a corridor and courtyard … and on the other onto the access road.” 看看 G： ● 左側面向走廊及 Open Courtyard ● 右側面向 ACCESS ROAD 兩邊景觀與錄音完全吻合。 所以這題有三重確認： next to Reception + courtyard/corridor 一側 + access road 另一側 = G 答案是 G。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "18": {
+      "answer": "B — meeting room",
+      "explanation": "錄音說： “You’ll find it by walking along the corridor to the left of the courtyard, and continuing along it to the end.” 先看 Open Courtyard。它的左邊有一條南北方向的走廊。 沿著這條 corridor 往上走，右手邊依次會看到房間： E → B 接著最關鍵： “The meeting room is the last one on the right.” 既然 B 是這條走廊最上方、也是最後一間位於右側的房間，所以答案就是 B。 還有一個補充線索： “there’s no natural daylight in the room.” B 位於內部，四周被 Factory、其他 rooms 及 corridor 包圍，沒有直接面向 main road、trees 或 access road，因此「沒有 natural daylight」也很合理。 所以： courtyard 左側走廊 → 一直走到底 → 右邊最後一間 = B 答案是 B。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "19": {
+      "answer": "I — human resources",
+      "explanation": "錄音先說： “The human resources department is at the front of this building” 地圖中的 building front 可以由 MAIN ROAD 判斷：靠近 Main Road 的下方就是建築前方。 因此 HR 應該在底部一排 H / I / J 中。 接著說： “head to the left along the corridor from reception, and it’s the second room you come to.” 從 Reception 往左數： ● 第一間：J ● 第二間：I 所以 HR = I。 最後還有一句： “It looks out onto the main road.” I 的下方直接面向 MAIN ROAD，再次確認。 完整邏輯： front of building → Main Road 一側 → Reception 向左 → 第二間 → 面向 Main Road = I 答案是 I。 中伏位：J 很容易誤選，因為它也是 Reception 左邊的房間，但 J 是第一間；題目需要第二間。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "20": {
+      "answer": "A — boardroom",
+      "explanation": "錄音提供三組線索，而且要結合使用。 先說 boardroom 的景觀： “It has quite a pleasant view, as it looks out on to the trees.” 所以這個房間應該位於建築左邊外圍，因為地圖左側才有一整排 trees。 接著說： “Go along the corridor past the courtyard, right to the end.” 所以要沿走廊經過 Open Courtyard，一直走到遠端。 最後： “The boardroom is on the left, next to the factory.” 到了走廊遠端、靠近 Factory 的地方，候選主要是 A 和 B。 但 B 已經由 Q18 確認為 meeting room，而且 B 位於內側；A 則： ● 位於走廊左側 ● 緊鄰 Factory ● 外牆直接面向 trees 因此所有條件都落在 A。 完整定位： 走過 courtyard → 走到盡頭 → 左側 → factory 旁 → 面向 trees = A 答案是 A。",
+      "sourcePages": [
+        59,
+        60
+      ]
+    },
+    "21": {
+      "answer": "C and E",
+      "explanation": "題目問：introductory stage 中，Jess 和 Tom 兩人都認為有用的是哪兩項。 這裡控制詞是 agree，所以只有其中一個人喜歡還不夠。 C — the Natural History Museum visit Jess 對 Bird Park 評價很低： “What a letdown!” 並直接比較： “Much less use than the trip to the Natural History Museum.” Tom 回： “Yeah. I liked all the stuff about evolution there.” 所以兩人都肯定 Natural History Museum trip 的價值。 答案 C。 E — the handouts with research sources Jess 一開始看到 handouts 時有點抗拒： “I was really put off” 可是： “the more I read, the more interested I got.” Tom 馬上說： “Me too.” 並說這些資料讓他發現 birds in art 可以研究 colour、movement、texture 等不同方向。 所以 handouts 最終對兩人都很有幫助。 答案 E。 中伏位：workshops 對 Tom 有用，但 Jess 生病沒有參加，所以不能算兩人共同認同。Previous projects 他們根本沒有看到。",
+      "sourcePages": [
+        60,
+        61,
+        62
+      ]
+    },
+    "22": {
+      "answer": "C and E",
+      "explanation": "題目問：introductory stage 中，Jess 和 Tom 兩人都認為有用的是哪兩項。 這裡控制詞是 agree，所以只有其中一個人喜歡還不夠。 C — the Natural History Museum visit Jess 對 Bird Park 評價很低： “What a letdown!” 並直接比較： “Much less use than the trip to the Natural History Museum.” Tom 回： “Yeah. I liked all the stuff about evolution there.” 所以兩人都肯定 Natural History Museum trip 的價值。 答案 C。 E — the handouts with research sources Jess 一開始看到 handouts 時有點抗拒： “I was really put off” 可是： “the more I read, the more interested I got.” Tom 馬上說： “Me too.” 並說這些資料讓他發現 birds in art 可以研究 colour、movement、texture 等不同方向。 所以 handouts 最終對兩人都很有幫助。 答案 E。 中伏位：workshops 對 Tom 有用，但 Jess 生病沒有參加，所以不能算兩人共同認同。Previous projects 他們根本沒有看到。",
+      "sourcePages": [
+        60,
+        61,
+        62
+      ]
+    },
+    "23": {
+      "answer": "B and E",
+      "explanation": "題目問兩人都決定對 proposal 作哪些修改。 E — by making their notes more evaluative Tom 發現自己的 research notes： “are almost all just descriptions.” 問題是： “I haven’t actually evaluated anything.” 所以他決定修改。 Jess 聽完說： “I didn’t know we had to do that. I’ll have to look at that too.” 因此兩人都會加入 evaluation。 答案 E。 B — by being less specific about the outcome Jess 說有人建議： “it’s best not to be too precise about your actual outcome at this stage” 這樣之後： “you have more scope to explore your ideas” 所以她會： “make it a bit more vague.” Tom 回： “OK, I’ll change that too then.” 兩人都決定讓最終 outcome 保留更多彈性。 所以答案 B。 中伏位：A rationale 只需要 Tom 補上，Jess 已經做了。Timeline 和 mind map 兩人也都已完成，沒有需要修改。",
+      "sourcePages": [
+        62,
+        63,
+        64
+      ]
+    },
+    "24": {
+      "answer": "B and E",
+      "explanation": "題目問兩人都決定對 proposal 作哪些修改。 E — by making their notes more evaluative Tom 發現自己的 research notes： “are almost all just descriptions.” 問題是： “I haven’t actually evaluated anything.” 所以他決定修改。 Jess 聽完說： “I didn’t know we had to do that. I’ll have to look at that too.” 因此兩人都會加入 evaluation。 答案 E。 B — by being less specific about the outcome Jess 說有人建議： “it’s best not to be too precise about your actual outcome at this stage” 這樣之後： “you have more scope to explore your ideas” 所以她會： “make it a bit more vague.” Tom 回： “OK, I’ll change that too then.” 兩人都決定讓最終 outcome 保留更多彈性。 所以答案 B。 中伏位：A rationale 只需要 Tom 補上，Jess 已經做了。Timeline 和 mind map 兩人也都已完成，沒有需要修改。",
+      "sourcePages": [
+        62,
+        63,
+        64
+      ]
+    },
+    "25": {
+      "answer": "D — a potential threat",
+      "explanation": "畫作是 Landseer 的 Falcon。 Tom 說 falcon 雖然頭轉向一側： “he seems to be staring straight at you.” 他覺得： “it’s a bit scary” Jess 建議把這種感受提升成較適合作業的 personal meaning： “the possible danger suggested by the bird’s look.” possible danger = potential threat。 所以答案是 D。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "26": {
+      "answer": "C — fast movement",
+      "explanation": "畫作是 Audubon 的 Fish hawk。 Jess 描述 bird： “swooping over the water with a fish in its talons” Tom 原本建議從 predators / food chains 分析，但 Jess 最終決定： “I’ll concentrate on the impression of rapid motion it gives.” rapid motion = fast movement。 所以答案是 C。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "27": {
+      "answer": "A — a childhood memory",
+      "explanation": "畫作是 van Gogh 的 Kingfisher。 Jess 說自己選它的真正原因是： “I saw a real kingfisher once when I was little” 當時： “I was out walking with my grandfather” 而且： “I’ve never forgotten it.” 所以畫作勾起她童年和祖父散步時的一段記憶。 答案是 A。 中伏位：畫中的 colours 很漂亮，但 Jess 已明確說她選畫的原因來自 personal memory。",
+      "sourcePages": [
+        65
+      ]
+    },
+    "28": {
+      "answer": "H — a confused attitude to nature",
+      "explanation": "Portrait of William Wells 中，男子剛射下一隻鳥。 Tom 注意到： “his expression … suggests he’s not sure about what he’s done.” 他最後總結： “how ambiguous people are in the way they exploit the natural world.” ambiguous 在這裡表現出矛盾、不確定的態度。 所以答案是 H — a confused attitude to nature。",
+      "sourcePages": [
+        66
+      ]
+    },
+    "29": {
+      "answer": "F — the continuity of life",
+      "explanation": "畫作是 Gauguin 的 Vairumati。 Jess 說畫中的 white bird 正在吃 lizard，其象徵意義是： “the never-ending cycle of existence.” never-ending cycle of existence 就是生命不斷延續、循環。 所以答案是 F — the continuity of life。",
+      "sourcePages": [
+        66
+      ]
+    },
+    "30": {
+      "answer": "G — protection of nature",
+      "explanation": "Portrait of Giovanni de Medici 中，小男孩手中握著一隻小鳥。 Tom 說： “I like the way he’s holding it carefully so he doesn’t hurt it.” 核心在於小心保護弱小生物、不讓牠受傷。 因此 personal meaning 最符合： G — protection of nature",
+      "sourcePages": [
+        67,
+        68
+      ]
+    },
+    "31": {
+      "answer": "practical",
+      "explanation": "題目寫： “Stoicism is still relevant today because of its _____ appeal.” 講者一開始說古代哲學可以真正被人拿來： “solve their problems” 接著形容 Stoicism： “the most practical of all philosophies and therefore the most appealing.” 所以它的現代吸引力來自實際可運用性。 答案是 practical。",
+      "sourcePages": [
+        68
+      ]
+    },
+    "32": {
+      "answer": "publication",
+      "explanation": "題目寫： “The Stoics’ ideas are surprisingly well known, despite not being intended for _____.” 錄音說： “the most famous Stoics never wrote anything down for publication.” 例如 Marcus Aurelius 的 Meditations 本來只屬於 private writings，Epictetus 的思想則來自學生筆記。 所以答案是 publication。",
+      "sourcePages": [
+        68
+      ]
+    },
+    "33": {
+      "answer": "choices",
+      "explanation": "題目寫： “external events cannot be controlled but the _____ people make in response can be controlled.” Epictetus 的話是： “external events I cannot control, but the choices I make with regard to them, I do control.” 題目直接把第一人稱改成一般化的 people。 所以答案是 choices。 這也是 Stoicism 的核心： 外界事件未必由自己控制 → 回應方式可以由自己選擇",
+      "sourcePages": [
+        69
+      ]
+    },
+    "34": {
+      "answer": "negative",
+      "explanation": "題目寫： “A Stoic is someone who has a different view on experiences which others would consider as _____.” 錄音中 Taleb 的定義是： “experiences which most of us would see as wholly negative.” Stoic 會重新解讀這些經歷，例如： ● fear → caution ● pain → transformation ● mistakes → initiation 所以答案是 negative。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "35": {
+      "answer": "play",
+      "explanation": "題目寫： “George Washington organised a _____ about Cato to motivate his men.” 錄音說 Washington： “put on a play based on the life of Cato to inspire his men.” put on a play = organised / staged a play。 所以答案是 play。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "36": {
+      "answer": "capitalism",
+      "explanation": "題目寫： “Adam Smith’s ideas on _____ were influenced by Stoicism.” 錄音直接說： “Adam Smith’s theories on capitalism were significantly influenced by the Stoicism that he studied as a schoolboy.” 所以答案是 capitalism。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "37": {
+      "answer": "depression",
+      "explanation": "題目在 CBT 部分寫： “the treatment for _____ is based on ideas from Stoicism” 錄音說 Cognitive Behaviour Therapy： “It’s most commonly used to treat depression.” 而 CBT 的思想受到 Stoicism 深刻影響。 所以答案是 depression。",
+      "sourcePages": [
+        71
+      ]
+    },
+    "38": {
+      "answer": "logic",
+      "explanation": "題目寫： “people learn to base their thinking on _____.” 錄音解釋 CBT： “challenging the irrational beliefs that create our faulty thinking … by using logic instead.” 所以方法是用 logic 挑戰 irrational thinking。 答案是 logic。 這裡的轉換是： irrational beliefs → challenge them through logic → thinking becomes more rational",
+      "sourcePages": [
+        71
+      ]
+    },
+    "39": {
+      "answer": "opportunity",
+      "explanation": "題目寫： “In business, people benefit from Stoicism by identifying obstacles as _____.” 錄音說： “Stoics teach turning obstacles into opportunity.” 所以商業人士學習把 setback 或 obstacle 重新看作可利用的機會。 答案是 opportunity。 這題的重點在 Stoic 的「重新框架」思考：障礙本身沒有消失，但人可以改變對障礙的理解，再尋找可採取的行動。",
+      "sourcePages": [
+        72
+      ]
+    },
+    "40": {
+      "answer": "practice / practise",
+      "explanation": "題目寫： “It requires a lot of _____, but Stoicism can help people to lead a good life.” 錄音說 Stoic 的生活原則： “control what you can and accept what you can’t.” 接著提醒： “This is not as easy as it sounds and will require considerable practice – it can take a lifetime to master.” 所以掌握 Stoicism 需要長期、持續練習。 答案是 practice；官方答案亦接受 practise。 從英式英文文法來看，這裡位於 “a lot of _____” 後，屬於名詞位置，因此 practice 是最標準的寫法這題也帶出整段最後的重點：Stoicism 並非理解幾條原則就完成，它要求人在日常情境中反覆實踐 「控制可控制的事、接受無法控制的事」。因此講者才說真正掌握可能需要一生。",
+      "sourcePages": [
+        72
+      ]
+    }
+  },
+  "timings": {
+    "parts": {
+      "1": {
+        "duration": 340.9763125,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2016%20Part%201.mp3",
+        "audioSha256": "78c7d6efc59059af566be729fad37c061e8a18407debacd0480e1a3fac0f32a5",
+        "transcriptSha256": "7be4066383d9fe61deb0c8fc576a852044c00f3537399f0e473293a57b45f712",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9947,
+        "lines": [
+          {
+            "start": 34.6,
+            "end": 37.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 37.54,
+            "end": 43.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 44.0,
+            "end": 44.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 44.9,
+            "end": 46.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 47.86,
+            "end": 52.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 52.88,
+            "end": 58.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 58.88,
+            "end": 60.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 61.28,
+            "end": 73.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 74.02,
+            "end": 77.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 77.82,
+            "end": 80.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 82.06,
+            "end": 84.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 84.98,
+            "end": 89.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 90.1,
+            "end": 92.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 92.78,
+            "end": 93.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 93.7,
+            "end": 97.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 97.38,
+            "end": 109.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 109.92,
+            "end": 111.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 112.12,
+            "end": 115.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 162.42,
+            "end": 171.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 171.54,
+            "end": 174.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 175.24,
+            "end": 177.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 178.26,
+            "end": 180.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 181.08,
+            "end": 183.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 183.9,
+            "end": 201.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 201.66,
+            "end": 203.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 203.84,
+            "end": 206.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 207.02,
+            "end": 211.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 211.38,
+            "end": 215.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 215.6,
+            "end": 226.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 226.72,
+            "end": 229.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 230.26,
+            "end": 240.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 241.38,
+            "end": 243.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 243.8,
+            "end": 249.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 249.44,
+            "end": 259.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 260.26,
+            "end": 264.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 265.3,
+            "end": 268.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 269.32,
+            "end": 271.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 271.68,
+            "end": 280.86,
+            "coverage": 0.9528
+          },
+          {
+            "start": 281.62,
+            "end": 285.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 285.52,
+            "end": 288.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 288.3,
+            "end": 292.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 293.36,
+            "end": 301.08,
+            "coverage": 0.9778
+          },
+          {
+            "start": 301.82,
+            "end": 302.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 302.88,
+            "end": 312.74,
+            "coverage": 0.913
+          },
+          {
+            "start": 312.74,
+            "end": 315.86,
+            "coverage": 0.9583
+          },
+          {
+            "start": 316.12,
+            "end": 317.94,
+            "coverage": 0.8421
+          },
+          {
+            "start": 318.46,
+            "end": 320.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 321.1,
+            "end": 323.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 324.02,
+            "end": 327.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 327.48,
+            "end": 327.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 328.58,
+            "end": 330.2,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "2": {
+        "duration": 387.3436875,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2016%20Part%202.mp3",
+        "audioSha256": "8836f835b251a8259a598d9dcefcf4cf9f42393a7bd74c6ae3ac985b3405b92c",
+        "transcriptSha256": "9536cfc6f1aeec35ae0862eb7f82aedf86c3af1a1b6780c7f67304869fb5a29a",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 1.0,
+        "lines": [
+          {
+            "start": 50.96,
+            "end": 57.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 58.38,
+            "end": 61.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 62.46,
+            "end": 68.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 70.58,
+            "end": 72.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 73.02,
+            "end": 80.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 81.58,
+            "end": 92.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 92.9,
+            "end": 95.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 96.8,
+            "end": 109.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 109.66,
+            "end": 127.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 129.2,
+            "end": 139.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 141.04,
+            "end": 152.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 153.6,
+            "end": 160.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 161.62,
+            "end": 171.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 172.68,
+            "end": 182.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 183.42,
+            "end": 194.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 241.24,
+            "end": 246.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 247.3,
+            "end": 253.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 254.86,
+            "end": 263.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 264.16,
+            "end": 271.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 272.74,
+            "end": 277.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 278.26,
+            "end": 285.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 286.18,
+            "end": 292.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 293.8,
+            "end": 297.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.9,
+            "end": 299.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 300.58,
+            "end": 305.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 305.64,
+            "end": 316.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 317.7,
+            "end": 329.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 330.16,
+            "end": 337.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 338.34,
+            "end": 341.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 342.16,
+            "end": 352.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 353.06,
+            "end": 355.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 356.28,
+            "end": 359.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 360.62,
+            "end": 364.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 365.18,
+            "end": 368.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 369.46,
+            "end": 372.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 373.44,
+            "end": 376.54,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "3": {
+        "duration": 372.898,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2016%20Part%203.mp3",
+        "audioSha256": "06929197ad2cb7abc828eb41037c0ff367d1a1b183430fa624c301e5fe921a23",
+        "transcriptSha256": "616c813fae39cc9361572df3c2ad06ebbcb760792bfec05f3d9058a7ab7d8a78",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.991,
+        "lines": [
+          {
+            "start": 40.36,
+            "end": 43.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 43.78,
+            "end": 51.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 51.26,
+            "end": 53.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 54.32,
+            "end": 56.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 56.82,
+            "end": 57.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 58.28,
+            "end": 67.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 68.24,
+            "end": 75.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 76.48,
+            "end": 79.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 79.56,
+            "end": 80.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 81.38,
+            "end": 85.06,
+            "coverage": 0.9512
+          },
+          {
+            "start": 86.0,
+            "end": 88.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 89.3,
+            "end": 92.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 92.98,
+            "end": 98.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 99.14,
+            "end": 101.02,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 101.86,
+            "end": 105.0,
+            "coverage": 0.9796,
+            "refined": true
+          },
+          {
+            "start": 105.36,
+            "end": 108.88,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 109.6,
+            "end": 111.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 112.12,
+            "end": 114.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 114.82,
+            "end": 116.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 117.48,
+            "end": 121.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 122.56,
+            "end": 126.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 126.6,
+            "end": 128.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 129.48,
+            "end": 130.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 131.84,
+            "end": 134.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 134.6,
+            "end": 136.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 136.46,
+            "end": 139.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 140.02,
+            "end": 144.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 144.92,
+            "end": 145.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 145.56,
+            "end": 146.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 147.76,
+            "end": 149.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 150.26,
+            "end": 152.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 153.16,
+            "end": 159.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 159.72,
+            "end": 168.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 169.6,
+            "end": 173.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 173.8,
+            "end": 176.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 223.54,
+            "end": 230.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 230.74,
+            "end": 233.98,
+            "coverage": 0.8684
+          },
+          {
+            "start": 234.48,
+            "end": 241.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 242.3,
+            "end": 245.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 247.16,
+            "end": 251.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 252.34,
+            "end": 253.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 254.2,
+            "end": 257.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 258.54,
+            "end": 266.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 266.34,
+            "end": 270.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 271.34,
+            "end": 276.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 276.62,
+            "end": 276.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 277.48,
+            "end": 284.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 284.34,
+            "end": 288.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 289.28,
+            "end": 299.08,
+            "coverage": 0.9667
+          },
+          {
+            "start": 299.82,
+            "end": 301.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 302.12,
+            "end": 302.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 302.82,
+            "end": 311.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 312.56,
+            "end": 319.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 319.08,
+            "end": 325.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 326.24,
+            "end": 330.28,
+            "coverage": 0.8049
+          },
+          {
+            "start": 330.66,
+            "end": 332.08,
+            "coverage": 0.8
+          },
+          {
+            "start": 332.58,
+            "end": 342.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 342.82,
+            "end": 346.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 346.46,
+            "end": 352.1,
+            "coverage": 0.9783
+          },
+          {
+            "start": 352.58,
+            "end": 355.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 356.0,
+            "end": 359.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 360.3,
+            "end": 361.04,
+            "coverage": 0.7143,
+            "refined": true,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Window recognition captures the two-word reply (No right in ASR; Ah right in the source). Include both words before the narrator begins."
+          }
+        ]
+      },
+      "4": {
+        "duration": 432.5355,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2016%20Part%204.mp3",
+        "audioSha256": "638e368fc080740b2b7e753fc6cd5ae1a4d220a1f10b872ee4200610ec123ff9",
+        "transcriptSha256": "adce98c5d8623723761a2531356418a65d6b0550fb7935b8580980aba69e02e5",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9945,
+        "lines": [
+          {
+            "start": 71.36,
+            "end": 78.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 80.02,
+            "end": 89.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 90.16,
+            "end": 100.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 101.86,
+            "end": 115.3,
+            "coverage": 0.9848
+          },
+          {
+            "start": 116.4,
+            "end": 124.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 125.88,
+            "end": 127.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 127.98,
+            "end": 132.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 133.86,
+            "end": 142.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 143.82,
+            "end": 154.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 155.48,
+            "end": 172.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 173.08,
+            "end": 181.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 183.36,
+            "end": 196.96,
+            "coverage": 0.9933
+          },
+          {
+            "start": 198.62,
+            "end": 210.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 211.72,
+            "end": 226.26,
+            "coverage": 0.9934
+          },
+          {
+            "start": 231.78,
+            "end": 235.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 236.66,
+            "end": 247.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 248.26,
+            "end": 251.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 253.16,
+            "end": 257.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 258.44,
+            "end": 271.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 272.66,
+            "end": 286.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 287.56,
+            "end": 293.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 294.7,
+            "end": 306.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 308.3,
+            "end": 321.06,
+            "coverage": 0.92
+          },
+          {
+            "start": 322.12,
+            "end": 334.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 335.86,
+            "end": 338.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 339.46,
+            "end": 351.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 352.46,
+            "end": 356.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 357.2,
+            "end": 366.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 368.2,
+            "end": 371.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 372.36,
+            "end": 384.42,
+            "coverage": 0.9748
+          },
+          {
+            "start": 385.38,
+            "end": 394.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 395.2,
+            "end": 403.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 404.18,
+            "end": 422.84,
+            "coverage": 1.0
+          }
+        ]
+      }
+    },
+    "questions": {
+      "1": {
+        "part": 1,
+        "time": 61.28,
+        "line": 7,
+        "evidenceScore": 57.0
+      },
+      "2": {
+        "part": 1,
+        "time": 84.98,
+        "line": 11,
+        "evidenceScore": 70.0
+      },
+      "3": {
+        "part": 1,
+        "time": 97.38,
+        "line": 15,
+        "evidenceScore": 61.0
+      },
+      "4": {
+        "part": 1,
+        "time": 183.9,
+        "line": 23,
+        "evidenceScore": 75.0
+      },
+      "5": {
+        "part": 1,
+        "time": 215.6,
+        "line": 28,
+        "evidenceScore": 95.0
+      },
+      "6": {
+        "part": 1,
+        "time": 230.26,
+        "line": 30,
+        "evidenceScore": 94.0
+      },
+      "7": {
+        "part": 1,
+        "time": 249.44,
+        "line": 33,
+        "evidenceScore": 86.0
+      },
+      "8": {
+        "part": 1,
+        "time": 271.68,
+        "line": 37,
+        "evidenceScore": 33.92
+      },
+      "9": {
+        "part": 1,
+        "time": 293.36,
+        "line": 41,
+        "evidenceScore": 52.0
+      },
+      "10": {
+        "part": 1,
+        "time": 318.46,
+        "line": 46,
+        "evidenceScore": 52.0
+      },
+      "11": {
+        "part": 2,
+        "time": 81.58,
+        "line": 5,
+        "evidenceScore": 49.0
+      },
+      "12": {
+        "part": 2,
+        "time": 109.66,
+        "line": 8,
+        "evidenceScore": 61.0
+      },
+      "13": {
+        "part": 2,
+        "time": 129.2,
+        "line": 9,
+        "evidenceScore": 61.0
+      },
+      "14": {
+        "part": 2,
+        "time": 161.62,
+        "line": 12,
+        "evidenceScore": 81.0
+      },
+      "15": {
+        "part": 2,
+        "time": 264.16,
+        "line": 18,
+        "evidenceScore": 58.0
+      },
+      "16": {
+        "part": 2,
+        "time": 286.18,
+        "line": 21,
+        "evidenceScore": 86.0
+      },
+      "17": {
+        "part": 2,
+        "time": 305.64,
+        "line": 25,
+        "evidenceScore": 29.54
+      },
+      "18": {
+        "part": 2,
+        "time": 317.7,
+        "line": 26,
+        "evidenceScore": 87.0
+      },
+      "19": {
+        "part": 2,
+        "time": 342.16,
+        "line": 29,
+        "evidenceScore": 70.0
+      },
+      "20": {
+        "part": 2,
+        "time": 365.18,
+        "line": 33,
+        "evidenceScore": 47.0
+      },
+      "21": {
+        "part": 3,
+        "time": 86.0,
+        "line": 10,
+        "evidenceScore": 47.0
+      },
+      "22": {
+        "part": 3,
+        "time": 86.0,
+        "line": 10,
+        "evidenceScore": 47.0
+      },
+      "23": {
+        "part": 3,
+        "time": 159.72,
+        "line": 32,
+        "evidenceScore": 57.0
+      },
+      "24": {
+        "part": 3,
+        "time": 159.72,
+        "line": 32,
+        "evidenceScore": 57.0
+      },
+      "25": {
+        "part": 3,
+        "time": 247.16,
+        "line": 39,
+        "evidenceScore": 40.0
+      },
+      "26": {
+        "part": 3,
+        "time": 271.34,
+        "line": 44,
+        "evidenceScore": 49.0
+      },
+      "27": {
+        "part": 3,
+        "time": 289.28,
+        "line": 48,
+        "evidenceScore": 37.0
+      },
+      "28": {
+        "part": 3,
+        "time": 319.08,
+        "line": 53,
+        "evidenceScore": 55.0
+      },
+      "29": {
+        "part": 3,
+        "time": 342.82,
+        "line": 57,
+        "evidenceScore": 30.0
+      },
+      "30": {
+        "part": 3,
+        "time": 356.0,
+        "line": 60,
+        "evidenceScore": 48.0
+      },
+      "31": {
+        "part": 4,
+        "time": 90.16,
+        "line": 2,
+        "evidenceScore": 81.0
+      },
+      "32": {
+        "part": 4,
+        "time": 116.4,
+        "line": 4,
+        "evidenceScore": 75.0
+      },
+      "33": {
+        "part": 4,
+        "time": 173.08,
+        "line": 10,
+        "evidenceScore": 92.0
+      },
+      "34": {
+        "part": 4,
+        "time": 183.36,
+        "line": 11,
+        "evidenceScore": 68.0
+      },
+      "35": {
+        "part": 4,
+        "time": 236.66,
+        "line": 15,
+        "evidenceScore": 65.0
+      },
+      "36": {
+        "part": 4,
+        "time": 272.66,
+        "line": 19,
+        "evidenceScore": 115.0
+      },
+      "37": {
+        "part": 4,
+        "time": 335.86,
+        "line": 24,
+        "evidenceScore": 56.0
+      },
+      "38": {
+        "part": 4,
+        "time": 339.46,
+        "line": 25,
+        "evidenceScore": 63.69
+      },
+      "39": {
+        "part": 4,
+        "time": 357.2,
+        "line": 27,
+        "evidenceScore": 62.0
+      },
+      "40": {
+        "part": 4,
+        "time": 395.2,
+        "line": 31,
+        "evidenceScore": 105.0
+      }
+    }
+  }
+}

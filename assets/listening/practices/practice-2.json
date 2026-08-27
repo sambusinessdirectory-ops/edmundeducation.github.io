@@ -1,0 +1,4253 @@
+{
+  "schemaVersion": 1,
+  "practice": 2,
+  "title": "IELTS Listening Practice 2",
+  "source": {
+    "file": "IELTS Listening - Practice - 2.pdf",
+    "sha256": "14e9013e7b78f0db874d5c715dd239998f7a04fde7d7b13c95d1a65dd080ffe1",
+    "pageCount": 64,
+    "corrections": []
+  },
+  "parts": [
+    {
+      "part": 1,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        4,
+        5,
+        6
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Question 1-10\nComplete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nHelp for carers\nLocal councils can arrange practical support to help those caring for elderly people at\nhome.\nThis can give the carer:\n• time for other responsibilities\n• a 1 ___________________",
+          "page": 4
+        },
+        {
+          "type": "text",
+          "text": "Assessment of mother's needs\nThis may include discussion of:\n• how much 2 ___________________\nthe caring involves\n• what types of tasks are involved, e.g.\n− help with dressing\n− helping her have a 3 ___________________\n− shopping\n− helping with meals\n− dealing with 4 ___________________\n• any aspects of caring that are especially difficult, e.g.\n− loss of 5 ___________________\n− 6 ___________________ her\n− preventing a 7 ___________________",
+          "page": 5
+        },
+        {
+          "type": "text",
+          "text": "Types of support that may be offered to carers\n• transport costs, e.g. cost of a 8 ___________________\n• car-related costs, e.g. fuel and 9 ___________________\n• help with housework\n• help to reduce 10 ___________________",
+          "page": 6
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 1,
+          "prompt": "• a 1 ___________________",
+          "translation": "",
+          "answer": "Break",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 2,
+          "prompt": "• how much 2 ___________________",
+          "translation": "",
+          "answer": "Time",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 3,
+          "prompt": "− helping her have a 3 ___________________",
+          "translation": "",
+          "answer": "Shower",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 4,
+          "prompt": "− dealing with 4 ___________________",
+          "translation": "",
+          "answer": "Money",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 5,
+          "prompt": "− loss of 5 ___________________",
+          "translation": "",
+          "answer": "Memory",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 6,
+          "prompt": "− 6 ___________________ her",
+          "translation": "",
+          "answer": "Lifting",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 7,
+          "prompt": "− preventing a 7 ___________________",
+          "translation": "",
+          "answer": "Fall",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 8,
+          "prompt": "• transport costs, e.g. cost of a 8 ___________________",
+          "translation": "",
+          "answer": "Taxi",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 9,
+          "prompt": "• car-related costs, e.g. fuel and 9 ___________________",
+          "translation": "",
+          "answer": "Insurance",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 10,
+          "prompt": "• help to reduce 10 ___________________",
+          "translation": "",
+          "answer": "stress",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 11-16\nWhat is the role of the volunteers in each of the following activities?\nChoose SIX answers from the box and write the correct letter, A-I, next to\nQuestions 11-16.\nRole of volunteers\nA providing entertainment\nB providing publicity about a council service\nC contacting local businesses\nD giving advice to visitors\nE collecting feedback on events\nF selling tickets\nG introducing guest speakers at an event\nH encouraging cooperation between local organisations\nI helping people find their seats",
+          "page": 8
+        },
+        {
+          "type": "text",
+          "text": "Activities\n11 walking around the town centre ___________________\n12 helping at concerts ___________________\n13 getting involved with community groups ___________________\n14 helping with a magazine ___________________\n15 participating at lunches for retired people ___________________\n16 helping with the website ___________________",
+          "page": 9
+        },
+        {
+          "type": "text",
+          "text": "Questions 17-20\nChoose the correct letter, A, B or C.\n17 Which event requires the largest number of volunteers?\nA. the music festival\nB. the science festival\nC. the book festival\n18 What is the most important requirement for volunteers at the festivals?\nA. interpersonal skills\nB. personal interest in the event\nC. flexibility",
+          "page": 10
+        },
+        {
+          "type": "text",
+          "text": "19 New volunteers will start working in the week beginning\nA. 2 September.\nB. 9 September.\nC. 23 September.\n20 What is the next annual event for volunteers?\nA. a boat trip\nB. a barbecue\nC. a party",
+          "page": 11
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 11,
+          "prompt": "walking around the town centre",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "providing entertainment",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "providing publicity about a council service",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "contacting local businesses",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "giving advice to visitors",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "collecting feedback on events",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "selling tickets",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "introducing guest speakers at an event",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "encouraging cooperation between local organisations",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "helping people find their seats",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 12,
+          "prompt": "helping at concerts",
+          "translation": "",
+          "answer": "I",
+          "options": [
+            {
+              "key": "A",
+              "en": "providing entertainment",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "providing publicity about a council service",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "contacting local businesses",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "giving advice to visitors",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "collecting feedback on events",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "selling tickets",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "introducing guest speakers at an event",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "encouraging cooperation between local organisations",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "helping people find their seats",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 13,
+          "prompt": "getting involved with community groups",
+          "translation": "",
+          "answer": "H",
+          "options": [
+            {
+              "key": "A",
+              "en": "providing entertainment",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "providing publicity about a council service",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "contacting local businesses",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "giving advice to visitors",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "collecting feedback on events",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "selling tickets",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "introducing guest speakers at an event",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "encouraging cooperation between local organisations",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "helping people find their seats",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 14,
+          "prompt": "helping with a magazine",
+          "translation": "",
+          "answer": "E",
+          "options": [
+            {
+              "key": "A",
+              "en": "providing entertainment",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "providing publicity about a council service",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "contacting local businesses",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "giving advice to visitors",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "collecting feedback on events",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "selling tickets",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "introducing guest speakers at an event",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "encouraging cooperation between local organisations",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "helping people find their seats",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 15,
+          "prompt": "participating at lunches for retired people",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "providing entertainment",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "providing publicity about a council service",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "contacting local businesses",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "giving advice to visitors",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "collecting feedback on events",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "selling tickets",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "introducing guest speakers at an event",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "encouraging cooperation between local organisations",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "helping people find their seats",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 16,
+          "prompt": "helping with the website",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "providing entertainment",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "providing publicity about a council service",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "contacting local businesses",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "giving advice to visitors",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "collecting feedback on events",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "selling tickets",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "introducing guest speakers at an event",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "encouraging cooperation between local organisations",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "helping people find their seats",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 17,
+          "prompt": "Which event requires the largest number of volunteers?",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "the music festival",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "the science festival",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "the book festival",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 18,
+          "prompt": "What is the most important requirement for volunteers at the festivals?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "interpersonal skills",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "personal interest in the event",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "flexibility",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 19,
+          "prompt": "New volunteers will start working in the week beginning",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "2 September.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "9 September.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "23 September.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 20,
+          "prompt": "What is the next annual event for volunteers?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "a boat trip",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "a barbecue",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "a party",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 21-25\nWhat is Rosie and Colin's opinion about each of the following aspects of human\ngeography?\nChoose FIVE answers from the box and write the correct letter, A-G, next to\nQuestions 21-25.\nOpinions\nA The information given about this was too vague.\nB This may not be relevant to their course.\nC This will involve only a small number of statistics.\nD It will be easy to find facts about this.\nE The facts about this may not be reliable.\nF No useful research has been done on this.\nG The information provided about this was interesting.",
+          "page": 13
+        },
+        {
+          "type": "text",
+          "text": "Aspects of human geography\n21 Population ___________\n22 Health ___________\n23 Economies ___________\n24 Culture ___________\n25 Poverty ___________",
+          "page": 14
+        },
+        {
+          "type": "text",
+          "text": "Questions 26-30\nChoose the correct letter, A, B or C.\n26 Rosie says that in her own city the main problem is\nA. crime.\nB. housing.\nC. unemployment.\n27 What recent additions to the outskirts of their cities are both students happy\nabout?\nA. conference centres\nB. sports centres\nC. retail centres\n28 The students agree that developing disused industrial sites may\nA. have unexpected costs.\nB. damage the urban environment.\nC. destroy valuable historical buildings.",
+          "page": 15
+        },
+        {
+          "type": "text",
+          "text": "29 The students will mention Masdar City as an example of an attempt to\nachieve\nA. daily collections for waste recycling.\nB. sustainable energy use.\nC. free transport for everyone.\n30 When discussing the ecotown of Greenhill Abbots, Colin is uncertain about\nA. what its objectives were.\nB. why there was opposition to it.\nC. how much of it has actually been built.",
+          "page": 16
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 21,
+          "prompt": "Population",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "The information given about this was too vague.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "This may not be relevant to their course.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "This will involve only a small number of statistics.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "It will be easy to find facts about this.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "The facts about this may not be reliable.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "No useful research has been done on this.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "The information provided about this was interesting.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 22,
+          "prompt": "Health",
+          "translation": "",
+          "answer": "G",
+          "options": [
+            {
+              "key": "A",
+              "en": "The information given about this was too vague.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "This may not be relevant to their course.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "This will involve only a small number of statistics.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "It will be easy to find facts about this.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "The facts about this may not be reliable.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "No useful research has been done on this.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "The information provided about this was interesting.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 23,
+          "prompt": "Economies",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "The information given about this was too vague.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "This may not be relevant to their course.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "This will involve only a small number of statistics.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "It will be easy to find facts about this.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "The facts about this may not be reliable.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "No useful research has been done on this.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "The information provided about this was interesting.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 24,
+          "prompt": "Culture",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "The information given about this was too vague.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "This may not be relevant to their course.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "This will involve only a small number of statistics.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "It will be easy to find facts about this.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "The facts about this may not be reliable.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "No useful research has been done on this.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "The information provided about this was interesting.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 25,
+          "prompt": "Poverty",
+          "translation": "",
+          "answer": "E",
+          "options": [
+            {
+              "key": "A",
+              "en": "The information given about this was too vague.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "This may not be relevant to their course.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "This will involve only a small number of statistics.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "It will be easy to find facts about this.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "The facts about this may not be reliable.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "No useful research has been done on this.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "The information provided about this was interesting.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 26,
+          "prompt": "Rosie says that in her own city the main problem is",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "crime.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "housing.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "unemployment.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 27,
+          "prompt": "What recent additions to the outskirts of their cities are both students happy about?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "conference centres",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "sports centres",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "retail centres",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 28,
+          "prompt": "The students agree that developing disused industrial sites may",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "have unexpected costs.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "damage the urban environment.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "destroy valuable historical buildings.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 29,
+          "prompt": "The students will mention Masdar City as an example of an attempt to achieve",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "daily collections for waste recycling.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "sustainable energy use.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "free transport for everyone.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 30,
+          "prompt": "When discussing the ecotown of Greenhill Abbots, Colin is uncertain about",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "what its objectives were.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "why there was opposition to it.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "how much of it has actually been built.",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        18,
+        19
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 31–40\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nDeveloping food trends\n· The growth in interest in food fashions started with 31 _____________\nof food being shared on social media.\n· The UK food industry is constantly developing products which are new or\ndifferent.\n· Influencers on social media become 'ambassadors' for a brand.\n-Sales of 32 _____________ food brands have grown rapidly this way.\n· Supermarkets track demand for ingredients on social media.\n-Famous 33 _____________ are influential.",
+          "page": 18
+        },
+        {
+          "type": "text",
+          "text": "Marketing campaigns\n· The avocado:\n- 34 _____________ were invited to visit growers in South Africa.\n- Advertising focused on its 35 _____________ benefits.\n· Oat milk:\n- A Swedish brand's media campaign received publicity by upsetting\ncompetitors.\n- Promotion in the USA through 36 _____________ shops reduced the\nneed for advertising.\n- It appealed to consumers who are concerned about the 37 __________\n· Norwegian skrei:\n- has helped strengthen the 38 _____________ of Norwegian seafood.\nEthical concerns\n· Quinoa:\n- Its success led to an increase in its 39 _____________.\n- Overuse of resources resulted in poor quality 40 _____________.",
+          "page": 19
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 31,
+          "prompt": "· The growth in interest in food fashions started with 31 _____________",
+          "translation": "",
+          "answer": "Photographs",
+          "alternatives": [
+            "photos",
+            "pictures"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 32,
+          "prompt": "-Sales of 32 _____________ food brands have grown rapidly this way.",
+          "translation": "",
+          "answer": "Vegan",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 33,
+          "prompt": "-Famous 33 _____________ are influential.",
+          "translation": "",
+          "answer": "Cooks",
+          "alternatives": [
+            "chefs"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 34,
+          "prompt": "- 34 _____________ were invited to visit growers in South Africa.",
+          "translation": "",
+          "answer": "Reporters",
+          "alternatives": [
+            "Journalists"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 35,
+          "prompt": "- Advertising focused on its 35 _____________ benefits.",
+          "translation": "",
+          "answer": "Health",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 36,
+          "prompt": "- Promotion in the USA through 36 _____________ shops reduced the",
+          "translation": "",
+          "answer": "Coffee",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 37,
+          "prompt": "- It appealed to consumers who are concerned about the 37 __________",
+          "translation": "",
+          "answer": "Environment",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 38,
+          "prompt": "- has helped strengthen the 38 _____________ of Norwegian seafood.",
+          "translation": "",
+          "answer": "Reputation",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 39,
+          "prompt": "- Its success led to an increase in its 39 _____________.",
+          "translation": "",
+          "answer": "Price",
+          "alternatives": [
+            "cost"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 40,
+          "prompt": "- Overuse of resources resulted in poor quality 40 _____________.",
+          "translation": "",
+          "answer": "Soil",
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "1": [
+      {
+        "en": "You will hear a woman who is caring for her elderly mother talking to a friend.",
+        "zh": "你會聽到一位正在照顧年邁母親的女士和朋友交談。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-001"
+      },
+      {
+        "en": "First, you have some time to look at questions 1 to 4.",
+        "zh": "首先，你有一些時間閱讀第 1 至 4 題。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-002"
+      },
+      {
+        "en": "Now listen carefully and answer questions 1 to 4.",
+        "zh": "現在請仔細聆聽，回答第 1 至 4 題。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-003"
+      },
+      {
+        "en": "CAROL: It's really good to see you, Tom.",
+        "zh": "Carol：見到你真的很高興， Tom。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-004"
+      },
+      {
+        "en": "Since I had to give up work, I feel I'm losing touch with my friends and colleagues.",
+        "zh": "自從我不得不辭去工作後，我覺得自己正逐漸和朋友及同事失去聯繫。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-005"
+      },
+      {
+        "en": "TOM: We really miss you in the office – we were all so sorry you had to leave.",
+        "zh": "Tom：辦公室裡大家都很想念你——你不得不離開，我們都覺得很難過。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-006"
+      },
+      {
+        "en": "But you must be relieved to have more time to look after your mother. How is she?",
+        "zh": "不過你現在有更多時間照顧你母親，應該也鬆了一口氣吧。 她怎麼樣？",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-007"
+      },
+      {
+        "en": "CAROL: Well, she's very cheerful but she needs a lot of help.",
+        "zh": "Carol：嗯，她很開朗，但她需要很多幫助。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-008"
+      },
+      {
+        "en": "TOM: Have you tried to get any support from the local council?",
+        "zh": "Tom：你有試著向地方議會尋求支援嗎？",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-009"
+      },
+      {
+        "en": "CAROL: No. I didn't know I could.",
+        "zh": "Carol：沒有。我不知道可以這樣做。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-010"
+      },
+      {
+        "en": "TOM: Yes, they offer different kinds of practical support.",
+        "zh": "Tom：可以的，他們提供各種實際支援。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-011"
+      },
+      {
+        "en": "They realise that carers sometimes need time for all the other responsibilities they have apart from the person they're caring for, and also that they sometimes need a break.",
+        "zh": "他們了解照顧者除了照顧對象之外，還有其他責任需要時間處理，而且有時也需要休息一下。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-012"
+      },
+      {
+        "en": "CAROL: Absolutely. OK, so tell me more. How do I go about getting this support?",
+        "zh": "Carol：完全沒錯。好，那你再跟我說說。我該怎麼申請這些支援呢？",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-013"
+      },
+      {
+        "en": "TOM: Well, you'd have to have an assessment of your mother's needs.",
+        "zh": "Tom：嗯，你需要先讓人評估你母親的需求。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-014"
+      },
+      {
+        "en": "That means someone would come round and talk to you about the situation and what you need.",
+        "zh": "也就是會有人到你家，和你談談目前的情況以及你需要什麼。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-015"
+      },
+      {
+        "en": "So for a start they'd want to know the amount of time you spend looking after your mother every day.",
+        "zh": "首先，他們會想知道你每天花多少時間照顧你母親。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-016"
+      },
+      {
+        "en": "CAROL: OK.",
+        "zh": "Carol：好的。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-017"
+      },
+      {
+        "en": "TOM: Then they'll probably ask you what sorts of tasks you do for your mother during the day.",
+        "zh": "Tom：然後他們可能會問你白天都為你母親做哪些事情。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-018"
+      },
+      {
+        "en": "Things like if she needs help with getting dressed, for example.",
+        "zh": "例如，她是否需要別人幫忙穿衣服。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-019"
+      },
+      {
+        "en": "CAROL: Right. I help her with that, and also I help her get into the shower in the morning.",
+        "zh": "Carol：對。我會幫她穿衣服， 也會在早上幫她進浴室洗澡。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-020"
+      },
+      {
+        "en": "TOM: Yes, that sort of thing.",
+        "zh": "Tom：是的，就是這類事情。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-021"
+      },
+      {
+        "en": "They'll probably ask you if you do the shopping for her, and help her at mealtimes.",
+        "zh": "他們可能也會問你是否替她購物，以及是否在用餐時幫助她。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-022"
+      },
+      {
+        "en": "And whether she can cope using money.",
+        "zh": "還有她是否能自己處理用錢的事情。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-023"
+      },
+      {
+        "en": "CAROL: Yes, that's becoming a bit of a problem.",
+        "zh": "Carol：是的，這正在變成一個小問題。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-024"
+      },
+      {
+        "en": "She used to be very good at it, but not any more.",
+        "zh": "她以前很擅長處理這些事，但現在不行了。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-025"
+      },
+      {
+        "en": "Before you hear the rest of the conversation, you have some time to look at questions 5 to 10.",
+        "zh": "在你聽接下來的對話之前，你有一些時間閱讀第 5 至 10 題。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-026"
+      },
+      {
+        "en": "Now listen and answer questions 5 to 10.",
+        "zh": "現在請聆聽並回答第 5 至 10 題。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-027"
+      },
+      {
+        "en": "TOM: And be ready to tell them about anything you find particularly difficult about caring for your mother.",
+        "zh": "Tom：你也要準備好告訴他們，在照顧你母親時有哪些事情讓你特別覺得困難。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-028"
+      },
+      {
+        "en": "CAROL: So recently I've noticed she's started to have quite bad problems with her memory … if I wasn't there, I think she'd forget to eat, for example.",
+        "zh": "Carol：最近我注意到她的記憶力開始出現相當嚴重的問題 ……例如，如果我不在，她可能會忘記吃飯。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-029"
+      },
+      {
+        "en": "And often she doesn't seem quite sure what day it is.",
+        "zh": "而且她經常似乎不太確定今天是星期幾。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-030"
+      },
+      {
+        "en": "TOM: Yes, tell them about that. And are there any physical difficulties you have caring for her? Lifting her, for example?",
+        "zh": "Tom：是的，把這些告訴他們。 那你在照顧她時，有沒有遇到身體上的困難？例如扶她起身之類的？",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-031"
+      },
+      {
+        "en": "CAROL: Yes. She's quite heavy, and I'm afraid of hurting my back – I'd be in real trouble if that happened.",
+        "zh": "Carol：有。她挺重的，我擔心會傷到背——如果真的那樣， 我就麻煩大了。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-032"
+      },
+      {
+        "en": "TOM: They can give you advice about that, and also about how to avoid the possibility of your mum having a fall.",
+        "zh": "Tom：他們可以就這方面給你建議，也可以告訴你如何避免你媽媽跌倒。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-033"
+      },
+      {
+        "en": "CAROL: Great. So once they've done this assessment, if I'm eligible, what happens next?",
+        "zh": "Carol：太好了。那麼，一旦他們完成評估，如果我符合資格，接下來會怎樣？",
+        "sourcePages": [
+          30
+        ],
+        "id": "p1-row-034"
+      },
+      {
+        "en": "TOM: Well, they might support you financially.",
+        "zh": "Tom：嗯，他們可能會給你經濟上的支援。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p1-row-035"
+      },
+      {
+        "en": "So they might help you with transport costs, like if you have to get a taxi to take your mother for an appointment, for example.",
+        "zh": "例如，如果你必須叫計程車帶你母親去赴約，他們可能會幫你支付交通費。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p1-row-036"
+      },
+      {
+        "en": "CAROL: I usually drive her myself actually. So could I claim for the petrol?",
+        "zh": "Carol：其實我通常都是自己開車送她。那我可以申請汽油費補助嗎？",
+        "sourcePages": [
+          30
+        ],
+        "id": "p1-row-037"
+      },
+      {
+        "en": "TOM: You could, and you can claim for the insurance too.",
+        "zh": "Tom：可以，而且你也可以申請保險費補助。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p1-row-038"
+      },
+      {
+        "en": "CAROL: Oh, right.",
+        "zh": "Carol：哦，好的。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p1-row-039"
+      },
+      {
+        "en": "TOM: And if you need help with the housework, they can arrange for someone to come along once or twice a week.",
+        "zh": "Tom：如果你需要有人幫忙做家務，他們可以安排人每週來一兩次。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p1-row-040"
+      },
+      {
+        "en": "And one other thing, I hope you don't mind me saying this, but it's important you look after yourself, and it seems to me you're under quite a bit of stress.",
+        "zh": "還有一件事，希望你不介意我這麼說，但你也要好好照顧自己，這很重要。我看得出來你承受了不少壓力。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p1-row-041"
+      },
+      {
+        "en": "CAROL: I am, yes.",
+        "zh": "Carol：是的，確實如此。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p1-row-042"
+      },
+      {
+        "en": "TOM: Well, tell the council, because they may be able to give you some advice on how to minimise it.",
+        "zh": "Tom：那就告訴議會吧，因為他們也許能給你一些建議，幫你減輕壓力。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p1-row-043"
+      },
+      {
+        "en": "CAROL: Really? Though actually I feel so much better having talked to you.",
+        "zh": "Carol：真的嗎？不過其實跟你談過之後，我已經覺得好多了。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p1-row-044"
+      },
+      {
+        "en": "I'll get in touch with the council straight away. Now shall we …",
+        "zh": "我會馬上聯絡議會。現在我們是不是……",
+        "sourcePages": [
+          31
+        ],
+        "id": "p1-row-045"
+      },
+      {
+        "en": "That is the end of Part 1. You now have one minute to check your answers to Part 1.",
+        "zh": "第一部分到此結束。你現在有一分鐘時間檢查第一部分的答案。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p1-row-046"
+      }
+    ],
+    "2": [
+      {
+        "en": "You will hear a man who works for Elmley Town Council talking to some people who want to join the small town's volunteer scheme.",
+        "zh": "你會聽到一位在 Elmley 鎮議會工作的人，正在和一些想加入這個小鎮志工計畫的人談話。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-001"
+      },
+      {
+        "en": "First, you have some time to look at questions 11 to 16.",
+        "zh": "首先，你有一些時間閱讀第 11 至 16 題。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-002"
+      },
+      {
+        "en": "Now listen carefully and answer questions 11 to 16.",
+        "zh": "現在請仔細聆聽，回答第 11 至 16 題。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-003"
+      },
+      {
+        "en": "Good morning everyone. I'm Steve Wainwright, from Elmleigh Town Council, and I organise the town's volunteer scheme.",
+        "zh": "大家早安。我是 Steve Wainwright，來自 Elmleigh 鎮議會，負責組織鎮上的志工計畫。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-004"
+      },
+      {
+        "en": "I'm delighted you're all interested in joining the scheme.",
+        "zh": "我很高興你們都對加入這個計畫感興趣。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-005"
+      },
+      {
+        "en": "Our volunteers help to create a sense of community among the many people who live in our historic town of Elmleigh, and make residents and visitors feel welcome at local events.",
+        "zh": "我們的志工幫助生活在歷史悠久的 Elmleigh 鎮上的居民建立社區歸屬感，也讓居民和遊客在當地活動中感到受歡迎。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-006"
+      },
+      {
+        "en": "First I'll mention just a few of the activities that volunteers carry out.",
+        "zh": "首先，我會簡單介紹幾項志工會做的活動。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-007"
+      },
+      {
+        "en": "One is to walk around the town centre streets wearing our volunteer T-shirt.",
+        "zh": "其中一項是在鎮中心的街道上穿著我們的志工 T 恤巡走。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-008"
+      },
+      {
+        "en": "Tourists often ask how to get to a particular shop, and they might also be grateful for recommendations about what to visit.",
+        "zh": "遊客常常會詢問某家商店怎麼走，也可能會很感謝有人推薦值得參觀的地方。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-009"
+      },
+      {
+        "en": "The town holds a large number of concerts each year, and part of the volunteers' role is to get everyone in the audience to the right place as smoothly as possible.",
+        "zh": "這個小鎮每年舉辦許多音樂會，志工的部分工作是盡可能順利地把觀眾帶到正確的位置。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-010"
+      },
+      {
+        "en": "You'd be surprised how many people buy tickets then don't check them, and head for the wrong section of the hall!",
+        "zh": "你會驚訝地發現，有很多人買了票卻沒有檢查，結果走到音樂廳錯誤的區域！",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-011"
+      },
+      {
+        "en": "Volunteers may get involved with community groups, such as sports clubs or gardeners' associations.",
+        "zh": "志工也可能參與社區團體的工作，例如運動俱樂部或園藝協會。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-012"
+      },
+      {
+        "en": "Here the volunteers talk about how groups can help each other.",
+        "zh": "在這方面，志工會和各團體討論它們如何互相幫助。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-013"
+      },
+      {
+        "en": "For instance, a writing group might want to travel to another town to hear a talk by a well-known author, but may not know that another club has a coach they could travel in.",
+        "zh": "例如，一個寫作小組可能想去另一個城鎮聽知名作家的演講，但可能不知道另一個俱樂部有一輛他們可以搭乘的巴士。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-014"
+      },
+      {
+        "en": "The town produces a monthly magazine, and anyone who lives in the town can send in articles.",
+        "zh": "這個小鎮會出版一本月刊，住在鎮上的任何人都可以投稿。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-015"
+      },
+      {
+        "en": "It's free to residents, and is paid for by local businesses – that's the responsibility of the council's advertising department.",
+        "zh": "這本雜誌對居民免費，由當地商家支付費用——這是議會廣告部門負責的事。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-016"
+      },
+      {
+        "en": "We depend on volunteers, though, to find out what people think of events they've attended, and any suggestions they have for the future.",
+        "zh": "不過，我們需要依靠志工去了解人們對參加過的活動有什麼看法，以及他們對未來有什麼建議。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-017"
+      },
+      {
+        "en": "The volunteers then send a summary to the editors.",
+        "zh": "然後志工會把摘要送給編輯。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-018"
+      },
+      {
+        "en": "There are a number of clubs for retired people, and every year, the council arranges lunch for all the members.",
+        "zh": "這裡有一些退休人士俱樂部， 每年議會都會為所有會員安排午餐。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-019"
+      },
+      {
+        "en": "The volunteers welcome the guests, and when everyone's sitting down and relaxing after the meal, some volunteers put on a show – usually around half an hour of songs and short plays.",
+        "zh": "志工會迎接賓客，等大家用餐後坐下來放鬆時，一些志工會表演節目——通常是大約半小時的歌曲和短劇。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-020"
+      },
+      {
+        "en": "The club members really welcome the chance to chat to the volunteers at these events.",
+        "zh": "俱樂部會員非常歡迎在這些活動中和志工聊天的機會。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-021"
+      },
+      {
+        "en": "The town council has a website, of course, and volunteers are asked to help by making sure residents know about it.",
+        "zh": "當然，鎮議會有一個網站，志工需要協助確保居民知道這個網站。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-022"
+      },
+      {
+        "en": "It's updated every day with information about future activities, and we want as many people as possible to use it.",
+        "zh": "網站每天都會更新未來活動的資訊，我們希望盡可能多的人使用它。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-023"
+      },
+      {
+        "en": "Before you hear the rest of the talk, you have some time to look at questions 17 to 20.",
+        "zh": "在你聽接下來的演講之前，你有一些時間閱讀第 17 至 20 題。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p2-row-024"
+      },
+      {
+        "en": "Now listen and answer questions 17 to 20.",
+        "zh": "現在請聆聽並回答第 17 至 20 題。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p2-row-025"
+      },
+      {
+        "en": "OK, now you know some of the things our volunteers do, I'll go on to some practical matters.",
+        "zh": "好了，現在你們已經了解志工會做的一些事情，接下來我會談談一些實際事項。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p2-row-026"
+      },
+      {
+        "en": "As you probably know, the town arranges three major festivals every year, and they all depend on a large number of volunteers.",
+        "zh": "你們可能知道，這個小鎮每年會舉辦三個大型節慶活動，而它們都需要大量志工協助。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p2-row-027"
+      },
+      {
+        "en": "The book festival lasts three days, and uses several venues, which all need volunteers.",
+        "zh": "書展持續三天，使用好幾個場地，每個場地都需要志工。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p2-row-028"
+      },
+      {
+        "en": "More are needed for the music festival, because that lasts a whole week, and even more help is required for the science festival, even though it's only two days long.",
+        "zh": "音樂節需要更多志工，因為它持續整整一週；科學節雖然只有兩天，卻需要更多協助。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p2-row-029"
+      },
+      {
+        "en": "It involves quite a lot of venues, though.",
+        "zh": "不過，它涉及的場地相當多。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p2-row-030"
+      },
+      {
+        "en": "It's a good idea to help at the festival you're most interested in, because you can attend most of the events for free.",
+        "zh": "在你最感興趣的節慶活動中幫忙是個好主意，因為你可以免費參加大部分活動。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p2-row-031"
+      },
+      {
+        "en": "We try to use volunteers who are flexible, though, because some festival events are held outdoors, and the weather may affect the size of the audience, and even whether the event can take place; so there can be changes at short notice.",
+        "zh": "不過，我們會盡量安排比較有彈性的志工，因為有些節慶活動在戶外舉行，天氣可能會影響觀眾人數，甚至影響活動是否能舉辦；因此可能會臨時變動。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p2-row-032"
+      },
+      {
+        "en": "What's essential, though, is being able to get on well with other people, and also to deal with someone who's behaving badly – as occasionally happens.",
+        "zh": "不過，最重要的是能和他人相處融洽，也能應對偶爾出現的行為不當者。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p2-row-033"
+      },
+      {
+        "en": "Our plan is to get you all working in September, after a week's training starting on the 2nd.",
+        "zh": "我們的計畫是讓你們在 9 月開始工作，在 2 日開始的一週培訓之後上工。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p2-row-034"
+      },
+      {
+        "en": "So we'll be timetabling you for duties the following week, from the 9th onward.",
+        "zh": "因此，我們會安排你們在接下來那一週，也就是從 9 日起的值勤時間。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p2-row-035"
+      },
+      {
+        "en": "Later, in the week beginning September 23rd, we have a chat with each of you, to find out how you feel about being a volunteer, and what extra support you need.",
+        "zh": "之後，在 9 月 23 日開始的那一週，我們會和你們每個人談談， 了解你們對擔任志工的感受， 以及你們需要哪些額外支援。",
+        "sourcePages": [
+          37,
+          38
+        ],
+        "id": "p2-row-036"
+      },
+      {
+        "en": "As a thank you to the volunteers, we arrange an annual event.",
+        "zh": "為了感謝志工，我們每年都會安排一項活動。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p2-row-037"
+      },
+      {
+        "en": "In recent years we've had a party in the town hall, and last year a barbecue in Chamber Park.",
+        "zh": "近年來，我們曾在市政廳舉辦派對，去年則在 Chamber Park 舉辦烤肉活動。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p2-row-038"
+      },
+      {
+        "en": "Our forthcoming event is a trip along the canal from here to Dewhurst and back.",
+        "zh": "我們即將舉辦的活動，是沿著運河從這裡到 Dewhurst 再返回的旅行。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p2-row-039"
+      },
+      {
+        "en": "It's on Saturday September the 28th, and if you'd like to attend, you can sign up once you start work.",
+        "zh": "活動在 9 月 28 日星期六舉行， 如果你想參加，可以在開始工作後報名。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p2-row-040"
+      },
+      {
+        "en": "Now this is the volunteers' T-shirt…",
+        "zh": "現在，這就是志工的 T 恤……",
+        "sourcePages": [
+          38
+        ],
+        "id": "p2-row-041"
+      },
+      {
+        "en": "That is the end of Part 2. You now have 30 seconds to check your answers to Part 2.",
+        "zh": "第二部分到此結束。你現在有 30 秒時間檢查第二部分的答案。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p2-row-042"
+      }
+    ],
+    "3": [
+      {
+        "en": "You will hear two students, called Rosie and Colin, discussing their human geography assignment.",
+        "zh": "你會聽到兩位學生 Rosie 和 Colin 討論他們的人文地理作業。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-001"
+      },
+      {
+        "en": "First, you have some time to look at questions 21 to 25.",
+        "zh": "首先，你有一些時間閱讀第 21 至 25 題。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-002"
+      },
+      {
+        "en": "Now listen carefully and answer questions 21 to 25.",
+        "zh": "現在請仔細聆聽，回答第 21 至 25 題。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-003"
+      },
+      {
+        "en": "ROSIE: Colin, I'm really struggling to think of a topic for our human geography assignment.",
+        "zh": "Rosie：Colin，我真的很難想出我們人文地理作業的題目。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-004"
+      },
+      {
+        "en": "COLIN: Me too, Rosie. I'll tell you what, let's think about the different aspects of human geography, and see if we can narrow the topic down a bit to help us decide.",
+        "zh": "Colin：我也是，Rosie。這樣吧，我們先想想人文地理的不同面向，看看能不能把題目範圍縮小一點，幫助我們決定。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-005"
+      },
+      {
+        "en": "ROSIE: OK. So one aspect is population.",
+        "zh": "Rosie：好。其中一個面向是人口。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-006"
+      },
+      {
+        "en": "That would be all about population density and migration and so on.",
+        "zh": "那會涉及人口密度、遷移等等。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-007"
+      },
+      {
+        "en": "Lots of facts and statistics … Maybe a bit boring?",
+        "zh": "會有很多事實和統計資料……也許有點無聊？",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-008"
+      },
+      {
+        "en": "COLIN: Yeah, but quite straightforward to find on the internet.",
+        "zh": "Colin：是啊，不過在網路上很容易找到資料。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-009"
+      },
+      {
+        "en": "ROSIE: Suppose so. How about health?",
+        "zh": "Rosie：也許吧。那健康呢？",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-010"
+      },
+      {
+        "en": "I'd never thought about the links between that and geography until Professor Lee gave us that lecture on cholera.",
+        "zh": "在 Lee 教授給我們講霍亂那堂課之前，我從來沒想過健康和地理之間的關聯。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-011"
+      },
+      {
+        "en": "How in the nineteenth century a physician used street plans and plans of water supplies to find the source of a cholera epidemic.",
+        "zh": "那位醫生如何在 19 世紀利用街道圖和供水規劃圖，找出霍亂疫情的源頭。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-012"
+      },
+      {
+        "en": "COLIN: Yes – fascinating, wasn't it? Or we could do something more general – like economies.",
+        "zh": "Colin：是啊——很有趣，不是嗎？ 或者我們可以做比較廣泛的主題 ——比如經濟。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-013"
+      },
+      {
+        "en": "ROSIE: So how financial and commercial factors are linked to the physical environment?",
+        "zh": "Rosie：也就是財務和商業因素如何與自然環境相關聯？",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-014"
+      },
+      {
+        "en": "COLIN: Yeah.",
+        "zh": "Colin：對。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-015"
+      },
+      {
+        "en": "ROSIE: I thought that had been taken off the syllabus for this year.",
+        "zh": "Rosie：我以為今年的課程大綱已經把這部分刪掉了。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-016"
+      },
+      {
+        "en": "COLIN: Has it?",
+        "zh": "Colin：是嗎？",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-017"
+      },
+      {
+        "en": "ROSIE: I'm not sure. But it might be best to avoid it.",
+        "zh": "Rosie：我不確定。不過也許最好避開它。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-018"
+      },
+      {
+        "en": "COLIN: OK. Maybe we could do something on culture.",
+        "zh": "Colin：好。也許我們可以做文化方面的題目。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-019"
+      },
+      {
+        "en": "We had that lecture about culture and geography last week.",
+        "zh": "上週我們有一堂關於文化和地理的課。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-020"
+      },
+      {
+        "en": "ROSIE: I didn't get much out of that.",
+        "zh": "Rosie：我從那堂課裡沒學到太多。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-021"
+      },
+      {
+        "en": "It was all so general and the lecturer didn't give any useful examples.",
+        "zh": "內容都太籠統了，講師也沒有給出任何有用的例子。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-022"
+      },
+      {
+        "en": "COLIN: Yeah, I hardly took any notes, it didn't seem worth it.",
+        "zh": "Colin：是啊，我幾乎沒做筆記，感覺不太值得。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-023"
+      },
+      {
+        "en": "ROSIE: Me neither.",
+        "zh": "Rosie：我也是。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-024"
+      },
+      {
+        "en": "COLIN: We could focus on poverty.",
+        "zh": "Colin：我們可以聚焦在貧窮問題上。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-025"
+      },
+      {
+        "en": "That's something that's a global problem …",
+        "zh": "那是一個全球性的問題……",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-026"
+      },
+      {
+        "en": "ROSIE: The trouble is, Dr Lee was saying, that you have to be careful with some of the figures relating to poverty – they're sometimes deliberately manipulated.",
+        "zh": "Rosie：問題是，Lee 博士說過，處理一些和貧窮相關的數據時要很小心——它們有時會被刻意操控。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-027"
+      },
+      {
+        "en": "COLIN: You mean the information gets changed for political reasons?",
+        "zh": "Colin：你的意思是，資料會因政治原因而被改動？",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-028"
+      },
+      {
+        "en": "ROSIE: That sort of thing, yes.",
+        "zh": "Rosie：差不多就是那樣，是的。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-029"
+      },
+      {
+        "en": "Before you hear the rest of the discussion, you have some time to look at questions 26 to 30.",
+        "zh": "在你聽接下來的討論之前，你有一些時間閱讀第 26 至 30 題。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-030"
+      },
+      {
+        "en": "Now listen and answer questions 26 to 30.",
+        "zh": "現在請聆聽並回答第 26 至 30 題。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-031"
+      },
+      {
+        "en": "ROSIE: So what are we going to do our assignment on? I'll tell you what, one of the possibilities we haven't discussed is urbanisation.",
+        "zh": "Rosie：那我們的作業到底要做什麼主題呢？這樣吧，我們還沒討論到的一個可能題目是城市化。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-032"
+      },
+      {
+        "en": "And now over half the world's population lives in cities, that's really important.",
+        "zh": "現在世界上超過一半的人口住在城市裡，這真的很重要。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-033"
+      },
+      {
+        "en": "COLIN: OK, good idea, Rosie. Let's do that.",
+        "zh": "Colin：好主意，Rosie。我們就做這個吧。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-034"
+      },
+      {
+        "en": "ROSIE: I love living in a big city, but of course there are problems.",
+        "zh": "Rosie：我喜歡住在大城市裡，但當然也有一些問題。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-035"
+      },
+      {
+        "en": "COLIN: Things like theft and robbery?",
+        "zh": "Colin：像偷竊和搶劫這類問題嗎？",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-036"
+      },
+      {
+        "en": "ROSIE: Yes, but where I come from, that's linked to another more serious issue, which is that a lot of people don't have jobs.",
+        "zh": "Rosie：是的，但在我來的地方，這和另一個更嚴重的問題有關，那就是很多人沒有工作。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-037"
+      },
+      {
+        "en": "That's getting worse and worse.",
+        "zh": "情況正變得越來越糟。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-038"
+      },
+      {
+        "en": "And we also still have quite a lot of people who are homeless, though that's not quite so bad as it was.",
+        "zh": "而且我們那裡仍然有相當多人無家可歸，雖然情況不像以前那麼嚴重。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-039"
+      },
+      {
+        "en": "COLIN: It'd be nice to talk about some positive developments.",
+        "zh": "Colin：能談談一些正面的發展也不錯。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-040"
+      },
+      {
+        "en": "Like some of the new developments on the outskirts of cities.",
+        "zh": "例如城市郊區的一些新建設。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-041"
+      },
+      {
+        "en": "ROSIE: Yeah. They've opened some massive new shopping centres outside my city.",
+        "zh": "Rosie：是啊。我們城市外面開了幾個大型新購物中心。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-042"
+      },
+      {
+        "en": "COLIN: Yeah, the same with mine – but it's meant a lot of the shops in the city centre are closing down.",
+        "zh": "Colin：是啊，我那裡也是——但這意味著市中心很多商店正在倒閉。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-043"
+      },
+      {
+        "en": "But the outskirts are ideal for buildings that need a lot of space, like for conferences.",
+        "zh": "不過郊區很適合需要大量空間的建築，例如會議中心。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-044"
+      },
+      {
+        "en": "They've opened a couple of big ones.",
+        "zh": "他們已經開了幾個大型的。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-045"
+      },
+      {
+        "en": "ROSIE: Yes, we've got some too.",
+        "zh": "Rosie：是的，我們那裡也有一些。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-046"
+      },
+      {
+        "en": "It'd be nicer to have more facilities for things like football too.",
+        "zh": "如果能有更多像足球這類活動的設施就更好了。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-047"
+      },
+      {
+        "en": "But that's not happening where I live.",
+        "zh": "但在我住的地方，這並沒有發生。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-048"
+      },
+      {
+        "en": "COLIN: Same in my area.",
+        "zh": "Colin：我那裡也是一樣。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-049"
+      },
+      {
+        "en": "ROSIE: We could include something about developing disused industrial sites.",
+        "zh": "Rosie：我們可以加入一些關於開發廢棄工業用地的內容。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-050"
+      },
+      {
+        "en": "It seems like a good idea, because you're not doing any harm to the natural environment.",
+        "zh": "這看起來是個好主意，因為不會對自然環境造成傷害。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-051"
+      },
+      {
+        "en": "COLIN: Yeah, but aren't the buildings architecturally significant?",
+        "zh": "Colin：是啊，但那些建築難道不具有建築上的重要性嗎？",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-052"
+      },
+      {
+        "en": "ROSIE: Not really. And what people forget is that they often used quite dangerous materials – chemicals and things – which haven't been properly cleared away, so the whole site has to be made safe.",
+        "zh": "Rosie：其實不太是。而且人們常常忘記，那些地方以前經常使用相當危險的材料——像化學品之類 ——這些東西還沒有被妥善清除， 所以整個場地都必須先變得安全。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p3-row-053"
+      },
+      {
+        "en": "COLIN: Mm. That can't be cheap. And I bet it's often not budgeted for.",
+        "zh": "Colin：嗯。那肯定不便宜。而且我敢說，這通常沒有被列入預算。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p3-row-054"
+      },
+      {
+        "en": "ROSIE: You're right.",
+        "zh": "Rosie：你說得對。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p3-row-055"
+      },
+      {
+        "en": "COLIN: Have you read about Masdar City?",
+        "zh": "Colin：你讀過 Masdar City 的資料嗎？",
+        "sourcePages": [
+          46
+        ],
+        "id": "p3-row-056"
+      },
+      {
+        "en": "ROSIE: In Abu Dhabi? Yes, it was designed to be a green city, wasn't it?",
+        "zh": "Rosie：在 Abu Dhabi 的那個嗎？ 有，它被設計成一座綠色城市，對吧？",
+        "sourcePages": [
+          46
+        ],
+        "id": "p3-row-057"
+      },
+      {
+        "en": "That might be a good example of a city which set out to depend entirely on renewable energy.",
+        "zh": "那可能是一個很好的例子，展示一座城市如何以完全依賴再生能源為目標。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p3-row-058"
+      },
+      {
+        "en": "COLIN: Yes, we should say something about that.",
+        "zh": "Colin：是的，我們應該談一下這個。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p3-row-059"
+      },
+      {
+        "en": "It was designed to be totally pedestrianised too, wasn't it, with the transport underground.",
+        "zh": "它也被設計成完全行人化，交通系統則設在地下，對吧？",
+        "sourcePages": [
+          47
+        ],
+        "id": "p3-row-060"
+      },
+      {
+        "en": "ROSIE: Yes, and they had big plans for recycling to reduce waste to the lowest possible level.",
+        "zh": "Rosie：是的，而且他們有大型回收計畫，希望把廢棄物降到最低。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p3-row-061"
+      },
+      {
+        "en": "But let's stick to talking about power sources.",
+        "zh": "不過我們還是專注談能源來源吧。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p3-row-062"
+      },
+      {
+        "en": "COLIN: Then there's that ecotown in England, Greenhill Abbots.",
+        "zh": "Colin：還有英格蘭那座生態小鎮 Greenhill Abbots。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p3-row-063"
+      },
+      {
+        "en": "It set out to conform to the usual principles – sustainability and so on.",
+        "zh": "它一開始就是按照一般原則來規劃——例如永續性等等。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p3-row-064"
+      },
+      {
+        "en": "A lot of people were against it at first; they said the plans were unrealistic.",
+        "zh": "一開始很多人反對，說那些計畫不切實際。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p3-row-065"
+      },
+      {
+        "en": "I'm not sure how far they've got with it – I'll check.",
+        "zh": "我不確定他們目前進展到什麼程度——我會去查一下。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p3-row-066"
+      },
+      {
+        "en": "ROSIE: Right. So it looks as … That is the end of Part 3. You now have 30 seconds to check your answers to Part 3.",
+        "zh": "Rosie：好的。所以看起來…… 第三部分到此結束。你現在有 30 秒時間檢查第三部分的答案。",
+        "sourcePages": [
+          47,
+          48
+        ],
+        "id": "p3-row-067"
+      }
+    ],
+    "4": [
+      {
+        "en": "You will hear part of a food science lecture on fashions in food.",
+        "zh": "你會聽到一段食品科學講座，主題是食品潮流。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-001"
+      },
+      {
+        "en": "First, you have some time to look at questions 31 to 40.",
+        "zh": "首先，你有一些時間閱讀第 31 至 40 題。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-002"
+      },
+      {
+        "en": "Now listen carefully and answer questions 31 to 40.",
+        "zh": "現在請仔細聆聽，回答第 31 至 40 題。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-003"
+      },
+      {
+        "en": "There are trends in food, much as there are trends in clothing.",
+        "zh": "食品也有潮流，就像服裝也有潮流一樣。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-004"
+      },
+      {
+        "en": "Interest in food fashions has risen rapidly since the birth of the smartphone when people first began taking photos of their food and instantly sharing them with their friends.",
+        "zh": "自從智慧型手機問世、人們開始拍攝食物照片並立即分享給朋友後，大家對食品潮流的興趣迅速上升。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-005"
+      },
+      {
+        "en": "The food industry in the UK, in particular, is obsessed with finding and exploiting the next big food trend.",
+        "zh": "尤其是英國食品業，特別熱衷於尋找並利用下一個重大的食品潮流。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-006"
+      },
+      {
+        "en": "Marketeers aim to create a huge demand for a food item, which was previously unknown, or not needed.",
+        "zh": "行銷人員的目標，是為一種先前不為人知或並非必要的食品創造巨大需求。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-007"
+      },
+      {
+        "en": "One of the most effective ways of promoting a new food product is by using social media influencers as brand ambassadors.",
+        "zh": "推廣新食品產品最有效的方法之一，是讓社群媒體網紅擔任品牌大使。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-008"
+      },
+      {
+        "en": "In return for free samples, many influencers will post content about a product, although there are influencers with hundreds of thousands of followers who can command large fees for their services.",
+        "zh": "許多網紅會因收到免費樣品而發布產品相關內容；不過，有些擁有數十萬粉絲的網紅，也能為服務收取高額費用。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-009"
+      },
+      {
+        "en": "Companies which sell vegan produce were pioneers in being able to increase sales really quickly in this way.",
+        "zh": "銷售純素食品的公司，是以這種方式快速提升銷售量的先驅。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-010"
+      },
+      {
+        "en": "For a food item to become really popular it has to be readily available, so supermarkets have a role to play in creating a new food trend.",
+        "zh": "一種食品若要真正流行，就必須容易買到，因此超市在創造新食品潮流方面扮演著一定角色。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-011"
+      },
+      {
+        "en": "They have dedicated teams closely following which new products or ingredients are trending on social media and are particularly interested in what well-known chefs are putting on their menus.",
+        "zh": "它們有專門團隊密切關注哪些新產品或食材正在社群媒體上流行，也特別關注知名主廚把哪些東西放進菜單。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-012"
+      },
+      {
+        "en": "I'd like to look at a few examples of marketing campaigns which were really successful in launching a new fashion trend.",
+        "zh": "我想看看幾個非常成功地帶動新潮流的行銷活動例子。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-013"
+      },
+      {
+        "en": "Starting in the 1990s with the avocado.",
+        "zh": "先從 1990 年代的酪梨說起。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-014"
+      },
+      {
+        "en": "A British PR company was hired to raise its profile and stimulate demand.",
+        "zh": "一家英國公關公司受聘來提高酪梨的知名度並刺激需求。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-015"
+      },
+      {
+        "en": "They paid for a group of journalists to travel out to South Africa to meet avocado farmers.",
+        "zh": "他們出資讓一群記者前往南非，去見酪梨農民。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-016"
+      },
+      {
+        "en": "Articles written following this visit helped to educate the British public about the avocado, which at this time was certainly not the daily staple it's since become.",
+        "zh": "這次拜訪後撰寫的文章，幫助英國大眾認識酪梨；當時酪梨當然還不像後來那樣成為日常主食。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-017"
+      },
+      {
+        "en": "Advertisements were designed to promote the avocado as a 'superfood': rich in nutrients and therefore beneficial for health.",
+        "zh": "廣告把酪梨包裝成「超級食物」來推廣： 營養豐富，因此有益健康。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-018"
+      },
+      {
+        "en": "Avocados became hugely fashionable and within a few years UK avocado sales had grown from 13 million pounds annually to around 150 million, making it one of the most successful fresh produce campaigns in UK history.",
+        "zh": "酪梨變得非常流行，短短幾年內，英國酪梨年銷售額從 1300 萬英鎊增長到約 1.5 億英鎊，使其成為英國歷史上最成功的新鮮農產品行銷活動之一。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-019"
+      },
+      {
+        "en": "Oat milk is a recent example of a new product which became fashionable very quickly.",
+        "zh": "燕麥奶是一個近年的例子，顯示一種新產品如何迅速流行起來。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-020"
+      },
+      {
+        "en": "Now there are many brands available, but one company which had early success was the Swedish brand, Oatly.",
+        "zh": "現在市面上有很多品牌，但早期取得成功的其中一家，是瑞典品牌 Oatly。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-021"
+      },
+      {
+        "en": "They attracted a lot of attention with a media campaign which used provocation as a way of getting their message across effectively.",
+        "zh": "他們透過一場使用挑釁手法來有效傳達訊息的媒體活動，吸引了大量關注。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-022"
+      },
+      {
+        "en": "The fact that this campaign aggravated competitors producing milk from dairy cows was seen as a plus, as it helped to make oat milk seem cool.",
+        "zh": "這場活動激怒了生產牛奶的競爭對手， 而這被視為加分，因為它讓燕麥奶看起來很酷。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-023"
+      },
+      {
+        "en": "In the USA, the brand decided against a big retail launch in favour of getting the product into coffee chains, which removed the need for a big advertising budget.",
+        "zh": "在美國，該品牌沒有選擇大規模零售上市，而是把產品推進咖啡連鎖店，這樣就不需要龐大的廣告預算。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-024"
+      },
+      {
+        "en": "This proved far more effective than offering samples in supermarkets.",
+        "zh": "事實證明，這比在超市提供試用品有效得多。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-025"
+      },
+      {
+        "en": "Oat milk had an advantage over other alternative milk products such as almond milk.",
+        "zh": "與杏仁奶等其他植物奶替代品相比，燕麥奶具有優勢。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-026"
+      },
+      {
+        "en": "Many consumers prefer it because it has less of an impact on the environment.",
+        "zh": "許多消費者更喜歡它，因為它對環境的影響較小。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-027"
+      },
+      {
+        "en": "It requires significantly less water to produce than other alternative milk products and it also has a relatively low carbon footprint.",
+        "zh": "生產燕麥奶所需的水明顯少於其他植物奶產品，而且它的碳足跡也相對較低。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-028"
+      },
+      {
+        "en": "Norwegian skrei, a rarely available seasonal fish delicacy, otherwise known as Arctic cod, is now found on the menus of Michelin starred restaurants throughout Europe.",
+        "zh": "挪威 skrei 是一種稀有的季節性魚類珍饈，又稱北極鱈，如今已出現在全歐洲米其林星級餐廳的菜單上。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-029"
+      },
+      {
+        "en": "The demand for skrei has been used by a food marketing agency to build the reputation of Norway's fisheries in general.",
+        "zh": "一家食品行銷機構利用人們對 skrei 的需求，來提升挪威漁業整體的聲譽。",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-030"
+      },
+      {
+        "en": "Marketing surveys have shown that a significant number of shoppers now associate Norway with excellent seafood.",
+        "zh": "行銷調查顯示，現在有相當多消費者會把挪威和優質海鮮聯想在一起。",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-031"
+      },
+      {
+        "en": "Food trends can be considered a good thing in some ways as they can benefit farmers and food producers enormously.",
+        "zh": "從某些方面來看，食品潮流可以被視為好事，因為它們能讓農民和食品生產者大大受益。",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-032"
+      },
+      {
+        "en": "The public can also be encouraged to buy things which are more sustainably produced.",
+        "zh": "大眾也可以因此被鼓勵購買以更永續方式生產的產品。",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-033"
+      },
+      {
+        "en": "But ethical concerns have been raised about the effects a surge in demand can cause.",
+        "zh": "但是，需求激增可能造成的影響也引發了倫理方面的擔憂。",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-034"
+      },
+      {
+        "en": "Quinoa is a classic example.",
+        "zh": "藜麥就是一個典型例子。",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-035"
+      },
+      {
+        "en": "This plant is native to Peru, and when demand peaked some years ago, the price soared, making it unaffordable for local people.",
+        "zh": "這種植物原產於秘魯，幾年前當需求達到高峰時，價格飆升，使當地人買不起。",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-036"
+      },
+      {
+        "en": "While the popularity of quinoa has benefitted farmers financially, there have been other negative consequences.",
+        "zh": "雖然藜麥的流行讓農民在經濟上受益， 但也帶來了其他負面後果。",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-037"
+      },
+      {
+        "en": "As demand grew, farmers began working the land all year round in order to produce more quinoa.",
+        "zh": "隨著需求增加，農民為了生產更多藜麥，開始全年耕作土地。",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-038"
+      },
+      {
+        "en": "One issue has been that the fertility of the soil decreased dramatically, which could potentially lead to desertification in some areas.",
+        "zh": "其中一個問題是土壤肥力大幅下降，這可能會導致某些地區沙漠化。",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-039"
+      },
+      {
+        "en": "Another example would be the case of…",
+        "zh": "另一個例子則是……",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-040"
+      },
+      {
+        "en": "That is the end of Part 4. You now have one minute to check your answers to Part 4.",
+        "zh": "第四部分到此結束。你現在有一分鐘時間檢查第四部分的答案。",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-041"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "answer": "Break",
+      "explanation": "題目寫 “This can give the carer: time for other responsibilities; a ___”，意思是「這些支援可以給照顧者處理其他責任的時間，以及一個 ___」。錄音說：“carers sometimes need time for all the other responsibilities … and also that they sometimes need a break.” 前半句對應 “time for other responsibilities”，後半句 “need a break” 就是空格。中伏位：不要填 support，因為 practical support 是整個主題，不是 carer 得到的具體好處。break 是名詞，意思是「休息／喘息時間」。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "2": {
+      "answer": "Time",
+      "explanation": "題目寫 “how much ___ the caring involves”，意思是「照顧工作涉及多少 ___」。錄音說：“the amount of time you spend looking after your mother every day.” “how much time the caring involves” = “the amount of time you spend looking after your mother”。這是幾乎直接同義。中伏位：前面也提到 carer needs time，但本題真正定位在 assessment of mother’s needs，所以要聽到 “amount of time”。time 是不可數名詞，所以用 how much。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "3": {
+      "answer": "Shower",
+      "explanation": "題目寫 “helping her have a ___”，意思是「幫她洗／使用 ___」。錄音說：“I help her get into the shower in the morning.” “get into the shower” 說明她需要幫忙洗澡；題目的 “have a shower” 是固定說法，等於 take a shower。中伏位：in the morning 只是時間，不是答案。shower 是單數名詞，因為題目前面有 a 。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "4": {
+      "answer": "Money",
+      "explanation": "題目寫 “dealing with ___”，意思是「處理 ___」。錄音說：“whether she can cope using money.” Carol 又說：“that’s becoming a bit of a problem.” “cope using money” = “deal with money”，即能否處理用錢／金錢事務。中伏位：這題在 shopping 和 meals 之後出現，不要填 shopping 或 meals；它問的是另一個任務類型。money 是不可數名詞。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "5": {
+      "answer": "Memory",
+      "explanation": "題目寫 “loss of ___”，意思是「失去／衰退 ___」。錄音說：“she’s started to have quite bad problems with her memory,” 例如會忘記吃飯、不知道星期幾。 “problems with her memory” 對應 “loss of memory”。中伏位：forget to eat 只是 memory problem 的例子，不是答案；題目要填的是困難的種類。memory 是名詞，loss of memory 是常見搭配",
+      "sourcePages": [
+        54
+      ]
+    },
+    "6": {
+      "answer": "Lifting",
+      "explanation": "題目寫 “___ her”，意思是「___ 她」。錄音中 Tom 問：“Are there any physical difficulties …? Lifting her, for example?” Carol 回答說她很重，自己怕傷到背。 “Lifting her” 和題目空格完全對上，所以答案是 Lifting。中伏位：heavy 和 back 是原因／結果，不是空格所需的動作。lifting 是動名詞，放在 “especially difficult” 的列表中表示「扶起／搬動她」。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "7": {
+      "answer": "Fall",
+      "explanation": "題目寫 “preventing a ___”，意思是「防止一次 ___」。錄音說：“how to avoid the possibility of your mum having a fall.” preventing = avoid the possibility of；a fall = having a fall。題目已有 a，所以要填單數名詞 fall。中伏位：不要填 falling，因為 “a falling” 不自然；題目語法需要名詞。fall 在這裡是名詞，意思是 「跌倒」。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "8": {
+      "answer": "Taxi",
+      "explanation": "題目寫 “transport costs, e.g. cost of a ___”，意思是「交通費，例如一程 ___ 的費用」。錄音說： “transport costs, like if you have to get a taxi to take your mother for an appointment.” “get a taxi” 對應 “cost of a taxi”。中伏位：appointment 是搭的士去做的事，不是交通工具； transport costs 提醒你要聽交通方式。taxi 是單數名詞，因為題目前有 a。",
+      "sourcePages": [
+        55
+      ]
+    },
+    "9": {
+      "answer": "Insurance",
+      "explanation": "題目寫 “car-related costs, e.g. fuel and ___”。錄音中 Carol 問：“could I claim for the petrol?” Tom 回答：“You could, and you can claim for the insurance too.” fuel = petrol，所以題目中的 fuel 已經對應錄音的 petrol；and 後面的第二項就是 insurance。中伏位：不要填 petrol，因為題目已經把 petrol 改寫成 fuel 了。insurance 是不可數名詞，指保險費。",
+      "sourcePages": [
+        55
+      ]
+    },
+    "10": {
+      "answer": "Stress",
+      "explanation": "題目寫 “help to reduce ___”，意思是「幫助減少 ___」。錄音說：“you’re under quite a bit of stress.” Tom 接著說 council may give advice on “how to minimise it.” it 指 stress；minimise = reduce，所以答案是 stress。中伏位：housework 是上一個支援項目，這一格問的是另一項心理壓力支援。stress 是不可數名詞。",
+      "sourcePages": [
+        55,
+        56
+      ]
+    },
+    "11": {
+      "answer": "D",
+      "explanation": "題目活動是 “walking around the town centre”，問志工在這項活動中的 role。錄音說遊客會問 “how to get to a particular shop”，也會想要 “recommendations about what to visit”。 問路和推薦景點就是 D “giving advice to visitors”。中伏位：志工穿 volunteer T-shirt 只是讓人認得他們，不等於答案 B publicity。這題重點不是他們穿什麼，而是遊客問他們什麼。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "12": {
+      "answer": "I",
+      "explanation": "題目活動是 “helping at concerts”。錄音說志工的角色是 “to get everyone in the audience to the right place”，並補充有些人買了票但走去 wrong section。 “get everyone … to the right place” 對應 I “helping people find their seats”。中伏位：錄音提到 buy tickets，但不是說志工賣票，所以 F 不對。這題聽到 tickets 時不要急，真正工作是帶位。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "13": {
+      "answer": "H",
+      "explanation": "題目活動是 “getting involved with community groups”。錄音說志工會和不同 group 談 “how groups can help each other”，例如一個 writing group 可以借用另一個 club 的 coach。 “groups can help each other” 對應 H “encouraging cooperation between local organisations”。中伏位：這不是志工自己安排交通，也不是聯絡商店；重點是促進不同團體合作。cooperation 是名詞，意思是合作。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "14": {
+      "answer": "E",
+      "explanation": "題目活動是 “helping with a magazine”。錄音說志工要 “find out what people think of events they’ve attended, and any suggestions they have for the future”，然後 send a summary to the editors。 “what people think” 和 “suggestions” 就是 feedback，所以答案 E “collecting feedback on events”。 中伏位：local businesses pay for the magazine，但這是 advertising department 的責任，不是 volunteer 的工作，所以 C 不對。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "15": {
+      "answer": "A",
+      "explanation": "題目活動是 “participating at lunches for retired people”。錄音說飯後 “some volunteers put on a show – usually around half an hour of songs and short plays.” songs and short plays = entertainment，所以答案 A “providing entertainment”。中伏位：志工也 welcome guests，但選項沒有「迎接客人」；真正和選項對上的工作是表演節目。entertainment 是名詞，意思是娛樂／表演。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "16": {
+      "answer": "B",
+      "explanation": "題目活動是 “helping with the website”。錄音說 volunteers help by “making sure residents know about it”，而 council wants “as many people as possible to use it.” 讓居民知道網站存在，就是 B “providing publicity about a council service”。中伏位：網站每天更新 future activities，但錄音沒有說志工負責更新網站內容；他們是幫忙宣傳網站。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "17": {
+      "answer": "B",
+      "explanation": "題目問哪個 event 需要最多 volunteers。錄音說 book festival 需要 volunteers；music festival “more are needed”；science festival “even more help is required”，雖然只有兩天，但 “quite a lot of venues”。 even more help = 比 music festival 還多，所以答案是 B science festival。中伏位：music festival lasts a whole week 很吸引，但錄音明確說 science festival 需要 even more help。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "18": {
+      "answer": "A",
+      "explanation": "題目問 festival volunteers 最重要的要求。錄音說：“What’s essential, though, is being able to get on well with other people, and also to deal with someone who’s behaving badly.” get on well with people 和 deal with difficult people 都是 interpersonal skills，所以答案 A。中伏位： personal interest 是 “good idea”，flexibility 是 “we try to use”，但題目問 most important，錄音用 essential 明確指向 A。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "19": {
+      "answer": "B",
+      "explanation": "題目問 new volunteers 會在 9 月哪一週開始工作。錄音說 training starts on the 2nd，然後 “duties the following week, from the 9th onward.” start working = start duties，所以答案是 B 9 September。中伏位：2 September 是 training，不是正式工作；23 September 是之後的 chat / review，不是開始工作。听日期題時要分清 training、 working、meeting。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "20": {
+      "answer": "A",
+      "explanation": "題目問 next annual event for volunteers 是什麼。錄音說：“Our forthcoming event is a trip along the canal from here to Dewhurst and back.” trip along the canal 通常就是 boat trip，所以答案 A。中伏位：party 和 barbecue 都有出現，但錄音說 “in recent years” 和 “last year”，即過去活動；forthcoming event 才是下一個活動。",
+      "sourcePages": [
+        58,
+        59
+      ]
+    },
+    "21": {
+      "answer": "D",
+      "explanation": "題目問 Population 這個 aspect 的 opinion。錄音中 Rosie 說 population 會涉及 “population density and migration” 和 “Lots of facts and statistics”；Colin 說 “quite straightforward to find on the internet.” straightforward to find = easy to find；facts 也直接出現，所以答案 D “It will be easy to find facts about this.” 中伏位：錄音說 lots of statistics，但 C 是 small number of statistics，意思相反。",
+      "sourcePages": [
+        59
+      ]
+    },
+    "22": {
+      "answer": "G",
+      "explanation": "題目問 Health 的 opinion。錄音中 Rosie 說她以前沒想過 health 和 geography 的關係，直到 Professor Lee 講 cholera；Colin 回應：“fascinating, wasn’t it?” fascinating = very interesting，所以答案 G “The information provided about this was interesting.” 中伏位：這裡不是說資料容易找，也不是說不可靠；他們是在評價那堂 lecture 的內容很有趣",
+      "sourcePages": [
+        59
+      ]
+    },
+    "23": {
+      "answer": "B",
+      "explanation": "題目問 Economies 的 opinion。錄音中 Rosie 說：“I thought that had been taken off the syllabus for this year.” 又說 “it might be best to avoid it.” taken off the syllabus = 可能已不在課程範圍內，所以答案 B “This may not be relevant to their course.” 中伏位：Colin 沒確認它真的被刪，所以用 may not be relevant，而不是絕對說不相關。",
+      "sourcePages": [
+        59
+      ]
+    },
+    "24": {
+      "answer": "A",
+      "explanation": "題目問 Culture 的 opinion。錄音中 Rosie 說那堂 culture and geography lecture “was all so general” and “didn’t give any useful examples.” Colin 也說幾乎沒做筆記。 all so general / no useful examples = too vague，所以答案 A。中伏位：不是沒有研究，也不是資料不可靠；問題是講得太籠統，沒有清楚例子。vague 是形容詞，意思是含糊。",
+      "sourcePages": [
+        59
+      ]
+    },
+    "25": {
+      "answer": "E",
+      "explanation": "題目問 Poverty 的 opinion。錄音說 poverty figures “are sometimes deliberately manipulated”；Colin 確認：“information gets changed for political reasons?” deliberately manipulated / changed for political reasons = facts may not be reliable，所以答案 E。中伏位：這不是說沒有 useful research；是說有些數據可能被改動，因此可信度成問題。reliable 是形容詞，意思是可靠。",
+      "sourcePages": [
+        60
+      ]
+    },
+    "26": {
+      "answer": "C",
+      "explanation": "題目問 Rosie 自己城市的 main problem。Colin 先猜 crime：“theft and robbery?” Rosie 說 yes，但那 linked to another more serious issue: “a lot of people don’t have jobs.” people don’t have jobs = unemployment，所以答案 C。中伏位：crime 有出現，但 Rosie 說更嚴重的是失業；homelessness 也出現，但她說 “not quite so bad as it was”，所以 housing 不是 main problem。",
+      "sourcePages": [
+        60
+      ]
+    },
+    "27": {
+      "answer": "A",
+      "explanation": "題目問兩位學生都對郊區最近新增的什麼感到高興。錄音說 shopping centres 兩地都有，但 Colin 說市中心商店因此關門，語氣負面；conference buildings 需要大量空間，Colin 說開了幾個，Rosie 說 “we’ve got some too”。 所以共同正面的是 A conference centres。中伏位：retail centres 是共同存在，但不代表 happy about；sports centres 則兩人都說沒有發生。",
+      "sourcePages": [
+        60
+      ]
+    },
+    "28": {
+      "answer": "A",
+      "explanation": "題目問 developing disused industrial sites 可能有什麼問題。錄音說舊工業用地可能有 dangerous materials / chemicals 沒清走，所以 whole site has to be made safe。Colin 說：“That can’t be cheap. And I bet it’s often not budgeted for.” Rosie 同意。 not budgeted for = unexpected costs，所以答案 A。中伏位：Rosie 先說不會傷害 natural environment，所以 B 不對；建築也 “not really” significant，所以 C 不對。",
+      "sourcePages": [
+        61
+      ]
+    },
+    "29": {
+      "answer": "B",
+      "explanation": "題目問他們會用 Masdar City 作為什麼例子。錄音說它是 green city，並 “set out to depend entirely on renewable energy”。Rosie 後面說 “let’s stick to talking about power sources.” renewable energy / power sources 對應 B sustainable energy use。中伏位：recycling 和 underground transport 都有提到，但他們決定集中講 power sources，所以 A、C 不是答案。",
+      "sourcePages": [
+        61
+      ]
+    },
+    "30": {
+      "answer": "C",
+      "explanation": "題目問談到 Greenhill Abbots 時，Colin 不確定什麼。錄音說它的 objective 是 sustainability 等，也說反對原因是 plans were unrealistic。Colin 真正不確定的是：“I’m not sure how far they’ve got with it.” how far they’ve got = 建了多少／進展到哪一步，所以答案 C。中伏位：A 和 B 的資料錄音已經給了，不是不確定的部分。",
+      "sourcePages": [
+        61,
+        62
+      ]
+    },
+    "31": {
+      "answer": "Photographs / photos / pictures",
+      "explanation": "題目寫 “The growth in interest in food fashions started with ___ of food being shared on social media.” 錄音說 interest rose after smartphones, when people began “taking photos of their food and instantly sharing them.” taking photos of food = photos / photographs / pictures of food being shared。中伏位：smartphone 是背景原因，但空格後面有 “of food”，所以要填可接 “of food” 的名詞。photos / photographs / pictures 都可以。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "32": {
+      "answer": "Vegan",
+      "explanation": "題目寫 “Sales of ___ food brands have grown rapidly this way.” 錄音說：“Companies which sell vegan produce were pioneers in being able to increase sales really quickly in this way.” vegan produce = vegan food；increase sales really quickly = sales have grown rapidly。中伏位：social media influencers 是推廣方法，不是品牌種類。vegan 是形容詞，修飾 food brands。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "33": {
+      "answer": "Cooks / chefs",
+      "explanation": "題目寫 “Famous ___ are influential.” 錄音說 supermarkets are interested in what “well-known chefs are putting on their menus.” well-known = famous；chefs = cooks，所以答案可以是 chefs 或 cooks。中伏位：supermarkets track ingredients on social media，但真正有影響力的人是 famous chefs，不是 influencers；influencers 是上一段 brand ambassadors。chefs / cooks 是複數名詞。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "34": {
+      "answer": "Reporters / Journalists",
+      "explanation": "題目寫 “___ were invited to visit growers in South Africa.” 錄音說 PR company “paid for a group of journalists to travel out to South Africa to meet avocado farmers.” journalists = reporters；farmers = growers；paid for them to travel out = invited/arranged them to visit。 中伏位：不要填 farmers/growers，因為 growers 是被拜訪的人；空格問誰被邀請去南非。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "35": {
+      "answer": "Health",
+      "explanation": "題目寫 “Advertising focused on its ___ benefits.” 錄音說 avocado was promoted as a superfood, “rich in nutrients and therefore beneficial for health.” beneficial for health = health benefits。中伏位：nutrients 有出現，但題目要的是 “___ benefits”， 英文自然搭配是 health benefits，不是 nutrients benefits。health 是名詞，在 health benefits 中作前置修飾。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "36": {
+      "answer": "Coffee",
+      "explanation": "題目寫 “Promotion in the USA through ___ shops reduced the need for advertising.” 錄音說 Oatly in the USA chose “getting the product into coffee chains,” which “removed the need for a big advertising budget.” coffee chains = coffee shops；removed the need for advertising budget = reduced the need for advertising。中伏位：supermarkets 有出現，但錄音說 coffee chains 比 supermarket samples 更有效，所以答案不是 supermarkets。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "37": {
+      "answer": "Environment",
+      "explanation": "題目寫 “It appealed to consumers who are concerned about the ___.” 錄音說 many consumers prefer oat milk because “it has less of an impact on the environment,” requiring less water and having low carbon footprint. concerned about the environment = care about environmental impact。中伏位：water 和 carbon footprint 是環保原因的例子；題目問整體關心的對象，所以填 environment。environment 是名詞。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "38": {
+      "answer": "Reputation",
+      "explanation": "題目寫 “Norwegian skrei has helped strengthen the ___ of Norwegian seafood.” 錄音說 demand for skrei was used “to build the reputation of Norway’s fisheries,” and shoppers now associate Norway with excellent seafood. build the reputation = strengthen the reputation；Norway’s fisheries = Norwegian seafood industry。 中伏位：excellent seafood 是 reputation 的內容，不是空格本身。 reputation 是名詞，意思是聲譽。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "39": {
+      "answer": "Price / cost",
+      "explanation": "題目寫 “Quinoa: Its success led to an increase in its ___.” 錄音說 when demand peaked, “the price soared, making it unaffordable for local people.” price soared = price increased；cost 也可以表「價格／成本」，所以 price 或 cost 都可。中伏位： demand increased 是原因，不是空格答案；空格在 “its ___” 後，問 quinoa 成功後上升的是什麼。price / cost 是名詞。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "40": {
+      "answer": "Soil",
+      "explanation": "題目寫 “Overuse of resources resulted in poor quality ___.” 錄音說 farmers worked the land all year round, and “the fertility of the soil decreased dramatically.” soil fertility decreased = soil became poor quality。中伏位：不要填 fertility，因為題目已經用 “poor quality” 表達 fertility 下降；空格要填被影響的東西，即 soil。soil 是不可數名詞，意思是土壤。",
+      "sourcePages": [
+        64
+      ]
+    }
+  },
+  "timings": {
+    "parts": {
+      "1": {
+        "duration": 294.0604375,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%202%20Part%201.mp3",
+        "audioSha256": "a300cec20a4fd6c93dce0889de1f271d5af078bc6d5599c2c4906936910cead9",
+        "transcriptSha256": "b2ce14bd19f310fbc540dd5f8341f991b2f390170528f2c5136b68a2455d931f",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9985,
+        "lines": [
+          {
+            "start": 2.02,
+            "end": 8.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 10.18,
+            "end": 14.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 34.42,
+            "end": 38.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 41.94,
+            "end": 43.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 44.52,
+            "end": 48.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 49.4,
+            "end": 53.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 54.2,
+            "end": 57.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 57.96,
+            "end": 62.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 62.68,
+            "end": 65.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 65.6,
+            "end": 67.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 68.16,
+            "end": 71.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 71.82,
+            "end": 80.74,
+            "coverage": 0.993
+          },
+          {
+            "start": 81.5,
+            "end": 88.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 89.54,
+            "end": 92.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 92.82,
+            "end": 96.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 97.28,
+            "end": 101.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 102.1,
+            "end": 102.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 103.02,
+            "end": 107.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 107.96,
+            "end": 110.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 111.38,
+            "end": 116.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 116.78,
+            "end": 117.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 118.68,
+            "end": 122.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 123.18,
+            "end": 125.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 126.26,
+            "end": 128.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 129.0,
+            "end": 132.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 135.32,
+            "end": 142.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 172.06,
+            "end": 175.76,
+            "coverage": 0.9444
+          },
+          {
+            "start": 178.94,
+            "end": 184.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 184.96,
+            "end": 194.98,
+            "coverage": 0.9909
+          },
+          {
+            "start": 196.02,
+            "end": 199.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 199.58,
+            "end": 206.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 208.28,
+            "end": 214.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 215.42,
+            "end": 221.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 221.54,
+            "end": 228.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 229.58,
+            "end": 231.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 232.1,
+            "end": 238.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 238.78,
+            "end": 243.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 243.88,
+            "end": 247.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 247.5,
+            "end": 248.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 248.8,
+            "end": 253.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 254.36,
+            "end": 262.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 263.0,
+            "end": 264.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 264.46,
+            "end": 269.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 269.56,
+            "end": 276.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 277.12,
+            "end": 281.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 285.6,
+            "end": 292.6,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "2": {
+        "duration": 396.591,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%202%20Part%202.mp3",
+        "audioSha256": "6279987e4adfecd417602f07341d0acfdf6f3e22412b26c5bfab3c9b6241abfb",
+        "transcriptSha256": "bb6f087ec71c03fc092c6fe4a907236764b83d0d2e7124bd385e1d927fa7128c",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9978,
+        "lines": [
+          {
+            "start": 2.08,
+            "end": 11.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 12.64,
+            "end": 17.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 46.6,
+            "end": 51.94,
+            "coverage": 0.9804
+          },
+          {
+            "start": 54.94,
+            "end": 63.34,
+            "coverage": 0.9681
+          },
+          {
+            "start": 64.32,
+            "end": 67.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 68.3,
+            "end": 79.4,
+            "coverage": 0.9793
+          },
+          {
+            "start": 80.88,
+            "end": 85.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 86.34,
+            "end": 91.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 92.38,
+            "end": 99.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 100.84,
+            "end": 111.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 112.32,
+            "end": 118.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 119.76,
+            "end": 126.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 127.7,
+            "end": 131.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 132.48,
+            "end": 143.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 144.2,
+            "end": 150.78,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 151.74,
+            "end": 159.16,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 160.38,
+            "end": 168.9,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 169.76,
+            "end": 172.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 173.7,
+            "end": 181.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 182.52,
+            "end": 193.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 194.76,
+            "end": 199.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 200.32,
+            "end": 207.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 207.94,
+            "end": 215.56,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 218.74,
+            "end": 225.3,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 255.14,
+            "end": 259.46,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 263.03,
+            "end": 269.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 269.42,
+            "end": 278.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 279.78,
+            "end": 284.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 285.98,
+            "end": 294.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 295.74,
+            "end": 297.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 298.88,
+            "end": 305.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 306.5,
+            "end": 320.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 321.36,
+            "end": 331.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 333.2,
+            "end": 339.64,
+            "coverage": 0.9863
+          },
+          {
+            "start": 340.1,
+            "end": 344.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 345.58,
+            "end": 355.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 356.98,
+            "end": 360.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 362.27,
+            "end": 368.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 369.68,
+            "end": 374.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 374.38,
+            "end": 380.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 382.1,
+            "end": 385.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 388.76,
+            "end": 395.64,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "3": {
+        "duration": 362.161625,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%202%20Part%203.mp3",
+        "audioSha256": "1b10e1803b4d31fe77e76d57a1f00e04dbe3ca28f68b07e79a0765761b257c83",
+        "transcriptSha256": "691e793c4296d3c48c9d397879a76bb5df2498f26847e4b386800795ed88d69d",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9935,
+        "lines": [
+          {
+            "start": 2.12,
+            "end": 8.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 10.3,
+            "end": 15.04,
+            "coverage": 0.9655
+          },
+          {
+            "start": 39.9,
+            "end": 45.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 48.86,
+            "end": 53.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 53.76,
+            "end": 63.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 63.54,
+            "end": 65.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 66.74,
+            "end": 69.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 70.52,
+            "end": 73.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 73.72,
+            "end": 76.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 78.08,
+            "end": 79.56,
+            "coverage": 0.8261
+          },
+          {
+            "start": 80.54,
+            "end": 85.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 86.2,
+            "end": 92.94,
+            "coverage": 0.9245
+          },
+          {
+            "start": 93.4,
+            "end": 99.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 100.14,
+            "end": 103.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 103.94,
+            "end": 104.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 104.82,
+            "end": 106.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 107.34,
+            "end": 107.74,
+            "coverage": 1.0,
+            "refined": true,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Focused window isolates Has it after the preceding syllabus sentence."
+          },
+          {
+            "start": 108.1,
+            "end": 110.7,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 110.94,
+            "end": 114.32,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 115.2,
+            "end": 118.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 119.08,
+            "end": 120.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 120.9,
+            "end": 124.6,
+            "coverage": 0.9825
+          },
+          {
+            "start": 125.04,
+            "end": 128.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 128.72,
+            "end": 129.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 129.78,
+            "end": 131.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 131.92,
+            "end": 133.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 134.24,
+            "end": 141.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 142.22,
+            "end": 145.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 145.98,
+            "end": 146.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 150.24,
+            "end": 157.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 191.66,
+            "end": 195.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 199.26,
+            "end": 206.5,
+            "coverage": 0.9505
+          },
+          {
+            "start": 207.38,
+            "end": 211.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 212.08,
+            "end": 214.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 215.1,
+            "end": 217.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 218.36,
+            "end": 220.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 220.58,
+            "end": 226.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 227.74,
+            "end": 229.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 229.96,
+            "end": 234.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 235.04,
+            "end": 237.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 238.32,
+            "end": 242.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 242.4,
+            "end": 245.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 246.28,
+            "end": 251.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 252.3,
+            "end": 257.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 258.3,
+            "end": 259.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 260.02,
+            "end": 261.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 262.04,
+            "end": 265.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 266.3,
+            "end": 267.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 267.92,
+            "end": 268.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 269.54,
+            "end": 273.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 273.64,
+            "end": 277.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 277.86,
+            "end": 281.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 282.36,
+            "end": 293.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 293.44,
+            "end": 297.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.54,
+            "end": 297.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 298.54,
+            "end": 300.32,
+            "coverage": 0.9615
+          },
+          {
+            "start": 300.82,
+            "end": 305.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 305.16,
+            "end": 310.54,
+            "coverage": 0.973
+          },
+          {
+            "start": 310.9,
+            "end": 313.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 313.82,
+            "end": 319.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 320.18,
+            "end": 324.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 325.82,
+            "end": 327.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 328.46,
+            "end": 332.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 332.68,
+            "end": 337.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 338.1,
+            "end": 342.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 343.54,
+            "end": 347.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 347.68,
+            "end": 361.46,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "4": {
+        "duration": 472.26775,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%202%20Part%204.mp3",
+        "audioSha256": "4296a626cf53393b8c531324cb6bd001d8d0f89ed4daf8b7f33830e5c4bbb3f5",
+        "transcriptSha256": "d34b77eb5bcb56fbe4d94f4301dcf099a92ee0507520a49574be0187ca15042a",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9979,
+        "lines": [
+          {
+            "start": 0.96,
+            "end": 6.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 7.9,
+            "end": 12.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 77.08,
+            "end": 82.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 85.42,
+            "end": 90.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 91.58,
+            "end": 105.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 105.96,
+            "end": 115.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 116.58,
+            "end": 124.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 126.08,
+            "end": 135.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 136.54,
+            "end": 150.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 151.6,
+            "end": 159.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 161.02,
+            "end": 172.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 172.98,
+            "end": 187.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 192.2,
+            "end": 201.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 201.72,
+            "end": 205.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 206.78,
+            "end": 212.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 213.66,
+            "end": 221.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 222.18,
+            "end": 234.9,
+            "coverage": 0.9927
+          },
+          {
+            "start": 236.22,
+            "end": 246.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 247.5,
+            "end": 268.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 270.02,
+            "end": 276.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 277.36,
+            "end": 285.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 287.0,
+            "end": 296.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.26,
+            "end": 309.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 311.02,
+            "end": 323.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 324.9,
+            "end": 329.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 330.92,
+            "end": 337.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 338.3,
+            "end": 343.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 344.58,
+            "end": 354.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 357.14,
+            "end": 370.6,
+            "coverage": 0.9784
+          },
+          {
+            "start": 371.58,
+            "end": 380.66,
+            "coverage": 0.9691
+          },
+          {
+            "start": 381.68,
+            "end": 389.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 390.62,
+            "end": 400.18,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 401.98,
+            "end": 407.46,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 408.44,
+            "end": 414.56,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 415.62,
+            "end": 417.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 418.68,
+            "end": 428.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 430.02,
+            "end": 437.26,
+            "coverage": 0.9895
+          },
+          {
+            "start": 438.78,
+            "end": 445.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 446.58,
+            "end": 457.52,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 458.14,
+            "end": 462.98,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 465.1,
+            "end": 471.38,
+            "coverage": 1.0,
+            "refined": true
+          }
+        ]
+      }
+    },
+    "questions": {
+      "1": {
+        "part": 1,
+        "time": 71.82,
+        "line": 11,
+        "evidenceScore": 52.29
+      },
+      "2": {
+        "part": 1,
+        "time": 97.28,
+        "line": 15,
+        "evidenceScore": 73.0
+      },
+      "3": {
+        "part": 1,
+        "time": 111.38,
+        "line": 19,
+        "evidenceScore": 56.0
+      },
+      "4": {
+        "part": 1,
+        "time": 123.18,
+        "line": 22,
+        "evidenceScore": 47.0
+      },
+      "5": {
+        "part": 1,
+        "time": 184.96,
+        "line": 28,
+        "evidenceScore": 66.0
+      },
+      "6": {
+        "part": 1,
+        "time": 199.58,
+        "line": 30,
+        "evidenceScore": 38.84
+      },
+      "7": {
+        "part": 1,
+        "time": 215.42,
+        "line": 32,
+        "evidenceScore": 64.0
+      },
+      "8": {
+        "part": 1,
+        "time": 232.1,
+        "line": 35,
+        "evidenceScore": 89.0
+      },
+      "9": {
+        "part": 1,
+        "time": 243.88,
+        "line": 37,
+        "evidenceScore": 60.0
+      },
+      "10": {
+        "part": 1,
+        "time": 254.36,
+        "line": 40,
+        "evidenceScore": 47.0
+      },
+      "11": {
+        "part": 2,
+        "time": 92.38,
+        "line": 8,
+        "evidenceScore": 31.0
+      },
+      "12": {
+        "part": 2,
+        "time": 100.84,
+        "line": 9,
+        "evidenceScore": 41.0
+      },
+      "13": {
+        "part": 2,
+        "time": 127.7,
+        "line": 12,
+        "evidenceScore": 25.0
+      },
+      "14": {
+        "part": 2,
+        "time": 160.38,
+        "line": 16,
+        "evidenceScore": 81.0
+      },
+      "15": {
+        "part": 2,
+        "time": 182.52,
+        "line": 19,
+        "evidenceScore": 67.0
+      },
+      "16": {
+        "part": 2,
+        "time": 200.32,
+        "line": 21,
+        "evidenceScore": 30.0
+      },
+      "17": {
+        "part": 2,
+        "time": 285.98,
+        "line": 28,
+        "evidenceScore": 22.0
+      },
+      "18": {
+        "part": 2,
+        "time": 321.36,
+        "line": 32,
+        "evidenceScore": 98.0
+      },
+      "19": {
+        "part": 2,
+        "time": 340.1,
+        "line": 34,
+        "evidenceScore": 38.0
+      },
+      "20": {
+        "part": 2,
+        "time": 369.68,
+        "line": 38,
+        "evidenceScore": 64.0
+      },
+      "21": {
+        "part": 3,
+        "time": 73.72,
+        "line": 8,
+        "evidenceScore": 39.0
+      },
+      "22": {
+        "part": 3,
+        "time": 93.4,
+        "line": 12,
+        "evidenceScore": 18.0
+      },
+      "23": {
+        "part": 3,
+        "time": 104.82,
+        "line": 15,
+        "evidenceScore": 49.0
+      },
+      "24": {
+        "part": 3,
+        "time": 120.9,
+        "line": 21,
+        "evidenceScore": 26.0
+      },
+      "25": {
+        "part": 3,
+        "time": 142.22,
+        "line": 27,
+        "evidenceScore": 41.0
+      },
+      "26": {
+        "part": 3,
+        "time": 220.58,
+        "line": 36,
+        "evidenceScore": 24.0
+      },
+      "27": {
+        "part": 3,
+        "time": 260.02,
+        "line": 45,
+        "evidenceScore": 14.0
+      },
+      "28": {
+        "part": 3,
+        "time": 293.44,
+        "line": 53,
+        "evidenceScore": 44.0
+      },
+      "29": {
+        "part": 3,
+        "time": 305.16,
+        "line": 57,
+        "evidenceScore": 39.0
+      },
+      "30": {
+        "part": 3,
+        "time": 343.54,
+        "line": 65,
+        "evidenceScore": 30.0
+      },
+      "31": {
+        "part": 4,
+        "time": 91.58,
+        "line": 4,
+        "evidenceScore": 66.0
+      },
+      "32": {
+        "part": 4,
+        "time": 151.6,
+        "line": 9,
+        "evidenceScore": 110.0
+      },
+      "33": {
+        "part": 4,
+        "time": 172.98,
+        "line": 11,
+        "evidenceScore": 56.0
+      },
+      "34": {
+        "part": 4,
+        "time": 213.66,
+        "line": 15,
+        "evidenceScore": 90.0
+      },
+      "35": {
+        "part": 4,
+        "time": 236.22,
+        "line": 17,
+        "evidenceScore": 66.0
+      },
+      "36": {
+        "part": 4,
+        "time": 311.02,
+        "line": 23,
+        "evidenceScore": 58.0
+      },
+      "37": {
+        "part": 4,
+        "time": 338.3,
+        "line": 26,
+        "evidenceScore": 55.0
+      },
+      "38": {
+        "part": 4,
+        "time": 371.58,
+        "line": 29,
+        "evidenceScore": 58.0
+      },
+      "39": {
+        "part": 4,
+        "time": 418.68,
+        "line": 35,
+        "evidenceScore": 68.0
+      },
+      "40": {
+        "part": 4,
+        "time": 446.58,
+        "line": 38,
+        "evidenceScore": 62.0
+      }
+    }
+  }
+}
