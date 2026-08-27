@@ -41,9 +41,13 @@ jobs:
           node tools/test-flashcard-conflict-recovery-ui.mjs
           node tools/test-flashcard-pwa-critical-update.mjs
           node tools/test-flashcard-login-singleflight.mjs
+          node tools/test-flashcard-private-decks.mjs
 
       - name: Refresh lightweight IELTS Reading deck index
         run: node tools/generate-ielts-reading-index.mjs
+
+      - name: Validate Eddie Farm points and purchase safety
+        run: node --test tools/test-eddie-farm.mjs tools/test-eddie-farm-i18n.mjs
 
       - name: Validate and regenerate the complete Phrasal Verb catalogue
         run: |
@@ -202,6 +206,7 @@ jobs:
           node tools/test-schedule-self-evaluation-admin.mjs
           node tools/test-schedule-reminder-email-and-hotkeys.mjs
           node tools/test-schedule-email-linked-homework.mjs
+          node tools/test-email-v2.mjs
           node tools/test-schedule-quote-encouragement.mjs
           node tools/test-schedule-announcement-edit.mjs
           node tools/test-schedule-system.mjs
@@ -272,7 +277,9 @@ jobs:
       - name: Prepare site files
         run: |
           mkdir _site
+          node tools/ielts-reading-analysis-publication-excludes.mjs > /tmp/ielts-reading-analysis-excludes.txt
           rsync -av \
+            --exclude-from=/tmp/ielts-reading-analysis-excludes.txt \
             --exclude='.git' \
             --exclude='.github' \
             --exclude='.DS_Store' \

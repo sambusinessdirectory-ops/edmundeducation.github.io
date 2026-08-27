@@ -595,6 +595,22 @@ button.title-card {
 
 .title-card.available small { color: #9a5c18; }
 
+.title-card.locked,
+.article-status-card.is-locked {
+  border-color: #e6b989;
+  background: #ffe5c7;
+  box-shadow: none;
+}
+
+button.title-card.locked {
+  opacity: 1;
+  cursor: not-allowed;
+  color: var(--ink);
+}
+
+.title-card.locked small { color: #79451f; }
+.article-status-card.is-locked .article-status-icon { display: none; }
+
 .title-card-arrow {
   width: 42px;
   height: 42px;

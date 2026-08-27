@@ -2,7 +2,7 @@ import {
   createArticleRepository,
   questionNumberLabel,
   questionNumbers,
-} from "./ielts-reading-analysis-loader.mjs?v=20260822-1";
+} from "./ielts-reading-analysis-loader.mjs?v=20260827-locks1";
 
 (function () {
   "use strict";
@@ -161,20 +161,26 @@ import {
 
   function renderTitleCard(record) {
     const articleAvailability = availabilityForRecord(record);
+    const locked = articleAvailability?.locked;
     const card = make(
       articleAvailability ? "button" : "article",
-      `title-card${articleAvailability ? " available" : ""}`,
+      `title-card${locked ? " locked" : articleAvailability ? " available" : ""}`,
     );
     if (articleAvailability) card.type = "button";
+    if (locked) {
+      card.disabled = true;
+      card.setAttribute("aria-disabled", "true");
+      card.setAttribute("aria-label", `${record.title}：暫停開放，待管理員修訂`);
+    }
 
     const copy = make("span", "title-card-copy");
     copy.append(
       make("strong", "", record.title),
-      make("small", "", articleAvailability ? "完整答案及逐題解卷分析" : "文章名稱已收錄"),
+      make("small", "", locked ? "暫停開放 · 待管理員修訂" : articleAvailability ? "完整答案及逐題解卷分析" : "文章名稱已收錄"),
     );
     card.append(copy);
 
-    if (articleAvailability) {
+    if (articleAvailability && !locked) {
       card.append(make("span", "title-card-arrow", "→"));
       card.setAttribute("aria-label", `開啟 ${record.title} 解卷分析`);
       card.addEventListener("click", () => navigate({ article: articleAvailability.id }));
@@ -398,17 +404,23 @@ import {
   }
 
   function renderArticleStatus(articleAvailability, status) {
+    const isLocked = status === "locked";
     const isError = status !== "loading";
     const canRetry = status === "error";
     const title = articleTitleForAvailability(articleAvailability);
     elements.articleStatusCard.classList.toggle("is-error", isError);
+    elements.articleStatusCard.classList.toggle("is-locked", isLocked);
     elements.articleStatusView.setAttribute("aria-busy", isError ? "false" : "true");
-    elements.articleStatusTitle.textContent = status === "not-found"
+    elements.articleStatusTitle.textContent = isLocked
+      ? `「${title}」暫停開放`
+      : status === "not-found"
       ? "找不到這篇解卷分析"
       : isError
       ? `未能載入「${title}」`
       : `正在載入「${title}」`;
-    elements.articleStatusMessage.textContent = status === "not-found"
+    elements.articleStatusMessage.textContent = isLocked
+      ? "這篇分析正等待管理員補回題圖及修訂內容，完成審核後才會重新開放。"
+      : status === "not-found"
       ? "這個文章連結並不存在，請返回文章目錄重新選擇。"
       : isError
       ? "請檢查網絡連線後重新載入，或先返回文章目錄。"
@@ -446,6 +458,12 @@ import {
 
       state.article = null;
       state.passage = articleAvailability.passage;
+      if (articleAvailability.locked) {
+        renderArticleStatus(articleAvailability, "locked");
+        showView("article-status");
+        document.title = "解卷分析暫停開放 | EdmundEducation";
+        return;
+      }
       const loadedArticle = articleRepository.getLoaded(articleId);
       if (loadedArticle) {
         finishArticleRoute(loadedArticle);

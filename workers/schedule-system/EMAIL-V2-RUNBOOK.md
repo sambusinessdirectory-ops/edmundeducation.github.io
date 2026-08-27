@@ -1,0 +1,76 @@
+# Email v2: activation and debugging
+
+## Activation status
+
+Production database activation was approved and applied on **2026-08-27** (migration
+`20260827110241`). The deployed Worker health endpoint reports `emailVersion: 2`.
+The dependent frontend can now be published. Do not reapply the migration.
+The first production scheduler cycle completed at 11:06 UTC with no error, and
+all five page monitors established their initial baselines. Existing email jobs
+and logs remained at three each; no subscriber records were created by deployment.
+No real recipients were emailed during the automated tests.
+
+## Deployment order
+
+1. Obtain explicit approval to update the live email queue/database and enable public subscription notifications. Preserve existing student data and all email history. Review the current database backup before applying.
+2. Apply only `supabase/migrations/20260827110241_email_audit_preview_subscriptions.sql` to project `ookkxzgpdclzrrhfmvqx` (already applied; these are reference steps for a fresh environment). Do not blindly push unrelated pending migrations. It creates private subscriber/audit/snapshot tables, replaces queue functions, adds state-history triggers, and changes template deletion to retain delivery records.
+3. Run security/performance advisors, inspect new function privileges and RLS, and verify the admin log endpoint's data isolation after deploying the Worker. Existing OAuth secrets stay unchanged.
+4. Deploy `workers/schedule-system`. Its configuration adds `EMAIL_SIGNUP_RATE_LIMITER`. Check `/v1/health` reports `emailVersion: 2`.
+5. Publish only this feature's frontend changes. In Homework → Email 內容設計, select the visitor notification sender if not automatically pinned from the one existing connected administrator. A future Gmail address change on that same admin is supported; queued messages from a different sender stay paused for review.
+6. Confirm the five monitors and scheduler timestamps appear in Email Log. Initial page baselines never trigger a broadcast. Test delivery only to an address the admin explicitly selects; observe its website ID, MIME Message-ID and Gmail ID. Test a small image + PDF, then a deliberately misspelled message and cancellation.
+7. For public signup testing, use a mailbox owned by the tester. Confirm it, publish a meaningful page update, verify the notification, unsubscribe, then verify no further updates are queued. Do not use real student addresses for synthetic tests.
+
+The migration is transactional. If application fails, it rolls back. After a successful application, do not “roll back” by dropping the new tables: that would erase new records. Prefer a forward fix. Reverting only the frontend/Worker is not a complete database rollback, so review the queue first.
+
+## IDs and states
+
+- Website email ID: the job UUID, created before contacting Gmail; it is stable across retries.
+- `Message-ID`: `<job-uuid@edmundeducation.com>` in new outgoing MIME. In the sending Gmail search for `rfc822msgid:job-uuid@edmundeducation.com`. Historical pre-v2 email records do not claim this header existed.
+- Gmail ID: stored only after Gmail returns a successful response with its ID.
+- Request ID: links upload, validation, save, preview confirmation, spellcheck result, and queue entries. Multiple recipients have separate email IDs under one request.
+- `accepted`: Gmail accepted the API request, **not** inbox delivery. This send-only integration cannot prove inbox placement, opens, or bounces. Do not label it “delivered”.
+- `uncertain`: Gmail may have accepted, but the response or record was lost. Never auto-resend; inspect Gmail Sent and the `gmail_accepted` checkpoint first.
+- Explicit `429` and pre-send transient authorization-service failures may retry up to three attempts with ten-minute backoff. HTTP 5xx after submission and network/response failures are uncertain.
+
+## Debug map
+
+| Checkpoint / symptom | Check next |
+| --- | --- |
+| Browser error with no server request entry | Network/offline, JavaScript console, current admin session; retain the shown request ID. No email ID exists before queueing. |
+| `authentication` / HTTP 401 | Log into Homework again. Never put an admin token or Google secret in a screenshot. |
+| `upload_parsed` / HTTP 413 | Multipart upload limit; image max 2 MiB, at most three PDFs each 5 MiB, combined PDFs 10 MiB. |
+| `validation` | File magic/type, PDF count and retained-file totals, recipient IDs, HTTPS signature link, content length. |
+| `template_saved` | An atomic revision identifies the saved message. `DRAFT_CHANGED` means preview again. |
+| `preview_approved` / `spellcheck` | `passed`, an explicit warning override, unavailable-check override, or draft-only `not_checked`. Text is checked locally with vendored Harper; Chinese is not checked. |
+| `queued` | Email IDs exist. Check waiting reason, next attempt, connected sender, quota, scheduler timestamps. |
+| `claimed` | Worker reserved the job. A stale pre-send claim can retry; a stale post-submission claim becomes uncertain. |
+| `token_refresh` | `invalid_grant`: reconnect the saved Gmail. HTTP 429/5xx can retry. Never log the refresh/access token. |
+| `mime_built` | Byte count, attachment count, signature presence. Assets are snapshotted so later draft edits do not alter queued mail. |
+| `gmail_request` | Gmail HTTP response; 403 usually needs permission/scope inspection, 429 needs backoff. |
+| `gmail_accepted` | Record Gmail ID. If final persistence fails, only recording is retried; Gmail is not called again. |
+| `accepted`, but mailbox empty | Search recipient spam/all-mail and sender Sent. Gmail acceptance is not proof of final delivery. |
+| Scheduler timestamp stale / `last_error` | Cloudflare cron logs and database connectivity. If the database itself is unavailable, diagnostics fall back to redacted Worker logs. |
+| Page monitor `last_error` | Public page HTTP status / missing main content; failed reads never become new content or trigger a notice. |
+
+## Visitor behavior and boundaries
+
+`email-subscribe.html` provides page selection → confirmation email → explicit confirmation. Confirmation tokens are stored hashed and expire after 24 hours. Link actions require a button press (GET/link scanners do not confirm or unsubscribe). Unsubscribe links are HMAC-signed and stop queued notifications; messages already handed to Gmail cannot be recalled.
+
+Subscriber records and visitor emails are separate from student identities. The admin log has audience filters and a visitor directory. The first public sender is pinned to its administrator identity so another admin reconnecting Gmail cannot silently take over subscriptions.
+
+The form has an IP rate limit, honeypot, one confirmation per address per hour, and a 50-confirmation rolling-day ceiling; this ceiling is a safety default, not an additional Gmail quota. All student, confirmation, and visitor-update emails share the 400-per-rolling-24-hours application limit. Gmail can impose stricter limits.
+
+About every five minutes the Worker compares the five published pages' main markup, plus database-published newsletter/music records. Browser-local News Analysis / English Study drafts are not public and are intentionally excluded. Updating a linked asset in place without changing its URL or the page markup is not detected. Several changes between polls produce one current-version notification, not one email per keystroke. Styles/scripts outside `<main>` are excluded. No initial-baseline notification is sent.
+
+Subscriber data remains private behind secret-guarded Worker functions and custom admin-token checks; new tables have RLS and no direct client privileges. Request-only diagnostics retain 30 days; email history and subscriber records persist for admin support. The signup page explains data usage and how to request deletion. It does not claim the existing blank site-wide legal pages constitute a compliance review.
+
+## Repeatable local checks
+
+```sh
+node tools/test-email-v2.mjs
+node tools/test-schedule-email-linked-homework.mjs
+node tools/test-schedule-reminder-email-and-hotkeys.mjs
+node tools/test-pwa-and-brand-metadata.mjs
+```
+
+Isolated database/DOM checks use PGlite and jsdom (not production): install them in a temporary directory, then set `EMAIL_QA_MODULES` to that directory and run `tools/test-email-v2-database.mjs` and `tools/test-email-v2-ui.mjs`. The fixture deliberately does not emulate every production extension; `extensions.digest` is a local SHA-256 shim. Production verification remains necessary after approved activation.

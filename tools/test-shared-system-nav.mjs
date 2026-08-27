@@ -9,6 +9,10 @@ const scriptSource = fs.readFileSync(path.join(root, "shared-system-nav.js"), "u
 const cssSource = fs.readFileSync(path.join(root, "shared-system-nav.css"), "utf8");
 const sharedNavRelease = "20260822-night-invitation1";
 
+test("the night-return message explicitly stays white over its dark background", () => {
+  assert.match(cssSource, /\.edmund-night-return #edmund-night-return-title\s*\{\s*color:\s*#fff;\s*\}/);
+});
+
 class MemoryStorage {
   constructor() { this.values = new Map(); }
   getItem(key) { return this.values.has(key) ? this.values.get(key) : null; }
@@ -31,6 +35,7 @@ function navigationRuntime() {
     sessionStorage,
     localStorage,
     clearTimeout,
+    setInterval() {},
     setTimeout
   };
   vm.runInNewContext(scriptSource, {
@@ -347,7 +352,8 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
     "poem-english-system.html",
     "bookmark-directory.html",
     "execution-system.html",
-    "reading-comprehension.html"
+    "reading-comprehension.html",
+    "eddie-farm.html"
   ]);
   const progressSystem = api.systems.find(({ id }) => id === "progress");
   assert.equal(progressSystem?.zh, "全面英文能力發展進度表");
