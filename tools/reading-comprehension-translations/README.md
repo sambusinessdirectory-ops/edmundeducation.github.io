@@ -27,7 +27,9 @@ is not evidence that it has been uploaded. Record verified uploads below.
 
 2026-08-27: p1-001 through p1-007, p1-009, p1-010 and p1-011.
 2026-08-28: also p1-012 and p1-014 through p1-017.
-15 of 436 articles; 111 paragraphs; 421 articles remain. Next: p1-018.
+2026-08-28 (next set): p1-018 through p1-021, p1-023, p1-024,
+p1-026 through p1-032, p1-034 and p1-035 (15 articles / 120 paragraphs).
+30 of 436 articles; 231 paragraphs; 406 articles remain. Next: p1-036.
 Database content and English-source hashes match the validated local rows exactly.
 Authenticated RPC reads passed; anonymous requests and invalid student tokens
 were rejected. All synthetic test records were rolled back. Direct client table
@@ -43,6 +45,18 @@ historical medical/legal claims. The Everest translation explicitly identifies
 the source's suspect altitude and year rather than silently replacing them.
 The incomplete treatment-duration range in p1-016 is explicitly marked rather
 than filled in speculatively. Historical energy figures in p1-017 are preserved.
+Notes in p1-018 identify the source's "nam bread" typo. The
+Mozart passage (p1-029) preserves an inconsistent citation year and historical
+medical claims; the seaweed passage (p1-032) preserves local names and the
+source's terminology. The banana passage (p1-034) retains the original time
+frame of its forecasts. The river passage (p1-035) preserves the source's dam
+location wording without guessing an upstream/downstream correction.
+
+For the latest set, all 30 database rows (text, source hashes and publication
+flags) were compared against validated local payloads and matched exactly.
+Authenticated RPC reads were tested for all 15 newly added articles, alongside
+anonymous/invalid-token rejection and the withheld-article check, in a rolled-back
+transaction. Translation, catalogue, portal and reading-enhancement tests passed.
 
 The database-backed reader was published successfully in GitHub Pages run
 33090844037. The live JavaScript matches the tested source exactly. Further
