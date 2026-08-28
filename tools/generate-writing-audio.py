@@ -275,26 +275,31 @@ def align_sentence_words(
     sample_rate: int,
     start_seconds: float,
     aligner: WhisperModel,
+    *,
+    context_audio: np.ndarray | None = None,
 ) -> list[list[object]]:
     """Derive visible-word timings from the generated sentence audio itself."""
     visible = display_words(sentence)
     if not visible:
         return []
     expected_text = "".join(normalized_chars(word) for word, _ in visible)
+    duration_seconds = len(audio) / sample_rate
 
-    def recognize(initial_prompt: str | None) -> list[tuple[str, float, float]]:
+    def recognize(initial_prompt: str | None, beam_size: int = 5, with_context: bool = False) -> list[tuple[str, float, float]]:
         options: dict[str, object] = {
             "language": "en",
             "task": "transcribe",
-            "beam_size": 5,
+            "beam_size": beam_size,
             "word_timestamps": True,
             "vad_filter": False,
             "condition_on_previous_text": False,
         }
         if initial_prompt:
             options["initial_prompt"] = initial_prompt
+        leading_seconds = len(context_audio) / sample_rate if with_context else 0.0
+        recognition_audio = np.concatenate((context_audio, audio)) if with_context else audio
         segments, _ = aligner.transcribe(
-            resample_for_alignment(audio, sample_rate),
+            resample_for_alignment(recognition_audio, sample_rate),
             **options,
         )
         words: list[tuple[str, float, float]] = []
@@ -302,7 +307,13 @@ def align_sentence_words(
             for word in segment.words or []:
                 token = normalized_chars(word.word)
                 if token and word.start is not None and word.end is not None:
-                    words.append((token, float(word.start), float(word.end)))
+                    start, end = float(word.start), float(word.end)
+                    if with_context:
+                        start, end = start - leading_seconds, end - leading_seconds
+                        if end <= 0 or start >= duration_seconds:
+                            continue
+                        start, end = max(0.0, start), min(duration_seconds, end)
+                    words.append((token, start, end))
         return words
 
     def map_recognized(words: list[tuple[str, float, float]]) -> tuple[dict[int, int], float]:
@@ -317,20 +328,23 @@ def align_sentence_words(
         return mapped, matched_chars / max(1, len(expected_text))
 
     recognized = recognize(spoken_text(sentence))
-    if not recognized:
-        raise ValueError(f"Speech alignment returned no words for: {sentence!r}")
     char_map, confidence = map_recognized(recognized)
-    if confidence < 0.82:
-        # An exact prompt occasionally makes Whisper omit an otherwise audible
-        # clause. Retry the same waveform without a prompt and keep whichever
-        # transcript maps more completely to the visible essay.
-        retry = recognize(None)
+    # Alternate decoding can recover omitted clauses. Preceding audio helps
+    # short phrases, but only words inside this sentence count toward confidence.
+    for beam_size, with_context in ((5, False), (1, False), (5, True)):
+        if confidence >= 0.82:
+            break
+        if with_context and (context_audio is None or not len(context_audio)):
+            continue
+        retry = recognize(None, beam_size, with_context)
         if retry:
             retry_map, retry_confidence = map_recognized(retry)
             if retry_confidence > confidence:
                 recognized = retry
                 char_map = retry_map
                 confidence = retry_confidence
+    if not recognized:
+        raise ValueError(f"Speech alignment returned no words for: {sentence!r}")
     if confidence < 0.82:
         raise ValueError(
             f"Low-confidence speech alignment ({confidence:.1%}) for: {sentence!r}"
@@ -361,7 +375,6 @@ def align_sentence_words(
 
     # Rare ASR substitutions are filled only inside their immediate neighbours;
     # every following sentence starts from a fresh audio-derived alignment.
-    duration_seconds = len(audio) / sample_rate
     for index, timing in enumerate(raw):
         if timing is not None:
             continue

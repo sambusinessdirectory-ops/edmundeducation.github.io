@@ -7,6 +7,7 @@ const AUDIO_PREFIXES = [
   "assets/speaking-system/audio/edmund-neural/part1/",
   "assets/speaking-system/audio/edmund-neural/part3/",
   "assets/speaking-system/audio/edmund-neural/exam/",
+  "assets/reading-comprehension/audio/edmund-neural/",
   "IELTS Listening - Recordings/"
 ];
 const IELTS_LISTENING_PREFIX = "IELTS Listening - Recordings/";
@@ -284,7 +285,7 @@ export default {
       return listeningCatalogue(request, env);
     }
     if (url.pathname === "/" || url.pathname === "/health") {
-      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["part1", "part3", "exam", "flashcards", "ielts-listening"] }), {
+      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["part1", "part3", "exam", "flashcards", "ielts-listening", "reading-comprehension"] }), {
         headers: {
           "Cache-Control": "no-store",
           "Content-Type": "application/json; charset=utf-8",

@@ -1,10 +1,11 @@
-import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink } from './reading-comprehension-features.mjs?v=20260827-corpus1';
+import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink, validateReadingAudioTimings } from './reading-comprehension-features.mjs?v=20260829-audio1';
 
 const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
-const CATALOGUE_VERSION = '20260827-corpus1';
+const CATALOGUE_VERSION = '20260829-audio1';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
+const audioTimingCache = new Map();
 
 const state = {
   supabase: null, token: "", user: null, view: "login", data: null, analysis: null,
@@ -410,14 +411,40 @@ function paragraphAudioRange(number) {
   const counts = state.data.paragraphs.map((p) => (p.text.match(/[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*/gu) || []).length); const from = counts.slice(0, number - 1).reduce((a, b) => a + b, 0); const to = from + counts[number - 1] - 1; const words = state.audioItem.words || []; return words[from] && words[to] ? { number, start: words[from].start, end: words[to].end } : null;
 }
 function playParagraph(number) { const range = paragraphAudioRange(number); if (!range) return showToast("本段朗讀暫時未能載入。"); state.audioStopAt = Number(range.end); el.audio.currentTime = Number(range.start); el.audio.play().catch(() => showToast("瀏覽器未能開始播放，請再按一次。")); }
+async function loadAudioTimings(item, article) {
+  const key = item.timingsSrc;
+  if (!audioTimingCache.has(key)) audioTimingCache.set(key, (async () => {
+    const response = await fetch(key);
+    if (!response.ok) throw new Error(`Reading word timings: HTTP ${response.status}`);
+    return response.json();
+  })().catch((error) => { audioTimingCache.delete(key); throw error; }));
+  const payload = await audioTimingCache.get(key);
+  if (!validateReadingAudioTimings(payload, item, article)) {
+    audioTimingCache.delete(key);
+    throw new Error('Reading word timings do not match this article');
+  }
+  if (state.audioItem !== item || state.data !== article) return;
+  item.words = payload.words;
+  el.sync.disabled = false;
+  syncWord(item);
+}
 function setupAudio() {
   const item = AUDIO_MANIFEST[ARTICLE_ID] || AUDIO_MANIFEST.items?.[ARTICLE_ID];
-  state.audioItem = item || null; el.audio.pause(); el.audio.currentTime = 0;
+  state.audioItem = item ? { ...item } : null; el.audio.pause(); el.audio.currentTime = 0;
+  $$('.spoken-word.is-active').forEach((node) => node.classList.remove('is-active'));
   [el.audioToggle,el.audioBack,el.audioSeek,el.audioRate,el.sync].forEach((node) => { node.disabled = !item?.src; });
   $$('[data-play-paragraph]').forEach((node) => { node.hidden = !item?.src; });
   $('[data-audio-availability]').hidden = Boolean(item?.src);
   if (!item?.src) { el.audio.removeAttribute('src'); el.audio.load(); updateAudioDisplay(); return; }
   el.audio.src = item.src; el.audioToggle.textContent = '▶ 朗讀全文';
+  if (item.timingsSrc && !item.words) {
+    el.sync.disabled = true;
+    const pendingItem = state.audioItem;
+    loadAudioTimings(pendingItem, state.data).catch((error) => {
+      console.warn('Reading word highlighting unavailable', error);
+      if (state.audioItem === pendingItem) showToast('逐字標示暫時未能載入；全文及分段朗讀仍可使用。');
+    });
+  }
   if (state.audioSetup) return; state.audioSetup = true;
   el.audio.addEventListener("loadedmetadata", () => { el.audioSeek.max = String(el.audio.duration || 1); updateAudioDisplay(); });
   el.audio.addEventListener("timeupdate", () => { if (state.audioStopAt !== null && el.audio.currentTime >= state.audioStopAt) { state.audioStopAt = null; el.audio.pause(); } el.audioSeek.value = String(el.audio.currentTime); updateAudioDisplay(); if (state.audioItem) syncWord(state.audioItem); });

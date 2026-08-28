@@ -217,6 +217,7 @@ def main():
     parser.add_argument('--render',action='store_true')
     args=parser.parse_args()
     inventory=json.loads((args.cache/'inventory.json').read_text())['sources']
+    audio_manifest=assigned(ROOT/'reading-comprehension-audio-manifest.js')
     bundled=assigned(ROOT/'ielts-reading-analysis-content.js')['articles']
     corrections=json.loads((ROOT/'tools/reading-comprehension-source-corrections.json').read_text())
     download_script=(ROOT/'workers/model-essay-downloads/src/reading-catalog.js').read_text()
@@ -264,6 +265,9 @@ def main():
                     (ROOT/'reading-comprehension-data/analysis-p2-119.json').write_text(json.dumps(analysis,ensure_ascii=False,indent=2)+'\n')
             cached=json.loads((args.cache/f'{cid}.json').read_text())
             d,m,k,pages=build(row,cached,analysis,download_ids.get(cid))
+            narration=audio_manifest.get(cid,{})
+            source_hash=hashlib.sha256('\n\n'.join(p['text'] for p in d['paragraphs']).encode()).hexdigest()
+            m['audio']=bool(narration.get('src') and narration.get('sourceSha256')==source_hash)
             for qn,key in k.items():
                 if any(re.search(r'[\u3400-\u9fff]',v) for v in key['accepted']):
                     key['requiresReview']=True

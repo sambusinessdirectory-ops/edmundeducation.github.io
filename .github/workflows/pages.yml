@@ -134,6 +134,7 @@ jobs:
           node tools/test-reading-comprehension-system.mjs
           node tools/test-reading-comprehension-enhancements.mjs
           node tools/test-reading-comprehension-catalogue.mjs
+          node tools/test-reading-comprehension-audio.mjs
           node tools/test-reading-translations.mjs
 
       - name: Validate IELTS Reading analysis catalogue and Mungo Man content

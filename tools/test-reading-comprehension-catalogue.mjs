@@ -10,6 +10,9 @@ const root = new URL('../', import.meta.url);
 const read = (path) => readFile(new URL(path, root), 'utf8');
 const json = async (path) => JSON.parse(await read(path));
 const catalogue = (await json('reading-comprehension-catalogue.json')).articles;
+const audioContext = { window: {} };
+vm.runInNewContext(await read('reading-comprehension-audio-manifest.js'), audioContext);
+const audioManifest = audioContext.window.EDMUND_READING_AUDIO;
 const translations = new Map((await inventory()).rows.map(row => [row.article_id, row.content]));
 const seed = await json('tools/reading-comprehension-answer-seed.json');
 const held = new Set([
@@ -62,7 +65,7 @@ for (const entry of catalogue) {
     imageCount++;
   }
   if (entry.id !== 'p1-069-albert-einstein') {
-    assert.equal(entry.audio, false, 'Do not promise ungenerated narration');
+    assert.equal(entry.audio, Boolean(audioManifest[entry.id]?.src), 'Only promise published narration');
     assert.equal(entry.translations, data.paragraphs.every(p => Boolean(p.translation)), 'Static catalogue flags describe bundled translations; database translations load separately');
     assert.ok(data.questionPages.length && data.questionGroups.length);
   }

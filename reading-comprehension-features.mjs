@@ -51,3 +51,18 @@ export function readingBookmarkLink(target) {
   const anchor = target.kind === 'questions' ? 'questions-title' : target.number ? `${paragraph ? 'paragraph' : 'question'}-${target.number}` : '';
   return `reading-comprehension.html?${params}${anchor ? `#${anchor}` : ''}`;
 }
+
+export function validateReadingAudioTimings(payload, item, article) {
+  if (!payload || payload.articleId !== article.id || payload.sourceSha256 !== item.sourceSha256
+      || !Array.isArray(payload.words) || payload.words.length !== item.wordCount) return false;
+  const expected = article.paragraphs.flatMap((paragraph) =>
+    paragraph.text.match(/[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*/gu) || []);
+  if (expected.length !== payload.words.length) return false;
+  let previous = 0;
+  return payload.words.every((word, index) => {
+    const valid = word.label === expected[index] && Number.isFinite(word.start) && Number.isFinite(word.end)
+      && word.start >= previous && word.end >= word.start && word.end <= item.duration + 0.002;
+    previous = word.end;
+    return valid;
+  });
+}
