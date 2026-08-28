@@ -1,0 +1,15 @@
+{
+  "articleId":"p1-093","locale":"zh-Hant","sourceSha256":"75add6c987129ec2e8a13a3e00df57019ab1c2d8bc9f5b9dd892c1a6aa917378","title":"姓氏","heading":"姓氏",
+  "editorialNotes":["姓氏詞源、職業消失及冰島人沒有姓氏等概括依原文保留；不以翻譯名義另作人名學修訂。所有英文姓氏保留拼法，讓讀者對照構詞例子。"],
+  "paragraphs":[
+    {"number":1,"translation":"研究詞語和語言的專門學問，幾乎總有個冷僻名稱，研究人的名字也不例外。這門學問叫anthroponomastics，即人名學，anthropos意為人，onoma意為名字；不過，別指望日常會用上這個詞。人人都有名字，大多還不止一個。姓氏看似隨意，卻值得細想，因為追溯得夠遠，總會發現形成背後的道理。畢竟，除非改名，這個名字會伴隨一生，再傳給後代。"},
+    {"number":2,"translation":"早期英國人住在小農村，通常終生留在當地，只有一個名字。若村裏只有一個John，單憑這個名字已足以辨認。若還有另一個John，只需加些描述，例如「木匠John」和「住山丘附近的John」；第三個可以是「Peter的兒子John」。這些附加稱呼大多短暫，也不傳給後代。但生活當然不會永遠這麼簡單。"},
+    {"number":3,"translation":"城鎮人口增加、人們更常遷移、入侵軍隊來來往往，情況開始複雜。英格蘭採用家族名稱，即姓氏或第二個名字，並非一夜之間發生；若要選一個日期作起點，1379年頗合適。政府那年推出人頭稅，行政上需要列出全國每名成人的名字，突然發現John太多，難以處理。其後1413年的《附加稱謂法》要求姓名附有職業和住址，以解決問題。官僚程序愈來愈多，固定且可世襲的姓氏，最終成為必要。"},
+    {"number":4,"translation":"姓氏形成的方法很多，最明顯是用居住地，但也有問題：例如Wickham的居民若全姓Wickham，顯然會混淆。不過在意大利，這並沒阻止Leonardo da Vinci，即來自Vinci的李奧納多，成為小鎮最著名的人物。英格蘭姓氏也可源於個人信仰，形成Mope、Christian、Godley等；或源於外貌，形成Armstrong、Short、Brown等。有些名字源自蓋爾語，意思因此不易看出：Guilfoyle意為聖保祿的追隨者，Kennedy意為醜陋的頭。"},
+    {"number":5,"translation":"姓氏亦常源於職業，例如Smith（鐵匠）、Butcher（屠夫）和Carpenter（木匠）。不少所指的是文中稱已消失的職業，如Fletcher（製箭者）、Cooper（製桶者）和Heyward（維護圍欄者）。姓氏也常取自住處附近的地理特徵，例如Hill（山丘）、Bush（灌木）、Underwood（樹林下）、Eastlake（東湖）和Bridges（橋）。最後，姓名常反映家族關係：「Peter之子」變成「Peter's son」，再成為Peterson；Johnson、Harrison和Robertson也相似。蘇格蘭蓋爾語使用Mac，因而有MacDonald、MacPherson等姓。"},
+    {"number":6,"translation":"不同國家人口混居，尤其在美國，原來的外語姓名往往改變。有時因發音錯誤，例如Pfoersching變成Pershing；有時則刻意配合英語發音和拼寫，令Krankheit變成Cronkite，Wistinghausen變成Westinghouse。但即使最典型的英語姓氏，在定形前，拼法和發音也往往歷經大幅變化。例如古英語拼寫常被捨棄，以較易讀懂的拼音方式取代，令確切詞義難以追溯。"},
+    {"number":7,"translation":"研究這麼多姓氏，或會令人以為各地都使用姓氏，其實遠非如此。只用單一名字，專門稱為mononym。非洲、印度、中亞、印尼部分地區，以及許多原住民族群，均使用單名。發達地區的單名通常是名人、藝術家、歌手或影星的藝名。日本娛樂界例子甚多，如Mana、Ayaka和Ichiro，韓國、中國和香港也有類似做法。西方有人自創名字，如Bono、Sting、Prince；有人只用姓，如Liberace、Morrissey；有人只用名，如Shakira、Cher。相較之下，音樂人Björk使用單名，是遵循自己的文化。原文概括說，她像所有冰島人一樣，沒有家族姓氏。"},
+    {"number":8,"translation":"最後一點也很有趣：西方文化中，不論口述或書寫，姓氏通常放在名字之後，因此有first name和last name之稱。亞洲文化則相反，反映對家族關係的重視。"},
+    {"number":9,"translation":"由於不少這類文化採用直書，西方所謂的「最後的名字」，在東方便成了「上面的名字」。"}
+  ]
+}
