@@ -1,6 +1,15 @@
 // Metadata only: never store draft text, addresses, image/PDF bytes or tokens.
-export const EMAIL_UI_VERSION='20260828-email4';
+export const EMAIL_UI_VERSION='20260828-email5';
 export const ATTEMPT_STAGES=Object.freeze({
+  page_loaded:'診斷程式已啟動（不是發送）',
+  designer_ready:'電郵編輯器已就緒',
+  log_ready:'記錄介面已就緒（不是發送）',
+  send_clicked:'已按下預覽發送按鈕（尚未發送）',
+  save_clicked:'已按下儲存按鈕（不是發送）',
+  startup_failed:'頁面啟動／程式載入失敗',
+  runtime_failed:'瀏覽器程式執行失敗',
+  diagnostic_failed:'診斷記錄服務失敗',
+  ui_blocked:'操作被暫停（未發送）',
   preview_requested:'正在準備預覽（尚未發送）',
   preview_assets:'正在讀取已儲存圖片（尚未發送）',
   preview_opened:'預覽已開啟，等待最後確認（尚未發送）',
@@ -17,9 +26,9 @@ export function attemptHistory(storage,key) {
 export function recordAttempt({storage,key,requestId,slot,stage,step,state,api}) {
   const entry={requestId,slot,stage,step,state,version:EMAIL_UI_VERSION,time:new Date().toISOString()};
   try {storage.setItem(key,JSON.stringify([...attemptHistory(storage,key),entry].slice(-60)));} catch { /* Network audit still attempted. */ }
-  // Recording a preview must never save, enqueue, or send an email. A failed
-  // telemetry request must not prevent the admin from submitting the draft.
-  void api('/v1/admin/email/client-events',{method:'POST',body:JSON.stringify(entry),headers:{'X-Email-Request-ID':requestId},timeoutMs:8000}).catch(()=>{});
+  // Recording a preview never saves, enqueues, or sends an email. Propagate
+  // recording failures to the caller. New pages use the early durable journal.
+  return api('/v1/admin/email/client-events',{method:'POST',body:JSON.stringify(entry),headers:{'X-Email-Request-ID':requestId},timeoutMs:8000});
 }
 
 export function groupEmailRequests(events) {
@@ -40,6 +49,7 @@ export function groupEmailRequests(events) {
     const hasBrowser=points.some(p=>Object.hasOwn(ATTEMPT_STAGES,p.stage));
     let state=queued?'已建立電郵隊列':committed?'已儲存草稿（非一次性發送）':failed?'步驟失敗；未取得排隊成功證明':cancelled?'已取消（未發送）':hasBrowser?'預覽／提交中；尚未取得排隊成功證明':'伺服器要求；不是寄送成功證明';
     if(readOnly)state='讀取 Email Log（不是發送）';
+    if(!queued && !committed && !failed && points.every(p=>['page_loaded','designer_ready','log_ready','diagnostic_probe'].includes(p.stage)))state='頁面／診斷自我檢查（不是發送）';
     return {requestId,points,readOnly,time:points.at(-1).created_at,state};
   }).sort((a,b)=>new Date(b.time)-new Date(a.time));
 }

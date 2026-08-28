@@ -6,7 +6,7 @@ const GMAIL_SEND_SCOPE = "https://www.googleapis.com/auth/gmail.send";
 export default {
   async fetch(request, env, ctx) {
     const isEmail = new URL(request.url).pathname.startsWith('/v1/admin/email/');
-    const auditRequest = isEmail && request.method!=='OPTIONS' && new URL(request.url).pathname!=='/v1/admin/email/client-events' && !(request.method==='GET' && new URL(request.url).pathname==='/v1/admin/email/logs');
+    const auditRequest = isEmail && request.method!=='OPTIONS' && !['/v1/admin/email/client-events','/v1/admin/email/diagnostics'].includes(new URL(request.url).pathname) && !(request.method==='GET' && new URL(request.url).pathname==='/v1/admin/email/logs');
     const incomingId = request.headers.get('X-Email-Request-ID') || '';
     env = {...env, EMAIL_REQUEST_ID: /^[a-f0-9-]{36}$/i.test(incomingId) ? incomingId : crypto.randomUUID(), EMAIL_ADMIN_TOKEN: bearerToken(request), EMAIL_EVENTS:[]};
     const operation=(async()=>{
@@ -50,24 +50,47 @@ async function route(request, env) {
   }
 
   if (url.pathname === "/v1/health" && request.method === "GET") {
-    return json({ ok: true, service: "edmund-schedule-system", emailVersion:4 }, 200, request, env);
+    return json({ ok: true, service: "edmund-schedule-system", emailVersion:5 }, 200, request, env);
   }
   const visitor = await visitorRoute(request,env,{rpc,json,readLimitedJson,sha256Hex});
   if(visitor) return visitor;
+  if(url.pathname==='/v1/admin/email/diagnostics' && request.method==='POST') {
+    const admin=await authenticateAdmin(request,env);
+    if(!admin) return json({error:'Administrator authentication required',code:'ADMIN_AUTH_FAILED',checks:{authentication:'failed'}},401,request,env);
+    const checks={authentication:'ok',databaseWrite:'pending',databaseRead:'pending'};
+    try {
+      await persistEmailCheckpoint(env,'diagnostic_probe','ok',{source:'server',version:5,noEmailSent:true});
+      checks.databaseWrite='ok';
+      const result=await rpc(env,'schedule_email_v2_admin',{p_admin_token:admin.token,p_operation:'logs',p_payload:{limit:1}},{timeoutMs:7000});
+      const found=result.requests?.some(e=>e.request_id===env.EMAIL_REQUEST_ID && e.stage==='diagnostic_probe' && e.details?.source==='server');
+      if(!found) throw new Error('DIAGNOSTIC_READBACK_FAILED');
+      checks.databaseRead='ok';
+      return json({ok:true,requestId:env.EMAIL_REQUEST_ID,ownerKey:await sha256Hex(`email-diagnostics:${admin.id}`),emailVersion:5,checks,noEmailSent:true},200,request,env);
+    } catch(error) {
+      if(checks.databaseWrite==='pending')checks.databaseWrite='failed';else checks.databaseRead='failed';
+      console.error('EMAIL_DIAGNOSTIC_PROBE_FAILED',{requestId:env.EMAIL_REQUEST_ID,checks});
+      return json({error:'診斷記錄自我檢查失敗；尚未發送電郵。',code:checks.databaseWrite==='failed'?'AUDIT_WRITE_FAILED':'AUDIT_READ_FAILED',requestId:env.EMAIL_REQUEST_ID,checks},503,request,env);
+    }
+  }
   if(url.pathname==='/v1/admin/email/client-events' && request.method==='POST') {
     const admin=await authenticateAdmin(request,env);
     if(!admin) return json({error:'Administrator authentication required'},401,request,env);
     const body=await readLimitedJson(request,2048);
-    if(!Object.hasOwn(ATTEMPT_STAGES,body.stage) || !Number.isInteger(body.slot) || body.slot<1 || body.slot>999) return json({error:'Invalid diagnostic event'},400,request,env);
+    if(!Object.hasOwn(ATTEMPT_STAGES,body.stage) || (body.slot!=null && (!Number.isInteger(body.slot) || body.slot<1 || body.slot>999))) return json({error:'Invalid diagnostic event'},400,request,env);
     // Browser observations are explicitly labelled and cannot claim a Gmail
     // acceptance or a committed queue entry. Do not store arbitrary client data.
-    await emailEvent(env,rpc,body.stage,body.stage==='browser_failed'?'error':'info',{
-      source:'browser',slot:body.slot,
-      step:['validation','assets','preview','prepare_upload','upload'].includes(body.step)?body.step:null,
+    await persistEmailCheckpoint(env,body.stage,body.stage.endsWith('_failed')?'error':'info',{
+      source:'browser',slot:body.slot??null,
+      step:['startup','authentication','snapshot','validation','assets','preview','prepare_upload','upload','logs','diagnostics'].includes(body.step)?body.step:null,
       state:['queued','saved','cancelled'].includes(body.state)?body.state:null,
+      code:/^[A-Z0-9_]{1,80}$/.test(body.code||'')?body.code:null,
+      message:body.message?safeDiagnostic(body.message).replace(/[\w.+-]+@[\w.-]+/g,'[email]').slice(0,300):null,
+      file:/^[A-Za-z0-9_.-]{1,100}$/.test(body.file||'')?body.file:null,
+      line:Number.isInteger(body.line)?Math.max(0,Math.min(body.line,100000)):null,
+      clientTime:typeof body.time==='string' && Number.isFinite(Date.parse(body.time))?body.time:null,
       version:/^\d{8}-email\d+$/.test(body.version||'')?body.version:'unknown'
     });
-    return json({recorded:true,requestId:env.EMAIL_REQUEST_ID},202,request,env);
+    return json({recorded:true,requestId:env.EMAIL_REQUEST_ID},200,request,env);
   }
   const receiptMatch=url.pathname.match(/^\/v1\/admin\/email\/requests\/([a-f0-9-]{36})(\/resolve)?$/i);
   if(receiptMatch && ((request.method==='GET' && !receiptMatch[2]) || (request.method==='POST' && receiptMatch[2]))) {
@@ -339,6 +362,14 @@ async function rpc(env, name, body, {timeoutMs=25000}={}) {
     if(controller.signal.aborted) {const timeout=new Error(`DATABASE_TIMEOUT_${name}: check the request receipt before retrying`);timeout.httpStatus=504;throw timeout;}
     throw error;
   } finally { clearTimeout(timer); }
+}
+
+async function persistEmailCheckpoint(env,stage,outcome,details) {
+  const saved=await rpc(env,'schedule_email_v3_events',{
+    p_admin_token:env.EMAIL_ADMIN_TOKEN,p_request_id:env.EMAIL_REQUEST_ID,
+    p_events:[{stage,outcome,details,time:new Date().toISOString()}]
+  },{timeoutMs:5000});
+  if(saved!==true){const error=new Error('AUDIT_WRITE_FAILED');error.httpStatus=503;throw error;}
 }
 
 async function authenticateAdmin(request, env) {
@@ -697,6 +728,9 @@ async function saveEmailTemplate(request, env, slot, atomic=false) {
   const admin = await authenticateAdmin(request, env);
   if (!admin) return json({ error: "Administrator authentication required" }, 401, request, env);
   await emailEvent(env,rpc,'authentication','ok');
+  // Persist BEFORE reading large uploads. Even a disconnected/killed request
+  // now leaves an authenticated checkpoint rather than disappearing entirely.
+  if(atomic)await persistEmailCheckpoint(env,'upload_expected','started',{slot,source:'server'});
   let form;
   try {
     const bytes = await readLimitedBytes(request, 13_000_000);

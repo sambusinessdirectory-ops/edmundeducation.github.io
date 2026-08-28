@@ -1,5 +1,50 @@
 # Email v2: activation and debugging
 
+## Durable diagnostics update (emailVersion 5)
+
+The email4 browser fallback had three confirmed gaps: it was scoped to a login
+token in sessionStorage (so a new tab/login could show no history), recording
+failures were silently ignored, and the main module had to start before any
+browser checkpoint existed. Its server endpoint also acknowledged events before
+the background audit write completed. These gaps do not reveal the cause of a
+past unrecorded send; missing historical checkpoints cannot be reconstructed.
+
+- `email-diagnostics.js` runs before modules and the Supabase SDK. The static
+  HTML fallback remains visible if even that script fails or JavaScript is off.
+  It captures page startup, script/runtime failures, a 20-second startup watchdog,
+  button clicks, preview stages, upload errors and recovery outcomes.
+- Both pages automatically run `POST /v1/admin/email/diagnostics`: authenticate,
+  persist a `diagnostic_probe`, read it back through the real admin-log RPC, and
+  report pass/fail with a request ID. This never creates a draft, receipt or email.
+- Browser events receive success only AFTER the database write returns true.
+  Failed/unknown saves remain visible as pending, with an error code. Sending
+  requires confirmed diagnostic recording before preview and before upload.
+- The authenticated server supplies a stable per-admin hashed namespace. Only
+  redacted diagnostic metadata is retained locally (7 days, 120 points). Tabs
+  merge/synchronize history; a fresh login retains the same admin's history but
+  another admin cannot see it through this interface. No credentials, bodies,
+  recipients or attachments are saved in that backup. If storage is unavailable,
+  the panel explicitly says so; in-memory and server recording still operate.
+- The Worker durably writes `upload_expected` before reading multipart data.
+  If that fails, it stops BEFORE modifying drafts or queues. Database-atomic
+  `submit_committed` receipts and Gmail/job checkpoints remain authoritative.
+- A page self-test is labelled as a self-test, never as email success. Failed
+  diagnostics are not a failed delivery, and a healthy log is not inbox proof.
+
+Failure mapping: `SCRIPT_LOAD_FAILED` / `EDITOR_STARTUP_TIMEOUT` → startup;
+`ADMIN_SESSION_MISSING` / HTTP 401 → authentication; `AUDIT_WRITE_FAILED` → DB
+write; `AUDIT_READ_FAILED` → log read-back; `AUDIT_ACK_MISSING` → unconfirmed
+recording; `REQUEST_TIMEOUT` / TypeError → transport. File/line and a redacted
+message are included for runtime failures. No reset, historical resend, OAuth
+change or database migration is required. Deploy Worker before Pages.
+
+Regression tests: `tools/test-email-diagnostics.mjs` covers broken scripts,
+runtime errors, empty state, new-login persistence, simultaneous tabs, owner
+isolation, blocked storage, absent auth, offline, failed writes/ack and recovery.
+The atomic database/Worker and actual-designer tests verify the no-send probe,
+read-back ownership, attachment bytes, failed-audit send lock and receipt recovery.
+All use synthetic mail transport; they do not establish real mailbox delivery.
+
 ## Pre-submit diagnostics update (emailVersion 4)
 
 On 28 August at 00:20–00:24 Hong Kong time, the reported successful request

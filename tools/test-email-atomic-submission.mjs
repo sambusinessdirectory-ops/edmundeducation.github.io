@@ -61,6 +61,13 @@ try {
  await db.query('insert into schedule_admin_accounts values($1,$2,$3)',[otherAdmin,'Other QA','none']);
  await db.query("insert into schedule_admin_sessions(token_hash,admin_id,expires_at) values(extensions.digest($1,'sha256'),$2,now()+interval '1 hour')",[otherToken,otherAdmin]);
  assert.equal((await rpc('schedule_email_v3_receipt',[secret,otherToken,request,false])).state,'pending');
+ const probeId=crypto.randomUUID();
+ assert.equal(await rpc('schedule_email_v3_events',[secret,token,probeId,JSON.stringify([{stage:'diagnostic_probe',outcome:'ok',time:new Date().toISOString(),details:{source:'server',noEmailSent:true}}])]),true);
+ const auditLogs=await rpc('schedule_email_v2_admin',[secret,token,'logs',JSON.stringify({limit:1})]);
+ assert.ok(auditLogs.requests.some(e=>e.request_id===probeId && e.stage==='diagnostic_probe' && e.details.source==='server'),'Real database RPC supports diagnostic read-back');
+ const otherLogs=await rpc('schedule_email_v2_admin',[secret,otherToken,'logs',JSON.stringify({limit:1})]);
+ assert.equal(otherLogs.requests.some(e=>e.request_id===probeId),false);
+ assert.equal(Number(await scalar('select count(*) from schedule_email_delivery_jobs')),1,'Diagnostic probe cannot enqueue mail');
  assert.equal(await scalar("select has_table_privilege('anon','schedule_email_submission_receipts','select')"),false);
  assert.equal(await scalar("select relrowsecurity from pg_class where oid='schedule_email_submission_receipts'::regclass"),true);
  assert.equal(await scalar("select has_function_privilege('anon','_schedule_email_designer_snapshot_v2(uuid)','execute')"),false);
@@ -68,16 +75,23 @@ try {
 } finally {await db.close();}
 
 const originalFetch=globalThis.fetch,events=[],background=[];
-let releaseAudit,savedPayload,holdAudit=true;
+let releaseAudit,savedPayload,holdAudit=true,auditMode='ok',authValid=true;
+const persisted=[];
 const json=data=>new Response(JSON.stringify(data),{headers:{'Content-Type':'application/json'}});
 const env={ALLOWED_ORIGIN:'https://edmundeducation.com',SUPABASE_URL:'https://db.example.invalid',SUPABASE_ANON_KEY:'fake-public',SCHEDULE_SERVICE_SECRET:'fake-secret'};
 globalThis.fetch=async(url,options)=>{
  assert.ok(String(url).startsWith(env.SUPABASE_URL),'Real network forbidden');
  const name=String(url).split('/').pop(),body=JSON.parse(options.body);
- if(name==='schedule_announcement_admin_auth') return json([{id:admin}]);
+ if(name==='schedule_announcement_admin_auth') return json(authValid?[{id:admin}]:[]);
  if(name==='schedule_email_v3_submit') {savedPayload=body.p_payload;return json(receipt);}
- if(name==='schedule_email_v3_events') {events.push(...body.p_events);if(holdAudit)await new Promise(resolve=>{releaseAudit=resolve;});return json(true);}
- if(name==='schedule_email_v2_admin' && body.p_operation==='logs')return json({logs:[],requests:[]});
+ if(name==='schedule_email_v3_events') {
+  events.push(...body.p_events);
+  if(auditMode==='write-failed')return json(false);
+  persisted.push(...body.p_events.map(e=>({...e,request_id:body.p_request_id})));
+  if(holdAudit && body.p_events.some(e=>e.stage==='request_complete'))await new Promise(resolve=>{releaseAudit=resolve;});
+  return json(true);
+ }
+ if(name==='schedule_email_v2_admin' && body.p_operation==='logs')return json({logs:[],requests:auditMode==='read-failed'?[]:persisted});
  throw new Error(`Unexpected RPC: ${name}`);
 };
 try {
@@ -89,8 +103,8 @@ try {
  assert.equal(Buffer.from(savedPayload.signatureContent,'base64').length,image.length);assert.equal(savedPayload.attachments[0].sizeBytes,pdf.length);
  assert.ok(background.length>=2);assert.ok(events.some(e=>e.stage==='request_complete'));releaseAudit();await Promise.all(background);
  holdAudit=false;events.length=0;
- const diagnostic=new Request('https://worker.example/v1/admin/email/client-events',{method:'POST',headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json','X-Email-Request-ID':crypto.randomUUID()},body:JSON.stringify({slot:1,stage:'browser_failed',step:'validation',version:'20260828-email4',content:'must-not-log',email:'must-not-log@example.invalid',token:'must-not-log'})});
- assert.equal((await worker.fetch(diagnostic,env)).status,202);
+ const diagnostic=new Request('https://worker.example/v1/admin/email/client-events',{method:'POST',headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json','X-Email-Request-ID':crypto.randomUUID()},body:JSON.stringify({slot:1,stage:'browser_failed',step:'validation',version:'20260828-email5',content:'must-not-log',email:'must-not-log@example.invalid',token:'must-not-log'})});
+ assert.equal((await worker.fetch(diagnostic,env)).status,200);
  assert.equal(events.length,1);assert.equal(events[0].stage,'browser_failed');assert.equal(events[0].details.source,'browser');
  assert.equal(JSON.stringify(events).includes('must-not-log'),false);
  const reads=await worker.fetch(new Request('https://worker.example/v1/admin/email/logs',{headers:{Authorization:`Bearer ${token}`}}),env);assert.equal(reads.status,200);assert.equal(events.length,1,'Log refresh must not create a fake send diagnostic');
@@ -98,6 +112,19 @@ try {
  assert.equal((await worker.fetch(invalid,env)).status,400);
  assert.equal(events.some(e=>e.stage==='gmail_accepted'),false,'Browser must not claim provider acceptance');
  assert.equal((await worker.fetch(new Request('https://worker.example/v1/admin/email/client-events',{method:'POST',body:'{}'}),env)).status,401);
+ const probe=()=>worker.fetch(new Request('https://worker.example/v1/admin/email/diagnostics',{method:'POST',headers:{Authorization:`Bearer ${token}`,'X-Email-Request-ID':crypto.randomUUID()}}),env);
+ const proof=await probe();assert.equal(proof.status,200);const details=await proof.json();
+ assert.deepEqual(details.checks,{authentication:'ok',databaseWrite:'ok',databaseRead:'ok'});
+ assert.match(details.ownerKey,/^[a-f0-9]{64}$/);assert.equal(details.noEmailSent,true);
+ for(const [mode,code] of [['write-failed','AUDIT_WRITE_FAILED'],['read-failed','AUDIT_READ_FAILED']]){
+  auditMode=mode;const failure=await probe();assert.equal(failure.status,503);assert.equal((await failure.json()).code,code);
+ }
+ auditMode='write-failed';savedPayload=null;
+ const denied=await worker.fetch(new Request('https://worker.example/v1/admin/email/templates/1/submit',{method:'POST',headers:{Authorization:`Bearer ${token}`,'X-Email-Request-ID':crypto.randomUUID()},body:form}),env);
+ assert.equal(denied.status,503);assert.equal(savedPayload,null,'No draft/queue mutation when initial audit cannot be saved');
+ const badEvent=await worker.fetch(new Request('https://worker.example/v1/admin/email/client-events',{method:'POST',headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json'},body:JSON.stringify({stage:'page_loaded'})}),env);
+ assert.equal(badEvent.status,503,'No successful acknowledgement when audit RPC returns false');
+ auditMode='ok';authValid=false;assert.equal((await probe()).status,401);
  console.log('PASS Worker: multipart file bytes preserved; background audit does not delay authoritative receipt; in-flight operation registered with waitUntil.');
 } finally {globalThis.fetch=originalFetch;}
 

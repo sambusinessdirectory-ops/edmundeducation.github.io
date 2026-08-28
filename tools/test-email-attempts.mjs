@@ -16,7 +16,7 @@ assert.match(byId('preview').state,/尚未取得/);assert.match(byId('cancel').s
 assert.match(byId('error').state,/失敗/);assert.match(byId('queued').state,/已建立/);
 assert.match(byId('client').state,/尚未取得/);assert.match(byId('draft').state,/非一次性發送/);
 const data=new Map(),storage={getItem:k=>data.get(k),setItem:(k,v)=>data.set(k,v)};
-for(let i=0;i<70;i++)recordAttempt({storage,key:'test',requestId:'test-id',slot:1,stage:'browser_failed',step:'validation',api:async()=>{throw new Error('offline');}});
+for(let i=0;i<70;i++)await assert.rejects(recordAttempt({storage,key:'test',requestId:'test-id',slot:1,stage:'browser_failed',step:'validation',api:async()=>{throw new Error('offline');}}),/offline/);
 assert.equal(attemptHistory(storage,'test').length,60);
 assert.deepEqual(Object.keys(attemptHistory(storage,'test')[0]).sort(),['requestId','slot','stage','step','time','version']);
 console.log('PASS diagnostics: read requests distinguished, browser observations cannot claim queue success, offline metadata bounded.');

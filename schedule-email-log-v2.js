@@ -1,11 +1,19 @@
 import {EMAIL_STAGES,EMAIL_TOPICS} from './email-shared.mjs';
-import {ATTEMPT_STAGES,attemptHistory,groupEmailRequests,EMAIL_UI_VERSION} from './email-attempt.mjs?v=20260828-email4';
+import {ATTEMPT_STAGES,groupEmailRequests,EMAIL_UI_VERSION} from './email-attempt.mjs?v=20260828-email5';
+const diagnostics=window.EDMUND_EMAIL_DIAGNOSTICS;
 const gate=document.querySelector('[data-gate]'),app=document.querySelector('[data-app]'),logs=document.querySelector('[data-logs]');
 const base=String(window.EDMUND_SCHEDULE_CONFIG?.workerBaseUrl||'').replace(/\/+$/,'');
-let token='',offset=0,attemptKey='';
+let token='',offset=0,firstLoad=true;
 const when=value=>value?new Date(value).toLocaleString('zh-HK'):'—';
 function element(tag,text){const node=document.createElement(tag);node.textContent=text;return node;}
 function details(title,body){const d=document.createElement('details');d.append(element('summary',title),element('pre',body));return d;}
+function localHistory(){
+ const list=document.querySelector('[data-local-attempts]'),rows=diagnostics?.history()||[];
+ list.replaceChildren(...rows.slice().reverse().map(r=>details(`${when(r.time)} · ${ATTEMPT_STAGES[r.stage]||r.stage}`,`要求 ID：${r.requestId}\n步驟：${r.step}\n保存狀態：${r.audit}\n代碼：${r.code||'—'}${r.message?`\n說明：${r.message}`:''}\n版本：${r.version}\n（不是寄送／送達證明）`)));
+ if(!rows.length)list.append(element('p','沒有可讀取的本機記錄。舊版記錄僅限當時登入的分頁，可能已遺失；無法從空白判斷先前是否按過發送。請查看上方診斷自我檢查及伺服器歷史。'));
+}
+window.addEventListener('email-diagnostics-updated',localHistory);
+localHistory();
 async function refresh(){
  const params=new URLSearchParams({audience:document.querySelector('[data-audience]').value,search:document.querySelector('[data-search]').value.trim(),offset:String(offset),limit:'100'});
  const response=await fetch(`${base}/v1/admin/email/logs?${params}`,{headers:{Authorization:`Bearer ${token}`},signal:AbortSignal.timeout(35000)});
@@ -32,7 +40,7 @@ async function refresh(){
  document.querySelector('[data-empty]').hidden=Boolean(data.logs?.length);
  document.querySelector('[data-prev]').disabled=offset===0;
  document.querySelector('[data-next]').disabled=(data.logs?.length||0)<100;
- document.querySelector('[data-page]').textContent=`第 ${offset+1}–${offset+(data.logs?.length||0)} 筆`;
+ document.querySelector('[data-page]').textContent=data.logs?.length?`第 ${offset+1}–${offset+data.logs.length} 筆`:'共 0 筆';
  const groups=groupEmailRequests(data.requests||[]);
  const renderRequest=group=>{
    const outer=document.createElement('details');outer.append(element('summary',`${when(group.time)} · ${group.state}`),element('p',`要求 ID：${group.requestId}`));
@@ -43,17 +51,18 @@ async function refresh(){
  if(!requests.children.length)requests.append(element('p','沒有新的預覽／提交要求。開啟或重新整理 Email Log 不會發送電郵。'));
  const reads=groups.filter(g=>g.readOnly);
  if(reads.length){const history=document.createElement('details');history.append(element('summary',`舊版頁面讀取記錄（${reads.length}；並非發送）`),...reads.map(renderRequest));requests.append(history);}
- document.querySelector('[data-local-attempts]').replaceChildren(...attemptHistory(sessionStorage,attemptKey).reverse().map(r=>details(`${when(r.time)} · ${ATTEMPT_STAGES[r.stage]||r.stage}`,`本瀏覽器記錄（不等同伺服器收據）\n要求 ID：${r.requestId}\n步驟：${r.step}\n版本：${r.version}`)));
+ localHistory();
  const subscribers=document.querySelector('[data-subscribers]');subscribers.replaceChildren();
  for(const sub of data.subscribers||[]){const tr=document.createElement('tr');tr.append(...[sub.name||'—',sub.email,sub.status,sub.topics.map(t=>EMAIL_TOPICS[t]?.title||t).join('、'),when(sub.confirmed_at)].map(x=>element('td',x)));subscribers.append(tr);}
  document.querySelector('[data-monitors]').replaceChildren(...(data.monitors||[]).map(m=>element('p',`${EMAIL_TOPICS[m.topic]?.title||m.topic} · 檢查：${when(m.checked_at)} · 更新：${when(m.changed_at)}${m.last_error?` · 錯誤：${m.last_error}`:''}`)));
  document.querySelector('[data-scheduler]').textContent=data.scheduler?`排程器開始：${when(data.scheduler.started_at)}；完成：${when(data.scheduler.completed_at)}${data.scheduler.last_error?`；錯誤：${data.scheduler.last_error}`:''}`:'尚未收到新版排程器執行記錄。';
  gate.hidden=true;app.hidden=false;document.querySelector('[data-log-status]').textContent=`記錄已讀取 ${when(new Date())}（不是發送確認） · ${EMAIL_UI_VERSION}`;
+ if(firstLoad){firstLoad=false;diagnostics?.ready();}
 }
-async function load(){try{await refresh();}catch(error){document.querySelector('[data-log-status]').textContent=error.message;gate.textContent=error.message;}}
+async function load(){try{await refresh();}catch(error){diagnostics?.failure(error,{step:'logs'});document.querySelector('[data-log-status]').textContent=error.message;gate.textContent=error.message;}}
 document.querySelector('[data-refresh]').onclick=()=>load();
 document.querySelector('[data-audience]').onchange=()=>{offset=0;load();};
 document.querySelector('[data-search-form]').onsubmit=event=>{event.preventDefault();offset=0;load();};
 document.querySelector('[data-prev]').onclick=()=>{offset=Math.max(0,offset-100);load();};
 document.querySelector('[data-next]').onclick=()=>{offset+=100;load();};
-try {const saved=JSON.parse(sessionStorage.getItem('edmund-schedule-session-v1')||'null');if(saved?.role!=='admin') throw new Error('請先在功課系統以管理員身分登入。');token=saved.adminToken;const hash=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(token));attemptKey='edmund-email-pending-v3:'+Array.from(new Uint8Array(hash)).map(x=>x.toString(16).padStart(2,'0')).join('')+':attempts';load();} catch(error){gate.textContent=error.message;}
+try {const saved=JSON.parse(sessionStorage.getItem('edmund-schedule-session-v1')||'null');if(saved?.role!=='admin') throw new Error('請先在功課系統以管理員身分登入。');token=saved.adminToken;load();} catch(error){diagnostics?.failure(error,{step:'authentication'});gate.textContent=error.message;}

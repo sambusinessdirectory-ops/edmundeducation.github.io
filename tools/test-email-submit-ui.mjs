@@ -27,6 +27,8 @@ w.sessionStorage.setItem('edmund-schedule-session-v1',JSON.stringify({role:'admi
 let mode='deferred',release,requests=[],receipt={state:'queued',emailIds:['fake-email-id'],requestId:'',revision:'2026-08-27T12:30:00Z'};
 w.fetch=async(url,options)=>{
  const path=new URL(url).pathname;requests.push(path);
+ if(path.endsWith('/diagnostics'))return new Response(JSON.stringify({ok:true,ownerKey:'a'.repeat(64),noEmailSent:true,emailVersion:5,checks:{databaseRead:'ok',databaseWrite:'ok'}}));
+ if(path.endsWith('/client-events'))return new Response(JSON.stringify({recorded:mode!=='audit-failed'}));
  if(mode==='offline') throw new TypeError('offline');
  if(path.endsWith('/submit')) {
   receipt.requestId=options.headers.get('X-Email-Request-ID');
@@ -42,6 +44,7 @@ w.fetch=async(url,options)=>{
 const settle=async test=>{for(let i=0;i<100;i++){if(test())return;await new Promise(resolve=>setTimeout(resolve,5));}throw new Error('DOM condition timed out');};
 const confirmPreview=async()=>{await settle(()=>w.document.querySelector('dialog [data-next]')?.disabled===false);w.document.querySelector('dialog [data-next]').click();};
 try {
+ w.eval(await readFile(new URL('../email-diagnostics.js',import.meta.url),'utf8'));
  w.eval(source.replace(/^import .*;\n/gm,''));
  await settle(()=>w.document.querySelector('[data-send]'));
  const signature=w.document.querySelector('[data-signature]'),pdf=w.document.querySelector('[data-attachments]');
@@ -63,7 +66,7 @@ try {
  assert.ok(pendingKey);const pending=JSON.parse(w.sessionStorage.getItem(pendingKey));assert.ok(pending.requestId);
  // Reload retains only the receipt ID, not image/PDF bytes or credentials.
  assert.deepEqual(Object.keys(pending).sort(),['requestId','sendNow','slot']);
- requests=[];w.document.querySelector('[data-send]').click();await new Promise(resolve=>setTimeout(resolve,10));assert.equal(requests.length,0);
+ requests=[];w.document.querySelector('[data-send]').click();await new Promise(resolve=>setTimeout(resolve,10));assert.equal(requests.some(p=>p.endsWith('/submit')),false);
  mode='recover';w.document.querySelector('[data-submission-recovery] button').click();await settle(()=>w.document.querySelector('[data-submission-recovery]').hidden);
  assert.equal(w.sessionStorage.getItem(pendingKey),null);assert.ok(requests.some(p=>p.endsWith('/resolve')));
  mode='recover';requests=[];
@@ -71,10 +74,16 @@ try {
  w.document.querySelector('dialog [data-edit]').click();await settle(()=>!w.document.querySelector('[data-send]').disabled);
  assert.match(w.document.querySelector('[data-status]').textContent,/沒有提交或發送/);
  assert.equal(requests.some(p=>p.endsWith('/submit')),false);
- assert.ok(attempts.attemptHistory(w.sessionStorage,pendingKey+':attempts').some(e=>e.stage==='preview_cancelled'));
+ assert.ok(w.EDMUND_EMAIL_DIAGNOSTICS.history().some(e=>e.stage==='preview_cancelled'));
  w.document.querySelector('textarea').value='';requests=[];w.document.querySelector('[data-send]').click();
  await settle(()=>w.document.querySelector('[data-status]').textContent.includes('尚未提交'));
- assert.ok(attempts.attemptHistory(w.sessionStorage,pendingKey+':attempts').some(e=>e.stage==='browser_failed' && e.step==='validation'));
+ assert.ok(w.EDMUND_EMAIL_DIAGNOSTICS.history().some(e=>e.stage==='browser_failed' && e.step==='validation'));
  assert.equal(requests.some(p=>p.endsWith('/submit')),false);
+ w.document.querySelector('textarea').value='Valid draft';mode='audit-failed';requests=[];
+ w.document.querySelector('[data-send]').click();
+ await settle(()=>!w.document.querySelector('[data-send]').disabled);
+ assert.match(w.document.querySelector('[data-status]').textContent,/AUDIT_ACK_MISSING/);
+ assert.equal(requests.some(p=>p.endsWith('/submit')),false,'Never upload/queue when recording is not confirmed');
+ assert.equal(w.document.querySelector('dialog'),null);
  console.log('PASS designer DOM: selected files submitted, one operation only, navigation warning, double-click protection, lost response recovery, offline lock and safe recovery.');
 }finally{w.close();}

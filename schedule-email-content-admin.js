@@ -1,6 +1,7 @@
-import {previewEmail,validateEmailDraft,checkEmailSpelling} from './email-preview.mjs?v=20260828-email4';
+import {previewEmail,validateEmailDraft,checkEmailSpelling} from './email-preview.mjs?v=20260828-email5';
 import {submitWithRecovery,resolveSubmission,submissionMessage} from './email-submit.mjs';
-import {recordAttempt,EMAIL_UI_VERSION} from './email-attempt.mjs?v=20260828-email4';
+import {EMAIL_UI_VERSION} from './email-attempt.mjs?v=20260828-email5';
+const diagnostics=window.EDMUND_EMAIL_DIAGNOSTICS;
 const SESSION_KEY = "edmund-schedule-session-v1";
 const settings = window.EDMUND_SUPABASE || {};
 const workerBaseUrl = String(window.EDMUND_SCHEDULE_CONFIG?.workerBaseUrl || "").replace(/\/+$/, "");
@@ -67,8 +68,9 @@ async function api(path, options = {}) {
   if (!response.ok || !payload) {const error=new Error(`${payload?.error || `服務回應異常（HTTP ${response.status}）`}${payload?.requestId ? `（要求 ID：${payload.requestId}）` : ''}`);error.status=response.status;throw error;}
   return payload;
   } catch(error) {
-    if(controller.signal.aborted) throw new Error('連線逾時，正在確認要求結果。');
-    throw error;
+    const failure=controller.signal.aborted?Object.assign(new Error('連線逾時，正在確認要求結果。'),{code:'REQUEST_TIMEOUT'}):error;
+    diagnostics?.failure(failure,{requestId:headers.get('X-Email-Request-ID')||undefined,step:path.endsWith('/assets')?'assets':'upload'});
+    throw failure;
   } finally {clearTimeout(timer);}
 }
 
@@ -159,6 +161,7 @@ function attachmentList(data) {
 
 function renderTemplate(data, displayIndex) {
   const card = document.createElement("article");
+  card.dataset.emailSlot=String(data.slot);
   card.className = "template-card";
   card.innerHTML = `
     <div class="card-heading"><h2>訊息 ${displayIndex + 1}</h2><button class="danger-text" type="button" data-delete>刪除這個訊息</button></div>
@@ -235,16 +238,17 @@ function renderTemplate(data, displayIndex) {
     catch {result.textContent='拼字檢查暫時無法使用。發送時仍可選擇略過。';} finally {button.disabled=false;}
   });
   let busy=false;
-  async function submit(sendNow) {
-    if(busy || activeSubmission) return;
-    if(pendingSubmission) {setStatus('請先使用上方「確認結果／安全解鎖」核對上次要求，避免重複寄送。',true);return;}
+  async function submit(sendNow,clickedId) {
+    if(busy || activeSubmission) {diagnostics.record('ui_blocked',{requestId:clickedId,slot:data.slot,step:'upload',code:'ANOTHER_SUBMISSION_ACTIVE'});return;}
+    if(pendingSubmission) {diagnostics.record('ui_blocked',{requestId:clickedId,slot:data.slot,step:'upload',code:'PENDING_RECEIPT'});setStatus('請先使用上方「確認結果／安全解鎖」核對上次要求，避免重複寄送。',true);return;}
     activeSubmission=true;
     busy=true;const controls=[...card.querySelectorAll('button,input,select,textarea')].map(node=>({node,disabled:node.disabled}));controls.forEach(({node})=>node.disabled=true);
-    const requestId=crypto.randomUUID();let objectUrl='',savedSuccessfully=false,step='validation',uploadStarted=false;
-    const trace=(stage,state)=>recordAttempt({storage:sessionStorage,key:pendingKey+':attempts',requestId,slot:data.slot,stage,step,state,api});
+    const requestId=clickedId||crypto.randomUUID();let objectUrl='',savedSuccessfully=false,step='validation',uploadStarted=false;
+    const trace=(stage,state)=>diagnostics.record(stage,{requestId,slot:data.slot,step,state});
     trace('preview_requested');
     report(`正在準備${sendNow?'發送預覽':'儲存'}；尚未發送。要求 ID：${requestId}`);
     try {
+      await diagnostics.ensureRecording();
       const recipientIds=[...recipients.querySelectorAll('input:checked')].map(b=>b.value);
       const selected=snapshot.students.filter(s=>recipientIds.includes(s.studentId));
       const files=[...(attachmentInput.files||[])],existing=(data.attachments||[]).filter(f=>!savedAttachments.removals.has(f.id));
@@ -266,6 +270,8 @@ function renderTemplate(data, displayIndex) {
       }
       step='prepare_upload';
       const form=makeSubmission(approval,sendNow);
+      // Confirmation must have a durable trace before the upload can start.
+      await diagnostics.ensureRecording();
       storePending({requestId,slot:data.slot,sendNow});
       report(`正在上傳並${sendNow?'儲存及排隊':'儲存'}訊息 ${displayIndex+1}… 請先不要重新整理或離開本頁。`);
       step='upload';uploadStarted=true;trace('browser_upload');
@@ -274,11 +280,11 @@ function renderTemplate(data, displayIndex) {
       storePending(null);
       savedSuccessfully=result.state!=='cancelled';
       report(submissionMessage(result),result.state==='cancelled');
-    } catch(error) {trace('browser_failed');report(`${uploadStarted?'提交結果尚未確認；請先核對結果，避免重寄。':'尚未提交，沒有因此次操作新增電郵。'} ${error.message||'未能完成。'} 步驟：${step}。要求 ID：${requestId}`,true);}
+    } catch(error) {diagnostics.failure(error,{requestId,slot:data.slot,step});trace('browser_failed');report(`${uploadStarted?'提交結果尚未確認；請先核對結果，避免重寄。':'尚未提交，沒有因此次操作新增電郵。'} ${error.message||'未能完成。'} 步驟：${step}。要求 ID：${requestId}`,true);}
     finally {busy=false;activeSubmission=false;controls.forEach(({node,disabled})=>node.disabled=disabled);if(objectUrl) URL.revokeObjectURL(objectUrl);if(savedSuccessfully) await reloadSnapshot().catch(()=>{});}
   }
-  card.querySelector('[data-save]').addEventListener('click',()=>submit(false));
-  card.querySelector('[data-send]').addEventListener('click',()=>submit(true));
+  card.querySelector('[data-save]').addEventListener('click',event=>submit(false,event.emailRequestId));
+  card.querySelector('[data-send]').addEventListener('click',event=>submit(true,event.emailRequestId));
   card.querySelector("[data-delete]").addEventListener("click", async () => {
     if (!confirm(`確認刪除訊息 ${displayIndex + 1}、其簽名及附件？`)) return;
     try { await api(`/v1/admin/email/templates/${data.slot}`, { method: "DELETE", body: JSON.stringify({ confirmation: "DELETE" }) }); await reloadSnapshot(); setStatus(`訊息 ${displayIndex + 1} 已刪除。`); }
@@ -346,7 +352,9 @@ document.querySelector("[data-add-template]").addEventListener("click", async ()
 });
 
 async function init() {
+  let initStep='startup';
   try {
+    if(!diagnostics)throw new Error('診斷程式未能載入；請重新整理。尚未發送電郵。');
     const saved = session();
     if (!saved) throw new Error("請先在功課系統以管理員身分登入。");
     token = saved.adminToken;
@@ -355,9 +363,10 @@ async function init() {
     document.querySelector('[data-email-version]').textContent=`Email 系統版本：${EMAIL_UI_VERSION}`;
     try {pendingSubmission=JSON.parse(sessionStorage.getItem(pendingKey)||'null');} catch {pendingSubmission=null;}
     updateRecovery();
-    await reloadSnapshot();
+    initStep='snapshot';await reloadSnapshot();
     gate.hidden = true;
     app.hidden = false;
+    diagnostics.ready();
     const parameters = new URLSearchParams(location.search);
     const gmail = parameters.get("gmail");
     const reason = parameters.get("reason");
@@ -370,7 +379,7 @@ async function init() {
       setStatus(errorMessages[reason] || "Gmail 授權未完成，請重試。", true);
     }
     if (gmail) history.replaceState(null, "", location.pathname);
-  } catch (error) { gate.textContent = error.message || "未能載入。"; }
+  } catch (error) { diagnostics?.failure(error,{step:initStep});gate.textContent = error.message || "未能載入。"; }
 }
 
 document.querySelector('[data-public-sender]').addEventListener('click',async()=>{

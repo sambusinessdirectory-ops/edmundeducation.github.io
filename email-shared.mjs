@@ -26,6 +26,7 @@ export function renderEmailHtml(job, imageSource = '') {
 }
 
 export const EMAIL_STAGES = Object.freeze({
+  diagnostic_probe:'診斷記錄自我檢查（沒有寄信）',upload_expected:'已驗證管理員並記錄上載開始（尚未排隊）',
   submission_started:'已開始儲存及排隊', submit_committed:'儲存及排隊已完成（可憑要求 ID 恢復結果）', submission_cancelled:'未完成要求已安全取消；不會稍後重寄',
   writing_submitted: '學生已提交寫作；建立管理員通知',
   request_received: '網站已收到要求', authentication: '管理員身分驗證', upload_parsed: '圖片及附件已讀取',
