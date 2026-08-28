@@ -15,7 +15,7 @@
     if(error?.name==='AbortError')return 'REQUEST_TIMEOUT';
     return String(error?.name||'BROWSER_ERROR').replace(/[^a-z0-9_]/gi,'_').toUpperCase().slice(0,80);
   }
-  function summary(error){return String(error?.message||'').replace(/Bearer\s+\S+/gi,'Bearer [redacted]').replace(/[\w.+-]+@[\w.-]+/g,'[email]').replace(/(token|secret|password|code)\s*[=:]\s*[^\s&]+/gi,'$1=[redacted]').replace(/[A-Za-z0-9_./+-]{40,}/g,'[redacted]').replace(/[\r\n\t]/g,' ').slice(0,300);}
+  function summary(error){return String(error?.message||(typeof error==='string'?error:'')).replace(/Bearer\s+\S+/gi,'Bearer [redacted]').replace(/[\w.+-]+@[\w.-]+/g,'[email]').replace(/(token|secret|password|code)\s*[=:]\s*[^\s&]+/gi,'$1=[redacted]').replace(/[A-Za-z0-9_./+-]{40,}/g,'[redacted]').replace(/[\r\n\t]/g,' ').slice(0,300);}
   function clean(row){return {id:String(row.id||uid()),requestId:String(row.requestId||pageId),slot:Number.isInteger(row.slot)?row.slot:null,stage:String(row.stage||'runtime_failed'),step:String(row.step||'startup'),state:row.state,code:row.code,message:row.message,file:row.file,line:row.line,version:row.version||version,time:row.time||new Date().toISOString(),audit:row.audit||'pending'};}
   function mergeDisk(value){
     const stored=JSON.parse(value||'[]');
@@ -99,7 +99,7 @@
   window.EDMUND_EMAIL_DIAGNOSTICS={version,record,failure,selfTest,ensureRecording,history:()=>rows.map(r=>({...r})),ready(){ready=true;clearTimeout(watchdog);record(page==='designer'?'designer_ready':'log_ready',{step:page==='designer'?'snapshot':'logs'});render();}};
   window.addEventListener('error',event=>{
     if(event.target?.tagName==='SCRIPT'){let file='';try{file=new URL(event.target.src).pathname.split('/').pop();}catch{}failure({code:'SCRIPT_LOAD_FAILED',message:'必要程式檔案未能載入。'},{step:'startup',file});}
-    else if(event.error){let file='';try{file=new URL(event.filename).pathname.split('/').pop();}catch{}failure(event.error,{step:ready?'preview':'startup',file,line:event.lineno});}
+    else if(event.error||event.message){let file='';try{file=new URL(event.filename).pathname.split('/').pop();}catch{}failure(event.error||{code:'RUNTIME_ERROR_NO_DETAILS',message:event.message},{step:ready?'preview':'startup',file,line:event.lineno});}
   },true);
   window.addEventListener('unhandledrejection',event=>failure(event.reason,{step:ready?'preview':'startup'}));
   document.addEventListener('click',event=>{

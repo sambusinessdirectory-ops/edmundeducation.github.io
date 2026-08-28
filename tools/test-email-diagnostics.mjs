@@ -37,6 +37,12 @@ try{
  a.w.dispatchEvent(new a.w.ErrorEvent('error',{error:new TypeError('Cannot read property'),filename:'https://edmundeducation.com/editor.js',lineno:42}));
  await a.w.EDMUND_EMAIL_DIAGNOSTICS.ensureRecording();
  assert.ok(a.calls.some(c=>c.body.line===42 && c.body.stage==='startup_failed'));
+ a.w.dispatchEvent(new a.w.ErrorEvent('error',{message:'Script error.'}));
+ const rejection=new a.w.Event('unhandledrejection');Object.defineProperty(rejection,'reason',{value:'Synthetic failure token=private-value'});a.w.dispatchEvent(rejection);
+ await a.w.EDMUND_EMAIL_DIAGNOSTICS.ensureRecording();
+ assert.ok(a.w.EDMUND_EMAIL_DIAGNOSTICS.history().some(r=>r.code==='RUNTIME_ERROR_NO_DETAILS'));
+ assert.ok(a.w.EDMUND_EMAIL_DIAGNOSTICS.history().some(r=>r.message==='Synthetic failure token=[redacted]'));
+ assert.equal([...a.disk.values()].join('').includes('private-value'),false);
  a.w.eval(log.replace(/^import .*;\n/gm,''));await until(()=>!a.w.document.querySelector('[data-app]').hidden);
  assert.ok(a.w.document.querySelector('[data-local-attempts]').children.length);
  assert.match(a.w.document.querySelector('[data-page]').textContent,/0/);
