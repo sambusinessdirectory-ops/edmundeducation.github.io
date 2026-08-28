@@ -34,7 +34,10 @@ p1-026 through p1-032, p1-034 and p1-035 (15 articles / 120 paragraphs).
 and p1-067 (15 articles / 106 paragraphs). Withheld p1-053 and p1-066 remain excluded.
 2026-08-28 (next 60): the 60 approved articles from p1-068 through p1-137,
 excluding existing Einstein and all withheld IDs (60 articles / 474 paragraphs).
-120 of 436 articles; 932 paragraphs; 316 articles remain. Next: p1-138.
+2026-08-28 (following 60): p1-138 through p1-163, then p2-024 through p2-061
+in the approved catalogue, excluding p2-031, p2-043 and IDs not in that catalogue
+(60 articles / 517 paragraphs). All held articles remain excluded.
+180 of 436 articles; 1,449 paragraphs; 256 articles remain. Next: p2-062.
 Database content and English-source hashes match the validated local rows exactly.
 Authenticated RPC reads passed; anonymous requests and invalid student tokens
 were rejected. All synthetic test records were rolled back. Direct client table
@@ -92,16 +95,25 @@ source ambiguities or questionable historical/scientific assertions without
 changing the English passages, exercises, answers or audio. No paid translation
 API was used; each passage was translated individually.
 
-For the latest set, all 120 database rows were checked against validated local
+The p1-138–p2-061 set was translated one article at a time, without a paid
+translation API. It preserves the original paragraph boundaries, embedded
+headings, quotations, figures and qualifications. Historical scientific,
+medical, legal, economic and technical claims remain tied to the source period;
+questionable source assertions are attributed rather than silently modernized.
+Local editorial notes record source issues without changing the English corpus,
+questions, answer keys, recordings or student records.
+
+For the latest set, all 180 database rows were checked against validated local
 payloads: per-paragraph English/Chinese text checksums, paragraph order/count,
 titles, remaining content metadata, English-source hashes and publication flags
-all matched. The database contains exactly 120 published translation rows.
+all matched. The database contains exactly 180 published translation rows and
+1,449 translated paragraphs, including the latest 60 articles / 517 paragraphs.
 Authenticated RPC reads were tested for all 60 newly added articles, alongside
 anonymous/invalid-token rejection and the withheld-article check, in a rolled-back
 transaction. Translation, catalogue, portal and reading-enhancement tests passed.
-All translation files were also scanned for common Simplified Chinese forms;
-the only flagged character was the valid Traditional Chinese use of 云 in
-不知所云 in the previously published p1-018.
+All translation files were also scanned for common unambiguous Simplified
+Chinese forms; no matches remained. Ambiguous shared characters such as 云 in
+the valid Traditional Chinese phrase 不知所云 are not treated as errors.
 
 The database-backed reader was published successfully in GitHub Pages run
 33090844037. The live JavaScript matches the tested source exactly. Further
