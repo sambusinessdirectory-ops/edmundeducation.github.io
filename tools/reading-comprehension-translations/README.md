@@ -40,7 +40,10 @@ in the approved catalogue, excluding p2-031, p2-043 and IDs not in that catalogu
 2026-08-28 (next approved 60): p2-062 through p2-126 in catalogue order,
 excluding withheld p2-067, p2-079, p2-091, p2-103 and p2-115
 (60 articles / 473 paragraphs). All held articles remain excluded.
-240 of 436 articles; 1,922 paragraphs; 196 articles remain. Next: p2-128.
+2026-08-28 (following approved 60): p2-128 through p2-174, then p3-003
+through p3-032 in approved catalogue order, excluding all held and absent IDs
+(60 articles / 498 paragraphs). All held articles remain excluded.
+300 of 436 articles; 2,420 paragraphs; 136 articles remain. Next: p3-033.
 Database content and English-source hashes match the validated local rows exactly.
 Authenticated RPC reads passed; anonymous requests and invalid student tokens
 were rejected. All synthetic test records were rolled back. Direct client table
@@ -115,11 +118,19 @@ translation attributes that inconsistency to the source without silently
 substituting ECG or changing the English exercise. Historical policy, medical,
 technology and commercial statements are not presented as updated guidance.
 
-For the latest set, all 240 database rows were checked against validated local
+The p2-128–p3-032 set was translated individually, preserving every source
+paragraph, embedded heading, quotation, figure and qualification. Historical
+policy, medical and technical claims retain their original context. Local
+editorial notes flag ambiguities without changing the English text. The two
+similar psychology passages, p2-147 and p3-020, each retain their own exact
+source text and the differences in their wording. No English exercises, audio,
+answer keys or student records were changed.
+
+For the latest set, all 300 database rows were checked against validated local
 payloads: per-paragraph English/Chinese text checksums, paragraph order/count,
 titles, remaining content metadata, English-source hashes and publication flags
-all matched. The database contains exactly 240 published translation rows and
-1,922 translated paragraphs, including the latest 60 articles / 473 paragraphs.
+all matched. The database contains exactly 300 published translation rows and
+2,420 translated paragraphs, including the latest 60 articles / 498 paragraphs.
 Authenticated RPC reads were tested for all 60 newly added articles, alongside
 anonymous/invalid-token rejection and the withheld-article check, in a rolled-back
 transaction. Translation, catalogue, portal and reading-enhancement tests passed.
