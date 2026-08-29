@@ -1,0 +1,221 @@
+{
+  "version": "2026-08-29.2",
+  "articles": {
+    "p1-069-albert-einstein": [
+      {
+        "start": 1,
+        "end": 8,
+        "type": "true-false-not-given",
+        "reason": "The production Einstein record predates questionGroups; questions 1–8 use TRUE / FALSE / NOT GIVEN."
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "type": "sentence-completion",
+        "reason": "The production Einstein record predates questionGroups; questions 9–10 complete sentences with words from the passage."
+      },
+      {
+        "start": 11,
+        "end": 13,
+        "type": "multiple-choice",
+        "reason": "The production Einstein record predates questionGroups; questions 11–13 select one answer from lettered options."
+      }
+    ],
+    "p1-076": [
+      {
+        "start": 9,
+        "end": 9,
+        "type": "sentence-completion",
+        "reason": "The source supplies one incomplete sentence completed with two words from the passage; letter-choice structural fallback must not turn it into multiple choice."
+      }
+    ],
+    "p1-104": [
+      {
+        "start": 7,
+        "end": 13,
+        "type": "matching-names-features",
+        "reason": "The source matches seven complete cause statements to a shared list of complete effects; these are feature relationships, not incomplete sentence beginnings and endings."
+      }
+    ],
+    "p1-108": [
+      {
+        "start": 11,
+        "end": 13,
+        "type": "short-answer-questions",
+        "reason": "The source asks three direct wh-questions answered with no more than three words from the passage."
+      }
+    ],
+    "p2-025": [
+      {
+        "start": 20,
+        "end": 21,
+        "type": "short-answer-questions",
+        "reason": "The source asks two direct questions answered using no more than two words and/or numbers."
+      }
+    ],
+    "p2-087": [
+      {
+        "start": 22,
+        "end": 26,
+        "type": "matching-names-features",
+        "reason": "Five language characteristics are matched to the shared options Esperanto, Ido or Both."
+      }
+    ],
+    "p2-089": [
+      {
+        "start": 21,
+        "end": 26,
+        "type": "matching-names-features",
+        "reason": "Six characteristics are matched to the shared named-person combinations Edison/Tesla/Westinghouse."
+      }
+    ],
+    "p2-069": [
+      {
+        "start": 25,
+        "end": 27,
+        "type": "table-completion",
+        "reason": "The source lays out Comparison of Synthetic and Natural Fibres as Feature/Answer table rows."
+      }
+    ],
+    "p2-071": [
+      {
+        "start": 20,
+        "end": 22,
+        "type": "table-completion",
+        "reason": "The source visibly presents Making a homeopathic remedy in Stage and Description columns."
+      }
+    ],
+    "p2-074": [
+      {
+        "start": 18,
+        "end": 21,
+        "type": "sentence-completion",
+        "reason": "The source is a prose box of incomplete sentences, not a note, table, summary or process diagram."
+      }
+    ],
+    "p2-119": [
+      {
+        "start": 13,
+        "end": 15,
+        "type": "short-answer-questions",
+        "reason": "The source asks three direct questions answered with no more than three words from the passage."
+      }
+    ],
+    "p2-135": [
+      {
+        "start": 25,
+        "end": 26,
+        "type": "sentence-completion",
+        "reason": "The source presents two incomplete factual sentences with embedded blanks, so the task is sentence completion despite the generic answer-length direction."
+      }
+    ],
+    "p2-137": [
+      {
+        "start": 24,
+        "end": 27,
+        "type": "multiple-choice",
+        "reason": "Each of the four questions has its own A–D answer set; incidental wording about noting comments must not trigger the note-completion rule."
+      }
+    ],
+    "p2-162": [
+      {
+        "start": 15,
+        "end": 25,
+        "type": "table-completion",
+        "reason": "Although the instruction says chart, the source is a row-and-column comparison headed Overview, Moyo's theory and Other scholars' theories, not a process flowchart."
+      }
+    ],
+    "p3-005": [
+      {
+        "start": 36,
+        "end": 40,
+        "type": "table-completion",
+        "reason": "The source visibly uses Categories, An Example and Another Example columns."
+      }
+    ],
+    "p3-076": [
+      {
+        "start": 27,
+        "end": 31,
+        "type": "flowchart-completion",
+        "reason": "The source visibly presents the ordered hemp events as a sequence-of-events flowchart."
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "type": "table-completion",
+        "reason": "The source compares Hemp and Marijuana in a compact two-column table; imported analysis also labels it Table Completion."
+      }
+    ],
+    "p3-092": [
+      {
+        "start": 35,
+        "end": 40,
+        "type": "matching-names-features",
+        "reason": "The six descriptions are matched to a shared list of seven locations A–G; despite the generic 'Answer the questions' wording, this is feature matching rather than short answer."
+      }
+    ],
+    "p3-093": [
+      {
+        "start": 27,
+        "end": 31,
+        "type": "matching-names-features",
+        "reason": "Five characteristics are matched to a shared list of named painters A–F."
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "type": "matching-names-features",
+        "reason": "Six characteristics are matched to a shared list of named paintings A–F."
+      }
+    ],
+    "p3-127": [
+      {
+        "start": 27,
+        "end": 33,
+        "type": "summary-completion",
+        "reason": "The source is one continuous account of explanations for the Mpemba Effect completed from a word list."
+      }
+    ],
+    "p3-141": [
+      {
+        "start": 28,
+        "end": 34,
+        "type": "sentence-completion",
+        "reason": "The source presents seven independent factual sentences; imported analysis also labels them Sentence Completion."
+      }
+    ],
+    "p3-147": [
+      {
+        "start": 28,
+        "end": 33,
+        "type": "short-answer-questions",
+        "reason": "The source asks six direct wh-questions answered with words or a number from the passage."
+      }
+    ],
+    "p3-152": [
+      {
+        "start": 27,
+        "end": 30,
+        "type": "table-completion",
+        "reason": "The source lays out components of the traditional roller-coaster lifting mechanism as structured table rows."
+      }
+    ],
+    "p3-155": [
+      {
+        "start": 38,
+        "end": 40,
+        "type": "short-answer-questions",
+        "reason": "The source asks three direct wh-questions using no more than two words."
+      }
+    ]
+  },
+  "ignoredGroups": {
+    "p3-007": [
+      {
+        "id": "g30",
+        "reason": "Spurious OCR fragment Q30–30 fully contained in the real Q27–36 flowchart group g27."
+      }
+    ]
+  }
+}

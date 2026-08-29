@@ -29,11 +29,17 @@ assert.equal((html.match(/data-passage-tab=/g) || []).length, 3);
 assert.match(html, /data-hide-translations/);
 assert.match(html, /data-skimming-bookmark/);
 assert.match(html, /data-passage-bookmark/);
+assert.match(html, /href="ielts-reading-analysis\.html\?view=question-types"/);
+assert.ok(
+  html.indexOf("question-type-directory") < html.indexOf('data-passage-tab="1"'),
+  "By Question Type must appear before the Passage 1 catalogue",
+);
 assert.match(html, /flashcards\.html\?deck=ielts%2Freading%2Fpassage-1%2FPractice%2069/);
 assert.match(html, /model-essay-downloads\.html\?catalog=reading-passage-1&amp;item=63e1085c1daadcb8/);
 assert.doesNotMatch(html, /<dialog/);
 assert.match(css, /grid-template-columns:minmax\(0,1\.15fr\) minmax\(390px,\.85fr\)/);
 assert.match(css, /@media\(max-width:1000px\)/);
+assert.match(css, /\.question-type-directory\s*\{/);
 assert.match(script, /flashcard_student_login/);
 assert.match(script, /reading_comprehension_save_attempt/);
 assert.match(script, /reading_comprehension_student_dashboard/);

@@ -10,6 +10,7 @@ import {
   const index = window.EDMUND_IELTS_READING_ANALYSIS_INDEX;
   const content = window.EDMUND_IELTS_READING_ANALYSIS_CONTENT || { articles: {} };
   const availability = window.EDMUND_IELTS_READING_ANALYSIS_AVAILABILITY || { articles: {} };
+  const questionTypeIndex = window.EDMUND_IELTS_READING_QUESTION_TYPES || { types: [], articles: [] };
 
   if (!index) {
     console.error("IELTS Reading analysis data could not be loaded.");
@@ -49,6 +50,12 @@ import {
     articleStatusTitle: document.querySelector("[data-article-status-title]"),
     articleStatusMessage: document.querySelector("[data-article-status-message]"),
     articleStatusRetry: document.querySelector('[data-action="retry-article"]'),
+    questionTypeSearch: document.querySelector("[data-question-type-search]"),
+    questionTypeResultCount: document.querySelector("[data-question-type-result-count]"),
+    questionTypeChips: document.querySelector("[data-question-type-chips]"),
+    questionTypeSelection: document.querySelector("[data-question-type-selection]"),
+    questionTypeResults: document.querySelector("[data-question-type-results]"),
+    questionTypeEmpty: document.querySelector("[data-question-type-empty]"),
   };
 
   const state = {
@@ -56,6 +63,8 @@ import {
     passage: 1,
     article: null,
     query: "",
+    questionType: "",
+    questionTypeQuery: "",
   };
   let routeRevision = 0;
 
@@ -73,9 +82,131 @@ import {
       .normalize("NFKD")
       .replace(/[\u0300-\u036f]/g, "")
       .replace(/[’‘`]/g, "'")
-      .replace(/[^a-z0-9]+/gi, " ")
+      .replace(/[^\p{L}\p{N}]+/gu, " ")
       .trim()
       .toLowerCase();
+  }
+
+  function listFrom(value) {
+    if (Array.isArray(value)) return value;
+    if (typeof value === "string" && value.trim()) return [value];
+    if (value && typeof value === "object") return Object.values(value);
+    return [];
+  }
+
+  const questionTypes = listFrom(questionTypeIndex.types || questionTypeIndex.taxonomy)
+    .map((type) => ({
+      key: String(type?.key || type?.id || "").trim(),
+      en: String(type?.en || type?.nameEn || type?.titleEn || type?.title || "").trim(),
+      zh: String(type?.zh || type?.nameZh || type?.titleZh || type?.translation || "").trim(),
+      aliases: listFrom(type?.aliases).map((alias) => String(alias || "").trim()).filter(Boolean),
+    }))
+    .filter((type) => type.key && type.en && type.zh);
+  const questionTypesByKey = new Map(questionTypes.map((type) => [type.key, type]));
+  const questionTypeUmbrellas = listFrom(questionTypeIndex.umbrellaAliases)
+    .map((umbrella) => ({
+      key: String(umbrella?.key || umbrella?.id || "").trim(),
+      en: String(umbrella?.en || umbrella?.nameEn || "").trim(),
+      zh: String(umbrella?.zh || umbrella?.nameZh || "").trim(),
+      aliases: listFrom(umbrella?.aliases).map((alias) => String(alias || "").trim()).filter(Boolean),
+      typeKeys: listFrom(umbrella?.typeKeys || umbrella?.typeIds)
+        .map((key) => String(key || "").trim()),
+    }))
+    .filter((umbrella) => umbrella.key && umbrella.typeKeys.length);
+  const questionTypeArticles = listFrom(
+    Array.isArray(questionTypeIndex.articles)
+      ? questionTypeIndex.articles
+      : questionTypeIndex.articlesById || questionTypeIndex.articles,
+  ).filter((article) => article && typeof article === "object");
+
+  function questionTypeKeysForArticle(article) {
+    let raw = article?.types || article?.questionTypes || article?.typeKeys || [];
+    if (!listFrom(raw).length && article?.questionsByType && typeof article.questionsByType === "object") {
+      raw = Object.keys(article.questionsByType);
+    }
+    return listFrom(raw)
+      .map((entry) => String(entry?.key || entry?.id || entry || "").trim())
+      .filter((key, position, keys) => questionTypesByKey.has(key) && keys.indexOf(key) === position);
+  }
+
+  function questionTypeSearchText(type) {
+    return normalise([type.key, type.en, type.zh, ...type.aliases].join(" "));
+  }
+
+  function matchingQuestionTypes(query) {
+    const needle = normalise(query);
+    if (!needle) return questionTypes;
+    const compactNeedle = needle.replace(/\s+/g, "");
+    const matchingKeys = new Set(questionTypes.filter((type) => {
+      const haystack = questionTypeSearchText(type);
+      const compactHaystack = haystack.replace(/\s+/g, "");
+      return haystack.includes(needle)
+        || needle.includes(haystack)
+        || compactHaystack.includes(compactNeedle)
+        || compactNeedle.includes(compactHaystack);
+    }).map((type) => type.key));
+    questionTypeUmbrellas.forEach((umbrella) => {
+      const haystack = normalise(
+        [umbrella.key, umbrella.en, umbrella.zh, ...umbrella.aliases].join(" "),
+      );
+      const compactHaystack = haystack.replace(/\s+/g, "");
+      if (
+        haystack.includes(needle)
+        || needle.includes(haystack)
+        || compactHaystack.includes(compactNeedle)
+        || compactNeedle.includes(compactHaystack)
+      ) {
+        umbrella.typeKeys.forEach((key) => matchingKeys.add(key));
+      }
+    });
+    return questionTypes.filter((type) => matchingKeys.has(type.key));
+  }
+
+  function numericQuestions(value) {
+    if (Array.isArray(value)) {
+      return value.flatMap(numericQuestions).filter((number, position, numbers) => numbers.indexOf(number) === position).sort((a, b) => a - b);
+    }
+    if (Number.isInteger(value)) return [value];
+    const text = String(value || "");
+    const numbers = [];
+    for (const match of text.matchAll(/(\d{1,2})(?:\s*[–—-]\s*(\d{1,2}))?/g)) {
+      const from = Number(match[1]);
+      const to = Number(match[2] || match[1]);
+      if (from < 1 || to < from || to > 99) continue;
+      for (let number = from; number <= to; number += 1) numbers.push(number);
+    }
+    return numbers.filter((number, position) => numbers.indexOf(number) === position).sort((a, b) => a - b);
+  }
+
+  function compactQuestionRanges(value) {
+    const numbers = numericQuestions(value);
+    if (!numbers.length) return "";
+    const ranges = [];
+    let start = numbers[0];
+    let end = start;
+    for (const number of numbers.slice(1)) {
+      if (number === end + 1) {
+        end = number;
+      } else {
+        ranges.push(start === end ? String(start) : `${start}–${end}`);
+        start = number;
+        end = number;
+      }
+    }
+    ranges.push(start === end ? String(start) : `${start}–${end}`);
+    return ranges.join("、");
+  }
+
+  function articleQuestionsForType(article, typeKey) {
+    const articleType = listFrom(article?.types).find(
+      (entry) => String(entry?.key || entry?.id || "").trim() === typeKey,
+    );
+    const source = article?.questionsByType?.[typeKey]
+      ?? article?.questionRanges?.[typeKey]
+      ?? article?.rangesByType?.[typeKey]
+      ?? articleType?.questionNumbers
+      ?? articleType?.ranges;
+    return compactQuestionRanges(source);
   }
 
   function make(tagName, className, text) {
@@ -110,7 +241,11 @@ import {
     const url = new URL(window.location.href);
     url.search = "";
     url.hash = "";
-    if (route.article) {
+    if (route.view === "question-types") {
+      url.searchParams.set("view", "question-types");
+      if (route.type) url.searchParams.set("type", route.type);
+      if (route.q) url.searchParams.set("q", route.q);
+    } else if (route.article) {
       url.searchParams.set("article", route.article);
     } else if (route.passage) {
       url.searchParams.set("passage", String(route.passage));
@@ -148,7 +283,17 @@ import {
   }
 
   function renderPassageNavigation() {
+    const questionTypesCard = make("button", "passage-card question-types-card");
+    questionTypesCard.type = "button";
+    questionTypesCard.setAttribute("aria-label", "按 IELTS Reading 題型尋找練習");
+    questionTypesCard.append(
+      make("small", "", "IELTS READING"),
+      make("strong", "", "By Question Type"),
+      make("span", "", `${questionTypes.length || 14} 種題型 · ${questionTypeArticles.length || 437} 篇練習`),
+    );
+    questionTypesCard.addEventListener("click", () => navigate({ view: "question-types" }));
     elements.passagePicker.replaceChildren(
+      questionTypesCard,
       ...[1, 2, 3].map((passage) => renderPassageButton(passage, "picker")),
     );
   }
@@ -204,6 +349,186 @@ import {
     elements.titleList.replaceChildren(...matches.map(renderTitleCard));
     elements.emptyState.hidden = matches.length !== 0;
     renderPassageTabs();
+  }
+
+  function articleHasQuestionType(article, typeKey) {
+    return questionTypeKeysForArticle(article).includes(typeKey);
+  }
+
+  function questionTypeArticleCount(typeKey) {
+    return questionTypeArticles.reduce(
+      (count, article) => count + (articleHasQuestionType(article, typeKey) ? 1 : 0),
+      0,
+    );
+  }
+
+  function renderQuestionTypeChip(type) {
+    const button = make("button", "question-type-chip");
+    button.type = "button";
+    button.dataset.questionType = type.key;
+    button.setAttribute("aria-pressed", state.questionType === type.key ? "true" : "false");
+    button.setAttribute(
+      "aria-label",
+      `${type.en}，${type.zh}，${questionTypeArticleCount(type.key)} 篇練習`,
+    );
+    button.append(
+      make("strong", "", type.en),
+      make("span", "", type.zh),
+      make("small", "", `${questionTypeArticleCount(type.key)} 篇`),
+    );
+    button.addEventListener("click", () => {
+      navigate({ view: "question-types", type: type.key });
+    });
+    return button;
+  }
+
+  function sortedQuestionTypeArticles(articles) {
+    return [...articles].sort((left, right) => {
+      const passageDifference = (Number(left.passage) || 99) - (Number(right.passage) || 99);
+      if (passageDifference) return passageDifference;
+      const practiceDifference = (Number(left.practice) || 999) - (Number(right.practice) || 999);
+      if (practiceDifference) return practiceDifference;
+      return collator.compare(String(left.title || ""), String(right.title || ""));
+    });
+  }
+
+  function renderQuestionTypeTag(article, type, matchedKeys) {
+    const range = articleQuestionsForType(article, type.key);
+    const tag = make(
+      "span",
+      `question-type-result-tag${matchedKeys.has(type.key) ? " is-match" : ""}`,
+    );
+    tag.append(
+      make("strong", "", type.en),
+      make("span", "", type.zh),
+      ...(range ? [make("small", "", `Q${range}`)] : []),
+    );
+    return tag;
+  }
+
+  function renderQuestionTypeResult(article, matchedKeys) {
+    const card = make("article", "question-type-result-card");
+    card.setAttribute("role", "listitem");
+    const passage = Number(article.passage);
+    const practice = Number(article.practice);
+    const title = String(article.title || `IELTS Reading Practice ${practice || ""}`).trim();
+
+    const heading = make("h2", "", title);
+    const metaParts = [];
+    if ([1, 2, 3].includes(passage)) metaParts.push(`Passage ${passage}`);
+    if (Number.isFinite(practice) && practice > 0) metaParts.push(`Practice ${practice}`);
+    const meta = make("p", "question-type-result-meta", metaParts.join(" · "));
+
+    const typeTags = make("div", "question-type-result-tags");
+    const articleTypes = questionTypeKeysForArticle(article)
+      .map((key) => questionTypesByKey.get(key))
+      .filter(Boolean);
+    typeTags.setAttribute("aria-label", "本篇練習題型及題號");
+    typeTags.append(...articleTypes.map((type) => renderQuestionTypeTag(article, type, matchedKeys)));
+
+    const action = make("div", "question-type-result-action");
+    const articleId = String(article.id || article.articleId || "").trim();
+    if (articleId && [1, 2, 3].includes(passage)) {
+      const link = make("a", "question-type-practice-link", "開始閱讀練習");
+      link.href = `reading-comprehension.html?article=${encodeURIComponent(articleId)}&passage=${passage}`;
+      link.setAttribute("aria-label", `開始 ${title} 閱讀練習`);
+      action.append(link);
+    } else {
+      const unavailable = make("span", "question-type-practice-link is-disabled", "練習準備中");
+      unavailable.setAttribute("aria-disabled", "true");
+      action.append(unavailable);
+    }
+
+    card.append(meta, heading, typeTags, action);
+    return card;
+  }
+
+  function setQuestionTypeEmpty(title, message, visible) {
+    const heading = elements.questionTypeEmpty.querySelector("strong");
+    const copy = elements.questionTypeEmpty.querySelector("p");
+    heading.textContent = title;
+    copy.textContent = message;
+    elements.questionTypeEmpty.hidden = !visible;
+  }
+
+  function renderQuestionTypeSelection(types, articleCount) {
+    elements.questionTypeSelection.hidden = false;
+    if (state.questionType && types.length === 1) {
+      const type = types[0];
+      elements.questionTypeSelection.replaceChildren(
+        make("h2", "", `${type.en} · ${type.zh}`),
+        make("p", "", `找到 ${articleCount} 篇含有這種題型的完整閱讀練習。`),
+      );
+      return;
+    }
+    if (normalise(state.questionTypeQuery)) {
+      elements.questionTypeSelection.replaceChildren(
+        make("h2", "", `找到 ${types.length} 種相符題型`),
+        make(
+          "p",
+          "",
+          types.length
+            ? types.map((type) => `${type.en}（${type.zh}）`).join("、")
+            : "請嘗試英文題型、中文名稱或較短的關鍵字。",
+        ),
+      );
+      return;
+    }
+    elements.questionTypeSelection.replaceChildren(
+      make("h2", "", "選擇一種題型"),
+      make("p", "", "點選下方題型，或輸入英文／中文名稱，即可找到對應的完整閱讀練習。"),
+    );
+  }
+
+  function renderQuestionTypeView() {
+    const requestedType = questionTypesByKey.get(state.questionType);
+    const hasQuery = Boolean(normalise(state.questionTypeQuery));
+    const matchedTypes = requestedType
+      ? [requestedType]
+      : matchingQuestionTypes(state.questionTypeQuery);
+    const matchedKeys = new Set(matchedTypes.map((type) => type.key));
+    const shouldShowResults = Boolean(requestedType || hasQuery);
+    const matches = shouldShowResults && matchedKeys.size
+      ? sortedQuestionTypeArticles(
+        questionTypeArticles.filter((article) =>
+          questionTypeKeysForArticle(article).some((key) => matchedKeys.has(key)),
+        ),
+      )
+      : [];
+    const chipsToShow = hasQuery ? matchedTypes : questionTypes;
+
+    elements.questionTypeSearch.value = state.questionTypeQuery;
+    elements.questionTypeChips.replaceChildren(...chipsToShow.map(renderQuestionTypeChip));
+    elements.questionTypeResults.setAttribute("role", "list");
+    elements.questionTypeResults.replaceChildren(
+      ...matches.map((article) => renderQuestionTypeResult(article, matchedKeys)),
+    );
+    renderQuestionTypeSelection(matchedTypes, matches.length);
+
+    if (!questionTypes.length || !questionTypeArticles.length) {
+      elements.questionTypeResultCount.textContent = "題型索引暫時未能載入";
+      setQuestionTypeEmpty(
+        "題型索引暫時未能載入",
+        "請重新整理頁面；Passage 文章目錄仍可正常使用。",
+        true,
+      );
+      return;
+    }
+
+    if (!shouldShowResults) {
+      elements.questionTypeResultCount.textContent = `共 ${questionTypes.length} 種題型，涵蓋 ${questionTypeArticles.length} 篇閱讀練習`;
+      setQuestionTypeEmpty("", "", false);
+      return;
+    }
+
+    elements.questionTypeResultCount.textContent = matchedTypes.length
+      ? `找到 ${matchedTypes.length} 種相符題型、${matches.length} 篇閱讀練習`
+      : "找不到相符題型";
+    setQuestionTypeEmpty(
+      "找不到相符題型",
+      "請嘗試英文題型、中文名稱或較短的關鍵字。",
+      matchedTypes.length === 0,
+    );
   }
 
   function renderAnswerTable(article) {
@@ -445,6 +770,21 @@ import {
     const params = new URLSearchParams(window.location.search);
     const articleId = params.get("article");
     const requestedPassage = Number(params.get("passage"));
+    const requestedView = params.get("view");
+    const requestedQuestionType = String(params.get("type") || "").trim();
+    const requestedQuestionTypeQuery = String(params.get("q") || "").trim();
+
+    if (requestedView === "question-types") {
+      state.article = null;
+      state.questionType = questionTypesByKey.has(requestedQuestionType)
+        ? requestedQuestionType
+        : "";
+      state.questionTypeQuery = state.questionType ? "" : requestedQuestionTypeQuery;
+      renderQuestionTypeView();
+      showView("question-types");
+      document.title = "By Question Type | IELTS Reading | EdmundEducation";
+      return;
+    }
 
     if (articleId) {
       const articleAvailability = articleRepository.availabilityForId(articleId);
@@ -518,14 +858,45 @@ import {
       elements.search.focus();
     });
 
+    elements.questionTypeSearch.addEventListener("input", (event) => {
+      state.questionType = "";
+      state.questionTypeQuery = event.target.value;
+      window.history.replaceState(
+        {},
+        "",
+        routeUrl({ view: "question-types", q: state.questionTypeQuery }),
+      );
+      renderQuestionTypeView();
+    });
+
+    document.querySelector('[data-action="clear-question-type-search"]').addEventListener("click", () => {
+      state.questionType = "";
+      state.questionTypeQuery = "";
+      window.history.replaceState({}, "", routeUrl({ view: "question-types" }));
+      renderQuestionTypeView();
+      elements.questionTypeSearch.focus();
+    });
+
     document.querySelector('[data-action="previous"]').addEventListener("click", () => {
       if (state.view === "analysis" || state.view === "article-status") {
         navigate({ passage: state.passage });
-      } else if (state.view === "catalogue") {
+      } else if (state.view === "catalogue" || state.view === "question-types") {
         navigate({});
       } else {
         window.location.href = "resources.html";
       }
+    });
+
+    document.querySelector('[data-action="question-types"]').addEventListener("click", () => {
+      navigate({
+        view: "question-types",
+        type: state.view === "question-types" ? state.questionType : "",
+        q: state.view === "question-types" ? state.questionTypeQuery : "",
+      });
+    });
+
+    document.querySelector('[data-action="question-types-home"]').addEventListener("click", () => {
+      navigate({});
     });
 
     document.querySelector('[data-action="catalogue"]').addEventListener("click", () => {
@@ -563,7 +934,10 @@ import {
   }
 
   window.EDMUND_IELTS_READING_ANALYSIS_TEST = Object.freeze({
+    compactQuestionRanges,
+    matchingQuestionTypes,
     normalise,
+    questionTypeKeysForArticle,
     sortedRecords,
   });
 

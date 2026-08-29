@@ -144,6 +144,8 @@ jobs:
           node tools/test-ielts-reading-analysis-imported-data.mjs
           node tools/test-ielts-reading-analysis-p2-imported-data.mjs
           node tools/test-ielts-reading-analysis-p3-imported-data.mjs
+          node tools/generate-ielts-reading-question-types.mjs --check
+          node tools/test-ielts-reading-question-types.mjs
 
       - name: Validate August flashcard expansion taxonomy and lazy loading
         run: |
