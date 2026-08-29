@@ -4,11 +4,15 @@
   const CONFIG = window.EDMUND_SPEAKING_CONFIG || {};
   const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
   const EXAM_MODE = window.EDMUND_SPEAKING_EXAM || {};
+  const DSE_DATA = window.EDMUND_DSE_SPEAKING_DATA || { years: [], catalog: {}, sets: [] };
+  const DSE_MODE = window.EDMUND_DSE_SPEAKING_MODE || {};
   const SESSION_KEY = "edmundSpeakingSessionV1";
   const RATE_KEY = "edmundSpeakingAudioRateV1";
   const HIGHLIGHT_KEY = "edmundSpeakingHighlightV1";
   const NATURAL_EXCHANGE_KEY = "edmundSpeakingNaturalExchangeV1";
   const PROGRESS_PREFERENCES_KEY = "edmundSpeakingProgressPreferencesV1";
+  const DSE_SESSION_KEY = "edmundDseSpeakingSessionV1";
+  const DSE_HISTORY_KEY = "edmundDseSpeakingHistoryV1";
   const SEARCH_RESULT_LIMITS = { sections: 8, exercises: 14 };
   const VISIBLE_BOOK_LIMITS = { 1: 14, 2: 16, 3: 16 };
   const AUDIO_RATES = [0.25, 0.5, 0.75, 1, 1.25, 1.5];
@@ -177,6 +181,9 @@
     examSaving: false,
     examSkipSaving: false,
     examRatingSaving: false,
+    dseYearSort: "asc",
+    dseSession: null,
+    dsePrepTimer: 0,
     idleBreakExamPausedAt: 0,
     idleBreakExamTimerWasRunning: false,
     idleBreakPrepTimerWasRunning: false,
@@ -252,6 +259,8 @@
     if (!route || state.user?.role === "admin") return [];
     if (route.view === "bookmarks") return ["bookmarks"];
     if (["exams", "attempts", "admin"].includes(route.view)) return [];
+    const dseViews = ["dse-sections", "dse-catalog", "dse-modes", "dse-practice"];
+    if (dseViews.includes(route.view)) return ["exam.dse"];
     const ieltsViews = ["parts", "books", "exercises", "exercise", "exam-modes", "exam-practice"];
     const exam = String(route.exam || (ieltsViews.includes(route.view) ? "ielts" : ""));
     const keys = exam && EXAM_ACCESS_KEYS[exam] ? [EXAM_ACCESS_KEYS[exam]] : [];
@@ -292,7 +301,7 @@
   }
 
   function examAvailable(examId) {
-    return examId === "ielts";
+    return ["dse", "ielts"].includes(examId);
   }
 
   function bookAvailable(part, book) {
@@ -486,6 +495,8 @@
 
   function clearSession() {
     state.authGeneration += 1;
+    clearDsePrepTimer();
+    state.dseSession = null;
     state.user = null;
     state.authToken = "";
     try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Storage is unavailable. */ }
@@ -846,6 +857,10 @@
 
   function routeLabel(route) {
     switch (route?.view) {
+      case "dse-sections": return "DSE 說話考試";
+      case "dse-catalog": return route.part === "individual" ? "個人發言" : "小組討論";
+      case "dse-modes": return "DSE 考試練習模式";
+      case "dse-practice": return DSE_MODE.modeForId?.(route.modeId)?.labelZh || "DSE 練習";
       case "parts": return "IELTS 說話考試";
       case "exam-modes": return "考試練習模式";
       case "exam-practice": return examModeDefinition(route.modeId)?.shortLabel || "考試練習";
@@ -911,6 +926,7 @@
     }
     stopModelAudio();
     clearExamPhaseTimer();
+    clearDsePrepTimer();
     cancelExamSpeech();
     cleanupPart1Reveal();
     cleanupAttemptAudio();
@@ -955,6 +971,18 @@
   function renderBreadcrumbs() {
     const route = state.route;
     const crumbs = [{ label: "Speaking System", route: { view: "exams" } }];
+    if (["dse-sections", "dse-catalog", "dse-modes", "dse-practice"].includes(route.view)) {
+      crumbs.push({ label: "DSE", route: route.view === "dse-sections" ? null : { view: "dse-sections", exam: "dse" } });
+    }
+    if (route.view === "dse-catalog") {
+      crumbs.push({ label: route.part === "individual" ? "個人發言" : "小組討論", route: null });
+    }
+    if (["dse-modes", "dse-practice"].includes(route.view)) {
+      crumbs.push({ label: "考試練習模式", route: route.view === "dse-modes" ? null : { view: "dse-modes", exam: "dse" } });
+    }
+    if (route.view === "dse-practice") {
+      crumbs.push({ label: DSE_MODE.modeForId?.(route.modeId)?.labelZh || "DSE 練習", route: null });
+    }
     if (["parts", "books", "exercises", "exercise", "exam-modes", "exam-practice"].includes(route.view)) {
       crumbs.push({ label: "IELTS", route: { view: "parts", exam: "ielts" } });
     }
@@ -998,6 +1026,18 @@
   function renderRoute() {
     renderBreadcrumbs();
     switch (state.route.view) {
+      case "dse-sections":
+        renderDseSections();
+        break;
+      case "dse-catalog":
+        renderDseCatalog();
+        break;
+      case "dse-modes":
+        renderDseModes();
+        break;
+      case "dse-practice":
+        renderDsePractice();
+        break;
       case "parts":
         renderParts();
         break;
@@ -1879,6 +1919,251 @@
         </div>
       </section>
     `;
+  }
+
+  function dseStorageOwner() {
+    return speakingProgressOwner();
+  }
+
+  function readDseStore(key) {
+    try {
+      const value = JSON.parse(localStorage.getItem(key) || "{}");
+      return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+    } catch {
+      return {};
+    }
+  }
+
+  function hydrateDseSession() {
+    if (state.dseSession || !dseStorageOwner()) return;
+    const saved = readDseStore(DSE_SESSION_KEY)[dseStorageOwner()];
+    if (!saved || typeof saved !== "object" || !DSE_MODE.modeForId?.(saved.modeId) || !saved.set) return;
+    state.dseSession = saved;
+  }
+
+  function persistDseSession() {
+    const owner = dseStorageOwner();
+    if (!owner) return;
+    try {
+      const store = readDseStore(DSE_SESSION_KEY);
+      if (state.dseSession) store[owner] = state.dseSession;
+      else delete store[owner];
+      localStorage.setItem(DSE_SESSION_KEY, JSON.stringify(store));
+    } catch {
+      // The locked set remains stable for the current page if storage is unavailable.
+    }
+  }
+
+  function saveDseHistory(session) {
+    const owner = dseStorageOwner();
+    if (!owner || !session?.completedAt) return;
+    try {
+      const store = readDseStore(DSE_HISTORY_KEY);
+      const history = Array.isArray(store[owner]) ? store[owner] : [];
+      if (!history.some(item => item?.id === session.id)) history.unshift({ ...session });
+      store[owner] = history.slice(0, 50);
+      localStorage.setItem(DSE_HISTORY_KEY, JSON.stringify(store));
+    } catch {
+      // Completion remains visible for the current page if storage is unavailable.
+    }
+  }
+
+  function clearDsePrepTimer() {
+    if (state.dsePrepTimer) window.clearInterval(state.dsePrepTimer);
+    state.dsePrepTimer = 0;
+  }
+
+  function dseModeLabel(modeId) {
+    const mode = DSE_MODE.modeForId?.(modeId);
+    return mode ? `${mode.label} · ${mode.labelZh}` : "DSE 考試練習";
+  }
+
+  function renderDseSections() {
+    hydrateDseSession();
+    const availableCount = Array.isArray(DSE_DATA.sets) ? DSE_DATA.sets.length : 0;
+    dom.content.innerHTML = `
+      <section class="content-panel dse-panel">
+        ${sectionHeader("DSE 說話考試", `${availableCount} 套歷屆題目，按年份瀏覽或進入隨機考試練習模式。`)}
+        <div class="choice-grid dse-section-grid">
+          <button class="choice-card dse-part-choice" type="button" data-dse-catalog="group">
+            <span class="card-number">DSE PAPER 4 · PART A</span>
+            <strong>Group Discussion<br><span lang="zh-Hant">小組討論</span></strong>
+            <small>每套列出 3 個討論重點</small>
+          </button>
+          <button class="choice-card dse-part-choice" type="button" data-dse-catalog="individual">
+            <span class="card-number">DSE PAPER 4 · PART B</span>
+            <strong>Individual Response<br><span lang="zh-Hant">個人發言</span></strong>
+            <small>每套列出 8–10 條個人發言問題</small>
+          </button>
+          <button class="choice-card exam-practice-choice dse-practice-choice" type="button" data-open-dse-modes>
+            <span class="card-number">DSE SPEAKING · EXAM MODE</span>
+            <strong>考試練習模式</strong>
+            <small>${state.dseSession && !state.dseSession.completedAt ? `繼續已鎖定的 ${escapeHtml(state.dseSession.set?.year)} ${escapeHtml(state.dseSession.set?.set)} 題組` : "隨機鎖定同一題組，完成準備、討論及個人發言流程"}</small>
+          </button>
+        </div>
+      </section>`;
+  }
+
+  function dseQuestionList(questions, ordered = false) {
+    const tag = ordered ? "ol" : "ul";
+    return `<${tag} class="dse-question-list">${questions.map(question => `<li>${escapeHtml(question)}</li>`).join("")}</${tag}>`;
+  }
+
+  function renderDseCatalog() {
+    const part = state.route.part === "individual" ? "individual" : "group";
+    const years = Array.isArray(DSE_DATA.years) ? [...DSE_DATA.years] : [];
+    if (state.dseYearSort === "desc") years.reverse();
+    const partTitle = part === "individual" ? "Individual Response · 個人發言" : "Group Discussion · 小組討論";
+    dom.content.innerHTML = `
+      <section class="content-panel dse-panel">
+        <div class="dse-catalog-heading">
+          ${sectionHeader(partTitle, "選擇年份及題組；按下題目卡即可查看完整問題。")}
+          <button class="secondary-button dse-sort-button" type="button" data-dse-sort aria-label="切換年份排序">
+            年份：${state.dseYearSort === "asc" ? "2012 → 2025" : "2025 → 2012"} ↕
+          </button>
+        </div>
+        <div class="dse-year-list">
+          ${years.map(year => {
+            const sets = Array.isArray(DSE_DATA.catalog?.[year]) ? [...DSE_DATA.catalog[year]].sort((left, right) => {
+              const a = left.set.split(".").map(Number);
+              const b = right.set.split(".").map(Number);
+              return a[0] - b[0] || a[1] - b[1];
+            }) : [];
+            return `
+              <details class="dse-year-section" ${sets.length && year === (state.dseYearSort === "asc" ? 2012 : 2023) ? "open" : ""}>
+                <summary><span>${year}</span><small>${sets.length ? `${sets.length} 套題目` : "暫未提供題目"}</small></summary>
+                ${sets.length ? `<div class="dse-set-list">${sets.map(set => {
+                  const questions = part === "individual" ? set.individualResponse : set.groupDiscussion;
+                  return `<details class="dse-set-card"><summary><span>${escapeHtml(set.set)}</span><strong>${escapeHtml(set.title)}</strong><small>${questions.length} 題</small></summary>${dseQuestionList(questions, true)}</details>`;
+                }).join("")}</div>` : '<p class="dse-empty-year">這個年份的題目尚未加入。</p>'}
+              </details>`;
+          }).join("")}
+        </div>
+      </section>`;
+  }
+
+  function renderDseModes() {
+    hydrateDseSession();
+    const active = state.dseSession && !state.dseSession.completedAt ? state.dseSession : null;
+    const modes = Array.isArray(DSE_MODE.modes) ? DSE_MODE.modes : [];
+    dom.content.innerHTML = `
+      <section class="content-panel exam-mode-panel dse-panel">
+        ${sectionHeader("DSE 考試練習模式", "隨機抽取並鎖定同一套歷屆題目。DSE 模式不設考官自然交流。", "3 種模式")}
+        ${active ? `<aside class="dse-locked-attempt"><span>已鎖定題組</span><strong>${escapeHtml(active.set.year)} · ${escapeHtml(active.set.set)} — ${escapeHtml(active.set.title)}</strong><button class="primary-button" type="button" data-resume-dse>繼續練習</button></aside>` : ""}
+        <div class="exam-mode-grid dse-mode-grid">
+          ${modes.map((mode, index) => `<button class="exam-mode-card" type="button" data-dse-mode="${escapeHtml(mode.id)}" ${active ? 'aria-disabled="true"' : ""}>
+            <span>${pad(index + 1)} · DSE PRACTICE</span>
+            <strong>${escapeHtml(mode.label)}<br><span lang="zh-Hant">${escapeHtml(mode.labelZh)}</span></strong>
+            <small>${mode.parts.includes("group") ? "10 分鐘準備時間 · 3 個討論重點" : ""}${mode.parts.length > 1 ? " · " : ""}${mode.parts.includes("individual") ? "同一題組 8–10 條問題" : ""}</small>
+          </button>`).join("")}
+        </div>
+      </section>`;
+  }
+
+  function startDsePractice(modeId) {
+    hydrateDseSession();
+    if (state.dseSession && !state.dseSession.completedAt) {
+      navigate({ view: "dse-practice", exam: "dse", modeId: state.dseSession.modeId });
+      return;
+    }
+    try {
+      const history = readDseStore(DSE_HISTORY_KEY)[dseStorageOwner()] || [];
+      state.dseSession = DSE_MODE.createSession(modeId, DSE_DATA.sets, { excludedKey: history[0]?.sourceKey || "" });
+      persistDseSession();
+      navigate({ view: "dse-practice", exam: "dse", modeId });
+    } catch (error) {
+      console.warn("Could not create DSE speaking practice:", error);
+      toast("未能建立 DSE 考試練習，請重新整理後再試。", "error");
+    }
+  }
+
+  function dseSetHeader(session) {
+    return `<header class="dse-practice-header"><p class="eyebrow">${escapeHtml(dseModeLabel(session.modeId))}</p><h1>${escapeHtml(session.set.year)} · ${escapeHtml(session.set.set)}</h1><h2>${escapeHtml(session.set.title)}</h2></header>`;
+  }
+
+  function dseGroupCard(session, preparation = false) {
+    return `<section class="dse-practice-card"><span class="cue-label">PART A · GROUP DISCUSSION · 小組討論</span><h2>${preparation ? "準備以下 3 個討論重點" : "開始小組討論"}</h2>${dseQuestionList(session.set.groupDiscussion, true)}</section>`;
+  }
+
+  function renderDsePractice() {
+    hydrateDseSession();
+    const session = state.dseSession;
+    if (!session || session.modeId !== state.route.modeId) {
+      dom.content.innerHTML = `<section class="notice-card"><h2>這次 DSE 練習尚未開始</h2><p>返回模式頁，系統會隨機抽取並鎖定一套題目。</p><button class="primary-button" type="button" data-open-dse-modes>選擇 DSE 模式</button></section>`;
+      return;
+    }
+    clearDsePrepTimer();
+    const mode = DSE_MODE.modeForId?.(session.modeId);
+    if (session.phase === "preparation") {
+      const remaining = Math.max(0, Math.ceil((Number(session.prepEndsAt) - Date.now()) / 1000));
+      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${dseSetHeader(session)}<section class="exam-prep-timer dse-prep-timer"><span>準備時間 · PREPARATION</span><strong data-dse-prep-clock role="timer">${Math.floor(remaining / 60)}:${pad(remaining % 60)}</strong><button class="exam-prep-skip-button" type="button" data-dse-skip-prep>略過準備時間</button></section>${dseGroupCard(session, true)}</article>`;
+      startDsePrepTimer();
+      return;
+    }
+    if (session.phase === "group") {
+      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${dseSetHeader(session)}${dseGroupCard(session)}<button class="primary-button dse-stage-action" type="button" data-dse-complete-group>${mode?.parts.includes("individual") ? "完成小組討論，進入個人發言 →" : "完成小組討論 →"}</button></article>`;
+      return;
+    }
+    if (session.phase === "individual") {
+      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${dseSetHeader(session)}<section class="dse-practice-card"><span class="cue-label">PART B · INDIVIDUAL RESPONSE · 個人發言</span><h2>回答同一題組的全部問題</h2>${dseQuestionList(session.set.individualResponse, true)}</section><button class="primary-button dse-stage-action" type="button" data-dse-complete-individual>完成個人發言 →</button></article>`;
+      return;
+    }
+    if (session.phase === "rating") {
+      const selected = Number(session.selectedRating || 0);
+      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view"><section class="exam-rating-card"><p class="eyebrow">DSE PRACTICE · SELF-EVALUATION</p><h1>How nervous were you in the whole process?</h1><p>請以 1 至 7 評分；1 代表最放鬆，7 代表最緊張。</p><div class="exam-rating-scale">${Array.from({ length: 7 }, (_, index) => index + 1).map(value => `<button class="exam-rating-circle${selected === value ? " is-selected" : ""}" type="button" data-dse-rating="${value}" aria-pressed="${selected === value}">${value}</button>`).join("")}</div><p class="exam-rating-status" role="status">${selected ? `你選擇了 ${selected} / 7。` : "請選擇 1 至 7。"}</p><button class="primary-button" type="button" data-submit-dse-rating ${selected ? "" : "disabled"}>完成練習</button></section></article>`;
+      return;
+    }
+    dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view"><section class="exam-completion-card">${dseSetHeader(session)}<p class="exam-completion-lead">DSE 考試練習完成。</p><div class="saved-exam-rating"><span>緊張程度</span><strong>${escapeHtml(session.rating)} / 7</strong></div><div class="exam-complete-actions"><button class="secondary-button" type="button" data-new-dse>再做一次</button><button class="primary-button" type="button" data-dse-catalog="group">瀏覽歷屆題目</button></div></section></article>`;
+  }
+
+  function startDsePrepTimer() {
+    clearDsePrepTimer();
+    const update = () => {
+      const session = state.dseSession;
+      if (state.route.view !== "dse-practice" || session?.phase !== "preparation") return clearDsePrepTimer();
+      const seconds = Math.max(0, Math.ceil((Number(session.prepEndsAt) - Date.now()) / 1000));
+      const clock = document.querySelector("[data-dse-prep-clock]");
+      if (clock) clock.textContent = `${Math.floor(seconds / 60)}:${pad(seconds % 60)}`;
+      if (seconds === 0) beginDseGroup();
+    };
+    update();
+    if (state.dseSession?.phase === "preparation") state.dsePrepTimer = window.setInterval(update, 250);
+  }
+
+  function beginDseGroup() {
+    if (state.dseSession?.phase !== "preparation") return;
+    clearDsePrepTimer();
+    state.dseSession.phase = "group";
+    persistDseSession();
+    renderDsePractice();
+  }
+
+  function completeDseGroup() {
+    const session = state.dseSession;
+    if (session?.phase !== "group") return;
+    const mode = DSE_MODE.modeForId?.(session.modeId);
+    session.phase = mode?.parts.includes("individual") ? "individual" : "rating";
+    persistDseSession();
+    renderDsePractice();
+  }
+
+  function completeDseIndividual() {
+    if (state.dseSession?.phase !== "individual") return;
+    state.dseSession.phase = "rating";
+    persistDseSession();
+    renderDsePractice();
+  }
+
+  function submitDseRating() {
+    const session = state.dseSession;
+    const rating = Number(session?.selectedRating || 0);
+    if (session?.phase !== "rating" || !Number.isInteger(rating) || rating < 1 || rating > 7) return;
+    session.rating = rating;
+    session.completedAt = new Date().toISOString();
+    session.phase = "review";
+    persistDseSession();
+    saveDseHistory(session);
+    renderDsePractice();
   }
 
   function clearExamPhaseTimer() {
@@ -6766,7 +7051,8 @@
 
       const searchExam = event.target.closest("[data-search-exam]");
       if (searchExam) {
-        navigate({ view: "parts", exam: searchExam.dataset.searchExam });
+        const examId = searchExam.dataset.searchExam;
+        navigate(examId === "dse" ? { view: "dse-sections", exam: "dse" } : { view: "parts", exam: examId });
         return;
       }
 
@@ -6789,7 +7075,75 @@
           toast("你的帳戶尚未開放這個練習範圍。", "error");
         } else if (!examAvailable(exam.dataset.exam)) {
           toast("這個練習範疇正在準備中。", "info");
-        } else navigate({ view: "parts", exam: "ielts" });
+        } else navigate(exam.dataset.exam === "dse" ? { view: "dse-sections", exam: "dse" } : { view: "parts", exam: "ielts" });
+        return;
+      }
+
+      const dseCatalog = event.target.closest("[data-dse-catalog]");
+      if (dseCatalog) {
+        navigate({ view: "dse-catalog", exam: "dse", part: dseCatalog.dataset.dseCatalog === "individual" ? "individual" : "group" });
+        return;
+      }
+
+      if (event.target.closest("[data-open-dse-modes]")) {
+        navigate({ view: "dse-modes", exam: "dse" });
+        return;
+      }
+
+      if (event.target.closest("[data-resume-dse]")) {
+        hydrateDseSession();
+        if (state.dseSession) navigate({ view: "dse-practice", exam: "dse", modeId: state.dseSession.modeId });
+        return;
+      }
+
+      if (event.target.closest("[data-dse-sort]")) {
+        state.dseYearSort = state.dseYearSort === "asc" ? "desc" : "asc";
+        renderDseCatalog();
+        return;
+      }
+
+      const dseMode = event.target.closest("[data-dse-mode]");
+      if (dseMode) {
+        if (dseMode.getAttribute("aria-disabled") === "true") toast("請先完成目前已鎖定的 DSE 題組。", "info");
+        else startDsePractice(dseMode.dataset.dseMode);
+        return;
+      }
+
+      if (event.target.closest("[data-dse-skip-prep]")) {
+        beginDseGroup();
+        return;
+      }
+
+      if (event.target.closest("[data-dse-complete-group]")) {
+        completeDseGroup();
+        return;
+      }
+
+      if (event.target.closest("[data-dse-complete-individual]")) {
+        completeDseIndividual();
+        return;
+      }
+
+      const dseRating = event.target.closest("[data-dse-rating]");
+      if (dseRating && state.dseSession?.phase === "rating") {
+        const value = Number(dseRating.dataset.dseRating);
+        if (Number.isInteger(value) && value >= 1 && value <= 7) {
+          state.dseSession.selectedRating = value;
+          persistDseSession();
+          renderDsePractice();
+        }
+        return;
+      }
+
+      if (event.target.closest("[data-submit-dse-rating]")) {
+        submitDseRating();
+        return;
+      }
+
+      if (event.target.closest("[data-new-dse]")) {
+        state.dseSession = null;
+        persistDseSession();
+        navigate({ view: "dse-modes", exam: "dse" });
         return;
       }
 
@@ -7185,6 +7539,7 @@
       stopModelAudio();
       clearExamPhaseTimer();
       clearExamElapsedTimer();
+      clearDsePrepTimer();
       cancelExamSpeech();
       cleanupPart1Reveal();
       cleanupFloatingRecorder();

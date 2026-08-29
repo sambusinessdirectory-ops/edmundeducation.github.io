@@ -6,6 +6,242 @@
   font-display: swap;
 }
 
+/* DSE Paper 4 catalogue and exam practice */
+.dse-panel,
+.dse-practice-view {
+  width: min(1180px, 100%);
+  margin-inline: auto;
+}
+
+.dse-section-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.dse-section-grid .dse-practice-choice {
+  grid-column: 1 / -1;
+}
+
+.dse-part-choice strong span,
+.dse-mode-grid strong span {
+  font-size: .72em;
+  color: inherit;
+}
+
+.dse-catalog-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 22px;
+}
+
+.dse-catalog-heading .section-heading {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.dse-sort-button {
+  flex: 0 0 auto;
+  min-width: 190px;
+}
+
+.dse-year-list,
+.dse-set-list {
+  display: grid;
+  gap: 14px;
+}
+
+.dse-year-section,
+.dse-set-card,
+.dse-practice-card,
+.dse-locked-attempt {
+  border: 1px solid rgba(23, 105, 170, .18);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, .78);
+  box-shadow: 0 14px 34px rgba(24, 61, 84, .08);
+}
+
+.dse-year-section > summary,
+.dse-set-card > summary {
+  display: grid;
+  align-items: center;
+  gap: 10px 18px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.dse-year-section > summary::-webkit-details-marker,
+.dse-set-card > summary::-webkit-details-marker {
+  display: none;
+}
+
+.dse-year-section > summary {
+  grid-template-columns: 1fr auto;
+  padding: 20px 24px;
+}
+
+.dse-year-section > summary span {
+  color: var(--blue-deep);
+  font-family: Georgia, "Times New Roman", "Edmund Serif TC", serif;
+  font-size: clamp(26px, 3vw, 38px);
+  font-weight: 800;
+}
+
+.dse-year-section > summary small,
+.dse-set-card > summary small {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.dse-year-section[open] > summary {
+  border-bottom: 1px solid rgba(23, 105, 170, .12);
+}
+
+.dse-set-list {
+  padding: 16px;
+}
+
+.dse-set-card {
+  border-radius: 16px;
+  box-shadow: none;
+}
+
+.dse-set-card > summary {
+  grid-template-columns: 52px 1fr auto;
+  padding: 16px 18px;
+}
+
+.dse-set-card > summary span {
+  color: var(--teal-deep);
+  font-weight: 900;
+}
+
+.dse-set-card > summary strong {
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.dse-question-list {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 20px 28px 24px 50px;
+  border-top: 1px solid rgba(23, 105, 170, .1);
+  color: var(--ink);
+  font-size: clamp(15px, 1.5vw, 18px);
+  line-height: 1.65;
+}
+
+.dse-empty-year {
+  margin: 0;
+  padding: 22px 24px;
+  color: var(--muted);
+}
+
+.dse-locked-attempt {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px 20px;
+  align-items: center;
+  margin-bottom: 22px;
+  padding: 20px 22px;
+  background: rgba(231, 246, 243, .92);
+}
+
+.dse-locked-attempt span {
+  color: var(--teal-deep);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.dse-locked-attempt strong {
+  grid-column: 1;
+  line-height: 1.5;
+}
+
+.dse-locked-attempt button {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+.dse-practice-header {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.dse-practice-header h1 {
+  margin: 8px 0 4px;
+  color: var(--blue-deep);
+  font-size: clamp(36px, 5vw, 62px);
+}
+
+.dse-practice-header h2 {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(19px, 2.5vw, 30px);
+}
+
+.dse-practice-card {
+  padding: clamp(24px, 4vw, 42px);
+}
+
+.dse-practice-card h2 {
+  margin: 0 0 8px;
+  font-size: clamp(24px, 3vw, 38px);
+}
+
+.dse-practice-card .dse-question-list {
+  margin-top: 20px;
+  border: 0;
+  border-radius: 16px;
+  background: rgba(235, 246, 251, .72);
+}
+
+.dse-stage-action {
+  display: block;
+  margin: 24px auto 0;
+}
+
+@media (max-width: 720px) {
+  .dse-section-grid,
+  .dse-mode-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dse-section-grid .dse-practice-choice {
+    grid-column: auto;
+  }
+
+  .dse-catalog-heading,
+  .dse-locked-attempt {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .dse-sort-button {
+    width: 100%;
+  }
+
+  .dse-locked-attempt button {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .dse-set-card > summary {
+    grid-template-columns: 44px 1fr;
+  }
+
+  .dse-set-card > summary small {
+    grid-column: 2;
+  }
+
+  .dse-question-list {
+    padding-left: 42px;
+  }
+}
+
 .visually-hidden {
   position: absolute !important;
   width: 1px !important;
