@@ -5,6 +5,7 @@ const SESSION_KEY = "edmund-reading-comprehension-session-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
 const CATALOGUE_VERSION = '20260829-audio1';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
+const QUESTION_TYPE_INDEX = window.EDMUND_IELTS_READING_QUESTION_TYPES || { taxonomy: [], articles: [] };
 const audioTimingCache = new Map();
 
 const state = {
@@ -14,7 +15,8 @@ const state = {
   timerMode: "stopwatch", countdownMinutes: 20, forceSubmit: false, submitting: false,
   answerTimings: {}, scanAssignments: {}, wordIndex: 0, toastHandle: 0, dashboard: null,
   audioItem: null, audioSetup: false, audioStopAt: null, passageTab: 1, exerciseReady: false,
-  catalogue: [], cataloguePage: 0, cataloguePromise: null, opening: false, savePromise: null
+  catalogue: [], cataloguePage: 0, cataloguePromise: null, opening: false, savePromise: null,
+  questionType: "", questionTypeQuery: ""
 };
 
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -28,19 +30,84 @@ const el = {
   timer: $('[data-timer]'), timerToggle: $('[data-timer-toggle]'), timerMode: $('[data-timer-mode]'), timerModeLabel: $('[data-timer-mode-label]'), countdownLabel: $('[data-countdown-label]'), countdownMinutes: $('[data-countdown-minutes]'), forceLabel: $('[data-force-label]'), forceSubmit: $('[data-force-submit]'),
   translationButton: $('[data-translation-menu]'), translationPanel: $('[data-translation-panel]'), translationAll: $('[data-translation-all]'),
   audio: $('[data-reading-audio]'), audioToggle: $('[data-audio-toggle]'), audioBack: $('[data-audio-back]'), audioSeek: $('[data-audio-seek]'), audioTime: $('[data-audio-time]'), audioRate: $('[data-audio-rate]'), sync: $('[data-sync-highlight]'),
-  skimmingDialog: $('[data-skimming-dialog]'), analysisDialog: $('[data-analysis-dialog]'), toast: $('[data-toast]')
+  skimmingDialog: $('[data-skimming-dialog]'), analysisDialog: $('[data-analysis-dialog]'), toast: $('[data-toast]'),
+  questionTypeSearch: $('[data-question-type-search]'), questionTypeResultCount: $('[data-question-type-result-count]'),
+  questionTypeChips: $('[data-question-type-chips]'), questionTypeSelection: $('[data-question-type-selection]'),
+  questionTypeResults: $('[data-question-type-results]'), questionTypeEmpty: $('[data-question-type-empty]')
 };
 
 function escapeHtml(value) { return String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#39;"); }
+function listFrom(value) { if (Array.isArray(value)) return value; if (typeof value === 'string' && value.trim()) return [value]; if (value && typeof value === 'object') return Object.values(value); return []; }
+function normaliseSearch(value) { return String(value || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[’‘`]/g, "'").replace(/[^\p{L}\p{N}]+/gu, ' ').trim().toLowerCase(); }
+function createNode(tagName, className = '', text = '') { const node = document.createElement(tagName); if (className) node.className = className; if (text) node.textContent = text; return node; }
+
+const questionTypes = listFrom(QUESTION_TYPE_INDEX.types || QUESTION_TYPE_INDEX.taxonomy).map((type) => ({
+  key: String(type?.key || type?.id || '').trim(),
+  en: String(type?.en || type?.nameEn || type?.titleEn || type?.title || '').trim(),
+  zh: String(type?.zh || type?.nameZh || type?.titleZh || type?.translation || '').trim(),
+  aliases: listFrom(type?.aliases).map((alias) => String(alias || '').trim()).filter(Boolean)
+})).filter((type) => type.key && type.en && type.zh);
+const questionTypesByKey = new Map(questionTypes.map((type) => [type.key, type]));
+const questionTypeUmbrellas = listFrom(QUESTION_TYPE_INDEX.umbrellaAliases).map((umbrella) => ({
+  key: String(umbrella?.key || umbrella?.id || '').trim(),
+  en: String(umbrella?.en || umbrella?.nameEn || '').trim(),
+  zh: String(umbrella?.zh || umbrella?.nameZh || '').trim(),
+  aliases: listFrom(umbrella?.aliases).map((alias) => String(alias || '').trim()).filter(Boolean),
+  typeKeys: listFrom(umbrella?.typeKeys || umbrella?.typeIds).map((key) => String(key || '').trim())
+})).filter((umbrella) => umbrella.key && umbrella.typeKeys.length);
+const questionTypeArticles = listFrom(Array.isArray(QUESTION_TYPE_INDEX.articles) ? QUESTION_TYPE_INDEX.articles : QUESTION_TYPE_INDEX.articlesById || QUESTION_TYPE_INDEX.articles).filter((article) => article && typeof article === 'object');
+
+function questionTypeKeysForArticle(article) {
+  let raw = article?.types || article?.questionTypes || article?.typeKeys || [];
+  if (!listFrom(raw).length && article?.questionsByType && typeof article.questionsByType === 'object') raw = Object.keys(article.questionsByType);
+  return listFrom(raw).map((entry) => String(entry?.key || entry?.id || entry || '').trim()).filter((key, index, keys) => questionTypesByKey.has(key) && keys.indexOf(key) === index);
+}
+function matchingQuestionTypes(query) {
+  const needle = normaliseSearch(query); if (!needle) return questionTypes;
+  const compactNeedle = needle.replace(/\s+/g, ''); const matchingKeys = new Set();
+  questionTypes.forEach((type) => {
+    const haystack = normaliseSearch([type.key, type.en, type.zh, ...type.aliases].join(' ')); const compactHaystack = haystack.replace(/\s+/g, '');
+    if (haystack.includes(needle) || needle.includes(haystack) || compactHaystack.includes(compactNeedle) || compactNeedle.includes(compactHaystack)) matchingKeys.add(type.key);
+  });
+  questionTypeUmbrellas.forEach((umbrella) => {
+    const haystack = normaliseSearch([umbrella.key, umbrella.en, umbrella.zh, ...umbrella.aliases].join(' ')); const compactHaystack = haystack.replace(/\s+/g, '');
+    if (haystack.includes(needle) || needle.includes(haystack) || compactHaystack.includes(compactNeedle) || compactNeedle.includes(compactHaystack)) umbrella.typeKeys.forEach((key) => matchingKeys.add(key));
+  });
+  return questionTypes.filter((type) => matchingKeys.has(type.key));
+}
+function numericQuestions(value) {
+  if (Array.isArray(value)) return value.flatMap(numericQuestions).filter((number, index, numbers) => numbers.indexOf(number) === index).sort((a, b) => a - b);
+  if (Number.isInteger(value)) return [value]; const numbers = [];
+  for (const match of String(value || '').matchAll(/(\d{1,2})(?:\s*[–—-]\s*(\d{1,2}))?/g)) { const from = Number(match[1]); const to = Number(match[2] || match[1]); if (from < 1 || to < from || to > 99) continue; for (let number = from; number <= to; number++) numbers.push(number); }
+  return numbers.filter((number, index) => numbers.indexOf(number) === index).sort((a, b) => a - b);
+}
+function compactQuestionRanges(value) {
+  const numbers = numericQuestions(value); if (!numbers.length) return ''; const ranges = []; let start = numbers[0]; let end = start;
+  for (const number of numbers.slice(1)) { if (number === end + 1) end = number; else { ranges.push(start === end ? String(start) : `${start}–${end}`); start = number; end = number; } }
+  ranges.push(start === end ? String(start) : `${start}–${end}`); return ranges.join('、');
+}
+function articleQuestionsForType(article, typeKey) {
+  const articleType = listFrom(article?.types).find((entry) => String(entry?.key || entry?.id || '').trim() === typeKey);
+  return compactQuestionRanges(article?.questionsByType?.[typeKey] ?? article?.questionRanges?.[typeKey] ?? article?.rangesByType?.[typeKey] ?? articleType?.questionNumbers ?? articleType?.ranges);
+}
+function articleHasQuestionType(article, typeKey) { return questionTypeKeysForArticle(article).includes(typeKey); }
+function questionTypeArticleCount(typeKey) { return questionTypeArticles.reduce((count, article) => count + (articleHasQuestionType(article, typeKey) ? 1 : 0), 0); }
 function setConnection(text, status) { el.connection.textContent = text; el.connection.dataset.state = status; }
 function setStatus(text = "", status = "") { el.loginStatus.textContent = text; el.loginStatus.dataset.state = status; }
 function showToast(message) { clearTimeout(state.toastHandle); el.toast.textContent = message; el.toast.hidden = false; state.toastHandle = setTimeout(() => { el.toast.hidden = true; }, 3600); }
 function showView(view) {
   state.view = view; el.views.forEach((node) => { node.hidden = node.dataset.view !== view; });
-  const signedIn = Boolean(state.user && state.token); el.user.hidden = !signedIn; el.logout.hidden = !signedIn; el.home.hidden = !signedIn || view === "dashboard";
+  const signedIn = Boolean(state.user && state.token); el.user.hidden = !signedIn; el.logout.hidden = !signedIn; el.home.hidden = !signedIn || view === "login" || view === "reading-home";
   if (signedIn) el.user.textContent = `${state.user.name} · 學生`;
   window.scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
-  requestAnimationFrame(updateFloatingOffsets);
+  requestAnimationFrame(() => {
+    updateFloatingOffsets();
+    const heading = el.views.find((node) => node.dataset.view === view)?.querySelector('h1, h2');
+    if (heading) {
+      heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true });
+      heading.addEventListener('blur', () => heading.removeAttribute('tabindex'), { once: true });
+    }
+  });
 }
 
 function initialiseSupabase() {
@@ -133,7 +200,7 @@ async function handleLogin(event) {
   event.preventDefault(); const form = new FormData(el.loginForm); const username = String(form.get("username") || "").trim(); const password = String(form.get("password") || "");
   if (!username || !password) return setStatus("請輸入用戶名稱及密碼。", "error");
   el.loginButton.disabled = true; setStatus("正在核對帳戶…");
-  try { if (!await login(username, password)) throw new Error("用戶名稱或密碼不正確。"); await Promise.all([loadArticleData(), loadBookmarks()]); el.loginForm.reset(); setStatus(); setConnection("已安全連接", "online"); await openInitialView(); showToast(`您好，${state.user.name}！`); }
+  try { if (!await login(username, password)) throw new Error("用戶名稱或密碼不正確。"); await Promise.all([loadCatalogue(), loadBookmarks()]); el.loginForm.reset(); setStatus(); setConnection("已安全連接", "online"); await openInitialView({ afterLogin: true }); showToast(`您好，${state.user.name}！`); }
   catch (error) { console.warn(error); setStatus(error.message || "登入失敗，請稍後再試。", "error"); setConnection("連線失敗", "error"); }
   finally { el.loginButton.disabled = false; }
 }
@@ -141,7 +208,7 @@ async function restoreSession() {
   const universal = window.EdmundSystemNav?.getStudentSession?.(); const local = readSession(); const candidate = universal?.role === "student" ? universal : local?.role === "student" ? local : null;
   if (!candidate?.token) return false; try { return await validateToken(String(candidate.token)); } catch { clearSession(); return false; }
 }
-async function logout() { pauseTimer(); el.audio.pause(); await saveAttempt(false, false, true); window.EdmundSystemNav?.forgetStudentSession(); clearSession(); try { await state.supabase?.auth.signOut(); } catch {} setConnection("已連線", "online"); showView("login"); }
+async function logout() { pauseTimer(); el.audio.pause(); await saveAttempt(false, false, true); window.EdmundSystemNav?.forgetStudentSession(); clearSession(); try { await state.supabase?.auth.signOut(); } catch {} const url = clearReadingRoute(new URL(location.href)); history.replaceState({}, '', url); document.title = '閱讀理解學習系統｜EdmundEducation'; setConnection("已連線", "online"); showView("login"); }
 
 function formatDuration(ms) { const seconds = Math.max(0, Math.floor(Number(ms || 0) / 1000)); return `${Math.floor(seconds / 60)} 分 ${String(seconds % 60).padStart(2, "0")} 秒`; }
 function formatClock(ms) { const seconds = Math.max(0, Math.floor(Number(ms || 0) / 1000)); return `${String(Math.floor(seconds / 60)).padStart(2, "0")}:${String(seconds % 60).padStart(2, "0")}`; }
@@ -196,12 +263,84 @@ function renderCatalogue() {
   $('[data-catalogue-page]').textContent = `${state.cataloguePage + 1} / ${pages}`;
   $('[data-catalogue-previous]').disabled = state.cataloguePage === 0; $('[data-catalogue-next]').disabled = state.cataloguePage >= pages - 1;
 }
-async function openDashboard() {
+function questionTypeUrl(type = state.questionType, query = state.questionTypeQuery) {
+  const url = new URL(location.href); ['article', 'question', 'paragraph', 'section'].forEach((key) => url.searchParams.delete(key)); url.hash = ''; url.searchParams.set('passage', String([1, 2, 3].includes(state.passageTab) ? state.passageTab : 1)); url.searchParams.set('view', 'question-types');
+  if (type) url.searchParams.set('type', type); else url.searchParams.delete('type'); if (query) url.searchParams.set('q', query); else url.searchParams.delete('q'); return url;
+}
+function renderQuestionTypeChip(type) {
+  const button = createNode('button', 'question-type-chip'); button.type = 'button'; button.dataset.questionType = type.key; button.setAttribute('aria-pressed', state.questionType === type.key ? 'true' : 'false'); button.setAttribute('aria-label', `${type.en}，${type.zh}，${questionTypeArticleCount(type.key)} 篇練習`);
+  button.append(createNode('strong', '', type.en), createNode('span', '', type.zh), createNode('small', '', `${questionTypeArticleCount(type.key)} 篇`)); button.addEventListener('click', () => openQuestionTypeDirectory(type.key, '', true)); return button;
+}
+function sortedQuestionTypeArticles(articles) { return [...articles].sort((left, right) => (Number(left.passage) || 99) - (Number(right.passage) || 99) || (Number(left.practice) || 999) - (Number(right.practice) || 999) || String(left.title || '').localeCompare(String(right.title || ''), 'en', { numeric: true, sensitivity: 'base' })); }
+function renderQuestionTypeTag(article, type, matchedKeys) { const range = articleQuestionsForType(article, type.key); const tag = createNode('span', `question-type-result-tag${matchedKeys.has(type.key) ? ' is-match' : ''}`); tag.append(createNode('strong', '', type.en), createNode('span', '', type.zh)); if (range) tag.append(createNode('small', '', `Q${range}`)); return tag; }
+function renderQuestionTypeResult(article, matchedKeys) {
+  const card = createNode('article', 'question-type-result-card'); card.setAttribute('role', 'listitem'); const passage = Number(article.passage); const practice = Number(article.practice); const title = String(article.title || `IELTS Reading Practice ${practice || ''}`).trim(); const meta = [1, 2, 3].includes(passage) ? [`Passage ${passage}`] : []; if (Number.isFinite(practice) && practice > 0) meta.push(`Practice ${practice}`);
+  const tags = createNode('div', 'question-type-result-tags'); tags.setAttribute('aria-label', '本篇練習題型及題號'); tags.append(...questionTypeKeysForArticle(article).map((key) => questionTypesByKey.get(key)).filter(Boolean).map((type) => renderQuestionTypeTag(article, type, matchedKeys)));
+  const action = createNode('div', 'question-type-result-action'); const articleId = String(article.id || article.articleId || '').trim(); if (articleId && [1, 2, 3].includes(passage)) { const button = createNode('button', 'question-type-practice-button', '開始閱讀練習'); button.type = 'button'; button.dataset.openExercise = articleId; button.setAttribute('aria-label', `開始 ${title} 閱讀練習`); action.append(button); }
+  card.append(createNode('p', 'question-type-result-meta', meta.join(' · ')), createNode('h2', '', title), tags, action); return card;
+}
+function setQuestionTypeEmpty(title, message, visible) { $('strong', el.questionTypeEmpty).textContent = title; $('p', el.questionTypeEmpty).textContent = message; el.questionTypeEmpty.hidden = !visible; }
+function renderQuestionTypeSelection(types, articleCount) {
+  el.questionTypeSelection.hidden = false;
+  if (state.questionType && types.length === 1) { const type = types[0]; el.questionTypeSelection.replaceChildren(createNode('h2', '', `${type.en} · ${type.zh}`), createNode('p', '', `找到 ${articleCount} 篇含有這種題型的完整閱讀練習。`)); return; }
+  if (normaliseSearch(state.questionTypeQuery)) { el.questionTypeSelection.replaceChildren(createNode('h2', '', `找到 ${types.length} 種相符題型`), createNode('p', '', types.length ? types.map((type) => `${type.en}（${type.zh}）`).join('、') : '請嘗試英文題型、中文名稱或較短的關鍵字。')); return; }
+  el.questionTypeSelection.replaceChildren(createNode('h2', '', '選擇一種題型'), createNode('p', '', '點選下方題型，或輸入英文／中文名稱，即可找到對應的完整閱讀練習。'));
+}
+function renderQuestionTypeView() {
+  const requestedType = questionTypesByKey.get(state.questionType); const hasQuery = Boolean(normaliseSearch(state.questionTypeQuery)); const matchedTypes = requestedType ? [requestedType] : matchingQuestionTypes(state.questionTypeQuery); const matchedKeys = new Set(matchedTypes.map((type) => type.key)); const shouldShowResults = Boolean(requestedType || hasQuery); const matches = shouldShowResults && matchedKeys.size ? sortedQuestionTypeArticles(questionTypeArticles.filter((article) => questionTypeKeysForArticle(article).some((key) => matchedKeys.has(key)))) : [];
+  el.questionTypeSearch.value = state.questionTypeQuery; el.questionTypeChips.replaceChildren(...(hasQuery ? matchedTypes : questionTypes).map(renderQuestionTypeChip)); el.questionTypeResults.setAttribute('role', 'list'); el.questionTypeResults.replaceChildren(...matches.map((article) => renderQuestionTypeResult(article, matchedKeys))); renderQuestionTypeSelection(matchedTypes, matches.length);
+  if (!questionTypes.length || !questionTypeArticles.length) { el.questionTypeResultCount.textContent = '題型索引暫時未能載入'; setQuestionTypeEmpty('題型索引暫時未能載入', '請重新整理頁面；Passage 文章目錄仍可正常使用。', true); return; }
+  if (!shouldShowResults) { el.questionTypeResultCount.textContent = `共 ${questionTypes.length} 種題型，涵蓋 ${questionTypeArticles.length} 篇閱讀練習`; setQuestionTypeEmpty('', '', false); return; }
+  el.questionTypeResultCount.textContent = matchedTypes.length ? `找到 ${matchedTypes.length} 種相符題型、${matches.length} 篇閱讀練習` : '找不到相符題型'; setQuestionTypeEmpty('找不到相符題型', '請嘗試英文題型、中文名稱或較短的關鍵字。', matchedTypes.length === 0);
+}
+function openQuestionTypeDirectory(type = '', query = '', push = false) { state.questionType = questionTypesByKey.has(type) ? type : ''; state.questionTypeQuery = state.questionType ? '' : String(query || ''); renderQuestionTypeView(); showView('question-types'); document.title = 'By Question Type｜閱讀理解學習系統'; history[push ? 'pushState' : 'replaceState']({}, '', questionTypeUrl()); }
+async function prepareForReadingNavigation() {
   pauseTimer(); el.audio.pause();
-  if (state.exerciseReady && !state.results.finalized) await saveAttempt(false, false, true);
-  await loadCatalogue(); closePopovers(); showView("dashboard"); el.welcome.textContent = `您好，${state.user.name}！請選擇閱讀練習。`;
+  if (state.view === 'exercise' && state.exerciseReady && !state.results.finalized) {
+    collectAnswers();
+    const needsSave = state.attemptId || Object.keys(state.answers).length || currentDuration();
+    if (needsSave && !await saveAttempt(false, false, true)) {
+      showToast('未能儲存目前的練習，請檢查連線後再切換頁面。');
+      return false;
+    }
+  }
+  closePopovers();
+  return true;
+}
+function clearReadingRoute(url, { keepPassage = false } = {}) {
+  ['article', 'view', 'type', 'q', 'question', 'paragraph', 'section'].forEach((key) => url.searchParams.delete(key));
+  if (!keepPassage) url.searchParams.delete('passage');
+  url.hash = '';
+  return url;
+}
+async function openReadingHome() {
+  if (!await prepareForReadingNavigation()) return;
+  const url = clearReadingRoute(new URL(location.href));
+  history.replaceState({}, '', url);
+  document.title = '選擇閱讀理解系統｜EdmundEducation';
+  showView('reading-home');
+}
+async function openDsePlaceholder() {
+  if (!await prepareForReadingNavigation()) return;
+  const url = clearReadingRoute(new URL(location.href));
+  url.searchParams.set('view', 'dse');
+  history.replaceState({}, '', url);
+  document.title = 'DSE 閱讀理解｜EdmundEducation';
+  showView('dse-placeholder');
+}
+async function enterIeltsReading() {
+  const url = clearReadingRoute(new URL(location.href));
+  url.searchParams.set('passage', '1');
+  history.replaceState({}, '', url);
+  state.passageTab = 1;
+  await openDashboard();
+}
+async function openDashboard() {
+  if (!await prepareForReadingNavigation()) return;
+  await loadCatalogue(); showView("dashboard"); el.welcome.textContent = `您好，${state.user.name}！請選擇 IELTS 閱讀練習。`;
   selectPassageTab(Math.max(1, Math.min(3, Number(new URLSearchParams(location.search).get("passage")) || state.passageTab)), false);
-  const url = new URL(location.href); ['article', 'view', 'question', 'paragraph', 'section'].forEach((key) => url.searchParams.delete(key)); url.hash = ''; history.replaceState({}, '', url);
+  const url = new URL(location.href); ['article', 'view', 'type', 'q', 'question', 'paragraph', 'section'].forEach((key) => url.searchParams.delete(key)); url.hash = ''; history.replaceState({}, '', url);
+  document.title = 'IELTS 閱讀理解｜EdmundEducation';
   await Promise.all([loadDashboard(), loadBookmarks()]); updateBookmarkControls();
 }
 
@@ -493,10 +632,11 @@ async function openExercise(id = ARTICLE_ID) {
   $('[data-exercise-kicker]').textContent = `PRACTICE ${entry.practice} · IELTS READING · PASSAGE ${entry.passage}`;
   $('.questions-panel .pane-heading > .eyebrow').textContent = `QUESTIONS ${entry.questionStart}–${entry.questionEnd}`;
   document.title = `${entry.title}｜閱讀理解學習系統`;
-  const url = new URL(location.href); url.searchParams.set('article',ARTICLE_ID); url.searchParams.set('passage',String(entry.passage)); history.replaceState({},'',url);
+  const params = new URLSearchParams(location.search); const requestedView = params.get('view');
+  const url = new URL(location.href); ['type', 'q'].forEach((key) => url.searchParams.delete(key));
+  if (!['skimming', 'scanning', 'analysis'].includes(requestedView)) url.searchParams.delete('view');
+  url.searchParams.set('article',ARTICLE_ID); url.searchParams.set('passage',String(entry.passage)); history.replaceState({},'',url);
   updateBookmarkControls(); showView("exercise"); updateTimer(); updateAnswerProgress();
-  const params = new URLSearchParams(location.search);
-  const requestedView = params.get('view');
   if (requestedView === 'skimming') openSkimming(Number(params.get('paragraph')));
   else if (requestedView === 'scanning' || requestedView === 'analysis') openAnalysis(Number(params.get('question')), requestedView, params.get('section') || '');
   const hashTarget = location.hash ? document.getElementById(location.hash.slice(1)) : null;
@@ -507,15 +647,26 @@ async function openExercise(id = ARTICLE_ID) {
   } catch (error) { console.warn('Could not open Reading exercise',error); if (state.view === 'login' && state.user) await openDashboard(); showToast(error.message || '未能載入練習，請稍後再試。'); }
   finally { state.opening = false; }
 }
-async function openInitialView() {
-  const id = new URLSearchParams(location.search).get('article');
+async function openInitialView({ afterLogin = false } = {}) {
+  const params = new URLSearchParams(location.search); const id = params.get('article');
   if (state.catalogue.some((item) => item.id === id)) await openExercise(id);
-  else await openDashboard();
+  else if (params.get('view') === 'question-types') { if (await prepareForReadingNavigation()) openQuestionTypeDirectory(params.get('type') || '', params.get('q') || '', false); }
+  else if (!afterLogin && params.get('view') === 'dse') await openDsePlaceholder();
+  else if (!afterLogin && [1, 2, 3].includes(Number(params.get('passage')))) await openDashboard();
+  else await openReadingHome();
 }
 
-el.loginForm.addEventListener("submit", handleLogin); el.logout.addEventListener("click", logout); el.home.addEventListener("click", openDashboard); $('[data-back-dashboard]').addEventListener("click", openDashboard); $('[data-refresh-dashboard]').addEventListener("click", loadDashboard);
+el.loginForm.addEventListener("submit", handleLogin); el.logout.addEventListener("click", logout); el.home.addEventListener("click", openReadingHome); $('[data-back-dashboard]').addEventListener("click", openDashboard); $('[data-refresh-dashboard]').addEventListener("click", loadDashboard);
+$('[data-enter-ielts]').addEventListener('click', enterIeltsReading);
+$('[data-enter-dse]').addEventListener('click', openDsePlaceholder);
+$('[data-dse-enter-ielts]').addEventListener('click', enterIeltsReading);
+$$('[data-back-reading-home]').forEach((button) => button.addEventListener('click', openReadingHome));
 $('[data-password-toggle]').addEventListener("click", (event) => { const input = $('input[name="password"]', el.loginForm); const shown = input.type === "text"; input.type = shown ? "password" : "text"; event.currentTarget.textContent = shown ? "顯示" : "隱藏"; event.currentTarget.setAttribute("aria-pressed", String(!shown)); });
 el.progressToggle.addEventListener("click", () => { const open = el.progressToggle.getAttribute("aria-expanded") === "true"; el.progressToggle.setAttribute("aria-expanded", String(!open)); el.progressPanel.hidden = open; el.progressLabel.textContent = open ? "展開 ＋" : "收合 −"; });
+$('[data-open-question-types]').addEventListener('click', () => openQuestionTypeDirectory('', '', true));
+$('[data-question-types-back]').addEventListener('click', openDashboard);
+el.questionTypeSearch.addEventListener('input', (event) => { state.questionType = ''; state.questionTypeQuery = event.target.value; history.replaceState({}, '', questionTypeUrl()); renderQuestionTypeView(); });
+$('[data-clear-question-type-search]').addEventListener('click', () => { state.questionType = ''; state.questionTypeQuery = ''; history.replaceState({}, '', questionTypeUrl()); renderQuestionTypeView(); el.questionTypeSearch.focus(); });
 $$('[data-passage-tab]').forEach((button) => button.addEventListener("click", () => selectPassageTab(Number(button.dataset.passageTab))));
 document.addEventListener("click", (event) => {
   const exerciseButton = event.target.closest('[data-open-exercise]'); if (exerciseButton) return openExercise(exerciseButton.dataset.openExercise || ARTICLE_ID);
@@ -558,6 +709,7 @@ $$('[data-close-popover]').forEach((button) => button.addEventListener("click", 
 document.addEventListener("pointerdown", (event) => { [el.skimmingDialog, el.analysisDialog].forEach((popover) => { if (!popover.hidden && !popover.contains(event.target) && !event.target.closest('[data-skimming],[data-reveal],[data-scanning-tip]')) closePopover(popover); }); });
 document.addEventListener("keydown", (event) => { if (event.key === "Escape") closePopovers(); });
 document.addEventListener("visibilitychange", () => { if (document.hidden) { pauseTimer(); saveAttempt(false, false, true); } }); window.addEventListener("pagehide", () => { pauseTimer(); saveAttempt(false, false, true); });
+window.addEventListener('popstate', () => { if (state.user && state.token) void openInitialView(); });
 
 (async function init() {
   let progressVisible = true; try { progressVisible = localStorage.getItem('edmund-reading-progress-hidden') !== 'true'; } catch {}
@@ -565,6 +717,6 @@ document.addEventListener("visibilitychange", () => { if (document.hidden) { pau
   if (typeof ResizeObserver !== 'undefined') { const observer = new ResizeObserver(updateFloatingOffsets); ['.edmund-system-header', '[data-answer-progress-dock]', '.study-toolbar'].forEach((selector) => observer.observe($(selector))); }
   window.addEventListener('resize', updateFloatingOffsets);
   setConnection("正在連接", "checking");
-  try { await ensureSession(); setConnection("已連線", "online"); if (await restoreSession()) { await Promise.all([loadArticleData(), loadBookmarks()]); await openInitialView(); } else showView("login"); }
+  try { await ensureSession(); setConnection("已連線", "online"); if (await restoreSession()) { await Promise.all([loadCatalogue(), loadBookmarks()]); await openInitialView(); } else showView("login"); }
   catch (error) { console.warn(error); setConnection("連線失敗", "error"); setStatus("登入服務暫時未能連線，請稍後再試。", "error"); }
 })();

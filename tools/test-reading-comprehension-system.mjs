@@ -29,7 +29,25 @@ assert.equal((html.match(/data-passage-tab=/g) || []).length, 3);
 assert.match(html, /data-hide-translations/);
 assert.match(html, /data-skimming-bookmark/);
 assert.match(html, /data-passage-bookmark/);
-assert.match(html, /href="ielts-reading-analysis\.html\?view=question-types"/);
+assert.match(html, /data-view="reading-home"/);
+assert.match(html, /data-enter-dse/);
+assert.match(html, /data-enter-ielts/);
+assert.match(html, /reading-system-choice-grid" role="group" aria-label="閱讀理解系統選擇"/);
+assert.match(html, /DSE 閱讀理解/);
+assert.match(html, /IELTS 閱讀理解/);
+assert.match(html, /data-view="dse-placeholder"/);
+assert.match(html, /練習內容尚未加入/);
+assert.match(html, /data-back-reading-home/);
+assert.ok(
+  html.indexOf('data-view="login"') < html.indexOf('data-view="reading-home"')
+    && html.indexOf('data-view="reading-home"') < html.indexOf('data-view="dashboard"'),
+  "the DSE/IELTS selector must be the first authenticated view before the IELTS dashboard",
+);
+assert.match(html, /data-open-question-types/);
+assert.match(html, /data-view="question-types"/);
+assert.match(html, /data-question-type-search/);
+assert.match(html, /ielts-reading-question-types\.js/);
+assert.doesNotMatch(html, /ielts-reading-analysis\.html\?view=question-types/);
 assert.ok(
   html.indexOf("question-type-directory") < html.indexOf('data-passage-tab="1"'),
   "By Question Type must appear before the Passage 1 catalogue",
@@ -40,10 +58,35 @@ assert.doesNotMatch(html, /<dialog/);
 assert.match(css, /grid-template-columns:minmax\(0,1\.15fr\) minmax\(390px,\.85fr\)/);
 assert.match(css, /@media\(max-width:1000px\)/);
 assert.match(css, /\.question-type-directory\s*\{/);
+assert.match(css, /\.question-type-chip\s*\{/);
+assert.match(css, /\.question-type-result-card\s*\{/);
+assert.match(css, /\.reading-system-choice-grid\s*\{/);
+assert.match(css, /\.reading-system-card\s*\{/);
+assert.match(css, /\.dse-placeholder-view\s*\{/);
 assert.match(script, /flashcard_student_login/);
 assert.match(script, /reading_comprehension_save_attempt/);
 assert.match(script, /reading_comprehension_student_dashboard/);
 assert.match(script, /learning_portal_set_bookmark/);
+assert.match(script, /function openQuestionTypeDirectory\(/);
+assert.match(script, /dataset\.openExercise = articleId/);
+assert.match(script, /QUESTION_TYPE_INDEX\.umbrellaAliases/);
+assert.match(script, /url\.searchParams\.set\('passage', String\(\[1, 2, 3\]\.includes\(state\.passageTab\)/, "the in-portal finder route must retain its IELTS Passage context");
+assert.match(script, /async function openReadingHome\(\)/);
+assert.match(script, /async function openDsePlaceholder\(\)/);
+assert.match(script, /async function enterIeltsReading\(\)/);
+assert.match(script, /openInitialView\(\{ afterLogin: true \}\)/);
+assert.match(script, /await Promise\.all\(\[loadCatalogue\(\), loadBookmarks\(\)\]\)/);
+assert.doesNotMatch(script, /Promise\.all\(\[loadArticleData\(\), loadBookmarks\(\)\]\)/, "login must not preload a default IELTS article before the system selector");
+assert.ok(
+  script.indexOf("state.catalogue.some((item) => item.id === id)") < script.indexOf("params.get('view') === 'question-types'")
+    && script.indexOf("params.get('view') === 'question-types'") < script.indexOf("await openReadingHome()"),
+  "valid exercise and finder deep links must take precedence over the generic post-login selector",
+);
+assert.match(script, /el\.home\.addEventListener\("click", openReadingHome\)/);
+assert.match(script, /\$\('\[data-back-dashboard\]'\)\.addEventListener\("click", openDashboard\)/);
+assert.match(script, /\['skimming', 'scanning', 'analysis'\]\.includes\(requestedView\)/, "exercise deep links must preserve supported learning views");
+assert.match(script, /const url = clearReadingRoute\(new URL\(location\.href\)\); history\.replaceState\(\{\}, '', url\); document\.title = '閱讀理解學習系統｜EdmundEducation'/, "logout must clear stale article and finder routes before another student signs in");
+assert.match(script, /heading\.focus\(\{ preventScroll: true \}\)/, "SPA view changes must move keyboard focus to the new page heading");
 assert.doesNotMatch(script, /target\?\.scrollIntoView/, "Synchronized highlighting must not force-scroll the viewport");
 assert.match(script, /data-play-paragraph/);
 assert.match(script, /data-scan-question/);

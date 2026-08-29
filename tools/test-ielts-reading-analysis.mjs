@@ -13,12 +13,11 @@ function loadBrowserData(source, variableName) {
   return context.window[variableName];
 }
 
-const [indexSource, availabilitySource, contentSource, questionTypeSource, html, css, client, examResources, resources, sitemap, workflow] =
+const [indexSource, availabilitySource, contentSource, html, css, client, examResources, resources, sitemap, workflow] =
   await Promise.all([
     read("ielts-reading-analysis-index.js"),
     read("ielts-reading-analysis-availability.js"),
     read("ielts-reading-analysis-content.js"),
-    read("ielts-reading-question-types.js"),
     read("ielts-reading-analysis.html"),
     read("ielts-reading-analysis.css"),
     read("ielts-reading-analysis.js"),
@@ -40,27 +39,6 @@ const content = loadBrowserData(
   contentSource,
   "EDMUND_IELTS_READING_ANALYSIS_CONTENT",
 );
-const questionTypeIndex = loadBrowserData(
-  questionTypeSource,
-  "EDMUND_IELTS_READING_QUESTION_TYPES",
-);
-
-assert.equal(questionTypeIndex.articleCount, 437);
-assert.equal(questionTypeIndex.articles.length, 437);
-assert.equal(questionTypeIndex.taxonomy.length, 14);
-assert.equal(new Set(questionTypeIndex.taxonomy.map(({ id }) => id)).size, 14);
-assert.ok(
-  questionTypeIndex.taxonomy.every(({ nameEn, nameZh }) => nameEn.trim() && nameZh.trim()),
-  "question types need bilingual labels",
-);
-assert.deepEqual(
-  Array.from(
-    questionTypeIndex.articles.find(({ id }) => id === "p1-002").types
-      .find(({ id }) => id === "matching-headings").questionNumbers,
-  ),
-  [1, 2, 3, 4, 5, 6],
-);
-
 const records = Object.values(index.passages).flat();
 assert.equal(availability.articles["mungo-man"].catalogueId, "p1-161");
 assert.equal(availability.articles["if-you-can-get-used-to-the-taste"].catalogueId, "p1-092");
@@ -172,7 +150,6 @@ for (const required of [
   "上一頁",
   "主頁",
   "文章目錄",
-  "By Question Type",
   "Passage 1",
   "搜尋文章名稱",
   "答案表",
@@ -182,13 +159,11 @@ for (const required of [
 const indexScript = html.indexOf("ielts-reading-analysis-index.js");
 const availabilityScript = html.indexOf("ielts-reading-analysis-availability.js");
 const contentScript = html.indexOf("ielts-reading-analysis-content.js");
-const questionTypeScript = html.indexOf("ielts-reading-question-types.js");
 const clientScript = html.indexOf("ielts-reading-analysis.js");
 assert.ok(
   indexScript < availabilityScript
     && availabilityScript < contentScript
-    && contentScript < questionTypeScript
-    && questionTypeScript < clientScript,
+    && contentScript < clientScript,
   "scripts load out of order",
 );
 assert.match(html, /<script type="module" src="ielts-reading-analysis\.js/);
@@ -196,12 +171,9 @@ assert.match(html, /rel="manifest" href="\/pwa-manifests\/ielts-reading-analysis
 assert.match(html, /rel="canonical" href="https:\/\/edmundeducation\.com\/ielts-reading-analysis\.html"/);
 assert.match(html, /data-article-overview hidden/);
 assert.match(html, /data-overview-list/);
-assert.match(html, /data-view="question-types"/);
-assert.match(html, /data-question-type-search/);
-assert.match(html, /data-question-type-results/);
+assert.doesNotMatch(html, /data-view="question-types"/);
+assert.doesNotMatch(html, /ielts-reading-question-types\.js/);
 assert.match(css, /\.reading-toolbar\s*\{[\s\S]*?position:\s*fixed/);
-assert.match(css, /\.question-type-chip\s*\{/);
-assert.match(css, /\.question-type-result-card\s*\{/);
 assert.match(
   css,
   /scroll-margin-top:\s*calc\(var\(--toolbar-offset\) \+ env\(safe-area-inset-top, 0px\)\)/,
@@ -216,10 +188,8 @@ assert.match(client, /createArticleRepository/);
 assert.match(client, /articleRepository\.availabilityForCatalogueId/);
 assert.match(client, /async function applyRoute\(\)/);
 assert.match(client, /params\.get\("view"\)/);
-assert.match(client, /url\.searchParams\.set\("view", "question-types"\)/);
-assert.match(client, /questionTypeIndex\.umbrellaAliases/);
-assert.match(client, /reading-comprehension\.html\?article=/);
-assert.match(client, /"開始閱讀練習"/);
+assert.match(client, /new URL\("reading-comprehension\.html"/);
+assert.match(client, /window\.location\.replace\(destination\.href\)/);
 assert.match(client, /url\.hash = "";/, "new routes must clear stale question anchors");
 assert.match(client, /prompt\.lang = "en";/, "English prompts need a language tag");
 assert.match(client, /function renderArticleOverview\(/);
@@ -244,4 +214,4 @@ assert.equal(
 );
 assert.match(workflow, /node tools\/test-ielts-reading-analysis\.mjs/);
 
-console.log("IELTS Reading checks passed: 507 analysis titles plus 437 practices across 14 bilingual question types.");
+console.log("IELTS Reading analysis checks passed: 507 catalogue titles and analysis-only routing.");
