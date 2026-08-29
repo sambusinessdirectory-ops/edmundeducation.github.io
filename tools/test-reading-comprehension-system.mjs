@@ -38,7 +38,7 @@ assert.match(script, /flashcard_student_login/);
 assert.match(script, /reading_comprehension_save_attempt/);
 assert.match(script, /reading_comprehension_student_dashboard/);
 assert.match(script, /learning_portal_set_bookmark/);
-assert.match(script, /scrollIntoView\(\{ block: "center", behavior: "smooth" \}\)/);
+assert.doesNotMatch(script, /target\?\.scrollIntoView/, "Synchronized highlighting must not force-scroll the viewport");
 assert.match(script, /data-play-paragraph/);
 assert.match(script, /data-scan-question/);
 assert.match(script, /answerTimings/);
