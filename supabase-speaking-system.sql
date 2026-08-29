@@ -71,7 +71,7 @@ create index if not exists speaking_admin_sessions_expires_idx
 create table if not exists public.speaking_system_settings (
   singleton boolean primary key default true,
   max_recordings_per_student integer not null default 500,
-  max_storage_bytes_per_student bigint not null default 209715200,
+  max_storage_bytes_per_student bigint not null default 157286400,
   updated_at timestamptz not null default now(),
   check (singleton),
   check (max_recordings_per_student between 1 and 5000),
@@ -83,7 +83,7 @@ insert into public.speaking_system_settings (
   max_recordings_per_student,
   max_storage_bytes_per_student
 )
-values (true, 500, 209715200)
+values (true, 500, 157286400)
 on conflict (singleton) do update
 set max_storage_bytes_per_student = excluded.max_storage_bytes_per_student,
     updated_at = now();
@@ -124,7 +124,8 @@ create table if not exists public.speaking_recording_attempts (
     'dse',
     'business-english',
     'school-job-interview',
-    'civil-service-interview'
+    'civil-service-interview',
+    'learning-practice'
   )),
   check (part_number is null or part_number between 1 and 99),
   check (book_number is null or book_number between 1 and 999),

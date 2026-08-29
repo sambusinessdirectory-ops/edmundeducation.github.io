@@ -207,7 +207,8 @@
     durationProgressRange: "month",
     durationProgressShowCumulative: false,
     durationProgressSelectedDay: "",
-    requestedHomeworkExerciseOpened: false
+    requestedHomeworkExerciseOpened: false,
+    requestedRecordingLibraryOpened: false
   };
 
   function escapeHtml(value) {
@@ -709,7 +710,7 @@
         }
         if (!state.user) return;
         setConnection("已安全連接", "live");
-        openRequestedHomeworkExercise();
+        if (!openRequestedRecordingLibrary()) openRequestedHomeworkExercise();
         return;
       }
       saveSession();
@@ -3449,6 +3450,14 @@
     return true;
   }
 
+  function openRequestedRecordingLibrary() {
+    if (state.requestedRecordingLibraryOpened || state.user?.role !== "student") return false;
+    if (new URLSearchParams(window.location.search).get("library") !== "1") return false;
+    state.requestedRecordingLibraryOpened = true;
+    navigate({ view: "attempts" }, { reset: true, skipGuard: true });
+    return true;
+  }
+
   function currentExercise() {
     const index = Number(state.route.exerciseIndex || 0);
     return speakingExercises().find(item => item.index === index) || speakingExercises()[index - 1] || null;
@@ -5222,7 +5231,7 @@
     const usage = payload?.usage || {};
     const quota = payload?.quota || {};
     const usedBytes = Math.max(0, Number(usage.storageBytes || 0));
-    const maxBytes = Math.max(0, Number(quota.maxBytes || 200 * 1024 * 1024));
+    const maxBytes = Math.max(0, Number(quota.maxBytes || 150 * 1024 * 1024));
     const fileCount = Math.max(0, Number(usage.fileCount || 0));
     const maxFiles = Math.max(0, Number(quota.maxFiles || 500));
     if (maxFiles && fileCount >= maxFiles) {
@@ -5236,7 +5245,7 @@
     const endpoint = CONFIG.endpoints?.recordingQuota || "/v1/recordings/quota";
     state.recordingQuotaChecking = true;
     syncRecorderControls();
-    recordingStatus("正在檢查 200 MB 錄音儲存空間…");
+    recordingStatus("正在檢查 Listening 與 Speaking 共用的 150 MB 錄音儲存空間…");
     try {
       const payload = await apiJson(endpoint, { method: "GET" });
       state.recordingQuota = payload;
@@ -5734,7 +5743,7 @@
       const unavailable = error?.code === "RECORDING_SERVICE_UNREACHABLE"
         || /(?:load failed|failed to fetch|networkerror|error code:\s*1042)/i.test(String(error?.message || ""));
       const message = error?.code === "STUDENT_STORAGE_QUOTA_REACHED" || error?.code === "STUDENT_FILE_QUOTA_REACHED"
-        ? "您的 200 MB 錄音儲存空間已滿。請先在「我的錄音」匯出並刪除舊錄音，才可繼續儲存新錄音。"
+        ? "您的 Listening 與 Speaking 共用 150 MB 錄音儲存空間已滿。請先在「我的錄音」匯出並刪除舊錄音，才可繼續儲存新錄音。"
         : error?.code === "RECORDING_UPLOAD_IN_PROGRESS"
         ? "本題前一次上載仍在處理中，請稍後按「重新檢查並儲存本題」。若 10 分鐘後仍未完成，請聯絡管理員整理錄音狀態。"
         : unavailable
@@ -5763,7 +5772,11 @@
   function normaliseAttempt(raw, index) {
     const item = raw || {};
     const exerciseId = String(item.exerciseId || item.exercise_id || item.metadata?.exerciseId || "");
-    const part = Number(item.part || item.metadata?.part || 2);
+    const exam = String(item.exam || item.metadata?.exam || "");
+    const rawPart = item.part ?? item.part_number ?? item.metadata?.part;
+    const rawBook = item.book ?? item.book_number ?? item.metadata?.book;
+    const part = rawPart === null || rawPart === undefined || rawPart === "" ? null : Number(rawPart);
+    const book = rawBook === null || rawBook === undefined || rawBook === "" ? null : Number(rawBook);
     const parsedExamRecording = typeof EXAM_MODE.parseRecordingExerciseId === "function"
       ? EXAM_MODE.parseRecordingExerciseId(exerciseId)
       : null;
@@ -5772,11 +5785,12 @@
       studentId: String(item.studentId || item.student_id || ""),
       studentName: String(item.studentName || item.student_name || item.ownerName || item.owner_name || state.user?.name || "Student"),
       exerciseId,
+      exam,
       examRecording: parsedExamRecording?.part === part ? parsedExamRecording : null,
       exerciseTitle: String(item.exerciseTitle || item.exercise_title || item.metadata?.exerciseTitle || item.title || "Speaking attempt"),
       exerciseIndex: Number(item.exerciseIndex || item.exercise_index || item.metadata?.exerciseIndex || 0),
       part,
-      book: Number(item.book || item.metadata?.book || 1),
+      book,
       createdAt: String(item.createdAt || item.created_at || item.uploadedAt || item.uploaded_at || ""),
       durationMs: Number(item.durationMs || item.duration_ms || item.metadata?.durationMs || 0),
       size: Number(item.size || item.sizeBytes || item.size_bytes || 0),
@@ -5977,13 +5991,18 @@
 
   function renderAttemptCard(attempt) {
     const exam = attempt.examRecording;
+    const locationLabel = attempt.exam === "learning-practice"
+      ? "其他學習系統 · 口語練習"
+      : exam
+        ? exam.intro ? "考試開場 · 姓名回答" : `IELTS Part ${attempt.part} · Book ${attempt.book} · 第 ${exam.globalOrder} 段`
+        : `IELTS Part ${attempt.part} · Book ${attempt.book}${attempt.exerciseIndex ? ` · Exercise ${attempt.exerciseIndex}` : ""}`;
     return `
       <article class="attempt-card${exam ? " exam-recording-card" : ""}" data-attempt-card="${escapeHtml(attempt.id)}">
         <div>
           <h3>${escapeHtml(attempt.exerciseTitle)}</h3>
           <div class="attempt-meta">
             ${state.user?.role === "admin" ? `<strong>${escapeHtml(attempt.studentName)}</strong>` : ""}
-            <span>${exam ? exam.intro ? "考試開場 · 姓名回答" : `IELTS Part ${attempt.part} · Book ${attempt.book} · 第 ${exam.globalOrder} 段` : `IELTS Part ${attempt.part} · Book ${attempt.book}${attempt.exerciseIndex ? ` · Exercise ${attempt.exerciseIndex}` : ""}`}</span>
+            <span>${escapeHtml(locationLabel)}</span>
             <span>${escapeHtml(formatDate(attempt.createdAt))}</span>
             ${attempt.durationMs ? `<span>${escapeHtml(formatDuration(attempt.durationMs))}</span>` : ""}
             ${attempt.size ? `<span>${escapeHtml(formatBytes(attempt.size))}</span>` : ""}
@@ -7207,7 +7226,7 @@
           }
           if (!state.user) return;
           setConnection("已安全連接", "live");
-          openRequestedHomeworkExercise();
+          if (!openRequestedRecordingLibrary()) openRequestedHomeworkExercise();
         } else {
           setConnection("Admin 已連接", "live");
         }

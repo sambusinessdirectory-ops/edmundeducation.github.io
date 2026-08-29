@@ -5,6 +5,15 @@
   "compatibility_date": "2026-07-19",
   "workers_dev": true,
   "preview_urls": false,
+  "ai": {
+    "binding": "AI"
+  },
+  "r2_buckets": [
+    {
+      "binding": "EDMUND_ASSETS",
+      "bucket_name": "edmund-assets"
+    }
+  ],
   "ratelimits": [
     {
       "name": "ADMIN_LOGIN_RATE_LIMITER",

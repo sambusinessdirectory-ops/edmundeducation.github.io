@@ -127,7 +127,7 @@ test("upload accepts one MP3 frame of encoder padding beyond the 300-second cont
   assert.equal(parsed.durationMs, 300016);
 });
 
-test("student quota preflight exposes the authoritative 200 MB allowance", async () => {
+test("student quota preflight exposes the shared authoritative 150 MB allowance", async () => {
   const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
   const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
   const originalFetch = globalThis.fetch;
@@ -143,8 +143,8 @@ test("student quota preflight exposes the authoritative 200 MB allowance", async
       assert.deepEqual(JSON.parse(String(options.body)), { p_student_id: studentId });
       return jsonResponse({
         ok: true,
-        usage: { fileCount: 42, storageBytes: 200 * 1024 * 1024 },
-        quota: { maxFiles: 500, maxBytes: 200 * 1024 * 1024 },
+        usage: { fileCount: 42, storageBytes: 150 * 1024 * 1024 },
+        quota: { maxFiles: 500, maxBytes: 150 * 1024 * 1024 },
         canRecord: false
       });
     }
@@ -158,14 +158,92 @@ test("student quota preflight exposes the authoritative 200 MB allowance", async
     );
     assert.equal(response.status, 200);
     assert.deepEqual(await response.json(), {
-      usage: { fileCount: 42, storageBytes: 200 * 1024 * 1024 },
-      quota: { maxFiles: 500, maxBytes: 200 * 1024 * 1024 },
+      usage: { fileCount: 42, storageBytes: 150 * 1024 * 1024 },
+      quota: { maxFiles: 500, maxBytes: 150 * 1024 * 1024 },
       canRecord: false
     });
     assert.deepEqual(calls, ["profile", "quota"]);
   } finally {
     globalThis.fetch = originalFetch;
   }
+});
+
+test("authenticated learning voice is generated once and then served from R2", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const originalFetch = globalThis.fetch;
+  const cache = new Map();
+  let aiCalls = 0;
+  let limiterCalls = 0;
+  const mp3 = new Uint8Array(300);
+  mp3.set([0xFF, 0xFB, 0x90, 0x00]);
+  globalThis.fetch = async url => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      return jsonResponse([{ id: studentId, name: "Student", session_expires_at: "2026-08-30T00:00:00Z" }]);
+    }
+    assert.fail(`Unexpected upstream request: ${parsed.pathname}`);
+  };
+  const env = configuredEnv({
+    UPLOAD_RATE_LIMITER: { limit: async ({ key }) => {
+      limiterCalls += 1;
+      assert.equal(key, `learning-voice:${studentId}`);
+      return { success: true };
+    } },
+    AI: { run: async (model, input, options) => {
+      aiCalls += 1;
+      assert.equal(model, "@cf/deepgram/aura-2-en");
+      assert.equal(input.speaker, "aries");
+      assert.equal(input.encoding, "mp3");
+      assert.equal(input.text, "Please read this sentence.");
+      assert.deepEqual(options, { returnRawResponse: true });
+      return new Response(mp3, { headers: { "Content-Type": "audio/mpeg" } });
+    } },
+    EDMUND_ASSETS: {
+      get: async key => cache.has(key) ? { body: cache.get(key) } : null,
+      put: async (key, bytes, options) => {
+        assert.match(key, /^learning-voice\/american-youthful-male-v1\/[0-9a-f]{2}\/[0-9a-f]{64}\.mp3$/);
+        assert.equal(options.httpMetadata.contentType, "audio/mpeg");
+        cache.set(key, bytes);
+      }
+    }
+  });
+  try {
+    for (let requestIndex = 0; requestIndex < 2; requestIndex += 1) {
+      const response = await worker.default.fetch(
+        authorizedRequest("/v1/learning-voice", studentToken, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ text: "Please read this sentence." })
+        }),
+        env,
+        {}
+      );
+      assert.equal(response.status, 200);
+      assert.equal(response.headers.get("Content-Type"), "audio/mpeg");
+      assert.equal((await response.arrayBuffer()).byteLength, mp3.byteLength);
+    }
+    assert.equal(aiCalls, 1);
+    assert.equal(limiterCalls, 1);
+    assert.equal(cache.size, 1);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("learning-practice recordings accept shared-system metadata without IELTS location", async () => {
+  const audio = repeatFrame(40);
+  const form = new FormData();
+  form.append("file", new Blob([audio], { type: "audio/mpeg" }), "practice.mp3");
+  form.append("exerciseId", "learning:sentence:ss1-q1");
+  form.append("exerciseTitle", "Sentence Structure question 1");
+  form.append("exam", "learning-practice");
+  form.append("durationMs", "1000");
+  const request = new Request("https://worker.example/v1/recordings", { method: "POST", body: form });
+  const parsed = await worker.parseMultipartUpload(request, {});
+  assert.equal(parsed.exam, "learning-practice");
+  assert.equal(parsed.partNumber, null);
+  assert.equal(parsed.bookNumber, null);
 });
 
 test("MP3 inspection accepts a small valid ID3v2 tag and bounded zero padding", () => {
@@ -1606,7 +1684,7 @@ test("ZIP32 metadata has exact lengths and signatures", () => {
 test("database migration keeps quota and lifecycle mutations behind locked RPCs", async () => {
   const sql = await readFile(new URL("../../../supabase-speaking-system.sql", import.meta.url), "utf8");
   assert.match(sql, /create table if not exists public\.speaking_system_settings/i);
-  assert.match(sql, /max_storage_bytes_per_student bigint not null default 209715200/i);
+  assert.match(sql, /max_storage_bytes_per_student bigint not null default 157286400/i);
   assert.match(sql, /create or replace function public\.speaking_get_recording_usage/i);
   assert.match(sql, /grant execute on function public\.speaking_get_recording_usage\(uuid\)\s+to service_role/i);
   assert.match(sql, /pg_advisory_xact_lock\s*\(/i);

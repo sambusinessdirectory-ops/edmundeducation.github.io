@@ -2904,7 +2904,8 @@ function questionHtml(question) {
   const answerParts = questionAnswerParts(question);
   const partValues = storedAnswerPartValues(question, value);
   const bookmarked = isBookmarked(state.lessonId, question.id);
-  return `<article class="question-card ${correct ? "is-correct" : wrong ? "is-wrong" : ""} ${collapsed ? "is-collapsed" : ""}" data-question-id="${escapeHtml(question.id)}">
+  const voiceAnswer = answerParts.length ? answerParts.map((part) => part.answer).join(" ") : String(question.answer || "");
+  return `<article class="question-card ${correct ? "is-correct" : wrong ? "is-wrong" : ""} ${collapsed ? "is-collapsed" : ""}" data-question-id="${escapeHtml(question.id)}" data-edmund-prompt-text="${escapeHtml(question.prompt || question.english || "")}"${revealAnswer ? ` data-edmund-answer-text="${escapeHtml(voiceAnswer)}"` : ""} data-edmund-record-id="${escapeHtml(question.id)}" data-edmund-record-title="${escapeHtml(`動詞片語 · 第 ${question.number || ""} 題`)}">
     <div class="question-card-top">
       <span class="question-number">QUESTION ${escapeHtml(question.number || "")}</span>
       <div class="question-card-actions">

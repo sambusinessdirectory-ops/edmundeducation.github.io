@@ -16,6 +16,11 @@ const MAX_ID3_FILE_RATIO = 0.25;
 const MIN_MP3_FRAMES = 24;
 const MIN_MP3_DURATION_MS = 1000;
 const MAX_TRAILING_PADDING_BYTES = 1024;
+const LEARNING_VOICE_MODEL = "@cf/deepgram/aura-2-en";
+const LEARNING_VOICE_SPEAKER = "aries";
+const LEARNING_VOICE_RECIPE = "american-youthful-male-v1";
+const MAX_LEARNING_VOICE_TEXT_LENGTH = 900;
+const MAX_LEARNING_VOICE_BYTES = 2 * 1024 * 1024;
 const RECONCILE_MAX_ITEMS = 10;
 const RECONCILE_UPLOAD_GRACE_MS = 10 * 60 * 1000;
 const SPEAKING_ACCESS_STATE_KEY = "speaking-access-v1";
@@ -167,6 +172,9 @@ async function route(request, env, ctx) {
   }
   if (url.pathname === "/v1/student/me" && request.method === "GET") {
     return studentMe(request, env);
+  }
+  if (url.pathname === "/v1/learning-voice" && request.method === "POST") {
+    return learningVoice(request, env);
   }
   if (url.pathname === "/v1/bookmarks" && request.method === "GET") {
     return getBookmarks(request, env);
@@ -338,6 +346,14 @@ function json(value, status, request, env) {
   const headers = corsHeaders(request.headers.get("Origin") || "", env);
   headers.set("Content-Type", "application/json; charset=utf-8");
   return new Response(JSON.stringify(value), { status, headers });
+}
+
+function audioResponse(body, request, env, etag = "") {
+  const headers = corsHeaders(request.headers.get("Origin") || "", env);
+  headers.set("Content-Type", "audio/mpeg");
+  headers.set("Cache-Control", "private, max-age=86400");
+  if (etag) headers.set("ETag", etag);
+  return new Response(body, { status: 200, headers });
 }
 
 function emptyResponse(status, request, env) {
@@ -690,6 +706,85 @@ async function studentMe(request, env) {
     request,
     env
   );
+}
+
+async function learningVoice(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  if (!env.AI || typeof env.AI.run !== "function" || !env.EDMUND_ASSETS || typeof env.EDMUND_ASSETS.get !== "function") {
+    throw new HttpError(503, "LEARNING_VOICE_NOT_CONFIGURED", "Learning voice is not configured");
+  }
+
+  const payload = await readLimitedJson(request, 4096);
+  if (!payload || typeof payload !== "object" || Array.isArray(payload) || Object.keys(payload).some(key => key !== "text")) {
+    throw new HttpError(400, "INVALID_VOICE_REQUEST", "Invalid voice request");
+  }
+  const text = String(payload.text || "").normalize("NFC").replace(/\s+/g, " ").trim();
+  if (!text || text.length > MAX_LEARNING_VOICE_TEXT_LENGTH || /[\u0000-\u001f\u007f]/.test(text)) {
+    throw new HttpError(400, "INVALID_VOICE_TEXT", "Invalid voice text");
+  }
+
+  const digest = await crypto.subtle.digest("SHA-256", encoder.encode(`${LEARNING_VOICE_RECIPE}\n${text}`));
+  const hash = bytesToHex(new Uint8Array(digest));
+  const objectPath = `learning-voice/${LEARNING_VOICE_RECIPE}/${hash.slice(0, 2)}/${hash}.mp3`;
+  let cached;
+  try {
+    cached = await env.EDMUND_ASSETS.get(objectPath);
+  } catch (error) {
+    throw new HttpError(503, "LEARNING_VOICE_CACHE_UNAVAILABLE", "Learning voice is temporarily unavailable");
+  }
+  if (cached?.body) return audioResponse(cached.body, request, env, `"${hash}"`);
+
+  await enforceLearningVoiceRateLimit(env, student.id);
+  let generated;
+  try {
+    generated = await env.AI.run(
+      LEARNING_VOICE_MODEL,
+      { text, speaker: LEARNING_VOICE_SPEAKER, encoding: "mp3" },
+      { returnRawResponse: true }
+    );
+  } catch (error) {
+    console.error("Learning voice generation failed", safeErrorMessage(error));
+    throw new HttpError(503, "LEARNING_VOICE_UNAVAILABLE", "Learning voice is temporarily unavailable");
+  }
+  if (!(generated instanceof Response) || !generated.ok) {
+    if (generated instanceof Response) await discardResponse(generated);
+    throw new HttpError(503, "LEARNING_VOICE_UNAVAILABLE", "Learning voice is temporarily unavailable");
+  }
+  const bytes = new Uint8Array(await generated.arrayBuffer());
+  if (bytes.byteLength < 256 || bytes.byteLength > MAX_LEARNING_VOICE_BYTES || !hasMp3Signature(bytes)) {
+    throw new HttpError(502, "INVALID_LEARNING_VOICE", "Learning voice returned invalid audio");
+  }
+  try {
+    await env.EDMUND_ASSETS.put(objectPath, bytes, {
+      httpMetadata: { contentType: "audio/mpeg", cacheControl: "public, max-age=31536000, immutable" },
+      customMetadata: { recipe: LEARNING_VOICE_RECIPE, sha256: hash }
+    });
+  } catch (error) {
+    console.error("Learning voice cache write failed", safeErrorMessage(error));
+  }
+  return audioResponse(bytes, request, env, `"${hash}"`);
+}
+
+function hasMp3Signature(bytes) {
+  if (!(bytes instanceof Uint8Array) || bytes.byteLength < 3) return false;
+  if (bytes[0] === 0x49 && bytes[1] === 0x44 && bytes[2] === 0x33) return true;
+  return bytes[0] === 0xFF && (bytes[1] & 0xE0) === 0xE0;
+}
+
+async function enforceLearningVoiceRateLimit(env, studentId) {
+  if (!env.UPLOAD_RATE_LIMITER || typeof env.UPLOAD_RATE_LIMITER.limit !== "function") {
+    throw new HttpError(503, "LEARNING_VOICE_RATE_LIMIT_NOT_CONFIGURED", "Learning voice is not configured");
+  }
+  let result;
+  try {
+    result = await env.UPLOAD_RATE_LIMITER.limit({ key: `learning-voice:${studentId}` });
+  } catch (error) {
+    throw new HttpError(503, "LEARNING_VOICE_RATE_LIMIT_UNAVAILABLE", "Learning voice is temporarily unavailable");
+  }
+  if (!result.success) {
+    throw new HttpError(429, "LEARNING_VOICE_RATE_LIMITED", "Please wait a moment before generating more audio");
+  }
 }
 
 function isJsonObject(value) {
@@ -1719,8 +1814,8 @@ async function parseMultipartUpload(request, env) {
 
   const exerciseTitle = normalizeTitle(singleFormText(form, "exerciseTitle", true));
   const exam = normalizeExam(singleFormText(form, "exam", true));
-  const partNumber = parseNumberedField(singleFormText(form, "part", exam === "ielts"), "part", 1, 99);
-  const bookNumber = parseNumberedField(singleFormText(form, "book", exam === "ielts"), "book", 1, 999);
+  const partNumber = parseNumberedField(singleFormText(form, "part", exam === "ielts"), exam === "ielts", 1, 99);
+  const bookNumber = parseNumberedField(singleFormText(form, "book", exam === "ielts"), exam === "ielts", 1, 999);
   if (exam === "ielts" && (partNumber < 1 || partNumber > 3 || bookNumber < 1 || bookNumber > 16)) {
     throw new HttpError(400, "INVALID_IELTS_LOCATION", "IELTS part must be 1-3 and book must be 1-16");
   }
@@ -1799,7 +1894,8 @@ function normalizeExam(value) {
     ["school-interview", "school-job-interview"],
     ["job-interview", "school-job-interview"],
     ["civil-service", "civil-service-interview"],
-    ["civil-service-interview", "civil-service-interview"]
+    ["civil-service-interview", "civil-service-interview"],
+    ["learning-practice", "learning-practice"]
   ]);
   const normalized = aliases.get(key);
   if (!normalized) throw new HttpError(400, "INVALID_EXAM", "Invalid exam");
@@ -1904,9 +2000,7 @@ async function uploadRecording(request, env) {
 async function getRecordingQuota(request, env) {
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
-  const value = rpcObject(await rpc(env, "speaking_get_recording_usage", {
-    p_student_id: student.id
-  }));
+  const value = await recordingUsage(env, student.id);
   if (!value) {
     throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Recording quota service returned an invalid response");
   }
@@ -1918,12 +2012,17 @@ async function getRecordingQuota(request, env) {
   }
   return json({
     usage: value.usage || { fileCount: 0, storageBytes: 0 },
-    quota: value.quota || { maxFiles: 500, maxBytes: 200 * 1024 * 1024 },
+    quota: value.quota || { maxFiles: 500, maxBytes: 150 * 1024 * 1024 },
     canRecord: value.canRecord === true
   }, 200, request, env);
 }
 
+async function recordingUsage(env, studentId) {
+  return rpcObject(await rpc(env, "speaking_get_recording_usage", { p_student_id: studentId }));
+}
+
 async function enforceRecordingAccess(env, studentId, upload) {
+  if (upload.exam === "learning-practice") return;
   const access = await studentSpeakingAccess(env, studentId);
   const examAccessKeys = {
     dse: "exam.dse",
@@ -2049,22 +2148,40 @@ function rpcObject(value) {
 }
 
 async function reserveRecordingMetadata(env, metadata) {
-  const value = rpcObject(await rpc(env, "speaking_reserve_recording_attempt", {
-    p_id: metadata.id,
-    p_student_id: metadata.student_id,
-    p_object_path: metadata.object_path,
-    p_exercise_id: metadata.exercise_id,
-    p_exercise_title: metadata.exercise_title,
-    p_exam: metadata.exam,
-    p_part_number: metadata.part_number,
-    p_book_number: metadata.book_number,
-    p_original_filename: metadata.original_filename,
-    p_size_bytes: metadata.size_bytes,
-    p_duration_ms: metadata.duration_ms,
-    p_client_duration_ms: metadata.client_duration_ms,
-    p_sha256_hex: metadata.sha256_hex,
-    p_crc32_value: metadata.crc32_value
-  }));
+  let value;
+  try {
+    value = rpcObject(await rpc(env, "speaking_reserve_recording_attempt", {
+      p_id: metadata.id,
+      p_student_id: metadata.student_id,
+      p_object_path: metadata.object_path,
+      p_exercise_id: metadata.exercise_id,
+      p_exercise_title: metadata.exercise_title,
+      p_exam: metadata.exam,
+      p_part_number: metadata.part_number,
+      p_book_number: metadata.book_number,
+      p_original_filename: metadata.original_filename,
+      p_size_bytes: metadata.size_bytes,
+      p_duration_ms: metadata.duration_ms,
+      p_client_duration_ms: metadata.client_duration_ms,
+      p_sha256_hex: metadata.sha256_hex,
+      p_crc32_value: metadata.crc32_value
+    }));
+  } catch (error) {
+    // The database's cross-system trigger is the final concurrency guard. If it
+    // rejected an insert at the shared Listening + Speaking boundary, recover
+    // the authoritative usage so the client receives a useful quota response.
+    try {
+      const usage = await recordingUsage(env, metadata.student_id);
+      const used = Number(usage?.usage?.storageBytes);
+      const maximum = Number(usage?.quota?.maxBytes);
+      if (Number.isFinite(used) && Number.isFinite(maximum) && used + metadata.size_bytes > maximum) {
+        throw new HttpError(413, "STUDENT_STORAGE_QUOTA_REACHED", "Your shared recording storage quota is full; export and delete older attempts first");
+      }
+    } catch (quotaError) {
+      if (quotaError instanceof HttpError && quotaError.status === 413) throw quotaError;
+    }
+    throw error;
+  }
   if (!value) {
     throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Recording quota service returned an invalid response");
   }

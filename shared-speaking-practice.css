@@ -1,0 +1,159 @@
+.edmund-speaking-practice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem;
+  align-items: center;
+  margin: .8rem 0 .35rem;
+}
+
+.edmund-speaking-practice__button,
+.edmund-speaking-practice__library {
+  appearance: none;
+  border: 1px solid color-mix(in srgb, currentColor 22%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, #fff 88%, #dceee9);
+  color: #173f39;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .4rem;
+  min-height: 2.55rem;
+  padding: .55rem .9rem;
+  font: 800 .86rem/1.1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(20, 69, 61, .09);
+  transition: transform .18s ease, background .18s ease, box-shadow .18s ease;
+}
+
+.edmund-speaking-practice__button:hover,
+.edmund-speaking-practice__library:hover {
+  transform: translateY(-1px);
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(20, 69, 61, .15);
+}
+
+.edmund-speaking-practice__button:focus-visible,
+.edmund-speaking-practice__library:focus-visible {
+  outline: 3px solid rgba(213, 172, 67, .5);
+  outline-offset: 2px;
+}
+
+.edmund-speaking-practice__button[disabled] {
+  cursor: wait;
+  opacity: .64;
+  transform: none;
+}
+
+.edmund-speaking-practice__button.is-playing {
+  background: #173f39;
+  color: #fff;
+}
+
+.edmund-speaking-practice__button.is-recording {
+  background: #8f2d37;
+  color: #fff;
+  animation: edmund-recording-pulse 1.4s ease-in-out infinite;
+}
+
+.edmund-speaking-practice__answer[hidden] { display: none !important; }
+
+@keyframes edmund-recording-pulse {
+  50% { box-shadow: 0 0 0 .5rem rgba(143, 45, 55, .14); }
+}
+
+.edmund-recorder-dock {
+  position: fixed;
+  z-index: 10020;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  width: min(28rem, calc(100vw - 2rem));
+  border: 1px solid rgba(29, 69, 61, .16);
+  border-radius: 1.25rem;
+  background: rgba(250, 253, 252, .97);
+  color: #15352f;
+  padding: 1rem;
+  box-shadow: 0 24px 70px rgba(20, 51, 46, .26);
+  backdrop-filter: blur(18px);
+}
+
+.edmund-recorder-dock[hidden] { display: none !important; }
+
+.edmund-recorder-dock__top,
+.edmund-recorder-dock__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .65rem;
+}
+
+.edmund-recorder-dock h2 {
+  margin: 0;
+  font: 900 1.08rem/1.25 system-ui, sans-serif;
+}
+
+.edmund-recorder-dock__clock {
+  color: #8f2d37;
+  font: 900 1.15rem/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.edmund-recorder-dock__status {
+  min-height: 2.5em;
+  margin: .7rem 0;
+  font: 650 .9rem/1.45 system-ui, sans-serif;
+}
+
+.edmund-recorder-dock audio {
+  display: block;
+  width: 100%;
+  margin: .6rem 0 .8rem;
+}
+
+.edmund-recorder-dock button,
+.edmund-recorder-dock a {
+  border: 0;
+  border-radius: .7rem;
+  background: #e4eeeb;
+  color: #173f39;
+  cursor: pointer;
+  min-height: 2.45rem;
+  padding: .55rem .8rem;
+  font: 800 .84rem/1.1 system-ui, sans-serif;
+  text-decoration: none;
+}
+
+.edmund-recorder-dock [data-recorder-save] { background: #173f39; color: #fff; }
+.edmund-recorder-dock [data-recorder-stop] { background: #8f2d37; color: #fff; }
+.edmund-recorder-dock button[disabled] { cursor: wait; opacity: .58; }
+
+.edmund-speaking-toast {
+  position: fixed;
+  z-index: 10030;
+  left: 50%;
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  max-width: min(36rem, calc(100vw - 2rem));
+  border-radius: 999px;
+  background: #102d28;
+  color: #fff;
+  padding: .72rem 1rem;
+  box-shadow: 0 14px 40px rgba(8, 31, 27, .28);
+  font: 750 .88rem/1.35 system-ui, sans-serif;
+  text-align: center;
+}
+
+.edmund-speaking-toast[hidden] { display: none !important; }
+
+@media (max-width: 620px) {
+  .edmund-speaking-practice { align-items: stretch; }
+  .edmund-speaking-practice__button,
+  .edmund-speaking-practice__library { flex: 1 1 9rem; }
+  .edmund-recorder-dock { right: .65rem; bottom: .65rem; width: calc(100vw - 1.3rem); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .edmund-speaking-practice__button,
+  .edmund-speaking-practice__library { transition: none; }
+  .edmund-speaking-practice__button.is-recording { animation: none; }
+}

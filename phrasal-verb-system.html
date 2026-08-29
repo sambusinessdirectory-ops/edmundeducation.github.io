@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="動詞片語系統">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-phrasal-verb-system.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; worker-src 'self'; base-uri 'self'; form-action 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-phrasal-verb-system.edmundeducation.workers.dev https://edmund-speaking-system.edmundeducation.workers.dev; media-src 'self' blob: https://edmund-speaking-system.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; worker-src 'self'; base-uri 'self'; form-action 'self'">
   <title>Phrasal Verb 動詞片語學習系統｜EdmundEducation</title>
   <link rel="canonical" href="https://edmundeducation.com/phrasal-verb-system.html">
   <link rel="manifest" href="/pwa-manifests/phrasal-verbs.webmanifest">
@@ -22,6 +22,7 @@
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="phrasal-verb-system.css?v=20260728-1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
+  <link rel="stylesheet" href="shared-speaking-practice.css?v=20260829-1">
 </head>
 <body data-phrasal-verb-view="login">
   <a class="skip-link" href="#phrasal-verb-system-main">跳至主要內容</a>
@@ -316,6 +317,9 @@
   <script src="phrasal-verb-system-data.js?v=20260807-1"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
   <script src="shared-answer-comparison.js?v=20260812-1"></script>
-  <script type="module" src="phrasal-verb-system.js?v=20260817-control-revision-2"></script>
+  <script src="speaking-system-config.js?v=20260829-1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lamejs@1.2.1/lame.min.js" integrity="sha384-xuasJXVcyv3hZq0eYpelEkBC8l4yufatZXDsKuyCU2rqfhDCb+ftuE/mSfZAteiK" crossorigin="anonymous"></script>
+  <script src="shared-speaking-practice.js?v=20260829-1"></script>
+  <script type="module" src="phrasal-verb-system.js?v=20260829-speaking1"></script>
 </body>
 </html>

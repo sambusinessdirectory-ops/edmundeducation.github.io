@@ -215,7 +215,8 @@ audio are required, and trailing zero padding is capped at 1 KiB.
 Before writing Storage, the Worker reserves metadata through
 `speaking_reserve_recording_attempt`. That RPC takes a transaction-level
 per-student advisory lock and atomically enforces the singleton settings row.
-The defaults are 500 retained attempts and 1 GiB per student; all lifecycle
+The defaults are 500 retained attempts and a shared 150 MiB per student across
+Listening, Speaking, and the other learning-system practice recorders; all lifecycle
 states count until their metadata is finalized. An owner may adjust the limits
 from a private Supabase SQL session, for example:
 

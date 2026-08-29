@@ -192,7 +192,10 @@ test("all six Common Expression portals carry their identity, shared navigation 
       /common-expression-system-data\.js\?v=20260811-1/,
       /common-expression-system-imported-data\.js\?v=20260811-1/,
       /shared-answer-comparison\.js\?v=20260812-1/,
-      /common-expression-system\.js\?v=20260820-1/,
+      /common-expression-system\.js\?v=20260829-speaking1/,
+      /shared-speaking-practice\.css\?v=20260829-1/,
+      /shared-speaking-practice\.js\?v=20260829-1/,
+      /lamejs@1\.2\.1\/lame\.min\.js/,
       /shared-system-nav\.css\?v=20260822-night-invitation1/,
       /shared-system-nav\.js\?v=20260822-night-invitation1/
     ]) assert.match(html, contract, `${portal.file}: missing required portal asset or PWA contract`);
@@ -201,6 +204,8 @@ test("all six Common Expression portals carry their identity, shared navigation 
     assert.match(csp, /default-src 'self'/, `${portal.file}: restrictive default CSP`);
     assert.match(csp, /script-src[^;]*'self'[^;]*https:\/\/cdn\.jsdelivr\.net/, `${portal.file}: pinned Supabase CDN allowed`);
     assert.match(csp, /connect-src[^;]*'self'[^;]*https:\/\/ookkxzgpdclzrrhfmvqx\.supabase\.co/, `${portal.file}: only the configured Supabase project is allowed`);
+    assert.match(csp, /connect-src[^;]*https:\/\/edmund-speaking-system\.edmundeducation\.workers\.dev/, `${portal.file}: shared voice service allowed`);
+    assert.match(csp, /media-src[^;]*blob:/, `${portal.file}: local recording previews allowed`);
     assert.match(csp, /object-src 'none'/, `${portal.file}: plugins blocked`);
     assert.match(csp, /frame-src 'none'/, `${portal.file}: frames blocked`);
     assert.match(csp, /worker-src 'self'/, `${portal.file}: same-origin service worker allowed`);
@@ -211,7 +216,7 @@ test("all six Common Expression portals carry their identity, shared navigation 
     const baseDataIndex = html.indexOf("common-expression-system-data.js?v=20260811-1");
     const importedDataIndex = html.indexOf("common-expression-system-imported-data.js?v=20260811-1");
     const comparisonIndex = html.indexOf("shared-answer-comparison.js?v=20260812-1");
-    const engineIndex = html.indexOf("common-expression-system.js?v=20260820-1");
+    const engineIndex = html.indexOf("common-expression-system.js?v=20260829-speaking1");
     assert.ok(baseDataIndex < importedDataIndex, `${portal.file}: base catalogue must load before imported lessons`);
     assert.ok(importedDataIndex < comparisonIndex, `${portal.file}: imported lessons must load before answer comparison`);
     assert.ok(comparisonIndex < engineIndex, `${portal.file}: answer comparison must load before the module engine`);
