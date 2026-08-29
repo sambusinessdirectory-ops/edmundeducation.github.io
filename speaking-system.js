@@ -2004,9 +2004,15 @@
       </section>`;
   }
 
-  function dseQuestionList(questions, ordered = false) {
+  function dseQuestionList(questions, ordered = false, translations = []) {
     const tag = ordered ? "ol" : "ul";
-    return `<${tag} class="dse-question-list">${questions.map(question => `<li>${escapeHtml(question)}</li>`).join("")}</${tag}>`;
+    return `<${tag} class="dse-question-list">${questions.map((question, index) => `<li><span lang="en">${escapeHtml(question)}</span>${translations[index] ? `<small lang="zh-Hant">${escapeHtml(translations[index])}</small>` : ""}</li>`).join("")}</${tag}>`;
+  }
+
+  function dseSourceCard(set, open = false) {
+    const source = String(set?.sourceText || "").trim();
+    if (!source) return "";
+    return `<details class="dse-source-card" ${open ? "open" : ""}><summary><span>題目文章與任務資料</span><small>Source text &amp; task</small></summary><div class="dse-source-text" lang="en">${escapeHtml(source)}</div></details>`;
   }
 
   function renderDseCatalog() {
@@ -2034,7 +2040,8 @@
                 <summary><span>${year}</span><small>${sets.length ? `${sets.length} 套題目` : "暫未提供題目"}</small></summary>
                 ${sets.length ? `<div class="dse-set-list">${sets.map(set => {
                   const questions = part === "individual" ? set.individualResponse : set.groupDiscussion;
-                  return `<details class="dse-set-card"><summary><span>${escapeHtml(set.set)}</span><strong>${escapeHtml(set.title)}</strong><small>${questions.length} 題</small></summary>${dseQuestionList(questions, true)}</details>`;
+                  const translations = part === "individual" ? set.individualResponseZh : set.groupDiscussionZh;
+                  return `<details class="dse-set-card"><summary><span>${escapeHtml(set.set)}</span><strong>${escapeHtml(set.title)}</strong><small>${questions.length} 題</small></summary>${dseSourceCard(set)}${dseQuestionList(questions, true, translations)}</details>`;
                 }).join("")}</div>` : '<p class="dse-empty-year">這個年份的題目尚未加入。</p>'}
               </details>`;
           }).join("")}
@@ -2082,7 +2089,26 @@
   }
 
   function dseGroupCard(session, preparation = false) {
-    return `<section class="dse-practice-card"><span class="cue-label">PART A · GROUP DISCUSSION · 小組討論</span><h2>${preparation ? "準備以下 3 個討論重點" : "開始小組討論"}</h2>${dseQuestionList(session.set.groupDiscussion, true)}</section>`;
+    return `<section class="dse-practice-card"><span class="cue-label">PART A · GROUP DISCUSSION · 小組討論</span><h2>${preparation ? "準備以下 3 個討論重點" : "開始小組討論"}</h2>${dseQuestionList(session.set.groupDiscussion, true, session.set.groupDiscussionZh)}</section>`;
+  }
+
+  function dseIndividualCard(session) {
+    const questions = Array.isArray(session.set.individualResponse) ? session.set.individualResponse : [];
+    const index = Math.min(Math.max(0, Number(session.individualIndex || 0)), Math.max(0, questions.length - 1));
+    const question = questions[index] || "";
+    const translation = session.set.individualResponseZh?.[index] || "";
+    const progress = questions.length ? Math.round(((index + 1) / questions.length) * 100) : 0;
+    return `<section class="dse-individual-stage"><div class="dse-question-progress"><div><span>PART B · INDIVIDUAL RESPONSE</span><strong>第 ${index + 1} / ${questions.length} 題</strong></div><div class="dse-question-progress-track" aria-hidden="true"><i style="width:${progress}%"></i></div></div><section class="dse-single-question" aria-labelledby="dse-current-question"><span class="cue-label">QUESTION ${index + 1} · 個人發言</span><h2 id="dse-current-question" lang="en">${escapeHtml(question)}</h2>${translation ? `<p lang="zh-Hant">${escapeHtml(translation)}</p>` : ""}</section></section>`;
+  }
+
+  function prepareDseRecorder() {
+    const context = currentRecordingContext();
+    if (state.pageRecordingContextKey && context?.key !== state.pageRecordingContextKey) clearPageRecordingHistory();
+  }
+
+  function finishDseRecorderRender() {
+    renderPageRecordingHistory();
+    syncRecorderControls();
   }
 
   function renderDsePractice() {
@@ -2096,16 +2122,22 @@
     const mode = DSE_MODE.modeForId?.(session.modeId);
     if (session.phase === "preparation") {
       const remaining = Math.max(0, Math.ceil((Number(session.prepEndsAt) - Date.now()) / 1000));
-      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${dseSetHeader(session)}<section class="exam-prep-timer dse-prep-timer"><span>準備時間 · PREPARATION</span><strong data-dse-prep-clock role="timer">${Math.floor(remaining / 60)}:${pad(remaining % 60)}</strong><button class="exam-prep-skip-button" type="button" data-dse-skip-prep>略過準備時間</button></section>${dseGroupCard(session, true)}</article>`;
+      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}<section class="exam-prep-timer dse-prep-timer"><span>準備時間 · PREPARATION</span><strong data-dse-prep-clock role="timer">${Math.floor(remaining / 60)}:${pad(remaining % 60)}</strong><button class="exam-prep-skip-button" type="button" data-dse-skip-prep>略過準備時間</button></section>${dseSourceCard(session.set, true)}${dseGroupCard(session, true)}</article>`;
       startDsePrepTimer();
       return;
     }
     if (session.phase === "group") {
-      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${dseSetHeader(session)}${dseGroupCard(session)}<button class="primary-button dse-stage-action" type="button" data-dse-complete-group>${mode?.parts.includes("individual") ? "完成小組討論，進入個人發言 →" : "完成小組討論 →"}</button></article>`;
+      prepareDseRecorder();
+      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}${dseSourceCard(session.set, true)}${dseGroupCard(session)}${renderRecorderCard()}<button class="primary-button dse-stage-action" type="button" data-dse-complete-group>${mode?.parts.includes("individual") ? "完成小組討論，進入個人發言 →" : "完成小組討論 →"}</button></article>`;
+      finishDseRecorderRender();
       return;
     }
     if (session.phase === "individual") {
-      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${dseSetHeader(session)}<section class="dse-practice-card"><span class="cue-label">PART B · INDIVIDUAL RESPONSE · 個人發言</span><h2>回答同一題組的全部問題</h2>${dseQuestionList(session.set.individualResponse, true)}</section><button class="primary-button dse-stage-action" type="button" data-dse-complete-individual>完成個人發言 →</button></article>`;
+      prepareDseRecorder();
+      const index = Math.min(Math.max(0, Number(session.individualIndex || 0)), Math.max(0, session.set.individualResponse.length - 1));
+      const finalQuestion = index >= session.set.individualResponse.length - 1;
+      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}${dseSourceCard(session.set, true)}${dseIndividualCard(session)}${renderRecorderCard()}<button class="primary-button dse-stage-action" type="button" data-dse-next-individual>${finalQuestion ? "完成個人發言 →" : "下一題 →"}</button></article>`;
+      finishDseRecorderRender();
       return;
     }
     if (session.phase === "rating") {
@@ -2141,15 +2173,37 @@
   function completeDseGroup() {
     const session = state.dseSession;
     if (session?.phase !== "group") return;
+    if (["recording", "paused"].includes(state.mediaRecorder?.state)) {
+      toast("請先完成目前的錄音，再前往下一部分。", "info");
+      return;
+    }
+    if (state.recordedMp3) {
+      toast("請先儲存或捨棄目前的 MP3，再前往下一部分。", "info");
+      return;
+    }
     const mode = DSE_MODE.modeForId?.(session.modeId);
+    clearPageRecordingHistory();
+    session.individualIndex = 0;
     session.phase = mode?.parts.includes("individual") ? "individual" : "rating";
     persistDseSession();
     renderDsePractice();
   }
 
   function completeDseIndividual() {
-    if (state.dseSession?.phase !== "individual") return;
-    state.dseSession.phase = "rating";
+    const session = state.dseSession;
+    if (session?.phase !== "individual") return;
+    if (["recording", "paused"].includes(state.mediaRecorder?.state)) {
+      toast("請先完成目前的錄音，再前往下一題。", "info");
+      return;
+    }
+    if (state.recordedMp3) {
+      toast("請先儲存或捨棄目前的 MP3，再前往下一題。", "info");
+      return;
+    }
+    clearPageRecordingHistory();
+    const finalIndex = Math.max(0, session.set.individualResponse.length - 1);
+    if (Number(session.individualIndex || 0) < finalIndex) session.individualIndex = Number(session.individualIndex || 0) + 1;
+    else session.phase = "rating";
     persistDseSession();
     renderDsePractice();
   }
@@ -4178,6 +4232,26 @@
         attemptId: session.id
       };
     }
+    if (state.route.view === "dse-practice") {
+      const session = state.dseSession;
+      if (!session || !["group", "individual"].includes(session.phase)) return null;
+      const group = session.phase === "group";
+      const index = group ? 1 : Math.max(1, Number(session.individualIndex || 0) + 1);
+      const question = group
+        ? `Group Discussion — ${session.set.title}`
+        : session.set.individualResponse?.[index - 1] || `Individual Response ${index}`;
+      return {
+        key: `dse:${session.id}:${group ? "group" : `individual:${index}`}`,
+        isExam: false,
+        isDse: true,
+        id: `dse:${session.id}:${group ? "group" : `individual:${index}`}`,
+        title: String(`DSE ${session.set.year} ${session.set.set} · ${question}`).slice(0, 240),
+        exam: "DSE",
+        part: group ? 1 : 2,
+        book: null,
+        index
+      };
+    }
     const exercise = currentExercise();
     if (!exercise || state.route.view !== "exercise") return null;
     return {
@@ -4186,6 +4260,7 @@
       item: exercise,
       id: exercise.id,
       title: exercise.title,
+      exam: "IELTS",
       part: Number(state.route.part || exercise.part || 2),
       book: Number(state.route.book || exercise.book || 1),
       index: Number(exercise.index || 1)
@@ -5980,12 +6055,14 @@
       const now = new Date();
       const filename = context.isExam
         ? `${safeFilePart(state.user.name, "student")}-exam-${context.modeId}-${context.intro ? "name-introduction" : `part-${context.part}-question-${pad(context.globalOrder)}`}-${now.toISOString().replace(/[:.]/g, "-")}.mp3`
+        : context.isDse
+        ? `${safeFilePart(state.user.name, "student")}-dse-${state.dseSession?.set?.year || "set"}-${safeFilePart(state.dseSession?.set?.set, "practice")}-part-${context.part}-item-${pad(context.index)}-${now.toISOString().replace(/[:.]/g, "-")}.mp3`
         : `${safeFilePart(state.user.name, "student")}-book-${context.book}-exercise-${pad(context.index)}-${now.toISOString().replace(/[:.]/g, "-")}.mp3`;
       const metadata = {
         exerciseId: context.id,
         exerciseIndex: context.index,
         exerciseTitle: context.title,
-        exam: "IELTS",
+        exam: context.exam || "IELTS",
         part: context.part,
         book: context.book,
         durationMs: state.recordedDurationMs,
@@ -5993,7 +6070,9 @@
       };
       const form = new FormData();
       form.append("file", state.recordedMp3, filename);
-      Object.entries(metadata).forEach(([key, value]) => form.append(key, String(value)));
+      Object.entries(metadata).forEach(([key, value]) => {
+        if (value !== null && value !== undefined && value !== "") form.append(key, String(value));
+      });
       form.append("metadata", JSON.stringify(metadata));
       const maxUploadBytes = Math.max(512, Number(CONFIG.maxUploadBytes || 3 * 1024 * 1024));
       if (state.recordedMp3.size > maxUploadBytes) {
@@ -7119,7 +7198,7 @@
         return;
       }
 
-      if (event.target.closest("[data-dse-complete-individual]")) {
+      if (event.target.closest("[data-dse-next-individual]")) {
         completeDseIndividual();
         return;
       }

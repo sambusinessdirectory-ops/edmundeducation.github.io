@@ -132,6 +132,18 @@
   line-height: 1.65;
 }
 
+.dse-question-list li > span,
+.dse-question-list li > small {
+  display: block;
+}
+
+.dse-question-list li > small {
+  margin-top: 5px;
+  color: #526b7d;
+  font-size: .88em;
+  font-weight: 700;
+}
+
 .dse-empty-year {
   margin: 0;
   padding: 22px 24px;
@@ -202,6 +214,103 @@
 .dse-stage-action {
   display: block;
   margin: 24px auto 0;
+}
+
+.dse-source-card {
+  overflow: hidden;
+  margin: 20px 0;
+  border: 1px solid rgba(110, 72, 31, .2);
+  border-radius: 22px;
+  background: rgba(255, 249, 237, .94);
+  box-shadow: 0 16px 38px rgba(73, 54, 33, .08);
+}
+
+.dse-source-card > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 18px 22px;
+  color: #5b351c;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.dse-source-card > summary small {
+  color: #8a6243;
+  font-size: 12px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.dse-source-text {
+  padding: 22px;
+  border-top: 1px solid rgba(110, 72, 31, .14);
+  color: #2b3544;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(15px, 1.45vw, 18px);
+  line-height: 1.82;
+  white-space: pre-line;
+}
+
+.dse-individual-stage {
+  display: grid;
+  gap: 20px;
+}
+
+.dse-question-progress {
+  padding: 18px 22px;
+  border: 1px solid rgba(32, 61, 104, .12);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, .88);
+}
+
+.dse-question-progress > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  color: #31445f;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.dse-question-progress-track {
+  overflow: hidden;
+  height: 9px;
+  margin-top: 12px;
+  border-radius: 999px;
+  background: #e6e0d7;
+}
+
+.dse-question-progress-track i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #0e6f7b, #6240a5);
+  transition: width .25s ease;
+}
+
+.dse-single-question {
+  padding: clamp(28px, 5vw, 56px);
+  border-radius: 34px;
+  color: #fff;
+  background: linear-gradient(135deg, #0f315f, #4e2c8c);
+  box-shadow: 0 24px 54px rgba(22, 44, 86, .2);
+}
+
+.dse-single-question h2 {
+  margin: 24px 0 0;
+  color: inherit;
+  font-size: clamp(28px, 4.2vw, 52px);
+  line-height: 1.15;
+}
+
+.dse-single-question p {
+  margin: 22px 0 0;
+  color: rgba(255, 255, 255, .92);
+  font-size: clamp(17px, 2vw, 23px);
+  font-weight: 800;
+  line-height: 1.6;
 }
 
 @media (max-width: 720px) {
@@ -908,7 +1017,8 @@
   line-height: 1.7;
 }
 
-.exam-nervousness-scale {
+.exam-nervousness-scale,
+.exam-rating-scale {
   display: flex;
   justify-content: center;
   gap: clamp(9px, 2vw, 18px);
@@ -1314,7 +1424,8 @@
     padding-inline: 20px;
   }
 
-  .exam-nervousness-scale {
+  .exam-nervousness-scale,
+  .exam-rating-scale {
     justify-content: space-between;
     gap: 3px;
     overflow-x: visible;

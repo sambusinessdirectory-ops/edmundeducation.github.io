@@ -43,6 +43,7 @@ assert.deepEqual(Object.fromEntries(data.years.map(year => [year, data.catalog[y
 for (const set of data.sets) {
   assert.equal(set.groupDiscussion.length, 3, `${set.year} ${set.set} should have three Group Discussion points`);
   assert.ok(set.individualResponse.length >= 8 && set.individualResponse.length <= 10, `${set.year} ${set.set} should have 8-10 Individual Response questions`);
+  assert.ok(set.sourceText.length >= 60, `${set.year} ${set.set} should include the source text and task context`);
   assert.ok(set.title && !set.title.startsWith("DSE Speaking Set"), `${set.year} ${set.set} should have a curated title`);
   assert.equal("modelAnswer" in set, false, "DSE catalogue must not introduce model answers");
 }
@@ -66,14 +67,19 @@ const excluded = mode.createSession("dse-group", sample, { now: 2_000, excludedK
 assert.equal(excluded.sourceKey, mode.sourceKey(sample[1]), "the immediately previous set should be excluded when alternatives exist");
 const individual = mode.createSession("dse-individual", sample, { now: 3_000 });
 assert.equal(individual.phase, "individual");
+assert.equal(individual.individualIndex, 0);
 
 assert.ok(htmlSource.indexOf("dse-speaking-data.js") < htmlSource.indexOf("dse-speaking-mode.js"));
 assert.ok(htmlSource.indexOf("dse-speaking-mode.js") < htmlSource.indexOf("speaking-system.js"));
 for (const required of [
   "Group Discussion<br>", "Individual Response<br>", "data-dse-sort", "2012 → 2025",
-  "data-dse-skip-prep", "data-dse-complete-group", "data-dse-complete-individual",
-  "data-dse-rating", "請選擇 1 至 7", "DSE 模式不設考官自然交流"
+  "data-dse-skip-prep", "data-dse-complete-group", "data-dse-next-individual",
+  "data-dse-rating", "請選擇 1 至 7", "DSE 模式不設考官自然交流",
+  "dseSourceCard", "dseIndividualCard", "renderRecorderCard()", "exam: \"DSE\""
 ]) assert.match(appSource, new RegExp(required.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+
+assert.match(appSource, /assets\/speaking-system\/ielts-exam-practice-mode\.png/);
+assert.doesNotMatch(appSource, /ielts-exam-practice-mode-human-v2\.png/);
 
 const dseModesStart = appSource.indexOf("function renderDseModes()");
 const dseModesEnd = appSource.indexOf("function startDsePractice", dseModesStart);

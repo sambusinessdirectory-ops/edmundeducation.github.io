@@ -56,6 +56,7 @@
       prepEndsAt: startsWithGroup ? now + 10 * 60 * 1000 : null,
       startedAt: new Date(now).toISOString(),
       completedAt: null,
+      individualIndex: 0,
       selectedRating: null,
       rating: null
     };
