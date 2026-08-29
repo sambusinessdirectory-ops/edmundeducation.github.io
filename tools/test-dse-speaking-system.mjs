@@ -4,6 +4,7 @@ import vm from "node:vm";
 
 const repository = new URL("../", import.meta.url);
 const dataSource = readFileSync(new URL("dse-speaking-data.js", repository), "utf8");
+const translationSource = readFileSync(new URL("dse-speaking-translations.js", repository), "utf8");
 const modeSource = readFileSync(new URL("dse-speaking-mode.js", repository), "utf8");
 const appSource = readFileSync(new URL("speaking-system.js", repository), "utf8");
 const htmlSource = readFileSync(new URL("speaking-system.html", repository), "utf8");
@@ -29,10 +30,12 @@ const context = {
 context.globalThis = context;
 vm.createContext(context);
 vm.runInContext(dataSource, context, { filename: "dse-speaking-data.js" });
+vm.runInContext(translationSource, context, { filename: "dse-speaking-translations.js" });
 vm.runInContext(modeSource, context, { filename: "dse-speaking-mode.js" });
 
 const data = context.window.EDMUND_DSE_SPEAKING_DATA;
 const mode = context.window.EDMUND_DSE_SPEAKING_MODE;
+const translations = context.window.EDMUND_DSE_SPEAKING_TRANSLATIONS;
 assert.deepEqual(Array.from(data.years), Array.from({ length: 14 }, (_, index) => 2012 + index));
 assert.equal(data.sets.length, 227);
 assert.deepEqual(Object.fromEntries(data.years.map(year => [year, data.catalog[year]?.length || 0])), {
@@ -55,6 +58,15 @@ assert.equal(tvb.individualResponse[7], "How important is TVB to Hong Kong cultu
 const harbour = data.catalog[2023].find(set => set.set === "8.3");
 assert.equal(harbour.title, "Harbourside Concert Series");
 assert.equal(harbour.groupDiscussion.length, 3);
+assert.deepEqual(Object.keys(translations).sort(), ["2015:3.3", "2018:1.2", "2018:5.2"]);
+for (const [key, translatedSet] of Object.entries(translations)) {
+  const [year, setNumber] = key.split(":");
+  const sourceSet = data.sets.find(set => String(set.year) === year && set.set === setNumber);
+  assert.ok(sourceSet, `${key} translation should point to a DSE set`);
+  assert.equal(translatedSet.groupDiscussion.length, sourceSet.groupDiscussion.length);
+  assert.equal(translatedSet.individualResponse.length, sourceSet.individualResponse.length);
+}
+assert.equal(/sourceText\s*:/.test(translationSource), false, "source passages must remain untranslated");
 
 assert.deepEqual(Array.from(mode.modes, item => item.id), ["dse-combined", "dse-group", "dse-individual"]);
 assert.equal(mode.modes.some(item => /natural|examiner/i.test(`${item.label} ${item.labelZh}`)), false);
@@ -69,7 +81,8 @@ const individual = mode.createSession("dse-individual", sample, { now: 3_000 });
 assert.equal(individual.phase, "individual");
 assert.equal(individual.individualIndex, 0);
 
-assert.ok(htmlSource.indexOf("dse-speaking-data.js") < htmlSource.indexOf("dse-speaking-mode.js"));
+assert.ok(htmlSource.indexOf("dse-speaking-data.js") < htmlSource.indexOf("dse-speaking-translations.js"));
+assert.ok(htmlSource.indexOf("dse-speaking-translations.js") < htmlSource.indexOf("dse-speaking-mode.js"));
 assert.ok(htmlSource.indexOf("dse-speaking-mode.js") < htmlSource.indexOf("speaking-system.js"));
 for (const required of [
   "Group Discussion<br>", "Individual Response<br>", "data-dse-sort", "2012 → 2025",
@@ -77,6 +90,11 @@ for (const required of [
   "data-dse-rating", "請選擇 1 至 7", "DSE 模式不設考官自然交流",
   "dseSourceCard", "dseIndividualCard", "renderRecorderCard()", "exam: \"DSE\""
 ]) assert.match(appSource, new RegExp(required.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+for (const required of [
+  "/v1/dse-exam-voice", "data-dse-play-question-voice", "autoPlayDseVoice",
+  "dse-single-question is-entering", "abandonDseSession(\"left-practice\")",
+  "abandonDseSession(\"page-closed\")"
+]) assert.ok(appSource.includes(required), `missing DSE enhancement: ${required}`);
 
 assert.match(appSource, /assets\/speaking-system\/ielts-exam-practice-mode\.png/);
 assert.doesNotMatch(appSource, /ielts-exam-practice-mode-human-v2\.png/);

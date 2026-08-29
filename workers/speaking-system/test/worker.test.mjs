@@ -231,6 +231,69 @@ test("authenticated learning voice is generated once and then served from R2", a
   }
 });
 
+test("DSE examiner voice uses a cached British male voice", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const originalFetch = globalThis.fetch;
+  const cache = new Map();
+  let aiCalls = 0;
+  let limiterCalls = 0;
+  const mp3 = new Uint8Array(300);
+  mp3.set([0xFF, 0xFB, 0x90, 0x00]);
+  globalThis.fetch = async url => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      return jsonResponse([{ id: studentId, name: "Student", session_expires_at: "2026-08-30T00:00:00Z" }]);
+    }
+    assert.fail(`Unexpected upstream request: ${parsed.pathname}`);
+  };
+  const env = configuredEnv({
+    UPLOAD_RATE_LIMITER: { limit: async ({ key }) => {
+      limiterCalls += 1;
+      assert.equal(key, `dse-exam-voice:${studentId}`);
+      return { success: true };
+    } },
+    AI: { run: async (model, input, options) => {
+      aiCalls += 1;
+      assert.equal(model, "@cf/deepgram/aura-2-en");
+      assert.equal(input.speaker, "draco");
+      assert.equal(input.encoding, "mp3");
+      assert.equal(input.text, "Do you watch talent shows?");
+      assert.deepEqual(options, { returnRawResponse: true });
+      return new Response(mp3, { headers: { "Content-Type": "audio/mpeg" } });
+    } },
+    EDMUND_ASSETS: {
+      get: async key => cache.has(key) ? { body: cache.get(key) } : null,
+      put: async (key, bytes, options) => {
+        assert.match(key, /^dse-exam-voice\/british-male-examiner-v1\/[0-9a-f]{2}\/[0-9a-f]{64}\.mp3$/);
+        assert.equal(options.httpMetadata.contentType, "audio/mpeg");
+        cache.set(key, bytes);
+      }
+    }
+  });
+  try {
+    for (let requestIndex = 0; requestIndex < 2; requestIndex += 1) {
+      const response = await worker.default.fetch(
+        authorizedRequest("/v1/dse-exam-voice", studentToken, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ text: "Do you watch talent shows?" })
+        }),
+        env,
+        {}
+      );
+      assert.equal(response.status, 200);
+      assert.equal(response.headers.get("Content-Type"), "audio/mpeg");
+      assert.equal((await response.arrayBuffer()).byteLength, mp3.byteLength);
+    }
+    assert.equal(aiCalls, 1);
+    assert.equal(limiterCalls, 1);
+    assert.equal(cache.size, 1);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
 test("learning-practice recordings accept shared-system metadata without IELTS location", async () => {
   const audio = repeatFrame(40);
   const form = new FormData();

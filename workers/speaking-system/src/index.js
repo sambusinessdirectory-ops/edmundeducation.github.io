@@ -19,6 +19,9 @@ const MAX_TRAILING_PADDING_BYTES = 1024;
 const LEARNING_VOICE_MODEL = "@cf/deepgram/aura-2-en";
 const LEARNING_VOICE_SPEAKER = "aries";
 const LEARNING_VOICE_RECIPE = "american-youthful-male-v1";
+const DSE_EXAM_VOICE_MODEL = "@cf/deepgram/aura-2-en";
+const DSE_EXAM_VOICE_SPEAKER = "draco";
+const DSE_EXAM_VOICE_RECIPE = "british-male-examiner-v1";
 const MAX_LEARNING_VOICE_TEXT_LENGTH = 900;
 const MAX_LEARNING_VOICE_BYTES = 2 * 1024 * 1024;
 const RECONCILE_MAX_ITEMS = 10;
@@ -175,6 +178,9 @@ async function route(request, env, ctx) {
   }
   if (url.pathname === "/v1/learning-voice" && request.method === "POST") {
     return learningVoice(request, env);
+  }
+  if (url.pathname === "/v1/dse-exam-voice" && request.method === "POST") {
+    return dseExamVoice(request, env);
   }
   if (url.pathname === "/v1/bookmarks" && request.method === "GET") {
     return getBookmarks(request, env);
@@ -766,19 +772,77 @@ async function learningVoice(request, env) {
   return audioResponse(bytes, request, env, `"${hash}"`);
 }
 
+async function dseExamVoice(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  if (!env.AI || typeof env.AI.run !== "function" || !env.EDMUND_ASSETS || typeof env.EDMUND_ASSETS.get !== "function") {
+    throw new HttpError(503, "DSE_EXAM_VOICE_NOT_CONFIGURED", "DSE examiner voice is not configured");
+  }
+
+  const payload = await readLimitedJson(request, 4096);
+  if (!payload || typeof payload !== "object" || Array.isArray(payload) || Object.keys(payload).some(key => key !== "text")) {
+    throw new HttpError(400, "INVALID_DSE_EXAM_VOICE_REQUEST", "Invalid DSE examiner voice request");
+  }
+  const text = String(payload.text || "").normalize("NFC").replace(/\s+/g, " ").trim();
+  if (!text || text.length > MAX_LEARNING_VOICE_TEXT_LENGTH || /[\u0000-\u001f\u007f]/.test(text)) {
+    throw new HttpError(400, "INVALID_DSE_EXAM_VOICE_TEXT", "Invalid DSE examiner voice text");
+  }
+
+  const digest = await crypto.subtle.digest("SHA-256", encoder.encode(`${DSE_EXAM_VOICE_RECIPE}\n${text}`));
+  const hash = bytesToHex(new Uint8Array(digest));
+  const objectPath = `dse-exam-voice/${DSE_EXAM_VOICE_RECIPE}/${hash.slice(0, 2)}/${hash}.mp3`;
+  let cached;
+  try {
+    cached = await env.EDMUND_ASSETS.get(objectPath);
+  } catch {
+    throw new HttpError(503, "DSE_EXAM_VOICE_CACHE_UNAVAILABLE", "DSE examiner voice is temporarily unavailable");
+  }
+  if (cached?.body) return audioResponse(cached.body, request, env, `"${hash}"`);
+
+  await enforceLearningVoiceRateLimit(env, student.id, "dse-exam-voice");
+  let generated;
+  try {
+    generated = await env.AI.run(
+      DSE_EXAM_VOICE_MODEL,
+      { text, speaker: DSE_EXAM_VOICE_SPEAKER, encoding: "mp3" },
+      { returnRawResponse: true }
+    );
+  } catch (error) {
+    console.error("DSE examiner voice generation failed", safeErrorMessage(error));
+    throw new HttpError(503, "DSE_EXAM_VOICE_UNAVAILABLE", "DSE examiner voice is temporarily unavailable");
+  }
+  if (!(generated instanceof Response) || !generated.ok) {
+    if (generated instanceof Response) await discardResponse(generated);
+    throw new HttpError(503, "DSE_EXAM_VOICE_UNAVAILABLE", "DSE examiner voice is temporarily unavailable");
+  }
+  const bytes = new Uint8Array(await generated.arrayBuffer());
+  if (bytes.byteLength < 256 || bytes.byteLength > MAX_LEARNING_VOICE_BYTES || !hasMp3Signature(bytes)) {
+    throw new HttpError(502, "INVALID_DSE_EXAM_VOICE", "DSE examiner voice returned invalid audio");
+  }
+  try {
+    await env.EDMUND_ASSETS.put(objectPath, bytes, {
+      httpMetadata: { contentType: "audio/mpeg", cacheControl: "public, max-age=31536000, immutable" },
+      customMetadata: { recipe: DSE_EXAM_VOICE_RECIPE, sha256: hash }
+    });
+  } catch (error) {
+    console.error("DSE examiner voice cache write failed", safeErrorMessage(error));
+  }
+  return audioResponse(bytes, request, env, `"${hash}"`);
+}
+
 function hasMp3Signature(bytes) {
   if (!(bytes instanceof Uint8Array) || bytes.byteLength < 3) return false;
   if (bytes[0] === 0x49 && bytes[1] === 0x44 && bytes[2] === 0x33) return true;
   return bytes[0] === 0xFF && (bytes[1] & 0xE0) === 0xE0;
 }
 
-async function enforceLearningVoiceRateLimit(env, studentId) {
+async function enforceLearningVoiceRateLimit(env, studentId, prefix = "learning-voice") {
   if (!env.UPLOAD_RATE_LIMITER || typeof env.UPLOAD_RATE_LIMITER.limit !== "function") {
     throw new HttpError(503, "LEARNING_VOICE_RATE_LIMIT_NOT_CONFIGURED", "Learning voice is not configured");
   }
   let result;
   try {
-    result = await env.UPLOAD_RATE_LIMITER.limit({ key: `learning-voice:${studentId}` });
+    result = await env.UPLOAD_RATE_LIMITER.limit({ key: `${prefix}:${studentId}` });
   } catch (error) {
     throw new HttpError(503, "LEARNING_VOICE_RATE_LIMIT_UNAVAILABLE", "Learning voice is temporarily unavailable");
   }

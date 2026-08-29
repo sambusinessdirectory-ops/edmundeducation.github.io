@@ -17,6 +17,7 @@ The Worker provides:
 - durable exam-attempt manifests, intentional-question skips, retained
   immediate-previous-attempt cooldown state, exact-question bookmarks and
   nervousness self-evaluation;
+- authenticated, R2-cached British-male DSE examiner question audio;
 - admin list/download/delete access to every student's attempts; and
 - exact-origin CORS for the custom site and GitHub Pages host.
 
@@ -168,6 +169,9 @@ routes use the separate `adminToken` returned by Speaking admin login.
 - `GET /v1/student/me` — validates the canonical Flashcard student bearer and
   returns `{ "student": { "id", "name", "expiresAt" } }`. The Speaking page
   uses this before restoring a session from browser storage.
+- `POST /v1/dse-exam-voice` — accepts one JSON `text` field, generates the
+  question with the fixed British-male examiner voice, and caches the MP3 in
+  R2 under a content-derived immutable key. Repeated text is served from R2.
 
 ### Save an attempt
 

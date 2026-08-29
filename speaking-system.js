@@ -5,6 +5,7 @@
   const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
   const EXAM_MODE = window.EDMUND_SPEAKING_EXAM || {};
   const DSE_DATA = window.EDMUND_DSE_SPEAKING_DATA || { years: [], catalog: {}, sets: [] };
+  const DSE_TRANSLATIONS = window.EDMUND_DSE_SPEAKING_TRANSLATIONS || {};
   const DSE_MODE = window.EDMUND_DSE_SPEAKING_MODE || {};
   const SESSION_KEY = "edmundSpeakingSessionV1";
   const RATE_KEY = "edmundSpeakingAudioRateV1";
@@ -184,6 +185,12 @@
     dseYearSort: "asc",
     dseSession: null,
     dsePrepTimer: 0,
+    dseVoiceAudio: null,
+    dseVoiceAbortController: null,
+    dseVoiceUrls: new Map(),
+    dseVoiceGeneration: 0,
+    dseVoiceAutoKey: "",
+    dseVoiceErrorShown: false,
     idleBreakExamPausedAt: 0,
     idleBreakExamTimerWasRunning: false,
     idleBreakPrepTimerWasRunning: false,
@@ -495,7 +502,9 @@
 
   function clearSession() {
     state.authGeneration += 1;
+    if (state.dseSession && !state.dseSession.completedAt) abandonDseSession("logged-out");
     clearDsePrepTimer();
+    cancelDseVoice();
     state.dseSession = null;
     state.user = null;
     state.authToken = "";
@@ -918,6 +927,10 @@
       && state.route.view === "exam-practice"
       && state.examSession
       && !state.examSession.completed;
+    const abandoningDse = !routesEqual(route, state.route)
+      && state.route.view === "dse-practice"
+      && state.dseSession
+      && !state.dseSession.completedAt;
     if (!routesEqual(route, state.route) && state.route.view === "exams") {
       state.progressController?.abort();
       state.progressController = null;
@@ -928,6 +941,7 @@
     clearExamPhaseTimer();
     clearDsePrepTimer();
     cancelExamSpeech();
+    cancelDseVoice();
     cleanupPart1Reveal();
     cleanupAttemptAudio();
     if (!routesEqual(route, state.route)) {
@@ -936,6 +950,7 @@
       clearPageRecordingHistory();
     }
     if (abandoningExam) clearExamSession();
+    if (abandoningDse) abandonDseSession("left-practice");
 
     if (options.reset) {
       state.routeHistory = [];
@@ -1938,6 +1953,11 @@
     if (state.dseSession || !dseStorageOwner()) return;
     const saved = readDseStore(DSE_SESSION_KEY)[dseStorageOwner()];
     if (!saved || typeof saved !== "object" || !DSE_MODE.modeForId?.(saved.modeId) || !saved.set) return;
+    if (!saved.completedAt) {
+      state.dseSession = saved;
+      abandonDseSession("page-closed");
+      return;
+    }
     state.dseSession = saved;
   }
 
@@ -1966,6 +1986,22 @@
     } catch {
       // Completion remains visible for the current page if storage is unavailable.
     }
+  }
+
+  function abandonDseSession(reason = "left-practice") {
+    const session = state.dseSession;
+    if (!session || session.completedAt) return false;
+    const finishedAt = new Date().toISOString();
+    session.abandoned = true;
+    session.abandonReason = String(reason || "left-practice");
+    session.abandonedAt = finishedAt;
+    session.completedAt = finishedAt;
+    session.phase = "abandoned";
+    saveDseHistory(session);
+    state.dseSession = null;
+    state.dseVoiceAutoKey = "";
+    persistDseSession();
+    return true;
   }
 
   function clearDsePrepTimer() {
@@ -1998,7 +2034,7 @@
           <button class="choice-card exam-practice-choice dse-practice-choice" type="button" data-open-dse-modes>
             <span class="card-number">DSE SPEAKING · EXAM MODE</span>
             <strong>考試練習模式</strong>
-            <small>${state.dseSession && !state.dseSession.completedAt ? `繼續已鎖定的 ${escapeHtml(state.dseSession.set?.year)} ${escapeHtml(state.dseSession.set?.set)} 題組` : "隨機鎖定同一題組，完成準備、討論及個人發言流程"}</small>
+            <small>每次開始均隨機抽取一套題目，完成準備、討論及個人發言流程</small>
           </button>
         </div>
       </section>`;
@@ -2007,6 +2043,14 @@
   function dseQuestionList(questions, ordered = false, translations = []) {
     const tag = ordered ? "ol" : "ul";
     return `<${tag} class="dse-question-list">${questions.map((question, index) => `<li><span lang="en">${escapeHtml(question)}</span>${translations[index] ? `<small lang="zh-Hant">${escapeHtml(translations[index])}</small>` : ""}</li>`).join("")}</${tag}>`;
+  }
+
+  function dseTranslationFor(set) {
+    const key = typeof DSE_MODE.sourceKey === "function"
+      ? DSE_MODE.sourceKey(set)
+      : `${Number(set?.year || 0)}:${String(set?.set || "")}`;
+    const translation = DSE_TRANSLATIONS[key];
+    return translation && typeof translation === "object" ? translation : {};
   }
 
   function dseSourceCard(set, open = false) {
@@ -2040,7 +2084,8 @@
                 <summary><span>${year}</span><small>${sets.length ? `${sets.length} 套題目` : "暫未提供題目"}</small></summary>
                 ${sets.length ? `<div class="dse-set-list">${sets.map(set => {
                   const questions = part === "individual" ? set.individualResponse : set.groupDiscussion;
-                  const translations = part === "individual" ? set.individualResponseZh : set.groupDiscussionZh;
+                  const translatedSet = dseTranslationFor(set);
+                  const translations = part === "individual" ? translatedSet.individualResponse : translatedSet.groupDiscussion;
                   return `<details class="dse-set-card"><summary><span>${escapeHtml(set.set)}</span><strong>${escapeHtml(set.title)}</strong><small>${questions.length} 題</small></summary>${dseSourceCard(set)}${dseQuestionList(questions, true, translations)}</details>`;
                 }).join("")}</div>` : '<p class="dse-empty-year">這個年份的題目尚未加入。</p>'}
               </details>`;
@@ -2051,14 +2096,12 @@
 
   function renderDseModes() {
     hydrateDseSession();
-    const active = state.dseSession && !state.dseSession.completedAt ? state.dseSession : null;
     const modes = Array.isArray(DSE_MODE.modes) ? DSE_MODE.modes : [];
     dom.content.innerHTML = `
       <section class="content-panel exam-mode-panel dse-panel">
         ${sectionHeader("DSE 考試練習模式", "隨機抽取並鎖定同一套歷屆題目。DSE 模式不設考官自然交流。", "3 種模式")}
-        ${active ? `<aside class="dse-locked-attempt"><span>已鎖定題組</span><strong>${escapeHtml(active.set.year)} · ${escapeHtml(active.set.set)} — ${escapeHtml(active.set.title)}</strong><button class="primary-button" type="button" data-resume-dse>繼續練習</button></aside>` : ""}
         <div class="exam-mode-grid dse-mode-grid">
-          ${modes.map((mode, index) => `<button class="exam-mode-card" type="button" data-dse-mode="${escapeHtml(mode.id)}" ${active ? 'aria-disabled="true"' : ""}>
+          ${modes.map((mode, index) => `<button class="exam-mode-card" type="button" data-dse-mode="${escapeHtml(mode.id)}">
             <span>${pad(index + 1)} · DSE PRACTICE</span>
             <strong>${escapeHtml(mode.label)}<br><span lang="zh-Hant">${escapeHtml(mode.labelZh)}</span></strong>
             <small>${mode.parts.includes("group") ? "10 分鐘準備時間 · 3 個討論重點" : ""}${mode.parts.length > 1 ? " · " : ""}${mode.parts.includes("individual") ? "同一題組 8–10 條問題" : ""}</small>
@@ -2069,13 +2112,11 @@
 
   function startDsePractice(modeId) {
     hydrateDseSession();
-    if (state.dseSession && !state.dseSession.completedAt) {
-      navigate({ view: "dse-practice", exam: "dse", modeId: state.dseSession.modeId });
-      return;
-    }
+    if (state.dseSession && !state.dseSession.completedAt) abandonDseSession("restarted");
     try {
       const history = readDseStore(DSE_HISTORY_KEY)[dseStorageOwner()] || [];
       state.dseSession = DSE_MODE.createSession(modeId, DSE_DATA.sets, { excludedKey: history[0]?.sourceKey || "" });
+      state.dseVoiceAutoKey = "";
       persistDseSession();
       navigate({ view: "dse-practice", exam: "dse", modeId });
     } catch (error) {
@@ -2089,16 +2130,134 @@
   }
 
   function dseGroupCard(session, preparation = false) {
-    return `<section class="dse-practice-card"><span class="cue-label">PART A · GROUP DISCUSSION · 小組討論</span><h2>${preparation ? "準備以下 3 個討論重點" : "開始小組討論"}</h2>${dseQuestionList(session.set.groupDiscussion, true, session.set.groupDiscussionZh)}</section>`;
+    const translations = dseTranslationFor(session.set).groupDiscussion;
+    return `<section class="dse-practice-card${preparation ? "" : " is-entering"}"><span class="cue-label">PART A · GROUP DISCUSSION · 小組討論</span><h2>${preparation ? "準備以下 3 個討論重點" : "開始小組討論"}</h2>${dseQuestionList(session.set.groupDiscussion, true, translations)}${preparation ? "" : '<button class="dse-voice-button" type="button" data-dse-play-question-voice aria-pressed="false">▶ 聆聽英式考官讀題</button>'}</section>`;
   }
 
   function dseIndividualCard(session) {
     const questions = Array.isArray(session.set.individualResponse) ? session.set.individualResponse : [];
     const index = Math.min(Math.max(0, Number(session.individualIndex || 0)), Math.max(0, questions.length - 1));
     const question = questions[index] || "";
-    const translation = session.set.individualResponseZh?.[index] || "";
+    const translation = dseTranslationFor(session.set).individualResponse?.[index] || "";
     const progress = questions.length ? Math.round(((index + 1) / questions.length) * 100) : 0;
-    return `<section class="dse-individual-stage"><div class="dse-question-progress"><div><span>PART B · INDIVIDUAL RESPONSE</span><strong>第 ${index + 1} / ${questions.length} 題</strong></div><div class="dse-question-progress-track" aria-hidden="true"><i style="width:${progress}%"></i></div></div><section class="dse-single-question" aria-labelledby="dse-current-question"><span class="cue-label">QUESTION ${index + 1} · 個人發言</span><h2 id="dse-current-question" lang="en">${escapeHtml(question)}</h2>${translation ? `<p lang="zh-Hant">${escapeHtml(translation)}</p>` : ""}</section></section>`;
+    return `<section class="dse-individual-stage"><div class="dse-question-progress"><div><span>PART B · INDIVIDUAL RESPONSE</span><strong>第 ${index + 1} / ${questions.length} 題</strong></div><div class="dse-question-progress-track" aria-hidden="true"><i style="width:${progress}%"></i></div></div><section class="dse-single-question is-entering" aria-labelledby="dse-current-question"><span class="cue-label">QUESTION ${index + 1} · 個人發言</span><h2 id="dse-current-question" lang="en">${escapeHtml(question)}</h2>${translation ? `<p lang="zh-Hant">${escapeHtml(translation)}</p>` : ""}<button class="dse-voice-button" type="button" data-dse-play-question-voice aria-pressed="false">▶ 聆聽英式考官讀題</button></section></section>`;
+  }
+
+  function dseVoiceText(session = state.dseSession) {
+    if (!session) return "";
+    if (session.phase === "group") {
+      const points = Array.isArray(session.set?.groupDiscussion) ? session.set.groupDiscussion : [];
+      const labels = ["First", "Second", "Third"];
+      return points.map((point, index) => `${labels[index] || `Point ${index + 1}`}: ${String(point || "").trim()}.`).join(" ");
+    }
+    if (session.phase === "individual") {
+      return String(session.set?.individualResponse?.[Number(session.individualIndex || 0)] || "").trim();
+    }
+    return "";
+  }
+
+  function dseVoiceKey(session = state.dseSession) {
+    if (!session) return "";
+    return `${session.id}:${session.phase}:${session.phase === "individual" ? Number(session.individualIndex || 0) : 0}`;
+  }
+
+  function syncDseVoiceButtons(playing = false) {
+    document.querySelectorAll("[data-dse-play-question-voice]").forEach(button => {
+      button.classList.toggle("is-playing", playing);
+      button.setAttribute("aria-pressed", String(playing));
+      button.textContent = playing ? "■ 停止考官語音" : "▶ 聆聽英式考官讀題";
+    });
+  }
+
+  function cancelDseVoice() {
+    state.dseVoiceGeneration += 1;
+    state.dseVoiceAbortController?.abort();
+    state.dseVoiceAbortController = null;
+    if (state.dseVoiceAudio) {
+      state.dseVoiceAudio.onended = null;
+      state.dseVoiceAudio.onerror = null;
+      try { state.dseVoiceAudio.pause(); } catch { /* Audio may already be stopped. */ }
+    }
+    state.dseVoiceAudio = null;
+    if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+    syncDseVoiceButtons(false);
+  }
+
+  function fallbackDseVoice(text, automatic = false) {
+    if (automatic || !("speechSynthesis" in window)) return false;
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "en-GB";
+    utterance.rate = 0.96;
+    utterance.pitch = 0.9;
+    const masculine = /(?:Daniel|Arthur|Oliver|Thomas|George|James|Ryan|Male)/i;
+    const voices = window.speechSynthesis.getVoices();
+    utterance.voice = voices.find(voice => /^en-GB/i.test(voice.lang) && masculine.test(voice.name))
+      || voices.find(voice => /^en-GB/i.test(voice.lang))
+      || null;
+    utterance.onend = utterance.onerror = () => syncDseVoiceButtons(false);
+    syncDseVoiceButtons(true);
+    window.speechSynthesis.speak(utterance);
+    toast("雲端英式考官語音暫時未能使用，現正使用裝置上的英式英語聲線。", "info");
+    return true;
+  }
+
+  async function playDseVoice(options = {}) {
+    const automatic = options.automatic === true;
+    const text = dseVoiceText();
+    const key = dseVoiceKey();
+    if (!text || !key) return;
+    if (!automatic && state.dseVoiceAudio && !state.dseVoiceAudio.paused) {
+      cancelDseVoice();
+      return;
+    }
+    cancelDseVoice();
+    const generation = state.dseVoiceGeneration;
+    const controller = new AbortController();
+    state.dseVoiceAbortController = controller;
+    try {
+      let url = state.dseVoiceUrls.get(text);
+      if (!url) {
+        const response = await apiRaw("/v1/dse-exam-voice", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ text }),
+          signal: controller.signal
+        });
+        const blob = await response.blob();
+        if (!blob.size || !/^audio\//i.test(blob.type)) throw new Error("DSE examiner voice returned invalid audio");
+        url = URL.createObjectURL(blob);
+        state.dseVoiceUrls.set(text, url);
+      }
+      if (controller.signal.aborted || generation !== state.dseVoiceGeneration || key !== dseVoiceKey()) return;
+      const audio = new Audio(url);
+      state.dseVoiceAudio = audio;
+      audio.onended = audio.onerror = () => {
+        if (state.dseVoiceAudio === audio) state.dseVoiceAudio = null;
+        syncDseVoiceButtons(false);
+      };
+      syncDseVoiceButtons(true);
+      await audio.play();
+    } catch (error) {
+      if (controller.signal.aborted) return;
+      console.warn("DSE examiner voice failed:", error);
+      syncDseVoiceButtons(false);
+      if (fallbackDseVoice(text, automatic)) return;
+      if (!automatic && !state.dseVoiceErrorShown) {
+        state.dseVoiceErrorShown = true;
+        toast("英式考官語音暫時未能播放；題目仍可照常作答。", "error");
+      }
+    } finally {
+      if (state.dseVoiceAbortController === controller) state.dseVoiceAbortController = null;
+    }
+  }
+
+  function autoPlayDseVoice(session) {
+    const key = dseVoiceKey(session);
+    if (!key || state.dseVoiceAutoKey === key) return;
+    state.dseVoiceAutoKey = key;
+    window.requestAnimationFrame(() => {
+      if (state.route.view === "dse-practice" && key === dseVoiceKey()) playDseVoice({ automatic: true });
+    });
   }
 
   function prepareDseRecorder() {
@@ -2130,6 +2289,7 @@
       prepareDseRecorder();
       dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}${dseSourceCard(session.set, true)}${dseGroupCard(session)}${renderRecorderCard()}<button class="primary-button dse-stage-action" type="button" data-dse-complete-group>${mode?.parts.includes("individual") ? "完成小組討論，進入個人發言 →" : "完成小組討論 →"}</button></article>`;
       finishDseRecorderRender();
+      autoPlayDseVoice(session);
       return;
     }
     if (session.phase === "individual") {
@@ -2138,6 +2298,7 @@
       const finalQuestion = index >= session.set.individualResponse.length - 1;
       dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}${dseSourceCard(session.set, true)}${dseIndividualCard(session)}${renderRecorderCard()}<button class="primary-button dse-stage-action" type="button" data-dse-next-individual>${finalQuestion ? "完成個人發言 →" : "下一題 →"}</button></article>`;
       finishDseRecorderRender();
+      autoPlayDseVoice(session);
       return;
     }
     if (session.phase === "rating") {
@@ -2182,6 +2343,7 @@
       return;
     }
     const mode = DSE_MODE.modeForId?.(session.modeId);
+    cancelDseVoice();
     clearPageRecordingHistory();
     session.individualIndex = 0;
     session.phase = mode?.parts.includes("individual") ? "individual" : "rating";
@@ -2200,6 +2362,7 @@
       toast("請先儲存或捨棄目前的 MP3，再前往下一題。", "info");
       return;
     }
+    cancelDseVoice();
     clearPageRecordingHistory();
     const finalIndex = Math.max(0, session.set.individualResponse.length - 1);
     if (Number(session.individualIndex || 0) < finalIndex) session.individualIndex = Number(session.individualIndex || 0) + 1;
@@ -7198,6 +7361,11 @@
         return;
       }
 
+      if (event.target.closest("[data-dse-play-question-voice]")) {
+        playDseVoice();
+        return;
+      }
+
       if (event.target.closest("[data-dse-next-individual]")) {
         completeDseIndividual();
         return;
@@ -7615,11 +7783,13 @@
     });
 
     window.addEventListener("pagehide", () => {
+      if (state.dseSession && !state.dseSession.completedAt) abandonDseSession("page-closed");
       stopModelAudio();
       clearExamPhaseTimer();
       clearExamElapsedTimer();
       clearDsePrepTimer();
       cancelExamSpeech();
+      cancelDseVoice();
       cleanupPart1Reveal();
       cleanupFloatingRecorder();
       cancelRecorder();

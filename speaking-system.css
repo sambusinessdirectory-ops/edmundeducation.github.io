@@ -196,7 +196,14 @@
 }
 
 .dse-practice-card {
+  --part1-pop-offset: 68px;
   padding: clamp(24px, 4vw, 42px);
+}
+
+.dse-practice-card.is-entering,
+.dse-single-question.is-entering {
+  transform-origin: right center;
+  animation: part1-pop-from-right .9s cubic-bezier(.16, .74, .2, 1) both;
 }
 
 .dse-practice-card h2 {
@@ -291,6 +298,7 @@
 }
 
 .dse-single-question {
+  --part1-pop-offset: 68px;
   padding: clamp(28px, 5vw, 56px);
   border-radius: 34px;
   color: #fff;
@@ -311,6 +319,43 @@
   font-size: clamp(17px, 2vw, 23px);
   font-weight: 800;
   line-height: 1.6;
+}
+
+.dse-voice-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  margin-top: 24px;
+  border: 1px solid rgba(255, 255, 255, .45);
+  border-radius: 999px;
+  padding: 11px 18px;
+  color: #fff;
+  background: rgba(255, 255, 255, .12);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: transform .16s ease, background .16s ease;
+}
+
+.dse-practice-card .dse-voice-button {
+  border-color: rgba(16, 83, 112, .28);
+  color: #0e566c;
+  background: rgba(225, 245, 249, .8);
+}
+
+.dse-voice-button:hover,
+.dse-voice-button:focus-visible,
+.dse-voice-button.is-playing {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, .24);
+}
+
+.dse-practice-card .dse-voice-button:hover,
+.dse-practice-card .dse-voice-button:focus-visible,
+.dse-practice-card .dse-voice-button.is-playing {
+  background: rgba(194, 235, 241, .96);
 }
 
 @media (max-width: 720px) {
@@ -1760,7 +1805,9 @@
 
 @media (prefers-reduced-motion: reduce) {
   .exam-question-card.is-entering,
-  .examiner-message.is-entering {
+  .examiner-message.is-entering,
+  .dse-practice-card.is-entering,
+  .dse-single-question.is-entering {
     animation: none;
   }
 }
