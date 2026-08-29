@@ -22,8 +22,9 @@ import numpy as np
 import soundfile as sf
 
 
-RELEASE = "v1-catalogue-20260828-1"
+RELEASE = "v1-catalogue-20260829-pause065-1"
 MANIFEST = "reading-comprehension-audio-manifest.js"
+PRESERVED_ARTICLES = frozenset({"p1-069-albert-einstein"})
 MODEL_SHA256 = "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5"
 VOICES_SHA256 = "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
 WORD_PATTERN = re.compile(r"[^\W_]+(?:[\u2019'][^\W_]+)*(?:-[^\W_]+)*", re.UNICODE)
@@ -272,11 +273,12 @@ def checkpoint(payload: dict, output: Path, recipe_hash: str) -> dict | None:
 
 def build_manifest(root: Path, output: Path, articles: list[dict], recipe_hash: str, require_complete: bool) -> dict:
     baseline, baseline_meta = load_manifest(root / MANIFEST)
-    entries, missing = dict(baseline), []
+    preserved = {article_id: entry for article_id, entry in baseline.items() if article_id in PRESERVED_ARTICLES}
+    entries, missing = dict(preserved), []
     for payload in articles:
         article_id = payload["id"]
-        if article_id in baseline:
-            validate_entry(payload, expanded_entry(root, article_id, baseline[article_id]))
+        if article_id in preserved:
+            validate_entry(payload, expanded_entry(root, article_id, preserved[article_id]))
             continue
         record = checkpoint(payload, output, recipe_hash)
         if record:
@@ -336,13 +338,14 @@ def main() -> int:
     recipe_hash = hashlib.sha256(json.dumps(recipe, sort_keys=True).encode()).hexdigest()
     articles = load_catalogue(root)
     baseline, _ = load_manifest(root / MANIFEST)
+    preserved = {article_id: entry for article_id, entry in baseline.items() if article_id in PRESERVED_ARTICLES}
     unknown = set(args.article) - {row["id"] for row in articles}
     if unknown:
         raise ValueError(f"Unknown articles: {sorted(unknown)}")
     pending = []
     for payload in articles:
-        if payload["id"] in baseline:
-            validate_entry(payload, expanded_entry(root, payload["id"], baseline[payload["id"]]))
+        if payload["id"] in preserved:
+            validate_entry(payload, expanded_entry(root, payload["id"], preserved[payload["id"]]))
         elif (not args.article or payload["id"] in args.article) and not checkpoint(payload, output, recipe_hash):
             pending.append(payload)
     atomic_json(output / "recipe.json", {**recipe, "recipeSha256": recipe_hash})
@@ -352,11 +355,11 @@ def main() -> int:
     for path, expected in ((args.model, MODEL_SHA256), (args.voices, VOICES_SHA256)):
         if file_hash(path) != expected:
             raise ValueError(f"Voice model checksum mismatch: {path}")
-    print(f"{len(articles)} articles; {len(baseline)} existing recordings preserved; {len(pending)} queued; {args.workers} workers", flush=True)
+    print(f"{len(articles)} articles; {len(preserved)} reference recording preserved; {len(pending)} queued; {args.workers} workers", flush=True)
     failures, started, finished = {}, time.monotonic(), 0
     def progress(status: str) -> None:
         atomic_json(output / "build-progress.json", {
-            "status": status, "catalogueCount": len(articles), "preservedCount": len(baseline),
+            "status": status, "catalogueCount": len(articles), "preservedCount": len(preserved),
             "queued": len(pending), "completedThisRun": finished, "failures": failures,
             "elapsedSeconds": round(time.monotonic() - started), "updatedAt": time.time(), "pid": os.getpid(),
         })

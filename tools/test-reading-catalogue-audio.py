@@ -147,7 +147,7 @@ class ReadingAudioTests(unittest.TestCase):
         generator = batch.load_generator(ROOT)
         recipe = batch.voice_recipe(generator, generator.load_writing_audio_helpers(ROOT))
         self.assertEqual((recipe["voice"], recipe["language"], recipe["speed"]), ("bf_isabella", "en-gb", 1.05))
-        self.assertEqual((recipe["sentencePause"], recipe["paragraphPause"]), (0.42, 0.76))
+        self.assertEqual((recipe["sentencePause"], recipe["paragraphPause"]), (0.65, 0.76))
 
     def test_matching_words_and_monotonic_timestamps(self):
         batch.validate_entry(self.payload, self.entry)
@@ -199,18 +199,30 @@ class ReadingAudioTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "still missing"):
                 batch.build_manifest(source, output, [self.payload], "correct", True)
 
-    def test_published_entries_are_preserved(self):
+    def test_only_reference_recording_is_preserved(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             source, output = root / "source", root / "output"
             source.mkdir()
             output.mkdir()
-            original = {self.payload["id"]: self.entry, "older-article": {"src": "/old.mp3"}}
+            payload = {**self.payload, "id": "p1-069-albert-einstein"}
+            reference = {**self.entry, "sourceSha256": batch.source_hash(payload)}
+            original = {payload["id"]: reference, "older-article": {"src": "/old.mp3"}}
             (source / batch.MANIFEST).write_text("window.EDMUND_READING_AUDIO = Object.freeze(" + json.dumps(original) + ");\nwindow.EDMUND_READING_AUDIO_META = Object.freeze({});\n")
-            batch.build_manifest(source, output, [self.payload], "correct", True)
+            batch.build_manifest(source, output, [payload], "correct", True)
             entries, meta = batch.load_manifest(output / batch.MANIFEST)
-            self.assertEqual(entries, original)
+            self.assertEqual(entries, {payload["id"]: reference})
             self.assertTrue(meta["complete"])
+
+    def test_non_reference_recording_requires_new_recipe_checkpoint(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source, output = root / "source", root / "output"
+            source.mkdir()
+            output.mkdir()
+            (source / batch.MANIFEST).write_text("window.EDMUND_READING_AUDIO = Object.freeze(" + json.dumps({self.payload["id"]: self.entry}) + ");\nwindow.EDMUND_READING_AUDIO_META = Object.freeze({});\n")
+            result = batch.build_manifest(source, output, [self.payload], "new-recipe", False)
+            self.assertEqual(result, {"count": 0, "missingCount": 1, "complete": False})
 
     def test_lazy_published_entries_can_resume_without_mutation(self):
         with tempfile.TemporaryDirectory() as directory:

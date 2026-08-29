@@ -71,6 +71,9 @@ assert.equal(validateReadingAudioTimings(timing, item, { ...article, paragraphs:
 
 // Exercise the actual asynchronous loader, including navigation while its fetch is pending.
 const readingSource = read('reading-comprehension.js');
+const syncWordSource = readingSource.slice(readingSource.indexOf('function syncWord('), readingSource.indexOf('function scanStorageKey('));
+assert.ok(syncWordSource.includes('classList.add("is-active")'), 'Synchronized highlighting must remain active');
+assert.ok(!syncWordSource.includes('scrollIntoView'), 'Synchronized highlighting must never force page scrolling');
 const loaderSource = readingSource.slice(readingSource.indexOf('async function loadAudioTimings('), readingSource.indexOf('function setupAudio()'));
 let finishFetch;
 const cache = new Map();

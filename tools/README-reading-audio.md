@@ -1,7 +1,7 @@
 # Reading Passage Narration
 
 The catalogue uses the original Albert Einstein recording as its voice reference:
-Kokoro `bf_isabella`, `en-gb`, speed `1.05`, sentence pause `0.42s`, paragraph
+Kokoro `bf_isabella`, `en-gb`, speed `1.05`, sentence pause `0.65s`, paragraph
 pause `0.76s`. Do not regenerate or replace that recording.
 
 ## Generate
@@ -24,6 +24,10 @@ command resumes completed articles and sentence checkpoints. A process lock
 prevents two producers sharing the same output directory. Keep the computer
 awake and connected to power for the long batch. Generation does not require
 the browser to stay open.
+
+The original Einstein reference recording remains unchanged. A recipe release
+rebuilds every other catalogue article so the new pause duration is present in
+the MP3 itself; already-published generated recordings are not reused.
 
 Only published catalogue articles are included. Held articles remain blocked.
 Narration includes the English passage paragraphs, not questions or translations.

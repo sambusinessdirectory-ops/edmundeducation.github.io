@@ -452,7 +452,7 @@ function setupAudio() {
   el.audio.addEventListener("ended", () => { state.audioStopAt = null; $$('.spoken-word.is-active').forEach((node) => node.classList.remove("is-active")); });
 }
 function updateAudioDisplay() { el.audioTime.textContent = `${formatClock(el.audio.currentTime * 1000)} / ${formatClock((el.audio.duration || 0) * 1000)}`; }
-function syncWord(item) { if (!el.sync.checked) return; const words = item.words || []; const time = el.audio.currentTime; const index = words.findIndex((word) => time >= Number(word.start) && time < Number(word.end)); if (index < 0) return; const current = $('.spoken-word.is-active'); const target = $(`[data-word-index="${index}"]`); if (current !== target) { current?.classList.remove("is-active"); target?.classList.add("is-active"); target?.scrollIntoView({ block: "center", behavior: "smooth" }); } }
+function syncWord(item) { if (!el.sync.checked) return; const words = item.words || []; const time = el.audio.currentTime; const index = words.findIndex((word) => time >= Number(word.start) && time < Number(word.end)); if (index < 0) return; const current = $('.spoken-word.is-active'); const target = $(`[data-word-index="${index}"]`); if (current !== target) { current?.classList.remove("is-active"); target?.classList.add("is-active"); } }
 
 function scanStorageKey() { return `edmund-reading-scan-v1:${state.user?.id || "student"}:${ARTICLE_ID}`; }
 function loadScanAssignments() { try { state.scanAssignments = JSON.parse(localStorage.getItem(scanStorageKey()) || "{}") || {}; } catch { state.scanAssignments = {}; } }
