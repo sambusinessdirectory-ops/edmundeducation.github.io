@@ -25,7 +25,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="ielts-reading-analysis.css?v=20260829-question-types1">
+  <link rel="stylesheet" href="ielts-reading-analysis.css?v=20260829-finder-moved1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
 </head>
 
@@ -41,7 +41,6 @@
         <a href="exam-resources.html">離開</a>
         <button type="button" data-action="previous">上一頁</button>
         <a href="index.html">主頁</a>
-        <button type="button" data-action="question-types">By Question Type</button>
         <button type="button" data-action="catalogue">文章目錄</button>
       </nav>
     </div>
@@ -62,35 +61,6 @@
       </div>
 
       <div class="passage-picker" data-passage-picker aria-label="選擇 Passage"></div>
-    </section>
-
-    <section class="view view-question-types" data-view="question-types" aria-labelledby="question-types-title" hidden>
-      <div class="catalogue-heading question-types-heading">
-        <div>
-          <p class="section-eyebrow">IELTS READING · QUESTION TYPE FINDER</p>
-          <h1 id="question-types-title">By Question Type</h1>
-          <p>輸入英文或中文題型名稱，尋找含有該題型的閱讀練習。</p>
-        </div>
-        <button class="question-types-back" type="button" data-action="question-types-home">查看 Passage 目錄</button>
-      </div>
-
-      <div class="search-panel question-type-search-panel">
-        <label for="question-type-search">搜尋題型（英文或中文）</label>
-        <div class="search-field">
-          <span aria-hidden="true">⌕</span>
-          <input id="question-type-search" type="search" autocomplete="off" placeholder="例如：Matching Headings、段落標題、判斷事實…" data-question-type-search>
-          <button type="button" data-action="clear-question-type-search">清除</button>
-        </div>
-        <p class="result-count" role="status" aria-live="polite" data-question-type-result-count></p>
-      </div>
-
-      <div class="question-type-chips" data-question-type-chips aria-label="14 種 IELTS Reading 題型"></div>
-      <div class="question-type-selection" data-question-type-selection hidden></div>
-      <div class="question-type-results" data-question-type-results></div>
-      <div class="empty-state question-type-empty" data-question-type-empty hidden>
-        <strong>找不到相符題型</strong>
-        <p>請嘗試英文題型、中文名稱或較短的關鍵字。</p>
-      </div>
     </section>
 
     <section class="view view-catalogue" data-view="catalogue" aria-labelledby="catalogue-title" hidden>
@@ -186,9 +156,8 @@
   <script src="ielts-reading-analysis-index.js?v=20260808-5"></script>
   <script src="ielts-reading-analysis-availability.js?v=20260822-1"></script>
   <script src="ielts-reading-analysis-content.js?v=20260808-5"></script>
-  <script src="ielts-reading-question-types.js?v=20260829-2"></script>
   <script src="supabase-config.js"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
-  <script type="module" src="ielts-reading-analysis.js?v=20260829-question-types1"></script>
+  <script type="module" src="ielts-reading-analysis.js?v=20260829-finder-moved1"></script>
 </body>
 </html>

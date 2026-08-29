@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
-  <link rel="stylesheet" href="reading-comprehension.css?v=20260829-types1">
+  <link rel="stylesheet" href="reading-comprehension.css?v=20260829-readingportal3">
 </head>
 <body>
   <a class="skip-link" href="#reading-main">跳至主要內容</a>
@@ -67,9 +67,44 @@
       </div>
     </section>
 
+    <section class="view reading-home-view" data-view="reading-home" hidden>
+      <section class="reading-home-hero panel" aria-labelledby="reading-home-title">
+        <p class="eyebrow">CHOOSE YOUR READING SYSTEM</p>
+        <h1 id="reading-home-title">選擇閱讀理解系統</h1>
+        <p>請選擇 DSE 或 IELTS 閱讀理解。之後亦可隨時返回這個頁面切換系統。</p>
+      </section>
+      <div class="reading-system-choice-grid" role="group" aria-label="閱讀理解系統選擇">
+        <button class="reading-system-card panel is-dse" type="button" data-enter-dse>
+          <span class="reading-system-card-kicker">DSE READING COMPREHENSION</span>
+          <strong>DSE 閱讀理解</strong>
+          <span>香港中學文憑考試閱讀練習</span>
+          <small>內容即將加入</small>
+          <b aria-hidden="true">進入查看 →</b>
+        </button>
+        <button class="reading-system-card panel is-ielts" type="button" data-enter-ielts>
+          <span class="reading-system-card-kicker">IELTS READING COMPREHENSION</span>
+          <strong>IELTS 閱讀理解</strong>
+          <span>Passage 1、2、3 · 437 篇完整練習</span>
+          <small>可按 Passage、文章或題型搜尋</small>
+          <b aria-hidden="true">開始練習 →</b>
+        </button>
+      </div>
+    </section>
+
+    <section class="view dse-placeholder-view" data-view="dse-placeholder" hidden>
+      <section class="dse-placeholder panel" aria-labelledby="dse-placeholder-title">
+        <button class="text-button" type="button" data-back-reading-home>← 返回選擇閱讀系統</button>
+        <p class="eyebrow">DSE READING COMPREHENSION</p>
+        <div class="dse-placeholder-mark" aria-hidden="true">DSE</div>
+        <h1 id="dse-placeholder-title">DSE 閱讀理解</h1>
+        <p>這個專區已建立，練習內容尚未加入。現時可返回選擇 IELTS 閱讀理解。</p>
+        <button class="primary-button" type="button" data-dse-enter-ielts>前往 IELTS 閱讀理解</button>
+      </section>
+    </section>
+
     <section class="view" data-view="dashboard" hidden>
       <section class="dashboard-hero panel">
-        <div><p class="eyebrow">READING COMPREHENSION</p><h1>閱讀理解學習系統</h1><p data-welcome>選擇一篇文章開始練習。</p></div>
+        <div><button class="text-button dashboard-system-back" type="button" data-back-reading-home>← 選擇 DSE / IELTS</button><p class="eyebrow">IELTS READING COMPREHENSION</p><h1>IELTS 閱讀理解</h1><p data-welcome>選擇一篇文章開始練習。</p></div>
         <div class="dashboard-count"><strong data-catalogue-count>437</strong><span>篇閱讀練習</span></div>
       </section>
       <button class="progress-disclosure panel" type="button" data-progress-toggle aria-expanded="false" aria-controls="reading-progress-panel">
@@ -79,11 +114,11 @@
         <article><p class="eyebrow">QUESTIONS BY DATE</p><h2>每日完成題目</h2><div class="chart" data-question-chart><p class="empty-state">完成練習後，圖表會在這裡顯示。</p></div><p class="chart-total">累計：<strong data-question-total>0</strong> 題</p></article>
         <article><p class="eyebrow">TIME BY DATE</p><h2>每日練習時間</h2><div class="chart" data-time-chart><p class="empty-state">開始練習後，時間會在這裡顯示。</p></div><p class="chart-total">累計：<strong data-time-total>0 分 00 秒</strong></p></article>
       </section>
-      <a class="question-type-directory panel" href="ielts-reading-analysis.html?view=question-types" aria-label="By Question Type 按題型練習：搜尋 437 篇 IELTS Reading 練習">
+      <button class="question-type-directory panel" type="button" data-open-question-types aria-label="By Question Type 按題型練習：搜尋 437 篇 IELTS Reading 練習">
         <span class="question-type-directory-icon" aria-hidden="true">14</span>
         <span class="question-type-directory-copy"><small>IELTS READING · PRACTICE FINDER</small><strong>By Question Type <span>按題型練習</span></strong><span>用英文或中文題型名稱搜尋 437 篇練習，再直接開始作答。</span></span>
         <span class="question-type-directory-action" aria-hidden="true">搜尋題型 →</span>
-      </a>
+      </button>
       <nav class="passage-tabs panel" aria-label="選擇 IELTS Reading Passage" role="tablist">
         <button type="button" role="tab" aria-selected="true" data-passage-tab="1">Passage 1</button>
         <button type="button" role="tab" aria-selected="false" data-passage-tab="2">Passage 2</button>
@@ -123,6 +158,35 @@
       </div>
       <nav class="catalogue-pagination" aria-label="文章目錄分頁"><button class="secondary-button" type="button" data-catalogue-previous>← 上一頁</button><span data-catalogue-page></span><button class="secondary-button" type="button" data-catalogue-next>下一頁 →</button></nav>
       <section class="history panel"><div class="section-heading"><div><p class="eyebrow">ATTEMPT RECORD</p><h2>練習記錄</h2></div><button class="secondary-button" type="button" data-refresh-dashboard>重新整理</button></div><div data-history-list><p class="empty-state">尚未有練習記錄。</p></div></section>
+    </section>
+
+    <section class="view question-types-view" data-view="question-types" aria-labelledby="question-types-title" hidden>
+      <section class="question-types-hero panel">
+        <div>
+          <p class="eyebrow">IELTS READING · QUESTION TYPE FINDER</p>
+          <h1 id="question-types-title">By Question Type<br><span>按題型練習</span></h1>
+          <p>輸入英文或中文題型名稱，尋找含有該題型的完整閱讀練習。</p>
+        </div>
+        <button class="secondary-button" type="button" data-question-types-back>← 返回 IELTS 閱讀目錄</button>
+      </section>
+
+      <section class="question-type-search-panel panel" aria-label="搜尋 IELTS Reading 題型">
+        <label for="question-type-search">搜尋題型（英文或中文）</label>
+        <div class="question-type-search-field">
+          <span aria-hidden="true">⌕</span>
+          <input id="question-type-search" type="search" autocomplete="off" placeholder="例如：Matching Headings、段落標題、判斷事實…" data-question-type-search>
+          <button type="button" data-clear-question-type-search>清除</button>
+        </div>
+        <p class="question-type-result-count" role="status" aria-live="polite" data-question-type-result-count></p>
+      </section>
+
+      <div class="question-type-chips" data-question-type-chips aria-label="14 種 IELTS Reading 題型"></div>
+      <div class="question-type-selection panel" data-question-type-selection hidden></div>
+      <div class="question-type-results" data-question-type-results></div>
+      <section class="question-type-empty panel" data-question-type-empty hidden>
+        <strong>找不到相符題型</strong>
+        <p>請嘗試英文題型、中文名稱或較短的關鍵字。</p>
+      </section>
     </section>
 
     <section class="view" data-view="exercise" hidden>
@@ -189,7 +253,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="reading-comprehension-audio-manifest.js?v=20260829-scroll1"></script>
+  <script src="ielts-reading-question-types.js?v=20260829-2"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
-  <script type="module" src="reading-comprehension.js?v=20260829-scroll1"></script>
+  <script type="module" src="reading-comprehension.js?v=20260829-readingportal3"></script>
 </body>
 </html>
