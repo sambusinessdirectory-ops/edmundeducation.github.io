@@ -10,6 +10,7 @@ import { answersEquivalent as workerAnswersEquivalent } from "../workers/shared-
 
 const root = path.resolve(import.meta.dirname, "..");
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
+const sharedSpeakingSource = read("shared-speaking-practice.js");
 
 const portals = [
   {
@@ -194,11 +195,11 @@ test("all six Common Expression portals carry their identity, shared navigation 
       /shared-answer-comparison\.js\?v=20260812-1/,
       /common-expression-system\.js\?v=20260829-speaking1/,
       /shared-speaking-practice\.css\?v=20260829-1/,
-      /shared-speaking-practice\.js\?v=20260829-1/,
-      /lamejs@1\.2\.1\/lame\.min\.js/,
+      /<script defer src=["']shared-speaking-practice\.js\?v=20260829-2["']><\/script>/,
       /shared-system-nav\.css\?v=20260822-night-invitation1/,
       /shared-system-nav\.js\?v=20260822-night-invitation1/
     ]) assert.match(html, contract, `${portal.file}: missing required portal asset or PWA contract`);
+    assert.doesNotMatch(html, /<script[^>]+src=["'][^"']*lamejs/i, `${portal.file}: MP3 encoder must load only after recording is selected`);
 
     const csp = html.match(/http-equiv=["']Content-Security-Policy["'] content="([^"]+)"/i)?.[1] || "";
     assert.match(csp, /default-src 'self'/, `${portal.file}: restrictive default CSP`);
@@ -221,6 +222,14 @@ test("all six Common Expression portals carry their identity, shared navigation 
     assert.ok(importedDataIndex < comparisonIndex, `${portal.file}: imported lessons must load before answer comparison`);
     assert.ok(comparisonIndex < engineIndex, `${portal.file}: answer comparison must load before the module engine`);
   }
+});
+
+test("shared speaking defers MP3 code and avoids whole-page attribute observation", () => {
+  assert.match(sharedSpeakingSource, /function loadMp3Encoder\(\)/);
+  assert.match(sharedSpeakingSource, /document\.head\.append\(script\)/);
+  assert.match(sharedSpeakingSource, /loadMp3Encoder\(\)/);
+  assert.match(sharedSpeakingSource, /observer\.observe\(document\.documentElement, \{ childList: true, subtree: true \}\)/);
+  assert.doesNotMatch(sharedSpeakingSource, /observer\.observe\([^\n]+attributes: true/);
 });
 
 test("the shared catalogue exposes the complete 172-lesson, 5,140-question library", () => {

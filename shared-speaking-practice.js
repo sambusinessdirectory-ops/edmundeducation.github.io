@@ -3,6 +3,8 @@
 
   const CONFIG = window.EDMUND_SPEAKING_CONFIG || {};
   const WORKER = String(CONFIG.workerBaseUrl || "").replace(/\/+$/, "");
+  const MP3_ENCODER_URL = "https://cdn.jsdelivr.net/npm/lamejs@1.2.1/lame.min.js";
+  const MP3_ENCODER_INTEGRITY = "sha384-xuasJXVcyv3hZq0eYpelEkBC8l4yufatZXDsKuyCU2rqfhDCb+ftuE/mSfZAteiK";
   const MAX_SECONDS = Math.min(300, Math.max(30, Number(CONFIG.maxRecordingSeconds || 300)));
   const MAX_UPLOAD_BYTES = Math.min(3 * 1024 * 1024, Math.max(512, Number(CONFIG.maxUploadBytes || 3 * 1024 * 1024)));
   const state = {
@@ -20,8 +22,12 @@
     mp3Url: "",
     durationMs: 0,
     saving: false,
-    toastTimer: 0
+    toastTimer: 0,
+    encoderPromise: null,
+    observedLogout: null
   };
+
+  const logoutObserver = new MutationObserver(syncHeaderVisibility);
 
   function studentToken() {
     const shared = window.EdmundSystemNav?.getStudentSession?.();
@@ -194,6 +200,28 @@
     return choices.find(type => window.MediaRecorder?.isTypeSupported?.(type)) || "";
   }
 
+  function loadMp3Encoder() {
+    if (window.lamejs?.Mp3Encoder) return Promise.resolve();
+    if (state.encoderPromise) return state.encoderPromise;
+    state.encoderPromise = new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = MP3_ENCODER_URL;
+      script.integrity = MP3_ENCODER_INTEGRITY;
+      script.crossOrigin = "anonymous";
+      script.dataset.edmundMp3Encoder = "";
+      script.onload = () => window.lamejs?.Mp3Encoder
+        ? resolve()
+        : reject(new Error("MP3 工具未能載入，請稍後再試。"));
+      script.onerror = () => reject(new Error("MP3 工具未能載入，請檢查連線後再試。"));
+      document.head.append(script);
+    }).catch(error => {
+      state.encoderPromise = null;
+      document.querySelector("script[data-edmund-mp3-encoder]")?.remove();
+      throw error;
+    });
+    return state.encoderPromise;
+  }
+
   async function startRecording(card, button) {
     if (!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) {
       toast("這個瀏覽器未能使用咪高峰錄音。");
@@ -206,11 +234,13 @@
     }
     button.disabled = true;
     try {
-      const quota = await recordingQuota();
+      const quotaPromise = recordingQuota();
+      const encoderPromise = loadMp3Encoder();
       state.stream = await navigator.mediaDevices.getUserMedia({
         audio: { channelCount: 1, echoCancellation: true, noiseSuppression: true, autoGainControl: true },
         video: false
       });
+      const [quota] = await Promise.all([quotaPromise, encoderPromise]);
       state.card = card;
       state.chunks = [];
       state.durationMs = 0;
@@ -404,6 +434,17 @@
     card.dataset.edmundSpeakingReady = "true";
   }
 
+  function syncHeaderVisibility() {
+    const headerLink = document.querySelector("[data-edmund-my-recordings]");
+    const logout = document.querySelector("[data-logout]");
+    if (logout !== state.observedLogout) {
+      logoutObserver.disconnect();
+      state.observedLogout = logout;
+      if (logout) logoutObserver.observe(logout, { attributes: true, attributeFilter: ["hidden"] });
+    }
+    if (headerLink && logout && headerLink.hidden !== logout.hidden) headerLink.hidden = logout.hidden;
+  }
+
   function enhanceAll() {
     document.querySelectorAll(".question-card[data-edmund-prompt-text]").forEach(enhanceCard);
     const header = document.querySelector(".header-actions, .edmund-system-header__actions");
@@ -416,9 +457,7 @@
       const logout = header.querySelector("[data-logout]");
       header.insertBefore(link, logout || null);
     }
-    const headerLink = document.querySelector("[data-edmund-my-recordings]");
-    const logout = document.querySelector("[data-logout]");
-    if (headerLink && logout) headerLink.hidden = logout.hidden;
+    syncHeaderVisibility();
   }
 
   document.addEventListener("click", event => {
@@ -449,7 +488,7 @@
   });
 
   const observer = new MutationObserver(enhanceAll);
-  observer.observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ["hidden"] });
+  observer.observe(document.documentElement, { childList: true, subtree: true });
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", enhanceAll, { once: true });
   else enhanceAll();
 })();
