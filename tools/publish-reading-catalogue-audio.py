@@ -7,9 +7,12 @@ import argparse
 import concurrent.futures
 import importlib.util
 import json
+import shutil
 import subprocess
 import tempfile
+import time
 from pathlib import Path
+from urllib import error, request
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,6 +29,21 @@ def run_wrangler(wrangler: Path, arguments: list[str], root: Path) -> None:
         raise RuntimeError((result.stderr or result.stdout)[-3000:])
 
 
+def download_public(key: str, destination: Path) -> bool:
+    try:
+        public_request = request.Request(
+            f"{CLOUD_BASE}/{key}",
+            headers={"User-Agent": "curl/8.7.1", "Accept": "audio/mpeg,*/*"},
+        )
+        with request.urlopen(public_request, timeout=90) as response, destination.open("wb") as output:
+            shutil.copyfileobj(response, output)
+        return True
+    except error.HTTPError as exc:
+        if exc.code == 404:
+            return False
+        raise
+
+
 def upload_and_verify(record: dict, output: Path, wrangler: Path, root: Path) -> tuple[str, dict]:
     key = record["entry"]["path"]
     path = output / key
@@ -33,20 +51,23 @@ def upload_and_verify(record: dict, output: Path, wrangler: Path, root: Path) ->
         raise ValueError(f"Unexpected narration key: {key}")
     if batch.file_hash(path) != record["audioSha256"]:
         raise ValueError(f"Audio changed after validation: {path}")
-    # Hash-named keys are immutable. Verify an existing object before any put.
+    # Hash-named keys are immutable. The public endpoint is faster and more
+    # reliable for checksum verification than downloading through Wrangler.
     with tempfile.TemporaryDirectory(prefix="reading-r2-") as directory:
         downloaded = Path(directory) / "remote.mp3"
-        result = subprocess.run([str(wrangler), "r2", "object", "get", f"{BUCKET}/{key}", "--file", str(downloaded), "--remote"], cwd=root, text=True, capture_output=True)
-        if result.returncode == 0:
+        exists = download_public(key, downloaded)
+        if exists:
             if batch.file_hash(downloaded) != record["audioSha256"]:
                 raise ValueError(f"Refusing to replace a different immutable R2 object: {key}")
         else:
-            error = result.stderr + result.stdout
-            if not any(marker in error for marker in ("NoSuchKey", "does not exist", "not found", "404", "10007")):
-                raise RuntimeError(f"Unable to check R2 object {key}: {error[-2500:]}")
             run_wrangler(wrangler, ["r2", "object", "put", f"{BUCKET}/{key}", "--file", str(path),
                                    "--content-type", "audio/mpeg", "--cache-control", "public, max-age=31536000, immutable", "--remote"], root)
-            run_wrangler(wrangler, ["r2", "object", "get", f"{BUCKET}/{key}", "--file", str(downloaded), "--remote"], root)
+            for attempt in range(6):
+                if download_public(key, downloaded):
+                    break
+                time.sleep(2 ** attempt)
+            else:
+                raise RuntimeError(f"Uploaded R2 object is not available publicly: {key}")
             if batch.file_hash(downloaded) != record["audioSha256"]:
                 raise ValueError(f"R2 download checksum mismatch: {key}")
     return key, {"bucket": BUCKET, "audioSha256": record["audioSha256"], "bytes": path.stat().st_size, "verified": True}
@@ -54,6 +75,11 @@ def upload_and_verify(record: dict, output: Path, wrangler: Path, root: Path) ->
 
 def publish(root: Path, output: Path, articles: list[dict], records: dict, verified: dict, recipe: dict) -> dict:
     existing, old_meta = batch.load_manifest(root / batch.MANIFEST)
+    old_timing_paths = {
+        str(entry.get("timingsSrc", "")).lstrip("/")
+        for entry in existing.values()
+        if entry.get("timingsSrc")
+    }
     preserved = {article_id: entry for article_id, entry in existing.items() if article_id in batch.PRESERVED_ARTICLES}
     entries = dict(preserved)
     missing = [payload["id"] for payload in articles if payload["id"] not in preserved and payload["id"] not in records]
@@ -85,12 +111,26 @@ def publish(root: Path, output: Path, articles: list[dict], records: dict, verif
     temporary = root / f".{batch.MANIFEST}.tmp"
     temporary.write_text(content, encoding="utf-8")
     temporary.replace(root / batch.MANIFEST)
+    active_timing_paths = {
+        str(entry.get("timingsSrc", "")).lstrip("/")
+        for entry in entries.values()
+        if entry.get("timingsSrc")
+    }
+    timing_directory = (root / "reading-comprehension-audio-data").resolve()
+    removed_timings = 0
+    for timing_path in old_timing_paths - active_timing_paths:
+        candidate = (root / timing_path).resolve()
+        if candidate.parent != timing_directory or candidate.suffix != ".json":
+            raise ValueError(f"Refusing to remove an unexpected timing file: {timing_path}")
+        if candidate.is_file():
+            candidate.unlink()
+            removed_timings += 1
     catalogue_path = root / "reading-comprehension-catalogue.json"
     catalogue = json.loads(catalogue_path.read_text())
     for row in catalogue["articles"]:
         row["audio"] = row["id"] in entries
     catalogue_path.write_text(json.dumps(catalogue, ensure_ascii=False, indent=2) + "\n")
-    return {"articles": len(articles), "recordings": len(entries), "complete": True}
+    return {"articles": len(articles), "recordings": len(entries), "removedTimings": removed_timings, "complete": True}
 
 
 def main() -> int:
