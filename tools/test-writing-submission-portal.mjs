@@ -55,6 +55,10 @@ const topicAccessMigration = fs.readFileSync(
   "utf8"
 );
 const workerSource = fs.readFileSync(path.join(root, "workers/writing-submission/src/index.js"), "utf8");
+const submissionProxy = fs.readFileSync(
+  path.join(root, "supabase/functions/writing-submission-proxy/index.ts"),
+  "utf8"
+);
 const manualTopicsMigration = fs.readFileSync(
   path.join(root, "supabase-writing-submission-manual-topics-20260820.sql"),
   "utf8"
@@ -366,6 +370,26 @@ test("grammar history and article archives follow the deployed API contract", ()
   assert.match(script, /checkGeneration/);
 });
 
+test("submission traffic uses a first-party Supabase relay with a safe failure path", () => {
+  assert.match(
+    config,
+    /submissionProxyUrl:\s*"https:\/\/ookkxzgpdclzrrhfmvqx\.supabase\.co\/functions\/v1\/writing-submission-proxy"/
+  );
+  assert.match(html, /writing-submission-config\.js\?v=20260830-proxy1/);
+  assert.match(html, /writing-submission\.js\?v=20260830-proxy1/);
+  assert.match(submissionProxy, /const UPSTREAM_ORIGIN = "https:\/\/edmund-writing-submission\.edmundeducation\.workers\.dev"/);
+  assert.match(submissionProxy, /const ALLOWED_ORIGINS = new Set/);
+  assert.match(submissionProxy, /request\.method !== "PUT"/);
+  assert.match(submissionProxy, /searchParams\.get\("submissionId"\)/);
+  assert.match(submissionProxy, /UUID_RE\.test\(submissionId\)[\s\S]*UUID_RE\.test\(studentToken\)/);
+  assert.match(submissionProxy, /body\.byteLength > MAX_BODY_BYTES/);
+  assert.doesNotMatch(submissionProxy, /searchParams\.get\(["'](?:url|target|upstream|path)["']\)/i);
+  assert.match(script, /function apiRequestUrl\(path, method = "GET"\)/);
+  assert.match(script, /String\(method \|\| "GET"\)\.toUpperCase\(\) === "PUT"/);
+  assert.match(script, /error\.code = "SUBMISSION_SERVICE_UNREACHABLE"/);
+  assert.match(script, /persistDraft\(\);[\s\S]*?setStatus\(elements\.submissionStatus/);
+});
+
 test("draft upserts use an unambiguous primary-key conflict target", () => {
   assert.match(
     draftsAdminMigration,
@@ -386,7 +410,7 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
   assert.match(html, /writing-submission\.css\?v=20260821-floating-topic2/);
-  assert.match(html, /writing-submission\.js\?v=20260821-floating-topic2/);
+  assert.match(html, /writing-submission\.js\?v=20260830-proxy1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);

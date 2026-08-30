@@ -1513,6 +1513,19 @@ function workerBaseUrl() {
   return value;
 }
 
+function apiRequestUrl(path, method = "GET") {
+  const normalizedPath = `/${String(path || "").replace(/^\/+/, "")}`;
+  const submissionMatch = normalizedPath.match(/^\/v1\/submissions\/([0-9a-f-]{36})$/iu);
+  if (String(method || "GET").toUpperCase() === "PUT" && submissionMatch) {
+    const proxyUrl = String(CONFIG.submissionProxyUrl || "").trim();
+    if (!proxyUrl.startsWith("https://")) throw new Error("交文後備服務尚未完成設定。");
+    const url = new URL(proxyUrl);
+    url.searchParams.set("submissionId", submissionMatch[1].toLowerCase());
+    return url.href;
+  }
+  return `${workerBaseUrl()}${normalizedPath}`;
+}
+
 async function parseApiError(response) {
   let message = `服務回應錯誤（${response.status}）`;
   let code = "";
@@ -1543,14 +1556,15 @@ async function apiJson(path, options = {}, includeAuth = true, authToken = state
   if (options.body && !headers.has("Content-Type")) headers.set("Content-Type", "application/json");
   let response;
   try {
-    response = await fetch(`${workerBaseUrl()}/${String(path || "").replace(/^\/+/, "")}`, {
+    response = await fetch(apiRequestUrl(path, options.method), {
       ...options,
       headers,
       credentials: "omit"
     });
   } catch (cause) {
     if (cause?.name === "AbortError") throw cause;
-    const error = new Error("暫時未能連接交文服務，請檢查網絡後再試。");
+    const error = new Error("暫時未能送出文章；您的內容仍安全保留在此頁，請稍候再按「提交文章」。");
+    error.code = "SUBMISSION_SERVICE_UNREACHABLE";
     error.cause = cause;
     throw error;
   }
@@ -7230,6 +7244,7 @@ async function submitWriting(event) {
     await submitCurrentWriting({ source: "manual" });
   } catch (error) {
     console.warn("Writing submission failed", error);
+    persistDraft();
     setStatus(elements.submissionStatus, error.message || "未能保存文章，請再試一次。", "error");
   }
 }
