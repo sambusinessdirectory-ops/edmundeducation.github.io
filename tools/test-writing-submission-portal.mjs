@@ -383,8 +383,8 @@ test("submission traffic uses a first-party Supabase relay with a safe failure p
     config,
     /submissionProxyUrl:\s*"https:\/\/ookkxzgpdclzrrhfmvqx\.supabase\.co\/functions\/v1\/writing-submission-proxy"/
   );
-  assert.match(html, /writing-submission-config\.js\?v=20260831-admin-recovery1/);
-  assert.match(html, /writing-submission\.js\?v=20260831-admin-recovery1/);
+  assert.match(html, /writing-submission-config\.js\?v=20260831-selection-tools1/);
+  assert.match(html, /writing-submission\.js\?v=20260831-selection-tools1/);
   assert.match(submissionProxy, /const UPSTREAM_ORIGIN = "https:\/\/edmund-writing-submission\.edmundeducation\.workers\.dev"/);
   assert.match(submissionProxy, /const ALLOWED_ORIGINS = new Set/);
   assert.match(submissionProxy, /request\.method !== "PUT" && request\.method !== "POST"/);
@@ -417,8 +417,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260831-admin-recovery1/);
-  assert.match(html, /writing-submission\.js\?v=20260831-admin-recovery1/);
+  assert.match(html, /writing-submission\.css\?v=20260831-selection-tools1/);
+  assert.match(html, /writing-submission\.js\?v=20260831-selection-tools1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -1199,6 +1199,18 @@ test("admin proxy submission and expanded feedback tools stay authenticated and 
   assert.match(script, /立即儲存草稿/);
   assert.match(css, /\.teacher-feedback-recovery-status\[data-state="pending"\]/);
   assert.match(css, /\.teacher-feedback-quick-save/);
+  assert.match(script, /data\.feedbackSelectionToolbar = "true"|dataset\.feedbackSelectionToolbar = "true"/);
+  assert.match(script, /aria-label", "所選文字的快速標註工具"/);
+  assert.match(script, /scheduleFeedbackSelectionToolbarPosition\(\)/);
+  assert.match(script, /const anchor = rects\[rects\.length - 1\] \|\| range\.getBoundingClientRect\(\)/);
+  for (const command of ["bold", "italic", "strikethrough", "clear"]) {
+    assert.match(script, new RegExp(`command: "${command}"`));
+  }
+  assert.match(script, /FEEDBACK_HIGHLIGHT_NAMES\.forEach\(\(name\) => \{/);
+  assert.match(script, /command: name,[\s\S]*?className: `is-highlight is-\$\{name\}`/);
+  assert.match(script, /state\.feedbackSelectionPointerActive = false;[\s\S]*?scheduleFeedbackSelectionToolbarPosition\(\)/);
+  assert.match(css, /\.teacher-feedback-selection-toolbar \{/);
+  assert.match(css, /\.teacher-feedback-selection-toolbar \.is-highlight::before/);
 
   assert.match(script, /sectionKey: "synonym-improvement"/);
   assert.match(script, /title: "同義詞改善區"/);

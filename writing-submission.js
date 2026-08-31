@@ -448,6 +448,8 @@ const state = {
   feedbackSelectionRanges: [],
   feedbackSelectionOverlays: [],
   feedbackSelectionOverlayFrame: 0,
+  feedbackSelectionToolbarFrame: 0,
+  feedbackSelectionPointerActive: false,
   feedbackMultiSelectPending: null,
   feedbackApplyingFormat: false,
   feedbackDraggedSentenceLink: null,
@@ -1214,6 +1216,7 @@ function clearFeedbackSelectionRanges({ keepEditor = false } = {}) {
   if (globalThis.CSS?.highlights) CSS.highlights.delete("writing-feedback-multi-selection");
   clearFeedbackSelectionOverlays();
   syncFeedbackMultiSelectionHelp();
+  hideFeedbackSelectionToolbar();
 }
 
 function rememberFeedbackSelection(editor, ranges, { append = false } = {}) {
@@ -1228,6 +1231,7 @@ function rememberFeedbackSelection(editor, ranges, { append = false } = {}) {
   state.activeFeedbackRichEditor = editor;
   state.feedbackSelectionRanges = next.slice(0, 40);
   refreshFeedbackMultiSelectionHighlight();
+  scheduleFeedbackSelectionToolbarPosition();
 }
 
 function currentFeedbackSelection(editor) {
@@ -1322,6 +1326,93 @@ function feedbackFormattingToolbar() {
   const multi = createElement("span", "teacher-feedback-multiselect-help", "⌘／Ctrl + 拖選可累加多段文字");
   toolbar.append(clear, multi);
   return toolbar;
+}
+
+function ensureFeedbackSelectionToolbar() {
+  let toolbar = document.querySelector("[data-feedback-selection-toolbar]");
+  if (toolbar) return toolbar;
+  toolbar = createElement("div", "teacher-feedback-selection-toolbar");
+  toolbar.dataset.feedbackSelectionToolbar = "true";
+  toolbar.setAttribute("role", "toolbar");
+  toolbar.setAttribute("aria-label", "所選文字的快速標註工具");
+  toolbar.hidden = true;
+
+  const addButton = ({ command, text, className = "", label, title = label }) => {
+    const button = createElement("button", className, text);
+    button.type = "button";
+    button.dataset.feedbackFormat = command;
+    button.setAttribute("aria-label", label);
+    button.title = title;
+    toolbar.append(button);
+  };
+  addButton({ command: "bold", text: "B", className: "is-bold", label: "粗體" });
+  addButton({ command: "italic", text: "I", className: "is-italic", label: "斜體" });
+  addButton({ command: "strikethrough", text: "S", className: "is-strike", label: "刪除線" });
+  const divider = createElement("span", "teacher-feedback-selection-divider");
+  divider.setAttribute("aria-hidden", "true");
+  toolbar.append(divider);
+  FEEDBACK_HIGHLIGHT_NAMES.forEach((name) => {
+    const labels = { yellow: "黃色", orange: "橙色", blue: "藍色", green: "綠色", red: "紅色" };
+    addButton({
+      command: name,
+      text: "",
+      className: `is-highlight is-${name}`,
+      label: `${labels[name]}螢光筆`
+    });
+  });
+  addButton({ command: "clear", text: "×", className: "is-clear", label: "清除格式" });
+  document.body.append(toolbar);
+  return toolbar;
+}
+
+function hideFeedbackSelectionToolbar() {
+  if (state.feedbackSelectionToolbarFrame) {
+    cancelAnimationFrame(state.feedbackSelectionToolbarFrame);
+    state.feedbackSelectionToolbarFrame = 0;
+  }
+  const toolbar = document.querySelector("[data-feedback-selection-toolbar]");
+  if (toolbar) toolbar.hidden = true;
+}
+
+function syncFeedbackSelectionToolbarPosition() {
+  state.feedbackSelectionToolbarFrame = 0;
+  const toolbar = ensureFeedbackSelectionToolbar();
+  const editor = state.activeFeedbackRichEditor;
+  const ranges = state.feedbackSelectionRanges.filter(range => feedbackRangeBelongsToEditor(range, editor));
+  const range = currentFeedbackSelection(editor) || ranges[ranges.length - 1];
+  if (!editor?.isConnected || !range || !feedbackRangeBelongsToEditor(range, editor)) {
+    toolbar.hidden = true;
+    return;
+  }
+  const rects = [...range.getClientRects()].filter(rect => rect.width >= 1 && rect.height >= 1);
+  const anchor = rects[rects.length - 1] || range.getBoundingClientRect();
+  if (!anchor || anchor.bottom < 0 || anchor.top > window.innerHeight) {
+    toolbar.hidden = true;
+    return;
+  }
+  toolbar.hidden = false;
+  toolbar.style.visibility = "hidden";
+  toolbar.style.left = "8px";
+  toolbar.style.top = "8px";
+  const bounds = toolbar.getBoundingClientRect();
+  const left = Math.max(8, Math.min(
+    window.innerWidth - bounds.width - 8,
+    anchor.left + (anchor.width / 2) - (bounds.width / 2)
+  ));
+  let top = anchor.top - bounds.height - 10;
+  toolbar.dataset.placement = "above";
+  if (top < 8) {
+    top = Math.min(window.innerHeight - bounds.height - 8, anchor.bottom + 10);
+    toolbar.dataset.placement = "below";
+  }
+  toolbar.style.left = `${Math.round(left)}px`;
+  toolbar.style.top = `${Math.round(Math.max(8, top))}px`;
+  toolbar.style.visibility = "visible";
+}
+
+function scheduleFeedbackSelectionToolbarPosition() {
+  if (state.feedbackSelectionPointerActive || state.feedbackSelectionToolbarFrame) return;
+  state.feedbackSelectionToolbarFrame = requestAnimationFrame(syncFeedbackSelectionToolbarPosition);
 }
 
 function applyFeedbackFormatting(command) {
@@ -8847,12 +8938,18 @@ function bindEvents() {
   document.addEventListener("selectionchange", () => {
     if (state.feedbackApplyingFormat || state.feedbackMultiSelectPending) return;
     const selection = window.getSelection();
-    if (!selection?.rangeCount || selection.isCollapsed) return;
+    if (!selection?.rangeCount || selection.isCollapsed) {
+      hideFeedbackSelectionToolbar();
+      return;
+    }
     const editor = selection.anchorNode?.parentElement?.closest?.("[data-feedback-rich-editor]")
       || (selection.anchorNode?.nodeType === Node.ELEMENT_NODE
         ? selection.anchorNode.closest?.("[data-feedback-rich-editor]")
         : null);
-    if (!editor || !editor.contains(selection.focusNode)) return;
+    if (!editor || !editor.contains(selection.focusNode)) {
+      hideFeedbackSelectionToolbar();
+      return;
+    }
     rememberFeedbackSelection(editor, [selection.getRangeAt(0)]);
   });
   document.addEventListener("pointerdown", (event) => {
@@ -8862,9 +8959,11 @@ function bindEvents() {
     }
     const editor = event.target.closest?.("[data-feedback-rich-editor]");
     if (!editor) {
+      state.feedbackSelectionPointerActive = false;
       clearFeedbackSelectionRanges();
       return;
     }
+    state.feedbackSelectionPointerActive = true;
     if ((event.metaKey || event.ctrlKey) && state.activeFeedbackRichEditor === editor) {
       state.feedbackMultiSelectPending = {
         editor,
@@ -8877,17 +8976,32 @@ function bindEvents() {
     }
   });
   document.addEventListener("pointerup", () => {
+    state.feedbackSelectionPointerActive = false;
     const pending = state.feedbackMultiSelectPending;
-    if (!pending) return;
+    if (!pending) {
+      scheduleFeedbackSelectionToolbarPosition();
+      return;
+    }
     state.feedbackMultiSelectPending = null;
     const range = currentFeedbackSelection(pending.editor);
     rememberFeedbackSelection(pending.editor, [...pending.ranges, ...(range ? [range] : [])]);
   });
+  document.addEventListener("pointercancel", () => {
+    state.feedbackSelectionPointerActive = false;
+    scheduleFeedbackSelectionToolbarPosition();
+  });
   document.addEventListener("scroll", scheduleFeedbackMultiSelectionHighlight, { capture: true, passive: true });
+  document.addEventListener("scroll", scheduleFeedbackSelectionToolbarPosition, { capture: true, passive: true });
   window.addEventListener("resize", scheduleFeedbackMultiSelectionHighlight, { passive: true });
+  window.addEventListener("resize", scheduleFeedbackSelectionToolbarPosition, { passive: true });
   window.addEventListener("resize", scheduleFloatingWritingTopicSync, { passive: true });
   window.addEventListener("scroll", scheduleFloatingWritingTopicSync, { passive: true });
   document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !ensureFeedbackSelectionToolbar().hidden) {
+      window.getSelection()?.removeAllRanges();
+      clearFeedbackSelectionRanges();
+      return;
+    }
     if (
       event.key === "Escape"
       && !document.querySelector("dialog[open]")
@@ -9257,6 +9371,7 @@ async function checkHealth() {
 
 async function initialise() {
   bindEvents();
+  ensureFeedbackSelectionToolbar();
   initializeAdminManualTopicSlots();
   initializeFeedbackStickyOffset();
   startWritingClock();
