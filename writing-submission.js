@@ -1415,6 +1415,51 @@ function scheduleFeedbackSelectionToolbarPosition() {
   state.feedbackSelectionToolbarFrame = requestAnimationFrame(syncFeedbackSelectionToolbarPosition);
 }
 
+function feedbackRangeContainsClientPoint(range, clientX, clientY) {
+  return [...range.getClientRects()].some(rect => (
+    clientX >= rect.left - 2
+    && clientX <= rect.right + 2
+    && clientY >= rect.top - 2
+    && clientY <= rect.bottom + 2
+  ));
+}
+
+function deleteSelectedFeedbackText(editor, { clientX, clientY } = {}) {
+  if (!editor?.isConnected) return false;
+  const selection = window.getSelection();
+  const current = currentFeedbackSelection(editor);
+  if (current && !state.feedbackSelectionRanges.length) rememberFeedbackSelection(editor, [current]);
+  const ranges = cloneFeedbackRanges(state.feedbackSelectionRanges)
+    .filter(range => feedbackRangeBelongsToEditor(range, editor))
+    .sort((left, right) => {
+      try { return -left.compareBoundaryPoints(Range.START_TO_START, right); } catch { return 0; }
+    });
+  if (!selection || !ranges.length) return false;
+  if (
+    Number.isFinite(clientX)
+    && Number.isFinite(clientY)
+    && !ranges.some(range => feedbackRangeContainsClientPoint(range, clientX, clientY))
+  ) return false;
+
+  state.feedbackApplyingFormat = true;
+  state.activeFeedbackRichEditor = editor;
+  try {
+    ranges.forEach((range) => {
+      selection.removeAllRanges();
+      selection.addRange(range);
+      if (!document.execCommand("delete", false)) range.deleteContents();
+    });
+  } finally {
+    state.feedbackApplyingFormat = false;
+    selection.removeAllRanges();
+    clearFeedbackSelectionRanges({ keepEditor: true });
+  }
+  editor.normalize();
+  editor.dispatchEvent(new Event("input", { bubbles: true }));
+  showToast("已刪除所選文字。", "success");
+  return true;
+}
+
 function applyFeedbackFormatting(command) {
   const editor = state.activeFeedbackRichEditor;
   if (!editor?.isConnected) {
@@ -8963,6 +9008,13 @@ function bindEvents() {
       clearFeedbackSelectionRanges();
       return;
     }
+    if (event.button === 2) {
+      state.feedbackSelectionPointerActive = false;
+      state.activeFeedbackRichEditor = editor;
+      const range = currentFeedbackSelection(editor);
+      if (range && !state.feedbackSelectionRanges.length) rememberFeedbackSelection(editor, [range]);
+      return;
+    }
     state.feedbackSelectionPointerActive = true;
     if ((event.metaKey || event.ctrlKey) && state.activeFeedbackRichEditor === editor) {
       state.feedbackMultiSelectPending = {
@@ -8989,6 +9041,13 @@ function bindEvents() {
   document.addEventListener("pointercancel", () => {
     state.feedbackSelectionPointerActive = false;
     scheduleFeedbackSelectionToolbarPosition();
+  });
+  document.addEventListener("contextmenu", (event) => {
+    if (event.button !== 2) return;
+    const editor = event.target.closest?.("[data-feedback-rich-editor]");
+    if (!editor) return;
+    if (!deleteSelectedFeedbackText(editor, event)) return;
+    event.preventDefault();
   });
   document.addEventListener("scroll", scheduleFeedbackMultiSelectionHighlight, { capture: true, passive: true });
   document.addEventListener("scroll", scheduleFeedbackSelectionToolbarPosition, { capture: true, passive: true });

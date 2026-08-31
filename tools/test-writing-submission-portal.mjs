@@ -383,8 +383,8 @@ test("submission traffic uses a first-party Supabase relay with a safe failure p
     config,
     /submissionProxyUrl:\s*"https:\/\/ookkxzgpdclzrrhfmvqx\.supabase\.co\/functions\/v1\/writing-submission-proxy"/
   );
-  assert.match(html, /writing-submission-config\.js\?v=20260831-selection-tools1/);
-  assert.match(html, /writing-submission\.js\?v=20260831-selection-tools1/);
+  assert.match(html, /writing-submission-config\.js\?v=20260901-selection-delete1/);
+  assert.match(html, /writing-submission\.js\?v=20260901-selection-delete1/);
   assert.match(submissionProxy, /const UPSTREAM_ORIGIN = "https:\/\/edmund-writing-submission\.edmundeducation\.workers\.dev"/);
   assert.match(submissionProxy, /const ALLOWED_ORIGINS = new Set/);
   assert.match(submissionProxy, /request\.method !== "PUT" && request\.method !== "POST"/);
@@ -417,8 +417,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260831-selection-tools1/);
-  assert.match(html, /writing-submission\.js\?v=20260831-selection-tools1/);
+  assert.match(html, /writing-submission\.css\?v=20260901-selection-delete1/);
+  assert.match(html, /writing-submission\.js\?v=20260901-selection-delete1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -1209,6 +1209,13 @@ test("admin proxy submission and expanded feedback tools stay authenticated and 
   assert.match(script, /FEEDBACK_HIGHLIGHT_NAMES\.forEach\(\(name\) => \{/);
   assert.match(script, /command: name,[\s\S]*?className: `is-highlight is-\$\{name\}`/);
   assert.match(script, /state\.feedbackSelectionPointerActive = false;[\s\S]*?scheduleFeedbackSelectionToolbarPosition\(\)/);
+  assert.match(script, /function deleteSelectedFeedbackText\(editor, \{ clientX, clientY \} = \{\}\)/);
+  assert.match(script, /feedbackRangeContainsClientPoint\(range, clientX, clientY\)/);
+  assert.match(script, /document\.addEventListener\("contextmenu", \(event\) => \{/);
+  assert.match(script, /if \(event\.button !== 2\) return;/);
+  assert.match(script, /if \(!deleteSelectedFeedbackText\(editor, event\)\) return;[\s\S]*?event\.preventDefault\(\)/);
+  assert.match(script, /document\.execCommand\("delete", false\)/);
+  assert.match(script, /editor\.dispatchEvent\(new Event\("input", \{ bubbles: true \}\)\)/);
   assert.match(css, /\.teacher-feedback-selection-toolbar \{/);
   assert.match(css, /\.teacher-feedback-selection-toolbar \.is-highlight::before/);
 
