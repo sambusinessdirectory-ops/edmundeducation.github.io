@@ -190423,7 +190423,11 @@ window.EDMUND_FLASHCARD_SEED = {
     function getDeckCards(deckId = currentDeckId) {
       if (!privateDeckVisibleToStudent(deckId)) return [];
       if (deckId === BOOKMARK_DECK_ID) return getBookmarkedCards();
-      if (deckId === AUTOMATIC_LEARNING_WORD_DECK_ID) return automaticLearningWordDeck.cards.map(normalizeCard);
+      if (typeof AUTOMATIC_LEARNING_WORD_DECK_ID !== "undefined"
+        && deckId === AUTOMATIC_LEARNING_WORD_DECK_ID
+        && typeof automaticLearningWordDeck !== "undefined") {
+        return automaticLearningWordDeck.cards.map(normalizeCard);
+      }
       const customStore = getCardStore();
       const seedCards = Array.isArray(seedDecks[deckId]) ? seedDecks[deckId] : [];
       const customCards = Array.isArray(customStore[deckId]) ? customStore[deckId] : [];
@@ -190451,16 +190455,19 @@ window.EDMUND_FLASHCARD_SEED = {
     function getStudentCustomDecks(studentName = currentUser?.name) {
       if (!studentName) return [];
       const store = getCardStore();
+      const automaticDeck = typeof automaticLearningWordDeck !== "undefined"
+        ? automaticLearningWordDeck
+        : { exists: false };
       const personal = (Array.isArray(store[studentDeckMetaKey()]) ? store[studentDeckMetaKey()] : [])
         .filter(deck => deck.studentName === studentName)
         .sort((a, b) => (b.updatedAt || b.createdAt || 0) - (a.updatedAt || a.createdAt || 0));
-      return automaticLearningWordDeck.exists && currentUser?.role === "student" && studentName === currentUser.name
+      return automaticDeck.exists && currentUser?.role === "student" && studentName === currentUser.name
         ? [{
             id: AUTOMATIC_LEARNING_WORD_DECK_ID,
-            title: automaticLearningWordDeck.title,
+            title: automaticDeck.title,
             studentName,
-            createdAt: automaticLearningWordDeck.createdAt,
-            updatedAt: automaticLearningWordDeck.updatedAt,
+            createdAt: automaticDeck.createdAt,
+            updatedAt: automaticDeck.updatedAt,
             systemManaged: true
           }, ...personal]
         : personal;
@@ -191457,7 +191464,9 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function getKnownDeckIds() {
       const customIds = Object.keys(getCardStore()).filter(key => !key.startsWith("__"));
-      const automaticIds = automaticLearningWordDeck.exists ? [AUTOMATIC_LEARNING_WORD_DECK_ID] : [];
+      const automaticIds = typeof automaticLearningWordDeck !== "undefined" && automaticLearningWordDeck.exists
+        ? [AUTOMATIC_LEARNING_WORD_DECK_ID]
+        : [];
       return [...new Set([...Object.keys(seedDecks), ...customIds, ...automaticIds])]
         .filter(deckId => privateDeckVisibleToStudent(deckId));
     }
