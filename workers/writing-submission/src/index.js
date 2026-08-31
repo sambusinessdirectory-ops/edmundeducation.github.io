@@ -53,7 +53,8 @@ const FEEDBACK_ENHANCEMENT_SECTION_KEYS = new Set([
   "rhetorical-technique",
   "phrasal-verb",
   "writing-common-expression",
-  "rhetorical-common-expression"
+  "rhetorical-common-expression",
+  "synonym-improvement"
 ]);
 const WRITING_IMAGE_ZOOM_TENTHS = new Set([5, 10, 20, 30, 40, 50, 70]);
 const decoder = new TextDecoder("utf-8", { fatal: true });
@@ -206,7 +207,7 @@ async function route(request, env) {
     return putSuggestionCopy(request, env, suggestionCopyMatch[1], suggestionCopyMatch[2]);
   }
   const enhancementCopyMatch = url.pathname.match(
-    /^\/v1\/submissions\/([0-9a-f-]{36})\/feedback\/enhancements\/(sentence-structure|rhetorical-technique|phrasal-verb|writing-common-expression|rhetorical-common-expression)\/([1-9][0-9]{0,2})\/copy$/i
+    /^\/v1\/submissions\/([0-9a-f-]{36})\/feedback\/enhancements\/(sentence-structure|rhetorical-technique|phrasal-verb|writing-common-expression|rhetorical-common-expression|synonym-improvement)\/([1-9][0-9]{0,2})\/copy$/i
   );
   if (enhancementCopyMatch && request.method === "PUT") {
     return putEnhancementCopy(
@@ -248,6 +249,9 @@ async function route(request, env) {
   }
   if (url.pathname === "/v1/admin/submissions" && request.method === "GET") {
     return listAdminSubmissions(request, env, url);
+  }
+  if (url.pathname === "/v1/admin/submissions" && request.method === "POST") {
+    return createAdminSubmission(request, env);
   }
   if (url.pathname === "/v1/admin/grammar-problems" && request.method === "GET") {
     return listAdminGrammarProblems(request, env, url);
@@ -1333,8 +1337,20 @@ function feedbackResponse(row) {
     id: String(row.id || ""),
     submissionId: String(row.submission_id || ""),
     overallComment: String(row.overall_comment || ""),
+    overallFormatting: feedbackFormattingResponse(
+      row.overall_formatting,
+      String(row.overall_comment || "").length
+    ),
     finalComment: String(row.final_comment || ""),
+    finalFormatting: feedbackFormattingResponse(
+      row.final_formatting,
+      String(row.final_comment || "").length
+    ),
     improvedVersion: String(row.improved_version || ""),
+    improvedFormatting: feedbackFormattingResponse(
+      row.improved_formatting,
+      String(row.improved_version || "").length
+    ),
     status: row.status === "published" ? "published" : "draft",
     version: Number(row.version || 0),
     publishedAt: row.published_at ? String(row.published_at) : null,
@@ -1347,6 +1363,7 @@ function feedbackResponse(row) {
     phrasalVerbParts: feedbackStructuredPartsResponse(row.phrasal_verb_parts),
     writingCommonExpressionParts: feedbackStructuredPartsResponse(row.writing_common_expression_parts),
     rhetoricalCommonExpressionParts: feedbackStructuredPartsResponse(row.rhetorical_common_expression_parts),
+    synonymImprovementParts: feedbackStructuredPartsResponse(row.synonym_improvement_parts),
     enhancementCopies: enhancementCopiesResponse(row.enhancement_copies),
     fragments: fragments.map((fragment, index) => {
       const originalFragment = String(
@@ -1691,6 +1708,13 @@ function normalizeFeedbackPayload(payload) {
     "writingCommonExpressionParts",
     "rhetoricalCommonExpressionParts"
   ]);
+  const latestFieldNames = [
+    "overallFormatting",
+    "finalFormatting",
+    "improvedFormatting",
+    "synonymImprovementParts"
+  ];
+  const latestKeys = new Set([...structuredKeys, ...latestFieldNames]);
   const hasExtendedFields = [
     "grammarPoints", "sentenceStructureMethods", "sentenceStructureLinks"
   ].some((key) => Object.prototype.hasOwnProperty.call(payload, key));
@@ -1704,8 +1728,12 @@ function normalizeFeedbackPayload(payload) {
     .some((key) => Object.prototype.hasOwnProperty.call(payload, key));
   const hasAdditionalStructuredFields = additionalStructuredFieldNames
     .some((key) => Object.prototype.hasOwnProperty.call(payload, key));
+  const hasLatestFields = latestFieldNames
+    .some((key) => Object.prototype.hasOwnProperty.call(payload, key));
   const hasStructuredFields = hasLegacyStructuredFields || hasAdditionalStructuredFields;
-  const allowedKeys = hasAdditionalStructuredFields
+  const allowedKeys = hasLatestFields
+    ? latestKeys
+    : hasAdditionalStructuredFields
     ? structuredKeys
     : (hasStructuredFields ? legacyStructuredKeys : (hasExtendedFields ? extendedKeys : baseKeys));
   if (!hasOnlyKeys(payload, allowedKeys) || ![
@@ -1720,6 +1748,11 @@ function normalizeFeedbackPayload(payload) {
   ) || (
     hasAdditionalStructuredFields && !additionalStructuredFieldNames
       .every((key) => Object.prototype.hasOwnProperty.call(payload, key))
+  ) || (
+    hasLatestFields && (
+      !latestFieldNames.every((key) => Object.prototype.hasOwnProperty.call(payload, key))
+      || !additionalStructuredFieldNames.every((key) => Object.prototype.hasOwnProperty.call(payload, key))
+    )
   )) {
     throw new HttpError(400, "INVALID_FEEDBACK", "Feedback payload has an invalid shape");
   }
@@ -1756,6 +1789,15 @@ function normalizeFeedbackPayload(payload) {
     "improvedVersion",
     100000
   );
+  const overallFormatting = hasLatestFields
+    ? normalizeFeedbackFormatting(payload.overallFormatting, "overallFormatting", overallComment.length)
+    : [];
+  const finalFormatting = hasLatestFields
+    ? normalizeFeedbackFormatting(payload.finalFormatting, "finalFormatting", finalComment.length)
+    : [];
+  const improvedFormatting = hasLatestFields
+    ? normalizeFeedbackFormatting(payload.improvedFormatting, "improvedFormatting", improvedVersion.length)
+    : [];
   if (!Array.isArray(payload.fragments) || payload.fragments.length > MAX_FEEDBACK_FRAGMENTS) {
     throw new HttpError(400, "INVALID_FEEDBACK", "Feedback fragments are invalid");
   }
@@ -1872,6 +1914,12 @@ function normalizeFeedbackPayload(payload) {
       "rhetoricalCommonExpressionParts"
     )
     : null;
+  const synonymImprovementParts = hasLatestFields
+    ? normalizeFeedbackStructuredParts(
+      payload.synonymImprovementParts,
+      "synonymImprovementParts"
+    )
+    : null;
   if (
     !overallComment.trim()
     && !finalComment.trim()
@@ -1885,14 +1933,18 @@ function normalizeFeedbackPayload(payload) {
     && (!phrasalVerbParts || phrasalVerbParts.length === 0)
     && (!writingCommonExpressionParts || writingCommonExpressionParts.length === 0)
     && (!rhetoricalCommonExpressionParts || rhetoricalCommonExpressionParts.length === 0)
+    && (!synonymImprovementParts || synonymImprovementParts.length === 0)
   ) {
     throw new HttpError(400, "INVALID_FEEDBACK", "Feedback cannot be empty");
   }
   return {
     overallComment,
+    overallFormatting,
     fragments,
     finalComment,
+    finalFormatting,
     improvedVersion,
+    improvedFormatting,
     grammarPoints,
     sentenceStructureMethods,
     sentenceStructureLinks,
@@ -1901,6 +1953,7 @@ function normalizeFeedbackPayload(payload) {
     phrasalVerbParts,
     writingCommonExpressionParts,
     rhetoricalCommonExpressionParts,
+    synonymImprovementParts,
     status,
     expectedVersion,
     expectedFeedbackId: expectedFeedbackId === null ? null : expectedFeedbackId.toLowerCase()
@@ -2143,7 +2196,7 @@ async function getSubmissionFeedback(request, env, submissionId) {
   }
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
-  const row = singleRow(await rpc(env, "writing_submission_feedback_student_open_v4", {
+  const row = singleRow(await rpc(env, "writing_submission_feedback_student_open_v5", {
     p_student_id: student.id,
     p_submission_id: submissionId.toLowerCase()
   }));
@@ -2242,7 +2295,7 @@ async function putEnhancementCopy(request, env, submissionId, sectionKey, itemPo
   );
   const row = singleRow(await rpc(
     env,
-    "writing_submission_feedback_student_save_enhancement_copy",
+    "writing_submission_feedback_student_save_enhancement_copy_v2",
     {
       p_student_id: student.id,
       p_submission_id: submissionId.toLowerCase(),
@@ -2865,6 +2918,42 @@ async function listAdminSubmissions(request, env, url) {
   }, 200, request, env);
 }
 
+async function createAdminSubmission(request, env) {
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-admin-proxy-submit:${admin.id}`,
+    "Proxy submission is temporarily unavailable",
+    "TOO_MANY_ADMIN_WRITES",
+    "Too many administrator submissions; please wait and try again"
+  );
+  const body = await readLimitedJson(request, MAX_SUBMISSION_BODY_BYTES);
+  if (!hasExactKeys(body, ["studentId", "topic", "answer"])) {
+    throw new HttpError(400, "INVALID_SUBMISSION", "Proxy submission payload has an invalid shape");
+  }
+  const studentId = String(body.studentId || "").toLowerCase();
+  if (!UUID_RE.test(studentId)) {
+    throw new HttpError(400, "INVALID_STUDENT", "studentId is invalid");
+  }
+  const payload = normalizeSubmissionPayload({
+    topic: body.topic,
+    answer: body.answer,
+    durationSeconds: 0,
+    topicResource: null
+  });
+  const row = singleRow(await rpc(env, "writing_submission_admin_submit_for_student", {
+    p_admin_token: admin.token,
+    p_id: crypto.randomUUID(),
+    p_student_id: studentId,
+    p_topic: payload.topic,
+    p_answer: payload.answer,
+    p_word_count: payload.wordCount
+  }));
+  if (!row) throw new HttpError(404, "STUDENT_NOT_FOUND", "Student account was not found");
+  return json({ submission: submissionResponse(row) }, 201, request, env);
+}
+
 async function listAdminExplanationReview(request, env, url) {
   const admin = await authenticateAdmin(request, env);
   if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
@@ -2918,7 +3007,7 @@ async function getAdminSubmissionFeedback(request, env, submissionId) {
   }
   const admin = await authenticateAdmin(request, env);
   if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
-  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_get_v5", {
+  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_get_v6", {
     p_admin_token: admin.token,
     p_submission_id: submissionId.toLowerCase()
   }));
@@ -2941,13 +3030,16 @@ async function putAdminSubmissionFeedback(request, env, submissionId) {
   const payload = normalizeFeedbackPayload(
     await readLimitedJson(request, MAX_FEEDBACK_BODY_BYTES)
   );
-  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_save_v4", {
+  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_save_v5", {
     p_admin_token: admin.token,
     p_submission_id: submissionId.toLowerCase(),
     p_overall_comment: payload.overallComment,
+    p_overall_formatting: payload.overallFormatting,
     p_fragments: payload.fragments,
     p_final_comment: payload.finalComment,
+    p_final_formatting: payload.finalFormatting,
     p_improved_version: payload.improvedVersion,
+    p_improved_formatting: payload.improvedFormatting,
     p_grammar_points: payload.grammarPoints,
     p_sentence_structure_methods: payload.sentenceStructureMethods,
     p_sentence_structure_links: payload.sentenceStructureLinks,
@@ -2956,6 +3048,7 @@ async function putAdminSubmissionFeedback(request, env, submissionId) {
     p_phrasal_verb_parts: payload.phrasalVerbParts,
     p_writing_common_expression_parts: payload.writingCommonExpressionParts,
     p_rhetorical_common_expression_parts: payload.rhetoricalCommonExpressionParts,
+    p_synonym_improvement_parts: payload.synonymImprovementParts,
     p_status: payload.status,
     p_expected_version: payload.expectedVersion,
     p_expected_feedback_id: payload.expectedFeedbackId

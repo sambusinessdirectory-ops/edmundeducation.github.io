@@ -10,7 +10,7 @@ const ALLOWED_ORIGINS = new Set([
 function responseHeaders(origin) {
   const headers = new Headers({
     "Access-Control-Allow-Headers": "Authorization, Content-Type",
-    "Access-Control-Allow-Methods": "PUT, OPTIONS",
+    "Access-Control-Allow-Methods": "POST, PUT, OPTIONS",
     "Access-Control-Expose-Headers": "Retry-After",
     "Cache-Control": "no-store",
     "Vary": "Origin",
@@ -34,16 +34,19 @@ Deno.serve(async (request) => {
   if (request.method === "OPTIONS") {
     return new Response(null, { status: 204, headers: responseHeaders(origin) });
   }
-  if (request.method !== "PUT") {
+  if (request.method !== "PUT" && request.method !== "POST") {
     return jsonError(origin, 405, "METHOD_NOT_ALLOWED", "Method is not allowed");
   }
 
   const requestUrl = new URL(request.url);
   const submissionId = String(requestUrl.searchParams.get("submissionId") || "").toLowerCase();
+  const operation = String(requestUrl.searchParams.get("operation") || "");
+  const adminSubmission = request.method === "POST" && operation === "admin-submission";
+  const studentSubmission = request.method === "PUT" && !operation && UUID_RE.test(submissionId);
   const authorization = String(request.headers.get("Authorization") || "");
-  const studentToken = authorization.replace(/^Bearer\s+/iu, "");
-  if (!UUID_RE.test(submissionId) || !UUID_RE.test(studentToken)) {
-    return jsonError(origin, 401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const sessionToken = authorization.replace(/^Bearer\s+/iu, "");
+  if ((!adminSubmission && !studentSubmission) || !UUID_RE.test(sessionToken)) {
+    return jsonError(origin, 401, "AUTH_REQUIRED", "A valid session is required");
   }
   if (!String(request.headers.get("Content-Type") || "").toLowerCase().startsWith("application/json")) {
     return jsonError(origin, 415, "UNSUPPORTED_MEDIA_TYPE", "Content-Type must be application/json");
@@ -59,8 +62,11 @@ Deno.serve(async (request) => {
   }
 
   try {
-    const response = await fetch(`${UPSTREAM_ORIGIN}/v1/submissions/${submissionId}`, {
-      method: "PUT",
+    const upstreamPath = adminSubmission
+      ? "/v1/admin/submissions"
+      : `/v1/submissions/${submissionId}`;
+    const response = await fetch(`${UPSTREAM_ORIGIN}${upstreamPath}`, {
+      method: request.method,
       headers: {
         "Authorization": authorization,
         "Content-Type": "application/json",
@@ -75,7 +81,8 @@ Deno.serve(async (request) => {
     });
   } catch (error) {
     console.error("Writing Submission upstream request failed", {
-      submissionId,
+      operation: adminSubmission ? "admin-submission" : "student-submission",
+      submissionId: adminSubmission ? null : submissionId,
       cause: error instanceof Error ? error.message : "Unknown upstream error"
     });
     return jsonError(

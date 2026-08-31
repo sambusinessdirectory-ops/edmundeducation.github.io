@@ -84,6 +84,10 @@ const feedbackAdditionalEnhancementsMigration = fs.readFileSync(
   path.join(root, "supabase-writing-submission-feedback-additional-enhancements.sql"),
   "utf8"
 );
+const adminProxyFeedbackMigration = fs.readFileSync(
+  path.join(root, "supabase-writing-submission-admin-proxy-feedback-20260831.sql"),
+  "utf8"
+);
 const feedbackTools = fs.readFileSync(
   path.join(root, "writing-submission-feedback-tools.mjs"),
   "utf8"
@@ -375,17 +379,17 @@ test("submission traffic uses a first-party Supabase relay with a safe failure p
     config,
     /submissionProxyUrl:\s*"https:\/\/ookkxzgpdclzrrhfmvqx\.supabase\.co\/functions\/v1\/writing-submission-proxy"/
   );
-  assert.match(html, /writing-submission-config\.js\?v=20260830-proxy1/);
-  assert.match(html, /writing-submission\.js\?v=20260830-proxy1/);
+  assert.match(html, /writing-submission-config\.js\?v=20260831-admin-proxy1/);
+  assert.match(html, /writing-submission\.js\?v=20260831-admin-proxy1/);
   assert.match(submissionProxy, /const UPSTREAM_ORIGIN = "https:\/\/edmund-writing-submission\.edmundeducation\.workers\.dev"/);
   assert.match(submissionProxy, /const ALLOWED_ORIGINS = new Set/);
-  assert.match(submissionProxy, /request\.method !== "PUT"/);
+  assert.match(submissionProxy, /request\.method !== "PUT" && request\.method !== "POST"/);
   assert.match(submissionProxy, /searchParams\.get\("submissionId"\)/);
-  assert.match(submissionProxy, /UUID_RE\.test\(submissionId\)[\s\S]*UUID_RE\.test\(studentToken\)/);
+  assert.match(submissionProxy, /UUID_RE\.test\(submissionId\)[\s\S]*UUID_RE\.test\(sessionToken\)/);
   assert.match(submissionProxy, /body\.byteLength > MAX_BODY_BYTES/);
   assert.doesNotMatch(submissionProxy, /searchParams\.get\(["'](?:url|target|upstream|path)["']\)/i);
   assert.match(script, /function apiRequestUrl\(path, method = "GET"\)/);
-  assert.match(script, /String\(method \|\| "GET"\)\.toUpperCase\(\) === "PUT"/);
+  assert.match(script, /const normalizedMethod = String\(method \|\| "GET"\)\.toUpperCase\(\)/);
   assert.match(script, /error\.code = "SUBMISSION_SERVICE_UNREACHABLE"/);
   assert.match(script, /persistDraft\(\);[\s\S]*?setStatus\(elements\.submissionStatus/);
 });
@@ -409,8 +413,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260821-floating-topic2/);
-  assert.match(html, /writing-submission\.js\?v=20260830-proxy1/);
+  assert.match(html, /writing-submission\.css\?v=20260831-admin-proxy1/);
+  assert.match(html, /writing-submission\.js\?v=20260831-admin-proxy1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -464,7 +468,7 @@ test("countdown and role-scoped composition plus feedback exports are fully wire
   assert.match(script, /beginWritingProofreading\(\)/);
   assert.match(script, /校對完成後才會自動提交/);
   assert.match(script, /method:\s*"PUT"/);
-  assert.match(script, /function fetchSubmissionExportBundle\(id, role\)/);
+  assert.match(script, /function fetchSubmissionExportBundle\(id, role, mode/);
   assert.match(script, /`\/v1\/submissions\/\$\{encodedId\}`/);
   assert.match(script, /`\/v1\/admin\/submissions\/\$\{encodedId\}`/);
   assert.match(script, /apiJson\(`\$\{basePath\}\/feedback`\)/);
@@ -1059,10 +1063,10 @@ test("published feedback is optional by section, unread-aware, and supports save
   assert.match(css, /\.submission-list-item\.has-feedback/);
   assert.match(css, /\.submission-feedback-bell/);
   assert.match(css, /\.teacher-feedback-transcriptions/);
-  assert.match(workerSource, /writing_submission_feedback_student_open_v4/);
+  assert.match(workerSource, /writing_submission_feedback_student_open_v5/);
   assert.match(workerSource, /writing_submission_feedback_student_save_transcriptions/);
-  assert.match(workerSource, /writing_submission_feedback_admin_get_v5/);
-  assert.match(workerSource, /writing_submission_feedback_admin_save_v4/);
+  assert.match(workerSource, /writing_submission_feedback_admin_get_v6/);
+  assert.match(workerSource, /writing_submission_feedback_admin_save_v5/);
   assert.match(workerSource, /p_improved_version:\s*payload\.improvedVersion/);
   assert.match(workerSource, /!overallComment\.trim\(\)[\s\S]*?!finalComment\.trim\(\)[\s\S]*?!improvedVersion\.trim\(\)[\s\S]*?fragments\.length === 0[\s\S]*?grammarPoints/);
   assert.match(feedbackRevisionMigration, /add column if not exists improved_version text/);
@@ -1143,6 +1147,44 @@ test("additional feedback sections, ordered transcription and per-item copy prac
   assert.match(feedbackAdditionalEnhancementsMigration, /revoke all on function public\.writing_submission_feedback_student_save_enhancement_copy[\s\S]*?from public, anon, authenticated, service_role/i);
   assert.match(feedbackAdditionalEnhancementsMigration, /grant execute on function public\.writing_submission_feedback_student_save_enhancement_copy[\s\S]*?to service_role/i);
   assert.doesNotMatch(feedbackAdditionalEnhancementsMigration, /grant (?:select|insert|update|delete) on table/i);
+});
+
+test("admin proxy submission and expanded feedback tools stay authenticated and auditable", () => {
+  assert.match(html, /data-admin-proxy-form/);
+  assert.match(html, /data-admin-proxy-student/);
+  assert.match(html, /data-admin-proxy-topic-select/);
+  assert.match(html, /data-admin-proxy-answer/);
+  assert.match(script, /method:\s*"POST"[\s\S]*?studentId, topic, answer/);
+  assert.match(script, /operation", "admin-submission"/);
+  assert.match(workerSource, /createAdminSubmission\(request, env\)/);
+  assert.match(workerSource, /writing_submission_admin_submit_for_student/);
+  assert.match(adminProxyFeedbackMigration, /action in \('delete_occurrence', 'delete_rule_category', 'proxy_submission'\)/);
+  assert.match(adminProxyFeedbackMigration, /insert into public\.writing_submission_admin_audit/);
+  assert.match(adminProxyFeedbackMigration, /public\._writing_submission_admin_id\(p_admin_token\)/);
+  assert.match(adminProxyFeedbackMigration, /revoke all on function public\.writing_submission_admin_submit_for_student[\s\S]*?service_role/);
+
+  for (const field of ["overallFormatting", "finalFormatting", "improvedFormatting"]) {
+    assert.match(script, new RegExp(field));
+    assert.match(workerSource, new RegExp(field));
+  }
+  assert.match(script, /feedbackRichField\([\s\S]*?"整體評語"/);
+  assert.match(script, /feedbackRichField\([\s\S]*?"最後評語"/);
+  assert.match(script, /feedbackRichField\([\s\S]*?"保留原意改良版"/);
+  assert.match(script, /data-feedback-jump-target/);
+  assert.match(script, /scrollIntoView\(\{ behavior: "smooth"/);
+  assert.match(css, /\.teacher-feedback-jump-nav/);
+
+  assert.match(script, /sectionKey: "synonym-improvement"/);
+  assert.match(script, /title: "同義詞改善區"/);
+  assert.match(script, /const synonymImprovementParts = readEnhancementParts\("synonym"\)/);
+  assert.match(adminProxyFeedbackMigration, /add column if not exists synonym_improvement_parts jsonb not null default '\[\]'::jsonb/);
+  assert.match(workerSource, /p_synonym_improvement_parts:\s*payload\.synonymImprovementParts/);
+
+  assert.match(html, /data-export-mode="writing"/);
+  assert.match(html, /data-export-mode="feedback"/);
+  assert.match(html, /data-export-mode="both"/);
+  assert.match(script, /const includeWriting = mode === "writing" \|\| mode === "both"/);
+  assert.match(script, /const includeFeedback = mode === "feedback" \|\| mode === "both"/);
 });
 
 test("submission topic linkage is canonicalized and authorized by the Worker", () => {
