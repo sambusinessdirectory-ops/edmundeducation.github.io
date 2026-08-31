@@ -124,6 +124,14 @@ const FEEDBACK_ENHANCEMENT_KINDS = Object.freeze({
     title: "修辭 Common Expression 提升區",
     copyTitle: "修辭 Common Expression 提升 - 抄寫",
     className: "is-rhetorical-common-expression"
+  }),
+  synonym: Object.freeze({
+    sectionKey: "synonym-improvement",
+    dataKey: "synonymImprovementParts",
+    singular: "同義詞改善",
+    title: "同義詞改善區",
+    copyTitle: "同義詞改善 - 抄寫",
+    className: "is-synonym-improvement"
   })
 });
 const FEEDBACK_ENHANCEMENT_BY_SECTION_KEY = Object.freeze(Object.fromEntries(
@@ -307,6 +315,15 @@ const elements = {
   adminManualTopicStatus: document.querySelector("[data-admin-manual-topic-status]"),
   adminManualTopicCount: document.querySelector("[data-admin-manual-topic-count]"),
   adminManualTopicList: document.querySelector("[data-admin-manual-topic-list]"),
+  adminProxyForm: document.querySelector("[data-admin-proxy-form]"),
+  adminProxyStudent: document.querySelector("[data-admin-proxy-student]"),
+  adminProxyTopicSelect: document.querySelector("[data-admin-proxy-topic-select]"),
+  adminProxyTopic: document.querySelector("[data-admin-proxy-topic]"),
+  adminProxyAnswer: document.querySelector("[data-admin-proxy-answer]"),
+  adminProxySubmit: document.querySelector("[data-admin-proxy-submit]"),
+  adminProxyStatus: document.querySelector("[data-admin-proxy-status]"),
+  exportModeDialog: document.querySelector("[data-export-mode-dialog]"),
+  exportModeCancel: document.querySelector("[data-export-mode-cancel]"),
   refreshAdminReview: document.querySelector("[data-refresh-admin-review]"),
   adminReviewCount: document.querySelector("[data-admin-review-count]"),
   adminReviewList: document.querySelector("[data-admin-review-list]"),
@@ -410,6 +427,8 @@ const state = {
   adminGrammarProblems: [],
   adminManualTopics: [],
   adminManualTopicsBusy: false,
+  adminProxySubmitting: false,
+  pendingExport: null,
   selectedAdminSubmissionId: "",
   adminSubmissionRequestGeneration: 0,
   selectedAdminFeedback: null,
@@ -1515,8 +1534,16 @@ function workerBaseUrl() {
 
 function apiRequestUrl(path, method = "GET") {
   const normalizedPath = `/${String(path || "").replace(/^\/+/, "")}`;
+  const normalizedMethod = String(method || "GET").toUpperCase();
+  if (normalizedMethod === "POST" && normalizedPath === "/v1/admin/submissions") {
+    const proxyUrl = String(CONFIG.submissionProxyUrl || "").trim();
+    if (!proxyUrl.startsWith("https://")) throw new Error("交文後備服務尚未完成設定。");
+    const url = new URL(proxyUrl);
+    url.searchParams.set("operation", "admin-submission");
+    return url.href;
+  }
   const submissionMatch = normalizedPath.match(/^\/v1\/submissions\/([0-9a-f-]{36})$/iu);
-  if (String(method || "GET").toUpperCase() === "PUT" && submissionMatch) {
+  if (normalizedMethod === "PUT" && submissionMatch) {
     const proxyUrl = String(CONFIG.submissionProxyUrl || "").trim();
     if (!proxyUrl.startsWith("https://")) throw new Error("交文後備服務尚未完成設定。");
     const url = new URL(proxyUrl);
@@ -4690,7 +4717,7 @@ function escapePrintHtml(value) {
   })[character]);
 }
 
-async function fetchSubmissionExportBundle(id, role) {
+async function fetchSubmissionExportBundle(id, role, mode = "both") {
   const normalizedId = String(id || "");
   const admin = role === "admin";
   const source = admin ? state.adminSubmissions : state.submissions;
@@ -4707,7 +4734,7 @@ async function fetchSubmissionExportBundle(id, role) {
   const basePath = admin ? `/v1/admin/submissions/${encodedId}` : `/v1/submissions/${encodedId}`;
   const [submissionPayload, feedbackPayload] = await Promise.all([
     apiJson(basePath),
-    apiJson(`${basePath}/feedback`)
+    mode === "writing" ? Promise.resolve(null) : apiJson(`${basePath}/feedback`)
   ]);
   const submission = normalizeSubmission(submissionPayload?.submission || submissionPayload);
   if (submission.id !== normalizedId) throw new Error("文章服務回應無效。");
@@ -4745,11 +4772,11 @@ function feedbackPrintRichHtml(textValue, formattingValue, { structured = false,
   return container.outerHTML;
 }
 
-function feedbackPrintTextSection(title, value, className = "") {
+function feedbackPrintTextSection(title, value, className = "", formatting = []) {
   const text = String(value || "");
   if (!text.trim()) return "";
   return `<section class="print-feedback-text ${escapePrintHtml(className)}">
-    <h3>${escapePrintHtml(title)}</h3><div>${escapePrintHtml(text)}</div>
+    <h3>${escapePrintHtml(title)}</h3>${feedbackPrintRichHtml(text, formatting)}
   </section>`;
 }
 
@@ -4839,7 +4866,8 @@ function feedbackPrintHtml(feedback) {
   const improvedVersion = feedbackPrintTextSection(
     "保留原意改良版",
     feedback.improvedVersion,
-    "print-improved-version"
+    "print-improved-version",
+    feedback.improvedFormatting
   );
   return `<section class="print-feedback">
     <header class="print-feedback-head">
@@ -4848,9 +4876,9 @@ function feedbackPrintHtml(feedback) {
         ? "目前編輯器預覽（可能尚未儲存）"
         : feedback.status === "published" ? "已發佈" : "管理員草稿"}${feedback.updatedAt ? ` · 更新：${escapePrintHtml(formatSubmissionDate(feedback.updatedAt))}` : ""}</div>
     </header>
-    ${feedbackPrintTextSection("整體評語", feedback.overallComment, "print-overall-comment")}
+    ${feedbackPrintTextSection("整體評語", feedback.overallComment, "print-overall-comment", feedback.overallFormatting)}
     ${fragments ? `<div class="print-feedback-pairs">${fragments}</div>` : ""}
-    ${feedbackPrintTextSection("最後評語", feedback.finalComment, "print-final-comment")}
+    ${feedbackPrintTextSection("最後評語", feedback.finalComment, "print-final-comment", feedback.finalFormatting)}
     ${feedbackPrintLearningCards("文法評語站", feedback.grammarPoints)}
     ${improvedVersion}
     ${feedbackPrintTranscriptions(feedback)}
@@ -4860,16 +4888,20 @@ function feedbackPrintHtml(feedback) {
     ${feedbackPrintEnhancementCards("動詞片語 (Phrasal Verb) 提升區", feedback.phrasalVerbParts, "phrasal")}
     ${feedbackPrintEnhancementCards("Writing - Common Expression 提升區", feedback.writingCommonExpressionParts, "writingExpression")}
     ${feedbackPrintEnhancementCards("修辭 Common Expression 提升區", feedback.rhetoricalCommonExpressionParts, "rhetoricalExpression")}
+    ${feedbackPrintEnhancementCards("同義詞改善區", feedback.synonymImprovementParts, "synonym")}
   </section>`;
 }
 
-function writingExportHtml(bundles, { failedCount = 0, role = "student" } = {}) {
+function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = "both" } = {}) {
   const generatedAt = new Intl.DateTimeFormat("zh-HK", {
     dateStyle: "long",
     timeStyle: "short",
     timeZone: "Asia/Hong_Kong"
   }).format(new Date());
   const admin = role === "admin";
+  const includeWriting = mode === "writing" || mode === "both";
+  const includeFeedback = mode === "feedback" || mode === "both";
+  const modeLabel = mode === "writing" ? "學生原文" : mode === "feedback" ? "評語" : "學生原文及評語";
   const baseHref = new URL(".", window.location.href).href;
   const articles = bundles.map(({ submission, feedback }, index) => `
     <article class="composition">
@@ -4888,14 +4920,14 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student" } = {}) 
           ${admin && submission.deletedAt ? "<span>學生已從個人文章列表刪除</span>" : ""}
         </div>
       </header>
-      <section class="topic"><strong>寫作題目</strong><p>${escapePrintHtml(submission.topic)}</p></section>
-      <section class="answer"><strong>學生原文</strong><div>${escapePrintHtml(submission.answer || "（文章內容為空）")}</div></section>
-      ${feedbackPrintHtml(feedback)}
+      ${includeWriting ? `<section class="topic"><strong>寫作題目</strong><p>${escapePrintHtml(submission.topic)}</p></section>
+      <section class="answer"><strong>學生原文</strong><div>${escapePrintHtml(submission.answer || "（文章內容為空）")}</div></section>` : ""}
+      ${includeFeedback ? feedbackPrintHtml(feedback) : ""}
     </article>`).join("");
   return `<!doctype html>
 <html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <base href="${escapePrintHtml(baseHref)}">
-<title>EdmundEducation－寫作文章與評語</title>
+<title>EdmundEducation－${escapePrintHtml(modeLabel)}</title>
 <style>
   :root{color-scheme:light}*{box-sizing:border-box}html,body{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
   body{margin:0;color:#242342;background:#ececf2;font-family:Georgia,"Times New Roman","Noto Serif TC",serif}
@@ -4920,11 +4952,12 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student" } = {}) 
   @media(max-width:600px){.composition{padding:27px 22px}.export-header{gap:16px}.export-header .brand{font-size:20px}.export-header .elearning{height:30px}h1{font-size:22px}.print-sentence-panel>header{display:grid}}
   @media print{@page{size:A4;margin:10mm 9mm}.print-toolbar{display:none!important}body{background:#fff}main{width:auto;margin:0}.composition{margin:0;padding:0;box-shadow:none}}
 </style></head><body>
-<div class="print-toolbar"><p>已準備 ${bundles.length} 篇文章及評語${failedCount ? `；${failedCount} 篇未能載入` : ""} · ${escapePrintHtml(generatedAt)}</p><button type="button" id="print-compositions">列印／儲存為 PDF</button></div>
+<div class="print-toolbar"><p>已準備 ${bundles.length} 篇${escapePrintHtml(modeLabel)}${failedCount ? `；${failedCount} 篇未能載入` : ""} · ${escapePrintHtml(generatedAt)}</p><button type="button" id="print-compositions">列印／儲存為 PDF</button></div>
 <main>${articles}</main></body></html>`;
 }
 
-async function exportSubmissionBundles(ids, role) {
+async function exportSubmissionBundles(ids, role, mode = "both") {
+  if (!["writing", "feedback", "both"].includes(mode)) return;
   if (!["student", "admin"].includes(role) || state.user?.role !== role || state.exportInFlight) return;
   const admin = role === "admin";
   const source = admin ? state.adminSubmissions : state.submissions;
@@ -4971,7 +5004,7 @@ async function exportSubmissionBundles(ids, role) {
   try {
     const results = await mapWithConcurrency(
       requestedIds,
-      id => fetchSubmissionExportBundle(id, role),
+      id => fetchSubmissionExportBundle(id, role, mode),
       4
     );
     const bundles = results.filter(result => result.status === "fulfilled").map(result => {
@@ -4996,7 +5029,7 @@ async function exportSubmissionBundles(ids, role) {
     }
     if (printWindow.closed) throw new Error("匯出視窗已關閉。");
     printWindow.document.open();
-    printWindow.document.write(writingExportHtml(bundles, { failedCount, role }));
+    printWindow.document.write(writingExportHtml(bundles, { failedCount, role, mode }));
     printWindow.document.close();
     const printButton = printWindow.document.querySelector("#print-compositions");
     printButton?.addEventListener("click", () => printWindow.print());
@@ -5023,11 +5056,17 @@ async function exportSubmissionBundles(ids, role) {
 }
 
 function exportStudentSubmissions(ids) {
-  return exportSubmissionBundles(ids, "student");
+  return requestSubmissionExport(ids, "student");
 }
 
 function exportAdminSubmission(id) {
-  return exportSubmissionBundles([id], "admin");
+  return requestSubmissionExport([id], "admin");
+}
+
+function requestSubmissionExport(ids, role) {
+  if (!["student", "admin"].includes(role) || state.user?.role !== role) return;
+  state.pendingExport = { ids: [...ids], role };
+  safeDialogOpen(elements.exportModeDialog);
 }
 
 function renderSubmissionList() {
@@ -5389,8 +5428,20 @@ function normalizeTeacherFeedback(value) {
     id: String(value.id || ""),
     submissionId: String(value.submissionId || value.submission_id || ""),
     overallComment: String(value.overallComment || value.overall_comment || ""),
+    overallFormatting: normalizeFeedbackFormattingRuns(
+      value.overallFormatting || value.overall_formatting,
+      value.overallComment || value.overall_comment
+    ),
     finalComment: String(value.finalComment || value.final_comment || ""),
+    finalFormatting: normalizeFeedbackFormattingRuns(
+      value.finalFormatting || value.final_formatting,
+      value.finalComment || value.final_comment
+    ),
     improvedVersion: String(value.improvedVersion || value.improved_version || ""),
+    improvedFormatting: normalizeFeedbackFormattingRuns(
+      value.improvedFormatting || value.improved_formatting,
+      value.improvedVersion || value.improved_version
+    ),
     status: value.status === "published" ? "published" : "draft",
     version: Math.max(1, Number(value.version || 1)),
     publishedAt: String(value.publishedAt || value.published_at || ""),
@@ -5416,6 +5467,9 @@ function normalizeTeacherFeedback(value) {
     rhetoricalCommonExpressionParts: normalizeFeedbackEnhancementParts(
       value.rhetoricalCommonExpressionParts || value.rhetorical_common_expression_parts
     ),
+    synonymImprovementParts: normalizeFeedbackEnhancementParts(
+      value.synonymImprovementParts || value.synonym_improvement_parts
+    ),
     enhancementCopies: normalizeFeedbackEnhancementCopies(
       value.enhancementCopies || value.enhancement_copies
     ),
@@ -5437,10 +5491,12 @@ function submissionOriginalFragments(answerValue) {
   return output;
 }
 
-function feedbackTextSection(title, value, className = "") {
+function feedbackTextSection(title, value, className = "", formatting = []) {
   if (!String(value || "").trim()) return null;
   const section = createElement("section", `teacher-feedback-text ${className}`.trim());
-  section.append(createElement("h3", "", title), createElement("div", "", value));
+  const content = createElement("div", "teacher-feedback-rich-content");
+  appendFeedbackRichText(content, value, formatting);
+  section.append(createElement("h3", "", title), content);
   return section;
 }
 
@@ -5476,7 +5532,8 @@ function renderStudentTranscriptions(feedback) {
   const improvedVersion = feedbackTextSection(
     "保留原意改良版",
     feedback.improvedVersion,
-    "teacher-feedback-improved teacher-feedback-transcription-improved"
+    "teacher-feedback-improved teacher-feedback-transcription-improved",
+    feedback.improvedFormatting
   );
   if (improvedVersion) section.append(improvedVersion);
 
@@ -5763,7 +5820,12 @@ function renderStudentFeedback(feedback, container) {
   );
   if (feedback.updatedAt) head.append(createElement("time", "", `更新：${formatSubmissionDate(feedback.updatedAt)}`));
   panel.append(head);
-  const overall = feedbackTextSection("整體評語", feedback.overallComment, "teacher-feedback-overall");
+  const overall = feedbackTextSection(
+    "整體評語",
+    feedback.overallComment,
+    "teacher-feedback-overall",
+    feedback.overallFormatting
+  );
   if (overall) panel.append(overall);
   const fragments = createElement("div", "teacher-feedback-fragments");
   feedback.fragments.forEach((fragment, index) => {
@@ -5805,7 +5867,12 @@ function renderStudentFeedback(feedback, container) {
     fragments.append(pair);
   });
   if (feedback.fragments.length) panel.append(fragments);
-  const finalComment = feedbackTextSection("最後評語", feedback.finalComment, "teacher-feedback-final");
+  const finalComment = feedbackTextSection(
+    "最後評語",
+    feedback.finalComment,
+    "teacher-feedback-final",
+    feedback.finalFormatting
+  );
   if (finalComment) panel.append(finalComment);
   const grammarArea = renderStudentFeedbackLearningArea("文法評語站", feedback.grammarPoints);
   if (grammarArea) panel.append(grammarArea);
@@ -5824,7 +5891,7 @@ function renderStudentFeedback(feedback, container) {
     { kind: "rhetorical", feedback }
   );
   if (rhetoricalArea) panel.append(rhetoricalArea);
-  for (const kind of ["phrasal", "writingExpression", "rhetoricalExpression"]) {
+  for (const kind of ["phrasal", "writingExpression", "rhetoricalExpression", "synonym"]) {
     const copy = feedbackEnhancementKindCopy(kind);
     const area = renderStudentFeedbackEnhancementArea(
       copy.title,
@@ -5846,6 +5913,19 @@ function feedbackTextarea(label, value, datasetName, { rows = 3, maxLength = 200
   textarea.dataset[datasetName] = "true";
   wrapper.append(textarea);
   return wrapper;
+}
+
+function feedbackRichField(label, value, formatting, datasetName, { maxLength = 20000 } = {}) {
+  const section = createElement("section", "teacher-feedback-field teacher-feedback-rich-field");
+  section.append(createElement("span", "", label), feedbackFormattingToolbar());
+  section.append(createFeedbackRichEditor({
+    label,
+    value,
+    formatting,
+    maxLength,
+    datasetName
+  }));
+  return section;
 }
 
 function renumberFeedbackEditorRows(list) {
@@ -6364,57 +6444,101 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   badge.dataset.feedbackStatus = "true";
   heading.append(copy, badge);
   panel.append(heading);
-  panel.append(feedbackTextarea("整體評語", feedback?.overallComment || "", "feedbackOverall"));
+  const regionId = key => `feedback-${submission.id}-${key}`;
+  const jumpItems = [
+    ["overall", "整體評語"],
+    ["fragments", "逐句評語"],
+    ["final", "最後評語"],
+    ["grammar", "文法評語站"],
+    ["improved", "保留原意改良版"],
+    ["sentence", "句子結構"],
+    ["rhetorical", "修辭技巧"],
+    ["phrasal", "動詞片語"],
+    ["writingExpression", "Writing 常用語"],
+    ["rhetoricalExpression", "修辭常用語"],
+    ["synonym", "同義詞改善"],
+    ["actions", "儲存／發送"]
+  ];
+  const jumpNav = createElement("nav", "teacher-feedback-jump-nav");
+  jumpNav.setAttribute("aria-label", "快速前往評語區域");
+  jumpItems.forEach(([key, label]) => {
+    const button = createElement("button", "", label);
+    button.type = "button";
+    button.dataset.feedbackJumpTarget = regionId(key);
+    jumpNav.append(button);
+  });
+  panel.append(jumpNav);
+  const appendRegion = (node, key) => {
+    if (!node) return null;
+    node.id = regionId(key);
+    node.classList.add("teacher-feedback-jump-target");
+    panel.append(node);
+    return node;
+  };
+  appendRegion(feedbackRichField(
+    "整體評語",
+    feedback?.overallComment || "",
+    feedback?.overallFormatting || [],
+    "overall"
+  ), "overall");
+  const fragmentRegion = createElement("section", "teacher-feedback-region");
   const fragmentHeading = createElement("div", "teacher-feedback-fragment-heading");
   fragmentHeading.append(
     createElement("div", "", "逐句／逐段評語"),
     createElement("p", "", "每組依次顯示原句、Edmund 評語及建議寫法。可選取文字使用粗體、斜體、刪除線或五色螢光筆；未填評語的預備原句不會送出。")
   );
-  panel.append(fragmentHeading, feedbackFormattingToolbar());
+  fragmentRegion.append(fragmentHeading, feedbackFormattingToolbar());
   const list = createElement("div", "teacher-feedback-editor-list");
   list.dataset.feedbackPairs = "true";
   const saved = feedback?.fragments || [];
   const initialCount = Math.max(20, Math.ceil(saved.length / 10) * 10);
   appendFeedbackEditorRows(list, initialCount, saved, state.adminFeedbackSuggestedFragments);
-  panel.append(list);
+  fragmentRegion.append(list);
   const add = createElement("button", "secondary-button teacher-feedback-add", "＋ 增加 10 組");
   add.type = "button";
   add.dataset.feedbackAddTen = "true";
-  panel.append(add);
-  panel.append(feedbackTextarea("最後評語", feedback?.finalComment || "", "feedbackFinal"));
-  panel.append(renderFeedbackLearningEditor({
+  fragmentRegion.append(add);
+  appendRegion(fragmentRegion, "fragments");
+  appendRegion(feedbackRichField(
+    "最後評語",
+    feedback?.finalComment || "",
+    feedback?.finalFormatting || [],
+    "final"
+  ), "final");
+  appendRegion(renderFeedbackLearningEditor({
     kind: "grammar",
     title: "文法評語站",
     description: "每個欄位是一個獨立文法重點；最少預留 10 個，可逐次增加 10 個。數字清單可用 Shift + Enter 留空行後退出編號格式。",
     values: feedback?.grammarPoints || []
-  }));
-  panel.append(feedbackTextarea(
+  }), "grammar");
+  appendRegion(feedbackRichField(
     "保留原意改良版",
     feedback?.improvedVersion || "",
-    "feedbackImproved",
-    { rows: 12, maxLength: 100000 }
-  ));
-  panel.append(renderFeedbackLearningEditor({
+    feedback?.improvedFormatting || [],
+    "improved",
+    { maxLength: 100000 }
+  ), "improved");
+  appendRegion(renderFeedbackLearningEditor({
     kind: "sentence",
     title: "句子結構提升區",
     description: "每項分開記錄 Original Sentence 原句、Enhancement 改良寫法及 Benefit 好處／作用，並可從最下方選擇指定課堂連結。",
     values: feedback?.sentenceStructureParts || [],
     links: feedback?.sentenceStructureLinks || []
-  }));
-  panel.append(renderFeedbackLearningEditor({
+  }), "sentence");
+  appendRegion(renderFeedbackLearningEditor({
     kind: "rhetorical",
     title: "修辭技巧提升區",
     description: "在文法與句子結構之後，分開記錄 Original Sentence 原句、Enhancement 改良寫法及 Benefit 好處／作用。",
     values: feedback?.rhetoricalParts || []
-  }));
-  for (const kind of ["phrasal", "writingExpression", "rhetoricalExpression"]) {
+  }), "rhetorical");
+  for (const kind of ["phrasal", "writingExpression", "rhetoricalExpression", "synonym"]) {
     const kindCopy = feedbackEnhancementKindCopy(kind);
-    panel.append(renderFeedbackLearningEditor({
+    appendRegion(renderFeedbackLearningEditor({
       kind,
       title: kindCopy.title,
       description: "每項分開記錄 Original Sentence 原句、Enhancement 改良寫法及 Benefit 好處／作用。",
       values: feedback?.[kindCopy.dataKey] || []
-    }));
+    }), kind);
   }
   const status = createElement("p", "form-status teacher-feedback-save-status", "");
   status.dataset.feedbackSaveStatus = "true";
@@ -6431,7 +6555,9 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   remove.dataset.feedbackDelete = "true";
   remove.hidden = !feedback;
   actions.append(saveDraft, publish, remove);
-  panel.append(status, actions);
+  const actionRegion = createElement("section", "teacher-feedback-action-region");
+  actionRegion.append(status, actions);
+  appendRegion(actionRegion, "actions");
   container.append(panel);
 }
 
@@ -6455,9 +6581,12 @@ function readAdminFeedbackEditor(editor, { allowEmpty = false } = {}) {
       suggestionFormatting: suggestion.formatting
     });
   }
-  const overallComment = editor.querySelector("[data-feedback-overall]")?.value.trim() || "";
-  const finalComment = editor.querySelector("[data-feedback-final]")?.value.trim() || "";
-  const improvedVersion = editor.querySelector("[data-feedback-improved]")?.value.trim() || "";
+  const overall = readFeedbackRichEditor(editor.querySelector('[data-feedback-rich-editor="overall"]'));
+  const final = readFeedbackRichEditor(editor.querySelector('[data-feedback-rich-editor="final"]'));
+  const improved = readFeedbackRichEditor(editor.querySelector('[data-feedback-rich-editor="improved"]'));
+  const overallComment = overall.text;
+  const finalComment = final.text;
+  const improvedVersion = improved.text;
   const grammarPoints = normalizeGrammarFeedbackPoints(
     [...editor.querySelectorAll('[data-feedback-learning-row="grammar"]')]
       .map(row => readFeedbackRichEditor(row.querySelector('[data-feedback-rich-editor="grammar-point"]')))
@@ -6481,6 +6610,7 @@ function readAdminFeedbackEditor(editor, { allowEmpty = false } = {}) {
   const phrasalVerbParts = readEnhancementParts("phrasal");
   const writingCommonExpressionParts = readEnhancementParts("writingExpression");
   const rhetoricalCommonExpressionParts = readEnhancementParts("rhetoricalExpression");
+  const synonymImprovementParts = readEnhancementParts("synonym");
   const sentenceStructureMethods = normalizeSentenceStructureMethods(
     sentenceStructureParts.map(part => part.enhancement)
   );
@@ -6493,15 +6623,18 @@ function readAdminFeedbackEditor(editor, { allowEmpty = false } = {}) {
     !overallComment && !finalComment && !improvedVersion && !fragments.length
     && !grammarPoints.length && !sentenceStructureParts.length && !rhetoricalParts.length
     && !phrasalVerbParts.length && !writingCommonExpressionParts.length
-    && !rhetoricalCommonExpressionParts.length
+    && !rhetoricalCommonExpressionParts.length && !synonymImprovementParts.length
     && !sentenceStructureLinks.length
   ) {
     throw new Error("請先填寫至少一項評語內容。");
   }
   return {
     overallComment,
+    overallFormatting: overall.formatting,
     finalComment,
+    finalFormatting: final.formatting,
     improvedVersion,
+    improvedFormatting: improved.formatting,
     grammarPoints,
     sentenceStructureMethods,
     sentenceStructureParts,
@@ -6509,6 +6642,7 @@ function readAdminFeedbackEditor(editor, { allowEmpty = false } = {}) {
     phrasalVerbParts,
     writingCommonExpressionParts,
     rhetoricalCommonExpressionParts,
+    synonymImprovementParts,
     sentenceStructureLinks,
     fragments
   };
@@ -7740,6 +7874,7 @@ async function loadAdminGrammarProblemOccurrences(index, { reset = false } = {})
 async function selectAdminStudent(id) {
   if (!UUID_RE.test(String(id || ""))) return;
   state.selectedAdminStudentId = String(id);
+  if (elements.adminProxyStudent) elements.adminProxyStudent.value = String(id);
   state.selectedAdminSubmissionId = "";
   state.adminSubmissionRequestGeneration += 1;
   state.selectedAdminFeedback = null;
@@ -7980,6 +8115,120 @@ async function deleteAdminManualTopic(id) {
   }
 }
 
+function renderAdminProxyStudentOptions() {
+  if (!elements.adminProxyStudent) return;
+  const selected = UUID_RE.test(elements.adminProxyStudent.value)
+    ? elements.adminProxyStudent.value
+    : state.selectedAdminStudentId;
+  elements.adminProxyStudent.replaceChildren();
+  const placeholder = document.createElement("option");
+  placeholder.value = "";
+  placeholder.textContent = state.adminStudents.length ? "請選擇學生" : "尚未有學生帳戶";
+  elements.adminProxyStudent.append(placeholder);
+  state.adminStudents.forEach((student) => {
+    const option = document.createElement("option");
+    option.value = student.id;
+    option.textContent = student.name;
+    elements.adminProxyStudent.append(option);
+  });
+  if (state.adminStudents.some(student => student.id === selected)) {
+    elements.adminProxyStudent.value = selected;
+  }
+}
+
+async function renderAdminProxyTopicOptions() {
+  if (!elements.adminProxyTopicSelect) return;
+  try {
+    const catalog = await loadWritingTopicCatalog();
+    const manual = state.adminManualTopics.map(manualWritingTopicResource).filter(Boolean);
+    const choices = [...catalog, ...manual].filter((item, index, values) => (
+      values.findIndex(candidate => candidate.id === item.id) === index
+    ));
+    elements.adminProxyTopicSelect.replaceChildren();
+    const custom = document.createElement("option");
+    custom.value = "";
+    custom.textContent = "自行輸入新題目";
+    elements.adminProxyTopicSelect.append(custom);
+    choices.forEach((resource) => {
+      const option = document.createElement("option");
+      option.value = resource.id;
+      option.textContent = resource.detail
+        ? `${resource.label} — ${resource.detail}`
+        : resource.label;
+      elements.adminProxyTopicSelect.append(option);
+    });
+  } catch (error) {
+    console.warn("Admin proxy topic catalogue failed", error);
+    elements.adminProxyTopicSelect.replaceChildren();
+    const custom = document.createElement("option");
+    custom.value = "";
+    custom.textContent = "自行輸入新題目（題目資料庫暫時未能載入）";
+    elements.adminProxyTopicSelect.append(custom);
+  }
+}
+
+function applyAdminProxyTopicSelection() {
+  const id = String(elements.adminProxyTopicSelect?.value || "");
+  if (!id || !elements.adminProxyTopic) return;
+  const manual = state.adminManualTopics.map(manualWritingTopicResource).filter(Boolean);
+  const resource = [...state.topicCatalog, ...manual].find(item => item.id === id);
+  if (!resource) return;
+  elements.adminProxyTopic.value = resource.questionPrompt.length
+    ? resource.questionPrompt.join("\n\n")
+    : resource.label;
+  elements.adminProxyTopic.focus();
+}
+
+async function submitAdminProxySubmission(event) {
+  event.preventDefault();
+  if (state.user?.role !== "admin" || state.adminProxySubmitting) return;
+  const studentId = String(elements.adminProxyStudent?.value || "").toLowerCase();
+  const topic = String(elements.adminProxyTopic?.value || "").replace(/\r\n?/gu, "\n").trim();
+  const answer = String(elements.adminProxyAnswer?.value || "").replace(/\r\n?/gu, "\n").trim();
+  if (!UUID_RE.test(studentId)) {
+    setStatus(elements.adminProxyStatus, "請先選擇學生帳戶。", "error");
+    return;
+  }
+  if (!topic) {
+    setStatus(elements.adminProxyStatus, "請輸入或選擇寫作題目。", "error");
+    elements.adminProxyTopic?.focus();
+    return;
+  }
+  if (!answer || countEnglishWords(answer) < 1) {
+    setStatus(elements.adminProxyStatus, "請貼上學生文章後再提交。", "error");
+    elements.adminProxyAnswer?.focus();
+    return;
+  }
+  state.adminProxySubmitting = true;
+  if (elements.adminProxySubmit) elements.adminProxySubmit.disabled = true;
+  setStatus(elements.adminProxyStatus, "正在代學生安全提交文章……");
+  try {
+    const payload = await apiJson("/v1/admin/submissions", {
+      method: "POST",
+      body: JSON.stringify({ studentId, topic, answer })
+    });
+    const submission = normalizeSubmission(payload?.submission || payload);
+    if (!UUID_RE.test(submission.id)) throw new Error("交文服務回應無效。");
+    const student = state.adminStudents.find(item => item.id === studentId);
+    if (student) {
+      student.submissionCount += 1;
+      student.lastSubmissionAt = submission.submittedAt;
+    }
+    elements.adminProxyAnswer.value = "";
+    elements.adminProxyTopicSelect.value = "";
+    setStatus(elements.adminProxyStatus, "文章已代學生提交並儲存。", "success");
+    await selectAdminStudent(studentId);
+    await openAdminSubmission(submission.id);
+    elements.adminDetail?.scrollIntoView({ behavior: "smooth", block: "start" });
+    showToast(`已代 ${student?.name || "學生"} 提交文章。`, "success");
+  } catch (error) {
+    setStatus(elements.adminProxyStatus, error.message || "暫時未能代交文章。", "error");
+  } finally {
+    state.adminProxySubmitting = false;
+    if (elements.adminProxySubmit) elements.adminProxySubmit.disabled = false;
+  }
+}
+
 async function openAdminDashboard() {
   showView("admin");
   elements.adminStudentList.replaceChildren(loadingState("正在載入學生帳戶……"));
@@ -7994,6 +8243,8 @@ async function openAdminDashboard() {
       lastSubmissionAt: student.lastSubmissionAt ? String(student.lastSubmissionAt) : ""
     })).filter(student => UUID_RE.test(student.id)).sort((a, b) => a.name.localeCompare(b.name, "en", { sensitivity: "base" }))
     : [];
+  renderAdminProxyStudentOptions();
+  renderAdminProxyTopicOptions();
   renderAdminStudents();
   const selected = state.adminStudents.some(student => student.id === state.selectedAdminStudentId)
     ? state.selectedAdminStudentId
@@ -8134,6 +8385,10 @@ async function logout() {
 
 function bindEvents() {
   elements.loginForm.addEventListener("submit", handleLogin);
+  elements.adminProxyForm?.addEventListener("submit", event => {
+    submitAdminProxySubmission(event).catch(handleViewError);
+  });
+  elements.adminProxyTopicSelect?.addEventListener("change", applyAdminProxyTopicSelection);
   elements.adminManualTopicCreate?.addEventListener("click", () => createAdminManualTopics().catch(handleViewError));
   elements.passwordToggle.addEventListener("click", () => {
     const showing = elements.password.type === "text";
@@ -8159,6 +8414,29 @@ function bindEvents() {
   elements.refreshAdminReview.addEventListener("click", () => openAdminExplanationReview().catch(handleViewError));
   elements.adminReviewMore.addEventListener("click", () => loadAdminExplanationReviews().catch(handleViewError));
   elements.writingForm.addEventListener("submit", submitWriting);
+  elements.exportModeCancel?.addEventListener("click", () => {
+    state.pendingExport = null;
+    safeDialogClose(elements.exportModeDialog);
+  });
+  elements.exportModeDialog?.addEventListener("cancel", (event) => {
+    event.preventDefault();
+    state.pendingExport = null;
+    safeDialogClose(elements.exportModeDialog);
+  });
+  elements.exportModeDialog?.addEventListener("click", (event) => {
+    if (event.target === elements.exportModeDialog) {
+      state.pendingExport = null;
+      safeDialogClose(elements.exportModeDialog);
+      return;
+    }
+    const button = event.target.closest("[data-export-mode]");
+    if (!button || !state.pendingExport) return;
+    const pending = state.pendingExport;
+    const mode = String(button.dataset.exportMode || "");
+    state.pendingExport = null;
+    safeDialogClose(elements.exportModeDialog);
+    exportSubmissionBundles(pending.ids, pending.role, mode);
+  });
   if (elements.modelEssayToggle) {
     elements.modelEssayToggle.addEventListener("click", async () => {
       await loadModelEssayReference({ force: true });
@@ -8463,6 +8741,12 @@ function bindEvents() {
     }
   }, true);
   document.addEventListener("click", (event) => {
+    const feedbackJump = event.target.closest("[data-feedback-jump-target]");
+    if (feedbackJump) {
+      const target = document.getElementById(String(feedbackJump.dataset.feedbackJumpTarget || ""));
+      target?.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
     const smallerFeedbackFont = event.target.closest("[data-feedback-font-smaller]");
     if (smallerFeedbackFont) {
       changeFeedbackFontScale(-1);

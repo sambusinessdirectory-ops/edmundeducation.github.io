@@ -1189,6 +1189,7 @@ button { color: inherit; }
 .teacher-feedback-learning-editor.is-phrasal-verb { background: #edf8f2; }
 .teacher-feedback-learning-editor.is-writing-common-expression { background: #eef7fb; }
 .teacher-feedback-learning-editor.is-rhetorical-common-expression { background: #fff5e7; }
+.teacher-feedback-learning-editor.is-synonym-improvement { background: #f2f7ff; }
 .teacher-feedback-learning-head { padding: 22px 20px 15px; }
 .teacher-feedback-learning-head h3 { margin: 0; color: #1b5f85; font-size: 24px; }
 .teacher-feedback-learning-editor.is-sentence-structure .teacher-feedback-learning-head h3 { color: #51449b; }
@@ -1196,6 +1197,7 @@ button { color: inherit; }
 .teacher-feedback-learning-editor.is-phrasal-verb .teacher-feedback-learning-head h3 { color: #276848; }
 .teacher-feedback-learning-editor.is-writing-common-expression .teacher-feedback-learning-head h3 { color: #28617d; }
 .teacher-feedback-learning-editor.is-rhetorical-common-expression .teacher-feedback-learning-head h3 { color: #98631d; }
+.teacher-feedback-learning-editor.is-synonym-improvement .teacher-feedback-learning-head h3 { color: #405b9e; }
 .teacher-feedback-learning-head p { margin: 7px 0 0; color: #596d7d; font: 12px/1.6 ui-sans-serif,system-ui,sans-serif; }
 .teacher-feedback-learning-list { padding: 0 20px; display: grid; gap: 12px; }
 .teacher-feedback-learning-row { border: 1px solid rgba(37,107,143,.18); border-radius: 15px; padding: 14px; background: rgba(255,255,255,.82); }
@@ -1206,6 +1208,7 @@ button { color: inherit; }
 .is-phrasal-verb .teacher-feedback-learning-row-head strong { color: #276848; }
 .is-writing-common-expression .teacher-feedback-learning-row-head strong { color: #28617d; }
 .is-rhetorical-common-expression .teacher-feedback-learning-row-head strong { color: #98631d; }
+.is-synonym-improvement .teacher-feedback-learning-row-head strong { color: #405b9e; }
 .teacher-feedback-learning-row .teacher-feedback-rich-editor { min-height: 110px; }
 .teacher-feedback-enhancement-row { padding: 0; overflow: hidden; background: rgba(255,255,255,.92); }
 .teacher-feedback-enhancement-row > .teacher-feedback-learning-row-head { margin: 0; padding: 13px 15px; background: rgba(81,68,155,.07); }
@@ -1213,6 +1216,7 @@ button { color: inherit; }
 .teacher-feedback-enhancement-row.is-phrasal-verb > .teacher-feedback-learning-row-head { background: rgba(39,104,72,.08); }
 .teacher-feedback-enhancement-row.is-writing-common-expression > .teacher-feedback-learning-row-head { background: rgba(40,97,125,.08); }
 .teacher-feedback-enhancement-row.is-rhetorical-common-expression > .teacher-feedback-learning-row-head { background: rgba(152,99,29,.08); }
+.teacher-feedback-enhancement-row.is-synonym-improvement > .teacher-feedback-learning-row-head { background: rgba(64,91,158,.08); }
 .teacher-feedback-enhancement-fields { display: grid; }
 .teacher-feedback-enhancement-field { padding: 15px; display: grid; gap: 9px; background: #fff; }
 .teacher-feedback-enhancement-field + .teacher-feedback-enhancement-field { border-top: 1px solid rgba(39,39,87,.1); }
@@ -1223,6 +1227,42 @@ button { color: inherit; }
 .teacher-feedback-enhancement-row.is-phrasal-verb .teacher-feedback-enhancement-field.is-enhancement { background: #f0faf4; }
 .teacher-feedback-enhancement-row.is-writing-common-expression .teacher-feedback-enhancement-field.is-enhancement { background: #f0f8fc; }
 .teacher-feedback-enhancement-row.is-rhetorical-common-expression .teacher-feedback-enhancement-field.is-enhancement { background: #fff8ec; }
+.teacher-feedback-enhancement-row.is-synonym-improvement .teacher-feedback-enhancement-field.is-enhancement { background: #f1f5ff; }
+
+.admin-proxy-submit-panel { margin-bottom: 20px; padding: 24px; }
+.admin-proxy-intro { margin: -4px 0 20px; color: var(--ink-soft); line-height: 1.65; }
+.admin-proxy-badge { border-radius: 999px; padding: 7px 11px; color: #71420d; background: #fff0c9; font: 850 11px ui-sans-serif,system-ui,sans-serif; }
+.admin-proxy-submit-form { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; }
+.admin-proxy-submit-form .field { min-width: 0; }
+.admin-proxy-submit-form select,
+.admin-proxy-submit-form textarea { width: 100%; border: 1px solid rgba(39,39,87,.16); border-radius: 13px; padding: 12px 14px; color: var(--ink); background: #fff; font: 15px/1.6 ui-sans-serif,system-ui,sans-serif; }
+.admin-proxy-submit-form textarea { resize: vertical; font-family: Georgia,"Noto Serif TC Local",serif; }
+.admin-proxy-submit-form select:focus,
+.admin-proxy-submit-form textarea:focus { outline: 0; border-color: #6176cf; box-shadow: 0 0 0 4px rgba(97,118,207,.12); }
+.admin-proxy-wide { grid-column: 1/-1; }
+.admin-proxy-actions { display: flex; align-items: center; justify-content: space-between; gap: 15px; }
+.admin-proxy-actions .form-status { flex: 1 1 auto; }
+.admin-proxy-actions .primary-button { flex: 0 0 auto; }
+
+.teacher-feedback-jump-nav { position: sticky; top: var(--writing-feedback-sticky-top,76px); z-index: 8; padding: 9px 12px; display: flex; gap: 7px; overflow-x: auto; overscroll-behavior-inline: contain; scrollbar-width: thin; background: rgba(39,39,87,.96); backdrop-filter: blur(14px); }
+.teacher-feedback-jump-nav button { flex: 0 0 auto; border: 1px solid rgba(255,255,255,.2); border-radius: 999px; padding: 7px 10px; color: #fff; background: rgba(255,255,255,.09); cursor: pointer; font: 800 10px ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-jump-nav button:hover,
+.teacher-feedback-jump-nav button:focus-visible { border-color: #f6b263; outline: 0; color: #272757; background: #fff0c9; }
+.teacher-feedback-jump-target { scroll-margin-top: 150px; }
+.teacher-feedback-editor .teacher-feedback-format-toolbar { top: calc(var(--writing-feedback-sticky-top,76px) + 51px); }
+.teacher-feedback-rich-field .teacher-feedback-format-toolbar { margin: 0 -20px; }
+.teacher-feedback-rich-field .teacher-feedback-rich-editor { min-height: 145px; }
+.teacher-feedback-action-region { border-top: 1px solid rgba(39,39,87,.12); }
+
+.export-mode-options { display: grid; gap: 10px; }
+.export-mode-options button { width: 100%; }
+
+@media (max-width: 720px) {
+  .admin-proxy-submit-form { grid-template-columns: 1fr; }
+  .admin-proxy-wide { grid-column: auto; }
+  .admin-proxy-actions { align-items: stretch; flex-direction: column; }
+  .admin-proxy-actions .primary-button { width: 100%; }
+}
 .teacher-feedback-enhancement-field.is-benefit { background: #f1faf5; }
 .teacher-feedback-enhancement-field .teacher-feedback-rich-editor { min-height: 128px; background: #fff; resize: vertical; }
 .teacher-feedback-enhancement-field .teacher-feedback-live-preview { margin-top: 2px; }

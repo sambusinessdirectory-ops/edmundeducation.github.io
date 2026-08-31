@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260821-floating-topic2">
+  <link rel="stylesheet" href="writing-submission.css?v=20260831-admin-proxy1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
 </head>
 <body>
@@ -377,6 +377,42 @@
           <button class="small-button admin-name-sort" type="button" data-admin-name-sort aria-label="學生姓名目前由 A 至 Z 排列">姓名 A → Z</button>
         </div>
       </section>
+      <section class="admin-proxy-submit-panel glass-panel" aria-labelledby="admin-proxy-submit-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">ADMIN PROXY SUBMISSION</p>
+            <h2 id="admin-proxy-submit-title">代交文章</h2>
+          </div>
+          <span class="admin-proxy-badge">略過學生校對時間</span>
+        </div>
+        <p class="admin-proxy-intro">直接替指定學生提交文章。這裡只會載入題目文字，不會顯示 Flash Cards、Glossary、範文或其他參考資源。</p>
+        <form class="admin-proxy-submit-form" data-admin-proxy-form novalidate>
+          <label class="field">
+            <span>選擇學生帳戶</span>
+            <select data-admin-proxy-student required>
+              <option value="">正在載入學生帳戶……</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>從題目資料庫選擇（可選）</span>
+            <select data-admin-proxy-topic-select>
+              <option value="">自行輸入新題目</option>
+            </select>
+          </label>
+          <label class="field admin-proxy-wide">
+            <span>寫作題目</span>
+            <textarea data-admin-proxy-topic rows="4" maxlength="4000" required placeholder="自行輸入新題目，或從上方資料庫選擇……"></textarea>
+          </label>
+          <label class="field admin-proxy-wide">
+            <span>學生文章</span>
+            <textarea data-admin-proxy-answer rows="14" maxlength="100000" required placeholder="在這裡直接貼上學生的文章……"></textarea>
+          </label>
+          <div class="admin-proxy-actions admin-proxy-wide">
+            <p class="form-status" data-admin-proxy-status role="status" aria-live="polite"></p>
+            <button class="primary-button" type="submit" data-admin-proxy-submit>代學生提交並儲存</button>
+          </div>
+        </form>
+      </section>
       <div class="admin-student-layout">
         <section class="admin-student-panel glass-panel">
           <div class="section-heading"><div><p class="eyebrow">STUDENT ACCOUNTS</p><h2>學生帳戶</h2></div><span class="count-badge" data-admin-student-count>0</span></div>
@@ -448,6 +484,21 @@
       </label>
       <p class="topic-picker-note">選擇後會把完整題目貼到「寫作題目」。附圖題目亦會在這裡顯示；您仍可自行修改或輸入題目。</p>
       <div class="topic-picker-results" data-topic-picker-results aria-live="polite"></div>
+    </div>
+  </dialog>
+
+  <dialog class="submission-flow-dialog export-mode-dialog" data-export-mode-dialog aria-labelledby="export-mode-title">
+    <div class="submission-flow-dialog-shell">
+      <header class="submission-flow-dialog-head">
+        <h2 id="export-mode-title">選擇匯出內容</h2>
+        <button class="dialog-close" type="button" data-export-mode-cancel aria-label="取消匯出">×</button>
+      </header>
+      <p class="submission-flow-dialog-body">請選擇這次 PDF 要包含的內容。</p>
+      <div class="export-mode-options">
+        <button class="secondary-button" type="button" data-export-mode="writing">只匯出學生原文</button>
+        <button class="secondary-button" type="button" data-export-mode="feedback">只匯出評語</button>
+        <button class="primary-button" type="button" data-export-mode="both">匯出原文及評語</button>
+      </div>
     </div>
   </dialog>
 
@@ -559,9 +610,9 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
-  <script src="writing-submission-config.js?v=20260830-proxy1"></script>
+  <script src="writing-submission-config.js?v=20260831-admin-proxy1"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
-  <script type="module" src="writing-submission.js?v=20260830-proxy1"></script>
+  <script type="module" src="writing-submission.js?v=20260831-admin-proxy1"></script>
 </body>
 </html>
