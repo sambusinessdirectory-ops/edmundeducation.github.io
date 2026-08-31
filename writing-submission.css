@@ -1181,7 +1181,8 @@ button { color: inherit; }
 .teacher-feedback-highlight-button { min-height: 32px; border: 1px solid rgba(39,39,87,.15); border-radius: 9px; padding: 6px 10px; color: var(--ink); background: #fff; cursor: pointer; font: 800 11px ui-sans-serif,system-ui,sans-serif; }
 .teacher-feedback-format-bold { font: 900 17px Georgia,serif; }
 .teacher-feedback-format-italic { font: italic 850 17px Georgia,serif; }
-.teacher-feedback-format-strike { font: 850 15px Georgia,serif; text-decoration: line-through; }
+.teacher-feedback-format-strike { font: 850 15px Georgia,serif; text-decoration: line-through; text-decoration-color: #d31f35; text-decoration-thickness: 2px; }
+.teacher-feedback-format-numbering { font-variant-numeric: tabular-nums; }
 .teacher-feedback-multiselect-help { margin-left: auto; color: #716d80; font: 750 10px/1.4 ui-sans-serif,system-ui,sans-serif; }
 .teacher-feedback-highlight-button.is-yellow { background: #fff1a8; }
 .teacher-feedback-highlight-button.is-orange { background: #ffd3a1; }
@@ -1195,7 +1196,8 @@ button { color: inherit; }
 .teacher-feedback-selection-toolbar button:hover,.teacher-feedback-selection-toolbar button:focus-visible { border-color: #ffd978; outline: 0; background: rgba(255,255,255,.2); box-shadow: 0 0 0 2px rgba(255,217,120,.22); }
 .teacher-feedback-selection-toolbar .is-bold { font: 950 18px/1 Georgia,serif; }
 .teacher-feedback-selection-toolbar .is-italic { font: italic 900 18px/1 Georgia,serif; }
-.teacher-feedback-selection-toolbar .is-strike { font: 900 16px/1 Georgia,serif; text-decoration: line-through; }
+.teacher-feedback-selection-toolbar .is-strike { font: 900 16px/1 Georgia,serif; text-decoration: line-through; text-decoration-color: #ff4960; text-decoration-thickness: 2px; }
+.teacher-feedback-selection-toolbar .is-numbering { font-variant-numeric: tabular-nums; }
 .teacher-feedback-selection-toolbar .is-highlight { position: relative; }
 .teacher-feedback-selection-toolbar .is-highlight::before { width: 19px; height: 19px; border: 2px solid rgba(255,255,255,.82); border-radius: 50%; content: ""; box-shadow: 0 2px 5px rgba(0,0,0,.18); }
 .teacher-feedback-selection-toolbar .is-yellow::before { background: #fff1a8; }
@@ -1206,6 +1208,20 @@ button { color: inherit; }
 .teacher-feedback-selection-toolbar .is-clear { color: #ffe0e0; font-size: 20px; }
 .teacher-feedback-selection-divider { width: 1px; height: 24px; flex: 0 0 1px; margin: 0 2px; background: rgba(255,255,255,.18); }
 @keyframes feedback-selection-toolbar-in { from { transform: translateY(4px) scale(.98); opacity: 0; } to { transform: translateY(0) scale(1); opacity: 1; } }
+.teacher-feedback-rich-content s,.teacher-feedback-rich-editor s,.teacher-feedback-rich-editor strike,.teacher-feedback-rich-editor del { text-decoration-line: line-through; text-decoration-color: #d31f35; text-decoration-thickness: 2px; }
+.teacher-feedback-word-brush-help { flex-basis: 100%; margin: 4px 0 0; color: #58536c; font: 750 12px/1.5 ui-sans-serif,system-ui,sans-serif; }
+.feedback-word-bookmark-library { margin-top: 18px; }
+.feedback-word-bookmark-note { margin: -4px 0 16px; color: #676178; font-size: 13px; line-height: 1.65; }
+.feedback-word-bookmark-list { display: grid; gap: 12px; }
+.feedback-word-bookmark-card { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 16px; align-items: center; border: 1px solid rgba(39,39,87,.13); border-radius: 14px; padding: 16px; background: rgba(255,255,255,.78); }
+.feedback-word-bookmark-copy { min-width: 0; }
+.feedback-word-bookmark-copy > strong { display: block; color: #25244b; font-size: 20px; overflow-wrap: anywhere; }
+.feedback-word-bookmark-copy p { margin: 6px 0 0; }
+.feedback-word-bookmark-translation { color: #795d17; font-weight: 800; }
+.feedback-word-bookmark-context { color: #676178; font-size: 12px; line-height: 1.55; }
+.feedback-word-bookmark-context.is-chinese { color: #554b36; }
+.feedback-word-bookmark-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 7px; }
+@media (max-width: 720px) { .feedback-word-bookmark-card { grid-template-columns: 1fr; }.feedback-word-bookmark-actions { justify-content: flex-start; } }
 .teacher-feedback-add { margin: 18px 20px; width: calc(100% - 40px); }
 .teacher-feedback-learning-editor { border-top: 1px solid rgba(39,39,87,.13); background: #eaf7ff; }
 .teacher-feedback-learning-editor.is-sentence-structure { background: #f1efff; }

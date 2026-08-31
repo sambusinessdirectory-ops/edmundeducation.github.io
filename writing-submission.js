@@ -305,6 +305,8 @@ const elements = {
   refreshFeedbackBookmarks: document.querySelector("[data-refresh-feedback-bookmarks]"),
   feedbackBookmarkCount: document.querySelector("[data-feedback-bookmark-count]"),
   feedbackBookmarkList: document.querySelector("[data-feedback-bookmark-list]"),
+  feedbackWordBookmarkCount: document.querySelector("[data-feedback-word-bookmark-count]"),
+  feedbackWordBookmarkList: document.querySelector("[data-feedback-word-bookmark-list]"),
   adminSearch: document.querySelector("[data-admin-search]"),
   adminNameSort: document.querySelector("[data-admin-name-sort]"),
   adminCount: document.querySelector("[data-admin-count]"),
@@ -424,6 +426,8 @@ const state = {
   selectedStudentFeedback: null,
   feedbackBookmarks: [],
   feedbackBookmarksLoading: false,
+  feedbackWordBookmarks: [],
+  feedbackWordBookmarksLoading: false,
   submissionRequestGeneration: 0,
   grammarProblems: [],
   adminSubmissions: [],
@@ -1309,7 +1313,12 @@ function feedbackFormattingToolbar() {
   strike.dataset.feedbackFormat = "strikethrough";
   strike.setAttribute("aria-label", "刪除線");
   strike.title = "刪除線";
-  toolbar.append(bold, italic, strike);
+  const numbering = createElement("button", "teacher-feedback-format-button teacher-feedback-format-numbering", "1.");
+  numbering.type = "button";
+  numbering.dataset.feedbackFormat = "numbering";
+  numbering.setAttribute("aria-label", "連續編號");
+  numbering.title = "連續編號：自動接續目前最大號碼";
+  toolbar.append(bold, italic, strike, numbering);
   FEEDBACK_HIGHLIGHT_NAMES.forEach(name => {
     const labels = { yellow: "黃色", orange: "橙色", blue: "藍色", green: "綠色", red: "紅色" };
     const shortcuts = { yellow: "⌘Y", orange: "⌘O", blue: "⌘B", green: "⌘G", red: "⌘R" };
@@ -1348,6 +1357,7 @@ function ensureFeedbackSelectionToolbar() {
   addButton({ command: "bold", text: "B", className: "is-bold", label: "粗體" });
   addButton({ command: "italic", text: "I", className: "is-italic", label: "斜體" });
   addButton({ command: "strikethrough", text: "S", className: "is-strike", label: "刪除線" });
+  addButton({ command: "numbering", text: "1.", className: "is-numbering", label: "連續編號" });
   const divider = createElement("span", "teacher-feedback-selection-divider");
   divider.setAttribute("aria-hidden", "true");
   toolbar.append(divider);
@@ -1469,14 +1479,31 @@ function applyFeedbackFormatting(command) {
   const selection = window.getSelection();
   const current = currentFeedbackSelection(editor);
   if (current && !state.feedbackSelectionRanges.length) rememberFeedbackSelection(editor, [current]);
-  const ranges = cloneFeedbackRanges(state.feedbackSelectionRanges)
-    .filter(range => feedbackRangeBelongsToEditor(range, editor))
-    .sort((left, right) => {
+  const selectedRanges = cloneFeedbackRanges(state.feedbackSelectionRanges)
+    .filter(range => feedbackRangeBelongsToEditor(range, editor));
+  const ranges = [...selectedRanges].sort((left, right) => {
       try { return -left.compareBoundaryPoints(Range.START_TO_START, right); } catch { return 0; }
     });
   if (!selection || !ranges.length) {
     showToast("請先選取要設定格式的文字。", "error");
     return;
+  }
+  const keepPaletteOpen = command === "bold";
+  const retainedRanges = [];
+  let nextNumber = 1;
+  const numbering = new Map();
+  if (command === "numbering") {
+    nextNumber = Math.max(0, ...[...readFeedbackRichEditor(editor).text.matchAll(/^\s*(\d+)[.)]\s+/gmu)]
+      .map(match => Number(match[1]) || 0)) + 1;
+    [...selectedRanges].sort((left, right) => {
+      try { return left.compareBoundaryPoints(Range.START_TO_START, right); } catch { return 0; }
+    }).forEach((range) => {
+      const replacement = String(range.toString() || "")
+        .split("\n")
+        .map(line => line.trim() ? `${nextNumber++}. ${line.replace(/^\s*\d+[.)]\s+/u, "")}` : line)
+        .join("\n");
+      numbering.set(range.toString(), [...(numbering.get(range.toString()) || []), replacement]);
+    });
   }
   state.feedbackApplyingFormat = true;
   try {
@@ -1486,18 +1513,35 @@ function applyFeedbackFormatting(command) {
       if (command === "bold") document.execCommand("bold", false);
       else if (command === "italic") document.execCommand("italic", false);
       else if (command === "strikethrough") document.execCommand("strikeThrough", false);
+      else if (command === "numbering") {
+        const replacements = numbering.get(range.toString()) || [];
+        document.execCommand("insertText", false, replacements.pop() || range.toString());
+      }
       else if (command === "clear") document.execCommand("removeFormat", false);
       else if (FEEDBACK_HIGHLIGHT_NAMES.includes(command)) {
         document.execCommand("styleWithCSS", false, true);
         document.execCommand("hiliteColor", false, FEEDBACK_HIGHLIGHT_COLORS[command]);
       }
+      if (keepPaletteOpen && selection.rangeCount) retainedRanges.push(selection.getRangeAt(0).cloneRange());
     });
+    if (keepPaletteOpen) {
+      state.feedbackSelectionRanges = retainedRanges.filter(range => feedbackRangeBelongsToEditor(range, editor));
+      if (state.feedbackSelectionRanges.length) {
+        selection.removeAllRanges();
+        selection.addRange(state.feedbackSelectionRanges[state.feedbackSelectionRanges.length - 1]);
+      }
+      refreshFeedbackMultiSelectionHighlight();
+      editor.dispatchEvent(new Event("input", { bubbles: true }));
+    }
   } finally {
     state.feedbackApplyingFormat = false;
-    selection.removeAllRanges();
-    clearFeedbackSelectionRanges({ keepEditor: true });
+    if (!keepPaletteOpen) {
+      selection.removeAllRanges();
+      clearFeedbackSelectionRanges({ keepEditor: true });
+    }
   }
-  editor.dispatchEvent(new Event("input", { bubbles: true }));
+  if (keepPaletteOpen) scheduleFeedbackSelectionToolbarPosition();
+  else editor.dispatchEvent(new Event("input", { bubbles: true }));
 }
 
 function loadingState(label = "正在載入…") {
@@ -1783,6 +1827,13 @@ async function ensureSupabaseSession() {
   return client;
 }
 
+async function learningWordRpc(name, args) {
+  const client = await ensureSupabaseSession();
+  const { data, error } = await client.rpc(name, args);
+  if (error) throw error;
+  return data;
+}
+
 function saveSession() {
   if (!state.user || !state.authToken) return;
   try {
@@ -1841,6 +1892,8 @@ function clearSession() {
   state.selectedStudentFeedback = null;
   state.feedbackBookmarks = [];
   state.feedbackBookmarksLoading = false;
+  state.feedbackWordBookmarks = [];
+  state.feedbackWordBookmarksLoading = false;
   state.submissionRequestGeneration += 1;
   state.grammarProblems = [];
   state.adminSubmissions = [];
@@ -5990,12 +6043,14 @@ function renderStudentFeedback(feedback, container) {
   if (!feedback || feedback.status !== "published") return;
   state.selectedStudentFeedback = feedback;
   const panel = createElement("section", "teacher-feedback-view");
+  panel.id = `student-feedback-${feedback.submissionId}`;
   const head = createElement("header", "teacher-feedback-view-head");
   head.append(
     createElement("div", "", "EDMUND SIR FEEDBACK"),
     createElement("h2", "", "Edmund Sir 寫作評語")
   );
   if (feedback.updatedAt) head.append(createElement("time", "", `更新：${formatSubmissionDate(feedback.updatedAt)}`));
+  head.append(createElement("p", "teacher-feedback-word-brush-help", "🖌 選取評語內一個或多個字詞，再按浮出的畫筆收藏及製作 Flashcard。"));
   panel.append(head);
   const overall = feedbackTextSection(
     "整體評語",
@@ -7232,6 +7287,90 @@ function renderFeedbackBookmarks() {
   elements.feedbackBookmarkList.replaceChildren(output);
 }
 
+function normalizeFeedbackWordBookmark(value) {
+  return {
+    itemKey: String(value?.item_key || value?.itemKey || ""),
+    phrase: String(value?.phrase || ""),
+    exactTranslation: String(value?.exact_translation || value?.exactTranslation || ""),
+    contextEn: String(value?.context_en || value?.contextEn || ""),
+    contextZh: String(value?.context_zh || value?.contextZh || ""),
+    href: String(value?.href || "writing-submission.html"),
+    updatedAt: String(value?.updated_at || value?.updatedAt || "")
+  };
+}
+
+function renderFeedbackWordBookmarks() {
+  const bookmarks = state.feedbackWordBookmarks;
+  elements.feedbackWordBookmarkCount.textContent = String(bookmarks.length);
+  if (!bookmarks.length) {
+    elements.feedbackWordBookmarkList.replaceChildren(emptyState("尚未收藏寫作字詞。閱讀已發佈評語時選取文字，再按浮出的 🖌 畫筆即可收藏。"));
+    return;
+  }
+  const output = document.createDocumentFragment();
+  bookmarks.forEach((bookmark) => {
+    const card = createElement("article", "feedback-word-bookmark-card");
+    const copy = createElement("div", "feedback-word-bookmark-copy");
+    copy.append(createElement("strong", "", bookmark.phrase));
+    if (bookmark.exactTranslation) copy.append(createElement("p", "feedback-word-bookmark-translation", bookmark.exactTranslation));
+    if (bookmark.contextEn) copy.append(createElement("p", "feedback-word-bookmark-context", bookmark.contextEn));
+    if (bookmark.contextZh) copy.append(createElement("p", "feedback-word-bookmark-context is-chinese", bookmark.contextZh));
+    const actions = createElement("div", "feedback-word-bookmark-actions");
+    const open = createElement("a", "small-button", "開啟來源");
+    open.href = bookmark.href;
+    const flashcards = createElement("a", "small-button", "溫習 Flashcards");
+    flashcards.href = "flashcards.html?deck=student-custom%2Fsystem%2Fwriting-vocabulary";
+    const remove = createElement("button", "small-button", "移除字詞");
+    remove.type = "button";
+    remove.dataset.feedbackWordBookmarkRemove = bookmark.itemKey;
+    actions.append(open, flashcards, remove);
+    card.append(copy, actions);
+    output.append(card);
+  });
+  elements.feedbackWordBookmarkList.replaceChildren(output);
+}
+
+async function loadFeedbackWordBookmarks() {
+  if (state.user?.role !== "student" || state.feedbackWordBookmarksLoading) return;
+  state.feedbackWordBookmarksLoading = true;
+  elements.feedbackWordBookmarkList.replaceChildren(loadingState("正在載入寫作字詞書籤……"));
+  try {
+    const rows = await window.EdmundWordBookmarks.listWordBookmarks({
+      rpc: learningWordRpc,
+      token: state.authToken,
+      systemKey: "writing-submission"
+    });
+    state.feedbackWordBookmarks = rows.map(normalizeFeedbackWordBookmark).filter(item => item.itemKey && item.phrase);
+    renderFeedbackWordBookmarks();
+  } catch (error) {
+    elements.feedbackWordBookmarkList.replaceChildren(emptyState(error?.message || "暫時未能載入寫作字詞書籤。"));
+    throw error;
+  } finally {
+    state.feedbackWordBookmarksLoading = false;
+  }
+}
+
+async function removeFeedbackWordBookmark(itemKey) {
+  const bookmark = state.feedbackWordBookmarks.find(item => item.itemKey === itemKey);
+  if (!bookmark || state.user?.role !== "student") return;
+  const button = document.querySelector(`[data-feedback-word-bookmark-remove="${CSS.escape(itemKey)}"]`);
+  if (button) button.disabled = true;
+  try {
+    await window.EdmundWordBookmarks.setWordBookmark({
+      rpc: learningWordRpc,
+      token: state.authToken,
+      systemKey: "writing-submission",
+      ...bookmark,
+      bookmarked: false
+    });
+    state.feedbackWordBookmarks = state.feedbackWordBookmarks.filter(item => item.itemKey !== itemKey);
+    renderFeedbackWordBookmarks();
+    showToast("已移除寫作字詞書籤；永久卡組仍會保留。", "success");
+  } catch (error) {
+    if (button?.isConnected) button.disabled = false;
+    showToast(error?.message || "暫時未能移除字詞書籤。", "error");
+  }
+}
+
 async function loadFeedbackBookmarks() {
   if (state.user?.role !== "student" || state.feedbackBookmarksLoading) return;
   state.feedbackBookmarksLoading = true;
@@ -7258,7 +7397,9 @@ async function loadFeedbackBookmarks() {
 
 async function openFeedbackBookmarks() {
   showView("feedback-bookmarks");
-  await loadFeedbackBookmarks();
+  const results = await Promise.allSettled([loadFeedbackBookmarks(), loadFeedbackWordBookmarks()]);
+  const failed = results.find(result => result.status === "rejected");
+  if (failed) throw failed.reason;
 }
 
 async function setFeedbackBookmark(fragmentId, bookmarked) {
@@ -9106,6 +9247,10 @@ function bindEvents() {
     }
   }, true);
   document.addEventListener("click", (event) => {
+    const wordBookmarkRemove = event.target.closest("[data-feedback-word-bookmark-remove]");
+    if (wordBookmarkRemove) {
+      return removeFeedbackWordBookmark(wordBookmarkRemove.dataset.feedbackWordBookmarkRemove);
+    }
     const feedbackJump = event.target.closest("[data-feedback-jump-target]");
     if (feedbackJump) {
       const target = document.getElementById(String(feedbackJump.dataset.feedbackJumpTarget || ""));
@@ -9418,6 +9563,42 @@ function handleViewError(error) {
   showToast(error.message || "暫時未能載入資料。", "error");
 }
 
+function initializeStudentFeedbackWordBrush() {
+  const helper = window.EdmundWordBookmarks;
+  if (!helper?.createSelectionBrush) return;
+  helper.createSelectionBrush({
+    systemKey: "writing-submission",
+    root: () => elements.submissionDetail,
+    getToken: () => state.user?.role === "student" ? state.authToken : "",
+    rpc: learningWordRpc,
+    describe({ element, phrase }) {
+      if (state.user?.role !== "student") return false;
+      const content = element.closest(".teacher-feedback-view .teacher-feedback-rich-content");
+      if (!content) return false;
+      const context = String(content.textContent || "").replace(/\s+/gu, " ").trim();
+      const chinese = /[\p{Script=Han}]/u.test(context);
+      const submissionId = state.selectedStudentFeedback?.submissionId || state.selectedSubmissionId;
+      const block = content.closest(".teacher-feedback-read-pair, .teacher-feedback-text, .teacher-feedback-learning-point, .teacher-feedback-enhancement-band");
+      const blockIndex = block ? [...elements.submissionDetail.querySelectorAll(".teacher-feedback-rich-content")].indexOf(content) : 0;
+      return {
+        scope: `${submissionId || "feedback"}:${Math.max(0, blockIndex)}`,
+        phrase,
+        contextEn: chinese ? "" : context,
+        contextZh: chinese ? context : "",
+        href: submissionId
+          ? `writing-submission.html?submissionId=${encodeURIComponent(submissionId)}`
+          : "writing-submission.html"
+      };
+    },
+    onSaved({ phrase }) {
+      showToast(`已收藏「${phrase}」，並加入「寫作系統生字」。`, "success");
+    },
+    onError(error) {
+      showToast(error?.message || "字詞暫時未能收藏。", "error");
+    }
+  });
+}
+
 async function checkHealth() {
   try {
     const response = await fetch(`${workerBaseUrl()}/v1/health`, { credentials: "omit" });
@@ -9430,6 +9611,7 @@ async function checkHealth() {
 
 async function initialise() {
   bindEvents();
+  initializeStudentFeedbackWordBrush();
   ensureFeedbackSelectionToolbar();
   initializeAdminManualTopicSlots();
   initializeFeedbackStickyOffset();

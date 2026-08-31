@@ -544,6 +544,56 @@
     return client;
   }
 
+  async function learningWordRpc(name, args) {
+    const client = await ensureSupabaseSession();
+    const { data, error } = await client.rpc(name, args);
+    if (error) throw error;
+    return data;
+  }
+
+  function initializeSpeakingWordBrush() {
+    const helper = window.EdmundWordBookmarks;
+    if (!helper?.createSelectionBrush) return;
+    helper.createSelectionBrush({
+      systemKey: "speaking",
+      root: () => dom.content,
+      getToken: () => state.user?.role === "student" ? state.authToken : "",
+      rpc: learningWordRpc,
+      describe({ element, phrase }) {
+        if (state.user?.role !== "student" || state.route.view !== "exercise") return false;
+        const english = element.closest(
+          ".part1-answer-message .part1-message-en,.response-card .response-en,.part3-step .part3-step-en"
+        );
+        if (!english) return false;
+        const exercise = currentExercise();
+        if (!exercise) return false;
+        const part1 = english.closest(".part1-answer-message");
+        const response = english.closest(".response-card");
+        const part3 = english.closest(".part3-step");
+        const chinese = part1?.querySelector(".part1-message-zh")
+          || response?.querySelector(".response-zh")
+          || part3?.querySelector(".part3-translation p");
+        const allAnswers = [...dom.content.querySelectorAll(
+          ".part1-answer-message .part1-message-en,.response-card .response-en,.part3-step .part3-step-en"
+        )];
+        return {
+          scope: `${exercise.id}:${Math.max(0, allAnswers.indexOf(english))}`,
+          phrase,
+          contextEn: String(english.textContent || ""),
+          contextZh: String(chinese?.textContent || ""),
+          href: `speaking-system.html?exercise=${encodeURIComponent(exercise.id)}`
+        };
+      },
+      onSaved({ phrase }) {
+        toast(`已收藏「${phrase}」，並加入「寫作系統生字」。`, "info");
+      },
+      onError(error) {
+        console.warn("Speaking vocabulary bookmark failed:", error);
+        toast("字詞暫時未能收藏，請稍後再試。", "error");
+      }
+    });
+  }
+
   async function studentLogin(username, password) {
     const client = await ensureSupabaseSession();
     const rpcName = String(CONFIG.studentLoginRpc || "flashcard_student_login");
@@ -7809,6 +7859,7 @@
 
   async function init() {
     setupEvents();
+    initializeSpeakingWordBrush();
     const restored = restoreSession();
     if (restored) {
       setConnection("驗證登入時段", "connecting");

@@ -1,0 +1,22 @@
+.learning-word-brush {
+  position: fixed;
+  z-index: 1200;
+  min-height: 42px;
+  max-width: min(330px, calc(100vw - 16px));
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 999px;
+  padding: 9px 15px;
+  color: #fff;
+  background: linear-gradient(135deg,#263b65,#87651f);
+  box-shadow: 0 13px 34px rgba(20,28,54,.32);
+  cursor: pointer;
+  font: 800 13px/1.25 ui-sans-serif,system-ui,-apple-system,sans-serif;
+  backdrop-filter: blur(14px);
+  animation: learning-word-brush-in .14s ease-out;
+}
+.learning-word-brush[hidden] { display: none; }
+.learning-word-brush:hover,.learning-word-brush:focus-visible { outline: 0; transform: translateY(-1px); box-shadow: 0 15px 38px rgba(20,28,54,.4),0 0 0 3px rgba(245,199,92,.3); }
+.learning-word-brush.is-saving { cursor: wait; opacity: .82; }
+.learning-word-brush.is-saved { background: linear-gradient(135deg,#176344,#8a6a21); }
+@keyframes learning-word-brush-in { from { opacity: 0; transform: translateY(4px) scale(.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@media (prefers-reduced-motion: reduce) { .learning-word-brush { animation: none; } }

@@ -542,7 +542,59 @@ async function openReadingBookmark(key) {
 async function toggleWordBookmark(word) {
   if (word.classList.contains('is-pending')) return;
   const key = word.dataset.wordKey; const bookmarked = !state.bookmarks.has(key); const context = word.dataset.wordContext; const label = word.textContent.trim(); word.classList.toggle("is-pending", true);
-  try { await setBookmark({ key, title: `[閱讀重點] ${label}`, detail: `${state.data.title} · ${context.startsWith("p") ? `第 ${context.slice(1)} 段` : `第 ${context.slice(1)} 題`} · 點選字詞`, href: `reading-comprehension.html?article=${ARTICLE_ID}#${context.startsWith("p") ? `paragraph-${context.slice(1)}` : `question-${context.slice(1)}`}` }, bookmarked); word.classList.toggle("is-bookmarked", bookmarked); showToast(bookmarked ? `已收藏重點字詞「${label}」。` : `已移除重點字詞「${label}」。`); } catch (error) { console.warn(error); showToast("字詞書簽暫時未能儲存。"); } finally { word.classList.remove("is-pending"); }
+  const paragraphNumber = context.startsWith("p") ? Number(context.slice(1)) : 0;
+  const questionNumber = context.startsWith("q") ? Number(context.slice(1)) : 0;
+  const paragraph = state.data.paragraphs.find(item => Number(item.number) === paragraphNumber);
+  const question = state.data.questions.find(item => Number(item.number) === questionNumber);
+  const href = `reading-comprehension.html?article=${ARTICLE_ID}#${paragraphNumber ? `paragraph-${paragraphNumber}` : `question-${questionNumber || 1}`}`;
+  try {
+    await window.EdmundWordBookmarks.setWordBookmark({
+      rpc,
+      token: state.token,
+      systemKey: "reading-comprehension",
+      itemKey: key,
+      phrase: label,
+      contextEn: paragraph?.text || question?.prompt || "",
+      contextZh: paragraph?.translation || question?.translation || "",
+      href,
+      bookmarked
+    });
+    await setBookmark({ key, title: `[閱讀重點] ${label}`, detail: `${state.data.title} · ${paragraphNumber ? `第 ${paragraphNumber} 段` : `第 ${questionNumber} 題`} · 點選字詞`, href }, bookmarked);
+    word.classList.toggle("is-bookmarked", bookmarked);
+    showToast(bookmarked ? `已收藏「${label}」，並加入「寫作系統生字」。` : `已移除重點字詞「${label}」。`);
+  } catch (error) { console.warn(error); showToast("字詞書簽暫時未能儲存。"); }
+  finally { word.classList.remove("is-pending"); }
+}
+
+function initializeReadingWordBrush() {
+  const helper = window.EdmundWordBookmarks;
+  if (!helper?.createSelectionBrush) return;
+  helper.createSelectionBrush({
+    systemKey: "reading-comprehension",
+    root: () => document.querySelector('[data-view="exercise"]'),
+    getToken: () => state.token,
+    rpc,
+    describe({ element, phrase }) {
+      if (state.view !== "exercise" || !state.token) return false;
+      const source = element.closest(".passage-text-block,.question-prompt,.original-question-group,.choice-list span");
+      if (!source) return false;
+      const paragraphNode = source.closest(".passage-paragraph");
+      const questionNode = source.closest(".question-card");
+      const paragraphNumber = Number(paragraphNode?.id?.replace("paragraph-", "") || 0);
+      const questionNumber = Number(questionNode?.dataset.question || 0);
+      const paragraph = state.data?.paragraphs.find(item => Number(item.number) === paragraphNumber);
+      const question = state.data?.questions.find(item => Number(item.number) === questionNumber);
+      return {
+        scope: `${ARTICLE_ID}:${paragraphNumber ? `p${paragraphNumber}` : `q${questionNumber || "group"}`}`,
+        phrase,
+        contextEn: paragraph?.text || question?.prompt || String(source.textContent || ""),
+        contextZh: paragraph?.translation || question?.translation || "",
+        href: `reading-comprehension.html?article=${encodeURIComponent(ARTICLE_ID)}#${paragraphNumber ? `paragraph-${paragraphNumber}` : `question-${questionNumber || 1}`}`
+      };
+    },
+    onSaved({ phrase }) { showToast(`已收藏「${phrase}」，並加入「寫作系統生字」。`); },
+    onError(error) { console.warn(error); showToast("字詞暫時未能收藏，請稍後再試。"); }
+  });
 }
 
 function paragraphAudioRange(number) {
@@ -712,6 +764,7 @@ document.addEventListener("visibilitychange", () => { if (document.hidden) { pau
 window.addEventListener('popstate', () => { if (state.user && state.token) void openInitialView(); });
 
 (async function init() {
+  initializeReadingWordBrush();
   let progressVisible = true; try { progressVisible = localStorage.getItem('edmund-reading-progress-hidden') !== 'true'; } catch {}
   setAnswerProgressVisible(progressVisible);
   if (typeof ResizeObserver !== 'undefined') { const observer = new ResizeObserver(updateFloatingOffsets); ['.edmund-system-header', '[data-answer-progress-dock]', '.study-toolbar'].forEach((selector) => observer.observe($(selector))); }

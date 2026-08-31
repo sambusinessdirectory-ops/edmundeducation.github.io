@@ -1745,6 +1745,19 @@
       font-weight: 900;
     }
 
+    .automatic-deck-badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      border-radius: 999px;
+      padding: 6px 11px;
+      color: #654b0c;
+      background: #fff0b8;
+      font-size: 12px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
     .custom-card-editor-layout {
       display: grid;
       grid-template-columns: 170px minmax(0, 1fr);
@@ -1810,6 +1823,7 @@
       cursor: grab;
       transition: transform 0.16s ease, opacity 0.16s ease, outline-color 0.16s ease;
     }
+    .custom-card-table-row[draggable="false"] { cursor: default; }
 
     .custom-card-table-row:active {
       cursor: grabbing;
@@ -185927,6 +185941,11 @@ window.EDMUND_FLASHCARD_SEED = {
     let studentSortSaveInFlight = false;
     let adminPasswordForSession = "";
     let studentSessionToken = "";
+    const AUTOMATIC_LEARNING_WORD_DECK_ID = "student-custom/system/writing-vocabulary";
+    let automaticLearningWordDeck = { exists: false, title: "寫作系統生字", createdAt: 0, updatedAt: 0, cards: [] };
+    function resetAutomaticLearningWordDeck() {
+      automaticLearningWordDeck = { exists: false, title: "寫作系統生字", createdAt: 0, updatedAt: 0, cards: [] };
+    }
     let loginFailureMessage = "";
     let flashcardLoginFlight = null;
     let flashcardClientReloadPending = false;
@@ -190404,6 +190423,7 @@ window.EDMUND_FLASHCARD_SEED = {
     function getDeckCards(deckId = currentDeckId) {
       if (!privateDeckVisibleToStudent(deckId)) return [];
       if (deckId === BOOKMARK_DECK_ID) return getBookmarkedCards();
+      if (deckId === AUTOMATIC_LEARNING_WORD_DECK_ID) return automaticLearningWordDeck.cards.map(normalizeCard);
       const customStore = getCardStore();
       const seedCards = Array.isArray(seedDecks[deckId]) ? seedDecks[deckId] : [];
       const customCards = Array.isArray(customStore[deckId]) ? customStore[deckId] : [];
@@ -190431,9 +190451,51 @@ window.EDMUND_FLASHCARD_SEED = {
     function getStudentCustomDecks(studentName = currentUser?.name) {
       if (!studentName) return [];
       const store = getCardStore();
-      return (Array.isArray(store[studentDeckMetaKey()]) ? store[studentDeckMetaKey()] : [])
+      const personal = (Array.isArray(store[studentDeckMetaKey()]) ? store[studentDeckMetaKey()] : [])
         .filter(deck => deck.studentName === studentName)
         .sort((a, b) => (b.updatedAt || b.createdAt || 0) - (a.updatedAt || a.createdAt || 0));
+      return automaticLearningWordDeck.exists && currentUser?.role === "student" && studentName === currentUser.name
+        ? [{
+            id: AUTOMATIC_LEARNING_WORD_DECK_ID,
+            title: automaticLearningWordDeck.title,
+            studentName,
+            createdAt: automaticLearningWordDeck.createdAt,
+            updatedAt: automaticLearningWordDeck.updatedAt,
+            systemManaged: true
+          }, ...personal]
+        : personal;
+    }
+
+    async function loadAutomaticLearningWordDeck() {
+      const ownerToken = studentSessionToken;
+      const ownerId = currentUser?.id;
+      if (currentUser?.role !== "student" || !ownerToken) {
+        automaticLearningWordDeck = { exists: false, title: "寫作系統生字", createdAt: 0, updatedAt: 0, cards: [] };
+        return false;
+      }
+      try {
+        const payload = await callSupabaseRpc("learning_word_flashcard_deck", { p_token: ownerToken });
+        if (ownerToken !== studentSessionToken || ownerId !== currentUser?.id) return false;
+        const cards = (Array.isArray(payload?.cards) ? payload.cards : []).map(row => normalizeCard({
+          front: row.phrase,
+          meaning: row.exact_translation || "",
+          examples: row.context_en || row.context_zh ? [{ en: row.context_en || "", zh: row.context_zh || "" }] : [],
+          sourcePage: row.href || null
+        })).filter(card => card.front);
+        automaticLearningWordDeck = {
+          exists: payload?.exists === true,
+          title: String(payload?.title || "寫作系統生字"),
+          createdAt: payload?.createdAt ? new Date(payload.createdAt).getTime() : Date.now(),
+          updatedAt: payload?.updatedAt ? new Date(payload.updatedAt).getTime() : Date.now(),
+          cards
+        };
+        deckTitleLabels.set(AUTOMATIC_LEARNING_WORD_DECK_ID, automaticLearningWordDeck.title);
+        refreshCurrentView();
+        return true;
+      } catch (error) {
+        console.warn("Automatic learning-word deck could not be loaded:", error);
+        return false;
+      }
     }
 
     function createStudentCustomDeck(title) {
@@ -190458,7 +190520,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function addStudentCustomCard(deckId, card) {
-      if (!currentUser?.name || !deckId) return false;
+      if (!currentUser?.name || !deckId || deckId === AUTOMATIC_LEARNING_WORD_DECK_ID) return false;
       const store = getCardStore();
       const cards = Array.isArray(store[deckId]) ? store[deckId] : [];
       const normalized = normalizeCard({
@@ -190490,7 +190552,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function updateStudentCustomCard(deckId, index, card) {
-      if (!currentUser?.name || !deckId || !deckId.startsWith("student-custom/")) return false;
+      if (!currentUser?.name || !deckId || !deckId.startsWith("student-custom/") || deckId === AUTOMATIC_LEARNING_WORD_DECK_ID) return false;
       const cardIndex = Number(index);
       const store = getCardStore();
       const cards = Array.isArray(store[deckId]) ? [...store[deckId]] : [];
@@ -190566,7 +190628,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function reorderStudentCustomCard(deckId, fromIndex, toIndex) {
-      if (!currentUser?.name || !deckId || !deckId.startsWith("student-custom/")) return false;
+      if (!currentUser?.name || !deckId || !deckId.startsWith("student-custom/") || deckId === AUTOMATIC_LEARNING_WORD_DECK_ID) return false;
       const sourceIndex = Number(fromIndex);
       const targetIndex = Number(toIndex);
       const store = getCardStore();
@@ -190584,7 +190646,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function deleteStudentCustomDeck(deckId) {
-      if (!currentUser?.name || !deckId || !deckId.startsWith("student-custom/")) return false;
+      if (!currentUser?.name || !deckId || !deckId.startsWith("student-custom/") || deckId === AUTOMATIC_LEARNING_WORD_DECK_ID) return false;
       const store = getCardStore();
       const metaKey = studentDeckMetaKey();
       delete store[deckId];
@@ -190837,6 +190899,7 @@ window.EDMUND_FLASHCARD_SEED = {
     function setSession(user) {
       resetFlashcardDisplayPreferences();
       if (!clearFlashcardSyncedStateCache()) return false;
+      resetAutomaticLearningWordDeck();
       currentUser = user;
       advanceFlashcardSyncEpoch(
         currentUser?.role === "student"
@@ -190873,6 +190936,7 @@ window.EDMUND_FLASHCARD_SEED = {
       currentUser = null;
       adminPasswordForSession = "";
       studentSessionToken = "";
+      resetAutomaticLearningWordDeck();
       sessionStorage.removeItem(SESSION_KEY);
       sessionStorage.removeItem(ADMIN_SESSION_PASSWORD_KEY);
       advanceFlashcardSyncEpoch(FLASHCARD_SYNC_PHASES.SIGNED_OUT);
@@ -190894,6 +190958,7 @@ window.EDMUND_FLASHCARD_SEED = {
         return false;
       }
       currentUser = null;
+      resetAutomaticLearningWordDeck();
       if (saved && saved.name && saved.role) {
         currentUser = saved;
         advanceFlashcardSyncEpoch(
@@ -190952,7 +191017,9 @@ window.EDMUND_FLASHCARD_SEED = {
           createdAt: student.created_at ? new Date(student.created_at).getTime() : Date.now(),
           sessionToken: studentSessionToken
         };
-        return setSession(restoredUser);
+        const restored = setSession(restoredUser);
+        if (restored) void loadAutomaticLearningWordDeck();
+        return restored;
       } catch (error) {
         console.warn("Flashcard universal session validation failed:", error);
         return false;
@@ -191319,6 +191386,7 @@ window.EDMUND_FLASHCARD_SEED = {
               loginFailureMessage = "舊有學習紀錄未能建立安全備份，登入已停止。";
               return false;
             }
+            const automaticWordDeckPromise = loadAutomaticLearningWordDeck();
             // Authentication has succeeded. Open the learning home immediately;
             // the sync phase remains read-only until the older cloud record has
             // been reconciled below, so students never wait on the login screen.
@@ -191341,6 +191409,7 @@ window.EDMUND_FLASHCARD_SEED = {
             }
             const stateContext = captureSupabaseStateSaveContext();
             if (stateLoaded && stateContext && isSupabaseStateHydrated(stateContext)) {
+              await automaticWordDeckPromise;
               hydrateFlashcardDisplayPreferences();
               updateSupabaseStatus("已安全連接", "live");
               refreshCurrentView();
@@ -191388,7 +191457,8 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function getKnownDeckIds() {
       const customIds = Object.keys(getCardStore()).filter(key => !key.startsWith("__"));
-      return [...new Set([...Object.keys(seedDecks), ...customIds])]
+      const automaticIds = automaticLearningWordDeck.exists ? [AUTOMATIC_LEARNING_WORD_DECK_ID] : [];
+      return [...new Set([...Object.keys(seedDecks), ...customIds, ...automaticIds])]
         .filter(deckId => privateDeckVisibleToStudent(deckId));
     }
 
@@ -194546,12 +194616,11 @@ window.EDMUND_FLASHCARD_SEED = {
                 <div class="custom-deck-row">
                   <span class="custom-deck-title">
                     ${escapeHtml(deck.title)}
-                    <small>${getDeckCards(deck.id).length} 張卡｜建立：${todayText(deck.createdAt)}</small>
+                    <small>${getDeckCards(deck.id).length} 張卡｜${deck.systemManaged ? "由 Writing、Speaking 及 Reading 自動同步 · 永久卡組" : `建立：${todayText(deck.createdAt)}`}</small>
                   </span>
                   <button class="secondary-button" type="button" data-route="student-custom-detail|${escapeHtml(deck.id)}">詳細</button>
                   <button class="secondary-button" type="button" data-open-deck="${escapeHtml(deck.id)}" data-deck-title="${escapeHtml(deck.title)}">練習</button>
-                  <button class="secondary-button" type="button" data-route="student-custom-add|${escapeHtml(deck.id)}">新增卡片</button>
-                  <button class="mini-button danger" type="button" data-delete-custom-deck="${escapeHtml(deck.id)}">Delete</button>
+                  ${deck.systemManaged ? '<span class="automatic-deck-badge">自動卡組</span>' : `<button class="secondary-button" type="button" data-route="student-custom-add|${escapeHtml(deck.id)}">新增卡片</button><button class="mini-button danger" type="button" data-delete-custom-deck="${escapeHtml(deck.id)}">Delete</button>`}
                 </div>
               `).join("") : `<p class="note-text">暫時未有自製卡組。</p>`}
             </div>
@@ -194564,17 +194633,18 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function showStudentCustomDetail(deckId, push = true) {
       const deck = getStudentCustomDecks().find(item => item.id === deckId);
+      const systemManaged = deck?.systemManaged === true;
       const title = deck?.title || deckTitleFromId(deckId);
       const cards = getDeckCards(deckId);
       deckTitleLabels.set(deckId, title);
       showOptions(
         `卡片詳細 - ${title}`,
-        "拖曳卡片列可調整顯示次序；按「修訂」可修改該張卡片內容。",
+        systemManaged ? "這個永久卡組由三個學習系統的字詞畫筆自動更新。" : "拖曳卡片列可調整顯示次序；按「修訂」可修改該張卡片內容。",
         () => `
           <div class="custom-card-detail-panel">
             <div class="access-actions">
               <button class="secondary-button" type="button" data-route="student-custom-home">返回自製卡組</button>
-              <button class="secondary-button" type="button" data-route="student-custom-add|${escapeHtml(deckId)}">新增卡片</button>
+              ${systemManaged ? "" : `<button class="secondary-button" type="button" data-route="student-custom-add|${escapeHtml(deckId)}">新增卡片</button>`}
             </div>
             <div class="custom-card-table">
               ${cards.length ? `
@@ -194585,11 +194655,11 @@ window.EDMUND_FLASHCARD_SEED = {
                   <span>操作</span>
                 </div>
                 ${cards.map((card, index) => `
-                  <div class="custom-card-table-row custom-card-row-grid" draggable="true" data-custom-card-row data-custom-card-deck="${escapeHtml(deckId)}" data-custom-card-index="${index}">
+                  <div class="custom-card-table-row custom-card-row-grid" draggable="${systemManaged ? "false" : "true"}" ${systemManaged ? "" : "data-custom-card-row"} data-custom-card-deck="${escapeHtml(deckId)}" data-custom-card-index="${index}">
                     <span class="custom-card-number">${index + 1}</span>
                     <span class="custom-card-cell">${escapeHtml(card.front || "-")}</span>
                     <span class="custom-card-cell">${escapeHtml(card.meaning || "-")}</span>
-                    <button class="secondary-button" type="button" data-route="student-custom-edit|${escapeHtml(deckId)}|${index}">修訂</button>
+                    ${systemManaged ? (card.sourcePage ? `<a class="secondary-button" href="${escapeHtml(card.sourcePage)}">來源</a>` : "<span>自動同步</span>") : `<button class="secondary-button" type="button" data-route="student-custom-edit|${escapeHtml(deckId)}|${index}">修訂</button>`}
                   </div>
                 `).join("")}
               ` : `<p class="note-text">這個卡組暫時未有卡片。</p>`}
@@ -194608,6 +194678,10 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function showStudentCustomAdd(deckId, editIndex = null, push = true) {
+      if (deckId === AUTOMATIC_LEARNING_WORD_DECK_ID) {
+        showStudentCustomDetail(deckId, push);
+        return;
+      }
       const deck = getStudentCustomDecks().find(item => item.id === deckId);
       const title = deck?.title || deckTitleFromId(deckId);
       const editingRequested = editIndex !== null && editIndex !== undefined && editIndex !== "";
@@ -197970,6 +198044,7 @@ window.EDMUND_FLASHCARD_SEED = {
         if (status) status.textContent = "正在載入完整學習紀錄…";
       }
       const stateReady = await initSupabaseState();
+      if (currentUser?.role === "student" && studentSessionToken) await loadAutomaticLearningWordDeck();
       restoredDashboardPanel?.removeAttribute("aria-busy");
       if (restoredDashboardPanel) restoredDashboardPanel.inert = false;
       loginControls.forEach(control => { control.disabled = false; });
