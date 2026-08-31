@@ -99,7 +99,7 @@ begin
     select 1
     from public.flashcard_students student
     where student.id = p_student_id
-      and student.is_active
+      and student.deleted_at is null
   ) then
     return;
   end if;
@@ -129,7 +129,8 @@ begin
          v_row.deleted_at,
          v_row.topic_resource
   from public.flashcard_students student
-  where student.id = p_student_id;
+  where student.id = p_student_id
+    and student.deleted_at is null;
 end;
 $$;
 

@@ -1239,6 +1239,12 @@ button { color: inherit; }
 .admin-proxy-submit-form textarea { resize: vertical; font-family: Georgia,"Noto Serif TC Local",serif; }
 .admin-proxy-submit-form select:focus,
 .admin-proxy-submit-form textarea:focus { outline: 0; border-color: #6176cf; box-shadow: 0 0 0 4px rgba(97,118,207,.12); }
+.admin-proxy-topic-picker-field { display: grid; align-content: start; gap: 7px; }
+.admin-proxy-topic-open { width: 100%; min-height: 64px; border: 1px solid rgba(39,39,87,.18); border-radius: 13px; padding: 11px 14px; display: grid; align-content: center; gap: 3px; color: #fff; background: linear-gradient(135deg,#272757,#3f518f); box-shadow: 0 8px 20px rgba(39,39,87,.15); cursor: pointer; text-align: left; }
+.admin-proxy-topic-open:hover,
+.admin-proxy-topic-open:focus-visible { border-color: #f1b267; outline: 0; box-shadow: 0 0 0 4px rgba(232,123,44,.16),0 10px 24px rgba(39,39,87,.2); }
+.admin-proxy-topic-open strong { font: 850 14px/1.35 ui-sans-serif,system-ui,sans-serif; }
+.admin-proxy-topic-open small { overflow: hidden; color: rgba(255,255,255,.76); font: 11px/1.4 ui-sans-serif,system-ui,sans-serif; text-overflow: ellipsis; white-space: nowrap; }
 .admin-proxy-wide { grid-column: 1/-1; }
 .admin-proxy-actions { display: flex; align-items: center; justify-content: space-between; gap: 15px; }
 .admin-proxy-actions .form-status { flex: 1 1 auto; }

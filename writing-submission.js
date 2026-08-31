@@ -210,6 +210,8 @@ const elements = {
   topicPickerOpen: document.querySelector("[data-topic-picker-open]"),
   topicPicker: document.querySelector("[data-topic-picker]"),
   topicPickerClose: document.querySelector("[data-topic-picker-close]"),
+  topicPickerTitle: document.querySelector("[data-topic-picker-title]"),
+  topicPickerNote: document.querySelector("[data-topic-picker-note]"),
   topicPickerSearch: document.querySelector("[data-topic-picker-search]"),
   topicPickerResults: document.querySelector("[data-topic-picker-results]"),
   removeWritingTopic: document.querySelector("[data-remove-writing-topic]"),
@@ -317,7 +319,8 @@ const elements = {
   adminManualTopicList: document.querySelector("[data-admin-manual-topic-list]"),
   adminProxyForm: document.querySelector("[data-admin-proxy-form]"),
   adminProxyStudent: document.querySelector("[data-admin-proxy-student]"),
-  adminProxyTopicSelect: document.querySelector("[data-admin-proxy-topic-select]"),
+  adminProxyTopicOpen: document.querySelector("[data-admin-proxy-topic-open]"),
+  adminProxyTopicChoice: document.querySelector("[data-admin-proxy-topic-choice]"),
   adminProxyTopic: document.querySelector("[data-admin-proxy-topic]"),
   adminProxyAnswer: document.querySelector("[data-admin-proxy-answer]"),
   adminProxySubmit: document.querySelector("[data-admin-proxy-submit]"),
@@ -399,6 +402,7 @@ const state = {
   submissionPromise: null,
   topicCatalog: [],
   topicCatalogPromise: null,
+  topicPickerTarget: "student",
   homeworkResourceCatalog: null,
   homeworkResourceCatalogPromise: null,
   randomTopicGeneration: 0,
@@ -1711,6 +1715,7 @@ function clearSession() {
   state.entryLinkHandled = false;
   state.topicCatalog = [];
   state.topicCatalogPromise = null;
+  state.topicPickerTarget = "student";
   state.selectedTopicResource = null;
   state.randomTopicGeneration += 1;
   state.writingTimer = emptyWritingTimer();
@@ -2545,8 +2550,10 @@ function writingTopicResultHaystack(resource) {
 function renderWritingTopicResults(query = "") {
   if (!elements.topicPickerResults) return;
   const tokens = writingTopicSearchTokens(query);
-  const matches = state.topicCatalog
-    .filter(canAccessWritingTopic)
+  const source = state.topicPickerTarget === "admin"
+    ? adminProxyTopicCatalog()
+    : state.topicCatalog.filter(canAccessWritingTopic);
+  const matches = source
     .filter((resource) => {
       if (!tokens.length) return true;
       const haystack = writingTopicResultHaystack(resource);
@@ -2589,7 +2596,18 @@ function renderWritingTopicResults(query = "") {
   elements.topicPickerResults.replaceChildren(fragment);
 }
 
-async function openWritingTopicPicker() {
+async function openWritingTopicPicker({ target = "student" } = {}) {
+  state.topicPickerTarget = target === "admin" && state.user?.role === "admin" ? "admin" : "student";
+  if (elements.topicPickerTitle) {
+    elements.topicPickerTitle.textContent = state.topicPickerTarget === "admin"
+      ? "代交文章：選擇寫作題目"
+      : "選擇寫作練習題目";
+  }
+  if (elements.topicPickerNote) {
+    elements.topicPickerNote.textContent = state.topicPickerTarget === "admin"
+      ? "搜尋並選擇後，只會把完整題目貼到代交表格；不會載入 Flash Cards、Glossary、範文或其他參考資源。"
+      : "選擇後會把完整題目貼到「寫作題目」。附圖題目亦會在這裡顯示；您仍可自行修改或輸入題目。";
+  }
   elements.topicPickerResults.replaceChildren(loadingState("正在載入寫作練習題目…"));
   if (typeof elements.topicPicker.showModal === "function") elements.topicPicker.showModal();
   else elements.topicPicker.setAttribute("open", "");
@@ -2606,6 +2624,7 @@ async function openWritingTopicPicker() {
 function closeWritingTopicPicker() {
   if (typeof elements.topicPicker.close === "function") elements.topicPicker.close();
   else elements.topicPicker.removeAttribute("open");
+  state.topicPickerTarget = "student";
 }
 
 function randomTopicCategory(categoryId) {
@@ -2707,6 +2726,18 @@ async function assignRandomWritingTopic(categoryId) {
 }
 
 function selectWritingTopic(resourceId, { persist = true, close = true, toast = true } = {}) {
+  if (state.topicPickerTarget === "admin") {
+    const resource = adminProxyTopicCatalog().find(item => item.id === resourceId);
+    if (!resource || !elements.adminProxyTopic) return;
+    elements.adminProxyTopic.value = (resource.questionPrompt.length
+      ? resource.questionPrompt.join("\n\n")
+      : resource.label).slice(0, 4000);
+    if (elements.adminProxyTopicChoice) elements.adminProxyTopicChoice.textContent = resource.label;
+    if (close) closeWritingTopicPicker();
+    elements.adminProxyTopic.focus();
+    if (toast) showToast("已把題目貼到代交表格；不會載入任何參考資源。", "success");
+    return;
+  }
   const resource = canonicalWritingTopicResource(resourceId);
   if (!resource) return;
   const topic = resource.questionPrompt.length
@@ -8136,47 +8167,11 @@ function renderAdminProxyStudentOptions() {
   }
 }
 
-async function renderAdminProxyTopicOptions() {
-  if (!elements.adminProxyTopicSelect) return;
-  try {
-    const catalog = await loadWritingTopicCatalog();
-    const manual = state.adminManualTopics.map(manualWritingTopicResource).filter(Boolean);
-    const choices = [...catalog, ...manual].filter((item, index, values) => (
-      values.findIndex(candidate => candidate.id === item.id) === index
-    ));
-    elements.adminProxyTopicSelect.replaceChildren();
-    const custom = document.createElement("option");
-    custom.value = "";
-    custom.textContent = "自行輸入新題目";
-    elements.adminProxyTopicSelect.append(custom);
-    choices.forEach((resource) => {
-      const option = document.createElement("option");
-      option.value = resource.id;
-      option.textContent = resource.detail
-        ? `${resource.label} — ${resource.detail}`
-        : resource.label;
-      elements.adminProxyTopicSelect.append(option);
-    });
-  } catch (error) {
-    console.warn("Admin proxy topic catalogue failed", error);
-    elements.adminProxyTopicSelect.replaceChildren();
-    const custom = document.createElement("option");
-    custom.value = "";
-    custom.textContent = "自行輸入新題目（題目資料庫暫時未能載入）";
-    elements.adminProxyTopicSelect.append(custom);
-  }
-}
-
-function applyAdminProxyTopicSelection() {
-  const id = String(elements.adminProxyTopicSelect?.value || "");
-  if (!id || !elements.adminProxyTopic) return;
+function adminProxyTopicCatalog() {
   const manual = state.adminManualTopics.map(manualWritingTopicResource).filter(Boolean);
-  const resource = [...state.topicCatalog, ...manual].find(item => item.id === id);
-  if (!resource) return;
-  elements.adminProxyTopic.value = resource.questionPrompt.length
-    ? resource.questionPrompt.join("\n\n")
-    : resource.label;
-  elements.adminProxyTopic.focus();
+  return [...state.topicCatalog, ...manual].filter((item, index, values) => (
+    values.findIndex(candidate => candidate.id === item.id) === index
+  ));
 }
 
 async function submitAdminProxySubmission(event) {
@@ -8215,7 +8210,9 @@ async function submitAdminProxySubmission(event) {
       student.lastSubmissionAt = submission.submittedAt;
     }
     elements.adminProxyAnswer.value = "";
-    elements.adminProxyTopicSelect.value = "";
+    if (elements.adminProxyTopicChoice) {
+      elements.adminProxyTopicChoice.textContent = "可搜尋題目、考試、類型或關鍵字";
+    }
     setStatus(elements.adminProxyStatus, "文章已代學生提交並儲存。", "success");
     await selectAdminStudent(studentId);
     await openAdminSubmission(submission.id);
@@ -8244,7 +8241,6 @@ async function openAdminDashboard() {
     })).filter(student => UUID_RE.test(student.id)).sort((a, b) => a.name.localeCompare(b.name, "en", { sensitivity: "base" }))
     : [];
   renderAdminProxyStudentOptions();
-  renderAdminProxyTopicOptions();
   renderAdminStudents();
   const selected = state.adminStudents.some(student => student.id === state.selectedAdminStudentId)
     ? state.selectedAdminStudentId
@@ -8388,7 +8384,7 @@ function bindEvents() {
   elements.adminProxyForm?.addEventListener("submit", event => {
     submitAdminProxySubmission(event).catch(handleViewError);
   });
-  elements.adminProxyTopicSelect?.addEventListener("change", applyAdminProxyTopicSelection);
+  elements.adminProxyTopicOpen?.addEventListener("click", () => openWritingTopicPicker({ target: "admin" }));
   elements.adminManualTopicCreate?.addEventListener("click", () => createAdminManualTopics().catch(handleViewError));
   elements.passwordToggle.addEventListener("click", () => {
     const showing = elements.password.type === "text";
@@ -8625,7 +8621,7 @@ function bindEvents() {
   elements.randomTopicDialog?.addEventListener("click", (event) => {
     if (event.target === elements.randomTopicDialog) closeRandomWritingTopicPicker();
   });
-  elements.topicPickerOpen.addEventListener("click", () => openWritingTopicPicker());
+  elements.topicPickerOpen.addEventListener("click", () => openWritingTopicPicker({ target: "student" }));
   elements.topicPickerClose.addEventListener("click", closeWritingTopicPicker);
   elements.topicPickerSearch.addEventListener("input", () => renderWritingTopicResults(elements.topicPickerSearch.value));
   elements.topicPicker.addEventListener("click", (event) => {

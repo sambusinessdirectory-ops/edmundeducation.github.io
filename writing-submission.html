@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260831-admin-proxy1">
+  <link rel="stylesheet" href="writing-submission.css?v=20260831-admin-proxy2">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
 </head>
 <body>
@@ -393,12 +393,13 @@
               <option value="">正在載入學生帳戶……</option>
             </select>
           </label>
-          <label class="field">
+          <div class="field admin-proxy-topic-picker-field">
             <span>從題目資料庫選擇（可選）</span>
-            <select data-admin-proxy-topic-select>
-              <option value="">自行輸入新題目</option>
-            </select>
-          </label>
+            <button class="admin-proxy-topic-open" type="button" data-admin-proxy-topic-open>
+              <strong>開啟互動題目選擇器</strong>
+              <small data-admin-proxy-topic-choice>可搜尋題目、考試、類型或關鍵字</small>
+            </button>
+          </div>
           <label class="field admin-proxy-wide">
             <span>寫作題目</span>
             <textarea data-admin-proxy-topic rows="4" maxlength="4000" required placeholder="自行輸入新題目，或從上方資料庫選擇……"></textarea>
@@ -475,14 +476,14 @@
   <dialog class="topic-picker-dialog" data-topic-picker aria-labelledby="topic-picker-title">
     <div class="topic-picker-shell">
       <header class="topic-picker-head">
-        <div><p class="eyebrow">WRITING PRACTICE QUESTIONS</p><h2 id="topic-picker-title">選擇寫作練習題目</h2></div>
+        <div><p class="eyebrow">WRITING PRACTICE QUESTIONS</p><h2 id="topic-picker-title" data-topic-picker-title>選擇寫作練習題目</h2></div>
         <button class="dialog-close" type="button" data-topic-picker-close aria-label="關閉題目選擇器">×</button>
       </header>
       <label class="topic-picker-search">
         <span>搜尋題目、考試、類型或關鍵字</span>
         <input type="search" data-topic-picker-search autocomplete="off" placeholder="例如：2023、environment、IELTS Task 1">
       </label>
-      <p class="topic-picker-note">選擇後會把完整題目貼到「寫作題目」。附圖題目亦會在這裡顯示；您仍可自行修改或輸入題目。</p>
+      <p class="topic-picker-note" data-topic-picker-note>選擇後會把完整題目貼到「寫作題目」。附圖題目亦會在這裡顯示；您仍可自行修改或輸入題目。</p>
       <div class="topic-picker-results" data-topic-picker-results aria-live="polite"></div>
     </div>
   </dialog>
@@ -610,9 +611,9 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
-  <script src="writing-submission-config.js?v=20260831-admin-proxy1"></script>
+  <script src="writing-submission-config.js?v=20260831-admin-proxy2"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
-  <script type="module" src="writing-submission.js?v=20260831-admin-proxy1"></script>
+  <script type="module" src="writing-submission.js?v=20260831-admin-proxy2"></script>
 </body>
 </html>

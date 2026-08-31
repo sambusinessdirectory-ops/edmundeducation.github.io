@@ -88,6 +88,10 @@ const adminProxyFeedbackMigration = fs.readFileSync(
   path.join(root, "supabase-writing-submission-admin-proxy-feedback-20260831.sql"),
   "utf8"
 );
+const adminProxyActiveStudentHotfix = fs.readFileSync(
+  path.join(root, "supabase/migrations/20260831013832_writing_submission_admin_proxy_active_student_hotfix.sql"),
+  "utf8"
+);
 const feedbackTools = fs.readFileSync(
   path.join(root, "writing-submission-feedback-tools.mjs"),
   "utf8"
@@ -379,8 +383,8 @@ test("submission traffic uses a first-party Supabase relay with a safe failure p
     config,
     /submissionProxyUrl:\s*"https:\/\/ookkxzgpdclzrrhfmvqx\.supabase\.co\/functions\/v1\/writing-submission-proxy"/
   );
-  assert.match(html, /writing-submission-config\.js\?v=20260831-admin-proxy1/);
-  assert.match(html, /writing-submission\.js\?v=20260831-admin-proxy1/);
+  assert.match(html, /writing-submission-config\.js\?v=20260831-admin-proxy2/);
+  assert.match(html, /writing-submission\.js\?v=20260831-admin-proxy2/);
   assert.match(submissionProxy, /const UPSTREAM_ORIGIN = "https:\/\/edmund-writing-submission\.edmundeducation\.workers\.dev"/);
   assert.match(submissionProxy, /const ALLOWED_ORIGINS = new Set/);
   assert.match(submissionProxy, /request\.method !== "PUT" && request\.method !== "POST"/);
@@ -413,8 +417,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260831-admin-proxy1/);
-  assert.match(html, /writing-submission\.js\?v=20260831-admin-proxy1/);
+  assert.match(html, /writing-submission\.css\?v=20260831-admin-proxy2/);
+  assert.match(html, /writing-submission\.js\?v=20260831-admin-proxy2/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -1152,7 +1156,11 @@ test("additional feedback sections, ordered transcription and per-item copy prac
 test("admin proxy submission and expanded feedback tools stay authenticated and auditable", () => {
   assert.match(html, /data-admin-proxy-form/);
   assert.match(html, /data-admin-proxy-student/);
-  assert.match(html, /data-admin-proxy-topic-select/);
+  assert.match(html, /data-admin-proxy-topic-open/);
+  assert.doesNotMatch(html, /data-admin-proxy-topic-select/);
+  assert.match(script, /openWritingTopicPicker\(\{ target: "admin" \}\)/);
+  assert.match(script, /state\.topicPickerTarget === "admin"/);
+  assert.match(script, /不會載入 Flash Cards、Glossary、範文或其他參考資源/);
   assert.match(html, /data-admin-proxy-answer/);
   assert.match(script, /method:\s*"POST"[\s\S]*?studentId, topic, answer/);
   assert.match(script, /operation", "admin-submission"/);
@@ -1161,6 +1169,13 @@ test("admin proxy submission and expanded feedback tools stay authenticated and 
   assert.match(adminProxyFeedbackMigration, /action in \('delete_occurrence', 'delete_rule_category', 'proxy_submission'\)/);
   assert.match(adminProxyFeedbackMigration, /insert into public\.writing_submission_admin_audit/);
   assert.match(adminProxyFeedbackMigration, /public\._writing_submission_admin_id\(p_admin_token\)/);
+  assert.match(adminProxyFeedbackMigration, /student\.deleted_at is null/);
+  assert.doesNotMatch(adminProxyFeedbackMigration, /student\.is_active/);
+  assert.match(adminProxyActiveStudentHotfix, /begin;/i);
+  assert.match(adminProxyActiveStudentHotfix, /student\.deleted_at is null/);
+  assert.doesNotMatch(adminProxyActiveStudentHotfix, /student\.is_active/);
+  assert.match(adminProxyActiveStudentHotfix, /revoke all on function public\.writing_submission_admin_submit_for_student[\s\S]*?service_role/i);
+  assert.match(adminProxyActiveStudentHotfix, /commit;/i);
   assert.match(adminProxyFeedbackMigration, /revoke all on function public\.writing_submission_admin_submit_for_student[\s\S]*?service_role/);
 
   for (const field of ["overallFormatting", "finalFormatting", "improvedFormatting"]) {
