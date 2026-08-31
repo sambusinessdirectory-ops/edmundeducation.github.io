@@ -383,8 +383,8 @@ test("submission traffic uses a first-party Supabase relay with a safe failure p
     config,
     /submissionProxyUrl:\s*"https:\/\/ookkxzgpdclzrrhfmvqx\.supabase\.co\/functions\/v1\/writing-submission-proxy"/
   );
-  assert.match(html, /writing-submission-config\.js\?v=20260831-admin-proxy2/);
-  assert.match(html, /writing-submission\.js\?v=20260831-admin-proxy2/);
+  assert.match(html, /writing-submission-config\.js\?v=20260831-admin-recovery1/);
+  assert.match(html, /writing-submission\.js\?v=20260831-admin-recovery1/);
   assert.match(submissionProxy, /const UPSTREAM_ORIGIN = "https:\/\/edmund-writing-submission\.edmundeducation\.workers\.dev"/);
   assert.match(submissionProxy, /const ALLOWED_ORIGINS = new Set/);
   assert.match(submissionProxy, /request\.method !== "PUT" && request\.method !== "POST"/);
@@ -417,8 +417,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260831-admin-proxy2/);
-  assert.match(html, /writing-submission\.js\?v=20260831-admin-proxy2/);
+  assert.match(html, /writing-submission\.css\?v=20260831-admin-recovery1/);
+  assert.match(html, /writing-submission\.js\?v=20260831-admin-recovery1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -1188,6 +1188,17 @@ test("admin proxy submission and expanded feedback tools stay authenticated and 
   assert.match(script, /data-feedback-jump-target/);
   assert.match(script, /scrollIntoView\(\{ behavior: "smooth"/);
   assert.match(css, /\.teacher-feedback-jump-nav/);
+  assert.match(script, /ADMIN_FEEDBACK_RECOVERY_KEY_PREFIX/);
+  assert.match(script, /sessionStorage\.setItem\(key, JSON\.stringify\(\{/);
+  assert.match(script, /baseFingerprint: state\.adminFeedbackSavedFingerprint/);
+  assert.match(script, /window\.addEventListener\("beforeunload"/);
+  assert.match(script, /persistAdminFeedbackRecovery\(\{ force: true \}\)/);
+  assert.match(script, /readAdminFeedbackRecovery\(submission\.id\)/);
+  assert.match(script, /自動保存在此分頁、尚未送到伺服器的評語進度/);
+  assert.match(script, /已還原重新整理前尚未送到伺服器的評語進度/);
+  assert.match(script, /立即儲存草稿/);
+  assert.match(css, /\.teacher-feedback-recovery-status\[data-state="pending"\]/);
+  assert.match(css, /\.teacher-feedback-quick-save/);
 
   assert.match(script, /sectionKey: "synonym-improvement"/);
   assert.match(script, /title: "同義詞改善區"/);

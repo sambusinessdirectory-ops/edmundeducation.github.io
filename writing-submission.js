@@ -80,6 +80,8 @@ const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-writing-submission-session-v1";
 const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";
 const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
+const ADMIN_FEEDBACK_RECOVERY_KEY_PREFIX = "edmund-writing-admin-feedback-recovery-v1";
+const ADMIN_FEEDBACK_RECOVERY_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
 const TOPIC_CATALOG_VERSION = "20260818-hkfsd-ir3";
 const TOPIC_REFERENCE_VERSION = "20260818-hkfsd-ir3";
 const MAX_FEEDBACK_SENTENCE_LINKS = 100;
@@ -437,6 +439,9 @@ const state = {
   adminSubmissionRequestGeneration: 0,
   selectedAdminFeedback: null,
   adminFeedbackSuggestedFragments: [],
+  adminFeedbackRecoveryTimer: null,
+  adminFeedbackSavedFingerprint: "",
+  adminFeedbackDirty: false,
   feedbackFontScale: 1,
   feedbackFontScaleInitialized: false,
   activeFeedbackRichEditor: null,
@@ -1669,13 +1674,16 @@ function readSession() {
 }
 
 function clearSession() {
+  persistAdminFeedbackRecovery({ force: true });
   window.clearTimeout(state.occurrenceFlushTimer);
   window.clearTimeout(state.draftSaveTimer);
   window.clearTimeout(state.manualRecheckTimer);
+  window.clearTimeout(state.adminFeedbackRecoveryTimer);
   state.occurrenceFlushTimer = null;
   state.occurrenceFlushPromise = null;
   state.draftSaveTimer = null;
   state.manualRecheckTimer = null;
+  state.adminFeedbackRecoveryTimer = null;
   state.checkGeneration += 1;
   cancelRemoteGrammarChecks();
   state.checkQueue = Promise.resolve();
@@ -1709,6 +1717,8 @@ function clearSession() {
   state.adminSubmissionRequestGeneration += 1;
   state.selectedAdminFeedback = null;
   state.adminFeedbackSuggestedFragments = [];
+  state.adminFeedbackSavedFingerprint = "";
+  state.adminFeedbackDirty = false;
   state.adminExplanationReviews = [];
   state.adminExplanationReviewPage = 0;
   state.adminExplanationReviewHasMore = false;
@@ -6227,6 +6237,7 @@ function moveFeedbackSentencePickerItem(item, direction) {
     if (next?.matches("[data-feedback-sentence-selected-item]")) next.after(item);
   }
   syncFeedbackSentencePickerSelectedOrder(picker);
+  scheduleAdminFeedbackRecoverySave();
   item.querySelector(`[data-feedback-sentence-move="${direction}"]`)?.focus();
 }
 
@@ -6306,6 +6317,7 @@ function renderFeedbackSentencePickerSelected(picker, value) {
       row.setAttribute("aria-grabbed", "false");
       state.feedbackDraggedSentenceLink = null;
       syncFeedbackSentencePickerSelectedOrder(picker);
+      scheduleAdminFeedbackRecoverySave();
     });
     fragment.append(row);
   });
@@ -6464,7 +6476,28 @@ function renderFeedbackLearningEditor({ kind, title, description, values = [], l
 }
 
 function renderAdminFeedbackEditor(submission, feedback, container) {
-  state.selectedAdminFeedback = feedback;
+  const serverFeedback = feedback;
+  const recovery = readAdminFeedbackRecovery(submission.id);
+  let restoredRecovery = false;
+  if (recovery) {
+    const currentFeedbackId = String(serverFeedback?.id || "");
+    const currentVersion = Math.max(0, Number(serverFeedback?.version || 0));
+    const serverChanged = recovery.baseFeedbackId !== currentFeedbackId
+      || recovery.baseVersion !== currentVersion;
+    const savedAt = formatSubmissionDate(recovery.savedAt);
+    const restore = window.confirm(
+      `${serverChanged ? "伺服器上的評語在備份後曾有更新。\n\n" : ""}`
+      + `找到 ${savedAt} 自動保存在此分頁、尚未送到伺服器的評語進度。\n\n`
+      + "按「確定」還原；按「取消」放棄這份本機備份。"
+    );
+    if (restore) {
+      feedback = { ...(serverFeedback || {}), ...recovery.payload };
+      restoredRecovery = true;
+    } else {
+      clearAdminFeedbackRecovery(submission.id);
+    }
+  }
+  state.selectedAdminFeedback = serverFeedback;
   state.adminFeedbackSuggestedFragments = submissionOriginalFragments(submission.answer);
   const panel = createElement("section", "teacher-feedback-editor");
   panel.dataset.feedbackEditor = submission.id;
@@ -6473,7 +6506,14 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   copy.append(createElement("p", "eyebrow", "STRUCTURED WRITING FEEDBACK"), createElement("h2", "", "撰寫 Edmund 評語"));
   const badge = createElement("span", "teacher-feedback-status", feedback?.status === "published" ? "已發送給學生" : feedback ? "評語草稿" : "尚未建立評語");
   badge.dataset.feedbackStatus = "true";
-  heading.append(copy, badge);
+  const recoveryStatus = createElement("span", "teacher-feedback-recovery-status", "此分頁自動備份已啟用");
+  recoveryStatus.dataset.feedbackRecoveryStatus = "true";
+  const quickSave = createElement("button", "teacher-feedback-quick-save", "立即儲存草稿");
+  quickSave.type = "button";
+  quickSave.dataset.feedbackSave = "draft";
+  const headingActions = createElement("div", "teacher-feedback-editor-head-actions");
+  headingActions.append(badge, recoveryStatus, quickSave);
+  heading.append(copy, headingActions);
   panel.append(heading);
   const regionId = key => `feedback-${submission.id}-${key}`;
   const jumpItems = [
@@ -6584,12 +6624,13 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   const remove = createElement("button", "delete-submission-button teacher-feedback-delete", "刪除整份評語");
   remove.type = "button";
   remove.dataset.feedbackDelete = "true";
-  remove.hidden = !feedback;
+  remove.hidden = !serverFeedback;
   actions.append(saveDraft, publish, remove);
   const actionRegion = createElement("section", "teacher-feedback-action-region");
   actionRegion.append(status, actions);
   appendRegion(actionRegion, "actions");
   container.append(panel);
+  initializeAdminFeedbackRecovery(panel, { recovery, restoredRecovery });
 }
 
 function readAdminFeedbackEditor(editor, { allowEmpty = false } = {}) {
@@ -6677,6 +6718,153 @@ function readAdminFeedbackEditor(editor, { allowEmpty = false } = {}) {
     sentenceStructureLinks,
     fragments
   };
+}
+
+function adminFeedbackRecoveryStorageKey(submissionId, adminId = state.user?.id) {
+  const normalizedSubmissionId = String(submissionId || "");
+  const normalizedAdminId = String(adminId || "");
+  if (!UUID_RE.test(normalizedSubmissionId) || !UUID_RE.test(normalizedAdminId)) return "";
+  return `${ADMIN_FEEDBACK_RECOVERY_KEY_PREFIX}:${normalizedAdminId}:${normalizedSubmissionId}`;
+}
+
+function adminFeedbackPayloadFingerprint(payload) {
+  return JSON.stringify(payload || {});
+}
+
+function clearAdminFeedbackRecovery(submissionId = state.selectedAdminSubmissionId) {
+  const key = adminFeedbackRecoveryStorageKey(submissionId);
+  if (!key) return;
+  try { sessionStorage.removeItem(key); } catch { /* Storage may be unavailable. */ }
+}
+
+function readAdminFeedbackRecovery(submissionId) {
+  const key = adminFeedbackRecoveryStorageKey(submissionId);
+  if (!key) return null;
+  try {
+    const value = JSON.parse(sessionStorage.getItem(key) || "null");
+    const savedAtMs = Date.parse(String(value?.savedAt || ""));
+    if (
+      value?.submissionId !== submissionId
+      || !value.payload
+      || typeof value.payload !== "object"
+      || !Number.isFinite(savedAtMs)
+      || Date.now() - savedAtMs > ADMIN_FEEDBACK_RECOVERY_MAX_AGE_MS
+    ) {
+      sessionStorage.removeItem(key);
+      return null;
+    }
+    const normalized = normalizeTeacherFeedback({
+      ...value.payload,
+      submissionId,
+      status: "draft",
+      version: Math.max(1, Number(value.baseVersion || 1))
+    });
+    if (!normalized) return null;
+    return {
+      submissionId,
+      savedAt: new Date(savedAtMs).toISOString(),
+      baseFeedbackId: String(value.baseFeedbackId || ""),
+      baseVersion: Math.max(0, Number(value.baseVersion || 0)),
+      baseFingerprint: String(value.baseFingerprint || ""),
+      payload: {
+        overallComment: normalized.overallComment,
+        overallFormatting: normalized.overallFormatting,
+        finalComment: normalized.finalComment,
+        finalFormatting: normalized.finalFormatting,
+        improvedVersion: normalized.improvedVersion,
+        improvedFormatting: normalized.improvedFormatting,
+        grammarPoints: normalized.grammarPoints,
+        sentenceStructureMethods: normalized.sentenceStructureMethods,
+        sentenceStructureParts: normalized.sentenceStructureParts,
+        rhetoricalParts: normalized.rhetoricalParts,
+        phrasalVerbParts: normalized.phrasalVerbParts,
+        writingCommonExpressionParts: normalized.writingCommonExpressionParts,
+        rhetoricalCommonExpressionParts: normalized.rhetoricalCommonExpressionParts,
+        synonymImprovementParts: normalized.synonymImprovementParts,
+        sentenceStructureLinks: normalized.sentenceStructureLinks,
+        fragments: normalized.fragments
+      }
+    };
+  } catch {
+    try { sessionStorage.removeItem(key); } catch { /* Storage may be unavailable. */ }
+    return null;
+  }
+}
+
+function syncAdminFeedbackRecoveryStatus(editor = elements.adminDetail?.querySelector("[data-feedback-editor]")) {
+  const status = editor?.querySelector("[data-feedback-recovery-status]");
+  if (!status) return;
+  status.textContent = state.adminFeedbackDirty
+    ? "已自動備份於此分頁 · 尚未儲存到帳戶"
+    : "此分頁自動備份已啟用";
+  status.dataset.state = state.adminFeedbackDirty ? "pending" : "saved";
+}
+
+function persistAdminFeedbackRecovery({ force = false } = {}) {
+  window.clearTimeout(state.adminFeedbackRecoveryTimer);
+  state.adminFeedbackRecoveryTimer = null;
+  if (state.user?.role !== "admin") return false;
+  const submissionId = String(state.selectedAdminSubmissionId || "");
+  const editor = elements.adminDetail?.querySelector(`[data-feedback-editor="${submissionId}"]`);
+  if (!editor || !UUID_RE.test(submissionId)) return false;
+  let payload;
+  try {
+    payload = readAdminFeedbackEditor(editor, { allowEmpty: true });
+  } catch {
+    return false;
+  }
+  const fingerprint = adminFeedbackPayloadFingerprint(payload);
+  const dirty = Boolean(state.adminFeedbackSavedFingerprint)
+    && fingerprint !== state.adminFeedbackSavedFingerprint;
+  state.adminFeedbackDirty = dirty;
+  if (!dirty) {
+    clearAdminFeedbackRecovery(submissionId);
+    syncAdminFeedbackRecoveryStatus(editor);
+    return false;
+  }
+  const key = adminFeedbackRecoveryStorageKey(submissionId);
+  if (!key) return false;
+  try {
+    sessionStorage.setItem(key, JSON.stringify({
+      submissionId,
+      baseFeedbackId: String(state.selectedAdminFeedback?.id || ""),
+      baseVersion: Math.max(0, Number(state.selectedAdminFeedback?.version || 0)),
+      baseFingerprint: state.adminFeedbackSavedFingerprint,
+      payload,
+      savedAt: new Date().toISOString()
+    }));
+  } catch {
+    if (force) showToast("瀏覽器未能建立本機評語備份；請立即按「儲存評語草稿」。", "error");
+    return false;
+  }
+  syncAdminFeedbackRecoveryStatus(editor);
+  return true;
+}
+
+function scheduleAdminFeedbackRecoverySave() {
+  if (state.user?.role !== "admin" || !UUID_RE.test(String(state.selectedAdminSubmissionId || ""))) return;
+  state.adminFeedbackDirty = true;
+  syncAdminFeedbackRecoveryStatus();
+  window.clearTimeout(state.adminFeedbackRecoveryTimer);
+  state.adminFeedbackRecoveryTimer = window.setTimeout(() => {
+    persistAdminFeedbackRecovery();
+  }, 280);
+}
+
+function initializeAdminFeedbackRecovery(editor, { recovery = null, restoredRecovery = false } = {}) {
+  window.clearTimeout(state.adminFeedbackRecoveryTimer);
+  state.adminFeedbackRecoveryTimer = null;
+  const currentFingerprint = adminFeedbackPayloadFingerprint(
+    readAdminFeedbackEditor(editor, { allowEmpty: true })
+  );
+  state.adminFeedbackSavedFingerprint = restoredRecovery && recovery?.baseFingerprint
+    ? recovery.baseFingerprint
+    : currentFingerprint;
+  state.adminFeedbackDirty = currentFingerprint !== state.adminFeedbackSavedFingerprint;
+  if (state.adminFeedbackDirty) persistAdminFeedbackRecovery({ force: true });
+  else clearAdminFeedbackRecovery(editor.dataset.feedbackEditor);
+  syncAdminFeedbackRecoveryStatus(editor);
+  if (restoredRecovery) showToast("已還原重新整理前尚未送到伺服器的評語進度。", "success");
 }
 
 async function saveStudentTranscriptions(submissionId) {
@@ -7095,6 +7283,9 @@ async function saveAdminFeedback(status) {
     });
     const savedFeedback = normalizeTeacherFeedback(response?.feedback);
     if (!savedFeedback) throw new Error("評語服務回應無效。");
+    clearAdminFeedbackRecovery(submissionId);
+    state.adminFeedbackDirty = false;
+    state.adminFeedbackSavedFingerprint = "";
     const submissionIndex = state.adminSubmissions.findIndex(item => item.id === submissionId);
     if (submissionIndex >= 0) {
       state.adminSubmissions[submissionIndex] = {
@@ -7143,6 +7334,9 @@ async function deleteAdminFeedback() {
         expectedVersion
       })
     });
+    clearAdminFeedbackRecovery(submissionId);
+    state.adminFeedbackDirty = false;
+    state.adminFeedbackSavedFingerprint = "";
     const submissionIndex = state.adminSubmissions.findIndex(item => item.id === submissionId);
     if (submissionIndex >= 0) {
       state.adminSubmissions[submissionIndex] = {
@@ -7775,6 +7969,7 @@ function renderAdminSubmissions() {
 async function openAdminSubmission(id) {
   if (!UUID_RE.test(String(id || ""))) return;
   const requestedId = String(id);
+  if (requestedId !== state.selectedAdminSubmissionId) persistAdminFeedbackRecovery({ force: true });
   const requestGeneration = state.adminSubmissionRequestGeneration + 1;
   state.adminSubmissionRequestGeneration = requestGeneration;
   state.selectedAdminSubmissionId = requestedId;
@@ -7904,6 +8099,7 @@ async function loadAdminGrammarProblemOccurrences(index, { reset = false } = {})
 
 async function selectAdminStudent(id) {
   if (!UUID_RE.test(String(id || ""))) return;
+  persistAdminFeedbackRecovery({ force: true });
   state.selectedAdminStudentId = String(id);
   if (elements.adminProxyStudent) elements.adminProxyStudent.value = String(id);
   state.selectedAdminSubmissionId = "";
@@ -8798,6 +8994,7 @@ function bindEvents() {
         const before = list.querySelectorAll("[data-feedback-pair]").length;
         appendFeedbackEditorRows(list, 10, [], state.adminFeedbackSuggestedFragments);
         if (before >= 200) showToast("每份評語最多可建立 200 組。", "error");
+        scheduleAdminFeedbackRecoverySave();
       }
       return;
     }
@@ -8812,6 +9009,7 @@ function bindEvents() {
         appendFeedbackLearningRows(list, kind, 10);
         const after = list.querySelectorAll(`[data-feedback-learning-row="${kind}"]`).length;
         if (after < before + 10) showToast(`每份評語最多可建立 ${maximum} 項。`, "error");
+        scheduleAdminFeedbackRecoverySave();
       }
       return;
     }
@@ -8821,6 +9019,7 @@ function bindEvents() {
         sentenceResource.closest("[data-feedback-sentence-picker]"),
         sentenceResource.dataset.feedbackSentenceResourceId
       );
+      scheduleAdminFeedbackRecoverySave();
       return;
     }
     const moveSentenceLink = event.target.closest("[data-feedback-sentence-move]");
@@ -8839,6 +9038,7 @@ function bindEvents() {
       if (picker) {
         renderFeedbackSentencePickerSelected(picker, feedbackSentencePickerLinks(picker));
         renderFeedbackSentencePickerResults(picker);
+        scheduleAdminFeedbackRecoverySave();
       }
       return;
     }
@@ -8860,6 +9060,7 @@ function bindEvents() {
         const count = list.querySelectorAll(`[data-feedback-learning-row="${kind}"]`).length;
         if (count < 10) appendFeedbackLearningRows(list, kind, 10 - count);
         else renumberFeedbackLearningRows(list, kind);
+        scheduleAdminFeedbackRecoverySave();
       }
       return;
     }
@@ -8875,6 +9076,7 @@ function bindEvents() {
       const inserted = createFeedbackEditorRow({ index: 0 });
       pair.after(inserted);
       renumberFeedbackEditorRows(list);
+      scheduleAdminFeedbackRecoverySave();
       inserted.querySelector('[data-feedback-rich-editor="original"]')?.focus();
       return;
     }
@@ -8884,6 +9086,7 @@ function bindEvents() {
       const list = pair?.closest("[data-feedback-pairs]");
       pair?.remove();
       if (list) renumberFeedbackEditorRows(list);
+      scheduleAdminFeedbackRecoverySave();
       return;
     }
     const saveFeedback = event.target.closest("[data-feedback-save]");
@@ -9001,10 +9204,18 @@ function bindEvents() {
     }
     const feedbackTextarea = event.target.closest("[data-feedback-editor] textarea");
     if (feedbackTextarea) autosizeTextarea(feedbackTextarea, feedbackTextarea.hasAttribute("data-feedback-comment") ? 130 : 72);
+    if (event.target.closest("[data-feedback-editor]")) scheduleAdminFeedbackRecoverySave();
+  });
+  window.addEventListener("beforeunload", (event) => {
+    if (!state.adminFeedbackDirty) return;
+    persistAdminFeedbackRecovery({ force: true });
+    event.preventDefault();
+    event.returnValue = "";
   });
   window.addEventListener("pagehide", () => {
     pauseWritingClockOutsideEditor({ allowHiddenTransition: true });
     persistDraft();
+    persistAdminFeedbackRecovery({ force: true });
     if (state.pendingOccurrences.size) {
       flushGrammarOccurrences({ keepalive: true }).catch(() => {});
     }
