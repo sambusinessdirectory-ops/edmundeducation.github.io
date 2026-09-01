@@ -1434,6 +1434,73 @@ function feedbackRangeContainsClientPoint(range, clientX, clientY) {
   ));
 }
 
+function feedbackCaretRangeAtPoint(editor, { clientX, clientY } = {}) {
+  if (!editor?.isConnected) return null;
+  let range = null;
+  if (Number.isFinite(clientX) && Number.isFinite(clientY)) {
+    if (typeof document.caretRangeFromPoint === "function") {
+      range = document.caretRangeFromPoint(clientX, clientY);
+    } else if (typeof document.caretPositionFromPoint === "function") {
+      const position = document.caretPositionFromPoint(clientX, clientY);
+      if (position?.offsetNode) {
+        range = document.createRange();
+        range.setStart(position.offsetNode, position.offset);
+      }
+    }
+  }
+  const belongsToEditor = candidate => {
+    const container = candidate?.startContainer;
+    const node = container?.nodeType === Node.ELEMENT_NODE ? container : container?.parentElement;
+    return Boolean(node && editor.contains(node));
+  };
+  if (!belongsToEditor(range)) {
+    const selection = window.getSelection();
+    if (selection?.rangeCount && selection.isCollapsed) {
+      const current = selection.getRangeAt(0);
+      if (belongsToEditor(current)) range = current.cloneRange();
+    }
+  }
+  if (!belongsToEditor(range)) {
+    range = document.createRange();
+    range.selectNodeContents(editor);
+    range.collapse(false);
+  } else {
+    range = range.cloneRange();
+    range.collapse(true);
+  }
+  return range;
+}
+
+function insertFeedbackLineBreakAtPoint(editor, point = {}) {
+  if (!editor?.isConnected || currentFeedbackSelection(editor)) return false;
+  const range = feedbackCaretRangeAtPoint(editor, point);
+  const selection = window.getSelection();
+  if (!range || !selection) return false;
+
+  clearFeedbackSelectionRanges({ keepEditor: true });
+  state.activeFeedbackRichEditor = editor;
+  try { editor.focus({ preventScroll: true }); } catch { editor.focus(); }
+  selection.removeAllRanges();
+  selection.addRange(range);
+  state.feedbackApplyingFormat = true;
+  try {
+    if (!document.execCommand("insertText", false, "\n")) {
+      const lineBreak = document.createTextNode("\n");
+      range.insertNode(lineBreak);
+      range.setStartAfter(lineBreak);
+      range.collapse(true);
+      selection.removeAllRanges();
+      selection.addRange(range);
+    }
+  } finally {
+    state.feedbackApplyingFormat = false;
+  }
+  editor.normalize();
+  editor.dispatchEvent(new Event("input", { bubbles: true }));
+  showToast("已在此位置換行。", "success");
+  return true;
+}
+
 function deleteSelectedFeedbackText(editor, { clientX, clientY } = {}) {
   if (!editor?.isConnected) return false;
   const selection = window.getSelection();
@@ -9187,8 +9254,11 @@ function bindEvents() {
     if (event.button !== 2) return;
     const editor = event.target.closest?.("[data-feedback-rich-editor]");
     if (!editor) return;
-    if (!deleteSelectedFeedbackText(editor, event)) return;
-    event.preventDefault();
+    if (deleteSelectedFeedbackText(editor, event)) {
+      event.preventDefault();
+      return;
+    }
+    if (insertFeedbackLineBreakAtPoint(editor, event)) event.preventDefault();
   });
   document.addEventListener("scroll", scheduleFeedbackMultiSelectionHighlight, { capture: true, passive: true });
   document.addEventListener("scroll", scheduleFeedbackSelectionToolbarPosition, { capture: true, passive: true });

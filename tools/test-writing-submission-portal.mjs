@@ -384,7 +384,7 @@ test("submission traffic uses a first-party Supabase relay with a safe failure p
     /submissionProxyUrl:\s*"https:\/\/ookkxzgpdclzrrhfmvqx\.supabase\.co\/functions\/v1\/writing-submission-proxy"/
   );
   assert.match(html, /writing-submission-config\.js\?v=20260901-selection-delete1/);
-  assert.match(html, /writing-submission\.js\?v=20260901-word-brush1/);
+  assert.match(html, /writing-submission\.js\?v=20260901-right-click-line-break1/);
   assert.match(submissionProxy, /const UPSTREAM_ORIGIN = "https:\/\/edmund-writing-submission\.edmundeducation\.workers\.dev"/);
   assert.match(submissionProxy, /const ALLOWED_ORIGINS = new Set/);
   assert.match(submissionProxy, /request\.method !== "PUT" && request\.method !== "POST"/);
@@ -418,7 +418,7 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
   assert.match(html, /writing-submission\.css\?v=20260901-word-brush1/);
-  assert.match(html, /writing-submission\.js\?v=20260901-word-brush1/);
+  assert.match(html, /writing-submission\.js\?v=20260901-right-click-line-break1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -1213,8 +1213,14 @@ test("admin proxy submission and expanded feedback tools stay authenticated and 
   assert.match(script, /feedbackRangeContainsClientPoint\(range, clientX, clientY\)/);
   assert.match(script, /document\.addEventListener\("contextmenu", \(event\) => \{/);
   assert.match(script, /if \(event\.button !== 2\) return;/);
-  assert.match(script, /if \(!deleteSelectedFeedbackText\(editor, event\)\) return;[\s\S]*?event\.preventDefault\(\)/);
+  assert.match(script, /if \(deleteSelectedFeedbackText\(editor, event\)\) \{[\s\S]*?event\.preventDefault\(\);[\s\S]*?return;/);
   assert.match(script, /document\.execCommand\("delete", false\)/);
+  assert.match(script, /function feedbackCaretRangeAtPoint\(editor, \{ clientX, clientY \} = \{\}\)/);
+  assert.match(script, /document\.caretRangeFromPoint\(clientX, clientY\)/);
+  assert.match(script, /document\.caretPositionFromPoint\(clientX, clientY\)/);
+  assert.match(script, /function insertFeedbackLineBreakAtPoint\(editor, point = \{\}\)/);
+  assert.match(script, /document\.execCommand\("insertText", false, "\\n"\)/);
+  assert.match(script, /if \(insertFeedbackLineBreakAtPoint\(editor, event\)\) event\.preventDefault\(\)/);
   assert.match(script, /editor\.dispatchEvent\(new Event\("input", \{ bubbles: true \}\)\)/);
   assert.match(css, /\.teacher-feedback-selection-toolbar \{/);
   assert.match(css, /\.teacher-feedback-selection-toolbar \.is-highlight::before/);
