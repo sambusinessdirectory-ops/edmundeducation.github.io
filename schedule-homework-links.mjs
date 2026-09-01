@@ -149,7 +149,7 @@ const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
   "/idiom-system.html": Object.freeze(["lesson"]),
   "/proverb-system.html": Object.freeze(["lesson"]),
   "/phrasal-verb-system.html": Object.freeze(["lesson"]),
-  "/speaking-system.html": Object.freeze(["exercise"]),
+  "/speaking-system.html": Object.freeze(["exercise", "exam", "mode"]),
   "/sentence-structure.html": Object.freeze(["lesson"]),
   "/reading-comprehension.html": Object.freeze(["article"]),
   "/ielts-reading-analysis.html": Object.freeze(["article"]),
@@ -259,6 +259,23 @@ export function normalizeHomeworkHref(value) {
     if (exercise && !/^[a-z0-9][a-z0-9._~-]{0,239}$/i.test(exercise)) return null;
     if (manualTopic && !/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(manualTopic)) return null;
     return `writing-submission.html?${parsed.searchParams.toString()}`;
+  }
+  if (parsed.pathname === "/speaking-system.html") {
+    if (actualParameters.length === 1 && actualParameters[0] === "exercise") {
+      const exercise = parsed.searchParams.get("exercise") || "";
+      if (!/^[a-z0-9][a-z0-9._~-]{0,239}$/i.test(exercise)) return null;
+      return `speaking-system.html?${parsed.searchParams.toString()}`;
+    }
+    if (actualParameters.length !== 2 || !actualParameters.includes("exam") || !actualParameters.includes("mode")) return null;
+    const exam = parsed.searchParams.get("exam") || "";
+    const mode = parsed.searchParams.get("mode") || "";
+    const allowedModes = exam === "ielts"
+      ? new Set(["p1", "p2", "p3", "p1-p2", "p1-p3", "p2-p3"])
+      : exam === "dse"
+        ? new Set(["dse-combined", "dse-group", "dse-individual"])
+        : null;
+    if (!allowedModes?.has(mode)) return null;
+    return `speaking-system.html?${parsed.searchParams.toString()}`;
   }
   if (actualParameters.length !== expectedParameters.length) return null;
   if (expectedParameters.some((key) => !parsed.searchParams.get(key))) return null;

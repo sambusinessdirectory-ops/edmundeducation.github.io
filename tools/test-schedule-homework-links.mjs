@@ -42,14 +42,14 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 5591, "the Homework/Schedule catalogue should include every current learning resource, Reading Comprehension exercise, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 5600, "the Homework/Schedule catalogue should include every current learning resource, Speaking mock mode, Reading Comprehension exercise, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
 }, {});
 assert.equal((byType.flashcards || []).length, 1316, "all current static and lazy-loaded flashcard leaf decks should be indexed");
 assert.equal((byType["fill-blanks"] || []).length, 321, "all current writing exercises should be indexed");
-assert.equal((byType.speaking || []).length, 787, "all currently visible speaking exercises should be indexed");
+assert.equal((byType.speaking || []).length, 796, "all currently visible speaking exercises and nine requested mock modes should be indexed");
 assert.equal((byType["sentence-structure"] || []).length, 345, "all sentence structure lessons should be indexed");
 assert.equal((byType.idiom || []).length, 138, "all Idiom lessons should be indexed");
 assert.equal((byType.proverb || []).length, 3, "all Proverb lessons should be indexed");
@@ -440,7 +440,7 @@ assert.equal(
 );
 
 const visibleSpeakingBookLimits = { 1: 14, 2: 16, 3: 16 };
-for (const resource of byType.speaking || []) {
+for (const resource of (byType.speaking || []).filter((item) => !item.id.startsWith("speaking:mock:"))) {
   const match = resource.detail.match(/Part (\d+) · Book (\d+)/);
   assert.ok(match, `speaking resource should identify its part and book: ${resource.id}`);
   assert.ok(Number(match[2]) <= visibleSpeakingBookLimits[Number(match[1])], `hidden speaking book leaked into catalog: ${resource.id}`);
@@ -467,6 +467,24 @@ assert.equal(normalizeHomeworkResource({
   label: "Model Essay 2 - IELTS - Advantages / Disadvantages",
   url: "writing-submission.html?exercise=model-essay-2-ielts-advantage-disadvantage"
 })?.url, "writing-submission.html?exercise=model-essay-2-ielts-advantage-disadvantage");
+assert.equal(normalizeHomeworkResource({
+  id: "speaking:mock:ielts:p1-p2",
+  type: "speaking",
+  label: "IELTS Speaking Mock Exam · Part 1 + Part 2",
+  url: "speaking-system.html?exam=ielts&mode=p1-p2"
+})?.url, "speaking-system.html?exam=ielts&mode=p1-p2");
+assert.equal(normalizeHomeworkResource({
+  id: "speaking:mock:dse:dse-group",
+  type: "speaking",
+  label: "DSE Speaking Mock Exam · Group Discussion",
+  url: "speaking-system.html?exam=dse&mode=dse-group"
+})?.url, "speaking-system.html?exam=dse&mode=dse-group");
+assert.equal(normalizeHomeworkResource({
+  id: "speaking:mock:dse:bad",
+  type: "speaking",
+  label: "Unsafe mode",
+  url: "speaking-system.html?exam=dse&mode=bad"
+}), null);
 assert.equal(normalizeHomeworkResource({
   id: "writing-submission:bad",
   type: "writing-submission",
@@ -762,6 +780,8 @@ assert.deepEqual(parseScheduleMessage(videoClassStored).resources[0], videoClass
   "a saved Video Class assignment must remain a routable marker even after it disappears from the live picker catalogue");
 assert.equal(homeworkResourceDisplayTitle(videoClassMarkerResource), "Series Video Class - Official IELTS Series");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "speaking", "Part 2 Book 1 Advertisements").total >= 1, true);
+assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "speaking", "IELTS Mock Part 1 Part 3").items[0]?.id, "speaking:mock:ielts:p1-p3");
+assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "speaking", "DSE Mock 小組討論 個人發言").items[0]?.id, "speaking:mock:dse:dse-combined");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "Mungo Man").items[0]?.id, "reading-analysis:mungo-man");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "ielts reading graffiti").items[0]?.id, "reading-analysis:p1-082-graffiti");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "it's dynamite").items[0]?.id, "reading-analysis:p1-088-its-dynamite");
@@ -928,9 +948,9 @@ assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260901-reading-comprehension1"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260901-reading-comprehension1/, "Homework link helper cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260901-reading-comprehension1/, "Schedule application cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260901-homework-workflow1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260901-homework-workflow1/, "Homework link helper cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260901-homework-workflow1/, "Schedule application cache key is stale");
 assert.match(scheduleJs, /isDownload \? "↓" : "↗"/, "download materials should be visibly presented as downloads to students");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");

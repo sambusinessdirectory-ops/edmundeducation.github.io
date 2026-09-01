@@ -50,7 +50,7 @@ import {
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
-} from "./schedule-homework-links.mjs?v=20260901-reading-comprehension1";
+} from "./schedule-homework-links.mjs?v=20260901-homework-workflow1";
 import {
   ScheduleGroupShiftError,
   planScheduleGroupShift
@@ -58,10 +58,11 @@ import {
 import {
   ScheduleClipboardError,
   createScheduleClipboardPayload,
+  isScheduleClipboardNextWeekCarry,
   parseScheduleClipboard,
   planScheduleClipboardPaste,
   serializeScheduleClipboard
-} from "./schedule-clipboard.mjs?v=20260727-1";
+} from "./schedule-clipboard.mjs?v=20260901-unfinished-copy1";
 import {
   MOTIVATION_SAVE_DELAY_MS,
   motivationRatingsByDate,
@@ -100,7 +101,7 @@ const COUNTDOWN_STEP = COUNTDOWN_BATCH_SIZE;
 const SPAN_COLUMN_BRIDGE_PX = 32;
 const LONG_PRESS_MS = 2000;
 const MARQUEE_START_DISTANCE = 6;
-const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260901-reading-comprehension1";
+const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260901-homework-workflow1";
 const VIDEO_CLASS_HOMEWORK_CATALOG_URL = "https://edmund-video-class.edmundeducation.workers.dev/v1/homework-resources";
 const STUDENT_PROGRESS_WORKER_URL = "https://edmund-student-progress.edmundeducation.workers.dev";
 const STUDENT_ACCOUNT_PAGE_SIZE = 100;
@@ -312,6 +313,7 @@ const elements = {
   toggleClipboardSelection: document.querySelector("[data-toggle-clipboard-selection]"),
   clipboardSelectionCount: document.querySelector("[data-clipboard-selection-count]"),
   copyClipboardSelection: document.querySelector("[data-copy-clipboard-selection]"),
+  copyUnfinishedSelection: document.querySelector("[data-copy-unfinished-selection]"),
   pasteClipboardSelection: document.querySelector("[data-paste-clipboard-selection]"),
   pasteAnchorDialog: document.querySelector("[data-paste-anchor-dialog]"),
   pasteAnchorForm: document.querySelector("[data-paste-anchor-form]"),
@@ -367,6 +369,11 @@ const elements = {
   homeworkPickerCount: document.querySelector("[data-homework-picker-count]"),
   homeworkPickerResults: document.querySelector("[data-homework-picker-results]"),
   homeworkPickerClose: document.querySelector("[data-close-homework-picker]"),
+  manualWritingTopicCreator: document.querySelector("[data-manual-writing-topic-creator]"),
+  manualWritingTopicTitle: document.querySelector("[data-manual-writing-topic-title]"),
+  manualWritingTopicPrompt: document.querySelector("[data-manual-writing-topic-prompt]"),
+  createManualWritingTopic: document.querySelector("[data-create-manual-writing-topic]"),
+  manualWritingTopicStatus: document.querySelector("[data-manual-writing-topic-status]"),
   homeworkAttachments: document.querySelector("[data-homework-attachments]"),
   entryTags: document.querySelector("[data-entry-tags]"),
   entryEstimatedMinutes: document.querySelector("#schedule-estimated-minutes"),
@@ -714,6 +721,8 @@ function closeHomeworkPicker({ keepSearch = false } = {}) {
   state.homeworkPickerType = "";
   state.homeworkPickerReplacement = null;
   elements.homeworkPicker.hidden = true;
+  if (elements.manualWritingTopicCreator) elements.manualWritingTopicCreator.hidden = true;
+  if (elements.manualWritingTopicStatus) elements.manualWritingTopicStatus.textContent = "";
   if (!keepSearch) elements.homeworkPickerSearch.value = "";
 }
 
@@ -783,6 +792,12 @@ async function openHomeworkPicker(type, { focusSearch = false, replacement = nul
   state.homeworkPickerType = type;
   state.homeworkPickerReplacement = replacement;
   elements.homeworkPicker.hidden = false;
+  if (elements.manualWritingTopicCreator) {
+    elements.manualWritingTopicCreator.hidden = !(
+      type === "writing-submission" && state.currentUser?.role === "admin"
+    );
+  }
+  if (elements.manualWritingTopicStatus) elements.manualWritingTopicStatus.textContent = "";
   elements.homeworkPickerTitle.textContent = definition.pickerTitle || `選擇 ${definition.label} 練習`;
   if (changed) elements.homeworkPickerSearch.value = "";
   renderHomeworkPickerResults();
@@ -826,6 +841,59 @@ async function openHomeworkPicker(type, { focusSearch = false, replacement = nul
       elements.homeworkPickerCount.textContent = "未能載入練習清單，請稍後再試。";
       elements.homeworkPickerResults.replaceChildren();
     }
+  }
+}
+
+function derivedManualWritingTopicTitle(prompt, requestedTitle) {
+  const title = String(requestedTitle || "").replace(/\s+/g, " ").trim();
+  if (title) return title.slice(0, 300);
+  return String(prompt || "").split(/\r?\n/, 1)[0].replace(/\s+/g, " ").trim().slice(0, 300);
+}
+
+async function createManualWritingTopicFromHomework() {
+  if (
+    state.currentUser?.role !== "admin"
+    || state.homeworkPickerType !== "writing-submission"
+    || elements.createManualWritingTopic?.disabled
+  ) return;
+  const prompt = String(elements.manualWritingTopicPrompt?.value || "").trim();
+  const title = derivedManualWritingTopicTitle(prompt, elements.manualWritingTopicTitle?.value);
+  if (!prompt || !title) {
+    elements.manualWritingTopicStatus.textContent = "請先輸入完整寫作題目。";
+    elements.manualWritingTopicPrompt?.focus();
+    return;
+  }
+  elements.createManualWritingTopic.disabled = true;
+  elements.manualWritingTopicStatus.textContent = "正在儲存到 Writing Submission 題庫…";
+  try {
+    const rows = await callRpc("schedule_admin_create_manual_writing_resource", {
+      p_admin_token: state.currentUser.adminToken,
+      p_title: title,
+      p_prompt: prompt
+    });
+    const raw = Array.isArray(rows) ? rows[0] : rows;
+    const resource = normalizeHomeworkResource(raw);
+    if (!resource) throw new Error("題目已儲存，但系統未能建立有效 Hyperlink。");
+    const existingManualResources = (homeworkResourceCatalog || []).filter((item) => (
+      String(item?.id || "").startsWith("writing-submission:manual:")
+    ));
+    homeworkResourceCatalog = mergeHomeworkCatalog(homeworkResourceCatalog || [], {
+      manualWritingResources: [Object.freeze({ ...raw, ...resource }), ...existingManualResources]
+    });
+    elements.manualWritingTopicTitle.value = "";
+    elements.manualWritingTopicPrompt.value = "";
+    elements.manualWritingTopicStatus.textContent = "已儲存並加入 Hyperlink。";
+    renderHomeworkPickerResults();
+    addHomeworkResource(resource.id);
+  } catch (error) {
+    console.warn("Could not create Writing Submission topic from Homework", error);
+    const message = /expired|session|登入|權限/i.test(String(error?.message || ""))
+      ? "管理員登入已過期，請重新登入後再試。"
+      : String(error?.message || "暫時未能建立題目，請稍後再試。");
+    elements.manualWritingTopicStatus.textContent = message;
+    showToast(message, "error");
+  } finally {
+    elements.createManualWritingTopic.disabled = false;
   }
 }
 
@@ -1100,6 +1168,7 @@ function updateClipboardControls() {
   const active = state.massEditMode;
   const selecting = active && state.clipboardSelectionMode;
   const selectedCount = clipboardSelectedEntries().length;
+  const unfinishedCount = clipboardSelectedEntries().filter((entry) => entry?.isCompleted !== true).length;
   const storedCount = readStoredScheduleClipboardPayload()?.items?.length || 0;
   elements.weekGrid.classList.toggle("is-clipboard-selection-mode", selecting);
   for (const toggle of [elements.toggleSelection, elements.toggleClipboardSelection]) {
@@ -1114,6 +1183,10 @@ function updateClipboardControls() {
       ? "請框選或點選已有安排"
       : "電腦可直接拖曳框選；手機請先按「選取以複製」";
   elements.copyClipboardSelection.disabled = !active || state.mutationInFlight || selectedCount === 0;
+  elements.copyUnfinishedSelection.disabled = !active || state.mutationInFlight || unfinishedCount === 0;
+  elements.copyUnfinishedSelection.textContent = unfinishedCount
+    ? `只複製未完成 (${unfinishedCount})`
+    : "只複製未完成";
   elements.pasteClipboardSelection.disabled = !active || state.mutationInFlight;
   elements.pasteClipboardSelection.textContent = storedCount ? `貼上 ${storedCount} 項` : "貼上";
   elements.clearClipboardSelection.disabled = !active || state.mutationInFlight || selectedCount === 0;
@@ -1193,11 +1266,12 @@ function clearStoredScheduleClipboard() {
   }
 }
 
-function createCurrentScheduleClipboardPayload() {
+function createCurrentScheduleClipboardPayload({ unfinishedOnly = false } = {}) {
   return createScheduleClipboardPayload({
     entries: state.weekPayload.entries,
     selectedEntryIds: state.clipboardSelectedEntryIds,
-    weekStart: state.weekStart
+    weekStart: state.weekStart,
+    unfinishedOnly
   });
 }
 
@@ -1217,6 +1291,19 @@ async function copyClipboardSelectionFromButton() {
     navigator.clipboard?.writeText?.(serialized).catch(() => {});
   } catch (error) {
     showToast(clipboardErrorMessage(error), "error");
+  }
+}
+
+async function copyUnfinishedClipboardSelectionFromButton() {
+  if (!state.massEditMode || state.mutationInFlight) return;
+  try {
+    const payload = createCurrentScheduleClipboardPayload({ unfinishedOnly: true });
+    const serialized = storeScheduleClipboardPayload(payload);
+    updateClipboardControls();
+    showToast(`已複製 ${payload.items.length} 項未完成安排；貼到下星期會自動標記「上週未完成」。`);
+    navigator.clipboard?.writeText?.(serialized).catch(() => {});
+  } catch (error) {
+    showToast(clipboardErrorMessage(error, "未能複製未完成安排。"), "error");
   }
 }
 
@@ -1281,6 +1368,7 @@ function stageScheduleClipboardPaste(payload, anchor = {}) {
   }
 
   const source = state.currentUser?.role === "admin" ? "admin" : "student";
+  const markPreviousIncomplete = isScheduleClipboardNextWeekCarry(plan.payload, state.weekStart);
   for (const item of plan.ready) {
     const key = massEditChangeKey(item.scheduleDate, item.slotIndex, null);
     state.massEditChanges.set(key, {
@@ -1295,7 +1383,7 @@ function stageScheduleClipboardPaste(payload, anchor = {}) {
       isCompleted: false,
       isInProgress: false,
       isMoreThanHalfCompleted: false,
-      isPreviousIncomplete: false
+      isPreviousIncomplete: markPreviousIncomplete
     });
   }
   rebuildMassEditPreview();
@@ -7539,6 +7627,7 @@ elements.homeworkPickerResults?.addEventListener("click", (event) => {
   const button = event.target.closest("[data-homework-resource-id]");
   if (button) addHomeworkResource(button.dataset.homeworkResourceId);
 });
+elements.createManualWritingTopic?.addEventListener("click", createManualWritingTopicFromHomework);
 elements.homeworkAttachments?.addEventListener("click", (event) => {
   const remove = event.target.closest("[data-remove-homework-resource]");
   if (remove) removeHomeworkResource(remove.dataset.removeHomeworkResource);
@@ -7616,6 +7705,7 @@ elements.massEditSave?.addEventListener("click", saveMassEdit);
 elements.massEditCancel?.addEventListener("click", () => discardMassEdit({ requireConfirmation: true }));
 elements.toggleClipboardSelection?.addEventListener("click", toggleClipboardSelectionMode);
 elements.copyClipboardSelection?.addEventListener("click", copyClipboardSelectionFromButton);
+elements.copyUnfinishedSelection?.addEventListener("click", copyUnfinishedClipboardSelectionFromButton);
 elements.pasteClipboardSelection?.addEventListener("click", pasteScheduleClipboardFromButton);
 elements.clearClipboardSelection?.addEventListener("click", () => clearClipboardSelection({ deactivate: false }));
 elements.batchComplete?.addEventListener("click", batchSetCompletion);

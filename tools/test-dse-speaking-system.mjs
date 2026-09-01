@@ -93,7 +93,8 @@ for (const required of [
 for (const required of [
   "/v1/dse-exam-voice", "data-dse-play-question-voice", "autoPlayDseVoice",
   "dse-single-question is-entering", "abandonDseSession(\"left-practice\")",
-  "abandonDseSession(\"page-closed\")"
+  "abandonDseSession(\"page-closed\")", "openRequestedHomeworkMockMode",
+  "requestedHomeworkMockModeOpened", "[data-dse-mode=\"${modeId}\"]"
 ]) assert.ok(appSource.includes(required), `missing DSE enhancement: ${required}`);
 
 assert.match(appSource, /assets\/speaking-system\/ielts-exam-practice-mode\.png/);

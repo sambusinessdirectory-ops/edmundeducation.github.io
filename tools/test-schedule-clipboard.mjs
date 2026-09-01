@@ -3,6 +3,7 @@ import {
   SCHEDULE_CLIPBOARD_PREFIX,
   ScheduleClipboardError,
   createScheduleClipboardPayload,
+  isScheduleClipboardNextWeekCarry,
   parseScheduleClipboard,
   planScheduleClipboardPaste,
   serializeScheduleClipboard
@@ -52,6 +53,7 @@ assert.deepEqual(payload.items, [
     estimatedMinutes: null
   }
 ]);
+assert.equal(payload.copyMode, "all");
 const payloadText = JSON.stringify(payload);
 assert.doesNotMatch(payloadText, /monday-2|friday-7|updatedAt|isCompleted|isInProgress|isMoreThanHalfCompleted|"source"/);
 
@@ -122,6 +124,34 @@ assert.equal(unchangedPlan.ready.length, 0);
 assert.equal(unchangedPlan.conflicts.length, 0);
 assert.equal(unchangedPlan.unchanged.length, 2);
 
+const unfinishedPayload = createScheduleClipboardPayload({
+  entries,
+  selectedEntryIds: new Set(["friday-7", "monday-2"]),
+  weekStart: "2026-07-27",
+  now,
+  unfinishedOnly: true
+});
+assert.equal(unfinishedPayload.copyMode, "unfinished");
+assert.deepEqual(unfinishedPayload.items.map((item) => item.message), ["Sentence Structure 3"]);
+assert.equal(isScheduleClipboardNextWeekCarry(unfinishedPayload, "2026-08-03"), true);
+assert.equal(isScheduleClipboardNextWeekCarry(unfinishedPayload, "2026-08-10"), false);
+assert.equal(isScheduleClipboardNextWeekCarry(payload, "2026-08-03"), false);
+
+assert.throws(
+  () => createScheduleClipboardPayload({
+    entries,
+    selectedEntryIds: new Set(["monday-2"]),
+    weekStart: "2026-07-27",
+    now,
+    unfinishedOnly: true
+  }),
+  (error) => error instanceof ScheduleClipboardError && error.code === "all-completed"
+);
+
+const legacyPayload = { ...payload };
+delete legacyPayload.copyMode;
+assert.equal(parseScheduleClipboard(JSON.stringify(legacyPayload), { now }).copyMode, "all");
+
 assert.throws(
   () => createScheduleClipboardPayload({
     entries: [{ ...entries[0], spanGroupId: "span" }],
@@ -161,4 +191,4 @@ const edgePlan = planScheduleClipboardPaste({
 assert.equal(edgePlan.ready.length, 0);
 assert.equal(edgePlan.conflicts[0].reason, "outside-range");
 
-console.log("Schedule clipboard checks passed: exact weekday/slot mapping, safe conflicts, stripped identity, validated fallback payload.");
+console.log("Schedule clipboard checks passed: exact mapping, unfinished-only carry tags, safe conflicts and legacy fallback payloads.");

@@ -1,7 +1,9 @@
 import {
+  addDays,
   SCHEDULE_MAX_DATE,
   SCHEDULE_MIN_DATE,
   parseISODate,
+  toISODate,
   weekDates
 } from "./schedule-calendar.mjs";
 
@@ -11,6 +13,10 @@ export const SCHEDULE_CLIPBOARD_PREFIX = "EDMUND-SCHEDULE-CLIPBOARD/1\n";
 export const SCHEDULE_CLIPBOARD_MAX_ITEMS = 700;
 export const SCHEDULE_CLIPBOARD_MAX_BYTES = 524_288;
 export const SCHEDULE_CLIPBOARD_MAX_AGE_MS = 2 * 60 * 60 * 1000;
+export const SCHEDULE_CLIPBOARD_COPY_MODES = Object.freeze({
+  ALL: "all",
+  UNFINISHED: "unfinished"
+});
 
 export class ScheduleClipboardError extends Error {
   constructor(code, message) {
@@ -49,6 +55,14 @@ function normalizeEstimatedMinutes(value) {
     clipboardError("invalid-time", "複製資料包含無效的預計需時。");
   }
   return minutes;
+}
+
+function normalizeCopyMode(value) {
+  const mode = value === undefined ? SCHEDULE_CLIPBOARD_COPY_MODES.ALL : String(value || "");
+  if (!Object.values(SCHEDULE_CLIPBOARD_COPY_MODES).includes(mode)) {
+    clipboardError("invalid-copy-mode", "複製資料包含無效的複製方式。");
+  }
+  return mode;
 }
 
 function normalizeClipboardItem(item) {
@@ -111,16 +125,27 @@ function normalizeClipboardPayload(value, { now = Date.now(), maxAgeMs = SCHEDUL
     version: SCHEDULE_CLIPBOARD_VERSION,
     copiedAt: copiedAtDate.toISOString(),
     sourceWeekStart,
+    copyMode: normalizeCopyMode(value.copyMode),
     items
   };
 }
 
-export function createScheduleClipboardPayload({ entries = [], selectedEntryIds = [], weekStart, now = Date.now() } = {}) {
+export function createScheduleClipboardPayload({
+  entries = [],
+  selectedEntryIds = [],
+  weekStart,
+  now = Date.now(),
+  unfinishedOnly = false
+} = {}) {
   const sourceWeekStart = normalizeWeekStart(weekStart);
   const dates = weekDates(sourceWeekStart);
   const selected = selectedEntryIds instanceof Set ? selectedEntryIds : new Set(selectedEntryIds);
-  const chosen = (Array.isArray(entries) ? entries : []).filter((entry) => selected.has(entry?.id));
-  if (!chosen.length) clipboardError("empty-selection", "請先選取至少一項安排。");
+  const selectedEntries = (Array.isArray(entries) ? entries : []).filter((entry) => selected.has(entry?.id));
+  if (!selectedEntries.length) clipboardError("empty-selection", "請先選取至少一項安排。");
+  const chosen = unfinishedOnly
+    ? selectedEntries.filter((entry) => entry?.isCompleted !== true)
+    : selectedEntries;
+  if (!chosen.length) clipboardError("all-completed", "所選安排全部已完成，沒有未完成項目可複製。");
   if (chosen.some((entry) => entry?.spanGroupId)) {
     clipboardError("span-unsupported", "跨日項目暫不可複製；請取消選取跨日項目後再試。");
   }
@@ -141,6 +166,7 @@ export function createScheduleClipboardPayload({ entries = [], selectedEntryIds 
     version: SCHEDULE_CLIPBOARD_VERSION,
     copiedAt: new Date(now).toISOString(),
     sourceWeekStart,
+    copyMode: unfinishedOnly ? SCHEDULE_CLIPBOARD_COPY_MODES.UNFINISHED : SCHEDULE_CLIPBOARD_COPY_MODES.ALL,
     items
   }, { now, maxAgeMs: Infinity });
 
@@ -148,6 +174,13 @@ export function createScheduleClipboardPayload({ entries = [], selectedEntryIds 
     clipboardError("too-large", "所選安排太多，請分批複製。");
   }
   return payload;
+}
+
+export function isScheduleClipboardNextWeekCarry(payload, targetWeekStart) {
+  const sourceWeekStart = normalizeWeekStart(payload?.sourceWeekStart);
+  const target = normalizeWeekStart(targetWeekStart);
+  return payload?.copyMode === SCHEDULE_CLIPBOARD_COPY_MODES.UNFINISHED
+    && toISODate(addDays(parseISODate(sourceWeekStart), 7)) === target;
 }
 
 export function serializeScheduleClipboard(payload, options = {}) {

@@ -222,6 +222,7 @@
     durationProgressShowCumulative: false,
     durationProgressSelectedDay: "",
     requestedHomeworkExerciseOpened: false,
+    requestedHomeworkMockModeOpened: false,
     requestedRecordingLibraryOpened: false
   };
 
@@ -780,7 +781,7 @@
         }
         if (!state.user) return;
         setConnection("已安全連接", "live");
-        if (!openRequestedRecordingLibrary()) openRequestedHomeworkExercise();
+        if (!openRequestedRecordingLibrary() && !openRequestedHomeworkMockMode()) openRequestedHomeworkExercise();
         return;
       }
       saveSession();
@@ -3999,6 +4000,42 @@
       return false;
     }
     navigate(route, { reset: true, skipGuard: true });
+    return true;
+  }
+
+  function openRequestedHomeworkMockMode() {
+    if (state.requestedHomeworkMockModeOpened || state.user?.role !== "student") return false;
+    const parameters = new URLSearchParams(window.location.search);
+    const exam = String(parameters.get("exam") || "").trim();
+    const modeId = String(parameters.get("mode") || "").trim();
+    if (!exam && !modeId) return false;
+    state.requestedHomeworkMockModeOpened = true;
+    const mode = exam === "ielts"
+      ? examModeDefinition(modeId)
+      : exam === "dse"
+        ? DSE_MODE.modeForId?.(modeId)
+        : null;
+    const allowedIeltsModes = new Set(["p1", "p2", "p3", "p1-p2", "p1-p3", "p2-p3"]);
+    if (!mode || (exam === "ielts" && !allowedIeltsModes.has(modeId))) {
+      toast("這個 Speaking 模擬考試模式目前不存在。", "error");
+      return true;
+    }
+    const route = exam === "dse"
+      ? { view: "dse-modes", exam: "dse" }
+      : { view: "exam-modes", exam: "ielts" };
+    if (!routeAllowed(route)) {
+      toast("您的帳戶尚未開放這個 Speaking 模擬考試範圍。", "error");
+      return true;
+    }
+    navigate(route, { reset: true, skipGuard: true });
+    window.requestAnimationFrame(() => {
+      const button = document.querySelector(exam === "dse"
+        ? `[data-dse-mode="${modeId}"]`
+        : `[data-exam-mode="${modeId}"]`);
+      button?.scrollIntoView({ behavior: preferredScrollBehavior(), block: "center" });
+      button?.focus({ preventScroll: true });
+      toast(`已開啟 ${exam.toUpperCase()} ${mode.labelZh || mode.shortLabel || mode.label}。按所選模式即可開始。`);
+    });
     return true;
   }
 
@@ -7881,7 +7918,7 @@
           }
           if (!state.user) return;
           setConnection("已安全連接", "live");
-          if (!openRequestedRecordingLibrary()) openRequestedHomeworkExercise();
+          if (!openRequestedRecordingLibrary() && !openRequestedHomeworkMockMode()) openRequestedHomeworkExercise();
         } else {
           setConnection("Admin 已連接", "live");
         }

@@ -523,7 +523,34 @@ async function speakingResources() {
       }
     }
   }
-  return exercises;
+  const ieltsMockModes = [
+    ["p1", "只練習 Part 1"],
+    ["p2", "只練習 Part 2"],
+    ["p3", "只練習 Part 3"],
+    ["p1-p2", "Part 1 + Part 2"],
+    ["p1-p3", "Part 1 + Part 3"],
+    ["p2-p3", "Part 2 + Part 3"]
+  ].map(([mode, label], index) => ({
+    id: `speaking:mock:ielts:${mode}`,
+    type: "speaking",
+    ordinal: index + 1,
+    label: `IELTS Speaking Mock Exam · ${label}`,
+    detail: "IELTS Speaking · 模擬考試模式",
+    url: `speaking-system.html?exam=ielts&mode=${mode}`
+  }));
+  const dseMockModes = [
+    ["dse-combined", "小組討論 + 個人發言"],
+    ["dse-group", "只練習小組討論"],
+    ["dse-individual", "只練習個人發言"]
+  ].map(([mode, label], index) => ({
+    id: `speaking:mock:dse:${mode}`,
+    type: "speaking",
+    ordinal: index + 1,
+    label: `DSE Speaking Mock Exam · ${label}`,
+    detail: "DSE Speaking · 模擬考試模式",
+    url: `speaking-system.html?exam=dse&mode=${mode}`
+  }));
+  return [...ieltsMockModes, ...dseMockModes, ...exercises];
 }
 
 async function sentenceResources() {

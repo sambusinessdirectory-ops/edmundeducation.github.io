@@ -40386,6 +40386,30 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "speaking-system.html?exercise=ielts-part-1-book-12-drinks"
   },
   {
+    "id": "speaking:mock:dse:dse-individual",
+    "type": "speaking",
+    "ordinal": 3,
+    "label": "DSE Speaking Mock Exam · 只練習個人發言",
+    "detail": "DSE Speaking · 模擬考試模式",
+    "url": "speaking-system.html?exam=dse&mode=dse-individual"
+  },
+  {
+    "id": "speaking:mock:dse:dse-group",
+    "type": "speaking",
+    "ordinal": 2,
+    "label": "DSE Speaking Mock Exam · 只練習小組討論",
+    "detail": "DSE Speaking · 模擬考試模式",
+    "url": "speaking-system.html?exam=dse&mode=dse-group"
+  },
+  {
+    "id": "speaking:mock:dse:dse-combined",
+    "type": "speaking",
+    "ordinal": 1,
+    "label": "DSE Speaking Mock Exam · 小組討論 + 個人發言",
+    "detail": "DSE Speaking · 模擬考試模式",
+    "url": "speaking-system.html?exam=dse&mode=dse-combined"
+  },
+  {
     "id": "speaking:ielts-part-3-book-1-exercise-22",
     "type": "speaking",
     "ordinal": 22,
@@ -41384,6 +41408,54 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Humour",
     "detail": "IELTS Speaking · Part 1 · Book 6 · Exercise 2",
     "url": "speaking-system.html?exercise=ielts-part-1-book-6-humour"
+  },
+  {
+    "id": "speaking:mock:ielts:p1-p2",
+    "type": "speaking",
+    "ordinal": 4,
+    "label": "IELTS Speaking Mock Exam · Part 1 + Part 2",
+    "detail": "IELTS Speaking · 模擬考試模式",
+    "url": "speaking-system.html?exam=ielts&mode=p1-p2"
+  },
+  {
+    "id": "speaking:mock:ielts:p1-p3",
+    "type": "speaking",
+    "ordinal": 5,
+    "label": "IELTS Speaking Mock Exam · Part 1 + Part 3",
+    "detail": "IELTS Speaking · 模擬考試模式",
+    "url": "speaking-system.html?exam=ielts&mode=p1-p3"
+  },
+  {
+    "id": "speaking:mock:ielts:p2-p3",
+    "type": "speaking",
+    "ordinal": 6,
+    "label": "IELTS Speaking Mock Exam · Part 2 + Part 3",
+    "detail": "IELTS Speaking · 模擬考試模式",
+    "url": "speaking-system.html?exam=ielts&mode=p2-p3"
+  },
+  {
+    "id": "speaking:mock:ielts:p1",
+    "type": "speaking",
+    "ordinal": 1,
+    "label": "IELTS Speaking Mock Exam · 只練習 Part 1",
+    "detail": "IELTS Speaking · 模擬考試模式",
+    "url": "speaking-system.html?exam=ielts&mode=p1"
+  },
+  {
+    "id": "speaking:mock:ielts:p2",
+    "type": "speaking",
+    "ordinal": 2,
+    "label": "IELTS Speaking Mock Exam · 只練習 Part 2",
+    "detail": "IELTS Speaking · 模擬考試模式",
+    "url": "speaking-system.html?exam=ielts&mode=p2"
+  },
+  {
+    "id": "speaking:mock:ielts:p3",
+    "type": "speaking",
+    "ordinal": 3,
+    "label": "IELTS Speaking Mock Exam · 只練習 Part 3",
+    "detail": "IELTS Speaking · 模擬考試模式",
+    "url": "speaking-system.html?exam=ielts&mode=p3"
   },
   {
     "id": "speaking:ielts-part-3-book-7-exercise-11",
