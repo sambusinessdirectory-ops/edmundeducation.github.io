@@ -458,6 +458,42 @@ async function readingAnalysisResources() {
   });
 }
 
+async function readingComprehensionResources() {
+  const catalogue = JSON.parse(await readFile(path.join(root, "reading-comprehension-catalogue.json"), "utf8"));
+  const articles = Array.isArray(catalogue?.articles) ? catalogue.articles : [];
+  if (!articles.length) throw new Error("Reading Comprehension catalogue is empty");
+
+  return articles.map((article) => {
+    const articleId = String(article?.id || "");
+    const passage = Number(article?.passage);
+    const practice = Number(article?.practice);
+    const paragraphCount = Number(article?.paragraphCount);
+    const questionCount = Number(article?.questionCount);
+    const title = straightApostrophes(compactText(article?.title));
+    if (
+      !/^p[123]-\d{3}(?:-[a-z0-9]+)*$/i.test(articleId)
+      || !Number.isSafeInteger(passage) || passage < 1 || passage > 3
+      || !Number.isSafeInteger(practice) || practice < 1
+      || !Number.isSafeInteger(paragraphCount) || paragraphCount < 1
+      || !Number.isSafeInteger(questionCount) || questionCount < 1
+      || !title
+    ) {
+      throw new Error(`Invalid Reading Comprehension article: ${JSON.stringify(article)}`);
+    }
+    if (!articleId.startsWith(`p${passage}-`)) {
+      throw new Error(`Reading Comprehension passage mismatch: ${articleId}`);
+    }
+    return {
+      id: `reading-comprehension:${articleId}`,
+      type: "reading-comprehension",
+      ordinal: practice,
+      label: compactText(`Passage ${passage} · Practice ${practice} · ${title}`, 180),
+      detail: `IELTS Reading Comprehension · Passage ${passage} · ${paragraphCount} paragraphs · ${questionCount} questions`,
+      url: `reading-comprehension.html?article=${encodeURIComponent(articleId)}`
+    };
+  });
+}
+
 async function speakingResources() {
   const files = await portalDataFiles("speaking-system.html", /^speaking-system(?:-.*)?-data\.js$/);
   const globals = await evaluateFiles(files);
@@ -632,6 +668,7 @@ const resources = [
   ...writingSubmissionResources(writingPracticeResources),
   ...await dseWritingPartADownloadResources(),
   ...await downloadMaterialResources(),
+  ...await readingComprehensionResources(),
   ...await readingAnalysisResources(),
   ...await speakingResources(),
   ...await sentenceResources(),

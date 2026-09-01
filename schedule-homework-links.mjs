@@ -33,6 +33,15 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
   Object.freeze({ type: "phrasal-verb", trigger: "Phrasal Verbs", label: "Phrasal Verbs", color: "#31966a" }),
   Object.freeze({ type: "speaking", trigger: "Speaking", label: "Speaking", color: "#2b9caf" }),
   Object.freeze({ type: "sentence-structure", trigger: "Sentence Structure", label: "Sentence Structure", color: "#6e62c9" }),
+  Object.freeze({
+    type: "reading-comprehension",
+    trigger: "Reading Comprehension",
+    aliases: Object.freeze(["IELTS Reading Exercise"]),
+    label: "Reading Comprehension",
+    pickerTitle: "選擇 IELTS Reading 閱讀理解練習",
+    pickerNoun: "閱讀理解練習",
+    color: "#176f67"
+  }),
   Object.freeze({ type: "reading-analysis", trigger: "Answer Analysis - IELTS Reading", label: "Answer Analysis - IELTS Reading", color: "#8b5fbf" }),
   Object.freeze({
     type: "video-class-series",
@@ -75,6 +84,7 @@ const ALLOWED_PAGES_BY_TYPE = Object.freeze({
   "phrasal-verb": Object.freeze(["/phrasal-verb-system.html"]),
   speaking: Object.freeze(["/speaking-system.html"]),
   "sentence-structure": Object.freeze(["/sentence-structure.html"]),
+  "reading-comprehension": Object.freeze(["/reading-comprehension.html"]),
   "reading-analysis": Object.freeze(["/ielts-reading-analysis.html"]),
   "video-class-series": Object.freeze(["/video-class.html"]),
   "video-class-video": Object.freeze(["/video-class.html"]),
@@ -141,6 +151,7 @@ const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
   "/phrasal-verb-system.html": Object.freeze(["lesson"]),
   "/speaking-system.html": Object.freeze(["exercise"]),
   "/sentence-structure.html": Object.freeze(["lesson"]),
+  "/reading-comprehension.html": Object.freeze(["article"]),
   "/ielts-reading-analysis.html": Object.freeze(["article"]),
   "/video-class.html": Object.freeze([]),
   "/model-essay-downloads.html": Object.freeze(["catalog", "item"]),
@@ -258,6 +269,9 @@ export function normalizeHomeworkHref(value) {
   }
   if (parsed.pathname.startsWith("/common-expression-")) {
     if (!/^common-expression-\d+$/i.test(parsed.searchParams.get("lesson") || "")) return null;
+  }
+  if (parsed.pathname === "/reading-comprehension.html") {
+    if (!/^p[123]-\d{3}(?:-[a-z0-9]+)*$/i.test(parsed.searchParams.get("article") || "")) return null;
   }
   if (parsed.pathname === "/listening-system.html") {
     const practice = Number(parsed.searchParams.get("practice"));

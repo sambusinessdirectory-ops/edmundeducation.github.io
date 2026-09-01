@@ -26,6 +26,7 @@ const execFileAsync = promisify(execFile);
 const toolsDirectory = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(toolsDirectory, "..");
 const read = (file) => readFile(path.join(root, file), "utf8");
+const readingComprehensionCatalogue = JSON.parse(await read("reading-comprehension-catalogue.json"));
 
 const readingAnalysisContext = { window: {} };
 vm.createContext(readingAnalysisContext);
@@ -41,7 +42,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 5154, "the Homework/Schedule catalogue should include every current learning resource, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 5591, "the Homework/Schedule catalogue should include every current learning resource, Reading Comprehension exercise, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -54,6 +55,7 @@ assert.equal((byType.idiom || []).length, 138, "all Idiom lessons should be inde
 assert.equal((byType.proverb || []).length, 3, "all Proverb lessons should be indexed");
 assert.equal((byType["phrasal-verb"] || []).length, 329, "all Phrasal Verb lessons should be indexed");
 assert.equal((byType["writing-submission"] || []).length, 321, "every Writing Practice exercise should have a Writing Submission assignment link");
+assert.equal((byType["reading-comprehension"] || []).length, 437, "all published Reading Comprehension exercises should be indexed once");
 assert.equal((byType["reading-analysis"] || []).length, 453, "all unique available IELTS Reading analyses should be indexed once");
 assert.equal((byType["model-essay-download"] || []).length, 14, "all DSE Writing Part A model-answer downloads should be indexed");
 assert.equal((byType["download-material"] || []).length, 857, "every item in the DSE/IELTS download portal should be indexed");
@@ -90,6 +92,9 @@ assert.ok(ids.has("fill:business-english-standard-response-book-1-q1"));
 assert.ok(ids.has("fill:business-english-standard-response-book-1-q10"));
 assert.ok(ids.has("writing-submission:business-english-standard-response-book-1-q1"));
 assert.ok(ids.has("writing-submission:business-english-standard-response-book-1-q10"));
+assert.ok(ids.has("reading-comprehension:p1-001"));
+assert.ok(ids.has("reading-comprehension:p2-102"));
+assert.ok(ids.has("reading-comprehension:p3-172"));
 assert.ok(ids.has("flash:government/hkfsd/concept-vocabulary/book-1/a-core-fire-service-emergency-fundamentals"));
 assert.ok(ids.has("flash:government/hkfsd/concept-vocabulary/book-1/n-hazardous-materials-chemical-safety"));
 assert.ok(ids.has("reading-analysis:mungo-man"));
@@ -133,6 +138,39 @@ assert.deepEqual(downloadMaterialsByCatalog, {
 }, "Download materials should mirror every live catalogue on the authenticated download portal");
 
 const readingAnalysisResources = byType["reading-analysis"] || [];
+
+const readingComprehensionResources = byType["reading-comprehension"] || [];
+const expectedReadingComprehensionArticles = Array.isArray(readingComprehensionCatalogue.articles)
+  ? readingComprehensionCatalogue.articles
+  : [];
+assert.deepEqual(
+  readingComprehensionResources.map((resource) => resource.id.slice("reading-comprehension:".length)).sort(),
+  expectedReadingComprehensionArticles.map((article) => article.id).sort(),
+  "Homework must mirror the exact published Reading Comprehension catalogue"
+);
+assert.deepEqual(
+  Object.fromEntries([1, 2, 3].map((passage) => [
+    passage,
+    readingComprehensionResources.filter((resource) => resource.detail.includes(`Passage ${passage} ·`)).length
+  ])),
+  { 1: 147, 2: 137, 3: 153 },
+  "all published Passage 1, 2 and 3 exercises should be itemized"
+);
+for (const article of expectedReadingComprehensionArticles) {
+  const resource = readingComprehensionResources.find((item) => item.id === `reading-comprehension:${article.id}`);
+  assert.ok(resource, `Reading Comprehension Homework resource should exist: ${article.id}`);
+  assert.equal(resource.ordinal, article.practice, `Reading Comprehension should retain its practice number: ${article.id}`);
+  assert.equal(
+    resource.url,
+    `reading-comprehension.html?article=${encodeURIComponent(article.id)}`,
+    `Reading Comprehension Homework link should open the exact exercise: ${article.id}`
+  );
+  assert.match(resource.label, new RegExp(`^Passage ${article.passage} · Practice ${article.practice} · `));
+}
+for (const heldArticleId of ["p1-008", "p1-013", "p1-022", "p1-025", "p1-071", "p1-079", "p1-090", "p1-091", "p1-107", "p1-112", "p1-118", "p1-121", "p1-133"]) {
+  assert.equal(ids.has(`reading-comprehension:${heldArticleId}`), false, `${heldArticleId} must remain held until it is published in the Reading Comprehension catalogue`);
+}
+
 const expectedReadingArticleIds = Object.keys(readingAnalysisAvailability.articles).sort();
 assert.deepEqual(
   readingAnalysisResources.map((resource) => resource.id.slice("reading-analysis:".length)).sort(),
@@ -542,6 +580,21 @@ for (const unsafeReadingUrl of [
     url: unsafeReadingUrl
   }), null, `unsafe IELTS Reading analysis URL must be rejected: ${unsafeReadingUrl}`);
 }
+for (const unsafeReadingComprehensionUrl of [
+  "reading-comprehension.html",
+  "reading-comprehension.html?article=p1-1",
+  "reading-comprehension.html?article=p4-001",
+  "reading-comprehension.html?article=p1-001&student=someone",
+  "reading-comprehension.html?article=p1-001#question-1",
+  "https://evil.example/reading-comprehension.html?article=p1-001"
+]) {
+  assert.equal(normalizeHomeworkResource({
+    id: "reading-comprehension:p1-001",
+    type: "reading-comprehension",
+    label: "Passage 1 · Practice 1 · Italian Architect Palladio",
+    url: unsafeReadingComprehensionUrl
+  }), null, `unsafe Reading Comprehension URL must be rejected: ${unsafeReadingComprehensionUrl}`);
+}
 
 const flashCompletion = homeworkAutocomplete("F", 1);
 assert.equal(flashCompletion.trigger, "Flash Cards");
@@ -554,6 +607,8 @@ assert.equal(homeworkAutocomplete("Review Pr", 9).trigger, "Proverb");
 assert.equal(homeworkAutocomplete("Choose Wr", 9).trigger, "Writing Submission");
 assert.equal(homeworkAutocomplete("Choose Su", 9).trigger, "Submission Writing");
 assert.equal(homeworkAutocomplete("Add An", 6).trigger, "Answer Analysis - IELTS Reading");
+assert.equal(homeworkAutocomplete("Add Rea", 7).trigger, "Reading Comprehension");
+assert.equal(homeworkAutocomplete("Add IELTS Reading Ex", 20).trigger, "IELTS Reading Exercise");
 assert.equal(homeworkAutocomplete("Add Co", 6).trigger, "Common Expression");
 assert.equal(homeworkAutocomplete("Add IELTS L", 11).trigger, "IELTS Listening");
 assert.equal(homeworkAutocomplete("Add Dow", 7).trigger, "Download materials");
@@ -562,6 +617,7 @@ assert.equal(homeworkAutocomplete("Add Video V", 11).trigger, "Video Video Class
 assert.equal(fullHomeworkTriggerAtCursor("Series Video Class", 18).type, "video-class-series");
 assert.equal(fullHomeworkTriggerAtCursor("Video Video Class", 17).type, "video-class-video");
 assert.equal(fullHomeworkTriggerAtCursor("Download materials", 18).type, "download-material");
+assert.equal(fullHomeworkTriggerAtCursor("Reading Comprehension", 21).type, "reading-comprehension");
 const accepted = acceptHomeworkAutocomplete("Please finish Fi", 16, 16, homeworkAutocomplete("Please finish Fi", 16));
 assert.equal(accepted.value, "Please finish Fill in the blanks");
 assert.equal(fullHomeworkTriggerAtCursor(accepted.value, accepted.cursor).type, "fill-blanks");
@@ -710,6 +766,9 @@ assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysi
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "ielts reading graffiti").items[0]?.id, "reading-analysis:p1-082-graffiti");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "it's dynamite").items[0]?.id, "reading-analysis:p1-088-its-dynamite");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "flight honeybee").total, 1, "shared analysis aliases should remain one searchable choice");
+assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-comprehension", "Passage 1 Practice 1 Palladio").items[0]?.id, "reading-comprehension:p1-001");
+assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-comprehension", "Passage 2 Practice 102 eco logical").items[0]?.id, "reading-comprehension:p2-102");
+assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-comprehension", "Passage 3 Practice 172 handshake").items[0]?.id, "reading-comprehension:p3-172");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "common-expression", "See you around").items[0]?.id, "common-expression:speaking:common-expression-01");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "listening", "20 Part 4").items[0]?.id, "listening:ielts-listening-practice-20-part-4");
 assert.equal(
@@ -869,8 +928,9 @@ assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260822-1"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260820-email-hotkey1/, "Homework link helper cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260901-reading-comprehension1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260901-reading-comprehension1/, "Homework link helper cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260901-reading-comprehension1/, "Schedule application cache key is stale");
 assert.match(scheduleJs, /isDownload \? "↓" : "↗"/, "download materials should be visibly presented as downloads to students");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");
