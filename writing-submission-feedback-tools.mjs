@@ -12,6 +12,8 @@ const MAX_FEEDBACK_LIST_ITEMS = 100;
 const MAX_FEEDBACK_ENHANCEMENT_PARTS = 100;
 const MAX_FEEDBACK_LIST_ITEM_LENGTH = 20_000;
 const SENTENCE_STRUCTURE_LESSON_RE = /^[a-z0-9][a-z0-9_-]{0,79}$/iu;
+const DEFAULT_FEEDBACK_TABLE_COLUMN_WIDTHS = Object.freeze([30, 40, 30]);
+const MIN_FEEDBACK_TABLE_COLUMN_WIDTH = 15;
 
 function safeInteger(value) {
   const number = Number(value);
@@ -255,6 +257,25 @@ function emptyRichFeedbackValue() {
   return { text: "", formatting: [] };
 }
 
+/** Returns three bounded percentages whose sum is exactly 100. */
+export function normalizeFeedbackTableColumnWidths(value) {
+  if (!Array.isArray(value) || value.length !== 3) {
+    return [...DEFAULT_FEEDBACK_TABLE_COLUMN_WIDTHS];
+  }
+  const widths = value.map(Number);
+  if (widths.some(width => !Number.isFinite(width) || width < MIN_FEEDBACK_TABLE_COLUMN_WIDTH)) {
+    return [...DEFAULT_FEEDBACK_TABLE_COLUMN_WIDTHS];
+  }
+  const total = widths.reduce((sum, width) => sum + width, 0);
+  if (total <= 0) return [...DEFAULT_FEEDBACK_TABLE_COLUMN_WIDTHS];
+  const normalized = widths.map(width => Math.round((width / total) * 10_000) / 100);
+  normalized[2] = Math.round((100 - normalized[0] - normalized[1]) * 100) / 100;
+  if (normalized.some(width => width < MIN_FEEDBACK_TABLE_COLUMN_WIDTH)) {
+    return [...DEFAULT_FEEDBACK_TABLE_COLUMN_WIDTHS];
+  }
+  return normalized;
+}
+
 function normalizeRichFeedbackValue(value) {
   if (!value || typeof value !== "object" || Array.isArray(value) || typeof value.text !== "string") {
     return emptyRichFeedbackValue();
@@ -302,6 +323,9 @@ export function normalizeFeedbackEnhancementParts(value) {
       && !normalized.enhancement.text
       && !normalized.benefit.text
     ) continue;
+    if (output.length === 0 && Array.isArray(item?.columnWidths)) {
+      normalized.columnWidths = normalizeFeedbackTableColumnWidths(item.columnWidths);
+    }
     output.push(normalized);
     if (output.length >= MAX_FEEDBACK_ENHANCEMENT_PARTS) break;
   }

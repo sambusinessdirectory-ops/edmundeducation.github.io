@@ -1363,7 +1363,10 @@ function feedbackResponse(row) {
     phrasalVerbParts: feedbackStructuredPartsResponse(row.phrasal_verb_parts),
     writingCommonExpressionParts: feedbackStructuredPartsResponse(row.writing_common_expression_parts),
     rhetoricalCommonExpressionParts: feedbackStructuredPartsResponse(row.rhetorical_common_expression_parts),
-    synonymImprovementParts: feedbackStructuredPartsResponse(row.synonym_improvement_parts),
+    synonymImprovementParts: feedbackStructuredPartsResponse(
+      row.synonym_improvement_parts,
+      { includeColumnWidths: true }
+    ),
     enhancementCopies: enhancementCopiesResponse(row.enhancement_copies),
     fragments: fragments.map((fragment, index) => {
       const originalFragment = String(
@@ -1444,15 +1447,29 @@ function feedbackRichTextValueResponse(value) {
   };
 }
 
-function feedbackStructuredPartsResponse(value) {
+function normalizedFeedbackTableColumnWidths(value) {
+  if (!Array.isArray(value) || value.length !== 3) return null;
+  const widths = value.map(Number);
+  if (widths.some(width => !Number.isFinite(width) || width < 15 || width > 70)) return null;
+  const total = widths.reduce((sum, width) => sum + width, 0);
+  if (Math.abs(total - 100) > 0.05) return null;
+  return widths;
+}
+
+function feedbackStructuredPartsResponse(value, { includeColumnWidths = false } = {}) {
   if (!Array.isArray(value)) return [];
-  return value.slice(0, MAX_FEEDBACK_RICH_TEXT_ITEMS).flatMap((item) => {
+  return value.slice(0, MAX_FEEDBACK_RICH_TEXT_ITEMS).flatMap((item, index) => {
     if (!isPlainObject(item)) return [];
-    return [{
+    const response = {
       originalSentence: feedbackRichTextValueResponse(item.originalSentence),
       enhancement: feedbackRichTextValueResponse(item.enhancement),
       benefit: feedbackRichTextValueResponse(item.benefit)
-    }];
+    };
+    const columnWidths = includeColumnWidths && index === 0
+      ? normalizedFeedbackTableColumnWidths(item.columnWidths)
+      : null;
+    if (columnWidths) response.columnWidths = columnWidths;
+    return [response];
   });
 }
 
@@ -1593,12 +1610,17 @@ function normalizeFeedbackRichTextValue(value, label) {
   };
 }
 
-function normalizeFeedbackStructuredParts(value, label) {
+function normalizeFeedbackStructuredParts(value, label, { allowColumnWidths = false } = {}) {
   if (!Array.isArray(value) || value.length > MAX_FEEDBACK_RICH_TEXT_ITEMS) {
     throw new HttpError(400, "INVALID_FEEDBACK", `${label} must be a valid structured-parts array`);
   }
   return value.map((item, index) => {
-    if (!hasExactKeys(item, ["originalSentence", "enhancement", "benefit"])) {
+    const standardShape = hasExactKeys(item, ["originalSentence", "enhancement", "benefit"]);
+    const tableShape = allowColumnWidths && hasExactKeys(
+      item,
+      ["originalSentence", "enhancement", "benefit", "columnWidths"]
+    );
+    if (!standardShape && !tableShape) {
       throw new HttpError(400, "INVALID_FEEDBACK", `${label}[${index}] has an invalid shape`);
     }
     const originalSentence = normalizeFeedbackRichTextValue(
@@ -1616,7 +1638,15 @@ function normalizeFeedbackStructuredParts(value, label) {
     if (!originalSentence.text.trim() && !enhancement.text.trim() && !benefit.text.trim()) {
       throw new HttpError(400, "INVALID_FEEDBACK", `${label}[${index}] is empty`);
     }
-    return { originalSentence, enhancement, benefit };
+    const normalized = { originalSentence, enhancement, benefit };
+    if (tableShape) {
+      const columnWidths = normalizedFeedbackTableColumnWidths(item.columnWidths);
+      if (!columnWidths || index !== 0) {
+        throw new HttpError(400, "INVALID_FEEDBACK", `${label}[${index}].columnWidths is invalid`);
+      }
+      normalized.columnWidths = columnWidths;
+    }
+    return normalized;
   });
 }
 
@@ -1917,7 +1947,8 @@ function normalizeFeedbackPayload(payload) {
   const synonymImprovementParts = hasLatestFields
     ? normalizeFeedbackStructuredParts(
       payload.synonymImprovementParts,
-      "synonymImprovementParts"
+      "synonymImprovementParts",
+      { allowColumnWidths: true }
     )
     : null;
   if (

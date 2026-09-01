@@ -57,12 +57,13 @@ import {
 import {
   feedbackFormattingCommandFromEvent,
   normalizeFeedbackEnhancementParts,
+  normalizeFeedbackTableColumnWidths,
   normalizeGrammarFeedbackPoints,
   normalizeSentenceStructureDeepLink,
   normalizeSentenceStructureMethods,
   parseNumberedFeedbackBlocks,
   sliceFeedbackFormattingRuns
-} from "./writing-submission-feedback-tools.mjs?v=20260816-feedback-structure1";
+} from "./writing-submission-feedback-tools.mjs?v=20260901-synonym-table1";
 import { filterHomeworkResources } from "./schedule-homework-links.mjs?v=20260814-2";
 import {
   createWritingProofreadingGate,
@@ -5069,18 +5070,18 @@ function feedbackPrintRichHtml(textValue, formattingValue, { structured = false,
   return container.outerHTML;
 }
 
-function feedbackPrintTextSection(title, value, className = "", formatting = []) {
+function feedbackPrintTextSection(title, value, className = "", formatting = [], { id = "" } = {}) {
   const text = String(value || "");
   if (!text.trim()) return "";
-  return `<section class="print-feedback-text ${escapePrintHtml(className)}">
+  return `<section${id ? ` id="${escapePrintHtml(id)}"` : ""} class="print-feedback-text ${escapePrintHtml(className)}">
     <h3>${escapePrintHtml(title)}</h3>${feedbackPrintRichHtml(text, formatting)}
   </section>`;
 }
 
-function feedbackPrintLearningCards(title, values) {
+function feedbackPrintLearningCards(title, values, { id = "" } = {}) {
   const items = normalizeGrammarFeedbackPoints(values);
   if (!items.length) return "";
-  return `<section class="print-feedback-section print-learning-section">
+  return `<section${id ? ` id="${escapePrintHtml(id)}"` : ""} class="print-feedback-section print-learning-section">
     <h3>${escapePrintHtml(title)}</h3>
     <div class="print-learning-list">${items.map((item, index) => `
       <article class="print-learning-card">
@@ -5090,7 +5091,7 @@ function feedbackPrintLearningCards(title, values) {
   </section>`;
 }
 
-function feedbackPrintEnhancementCards(title, values, kind) {
+function feedbackPrintEnhancementCards(title, values, kind, { id = "", pageBreakBefore = false } = {}) {
   const items = normalizeFeedbackEnhancementParts(values);
   if (!items.length) return "";
   const kindCopy = feedbackEnhancementKindCopy(kind);
@@ -5100,7 +5101,7 @@ function feedbackPrintEnhancementCards(title, values, kind) {
     ["enhancement", "Enhancement 改良寫法", "is-enhancement"],
     ["benefit", "Benefit 好處／作用", "is-benefit"]
   ];
-  return `<section class="print-feedback-section print-enhancement-section ${escapePrintHtml(kindCopy.className)}">
+  return `<section${id ? ` id="${escapePrintHtml(id)}"` : ""} class="print-feedback-section print-enhancement-section ${escapePrintHtml(kindCopy.className)}${pageBreakBefore ? " print-page-start" : ""}">
     <h3>${escapePrintHtml(title)}</h3>
     <div class="print-enhancement-list">${items.map((item, index) => `
       <article class="print-enhancement-card">
@@ -5117,7 +5118,30 @@ function feedbackPrintEnhancementCards(title, values, kind) {
   </section>`;
 }
 
-function feedbackPrintSentenceLinks(values) {
+function feedbackPrintSynonymTable(title, values, { id = "" } = {}) {
+  const items = normalizeFeedbackEnhancementParts(values);
+  if (!items.length) return "";
+  const widths = normalizeFeedbackTableColumnWidths(items[0]?.columnWidths);
+  const columns = [
+    ["originalSentence", "原字／原句"],
+    ["enhancement", "可用替換／改良寫法"],
+    ["benefit", "用法說明／好處"]
+  ];
+  return `<section${id ? ` id="${escapePrintHtml(id)}"` : ""} class="print-feedback-section print-synonym-table-section is-synonym-improvement">
+    <h3>${escapePrintHtml(title)}</h3>
+    <div class="print-synonym-table-wrap"><table class="print-synonym-table">
+      <colgroup>${widths.map(width => `<col style="width:${width}%">`).join("")}</colgroup>
+      <thead><tr>${columns.map(([, label]) => `<th>${escapePrintHtml(label)}</th>`).join("")}</tr></thead>
+      <tbody>${items.map(item => `<tr>${columns.map(([field]) => `<td>${feedbackPrintRichHtml(
+        item[field]?.text,
+        item[field]?.formatting,
+        { structured: true, emptyText: "未填寫" }
+      )}</td>`).join("")}</tr>`).join("")}</tbody>
+    </table></div>
+  </section>`;
+}
+
+function feedbackPrintSentenceLinks(values, { id = "" } = {}) {
   const links = normalizeFeedbackSentencePickerLinks(values).map((link, index) => {
     const absoluteUrl = new URL(link.url, "https://edmundeducation.com/").href;
     return `<div class="print-sentence-link-row">
@@ -5126,25 +5150,58 @@ function feedbackPrintSentenceLinks(values) {
     </div>`;
   });
   if (!links.length) return "";
-  return `<section class="print-sentence-panel">
+  return `<section${id ? ` id="${escapePrintHtml(id)}"` : ""} class="print-sentence-panel">
     <header><strong>選擇 Sentence Structure 練習</strong><span>已加入的句子結構練習（${links.length}）</span></header>
     <div class="print-sentence-link-list">${links.join("")}</div>
   </section>`;
 }
 
-function feedbackPrintTranscriptions(feedback) {
+function feedbackPrintTranscriptions(feedback, { id = "" } = {}) {
   const improved = String(feedback?.transcriptionImproved || "");
   const model = String(feedback?.transcriptionModel || "");
   if (!improved.trim() && !model.trim()) return "";
-  return `<section class="print-feedback-section print-transcriptions">
+  return `<section${id ? ` id="${escapePrintHtml(id)}"` : ""} class="print-feedback-section print-transcriptions">
     <h3>謄文內容</h3>
     ${improved.trim() ? `<article><strong>謄文區 - 1 Edmund 改良版</strong><div>${escapePrintHtml(improved)}</div></article>` : ""}
     ${model.trim() ? `<article><strong>謄文區 - 範文</strong><div>${escapePrintHtml(model)}</div></article>` : ""}
   </section>`;
 }
 
-function feedbackPrintHtml(feedback) {
-  if (!feedback) return `<section class="print-feedback-empty"><h2>Edmund Sir 寫作評語</h2><p>這篇文章尚未有可匯出的評語。</p></section>`;
+function feedbackPrintSectionLinks(feedback, articleKey) {
+  if (!feedback) return [];
+  const anchor = key => `${articleKey}-${key}`;
+  const hasEnhancement = key => normalizeFeedbackEnhancementParts(feedback[key]).length > 0;
+  return [
+    ["feedback", "Edmund Sir 寫作評語", true],
+    ["overall", "整體評語", Boolean(String(feedback.overallComment || "").trim())],
+    ["fragments", "逐句／逐段評語", Boolean(feedback.fragments?.length)],
+    ["final", "最後評語", Boolean(String(feedback.finalComment || "").trim())],
+    ["grammar", "文法評語站", Boolean(normalizeGrammarFeedbackPoints(feedback.grammarPoints).length)],
+    ["improved", "保留原意改良版", Boolean(String(feedback.improvedVersion || "").trim())],
+    ["transcriptions", "謄文內容", Boolean(String(feedback.transcriptionImproved || "").trim() || String(feedback.transcriptionModel || "").trim())],
+    ["sentence", "句子結構提升區", hasEnhancement("sentenceStructureParts")],
+    ["sentence-links", "Sentence Structure 練習", Boolean(normalizeFeedbackSentencePickerLinks(feedback.sentenceStructureLinks).length)],
+    ["rhetorical", "修辭技巧提升區", hasEnhancement("rhetoricalParts")],
+    ["phrasal", "動詞片語 (Phrasal Verb) 提升區", hasEnhancement("phrasalVerbParts")],
+    ["writing-expression", "Writing - Common Expression 提升區", hasEnhancement("writingCommonExpressionParts")],
+    ["rhetorical-expression", "修辭 Common Expression 提升區", hasEnhancement("rhetoricalCommonExpressionParts")],
+    ["synonym", "同義詞改善區", hasEnhancement("synonymImprovementParts")]
+  ].filter(([, , available]) => available).map(([key, label]) => ({ id: anchor(key), label }));
+}
+
+function feedbackPrintContents(feedback, articleKey) {
+  const links = feedbackPrintSectionLinks(feedback, articleKey);
+  if (!links.length) return "";
+  return `<nav class="print-feedback-contents" aria-label="評語內容索引">
+    <p>FEEDBACK CONTENTS</p><h2>評語內容索引</h2>
+    <div>${links.map((link, index) => `<a href="#${escapePrintHtml(link.id)}"><span>${index + 1}</span>${escapePrintHtml(link.label)}</a>`).join("")}</div>
+  </nav>`;
+}
+
+function feedbackPrintHtml(feedback, { articleKey = "feedback", pageBreakBefore = false } = {}) {
+  const pageClass = pageBreakBefore ? " print-page-start" : "";
+  if (!feedback) return `<section id="${escapePrintHtml(`${articleKey}-feedback`)}" class="print-feedback-empty${pageClass}"><h2>Edmund Sir 寫作評語</h2><p>這篇文章尚未有可匯出的評語。</p></section>`;
+  const anchor = key => `${articleKey}-${key}`;
   const fragments = feedback.fragments.map((fragment, index) => `
     <article class="print-feedback-pair">
       <section class="print-feedback-band is-original">
@@ -5163,29 +5220,30 @@ function feedbackPrintHtml(feedback) {
   const improvedVersion = feedbackPrintTextSection(
     "保留原意改良版",
     feedback.improvedVersion,
-    "print-improved-version",
-    feedback.improvedFormatting
+    "print-improved-version print-page-start",
+    feedback.improvedFormatting,
+    { id: anchor("improved") }
   );
-  return `<section class="print-feedback">
-    <header class="print-feedback-head">
+  return `<section class="print-feedback${pageClass}">
+    <header id="${escapePrintHtml(anchor("feedback"))}" class="print-feedback-head">
       <p>EDMUND SIR FEEDBACK</p><h2>Edmund Sir 寫作評語</h2>
       <div>${feedback.isAdminPreview
         ? "目前編輯器預覽（可能尚未儲存）"
         : feedback.status === "published" ? "已發佈" : "管理員草稿"}${feedback.updatedAt ? ` · 更新：${escapePrintHtml(formatSubmissionDate(feedback.updatedAt))}` : ""}</div>
     </header>
-    ${feedbackPrintTextSection("整體評語", feedback.overallComment, "print-overall-comment", feedback.overallFormatting)}
-    ${fragments ? `<div class="print-feedback-pairs">${fragments}</div>` : ""}
-    ${feedbackPrintTextSection("最後評語", feedback.finalComment, "print-final-comment", feedback.finalFormatting)}
-    ${feedbackPrintLearningCards("文法評語站", feedback.grammarPoints)}
+    ${feedbackPrintTextSection("整體評語", feedback.overallComment, "print-overall-comment", feedback.overallFormatting, { id: anchor("overall") })}
+    ${fragments ? `<div id="${escapePrintHtml(anchor("fragments"))}" class="print-feedback-pairs">${fragments}</div>` : ""}
+    ${feedbackPrintTextSection("最後評語", feedback.finalComment, "print-final-comment", feedback.finalFormatting, { id: anchor("final") })}
+    ${feedbackPrintLearningCards("文法評語站", feedback.grammarPoints, { id: anchor("grammar") })}
     ${improvedVersion}
-    ${feedbackPrintTranscriptions(feedback)}
-    ${feedbackPrintEnhancementCards("句子結構提升區", feedback.sentenceStructureParts, "sentence")}
-    ${feedbackPrintSentenceLinks(feedback.sentenceStructureLinks)}
-    ${feedbackPrintEnhancementCards("修辭技巧提升區", feedback.rhetoricalParts, "rhetorical")}
-    ${feedbackPrintEnhancementCards("動詞片語 (Phrasal Verb) 提升區", feedback.phrasalVerbParts, "phrasal")}
-    ${feedbackPrintEnhancementCards("Writing - Common Expression 提升區", feedback.writingCommonExpressionParts, "writingExpression")}
-    ${feedbackPrintEnhancementCards("修辭 Common Expression 提升區", feedback.rhetoricalCommonExpressionParts, "rhetoricalExpression")}
-    ${feedbackPrintEnhancementCards("同義詞改善區", feedback.synonymImprovementParts, "synonym")}
+    ${feedbackPrintTranscriptions(feedback, { id: anchor("transcriptions") })}
+    ${feedbackPrintEnhancementCards("句子結構提升區", feedback.sentenceStructureParts, "sentence", { id: anchor("sentence") })}
+    ${feedbackPrintSentenceLinks(feedback.sentenceStructureLinks, { id: anchor("sentence-links") })}
+    ${feedbackPrintEnhancementCards("修辭技巧提升區", feedback.rhetoricalParts, "rhetorical", { id: anchor("rhetorical"), pageBreakBefore: true })}
+    ${feedbackPrintEnhancementCards("動詞片語 (Phrasal Verb) 提升區", feedback.phrasalVerbParts, "phrasal", { id: anchor("phrasal") })}
+    ${feedbackPrintEnhancementCards("Writing - Common Expression 提升區", feedback.writingCommonExpressionParts, "writingExpression", { id: anchor("writing-expression") })}
+    ${feedbackPrintEnhancementCards("修辭 Common Expression 提升區", feedback.rhetoricalCommonExpressionParts, "rhetoricalExpression", { id: anchor("rhetorical-expression") })}
+    ${feedbackPrintSynonymTable("同義詞改善區", feedback.synonymImprovementParts, { id: anchor("synonym") })}
   </section>`;
 }
 
@@ -5200,8 +5258,9 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
   const includeFeedback = mode === "feedback" || mode === "both";
   const modeLabel = mode === "writing" ? "學生原文" : mode === "feedback" ? "評語" : "學生原文及評語";
   const baseHref = new URL(".", window.location.href).href;
-  const articles = bundles.map(({ submission, feedback }, index) => `
-    <article class="composition">
+  const articles = bundles.map(({ submission, feedback }, index) => {
+    const articleKey = `composition-${index + 1}`;
+    return `<article class="composition">
       <a class="export-header" href="https://edmundeducation.com/index.html" aria-label="返回 EdmundEducation 網站首頁">
         <span class="brand">EdmundEducation</span>
         <img class="elearning" src="https://edmundeducation.com/E-Learning.png" alt="E-Learning">
@@ -5219,8 +5278,10 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
       </header>
       ${includeWriting ? `<section class="topic"><strong>寫作題目</strong><p>${escapePrintHtml(submission.topic)}</p></section>
       <section class="answer"><strong>學生原文</strong><div>${escapePrintHtml(submission.answer || "（文章內容為空）")}</div></section>` : ""}
-      ${includeFeedback ? feedbackPrintHtml(feedback) : ""}
-    </article>`).join("");
+      ${includeWriting && includeFeedback ? feedbackPrintContents(feedback, articleKey) : ""}
+      ${includeFeedback ? feedbackPrintHtml(feedback, { articleKey, pageBreakBefore: includeWriting }) : ""}
+    </article>`;
+  }).join("");
   return `<!doctype html>
 <html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <base href="${escapePrintHtml(baseHref)}">
@@ -5236,6 +5297,7 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
   h1{margin:0 0 14px;font-size:27px;line-height:1.35}h2,h3,.print-card-title{break-after:avoid;page-break-after:avoid}.meta{display:flex;flex-wrap:wrap;gap:7px 14px;color:#66637c;font:12px system-ui,sans-serif}
   .topic,.answer{margin-top:22px}.topic{border-left:5px solid #e87b2c;padding:14px 18px;background:#fff6e8;break-inside:avoid;page-break-inside:avoid}.topic strong,.answer>strong{display:block;margin-bottom:8px;color:#bd571b;font:800 11px system-ui,sans-serif;letter-spacing:.08em}
   .topic p{margin:0;font-size:15px;line-height:1.65;white-space:pre-wrap}.answer>div{font-size:16px;line-height:1.78;white-space:pre-wrap;overflow-wrap:anywhere;orphans:3;widows:3}
+  .print-feedback-contents{margin-top:24px;border:1px solid #d8dceb;border-radius:15px;padding:17px 18px;background:#f7f8ff;break-inside:avoid;page-break-inside:avoid}.print-feedback-contents>p{margin:0;color:#8a5b17;font:850 10px system-ui,sans-serif;letter-spacing:.13em}.print-feedback-contents>h2{margin:4px 0 12px;color:#272757;font-size:19px}.print-feedback-contents>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.print-feedback-contents a{min-width:0;border:1px solid #dde1f0;border-radius:10px;padding:8px 10px;display:grid;grid-template-columns:24px minmax(0,1fr);align-items:center;gap:8px;color:#174f83;background:#fff;text-decoration:none;font:750 11px/1.4 system-ui,sans-serif}.print-feedback-contents a>span{width:23px;height:23px;border-radius:50%;display:grid;place-items:center;color:#fff;background:#405b9e;font:800 10px system-ui,sans-serif}
   .print-feedback,.print-feedback-empty{margin-top:30px}.print-feedback-head{margin-bottom:18px;border-radius:16px;padding:18px 20px;color:#fff;background:#272757;break-inside:avoid;page-break-inside:avoid}.print-feedback-head p{margin:0;color:#f6b263;font:800 10px system-ui,sans-serif;letter-spacing:.14em}.print-feedback-head h2{margin:4px 0 6px;font-size:22px}.print-feedback-head div{color:#deddf0;font:12px system-ui,sans-serif}
   .print-feedback-empty{border:1px dashed #b9b7ca;border-radius:14px;padding:18px;color:#66637c;background:#fafafd;break-inside:avoid;page-break-inside:avoid}.print-feedback-empty h2{margin:0 0 7px;font-size:20px}.print-feedback-empty p{margin:0}
   .print-feedback-text,.print-feedback-section,.print-sentence-panel{margin-top:18px}.print-feedback-text{border:1px solid #e4dfef;border-radius:14px;padding:16px 18px;background:#fffdf9;break-inside:avoid;page-break-inside:avoid}.print-feedback-text h3,.print-feedback-section>h3{margin:0 0 10px;color:#272757;font:850 17px system-ui,sans-serif}.print-feedback-text>div{font-size:15px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}
@@ -5245,9 +5307,10 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
   .print-enhancement-card{overflow:hidden;border:1px solid #d9dceb;border-radius:15px;background:#fff;break-inside:avoid;page-break-inside:avoid}.print-card-title{display:block;padding:11px 15px;color:#fff;background:#304794;font:850 13px system-ui,sans-serif}.is-rhetorical .print-card-title{background:#7a3c78}.is-phrasal-verb .print-card-title{background:#276848}.is-writing-common-expression .print-card-title{background:#28617d}.is-rhetorical-common-expression .print-card-title{background:#98631d}.print-enhancement-band{margin:0;padding:12px 15px}.print-enhancement-band.is-original{background:#f7f7fa}.print-enhancement-band.is-original>span{color:#55536d}.print-enhancement-band.is-enhancement{border-top:1px solid #d7e7da;background:#f1fbf3}.print-enhancement-band.is-enhancement>span{color:#21703a}.print-enhancement-band.is-benefit{border-top:1px solid #eadbbc;background:#fff8e8}.print-enhancement-band.is-benefit>span{color:#9d5b16}
   .print-sentence-panel{overflow:hidden;border:1px solid #d9dceb;border-radius:15px;background:#f7f8ff;break-inside:avoid;page-break-inside:avoid}.print-sentence-panel>header{padding:13px 15px;display:flex;justify-content:space-between;gap:12px;color:#272757;background:#e9edff;font:12px system-ui,sans-serif}.print-sentence-panel>header strong{font-weight:850}.print-sentence-link-list{display:grid;gap:7px;padding:12px}.print-sentence-link-row{display:grid;grid-template-columns:28px 1fr;gap:9px;align-items:center;border:1px solid #e0e2ed;border-radius:10px;padding:8px 10px;background:#fff;break-inside:avoid;page-break-inside:avoid}.print-sentence-link-row>span{width:25px;height:25px;border-radius:50%;display:grid;place-items:center;color:#fff;background:#304794;font:800 11px system-ui,sans-serif}.print-sentence-link-row a{color:#145c91;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px;font:750 12px/1.45 system-ui,sans-serif}
   .print-transcriptions article{margin-top:10px;border:1px solid #dfe0ea;border-radius:13px;padding:14px 16px;break-inside:avoid;page-break-inside:avoid}.print-transcriptions article>strong{display:block;margin-bottom:8px;color:#304794;font:850 12px system-ui,sans-serif}.print-transcriptions article>div{font-size:15px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}.print-improved-version{border-color:#cfe4d3;background:#f2fbf3}
+  .print-synonym-table-wrap{overflow:hidden;border:1px solid #cad4e9;border-radius:13px;background:#fff}.print-synonym-table{width:100%;border-collapse:collapse;table-layout:fixed}.print-synonym-table th{padding:10px 11px;color:#30466f;background:#edf3ff;text-align:left;font:850 11px/1.4 system-ui,sans-serif}.print-synonym-table th+th,.print-synonym-table td+td{border-left:1px solid #cad4e9}.print-synonym-table td{border-top:1px solid #dce3ef;padding:10px 11px;vertical-align:top;background:#fff;overflow-wrap:anywhere}.print-synonym-table tr{break-inside:avoid;page-break-inside:avoid}.print-synonym-table td:nth-child(2){background:#f5f8ff}.print-synonym-table td:nth-child(3){background:#f7fbf8}.print-synonym-table .print-rich-content{font-size:13px;line-height:1.55}
   mark{border-radius:.2em;padding:.03em .08em;color:inherit;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}mark[data-highlight="yellow"]{background:#fff1a8}mark[data-highlight="orange"]{background:#ffd3a1}mark[data-highlight="blue"]{background:#cfe6ff}mark[data-highlight="green"]{background:#d5f2d5}mark[data-highlight="red"]{background:#ffc7c7}em{font-style:italic}s{text-decoration:line-through}strong{font-weight:800}
-  @media(max-width:600px){.composition{padding:27px 22px}.export-header{gap:16px}.export-header .brand{font-size:20px}.export-header .elearning{height:30px}h1{font-size:22px}.print-sentence-panel>header{display:grid}}
-  @media print{@page{size:A4;margin:10mm 9mm}.print-toolbar{display:none!important}body{background:#fff}main{width:auto;margin:0}.composition{margin:0;padding:0;box-shadow:none}}
+  @media(max-width:600px){.composition{padding:27px 22px}.export-header{gap:16px}.export-header .brand{font-size:20px}.export-header .elearning{height:30px}h1{font-size:22px}.print-sentence-panel>header{display:grid}.print-feedback-contents>div{grid-template-columns:1fr}}
+  @media print{@page{size:A4;margin:10mm 9mm}.print-toolbar{display:none!important}body{background:#fff}main{width:auto;margin:0}.composition{margin:0;padding:0;box-shadow:none}.print-page-start{break-before:page!important;page-break-before:always!important}.print-feedback-contents a{color:#174f83!important}}
 </style></head><body>
 <div class="print-toolbar"><p>已準備 ${bundles.length} 篇${escapePrintHtml(modeLabel)}${failedCount ? `；${failedCount} 篇未能載入` : ""} · ${escapePrintHtml(generatedAt)}</p><button type="button" id="print-compositions">列印／儲存為 PDF</button></div>
 <main>${articles}</main></body></html>`;
@@ -6028,6 +6091,62 @@ function renderEnhancementCopyArea(feedback, kind, itemPosition) {
   return section;
 }
 
+function renderStudentSynonymTable(title, parts, feedback) {
+  const section = createElement(
+    "section",
+    "teacher-feedback-enhancement-read is-synonym-improvement teacher-feedback-synonym-read"
+  );
+  section.append(createElement("h3", "", title));
+  const wrap = createElement("div", "teacher-feedback-synonym-read-table-wrap");
+  const table = createElement("table", "teacher-feedback-synonym-read-table");
+  const columnGroup = document.createElement("colgroup");
+  const widths = normalizeFeedbackTableColumnWidths(parts[0]?.columnWidths);
+  widths.forEach((width) => {
+    const column = document.createElement("col");
+    column.style.width = `${width}%`;
+    columnGroup.append(column);
+  });
+  const head = document.createElement("thead");
+  const headRow = document.createElement("tr");
+  SYNONYM_TABLE_COLUMNS.forEach(({ label }) => {
+    const cell = createElement("th", "", label);
+    cell.scope = "col";
+    headRow.append(cell);
+  });
+  head.append(headRow);
+  const body = document.createElement("tbody");
+  parts.forEach((part, index) => {
+    const row = document.createElement("tr");
+    SYNONYM_TABLE_COLUMNS.forEach(({ field }) => {
+      const cell = document.createElement("td");
+      const content = createElement("div", "teacher-feedback-rich-content");
+      appendStructuredFeedbackRichText(
+        content,
+        part[field]?.text,
+        part[field]?.formatting,
+        { emptyText: "未填寫" }
+      );
+      if (!part[field]?.text) content.classList.add("is-empty");
+      cell.append(content);
+      row.append(cell);
+    });
+    body.append(row);
+    const copyArea = renderEnhancementCopyArea(feedback, "synonym", index + 1);
+    if (copyArea) {
+      const copyRow = createElement("tr", "teacher-feedback-synonym-copy-row");
+      const copyCell = document.createElement("td");
+      copyCell.colSpan = 3;
+      copyCell.append(copyArea);
+      copyRow.append(copyCell);
+      body.append(copyRow);
+    }
+  });
+  table.append(columnGroup, head, body);
+  wrap.append(table);
+  section.append(wrap);
+  return section;
+}
+
 function renderStudentFeedbackEnhancementArea(
   title,
   itemsValue,
@@ -6036,6 +6155,7 @@ function renderStudentFeedbackEnhancementArea(
   const parts = normalizeFeedbackEnhancementParts(itemsValue);
   const sentenceLinks = kind === "sentence" ? normalizeFeedbackSentencePickerLinks(links) : [];
   if (!parts.length && !sentenceLinks.length) return null;
+  if (kind === "synonym") return renderStudentSynonymTable(title, parts, feedback);
   const kindCopy = feedbackEnhancementKindCopy(kind);
   const section = createElement(
     "section",
@@ -6389,11 +6509,185 @@ function createFeedbackEnhancementRow(kind, index, value = {}) {
   return row;
 }
 
+const SYNONYM_TABLE_COLUMNS = Object.freeze([
+  Object.freeze({ field: "originalSentence", suffix: "original", label: "原字／原句" }),
+  Object.freeze({ field: "enhancement", suffix: "enhancement", label: "可用替換／改良寫法" }),
+  Object.freeze({ field: "benefit", suffix: "benefit", label: "用法說明／好處" })
+]);
+
+function applySynonymTableColumnWidths(table, value) {
+  if (!table) return;
+  const widths = normalizeFeedbackTableColumnWidths(value);
+  table.dataset.synonymColumnWidths = JSON.stringify(widths);
+  table.querySelectorAll("col").forEach((column, index) => {
+    column.style.width = `${widths[index]}%`;
+  });
+  table.querySelectorAll("[data-synonym-column-width-label]").forEach((label, index) => {
+    label.textContent = `${Math.round(widths[index])}%`;
+  });
+}
+
+function synonymTableColumnWidths(table) {
+  try {
+    return normalizeFeedbackTableColumnWidths(JSON.parse(table?.dataset.synonymColumnWidths || ""));
+  } catch {
+    return normalizeFeedbackTableColumnWidths(null);
+  }
+}
+
+function createFeedbackSynonymTableRow(index, value = {}) {
+  const row = document.createElement("tr");
+  row.dataset.feedbackLearningRow = "synonym";
+  SYNONYM_TABLE_COLUMNS.forEach(({ field, suffix, label }, columnIndex) => {
+    const cell = document.createElement("td");
+    if (columnIndex === 0) {
+      const actions = createElement("div", "teacher-feedback-synonym-row-actions");
+      const number = createElement("span", "", `第 ${index + 1} 行`);
+      number.dataset.feedbackSynonymRowNumber = "true";
+      const remove = createElement("button", "teacher-feedback-clear", "刪除此行");
+      remove.type = "button";
+      remove.dataset.feedbackLearningRemove = "true";
+      actions.append(number, remove);
+      cell.append(actions);
+    }
+    cell.append(createFeedbackRichEditor({
+      label: `同義詞改善第 ${index + 1} 行：${label}`,
+      value: value[field]?.text || "",
+      formatting: value[field]?.formatting,
+      maxLength: 20000,
+      datasetName: `synonym-${suffix}`
+    }));
+    row.append(cell);
+  });
+  return row;
+}
+
+function parseSynonymTableClipboard(event) {
+  const html = event.clipboardData?.getData("text/html") || "";
+  let rows = [];
+  if (html) {
+    const documentFragment = new DOMParser().parseFromString(html, "text/html");
+    const table = documentFragment.querySelector("table");
+    if (table) {
+      rows = [...table.querySelectorAll("tr")].map(row => (
+        [...row.querySelectorAll("th,td")].slice(0, 3).map(cell => String(cell.textContent || "").trim())
+      ));
+    }
+  }
+  if (!rows.length) {
+    rows = String(event.clipboardData?.getData("text/plain") || "")
+      .replace(/\r\n?/gu, "\n")
+      .split("\n")
+      .map(line => line.split("\t").slice(0, 3).map(cell => cell.trim()));
+  }
+  rows = rows.map(row => [...row, "", ""].slice(0, 3))
+    .filter(row => row.some(cell => cell.trim()));
+  const first = rows[0]?.map(cell => cell.toLowerCase()) || [];
+  const headerMatches = [
+    /原字|原句|original/u,
+    /替換|同義|synonym|enhancement|改良/u,
+    /用法|說明|好處|benefit|作用/u
+  ].filter((pattern, index) => pattern.test(first[index] || "")).length;
+  if (headerMatches >= 2) rows.shift();
+  return rows.slice(0, 100);
+}
+
+function replaceSynonymTableRows(table, rows) {
+  const body = table?.querySelector('[data-feedback-learning-list="synonym"]');
+  if (!body) return;
+  const count = Math.min(100, Math.max(10, Math.ceil(rows.length / 10) * 10));
+  body.replaceChildren();
+  for (let index = 0; index < count; index += 1) {
+    const cells = rows[index] || [];
+    body.append(createFeedbackSynonymTableRow(index, {
+      originalSentence: { text: cells[0] || "", formatting: [] },
+      enhancement: { text: cells[1] || "", formatting: [] },
+      benefit: { text: cells[2] || "", formatting: [] }
+    }));
+  }
+}
+
+function initializeSynonymTableColumnResizers(table) {
+  table?.querySelectorAll("[data-synonym-column-resizer]").forEach((resizer) => {
+    resizer.addEventListener("pointerdown", (event) => {
+      if (event.button !== 0) return;
+      event.preventDefault();
+      const index = Number(resizer.dataset.synonymColumnResizer);
+      const startWidths = synonymTableColumnWidths(table);
+      const width = Math.max(1, table.getBoundingClientRect().width);
+      const startX = event.clientX;
+      resizer.setPointerCapture?.(event.pointerId);
+      const move = (moveEvent) => {
+        const delta = ((moveEvent.clientX - startX) / width) * 100;
+        const pairTotal = startWidths[index] + startWidths[index + 1];
+        const left = Math.max(15, Math.min(pairTotal - 15, startWidths[index] + delta));
+        const next = [...startWidths];
+        next[index] = left;
+        next[index + 1] = pairTotal - left;
+        applySynonymTableColumnWidths(table, next);
+      };
+      const finish = () => {
+        resizer.removeEventListener("pointermove", move);
+        resizer.removeEventListener("pointerup", finish);
+        resizer.removeEventListener("pointercancel", finish);
+        scheduleAdminFeedbackRecoverySave();
+      };
+      resizer.addEventListener("pointermove", move);
+      resizer.addEventListener("pointerup", finish);
+      resizer.addEventListener("pointercancel", finish);
+    });
+  });
+}
+
+function createFeedbackSynonymTable(values = []) {
+  const table = createElement("table", "teacher-feedback-synonym-table");
+  table.dataset.feedbackSynonymTable = "true";
+  const columnGroup = document.createElement("colgroup");
+  SYNONYM_TABLE_COLUMNS.forEach(() => columnGroup.append(document.createElement("col")));
+  const head = document.createElement("thead");
+  const headRow = document.createElement("tr");
+  SYNONYM_TABLE_COLUMNS.forEach(({ label }, index) => {
+    const cell = document.createElement("th");
+    cell.scope = "col";
+    const copy = createElement("span", "", label);
+    const widthLabel = createElement("small", "", "");
+    widthLabel.dataset.synonymColumnWidthLabel = "true";
+    cell.append(copy, widthLabel);
+    if (index < SYNONYM_TABLE_COLUMNS.length - 1) {
+      const resizer = createElement("button", "teacher-feedback-synonym-column-resizer", "");
+      resizer.type = "button";
+      resizer.dataset.synonymColumnResizer = String(index);
+      resizer.setAttribute("aria-label", `拖曳調整${label}欄闊度`);
+      resizer.title = "左右拖曳調整欄闊";
+      cell.append(resizer);
+    }
+    headRow.append(cell);
+  });
+  head.append(headRow);
+  const body = document.createElement("tbody");
+  body.dataset.feedbackLearningList = "synonym";
+  table.append(columnGroup, head, body);
+  const initialCount = Math.max(10, Math.ceil(values.length / 10) * 10);
+  appendFeedbackLearningRows(body, "synonym", initialCount, values);
+  applySynonymTableColumnWidths(table, values[0]?.columnWidths);
+  queueMicrotask(() => initializeSynonymTableColumnResizers(table));
+  return table;
+}
+
 function renumberFeedbackLearningRows(list, kind) {
   const grammar = kind === "grammar";
   const copy = feedbackEnhancementKindCopy(kind);
   list.querySelectorAll(`[data-feedback-learning-row="${kind}"]`).forEach((row, index) => {
     const title = `${grammar ? "文法重點" : copy.singular} ${index + 1}`;
+    if (kind === "synonym") {
+      const number = row.querySelector("[data-feedback-synonym-row-number]");
+      if (number) number.textContent = `第 ${index + 1} 行`;
+      SYNONYM_TABLE_COLUMNS.forEach(({ suffix, label }) => {
+        row.querySelector(`[data-feedback-rich-editor="synonym-${suffix}"]`)
+          ?.setAttribute("aria-label", `同義詞改善第 ${index + 1} 行：${label}`);
+      });
+      return;
+    }
     const label = row.querySelector("[data-feedback-learning-label]");
     if (label) label.textContent = title;
     if (grammar) {
@@ -6420,6 +6714,8 @@ function appendFeedbackLearningRows(list, kind, count, values = []) {
     const value = values[start + offset] || {};
     list.append(kind === "grammar"
       ? createFeedbackLearningRow(kind, start + offset, value)
+      : kind === "synonym"
+      ? createFeedbackSynonymTableRow(start + offset, value)
       : createFeedbackEnhancementRow(kind, start + offset, value));
   }
   renumberFeedbackLearningRows(list, kind);
@@ -6718,12 +7014,40 @@ function renderFeedbackLearningEditor({ kind, title, description, values = [], l
   const head = createElement("div", "teacher-feedback-learning-head");
   head.append(createElement("h3", "", title), createElement("p", "", description));
   section.append(head, feedbackFormattingToolbar());
-  const list = createElement("div", "teacher-feedback-learning-list");
-  list.dataset.feedbackLearningList = kind;
-  const initialCount = Math.max(10, Math.ceil(values.length / 10) * 10);
-  appendFeedbackLearningRows(list, kind, initialCount, values);
-  section.append(list);
+  if (kind === "synonym") {
+    const pasteArea = createElement("label", "teacher-feedback-synonym-paste");
+    pasteArea.append(
+      createElement("strong", "", "貼上整個同義詞表格"),
+      createElement("span", "", "可直接從 Google Sheets、Excel 或網頁表格複製三欄資料，再貼到下方。首列標題會自動辨認。")
+    );
+    const pasteInput = document.createElement("textarea");
+    pasteInput.rows = 3;
+    pasteInput.dataset.feedbackSynonymTablePaste = "true";
+    pasteInput.placeholder = "按一下這裡，再貼上整個表格……";
+    pasteInput.setAttribute("aria-label", "貼上整個同義詞表格");
+    pasteArea.append(pasteInput);
+    const tableWrap = createElement("div", "teacher-feedback-synonym-table-wrap");
+    const table = createFeedbackSynonymTable(values);
+    tableWrap.append(table);
+    section.append(pasteArea, tableWrap);
+    pasteInput.addEventListener("paste", (event) => {
+      const rows = parseSynonymTableClipboard(event);
+      if (!rows.length) return;
+      event.preventDefault();
+      replaceSynonymTableRows(table, rows);
+      pasteInput.value = "";
+      scheduleAdminFeedbackRecoverySave();
+      showToast(`已將 ${rows.length} 行整理成同義詞表格。`, "success");
+    });
+  } else {
+    const list = createElement("div", "teacher-feedback-learning-list");
+    list.dataset.feedbackLearningList = kind;
+    const initialCount = Math.max(10, Math.ceil(values.length / 10) * 10);
+    appendFeedbackLearningRows(list, kind, initialCount, values);
+    section.append(list);
+  }
   const add = createElement("button", "secondary-button teacher-feedback-add", "＋ 增加 10 項");
+  if (kind === "synonym") add.textContent = "＋ 增加 10 行";
   add.type = "button";
   add.dataset.feedbackLearningAddTen = kind;
   section.append(add);
@@ -6865,7 +7189,9 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
     appendRegion(renderFeedbackLearningEditor({
       kind,
       title: kindCopy.title,
-      description: "每項分開記錄 Original Sentence 原句、Enhancement 改良寫法及 Benefit 好處／作用。",
+      description: kind === "synonym"
+        ? "以三欄表格記錄原字／原句、可用替換／改良寫法及用法說明／好處。可貼上整個表格，並拖曳欄線調整欄闊。"
+        : "每項分開記錄 Original Sentence 原句、Enhancement 改良寫法及 Benefit 好處／作用。",
       values: feedback?.[kindCopy.dataKey] || []
     }), kind);
   }
@@ -6921,9 +7247,10 @@ function readAdminFeedbackEditor(editor, { allowEmpty = false } = {}) {
     [...editor.querySelectorAll('[data-feedback-learning-row="grammar"]')]
       .map(row => readFeedbackRichEditor(row.querySelector('[data-feedback-rich-editor="grammar-point"]')))
   );
-  const readEnhancementParts = kind => normalizeFeedbackEnhancementParts(
-    [...editor.querySelectorAll(`[data-feedback-learning-row="${kind}"]`)]
-      .map(row => ({
+  const readEnhancementParts = kind => {
+    const parts = normalizeFeedbackEnhancementParts(
+      [...editor.querySelectorAll(`[data-feedback-learning-row="${kind}"]`)]
+        .map(row => ({
         originalSentence: readFeedbackRichEditor(
           row.querySelector(`[data-feedback-rich-editor="${kind}-original"]`)
         ),
@@ -6934,7 +7261,14 @@ function readAdminFeedbackEditor(editor, { allowEmpty = false } = {}) {
           row.querySelector(`[data-feedback-rich-editor="${kind}-benefit"]`)
         )
       }))
-  );
+    );
+    if (kind === "synonym" && parts.length) {
+      parts[0].columnWidths = synonymTableColumnWidths(
+        editor.querySelector("[data-feedback-synonym-table]")
+      );
+    }
+    return parts;
+  };
   const sentenceStructureParts = readEnhancementParts("sentence");
   const rhetoricalParts = readEnhancementParts("rhetorical");
   const phrasalVerbParts = readEnhancementParts("phrasal");

@@ -1239,6 +1239,26 @@ button { color: inherit; }
 .teacher-feedback-learning-editor.is-rhetorical-common-expression .teacher-feedback-learning-head h3 { color: #98631d; }
 .teacher-feedback-learning-editor.is-synonym-improvement .teacher-feedback-learning-head h3 { color: #405b9e; }
 .teacher-feedback-learning-head p { margin: 7px 0 0; color: #596d7d; font: 12px/1.6 ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-synonym-paste { margin: 0 20px 14px; border: 2px dashed rgba(64,91,158,.28); border-radius: 14px; padding: 14px; display: grid; gap: 6px; color: #30466f; background: rgba(255,255,255,.78); }
+.teacher-feedback-synonym-paste strong { font: 850 14px/1.4 ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-synonym-paste span { color: #65738a; font: 11px/1.55 ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-synonym-paste textarea { width: 100%; min-height: 74px; border: 1px solid rgba(64,91,158,.2); border-radius: 11px; padding: 11px 12px; color: var(--ink); background: #fff; resize: vertical; font: 13px/1.55 ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-synonym-paste textarea:focus { border-color: #5875ba; outline: 0; box-shadow: 0 0 0 4px rgba(64,91,158,.12); }
+.teacher-feedback-synonym-table-wrap { margin: 0 20px; overflow: auto; border: 1px solid rgba(64,91,158,.24); border-radius: 14px; background: #fff; box-shadow: 0 8px 24px rgba(39,39,87,.06); }
+.teacher-feedback-synonym-table { width: 100%; min-width: 720px; border-collapse: collapse; table-layout: fixed; }
+.teacher-feedback-synonym-table th { position: relative; border-bottom: 2px solid rgba(64,91,158,.25); padding: 12px 14px; color: #30466f; background: #eaf1ff; text-align: left; font: 850 12px/1.4 ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-synonym-table th+th,.teacher-feedback-synonym-table td+td { border-left: 2px solid rgba(64,91,158,.22); }
+.teacher-feedback-synonym-table th small { margin-left: 7px; color: #7788aa; font: 750 9px ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-synonym-table td { border-top: 1px solid rgba(64,91,158,.16); padding: 8px; vertical-align: top; background: #fff; }
+.teacher-feedback-synonym-table td:nth-child(2) { background: #f7f9ff; }
+.teacher-feedback-synonym-table td:nth-child(3) { background: #f6fbf8; }
+.teacher-feedback-synonym-table .teacher-feedback-rich-editor { min-height: 92px; border-radius: 9px; padding: 10px; font-size: calc(14px * var(--submission-text-scale)); }
+.teacher-feedback-synonym-row-actions { margin-bottom: 6px; display: flex; align-items: center; justify-content: space-between; gap: 7px; }
+.teacher-feedback-synonym-row-actions>span { color: #64728a; font: 800 9px ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-synonym-row-actions .teacher-feedback-clear { padding: 4px 7px; font-size: 9px; }
+.teacher-feedback-synonym-column-resizer { position: absolute; z-index: 2; top: 0; right: -8px; bottom: 0; width: 16px; border: 0; padding: 0; background: transparent; cursor: col-resize; touch-action: none; }
+.teacher-feedback-synonym-column-resizer::after { position: absolute; top: 0; bottom: 0; left: 7px; width: 2px; background: rgba(64,91,158,.32); content: ""; transition: width .12s ease,background .12s ease; }
+.teacher-feedback-synonym-column-resizer:hover::after,.teacher-feedback-synonym-column-resizer:focus-visible::after { width: 4px; background: #405b9e; }
 .teacher-feedback-learning-list { padding: 0 20px; display: grid; gap: 12px; }
 .teacher-feedback-learning-row { border: 1px solid rgba(37,107,143,.18); border-radius: 15px; padding: 14px; background: rgba(255,255,255,.82); }
 .teacher-feedback-learning-row-head { margin-bottom: 9px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
@@ -1313,6 +1333,16 @@ button { color: inherit; }
 .teacher-feedback-enhancement-field .teacher-feedback-rich-editor { min-height: 128px; background: #fff; resize: vertical; }
 .teacher-feedback-enhancement-field .teacher-feedback-live-preview { margin-top: 2px; }
 .teacher-feedback-learning-editor .teacher-feedback-add { margin-top: 14px; }
+.teacher-feedback-synonym-read-table-wrap { overflow-x: auto; border: 1px solid rgba(64,91,158,.22); border-radius: 15px; background: #fff; }
+.teacher-feedback-synonym-read-table { width: 100%; min-width: 660px; border-collapse: collapse; table-layout: fixed; }
+.teacher-feedback-synonym-read-table th { padding: 12px 14px; color: #30466f; background: #eaf1ff; text-align: left; font: 850 12px/1.4 ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-synonym-read-table th+th,.teacher-feedback-synonym-read-table td+td { border-left: 1px solid rgba(64,91,158,.24); }
+.teacher-feedback-synonym-read-table td { border-top: 1px solid rgba(64,91,158,.18); padding: 12px 14px; vertical-align: top; background: #fff; }
+.teacher-feedback-synonym-read-table td:nth-child(2) { background: #f7f9ff; }
+.teacher-feedback-synonym-read-table td:nth-child(3) { background: #f6fbf8; }
+.teacher-feedback-synonym-read-table .teacher-feedback-rich-content { font-size: calc(14px * var(--submission-text-scale)); line-height: 1.6; }
+.teacher-feedback-synonym-copy-row td { padding: 0; background: #f7f8ff!important; }
+.teacher-feedback-synonym-copy-row .teacher-feedback-enhancement-copy { margin: 0; border: 0; border-radius: 0; }
 .teacher-feedback-sentence-picker { margin: 0 20px 22px; display: grid; gap: 10px; border: 1px solid rgba(51,116,180,.2); border-radius: 15px; padding: 13px; background: rgba(239,248,255,.86); }
 .teacher-feedback-sentence-picker-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 .teacher-feedback-sentence-picker-head strong { color: #164f7e; font: 850 14px ui-sans-serif,system-ui,sans-serif; }

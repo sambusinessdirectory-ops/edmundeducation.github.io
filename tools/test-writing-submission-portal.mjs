@@ -88,6 +88,10 @@ const adminProxyFeedbackMigration = fs.readFileSync(
   path.join(root, "supabase-writing-submission-admin-proxy-feedback-20260831.sql"),
   "utf8"
 );
+const synonymTableMigration = fs.readFileSync(
+  path.join(root, "supabase/migrations/20260901110327_writing_submission_synonym_table_layout.sql"),
+  "utf8"
+);
 const adminProxyActiveStudentHotfix = fs.readFileSync(
   path.join(root, "supabase/migrations/20260831013832_writing_submission_admin_proxy_active_student_hotfix.sql"),
   "utf8"
@@ -384,7 +388,7 @@ test("submission traffic uses a first-party Supabase relay with a safe failure p
     /submissionProxyUrl:\s*"https:\/\/ookkxzgpdclzrrhfmvqx\.supabase\.co\/functions\/v1\/writing-submission-proxy"/
   );
   assert.match(html, /writing-submission-config\.js\?v=20260901-selection-delete1/);
-  assert.match(html, /writing-submission\.js\?v=20260901-right-click-line-break1/);
+  assert.match(html, /writing-submission\.js\?v=20260901-pdf-synonym-table1/);
   assert.match(submissionProxy, /const UPSTREAM_ORIGIN = "https:\/\/edmund-writing-submission\.edmundeducation\.workers\.dev"/);
   assert.match(submissionProxy, /const ALLOWED_ORIGINS = new Set/);
   assert.match(submissionProxy, /request\.method !== "PUT" && request\.method !== "POST"/);
@@ -417,8 +421,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260901-word-brush1/);
-  assert.match(html, /writing-submission\.js\?v=20260901-right-click-line-break1/);
+  assert.match(html, /writing-submission\.css\?v=20260901-pdf-synonym-table1/);
+  assert.match(html, /writing-submission\.js\?v=20260901-pdf-synonym-table1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -478,7 +482,7 @@ test("countdown and role-scoped composition plus feedback exports are fully wire
   assert.match(script, /apiJson\(`\$\{basePath\}\/feedback`\)/);
   assert.match(script, /exportStudentSubmissions\(state\.submissions\.map/);
   assert.match(script, /dataset\.exportAdminSubmission/);
-  assert.match(script, /feedbackPrintHtml\(feedback\)/);
+  assert.match(script, /feedbackPrintHtml\(feedback, \{ articleKey, pageBreakBefore: includeWriting \}\)/);
   assert.match(script, /readAdminFeedbackEditor\(editor, \{ allowEmpty: true \}\)/);
   assert.match(script, /elements\.adminDetail\?\.querySelector\("\[data-feedback-editor\]"\)/);
   assert.doesNotMatch(script, /elements\.adminSubmissionDetail/);
@@ -490,6 +494,14 @@ test("countdown and role-scoped composition plus feedback exports are fully wire
   assert.match(script, /href="https:\/\/edmundeducation\.com\/index\.html"/);
   assert.match(script, /new URL\(link\.url, "https:\/\/edmundeducation\.com\/"\)\.href/);
   assert.match(script, /<a href="\$\{escapePrintHtml\(absoluteUrl\)\}"/);
+  assert.match(script, /function feedbackPrintContents\(feedback, articleKey\)/);
+  assert.match(script, /class="print-feedback-contents" aria-label="評語內容索引"/);
+  assert.match(script, /href="#\$\{escapePrintHtml\(link\.id\)\}"/);
+  assert.match(script, /print-improved-version print-page-start/);
+  assert.match(script, /pageBreakBefore: true/);
+  assert.match(script, /\.print-page-start\{break-before:page!important;page-break-before:always!important\}/);
+  assert.match(script, /function feedbackPrintSynonymTable\(title, values/);
+  assert.match(script, /class="print-synonym-table"/);
   assert.match(css, /\.writing-timer-panel/);
   assert.match(css, /\.submission-export-toolbar/);
 });
@@ -928,7 +940,7 @@ test("feedback learning tools, bookmarks and admin sorting are fully wired to th
   assert.match(script, /姓名 Z → A/);
 
   assert.match(adminFeedbackReaderSource, /const grammarPoints = normalizeGrammarFeedbackPoints\(/);
-  assert.match(adminFeedbackReaderSource, /const readEnhancementParts = kind => normalizeFeedbackEnhancementParts\(/);
+  assert.match(adminFeedbackReaderSource, /const readEnhancementParts = kind => \{[\s\S]*?normalizeFeedbackEnhancementParts\(/);
   assert.match(adminFeedbackReaderSource, /const sentenceStructureParts = readEnhancementParts\("sentence"\)/);
   assert.match(adminFeedbackReaderSource, /const rhetoricalParts = readEnhancementParts\("rhetorical"\)/);
   assert.match(script, /const MAX_FEEDBACK_BODY_BYTES = 512 \* 1024/);
@@ -1230,6 +1242,21 @@ test("admin proxy submission and expanded feedback tools stay authenticated and 
   assert.match(script, /const synonymImprovementParts = readEnhancementParts\("synonym"\)/);
   assert.match(adminProxyFeedbackMigration, /add column if not exists synonym_improvement_parts jsonb not null default '\[\]'::jsonb/);
   assert.match(workerSource, /p_synonym_improvement_parts:\s*payload\.synonymImprovementParts/);
+  assert.match(script, /data\.feedbackSynonymTable = "true"|dataset\.feedbackSynonymTable = "true"/);
+  assert.match(script, /function parseSynonymTableClipboard\(event\)/);
+  assert.match(script, /querySelector\("table"\)/);
+  assert.match(script, /split\("\\t"\)/);
+  assert.match(script, /data\.feedbackSynonymTablePaste = "true"|dataset\.feedbackSynonymTablePaste = "true"/);
+  assert.match(script, /data\.synonymColumnResizer = String\(index\)|dataset\.synonymColumnResizer = String\(index\)/);
+  assert.match(script, /scheduleAdminFeedbackRecoverySave\(\)/);
+  assert.match(css, /\.teacher-feedback-synonym-column-resizer/);
+  assert.match(css, /cursor:\s*col-resize/);
+  assert.match(workerSource, /allowColumnWidths: true/);
+  assert.match(workerSource, /includeColumnWidths: true/);
+  assert.match(synonymTableMigration, /_writing_submission_synonym_parts_valid/);
+  assert.match(synonymTableMigration, /jsonb_array_length\(v_item -> 'columnWidths'\) <> 3/);
+  assert.match(synonymTableMigration, /abs\(v_width_total - 100\) > 0\.05/);
+  assert.match(synonymTableMigration, /writing_submission_feedback_synonym_parts_valid/);
 
   assert.match(html, /data-export-mode="writing"/);
   assert.match(html, /data-export-mode="feedback"/);

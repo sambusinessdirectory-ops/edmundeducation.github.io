@@ -5135,6 +5135,86 @@ test("administrator feedback round-trips all three additional enhancement sectio
   );
 });
 
+test("synonym table rows round-trip one bounded persisted column layout", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let saveCalls = 0;
+  const synonymImprovementParts = [{
+    originalSentence: { text: "help", formatting: [] },
+    enhancement: { text: "support", formatting: [] },
+    benefit: { text: "More formal in this context.", formatting: [] },
+    columnWidths: [25, 45, 30]
+  }];
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    if (rpc.name === "writing_submission_feedback_admin_save_v5") {
+      saveCalls += 1;
+      assert.deepEqual(rpc.body.p_synonym_improvement_parts, synonymImprovementParts);
+      return jsonResponse([storedFeedback({
+        fragments: [],
+        overall_formatting: [],
+        final_formatting: [],
+        improved_formatting: [],
+        grammar_points: [],
+        sentence_structure_methods: [],
+        sentence_structure_links: [],
+        sentence_structure_parts: [],
+        rhetorical_parts: [],
+        phrasal_verb_parts: [],
+        writing_common_expression_parts: [],
+        rhetorical_common_expression_parts: [],
+        synonym_improvement_parts: rpc.body.p_synonym_improvement_parts,
+        status: "draft",
+        published_at: null,
+        version: 1
+      })]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const payload = {
+    overallComment: "",
+    overallFormatting: [],
+    fragments: [],
+    finalComment: "",
+    finalFormatting: [],
+    improvedVersion: "",
+    improvedFormatting: [],
+    grammarPoints: [],
+    sentenceStructureMethods: [],
+    sentenceStructureLinks: [],
+    sentenceStructureParts: [],
+    rhetoricalParts: [],
+    phrasalVerbParts: [],
+    writingCommonExpressionParts: [],
+    rhetoricalCommonExpressionParts: [],
+    synonymImprovementParts,
+    status: "draft",
+    expectedVersion: 0,
+    expectedFeedbackId: null
+  };
+  const headers = {
+    Origin: ORIGIN,
+    Authorization: `Bearer ${ADMIN_TOKEN}`,
+    "Content-Type": "application/json"
+  };
+  const response = await worker.fetch(new Request(
+    `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+    { method: "PUT", headers, body: JSON.stringify(payload) }
+  ), environment());
+  assert.equal(response.status, 200);
+  assert.deepEqual((await response.json()).feedback.synonymImprovementParts[0].columnWidths, [25, 45, 30]);
+
+  const invalid = structuredClone(payload);
+  invalid.synonymImprovementParts[0].columnWidths = [5, 80, 15];
+  const invalidResponse = await worker.fetch(new Request(
+    `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+    { method: "PUT", headers, body: JSON.stringify(invalid) }
+  ), environment());
+  assert.equal(invalidResponse.status, 400);
+  assert.equal(saveCalls, 1);
+});
+
 test("structured feedback parts reject malformed and unbounded input before storage", async t => {
   const originalFetch = globalThis.fetch;
   t.after(() => { globalThis.fetch = originalFetch; });

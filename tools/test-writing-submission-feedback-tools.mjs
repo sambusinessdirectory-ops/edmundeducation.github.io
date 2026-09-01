@@ -5,6 +5,7 @@ import {
   feedbackFormattingCommandFromEvent,
   feedbackHighlightCommandFromEvent,
   normalizeFeedbackEnhancementParts,
+  normalizeFeedbackTableColumnWidths,
   normalizeGrammarFeedbackPoints,
   normalizeSentenceStructureDeepLink,
   normalizeSentenceStructureMethods,
@@ -153,6 +154,28 @@ test("enhancement parts preserve three independently formatted fields and legacy
     enhancement: { text: "Legacy sentence-structure note", formatting: [] },
     benefit: { text: "", formatting: [] }
   }]);
+});
+
+test("synonym table widths normalize and remain attached only to the first saved row", () => {
+  assert.deepEqual(normalizeFeedbackTableColumnWidths([25, 45, 30]), [25, 45, 30]);
+  assert.deepEqual(normalizeFeedbackTableColumnWidths([15, 30, 15]), [25, 50, 25]);
+  assert.deepEqual(normalizeFeedbackTableColumnWidths([5, 80, 15]), [30, 40, 30]);
+  const rows = normalizeFeedbackEnhancementParts([
+    {
+      originalSentence: { text: "help", formatting: [] },
+      enhancement: { text: "support", formatting: [] },
+      benefit: { text: "較正式", formatting: [] },
+      columnWidths: [25, 45, 30]
+    },
+    {
+      originalSentence: { text: "benefit", formatting: [] },
+      enhancement: { text: "advantage", formatting: [] },
+      benefit: { text: "名詞", formatting: [] },
+      columnWidths: [20, 50, 30]
+    }
+  ]);
+  assert.deepEqual(rows[0].columnWidths, [25, 45, 30]);
+  assert.equal(Object.hasOwn(rows[1], "columnWidths"), false);
 });
 
 test("sentence-structure links accept only one safe Edmund lesson parameter", () => {
