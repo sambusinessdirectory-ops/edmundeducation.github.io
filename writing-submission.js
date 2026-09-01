@@ -5078,10 +5078,10 @@ function feedbackPrintTextSection(title, value, className = "", formatting = [],
   </section>`;
 }
 
-function feedbackPrintLearningCards(title, values, { id = "" } = {}) {
+function feedbackPrintLearningCards(title, values, { id = "", pageBreakBefore = false } = {}) {
   const items = normalizeGrammarFeedbackPoints(values);
   if (!items.length) return "";
-  return `<section${id ? ` id="${escapePrintHtml(id)}"` : ""} class="print-feedback-section print-learning-section">
+  return `<section${id ? ` id="${escapePrintHtml(id)}"` : ""} class="print-feedback-section print-learning-section${pageBreakBefore ? " print-page-start" : ""}">
     <h3>${escapePrintHtml(title)}</h3>
     <div class="print-learning-list">${items.map((item, index) => `
       <article class="print-learning-card">
@@ -5237,7 +5237,7 @@ function feedbackPrintHtml(feedback, { articleKey = "feedback", pageBreakBefore 
     ${feedbackPrintTextSection("整體評語", feedback.overallComment, "print-overall-comment", feedback.overallFormatting, { id: anchor("overall") })}
     ${fragments ? `<div id="${escapePrintHtml(anchor("fragments"))}" class="print-feedback-pairs">${fragments}</div>` : ""}
     ${feedbackPrintTextSection("最後評語", feedback.finalComment, "print-final-comment", feedback.finalFormatting, { id: anchor("final") })}
-    ${feedbackPrintLearningCards("文法評語站", feedback.grammarPoints, { id: anchor("grammar") })}
+    ${feedbackPrintLearningCards("文法評語站", feedback.grammarPoints, { id: anchor("grammar"), pageBreakBefore: true })}
     ${improvedVersion}
     ${feedbackPrintTranscriptions(feedback, { id: anchor("transcriptions") })}
     ${feedbackPrintEnhancementCards("句子結構提升區", feedback.sentenceStructureParts, "sentence", { id: anchor("sentence"), pageBreakBefore: true })}
