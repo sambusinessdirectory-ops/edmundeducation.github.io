@@ -388,7 +388,7 @@ test("submission traffic uses a first-party Supabase relay with a safe failure p
     /submissionProxyUrl:\s*"https:\/\/ookkxzgpdclzrrhfmvqx\.supabase\.co\/functions\/v1\/writing-submission-proxy"/
   );
   assert.match(html, /writing-submission-config\.js\?v=20260901-selection-delete1/);
-  assert.match(html, /writing-submission\.js\?v=20260901-pdf-synonym-table1/);
+  assert.match(html, /writing-submission\.js\?v=20260901-pdf-navigation2/);
   assert.match(submissionProxy, /const UPSTREAM_ORIGIN = "https:\/\/edmund-writing-submission\.edmundeducation\.workers\.dev"/);
   assert.match(submissionProxy, /const ALLOWED_ORIGINS = new Set/);
   assert.match(submissionProxy, /request\.method !== "PUT" && request\.method !== "POST"/);
@@ -422,7 +422,7 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
   assert.match(html, /writing-submission\.css\?v=20260901-pdf-synonym-table1/);
-  assert.match(html, /writing-submission\.js\?v=20260901-pdf-synonym-table1/);
+  assert.match(html, /writing-submission\.js\?v=20260901-pdf-navigation2/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -486,7 +486,7 @@ test("countdown and role-scoped composition plus feedback exports are fully wire
   assert.match(script, /readAdminFeedbackEditor\(editor, \{ allowEmpty: true \}\)/);
   assert.match(script, /elements\.adminDetail\?\.querySelector\("\[data-feedback-editor\]"\)/);
   assert.doesNotMatch(script, /elements\.adminSubmissionDetail/);
-  assert.match(script, /目前編輯器預覽（可能尚未儲存）/);
+  assert.doesNotMatch(script, /目前編輯器預覽（可能尚未儲存）/);
   assert.match(script, /structured: true,[\s\S]*?emptyText: "未填寫"/);
   assert.match(script, /@page\{size:A4;margin:10mm 9mm\}/);
   assert.match(script, /print-color-adjust:exact/);
@@ -497,11 +497,21 @@ test("countdown and role-scoped composition plus feedback exports are fully wire
   assert.match(script, /function feedbackPrintContents\(feedback, articleKey\)/);
   assert.match(script, /class="print-feedback-contents" aria-label="評語內容索引"/);
   assert.match(script, /href="#\$\{escapePrintHtml\(link\.id\)\}"/);
+  assert.doesNotMatch(script, /<base href=/);
   assert.match(script, /print-improved-version print-page-start/);
-  assert.match(script, /pageBreakBefore: true/);
+  assert.match(script, /feedbackPrintEnhancementCards\("句子結構提升區"[\s\S]*?pageBreakBefore: true/);
+  assert.match(script, /feedbackPrintEnhancementCards\("動詞片語 \(Phrasal Verb\) 提升區"[\s\S]*?pageBreakBefore: true/);
+  assert.match(script, /feedbackPrintEnhancementCards\("Writing - Common Expression 提升區"[\s\S]*?pageBreakBefore: true/);
+  assert.match(script, /feedbackPrintEnhancementCards\("修辭 Common Expression 提升區"[\s\S]*?pageBreakBefore: true/);
+  assert.match(script, /feedbackPrintSynonymTable\("同義詞改善區"[\s\S]*?pageBreakBefore: true/);
   assert.match(script, /\.print-page-start\{break-before:page!important;page-break-before:always!important\}/);
   assert.match(script, /function feedbackPrintSynonymTable\(title, values/);
   assert.match(script, /class="print-synonym-table"/);
+  assert.match(script, /field !== "originalSentence" \|\| Boolean\(String\(item\.originalSentence\?\.text \|\| ""\)\.trim\(\)\)/);
+  assert.match(script, /Number\(submission\.durationSeconds\) >= 300/);
+  assert.match(script, /function feedbackPrintStudentAnswer\(value\)/);
+  assert.match(script, /split\(\/\\n\[\\t \]\*\\n\+\//);
+  assert.match(script, /\.answer>div>p\{margin:0;break-inside:avoid;page-break-inside:avoid/);
   assert.match(css, /\.writing-timer-panel/);
   assert.match(css, /\.submission-export-toolbar/);
 });

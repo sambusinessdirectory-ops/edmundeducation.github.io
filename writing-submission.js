@@ -5106,7 +5106,9 @@ function feedbackPrintEnhancementCards(title, values, kind, { id = "", pageBreak
     <div class="print-enhancement-list">${items.map((item, index) => `
       <article class="print-enhancement-card">
         <strong class="print-card-title">${prefix} ${index + 1}</strong>
-        ${fields.map(([field, label, className]) => `
+        ${fields.filter(([field]) => (
+          field !== "originalSentence" || Boolean(String(item.originalSentence?.text || "").trim())
+        )).map(([field, label, className]) => `
           <section class="print-enhancement-band ${className}">
             <span>${escapePrintHtml(label)}</span>
             ${feedbackPrintRichHtml(item[field]?.text, item[field]?.formatting, {
@@ -5118,7 +5120,7 @@ function feedbackPrintEnhancementCards(title, values, kind, { id = "", pageBreak
   </section>`;
 }
 
-function feedbackPrintSynonymTable(title, values, { id = "" } = {}) {
+function feedbackPrintSynonymTable(title, values, { id = "", pageBreakBefore = false } = {}) {
   const items = normalizeFeedbackEnhancementParts(values);
   if (!items.length) return "";
   const widths = normalizeFeedbackTableColumnWidths(items[0]?.columnWidths);
@@ -5127,7 +5129,7 @@ function feedbackPrintSynonymTable(title, values, { id = "" } = {}) {
     ["enhancement", "可用替換／改良寫法"],
     ["benefit", "用法說明／好處"]
   ];
-  return `<section${id ? ` id="${escapePrintHtml(id)}"` : ""} class="print-feedback-section print-synonym-table-section is-synonym-improvement">
+  return `<section${id ? ` id="${escapePrintHtml(id)}"` : ""} class="print-feedback-section print-synonym-table-section is-synonym-improvement${pageBreakBefore ? " print-page-start" : ""}">
     <h3>${escapePrintHtml(title)}</h3>
     <div class="print-synonym-table-wrap"><table class="print-synonym-table">
       <colgroup>${widths.map(width => `<col style="width:${width}%">`).join("")}</colgroup>
@@ -5224,12 +5226,13 @@ function feedbackPrintHtml(feedback, { articleKey = "feedback", pageBreakBefore 
     feedback.improvedFormatting,
     { id: anchor("improved") }
   );
+  const feedbackUpdatedLabel = !feedback.isAdminPreview && feedback.updatedAt
+    ? `更新：${escapePrintHtml(formatSubmissionDate(feedback.updatedAt))}`
+    : "";
   return `<section class="print-feedback${pageClass}">
     <header id="${escapePrintHtml(anchor("feedback"))}" class="print-feedback-head">
       <p>EDMUND SIR FEEDBACK</p><h2>Edmund Sir 寫作評語</h2>
-      <div>${feedback.isAdminPreview
-        ? "目前編輯器預覽（可能尚未儲存）"
-        : feedback.status === "published" ? "已發佈" : "管理員草稿"}${feedback.updatedAt ? ` · 更新：${escapePrintHtml(formatSubmissionDate(feedback.updatedAt))}` : ""}</div>
+      ${feedbackUpdatedLabel ? `<div>${feedbackUpdatedLabel}</div>` : ""}
     </header>
     ${feedbackPrintTextSection("整體評語", feedback.overallComment, "print-overall-comment", feedback.overallFormatting, { id: anchor("overall") })}
     ${fragments ? `<div id="${escapePrintHtml(anchor("fragments"))}" class="print-feedback-pairs">${fragments}</div>` : ""}
@@ -5237,14 +5240,26 @@ function feedbackPrintHtml(feedback, { articleKey = "feedback", pageBreakBefore 
     ${feedbackPrintLearningCards("文法評語站", feedback.grammarPoints, { id: anchor("grammar") })}
     ${improvedVersion}
     ${feedbackPrintTranscriptions(feedback, { id: anchor("transcriptions") })}
-    ${feedbackPrintEnhancementCards("句子結構提升區", feedback.sentenceStructureParts, "sentence", { id: anchor("sentence") })}
+    ${feedbackPrintEnhancementCards("句子結構提升區", feedback.sentenceStructureParts, "sentence", { id: anchor("sentence"), pageBreakBefore: true })}
     ${feedbackPrintSentenceLinks(feedback.sentenceStructureLinks, { id: anchor("sentence-links") })}
     ${feedbackPrintEnhancementCards("修辭技巧提升區", feedback.rhetoricalParts, "rhetorical", { id: anchor("rhetorical"), pageBreakBefore: true })}
-    ${feedbackPrintEnhancementCards("動詞片語 (Phrasal Verb) 提升區", feedback.phrasalVerbParts, "phrasal", { id: anchor("phrasal") })}
-    ${feedbackPrintEnhancementCards("Writing - Common Expression 提升區", feedback.writingCommonExpressionParts, "writingExpression", { id: anchor("writing-expression") })}
-    ${feedbackPrintEnhancementCards("修辭 Common Expression 提升區", feedback.rhetoricalCommonExpressionParts, "rhetoricalExpression", { id: anchor("rhetorical-expression") })}
-    ${feedbackPrintSynonymTable("同義詞改善區", feedback.synonymImprovementParts, { id: anchor("synonym") })}
+    ${feedbackPrintEnhancementCards("動詞片語 (Phrasal Verb) 提升區", feedback.phrasalVerbParts, "phrasal", { id: anchor("phrasal"), pageBreakBefore: true })}
+    ${feedbackPrintEnhancementCards("Writing - Common Expression 提升區", feedback.writingCommonExpressionParts, "writingExpression", { id: anchor("writing-expression"), pageBreakBefore: true })}
+    ${feedbackPrintEnhancementCards("修辭 Common Expression 提升區", feedback.rhetoricalCommonExpressionParts, "rhetoricalExpression", { id: anchor("rhetorical-expression"), pageBreakBefore: true })}
+    ${feedbackPrintSynonymTable("同義詞改善區", feedback.synonymImprovementParts, { id: anchor("synonym"), pageBreakBefore: true })}
   </section>`;
+}
+
+function feedbackPrintStudentAnswer(value) {
+  const answer = String(value || "").replace(/\r\n?/g, "\n");
+  if (!answer.trim()) return "<p>（文章內容為空）</p>";
+  const paragraphs = answer
+    .split(/\n[\t ]*\n+/)
+    .map(paragraph => paragraph.trim())
+    .filter(Boolean);
+  return paragraphs.map(paragraph => (
+    `<p>${escapePrintHtml(paragraph).replace(/\n/g, "<br>")}</p>`
+  )).join("");
 }
 
 function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = "both" } = {}) {
@@ -5257,7 +5272,6 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
   const includeWriting = mode === "writing" || mode === "both";
   const includeFeedback = mode === "feedback" || mode === "both";
   const modeLabel = mode === "writing" ? "學生原文" : mode === "feedback" ? "評語" : "學生原文及評語";
-  const baseHref = new URL(".", window.location.href).href;
   const articles = bundles.map(({ submission, feedback }, index) => {
     const articleKey = `composition-${index + 1}`;
     return `<article class="composition">
@@ -5272,19 +5286,20 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
           ${admin && submission.studentName ? `<span>${escapePrintHtml(`學生：${submission.studentName}`)}</span>` : ""}
           <span>${escapePrintHtml(formatSubmissionDate(submission.submittedAt))}</span>
           <span>${escapePrintHtml(`${submission.wordCount} words`)}</span>
-          <span>${escapePrintHtml(`寫作用時：${formatCompactDuration(submission.durationSeconds)}`)}</span>
+          ${Number(submission.durationSeconds) >= 300
+            ? `<span>${escapePrintHtml(`寫作用時：${formatCompactDuration(submission.durationSeconds)}`)}</span>`
+            : ""}
           ${admin && submission.deletedAt ? "<span>學生已從個人文章列表刪除</span>" : ""}
         </div>
       </header>
       ${includeWriting ? `<section class="topic"><strong>寫作題目</strong><p>${escapePrintHtml(submission.topic)}</p></section>
-      <section class="answer"><strong>學生原文</strong><div>${escapePrintHtml(submission.answer || "（文章內容為空）")}</div></section>` : ""}
+      <section class="answer"><strong>學生原文</strong><div>${feedbackPrintStudentAnswer(submission.answer)}</div></section>` : ""}
       ${includeWriting && includeFeedback ? feedbackPrintContents(feedback, articleKey) : ""}
       ${includeFeedback ? feedbackPrintHtml(feedback, { articleKey, pageBreakBefore: includeWriting }) : ""}
     </article>`;
   }).join("");
   return `<!doctype html>
 <html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<base href="${escapePrintHtml(baseHref)}">
 <title>EdmundEducation－${escapePrintHtml(modeLabel)}</title>
 <style>
   :root{color-scheme:light}*{box-sizing:border-box}html,body{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
@@ -5296,7 +5311,7 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
   .composition:last-child{break-after:auto;page-break-after:auto}.article-head{padding-bottom:14px;border-bottom:2px solid #e6e5ef}.sequence{margin:0 0 8px;color:#bd571b;font:800 11px system-ui,sans-serif;letter-spacing:.13em}
   h1{margin:0 0 14px;font-size:27px;line-height:1.35}h2,h3,.print-card-title{break-after:avoid;page-break-after:avoid}.meta{display:flex;flex-wrap:wrap;gap:7px 14px;color:#66637c;font:12px system-ui,sans-serif}
   .topic,.answer{margin-top:22px}.topic{border-left:5px solid #e87b2c;padding:14px 18px;background:#fff6e8;break-inside:avoid;page-break-inside:avoid}.topic strong,.answer>strong{display:block;margin-bottom:8px;color:#bd571b;font:800 11px system-ui,sans-serif;letter-spacing:.08em}
-  .topic p{margin:0;font-size:15px;line-height:1.65;white-space:pre-wrap}.answer>div{font-size:16px;line-height:1.78;white-space:pre-wrap;overflow-wrap:anywhere;orphans:3;widows:3}
+  .topic p{margin:0;font-size:15px;line-height:1.65;white-space:pre-wrap}.answer>div{font-size:16px;line-height:1.78;overflow-wrap:anywhere}.answer>div>p{margin:0;break-inside:avoid;page-break-inside:avoid;orphans:3;widows:3}.answer>div>p+p{margin-top:1em}
   .print-feedback-contents{margin-top:24px;border:1px solid #d8dceb;border-radius:15px;padding:17px 18px;background:#f7f8ff;break-inside:avoid;page-break-inside:avoid}.print-feedback-contents>p{margin:0;color:#8a5b17;font:850 10px system-ui,sans-serif;letter-spacing:.13em}.print-feedback-contents>h2{margin:4px 0 12px;color:#272757;font-size:19px}.print-feedback-contents>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.print-feedback-contents a{min-width:0;border:1px solid #dde1f0;border-radius:10px;padding:8px 10px;display:grid;grid-template-columns:24px minmax(0,1fr);align-items:center;gap:8px;color:#174f83;background:#fff;text-decoration:none;font:750 11px/1.4 system-ui,sans-serif}.print-feedback-contents a>span{width:23px;height:23px;border-radius:50%;display:grid;place-items:center;color:#fff;background:#405b9e;font:800 10px system-ui,sans-serif}
   .print-feedback,.print-feedback-empty{margin-top:30px}.print-feedback-head{margin-bottom:18px;border-radius:16px;padding:18px 20px;color:#fff;background:#272757;break-inside:avoid;page-break-inside:avoid}.print-feedback-head p{margin:0;color:#f6b263;font:800 10px system-ui,sans-serif;letter-spacing:.14em}.print-feedback-head h2{margin:4px 0 6px;font-size:22px}.print-feedback-head div{color:#deddf0;font:12px system-ui,sans-serif}
   .print-feedback-empty{border:1px dashed #b9b7ca;border-radius:14px;padding:18px;color:#66637c;background:#fafafd;break-inside:avoid;page-break-inside:avoid}.print-feedback-empty h2{margin:0 0 7px;font-size:20px}.print-feedback-empty p{margin:0}
