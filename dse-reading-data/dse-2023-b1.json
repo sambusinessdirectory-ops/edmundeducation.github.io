@@ -29,52 +29,52 @@
     },
     {
       "number": 4,
-      "label": "Paragraph 4",
+      "label": "Paragraph 5",
       "text": "Mark and Claire are both blind and met while they were getting their guide dogs. The dogs they were training him, and it's all thanks to their guide dogs. Hong Kong needs 1,700 guide dogs for the visually impaired, but where can the animals be trained?"
     },
     {
       "number": 5,
-      "label": "Paragraph 5",
+      "label": "Paragraph 1",
       "text": "Hong Kong needs 1,700 guide dogs for the visually impaired, but where can the animals be trained? Trainers say outdated laws and insufficient public awareness prevent them from giving guide dogs under training full exposure to the city."
     },
     {
       "number": 6,
-      "label": "Paragraph 6",
+      "label": "Paragraph 2",
       "text": "When Meicy Choi took her four-month-old labrador retriever named Don Don out on a sunny Saturday in December, she did not expect to get into a row over going to the park with her canine buddy. 3] Don Don is not an ordinary dog. He is training to become one of fewer than 50 guide dogs in Hong Kong, and Choi herself is not blind but is registered as a host to train and care for him. But a staff member at Lai Chi Kok Park stopped her from entering the park and asked to check her documents. \"Even if you are blind, you can't take the"
     },
     {
       "number": 7,
-      "label": "Paragraph 7",
+      "label": "Paragraph 4",
       "text": "The commotion frightened Don Don, causing the dog to become uneasy. \"You can't be serious,\" Choi recalled thinking to herself. She eventually backed down, not wanting to escalate the matter."
     },
     {
       "number": 8,
-      "label": "Paragraph 8",
+      "label": "Paragraph 5",
       "text": "Such incidents reflect the daily challenges faced by guide dog trainers in the city. The issues are grey areas under current laws, which allow visually impaired people to use public facilities with their guide dogs, but not those who train the animals."
     },
     {
       "number": 9,
-      "label": "Paragraph 9",
+      "label": "Paragraph 6",
       "text": "Hong Kong only started breeding guide dogs in 2011 because of a previous lack of professional trainers. The city's guide dog community lags in scale compared with neighbouring Japan and South Korea, not to mention the United States or Germany, which were the first countries to train such dogs in the 1920s."
     },
     {
       "number": 10,
-      "label": "Paragraph 10",
+      "label": "Paragraph 7",
       "text": "Raymond Cheung Wai-man, chairman of Hong Kong Seeing Eye Dog Services and the first person to start a guide dog training institution locally seven years ago, estimated the city would need 1,700 guide dogs, given its 170,000 visually impaired people. \"On top of taking visually impaired people around and preventing them from walking into obstacles, guide dogs also help them lead freer, more confident and dignified lives,\" Cheung said."
     },
     {
       "number": 11,
-      "label": "Paragraph 11",
+      "label": "Paragraph 8",
       "text": "But outdated laws and insufficient public awareness remain the biggest obstacles to a bigger role for guide dogs in Hong Kong, according to Cheung. \"The government needs to change the current laws, which do not protect dogs under training,\" Cheung said. \"If a trainer takes a bus with a trainee dog, there is a chance the driver may deny them entry. But if the dogs never get on buses during training, how can they learn to do this and help the visually impaired?\" To familiarise guide dogs with the urban environment and prepare them to assist the blind, trainers need to take them around the city and \"go everywhere\", Cheung said. 19] \"Public awareness has improved a lot from six years ago, when I had to fight just to allow guide dogs under training onto the MTR. But misunderstandings still exist,\" Cheung said, as evident in another row at a cha chaan teng in Yau Ma Tei in December, which stirred up a heated online debate. The restaurant had refused to let in a trainer with a trainee guide dog. It eventually apologised on its Facebook page after coming under fire from netizens, and said it welcomed visually impaired customers with guide dogs."
     },
     {
       "number": 12,
-      "label": "Paragraph 12",
+      "label": "Paragraph 10",
       "text": "\"I think many people are supportive of guide dogs,\" Choi said. Referring to Choi's encounter, a spokeswoman for the Leisure and Cultural Services Department (LCSD) said guide dogs and dogs under training were allowed to enter all venues managed by it, including public parks. \"But it's possible some staff like security guards were unclear about the guidelines,\" she said."
     },
     {
       "number": 13,
-      "label": "Paragraph 13",
+      "label": "Paragraph 11",
       "text": "\"The government will continue to work with rehabilitation organisations and stakeholders to facilitate the development of the guide dog service in Hong Kong,\" the LCSD spokeswoman said."
     }
   ],
@@ -371,7 +371,7 @@
       "number": 45,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Below are comments made by some of the people in Text 3. Match each person with ONE comment that\nbest represents the people in Text 3. Each letter can be used ONCE only. One comment is NOT used. One\nhas been done for you as an example. (3 marks)\nPeople in Text 3 Letter\nMeicy Choi\nRaymond Cheung (ii)\nLCSD Spokeswoman C (example)\nThe worker at Lai Chi Kok Park (iii)\nB. \"I have been doing\nA. \"I believe I did the this longer than C. \"I confirm we will\nright thing anyone in Hong keep improving\nstopping her.\" Kong.\" the situation for\nguide dogs here.\"\nD. \"I'm just surprised\nE. \"I think Hong Kong\nthis sort of thing\nhappens.\" is a fantastic place\nfor guide dogs.\"\nEND OF PART B1",
+      "prompt": "Below are comments made by some of the people in Text 3. Match each person with ONE comment that\nbest represents the people in Text 3. Each letter can be used ONCE only. One comment is NOT used. One\nhas been done for you as an example. (3 marks)\nPeople in Text 3 Letter\nMeicy Choi\nRaymond Cheung (ii)\nLCSD Spokeswoman C (example)\nThe worker at Lai Chi Kok Park (iii)\nB. \"I have been doing\nA. \"I believe I did the this longer than C. \"I confirm we will\nright thing anyone in Hong keep improving\nstopping her.\" Kong.\" the situation for\nguide dogs here.\"\nD. \"I'm just surprised\nE. \"I think Hong Kong\nthis sort of thing\nhappens.\" is a fantastic place\nfor guide dogs.\"",
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/content/2023/b1/questions-4-visual-1.webp",

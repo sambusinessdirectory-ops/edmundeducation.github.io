@@ -76,7 +76,7 @@
     },
     {
       "number": 11,
-      "label": "Paragraph 11",
+      "label": "Paragraph 12",
       "text": "The walls are still there, but now the gates are open - and a new chapter of history has begun. More than just a museum, or an art gallery, or an historic site, Tai Kwun is a place that brings many different threads of Hong Kong life together. \"Never have we done such a large scale conservation and revitalisation project all in one go,\" says Yeung. • \"In Hong Kong, in the past, we always just conserved one building and then another. This is conserving an entire site - a place.\""
     }
   ],
@@ -548,7 +548,7 @@
       "number": 19,
       "group": "paper",
       "type": "parts",
-      "prompt": "Use the information given in paragraphs 4-12 to match each of the following comments with a person or\norganisation mentioned in the text. Write the letter of the comment on the line next to the person /\norganisation given. The first has been provided for you as an example. One comment is NOT used. Each\n(5 marks)\nEND OF PART A",
+      "prompt": "Use the information given in paragraphs 4-12 to match each of the following comments with a person or\norganisation mentioned in the text. Write the letter of the comment on the line next to the person /\norganisation given. The first has been provided for you as an example. One comment is NOT used. Each\n(5 marks)",
       "tables": [
         {
           "rows": [

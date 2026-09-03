@@ -118,7 +118,7 @@
     },
     {
       "number": 23,
-      "label": "Paragraph 23",
+      "label": "Paragraph 24",
       "text": "What comes out of the top of your head? Steel wool? But you aren't driving a car or operating heavy machinery, so next time, why not do this thing I've discovered when confronted with something I don't want to see - shut your eyes! A longer fringe may also help."
     }
   ],
@@ -639,7 +639,7 @@
       "number": 62,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Throughout the text Norton often compares himself to a medical doctor. Why do you think these\ncomparisons help to describe Norton's role as an agony uncle?\nEND OF PART B2"
+      "prompt": "Throughout the text Norton often compares himself to a medical doctor. Why do you think these\ncomparisons help to describe Norton's role as an agony uncle?"
     }
   ]
 }

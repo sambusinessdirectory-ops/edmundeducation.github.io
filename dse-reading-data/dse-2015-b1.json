@@ -13,57 +13,57 @@
     },
     {
       "number": 2,
-      "label": "Paragraph 2",
+      "label": "Paragraph 3",
       "text": "And yet, according to a new report by the Eno Center for Transportation, there are still many obstacles to overcome before self-driving cars take over our highways. 41 \"Self-driving cars have the potential to transform transport as we know it,\" explained repo co-author Daniel Fagnant — and bring billions of dollars' worth of benefits. But getting to that poin won't be easy. The benefits of self-driving cars 15] It's easy to list the benefits of a world with self-driving vehicles. Safety is the biggest. Right now, more than 30,000 people die each year in the United States from automobile crashes. And roughly 40 percent of fatal accidents are caused by alcohol, distraction, drugs or fatigue. Letting robots take the wheel would save lives."
     },
     {
       "number": 3,
-      "label": "Paragraph 3",
+      "label": "Paragraph 6",
       "text": "The benefits of self-driving cars 15] It's easy to list the benefits of a world with self-driving vehicles. Safety is the biggest. Right now, more than 30,000 people die each year in the United States from automobile crashes. And roughly 40 percent of fatal accidents are caused by alcohol, distraction, drugs or fatigue. Letting robots take the wheel would save lives. Or take congestion. Cars driven by robots could travel closer together at steadier speeds. They wouldn't bunch up in traffic jams caused by a ripple of brake lights. More cars could squeeze onto the road and move more quickly, and a lot of time and fuel would be saved."
     },
     {
       "number": 4,
-      "label": "Paragraph 4",
+      "label": "Paragraph 7",
       "text": "If just 10 percent of the vehicles on the road were self-driving cars, the authors estimate, the country could save more than $37 billion a year — fewer deaths, less fuel, more free time. If we reached a point where 90 percent of the cars on the road were self-driving vehicles, the benefits would rise to around $450 billion a year."
     },
     {
       "number": 5,
-      "label": "Paragraph 5",
+      "label": "Paragraph 8",
       "text": "Now, as Fagnant pointed out in a presentation, these are \"ballpark, rough estimates...guesses, really.\" So don't get too fixated on the numbers. They're meant to be illustrative, not definitive. 19] The authors also didn't try to quantify any of the costs of self-driving vehicles. What's the price tag on these gadgets? How does that compare to the benefits?"
     },
     {
       "number": 6,
-      "label": "Paragraph 6",
+      "label": "Paragraph 10",
       "text": "And what about unforeseen consequences? Researchers can't predict how, exactly, self-driving cars might reshape society. Maybe the vehicles will induce even more travel and congestion will get worse. Or maybe they will lead to an increase in air pollution. It's impossible to know at this point. Still, the advantages are tantalizing. The problems of self-driving cars"
     },
     {
       "number": 7,
-      "label": "Paragraph 7",
+      "label": "Paragraph 11",
       "text": "Even if the benefits are many, self-driving vehicles have a lot of hoops to leap through. First, the technology is still very pricey. By one estimate, the first wave of autonomous vehicles could cost over $100,000 — five times the cost of the average new vehicle. Even that might be an underestimate: the 3-D sensors alone on Google's autonomous car cost about $70,000."
     },
     {
       "number": 8,
-      "label": "Paragraph 8",
+      "label": "Paragraph 12",
       "text": "Those costs would presumably come down over time, but no one knows how rapidly. And that's a big hurdle. One survey found that only 20 percent of Americans would \"definitely\" or \"probably\" buy a car with self-driving capabilities even if the price dropped to $30,000."
     },
     {
       "number": 9,
-      "label": "Paragraph 9",
+      "label": "Paragraph 13",
       "text": "What's more, while the technology is rapidly improving, it's far from perfect. Google's self-driving cars have now traveled more than 435,000 miles in California, but the cars have yet to be fully tested in urban environments."
     },
     {
       "number": 10,
-      "label": "Paragraph 10",
+      "label": "Paragraph 14",
       "text": "Most likely, self-driving technology will emerge gradually, piece by piece. But even intermediate features pose unique challenges."
     },
     {
       "number": 11,
-      "label": "Paragraph 11",
+      "label": "Paragraph 15",
       "text": "Early autonomous cars will likely require their human drivers to take the wheel during especially complicated situations. But as one car maker is discovering, it's difficult to get people to drift in and out of attention while driving — and the process of switching back and forth between robot and human could well make these cars less safe, at first."
     },
     {
       "number": 12,
-      "label": "Paragraph 12",
+      "label": "Paragraph 16",
       "text": "The Eno report also notes that there's still a ton of research yet to be done about the prospect of self-driving cars. \"As long as crucial questions go unanswered,\" the report concludes, \"the nation will be hampered in its ability to successfully plan for and introduce [autonomous vehicles] into the transportation system.\""
     }
   ],
@@ -477,7 +477,7 @@
           "label": "D. become common"
         }
       ],
-      "optionBank": "A. be finished\nB. become safe\nC. become better B\nD. become common\nEND OF PART B1"
+      "optionBank": "A. be finished\nB. become safe\nC. become better B\nD. become common"
     }
   ]
 }

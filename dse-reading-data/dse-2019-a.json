@@ -18,7 +18,7 @@
     },
     {
       "number": 3,
-      "label": "Paragraph 3",
+      "label": "Paragraph 4",
       "text": "He is currently promoting his latest book, \"Messy\", while THE POWER writing another. One would assume he's an impeccably"
     },
     {
@@ -44,57 +44,57 @@
     },
     {
       "number": 7,
-      "label": "Paragraph 7",
+      "label": "Paragraph 5",
       "text": "Tim argues that switching between tasks is a \"messy\" strategy that's worked for many famous creatives. Focusing on one project might seem like the most efficient and simple way to organize one's work. But when someone is stuck on an issue involved in one project, having another to focus on allows that person time for the brain to unstick itself, contributing back to the original project. Extract from the interview: Tim, what does it mean to be messy?"
     },
     {
       "number": 8,
-      "label": "Paragraph 8",
+      "label": "Paragraph 6",
       "text": "In the book, I talk about all kinds of different things in the context of mess: improvisation, distraction, multi-tasking, physical mess, ambiguity and imperfection. There are lots of different things that I'm discussing in the book, but I suppose what they have in common is they are arguing for the virtues of the stuff that doesn't fit into the standard categories; the stuff that we can't quantify; the stuff that we can't organize or put into a neat box; the stuff that we can't script. These things tend to make us feel anxious. We feel that we should have a script; that we should have a number; we should have a target; we should have a tidy desk. Of course, those things have their place, but there's virtue in all the ambiguous, all the unquantifiable and all the imperfect stuff as well."
     },
     {
       "number": 9,
-      "label": "Paragraph 9",
+      "label": "Paragraph 7",
       "text": "I see \"Messy\" as an argument against the excessive attempts to organize. If you think about your desk, what you find is if you spend a lot of effort trying to clear your desk or trying to tidy it, you will have vast archives of paperwork because you filed everything away. But you filed it so quickly that you don't really understand your own filing system. So now you have these incredibly well-organized wastepaper baskets basically. Let's contrast that with someone who keeps piles of paper on their desk. You would think, \"Well that's a problem. That's not very efficient.\" It turns out this is highly efficient."
     },
     {
       "number": 10,
-      "label": "Paragraph 10",
+      "label": "Paragraph 8",
       "text": "Number one: Your pile of paper is self-organizing. The stuff that you keep using keeps arriving on the top of the pile. The stuff that you don't touch sinks to the bottom of the pile. We think of it as being a random pile, but it's not a random pile. It's actually naturally and organically organized by the process of using it. The second advantage is you've got this desk with paper on it, so you're surrounded by physical reminders of what you have to do, so you don't need a carefully managed to-do list because you can see in a very visible way the stuff that you have to do. The third advantage is you have a very clear sense of what needs throwing away. It's the stuff at the bottom of the piles."
     },
     {
       "number": 11,
-      "label": "Paragraph 11",
+      "label": "Paragraph 9",
       "text": "So you have this weird situation where if you walked into someone's office or you looked at someone's desk, you would see that a person who appears to be disorganized because there's paper everywhere actually has a much better organized system and they're much more on top of their work. Whereas with the person who seems highly organized, actually everything looks neat but underneath the surface, the system is dysfunctional. Is this true for everyone?"
     },
     {
       "number": 12,
-      "label": "Paragraph 12",
+      "label": "Paragraph 10",
       "text": "Is this true for everyone? Of course I'm talking about averages here; I'm generalizing. Everybody has their own system, and people can make all kinds of different systems work. If people have found a system that works for them, well that's fine."
     },
     {
       "number": 13,
-      "label": "Paragraph 13",
+      "label": "Paragraph 11",
       "text": "In the book, I write about Benjamin Franklin, one of the most productive and successful people in history, incredibly messy and somewhat guilty about the fact that he was incredibly messy. He carried a lot of baggage around, literally, in terms of paper, but also psychologically. He felt bad that his desk was messy. Benjamin Franklin! If Benjamin Franklin can feel guilty about not getting enough stuff done because he's messy, I think the rest of us can cut ourselves some slack."
     },
     {
       "number": 14,
-      "label": "Paragraph 14",
+      "label": "Paragraph 12",
       "text": "Nevertheless, in offices we often find somebody in management has decided that there needs to be some kind of clean desk policy, for reasons that are often not very clear. Maybe it's just aesthetic. They want the place to look like a magazine shoot. Or maybe they've read something about how operating theatres work or about how high-functioning precision engineering production lines work. And then in a very inappropriate way, they say, \"Oh, and the same must be true for this regular office, which has just got paper and computers in it.\" People are ordered to tidy their desks. Now, we've already discussed that actually a messy desk can be very effective, very functional."
     },
     {
       "number": 15,
-      "label": "Paragraph 15",
+      "label": "Paragraph 13",
       "text": "But there's another problem on top of that, which is that people really hate being told what they can and can't do with their own desks. It destroys their sense of their own space, of their control of their environment. So, is there such a thing as a bad mess or a bad distraction, or do they always have merit?"
     },
     {
       "number": 16,
-      "label": "Paragraph 16",
+      "label": "Paragraph 14",
       "text": "No, I think clearly there are many situations where messes are just entirely dysfunctional, and distractions just make it impossible to get stuff done. My argument in the book is not that mess is always good, distraction is always good, or there's no situation that can't be improved by adding a little chaos. I don't believe that at all. What I do believe is that we found that our organizational systems can be so effective, and they make us feel so comfortable that we take them from situations where they work extremely well, and then we start trying to apply them in situations where they're completely inappropriate."
     },
     {
       "number": 17,
-      "label": "Paragraph 17",
+      "label": "Paragraph 15",
       "text": "The argument of the book is just to try nudging the pendulum a little bit more toward mess. If we experiment a little bit more with improvisation, with ambiguity, with a bit of disruption and a new challenge, we might well be surprised by how that improves things."
     }
   ],
@@ -134,8 +134,37 @@
     {
       "number": 3,
       "group": "paper",
-      "type": "parts",
+      "type": "choice",
       "prompt": "What is the purpose of the list of 'different things' in lines 19-20?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. to prove that mess exists"
+        },
+        {
+          "value": "B",
+          "label": "B. to show that people are messy"
+        },
+        {
+          "value": "C",
+          "label": "C. to highlight how mess is related to various aspects of life D"
+        },
+        {
+          "value": "D",
+          "label": "D. to argue that mess is a positive influence in people's lives"
+        },
+        {
+          "value": "E",
+          "label": "E. g. Harford's book discusses many similar situations concerning mess. different"
+        }
+      ],
+      "optionBank": "A. to prove that mess exists\nB. to show that people are messy\nC. to highlight how mess is related to various aspects of life D\nD. to argue that mess is a positive influence in people's lives\nBelow is a summary of paragraph 6. In five of the lines, there is ONE mistake. If you find a mistake,\nunderline it and replace the word with one that expresses the correct idea. Write the word in the box on the\nright. Both grammar and spelling must be correct. In one of the lines there is no mistake; put a tick (r) in\nthe box. The first has been done for you. (6 marks)\nSummary Correction\ne.g. Harford's book discusses many similar situations concerning mess. different\n(i) A common theme is the idea that there are advantages in accepting\n(ii) the things we can measure, organize or standardize. Such things\n(iii) usually make people feel calm as they feel they have lost control.\n(iv) Instead, people hate having a target to achieve, a script to follow,\n(V) or a messy workstation. Naturally, such things have their benefits\n(vi) but so too do all those situations that are easy to predict."
+    },
+    {
+      "number": 4,
+      "group": "paper",
+      "type": "parts",
+      "prompt": "Below is a summary of paragraph 6. In five of the lines, there is ONE mistake. If you find a mistake, underline it and replace the word with one that expresses the correct idea. Write the word in the box on the right. Both grammar and spelling must be correct. In one of the lines there is no mistake; put a tick in the box. The first has been done for you. (6 marks)",
       "tables": [
         {
           "rows": [
@@ -340,12 +369,6 @@
       ]
     },
     {
-      "number": 4,
-      "group": "paper",
-      "type": "textarea",
-      "prompt": ". 2019-DSE-ENG LANG 1-A-1\n*AOZOEOTA"
-    },
-    {
       "number": 5,
       "group": "paper",
       "type": "textarea",
@@ -361,13 +384,19 @@
       "number": 7,
       "group": "paper",
       "type": "textarea",
-      "prompt": "What does 'this' (line 31) refer to?\nCom leo. Collo is cose based gra paragical by writing ONE word taken from paragraph S ineach blank below. Your answers must be grammatically correct.\nThree reasons why your desk is more efficient than you think.\nYour piles of paper will become (i) as you add / remove documents.\n- People consider a pile to be (ii), but this is not the case.\nFor example, when you stop using the material, it will move to the (iii)\n2. You won't need a (iv) of things to do.\n- You have visible reminders right in front of you.\n3. You don't need to think about what to put in the trash.\nThe answer is (v) — keep everything at the top and bin the rest."
+      "prompt": "What does 'this' (line 31) refer to?"
     },
     {
       "number": 8,
       "group": "paper",
+      "type": "textarea",
+      "prompt": "Complete the following notes based on paragraph 8 by writing ONE word taken from paragraph 8 in each\nblank below. Your answers must be grammatically correct.\nThree reasons why your desk is more efficient than you think.\nYour piles of paper will become (i) as you add / remove documents.\n- People consider a pile to be (ii), but this is not the case.\nFor example, when you stop using the material, it will move to the (iii)\n2. You won't need a (iv) of things to do.\n- You have visible reminders right in front of you.\n3. You don't need to think about what to put in the trash.\nThe answer is (v) — keep everything at the top and bin the rest."
+    },
+    {
+      "number": 9,
+      "group": "paper",
       "type": "parts",
-      "prompt": "9. Find a word in paragraphs 9-11 which has a similar meaning to each word given below. (5 marks)",
+      "prompt": "Find a word in paragraphs 9-11 which has a similar meaning to each word given below. (5 marks)",
       "parts": [
         {
           "key": "i",
@@ -397,10 +426,10 @@
       ]
     },
     {
-      "number": 9,
+      "number": 10,
       "group": "paper",
       "type": "choice",
-      "prompt": "10. What does 'cut ourselves some slack' (line 50) mean?",
+      "prompt": "What does 'cut ourselves some slack' (line 50) mean?",
       "options": [
         {
           "value": "A",
@@ -421,28 +450,28 @@
       ]
     },
     {
-      "number": 10,
-      "group": "paper",
-      "type": "textarea",
-      "prompt": "11. Find the metaphor the writer uses to describe 'guilty feelings' in paragraph 11."
-    },
-    {
       "number": 11,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Why do managers want their offices to 'look like a magazine shoot' (line 53)?\nThey want their offices to"
+      "prompt": "Find the metaphor the writer uses to describe 'guilty feelings' in paragraph 11."
     },
     {
       "number": 12,
       "group": "paper",
       "type": "textarea",
-      "prompt": "13. What does 'them' (line 66) refer to?"
+      "prompt": "Why do managers want their offices to 'look like a magazine shoot' (line 53)?\nThey want their offices to"
     },
     {
       "number": 13,
       "group": "paper",
+      "type": "textarea",
+      "prompt": "What does 'them' (line 66) refer to?"
+    },
+    {
+      "number": 14,
+      "group": "paper",
       "type": "choice",
-      "prompt": "14. When Harford says 'nudging the pendulum' (line 67) he means...",
+      "prompt": "When Harford says 'nudging the pendulum' (line 67) he means...",
       "options": [
         {
           "value": "A",
@@ -463,16 +492,16 @@
       ]
     },
     {
-      "number": 14,
-      "group": "paper",
-      "type": "textarea",
-      "prompt": "15. Why would the reader be 'surprised' (line 69) by an improvement?"
-    },
-    {
       "number": 15,
       "group": "paper",
       "type": "textarea",
-      "prompt": "16. Several actions from the text are described below, along with their consequences. Complete the\ninformation by writing ONE word taken from the relevant paragraph in each blank below. Your answers\nmust be grammatically correct. (4 marks)\nACTION CONSEQUENCE\nParagraph Focusing on something different You will be able to (1)\nwhen facing a difficulty on a project.\nyour thinking process.\nParagraph You will have a filing system that is difficult\nConstantly clearing away your\npaperwork. to (ii)\nParagraph Employees being told how to They lose their sense of\n13 organize their (iji) (iv).",
+      "prompt": "Why would the reader be 'surprised' (line 69) by an improvement?"
+    },
+    {
+      "number": 16,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Several actions from the text are described below, along with their consequences. Complete the\ninformation by writing ONE word taken from the relevant paragraph in each blank below. Your answers (4 marks)\nmust be grammatically correct.\nACTION CONSEQUENCE\nParagraph Focusing on something different You will be able to (1)\nwhen facing a difficulty on a project. your thinking process.\nParagraph Constantly clearing away your You will have a filing system that is difficult\npaperwork. to (ii)\nParagraph Employees being told how to They lose their sense of\n13 organize their (iji) (iv).",
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/content/2019/a/questions-3-visual-1.webp",
@@ -481,10 +510,10 @@
       ]
     },
     {
-      "number": 16,
+      "number": 17,
       "group": "paper",
       "type": "choice",
-      "prompt": "17. Which of the following best summarises Harford's message in the text?",
+      "prompt": "Which of the following best summarises Harford's message in the text?",
       "options": [
         {
           "value": "A",
@@ -505,28 +534,10 @@
       ]
     },
     {
-      "number": 17,
-      "group": "paper",
-      "type": "textarea",
-      "prompt": "Two friends are discussing the extract from the interview with Tim Harford (paragraphs 6-15). Use the\ninformation from the text to match each statement in the speech bubbles with a paragraph that contains\nsimilar ideas. Write the number of the paragraph next to the speech bubble. Each paragraph number can\nbe used once only. Some paragraph numbers are not used. The first two have been done for you as\nJenny Paul\nI truly dislike it when my\ndad tells me to tidy my\nbedroom - it doesn't feel Yeah, my mum's the same. Just\nParagraph like it's my room anymore, because she has to be hyper- Paragraph\nc.g. 13 but his. organized at work at her dental\nsurgery, it doesn't mean that's c.g. 12\nright for my things in my own\nroom. Even when things get a bit\nmessy, I still get things done.\nYou know, l've just read an\ninterview which says we\nParagraph could be astonished to see\nhow messiness might make Really? How would that work? Paragraph\n(i) our lives better. Last night I spent 30 minutes (ii)\nlooking for my chemistry\nhomework because I hadn't put it\nin the right folder on my desk.\nWell the interview gave\none or two famous"
-    },
-    {
       "number": 18,
       "group": "paper",
-      "type": "parts",
-      "prompt": "Paragraph historical examples where\nParagraph",
-      "parts": [
-        {
-          "key": "iii",
-          "label": "(iii). really messy people But that can't really work for\nachieved great things. (iv)\neveryone, can it?\nYou know, it could save\nyou looking for your\nchemistry homework next\nParagraph time. The writer describes\nhow a mountain of",
-          "type": "text"
-        },
-        {
-          "key": "v",
-          "label": "(v). documents has a system to\nit so you can quickly find\nexactly what you need.\nEND OF PART A",
-          "type": "text"
-        }
-      ],
+      "type": "textarea",
+      "prompt": "Two friends are discussing the extract from the interview with Tim Harford (paragraphs 6-15). Use the\ninformation from the text to match each statement in the speech bubbles with a paragraph that contains\nsimilar ideas. Write the number of the paragraph next to the speech bubble. Each paragraph number can\nbe used once only. Some paragraph numbers are not used. The first two have been done for you as\nJenny Paul\nI truly dislike it when my\ndad tells me to tidy my\nbedroom - it doesn't feel Yeah, my mum's the same. Just\nParagraph like it's my room anymore, because she has to be hyper- Paragraph\nc.g. 13 but his. organized at work at her dental\nsurgery, it doesn't mean that's c.g. 12\nright for my things in my own\nroom. Even when things get a bit\nmessy, I still get things done.\nYou know, l've just read an\ninterview which says we\nParagraph could be astonished to see how messiness might make Really? How would that work? Paragraph\n(i) our lives better. Last night I spent 30 minutes (ii)\nlooking for my chemistry\nhomework because I hadn't put it\nin the right folder on my desk.\nWell the interview gave\none or two famous\nParagraph historical examples where Paragraph\n(iii). really messy people achieved great things. But that can't really work for (iv)\neveryone, can it?\nYou know, it could save\nyou looking for your\nchemistry homework next\nParagraph time. The writer describes\nhow a mountain of documents has a system to\nit so you can quickly find\nexactly what you need.",
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/content/2019/a/questions-4-crop-1.webp",
@@ -534,5 +545,6 @@
         }
       ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-corrected-numbering"
 }

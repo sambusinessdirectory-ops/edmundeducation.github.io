@@ -39,7 +39,7 @@ EXCLUDED_VISUALS = {
 QUESTION_WORDS = re.compile(
     r"^(?:What|Which|Who|Whom|Whose|Why|How|Where|When|Find|Explain|According|"
     r"Read|Use|Based|Complete|Match|Choose|Decide|Give|Identify|State|Name|List|"
-    r"Put|Fill|Look|In|From|Refer|Select|The following|Study)\b",
+    r"Put|Fill|Look|In|From|Refer|Select|The following|Some of|Below|Order|Study)\b",
     re.I,
 )
 SUBPART = re.compile(r"^(?:\(?[ivx]{1,5}\)?(?:[\.)]\s*|\s+)|\([a-h]\)\s*)", re.I)
@@ -184,6 +184,7 @@ def is_page_noise(text: str) -> bool:
         r"^Answers written in the margins?",
         r"^Go on(?:to)? the next page",
         r"^(?:END|ID) OF RE",
+        r"^END OF PART\s+(?:A|B1|B2)$",
         r"^Sources? of materials",
         r"acknowledged in the Examination Report",
         r"Assessment Authority at a later stage",
@@ -554,7 +555,7 @@ def build_paragraphs(root: Path, data: dict) -> tuple[list[dict], int]:
         if len(text) < 3:
             continue
         paragraph_number = len(paragraphs) + 1
-        paragraph = {"number": paragraph_number, "label": f"Paragraph {paragraph_number}", "text": text}
+        paragraph = {"number": paragraph_number, "label": f"Paragraph {group['marker']}", "text": text}
         if group.get("visuals"):
             paragraph["images"] = [
                 {key: visual[key] for key in ("src", "alt")}
@@ -569,7 +570,7 @@ def merge_question_rows(page: dict) -> list[dict]:
     source = [
         dict(line)
         for line in page.get("lines", [])
-        if width * .055 <= line["x"] <= width * .91
+        if width * .025 <= line["x"] <= width * .94
         and line["y"] < page["height"] - 120
         and not (line["height"] > line["width"] * 1.4)
     ]
@@ -579,7 +580,7 @@ def merge_question_rows(page: dict) -> list[dict]:
         target = next(
             (
                 row for row in reversed(rows[-4:])
-                if abs(center - sum(item["y"] + item["height"] / 2 for item in row) / len(row)) <= 24
+                if abs(center - sum(item["y"] + item["height"] / 2 for item in row) / len(row)) <= 36
             ),
             None,
         )
@@ -653,11 +654,11 @@ def candidate_score(lines: list[dict], index: int, expected_start: int, expected
     if explicit and expected_start <= int(explicit.group(1)) <= expected_end:
         remainder = normalize(explicit.group(2) or "")
         plausible = not remainder or QUESTION_WORDS.match(remainder) or "?" in remainder or len(remainder.split()) >= 5
-        if line["x"] <= line.get("page_width", 2500) * .12 and plausible:
+        if line["x"] <= line.get("page_width", 2500) * .18 and plausible:
             return True, 10000.0
     if line["x"] > line.get("page_width", 2500) * .22 or SUBPART.match(text) or OPTION.match(text):
         return False, 0.0
-    if re.match(r"^(?:Statements?|Step|Order|Sub-headings?|Person|Example|TRUE|FALSE|NOT GIVEN)\b", text, re.I):
+    if re.match(r"^(?:Statements?|Step|Sub-headings?|Person|Example|TRUE|FALSE|NOT GIVEN)\b", text, re.I) or re.fullmatch(r"Order(?:\s*\(.*\))?", text, re.I):
         return False, 0.0
     looks_like_prompt = bool(QUESTION_WORDS.match(text) or "?" in text or text.endswith("..."))
     if not looks_like_prompt:

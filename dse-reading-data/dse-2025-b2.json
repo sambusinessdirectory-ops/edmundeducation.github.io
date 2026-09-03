@@ -183,8 +183,14 @@
     {
       "number": 49,
       "group": "paper",
+      "type": "textarea",
+      "prompt": "Which word or phrase in paragraph 4 means to 'finish your work activity\"?"
+    },
+    {
+      "number": 50,
+      "group": "paper",
       "type": "parts",
-      "prompt": "other\" (lines 17-18). What does 'one area' and 'the other' refer to? (2 marks)",
+      "prompt": "Bulger says \"work-life enrichment prioritizes self-care in one area and tends to breed success in the\nother\" (lines 17-18). What does 'one area' and 'the other' refer to? (2 marks)",
       "parts": [
         {
           "key": "i",
@@ -193,102 +199,178 @@
         },
         {
           "key": "i",
-          "label": "(i) 'the other':\n(4 marks)\nStatements F NG",
-          "type": "text"
-        },
-        {
-          "key": "i",
-          "label": "(i) No one today believes Gen Z are hardworking.",
-          "type": "text"
-        },
-        {
-          "key": "ii",
-          "label": "ii) Online groups helping people to review different aspects of their lives bloomed\nduring the pandemic.",
-          "type": "text"
-        },
-        {
-          "key": "iii",
-          "label": "(iii) The Nap Ministry's growth in its number of followers is unique.",
-          "type": "text"
-        },
-        {
-          "key": "iv",
-          "label": "(iv) Tens of thousands of people complain about their jobs every day.",
+          "label": "(i) 'the other':",
           "type": "text"
         }
       ]
     },
     {
-      "number": 50,
-      "group": "paper",
-      "type": "textarea",
-      "prompt": "What does 'only one note in this growing chorus' (line 27) suggest about the quiet quitting trend?"
-    },
-    {
       "number": 51,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Who does 'we' (line 29) refer to?"
+      "prompt": "What does 'it' (line 21) refer to?"
     },
     {
       "number": 52,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Use a word or phrase in each blank to complete the following statement based on the information in\nparagraph 7. (2 marks)\nEmployers have responded to workers' apparent 'slacking' by (i)\nthe duties and opportunities of relevant staff, resulting in dire consequences. This has been labelled\n(li)"
+      "type": "parts",
+      "prompt": "According to paragraph 5, decide whether the following statements True (T), False (F) or Not Given (NG).\n(4 marks)\nStatements F NG",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) No one today believes Gen Z are hardworking.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "ii) Online groups helping people to review different aspects of their lives bloomed\nduring the pandemic.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) The Nap Ministry's growth in its number of followers is unique.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Tens of thousands of people complain about their jobs every day.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
     },
     {
       "number": 53,
       "group": "paper",
       "type": "textarea",
-      "prompt": "refer to?"
+      "prompt": "What does 'only one note in this growing chorus' (line 27) suggest about the quiet quitting trend?"
     },
     {
       "number": 54,
       "group": "paper",
       "type": "textarea",
-      "prompt": "57. In paragraph 7, what words or phrases mean 'ending someone's employment'? (2 marks)\n(ii)"
+      "prompt": "Who does 'we' (line 29) refer to?"
     },
     {
       "number": 55,
       "group": "paper",
       "type": "textarea",
-      "prompt": "58. What 'decision' (line 37) does Vari discuss in paragraph 87"
+      "prompt": "Use a word or phrase in each blank to complete the following statement based on the information in\nparagraph 7. (2 marks)\nEmployers have responded to workers' apparent 'slacking' by (i)\nthe duties and opportunities of relevant staff, resulting in dire consequences. This has been labelled\n(li)"
     },
     {
       "number": 56,
       "group": "paper",
       "type": "textarea",
-      "prompt": "59. With reference to paragraph 8, complete the following diagram describing the possible consequences of quiet\nquitting. (2 marks)\n(i). Tensions could arise\nwithin teams at work.\nthe work of quiet quitters.\nQuiet\nquitting\nQuiet quitters do not (ii) Companies are less\nlikely to progress."
+      "prompt": "Borchers says 'reputations suffer as a result of perceived apathy' (lines 33-34). Whose reputations does he\nrefer to?"
     },
     {
       "number": 57,
       "group": "paper",
       "type": "textarea",
-      "prompt": "60. Based on the information in paragraph 9, complete the summary of the paragraph by writing ONB word in\neach blank below. Your answers must be grammatically correct. (5 marks)\nThe youth of today are digital natives, which proved to be i) to them in their studies"
+      "prompt": "In paragraph 7, what words or phrases mean 'ending someone's employment'? (2 marks)\n(ii)"
     },
     {
       "number": 58,
       "group": "paper",
       "type": "textarea",
-      "prompt": "during the pandemic. However, after starting (il), this has resulted in some resentment\nfrom (il) workers moaning about quiet quitters being on social media. The fact is,\nmany prefer studying and working (iv). rather than in 'real life.' Aptly, quiet quitting\n(v) with an influencer's online quote: \"Your worth as a person is not defined by your\nlabor.\""
+      "prompt": "What 'decision' (line 37) does Vari discuss in paragraph 8?"
     },
     {
       "number": 59,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "use of technology can be both positive and negative. (2 marks)"
+      "type": "parts",
+      "prompt": "With reference to paragraph 8, complete the diagram describing the possible consequences of quiet quitting. (2 marks)",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Quiet quitting",
+                "rowSpan": 2
+              },
+              {
+                "text": "(i) ______ the work of quiet quitters.",
+                "part": "i"
+              },
+              {
+                "text": "→"
+              },
+              {
+                "text": "Tensions could arise within teams at work."
+              }
+            ],
+            [
+              {
+                "text": "Quiet quitters do not (ii) ______.",
+                "part": "ii"
+              },
+              {
+                "text": "→"
+              },
+              {
+                "text": "Companies are less likely to progress."
+              }
+            ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "key": "i",
+          "label": "i",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "ii",
+          "type": "text",
+          "inTable": true
+        }
+      ]
     },
     {
       "number": 60,
       "group": "paper",
       "type": "textarea",
-      "prompt": "(l) Positive:\n(i) Negative:\nGo on to the ned page"
+      "prompt": "Based on the information in paragraph 9, complete the summary of the paragraph by writing ONB word in\neach blank below. Your answers must be grammatically correct. (5 marks)\nThe youth of today are digital natives, which proved to be i) to them in their studies\nduring the pandemic. However, after starting (il), this has resulted in some resentment\nfrom (il) workers moaning about quiet quitters being on social media. The fact is,\nmany prefer studying and working (iv). rather than in 'real life.' Aptly, quiet quitting\n(v) with an influencer's online quote: \"Your worth as a person is not defined by your\nlabor.\""
     },
     {
       "number": 61,
       "group": "paper",
+      "type": "textarea",
+      "prompt": "Who or what are the 'forebears' (line SO) mentioned in paragraph 10?"
+    },
+    {
+      "number": 62,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Newport discusses quiet quitting in relation to Gen Z. With referenco to paragraph 10, explain why Gen Z's\nuse of technology can be both positive and negative. (2 marks)\n(l) Positive:\n(i) Negative:"
+    },
+    {
+      "number": 63,
+      "group": "paper",
       "type": "parts",
-      "prompt": "text. Write the letter of the person on the line next to the comment. Each letter can be used ONCE only. The\nfirst has been done as an example. (6 marks)\n\"A. Carrie B. Tricia C. Callum D. Gergo E. Zaid F. Cal G. Baraby\nBulger Hersey Borchers Vari Khan Newport Lashbrooke",
+      "prompt": "Use the information in Text 5 to match each comment with a person (A-G) mentioned in the text. Each letter can be used ONCE only. The first has been done as an example. (6 marks)",
       "tables": [
         {
           "rows": [
@@ -449,25 +531,14 @@
           "type": "text",
           "inTable": true
         }
-      ]
-    },
-    {
-      "number": 62,
-      "group": "paper",
-      "type": "textarea",
-      "prompt": "This is how I can connect with people with similar beliefs. B (example)"
-    },
-    {
-      "number": 63,
-      "group": "paper",
-      "type": "textarea",
-      "prompt": "The repercussions impact those around you. (i)\nDifferent people do this for different reasons. (ii)\nLet's be honest, work has its place in life. (ili)\nOf all of us, I think Gen Z can lead the way. (iv)"
+      ],
+      "optionBank": "A. Carrie Bulger\nB. Tricia Hersey\nC. Callum Borchers\nD. Gergo Vari\nE. Zaid Khan\nF. Cal Newport\nG. Barnaby Lashbrooke"
     },
     {
       "number": 64,
       "group": "paper",
       "type": "choice",
-      "prompt": "Consider how this could have a downside for you. (v)\nWe need to look beyond the daily for lifo's true value. (vi)",
+      "prompt": "Which of the following would be cynical towards the idea 'Quiet quitting is right for today\"?",
       "options": [
         {
           "value": "A",
@@ -485,8 +556,8 @@
           "value": "D",
           "label": "D. Luna903"
         }
-      ],
-      "optionBank": "A. Nikia203\nB. Lewis43\nC. Jessef04\nD. Luna903\nEND OF PART B2"
+      ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-corrected-numbering"
 }

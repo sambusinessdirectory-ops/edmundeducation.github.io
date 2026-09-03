@@ -79,17 +79,17 @@
     },
     {
       "number": 14,
-      "label": "Paragraph 14",
+      "label": "Paragraph 1",
       "text": "What your updates say about you Will am little o Social media is great for deepening bonds, making friends, or finding that special someone. Or is it?"
     },
     {
       "number": 15,
-      "label": "Paragraph 15",
+      "label": "Paragraph 2",
       "text": "New research suggests that so-called power users, who contribute much more content than the average Facebook user, are unwittingly revealing undesirable personal traits to their peers. The recent study also suggests that Facebook is not good for those suffering from low self-esteem."
     },
     {
       "number": 16,
-      "label": "Paragraph 16",
+      "label": "Paragraph 3",
       "text": "\"We had this idea that Facebook could be a fantastic place for people to strengthen their relationships, says Amanda Forest of the University of Waterloo in Ontario, Canada.",
       "images": [
         {
@@ -100,37 +100,37 @@
     },
     {
       "number": 17,
-      "label": "Paragraph 17",
+      "label": "Paragraph 4",
       "text": "This assumption seems fair when applied to most people, especially those with low self-esteem. However, the findings of Forest's research - titled \"When Social Networking Is Not Working' - suggest that isn't so."
     },
     {
       "number": 18,
-      "label": "Paragraph 18",
+      "label": "Paragraph 5",
       "text": "The study revealed that people with low self-esteem were more negative than people with high self-esteem and liked less by strangers who rated the participants' status updates."
     },
     {
       "number": 19,
-      "label": "Paragraph 19",
+      "label": "Paragraph 6",
       "text": "The study also found that people with low self-esteem got more responses from their Facebook friends when they posted highly positive updates, compared to less positive ones. People with high self-esteem, on the other hand, 55 low used Facebook less and got more 'like' replies after posting something negative, perhaps because these responses are rarer for them."
     },
     {
       "number": 20,
-      "label": "Paragraph 20",
+      "label": "Paragraph 7",
       "text": "So people with low self-esteem may feel that Facebook is a risk-free forum for making personal disclosures, but they may not be helping themselves."
     },
     {
       "number": 21,
-      "label": "Paragraph 21",
+      "label": "Paragraph 8",
       "text": "\"If you're talking to somebody in person and you say something negative, you might get an indication that they don't like it,' says Forest. But when people have a negative reaction to a post on Facebook, they seem to keep it to themselves. \"On Facebook, you don't see most of the reactions.' New Comment New Messages Status Updates Birthdays Friend Requests * New Photos"
     },
     {
       "number": 22,
-      "label": "Paragraph 22",
+      "label": "Paragraph 9",
       "text": "Is Facebook about popularity or desperation? It may often edge towards the latter, with evidence that Facebook is as addictive as cigarettes and alcohol. A study of the activities and desires of 200 adults by the University of Chicago showed that although the strongest desires were for sleep, checking work e-mails and updating a Facebook status are this generation's actual nocturnal activities."
     },
     {
       "number": 23,
-      "label": "Paragraph 23",
+      "label": "Paragraph 10",
       "text": "In theory, social networking websites like Facebook could be great for people with low self-esteem. Sharing is important for improving friendships. But in practice, people with low self-esteem seem to behave counterproductively, bombarding their friends with negative tidbits about their lives and making themselves less likeable."
     },
     {
@@ -486,7 +486,7 @@
       "number": 45,
       "group": "paper",
       "type": "textarea",
-      "prompt": "In what way could social networking websites help people with low self-esteem?\nii) In what way can social networking websites be harmful to people with low self-esteem?\nEND OF PART B1"
+      "prompt": "In what way could social networking websites help people with low self-esteem?\nii) In what way can social networking websites be harmful to people with low self-esteem?"
     }
   ]
 }

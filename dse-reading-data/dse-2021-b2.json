@@ -28,27 +28,27 @@
     },
     {
       "number": 5,
-      "label": "Paragraph 5",
+      "label": "Paragraph 2",
       "text": "Title: [l] Recent research by NASA on terraforming Mars has sparked a debate among ethicists as to whether space exploration and terraforming other worlds are ethical endeavours. Human beings have been captivated by the possibility of planet hopping since the discovery of planets. Below is a short extract from a transcript of a debate between two professors, Annabelle Lee and Theodore Cheung, who are discussing this issue. Prof. Lee: The ever-increasing scope of our space exploration efforts threatens the other planets in our solar system with biological contamination from Earth. If life is present on another world, the introduction of terrestrial life forms would be an ecological disaster as well as an immense loss to science. The possibility that life exists on other planets tells us that we cannot simply land on other planets because we want to satisfy our need for more land."
     },
     {
       "number": 6,
-      "label": "Paragraph 6",
+      "label": "Paragraph 3",
       "text": "Prof. Cheung: I get your point but we have entered unspoiled environments before and those areas have benefitted from our intervention. The national parks service of the USA illustrates how we can create havens for nature, where we maintain the flora and fauna at levels that would not have happened if nature were left to her own devices. In response to your point that human exploration would alter natural conditions on other planets, I propose a planetary park system that would bar the landing of spacecraft in protected areas to prevent destruction of the environment."
     },
     {
       "number": 7,
-      "label": "Paragraph 7",
+      "label": "Paragraph 4",
       "text": "Prof. Lee: You know that microorganisms can be spread across the planetary surface by dust storms, for example, so this approach would not protect non-park areas from human contamination. Although it may help safeguard the aesthetic qualities of some areas, a park system approach misses the larger question of whether it is ethically responsible to interfere with other planets. The discovery, exploration, and invasion of the Americas by Europeans led to dire consequences for the indigenous people of that 'New World'."
     },
     {
       "number": 8,
-      "label": "Paragraph 8",
+      "label": "Paragraph 5",
       "text": "Prof. Cheung: I agree that the activities of human beings can damage the environment and cause other negative consequences, but these are exceptions. I do not subscribe to the idea that the natural world and other living creatures have intrinsic moral worth equal to human beings. It is our duty as human beings to make Earth a better place and that is something no other living organism can do. We need to continue the activities and processes not only to make our world livable and comfortable, but all other worlds around us too."
     },
     {
       "number": 9,
-      "label": "Paragraph 9",
+      "label": "Paragraph 6",
       "text": "Prof. Lee: While we grapple with our ethical obligations to our fellow humans and the other creatures with whom we share the planet, it would be wise to consider the ethical obligations we have to other worlds. We must consider whether landing spacecraft on other planets is justified because they may carry with them the potential to destroy endemic ecosystems. Even if these ecosystems are composed of only microbial life, our ethical obligations must be taken seriously. Life independent of Earth deserves valuation equal to that of our world and those landscapes deserve to be spared from our meddling even if they are not home to any life."
     }
   ],
@@ -591,8 +591,50 @@
     {
       "number": 66,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Roles to The 8, area tous what would be the best tite? Match the tiles on the right columnish Texts 6-8. Three titles are NOT used.\n(i) Text 6: A. Terraforming Mars\nB. A Brief History of Mars\n(ii) Text 7: C. Who Chooses to Explore?\nWhat NASA Thinks about Space\n(ifi) Text 8: E. Looking Back at the Lunar Mission\nF. Should We Set Foot on Other Worlds?\nEND OF PART B2"
+      "type": "parts",
+      "prompt": "Refer to Texts 6-8. What would be the best title for each text? Match the titles on the right with Texts 6-8. Three titles are NOT used.",
+      "optionBank": "A. Terraforming Mars\nB. A Brief History of Mars\nC. Who Chooses to Explore?\nD. What NASA Thinks about Space\nE. Looking Back at the Lunar Mission\nF. Should We Set Foot on Other Worlds?",
+      "parts": [
+        {
+          "key": "text6",
+          "label": "Text 6",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "key": "text7",
+          "label": "Text 7",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "key": "text8",
+          "label": "Text 8",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        }
+      ]
     }
   ]
 }

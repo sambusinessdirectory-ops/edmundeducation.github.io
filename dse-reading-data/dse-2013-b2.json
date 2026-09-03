@@ -19,12 +19,12 @@
     },
     {
       "number": 2,
-      "label": "Paragraph 2",
+      "label": "Paragraph 3",
       "text": "Perhaps that's why so many of them are reading The Hunger Games, a trilogy of novels by Suzanne Collins, which depicts a futuristic North America broken up into twelve districts. Every year, two children from each district are forced to fight to death in a televised contest called the Hunger Games, which are held in a huge outdoor arena. The winner of the contest is the last child left alive. The fervently awaited third installment in the trilogy, Mockingjay, will be published by Scholastic in August, and there are currently in print more than 2.3 million copies of the previous two books, The Hunger Games and Catching Fire."
     },
     {
       "number": 3,
-      "label": "Paragraph 3",
+      "label": "Paragraph 4",
       "text": "Collins's trilogy is only the most visible example of a recent boom in dystopian fiction for young people. Many of these books come in senes, spinning out extended narratives in intricately imagined worlds. In the popular Uglies series, for example, all sixteen-year-olds undergo surgery to conform to a universal standard of prettiness determined by evolutionary biology; in The Maze Runner, teenaos hays awaken all memaries of their"
     },
     {
@@ -44,12 +44,12 @@
     },
     {
       "number": 7,
-      "label": "Paragraph 7",
+      "label": "Paragraph 5",
       "text": "Dystopian novels for young-adult readers have been around for decades. Readers of a certain age may remember having their young minds blown by House of Stairs, the story of five teenagers imprisoned in a seemingly infinite M. C. Escher-style network of staircases that ultimately turns out to be a gigantic Skinner box designed to condition their behavior. The White Mountains, in which alien overlords install mind-control caps on the heads of all those over the age of thirteen, tore through my own sixth-grade classroom like a wicked strain of the flu. Depending on the anxieties and preoccupations of its time, a dystopian young-adult novel might speculate about the aftermath of nuclear war 12 for Zachariah) or the drawbacks of engineering a too harmonious social order (The Giver) or the consequences of resource exhaustion (The Carbon Diaries 2015). And, of course, most American schoolchildren are at some point also assigned to read one of the twentieth century's dystopian classics for adults, such as Brave New World or 1984. The typical the dystopian narrative mirrors disaffection. First, the fictional world is laid out. It may seem pleasant enough. Tally, the heroine of Uglies, looks forward to the surgery that will transform her into a Pretty and allow her to move to the party enclave of New Pretty Town. Eleven-year-old Jonas, in The Giver; with the blandly tranquil somebody new, a misfit, turns up, or the hero stumbles on an incongruity. A crack opens in the façade. If the society is a false utopia, the hero discovers the lie at its very foundation: the Pretties have their brains removed when they receive their plastic surgery; the residents of Jonas's community have been drained of all passion. If the society is frankly miserable or oppressive, the hero will learn that, contrary to told, there may be an alternative out there, somewhere. Conditions at home become more and more unbearable until finally the hero decides to make a break for it, heading out across dangerous terrain."
     },
     {
       "number": 8,
-      "label": "Paragraph 8",
+      "label": "Paragraph 7",
       "text": "The typical the dystopian narrative mirrors disaffection. First, the fictional world is laid out. It may seem pleasant enough. Tally, the heroine of Uglies, looks forward to the surgery that will transform her into a Pretty and allow her to move to the party enclave of New Pretty Town. Eleven-year-old Jonas, in The Giver; with the blandly tranquil somebody new, a misfit, turns up, or the hero stumbles on an incongruity. A crack opens in the façade. If the society is a false utopia, the hero discovers the lie at its very foundation: the Pretties have their brains removed when they receive their plastic surgery; the residents of Jonas's community have been drained of all passion. If the society is frankly miserable or oppressive, the hero will learn that, contrary to told, there may be an alternative out there, somewhere. Conditions at home become more and more unbearable until finally the hero decides to make a break for it, heading out across dangerous terrain. The youth-centered versions of dystopia part company with their adult predecessors in some important respects. For one thing, the grownup ones are grimmer. The British academic Kay Sambell argues that 'the protagonist's final defeat and failure is absolutely crucial to the admonitory nature of the classic adult dystopia.' The adult dystopia extrapolates from the present to show readers how terrible things will become if our deplorable behavior continues unchecked. Because authors of children's fiction are \"reluctant to depict the extinction of hope within their stories,' Sambell writes, they equivocate when it comes to delivering a moral. Yes, our errors and delusions may lead to catastrophe, but if - as usually happens in dystopian novels for children - a new, better way of life can be assembled from the ruins, would the apocalypse really be such a bad thing?"
     },
     {
@@ -75,22 +75,12 @@
     {
       "number": 46,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "ENGLISH LANGUAGE B2\nDIFFICULT SECTION"
-    },
-    {
-      "number": 47,
-      "group": "paper",
       "type": "choice",
       "prompt": "According to paragraph 1, dystopia for young readers is...",
       "options": [
         {
           "value": "A",
-          "label": "A. an imagined, perfect world."
-        },
-        {
-          "value": "B",
-          "label": "B. an unfamiliar, terrifying place."
+          "label": "A. an imagined, perfect world. B. an unfamiliar, terrifying place."
         },
         {
           "value": "C",
@@ -103,19 +93,25 @@
       ]
     },
     {
+      "number": 47,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "What does 'it' (line 6) refer to?\nBased on the information given in paragraph 2, complete the text by writing ONE word to fill in each blank."
+    },
+    {
       "number": 48,
       "group": "paper",
       "type": "parts",
-      "prompt": "47. What does 'it' (line 6) refer to?\nBased on the information given in paragraph 2, complete the text by writing ONE word to fill in each blank.\n48. You should make sure that your answers are grammatically correct, paying attention to word form, plurals (5 marks)\netc.\nMe takes place in New York City (NYC) where\nThe novel When You Reach\ngrew up. In the 1970s, NYC had a",
+      "prompt": "You should make sure that your answers are grammatically correct, paying attention to word form, plurals (5 marks)\netc.\nThe novel When You Reach Me takes place in New York City (NYC) where\ngrew up. In the 1970s, NYC had a",
       "parts": [
         {
           "key": "i",
-          "label": "(i).\n, but children back then had more\nhigher (ii).\nIn contrast, NYC today is (iv)",
+          "label": "(i)., but children back then had more\nhigher (ii).\nIn contrast, NYC today is (iv)",
           "type": "text"
         },
         {
           "key": "iii",
-          "label": "(iii)\nby their parents. As a result, children\nyet children are more (v).\ndon't walk the streets alone.",
+          "label": "(iii) by their parents. As a result, children\nyet children are more (v).\ndon't walk the streets alone.",
           "type": "text"
         }
       ]
@@ -130,7 +126,7 @@
       "number": 50,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Give ONE piece of evidence that shows the success of The Hunger Games series.\n*AOZOEIB"
+      "prompt": "Give ONE piece of evidence that shows the success of The Hunger Games series.\n19 *AOZOEIB"
     },
     {
       "number": 51,
@@ -215,11 +211,7 @@
         },
         {
           "value": "B",
-          "label": "B. fail at the end of the story."
-        },
-        {
-          "value": "C",
-          "label": "C. change their behavior at the end of the story."
+          "label": "B. fail at the end of the story. C. change their behavior at the end of the story."
         },
         {
           "value": "D",
@@ -287,11 +279,7 @@
         },
         {
           "value": "B",
-          "label": "B. will be conceived as social and technological themes in books."
-        },
-        {
-          "value": "C",
-          "label": "C. may be issues of lesser importance."
+          "label": "B. will be conceived as social and technological themes in books. C. may be issues of lesser importance."
         },
         {
           "value": "D",
@@ -311,18 +299,14 @@
         },
         {
           "value": "B",
-          "label": "B. will forever remain a major part of dystopian fiction."
-        },
-        {
-          "value": "C",
-          "label": "C. will become as interesting as technology and the social trends of today"
+          "label": "B. will forever remain a major part of dystopian fiction. C. will become as interesting as technology and the social trends of today"
         },
         {
           "value": "D",
           "label": "D. should be swept away to make room for new ideas."
         }
-      ],
-      "optionBank": "A. is a theme that will never be interesting for adult readers.\nB. will forever remain a major part of dystopian fiction.\nC. will become as interesting as technology and the social trends of today\nD. should be swept away to make room for new ideas.\nEND OF PART B2"
+      ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-corrected-numbering"
 }

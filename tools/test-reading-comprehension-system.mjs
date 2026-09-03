@@ -214,6 +214,7 @@ for (const year of paperYears) {
     assert.ok(exercise.paragraphs.every((paragraph) => paragraph.text?.trim()));
     assert.deepEqual(exercise.questions.map((question) => question.number), Array.from({length: entry.questionCount}, (_, index) => entry.questionStart + index));
     assert.ok(exercise.questions.every((question) => question.prompt?.trim() && !/^Question \d+$/.test(question.prompt)));
+    assert.ok(exercise.questions.every((question) => !/^\d{1,2}\.\s/.test(question.prompt)), `${entry.id}: question numbers must not be shifted into another question's prompt`);
     assert.equal(exercise.passagePages, undefined);
     assert.equal(exercise.questionPages, undefined);
     assert.ok(exercise.questions.every((question) => !("answer" in question)));
@@ -233,10 +234,21 @@ for (const year of paperYears) {
 
 for (const [id, number, count] of [
   ['dse-2018-b2', 71, 6], ['dse-2020-b1', 27, 5], ['dse-2021-b2', 65, 8],
-  ['dse-2022-a', 11, 4], ['dse-2022-b1', 42, 9], ['dse-2023-a', 6, 5], ['dse-2025-b2', 61, 6],
+  ['dse-2022-a', 11, 4], ['dse-2022-b1', 42, 9], ['dse-2023-a', 6, 5], ['dse-2025-b2', 63, 6],
 ]) {
   const exercise = JSON.parse(await read(`dse-reading-data/${id}.json`));
   assert.equal(exercise.questions.find((question) => question.number === number).parts.filter((part) => part.inTable).length, count, `${id} Q${number}: printed labels are not answer blanks`);
+}
+
+for (const [id, number, prefix] of [
+  ['dse-2015-a',3,'Order the following events'], ['dse-2015-a',31,'What does the question Daniel poses'],
+  ['dse-2018-a',3,'Some of the comments'], ['dse-2018-a',21,'Which of the following best describes'],
+  ['dse-2019-a',4,'Below is a summary'], ['dse-2019-a',8,'Complete the following notes'],
+  ['dse-2022-b2',43,'Based on the information'], ['dse-2022-b2',61,'In paragraph 10, Furman'],
+  ['dse-2025-b2',54,"Who does 'we'"], ['dse-2025-b2',63,'Use the information in Text 5'],
+]) {
+  const exercise = JSON.parse(await read(`dse-reading-data/${id}.json`));
+  assert.ok(exercise.questions.find((question) => question.number === number).prompt.startsWith(prefix), `${id} Q${number}: source question numbering must be preserved`);
 }
 
 const pathMatch = audioManifest.match(/"path":"([^"]+\.mp3)"/);

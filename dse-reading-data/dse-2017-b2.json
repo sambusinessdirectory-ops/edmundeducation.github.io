@@ -620,8 +620,118 @@
     {
       "number": 60,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Match the headings to the outline for Text 5. Write A-F in the box next to the number.\nI and VII have been given. One heading is NOT used. (5 marks)\nHeadings Outline\nI. Introduction\nA. Relating to others II.\nB. Defining the generation III.\nC. Childhood years IV.\nD. Technology V.\nE. Self-belief VI.\nF. Special status VII. Conclusion\nEND OF PART B2"
+      "type": "parts",
+      "prompt": "Match the headings to the outline for Text 5. Write A-F in the box next to the number. I and VII have been given. One heading is NOT used. (5 marks)",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Outline",
+                "header": true
+              },
+              {
+                "text": "Heading",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "I"
+              },
+              {
+                "text": "Introduction"
+              }
+            ],
+            [
+              {
+                "text": "II"
+              },
+              {
+                "text": "",
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "III"
+              },
+              {
+                "text": "",
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "IV"
+              },
+              {
+                "text": "",
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "V"
+              },
+              {
+                "text": "",
+                "part": "v"
+              }
+            ],
+            [
+              {
+                "text": "VI"
+              },
+              {
+                "text": "",
+                "part": "vi"
+              }
+            ],
+            [
+              {
+                "text": "VII"
+              },
+              {
+                "text": "Conclusion"
+              }
+            ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "key": "ii",
+          "label": "ii",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "iii",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "iv",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "v",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "vi",
+          "label": "vi",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "optionBank": "A. Relating to others\nB. Defining the generation\nC. Childhood years\nD. Technology\nE. Self-belief\nF. Special status"
     }
   ]
 }

@@ -4,7 +4,7 @@ const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
 const CATALOGUE_VERSION = '20260829-audio1';
-const DSE_CATALOGUE_VERSION = '20260904-dse-ielts-flow-1';
+const DSE_CATALOGUE_VERSION = '20260904-dse-ielts-flow-2';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
 const QUESTION_TYPE_INDEX = window.EDMUND_IELTS_READING_QUESTION_TYPES || { taxonomy: [], articles: [] };
 const audioTimingCache = new Map();
@@ -508,7 +508,10 @@ function collectAnswers() {
   names.forEach((name) => { const value = form.getAll(name).map(String).map((entry) => entry.trim()).filter(Boolean).sort().join(', '); if (value) state.answers[name] = value; else delete state.answers[name]; });
   return state.answers;
 }
-function dseDraftKey() { return `edmund-dse-reading-draft-v1:${state.user?.id || 'student'}:${ARTICLE_ID}`; }
+function dseDraftKey() {
+  const base = `edmund-dse-reading-draft-v1:${state.user?.id || 'student'}:${ARTICLE_ID}`;
+  return state.data?.questionRevision ? `${base}:${state.data.questionRevision}` : base;
+}
 function saveDseDraft() { if (state.system !== 'dse') return; collectAnswers(); try { localStorage.setItem(dseDraftKey(), JSON.stringify(state.answers)); } catch {} }
 function restoreDseDraft() {
   if (state.system !== 'dse') return;

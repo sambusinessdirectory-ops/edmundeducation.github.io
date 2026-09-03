@@ -490,7 +490,7 @@
       "number": 66,
       "group": "paper",
       "type": "textarea",
-      "prompt": "What does the last sentence in this text (lines 60-62) suggest the next paragraph would be about?\nEND OF PART B2"
+      "prompt": "What does the last sentence in this text (lines 60-62) suggest the next paragraph would be about?"
     }
   ]
 }

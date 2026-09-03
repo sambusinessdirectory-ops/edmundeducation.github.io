@@ -48,7 +48,7 @@
     },
     {
       "number": 9,
-      "label": "Paragraph 9",
+      "label": "Paragraph 10",
       "text": "You also write about how Koreans are obsessed with success and education. 40 19] You find these mothers in Gangnam and they're scary. When I taught English I'd meet kids who, materially, led awesome lives and they'd show up in these big Mercedes with bags as big as they were. But if they didn't get an A grade in something, their parents would get mad and the next time you saw them they'd be crying. Wealthy families are obsessed with education. It's a status thing: preserve your status and show the rest of the world that you're preserving your status and your kids are doing well. Why do you continue to live in Korea? This jeong stuff - that's the thing that keeps me in Korea. Korea made me a better friend to my triends. England's a cold society and, growing up, I suppose I always wanted this feeling of being connected to people. I thought English people were a bit too cynical and cold. Korea is a place where you say, \"I like you. I love you. This is great.\" I really like that."
     },
     {
@@ -58,17 +58,17 @@
     },
     {
       "number": 11,
-      "label": "Paragraph 11",
+      "label": "Paragraph 1",
       "text": "Daniel Tudor is one of the most influential foreign correspondents in South Korea - and one of the least known. As the reporter for the Economist, which doesn't use bylines, most of his work is published anonymously. But Mr. Tudor's profile is about to take a sharp rise with the publication of his new book, \"Korea: The Impossible Country\"."
     },
     {
       "number": 12,
-      "label": "Paragraph 12",
+      "label": "Paragraph 2",
       "text": "It's the first English-language book to cover the whole waterfront of South Korean society - historical, cultural, economic, social, political - since one by another influential British expat, Michael Breen, with \"The Koreans,\" which was originally published in 1998 and revised in 2004. [Mr. Breen provided a recommendation on Mr. Tudor's book jacket.] \"Korea: The Impossible Country\" is also likely to get added to the list of must-read books for anyone from outside of South Korea who wants to do business or live in"
     },
     {
       "number": 13,
-      "label": "Paragraph 13",
+      "label": "Paragraph 3",
       "text": "That's a small canon, unfortunately. In addition to Mr. Breen's book, the other indispensables are \"Diamond Dilemma\" by Tariq Hussain, \"Korean Dynasty\" by Donald Kirk, Tom Coyner's guide to doing business in Korea and Robert Koehler's Seoul Selection guidebooks for places and sightseeing. Indeed, the list of must-read books about North Korea is far longer. and fashion and yet the tunnel-like view of what constitutes a successful life. At the end, he asks the question that nearly every visitor has after spending some time in South Korea: why aren't people happier"
     }
   ],
@@ -86,16 +86,93 @@
       "number": 2,
       "group": "paper",
       "type": "textarea",
-      "prompt": "How many more books is Daniel planning to write?\nOrder the following events in Daniel's life. Number the events (1-4). The first event has been done for you.\nHis career:\nStarted working for The Economist\nWrote his first book about Korea\nBecame an English teacher\nStudied at Oxford University 1"
+      "prompt": "How many more books is Daniel planning to write?"
     },
     {
       "number": 3,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "4. Who does \"they\" refer to in line 9?"
+      "type": "parts",
+      "prompt": "Order the following events in Daniel's life. Number the events (1-4). The first event has been done for you.",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "His career:",
+                "header": true
+              },
+              {
+                "text": "Order",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Started working for The Economist"
+              },
+              {
+                "text": "",
+                "part": "economist"
+              }
+            ],
+            [
+              {
+                "text": "Wrote his first book about Korea"
+              },
+              {
+                "text": "",
+                "part": "book"
+              }
+            ],
+            [
+              {
+                "text": "Became an English teacher"
+              },
+              {
+                "text": "",
+                "part": "teacher"
+              }
+            ],
+            [
+              {
+                "text": "Studied at Oxford University"
+              },
+              {
+                "text": "1"
+              }
+            ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "key": "economist",
+          "label": "economist",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "book",
+          "label": "book",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "teacher",
+          "label": "teacher",
+          "type": "text",
+          "inTable": true
+        }
+      ]
     },
     {
       "number": 4,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Who does \"they\" refer to in line 9?"
+    },
+    {
+      "number": 5,
       "group": "paper",
       "type": "choice",
       "prompt": "What does Daniel mean by \"off the radar\" (line 10)?",
@@ -119,34 +196,34 @@
       ]
     },
     {
-      "number": 5,
-      "group": "paper",
-      "type": "textarea",
-      "prompt": "6. Which country does the writer suggest is currently the \"big story\" (line 10)?"
-    },
-    {
       "number": 6,
       "group": "paper",
       "type": "textarea",
-      "prompt": "7. Why is jeong referred to as \"the invisible hug\" (line 13)?"
+      "prompt": "Which country does the writer suggest is currently the \"big story\" (line 10)?"
     },
     {
       "number": 7,
       "group": "paper",
       "type": "textarea",
-      "prompt": "8. What does Daniel think is \"nonsense\" (line 15)?"
+      "prompt": "Why is jeong referred to as \"the invisible hug\" (line 13)?"
     },
     {
       "number": 8,
       "group": "paper",
       "type": "textarea",
-      "prompt": "9. Why did Koreans drink a lot and sing raucously at traditional funerals?"
+      "prompt": "What does Daniel think is \"nonsense\" (line 15)?"
     },
     {
       "number": 9,
       "group": "paper",
+      "type": "textarea",
+      "prompt": "Why did Koreans drink a lot and sing raucously at traditional funerals?"
+    },
+    {
+      "number": 10,
+      "group": "paper",
       "type": "parts",
-      "prompt": "10. According to paragraph 5, name one difference and one similarity between Koreans and Westerners, as\nseen by Daniel. (2 marks)",
+      "prompt": "According to paragraph 5, name one difference and one similarity between Koreans and Westerners, as\nseen by Daniel. (2 marks)",
       "parts": [
         {
           "key": "i",
@@ -161,28 +238,28 @@
       ]
     },
     {
-      "number": 10,
-      "group": "paper",
-      "type": "textarea",
-      "prompt": "11. Why doesn't Daniel like K-pop?"
-    },
-    {
       "number": 11,
       "group": "paper",
       "type": "textarea",
-      "prompt": "12. Who or what does the word \"them\" (line 31) refer to?"
+      "prompt": "Why doesn't Daniel like K-pop?"
     },
     {
       "number": 12,
       "group": "paper",
       "type": "textarea",
-      "prompt": "13. What opinion do both Daniel and Psy share?"
+      "prompt": "Who or what does the word \"them\" (line 31) refer to?"
     },
     {
       "number": 13,
       "group": "paper",
+      "type": "textarea",
+      "prompt": "What opinion do both Daniel and Psy share?"
+    },
+    {
+      "number": 14,
+      "group": "paper",
       "type": "parts",
-      "prompt": "14. Based on the information given in paragraph 7, decide if the following statements are True, False or the\ninformation is Not Given. Blacken ONE circle only for each statement. (3 marks)\nStatements T F NG",
+      "prompt": "Based on the information given in paragraph 7, decide if the following statements are True, False or the\ninformation is Not Given. Blacken ONE circle only for each statement. (3 marks)\nStatements T F NG",
       "parts": [
         {
           "key": "i",
@@ -202,112 +279,107 @@
       ]
     },
     {
-      "number": 14,
-      "group": "paper",
-      "type": "textarea",
-      "prompt": "15. What are \"soaps\" (line 34)?"
-    },
-    {
       "number": 15,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Why does Daniel think \"Korea's probably not the best country in which to be a woman\" (lines 36-37)?"
+      "prompt": "What are \"soaps\" (line 34)?"
     },
     {
       "number": 16,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Complete the summary of paragraph 8 by writing ONE word to fill in each blank. Each word can only be used\nonce. You should make sure your answers are grammatically correct, paying attention to tenses, plurals, etc.\n(5 marks)\nDaniel doesn't like Korean (i) because he thinks the stories are too emotional. The\nstories are often the same, with a (ii) man meeting a (iii) lady who\ncomes from a (iv) background and in the end they (v)"
+      "prompt": "Why does Daniel think \"Korea's probably not the best country in which to be a woman\" (lines 36-37)?"
     },
     {
       "number": 17,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Why does Daniel think that Gangnam mothers are \"scary\" in line 40?"
+      "prompt": "Complete the summary of paragraph 8 by writing ONE word to fill in each blank. Each word can only be used\nonce. You should make sure your answers are grammatically correct, paying attention to tenses, plurals, etc.\n(5 marks)\nDaniel doesn't like Korean (i) because he thinks the stories are too emotional. The\nstories are often the same, with a (ii) man meeting a (iii) lady who\ncomes from a (iv) background and in the end they (v)"
     },
     {
       "number": 18,
       "group": "paper",
       "type": "textarea",
-      "prompt": "What does Daniel mean by \"materially\" in line 41?"
+      "prompt": "Why does Daniel think that Gangnam mothers are \"scary\" in line 40?"
     },
     {
       "number": 19,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Why are wealthy Koreans obsessed with education?"
+      "prompt": "What does Daniel mean by \"materially\" in line 41?"
     },
     {
       "number": 20,
       "group": "paper",
       "type": "textarea",
-      "prompt": "According to paragraph 10, how has Daniel changed since he arrived in Korea?"
+      "prompt": "Why are wealthy Koreans obsessed with education?"
     },
     {
       "number": 21,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Overall, what does Daniel feel is most attractive about Korea?"
+      "prompt": "According to paragraph 10, how has Daniel changed since he arrived in Korea?"
     },
     {
       "number": 22,
       "group": "paper",
       "type": "textarea",
-      "prompt": "What does \"In from the cold\" in the title suggest about Britain?"
+      "prompt": "Overall, what does Daniel feel is most attractive about Korea?"
     },
     {
       "number": 23,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Who or what does \"Geek\" in the title of Daniel's book refer to?"
+      "prompt": "What does \"In from the cold\" in the title suggest about Britain?"
     },
     {
       "number": 24,
       "group": "paper",
       "type": "textarea",
-      "prompt": "25. What is the irony in paragraph 1?"
+      "prompt": "Who or what does \"Geek\" in the title of Daniel's book refer to?"
     },
     {
       "number": 25,
       "group": "paper",
       "type": "textarea",
-      "prompt": "26. Other than Daniel, which writer mentioned in Text 2 has definitely lived in Korea?"
+      "prompt": "What is the irony in paragraph 1?"
     },
     {
       "number": 26,
       "group": "paper",
       "type": "textarea",
-      "prompt": "27. What is the meaning of a \"canon\" (line 11)?"
+      "prompt": "Other than Daniel, which writer mentioned in Text 2 has definitely lived in Korea?"
     },
     {
       "number": 27,
       "group": "paper",
       "type": "textarea",
-      "prompt": "28. What does Evan Ramstad's comment about North Korea in lines 13-14 imply?"
+      "prompt": "What is the meaning of a \"canon\" (line 11)?"
     },
     {
       "number": 28,
       "group": "paper",
       "type": "textarea",
-      "prompt": "29. How does the content of Daniel Tudor's book differ from Michael Breen's?"
+      "prompt": "What does Evan Ramstad's comment about North Korea in lines 13-14 imply?"
     },
     {
       "number": 29,
       "group": "paper",
       "type": "textarea",
-      "prompt": "30. What is the contradiction between how Koreans see success and their love of trendy gadgets and fashion?\n(2 marks)"
+      "prompt": "How does the content of Daniel Tudor's book differ from Michael Breen's?"
     },
     {
       "number": 30,
       "group": "paper",
       "type": "textarea",
-      "prompt": "31. What does the question Daniel poses at the end of his book suggest about his view of Koreans and"
+      "prompt": "What is the contradiction between how Koreans see success and their love of trendy gadgets and fashion?\n(2 marks)"
     },
     {
       "number": 31,
       "group": "paper",
       "type": "textarea",
-      "prompt": "their achievements? (2 marks)\nEND OF PART A"
+      "prompt": "What does the question Daniel poses at the end of his book suggest about his view of Koreans and\ntheir achievements? (2 marks)"
     }
-  ]
+  ],
+  "questionRevision": "20260904-corrected-numbering"
 }
