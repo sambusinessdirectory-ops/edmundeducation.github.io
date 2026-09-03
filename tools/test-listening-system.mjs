@@ -24,6 +24,8 @@ assert.match(html, /2026 → 2012/);
 assert.match(html, /2012 → 2026/);
 assert.match(html, /dse-listening-2023-data\.js/);
 assert.match(html, /dse-listening-2023-transcript\.js/);
+assert.match(html, /dse-listening-2016-data\.js/);
+assert.match(html, /dse-listening-2016-transcript\.js/);
 assert.match(html, /data-dse-year-grid/);
 assert.match(html, /data-dse-workspace/);
 assert.match(html, /listening-system-catalog\.js/);

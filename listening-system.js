@@ -8,7 +8,10 @@ const SESSION_KEY = "edmund-listening-session-v1";
 const AUDIO_CATALOGUE_URL = "https://edmund-neural-audio.edmundeducation.workers.dev/v1/listening/catalog";
 const SPEEDS = Object.freeze([0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]);
 const TEXT_SCALES = Object.freeze([0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3]);
-const DSE_2023 = window.EDMUND_DSE_LISTENING_2023 || null;
+const DSE_CONTENT = new Map([
+  [2016, window.EDMUND_DSE_LISTENING_2016 || null],
+  [2023, window.EDMUND_DSE_LISTENING_2023 || null]
+].filter(([, content]) => Boolean(content)));
 
 const state = {
   supabase: null,
@@ -354,7 +357,8 @@ function openSection(section, options = {}) {
     renderPracticeGrid();
     showView("ielts");
   } else {
-    if (Number(options.year) !== 2023) {
+    const requestedYear = Number(options.year);
+    if (!DSE_CONTENT.has(requestedYear)) {
       state.dseYear = 0;
       elements.dseYearGrid.hidden = false;
       elements.dseWorkspace.hidden = true;
@@ -362,10 +366,10 @@ function openSection(section, options = {}) {
     }
     renderDseYearGrid();
     showView("dse");
+    if (DSE_CONTENT.has(requestedYear)) openDseYear(requestedYear, Number(options.task) || 1, { update: false });
     void loadAudioCatalogue().then(() => {
       renderDseYearGrid();
-      if (Number(options.year) === 2023) openDseYear(2023, Number(options.task) || 1, { update: false });
-      else if (state.dseYear === 2023) renderDseTask(state.dseTask);
+      if (DSE_CONTENT.has(state.dseYear)) renderDseTask(state.dseTask);
     }).catch((error) => console.warn("DSE listening catalogue failed", error));
   }
 }
@@ -389,11 +393,12 @@ function renderDseYearGrid() {
   elements.dseSort.value = state.dseSort;
   const years = [...(CATALOGUE.dseYears || [])].sort((left, right) => state.dseSort === "asc" ? left.year - right.year : right.year - left.year);
   elements.dseYearGrid.innerHTML = years.map((item) => {
-    const available = item.year === 2023 && Boolean(DSE_2023);
+    const content = DSE_CONTENT.get(item.year);
+    const available = Boolean(content);
     const uploaded = [1, 2, 3, 4].filter((task) => state.dseTracks.has(`${item.year}:part-a:${task}`)).length;
     return `<button class="dse-year-card${available ? " is-available" : ""}" type="button" data-open-dse-year="${item.year}" aria-label="${item.year} DSE Paper 3 Part A">
       <span>${item.year}</span><strong>Paper 3 Part A</strong>
-      <small>${available ? `4 個 Tasks · 53 題${uploaded ? ` · ${uploaded}/4 段錄音` : ""}` : "教材尚未加入"}</small>
+      <small>${available ? `4 個 Tasks · ${content.questionCount} 題${uploaded ? ` · ${uploaded}/4 段錄音` : ""}` : "教材尚未加入"}</small>
       <em>${available ? "開始練習 →" : "COMING SOON"}</em>
     </button>`;
   }).join("");
@@ -419,6 +424,13 @@ function renderDseBlock(block) {
       return `<label><input type="radio" name="dse-q${block.number}" data-dse-answer-q="${block.number}" value="${key}"${saved === key ? " checked" : ""}><strong>${key}</strong><span>${escapeHtml(option)}</span></label>`;
     }).join("")}</div></div></article>`;
   }
+  if (block.type === "multiple-select") {
+    const saved = new Set(String(state.dseAnswers.get(Number(block.number)) || "").split(",").filter(Boolean));
+    return `<article class="dse-multiple-choice"><div class="dse-question-number">${block.number}</div><div><p>${escapeHtml(block.prompt)}</p><div class="listening-options">${block.options.map((option, index) => {
+      const key = String.fromCharCode(65 + index);
+      return `<label><input type="checkbox" name="dse-q${block.number}" data-dse-answer-q="${block.number}" value="${key}"${saved.has(key) ? " checked" : ""}><strong>${key}</strong><span>${escapeHtml(option)}</span></label>`;
+    }).join("")}</div></div></article>`;
+  }
   if (block.type === "event-table") return `<div class="listening-table-wrap"><table class="dse-event-table"><thead><tr><th>Event</th><th>Human version</th><th>Marble version</th></tr></thead><tbody>${block.rows.map((row) => `<tr><th>${escapeHtml(row.event)}</th><td><img src="${escapeHtml(row.image)}" alt="${escapeHtml(row.alt)}" loading="lazy"></td><td>${replaceDseTokens(row.copy)}</td></tr>`).join("")}</tbody></table></div>`;
   if (block.type === "concern-table") return `<div class="listening-table-wrap"><table class="dse-concern-table"><thead><tr><th>Concern</th><th>Consequence</th></tr></thead><tbody>${block.rows.map((row) => `<tr><td>${replaceDseTokens(row.concern)}</td><td>${replaceDseTokens(row.consequence)}</td></tr>`).join("")}</tbody></table></div>`;
   return "";
@@ -436,11 +448,12 @@ function dseTaskQuestionNumbers(task) {
 }
 
 function dseAllQuestionNumbers() {
-  return DSE_2023 ? DSE_2023.tasks.flatMap(dseTaskQuestionNumbers) : [];
+  const content = DSE_CONTENT.get(state.dseYear);
+  return content ? content.tasks.flatMap(dseTaskQuestionNumbers) : [];
 }
 
 function updateDseProgress() {
-  if (!elements.dseWorkspace || !DSE_2023) return;
+  if (!elements.dseWorkspace || !DSE_CONTENT.has(state.dseYear)) return;
   const all = dseAllQuestionNumbers();
   const answered = all.filter((number) => String(state.dseAnswers.get(number) || "").trim()).length;
   const percent = Math.round((answered / all.length) * 100);
@@ -451,7 +464,7 @@ function updateDseProgress() {
 }
 
 function renderDseTranscript(taskNumber) {
-  const rows = DSE_2023?.transcript?.partA?.[taskNumber] || [];
+  const rows = DSE_CONTENT.get(state.dseYear)?.transcript?.partA?.[taskNumber] || [];
   return `<section class="listening-transcript dse-transcript" aria-labelledby="dse-transcript-title"><div class="listening-transcript__head"><div><p class="eyebrow">TIMESTAMPED TRANSCRIPT</p><div class="transcript-title-row"><h3 id="dse-transcript-title">Task ${taskNumber} 錄音稿</h3><button class="transcript-sync-toggle" type="button" data-toggle-transcript-sync aria-pressed="${state.syncHighlights}">同步高亮：${state.syncHighlights ? "開" : "關"}</button></div></div><p>錄音稿已標示角色姓名；按一下任何一行可跳到該句。</p></div><div class="transcript-lines" data-dse-transcript>${rows.map((row, index) => `<div class="transcript-line" role="button" tabindex="0" data-dse-transcript-line="${index}" data-start="${row.start}"><strong class="dse-speaker">${escapeHtml(row.speaker)}</strong><span>${escapeHtml(row.text)}</span></div>`).join("")}</div></section>`;
 }
 
@@ -487,11 +500,12 @@ function bindDseTranscriptSync(taskNumber) {
 }
 
 function renderDseTask(taskNumber) {
-  const task = DSE_2023?.tasks?.find((item) => item.number === Number(taskNumber));
+  const content = DSE_CONTENT.get(state.dseYear);
+  const task = content?.tasks?.find((item) => item.number === Number(taskNumber));
   if (!task || !elements.dseWorkspace) return;
   state.dseTask = task.number;
   elements.dseWorkspace.querySelectorAll("[data-dse-task-tab]").forEach((button) => button.setAttribute("aria-selected", String(Number(button.dataset.dseTaskTab) === task.number)));
-  const track = state.dseTracks.get(`2023:part-a:${task.number}`);
+  const track = state.dseTracks.get(`${state.dseYear}:part-a:${task.number}`);
   const host = elements.dseWorkspace.querySelector("[data-dse-task-host]");
   host.innerHTML = `<article class="dse-task"><header class="dse-task__head"><div><p class="eyebrow">TASK ${task.number} · ${task.marks} MARKS</p><h2>${escapeHtml(task.title)}</h2><p>${escapeHtml(task.instruction)}</p></div></header>
     <section class="dse-task-audio"><div><strong>Task ${task.number} 錄音</strong><small>${track ? "已按題冊 Task 精準分段" : "錄音暫時未能載入"}</small></div>${track ? `<audio controls preload="metadata" data-dse-audio-task="${task.number}" src="${escapeHtml(track.url)}">您的瀏覽器不支援音訊播放器。</audio><label>播放速度<select data-dse-speed>${SPEEDS.map((speed) => `<option value="${speed}"${speed === state.speed ? " selected" : ""}>${speed}×</option>`).join("")}</select></label>` : ""}</section>
@@ -504,19 +518,22 @@ function renderDseTask(taskNumber) {
 }
 
 function openDseYear(year, task = 1, options = {}) {
-  if (Number(year) !== 2023 || !DSE_2023) {
+  const selectedYear = Number(year);
+  const content = DSE_CONTENT.get(selectedYear);
+  if (!content) {
     showToast(`${year} 年教材尚未加入。`);
     return;
   }
-  state.dseYear = 2023;
+  if (state.dseYear !== selectedYear) state.dseAnswers.clear();
+  state.dseYear = selectedYear;
   state.dseTask = Number(task) >= 1 && Number(task) <= 4 ? Number(task) : 1;
-  if (options.update !== false) updateRoute("dse", 0, 0, 2023, state.dseTask);
+  if (options.update !== false) updateRoute("dse", 0, 0, selectedYear, state.dseTask);
   elements.dseYearGrid.hidden = true;
   elements.dseWorkspace.hidden = false;
-  elements.dseWorkspace.innerHTML = `<header class="dse-workspace__head"><div><p class="eyebrow">2023 DSE PAPER 3 · PART A</p><h2 id="dse-workspace-title">2023 Part A 聆聽練習</h2><p>先閱讀整體情境，再開始 Task 1–4。</p></div><button class="secondary-button" type="button" data-back-dse-years>返回年份</button></header>
-    <section class="dse-main-situation" aria-labelledby="dse-main-situation-title"><div class="dse-main-situation__label"><span>00</span><div><p class="eyebrow">BEFORE TASKS 1–4</p><h3 id="dse-main-situation-title">Main Situation <small>整體情境</small></h3></div></div><div class="dse-main-situation__copy"><strong>Situation</strong><p>${escapeHtml(DSE_2023.situation)}</p><p class="dse-situation-translation" lang="zh-Hant">${escapeHtml(DSE_2023.situationZh)}</p><hr><p>${escapeHtml(DSE_2023.instructions)}</p><p class="dse-situation-translation" lang="zh-Hant">${escapeHtml(DSE_2023.instructionsZh || "")}</p><div class="dse-familiarisation"><strong>${escapeHtml(DSE_2023.familiarisation || "")}</strong><span lang="zh-Hant">${escapeHtml(DSE_2023.familiarisationZh || "")}</span></div></div></section>
-    <div class="dse-progress"><div><span data-dse-progress-bar></span></div><strong data-dse-progress-copy>0 / 53 題已填寫</strong></div>
-    <div class="listening-part-tabs" role="tablist" aria-label="選擇 Part A Task">${DSE_2023.tasks.map((item) => `<button type="button" role="tab" data-dse-task-tab="${item.number}" aria-selected="${item.number === state.dseTask}">Task ${item.number}<small>Q${dseTaskQuestionNumbers(item)[0]}–${dseTaskQuestionNumbers(item).at(-1)}</small></button>`).join("")}</div><div data-dse-task-host></div>`;
+  elements.dseWorkspace.innerHTML = `<header class="dse-workspace__head"><div><p class="eyebrow">${selectedYear} DSE PAPER 3 · PART A</p><h2 id="dse-workspace-title">${selectedYear} Part A 聆聽練習</h2><p>先閱讀整體情境，再開始 Task 1–4。</p></div><button class="secondary-button" type="button" data-back-dse-years>返回年份</button></header>
+    <section class="dse-main-situation" aria-labelledby="dse-main-situation-title"><div class="dse-main-situation__label"><span>00</span><div><p class="eyebrow">BEFORE TASKS 1–4</p><h3 id="dse-main-situation-title">Main Situation <small>整體情境</small></h3></div></div><div class="dse-main-situation__copy"><strong>Situation</strong><p>${escapeHtml(content.situation)}</p><p class="dse-situation-translation" lang="zh-Hant">${escapeHtml(content.situationZh)}</p><hr><p>${escapeHtml(content.instructions)}</p><p class="dse-situation-translation" lang="zh-Hant">${escapeHtml(content.instructionsZh || "")}</p><div class="dse-familiarisation"><strong>${escapeHtml(content.familiarisation || "")}</strong><span lang="zh-Hant">${escapeHtml(content.familiarisationZh || "")}</span></div></div></section>
+    <div class="dse-progress"><div><span data-dse-progress-bar></span></div><strong data-dse-progress-copy>0 / ${content.questionCount} 題已填寫</strong></div>
+    <div class="listening-part-tabs" role="tablist" aria-label="選擇 Part A Task">${content.tasks.map((item) => `<button type="button" role="tab" data-dse-task-tab="${item.number}" aria-selected="${item.number === state.dseTask}">Task ${item.number}<small>Q${dseTaskQuestionNumbers(item)[0]}–${dseTaskQuestionNumbers(item).at(-1)}</small></button>`).join("")}</div><div data-dse-task-host></div>`;
   renderDseTask(state.dseTask);
   elements.dseWorkspace.scrollIntoView({ behavior: "smooth", block: "start" });
 }
@@ -913,17 +930,17 @@ function formatAudioTime(value) {
 }
 
 function selectedAudio() {
-  if (state.view === "dse" && state.dseYear === 2023) return elements.dseWorkspace?.querySelector(`audio[data-dse-audio-task="${state.dseTask}"]`) || null;
+  if (state.view === "dse" && DSE_CONTENT.has(state.dseYear)) return elements.dseWorkspace?.querySelector(`audio[data-dse-audio-task="${state.dseTask}"]`) || null;
   return document.querySelector(`audio[data-audio-part="${state.practicePart}"]`);
 }
 
 function setFloatingAudioPart(partNumber) {
   const player = document.querySelector("[data-floating-audio]");
   if (!player) return;
-  const dseActive = state.view === "dse" && state.dseYear === 2023 && Number(partNumber) >= 1 && Number(partNumber) <= 4;
+  const dseActive = state.view === "dse" && DSE_CONTENT.has(state.dseYear) && Number(partNumber) >= 1 && Number(partNumber) <= 4;
   const ieltsActive = state.content && state.view === "practice" && Number(partNumber) >= 1 && Number(partNumber) <= 4;
   player.hidden = !(dseActive || ieltsActive);
-  player.querySelector("[data-floating-part]").textContent = dseActive ? `2023 · Task ${partNumber}` : `Part ${partNumber}`;
+  player.querySelector("[data-floating-part]").textContent = dseActive ? `${state.dseYear} · Task ${partNumber}` : `Part ${partNumber}`;
   const audio = selectedAudio();
   player.querySelectorAll("button, input").forEach((control) => { control.disabled = !audio; });
   updateFloatingAudio(audio);
@@ -1012,7 +1029,7 @@ document.addEventListener("click", (event) => {
   else if (button.matches("[data-back-dse-years]")) backToDseYears();
   else if (button.matches("[data-dse-task-tab]")) {
     const task = Number(button.dataset.dseTaskTab);
-    updateRoute("dse", 0, 0, 2023, task);
+    updateRoute("dse", 0, 0, state.dseYear, task);
     renderDseTask(task);
   }
   else if (button.matches("[data-part-tab]")) renderPracticePart(Number(button.dataset.partTab));
@@ -1088,9 +1105,12 @@ document.addEventListener("change", (event) => {
 document.addEventListener("input", (event) => {
   if (event.target.matches("[data-dse-answer-q]")) {
     const number = Number(event.target.dataset.dseAnswerQ);
-    const value = event.target.type === "radio"
-      ? (event.target.checked ? event.target.value : state.dseAnswers.get(number) || "")
-      : event.target.value;
+    let value;
+    if (event.target.type === "checkbox") {
+      value = [...document.querySelectorAll(`input[type="checkbox"][data-dse-answer-q="${number}"]:checked`)].map((input) => input.value).join(",");
+    } else if (event.target.type === "radio") {
+      value = event.target.checked ? event.target.value : state.dseAnswers.get(number) || "";
+    } else value = event.target.value;
     state.dseAnswers.set(number, value);
     updateDseProgress();
     return;

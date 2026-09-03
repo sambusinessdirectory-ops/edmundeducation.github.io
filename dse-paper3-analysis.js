@@ -2,7 +2,10 @@ const DATA = window.EDMUND_DSE_PAPER3_DATA;
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-dse-paper3-analysis-session-v1";
 const SORT_KEY = "edmund-dse-paper3-year-sort-v1";
-const DSE_2023 = window.EDMUND_DSE_LISTENING_2023 || null;
+const DSE_CONTENT = new Map([
+  [2016, window.EDMUND_DSE_LISTENING_2016 || null],
+  [2023, window.EDMUND_DSE_LISTENING_2023 || null]
+].filter(([, content]) => Boolean(content)));
 const AUDIO_CATALOGUE_URL = "https://edmund-neural-audio.edmundeducation.workers.dev/v1/listening/catalog";
 const AUDIO_SPEEDS = Object.freeze([0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]);
 
@@ -43,7 +46,7 @@ const state = {
   sort: readSortPreference(),
   toastTimer: 0,
   headerObserver: null,
-  partBTrack: null,
+  partBTracks: new Map(),
   partBSpeed: 1,
   audioCataloguePromise: null
 };
@@ -215,7 +218,7 @@ function resourceFor(year = state.year, level = state.level) {
 }
 
 function hasYearResource(year) {
-  return Number(year) === 2023 || DATA.levels.some((level) => Boolean(resourceFor(year, level.id)));
+  return DSE_CONTENT.has(Number(year)) || DATA.levels.some((level) => Boolean(resourceFor(year, level.id)));
 }
 
 function hasMaterial(resource, material) {
@@ -275,36 +278,38 @@ function renderYears() {
       kicker: "DSE PAPER 3",
       title: year,
       subtitle: "B1 / B2 · 實用文範文與 Data File 分析",
-      status: year === 2023 ? "已有 Part B 錄音稿" : hasYearResource(year) ? "已有教材" : "內容尚未加入",
+      status: DSE_CONTENT.has(year) ? "已有 Part B 錄音稿" : hasYearResource(year) ? "已有教材" : "內容尚未加入",
       available: hasYearResource(year),
       attributes: `data-select-year="${year}" aria-label="選擇 ${year} 年"`
     })).join("")}</div>
   </section>`;
 }
 
-async function loadPartBAudio() {
-  if (state.partBTrack) return state.partBTrack;
-  if (state.audioCataloguePromise) return state.audioCataloguePromise;
-  state.audioCataloguePromise = (async () => {
+async function loadPartBAudio(year = state.year) {
+  const selectedYear = Number(year);
+  if (state.partBTracks.has(selectedYear)) return state.partBTracks.get(selectedYear);
+  if (!state.audioCataloguePromise) state.audioCataloguePromise = (async () => {
     const response = await fetch(AUDIO_CATALOGUE_URL, { mode: "cors", credentials: "omit", cache: "no-cache" });
     if (!response.ok) throw new Error(`錄音庫回應錯誤（${response.status}）`);
-    const payload = await response.json();
-    const track = (Array.isArray(payload?.dseTracks) ? payload.dseTracks : []).find((item) => Number(item.year) === 2023 && item.section === "part-b");
-    if (!track?.url || !/^https:\/\//i.test(track.url)) throw new Error("暫時未能找到 2023 Part B 錄音。");
-    state.partBTrack = String(track.url);
-    return state.partBTrack;
+    return response.json();
   })().catch((error) => {
     state.audioCataloguePromise = null;
     throw error;
   });
-  return state.audioCataloguePromise;
+  const payload = await state.audioCataloguePromise;
+  const track = (Array.isArray(payload?.dseTracks) ? payload.dseTracks : []).find((item) => Number(item.year) === selectedYear && item.section === "part-b");
+  if (!track?.url || !/^https:\/\//i.test(track.url)) throw new Error(`暫時未能找到 ${selectedYear} Part B 錄音。`);
+  state.partBTracks.set(selectedYear, String(track.url));
+  return state.partBTracks.get(selectedYear);
 }
 
 function renderPartBPanel() {
-  const rows = DSE_2023?.transcript?.partB || [];
+  const content = DSE_CONTENT.get(state.year);
+  const rows = content?.transcript?.partB || [];
+  const track = state.partBTracks.get(state.year) || "";
   return `<section class="partb-listening-panel" aria-labelledby="partb-listening-title">
-    <header><div><p class="eyebrow">2023 · PART B RECORDING</p><h3 id="partb-listening-title">Part B 完整錄音及角色錄音稿</h3><p>錄音包括五分鐘熟習題目時間及 Winnie Tang、Dante Cruz、Archie Lee 的會議。按錄音稿任何一行可跳到該句。</p></div><span>14:31</span></header>
-    ${state.partBTrack ? `<div class="partb-audio-row"><audio controls preload="metadata" data-partb-audio src="${escapeHtml(state.partBTrack)}">您的瀏覽器不支援音訊播放器。</audio><label>播放速度<select data-partb-speed>${AUDIO_SPEEDS.map((speed) => `<option value="${speed}"${speed === state.partBSpeed ? " selected" : ""}>${speed}×</option>`).join("")}</select></label></div>` : `<p class="partb-audio-status" data-partb-audio-status>正在載入 Part B 錄音…</p>`}
+    <header><div><p class="eyebrow">${state.year} · PART B RECORDING</p><h3 id="partb-listening-title">Part B 完整錄音及角色錄音稿</h3><p>${escapeHtml(content?.partBDescriptionZh || content?.partBDescription || "錄音包括熟習題目時間及完整對話。")}按錄音稿任何一行可跳到該句。</p></div><span>${escapeHtml(content?.partBDuration || "")}</span></header>
+    ${track ? `<div class="partb-audio-row"><audio controls preload="metadata" data-partb-audio src="${escapeHtml(track)}">您的瀏覽器不支援音訊播放器。</audio><label>播放速度<select data-partb-speed>${AUDIO_SPEEDS.map((speed) => `<option value="${speed}"${speed === state.partBSpeed ? " selected" : ""}>${speed}×</option>`).join("")}</select></label></div>` : `<p class="partb-audio-status" data-partb-audio-status>正在載入 Part B 錄音…</p>`}
     <details class="partb-transcript" open><summary>顯示／收起角色錄音稿 <small>${rows.length} 段</small></summary><div class="partb-transcript-lines" data-partb-transcript>${rows.map((row, index) => `<button type="button" data-partb-line="${index}" data-start="${row.start}"><strong>${escapeHtml(row.speaker)}</strong><span>${escapeHtml(row.text)}</span></button>`).join("")}</div></details>
   </section>`;
 }
@@ -336,7 +341,7 @@ function renderLevels() {
       <div><p class="eyebrow">STEP 02 · PAPER</p><h2 id="levels-title">${escapeHtml(state.year)} · 選擇卷別</h2><p>分別查看 B1 或 B2 的實用文範文及 Data File 解卷分析。</p></div>
       <div class="screen-counter"><strong>2</strong><span>個卷別</span></div>
     </header>
-    ${state.year === 2023 && DSE_2023 ? renderPartBPanel() : ""}
+    ${DSE_CONTENT.has(state.year) ? renderPartBPanel() : ""}
     <div class="selection-grid level-grid">${DATA.levels.map((level) => {
       const available = Boolean(resourceFor(state.year, level.id));
       return selectionCard({
@@ -349,7 +354,7 @@ function renderLevels() {
       });
     }).join("")}</div>
   </section>`;
-  if (state.year === 2023) bindPartBPlayer();
+  if (DSE_CONTENT.has(state.year)) bindPartBPlayer();
 }
 
 function renderMaterials() {
@@ -558,9 +563,10 @@ function handleScreenClick(event) {
     state.material = "";
     state.screen = "levels";
     renderLibrary();
-    if (state.year === 2023 && !state.partBTrack) {
-      void loadPartBAudio().then(() => {
-        if (state.screen === "levels" && state.year === 2023) renderLibrary();
+    if (DSE_CONTENT.has(state.year) && !state.partBTracks.has(state.year)) {
+      const selectedYear = state.year;
+      void loadPartBAudio(selectedYear).then(() => {
+        if (state.screen === "levels" && state.year === selectedYear) renderLibrary();
       }).catch((error) => {
         console.warn("DSE Part B audio catalogue failed", error);
         const status = elements.screen.querySelector("[data-partb-audio-status]");
