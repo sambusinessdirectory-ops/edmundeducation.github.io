@@ -1,0 +1,245 @@
+{
+  "id": "dse-2016-b1",
+  "year": 2016,
+  "section": "B1",
+  "title": "Food Trucks in Hong Kong",
+  "sourceLabel": "HKDSE 2016 English Language Paper 1 Part B1",
+  "sourceHeading": "Food Trucks in Hong Kong",
+  "displayMode": "paper",
+  "passagePages": [
+    {
+      "src": "assets/reading-comprehension/dse/papers/2016/b1/passage-1.webp",
+      "alt": "HKDSE 2016 Part B1 original reading passage page 1",
+      "label": "Reading passage page 1"
+    },
+    {
+      "src": "assets/reading-comprehension/dse/papers/2016/b1/passage-2.webp",
+      "alt": "HKDSE 2016 Part B1 original reading passage page 2",
+      "label": "Reading passage page 2"
+    }
+  ],
+  "questionPages": [
+    {
+      "src": "assets/reading-comprehension/dse/papers/2016/b1/questions-1.webp",
+      "alt": "HKDSE 2016 Part B1 original question page 1",
+      "label": "Question page 1"
+    },
+    {
+      "src": "assets/reading-comprehension/dse/papers/2016/b1/questions-2.webp",
+      "alt": "HKDSE 2016 Part B1 original question page 2",
+      "label": "Question page 2"
+    },
+    {
+      "src": "assets/reading-comprehension/dse/papers/2016/b1/questions-3.webp",
+      "alt": "HKDSE 2016 Part B1 original question page 3",
+      "label": "Question page 3"
+    },
+    {
+      "src": "assets/reading-comprehension/dse/papers/2016/b1/questions-4.webp",
+      "alt": "HKDSE 2016 Part B1 original question page 4",
+      "label": "Question page 4"
+    }
+  ],
+  "paragraphs": [],
+  "instructions": {
+    "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
+  },
+  "questions": [
+    {
+      "number": 19,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 19",
+      "placeholder": "Enter all answer parts for Question 19"
+    },
+    {
+      "number": 20,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 20",
+      "placeholder": "Enter all answer parts for Question 20"
+    },
+    {
+      "number": 21,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 21",
+      "placeholder": "Enter all answer parts for Question 21"
+    },
+    {
+      "number": 22,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 22",
+      "placeholder": "Enter all answer parts for Question 22"
+    },
+    {
+      "number": 23,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 23",
+      "placeholder": "Enter all answer parts for Question 23"
+    },
+    {
+      "number": 24,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 24",
+      "placeholder": "Enter all answer parts for Question 24"
+    },
+    {
+      "number": 25,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 25",
+      "placeholder": "Enter all answer parts for Question 25"
+    },
+    {
+      "number": 26,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 26",
+      "placeholder": "Enter all answer parts for Question 26"
+    },
+    {
+      "number": 27,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 27",
+      "placeholder": "Enter all answer parts for Question 27"
+    },
+    {
+      "number": 28,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 28",
+      "placeholder": "Enter all answer parts for Question 28"
+    },
+    {
+      "number": 29,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 29",
+      "placeholder": "Enter all answer parts for Question 29"
+    },
+    {
+      "number": 30,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 30",
+      "placeholder": "Enter all answer parts for Question 30"
+    },
+    {
+      "number": 31,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 31",
+      "placeholder": "Enter all answer parts for Question 31"
+    },
+    {
+      "number": 32,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 32",
+      "placeholder": "Enter all answer parts for Question 32"
+    },
+    {
+      "number": 33,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 33",
+      "placeholder": "Enter all answer parts for Question 33"
+    },
+    {
+      "number": 34,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 34",
+      "placeholder": "Enter all answer parts for Question 34"
+    },
+    {
+      "number": 35,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 35",
+      "placeholder": "Enter all answer parts for Question 35"
+    },
+    {
+      "number": 36,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 36",
+      "placeholder": "Enter all answer parts for Question 36"
+    },
+    {
+      "number": 37,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 37",
+      "placeholder": "Enter all answer parts for Question 37"
+    },
+    {
+      "number": 38,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 38",
+      "placeholder": "Enter all answer parts for Question 38"
+    },
+    {
+      "number": 39,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 39",
+      "placeholder": "Enter all answer parts for Question 39"
+    },
+    {
+      "number": 40,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 40",
+      "placeholder": "Enter all answer parts for Question 40"
+    },
+    {
+      "number": 41,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 41",
+      "placeholder": "Enter all answer parts for Question 41"
+    },
+    {
+      "number": 42,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 42",
+      "placeholder": "Enter all answer parts for Question 42"
+    },
+    {
+      "number": 43,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 43",
+      "placeholder": "Enter all answer parts for Question 43"
+    },
+    {
+      "number": 44,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 44",
+      "placeholder": "Enter all answer parts for Question 44"
+    },
+    {
+      "number": 45,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 45",
+      "placeholder": "Enter all answer parts for Question 45"
+    },
+    {
+      "number": 46,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 46",
+      "placeholder": "Enter all answer parts for Question 46"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
 const CATALOGUE_VERSION = '20260829-audio1';
-const DSE_CATALOGUE_VERSION = '20260903-dse2012-1';
+const DSE_CATALOGUE_VERSION = '20260903-dse-remaining-1';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
 const QUESTION_TYPE_INDEX = window.EDMUND_IELTS_READING_QUESTION_TYPES || { taxonomy: [], articles: [] };
 const audioTimingCache = new Map();
@@ -193,7 +193,8 @@ async function loadDseArticleData(id) {
   const response = await fetch(`dse-reading-data/${id}.json?v=${entry.version}`);
   if (!response.ok) throw new Error('未能載入 DSE 閱讀練習資料。');
   const data = await response.json();
-  if (data.id !== id || !Array.isArray(data.questions) || !data.paragraphs?.length) throw new Error('DSE 閱讀練習資料不符。');
+  const hasPassage = data.paragraphs?.length || (data.displayMode === 'paper' && data.passagePages?.length);
+  if (data.id !== id || !Array.isArray(data.questions) || !hasPassage) throw new Error('DSE 閱讀練習資料不符。');
   ARTICLE_ID = id; state.data = data; state.analysis = null;
   state.activeAnalysis = 0; state.activeSkimming = 0;
   return entry;
@@ -360,7 +361,8 @@ function renderDseCatalogue() {
     }).join('');
     return `<section class="dse-year-card${readyCount ? ' is-ready' : ''}"><div class="dse-year-card-header"><h2>${year.year}</h2><span class="dse-year-card-badge">${readyCount ? `${readyCount} 份已加入` : '稍後加入'}</span></div><div class="dse-section-buttons">${sections}</div></section>`;
   }).join('');
-  el.dseCatalogueStatus.textContent = `2012–2026 · 共 ${years.length} 個年份 · 2012、2014 及 2026 試卷現已開放`;
+  const readyParts = years.reduce((total, year) => total + Object.values(year.sections || {}).filter(Boolean).length, 0);
+  el.dseCatalogueStatus.textContent = `2012–2026 · 共 ${years.length} 個年份 · ${readyParts} 份試卷現已開放`;
   $$('[data-dse-sort]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.dseSort === state.dseSort)));
 }
 async function openDseDashboard() {
@@ -436,11 +438,26 @@ function interactiveWords(text, context, spoken = false) {
   }
   return html + escapeHtml(text.slice(last));
 }
+function renderPaperPageGallery(pages, kind) {
+  if (!pages?.length) return '';
+  const heading = kind === 'passage' ? 'Original reading passage' : 'Original question paper';
+  return `<section class="paper-page-section" aria-label="${heading}"><div class="paper-page-section-heading"><p class="eyebrow">OFFICIAL PAPER LAYOUT</p><h2>${heading}</h2><p>Click any page to open a full-size copy.</p></div><div class="paper-page-gallery">${pages.map((page, index) => { const source = typeof page === 'string' ? page : page.src; const alt = typeof page === 'string' ? `${heading} page ${index + 1}` : page.alt; const label = typeof page === 'string' ? `Page ${index + 1}` : page.label || `Page ${index + 1}`; return `<figure class="paper-page"><a href="${escapeHtml(source)}" target="_blank" rel="noopener"><img src="${escapeHtml(source)}" alt="${escapeHtml(alt || '')}" loading="${index ? 'lazy' : 'eager'}"></a><figcaption>${escapeHtml(label)}</figcaption></figure>`; }).join('')}</div></section>`;
+}
 function renderPassage() {
   const dse = state.system === 'dse';
   const sourceImage = state.data.sourceImage ? `<figure class="dse-passage-figure"><img src="${escapeHtml(state.data.sourceImage.src)}" alt="${escapeHtml(state.data.sourceImage.alt || '')}" loading="eager"></figure>` : '';
   const sourceHeader = `${state.data.sourceLabel ? `<p class="eyebrow">${escapeHtml(state.data.sourceLabel)}</p>` : ''}${state.data.sourceHeading ? `<p class="source-heading">${escapeHtml(state.data.sourceHeading)}</p>${state.data.headingTranslation ? `<p class="translation-copy" data-translation-heading hidden lang="zh-Hant">${escapeHtml(state.data.headingTranslation)}</p>` : ''}` : ''}${sourceImage}${state.data.titleTranslation && !state.data.headingTranslation ? `<p class="translation-copy" data-translation-heading hidden lang="zh-Hant">${escapeHtml(state.data.titleTranslation)}</p>` : ''}${state.data.sourceNote ? `<p class="dse-source-note">${escapeHtml(state.data.sourceNote)}</p>` : ''}`;
   const sourceNotes = state.data.passageNotes?.length ? `<section class="dse-source-note"><strong>Notes</strong><br>${state.data.passageNotes.map(escapeHtml).join('<br>')}</section>` : '';
+  if (state.data.displayMode === 'paper') {
+    state.wordIndex = 0;
+    el.passage.innerHTML = sourceHeader + renderPaperPageGallery(state.data.passagePages, 'passage') + sourceNotes;
+    $('[data-translation-options]').innerHTML = '<legend>或選擇指定段落</legend>';
+    el.translationAll.disabled = true;
+    el.translationAll.checked = false;
+    $('[data-translation-availability]').hidden = false;
+    $('[data-translation-availability]').textContent = '此原題模式暫未提供中文翻譯。';
+    return;
+  }
   state.wordIndex = 0; el.passage.innerHTML = sourceHeader + state.data.paragraphs.map((paragraph) => { const paragraphImage = paragraph.image ? `<figure class="dse-paragraph-figure${paragraph.image.wide ? ' is-wide' : ''}"><img src="${escapeHtml(paragraph.image.src)}" alt="${escapeHtml(paragraph.image.alt || '')}" loading="lazy">${paragraph.image.caption ? `<figcaption>${escapeHtml(paragraph.image.caption)}</figcaption>` : ''}</figure>` : ''; return `<section class="passage-paragraph" id="paragraph-${paragraph.number}"><div class="paragraph-heading"><span class="paragraph-label">${dse ? '' : 'PARAGRAPH '}${escapeHtml(paragraph.label || paragraph.number)}</span>${dse ? '' : `<span class="scan-tags" data-scan-tags="${paragraph.number}" aria-label="已選擇此段的題目"></span><button class="paragraph-audio-button" type="button" data-play-paragraph="${paragraph.number}" aria-label="朗讀第 ${paragraph.number} 段">▶ 朗讀本段</button>${readingBookmarkButton('paragraph', paragraph.number)}`}</div>${paragraphImage}<div class="passage-text-block">${dse ? escapeHtml(paragraph.text) : interactiveWords(paragraph.text, `p${paragraph.number}`, true)}</div>${paragraph.translation ? `<div class="translation-copy" data-translation-copy="${paragraph.number}" hidden lang="zh-Hant">${escapeHtml(paragraph.translation)}</div>` : ''}${dse ? '' : `<button class="skimming-button" type="button" data-skimming="${paragraph.number}">Skimming Tips · ${escapeHtml(paragraph.label || paragraph.number)}</button>`}</section>`; }).join("") + sourceNotes;
   $('[data-translation-options]').innerHTML = '<legend>或選擇指定段落</legend>' + state.data.paragraphs.filter((p) => p.translation).map((p) => `<label><input type="checkbox" data-translation-paragraph="${p.number}"> 第 ${escapeHtml(p.label || p.number)} 段</label>`).join('');
   const translated = state.data.paragraphs.some((p) => p.translation); el.translationAll.disabled = !translated; el.translationAll.checked = false; $('[data-translation-availability]').hidden = translated;
@@ -461,6 +478,12 @@ function renderQuestionControls(question) {
 }
 function renderQuestions() {
   const groupLabels = state.data.instructions || {}; let group = "";
+  if (state.data.displayMode === 'paper') {
+    const answerCards = state.data.questions.map((question) => `<section class="question-card paper-answer-card" id="question-${question.number}" data-question="${question.number}"><p class="question-prompt"><span class="question-number">${question.number}</span>${escapeHtml(question.prompt)}</p>${renderQuestionControls(question)}</section>`).join('');
+    el.questions.innerHTML = `${renderPaperPageGallery(state.data.questionPages, 'questions')}<section class="paper-answer-section"><div class="paper-answer-section-heading"><p class="eyebrow">ANSWER SHEET</p><h2>Numbered answer fields</h2><p>Enter every subpart for a question in its matching field.</p></div><div class="paper-answer-grid">${answerCards}</div></section>`;
+    updateAnswerProgress();
+    return;
+  }
   el.questions.innerHTML = state.data.questions.map((question) => {
     const sourceGroup = state.data.questionGroups?.find((item) => item.id === question.group);
     const heading = group !== question.group ? `<p class="question-group-heading">${escapeHtml(groupLabels[question.group])}</p>${sourceGroup ? `<div class="original-question-group">${interactiveWords(sourceGroup.text, `g${sourceGroup.start}`)}</div>` : ''}` : ""; group = question.group;

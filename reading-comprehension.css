@@ -220,6 +220,20 @@ button:focus-visible,select:focus-visible { outline: 3px solid #b9852f; outline-
 .dse-exercise .question-actions,.dse-exercise .question-bookmark-row { display:none; }
 .dse-exercise .paragraph-heading .reading-bookmark-button { display:none; }
 .dse-exercise .question-prompt { white-space:pre-line; }
+.paper-page-section { display:grid; gap:18px; }
+.paper-page-section-heading,.paper-answer-section-heading { padding:18px 20px; border:1px solid #ddc88d; border-radius:14px; background:#fff8e8; }
+.paper-page-section-heading h2,.paper-answer-section-heading h2 { margin:.2rem 0 .3rem; color:var(--green); font:700 1.45rem/1.25 Georgia,"Noto Serif TC",serif; }
+.paper-page-section-heading p:last-child,.paper-answer-section-heading p:last-child { margin:0; color:var(--muted); font-size:.85rem; }
+.paper-page-gallery { display:grid; gap:18px; }
+.paper-page { margin:0; border:1px solid #cfc7b5; border-radius:10px; padding:10px; background:#f4f0e7; box-shadow:0 12px 28px rgba(24,54,48,.1); }
+.paper-page a { display:block; cursor:zoom-in; }
+.paper-page img { display:block; width:100%; height:auto; background:#fff; }
+.paper-page figcaption { padding:9px 4px 1px; color:#72501a; font-size:.75rem; font-weight:850; text-align:center; }
+.paper-answer-section { margin-top:26px; display:grid; gap:16px; }
+.paper-answer-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.paper-answer-card { margin:0; min-width:0; padding:16px; }
+.paper-answer-card .question-prompt { margin-bottom:10px; }
+.paper-answer-card textarea.answer-input { min-height:90px; resize:vertical; }
 .view h1[tabindex="-1"]:focus,.view h2[tabindex="-1"]:focus { outline:none; }
 .dashboard-system-back { margin-bottom:12px; }
 @media(max-width:800px) {
@@ -242,4 +256,6 @@ button:focus-visible,select:focus-visible { outline: 3px solid #b9852f; outline-
   .dse-draft-note { bottom:-20px; margin:25px -20px -20px; padding:15px 20px; }
   .dse-passage-figure { float:none; width:min(72%,220px); margin:18px auto 8px; }
   .dse-paragraph-figure,.dse-paragraph-figure.is-wide { float:none; width:min(100%,520px); margin:14px auto 18px; }
+  .paper-answer-grid { grid-template-columns:1fr; }
+  .paper-page { padding:6px; }
 }

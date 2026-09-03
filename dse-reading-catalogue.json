@@ -1,5 +1,5 @@
 {
-  "version": "20260903-dse2012-1",
+  "version": "20260903-dse-remaining-1",
   "years": [
     {
       "year": 2012,
@@ -30,7 +30,35 @@
         }
       }
     },
-    { "year": 2013, "sections": { "A": null, "B1": null, "B2": null } },
+    {
+      "year": 2013,
+      "sections": {
+        "A": {
+          "id": "dse-2013-a",
+          "title": "Terra-Cotta Warriors in Color",
+          "questionStart": 1,
+          "questionEnd": 25,
+          "questionCount": 25,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B1": {
+          "id": "dse-2013-b1",
+          "title": "Master Teaches a Much-Loved Instrument & What Your Updates Say About You",
+          "questionStart": 26,
+          "questionEnd": 45,
+          "questionCount": 20,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B2": {
+          "id": "dse-2013-b2",
+          "title": "The Triumph of Dystopian Literature",
+          "questionStart": 46,
+          "questionEnd": 75,
+          "questionCount": 30,
+          "version": "20260903-dse-remaining-1"
+        }
+      }
+    },
     {
       "year": 2014,
       "sections": {
@@ -53,17 +81,304 @@
         }
       }
     },
-    { "year": 2015, "sections": { "A": null, "B1": null, "B2": null } },
-    { "year": 2016, "sections": { "A": null, "B1": null, "B2": null } },
-    { "year": 2017, "sections": { "A": null, "B1": null, "B2": null } },
-    { "year": 2018, "sections": { "A": null, "B1": null, "B2": null } },
-    { "year": 2019, "sections": { "A": null, "B1": null, "B2": null } },
-    { "year": 2020, "sections": { "A": null, "B1": null, "B2": null } },
-    { "year": 2021, "sections": { "A": null, "B1": null, "B2": null } },
-    { "year": 2022, "sections": { "A": null, "B1": null, "B2": null } },
-    { "year": 2023, "sections": { "A": null, "B1": null, "B2": null } },
-    { "year": 2024, "sections": { "A": null, "B1": null, "B2": null } },
-    { "year": 2025, "sections": { "A": null, "B1": null, "B2": null } },
+    {
+      "year": 2015,
+      "sections": {
+        "A": {
+          "id": "dse-2015-a",
+          "title": "In from the Cold among Warm-Hearted Koreans",
+          "questionStart": 1,
+          "questionEnd": 31,
+          "questionCount": 31,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B1": {
+          "id": "dse-2015-b1",
+          "title": "Witness Statement & Hit-and-Run",
+          "questionStart": 32,
+          "questionEnd": 55,
+          "questionCount": 24,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B2": {
+          "id": "dse-2015-b2",
+          "title": "Young Minds in Critical Condition",
+          "questionStart": 56,
+          "questionEnd": 77,
+          "questionCount": 22,
+          "version": "20260903-dse-remaining-1"
+        }
+      }
+    },
+    {
+      "year": 2016,
+      "sections": {
+        "A": {
+          "id": "dse-2016-a",
+          "title": "10 Common Superstitions & Discoveries about Luck",
+          "questionStart": 1,
+          "questionEnd": 18,
+          "questionCount": 18,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B1": {
+          "id": "dse-2016-b1",
+          "title": "Food Trucks in Hong Kong",
+          "questionStart": 19,
+          "questionEnd": 46,
+          "questionCount": 28,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B2": {
+          "id": "dse-2016-b2",
+          "title": "Mexicue Moves Beyond the Food Truck",
+          "questionStart": 47,
+          "questionEnd": 75,
+          "questionCount": 29,
+          "version": "20260903-dse-remaining-1"
+        }
+      }
+    },
+    {
+      "year": 2017,
+      "sections": {
+        "A": {
+          "id": "dse-2017-a",
+          "title": "The Myth of Recycling",
+          "questionStart": 1,
+          "questionEnd": 21,
+          "questionCount": 21,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B1": {
+          "id": "dse-2017-b1",
+          "title": "Millennials: Coming of Age",
+          "questionStart": 22,
+          "questionEnd": 44,
+          "questionCount": 23,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B2": {
+          "id": "dse-2017-b2",
+          "title": "Millennials: Themes in the Literature",
+          "questionStart": 45,
+          "questionEnd": 60,
+          "questionCount": 16,
+          "version": "20260903-dse-remaining-1"
+        }
+      }
+    },
+    {
+      "year": 2018,
+      "sections": {
+        "A": {
+          "id": "dse-2018-a",
+          "title": "Music Teachers & I Won't Be a Musician",
+          "questionStart": 1,
+          "questionEnd": 22,
+          "questionCount": 22,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B1": {
+          "id": "dse-2018-b1",
+          "title": "A Guide to Bee Stings & Hong Kong's First Urban Beekeeper",
+          "questionStart": 23,
+          "questionEnd": 45,
+          "questionCount": 23,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B2": {
+          "id": "dse-2018-b2",
+          "title": "Farmers Resort to Hand Pollination & Beeswax and Light",
+          "questionStart": 46,
+          "questionEnd": 71,
+          "questionCount": 26,
+          "version": "20260903-dse-remaining-1"
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "sections": {
+        "A": {
+          "id": "dse-2019-a",
+          "title": "Tim Harford: A New Look at Messiness",
+          "questionStart": 1,
+          "questionEnd": 18,
+          "questionCount": 18,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B1": {
+          "id": "dse-2019-b1",
+          "title": "Hong Kong Public Libraries & Growing Up",
+          "questionStart": 19,
+          "questionEnd": 41,
+          "questionCount": 23,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B2": {
+          "id": "dse-2019-b2",
+          "title": "An Autobiographical Extract by Clive James",
+          "questionStart": 42,
+          "questionEnd": 66,
+          "questionCount": 25,
+          "version": "20260903-dse-remaining-1"
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "sections": {
+        "A": {
+          "id": "dse-2020-a",
+          "title": "Tai Kwun: The Big House Is Finally Open",
+          "questionStart": 1,
+          "questionEnd": 19,
+          "questionCount": 19,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B1": {
+          "id": "dse-2020-b1",
+          "title": "How to Fly a Kite & The Grounding of Hong Kong's Kites",
+          "questionStart": 20,
+          "questionEnd": 41,
+          "questionCount": 22,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B2": {
+          "id": "dse-2020-b2",
+          "title": "Graham Norton: The Letters I Can Never Forget",
+          "questionStart": 42,
+          "questionEnd": 62,
+          "questionCount": 21,
+          "version": "20260903-dse-remaining-1"
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "sections": {
+        "A": {
+          "id": "dse-2021-a",
+          "title": "Parking Up at the Food Garage & The War on Big Food",
+          "questionStart": 1,
+          "questionEnd": 27,
+          "questionCount": 27,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B1": {
+          "id": "dse-2021-b1",
+          "title": "Improving Our Housing Estate",
+          "questionStart": 28,
+          "questionEnd": 46,
+          "questionCount": 19,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B2": {
+          "id": "dse-2021-b2",
+          "title": "Space Exploration and Terraforming Mars",
+          "questionStart": 47,
+          "questionEnd": 66,
+          "questionCount": 20,
+          "version": "20260903-dse-remaining-1"
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "sections": {
+        "A": {
+          "id": "dse-2022-a",
+          "title": "Hong Kong's Comic Industry",
+          "questionStart": 1,
+          "questionEnd": 23,
+          "questionCount": 23,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B1": {
+          "id": "dse-2022-b1",
+          "title": "Job Advertisements & Graduate Job Seeking",
+          "questionStart": 24,
+          "questionEnd": 42,
+          "questionCount": 19,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B2": {
+          "id": "dse-2022-b2",
+          "title": "Ethical Concerns Mount as AI Takes a Bigger Role",
+          "questionStart": 43,
+          "questionEnd": 65,
+          "questionCount": 23,
+          "version": "20260903-dse-remaining-1"
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "sections": {
+        "A": {
+          "id": "dse-2023-a",
+          "title": "Flash Fiction: Writing a Story in 1,000 Words or Less",
+          "questionStart": 1,
+          "questionEnd": 22,
+          "questionCount": 22,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B1": {
+          "id": "dse-2023-b1",
+          "title": "International Guide Dog Day & Hong Kong's Guide Dogs",
+          "questionStart": 23,
+          "questionEnd": 45,
+          "questionCount": 23,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B2": {
+          "id": "dse-2023-b2",
+          "title": "Michelle Obama",
+          "questionStart": 46,
+          "questionEnd": 69,
+          "questionCount": 24,
+          "version": "20260903-dse-remaining-1"
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "sections": {
+        "A": null,
+        "B1": null,
+        "B2": null
+      }
+    },
+    {
+      "year": 2025,
+      "sections": {
+        "A": {
+          "id": "dse-2025-a",
+          "title": "Celebrity Gossip",
+          "questionStart": 1,
+          "questionEnd": 21,
+          "questionCount": 21,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B1": {
+          "id": "dse-2025-b1",
+          "title": "Foraging in Hong Kong for Beginners",
+          "questionStart": 22,
+          "questionEnd": 42,
+          "questionCount": 21,
+          "version": "20260903-dse-remaining-1"
+        },
+        "B2": {
+          "id": "dse-2025-b2",
+          "title": "Quiet Quitting",
+          "questionStart": 43,
+          "questionEnd": 64,
+          "questionCount": 22,
+          "version": "20260903-dse-remaining-1"
+        }
+      }
+    },
     {
       "year": 2026,
       "sections": {

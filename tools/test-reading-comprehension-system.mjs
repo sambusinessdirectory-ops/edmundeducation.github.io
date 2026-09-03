@@ -46,8 +46,8 @@ assert.match(html, /data-view="dse-dashboard"/);
 assert.match(html, /data-dse-sort="desc"/);
 assert.match(html, /data-dse-sort="asc"/);
 assert.match(html, /data-dse-year-grid/);
-assert.match(html, /2012 Part A、B1、B2/);
-assert.match(html, /2026 Part A、B1、B2 已加入/);
+assert.match(html, /2012、2013、2015–2023、2025、2026/);
+assert.match(html, /2014 已有 Part A、B2/);
 assert.match(html, /data-back-reading-home/);
 assert.ok(
   html.indexOf('data-view="login"') < html.indexOf('data-view="reading-home"')
@@ -77,6 +77,8 @@ assert.match(css, /\.dse-dashboard-view\s*\{/);
 assert.match(css, /\.dse-year-grid\s*\{/);
 assert.match(css, /\.dse-section-button\s*\{/);
 assert.match(css, /\.dse-paragraph-figure\s*\{/);
+assert.match(css, /\.paper-page-gallery\s*\{/);
+assert.match(css, /\.paper-answer-grid\s*\{/);
 assert.match(script, /flashcard_student_login/);
 assert.match(script, /reading_comprehension_save_attempt/);
 assert.match(script, /reading_comprehension_student_dashboard/);
@@ -90,6 +92,8 @@ assert.match(script, /async function openDseDashboard\(\)/);
 assert.match(script, /async function openDseExercise\(id\)/);
 assert.match(script, /function renderDseCatalogue\(\)/);
 assert.match(script, /paragraph\.image/);
+assert.match(script, /function renderPaperPageGallery\(/);
+assert.match(script, /state\.data\.displayMode === 'paper'/);
 assert.match(script, /async function enterIeltsReading\(\)/);
 assert.match(script, /openInitialView\(\{ afterLogin: true \}\)/);
 assert.match(script, /await Promise\.all\(\[loadCatalogue\(\), loadBookmarks\(\)\]\)/);
@@ -191,6 +195,30 @@ for (const src of dse2026ImageSources) assert.ok((await stat(new URL(src, root))
 assert.ok([...dse2026A.paragraphs, ...dse2026B1.paragraphs, ...dse2026B2.paragraphs].every((paragraph) => !paragraph.translation));
 assert.ok([...dse2026A.questions, ...dse2026B1.questions, ...dse2026B2.questions].every((question) => !("answer" in question)));
 assert.ok([dse2026A, dse2026B1, dse2026B2].every((exercise) => exercise.sourceNote === undefined));
+
+const paperYears = [2013, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2025];
+for (const year of paperYears) {
+  const catalogueYear = dseCatalogue.years.find((row) => row.year === year);
+  for (const section of ["A", "B1", "B2"]) {
+    const entry = catalogueYear.sections[section];
+    assert.equal(entry.id, `dse-${year}-${section.toLowerCase()}`);
+    const exercise = JSON.parse(await read(`dse-reading-data/${entry.id}.json`));
+    assert.equal(exercise.displayMode, "paper");
+    assert.equal(exercise.questions.length, entry.questionCount);
+    assert.deepEqual(
+      [exercise.questions.at(0).number, exercise.questions.at(-1).number],
+      [entry.questionStart, entry.questionEnd],
+    );
+    assert.ok(exercise.passagePages.length >= 2);
+    assert.ok(exercise.questionPages.length >= 4);
+    assert.ok(exercise.questions.every((question) => !("answer" in question)));
+    assert.ok(exercise.paragraphs.every((paragraph) => !paragraph.translation));
+    for (const page of [...exercise.passagePages, ...exercise.questionPages]) {
+      assert.match(page.src, /\.webp$/);
+      assert.ok((await stat(new URL(page.src, root))).size > 10000);
+    }
+  }
+}
 
 const pathMatch = audioManifest.match(/"path":"([^"]+\.mp3)"/);
 if (pathMatch) assert.ok((await stat(new URL(pathMatch[1], root))).size > 1000, "generated narration must be a real MP3");

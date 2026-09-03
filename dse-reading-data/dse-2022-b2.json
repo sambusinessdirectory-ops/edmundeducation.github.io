@@ -1,0 +1,210 @@
+{
+  "id": "dse-2022-b2",
+  "year": 2022,
+  "section": "B2",
+  "title": "Ethical Concerns Mount as AI Takes a Bigger Role",
+  "sourceLabel": "HKDSE 2022 English Language Paper 1 Part B2",
+  "sourceHeading": "Ethical Concerns Mount as AI Takes a Bigger Role",
+  "displayMode": "paper",
+  "passagePages": [
+    {
+      "src": "assets/reading-comprehension/dse/papers/2022/b2/passage-1.webp",
+      "alt": "HKDSE 2022 Part B2 original reading passage page 1",
+      "label": "Reading passage page 1"
+    },
+    {
+      "src": "assets/reading-comprehension/dse/papers/2022/b2/passage-2.webp",
+      "alt": "HKDSE 2022 Part B2 original reading passage page 2",
+      "label": "Reading passage page 2"
+    }
+  ],
+  "questionPages": [
+    {
+      "src": "assets/reading-comprehension/dse/papers/2022/b2/questions-1.webp",
+      "alt": "HKDSE 2022 Part B2 original question page 1",
+      "label": "Question page 1"
+    },
+    {
+      "src": "assets/reading-comprehension/dse/papers/2022/b2/questions-2.webp",
+      "alt": "HKDSE 2022 Part B2 original question page 2",
+      "label": "Question page 2"
+    },
+    {
+      "src": "assets/reading-comprehension/dse/papers/2022/b2/questions-3.webp",
+      "alt": "HKDSE 2022 Part B2 original question page 3",
+      "label": "Question page 3"
+    },
+    {
+      "src": "assets/reading-comprehension/dse/papers/2022/b2/questions-4.webp",
+      "alt": "HKDSE 2022 Part B2 original question page 4",
+      "label": "Question page 4"
+    }
+  ],
+  "paragraphs": [],
+  "instructions": {
+    "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
+  },
+  "questions": [
+    {
+      "number": 43,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 43",
+      "placeholder": "Enter all answer parts for Question 43"
+    },
+    {
+      "number": 44,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 44",
+      "placeholder": "Enter all answer parts for Question 44"
+    },
+    {
+      "number": 45,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 45",
+      "placeholder": "Enter all answer parts for Question 45"
+    },
+    {
+      "number": 46,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 46",
+      "placeholder": "Enter all answer parts for Question 46"
+    },
+    {
+      "number": 47,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 47",
+      "placeholder": "Enter all answer parts for Question 47"
+    },
+    {
+      "number": 48,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 48",
+      "placeholder": "Enter all answer parts for Question 48"
+    },
+    {
+      "number": 49,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 49",
+      "placeholder": "Enter all answer parts for Question 49"
+    },
+    {
+      "number": 50,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 50",
+      "placeholder": "Enter all answer parts for Question 50"
+    },
+    {
+      "number": 51,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 51",
+      "placeholder": "Enter all answer parts for Question 51"
+    },
+    {
+      "number": 52,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 52",
+      "placeholder": "Enter all answer parts for Question 52"
+    },
+    {
+      "number": 53,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 53",
+      "placeholder": "Enter all answer parts for Question 53"
+    },
+    {
+      "number": 54,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 54",
+      "placeholder": "Enter all answer parts for Question 54"
+    },
+    {
+      "number": 55,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 55",
+      "placeholder": "Enter all answer parts for Question 55"
+    },
+    {
+      "number": 56,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 56",
+      "placeholder": "Enter all answer parts for Question 56"
+    },
+    {
+      "number": 57,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 57",
+      "placeholder": "Enter all answer parts for Question 57"
+    },
+    {
+      "number": 58,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 58",
+      "placeholder": "Enter all answer parts for Question 58"
+    },
+    {
+      "number": 59,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 59",
+      "placeholder": "Enter all answer parts for Question 59"
+    },
+    {
+      "number": 60,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 60",
+      "placeholder": "Enter all answer parts for Question 60"
+    },
+    {
+      "number": 61,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 61",
+      "placeholder": "Enter all answer parts for Question 61"
+    },
+    {
+      "number": 62,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 62",
+      "placeholder": "Enter all answer parts for Question 62"
+    },
+    {
+      "number": 63,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 63",
+      "placeholder": "Enter all answer parts for Question 63"
+    },
+    {
+      "number": 64,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 64",
+      "placeholder": "Enter all answer parts for Question 64"
+    },
+    {
+      "number": 65,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 65",
+      "placeholder": "Enter all answer parts for Question 65"
+    }
+  ]
+}

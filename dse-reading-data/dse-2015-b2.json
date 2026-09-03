@@ -1,0 +1,203 @@
+{
+  "id": "dse-2015-b2",
+  "year": 2015,
+  "section": "B2",
+  "title": "Young Minds in Critical Condition",
+  "sourceLabel": "HKDSE 2015 English Language Paper 1 Part B2",
+  "sourceHeading": "Young Minds in Critical Condition",
+  "displayMode": "paper",
+  "passagePages": [
+    {
+      "src": "assets/reading-comprehension/dse/papers/2015/b2/passage-1.webp",
+      "alt": "HKDSE 2015 Part B2 original reading passage page 1",
+      "label": "Reading passage page 1"
+    },
+    {
+      "src": "assets/reading-comprehension/dse/papers/2015/b2/passage-2.webp",
+      "alt": "HKDSE 2015 Part B2 original reading passage page 2",
+      "label": "Reading passage page 2"
+    }
+  ],
+  "questionPages": [
+    {
+      "src": "assets/reading-comprehension/dse/papers/2015/b2/questions-1.webp",
+      "alt": "HKDSE 2015 Part B2 original question page 1",
+      "label": "Question page 1"
+    },
+    {
+      "src": "assets/reading-comprehension/dse/papers/2015/b2/questions-2.webp",
+      "alt": "HKDSE 2015 Part B2 original question page 2",
+      "label": "Question page 2"
+    },
+    {
+      "src": "assets/reading-comprehension/dse/papers/2015/b2/questions-3.webp",
+      "alt": "HKDSE 2015 Part B2 original question page 3",
+      "label": "Question page 3"
+    },
+    {
+      "src": "assets/reading-comprehension/dse/papers/2015/b2/questions-4.webp",
+      "alt": "HKDSE 2015 Part B2 original question page 4",
+      "label": "Question page 4"
+    }
+  ],
+  "paragraphs": [],
+  "instructions": {
+    "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
+  },
+  "questions": [
+    {
+      "number": 56,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 56",
+      "placeholder": "Enter all answer parts for Question 56"
+    },
+    {
+      "number": 57,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 57",
+      "placeholder": "Enter all answer parts for Question 57"
+    },
+    {
+      "number": 58,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 58",
+      "placeholder": "Enter all answer parts for Question 58"
+    },
+    {
+      "number": 59,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 59",
+      "placeholder": "Enter all answer parts for Question 59"
+    },
+    {
+      "number": 60,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 60",
+      "placeholder": "Enter all answer parts for Question 60"
+    },
+    {
+      "number": 61,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 61",
+      "placeholder": "Enter all answer parts for Question 61"
+    },
+    {
+      "number": 62,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 62",
+      "placeholder": "Enter all answer parts for Question 62"
+    },
+    {
+      "number": 63,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 63",
+      "placeholder": "Enter all answer parts for Question 63"
+    },
+    {
+      "number": 64,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 64",
+      "placeholder": "Enter all answer parts for Question 64"
+    },
+    {
+      "number": 65,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 65",
+      "placeholder": "Enter all answer parts for Question 65"
+    },
+    {
+      "number": 66,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 66",
+      "placeholder": "Enter all answer parts for Question 66"
+    },
+    {
+      "number": 67,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 67",
+      "placeholder": "Enter all answer parts for Question 67"
+    },
+    {
+      "number": 68,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 68",
+      "placeholder": "Enter all answer parts for Question 68"
+    },
+    {
+      "number": 69,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 69",
+      "placeholder": "Enter all answer parts for Question 69"
+    },
+    {
+      "number": 70,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 70",
+      "placeholder": "Enter all answer parts for Question 70"
+    },
+    {
+      "number": 71,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 71",
+      "placeholder": "Enter all answer parts for Question 71"
+    },
+    {
+      "number": 72,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 72",
+      "placeholder": "Enter all answer parts for Question 72"
+    },
+    {
+      "number": 73,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 73",
+      "placeholder": "Enter all answer parts for Question 73"
+    },
+    {
+      "number": 74,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 74",
+      "placeholder": "Enter all answer parts for Question 74"
+    },
+    {
+      "number": 75,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 75",
+      "placeholder": "Enter all answer parts for Question 75"
+    },
+    {
+      "number": 76,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 76",
+      "placeholder": "Enter all answer parts for Question 76"
+    },
+    {
+      "number": 77,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Question 77",
+      "placeholder": "Enter all answer parts for Question 77"
+    }
+  ]
+}
