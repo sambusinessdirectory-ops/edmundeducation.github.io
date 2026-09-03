@@ -1,5 +1,5 @@
 {
-  "version": "20260903-dse2014-2",
+  "version": "20260903-dse2026-1",
   "years": [
     { "year": 2012, "sections": { "A": null, "B1": null, "B2": null } },
     { "year": 2013, "sections": { "A": null, "B1": null, "B2": null } },
@@ -36,6 +36,34 @@
     { "year": 2023, "sections": { "A": null, "B1": null, "B2": null } },
     { "year": 2024, "sections": { "A": null, "B1": null, "B2": null } },
     { "year": 2025, "sections": { "A": null, "B1": null, "B2": null } },
-    { "year": 2026, "sections": { "A": null, "B1": null, "B2": null } }
+    {
+      "year": 2026,
+      "sections": {
+        "A": {
+          "id": "dse-2026-a",
+          "title": "America is a coffee country: Does bubble tea stand a chance?",
+          "questionStart": 1,
+          "questionEnd": 22,
+          "questionCount": 22,
+          "version": "20260903-dse2026-1"
+        },
+        "B1": {
+          "id": "dse-2026-b1",
+          "title": "Grow Your YouTube Channel & YagmanX",
+          "questionStart": 23,
+          "questionEnd": 44,
+          "questionCount": 22,
+          "version": "20260903-dse2026-1"
+        },
+        "B2": {
+          "id": "dse-2026-b2",
+          "title": "Vacation, Why We Travel & Travel",
+          "questionStart": 45,
+          "questionEnd": 68,
+          "questionCount": 24,
+          "version": "20260903-dse2026-1"
+        }
+      }
+    }
   ]
 }

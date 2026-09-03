@@ -5,16 +5,18 @@ import { readFile, stat } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
-const [html, css, script, dataText, analysisText, audioManifest, sql, nav, progress, home, manifestText, bookmarkHtml, bookmarkScript, dseCatalogueText, dseAText, dseB2Text] = await Promise.all([
+const [html, css, script, dataText, analysisText, audioManifest, sql, nav, progress, home, manifestText, bookmarkHtml, bookmarkScript, dseCatalogueText, dseAText, dseB2Text, dse2026AText, dse2026B1Text, dse2026B2Text] = await Promise.all([
   read("reading-comprehension.html"), read("reading-comprehension.css"), read("reading-comprehension.js"),
   read("reading-comprehension-data/p1-069-albert-einstein.json"), read("ielts-reading-analysis-data/p1-069-albert-einstein.json"),
   read("reading-comprehension-audio-manifest.js"), read("supabase-reading-comprehension.sql"),
   read("shared-system-nav.js"), read("student-progress-core.js"), read("index.html"), read("pwa-manifests/reading-comprehension.webmanifest"),
   read("bookmark-directory.html"), read("bookmark-directory.js"),
-  read("dse-reading-catalogue.json"), read("dse-reading-data/dse-2014-a.json"), read("dse-reading-data/dse-2014-b2.json")
+  read("dse-reading-catalogue.json"), read("dse-reading-data/dse-2014-a.json"), read("dse-reading-data/dse-2014-b2.json"),
+  read("dse-reading-data/dse-2026-a.json"), read("dse-reading-data/dse-2026-b1.json"), read("dse-reading-data/dse-2026-b2.json")
 ]);
 const data = JSON.parse(dataText); const analysis = JSON.parse(analysisText); const manifest = JSON.parse(manifestText);
 const dseCatalogue = JSON.parse(dseCatalogueText); const dseA = JSON.parse(dseAText); const dseB2 = JSON.parse(dseB2Text);
+const dse2026A = JSON.parse(dse2026AText); const dse2026B1 = JSON.parse(dse2026B1Text); const dse2026B2 = JSON.parse(dse2026B2Text);
 
 assert.match(html, /Reading Comprehension<br><span>閱讀理解<\/span><br>學習系統/);
 assert.match(html, /data-system="reading-comprehension"/);
@@ -41,7 +43,7 @@ assert.match(html, /data-view="dse-dashboard"/);
 assert.match(html, /data-dse-sort="desc"/);
 assert.match(html, /data-dse-sort="asc"/);
 assert.match(html, /data-dse-year-grid/);
-assert.match(html, /2014 Part A 及 B2 已加入/);
+assert.match(html, /2026 Part A、B1、B2 已加入/);
 assert.match(html, /data-back-reading-home/);
 assert.ok(
   html.indexOf('data-view="login"') < html.indexOf('data-view="reading-home"')
@@ -70,6 +72,7 @@ assert.match(css, /\.reading-system-card\s*\{/);
 assert.match(css, /\.dse-dashboard-view\s*\{/);
 assert.match(css, /\.dse-year-grid\s*\{/);
 assert.match(css, /\.dse-section-button\s*\{/);
+assert.match(css, /\.dse-paragraph-figure\s*\{/);
 assert.match(script, /flashcard_student_login/);
 assert.match(script, /reading_comprehension_save_attempt/);
 assert.match(script, /reading_comprehension_student_dashboard/);
@@ -82,6 +85,7 @@ assert.match(script, /async function openReadingHome\(\)/);
 assert.match(script, /async function openDseDashboard\(\)/);
 assert.match(script, /async function openDseExercise\(id\)/);
 assert.match(script, /function renderDseCatalogue\(\)/);
+assert.match(script, /paragraph\.image/);
 assert.match(script, /async function enterIeltsReading\(\)/);
 assert.match(script, /openInitialView\(\{ afterLogin: true \}\)/);
 assert.match(script, /await Promise\.all\(\[loadCatalogue\(\), loadBookmarks\(\)\]\)/);
@@ -148,6 +152,26 @@ assert.equal(dseB2.sourceNote, undefined);
 assert.ok((await stat(new URL(dseB2.sourceImage.src.slice(1), root))).size > 1000);
 assert.ok([...dseA.paragraphs, ...dseB2.paragraphs].every((paragraph) => !paragraph.translation));
 assert.ok([...dseA.questions, ...dseB2.questions].every((question) => !("answer" in question)));
+
+const dse2026 = dseCatalogue.years.find((row) => row.year === 2026);
+assert.equal(dse2026.sections.A.id, "dse-2026-a");
+assert.equal(dse2026.sections.B1.id, "dse-2026-b1");
+assert.equal(dse2026.sections.B2.id, "dse-2026-b2");
+assert.deepEqual([dse2026A.questions.length, dse2026B1.questions.length, dse2026B2.questions.length], [22, 22, 24]);
+assert.deepEqual([dse2026A.questions.at(0).number, dse2026A.questions.at(-1).number], [1, 22]);
+assert.deepEqual([dse2026B1.questions.at(0).number, dse2026B1.questions.at(-1).number], [23, 44]);
+assert.deepEqual([dse2026B2.questions.at(0).number, dse2026B2.questions.at(-1).number], [45, 68]);
+assert.deepEqual([dse2026A.paragraphs.length, dse2026B1.paragraphs.length, dse2026B2.paragraphs.length], [17, 17, 13]);
+const dse2026ImageSources = [
+  dse2026A.questions.find((question) => question.number === 1).figure.src,
+  ...dse2026B1.paragraphs.filter((paragraph) => paragraph.image).map((paragraph) => paragraph.image.src),
+  ...dse2026B2.paragraphs.filter((paragraph) => paragraph.image).map((paragraph) => paragraph.image.src),
+];
+assert.equal(dse2026ImageSources.length, 4);
+for (const src of dse2026ImageSources) assert.ok((await stat(new URL(src, root))).size > 1000);
+assert.ok([...dse2026A.paragraphs, ...dse2026B1.paragraphs, ...dse2026B2.paragraphs].every((paragraph) => !paragraph.translation));
+assert.ok([...dse2026A.questions, ...dse2026B1.questions, ...dse2026B2.questions].every((question) => !("answer" in question)));
+assert.ok([dse2026A, dse2026B1, dse2026B2].every((exercise) => exercise.sourceNote === undefined));
 
 const pathMatch = audioManifest.match(/"path":"([^"]+\.mp3)"/);
 if (pathMatch) assert.ok((await stat(new URL(pathMatch[1], root))).size > 1000, "generated narration must be a real MP3");

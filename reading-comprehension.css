@@ -213,6 +213,10 @@ button:focus-visible,select:focus-visible { outline: 3px solid #b9852f; outline-
 .dse-source-note { margin:0 0 18px; padding:14px 16px; border-left:4px solid var(--gold); border-radius:0 10px 10px 0; color:#65470f; background:#fff8e8; font-size:.92rem; }
 .dse-passage-figure { float:right; width:min(31%,210px); margin:4px 0 18px 28px; }
 .dse-passage-figure img { display:block; width:100%; height:auto; }
+.dse-paragraph-figure { float:right; width:min(34%,260px); margin:2px 0 18px 28px; }
+.dse-paragraph-figure.is-wide { float:none; width:100%; max-width:780px; margin:4px auto 20px; }
+.dse-paragraph-figure img { display:block; width:100%; height:auto; }
+.dse-paragraph-figure figcaption { margin-top:7px; color:var(--muted); font-size:.75rem; text-align:center; }
 .dse-exercise .question-actions,.dse-exercise .question-bookmark-row { display:none; }
 .dse-exercise .paragraph-heading .reading-bookmark-button { display:none; }
 .dse-exercise .question-prompt { white-space:pre-line; }
@@ -237,4 +241,5 @@ button:focus-visible,select:focus-visible { outline: 3px solid #b9852f; outline-
   .dse-year-card { padding:18px; }
   .dse-draft-note { bottom:-20px; margin:25px -20px -20px; padding:15px 20px; }
   .dse-passage-figure { float:none; width:min(72%,220px); margin:18px auto 8px; }
+  .dse-paragraph-figure,.dse-paragraph-figure.is-wide { float:none; width:min(100%,520px); margin:14px auto 18px; }
 }
