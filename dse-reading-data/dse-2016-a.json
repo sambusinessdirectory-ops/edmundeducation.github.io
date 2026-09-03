@@ -5,41 +5,7 @@
   "title": "10 Common Superstitions & Discoveries about Luck",
   "sourceLabel": "HKDSE 2016 English Language Paper 1 Part A",
   "sourceHeading": "10 Common Superstitions & Discoveries about Luck",
-  "displayMode": "paper",
-  "passagePages": [
-    {
-      "src": "assets/reading-comprehension/dse/papers/2016/a/passage-1.webp",
-      "alt": "HKDSE 2016 Part A original reading passage page 1",
-      "label": "Reading passage page 1"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2016/a/passage-2.webp",
-      "alt": "HKDSE 2016 Part A original reading passage page 2",
-      "label": "Reading passage page 2"
-    }
-  ],
-  "questionPages": [
-    {
-      "src": "assets/reading-comprehension/dse/papers/2016/a/questions-1.webp",
-      "alt": "HKDSE 2016 Part A original question page 1",
-      "label": "Question page 1"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2016/a/questions-2.webp",
-      "alt": "HKDSE 2016 Part A original question page 2",
-      "label": "Question page 2"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2016/a/questions-3.webp",
-      "alt": "HKDSE 2016 Part A original question page 3",
-      "label": "Question page 3"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2016/a/questions-4.webp",
-      "alt": "HKDSE 2016 Part A original question page 4",
-      "label": "Question page 4"
-    }
-  ],
+  "displayMode": "structured-paper",
   "paragraphs": [],
   "instructions": {
     "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
@@ -170,6 +136,2674 @@
       "type": "textarea",
       "prompt": "Question 18",
       "placeholder": "Enter all answer parts for Question 18"
+    }
+  ],
+  "structuredPassagePages": [
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Reading passage page 1",
+      "lines": [
+        {
+          "x": 141,
+          "y": 74,
+          "width": 107,
+          "height": 27,
+          "text": "PART A",
+          "bold": true
+        },
+        {
+          "x": 143,
+          "y": 134,
+          "width": 936,
+          "height": 26,
+          "text": "Read the following texts and enswer questions i-I8 in the Question-Answer Book for Parc a.",
+          "bold": false
+        },
+        {
+          "x": 142,
+          "y": 197,
+          "width": 82,
+          "height": 22,
+          "text": "Text 1",
+          "bold": true
+        },
+        {
+          "x": 574,
+          "y": 264,
+          "width": 358,
+          "height": 27,
+          "text": "10 COMMON SUPERSTITIONS",
+          "bold": true
+        },
+        {
+          "x": 315,
+          "y": 372,
+          "width": 216,
+          "height": 24,
+          "text": "FOUR LEAF CLOVER",
+          "bold": true
+        },
+        {
+          "x": 316,
+          "y": 400,
+          "width": 892,
+          "height": 34,
+          "text": "Finding a clover with four leaves is lucky because clovers usually only have three",
+          "bold": false
+        },
+        {
+          "x": 315,
+          "y": 434,
+          "width": 72,
+          "height": 20,
+          "text": "leaves.",
+          "bold": true
+        },
+        {
+          "x": 315,
+          "y": 490,
+          "width": 319,
+          "height": 24,
+          "text": "CAREFUL WITH THAT MIRROR",
+          "bold": true
+        },
+        {
+          "x": 315,
+          "y": 523,
+          "width": 687,
+          "height": 26,
+          "text": "If you break a mirror, you will have seven years of misfortune.",
+          "bold": false
+        },
+        {
+          "x": 314,
+          "y": 601,
+          "width": 229,
+          "height": 24,
+          "text": "KEEP THEM CROSSED",
+          "bold": true
+        },
+        {
+          "x": 314,
+          "y": 633,
+          "width": 898,
+          "height": 27,
+          "text": "Crossing your index and middle finger is lucky because it symbolizes the support",
+          "bold": false
+        },
+        {
+          "x": 314,
+          "y": 663,
+          "width": 229,
+          "height": 21,
+          "text": "between two friends.",
+          "bold": true
+        },
+        {
+          "x": 313,
+          "y": 740,
+          "width": 179,
+          "height": 24,
+          "text": "FALLING LEAVES",
+          "bold": true
+        },
+        {
+          "x": 313,
+          "y": 772,
+          "width": 879,
+          "height": 27,
+          "text": "If you catch falling leaves in autumn, every leaf you catch means a lucky month",
+          "bold": false
+        },
+        {
+          "x": 313,
+          "y": 805,
+          "width": 107,
+          "height": 22,
+          "text": "next year.",
+          "bold": true
+        },
+        {
+          "x": 313,
+          "y": 879,
+          "width": 137,
+          "height": 24,
+          "text": "BLACK CATS",
+          "bold": true
+        },
+        {
+          "x": 311,
+          "y": 912,
+          "width": 879,
+          "height": 26,
+          "text": "You're in luck if you meet a black cat. However, that depends on who you ask —",
+          "bold": false
+        },
+        {
+          "x": 313,
+          "y": 937,
+          "width": 893,
+          "height": 35,
+          "text": "some say it’s a sign of good-things to come, but for-others, it’s a terrible warning.",
+          "bold": false
+        },
+        {
+          "x": 312,
+          "y": 1018,
+          "width": 337,
+          "height": 24,
+          "text": "DON’T WALK UNDER A LADDER",
+          "bold": true
+        },
+        {
+          "x": 311,
+          "y": 1051,
+          "width": 835,
+          "height": 25,
+          "text": "This superstition is practical because walking under a ladder, possibly with",
+          "bold": false
+        },
+        {
+          "x": 312,
+          "y": 1079,
+          "width": 488,
+          "height": 26,
+          "text": "someone on it, is already a risky thing to do.",
+          "bold": true
+        },
+        {
+          "x": 311,
+          "y": 1157,
+          "width": 134,
+          "height": 24,
+          "text": "HORSESHOE",
+          "bold": true
+        },
+        {
+          "x": 291,
+          "y": 1190,
+          "width": 950,
+          "height": 26,
+          "text": ", Hanging a horseshoe over a door is lucky. But the horseshoe needs.to be the right",
+          "bold": false
+        },
+        {
+          "x": 310,
+          "y": 1218,
+          "width": 930,
+          "height": 27,
+          "text": "way up with the two ends pointing down so that the good fortune will shower upon",
+          "bold": false
+        },
+        {
+          "x": 310,
+          "y": 1253,
+          "width": 46,
+          "height": 19,
+          "text": "you.",
+          "bold": true
+        },
+        {
+          "x": 311,
+          "y": 1325,
+          "width": 245,
+          "height": 24,
+          "text": "NO UMBRELLAS INSIDE",
+          "bold": true
+        },
+        {
+          "x": 311,
+          "y": 1357,
+          "width": 887,
+          "height": 26,
+          "text": "Opening an umbrella indoors brings bad luck and danger — you might just poke",
+          "bold": false
+        },
+        {
+          "x": 310,
+          "y": 1387,
+          "width": 208,
+          "height": 24,
+          "text": "someone’s eye out.",
+          "bold": true
+        },
+        {
+          "x": 310,
+          "y": 1463,
+          "width": 168,
+          "height": 24,
+          "text": "MIND THE SALT",
+          "bold": true
+        },
+        {
+          "x": 310,
+          "y": 1492,
+          "width": 870,
+          "height": 35,
+          "text": "Spilt the salt? Oh, no! If you have, you must throw some over your shoulder to",
+          "bold": false
+        },
+        {
+          "x": 310,
+          "y": 1524,
+          "width": 616,
+          "height": 25,
+          "text": "counteract the bad luck, but make sure it is the left one.",
+          "bold": true
+        },
+        {
+          "x": 281,
+          "y": 1601,
+          "width": 275,
+          "height": 24,
+          "text": ". THERE GOES A MAGPIE",
+          "bold": true
+        },
+        {
+          "x": 309,
+          "y": 1634,
+          "width": 617,
+          "height": 26,
+          "text": "It’s bad luck to see one magpie, but it’s lucky to see two.",
+          "bold": true
+        },
+        {
+          "x": 242,
+          "y": 1810,
+          "width": 1003,
+          "height": 37,
+          "text": "Sources of materials used in this paper will be acknowledged in the Examination Report and Question Papers",
+          "bold": false
+        },
+        {
+          "x": 241,
+          "y": 1840,
+          "width": 781,
+          "height": 25,
+          "text": "published by the Hong Kong Examinations and Assessment Authority at a later stage.",
+          "bold": false
+        },
+        {
+          "x": 200,
+          "y": 1925,
+          "width": 590,
+          "height": 25,
+          "text": "2016-DSE-ENG LANG 1-A-RP-2 10",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Reading passage page 2",
+      "lines": [
+        {
+          "x": 165,
+          "y": 91,
+          "width": 85,
+          "height": 20,
+          "text": "TEXt 2",
+          "bold": true
+        },
+        {
+          "x": 147,
+          "y": 151,
+          "width": 1073,
+          "height": 28,
+          "text": "1 The Scientific of the Lucky Mind 50 The experiment | conducted revealed th",
+          "bold": false
+        },
+        {
+          "x": 1258,
+          "y": 159,
+          "width": 94,
+          "height": 16,
+          "text": "uck is not",
+          "bold": false
+        },
+        {
+          "x": 811,
+          "y": 188,
+          "width": 541,
+          "height": 21,
+          "text": "a magical ability or the result of random chance. Nor",
+          "bold": false
+        },
+        {
+          "x": 250,
+          "y": 193,
+          "width": 359,
+          "height": 24,
+          "text": "By Professor Richard Wiseman",
+          "bold": false
+        },
+        {
+          "x": 810,
+          "y": 218,
+          "width": 541,
+          "height": 23,
+          "text": "are people born lucky or unlucky. instead, although",
+          "bold": false
+        },
+        {
+          "x": 810,
+          "y": 249,
+          "width": 541,
+          "height": 23,
+          "text": "lucky and unlucky people have almost ne insight into",
+          "bold": false
+        },
+        {
+          "x": 196,
+          "y": 257,
+          "width": 121,
+          "height": 20,
+          "text": "Section 1.",
+          "bold": false
+        },
+        {
+          "x": 808,
+          "y": 280,
+          "width": 543,
+          "height": 22,
+          "text": "the real causes of their good and bad luck, their",
+          "bold": false
+        },
+        {
+          "x": 177,
+          "y": 307,
+          "width": 540,
+          "height": 25,
+          "text": "People have searched for an effective way of",
+          "bold": false
+        },
+        {
+          "x": 760,
+          "y": 311,
+          "width": 22,
+          "height": 18,
+          "text": "55",
+          "bold": false
+        },
+        {
+          "x": 808,
+          "y": 311,
+          "width": 544,
+          "height": 22,
+          "text": "thoughts and behaviour are responsible for much of",
+          "bold": false
+        },
+        {
+          "x": 176,
+          "y": 338,
+          "width": 539,
+          "height": 25,
+          "text": "improving the good fortune in their lives for many",
+          "bold": false
+        },
+        {
+          "x": 807,
+          "y": 341,
+          "width": 543,
+          "height": 22,
+          "text": "their fortune. My research revealed that lucky",
+          "bold": false
+        },
+        {
+          "x": 175,
+          "y": 369,
+          "width": 539,
+          "height": 24,
+          "text": "centuries. Lucky charms, such as keeping a rabbit's",
+          "bold": false
+        },
+        {
+          "x": 808,
+          "y": 372,
+          "width": 541,
+          "height": 22,
+          "text": "people are more skilled at creating and noticing",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 399,
+          "width": 531,
+          "height": 25,
+          "text": "oot, have been found in virtually all civilizations",
+          "bold": false
+        },
+        {
+          "x": 806,
+          "y": 402,
+          "width": 219,
+          "height": 22,
+          "text": "chance opportunities.",
+          "bold": false
+        },
+        {
+          "x": 173,
+          "y": 429,
+          "width": 542,
+          "height": 26,
+          "text": "throughout recorded history. The pagan ritual of",
+          "bold": false
+        },
+        {
+          "x": 174,
+          "y": 460,
+          "width": 539,
+          "height": 26,
+          "text": "‘knocking on wood’ was designed to elicit the help",
+          "bold": false
+        },
+        {
+          "x": 823,
+          "y": 466,
+          "width": 122,
+          "height": 19,
+          "text": "Section 4.",
+          "bold": false
+        },
+        {
+          "x": 173,
+          "y": 491,
+          "width": 538,
+          "height": 26,
+          "text": "of benign and powerful tree gods. Superstition",
+          "bold": false
+        },
+        {
+          "x": 756,
+          "y": 516,
+          "width": 23,
+          "height": 18,
+          "text": "60",
+          "bold": false
+        },
+        {
+          "x": 805,
+          "y": 516,
+          "width": 543,
+          "height": 23,
+          "text": "But a lucky life is not just about noticing chance",
+          "bold": false
+        },
+        {
+          "x": 172,
+          "y": 524,
+          "width": 539,
+          "height": 23,
+          "text": "represents people’s attempts to control their",
+          "bold": false
+        },
+        {
+          "x": 804,
+          "y": 547,
+          "width": 542,
+          "height": 23,
+          "text": "opportunities. Another important principle revolved",
+          "bold": false
+        },
+        {
+          "x": 171,
+          "y": 552,
+          "width": 539,
+          "height": 27,
+          "text": "destiny by warding off bad luck while enhancing the",
+          "bold": false
+        },
+        {
+          "x": 803,
+          "y": 578,
+          "width": 544,
+          "height": 22,
+          "text": "around the way in which lucky and unlucky people",
+          "bold": false
+        },
+        {
+          "x": 170,
+          "y": 584,
+          "width": 55,
+          "height": 21,
+          "text": "good.",
+          "bold": false
+        },
+        {
+          "x": 803,
+          "y": 608,
+          "width": 543,
+          "height": 23,
+          "text": "dealt with the ill fortune in their lives. Imagine",
+          "bold": false
+        },
+        {
+          "x": 802,
+          "y": 640,
+          "width": 543,
+          "height": 23,
+          "text": "competing in the Olympic Games. You do very well,",
+          "bold": false
+        },
+        {
+          "x": 187,
+          "y": 648,
+          "width": 122,
+          "height": 20,
+          "text": "Section 2.",
+          "bold": false
+        },
+        {
+          "x": 753,
+          "y": 670,
+          "width": 23,
+          "height": 18,
+          "text": "65",
+          "bold": false
+        },
+        {
+          "x": 802,
+          "y": 670,
+          "width": 544,
+          "height": 24,
+          "text": "and win a bronze medal. How happy do you think",
+          "bold": false
+        },
+        {
+          "x": 122,
+          "y": 698,
+          "width": 20,
+          "height": 17,
+          "text": "1S",
+          "bold": true
+        },
+        {
+          "x": 168,
+          "y": 698,
+          "width": 545,
+          "height": 25,
+          "text": "There is just one problem. Superstition doesn’t work.",
+          "bold": false
+        },
+        {
+          "x": 801,
+          "y": 701,
+          "width": 544,
+          "height": 23,
+          "text": "you would feel? Most of us would, | suspect, be",
+          "bold": false
+        },
+        {
+          "x": 167,
+          "y": 728,
+          "width": 541,
+          "height": 26,
+          "text": "At least it doesn’t work in the way most people think",
+          "bold": false
+        },
+        {
+          "x": 801,
+          "y": 732,
+          "width": 543,
+          "height": 22,
+          "text": "overjoyed and proud of our achievement. Now",
+          "bold": false
+        },
+        {
+          "x": 801,
+          "y": 759,
+          "width": 542,
+          "height": 31,
+          "text": "imagine we did even better and won a silver medal.",
+          "bold": false
+        },
+        {
+          "x": 167,
+          "y": 760,
+          "width": 540,
+          "height": 23,
+          "text": "it does. Superstition is based on outdated and",
+          "bold": false
+        },
+        {
+          "x": 167,
+          "y": 791,
+          "width": 539,
+          "height": 23,
+          "text": "incorrect thinking. It comes from a time when",
+          "bold": false
+        },
+        {
+          "x": 800,
+          "y": 794,
+          "width": 543,
+          "height": 23,
+          "text": "Most of us think we would feel even happier with a",
+          "bold": false
+        },
+        {
+          "x": 166,
+          "y": 822,
+          "width": 540,
+          "height": 25,
+          "text": "people thought that luck was a strange force that",
+          "bold": false
+        },
+        {
+          "x": 751,
+          "y": 825,
+          "width": 23,
+          "height": 18,
+          "text": "70",
+          "bold": false
+        },
+        {
+          "x": 799,
+          "y": 825,
+          "width": 126,
+          "height": 18,
+          "text": "silver medal.",
+          "bold": false
+        },
+        {
+          "x": 116,
+          "y": 852,
+          "width": 24,
+          "height": 17,
+          "text": "20",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 852,
+          "width": 540,
+          "height": 25,
+          "text": "could only be controlled by magical rituals and",
+          "bold": false
+        },
+        {
+          "x": 800,
+          "y": 871,
+          "width": 543,
+          "height": 22,
+          "text": "But research suggests that athletes who win bronze",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 883,
+          "width": 539,
+          "height": 21,
+          "text": "bizarre behaviours. Several researchers have tested",
+          "bold": false
+        },
+        {
+          "x": 798,
+          "y": 901,
+          "width": 544,
+          "height": 24,
+          "text": "medals are actually happier than those who win",
+          "bold": false
+        },
+        {
+          "x": 163,
+          "y": 913,
+          "width": 476,
+          "height": 26,
+          "text": "these age-old beliefs and found them wanting.",
+          "bold": false
+        },
+        {
+          "x": 797,
+          "y": 932,
+          "width": 545,
+          "height": 20,
+          "text": "silver medals. And the reason for this has to do with",
+          "bold": false
+        },
+        {
+          "x": 796,
+          "y": 963,
+          "width": 547,
+          "height": 22,
+          "text": "the- way in which the athletes think about their",
+          "bold": false
+        },
+        {
+          "x": 180,
+          "y": 978,
+          "width": 123,
+          "height": 20,
+          "text": "Section 38.",
+          "bold": false
+        },
+        {
+          "x": 797,
+          "y": 993,
+          "width": 545,
+          "height": 22,
+          "text": "performance. The silver medalists focus on the",
+          "bold": false
+        },
+        {
+          "x": 748,
+          "y": 994,
+          "width": 23,
+          "height": 18,
+          "text": "75",
+          "bold": false
+        },
+        {
+          "x": 796,
+          "y": 1024,
+          "width": 544,
+          "height": 24,
+          "text": "notion that if they had performed slightly better,",
+          "bold": false
+        },
+        {
+          "x": 161,
+          "y": 1029,
+          "width": 542,
+          "height": 23,
+          "text": "Ten years ago, | started to examine why some",
+          "bold": false
+        },
+        {
+          "x": 795,
+          "y": 1051,
+          "width": 545,
+          "height": 32,
+          "text": "then they would have perhaps won a gold medal. In",
+          "bold": false
+        },
+        {
+          "x": 111,
+          "y": 1057,
+          "width": 24,
+          "height": 18,
+          "text": "25",
+          "bold": false
+        },
+        {
+          "x": 161,
+          "y": 1058,
+          "width": 541,
+          "height": 25,
+          "text": "people consistently encounter chance opportunities",
+          "bold": false
+        },
+        {
+          "x": 795,
+          "y": 1085,
+          "width": 546,
+          "height": 23,
+          "text": "contrast, the bronze medalists focus on the thought",
+          "bold": false
+        },
+        {
+          "x": 160,
+          "y": 1088,
+          "width": 542,
+          "height": 26,
+          "text": "whereas others do not. In my experiment, | first",
+          "bold": false
+        },
+        {
+          "x": 794,
+          "y": 1116,
+          "width": 547,
+          "height": 23,
+          "text": "that if they had performed slightly worse, then they",
+          "bold": false
+        },
+        {
+          "x": 160,
+          "y": 1119,
+          "width": 541,
+          "height": 25,
+          "text": "asked volunteers to complete a questionnaire to",
+          "bold": false
+        },
+        {
+          "x": 746,
+          "y": 1147,
+          "width": 24,
+          "height": 18,
+          "text": "80",
+          "bold": false
+        },
+        {
+          "x": 794,
+          "y": 1147,
+          "width": 545,
+          "height": 23,
+          "text": "wouldn’t have won anything at all. This is",
+          "bold": false
+        },
+        {
+          "x": 160,
+          "y": 1150,
+          "width": 541,
+          "height": 25,
+          "text": "determine if they considered themselves lucky or",
+          "bold": false
+        },
+        {
+          "x": 794,
+          "y": 1177,
+          "width": 544,
+          "height": 24,
+          "text": "“counterfactual” thinking and it is often associated",
+          "bold": false
+        },
+        {
+          "x": 159,
+          "y": 1181,
+          "width": 541,
+          "height": 25,
+          "text": "unlucky. Then | gave each group a newspaper, and",
+          "bold": false
+        },
+        {
+          "x": 793,
+          "y": 1208,
+          "width": 250,
+          "height": 22,
+          "text": "with perceptions of luck.",
+          "bold": false
+        },
+        {
+          "x": 108,
+          "y": 1211,
+          "width": 25,
+          "height": 18,
+          "text": "30",
+          "bold": false
+        },
+        {
+          "x": 158,
+          "y": 1211,
+          "width": 542,
+          "height": 27,
+          "text": "asked them to look through it and tell me how many",
+          "bold": false
+        },
+        {
+          "x": 158,
+          "y": 1243,
+          "width": 255,
+          "height": 22,
+          "text": "photographs were inside.",
+          "bold": false
+        },
+        {
+          "x": 810,
+          "y": 1273,
+          "width": 397,
+          "height": 25,
+          "text": "Section 5. Positive Scepticism",
+          "bold": false
+        },
+        {
+          "x": 157,
+          "y": 1289,
+          "width": 541,
+          "height": 24,
+          "text": "On average, the unlucky people took about two",
+          "bold": false
+        },
+        {
+          "x": 157,
+          "y": 1320,
+          "width": 541,
+          "height": 23,
+          "text": "minutes to count the photographs whereas the",
+          "bold": false
+        },
+        {
+          "x": 791,
+          "y": 1322,
+          "width": 546,
+          "height": 23,
+          "text": "After ten years of scientific research, my work has",
+          "bold": false
+        },
+        {
+          "x": 156,
+          "y": 1350,
+          "width": 542,
+          "height": 24,
+          "text": "lucky people took just seconds. Why? Because the",
+          "bold": false
+        },
+        {
+          "x": 743,
+          "y": 1352,
+          "width": 23,
+          "height": 18,
+          "text": "85",
+          "bold": false
+        },
+        {
+          "x": 791,
+          "y": 1353,
+          "width": 546,
+          "height": 23,
+          "text": "revealed a radically new way of looking at luck and",
+          "bold": false
+        },
+        {
+          "x": 106,
+          "y": 1380,
+          "width": 23,
+          "height": 17,
+          "text": "35",
+          "bold": false
+        },
+        {
+          "x": 155,
+          "y": 1381,
+          "width": 543,
+          "height": 23,
+          "text": "second page of the newspaper contained the",
+          "bold": false
+        },
+        {
+          "x": 791,
+          "y": 1383,
+          "width": 545,
+          "height": 24,
+          "text": "the vital role that it plays in our lives.",
+          "bold": false
+        },
+        {
+          "x": 155,
+          "y": 1412,
+          "width": 542,
+          "height": 24,
+          "text": "message “Stop counting — There are 43 photographs",
+          "bold": false
+        },
+        {
+          "x": 791,
+          "y": 1413,
+          "width": 545,
+          "height": 24,
+          "text": "It demonstrates that much of the good and bad",
+          "bold": false
+        },
+        {
+          "x": 154,
+          "y": 1442,
+          "width": 542,
+          "height": 24,
+          "text": "in this newspaper.” This message took up half of the",
+          "bold": false
+        },
+        {
+          "x": 789,
+          "y": 1444,
+          "width": 547,
+          "height": 23,
+          "text": "fortune we encounter is a result of our thoughts and",
+          "bold": false
+        },
+        {
+          "x": 154,
+          "y": 1473,
+          "width": 542,
+          "height": 21,
+          "text": "page and was written in text that was over two",
+          "bold": false
+        },
+        {
+          "x": 790,
+          "y": 1475,
+          "width": 546,
+          "height": 23,
+          "text": "behaviour. More importantly, it represents the",
+          "bold": false
+        },
+        {
+          "x": 153,
+          "y": 1502,
+          "width": 543,
+          "height": 26,
+          "text": "inches high. It was staring everyone straight in the",
+          "bold": false
+        },
+        {
+          "x": 741,
+          "y": 1506,
+          "width": 23,
+          "height": 18,
+          "text": "90",
+          "bold": false
+        },
+        {
+          "x": 790,
+          "y": 1506,
+          "width": 545,
+          "height": 23,
+          "text": "potential for change, and has produced an effective",
+          "bold": false
+        },
+        {
+          "x": 102,
+          "y": 1532,
+          "width": 26,
+          "height": 17,
+          "text": "40",
+          "bold": false
+        },
+        {
+          "x": 152,
+          "y": 1533,
+          "width": 543,
+          "height": 24,
+          "text": "face, but the unlucky people tended to miss it and",
+          "bold": false
+        },
+        {
+          "x": 788,
+          "y": 1536,
+          "width": 548,
+          "height": 23,
+          "text": "way of increasing the luck people experience in their",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 1563,
+          "width": 351,
+          "height": 24,
+          "text": "the lucky people tended to spot it.",
+          "bold": false
+        },
+        {
+          "x": 788,
+          "y": 1566,
+          "width": 547,
+          "height": 23,
+          "text": "daily lives. The research is not simply about",
+          "bold": false
+        },
+        {
+          "x": 788,
+          "y": 1597,
+          "width": 546,
+          "height": 23,
+          "text": "debunking superstitious thinking and behaviour.",
+          "bold": false
+        },
+        {
+          "x": 152,
+          "y": 1610,
+          "width": 542,
+          "height": 24,
+          "text": "Personality tests revealed that unlucky people are",
+          "bold": false
+        },
+        {
+          "x": 788,
+          "y": 1628,
+          "width": 546,
+          "height": 22,
+          "text": "Instead, it is about encouraging people to move",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 1640,
+          "width": 543,
+          "height": 24,
+          "text": "geneially much more tense and anxious than lucky",
+          "bold": false
+        },
+        {
+          "x": 788,
+          "y": 1657,
+          "width": 546,
+          "height": 23,
+          "text": "away from a magical way of thinking and toward a",
+          "bold": false
+        },
+        {
+          "x": 739,
+          "y": 1658,
+          "width": 22,
+          "height": 17,
+          "text": "95",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 1669,
+          "width": 543,
+          "height": 26,
+          "text": "people, and research has shown that anxiety",
+          "bold": false
+        },
+        {
+          "x": 787,
+          "y": 1688,
+          "width": 546,
+          "height": 22,
+          "text": "more rational view of luck. Perhaps most important",
+          "bold": false
+        },
+        {
+          "x": 100,
+          "y": 1698,
+          "width": 24,
+          "height": 17,
+          "text": "45",
+          "bold": false
+        },
+        {
+          "x": 150,
+          "y": 1699,
+          "width": 541,
+          "height": 26,
+          "text": "disrupts people’s ability to notice the unexpected.",
+          "bold": false
+        },
+        {
+          "x": 787,
+          "y": 1718,
+          "width": 546,
+          "height": 23,
+          "text": "of all, it is about using science and scepticism to",
+          "bold": false
+        },
+        {
+          "x": 149,
+          "y": 1729,
+          "width": 544,
+          "height": 25,
+          "text": "The harder they looked, the less they saw. And so it",
+          "bold": false
+        },
+        {
+          "x": 786,
+          "y": 1749,
+          "width": 546,
+          "height": 22,
+          "text": "increase the level of luck, happiness, and success in",
+          "bold": false
+        },
+        {
+          "x": 150,
+          "y": 1759,
+          "width": 542,
+          "height": 25,
+          "text": "is with luck - unlucky people miss chance",
+          "bold": false
+        },
+        {
+          "x": 786,
+          "y": 1779,
+          "width": 141,
+          "height": 21,
+          "text": "people’s lives.",
+          "bold": false
+        },
+        {
+          "x": 149,
+          "y": 1791,
+          "width": 541,
+          "height": 24,
+          "text": "opportunities because they are too focussed on",
+          "bold": false
+        },
+        {
+          "x": 149,
+          "y": 1820,
+          "width": 272,
+          "height": 23,
+          "text": "looking for something else.",
+          "bold": false
+        },
+        {
+          "x": 838,
+          "y": 1864,
+          "width": 366,
+          "height": 19,
+          "text": "END OF READING PASSAGES",
+          "bold": true
+        },
+        {
+          "x": 201,
+          "y": 1957,
+          "width": 316,
+          "height": 20,
+          "text": "2016-DSE-ENG LANG 1-A-RP-3",
+          "bold": true
+        },
+        {
+          "x": 778,
+          "y": 1963,
+          "width": 20,
+          "height": 17,
+          "text": "il",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "structuredQuestionPages": [
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 1",
+      "lines": [
+        {
+          "x": 183,
+          "y": 60,
+          "width": 941,
+          "height": 91,
+          "text": "| Number T | | | | | — t",
+          "bold": true
+        },
+        {
+          "x": 194,
+          "y": 152,
+          "width": 729,
+          "height": 29,
+          "text": "HKDSE 2016 4 4",
+          "bold": true
+        },
+        {
+          "x": 194,
+          "y": 191,
+          "width": 309,
+          "height": 25,
+          "text": "ENGLISH LANGUAGE",
+          "bold": true
+        },
+        {
+          "x": 193,
+          "y": 227,
+          "width": 244,
+          "height": 24,
+          "text": "PAPER 1 PART A",
+          "bold": true
+        },
+        {
+          "x": 192,
+          "y": 260,
+          "width": 659,
+          "height": 27,
+          "text": "QUESTION-ANSWER BOOK COMPULSORY",
+          "bold": true
+        },
+        {
+          "x": 176,
+          "y": 304,
+          "width": 929,
+          "height": 50,
+          "text": "| Write your Candidate Number and stick a barcode label in the space provided on this page.",
+          "bold": true
+        },
+        {
+          "x": 190,
+          "y": 357,
+          "width": 591,
+          "height": 26,
+          "text": "Read Texts 1-2 and answer questions 1-18. (41 marks)",
+          "bold": true
+        },
+        {
+          "x": 190,
+          "y": 422,
+          "width": 84,
+          "height": 19,
+          "text": "Text i",
+          "bold": false
+        },
+        {
+          "x": 193,
+          "y": 470,
+          "width": 1021,
+          "height": 33,
+          "text": "1 Match the superstition with the pictures below. Write the number of the superstition in the box.",
+          "bold": false
+        },
+        {
+          "x": 1249,
+          "y": 497,
+          "width": 95,
+          "height": 24,
+          "text": "(2 marks)",
+          "bold": false
+        },
+        {
+          "x": 255,
+          "y": 507,
+          "width": 361,
+          "height": 23,
+          "text": "The first one has been done for you.",
+          "bold": true
+        },
+        {
+          "x": 234,
+          "y": 662,
+          "width": 830,
+          "height": 37,
+          "text": "eg. ii)",
+          "bold": true
+        },
+        {
+          "x": 188,
+          "y": 786,
+          "width": 920,
+          "height": 30,
+          "text": "2. Answer the following questions by writing the number of the superstition in the box.",
+          "bold": false
+        },
+        {
+          "x": 272,
+          "y": 866,
+          "width": 489,
+          "height": 35,
+          "text": "i) | Which bad luck superstition can you undo?",
+          "bold": true
+        },
+        {
+          "x": 271,
+          "y": 942,
+          "width": 529,
+          "height": 28,
+          "text": "ii) Which superstition is the season important for?",
+          "bold": true
+        },
+        {
+          "x": 271,
+          "y": 1014,
+          "width": 609,
+          "height": 28,
+          "text": "iii) Which superstition will bring bad luck for a long time?",
+          "bold": false
+        },
+        {
+          "x": 271,
+          "y": 1079,
+          "width": 886,
+          "height": 35,
+          "text": "iv) Which superstition do some people consider lucky while some think the opposite?",
+          "bold": false
+        },
+        {
+          "x": 187,
+          "y": 1208,
+          "width": 574,
+          "height": 26,
+          "text": "3. Which of the following is a bad luck superstition?",
+          "bold": true
+        },
+        {
+          "x": 269,
+          "y": 1252,
+          "width": 208,
+          "height": 24,
+          "text": "A. catching a leaf",
+          "bold": false
+        },
+        {
+          "x": 270,
+          "y": 1281,
+          "width": 220,
+          "height": 24,
+          "text": "B. seeing a magpie",
+          "bold": false
+        },
+        {
+          "x": 270,
+          "y": 1295,
+          "width": 838,
+          "height": 39,
+          "text": "C. holding a closed umbrella A",
+          "bold": false
+        },
+        {
+          "x": 1423,
+          "y": 1295,
+          "width": 10,
+          "height": 9,
+          "text": "A",
+          "bold": true
+        },
+        {
+          "x": 270,
+          "y": 1324,
+          "width": 845,
+          "height": 39,
+          "text": "D. finding a three leaf clover O",
+          "bold": true
+        },
+        {
+          "x": 186,
+          "y": 1433,
+          "width": 834,
+          "height": 29,
+          "text": "4, in order to bring good luck, how should a horseshoe be placed over a door?",
+          "bold": false
+        },
+        {
+          "x": 635,
+          "y": 1492,
+          "width": 210,
+          "height": 33,
+          "text": "Cc. D.",
+          "bold": true
+        },
+        {
+          "x": 1303,
+          "y": 1565,
+          "width": 30,
+          "height": 59,
+          "text": "Ov",
+          "bold": true
+        },
+        {
+          "x": 1231,
+          "y": 1566,
+          "width": 32,
+          "height": 59,
+          "text": "Oo",
+          "bold": true
+        },
+        {
+          "x": 1157,
+          "y": 1567,
+          "width": 38,
+          "height": 63,
+          "text": "QO»",
+          "bold": true
+        },
+        {
+          "x": 1086,
+          "y": 1568,
+          "width": 32,
+          "height": 59,
+          "text": "O>",
+          "bold": true
+        },
+        {
+          "x": 183,
+          "y": 1758,
+          "width": 519,
+          "height": 25,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 1208,
+          "y": 1819,
+          "width": 139,
+          "height": 137,
+          "text": "| | iH",
+          "bold": true
+        },
+        {
+          "x": 1230,
+          "y": 1936,
+          "width": 92,
+          "height": 19,
+          "text": "Here ini Deal",
+          "bold": false
+        },
+        {
+          "x": 1202,
+          "y": 1954,
+          "width": 195,
+          "height": 35,
+          "text": "ie) A",
+          "bold": false
+        },
+        {
+          "x": 1250,
+          "y": 1955,
+          "width": 104,
+          "height": 34,
+          "text": "—EO 1",
+          "bold": true
+        },
+        {
+          "x": 186,
+          "y": 1968,
+          "width": 277,
+          "height": 16,
+          "text": "2016-DSE-ENG LANG 1-A-1",
+          "bold": true
+        },
+        {
+          "x": 761,
+          "y": 1975,
+          "width": 10,
+          "height": 17,
+          "text": "w",
+          "bold": false
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2016/a/questions-1-figure-3.webp",
+          "x": 272,
+          "y": 560,
+          "width": 156,
+          "height": 160,
+          "alt": "Original figure 3"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2016/a/questions-1-figure-5.webp",
+          "x": 1328,
+          "y": 1800,
+          "width": 116,
+          "height": 172,
+          "alt": "Original figure 5"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2016/a/questions-1-figure-6.webp",
+          "x": 1000,
+          "y": 1804,
+          "width": 200,
+          "height": 196,
+          "alt": "Original figure 6"
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 2",
+      "lines": [
+        {
+          "x": 143,
+          "y": 133,
+          "width": 26,
+          "height": 9,
+          "text": "—",
+          "bold": false
+        },
+        {
+          "x": 153,
+          "y": 158,
+          "width": 85,
+          "height": 23,
+          "text": "Text 2",
+          "bold": false
+        },
+        {
+          "x": 154,
+          "y": 211,
+          "width": 545,
+          "height": 26,
+          "text": "5. Find one example of a superstition in Section 1.",
+          "bold": true
+        },
+        {
+          "x": 153,
+          "y": 297,
+          "width": 1104,
+          "height": 26,
+          "text": "6. Decide whether the following statements are True, False or the information is Not Given in Section 1.",
+          "bold": false
+        },
+        {
+          "x": 1222,
+          "y": 325,
+          "width": 97,
+          "height": 24,
+          "text": "(3 marks)",
+          "bold": false
+        },
+        {
+          "x": 549,
+          "y": 382,
+          "width": 119,
+          "height": 18,
+          "text": "Statements",
+          "bold": false
+        },
+        {
+          "x": 1039,
+          "y": 398,
+          "width": 50,
+          "height": 209,
+          "text": "8 O00",
+          "bold": true
+        },
+        {
+          "x": 1143,
+          "y": 400,
+          "width": 50,
+          "height": 209,
+          "text": "% O00",
+          "bold": true
+        },
+        {
+          "x": 1246,
+          "y": 402,
+          "width": 35,
+          "height": 18,
+          "text": "NG",
+          "bold": true
+        },
+        {
+          "x": 225,
+          "y": 454,
+          "width": 524,
+          "height": 27,
+          "text": "i) Superstitions have existed for hundreds of years.",
+          "bold": true
+        },
+        {
+          "x": 1247,
+          "y": 455,
+          "width": 33,
+          "height": 152,
+          "text": "O00",
+          "bold": true
+        },
+        {
+          "x": 225,
+          "y": 519,
+          "width": 506,
+          "height": 26,
+          "text": "ii) Superstitions are only found in some countries.",
+          "bold": true
+        },
+        {
+          "x": 224,
+          "y": 584,
+          "width": 445,
+          "height": 26,
+          "text": "iii) Superstitions are becoming less popular.",
+          "bold": true
+        },
+        {
+          "x": 217,
+          "y": 666,
+          "width": 403,
+          "height": 25,
+          "text": "Why do people believe in superstitions?",
+          "bold": true
+        },
+        {
+          "x": 218,
+          "y": 903,
+          "width": 1078,
+          "height": 25,
+          "text": "What does the sentence ‘At least it doesn’t work in the way most people think it does’ (lines 16-17)",
+          "bold": false
+        },
+        {
+          "x": 218,
+          "y": 933,
+          "width": 69,
+          "height": 24,
+          "text": "imply?",
+          "bold": false
+        },
+        {
+          "x": 218,
+          "y": 973,
+          "width": 319,
+          "height": 24,
+          "text": "A. Superstitions are outdated.",
+          "bold": false
+        },
+        {
+          "x": 218,
+          "y": 1002,
+          "width": 1064,
+          "height": 35,
+          "text": "B. Superstitions bring bad luck. A B c D",
+          "bold": false
+        },
+        {
+          "x": 218,
+          "y": 1030,
+          "width": 417,
+          "height": 24,
+          "text": "C. Most people don’t use superstitions.",
+          "bold": false
+        },
+        {
+          "x": 217,
+          "y": 1048,
+          "width": 1071,
+          "height": 35,
+          "text": "D. Most people don’t understand how superstitions work. O O O O",
+          "bold": false
+        },
+        {
+          "x": 217,
+          "y": 1133,
+          "width": 1111,
+          "height": 25,
+          "text": "What does the phrase ‘magical rituals and bizarre behaviours’ (lines 20-21) suggest about the writer’s attitude",
+          "bold": false
+        },
+        {
+          "x": 216,
+          "y": 1163,
+          "width": 224,
+          "height": 23,
+          "text": "towards superstitions?",
+          "bold": true
+        },
+        {
+          "x": 215,
+          "y": 1403,
+          "width": 708,
+          "height": 26,
+          "text": "According to Section 2, tests by researchers found that superstitions...",
+          "bold": false
+        },
+        {
+          "x": 215,
+          "y": 1444,
+          "width": 227,
+          "height": 25,
+          "text": "A. didn’t bring luck.",
+          "bold": false
+        },
+        {
+          "x": 215,
+          "y": 1472,
+          "width": 245,
+          "height": 27,
+          "text": "B. didn’t need testing.",
+          "bold": false
+        },
+        {
+          "x": 215,
+          "y": 1492,
+          "width": 1066,
+          "height": 36,
+          "text": "C. were more common than thought. 7 2 ne",
+          "bold": false
+        },
+        {
+          "x": 215,
+          "y": 1521,
+          "width": 1072,
+          "height": 36,
+          "text": "D. did indeed have magical properties. O O O",
+          "bold": true
+        },
+        {
+          "x": 214,
+          "y": 1633,
+          "width": 903,
+          "height": 27,
+          "text": "According to Section 3, how does the study explain how luck works? Luck depends on...",
+          "bold": false
+        },
+        {
+          "x": 214,
+          "y": 1672,
+          "width": 211,
+          "height": 22,
+          "text": "A. random chance.",
+          "bold": false
+        },
+        {
+          "x": 214,
+          "y": 1700,
+          "width": 228,
+          "height": 28,
+          "text": "B. being born lucky.",
+          "bold": false
+        },
+        {
+          "x": 214,
+          "y": 1718,
+          "width": 1066,
+          "height": 50,
+          "text": "C. our beliefs and actions. A B © Pp",
+          "bold": true
+        },
+        {
+          "x": 213,
+          "y": 1748,
+          "width": 1002,
+          "height": 45,
+          "text": "D. _ individual circumstances. @) O O",
+          "bold": true
+        },
+        {
+          "x": 135,
+          "y": 1846,
+          "width": 519,
+          "height": 45,
+          "text": "Answers Written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 144,
+          "y": 1932,
+          "width": 278,
+          "height": 37,
+          "text": "2016-DSE-ENG LANG 1-A-2",
+          "bold": true
+        },
+        {
+          "x": 727,
+          "y": 1962,
+          "width": 11,
+          "height": 17,
+          "text": "CN",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2016/a/questions-2-figure-1.webp",
+          "x": 156,
+          "y": 92,
+          "width": 1208,
+          "height": 684,
+          "alt": "Original figure 1"
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 3",
+      "lines": [
+        {
+          "x": 159,
+          "y": 164,
+          "width": 1172,
+          "height": 25,
+          "text": "12. Complete the following notes on the luck study described in Section 3. Answers should be grammaticaily",
+          "bold": false
+        },
+        {
+          "x": 227,
+          "y": 193,
+          "width": 1094,
+          "height": 25,
+          "text": "correct. You may write more than one word on each line. (7 marks)",
+          "bold": false
+        },
+        {
+          "x": 221,
+          "y": 262,
+          "width": 220,
+          "height": 22,
+          "text": "Title: The Luck Study",
+          "bold": true
+        },
+        {
+          "x": 220,
+          "y": 305,
+          "width": 77,
+          "height": 21,
+          "text": "Aim: (i)",
+          "bold": true
+        },
+        {
+          "x": 220,
+          "y": 398,
+          "width": 86,
+          "height": 18,
+          "text": "Method:",
+          "bold": true
+        },
+        {
+          "x": 219,
+          "y": 440,
+          "width": 1014,
+          "height": 21,
+          "text": "(ii) Useda to divide people into lucky and unlucky groups.",
+          "bold": false
+        },
+        {
+          "x": 218,
+          "y": 503,
+          "width": 1013,
+          "height": 21,
+          "text": "(iii) Gavea to both the lucky and the unlucky group to look at.",
+          "bold": false
+        },
+        {
+          "x": 217,
+          "y": 566,
+          "width": 310,
+          "height": 22,
+          "text": "{iv) Asked both groups to count",
+          "bold": true
+        },
+        {
+          "x": 215,
+          "y": 629,
+          "width": 1040,
+          "height": 22,
+          "text": "{v) to see if participants responded to the that told them to stop.",
+          "bold": false
+        },
+        {
+          "x": 216,
+          "y": 671,
+          "width": 68,
+          "height": 17,
+          "text": "Result:",
+          "bold": false
+        },
+        {
+          "x": 214,
+          "y": 715,
+          "width": 995,
+          "height": 21,
+          "text": "{vi) Lucky people were able to because",
+          "bold": false
+        },
+        {
+          "x": 214,
+          "y": 761,
+          "width": 33,
+          "height": 20,
+          "text": "{vii)",
+          "bold": true
+        },
+        {
+          "x": 146,
+          "y": 861,
+          "width": 757,
+          "height": 25,
+          "text": "13. What does the example of the Olympic Games in Section 4 illustrate?",
+          "bold": false
+        },
+        {
+          "x": 144,
+          "y": 1069,
+          "width": 1117,
+          "height": 25,
+          "text": "14. According to the research, are lucky people more like the silver medal winners or bronze medal winners?",
+          "bold": false
+        },
+        {
+          "x": 199,
+          "y": 1093,
+          "width": 1141,
+          "height": 32,
+          "text": "Explain your answer. (2 marks) |",
+          "bold": true
+        },
+        {
+          "x": 140,
+          "y": 1364,
+          "width": 406,
+          "height": 24,
+          "text": "15. What does ‘It...’ (line 87) refer to?",
+          "bold": true
+        },
+        {
+          "x": 140,
+          "y": 1436,
+          "width": 1172,
+          "height": 25,
+          "text": "16. According to Section 5, what three things could someone do to improve their luck? (3 marks)",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 1494,
+          "width": 14,
+          "height": 24,
+          "text": "i)",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 1610,
+          "width": 21,
+          "height": 22,
+          "text": "ii)",
+          "bold": false
+        },
+        {
+          "x": 188,
+          "y": 1723,
+          "width": 29,
+          "height": 23,
+          "text": "iii)",
+          "bold": true
+        },
+        {
+          "x": 127,
+          "y": 1880,
+          "width": 521,
+          "height": 24,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 133,
+          "y": 1963,
+          "width": 601,
+          "height": 21,
+          "text": "2016-DSE-ENG LANG 1-A-3 7",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2016/a/questions-3-figure-1.webp",
+          "x": 180,
+          "y": 228,
+          "width": 1152,
+          "height": 616,
+          "alt": "Original figure 1"
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 4",
+      "lines": [
+        {
+          "x": 162,
+          "y": 125,
+          "width": 3,
+          "height": 11,
+          "text": "f",
+          "bold": false
+        },
+        {
+          "x": 176,
+          "y": 142,
+          "width": 1080,
+          "height": 28,
+          "text": "17. Complete the summary beiow by choosing the best answer that will complete the missing information.",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 169,
+          "width": 1111,
+          "height": 28,
+          "text": "Blacken ONE circle only for each question. (6 marks}",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 218,
+          "width": 1090,
+          "height": 24,
+          "text": "Professor Wiseman’s study into the nature of luck has revealed that, to a large extent,",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 260,
+          "width": 1092,
+          "height": 28,
+          "text": "people __(i) their own good and bad fortune. He suggests that we shouid be aware that there are",
+          "bold": false
+        },
+        {
+          "x": 224,
+          "y": 303,
+          "width": 1093,
+          "height": 29,
+          "text": "good opportunities out there for us, and that we should __(ii)__ such events. To have good or bad",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 333,
+          "width": 1092,
+          "height": 40,
+          "text": "luck depends a iot on __(iii)__. Whether we become luckier or not is mostly a matter of the __{iv) __.",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 392,
+          "width": 1010,
+          "height": 24,
+          "text": "Even though we can't change the world around us, the way we look at it matters __(v)_. For",
+          "bold": false
+        },
+        {
+          "x": 223,
+          "y": 433,
+          "width": 1095,
+          "height": 25,
+          "text": "Wiseman, luck is based largely on psychological principles that can be learned and improved. So, the",
+          "bold": false
+        },
+        {
+          "x": 224,
+          "y": 479,
+          "width": 268,
+          "height": 23,
+          "text": "crucial question is: __(vi)",
+          "bold": false
+        },
+        {
+          "x": 329,
+          "y": 534,
+          "width": 125,
+          "height": 19,
+          "text": "are afraid of",
+          "bold": false
+        },
+        {
+          "x": 212,
+          "y": 537,
+          "width": 22,
+          "height": 24,
+          "text": "@",
+          "bold": false
+        },
+        {
+          "x": 329,
+          "y": 563,
+          "width": 119,
+          "height": 19,
+          "text": "don’t notice",
+          "bold": false
+        },
+        {
+          "x": 1216,
+          "y": 575,
+          "width": 16,
+          "height": 18,
+          "text": "¢",
+          "bold": false
+        },
+        {
+          "x": 1279,
+          "y": 575,
+          "width": 31,
+          "height": 58,
+          "text": "Ov",
+          "bold": true
+        },
+        {
+          "x": 1064,
+          "y": 576,
+          "width": 31,
+          "height": 58,
+          "text": "O>",
+          "bold": true
+        },
+        {
+          "x": 1143,
+          "y": 576,
+          "width": 16,
+          "height": 18,
+          "text": "B",
+          "bold": true
+        },
+        {
+          "x": 329,
+          "y": 591,
+          "width": 110,
+          "height": 19,
+          "text": "understand",
+          "bold": false
+        },
+        {
+          "x": 1138,
+          "y": 601,
+          "width": 100,
+          "height": 33,
+          "text": "OO",
+          "bold": true
+        },
+        {
+          "x": 328,
+          "y": 621,
+          "width": 54,
+          "height": 19,
+          "text": "make",
+          "bold": false
+        },
+        {
+          "x": 329,
+          "y": 674,
+          "width": 63,
+          "height": 23,
+          "text": "ignore",
+          "bold": false
+        },
+        {
+          "x": 206,
+          "y": 675,
+          "width": 28,
+          "height": 24,
+          "text": "ii)",
+          "bold": false
+        },
+        {
+          "x": 328,
+          "y": 702,
+          "width": 180,
+          "height": 23,
+          "text": "take advantage of",
+          "bold": false
+        },
+        {
+          "x": 1278,
+          "y": 716,
+          "width": 31,
+          "height": 60,
+          "text": "Ov",
+          "bold": true
+        },
+        {
+          "x": 1208,
+          "y": 717,
+          "width": 32,
+          "height": 60,
+          "text": "Oo",
+          "bold": true
+        },
+        {
+          "x": 1063,
+          "y": 718,
+          "width": 32,
+          "height": 60,
+          "text": "Or",
+          "bold": true
+        },
+        {
+          "x": 1137,
+          "y": 718,
+          "width": 32,
+          "height": 60,
+          "text": "Ov",
+          "bold": true
+        },
+        {
+          "x": 328,
+          "y": 730,
+          "width": 99,
+          "height": 19,
+          "text": "believe in",
+          "bold": false
+        },
+        {
+          "x": 329,
+          "y": 760,
+          "width": 85,
+          "height": 23,
+          "text": "organize",
+          "bold": false
+        },
+        {
+          "x": 328,
+          "y": 812,
+          "width": 228,
+          "height": 19,
+          "text": "external circumstances",
+          "bold": false
+        },
+        {
+          "x": 205,
+          "y": 814,
+          "width": 36,
+          "height": 23,
+          "text": "Gii)",
+          "bold": false
+        },
+        {
+          "x": 329,
+          "y": 841,
+          "width": 180,
+          "height": 18,
+          "text": "scientific research",
+          "bold": false
+        },
+        {
+          "x": 1279,
+          "y": 852,
+          "width": 30,
+          "height": 62,
+          "text": "O's",
+          "bold": true
+        },
+        {
+          "x": 1137,
+          "y": 853,
+          "width": 32,
+          "height": 63,
+          "text": "Ov",
+          "bold": true
+        },
+        {
+          "x": 1208,
+          "y": 853,
+          "width": 31,
+          "height": 62,
+          "text": "Oo",
+          "bold": true
+        },
+        {
+          "x": 1063,
+          "y": 854,
+          "width": 32,
+          "height": 62,
+          "text": "O>",
+          "bold": true
+        },
+        {
+          "x": 328,
+          "y": 870,
+          "width": 94,
+          "height": 19,
+          "text": "ourselves",
+          "bold": false
+        },
+        {
+          "x": 328,
+          "y": 898,
+          "width": 154,
+          "height": 19,
+          "text": "self-confidence",
+          "bold": false
+        },
+        {
+          "x": 328,
+          "y": 951,
+          "width": 49,
+          "height": 24,
+          "text": "body",
+          "bold": false
+        },
+        {
+          "x": 205,
+          "y": 952,
+          "width": 34,
+          "height": 23,
+          "text": "Gv)",
+          "bold": false
+        },
+        {
+          "x": 327,
+          "y": 980,
+          "width": 52,
+          "height": 18,
+          "text": "mind",
+          "bold": false
+        },
+        {
+          "x": 1208,
+          "y": 997,
+          "width": 32,
+          "height": 62,
+          "text": "Oo",
+          "bold": true
+        },
+        {
+          "x": 1279,
+          "y": 997,
+          "width": 30,
+          "height": 61,
+          "text": "Ov",
+          "bold": true
+        },
+        {
+          "x": 1063,
+          "y": 998,
+          "width": 32,
+          "height": 62,
+          "text": "O>",
+          "bold": true
+        },
+        {
+          "x": 1137,
+          "y": 998,
+          "width": 32,
+          "height": 61,
+          "text": "Ov»",
+          "bold": true
+        },
+        {
+          "x": 327,
+          "y": 1009,
+          "width": 50,
+          "height": 18,
+          "text": "heart",
+          "bold": false
+        },
+        {
+          "x": 328,
+          "y": 1037,
+          "width": 51,
+          "height": 24,
+          "text": "spirit",
+          "bold": false
+        },
+        {
+          "x": 205,
+          "y": 1089,
+          "width": 186,
+          "height": 23,
+          "text": ") hardly",
+          "bold": false
+        },
+        {
+          "x": 327,
+          "y": 1112,
+          "width": 904,
+          "height": 34,
+          "text": "slightly B fel",
+          "bold": false
+        },
+        {
+          "x": 1279,
+          "y": 1126,
+          "width": 31,
+          "height": 62,
+          "text": "Ov",
+          "bold": true
+        },
+        {
+          "x": 1070,
+          "y": 1128,
+          "width": 18,
+          "height": 18,
+          "text": ">",
+          "bold": false
+        },
+        {
+          "x": 327,
+          "y": 1146,
+          "width": 84,
+          "height": 23,
+          "text": "virtually",
+          "bold": false
+        },
+        {
+          "x": 326,
+          "y": 1156,
+          "width": 914,
+          "height": 47,
+          "text": "tremendously O O O",
+          "bold": true
+        },
+        {
+          "x": 205,
+          "y": 1226,
+          "width": 33,
+          "height": 24,
+          "text": "(vi)",
+          "bold": false
+        },
+        {
+          "x": 327,
+          "y": 1227,
+          "width": 373,
+          "height": 19,
+          "text": "Can we train ourselves to be luckier?",
+          "bold": false
+        },
+        {
+          "x": 327,
+          "y": 1256,
+          "width": 417,
+          "height": 24,
+          "text": "Should we learn to depend more on luck?",
+          "bold": false
+        },
+        {
+          "x": 327,
+          "y": 1271,
+          "width": 977,
+          "height": 38,
+          "text": "Is luck a phenomenon we should look into more? A B c D",
+          "bold": false
+        },
+        {
+          "x": 326,
+          "y": 1297,
+          "width": 985,
+          "height": 42,
+          "text": "Have we learned everything we need to know about luck? O @) O O",
+          "bold": true
+        },
+        {
+          "x": 216,
+          "y": 1373,
+          "width": 1098,
+          "height": 29,
+          "text": "“Match the missing subheadings to the correct Section of the article. Write the number corresponding to each",
+          "bold": false
+        },
+        {
+          "x": 235,
+          "y": 1404,
+          "width": 1018,
+          "height": 26,
+          "text": "ection (1-4) in the box next to the subheadings. One is NOT used and should be marked with an ‘X’.",
+          "bold": false
+        },
+        {
+          "x": 1256,
+          "y": 1431,
+          "width": 95,
+          "height": 24,
+          "text": "(4 marks)",
+          "bold": false
+        },
+        {
+          "x": 792,
+          "y": 1486,
+          "width": 14,
+          "height": 18,
+          "text": "ist",
+          "bold": false
+        },
+        {
+          "x": 305,
+          "y": 1487,
+          "width": 117,
+          "height": 23,
+          "text": "Subheading",
+          "bold": false
+        },
+        {
+          "x": 770,
+          "y": 1492,
+          "width": 10,
+          "height": 12,
+          "text": "fey",
+          "bold": false
+        },
+        {
+          "x": 781,
+          "y": 1492,
+          "width": 10,
+          "height": 12,
+          "text": "iQ",
+          "bold": false
+        },
+        {
+          "x": 807,
+          "y": 1492,
+          "width": 12,
+          "height": 12,
+          "text": "iO",
+          "bold": false
+        },
+        {
+          "x": 820,
+          "y": 1492,
+          "width": 12,
+          "height": 12,
+          "text": "is",
+          "bold": false
+        },
+        {
+          "x": 303,
+          "y": 1523,
+          "width": 403,
+          "height": 24,
+          "text": "Luck and the Importance of Hard Work",
+          "bold": true
+        },
+        {
+          "x": 304,
+          "y": 1585,
+          "width": 349,
+          "height": 25,
+          "text": "Misconceptions about Superstition",
+          "bold": true
+        },
+        {
+          "x": 303,
+          "y": 1647,
+          "width": 235,
+          "height": 24,
+          "text": "Dealing with Bad Luck",
+          "bold": true
+        },
+        {
+          "x": 304,
+          "y": 1710,
+          "width": 263,
+          "height": 25,
+          "text": "The Power of Superstition",
+          "bold": true
+        },
+        {
+          "x": 304,
+          "y": 1772,
+          "width": 941,
+          "height": 37,
+          "text": "Chance Opportunities END OF PARTA",
+          "bold": true
+        },
+        {
+          "x": 163,
+          "y": 1846,
+          "width": 512,
+          "height": 33,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 212,
+          "y": 1933,
+          "width": 232,
+          "height": 24,
+          "text": "-DSE-ENG LANG 1-A-4",
+          "bold": true
+        }
+      ]
     }
   ]
 }

@@ -5,41 +5,7 @@
   "title": "Master Teaches a Much-Loved Instrument & What Your Updates Say About You",
   "sourceLabel": "HKDSE 2013 English Language Paper 1 Part B1",
   "sourceHeading": "Master Teaches a Much-Loved Instrument & What Your Updates Say About You",
-  "displayMode": "paper",
-  "passagePages": [
-    {
-      "src": "assets/reading-comprehension/dse/papers/2013/b1/passage-1.webp",
-      "alt": "HKDSE 2013 Part B1 original reading passage page 1",
-      "label": "Reading passage page 1"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2013/b1/passage-2.webp",
-      "alt": "HKDSE 2013 Part B1 original reading passage page 2",
-      "label": "Reading passage page 2"
-    }
-  ],
-  "questionPages": [
-    {
-      "src": "assets/reading-comprehension/dse/papers/2013/b1/questions-1.webp",
-      "alt": "HKDSE 2013 Part B1 original question page 1",
-      "label": "Question page 1"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2013/b1/questions-2.webp",
-      "alt": "HKDSE 2013 Part B1 original question page 2",
-      "label": "Question page 2"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2013/b1/questions-3.webp",
-      "alt": "HKDSE 2013 Part B1 original question page 3",
-      "label": "Question page 3"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2013/b1/questions-4.webp",
-      "alt": "HKDSE 2013 Part B1 original question page 4",
-      "label": "Question page 4"
-    }
-  ],
+  "displayMode": "structured-paper",
   "paragraphs": [],
   "instructions": {
     "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
@@ -184,6 +150,2508 @@
       "type": "textarea",
       "prompt": "Question 45",
       "placeholder": "Enter all answer parts for Question 45"
+    }
+  ],
+  "structuredPassagePages": [
+    {
+      "width": 1489,
+      "height": 2105,
+      "label": "Reading passage page 1",
+      "lines": [
+        {
+          "x": 286,
+          "y": 246,
+          "width": 117,
+          "height": 24,
+          "text": "PART B1",
+          "bold": true
+        },
+        {
+          "x": 286,
+          "y": 281,
+          "width": 941,
+          "height": 38,
+          "text": "Read Text 2 and answer questions 26-36 on pages 1-3 of the Question- Answer Book for Part BI.",
+          "bold": true
+        },
+        {
+          "x": 286,
+          "y": 338,
+          "width": 60,
+          "height": 18,
+          "text": "Fext 2",
+          "bold": false
+        },
+        {
+          "x": 996,
+          "y": 374,
+          "width": 156,
+          "height": 30,
+          "text": "set Ob EEL",
+          "bold": false
+        },
+        {
+          "x": 288,
+          "y": 382,
+          "width": 363,
+          "height": 43,
+          "text": "Master teaches a",
+          "bold": true
+        },
+        {
+          "x": 288,
+          "y": 448,
+          "width": 247,
+          "height": 42,
+          "text": "much-loved",
+          "bold": true
+        },
+        {
+          "x": 289,
+          "y": 517,
+          "width": 231,
+          "height": 41,
+          "text": "instrument",
+          "bold": true
+        },
+        {
+          "x": 873,
+          "y": 575,
+          "width": 452,
+          "height": 32,
+          "text": "[7] Group courses for beginners comprise",
+          "bold": false
+        },
+        {
+          "x": 291,
+          "y": 587,
+          "width": 457,
+          "height": 28,
+          "text": "[1] The guzheng has been a popular",
+          "bold": false
+        },
+        {
+          "x": 872,
+          "y": 607,
+          "width": 453,
+          "height": 28,
+          "text": "eight weekly classes of 45 minutes and cost",
+          "bold": false
+        },
+        {
+          "x": 291,
+          "y": 616,
+          "width": 456,
+          "height": 22,
+          "text": "Chinese instrument since ancient times. It",
+          "bold": false
+        },
+        {
+          "x": 873,
+          "y": 634,
+          "width": 456,
+          "height": 26,
+          "text": "HK$1,680. Each focuses on the basic skills of",
+          "bold": false
+        },
+        {
+          "x": 291,
+          "y": 643,
+          "width": 457,
+          "height": 28,
+          "text": "originated during the Warring States period",
+          "bold": false
+        },
+        {
+          "x": 874,
+          "y": 658,
+          "width": 453,
+          "height": 32,
+          "text": "string plucking, correct body posture while",
+          "bold": false
+        },
+        {
+          "x": 829,
+          "y": 670,
+          "width": 21,
+          "height": 16,
+          "text": "40",
+          "bold": false
+        },
+        {
+          "x": 292,
+          "y": 671,
+          "width": 456,
+          "height": 25,
+          "text": "and first became popular during the Qin",
+          "bold": false
+        },
+        {
+          "x": 874,
+          "y": 692,
+          "width": 366,
+          "height": 27,
+          "text": "playing and proper use of both hands.",
+          "bold": false
+        },
+        {
+          "x": 292,
+          "y": 706,
+          "width": 79,
+          "height": 21,
+          "text": "Dynasty",
+          "bold": false
+        },
+        {
+          "x": 875,
+          "y": 749,
+          "width": 453,
+          "height": 27,
+          "text": "[8] One-to-one classes are available for",
+          "bold": false
+        },
+        {
+          "x": 294,
+          "y": 757,
+          "width": 458,
+          "height": 28,
+          "text": "[2] After surviving the turbulent times of",
+          "bold": false
+        },
+        {
+          "x": 875,
+          "y": 778,
+          "width": 453,
+          "height": 27,
+          "text": "beginner. intermediate and advanced students",
+          "bold": false
+        },
+        {
+          "x": 293,
+          "y": 786,
+          "width": 456,
+          "height": 24,
+          "text": "the Cultural Revolution, its popularity was",
+          "bold": false
+        },
+        {
+          "x": 875,
+          "y": 806,
+          "width": 453,
+          "height": 23,
+          "text": "and cost HK$420, HK$480 and HK$550,",
+          "bold": false
+        },
+        {
+          "x": 294,
+          "y": 814,
+          "width": 456,
+          "height": 25,
+          "text": "restored and today it is one of the most loved",
+          "bold": false
+        },
+        {
+          "x": 876,
+          "y": 834,
+          "width": 453,
+          "height": 27,
+          "text": "respectively. Skype lessons are available for",
+          "bold": false
+        },
+        {
+          "x": 831,
+          "y": 841,
+          "width": 20,
+          "height": 17,
+          "text": "45",
+          "bold": false
+        },
+        {
+          "x": 294,
+          "y": 844,
+          "width": 457,
+          "height": 21,
+          "text": "Chinese instruments, recognised as 4",
+          "bold": false
+        },
+        {
+          "x": 876,
+          "y": 862,
+          "width": 452,
+          "height": 28,
+          "text": "people who would find travelling to the school",
+          "bold": false
+        },
+        {
+          "x": 295,
+          "y": 871,
+          "width": 456,
+          "height": 26,
+          "text": "representative of traditional Chinese culture",
+          "bold": false
+        },
+        {
+          "x": 876,
+          "y": 895,
+          "width": 81,
+          "height": 18,
+          "text": "difficult.",
+          "bold": false
+        },
+        {
+          "x": 295,
+          "y": 902,
+          "width": 169,
+          "height": 19,
+          "text": "around the world.",
+          "bold": false
+        },
+        {
+          "x": 877,
+          "y": 949,
+          "width": 454,
+          "height": 26,
+          "text": "[9] The music office of the Leisure and",
+          "bold": false
+        },
+        {
+          "x": 296,
+          "y": 956,
+          "width": 456,
+          "height": 27,
+          "text": "[3] ‘Chinese people are attracted to",
+          "bold": false
+        },
+        {
+          "x": 878,
+          "y": 978,
+          "width": 453,
+          "height": 21,
+          "text": "Cultural Services has courses at",
+          "bold": false
+        },
+        {
+          "x": 296,
+          "y": 984,
+          "width": 455,
+          "height": 27,
+          "text": "{learning] the guzheng because they have been",
+          "bold": false
+        },
+        {
+          "x": 878,
+          "y": 1004,
+          "width": 452,
+          "height": 27,
+          "text": "elementary, intermediate and advanced levels",
+          "bold": false
+        },
+        {
+          "x": 296,
+          "y": 1013,
+          "width": 456,
+          "height": 26,
+          "text": "exposed to its sound since childhood,” says",
+          "bold": false
+        },
+        {
+          "x": 878,
+          "y": 1032,
+          "width": 453,
+          "height": 27,
+          "text": "for students aged between six and 23. The",
+          "bold": false
+        },
+        {
+          "x": 296,
+          "y": 1037,
+          "width": 457,
+          "height": 33,
+          "text": "Zou Lunlun, guzheng artist and founder of the",
+          "bold": false
+        },
+        {
+          "x": 878,
+          "y": 1061,
+          "width": 453,
+          "height": 27,
+          "text": "beginners’ course runs for two years and",
+          "bold": false
+        },
+        {
+          "x": 296,
+          "y": 1070,
+          "width": 396,
+          "height": 22,
+          "text": "International Academy for Musical Arts.",
+          "bold": false
+        },
+        {
+          "x": 879,
+          "y": 1089,
+          "width": 452,
+          "height": 26,
+          "text": "involves weekly, one-hour lessons in a group",
+          "bold": false
+        },
+        {
+          "x": 879,
+          "y": 1119,
+          "width": 343,
+          "height": 24,
+          "text": "setting and tuition costs HK$1.650.",
+          "bold": false
+        },
+        {
+          "x": 298,
+          "y": 1127,
+          "width": 456,
+          "height": 26,
+          "text": "[4] ‘Westerners are attracted to it because",
+          "bold": false
+        },
+        {
+          "x": 297,
+          "y": 1154,
+          "width": 460,
+          "height": 25,
+          "text": "of its exotic and relaxing sound. The skills of",
+          "bold": false
+        },
+        {
+          "x": 880,
+          "y": 1175,
+          "width": 452,
+          "height": 27,
+          "text": "[10] Acceptance is based on an interview",
+          "bold": false
+        },
+        {
+          "x": 298,
+          "y": 1182,
+          "width": 457,
+          "height": 27,
+          "text": "playing the guzheng bring many benefits,",
+          "bold": false
+        },
+        {
+          "x": 836,
+          "y": 1182,
+          "width": 8,
+          "height": 16,
+          "text": "ws",
+          "bold": false
+        },
+        {
+          "x": 848,
+          "y": 1182,
+          "width": 8,
+          "height": 15,
+          "text": "a)",
+          "bold": false
+        },
+        {
+          "x": 880,
+          "y": 1203,
+          "width": 453,
+          "height": 26,
+          "text": "and a music aptitude test with the next intake",
+          "bold": false
+        },
+        {
+          "x": 299,
+          "y": 1210,
+          "width": 459,
+          "height": 25,
+          "text": "such as artistic expression, sense of",
+          "bold": false
+        },
+        {
+          "x": 881,
+          "y": 1231,
+          "width": 452,
+          "height": 27,
+          "text": "in August. All classes are conducted in",
+          "bold": false
+        },
+        {
+          "x": 299,
+          "y": 1239,
+          "width": 456,
+          "height": 26,
+          "text": "accomplishment, stress relief, social activity",
+          "bold": false
+        },
+        {
+          "x": 881,
+          "y": 1265,
+          "width": 98,
+          "height": 16,
+          "text": "Cantonese",
+          "bold": false
+        },
+        {
+          "x": 300,
+          "y": 1270,
+          "width": 211,
+          "height": 23,
+          "text": "and physical activity.”",
+          "bold": false
+        },
+        {
+          "x": 883,
+          "y": 1317,
+          "width": 451,
+          "height": 27,
+          "text": "[14] The Gu Zheng Artist Association offers",
+          "bold": false
+        },
+        {
+          "x": 301,
+          "y": 1325,
+          "width": 457,
+          "height": 27,
+          "text": "[5] Zou, born into a family of guzheng",
+          "bold": false
+        },
+        {
+          "x": 882,
+          "y": 1346,
+          "width": 453,
+          "height": 21,
+          "text": "two-month courses for elementary to",
+          "bold": false
+        },
+        {
+          "x": 838,
+          "y": 1351,
+          "width": 21,
+          "height": 17,
+          "text": "60",
+          "bold": false
+        },
+        {
+          "x": 301,
+          "y": 1352,
+          "width": 457,
+          "height": 25,
+          "text": "musicians who go back four generations. has",
+          "bold": false
+        },
+        {
+          "x": 883,
+          "y": 1374,
+          "width": 452,
+          "height": 27,
+          "text": "professional level students. Each comprises",
+          "bold": false
+        },
+        {
+          "x": 301,
+          "y": 1381,
+          "width": 457,
+          "height": 23,
+          "text": "travelled the world as a master performer. She",
+          "bold": false
+        },
+        {
+          "x": 269,
+          "y": 1387,
+          "width": 8,
+          "height": 17,
+          "text": "rs",
+          "bold": false
+        },
+        {
+          "x": 256,
+          "y": 1388,
+          "width": 10,
+          "height": 16,
+          "text": "i)",
+          "bold": false
+        },
+        {
+          "x": 883,
+          "y": 1401,
+          "width": 452,
+          "height": 28,
+          "text": "eight, one-hour lessons and costs from",
+          "bold": false
+        },
+        {
+          "x": 302,
+          "y": 1408,
+          "width": 456,
+          "height": 28,
+          "text": "has played for celebrities and politicians who",
+          "bold": false
+        },
+        {
+          "x": 884,
+          "y": 1430,
+          "width": 452,
+          "height": 24,
+          "text": "HK$680 to HK$980 depending on student",
+          "bold": false
+        },
+        {
+          "x": 303,
+          "y": 1437,
+          "width": 458,
+          "height": 25,
+          "text": "include the former prime ministers of",
+          "bold": false
+        },
+        {
+          "x": 885,
+          "y": 1464,
+          "width": 49,
+          "height": 17,
+          "text": "level.",
+          "bold": false
+        },
+        {
+          "x": 303,
+          "y": 1466,
+          "width": 457,
+          "height": 22,
+          "text": "Australia and New Zealand. and former",
+          "bold": false
+        },
+        {
+          "x": 303,
+          "y": 1497,
+          "width": 220,
+          "height": 24,
+          "text": "president Jiang Zemin.",
+          "bold": false
+        },
+        {
+          "x": 886,
+          "y": 1517,
+          "width": 451,
+          "height": 26,
+          "text": "[12] The elementary course focuses on the",
+          "bold": false
+        },
+        {
+          "x": 840,
+          "y": 1523,
+          "width": 20,
+          "height": 16,
+          "text": "65",
+          "bold": false
+        },
+        {
+          "x": 885,
+          "y": 1545,
+          "width": 452,
+          "height": 25,
+          "text": "basic fingering techniques for both hands and",
+          "bold": false
+        },
+        {
+          "x": 303,
+          "y": 1553,
+          "width": 456,
+          "height": 25,
+          "text": "[6] Now based in Hong Kong, Zou",
+          "bold": false
+        },
+        {
+          "x": 886,
+          "y": 1572,
+          "width": 451,
+          "height": 25,
+          "text": "students learn to play waditional Chinese",
+          "bold": false
+        },
+        {
+          "x": 304,
+          "y": 1579,
+          "width": 457,
+          "height": 23,
+          "text": "founded the Jnternational Academy for",
+          "bold": false
+        },
+        {
+          "x": 886,
+          "y": 1601,
+          "width": 428,
+          "height": 26,
+          "text": "songs. ‘Swordsman’ and ‘Fengyang Flower’",
+          "bold": false
+        },
+        {
+          "x": 304,
+          "y": 1607,
+          "width": 456,
+          "height": 23,
+          "text": "Musical Aris in North Point in 2006. The",
+          "bold": false
+        },
+        {
+          "x": 304,
+          "y": 1636,
+          "width": 456,
+          "height": 25,
+          "text": "school offers guzheng classes to children and",
+          "bold": false
+        },
+        {
+          "x": 887,
+          "y": 1659,
+          "width": 451,
+          "height": 26,
+          "text": "[13] The association has designed a 10",
+          "bold": false
+        },
+        {
+          "x": 304,
+          "y": 1664,
+          "width": 457,
+          "height": 26,
+          "text": "adults taught by Zou. Students can choose",
+          "bold": false
+        },
+        {
+          "x": 887,
+          "y": 1686,
+          "width": 449,
+          "height": 28,
+          "text": "grade-examination system in which the level 1",
+          "bold": false
+        },
+        {
+          "x": 305,
+          "y": 1693,
+          "width": 457,
+          "height": 25,
+          "text": "from a group class, one-to-one tuition of",
+          "bold": false
+        },
+        {
+          "x": 842,
+          "y": 1693,
+          "width": 22,
+          "height": 16,
+          "text": "79",
+          "bold": false
+        },
+        {
+          "x": 272,
+          "y": 1699,
+          "width": 8,
+          "height": 16,
+          "text": "On",
+          "bold": false
+        },
+        {
+          "x": 887,
+          "y": 1715,
+          "width": 452,
+          "height": 22,
+          "text": "exam is suitable for elementary students and",
+          "bold": false
+        },
+        {
+          "x": 306,
+          "y": 1724,
+          "width": 270,
+          "height": 21,
+          "text": "lessons available via Skype.",
+          "bold": false
+        },
+        {
+          "x": 889,
+          "y": 1743,
+          "width": 452,
+          "height": 23,
+          "text": "level 10 is for students able to perform at a",
+          "bold": false
+        },
+        {
+          "x": 889,
+          "y": 1774,
+          "width": 174,
+          "height": 23,
+          "text": "professional level.",
+          "bold": true
+        },
+        {
+          "x": 307,
+          "y": 1984,
+          "width": 310,
+          "height": 17,
+          "text": "2013-DSE-ENG LANG I-BI RP-2",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2013/b1/passage-1-figure-1.webp",
+          "x": 912,
+          "y": 364,
+          "width": 332,
+          "height": 232,
+          "alt": "Original figure 1"
+        }
+      ]
+    },
+    {
+      "width": 1489,
+      "height": 2105,
+      "label": "Reading passage page 2",
+      "lines": [
+        {
+          "x": 119,
+          "y": 283,
+          "width": 931,
+          "height": 23,
+          "text": "Read Text 3 and answer questions 37-45 on pages 3-4 of the Question-Answer Book for Part BI",
+          "bold": false
+        },
+        {
+          "x": 119,
+          "y": 329,
+          "width": 69,
+          "height": 21,
+          "text": "Text 3«",
+          "bold": true
+        },
+        {
+          "x": 222,
+          "y": 382,
+          "width": 925,
+          "height": 58,
+          "text": "What your updates say about you",
+          "bold": true
+        },
+        {
+          "x": 744,
+          "y": 484,
+          "width": 467,
+          "height": 24,
+          "text": "[8] ‘If you're talking to somebody in person",
+          "bold": true
+        },
+        {
+          "x": 164,
+          "y": 486,
+          "width": 473,
+          "height": 24,
+          "text": "[1] Social media is great for deepening",
+          "bold": false
+        },
+        {
+          "x": 743,
+          "y": 512,
+          "width": 467,
+          "height": 24,
+          "text": "and you say something negative, you might get",
+          "bold": false
+        },
+        {
+          "x": 163,
+          "y": 514,
+          "width": 472,
+          "height": 23,
+          "text": "bonds, making friends. or finding that special",
+          "bold": false
+        },
+        {
+          "x": 743,
+          "y": 541,
+          "width": 474,
+          "height": 23,
+          "text": "an indication that they don’t like it,” says Forest.",
+          "bold": false
+        },
+        {
+          "x": 163,
+          "y": 544,
+          "width": 176,
+          "height": 18,
+          "text": "someone. Or is it?",
+          "bold": false
+        },
+        {
+          "x": 744,
+          "y": 569,
+          "width": 468,
+          "height": 23,
+          "text": "But when people have a negative reaction to a",
+          "bold": false
+        },
+        {
+          "x": 698,
+          "y": 571,
+          "width": 22,
+          "height": 16,
+          "text": "40",
+          "bold": false
+        },
+        {
+          "x": 744,
+          "y": 598,
+          "width": 467,
+          "height": 24,
+          "text": "post on Facebook, they seem to keep it to",
+          "bold": false
+        },
+        {
+          "x": 164,
+          "y": 601,
+          "width": 473,
+          "height": 24,
+          "text": "[2] New research suggests that so-called",
+          "bold": false
+        },
+        {
+          "x": 744,
+          "y": 626,
+          "width": 467,
+          "height": 22,
+          "text": "themselves. ‘On Facebook, you don't see most",
+          "bold": false
+        },
+        {
+          "x": 164,
+          "y": 629,
+          "width": 472,
+          "height": 24,
+          "text": "power users, who contribute much more content",
+          "bold": false
+        },
+        {
+          "x": 743,
+          "y": 655,
+          "width": 160,
+          "height": 17,
+          "text": "of the reactions.’",
+          "bold": false
+        },
+        {
+          "x": 163,
+          "y": 657,
+          "width": 473,
+          "height": 22,
+          "text": "than the average Facebook user, are unwittingly",
+          "bold": false
+        },
+        {
+          "x": 164,
+          "y": 685,
+          "width": 473,
+          "height": 23,
+          "text": "revealing undesirable personal traits to their",
+          "bold": false
+        },
+        {
+          "x": 164,
+          "y": 714,
+          "width": 472,
+          "height": 23,
+          "text": "peers. The recent study also suggests that",
+          "bold": false
+        },
+        {
+          "x": 164,
+          "y": 741,
+          "width": 472,
+          "height": 23,
+          "text": "Facebook is not good for those suffering from",
+          "bold": false
+        },
+        {
+          "x": 164,
+          "y": 771,
+          "width": 157,
+          "height": 18,
+          "text": "low self-esteem.",
+          "bold": true
+        },
+        {
+          "x": 164,
+          "y": 828,
+          "width": 469,
+          "height": 23,
+          "text": "{3] ‘We had this idea that Facebook could",
+          "bold": true
+        },
+        {
+          "x": 164,
+          "y": 855,
+          "width": 470,
+          "height": 23,
+          "text": "be a fantastic place for people to strengthen",
+          "bold": false
+        },
+        {
+          "x": 164,
+          "y": 883,
+          "width": 470,
+          "height": 23,
+          "text": "their relationships.’ says Amanda Forest of the",
+          "bold": false
+        },
+        {
+          "x": 164,
+          "y": 912,
+          "width": 421,
+          "height": 22,
+          "text": "University of Waterloo in Ontario, Canada.",
+          "bold": true
+        },
+        {
+          "x": 165,
+          "y": 965,
+          "width": 469,
+          "height": 32,
+          "text": "[4] | This assumption seems fair when applied",
+          "bold": true
+        },
+        {
+          "x": 164,
+          "y": 997,
+          "width": 470,
+          "height": 24,
+          "text": "to most people, especially those with low self-",
+          "bold": false
+        },
+        {
+          "x": 164,
+          "y": 1026,
+          "width": 471,
+          "height": 22,
+          "text": "esteem. However, the findings of Forest's",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1054,
+          "width": 470,
+          "height": 21,
+          "text": "research — titled ‘When Social Networking Is",
+          "bold": false
+        },
+        {
+          "x": 164,
+          "y": 1082,
+          "width": 359,
+          "height": 22,
+          "text": "Not Working’ ~ suggest that isn’t so.",
+          "bold": false
+        },
+        {
+          "x": 1065,
+          "y": 1088,
+          "width": 94,
+          "height": 22,
+          "text": "popularity",
+          "bold": false
+        },
+        {
+          "x": 745,
+          "y": 1089,
+          "width": 289,
+          "height": 22,
+          "text": "{9] Is about",
+          "bold": false
+        },
+        {
+          "x": 859,
+          "y": 1089,
+          "width": 353,
+          "height": 17,
+          "text": "Facebook or",
+          "bold": false
+        },
+        {
+          "x": 745,
+          "y": 1117,
+          "width": 466,
+          "height": 23,
+          "text": "desperation? It may often edge towards the",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1140,
+          "width": 470,
+          "height": 23,
+          "text": "(5] The study revealed that people with low",
+          "bold": false
+        },
+        {
+          "x": 119,
+          "y": 1142,
+          "width": 22,
+          "height": 16,
+          "text": "20",
+          "bold": false
+        },
+        {
+          "x": 746,
+          "y": 1145,
+          "width": 464,
+          "height": 21,
+          "text": "latter, with evidence that Facebook is as",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1167,
+          "width": 470,
+          "height": 23,
+          "text": "self-esteem were more negative than people",
+          "bold": false
+        },
+        {
+          "x": 745,
+          "y": 1172,
+          "width": 469,
+          "height": 24,
+          "text": "addictive as cigarettes and alcohol. A study of",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1196,
+          "width": 470,
+          "height": 23,
+          "text": "with high self-esteem and liked less by",
+          "bold": false
+        },
+        {
+          "x": 744,
+          "y": 1200,
+          "width": 467,
+          "height": 22,
+          "text": "the activities and desires of 200 adults by the",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1224,
+          "width": 470,
+          "height": 24,
+          "text": "strangers who rated the participants’ status",
+          "bold": false
+        },
+        {
+          "x": 745,
+          "y": 1229,
+          "width": 467,
+          "height": 24,
+          "text": "University of Chicago showed that although the",
+          "bold": false
+        },
+        {
+          "x": 166,
+          "y": 1254,
+          "width": 75,
+          "height": 21,
+          "text": "updates.",
+          "bold": false
+        },
+        {
+          "x": 746,
+          "y": 1258,
+          "width": 466,
+          "height": 23,
+          "text": "strongest desires were for sleep, checking work",
+          "bold": false
+        },
+        {
+          "x": 700,
+          "y": 1260,
+          "width": 21,
+          "height": 16,
+          "text": "50",
+          "bold": false
+        },
+        {
+          "x": 745,
+          "y": 1286,
+          "width": 466,
+          "height": 23,
+          "text": "e-mails and updating a Facebook status are this",
+          "bold": false
+        },
+        {
+          "x": 166,
+          "y": 1310,
+          "width": 469,
+          "height": 23,
+          "text": "[6] The study also found that people with",
+          "bold": false
+        },
+        {
+          "x": 120,
+          "y": 1312,
+          "width": 9,
+          "height": 16,
+          "text": "th",
+          "bold": false
+        },
+        {
+          "x": 132,
+          "y": 1312,
+          "width": 9,
+          "height": 17,
+          "text": "an",
+          "bold": false
+        },
+        {
+          "x": 746,
+          "y": 1314,
+          "width": 376,
+          "height": 24,
+          "text": "generation’s actual nocturnal activities.",
+          "bold": false
+        },
+        {
+          "x": 166,
+          "y": 1339,
+          "width": 470,
+          "height": 22,
+          "text": "low self-esteem got more responses from their",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1366,
+          "width": 470,
+          "height": 23,
+          "text": "Facebook friends when they posted highly",
+          "bold": false
+        },
+        {
+          "x": 746,
+          "y": 1372,
+          "width": 466,
+          "height": 23,
+          "text": "{10] In theory. social networking websites",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1395,
+          "width": 476,
+          "height": 23,
+          "text": "positive updates, compared to less positive ones.",
+          "bold": false
+        },
+        {
+          "x": 746,
+          "y": 1400,
+          "width": 466,
+          "height": 23,
+          "text": "like Facebook could be great for people with",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1423,
+          "width": 470,
+          "height": 23,
+          "text": "People with high self-esteem, on the other hand,",
+          "bold": false
+        },
+        {
+          "x": 746,
+          "y": 1429,
+          "width": 466,
+          "height": 22,
+          "text": "low self-esteem. Sharing is important for",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1451,
+          "width": 471,
+          "height": 22,
+          "text": "used Facebook less and got more ‘like’ replies",
+          "bold": false
+        },
+        {
+          "x": 120,
+          "y": 1452,
+          "width": 21,
+          "height": 17,
+          "text": "30",
+          "bold": false
+        },
+        {
+          "x": 746,
+          "y": 1457,
+          "width": 466,
+          "height": 24,
+          "text": "improving friendships. But in practice, people",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1480,
+          "width": 470,
+          "height": 22,
+          "text": "after posting something negative, perhaps",
+          "bold": false
+        },
+        {
+          "x": 746,
+          "y": 1485,
+          "width": 466,
+          "height": 19,
+          "text": "with low self-esteem seem to behave",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1508,
+          "width": 416,
+          "height": 22,
+          "text": "because these responses are rarer for them.",
+          "bold": false
+        },
+        {
+          "x": 746,
+          "y": 1514,
+          "width": 466,
+          "height": 23,
+          "text": "counterproductively, bombarding their friends",
+          "bold": false
+        },
+        {
+          "x": 746,
+          "y": 1542,
+          "width": 466,
+          "height": 23,
+          "text": "with negative tidbits about their lives and",
+          "bold": false
+        },
+        {
+          "x": 166,
+          "y": 1565,
+          "width": 468,
+          "height": 23,
+          "text": "[7] So people with low self-esteem may feel",
+          "bold": false
+        },
+        {
+          "x": 700,
+          "y": 1571,
+          "width": 22,
+          "height": 17,
+          "text": "60",
+          "bold": false
+        },
+        {
+          "x": 746,
+          "y": 1571,
+          "width": 309,
+          "height": 21,
+          "text": "making themselves less likeable",
+          "bold": false
+        },
+        {
+          "x": 164,
+          "y": 1593,
+          "width": 472,
+          "height": 23,
+          "text": "that Facebook is a risk-free forum for making",
+          "bold": false
+        },
+        {
+          "x": 120,
+          "y": 1622,
+          "width": 20,
+          "height": 16,
+          "text": "35",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1622,
+          "width": 471,
+          "height": 21,
+          "text": "personal disclosures, but they may not be",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1649,
+          "width": 192,
+          "height": 22,
+          "text": "helping themselves.",
+          "bold": false
+        },
+        {
+          "x": 516,
+          "y": 1696,
+          "width": 347,
+          "height": 19,
+          "text": "END OF READING PASSAGES",
+          "bold": true
+        },
+        {
+          "x": 184,
+          "y": 1744,
+          "width": 1025,
+          "height": 21,
+          "text": "Sources of materials used in this paper will be acknowledged in the Examination Report and Question Papers",
+          "bold": false
+        },
+        {
+          "x": 184,
+          "y": 1770,
+          "width": 446,
+          "height": 20,
+          "text": "published by the Hong Kong Examinations and As",
+          "bold": false
+        },
+        {
+          "x": 668,
+          "y": 1770,
+          "width": 266,
+          "height": 20,
+          "text": "ment Authority at a later stage.",
+          "bold": true
+        },
+        {
+          "x": 123,
+          "y": 1975,
+          "width": 309,
+          "height": 18,
+          "text": "2013-DSE-ENG LANG I-BI RP-3",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2013/b1/passage-2-figure-1.webp",
+          "x": 732,
+          "y": 704,
+          "width": 488,
+          "height": 352,
+          "alt": "Original figure 1"
+        }
+      ]
+    }
+  ],
+  "structuredQuestionPages": [
+    {
+      "width": 1489,
+      "height": 2105,
+      "label": "Question page 1",
+      "lines": [
+        {
+          "x": 907,
+          "y": 89,
+          "width": 498,
+          "height": 57,
+          "text": "| Please stick the barcode iabel here.",
+          "bold": true
+        },
+        {
+          "x": 155,
+          "y": 100,
+          "width": 8,
+          "height": 48,
+          "text": "[",
+          "bold": true
+        },
+        {
+          "x": 166,
+          "y": 101,
+          "width": 260,
+          "height": 47,
+          "text": "Candidate Number | |",
+          "bold": true
+        },
+        {
+          "x": 167,
+          "y": 180,
+          "width": 175,
+          "height": 23,
+          "text": "HKDSE 2013",
+          "bold": true
+        },
+        {
+          "x": 166,
+          "y": 214,
+          "width": 310,
+          "height": 24,
+          "text": "ENGLISH LANGUAGE",
+          "bold": true
+        },
+        {
+          "x": 166,
+          "y": 249,
+          "width": 257,
+          "height": 23,
+          "text": "PAPER 1 PART B1",
+          "bold": true
+        },
+        {
+          "x": 164,
+          "y": 281,
+          "width": 850,
+          "height": 26,
+          "text": "QUESTION-ANSWER BOOK EASY SECTION ~",
+          "bold": true
+        },
+        {
+          "x": 164,
+          "y": 347,
+          "width": 912,
+          "height": 24,
+          "text": "Write your Candidate Number and stick a barcode label in the space provided on this page.",
+          "bold": false
+        },
+        {
+          "x": 164,
+          "y": 383,
+          "width": 559,
+          "height": 23,
+          "text": "Read Text 2 and answer questions 26-36. (26 marks)",
+          "bold": true
+        },
+        {
+          "x": 162,
+          "y": 438,
+          "width": 468,
+          "height": 22,
+          "text": "26. When did the guzheng become popular?",
+          "bold": true
+        },
+        {
+          "x": 163,
+          "y": 583,
+          "width": 469,
+          "height": 24,
+          "text": "27. The guzheng has become a symbol of...",
+          "bold": true
+        },
+        {
+          "x": 282,
+          "y": 620,
+          "width": 243,
+          "height": 18,
+          "text": "the Cultural Revolution.",
+          "bold": false
+        },
+        {
+          "x": 229,
+          "y": 621,
+          "width": 23,
+          "height": 104,
+          "text": "cop>",
+          "bold": true
+        },
+        {
+          "x": 282,
+          "y": 649,
+          "width": 266,
+          "height": 18,
+          "text": "traditional Chinese culture",
+          "bold": false
+        },
+        {
+          "x": 282,
+          "y": 678,
+          "width": 240,
+          "height": 22,
+          "text": "ancient Chinese history.",
+          "bold": false
+        },
+        {
+          "x": 282,
+          "y": 707,
+          "width": 881,
+          "height": 23,
+          "text": "the Qin Dynasty. ‘. No",
+          "bold": true
+        },
+        {
+          "x": 159,
+          "y": 780,
+          "width": 684,
+          "height": 24,
+          "text": "28. Find a word in paragraph 2 that means the same as ‘unstable’.",
+          "bold": false
+        },
+        {
+          "x": 158,
+          "y": 929,
+          "width": 845,
+          "height": 23,
+          "text": "29. According to Zou Lunlun, why do Chinese people want to learn the guzheng?",
+          "bold": false
+        },
+        {
+          "x": 159,
+          "y": 1092,
+          "width": 455,
+          "height": 23,
+          "text": "30. Use ONE word to complete each blank.",
+          "bold": true
+        },
+        {
+          "x": 218,
+          "y": 1136,
+          "width": 1041,
+          "height": 23,
+          "text": "Zou believes Westerners like the guzheng because it sounds _ _ and",
+          "bold": false
+        },
+        {
+          "x": 217,
+          "y": 1254,
+          "width": 1078,
+          "height": 25,
+          "text": "Paragraph 4 mentions five benefits of playing the guzheng. Match each of the following speech bubbles",
+          "bold": false
+        },
+        {
+          "x": 159,
+          "y": 1255,
+          "width": 9,
+          "height": 17,
+          "text": "or",
+          "bold": false
+        },
+        {
+          "x": 216,
+          "y": 1284,
+          "width": 1025,
+          "height": 24,
+          "text": "with one of the benefits listed in the paragraph. Write the appropriate benefit under the speech bubble.",
+          "bold": false
+        },
+        {
+          "x": 1205,
+          "y": 1314,
+          "width": 93,
+          "height": 22,
+          "text": "(3 marks}",
+          "bold": true
+        },
+        {
+          "x": 196,
+          "y": 1383,
+          "width": 1085,
+          "height": 35,
+          "text": "By joining guzheng classes Playing the guzheng allows The guzheng is an outlet for",
+          "bold": true
+        },
+        {
+          "x": 196,
+          "y": 1416,
+          "width": 938,
+          "height": 31,
+          "text": "and learning how to play the me to feel that I have learned my creativity.",
+          "bold": false
+        },
+        {
+          "x": 196,
+          "y": 1445,
+          "width": 553,
+          "height": 27,
+          "text": "instrument, [have been able to something new.",
+          "bold": false
+        },
+        {
+          "x": 195,
+          "y": 1476,
+          "width": 251,
+          "height": 23,
+          "text": "meet new and interesting",
+          "bold": false
+        },
+        {
+          "x": 192,
+          "y": 1494,
+          "width": 671,
+          "height": 58,
+          "text": "friends. L7",
+          "bold": true
+        },
+        {
+          "x": 168,
+          "y": 1642,
+          "width": 849,
+          "height": 40,
+          "text": "i) ii) _ ii’)",
+          "bold": true
+        },
+        {
+          "x": 156,
+          "y": 1777,
+          "width": 514,
+          "height": 26,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 160,
+          "y": 1979,
+          "width": 287,
+          "height": 21,
+          "text": "2013-DSE-ENG LANG 1-BI-1",
+          "bold": true
+        },
+        {
+          "x": 749,
+          "y": 1984,
+          "width": 10,
+          "height": 17,
+          "text": "i)",
+          "bold": false
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2013/b1/questions-1-figure-2.webp",
+          "x": 888,
+          "y": 68,
+          "width": 560,
+          "height": 236,
+          "alt": "Original figure 2"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2013/b1/questions-1-figure-3.webp",
+          "x": 672,
+          "y": 176,
+          "width": 160,
+          "height": 124,
+          "alt": "Original figure 3"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2013/b1/questions-1-figure-4.webp",
+          "x": 556,
+          "y": 1356,
+          "width": 384,
+          "height": 160,
+          "alt": "Original figure 4"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2013/b1/questions-1-figure-5.webp",
+          "x": 968,
+          "y": 1832,
+          "width": 468,
+          "height": 204,
+          "alt": "Original figure 5"
+        }
+      ]
+    },
+    {
+      "width": 1489,
+      "height": 2105,
+      "label": "Question page 2",
+      "lines": [
+        {
+          "x": 205,
+          "y": 189,
+          "width": 1113,
+          "height": 34,
+          "text": "Decide whether the following statements are True, False, or the information is Not Given. Blacken ONE",
+          "bold": false
+        },
+        {
+          "x": 145,
+          "y": 204,
+          "width": 30,
+          "height": 17,
+          "text": "32.",
+          "bold": false
+        },
+        {
+          "x": 206,
+          "y": 217,
+          "width": 1120,
+          "height": 36,
+          "text": "circle only for each statement. (4 marks)",
+          "bold": true
+        },
+        {
+          "x": 220,
+          "y": 319,
+          "width": 953,
+          "height": 28,
+          "text": "i) Zou teaches the guzheng. gos ran",
+          "bold": true
+        },
+        {
+          "x": 220,
+          "y": 386,
+          "width": 491,
+          "height": 26,
+          "text": "ii) The guzheng is Zou’s favourite instrument.",
+          "bold": false
+        },
+        {
+          "x": 220,
+          "y": 443,
+          "width": 1052,
+          "height": 34,
+          "text": "iil) No one else in Zou’s family can play the guzheng. my cy c",
+          "bold": false
+        },
+        {
+          "x": 221,
+          "y": 511,
+          "width": 953,
+          "height": 31,
+          "text": "iv) Famous people have attended Zou’s performances. my cf",
+          "bold": false
+        },
+        {
+          "x": 205,
+          "y": 585,
+          "width": 1010,
+          "height": 38,
+          "text": "The group course provided by the International Academy for Musical Arts focuses on several skills.",
+          "bold": false
+        },
+        {
+          "x": 157,
+          "y": 599,
+          "width": 9,
+          "height": 17,
+          "text": "rv)",
+          "bold": false
+        },
+        {
+          "x": 144,
+          "y": 600,
+          "width": 9,
+          "height": 16,
+          "text": "we",
+          "bold": false
+        },
+        {
+          "x": 208,
+          "y": 622,
+          "width": 461,
+          "height": 25,
+          "text": "Put a tick (“) next to each skill that is taught.",
+          "bold": false
+        },
+        {
+          "x": 237,
+          "y": 673,
+          "width": 238,
+          "height": 26,
+          "text": "____ how to read music",
+          "bold": false
+        },
+        {
+          "x": 251,
+          "y": 717,
+          "width": 330,
+          "height": 28,
+          "text": "___ the correct use of both hands",
+          "bold": false
+        },
+        {
+          "x": 291,
+          "y": 763,
+          "width": 242,
+          "height": 24,
+          "text": "how to pluck the strings",
+          "bold": false
+        },
+        {
+          "x": 291,
+          "y": 808,
+          "width": 317,
+          "height": 20,
+          "text": "how to maintain the instrument",
+          "bold": false
+        },
+        {
+          "x": 291,
+          "y": 851,
+          "width": 488,
+          "height": 26,
+          "text": "how to sit properly while playing the instrument",
+          "bold": false
+        },
+        {
+          "x": 208,
+          "y": 906,
+          "width": 1110,
+          "height": 37,
+          "text": "Complete the following advertisement for the International Academy for Musical Arts. You may use more",
+          "bold": false
+        },
+        {
+          "x": 147,
+          "y": 923,
+          "width": 8,
+          "height": 17,
+          "text": "oo",
+          "bold": false
+        },
+        {
+          "x": 159,
+          "y": 923,
+          "width": 17,
+          "height": 16,
+          "text": "ad",
+          "bold": false
+        },
+        {
+          "x": 208,
+          "y": 936,
+          "width": 1110,
+          "height": 31,
+          "text": "than one word for some of the blanks. (10 marks)",
+          "bold": false
+        },
+        {
+          "x": 250,
+          "y": 998,
+          "width": 1015,
+          "height": 35,
+          "text": "Learn how to play the guzheng at the International Academy for Musical Arts",
+          "bold": false
+        },
+        {
+          "x": 280,
+          "y": 1059,
+          "width": 878,
+          "height": 29,
+          "text": "The international Academy for Musical Arts is pleased to announce open enrollment for",
+          "bold": false
+        },
+        {
+          "x": 683,
+          "y": 1104,
+          "width": 597,
+          "height": 24,
+          "text": "and leamers. (1 mark)",
+          "bold": false
+        },
+        {
+          "x": 281,
+          "y": 1160,
+          "width": 1016,
+          "height": 33,
+          "text": "The academy was set up by in 2006. (7 mark)",
+          "bold": false
+        },
+        {
+          "x": 283,
+          "y": 1217,
+          "width": 864,
+          "height": 32,
+          "text": "We are located in _. (1 mark)",
+          "bold": false
+        },
+        {
+          "x": 674,
+          "y": 1276,
+          "width": 170,
+          "height": 20,
+          "text": "What we offer:",
+          "bold": false
+        },
+        {
+          "x": 326,
+          "y": 1316,
+          "width": 385,
+          "height": 38,
+          "text": "One-to-one lessons for different levels",
+          "bold": false
+        },
+        {
+          "x": 1195,
+          "y": 1358,
+          "width": 86,
+          "height": 22,
+          "text": "(J mark)",
+          "bold": false
+        },
+        {
+          "x": 449,
+          "y": 1403,
+          "width": 533,
+          "height": 31,
+          "text": "Intermediate $480",
+          "bold": false
+        },
+        {
+          "x": 1196,
+          "y": 1451,
+          "width": 86,
+          "height": 22,
+          "text": "(1 mark)",
+          "bold": false
+        },
+        {
+          "x": 363,
+          "y": 1572,
+          "width": 913,
+          "height": 28,
+          "text": "Beginners can learn in a ee setting! (1 mark)",
+          "bold": true
+        },
+        {
+          "x": 347,
+          "y": 1622,
+          "width": 927,
+          "height": 26,
+          "text": "| Number of lessons: (1 mark)",
+          "bold": false
+        },
+        {
+          "x": 364,
+          "y": 1671,
+          "width": 910,
+          "height": 24,
+          "text": "Each lesson lasts: 7 (J mark)",
+          "bold": false
+        },
+        {
+          "x": 364,
+          "y": 1711,
+          "width": 911,
+          "height": 42,
+          "text": "Cost: ee (J mark)",
+          "bold": false
+        },
+        {
+          "x": 216,
+          "y": 1779,
+          "width": 1106,
+          "height": 33,
+          "text": "We also provide lessons through ______ for people who cannot come to the school. (7 mark)",
+          "bold": false
+        },
+        {
+          "x": 148,
+          "y": 1908,
+          "width": 521,
+          "height": 26,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 160,
+          "y": 1986,
+          "width": 604,
+          "height": 24,
+          "text": "2013-DSE-ENG LANG 13",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2013/b1/questions-2-figure-1.webp",
+          "x": 904,
+          "y": 204,
+          "width": 196,
+          "height": 176,
+          "alt": "Original figure 1"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2013/b1/questions-2-figure-2.webp",
+          "x": 264,
+          "y": 1292,
+          "width": 924,
+          "height": 476,
+          "alt": "Original figure 2"
+        }
+      ]
+    },
+    {
+      "width": 1489,
+      "height": 2105,
+      "label": "Question page 3",
+      "lines": [
+        {
+          "x": 974,
+          "y": 157,
+          "width": 376,
+          "height": 21,
+          "text": ". |",
+          "bold": false
+        },
+        {
+          "x": 232,
+          "y": 187,
+          "width": 995,
+          "height": 25,
+          "text": "How does the Leisure and Cultural Services Department select students for their guzheng courses?",
+          "bold": false
+        },
+        {
+          "x": 61,
+          "y": 299,
+          "width": 3,
+          "height": 19,
+          "text": "i",
+          "bold": false
+        },
+        {
+          "x": 61,
+          "y": 320,
+          "width": 4,
+          "height": 14,
+          "text": "i",
+          "bold": false
+        },
+        {
+          "x": 62,
+          "y": 335,
+          "width": 3,
+          "height": 12,
+          "text": "i",
+          "bold": false
+        },
+        {
+          "x": 61,
+          "y": 348,
+          "width": 4,
+          "height": 12,
+          "text": "5",
+          "bold": false
+        },
+        {
+          "x": 61,
+          "y": 368,
+          "width": 4,
+          "height": 10,
+          "text": "i",
+          "bold": false
+        },
+        {
+          "x": 233,
+          "y": 379,
+          "width": 1079,
+          "height": 25,
+          "text": "For each of the following students, blacken the circle of the organization which offers a course they can",
+          "bold": false
+        },
+        {
+          "x": 171,
+          "y": 380,
+          "width": 28,
+          "height": 17,
+          "text": "36.",
+          "bold": false
+        },
+        {
+          "x": 229,
+          "y": 408,
+          "width": 1090,
+          "height": 24,
+          "text": "attend. Blacken ONE circle only for each statement. (2 marks}",
+          "bold": false
+        },
+        {
+          "x": 60,
+          "y": 441,
+          "width": 5,
+          "height": 24,
+          "text": "j",
+          "bold": false
+        },
+        {
+          "x": 1013,
+          "y": 456,
+          "width": 228,
+          "height": 25,
+          "text": "Leisure and _.",
+          "bold": false
+        },
+        {
+          "x": 61,
+          "y": 466,
+          "width": 4,
+          "height": 14,
+          "text": "i",
+          "bold": false
+        },
+        {
+          "x": 1029,
+          "y": 476,
+          "width": 268,
+          "height": 26,
+          "text": "Cultural Gu Zheng",
+          "bold": false
+        },
+        {
+          "x": 60,
+          "y": 482,
+          "width": 5,
+          "height": 19,
+          "text": "i",
+          "bold": false
+        },
+        {
+          "x": 1029,
+          "y": 506,
+          "width": 246,
+          "height": 35,
+          "text": "Services Artist",
+          "bold": true
+        },
+        {
+          "x": 1011,
+          "y": 536,
+          "width": 293,
+          "height": 29,
+          "text": "Department Association",
+          "bold": false
+        },
+        {
+          "x": 59,
+          "y": 549,
+          "width": 5,
+          "height": 14,
+          "text": "a",
+          "bold": false
+        },
+        {
+          "x": 234,
+          "y": 582,
+          "width": 1034,
+          "height": 26,
+          "text": "Student A: Learning how to play the guzheng sounds great, but [will be re",
+          "bold": false
+        },
+        {
+          "x": 351,
+          "y": 609,
+          "width": 918,
+          "height": 25,
+          "text": "very busy this year, so a short course would be best. Me a",
+          "bold": true
+        },
+        {
+          "x": 233,
+          "y": 691,
+          "width": 854,
+          "height": 26,
+          "text": "Student B: Pve been playing the guzheng for many years as a hobby. cy",
+          "bold": false
+        },
+        {
+          "x": 350,
+          "y": 720,
+          "width": 440,
+          "height": 24,
+          "text": "Now I want to turn this hobby into a career.",
+          "bold": true
+        },
+        {
+          "x": 169,
+          "y": 810,
+          "width": 557,
+          "height": 24,
+          "text": "Read Text 3 and answer questions 37-45. (75 marks)",
+          "bold": true
+        },
+        {
+          "x": 232,
+          "y": 883,
+          "width": 584,
+          "height": 24,
+          "text": "What does the first paragraph suggest about social media?",
+          "bold": false
+        },
+        {
+          "x": 227,
+          "y": 1149,
+          "width": 415,
+          "height": 24,
+          "text": "In line 5, ‘power users’ are people who...",
+          "bold": true
+        },
+        {
+          "x": 232,
+          "y": 1186,
+          "width": 317,
+          "height": 17,
+          "text": "A. are active Facebook users.",
+          "bold": false
+        },
+        {
+          "x": 232,
+          "y": 1215,
+          "width": 990,
+          "height": 35,
+          "text": "B. have low self-esteem. B c",
+          "bold": true
+        },
+        {
+          "x": 232,
+          "y": 1244,
+          "width": 989,
+          "height": 24,
+          "text": "C. have undesirable personal traits. ~ o",
+          "bold": false
+        },
+        {
+          "x": 232,
+          "y": 1260,
+          "width": 999,
+          "height": 30,
+          "text": "D. O ©",
+          "bold": true
+        },
+        {
+          "x": 285,
+          "y": 1273,
+          "width": 356,
+          "height": 23,
+          "text": "feel positive about using Facebook.",
+          "bold": true
+        },
+        {
+          "x": 233,
+          "y": 1360,
+          "width": 668,
+          "height": 24,
+          "text": "According to paragraph 2, what are some users doing by accident?",
+          "bold": false
+        },
+        {
+          "x": 170,
+          "y": 1624,
+          "width": 29,
+          "height": 18,
+          "text": "40,",
+          "bold": false
+        },
+        {
+          "x": 157,
+          "y": 1894,
+          "width": 509,
+          "height": 27,
+          "text": "Answers written in the margins will not be marked",
+          "bold": true
+        },
+        {
+          "x": 164,
+          "y": 1976,
+          "width": 587,
+          "height": 22,
+          "text": "2013-DSE-ENG LANG 1-B1-3 14",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "width": 1489,
+      "height": 2105,
+      "label": "Question page 4",
+      "lines": [
+        {
+          "x": 144,
+          "y": 190,
+          "width": 1174,
+          "height": 42,
+          "text": "41, Read paragraphs 5-6 and answer the following questions by choosing either ‘Low self-esteem users’ or",
+          "bold": false
+        },
+        {
+          "x": 217,
+          "y": 218,
+          "width": 1089,
+          "height": 43,
+          "text": "“High self-esteem users’, Blacken ONE circle only for each question. (4 marks)",
+          "bold": false
+        },
+        {
+          "x": 1024,
+          "y": 295,
+          "width": 265,
+          "height": 27,
+          "text": "Low self- High self-",
+          "bold": false
+        },
+        {
+          "x": 1006,
+          "y": 329,
+          "width": 299,
+          "height": 21,
+          "text": "esteem users esteem users",
+          "bold": false
+        },
+        {
+          "x": 231,
+          "y": 380,
+          "width": 859,
+          "height": 35,
+          "text": "i) Who uses Facebook less? ey",
+          "bold": false
+        },
+        {
+          "x": 232,
+          "y": 453,
+          "width": 858,
+          "height": 33,
+          "text": "ii) Who is less likeable on Facebook? m4",
+          "bold": false
+        },
+        {
+          "x": 1414,
+          "y": 463,
+          "width": 32,
+          "height": 102,
+          "text": "sen",
+          "bold": true
+        },
+        {
+          "x": 233,
+          "y": 513,
+          "width": 1024,
+          "height": 43,
+          "text": "iii) Who is more likely to make negative comments on Facebook? CS (>",
+          "bold": false
+        },
+        {
+          "x": 233,
+          "y": 583,
+          "width": 1025,
+          "height": 44,
+          "text": "iv) Who receives more responses when posting negative comments? Cy CS",
+          "bold": false
+        },
+        {
+          "x": 149,
+          "y": 683,
+          "width": 1147,
+          "height": 42,
+          "text": "42. Read paragraphs 7-9 and decide whether the following statements are True, False, or the information is",
+          "bold": false
+        },
+        {
+          "x": 221,
+          "y": 712,
+          "width": 1084,
+          "height": 38,
+          "text": "Not Given. Blacken ONE circle only for each statement. (3 marks)",
+          "bold": false
+        },
+        {
+          "x": 1056,
+          "y": 786,
+          "width": 234,
+          "height": 22,
+          "text": "T F NG",
+          "bold": true
+        },
+        {
+          "x": 238,
+          "y": 837,
+          "width": 1054,
+          "height": 36,
+          "text": "i) People with low self-esteem feel that Facebook is a safe place to my O my",
+          "bold": false
+        },
+        {
+          "x": 290,
+          "y": 861,
+          "width": 792,
+          "height": 38,
+          "text": "share information about themselves. ee",
+          "bold": false
+        },
+        {
+          "x": 235,
+          "y": 922,
+          "width": 1058,
+          "height": 36,
+          "text": "ii) [tis more difficult to read someone’s reaction when you talk to them Oo) gy Oo",
+          "bold": false
+        },
+        {
+          "x": 291,
+          "y": 940,
+          "width": 1002,
+          "height": 42,
+          "text": "face to face than through Facebook. “et ~ aad",
+          "bold": false
+        },
+        {
+          "x": 235,
+          "y": 1008,
+          "width": 1060,
+          "height": 36,
+          "text": "iii) Participants of the study checked their e-mails even though they said nm cy oC",
+          "bold": false
+        },
+        {
+          "x": 292,
+          "y": 1030,
+          "width": 996,
+          "height": 42,
+          "text": "they would rather sleep. te ~ a",
+          "bold": true
+        },
+        {
+          "x": 156,
+          "y": 1129,
+          "width": 398,
+          "height": 25,
+          "text": "43, What does ‘it’ (line 41) refer to?",
+          "bold": false
+        },
+        {
+          "x": 158,
+          "y": 1254,
+          "width": 884,
+          "height": 36,
+          "text": "44. According to paragraph 9, why is Facebook compared to cigarettes and alcohol?",
+          "bold": false
+        },
+        {
+          "x": 161,
+          "y": 1399,
+          "width": 1040,
+          "height": 40,
+          "text": "45, i) In what way could social networking websites help people with low self-esteem? (7 mark)",
+          "bold": false
+        },
+        {
+          "x": 243,
+          "y": 1615,
+          "width": 1036,
+          "height": 41,
+          "text": "ii) Tn what way can social networking websites be harmful to people with low self-esteem? (J mark)",
+          "bold": false
+        },
+        {
+          "x": 665,
+          "y": 1838,
+          "width": 204,
+          "height": 20,
+          "text": "END OF PART Bi",
+          "bold": false
+        },
+        {
+          "x": 167,
+          "y": 1898,
+          "width": 514,
+          "height": 27,
+          "text": "Answers written in the margins will not be marked",
+          "bold": false
+        },
+        {
+          "x": 174,
+          "y": 1988,
+          "width": 597,
+          "height": 28,
+          "text": "2013-DSE-ENG LANG 1-B1-4 1S",
+          "bold": true
+        }
+      ]
     }
   ]
 }

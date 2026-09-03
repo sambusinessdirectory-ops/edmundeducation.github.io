@@ -79,6 +79,8 @@ assert.match(css, /\.dse-section-button\s*\{/);
 assert.match(css, /\.dse-paragraph-figure\s*\{/);
 assert.match(css, /\.paper-page-gallery\s*\{/);
 assert.match(css, /\.paper-answer-grid\s*\{/);
+assert.match(css, /\.structured-paper-gallery\s*\{/);
+assert.match(css, /\.structured-paper-svg\s*\{/);
 assert.match(script, /flashcard_student_login/);
 assert.match(script, /reading_comprehension_save_attempt/);
 assert.match(script, /reading_comprehension_student_dashboard/);
@@ -94,6 +96,8 @@ assert.match(script, /function renderDseCatalogue\(\)/);
 assert.match(script, /paragraph\.image/);
 assert.match(script, /function renderPaperPageGallery\(/);
 assert.match(script, /state\.data\.displayMode === 'paper'/);
+assert.match(script, /function renderStructuredPaperPages\(/);
+assert.match(script, /state\.data\.displayMode === 'structured-paper'/);
 assert.match(script, /async function enterIeltsReading\(\)/);
 assert.match(script, /openInitialView\(\{ afterLogin: true \}\)/);
 assert.match(script, /await Promise\.all\(\[loadCatalogue\(\), loadBookmarks\(\)\]\)/);
@@ -203,19 +207,29 @@ for (const year of paperYears) {
     const entry = catalogueYear.sections[section];
     assert.equal(entry.id, `dse-${year}-${section.toLowerCase()}`);
     const exercise = JSON.parse(await read(`dse-reading-data/${entry.id}.json`));
-    assert.equal(exercise.displayMode, "paper");
+    assert.equal(exercise.displayMode, "structured-paper");
     assert.equal(exercise.questions.length, entry.questionCount);
     assert.deepEqual(
       [exercise.questions.at(0).number, exercise.questions.at(-1).number],
       [entry.questionStart, entry.questionEnd],
     );
-    assert.ok(exercise.passagePages.length >= 2);
-    assert.ok(exercise.questionPages.length >= 4);
+    assert.ok(exercise.structuredPassagePages.length >= 2);
+    assert.ok(exercise.structuredQuestionPages.length >= 4);
+    assert.equal(exercise.passagePages, undefined);
+    assert.equal(exercise.questionPages, undefined);
     assert.ok(exercise.questions.every((question) => !("answer" in question)));
     assert.ok(exercise.paragraphs.every((paragraph) => !paragraph.translation));
-    for (const page of [...exercise.passagePages, ...exercise.questionPages]) {
-      assert.match(page.src, /\.webp$/);
-      assert.ok((await stat(new URL(page.src, root))).size > 10000);
+    for (const page of [...exercise.structuredPassagePages, ...exercise.structuredQuestionPages]) {
+      assert.ok(page.width > 0 && page.height > 0);
+      assert.ok(page.lines.length > 0);
+      assert.ok(page.lines.every((line) => line.text && line.width > 0 && line.height > 0));
+      for (const figure of page.figures || []) {
+        assert.match(figure.src, /assets\/reading-comprehension\/dse\/structured\/.+\.webp$/);
+        assert.ok(figure.width > 0 && figure.height > 0);
+        assert.ok(figure.width * figure.height < page.width * page.height * .6);
+        assert.equal(figure.replaceText, undefined);
+        assert.ok((await stat(new URL(figure.src, root))).size > 100);
+      }
     }
   }
 }

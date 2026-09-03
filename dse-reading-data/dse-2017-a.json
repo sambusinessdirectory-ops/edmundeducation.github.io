@@ -5,41 +5,7 @@
   "title": "The Myth of Recycling",
   "sourceLabel": "HKDSE 2017 English Language Paper 1 Part A",
   "sourceHeading": "The Myth of Recycling",
-  "displayMode": "paper",
-  "passagePages": [
-    {
-      "src": "assets/reading-comprehension/dse/papers/2017/a/passage-1.webp",
-      "alt": "HKDSE 2017 Part A original reading passage page 1",
-      "label": "Reading passage page 1"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2017/a/passage-2.webp",
-      "alt": "HKDSE 2017 Part A original reading passage page 2",
-      "label": "Reading passage page 2"
-    }
-  ],
-  "questionPages": [
-    {
-      "src": "assets/reading-comprehension/dse/papers/2017/a/questions-1.webp",
-      "alt": "HKDSE 2017 Part A original question page 1",
-      "label": "Question page 1"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2017/a/questions-2.webp",
-      "alt": "HKDSE 2017 Part A original question page 2",
-      "label": "Question page 2"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2017/a/questions-3.webp",
-      "alt": "HKDSE 2017 Part A original question page 3",
-      "label": "Question page 3"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2017/a/questions-4.webp",
-      "alt": "HKDSE 2017 Part A original question page 4",
-      "label": "Question page 4"
-    }
-  ],
+  "displayMode": "structured-paper",
   "paragraphs": [],
   "instructions": {
     "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
@@ -191,6 +157,1898 @@
       "type": "textarea",
       "prompt": "Question 21",
       "placeholder": "Enter all answer parts for Question 21"
+    }
+  ],
+  "structuredPassagePages": [
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Reading passage page 1",
+      "lines": [
+        {
+          "x": 184,
+          "y": 125,
+          "width": 105,
+          "height": 22,
+          "text": "PARTA",
+          "bold": true
+        },
+        {
+          "x": 183,
+          "y": 185,
+          "width": 802,
+          "height": 25,
+          "text": "Read Text 1 and answer questions 1-21 in the Question-Answer Book for Part A.",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 247,
+          "width": 83,
+          "height": 19,
+          "text": "Text 1",
+          "bold": false
+        },
+        {
+          "x": 561,
+          "y": 304,
+          "width": 344,
+          "height": 35,
+          "text": "The Myth of Recycling",
+          "bold": true
+        },
+        {
+          "x": 183,
+          "y": 411,
+          "width": 1161,
+          "height": 28,
+          "text": "[1] If you live in the United States, you probably do some form of recycling. It’s likely that you",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 442,
+          "width": 1163,
+          "height": 29,
+          "text": "separate paper from plastic and glass and metal. You rinse bottles and cans, and you might put",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 473,
+          "width": 1164,
+          "height": 29,
+          "text": "food scraps in a container destined for a composting facility. As you sort everything into the",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 504,
+          "width": 1163,
+          "height": 29,
+          "text": "right bins, you probably assume that recycling is helping your community and protecting the",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 536,
+          "width": 690,
+          "height": 28,
+          "text": "environment. But is it? Are you in fact wasting your time?",
+          "bold": false
+        },
+        {
+          "x": 183,
+          "y": 597,
+          "width": 1161,
+          "height": 28,
+          "text": "[2] In 1996, I wrote an article arguing that the recycling process as we carried it out was wasteful.",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 628,
+          "width": 1163,
+          "height": 29,
+          "text": "I presented plenty of evidence that recycling was costly and ineffectual, but its defenders said",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 660,
+          "width": 1165,
+          "height": 28,
+          "text": "that it was unfair to rush to judgment. Noting that the modern recycling movement had really",
+          "bold": false
+        },
+        {
+          "x": 179,
+          "y": 690,
+          "width": 1166,
+          "height": 28,
+          "text": "just begun a few years earlier, they predicted it would flourish as the industry matured and the",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 722,
+          "width": 463,
+          "height": 28,
+          "text": "public learned how to recycle properly.",
+          "bold": false
+        },
+        {
+          "x": 115,
+          "y": 726,
+          "width": 21,
+          "height": 18,
+          "text": "10",
+          "bold": false
+        },
+        {
+          "x": 183,
+          "y": 783,
+          "width": 1161,
+          "height": 28,
+          "text": "[3] So, what’s happened since then? While it’s true that the recycling message has reached more",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 815,
+          "width": 1163,
+          "height": 29,
+          "text": "people than ever, when it comes to the bottom line, both economically and environmentally, not",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 847,
+          "width": 292,
+          "height": 27,
+          "text": "much has changed at all.",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 908,
+          "width": 1162,
+          "height": 29,
+          "text": "[4] Despite decades of initiatives, it’s still typically more expensive for local governments to",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 940,
+          "width": 1162,
+          "height": 28,
+          "text": "recycle household waste than to send it to a landfill. Most recycled materials are exported, and",
+          "bold": false
+        },
+        {
+          "x": 115,
+          "y": 944,
+          "width": 20,
+          "height": 17,
+          "text": "15",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 970,
+          "width": 1163,
+          "height": 29,
+          "text": "the prices for these materials have plummeted because of lower oil prices and reduced demand",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 1001,
+          "width": 1163,
+          "height": 29,
+          "text": "for them overseas. The slump has forced some recycling companies to shut plants and cancel",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 1033,
+          "width": 323,
+          "height": 27,
+          "text": "plans for new technologies.",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 1094,
+          "width": 1161,
+          "height": 28,
+          "text": "[5] The future for recycling looks even worse. As cities move beyond recycling paper and metals,",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 1125,
+          "width": 1163,
+          "height": 28,
+          "text": "and into glass, food scraps and assorted plastics, the costs rise sharply while the environmental",
+          "bold": false
+        },
+        {
+          "x": 112,
+          "y": 1129,
+          "width": 23,
+          "height": 17,
+          "text": "20",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 1156,
+          "width": 1164,
+          "height": 28,
+          "text": "benefits decline and sometimes vanish. “If you believe recycling is good for the planet and that",
+          "bold": false
+        },
+        {
+          "x": 180,
+          "y": 1187,
+          "width": 1164,
+          "height": 27,
+          "text": "we need to do more of it, then there’s a crisis to confront,” says David Steiner, the CEO of Waste",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 1218,
+          "width": 1163,
+          "height": 29,
+          "text": "Management, the largest recycler of household trash in the United States. “Trying to turn",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 1249,
+          "width": 1163,
+          "height": 28,
+          "text": "garbage into gold costs a lot more than expected. We need to ask ourselves: What is the goal",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 1280,
+          "width": 74,
+          "height": 22,
+          "text": "here?”",
+          "bold": false
+        },
+        {
+          "x": 112,
+          "y": 1285,
+          "width": 22,
+          "height": 28,
+          "text": "25",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 1342,
+          "width": 1161,
+          "height": 28,
+          "text": "[6] Recycling has been relentlessly promoted as a goal in and of itself: a public and private virtue",
+          "bold": false
+        },
+        {
+          "x": 180,
+          "y": 1373,
+          "width": 1163,
+          "height": 28,
+          "text": "that is indoctrinated in students from kindergarten through university. As a result, otherwise",
+          "bold": false
+        },
+        {
+          "x": 180,
+          "y": 1404,
+          "width": 983,
+          "height": 28,
+          "text": "well-informed and educated people have no idea of the relative costs and benefits.",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 1465,
+          "width": 1161,
+          "height": 29,
+          "text": "[7] They probably assume, for instance, that recycling plastic must be helping the planet. They’ve",
+          "bold": false
+        },
+        {
+          "x": 180,
+          "y": 1497,
+          "width": 1164,
+          "height": 28,
+          "text": "been encouraged by the Environmental Protection Agency (E.P.A.), which assures the public",
+          "bold": false
+        },
+        {
+          "x": 112,
+          "y": 1501,
+          "width": 23,
+          "height": 17,
+          "text": "30",
+          "bold": false
+        },
+        {
+          "x": 180,
+          "y": 1527,
+          "width": 1164,
+          "height": 29,
+          "text": "that this results in fewer carbon emissions being released into the atmosphere. But how much",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 1559,
+          "width": 1163,
+          "height": 28,
+          "text": "difference does it make? Here’s some perspective: To offset the carbon impact of one passenger’s",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 1590,
+          "width": 1163,
+          "height": 28,
+          "text": "round-trip flight between New York and London, you'd have to recycle roughly 40,000 plastic",
+          "bold": false
+        },
+        {
+          "x": 180,
+          "y": 1621,
+          "width": 1164,
+          "height": 28,
+          "text": "bottles, assuming you fly economy. If you sit in business- or first-class, it could be more like",
+          "bold": false
+        },
+        {
+          "x": 112,
+          "y": 1656,
+          "width": 22,
+          "height": 18,
+          "text": "35",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 1658,
+          "width": 103,
+          "height": 19,
+          "text": "100,000.",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 1712,
+          "width": 1162,
+          "height": 28,
+          "text": "[8] Even those statistics might be misleading. Residents are instructed to rinse bottles before",
+          "bold": false
+        },
+        {
+          "x": 180,
+          "y": 1743,
+          "width": 1164,
+          "height": 28,
+          "text": "putting them in recycling bins, but the E.P.A.’s life-cycle calculation doesn’t take that water into",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 1770,
+          "width": 1163,
+          "height": 36,
+          "text": "account. That single omission can make a big difference, according to author Chris Goodall. He",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 1805,
+          "width": 1163,
+          "height": 28,
+          "text": "calculates that if you wash plastic in water that was heated by coal-derived electricity, then the",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 1837,
+          "width": 817,
+          "height": 27,
+          "text": "net effect of your recycling could be more carbon in the atmosphere.",
+          "bold": false
+        },
+        {
+          "x": 111,
+          "y": 1842,
+          "width": 24,
+          "height": 17,
+          "text": "40",
+          "bold": false
+        },
+        {
+          "x": 180,
+          "y": 1977,
+          "width": 583,
+          "height": 16,
+          "text": "2017-DSE-ENG LANG 1-A-RP-2 2",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Reading passage page 2",
+      "lines": [
+        {
+          "x": 184,
+          "y": 126,
+          "width": 1165,
+          "height": 29,
+          "text": "[9] To many public officials, recycling is a question of morality, not cost-benefit analysis. The",
+          "bold": false
+        },
+        {
+          "x": 183,
+          "y": 158,
+          "width": 1167,
+          "height": 28,
+          "text": "Mayor of New York, Bill de Blasio, declared that by 2030 the city would no longer send any",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 189,
+          "width": 1166,
+          "height": 28,
+          "text": "garbage to landfills. “This is the way of the future if we’re going to save our earth,” he explained",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 220,
+          "width": 1165,
+          "height": 29,
+          "text": "while announcing that New York would join other cities in moving toward a “zero waste” policy,",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 252,
+          "width": 685,
+          "height": 28,
+          "text": "which would require an unprecedented level of recycling.",
+          "bold": false
+        },
+        {
+          "x": 111,
+          "y": 257,
+          "width": 23,
+          "height": 17,
+          "text": "45",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 314,
+          "width": 1165,
+          "height": 29,
+          "text": "[10] But while politicians set higher goals, the national rate of recycling has stagnated in recent",
+          "bold": false
+        },
+        {
+          "x": 180,
+          "y": 346,
+          "width": 1166,
+          "height": 29,
+          "text": "years. Yes, it’s popular in affluent neighborhoods, but residents of low income areas don’t have",
+          "bold": false
+        },
+        {
+          "x": 179,
+          "y": 377,
+          "width": 657,
+          "height": 29,
+          "text": "the same fervor for sorting garbage in their spare time.",
+          "bold": false
+        },
+        {
+          "x": 180,
+          "y": 438,
+          "width": 1164,
+          "height": 30,
+          "text": "[11] The national rate of recycling rose during the 1990s to 25 percent, the goal set by an E.P.A.",
+          "bold": false
+        },
+        {
+          "x": 179,
+          "y": 470,
+          "width": 1166,
+          "height": 29,
+          "text": "official, Winston Porter. He advised state officials that no more than 35 percent of the nation’s",
+          "bold": false
+        },
+        {
+          "x": 110,
+          "y": 474,
+          "width": 23,
+          "height": 17,
+          "text": "50",
+          "bold": false
+        },
+        {
+          "x": 178,
+          "y": 501,
+          "width": 1170,
+          "height": 29,
+          "text": "trash was worth recycling, but some ignored him and set goals of 50 percent and higher. Most of",
+          "bold": false
+        },
+        {
+          "x": 178,
+          "y": 532,
+          "width": 1167,
+          "height": 29,
+          "text": "those goals were never met and the national rate has been stuck around 34 percent in recent",
+          "bold": false
+        },
+        {
+          "x": 177,
+          "y": 571,
+          "width": 68,
+          "height": 20,
+          "text": "years.",
+          "bold": false
+        },
+        {
+          "x": 178,
+          "y": 626,
+          "width": 1165,
+          "height": 28,
+          "text": "[12] “It’s practical to recycle cardboard and some paper, as well as selected metals and plastics,”",
+          "bold": false
+        },
+        {
+          "x": 177,
+          "y": 657,
+          "width": 1165,
+          "height": 29,
+          "text": "he says. “But other materials don’t make sense, including food waste and other compostables.",
+          "bold": false
+        },
+        {
+          "x": 108,
+          "y": 661,
+          "width": 22,
+          "height": 17,
+          "text": "55",
+          "bold": false
+        },
+        {
+          "x": 176,
+          "y": 687,
+          "width": 1166,
+          "height": 29,
+          "text": "The zero-waste goal makes no sense at all — it’s very expensive with almost no real",
+          "bold": false
+        },
+        {
+          "x": 176,
+          "y": 719,
+          "width": 285,
+          "height": 22,
+          "text": "environmental benefit.”",
+          "bold": true
+        },
+        {
+          "x": 177,
+          "y": 781,
+          "width": 1164,
+          "height": 28,
+          "text": "[13] With the economic rationale gone, advocates for recycling have switched to environmental",
+          "bold": false
+        },
+        {
+          "x": 176,
+          "y": 812,
+          "width": 1165,
+          "height": 30,
+          "text": "arguments. Researchers calculate that there are indeed such benefits to recycling, but not in the",
+          "bold": false
+        },
+        {
+          "x": 174,
+          "y": 844,
+          "width": 371,
+          "height": 28,
+          "text": "way that many people imagine.",
+          "bold": false
+        },
+        {
+          "x": 106,
+          "y": 848,
+          "width": 23,
+          "height": 17,
+          "text": "60",
+          "bold": false
+        },
+        {
+          "x": 176,
+          "y": 906,
+          "width": 1163,
+          "height": 28,
+          "text": "[14] Most of these benefits do not come from reducing the need for landfills and incinerators.",
+          "bold": false
+        },
+        {
+          "x": 175,
+          "y": 937,
+          "width": 1165,
+          "height": 30,
+          "text": "Unlike earlier ones, a modern well-lined landfill in a rural area can have relatively little",
+          "bold": false
+        },
+        {
+          "x": 174,
+          "y": 969,
+          "width": 1166,
+          "height": 30,
+          "text": "environmental impact. Decomposing garbage releases methane, a potent greenhouse gas, but",
+          "bold": false
+        },
+        {
+          "x": 173,
+          "y": 999,
+          "width": 1167,
+          "height": 30,
+          "text": "landfill operators have started capturing it and using it to generate electricity. Modern",
+          "bold": false
+        },
+        {
+          "x": 173,
+          "y": 1030,
+          "width": 1167,
+          "height": 30,
+          "text": "incinerators, while politically unpopular in the United States, release so few pollutants that",
+          "bold": false
+        },
+        {
+          "x": 104,
+          "y": 1034,
+          "width": 22,
+          "height": 17,
+          "text": "65",
+          "bold": false
+        },
+        {
+          "x": 173,
+          "y": 1061,
+          "width": 1167,
+          "height": 30,
+          "text": "they've been widely accepted in the eco-conscious countries of Northern Europe and Japan for",
+          "bold": false
+        },
+        {
+          "x": 173,
+          "y": 1093,
+          "width": 290,
+          "height": 27,
+          "text": "generating clean energy.",
+          "bold": false
+        },
+        {
+          "x": 173,
+          "y": 1154,
+          "width": 1165,
+          "height": 28,
+          "text": "[15] Moreover, recycling operations have their own environmental costs, like extra trucks on the",
+          "bold": false
+        },
+        {
+          "x": 172,
+          "y": 1185,
+          "width": 1165,
+          "height": 30,
+          "text": "road and pollution from recycling operations. Composting facilities around the country have",
+          "bold": false
+        },
+        {
+          "x": 172,
+          "y": 1216,
+          "width": 1008,
+          "height": 30,
+          "text": "inspired complaints about nauseating odors, swarming rats and defecating seagulls.",
+          "bold": false
+        },
+        {
+          "x": 103,
+          "y": 1220,
+          "width": 23,
+          "height": 18,
+          "text": "70",
+          "bold": false
+        },
+        {
+          "x": 173,
+          "y": 1278,
+          "width": 1163,
+          "height": 29,
+          "text": "[16] The environmental benefits of recycling come chiefly from reducing the need to",
+          "bold": false
+        },
+        {
+          "x": 171,
+          "y": 1309,
+          "width": 1165,
+          "height": 30,
+          "text": "manufacture new products — less mining, drilling and logging. But that’s not so appealing to the",
+          "bold": false
+        },
+        {
+          "x": 171,
+          "y": 1340,
+          "width": 1165,
+          "height": 29,
+          "text": "workers in those industries that have accepted the environmental trade-offs that come with",
+          "bold": false
+        },
+        {
+          "x": 170,
+          "y": 1372,
+          "width": 1166,
+          "height": 29,
+          "text": "those jobs. Nearly everyone, though, approves of one potential gain from recycling: reduced",
+          "bold": false
+        },
+        {
+          "x": 170,
+          "y": 1403,
+          "width": 370,
+          "height": 28,
+          "text": "emissions of greenhouse gases.",
+          "bold": false
+        },
+        {
+          "x": 102,
+          "y": 1407,
+          "width": 21,
+          "height": 17,
+          "text": "75",
+          "bold": false
+        },
+        {
+          "x": 171,
+          "y": 1465,
+          "width": 1164,
+          "height": 28,
+          "text": "[17] However, according to the E.P.A.’s estimates, virtually all the greenhouse benefits — more",
+          "bold": false
+        },
+        {
+          "x": 169,
+          "y": 1496,
+          "width": 1172,
+          "height": 30,
+          "text": "than 90 percent — come from just a few materials: paper, cardboard and aluminum in soda cans.",
+          "bold": false
+        },
+        {
+          "x": 170,
+          "y": 1527,
+          "width": 1165,
+          "height": 29,
+          "text": "Once you exclude these materials, the total annual savings in the United States from recycling",
+          "bold": false
+        },
+        {
+          "x": 170,
+          "y": 1558,
+          "width": 1165,
+          "height": 29,
+          "text": "everything else — plastics, glass, food, yard trimmings, textiles, rubber, leather — is only two-",
+          "bold": false
+        },
+        {
+          "x": 169,
+          "y": 1589,
+          "width": 587,
+          "height": 28,
+          "text": "tenths of 1 percent of America’s carbon footprint.",
+          "bold": false
+        },
+        {
+          "x": 101,
+          "y": 1593,
+          "width": 22,
+          "height": 17,
+          "text": "80",
+          "bold": false
+        },
+        {
+          "x": 516,
+          "y": 1737,
+          "width": 359,
+          "height": 19,
+          "text": "END OF READING PASSAGES",
+          "bold": true
+        },
+        {
+          "x": 154,
+          "y": 1794,
+          "width": 1156,
+          "height": 22,
+          "text": "Sources of materials used in this paper will be acknowledged in the booklet HKDSE Question Papers published by the Hong",
+          "bold": false
+        },
+        {
+          "x": 153,
+          "y": 1819,
+          "width": 556,
+          "height": 22,
+          "text": "Kong Examinations and Assessment Authority at a later stage.",
+          "bold": false
+        },
+        {
+          "x": 168,
+          "y": 1985,
+          "width": 583,
+          "height": 18,
+          "text": "2017-DSE-ENG LANG 1-A-RP-3 3",
+          "bold": true
+        }
+      ]
+    }
+  ],
+  "structuredQuestionPages": [
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 1",
+      "lines": [
+        {
+          "x": 596,
+          "y": 94,
+          "width": 804,
+          "height": 55,
+          "text": "| | Please stick the barcode label here.",
+          "bold": true
+        },
+        {
+          "x": 174,
+          "y": 99,
+          "width": 302,
+          "height": 48,
+          "text": "Candidate Number |",
+          "bold": true
+        },
+        {
+          "x": 174,
+          "y": 177,
+          "width": 176,
+          "height": 23,
+          "text": "HKDSE 2017",
+          "bold": true
+        },
+        {
+          "x": 174,
+          "y": 212,
+          "width": 309,
+          "height": 23,
+          "text": "ENGLISH LANGUAGE",
+          "bold": true
+        },
+        {
+          "x": 173,
+          "y": 247,
+          "width": 245,
+          "height": 22,
+          "text": "PAPER 1 PARTA",
+          "bold": true
+        },
+        {
+          "x": 173,
+          "y": 281,
+          "width": 654,
+          "height": 25,
+          "text": "QUESTION-ANSWER BOOK COMPULSORY",
+          "bold": true
+        },
+        {
+          "x": 172,
+          "y": 344,
+          "width": 904,
+          "height": 23,
+          "text": "Write your Candidate Number and stick a barcode label in the space provided on this page.",
+          "bold": false
+        },
+        {
+          "x": 171,
+          "y": 380,
+          "width": 555,
+          "height": 24,
+          "text": "Read Text 1 and answer questions 1-21. (41 marks)",
+          "bold": true
+        },
+        {
+          "x": 173,
+          "y": 465,
+          "width": 1022,
+          "height": 33,
+          "text": "1, Which of the following recyclables is NOT mentioned in paragraph 1? Put a tick (v’) in the box.",
+          "bold": false
+        },
+        {
+          "x": 701,
+          "y": 580,
+          "width": 15,
+          "height": 10,
+          "text": "=",
+          "bold": false
+        },
+        {
+          "x": 661,
+          "y": 657,
+          "width": 35,
+          "height": 33,
+          "text": "Oo",
+          "bold": false
+        },
+        {
+          "x": 347,
+          "y": 695,
+          "width": 830,
+          "height": 27,
+          "text": "GLASS METAL E-WASTE ORGANIC PAPER PLASTIC",
+          "bold": true
+        },
+        {
+          "x": 168,
+          "y": 774,
+          "width": 861,
+          "height": 24,
+          "text": "2. According to paragraph 1, what benefits are supposedly gained from recycling?",
+          "bold": false
+        },
+        {
+          "x": 167,
+          "y": 918,
+          "width": 1156,
+          "height": 24,
+          "text": "3, i) What was the writer’s view on recycling in 1996? (1 mark)",
+          "bold": true
+        },
+        {
+          "x": 235,
+          "y": 1090,
+          "width": 1087,
+          "height": 23,
+          "text": "ii) Why did his opponents disagree with him? (1 mark)",
+          "bold": true
+        },
+        {
+          "x": 164,
+          "y": 1290,
+          "width": 1050,
+          "height": 24,
+          "text": "4. According to paragraphs 2-4, are the following statements True (T), False (F) or Not Given (NG)?",
+          "bold": false
+        },
+        {
+          "x": 1229,
+          "y": 1321,
+          "width": 92,
+          "height": 23,
+          "text": "(4 marks)",
+          "bold": false
+        },
+        {
+          "x": 274,
+          "y": 1363,
+          "width": 1006,
+          "height": 32,
+          "text": "Statements T F NG",
+          "bold": true
+        },
+        {
+          "x": 237,
+          "y": 1427,
+          "width": 744,
+          "height": 23,
+          "text": "i) The writer is more optimistic about the recycling industry than he was",
+          "bold": false
+        },
+        {
+          "x": 1040,
+          "y": 1430,
+          "width": 50,
+          "height": 271,
+          "text": "0 0 OO",
+          "bold": true
+        },
+        {
+          "x": 1143,
+          "y": 1431,
+          "width": 49,
+          "height": 270,
+          "text": "0 0 OO",
+          "bold": true
+        },
+        {
+          "x": 1242,
+          "y": 1431,
+          "width": 49,
+          "height": 270,
+          "text": "0 0 OO",
+          "bold": true
+        },
+        {
+          "x": 286,
+          "y": 1456,
+          "width": 78,
+          "height": 18,
+          "text": "in 1996.",
+          "bold": false
+        },
+        {
+          "x": 237,
+          "y": 1507,
+          "width": 684,
+          "height": 24,
+          "text": "ii) Supporters of recycling are disappointed that the industry hasn’t",
+          "bold": false
+        },
+        {
+          "x": 282,
+          "y": 1536,
+          "width": 86,
+          "height": 19,
+          "text": "matured.",
+          "bold": false
+        },
+        {
+          "x": 236,
+          "y": 1583,
+          "width": 756,
+          "height": 23,
+          "text": "iii) Sending household waste to landfills is typically more costly than",
+          "bold": false
+        },
+        {
+          "x": 284,
+          "y": 1611,
+          "width": 116,
+          "height": 24,
+          "text": "recycling it.",
+          "bold": true
+        },
+        {
+          "x": 236,
+          "y": 1668,
+          "width": 606,
+          "height": 24,
+          "text": "iv) The business of some recycling companies has suffered.",
+          "bold": false
+        },
+        {
+          "x": 159,
+          "y": 1766,
+          "width": 509,
+          "height": 23,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 161,
+          "y": 1982,
+          "width": 599,
+          "height": 24,
+          "text": "2017-DSE-ENG LANG 1-A-1 1",
+          "bold": true
+        },
+        {
+          "x": 987,
+          "y": 2005,
+          "width": 401,
+          "height": 20,
+          "text": "*AO20E017A *",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2017/a/questions-1-figure-1.webp",
+          "x": 888,
+          "y": 60,
+          "width": 568,
+          "height": 252,
+          "alt": "Original figure 1"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2017/a/questions-1-figure-3.webp",
+          "x": 696,
+          "y": 176,
+          "width": 124,
+          "height": 120,
+          "alt": "Original figure 3"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2017/a/questions-1-figure-4.webp",
+          "x": 924,
+          "y": 540,
+          "width": 120,
+          "height": 168,
+          "alt": "Original figure 4"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2017/a/questions-1-figure-5.webp",
+          "x": 768,
+          "y": 556,
+          "width": 120,
+          "height": 152,
+          "alt": "Original figure 5"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2017/a/questions-1-figure-6.webp",
+          "x": 956,
+          "y": 1844,
+          "width": 464,
+          "height": 176,
+          "alt": "Original figure 6"
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 2",
+      "lines": [
+        {
+          "x": 179,
+          "y": 185,
+          "width": 658,
+          "height": 23,
+          "text": "5: According to paragraph 4, what is in less demand overseas?",
+          "bold": false
+        },
+        {
+          "x": 178,
+          "y": 328,
+          "width": 750,
+          "height": 23,
+          "text": "6. Which definition of ‘crisis’ is closest to the meaning used in line 22?",
+          "bold": false
+        },
+        {
+          "x": 247,
+          "y": 379,
+          "width": 636,
+          "height": 32,
+          "text": "A. atime when a difficult or important decision must be made",
+          "bold": false
+        },
+        {
+          "x": 248,
+          "y": 412,
+          "width": 1043,
+          "height": 37,
+          "text": "B. asudden change in the course of a serious illness, for better or worse A B c D",
+          "bold": true
+        },
+        {
+          "x": 247,
+          "y": 441,
+          "width": 544,
+          "height": 24,
+          "text": "C. stressful event or personal tragedy",
+          "bold": false
+        },
+        {
+          "x": 247,
+          "y": 461,
+          "width": 1050,
+          "height": 36,
+          "text": "D. _ the point, as in a play, at which conflict reaches its highest tension O O O O",
+          "bold": true
+        },
+        {
+          "x": 177,
+          "y": 568,
+          "width": 781,
+          "height": 23,
+          "text": "7. According to paragraph 6, why are people ill-informed about recycling?",
+          "bold": false
+        },
+        {
+          "x": 177,
+          "y": 848,
+          "width": 1120,
+          "height": 24,
+          "text": "8. Complete the following summary using ideas given in paragraphs 7 and 8. Write ONE word for each blank.",
+          "bold": false
+        },
+        {
+          "x": 229,
+          "y": 877,
+          "width": 1101,
+          "height": 24,
+          "text": "Answers must be grammatically correct. (5 marks)",
+          "bold": true
+        },
+        {
+          "x": 234,
+          "y": 952,
+          "width": 507,
+          "height": 24,
+          "text": "Recycling does not always lead to a reduction in (i)",
+          "bold": true
+        },
+        {
+          "x": 233,
+          "y": 1024,
+          "width": 1060,
+          "height": 24,
+          "text": "Although the E.P.A. encourages people to (ii) >",
+          "bold": true
+        },
+        {
+          "x": 234,
+          "y": 1091,
+          "width": 1067,
+          "height": 31,
+          "text": "it does not necessarily make much of a (iii). The matter becomes",
+          "bold": false
+        },
+        {
+          "x": 233,
+          "y": 1166,
+          "width": 1065,
+          "height": 25,
+          "text": "worse if people rinse their recyclables using (iv) _ and the electricity",
+          "bold": false
+        },
+        {
+          "x": 233,
+          "y": 1238,
+          "width": 897,
+          "height": 24,
+          "text": "used to produce that heat comes from a (v) -burning power station.",
+          "bold": false
+        },
+        {
+          "x": 176,
+          "y": 1396,
+          "width": 687,
+          "height": 24,
+          "text": "9. The writer uses the example of flying to show that recycling...",
+          "bold": false
+        },
+        {
+          "x": 296,
+          "y": 1437,
+          "width": 180,
+          "height": 18,
+          "text": "has some benefits.",
+          "bold": false
+        },
+        {
+          "x": 297,
+          "y": 1466,
+          "width": 200,
+          "height": 23,
+          "text": "is not very effective.",
+          "bold": false
+        },
+        {
+          "x": 297,
+          "y": 1485,
+          "width": 992,
+          "height": 33,
+          "text": "is as bad for the environment as flying. a B c D",
+          "bold": false
+        },
+        {
+          "x": 297,
+          "y": 1514,
+          "width": 999,
+          "height": 32,
+          "text": "can be effective, depending on which class of airfare. O O O O",
+          "bold": false
+        },
+        {
+          "x": 178,
+          "y": 1621,
+          "width": 1007,
+          "height": 24,
+          "text": "10. According to paragraph 8, the statistics mentioned in paragraph 7 can be misleading because...",
+          "bold": false
+        },
+        {
+          "x": 245,
+          "y": 1661,
+          "width": 450,
+          "height": 19,
+          "text": "A. some statistics have been overestimated.",
+          "bold": false
+        },
+        {
+          "x": 245,
+          "y": 1685,
+          "width": 508,
+          "height": 32,
+          "text": "B. _ people are not actually doing what is reported.",
+          "bold": false
+        },
+        {
+          "x": 368,
+          "y": 1704,
+          "width": 921,
+          "height": 31,
+          "text": "ae 3 A B Cc D",
+          "bold": false
+        },
+        {
+          "x": 245,
+          "y": 1717,
+          "width": 555,
+          "height": 20,
+          "text": "C. the statistics haven’t taken into account other facts.",
+          "bold": false
+        },
+        {
+          "x": 244,
+          "y": 1733,
+          "width": 1054,
+          "height": 40,
+          "text": "D. there is not enough evidence to draw any conclusions. O O O Oo",
+          "bold": true
+        },
+        {
+          "x": 169,
+          "y": 1876,
+          "width": 506,
+          "height": 24,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 175,
+          "y": 1969,
+          "width": 599,
+          "height": 24,
+          "text": "2017-DSE-ENG LANG 1-A-2 2",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2017/a/questions-2-figure-1.webp",
+          "x": 200,
+          "y": 896,
+          "width": 1136,
+          "height": 428,
+          "alt": "Original figure 1"
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 3",
+      "lines": [
+        {
+          "x": 183,
+          "y": 207,
+          "width": 1011,
+          "height": 25,
+          "text": "11. i) What does the writer think is the reason politicians support a “zero waste” policy (line 44)?",
+          "bold": false
+        },
+        {
+          "x": 248,
+          "y": 351,
+          "width": 797,
+          "height": 25,
+          "text": "ii) To achieve a “zero waste” policy, the levels of recycling would need to be...",
+          "bold": false
+        },
+        {
+          "x": 299,
+          "y": 396,
+          "width": 158,
+          "height": 18,
+          "text": "reduced to zero.",
+          "bold": false
+        },
+        {
+          "x": 299,
+          "y": 425,
+          "width": 180,
+          "height": 23,
+          "text": "modestly reduced.",
+          "bold": false
+        },
+        {
+          "x": 1068,
+          "y": 452,
+          "width": 230,
+          "height": 31,
+          "text": "A B (i D",
+          "bold": false
+        },
+        {
+          "x": 299,
+          "y": 453,
+          "width": 179,
+          "height": 24,
+          "text": "slightly increased.",
+          "bold": false
+        },
+        {
+          "x": 299,
+          "y": 478,
+          "width": 1004,
+          "height": 40,
+          "text": "increased significantly. O O O O",
+          "bold": true
+        },
+        {
+          "x": 178,
+          "y": 568,
+          "width": 544,
+          "height": 24,
+          "text": "12. According to paragraph 10, who recycles more?",
+          "bold": true
+        },
+        {
+          "x": 244,
+          "y": 609,
+          "width": 126,
+          "height": 18,
+          "text": "A. the rich",
+          "bold": false
+        },
+        {
+          "x": 244,
+          "y": 638,
+          "width": 134,
+          "height": 24,
+          "text": "B. the poor",
+          "bold": false
+        },
+        {
+          "x": 244,
+          "y": 658,
+          "width": 1052,
+          "height": 32,
+          "text": "C. people who live in cities A BC OD",
+          "bold": false
+        },
+        {
+          "x": 244,
+          "y": 687,
+          "width": 1057,
+          "height": 32,
+          "text": "D. people who have more free time O O O O",
+          "bold": true
+        },
+        {
+          "x": 176,
+          "y": 779,
+          "width": 1138,
+          "height": 26,
+          "text": "13. Using the information given in paragraph 11, complete the table with the missing percentages. (4 marks)",
+          "bold": false
+        },
+        {
+          "x": 240,
+          "y": 853,
+          "width": 1001,
+          "height": 26,
+          "text": "i) Current rate of recycling in the U.S. iii) Recycling target set by some state officials",
+          "bold": false
+        },
+        {
+          "x": 388,
+          "y": 897,
+          "width": 564,
+          "height": 20,
+          "text": "%%",
+          "bold": false
+        },
+        {
+          "x": 239,
+          "y": 957,
+          "width": 1039,
+          "height": 27,
+          "text": "ii) Recycling target set by the E.P.A. iv) Maximum percentage of trash useful to recycle",
+          "bold": false
+        },
+        {
+          "x": 387,
+          "y": 1000,
+          "width": 565,
+          "height": 20,
+          "text": "%%",
+          "bold": false
+        },
+        {
+          "x": 173,
+          "y": 1102,
+          "width": 1140,
+          "height": 26,
+          "text": "14. According to paragraph 12, what materials are practical to recycle? For each type of material, tick (“) ‘All’,",
+          "bold": false
+        },
+        {
+          "x": 224,
+          "y": 1130,
+          "width": 1093,
+          "height": 27,
+          "text": "‘Some’ or ‘None’. (3 marks)",
+          "bold": true
+        },
+        {
+          "x": 337,
+          "y": 1195,
+          "width": 581,
+          "height": 32,
+          "text": "Material All Some None",
+          "bold": true
+        },
+        {
+          "x": 598,
+          "y": 1212,
+          "width": 227,
+          "height": 32,
+          "text": "ee ne",
+          "bold": false
+        },
+        {
+          "x": 269,
+          "y": 1245,
+          "width": 121,
+          "height": 23,
+          "text": "i) metal",
+          "bold": false
+        },
+        {
+          "x": 269,
+          "y": 1290,
+          "width": 174,
+          "height": 23,
+          "text": "ii) food waste",
+          "bold": false
+        },
+        {
+          "x": 268,
+          "y": 1331,
+          "width": 167,
+          "height": 32,
+          "text": "iii) | cardboard",
+          "bold": true
+        },
+        {
+          "x": 170,
+          "y": 1426,
+          "width": 1098,
+          "height": 34,
+          "text": "15. What are the two alternatives to recycling mentioned in paragraph 14? Give one advantage of using each.",
+          "bold": false
+        },
+        {
+          "x": 1187,
+          "y": 1462,
+          "width": 94,
+          "height": 23,
+          "text": "(4 marks)",
+          "bold": false
+        },
+        {
+          "x": 218,
+          "y": 1502,
+          "width": 182,
+          "height": 23,
+          "text": "Alternative 1 (i).",
+          "bold": false
+        },
+        {
+          "x": 218,
+          "y": 1556,
+          "width": 188,
+          "height": 31,
+          "text": "Advantage (ii).",
+          "bold": true
+        },
+        {
+          "x": 217,
+          "y": 1711,
+          "width": 195,
+          "height": 23,
+          "text": "Alternative 2 (iii)",
+          "bold": true
+        },
+        {
+          "x": 218,
+          "y": 1768,
+          "width": 192,
+          "height": 22,
+          "text": "Advantage (iv).",
+          "bold": true
+        },
+        {
+          "x": 158,
+          "y": 1903,
+          "width": 508,
+          "height": 24,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 163,
+          "y": 1977,
+          "width": 1147,
+          "height": 38,
+          "text": "2017-DSE-ENG LANG 1-A-3 3 Go on to the next page",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2017/a/questions-3-figure-2.webp",
+          "x": 304,
+          "y": 1168,
+          "width": 668,
+          "height": 220,
+          "alt": "Original figure 2"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2017/a/questions-3-figure-3.webp",
+          "x": 1152,
+          "y": 1948,
+          "width": 208,
+          "height": 100,
+          "alt": "Original figure 3"
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 4",
+      "lines": [
+        {
+          "x": 148,
+          "y": 172,
+          "width": 992,
+          "height": 70,
+          "text": "[is What is ironic about the outcome described in paragraph 15? Use your own words to explain.",
+          "bold": true
+        },
+        {
+          "x": 167,
+          "y": 397,
+          "width": 961,
+          "height": 29,
+          "text": "17. According to paragraph 16, why might some people be opposed to an increase in recycling?",
+          "bold": false
+        },
+        {
+          "x": 167,
+          "y": 545,
+          "width": 569,
+          "height": 25,
+          "text": "18. According to paragraph 17, what is worth recycling?",
+          "bold": true
+        },
+        {
+          "x": 167,
+          "y": 684,
+          "width": 1149,
+          "height": 29,
+          "text": "19. Using information from paragraphs 5-12, match each person with one of the quotes below. Choose from A-F",
+          "bold": false
+        },
+        {
+          "x": 235,
+          "y": 713,
+          "width": 1027,
+          "height": 27,
+          "text": "and write the letter in the box next to each person. Two of the quotes will NOT be used. (4 marks)",
+          "bold": false
+        },
+        {
+          "x": 438,
+          "y": 773,
+          "width": 640,
+          "height": 24,
+          "text": "QUOTES QUOTES",
+          "bold": true
+        },
+        {
+          "x": 244,
+          "y": 815,
+          "width": 968,
+          "height": 37,
+          "text": "A_ | “There is a limit to effective recycling.” D | “Recycling can cause more pollution.”",
+          "bold": false
+        },
+        {
+          "x": 246,
+          "y": 879,
+          "width": 1045,
+          "height": 38,
+          "text": "B “Cities need to recycle all waste to E “The recycling movement needs more",
+          "bold": false
+        },
+        {
+          "x": 298,
+          "y": 909,
+          "width": 637,
+          "height": 27,
+          "text": "safeguard the planet’s future.” subsidies.”",
+          "bold": false
+        },
+        {
+          "x": 298,
+          "y": 968,
+          "width": 993,
+          "height": 28,
+          "text": "“Recycling has a negative impact on the “It’s more difficult to make money from",
+          "bold": false
+        },
+        {
+          "x": 245,
+          "y": 986,
+          "width": 936,
+          "height": 23,
+          "text": "c ” F ‘ ae",
+          "bold": false
+        },
+        {
+          "x": 299,
+          "y": 997,
+          "width": 876,
+          "height": 32,
+          "text": "economy. recycling than people might think.”",
+          "bold": true
+        },
+        {
+          "x": 233,
+          "y": 1086,
+          "width": 923,
+          "height": 33,
+          "text": "David Chris Bill de Winston",
+          "bold": true
+        },
+        {
+          "x": 233,
+          "y": 1113,
+          "width": 901,
+          "height": 33,
+          "text": "Steiner Goodall Blasio Porter",
+          "bold": true
+        },
+        {
+          "x": 168,
+          "y": 1219,
+          "width": 1024,
+          "height": 28,
+          "text": "20. Do you think recycling is a waste of time? Provide evidence from the text to support your answer.",
+          "bold": false
+        },
+        {
+          "x": 170,
+          "y": 1620,
+          "width": 514,
+          "height": 21,
+          "text": "21. Choose the best alternative title for this article.",
+          "bold": true
+        },
+        {
+          "x": 292,
+          "y": 1661,
+          "width": 229,
+          "height": 23,
+          "text": "In defence of recycling",
+          "bold": false
+        },
+        {
+          "x": 236,
+          "y": 1664,
+          "width": 21,
+          "height": 102,
+          "text": "pOw>",
+          "bold": true
+        },
+        {
+          "x": 292,
+          "y": 1689,
+          "width": 307,
+          "height": 24,
+          "text": "The pros and cons of recycling",
+          "bold": false
+        },
+        {
+          "x": 1194,
+          "y": 1703,
+          "width": 30,
+          "height": 61,
+          "text": "Oo",
+          "bold": true
+        },
+        {
+          "x": 1263,
+          "y": 1703,
+          "width": 30,
+          "height": 60,
+          "text": "Ov",
+          "bold": true
+        },
+        {
+          "x": 1052,
+          "y": 1704,
+          "width": 31,
+          "height": 61,
+          "text": "O>",
+          "bold": true
+        },
+        {
+          "x": 1125,
+          "y": 1704,
+          "width": 30,
+          "height": 60,
+          "text": "Or",
+          "bold": true
+        },
+        {
+          "x": 292,
+          "y": 1718,
+          "width": 410,
+          "height": 24,
+          "text": "Recycling is more rubbish than you think",
+          "bold": false
+        },
+        {
+          "x": 293,
+          "y": 1746,
+          "width": 442,
+          "height": 24,
+          "text": "Why cities are recycling less of their rubbish",
+          "bold": true
+        },
+        {
+          "x": 669,
+          "y": 1838,
+          "width": 190,
+          "height": 20,
+          "text": "END OF PART A",
+          "bold": true
+        },
+        {
+          "x": 167,
+          "y": 1893,
+          "width": 506,
+          "height": 23,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 173,
+          "y": 1968,
+          "width": 599,
+          "height": 29,
+          "text": "2017-DSE-ENG LANG 1-A-4 4",
+          "bold": true
+        }
+      ]
     }
   ]
 }

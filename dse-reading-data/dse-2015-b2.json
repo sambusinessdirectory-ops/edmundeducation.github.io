@@ -5,41 +5,7 @@
   "title": "Young Minds in Critical Condition",
   "sourceLabel": "HKDSE 2015 English Language Paper 1 Part B2",
   "sourceHeading": "Young Minds in Critical Condition",
-  "displayMode": "paper",
-  "passagePages": [
-    {
-      "src": "assets/reading-comprehension/dse/papers/2015/b2/passage-1.webp",
-      "alt": "HKDSE 2015 Part B2 original reading passage page 1",
-      "label": "Reading passage page 1"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2015/b2/passage-2.webp",
-      "alt": "HKDSE 2015 Part B2 original reading passage page 2",
-      "label": "Reading passage page 2"
-    }
-  ],
-  "questionPages": [
-    {
-      "src": "assets/reading-comprehension/dse/papers/2015/b2/questions-1.webp",
-      "alt": "HKDSE 2015 Part B2 original question page 1",
-      "label": "Question page 1"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2015/b2/questions-2.webp",
-      "alt": "HKDSE 2015 Part B2 original question page 2",
-      "label": "Question page 2"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2015/b2/questions-3.webp",
-      "alt": "HKDSE 2015 Part B2 original question page 3",
-      "label": "Question page 3"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2015/b2/questions-4.webp",
-      "alt": "HKDSE 2015 Part B2 original question page 4",
-      "label": "Question page 4"
-    }
-  ],
+  "displayMode": "structured-paper",
   "paragraphs": [],
   "instructions": {
     "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
@@ -198,6 +164,1840 @@
       "type": "textarea",
       "prompt": "Question 77",
       "placeholder": "Enter all answer parts for Question 77"
+    }
+  ],
+  "structuredPassagePages": [
+    {
+      "width": 1489,
+      "height": 2106,
+      "label": "Reading passage page 1",
+      "lines": [
+        {
+          "x": 233,
+          "y": 136,
+          "width": 121,
+          "height": 23,
+          "text": "PART B2",
+          "bold": true
+        },
+        {
+          "x": 231,
+          "y": 199,
+          "width": 826,
+          "height": 24,
+          "text": "Read Text 5 and answer questions 56-77 of the Question-Answer Book for Part B2.",
+          "bold": false
+        },
+        {
+          "x": 231,
+          "y": 258,
+          "width": 60,
+          "height": 17,
+          "text": "Text 5",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 330,
+          "width": 613,
+          "height": 34,
+          "text": "Young Minds in Critical Condition",
+          "bold": true
+        },
+        {
+          "x": 230,
+          "y": 370,
+          "width": 194,
+          "height": 24,
+          "text": "By Michael S. Roth",
+          "bold": true
+        },
+        {
+          "x": 231,
+          "y": 429,
+          "width": 1068,
+          "height": 29,
+          "text": "[1] It happens every semester. A student triumphantly points out that Jean-Jacques Rousseau! is",
+          "bold": false
+        },
+        {
+          "x": 229,
+          "y": 462,
+          "width": 1070,
+          "height": 24,
+          "text": "undermining himself when he claims “the man who reflects is a depraved animal,” or that Ralph Waldo",
+          "bold": false
+        },
+        {
+          "x": 229,
+          "y": 491,
+          "width": 1070,
+          "height": 24,
+          "text": "Emerson’s* call for self-reliance is in effect a call for reliance on Emerson himself. Trying not to sound too",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 520,
+          "width": 872,
+          "height": 23,
+          "text": "weary, I ask the student to imagine that the authors had already considered these issues.",
+          "bold": false
+        },
+        {
+          "x": 230,
+          "y": 583,
+          "width": 1069,
+          "height": 24,
+          "text": "[2] Instead of trying to find mistakes in the texts, I suggest we take the point of view that our authors",
+          "bold": false
+        },
+        {
+          "x": 229,
+          "y": 612,
+          "width": 1068,
+          "height": 23,
+          "text": "created these apparent “contradictions” in order to get readers like us to ponder more interesting questions.",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 641,
+          "width": 1070,
+          "height": 24,
+          "text": "How do we think about inequality and learning, for example, or how can we stand on our own feet while",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 670,
+          "width": 1073,
+          "height": 24,
+          "text": "being open to inspiration from the world around us? Yes, there’s a certain satisfaction in being critical of",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 698,
+          "width": 1029,
+          "height": 25,
+          "text": "our authors, but isn’t it more interesting to put ourselves in a frame of mind to find inspiration in them?",
+          "bold": false
+        },
+        {
+          "x": 229,
+          "y": 763,
+          "width": 1069,
+          "height": 24,
+          "text": "[3] Our best college students are very good at being critical. In fact being smart, for many, means being",
+          "bold": false
+        },
+        {
+          "x": 179,
+          "y": 764,
+          "width": 20,
+          "height": 17,
+          "text": "10",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 791,
+          "width": 1069,
+          "height": 24,
+          "text": "critical. Having strong critical skills shows that you will not be easily fooled. It is a sign of sophistication,",
+          "bold": false
+        },
+        {
+          "x": 227,
+          "y": 820,
+          "width": 759,
+          "height": 24,
+          "text": "especially when coupled with an acknowledgment of one’s own “privilege”.",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 884,
+          "width": 1069,
+          "height": 24,
+          "text": "[4] The combination of resistance to influence and deflection of responsibility by confessing to one’s",
+          "bold": false
+        },
+        {
+          "x": 227,
+          "y": 913,
+          "width": 1071,
+          "height": 23,
+          "text": "advantages is a sure sign of one’s ability to negotiate the politics of learning on campus. But this ability",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 941,
+          "width": 1071,
+          "height": 25,
+          "text": "will not take you very far beyond the university. Taking things apart, or taking people down, can provide",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 970,
+          "width": 504,
+          "height": 24,
+          "text": "the satisfactions of cynicism. But this is thin gruel.",
+          "bold": true
+        },
+        {
+          "x": 228,
+          "y": 1034,
+          "width": 1068,
+          "height": 23,
+          "text": "[5] The skill at unmasking error, or simple intellectual one-upmanship, is not totally without value, but we",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1062,
+          "width": 1070,
+          "height": 23,
+          "text": "should be wary of creating a class of self-satisfied debunkers — or, to use a currently fashionable word on",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1091,
+          "width": 1070,
+          "height": 24,
+          "text": "campus, people who like to “trouble” ideas. In overdeveloping the capacity to show how texts, institutions",
+          "bold": false
+        },
+        {
+          "x": 175,
+          "y": 1120,
+          "width": 23,
+          "height": 18,
+          "text": "20",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1120,
+          "width": 1070,
+          "height": 23,
+          "text": "or people fail to accomplish what they set out to do, we may be depriving students of the chance to learn as",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1148,
+          "width": 393,
+          "height": 24,
+          "text": "much as possible from what they study.",
+          "bold": true
+        },
+        {
+          "x": 227,
+          "y": 1208,
+          "width": 1069,
+          "height": 32,
+          "text": "[6] In campus cultures where being smart means being a critical unmasker, students may become too good",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1241,
+          "width": 1069,
+          "height": 24,
+          "text": "at showing how things can’t possibly make sense. They may close themselves off from their potential to",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1270,
+          "width": 1069,
+          "height": 24,
+          "text": "find or create meaning and direction from the books, music and experiments they encounter in the",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1300,
+          "width": 102,
+          "height": 18,
+          "text": "classroom.",
+          "bold": true
+        },
+        {
+          "x": 226,
+          "y": 1363,
+          "width": 1069,
+          "height": 24,
+          "text": "[7] Once outside the university, these students may try to score points by displaying the critical prowess",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 1392,
+          "width": 1070,
+          "height": 24,
+          "text": "for which they were rewarded in school, but those points often come at their own expense. As debunkers,",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 1417,
+          "width": 1070,
+          "height": 32,
+          "text": "they contribute to a cultural climate that has little tolerance for finding or making meaning — a culture",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 1450,
+          "width": 1071,
+          "height": 24,
+          "text": "whose intellectuals and cultural commentators get “liked” by showing that somebody else just can’t be",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 1479,
+          "width": 461,
+          "height": 22,
+          "text": "believed. But this cynicism is no achievement.",
+          "bold": true
+        },
+        {
+          "x": 226,
+          "y": 1542,
+          "width": 1073,
+          "height": 24,
+          "text": "[8] Liberal education in America has long been characterized by the intertwining of two traditions: of",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 1572,
+          "width": 1070,
+          "height": 23,
+          "text": "critical inquiry in pursuit of truth and exuberant performance in pursuit of excellence. In the last half-",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 1600,
+          "width": 1070,
+          "height": 23,
+          "text": "century, though, emphasis on inquiry has become dominant, and it has often been reduced to the ability to",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 1628,
+          "width": 1069,
+          "height": 24,
+          "text": "expose error and undermine belief. The inquirer has taken the guise of the sophisticated (often ironic)",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 1657,
+          "width": 1073,
+          "height": 24,
+          "text": "spectator, rather than the messy participant in continuing experiments or even the reverent beholder of",
+          "bold": false
+        },
+        {
+          "x": 224,
+          "y": 1686,
+          "width": 277,
+          "height": 24,
+          "text": "great cultural achievements,",
+          "bold": true
+        },
+        {
+          "x": 225,
+          "y": 1776,
+          "width": 1046,
+          "height": 28,
+          "text": "1 Jean-Jacques Rousseau was a philosopher and writer of the 18th century. His political philosophy influenced",
+          "bold": false
+        },
+        {
+          "x": 224,
+          "y": 1806,
+          "width": 214,
+          "height": 17,
+          "text": "the French Revolution.",
+          "bold": false
+        },
+        {
+          "x": 224,
+          "y": 1832,
+          "width": 1070,
+          "height": 21,
+          "text": "2 Ralph Waldo Emerson was an American writer, lecturer, and poet of the mid-19th century. He was seen as a",
+          "bold": false
+        },
+        {
+          "x": 224,
+          "y": 1855,
+          "width": 256,
+          "height": 29,
+          "text": "champion of individualism.",
+          "bold": true
+        },
+        {
+          "x": 224,
+          "y": 1999,
+          "width": 588,
+          "height": 18,
+          "text": "2015-DSE-ENG LANG 1-B2-RP-2 2",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "width": 1489,
+      "height": 2106,
+      "label": "Reading passage page 2",
+      "lines": [
+        {
+          "x": 234,
+          "y": 201,
+          "width": 1068,
+          "height": 25,
+          "text": "[9] Of course critical reflection is fundamental to teaching and scholarship, but fetishizing disbelief as a",
+          "bold": false
+        },
+        {
+          "x": 233,
+          "y": 230,
+          "width": 1068,
+          "height": 24,
+          "text": "sign of intelligence has contributed to depleting our cultural resources. Creative work, in whatever field,",
+          "bold": false
+        },
+        {
+          "x": 233,
+          "y": 259,
+          "width": 1073,
+          "height": 24,
+          "text": "depends upon commitment, the energy of participation and the ability to become absorbed in works of",
+          "bold": false
+        },
+        {
+          "x": 233,
+          "y": 288,
+          "width": 1068,
+          "height": 24,
+          "text": "literature, art and science. That type of absorption is becoming an endangered species of cultural life, as",
+          "bold": false
+        },
+        {
+          "x": 181,
+          "y": 289,
+          "width": 23,
+          "height": 17,
+          "text": "40",
+          "bold": false
+        },
+        {
+          "x": 232,
+          "y": 316,
+          "width": 960,
+          "height": 25,
+          "text": "our nonstop, increasingly fractured technological existence wears down our receptive capacities.",
+          "bold": false
+        },
+        {
+          "x": 234,
+          "y": 380,
+          "width": 1067,
+          "height": 25,
+          "text": "[10] In my film and philosophy class, for example, I have to insist that students put their devices away",
+          "bold": false
+        },
+        {
+          "x": 231,
+          "y": 409,
+          "width": 1071,
+          "height": 24,
+          "text": "while watching movies that don’t immediately engage their senses with explosions, sex or gag lines. At",
+          "bold": false
+        },
+        {
+          "x": 232,
+          "y": 437,
+          "width": 1069,
+          "height": 25,
+          "text": "first they see this as some old guy’s failure to grasp their skill at multitasking, but eventually most relearn",
+          "bold": false
+        },
+        {
+          "x": 180,
+          "y": 467,
+          "width": 22,
+          "height": 18,
+          "text": "45",
+          "bold": false
+        },
+        {
+          "x": 231,
+          "y": 467,
+          "width": 1070,
+          "height": 24,
+          "text": "how to give themselves to an emotional and intellectual experience, one that is deeply engaging partly",
+          "bold": false
+        },
+        {
+          "x": 231,
+          "y": 496,
+          "width": 1069,
+          "height": 23,
+          "text": "because it does not pander to their most superficial habits of attention. I usually watch the movies with",
+          "bold": false
+        },
+        {
+          "x": 231,
+          "y": 524,
+          "width": 1069,
+          "height": 25,
+          "text": "them (though I’ve seen them more than a dozen times), and together we share an experience that becomes",
+          "bold": false
+        },
+        {
+          "x": 231,
+          "y": 552,
+          "width": 1069,
+          "height": 25,
+          "text": "the subject of reflection, interpretation and analysis. We even forget our phones and tablets when we",
+          "bold": false
+        },
+        {
+          "x": 231,
+          "y": 582,
+          "width": 499,
+          "height": 23,
+          "text": "encounter these unexpected sources of inspiration.",
+          "bold": true
+        },
+        {
+          "x": 180,
+          "y": 646,
+          "width": 22,
+          "height": 18,
+          "text": "50",
+          "bold": false
+        },
+        {
+          "x": 232,
+          "y": 646,
+          "width": 1068,
+          "height": 24,
+          "text": "[11] Liberal learning depends on absorption in compelling work. It is a way to open ourselves to the",
+          "bold": false
+        },
+        {
+          "x": 230,
+          "y": 675,
+          "width": 1069,
+          "height": 23,
+          "text": "various forms of life in which we might actively participate. When we learn to read or look or listen",
+          "bold": false
+        },
+        {
+          "x": 231,
+          "y": 704,
+          "width": 1068,
+          "height": 24,
+          "text": "intensively, we are, at least temporarily, overcoming our own blindness by trying to understand an",
+          "bold": false
+        },
+        {
+          "x": 230,
+          "y": 732,
+          "width": 1069,
+          "height": 25,
+          "text": "experience from another’s point of view. We are not just developing techniques of problem solving; we are",
+          "bold": false
+        },
+        {
+          "x": 230,
+          "y": 761,
+          "width": 682,
+          "height": 24,
+          "text": "learning to activate potential, and often to instigate new possibilities.",
+          "bold": false
+        },
+        {
+          "x": 230,
+          "y": 824,
+          "width": 1069,
+          "height": 26,
+          "text": "[12] Yes, hard-nosed critical thinking is a useful tool, but it also may become a defense against the risky",
+          "bold": false
+        },
+        {
+          "x": 179,
+          "y": 826,
+          "width": 21,
+          "height": 17,
+          "text": "35.",
+          "bold": false
+        },
+        {
+          "x": 229,
+          "y": 853,
+          "width": 1070,
+          "height": 25,
+          "text": "insight that absorption can offer. As students and as teachers we sometimes crave that protection; without",
+          "bold": false
+        },
+        {
+          "x": 229,
+          "y": 882,
+          "width": 1070,
+          "height": 24,
+          "text": "it we risk changing who we are. We risk seeing a different way of living not as something alien, but as a",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 911,
+          "width": 584,
+          "height": 23,
+          "text": "possibility we might be able to explore, and even embrace.",
+          "bold": false
+        },
+        {
+          "x": 230,
+          "y": 975,
+          "width": 1069,
+          "height": 24,
+          "text": "[13] Liberal education must not limit itself to critical thinking and problem solving; it must also foster",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 1000,
+          "width": 1073,
+          "height": 32,
+          "text": "openness, participation and opportunity. It should be designed to take us beyond the campus to a life of",
+          "bold": false
+        },
+        {
+          "x": 178,
+          "y": 1004,
+          "width": 22,
+          "height": 18,
+          "text": "60",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 1032,
+          "width": 1070,
+          "height": 24,
+          "text": "ongoing, pragmatic learning that finds inspiration in unexpected sources, and increases our capacity to",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 1061,
+          "width": 863,
+          "height": 24,
+          "text": "understand and contribute to the world — and reshape it, and ourselves, in the process.",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 1173,
+          "width": 148,
+          "height": 22,
+          "text": "Comments",
+          "bold": true
+        },
+        {
+          "x": 227,
+          "y": 1243,
+          "width": 53,
+          "height": 21,
+          "text": "Tom",
+          "bold": true
+        },
+        {
+          "x": 176,
+          "y": 1289,
+          "width": 22,
+          "height": 17,
+          "text": "65",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1297,
+          "width": 295,
+          "height": 17,
+          "text": "6/5/2014 2:47 AM GMT+0800",
+          "bold": true
+        },
+        {
+          "x": 226,
+          "y": 1338,
+          "width": 1053,
+          "height": 26,
+          "text": "Are you serious? $60,000 taken out in student loans for tuition, room and board and no prospect for a job.",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1367,
+          "width": 1055,
+          "height": 25,
+          "text": "Better to stick to any STEM program in college (science, technology, engineering, math). You can get the",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1396,
+          "width": 1064,
+          "height": 24,
+          "text": "type of education discussed in the article, and even more, from your local library, with maybe $1.50 in late",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1425,
+          "width": 996,
+          "height": 24,
+          "text": "fines when you are finished, if you really want to explore what it means to be human. PUH-LEEZE.",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1454,
+          "width": 844,
+          "height": 25,
+          "text": "Clearly this article was written for the American higher education “rip-off machine”.",
+          "bold": false
+        },
+        {
+          "x": 175,
+          "y": 1455,
+          "width": 23,
+          "height": 17,
+          "text": "70",
+          "bold": false
+        },
+        {
+          "x": 227,
+          "y": 1504,
+          "width": 70,
+          "height": 21,
+          "text": "Laura",
+          "bold": true
+        },
+        {
+          "x": 225,
+          "y": 1559,
+          "width": 295,
+          "height": 17,
+          "text": "6/5/2014 8:00 PM GMT+0800",
+          "bold": true
+        },
+        {
+          "x": 226,
+          "y": 1600,
+          "width": 1043,
+          "height": 25,
+          "text": "It takes months or years to design and build a structure, and most are incapable of doing this; however, it",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 1629,
+          "width": 364,
+          "height": 18,
+          "text": "takes hours and less skill to wreck it.",
+          "bold": true
+        },
+        {
+          "x": 580,
+          "y": 1836,
+          "width": 359,
+          "height": 20,
+          "text": "END OF READING PASSAGES",
+          "bold": true
+        },
+        {
+          "x": 225,
+          "y": 1896,
+          "width": 1071,
+          "height": 21,
+          "text": "Sources of materials used in this paper will be acknowledged in the Examination Report and Question Papers",
+          "bold": false
+        },
+        {
+          "x": 224,
+          "y": 1922,
+          "width": 769,
+          "height": 21,
+          "text": "published by the Hong Kong Examinations and Assessment Authority at a later stage.",
+          "bold": false
+        },
+        {
+          "x": 224,
+          "y": 1996,
+          "width": 587,
+          "height": 17,
+          "text": "2015-DSE-ENG LANG 1-B2-RP-3 3",
+          "bold": true
+        }
+      ]
+    }
+  ],
+  "structuredQuestionPages": [
+    {
+      "width": 1489,
+      "height": 2106,
+      "label": "Question page 1",
+      "lines": [
+        {
+          "x": 923,
+          "y": 111,
+          "width": 469,
+          "height": 24,
+          "text": "Please stick the barcode label here.",
+          "bold": false
+        },
+        {
+          "x": 167,
+          "y": 134,
+          "width": 164,
+          "height": 16,
+          "text": "Candidate Number",
+          "bold": false
+        },
+        {
+          "x": 168,
+          "y": 194,
+          "width": 174,
+          "height": 23,
+          "text": "HKDSE 2015",
+          "bold": true
+        },
+        {
+          "x": 697,
+          "y": 213,
+          "width": 138,
+          "height": 87,
+          "text": "B2",
+          "bold": true
+        },
+        {
+          "x": 168,
+          "y": 227,
+          "width": 307,
+          "height": 24,
+          "text": "ENGLISH LANGUAGE",
+          "bold": true
+        },
+        {
+          "x": 167,
+          "y": 262,
+          "width": 258,
+          "height": 24,
+          "text": "PAPER 1 PART B2",
+          "bold": true
+        },
+        {
+          "x": 167,
+          "y": 296,
+          "width": 393,
+          "height": 26,
+          "text": "QUESTION-ANSWER BOOK",
+          "bold": true
+        },
+        {
+          "x": 670,
+          "y": 307,
+          "width": 194,
+          "height": 15,
+          "text": "DIFFICULT SECTION",
+          "bold": true
+        },
+        {
+          "x": 167,
+          "y": 376,
+          "width": 905,
+          "height": 24,
+          "text": "Write your Candidate Number and stick a barcode label in the space provided on this page.",
+          "bold": false
+        },
+        {
+          "x": 166,
+          "y": 427,
+          "width": 568,
+          "height": 25,
+          "text": "Read Text 5 and answer questions 56-77. (40 marks)",
+          "bold": true
+        },
+        {
+          "x": 167,
+          "y": 484,
+          "width": 1040,
+          "height": 26,
+          "text": "56. Why does Michael Roth try “not to sound too weary” (lines 3-4) when he replies to his students?",
+          "bold": false
+        },
+        {
+          "x": 240,
+          "y": 534,
+          "width": 364,
+          "height": 19,
+          "text": "A. The students are not self-reliant.",
+          "bold": false
+        },
+        {
+          "x": 241,
+          "y": 563,
+          "width": 383,
+          "height": 24,
+          "text": "B. The students have no imagination.",
+          "bold": false
+        },
+        {
+          "x": 241,
+          "y": 591,
+          "width": 1047,
+          "height": 24,
+          "text": "C. He thinks the writers are not interesting. A B € D",
+          "bold": false
+        },
+        {
+          "x": 241,
+          "y": 614,
+          "width": 1054,
+          "height": 32,
+          "text": "D. He has replied to these comments many times before. oO 0 © O",
+          "bold": false
+        },
+        {
+          "x": 166,
+          "y": 702,
+          "width": 1008,
+          "height": 25,
+          "text": "57. i) In lines 1-2, the student points out that Jean-Jacques Rousseau “is undermining himself”.",
+          "bold": false
+        },
+        {
+          "x": 289,
+          "y": 732,
+          "width": 325,
+          "height": 24,
+          "text": "Why does the student think this?",
+          "bold": true
+        },
+        {
+          "x": 232,
+          "y": 910,
+          "width": 453,
+          "height": 24,
+          "text": "ii) Why might the student feel triumphant?",
+          "bold": true
+        },
+        {
+          "x": 165,
+          "y": 1119,
+          "width": 1136,
+          "height": 34,
+          "text": "58. | Which word or phrase in paragraph 2 best summarizes the student’s criticism of the writers in paragraph 1?",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1247,
+          "width": 1107,
+          "height": 27,
+          "text": "59, Match the person on the left with the idea presented in the questions on the right taken from paragraph 2.",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1276,
+          "width": 1062,
+          "height": 25,
+          "text": "Write the letter (A-C) on the line next to the person’s name. ONE question is not used. (2 marks)",
+          "bold": false
+        },
+        {
+          "x": 394,
+          "y": 1342,
+          "width": 626,
+          "height": 22,
+          "text": "Person Question",
+          "bold": true
+        },
+        {
+          "x": 243,
+          "y": 1396,
+          "width": 1041,
+          "height": 25,
+          "text": "i) Michael Roth A. “How do we think about inequality and learning?” (line 7)",
+          "bold": false
+        },
+        {
+          "x": 650,
+          "y": 1454,
+          "width": 614,
+          "height": 22,
+          "text": "B. “How can we stand on our own feet while being open to",
+          "bold": true
+        },
+        {
+          "x": 243,
+          "y": 1470,
+          "width": 957,
+          "height": 37,
+          "text": "i) Ralph Waldo inspiration from the world around us?” (lines 7-8)",
+          "bold": true
+        },
+        {
+          "x": 650,
+          "y": 1528,
+          "width": 600,
+          "height": 25,
+          "text": "C. “Isn’t it more interesting to put ourselves in a frame of",
+          "bold": false
+        },
+        {
+          "x": 703,
+          "y": 1558,
+          "width": 419,
+          "height": 24,
+          "text": "mind to find inspiration in them?” (line 9)",
+          "bold": true
+        },
+        {
+          "x": 165,
+          "y": 1621,
+          "width": 395,
+          "height": 23,
+          "text": "60. What does “It” (line 11) refer to?",
+          "bold": true
+        },
+        {
+          "x": 160,
+          "y": 1787,
+          "width": 510,
+          "height": 23,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 1003,
+          "y": 2020,
+          "width": 359,
+          "height": 21,
+          "text": "«A © 2° OE VB 2",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2015/b2/questions-1-figure-1.webp",
+          "x": 876,
+          "y": 76,
+          "width": 560,
+          "height": 240,
+          "alt": "Original figure 1"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2015/b2/questions-1-figure-3.webp",
+          "x": 972,
+          "y": 1860,
+          "width": 496,
+          "height": 246,
+          "alt": "Original figure 3"
+        }
+      ]
+    },
+    {
+      "width": 1489,
+      "height": 2106,
+      "label": "Question page 2",
+      "lines": [
+        {
+          "x": 168,
+          "y": 206,
+          "width": 1090,
+          "height": 24,
+          "text": "61. Complete this summary of paragraphs 3 and 4 by choosing a word from the eight options given below.",
+          "bold": false
+        },
+        {
+          "x": 231,
+          "y": 235,
+          "width": 1050,
+          "height": 24,
+          "text": "Write the correct word in the space provided. Each word can be used ONCE only. (3 marks)",
+          "bold": false
+        },
+        {
+          "x": 452,
+          "y": 306,
+          "width": 563,
+          "height": 33,
+          "text": "difficult important intelligent gruelling",
+          "bold": true
+        },
+        {
+          "x": 452,
+          "y": 334,
+          "width": 603,
+          "height": 33,
+          "text": "responsible _ satisfying cynical unproductive",
+          "bold": true
+        },
+        {
+          "x": 234,
+          "y": 415,
+          "width": 976,
+          "height": 24,
+          "text": "According to Roth, the kind of thinking honed at college is (i) once",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 480,
+          "width": 775,
+          "height": 25,
+          "text": "students leave the campus. However, students believe it makes them more (ii)",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 546,
+          "width": 485,
+          "height": 23,
+          "text": "although others may feel they are just being (iii)",
+          "bold": true
+        },
+        {
+          "x": 166,
+          "y": 630,
+          "width": 1115,
+          "height": 22,
+          "text": "62. Based on paragraphs 5 and 6, decide whether the following statements are True, False or the information",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 658,
+          "width": 1059,
+          "height": 24,
+          "text": "is Not Given. Blacken ONE circle only for each statement. (3 marks)",
+          "bold": false
+        },
+        {
+          "x": 1070,
+          "y": 721,
+          "width": 32,
+          "height": 202,
+          "text": "O Os O",
+          "bold": true
+        },
+        {
+          "x": 1164,
+          "y": 721,
+          "width": 32,
+          "height": 202,
+          "text": "O O O»",
+          "bold": true
+        },
+        {
+          "x": 1256,
+          "y": 721,
+          "width": 35,
+          "height": 17,
+          "text": "NG",
+          "bold": true
+        },
+        {
+          "x": 1260,
+          "y": 744,
+          "width": 31,
+          "height": 32,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 241,
+          "y": 751,
+          "width": 511,
+          "height": 24,
+          "text": "i) The writer thinks that being critical has no use.",
+          "bold": true
+        },
+        {
+          "x": 1260,
+          "y": 817,
+          "width": 31,
+          "height": 32,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 240,
+          "y": 822,
+          "width": 556,
+          "height": 23,
+          "text": "ii) Students could learn more if they were less critical.",
+          "bold": false
+        },
+        {
+          "x": 1259,
+          "y": 891,
+          "width": 29,
+          "height": 32,
+          "text": "©",
+          "bold": false
+        },
+        {
+          "x": 240,
+          "y": 894,
+          "width": 734,
+          "height": 23,
+          "text": "ili) Students don’t enjoy books, music and experiments in the classroom.",
+          "bold": false
+        },
+        {
+          "x": 166,
+          "y": 990,
+          "width": 445,
+          "height": 33,
+          "text": "63. | What is the main idea in paragraph 7?",
+          "bold": true
+        },
+        {
+          "x": 281,
+          "y": 1043,
+          "width": 442,
+          "height": 23,
+          "text": "Living outside university requires tolerance.",
+          "bold": false
+        },
+        {
+          "x": 282,
+          "y": 1071,
+          "width": 591,
+          "height": 23,
+          "text": "Critical skills contribute to your popularity after university.",
+          "bold": false
+        },
+        {
+          "x": 281,
+          "y": 1096,
+          "width": 1005,
+          "height": 32,
+          "text": "Displaying critical prowess has little benefit after university. A B Cc D",
+          "bold": false
+        },
+        {
+          "x": 281,
+          "y": 1119,
+          "width": 1014,
+          "height": 40,
+          "text": "There is little critical thinking outside the university. (®) O ©",
+          "bold": true
+        },
+        {
+          "x": 163,
+          "y": 1214,
+          "width": 1149,
+          "height": 24,
+          "text": "64. Below is a summary of paragraph 8. In three of the lines, there is ONE mistake. If you find a mistake,",
+          "bold": false
+        },
+        {
+          "x": 231,
+          "y": 1244,
+          "width": 1082,
+          "height": 23,
+          "text": "underline the mistake and replace the word with one that expresses the correct idea. Write the word in the",
+          "bold": false
+        },
+        {
+          "x": 231,
+          "y": 1271,
+          "width": 1000,
+          "height": 25,
+          "text": "space on the right. If there is no mistake, put a tick (W) in the space. The first has been done for you.",
+          "bold": false
+        },
+        {
+          "x": 1193,
+          "y": 1302,
+          "width": 92,
+          "height": 23,
+          "text": "(4 marks)",
+          "bold": false
+        },
+        {
+          "x": 288,
+          "y": 1352,
+          "width": 869,
+          "height": 31,
+          "text": "Summary Correction",
+          "bold": false
+        },
+        {
+          "x": 221,
+          "y": 1389,
+          "width": 953,
+          "height": 33,
+          "text": "e.g. | There are three traditions in liberal education in America: two",
+          "bold": false
+        },
+        {
+          "x": 221,
+          "y": 1443,
+          "width": 609,
+          "height": 23,
+          "text": "i) one pursues truth, the other pursues exuberance. Since",
+          "bold": false
+        },
+        {
+          "x": 218,
+          "y": 1497,
+          "width": 617,
+          "height": 31,
+          "text": "ii) the 1960s, there has been less emphasis on the former,",
+          "bold": true
+        },
+        {
+          "x": 221,
+          "y": 1556,
+          "width": 758,
+          "height": 32,
+          "text": "iii) | which now is synonymous with fault-finding and challenging beliefs.",
+          "bold": false
+        },
+        {
+          "x": 221,
+          "y": 1615,
+          "width": 780,
+          "height": 33,
+          "text": "iv) | Rather than being a participant, there is a preference to be a competitor.",
+          "bold": false
+        },
+        {
+          "x": 163,
+          "y": 1693,
+          "width": 725,
+          "height": 24,
+          "text": "65. Which phrase can replace the meaning of “fetishizing” in line 37?",
+          "bold": false
+        },
+        {
+          "x": 236,
+          "y": 1743,
+          "width": 228,
+          "height": 18,
+          "text": "A. the obsession with",
+          "bold": false
+        },
+        {
+          "x": 236,
+          "y": 1771,
+          "width": 193,
+          "height": 24,
+          "text": "B. the problem of",
+          "bold": false
+        },
+        {
+          "x": 1044,
+          "y": 1796,
+          "width": 241,
+          "height": 30,
+          "text": "A B Cc D",
+          "bold": false
+        },
+        {
+          "x": 237,
+          "y": 1800,
+          "width": 171,
+          "height": 18,
+          "text": "C. the hatred of",
+          "bold": false
+        },
+        {
+          "x": 255,
+          "y": 1823,
+          "width": 1038,
+          "height": 33,
+          "text": ". the experiment with O O O ©",
+          "bold": false
+        },
+        {
+          "x": 236,
+          "y": 1830,
+          "width": 17,
+          "height": 17,
+          "text": "D.",
+          "bold": true
+        },
+        {
+          "x": 156,
+          "y": 1904,
+          "width": 512,
+          "height": 23,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 162,
+          "y": 2002,
+          "width": 593,
+          "height": 27,
+          "text": "2015-DSE-ENG LANG 1-B2—2 2",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "width": 1489,
+      "height": 2106,
+      "label": "Question page 3",
+      "lines": [
+        {
+          "x": 235,
+          "y": 205,
+          "width": 1007,
+          "height": 23,
+          "text": "According to paragraph 9, in what two ways have people changed, contributing to the changes in our",
+          "bold": false
+        },
+        {
+          "x": 170,
+          "y": 206,
+          "width": 28,
+          "height": 18,
+          "text": "66.",
+          "bold": false
+        },
+        {
+          "x": 235,
+          "y": 234,
+          "width": 1051,
+          "height": 22,
+          "text": "cultural life? (2 marks)",
+          "bold": true
+        },
+        {
+          "x": 235,
+          "y": 289,
+          "width": 13,
+          "height": 22,
+          "text": "i)",
+          "bold": false
+        },
+        {
+          "x": 235,
+          "y": 450,
+          "width": 19,
+          "height": 22,
+          "text": "ii)",
+          "bold": false
+        },
+        {
+          "x": 238,
+          "y": 610,
+          "width": 1015,
+          "height": 24,
+          "text": "In paragraph 10, what does Michael Roth believe students initially would prefer to watch in his class?",
+          "bold": false
+        },
+        {
+          "x": 168,
+          "y": 612,
+          "width": 29,
+          "height": 17,
+          "text": "67.",
+          "bold": false
+        },
+        {
+          "x": 234,
+          "y": 771,
+          "width": 940,
+          "height": 31,
+          "text": "i) | Why do the students think Michael Roth asks them to put away their phones and tablets?",
+          "bold": false
+        },
+        {
+          "x": 167,
+          "y": 776,
+          "width": 29,
+          "height": 18,
+          "text": "68.",
+          "bold": false
+        },
+        {
+          "x": 234,
+          "y": 919,
+          "width": 1055,
+          "height": 33,
+          "text": "ii) | When Michael Roth says that the class even “forget” their phones and tablets, what does this imply?",
+          "bold": false
+        },
+        {
+          "x": 234,
+          "y": 1084,
+          "width": 974,
+          "height": 24,
+          "text": "Which one of the following is NOT mentioned as an outcome of liberal learning in paragraph 11?",
+          "bold": false
+        },
+        {
+          "x": 168,
+          "y": 1085,
+          "width": 28,
+          "height": 18,
+          "text": "69.",
+          "bold": false
+        },
+        {
+          "x": 240,
+          "y": 1133,
+          "width": 367,
+          "height": 24,
+          "text": "A. being open to different lifestyles",
+          "bold": true
+        },
+        {
+          "x": 241,
+          "y": 1162,
+          "width": 383,
+          "height": 23,
+          "text": "B. developing problem-solving skills",
+          "bold": false
+        },
+        {
+          "x": 1046,
+          "y": 1187,
+          "width": 241,
+          "height": 31,
+          "text": "A B Cc D",
+          "bold": false
+        },
+        {
+          "x": 241,
+          "y": 1191,
+          "width": 341,
+          "height": 23,
+          "text": "C. activating existing knowledge",
+          "bold": false
+        },
+        {
+          "x": 240,
+          "y": 1209,
+          "width": 1055,
+          "height": 42,
+          "text": "D. initiating new opportunities O O (®) O",
+          "bold": true
+        },
+        {
+          "x": 232,
+          "y": 1320,
+          "width": 563,
+          "height": 24,
+          "text": "What does Michael Roth mean by “blindness” (line 52)?",
+          "bold": true
+        },
+        {
+          "x": 165,
+          "y": 1321,
+          "width": 29,
+          "height": 18,
+          "text": "70.",
+          "bold": false
+        },
+        {
+          "x": 232,
+          "y": 1482,
+          "width": 535,
+          "height": 23,
+          "text": "i) What danger might “absorption” (line 56) pose?",
+          "bold": true
+        },
+        {
+          "x": 165,
+          "y": 1483,
+          "width": 29,
+          "height": 18,
+          "text": "Th.",
+          "bold": false
+        },
+        {
+          "x": 232,
+          "y": 1633,
+          "width": 557,
+          "height": 33,
+          "text": "ii) What can be used as a protection against that risk?",
+          "bold": true
+        },
+        {
+          "x": 231,
+          "y": 1793,
+          "width": 506,
+          "height": 24,
+          "text": "Which word in paragraph 12 means “really want”?",
+          "bold": true
+        },
+        {
+          "x": 165,
+          "y": 1796,
+          "width": 28,
+          "height": 17,
+          "text": "72.",
+          "bold": false
+        },
+        {
+          "x": 159,
+          "y": 1897,
+          "width": 510,
+          "height": 23,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 164,
+          "y": 1993,
+          "width": 1143,
+          "height": 28,
+          "text": "2015-DSE-ENG LANG 1-B2-3 3 Go on to the next page",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2015/b2/questions-3-figure-1.webp",
+          "x": 1064,
+          "y": 1952,
+          "width": 404,
+          "height": 154,
+          "alt": "Original figure 1"
+        }
+      ]
+    },
+    {
+      "width": 1489,
+      "height": 2106,
+      "label": "Question page 4",
+      "lines": [
+        {
+          "x": 230,
+          "y": 206,
+          "width": 664,
+          "height": 24,
+          "text": "Which of the following does Michael Roth imply in paragraph 13?",
+          "bold": false
+        },
+        {
+          "x": 229,
+          "y": 233,
+          "width": 1060,
+          "height": 26,
+          "text": "Put a tick (W) next to the TWO that apply. (2 marks)",
+          "bold": true
+        },
+        {
+          "x": 266,
+          "y": 290,
+          "width": 542,
+          "height": 24,
+          "text": "i) Learning should have some application to society.",
+          "bold": true
+        },
+        {
+          "x": 265,
+          "y": 326,
+          "width": 547,
+          "height": 24,
+          "text": "ii) University education is limited to critical thinking.",
+          "bold": false
+        },
+        {
+          "x": 265,
+          "y": 362,
+          "width": 557,
+          "height": 23,
+          "text": "iii) Liberal education helps whole person development.",
+          "bold": false
+        },
+        {
+          "x": 265,
+          "y": 397,
+          "width": 714,
+          "height": 24,
+          "text": "iv) There should be more problem solving rather than critical thinking.",
+          "bold": false
+        },
+        {
+          "x": 162,
+          "y": 462,
+          "width": 28,
+          "height": 18,
+          "text": "74.",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 462,
+          "width": 1005,
+          "height": 24,
+          "text": "In the title “Young Minds in Critical Condition”, what TWO implications does “critical” have in this",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 491,
+          "width": 1052,
+          "height": 24,
+          "text": "context? (2 marks)",
+          "bold": true
+        },
+        {
+          "x": 228,
+          "y": 551,
+          "width": 13,
+          "height": 23,
+          "text": "i)",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 813,
+          "width": 865,
+          "height": 25,
+          "text": "Which of the following best describes Michael Roth’s intention in writing this article?",
+          "bold": false
+        },
+        {
+          "x": 161,
+          "y": 814,
+          "width": 28,
+          "height": 18,
+          "text": "75.",
+          "bold": false
+        },
+        {
+          "x": 277,
+          "y": 862,
+          "width": 337,
+          "height": 24,
+          "text": "to express a strongly held opinion",
+          "bold": true
+        },
+        {
+          "x": 276,
+          "y": 891,
+          "width": 372,
+          "height": 23,
+          "text": "to show the pros and cons of an issue",
+          "bold": false
+        },
+        {
+          "x": 276,
+          "y": 920,
+          "width": 1005,
+          "height": 23,
+          "text": "to expose a dangerous secret to the public A B c D",
+          "bold": false
+        },
+        {
+          "x": 276,
+          "y": 943,
+          "width": 1014,
+          "height": 33,
+          "text": "to amuse the reader using his personal experience oO Oo © ©",
+          "bold": false
+        },
+        {
+          "x": 159,
+          "y": 1046,
+          "width": 623,
+          "height": 22,
+          "text": "Read the Comments (lines 63-74) and answer questions 76-77.",
+          "bold": true
+        },
+        {
+          "x": 159,
+          "y": 1103,
+          "width": 28,
+          "height": 18,
+          "text": "76.",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1103,
+          "width": 934,
+          "height": 24,
+          "text": "What is Tom’s stance towards Liberal Education? Summarize his opinion in your own words.",
+          "bold": false
+        },
+        {
+          "x": 1182,
+          "y": 1133,
+          "width": 91,
+          "height": 23,
+          "text": "(4 marks)",
+          "bold": true
+        },
+        {
+          "x": 223,
+          "y": 1556,
+          "width": 1050,
+          "height": 25,
+          "text": "Does Laura agree with Michael Roth? Give a reason for your answer. (2 marks)",
+          "bold": false
+        },
+        {
+          "x": 156,
+          "y": 1557,
+          "width": 29,
+          "height": 17,
+          "text": "Ve",
+          "bold": false
+        },
+        {
+          "x": 638,
+          "y": 1844,
+          "width": 205,
+          "height": 20,
+          "text": "END OF PART B2",
+          "bold": true
+        },
+        {
+          "x": 149,
+          "y": 1902,
+          "width": 511,
+          "height": 24,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 154,
+          "y": 2000,
+          "width": 594,
+          "height": 27,
+          "text": "2015-DSE-ENG LANG 1-B2—-4 4",
+          "bold": true
+        }
+      ]
     }
   ]
 }

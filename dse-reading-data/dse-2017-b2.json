@@ -5,41 +5,7 @@
   "title": "Millennials: Themes in the Literature",
   "sourceLabel": "HKDSE 2017 English Language Paper 1 Part B2",
   "sourceHeading": "Millennials: Themes in the Literature",
-  "displayMode": "paper",
-  "passagePages": [
-    {
-      "src": "assets/reading-comprehension/dse/papers/2017/b2/passage-1.webp",
-      "alt": "HKDSE 2017 Part B2 original reading passage page 1",
-      "label": "Reading passage page 1"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2017/b2/passage-2.webp",
-      "alt": "HKDSE 2017 Part B2 original reading passage page 2",
-      "label": "Reading passage page 2"
-    }
-  ],
-  "questionPages": [
-    {
-      "src": "assets/reading-comprehension/dse/papers/2017/b2/questions-1.webp",
-      "alt": "HKDSE 2017 Part B2 original question page 1",
-      "label": "Question page 1"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2017/b2/questions-2.webp",
-      "alt": "HKDSE 2017 Part B2 original question page 2",
-      "label": "Question page 2"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2017/b2/questions-3.webp",
-      "alt": "HKDSE 2017 Part B2 original question page 3",
-      "label": "Question page 3"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2017/b2/questions-4.webp",
-      "alt": "HKDSE 2017 Part B2 original question page 4",
-      "label": "Question page 4"
-    }
-  ],
+  "displayMode": "structured-paper",
   "paragraphs": [],
   "instructions": {
     "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
@@ -156,6 +122,1876 @@
       "type": "textarea",
       "prompt": "Question 60",
       "placeholder": "Enter all answer parts for Question 60"
+    }
+  ],
+  "structuredPassagePages": [
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Reading passage page 1",
+      "lines": [
+        {
+          "x": 191,
+          "y": 121,
+          "width": 122,
+          "height": 22,
+          "text": "PART B2",
+          "bold": true
+        },
+        {
+          "x": 190,
+          "y": 181,
+          "width": 829,
+          "height": 25,
+          "text": "Read Text 5 and answer questions 45-60 of the Question-Answer Book for Part B2.",
+          "bold": false
+        },
+        {
+          "x": 189,
+          "y": 244,
+          "width": 84,
+          "height": 18,
+          "text": "Text 5",
+          "bold": true
+        },
+        {
+          "x": 471,
+          "y": 283,
+          "width": 573,
+          "height": 36,
+          "text": "MILLENNIALS - Themes In The Literature!",
+          "bold": true
+        },
+        {
+          "x": 190,
+          "y": 354,
+          "width": 216,
+          "height": 21,
+          "text": "I. Introduction",
+          "bold": true
+        },
+        {
+          "x": 190,
+          "y": 399,
+          "width": 1137,
+          "height": 25,
+          "text": "[1] Authors Neil Howe and William Strauss are widely credited with coining the term ‘Millennial",
+          "bold": false
+        },
+        {
+          "x": 189,
+          "y": 428,
+          "width": 1139,
+          "height": 25,
+          "text": "Generation’, a reference to children graduating from secondary school in the year 2000. Since their",
+          "bold": false
+        },
+        {
+          "x": 189,
+          "y": 458,
+          "width": 1139,
+          "height": 25,
+          "text": "landmark research on generational types, many authors have built on Howe and Strauss’ work. This article",
+          "bold": false
+        },
+        {
+          "x": 189,
+          "y": 487,
+          "width": 1138,
+          "height": 25,
+          "text": "will identify a number of general themes found in recent literature regarding the Millennial generation.",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 516,
+          "width": 1137,
+          "height": 25,
+          "text": "Many of these themes, though originating from different sources and perspectives, are complementary, and",
+          "bold": false
+        },
+        {
+          "x": 189,
+          "y": 546,
+          "width": 801,
+          "height": 24,
+          "text": "even those in conflict with one another find they have common foundations.",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 652,
+          "width": 1138,
+          "height": 26,
+          "text": "[2] This article will refer to Millennials as those born from approximately 1980 through 2000 (Howe &",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 682,
+          "width": 1137,
+          "height": 24,
+          "text": "Strauss, 2003; Sutherland & Thompson, 2001). The most significant variation on this definition comes from",
+          "bold": false
+        },
+        {
+          "x": 140,
+          "y": 685,
+          "width": 21,
+          "height": 17,
+          "text": "10",
+          "bold": false
+        },
+        {
+          "x": 189,
+          "y": 711,
+          "width": 780,
+          "height": 25,
+          "text": "Twenge, who includes all those born in the 1970s as well (Twenge, 2006).",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 755,
+          "width": 1138,
+          "height": 25,
+          "text": "[3] By and large, the Millennials are considered the children of the Baby Boomers?. They have grown up ina",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 785,
+          "width": 1137,
+          "height": 25,
+          "text": "child-centred society, adored from infancy by their parents and other adults (Sutherland & Thompson,",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 814,
+          "width": 1139,
+          "height": 25,
+          "text": "2001). They have lived in an era of relative peace, knowing little of worldwide conflict until the recent",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 844,
+          "width": 1138,
+          "height": 25,
+          "text": "emergence of global terrorism. They have also lived in an era of relative prosperity, in which economic",
+          "bold": false
+        },
+        {
+          "x": 140,
+          "y": 847,
+          "width": 20,
+          "height": 17,
+          "text": "15",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 874,
+          "width": 924,
+          "height": 24,
+          "text": "boom periods have been high, and downturns have been slight (Howe & Strauss, 2003).",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 936,
+          "width": 34,
+          "height": 20,
+          "text": "Il.",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 982,
+          "width": 1139,
+          "height": 24,
+          "text": "[4] The most common and most significant theme found in literature about the Millennial Generation is that",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 1011,
+          "width": 1138,
+          "height": 23,
+          "text": "they have been told since birth that they are each unique and special, and that they embrace this",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 1040,
+          "width": 294,
+          "height": 24,
+          "text": "specialness wholeheartedly.",
+          "bold": false
+        },
+        {
+          "x": 138,
+          "y": 1042,
+          "width": 23,
+          "height": 17,
+          "text": "20",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 1083,
+          "width": 1139,
+          "height": 25,
+          "text": "[5] Howe and Strauss emphasize the emergence of the pro-child culture among Baby Boomer adults as the",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 1113,
+          "width": 1141,
+          "height": 24,
+          "text": "catalyst for this characteristic, and Twenge supports this idea, to a degree. With the emergence of",
+          "bold": false
+        },
+        {
+          "x": 189,
+          "y": 1142,
+          "width": 1139,
+          "height": 24,
+          "text": "widespread use of birth control, and the growing availability of abortion through the 60s and 70s,",
+          "bold": false
+        },
+        {
+          "x": 189,
+          "y": 1171,
+          "width": 1144,
+          "height": 23,
+          "text": "Americans entered an era in which fewer and fewer ‘unwanted’ babies were born (Sutherland & Thompson,",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 1200,
+          "width": 1138,
+          "height": 25,
+          "text": "2001). Parents became parents because they wanted children, not because childbearing was foisted upon",
+          "bold": false
+        },
+        {
+          "x": 138,
+          "y": 1202,
+          "width": 22,
+          "height": 18,
+          "text": "25",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 1229,
+          "width": 1138,
+          "height": 25,
+          "text": "them. This era saw cultural adoption of the pro-child ethic in movies, books and the ubiquitous ‘Baby On",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 1259,
+          "width": 1140,
+          "height": 24,
+          "text": "Board’ car bumper stickers. Schools across the nation joined the bandwagon as well with the adoption of",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 1289,
+          "width": 477,
+          "height": 24,
+          "text": "official self-esteem curricula (Twenge, 2006).",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 1332,
+          "width": 1137,
+          "height": 25,
+          "text": "[6] Where researchers and authors seem to disagree on Millennials is in the effect of their ‘specialness’.",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 1362,
+          "width": 1137,
+          "height": 23,
+          "text": "Howe and Strauss believe that Millennials have translated their special status into an ability to contribute",
+          "bold": false
+        },
+        {
+          "x": 139,
+          "y": 1364,
+          "width": 22,
+          "height": 18,
+          "text": "30",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 1391,
+          "width": 1138,
+          "height": 25,
+          "text": "to society and its structures. They are community-minded citizens who believe in, and tend to follow,",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 1420,
+          "width": 1109,
+          "height": 24,
+          "text": "societal conventions because they believe in the rules that brought them through their happy childhoods.",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 1464,
+          "width": 1138,
+          "height": 25,
+          "text": "[7] Twenge, on the other hand, perceives less optimistic outcomes for the Millennials, which she calls",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 1494,
+          "width": 1138,
+          "height": 24,
+          "text": "‘Generation Me’. She expresses concern that the overt emphasis on individual ‘specialness’ has resulted in a",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 1523,
+          "width": 1138,
+          "height": 24,
+          "text": "generation for whom the individual is of ultimate importance. Twenge’s research, in contrast to Howe and",
+          "bold": false
+        },
+        {
+          "x": 139,
+          "y": 1525,
+          "width": 22,
+          "height": 17,
+          "text": "35",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 1552,
+          "width": 1138,
+          "height": 23,
+          "text": "Strauss, has revealed a generation that is more individualistic and more self-oriented than any that have",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 1581,
+          "width": 1139,
+          "height": 24,
+          "text": "gone before. As a result, this generation is less likely to care about others’ opinions, and more likely to",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 1611,
+          "width": 295,
+          "height": 24,
+          "text": "flaunt society’s conventions.",
+          "bold": true
+        },
+        {
+          "x": 191,
+          "y": 1672,
+          "width": 32,
+          "height": 20,
+          "text": "Iv.",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 1716,
+          "width": 1138,
+          "height": 26,
+          "text": "[8] Twenge clashes again with Howe and Strauss when describing Millennials’ belief in their ability to",
+          "bold": false
+        },
+        {
+          "x": 139,
+          "y": 1719,
+          "width": 23,
+          "height": 18,
+          "text": "40",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 1745,
+          "width": 1139,
+          "height": 26,
+          "text": "succeed. Though Howe and Strauss admit that the Millennials feel pressure to succeed, they contend that",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 1774,
+          "width": 1138,
+          "height": 25,
+          "text": "this confident, achieving generation believes that they will be both financially and socially successful. Howe",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 1804,
+          "width": 1139,
+          "height": 24,
+          "text": "and Strauss also cite achievements in high school academics and extra-curricular activities as evidence that",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 1834,
+          "width": 717,
+          "height": 24,
+          "text": "these Millennials may indeed live up to their confident expectations.",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 1976,
+          "width": 584,
+          "height": 17,
+          "text": "2017-DSE-ENG LANG 1-B2-RP-2 2",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Reading passage page 2",
+      "lines": [
+        {
+          "x": 193,
+          "y": 167,
+          "width": 1141,
+          "height": 28,
+          "text": "[9] Twenge, however, cites research that seems to indicate that the Millennials are leaving their exuberant",
+          "bold": false
+        },
+        {
+          "x": 140,
+          "y": 168,
+          "width": 23,
+          "height": 17,
+          "text": "45",
+          "bold": false
+        },
+        {
+          "x": 192,
+          "y": 198,
+          "width": 1141,
+          "height": 26,
+          "text": "confidence behind as they leave childhood. The encouragement that so many young Millennials heard, that",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 228,
+          "width": 1141,
+          "height": 25,
+          "text": "you can be or do anything, as long as you try hard enough and follow your dreams, has created",
+          "bold": false
+        },
+        {
+          "x": 191,
+          "y": 257,
+          "width": 1140,
+          "height": 26,
+          "text": "unrealistically high expectations of themselves, producing high levels of depression, anxiety and loneliness",
+          "bold": false
+        },
+        {
+          "x": 190,
+          "y": 287,
+          "width": 262,
+          "height": 23,
+          "text": "among Millennials today.",
+          "bold": true
+        },
+        {
+          "x": 189,
+          "y": 346,
+          "width": 22,
+          "height": 20,
+          "text": "Vv.",
+          "bold": false
+        },
+        {
+          "x": 138,
+          "y": 349,
+          "width": 23,
+          "height": 17,
+          "text": "50",
+          "bold": false
+        },
+        {
+          "x": 189,
+          "y": 392,
+          "width": 1139,
+          "height": 28,
+          "text": "[10] Whether in school, work, or at home, Millennials must interact every day with members of the",
+          "bold": false
+        },
+        {
+          "x": 188,
+          "y": 423,
+          "width": 1140,
+          "height": 26,
+          "text": "generations that preceded them. As they move through their teens and twenties, into adulthood, the nature",
+          "bold": false
+        },
+        {
+          "x": 188,
+          "y": 452,
+          "width": 977,
+          "height": 24,
+          "text": "of the Millennials’ relationships with their elders is another theme found in recent literature.",
+          "bold": false
+        },
+        {
+          "x": 187,
+          "y": 496,
+          "width": 1140,
+          "height": 29,
+          "text": "[11] Sutherland and Thompson describe how the changing structure of the nuclear family has, in many",
+          "bold": false
+        },
+        {
+          "x": 135,
+          "y": 527,
+          "width": 22,
+          "height": 17,
+          "text": "55",
+          "bold": false
+        },
+        {
+          "x": 186,
+          "y": 527,
+          "width": 1141,
+          "height": 28,
+          "text": "cases, led to a dynamic in which children are included in family discussions and decisions to a greater",
+          "bold": false
+        },
+        {
+          "x": 186,
+          "y": 555,
+          "width": 1140,
+          "height": 28,
+          "text": "degree than previous generations. Howe and Strauss echo this sentiment. As this dynamic blends with the",
+          "bold": false
+        },
+        {
+          "x": 186,
+          "y": 586,
+          "width": 1139,
+          "height": 28,
+          "text": "message of special importance that Millennial kids have heard all their lives, the result is often a young",
+          "bold": false
+        },
+        {
+          "x": 185,
+          "y": 614,
+          "width": 926,
+          "height": 28,
+          "text": "adult who views his or her relationship with older adults as a peer-to-peer relationship.",
+          "bold": false
+        },
+        {
+          "x": 185,
+          "y": 657,
+          "width": 1140,
+          "height": 28,
+          "text": "[12] This emphasis on equality has implications in a variety of areas. Culturally, Millennials believe that",
+          "bold": false
+        },
+        {
+          "x": 183,
+          "y": 687,
+          "width": 1140,
+          "height": 28,
+          "text": "their identity is just as valid as anyone else’s. Consequently, enthusiastic self-expression has flourished, and",
+          "bold": false
+        },
+        {
+          "x": 133,
+          "y": 688,
+          "width": 22,
+          "height": 17,
+          "text": "60",
+          "bold": false
+        },
+        {
+          "x": 183,
+          "y": 717,
+          "width": 1140,
+          "height": 28,
+          "text": "Twenge cites the explosion of tattoos and piercings as an example of this trend. In the workplace, the idea",
+          "bold": false
+        },
+        {
+          "x": 183,
+          "y": 746,
+          "width": 1139,
+          "height": 27,
+          "text": "of paying dues, and working up the corporate ladder is foreign. Millennials expect their views to be valued",
+          "bold": false
+        },
+        {
+          "x": 183,
+          "y": 775,
+          "width": 1140,
+          "height": 26,
+          "text": "from the beginning, and advancement to be rapid (Raines, 2002). In education, Millennials are more than",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 805,
+          "width": 1140,
+          "height": 27,
+          "text": "willing to challenge professors on everything from opinions to the very facts themselves, with no",
+          "bold": false
+        },
+        {
+          "x": 131,
+          "y": 834,
+          "width": 21,
+          "height": 18,
+          "text": "65",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 835,
+          "width": 1141,
+          "height": 28,
+          "text": "conception that the instructor’s perspective is any more valid than their own (Twenge, 2006). Generally",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 863,
+          "width": 1139,
+          "height": 28,
+          "text": "speaking, what Millennials seem to be seeking from other generations is acceptance as equals (Windham,",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 892,
+          "width": 65,
+          "height": 24,
+          "text": "2005).",
+          "bold": false
+        },
+        {
+          "x": 180,
+          "y": 953,
+          "width": 32,
+          "height": 20,
+          "text": "VI.",
+          "bold": true
+        },
+        {
+          "x": 180,
+          "y": 1000,
+          "width": 1138,
+          "height": 29,
+          "text": "[13] While more of a cultural reality than generational characteristic, technology has so affected and",
+          "bold": false
+        },
+        {
+          "x": 128,
+          "y": 1030,
+          "width": 23,
+          "height": 18,
+          "text": "70",
+          "bold": false
+        },
+        {
+          "x": 179,
+          "y": 1030,
+          "width": 1139,
+          "height": 29,
+          "text": "defined the Millennial generation that it regularly emerges as a theme in literature on the subject. While all",
+          "bold": false
+        },
+        {
+          "x": 179,
+          "y": 1060,
+          "width": 1139,
+          "height": 28,
+          "text": "generations alive today have experienced the development of technology, and adapted to the changes it has",
+          "bold": false
+        },
+        {
+          "x": 179,
+          "y": 1088,
+          "width": 1070,
+          "height": 29,
+          "text": "brought to society, the Millennials are the only ones who did not live through its emergence as adults.",
+          "bold": false
+        },
+        {
+          "x": 178,
+          "y": 1132,
+          "width": 1139,
+          "height": 30,
+          "text": "[14] Prensky (2001) describes the situation with the analogy that Millennials are natives in a society that is",
+          "bold": false
+        },
+        {
+          "x": 178,
+          "y": 1162,
+          "width": 1139,
+          "height": 29,
+          "text": "dominated by modern technology, whereas previous generations are ‘digital immigrants’. There are",
+          "bold": false
+        },
+        {
+          "x": 177,
+          "y": 1191,
+          "width": 1139,
+          "height": 29,
+          "text": "significant implications for the differences in the ways that the natives and the immigrants think about the",
+          "bold": false
+        },
+        {
+          "x": 126,
+          "y": 1192,
+          "width": 21,
+          "height": 17,
+          "text": "75",
+          "bold": false
+        },
+        {
+          "x": 177,
+          "y": 1220,
+          "width": 1138,
+          "height": 34,
+          "text": "land they live in. What might have once been described as distractibility, is now considered multi-tasking:",
+          "bold": false
+        },
+        {
+          "x": 176,
+          "y": 1249,
+          "width": 1140,
+          "height": 29,
+          "text": "the practice of doing multiple things simultaneously. To describe Millennials as having short attention",
+          "bold": false
+        },
+        {
+          "x": 176,
+          "y": 1278,
+          "width": 1139,
+          "height": 30,
+          "text": "spans denies the evidence that they can spend extended time in sharply focused activity when playing high-",
+          "bold": false
+        },
+        {
+          "x": 175,
+          "y": 1308,
+          "width": 362,
+          "height": 24,
+          "text": "tech video games (Prensky, 2001).",
+          "bold": true
+        },
+        {
+          "x": 174,
+          "y": 1369,
+          "width": 195,
+          "height": 21,
+          "text": "VII. Conclusion",
+          "bold": true
+        },
+        {
+          "x": 124,
+          "y": 1371,
+          "width": 22,
+          "height": 17,
+          "text": "80",
+          "bold": false
+        },
+        {
+          "x": 175,
+          "y": 1414,
+          "width": 1139,
+          "height": 30,
+          "text": "[15] The clearest truism with regard to the Millennial generation is that they have been told throughout",
+          "bold": false
+        },
+        {
+          "x": 174,
+          "y": 1444,
+          "width": 1139,
+          "height": 29,
+          "text": "their childhood that they are each unique and special, and that as they become adults, it is clear that they",
+          "bold": false
+        },
+        {
+          "x": 174,
+          "y": 1473,
+          "width": 1139,
+          "height": 30,
+          "text": "have believed the message. For some, this belief will likely translate into ambitious goals, and great",
+          "bold": false
+        },
+        {
+          "x": 173,
+          "y": 1503,
+          "width": 1139,
+          "height": 29,
+          "text": "achievement. For others, it is likely that this belief will translate into unrealistic goals, and crushing",
+          "bold": false
+        },
+        {
+          "x": 123,
+          "y": 1532,
+          "width": 21,
+          "height": 17,
+          "text": "85",
+          "bold": false
+        },
+        {
+          "x": 173,
+          "y": 1532,
+          "width": 1140,
+          "height": 29,
+          "text": "disappointment. Millennials need to be encouraged to succeed and provided safety nets for failure as they",
+          "bold": false
+        },
+        {
+          "x": 173,
+          "y": 1557,
+          "width": 611,
+          "height": 34,
+          "text": "learn to work through both of these experiences as adults.",
+          "bold": false
+        },
+        {
+          "x": 174,
+          "y": 1634,
+          "width": 28,
+          "height": 23,
+          "text": "A 5 1 23 1 1 2 210 1640 80 17 96.028961 selection 5 1 23 1 1 3 298 1640 18 17 96.977783 of 5 1 23 1 1 4 323 1640 77 17 96.577568 research 5 1 23 1 1 5 408 1641 67 17 93.705223 articles 5 1 23 1 1 6 483 1647 23 11 96.774490 on 5 1 23 1 1 7 512 1641 29 18 96.959198 the 5 1 23 1 1 8 547 1642 46 22 96.257965 topic 5 1 23 1 1 9 600 1642 21 17 96.257965 of 5 1 23 1 1 10 626 1642 106 17 94.221191 Millennials 4 1 23 1 2 0 172 1663 357 28 -1 5 1 23 1 2 1 172 1663 6 11 2.105503 * 5 1 23 1 2 2 187 1669 61 22 96.090515 People 5 1 23 1 2 3 256 1668 41 18 96.823128 born 5 1 23 1 2 4 304 1669 77 17 96.812263 between 5 1 23 1 2 5 391 1669 43 17 96.958076 1946 5 1 23 1 2 6 442 1669 33 18 96.461159 and 5 1 23 1 2 7 485 1670 44 17 96.461159 1964 2 1 24 0 0 0 560 1788 358 19 -1 3 1 24 1 0 0 560 1788 358 19 -1 4 1 24 1 1 0 560 1788 358 19 -1 5 1 24 1 1 1 560 1788 49 18 96.857300 END 5 1 24 1 1 2 619 1788 32 19 96.766899 OF 5 1 24 1 1 3 660 1788 112 19 96.208099 READING 5 1 24 1 1 4 782 1788 136 19 96.118210 PASSAGES 2 1 25 0 0 0 170 1844 1140 48 -1 3 1 25 1 0 0 170 1844 1140 48 -1 4 1 25 1 1 0 171 1844 1139 26 -1 5 1 25 1 1 1 171 1844 66 16 95.856171 Sources 5 1 25 1 1 2 246 1844 18 16 95.856171 of 5 1 25 1 1 3 270 1844 81 16 94.456039 materials 5 1 25 1 1 4 359 1844 39 16 96.919083 used 5 1 25 1 1 5 407 1844 16 17 95.429192 in 5 1 25 1 1 6 431 1845 32 16 96.921738 this 5 1 25 1 1 7 471 1850 50 16 96.811028 paper 5 1 25 1 1 8 528 1846 33 16 96.682884 will 5 1 25 1 1 9 570 1846 19 16 96.908455 be 5 1 25 1 1 10 597 1846 127 21 96.908455 acknowledged 5 1 25 1 1 11 734 1846 15 16 96.747475 in 5 1 25 1 1 12 757 1846 26 16 96.473312 the 5 1 25 1 1 13 792 1846 66 16 93.297272 booklet 5 1 25 1 1 14 866 1847 73 16 92.626205 HKDSE 5 1 25 1 1 15 947 1847 79 20 97.007912 Question 5 1 25 1 1 16 1034 1849 62 20 96.873695 Papers 5 1 25 1 1 17 1104 1849 85 20 96.796738 published 5 1 25 1 1 18 1197 1849 21 20 96.945312 by 5 1 25 1 1 19 1227 1849 26 16 96.911095 the 5 1 25 1 1 20 1262 1849 48 21 96.994400 Hong 4 1 25 1 2 0 170 1869 555 23 -1 5 1 25 1 2 1 170 1870 47 20 97.010765 Kong 5 1 25 1 2 2 224 1869 120 17 96.863785 Examinations 5 1 25 1 2 3 351 1870 31 16 96.919380 and 5 1 25 1 2 4 389 1870 105 17 96.841393 Assessment 5 1 25 1 2 5 501 1871 86 21 94.828278 Authority 5 1 25 1 2 6 594 1874 15 14 94.828278 at 5 1 25 1 2 7 616 1876 9 12 96.468246 a 5 1 25 1 2 8 632 1872 38 16 96.769493 later 5 1 25 1 2 9 677 1874 48 18 96.712372 stage. 2 1 26 0 0 0 169 1990 583 18 -1 3 1 26 1 0 0 169 1990 583 18 -1 4 1 26 1 1 0 169 1990 583 18 -1 5 1 26 1 1 1 169 1990 143 17 92.833954 2017-DSE-ENG 5 1 26 1 1 2 320 1991 60 16 93.298523 LANG 5 1 26 1 1 3 389 1991 99 17 91.709389 1-B2-RP-3 5 1 26 1 1 4 743 1992 9 16 96.694847 3",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "structuredQuestionPages": [
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 1",
+      "lines": [
+        {
+          "x": 929,
+          "y": 118,
+          "width": 467,
+          "height": 23,
+          "text": "Please stick the barcode label here.",
+          "bold": false
+        },
+        {
+          "x": 180,
+          "y": 119,
+          "width": 257,
+          "height": 51,
+          "text": "Candidate Number | |",
+          "bold": true
+        },
+        {
+          "x": 179,
+          "y": 193,
+          "width": 174,
+          "height": 23,
+          "text": "HKDSE 2017",
+          "bold": true
+        },
+        {
+          "x": 179,
+          "y": 227,
+          "width": 307,
+          "height": 24,
+          "text": "ENGLISH LANGUAGE",
+          "bold": true
+        },
+        {
+          "x": 179,
+          "y": 262,
+          "width": 257,
+          "height": 22,
+          "text": "PAPER 1 PART B2",
+          "bold": true
+        },
+        {
+          "x": 177,
+          "y": 296,
+          "width": 393,
+          "height": 24,
+          "text": "QUESTION-ANSWER BOOK",
+          "bold": true
+        },
+        {
+          "x": 176,
+          "y": 367,
+          "width": 901,
+          "height": 25,
+          "text": "Write your Candidate Number and stick a barcode label in the space provided on this page.",
+          "bold": false
+        },
+        {
+          "x": 176,
+          "y": 411,
+          "width": 607,
+          "height": 24,
+          "text": "Read Text 5 and answer questions 45-60. (43 marks)",
+          "bold": false
+        },
+        {
+          "x": 174,
+          "y": 456,
+          "width": 84,
+          "height": 19,
+          "text": "Text 5",
+          "bold": true
+        },
+        {
+          "x": 173,
+          "y": 514,
+          "width": 1050,
+          "height": 26,
+          "text": "45. According to paragraphs 1-2, are the following statements True (T), False (F) or Not Given (NG)?",
+          "bold": false
+        },
+        {
+          "x": 1222,
+          "y": 546,
+          "width": 94,
+          "height": 23,
+          "text": "(4 marks)",
+          "bold": false
+        },
+        {
+          "x": 277,
+          "y": 579,
+          "width": 114,
+          "height": 18,
+          "text": "Statements",
+          "bold": false
+        },
+        {
+          "x": 1049,
+          "y": 582,
+          "width": 31,
+          "height": 267,
+          "text": "OO008",
+          "bold": true
+        },
+        {
+          "x": 1154,
+          "y": 582,
+          "width": 31,
+          "height": 269,
+          "text": "O0O007",
+          "bold": true
+        },
+        {
+          "x": 1250,
+          "y": 582,
+          "width": 35,
+          "height": 267,
+          "text": "OO0O008",
+          "bold": true
+        },
+        {
+          "x": 242,
+          "y": 616,
+          "width": 627,
+          "height": 23,
+          "text": "i) Howe and Strauss were the first to use the term, ‘Millennial",
+          "bold": false
+        },
+        {
+          "x": 276,
+          "y": 645,
+          "width": 121,
+          "height": 18,
+          "text": "Generation’.",
+          "bold": false
+        },
+        {
+          "x": 242,
+          "y": 694,
+          "width": 545,
+          "height": 24,
+          "text": "ii) Research by Howe and Strauss has been influential.",
+          "bold": true
+        },
+        {
+          "x": 241,
+          "y": 759,
+          "width": 625,
+          "height": 22,
+          "text": "iii) Some themes on Millennials are in conflict with each other.",
+          "bold": false
+        },
+        {
+          "x": 240,
+          "y": 823,
+          "width": 725,
+          "height": 26,
+          "text": "iv) Experts agree that Millennials were born within the same time period.",
+          "bold": false
+        },
+        {
+          "x": 168,
+          "y": 928,
+          "width": 1104,
+          "height": 27,
+          "text": "46. In paragraph 3, what three factors mentioned by the writer have characterised the Millennial generation?",
+          "bold": false
+        },
+        {
+          "x": 1213,
+          "y": 961,
+          "width": 94,
+          "height": 23,
+          "text": "(3 marks)",
+          "bold": true
+        },
+        {
+          "x": 237,
+          "y": 1016,
+          "width": 13,
+          "height": 22,
+          "text": "i)",
+          "bold": false
+        },
+        {
+          "x": 236,
+          "y": 1089,
+          "width": 20,
+          "height": 23,
+          "text": "ii)",
+          "bold": false
+        },
+        {
+          "x": 233,
+          "y": 1162,
+          "width": 26,
+          "height": 23,
+          "text": "iti)",
+          "bold": true
+        },
+        {
+          "x": 164,
+          "y": 1258,
+          "width": 641,
+          "height": 33,
+          "text": "47. Which of the following can be inferred from paragraph 3?",
+          "bold": true
+        },
+        {
+          "x": 229,
+          "y": 1306,
+          "width": 393,
+          "height": 24,
+          "text": "A. Millennials are growing up quickly.",
+          "bold": false
+        },
+        {
+          "x": 229,
+          "y": 1334,
+          "width": 397,
+          "height": 20,
+          "text": "B. Millennials face an uncertain future.",
+          "bold": false
+        },
+        {
+          "x": 229,
+          "y": 1363,
+          "width": 1050,
+          "height": 32,
+          "text": "C. Millennials see themselves as global citizens. A B Cc D",
+          "bold": false
+        },
+        {
+          "x": 229,
+          "y": 1387,
+          "width": 1061,
+          "height": 39,
+          "text": "D. Millennials have grown up in a sheltered environment. O oO O O",
+          "bold": true
+        },
+        {
+          "x": 163,
+          "y": 1452,
+          "width": 343,
+          "height": 24,
+          "text": "48. According to paragraph 5...",
+          "bold": true
+        },
+        {
+          "x": 232,
+          "y": 1509,
+          "width": 1087,
+          "height": 27,
+          "text": "i) Which generation was the first to adopt a child-centred approach to parenting? (1 mark)",
+          "bold": false
+        },
+        {
+          "x": 231,
+          "y": 1624,
+          "width": 1088,
+          "height": 27,
+          "text": "ii) Which generation had child bearing ‘foisted upon them’? (1 mark)",
+          "bold": false
+        },
+        {
+          "x": 155,
+          "y": 1782,
+          "width": 506,
+          "height": 23,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 159,
+          "y": 1981,
+          "width": 281,
+          "height": 18,
+          "text": "2017-DSE-ENG LANG 1-B2-1",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2017/b2/questions-1-figure-1.webp",
+          "x": 884,
+          "y": 84,
+          "width": 572,
+          "height": 240,
+          "alt": "Original figure 1"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2017/b2/questions-1-figure-2.webp",
+          "x": 152,
+          "y": 96,
+          "width": 248,
+          "height": 96,
+          "alt": "Original figure 2"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2017/b2/questions-1-figure-3.webp",
+          "x": 960,
+          "y": 1832,
+          "width": 460,
+          "height": 200,
+          "alt": "Original figure 3"
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 2",
+      "lines": [
+        {
+          "x": 247,
+          "y": 222,
+          "width": 1068,
+          "height": 27,
+          "text": "iii) Find one factor that led to a pro-child culture. (1 mark)",
+          "bold": true
+        },
+        {
+          "x": 248,
+          "y": 337,
+          "width": 1067,
+          "height": 26,
+          "text": "iv) What were schools’ attitudes towards the pro-child movement? (I mark)",
+          "bold": false
+        },
+        {
+          "x": 178,
+          "y": 452,
+          "width": 1139,
+          "height": 26,
+          "text": "49. Complete the table below by identifying how the researchers differ in their understanding of Millennials",
+          "bold": false
+        },
+        {
+          "x": 244,
+          "y": 480,
+          "width": 1073,
+          "height": 27,
+          "text": "using information given in paragraphs 6-9. (6 marks)",
+          "bold": true
+        },
+        {
+          "x": 473,
+          "y": 556,
+          "width": 743,
+          "height": 24,
+          "text": "Howe and Strauss’ interpretation Twenge’s interpretation",
+          "bold": false
+        },
+        {
+          "x": 256,
+          "y": 617,
+          "width": 985,
+          "height": 38,
+          "text": "Millennials’ has produced a generation which is has produced a generation which is",
+          "bold": true
+        },
+        {
+          "x": 260,
+          "y": 650,
+          "width": 98,
+          "height": 18,
+          "text": "belief that",
+          "bold": false
+        },
+        {
+          "x": 260,
+          "y": 678,
+          "width": 662,
+          "height": 29,
+          "text": "they are ji) (i)",
+          "bold": false
+        },
+        {
+          "x": 261,
+          "y": 703,
+          "width": 86,
+          "height": 32,
+          "text": "unique...",
+          "bold": true
+        },
+        {
+          "x": 256,
+          "y": 771,
+          "width": 121,
+          "height": 32,
+          "text": "Millennials’",
+          "bold": true
+        },
+        {
+          "x": 260,
+          "y": 792,
+          "width": 668,
+          "height": 39,
+          "text": "reaction to (iii), (iv)",
+          "bold": true
+        },
+        {
+          "x": 260,
+          "y": 832,
+          "width": 117,
+          "height": 18,
+          "text": "rules is to...",
+          "bold": false
+        },
+        {
+          "x": 435,
+          "y": 899,
+          "width": 625,
+          "height": 24,
+          "text": "will lead them to will lead them to",
+          "bold": true
+        },
+        {
+          "x": 261,
+          "y": 927,
+          "width": 125,
+          "height": 23,
+          "text": "The pressure",
+          "bold": false
+        },
+        {
+          "x": 261,
+          "y": 950,
+          "width": 667,
+          "height": 33,
+          "text": "on Millennials | (v) (vi)",
+          "bold": false
+        },
+        {
+          "x": 260,
+          "y": 985,
+          "width": 125,
+          "height": 18,
+          "text": "to succeed...",
+          "bold": false
+        },
+        {
+          "x": 180,
+          "y": 1114,
+          "width": 507,
+          "height": 23,
+          "text": "50. Which word can replace ‘contend’ (line 41)?",
+          "bold": true
+        },
+        {
+          "x": 245,
+          "y": 1158,
+          "width": 84,
+          "height": 23,
+          "text": "A. hope",
+          "bold": false
+        },
+        {
+          "x": 245,
+          "y": 1187,
+          "width": 91,
+          "height": 22,
+          "text": "B. argue",
+          "bold": false
+        },
+        {
+          "x": 245,
+          "y": 1214,
+          "width": 1048,
+          "height": 24,
+          "text": "C. accept A B (D",
+          "bold": false
+        },
+        {
+          "x": 245,
+          "y": 1233,
+          "width": 1059,
+          "height": 39,
+          "text": "D. disagree oO O O oO",
+          "bold": true
+        },
+        {
+          "x": 181,
+          "y": 1325,
+          "width": 1146,
+          "height": 33,
+          "text": "51. | Complete the diagram below, which illustrates the changes described in paragraph 11. (3 marks)",
+          "bold": false
+        },
+        {
+          "x": 263,
+          "y": 1449,
+          "width": 13,
+          "height": 22,
+          "text": "i)",
+          "bold": false
+        },
+        {
+          "x": 306,
+          "y": 1477,
+          "width": 450,
+          "height": 35,
+          "text": "e.g. from two-parent to single-parent families",
+          "bold": false
+        },
+        {
+          "x": 761,
+          "y": 1533,
+          "width": 29,
+          "height": 36,
+          "text": "u",
+          "bold": false
+        },
+        {
+          "x": 263,
+          "y": 1635,
+          "width": 402,
+          "height": 23,
+          "text": "ii) Children have more opportunities to",
+          "bold": true
+        },
+        {
+          "x": 761,
+          "y": 1682,
+          "width": 30,
+          "height": 36,
+          "text": "u",
+          "bold": false
+        },
+        {
+          "x": 263,
+          "y": 1780,
+          "width": 514,
+          "height": 23,
+          "text": "iii) Millennials see their parents and other adults as",
+          "bold": true
+        },
+        {
+          "x": 168,
+          "y": 1807,
+          "width": 98,
+          "height": 84,
+          "text": "A",
+          "bold": true
+        },
+        {
+          "x": 176,
+          "y": 1877,
+          "width": 506,
+          "height": 24,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 182,
+          "y": 1967,
+          "width": 587,
+          "height": 26,
+          "text": "2017-DSE-ENG LANG 1-B2-2 2",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2017/b2/questions-2-figure-1.webp",
+          "x": 228,
+          "y": 516,
+          "width": 1092,
+          "height": 552,
+          "alt": "Original figure 1"
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 3",
+      "lines": [
+        {
+          "x": 181,
+          "y": 203,
+          "width": 663,
+          "height": 25,
+          "text": "52. Complete the table using information given in paragraph 12.",
+          "bold": false
+        },
+        {
+          "x": 1229,
+          "y": 205,
+          "width": 94,
+          "height": 23,
+          "text": "(6 marks)",
+          "bold": true
+        },
+        {
+          "x": 261,
+          "y": 261,
+          "width": 1012,
+          "height": 32,
+          "text": "Aspect of Millennials’ Example/concept that illustrates the aspect | Researcher linked to",
+          "bold": false
+        },
+        {
+          "x": 261,
+          "y": 296,
+          "width": 1008,
+          "height": 24,
+          "text": "lives the example/concept",
+          "bold": true
+        },
+        {
+          "x": 260,
+          "y": 355,
+          "width": 823,
+          "height": 23,
+          "text": "Expressing one’s identity (6) (ii)",
+          "bold": true
+        },
+        {
+          "x": 259,
+          "y": 467,
+          "width": 859,
+          "height": 23,
+          "text": "(iii) (iv) Raines",
+          "bold": true
+        },
+        {
+          "x": 257,
+          "y": 579,
+          "width": 829,
+          "height": 24,
+          "text": "(v) Challenging authority (vi)",
+          "bold": true
+        },
+        {
+          "x": 173,
+          "y": 745,
+          "width": 1140,
+          "height": 26,
+          "text": "53. i) Which metaphor does Prensky use to describe Millennials? (1 mark)",
+          "bold": false
+        },
+        {
+          "x": 242,
+          "y": 861,
+          "width": 1070,
+          "height": 26,
+          "text": "ii) Explain the meaning of this metaphor. (1 mark)",
+          "bold": true
+        },
+        {
+          "x": 239,
+          "y": 1033,
+          "width": 1071,
+          "height": 26,
+          "text": "iii) What does ‘the land they live in’ (lines 75-76) refer to? (1 mark)",
+          "bold": true
+        },
+        {
+          "x": 168,
+          "y": 1176,
+          "width": 683,
+          "height": 24,
+          "text": "54. How have attitudes towards multi-tasking changed over time?",
+          "bold": false
+        },
+        {
+          "x": 167,
+          "y": 1315,
+          "width": 798,
+          "height": 34,
+          "text": "55. | Why should Millennials not be described as having short attention spans?",
+          "bold": false
+        },
+        {
+          "x": 164,
+          "y": 1596,
+          "width": 753,
+          "height": 24,
+          "text": "56. According to the conclusion, what should Millennials try to achieve?",
+          "bold": false
+        },
+        {
+          "x": 157,
+          "y": 1888,
+          "width": 506,
+          "height": 24,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 162,
+          "y": 1978,
+          "width": 585,
+          "height": 28,
+          "text": "2017-DSE-ENG LANG 1-B2-3 3",
+          "bold": true
+        },
+        {
+          "x": 1101,
+          "y": 1983,
+          "width": 229,
+          "height": 29,
+          "text": "Go ontothe nextpage >",
+          "bold": false
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2017/b2/questions-3-figure-1.webp",
+          "x": 224,
+          "y": 240,
+          "width": 1104,
+          "height": 464,
+          "alt": "Original figure 1"
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 4",
+      "lines": [
+        {
+          "x": 170,
+          "y": 222,
+          "width": 451,
+          "height": 32,
+          "text": "57. The main purpose of this article is to...",
+          "bold": false
+        },
+        {
+          "x": 256,
+          "y": 265,
+          "width": 445,
+          "height": 23,
+          "text": ". show what others have said about the topic.",
+          "bold": false
+        },
+        {
+          "x": 238,
+          "y": 266,
+          "width": 19,
+          "height": 103,
+          "text": "vow>",
+          "bold": true
+        },
+        {
+          "x": 255,
+          "y": 293,
+          "width": 403,
+          "height": 24,
+          "text": ". identify key limitations in the research.",
+          "bold": false
+        },
+        {
+          "x": 273,
+          "y": 304,
+          "width": 1008,
+          "height": 44,
+          "text": "suggest new areas of research. is B c D",
+          "bold": true
+        },
+        {
+          "x": 257,
+          "y": 331,
+          "width": 1034,
+          "height": 47,
+          "text": ". disprove earlier literature. e) O O",
+          "bold": true
+        },
+        {
+          "x": 170,
+          "y": 424,
+          "width": 1087,
+          "height": 21,
+          "text": "58. The writer uses citations to tell readers that certain materials came from another source. In the citations",
+          "bold": false
+        },
+        {
+          "x": 238,
+          "y": 453,
+          "width": 871,
+          "height": 25,
+          "text": "used in the text, which of the following information is included? Tick (“) all that apply.",
+          "bold": false
+        },
+        {
+          "x": 251,
+          "y": 510,
+          "width": 930,
+          "height": 37,
+          "text": "i) | The surname of the author O iv) The year of the publication |",
+          "bold": true
+        },
+        {
+          "x": 251,
+          "y": 562,
+          "width": 930,
+          "height": 32,
+          "text": "ii) Title of the author’s work O v) The page numbers of the material used C",
+          "bold": false
+        },
+        {
+          "x": 251,
+          "y": 610,
+          "width": 367,
+          "height": 39,
+          "text": "iii) The name of the publisher [_]",
+          "bold": true
+        },
+        {
+          "x": 170,
+          "y": 719,
+          "width": 1128,
+          "height": 25,
+          "text": "59. Read the following comments by readers of the article. Which researcher(s) are they referring to? Write the",
+          "bold": false
+        },
+        {
+          "x": 235,
+          "y": 748,
+          "width": 1073,
+          "height": 24,
+          "text": "name(s) in the line next to each comment. (2 marks)",
+          "bold": true
+        },
+        {
+          "x": 251,
+          "y": 833,
+          "width": 657,
+          "height": 26,
+          "text": "(i) a young entrepreneur and I agree with the",
+          "bold": true
+        },
+        {
+          "x": 315,
+          "y": 876,
+          "width": 593,
+          "height": 25,
+          "text": "research that says Millennials are high-achieving and",
+          "bold": false
+        },
+        {
+          "x": 314,
+          "y": 919,
+          "width": 406,
+          "height": 25,
+          "text": "want to make a difference in society.”",
+          "bold": true
+        },
+        {
+          "x": 251,
+          "y": 1033,
+          "width": 657,
+          "height": 25,
+          "text": "(ii) “As a Millennial, I find her view of young people",
+          "bold": true
+        },
+        {
+          "x": 315,
+          "y": 1076,
+          "width": 281,
+          "height": 25,
+          "text": "negative and destructive.”",
+          "bold": true
+        },
+        {
+          "x": 170,
+          "y": 1153,
+          "width": 910,
+          "height": 23,
+          "text": "60. Match the headings to the outline for Text 5. Write A-F in the box next to the number.",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 1181,
+          "width": 1085,
+          "height": 23,
+          "text": "I and VII have been given. One heading is NOT used. (5 marks)",
+          "bold": true
+        },
+        {
+          "x": 984,
+          "y": 1254,
+          "width": 79,
+          "height": 17,
+          "text": "Outline",
+          "bold": false
+        },
+        {
+          "x": 304,
+          "y": 1265,
+          "width": 786,
+          "height": 35,
+          "text": "Headings A.B.C.D.E.F",
+          "bold": true
+        },
+        {
+          "x": 931,
+          "y": 1344,
+          "width": 187,
+          "height": 18,
+          "text": "1 Introduction",
+          "bold": true
+        },
+        {
+          "x": 252,
+          "y": 1410,
+          "width": 696,
+          "height": 24,
+          "text": "A. Relating to others I.",
+          "bold": true
+        },
+        {
+          "x": 252,
+          "y": 1477,
+          "width": 700,
+          "height": 24,
+          "text": "B. Defining the generation Til.",
+          "bold": true
+        },
+        {
+          "x": 252,
+          "y": 1544,
+          "width": 701,
+          "height": 23,
+          "text": "C. Childhood years IV.",
+          "bold": true
+        },
+        {
+          "x": 252,
+          "y": 1610,
+          "width": 697,
+          "height": 23,
+          "text": "D. Technology Vv.",
+          "bold": true
+        },
+        {
+          "x": 253,
+          "y": 1676,
+          "width": 700,
+          "height": 19,
+          "text": "E. Self-belief VI.",
+          "bold": true
+        },
+        {
+          "x": 252,
+          "y": 1742,
+          "width": 862,
+          "height": 19,
+          "text": "F. status VII. Conclusion",
+          "bold": true
+        },
+        {
+          "x": 642,
+          "y": 1830,
+          "width": 204,
+          "height": 20,
+          "text": "END OF PART B2",
+          "bold": true
+        },
+        {
+          "x": 166,
+          "y": 1880,
+          "width": 505,
+          "height": 23,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 171,
+          "y": 1970,
+          "width": 587,
+          "height": 26,
+          "text": "2017-DSE-ENG LANG 1-B2-4 4",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2017/b2/questions-4-figure-1.webp",
+          "x": 884,
+          "y": 1300,
+          "width": 280,
+          "height": 504,
+          "alt": "Original figure 1"
+        }
+      ]
     }
   ]
 }

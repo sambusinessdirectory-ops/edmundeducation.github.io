@@ -5,51 +5,7 @@
   "title": "Music Teachers & I Won't Be a Musician",
   "sourceLabel": "HKDSE 2018 English Language Paper 1 Part A",
   "sourceHeading": "Music Teachers & I Won't Be a Musician",
-  "displayMode": "paper",
-  "passagePages": [
-    {
-      "src": "assets/reading-comprehension/dse/papers/2018/a/passage-1.webp",
-      "alt": "HKDSE 2018 Part A original reading passage page 1",
-      "label": "Reading passage page 1"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2018/a/passage-2.webp",
-      "alt": "HKDSE 2018 Part A original reading passage page 2",
-      "label": "Reading passage page 2"
-    }
-  ],
-  "questionPages": [
-    {
-      "src": "assets/reading-comprehension/dse/papers/2018/a/questions-1.webp",
-      "alt": "HKDSE 2018 Part A original question page 1",
-      "label": "Question page 1"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2018/a/questions-2.webp",
-      "alt": "HKDSE 2018 Part A original question page 2",
-      "label": "Question page 2"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2018/a/questions-3.webp",
-      "alt": "HKDSE 2018 Part A original question page 3",
-      "label": "Question page 3"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2018/a/questions-4.webp",
-      "alt": "HKDSE 2018 Part A original question page 4",
-      "label": "Question page 4"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2018/a/questions-5.webp",
-      "alt": "HKDSE 2018 Part A original question page 5",
-      "label": "Question page 5"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2018/a/questions-6.webp",
-      "alt": "HKDSE 2018 Part A original question page 6",
-      "label": "Question page 6"
-    }
-  ],
+  "displayMode": "structured-paper",
   "paragraphs": [],
   "instructions": {
     "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
@@ -208,6 +164,2556 @@
       "type": "textarea",
       "prompt": "Question 22",
       "placeholder": "Enter all answer parts for Question 22"
+    }
+  ],
+  "structuredPassagePages": [
+    {
+      "width": 1500,
+      "height": 2101,
+      "label": "Reading passage page 1",
+      "lines": [
+        {
+          "x": 228,
+          "y": 125,
+          "width": 107,
+          "height": 23,
+          "text": "PART A",
+          "bold": true
+        },
+        {
+          "x": 227,
+          "y": 187,
+          "width": 833,
+          "height": 23,
+          "text": "Read Texts 1-2 and answer questions 1-22 in the Question-Answer Book for Part A.",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 246,
+          "width": 84,
+          "height": 19,
+          "text": "Text 1",
+          "bold": true
+        },
+        {
+          "x": 278,
+          "y": 338,
+          "width": 161,
+          "height": 20,
+          "text": "Classified Ad 1",
+          "bold": true
+        },
+        {
+          "x": 278,
+          "y": 386,
+          "width": 707,
+          "height": 24,
+          "text": "Are you looking for an experienced and patient piano teacher?",
+          "bold": false
+        },
+        {
+          "x": 279,
+          "y": 419,
+          "width": 957,
+          "height": 24,
+          "text": "| am an experienced pianist with professional training in piano performance and music",
+          "bold": false
+        },
+        {
+          "x": 278,
+          "y": 452,
+          "width": 896,
+          "height": 25,
+          "text": "theory. Have been teaching piano for over 25 years. Love teaching students from",
+          "bold": false
+        },
+        {
+          "x": 279,
+          "y": 480,
+          "width": 1008,
+          "height": 34,
+          "text": "kindergarteners to those who have retired. Able to speak English / Mandarin / Cantonese /",
+          "bold": false
+        },
+        {
+          "x": 279,
+          "y": 520,
+          "width": 81,
+          "height": 18,
+          "text": "Korean.",
+          "bold": true
+        },
+        {
+          "x": 279,
+          "y": 576,
+          "width": 697,
+          "height": 28,
+          "text": "If interested, please call 2121 3456 for a complimentary lesson.",
+          "bold": true
+        },
+        {
+          "x": 277,
+          "y": 645,
+          "width": 162,
+          "height": 19,
+          "text": "Classified Ad 2",
+          "bold": true
+        },
+        {
+          "x": 277,
+          "y": 693,
+          "width": 483,
+          "height": 24,
+          "text": "Advanced level guitar tuition in your home",
+          "bold": false
+        },
+        {
+          "x": 331,
+          "y": 726,
+          "width": 880,
+          "height": 25,
+          "text": "a performing musician with over 15 years’ experience in tutoring. Past students",
+          "bold": false
+        },
+        {
+          "x": 277,
+          "y": 760,
+          "width": 997,
+          "height": 24,
+          "text": "attended top music academies, have successful recording contracts, or work as musicians.",
+          "bold": false
+        },
+        {
+          "x": 278,
+          "y": 818,
+          "width": 644,
+          "height": 24,
+          "text": "| teach lessons for learners at intermediate level or higher.",
+          "bold": false
+        },
+        {
+          "x": 277,
+          "y": 887,
+          "width": 162,
+          "height": 19,
+          "text": "Classified Ad 3",
+          "bold": true
+        },
+        {
+          "x": 278,
+          "y": 934,
+          "width": 768,
+          "height": 25,
+          "text": "| can coach you for all levels of drum exams from beginner to expert",
+          "bold": false
+        },
+        {
+          "x": 278,
+          "y": 968,
+          "width": 939,
+          "height": 24,
+          "text": "New teacher qualified in UK. Conveniently located in Wan Chai. Build confidence and",
+          "bold": false
+        },
+        {
+          "x": 277,
+          "y": 1001,
+          "width": 576,
+          "height": 24,
+          "text": "develop awareness of the drummer’s role in a band.",
+          "bold": false
+        },
+        {
+          "x": 260,
+          "y": 1053,
+          "width": 622,
+          "height": 38,
+          "text": "| Call 2134 5678 to get a 30-minute trial lesson for $150.",
+          "bold": true
+        },
+        {
+          "x": 225,
+          "y": 1153,
+          "width": 85,
+          "height": 18,
+          "text": "Text 2",
+          "bold": true
+        },
+        {
+          "x": 463,
+          "y": 1279,
+          "width": 913,
+          "height": 23,
+          "text": "‘I won’t be able to focus if you turn my music off,’ a gazillion teenagers have whined",
+          "bold": false
+        },
+        {
+          "x": 456,
+          "y": 1307,
+          "width": 508,
+          "height": 23,
+          "text": "at their parents. Is it possible that they’re right?",
+          "bold": false
+        },
+        {
+          "x": 234,
+          "y": 1344,
+          "width": 204,
+          "height": 46,
+          "text": "ae ut",
+          "bold": true
+        },
+        {
+          "x": 226,
+          "y": 1432,
+          "width": 1151,
+          "height": 23,
+          "text": "[1] Many people listen to music while they’re carrying out a task, whether they’re studying for an exam, driving a",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1461,
+          "width": 1004,
+          "height": 23,
+          "text": "vehicle or even reading a book. Many of these people argue that background music helps them focus.",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1503,
+          "width": 1151,
+          "height": 24,
+          "text": "[2] When you think about it, that doesn’t make much sense. Why would having two things to concentrate on make",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 1532,
+          "width": 1096,
+          "height": 24,
+          "text": "you more focused, not less? Some people even go so far as to say that not having music on is more distracting.",
+          "bold": false
+        },
+        {
+          "x": 227,
+          "y": 1576,
+          "width": 170,
+          "height": 23,
+          "text": "Paying attention",
+          "bold": false
+        },
+        {
+          "x": 227,
+          "y": 1617,
+          "width": 1150,
+          "height": 24,
+          "text": "[3] Why would music help us concentrate? One argument is to do with attention. For all its amazing abilities, the",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1646,
+          "width": 1151,
+          "height": 23,
+          "text": "brain hasn’t really evolved to take in abstract information or spend prolonged periods thinking about one thing. We",
+          "bold": false
+        },
+        {
+          "x": 157,
+          "y": 1674,
+          "width": 23,
+          "height": 19,
+          "text": "10",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1674,
+          "width": 1151,
+          "height": 23,
+          "text": "seem to have two attention systems: a conscious one that enables us to direct our focus towards things we know we",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1703,
+          "width": 1151,
+          "height": 22,
+          "text": "want to concentrate on and an unconscious one that shifts attention towards anything our senses pick up that might",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1731,
+          "width": 1151,
+          "height": 23,
+          "text": "be significant. The unconscious one is simpler, more fundamental, and linked to emotional processing rather than",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1759,
+          "width": 1152,
+          "height": 23,
+          "text": "higher reasoning. It also operates faster. So when you hear a noise when you’re alone at home, you're paying",
+          "bold": false
+        },
+        {
+          "x": 227,
+          "y": 1788,
+          "width": 1152,
+          "height": 23,
+          "text": "attention to it long before you consciously notice it and start to work out what it might have been. You can’t help it..",
+          "bold": false
+        },
+        {
+          "x": 158,
+          "y": 1831,
+          "width": 22,
+          "height": 19,
+          "text": "15",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 1831,
+          "width": 1149,
+          "height": 23,
+          "text": "[4] The trouble is, while our conscious attention is focused on the task in hand, the unconscious attention system",
+          "bold": false
+        },
+        {
+          "x": 227,
+          "y": 1859,
+          "width": 1154,
+          "height": 24,
+          "text": "doesn’t shut down; it’s still very much online, scanning for anything important in your peripheral senses. And if",
+          "bold": false
+        },
+        {
+          "x": 228,
+          "y": 1945,
+          "width": 618,
+          "height": 18,
+          "text": "2018-DSE-ENG LANG 1-A-RP-2 2",
+          "bold": true
+        },
+        {
+          "x": 1086,
+          "y": 2045,
+          "width": 364,
+          "height": 43,
+          "text": "Provided by dse.life",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2018/a/passage-1-figure-1.webp",
+          "x": 204,
+          "y": 280,
+          "width": 1156,
+          "height": 856,
+          "alt": "Original figure 1"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2018/a/passage-1-figure-2.webp",
+          "x": 220,
+          "y": 1184,
+          "width": 228,
+          "height": 212,
+          "alt": "Original figure 2"
+        }
+      ]
+    },
+    {
+      "width": 1489,
+      "height": 2103,
+      "label": "Reading passage page 2",
+      "lines": [
+        {
+          "x": 178,
+          "y": 125,
+          "width": 1166,
+          "height": 26,
+          "text": "what we’re doing is unpleasant or dull — so you’re already having to force your attention to stay fixed on it — the",
+          "bold": false
+        },
+        {
+          "x": 177,
+          "y": 154,
+          "width": 1166,
+          "height": 25,
+          "text": "unconscious attention system is even more potent. This means that a distraction doesn’t need to be as stimulating to",
+          "bold": false
+        },
+        {
+          "x": 176,
+          "y": 185,
+          "width": 391,
+          "height": 24,
+          "text": "divert your attention to something else.",
+          "bold": false
+        },
+        {
+          "x": 104,
+          "y": 228,
+          "width": 25,
+          "height": 19,
+          "text": "20",
+          "bold": false
+        },
+        {
+          "x": 176,
+          "y": 229,
+          "width": 1166,
+          "height": 24,
+          "text": "[5] Have you ever been working on a very important task in the library only to be driven slowly mad by someone",
+          "bold": false
+        },
+        {
+          "x": 175,
+          "y": 257,
+          "width": 1166,
+          "height": 25,
+          "text": "constantly whispering, sniffing, or tapping their pen? Something quite innocuous suddenly becomes much more",
+          "bold": false
+        },
+        {
+          "x": 176,
+          "y": 286,
+          "width": 857,
+          "height": 24,
+          "text": "infuriating when you’re trying to work on a task your brain doesn’t necessarily enjoy.",
+          "bold": false
+        },
+        {
+          "x": 175,
+          "y": 330,
+          "width": 1165,
+          "height": 24,
+          "text": "[6] Music is a very useful tool in such situations. It provides non-invasive noise and pleasurable feelings to",
+          "bold": false
+        },
+        {
+          "x": 174,
+          "y": 358,
+          "width": 1169,
+          "height": 24,
+          "text": "effectively neutralise the unconscious attention system’s ability to distract us. However, it’s not just a matter of",
+          "bold": false
+        },
+        {
+          "x": 102,
+          "y": 388,
+          "width": 24,
+          "height": 18,
+          "text": "25",
+          "bold": false
+        },
+        {
+          "x": 174,
+          "y": 388,
+          "width": 634,
+          "height": 23,
+          "text": "providing any old background noise to keep distractions at bay.",
+          "bold": false
+        },
+        {
+          "x": 173,
+          "y": 434,
+          "width": 148,
+          "height": 22,
+          "text": "Type of music",
+          "bold": false
+        },
+        {
+          "x": 173,
+          "y": 476,
+          "width": 1165,
+          "height": 24,
+          "text": "[7] It seems clear that the type of noise, or music, is important. This may seem obvious: someone listening to",
+          "bold": false
+        },
+        {
+          "x": 172,
+          "y": 504,
+          "width": 1166,
+          "height": 23,
+          "text": "classical music while they work wouldn’t seem at all unusual, but if they were listening to heavy metal it would be",
+          "bold": false
+        },
+        {
+          "x": 172,
+          "y": 534,
+          "width": 283,
+          "height": 23,
+          "text": "thought very strange indeed.",
+          "bold": false
+        },
+        {
+          "x": 100,
+          "y": 577,
+          "width": 24,
+          "height": 18,
+          "text": "30",
+          "bold": false
+        },
+        {
+          "x": 172,
+          "y": 577,
+          "width": 1166,
+          "height": 23,
+          "text": "[8] While the nature and style of the music can cause specific responses in the brain (funky music compels you to",
+          "bold": false
+        },
+        {
+          "x": 171,
+          "y": 606,
+          "width": 1166,
+          "height": 23,
+          "text": "dance, sad music makes you melancholic, motivational music makes you want to exercise), some studies suggest",
+          "bold": false
+        },
+        {
+          "x": 170,
+          "y": 634,
+          "width": 1166,
+          "height": 24,
+          "text": "that it really is down to personal preference. Music you like increases focus, while music you don’t impedes it.",
+          "bold": false
+        },
+        {
+          "x": 171,
+          "y": 663,
+          "width": 1169,
+          "height": 24,
+          "text": "Given the extreme variation in musical preferences from person to person, exposing a classroom to a single type of",
+          "bold": false
+        },
+        {
+          "x": 170,
+          "y": 693,
+          "width": 503,
+          "height": 23,
+          "text": "music would obviously end up with mixed results.",
+          "bold": false
+        },
+        {
+          "x": 98,
+          "y": 736,
+          "width": 24,
+          "height": 19,
+          "text": "35;",
+          "bold": false
+        },
+        {
+          "x": 170,
+          "y": 736,
+          "width": 1165,
+          "height": 24,
+          "text": "[9] Music also has a big impact on mood — truly bleak music could sap your enthusiasm for your task. Something",
+          "bold": false
+        },
+        {
+          "x": 170,
+          "y": 765,
+          "width": 1164,
+          "height": 24,
+          "text": "else to look out for is music with catchy lyrics. Musical pieces without words might be better working companions,",
+          "bold": false
+        },
+        {
+          "x": 169,
+          "y": 794,
+          "width": 851,
+          "height": 24,
+          "text": "as human speech and vocalisation is something our brains pay particular attention to.",
+          "bold": false
+        },
+        {
+          "x": 169,
+          "y": 840,
+          "width": 261,
+          "height": 22,
+          "text": "Video game soundtracks",
+          "bold": false
+        },
+        {
+          "x": 169,
+          "y": 881,
+          "width": 1165,
+          "height": 25,
+          "text": "[10] Some people argue that one of the best music genres for concentration is the video game soundtrack. This",
+          "bold": false
+        },
+        {
+          "x": 168,
+          "y": 910,
+          "width": 1166,
+          "height": 24,
+          "text": "makes sense, when you consider the purpose of video game music: to help create an immersive environment and to",
+          "bold": false
+        },
+        {
+          "x": 96,
+          "y": 911,
+          "width": 25,
+          "height": 18,
+          "text": "40",
+          "bold": false
+        },
+        {
+          "x": 169,
+          "y": 939,
+          "width": 785,
+          "height": 23,
+          "text": "facilitate but not distract from a task that requires constant attention and focus.",
+          "bold": false
+        },
+        {
+          "x": 169,
+          "y": 983,
+          "width": 1164,
+          "height": 23,
+          "text": "[11] Limitations in the technology used for early game consoles meant the music also tended to be fairly simplistic",
+          "bold": false
+        },
+        {
+          "x": 168,
+          "y": 1011,
+          "width": 1165,
+          "height": 23,
+          "text": "in its melodies — think Tetris or Mario. In a somewhat Darwinian way, the music in video games has been refined",
+          "bold": false
+        },
+        {
+          "x": 167,
+          "y": 1040,
+          "width": 1165,
+          "height": 24,
+          "text": "over decades to be pleasant and entertaining, but not distracting. The composers have (probably unintentionally)",
+          "bold": false
+        },
+        {
+          "x": 94,
+          "y": 1069,
+          "width": 25,
+          "height": 18,
+          "text": "45",
+          "bold": false
+        },
+        {
+          "x": 167,
+          "y": 1069,
+          "width": 787,
+          "height": 24,
+          "text": "been manipulating the attention systems in the brains of players for years now.",
+          "bold": false
+        },
+        {
+          "x": 167,
+          "y": 1113,
+          "width": 1165,
+          "height": 24,
+          "text": "[12] There are signs that, as technology progresses, this type of theme music is being abandoned, with game",
+          "bold": false
+        },
+        {
+          "x": 166,
+          "y": 1141,
+          "width": 1166,
+          "height": 25,
+          "text": "producers opting for anything from big orchestral pieces to hip-hop. The challenge will be to maintain the delicate",
+          "bold": false
+        },
+        {
+          "x": 166,
+          "y": 1170,
+          "width": 1165,
+          "height": 23,
+          "text": "balance of stimulation without distraction. To achieve this, game composers will need to stay focused, which is",
+          "bold": false
+        },
+        {
+          "x": 166,
+          "y": 1200,
+          "width": 61,
+          "height": 17,
+          "text": "ironic.",
+          "bold": false
+        },
+        {
+          "x": 94,
+          "y": 1242,
+          "width": 25,
+          "height": 19,
+          "text": "50",
+          "bold": false
+        },
+        {
+          "x": 166,
+          "y": 1243,
+          "width": 1165,
+          "height": 23,
+          "text": "[13] So after knowing all this, how do you stop yourself getting distracted by noises around you? Perhaps it won’t",
+          "bold": false
+        },
+        {
+          "x": 166,
+          "y": 1272,
+          "width": 789,
+          "height": 23,
+          "text": "be a bad idea to keep your headphones and your favourite music close to hand.",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1345,
+          "width": 120,
+          "height": 18,
+          "text": "Comments:",
+          "bold": true
+        },
+        {
+          "x": 166,
+          "y": 1373,
+          "width": 277,
+          "height": 23,
+          "text": "Laura 20 Aug 2017 17:56",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1401,
+          "width": 1165,
+          "height": 24,
+          "text": "I find it impossible to work with any music playing at all. I like music too much not to pay attention to it, whatever",
+          "bold": false
+        },
+        {
+          "x": 93,
+          "y": 1429,
+          "width": 24,
+          "height": 19,
+          "text": "55",
+          "bold": false
+        },
+        {
+          "x": 165,
+          "y": 1430,
+          "width": 349,
+          "height": 23,
+          "text": "its quality and whatever I’m doing.",
+          "bold": true
+        },
+        {
+          "x": 164,
+          "y": 1488,
+          "width": 275,
+          "height": 22,
+          "text": "Sandy 20 Aug 2017 15:11",
+          "bold": true
+        },
+        {
+          "x": 164,
+          "y": 1516,
+          "width": 980,
+          "height": 23,
+          "text": "Are you kidding? Am I alone in wanting peace and quiet... no sounds apart from the rain or wind.",
+          "bold": false
+        },
+        {
+          "x": 163,
+          "y": 1574,
+          "width": 264,
+          "height": 22,
+          "text": "John 19 Aug 2017 22:34",
+          "bold": true
+        },
+        {
+          "x": 164,
+          "y": 1597,
+          "width": 1163,
+          "height": 32,
+          "text": "All my life no one could understand how I was able to study and get good grades by listening to heavy metal music.",
+          "bold": false
+        },
+        {
+          "x": 91,
+          "y": 1629,
+          "width": 25,
+          "height": 18,
+          "text": "60",
+          "bold": false
+        },
+        {
+          "x": 163,
+          "y": 1629,
+          "width": 1121,
+          "height": 23,
+          "text": "I can’t study without my brain being blasted by my tunes. Thank you for the article. I don’t feel weird anymore.",
+          "bold": false
+        },
+        {
+          "x": 164,
+          "y": 1687,
+          "width": 251,
+          "height": 23,
+          "text": "Leo 19 Aug 2017 20:06",
+          "bold": true
+        },
+        {
+          "x": 164,
+          "y": 1715,
+          "width": 977,
+          "height": 23,
+          "text": "Who knows? I can usually focus on my homework with music playing but I can’t revise like that.",
+          "bold": false
+        },
+        {
+          "x": 534,
+          "y": 1800,
+          "width": 361,
+          "height": 20,
+          "text": "END OF READING PASSAGES",
+          "bold": true
+        },
+        {
+          "x": 164,
+          "y": 1858,
+          "width": 1164,
+          "height": 21,
+          "text": "Sources of materials used in this paper will be acknowledged in the booklet HKDSE Question Papers published by the Hong",
+          "bold": false
+        },
+        {
+          "x": 164,
+          "y": 1884,
+          "width": 560,
+          "height": 21,
+          "text": "Kong Examinations and Assessment Authority at a later stage.",
+          "bold": false
+        },
+        {
+          "x": 163,
+          "y": 1968,
+          "width": 624,
+          "height": 17,
+          "text": "2018-DSE-ENG LANG 1-A-RP-3 Ss",
+          "bold": false
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2018/a/passage-2-figure-1.webp",
+          "x": 120,
+          "y": 1296,
+          "width": 1252,
+          "height": 488,
+          "alt": "Original figure 1"
+        }
+      ]
+    }
+  ],
+  "structuredQuestionPages": [
+    {
+      "width": 1489,
+      "height": 2103,
+      "label": "Question page 1",
+      "lines": [
+        {
+          "x": 167,
+          "y": 114,
+          "width": 1250,
+          "height": 54,
+          "text": "| SSE | | | | T | Please stick the barcode label here.",
+          "bold": true
+        },
+        {
+          "x": 178,
+          "y": 196,
+          "width": 175,
+          "height": 24,
+          "text": "HKDSE 2018",
+          "bold": true
+        },
+        {
+          "x": 177,
+          "y": 231,
+          "width": 312,
+          "height": 24,
+          "text": "ENGLISH LANGUAGE",
+          "bold": true
+        },
+        {
+          "x": 177,
+          "y": 267,
+          "width": 246,
+          "height": 22,
+          "text": "PAPER 1 PART A",
+          "bold": true
+        },
+        {
+          "x": 175,
+          "y": 301,
+          "width": 660,
+          "height": 24,
+          "text": "QUESTION-ANSWER BOOK COMPULSORY",
+          "bold": true
+        },
+        {
+          "x": 175,
+          "y": 363,
+          "width": 961,
+          "height": 24,
+          "text": "Write your Candidate Number and stick a barcode label in the space provided on pages | and 3.",
+          "bold": false
+        },
+        {
+          "x": 174,
+          "y": 399,
+          "width": 590,
+          "height": 24,
+          "text": "Read Texts 1-2 and answer questions 1-22. (42 marks)",
+          "bold": true
+        },
+        {
+          "x": 172,
+          "y": 454,
+          "width": 85,
+          "height": 19,
+          "text": "Text 1",
+          "bold": true
+        },
+        {
+          "x": 175,
+          "y": 508,
+          "width": 1056,
+          "height": 23,
+          "text": "L For each word given below, find a word which has a similar meaning in the specified classified ad.",
+          "bold": false
+        },
+        {
+          "x": 1229,
+          "y": 537,
+          "width": 103,
+          "height": 22,
+          "text": "(3 marks)",
+          "bold": true
+        },
+        {
+          "x": 238,
+          "y": 623,
+          "width": 269,
+          "height": 23,
+          "text": "(i) ‘free’ (Classified Ad 1):",
+          "bold": true
+        },
+        {
+          "x": 236,
+          "y": 739,
+          "width": 314,
+          "height": 22,
+          "text": "(ii) ‘schools’ (Classified Ad 2):",
+          "bold": true
+        },
+        {
+          "x": 235,
+          "y": 854,
+          "width": 298,
+          "height": 23,
+          "text": "(iii) ‘teach’ (Classified Ad 3):",
+          "bold": true
+        },
+        {
+          "x": 166,
+          "y": 1004,
+          "width": 1152,
+          "height": 24,
+          "text": "2. Which of the classified ads do the following statements refer to? Select ONE classified ad for each",
+          "bold": false
+        },
+        {
+          "x": 233,
+          "y": 1033,
+          "width": 610,
+          "height": 23,
+          "text": "statement. If the statement does not match any ad, select ‘X’.",
+          "bold": false
+        },
+        {
+          "x": 1221,
+          "y": 1033,
+          "width": 95,
+          "height": 23,
+          "text": "(3 marks)",
+          "bold": true
+        },
+        {
+          "x": 232,
+          "y": 1122,
+          "width": 117,
+          "height": 18,
+          "text": "Statements",
+          "bold": true
+        },
+        {
+          "x": 232,
+          "y": 1208,
+          "width": 94,
+          "height": 18,
+          "text": "This ad...",
+          "bold": true
+        },
+        {
+          "x": 1068,
+          "y": 1209,
+          "width": 29,
+          "height": 18,
+          "text": "Ad",
+          "bold": false
+        },
+        {
+          "x": 1139,
+          "y": 1209,
+          "width": 30,
+          "height": 176,
+          "text": "O Ove",
+          "bold": true
+        },
+        {
+          "x": 1206,
+          "y": 1209,
+          "width": 33,
+          "height": 248,
+          "text": "OO 0%",
+          "bold": true
+        },
+        {
+          "x": 1065,
+          "y": 1238,
+          "width": 32,
+          "height": 147,
+          "text": "O O-",
+          "bold": true
+        },
+        {
+          "x": 178,
+          "y": 1282,
+          "width": 286,
+          "height": 31,
+          "text": "(i) _ states the monthly fees.",
+          "bold": true
+        },
+        {
+          "x": 177,
+          "y": 1358,
+          "width": 401,
+          "height": 23,
+          "text": "(ii) mentions the teacher’s personality.",
+          "bold": true
+        },
+        {
+          "x": 1064,
+          "y": 1426,
+          "width": 31,
+          "height": 32,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 1139,
+          "y": 1426,
+          "width": 30,
+          "height": 32,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 176,
+          "y": 1430,
+          "width": 556,
+          "height": 22,
+          "text": "(iii) indicates that the teacher will travel to the student.",
+          "bold": false
+        },
+        {
+          "x": 158,
+          "y": 1790,
+          "width": 512,
+          "height": 23,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 160,
+          "y": 1985,
+          "width": 604,
+          "height": 25,
+          "text": "2018-DSE-ENG LANG 1-A-1 1",
+          "bold": true
+        },
+        {
+          "x": 995,
+          "y": 2005,
+          "width": 404,
+          "height": 34,
+          "text": "x*AO20E680 1A",
+          "bold": true
+        },
+        {
+          "x": 1082,
+          "y": 2057,
+          "width": 369,
+          "height": 44,
+          "text": "Provided by dse.life",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2018/a/questions-1-figure-1.webp",
+          "x": 896,
+          "y": 80,
+          "width": 564,
+          "height": 240,
+          "alt": "Original figure 1"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2018/a/questions-1-figure-2.webp",
+          "x": 704,
+          "y": 196,
+          "width": 124,
+          "height": 120,
+          "alt": "Original figure 2"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2018/a/questions-1-figure-3.webp",
+          "x": 964,
+          "y": 1848,
+          "width": 464,
+          "height": 176,
+          "alt": "Original figure 3"
+        }
+      ]
+    },
+    {
+      "width": 1493,
+      "height": 2106,
+      "label": "Question page 2",
+      "lines": [
+        {
+          "x": 164,
+          "y": 207,
+          "width": 1140,
+          "height": 20,
+          "text": "5. Some of the comments below are from the music teachers in the classified ads. Match each comment with",
+          "bold": false
+        },
+        {
+          "x": 233,
+          "y": 236,
+          "width": 1064,
+          "height": 23,
+          "text": "a classified ad in Text 1. (3 marks)",
+          "bold": true
+        },
+        {
+          "x": 197,
+          "y": 325,
+          "width": 410,
+          "height": 23,
+          "text": "i):;",
+          "bold": false
+        },
+        {
+          "x": 294,
+          "y": 345,
+          "width": 363,
+          "height": 24,
+          "text": "I have the most teaching experience.",
+          "bold": true
+        },
+        {
+          "x": 287,
+          "y": 424,
+          "width": 43,
+          "height": 18,
+          "text": "Ad 1",
+          "bold": false
+        },
+        {
+          "x": 233,
+          "y": 425,
+          "width": 21,
+          "height": 103,
+          "text": "SOP,",
+          "bold": true
+        },
+        {
+          "x": 285,
+          "y": 453,
+          "width": 48,
+          "height": 18,
+          "text": "Ad2",
+          "bold": false
+        },
+        {
+          "x": 1126,
+          "y": 469,
+          "width": 31,
+          "height": 61,
+          "text": "Ov",
+          "bold": true
+        },
+        {
+          "x": 1196,
+          "y": 469,
+          "width": 31,
+          "height": 61,
+          "text": "Oo",
+          "bold": true
+        },
+        {
+          "x": 1266,
+          "y": 469,
+          "width": 31,
+          "height": 61,
+          "text": "Ov",
+          "bold": true
+        },
+        {
+          "x": 1051,
+          "y": 470,
+          "width": 32,
+          "height": 60,
+          "text": "O>",
+          "bold": true
+        },
+        {
+          "x": 286,
+          "y": 482,
+          "width": 47,
+          "height": 17,
+          "text": "Ad3",
+          "bold": false
+        },
+        {
+          "x": 287,
+          "y": 510,
+          "width": 229,
+          "height": 22,
+          "text": "Does not match any ad",
+          "bold": true
+        },
+        {
+          "x": 189,
+          "y": 607,
+          "width": 28,
+          "height": 23,
+          "text": "(ii)",
+          "bold": false
+        },
+        {
+          "x": 266,
+          "y": 632,
+          "width": 459,
+          "height": 19,
+          "text": "I teach different kinds of musical instruments.",
+          "bold": true
+        },
+        {
+          "x": 233,
+          "y": 707,
+          "width": 98,
+          "height": 18,
+          "text": "A. Adil",
+          "bold": true
+        },
+        {
+          "x": 233,
+          "y": 736,
+          "width": 100,
+          "height": 18,
+          "text": "B. Ad2",
+          "bold": false
+        },
+        {
+          "x": 233,
+          "y": 749,
+          "width": 1058,
+          "height": 34,
+          "text": "Cc Ad3 A B Cc D",
+          "bold": true
+        },
+        {
+          "x": 233,
+          "y": 782,
+          "width": 1063,
+          "height": 34,
+          "text": "D. Does not match any ad O O O O",
+          "bold": true
+        },
+        {
+          "x": 1372,
+          "y": 818,
+          "width": 19,
+          "height": 27,
+          "text": "3",
+          "bold": false
+        },
+        {
+          "x": 182,
+          "y": 891,
+          "width": 36,
+          "height": 23,
+          "text": "(iii)",
+          "bold": true
+        },
+        {
+          "x": 306,
+          "y": 914,
+          "width": 1085,
+          "height": 27,
+          "text": "I don’t teach beginners. 2",
+          "bold": false
+        },
+        {
+          "x": 1378,
+          "y": 941,
+          "width": 13,
+          "height": 24,
+          "text": "2",
+          "bold": false
+        },
+        {
+          "x": 233,
+          "y": 991,
+          "width": 97,
+          "height": 18,
+          "text": "A. Adi",
+          "bold": false
+        },
+        {
+          "x": 234,
+          "y": 1018,
+          "width": 1157,
+          "height": 20,
+          "text": "B. Ad2 |",
+          "bold": false
+        },
+        {
+          "x": 233,
+          "y": 1027,
+          "width": 1164,
+          "height": 50,
+          "text": "C. Ad3 & 2 2",
+          "bold": true
+        },
+        {
+          "x": 233,
+          "y": 1061,
+          "width": 1158,
+          "height": 45,
+          "text": "D. Does not match any ad oO O O O =|",
+          "bold": true
+        },
+        {
+          "x": 1373,
+          "y": 1104,
+          "width": 18,
+          "height": 29,
+          "text": "=",
+          "bold": false
+        },
+        {
+          "x": 1373,
+          "y": 1141,
+          "width": 18,
+          "height": 17,
+          "text": "a",
+          "bold": false
+        },
+        {
+          "x": 1378,
+          "y": 1167,
+          "width": 13,
+          "height": 22,
+          "text": "5",
+          "bold": false
+        },
+        {
+          "x": 163,
+          "y": 1204,
+          "width": 85,
+          "height": 19,
+          "text": "Text 2",
+          "bold": false
+        },
+        {
+          "x": 1379,
+          "y": 1244,
+          "width": 12,
+          "height": 17,
+          "text": "4",
+          "bold": false
+        },
+        {
+          "x": 163,
+          "y": 1261,
+          "width": 1228,
+          "height": 29,
+          "text": "4. Which two activities are NOT mentioned in paragraph | as tasks people do while listening to music? Write:",
+          "bold": false
+        },
+        {
+          "x": 230,
+          "y": 1290,
+          "width": 1161,
+          "height": 22,
+          "text": "the letters for the two activities in the boxes below. (1 mark) a",
+          "bold": false
+        },
+        {
+          "x": 1373,
+          "y": 1314,
+          "width": 18,
+          "height": 16,
+          "text": "<",
+          "bold": false
+        },
+        {
+          "x": 234,
+          "y": 1637,
+          "width": 522,
+          "height": 32,
+          "text": "Activity and activity 7",
+          "bold": true
+        },
+        {
+          "x": 166,
+          "y": 1741,
+          "width": 402,
+          "height": 22,
+          "text": "Ss What does ‘that’ (line 5) refer to?",
+          "bold": true
+        },
+        {
+          "x": 161,
+          "y": 1892,
+          "width": 511,
+          "height": 23,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 167,
+          "y": 1969,
+          "width": 606,
+          "height": 24,
+          "text": "2018-DSE-ENG LANG 1-A-2 2",
+          "bold": true
+        },
+        {
+          "x": 1084,
+          "y": 2057,
+          "width": 369,
+          "height": 45,
+          "text": "Provided by dse.life",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2018/a/questions-2-figure-5.webp",
+          "x": 324,
+          "y": 1604,
+          "width": 152,
+          "height": 92,
+          "alt": "Original figure 5"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2018/a/questions-2-figure-6.webp",
+          "x": 608,
+          "y": 1604,
+          "width": 148,
+          "height": 92,
+          "alt": "Original figure 6"
+        }
+      ]
+    },
+    {
+      "width": 1489,
+      "height": 2103,
+      "label": "Question page 3",
+      "lines": [
+        {
+          "x": 923,
+          "y": 117,
+          "width": 472,
+          "height": 22,
+          "text": "Please stick the barcode label here.",
+          "bold": true
+        },
+        {
+          "x": 153,
+          "y": 385,
+          "width": 17,
+          "height": 18,
+          "text": "6.",
+          "bold": false
+        },
+        {
+          "x": 221,
+          "y": 385,
+          "width": 1083,
+          "height": 24,
+          "text": "Complete the summary of paragraphs 3 and 4 by writing ONE word in each blank. You should make sure",
+          "bold": false
+        },
+        {
+          "x": 220,
+          "y": 415,
+          "width": 397,
+          "height": 23,
+          "text": "your answers are grammatically correct",
+          "bold": false
+        },
+        {
+          "x": 1208,
+          "y": 416,
+          "width": 94,
+          "height": 23,
+          "text": "(7 marks)",
+          "bold": true
+        },
+        {
+          "x": 266,
+          "y": 490,
+          "width": 179,
+          "height": 23,
+          "text": "Paying Attention",
+          "bold": true
+        },
+        {
+          "x": 266,
+          "y": 547,
+          "width": 418,
+          "height": 23,
+          "text": "Surprisingly, the human brain finds it (i)",
+          "bold": true
+        },
+        {
+          "x": 955,
+          "y": 548,
+          "width": 298,
+          "height": 23,
+          "text": "_ to think about one thing for",
+          "bold": true
+        },
+        {
+          "x": 265,
+          "y": 600,
+          "width": 206,
+          "height": 31,
+          "text": "long periods of time.",
+          "bold": true
+        },
+        {
+          "x": 264,
+          "y": 662,
+          "width": 364,
+          "height": 23,
+          "text": "The brain has two attention systems:",
+          "bold": true
+        },
+        {
+          "x": 264,
+          "y": 736,
+          "width": 261,
+          "height": 23,
+          "text": "1. The Conscious System",
+          "bold": true
+        },
+        {
+          "x": 775,
+          "y": 737,
+          "width": 288,
+          "height": 22,
+          "text": "2. The Unconscious System",
+          "bold": true
+        },
+        {
+          "x": 262,
+          "y": 790,
+          "width": 442,
+          "height": 24,
+          "text": "It helps people to focus and is related to",
+          "bold": true
+        },
+        {
+          "x": 775,
+          "y": 791,
+          "width": 475,
+          "height": 23,
+          "text": "It helps people to notice anything that our",
+          "bold": true
+        },
+        {
+          "x": 261,
+          "y": 848,
+          "width": 63,
+          "height": 23,
+          "text": "higher",
+          "bold": true
+        },
+        {
+          "x": 354,
+          "y": 848,
+          "width": 350,
+          "height": 24,
+          "text": "reasoning. It operates at a",
+          "bold": false
+        },
+        {
+          "x": 774,
+          "y": 849,
+          "width": 198,
+          "height": 23,
+          "text": "senses consider (iii)",
+          "bold": true
+        },
+        {
+          "x": 773,
+          "y": 903,
+          "width": 475,
+          "height": 31,
+          "text": "It is linked to how our",
+          "bold": true
+        },
+        {
+          "x": 261,
+          "y": 906,
+          "width": 368,
+          "height": 23,
+          "text": "(ji) speed.",
+          "bold": true
+        },
+        {
+          "x": 772,
+          "y": 964,
+          "width": 475,
+          "height": 23,
+          "text": "(iv) guide the",
+          "bold": true
+        },
+        {
+          "x": 771,
+          "y": 1021,
+          "width": 475,
+          "height": 24,
+          "text": "processing of our surroundings. The system is",
+          "bold": true
+        },
+        {
+          "x": 771,
+          "y": 1079,
+          "width": 474,
+          "height": 24,
+          "text": "(vy) functioning even",
+          "bold": true
+        },
+        {
+          "x": 770,
+          "y": 1136,
+          "width": 412,
+          "height": 24,
+          "text": "when we are focusing on something else.",
+          "bold": true
+        },
+        {
+          "x": 258,
+          "y": 1242,
+          "width": 986,
+          "height": 24,
+          "text": "We are easily distracted by unexpected noises even when the distraction is not as",
+          "bold": false
+        },
+        {
+          "x": 257,
+          "y": 1299,
+          "width": 986,
+          "height": 24,
+          "text": "(vi) as the task we are engaged in. When the task is boring, this",
+          "bold": false
+        },
+        {
+          "x": 256,
+          "y": 1356,
+          "width": 230,
+          "height": 23,
+          "text": "distraction is even (vii)",
+          "bold": true
+        },
+        {
+          "x": 208,
+          "y": 1539,
+          "width": 460,
+          "height": 23,
+          "text": "What does ‘You can’t help it’ (line 14) mean?",
+          "bold": true
+        },
+        {
+          "x": 277,
+          "y": 1579,
+          "width": 264,
+          "height": 23,
+          "text": "You cannot stop the noise.",
+          "bold": false
+        },
+        {
+          "x": 209,
+          "y": 1580,
+          "width": 22,
+          "height": 17,
+          "text": "A.",
+          "bold": true
+        },
+        {
+          "x": 277,
+          "y": 1607,
+          "width": 314,
+          "height": 19,
+          "text": "You have to focus on the noise.",
+          "bold": false
+        },
+        {
+          "x": 209,
+          "y": 1608,
+          "width": 21,
+          "height": 17,
+          "text": "Be",
+          "bold": false
+        },
+        {
+          "x": 1038,
+          "y": 1626,
+          "width": 229,
+          "height": 17,
+          "text": "A BC",
+          "bold": true
+        },
+        {
+          "x": 277,
+          "y": 1636,
+          "width": 457,
+          "height": 23,
+          "text": "You will feel scared when you hear the noise.",
+          "bold": false
+        },
+        {
+          "x": 210,
+          "y": 1637,
+          "width": 19,
+          "height": 17,
+          "text": "C.",
+          "bold": true
+        },
+        {
+          "x": 1030,
+          "y": 1656,
+          "width": 243,
+          "height": 32,
+          "text": "OO00",
+          "bold": true
+        },
+        {
+          "x": 277,
+          "y": 1665,
+          "width": 495,
+          "height": 23,
+          "text": "You will definitely hear noises when home alone.",
+          "bold": false
+        },
+        {
+          "x": 209,
+          "y": 1666,
+          "width": 17,
+          "height": 17,
+          "text": "D",
+          "bold": true
+        },
+        {
+          "x": 206,
+          "y": 1763,
+          "width": 1082,
+          "height": 24,
+          "text": "Find a word or phrase that the writer uses in paragraph 4 to draw readers’ attention to the fact that the",
+          "bold": false
+        },
+        {
+          "x": 205,
+          "y": 1792,
+          "width": 529,
+          "height": 23,
+          "text": "unconscious attention system can cause us problems.",
+          "bold": true
+        },
+        {
+          "x": 132,
+          "y": 1912,
+          "width": 512,
+          "height": 23,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 137,
+          "y": 1989,
+          "width": 606,
+          "height": 25,
+          "text": "2018-DSE-ENG LANG 1-A-3 3",
+          "bold": true
+        },
+        {
+          "x": 1098,
+          "y": 1994,
+          "width": 194,
+          "height": 20,
+          "text": "Go on to the next page",
+          "bold": false
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2018/a/questions-3-figure-1.webp",
+          "x": 876,
+          "y": 80,
+          "width": 572,
+          "height": 244,
+          "alt": "Original figure 1"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2018/a/questions-3-figure-3.webp",
+          "x": 1060,
+          "y": 1840,
+          "width": 428,
+          "height": 263,
+          "alt": "Original figure 3"
+        }
+      ]
+    },
+    {
+      "width": 1500,
+      "height": 2111,
+      "label": "Question page 4",
+      "lines": [
+        {
+          "x": 250,
+          "y": 217,
+          "width": 324,
+          "height": 23,
+          "text": "What does ‘it’ (line 17) refer to?",
+          "bold": true
+        },
+        {
+          "x": 249,
+          "y": 419,
+          "width": 706,
+          "height": 24,
+          "text": "Find a word in paragraph 5 which has a similar meaning to ‘harmless’.",
+          "bold": false
+        },
+        {
+          "x": 248,
+          "y": 615,
+          "width": 621,
+          "height": 33,
+          "text": "Give ONE example of a distraction mentioned in paragraph 5.",
+          "bold": false
+        },
+        {
+          "x": 183,
+          "y": 821,
+          "width": 26,
+          "height": 17,
+          "text": "12.",
+          "bold": false
+        },
+        {
+          "x": 247,
+          "y": 821,
+          "width": 1074,
+          "height": 23,
+          "text": "According to paragraph 6, the main benefit of listening to music when working on an important task in a",
+          "bold": false
+        },
+        {
+          "x": 248,
+          "y": 850,
+          "width": 135,
+          "height": 22,
+          "text": "library is to...",
+          "bold": false
+        },
+        {
+          "x": 251,
+          "y": 890,
+          "width": 354,
+          "height": 23,
+          "text": "A. stop the non-invasive noises.",
+          "bold": false
+        },
+        {
+          "x": 251,
+          "y": 919,
+          "width": 14,
+          "height": 18,
+          "text": "B",
+          "bold": true
+        },
+        {
+          "x": 319,
+          "y": 919,
+          "width": 328,
+          "height": 23,
+          "text": "create enjoyment for the listener.",
+          "bold": false
+        },
+        {
+          "x": 247,
+          "y": 933,
+          "width": 989,
+          "height": 45,
+          "text": "Cc neutralise the pleasurable feelings. a Bi c",
+          "bold": true
+        },
+        {
+          "x": 251,
+          "y": 962,
+          "width": 1062,
+          "height": 43,
+          "text": "D. cancel the effect of the unconscious system. O O O oO",
+          "bold": true
+        },
+        {
+          "x": 248,
+          "y": 1132,
+          "width": 886,
+          "height": 23,
+          "text": "When the writer says ‘it really is down to personal preference’ (line 32), he/she means...",
+          "bold": false
+        },
+        {
+          "x": 250,
+          "y": 1171,
+          "width": 452,
+          "height": 24,
+          "text": "A. people prefer to dance to funky music.",
+          "bold": false
+        },
+        {
+          "x": 251,
+          "y": 1200,
+          "width": 512,
+          "height": 24,
+          "text": "B. people study while listening to catchy lyrics.",
+          "bold": false
+        },
+        {
+          "x": 250,
+          "y": 1214,
+          "width": 1057,
+          "height": 43,
+          "text": "G people focus better listening to music they enjoy. A B Cc D",
+          "bold": true
+        },
+        {
+          "x": 251,
+          "y": 1248,
+          "width": 1062,
+          "height": 33,
+          "text": "D. people make better choices when listening to music. O O O O",
+          "bold": false
+        },
+        {
+          "x": 183,
+          "y": 1413,
+          "width": 25,
+          "height": 18,
+          "text": "14.",
+          "bold": false
+        },
+        {
+          "x": 248,
+          "y": 1413,
+          "width": 635,
+          "height": 24,
+          "text": "Find a word in paragraph 8 which can be replaced by ‘reduces’.",
+          "bold": false
+        },
+        {
+          "x": 247,
+          "y": 1612,
+          "width": 1044,
+          "height": 24,
+          "text": "Explain why playing only one type of music in a classroom would ‘end up with mixed results’ (line 34).",
+          "bold": false
+        },
+        {
+          "x": 175,
+          "y": 1896,
+          "width": 512,
+          "height": 23,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 181,
+          "y": 1973,
+          "width": 607,
+          "height": 25,
+          "text": "2018-DSE-ENG LANG 1-A~4 4",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "width": 1497,
+      "height": 2109,
+      "label": "Question page 5",
+      "lines": [
+        {
+          "x": 191,
+          "y": 227,
+          "width": 477,
+          "height": 23,
+          "text": "16. ‘Working companions’ (line 36) refers to",
+          "bold": true
+        },
+        {
+          "x": 188,
+          "y": 428,
+          "width": 1147,
+          "height": 24,
+          "text": "17. Based on the information in paragraphs 11-12, complete the timeline of the development of video game",
+          "bold": false
+        },
+        {
+          "x": 238,
+          "y": 456,
+          "width": 1095,
+          "height": 25,
+          "text": "soundtracks using ONE word from the text. (6 marks)",
+          "bold": true
+        },
+        {
+          "x": 502,
+          "y": 641,
+          "width": 839,
+          "height": 23,
+          "text": "At the start, technological (i) resulted in the use",
+          "bold": true
+        },
+        {
+          "x": 501,
+          "y": 704,
+          "width": 164,
+          "height": 22,
+          "text": "of somewhat (ii)",
+          "bold": true
+        },
+        {
+          "x": 219,
+          "y": 737,
+          "width": 215,
+          "height": 27,
+          "text": "Early video games",
+          "bold": true
+        },
+        {
+          "x": 499,
+          "y": 970,
+          "width": 489,
+          "height": 24,
+          "text": "Game soundtracks improved so they were (iii)",
+          "bold": true
+        },
+        {
+          "x": 498,
+          "y": 1032,
+          "width": 707,
+          "height": 24,
+          "text": "without being (iv) for the players.",
+          "bold": true
+        },
+        {
+          "x": 226,
+          "y": 1066,
+          "width": 196,
+          "height": 26,
+          "text": "Next 10-20 years",
+          "bold": true
+        },
+        {
+          "x": 498,
+          "y": 1239,
+          "width": 837,
+          "height": 23,
+          "text": "With advances in (v) the game producers are",
+          "bold": true
+        },
+        {
+          "x": 496,
+          "y": 1301,
+          "width": 838,
+          "height": 24,
+          "text": "choosing from a wider range of music. The difficulty is keeping the",
+          "bold": false
+        },
+        {
+          "x": 495,
+          "y": 1360,
+          "width": 839,
+          "height": 31,
+          "text": "(vi) right so players enjoy the music whilst",
+          "bold": true
+        },
+        {
+          "x": 207,
+          "y": 1398,
+          "width": 231,
+          "height": 25,
+          "text": "Latest development",
+          "bold": false
+        },
+        {
+          "x": 495,
+          "y": 1426,
+          "width": 233,
+          "height": 23,
+          "text": "focusing on their game.",
+          "bold": true
+        },
+        {
+          "x": 178,
+          "y": 1692,
+          "width": 402,
+          "height": 24,
+          "text": "18. Describe the irony in paragraph 12.",
+          "bold": true
+        },
+        {
+          "x": 169,
+          "y": 1911,
+          "width": 512,
+          "height": 23,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 175,
+          "y": 1980,
+          "width": 1155,
+          "height": 35,
+          "text": "2018-DSE-ENG LANG 1-A-5 5 Go on to the next page",
+          "bold": true
+        },
+        {
+          "x": 1087,
+          "y": 2057,
+          "width": 381,
+          "height": 45,
+          "text": "Provided by dse.life|",
+          "bold": true
+        }
+      ]
+    },
+    {
+      "width": 1493,
+      "height": 2106,
+      "label": "Question page 6",
+      "lines": [
+        {
+          "x": 162,
+          "y": 206,
+          "width": 938,
+          "height": 25,
+          "text": "19. Which type of music is considered to be extremely useful in helping people concentrate?",
+          "bold": false
+        },
+        {
+          "x": 283,
+          "y": 248,
+          "width": 97,
+          "height": 18,
+          "text": "sad music",
+          "bold": false
+        },
+        {
+          "x": 283,
+          "y": 277,
+          "width": 180,
+          "height": 23,
+          "text": "video game music",
+          "bold": false
+        },
+        {
+          "x": 1121,
+          "y": 294,
+          "width": 31,
+          "height": 61,
+          "text": "Ov",
+          "bold": true
+        },
+        {
+          "x": 283,
+          "y": 306,
+          "width": 186,
+          "height": 23,
+          "text": "heavy metal music",
+          "bold": false
+        },
+        {
+          "x": 282,
+          "y": 334,
+          "width": 191,
+          "height": 19,
+          "text": "motivational music",
+          "bold": true
+        },
+        {
+          "x": 158,
+          "y": 485,
+          "width": 555,
+          "height": 31,
+          "text": "20. Which of the following is the best title for Text 2?",
+          "bold": true
+        },
+        {
+          "x": 214,
+          "y": 530,
+          "width": 22,
+          "height": 103,
+          "text": "cop>",
+          "bold": true
+        },
+        {
+          "x": 282,
+          "y": 530,
+          "width": 250,
+          "height": 22,
+          "text": "Why is music important?",
+          "bold": false
+        },
+        {
+          "x": 282,
+          "y": 557,
+          "width": 310,
+          "height": 24,
+          "text": "How does your brain function?",
+          "bold": false
+        },
+        {
+          "x": 282,
+          "y": 586,
+          "width": 330,
+          "height": 23,
+          "text": "Why does your brain like music?",
+          "bold": false
+        },
+        {
+          "x": 282,
+          "y": 615,
+          "width": 394,
+          "height": 23,
+          "text": "Can music really help you concentrate?",
+          "bold": true
+        },
+        {
+          "x": 158,
+          "y": 767,
+          "width": 803,
+          "height": 32,
+          "text": "21. Which of the following best describes the intention of the writer of Text 2?",
+          "bold": false
+        },
+        {
+          "x": 214,
+          "y": 808,
+          "width": 348,
+          "height": 31,
+          "text": "A. — To defend his point of view.",
+          "bold": false
+        },
+        {
+          "x": 214,
+          "y": 841,
+          "width": 375,
+          "height": 23,
+          "text": "B. To present some new research.",
+          "bold": false
+        },
+        {
+          "x": 1198,
+          "y": 857,
+          "width": 85,
+          "height": 18,
+          "text": "© PD",
+          "bold": true
+        },
+        {
+          "x": 1120,
+          "y": 858,
+          "width": 31,
+          "height": 61,
+          "text": "Ow",
+          "bold": true
+        },
+        {
+          "x": 214,
+          "y": 869,
+          "width": 411,
+          "height": 24,
+          "text": "c. To explain a puzzling observation.",
+          "bold": false
+        },
+        {
+          "x": 1190,
+          "y": 887,
+          "width": 100,
+          "height": 32,
+          "text": "OO",
+          "bold": true
+        },
+        {
+          "x": 214,
+          "y": 898,
+          "width": 493,
+          "height": 24,
+          "text": "D. persuade readers to change their habits.",
+          "bold": true
+        },
+        {
+          "x": 213,
+          "y": 1053,
+          "width": 583,
+          "height": 23,
+          "text": "Read the Comments (lines 52-62) and answer question 22.",
+          "bold": true
+        },
+        {
+          "x": 157,
+          "y": 1100,
+          "width": 1110,
+          "height": 33,
+          "text": "22. What is the most likely opinion of each of the four people towards the statement ‘Music helps me study’?",
+          "bold": false
+        },
+        {
+          "x": 1208,
+          "y": 1132,
+          "width": 92,
+          "height": 23,
+          "text": "(4 marks)",
+          "bold": true
+        },
+        {
+          "x": 1235,
+          "y": 1217,
+          "width": 59,
+          "height": 15,
+          "text": "Neither",
+          "bold": false
+        },
+        {
+          "x": 1240,
+          "y": 1245,
+          "width": 49,
+          "height": 14,
+          "text": "agrees",
+          "bold": false
+        },
+        {
+          "x": 1031,
+          "y": 1253,
+          "width": 55,
+          "height": 18,
+          "text": "Agrees",
+          "bold": false
+        },
+        {
+          "x": 1128,
+          "y": 1253,
+          "width": 78,
+          "height": 18,
+          "text": "Disagrees",
+          "bold": false
+        },
+        {
+          "x": 1253,
+          "y": 1268,
+          "width": 26,
+          "height": 11,
+          "text": "nor",
+          "bold": false
+        },
+        {
+          "x": 1229,
+          "y": 1287,
+          "width": 71,
+          "height": 18,
+          "text": "disagrees",
+          "bold": false
+        },
+        {
+          "x": 1046,
+          "y": 1317,
+          "width": 31,
+          "height": 31,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 1150,
+          "y": 1317,
+          "width": 31,
+          "height": 31,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 1249,
+          "y": 1317,
+          "width": 27,
+          "height": 31,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 217,
+          "y": 1329,
+          "width": 122,
+          "height": 22,
+          "text": "(i) Laura",
+          "bold": true
+        },
+        {
+          "x": 1047,
+          "y": 1395,
+          "width": 30,
+          "height": 31,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 1151,
+          "y": 1395,
+          "width": 30,
+          "height": 31,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 1249,
+          "y": 1395,
+          "width": 27,
+          "height": 31,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 217,
+          "y": 1401,
+          "width": 126,
+          "height": 22,
+          "text": "(ii) Sandy",
+          "bold": true
+        },
+        {
+          "x": 1047,
+          "y": 1477,
+          "width": 30,
+          "height": 31,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 1151,
+          "y": 1477,
+          "width": 30,
+          "height": 31,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 1249,
+          "y": 1477,
+          "width": 28,
+          "height": 31,
+          "text": "©",
+          "bold": false
+        },
+        {
+          "x": 217,
+          "y": 1480,
+          "width": 111,
+          "height": 23,
+          "text": "(iii) John",
+          "bold": true
+        },
+        {
+          "x": 217,
+          "y": 1552,
+          "width": 103,
+          "height": 22,
+          "text": "(iv) Leo",
+          "bold": true
+        },
+        {
+          "x": 1151,
+          "y": 1555,
+          "width": 30,
+          "height": 31,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 1249,
+          "y": 1555,
+          "width": 28,
+          "height": 30,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 650,
+          "y": 1653,
+          "width": 192,
+          "height": 19,
+          "text": "END OF PARTA",
+          "bold": true
+        },
+        {
+          "x": 163,
+          "y": 1737,
+          "width": 512,
+          "height": 23,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 160,
+          "y": 1973,
+          "width": 607,
+          "height": 24,
+          "text": "2018-DSE-ENG LANG 1-A-6 6",
+          "bold": true
+        }
+      ]
     }
   ]
 }

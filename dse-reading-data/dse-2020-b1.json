@@ -5,41 +5,7 @@
   "title": "How to Fly a Kite & The Grounding of Hong Kong's Kites",
   "sourceLabel": "HKDSE 2020 English Language Paper 1 Part B1",
   "sourceHeading": "How to Fly a Kite & The Grounding of Hong Kong's Kites",
-  "displayMode": "paper",
-  "passagePages": [
-    {
-      "src": "assets/reading-comprehension/dse/papers/2020/b1/passage-1.webp",
-      "alt": "HKDSE 2020 Part B1 original reading passage page 1",
-      "label": "Reading passage page 1"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2020/b1/passage-2.webp",
-      "alt": "HKDSE 2020 Part B1 original reading passage page 2",
-      "label": "Reading passage page 2"
-    }
-  ],
-  "questionPages": [
-    {
-      "src": "assets/reading-comprehension/dse/papers/2020/b1/questions-1.webp",
-      "alt": "HKDSE 2020 Part B1 original question page 1",
-      "label": "Question page 1"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2020/b1/questions-2.webp",
-      "alt": "HKDSE 2020 Part B1 original question page 2",
-      "label": "Question page 2"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2020/b1/questions-3.webp",
-      "alt": "HKDSE 2020 Part B1 original question page 3",
-      "label": "Question page 3"
-    },
-    {
-      "src": "assets/reading-comprehension/dse/papers/2020/b1/questions-4.webp",
-      "alt": "HKDSE 2020 Part B1 original question page 4",
-      "label": "Question page 4"
-    }
-  ],
+  "displayMode": "structured-paper",
   "paragraphs": [],
   "instructions": {
     "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
@@ -198,6 +164,2628 @@
       "type": "textarea",
       "prompt": "Question 41",
       "placeholder": "Enter all answer parts for Question 41"
+    }
+  ],
+  "structuredPassagePages": [
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Reading passage page 1",
+      "lines": [
+        {
+          "x": 154,
+          "y": 152,
+          "width": 123,
+          "height": 23,
+          "text": "PART B1",
+          "bold": true
+        },
+        {
+          "x": 154,
+          "y": 199,
+          "width": 870,
+          "height": 25,
+          "text": "Read Texts 2-3 and answer questions 20-41 in the Question-Answer Book for Part B1.",
+          "bold": false
+        },
+        {
+          "x": 153,
+          "y": 261,
+          "width": 86,
+          "height": 19,
+          "text": "Text 2",
+          "bold": true
+        },
+        {
+          "x": 154,
+          "y": 341,
+          "width": 822,
+          "height": 34,
+          "text": "http://www. nationalkitemonth.com/professor-kite-and-the-secret-of-kites/",
+          "bold": false
+        },
+        {
+          "x": 325,
+          "y": 395,
+          "width": 420,
+          "height": 37,
+          "text": "National Kite Month",
+          "bold": true
+        },
+        {
+          "x": 324,
+          "y": 446,
+          "width": 168,
+          "height": 32,
+          "text": "1 — 30\" April",
+          "bold": false
+        },
+        {
+          "x": 154,
+          "y": 509,
+          "width": 1103,
+          "height": 32,
+          "text": "Home For Teachers Events Forum Find a Store Contact Us",
+          "bold": true
+        },
+        {
+          "x": 154,
+          "y": 590,
+          "width": 338,
+          "height": 44,
+          "text": "How to fly a kite",
+          "bold": true
+        },
+        {
+          "x": 163,
+          "y": 688,
+          "width": 932,
+          "height": 24,
+          "text": "1] Kite flying is great fun and it’s easy if you know some of Professor Kite’s secrets. So",
+          "bold": false
+        },
+        {
+          "x": 152,
+          "y": 721,
+          "width": 696,
+          "height": 24,
+          "text": "grab your kite and join in the fun, the sky is big enough for everyone!",
+          "bold": false
+        },
+        {
+          "x": 153,
+          "y": 787,
+          "width": 899,
+          "height": 32,
+          "text": "Professor Kite’s rules for picking the best days for flying a kite",
+          "bold": false
+        },
+        {
+          "x": 160,
+          "y": 835,
+          "width": 923,
+          "height": 24,
+          "text": "2] Because we don’t control the wind, we learn to watch for the right kite-flying conditions.",
+          "bold": false
+        },
+        {
+          "x": 152,
+          "y": 901,
+          "width": 53,
+          "height": 18,
+          "text": "Wind",
+          "bold": true
+        },
+        {
+          "x": 160,
+          "y": 937,
+          "width": 1139,
+          "height": 25,
+          "text": "3] Wind that is too strong or too light is nearly impossible to fly in. A flag or windsock is handy to help you see",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 970,
+          "width": 1148,
+          "height": 24,
+          "text": "the wind. About 8-40 kph is best for most kites (when leaves and bushes start to move, but before it really starts",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 1003,
+          "width": 1148,
+          "height": 25,
+          "text": "to blow). Diamond and dragon kites are the best to fly in light to medium winds while box kites fly better when",
+          "bold": false
+        },
+        {
+          "x": 150,
+          "y": 1038,
+          "width": 603,
+          "height": 23,
+          "text": "the winds get a little stronger. to find a store.",
+          "bold": false
+        },
+        {
+          "x": 159,
+          "y": 1083,
+          "width": 1140,
+          "height": 26,
+          "text": "4] Flying is most fun when the wind is medium so you can do more than just hold on. You can make your kite",
+          "bold": false
+        },
+        {
+          "x": 81,
+          "y": 1085,
+          "width": 23,
+          "height": 18,
+          "text": "10",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 1117,
+          "width": 1148,
+          "height": 25,
+          "text": "dance across the sky by pulling in and letting out the line. Be sure your kite is put together correctly, or it may not",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 1150,
+          "width": 900,
+          "height": 24,
+          "text": "fly at all. a handy step-by-step guide here to help you build your own kite.",
+          "bold": false
+        },
+        {
+          "x": 152,
+          "y": 1201,
+          "width": 122,
+          "height": 22,
+          "text": "Flying space",
+          "bold": false
+        },
+        {
+          "x": 160,
+          "y": 1248,
+          "width": 1138,
+          "height": 24,
+          "text": "5] This should be a clear, open area. Stay away from roads, power lines and airports. Open fields, parks and",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 1281,
+          "width": 901,
+          "height": 25,
+          "text": "beaches are great for flying kites. The more room you have, the more line you can let out.",
+          "bold": false
+        },
+        {
+          "x": 81,
+          "y": 1282,
+          "width": 23,
+          "height": 19,
+          "text": "is",
+          "bold": false
+        },
+        {
+          "x": 159,
+          "y": 1329,
+          "width": 1139,
+          "height": 25,
+          "text": "6] Remember that as the wind goes over and around trees and buildings, it gets bumpy and difficult to fly kites",
+          "bold": false
+        },
+        {
+          "x": 152,
+          "y": 1364,
+          "width": 360,
+          "height": 23,
+          "text": "in. Watch out for ‘kite-eating’ trees!",
+          "bold": false
+        },
+        {
+          "x": 152,
+          "y": 1414,
+          "width": 76,
+          "height": 17,
+          "text": "Beware",
+          "bold": false
+        },
+        {
+          "x": 159,
+          "y": 1460,
+          "width": 1062,
+          "height": 25,
+          "text": "7] Never fly in rain or lightning. Electricity in clouds is attracted to damp kite lines and foolish kite fliers.",
+          "bold": false
+        },
+        {
+          "x": 79,
+          "y": 1510,
+          "width": 25,
+          "height": 19,
+          "text": "20",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 1511,
+          "width": 200,
+          "height": 21,
+          "text": "Professor Kite says:",
+          "bold": false
+        },
+        {
+          "x": 160,
+          "y": 1554,
+          "width": 952,
+          "height": 33,
+          "text": "8] “Never be a danger to yourself or others. Most of all... slow down, take it easy, and enjoy!”",
+          "bold": false
+        },
+        {
+          "x": 159,
+          "y": 1606,
+          "width": 1146,
+          "height": 24,
+          "text": "9] “Many wonderful people, just like you, enjoy the pleasures and fellowship to be found at the end ofa kite line.",
+          "bold": false
+        },
+        {
+          "x": 150,
+          "y": 1640,
+          "width": 778,
+          "height": 24,
+          "text": "Try sharing the experience to make the fun even greater. See you in the sky!”",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 1993,
+          "width": 636,
+          "height": 16,
+          "text": "2020-DSE-ENG LANG |-B1-RP-2 2",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2020/b1/passage-1-figure-2.webp",
+          "x": 1212,
+          "y": 600,
+          "width": 132,
+          "height": 124,
+          "alt": "Original figure 2"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2020/b1/passage-1-figure-3.webp",
+          "x": 1100,
+          "y": 732,
+          "width": 124,
+          "height": 188,
+          "alt": "Original figure 3"
+        },
+        {
+          "src": "assets/reading-comprehension/dse/structured/2020/b1/passage-1-figure-4.webp",
+          "x": 1112,
+          "y": 1640,
+          "width": 256,
+          "height": 292,
+          "alt": "Original figure 4"
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Reading passage page 2",
+      "lines": [
+        {
+          "x": 155,
+          "y": 179,
+          "width": 86,
+          "height": 19,
+          "text": "Text 3",
+          "bold": true
+        },
+        {
+          "x": 154,
+          "y": 257,
+          "width": 946,
+          "height": 35,
+          "text": "THE GROUNDING OF HONG KONG’S KITES",
+          "bold": true
+        },
+        {
+          "x": 155,
+          "y": 321,
+          "width": 862,
+          "height": 29,
+          "text": "Kite-flying culture falls victim to urbanisation and regulation",
+          "bold": false
+        },
+        {
+          "x": 155,
+          "y": 398,
+          "width": 528,
+          "height": 24,
+          "text": "[1] It is a Sunday morning and Thomas Shum and",
+          "bold": true
+        },
+        {
+          "x": 791,
+          "y": 399,
+          "width": 532,
+          "height": 23,
+          "text": "Navigation (Hong Kong) in 1970. This limited the",
+          "bold": false
+        },
+        {
+          "x": 153,
+          "y": 427,
+          "width": 529,
+          "height": 24,
+          "text": "his daughter have spent an hour travelling to Tai",
+          "bold": false
+        },
+        {
+          "x": 792,
+          "y": 428,
+          "width": 531,
+          "height": 23,
+          "text": "space where people could fly kites to areas at least",
+          "bold": false
+        },
+        {
+          "x": 153,
+          "y": 456,
+          "width": 529,
+          "height": 24,
+          "text": "Mei Tuk where the primary school student will",
+          "bold": false
+        },
+        {
+          "x": 792,
+          "y": 457,
+          "width": 531,
+          "height": 23,
+          "text": "60 metres away from any vehicle or building. It",
+          "bold": false
+        },
+        {
+          "x": 741,
+          "y": 484,
+          "width": 26,
+          "height": 19,
+          "text": "45",
+          "bold": false
+        },
+        {
+          "x": 153,
+          "y": 485,
+          "width": 530,
+          "height": 24,
+          "text": "experience her first kite-flying experience with her",
+          "bold": false
+        },
+        {
+          "x": 792,
+          "y": 485,
+          "width": 530,
+          "height": 24,
+          "text": "made flying kites unfeasible in a city cramped with",
+          "bold": false
+        },
+        {
+          "x": 153,
+          "y": 513,
+          "width": 528,
+          "height": 24,
+          "text": "dad. Shum holds the string while his daughter pulls",
+          "bold": false
+        },
+        {
+          "x": 792,
+          "y": 514,
+          "width": 398,
+          "height": 23,
+          "text": "skyscrapers and crowded with vehicles.",
+          "bold": false
+        },
+        {
+          "x": 153,
+          "y": 542,
+          "width": 528,
+          "height": 24,
+          "text": "the kite, running as fast as she can to get it to take",
+          "bold": false
+        },
+        {
+          "x": 792,
+          "y": 557,
+          "width": 530,
+          "height": 24,
+          "text": "[8] Currently, the Civil Aviation Department only",
+          "bold": false
+        },
+        {
+          "x": 153,
+          "y": 571,
+          "width": 528,
+          "height": 23,
+          "text": "off. As the kite soars towards the sky, father and",
+          "bold": false
+        },
+        {
+          "x": 791,
+          "y": 586,
+          "width": 531,
+          "height": 23,
+          "text": "recommends three main spots for flying kites. They",
+          "bold": false
+        },
+        {
+          "x": 153,
+          "y": 599,
+          "width": 389,
+          "height": 24,
+          "text": "daughter share an unspoken happiness.",
+          "bold": false
+        },
+        {
+          "x": 791,
+          "y": 615,
+          "width": 531,
+          "height": 21,
+          "text": "are Shek O, Tai Au Mun and Tai Mei Tuk. Mr So",
+          "bold": false
+        },
+        {
+          "x": 153,
+          "y": 643,
+          "width": 528,
+          "height": 24,
+          "text": "[2] Kites have a special place in Shum’s heart, as",
+          "bold": false
+        },
+        {
+          "x": 741,
+          "y": 643,
+          "width": 25,
+          "height": 19,
+          "text": "50",
+          "bold": false
+        },
+        {
+          "x": 791,
+          "y": 644,
+          "width": 530,
+          "height": 23,
+          "text": "says these restrictions limit the development of kite",
+          "bold": false
+        },
+        {
+          "x": 104,
+          "y": 671,
+          "width": 23,
+          "height": 19,
+          "text": "10",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 671,
+          "width": 529,
+          "height": 25,
+          "text": "they were one of the few toys he had during his",
+          "bold": false
+        },
+        {
+          "x": 791,
+          "y": 672,
+          "width": 73,
+          "height": 19,
+          "text": "culture.",
+          "bold": false
+        },
+        {
+          "x": 152,
+          "y": 700,
+          "width": 528,
+          "height": 24,
+          "text": "childhood. It is a different story for his daughter,",
+          "bold": false
+        },
+        {
+          "x": 791,
+          "y": 716,
+          "width": 530,
+          "height": 23,
+          "text": "[9] As interest in kite flying fades, businesses that",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 729,
+          "width": 529,
+          "height": 19,
+          "text": "whose leisure hours are filled with television and",
+          "bold": false
+        },
+        {
+          "x": 790,
+          "y": 745,
+          "width": 531,
+          "height": 23,
+          "text": "make and sell kites also face a gloomy future. We",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 758,
+          "width": 529,
+          "height": 23,
+          "text": "electronic games. Now, he wants her to know more",
+          "bold": false
+        },
+        {
+          "x": 790,
+          "y": 774,
+          "width": 530,
+          "height": 18,
+          "text": "collected the details of the kite manufacturers listed",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 787,
+          "width": 400,
+          "height": 23,
+          "text": "about this fading culture in Hong Kong.",
+          "bold": false
+        },
+        {
+          "x": 740,
+          "y": 801,
+          "width": 25,
+          "height": 19,
+          "text": "55",
+          "bold": false
+        },
+        {
+          "x": 790,
+          "y": 802,
+          "width": 530,
+          "height": 23,
+          "text": "in Hong Kong and tried to contact them by",
+          "bold": false
+        },
+        {
+          "x": 103,
+          "y": 829,
+          "width": 24,
+          "height": 19,
+          "text": "15",
+          "bold": false
+        },
+        {
+          "x": 152,
+          "y": 830,
+          "width": 527,
+          "height": 23,
+          "text": "[3] “Flying kites was quite a fun activity back then,”",
+          "bold": false
+        },
+        {
+          "x": 789,
+          "y": 831,
+          "width": 531,
+          "height": 23,
+          "text": "telephone or in person. We discovered most of the",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 855,
+          "width": 528,
+          "height": 31,
+          "text": "says Shum, “when I was a child, there would always",
+          "bold": false
+        },
+        {
+          "x": 790,
+          "y": 859,
+          "width": 530,
+          "height": 24,
+          "text": "factories have either ended their business in Hong",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 887,
+          "width": 528,
+          "height": 24,
+          "text": "be at least eight to ten kites flying together at the",
+          "bold": false
+        },
+        {
+          "x": 789,
+          "y": 888,
+          "width": 425,
+          "height": 24,
+          "text": "Kong or will end their business very soon.",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 916,
+          "width": 117,
+          "height": 18,
+          "text": "same time.”",
+          "bold": false
+        },
+        {
+          "x": 790,
+          "y": 931,
+          "width": 529,
+          "height": 24,
+          "text": "[10] Kite enthusiast Haiven Woo Ka-hei started an",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 959,
+          "width": 527,
+          "height": 25,
+          "text": "[4] Kite flying was one of the most popular leisure",
+          "bold": false
+        },
+        {
+          "x": 739,
+          "y": 959,
+          "width": 26,
+          "height": 19,
+          "text": "60",
+          "bold": false
+        },
+        {
+          "x": 789,
+          "y": 960,
+          "width": 529,
+          "height": 24,
+          "text": "online kite shop with his brother a few years ago.",
+          "bold": false
+        },
+        {
+          "x": 100,
+          "y": 987,
+          "width": 26,
+          "height": 19,
+          "text": "20",
+          "bold": false
+        },
+        {
+          "x": 150,
+          "y": 989,
+          "width": 529,
+          "height": 23,
+          "text": "activities for children in Hong Kong in the 1950s",
+          "bold": false
+        },
+        {
+          "x": 788,
+          "y": 990,
+          "width": 530,
+          "height": 23,
+          "text": "Although the shop, HK Kite, is still up and running,",
+          "bold": false
+        },
+        {
+          "x": 150,
+          "y": 1018,
+          "width": 529,
+          "height": 21,
+          "text": "and 1960s. Back then, there were no restrictions on",
+          "bold": false
+        },
+        {
+          "x": 790,
+          "y": 1019,
+          "width": 529,
+          "height": 22,
+          "text": "Woo says selling kites has now turned into a niche",
+          "bold": false
+        },
+        {
+          "x": 149,
+          "y": 1046,
+          "width": 533,
+          "height": 24,
+          "text": "kite flying and kites could be seen in every corner of",
+          "bold": false
+        },
+        {
+          "x": 788,
+          "y": 1047,
+          "width": 532,
+          "height": 23,
+          "text": "market and they can only run their business on a",
+          "bold": false
+        },
+        {
+          "x": 149,
+          "y": 1074,
+          "width": 529,
+          "height": 25,
+          "text": "the city’s sky and even beyond — from the rooftops",
+          "bold": false
+        },
+        {
+          "x": 788,
+          "y": 1075,
+          "width": 153,
+          "height": 24,
+          "text": "part-time basis.",
+          "bold": false
+        },
+        {
+          "x": 149,
+          "y": 1103,
+          "width": 528,
+          "height": 24,
+          "text": "of Sham Shui Po to the corridors of Shek Kip Mei",
+          "bold": false
+        },
+        {
+          "x": 738,
+          "y": 1118,
+          "width": 25,
+          "height": 19,
+          "text": "65",
+          "bold": false
+        },
+        {
+          "x": 789,
+          "y": 1119,
+          "width": 529,
+          "height": 24,
+          "text": "[11] “Occasionally we used to go kite flying with",
+          "bold": false
+        },
+        {
+          "x": 99,
+          "y": 1131,
+          "width": 26,
+          "height": 19,
+          "text": "25",
+          "bold": false
+        },
+        {
+          "x": 149,
+          "y": 1132,
+          "width": 156,
+          "height": 23,
+          "text": "Housing Estate.",
+          "bold": false
+        },
+        {
+          "x": 788,
+          "y": 1148,
+          "width": 530,
+          "height": 24,
+          "text": "some of our regular customers, but now there are",
+          "bold": false
+        },
+        {
+          "x": 150,
+          "y": 1176,
+          "width": 528,
+          "height": 24,
+          "text": "[5] Shum says kite flying was popular because it",
+          "bold": false
+        },
+        {
+          "x": 788,
+          "y": 1177,
+          "width": 530,
+          "height": 23,
+          "text": "only one to two people,” Woo says. “When we",
+          "bold": false
+        },
+        {
+          "x": 148,
+          "y": 1205,
+          "width": 529,
+          "height": 22,
+          "text": "was so easy to do. Kids could assemble a few",
+          "bold": false
+        },
+        {
+          "x": 787,
+          "y": 1206,
+          "width": 530,
+          "height": 23,
+          "text": "wanted to look for people with similar interests,",
+          "bold": false
+        },
+        {
+          "x": 148,
+          "y": 1229,
+          "width": 529,
+          "height": 32,
+          "text": "bamboo sticks and pieces of paper to make a kite",
+          "bold": false
+        },
+        {
+          "x": 786,
+          "y": 1234,
+          "width": 288,
+          "height": 24,
+          "text": "there were really not many.”",
+          "bold": false
+        },
+        {
+          "x": 147,
+          "y": 1261,
+          "width": 530,
+          "height": 25,
+          "text": "that could be flown in the neighbourhood. “We",
+          "bold": false
+        },
+        {
+          "x": 738,
+          "y": 1277,
+          "width": 25,
+          "height": 19,
+          "text": "70",
+          "bold": false
+        },
+        {
+          "x": 788,
+          "y": 1278,
+          "width": 530,
+          "height": 23,
+          "text": "[12] It seems kite flying may only survive in Hong",
+          "bold": false
+        },
+        {
+          "x": 99,
+          "y": 1289,
+          "width": 25,
+          "height": 19,
+          "text": "30",
+          "bold": false
+        },
+        {
+          "x": 148,
+          "y": 1290,
+          "width": 529,
+          "height": 25,
+          "text": "didn’t have to go as far as the countryside to fly",
+          "bold": false
+        },
+        {
+          "x": 787,
+          "y": 1307,
+          "width": 532,
+          "height": 23,
+          "text": "Kong as a niche interest, or an occasional outdoor",
+          "bold": false
+        },
+        {
+          "x": 147,
+          "y": 1319,
+          "width": 530,
+          "height": 24,
+          "text": "kites. We could always go kite flying in our housing",
+          "bold": false
+        },
+        {
+          "x": 787,
+          "y": 1335,
+          "width": 531,
+          "height": 25,
+          "text": "activity. Woo says even his own son and daughter",
+          "bold": false
+        },
+        {
+          "x": 148,
+          "y": 1348,
+          "width": 280,
+          "height": 23,
+          "text": "estates instead,” Shum says.",
+          "bold": false
+        },
+        {
+          "x": 786,
+          "y": 1364,
+          "width": 531,
+          "height": 24,
+          "text": "have little interest in it. “When I ask my son to go",
+          "bold": false
+        },
+        {
+          "x": 149,
+          "y": 1392,
+          "width": 528,
+          "height": 23,
+          "text": "[6] Recalling those days, So Chi-chiu, 59, the vice-",
+          "bold": false
+        },
+        {
+          "x": 786,
+          "y": 1393,
+          "width": 532,
+          "height": 23,
+          "text": "flying kites, he turns me down and prefers to sit at",
+          "bold": false
+        },
+        {
+          "x": 148,
+          "y": 1420,
+          "width": 528,
+          "height": 24,
+          "text": "chairman of Hong Kong Kite Fighting Club, who",
+          "bold": false
+        },
+        {
+          "x": 737,
+          "y": 1421,
+          "width": 25,
+          "height": 19,
+          "text": "75",
+          "bold": false
+        },
+        {
+          "x": 786,
+          "y": 1422,
+          "width": 531,
+          "height": 23,
+          "text": "home and play computer games,” laments Woo.",
+          "bold": false
+        },
+        {
+          "x": 99,
+          "y": 1448,
+          "width": 24,
+          "height": 19,
+          "text": "35",
+          "bold": false
+        },
+        {
+          "x": 147,
+          "y": 1449,
+          "width": 530,
+          "height": 25,
+          "text": "has flown kites for more than 30 years, says most",
+          "bold": false
+        },
+        {
+          "x": 786,
+          "y": 1450,
+          "width": 531,
+          "height": 24,
+          "text": "“Children are rarely ‘educated’ to fly kites as a kind",
+          "bold": false
+        },
+        {
+          "x": 147,
+          "y": 1477,
+          "width": 529,
+          "height": 24,
+          "text": "people aged 50 years or over must have flown kites",
+          "bold": false
+        },
+        {
+          "x": 786,
+          "y": 1479,
+          "width": 224,
+          "height": 24,
+          "text": "of collective activity.”",
+          "bold": false
+        },
+        {
+          "x": 148,
+          "y": 1506,
+          "width": 182,
+          "height": 19,
+          "text": "in their childhood.",
+          "bold": false
+        },
+        {
+          "x": 787,
+          "y": 1523,
+          "width": 531,
+          "height": 24,
+          "text": "[13] As for So, his kite-flying days may not be over",
+          "bold": false
+        },
+        {
+          "x": 148,
+          "y": 1550,
+          "width": 528,
+          "height": 25,
+          "text": "[7] However, as Hong Kong’s economy started to",
+          "bold": false
+        },
+        {
+          "x": 786,
+          "y": 1552,
+          "width": 531,
+          "height": 24,
+          "text": "but he has low expectations of the future for this",
+          "bold": false
+        },
+        {
+          "x": 146,
+          "y": 1579,
+          "width": 530,
+          "height": 24,
+          "text": "boom in the 1970s, kite flying started to fade. The",
+          "bold": false
+        },
+        {
+          "x": 736,
+          "y": 1580,
+          "width": 25,
+          "height": 19,
+          "text": "80",
+          "bold": false
+        },
+        {
+          "x": 785,
+          "y": 1581,
+          "width": 532,
+          "height": 23,
+          "text": "tradition in Hong Kong. All he can do, he says, is",
+          "bold": false
+        },
+        {
+          "x": 97,
+          "y": 1607,
+          "width": 26,
+          "height": 19,
+          "text": "40",
+          "bold": false
+        },
+        {
+          "x": 146,
+          "y": 1608,
+          "width": 530,
+          "height": 24,
+          "text": "rapid urban development and bustling air traffic led",
+          "bold": false
+        },
+        {
+          "x": 785,
+          "y": 1610,
+          "width": 213,
+          "height": 23,
+          "text": "“hope for a miracle.”",
+          "bold": false
+        },
+        {
+          "x": 146,
+          "y": 1637,
+          "width": 530,
+          "height": 22,
+          "text": "to the implementation of the Articles of the Air",
+          "bold": true
+        },
+        {
+          "x": 550,
+          "y": 1780,
+          "width": 361,
+          "height": 19,
+          "text": "END OF READING PASSAGES",
+          "bold": true
+        },
+        {
+          "x": 146,
+          "y": 1837,
+          "width": 1171,
+          "height": 24,
+          "text": "Sources of materials used in this paper will be acknowledged in the HKDSE Question Papers booklet published by the Hong",
+          "bold": false
+        },
+        {
+          "x": 146,
+          "y": 1863,
+          "width": 560,
+          "height": 22,
+          "text": "Kong Examinations and Assessment Authority at a later stage.",
+          "bold": false
+        },
+        {
+          "x": 145,
+          "y": 1988,
+          "width": 325,
+          "height": 17,
+          "text": "2020-DSE-ENG LANG 1-B1-RP-3",
+          "bold": true
+        }
+      ]
+    }
+  ],
+  "structuredQuestionPages": [
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 1",
+      "lines": [
+        {
+          "x": 591,
+          "y": 111,
+          "width": 807,
+          "height": 53,
+          "text": "| Please stick the barcode label here.",
+          "bold": true
+        },
+        {
+          "x": 163,
+          "y": 131,
+          "width": 210,
+          "height": 19,
+          "text": "Candidate Number",
+          "bold": true
+        },
+        {
+          "x": 163,
+          "y": 200,
+          "width": 179,
+          "height": 23,
+          "text": "HKDSE 2020",
+          "bold": true
+        },
+        {
+          "x": 163,
+          "y": 211,
+          "width": 661,
+          "height": 86,
+          "text": "ENGLISH LANGUAGE = 1",
+          "bold": true
+        },
+        {
+          "x": 163,
+          "y": 269,
+          "width": 261,
+          "height": 23,
+          "text": "PAPER 1 PART B1",
+          "bold": true
+        },
+        {
+          "x": 162,
+          "y": 304,
+          "width": 685,
+          "height": 24,
+          "text": "QUESTION-ANSWER BOOK EASY SECTION",
+          "bold": true
+        },
+        {
+          "x": 162,
+          "y": 372,
+          "width": 915,
+          "height": 24,
+          "text": "Write your Candidate Number and stick a barcode label in the space provided on this page.",
+          "bold": false
+        },
+        {
+          "x": 162,
+          "y": 409,
+          "width": 610,
+          "height": 24,
+          "text": "Read Texts 2-3 and answer questions 20-41. (42 marks)",
+          "bold": false
+        },
+        {
+          "x": 161,
+          "y": 457,
+          "width": 86,
+          "height": 19,
+          "text": "Text 2",
+          "bold": true
+        },
+        {
+          "x": 161,
+          "y": 510,
+          "width": 363,
+          "height": 18,
+          "text": "20. When is National Kite Month?",
+          "bold": true
+        },
+        {
+          "x": 161,
+          "y": 623,
+          "width": 1161,
+          "height": 25,
+          "text": "21. Select one of the menu options in the header above paragraph 1 to complete each gap in the table below. Each",
+          "bold": false
+        },
+        {
+          "x": 215,
+          "y": 653,
+          "width": 1105,
+          "height": 24,
+          "text": "option can only be used once. The first has been done for you as an example. (3 marks)",
+          "bold": false
+        },
+        {
+          "x": 233,
+          "y": 742,
+          "width": 946,
+          "height": 26,
+          "text": "If you want to... Go to the following menu option",
+          "bold": true
+        },
+        {
+          "x": 229,
+          "y": 799,
+          "width": 760,
+          "height": 30,
+          "text": "...Share your kite flying experiences. E.g. Forum",
+          "bold": true
+        },
+        {
+          "x": 244,
+          "y": 860,
+          "width": 612,
+          "height": 23,
+          "text": ".ask Professor Kite a question. (i)",
+          "bold": true
+        },
+        {
+          "x": 228,
+          "y": 917,
+          "width": 634,
+          "height": 23,
+          "text": "...find an activity in National Kite Month. (ii)",
+          "bold": true
+        },
+        {
+          "x": 228,
+          "y": 975,
+          "width": 641,
+          "height": 24,
+          "text": "... buy a kite. (iii)",
+          "bold": true
+        },
+        {
+          "x": 159,
+          "y": 1064,
+          "width": 808,
+          "height": 24,
+          "text": "22. Complete the following sentence using ONE word taken from paragraph 1.",
+          "bold": false
+        },
+        {
+          "x": 213,
+          "y": 1113,
+          "width": 1008,
+          "height": 32,
+          "text": "Knowing the of kite flying will make it more enjoyable.",
+          "bold": true
+        },
+        {
+          "x": 159,
+          "y": 1182,
+          "width": 444,
+          "height": 23,
+          "text": "23. Who or what does ‘it’ (line 7) refer to?",
+          "bold": true
+        },
+        {
+          "x": 158,
+          "y": 1299,
+          "width": 1156,
+          "height": 24,
+          "text": "24. Complete the following tips from paragraph 3. Write ONE word taken from the paragraph in each gap below.",
+          "bold": false
+        },
+        {
+          "x": 1227,
+          "y": 1327,
+          "width": 95,
+          "height": 24,
+          "text": "(2 marks)",
+          "bold": true
+        },
+        {
+          "x": 211,
+          "y": 1386,
+          "width": 841,
+          "height": 23,
+          "text": "There are two methods for kite flyers to check if the wind is suitable for kite flying:",
+          "bold": false
+        },
+        {
+          "x": 213,
+          "y": 1442,
+          "width": 914,
+          "height": 24,
+          "text": "¢ Either a windsock or (i) can show the wind speed.",
+          "bold": true
+        },
+        {
+          "x": 213,
+          "y": 1501,
+          "width": 949,
+          "height": 23,
+          "text": "¢ Look at the movement of the (ii) on the trees nearby.",
+          "bold": true
+        },
+        {
+          "x": 157,
+          "y": 1566,
+          "width": 1160,
+          "height": 23,
+          "text": "25. According to paragraphs 3-6, are the following statements True (T), False (F) or Not Given (NG)? (3 marks)",
+          "bold": false
+        },
+        {
+          "x": 312,
+          "y": 1605,
+          "width": 117,
+          "height": 18,
+          "text": "Statements",
+          "bold": false
+        },
+        {
+          "x": 1280,
+          "y": 1605,
+          "width": 34,
+          "height": 18,
+          "text": "4",
+          "bold": false
+        },
+        {
+          "x": 1128,
+          "y": 1606,
+          "width": 31,
+          "height": 152,
+          "text": "O00 3",
+          "bold": true
+        },
+        {
+          "x": 1205,
+          "y": 1606,
+          "width": 30,
+          "height": 152,
+          "text": "O00 #",
+          "bold": true
+        },
+        {
+          "x": 312,
+          "y": 1644,
+          "width": 566,
+          "height": 23,
+          "text": "Diamond kites are the most enjoyable type of kite to fly.",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 1686,
+          "width": 533,
+          "height": 24,
+          "text": "(ii) People should avoid flying kites on beaches.",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 1724,
+          "width": 729,
+          "height": 31,
+          "text": "(iii) When the wind is weaker, dragon kites fly better than box kites.",
+          "bold": false
+        },
+        {
+          "x": 151,
+          "y": 1780,
+          "width": 516,
+          "height": 23,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 1005,
+          "y": 1983,
+          "width": 409,
+          "height": 20,
+          "text": "* AO 2 1B 1 *",
+          "bold": true
+        },
+        {
+          "x": 156,
+          "y": 1986,
+          "width": 289,
+          "height": 17,
+          "text": "2020-DSE-ENG LANG 1-B1-1",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2020/b1/questions-1-figure-2.webp",
+          "x": 972,
+          "y": 1824,
+          "width": 472,
+          "height": 196,
+          "alt": "Original figure 2"
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 2",
+      "lines": [
+        {
+          "x": 145,
+          "y": 179,
+          "width": 227,
+          "height": 19,
+          "text": "po",
+          "bold": false
+        },
+        {
+          "x": 154,
+          "y": 225,
+          "width": 527,
+          "height": 25,
+          "text": "26. The sentence “Watch out for ‘kite-eating’ trees",
+          "bold": false
+        },
+        {
+          "x": 685,
+          "y": 226,
+          "width": 15,
+          "height": 13,
+          "text": "pp",
+          "bold": false
+        },
+        {
+          "x": 708,
+          "y": 226,
+          "width": 379,
+          "height": 24,
+          "text": "(line 17) suggests the reader should...",
+          "bold": false
+        },
+        {
+          "x": 221,
+          "y": 276,
+          "width": 347,
+          "height": 23,
+          "text": "A. make kites bump into trees.",
+          "bold": false
+        },
+        {
+          "x": 221,
+          "y": 318,
+          "width": 441,
+          "height": 23,
+          "text": "B make sure kites fly close to the trees.",
+          "bold": false
+        },
+        {
+          "x": 1073,
+          "y": 358,
+          "width": 231,
+          "height": 31,
+          "text": "A B Cc D",
+          "bold": false
+        },
+        {
+          "x": 221,
+          "y": 361,
+          "width": 448,
+          "height": 18,
+          "text": "G. remove kites which are stuck in trees.",
+          "bold": false
+        },
+        {
+          "x": 1065,
+          "y": 391,
+          "width": 247,
+          "height": 51,
+          "text": "OOO 0",
+          "bold": true
+        },
+        {
+          "x": 221,
+          "y": 403,
+          "width": 16,
+          "height": 18,
+          "text": "D",
+          "bold": true
+        },
+        {
+          "x": 291,
+          "y": 403,
+          "width": 452,
+          "height": 24,
+          "text": "take care to avoid kites getting stuck in trees.",
+          "bold": true
+        },
+        {
+          "x": 153,
+          "y": 473,
+          "width": 1164,
+          "height": 24,
+          "text": "27, Using the information in paragraphs 2-6, complete the following Troubleshooting Guide. For each gap use",
+          "bold": false
+        },
+        {
+          "x": 207,
+          "y": 502,
+          "width": 386,
+          "height": 23,
+          "text": "ONE word taken from paragraphs 2-6.",
+          "bold": false
+        },
+        {
+          "x": 1218,
+          "y": 502,
+          "width": 94,
+          "height": 24,
+          "text": "(5 marks)",
+          "bold": true
+        },
+        {
+          "x": 242,
+          "y": 572,
+          "width": 429,
+          "height": 21,
+          "text": "Troubleshooting Guide for your New Kite",
+          "bold": true
+        },
+        {
+          "x": 331,
+          "y": 617,
+          "width": 381,
+          "height": 17,
+          "text": "Issue Cause",
+          "bold": false
+        },
+        {
+          "x": 1036,
+          "y": 617,
+          "width": 85,
+          "height": 17,
+          "text": "Solution",
+          "bold": false
+        },
+        {
+          "x": 242,
+          "y": 655,
+          "width": 592,
+          "height": 31,
+          "text": "The kite is difficultto | You may be standing too close to",
+          "bold": false
+        },
+        {
+          "x": 893,
+          "y": 656,
+          "width": 355,
+          "height": 31,
+          "text": "Move to a location that is clear and",
+          "bold": false
+        },
+        {
+          "x": 242,
+          "y": 688,
+          "width": 74,
+          "height": 17,
+          "text": "control.",
+          "bold": false
+        },
+        {
+          "x": 498,
+          "y": 716,
+          "width": 23,
+          "height": 22,
+          "text": "(i)",
+          "bold": false
+        },
+        {
+          "x": 893,
+          "y": 722,
+          "width": 53,
+          "height": 18,
+          "text": "open.",
+          "bold": true
+        },
+        {
+          "x": 241,
+          "y": 784,
+          "width": 624,
+          "height": 33,
+          "text": "The kite does not fly. | There is either not enough wind, or",
+          "bold": true
+        },
+        {
+          "x": 893,
+          "y": 789,
+          "width": 149,
+          "height": 18,
+          "text": "Wait for better",
+          "bold": true
+        },
+        {
+          "x": 498,
+          "y": 846,
+          "width": 142,
+          "height": 23,
+          "text": "it is extremely",
+          "bold": true
+        },
+        {
+          "x": 892,
+          "y": 847,
+          "width": 37,
+          "height": 22,
+          "text": "(iii)",
+          "bold": true
+        },
+        {
+          "x": 497,
+          "y": 903,
+          "width": 30,
+          "height": 23,
+          "text": "(ii)",
+          "bold": false
+        },
+        {
+          "x": 496,
+          "y": 999,
+          "width": 254,
+          "height": 18,
+          "text": "The kite is not assembled",
+          "bold": true
+        },
+        {
+          "x": 892,
+          "y": 1000,
+          "width": 219,
+          "height": 22,
+          "text": "Refer to the assembly",
+          "bold": true
+        },
+        {
+          "x": 496,
+          "y": 1056,
+          "width": 36,
+          "height": 23,
+          "text": "(iv)",
+          "bold": false
+        },
+        {
+          "x": 892,
+          "y": 1057,
+          "width": 28,
+          "height": 22,
+          "text": "(vy)",
+          "bold": false
+        },
+        {
+          "x": 149,
+          "y": 1162,
+          "width": 1164,
+          "height": 25,
+          "text": "28. Using the information in paragraph 7, complete the following sentence by using ONE word taken from",
+          "bold": false
+        },
+        {
+          "x": 216,
+          "y": 1191,
+          "width": 254,
+          "height": 24,
+          "text": "paragraph 7 for each gap.",
+          "bold": false
+        },
+        {
+          "x": 1216,
+          "y": 1192,
+          "width": 94,
+          "height": 24,
+          "text": "(2 marks)",
+          "bold": true
+        },
+        {
+          "x": 216,
+          "y": 1247,
+          "width": 314,
+          "height": 24,
+          "text": "Flying your kite in storms is (i)",
+          "bold": true
+        },
+        {
+          "x": 1097,
+          "y": 1249,
+          "width": 174,
+          "height": 18,
+          "text": "because wet lines",
+          "bold": true
+        },
+        {
+          "x": 216,
+          "y": 1306,
+          "width": 98,
+          "height": 22,
+          "text": "attract (ii)",
+          "bold": true
+        },
+        {
+          "x": 147,
+          "y": 1387,
+          "width": 631,
+          "height": 24,
+          "text": "29. According to paragraphs 2-7, when is it best to fly a kite?",
+          "bold": true
+        },
+        {
+          "x": 411,
+          "y": 1445,
+          "width": 727,
+          "height": 19,
+          "text": "A. B. &. D.",
+          "bold": true
+        },
+        {
+          "x": 611,
+          "y": 1494,
+          "width": 562,
+          "height": 39,
+          "text": "*],",
+          "bold": true
+        },
+        {
+          "x": 397,
+          "y": 1562,
+          "width": 776,
+          "height": 58,
+          "text": "ut “as",
+          "bold": true
+        },
+        {
+          "x": 141,
+          "y": 1888,
+          "width": 517,
+          "height": 24,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 145,
+          "y": 1977,
+          "width": 599,
+          "height": 24,
+          "text": "2020-DSE-ENG LANG 1-B1-2 2",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2020/b1/questions-2-figure-1.webp",
+          "x": 204,
+          "y": 536,
+          "width": 1092,
+          "height": 604,
+          "alt": "Original figure 1"
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 3",
+      "lines": [
+        {
+          "x": 157,
+          "y": 212,
+          "width": 1127,
+          "height": 24,
+          "text": "30. State ONE piece of advice that Professor Kite offers in paragraphs 8-9 to make kite flying more enjoyable.",
+          "bold": false
+        },
+        {
+          "x": 156,
+          "y": 410,
+          "width": 413,
+          "height": 33,
+          "text": "31. The main purpose of the text is to...",
+          "bold": true
+        },
+        {
+          "x": 222,
+          "y": 461,
+          "width": 143,
+          "height": 18,
+          "text": "A. inform.",
+          "bold": false
+        },
+        {
+          "x": 222,
+          "y": 496,
+          "width": 147,
+          "height": 18,
+          "text": "B. discuss.",
+          "bold": false
+        },
+        {
+          "x": 218,
+          "y": 528,
+          "width": 161,
+          "height": 31,
+          "text": "Cc, evaluate.",
+          "bold": false
+        },
+        {
+          "x": 1066,
+          "y": 534,
+          "width": 31,
+          "height": 60,
+          "text": "O>",
+          "bold": true
+        },
+        {
+          "x": 1138,
+          "y": 534,
+          "width": 31,
+          "height": 60,
+          "text": "Ow",
+          "bold": true
+        },
+        {
+          "x": 1209,
+          "y": 534,
+          "width": 31,
+          "height": 61,
+          "text": "Oo",
+          "bold": true
+        },
+        {
+          "x": 1280,
+          "y": 534,
+          "width": 30,
+          "height": 61,
+          "text": "Ov",
+          "bold": true
+        },
+        {
+          "x": 221,
+          "y": 571,
+          "width": 22,
+          "height": 17,
+          "text": "D.",
+          "bold": true
+        },
+        {
+          "x": 292,
+          "y": 571,
+          "width": 92,
+          "height": 17,
+          "text": "entertain.",
+          "bold": false
+        },
+        {
+          "x": 153,
+          "y": 663,
+          "width": 297,
+          "height": 18,
+          "text": "32. The text is taken from...",
+          "bold": true
+        },
+        {
+          "x": 219,
+          "y": 709,
+          "width": 143,
+          "height": 18,
+          "text": "A. a book.",
+          "bold": false
+        },
+        {
+          "x": 220,
+          "y": 744,
+          "width": 168,
+          "height": 18,
+          "text": "B. a website.",
+          "bold": false
+        },
+        {
+          "x": 215,
+          "y": 775,
+          "width": 193,
+          "height": 32,
+          "text": "Cc. a magazine.",
+          "bold": false
+        },
+        {
+          "x": 1072,
+          "y": 778,
+          "width": 229,
+          "height": 31,
+          "text": "A B ic D",
+          "bold": false
+        },
+        {
+          "x": 290,
+          "y": 808,
+          "width": 1018,
+          "height": 44,
+          "text": "a weather forecast. O Oo O",
+          "bold": true
+        },
+        {
+          "x": 219,
+          "y": 818,
+          "width": 22,
+          "height": 17,
+          "text": "D.",
+          "bold": true
+        },
+        {
+          "x": 152,
+          "y": 913,
+          "width": 85,
+          "height": 18,
+          "text": "Text 3",
+          "bold": true
+        },
+        {
+          "x": 152,
+          "y": 999,
+          "width": 1158,
+          "height": 26,
+          "text": "33. According to paragraphs 1-2, are the following statements True (T), False (F) or Not Given (NG)? (4 marks)",
+          "bold": false
+        },
+        {
+          "x": 306,
+          "y": 1039,
+          "width": 117,
+          "height": 18,
+          "text": "Statements",
+          "bold": false
+        },
+        {
+          "x": 1119,
+          "y": 1041,
+          "width": 32,
+          "height": 208,
+          "text": "00008",
+          "bold": true
+        },
+        {
+          "x": 1197,
+          "y": 1042,
+          "width": 30,
+          "height": 207,
+          "text": "OOOO?",
+          "bold": true
+        },
+        {
+          "x": 1272,
+          "y": 1042,
+          "width": 35,
+          "height": 207,
+          "text": "OO008",
+          "bold": true
+        },
+        {
+          "x": 217,
+          "y": 1077,
+          "width": 420,
+          "height": 23,
+          "text": "(i) Thomas has more than one child.",
+          "bold": false
+        },
+        {
+          "x": 217,
+          "y": 1124,
+          "width": 627,
+          "height": 25,
+          "text": "(ii) Thomas and his daughter regularly fly a kite together.",
+          "bold": false
+        },
+        {
+          "x": 217,
+          "y": 1170,
+          "width": 752,
+          "height": 25,
+          "text": "(iii) Thomas and his daughter work together to get the kite into the air.",
+          "bold": false
+        },
+        {
+          "x": 216,
+          "y": 1217,
+          "width": 644,
+          "height": 25,
+          "text": "(iv) Thomas dislikes his daughter playing electronic games.",
+          "bold": false
+        },
+        {
+          "x": 149,
+          "y": 1321,
+          "width": 665,
+          "height": 25,
+          "text": "34. Complete this sentence using the information in paragraph 2.",
+          "bold": false
+        },
+        {
+          "x": 202,
+          "y": 1370,
+          "width": 565,
+          "height": 25,
+          "text": "The trip to Tai Mei Tuk is important to Thomas because",
+          "bold": true
+        },
+        {
+          "x": 148,
+          "y": 1512,
+          "width": 1164,
+          "height": 27,
+          "text": "35. With reference to paragraph 5, in what ways was kite flying ‘easy to do” (line 27)? Complete the sentences",
+          "bold": false
+        },
+        {
+          "x": 201,
+          "y": 1541,
+          "width": 1106,
+          "height": 26,
+          "text": "below by using ONE word taken from paragraph 5 for each gap. (2 marks)",
+          "bold": false
+        },
+        {
+          "x": 201,
+          "y": 1599,
+          "width": 321,
+          "height": 23,
+          "text": "Reason 1: Kites were easy to (i)",
+          "bold": true
+        },
+        {
+          "x": 200,
+          "y": 1656,
+          "width": 459,
+          "height": 24,
+          "text": "Reason 2: Children could fly kites in their (ii)",
+          "bold": true
+        },
+        {
+          "x": 154,
+          "y": 1884,
+          "width": 515,
+          "height": 23,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 145,
+          "y": 1967,
+          "width": 1157,
+          "height": 38,
+          "text": "2020-DSE-ENG LANG 1-BI-3 3 Go on to the next page",
+          "bold": true
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/structured/2020/b1/questions-3-figure-1.webp",
+          "x": 1144,
+          "y": 1936,
+          "width": 212,
+          "height": 104,
+          "alt": "Original figure 1"
+        }
+      ]
+    },
+    {
+      "width": 1488,
+      "height": 2103,
+      "label": "Question page 4",
+      "lines": [
+        {
+          "x": 1226,
+          "y": 216,
+          "width": 92,
+          "height": 23,
+          "text": "(4 marks)",
+          "bold": false
+        },
+        {
+          "x": 161,
+          "y": 217,
+          "width": 794,
+          "height": 26,
+          "text": "36. With reference to paragraphs 4-7, indicate when the following took place.",
+          "bold": false
+        },
+        {
+          "x": 1069,
+          "y": 247,
+          "width": 32,
+          "height": 18,
+          "text": "the",
+          "bold": false
+        },
+        {
+          "x": 1171,
+          "y": 247,
+          "width": 32,
+          "height": 17,
+          "text": "the",
+          "bold": false
+        },
+        {
+          "x": 1269,
+          "y": 247,
+          "width": 37,
+          "height": 17,
+          "text": "Not",
+          "bold": false
+        },
+        {
+          "x": 1254,
+          "y": 275,
+          "width": 66,
+          "height": 18,
+          "text": "Stated",
+          "bold": false
+        },
+        {
+          "x": 1056,
+          "y": 276,
+          "width": 58,
+          "height": 18,
+          "text": "1950s",
+          "bold": false
+        },
+        {
+          "x": 1159,
+          "y": 276,
+          "width": 57,
+          "height": 17,
+          "text": "1970s",
+          "bold": false
+        },
+        {
+          "x": 310,
+          "y": 282,
+          "width": 117,
+          "height": 18,
+          "text": "Statements",
+          "bold": false
+        },
+        {
+          "x": 1051,
+          "y": 304,
+          "width": 67,
+          "height": 19,
+          "text": "/1960s",
+          "bold": false
+        },
+        {
+          "x": 1171,
+          "y": 336,
+          "width": 30,
+          "height": 31,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 1271,
+          "y": 336,
+          "width": 30,
+          "height": 31,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 1069,
+          "y": 337,
+          "width": 31,
+          "height": 30,
+          "text": "O",
+          "bold": true
+        },
+        {
+          "x": 227,
+          "y": 339,
+          "width": 766,
+          "height": 25,
+          "text": "(i) So Chi-chiu became vice-chairman of the Hong Kong Kite Fighting",
+          "bold": false
+        },
+        {
+          "x": 310,
+          "y": 370,
+          "width": 52,
+          "height": 18,
+          "text": "Club.",
+          "bold": false
+        },
+        {
+          "x": 1271,
+          "y": 400,
+          "width": 30,
+          "height": 140,
+          "text": "O00",
+          "bold": true
+        },
+        {
+          "x": 1069,
+          "y": 401,
+          "width": 31,
+          "height": 140,
+          "text": "O00",
+          "bold": true
+        },
+        {
+          "x": 1171,
+          "y": 401,
+          "width": 30,
+          "height": 139,
+          "text": "OOO",
+          "bold": true
+        },
+        {
+          "x": 227,
+          "y": 403,
+          "width": 503,
+          "height": 25,
+          "text": "(ii) Kite flying began to decline in popularity.",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 458,
+          "width": 483,
+          "height": 30,
+          "text": "(iii) Kites were seen around housing estates.",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 513,
+          "width": 721,
+          "height": 24,
+          "text": "(iv) The Government had no control over kite flying in Hong Kong.",
+          "bold": false
+        },
+        {
+          "x": 213,
+          "y": 622,
+          "width": 815,
+          "height": 26,
+          "text": "According to paragraph 8, what has prevented people from taking up kite flying?",
+          "bold": false
+        },
+        {
+          "x": 160,
+          "y": 626,
+          "width": 29,
+          "height": 17,
+          "text": "3%.",
+          "bold": false
+        },
+        {
+          "x": 251,
+          "y": 698,
+          "width": 359,
+          "height": 18,
+          "text": "So believes this is because there are",
+          "bold": true
+        },
+        {
+          "x": 213,
+          "y": 699,
+          "width": 30,
+          "height": 17,
+          "text": "Mr",
+          "bold": false
+        },
+        {
+          "x": 214,
+          "y": 837,
+          "width": 1058,
+          "height": 26,
+          "text": "Which word in paragraph 9 highlights the likelihood of poor business opportunities in the years to come?",
+          "bold": false
+        },
+        {
+          "x": 160,
+          "y": 841,
+          "width": 29,
+          "height": 18,
+          "text": "38,",
+          "bold": false
+        },
+        {
+          "x": 213,
+          "y": 979,
+          "width": 418,
+          "height": 23,
+          "text": "Who or what does ‘we’ (line 65) refer to?",
+          "bold": true
+        },
+        {
+          "x": 159,
+          "y": 981,
+          "width": 29,
+          "height": 17,
+          "text": "39.",
+          "bold": false
+        },
+        {
+          "x": 213,
+          "y": 1067,
+          "width": 448,
+          "height": 23,
+          "text": "What does ‘the grounding’ in the title mean?",
+          "bold": true
+        },
+        {
+          "x": 158,
+          "y": 1068,
+          "width": 30,
+          "height": 17,
+          "text": "40.",
+          "bold": false
+        },
+        {
+          "x": 297,
+          "y": 1113,
+          "width": 224,
+          "height": 24,
+          "text": "to prevent a new trend",
+          "bold": false
+        },
+        {
+          "x": 225,
+          "y": 1115,
+          "width": 22,
+          "height": 16,
+          "text": "A.",
+          "bold": true
+        },
+        {
+          "x": 226,
+          "y": 1150,
+          "width": 20,
+          "height": 17,
+          "text": "B.",
+          "bold": true
+        },
+        {
+          "x": 297,
+          "y": 1152,
+          "width": 233,
+          "height": 20,
+          "text": "to create an open space",
+          "bold": false
+        },
+        {
+          "x": 1078,
+          "y": 1182,
+          "width": 16,
+          "height": 18,
+          "text": "A",
+          "bold": true
+        },
+        {
+          "x": 1152,
+          "y": 1182,
+          "width": 84,
+          "height": 18,
+          "text": "B Cc",
+          "bold": false
+        },
+        {
+          "x": 1292,
+          "y": 1182,
+          "width": 16,
+          "height": 17,
+          "text": "D",
+          "bold": true
+        },
+        {
+          "x": 297,
+          "y": 1183,
+          "width": 344,
+          "height": 25,
+          "text": "to stop something from happening",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1185,
+          "width": 20,
+          "height": 17,
+          "text": "c.",
+          "bold": false
+        },
+        {
+          "x": 1071,
+          "y": 1208,
+          "width": 247,
+          "height": 51,
+          "text": "O00 0",
+          "bold": true
+        },
+        {
+          "x": 297,
+          "y": 1223,
+          "width": 437,
+          "height": 23,
+          "text": "to build something that will last a long time",
+          "bold": false
+        },
+        {
+          "x": 226,
+          "y": 1224,
+          "width": 16,
+          "height": 17,
+          "text": "D.",
+          "bold": true
+        },
+        {
+          "x": 519,
+          "y": 1314,
+          "width": 803,
+          "height": 25,
+          "text": "by some of the people mentioned in Text 3. Match each person with one",
+          "bold": false
+        },
+        {
+          "x": 158,
+          "y": 1316,
+          "width": 30,
+          "height": 18,
+          "text": "41.",
+          "bold": false
+        },
+        {
+          "x": 213,
+          "y": 1316,
+          "width": 289,
+          "height": 18,
+          "text": "Below are comments made",
+          "bold": false
+        },
+        {
+          "x": 212,
+          "y": 1343,
+          "width": 1029,
+          "height": 25,
+          "text": "comment. Use each letter ONCE only. One comment is NOT used and you should select ‘Not Stated’.",
+          "bold": false
+        },
+        {
+          "x": 1228,
+          "y": 1371,
+          "width": 93,
+          "height": 23,
+          "text": "(4 marks)",
+          "bold": false
+        },
+        {
+          "x": 279,
+          "y": 1417,
+          "width": 743,
+          "height": 32,
+          "text": "A. | B. So Chi-chiu C. Haiven Woo Ka-hei",
+          "bold": false
+        },
+        {
+          "x": 1074,
+          "y": 1419,
+          "width": 166,
+          "height": 18,
+          "text": "D. Not Stated",
+          "bold": true
+        },
+        {
+          "x": 1197,
+          "y": 1520,
+          "width": 31,
+          "height": 259,
+          "text": "O0008e",
+          "bold": true
+        },
+        {
+          "x": 1054,
+          "y": 1521,
+          "width": 30,
+          "height": 258,
+          "text": "O00 0",
+          "bold": true
+        },
+        {
+          "x": 1126,
+          "y": 1521,
+          "width": 30,
+          "height": 258,
+          "text": "OO0O0O08",
+          "bold": true
+        },
+        {
+          "x": 1268,
+          "y": 1521,
+          "width": 31,
+          "height": 258,
+          "text": "OO0008",
+          "bold": true
+        },
+        {
+          "x": 574,
+          "y": 1522,
+          "width": 113,
+          "height": 18,
+          "text": "Comments",
+          "bold": false
+        },
+        {
+          "x": 243,
+          "y": 1566,
+          "width": 549,
+          "height": 24,
+          "text": "(i) tried looking for other like-minded people.",
+          "bold": true
+        },
+        {
+          "x": 243,
+          "y": 1629,
+          "width": 763,
+          "height": 25,
+          "text": "(ii) I’m not hopeful but I have to have faith that the situation could change.",
+          "bold": false
+        },
+        {
+          "x": 243,
+          "y": 1694,
+          "width": 428,
+          "height": 23,
+          "text": "(iii) I don’t know where to go to fly a kite.",
+          "bold": true
+        },
+        {
+          "x": 243,
+          "y": 1757,
+          "width": 753,
+          "height": 24,
+          "text": "(iv) Before, all we needed was some simple materials to get things started.",
+          "bold": false
+        },
+        {
+          "x": 646,
+          "y": 1831,
+          "width": 204,
+          "height": 20,
+          "text": "END OF PART B11",
+          "bold": true
+        },
+        {
+          "x": 171,
+          "y": 1883,
+          "width": 516,
+          "height": 24,
+          "text": "Answers written in the margins will not be marked.",
+          "bold": true
+        },
+        {
+          "x": 159,
+          "y": 1977,
+          "width": 598,
+          "height": 27,
+          "text": "2020-DSE-ENG LANG 1-B1-4 4",
+          "bold": true
+        }
+      ]
     }
   ]
 }

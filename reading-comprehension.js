@@ -4,7 +4,7 @@ const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
 const CATALOGUE_VERSION = '20260829-audio1';
-const DSE_CATALOGUE_VERSION = '20260903-dse-remaining-1';
+const DSE_CATALOGUE_VERSION = '20260903-dse-structured-1';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
 const QUESTION_TYPE_INDEX = window.EDMUND_IELTS_READING_QUESTION_TYPES || { taxonomy: [], articles: [] };
 const audioTimingCache = new Map();
@@ -193,7 +193,9 @@ async function loadDseArticleData(id) {
   const response = await fetch(`dse-reading-data/${id}.json?v=${entry.version}`);
   if (!response.ok) throw new Error('未能載入 DSE 閱讀練習資料。');
   const data = await response.json();
-  const hasPassage = data.paragraphs?.length || (data.displayMode === 'paper' && data.passagePages?.length);
+  const hasPassage = data.paragraphs?.length
+    || (data.displayMode === 'paper' && data.passagePages?.length)
+    || (data.displayMode === 'structured-paper' && data.structuredPassagePages?.length);
   if (data.id !== id || !Array.isArray(data.questions) || !hasPassage) throw new Error('DSE 閱讀練習資料不符。');
   ARTICLE_ID = id; state.data = data; state.analysis = null;
   state.activeAnalysis = 0; state.activeSkimming = 0;
@@ -443,6 +445,23 @@ function renderPaperPageGallery(pages, kind) {
   const heading = kind === 'passage' ? 'Original reading passage' : 'Original question paper';
   return `<section class="paper-page-section" aria-label="${heading}"><div class="paper-page-section-heading"><p class="eyebrow">OFFICIAL PAPER LAYOUT</p><h2>${heading}</h2><p>Click any page to open a full-size copy.</p></div><div class="paper-page-gallery">${pages.map((page, index) => { const source = typeof page === 'string' ? page : page.src; const alt = typeof page === 'string' ? `${heading} page ${index + 1}` : page.alt; const label = typeof page === 'string' ? `Page ${index + 1}` : page.label || `Page ${index + 1}`; return `<figure class="paper-page"><a href="${escapeHtml(source)}" target="_blank" rel="noopener"><img src="${escapeHtml(source)}" alt="${escapeHtml(alt || '')}" loading="${index ? 'lazy' : 'eager'}"></a><figcaption>${escapeHtml(label)}</figcaption></figure>`; }).join('')}</div></section>`;
 }
+function renderStructuredPaperPages(pages, kind) {
+  if (!pages?.length) return '';
+  const heading = kind === 'passage' ? 'Reading passage' : 'Question paper';
+  return `<section class="structured-paper-section" aria-label="${heading}"><div class="paper-page-section-heading"><p class="eyebrow">SELECTABLE TEXT + ORIGINAL FIGURES</p><h2>${heading}</h2><p>The text is selectable. Only the original photos, diagrams, tables and charts are retained as images.</p></div><div class="structured-paper-gallery">${pages.map((page, index) => {
+    const width = Number(page.width) || 1488;
+    const height = Number(page.height) || 2105;
+    const figures = (page.figures || []).map((figure) => `<image href="${escapeHtml(figure.src)}" x="${Number(figure.x) || 0}" y="${Number(figure.y) || 0}" width="${Number(figure.width) || 1}" height="${Number(figure.height) || 1}" preserveAspectRatio="none" role="img" aria-label="${escapeHtml(figure.alt || 'Original figure')}"></image>`).join('');
+    const lines = (page.lines || []).map((line) => {
+      const x = Number(line.x) || 0;
+      const y = (Number(line.y) || 0) + (Number(line.height) || 18);
+      const fontSize = Math.max(10, (Number(line.height) || 18) * .98);
+      const textWidth = Math.max(1, Number(line.width) || 1);
+      return `<text x="${x}" y="${y}" font-size="${fontSize}" font-weight="${line.bold ? 700 : 400}" textLength="${textWidth}" lengthAdjust="spacingAndGlyphs">${escapeHtml(line.text || '')}</text>`;
+    }).join('');
+    return `<figure class="structured-paper-page"><svg class="structured-paper-svg" viewBox="0 0 ${width} ${height}" role="document" aria-label="${escapeHtml(page.label || `${heading} page ${index + 1}`)}" xmlns="http://www.w3.org/2000/svg">${figures}<g class="structured-paper-text" xml:space="preserve">${lines}</g></svg><figcaption>${escapeHtml(page.label || `Page ${index + 1}`)}</figcaption></figure>`;
+  }).join('')}</div></section>`;
+}
 function renderPassage() {
   const dse = state.system === 'dse';
   const sourceImage = state.data.sourceImage ? `<figure class="dse-passage-figure"><img src="${escapeHtml(state.data.sourceImage.src)}" alt="${escapeHtml(state.data.sourceImage.alt || '')}" loading="eager"></figure>` : '';
@@ -451,6 +470,16 @@ function renderPassage() {
   if (state.data.displayMode === 'paper') {
     state.wordIndex = 0;
     el.passage.innerHTML = sourceHeader + renderPaperPageGallery(state.data.passagePages, 'passage') + sourceNotes;
+    $('[data-translation-options]').innerHTML = '<legend>或選擇指定段落</legend>';
+    el.translationAll.disabled = true;
+    el.translationAll.checked = false;
+    $('[data-translation-availability]').hidden = false;
+    $('[data-translation-availability]').textContent = '此原題模式暫未提供中文翻譯。';
+    return;
+  }
+  if (state.data.displayMode === 'structured-paper') {
+    state.wordIndex = 0;
+    el.passage.innerHTML = sourceHeader + renderStructuredPaperPages(state.data.structuredPassagePages, 'passage') + sourceNotes;
     $('[data-translation-options]').innerHTML = '<legend>或選擇指定段落</legend>';
     el.translationAll.disabled = true;
     el.translationAll.checked = false;
@@ -481,6 +510,12 @@ function renderQuestions() {
   if (state.data.displayMode === 'paper') {
     const answerCards = state.data.questions.map((question) => `<section class="question-card paper-answer-card" id="question-${question.number}" data-question="${question.number}"><p class="question-prompt"><span class="question-number">${question.number}</span>${escapeHtml(question.prompt)}</p>${renderQuestionControls(question)}</section>`).join('');
     el.questions.innerHTML = `${renderPaperPageGallery(state.data.questionPages, 'questions')}<section class="paper-answer-section"><div class="paper-answer-section-heading"><p class="eyebrow">ANSWER SHEET</p><h2>Numbered answer fields</h2><p>Enter every subpart for a question in its matching field.</p></div><div class="paper-answer-grid">${answerCards}</div></section>`;
+    updateAnswerProgress();
+    return;
+  }
+  if (state.data.displayMode === 'structured-paper') {
+    const answerCards = state.data.questions.map((question) => `<section class="question-card paper-answer-card" id="question-${question.number}" data-question="${question.number}"><p class="question-prompt"><span class="question-number">${question.number}</span>${escapeHtml(question.prompt)}</p>${renderQuestionControls(question)}</section>`).join('');
+    el.questions.innerHTML = `${renderStructuredPaperPages(state.data.structuredQuestionPages, 'questions')}<section class="paper-answer-section"><div class="paper-answer-section-heading"><p class="eyebrow">ANSWER SHEET</p><h2>Numbered answer fields</h2><p>Enter every subpart for a question in its matching field.</p></div><div class="paper-answer-grid">${answerCards}</div></section>`;
     updateAnswerProgress();
     return;
   }
