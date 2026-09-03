@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 const toolsDir = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(toolsDir, "..");
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
-const html = read("dse-paper3-analysis.html");
+const html = read("dse-paper3-listening-archive.html");
 const css = read("dse-paper3-analysis.css");
 const js = read("dse-paper3-analysis.js");
 const dataSource = read("dse-paper3-analysis-data.js");
@@ -20,7 +20,11 @@ const data = context.window.EDMUND_DSE_PAPER3_DATA;
 assert.match(html, /data-edmund-system-switcher data-system="dse-paper3-analysis"/);
 assert.match(html, /shared-system-nav\.js\?v=20260822-night-invitation1/);
 assert.match(html, /dse-paper3-analysis-data\.js\?v=20260903-1/);
-assert.match(html, /dse-paper3-analysis\.js\?v=20260903-dse2021-1/);
+assert.match(html, /dse-paper3-analysis\.js\?v=20260904-dsearchive1/);
+for (const year of [2012, 2013, 2014, 2015, 2017, 2018, 2019, 2020]) {
+  assert.match(html, new RegExp(`dse-listening-${year}-transcript\\.js\\?v=20260904-dsearchive1`));
+  assert.match(html, new RegExp(`dse-listening-${year}-data\\.js\\?v=20260904-dsearchive1`));
+}
 assert.match(html, /dse-listening-2016-transcript\.js\?v=20260903-1/);
 assert.match(html, /dse-listening-2016-data\.js\?v=20260903-1/);
 assert.match(html, /dse-listening-2021-transcript\.js\?v=20260903-1/);
@@ -74,4 +78,4 @@ assert.deepEqual(Array.from(data.materialTypes, ({ id }) => id), ["model-essay",
 assert.equal(data.resources["2025-b2"].modelEssays.length, 3);
 assert.equal(data.resources["2025-b2"].analysisSections.length, 13);
 
-console.log("DSE Paper 3 portal checks passed: shared login, 15 years, 2016/2021/2023 Part B, B1/B2, 2 resource types, 3 essays and 13 analysis sections.");
+console.log("DSE Paper 3 portal checks passed: shared login, 11 live listening years, B1/B2, 2 resource types, 3 essays and 13 analysis sections.");

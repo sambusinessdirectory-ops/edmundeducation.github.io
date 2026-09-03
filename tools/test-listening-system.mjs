@@ -53,7 +53,7 @@ assert.match(script, /updateFloatingAudio/);
 assert.match(catalogue, /const practiceNumbers = \[/);
 assert.match(catalogue, /Array\.from\(\{ length: 4 \}/);
 assert.match(catalogue, /Array\.from\(\{ length: 15 \}/);
-assert.match(catalogue, /year === 2016 \|\| year === 2021 \|\| year === 2023/);
+assert.match(catalogue, /\[2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2023\]\.includes\(year\)/);
 assert.match(catalogue, /listening-system\.html\?section=ielts&practice=/);
 assert.match(worker, /\/v1\/listening\/catalog/);
 assert.match(worker, /IELTS Listening - Recordings\//);
@@ -75,4 +75,4 @@ const listeningIndex = home.indexOf('href="listening-system.html"');
 assert.ok(scheduleIndex >= 0 && flashcardIndex > scheduleIndex, "Schedule must precede Flashcards after the ordinal swap");
 assert.ok(parentIndex > flashcardIndex && listeningIndex > parentIndex, "Parent and Listening portals must follow Flashcards in the requested order");
 
-console.log("Listening portal, 80-track catalogue contract, playback speeds, and homepage order validated.");
+console.log("Listening portal, complete DSE archive catalogue contract, playback speeds, and homepage order validated.");

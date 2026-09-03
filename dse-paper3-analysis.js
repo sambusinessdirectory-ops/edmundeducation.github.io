@@ -3,7 +3,15 @@ const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-dse-paper3-analysis-session-v1";
 const SORT_KEY = "edmund-dse-paper3-year-sort-v1";
 const DSE_CONTENT = new Map([
+  [2012, window.EDMUND_DSE_LISTENING_2012 || null],
+  [2013, window.EDMUND_DSE_LISTENING_2013 || null],
+  [2014, window.EDMUND_DSE_LISTENING_2014 || null],
+  [2015, window.EDMUND_DSE_LISTENING_2015 || null],
   [2016, window.EDMUND_DSE_LISTENING_2016 || null],
+  [2017, window.EDMUND_DSE_LISTENING_2017 || null],
+  [2018, window.EDMUND_DSE_LISTENING_2018 || null],
+  [2019, window.EDMUND_DSE_LISTENING_2019 || null],
+  [2020, window.EDMUND_DSE_LISTENING_2020 || null],
   [2021, window.EDMUND_DSE_LISTENING_2021 || null],
   [2023, window.EDMUND_DSE_LISTENING_2023 || null]
 ].filter(([, content]) => Boolean(content)));
