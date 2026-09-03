@@ -5,2089 +5,594 @@
   "title": "Space Exploration and Terraforming Mars",
   "sourceLabel": "HKDSE 2021 English Language Paper 1 Part B2",
   "sourceHeading": "Space Exploration and Terraforming Mars",
-  "displayMode": "structured-paper",
-  "paragraphs": [],
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "Paragraph 1",
+      "text": "Read Texts 6-8 and answer questions 47-66 in the Question-Answer Book for Part B2. Title: 'One small step for man, one giant leap for mankind' On 20th July 1969, as he stepped out of the Apollo 11 lunar lander, Neil Armstrong uttered these immortal words and propelled the human race from Earth-bound beings to intrepid explorers of space. These words were the culmination of human dreams from the day our ancestors first gazed in fear and wonder at the heavens. They also signalled the beginning of a journey that has gone, in fits and starts, to find out all we can about our galaxy and our place in the universe. Armstrong, together with Buzz Aldrin and Mike Collins, made the improbable 400,000-kilometre journey to our nearest celestial neighbour in a tiny, cramped and fragile collection of metal and wiring. This trip was a modern-day miracle successfully completed after many long years of hard work. Title: [1l The National Aeronautics and Space Administration (NASA) has discovered hints of a warmer past on Mars, possibly, one in which water has flowed and life might have existed. With evidence showing that water exists in a frozen state on Mars, the human race could one day make Mars its second home. To do that, we would begin with altering the current climate and atmosphere to resemble that of Earth's. The process of transforming the Martian atmosphere to create a more habitable living environment is called terraforming."
+    },
+    {
+      "number": 2,
+      "label": "Paragraph 2",
+      "text": "Terraforming Mars would be a huge undertaking with the initial stages alone taking several centuries, and the whole process of terraforming needing several millennia to complete; a brief interval, considering that Earth needed billions of years to transform into a planet on which plants and animals could flourish. To transform the Martian landscape into one that resembles Earth would require unrelenting scientific ingenuity and enormous capital expenditure."
+    },
+    {
+      "number": 3,
+      "label": "Paragraph 3",
+      "text": "Terraforming Mars would require three interrelated processes: building the atmosphere, increasing and maintaining temperature suitable for life, and preserving the atmosphere. The atmosphere of Mars is very thin, and temperatures there range from -113 °C to 0°C, and most of the carbon dioxide is trapped as ice at the poles. Considering these factors and challenges, physicists and engineers have been researching various terraforming methods, and encountered practical difficulties with each method investigated."
+    },
+    {
+      "number": 4,
+      "label": "Paragraph 4",
+      "text": "One option for thickening the atmosphere of Mars and raising the temperature of the planet would be to set Title: [l] Recent research by NASA on terraforming Mars has sparked a debate among ethicists as to whether space exploration and terraforming other worlds are ethical endeavours. Human beings have been captivated by the possibility of planet hopping since the discovery of planets. Below is a short extract from a transcript of a debate between two professors, Annabelle Lee and Theodore Cheung, who are discussing this issue."
+    },
+    {
+      "number": 5,
+      "label": "Paragraph 5",
+      "text": "Title: [l] Recent research by NASA on terraforming Mars has sparked a debate among ethicists as to whether space exploration and terraforming other worlds are ethical endeavours. Human beings have been captivated by the possibility of planet hopping since the discovery of planets. Below is a short extract from a transcript of a debate between two professors, Annabelle Lee and Theodore Cheung, who are discussing this issue. Prof. Lee: The ever-increasing scope of our space exploration efforts threatens the other planets in our solar system with biological contamination from Earth. If life is present on another world, the introduction of terrestrial life forms would be an ecological disaster as well as an immense loss to science. The possibility that life exists on other planets tells us that we cannot simply land on other planets because we want to satisfy our need for more land."
+    },
+    {
+      "number": 6,
+      "label": "Paragraph 6",
+      "text": "Prof. Cheung: I get your point but we have entered unspoiled environments before and those areas have benefitted from our intervention. The national parks service of the USA illustrates how we can create havens for nature, where we maintain the flora and fauna at levels that would not have happened if nature were left to her own devices. In response to your point that human exploration would alter natural conditions on other planets, I propose a planetary park system that would bar the landing of spacecraft in protected areas to prevent destruction of the environment."
+    },
+    {
+      "number": 7,
+      "label": "Paragraph 7",
+      "text": "Prof. Lee: You know that microorganisms can be spread across the planetary surface by dust storms, for example, so this approach would not protect non-park areas from human contamination. Although it may help safeguard the aesthetic qualities of some areas, a park system approach misses the larger question of whether it is ethically responsible to interfere with other planets. The discovery, exploration, and invasion of the Americas by Europeans led to dire consequences for the indigenous people of that 'New World'."
+    },
+    {
+      "number": 8,
+      "label": "Paragraph 8",
+      "text": "Prof. Cheung: I agree that the activities of human beings can damage the environment and cause other negative consequences, but these are exceptions. I do not subscribe to the idea that the natural world and other living creatures have intrinsic moral worth equal to human beings. It is our duty as human beings to make Earth a better place and that is something no other living organism can do. We need to continue the activities and processes not only to make our world livable and comfortable, but all other worlds around us too."
+    },
+    {
+      "number": 9,
+      "label": "Paragraph 9",
+      "text": "Prof. Lee: While we grapple with our ethical obligations to our fellow humans and the other creatures with whom we share the planet, it would be wise to consider the ethical obligations we have to other worlds. We must consider whether landing spacecraft on other planets is justified because they may carry with them the potential to destroy endemic ecosystems. Even if these ecosystems are composed of only microbial life, our ethical obligations must be taken seriously. Life independent of Earth deserves valuation equal to that of our world and those landscapes deserve to be spared from our meddling even if they are not home to any life."
+    }
+  ],
   "instructions": {
-    "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
+    "paper": "Answer every question using the passage."
   },
   "questions": [
     {
       "number": 47,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 47",
-      "placeholder": "Enter all answer parts for Question 47"
+      "type": "choice",
+      "prompt": "According to paragraph 1, what did the Apollo 11 mission accomplish?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. It avoided an intrepid exploration."
+        },
+        {
+          "value": "B",
+          "label": "B. It made the human race immortal."
+        },
+        {
+          "value": "C",
+          "label": "C. It fulfilled a dream of humans to land on the Moon."
+        },
+        {
+          "value": "D",
+          "label": "D. It went in fits and starts to find our place in the universe."
+        }
+      ]
     },
     {
       "number": 48,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 48",
-      "placeholder": "Enter all answer parts for Question 48"
+      "prompt": "Find a word or phrase in paragraph 1 that means 'the Moon'."
     },
     {
       "number": 49,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 49",
-      "placeholder": "Enter all answer parts for Question 49"
+      "type": "choice",
+      "prompt": "What do the words 'tiny, cramped and fragile collection of metal and wiring' (lines 7-8) suggest?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Space was exciting for a human explorer."
+        },
+        {
+          "value": "B",
+          "label": "B. The journey was uncomfortable and dangerous."
+        },
+        {
+          "value": "C",
+          "label": "C. The mission was highly sophisticated for its time."
+        },
+        {
+          "value": "D",
+          "label": "D. NASA used substandard materials for the mission."
+        }
+      ]
     },
     {
       "number": 50,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 50",
-      "placeholder": "Enter all answer parts for Question 50"
+      "type": "parts",
+      "prompt": "What do the phrases 'One small step for man' and 'one giant leap for mankind' (line 1) mean? (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) One small step for man:",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) One giant leap for mankind:",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 51,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 51",
-      "placeholder": "Enter all answer parts for Question 51"
+      "prompt": "Which word in paragraph 1 suggests that the writer thought the moon landing was an amazing achievement?"
     },
     {
       "number": 52,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 52",
-      "placeholder": "Enter all answer parts for Question 52"
+      "prompt": "If Mars is the 'second home' (line 3), what is the first home?"
     },
     {
       "number": 53,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 53",
-      "placeholder": "Enter all answer parts for Question 53"
+      "type": "choice",
+      "prompt": "Which of the following is NOT mentioned in paragraph 2?\nTerraforming Mars would...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. require time and effort."
+        },
+        {
+          "value": "B",
+          "label": "B. transform Earth negatively."
+        },
+        {
+          "value": "C",
+          "label": "C. be a challenge for scientists."
+        },
+        {
+          "value": "D",
+          "label": "D. need a large amount of money."
+        }
+      ],
+      "optionBank": "A. require time and effort.\nB. transform Earth negatively.\nC. be a challenge for scientists.\nD. need a large amount of money.\n*AO 20E1B2*"
     },
     {
       "number": 54,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 54",
-      "placeholder": "Enter all answer parts for Question 54"
+      "type": "choice",
+      "prompt": "According to paragraph 2, the estimated time required to transform Mars into a habitable planet for human\nbeings is...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. hundreds of years."
+        },
+        {
+          "value": "B",
+          "label": "B. thousands of years."
+        },
+        {
+          "value": "C",
+          "label": "C. millions of years."
+        },
+        {
+          "value": "D",
+          "label": "D. billions of years."
+        }
+      ]
     },
     {
       "number": 55,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 55",
-      "placeholder": "Enter all answer parts for Question 55"
+      "prompt": "Which phrase in paragraph 2 best describes the writer's opinion on the time frame required to transform Mars\ncompared to the same transformation on Earth?"
     },
     {
       "number": 56,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 56",
-      "placeholder": "Enter all answer parts for Question 56"
+      "type": "choice",
+      "prompt": "Which of the following is NOT a factor making Mars currently an uninhabitable place?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. atmosphere too thin"
+        },
+        {
+          "value": "B",
+          "label": "B. temperature too cold"
+        },
+        {
+          "value": "C",
+          "label": "C. no ice for water creation"
+        },
+        {
+          "value": "D",
+          "label": "D. limited source of carbon dioxide"
+        }
+      ]
     },
     {
       "number": 57,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 57",
-      "placeholder": "Enter all answer parts for Question 57"
+      "prompt": "Complete the following flow chart on terraforming Mars based on information from paragraph 4. (8 marks)\nDEVELOPMENT OF TERRAFORMING INFRASTRUCTURE\nTerraforming machines will need to be set up on Mars in one of two ways: Both will need the same energy source:\nOption 1: (i) (ili)\nOption 2: (ii)\nMachine Type 1:\nPurpose: (iv)\nMachine Type 2: Additional method:\nPurpose: (v) (vi)\nDesired (vii)\nEnvironmental\nConditions on Mars: (viri)"
     },
     {
       "number": 58,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 58",
-      "placeholder": "Enter all answer parts for Question 58"
+      "prompt": "The main purpose of Text 7 is to explain...\nhow to make Mars similar to Eart\nhow dangerous the atmosphere of Mars i\nhow human beings can travel to Mars in future. ô 8\nhow human beings should adapt to live on Mars."
     },
     {
       "number": 59,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 59",
-      "placeholder": "Enter all answer parts for Question 59"
+      "type": "choice",
+      "prompt": "What is the tone of Prof. Lee in paragraph 2?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. critical"
+        },
+        {
+          "value": "B",
+          "label": "B. sarcastic C"
+        },
+        {
+          "value": "C",
+          "label": "C. aggressive Ô 8"
+        },
+        {
+          "value": "D",
+          "label": "D. indifferent"
+        }
+      ]
     },
     {
       "number": 60,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 60",
-      "placeholder": "Enter all answer parts for Question 60"
+      "prompt": "What does 'this approach' (line 17) refer to?"
     },
     {
       "number": 61,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 61",
-      "placeholder": "Enter all answer parts for Question 61"
+      "prompt": "Find a word or phrase in paragraph 4 which has a similar meaning to 'native'."
     },
     {
       "number": 62,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 62",
-      "placeholder": "Enter all answer parts for Question 62"
+      "prompt": "Who or what does 'we' (line 24) refer to?"
     },
     {
       "number": 63,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 63",
-      "placeholder": "Enter all answer parts for Question 63"
+      "type": "parts",
+      "prompt": "Decide whether the following statements are True (T), False (F) or Not Given (NG). (6 marks)\nStatements T F NG",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Prof. Lee provides evidence of life forms on other planets.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Prof. Cheung believes that the planetary park system would solve the ethical\nproblems related to exploring other planets.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Prof. Lee believes that the landing of spacecraft could cause the spread of\nmicroorganisms across the surface of the planet.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Prof. Cheung believes that NASA is supportive of the application of\nenvironmental ethics to space exploration.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "v",
+          "label": "(v) Prof. Cheung believes that most human activities damage the environments of\nEarth and Mars.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "vi",
+          "label": "(vi) Prof. Lee believes that life on Earth is more important than life from other\nplanets.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
     },
     {
       "number": 64,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 64",
-      "placeholder": "Enter all answer parts for Question 64"
+      "type": "choice",
+      "prompt": "What does 'those landscapes' (line 31) refer to?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. All other planets"
+        },
+        {
+          "value": "B",
+          "label": "B. The solar system"
+        },
+        {
+          "value": "C",
+          "label": "C. Planetary systems"
+        },
+        {
+          "value": "D",
+          "label": "D. Beautiful land areas"
+        }
+      ]
     },
     {
       "number": 65,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 65",
-      "placeholder": "Enter all answer parts for Question 65"
+      "type": "parts",
+      "prompt": "Both Prof. Lee and Prof. Cheung give arguments and reasons / examples either for or against exploration of\nother planets. Complete the summary in the table below. Answers must be grammatically correct. One has\nbeen done for you as an example. (8 marks)",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Paragraph",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              },
+              {
+                "text": "Prof.",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              },
+              {
+                "text": "Main argument for / against",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              },
+              {
+                "text": "Reason / Example",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Lee",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Human exploration of space may cause\necological disasters",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Exploration may (i)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r2c4g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "3",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Cheung",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Human intervention can (ii)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r3c3g1"
+                ]
+              },
+              {
+                "text": "(iii)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r3c4g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "4",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Lee",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "We cannot simply land on other planets.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "(iv)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r4c4g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "5",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Cheung",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Other planets need to be (v).",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r5c3g1"
+                ]
+              },
+              {
+                "text": "Because only (vi)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r5c4g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "6",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Lee",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "We should not land on another planet as it\nmay be (vii)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r6c3g1"
+                ]
+              },
+              {
+                "text": "All life forms have (viii)\nto exist.",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r6c4g1"
+                ]
+              }
+            ]
+          ],
+          "columns": 4
+        }
+      ],
+      "parts": [
+        {
+          "key": "t1r2c4g1",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r3c3g1",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r3c4g1",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r4c4g1",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r5c3g1",
+          "label": "(v)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r5c4g1",
+          "label": "(vi)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r6c3g1",
+          "label": "(vii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r6c4g1",
+          "label": "(viii)",
+          "type": "text",
+          "inTable": true
+        }
+      ]
     },
     {
       "number": 66,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 66",
-      "placeholder": "Enter all answer parts for Question 66"
-    }
-  ],
-  "structuredPassagePages": [
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Reading passage page 1",
-      "lines": [
-        {
-          "x": 181,
-          "y": 193,
-          "width": 124,
-          "height": 23,
-          "text": "PART B2",
-          "bold": true
-        },
-        {
-          "x": 179,
-          "y": 262,
-          "width": 867,
-          "height": 25,
-          "text": "Read Texts 6-8 and answer questions 47-66 in the Question-Answer Book for Part B2.",
-          "bold": false
-        },
-        {
-          "x": 178,
-          "y": 327,
-          "width": 86,
-          "height": 19,
-          "text": "Text 6",
-          "bold": false
-        },
-        {
-          "x": 460,
-          "y": 373,
-          "width": 55,
-          "height": 18,
-          "text": "Title:",
-          "bold": false
-        },
-        {
-          "x": 460,
-          "y": 418,
-          "width": 564,
-          "height": 25,
-          "text": "‘One small step for man, one giant leap for mankind’",
-          "bold": true
-        },
-        {
-          "x": 178,
-          "y": 488,
-          "width": 1129,
-          "height": 28,
-          "text": "[1] On 20th July 1969, as he stepped out of the Apollo 11 lunar lander, Neil Armstrong uttered these immortal",
-          "bold": false
-        },
-        {
-          "x": 177,
-          "y": 518,
-          "width": 1130,
-          "height": 28,
-          "text": "words and propelled the human race from Earth-bound beings to intrepid explorers of space. These words were",
-          "bold": false
-        },
-        {
-          "x": 176,
-          "y": 547,
-          "width": 1131,
-          "height": 27,
-          "text": "the culmination of human dreams from the day our ancestors first gazed in fear and wonder at the heavens. They",
-          "bold": false
-        },
-        {
-          "x": 177,
-          "y": 575,
-          "width": 1130,
-          "height": 28,
-          "text": "also signalled the beginning of a journey that has gone, in fits and starts, to find out all we can about our galaxy",
-          "bold": false
-        },
-        {
-          "x": 177,
-          "y": 604,
-          "width": 1130,
-          "height": 33,
-          "text": "and our place in the universe. Armstrong, together with Buzz Aldrin and Mike Collins, made the improbable",
-          "bold": false
-        },
-        {
-          "x": 176,
-          "y": 633,
-          "width": 1130,
-          "height": 27,
-          "text": "400,000-kilometre journey to our nearest celestial neighbour in a tiny, cramped and fragile collection of metal",
-          "bold": false
-        },
-        {
-          "x": 176,
-          "y": 661,
-          "width": 1081,
-          "height": 28,
-          "text": "and wiring. This trip was a modern-day miracle successfully completed after many long years of hard work,",
-          "bold": false
-        },
-        {
-          "x": 175,
-          "y": 778,
-          "width": 86,
-          "height": 20,
-          "text": "Text 7",
-          "bold": false
-        },
-        {
-          "x": 457,
-          "y": 825,
-          "width": 55,
-          "height": 18,
-          "text": "Title:",
-          "bold": false
-        },
-        {
-          "x": 176,
-          "y": 895,
-          "width": 1128,
-          "height": 29,
-          "text": "[1] The National Aeronautics and Space Administration (NASA) has discovered hints of a warmer past on Mars,",
-          "bold": false
-        },
-        {
-          "x": 174,
-          "y": 924,
-          "width": 1131,
-          "height": 28,
-          "text": "possibly, one in which water has flowed and life might have existed. With evidence showing that water exists in",
-          "bold": false
-        },
-        {
-          "x": 175,
-          "y": 953,
-          "width": 1129,
-          "height": 29,
-          "text": "a frozen state on Mars, the human race could one day make Mars its second home. To do that, we would begin",
-          "bold": false
-        },
-        {
-          "x": 174,
-          "y": 982,
-          "width": 1130,
-          "height": 29,
-          "text": "with altering the current climate and atmosphere to resemble that of Earth’s. The process of transforming the",
-          "bold": false
-        },
-        {
-          "x": 174,
-          "y": 1011,
-          "width": 890,
-          "height": 28,
-          "text": "Martian atmosphere to create a more habitable living environment is called terraforming.",
-          "bold": false
-        },
-        {
-          "x": 175,
-          "y": 1075,
-          "width": 1129,
-          "height": 28,
-          "text": "[2] Terraforming Mars would be a huge undertaking with the initial stages alone taking several centuries, and",
-          "bold": false
-        },
-        {
-          "x": 173,
-          "y": 1103,
-          "width": 1131,
-          "height": 30,
-          "text": "the whole process of terraforming needing several millennia to complete; a brief interval, considering that Earth",
-          "bold": false
-        },
-        {
-          "x": 173,
-          "y": 1132,
-          "width": 1130,
-          "height": 28,
-          "text": "needed billions of years to transform into a planet on which plants and animals could flourish. To transform the",
-          "bold": false
-        },
-        {
-          "x": 173,
-          "y": 1161,
-          "width": 1130,
-          "height": 28,
-          "text": "Martian landscape into one that resembles Earth would require unrelenting scientific ingenuity and enormous",
-          "bold": false
-        },
-        {
-          "x": 104,
-          "y": 1188,
-          "width": 23,
-          "height": 19,
-          "text": "10",
-          "bold": false
-        },
-        {
-          "x": 173,
-          "y": 1190,
-          "width": 194,
-          "height": 23,
-          "text": "capital expenditure.",
-          "bold": true
-        },
-        {
-          "x": 173,
-          "y": 1253,
-          "width": 1129,
-          "height": 30,
-          "text": "[3] Terraforming Mars would require three interrelated processes: building the atmosphere, increasing and",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 1282,
-          "width": 1130,
-          "height": 29,
-          "text": "maintaining temperature suitable for life, and preserving the atmosphere. The atmosphere of Mars is very thin,",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 1310,
-          "width": 1129,
-          "height": 30,
-          "text": "and temperatures there range from -113 °C to 0°C, and most of the carbon dioxide is trapped as ice at the poles.",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 1339,
-          "width": 1130,
-          "height": 30,
-          "text": "Considering these factors and challenges, physicists and engineers have been researching various terraforming",
-          "bold": false
-        },
-        {
-          "x": 102,
-          "y": 1367,
-          "width": 23,
-          "height": 18,
-          "text": "15",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 1368,
-          "width": 785,
-          "height": 28,
-          "text": "methods, and encountered practical difficulties with each method investigated.",
-          "bold": false
-        },
-        {
-          "x": 173,
-          "y": 1431,
-          "width": 1130,
-          "height": 30,
-          "text": "[4] One option for thickening the atmosphere of Mars and raising the temperature of the planet would be to set",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 1461,
-          "width": 1131,
-          "height": 27,
-          "text": "up solar-powered, greenhouse-gas producing machines. Their sole purpose would be to emit carbon dioxide and",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 1489,
-          "width": 1129,
-          "height": 28,
-          "text": "other greenhouse gases into the atmosphere. These greenhouse-gas machines would either have to be ferried to",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 1518,
-          "width": 1131,
-          "height": 30,
-          "text": "Mars or made out of materials already located on the planet. In order to transport these machines to Mars, they",
-          "bold": false
-        },
-        {
-          "x": 100,
-          "y": 1545,
-          "width": 25,
-          "height": 19,
-          "text": "20",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 1547,
-          "width": 1133,
-          "height": 30,
-          "text": "would have to be lightweight. As the atmosphere warms because of the greenhouse gases, a different type of",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 1576,
-          "width": 1130,
-          "height": 30,
-          "text": "greenhouse-gas machine would be needed to mimic the natural process of plant photosynthesis, absorbing",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 1604,
-          "width": 1130,
-          "height": 30,
-          "text": "carbon dioxide and emitting oxygen. Photosynthetic bacteria and algae could also be used alongside these",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 1634,
-          "width": 1130,
-          "height": 30,
-          "text": "greenhouse-gas machines. It would take millennia upon millennia but the Martian atmosphere could slowly be",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 1663,
-          "width": 1130,
-          "height": 30,
-          "text": "oxygenated to the point that Mars’ inhabitants would need only a breathing-assistance apparatus, not a pressure",
-          "bold": false
-        },
-        {
-          "x": 100,
-          "y": 1689,
-          "width": 24,
-          "height": 20,
-          "text": "25",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 1691,
-          "width": 263,
-          "height": 25,
-          "text": "suit as worn by astronauts.",
-          "bold": true
-        },
-        {
-          "x": 169,
-          "y": 1997,
-          "width": 589,
-          "height": 20,
-          "text": "2021-DSE-ENG LANG 1-B2-RP-2 24",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Reading passage page 2",
-      "lines": [
-        {
-          "x": 136,
-          "y": 199,
-          "width": 86,
-          "height": 20,
-          "text": "Text 8",
-          "bold": true
-        },
-        {
-          "x": 418,
-          "y": 275,
-          "width": 56,
-          "height": 17,
-          "text": "Title:",
-          "bold": false
-        },
-        {
-          "x": 137,
-          "y": 345,
-          "width": 1127,
-          "height": 24,
-          "text": "[1] Recent research by NASA on terraforming Mars has sparked a debate among ethicists as to whether space",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 373,
-          "width": 1127,
-          "height": 24,
-          "text": "exploration and terraforming other worlds are ethical endeavours. Human beings have been captivated by the",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 398,
-          "width": 1128,
-          "height": 33,
-          "text": "possibility of planet hopping since the discovery of planets. Below is a short extract from a transcript of a debate",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 431,
-          "width": 931,
-          "height": 24,
-          "text": "between two professors, Annabelle Lee and Theodore Cheung, who are discussing this issue.",
-          "bold": false
-        },
-        {
-          "x": 137,
-          "y": 494,
-          "width": 1127,
-          "height": 25,
-          "text": "[2] Prof. Lee: The ever-increasing scope of our space exploration efforts threatens the other planets in our solar",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 523,
-          "width": 1130,
-          "height": 24,
-          "text": "system with biological contamination from Earth. If life is present on another world, the introduction of",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 552,
-          "width": 1128,
-          "height": 24,
-          "text": "terrestrial life forms would be an ecological disaster as well as an immense loss to science. The possibility that",
-          "bold": false
-        },
-        {
-          "x": 137,
-          "y": 581,
-          "width": 1127,
-          "height": 23,
-          "text": "life exists on other planets tells us that we cannot simply land on other planets because we want to satisfy our",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 609,
-          "width": 193,
-          "height": 18,
-          "text": "need for more land.",
-          "bold": true
-        },
-        {
-          "x": 66,
-          "y": 671,
-          "width": 24,
-          "height": 19,
-          "text": "10",
-          "bold": false
-        },
-        {
-          "x": 137,
-          "y": 672,
-          "width": 1126,
-          "height": 24,
-          "text": "[3] Prof. Cheung: I get your point but we have entered unspoiled environments before and those areas have",
-          "bold": false
-        },
-        {
-          "x": 135,
-          "y": 700,
-          "width": 1129,
-          "height": 24,
-          "text": "benefitted from our intervention. The national parks service of the USA illustrates how we can create havens for",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 729,
-          "width": 1128,
-          "height": 25,
-          "text": "nature, where we maintain the flora and fauna at levels that would not have happened if nature were left to her",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 758,
-          "width": 1126,
-          "height": 24,
-          "text": "own devices. In response to your point that human exploration would alter natural conditions on other planets, J",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 787,
-          "width": 1128,
-          "height": 24,
-          "text": "propose a planetary park system that would bar the landing of spacecraft in protected areas to prevent",
-          "bold": false
-        },
-        {
-          "x": 66,
-          "y": 815,
-          "width": 24,
-          "height": 19,
-          "text": "15",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 816,
-          "width": 311,
-          "height": 19,
-          "text": "destruction of the environment.",
-          "bold": true
-        },
-        {
-          "x": 137,
-          "y": 879,
-          "width": 1126,
-          "height": 25,
-          "text": "[4] Prof. Lee: You know that microorganisms can be spread across the planetary surface by dust storms, for",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 908,
-          "width": 1127,
-          "height": 24,
-          "text": "example, so this approach would not protect non-park areas from human contamination. Although it may help",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 937,
-          "width": 1128,
-          "height": 24,
-          "text": "safeguard the aesthetic qualities of some areas, a park system approach misses the larger question of whether it",
-          "bold": false
-        },
-        {
-          "x": 137,
-          "y": 964,
-          "width": 1126,
-          "height": 25,
-          "text": "is ethically responsible to interfere with other planets. The discovery, exploration, and invasion of the Americas",
-          "bold": false
-        },
-        {
-          "x": 65,
-          "y": 992,
-          "width": 25,
-          "height": 20,
-          "text": "20",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 994,
-          "width": 865,
-          "height": 24,
-          "text": "by Europeans led to dire consequences for the indigenous people of that ‘New World’.",
-          "bold": false
-        },
-        {
-          "x": 137,
-          "y": 1054,
-          "width": 1126,
-          "height": 32,
-          "text": "[5] Prof. Cheung: I agree that the activities of human beings can damage the environment and cause other",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 1087,
-          "width": 1127,
-          "height": 24,
-          "text": "negative consequences, but these are exceptions. I do not subscribe to the idea that the natural world and other",
-          "bold": false
-        },
-        {
-          "x": 137,
-          "y": 1115,
-          "width": 1125,
-          "height": 25,
-          "text": "living creatures have intrinsic moral worth equal to human beings. It is our duty as human beings to make Earth",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 1144,
-          "width": 1127,
-          "height": 24,
-          "text": "a better place and that is something no other living organism can do. We need to continue the activities and",
-          "bold": false
-        },
-        {
-          "x": 64,
-          "y": 1172,
-          "width": 25,
-          "height": 19,
-          "text": "25",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 1173,
-          "width": 974,
-          "height": 23,
-          "text": "processes not only to make our world livable and comfortable, but all other worlds around us too.",
-          "bold": false
-        },
-        {
-          "x": 137,
-          "y": 1236,
-          "width": 1126,
-          "height": 24,
-          "text": "[6] Prof. Lee: While we grapple with our ethical obligations to our fellow humans and the other creatures with",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 1265,
-          "width": 1127,
-          "height": 24,
-          "text": "whom we share the planet, it would be wise to consider the ethical obligations we have to other worlds. We",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 1294,
-          "width": 1127,
-          "height": 24,
-          "text": "must consider whether landing spacecraft on other planets is justified because they may carry with them the",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 1322,
-          "width": 1127,
-          "height": 25,
-          "text": "potential to destroy endemic ecosystems. Even if these ecosystems are composed of only microbial life, our",
-          "bold": false
-        },
-        {
-          "x": 64,
-          "y": 1349,
-          "width": 26,
-          "height": 20,
-          "text": "30",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 1351,
-          "width": 1128,
-          "height": 25,
-          "text": "ethical obligations must be taken seriously. Life independent of Earth deserves valuation equal to that of our",
-          "bold": false
-        },
-        {
-          "x": 135,
-          "y": 1380,
-          "width": 1053,
-          "height": 25,
-          "text": "world and those landscapes deserve to be spared from our meddling even if they are not home to any life.",
-          "bold": false
-        },
-        {
-          "x": 520,
-          "y": 1506,
-          "width": 359,
-          "height": 20,
-          "text": "END OF READING PASSAGES",
-          "bold": true
-        },
-        {
-          "x": 137,
-          "y": 1565,
-          "width": 1126,
-          "height": 32,
-          "text": "Sources of materials used in this paper will be acknowledged in the HKDSE Question Papers booklet published by the Hong",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 1595,
-          "width": 560,
-          "height": 22,
-          "text": "Kong Examinations and Assessment Authority at a later stage.",
-          "bold": false
-        },
-        {
-          "x": 136,
-          "y": 1992,
-          "width": 605,
-          "height": 24,
-          "text": "2021-DSE-ENG LANG 1-B2-RP-3 25",
-          "bold": true
-        }
-      ]
-    }
-  ],
-  "structuredQuestionPages": [
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 1",
-      "lines": [
-        {
-          "x": 550,
-          "y": 122,
-          "width": 803,
-          "height": 58,
-          "text": "] | [Please stick the barcode label here.",
-          "bold": true
-        },
-        {
-          "x": 123,
-          "y": 133,
-          "width": 429,
-          "height": 45,
-          "text": "Candidate Number |",
-          "bold": true
-        },
-        {
-          "x": 123,
-          "y": 201,
-          "width": 173,
-          "height": 23,
-          "text": "HKDSE 2021",
-          "bold": true
-        },
-        {
-          "x": 123,
-          "y": 236,
-          "width": 312,
-          "height": 23,
-          "text": "ENGLISH LANGUAGE",
-          "bold": true
-        },
-        {
-          "x": 123,
-          "y": 270,
-          "width": 262,
-          "height": 23,
-          "text": "PAPER 1 PART B2",
-          "bold": true
-        },
-        {
-          "x": 122,
-          "y": 304,
-          "width": 399,
-          "height": 25,
-          "text": "QUESTION-ANSWER BOOK",
-          "bold": true
-        },
-        {
-          "x": 629,
-          "y": 322,
-          "width": 197,
-          "height": 16,
-          "text": "DIFFICULT SECTION",
-          "bold": true
-        },
-        {
-          "x": 121,
-          "y": 375,
-          "width": 913,
-          "height": 25,
-          "text": "Write your Candidate Number and stick a barcode label in the space provided on this page.",
-          "bold": false
-        },
-        {
-          "x": 121,
-          "y": 403,
-          "width": 647,
-          "height": 24,
-          "text": "Read Texts 6-8 and answer questions 47-66. (42 marks)",
-          "bold": false
-        },
-        {
-          "x": 121,
-          "y": 448,
-          "width": 84,
-          "height": 19,
-          "text": "Text 6",
-          "bold": false
-        },
-        {
-          "x": 120,
-          "y": 491,
-          "width": 770,
-          "height": 25,
-          "text": "47. According to paragraph 1, what did the Apollo 11 mission accomplish?",
-          "bold": false
-        },
-        {
-          "x": 173,
-          "y": 528,
-          "width": 399,
-          "height": 24,
-          "text": "A. It avoided an intrepid exploration.",
-          "bold": false
-        },
-        {
-          "x": 173,
-          "y": 559,
-          "width": 1062,
-          "height": 42,
-          "text": "B. It made the human race immortal. A B Cc D",
-          "bold": true
-        },
-        {
-          "x": 173,
-          "y": 594,
-          "width": 1069,
-          "height": 43,
-          "text": "C. It fulfilled a dream of humans to land on the Moon. OO O O",
-          "bold": true
-        },
-        {
-          "x": 172,
-          "y": 627,
-          "width": 625,
-          "height": 24,
-          "text": "D. It went in fits and starts to find our place in the universe.",
-          "bold": false
-        },
-        {
-          "x": 120,
-          "y": 683,
-          "width": 662,
-          "height": 24,
-          "text": "48. Find a word or phrase in paragraph 1] that means ‘the Moon’.",
-          "bold": true
-        },
-        {
-          "x": 119,
-          "y": 793,
-          "width": 1030,
-          "height": 25,
-          "text": "49. What do the words ‘tiny, cramped and fragile collection of metal and wiring’ (lines 7-8) suggest?",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 830,
-          "width": 472,
-          "height": 23,
-          "text": "A. Space was exciting for a human explorer.",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 861,
-          "width": 1063,
-          "height": 42,
-          "text": "B. The journey was uncomfortable and dangerous. A B Cc D",
-          "bold": true
-        },
-        {
-          "x": 172,
-          "y": 894,
-          "width": 1068,
-          "height": 48,
-          "text": "C. The mission was highly sophisticated for its time. O oO O O",
-          "bold": true
-        },
-        {
-          "x": 171,
-          "y": 929,
-          "width": 564,
-          "height": 18,
-          "text": "D. NASA used substandard materials for the mission.",
-          "bold": true
-        },
-        {
-          "x": 119,
-          "y": 985,
-          "width": 1154,
-          "height": 25,
-          "text": "50. What do the phrases ‘One small step for man’ and ‘one giant leap for mankind’ (line 1) mean? (2 marks)",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 1044,
-          "width": 268,
-          "height": 23,
-          "text": "(i) One small step for man:",
-          "bold": true
-        },
-        {
-          "x": 171,
-          "y": 1162,
-          "width": 318,
-          "height": 24,
-          "text": "(ii) One giant leap for mankind:",
-          "bold": true
-        },
-        {
-          "x": 118,
-          "y": 1283,
-          "width": 1141,
-          "height": 25,
-          "text": "51. Which word in paragraph 1 suggests that the writer thought the moon landing was an amazing achievement?",
-          "bold": false
-        },
-        {
-          "x": 118,
-          "y": 1397,
-          "width": 84,
-          "height": 19,
-          "text": "Text 7",
-          "bold": true
-        },
-        {
-          "x": 118,
-          "y": 1443,
-          "width": 667,
-          "height": 23,
-          "text": "52. IfMars is the ‘second home’ (line 3), what is the first home?",
-          "bold": true
-        },
-        {
-          "x": 118,
-          "y": 1562,
-          "width": 640,
-          "height": 25,
-          "text": "53. Which of the following is NOT mentioned in paragraph 2?",
-          "bold": true
-        },
-        {
-          "x": 170,
-          "y": 1604,
-          "width": 283,
-          "height": 23,
-          "text": "Terraforming Mars would...",
-          "bold": false
-        },
-        {
-          "x": 170,
-          "y": 1641,
-          "width": 288,
-          "height": 24,
-          "text": "A. require time and effort.",
-          "bold": false
-        },
-        {
-          "x": 170,
-          "y": 1670,
-          "width": 1060,
-          "height": 45,
-          "text": "B. _ transform Earth negatively. A B Cc D",
-          "bold": true
-        },
-        {
-          "x": 170,
-          "y": 1705,
-          "width": 1067,
-          "height": 50,
-          "text": "C. beachallenge for scientists. oO oO O O",
-          "bold": true
-        },
-        {
-          "x": 170,
-          "y": 1741,
-          "width": 366,
-          "height": 24,
-          "text": "D. need a large amount of money.",
-          "bold": true
-        },
-        {
-          "x": 112,
-          "y": 1798,
-          "width": 512,
-          "height": 23,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 117,
-          "y": 2000,
-          "width": 287,
-          "height": 18,
-          "text": "2021-DSE-ENG LANG 1-B2-1",
-          "bold": true
-        },
-        {
-          "x": 959,
-          "y": 2011,
-          "width": 407,
-          "height": 20,
-          "text": "*AO0O 206182 *",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2021/b2/questions-1-figure-1.webp",
-          "x": 836,
-          "y": 88,
-          "width": 564,
-          "height": 240,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2021/b2/questions-1-figure-2.webp",
-          "x": 640,
-          "y": 204,
-          "width": 172,
-          "height": 124,
-          "alt": "Original figure 2"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2021/b2/questions-1-figure-3.webp",
-          "x": 928,
-          "y": 1848,
-          "width": 468,
-          "height": 176,
-          "alt": "Original figure 3"
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 2",
-      "lines": [
-        {
-          "x": 151,
-          "y": 214,
-          "width": 28,
-          "height": 17,
-          "text": "54,",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 214,
-          "width": 1100,
-          "height": 28,
-          "text": "According to paragraph 2, the estimated time required to transform Mars into a habitable planet for human",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 242,
-          "width": 104,
-          "height": 23,
-          "text": "beings is...",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 275,
-          "width": 239,
-          "height": 31,
-          "text": "A. hundreds of years.",
-          "bold": false
-        },
-        {
-          "x": 260,
-          "y": 311,
-          "width": 190,
-          "height": 24,
-          "text": "thousands of years.",
-          "bold": false
-        },
-        {
-          "x": 260,
-          "y": 333,
-          "width": 1002,
-          "height": 39,
-          "text": "millions of years. A B £ 2",
-          "bold": false
-        },
-        {
-          "x": 202,
-          "y": 359,
-          "width": 1067,
-          "height": 36,
-          "text": "D. OOO 0",
-          "bold": true
-        },
-        {
-          "x": 260,
-          "y": 377,
-          "width": 164,
-          "height": 24,
-          "text": "billions of years.",
-          "bold": true
-        },
-        {
-          "x": 149,
-          "y": 443,
-          "width": 28,
-          "height": 18,
-          "text": "55.",
-          "bold": false
-        },
-        {
-          "x": 202,
-          "y": 443,
-          "width": 1099,
-          "height": 29,
-          "text": "Which phrase in paragraph 2 best describes the writer’s opinion on the time frame required to transform Mars",
-          "bold": false
-        },
-        {
-          "x": 202,
-          "y": 472,
-          "width": 474,
-          "height": 23,
-          "text": "compared to the same transformation on Earth?",
-          "bold": true
-        },
-        {
-          "x": 201,
-          "y": 591,
-          "width": 875,
-          "height": 29,
-          "text": "Which of the following is NOT a factor making Mars currently an uninhabitable place?",
-          "bold": false
-        },
-        {
-          "x": 148,
-          "y": 592,
-          "width": 28,
-          "height": 17,
-          "text": "56.",
-          "bold": false
-        },
-        {
-          "x": 200,
-          "y": 629,
-          "width": 256,
-          "height": 23,
-          "text": "A. atmosphere too thin",
-          "bold": false
-        },
-        {
-          "x": 200,
-          "y": 661,
-          "width": 1060,
-          "height": 44,
-          "text": "B. temperature too cold A B Cc D",
-          "bold": true
-        },
-        {
-          "x": 200,
-          "y": 694,
-          "width": 301,
-          "height": 20,
-          "text": "C. no ice for water creation",
-          "bold": false
-        },
-        {
-          "x": 199,
-          "y": 709,
-          "width": 1067,
-          "height": 47,
-          "text": "D. _ limited source of carbon dioxide O O O O",
-          "bold": true
-        },
-        {
-          "x": 147,
-          "y": 789,
-          "width": 28,
-          "height": 17,
-          "text": "ST,",
-          "bold": true
-        },
-        {
-          "x": 199,
-          "y": 789,
-          "width": 1109,
-          "height": 29,
-          "text": "Complete the following flow chart on terraforming Mars based on information from paragraph 4. (8 marks)",
-          "bold": false
-        },
-        {
-          "x": 365,
-          "y": 839,
-          "width": 729,
-          "height": 25,
-          "text": "DEVELOPMENT OF TERRAFORMING INFRASTRUCTURE",
-          "bold": true
-        },
-        {
-          "x": 161,
-          "y": 878,
-          "width": 1120,
-          "height": 29,
-          "text": "Terraforming machines will need to be set up on Mars in one of two ways: Both will need the same energy source:",
-          "bold": false
-        },
-        {
-          "x": 162,
-          "y": 943,
-          "width": 782,
-          "height": 27,
-          "text": "Option 1: (i) (iii)",
-          "bold": false
-        },
-        {
-          "x": 162,
-          "y": 1004,
-          "width": 125,
-          "height": 24,
-          "text": "Option 2: (ii)",
-          "bold": true
-        },
-        {
-          "x": 162,
-          "y": 1110,
-          "width": 185,
-          "height": 25,
-          "text": "Machine Type 1:",
-          "bold": true
-        },
-        {
-          "x": 161,
-          "y": 1173,
-          "width": 122,
-          "height": 23,
-          "text": "Purpose: (iv)",
-          "bold": true
-        },
-        {
-          "x": 161,
-          "y": 1261,
-          "width": 817,
-          "height": 25,
-          "text": "Machine Type 2: Additional method:",
-          "bold": true
-        },
-        {
-          "x": 159,
-          "y": 1318,
-          "width": 632,
-          "height": 32,
-          "text": "Purpose: (v) | (vi)",
-          "bold": true
-        },
-        {
-          "x": 160,
-          "y": 1534,
-          "width": 86,
-          "height": 20,
-          "text": "Desired",
-          "bold": false
-        },
-        {
-          "x": 160,
-          "y": 1569,
-          "width": 165,
-          "height": 21,
-          "text": "Environmental",
-          "bold": false
-        },
-        {
-          "x": 159,
-          "y": 1604,
-          "width": 231,
-          "height": 21,
-          "text": "Conditions on Mars:",
-          "bold": true
-        },
-        {
-          "x": 194,
-          "y": 1715,
-          "width": 428,
-          "height": 34,
-          "text": "The main purpose of Text 7 is to explain...",
-          "bold": true
-        },
-        {
-          "x": 142,
-          "y": 1719,
-          "width": 28,
-          "height": 18,
-          "text": "58.",
-          "bold": false
-        },
-        {
-          "x": 193,
-          "y": 1756,
-          "width": 411,
-          "height": 20,
-          "text": "A. how to make Mars similar to Earth.",
-          "bold": false
-        },
-        {
-          "x": 194,
-          "y": 1789,
-          "width": 1059,
-          "height": 44,
-          "text": "B. how dangerous the atmosphere of Mars is. A B Cc D",
-          "bold": true
-        },
-        {
-          "x": 193,
-          "y": 1821,
-          "width": 1066,
-          "height": 49,
-          "text": "C. how human beings can travel to Mars in future. O O O O",
-          "bold": true
-        },
-        {
-          "x": 193,
-          "y": 1855,
-          "width": 543,
-          "height": 25,
-          "text": "D. how human beings should adapt to live on Mars.",
-          "bold": false
-        },
-        {
-          "x": 135,
-          "y": 1911,
-          "width": 512,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 725,
-          "y": 1990,
-          "width": 24,
-          "height": 18,
-          "text": "20",
-          "bold": false
-        },
-        {
-          "x": 140,
-          "y": 2001,
-          "width": 287,
-          "height": 18,
-          "text": "2021-DSE-ENG LANG I-B2-2",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 3",
-      "lines": [
-        {
-          "x": 130,
-          "y": 213,
-          "width": 86,
-          "height": 20,
-          "text": "Text 8",
-          "bold": false
-        },
-        {
-          "x": 184,
-          "y": 256,
-          "width": 452,
-          "height": 23,
-          "text": "What is the tone of Prof. Lee in paragraph 2?",
-          "bold": false
-        },
-        {
-          "x": 131,
-          "y": 257,
-          "width": 28,
-          "height": 18,
-          "text": "59.",
-          "bold": false
-        },
-        {
-          "x": 184,
-          "y": 292,
-          "width": 125,
-          "height": 19,
-          "text": "A. critical",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 326,
-          "width": 918,
-          "height": 50,
-          "text": "es A B",
-          "bold": true
-        },
-        {
-          "x": 1149,
-          "y": 341,
-          "width": 30,
-          "height": 56,
-          "text": "Oo",
-          "bold": true
-        },
-        {
-          "x": 1220,
-          "y": 341,
-          "width": 30,
-          "height": 56,
-          "text": "Ov",
-          "bold": true
-        },
-        {
-          "x": 201,
-          "y": 364,
-          "width": 120,
-          "height": 17,
-          "text": ". aggressi",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 367,
-          "width": 926,
-          "height": 52,
-          "text": "D. _ indifferent OO",
-          "bold": true
-        },
-        {
-          "x": 184,
-          "y": 466,
-          "width": 445,
-          "height": 24,
-          "text": "What does ‘this approach’ (line 17) refer to?",
-          "bold": true
-        },
-        {
-          "x": 130,
-          "y": 468,
-          "width": 29,
-          "height": 18,
-          "text": "60.",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 596,
-          "width": 779,
-          "height": 24,
-          "text": "Find a word or phrase in paragraph 4 which has a similar meaning to ‘native’.",
-          "bold": false
-        },
-        {
-          "x": 130,
-          "y": 597,
-          "width": 29,
-          "height": 18,
-          "text": "61.",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 725,
-          "width": 417,
-          "height": 23,
-          "text": "Who or what does ‘we’ (line 24) refer to?",
-          "bold": true
-        },
-        {
-          "x": 130,
-          "y": 726,
-          "width": 28,
-          "height": 17,
-          "text": "62.",
-          "bold": false
-        },
-        {
-          "x": 182,
-          "y": 855,
-          "width": 845,
-          "height": 23,
-          "text": "Decide whether the following statements are True (T), False (F) or Not Given (NG).",
-          "bold": false
-        },
-        {
-          "x": 1187,
-          "y": 855,
-          "width": 96,
-          "height": 23,
-          "text": "(6 marks)",
-          "bold": false
-        },
-        {
-          "x": 130,
-          "y": 856,
-          "width": 28,
-          "height": 18,
-          "text": "63.",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 909,
-          "width": 115,
-          "height": 18,
-          "text": "Statements",
-          "bold": true
-        },
-        {
-          "x": 1144,
-          "y": 909,
-          "width": 31,
-          "height": 490,
-          "text": "O 0 0 002",
-          "bold": true
-        },
-        {
-          "x": 182,
-          "y": 947,
-          "width": 636,
-          "height": 24,
-          "text": "(i) Prof. Lee provides evidence of life forms on other planets.",
-          "bold": false
-        },
-        {
-          "x": 182,
-          "y": 1018,
-          "width": 839,
-          "height": 24,
-          "text": "(ii) Prof. Cheung believes that the planetary park system would solve the ethical",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 1051,
-          "width": 435,
-          "height": 24,
-          "text": "problems related to exploring other planets.",
-          "bold": true
-        },
-        {
-          "x": 182,
-          "y": 1107,
-          "width": 843,
-          "height": 24,
-          "text": "(iii) Prof. Lee believes that the landing of spacecraft could cause the spread of",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 1140,
-          "width": 480,
-          "height": 24,
-          "text": "microorganisms across the surface of the planet.",
-          "bold": false
-        },
-        {
-          "x": 182,
-          "y": 1193,
-          "width": 843,
-          "height": 24,
-          "text": "(iv) Prof. Cheung believes that NASA is supportive of the application of",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 1226,
-          "width": 421,
-          "height": 24,
-          "text": "environmental ethics to space exploration.",
-          "bold": true
-        },
-        {
-          "x": 182,
-          "y": 1280,
-          "width": 842,
-          "height": 24,
-          "text": "(v) Prof. Cheung believes that most human activities damage the environments of",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 1313,
-          "width": 157,
-          "height": 19,
-          "text": "Earth and Mars.",
-          "bold": true
-        },
-        {
-          "x": 182,
-          "y": 1369,
-          "width": 840,
-          "height": 25,
-          "text": "(vi) Prof. Lee believes that life on Earth is more important than life from other",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 1403,
-          "width": 74,
-          "height": 23,
-          "text": "planets.",
-          "bold": true
-        },
-        {
-          "x": 130,
-          "y": 1479,
-          "width": 28,
-          "height": 18,
-          "text": "64.",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 1479,
-          "width": 477,
-          "height": 24,
-          "text": "What does ‘those landscapes’ (line 31) refer to?",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 1515,
-          "width": 221,
-          "height": 24,
-          "text": "A. All other planets",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 1549,
-          "width": 916,
-          "height": 35,
-          "text": "B. The solar system A B",
-          "bold": true
-        },
-        {
-          "x": 1148,
-          "y": 1566,
-          "width": 30,
-          "height": 58,
-          "text": "Oa",
-          "bold": true
-        },
-        {
-          "x": 1218,
-          "y": 1566,
-          "width": 30,
-          "height": 59,
-          "text": "Ov",
-          "bold": true
-        },
-        {
-          "x": 183,
-          "y": 1582,
-          "width": 924,
-          "height": 46,
-          "text": "C. Planetary systems Oo O",
-          "bold": true
-        },
-        {
-          "x": 183,
-          "y": 1616,
-          "width": 255,
-          "height": 19,
-          "text": "D. Beautiful land areas",
-          "bold": true
-        },
-        {
-          "x": 125,
-          "y": 1904,
-          "width": 512,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 130,
-          "y": 1986,
-          "width": 619,
-          "height": 27,
-          "text": "2021-DSE-ENG LANG 1-B2-3 21",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2021/b2/questions-3-figure-1.webp",
-          "x": 224,
-          "y": 308,
-          "width": 136,
-          "height": 84,
-          "alt": "Original figure 1"
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 4",
-      "lines": [
-        {
-          "x": 149,
-          "y": 221,
-          "width": 1155,
-          "height": 31,
-          "text": "65. Both Prof. Lee and Prof. Cheung give arguments and reasons / examples either for or against exploration of",
-          "bold": false
-        },
-        {
-          "x": 201,
-          "y": 251,
-          "width": 1100,
-          "height": 30,
-          "text": "other planets. Complete the summary in the table below. Answers must be grammatically correct. One has",
-          "bold": false
-        },
-        {
-          "x": 200,
-          "y": 279,
-          "width": 1099,
-          "height": 30,
-          "text": "been done for you as an example. (8 marks)",
-          "bold": true
-        },
-        {
-          "x": 165,
-          "y": 353,
-          "width": 1010,
-          "height": 33,
-          "text": "Paragraph| Prof. Main argument for / against Reason / Example",
-          "bold": false
-        },
-        {
-          "x": 366,
-          "y": 391,
-          "width": 954,
-          "height": 21,
-          "text": "T 7",
-          "bold": true
-        },
-        {
-          "x": 389,
-          "y": 443,
-          "width": 660,
-          "height": 35,
-          "text": "Human exploration of space may cause | Exploration may (i)",
-          "bold": false
-        },
-        {
-          "x": 206,
-          "y": 470,
-          "width": 133,
-          "height": 18,
-          "text": "2 Lee",
-          "bold": false
-        },
-        {
-          "x": 409,
-          "y": 492,
-          "width": 111,
-          "height": 27,
-          "text": "ecological",
-          "bold": true
-        },
-        {
-          "x": 388,
-          "y": 612,
-          "width": 499,
-          "height": 26,
-          "text": "Human intervention can (ii) (iii)",
-          "bold": true
-        },
-        {
-          "x": 205,
-          "y": 666,
-          "width": 153,
-          "height": 24,
-          "text": "3 Cheung",
-          "bold": true
-        },
-        {
-          "x": 848,
-          "y": 844,
-          "width": 36,
-          "height": 24,
-          "text": "(iv)",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 869,
-          "width": 584,
-          "height": 28,
-          "text": "4 Lee We cannot simply land on other planets.",
-          "bold": true
-        },
-        {
-          "x": 384,
-          "y": 1018,
-          "width": 639,
-          "height": 28,
-          "text": "Other planets need to be (v) Because only (vi)",
-          "bold": true
-        },
-        {
-          "x": 202,
-          "y": 1067,
-          "width": 152,
-          "height": 24,
-          "text": "5 Cheung",
-          "bold": true
-        },
-        {
-          "x": 383,
-          "y": 1232,
-          "width": 708,
-          "height": 37,
-          "text": "We should not land on another planet as it | All life forms have (viii)",
-          "bold": false
-        },
-        {
-          "x": 381,
-          "y": 1293,
-          "width": 126,
-          "height": 23,
-          "text": "may be (vii)",
-          "bold": false
-        },
-        {
-          "x": 199,
-          "y": 1313,
-          "width": 133,
-          "height": 19,
-          "text": "6 Lee",
-          "bold": false
-        },
-        {
-          "x": 1213,
-          "y": 1358,
-          "width": 77,
-          "height": 19,
-          "text": "to exist.",
-          "bold": false
-        },
-        {
-          "x": 137,
-          "y": 1507,
-          "width": 1152,
-          "height": 33,
-          "text": "66. Refer to Texts 6-8. For each text, what would be the best title? Match the titles on the right column with",
-          "bold": false
-        },
-        {
-          "x": 190,
-          "y": 1537,
-          "width": 1093,
-          "height": 33,
-          "text": "Texts 6-8. Three titles are NOT used. (3 marks)",
-          "bold": false
-        },
-        {
-          "x": 652,
-          "y": 1586,
-          "width": 58,
-          "height": 19,
-          "text": "Titles",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 1610,
-          "width": 648,
-          "height": 29,
-          "text": "(i) Text 6: A. Terraforming Mars",
-          "bold": false
-        },
-        {
-          "x": 614,
-          "y": 1639,
-          "width": 286,
-          "height": 33,
-          "text": "B. A Brief History of Mars",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 1667,
-          "width": 717,
-          "height": 31,
-          "text": "(ii) Text 7: C. Who Chooses to Explore?",
-          "bold": false
-        },
-        {
-          "x": 614,
-          "y": 1701,
-          "width": 376,
-          "height": 27,
-          "text": "D. What NASA Thinks about Space",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 1725,
-          "width": 812,
-          "height": 29,
-          "text": "(iii) Text 8: E. Looking Back at the Lunar Mission",
-          "bold": false
-        },
-        {
-          "x": 613,
-          "y": 1759,
-          "width": 433,
-          "height": 22,
-          "text": "F. Should We Set Foot on Other Worlds?",
-          "bold": true
-        },
-        {
-          "x": 614,
-          "y": 1861,
-          "width": 206,
-          "height": 21,
-          "text": "END OF PART B2",
-          "bold": true
-        },
-        {
-          "x": 129,
-          "y": 1912,
-          "width": 512,
-          "height": 25,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 133,
-          "y": 1993,
-          "width": 619,
-          "height": 28,
-          "text": "2021-DSE-ENG LANG 1-B2-4 22",
-          "bold": true
-        }
-      ]
+      "prompt": "Roles to The 8, area tous what would be the best tite? Match the tiles on the right columnish Texts 6-8. Three titles are NOT used.\n(i) Text 6: A. Terraforming Mars\nB. A Brief History of Mars\n(ii) Text 7: C. Who Chooses to Explore?\nWhat NASA Thinks about Space\n(ifi) Text 8: E. Looking Back at the Lunar Mission\nF. Should We Set Foot on Other Worlds?\nEND OF PART B2"
     }
   ]
 }

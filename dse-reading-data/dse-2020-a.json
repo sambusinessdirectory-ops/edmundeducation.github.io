@@ -5,2172 +5,741 @@
   "title": "Tai Kwun: The Big House Is Finally Open",
   "sourceLabel": "HKDSE 2020 English Language Paper 1 Part A",
   "sourceHeading": "Tai Kwun: The Big House Is Finally Open",
-  "displayMode": "structured-paper",
-  "paragraphs": [],
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "Paragraph 1",
+      "text": "Tai Kwun: The Big House is Finally Open For 179 years, the former Victoria Prison and Central Police Station compound stood aloof in the heart of Hong Kong, visible yet inaccessible - unless you enforced the law or fell on the wrong side of it. Now everyone has a chance to step inside its walls. After a long and arduous conversion into a centre for art and heritage, Hong Kong's most significant heritage conservation project is finally complete.",
+      "images": [
+        {
+          "src": "assets/reading-comprehension/dse/content/2020/a/passage-1-visual-1.webp",
+          "alt": "Original figure 1"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "label": "Paragraph 2",
+      "text": "Officially re-christened with its former nickname, Tai Kwun, the Cantonese equivalent of 'the big house', the compound now includes art galleries, exhibitions on local history, shops, restaurants and bars. \"The philosophy has been very clear from day one,\" says Winnie Yeung, Tai Kwun's head of heritage. \"We're trying to turn a closed-off site that Hong Kong people were familiar with but never had a chance to go inside into a site that is open to the public with easy access.\""
+    },
+    {
+      "number": 3,
+      "label": "Paragraph 3",
+      "text": "That was a challenge like nothing Hong Kong had seen before. The first iteration of Victoria Prison was built in 1841. It was the first permanent structure built by the British in their new colonial possession. With 18 different buildings, three of which are declared monuments - a designation that imposes legal restrictions on how a building can be modified - the restoration work was destined to be particularly complicated."
+    },
+    {
+      "number": 4,
+      "label": "Paragraph 4",
+      "text": "The Jockey Club, which was asked to lead the restoration project, spared no expense, hiring renowned Swiss architectural firm Herzog & de Meuron to design a new arts pavilion for the site, along with a master plan for how to convert the historic site into its new role as a public facility. Their first proposal called for a spindly tower inspired by bamboo scaffolding - and it was furiously rejected by nearby residents, who said it would ruin their views and overshadow the venerable old buildings. Eventually, the architects came up with a plan for two boxy structures that floated above parts of the old prison courtyard. One houses a 200-seat auditorium, the other an art gallery. Both are clad in black aluminium blocks that give them the appearance of leather jewellery boxes.",
+      "images": [
+        {
+          "src": "assets/reading-comprehension/dse/content/2020/a/passage-1-visual-2.webp",
+          "alt": "Original figure 2"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "label": "Paragraph 5",
+      "text": "When Jacques Herzog and Pierre de Meuron visited Hong Kong last December to inspect Tai Kwun, they still disappointed their original vision for the site had been rejected. \"We were honestly a bit shocked to find that Hong Kong has neighbourhoods worse than Switzerland, that they would complain about such a radical transformation,\" said Herzog. But the feedback made them realise that what people valued about Tai Kwun was its low-rise character in a high-rise city. \"It's a horizontal oasis,\" he said. \"It has always been an attractive space just waiting to be discovered by the public.\"",
+      "images": [
+        {
+          "src": "assets/reading-comprehension/dse/content/2020/a/passage-1-visual-3.webp",
+          "alt": "Original figure 3"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "label": "Paragraph 6",
+      "text": "Herzog describes the final design as \"less radical\", but with the same goal of opening up a space that had long been sealed off to the general population. But even the toned-down aluminium-clad additions have been controversial. \"Many people feel they are totally out of place and I personally think they're too heavy. They dominate the entire site,\" says neighbourhood activist Katty Law, who is the convenor of the Central and Western District Concern Group."
+    },
+    {
+      "number": 7,
+      "label": "Paragraph 7",
+      "text": "Others defend the new additions. \"When we talk about heritage conservation now, we talk about adaptive reuse - giving a building new life. There's only so much you can do with the existing buildings,\" architectural conservationist Fredo Cheung last year. \"The point is not to mimic the old but to distinguish the old from the new,\" he said. \"It's about authenticity.\""
+    },
+    {
+      "number": 8,
+      "label": "Paragraph 8",
+      "text": "There have been some missteps. In 2016, a wall in one of the site's oldest buildings collapsed during an attempt to reinforce it. And the Jockey Club has been criticised for failing to preserve some of the non-architectural elements of the site's heritage, like graffiti that had been scrawled by prisoners on the walls of their cells. \"The renovation is sometimes excessive, overly new, leading to a loss of the original patina of the heritage buildings,\" says Law."
+    },
+    {
+      "number": 9,
+      "label": "Paragraph 9",
+      "text": "That criticism is echoed by art critic John Batten, who sat on one of Tai Kwun's advisory committees. \"But, over time, the buildings will evolve into a new appearance and function,\" he wrote in a magazine column last May. And that new function will be one markedly different from its past role. \"What we've noticed is that neighbours will just drop by in the evening to meet up with their friends because Central doesn't have many open spaces,\" says Yeung."
+    },
+    {
+      "number": 10,
+      "label": "Paragraph 10",
+      "text": "Tai Kwun's new life as a public gathering space was one of the reasons its inaugural heritage exhibition, 100 Faces, focuses on its presence in the surrounding neighbourhood. The history of Tai Kwun itself is conveyed through eight storytelling spaces scattered throughout the site. Some of that history deals with well-known figures like Vietnamese Communist leader Ho Chi Minh, who was jailed in Victoria Prison as he used Hong ong as a base from which to plot his revolutionary war against France. But other stories are more humble i cope. One of Yeung's favourites is from the owner of a Sheung Wan printing pres place in Central. It gives you a sense of how the site has always had this very strong connection to the community even though it was surrounded by walls.\""
+    },
+    {
+      "number": 11,
+      "label": "Paragraph 11",
+      "text": "The walls are still there, but now the gates are open - and a new chapter of history has begun. More than just a museum, or an art gallery, or an historic site, Tai Kwun is a place that brings many different threads of Hong Kong life together. \"Never have we done such a large scale conservation and revitalisation project all in one go,\" says Yeung. • \"In Hong Kong, in the past, we always just conserved one building and then another. This is conserving an entire site - a place.\""
+    }
+  ],
   "instructions": {
-    "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
+    "paper": "Answer every question using the passage."
   },
   "questions": [
     {
       "number": 1,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 1",
-      "placeholder": "Enter all answer parts for Question 1"
+      "prompt": "Complete the summary of paragraph 1 by selecting the best option from the choices below. (3 marks)\nTai Kwun was previously a prison but now it is (i) and anyone can visit. It took (ii) to make the\nmodifications to the buildings. Now the work in Tai Kwun is (iii); it has become the most important\nproject of its kind in Hong Kong.\n(i) A. a law court\nB. a heritage site\nC. a police station\nD. a residential house\n(ii) A. 179 years\nB. a long time\nC. not too long\nD. very little time\n(iii) A. starting\nB. ongoing\nC. finished\nD. cancelled"
     },
     {
       "number": 2,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 2",
-      "placeholder": "Enter all answer parts for Question 2"
+      "prompt": "Find a word or phrase in paragraph 1 which has a similar meaning to 'enter'."
     },
     {
       "number": 3,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 3",
-      "placeholder": "Enter all answer parts for Question 3"
+      "type": "choice",
+      "prompt": "What does 'fell on the wrong side of it' (line 3) mean?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. broke the law"
+        },
+        {
+          "value": "B",
+          "label": "B. fell off a wall"
+        },
+        {
+          "value": "C",
+          "label": "C. made the wrong decision"
+        },
+        {
+          "value": "D",
+          "label": "D. put something in the wrong place"
+        }
+      ]
     },
     {
       "number": 4,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 4",
-      "placeholder": "Enter all answer parts for Question 4"
+      "prompt": "Find a word or phrase in paragraph 1 that suggests the Victoria Prison and Central Police Station was\ndisconnected from the daily lives of Hong Kong citizens.\n*AOZOEDIA*"
     },
     {
       "number": 5,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 5",
-      "placeholder": "Enter all answer parts for Question 5"
+      "type": "choice",
+      "prompt": "Based on the facilities mentioned in paragraph 2, which of the following can people NOT do in Tai\nKwun?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. eat lunch"
+        },
+        {
+          "value": "B",
+          "label": "B. sleep in a prison cell"
+        },
+        {
+          "value": "C",
+          "label": "C. meet friends for a drink"
+        },
+        {
+          "value": "D",
+          "label": "D. learn about Hong Kong history"
+        }
+      ]
     },
     {
       "number": 6,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 6",
-      "placeholder": "Enter all answer parts for Question 6"
+      "type": "parts",
+      "prompt": "According to paragraph 2, are the following statements True (T), False (F) or Not Given (NG)? (3 marks)\nStatements NG",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) The compound is officially named Tai Kwun.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) The compound was unknown to the public previously.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) The compound displays traditional Hong Kong art in the art galleries.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
     },
     {
       "number": 7,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 7",
-      "placeholder": "Enter all answer parts for Question 7"
+      "prompt": "With reference to paragraph 3, state ONE reason why the building work was especially challenging."
     },
     {
       "number": 8,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 8",
-      "placeholder": "Enter all answer parts for Question 8"
+      "type": "choice",
+      "prompt": "What does 'the other' (line 25) refer to?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. the art gallery"
+        },
+        {
+          "value": "B",
+          "label": "B. a leather jewellery box"
+        },
+        {
+          "value": "C",
+          "label": "C. one of the boxy structures"
+        },
+        {
+          "value": "D",
+          "label": "D. the venerable old building"
+        }
+      ]
     },
     {
       "number": 9,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 9",
-      "placeholder": "Enter all answer parts for Question 9"
+      "prompt": "Find a word in paragraph 4 to highlight the fact that it took time to find a solution."
     },
     {
       "number": 10,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 10",
-      "placeholder": "Enter all answer parts for Question 10"
+      "prompt": "What phrase is used in paragraph 5 to describe Tai Kwun as a wide-open relaxing place?"
     },
     {
       "number": 11,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 11",
-      "placeholder": "Enter all answer parts for Question 11"
+      "type": "parts",
+      "prompt": "Complete the following information about the new arts pavilion by using a word or phrase taken from\nparagraphs 4-6 for each gap. Write no more than THREE words for each gap. (6 marks)\nArchitects' The architects were surprised as they After seeing that their initial design may\nresponse expected this type of reaction in have been too radical, they toned down",
+      "parts": [
+        {
+          "key": "t1r2c2g1",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r2c3g1",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r3c3g1",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r4c2g1",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Initial design: Final design:",
+                "colSpan": 2,
+                "rowSpan": 1,
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Distinctive\nappearance",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Inspiration taken from\n(i)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r2c2g1"
+                ]
+              },
+              {
+                "text": "Buildings look like\n(ii)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r2c3g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Facilities",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Not Stated--",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "a) a large hall\nb) (iii)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r3c3g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Residents'\nresponse to\nthe design",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Residents argued that the tower would\nobstruct their\n(iv)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r4c2g1"
+                ]
+              },
+              {
+                "text": "Some believe the new structures are out of\nplace.",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ]
+          ],
+          "columns": 3
+        }
+      ]
     },
     {
       "number": 12,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 12",
-      "placeholder": "Enter all answer parts for Question 12"
+      "prompt": "Complete the summary of paragraph & by using ONE word taken from paragraph 8 for each gap.\n(4 marks)\nDuring the project, a number of (i) were made by the Jockey Club, for example,\nwhile working on one of the buildings in the compound, part of it (ii) Also, in the\nprisoners' (iti) the Jockey Club did not preserve the graffiti. As a result, they were\n(iv) for losing some of the buildings' original atmosphere."
     },
     {
       "number": 13,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 13",
-      "placeholder": "Enter all answer parts for Question 13"
+      "prompt": "Give an example, from paragraph 9, of how John Batten's prediction in paragraph 9 has come true.\nAs Central lacks"
     },
     {
       "number": 14,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 14",
-      "placeholder": "Enter all answer parts for Question 14"
+      "type": "parts",
+      "prompt": "Below is a summary of paragraph 10. In three of the lines there is ONE mistake. If you find a mistake,\nunderline it and replace the word with one that expresses the correct idea. Write the word in the box on the\nright. Both grammar and spelling must be correct. In one of the lines there is no mistake; put a tick (V) in\nthe box. One has been done for you as an example. (4 marks)",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              },
+              {
+                "text": "Summary",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              },
+              {
+                "text": "Correction",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i)",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "The final exhibition held at Tai Kwun was chosen to celebrate",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r2c3g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "(ii)",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "its new private role in the community. This was staged at",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r3c3g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "e.g.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "all locations around the entire compound. Called 100 Faces,",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "eight",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ],
+            [
+              {
+                "text": "(tii)",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "it told the stories of both famous and more ordinary people",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r5c3g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "(iv)",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "whose lives had been disturbed by the prison and police station.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r6c3g1"
+                ]
+              }
+            ]
+          ],
+          "columns": 3
+        }
+      ],
+      "parts": [
+        {
+          "key": "t1r2c3g1",
+          "label": "Row 2, column 3",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r3c3g1",
+          "label": "Row 3, column 3",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r5c3g1",
+          "label": "Row 5, column 3",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r6c3g1",
+          "label": "Row 6, column 3",
+          "type": "text",
+          "inTable": true
+        }
+      ]
     },
     {
       "number": 15,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 15",
-      "placeholder": "Enter all answer parts for Question 15"
+      "prompt": "According to paragraph 11, why did the mother decide to spend the night at Chancery Lane, next to the\nprison?"
     },
     {
       "number": 16,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 16",
-      "placeholder": "Enter all answer parts for Question 16"
+      "type": "parts",
+      "prompt": "Who or what do the following words from paragraph 11 refer to? (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) \"she' (line 63)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) 'the site' (line 66)",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 17,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 17",
-      "placeholder": "Enter all answer parts for Question 17"
+      "prompt": "Find the metaphor the writer uses to describe a 'fresh start' in paragraph 12."
     },
     {
       "number": 18,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 18",
-      "placeholder": "Enter all answer parts for Question 18"
+      "prompt": "Number the following events from the text in chronological order with 'I' as the earliest. Write (2-5) in\nthe boxes provided. The first one has been done for you as an example. (4 marks)\nTai Kwun opens. (i)\nVictoria Prison is established. e.g. 1\nMother and child sleep in Chancery Lane. (ii)\nLocal residents come by to socialise.\nNew buildings are designed for the site. (iv)"
     },
     {
       "number": 19,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 19",
-      "placeholder": "Enter all answer parts for Question 19"
-    }
-  ],
-  "structuredPassagePages": [
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Reading passage page 1",
-      "lines": [
+      "type": "parts",
+      "prompt": "Use the information given in paragraphs 4-12 to match each of the following comments with a person or\norganisation mentioned in the text. Write the letter of the comment on the line next to the person /\norganisation given. The first has been provided for you as an example. One comment is NOT used. Each\n(5 marks)\nEND OF PART A",
+      "tables": [
         {
-          "x": 174,
-          "y": 210,
-          "width": 817,
-          "height": 26,
-          "text": "Read Text | and answer questions 1-19 in the Question-Answer Book for Part A.",
-          "bold": false
+          "rows": [
+            [
+              {
+                "text": "A.\nAlthough the renovation\nwas quite heavy-handed,\nTai Kwun will take on a\nnew life as a result.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "B.\nThe size of this kind of\nproject is unheard of in\nHong Kong.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "C.\nAlmost everyone spoken to\ndoesn't like the design.",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ],
+            [
+              {
+                "text": "D.\nThe design of the new\nbuildings is not appropriate\nfor the site.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "E.\nIt was important to\nrecognise the needs of the\ncommunity.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "It was important to get the\nrestoration right, which\nmeant we had to be willing\nto spend.",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ],
+            [
+              {
+                "text": "G.\nSticking to the original\nbuilding design is too\nlimiting.",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ]
+          ],
+          "columns": 3
         },
         {
-          "x": 173,
-          "y": 272,
-          "width": 86,
-          "height": 19,
-          "text": "Text i",
-          "bold": true
-        },
-        {
-          "x": 173,
-          "y": 332,
-          "width": 566,
-          "height": 35,
-          "text": "Tai Kwun: The Big House is",
-          "bold": true
-        },
-        {
-          "x": 176,
-          "y": 376,
-          "width": 240,
-          "height": 35,
-          "text": "Finally Open",
-          "bold": true
-        },
-        {
-          "x": 166,
-          "y": 657,
-          "width": 574,
-          "height": 24,
-          "text": "[1] For 179 years, the former Victoria Prison and Central",
-          "bold": true
-        },
-        {
-          "x": 165,
-          "y": 683,
-          "width": 1147,
-          "height": 28,
-          "text": "Police Station compound stood aloof in the heart of Hong Kong, visible yet inaccessible — unless you enforced",
-          "bold": false
-        },
-        {
-          "x": 164,
-          "y": 712,
-          "width": 1147,
-          "height": 27,
-          "text": "the law or fell on the wrong side of it. Now everyone has a chance to step inside its walls. After a long and",
-          "bold": false
-        },
-        {
-          "x": 165,
-          "y": 741,
-          "width": 1147,
-          "height": 26,
-          "text": "arduous conversion into a centre for art and heritage, Hong Kong’s most significant heritage conservation project",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 773,
-          "width": 190,
-          "height": 24,
-          "text": "is finally complete.",
-          "bold": false
-        },
-        {
-          "x": 167,
-          "y": 813,
-          "width": 1144,
-          "height": 27,
-          "text": "[2] Officially re-christened with its former nickname, Tai Kwun, the Cantonese equivalent of ‘the big house’, the",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 841,
-          "width": 1146,
-          "height": 28,
-          "text": "compound now includes art galleries, exhibitions on local history, shops, restaurants and bars. “The philosophy",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 870,
-          "width": 1146,
-          "height": 27,
-          "text": "has been very clear from day one,” says Winnie Yeung, Tai Kwun’s head of heritage. “We’re trying to turn a",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 895,
-          "width": 1146,
-          "height": 35,
-          "text": "closed-off site that Hong Kong people were familiar with but never had a chance to go inside into a site that is",
-          "bold": false
-        },
-        {
-          "x": 95,
-          "y": 931,
-          "width": 24,
-          "height": 19,
-          "text": "10",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 931,
-          "width": 370,
-          "height": 25,
-          "text": "open to the public with easy access.”",
-          "bold": false
-        },
-        {
-          "x": 167,
-          "y": 972,
-          "width": 1145,
-          "height": 27,
-          "text": "[3] That was a challenge like nothing Hong Kong had seen before. The first iteration of Victoria Prison was built",
-          "bold": false
-        },
-        {
-          "x": 167,
-          "y": 1001,
-          "width": 1144,
-          "height": 27,
-          "text": "in 1841. It was the first permanent structure built by the British in their new colonial possession. With 18",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1029,
-          "width": 1146,
-          "height": 27,
-          "text": "different buildings, three of which are declared monuments — a designation that imposes legal restrictions on how",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1059,
-          "width": 947,
-          "height": 26,
-          "text": "a building can be modified — the restoration work was destined to be particularly complicated.",
-          "bold": false
-        },
-        {
-          "x": 167,
-          "y": 1103,
-          "width": 680,
-          "height": 25,
-          "text": "[4] The Jockey Club, which was asked to lead the restoration",
-          "bold": false
-        },
-        {
-          "x": 95,
-          "y": 1105,
-          "width": 23,
-          "height": 19,
-          "text": "15",
-          "bold": false
-        },
-        {
-          "x": 165,
-          "y": 1131,
-          "width": 894,
-          "height": 26,
-          "text": "project, spared no expense, hiring renowned Swiss architectural “3",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1161,
-          "width": 679,
-          "height": 25,
-          "text": "firm Herzog & de Meuron to design a new arts pavilion for the site,",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1190,
-          "width": 679,
-          "height": 25,
-          "text": "along with a master plan for how to convert the historic site into its",
-          "bold": false
-        },
-        {
-          "x": 165,
-          "y": 1218,
-          "width": 682,
-          "height": 26,
-          "text": "new role as a public facility. Their first proposal called for a",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1247,
-          "width": 679,
-          "height": 25,
-          "text": "spindly tower inspired by bamboo scaffolding — and it was",
-          "bold": false
-        },
-        {
-          "x": 93,
-          "y": 1248,
-          "width": 25,
-          "height": 20,
-          "text": "20",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1276,
-          "width": 679,
-          "height": 24,
-          "text": "furiously rejected by nearby residents, who said it would ruin their",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1305,
-          "width": 678,
-          "height": 23,
-          "text": "views and overshadow the venerable old buildings. Eventually, the",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1333,
-          "width": 678,
-          "height": 25,
-          "text": "architects came up with a plan for two boxy structures that floated",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1362,
-          "width": 678,
-          "height": 25,
-          "text": "above parts of the old prison courtyard. One houses a 200-seat",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1390,
-          "width": 678,
-          "height": 24,
-          "text": "auditorium, the other an art gallery. Both are clad in black",
-          "bold": false
-        },
-        {
-          "x": 94,
-          "y": 1392,
-          "width": 25,
-          "height": 19,
-          "text": "25",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1420,
-          "width": 681,
-          "height": 24,
-          "text": "aluminium blocks that give them the appearance of leather",
-          "bold": false
-        },
-        {
-          "x": 163,
-          "y": 1450,
-          "width": 165,
-          "height": 23,
-          "text": "jewellery boxes.",
-          "bold": false
-        },
-        {
-          "x": 167,
-          "y": 1492,
-          "width": 681,
-          "height": 25,
-          "text": "[5] When Jacques Herzog and Pierre de Meuron visited Hong",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1521,
-          "width": 679,
-          "height": 25,
-          "text": "Kong last December to inspect Tai Kwun, they still seemed",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1549,
-          "width": 677,
-          "height": 26,
-          "text": "disappointed their original vision for the site had been rejected.",
-          "bold": false
-        },
-        {
-          "x": 94,
-          "y": 1550,
-          "width": 25,
-          "height": 19,
-          "text": "30",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1578,
-          "width": 678,
-          "height": 24,
-          "text": "“We were honestly a bit shocked to find that Hong Kong has",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1607,
-          "width": 679,
-          "height": 25,
-          "text": "neighbourhoods worse than Switzerland, that they would complain",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1635,
-          "width": 679,
-          "height": 23,
-          "text": "about such a radical transformation,” said Herzog. But the",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1664,
-          "width": 680,
-          "height": 24,
-          "text": "feedback made them realise that what people valued about Tai",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1692,
-          "width": 681,
-          "height": 24,
-          "text": "Kwun was its low-rise character in a high-rise city. “It’s a",
-          "bold": false
-        },
-        {
-          "x": 94,
-          "y": 1693,
-          "width": 25,
-          "height": 19,
-          "text": "35",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1721,
-          "width": 681,
-          "height": 24,
-          "text": "horizontal oasis,” he said. “It has always been an attractive space",
-          "bold": false
-        },
-        {
-          "x": 163,
-          "y": 1750,
-          "width": 447,
-          "height": 24,
-          "text": "just waiting to be discovered by the public.”",
-          "bold": false
-        },
-        {
-          "x": 168,
-          "y": 1791,
-          "width": 1146,
-          "height": 26,
-          "text": "[6] Herzog describes the final design as “less radical”, but with the same goal of opening up a space that had long",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1820,
-          "width": 1147,
-          "height": 25,
-          "text": "been sealed off to the general population. But even the toned-down aluminium-clad additions have been",
-          "bold": false
-        },
-        {
-          "x": 167,
-          "y": 1848,
-          "width": 1147,
-          "height": 26,
-          "text": "controversial. “Many people feel they are totally out of place and I personally think they’re too heavy. They",
-          "bold": false
-        },
-        {
-          "x": 94,
-          "y": 1851,
-          "width": 25,
-          "height": 19,
-          "text": "40",
-          "bold": false
-        },
-        {
-          "x": 167,
-          "y": 1877,
-          "width": 1147,
-          "height": 26,
-          "text": "dominate the entire site,” says neighbourhood activist Katty Law, who is the convenor of the Central and",
-          "bold": false
-        },
-        {
-          "x": 167,
-          "y": 1909,
-          "width": 332,
-          "height": 23,
-          "text": "Western District Concern Group.",
-          "bold": true
-        },
-        {
-          "x": 174,
-          "y": 1989,
-          "width": 628,
-          "height": 18,
-          "text": "2020-DSE-ENG LANG 1-A-RP-2 2",
-          "bold": true
+          "rows": [
+            [
+              {
+                "text": "The Jockey Club e. g.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "(i1i) Katty Law",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ],
+            [
+              {
+                "text": "(i) Winnie Yeung",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t2r2c1g1"
+                ]
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t2r2c2g1"
+                ]
+              },
+              {
+                "text": "(iv) Fredo Cheung",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t2r2c3g1"
+                ]
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t2r2c4g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "(ii) Herzog & de Meuron",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t2r3c1g1"
+                ]
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t2r3c2g1"
+                ]
+              },
+              {
+                "text": "(v) John Batten",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t2r3c3g1"
+                ]
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t2r3c4g1"
+                ]
+              }
+            ]
+          ],
+          "columns": 4
         }
       ],
-      "figures": [
+      "parts": [
         {
-          "src": "assets/reading-comprehension/dse/structured/2020/a/passage-1-figure-1.webp",
-          "x": 756,
-          "y": 312,
-          "width": 580,
-          "height": 348,
-          "alt": "Original figure 1"
+          "key": "t2r2c1g1",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
         },
         {
-          "src": "assets/reading-comprehension/dse/structured/2020/a/passage-1-figure-2.webp",
-          "x": 880,
-          "y": 1100,
-          "width": 464,
-          "height": 336,
-          "alt": "Original figure 2"
+          "key": "t2r2c2g1",
+          "label": "Row 2, column 2",
+          "type": "text",
+          "inTable": true
         },
         {
-          "src": "assets/reading-comprehension/dse/structured/2020/a/passage-1-figure-3.webp",
-          "x": 868,
-          "y": 1496,
-          "width": 480,
-          "height": 272,
-          "alt": "Original figure 3"
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Reading passage page 2",
-      "lines": [
-        {
-          "x": 161,
-          "y": 144,
-          "width": 1145,
-          "height": 25,
-          "text": "[7] Others defend the new additions. “When we talk about heritage conservation now, we talk about adaptive",
-          "bold": false
-        },
-        {
-          "x": 159,
-          "y": 173,
-          "width": 1146,
-          "height": 24,
-          "text": "reuse — giving a building new life. There’s only so much you can do with the existing buildings,” said",
-          "bold": false
-        },
-        {
-          "x": 87,
-          "y": 201,
-          "width": 25,
-          "height": 18,
-          "text": "45",
-          "bold": false
-        },
-        {
-          "x": 159,
-          "y": 202,
-          "width": 1146,
-          "height": 24,
-          "text": "architectural conservationist Fredo Cheung last year. “The point is not to mimic the old but to distinguish the old",
-          "bold": false
-        },
-        {
-          "x": 159,
-          "y": 231,
-          "width": 490,
-          "height": 24,
-          "text": "from the new,” he said. “It’s about authenticity.”",
-          "bold": false
-        },
-        {
-          "x": 160,
-          "y": 275,
-          "width": 1145,
-          "height": 24,
-          "text": "[8] There have been some missteps. In 2016, a wall in one of the site’s oldest buildings collapsed during an",
-          "bold": false
-        },
-        {
-          "x": 159,
-          "y": 304,
-          "width": 1146,
-          "height": 24,
-          "text": "attempt to reinforce it. And the Jockey Club has been criticised for failing to preserve some of the non-",
-          "bold": false
-        },
-        {
-          "x": 159,
-          "y": 332,
-          "width": 1146,
-          "height": 25,
-          "text": "architectural elements of the site’s heritage, like graffiti that had been scrawled by prisoners on the walls of their",
-          "bold": false
-        },
-        {
-          "x": 86,
-          "y": 359,
-          "width": 25,
-          "height": 19,
-          "text": "50",
-          "bold": false
-        },
-        {
-          "x": 158,
-          "y": 361,
-          "width": 1146,
-          "height": 24,
-          "text": "cells. “The renovation is sometimes excessive, overly new, leading to a loss of the original patina of the heritage",
-          "bold": false
-        },
-        {
-          "x": 158,
-          "y": 390,
-          "width": 215,
-          "height": 23,
-          "text": "buildings,” says Law.",
-          "bold": false
-        },
-        {
-          "x": 159,
-          "y": 433,
-          "width": 1144,
-          "height": 24,
-          "text": "[9] That criticism is echoed by art critic John Batten, who sat on one of Tai Kwun’s advisory committees. “But,",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 462,
-          "width": 1147,
-          "height": 24,
-          "text": "over time, the buildings will evolve into a new appearance and function,” he wrote in a magazine column last",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 491,
-          "width": 1147,
-          "height": 24,
-          "text": "May. And that new function will be one markedly different from its past role. “What we’ve noticed is that",
-          "bold": false
-        },
-        {
-          "x": 85,
-          "y": 518,
-          "width": 24,
-          "height": 19,
-          "text": "55",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 519,
-          "width": 1147,
-          "height": 26,
-          "text": "neighbours will just drop by in the evening to meet up with their friends because Central doesn’t have many open",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 548,
-          "width": 209,
-          "height": 24,
-          "text": "spaces,” says Yeung.",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 587,
-          "width": 1146,
-          "height": 34,
-          "text": "[10] Tai Kwun’s new life as a public gathering space was one of the reasons its inaugural heritage exhibition, /00",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 620,
-          "width": 1147,
-          "height": 25,
-          "text": "Faces, focuses on its presence in the surrounding neighbourhood. The history of Tai Kwun itself is conveyed",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 649,
-          "width": 1147,
-          "height": 24,
-          "text": "through eight storytelling spaces scattered throughout the site. Some of that history deals with well-known",
-          "bold": false
-        },
-        {
-          "x": 83,
-          "y": 676,
-          "width": 26,
-          "height": 19,
-          "text": "60",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 678,
-          "width": 1146,
-          "height": 25,
-          "text": "figures like Vietnamese Communist leader Ho Chi Minh, who was jailed in Victoria Prison as he used Hong",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 706,
-          "width": 1145,
-          "height": 24,
-          "text": "Kong as a base from which to plot his revolutionary war against France. But other stories are more humble in",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 731,
-          "width": 851,
-          "height": 33,
-          "text": "scope. One of Yeung’s favourites is from the owner of a Sheung Wan printing press.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 778,
-          "width": 1145,
-          "height": 26,
-          "text": "[11] “When the owner was still a very young boy, he cried a lot when he was sleeping at night,” she says. “His",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 807,
-          "width": 1146,
-          "height": 25,
-          "text": "father had to get up early the next morning, so what his mother did was to bring him all the way to Chancery",
-          "bold": false
-        },
-        {
-          "x": 82,
-          "y": 834,
-          "width": 26,
-          "height": 20,
-          "text": "65",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 836,
-          "width": 1146,
-          "height": 25,
-          "text": "Lane next to the prison and get them to sleep there — because Victoria Prison after lights off was the quietest",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 865,
-          "width": 1146,
-          "height": 25,
-          "text": "place in Central. It gives you a sense of how the site has always had this very strong connection to the",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 894,
-          "width": 537,
-          "height": 24,
-          "text": "community even though it was surrounded by walls.”",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 937,
-          "width": 1146,
-          "height": 26,
-          "text": "[12] The walls are still there, but now the gates are open — and a new chapter of history has begun. More than just",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 966,
-          "width": 1146,
-          "height": 25,
-          "text": "a museum, or an art gallery, or an historic site, Tai Kwun is a place that brings many different threads of Hong",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 990,
-          "width": 1145,
-          "height": 34,
-          "text": "Kong life together. “Never have we done such a large scale conservation and revitalisation project all in one go,”",
-          "bold": false
-        },
-        {
-          "x": 82,
-          "y": 993,
-          "width": 25,
-          "height": 19,
-          "text": "70",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 1023,
-          "width": 1145,
-          "height": 25,
-          "text": "says Yeung. “In Hong Kong, in the past, we always just conserved one building and then another. This is",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 1052,
-          "width": 358,
-          "height": 23,
-          "text": "conserving an entire site — a place.”",
-          "bold": true
-        },
-        {
-          "x": 542,
-          "y": 1233,
-          "width": 345,
-          "height": 20,
-          "text": "END OF READING PASSAGE",
-          "bold": true
-        },
-        {
-          "x": 160,
-          "y": 1289,
-          "width": 1171,
-          "height": 24,
-          "text": "Sources of materials used in this paper will be acknowledged in the HKDSE Question Papers booklet published by the Hong",
-          "bold": false
-        },
-        {
-          "x": 160,
-          "y": 1315,
-          "width": 564,
-          "height": 22,
-          "text": "Kong Examinations and Assessment Authority at a later stage.",
-          "bold": false
-        },
-        {
-          "x": 149,
-          "y": 1986,
-          "width": 627,
-          "height": 19,
-          "text": "2020-DSE-ENG LANG 1-A-RP-3 3",
-          "bold": true
-        }
-      ]
-    }
-  ],
-  "structuredQuestionPages": [
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 1",
-      "lines": [
-        {
-          "x": 922,
-          "y": 108,
-          "width": 476,
-          "height": 23,
-          "text": "Please stick the barcode label here.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 128,
-          "width": 210,
-          "height": 19,
-          "text": "Candidate Number",
-          "bold": true
-        },
-        {
-          "x": 156,
-          "y": 191,
-          "width": 187,
-          "height": 23,
-          "text": "HKDSE 2020",
-          "bold": true
-        },
-        {
-          "x": 156,
-          "y": 225,
-          "width": 313,
-          "height": 23,
-          "text": "ENGLISH LANGUAGE",
-          "bold": true
-        },
-        {
-          "x": 156,
-          "y": 260,
-          "width": 248,
-          "height": 23,
-          "text": "PAPER 1 PART A",
-          "bold": true
-        },
-        {
-          "x": 155,
-          "y": 295,
-          "width": 661,
-          "height": 24,
-          "text": "QUESTION-ANSWER BOOK COMPULSORY",
-          "bold": true
-        },
-        {
-          "x": 155,
-          "y": 356,
-          "width": 915,
-          "height": 24,
-          "text": "Write your Candidate Number and stick a barcode label in the space provided on this page.",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 393,
-          "width": 561,
-          "height": 23,
-          "text": "Read Text 1 and answer questions 1-19. (42 marks)",
-          "bold": true
-        },
-        {
-          "x": 154,
-          "y": 448,
-          "width": 85,
-          "height": 19,
-          "text": "Text 1",
-          "bold": true
-        },
-        {
-          "x": 171,
-          "y": 489,
-          "width": 1141,
-          "height": 34,
-          "text": "Ie Complete the summary of paragraph 1 by selecting the best option from the choices below. (3 marks)",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 536,
-          "width": 1080,
-          "height": 25,
-          "text": "Tai Kwun was previously a prison but now it is__(i)__ and anyone can visit. It took __(ii)__ to make the",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 569,
-          "width": 1080,
-          "height": 24,
-          "text": "modifications to the buildings. Now the work in Tai Kwun is __(iii)__; it has become the most important",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 604,
-          "width": 333,
-          "height": 23,
-          "text": "project of its kind in Hong Kong.",
-          "bold": true
-        },
-        {
-          "x": 167,
-          "y": 671,
-          "width": 236,
-          "height": 23,
-          "text": "(i) A. alaw court",
-          "bold": true
-        },
-        {
-          "x": 238,
-          "y": 710,
-          "width": 192,
-          "height": 31,
-          "text": "B. a heritage site",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 751,
-          "width": 1065,
-          "height": 31,
-          "text": "C. station A B ie] D",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 790,
-          "width": 1073,
-          "height": 32,
-          "text": "D. aresidential house O O O O",
-          "bold": false
-        },
-        {
-          "x": 1380,
-          "y": 831,
-          "width": 18,
-          "height": 16,
-          "text": "ba]",
-          "bold": false
-        },
-        {
-          "x": 167,
-          "y": 859,
-          "width": 220,
-          "height": 24,
-          "text": "(ii) A. 179 years",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 893,
-          "width": 1160,
-          "height": 35,
-          "text": "B. along time a",
-          "bold": true
-        },
-        {
-          "x": 1380,
-          "y": 929,
-          "width": 18,
-          "height": 11,
-          "text": "oOo",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 948,
-          "width": 1066,
-          "height": 24,
-          "text": "C. not too long A B D",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 981,
-          "width": 1072,
-          "height": 38,
-          "text": "D. very little time oO O O O",
-          "bold": true
-        },
-        {
-          "x": 1386,
-          "y": 1030,
-          "width": 12,
-          "height": 9,
-          "text": "a",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1053,
-          "width": 198,
-          "height": 22,
-          "text": "(iii) A. starting",
-          "bold": false
-        },
-        {
-          "x": 342,
-          "y": 1088,
-          "width": 1056,
-          "height": 30,
-          "text": "Hl &",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 1099,
-          "width": 1162,
-          "height": 40,
-          "text": "B. ongoing 2",
-          "bold": true
-        },
-        {
-          "x": 236,
-          "y": 1136,
-          "width": 1162,
-          "height": 36,
-          "text": "C. finished A B ic) D =",
-          "bold": true
-        },
-        {
-          "x": 236,
-          "y": 1176,
-          "width": 1162,
-          "height": 46,
-          "text": "D. cancelled Oo Oo O §",
-          "bold": true
-        },
-        {
-          "x": 1386,
-          "y": 1232,
-          "width": 12,
-          "height": 17,
-          "text": "2",
-          "bold": false
-        },
-        {
-          "x": 165,
-          "y": 1249,
-          "width": 1233,
-          "height": 35,
-          "text": "pa Find a word or phrase in paragraph 1 which has a similar meaning to ‘enter’. g",
-          "bold": true
-        },
-        {
-          "x": 1386,
-          "y": 1286,
-          "width": 11,
-          "height": 16,
-          "text": "Ea",
-          "bold": false
-        },
-        {
-          "x": 1386,
-          "y": 1304,
-          "width": 12,
-          "height": 20,
-          "text": "a",
-          "bold": false
-        },
-        {
-          "x": 1380,
-          "y": 1326,
-          "width": 18,
-          "height": 16,
-          "text": "<",
-          "bold": false
-        },
-        {
-          "x": 165,
-          "y": 1373,
-          "width": 618,
-          "height": 23,
-          "text": "8; What does ‘fell on the wrong side of it’ (line 3) mean?",
-          "bold": true
-        },
-        {
-          "x": 235,
-          "y": 1415,
-          "width": 190,
-          "height": 18,
-          "text": "A. broke the law",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 1454,
-          "width": 189,
-          "height": 32,
-          "text": "B. _ fell offa wall",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 1497,
-          "width": 1066,
-          "height": 31,
-          "text": "C. made the wrong decision A B Cc D",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 1532,
-          "width": 1001,
-          "height": 43,
-          "text": "D. put something in the wrong place O O oO",
-          "bold": true
-        },
-        {
-          "x": 163,
-          "y": 1609,
-          "width": 1147,
-          "height": 23,
-          "text": "4. Find a word or phrase in paragraph | that suggests the Victoria Prison and Central Police Station was",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 1637,
-          "width": 573,
-          "height": 24,
-          "text": "disconnected from the daily lives of Hong Kong citizens.",
-          "bold": false
-        },
-        {
-          "x": 148,
-          "y": 1781,
-          "width": 516,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 156,
-          "y": 1858,
-          "width": 1252,
-          "height": 142,
-          "text": "2020-DSE-ENG LANG 1-A-1] | i | | | \\ | | |",
-          "bold": true
-        },
-        {
-          "x": 1380,
-          "y": 2003,
-          "width": 17,
-          "height": 12,
-          "text": "*",
-          "bold": false
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2020/a/questions-1-figure-1.webp",
-          "x": 876,
-          "y": 72,
-          "width": 568,
-          "height": 240,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2020/a/questions-1-figure-2.webp",
-          "x": 688,
-          "y": 188,
-          "width": 120,
-          "height": 120,
-          "alt": "Original figure 2"
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 2",
-      "lines": [
-        {
-          "x": 171,
-          "y": 202,
-          "width": 1151,
-          "height": 27,
-          "text": "5. Based on the facilities mentioned in paragraph 2, which of the following can people NOT do in Tai",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 237,
-          "width": 71,
-          "height": 18,
-          "text": "Kwun?",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 272,
-          "width": 144,
-          "height": 19,
-          "text": "A. eat lunch",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 314,
-          "width": 259,
-          "height": 25,
-          "text": "B. sleep in a prison cell",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 348,
-          "width": 1066,
-          "height": 33,
-          "text": "C. meet friends for a drink A B Gc D",
-          "bold": false
-        },
-        {
-          "x": 296,
-          "y": 383,
-          "width": 1020,
-          "height": 45,
-          "text": "learn about Hong Kong history oO O O Oo",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 402,
-          "width": 16,
-          "height": 17,
-          "text": "D",
-          "bold": true
-        },
-        {
-          "x": 171,
-          "y": 462,
-          "width": 1143,
-          "height": 28,
-          "text": "6. According to paragraph 2, are the following statements True (T), False (F) or Not Given (NG)? (3 marks)",
-          "bold": false
-        },
-        {
-          "x": 312,
-          "y": 498,
-          "width": 1004,
-          "height": 32,
-          "text": "Statements T F NG",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 535,
-          "width": 1071,
-          "height": 36,
-          "text": "(i) The compound is officially named Tai Kwun. Oo O O",
-          "bold": false
-        },
-        {
-          "x": 241,
-          "y": 584,
-          "width": 1072,
-          "height": 40,
-          "text": "(ii) | The compound was unknown to the public previously. O O O",
-          "bold": false
-        },
-        {
-          "x": 241,
-          "y": 631,
-          "width": 1072,
-          "height": 40,
-          "text": "(iii) The compound displays traditional Hong Kong art in the art galleries. (@) O O",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 710,
-          "width": 1079,
-          "height": 27,
-          "text": "7. With reference to paragraph 3, state ONE reason why the building work was especially challenging.",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 836,
-          "width": 471,
-          "height": 23,
-          "text": "8. What does ‘the other’ (line 25) refer to?",
-          "bold": true
-        },
-        {
-          "x": 237,
-          "y": 879,
-          "width": 36,
-          "height": 149,
-          "text": "> CO",
-          "bold": true
-        },
-        {
-          "x": 295,
-          "y": 880,
-          "width": 138,
-          "height": 24,
-          "text": "the art gallery",
-          "bold": false
-        },
-        {
-          "x": 296,
-          "y": 923,
-          "width": 228,
-          "height": 24,
-          "text": "a leather jewellery box",
-          "bold": false
-        },
-        {
-          "x": 296,
-          "y": 962,
-          "width": 1012,
-          "height": 27,
-          "text": "one of the boxy structures A B c D",
-          "bold": false
-        },
-        {
-          "x": 295,
-          "y": 997,
-          "width": 1021,
-          "height": 34,
-          "text": "the venerable old building O O",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 1067,
-          "width": 898,
-          "height": 34,
-          "text": "9: Find a word in paragraph 4 to highlight the fact that it took time to find a solution.",
-          "bold": false
-        },
-        {
-          "x": 173,
-          "y": 1182,
-          "width": 964,
-          "height": 27,
-          "text": "10. What phrase is used in paragraph 5 to describe Tai Kwun as a wide-open relaxing place?",
-          "bold": false
-        },
-        {
-          "x": 174,
-          "y": 1292,
-          "width": 1096,
-          "height": 27,
-          "text": "11 Complete the following information about the new arts pavilion by using a word or phrase taken from",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 1320,
-          "width": 1075,
-          "height": 28,
-          "text": "paragraphs 4-6 for each gap. Write no more than THREE words for each gap. (6 marks)",
-          "bold": false
-        },
-        {
-          "x": 865,
-          "y": 1371,
-          "width": 1,
-          "height": 10,
-          "text": "T",
-          "bold": true
-        },
-        {
-          "x": 409,
-          "y": 1384,
-          "width": 608,
-          "height": 24,
-          "text": "Initial design: Final design:",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 1447,
-          "width": 831,
-          "height": 31,
-          "text": "Distinctive Inspiration taken from Buildings look like",
-          "bold": false
-        },
-        {
-          "x": 246,
-          "y": 1496,
-          "width": 664,
-          "height": 32,
-          "text": "appearance | (i) (ii)",
-          "bold": true
-        },
-        {
-          "x": 880,
-          "y": 1572,
-          "width": 137,
-          "height": 23,
-          "text": "a) a large hall",
-          "bold": true
-        },
-        {
-          "x": 246,
-          "y": 1599,
-          "width": 699,
-          "height": 40,
-          "text": "Facilities --------Not Stated-------- b) (iii)",
-          "bold": true
-        },
-        {
-          "x": 246,
-          "y": 1691,
-          "width": 1067,
-          "height": 32,
-          "text": "Residents’ Residents argued that the tower would Some believe the new structures are out of",
-          "bold": false
-        },
-        {
-          "x": 248,
-          "y": 1741,
-          "width": 690,
-          "height": 32,
-          "text": "response to | obstruct their place.",
-          "bold": false
-        },
-        {
-          "x": 247,
-          "y": 1794,
-          "width": 197,
-          "height": 24,
-          "text": "the design (iv)",
-          "bold": true
-        },
-        {
-          "x": 153,
-          "y": 1904,
-          "width": 515,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 164,
-          "y": 1980,
-          "width": 606,
-          "height": 25,
-          "text": "2020-DSE-ENG LANG 1-A-2 2",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 3",
-      "lines": [
-        {
-          "x": 243,
-          "y": 248,
-          "width": 1044,
-          "height": 31,
-          "text": "Architects’ The architects were surprised as they After seeing that their initial design may",
-          "bold": false
-        },
-        {
-          "x": 247,
-          "y": 301,
-          "width": 1029,
-          "height": 24,
-          "text": "response expected this type of reaction in have been too radical, they toned down",
-          "bold": false
-        },
-        {
-          "x": 409,
-          "y": 346,
-          "width": 871,
-          "height": 33,
-          "text": "(v) but | their new design without changing their",
-          "bold": false
-        },
-        {
-          "x": 408,
-          "y": 401,
-          "width": 547,
-          "height": 23,
-          "text": "not here in Hong Kong. original",
-          "bold": false
-        },
-        {
-          "x": 878,
-          "y": 451,
-          "width": 35,
-          "height": 23,
-          "text": "Wi)",
-          "bold": false
-        },
-        {
-          "x": 241,
-          "y": 536,
-          "width": 974,
-          "height": 24,
-          "text": "Complete the summary of paragraph 8 by using ONE word taken from paragraph 8 for each gap.",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 537,
-          "width": 27,
-          "height": 17,
-          "text": "12.",
-          "bold": false
-        },
-        {
-          "x": 1221,
-          "y": 565,
-          "width": 95,
-          "height": 23,
-          "text": "(4 marks)",
-          "bold": false
-        },
-        {
-          "x": 244,
-          "y": 611,
-          "width": 1076,
-          "height": 24,
-          "text": "During the project, a number of (i) were made by the Jockey Club, for example,",
-          "bold": false
-        },
-        {
-          "x": 243,
-          "y": 664,
-          "width": 1077,
-          "height": 32,
-          "text": "while working on one of the buildings in the compound, part of it (ii). Also, in the",
-          "bold": false
-        },
-        {
-          "x": 243,
-          "y": 726,
-          "width": 1077,
-          "height": 24,
-          "text": "prisoners’ (iii) the Jockey Club did not preserve the graffiti. As a result, they were",
-          "bold": false
-        },
-        {
-          "x": 243,
-          "y": 783,
-          "width": 830,
-          "height": 24,
-          "text": "(iv) for losing some of the buildings’ original atmosphere.",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 869,
-          "width": 998,
-          "height": 24,
-          "text": "Give an example, from paragraph 9, of how John Batten’s prediction in paragraph 9 has come true.",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 926,
-          "width": 165,
-          "height": 18,
-          "text": "As Central lacks",
-          "bold": true
-        },
-        {
-          "x": 169,
-          "y": 1100,
-          "width": 26,
-          "height": 18,
-          "text": "14,",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1100,
-          "width": 1075,
-          "height": 24,
-          "text": "Below is a summary of paragraph 10. In three of the lines there is ONE mistake. If you find a mistake,",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1128,
-          "width": 1075,
-          "height": 25,
-          "text": "underline it and replace the word with one that expresses the correct idea. Write the word in the box on the",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 1153,
-          "width": 1076,
-          "height": 33,
-          "text": "right. Both grammar and spelling must be correct. In one of the lines there is no mistake; put a tick (“) in",
-          "bold": false
+          "key": "t2r2c3g1",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
         },
         {
-          "x": 237,
-          "y": 1186,
-          "width": 1016,
-          "height": 24,
-          "text": "the box. One has been done for you as an example. (4 marks)",
-          "bold": true
+          "key": "t2r2c4g1",
+          "label": "Row 2, column 4",
+          "type": "text",
+          "inTable": true
         },
         {
-          "x": 616,
-          "y": 1257,
-          "width": 621,
-          "height": 31,
-          "text": "Summary Correction",
-          "bold": true
+          "key": "t2r3c1g1",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
         },
         {
-          "x": 250,
-          "y": 1316,
-          "width": 700,
-          "height": 23,
-          "text": "(i) The final exhibition held at Tai Kwun was chosen to celebrate",
-          "bold": false
+          "key": "t2r3c2g1",
+          "label": "Row 3, column 2",
+          "type": "text",
+          "inTable": true
         },
-        {
-          "x": 250,
-          "y": 1371,
-          "width": 650,
-          "height": 31,
-          "text": "(ii) | its new private role in the community. This was staged at",
-          "bold": false
-        },
-        {
-          "x": 249,
-          "y": 1428,
-          "width": 955,
-          "height": 33,
-          "text": "e.g. | all locations around the entire compound. Called 100 Faces, eight",
-          "bold": false
-        },
-        {
-          "x": 249,
-          "y": 1485,
-          "width": 667,
-          "height": 33,
-          "text": "(iii) | it told the stories of both famous and more ordinary people",
-          "bold": false
-        },
-        {
-          "x": 249,
-          "y": 1543,
-          "width": 716,
-          "height": 32,
-          "text": "(ivy) | whose lives had been disturbed by the prison and police station.",
-          "bold": false
-        },
-        {
-          "x": 167,
-          "y": 1619,
-          "width": 26,
-          "height": 18,
-          "text": "15.",
-          "bold": false
-        },
-        {
-          "x": 234,
-          "y": 1619,
-          "width": 1077,
-          "height": 25,
-          "text": "According to paragraph 11, why did the mother decide to spend the night at Chancery Lane, next to the",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 1647,
-          "width": 72,
-          "height": 24,
-          "text": "prison?",
-          "bold": true
-        },
-        {
-          "x": 144,
-          "y": 1898,
-          "width": 516,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 149,
-          "y": 1977,
-          "width": 1166,
-          "height": 28,
-          "text": "2020-DSE-ENG LANG 1-A-3 3 Go onto the next page",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2020/a/questions-3-figure-1.webp",
-          "x": 1084,
-          "y": 1944,
-          "width": 284,
-          "height": 100,
-          "alt": "Original figure 1"
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 4",
-      "lines": [
-        {
-          "x": 239,
-          "y": 220,
-          "width": 1066,
-          "height": 24,
-          "text": "Who or what do the following words from paragraph 11 refer to? (2 marks)",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 221,
-          "width": 26,
-          "height": 18,
-          "text": "16.",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 278,
-          "width": 213,
-          "height": 23,
-          "text": "(i) ‘she’ (line 63)",
-          "bold": true
-        },
-        {
-          "x": 238,
-          "y": 336,
-          "width": 251,
-          "height": 22,
-          "text": "(ii) ‘the site’ (line 66)",
-          "bold": true
-        },
-        {
-          "x": 237,
-          "y": 422,
-          "width": 764,
-          "height": 24,
-          "text": "Find the metaphor the writer uses to describe a ‘fresh start’ in paragraph 12.",
-          "bold": false
-        },
-        {
-          "x": 168,
-          "y": 563,
-          "width": 27,
-          "height": 18,
-          "text": "18.",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 563,
-          "width": 1075,
-          "height": 23,
-          "text": "Number the following events from the text in chronological order with ‘1’ as the earliest. Write (2-5) in",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 591,
-          "width": 1072,
-          "height": 23,
-          "text": "the boxes provided. The first one has been done for you as an example. (4 marks)",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 632,
-          "width": 736,
-          "height": 22,
-          "text": "Tai Kwun opens. (i)",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 682,
-          "width": 799,
-          "height": 24,
-          "text": "Victoria Prison is established. e.g. 1",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 733,
-          "width": 736,
-          "height": 24,
-          "text": "Mother and child sleep in Chancery Lane. (ii)",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 784,
-          "width": 736,
-          "height": 23,
-          "text": "Local residents come by to socialise. (iii)",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 835,
-          "width": 736,
-          "height": 24,
-          "text": "New buildings are designed for the site. (iv)",
-          "bold": true
-        },
-        {
-          "x": 167,
-          "y": 933,
-          "width": 26,
-          "height": 17,
-          "text": "19,",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 933,
-          "width": 1076,
-          "height": 24,
-          "text": "Use the information given in paragraphs 4-12 to match each of the following comments with a person or",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 962,
-          "width": 1076,
-          "height": 23,
-          "text": "organisation mentioned in the text. Write the letter of the comment on the line next to the person /",
-          "bold": false
-        },
-        {
-          "x": 234,
-          "y": 990,
-          "width": 1076,
-          "height": 23,
-          "text": "organisation given. The first has been provided for you as an example. One comment is NOT used. Each",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 1019,
-          "width": 1072,
-          "height": 22,
-          "text": "letter can be used ONCE only. (5 marks)",
-          "bold": true
-        },
-        {
-          "x": 436,
-          "y": 1136,
-          "width": 672,
-          "height": 17,
-          "text": "A. B. Cc.",
-          "bold": false
-        },
-        {
-          "x": 309,
-          "y": 1163,
-          "width": 919,
-          "height": 24,
-          "text": "Although the renovation The size of this kind of Almost everyone spoken to",
-          "bold": false
-        },
-        {
-          "x": 309,
-          "y": 1192,
-          "width": 876,
-          "height": 24,
-          "text": "was quite heavy-handed, project is unheard of in doesn’t like the design.",
-          "bold": false
-        },
-        {
-          "x": 309,
-          "y": 1221,
-          "width": 443,
-          "height": 23,
-          "text": "Tai Kwun will take on a Hong Kong.",
-          "bold": false
-        },
-        {
-          "x": 308,
-          "y": 1249,
-          "width": 194,
-          "height": 19,
-          "text": "new life as a result.",
-          "bold": true
-        },
-        {
-          "x": 309,
-          "y": 1324,
-          "width": 834,
-          "height": 23,
-          "text": "The design of the new It was important to It was important to",
-          "bold": false
-        },
-        {
-          "x": 308,
-          "y": 1348,
-          "width": 879,
-          "height": 33,
-          "text": "buildings is not appropriate | recognise the needs of the restoration right-Which",
-          "bold": false
-        },
-        {
-          "x": 309,
-          "y": 1377,
-          "width": 916,
-          "height": 33,
-          "text": "for the site. community. fad to be willing",
-          "bold": true
-        },
-        {
-          "x": 435,
-          "y": 1454,
-          "width": 23,
-          "height": 18,
-          "text": "G.",
-          "bold": true
-        },
-        {
-          "x": 309,
-          "y": 1483,
-          "width": 230,
-          "height": 22,
-          "text": "Sticking to the original",
-          "bold": false
-        },
-        {
-          "x": 308,
-          "y": 1511,
-          "width": 217,
-          "height": 23,
-          "text": "building design is too",
-          "bold": false
-        },
-        {
-          "x": 308,
-          "y": 1539,
-          "width": 83,
-          "height": 23,
-          "text": "limiting.",
-          "bold": true
-        },
-        {
-          "x": 554,
-          "y": 1675,
-          "width": 544,
-          "height": 24,
-          "text": "The Jockey Club e.g. F (iii) Katty Law",
-          "bold": true
-        },
-        {
-          "x": 554,
-          "y": 1726,
-          "width": 580,
-          "height": 24,
-          "text": "(i) Winnie Yeung (iv) Fredo Cheung",
-          "bold": false
-        },
-        {
-          "x": 923,
-          "y": 1760,
-          "width": 11,
-          "height": 12,
-          "text": "T",
-          "bold": true
-        },
-        {
-          "x": 554,
-          "y": 1777,
-          "width": 547,
-          "height": 23,
-          "text": "(ii) Herzog & de Meuron (v) John Batten",
-          "bold": true
-        },
-        {
-          "x": 642,
-          "y": 1857,
-          "width": 92,
-          "height": 19,
-          "text": "END OF",
-          "bold": true
-        },
-        {
-          "x": 141,
-          "y": 1898,
-          "width": 516,
-          "height": 25,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 146,
-          "y": 1977,
-          "width": 612,
-          "height": 23,
-          "text": "2020-DSE-ENG LANG 1-A-4 4",
-          "bold": true
-        }
-      ],
-      "figures": [
         {
-          "src": "assets/reading-comprehension/dse/structured/2020/a/questions-4-figure-1.webp",
-          "x": 968,
-          "y": 596,
-          "width": 132,
-          "height": 292,
-          "alt": "Original figure 1"
+          "key": "t2r3c3g1",
+          "label": "(v)",
+          "type": "text",
+          "inTable": true
         },
         {
-          "src": "assets/reading-comprehension/dse/structured/2020/a/questions-4-figure-2.webp",
-          "x": 184,
-          "y": 1072,
-          "width": 1144,
-          "height": 760,
-          "alt": "Original figure 2"
+          "key": "t2r3c4g1",
+          "label": "Row 3, column 4",
+          "type": "text",
+          "inTable": true
         }
       ]
     }

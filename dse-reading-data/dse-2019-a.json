@@ -5,2205 +5,532 @@
   "title": "Tim Harford: A New Look at Messiness",
   "sourceLabel": "HKDSE 2019 English Language Paper 1 Part A",
   "sourceHeading": "Tim Harford: A New Look at Messiness",
-  "displayMode": "structured-paper",
-  "paragraphs": [],
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "Paragraph 1",
+      "text": "Today the trend is to declutter and simplify our lives. We talk to Tim Harford, who suggests that we should be messy instead. Who is Tim Harford?"
+    },
+    {
+      "number": 2,
+      "label": "Paragraph 2",
+      "text": "Tim is an economist, journalist and broadcaster. i meis the author of \"Pity Things That Made the Moder Economy\" and the milion-selling \"The Undercover Why are we talking to him? MESSY"
+    },
+    {
+      "number": 3,
+      "label": "Paragraph 3",
+      "text": "He is currently promoting his latest book, \"Messy\", while THE POWER writing another. One would assume he's an impeccably"
+    },
+    {
+      "number": 4,
+      "label": "Paragraph 4",
+      "text": "OF DISORDER organized person that is able to juggle this tangle of",
+      "images": [
+        {
+          "src": "assets/reading-comprehension/dse/content/2019/a/passage-1-crop-1.webp",
+          "alt": "Tim Harford and the cover of Messy"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "label": "Paragraph 5",
+      "text": "TO TRANSFORM commitments with ease. He's not — but, according to his latest"
+    },
+    {
+      "number": 6,
+      "label": "Paragraph 6",
+      "text": "OUR LIVES book, that's sort of the point."
+    },
+    {
+      "number": 7,
+      "label": "Paragraph 7",
+      "text": "Tim argues that switching between tasks is a \"messy\" strategy that's worked for many famous creatives. Focusing on one project might seem like the most efficient and simple way to organize one's work. But when someone is stuck on an issue involved in one project, having another to focus on allows that person time for the brain to unstick itself, contributing back to the original project. Extract from the interview: Tim, what does it mean to be messy?"
+    },
+    {
+      "number": 8,
+      "label": "Paragraph 8",
+      "text": "In the book, I talk about all kinds of different things in the context of mess: improvisation, distraction, multi-tasking, physical mess, ambiguity and imperfection. There are lots of different things that I'm discussing in the book, but I suppose what they have in common is they are arguing for the virtues of the stuff that doesn't fit into the standard categories; the stuff that we can't quantify; the stuff that we can't organize or put into a neat box; the stuff that we can't script. These things tend to make us feel anxious. We feel that we should have a script; that we should have a number; we should have a target; we should have a tidy desk. Of course, those things have their place, but there's virtue in all the ambiguous, all the unquantifiable and all the imperfect stuff as well."
+    },
+    {
+      "number": 9,
+      "label": "Paragraph 9",
+      "text": "I see \"Messy\" as an argument against the excessive attempts to organize. If you think about your desk, what you find is if you spend a lot of effort trying to clear your desk or trying to tidy it, you will have vast archives of paperwork because you filed everything away. But you filed it so quickly that you don't really understand your own filing system. So now you have these incredibly well-organized wastepaper baskets basically. Let's contrast that with someone who keeps piles of paper on their desk. You would think, \"Well that's a problem. That's not very efficient.\" It turns out this is highly efficient."
+    },
+    {
+      "number": 10,
+      "label": "Paragraph 10",
+      "text": "Number one: Your pile of paper is self-organizing. The stuff that you keep using keeps arriving on the top of the pile. The stuff that you don't touch sinks to the bottom of the pile. We think of it as being a random pile, but it's not a random pile. It's actually naturally and organically organized by the process of using it. The second advantage is you've got this desk with paper on it, so you're surrounded by physical reminders of what you have to do, so you don't need a carefully managed to-do list because you can see in a very visible way the stuff that you have to do. The third advantage is you have a very clear sense of what needs throwing away. It's the stuff at the bottom of the piles."
+    },
+    {
+      "number": 11,
+      "label": "Paragraph 11",
+      "text": "So you have this weird situation where if you walked into someone's office or you looked at someone's desk, you would see that a person who appears to be disorganized because there's paper everywhere actually has a much better organized system and they're much more on top of their work. Whereas with the person who seems highly organized, actually everything looks neat but underneath the surface, the system is dysfunctional. Is this true for everyone?"
+    },
+    {
+      "number": 12,
+      "label": "Paragraph 12",
+      "text": "Is this true for everyone? Of course I'm talking about averages here; I'm generalizing. Everybody has their own system, and people can make all kinds of different systems work. If people have found a system that works for them, well that's fine."
+    },
+    {
+      "number": 13,
+      "label": "Paragraph 13",
+      "text": "In the book, I write about Benjamin Franklin, one of the most productive and successful people in history, incredibly messy and somewhat guilty about the fact that he was incredibly messy. He carried a lot of baggage around, literally, in terms of paper, but also psychologically. He felt bad that his desk was messy. Benjamin Franklin! If Benjamin Franklin can feel guilty about not getting enough stuff done because he's messy, I think the rest of us can cut ourselves some slack."
+    },
+    {
+      "number": 14,
+      "label": "Paragraph 14",
+      "text": "Nevertheless, in offices we often find somebody in management has decided that there needs to be some kind of clean desk policy, for reasons that are often not very clear. Maybe it's just aesthetic. They want the place to look like a magazine shoot. Or maybe they've read something about how operating theatres work or about how high-functioning precision engineering production lines work. And then in a very inappropriate way, they say, \"Oh, and the same must be true for this regular office, which has just got paper and computers in it.\" People are ordered to tidy their desks. Now, we've already discussed that actually a messy desk can be very effective, very functional."
+    },
+    {
+      "number": 15,
+      "label": "Paragraph 15",
+      "text": "But there's another problem on top of that, which is that people really hate being told what they can and can't do with their own desks. It destroys their sense of their own space, of their control of their environment. So, is there such a thing as a bad mess or a bad distraction, or do they always have merit?"
+    },
+    {
+      "number": 16,
+      "label": "Paragraph 16",
+      "text": "No, I think clearly there are many situations where messes are just entirely dysfunctional, and distractions just make it impossible to get stuff done. My argument in the book is not that mess is always good, distraction is always good, or there's no situation that can't be improved by adding a little chaos. I don't believe that at all. What I do believe is that we found that our organizational systems can be so effective, and they make us feel so comfortable that we take them from situations where they work extremely well, and then we start trying to apply them in situations where they're completely inappropriate."
+    },
+    {
+      "number": 17,
+      "label": "Paragraph 17",
+      "text": "The argument of the book is just to try nudging the pendulum a little bit more toward mess. If we experiment a little bit more with improvisation, with ambiguity, with a bit of disruption and a new challenge, we might well be surprised by how that improves things."
+    }
+  ],
   "instructions": {
-    "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
+    "paper": "Answer every question using the passage."
   },
   "questions": [
     {
       "number": 1,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 1",
-      "placeholder": "Enter all answer parts for Question 1"
+      "type": "parts",
+      "prompt": "According to paragraphs 1-5, decide whether the following statements are True (T), False (F) or Not\nGiven (NG). (5 marks)\nStatements T F NG\nHarford encourages his readers to be very tidy.\n(11) Harford has more than one job.",
+      "parts": [
+        {
+          "key": "iii",
+          "label": "(iii) Harford's first book is called 'Messy'",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Harford is friends with many famous creative people.",
+          "type": "text"
+        },
+        {
+          "key": "v",
+          "label": "(v) Harford thinks it is good to be involved with more than one project at a time.",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 2,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 2",
-      "placeholder": "Enter all answer parts for Question 2"
+      "prompt": "Which phrase in paragraph 4 refers to all the work that Harford is involved with?"
     },
     {
       "number": 3,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 3",
-      "placeholder": "Enter all answer parts for Question 3"
+      "type": "parts",
+      "prompt": "What is the purpose of the list of 'different things' in lines 19-20?",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              },
+              {
+                "text": "Summary",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              },
+              {
+                "text": "Correction",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "e.g.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Harford's book discusses many similar situations concerning mess.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "different",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ],
+            [
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "A common theme is the idea that there are advantages in accepting",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r3c3g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "(ii)",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "the things we can measure, organize or standardize. Such things",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r4c3g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "(111)",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "usually make people feel calm as they feel they have lost control.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r5c3g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "(iv)",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Instead, people hate having a target to achieve, a script to follow,",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r6c3g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "or a messy workstation. Naturally, such things have their benefits",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r7c3g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "(vi)",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "but so too do all those situations that are easy to predict.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r8c3g1"
+                ]
+              }
+            ]
+          ],
+          "columns": 3
+        }
+      ],
+      "parts": [
+        {
+          "key": "t1r3c3g1",
+          "label": "Row 3, column 3",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r4c3g1",
+          "label": "Row 4, column 3",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r5c3g1",
+          "label": "Row 5, column 3",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r6c3g1",
+          "label": "Row 6, column 3",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r7c3g1",
+          "label": "Row 7, column 3",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r8c3g1",
+          "label": "Row 8, column 3",
+          "type": "text",
+          "inTable": true
+        }
+      ]
     },
     {
       "number": 4,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 4",
-      "placeholder": "Enter all answer parts for Question 4"
+      "prompt": ". 2019-DSE-ENG LANG 1-A-1\n*AOZOEOTA"
     },
     {
       "number": 5,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 5",
-      "placeholder": "Enter all answer parts for Question 5"
+      "prompt": "Why does the word 'Messy' (line 26) have a capital letter?\n'Messy' is"
     },
     {
       "number": 6,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 6",
-      "placeholder": "Enter all answer parts for Question 6"
+      "prompt": "Find ONE word in paragraph 7 that means 'collections of old documents'."
     },
     {
       "number": 7,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 7",
-      "placeholder": "Enter all answer parts for Question 7"
+      "prompt": "What does 'this' (line 31) refer to?\nCom leo. Collo is cose based gra paragical by writing ONE word taken from paragraph S ineach blank below. Your answers must be grammatically correct.\nThree reasons why your desk is more efficient than you think.\nYour piles of paper will become (i) as you add / remove documents.\n- People consider a pile to be (ii), but this is not the case.\nFor example, when you stop using the material, it will move to the (iii)\n2. You won't need a (iv) of things to do.\n- You have visible reminders right in front of you.\n3. You don't need to think about what to put in the trash.\nThe answer is (v) — keep everything at the top and bin the rest."
     },
     {
       "number": 8,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 8",
-      "placeholder": "Enter all answer parts for Question 8"
+      "type": "parts",
+      "prompt": "9. Find a word in paragraphs 9-11 which has a similar meaning to each word given below. (5 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) \"very'",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) unusable'",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii) 'acceptable'",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv) \"mentally'",
+          "type": "text"
+        },
+        {
+          "key": "v",
+          "label": "(v) 'completed'",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 9,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 9",
-      "placeholder": "Enter all answer parts for Question 9"
+      "type": "choice",
+      "prompt": "10. What does 'cut ourselves some slack' (line 50) mean?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. consider being less messy"
+        },
+        {
+          "value": "B",
+          "label": "B. judge ourselves less harshly"
+        },
+        {
+          "value": "C",
+          "label": "C. think of guilt more positively"
+        },
+        {
+          "value": "D",
+          "label": "D. compare ourselves to more successful people"
+        }
+      ]
     },
     {
       "number": 10,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 10",
-      "placeholder": "Enter all answer parts for Question 10"
+      "prompt": "11. Find the metaphor the writer uses to describe 'guilty feelings' in paragraph 11."
     },
     {
       "number": 11,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 11",
-      "placeholder": "Enter all answer parts for Question 11"
+      "prompt": "Why do managers want their offices to 'look like a magazine shoot' (line 53)?\nThey want their offices to"
     },
     {
       "number": 12,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 12",
-      "placeholder": "Enter all answer parts for Question 12"
+      "prompt": "13. What does 'them' (line 66) refer to?"
     },
     {
       "number": 13,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 13",
-      "placeholder": "Enter all answer parts for Question 13"
+      "type": "choice",
+      "prompt": "14. When Harford says 'nudging the pendulum' (line 67) he means...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. stopping people from making a mistake."
+        },
+        {
+          "value": "B",
+          "label": "B. reminding people of the possible options."
+        },
+        {
+          "value": "C",
+          "label": "C. telling people to adopt a particular approach."
+        },
+        {
+          "value": "D",
+          "label": "D. encouraging people to rethink their attitudes."
+        }
+      ]
     },
     {
       "number": 14,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 14",
-      "placeholder": "Enter all answer parts for Question 14"
+      "prompt": "15. Why would the reader be 'surprised' (line 69) by an improvement?"
     },
     {
       "number": 15,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 15",
-      "placeholder": "Enter all answer parts for Question 15"
+      "prompt": "16. Several actions from the text are described below, along with their consequences. Complete the\ninformation by writing ONE word taken from the relevant paragraph in each blank below. Your answers\nmust be grammatically correct. (4 marks)\nACTION CONSEQUENCE\nParagraph Focusing on something different You will be able to (1)\nwhen facing a difficulty on a project.\nyour thinking process.\nParagraph You will have a filing system that is difficult\nConstantly clearing away your\npaperwork. to (ii)\nParagraph Employees being told how to They lose their sense of\n13 organize their (iji) (iv).",
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/content/2019/a/questions-3-visual-1.webp",
+          "alt": "Original figure 1"
+        }
+      ]
     },
     {
       "number": 16,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 16",
-      "placeholder": "Enter all answer parts for Question 16"
+      "type": "choice",
+      "prompt": "17. Which of the following best summarises Harford's message in the text?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Mess is often useful."
+        },
+        {
+          "value": "B",
+          "label": "B. Messiness aids creativity."
+        },
+        {
+          "value": "C",
+          "label": "C. Everyone should be messier."
+        },
+        {
+          "value": "D",
+          "label": "D. Distractions make people less effective at work."
+        }
+      ]
     },
     {
       "number": 17,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 17",
-      "placeholder": "Enter all answer parts for Question 17"
+      "prompt": "Two friends are discussing the extract from the interview with Tim Harford (paragraphs 6-15). Use the\ninformation from the text to match each statement in the speech bubbles with a paragraph that contains\nsimilar ideas. Write the number of the paragraph next to the speech bubble. Each paragraph number can\nbe used once only. Some paragraph numbers are not used. The first two have been done for you as\nJenny Paul\nI truly dislike it when my\ndad tells me to tidy my\nbedroom - it doesn't feel Yeah, my mum's the same. Just\nParagraph like it's my room anymore, because she has to be hyper- Paragraph\nc.g. 13 but his. organized at work at her dental\nsurgery, it doesn't mean that's c.g. 12\nright for my things in my own\nroom. Even when things get a bit\nmessy, I still get things done.\nYou know, l've just read an\ninterview which says we\nParagraph could be astonished to see\nhow messiness might make Really? How would that work? Paragraph\n(i) our lives better. Last night I spent 30 minutes (ii)\nlooking for my chemistry\nhomework because I hadn't put it\nin the right folder on my desk.\nWell the interview gave\none or two famous"
     },
     {
       "number": 18,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 18",
-      "placeholder": "Enter all answer parts for Question 18"
-    }
-  ],
-  "structuredPassagePages": [
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Reading passage page 1",
-      "lines": [
+      "type": "parts",
+      "prompt": "Paragraph historical examples where\nParagraph",
+      "parts": [
         {
-          "x": 156,
-          "y": 201,
-          "width": 815,
-          "height": 24,
-          "text": "Read Text 1 and answer questions 1-18 in the Question-Answer Book for Part A.",
-          "bold": false
+          "key": "iii",
+          "label": "(iii). really messy people But that can't really work for\nachieved great things. (iv)\neveryone, can it?\nYou know, it could save\nyou looking for your\nchemistry homework next\nParagraph time. The writer describes\nhow a mountain of",
+          "type": "text"
         },
         {
-          "x": 156,
-          "y": 262,
-          "width": 85,
-          "height": 18,
-          "text": "Text 1",
-          "bold": true
-        },
-        {
-          "x": 157,
-          "y": 352,
-          "width": 760,
-          "height": 29,
-          "text": "Tim Harford: A New Look at Messiness",
-          "bold": true
-        },
-        {
-          "x": 152,
-          "y": 452,
-          "width": 1142,
-          "height": 24,
-          "text": "[1] Today the trend is to declutter and simplify our lives. We talk to Tim Harford, who suggests that we should",
-          "bold": false
-        },
-        {
-          "x": 150,
-          "y": 482,
-          "width": 174,
-          "height": 23,
-          "text": "be messy instead.",
-          "bold": false
-        },
-        {
-          "x": 151,
-          "y": 527,
-          "width": 231,
-          "height": 17,
-          "text": "Who is Tim Harford?",
-          "bold": false
-        },
-        {
-          "x": 152,
-          "y": 568,
-          "width": 516,
-          "height": 24,
-          "text": "[2] Tim is an economist, journalist and broadcaster.",
-          "bold": false
-        },
-        {
-          "x": 152,
-          "y": 611,
-          "width": 1144,
-          "height": 24,
-          "text": "[3] He is the author of “Fifty Things That Made the Modern Economy” and the million-selling “The Undercover",
-          "bold": false
-        },
-        {
-          "x": 151,
-          "y": 641,
-          "width": 122,
-          "height": 18,
-          "text": "Economist”.",
-          "bold": false
-        },
-        {
-          "x": 151,
-          "y": 673,
-          "width": 898,
-          "height": 44,
-          "text": "Why are we talking to him? M E S SY",
-          "bold": true
-        },
-        {
-          "x": 1024,
-          "y": 723,
-          "width": 7,
-          "height": 13,
-          "text": "\\",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 727,
-          "width": 638,
-          "height": 24,
-          "text": "[4] He is currently promoting his latest book, “Messy”, while",
-          "bold": false
-        },
-        {
-          "x": 900,
-          "y": 746,
-          "width": 118,
-          "height": 13,
-          "text": "THE POWER",
-          "bold": true
-        },
-        {
-          "x": 152,
-          "y": 755,
-          "width": 639,
-          "height": 24,
-          "text": "writing another. One would assume he’s an impeccably",
-          "bold": false
-        },
-        {
-          "x": 152,
-          "y": 776,
-          "width": 762,
-          "height": 31,
-          "text": "organized person that is able to juggle this tangle of oP",
-          "bold": false
-        },
-        {
-          "x": 82,
-          "y": 784,
-          "width": 24,
-          "height": 18,
-          "text": "10",
-          "bold": false
-        },
-        {
-          "x": 152,
-          "y": 805,
-          "width": 887,
-          "height": 31,
-          "text": "commitments with ease. He’s not — but, according to his latest re PRANSPORM",
-          "bold": false
-        },
-        {
-          "x": 152,
-          "y": 836,
-          "width": 860,
-          "height": 29,
-          "text": "book, that’s sort of the point. ‘OUR LIVES",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 884,
-          "width": 1141,
-          "height": 24,
-          "text": "[5] Tim argues that switching between tasks is a “messy” strategy that’s worked for many famous creatives.",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 913,
-          "width": 1144,
-          "height": 24,
-          "text": "Focusing on one project might seem like the most efficient and simple way to organize one’s work. But when",
-          "bold": false
-        },
-        {
-          "x": 83,
-          "y": 942,
-          "width": 24,
-          "height": 18,
-          "text": "15",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 942,
-          "width": 1144,
-          "height": 23,
-          "text": "someone is stuck on an issue involved in one project, having another to focus on allows that person time for the",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 971,
-          "width": 631,
-          "height": 23,
-          "text": "brain to unstick itself, contributing back to the original project.",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 1016,
-          "width": 292,
-          "height": 18,
-          "text": "Extract from the interview:",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 1063,
-          "width": 390,
-          "height": 23,
-          "text": "Tim, what does it mean to be messy?",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1105,
-          "width": 1143,
-          "height": 24,
-          "text": "[6] In the book, I talk about all kinds of different things in the context of mess: improvisation, distraction, multi-",
-          "bold": false
-        },
-        {
-          "x": 83,
-          "y": 1134,
-          "width": 25,
-          "height": 19,
-          "text": "20",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 1134,
-          "width": 1145,
-          "height": 24,
-          "text": "tasking, physical mess, ambiguity and imperfection. There are lots of different things that I’m discussing in the",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 1163,
-          "width": 1144,
-          "height": 24,
-          "text": "book, but I suppose what they have in common is they are arguing for the virtues of the stuff that doesn’t fit into",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 1192,
-          "width": 1145,
-          "height": 23,
-          "text": "the standard categories; the stuff that we can’t quantify; the stuff that we can’t organize or put into a neat box; the",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1220,
-          "width": 1144,
-          "height": 24,
-          "text": "stuff that we can’t script. These things tend to make us feel anxious. We feel that we should have a script; that we",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1244,
-          "width": 1145,
-          "height": 32,
-          "text": "should have a number; we should have a target; we should have a tidy desk. Of course, those things have their",
-          "bold": false
-        },
-        {
-          "x": 83,
-          "y": 1277,
-          "width": 25,
-          "height": 19,
-          "text": "25",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1277,
-          "width": 1023,
-          "height": 24,
-          "text": "place, but there’s virtue in all the ambiguous, all the unquantifiable and all the imperfect stuff as well.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1321,
-          "width": 1144,
-          "height": 24,
-          "text": "[7] I see “Messy” as an argument against the excessive attempts to organize. If you think about your desk, what",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1345,
-          "width": 1148,
-          "height": 33,
-          "text": "you find is if you spend a lot of effort trying to clear your desk or trying to tidy it, you will have vast archives of",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1378,
-          "width": 1144,
-          "height": 24,
-          "text": "paperwork because you filed everything away. But you filed it so quickly that you don’t really understand your",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1407,
-          "width": 1144,
-          "height": 23,
-          "text": "own filing system. So now you have these incredibly well-organized wastepaper baskets basically. Let’s contrast",
-          "bold": false
-        },
-        {
-          "x": 85,
-          "y": 1435,
-          "width": 25,
-          "height": 19,
-          "text": "30",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1436,
-          "width": 1145,
-          "height": 23,
-          "text": "that with someone who keeps piles of paper on their desk. You would think, “Well that’s a problem. That’s not",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 1464,
-          "width": 498,
-          "height": 24,
-          "text": "very efficient.” It turns out this is highly efficient.",
-          "bold": false
-        },
-        {
-          "x": 158,
-          "y": 1508,
-          "width": 1146,
-          "height": 24,
-          "text": "[8] Number one: Your pile of paper is self-organizing. The stuff that you keep using keeps arriving on the top of",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 1536,
-          "width": 1144,
-          "height": 24,
-          "text": "the pile. The stuff that you don’t touch sinks to the bottom of the pile. We think of it as being a random pile, but",
-          "bold": false
-        },
-        {
-          "x": 158,
-          "y": 1565,
-          "width": 1143,
-          "height": 24,
-          "text": "it’s not a random pile. It’s actually naturally and organically organized by the process of using it. The second",
-          "bold": false
-        },
-        {
-          "x": 85,
-          "y": 1593,
-          "width": 25,
-          "height": 19,
-          "text": "35",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 1594,
-          "width": 1144,
-          "height": 24,
-          "text": "advantage is you’ve got this desk with paper on it, so you’re surrounded by physical reminders of what you have",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 1622,
-          "width": 1145,
-          "height": 24,
-          "text": "to do, so you don’t need a carefully managed to-do list because you can see in a very visible way the stuff that",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 1651,
-          "width": 1145,
-          "height": 24,
-          "text": "you have to do. The third advantage is you have a very clear sense of what needs throwing away. It’s the stuff at",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 1676,
-          "width": 230,
-          "height": 32,
-          "text": "the bottom of the piles.",
-          "bold": false
-        },
-        {
-          "x": 158,
-          "y": 1723,
-          "width": 1143,
-          "height": 24,
-          "text": "[9] So you have this weird situation where if you walked into someone’s office or you looked at someone’s desk,",
-          "bold": false
-        },
-        {
-          "x": 85,
-          "y": 1751,
-          "width": 26,
-          "height": 18,
-          "text": "40",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 1752,
-          "width": 1146,
-          "height": 23,
-          "text": "you would see that a person who appears to be disorganized because there’s paper everywhere actually has a",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 1781,
-          "width": 1145,
-          "height": 23,
-          "text": "much better organized system and they’re much more on top of their work. Whereas with the person who seems",
-          "bold": false
-        },
-        {
-          "x": 158,
-          "y": 1809,
-          "width": 1049,
-          "height": 23,
-          "text": "highly organized, actually everything looks neat but underneath the surface, the system is dysfunctional.",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1976,
-          "width": 628,
-          "height": 16,
-          "text": "2019-DSE-ENG LANG 1-A-RP-2 2",
-          "bold": true
+          "key": "v",
+          "label": "(v). documents has a system to\nit so you can quickly find\nexactly what you need.\nEND OF PART A",
+          "type": "text"
         }
       ],
       "figures": [
         {
-          "src": "assets/reading-comprehension/dse/structured/2019/a/passage-1-figure-1.webp",
-          "x": 800,
-          "y": 632,
-          "width": 508,
-          "height": 260,
-          "alt": "Original figure 1"
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Reading passage page 2",
-      "lines": [
-        {
-          "x": 172,
-          "y": 150,
-          "width": 268,
-          "height": 23,
-          "text": "Is this true for everyone?",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 189,
-          "width": 1145,
-          "height": 27,
-          "text": "[10] Of course I’m talking about averages here; I’m generalizing. Everybody has their own system, and people",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 214,
-          "width": 1140,
-          "height": 34,
-          "text": "can make all kinds of different systems work. If people have found a system that works for them, well that’s fine.",
-          "bold": false
-        },
-        {
-          "x": 99,
-          "y": 221,
-          "width": 26,
-          "height": 19,
-          "text": "45",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 261,
-          "width": 1144,
-          "height": 27,
-          "text": "[11] In the book, I write about Benjamin Franklin, one of the most productive and successful people in history,",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 290,
-          "width": 1144,
-          "height": 27,
-          "text": "incredibly messy and somewhat guilty about the fact that he was incredibly messy. He carried a lot of baggage",
-          "bold": false
-        },
-        {
-          "x": 170,
-          "y": 318,
-          "width": 1145,
-          "height": 27,
-          "text": "around, literally, in terms of paper, but also psychologically. He felt bad that his desk was messy. Benjamin",
-          "bold": false
-        },
-        {
-          "x": 170,
-          "y": 347,
-          "width": 1145,
-          "height": 27,
-          "text": "Franklin! If Benjamin Franklin can feel guilty about not getting enough stuff done because he’s messy, I think",
-          "bold": false
-        },
-        {
-          "x": 169,
-          "y": 378,
-          "width": 432,
-          "height": 20,
-          "text": "the rest of us can cut ourselves some slack.",
-          "bold": false
-        },
-        {
-          "x": 99,
-          "y": 379,
-          "width": 24,
-          "height": 19,
-          "text": "50",
-          "bold": false
-        },
-        {
-          "x": 170,
-          "y": 420,
-          "width": 1143,
-          "height": 26,
-          "text": "[12] Nevertheless, in offices we often find somebody in management has decided that there needs to be some",
-          "bold": false
-        },
-        {
-          "x": 169,
-          "y": 447,
-          "width": 1144,
-          "height": 27,
-          "text": "kind of clean desk policy, for reasons that are often not very clear. Maybe it’s just aesthetic. They want the place",
-          "bold": false
-        },
-        {
-          "x": 168,
-          "y": 477,
-          "width": 1146,
-          "height": 26,
-          "text": "to look like a magazine shoot. Or maybe they’ve read something about how operating theatres work or about",
-          "bold": false
-        },
-        {
-          "x": 168,
-          "y": 505,
-          "width": 1145,
-          "height": 27,
-          "text": "how high-functioning precision engineering production lines work. And then in a very inappropriate way, they",
-          "bold": false
-        },
-        {
-          "x": 168,
-          "y": 534,
-          "width": 1145,
-          "height": 27,
-          "text": "say, “Oh, and the same must be true for this regular office, which has just got paper and computers in it.” People",
-          "bold": false
-        },
-        {
-          "x": 98,
-          "y": 537,
-          "width": 24,
-          "height": 19,
-          "text": "55",
-          "bold": false
-        },
-        {
-          "x": 168,
-          "y": 563,
-          "width": 1143,
-          "height": 26,
-          "text": "are ordered to tidy their desks. Now, we’ve already discussed that actually a messy desk can be very effective,",
-          "bold": false
-        },
-        {
-          "x": 167,
-          "y": 595,
-          "width": 157,
-          "height": 23,
-          "text": "very functional.",
-          "bold": false
-        },
-        {
-          "x": 168,
-          "y": 634,
-          "width": 1143,
-          "height": 27,
-          "text": "[13] But there’s another problem on top of that, which is that people really hate being told what they can and",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 663,
-          "width": 1102,
-          "height": 25,
-          "text": "can’t do with their own desks. It destroys their sense of their own space, of their control of their environment.",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 708,
-          "width": 960,
-          "height": 25,
-          "text": "So, is there such a thing as a bad mess or a bad distraction, or do they always have merit?",
-          "bold": false
-        },
-        {
-          "x": 95,
-          "y": 710,
-          "width": 25,
-          "height": 18,
-          "text": "60",
-          "bold": false
-        },
-        {
-          "x": 167,
-          "y": 750,
-          "width": 1142,
-          "height": 26,
-          "text": "[14] No, I think clearly there are many situations where messes are just entirely dysfunctional, and distractions",
-          "bold": false
-        },
-        {
-          "x": 162,
-          "y": 779,
-          "width": 1147,
-          "height": 26,
-          "text": "just make it impossible to get stuff done. My argument in the book is not that mess is always good, distraction is",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 803,
-          "width": 1142,
-          "height": 35,
-          "text": "always good, or there’s no situation that can’t be improved by adding a little chaos. I don’t believe that at all.",
-          "bold": false
-        },
-        {
-          "x": 165,
-          "y": 835,
-          "width": 1144,
-          "height": 26,
-          "text": "What I do believe is that we found that our organizational systems can be so effective, and they make us feel so",
-          "bold": false
-        },
-        {
-          "x": 165,
-          "y": 864,
-          "width": 1144,
-          "height": 25,
-          "text": "comfortable that we take them from situations where they work extremely well, and then we start trying to apply",
-          "bold": false
-        },
-        {
-          "x": 94,
-          "y": 867,
-          "width": 24,
-          "height": 19,
-          "text": "65",
-          "bold": false
-        },
-        {
-          "x": 164,
-          "y": 895,
-          "width": 589,
-          "height": 24,
-          "text": "them in situations where they’re completely inappropriate.",
-          "bold": false
-        },
-        {
-          "x": 165,
-          "y": 933,
-          "width": 1143,
-          "height": 34,
-          "text": "[15] The argument of the book is just to try nudging the pendulum a little bit more toward mess. If we",
-          "bold": false
-        },
-        {
-          "x": 164,
-          "y": 962,
-          "width": 1144,
-          "height": 34,
-          "text": "experiment a little bit more with improvisation, with ambiguity, with a bit of disruption and a new challenge, we",
-          "bold": false
-        },
-        {
-          "x": 163,
-          "y": 996,
-          "width": 535,
-          "height": 24,
-          "text": "might well be surprised by how that improves things.",
-          "bold": true
-        },
-        {
-          "x": 551,
-          "y": 1175,
-          "width": 345,
-          "height": 20,
-          "text": "END OF READING PASSAGE",
-          "bold": true
-        },
-        {
-          "x": 169,
-          "y": 1232,
-          "width": 1167,
-          "height": 22,
-          "text": "Sources of materials used in this paper will be acknowledged in the HKDSE Question Papers booklet published by the Hong",
-          "bold": false
-        },
-        {
-          "x": 168,
-          "y": 1259,
-          "width": 565,
-          "height": 22,
-          "text": "Kong Examinations and Assessment Authority at a later stage.",
-          "bold": false
-        },
-        {
-          "x": 152,
-          "y": 1988,
-          "width": 628,
-          "height": 17,
-          "text": "2019-DSE-ENG LANG I-A-RP-3 5)",
-          "bold": true
-        }
-      ]
-    }
-  ],
-  "structuredQuestionPages": [
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 1",
-      "lines": [
-        {
-          "x": 468,
-          "y": 109,
-          "width": 940,
-          "height": 56,
-          "text": "| Please stick the barcode label here.",
-          "bold": true
-        },
-        {
-          "x": 164,
-          "y": 117,
-          "width": 222,
-          "height": 48,
-          "text": "Candidate Number |",
-          "bold": true
-        },
-        {
-          "x": 163,
-          "y": 194,
-          "width": 188,
-          "height": 23,
-          "text": "HKDSE 2019",
-          "bold": true
-        },
-        {
-          "x": 162,
-          "y": 228,
-          "width": 316,
-          "height": 24,
-          "text": "ENGLISH LANGUAGE",
-          "bold": true
-        },
-        {
-          "x": 162,
-          "y": 263,
-          "width": 249,
-          "height": 23,
-          "text": "PAPER 1 PART A",
-          "bold": true
-        },
-        {
-          "x": 161,
-          "y": 297,
-          "width": 666,
-          "height": 25,
-          "text": "QUESTION-ANSWER BOOK COMPULSORY",
-          "bold": true
-        },
-        {
-          "x": 160,
-          "y": 358,
-          "width": 921,
-          "height": 25,
-          "text": "Write your Candidate Number and stick a barcode label in the space provided on this page.",
-          "bold": false
-        },
-        {
-          "x": 159,
-          "y": 396,
-          "width": 567,
-          "height": 23,
-          "text": "Read Text 1 and answer questions 1-18. (42 marks)",
-          "bold": true
-        },
-        {
-          "x": 158,
-          "y": 452,
-          "width": 86,
-          "height": 19,
-          "text": "Text 1",
-          "bold": true
-        },
-        {
-          "x": 175,
-          "y": 496,
-          "width": 1148,
-          "height": 26,
-          "text": "hy According to paragraphs 1-5, decide whether the following statements are True (T), False (F) or Not",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 524,
-          "width": 1075,
-          "height": 26,
-          "text": "Given (NG). (5 marks)",
-          "bold": false
-        },
-        {
-          "x": 1280,
-          "y": 560,
-          "width": 38,
-          "height": 266,
-          "text": "OO0008",
-          "bold": true
-        },
-        {
-          "x": 1204,
-          "y": 561,
-          "width": 33,
-          "height": 266,
-          "text": "OO000:",
-          "bold": true
-        },
-        {
-          "x": 1129,
-          "y": 562,
-          "width": 33,
-          "height": 265,
-          "text": "OO000=",
-          "bold": true
-        },
-        {
-          "x": 312,
-          "y": 564,
-          "width": 118,
-          "height": 18,
-          "text": "Statements",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 607,
-          "width": 544,
-          "height": 25,
-          "text": "(i) Harford encourages his readers to be very tidy.",
-          "bold": false
-        },
-        {
-          "x": 241,
-          "y": 654,
-          "width": 387,
-          "height": 32,
-          "text": "(ii) | Harford has more than one job.",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 707,
-          "width": 457,
-          "height": 24,
-          "text": "(iii) Harford’s first book is called ‘Messy.’",
-          "bold": false
-        },
-        {
-          "x": 239,
-          "y": 756,
-          "width": 611,
-          "height": 24,
-          "text": "(iv) Harford is friends with many famous creative people.",
-          "bold": false
-        },
-        {
-          "x": 239,
-          "y": 805,
-          "width": 848,
-          "height": 25,
-          "text": "(v) Harford thinks it is good to be involved with more than one project at a time.",
-          "bold": false
-        },
-        {
-          "x": 167,
-          "y": 866,
-          "width": 891,
-          "height": 33,
-          "text": "2. Which phrase in paragraph 4 refers to all the work that Harford is involved with?",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 987,
-          "width": 737,
-          "height": 32,
-          "text": "3. What is the purpose of the list of ‘different things’ in lines 19-20?",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 1035,
-          "width": 302,
-          "height": 23,
-          "text": "A. to prove that mess exists",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 1073,
-          "width": 359,
-          "height": 32,
-          "text": "B. _ to show that people are messy",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 1113,
-          "width": 1068,
-          "height": 31,
-          "text": "C. to highlight how mess is related to various aspects of life A B Cc D",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 1148,
-          "width": 1074,
-          "height": 39,
-          "text": "D. to argue that mess is a positive influence in people’s lives O oO O O",
-          "bold": true
-        },
-        {
-          "x": 163,
-          "y": 1224,
-          "width": 1152,
-          "height": 26,
-          "text": "4, Below is a summary of paragraph 6. In five of the lines, there is ONE mistake. If you find a mistake,",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 1252,
-          "width": 1080,
-          "height": 26,
-          "text": "underline it and replace the word with one that expresses the correct idea. Write the word in the box on the",
-          "bold": false
-        },
-        {
-          "x": 234,
-          "y": 1281,
-          "width": 1081,
-          "height": 26,
-          "text": "right. Both grammar and spelling must be correct. In one of the lines there is no mistake; put a tick in",
-          "bold": false
-        },
-        {
-          "x": 234,
-          "y": 1309,
-          "width": 1074,
-          "height": 25,
-          "text": "the box. The first has been done for you. (6 marks)",
-          "bold": false
-        },
-        {
-          "x": 621,
-          "y": 1351,
-          "width": 626,
-          "height": 31,
-          "text": "Summary Correction",
-          "bold": false
-        },
-        {
-          "x": 234,
-          "y": 1393,
-          "width": 998,
-          "height": 32,
-          "text": "e.g. | Harford’s book discusses many similar situations concerning mess. different",
-          "bold": false
-        },
-        {
-          "x": 233,
-          "y": 1445,
-          "width": 747,
-          "height": 24,
-          "text": "(i) A common theme is the idea that there are advantages in accepting",
-          "bold": false
-        },
-        {
-          "x": 233,
-          "y": 1495,
-          "width": 723,
-          "height": 32,
-          "text": "(ii) | the things we can measure, organize or standardize. Such things",
-          "bold": false
-        },
-        {
-          "x": 233,
-          "y": 1549,
-          "width": 729,
-          "height": 32,
-          "text": "(iii) | usually make people feel calm as they feel they have lost control.",
-          "bold": false
-        },
-        {
-          "x": 232,
-          "y": 1602,
-          "width": 728,
-          "height": 33,
-          "text": "(iv) | Instead, people hate having a target to achieve, a script to follow,",
-          "bold": false
-        },
-        {
-          "x": 232,
-          "y": 1656,
-          "width": 731,
-          "height": 32,
-          "text": "(v) | ora messy workstation. Naturally, such things have their benefits",
-          "bold": false
-        },
-        {
-          "x": 232,
-          "y": 1710,
-          "width": 636,
-          "height": 32,
-          "text": "(vi) | but so too do all those situations that are easy to predict.",
-          "bold": false
-        },
-        {
-          "x": 143,
-          "y": 1782,
-          "width": 519,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 747,
-          "y": 1856,
-          "width": 652,
-          "height": 162,
-          "text": "(INI",
-          "bold": true
-        },
-        {
-          "x": 150,
-          "y": 1985,
-          "width": 278,
-          "height": 16,
-          "text": "2019-DSE-ENG LANG 1-A-1",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2019/a/questions-1-figure-1.webp",
-          "x": 888,
-          "y": 76,
-          "width": 564,
-          "height": 240,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2019/a/questions-1-figure-3.webp",
-          "x": 700,
-          "y": 192,
-          "width": 120,
-          "height": 120,
-          "alt": "Original figure 3"
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 2",
-      "lines": [
-        {
-          "x": 181,
-          "y": 167,
-          "width": 664,
-          "height": 25,
-          "text": "5. Why does the word ‘Messy’ (line 26) have a capital letter?",
-          "bold": false
-        },
-        {
-          "x": 253,
-          "y": 224,
-          "width": 103,
-          "height": 23,
-          "text": "‘Messy’ is",
-          "bold": true
-        },
-        {
-          "x": 181,
-          "y": 285,
-          "width": 819,
-          "height": 24,
-          "text": "6. Find ONE word in paragraph 7 that means ‘collections of old documents’.",
-          "bold": false
-        },
-        {
-          "x": 182,
-          "y": 404,
-          "width": 420,
-          "height": 23,
-          "text": "7. What does ‘this’ (line 31) refer to?",
-          "bold": true
-        },
-        {
-          "x": 182,
-          "y": 522,
-          "width": 1148,
-          "height": 26,
-          "text": "8. Complete the following notes based on paragraph 8 by writing ONE word taken from paragraph 8 in each",
-          "bold": false
-        },
-        {
-          "x": 251,
-          "y": 550,
-          "width": 1072,
-          "height": 26,
-          "text": "blank below. Your answers must be grammatically correct. (5 marks)",
-          "bold": false
-        },
-        {
-          "x": 252,
-          "y": 603,
-          "width": 625,
-          "height": 24,
-          "text": "Three reasons why your desk is more efficient than you think.",
-          "bold": false
-        },
-        {
-          "x": 253,
-          "y": 662,
-          "width": 1070,
-          "height": 25,
-          "text": "1. Your piles of paper will become (i) as you add / remove documents,",
-          "bold": false
-        },
-        {
-          "x": 312,
-          "y": 701,
-          "width": 915,
-          "height": 31,
-          "text": "- People consider a pile to be (ii), but this is not the case.",
-          "bold": false
-        },
-        {
-          "x": 302,
-          "y": 748,
-          "width": 716,
-          "height": 24,
-          "text": "For example, when you stop using the material, it will move to the (iii)",
-          "bold": false
-        },
-        {
-          "x": 252,
-          "y": 802,
-          "width": 741,
-          "height": 30,
-          "text": "2. You won’t need a (iv) of things to do.",
-          "bold": false
-        },
-        {
-          "x": 312,
-          "y": 849,
-          "width": 552,
-          "height": 24,
-          "text": "= You have visible reminders right in front of you.",
-          "bold": false
-        },
-        {
-          "x": 252,
-          "y": 893,
-          "width": 644,
-          "height": 24,
-          "text": "3. You don’t need to think about what to put in the trash.",
-          "bold": true
-        },
-        {
-          "x": 307,
-          "y": 950,
-          "width": 888,
-          "height": 26,
-          "text": "The answer is (v) _ — keep everything at the top and bin the rest.",
-          "bold": false
-        },
-        {
-          "x": 182,
-          "y": 1041,
-          "width": 1147,
-          "height": 26,
-          "text": "9. Find a word in paragraphs 9-1 | which has a similar meaning to each word given below. (5 marks)",
-          "bold": false
-        },
-        {
-          "x": 253,
-          "y": 1101,
-          "width": 147,
-          "height": 26,
-          "text": "(i) ‘very’",
-          "bold": true
-        },
-        {
-          "x": 253,
-          "y": 1159,
-          "width": 193,
-          "height": 25,
-          "text": "(ii) ‘unusable?",
-          "bold": true
-        },
-        {
-          "x": 253,
-          "y": 1217,
-          "width": 210,
-          "height": 25,
-          "text": "(iii) ‘acceptable’",
-          "bold": true
-        },
-        {
-          "x": 253,
-          "y": 1274,
-          "width": 192,
-          "height": 26,
-          "text": "(iv) ‘mentally’",
-          "bold": false
-        },
-        {
-          "x": 253,
-          "y": 1332,
-          "width": 209,
-          "height": 26,
-          "text": "(v) ‘completed’",
-          "bold": true
-        },
-        {
-          "x": 186,
-          "y": 1401,
-          "width": 612,
-          "height": 31,
-          "text": "10. | What does ‘cut ourselves some slack’ (line 50) mean?",
-          "bold": true
-        },
-        {
-          "x": 254,
-          "y": 1447,
-          "width": 315,
-          "height": 24,
-          "text": "A. consider being less messy",
-          "bold": false
-        },
-        {
-          "x": 254,
-          "y": 1491,
-          "width": 335,
-          "height": 23,
-          "text": "B. judge ourselves less harshly",
-          "bold": false
-        },
-        {
-          "x": 254,
-          "y": 1530,
-          "width": 995,
-          "height": 32,
-          "text": "C. think of guilt more positively A B c",
-          "bold": false
-        },
-        {
-          "x": 1297,
-          "y": 1538,
-          "width": 30,
-          "height": 65,
-          "text": "Ov",
-          "bold": true
-        },
-        {
-          "x": 254,
-          "y": 1568,
-          "width": 1003,
-          "height": 40,
-          "text": "D. compare ourselves to more successful people O oO O",
-          "bold": true
-        },
-        {
-          "x": 186,
-          "y": 1644,
-          "width": 860,
-          "height": 26,
-          "text": "11. Find the metaphor the writer uses to describe ‘guilty feelings’ in paragraph 11.",
-          "bold": false
-        },
-        {
-          "x": 187,
-          "y": 1762,
-          "width": 856,
-          "height": 26,
-          "text": "12. Why do managers want their offices to ‘look like a magazine shoot’ (line 53)?",
-          "bold": false
-        },
-        {
-          "x": 254,
-          "y": 1819,
-          "width": 260,
-          "height": 23,
-          "text": "They want their offices to",
-          "bold": false
-        },
-        {
-          "x": 165,
-          "y": 1872,
-          "width": 516,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 176,
-          "y": 1952,
-          "width": 606,
-          "height": 24,
-          "text": "2019-DSE-ENG LANG 1-A-2 2",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 3",
-      "lines": [
-        {
-          "x": 234,
-          "y": 214,
-          "width": 364,
-          "height": 25,
-          "text": "What does ‘them’ (line 66) refer to?",
-          "bold": false
-        },
-        {
-          "x": 164,
-          "y": 220,
-          "width": 27,
-          "height": 17,
-          "text": "13.",
-          "bold": false
-        },
-        {
-          "x": 233,
-          "y": 369,
-          "width": 662,
-          "height": 28,
-          "text": "When Harford says ‘nudging the pendulum’ (line 67) he means...",
-          "bold": true
-        },
-        {
-          "x": 287,
-          "y": 414,
-          "width": 405,
-          "height": 28,
-          "text": "stopping people from making a mistake.",
-          "bold": false
-        },
-        {
-          "x": 217,
-          "y": 417,
-          "width": 46,
-          "height": 150,
-          "text": "> oo",
-          "bold": true
-        },
-        {
-          "x": 286,
-          "y": 453,
-          "width": 418,
-          "height": 35,
-          "text": "reminding people of the possible options.",
-          "bold": false
-        },
-        {
-          "x": 285,
-          "y": 500,
-          "width": 453,
-          "height": 28,
-          "text": "telling people to adopt a particular approach.",
-          "bold": false
-        },
-        {
-          "x": 286,
-          "y": 543,
-          "width": 452,
-          "height": 28,
-          "text": "encouraging people to rethink their attitudes.",
-          "bold": true
-        },
-        {
-          "x": 233,
-          "y": 635,
-          "width": 675,
-          "height": 35,
-          "text": "Why would the reader be ‘surprised’ (line 69) by an improvement?",
-          "bold": false
-        },
-        {
-          "x": 233,
-          "y": 841,
-          "width": 1074,
-          "height": 32,
-          "text": "Several actions from the text are described below, along with their consequences. Complete the",
-          "bold": false
-        },
-        {
-          "x": 163,
-          "y": 857,
-          "width": 26,
-          "height": 17,
-          "text": "16.",
-          "bold": false
-        },
-        {
-          "x": 233,
-          "y": 871,
-          "width": 1074,
-          "height": 34,
-          "text": "information by writing ONE word taken from the relevant paragraph in each blank below. Your answers",
-          "bold": false
-        },
-        {
-          "x": 232,
-          "y": 898,
-          "width": 1072,
-          "height": 36,
-          "text": "must be grammatically correct. (4 marks)",
-          "bold": false
-        },
-        {
-          "x": 507,
-          "y": 968,
-          "width": 675,
-          "height": 27,
-          "text": "ACTION CONSEQUENCE",
-          "bold": true
-        },
-        {
-          "x": 234,
-          "y": 1027,
-          "width": 857,
-          "height": 71,
-          "text": "Paragraph Focusing on something different lap You will be able to (i)",
-          "bold": true
-        },
-        {
-          "x": 366,
-          "y": 1100,
-          "width": 716,
-          "height": 40,
-          "text": "when facing a difficulty on a project your thinking process.",
-          "bold": false
-        },
-        {
-          "x": 280,
-          "y": 1102,
-          "width": 458,
-          "height": 24,
-          "text": "5 hen faci difficul ject.",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 1223,
-          "width": 1074,
-          "height": 71,
-          "text": "Paragraph Constantly clearing away your p> You will have a filing system that is difficult",
-          "bold": true
-        },
-        {
-          "x": 280,
-          "y": 1297,
-          "width": 634,
-          "height": 34,
-          "text": "7 paperwork. to (ii)",
-          "bold": true
-        },
-        {
-          "x": 236,
-          "y": 1416,
-          "width": 866,
-          "height": 62,
-          "text": "Paragraph | Employees being told how to > They lose their sense of",
-          "bold": true
-        },
-        {
-          "x": 277,
-          "y": 1485,
-          "width": 617,
-          "height": 30,
-          "text": "13 organize their (iii) (iv)",
-          "bold": true
-        },
-        {
-          "x": 235,
-          "y": 1628,
-          "width": 720,
-          "height": 36,
-          "text": "Which of the following best summarises Harford’s message in the text?",
-          "bold": false
-        },
-        {
-          "x": 288,
-          "y": 1680,
-          "width": 206,
-          "height": 20,
-          "text": "Mess is often useful.",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 1684,
-          "width": 21,
-          "height": 17,
-          "text": "A.",
-          "bold": true
-        },
-        {
-          "x": 289,
-          "y": 1722,
-          "width": 255,
-          "height": 23,
-          "text": "Messiness aids creativity.",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 1727,
-          "width": 14,
-          "height": 17,
-          "text": "B",
-          "bold": true
-        },
-        {
-          "x": 1143,
-          "y": 1739,
-          "width": 156,
-          "height": 47,
-          "text": "B Cc D",
-          "bold": false
-        },
-        {
-          "x": 289,
-          "y": 1764,
-          "width": 287,
-          "height": 26,
-          "text": "Everyone should be messier.",
-          "bold": false
-        },
-        {
-          "x": 1135,
-          "y": 1790,
-          "width": 171,
-          "height": 32,
-          "text": "OOO",
-          "bold": true
-        },
-        {
-          "x": 289,
-          "y": 1805,
-          "width": 482,
-          "height": 26,
-          "text": "Distractions make people less effective at work.",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 1813,
-          "width": 16,
-          "height": 17,
-          "text": "D.",
-          "bold": true
-        },
-        {
-          "x": 145,
-          "y": 1893,
-          "width": 516,
-          "height": 26,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 1116,
-          "y": 1968,
-          "width": 194,
-          "height": 19,
-          "text": "Go on to the next page",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 1969,
-          "width": 604,
-          "height": 31,
-          "text": "2019-DSE-ENG LANG 1-A-3 3",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2019/a/questions-3-figure-1.webp",
-          "x": 200,
-          "y": 936,
-          "width": 580,
-          "height": 648,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2019/a/questions-3-figure-2.webp",
-          "x": 1084,
-          "y": 1924,
-          "width": 276,
-          "height": 100,
-          "alt": "Original figure 2"
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 4",
-      "lines": [
-        {
-          "x": 204,
-          "y": 160,
-          "width": 1146,
-          "height": 36,
-          "text": "18. Two friends are discussing the extract from the interview with Tim Harford (paragraphs 6-15). Use the",
-          "bold": false
-        },
-        {
-          "x": 273,
-          "y": 189,
-          "width": 1076,
-          "height": 36,
-          "text": "information from the text to match each statement in the speech bubbles with a paragraph that contains",
-          "bold": false
-        },
-        {
-          "x": 272,
-          "y": 218,
-          "width": 1076,
-          "height": 36,
-          "text": "similar ideas. Write the number of the paragraph next to the speech bubble. Each paragraph number can",
-          "bold": false
-        },
-        {
-          "x": 271,
-          "y": 246,
-          "width": 1077,
-          "height": 37,
-          "text": "be used once only. Some paragraph numbers are not used. The first two have been done for you as",
-          "bold": false
-        },
-        {
-          "x": 271,
-          "y": 272,
-          "width": 1073,
-          "height": 40,
-          "text": "examples. (5 marks)",
-          "bold": false
-        },
-        {
-          "x": 496,
-          "y": 337,
-          "width": 513,
-          "height": 28,
-          "text": "Jenny Paul",
-          "bold": true
-        },
-        {
-          "x": 398,
-          "y": 590,
-          "width": 249,
-          "height": 25,
-          "text": "| truly dislike it when my",
-          "bold": false
-        },
-        {
-          "x": 397,
-          "y": 620,
-          "width": 234,
-          "height": 25,
-          "text": "dad tells me to tidy my",
-          "bold": false
-        },
-        {
-          "x": 814,
-          "y": 648,
-          "width": 320,
-          "height": 22,
-          "text": "Yeah, my mum’s the same. Just",
-          "bold": false
-        },
-        {
-          "x": 397,
-          "y": 650,
-          "width": 258,
-          "height": 21,
-          "text": "bedroom — it doesn’t feel",
-          "bold": false
-        },
-        {
-          "x": 206,
-          "y": 677,
-          "width": 1132,
-          "height": 38,
-          "text": "Paragraph like it’s my room anymore, because she has to be hyper- Paragraph",
-          "bold": false
-        },
-        {
-          "x": 396,
-          "y": 710,
-          "width": 737,
-          "height": 21,
-          "text": "but his. organized at work at her dental",
-          "bold": false
-        },
-        {
-          "x": 224,
-          "y": 717,
-          "width": 1092,
-          "height": 54,
-          "text": "e.g. 13 surgery, it doesn’t mean that’s eg. 12",
-          "bold": true
-        },
-        {
-          "x": 813,
-          "y": 770,
-          "width": 299,
-          "height": 24,
-          "text": "right for my things in my own",
-          "bold": false
-        },
-        {
-          "x": 813,
-          "y": 802,
-          "width": 336,
-          "height": 23,
-          "text": "room. Even when things get a bit",
-          "bold": false
-        },
-        {
-          "x": 813,
-          "y": 828,
-          "width": 291,
-          "height": 31,
-          "text": "messy, | still get things done.",
-          "bold": true
-        },
-        {
-          "x": 395,
-          "y": 926,
-          "width": 274,
-          "height": 24,
-          "text": "You know, I’ve just read an",
-          "bold": false
-        },
-        {
-          "x": 395,
-          "y": 956,
-          "width": 247,
-          "height": 25,
-          "text": "interview which says we",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 985,
-          "width": 1132,
-          "height": 46,
-          "text": "Paragraph astonished shee Really? How would that work? Paragraph",
-          "bold": false
-        },
-        {
-          "x": 216,
-          "y": 1017,
-          "width": 1039,
-          "height": 53,
-          "text": "(i) how messiness might make Last night | spent 30 minutes (ii)",
-          "bold": true
-        },
-        {
-          "x": 242,
-          "y": 1040,
-          "width": 1086,
-          "height": 52,
-          "text": "—. our lives better. “= 8",
-          "bold": false
-        },
-        {
-          "x": 793,
-          "y": 1068,
-          "width": 251,
-          "height": 25,
-          "text": "looking for my chemistry",
-          "bold": false
-        },
-        {
-          "x": 793,
-          "y": 1099,
-          "width": 344,
-          "height": 26,
-          "text": "homework because | hadn’t put it",
-          "bold": false
-        },
-        {
-          "x": 792,
-          "y": 1130,
-          "width": 306,
-          "height": 24,
-          "text": "in the right folder on my desk.",
-          "bold": false
-        },
-        {
-          "x": 384,
-          "y": 1215,
-          "width": 242,
-          "height": 25,
-          "text": "Well the interview gave",
-          "bold": false
-        },
-        {
-          "x": 384,
-          "y": 1247,
-          "width": 193,
-          "height": 19,
-          "text": "one or two famous",
-          "bold": false
-        },
-        {
-          "x": 201,
-          "y": 1274,
-          "width": 1131,
-          "height": 39,
-          "text": "Paragraph historical examples where Paragraph",
-          "bold": false
-        },
-        {
-          "x": 207,
-          "y": 1300,
-          "width": 378,
-          "height": 43,
-          "text": "(iii) really messy people",
-          "bold": false
-        },
-        {
-          "x": 803,
-          "y": 1320,
-          "width": 292,
-          "height": 24,
-          "text": "But that can’t really work for",
-          "bold": false
-        },
-        {
-          "x": 384,
-          "y": 1337,
-          "width": 223,
-          "height": 25,
-          "text": "achieved great things.",
-          "bold": false
-        },
-        {
-          "x": 802,
-          "y": 1352,
-          "width": 173,
-          "height": 19,
-          "text": "everyone, can it?",
-          "bold": false
-        },
-        {
-          "x": 386,
-          "y": 1491,
-          "width": 239,
-          "height": 21,
-          "text": "You know, it could save",
-          "bold": false
-        },
-        {
-          "x": 385,
-          "y": 1521,
-          "width": 206,
-          "height": 24,
-          "text": "you looking for your",
-          "bold": false
-        },
-        {
-          "x": 385,
-          "y": 1551,
-          "width": 267,
-          "height": 23,
-          "text": "chemistry homework next",
-          "bold": false
-        },
-        {
-          "x": 198,
-          "y": 1576,
-          "width": 453,
-          "height": 27,
-          "text": "Paragraph time. The writer describes",
-          "bold": false
-        },
-        {
-          "x": 385,
-          "y": 1612,
-          "width": 194,
-          "height": 20,
-          "text": "how a mountain of",
-          "bold": false
-        },
-        {
-          "x": 207,
-          "y": 1634,
-          "width": 454,
-          "height": 33,
-          "text": "(vy) documents has a system to",
-          "bold": false
-        },
-        {
-          "x": 384,
-          "y": 1673,
-          "width": 250,
-          "height": 24,
-          "text": "it so you can quickly find",
-          "bold": false
-        },
-        {
-          "x": 384,
-          "y": 1703,
-          "width": 234,
-          "height": 24,
-          "text": "exactly what you need.",
-          "bold": false
-        },
-        {
-          "x": 668,
-          "y": 1807,
-          "width": 92,
-          "height": 20,
-          "text": "END OF",
-          "bold": true
-        },
-        {
-          "x": 166,
-          "y": 1859,
-          "width": 517,
-          "height": 26,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": false
-        },
-        {
-          "x": 171,
-          "y": 1944,
-          "width": 611,
-          "height": 25,
-          "text": "2019-DSE-ENG LANG 1-A-4 4",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2019/a/questions-4-figure-1.webp",
-          "x": 344,
-          "y": 360,
-          "width": 380,
-          "height": 452,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2019/a/questions-4-figure-2.webp",
-          "x": 888,
-          "y": 364,
-          "width": 176,
-          "height": 208,
-          "alt": "Original figure 2"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2019/a/questions-4-figure-3.webp",
-          "x": 756,
-          "y": 588,
-          "width": 452,
-          "height": 340,
-          "alt": "Original figure 3"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2019/a/questions-4-figure-4.webp",
-          "x": 340,
-          "y": 860,
-          "width": 388,
-          "height": 304,
-          "alt": "Original figure 4"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2019/a/questions-4-figure-5.webp",
-          "x": 740,
-          "y": 960,
-          "width": 452,
-          "height": 272,
-          "alt": "Original figure 5"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2019/a/questions-4-figure-6.webp",
-          "x": 332,
-          "y": 1164,
-          "width": 388,
-          "height": 260,
-          "alt": "Original figure 6"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2019/a/questions-4-figure-7.webp",
-          "x": 752,
-          "y": 1248,
-          "width": 424,
-          "height": 212,
-          "alt": "Original figure 7"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2019/a/questions-4-figure-8.webp",
-          "x": 328,
-          "y": 1428,
-          "width": 396,
-          "height": 372,
-          "alt": "Original figure 8"
+          "src": "assets/reading-comprehension/dse/content/2019/a/questions-4-crop-1.webp",
+          "alt": "A conversation between Jenny and Paul in speech bubbles"
         }
       ]
     }

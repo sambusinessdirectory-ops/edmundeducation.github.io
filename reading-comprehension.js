@@ -4,7 +4,7 @@ const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
 const CATALOGUE_VERSION = '20260829-audio1';
-const DSE_CATALOGUE_VERSION = '20260903-dse-structured-1';
+const DSE_CATALOGUE_VERSION = '20260904-dse-ielts-flow-1';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
 const QUESTION_TYPE_INDEX = window.EDMUND_IELTS_READING_QUESTION_TYPES || { taxonomy: [], articles: [] };
 const audioTimingCache = new Map();
@@ -193,10 +193,7 @@ async function loadDseArticleData(id) {
   const response = await fetch(`dse-reading-data/${id}.json?v=${entry.version}`);
   if (!response.ok) throw new Error('未能載入 DSE 閱讀練習資料。');
   const data = await response.json();
-  const hasPassage = data.paragraphs?.length
-    || (data.displayMode === 'paper' && data.passagePages?.length)
-    || (data.displayMode === 'structured-paper' && data.structuredPassagePages?.length);
-  if (data.id !== id || !Array.isArray(data.questions) || !hasPassage) throw new Error('DSE 閱讀練習資料不符。');
+  if (data.id !== id || !Array.isArray(data.questions) || !data.paragraphs?.length || data.displayMode) throw new Error('DSE 閱讀練習資料不符。');
   ARTICLE_ID = id; state.data = data; state.analysis = null;
   state.activeAnalysis = 0; state.activeSkimming = 0;
   return entry;
@@ -440,57 +437,19 @@ function interactiveWords(text, context, spoken = false) {
   }
   return html + escapeHtml(text.slice(last));
 }
-function renderPaperPageGallery(pages, kind) {
-  if (!pages?.length) return '';
-  const heading = kind === 'passage' ? 'Original reading passage' : 'Original question paper';
-  return `<section class="paper-page-section" aria-label="${heading}"><div class="paper-page-section-heading"><p class="eyebrow">OFFICIAL PAPER LAYOUT</p><h2>${heading}</h2><p>Click any page to open a full-size copy.</p></div><div class="paper-page-gallery">${pages.map((page, index) => { const source = typeof page === 'string' ? page : page.src; const alt = typeof page === 'string' ? `${heading} page ${index + 1}` : page.alt; const label = typeof page === 'string' ? `Page ${index + 1}` : page.label || `Page ${index + 1}`; return `<figure class="paper-page"><a href="${escapeHtml(source)}" target="_blank" rel="noopener"><img src="${escapeHtml(source)}" alt="${escapeHtml(alt || '')}" loading="${index ? 'lazy' : 'eager'}"></a><figcaption>${escapeHtml(label)}</figcaption></figure>`; }).join('')}</div></section>`;
-}
-function renderStructuredPaperPages(pages, kind) {
-  if (!pages?.length) return '';
-  const heading = kind === 'passage' ? 'Reading passage' : 'Question paper';
-  return `<section class="structured-paper-section" aria-label="${heading}"><div class="paper-page-section-heading"><p class="eyebrow">SELECTABLE TEXT + ORIGINAL FIGURES</p><h2>${heading}</h2><p>The text is selectable. Only the original photos, diagrams, tables and charts are retained as images.</p></div><div class="structured-paper-gallery">${pages.map((page, index) => {
-    const width = Number(page.width) || 1488;
-    const height = Number(page.height) || 2105;
-    const figures = (page.figures || []).map((figure) => `<image href="${escapeHtml(figure.src)}" x="${Number(figure.x) || 0}" y="${Number(figure.y) || 0}" width="${Number(figure.width) || 1}" height="${Number(figure.height) || 1}" preserveAspectRatio="none" role="img" aria-label="${escapeHtml(figure.alt || 'Original figure')}"></image>`).join('');
-    const lines = (page.lines || []).map((line) => {
-      const x = Number(line.x) || 0;
-      const y = (Number(line.y) || 0) + (Number(line.height) || 18);
-      const fontSize = Math.max(10, (Number(line.height) || 18) * .98);
-      const textWidth = Math.max(1, Number(line.width) || 1);
-      return `<text x="${x}" y="${y}" font-size="${fontSize}" font-weight="${line.bold ? 700 : 400}" textLength="${textWidth}" lengthAdjust="spacingAndGlyphs">${escapeHtml(line.text || '')}</text>`;
-    }).join('');
-    return `<figure class="structured-paper-page"><svg class="structured-paper-svg" viewBox="0 0 ${width} ${height}" role="document" aria-label="${escapeHtml(page.label || `${heading} page ${index + 1}`)}" xmlns="http://www.w3.org/2000/svg">${figures}<g class="structured-paper-text" xml:space="preserve">${lines}</g></svg><figcaption>${escapeHtml(page.label || `Page ${index + 1}`)}</figcaption></figure>`;
-  }).join('')}</div></section>`;
+function renderContentFigures(figures, className) {
+  return (figures || []).map((figure) => `<figure class="${className}${figure.wide ? ' is-wide' : ''}"><img src="${escapeHtml(figure.src)}" alt="${escapeHtml(figure.alt || '')}" loading="lazy">${figure.caption ? `<figcaption>${escapeHtml(figure.caption)}</figcaption>` : ''}</figure>`).join('');
 }
 function renderPassage() {
   const dse = state.system === 'dse';
   const sourceImage = state.data.sourceImage ? `<figure class="dse-passage-figure"><img src="${escapeHtml(state.data.sourceImage.src)}" alt="${escapeHtml(state.data.sourceImage.alt || '')}" loading="eager"></figure>` : '';
   const sourceHeader = `${state.data.sourceLabel ? `<p class="eyebrow">${escapeHtml(state.data.sourceLabel)}</p>` : ''}${state.data.sourceHeading ? `<p class="source-heading">${escapeHtml(state.data.sourceHeading)}</p>${state.data.headingTranslation ? `<p class="translation-copy" data-translation-heading hidden lang="zh-Hant">${escapeHtml(state.data.headingTranslation)}</p>` : ''}` : ''}${sourceImage}${state.data.titleTranslation && !state.data.headingTranslation ? `<p class="translation-copy" data-translation-heading hidden lang="zh-Hant">${escapeHtml(state.data.titleTranslation)}</p>` : ''}${state.data.sourceNote ? `<p class="dse-source-note">${escapeHtml(state.data.sourceNote)}</p>` : ''}`;
   const sourceNotes = state.data.passageNotes?.length ? `<section class="dse-source-note"><strong>Notes</strong><br>${state.data.passageNotes.map(escapeHtml).join('<br>')}</section>` : '';
-  if (state.data.displayMode === 'paper') {
-    state.wordIndex = 0;
-    el.passage.innerHTML = sourceHeader + renderPaperPageGallery(state.data.passagePages, 'passage') + sourceNotes;
-    $('[data-translation-options]').innerHTML = '<legend>或選擇指定段落</legend>';
-    el.translationAll.disabled = true;
-    el.translationAll.checked = false;
-    $('[data-translation-availability]').hidden = false;
-    $('[data-translation-availability]').textContent = '此原題模式暫未提供中文翻譯。';
-    return;
-  }
-  if (state.data.displayMode === 'structured-paper') {
-    state.wordIndex = 0;
-    el.passage.innerHTML = sourceHeader + renderStructuredPaperPages(state.data.structuredPassagePages, 'passage') + sourceNotes;
-    $('[data-translation-options]').innerHTML = '<legend>或選擇指定段落</legend>';
-    el.translationAll.disabled = true;
-    el.translationAll.checked = false;
-    $('[data-translation-availability]').hidden = false;
-    $('[data-translation-availability]').textContent = '此原題模式暫未提供中文翻譯。';
-    return;
-  }
-  state.wordIndex = 0; el.passage.innerHTML = sourceHeader + state.data.paragraphs.map((paragraph) => { const paragraphImage = paragraph.image ? `<figure class="dse-paragraph-figure${paragraph.image.wide ? ' is-wide' : ''}"><img src="${escapeHtml(paragraph.image.src)}" alt="${escapeHtml(paragraph.image.alt || '')}" loading="lazy">${paragraph.image.caption ? `<figcaption>${escapeHtml(paragraph.image.caption)}</figcaption>` : ''}</figure>` : ''; return `<section class="passage-paragraph" id="paragraph-${paragraph.number}"><div class="paragraph-heading"><span class="paragraph-label">${dse ? '' : 'PARAGRAPH '}${escapeHtml(paragraph.label || paragraph.number)}</span>${dse ? '' : `<span class="scan-tags" data-scan-tags="${paragraph.number}" aria-label="已選擇此段的題目"></span><button class="paragraph-audio-button" type="button" data-play-paragraph="${paragraph.number}" aria-label="朗讀第 ${paragraph.number} 段">▶ 朗讀本段</button>${readingBookmarkButton('paragraph', paragraph.number)}`}</div>${paragraphImage}<div class="passage-text-block">${dse ? escapeHtml(paragraph.text) : interactiveWords(paragraph.text, `p${paragraph.number}`, true)}</div>${paragraph.translation ? `<div class="translation-copy" data-translation-copy="${paragraph.number}" hidden lang="zh-Hant">${escapeHtml(paragraph.translation)}</div>` : ''}${dse ? '' : `<button class="skimming-button" type="button" data-skimming="${paragraph.number}">Skimming Tips · ${escapeHtml(paragraph.label || paragraph.number)}</button>`}</section>`; }).join("") + sourceNotes;
+  state.wordIndex = 0; el.passage.innerHTML = sourceHeader + state.data.paragraphs.map((paragraph) => { const paragraphImage = renderContentFigures(paragraph.images || (paragraph.image ? [paragraph.image] : []), 'dse-paragraph-figure'); return `<section class="passage-paragraph" id="paragraph-${paragraph.number}"><div class="paragraph-heading"><span class="paragraph-label">${dse ? '' : 'PARAGRAPH '}${escapeHtml(paragraph.label || paragraph.number)}</span>${dse ? '' : `<span class="scan-tags" data-scan-tags="${paragraph.number}" aria-label="已選擇此段的題目"></span><button class="paragraph-audio-button" type="button" data-play-paragraph="${paragraph.number}" aria-label="朗讀第 ${paragraph.number} 段">▶ 朗讀本段</button>${readingBookmarkButton('paragraph', paragraph.number)}`}</div>${paragraphImage}<div class="passage-text-block">${dse ? escapeHtml(paragraph.text) : interactiveWords(paragraph.text, `p${paragraph.number}`, true)}</div>${paragraph.translation ? `<div class="translation-copy" data-translation-copy="${paragraph.number}" hidden lang="zh-Hant">${escapeHtml(paragraph.translation)}</div>` : ''}${dse ? '' : `<button class="skimming-button" type="button" data-skimming="${paragraph.number}">Skimming Tips · ${escapeHtml(paragraph.label || paragraph.number)}</button>`}</section>`; }).join("") + sourceNotes;
   $('[data-translation-options]').innerHTML = '<legend>或選擇指定段落</legend>' + state.data.paragraphs.filter((p) => p.translation).map((p) => `<label><input type="checkbox" data-translation-paragraph="${p.number}"> 第 ${escapeHtml(p.label || p.number)} 段</label>`).join('');
   const translated = state.data.paragraphs.some((p) => p.translation); el.translationAll.disabled = !translated; el.translationAll.checked = false; $('[data-translation-availability]').hidden = translated;
   $('[data-translation-availability]').textContent = state.data.translationLoadFailed ? '中文翻譯暫時未能載入；你仍可閱讀英文及作答，請稍後重新整理。' : '這篇文章的完整中文翻譯正在逐篇整理中。';
+  if (dse) state.data.paragraphs.forEach((paragraph) => { if (paragraph.table) $(`#paragraph-${paragraph.number} .passage-text-block`).insertAdjacentHTML('beforeend', renderSourceTable(paragraph.table)); });
   renderScanTags();
 }
 function normalizedOption(option) { return typeof option === "string" ? { value: option, label: option, translation: "" } : option; }
@@ -502,29 +461,31 @@ function renderAnswerControl(control, name, partId) {
   return `<input class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '輸入答案')}" autocomplete="off" maxlength="300" placeholder="${escapeHtml(control.placeholder || '輸入答案')}">`;
 }
 function renderQuestionControls(question) {
+  if (question.tables?.length) {
+    const remainingParts = question.parts?.filter((part) => !part.inTable);
+    const remainingControls = !question.parts?.length || remainingParts?.length ? renderQuestionControls({ ...question, tables: undefined, parts: remainingParts }) : '';
+    return question.tables.map((table) => renderSourceTable(table, question)).join('') + remainingControls;
+  }
   if (question.parts?.length) return `<div class="question-parts">${question.parts.map((part) => { const name = `q${question.number}_${part.key}`; return `<div class="question-part"><span>${escapeHtml(part.label)}</span>${renderAnswerControl(part, name, name)}</div>`; }).join('')}</div>`;
   return renderAnswerControl(question, `q${question.number}`, `q${question.number}`);
 }
+function renderSourceTable(table, question = null) {
+  return `<div class="source-table-scroll" role="region" aria-label="${escapeHtml(table.caption || 'Source table')}" tabindex="0"><table class="source-table">${table.caption ? `<caption>${escapeHtml(table.caption)}</caption>` : ''}<tbody>${table.rows.map((row) => `<tr>${row.map((cell) => {
+    const item = typeof cell === 'string' ? { text: cell } : cell;
+    const tag = item.header ? 'th' : 'td';
+    const fields = (item.parts || (item.part ? [item.part] : [])).map((key) => question?.parts?.find((entry) => entry.key === key)).filter(Boolean);
+    const controls = fields.map((part) => { const name = `q${question.number}_${part.key}`; return renderAnswerControl(part, name, name); }).join('');
+    return `<${tag}${item.colSpan > 1 ? ` colspan="${item.colSpan}"` : ''}${item.rowSpan > 1 ? ` rowspan="${item.rowSpan}"` : ''}>${escapeHtml(item.text || '')}${controls}</${tag}>`;
+  }).join('')}</tr>`).join('')}</tbody></table></div>`;
+}
 function renderQuestions() {
   const groupLabels = state.data.instructions || {}; let group = "";
-  if (state.data.displayMode === 'paper') {
-    const answerCards = state.data.questions.map((question) => `<section class="question-card paper-answer-card" id="question-${question.number}" data-question="${question.number}"><p class="question-prompt"><span class="question-number">${question.number}</span>${escapeHtml(question.prompt)}</p>${renderQuestionControls(question)}</section>`).join('');
-    el.questions.innerHTML = `${renderPaperPageGallery(state.data.questionPages, 'questions')}<section class="paper-answer-section"><div class="paper-answer-section-heading"><p class="eyebrow">ANSWER SHEET</p><h2>Numbered answer fields</h2><p>Enter every subpart for a question in its matching field.</p></div><div class="paper-answer-grid">${answerCards}</div></section>`;
-    updateAnswerProgress();
-    return;
-  }
-  if (state.data.displayMode === 'structured-paper') {
-    const answerCards = state.data.questions.map((question) => `<section class="question-card paper-answer-card" id="question-${question.number}" data-question="${question.number}"><p class="question-prompt"><span class="question-number">${question.number}</span>${escapeHtml(question.prompt)}</p>${renderQuestionControls(question)}</section>`).join('');
-    el.questions.innerHTML = `${renderStructuredPaperPages(state.data.structuredQuestionPages, 'questions')}<section class="paper-answer-section"><div class="paper-answer-section-heading"><p class="eyebrow">ANSWER SHEET</p><h2>Numbered answer fields</h2><p>Enter every subpart for a question in its matching field.</p></div><div class="paper-answer-grid">${answerCards}</div></section>`;
-    updateAnswerProgress();
-    return;
-  }
   el.questions.innerHTML = state.data.questions.map((question) => {
     const sourceGroup = state.data.questionGroups?.find((item) => item.id === question.group);
     const heading = group !== question.group ? `<p class="question-group-heading">${escapeHtml(groupLabels[question.group])}</p>${sourceGroup ? `<div class="original-question-group">${interactiveWords(sourceGroup.text, `g${sourceGroup.start}`)}</div>` : ''}` : ""; group = question.group;
     const controls = renderQuestionControls(question);
     const scanButtons = state.data.paragraphs.map((p) => `<button type="button" data-scan-choice="${question.number}:${p.number}">P${escapeHtml(p.label || p.number)}</button>`).join("");
-    const figure = question.figure ? `<figure class="question-figure"><img src="${escapeHtml(question.figure.src)}" alt="${escapeHtml(question.figure.alt || '')}" loading="lazy">${question.figure.caption ? `<figcaption>${escapeHtml(question.figure.caption)}</figcaption>` : ''}</figure>` : '';
+    const figure = renderContentFigures(question.figures || (question.figure ? [question.figure] : []), 'question-figure');
     const marks = question.marks ? `<p class="question-meta">${question.marks} marks</p>` : '';
     const context = question.context ? `<div class="original-question-group">${state.system === 'dse' ? escapeHtml(question.context) : interactiveWords(question.context, `q${question.number}`)}</div>` : '';
     const optionBank = question.optionBank ? `<div class="question-option-bank">${escapeHtml(question.optionBank)}</div>` : '';
@@ -533,7 +494,7 @@ function renderQuestions() {
     const bookmark = state.system === 'dse' ? '' : `<div class="question-bookmark-row">${readingBookmarkButton('question', question.number)}</div>`;
     return `${heading}<section class="question-card" id="question-${question.number}" data-question="${question.number}">${bookmark}<p class="question-prompt"><span class="question-number">${question.number}</span>${state.system === 'dse' ? escapeHtml(question.prompt) : interactiveWords(question.prompt, `q${question.number}`)}</p>${marks}${translation}${context}${figure}${optionBank}${controls}${actions}</section>`;
   }).join("");
-  if (state.data.questionPages?.length) el.questions.insertAdjacentHTML('afterbegin', `<details class="original-pages"><summary>查看原題完整排版、圖表及選項</summary>${state.data.questionPages.map((src) => `<a href="${escapeHtml(src)}" target="_blank" rel="noopener"><img src="${escapeHtml(src)}" alt="原題頁面（可開啟放大）" loading="lazy"></a>`).join('')}</details>`);
+  if (state.system !== 'dse' && state.data.questionPages?.length) el.questions.insertAdjacentHTML('afterbegin', `<details class="original-pages"><summary>查看原題完整排版、圖表及選項</summary>${state.data.questionPages.map((src) => `<a href="${escapeHtml(src)}" target="_blank" rel="noopener"><img src="${escapeHtml(src)}" alt="原題頁面（可開啟放大）" loading="lazy"></a>`).join('')}</details>`);
   state.data.questions.filter((q) => q.requiresReview).forEach((q) => $(`[data-question="${q.number}"]`).insertAdjacentHTML('afterbegin','<p class="review-notice">原題或答案需教師核對；本題可儲存，但暫不自動計分。</p>'));
   if (state.system === 'ielts') updateScanControls();
   updateAnswerProgress();

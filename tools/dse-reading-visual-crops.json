@@ -1,0 +1,22 @@
+{
+  "2013/a/questions-2": [{"box":[0.13,0.313,0.78,0.133],"question":10,"alt":"Four pictured innovations, options A to D"}],
+  "2013/b1/passage-1": [{"box":[0.62,0.175,0.205,0.1],"paragraph":1,"alt":"A guzheng"}],
+  "2013/b1/questions-1": [{"box":[0.115,0.647,0.78,0.11],"question":31,"alt":"Three speech bubbles describing the benefits of playing the guzheng"}],
+  "2014/b1/questions-1": [{"box":[0.112,0.625,0.777,0.13],"question":37,"alt":"Options A to D: a park, a bookshop, a cafe and a train"}],
+  "2014/b1/passage-1": [{"box":[0.32,0.157,0.395,0.165],"paragraph":1,"alt":"A surprise letter left on a park bench"}],
+  "2015/b1/questions-1": [{"box":[0.218,0.558,0.572,0.277],"question":35,"alt":"Traffic diagram showing six car positions A to F"}],
+  "2015/b1/questions-2": [{"box":[0.142,0.269,0.582,0.101],"question":38,"alt":"Four diagrams showing where a car was damaged"}],
+  "2016/a/questions-1": [{"box":[0.155,0.254,0.71,0.09],"question":1,"alt":"Three pictures of superstitions"},{"box":[0.171,0.704,0.5,0.082],"question":4,"alt":"Four horseshoe positions, options A to D"}],
+  "2016/b1/passage-2": [{"box":[0.61,0.748,0.287,0.092],"paragraph":13,"alt":"A food truck"}],
+  "2017/a/questions-1": [{"box":[0.195,0.255,0.615,0.093],"question":1,"alt":"Six pictured materials and objects for recycling"}],
+  "2017/b1/passage-2": [{"box":[0.137,0.09,0.731,0.099],"paragraph":8,"alt":"Who are millennials? Population and generation infographic"}],
+  "2018/a/questions-2": [{"box":[0.144,0.632,0.732,0.121],"question":4,"alt":"Five illustrations of activities, options A to E"}],
+  "2019/a/passage-1": [{"box":[0.548,0.309,0.322,0.108],"paragraph":4,"alt":"Tim Harford and the cover of Messy"}],
+  "2019/a/questions-4": [{"box":[0.20,0.14,0.65,0.7],"question":18,"alt":"A conversation between Jenny and Paul in speech bubbles"}],
+  "2019/b1/passage-1": [{"box":[0.34,0.203,0.48,0.046],"paragraph":1,"alt":"Hong Kong Public Libraries activities banner"}],
+  "2019/b1/questions-1": [{"box":[0.163,0.278,0.635,0.137],"question":19,"alt":"Four illustrations of library activities, labelled A to D"}],
+  "2020/b1/questions-2": [{"box":[0.203,0.684,0.643,0.102],"question":29,"alt":"Four weather symbols, options A to D"}],
+  "2022/a/passage-1": [{"box":[0.697,0.234,0.10,0.205],"paragraph":1,"alt":"A character from Hong Kong comics"}],
+  "2023/b1/questions-2": [{"box":[0.138,0.513,0.523,0.098],"question":32,"alt":"Four illustrations of people and guide dogs"}],
+  "2025/b1/questions-1": [{"box":[0.132,0.588,0.743,0.121],"question":24,"alt":"Five illustrations of foraging activities, options A to E"}]
+}

@@ -9,6 +9,7 @@ import io
 import json
 import re
 import subprocess
+import tempfile
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from collections import deque
@@ -18,8 +19,9 @@ import numpy as np
 from PIL import Image
 
 
-PAPER_YEARS = (2013, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2025)
+PAPER_YEARS = (2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2025)
 SECTIONS = ("a", "b1", "b2")
+VISION_HELPER = Path("/tmp/edmund-dse-vision-ocr")
 
 
 def parse_args() -> argparse.Namespace:
@@ -68,9 +70,81 @@ def style_lines(lines: list[dict]) -> list[dict]:
     return lines
 
 
-def ocr_page(image_path: Path, tesseract: str) -> tuple[list[dict], list[dict]]:
+def ensure_vision_helper(root: Path) -> bool:
+    source = root / "tools/ocr-dse-page.m"
+    if not source.exists():
+        return False
+    if VISION_HELPER.exists() and VISION_HELPER.stat().st_mtime_ns >= source.stat().st_mtime_ns:
+        return True
+    try:
+        subprocess.run(
+            [
+                "xcrun", "clang", "-fobjc-arc", "-fblocks",
+                "-framework", "Foundation", "-framework", "AppKit", "-framework", "Vision",
+                str(source), "-o", str(VISION_HELPER),
+            ],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        return True
+    except (FileNotFoundError, subprocess.CalledProcessError):
+        return False
+
+
+def run_vision_helper(image_path: Path) -> list[dict]:
+    if not VISION_HELPER.exists():
+        return []
+    try:
+        result = subprocess.run(
+            [str(VISION_HELPER), str(image_path)],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        lines = json.loads(result.stdout)
+    except (json.JSONDecodeError, subprocess.CalledProcessError):
+        return []
+    return lines
+
+
+def vision_lines(image_path: Path, columns: bool = False) -> list[dict]:
+    lines = run_vision_helper(image_path)
+    if columns and lines:
+        with Image.open(image_path) as image:
+            width, height = image.size
+            marker_y = [
+                line["y"] for line in lines
+                if re.match(r"^\s*(?:\d{1,3}\s+)?[\[\(]\s*\d{1,2}\s*[\]\)]", line.get("text", ""))
+            ]
+            top = max(round(height * .05), min(marker_y, default=round(height * .12)) - round(height * .035))
+            bottom = round(height * .9)
+            boxes = (
+                (round(width * .06), top, round(width * .54), bottom),
+                (round(width * .47), top, round(width * .94), bottom),
+            )
+            column_lines = []
+            for column, box in enumerate(boxes):
+                with tempfile.NamedTemporaryFile(suffix=".png") as temporary:
+                    image.crop(box).save(temporary.name)
+                    cropped_lines = run_vision_helper(Path(temporary.name))
+                for line in cropped_lines:
+                    line["x"] += box[0]
+                    line["y"] += box[1]
+                column_lines.extend(
+                    line for line in cropped_lines
+                    if (line["x"] + line["width"] / 2 < width / 2) == (column == 0)
+                )
+        lines = [line for line in lines if line["y"] < top or line["y"] >= bottom] + column_lines
+    for line in lines:
+        line["text"] = clean_line([{"text": line["text"]}])
+        line["bold"] = False
+    return style_lines(sorted(lines, key=lambda item: (item["y"], item["x"])))
+
+
+def ocr_page(image_path: Path, tesseract: str, psm: str = "3") -> tuple[list[dict], list[dict]]:
     result = subprocess.run(
-        [tesseract, str(image_path), "stdout", "-l", "eng", "--psm", "3", "tsv"],
+        [tesseract, str(image_path), "stdout", "-l", "eng", "--oem", "1", "--psm", psm, "tsv"],
         check=True,
         capture_output=True,
         text=True,
@@ -127,7 +201,10 @@ def ocr_page(image_path: Path, tesseract: str) -> tuple[list[dict], list[dict]]:
             }
         )
     lines.sort(key=lambda item: (item["y"], item["x"]))
-    return words, style_lines(lines)
+    # Keep complete lines. The flow importer determines reading order; splitting
+    # every passage down the middle truncates wide paragraphs and table cells.
+    accurate_lines = vision_lines(image_path)
+    return words, accurate_lines or style_lines(lines)
 
 
 def dilate_grid(grid: np.ndarray, rounds: int = 2) -> np.ndarray:
@@ -313,7 +390,8 @@ def convert_page(
     else:
         with Image.open(source_path) as source:
             width, height = source.size
-        words, lines = ocr_page(source_path, tesseract)
+        psm = "6" if output_rel.name.startswith("questions-") else "3"
+        words, lines = ocr_page(source_path, tesseract, psm)
         cache_path.parent.mkdir(parents=True, exist_ok=True)
         cache_path.write_text(
             json.dumps({"width": width, "height": height, "words": words, "lines": lines}, ensure_ascii=False),
@@ -330,6 +408,48 @@ def convert_page(
     if figures:
         result["figures"] = figures
     return result
+
+
+def preserve_content_figures(old_page: dict, width: int, height: int, kind: str) -> list[dict]:
+    old_width = max(1, int(old_page.get("width", width)))
+    old_height = max(1, int(old_page.get("height", height)))
+    scale_x = width / old_width
+    scale_y = height / old_height
+    figures = []
+    for figure in old_page.get("figures", []):
+        x = int(figure["x"])
+        y = int(figure["y"])
+        figure_width = int(figure["width"])
+        figure_height = int(figure["height"])
+        center_y = y + figure_height / 2
+        if kind == "passage":
+            overlapping_lines = sum(
+                1
+                for line in old_page.get("lines", [])
+                if min(x + figure_width, line["x"] + line["width"]) - max(x, line["x"]) > line["width"] * .18
+                and min(y + figure_height, line["y"] + line["height"]) - max(y, line["y"]) > line["height"] * .18
+            )
+            if overlapping_lines >= 2:
+                continue
+        elif (
+            center_y > old_height * .92
+            or (
+                center_y < old_height * .18
+                and max(figure_width, figure_height) < old_width * .2
+            )
+        ):
+            continue
+        figures.append(
+            {
+                "src": figure.get("src", ""),
+                "x": round(x * scale_x),
+                "y": round(y * scale_y),
+                "width": round(figure_width * scale_x),
+                "height": round(figure_height * scale_y),
+                "alt": figure.get("alt", "Original content visual"),
+            }
+        )
+    return figures
 
 
 def convert_exercise(
@@ -353,6 +473,7 @@ def convert_exercise(
         ("passagePages", "structuredPassagePages", "passage"),
         ("questionPages", "structuredQuestionPages", "questions"),
     ):
+        old_pages = data.get(target_key, [])
         source_pages = data.get(source_key)
         if not source_pages:
             legacy_dir = root / "assets/reading-comprehension/dse/papers" / str(year) / section
@@ -374,6 +495,12 @@ def convert_exercise(
                     jobs,
                 )
             )
+        for page, old_page in zip(pages, old_pages):
+            figures = preserve_content_figures(old_page, page["width"], page["height"], stem)
+            if figures:
+                page["figures"] = figures
+            else:
+                page.pop("figures", None)
         converted += len(pages)
         line_count += sum(len(page["lines"]) for page in pages)
         data[target_key] = pages
@@ -387,6 +514,7 @@ def convert_exercise(
 def main() -> None:
     args = parse_args()
     root = args.root.resolve()
+    ensure_vision_helper(root)
     total_pages = 0
     total_lines = 0
     years = (args.year,) if args.year else PAPER_YEARS

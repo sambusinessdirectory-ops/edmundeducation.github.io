@@ -5,2856 +5,829 @@
   "title": "Improving Our Housing Estate",
   "sourceLabel": "HKDSE 2021 English Language Paper 1 Part B1",
   "sourceHeading": "Improving Our Housing Estate",
-  "displayMode": "structured-paper",
-  "paragraphs": [],
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "Text 4 - Paragraph 1 - Girlgeorgy - April 21, 2021, 11:35 AM",
+      "text": "I looked at the entrance area of our housing estate and thought it was ugly. We have some concrete plant holders outside and we should put some colourful plants in them to make it livelier. Right now, they are full of rubbish but I think people would not throw rubbish into them if we filled them with soil and some bright plants. Also by adding plants, the front area would become more pleasant and fresh. Those coming home from a long day would see the plants and feel better. The boring appearance would be livened up and people would have a warm, welcoming feeling; so adding plants out front would be an improvement to the lives of the residents."
+    },
+    {
+      "number": 2,
+      "label": "Text 4 - Paragraph 2 - Artsypatsy - April 21, 2021, 11:45 AM",
+      "text": "Yes, we need something outside. I have thought about putting climbing plants in the plant holders on the right side of the entrance. There are pipes and posts running up to the ceiling beside and above the planters. The climbers will help cover the posts and pipes and brighten the entrance and keep the air fresh."
+    },
+    {
+      "number": 3,
+      "label": "Text 4 - Paragraph 3 - Bazseedling - April 21, 2021, 11:58 AM",
+      "text": "We should have some flowering plants around the front doors. They would be a very nice addition and I'm sure many people would appreciate them."
+    },
+    {
+      "number": 4,
+      "label": "Text 4 - Paragraph 4 - Crustyclown - April 21, 2021, 12:11 PM",
+      "text": "You are all dreaming. Plants will only bring bugs and will dirty the entrance with falling leaves and dead flowers. The janitors will have additional work to tidy the mess. If you want it to look vibrant, just paint it with many colours."
+    },
+    {
+      "number": 5,
+      "label": "Text 4 - Paragraph 5 - Girlgeorgy - April 22, 2021, 11:35 AM",
+      "text": "Thanks to those of you who are supporting my ideas. We should start planning our project for the entrance. I think we need to appoint someone to take care of the project and to finish the planting in the entrance. That person should start by choosing the plants for the front. I am willing to take charge but I would like some of you to help me out. If that is fine, then I will start looking for suitable plants and then check possible garden supply stores. Our concern should be the price so I will ask for a discount."
+    },
+    {
+      "number": 6,
+      "label": "Text 4 - Paragraph 6 - Susan_B - April 22, 2021, 11:58 AM",
+      "text": "Girlgeorgy, I really don't care whether we have plants or not. Remember that there are many kids playing around the estate. We should not have plants which are sensitive to excessive touching and kids will always want to play with the plants. What's more, I can see some of the kids pulling the leaves out and sticking them inside their mouths. That would kill the entrance plants. So if we are going to have entrance plants, just make sure they are safe!"
+    },
+    {
+      "number": 7,
+      "label": "Text 4 - Paragraph 7 - Artsypatsy - April 22, 2021, 4:30 PM",
+      "text": "I really think Girlgeorgy should be in charge but I could also help out. The entrance is a perfect place for plants because there is a lot of sunlight but it only hits the left side which is also windy and cold in the winter. The right side doesn't get direct sunlight but does have some light when the lobby lights are switched on after 6:00PM. That means we need to consider different plants on each side of the entrance. A mix of different plants on each side would be ideal for all the residents."
+    },
+    {
+      "number": 8,
+      "label": "Text 4 - Paragraph 8 - Bazseedling - April 23, 2021, 11:58 AM",
+      "text": "I am all for the idea that Girlgeorgy should be the head. I also want some flowers in the front area. Either the right side or the left side would be fine."
+    },
+    {
+      "number": 9,
+      "label": "Text 4 - Paragraph 9 - Girlgeorgy - April 23, 2021, 3:30 PM",
+      "text": "OK, I will take charge of the project. My next step is to make a flyer by researching possible choices and prices for plants and circulate it among you for your opinions. Please tell me what you think and how much you'd like to spend. Hopefully, we should be able to a get good mixture of different plants - we don't need flowering plants everywhere in order to get a good variety of colour."
+    },
+    {
+      "number": 10,
+      "label": "Text 5",
+      "text": "Below is a flyer with information about plants for the residents of the housing estate.",
+      "table": {
+        "rows": [
+          [
+            {
+              "text": "Name of\nPlant",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "header": true
+            },
+            {
+              "text": "Type of\nPlant",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "header": true
+            },
+            {
+              "text": "Care, Water and Sunlight Requirements",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "header": true
+            },
+            {
+              "text": "Special Notes",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "header": true
+            }
+          ],
+          [
+            {
+              "text": "English Ivy",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "Climbing",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "This plant is quite easy to care for.\n• You should water it regularly and keep the soil\nmoist especially when it is kept outdoors.\n• It needs direct sunlight.",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "• It needs to be\nprotected from wind.\n• Its leaves and sap are\npoisonous.",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "Chinese\nVirginia\nCreeper",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "Climbing",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "• It is an all-around tough plant that is easy to\ncare for.\nYou should water it regularly.\n• It survives in low light conditions but grows\nfaster in direct sunlight.\nIt tolerates cold, exposed locations and heavy\nclay soils.",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "* Its leaves are colourful\nin summer with pink\nand white veins.",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "Moon Orchid",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "Small\nFlowering",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "• It requires expert care.\n• It needs loosely packed soil that allows airflow\naround its roots.\n• The soil needs to be kept wet in order to\nflower.\n• Do not expose it to direct sunlight.",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "• It needs regular\nfertiliser.\nIt has pink or white\nflowers.",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "Dumb Cane",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "Small",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "• It is easy to care for.\nIt should be watered frequently in summer\nand kept moist in winter.\n• Keep it in well-lit areas.",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "• The leaves and sap are\npoisonous.\n* Avoid pollutants.\n• Cold temperatures can\nkill this plant.\n• It is an ideal house\nplant.",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "Kumquat",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "Small\nFlowering\nFruit",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "• This plant requires a lot of care.\n• It should be watered frequently but not\noverwatered.\n• It needs direct sunlight.",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "• It is a beautiful\ndecorative plant and\nhas white flowers.\n• It can easily be\ndamaged by insects\nand excess touching.\n• It needs fertiliser 4\ntimes a year.",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "Red Crown\nCactus",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "Small\nFlowering",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "This plant is easy to care for.\nIt does not require much water.\nIt needs direct sunlight, but balanced with\nshade at night.\n• Avoid cold conditions.",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "It has sharp spikes\nwhich can cause\ninjuries.\nIt has red or orange\nflowers.",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "columns": 4,
+        "caption": "Possible plants for the residents of the housing estate"
+      }
+    }
+  ],
   "instructions": {
-    "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
+    "paper": "Answer every question using the passage."
   },
   "questions": [
     {
       "number": 28,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 28",
-      "placeholder": "Enter all answer parts for Question 28"
+      "type": "choice",
+      "prompt": "What is the topic of the forum?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Looking at the entrance area"
+        },
+        {
+          "value": "B",
+          "label": "B. Improving our housing estate"
+        },
+        {
+          "value": "C",
+          "label": "C. Throwing rubbish into plant pots"
+        },
+        {
+          "value": "D",
+          "label": "D. Putting plant holders at the entrance"
+        }
+      ]
     },
     {
       "number": 29,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 29",
-      "placeholder": "Enter all answer parts for Question 29"
+      "prompt": "How many people posted in the forum?"
     },
     {
       "number": 30,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 30",
-      "placeholder": "Enter all answer parts for Question 30"
+      "type": "choice",
+      "prompt": "How many posts are there on 22 April, 2021?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. 2"
+        },
+        {
+          "value": "B",
+          "label": "B. 3"
+        },
+        {
+          "value": "C",
+          "label": "C. 4"
+        }
+      ]
     },
     {
       "number": 31,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 31",
-      "placeholder": "Enter all answer parts for Question 31"
+      "prompt": "Who or what does the word 'them' (line 2) refer to?"
     },
     {
       "number": 32,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 32",
-      "placeholder": "Enter all answer parts for Question 32"
+      "type": "choice",
+      "prompt": "Look at the word 'posts' (line 10). The word has different meanings. Read the extract of the dictionary entry\nfor 'post' below and decide which meaning corresponds to the meaning in line 10.",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. delivery of mail"
+        },
+        {
+          "value": "B",
+          "label": "B. one of the legs of a piece of furniture, like a table"
+        },
+        {
+          "value": "C",
+          "label": "C. a message that is placed on an Internet website or forum"
+        },
+        {
+          "value": "D",
+          "label": "D. a strong piece of wood, metal, or other material used as a support"
+        }
+      ]
     },
     {
       "number": 33,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 33",
-      "placeholder": "Enter all answer parts for Question 33"
+      "prompt": "Who or what does the word 'they' (line 13) refer to?"
     },
     {
       "number": 34,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 34",
-      "placeholder": "Enter all answer parts for Question 34"
+      "prompt": "Why does Crustyclown say 'You are all dreaming' (line 15)?\nBecause Crustyclown wants to show"
     },
     {
       "number": 35,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 35",
-      "placeholder": "Enter all answer parts for Question 35"
+      "type": "choice",
+      "prompt": "Who is Girlgeorgy thanking for their support in line 18?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Bazseedling and Susan B"
+        },
+        {
+          "value": "B",
+          "label": "B. Susan B and Crustyclown"
+        },
+        {
+          "value": "C",
+          "label": "C. Artsypatsy and Bazseedling"
+        },
+        {
+          "value": "D",
+          "label": "D. Crustyclown and Artsypatsy"
+        }
+      ]
     },
     {
       "number": 36,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 36",
-      "placeholder": "Enter all answer parts for Question 36"
+      "prompt": "Which word in lines 15-17 has a similar meaning to 'bright'?"
     },
     {
       "number": 37,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 37",
-      "placeholder": "Enter all answer parts for Question 37"
+      "prompt": "Which word in lines 24-28 has a similar meaning to 'too much'?"
     },
     {
       "number": 38,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 38",
-      "placeholder": "Enter all answer parts for Question 38"
+      "type": "choice",
+      "prompt": "Who does 'that' (line 27) refer to?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Children playing around the estate"
+        },
+        {
+          "value": "B",
+          "label": "B. Children going into sensitive areas"
+        },
+        {
+          "value": "C",
+          "label": "C. Children pulling leaves from the plants"
+        },
+        {
+          "value": "D",
+          "label": "D. Children sticking things in their mouths"
+        }
+      ]
     },
     {
       "number": 39,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 39",
-      "placeholder": "Enter all answer parts for Question 39"
+      "type": "choice",
+      "prompt": "What is the main idea of lines 24-28?\nSusan B wants to...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. vote for Girlgeorgy."
+        },
+        {
+          "value": "B",
+          "label": "B. tell residents that she can't help."
+        },
+        {
+          "value": "C",
+          "label": "C. put plants at the entrance of the estate."
+        },
+        {
+          "value": "D",
+          "label": "D. remind Girlgeorgy that there are small children."
+        }
+      ]
     },
     {
       "number": 40,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 40",
-      "placeholder": "Enter all answer parts for Question 40"
+      "type": "choice",
+      "prompt": "Which of the following is NOT mentioned by Artsypatsy's post in lines 29-34?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Helping out"
+        },
+        {
+          "value": "B",
+          "label": "B. Agreeing with Susan B"
+        },
+        {
+          "value": "C",
+          "label": "C. Putting Girlgeorgy in charge"
+        },
+        {
+          "value": "D",
+          "label": "D. Having a mix of plants at the entrance"
+        }
+      ]
     },
     {
       "number": 41,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 41",
-      "placeholder": "Enter all answer parts for Question 41"
+      "type": "parts",
+      "prompt": "According to the forum, are the following statements True (T), False (F) or Not Given (NG)? (4 marks)",
+      "parts": [
+        {
+          "key": "1",
+          "label": "(i) Artsypatsy has already put climbing plants around the entrance.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "2",
+          "label": "(ii) Girlgeorgy thinks the entrance looks boring.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "3",
+          "label": "(iii) The left side of the entrance receives a lot of light.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "4",
+          "label": "(iv) Girlgeorgy has all the information on plant prices.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
     },
     {
       "number": 42,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 42",
-      "placeholder": "Enter all answer parts for Question 42"
+      "type": "parts",
+      "prompt": "Decide whether each of the following authors has a positive, negative or neutral attitude towards adding plants to the entrance area. (4 marks)",
+      "parts": [
+        {
+          "key": "1",
+          "label": "(i) Bazseedling",
+          "type": "choice",
+          "options": [
+            "Positive",
+            "Negative",
+            "Neutral"
+          ]
+        },
+        {
+          "key": "2",
+          "label": "(ii) Susan_B",
+          "type": "choice",
+          "options": [
+            "Positive",
+            "Negative",
+            "Neutral"
+          ]
+        },
+        {
+          "key": "3",
+          "label": "(iii) Artsypatsy",
+          "type": "choice",
+          "options": [
+            "Positive",
+            "Negative",
+            "Neutral"
+          ]
+        },
+        {
+          "key": "4",
+          "label": "(iv) Crustyclown",
+          "type": "choice",
+          "options": [
+            "Positive",
+            "Negative",
+            "Neutral"
+          ]
+        }
+      ]
     },
     {
       "number": 43,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 43",
-      "placeholder": "Enter all answer parts for Question 43"
+      "type": "parts",
+      "prompt": "Read the statements and match each with ONE of the authors. Use each letter ONCE only. ONE statement is NOT used. (5 marks)",
+      "optionBank": "A. There are too many bugs on the estate.\nB. What I really want is flowers.\nC. Plants should be able to cope with lots of touching.\nD. I could take charge of the project.\nE. Paint the entrance with lots of colours.\nF. Put a range of plants around the entrance.",
+      "parts": [
+        {
+          "key": "1",
+          "label": "(i) Girlgeorgy",
+          "type": "text"
+        },
+        {
+          "key": "2",
+          "label": "(ii) Artsypatsy",
+          "type": "text"
+        },
+        {
+          "key": "3",
+          "label": "(iii) Bazseedling",
+          "type": "text"
+        },
+        {
+          "key": "4",
+          "label": "(iv) Crustyclown",
+          "type": "text"
+        },
+        {
+          "key": "5",
+          "label": "(v) Susan_B",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 44,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 44",
-      "placeholder": "Enter all answer parts for Question 44"
+      "type": "parts",
+      "prompt": "Below are summaries of two possible plants for the housing estate. Fill in the blanks with ONE word that best fits the paragraph. Your answers must be grammatically correct. (9 marks)",
+      "context": "Moon Orchid\nMoon Orchids are beautiful plants to have but it is difficult to take care of them, especially if you want them to have (i) ______. You have to (ii) ______ them often because they need to be kept moist. You also have to make sure that the soil is (iii) ______ so that the roots get a lot of (iv) ______.\n\nDumb Cane\nThis plant is easy to care for and it grows very well (v) ______ as long as it gets enough (vi) ______. You should also water it (vii) ______ and make sure it does not get too (viii) ______ because that can kill the plant. You should be careful with small children because the leaves are (ix) ______.",
+      "parts": [
+        {
+          "key": "1",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "2",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "3",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "4",
+          "label": "(iv)",
+          "type": "text"
+        },
+        {
+          "key": "5",
+          "label": "(v)",
+          "type": "text"
+        },
+        {
+          "key": "6",
+          "label": "(vi)",
+          "type": "text"
+        },
+        {
+          "key": "7",
+          "label": "(vii)",
+          "type": "text"
+        },
+        {
+          "key": "8",
+          "label": "(viii)",
+          "type": "text"
+        },
+        {
+          "key": "9",
+          "label": "(ix)",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 45,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 45",
-      "placeholder": "Enter all answer parts for Question 45"
+      "type": "parts",
+      "prompt": "Below is a table summarising the information about four of the plants. Complete all the boxes in the table by\nwriting 'Y' for yes or 'N' for no. Some have been done for you as examples. (4 marks)",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Name of Plant",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              },
+              {
+                "text": "Easy to Care For",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              },
+              {
+                "text": "Needs Direct Sunlight",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              },
+              {
+                "text": "Suitable for Young Children",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) English Ivy",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r2c2g1"
+                ]
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r2c3g1"
+                ]
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r2c4g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "(ii) Chinese Virginia Creeper",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r3c2g1"
+                ]
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r3c3g1"
+                ]
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r3c4g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "(iri) Kumquat",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r4c2g1"
+                ]
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r4c3g1"
+                ]
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r4c4g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "(iv) Red Crown Cactus",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Y",
+                "colSpan": 2,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r5c3g1"
+                ]
+              }
+            ]
+          ],
+          "columns": 4
+        }
+      ],
+      "parts": [
+        {
+          "key": "t1r2c2g1",
+          "label": "Row 2, column 2",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r2c3g1",
+          "label": "Row 2, column 3",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r2c4g1",
+          "label": "Row 2, column 4",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r3c2g1",
+          "label": "Row 3, column 2",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r3c3g1",
+          "label": "Row 3, column 3",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r3c4g1",
+          "label": "Row 3, column 4",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r4c2g1",
+          "label": "Row 4, column 2",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r4c3g1",
+          "label": "Row 4, column 3",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r4c4g1",
+          "label": "Row 4, column 4",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r5c3g1",
+          "label": "Row 5, column 3",
+          "type": "text",
+          "inTable": true
+        }
+      ]
     },
     {
       "number": 46,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 46",
-      "placeholder": "Enter all answer parts for Question 46"
-    }
-  ],
-  "structuredPassagePages": [
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Reading passage page 1",
-      "lines": [
-        {
-          "x": 129,
-          "y": 152,
-          "width": 120,
-          "height": 22,
-          "text": "PART B1",
-          "bold": true
-        },
-        {
-          "x": 128,
-          "y": 214,
-          "width": 865,
-          "height": 23,
-          "text": "Read Texts 4-5 and answer questions 28-46 in the Question-Answer Book for Part B1.",
-          "bold": false
-        },
-        {
-          "x": 127,
-          "y": 273,
-          "width": 86,
-          "height": 19,
-          "text": "Text 4",
-          "bold": true
-        },
-        {
-          "x": 128,
-          "y": 302,
-          "width": 1160,
-          "height": 24,
-          "text": "Below is an extract from an online forum where residents of a housing estate are discussing the possibility of putting",
-          "bold": false
-        },
-        {
-          "x": 127,
-          "y": 331,
-          "width": 479,
-          "height": 23,
-          "text": "plants around the entrance of the housing estate.",
-          "bold": true
-        },
-        {
-          "x": 155,
-          "y": 391,
-          "width": 105,
-          "height": 18,
-          "text": "SUBJECT:",
-          "bold": true
-        },
-        {
-          "x": 332,
-          "y": 391,
-          "width": 336,
-          "height": 22,
-          "text": "Improving our housing estate",
-          "bold": false
-        },
-        {
-          "x": 786,
-          "y": 435,
-          "width": 59,
-          "height": 18,
-          "text": "POST",
-          "bold": true
-        },
-        {
-          "x": 155,
-          "y": 436,
-          "width": 125,
-          "height": 17,
-          "text": "USERNAME",
-          "bold": true
-        },
-        {
-          "x": 154,
-          "y": 477,
-          "width": 100,
-          "height": 22,
-          "text": "Girlgeorgy",
-          "bold": false
-        },
-        {
-          "x": 332,
-          "y": 477,
-          "width": 915,
-          "height": 22,
-          "text": "[1] I looked at the entrance area of our housing estate and thought it was ugly. We have",
-          "bold": false
-        },
-        {
-          "x": 332,
-          "y": 504,
-          "width": 915,
-          "height": 22,
-          "text": "some concrete plant holders outside and we should put some colourful plants in them to",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 505,
-          "width": 136,
-          "height": 22,
-          "text": "April 21, 2021",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 532,
-          "width": 90,
-          "height": 17,
-          "text": "11:35 AM",
-          "bold": true
-        },
-        {
-          "x": 332,
-          "y": 532,
-          "width": 915,
-          "height": 22,
-          "text": "make it livelier. Right now, they are full of rubbish but I think people would not throw rubbish",
-          "bold": false
-        },
-        {
-          "x": 332,
-          "y": 559,
-          "width": 915,
-          "height": 22,
-          "text": "into them if we filled them with soil and some bright plants. Also by adding plants, the front",
-          "bold": false
-        },
-        {
-          "x": 332,
-          "y": 586,
-          "width": 914,
-          "height": 22,
-          "text": "area would become more pleasant and fresh. Those coming home from a long day would",
-          "bold": false
-        },
-        {
-          "x": 331,
-          "y": 613,
-          "width": 915,
-          "height": 22,
-          "text": "see the plants and feel better. The boring appearance would be livened up and people would",
-          "bold": false
-        },
-        {
-          "x": 332,
-          "y": 640,
-          "width": 915,
-          "height": 23,
-          "text": "have a warm, welcoming feeling; so adding plants out front would be an improvement to the",
-          "bold": false
-        },
-        {
-          "x": 337,
-          "y": 667,
-          "width": 204,
-          "height": 18,
-          "text": "ives of the residents.",
-          "bold": true
-        },
-        {
-          "x": 340,
-          "y": 724,
-          "width": 907,
-          "height": 23,
-          "text": "2] Yes, we need something outside. I have thought about putting climbing plants in the",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 725,
-          "width": 101,
-          "height": 22,
-          "text": "Artsypatsy",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 752,
-          "width": 136,
-          "height": 21,
-          "text": "April 21, 2021",
-          "bold": false
-        },
-        {
-          "x": 332,
-          "y": 752,
-          "width": 914,
-          "height": 22,
-          "text": "plant holders on the right side of the entrance. There are pipes and posts running up to the",
-          "bold": false
-        },
-        {
-          "x": 1276,
-          "y": 752,
-          "width": 20,
-          "height": 17,
-          "text": "10",
-          "bold": false
-        },
-        {
-          "x": 331,
-          "y": 779,
-          "width": 914,
-          "height": 23,
-          "text": "ceiling beside and above the planters. The climbers will help cover the posts and pipes and",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 780,
-          "width": 90,
-          "height": 17,
-          "text": "11:45 AM",
-          "bold": true
-        },
-        {
-          "x": 332,
-          "y": 807,
-          "width": 445,
-          "height": 22,
-          "text": "brighten the entrance and keep the air fresh.",
-          "bold": true
-        },
-        {
-          "x": 155,
-          "y": 864,
-          "width": 113,
-          "height": 22,
-          "text": "Bazseedling",
-          "bold": true
-        },
-        {
-          "x": 332,
-          "y": 864,
-          "width": 914,
-          "height": 23,
-          "text": "[3] We should have some flowering plants around the front doors. They would be a very nice",
-          "bold": false
-        },
-        {
-          "x": 331,
-          "y": 891,
-          "width": 586,
-          "height": 22,
-          "text": "addition and I’m sure many people would appreciate them.",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 892,
-          "width": 136,
-          "height": 21,
-          "text": "April 24, 2021",
-          "bold": false
-        },
-        {
-          "x": 342,
-          "y": 892,
-          "width": 11,
-          "height": 17,
-          "text": "Q",
-          "bold": true
-        },
-        {
-          "x": 155,
-          "y": 919,
-          "width": 91,
-          "height": 17,
-          "text": "11:58 AM",
-          "bold": true
-        },
-        {
-          "x": 154,
-          "y": 975,
-          "width": 117,
-          "height": 23,
-          "text": "Crustyclown",
-          "bold": true
-        },
-        {
-          "x": 339,
-          "y": 976,
-          "width": 906,
-          "height": 22,
-          "text": "4] You are all dreaming. Plants will only bring bugs and will dirty the entrance with falling",
-          "bold": false
-        },
-        {
-          "x": 1276,
-          "y": 976,
-          "width": 19,
-          "height": 18,
-          "text": "15",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 1003,
-          "width": 136,
-          "height": 21,
-          "text": "April 21, 2021",
-          "bold": false
-        },
-        {
-          "x": 335,
-          "y": 1003,
-          "width": 912,
-          "height": 22,
-          "text": "leaves and dead flowers. The janitors will have additional work to tidy the mess. If you want",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1030,
-          "width": 89,
-          "height": 18,
-          "text": "12:11 PM",
-          "bold": true
-        },
-        {
-          "x": 331,
-          "y": 1030,
-          "width": 483,
-          "height": 23,
-          "text": "it to look vibrant, just paint it with many colours,",
-          "bold": true
-        },
-        {
-          "x": 340,
-          "y": 1087,
-          "width": 907,
-          "height": 23,
-          "text": "5] Thanks to those of you who are supporting my ideas, We should start planning our project",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 1088,
-          "width": 100,
-          "height": 21,
-          "text": "Girlgeorgy",
-          "bold": false
-        },
-        {
-          "x": 330,
-          "y": 1114,
-          "width": 915,
-          "height": 23,
-          "text": "for the entrance. I think we need to appoint someone to take care of the project and to finish",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 1115,
-          "width": 136,
-          "height": 21,
-          "text": "April 22, 2021",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1142,
-          "width": 90,
-          "height": 17,
-          "text": "11:35 AM",
-          "bold": true
-        },
-        {
-          "x": 329,
-          "y": 1142,
-          "width": 917,
-          "height": 22,
-          "text": "the planting in the entrance. That person should start by choosing the plants for the front. I",
-          "bold": false
-        },
-        {
-          "x": 1274,
-          "y": 1142,
-          "width": 22,
-          "height": 18,
-          "text": "20",
-          "bold": false
-        },
-        {
-          "x": 330,
-          "y": 1169,
-          "width": 915,
-          "height": 22,
-          "text": "am willing to take charge but I would like some of you to help me out. If that is fine, then I",
-          "bold": false
-        },
-        {
-          "x": 330,
-          "y": 1196,
-          "width": 917,
-          "height": 23,
-          "text": "will start looking for suitable plants and then check possible garden supply stores. Our",
-          "bold": false
-        },
-        {
-          "x": 330,
-          "y": 1223,
-          "width": 548,
-          "height": 22,
-          "text": "concern should be the price so I will ask for a discount.",
-          "bold": true
-        },
-        {
-          "x": 154,
-          "y": 1280,
-          "width": 83,
-          "height": 21,
-          "text": "Susan_B",
-          "bold": true
-        },
-        {
-          "x": 331,
-          "y": 1280,
-          "width": 915,
-          "height": 23,
-          "text": "[6] Girlgeorgy, I really don’t care whether we have plants or not. Remember that there are",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 1307,
-          "width": 136,
-          "height": 22,
-          "text": "April 22, 2021",
-          "bold": false
-        },
-        {
-          "x": 331,
-          "y": 1307,
-          "width": 915,
-          "height": 23,
-          "text": "many kids playing around the estate. We should not have plants which are sensitive to",
-          "bold": false
-        },
-        {
-          "x": 1274,
-          "y": 1309,
-          "width": 21,
-          "height": 17,
-          "text": "25",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1335,
-          "width": 90,
-          "height": 17,
-          "text": "11:58 AM",
-          "bold": true
-        },
-        {
-          "x": 330,
-          "y": 1335,
-          "width": 916,
-          "height": 23,
-          "text": "excessive touching and kids will always want to play with the plants. What’s more, I can see",
-          "bold": false
-        },
-        {
-          "x": 330,
-          "y": 1363,
-          "width": 915,
-          "height": 22,
-          "text": "some of the kids pulling the leaves out and sticking them inside their mouths. That would kill",
-          "bold": false
-        },
-        {
-          "x": 329,
-          "y": 1390,
-          "width": 915,
-          "height": 22,
-          "text": "the entrance plants. So if we are going to have entrance plants, just make sure they are safe!",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 1447,
-          "width": 102,
-          "height": 22,
-          "text": "Artsypatsy",
-          "bold": true
-        },
-        {
-          "x": 331,
-          "y": 1447,
-          "width": 914,
-          "height": 23,
-          "text": "[7] I really think Girlgeorgy should be in charge but I could also help out. The entrance is a",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 1474,
-          "width": 135,
-          "height": 21,
-          "text": "April 22, 2021",
-          "bold": false
-        },
-        {
-          "x": 331,
-          "y": 1474,
-          "width": 915,
-          "height": 22,
-          "text": "perfect place for plants because there is a lot of sunlight but it only hits the left side which is",
-          "bold": false
-        },
-        {
-          "x": 1274,
-          "y": 1475,
-          "width": 22,
-          "height": 17,
-          "text": "30",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 1501,
-          "width": 79,
-          "height": 17,
-          "text": "4:30 PM",
-          "bold": true
-        },
-        {
-          "x": 330,
-          "y": 1501,
-          "width": 916,
-          "height": 23,
-          "text": "also windy and cold in the winter. The right side doesn’t get direct sunlight but does have",
-          "bold": false
-        },
-        {
-          "x": 330,
-          "y": 1528,
-          "width": 916,
-          "height": 22,
-          "text": "some light when the lobby lights are switched on after 6:00PM. That means we need to",
-          "bold": false
-        },
-        {
-          "x": 330,
-          "y": 1555,
-          "width": 916,
-          "height": 23,
-          "text": "consider different plants on each side of the entrance. A mix of different plants on each side",
-          "bold": false
-        },
-        {
-          "x": 330,
-          "y": 1583,
-          "width": 348,
-          "height": 18,
-          "text": "would be ideal for all the residents.",
-          "bold": true
-        },
-        {
-          "x": 154,
-          "y": 1639,
-          "width": 112,
-          "height": 23,
-          "text": "Bazseedling",
-          "bold": true
-        },
-        {
-          "x": 331,
-          "y": 1640,
-          "width": 915,
-          "height": 22,
-          "text": "[8] I am all for the idea that Girlgeorgy should be the head. I also want some flowers in the",
-          "bold": false
-        },
-        {
-          "x": 1274,
-          "y": 1641,
-          "width": 22,
-          "height": 18,
-          "text": "35",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 1667,
-          "width": 136,
-          "height": 21,
-          "text": "April 23, 2021",
-          "bold": false
-        },
-        {
-          "x": 329,
-          "y": 1667,
-          "width": 609,
-          "height": 22,
-          "text": "front area. Either the right side or the left side would be fine.",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1694,
-          "width": 90,
-          "height": 17,
-          "text": "11:58 AM",
-          "bold": true
-        },
-        {
-          "x": 154,
-          "y": 1752,
-          "width": 99,
-          "height": 21,
-          "text": "Girlgeorgy",
-          "bold": true
-        },
-        {
-          "x": 331,
-          "y": 1752,
-          "width": 914,
-          "height": 23,
-          "text": "[9] OK, I will take charge of the project. My next step is to make a flyer by researching",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 1778,
-          "width": 136,
-          "height": 22,
-          "text": "April 23, 2021",
-          "bold": false
-        },
-        {
-          "x": 331,
-          "y": 1778,
-          "width": 915,
-          "height": 23,
-          "text": "possible choices and prices for plants and circulate it among you for your opinions. Please",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 1805,
-          "width": 79,
-          "height": 18,
-          "text": "3:30 PM",
-          "bold": true
-        },
-        {
-          "x": 329,
-          "y": 1806,
-          "width": 916,
-          "height": 23,
-          "text": "tell me what you think and how much you'd like to spend. Hopefully, we should be able to a",
-          "bold": false
-        },
-        {
-          "x": 330,
-          "y": 1833,
-          "width": 917,
-          "height": 23,
-          "text": "get good mixture of different plants — we don’t need flowering plants everywhere in order to",
-          "bold": false
-        },
-        {
-          "x": 1274,
-          "y": 1835,
-          "width": 22,
-          "height": 17,
-          "text": "40",
-          "bold": false
-        },
-        {
-          "x": 330,
-          "y": 1860,
-          "width": 280,
-          "height": 22,
-          "text": "get a good variety of colour.",
-          "bold": true
-        },
-        {
-          "x": 126,
-          "y": 1991,
-          "width": 622,
-          "height": 23,
-          "text": "2021-DSE-ENG LANG 1-B1-RP-2 17",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Reading passage page 2",
-      "lines": [
-        {
-          "x": 119,
-          "y": 210,
-          "width": 85,
-          "height": 19,
-          "text": "Text 5",
-          "bold": false
-        },
-        {
-          "x": 119,
-          "y": 239,
-          "width": 848,
-          "height": 25,
-          "text": "Below is a flyer with information about plants for the residents of the housing estate.",
-          "bold": false
-        },
-        {
-          "x": 345,
-          "y": 314,
-          "width": 713,
-          "height": 28,
-          "text": "Possible plants for the residents of the housing estate",
-          "bold": false
-        },
-        {
-          "x": 170,
-          "y": 416,
-          "width": 247,
-          "height": 22,
-          "text": "Name of Type of",
-          "bold": true
-        },
-        {
-          "x": 497,
-          "y": 417,
-          "width": 450,
-          "height": 23,
-          "text": "Care, Water and Sunlight Requirements",
-          "bold": false
-        },
-        {
-          "x": 1066,
-          "y": 419,
-          "width": 151,
-          "height": 21,
-          "text": "Special Notes",
-          "bold": false
-        },
-        {
-          "x": 188,
-          "y": 443,
-          "width": 216,
-          "height": 19,
-          "text": "Plant Plant",
-          "bold": true
-        },
-        {
-          "x": 151,
-          "y": 512,
-          "width": 241,
-          "height": 23,
-          "text": "English Ivy Climbing",
-          "bold": true
-        },
-        {
-          "x": 510,
-          "y": 513,
-          "width": 341,
-          "height": 23,
-          "text": "This plant is quite easy to care for.",
-          "bold": false
-        },
-        {
-          "x": 1042,
-          "y": 515,
-          "width": 139,
-          "height": 18,
-          "text": "It needs to be",
-          "bold": false
-        },
-        {
-          "x": 510,
-          "y": 540,
-          "width": 461,
-          "height": 24,
-          "text": "You should water it regularly and keep the soil",
-          "bold": false
-        },
-        {
-          "x": 1043,
-          "y": 543,
-          "width": 204,
-          "height": 21,
-          "text": "protected from wind.",
-          "bold": false
-        },
-        {
-          "x": 511,
-          "y": 568,
-          "width": 408,
-          "height": 23,
-          "text": "moist especially when it is kept outdoors.",
-          "bold": false
-        },
-        {
-          "x": 1042,
-          "y": 569,
-          "width": 217,
-          "height": 22,
-          "text": "Its leaves and sap are",
-          "bold": false
-        },
-        {
-          "x": 510,
-          "y": 595,
-          "width": 234,
-          "height": 22,
-          "text": "It needs direct sunlight.",
-          "bold": false
-        },
-        {
-          "x": 1042,
-          "y": 597,
-          "width": 104,
-          "height": 21,
-          "text": "poisonous.",
-          "bold": true
-        },
-        {
-          "x": 148,
-          "y": 664,
-          "width": 243,
-          "height": 31,
-          "text": "Chinese Climbing",
-          "bold": true
-        },
-        {
-          "x": 510,
-          "y": 669,
-          "width": 444,
-          "height": 24,
-          "text": "It is an all-around tough plant that is easy to",
-          "bold": false
-        },
-        {
-          "x": 1041,
-          "y": 671,
-          "width": 224,
-          "height": 18,
-          "text": "Its leaves are colourful",
-          "bold": false
-        },
-        {
-          "x": 148,
-          "y": 696,
-          "width": 72,
-          "height": 21,
-          "text": "Virginia",
-          "bold": false
-        },
-        {
-          "x": 509,
-          "y": 696,
-          "width": 79,
-          "height": 18,
-          "text": "care for.",
-          "bold": false
-        },
-        {
-          "x": 1042,
-          "y": 699,
-          "width": 200,
-          "height": 22,
-          "text": "in summer with pink",
-          "bold": false
-        },
-        {
-          "x": 148,
-          "y": 723,
-          "width": 77,
-          "height": 22,
-          "text": "Creeper",
-          "bold": false
-        },
-        {
-          "x": 509,
-          "y": 723,
-          "width": 288,
-          "height": 24,
-          "text": "You should water it regularly.",
-          "bold": false
-        },
-        {
-          "x": 1041,
-          "y": 725,
-          "width": 159,
-          "height": 19,
-          "text": "and white veins.",
-          "bold": false
-        },
-        {
-          "x": 509,
-          "y": 751,
-          "width": 432,
-          "height": 23,
-          "text": "It survives in low light conditions but grows",
-          "bold": false
-        },
-        {
-          "x": 508,
-          "y": 778,
-          "width": 234,
-          "height": 23,
-          "text": "faster in direct sunlight.",
-          "bold": false
-        },
-        {
-          "x": 509,
-          "y": 805,
-          "width": 456,
-          "height": 24,
-          "text": "It tolerates cold, exposed locations and heavy",
-          "bold": false
-        },
-        {
-          "x": 509,
-          "y": 832,
-          "width": 92,
-          "height": 22,
-          "text": "clay soils.",
-          "bold": true
-        },
-        {
-          "x": 148,
-          "y": 902,
-          "width": 210,
-          "height": 31,
-          "text": "Moon Orchid |} Small",
-          "bold": true
-        },
-        {
-          "x": 508,
-          "y": 907,
-          "width": 227,
-          "height": 22,
-          "text": "Tt requires expert care.",
-          "bold": false
-        },
-        {
-          "x": 1040,
-          "y": 909,
-          "width": 158,
-          "height": 22,
-          "text": "It needs regular",
-          "bold": false
-        },
-        {
-          "x": 307,
-          "y": 933,
-          "width": 94,
-          "height": 23,
-          "text": "Flowering",
-          "bold": false
-        },
-        {
-          "x": 508,
-          "y": 934,
-          "width": 462,
-          "height": 22,
-          "text": "It needs loosely packed soil that allows airflow",
-          "bold": false
-        },
-        {
-          "x": 1039,
-          "y": 936,
-          "width": 82,
-          "height": 18,
-          "text": "fertiliser.",
-          "bold": false
-        },
-        {
-          "x": 508,
-          "y": 961,
-          "width": 161,
-          "height": 18,
-          "text": "around its roots.",
-          "bold": false
-        },
-        {
-          "x": 1039,
-          "y": 964,
-          "width": 192,
-          "height": 22,
-          "text": "It has pink or white",
-          "bold": false
-        },
-        {
-          "x": 507,
-          "y": 988,
-          "width": 405,
-          "height": 23,
-          "text": "The soil needs to be kept wet in order to",
-          "bold": false
-        },
-        {
-          "x": 1039,
-          "y": 991,
-          "width": 76,
-          "height": 18,
-          "text": "flowers.",
-          "bold": false
-        },
-        {
-          "x": 507,
-          "y": 1016,
-          "width": 63,
-          "height": 18,
-          "text": "flower.",
-          "bold": false
-        },
-        {
-          "x": 508,
-          "y": 1044,
-          "width": 342,
-          "height": 23,
-          "text": "Do not expose it to direct sunlight.",
-          "bold": true
-        },
-        {
-          "x": 133,
-          "y": 1103,
-          "width": 316,
-          "height": 214,
-          "text": "aa",
-          "bold": true
-        },
-        {
-          "x": 507,
-          "y": 1115,
-          "width": 202,
-          "height": 21,
-          "text": "It is easy to care for.",
-          "bold": false
-        },
-        {
-          "x": 1038,
-          "y": 1117,
-          "width": 228,
-          "height": 22,
-          "text": "The leaves and sap are",
-          "bold": false
-        },
-        {
-          "x": 507,
-          "y": 1142,
-          "width": 426,
-          "height": 23,
-          "text": "It should be watered frequently in summer",
-          "bold": false
-        },
-        {
-          "x": 1039,
-          "y": 1145,
-          "width": 103,
-          "height": 21,
-          "text": "poisonous.",
-          "bold": false
-        },
-        {
-          "x": 506,
-          "y": 1168,
-          "width": 243,
-          "height": 23,
-          "text": "and kept moist in winter.",
-          "bold": false
-        },
-        {
-          "x": 1037,
-          "y": 1171,
-          "width": 163,
-          "height": 22,
-          "text": "Avoid pollutants.",
-          "bold": false
-        },
-        {
-          "x": 507,
-          "y": 1196,
-          "width": 230,
-          "height": 21,
-          "text": "Keep it in well-lit areas.",
-          "bold": false
-        },
-        {
-          "x": 1038,
-          "y": 1198,
-          "width": 221,
-          "height": 22,
-          "text": "Cold temperatures can",
-          "bold": false
-        },
-        {
-          "x": 1039,
-          "y": 1225,
-          "width": 128,
-          "height": 22,
-          "text": "kill this plant.",
-          "bold": false
-        },
-        {
-          "x": 1038,
-          "y": 1253,
-          "width": 186,
-          "height": 18,
-          "text": "It is an ideal house",
-          "bold": false
-        },
-        {
-          "x": 1038,
-          "y": 1280,
-          "width": 53,
-          "height": 22,
-          "text": "plant.",
-          "bold": false
-        },
-        {
-          "x": 146,
-          "y": 1326,
-          "width": 210,
-          "height": 31,
-          "text": "Kumquat Small",
-          "bold": false
-        },
-        {
-          "x": 505,
-          "y": 1331,
-          "width": 316,
-          "height": 22,
-          "text": "This plant requires a lot of care.",
-          "bold": false
-        },
-        {
-          "x": 1037,
-          "y": 1333,
-          "width": 148,
-          "height": 18,
-          "text": "It is a beautiful",
-          "bold": false
-        },
-        {
-          "x": 305,
-          "y": 1357,
-          "width": 93,
-          "height": 23,
-          "text": "Flowering",
-          "bold": false
-        },
-        {
-          "x": 506,
-          "y": 1358,
-          "width": 392,
-          "height": 24,
-          "text": "It should be watered frequently but not",
-          "bold": false
-        },
-        {
-          "x": 1037,
-          "y": 1361,
-          "width": 199,
-          "height": 22,
-          "text": "decorative plant and",
-          "bold": false
-        },
-        {
-          "x": 305,
-          "y": 1385,
-          "width": 43,
-          "height": 17,
-          "text": "Fruit",
-          "bold": false
-        },
-        {
-          "x": 505,
-          "y": 1386,
-          "width": 128,
-          "height": 17,
-          "text": "overwatered.",
-          "bold": false
-        },
-        {
-          "x": 1037,
-          "y": 1388,
-          "width": 177,
-          "height": 18,
-          "text": "has white flowers.",
-          "bold": false
-        },
-        {
-          "x": 506,
-          "y": 1413,
-          "width": 232,
-          "height": 22,
-          "text": "It needs direct sunlight.",
-          "bold": false
-        },
-        {
-          "x": 1037,
-          "y": 1416,
-          "width": 150,
-          "height": 21,
-          "text": "It can easily be",
-          "bold": false
-        },
-        {
-          "x": 1036,
-          "y": 1443,
-          "width": 195,
-          "height": 22,
-          "text": "damaged by insects",
-          "bold": false
-        },
-        {
-          "x": 1036,
-          "y": 1470,
-          "width": 205,
-          "height": 22,
-          "text": "and excess touching.",
-          "bold": false
-        },
-        {
-          "x": 1036,
-          "y": 1497,
-          "width": 186,
-          "height": 18,
-          "text": "It needs fertiliser 4",
-          "bold": false
-        },
-        {
-          "x": 1036,
-          "y": 1525,
-          "width": 123,
-          "height": 21,
-          "text": "times a year.",
-          "bold": true
-        },
-        {
-          "x": 146,
-          "y": 1587,
-          "width": 209,
-          "height": 18,
-          "text": "Red Crown Small",
-          "bold": true
-        },
-        {
-          "x": 504,
-          "y": 1589,
-          "width": 284,
-          "height": 22,
-          "text": "This plant is easy to care for.",
-          "bold": false
-        },
-        {
-          "x": 1036,
-          "y": 1591,
-          "width": 185,
-          "height": 23,
-          "text": "It has sharp spikes",
-          "bold": false
-        },
-        {
-          "x": 145,
-          "y": 1610,
-          "width": 252,
-          "height": 30,
-          "text": "Cactus Flowering",
-          "bold": false
-        },
-        {
-          "x": 505,
-          "y": 1616,
-          "width": 311,
-          "height": 23,
-          "text": "It does not require much water.",
-          "bold": false
-        },
-        {
-          "x": 1035,
-          "y": 1619,
-          "width": 162,
-          "height": 18,
-          "text": "which can cause",
-          "bold": false
-        },
-        {
-          "x": 505,
-          "y": 1644,
-          "width": 418,
-          "height": 22,
-          "text": "It needs direct sunlight, but balanced with",
-          "bold": false
-        },
-        {
-          "x": 1036,
-          "y": 1646,
-          "width": 76,
-          "height": 22,
-          "text": "injuries.",
-          "bold": false
-        },
-        {
-          "x": 505,
-          "y": 1671,
-          "width": 146,
-          "height": 22,
-          "text": "shade at night.",
-          "bold": false
-        },
-        {
-          "x": 1036,
-          "y": 1674,
-          "width": 197,
-          "height": 22,
-          "text": "It has red or orange",
-          "bold": false
-        },
-        {
-          "x": 504,
-          "y": 1698,
-          "width": 213,
-          "height": 18,
-          "text": "Avoid cold conditions.",
-          "bold": false
-        },
-        {
-          "x": 1035,
-          "y": 1701,
-          "width": 77,
-          "height": 18,
-          "text": "flowers.",
-          "bold": true
-        },
-        {
-          "x": 512,
-          "y": 1820,
-          "width": 360,
-          "height": 20,
-          "text": "END OF READING PASSAGES",
-          "bold": true
-        },
-        {
-          "x": 112,
-          "y": 1877,
-          "width": 1161,
-          "height": 27,
-          "text": "Sources of materials used in this paper will be acknowledged in the HKDSE Question Papers booklet published by the Hong Kong",
-          "bold": false
-        },
-        {
-          "x": 112,
-          "y": 1903,
-          "width": 505,
-          "height": 23,
-          "text": "Examinations and Assessment Authority at a Jater stage.",
-          "bold": false
-        },
-        {
-          "x": 111,
-          "y": 1993,
-          "width": 636,
-          "height": 19,
-          "text": "2021-DSE-ENG LANG 1-B1-RP-3 18",
-          "bold": true
-        }
-      ]
-    }
-  ],
-  "structuredQuestionPages": [
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 1",
-      "lines": [
-        {
-          "x": 622,
-          "y": 112,
-          "width": 752,
-          "height": 50,
-          "text": "| Please stick the barcode label here.",
-          "bold": true
-        },
-        {
-          "x": 154,
-          "y": 127,
-          "width": 208,
-          "height": 20,
-          "text": "Candidate Number",
-          "bold": true
-        },
-        {
-          "x": 145,
-          "y": 198,
-          "width": 172,
-          "height": 22,
-          "text": "HKDSE 2021",
-          "bold": true
-        },
-        {
-          "x": 144,
-          "y": 232,
-          "width": 311,
-          "height": 23,
-          "text": "ENGLISH LANGUAGE",
-          "bold": true
-        },
-        {
-          "x": 144,
-          "y": 267,
-          "width": 258,
-          "height": 23,
-          "text": "PAPER 1 PART B1",
-          "bold": true
-        },
-        {
-          "x": 143,
-          "y": 301,
-          "width": 683,
-          "height": 26,
-          "text": "QUESTION-ANSWER BOOK EASY SECTION",
-          "bold": true
-        },
-        {
-          "x": 143,
-          "y": 371,
-          "width": 911,
-          "height": 26,
-          "text": "Write your Candidate Number and stick a barcode label in the space provided on this page.",
-          "bold": false
-        },
-        {
-          "x": 143,
-          "y": 400,
-          "width": 607,
-          "height": 25,
-          "text": "Read Texts 4-5 and answer questions 28-46. (42 marks)",
-          "bold": false
-        },
-        {
-          "x": 142,
-          "y": 459,
-          "width": 85,
-          "height": 19,
-          "text": "Text 4",
-          "bold": false
-        },
-        {
-          "x": 195,
-          "y": 514,
-          "width": 312,
-          "height": 32,
-          "text": "What is the topic of the forum?",
-          "bold": true
-        },
-        {
-          "x": 141,
-          "y": 518,
-          "width": 29,
-          "height": 17,
-          "text": "28.",
-          "bold": false
-        },
-        {
-          "x": 197,
-          "y": 554,
-          "width": 343,
-          "height": 23,
-          "text": "A. Looking at the entrance area",
-          "bold": false
-        },
-        {
-          "x": 196,
-          "y": 587,
-          "width": 929,
-          "height": 37,
-          "text": "B. Improving our housing estate A B",
-          "bold": false
-        },
-        {
-          "x": 1174,
-          "y": 607,
-          "width": 30,
-          "height": 56,
-          "text": "Oo",
-          "bold": true
-        },
-        {
-          "x": 1244,
-          "y": 607,
-          "width": 31,
-          "height": 57,
-          "text": "Ov",
-          "bold": true
-        },
-        {
-          "x": 196,
-          "y": 620,
-          "width": 937,
-          "height": 43,
-          "text": "C. Throwing rubbish into plant pots O O",
-          "bold": true
-        },
-        {
-          "x": 196,
-          "y": 649,
-          "width": 419,
-          "height": 32,
-          "text": "D. _ Putting plant holders at the entrance",
-          "bold": true
-        },
-        {
-          "x": 140,
-          "y": 729,
-          "width": 29,
-          "height": 17,
-          "text": "29.",
-          "bold": false
-        },
-        {
-          "x": 194,
-          "y": 729,
-          "width": 395,
-          "height": 23,
-          "text": "How many people posted in the forum?",
-          "bold": true
-        },
-        {
-          "x": 140,
-          "y": 863,
-          "width": 28,
-          "height": 17,
-          "text": "30.",
-          "bold": false
-        },
-        {
-          "x": 193,
-          "y": 864,
-          "width": 455,
-          "height": 23,
-          "text": "How many posts are there on 22 April,.2021?",
-          "bold": false
-        },
-        {
-          "x": 195,
-          "y": 900,
-          "width": 68,
-          "height": 17,
-          "text": "A. 2",
-          "bold": true
-        },
-        {
-          "x": 195,
-          "y": 933,
-          "width": 66,
-          "height": 17,
-          "text": "B. 3",
-          "bold": true
-        },
-        {
-          "x": 1030,
-          "y": 953,
-          "width": 30,
-          "height": 57,
-          "text": "O>",
-          "bold": true
-        },
-        {
-          "x": 1109,
-          "y": 953,
-          "width": 85,
-          "height": 18,
-          "text": "BOC",
-          "bold": true
-        },
-        {
-          "x": 1242,
-          "y": 954,
-          "width": 30,
-          "height": 56,
-          "text": "Ov",
-          "bold": true
-        },
-        {
-          "x": 195,
-          "y": 966,
-          "width": 67,
-          "height": 18,
-          "text": "Cc 4",
-          "bold": false
-        },
-        {
-          "x": 1101,
-          "y": 979,
-          "width": 101,
-          "height": 31,
-          "text": "OO",
-          "bold": true
-        },
-        {
-          "x": 194,
-          "y": 999,
-          "width": 67,
-          "height": 18,
-          "text": "D5",
-          "bold": true
-        },
-        {
-          "x": 139,
-          "y": 1076,
-          "width": 28,
-          "height": 17,
-          "text": "31.",
-          "bold": false
-        },
-        {
-          "x": 192,
-          "y": 1076,
-          "width": 518,
-          "height": 24,
-          "text": "Who or what does the word ‘them’ (line 2) refer to?",
-          "bold": true
-        },
-        {
-          "x": 138,
-          "y": 1210,
-          "width": 28,
-          "height": 17,
-          "text": "32.",
-          "bold": false
-        },
-        {
-          "x": 191,
-          "y": 1210,
-          "width": 1104,
-          "height": 28,
-          "text": "Look at the word ‘posts’ (line 10). The word has different meanings. Read the extract of the dictionary entry",
-          "bold": false
-        },
-        {
-          "x": 191,
-          "y": 1238,
-          "width": 824,
-          "height": 27,
-          "text": "for ‘post’ below and decide which meaning corresponds to the meaning in line 10.",
-          "bold": false
-        },
-        {
-          "x": 190,
-          "y": 1271,
-          "width": 216,
-          "height": 31,
-          "text": "A. delivery of mail",
-          "bold": false
-        },
-        {
-          "x": 190,
-          "y": 1304,
-          "width": 1070,
-          "height": 43,
-          "text": "B. _ one of the legs of a piece of furniture, like a table A B c D",
-          "bold": true
-        },
-        {
-          "x": 190,
-          "y": 1341,
-          "width": 1077,
-          "height": 46,
-          "text": "C. —amessage that is placed on an Internet website or forum O O O O",
-          "bold": true
-        },
-        {
-          "x": 190,
-          "y": 1371,
-          "width": 712,
-          "height": 34,
-          "text": "D. astrong piece of wood, metal, or other material used as a support",
-          "bold": false
-        },
-        {
-          "x": 137,
-          "y": 1451,
-          "width": 29,
-          "height": 17,
-          "text": "33.",
-          "bold": false
-        },
-        {
-          "x": 191,
-          "y": 1451,
-          "width": 523,
-          "height": 24,
-          "text": "Who or what does the word ‘they’ (line 13) refer to?",
-          "bold": true
-        },
-        {
-          "x": 122,
-          "y": 1760,
-          "width": 45,
-          "height": 11,
-          "text": "—",
-          "bold": false
-        },
-        {
-          "x": 130,
-          "y": 1784,
-          "width": 511,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 205,
-          "y": 1993,
-          "width": 216,
-          "height": 18,
-          "text": "SE-ENG LANG 1-B1-1",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2021/b1/questions-1-figure-1.webp",
-          "x": 660,
-          "y": 200,
-          "width": 160,
-          "height": 124,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2021/b1/questions-1-figure-2.webp",
-          "x": 948,
-          "y": 1832,
-          "width": 464,
-          "height": 200,
-          "alt": "Original figure 2"
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 2",
-      "lines": [
-        {
-          "x": 185,
-          "y": 219,
-          "width": 611,
-          "height": 25,
-          "text": "Why does Crustyclown say ‘You are all dreaming’ (line 15)?",
-          "bold": false
-        },
-        {
-          "x": 132,
-          "y": 220,
-          "width": 28,
-          "height": 17,
-          "text": "34.",
-          "bold": false
-        },
-        {
-          "x": 184,
-          "y": 286,
-          "width": 366,
-          "height": 22,
-          "text": "Because Crustyclown wants to show",
-          "bold": true
-        },
-        {
-          "x": 130,
-          "y": 419,
-          "width": 614,
-          "height": 25,
-          "text": "35. Who is Girlgeorgy thanking for their support in line 18?",
-          "bold": true
-        },
-        {
-          "x": 185,
-          "y": 456,
-          "width": 316,
-          "height": 24,
-          "text": "A. Bazseedling and Susan_B",
-          "bold": false
-        },
-        {
-          "x": 185,
-          "y": 489,
-          "width": 322,
-          "height": 24,
-          "text": "B. Susan_B and Crustyclown",
-          "bold": false
-        },
-        {
-          "x": 1018,
-          "y": 510,
-          "width": 30,
-          "height": 57,
-          "text": "O>",
-          "bold": true
-        },
-        {
-          "x": 185,
-          "y": 523,
-          "width": 336,
-          "height": 24,
-          "text": "C. Artsypatsy and Bazseedling",
-          "bold": false
-        },
-        {
-          "x": 184,
-          "y": 556,
-          "width": 343,
-          "height": 24,
-          "text": "D. —Crustyclown and Artsypatsy",
-          "bold": true
-        },
-        {
-          "x": 130,
-          "y": 627,
-          "width": 27,
-          "height": 18,
-          "text": "36.",
-          "bold": false
-        },
-        {
-          "x": 182,
-          "y": 627,
-          "width": 612,
-          "height": 26,
-          "text": "Which word in lines 15-17 has a similar meaning to ‘bright’?",
-          "bold": true
-        },
-        {
-          "x": 128,
-          "y": 757,
-          "width": 28,
-          "height": 17,
-          "text": "37,",
-          "bold": false
-        },
-        {
-          "x": 181,
-          "y": 757,
-          "width": 646,
-          "height": 25,
-          "text": "Which word in lines 24-28 has a similar meaning to ‘too much’?",
-          "bold": true
-        },
-        {
-          "x": 80,
-          "y": 830,
-          "width": 427,
-          "height": 28,
-          "text": "3 ~",
-          "bold": false
-        },
-        {
-          "x": 127,
-          "y": 886,
-          "width": 395,
-          "height": 24,
-          "text": "38. Who does ‘that’ (line 27) refer to?",
-          "bold": false
-        },
-        {
-          "x": 74,
-          "y": 917,
-          "width": 509,
-          "height": 30,
-          "text": "3 A. Children playing around the estate",
-          "bold": false
-        },
-        {
-          "x": 80,
-          "y": 954,
-          "width": 506,
-          "height": 26,
-          "text": "2 B. Children going into sensitive areas",
-          "bold": false
-        },
-        {
-          "x": 182,
-          "y": 989,
-          "width": 447,
-          "height": 25,
-          "text": "C. Children pulling leaves from the plants",
-          "bold": false
-        },
-        {
-          "x": 79,
-          "y": 1022,
-          "width": 557,
-          "height": 30,
-          "text": "2 D. Children sticking things in their mouths",
-          "bold": true
-        },
-        {
-          "x": 79,
-          "y": 1092,
-          "width": 473,
-          "height": 35,
-          "text": "© |39. What is the main idea of lines 24-28?",
-          "bold": true
-        },
-        {
-          "x": 73,
-          "y": 1130,
-          "width": 305,
-          "height": 36,
-          "text": "3 Susan_B wants to...",
-          "bold": false
-        },
-        {
-          "x": 79,
-          "y": 1179,
-          "width": 358,
-          "height": 24,
-          "text": "g A. vote for Girlgeorgy.",
-          "bold": false
-        },
-        {
-          "x": 73,
-          "y": 1204,
-          "width": 486,
-          "height": 37,
-          "text": "= B. _ tell residents that she can’t help.",
-          "bold": false
-        },
-        {
-          "x": 1013,
-          "y": 1234,
-          "width": 31,
-          "height": 57,
-          "text": "O>",
-          "bold": true
-        },
-        {
-          "x": 1084,
-          "y": 1234,
-          "width": 31,
-          "height": 57,
-          "text": "Or",
-          "bold": true
-        },
-        {
-          "x": 1156,
-          "y": 1234,
-          "width": 29,
-          "height": 58,
-          "text": "Oo",
-          "bold": true
-        },
-        {
-          "x": 1226,
-          "y": 1235,
-          "width": 30,
-          "height": 57,
-          "text": "Ov",
-          "bold": true
-        },
-        {
-          "x": 181,
-          "y": 1241,
-          "width": 439,
-          "height": 33,
-          "text": "C. put plants at the entrance of the estate.",
-          "bold": false
-        },
-        {
-          "x": 181,
-          "y": 1279,
-          "width": 21,
-          "height": 17,
-          "text": "D.",
-          "bold": true
-        },
-        {
-          "x": 237,
-          "y": 1279,
-          "width": 478,
-          "height": 24,
-          "text": "remind Girlgeorgy that there are small children.",
-          "bold": false
-        },
-        {
-          "x": 78,
-          "y": 1306,
-          "width": 12,
-          "height": 20,
-          "text": "a",
-          "bold": false
-        },
-        {
-          "x": 73,
-          "y": 1329,
-          "width": 16,
-          "height": 15,
-          "text": "<",
-          "bold": false
-        },
-        {
-          "x": 124,
-          "y": 1355,
-          "width": 29,
-          "height": 17,
-          "text": "40.",
-          "bold": false
-        },
-        {
-          "x": 178,
-          "y": 1355,
-          "width": 793,
-          "height": 27,
-          "text": "Which of the following is NOT mentioned by Artsypatsy’s post in lines 29-34?",
-          "bold": false
-        },
-        {
-          "x": 180,
-          "y": 1391,
-          "width": 175,
-          "height": 24,
-          "text": "A. Helping out",
-          "bold": false
-        },
-        {
-          "x": 180,
-          "y": 1425,
-          "width": 295,
-          "height": 24,
-          "text": "B. Agreeing with Susan_B",
-          "bold": false
-        },
-        {
-          "x": 1019,
-          "y": 1429,
-          "width": 229,
-          "height": 48,
-          "text": "A B Cc »D",
-          "bold": true
-        },
-        {
-          "x": 179,
-          "y": 1458,
-          "width": 344,
-          "height": 24,
-          "text": "C. Putting Girlgeorgy in charge",
-          "bold": false
-        },
-        {
-          "x": 179,
-          "y": 1490,
-          "width": 438,
-          "height": 25,
-          "text": "D. Having a mix of plants at the entrance",
-          "bold": true
-        },
-        {
-          "x": 123,
-          "y": 1566,
-          "width": 29,
-          "height": 18,
-          "text": "41.",
-          "bold": false
-        },
-        {
-          "x": 176,
-          "y": 1567,
-          "width": 934,
-          "height": 28,
-          "text": "According to the forum, are the following statements True (T), False (F) or Not Given (NG)?",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 1620,
-          "width": 116,
-          "height": 19,
-          "text": "Statements",
-          "bold": false
-        },
-        {
-          "x": 1036,
-          "y": 1626,
-          "width": 31,
-          "height": 205,
-          "text": "OO008",
-          "bold": true
-        },
-        {
-          "x": 175,
-          "y": 1659,
-          "width": 703,
-          "height": 26,
-          "text": "(i) Artsypatsy has already put climbing plants around the entrance.",
-          "bold": false
-        },
-        {
-          "x": 175,
-          "y": 1705,
-          "width": 508,
-          "height": 27,
-          "text": "(ii) Girlgeorgy thinks the entrance looks boring.",
-          "bold": false
-        },
-        {
-          "x": 175,
-          "y": 1747,
-          "width": 569,
-          "height": 35,
-          "text": "(iii) The left side of the entrance receives a lot of light.",
-          "bold": false
-        },
-        {
-          "x": 175,
-          "y": 1797,
-          "width": 567,
-          "height": 27,
-          "text": "(iv) Girlgeorgy has all the information on plant prices.",
-          "bold": true
-        },
-        {
-          "x": 119,
-          "y": 1899,
-          "width": 511,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 122,
-          "y": 1992,
-          "width": 616,
-          "height": 21,
-          "text": "2021-DSE-ENG LANG 1-B1-2 13",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 3",
-      "lines": [
-        {
-          "x": 131,
-          "y": 203,
-          "width": 29,
-          "height": 18,
-          "text": "42.",
-          "bold": false
-        },
-        {
-          "x": 185,
-          "y": 203,
-          "width": 1101,
-          "height": 28,
-          "text": "Decide whether each of the following authors has a positive, negative or neutral attitude towards adding plants",
-          "bold": false
-        },
-        {
-          "x": 185,
-          "y": 232,
-          "width": 1101,
-          "height": 28,
-          "text": "to the entrance area. (4 marks)",
-          "bold": false
-        },
-        {
-          "x": 249,
-          "y": 268,
-          "width": 1012,
-          "height": 31,
-          "text": "Authors Positive Negative Neutral",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 309,
-          "width": 1053,
-          "height": 34,
-          "text": "(i) Bazseedling O O O",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 354,
-          "width": 1053,
-          "height": 38,
-          "text": "(ii) Susan_B O oO O",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 400,
-          "width": 1052,
-          "height": 39,
-          "text": "(iii) Artsypatsy O oO O",
-          "bold": false
-        },
-        {
-          "x": 182,
-          "y": 448,
-          "width": 1053,
-          "height": 34,
-          "text": "(iv) Crustyclown O O O",
-          "bold": true
-        },
-        {
-          "x": 129,
-          "y": 530,
-          "width": 29,
-          "height": 18,
-          "text": "43.",
-          "bold": false
-        },
-        {
-          "x": 182,
-          "y": 530,
-          "width": 1103,
-          "height": 28,
-          "text": "Read the statements in the right column and match each with ONE of the authors. Write the corresponding",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 559,
-          "width": 1100,
-          "height": 27,
-          "text": "letter in the blank on the left. Use each letter ONCE only. ONE statement is NOT used. (5 marks)",
-          "bold": false
-        },
-        {
-          "x": 338,
-          "y": 610,
-          "width": 401,
-          "height": 19,
-          "text": "Authors Statements",
-          "bold": false
-        },
-        {
-          "x": 194,
-          "y": 663,
-          "width": 813,
-          "height": 31,
-          "text": "(i) Girlgeorgy A. There are too many bugs on the estate.",
-          "bold": false
-        },
-        {
-          "x": 194,
-          "y": 723,
-          "width": 722,
-          "height": 32,
-          "text": "(ii) ss Artsypatsy B. What I really want is flowers.",
-          "bold": false
-        },
-        {
-          "x": 194,
-          "y": 781,
-          "width": 939,
-          "height": 31,
-          "text": "(iii) Bazseedling C. should be able to cope with lots of touching.",
-          "bold": false
-        },
-        {
-          "x": 194,
-          "y": 840,
-          "width": 761,
-          "height": 32,
-          "text": "(iv) Crustyclown D. I could take charge of the project.",
-          "bold": false
-        },
-        {
-          "x": 194,
-          "y": 900,
-          "width": 810,
-          "height": 32,
-          "text": "(v)_ ss Susan_B E. _ Paint the entrance with lots of colours.",
-          "bold": false
-        },
-        {
-          "x": 560,
-          "y": 964,
-          "width": 474,
-          "height": 24,
-          "text": "F. Put a range of plants around the entrance.",
-          "bold": false
-        },
-        {
-          "x": 126,
-          "y": 1020,
-          "width": 86,
-          "height": 19,
-          "text": "Text 5",
-          "bold": false
-        },
-        {
-          "x": 125,
-          "y": 1079,
-          "width": 30,
-          "height": 17,
-          "text": "44,",
-          "bold": false
-        },
-        {
-          "x": 179,
-          "y": 1079,
-          "width": 1102,
-          "height": 26,
-          "text": "Below are summaries of two possible plants for the housing estate. Fill in the blanks with ONE word that best",
-          "bold": false
-        },
-        {
-          "x": 180,
-          "y": 1107,
-          "width": 1100,
-          "height": 29,
-          "text": "fits the paragraph. Your answers must be grammatically correct. (9 marks)",
-          "bold": false
-        },
-        {
-          "x": 658,
-          "y": 1154,
-          "width": 142,
-          "height": 18,
-          "text": "Moon Orchid",
-          "bold": false
-        },
-        {
-          "x": 179,
-          "y": 1209,
-          "width": 1104,
-          "height": 25,
-          "text": "Moon Orchids are beautiful plants to have but it is difficult to take care of",
-          "bold": false
-        },
-        {
-          "x": 178,
-          "y": 1280,
-          "width": 1101,
-          "height": 27,
-          "text": "them, especially if you want them to have (i) - You have to",
-          "bold": true
-        },
-        {
-          "x": 178,
-          "y": 1353,
-          "width": 1100,
-          "height": 28,
-          "text": "(ii) them often because they need to be kept moist. You also have to make sure",
-          "bold": false
-        },
-        {
-          "x": 177,
-          "y": 1425,
-          "width": 787,
-          "height": 28,
-          "text": "that the soil is (iii) __ so that the roots get a lot of (iv)",
-          "bold": true
-        },
-        {
-          "x": 664,
-          "y": 1501,
-          "width": 126,
-          "height": 18,
-          "text": "Dumb Cane",
-          "bold": false
-        },
-        {
-          "x": 177,
-          "y": 1569,
-          "width": 1100,
-          "height": 31,
-          "text": "This plant is easy to care for and it grows very well (v) as long as it gets enough",
-          "bold": false
-        },
-        {
-          "x": 176,
-          "y": 1641,
-          "width": 1101,
-          "height": 27,
-          "text": "(vi) _____. You should also water it (vii) and make sure it",
-          "bold": true
-        },
-        {
-          "x": 176,
-          "y": 1713,
-          "width": 1101,
-          "height": 30,
-          "text": "doesn’t get too (viii) because that can kill the plant. You should be careful with",
-          "bold": false
-        },
-        {
-          "x": 176,
-          "y": 1785,
-          "width": 411,
-          "height": 25,
-          "text": "small children because the leaves are (ix)",
-          "bold": true
-        },
-        {
-          "x": 130,
-          "y": 1888,
-          "width": 513,
-          "height": 25,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 122,
-          "y": 1981,
-          "width": 627,
-          "height": 25,
-          "text": "2021-DSE-ENG LANG 1-B1-3 14",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 4",
-      "lines": [
-        {
-          "x": 142,
-          "y": 191,
-          "width": 1161,
-          "height": 24,
-          "text": "45. Below is a table summarising the information about four of the plants. Complete all the boxes in the table by",
-          "bold": false
-        },
-        {
-          "x": 194,
-          "y": 224,
-          "width": 1095,
-          "height": 25,
-          "text": "writing ‘Y’ for yes or ‘N’ for no. Some have been done for you as examples. (4 marks)",
-          "bold": false
-        },
-        {
-          "x": 243,
-          "y": 292,
-          "width": 1043,
-          "height": 31,
-          "text": "Name of Plant Easy to Care For | Needs Direct Sunlight | Suitable for Young Children",
-          "bold": false
-        },
-        {
-          "x": 173,
-          "y": 368,
-          "width": 438,
-          "height": 23,
-          "text": "(i) English Ivy pd",
-          "bold": true
-        },
-        {
-          "x": 173,
-          "y": 440,
-          "width": 970,
-          "height": 23,
-          "text": "(ii) Chinese Virginia Creeper ¥",
-          "bold": true
-        },
-        {
-          "x": 172,
-          "y": 513,
-          "width": 677,
-          "height": 23,
-          "text": "(iii) Kumquat Y",
-          "bold": true
-        },
-        {
-          "x": 173,
-          "y": 585,
-          "width": 438,
-          "height": 22,
-          "text": "(iv) Red Crown Cactus Y",
-          "bold": true
-        },
-        {
-          "x": 141,
-          "y": 689,
-          "width": 1160,
-          "height": 32,
-          "text": "46. Referring to the descriptions in the flyer, decide which plant you would recommend for each of these residents",
-          "bold": false
-        },
-        {
-          "x": 195,
-          "y": 721,
-          "width": 1105,
-          "height": 24,
-          "text": "living in the estate. (3 marks)",
-          "bold": true
-        },
-        {
-          "x": 142,
-          "y": 784,
-          "width": 1159,
-          "height": 24,
-          "text": "(i) Ms. Lee, 24, lives with her parents and needs to decorate the living room with some plants that do not require",
-          "bold": false
-        },
-        {
-          "x": 194,
-          "y": 813,
-          "width": 649,
-          "height": 23,
-          "text": "too much care but produce bright flowers. Which plant suits her?",
-          "bold": false
-        },
-        {
-          "x": 197,
-          "y": 857,
-          "width": 149,
-          "height": 23,
-          "text": "A. Kumquat",
-          "bold": false
-        },
-        {
-          "x": 197,
-          "y": 886,
-          "width": 1067,
-          "height": 35,
-          "text": "B. English Ivy A B fe D",
-          "bold": true
-        },
-        {
-          "x": 197,
-          "y": 923,
-          "width": 1074,
-          "height": 34,
-          "text": "C. Moon Orchid O O O O",
-          "bold": false
-        },
-        {
-          "x": 198,
-          "y": 957,
-          "width": 243,
-          "height": 17,
-          "text": "D. Red Crown Cactus",
-          "bold": false
-        },
-        {
-          "x": 141,
-          "y": 1033,
-          "width": 1160,
-          "height": 25,
-          "text": "(ii) Mr. Leung, 65, is retired and lives alone. He enjoys taking care of plants and wants to put a lot of time into",
-          "bold": false
-        },
-        {
-          "x": 194,
-          "y": 1062,
-          "width": 1106,
-          "height": 24,
-          "text": "them. He would like a nice, decorative, flowering plant for his living room, which gets a lot of light, but no",
-          "bold": false
-        },
-        {
-          "x": 194,
-          "y": 1089,
-          "width": 387,
-          "height": 26,
-          "text": "direct sunlight. Which plant suits him?",
-          "bold": false
-        },
-        {
-          "x": 197,
-          "y": 1136,
-          "width": 149,
-          "height": 22,
-          "text": "A. Kumquat",
-          "bold": false
-        },
-        {
-          "x": 197,
-          "y": 1167,
-          "width": 1066,
-          "height": 33,
-          "text": "B. English Ivy A B Cc D",
-          "bold": false
-        },
-        {
-          "x": 197,
-          "y": 1202,
-          "width": 1074,
-          "height": 33,
-          "text": "C. Moon Orchid O O O O",
-          "bold": false
-        },
-        {
-          "x": 197,
-          "y": 1235,
-          "width": 21,
-          "height": 18,
-          "text": "D.",
-          "bold": true
-        },
-        {
-          "x": 254,
-          "y": 1235,
-          "width": 187,
-          "height": 18,
-          "text": "Red Crown Cactus",
-          "bold": true
-        },
-        {
-          "x": 141,
-          "y": 1311,
-          "width": 35,
-          "height": 23,
-          "text": "(iii)",
-          "bold": true
-        },
-        {
-          "x": 194,
-          "y": 1311,
-          "width": 1100,
-          "height": 24,
-          "text": "Mrs. Chan is a 40-year-old housewife with two young children. She loves taking care of plants. She wants to",
-          "bold": false
-        },
-        {
-          "x": 194,
-          "y": 1340,
-          "width": 1099,
-          "height": 24,
-          "text": "have plants for her living room, which has large windows but does not receive direct sunlight at all during the",
-          "bold": false
-        },
-        {
-          "x": 194,
-          "y": 1369,
-          "width": 644,
-          "height": 24,
-          "text": "day. She does not want a flowering plant. Which plant suits her?",
-          "bold": false
-        },
-        {
-          "x": 197,
-          "y": 1413,
-          "width": 149,
-          "height": 23,
-          "text": "A. Kumquat",
-          "bold": false
-        },
-        {
-          "x": 197,
-          "y": 1443,
-          "width": 1066,
-          "height": 34,
-          "text": "B. English Ivy A B Cc D",
-          "bold": false
-        },
-        {
-          "x": 197,
-          "y": 1479,
-          "width": 1074,
-          "height": 34,
-          "text": "C. Dumb Cane O O O ©",
-          "bold": false
-        },
-        {
-          "x": 197,
-          "y": 1512,
-          "width": 21,
-          "height": 18,
-          "text": "D.",
-          "bold": true
-        },
-        {
-          "x": 254,
-          "y": 1512,
-          "width": 256,
-          "height": 24,
-          "text": "Chinese Virginia Creeper",
-          "bold": true
-        },
-        {
-          "x": 626,
-          "y": 1661,
-          "width": 203,
-          "height": 19,
-          "text": "END OF PART B1",
-          "bold": true
-        },
-        {
-          "x": 154,
-          "y": 1893,
-          "width": 513,
-          "height": 23,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 142,
-          "y": 1987,
-          "width": 610,
-          "height": 21,
-          "text": "2021-DSE-ENG LANG 1-B1-4 15",
-          "bold": true
-        }
-      ]
+      "prompt": "Referring to the descriptions in the flyer, decide which plant you would recommend for each of these residents\nliving in the estate. (3 marks)\nMs. Lee, 24, lives with her parents and needs to decorate the living room with some plants that do not require\ntoo much care but produce bright flowers. Which plant suits her?\nA. Kumquat\nB. English Ivy\nC. Moon Orchid\nD. Red Crown Cactus\n(ii) Mr. Leung, 65, is retired and lives alone. He enjoys taking care of plants and wants to put a lot of time into\nthem. He would like a nice, decorative, flowering plant for his living room, which gets a lot of light, but no\ndirect sunlight. Which plant suits him?\nA. Kumquat\nB. English Ivy\nC. Moon Orchid\nD. Red Crown Cactus\nMrs. Chan is a 40-year-old housewife with two young children. She loves taking care of plants. She wants to\nhave plants for her living room, which has large windows but does not receive direct sunlight at all during the\nday. She does not want a flowering plant. Which plant suits her?\nA. Kumquat\nB. English Ivy\nC. Dumb Cane\nD. Chinese Virginia Creeper\nEND OF PART B1"
     }
   ]
 }

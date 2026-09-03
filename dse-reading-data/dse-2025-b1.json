@@ -5,2078 +5,668 @@
   "title": "Foraging in Hong Kong for Beginners",
   "sourceLabel": "HKDSE 2025 English Language Paper 1 Part B1",
   "sourceHeading": "Foraging in Hong Kong for Beginners",
-  "displayMode": "structured-paper",
-  "paragraphs": [],
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "Paragraph 1",
+      "text": "Read Texts 2-4 and answer questions 22-42 in the Question-Answer Book for Part B1. * → C https://www.foraginginhongkongforbeginners.com.hk/home/ Home Foraging Info Videos Recipes About Us Join Us What is Foraging? Foraging is identifying, collecting, and eating plants like herbs, fruits, and nuts that grow wild in nature. Foraging Guidelines"
+    },
+    {
+      "number": 2,
+      "label": "Paragraph 2",
+      "text": "Here are some rules that every forager should follow: • [3] Never start solo. It's essential to begin by partnering up with a local expert who can teach you the best ways to forage while also keeping you safe. • [4] Familiarise yourself with the herbs, bushes, and trees around you. Try to learn as much as possible about the ecosystem of which you are a part."
+    },
+    {
+      "number": 3,
+      "label": "Paragraph 3",
+      "text": "Learn to identify the poisonous plants you are likely to encounter. DO NOT EAT ANYTHING"
+    },
+    {
+      "number": 4,
+      "label": "Paragraph 4",
+      "text": "YOU CANNOT POSITIVELY IDENTIFY AND KNOW TO BE SAFE. • [6] Familiarise yourself with the plants that are listed on the endangered species list for your area. Apart from being unethical, it is also illegal to pick endangered plant species. • [7] Don't be greedy! Only pick as much as you need and never take ALL the plants of any one kind in a given patch. After harvesting an area, give the plants plenty of time to recover before returning to the same patch. If in doubt, don't collect. Know the Law!"
+    },
+    {
+      "number": 5,
+      "label": "Paragraph 5",
+      "text": "The Agriculture, Fisheries and Conservation Department (AFCD) says it is illegal to cut, pick, or uproot any plant or part of a plant, whether living or dead, from within a country park area without express permission. It's also illegal to dig up plants from private land without permission from the lando wner. Foraging in Hong Kong"
+    },
+    {
+      "number": 6,
+      "label": "Paragraph 6",
+      "text": "Wanda Huang is an experienced Hong Kong forager who knows how to identify edible and medicinal plants. Huang tries to incorporate foraged food and materials into her daily life and avoids processed and synthetic products as much as possible. She even makes her own wine and shampoos."
+    },
+    {
+      "number": 7,
+      "label": "Paragraph 7",
+      "text": "Huang's interest in foraging started when she was a child in Canada and her father took her on outings and taught her how to identify herbs and plants in the wild. \"We picked blueberries and made pancakes for breakfast, we made tea from pine needles and pine cones, and then we cut the pine cones for the nuts. It was, for me, such a fun experience growing up,\" she says fondly. \"And we don't have to spend time farming — constantly ploughing the land and sowing seeds. Foraging happens naturally, just like when humans were hunters and gatherers,\" Huang says."
+    },
+    {
+      "number": 8,
+      "label": "Paragraph 8",
+      "text": "The vegetables we grow today originated from wild plants which had long roots that penetrated deep into the soil. This means they absorbed a wide range of nutrients and trace minerals from the soil. Huang says that over time, commercial farming has produced bigger, sweeter, and faster-growing vegetables but their roots have shortened. As a result, they no longer absorb all of the trace minerals and nutrients found deep in the soil. \"This is why it's healthier to eat wild plants than store-bought vegetables,\" Huang says."
+    },
+    {
+      "number": 9,
+      "label": "Paragraph 9",
+      "text": "Huang holds foraging workshops, which are particularly welcomed by chefs from high-end restaurants. \"There's real interest from the food and beverage industry in Hong Kong and they're fascinated about what is edible around them,\" Huang says. Uwe Opocensky, the chef-owner of a restaurant in Sheung Wan, says, \"the taste is much deeper because the plants grow in a natural enviromnent and the flavour is really related to the soil.\""
+    },
+    {
+      "number": 10,
+      "label": "Paragraph 10",
+      "text": "Hong Kongprovides rich pickings for foragers because of its high biodiversity. The territory lies in the subtropical zone, which means it provides ideal conditions for both tropical plants and plants that grow in colder climates. Apart from collecting wild plants for food, people also forage for a wide range of medicinal plants to use in Chinese medicine or dietary therapy. The local herbal tea, 24 flavours, is a good example of how rich Hong Kong is in wild herbs and medicinal plants."
+    },
+    {
+      "number": 11,
+      "label": "Paragraph 11",
+      "text": "Nevertheless, it is hard for Hong Kong people to incorporate foraging into their lifestyle because they work such long hours and simply do not have the time. \"People now go to the supermarket and eat bananas from Chile and pak choi from the Mainland. They've lost their connection with the enviromnent.\" Huang says. It is mainly elderly villagers who still possess local knowledge about edible wild plants. Huang is sad that most people do not see this knowledge as valuable. \"To me, foraging is not about making money but about re-establishing our connection to the environment and our culture,\" Huang says. Questions from the Internet"
+    },
+    {
+      "number": 12,
+      "label": "Paragraph 12",
+      "text": "Naturalist and avid forager John Wright answers questions from the internet about the fun of finding your own food and the surprising delights growing outside."
+    },
+    {
+      "number": 13,
+      "label": "Paragraph 13",
+      "text": "@13happy mushroom asks: How did you get into foraging?"
+    },
+    {
+      "number": 14,
+      "label": "Paragraph 14",
+      "text": "It was mushrooms that first got me interested. I encountered a mushroom and was annoyed that I didn't know what it was. So, I took it home, bought a book, and managed to identify the species. I've carried on ever since. I started teaching evening classes and now I lead mushroom picking trips and I'm currently working on my ninth nature guidebook."
+    },
+    {
+      "number": 15,
+      "label": "Paragraph 15",
+      "text": "@nature gurl asks: What's the appeal of finding wild food?"
+    },
+    {
+      "number": 16,
+      "label": "Paragraph 16",
+      "text": "It's a gentle way for people to go out and engage with the natural world, but there's so much more - to it. Foraging has a massive sense of freedom and release from modern day life. A connection to nature is something very special that, in my eyes, is a privilege and I'm lucky enough to have found a way to make a living from it."
+    },
+    {
+      "number": 17,
+      "label": "Paragraph 17",
+      "text": "@eat to live1234 asks: What are the benefits of foraging?"
+    },
+    {
+      "number": 18,
+      "label": "Paragraph 18",
+      "text": "Foraging naturally slows you down to become more observant and you gain an appreciation for the little things which, for me, are the most important. The physical activity involved in searching for wild edibles in nature provides a low-impact way to move your body while enjoying the great outdoors. Foraging also has some mental health benefits. Spending time in green spaces can help reduce stress, help people cope with anxiety, and provide relief from depression, as well as improve overall mood and well-being."
+    },
+    {
+      "number": 19,
+      "label": "Paragraph 19",
+      "text": "@EarthFirst2024 asks: There seems to be a trend in people choosing to forage. Why do you think this is?"
+    },
+    {
+      "number": 20,
+      "label": "Paragraph 20",
+      "text": "I think food in general has become something people pay more attention to. A new respect for ourselves with regard to how we treat our bodies, has pushed people towards smaller producers of better quality food. Small cottage industries and producers are now more popular with organic and natural processes being favoured, and there's nothing more organic than foraged wild food!"
+    }
+  ],
   "instructions": {
-    "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
+    "paper": "Answer every question using the passage."
   },
   "questions": [
     {
       "number": 22,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 22",
-      "placeholder": "Enter all answer parts for Question 22"
+      "type": "choice",
+      "prompt": "Who is Text 2 written for?\nPeople who...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. dislike foraging."
+        },
+        {
+          "value": "B",
+          "label": "B. are new to foraging."
+        },
+        {
+          "value": "C",
+          "label": "C. want to stop foraging."
+        },
+        {
+          "value": "D",
+          "label": "D. know a lot about foraging"
+        }
+      ]
     },
     {
       "number": 23,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 23",
-      "placeholder": "Enter all answer parts for Question 23"
+      "type": "parts",
+      "prompt": "Select one of the menu options in the header above paragraph 1 to complete each gap in the table below. Use\neach option ONCE only. The first has been done for you as an example. Some menu options are NOT used.\n(3 marks)",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "If you want to...",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              },
+              {
+                "text": "choose the following menu option",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "... meet other foragers",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Join Us (example)",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ],
+            [
+              {
+                "text": "...watch a lesson on foraging",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "(i)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r3c2g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "..read more about this topic",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "(ii)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r4c2g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "... learn how to cook your finds",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "(iii)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r5c2g1"
+                ]
+              }
+            ]
+          ],
+          "columns": 2
+        }
+      ],
+      "parts": [
+        {
+          "key": "t1r3c2g1",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r4c2g1",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r5c2g1",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        }
+      ]
     },
     {
       "number": 24,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 24",
-      "placeholder": "Enter all answer parts for Question 24"
+      "type": "multiple",
+      "prompt": "Identify TWO of the following that are NOT mentioned in paragraph 1 by circling the letters (A-E).",
+      "options": [
+        {
+          "value": "A",
+          "label": "A"
+        },
+        {
+          "value": "B",
+          "label": "B"
+        },
+        {
+          "value": "C",
+          "label": "C"
+        },
+        {
+          "value": "D",
+          "label": "D"
+        },
+        {
+          "value": "E",
+          "label": "E"
+        }
+      ],
+      "slots": 2,
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/content/2025/b1/questions-1-crop-1.webp",
+          "alt": "Five illustrations of foraging activities, options A to E"
+        }
+      ]
     },
     {
       "number": 25,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 25",
-      "placeholder": "Enter all answer parts for Question 25"
+      "type": "choice",
+      "prompt": "Which of the following best replaces 'every' (line 4)?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. one"
+        },
+        {
+          "value": "B",
+          "label": "B. your"
+        },
+        {
+          "value": "C",
+          "label": "C. each"
+        },
+        {
+          "value": "D",
+          "label": "D. many"
+        }
+      ]
     },
     {
       "number": 26,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 26",
-      "placeholder": "Enter all answer parts for Question 26"
+      "prompt": "Wing it or eat on in paragraph a complete following stence wing ONE word taken from the\nTo understand the (i). we all belong to, look (ii) and learn all\nyou can about the local plant life."
     },
     {
       "number": 27,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 27",
-      "placeholder": "Enter all answer parts for Question 27"
+      "prompt": "State ONE piece of advice from paragraphs 3-7 to protect the health of foragers."
     },
     {
       "number": 28,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 28",
-      "placeholder": "Enter all answer parts for Question 28"
+      "type": "choice",
+      "prompt": "The main purpose of Text 2 is to...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. debate."
+        },
+        {
+          "value": "B",
+          "label": "B. inform."
+        },
+        {
+          "value": "C",
+          "label": "C. criticise."
+        },
+        {
+          "value": "D",
+          "label": "D. entertain."
+        }
+      ]
     },
     {
       "number": 29,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 29",
-      "placeholder": "Enter all answer parts for Question 29"
+      "type": "parts",
+      "prompt": "According to paragraphs 1-2, decide whether the following statements are True (T), False (F) or Not Given\n(4 marks)\nStatements T F NG",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Huang has been foraging for many years.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Huang taught her dad about foraging herbs and plants.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Huang used foraged ingredients to make breakfast.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Huang started teaching foraging in Canada.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
     },
     {
       "number": 30,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 30",
-      "placeholder": "Enter all answer parts for Question 30"
+      "prompt": "Complete the following sentence using the information from paragraph 2.\nHuang believes her childhood experience illustrates how foraging can\nas it did for hunter-gatherers."
     },
     {
       "number": 31,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 31",
-      "placeholder": "Enter all answer parts for Question 31"
+      "prompt": "With reference to paragraph 3, complete the sentence below by using a word or phrase taken from the\nparagraph.\nCompared with foraged plants, store-bought plants are"
     },
     {
       "number": 32,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 32",
-      "placeholder": "Enter all answer parts for Question 32"
+      "type": "parts",
+      "prompt": "Find a word in paragraph 4 which can be replaced by each word given below. (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) 'prestigious'",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) 'sector'",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii) 'well-liked'",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 33,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 33",
-      "placeholder": "Enter all answer parts for Question 33"
+      "type": "choice",
+      "prompt": "What does 'rich pickings' (line 18) refer to?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. A wide variety of plants to forage"
+        },
+        {
+          "value": "B",
+          "label": "B. The strong flavour of foraged plants"
+        },
+        {
+          "value": "C",
+          "label": "C. A lot of medicinal products made from foraged plants"
+        },
+        {
+          "value": "D",
+          "label": "D. The money foragers can make seili to high-end restaurants"
+        }
+      ]
     },
     {
       "number": 34,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 34",
-      "placeholder": "Enter all answer parts for Question 34"
+      "prompt": "Find TWO examples in paragraph 5 of the 'high biodiversity' (line 18) in Hong Kong. (2 marks)\n(i)\n(ji)"
     },
     {
       "number": 35,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 35",
-      "placeholder": "Enter all answer parts for Question 35"
+      "type": "parts",
+      "prompt": "Complete the following summary of paragraph 6 with a word or phrase taken from the paragraph. (4 marks)",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Hong Kong Citizens:",
+                "header": true
+              },
+              {
+                "text": "Old Village Residents:",
+                "header": true
+              },
+              {
+                "text": "Wanda Huang:",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Most people today spend (i) ______ at their job so they have no time for (ii) ______.",
+                "parts": [
+                  "i",
+                  "ii"
+                ]
+              },
+              {
+                "text": "Luckily this group have all the (iii) ______ needed to forage in their own neighbourhood.",
+                "part": "iii"
+              },
+              {
+                "text": "Her passion is to restore people's (iv) ______ to the world around them.",
+                "part": "iv"
+              }
+            ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "key": "i",
+          "label": "i",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "ii",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "iii",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "iv",
+          "type": "text",
+          "inTable": true
+        }
+      ]
     },
     {
       "number": 36,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 36",
-      "placeholder": "Enter all answer parts for Question 36"
+      "prompt": "Look at the information in paragraphs 1-6 and match each paragraph to the headings below. Use each\nparagraph number ONCE only. One heading does NOT refer to any of the paragraphs and you should put a\ncross (X). One has been done for you as an example. (6 marks)\nHeadings Paragraph Number\n(i) Local businesses embrace the world of foraging\n(ii) Definition of foraging\n(lii) Respect for wisdom of the elderly\n(iv) Passing knowledge to the next generation\nWhy are they better?\ne.g. Meeting a local forager\n1 (example)\n(vi) Our location means we are lucky"
     },
     {
       "number": 37,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 37",
-      "placeholder": "Enter all answer parts for Question 37"
+      "prompt": "Who or what does 'the species' (line 5) refer to?"
     },
     {
       "number": 38,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 38",
-      "placeholder": "Enter all answer parts for Question 38"
+      "prompt": "With reference to paragraph 3, explain how Wright progressed from a challenge to a career."
     },
     {
       "number": 39,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 39",
-      "placeholder": "Enter all answer parts for Question 39"
+      "prompt": "What is 'a privilege' (line 11) for Wright?"
     },
     {
       "number": 40,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 40",
-      "placeholder": "Enter all answer parts for Question 40"
+      "prompt": "With reference to paragraph 5, what does Wright indicate is a less obvious attraction of foraging?"
     },
     {
       "number": 41,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 41",
-      "placeholder": "Enter all answer parts for Question 41"
+      "type": "parts",
+      "prompt": "Find a word or phrase from paragraph 5 and paragraph 7 that can be replaced by 'from my perspective.'\n(2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Paragraph S",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Paragraph 7",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 42,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 42",
-      "placeholder": "Enter all answer parts for Question 42"
-    }
-  ],
-  "structuredPassagePages": [
-    {
-      "width": 1500,
-      "height": 2124,
-      "label": "Reading passage page 1",
-      "lines": [
-        {
-          "x": 146,
-          "y": 92,
-          "width": 129,
-          "height": 24,
-          "text": "PART B1",
-          "bold": true
-        },
-        {
-          "x": 144,
-          "y": 145,
-          "width": 920,
-          "height": 26,
-          "text": "Read Texts 2-4 and answer questions 22-42 in the Question-Answer Book for Part B1.",
-          "bold": false
-        },
-        {
-          "x": 144,
-          "y": 206,
-          "width": 110,
-          "height": 25,
-          "text": "Text 2",
-          "bold": true
-        },
-        {
-          "x": 188,
-          "y": 284,
-          "width": 963,
-          "height": 50,
-          "text": "€ > © @ hitps://mmw.foraginginhongkongforbeginners.com.hk/home/",
-          "bold": true
-        },
-        {
-          "x": 392,
-          "y": 350,
-          "width": 857,
-          "height": 84,
-          "text": "Foraging in Hong Kong for Beginners",
-          "bold": true
-        },
-        {
-          "x": 178,
-          "y": 574,
-          "width": 1145,
-          "height": 26,
-          "text": "[1] Foraging is identifying, collecting, and eating plants like herbs, fruits, and nuts that grow wild in nature.",
-          "bold": false
-        },
-        {
-          "x": 179,
-          "y": 620,
-          "width": 278,
-          "height": 29,
-          "text": "Foraging Guidelines",
-          "bold": false
-        },
-        {
-          "x": 178,
-          "y": 663,
-          "width": 603,
-          "height": 25,
-          "text": "[2] Here are some rules that every forager should follow:",
-          "bold": false
-        },
-        {
-          "x": 252,
-          "y": 705,
-          "width": 1099,
-          "height": 37,
-          "text": "* [3] Never start solo. It’s essential to begin by partnering up with a local expert who can teach you",
-          "bold": false
-        },
-        {
-          "x": 330,
-          "y": 741,
-          "width": 552,
-          "height": 26,
-          "text": "the best ways to forage while also keeping you safe.",
-          "bold": false
-        },
-        {
-          "x": 251,
-          "y": 788,
-          "width": 1098,
-          "height": 26,
-          "text": "e [4]Familiarise yourself with the herbs, bushes, and trees around you. Try to learn as much as possible",
-          "bold": false
-        },
-        {
-          "x": 332,
-          "y": 818,
-          "width": 475,
-          "height": 34,
-          "text": "about the ecosystem of which you are a part.",
-          "bold": false
-        },
-        {
-          "x": 252,
-          "y": 869,
-          "width": 1099,
-          "height": 26,
-          "text": "¢ [5] Learn to identify the poisonous plants you are likely to encounter. DO NOT EAT ANYTHING",
-          "bold": false
-        },
-        {
-          "x": 103,
-          "y": 896,
-          "width": 26,
-          "height": 20,
-          "text": "10",
-          "bold": false
-        },
-        {
-          "x": 331,
-          "y": 901,
-          "width": 777,
-          "height": 20,
-          "text": "YOU CANNOT POSITIVELY IDENTIFY AND KNOW TO BE SAFE.",
-          "bold": true
-        },
-        {
-          "x": 251,
-          "y": 943,
-          "width": 1095,
-          "height": 37,
-          "text": "© [6] Familiarise yourself with the plants that are listed on the endangered species list for your area.",
-          "bold": false
-        },
-        {
-          "x": 331,
-          "y": 979,
-          "width": 824,
-          "height": 26,
-          "text": "Apart from being unethical, it is also illegal to pick endangered plant species.",
-          "bold": false
-        },
-        {
-          "x": 252,
-          "y": 1026,
-          "width": 1099,
-          "height": 26,
-          "text": "e [7] Don’t be greedy! Only pick as much as you need and never take ALL the plants of any one kind",
-          "bold": false
-        },
-        {
-          "x": 331,
-          "y": 1057,
-          "width": 1020,
-          "height": 27,
-          "text": "in a given patch. After harvesting an area, give the plants plenty of time to recover before",
-          "bold": false
-        },
-        {
-          "x": 331,
-          "y": 1089,
-          "width": 568,
-          "height": 26,
-          "text": "returning to the same patch. If in doubt, don’t collect.",
-          "bold": false
-        },
-        {
-          "x": 103,
-          "y": 1090,
-          "width": 26,
-          "height": 21,
-          "text": "5",
-          "bold": false
-        },
-        {
-          "x": 193,
-          "y": 1148,
-          "width": 222,
-          "height": 25,
-          "text": "Know the Law!",
-          "bold": true
-        },
-        {
-          "x": 194,
-          "y": 1190,
-          "width": 1065,
-          "height": 41,
-          "text": "[8] The Agriculture, Fisheries and Conservation Department (AFCD) says it is illegal to cut, pick, or",
-          "bold": true
-        },
-        {
-          "x": 191,
-          "y": 1233,
-          "width": 1139,
-          "height": 29,
-          "text": "uproot any plant or part of a plant, whether living or dead, from within a country park area without express",
-          "bold": false
-        },
-        {
-          "x": 191,
-          "y": 1265,
-          "width": 1084,
-          "height": 27,
-          "text": "permission. It’s also illegal to dig up plants from private land without permission from the landowner.",
-          "bold": false
-        },
-        {
-          "x": 142,
-          "y": 1390,
-          "width": 109,
-          "height": 25,
-          "text": "Text 3",
-          "bold": true
-        },
-        {
-          "x": 144,
-          "y": 1459,
-          "width": 405,
-          "height": 36,
-          "text": "Foraging in Hong Kong",
-          "bold": true
-        },
-        {
-          "x": 143,
-          "y": 1516,
-          "width": 1227,
-          "height": 26,
-          "text": "[1] Wanda Huang is an experienced Hong Kong forager who knows how to identify edible and medicinal plants.",
-          "bold": false
-        },
-        {
-          "x": 141,
-          "y": 1541,
-          "width": 1239,
-          "height": 37,
-          "text": "Huang tries to incorporate foraged food and materials into her daily life and avoids processed and synthetic products",
-          "bold": false
-        },
-        {
-          "x": 142,
-          "y": 1578,
-          "width": 706,
-          "height": 25,
-          "text": "as much as possible. She even makes her own wine and shampoos.",
-          "bold": false
-        },
-        {
-          "x": 143,
-          "y": 1639,
-          "width": 1233,
-          "height": 26,
-          "text": "[2] Huang’s interest in foraging started when she was a child in Canada and her father took her on outings and taught",
-          "bold": false
-        },
-        {
-          "x": 142,
-          "y": 1668,
-          "width": 1232,
-          "height": 27,
-          "text": "her how to identify herbs and plants in the wild. “We picked blueberries and made pancakes for breakfast, we made",
-          "bold": false
-        },
-        {
-          "x": 142,
-          "y": 1698,
-          "width": 1234,
-          "height": 26,
-          "text": "tea from pine needles and pine cones, and then we cut the pine cones for the nuts. It was, for me, such a fun experience",
-          "bold": false
-        },
-        {
-          "x": 142,
-          "y": 1726,
-          "width": 1234,
-          "height": 34,
-          "text": "growing up,” she says fondly. “And we don’t have to spend time farming —constantly ploughing the land and sowing",
-          "bold": false
-        },
-        {
-          "x": 142,
-          "y": 1760,
-          "width": 1056,
-          "height": 26,
-          "text": "seeds. Foraging happens naturally, just like when humans were hunters and gatherers,” Huang says.",
-          "bold": false
-        },
-        {
-          "x": 143,
-          "y": 1821,
-          "width": 1234,
-          "height": 26,
-          "text": "[3] The vegetables we grow today originated from wild plants which had long roots that penetrated deep into the soil.",
-          "bold": false
-        },
-        {
-          "x": 68,
-          "y": 1851,
-          "width": 26,
-          "height": 20,
-          "text": "10",
-          "bold": false
-        },
-        {
-          "x": 141,
-          "y": 1851,
-          "width": 1232,
-          "height": 26,
-          "text": "This means they absorbed a wide range of nutrients and trace minerals from the soil. Huang says that over time,",
-          "bold": false
-        },
-        {
-          "x": 142,
-          "y": 1883,
-          "width": 1232,
-          "height": 26,
-          "text": "commercial farming has produced bigger, sweeter, and faster-growing vegetables but their roots have shortened. As",
-          "bold": false
-        },
-        {
-          "x": 142,
-          "y": 1908,
-          "width": 1234,
-          "height": 35,
-          "text": "a result, they no longer absorb all of the trace minerals and nutrients found deep in the soil. “This is why it’s healthier",
-          "bold": false
-        },
-        {
-          "x": 141,
-          "y": 1942,
-          "width": 648,
-          "height": 26,
-          "text": "to eat wild plants than store-bought vegetables,” Huang says.",
-          "bold": false
-        },
-        {
-          "x": 141,
-          "y": 2036,
-          "width": 674,
-          "height": 20,
-          "text": "2025-DSE-ENG LANG 1-B1-RP-2 2",
-          "bold": true
-        }
-      ],
+      "type": "parts",
+      "prompt": "Match each person or organisation with ONE comment that best represents them. Use each letter ONCE only. One comment is NOT used. (4 marks)",
       "figures": [
         {
-          "src": "assets/reading-comprehension/dse/structured/2025/b1/passage-1-figure-1.webp",
-          "x": 144,
-          "y": 248,
-          "width": 1252,
-          "height": 1104,
-          "alt": "Original figure 1"
-        }
-      ]
-    },
-    {
-      "width": 1500,
-      "height": 2062,
-      "label": "Reading passage page 2",
-      "lines": [
-        {
-          "x": 131,
-          "y": 53,
-          "width": 1239,
-          "height": 27,
-          "text": "[4] Huang holds foraging workshops, which are particularly welcomed by chefs from high-end restaurants. “There’s",
-          "bold": false
-        },
-        {
-          "x": 56,
-          "y": 83,
-          "width": 26,
-          "height": 21,
-          "text": "15",
-          "bold": false
-        },
-        {
-          "x": 129,
-          "y": 83,
-          "width": 1240,
-          "height": 27,
-          "text": "real interest from the food and beverage industry in Hong Kong and they’re fascinated about what is edible around",
-          "bold": false
-        },
-        {
-          "x": 130,
-          "y": 114,
-          "width": 1240,
-          "height": 27,
-          "text": "them,” Huang says. Uwe Opocensky, the chef-owner of a restaurant in Sheung Wan, says, “the taste is much deeper",
-          "bold": false
-        },
-        {
-          "x": 130,
-          "y": 147,
-          "width": 994,
-          "height": 26,
-          "text": "because the plants grow in a natural enviromnent and the flavour is really related to the soil.”",
-          "bold": false
-        },
-        {
-          "x": 130,
-          "y": 209,
-          "width": 1239,
-          "height": 26,
-          "text": "(5] Hong Kong provides rich pickings for foragers because of its high biodiversity. The territory lies in the subtropical",
-          "bold": false
-        },
-        {
-          "x": 130,
-          "y": 238,
-          "width": 1240,
-          "height": 27,
-          "text": "zone, which means it provides ideal conditions for both tropical plants and plants that grow in colder climates. Apart",
-          "bold": false
-        },
-        {
-          "x": 54,
-          "y": 268,
-          "width": 28,
-          "height": 22,
-          "text": "20",
-          "bold": false
-        },
-        {
-          "x": 130,
-          "y": 268,
-          "width": 1240,
-          "height": 27,
-          "text": "from collecting wild plants for food, people also forage for a wide range of medicinal plants to use in Chinese",
-          "bold": false
-        },
-        {
-          "x": 129,
-          "y": 300,
-          "width": 1240,
-          "height": 27,
-          "text": "medicine or dietary therapy. The local herbal tea, 24 flavours, is a good example of how rich Hong Kong is in wild",
-          "bold": false
-        },
-        {
-          "x": 129,
-          "y": 330,
-          "width": 289,
-          "height": 27,
-          "text": "herbs and medicinal plants.",
-          "bold": true
-        },
-        {
-          "x": 131,
-          "y": 392,
-          "width": 1238,
-          "height": 26,
-          "text": "(6) Nevertheless, it is hard for Hong Kong people to incorporate foraging into their lifestyle because they work such",
-          "bold": false
-        },
-        {
-          "x": 130,
-          "y": 422,
-          "width": 1239,
-          "height": 28,
-          "text": "long hours and simply do not have the time. “People now go to the supermarket and eat bananas from Chile and pak",
-          "bold": false
-        },
-        {
-          "x": 51,
-          "y": 453,
-          "width": 29,
-          "height": 21,
-          "text": "25",
-          "bold": false
-        },
-        {
-          "x": 128,
-          "y": 454,
-          "width": 1241,
-          "height": 26,
-          "text": "choi from the Mainland. They've lost their connection with the enviromnent.” Huang says. It is mainly elderly",
-          "bold": false
-        },
-        {
-          "x": 129,
-          "y": 484,
-          "width": 1239,
-          "height": 26,
-          "text": "villagers who still possess local knowledge about edible wild plants. Huang is sad that most people do not see this",
-          "bold": false
-        },
-        {
-          "x": 129,
-          "y": 515,
-          "width": 1239,
-          "height": 27,
-          "text": "knowledge as valuable. “To me, foraging is not about making money but about re-establishing our connection to the",
-          "bold": false
-        },
-        {
-          "x": 129,
-          "y": 546,
-          "width": 456,
-          "height": 26,
-          "text": "environment and our culture,” Huang says.",
-          "bold": true
-        },
-        {
-          "x": 129,
-          "y": 609,
-          "width": 110,
-          "height": 26,
-          "text": "Text 4",
-          "bold": true
-        },
-        {
-          "x": 130,
-          "y": 678,
-          "width": 490,
-          "height": 31,
-          "text": "Questions from the Internet",
-          "bold": true
-        },
-        {
-          "x": 130,
-          "y": 736,
-          "width": 1239,
-          "height": 26,
-          "text": "{1] Naturalist and avid forager John Wright answers questions from the internet about the fun of finding your own",
-          "bold": false
-        },
-        {
-          "x": 130,
-          "y": 768,
-          "width": 522,
-          "height": 26,
-          "text": "food and the surprising delights growing outside.",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 820,
-          "width": 752,
-          "height": 39,
-          "text": "> {2] @13happy_mushroom asks: How did you get into foraging?",
-          "bold": false
-        },
-        {
-          "x": 205,
-          "y": 878,
-          "width": 1163,
-          "height": 69,
-          "text": "[3] It was mushrooms that first got me interested. I encountered a mushroom and was annoyed that 17",
-          "bold": true
-        },
-        {
-          "x": 203,
-          "y": 931,
-          "width": 1099,
-          "height": 26,
-          "text": "didn’t know what it was. So, I took it home, bought a book, and managed to identify the species. I’ve",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 940,
-          "width": 1114,
-          "height": 75,
-          "text": "carried on ever since, I started teaching evening classes and now I lead mushroom picking trips and I’m |",
-          "bold": true
-        },
-        {
-          "x": 203,
-          "y": 993,
-          "width": 528,
-          "height": 26,
-          "text": "currently working on my ninth nature guidebook.",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 1022,
-          "width": 43,
-          "height": 16,
-          "text": "Nes",
-          "bold": false
-        },
-        {
-          "x": 134,
-          "y": 1060,
-          "width": 804,
-          "height": 48,
-          "text": "= 4 @nature_gurl asks: What’s the appeal of finding wild food?}",
-          "bold": true
-        },
-        {
-          "x": 662,
-          "y": 1116,
-          "width": 20,
-          "height": 3,
-          "text": "=",
-          "bold": false
-        },
-        {
-          "x": 205,
-          "y": 1140,
-          "width": 1098,
-          "height": 26,
-          "text": "[5] It’s a gentle way for people to go out and engage with the natural world, but there’s so much more",
-          "bold": false
-        },
-        {
-          "x": 56,
-          "y": 1166,
-          "width": 46,
-          "height": 35,
-          "text": "10 -",
-          "bold": false
-        },
-        {
-          "x": 204,
-          "y": 1169,
-          "width": 1098,
-          "height": 27,
-          "text": "to it. Foraging has a massive sensé of freedom and release from modem day life. A connection to nature",
-          "bold": false
-        },
-        {
-          "x": 204,
-          "y": 1201,
-          "width": 1098,
-          "height": 27,
-          "text": "is something very special that, in my eyes, is a privilege and I’m lucky enough to have found a way to",
-          "bold": false
-        },
-        {
-          "x": 179,
-          "y": 1227,
-          "width": 255,
-          "height": 48,
-          "text": "|_ make a living from it.",
-          "bold": true
-        },
-        {
-          "x": 132,
-          "y": 1304,
-          "width": 762,
-          "height": 43,
-          "text": "= [6] @eat_to livel234 asks: What are the benefits of foraging?",
-          "bold": true
-        },
-        {
-          "x": 205,
-          "y": 1393,
-          "width": 1097,
-          "height": 28,
-          "text": "(7] Foraging naturally slows you down to become more observant and you gain an appreciation for the",
-          "bold": false
-        },
-        {
-          "x": 57,
-          "y": 1425,
-          "width": 25,
-          "height": 21,
-          "text": "15",
-          "bold": false
-        },
-        {
-          "x": 205,
-          "y": 1425,
-          "width": 1096,
-          "height": 26,
-          "text": "little things which, for me, are the most important. The physical activity involved in searching for wild",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 1455,
-          "width": 1120,
-          "height": 26,
-          "text": "edibles in nature provides a low-impact way to move your body while enjoying the great outdoors. |",
-          "bold": false
-        },
-        {
-          "x": 204,
-          "y": 1485,
-          "width": 1098,
-          "height": 26,
-          "text": "Foraging also has some mental health benefits. Spending time in green spaces can help reduce stress,",
-          "bold": false
-        },
-        {
-          "x": 200,
-          "y": 1513,
-          "width": 1123,
-          "height": 46,
-          "text": "help people cope with anxiety, and provide relief from depression, as well as improve overall mood and |",
-          "bold": true
-        },
-        {
-          "x": 980,
-          "y": 1543,
-          "width": 342,
-          "height": 50,
-          "text": "—_ —,",
-          "bold": true
-        },
-        {
-          "x": 205,
-          "y": 1617,
-          "width": 1079,
-          "height": 27,
-          "text": "{8] @EarthFirst2024 asks: There seems to be a trend in people choosing to forage. Why do you",
-          "bold": false
-        },
-        {
-          "x": 204,
-          "y": 1647,
-          "width": 1060,
-          "height": 33,
-          "text": "think this is? — —",
-          "bold": false
-        },
-        {
-          "x": 1281,
-          "y": 1700,
-          "width": 102,
-          "height": 62,
-          "text": "7",
-          "bold": true
-        },
-        {
-          "x": 205,
-          "y": 1717,
-          "width": 1099,
-          "height": 27,
-          "text": "(9] I think food in general has become something people pay more attention to, A new respect for",
-          "bold": false
-        },
-        {
-          "x": 204,
-          "y": 1747,
-          "width": 1099,
-          "height": 27,
-          "text": "ourselves with regard to how we treat our bodies, has pushed people towards smaller producers of better",
-          "bold": false
-        },
-        {
-          "x": 205,
-          "y": 1779,
-          "width": 1097,
-          "height": 27,
-          "text": "quality food. Small cottage industries and producers are now more popular with organic and natural",
-          "bold": false
-        },
-        {
-          "x": 205,
-          "y": 1809,
-          "width": 895,
-          "height": 26,
-          "text": "processes being favoured, and there’s nothing more organic than foraged wild food!",
-          "bold": false
-        },
-        {
-          "x": 179,
-          "y": 1837,
-          "width": 456,
-          "height": 22,
-          "text": "EEE a ee a",
-          "bold": false
-        },
-        {
-          "x": 556,
-          "y": 1872,
-          "width": 385,
-          "height": 22,
-          "text": "END OF READING PASSAGES",
-          "bold": true
-        },
-        {
-          "x": 131,
-          "y": 1907,
-          "width": 1199,
-          "height": 34,
-          "text": "Sources of materials used in this paper will be acknowledged in the HKDSE Question Papers booklet published by the Hong",
-          "bold": false
-        },
-        {
-          "x": 131,
-          "y": 1940,
-          "width": 597,
-          "height": 23,
-          "text": "Kong Examinations and Assessment Authority at a later stage.",
-          "bold": false
-        },
-        {
-          "x": 130,
-          "y": 2014,
-          "width": 676,
-          "height": 19,
-          "text": "2025-DSE-ENG LANG 1-B1-RP-3 “J",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2025/b1/passage-2-figure-2.webp",
-          "x": 112,
-          "y": 1084,
-          "width": 1268,
-          "height": 788,
-          "alt": "Original figure 2"
-        }
-      ]
-    }
-  ],
-  "structuredQuestionPages": [
-    {
-      "width": 1500,
-      "height": 2138,
-      "label": "Question page 1",
-      "lines": [
-        {
-          "x": 141,
-          "y": 54,
-          "width": 1235,
-          "height": 64,
-          "text": "Candidate Number | | | | | | | | | Please stick the barcode label here.",
-          "bold": true
-        },
-        {
-          "x": 131,
-          "y": 161,
-          "width": 658,
-          "height": 89,
-          "text": "ENGLISH LANGUAGE B 1",
-          "bold": true
-        },
-        {
-          "x": 131,
-          "y": 162,
-          "width": 182,
-          "height": 25,
-          "text": "HKDSE 2025",
-          "bold": true
-        },
-        {
-          "x": 131,
-          "y": 234,
-          "width": 267,
-          "height": 24,
-          "text": "PAPER 1 PART B1",
-          "bold": true
-        },
-        {
-          "x": 131,
-          "y": 265,
-          "width": 579,
-          "height": 30,
-          "text": "QUESTION-ANSWER BOOK Easy",
-          "bold": true
-        },
-        {
-          "x": 130,
-          "y": 331,
-          "width": 933,
-          "height": 25,
-          "text": "Write your Candidate Number and stick a barcode label in the space provided on this page.",
-          "bold": false
-        },
-        {
-          "x": 130,
-          "y": 364,
-          "width": 643,
-          "height": 25,
-          "text": "Read Texts 2 to 4 and answer questions 22-42. (42 marks)",
-          "bold": true
-        },
-        {
-          "x": 130,
-          "y": 433,
-          "width": 88,
-          "height": 20,
-          "text": "Text 2",
-          "bold": true
-        },
-        {
-          "x": 130,
-          "y": 481,
-          "width": 333,
-          "height": 19,
-          "text": "22. Who is Text 2 written for?",
-          "bold": false
-        },
-        {
-          "x": 191,
-          "y": 524,
-          "width": 142,
-          "height": 25,
-          "text": "People who...",
-          "bold": false
-        },
-        {
-          "x": 187,
-          "y": 563,
-          "width": 226,
-          "height": 25,
-          "text": "A. dislike foraging.",
-          "bold": false
-        },
-        {
-          "x": 187,
-          "y": 596,
-          "width": 264,
-          "height": 25,
-          "text": "B. are new to foraging.",
-          "bold": false
-        },
-        {
-          "x": 188,
-          "y": 619,
-          "width": 1105,
-          "height": 43,
-          "text": "C. — want to stop foraging. A B cC OD",
-          "bold": true
-        },
-        {
-          "x": 246,
-          "y": 646,
-          "width": 270,
-          "height": 47,
-          "text": "know a lot about foraging.",
-          "bold": true
-        },
-        {
-          "x": 187,
-          "y": 664,
-          "width": 18,
-          "height": 19,
-          "text": "D.",
-          "bold": true
-        },
-        {
-          "x": 191,
-          "y": 731,
-          "width": 1118,
-          "height": 26,
-          "text": "Select one of the menu options in the header above paragraph | to complete each gap in the table below. Use",
-          "bold": false
-        },
-        {
-          "x": 190,
-          "y": 764,
-          "width": 1104,
-          "height": 25,
-          "text": "each option ONCE only. The first has been done for you as an example. Some menu options are NOT used.",
-          "bold": false
-        },
-        {
-          "x": 1215,
-          "y": 797,
-          "width": 96,
-          "height": 25,
-          "text": "(3 marks)",
-          "bold": false
-        },
-        {
-          "x": 653,
-          "y": 821,
-          "width": 349,
-          "height": 80,
-          "text": "ose i lowing mena opto",
-          "bold": true
-        },
-        {
-          "x": 218,
-          "y": 980,
-          "width": 459,
-          "height": 33,
-          "text": "... watch a lesson on foraging (i)",
-          "bold": true
-        },
-        {
-          "x": 217,
-          "y": 1058,
-          "width": 469,
-          "height": 25,
-          "text": "...read more about this topic (ii)",
-          "bold": true
-        },
-        {
-          "x": 191,
-          "y": 1216,
-          "width": 1023,
-          "height": 34,
-          "text": "Identify TWO of the following that are NOT mentioned in paragraph | by circling the letters (A-E).",
-          "bold": false
-        },
-        {
-          "x": 526,
-          "y": 1264,
-          "width": 15,
-          "height": 18,
-          "text": "B",
-          "bold": true
-        },
-        {
-          "x": 192,
-          "y": 1548,
-          "width": 550,
-          "height": 26,
-          "text": "Which of the following best replaces ‘every’ (line 4)?",
-          "bold": true
-        },
-        {
-          "x": 261,
-          "y": 1603,
-          "width": 37,
-          "height": 14,
-          "text": "one",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 1636,
-          "width": 47,
-          "height": 19,
-          "text": "your",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 1666,
-          "width": 45,
-          "height": 19,
-          "text": "each",
-          "bold": false
-        },
-        {
-          "x": 259,
-          "y": 1704,
-          "width": 57,
-          "height": 18,
-          "text": "many",
-          "bold": false
-        },
-        {
-          "x": 133,
-          "y": 1828,
-          "width": 527,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 1195,
-          "y": 1896,
-          "width": 204,
-          "height": 169,
-          "text": "Hu",
-          "bold": true
-        },
-        {
-          "x": 132,
-          "y": 2038,
-          "width": 608,
-          "height": 27,
-          "text": "2025-DSE-ENG LANG 1-B1-1 1",
-          "bold": true
-        },
-        {
-          "x": 973,
-          "y": 2040,
-          "width": 198,
-          "height": 35,
-          "text": "*AOQ 20",
-          "bold": true
-        },
-        {
-          "x": 1242,
-          "y": 2044,
-          "width": 11,
-          "height": 20,
-          "text": "4",
-          "bold": false
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2025/b1/questions-1-figure-1.webp",
-          "x": 180,
-          "y": 820,
-          "width": 1152,
-          "height": 380,
+          "src": "assets/reading-comprehension/dse/content/2025/b1/questions-4-visual-1.webp",
           "alt": "Original figure 1"
         },
         {
-          "src": "assets/reading-comprehension/dse/structured/2025/b1/questions-1-figure-3.webp",
-          "x": 940,
-          "y": 1880,
-          "width": 244,
-          "height": 180,
-          "alt": "Original figure 3"
-        }
-      ]
-    },
-    {
-      "width": 1500,
-      "height": 2147,
-      "label": "Question page 2",
-      "lines": [
-        {
-          "x": 171,
-          "y": 140,
-          "width": 1179,
-          "height": 46,
-          "text": "Using the information in paragraph 4, complete the following sentence by using ONE word taken from the",
-          "bold": true
-        },
-        {
-          "x": 109,
-          "y": 157,
-          "width": 31,
-          "height": 20,
-          "text": "26.",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 191,
-          "width": 1179,
-          "height": 28,
-          "text": "paragraph for each gap. (2 marks)",
-          "bold": true
-        },
-        {
-          "x": 172,
-          "y": 260,
-          "width": 1181,
-          "height": 35,
-          "text": "To understand the Ss we alll belongto, look (ii) and learn all",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 298,
-          "width": 361,
-          "height": 27,
-          "text": "you can about the local plant life.",
-          "bold": true
-        },
-        {
-          "x": 107,
-          "y": 370,
-          "width": 33,
-          "height": 20,
-          "text": "27.",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 370,
-          "width": 865,
-          "height": 26,
-          "text": "State ONE piece of advice from paragraphs 3-7 to protect the health of foragers.",
-          "bold": false
-        },
-        {
-          "x": 107,
-          "y": 578,
-          "width": 441,
-          "height": 34,
-          "text": "28. The main purpose of Text 2 is to...",
-          "bold": true
-        },
-        {
-          "x": 182,
-          "y": 633,
-          "width": 138,
-          "height": 21,
-          "text": "A. debate.",
-          "bold": false
-        },
-        {
-          "x": 182,
-          "y": 670,
-          "width": 141,
-          "height": 21,
-          "text": "B. inform.",
-          "bold": false
-        },
-        {
-          "x": 182,
-          "y": 694,
-          "width": 1165,
-          "height": 31,
-          "text": "C. criticise. A B c D",
-          "bold": true
-        },
-        {
-          "x": 106,
-          "y": 830,
-          "width": 92,
-          "height": 22,
-          "text": "Text3",
-          "bold": false
-        },
-        {
-          "x": 105,
-          "y": 882,
-          "width": 1244,
-          "height": 28,
-          "text": "29. According to paragraphs 1-2, decide whether the following statements are True (T), False (F) or Not Given",
-          "bold": false
-        },
-        {
-          "x": 167,
-          "y": 914,
-          "width": 1181,
-          "height": 35,
-          "text": "(NG). (4 marks)",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 974,
-          "width": 125,
-          "height": 20,
-          "text": "Statements",
-          "bold": false
-        },
-        {
-          "x": 1310,
-          "y": 976,
-          "width": 40,
-          "height": 234,
-          "text": "O0004",
-          "bold": true
-        },
-        {
-          "x": 1158,
-          "y": 977,
-          "width": 37,
-          "height": 233,
-          "text": "OO00#",
-          "bold": true
-        },
-        {
-          "x": 1235,
-          "y": 977,
-          "width": 35,
-          "height": 233,
-          "text": "O0O0O0",
-          "bold": true
-        },
-        {
-          "x": 178,
-          "y": 1023,
-          "width": 502,
-          "height": 27,
-          "text": "(i) Huang has been foraging for many years.",
-          "bold": false
-        },
-        {
-          "x": 178,
-          "y": 1075,
-          "width": 643,
-          "height": 27,
-          "text": "(ii) Huang taught her dad about foraging herbs and plants.",
-          "bold": false
-        },
-        {
-          "x": 178,
-          "y": 1127,
-          "width": 605,
-          "height": 26,
-          "text": "(iii) Huang used foraged ingredients to make breakfast.",
-          "bold": false
-        },
-        {
-          "x": 178,
-          "y": 1178,
-          "width": 526,
-          "height": 27,
-          "text": "(iv) Huang started teaching foraging in Canada.",
-          "bold": true
-        },
-        {
-          "x": 171,
-          "y": 1254,
-          "width": 795,
-          "height": 36,
-          "text": "Complete the following sentence using the information from paragraph 2.",
-          "bold": false
-        },
-        {
-          "x": 107,
-          "y": 1259,
-          "width": 32,
-          "height": 20,
-          "text": "30.",
-          "bold": false
-        },
-        {
-          "x": 170,
-          "y": 1330,
-          "width": 740,
-          "height": 26,
-          "text": "Huang believes her childhood experience illustrates how foraging can",
-          "bold": false
-        },
-        {
-          "x": 1246,
-          "y": 1352,
-          "width": 105,
-          "height": 5,
-          "text": "|",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 1364,
-          "width": 311,
-          "height": 27,
-          "text": "as it did for hunter-gatherers.",
-          "bold": true
-        },
-        {
-          "x": 166,
-          "y": 1432,
-          "width": 1184,
-          "height": 34,
-          "text": "With reference to paragraph 3, complete the sentence below by using a word or phrase taken from the",
-          "bold": false
-        },
-        {
-          "x": 105,
-          "y": 1436,
-          "width": 35,
-          "height": 20,
-          "text": "31.",
-          "bold": false
-        },
-        {
-          "x": 170,
-          "y": 1471,
-          "width": 115,
-          "height": 26,
-          "text": "paragraph.",
-          "bold": true
-        },
-        {
-          "x": 171,
-          "y": 1537,
-          "width": 758,
-          "height": 36,
-          "text": "Compared with foraged plants, store-bought plants are",
-          "bold": true
-        },
-        {
-          "x": 170,
-          "y": 1608,
-          "width": 1179,
-          "height": 35,
-          "text": "Find a word in paragraph 4 which can be replaced by each word given below. (3 marks)",
-          "bold": false
-        },
-        {
-          "x": 107,
-          "y": 1613,
-          "width": 31,
-          "height": 20,
-          "text": "32.",
-          "bold": false
-        },
-        {
-          "x": 185,
-          "y": 1699,
-          "width": 198,
-          "height": 27,
-          "text": "(i) ‘prestigious’",
-          "bold": true
-        },
-        {
-          "x": 185,
-          "y": 1770,
-          "width": 144,
-          "height": 25,
-          "text": "(ii) ‘sector’",
-          "bold": true
-        },
-        {
-          "x": 184,
-          "y": 1841,
-          "width": 189,
-          "height": 25,
-          "text": "(iii) ‘well-liked’",
-          "bold": true
-        },
-        {
-          "x": 103,
-          "y": 1975,
-          "width": 558,
-          "height": 35,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 106,
-          "y": 2076,
-          "width": 644,
-          "height": 28,
-          "text": "2025-DSE-ENG LANG 1-BI-2 2",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2025/b1/questions-2-figure-1.webp",
-          "x": 68,
-          "y": 100,
-          "width": 1344,
-          "height": 844,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2025/b1/questions-2-figure-2.webp",
-          "x": 68,
-          "y": 1244,
-          "width": 1340,
-          "height": 740,
-          "alt": "Original figure 2"
-        }
-      ]
-    },
-    {
-      "width": 1500,
-      "height": 2083,
-      "label": "Question page 3",
-      "lines": [
-        {
-          "x": 184,
-          "y": 100,
-          "width": 464,
-          "height": 25,
-          "text": "What does ‘rich pickings’ (line 18) refer to?",
-          "bold": false
-        },
-        {
-          "x": 255,
-          "y": 146,
-          "width": 357,
-          "height": 34,
-          "text": "A wide variety of plants to forage",
-          "bold": false
-        },
-        {
-          "x": 251,
-          "y": 181,
-          "width": 389,
-          "height": 34,
-          "text": "The strong flavour of foraged plants",
-          "bold": false
-        },
-        {
-          "x": 255,
-          "y": 205,
-          "width": 997,
-          "height": 44,
-          "text": "A lot of medicinal products made from foraged plants A BC",
-          "bold": true
-        },
-        {
-          "x": 249,
-          "y": 239,
-          "width": 1013,
-          "height": 49,
-          "text": "The money foragers can make _seiig to high-end restaurants O Oo Oo",
-          "bold": true
-        },
-        {
-          "x": 184,
-          "y": 320,
-          "width": 1066,
-          "height": 34,
-          "text": "Find TWO examples in paragraph 5 of the ‘high biodiversity’ (line 18) in Hong Kong. 2",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 391,
-          "width": 25,
-          "height": 24,
-          "text": "10)",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 528,
-          "width": 1147,
-          "height": 27,
-          "text": "Complete the following summary of paragraph 6 with a word or phrase taken from the paragraph. (4 marks)",
-          "bold": false
-        },
-        {
-          "x": 209,
-          "y": 607,
-          "width": 604,
-          "height": 26,
-          "text": "Hong Kong Citizens: Old Village Residents:",
-          "bold": true
-        },
-        {
-          "x": 208,
-          "y": 662,
-          "width": 1109,
-          "height": 35,
-          "text": "Most people today spend Luckily this group have all Her passion is to restore people’s",
-          "bold": false
-        },
-        {
-          "x": 209,
-          "y": 731,
-          "width": 1097,
-          "height": 29,
-          "text": "(¢) the(iii) (iv) ito",
-          "bold": true
-        },
-        {
-          "x": 209,
-          "y": 761,
-          "width": 1009,
-          "height": 35,
-          "text": "at their job so they needed to forage in their own the world around them.",
-          "bold": false
-        },
-        {
-          "x": 209,
-          "y": 800,
-          "width": 530,
-          "height": 34,
-          "text": "have no for neighbourhood.",
-          "bold": true
-        },
-        {
-          "x": 122,
-          "y": 958,
-          "width": 1209,
-          "height": 27,
-          "text": "36. Look at the information in paragraphs 1-6 and match each paragraph to the headings below. Use each",
-          "bold": false
-        },
-        {
-          "x": 182,
-          "y": 993,
-          "width": 1149,
-          "height": 26,
-          "text": "paragraph number ONCE only. One heading does NOT refer to any of the paragraphs and you should put a",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 1026,
-          "width": 1147,
-          "height": 26,
-          "text": "cross (X). One has been done for you as an example. (6 marks)",
-          "bold": false
-        },
-        {
-          "x": 280,
-          "y": 1077,
-          "width": 951,
-          "height": 34,
-          "text": "Headings Paragraph Number",
-          "bold": false
-        },
-        {
-          "x": 207,
-          "y": 1130,
-          "width": 578,
-          "height": 26,
-          "text": "(i) businesses embrace the world of foraging",
-          "bold": false
-        },
-        {
-          "x": 207,
-          "y": 1184,
-          "width": 306,
-          "height": 25,
-          "text": "(ii) Definition of foraging",
-          "bold": false
-        },
-        {
-          "x": 207,
-          "y": 1236,
-          "width": 434,
-          "height": 26,
-          "text": "(iii) Respect for wisdom of the elderly",
-          "bold": false
-        },
-        {
-          "x": 207,
-          "y": 1289,
-          "width": 512,
-          "height": 26,
-          "text": "(iv) Passing knowledge to the next generation",
-          "bold": false
-        },
-        {
-          "x": 208,
-          "y": 1344,
-          "width": 317,
-          "height": 25,
-          "text": "(v) Why are they better?",
-          "bold": false
-        },
-        {
-          "x": 207,
-          "y": 1396,
-          "width": 323,
-          "height": 26,
-          "text": "e.g. Meeting a local forager",
-          "bold": false
-        },
-        {
-          "x": 207,
-          "y": 1449,
-          "width": 421,
-          "height": 24,
-          "text": "(vi) Our location means we are lucky",
-          "bold": true
-        },
-        {
-          "x": 122,
-          "y": 1545,
-          "width": 90,
-          "height": 22,
-          "text": "Text 4",
-          "bold": true
-        },
-        {
-          "x": 121,
-          "y": 1597,
-          "width": 571,
-          "height": 26,
-          "text": "37. Who or what does ‘the species’ (line 5) refer to?",
-          "bold": true
-        },
-        {
-          "x": 121,
-          "y": 1661,
-          "width": 1026,
-          "height": 35,
-          "text": "38. With reference to paragraph 3, explain how Wright progressed from a challenge to a career.",
-          "bold": false
-        },
-        {
-          "x": 119,
-          "y": 1868,
-          "width": 541,
-          "height": 33,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 123,
-          "y": 1967,
-          "width": 1215,
-          "height": 39,
-          "text": "2025-DSE-ENG LANG 1-B1-3 3 Go on tothe next page",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2025/b1/questions-3-figure-1.webp",
-          "x": 172,
-          "y": 572,
-          "width": 768,
-          "height": 368,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2025/b1/questions-3-figure-2.webp",
-          "x": 936,
-          "y": 572,
-          "width": 416,
-          "height": 368,
-          "alt": "Original figure 2"
-        }
-      ]
-    },
-    {
-      "width": 1500,
-      "height": 2177,
-      "label": "Question page 4",
-      "lines": [
-        {
-          "x": 101,
-          "y": 116,
-          "width": 532,
-          "height": 28,
-          "text": "39. What is ‘a privilege’ (line 11) for Wright?",
-          "bold": true
-        },
-        {
-          "x": 99,
-          "y": 336,
-          "width": 1154,
-          "height": 28,
-          "text": "40. With reference to paragraph 5, what does Wright indicate is a less obvious attraction of foraging?",
-          "bold": false
-        },
-        {
-          "x": 99,
-          "y": 477,
-          "width": 1222,
-          "height": 35,
-          "text": "41, Find a word or phrase from paragraph § and paragraph 7 that can be replaced by ‘from my perspective.’",
-          "bold": false
-        },
-        {
-          "x": 1272,
-          "y": 518,
-          "width": 108,
-          "height": 28,
-          "text": "(2 marks)",
-          "bold": true
-        },
-        {
-          "x": 181,
-          "y": 592,
-          "width": 198,
-          "height": 27,
-          "text": "(i) Paragraph 5",
-          "bold": true
-        },
-        {
-          "x": 181,
-          "y": 665,
-          "width": 199,
-          "height": 28,
-          "text": "(ii) Paragraph 7",
-          "bold": true
-        },
-        {
-          "x": 100,
-          "y": 739,
-          "width": 516,
-          "height": 25,
-          "text": "Read Texts 2, 3 and 4 and answer question 42.",
-          "bold": true
-        },
-        {
-          "x": 99,
-          "y": 790,
-          "width": 1284,
-          "height": 27,
-          "text": "42. Below are comments made by the people and the organisation in Text 2, Text 3 and Text 4. Match each with",
-          "bold": false
-        },
-        {
-          "x": 165,
-          "y": 826,
-          "width": 1216,
-          "height": 28,
-          "text": "ONE comment that best represents them. Use each letter ONCE only. One comment is NOT used. (4 marks)",
-          "bold": false
-        },
-        {
-          "x": 196,
-          "y": 886,
-          "width": 728,
-          "height": 26,
-          "text": "Person / Organisation Comment",
-          "bold": true
-        },
-        {
-          "x": 195,
-          "y": 968,
-          "width": 172,
-          "height": 26,
-          "text": "AFCD (Text 2)",
-          "bold": true
-        },
-        {
-          "x": 196,
-          "y": 1048,
-          "width": 257,
-          "height": 27,
-          "text": "Wanda Huang (Text 3)",
-          "bold": true
-        },
-        {
-          "x": 194,
-          "y": 1126,
-          "width": 283,
-          "height": 27,
-          "text": "Uwe Opocensky (Text 3)",
-          "bold": true
-        },
-        {
-          "x": 195,
-          "y": 1203,
-          "width": 235,
-          "height": 28,
-          "text": "John Wright (Text 4)",
-          "bold": true
-        },
-        {
-          "x": 197,
-          "y": 1246,
-          "width": 1149,
-          "height": 42,
-          "text": "eer eee a",
-          "bold": false
-        },
-        {
-          "x": 224,
-          "y": 1301,
-          "width": 1106,
-          "height": 32,
-          "text": "A. It’s amazing, one mushroom has B. It’s most important to first speak to someone",
-          "bold": false
-        },
-        {
-          "x": 264,
-          "y": 1337,
-          "width": 912,
-          "height": 33,
-          "text": "changed my entire life. who knows what they are doing.",
-          "bold": true
-        },
-        {
-          "x": 226,
-          "y": 1613,
-          "width": 1124,
-          "height": 44,
-          "text": "C. If you try them yourself D. Know what you're doing E. I can’t stand by and let",
-          "bold": true
-        },
-        {
-          "x": 339,
-          "y": 1650,
-          "width": 965,
-          "height": 36,
-          "text": "agree with me. before you embark on our heritage be lost.",
-          "bold": false
-        },
-        {
-          "x": 259,
-          "y": 1688,
-          "width": 607,
-          "height": 31,
-          "text": "Totally delicious! any foraging trip.",
-          "bold": true
-        },
-        {
-          "x": 637,
-          "y": 1868,
-          "width": 227,
-          "height": 23,
-          "text": "END OF PART B1",
-          "bold": true
-        },
-        {
-          "x": 101,
-          "y": 1995,
-          "width": 569,
-          "height": 26,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 100,
-          "y": 2097,
-          "width": 662,
-          "height": 27,
-          "text": "2025-DSE-ENG LANG 1-B1-4 4",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2025/b1/questions-4-figure-1.webp",
-          "x": 176,
-          "y": 1248,
-          "width": 532,
-          "height": 224,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2025/b1/questions-4-figure-2.webp",
-          "x": 728,
-          "y": 1248,
-          "width": 656,
-          "height": 244,
+          "src": "assets/reading-comprehension/dse/content/2025/b1/questions-4-visual-2.webp",
           "alt": "Original figure 2"
         },
         {
-          "src": "assets/reading-comprehension/dse/structured/2025/b1/questions-4-figure-3.webp",
-          "x": 584,
-          "y": 1496,
-          "width": 412,
-          "height": 276,
+          "src": "assets/reading-comprehension/dse/content/2025/b1/questions-4-visual-3.webp",
           "alt": "Original figure 3"
         },
         {
-          "src": "assets/reading-comprehension/dse/structured/2025/b1/questions-4-figure-4.webp",
-          "x": 176,
-          "y": 1500,
-          "width": 404,
-          "height": 272,
+          "src": "assets/reading-comprehension/dse/content/2025/b1/questions-4-visual-4.webp",
           "alt": "Original figure 4"
         },
         {
-          "src": "assets/reading-comprehension/dse/structured/2025/b1/questions-4-figure-5.webp",
-          "x": 1000,
-          "y": 1508,
-          "width": 380,
-          "height": 224,
+          "src": "assets/reading-comprehension/dse/content/2025/b1/questions-4-visual-5.webp",
           "alt": "Original figure 5"
+        }
+      ],
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Person / Organisation",
+                "header": true
+              },
+              {
+                "text": "Comment",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "AFCD (Text 2)"
+              },
+              {
+                "text": "",
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "Wanda Huang (Text 3)"
+              },
+              {
+                "text": "",
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "Uwe Opocensky (Text 3)"
+              },
+              {
+                "text": "",
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "John Wright (Text 4)"
+              },
+              {
+                "text": "",
+                "part": "iv"
+              }
+            ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "key": "i",
+          "label": "i",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "ii",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "iii",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "iv",
+          "type": "text",
+          "inTable": true
         }
       ]
     }

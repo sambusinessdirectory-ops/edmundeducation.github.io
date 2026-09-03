@@ -5,2124 +5,595 @@
   "title": "Ethical Concerns Mount as AI Takes a Bigger Role",
   "sourceLabel": "HKDSE 2022 English Language Paper 1 Part B2",
   "sourceHeading": "Ethical Concerns Mount as AI Takes a Bigger Role",
-  "displayMode": "structured-paper",
-  "paragraphs": [],
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "Paragraph 1",
+      "text": "snorti Ethical concerns mount as AI takes bigger decision-making role in more industries For decades, artificial intelligence, or Al, has been the engine of high-level STEM research. Most consumers became aware of the technology's power and potential through internet platforms like Google and Facebook, ano retailer Amazon. Today, Al is essential across a vast array of industries, including health care, banking, retail, anc"
+    },
+    {
+      "number": 2,
+      "label": "Paragraph 2",
+      "text": "But its game-changing promise to do things like improve efficiency, bring down costs, and accelerate research and development has been tempered of late with worries that these complex systems may do more societal harm than economic good. With virtually no government regulations, private companies use Al software to make determinations about health and medicine, employment and creditworthiness without having to answer for how they are ensuring that their programmes are not encoded with structural biases. [31 Joseph Euller/ professor of management practice, explains that in employment, Al software sorts and processes resumes and analyses job interviewees' voice and facial expressions. The result is the growth of what's known as 'hybrid' jobs. Rather than replacing employees, Al takes on important technical tasks of their work, freeing workers to focus on other responsibilities, making them more productive and therefore more valuable to employers."
+    },
+    {
+      "number": 3,
+      "label": "Paragraph 3",
+      "text": "While Big Business already has a huge head start, small businesses could also potentially be transformed by the implementation of AI, says Karen Mills, who ran the U.S. Small Business Administration from 2009 to 2013. This could have major implications for the national economy over the long haul as most people in the U.S. are employed by small businesses. Rather than hampering small businesses, the technology could give their owners detailed new insights into sales trends, cash flow, inventory, ordering, and other financial information in real time. This will help them understand how the business is doing and where problem areas might loom without having to hire any other experts in finance, accounting, or human resources. The owner doesn't need to become a financial expert, or spend hours labouring over the books every week, Mills said What are the ethical concerns of using Al in decision-making? (51 Michael Sandel, professor of political philosophy, states that the widespread use of Al presents ethical concerns for society: privacy, discrimination, and perhaps the deepest, most difficult philosophical question of the era, the role of human judgement. \"Debates about privacy safeguards and about how to overcome bias in algorithmic decision-making in employment practices are by now familiar,\" said Sandel, referring to intentional and unintentional prejudices of programme developers and those built into datasets used to train the software. \"But we've not yet wrapped our minds around the hardest question: Can smart machines out-think us, or are certain elements of human judgement indispensable in deciding some of the most important things in life?\""
+    },
+    {
+      "number": 4,
+      "label": "Paragraph 4",
+      "text": "Panic over Al suddenly injecting bias into everyday life en masse is overstated, says Fuller First, the business world and the workplace, rife with human decision-making, have always been riddled with \"all sorts' of biases that prevent people from making deals or landing contracts and jobs. \"When calibrated carefully and deployed thoughtfully, resume-screening software allows a wider pool of applicants to be considered than could be done otherwise, and should minimise the potential for favouritism that comes with human gatekeepers,\" Fuller said. Sandel disagrees. \"Al not only replicates human biases, it confers on these biases a kind of scientific credibility. It makes it seem that these predictions and judgments have an objective status,\" he said."
+    },
+    {
+      "number": 5,
+      "label": "Paragraph 5",
+      "text": "\"In the world of lending, algorithm-driven decisions do have a potential dark side,\" Mills said. As machines learn from the data sets they're fed, chances are 'pretty high' they may replicate many of the banking industry's past failings that resulted in discrimination against minority groups. \"If we are not thoughtful and careful, we are going to end up with redlining again,\" she said. \"A highly regulated industry, banks are legally on the hook if the algorithms they use to evaluate loan applications end up inappropriately discriminating against classes of consumers, so those \"at the top levels' in the field are 'very focused' right now on this issue,\" said Mills, who closely studies the rapid changes in financial technology, or 'fintech'. • \"They really don't want to discriminate. They want to give access to capital to the most creditworthy borrowers,\" she said. \"That's good business for them, How much government regulation is needed?"
+    },
+    {
+      "number": 6,
+      "label": "Paragraph 6",
+      "text": "How much government regulation is needed? Given its power and expected ubiquity, some argue that the use of Al should be tightly regulated. But there's little consensus on how that should be done and who should make the rules. Thus far, companies that develop or use Al systems largely self-police, relying on existing laws and market forces, like negative reactions from consumers and shareholders as well as the demands of the highly-prized Al technical talents to keep them in line. 19] \"There's no businessperson on the planet at an enterprise of any size who isn't concerned about this and trying to reflect on what's going to be politically, legally, regulatorily, or ethically acceptable,\" said Fuller. \"Firms already consider their own potential liability from misuse before a product launch, but it's not realistic to expect companies to anticipate and prevent every possible unintended consequence of their products,\" he said."
+    },
+    {
+      "number": 7,
+      "label": "Paragraph 7",
+      "text": "Jason Furman, professor of the practice of economic policy, agrees that government regulators need \"a much transportation regulations could handle potential Al issues in autonomous vehicles rather than setting up another Al group in the existing government system,\" he said. Enforcing Al regulation within industries by industry-specific panels who are more knowledgeable about the overarching technology could make oversight of Al more thorough. \"I think governments should've started this long ago, but better late than never,\" said Furman, who thinks there needs to be a 'greater sense of urgency' to make governments act."
+    },
+    {
+      "number": 8,
+      "label": "Paragraph 8",
+      "text": "\"Business leaders can't have it both ways, refusing responsibility for Al's harmful consequences while also fighting government oversight,\" Sandel maintains. \"The current situation is these big tech companies are neither self-regulating, nor subject to adequate government regulation. I think there needs to be more of both,\" he said, later adding: \"We can't assume that market forces by themselves will sort it out. That's a mistake, as we've seen with Facebook and other tech giants.\""
+    },
+    {
+      "number": 9,
+      "label": "Paragraph 9",
+      "text": "\"Companies have to think seriously about the ethical dimensions of what they're doing and we, as US citizens, have to educate ourselves about tech and its social and ethical implications - not only to decide what the regulations should be, but also to decide what role we want big tech and social media to play in our lives,\" said Sandel. Doing that will require a major educational intervention in higher education. He said, \"we have to enable all students to learn enough about tech and about the ethical implications of new technologies so that when they are running companies or when they are acting as citizens, they will be able to ensure that technology serves human purposes rather than undermines a decent civic life.\""
+    }
+  ],
   "instructions": {
-    "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
+    "paper": "Answer every question using the passage."
   },
   "questions": [
     {
       "number": 43,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 43",
-      "placeholder": "Enter all answer parts for Question 43"
+      "prompt": "Based on the information in paragraph 1, complete the summary by writing a word or phrase taken from\nparagraph 1 in each blank below. Your answers must be grammatically correct. (3 marks)"
     },
     {
       "number": 44,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 44",
-      "placeholder": "Enter all answer parts for Question 44"
+      "prompt": "Artificial intelligence has been driving (i) for many years now. The\ngrowth of Google and Facebook has ensured that (ii) are also conscious of the\npower of Al in the internet. Industries such as health care, banking, retail, and manufacturing find AI\n(iii) to their core functions."
     },
     {
       "number": 45,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 45",
-      "placeholder": "Enter all answer parts for Question 45"
+      "prompt": "44. In paragraph 1, what metaphor is used to describe Al?"
     },
     {
       "number": 46,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 46",
-      "placeholder": "Enter all answer parts for Question 46"
+      "prompt": "45. Complete this sentence based on the information in paragraph 3.\n'Hybrid' jobs (line 12) are performed by both"
     },
     {
       "number": 47,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 47",
-      "placeholder": "Enter all answer parts for Question 47"
+      "prompt": "46. Find a word or phrase in paragraph 4 which can be replaced by 'for an extended period of time'."
     },
     {
       "number": 48,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 48",
-      "placeholder": "Enter all answer parts for Question 48"
+      "type": "choice",
+      "prompt": "47. What does Mills mean when she says 'a huge head start' (line 14)?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Small businesses are hampered by AI."
+        },
+        {
+          "value": "B",
+          "label": "B. Big Business has been using Al for a long time."
+        },
+        {
+          "value": "C",
+          "label": "C. Al can benefit both Big Business and small businesses."
+        },
+        {
+          "value": "D",
+          "label": "D. Big Business has more resources than small businesses."
+        }
+      ]
     },
     {
       "number": 49,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 49",
-      "placeholder": "Enter all answer parts for Question 49"
+      "prompt": "48. What does 'This' (line 16) refer to?"
     },
     {
       "number": 50,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 50",
-      "placeholder": "Enter all answer parts for Question 50"
+      "prompt": "49. Complete the following sentences using the information in paragraph 4. Your answers must be grammatically\ncorrect. (3 marks)\nSmall businesses are important to the U.S. economy because they (i)\nAl benefits small businesses as the financial information it generates comes (ii)\nand requires (Il)"
     },
     {
       "number": 51,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 51",
-      "placeholder": "Enter all answer parts for Question 51"
+      "type": "parts",
+      "prompt": "50. Complete the table using the information in paragraph 5. Your answers must be grammatically correct.\n(5 marks)",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Ethical Concern",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              },
+              {
+                "text": "Debate",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Privacy",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "whether (i)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r2c2g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "(i1)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r3c1g1"
+                ]
+              },
+              {
+                "text": "whether (i1i)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r3c2g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "(iv)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r4c1g1"
+                ]
+              },
+              {
+                "text": "whether (v)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r4c2g1"
+                ]
+              }
+            ]
+          ],
+          "columns": 2
+        }
+      ],
+      "parts": [
+        {
+          "key": "t1r2c2g1",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r3c1g1",
+          "label": "(i1)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r3c2g1",
+          "label": "(i1i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r4c1g1",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r4c2g1",
+          "label": "(v)",
+          "type": "text",
+          "inTable": true
+        }
+      ]
     },
     {
       "number": 52,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 52",
-      "placeholder": "Enter all answer parts for Question 52"
+      "prompt": "51. What is the cause of the 'Panic' (line 30)?\nPeople's perception that AI"
     },
     {
       "number": 53,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 53",
-      "placeholder": "Enter all answer parts for Question 53"
+      "prompt": "52. What does Sandel imply by saying that Al seems to give an 'objective status' (line 36)?"
     },
     {
       "number": 54,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 54",
-      "placeholder": "Enter all answer parts for Question 54"
+      "prompt": "53. Based on the information in paragraph 6, complete the following sentence by writing a word or phrase taken\nfrom paragraph 6 in each blank below. Your answers must be grammatically correct. (3 marks)\nAl software used for (i) needs to be accurately set so that\n(ii) can be reduced and more potential applicants would be\nconsidered instead of being eliminated by (iii)"
     },
     {
       "number": 55,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 55",
-      "placeholder": "Enter all answer parts for Question 55"
+      "prompt": "54. Mills mentions being 'very focused' (line 42). (2 marks)\nWho are very focused?\nWhy is this important?"
     },
     {
       "number": 56,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 56",
-      "placeholder": "Enter all answer parts for Question 56"
+      "prompt": "55. Find a phrase in paragraph 7 which has a similar meaning to 'being responsible under the law'."
     },
     {
       "number": 57,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 57",
-      "placeholder": "Enter all answer parts for Question 57"
+      "type": "parts",
+      "prompt": "56. According to paragraph 7, the use of Al may have benefits as well as cause harm. Complete the table below\nwith a word or phrase taken from paragraph 7 in each blank. Your answers must be grammatically correct\n(2 marks)",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Issue",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Using AI to screen (i) of individuals",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ],
+            [
+              {
+                "text": "Anticipated\nbenefit",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Banks could give loans to (ii)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r2c2g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Possible\nharm caused",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "There could be prejudices.",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ]
+          ],
+          "columns": 2
+        }
+      ],
+      "parts": [
+        {
+          "key": "t1r2c2g1",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        }
+      ]
     },
     {
       "number": 58,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 58",
-      "placeholder": "Enter all answer parts for Question 58"
+      "prompt": "57. Find a word in paragraph 8 which expresses 'the state of being everywhere'."
     },
     {
       "number": 59,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 59",
-      "placeholder": "Enter all answer parts for Question 59"
+      "prompt": "58. Complete the following sentence using the information in paragraph 8.\nCurrently, it is the voices of\nexpressing their opinions that prevent companies from abusing their use of AI."
     },
     {
       "number": 60,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 60",
-      "placeholder": "Enter all answer parts for Question 60"
+      "type": "choice",
+      "prompt": "59. What does 'keep them in line' (line 50) mean?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. to stop Al systems from self-policing"
+        },
+        {
+          "value": "B",
+          "label": "B. to form a consensus on how to use AI"
+        },
+        {
+          "value": "C",
+          "label": "C. to ensure businesses use Al responsibly B"
+        },
+        {
+          "value": "D",
+          "label": "D. to meet the demand for Al technical talent"
+        }
+      ]
     },
     {
       "number": 61,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 61",
-      "placeholder": "Enter all answer parts for Question 61"
+      "type": "parts",
+      "prompt": "60. According to paragraph 9, what are some issues of concern for a business using Al? Tick (r) the appropriate\nbox(es). You may tick (r) more than one box.\nLiability from misuse\nThe size of an enterprise\nUnintended consequences\nLack of business personnel\nSuccess of a product launch\nbe grammatically correct.",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Government Department",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Issue",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Solution",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ],
+            [
+              {
+                "text": "The (i)\nDepartment",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r2c1g1"
+                ]
+              },
+              {
+                "text": "Regulating AI (ii)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r2c2g1"
+                ]
+              },
+              {
+                "text": "(ini)\ncan work within the department.",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r2c3g1"
+                ]
+              }
+            ]
+          ],
+          "columns": 3
+        }
+      ],
+      "parts": [
+        {
+          "key": "t1r2c1g1",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r2c2g1",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r2c3g1",
+          "label": "(ini)",
+          "type": "text",
+          "inTable": true
+        }
+      ]
     },
     {
       "number": 62,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 62",
-      "placeholder": "Enter all answer parts for Question 62"
+      "prompt": "What is the cause of 'The current situation' (line 63)?"
     },
     {
       "number": 63,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 63",
-      "placeholder": "Enter all answer parts for Question 63"
+      "prompt": "According to paragraph 12, what is the 'educational intervention' (line 70) required?\nEducational institutions must address"
     },
     {
       "number": 64,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 64",
-      "placeholder": "Enter all answer parts for Question 64"
+      "type": "parts",
+      "prompt": "Use the information in Text 4 to match each of the following comments with a person (A-D) mentioned in the\ntext. A person may be used more than once. Write the letter of person on the line next to the comments. One\ncomment is NOT mentioned by any of the four people and you should choose 'E. Not stated'. (6 marks)\nA. Jason Furman B. Joseph Fuller C. Karen Mills D. Michael Sandel E. Not stated\nIf banks use Al software to investigate creditworthiness, they may repeat the past practices (vi)\nthat were prejudiced and discriminatory.",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Comment",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              },
+              {
+                "text": "Person",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Programmers may unintentionally be adding their own personal biases in the data sets used\nto train Al software.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "(i)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r2c2g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "The internet providers are promoting the use of Al for the government regulators.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "(ii)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r3c2g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Al makes recruitment and hiring more efficient for companies.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "(iii)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r4c2g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "(iv)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r5c1g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "(A)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r6c1g1"
+                ]
+              }
+            ]
+          ],
+          "columns": 2
+        }
+      ],
+      "parts": [
+        {
+          "key": "t1r2c2g1",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r3c2g1",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r4c2g1",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r5c1g1",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r6c1g1",
+          "label": "(A)",
+          "type": "text",
+          "inTable": true
+        }
+      ]
     },
     {
       "number": 65,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 65",
-      "placeholder": "Enter all answer parts for Question 65"
-    }
-  ],
-  "structuredPassagePages": [
-    {
-      "width": 1500,
-      "height": 1941,
-      "label": "Reading passage page 1",
-      "lines": [
+      "type": "choice",
+      "prompt": "What is the author's view towards the use of Al in this text?",
+      "options": [
         {
-          "x": 148,
-          "y": 74,
-          "width": 15,
-          "height": 29,
-          "text": "|",
-          "bold": false
+          "value": "A",
+          "label": "A. ironic"
         },
         {
-          "x": 247,
-          "y": 149,
-          "width": 108,
-          "height": 22,
-          "text": "PART B2",
-          "bold": true
+          "value": "B",
+          "label": "B. neutral"
         },
         {
-          "x": 246,
-          "y": 200,
-          "width": 725,
-          "height": 27,
-          "text": "Read Text 4 and answer questions 43-65 in the Question-Answer Book for Part B2.",
-          "bold": false
+          "value": "C",
+          "label": "C. critical"
         },
         {
-          "x": 246,
-          "y": 257,
-          "width": 75,
-          "height": 18,
-          "text": "Text 4",
-          "bold": false
-        },
-        {
-          "x": 247,
-          "y": 298,
-          "width": 971,
-          "height": 41,
-          "text": "Ethical concerns mount as AI takes bigger decision-making role",
-          "bold": true
-        },
-        {
-          "x": 246,
-          "y": 349,
-          "width": 276,
-          "height": 26,
-          "text": "in more industries",
-          "bold": false
-        },
-        {
-          "x": 246,
-          "y": 402,
-          "width": 979,
-          "height": 30,
-          "text": "[1] For decades, artificial intelligence, or Al, has been the engine of high-level STEM research. Most consumers",
-          "bold": false
-        },
-        {
-          "x": 245,
-          "y": 422,
-          "width": 980,
-          "height": 41,
-          "text": "became aware of the power and potential through internet platforms like Google and Facebook, and",
-          "bold": true
-        },
-        {
-          "x": 245,
-          "y": 453,
-          "width": 980,
-          "height": 33,
-          "text": "retailer Amazon. Today, Al is essential across a vast array of industries, including health care, banking, retail, and",
-          "bold": false
-        },
-        {
-          "x": 245,
-          "y": 490,
-          "width": 129,
-          "height": 22,
-          "text": "manufacturing.",
-          "bold": false
-        },
-        {
-          "x": 246,
-          "y": 528,
-          "width": 978,
-          "height": 32,
-          "text": "[2] But its game-changing promise to do things like improve efficiency, bring down costs, and accelerate research",
-          "bold": false
-        },
-        {
-          "x": 245,
-          "y": 557,
-          "width": 979,
-          "height": 30,
-          "text": "and development has been tempered of late with worries that these complex systems may do more societal harm",
-          "bold": false
-        },
-        {
-          "x": 245,
-          "y": 582,
-          "width": 978,
-          "height": 32,
-          "text": "than economic good. With virtually no government regulations, private companies use Al software to make",
-          "bold": false
-        },
-        {
-          "x": 245,
-          "y": 610,
-          "width": 978,
-          "height": 30,
-          "text": "determinations about health and medicine, employment and creditworthiness without having to answer for how",
-          "bold": false
-        },
-        {
-          "x": 245,
-          "y": 643,
-          "width": 680,
-          "height": 24,
-          "text": "they are ensuring that their programmes are not encoded with structural biases.",
-          "bold": false
-        },
-        {
-          "x": 382,
-          "y": 682,
-          "width": 840,
-          "height": 36,
-          "text": "x] professor of management practice, explains that in employment, AI software sorts and processes",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 689,
-          "width": 21,
-          "height": 18,
-          "text": "10",
-          "bold": false
-        },
-        {
-          "x": 245,
-          "y": 712,
-          "width": 976,
-          "height": 27,
-          "text": "restimes and analyses job interviewees’ voice and facial expressions. The result is the growth of what’s known as",
-          "bold": false
-        },
-        {
-          "x": 245,
-          "y": 738,
-          "width": 977,
-          "height": 28,
-          "text": "‘hybrid’ jobs, Rather than replacing employees, AI takes on important technical tasks of their work, freeing",
-          "bold": false
-        },
-        {
-          "x": 243,
-          "y": 765,
-          "width": 983,
-          "height": 28,
-          "text": "workers to focus on other responsibilities, making them more productive and therefore more valuable to employers.",
-          "bold": false
-        },
-        {
-          "x": 245,
-          "y": 811,
-          "width": 977,
-          "height": 28,
-          "text": "[4] While Big Business has a huge head start, small businesses could also potentially be transformed by",
-          "bold": false
-        },
-        {
-          "x": 243,
-          "y": 838,
-          "width": 978,
-          "height": 27,
-          "text": "the implementation of AI, says{Karen Mill, who ran the U.S. Small Business Administration from 2009 to 2013.",
-          "bold": false
-        },
-        {
-          "x": 181,
-          "y": 841,
-          "width": 21,
-          "height": 17,
-          "text": "15",
-          "bold": false
-        },
-        {
-          "x": 243,
-          "y": 865,
-          "width": 978,
-          "height": 25,
-          "text": "This could have major implicatfons Tor the national economy over the long haul as most people in the U.S. are",
-          "bold": false
-        },
-        {
-          "x": 243,
-          "y": 892,
-          "width": 978,
-          "height": 25,
-          "text": "employed by small businesses. Rather than hampering small businesses, the technology could give their owners",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 918,
-          "width": 978,
-          "height": 25,
-          "text": "detailed new insights into sales trends, cash flow, inventory, ordering, and other financial information in real time.",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 944,
-          "width": 978,
-          "height": 24,
-          "text": "This will help them understand how the business is doing and where problem areas might loom without having to",
-          "bold": false
-        },
-        {
-          "x": 241,
-          "y": 970,
-          "width": 979,
-          "height": 25,
-          "text": "hire any other experts in finance, accounting, or human resources. The owner doesn’t need to become a financial",
-          "bold": false
-        },
-        {
-          "x": 178,
-          "y": 973,
-          "width": 23,
-          "height": 18,
-          "text": "20",
-          "bold": false
-        },
-        {
-          "x": 241,
-          "y": 998,
-          "width": 620,
-          "height": 24,
-          "text": "expert, or spend hours labouring over the books every week, Mills said.",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 1045,
-          "width": 560,
-          "height": 22,
-          "text": "What are the ethical concerns of using AI in decision-making?",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 1090,
-          "width": 981,
-          "height": 26,
-          "text": "[5]}] Michael 1J professor of political philosophy, states that the widespread use of AI presents ethical",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1116,
-          "width": 984,
-          "height": 24,
-          "text": "concerns for society: privacy, discrimination, and perhaps the deepest, most difficult philosophical question of the",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1137,
-          "width": 985,
-          "height": 34,
-          "text": "era, the role of human judgement. “Debates about privacy safeguards and about how to overcome bias in",
-          "bold": false
-        },
-        {
-          "x": 175,
-          "y": 1147,
-          "width": 23,
-          "height": 17,
-          "text": "25",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1168,
-          "width": 985,
-          "height": 33,
-          "text": "algorithmic decision-making in employment practices are by now familiar,” said Sandel, referring to intentional",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 1194,
-          "width": 986,
-          "height": 26,
-          "text": "and unintentional prejudices of programme developers and those built into datasets used to train the software.",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 1220,
-          "width": 988,
-          "height": 27,
-          "text": "“But we've hot yet wrapped our minds around the hardest question: Can smart machines _out-think us, or are",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 1247,
-          "width": 940,
-          "height": 26,
-          "text": "certain elements of human judgement indispensable in deciding some of the most important things in life?”",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 1250,
-          "width": 322,
-          "height": 39,
-          "text": "ertain elements of human judgement",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 1279,
-          "width": 989,
-          "height": 44,
-          "text": "[6] Panic over AI suddenly injecting bias into everyday life en masse is overstated, says Futter First, the business",
-          "bold": true
-        },
-        {
-          "x": 173,
-          "y": 1301,
-          "width": 23,
-          "height": 18,
-          "text": "30",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 1321,
-          "width": 990,
-          "height": 27,
-          "text": "world and the workplace, rife with human decision-making, have always been riddled With ‘all sorts’ of biases",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 1348,
-          "width": 990,
-          "height": 28,
-          "text": "that prevent people from making deals or landing contracts and jobs. “When calibrated carefully and deployed",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 1376,
-          "width": 989,
-          "height": 28,
-          "text": "thoughtfully, resume-screening software allows a wider pool of applicants to be considered than could be done",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 1402,
-          "width": 988,
-          "height": 26,
-          "text": "otherwise, and should minimise the potential for favouritism that comes with human gatekeepers,” Fuller said,",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1425,
-          "width": 986,
-          "height": 41,
-          "text": "Sandel}lisagrees. “AI not only replicates human biases, it confers on these biases a kind of scientific credibility.",
-          "bold": true
-        },
-        {
-          "x": 175,
-          "y": 1435,
-          "width": 23,
-          "height": 18,
-          "text": "35",
-          "bold": false
-        },
-        {
-          "x": 318,
-          "y": 1457,
-          "width": 686,
-          "height": 25,
-          "text": "it seem that these predictions and judgments have an objective status,” he said.",
-          "bold": false
-        },
-        {
-          "x": 241,
-          "y": 1483,
-          "width": 982,
-          "height": 70,
-          "text": "[7] “In the world of lending, algorithm-driven decisions do have a potential dark side,” bas |: aid, As machines",
-          "bold": true
-        },
-        {
-          "x": 242,
-          "y": 1531,
-          "width": 981,
-          "height": 25,
-          "text": "learn from the data sets they’re fed, chances are ‘pretty high’ they may replicate many of the banking industry's",
-          "bold": false
-        },
-        {
-          "x": 243,
-          "y": 1557,
-          "width": 979,
-          "height": 25,
-          "text": "past failings that resulted in discrimination against minority groups. “If we are not thoughtful and careful, we are",
-          "bold": false
-        },
-        {
-          "x": 245,
-          "y": 1579,
-          "width": 976,
-          "height": 30,
-          "text": "going to end up with redlining again,” she said (“A highly regulated industry, banks are legally on the hook if the",
-          "bold": false
-        },
-        {
-          "x": 182,
-          "y": 1586,
-          "width": 23,
-          "height": 18,
-          "text": "40",
-          "bold": false
-        },
-        {
-          "x": 246,
-          "y": 1609,
-          "width": 977,
-          "height": 25,
-          "text": "algorithms they use to evaluate loan applications end up inappropriately discriminating against classes of",
-          "bold": false
-        },
-        {
-          "x": 247,
-          "y": 1635,
-          "width": 972,
-          "height": 25,
-          "text": "consumers, so those ‘at the top levels’ in the field are ‘very focused’ right now on this issue,” said Mills, who",
-          "bold": false
-        },
-        {
-          "x": 247,
-          "y": 1661,
-          "width": 970,
-          "height": 24,
-          "text": "closely studies the rapid changes in financial technology, or ‘fintech’. “They really don't want to discriminate,",
-          "bold": false
-        },
-        {
-          "x": 249,
-          "y": 1686,
-          "width": 967,
-          "height": 24,
-          "text": "They want to give access to capital to the most creditworthy borrowers,” she said. “That's good business for them,",
-          "bold": false
-        },
-        {
-          "x": 188,
-          "y": 1714,
-          "width": 22,
-          "height": 17,
-          "text": "45",
-          "bold": false
-        },
-        {
-          "x": 249,
-          "y": 1714,
-          "width": 42,
-          "height": 16,
-          "text": "too.”",
-          "bold": false
-        },
-        {
-          "x": 254,
-          "y": 1793,
-          "width": 464,
-          "height": 18,
-          "text": "2022-DSE-ENG LANG 1-B2-RP-2 2",
-          "bold": true
+          "value": "D",
+          "label": "D. supportive"
         }
       ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2022/b2/passage-1-figure-1.webp",
-          "x": 228,
-          "y": 656,
-          "width": 184,
-          "height": 80,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2022/b2/passage-1-figure-2.webp",
-          "x": 244,
-          "y": 1052,
-          "width": 200,
-          "height": 88,
-          "alt": "Original figure 2"
-        }
-      ]
-    },
-    {
-      "width": 1500,
-      "height": 1941,
-      "label": "Reading passage page 2",
-      "lines": [
-        {
-          "x": 270,
-          "y": 133,
-          "width": 412,
-          "height": 25,
-          "text": "How much government regulation is needed?",
-          "bold": false
-        },
-        {
-          "x": 273,
-          "y": 183,
-          "width": 995,
-          "height": 35,
-          "text": "[8] Given its power and expected ubiquity, some argue that the use of AI should be tightly regulated. But there’s",
-          "bold": false
-        },
-        {
-          "x": 274,
-          "y": 211,
-          "width": 996,
-          "height": 36,
-          "text": "little consensus on how that should be done and who should make the rules, Thus far, companies that develop or",
-          "bold": false
-        },
-        {
-          "x": 274,
-          "y": 240,
-          "width": 995,
-          "height": 33,
-          "text": "use Al systems largely self-police, relying on existing laws and market forces, like negative reactions from",
-          "bold": false
-        },
-        {
-          "x": 214,
-          "y": 267,
-          "width": 23,
-          "height": 18,
-          "text": "50",
-          "bold": false
-        },
-        {
-          "x": 276,
-          "y": 269,
-          "width": 991,
-          "height": 33,
-          "text": "consumers and shareholders as well as the demands of the highly-prized AI technical talents to keep them in line.",
-          "bold": false
-        },
-        {
-          "x": 278,
-          "y": 318,
-          "width": 992,
-          "height": 35,
-          "text": "[9] “‘There’s no businessperson on the planet at an enterprise of, any size who isn’t concerned about this and trying",
-          "bold": false
-        },
-        {
-          "x": 278,
-          "y": 346,
-          "width": 992,
-          "height": 32,
-          "text": "to reflect on what’s going to be politically, legally, regulatorily, or ethically acceptable,” said. “Firms",
-          "bold": false
-        },
-        {
-          "x": 279,
-          "y": 374,
-          "width": 992,
-          "height": 40,
-          "text": "already consider their own potential liability from misuse before a product launch, but it’s not realistic to expect",
-          "bold": false
-        },
-        {
-          "x": 280,
-          "y": 402,
-          "width": 904,
-          "height": 31,
-          "text": "companies to anticipate and prevent every possible unintended consequence of their products,” he said,",
-          "bold": false
-        },
-        {
-          "x": 374,
-          "y": 445,
-          "width": 896,
-          "height": 55,
-          "text": "Fuca professor of the practice of economic policy, agrees that government regulators need “a much",
-          "bold": true
-        },
-        {
-          "x": 220,
-          "y": 446,
-          "width": 21,
-          "height": 18,
-          "text": "55",
-          "bold": false
-        },
-        {
-          "x": 280,
-          "y": 475,
-          "width": 992,
-          "height": 43,
-          "text": "better technical of artificial intelligence to do that job well,” but says they could do it. “Existing",
-          "bold": false
-        },
-        {
-          "x": 281,
-          "y": 503,
-          "width": 991,
-          "height": 37,
-          "text": "transportation regulations could handle potential Al issues in autonomous vehicles rather than setting up another",
-          "bold": false
-        },
-        {
-          "x": 281,
-          "y": 528,
-          "width": 991,
-          "height": 39,
-          "text": "Al group in the existing government system,” he said. Enforcing AI regulation within industries by industry-",
-          "bold": false
-        },
-        {
-          "x": 282,
-          "y": 555,
-          "width": 990,
-          "height": 38,
-          "text": "specific panels who are more knowledgeable about the overarching technology could make oversight of Al more",
-          "bold": false
-        },
-        {
-          "x": 221,
-          "y": 578,
-          "width": 22,
-          "height": 19,
-          "text": "60",
-          "bold": false
-        },
-        {
-          "x": 281,
-          "y": 581,
-          "width": 991,
-          "height": 39,
-          "text": "thorough. “I think governments should’ve started this long ago, but better late than never,” said Furman, who",
-          "bold": false
-        },
-        {
-          "x": 282,
-          "y": 607,
-          "width": 682,
-          "height": 37,
-          "text": "thinks there needs to be a ‘greater sense of urgency’ to make governments act.",
-          "bold": false
-        },
-        {
-          "x": 284,
-          "y": 654,
-          "width": 291,
-          "height": 26,
-          "text": "[11] “Business leaders can’t have",
-          "bold": false
-        },
-        {
-          "x": 582,
-          "y": 664,
-          "width": 691,
-          "height": 32,
-          "text": "it both ways, refusing responsibility for AI’s harmful consequences while also",
-          "bold": false
-        },
-        {
-          "x": 284,
-          "y": 677,
-          "width": 990,
-          "height": 46,
-          "text": "fighting government oversight,” Sandel maintains. “The current situation is these big tech companies are neither",
-          "bold": false
-        },
-        {
-          "x": 284,
-          "y": 708,
-          "width": 447,
-          "height": 33,
-          "text": "self-regulating, nor subject to adequate government",
-          "bold": false
-        },
-        {
-          "x": 360,
-          "y": 723,
-          "width": 913,
-          "height": 29,
-          "text": "Sia: t regulation. I think there needs to be more of both,” he said,",
-          "bold": false
-        },
-        {
-          "x": 285,
-          "y": 730,
-          "width": 989,
-          "height": 47,
-          "text": "later adding: “We can’t assume that market forces by themselves will sort it out. That’s a mistake, as we’ ve seen",
-          "bold": false
-        },
-        {
-          "x": 223,
-          "y": 734,
-          "width": 22,
-          "height": 18,
-          "text": "65",
-          "bold": false
-        },
-        {
-          "x": 284,
-          "y": 762,
-          "width": 331,
-          "height": 30,
-          "text": "with Facebook and other tech giants.”",
-          "bold": false
-        },
-        {
-          "x": 286,
-          "y": 810,
-          "width": 994,
-          "height": 45,
-          "text": "[12] “Companies have to think seriously about the ethical dimensions of what they’re doing and we, as US citizens,",
-          "bold": false
-        },
-        {
-          "x": 285,
-          "y": 837,
-          "width": 990,
-          "height": 42,
-          "text": "have to educate ourselves about tech and its social and ethical implications - not only to decide what the",
-          "bold": false
-        },
-        {
-          "x": 286,
-          "y": 865,
-          "width": 988,
-          "height": 43,
-          "text": "regulations should be, but also to decide what role Wwe want big tech and social media to play in our lives,” said",
-          "bold": false
-        },
-        {
-          "x": 226,
-          "y": 888,
-          "width": 21,
-          "height": 18,
-          "text": "70",
-          "bold": false
-        },
-        {
-          "x": 287,
-          "y": 890,
-          "width": 200,
-          "height": 24,
-          "text": "Sandel. Doing that will",
-          "bold": false
-        },
-        {
-          "x": 493,
-          "y": 897,
-          "width": 782,
-          "height": 37,
-          "text": "require a major educational intervention in higher education. He said, “we have to enable",
-          "bold": false
-        },
-        {
-          "x": 632,
-          "y": 1069,
-          "width": 298,
-          "height": 26,
-          "text": "END OF READING PASSAGE",
-          "bold": true
-        },
-        {
-          "x": 291,
-          "y": 1119,
-          "width": 843,
-          "height": 40,
-          "text": "Sources of materials used in this Paper will be acknowledged in the HKDSE Question Pr booklet i",
-          "bold": false
-        },
-        {
-          "x": 291,
-          "y": 1143,
-          "width": 983,
-          "height": 38,
-          "text": "Kong Examinations and Assessment Authority at a later stage. eee the Hong",
-          "bold": false
-        },
-        {
-          "x": 336,
-          "y": 1786,
-          "width": 262,
-          "height": 22,
-          "text": "2022-DSE-ENG LANG 1-B2-RP-3",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2022/b2/passage-2-figure-1.webp",
-          "x": 264,
-          "y": 424,
-          "width": 116,
-          "height": 88,
-          "alt": "Original figure 1"
-        }
-      ]
-    }
-  ],
-  "structuredQuestionPages": [
-    {
-      "width": 1489,
-      "height": 2105,
-      "label": "Question page 1",
-      "lines": [
-        {
-          "x": 135,
-          "y": 111,
-          "width": 224,
-          "height": 62,
-          "text": "[candidate Number",
-          "bold": true
-        },
-        {
-          "x": 907,
-          "y": 111,
-          "width": 474,
-          "height": 25,
-          "text": "Please stick the barcode label here.",
-          "bold": true
-        },
-        {
-          "x": 150,
-          "y": 193,
-          "width": 177,
-          "height": 23,
-          "text": "HKDSE 2022",
-          "bold": true
-        },
-        {
-          "x": 150,
-          "y": 226,
-          "width": 312,
-          "height": 24,
-          "text": "ENGLISH LANGUAGE",
-          "bold": true
-        },
-        {
-          "x": 150,
-          "y": 261,
-          "width": 263,
-          "height": 23,
-          "text": "PAPER 1 PART B2",
-          "bold": true
-        },
-        {
-          "x": 149,
-          "y": 295,
-          "width": 704,
-          "height": 31,
-          "text": "QUESTION-ANSWER BOOK DIFFICULT SECTION",
-          "bold": true
-        },
-        {
-          "x": 149,
-          "y": 364,
-          "width": 912,
-          "height": 25,
-          "text": "Write your Candidate Number and stick a barcode label in the space provided on this page.",
-          "bold": false
-        },
-        {
-          "x": 148,
-          "y": 393,
-          "width": 617,
-          "height": 25,
-          "text": "Read Text 4 and answer questions 43-65. (42 marks)",
-          "bold": true
-        },
-        {
-          "x": 148,
-          "y": 455,
-          "width": 86,
-          "height": 18,
-          "text": "Text 4",
-          "bold": true
-        },
-        {
-          "x": 147,
-          "y": 497,
-          "width": 1158,
-          "height": 26,
-          "text": "43. Based on the information in paragraph 1, complete the summary by writing a word or phrase taken from",
-          "bold": false
-        },
-        {
-          "x": 200,
-          "y": 526,
-          "width": 1104,
-          "height": 25,
-          "text": "paragraph 1 in each blank below. Your answers must be grammatically correct. (3 marks)",
-          "bold": false
-        },
-        {
-          "x": 200,
-          "y": 598,
-          "width": 1105,
-          "height": 25,
-          "text": "Artificial intelligence has been driving (i) for many years now. The",
-          "bold": false
-        },
-        {
-          "x": 200,
-          "y": 670,
-          "width": 1104,
-          "height": 24,
-          "text": "growth of Google and Facebook has ensured that (ii) are also conscious of the",
-          "bold": false
-        },
-        {
-          "x": 199,
-          "y": 738,
-          "width": 1105,
-          "height": 32,
-          "text": "power of AI in the internet. Industries’ such as health care, banking, retail, and manufacturing find AI",
-          "bold": false
-        },
-        {
-          "x": 199,
-          "y": 815,
-          "width": 564,
-          "height": 23,
-          "text": "(iii) to their core functions.",
-          "bold": true
-        },
-        {
-          "x": 199,
-          "y": 902,
-          "width": 544,
-          "height": 23,
-          "text": "In paragraph 1, what metaphor is used to describe AI?",
-          "bold": true
-        },
-        {
-          "x": 146,
-          "y": 903,
-          "width": 29,
-          "height": 17,
-          "text": "44,",
-          "bold": false
-        },
-        {
-          "x": 145,
-          "y": 1065,
-          "width": 29,
-          "height": 18,
-          "text": "45.",
-          "bold": false
-        },
-        {
-          "x": 199,
-          "y": 1065,
-          "width": 644,
-          "height": 23,
-          "text": "Complete this sentence based on the information in paragraph 3.",
-          "bold": false
-        },
-        {
-          "x": 199,
-          "y": 1137,
-          "width": 458,
-          "height": 23,
-          "text": "‘Hybrid’ jobs (line 12) are performed by both",
-          "bold": true
-        },
-        {
-          "x": 198,
-          "y": 1223,
-          "width": 967,
-          "height": 24,
-          "text": "Find a word or phrase in paragraph 4 which can be replaced by ‘for an extended period of time’.",
-          "bold": false
-        },
-        {
-          "x": 144,
-          "y": 1224,
-          "width": 30,
-          "height": 17,
-          "text": "46.",
-          "bold": false
-        },
-        {
-          "x": 197,
-          "y": 1383,
-          "width": 671,
-          "height": 24,
-          "text": "What does Mills mean when she says ‘a huge head start’ (line 14)?",
-          "bold": false
-        },
-        {
-          "x": 144,
-          "y": 1384,
-          "width": 29,
-          "height": 18,
-          "text": "47.",
-          "bold": false
-        },
-        {
-          "x": 258,
-          "y": 1433,
-          "width": 381,
-          "height": 24,
-          "text": "Small businesses are hampered by AI.",
-          "bold": true
-        },
-        {
-          "x": 256,
-          "y": 1462,
-          "width": 1014,
-          "height": 31,
-          "text": "Big Business has been using AI for a long time. A B c D",
-          "bold": false
-        },
-        {
-          "x": 256,
-          "y": 1491,
-          "width": 553,
-          "height": 23,
-          "text": "AJ can benefit both Big Business and small businesses.",
-          "bold": false
-        },
-        {
-          "x": 257,
-          "y": 1502,
-          "width": 1020,
-          "height": 41,
-          "text": "Big Business has more resources than small businesses. O O O",
-          "bold": true
-        },
-        {
-          "x": 142,
-          "y": 1621,
-          "width": 30,
-          "height": 18,
-          "text": "48.",
-          "bold": false
-        },
-        {
-          "x": 196,
-          "y": 1621,
-          "width": 357,
-          "height": 23,
-          "text": "What does ‘This’ (line 16) refer to?",
-          "bold": true
-        },
-        {
-          "x": 137,
-          "y": 1789,
-          "width": 516,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 141,
-          "y": 1990,
-          "width": 596,
-          "height": 28,
-          "text": "2022-DSE-ENG LANG 1-B2-1 1",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2022/b2/questions-1-figure-1.webp",
-          "x": 48,
-          "y": 12,
-          "width": 228,
-          "height": 124,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2022/b2/questions-1-figure-2.webp",
-          "x": 664,
-          "y": 188,
-          "width": 176,
-          "height": 132,
-          "alt": "Original figure 2"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2022/b2/questions-1-figure-3.webp",
-          "x": 956,
-          "y": 1824,
-          "width": 512,
-          "height": 281,
-          "alt": "Original figure 3"
-        }
-      ]
-    },
-    {
-      "width": 1489,
-      "height": 2105,
-      "label": "Question page 2",
-      "lines": [
-        {
-          "x": 159,
-          "y": 193,
-          "width": 1176,
-          "height": 26,
-          "text": "49. Complete the following sentences using the information in paragraph 4. Your answers must be grammatically",
-          "bold": false
-        },
-        {
-          "x": 1231,
-          "y": 222,
-          "width": 94,
-          "height": 23,
-          "text": "(3 marks)",
-          "bold": false
-        },
-        {
-          "x": 213,
-          "y": 228,
-          "width": 73,
-          "height": 15,
-          "text": "correct.",
-          "bold": false
-        },
-        {
-          "x": 214,
-          "y": 282,
-          "width": 687,
-          "height": 25,
-          "text": "Small businesses are important to the U.S. economy because they (i)",
-          "bold": false
-        },
-        {
-          "x": 212,
-          "y": 415,
-          "width": 799,
-          "height": 23,
-          "text": "Al benefits small businesses as the financial information it generates comes (ii)",
-          "bold": false
-        },
-        {
-          "x": 723,
-          "y": 482,
-          "width": 164,
-          "height": 23,
-          "text": "and requires (iii)",
-          "bold": true
-        },
-        {
-          "x": 158,
-          "y": 629,
-          "width": 1156,
-          "height": 26,
-          "text": "50. Complete the table using the information in paragraph 5. Your answers must be grammatically correct.",
-          "bold": false
-        },
-        {
-          "x": 1220,
-          "y": 658,
-          "width": 95,
-          "height": 23,
-          "text": "(5 marks)",
-          "bold": false
-        },
-        {
-          "x": 289,
-          "y": 710,
-          "width": 681,
-          "height": 19,
-          "text": "Ethical Concern Debate",
-          "bold": true
-        },
-        {
-          "x": 225,
-          "y": 773,
-          "width": 467,
-          "height": 30,
-          "text": "Privacy whether (i)",
-          "bold": true
-        },
-        {
-          "x": 223,
-          "y": 948,
-          "width": 482,
-          "height": 24,
-          "text": "Gi) whether (iii)",
-          "bold": true
-        },
-        {
-          "x": 223,
-          "y": 1120,
-          "width": 473,
-          "height": 24,
-          "text": "(iv) whether (v)",
-          "bold": true
-        },
-        {
-          "x": 156,
-          "y": 1314,
-          "width": 476,
-          "height": 32,
-          "text": "51. What is the cause of the ‘Panic’ (line 30)?",
-          "bold": true
-        },
-        {
-          "x": 208,
-          "y": 1376,
-          "width": 280,
-          "height": 24,
-          "text": "People’s perception that AT",
-          "bold": true
-        },
-        {
-          "x": 156,
-          "y": 1466,
-          "width": 934,
-          "height": 24,
-          "text": "52. What does Sandel imply by saying that AI seems to give an ‘objective status’ (line 36)?",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1614,
-          "width": 1157,
-          "height": 24,
-          "text": "53. Based on the information in paragraph 6, complete the following sentence by writing a word or phrase taken",
-          "bold": false
-        },
-        {
-          "x": 207,
-          "y": 1643,
-          "width": 852,
-          "height": 24,
-          "text": "from paragraph 6 in each blank below. Your answers must be grammatically correct.",
-          "bold": false
-        },
-        {
-          "x": 1214,
-          "y": 1643,
-          "width": 94,
-          "height": 23,
-          "text": "(3 marks)",
-          "bold": true
-        },
-        {
-          "x": 207,
-          "y": 1701,
-          "width": 266,
-          "height": 25,
-          "text": "AI software used for (i)",
-          "bold": true
-        },
-        {
-          "x": 940,
-          "y": 1702,
-          "width": 372,
-          "height": 23,
-          "text": "needs to be accurately set so that",
-          "bold": true
-        },
-        {
-          "x": 207,
-          "y": 1758,
-          "width": 30,
-          "height": 23,
-          "text": "Gi)",
-          "bold": false
-        },
-        {
-          "x": 706,
-          "y": 1759,
-          "width": 606,
-          "height": 24,
-          "text": "can be reduced and more potential applicants would be",
-          "bold": true
-        },
-        {
-          "x": 207,
-          "y": 1815,
-          "width": 464,
-          "height": 26,
-          "text": "considered instead of being eliminated by (iii)",
-          "bold": true
-        },
-        {
-          "x": 155,
-          "y": 1914,
-          "width": 516,
-          "height": 26,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 154,
-          "y": 1983,
-          "width": 290,
-          "height": 19,
-          "text": "2022-DSE-ENG LANG 1-B2-2",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2022/b2/questions-2-figure-1.webp",
-          "x": 188,
-          "y": 676,
-          "width": 1148,
-          "height": 600,
-          "alt": "Original figure 1"
-        }
-      ]
-    },
-    {
-      "width": 1489,
-      "height": 2105,
-      "label": "Question page 3",
-      "lines": [
-        {
-          "x": 154,
-          "y": 194,
-          "width": 1158,
-          "height": 25,
-          "text": "54, Mills mentions being ‘very focused’ (line 42). (2 marks)",
-          "bold": true
-        },
-        {
-          "x": 206,
-          "y": 252,
-          "width": 268,
-          "height": 23,
-          "text": "Who are very focused? (i)",
-          "bold": true
-        },
-        {
-          "x": 206,
-          "y": 319,
-          "width": 265,
-          "height": 23,
-          "text": "Why is this important? (ii)",
-          "bold": true
-        },
-        {
-          "x": 153,
-          "y": 390,
-          "width": 1007,
-          "height": 24,
-          "text": "55. Find a phrase in paragraph 7 which has a similar meaning to ‘being responsible under the law’.",
-          "bold": false
-        },
-        {
-          "x": 152,
-          "y": 520,
-          "width": 1158,
-          "height": 24,
-          "text": "56. According to paragraph 7, the use of AI may have benefits as weil as cause harm. Complete the table below",
-          "bold": false
-        },
-        {
-          "x": 204,
-          "y": 549,
-          "width": 1104,
-          "height": 24,
-          "text": "with a word or phrase taken from paragraph 7 in each blank. Your answers must be grammatically correct.",
-          "bold": false
-        },
-        {
-          "x": 1209,
-          "y": 578,
-          "width": 93,
-          "height": 23,
-          "text": "(2 marks)",
-          "bold": true
-        },
-        {
-          "x": 214,
-          "y": 653,
-          "width": 1054,
-          "height": 23,
-          "text": "Issue Using AI to screen (i) of individuals",
-          "bold": true
-        },
-        {
-          "x": 213,
-          "y": 737,
-          "width": 473,
-          "height": 32,
-          "text": "Anticipated Banks could give loans to (ii)",
-          "bold": true
-        },
-        {
-          "x": 214,
-          "y": 768,
-          "width": 79,
-          "height": 19,
-          "text": "benefit",
-          "bold": true
-        },
-        {
-          "x": 214,
-          "y": 838,
-          "width": 445,
-          "height": 31,
-          "text": "Possible There could be prejudices.",
-          "bold": true
-        },
-        {
-          "x": 214,
-          "y": 872,
-          "width": 143,
-          "height": 17,
-          "text": "harm caused",
-          "bold": false
-        },
-        {
-          "x": 151,
-          "y": 958,
-          "width": 819,
-          "height": 24,
-          "text": "57. Find a word in paragraph 8 which expresses ‘the state of being everywhere’.",
-          "bold": false
-        },
-        {
-          "x": 150,
-          "y": 1088,
-          "width": 763,
-          "height": 24,
-          "text": "58. Complete the following sentence using the information in paragraph 8.",
-          "bold": false
-        },
-        {
-          "x": 199,
-          "y": 1150,
-          "width": 296,
-          "height": 23,
-          "text": "Currently, it is the voices of",
-          "bold": true
-        },
-        {
-          "x": 199,
-          "y": 1207,
-          "width": 788,
-          "height": 24,
-          "text": "expressing their opinions that prevent companies from abusing their use of AI.",
-          "bold": false
-        },
-        {
-          "x": 149,
-          "y": 1280,
-          "width": 520,
-          "height": 23,
-          "text": "59. What does ‘keep them in line’ (line 50) mean?",
-          "bold": true
-        },
-        {
-          "x": 261,
-          "y": 1328,
-          "width": 375,
-          "height": 24,
-          "text": "to stop AI systems from self-policing",
-          "bold": false
-        },
-        {
-          "x": 204,
-          "y": 1329,
-          "width": 22,
-          "height": 103,
-          "text": "Dopp",
-          "bold": true
-        },
-        {
-          "x": 261,
-          "y": 1357,
-          "width": 380,
-          "height": 18,
-          "text": "to form a consensus on how to use AI",
-          "bold": false
-        },
-        {
-          "x": 623,
-          "y": 1368,
-          "width": 652,
-          "height": 33,
-          "text": ". A B Cc D",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 1385,
-          "width": 400,
-          "height": 24,
-          "text": "to ensure businesses use AI responsibly",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 1395,
-          "width": 953,
-          "height": 44,
-          "text": "to meet the demand for AI technical talent O O io)",
-          "bold": true
-        },
-        {
-          "x": 148,
-          "y": 1485,
-          "width": 1158,
-          "height": 25,
-          "text": "60. According to paragraph 9, what are some issues of concern for a business using AI? Tick (~’) the appropriate",
-          "bold": false
-        },
-        {
-          "x": 200,
-          "y": 1519,
-          "width": 467,
-          "height": 24,
-          "text": "box(es). You may tick (v’) more than one box.",
-          "bold": true
-        },
-        {
-          "x": 215,
-          "y": 1584,
-          "width": 203,
-          "height": 22,
-          "text": "Liability from misuse",
-          "bold": true
-        },
-        {
-          "x": 213,
-          "y": 1641,
-          "width": 247,
-          "height": 23,
-          "text": "The size of an enterprise",
-          "bold": true
-        },
-        {
-          "x": 214,
-          "y": 1700,
-          "width": 259,
-          "height": 22,
-          "text": "Unintended consequences",
-          "bold": true
-        },
-        {
-          "x": 214,
-          "y": 1757,
-          "width": 265,
-          "height": 22,
-          "text": "Lack of business personnel",
-          "bold": true
-        },
-        {
-          "x": 213,
-          "y": 1815,
-          "width": 278,
-          "height": 22,
-          "text": "Success of a product launch",
-          "bold": true
-        },
-        {
-          "x": 141,
-          "y": 1920,
-          "width": 515,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 146,
-          "y": 1987,
-          "width": 1195,
-          "height": 27,
-          "text": "2022-DSE-ENG LANG 1-B2-3 3 Go ontothenextpage >",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2022/b2/questions-3-figure-2.webp",
-          "x": 180,
-          "y": 1544,
-          "width": 592,
-          "height": 328,
-          "alt": "Original figure 2"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2022/b2/questions-3-figure-3.webp",
-          "x": 1060,
-          "y": 1948,
-          "width": 408,
-          "height": 157,
-          "alt": "Original figure 3"
-        }
-      ]
-    },
-    {
-      "width": 1489,
-      "height": 2105,
-      "label": "Question page 4",
-      "lines": [
-        {
-          "x": 215,
-          "y": 183,
-          "width": 1104,
-          "height": 26,
-          "text": "In paragraph 10, Furman provides an example of how government should regulate Al. Complete the",
-          "bold": false
-        },
-        {
-          "x": 161,
-          "y": 186,
-          "width": 29,
-          "height": 17,
-          "text": "ol.",
-          "bold": false
-        },
-        {
-          "x": 215,
-          "y": 212,
-          "width": 1104,
-          "height": 26,
-          "text": "following table summarising Furman’s example using the information in paragraph 10. Your answers must",
-          "bold": false
-        },
-        {
-          "x": 214,
-          "y": 240,
-          "width": 1104,
-          "height": 26,
-          "text": "be grammatically correct. (3 marks)",
-          "bold": false
-        },
-        {
-          "x": 232,
-          "y": 294,
-          "width": 904,
-          "height": 30,
-          "text": "Government Department Issue Solution",
-          "bold": true
-        },
-        {
-          "x": 226,
-          "y": 366,
-          "width": 679,
-          "height": 23,
-          "text": "The (i) Regulating Al (ii) (iii)",
-          "bold": true
-        },
-        {
-          "x": 228,
-          "y": 426,
-          "width": 116,
-          "height": 22,
-          "text": "Department",
-          "bold": true
-        },
-        {
-          "x": 868,
-          "y": 483,
-          "width": 326,
-          "height": 22,
-          "text": "can work within the department.",
-          "bold": true
-        },
-        {
-          "x": 213,
-          "y": 576,
-          "width": 538,
-          "height": 23,
-          "text": "What is the cause of ‘The current situation’ (line 63)?",
-          "bold": true
-        },
-        {
-          "x": 159,
-          "y": 577,
-          "width": 29,
-          "height": 18,
-          "text": "62.",
-          "bold": false
-        },
-        {
-          "x": 211,
-          "y": 763,
-          "width": 852,
-          "height": 24,
-          "text": "According to paragraph 12, what is the ‘educational intervention’ (line 70) required?",
-          "bold": false
-        },
-        {
-          "x": 159,
-          "y": 764,
-          "width": 28,
-          "height": 18,
-          "text": "63.",
-          "bold": false
-        },
-        {
-          "x": 211,
-          "y": 825,
-          "width": 375,
-          "height": 18,
-          "text": "Educational institutions must address",
-          "bold": true
-        },
-        {
-          "x": 211,
-          "y": 950,
-          "width": 1122,
-          "height": 24,
-          "text": "Use the information in Text 4 to match each of the following comments with a person (A-D) mentioned in the",
-          "bold": false
-        },
-        {
-          "x": 158,
-          "y": 951,
-          "width": 28,
-          "height": 18,
-          "text": "64,",
-          "bold": false
-        },
-        {
-          "x": 210,
-          "y": 979,
-          "width": 1123,
-          "height": 24,
-          "text": "text. A person may be used more than once. Write the letter of person on the line next to the comments. One",
-          "bold": false
-        },
-        {
-          "x": 210,
-          "y": 1008,
-          "width": 942,
-          "height": 24,
-          "text": "comment is NOT mentioned by any of the four people and you should choose ‘E. Not stated’.",
-          "bold": false
-        },
-        {
-          "x": 1238,
-          "y": 1008,
-          "width": 94,
-          "height": 23,
-          "text": "(6 marks)",
-          "bold": true
-        },
-        {
-          "x": 230,
-          "y": 1069,
-          "width": 1058,
-          "height": 22,
-          "text": "A. Jason Furman B. Joseph Fuller €. Karen Mills D. Michael Sandel E. Not stated",
-          "bold": false
-        },
-        {
-          "x": 639,
-          "y": 1145,
-          "width": 649,
-          "height": 31,
-          "text": "Comment Person",
-          "bold": true
-        },
-        {
-          "x": 223,
-          "y": 1190,
-          "width": 986,
-          "height": 38,
-          "text": "Programmers may unintentionally be adding their own personal biases in the data sets used (i)",
-          "bold": true
-        },
-        {
-          "x": 223,
-          "y": 1219,
-          "width": 202,
-          "height": 19,
-          "text": "to train AI software.",
-          "bold": true
-        },
-        {
-          "x": 223,
-          "y": 1277,
-          "width": 993,
-          "height": 24,
-          "text": "The internet providers are promoting the use of AI for the government regulators. Gi)",
-          "bold": false
-        },
-        {
-          "x": 222,
-          "y": 1345,
-          "width": 1001,
-          "height": 23,
-          "text": "AI makes recruitment and hiring more efficient for companies. - (iii)",
-          "bold": false
-        },
-        {
-          "x": 222,
-          "y": 1398,
-          "width": 999,
-          "height": 38,
-          "text": "People should be better informed when making decisions on how much AI should be used in (iv)",
-          "bold": true
-        },
-        {
-          "x": 222,
-          "y": 1427,
-          "width": 159,
-          "height": 23,
-          "text": "their daily lives.",
-          "bold": true
-        },
-        {
-          "x": 222,
-          "y": 1485,
-          "width": 992,
-          "height": 24,
-          "text": "Governments should include AI experts in existing departments to regulate these areas. (vy)",
-          "bold": false
-        },
-        {
-          "x": 222,
-          "y": 1543,
-          "width": 998,
-          "height": 37,
-          "text": "If banks use Al software to investigate creditworthiness, they may repeat the past practices wi)",
-          "bold": true
-        },
-        {
-          "x": 221,
-          "y": 1572,
-          "width": 406,
-          "height": 24,
-          "text": "that were prejudiced and discriminatory.",
-          "bold": true
-        },
-        {
-          "x": 208,
-          "y": 1650,
-          "width": 602,
-          "height": 20,
-          "text": "What is the author’s view towards the use of AI in this text?",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1651,
-          "width": 29,
-          "height": 18,
-          "text": "65,",
-          "bold": false
-        },
-        {
-          "x": 210,
-          "y": 1693,
-          "width": 115,
-          "height": 31,
-          "text": "A. — ironic",
-          "bold": false
-        },
-        {
-          "x": 210,
-          "y": 1734,
-          "width": 126,
-          "height": 18,
-          "text": "B. neutral",
-          "bold": false
-        },
-        {
-          "x": 210,
-          "y": 1770,
-          "width": 126,
-          "height": 18,
-          "text": "C. critical",
-          "bold": false
-        },
-        {
-          "x": 1116,
-          "y": 1775,
-          "width": 31,
-          "height": 57,
-          "text": "Ow",
-          "bold": true
-        },
-        {
-          "x": 1047,
-          "y": 1776,
-          "width": 30,
-          "height": 57,
-          "text": "QO»",
-          "bold": true
-        },
-        {
-          "x": 210,
-          "y": 1806,
-          "width": 16,
-          "height": 18,
-          "text": "D",
-          "bold": true
-        },
-        {
-          "x": 268,
-          "y": 1806,
-          "width": 105,
-          "height": 24,
-          "text": "supportive",
-          "bold": false
-        },
-        {
-          "x": 642,
-          "y": 1853,
-          "width": 206,
-          "height": 22,
-          "text": "END OF PART B2",
-          "bold": true
-        },
-        {
-          "x": 148,
-          "y": 1922,
-          "width": 516,
-          "height": 25,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 154,
-          "y": 1991,
-          "width": 597,
-          "height": 27,
-          "text": "2022-DSE-ENG LANG 1-B2-4 4",
-          "bold": true
-        }
-      ]
+      "optionBank": "A. ironic\nB. neutral\nC. critical\nD. supportive\nEND OF PART B2"
     }
   ]
 }

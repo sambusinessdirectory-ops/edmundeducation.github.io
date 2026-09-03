@@ -5,1893 +5,479 @@
   "title": "Witness Statement & Hit-and-Run",
   "sourceLabel": "HKDSE 2015 English Language Paper 1 Part B1",
   "sourceHeading": "Witness Statement & Hit-and-Run",
-  "displayMode": "structured-paper",
-  "paragraphs": [],
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "Paragraph 1",
+      "text": "Witness Statement 1 I, Anna Rossi, of 3 Arthur Street, Yau Ma Tei, housewife, state: On 1 December 2014 at about 3:30pm, I was about to get into my car in the car park next to the shops on Wood Road, Wan Chai. I noticed that a silver car was driving down the aisle behind me. I saw a green sports car reverse out of a car space and collide with the silver car. The silver car was moving at the time of the collision. My car was parked opposite where the accident happened. Both the drivers got out of their cars. Neither of them seemed to be hurt and I went over to them to see how they were. The driver of the green car said \"Did you see the accident?\" I said words to the effect \"I saw it\". He then said \"Can you give me your contact details, just in case I need a statement from you?\" I replied \"Yes\". I then gave him my contact details. It was a sunny day. The speed limit in the car park was 20km per hour. The silver car was travelling at about 40km per hour. I noticed damage to the back left side of the green sports car. I believe that the contents of this statement are true and correct. Signed: A. Rossi Dated: 7 December 2014 Will cars with no drivers catch on? Some day in the near future, cars will drive themselves. Traffic jams and deadly accidents will become a thing of the past. Driving to work will be less stressful, as riders can sit back with their coffee and let computers handle the trip. 12u Thoms us vehicles th mare improvine rapidly each teal A rare of. Omple is selvedriving \"autonomous vehicles vehicles doesn't seem too far off."
+    },
+    {
+      "number": 2,
+      "label": "Paragraph 2",
+      "text": "And yet, according to a new report by the Eno Center for Transportation, there are still many obstacles to overcome before self-driving cars take over our highways. 41 \"Self-driving cars have the potential to transform transport as we know it,\" explained repo co-author Daniel Fagnant — and bring billions of dollars' worth of benefits. But getting to that poin won't be easy. The benefits of self-driving cars 15] It's easy to list the benefits of a world with self-driving vehicles. Safety is the biggest. Right now, more than 30,000 people die each year in the United States from automobile crashes. And roughly 40 percent of fatal accidents are caused by alcohol, distraction, drugs or fatigue. Letting robots take the wheel would save lives."
+    },
+    {
+      "number": 3,
+      "label": "Paragraph 3",
+      "text": "The benefits of self-driving cars 15] It's easy to list the benefits of a world with self-driving vehicles. Safety is the biggest. Right now, more than 30,000 people die each year in the United States from automobile crashes. And roughly 40 percent of fatal accidents are caused by alcohol, distraction, drugs or fatigue. Letting robots take the wheel would save lives. Or take congestion. Cars driven by robots could travel closer together at steadier speeds. They wouldn't bunch up in traffic jams caused by a ripple of brake lights. More cars could squeeze onto the road and move more quickly, and a lot of time and fuel would be saved."
+    },
+    {
+      "number": 4,
+      "label": "Paragraph 4",
+      "text": "If just 10 percent of the vehicles on the road were self-driving cars, the authors estimate, the country could save more than $37 billion a year — fewer deaths, less fuel, more free time. If we reached a point where 90 percent of the cars on the road were self-driving vehicles, the benefits would rise to around $450 billion a year."
+    },
+    {
+      "number": 5,
+      "label": "Paragraph 5",
+      "text": "Now, as Fagnant pointed out in a presentation, these are \"ballpark, rough estimates...guesses, really.\" So don't get too fixated on the numbers. They're meant to be illustrative, not definitive. 19] The authors also didn't try to quantify any of the costs of self-driving vehicles. What's the price tag on these gadgets? How does that compare to the benefits?"
+    },
+    {
+      "number": 6,
+      "label": "Paragraph 6",
+      "text": "And what about unforeseen consequences? Researchers can't predict how, exactly, self-driving cars might reshape society. Maybe the vehicles will induce even more travel and congestion will get worse. Or maybe they will lead to an increase in air pollution. It's impossible to know at this point. Still, the advantages are tantalizing. The problems of self-driving cars"
+    },
+    {
+      "number": 7,
+      "label": "Paragraph 7",
+      "text": "Even if the benefits are many, self-driving vehicles have a lot of hoops to leap through. First, the technology is still very pricey. By one estimate, the first wave of autonomous vehicles could cost over $100,000 — five times the cost of the average new vehicle. Even that might be an underestimate: the 3-D sensors alone on Google's autonomous car cost about $70,000."
+    },
+    {
+      "number": 8,
+      "label": "Paragraph 8",
+      "text": "Those costs would presumably come down over time, but no one knows how rapidly. And that's a big hurdle. One survey found that only 20 percent of Americans would \"definitely\" or \"probably\" buy a car with self-driving capabilities even if the price dropped to $30,000."
+    },
+    {
+      "number": 9,
+      "label": "Paragraph 9",
+      "text": "What's more, while the technology is rapidly improving, it's far from perfect. Google's self-driving cars have now traveled more than 435,000 miles in California, but the cars have yet to be fully tested in urban environments."
+    },
+    {
+      "number": 10,
+      "label": "Paragraph 10",
+      "text": "Most likely, self-driving technology will emerge gradually, piece by piece. But even intermediate features pose unique challenges."
+    },
+    {
+      "number": 11,
+      "label": "Paragraph 11",
+      "text": "Early autonomous cars will likely require their human drivers to take the wheel during especially complicated situations. But as one car maker is discovering, it's difficult to get people to drift in and out of attention while driving — and the process of switching back and forth between robot and human could well make these cars less safe, at first."
+    },
+    {
+      "number": 12,
+      "label": "Paragraph 12",
+      "text": "The Eno report also notes that there's still a ton of research yet to be done about the prospect of self-driving cars. \"As long as crucial questions go unanswered,\" the report concludes, \"the nation will be hampered in its ability to successfully plan for and introduce [autonomous vehicles] into the transportation system.\""
+    }
+  ],
   "instructions": {
-    "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
+    "paper": "Answer every question using the passage."
   },
   "questions": [
     {
       "number": 32,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 32",
-      "placeholder": "Enter all answer parts for Question 32"
+      "prompt": "Who is the witness?"
     },
     {
       "number": 33,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 33",
-      "placeholder": "Enter all answer parts for Question 33"
+      "type": "parts",
+      "prompt": "Why are the following addresses important? (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "i) Arthur Street, Yau Ma Tei",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "ii) Wood Road, Wan Chai",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 34,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 34",
-      "placeholder": "Enter all answer parts for Question 34"
+      "prompt": "Find a word in lines 1-9 with the same meaning as \"accident\"."
     },
     {
       "number": 35,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 35",
-      "placeholder": "Enter all answer parts for Question 35"
+      "type": "parts",
+      "prompt": "Look at the following diagram. Write the letter (A-F) that indicates the position of: (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "i) the silver car",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "ii) the green car",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "iii) Anna's car",
+          "type": "text"
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/content/2015/b1/questions-1-crop-1.webp",
+          "alt": "Traffic diagram showing six car positions A to F"
+        }
+      ]
     },
     {
       "number": 36,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 36",
-      "placeholder": "Enter all answer parts for Question 36"
+      "prompt": "Who was injured in the accident?"
     },
     {
       "number": 37,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 37",
-      "placeholder": "Enter all answer parts for Question 37"
+      "prompt": "Why did the driver ask Anna for her contact details?"
     },
     {
       "number": 38,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 38",
-      "placeholder": "Enter all answer parts for Question 38"
+      "prompt": "Where was the green car damaged?\nA. B. C. D.",
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/content/2015/b1/questions-2-crop-1.webp",
+          "alt": "Four diagrams showing where a car was damaged"
+        }
+      ]
     },
     {
       "number": 39,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 39",
-      "placeholder": "Enter all answer parts for Question 39"
+      "prompt": "Which car do you think was responsible for the accident? Why? Give a reason from the text. (2 marks)"
     },
     {
       "number": 40,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 40",
-      "placeholder": "Enter all answer parts for Question 40"
+      "type": "choice",
+      "prompt": "The sentence in line 17 can be found in -",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. business letters"
+        },
+        {
+          "value": "B",
+          "label": "B. legal documents"
+        },
+        {
+          "value": "C",
+          "label": "C. letters to the editor"
+        },
+        {
+          "value": "D",
+          "label": "D. job application cover letters"
+        }
+      ]
     },
     {
       "number": 41,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 41",
-      "placeholder": "Enter all answer parts for Question 41"
+      "type": "parts",
+      "prompt": "What is the significance of the following dates? (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "i) 1st December",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "ii) 7th December",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 42,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 42",
-      "placeholder": "Enter all answer parts for Question 42"
+      "prompt": "According to paragraph 1, what will no longer happen when cars drive themselves? (2 marks)\ni)"
     },
     {
       "number": 43,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 43",
-      "placeholder": "Enter all answer parts for Question 43"
+      "prompt": "What does \"the trip\" in line 3 refer to?"
     },
     {
       "number": 44,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 44",
-      "placeholder": "Enter all answer parts for Question 44"
+      "prompt": "According to paragraph 1, what will drive cars in the future?"
     },
     {
       "number": 45,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 45",
-      "placeholder": "Enter all answer parts for Question 45"
+      "prompt": "Who is making driverless cars?"
     },
     {
       "number": 46,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 46",
-      "placeholder": "Enter all answer parts for Question 46"
+      "prompt": "Which organization did Daniel Fagnant write the report for?"
     },
     {
       "number": 47,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 47",
-      "placeholder": "Enter all answer parts for Question 47"
+      "type": "choice",
+      "prompt": "According to paragraph 4, which one of the following statements is true?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Changing the transport system will be difficult."
+        },
+        {
+          "value": "B",
+          "label": "B. Self-driving cars won't be easy to transport."
+        },
+        {
+          "value": "C",
+          "label": "C. Autonomous vehicles won't bring changes to transportation."
+        },
+        {
+          "value": "D",
+          "label": "D. Daniel Fagnant doesn't support a change in the transport system."
+        }
+      ]
     },
     {
       "number": 48,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 48",
-      "placeholder": "Enter all answer parts for Question 48"
+      "type": "parts",
+      "prompt": "Based on the information give in an apes a 6, decide if ta following statements are True, False\nthe information is Not Given. Blacken ONE circle only for each statement.\nT F NG",
+      "parts": [
+        {
+          "key": "i",
+          "label": "i) There are more than 30,000 car crashes in the United States each year.",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "ii) Fewer people would die in self-driving cars.",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "iii) Self-driving cars would reduce congestion.",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "iv) Self-driving cars will be smaller.",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 49,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 49",
-      "placeholder": "Enter all answer parts for Question 49"
+      "type": "parts",
+      "prompt": "Match the main points (A-D) with one of the corresponding paragraphs on the left. ONE main point is NOT used. (3 marks)",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Paragraph No.",
+                "header": true
+              },
+              {
+                "text": "Main Point",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Paragraph 7"
+              },
+              {
+                "text": "",
+                "part": "p7"
+              }
+            ],
+            [
+              {
+                "text": "Paragraph 8"
+              },
+              {
+                "text": "",
+                "part": "p8"
+              }
+            ],
+            [
+              {
+                "text": "Paragraph 9"
+              },
+              {
+                "text": "",
+                "part": "p9"
+              }
+            ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "key": "p7",
+          "label": "p7",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "p8",
+          "label": "p8",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "p9",
+          "label": "p9",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "optionBank": "A. The authors' calculations may not be accurate.\nB. The authors think self-driving cars will save money.\nC. The authors don't know the effect on society.\nD. The authors don't mention how expensive self-driving cars will be."
     },
     {
       "number": 50,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 50",
-      "placeholder": "Enter all answer parts for Question 50"
+      "type": "parts",
+      "prompt": "According to paragraph 10, what two problems may self-driving cars cause? (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "ii)",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 51,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 51",
-      "placeholder": "Enter all answer parts for Question 51"
+      "type": "choice",
+      "prompt": "What does \"have a lot of hoops to leap through\" mean in line 33? The dream of self-driving vehicles...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. will not likely happen because there are too many problems."
+        },
+        {
+          "value": "B",
+          "label": "B. will take a lot of work before something happens."
+        },
+        {
+          "value": "C",
+          "label": "C. will be very expensive, and therefore not likely to happen."
+        },
+        {
+          "value": "D",
+          "label": "D. will happen over time, but very slowly."
+        }
+      ]
     },
     {
       "number": 52,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 52",
-      "placeholder": "Enter all answer parts for Question 52"
+      "type": "choice",
+      "prompt": "\"Even that might be an underestimate\" in line 35 suggests that the price of an autonomous vehicle will",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. less than $100,000."
+        },
+        {
+          "value": "B",
+          "label": "B. $100,000."
+        },
+        {
+          "value": "C",
+          "label": "C. more than $100,000."
+        },
+        {
+          "value": "D",
+          "label": "D. five times the cost of average vehicles."
+        }
+      ]
     },
     {
       "number": 53,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 53",
-      "placeholder": "Enter all answer parts for Question 53"
+      "type": "parts",
+      "prompt": "Identify four main concerns which are holding back the introduction of self-driving cars. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "iv)",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 54,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 54",
-      "placeholder": "Enter all answer parts for Question 54"
+      "prompt": "When is it better for a vehicle to be controlled by a person rather than a computer? Give a reason from the text.\n(2 marks)"
     },
     {
       "number": 55,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 55",
-      "placeholder": "Enter all answer parts for Question 55"
-    }
-  ],
-  "structuredPassagePages": [
-    {
-      "width": 1489,
-      "height": 2106,
-      "label": "Reading passage page 1",
-      "lines": [
+      "type": "choice",
+      "prompt": "What does \"catch on\" in the title mean?",
+      "options": [
         {
-          "x": 269,
-          "y": 208,
-          "width": 120,
-          "height": 23,
-          "text": "PART B1",
-          "bold": true
+          "value": "A",
+          "label": "A. be finished"
         },
         {
-          "x": 267,
-          "y": 257,
-          "width": 963,
-          "height": 23,
-          "text": "Read Text 3 and answer questions 32-41 on pages 1-2 of the Question-Answer Book for Part B1.",
-          "bold": false
+          "value": "B",
+          "label": "B. become safe"
         },
         {
-          "x": 267,
-          "y": 302,
-          "width": 60,
-          "height": 17,
-          "text": "Text 3",
-          "bold": false
+          "value": "C",
+          "label": "C. become better B"
         },
         {
-          "x": 641,
-          "y": 359,
-          "width": 269,
-          "height": 22,
-          "text": "Witness Statement",
-          "bold": true
-        },
-        {
-          "x": 268,
-          "y": 423,
-          "width": 648,
-          "height": 22,
-          "text": "I, Anna Rossi, of 3 Arthur Street, Yau Ma Tei, housewife, state:",
-          "bold": false
-        },
-        {
-          "x": 267,
-          "y": 472,
-          "width": 1016,
-          "height": 24,
-          "text": "On 1 December 2014 at about 3:30pm, I was about to get into my car in the car park next to the",
-          "bold": false
-        },
-        {
-          "x": 267,
-          "y": 502,
-          "width": 339,
-          "height": 24,
-          "text": "shops on Wood Road, Wan Chai.",
-          "bold": false
-        },
-        {
-          "x": 363,
-          "y": 546,
-          "width": 577,
-          "height": 24,
-          "text": "that a silver car was driving down the aisle behind me.",
-          "bold": false
-        },
-        {
-          "x": 267,
-          "y": 590,
-          "width": 1017,
-          "height": 24,
-          "text": "I saw a green sports car reverse out of a car space and collide with the silver car. The silver car",
-          "bold": false
-        },
-        {
-          "x": 266,
-          "y": 620,
-          "width": 411,
-          "height": 23,
-          "text": "was moving at the time of the collision.",
-          "bold": false
-        },
-        {
-          "x": 267,
-          "y": 664,
-          "width": 620,
-          "height": 24,
-          "text": "My car was parked opposite where the accident happened.",
-          "bold": false
-        },
-        {
-          "x": 267,
-          "y": 709,
-          "width": 1015,
-          "height": 23,
-          "text": "Both the drivers got out of their cars. Neither of them seemed to be hurt and I went over to",
-          "bold": false
-        },
-        {
-          "x": 266,
-          "y": 738,
-          "width": 289,
-          "height": 23,
-          "text": "them to see how they were.",
-          "bold": false
-        },
-        {
-          "x": 266,
-          "y": 782,
-          "width": 1016,
-          "height": 23,
-          "text": "The driver of the green car said “Did you see the accident?” | said words to the effect “I saw it”.",
-          "bold": false
-        },
-        {
-          "x": 266,
-          "y": 812,
-          "width": 1016,
-          "height": 23,
-          "text": "He then said “Can you give me your contact details, just in case | need a statement from you?” I",
-          "bold": false
-        },
-        {
-          "x": 266,
-          "y": 841,
-          "width": 514,
-          "height": 24,
-          "text": "replied “Yes”. | then gave him my contact details.",
-          "bold": false
-        },
-        {
-          "x": 266,
-          "y": 886,
-          "width": 198,
-          "height": 23,
-          "text": "It was a sunny day.",
-          "bold": false
-        },
-        {
-          "x": 265,
-          "y": 930,
-          "width": 1017,
-          "height": 23,
-          "text": "The speed limit in the car park was 20km per hour. The silver car was travelling at about 40km",
-          "bold": false
-        },
-        {
-          "x": 265,
-          "y": 959,
-          "width": 95,
-          "height": 24,
-          "text": "per hour.",
-          "bold": false
-        },
-        {
-          "x": 266,
-          "y": 1003,
-          "width": 641,
-          "height": 24,
-          "text": "I noticed damage to the back left side of the green sports car.",
-          "bold": false
-        },
-        {
-          "x": 265,
-          "y": 1048,
-          "width": 681,
-          "height": 18,
-          "text": "I believe that the contents of this statement are true and correct.",
-          "bold": false
-        },
-        {
-          "x": 265,
-          "y": 1092,
-          "width": 167,
-          "height": 22,
-          "text": "Signed: A. Rossi",
-          "bold": false
-        },
-        {
-          "x": 265,
-          "y": 1120,
-          "width": 262,
-          "height": 19,
-          "text": "Dated: 7 December 2014",
-          "bold": true
-        },
-        {
-          "x": 264,
-          "y": 1230,
-          "width": 959,
-          "height": 24,
-          "text": "Read Text 4 and answer questions 42-55 on pages 2-4 of the Question-Answer Book for Part BI",
-          "bold": false
-        },
-        {
-          "x": 264,
-          "y": 1289,
-          "width": 61,
-          "height": 17,
-          "text": "Text 4",
-          "bold": false
-        },
-        {
-          "x": 525,
-          "y": 1332,
-          "width": 495,
-          "height": 24,
-          "text": "Will cars with no drivers catch on?",
-          "bold": true
-        },
-        {
-          "x": 265,
-          "y": 1411,
-          "width": 998,
-          "height": 24,
-          "text": "[1] Some day in the near future, cars will drive themselves. Traffic jams and deadly accidents will",
-          "bold": false
-        },
-        {
-          "x": 264,
-          "y": 1444,
-          "width": 1000,
-          "height": 24,
-          "text": "become a thing of the past. Driving to work will be less stressful, as riders can sit back with their",
-          "bold": false
-        },
-        {
-          "x": 264,
-          "y": 1477,
-          "width": 400,
-          "height": 24,
-          "text": "coffee and let computers handle the trip.",
-          "bold": true
-        },
-        {
-          "x": 265,
-          "y": 1531,
-          "width": 999,
-          "height": 24,
-          "text": "[2] That’s the dream of many, at least. And it’s not totally unrealistic. Google is developing",
-          "bold": false
-        },
-        {
-          "x": 263,
-          "y": 1560,
-          "width": 1001,
-          "height": 24,
-          "text": "“autonomous vehicles” that are improving rapidly each year. A future of completely self-driving",
-          "bold": false
-        },
-        {
-          "x": 263,
-          "y": 1590,
-          "width": 331,
-          "height": 18,
-          "text": "vehicles doesn’t seem too far off.",
-          "bold": true
-        },
-        {
-          "x": 264,
-          "y": 1639,
-          "width": 1000,
-          "height": 24,
-          "text": "[3] And yet, according to a new report by the Eno Center for Transportation, there are still many",
-          "bold": false
-        },
-        {
-          "x": 263,
-          "y": 1668,
-          "width": 705,
-          "height": 23,
-          "text": "obstacles to overcome before self-driving cars take over our highways.",
-          "bold": false
-        },
-        {
-          "x": 264,
-          "y": 1717,
-          "width": 1000,
-          "height": 24,
-          "text": "[4] “Self-driving cars have the potential to transform transport as we know it,” explained report",
-          "bold": false
-        },
-        {
-          "x": 263,
-          "y": 1745,
-          "width": 1001,
-          "height": 25,
-          "text": "co-author Daniel Fagnant — and bring billions of dollars’ worth of benefits. But getting to that point",
-          "bold": false
-        },
-        {
-          "x": 213,
-          "y": 1748,
-          "width": 20,
-          "height": 17,
-          "text": "10",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 1776,
-          "width": 142,
-          "height": 23,
-          "text": "won't be easy.",
-          "bold": true
-        },
-        {
-          "x": 218,
-          "y": 1999,
-          "width": 568,
-          "height": 19,
-          "text": "2015-DSE-ENG LANG 1I-B1-RP-2 2",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "width": 1489,
-      "height": 2106,
-      "label": "Reading passage page 2",
-      "lines": [
-        {
-          "x": 261,
-          "y": 200,
-          "width": 335,
-          "height": 22,
-          "text": "The benefits of self-driving cars",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 242,
-          "width": 997,
-          "height": 34,
-          "text": "[5] It’s easy to list the benefits of a world with self-driving vehicles. Safety is the biggest. Right now,",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 275,
-          "width": 999,
-          "height": 26,
-          "text": "more than 30,000 people die each year in the United States from automobile crashes. And roughly 40",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 303,
-          "width": 999,
-          "height": 27,
-          "text": "percent of fatal accidents are caused by alcohol, distraction, drugs or fatigue. Letting robots take the",
-          "bold": false
-        },
-        {
-          "x": 211,
-          "y": 308,
-          "width": 19,
-          "height": 18,
-          "text": "15",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 335,
-          "width": 235,
-          "height": 18,
-          "text": "wheel would save lives.",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 382,
-          "width": 999,
-          "height": 26,
-          "text": "[6] Or take congestion. Cars driven by robots could travel closer together at steadier speeds. They",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 411,
-          "width": 999,
-          "height": 25,
-          "text": "wouldn’t bunch up in traffic jams caused by aripple of brake lights. More cars could squeeze onto the",
-          "bold": false
-        },
-        {
-          "x": 260,
-          "y": 437,
-          "width": 716,
-          "height": 32,
-          "text": "road and move more quickly, and a lot of time and fuel would be saved.",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 489,
-          "width": 999,
-          "height": 27,
-          "text": "[7] If just 10 percent of the vehicles on the road were self-driving cars, the authors estimate, the",
-          "bold": false
-        },
-        {
-          "x": 208,
-          "y": 494,
-          "width": 23,
-          "height": 17,
-          "text": "20",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 513,
-          "width": 999,
-          "height": 34,
-          "text": "country could save more than $37 billion a year — fewer deaths, less fuel, more free time. If we",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 546,
-          "width": 1000,
-          "height": 27,
-          "text": "reached a point where 90 percent of the cars on the road were self-driving vehicles, the benefits would",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 578,
-          "width": 335,
-          "height": 23,
-          "text": "rise to around $450 billion a year.",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 625,
-          "width": 997,
-          "height": 27,
-          "text": "[8] Now, as Fagnant pointed out in a presentation, these are “ballpark, rough estimates...guesses,",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 654,
-          "width": 953,
-          "height": 26,
-          "text": "really.” So don’t get too fixated on the numbers. They’re meant to be illustrative, not definitive.",
-          "bold": false
-        },
-        {
-          "x": 208,
-          "y": 659,
-          "width": 22,
-          "height": 17,
-          "text": "25",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 704,
-          "width": 998,
-          "height": 26,
-          "text": "[9] The authors also didn’t try to quantify any of the costs of self-driving vehicles. What’s the price",
-          "bold": false
-        },
-        {
-          "x": 260,
-          "y": 733,
-          "width": 613,
-          "height": 26,
-          "text": "tag on these gadgets? How does that compare to the benefits?",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 782,
-          "width": 998,
-          "height": 27,
-          "text": "[10] And what about unforeseen consequences? Researchers can’t predict how, exactly, self-driving",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 811,
-          "width": 1000,
-          "height": 27,
-          "text": "cars might reshape society. Maybe the vehicles will induce even more travel and congestion will get",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 840,
-          "width": 998,
-          "height": 26,
-          "text": "worse. Or maybe they will lead to an increase in air pollution. It’s impossible to know at this point.",
-          "bold": false
-        },
-        {
-          "x": 208,
-          "y": 844,
-          "width": 23,
-          "height": 17,
-          "text": "30",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 871,
-          "width": 353,
-          "height": 24,
-          "text": "Still, the advantages are tantalizing.",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 922,
-          "width": 352,
-          "height": 23,
-          "text": "The problems of self-driving cars",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 968,
-          "width": 998,
-          "height": 26,
-          "text": "[11] Even if the benefits are many, self-driving vehicles have a lot of hoops to leap through. First, the",
-          "bold": false
-        },
-        {
-          "x": 260,
-          "y": 997,
-          "width": 1002,
-          "height": 26,
-          "text": "technology is still very pricey. By one estimate, the first wave of autonomous vehicles could cost over",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 1026,
-          "width": 1000,
-          "height": 25,
-          "text": "$100,000 — five times the cost of the average new vehicle. Even that might be an underestimate: the",
-          "bold": false
-        },
-        {
-          "x": 208,
-          "y": 1030,
-          "width": 22,
-          "height": 18,
-          "text": "35",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 1055,
-          "width": 672,
-          "height": 24,
-          "text": "3-D sensors alone on Google’s autonomous car cost about $70,000.",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 1103,
-          "width": 998,
-          "height": 27,
-          "text": "[12] Those costs would presumably come down over time, but no one knows how rapidly. And that’s",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 1131,
-          "width": 999,
-          "height": 27,
-          "text": "a big hurdle. One survey found that only 20 percent of Americans would “definitely” or “probably”",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 1161,
-          "width": 758,
-          "height": 26,
-          "text": "buy a car with self-driving capabilities even if the price dropped to $30,000.",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 1210,
-          "width": 999,
-          "height": 27,
-          "text": "[13] What’s more, while the technology is rapidly improving, it’s far from perfect. Google’s",
-          "bold": false
-        },
-        {
-          "x": 208,
-          "y": 1215,
-          "width": 23,
-          "height": 17,
-          "text": "40",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 1238,
-          "width": 1000,
-          "height": 27,
-          "text": "self-driving cars have now traveled more than 435,000 miles in California, but the cars have yet to be",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 1271,
-          "width": 345,
-          "height": 23,
-          "text": "fully tested in urban environments.",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 1315,
-          "width": 999,
-          "height": 47,
-          "text": "[14] Most likely, self-driving technology will emerge gradually, piece by pices: But even",
-          "bold": true
-        },
-        {
-          "x": 262,
-          "y": 1348,
-          "width": 451,
-          "height": 25,
-          "text": "intermediate features pose unique challenges.",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 1397,
-          "width": 999,
-          "height": 26,
-          "text": "[15] Early autonomous cars will likely require their human drivers to take the wheel during especially",
-          "bold": false
-        },
-        {
-          "x": 208,
-          "y": 1401,
-          "width": 22,
-          "height": 18,
-          "text": "45",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 1426,
-          "width": 1000,
-          "height": 26,
-          "text": "complicated situations. But as one car maker is discovering, it’s difficult to get people to drift in and",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 1454,
-          "width": 1001,
-          "height": 26,
-          "text": "out of attention while driving —and the process of switching back and forth between robot and",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 1485,
-          "width": 515,
-          "height": 22,
-          "text": "human could well make these cars less safe, at first.",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 1533,
-          "width": 1003,
-          "height": 27,
-          "text": "[16] The Eno report also notes that there’s still a ton of research yet to be done about the prospect of",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 1562,
-          "width": 1000,
-          "height": 27,
-          "text": "self-driving cars. “As long as crucial questions go unanswered,” the report concludes, “the nation will",
-          "bold": false
-        },
-        {
-          "x": 209,
-          "y": 1567,
-          "width": 22,
-          "height": 18,
-          "text": "50",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 1590,
-          "width": 1000,
-          "height": 28,
-          "text": "be hampered in its ability to successfully plan for and introduce [autonomous vehicles] into the",
-          "bold": false
-        },
-        {
-          "x": 261,
-          "y": 1623,
-          "width": 229,
-          "height": 24,
-          "text": "transportation system.”",
-          "bold": true
-        },
-        {
-          "x": 582,
-          "y": 1748,
-          "width": 359,
-          "height": 21,
-          "text": "END OF READING PASSAGES",
-          "bold": true
-        },
-        {
-          "x": 262,
-          "y": 1809,
-          "width": 1000,
-          "height": 25,
-          "text": "Sources of materials used in this paper will be acknowledged in the Examination Report and Question Papers",
-          "bold": false
-        },
-        {
-          "x": 262,
-          "y": 1837,
-          "width": 769,
-          "height": 24,
-          "text": "published by the Hong Kong Examinations and Assessment Authority at a later stage.",
-          "bold": false
-        },
-        {
-          "x": 779,
-          "y": 2002,
-          "width": 10,
-          "height": 17,
-          "text": "w",
-          "bold": false
-        },
-        {
-          "x": 218,
-          "y": 2006,
-          "width": 322,
-          "height": 18,
-          "text": "2015-DSE-ENG LANG 1-B1-RP-3",
-          "bold": true
-        }
-      ]
-    }
-  ],
-  "structuredQuestionPages": [
-    {
-      "width": 1489,
-      "height": 2106,
-      "label": "Question page 1",
-      "lines": [
-        {
-          "x": 912,
-          "y": 117,
-          "width": 470,
-          "height": 27,
-          "text": "Please stick the barcode label here.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 145,
-          "width": 164,
-          "height": 18,
-          "text": "Candidate Number",
-          "bold": false
-        },
-        {
-          "x": 158,
-          "y": 215,
-          "width": 174,
-          "height": 24,
-          "text": "HKDSE 2015",
-          "bold": true
-        },
-        {
-          "x": 158,
-          "y": 220,
-          "width": 653,
-          "height": 88,
-          "text": "ENGLISH LANGUAGE a 1",
-          "bold": true
-        },
-        {
-          "x": 158,
-          "y": 283,
-          "width": 255,
-          "height": 25,
-          "text": "PAPER 1 PART B1",
-          "bold": true
-        },
-        {
-          "x": 158,
-          "y": 316,
-          "width": 678,
-          "height": 28,
-          "text": "QUESTION-ANSWER BOOK EASY SECTION",
-          "bold": true
-        },
-        {
-          "x": 159,
-          "y": 385,
-          "width": 905,
-          "height": 31,
-          "text": "Write your Candidate Number and stick a barcode label in the space provided on this page.",
-          "bold": false
-        },
-        {
-          "x": 159,
-          "y": 424,
-          "width": 567,
-          "height": 26,
-          "text": "Read Text 3 and answer questions 32-41. (15 marks)",
-          "bold": true
-        },
-        {
-          "x": 159,
-          "y": 485,
-          "width": 261,
-          "height": 21,
-          "text": "32. Who is the witness?",
-          "bold": true
-        },
-        {
-          "x": 161,
-          "y": 622,
-          "width": 1119,
-          "height": 34,
-          "text": "33. Why are the following addresses important? (2 marks)",
-          "bold": true
-        },
-        {
-          "x": 227,
-          "y": 688,
-          "width": 317,
-          "height": 26,
-          "text": "i) Arthur Street, Yau Ma Tei",
-          "bold": false
-        },
-        {
-          "x": 227,
-          "y": 741,
-          "width": 287,
-          "height": 34,
-          "text": "ii) | Wood Road, Wan Chai",
-          "bold": true
-        },
-        {
-          "x": 162,
-          "y": 829,
-          "width": 684,
-          "height": 25,
-          "text": "34, Find a word in lines 1-9 with the same meaning as “accident”.",
-          "bold": true
-        },
-        {
-          "x": 163,
-          "y": 966,
-          "width": 1119,
-          "height": 33,
-          "text": "35. Look at the following diagram. Write the letter (A-F) that indicates the position of: (3 marks)",
-          "bold": false
-        },
-        {
-          "x": 230,
-          "y": 1031,
-          "width": 182,
-          "height": 31,
-          "text": "i) _ the silver car",
-          "bold": false
-        },
-        {
-          "x": 231,
-          "y": 1092,
-          "width": 181,
-          "height": 23,
-          "text": "ii) the green car",
-          "bold": true
-        },
-        {
-          "x": 231,
-          "y": 1149,
-          "width": 162,
-          "height": 24,
-          "text": "iii) Anna’s car",
-          "bold": true
-        },
-        {
-          "x": 155,
-          "y": 1738,
-          "width": 1196,
-          "height": 49,
-          "text": "L —_I",
-          "bold": true
-        },
-        {
-          "x": 164,
-          "y": 1797,
-          "width": 511,
-          "height": 26,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 171,
-          "y": 2015,
-          "width": 284,
-          "height": 19,
-          "text": "coco",
-          "bold": false
+          "value": "D",
+          "label": "D. become common"
         }
       ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2015/b1/questions-1-figure-1.webp",
-          "x": 868,
-          "y": 80,
-          "width": 560,
-          "height": 244,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2015/b1/questions-1-figure-2.webp",
-          "x": 788,
-          "y": 1168,
-          "width": 120,
-          "height": 220,
-          "alt": "Original figure 2"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2015/b1/questions-1-figure-3.webp",
-          "x": 936,
-          "y": 1176,
-          "width": 248,
-          "height": 464,
-          "alt": "Original figure 3"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2015/b1/questions-1-figure-4.webp",
-          "x": 320,
-          "y": 1180,
-          "width": 316,
-          "height": 468,
-          "alt": "Original figure 4"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2015/b1/questions-1-figure-5.webp",
-          "x": 976,
-          "y": 1864,
-          "width": 492,
-          "height": 242,
-          "alt": "Original figure 5"
-        }
-      ]
-    },
-    {
-      "width": 1489,
-      "height": 2106,
-      "label": "Question page 2",
-      "lines": [
-        {
-          "x": 180,
-          "y": 244,
-          "width": 385,
-          "height": 23,
-          "text": "36. Who was injured in the accident?",
-          "bold": true
-        },
-        {
-          "x": 179,
-          "y": 330,
-          "width": 577,
-          "height": 23,
-          "text": "37. Why did the driver ask Anna for her contact details?",
-          "bold": true
-        },
-        {
-          "x": 180,
-          "y": 477,
-          "width": 410,
-          "height": 23,
-          "text": "38. Where was the green car damaged?",
-          "bold": true
-        },
-        {
-          "x": 1191,
-          "y": 492,
-          "width": 31,
-          "height": 55,
-          "text": "Oo",
-          "bold": true
-        },
-        {
-          "x": 1039,
-          "y": 493,
-          "width": 32,
-          "height": 54,
-          "text": "O>",
-          "bold": true
-        },
-        {
-          "x": 1115,
-          "y": 493,
-          "width": 32,
-          "height": 54,
-          "text": "Ow",
-          "bold": true
-        },
-        {
-          "x": 1265,
-          "y": 493,
-          "width": 31,
-          "height": 54,
-          "text": "Ov",
-          "bold": true
-        },
-        {
-          "x": 177,
-          "y": 803,
-          "width": 1122,
-          "height": 24,
-          "text": "39. Which car do you think was responsible for the accident? Why? Give a reason from the text. (2 marks)",
-          "bold": false
-        },
-        {
-          "x": 179,
-          "y": 1007,
-          "width": 451,
-          "height": 18,
-          "text": "40. The sentence in line 17 can be found in",
-          "bold": true
-        },
-        {
-          "x": 238,
-          "y": 1036,
-          "width": 192,
-          "height": 17,
-          "text": "A. business letters",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1064,
-          "width": 204,
-          "height": 23,
-          "text": "B. legal documents",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1093,
-          "width": 1048,
-          "height": 18,
-          "text": "C. letters to the editor A B D",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1117,
-          "width": 1055,
-          "height": 31,
-          "text": "D. job application cover letters O O O",
-          "bold": true
-        },
-        {
-          "x": 175,
-          "y": 1180,
-          "width": 1118,
-          "height": 24,
-          "text": "41. What is the significance of the following dates? (2 marks)",
-          "bold": true
-        },
-        {
-          "x": 229,
-          "y": 1234,
-          "width": 193,
-          "height": 31,
-          "text": "i) — Ist December",
-          "bold": true
-        },
-        {
-          "x": 230,
-          "y": 1296,
-          "width": 194,
-          "height": 23,
-          "text": "ii) 7th December",
-          "bold": true
-        },
-        {
-          "x": 175,
-          "y": 1383,
-          "width": 569,
-          "height": 23,
-          "text": "Read Text 4 and answer questions 42-55. (25 marks)",
-          "bold": true
-        },
-        {
-          "x": 174,
-          "y": 1440,
-          "width": 1120,
-          "height": 24,
-          "text": "42. According to paragraph 1, what will no longer happen when cars drive themselves? (2 marks)",
-          "bold": false
-        },
-        {
-          "x": 228,
-          "y": 1499,
-          "width": 14,
-          "height": 22,
-          "text": "i)",
-          "bold": false
-        },
-        {
-          "x": 228,
-          "y": 1556,
-          "width": 20,
-          "height": 23,
-          "text": "ii)",
-          "bold": false
-        },
-        {
-          "x": 174,
-          "y": 1636,
-          "width": 437,
-          "height": 24,
-          "text": "43. What does “the trip” in line 3 refer to?",
-          "bold": true
-        },
-        {
-          "x": 173,
-          "y": 1775,
-          "width": 658,
-          "height": 24,
-          "text": "44, According to paragraph 1, what will drive cars in the future?",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1907,
-          "width": 511,
-          "height": 23,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 161,
-          "y": 2012,
-          "width": 593,
-          "height": 26,
-          "text": "2015-DSE-ENG LANG 1-B1-2 2)",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "width": 1489,
-      "height": 2106,
-      "label": "Question page 3",
-      "lines": [
-        {
-          "x": 231,
-          "y": 211,
-          "width": 310,
-          "height": 24,
-          "text": "Who is making driverless cars?",
-          "bold": false
-        },
-        {
-          "x": 176,
-          "y": 215,
-          "width": 29,
-          "height": 17,
-          "text": "45.",
-          "bold": false
-        },
-        {
-          "x": 231,
-          "y": 355,
-          "width": 600,
-          "height": 27,
-          "text": "Which organization did Daniel Fagnant write the report for?",
-          "bold": false
-        },
-        {
-          "x": 176,
-          "y": 361,
-          "width": 29,
-          "height": 17,
-          "text": "46.",
-          "bold": false
-        },
-        {
-          "x": 239,
-          "y": 501,
-          "width": 728,
-          "height": 27,
-          "text": "According to paragraph 4, which one of the following statements is true?",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 507,
-          "width": 30,
-          "height": 17,
-          "text": "47.",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 531,
-          "width": 513,
-          "height": 26,
-          "text": "A. Changing the transport system will be difficult.",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 561,
-          "width": 480,
-          "height": 25,
-          "text": "B. Self-driving cars won’t be easy to transport.",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 582,
-          "width": 1047,
-          "height": 32,
-          "text": "C. Autonomous vehicles won’t bring changes to transportation. A B Cc D",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 608,
-          "width": 1055,
-          "height": 35,
-          "text": "D. Daniel Fagnant doesn’t support a change in the transport system. © © © ©",
-          "bold": false
-        },
-        {
-          "x": 227,
-          "y": 703,
-          "width": 1076,
-          "height": 27,
-          "text": "Based on the information given in paragraphs 5 and 6, decide if the following statements are True, False or",
-          "bold": false
-        },
-        {
-          "x": 178,
-          "y": 710,
-          "width": 29,
-          "height": 18,
-          "text": "48.",
-          "bold": false
-        },
-        {
-          "x": 226,
-          "y": 731,
-          "width": 1071,
-          "height": 26,
-          "text": "the information is Not Given. Blacken ONE circle only for each statement. (4 marks)",
-          "bold": false
-        },
-        {
-          "x": 1256,
-          "y": 766,
-          "width": 34,
-          "height": 18,
-          "text": "NG",
-          "bold": true
-        },
-        {
-          "x": 1066,
-          "y": 768,
-          "width": 51,
-          "height": 280,
-          "text": "OC 0 Oz ©",
-          "bold": true
-        },
-        {
-          "x": 1260,
-          "y": 790,
-          "width": 31,
-          "height": 32,
-          "text": "O",
-          "bold": true
-        },
-        {
-          "x": 242,
-          "y": 800,
-          "width": 744,
-          "height": 27,
-          "text": "i) There are more than 30,000 car crashes in the United States each year.",
-          "bold": false
-        },
-        {
-          "x": 1165,
-          "y": 864,
-          "width": 33,
-          "height": 182,
-          "text": "0 O O",
-          "bold": true
-        },
-        {
-          "x": 242,
-          "y": 873,
-          "width": 485,
-          "height": 25,
-          "text": "ii) Fewer people would die in self-driving cars.",
-          "bold": true
-        },
-        {
-          "x": 242,
-          "y": 944,
-          "width": 475,
-          "height": 25,
-          "text": "iii) Self-driving cars would reduce congestion.",
-          "bold": true
-        },
-        {
-          "x": 242,
-          "y": 1015,
-          "width": 1049,
-          "height": 32,
-          "text": "iv) Self-driving cars will be smaller. O",
-          "bold": true
-        },
-        {
-          "x": 234,
-          "y": 1152,
-          "width": 1002,
-          "height": 28,
-          "text": "Match the main points (A-D) with one of the corresponding paragraphs on the left. Write the correct",
-          "bold": false
-        },
-        {
-          "x": 180,
-          "y": 1159,
-          "width": 28,
-          "height": 18,
-          "text": "49.",
-          "bold": false
-        },
-        {
-          "x": 235,
-          "y": 1180,
-          "width": 1046,
-          "height": 29,
-          "text": "letter (A-D) on the line next to the paragraph number. ONE main point is NOT used. (3 marks)",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 1241,
-          "width": 755,
-          "height": 28,
-          "text": "Paragraph No. Main Point",
-          "bold": false
-        },
-        {
-          "x": 239,
-          "y": 1291,
-          "width": 853,
-          "height": 42,
-          "text": "i) Paragraph 7 A. The authors’ calculations may not be accurate.",
-          "bold": true
-        },
-        {
-          "x": 585,
-          "y": 1362,
-          "width": 563,
-          "height": 23,
-          "text": "B. The authors think self-driving cars will save money.",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 1380,
-          "width": 162,
-          "height": 23,
-          "text": "ii) Paragraph 8",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 1433,
-          "width": 842,
-          "height": 42,
-          "text": "iii) Paragraph 9 C. The authors don’t know the effect on society.",
-          "bold": true
-        },
-        {
-          "x": 585,
-          "y": 1491,
-          "width": 714,
-          "height": 26,
-          "text": "D. The authors don’t mention how expensive self-driving cars will be.",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 1616,
-          "width": 1045,
-          "height": 29,
-          "text": "According to paragraph 10, what two problems may self-driving cars cause? (2 marks)",
-          "bold": false
-        },
-        {
-          "x": 182,
-          "y": 1625,
-          "width": 29,
-          "height": 17,
-          "text": "50.",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 1681,
-          "width": 13,
-          "height": 22,
-          "text": "i)",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1762,
-          "width": 19,
-          "height": 23,
-          "text": "ii)",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1904,
-          "width": 511,
-          "height": 25,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 172,
-          "y": 2005,
-          "width": 1175,
-          "height": 30,
-          "text": "2015-DSE-ENG LANG 1-B1-3 3 Go onto thenext page >",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2015/b1/questions-3-figure-1.webp",
-          "x": 340,
-          "y": 1220,
-          "width": 992,
-          "height": 328,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2015/b1/questions-3-figure-2.webp",
-          "x": 1064,
-          "y": 1964,
-          "width": 404,
-          "height": 142,
-          "alt": "Original figure 2"
-        }
-      ]
-    },
-    {
-      "width": 1489,
-      "height": 2106,
-      "label": "Question page 4",
-      "lines": [
-        {
-          "x": 174,
-          "y": 209,
-          "width": 1091,
-          "height": 35,
-          "text": "51. What does “have a lot of hoops to leap through” mean in line 33? The dream of self-driving vehicles...",
-          "bold": false
-        },
-        {
-          "x": 239,
-          "y": 262,
-          "width": 641,
-          "height": 26,
-          "text": "A. will not likely happen because there are too many problems.",
-          "bold": false
-        },
-        {
-          "x": 239,
-          "y": 291,
-          "width": 536,
-          "height": 25,
-          "text": "B. will take a lot of work before something happens.",
-          "bold": false
-        },
-        {
-          "x": 239,
-          "y": 320,
-          "width": 1046,
-          "height": 31,
-          "text": "C. will be very expensive, and therefore not likely to happen. A B Cc D",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 346,
-          "width": 1055,
-          "height": 33,
-          "text": "D. will happen over time, but very slowly. O O O O",
-          "bold": true
-        },
-        {
-          "x": 173,
-          "y": 448,
-          "width": 1126,
-          "height": 26,
-          "text": "52. “Even that might be an underestimate” in line 35 suggests that the price of an autonomous vehicle will",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 478,
-          "width": 43,
-          "height": 17,
-          "text": "bE.",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 526,
-          "width": 233,
-          "height": 22,
-          "text": "A. less than $100,000.",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 554,
-          "width": 138,
-          "height": 23,
-          "text": "B. $100,000.",
-          "bold": true
-        },
-        {
-          "x": 237,
-          "y": 583,
-          "width": 1046,
-          "height": 23,
-          "text": "C. more than $100,000. A B ¢ D",
-          "bold": false
-        },
-        {
-          "x": 236,
-          "y": 610,
-          "width": 1055,
-          "height": 33,
-          "text": "D. five times the cost of average vehicles. OOOO",
-          "bold": true
-        },
-        {
-          "x": 174,
-          "y": 712,
-          "width": 1133,
-          "height": 27,
-          "text": "53. Identify four main concerns which are holding back the introduction of self-driving cars. (4 marks)",
-          "bold": false
-        },
-        {
-          "x": 227,
-          "y": 772,
-          "width": 14,
-          "height": 23,
-          "text": "i)",
-          "bold": false
-        },
-        {
-          "x": 226,
-          "y": 893,
-          "width": 20,
-          "height": 22,
-          "text": "ii)",
-          "bold": false
-        },
-        {
-          "x": 226,
-          "y": 1013,
-          "width": 26,
-          "height": 23,
-          "text": "iti)",
-          "bold": true
-        },
-        {
-          "x": 225,
-          "y": 1134,
-          "width": 25,
-          "height": 22,
-          "text": "iv)",
-          "bold": false
-        },
-        {
-          "x": 170,
-          "y": 1287,
-          "width": 1156,
-          "height": 27,
-          "text": "54, When is it better for a vehicle to be controlled by a person rather than a computer? Give a reason from the text.",
-          "bold": false
-        },
-        {
-          "x": 1205,
-          "y": 1320,
-          "width": 93,
-          "height": 23,
-          "text": "(2 marks)",
-          "bold": true
-        },
-        {
-          "x": 162,
-          "y": 1589,
-          "width": 463,
-          "height": 32,
-          "text": "55. | What does “catch on” in the title mean?",
-          "bold": true
-        },
-        {
-          "x": 228,
-          "y": 1638,
-          "width": 151,
-          "height": 32,
-          "text": "A. be finished",
-          "bold": false
-        },
-        {
-          "x": 229,
-          "y": 1671,
-          "width": 164,
-          "height": 18,
-          "text": "B, become safe",
-          "bold": false
-        },
-        {
-          "x": 228,
-          "y": 1700,
-          "width": 182,
-          "height": 18,
-          "text": "C. become better",
-          "bold": false
-        },
-        {
-          "x": 1035,
-          "y": 1703,
-          "width": 241,
-          "height": 18,
-          "text": "A B S D",
-          "bold": true
-        },
-        {
-          "x": 247,
-          "y": 1722,
-          "width": 1036,
-          "height": 46,
-          "text": ". become common © O oO",
-          "bold": true
-        },
-        {
-          "x": 228,
-          "y": 1729,
-          "width": 16,
-          "height": 17,
-          "text": "D",
-          "bold": true
-        },
-        {
-          "x": 636,
-          "y": 1821,
-          "width": 203,
-          "height": 19,
-          "text": "END OF PART B1",
-          "bold": true
-        },
-        {
-          "x": 147,
-          "y": 1906,
-          "width": 511,
-          "height": 23,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 152,
-          "y": 2011,
-          "width": 593,
-          "height": 28,
-          "text": "2015-DSE-ENG LANG 1-B1-4 4",
-          "bold": true
-        }
-      ]
+      "optionBank": "A. be finished\nB. become safe\nC. become better B\nD. become common\nEND OF PART B1"
     }
   ]
 }

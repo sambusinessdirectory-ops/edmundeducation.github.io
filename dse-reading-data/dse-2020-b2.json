@@ -5,2218 +5,641 @@
   "title": "Graham Norton: The Letters I Can Never Forget",
   "sourceLabel": "HKDSE 2020 English Language Paper 1 Part B2",
   "sourceHeading": "Graham Norton: The Letters I Can Never Forget",
-  "displayMode": "structured-paper",
-  "paragraphs": [],
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "Paragraph 1",
+      "text": "Graham Norton: \"The letters I can never forget\" As the Telegraph newspaper's longstanding agony uncle, he has heard it all over the last decade. Comedian and chat show host Graham Norton reveals why his personal brand of tough love often proves"
+    },
+    {
+      "number": 2,
+      "label": "Paragraph 2",
+      "text": "I'm not sure who it was that once claimed there are no problems, only solutions. All I can say is they've never opened my Pandora's postbag of woes. Broken hearts, family troubles, work traumas, embarrassing body functions, I've seen them all, in a manner of speaking, and sometimes, let me tell you, it's a pretty disturbing sight."
+    },
+    {
+      "number": 3,
+      "label": "Paragraph 3",
+      "text": "And as a result, I do feel as though I have my fingers on the throbbing pulse of the Telegraph readership and a soothing ice pack at its pounding temple."
+    },
+    {
+      "number": 4,
+      "label": "Paragraph 4",
+      "text": "Am I properly qualified for this vocation? Well not really, my calling has been thrust upon me. But I am ready to serve, smelling salts in one hand, a sticking plaster for the soul in the other."
+    },
+    {
+      "number": 5,
+      "label": "Paragraph 5",
+      "text": "Let me make no bones about it: my tough love diagnosis isn't for everyone and I'm aware that there are those who have written to me in the expectation of a kind word and a couple of aspirin and have instead received a tongue-lashing and a slap in the face."
+    },
+    {
+      "number": 6,
+      "label": "Paragraph 6",
+      "text": "But I'm not sure the doctors' Hippocratic Oath was tailored to some bloke huffing because he was going to have to share the stage during his best-man speech. And in a way, it's this sort of self-obsessed whingeing that makes the genuine, urgent cries for help stand out all the more."
+    },
+    {
+      "number": 7,
+      "label": "Paragraph 7",
+      "text": "Because there are 'problems' and there are problems. And then, I've discovered, there are problematic problems. Sometimes, where it's clear that my correspondent is so low or so grief-stricken by bereavement they could be suffering from clinical depression, I see my role simply not to make it any worse and gently refer them on to an expert who can give them what they need"
+    },
+    {
+      "number": 8,
+      "label": "Paragraph 8",
+      "text": "Then there are letters like the one when a librarian from Manchester says, \"I am going to marry a young Italian farmer half my age and my friends all think I'm crazy,\" and I think to myself well, they are right, probably - but not definitely, because, who knows, hers could be the one young Italian farmer scenario that ends happily ever after. •So all I can do is point her in the direction of the potential pitfalls and wish her luck."
+    },
+    {
+      "number": 9,
+      "label": "Paragraph 9",
+      "text": "Some issues come up again and again and it's difficult to rummage around in my medical bag and come up with a prescription that is constructive and original. When someone is lonely or distressed about being single, the obvious, banal advice is to tell them to get out there, find an interest and meet like-minded people."
+    },
+    {
+      "number": 10,
+      "label": "Paragraph 10",
+      "text": "But then part of me thinks there are some individuals who just don't make friends, and they are lonely. And some individuals never find a partner and wish they could, and beyond that there's not much more to say about it."
+    },
+    {
+      "number": 11,
+      "label": "Paragraph 11",
+      "text": "That would be a bit brutal though, so I sort of skirt around it and hope that the letter to me will be a starting point, a springboard to some sort of positive action."
+    },
+    {
+      "number": 12,
+      "label": "Paragraph 12",
+      "text": "On a physician-heal-thyself note, I have found that thinking about other people's troubled lives has stopped me being so reactionary and self-righteous, which, believe you me, is a good thing."
+    },
+    {
+      "number": 13,
+      "label": "Paragraph 13",
+      "text": "Telegraph readers, I know you are perceptive enough to take my wisdom in the spirit in which it is intended (pass the whisky). I really want to help and I think I do, but, in truth (and I think you all know this) as often as not you need to search deep inside yourself for your own solution (and no, before you ask, bile doesn't count)."
+    },
+    {
+      "number": 14,
+      "label": "Paragraph 14",
+      "text": "I understand some of you feel battered and bruised, like you've been in the wars. But you haven't. Unless you actually have, in which case you should really call the Healthcare Advice Line."
+    },
+    {
+      "number": 15,
+      "label": "Paragraph 15",
+      "text": "As for the rest of you, go on, out of the clinic with you. You might be wounded, but you're walking, so pack up your troubles in your old kit bag and smile, smile, smile. Chuckle at adversity, wink at disaster, laugh at your problems. God knows everybody else does. Serious to silly, two letters from my postbag Dear Graham,"
+    },
+    {
+      "number": 16,
+      "label": "Paragraph 16",
+      "text": "I'm an American getting ready to take up a job offer in Sweden. I'm 19 and have no idea what I want to do with my life long-term, but I still have an idea in my head that if things don't work out with this move I'll have failed in some way. I'm going all in for it, however, because it's a chance that doesn't come around a whole lot."
+    },
+    {
+      "number": 17,
+      "label": "Paragraph 17",
+      "text": "Still, I've never been away from home for this long before and I'm terrified. I know this is the right move for me. But I love my family and I don't want to leave them behind. I have friends in Europe but it's a pretty big place. What advice can you give me? David, Illinois, USA Dear David,"
+    },
+    {
+      "number": 18,
+      "label": "Paragraph 18",
+      "text": "You have a ticket to Sweden in your hand. You aren't embarking on the first manned mission to Mars. So take some deep breaths and calm down. Obviously things will be very different when you get to Sweden; but that is why you are going."
+    },
+    {
+      "number": 19,
+      "label": "Paragraph 19",
+      "text": "I'm not saying it will be all plain sailing. There will be lonely nights when you miss your friends and family, but this is 2020 so you have the luxury of calling or Skyping them. Before long you will be having so much fun you wish the people back home could be with you to share it all."
+    },
+    {
+      "number": 20,
+      "label": "Paragraph 20",
+      "text": "The most important thing to remember is that you are 19 and no decisions you make now are forever. Come to Europe and explore all it has to offer, knowing that you could still return to the States and build a whole life and career there. You are a very lucky young man. You have opportunities and time, two things that most people long"
+    },
+    {
+      "number": 21,
+      "label": "Paragraph 21",
+      "text": "I would also strongly suggest that when things are proving challenging in your new home, you don't give up at the first hurdle. Persevere and make sure that if or when you leave it feels like a decision you are in charge of rather than simply running away."
+    },
+    {
+      "number": 22,
+      "label": "Paragraph 22",
+      "text": "This is an exciting time for you, full of anticipation, but also trepidation. Feeling fear doesn't mean that you aren't brave. Doing something that frightens you is the very definition of courage. Go and embrace the differences. There may be ketchup on the table - but don't forget to try the lingonberry jam! Dear Graham, 23| The past 40-odd years have for me been an often fruitless search for a barber who can do a good job on my challenging hair. Now I have found one with whom I am perfectly satisfied, but while he cuts my hair, he continually picks his nose. I would appreciate your advice. P Smith, Bracknell, UK Dear P,"
+    },
+    {
+      "number": 23,
+      "label": "Paragraph 23",
+      "text": "What comes out of the top of your head? Steel wool? But you aren't driving a car or operating heavy machinery, so next time, why not do this thing I've discovered when confronted with something I don't want to see - shut your eyes! A longer fringe may also help."
+    }
+  ],
   "instructions": {
-    "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
+    "paper": "Answer every question using the passage."
   },
   "questions": [
     {
       "number": 42,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 42",
-      "placeholder": "Enter all answer parts for Question 42"
+      "type": "choice",
+      "prompt": "What is suggested when the text states 'he has heard it all' (line 1)?\nNorton...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. is tired of being an agony uncle."
+        },
+        {
+          "value": "B",
+          "label": "B. is rarely surprised by any problems."
+        },
+        {
+          "value": "C",
+          "label": "C. wants to read more exciting problems."
+        },
+        {
+          "value": "D",
+          "label": "D. enjoys chatting about people's problems."
+        }
+      ]
     },
     {
       "number": 43,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 43",
-      "placeholder": "Enter all answer parts for Question 43"
+      "type": "choice",
+      "prompt": "Norton with the statement 'there are no problems, only solutions' (line 4).",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. agrees"
+        },
+        {
+          "value": "B",
+          "label": "B. disagrees A"
+        },
+        {
+          "value": "C",
+          "label": "C. neither agrees nor disagrees"
+        }
+      ]
     },
     {
       "number": 44,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 44",
-      "placeholder": "Enter all answer parts for Question 44"
+      "prompt": "Why do some readers receive a 'a tongue-lashing' (lines 12-13) instead of 'a kind word' (line 12)?"
     },
     {
       "number": 45,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 45",
-      "placeholder": "Enter all answer parts for Question 45"
+      "type": "parts",
+      "prompt": "According to paragraphs 4-5, are the following statements True (T), False (F) or Not Given (NG)?\n(5 marks)\nStatements T F NG\n(1) Norton planned to become an agony uncle.",
+      "parts": [
+        {
+          "key": "ii",
+          "label": "(ii) Norton is reluctant to offer people advice.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) The advice Norton provides may be unpopular with some people.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Norton often gives medical advice.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "v",
+          "label": "(v) Some of Norton's readers might be surprised by his advice.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
     },
     {
       "number": 46,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 46",
-      "placeholder": "Enter all answer parts for Question 46"
+      "prompt": "Use ONE word to complete the following statement based on the information in paragraph 6.\nIt's the noticed by readers between the serious and silly that makes the serious\nproblems stand out."
     },
     {
       "number": 47,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 47",
-      "placeholder": "Enter all answer parts for Question 47"
+      "prompt": "Who or what does 'they' (line 22) refer to?"
     },
     {
       "number": 48,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 48",
-      "placeholder": "Enter all answer parts for Question 48"
+      "prompt": "Based on the information in paragraph 8, suggest ONE of the factors that might lead to'potential pitfalls'\n(line 24)."
     },
     {
       "number": 49,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 49",
-      "placeholder": "Enter all answer parts for Question 49"
+      "prompt": "What conflicting ideas did Norton have to consider when responding to the problem in paragraph 8?"
     },
     {
       "number": 50,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 50",
-      "placeholder": "Enter all answer parts for Question 50"
+      "prompt": "Why does Norton consider such a response to the issues described in paragraphs 9-10 to be 'a bit brutal'\n(line 30)?"
     },
     {
       "number": 51,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 51",
-      "placeholder": "Enter all answer parts for Question 51"
+      "prompt": "S1. Below are statements summarising the main ideas of paragraphs 12-15. Match the most appropriate idea (A-\nE) with each of the paragraphs. Write the letter of the main idea next to the paragraph number given. Use\neach letter ONCE only. One of the ideas is not used. (4 marks)\nMain Idea Paragraph Main Idea\nA. Positivity is the key.\n12 (i)\nB. Being a better person.\nC. Misunderstanding someone's motives. 13 (ii)\nD. Helping yourself is the best approach. 14 (iii)\nE. People believe problems are worse than they really are. 15 (iv)"
     },
     {
       "number": 52,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 52",
-      "placeholder": "Enter all answer parts for Question 52"
+      "type": "choice",
+      "prompt": "What does Norton imply when he says 'God knows everybody else does' (line 41)?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Do not take yourself so seriously."
+        },
+        {
+          "value": "B",
+          "label": "B. Make jokes with your friends and family."
+        },
+        {
+          "value": "C",
+          "label": "C. Try not to laugh at the misfortune of others."
+        },
+        {
+          "value": "D",
+          "label": "D. Consider religion as a help to your problems."
+        }
+      ]
     },
     {
       "number": 53,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 53",
-      "placeholder": "Enter all answer parts for Question 53"
+      "type": "choice",
+      "prompt": "In the letter from David in Illinois (paragraphs 16-17), David is...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. keen to leave Sweden."
+        },
+        {
+          "value": "B",
+          "label": "B. unhappy with his friends."
+        },
+        {
+          "value": "C",
+          "label": "C. reluctant to move away from family."
+        },
+        {
+          "value": "D",
+          "label": "D. shy about speaking a foreign language."
+        }
+      ]
     },
     {
       "number": 54,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 54",
-      "placeholder": "Enter all answer parts for Question 54"
+      "type": "parts",
+      "prompt": "In paragraphs 18-19 what metaphors does Norton use to describe... (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) a very easy task:",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) a very challenging task:",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 55,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 55",
-      "placeholder": "Enter all answer parts for Question 55"
+      "prompt": "What does 'it' (line 57) refer to?"
     },
     {
       "number": 56,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 56",
-      "placeholder": "Enter all answer parts for Question 56"
+      "prompt": "Norton says leaving Sweden as part of 'a decision you are in charge of may be better than 'simply running\naway' (lines 63-64). What fear of David's is Norton responding to here?"
     },
     {
       "number": 57,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 57",
-      "placeholder": "Enter all answer parts for Question 57"
+      "type": "parts",
+      "prompt": "Complete the following diagram which summarises Norton's advice to David (paragraphs 18-22). Use a maximum of FOUR words in each gap. One has been done for you as an example. (4 marks)",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "David's situation",
+                "header": true
+              },
+              {
+                "text": "Norton's advice",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Right now..."
+              },
+              {
+                "text": "",
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "Go on your trip but when you feel lonely..."
+              },
+              {
+                "text": "",
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "While you are there..."
+              },
+              {
+                "text": "explore all you can."
+              }
+            ],
+            [
+              {
+                "text": "If you find things start to get tough..."
+              },
+              {
+                "text": "",
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "In the worst case scenario..."
+              },
+              {
+                "text": "",
+                "part": "iv"
+              }
+            ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "key": "i",
+          "label": "i",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "ii",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "iii",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "iv",
+          "type": "text",
+          "inTable": true
+        }
+      ]
     },
     {
       "number": 58,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 58",
-      "placeholder": "Enter all answer parts for Question 58"
+      "prompt": "What does Norton imply when he says 'A longer fringe may also help' (line 76)?"
     },
     {
       "number": 59,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 59",
-      "placeholder": "Enter all answer parts for Question 59"
+      "type": "choice",
+      "prompt": "What is the tone of Norton's response to P Smith?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. bitter"
+        },
+        {
+          "value": "B",
+          "label": "B. amusing"
+        },
+        {
+          "value": "C",
+          "label": "C. reflective"
+        },
+        {
+          "value": "D",
+          "label": "D. supportive"
+        }
+      ]
     },
     {
       "number": 60,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 60",
-      "placeholder": "Enter all answer parts for Question 60"
+      "type": "parts",
+      "prompt": "Throughout the text a number of problems are described. Norton classifies his readers' problems into\ncategories. Complete the table below using the examples of problems listed. Write the letter of the problem\nin the correct gap. Some categories have more than one example. One has been done for you as an exmmple.,\nD. Travelling to Sweden Problematic Problems (v)",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Norton's Category",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              },
+              {
+                "text": "Example(s)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "'Problems'",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "(i) and (ii)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r2c2g1",
+                  "t1r2c2g2"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Problems",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "e.g._A and (iii)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r3c2g1"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Very Common Problems",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "(iv)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r4c2g1"
+                ]
+              }
+            ]
+          ],
+          "columns": 2
+        }
+      ],
+      "parts": [
+        {
+          "key": "t1r2c2g1",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r2c2g2",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r3c2g1",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r4c2g1",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        }
+      ]
     },
     {
       "number": 61,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 61",
-      "placeholder": "Enter all answer parts for Question 61"
+      "type": "parts",
+      "prompt": "Based on the information in paragraphs 16-24, complete the two conversations between the letter writers\nand Graham Norton by writing a letter (A-H) in the appropriate gap. Use each letter ONCE only. ONE\noption is not used. (7 marks)\nConversation 1\n> David:\nHonestly, I don't know what I'll be (i) - but this feels right. Having\nsaid that, if this falls apart I'll find it hard to shake off feeling lonely. So, I'm just going to\nforge ahead before I have time to dwell on any regrets like",
+      "parts": [
+        {
+          "key": "ii",
+          "label": "(ii)\n›Norton:\nJust remember why you're (iti) it will be an adventure! And you know\nwhat, I envy you, because if it doesn't work out you'll be (iv) in your future.\nConversation 2\n> P Smith:\nA great haircut at last! You've no idea how I've been (v) And\nwhat happens? The hairdresser keeps picking his nose.\n›Norton:\nWhy are you (vi)? You've got what you wanted. You should really be",
+          "type": "text"
+        },
+        {
+          "key": "vii",
+          "label": "(vii)",
+          "type": "text"
+        }
+      ],
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "A. longing for this",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "B. ignoring him",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "C. leaving loved ones",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ],
+            [
+              {
+                "text": "D. doing long term",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "E. moaning about this",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "F. taking the job",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ],
+            [
+              {
+                "text": "G. thinking of problems",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "H. getting other opportunities",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ]
+          ],
+          "columns": 3
+        }
+      ]
     },
     {
       "number": 62,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 62",
-      "placeholder": "Enter all answer parts for Question 62"
-    }
-  ],
-  "structuredPassagePages": [
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Reading passage page 1",
-      "lines": [
-        {
-          "x": 158,
-          "y": 149,
-          "width": 671,
-          "height": 22,
-          "text": "PART B2.",
-          "bold": true
-        },
-        {
-          "x": 156,
-          "y": 208,
-          "width": 841,
-          "height": 27,
-          "text": "Read Text 4 and answer questions 42-62 in the Question-Answer Book for Part B2.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 271,
-          "width": 87,
-          "height": 19,
-          "text": "Text 4",
-          "bold": true
-        },
-        {
-          "x": 157,
-          "y": 314,
-          "width": 908,
-          "height": 37,
-          "text": "Graham Norton: “The letters | can never forget”",
-          "bold": true
-        },
-        {
-          "x": 157,
-          "y": 414,
-          "width": 1168,
-          "height": 27,
-          "text": "[1] As the Telegraph newspaper’s longstanding agony uncle, he has heard it all over the last decade.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 443,
-          "width": 1170,
-          "height": 24,
-          "text": "Comedian and chat show host Graham Norton reveals why his personal brand of tough love often proves",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 476,
-          "width": 93,
-          "height": 17,
-          "text": "effective.",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 529,
-          "width": 1169,
-          "height": 27,
-          "text": "[2] I’m not sure who it was that once claimed there are no problems, only solutions. All I can say is they’ve never",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 558,
-          "width": 1169,
-          "height": 28,
-          "text": "opened my Pandora’s postbag of woes. Broken hearts, family troubles, work traumas, embarrassing body functions,",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 587,
-          "width": 1050,
-          "height": 26,
-          "text": "I’ve seen them all, in a manner of speaking, and sometimes, let me tell you, it’s a pretty disturbing sight.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 641,
-          "width": 1170,
-          "height": 35,
-          "text": "[3] And as a result, I do feel as though I have my fingers on the throbbing pulse of the Telegraph readership and a",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 678,
-          "width": 411,
-          "height": 24,
-          "text": "soothing ice pack at its pounding temple.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 733,
-          "width": 1170,
-          "height": 27,
-          "text": "[4] Am I properly qualified for this vocation? Well not really, my calling has been thrust upon me. But I am ready",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 759,
-          "width": 784,
-          "height": 34,
-          "text": "to serve, smelling salts in one hand, a sticking plaster for the soul in the other.",
-          "bold": false
-        },
-        {
-          "x": 85,
-          "y": 765,
-          "width": 24,
-          "height": 19,
-          "text": "10",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 820,
-          "width": 1169,
-          "height": 27,
-          "text": "[5] Let me make no bones about it: my tough love diagnosis isn’t for everyone and I’m aware that there are those",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 849,
-          "width": 1171,
-          "height": 27,
-          "text": "who have written to me in the expectation of a kind word and a couple of aspirin and have instead received a",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 877,
-          "width": 374,
-          "height": 32,
-          "text": "tongue-lashing and a slap in the face.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 937,
-          "width": 1169,
-          "height": 26,
-          "text": "[6] But I’m not sure the doctors’ Hippocratic Oath was tailored to some bloke huffing because he was going to have",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 961,
-          "width": 1170,
-          "height": 35,
-          "text": "to share the stage during his best-man speech. And in a way, it’s this sort of self-obsessed whingeing that makes the",
-          "bold": false
-        },
-        {
-          "x": 85,
-          "y": 968,
-          "width": 23,
-          "height": 19,
-          "text": "15",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 996,
-          "width": 524,
-          "height": 25,
-          "text": "genuine, urgent cries for help stand out all the more.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1052,
-          "width": 1174,
-          "height": 27,
-          "text": "[7] Because there are ‘problems’ and there are problems. And then, I’ve discovered, there are problematic problems.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1081,
-          "width": 1169,
-          "height": 26,
-          "text": "Sometimes, where it’s clear that my correspondent is so low or so grief-stricken by bereavement they could be",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1110,
-          "width": 1170,
-          "height": 27,
-          "text": "suffering from clinical depression, I see my role simply not to make it any worse and gently refer them on to an",
-          "bold": false
-        },
-        {
-          "x": 83,
-          "y": 1142,
-          "width": 26,
-          "height": 19,
-          "text": "20",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1142,
-          "width": 423,
-          "height": 23,
-          "text": "expert who can give them what they need.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1194,
-          "width": 1169,
-          "height": 34,
-          "text": "[8] Then there are letters like the one when a librarian from Manchester says, “I am going to marry a young Italian",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1226,
-          "width": 1171,
-          "height": 27,
-          "text": "farmer half my age and my friends all think I’m crazy,” and I think to myself well, they are right, probably — but",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 1255,
-          "width": 1176,
-          "height": 26,
-          "text": "not definitely, because, who knows, hers could be the one young Italian farmer scenario that ends happily ever after.",
-          "bold": false
-        },
-        {
-          "x": 150,
-          "y": 1285,
-          "width": 853,
-          "height": 25,
-          "text": "‘So all I can do is point her in the direction of the potential pitfalls and wish her luck.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1342,
-          "width": 1170,
-          "height": 27,
-          "text": "[9] Some issues come up again and again and it’s difficult to rummage around in my medical bag and come up with",
-          "bold": false
-        },
-        {
-          "x": 83,
-          "y": 1345,
-          "width": 25,
-          "height": 19,
-          "text": "25",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1371,
-          "width": 1171,
-          "height": 26,
-          "text": "a prescription that is constructive and original. When someone is lonely or distressed about being single, the",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1400,
-          "width": 991,
-          "height": 24,
-          "text": "obvious, banal advice is to tell them to get out there, find an interest and meet like-minded people.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1458,
-          "width": 1169,
-          "height": 26,
-          "text": "[10] But then part of me thinks there are some individuals who just don’t make friends, and they are lonely. And",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1487,
-          "width": 1145,
-          "height": 25,
-          "text": "some individuals never find a partner and wish they could, and beyond that there’s not much more to say about it.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1546,
-          "width": 1170,
-          "height": 25,
-          "text": "[11] That would be a bit brutal though, so I sort of skirt around it and hope that the letter to me will be a starting",
-          "bold": false
-        },
-        {
-          "x": 83,
-          "y": 1548,
-          "width": 26,
-          "height": 19,
-          "text": "30",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1576,
-          "width": 517,
-          "height": 25,
-          "text": "point, a springboard to some sort of positive action.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1629,
-          "width": 1170,
-          "height": 33,
-          "text": "[12] On a physician-heal-thyself note, I have found that thinking about other people’s troubled lives has stopped me",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1663,
-          "width": 799,
-          "height": 24,
-          "text": "being so reactionary and self-righteous, which, believe you me, is a good thing.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1720,
-          "width": 1170,
-          "height": 26,
-          "text": "[13] Telegraph readers, I know you are perceptive enough to take my wisdom in the spirit in which it is intended",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1749,
-          "width": 1171,
-          "height": 26,
-          "text": "(pass the whisky). I really want to help and I think I do, but, in truth (and I think you all know this) as often as not",
-          "bold": false
-        },
-        {
-          "x": 83,
-          "y": 1751,
-          "width": 26,
-          "height": 19,
-          "text": "35",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 1778,
-          "width": 1075,
-          "height": 25,
-          "text": "you need to search deep inside yourself for your own solution (and no, before you ask, bile doesn’t count).",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1836,
-          "width": 1170,
-          "height": 25,
-          "text": "[14] I understand some of you feel battered and bruised, like you’ve been in the wars. But you haven’t. Unless you",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1866,
-          "width": 796,
-          "height": 23,
-          "text": "actually have, in which case you should really call the Healthcare Advice Line.",
-          "bold": false
-        },
-        {
-          "x": 161,
-          "y": 1987,
-          "width": 638,
-          "height": 17,
-          "text": "2020-DSE-ENG LANG 1-B2-RP-2 2",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Reading passage page 2",
-      "lines": [
-        {
-          "x": 165,
-          "y": 144,
-          "width": 1169,
-          "height": 26,
-          "text": "[15] As for the rest of you, go on, out of the clinic with you. You might be wounded, but you’re walking, so pack",
-          "bold": false
-        },
-        {
-          "x": 92,
-          "y": 171,
-          "width": 26,
-          "height": 19,
-          "text": "40",
-          "bold": false
-        },
-        {
-          "x": 164,
-          "y": 173,
-          "width": 1171,
-          "height": 25,
-          "text": "up your troubles in your old kit bag and smile, smile, smile. Chuckle at adversity, wink at disaster, laugh at your",
-          "bold": false
-        },
-        {
-          "x": 163,
-          "y": 202,
-          "width": 437,
-          "height": 24,
-          "text": "problems. God knows everybody else does.",
-          "bold": true
-        },
-        {
-          "x": 163,
-          "y": 260,
-          "width": 528,
-          "height": 26,
-          "text": "Serious to silly, two letters from my postbag",
-          "bold": true
-        },
-        {
-          "x": 163,
-          "y": 323,
-          "width": 139,
-          "height": 23,
-          "text": "Dear Graham,",
-          "bold": true
-        },
-        {
-          "x": 163,
-          "y": 382,
-          "width": 1169,
-          "height": 24,
-          "text": "[16] I’m an American getting ready to take up a job offer in Sweden. I’m 19 and have no idea what | want to do",
-          "bold": false
-        },
-        {
-          "x": 90,
-          "y": 409,
-          "width": 25,
-          "height": 19,
-          "text": "45",
-          "bold": false
-        },
-        {
-          "x": 162,
-          "y": 410,
-          "width": 1170,
-          "height": 25,
-          "text": "with my life long-term, but I still have an idea in my head that if things don’t work out with this move I’ll have",
-          "bold": false
-        },
-        {
-          "x": 162,
-          "y": 438,
-          "width": 1125,
-          "height": 26,
-          "text": "failed in some way. I’m going all in for it, however, because it’s a chance that doesn’t come around a whole lot.",
-          "bold": false
-        },
-        {
-          "x": 162,
-          "y": 497,
-          "width": 1169,
-          "height": 26,
-          "text": "[17] Still, I’ve never been away from home for this long before and I’m terrified. I know this is the right move for",
-          "bold": false
-        },
-        {
-          "x": 161,
-          "y": 523,
-          "width": 1168,
-          "height": 33,
-          "text": "me. But J love my family and I don’t want to leave them behind. I have friends in Europe but it’s a pretty big place.",
-          "bold": false
-        },
-        {
-          "x": 162,
-          "y": 554,
-          "width": 307,
-          "height": 26,
-          "text": "What advice can you give me?",
-          "bold": true
-        },
-        {
-          "x": 89,
-          "y": 613,
-          "width": 25,
-          "height": 18,
-          "text": "50",
-          "bold": false
-        },
-        {
-          "x": 160,
-          "y": 615,
-          "width": 201,
-          "height": 21,
-          "text": "David, Hlinois, USA",
-          "bold": true
-        },
-        {
-          "x": 160,
-          "y": 677,
-          "width": 120,
-          "height": 21,
-          "text": "Dear David,",
-          "bold": true
-        },
-        {
-          "x": 161,
-          "y": 730,
-          "width": 1167,
-          "height": 34,
-          "text": "[18] You have a ticket to Sweden in your hand. You aren’t embarking on the first manned mission to Mars. So take",
-          "bold": false
-        },
-        {
-          "x": 159,
-          "y": 763,
-          "width": 1169,
-          "height": 25,
-          "text": "some deep breaths and calm down. Obviously things will be very different when you get to Sweden; but that is why",
-          "bold": false
-        },
-        {
-          "x": 158,
-          "y": 792,
-          "width": 142,
-          "height": 23,
-          "text": "you are going,",
-          "bold": true
-        },
-        {
-          "x": 87,
-          "y": 849,
-          "width": 24,
-          "height": 19,
-          "text": "55",
-          "bold": false
-        },
-        {
-          "x": 160,
-          "y": 850,
-          "width": 1167,
-          "height": 26,
-          "text": "[19] I’m not saying it will be all plain sailing. There will be lonely nights when you miss your friends and family,",
-          "bold": false
-        },
-        {
-          "x": 158,
-          "y": 878,
-          "width": 1170,
-          "height": 26,
-          "text": "but this is 2020 so you have the luxury of calling or Skyping them. Before long you will be having so much fun you",
-          "bold": false
-        },
-        {
-          "x": 158,
-          "y": 907,
-          "width": 602,
-          "height": 24,
-          "text": "wish the people back home could be with you to share it all.",
-          "bold": false
-        },
-        {
-          "x": 159,
-          "y": 966,
-          "width": 1168,
-          "height": 25,
-          "text": "[20] The most important thing to remember is that you are 19 and no decisions you make now are forever. Come to",
-          "bold": false
-        },
-        {
-          "x": 158,
-          "y": 995,
-          "width": 1168,
-          "height": 25,
-          "text": "Europe and explore all it has to offer, knowing that you could still return to the States and build a whole life and",
-          "bold": false
-        },
-        {
-          "x": 85,
-          "y": 1021,
-          "width": 25,
-          "height": 20,
-          "text": "60",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 1023,
-          "width": 1170,
-          "height": 26,
-          "text": "career there. You are a very lucky young man, You have opportunities and time, two things that most people long",
-          "bold": false
-        },
-        {
-          "x": 158,
-          "y": 1052,
-          "width": 32,
-          "height": 18,
-          "text": "for.",
-          "bold": false
-        },
-        {
-          "x": 158,
-          "y": 1111,
-          "width": 1168,
-          "height": 26,
-          "text": "[21] I would also strongly suggest that when things are proving challenging in your new home, you don’t give up at",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 1140,
-          "width": 1170,
-          "height": 26,
-          "text": "the first hurdle, Persevere and make sure that if or when you leave it feels like a decision you are in charge of rather",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1169,
-          "width": 266,
-          "height": 23,
-          "text": "than simply running away.",
-          "bold": true
-        },
-        {
-          "x": 84,
-          "y": 1226,
-          "width": 25,
-          "height": 19,
-          "text": "65",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 1227,
-          "width": 1169,
-          "height": 26,
-          "text": "[22] This is an exciting time for you, full of anticipation, but also trepidation. Feeling fear doesn’t mean that you",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1256,
-          "width": 1169,
-          "height": 25,
-          "text": "aren’t brave. Doing something that frightens you is the very definition of courage. Go and embrace the differences.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1284,
-          "width": 801,
-          "height": 26,
-          "text": "There may be ketchup on the table — but don’t forget to try the lingonberry jam!",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1347,
-          "width": 140,
-          "height": 22,
-          "text": "Dear Graham,",
-          "bold": true
-        },
-        {
-          "x": 156,
-          "y": 1405,
-          "width": 1169,
-          "height": 27,
-          "text": "[23] The past 40-odd years have for me been an often fruitless search for a barber who can do a good job on my",
-          "bold": false
-        },
-        {
-          "x": 83,
-          "y": 1432,
-          "width": 25,
-          "height": 19,
-          "text": "70",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 1433,
-          "width": 1171,
-          "height": 27,
-          "text": "challenging hair. Now I have found one with whom I am perfectly satisfied, but while he cuts my hair, he",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 1462,
-          "width": 589,
-          "height": 25,
-          "text": "continually picks his nose. 1 would appreciate your advice.",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 1521,
-          "width": 238,
-          "height": 21,
-          "text": "P Smith, Bracknell, UK",
-          "bold": true
-        },
-        {
-          "x": 154,
-          "y": 1583,
-          "width": 73,
-          "height": 21,
-          "text": "Dear P,",
-          "bold": true
-        },
-        {
-          "x": 155,
-          "y": 1641,
-          "width": 1169,
-          "height": 28,
-          "text": "[24] What comes out of the top of your head? Steel wool? But you aren’t driving a car or operating heavy",
-          "bold": false
-        },
-        {
-          "x": 82,
-          "y": 1669,
-          "width": 25,
-          "height": 20,
-          "text": "75",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 1671,
-          "width": 1171,
-          "height": 26,
-          "text": "machinery, so next time, why not do this thing I’ve discovered when confronted with something I don’t want to see",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 1699,
-          "width": 484,
-          "height": 26,
-          "text": "— shut your eyes! A longer fringe may also help.",
-          "bold": true
-        },
-        {
-          "x": 564,
-          "y": 1802,
-          "width": 346,
-          "height": 21,
-          "text": "END OF READING PASSAGE",
-          "bold": true
-        },
-        {
-          "x": 153,
-          "y": 1859,
-          "width": 1133,
-          "height": 25,
-          "text": "Sources of materials used in this paper will be acknowledged in the HKDSE Question Papers booklet published by the Hong",
-          "bold": false
-        },
-        {
-          "x": 152,
-          "y": 1885,
-          "width": 565,
-          "height": 22,
-          "text": "Kong Examinations and Assessment Authority at a later stage.",
-          "bold": false
-        },
-        {
-          "x": 157,
-          "y": 1983,
-          "width": 637,
-          "height": 20,
-          "text": "2020-DSE-ENG LANG 1-B2-RP-3 3",
-          "bold": true
-        }
-      ]
-    }
-  ],
-  "structuredQuestionPages": [
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 1",
-      "lines": [
-        {
-          "x": 925,
-          "y": 104,
-          "width": 477,
-          "height": 24,
-          "text": "Please stick the barcode label here.",
-          "bold": false
-        },
-        {
-          "x": 158,
-          "y": 108,
-          "width": 389,
-          "height": 54,
-          "text": "Candidate Number | | |",
-          "bold": true
-        },
-        {
-          "x": 159,
-          "y": 182,
-          "width": 177,
-          "height": 24,
-          "text": "HKDSE 2020",
-          "bold": true
-        },
-        {
-          "x": 158,
-          "y": 217,
-          "width": 313,
-          "height": 23,
-          "text": "ENGLISH LANGUAGE",
-          "bold": true
-        },
-        {
-          "x": 158,
-          "y": 251,
-          "width": 264,
-          "height": 24,
-          "text": "PAPER 1 PART B2",
-          "bold": true
-        },
-        {
-          "x": 157,
-          "y": 286,
-          "width": 401,
-          "height": 24,
-          "text": "QUESTION-ANSWER BOOK",
-          "bold": true
-        },
-        {
-          "x": 157,
-          "y": 354,
-          "width": 915,
-          "height": 25,
-          "text": "Write your Candidate Number and stick a barcode label in the space provided on this page.",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 398,
-          "width": 618,
-          "height": 25,
-          "text": "Read Text 4 and answer questions 42-62. (42 marks)",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 446,
-          "width": 88,
-          "height": 18,
-          "text": "Text 4",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 481,
-          "width": 749,
-          "height": 25,
-          "text": "42. What is suggested when the text states ‘he has heard it all’ (line 1)?",
-          "bold": false
-        },
-        {
-          "x": 226,
-          "y": 511,
-          "width": 93,
-          "height": 18,
-          "text": "Norton...",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 542,
-          "width": 376,
-          "height": 33,
-          "text": "A. _ is tired of being an agony uncle.",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 590,
-          "width": 412,
-          "height": 23,
-          "text": "B. is rarely surprised by any problems.",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 631,
-          "width": 1065,
-          "height": 24,
-          "text": "C. wants to read more exciting problems. A B c D",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 663,
-          "width": 1072,
-          "height": 40,
-          "text": "D. enjoys chatting about people’s problems. Oo O O O",
-          "bold": true
-        },
-        {
-          "x": 154,
-          "y": 739,
-          "width": 947,
-          "height": 24,
-          "text": "43. Norton with the statement ‘there are no problems, only solutions’ (line 4).",
-          "bold": false
-        },
-        {
-          "x": 239,
-          "y": 797,
-          "width": 116,
-          "height": 23,
-          "text": "A. agrees",
-          "bold": true
-        },
-        {
-          "x": 239,
-          "y": 839,
-          "width": 1065,
-          "height": 24,
-          "text": "B. disagrees A B Cc",
-          "bold": false
-        },
-        {
-          "x": 239,
-          "y": 875,
-          "width": 1073,
-          "height": 32,
-          "text": "C. neither agrees nor disagrees O O O",
-          "bold": true
-        },
-        {
-          "x": 153,
-          "y": 945,
-          "width": 1065,
-          "height": 33,
-          "text": "44. Why do some readers receive a ‘a tongue-lashing’ (lines 12-13) instead of ‘a kind word’ (line 12)?",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 1108,
-          "width": 1063,
-          "height": 24,
-          "text": "45. According to paragraphs 4-5, are the following statements True (T), False (F) or Not Given (NG)?",
-          "bold": false
-        },
-        {
-          "x": 1223,
-          "y": 1136,
-          "width": 94,
-          "height": 23,
-          "text": "(5 marks)",
-          "bold": false
-        },
-        {
-          "x": 1124,
-          "y": 1173,
-          "width": 31,
-          "height": 267,
-          "text": "OO0008",
-          "bold": true
-        },
-        {
-          "x": 1200,
-          "y": 1173,
-          "width": 31,
-          "height": 267,
-          "text": "O00007",
-          "bold": true
-        },
-        {
-          "x": 1276,
-          "y": 1173,
-          "width": 34,
-          "height": 267,
-          "text": "O00008",
-          "bold": true
-        },
-        {
-          "x": 308,
-          "y": 1174,
-          "width": 117,
-          "height": 18,
-          "text": "Statements",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1219,
-          "width": 501,
-          "height": 24,
-          "text": "(i) planned to become an agony uncle.",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1269,
-          "width": 490,
-          "height": 24,
-          "text": "(ii) Norton is reluctant to offer people advice.",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1318,
-          "width": 728,
-          "height": 24,
-          "text": "(iii) The advice Norton provides may be unpopular with some people.",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1369,
-          "width": 421,
-          "height": 23,
-          "text": "(iv) Norton often gives medical advice.",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 1413,
-          "width": 667,
-          "height": 32,
-          "text": "(v) | Some of Norton’s readers might be surprised by his advice.",
-          "bold": false
-        },
-        {
-          "x": 153,
-          "y": 1481,
-          "width": 1010,
-          "height": 32,
-          "text": "46. | Use ONE word to complete the following statement based on the information in paragraph 6.",
-          "bold": false
-        },
-        {
-          "x": 224,
-          "y": 1541,
-          "width": 1081,
-          "height": 24,
-          "text": "It’s the noticed by readers between the serious and silly that makes the serious",
-          "bold": false
-        },
-        {
-          "x": 224,
-          "y": 1585,
-          "width": 195,
-          "height": 24,
-          "text": "problems stand out.",
-          "bold": true
-        },
-        {
-          "x": 153,
-          "y": 1643,
-          "width": 503,
-          "height": 23,
-          "text": "47, Who or what does ‘they’ (line 22) refer to?",
-          "bold": true
-        },
-        {
-          "x": 147,
-          "y": 1771,
-          "width": 517,
-          "height": 25,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 153,
-          "y": 1972,
-          "width": 288,
-          "height": 17,
-          "text": "2020-DSE-ENG LANG 1-B2-1",
-          "bold": true
-        },
-        {
-          "x": 1043,
-          "y": 1976,
-          "width": 318,
-          "height": 35,
-          "text": "AW Oe les 2",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2020/b2/questions-1-figure-1.webp",
-          "x": 880,
-          "y": 68,
-          "width": 568,
-          "height": 244,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2020/b2/questions-1-figure-3.webp",
-          "x": 968,
-          "y": 1820,
-          "width": 468,
-          "height": 200,
-          "alt": "Original figure 3"
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 2",
-      "lines": [
-        {
-          "x": 162,
-          "y": 190,
-          "width": 1163,
-          "height": 24,
-          "text": "48. Based on the information in paragraph 8, suggest ONE of the factors that might lead to‘potential pitfalls’",
-          "bold": false
-        },
-        {
-          "x": 233,
-          "y": 218,
-          "width": 90,
-          "height": 23,
-          "text": "(line 24).",
-          "bold": true
-        },
-        {
-          "x": 161,
-          "y": 330,
-          "width": 1081,
-          "height": 25,
-          "text": "49. What conflicting ideas did Norton have to consider when responding to the problem in paragraph 8?",
-          "bold": false
-        },
-        {
-          "x": 160,
-          "y": 492,
-          "width": 1162,
-          "height": 32,
-          "text": "50. | Why does Norton consider such a response to the issues described in paragraphs 9-10 to be ‘a bit brutal’",
-          "bold": false
-        },
-        {
-          "x": 231,
-          "y": 525,
-          "width": 95,
-          "height": 22,
-          "text": "(line 30)?",
-          "bold": true
-        },
-        {
-          "x": 159,
-          "y": 690,
-          "width": 1164,
-          "height": 25,
-          "text": "51. Below are statements summarising the main ideas of paragraphs 12-15. Match the most appropriate idea (A-",
-          "bold": false
-        },
-        {
-          "x": 229,
-          "y": 719,
-          "width": 1093,
-          "height": 25,
-          "text": "E) with each of the paragraphs. Write the letter of the main idea next to the paragraph number given. Use",
-          "bold": false
-        },
-        {
-          "x": 229,
-          "y": 748,
-          "width": 1087,
-          "height": 24,
-          "text": "each letter ONCE only. One of the ideas is not used. (4 marks)",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 793,
-          "width": 1054,
-          "height": 31,
-          "text": "Main Idea Paragraph Main Idea",
-          "bold": false
-        },
-        {
-          "x": 241,
-          "y": 845,
-          "width": 278,
-          "height": 23,
-          "text": "A. Positivity is the key.",
-          "bold": false
-        },
-        {
-          "x": 1037,
-          "y": 870,
-          "width": 136,
-          "height": 23,
-          "text": "12 (i)",
-          "bold": false
-        },
-        {
-          "x": 241,
-          "y": 890,
-          "width": 293,
-          "height": 32,
-          "text": "B. Being a better person.",
-          "bold": false
-        },
-        {
-          "x": 237,
-          "y": 930,
-          "width": 943,
-          "height": 40,
-          "text": "ie Misunderstanding someone’s motives. ii)",
-          "bold": true
-        },
-        {
-          "x": 240,
-          "y": 990,
-          "width": 946,
-          "height": 27,
-          "text": "D. Helping yourself is the best approach. 14 (iii)",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 1042,
-          "width": 944,
-          "height": 31,
-          "text": "E, People believe problems are worse than they really are. 15 (iv)",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1119,
-          "width": 914,
-          "height": 33,
-          "text": "52. | What does Norton imply when he says ‘God knows everybody else does’ (line 41)?",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 1167,
-          "width": 22,
-          "height": 18,
-          "text": "A.",
-          "bold": true
-        },
-        {
-          "x": 294,
-          "y": 1167,
-          "width": 336,
-          "height": 24,
-          "text": "Do not take yourself so seriously.",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 1210,
-          "width": 21,
-          "height": 18,
-          "text": "B.",
-          "bold": true
-        },
-        {
-          "x": 294,
-          "y": 1210,
-          "width": 415,
-          "height": 24,
-          "text": "Make jokes with your friends and family.",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 1253,
-          "width": 20,
-          "height": 18,
-          "text": "c.",
-          "bold": false
-        },
-        {
-          "x": 294,
-          "y": 1253,
-          "width": 438,
-          "height": 24,
-          "text": "Try not to laugh at the misfortune of others.",
-          "bold": false
-        },
-        {
-          "x": 1140,
-          "y": 1255,
-          "width": 31,
-          "height": 65,
-          "text": "Ow",
-          "bold": true
-        },
-        {
-          "x": 1211,
-          "y": 1255,
-          "width": 30,
-          "height": 66,
-          "text": "Oo",
-          "bold": true
-        },
-        {
-          "x": 1282,
-          "y": 1290,
-          "width": 30,
-          "height": 31,
-          "text": "oO",
-          "bold": false
-        },
-        {
-          "x": 239,
-          "y": 1297,
-          "width": 23,
-          "height": 18,
-          "text": "Dz.",
-          "bold": false
-        },
-        {
-          "x": 293,
-          "y": 1297,
-          "width": 453,
-          "height": 23,
-          "text": "Consider religion as a help to your problems.",
-          "bold": true
-        },
-        {
-          "x": 154,
-          "y": 1368,
-          "width": 731,
-          "height": 23,
-          "text": "53. the letter from David in Illinois (paragraphs 16-17), David is...",
-          "bold": true
-        },
-        {
-          "x": 238,
-          "y": 1411,
-          "width": 23,
-          "height": 17,
-          "text": "A.",
-          "bold": true
-        },
-        {
-          "x": 292,
-          "y": 1411,
-          "width": 223,
-          "height": 18,
-          "text": "keen to leave Sweden.",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1454,
-          "width": 22,
-          "height": 17,
-          "text": "B.",
-          "bold": true
-        },
-        {
-          "x": 292,
-          "y": 1454,
-          "width": 254,
-          "height": 23,
-          "text": "unhappy with his friends.",
-          "bold": false
-        },
-        {
-          "x": 1146,
-          "y": 1494,
-          "width": 158,
-          "height": 33,
-          "text": "B Cc D",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1496,
-          "width": 21,
-          "height": 18,
-          "text": "&.",
-          "bold": false
-        },
-        {
-          "x": 292,
-          "y": 1496,
-          "width": 367,
-          "height": 24,
-          "text": "reluctant to move away from family.",
-          "bold": false
-        },
-        {
-          "x": 1138,
-          "y": 1534,
-          "width": 173,
-          "height": 31,
-          "text": "OO 0",
-          "bold": true
-        },
-        {
-          "x": 292,
-          "y": 1535,
-          "width": 391,
-          "height": 33,
-          "text": "shy about speaking a foreign language.",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1540,
-          "width": 22,
-          "height": 18,
-          "text": "D.",
-          "bold": true
-        },
-        {
-          "x": 154,
-          "y": 1604,
-          "width": 747,
-          "height": 24,
-          "text": "54. paragraphs 18-19 what metaphors does Norton use to describe...",
-          "bold": false
-        },
-        {
-          "x": 1218,
-          "y": 1607,
-          "width": 93,
-          "height": 22,
-          "text": "(2 marks)",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 1657,
-          "width": 22,
-          "height": 23,
-          "text": "(i)",
-          "bold": false
-        },
-        {
-          "x": 309,
-          "y": 1658,
-          "width": 165,
-          "height": 23,
-          "text": "a very easy task:",
-          "bold": true
-        },
-        {
-          "x": 237,
-          "y": 1712,
-          "width": 30,
-          "height": 23,
-          "text": "(ii)",
-          "bold": false
-        },
-        {
-          "x": 309,
-          "y": 1712,
-          "width": 238,
-          "height": 24,
-          "text": "a very challenging task:",
-          "bold": true
-        },
-        {
-          "x": 153,
-          "y": 1771,
-          "width": 397,
-          "height": 23,
-          "text": "55. What does ‘it’ (line 57) refer to?",
-          "bold": true
-        },
-        {
-          "x": 148,
-          "y": 1806,
-          "width": 1199,
-          "height": 70,
-          "text": "—",
-          "bold": true
-        },
-        {
-          "x": 146,
-          "y": 1882,
-          "width": 517,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 152,
-          "y": 1971,
-          "width": 598,
-          "height": 29,
-          "text": "2020-DSE-ENG LANG 1-B2-2 9",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2020/b2/questions-2-figure-1.webp",
-          "x": 208,
-          "y": 772,
-          "width": 720,
-          "height": 336,
-          "alt": "Original figure 1"
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 3",
-      "lines": [
-        {
-          "x": 161,
-          "y": 193,
-          "width": 1164,
-          "height": 25,
-          "text": "56. Norton says leaving Sweden as part of ‘a decision you are in charge of’ may be’better than ‘simply running",
-          "bold": false
-        },
-        {
-          "x": 231,
-          "y": 222,
-          "width": 727,
-          "height": 24,
-          "text": "away’ (lines 63-64). What fear of David’s is Norton responding to here?",
-          "bold": false
-        },
-        {
-          "x": 160,
-          "y": 387,
-          "width": 1163,
-          "height": 25,
-          "text": "57. Complete the following diagram which summarises Norton’s advice to David (paragraphs 18-22). Use a",
-          "bold": false
-        },
-        {
-          "x": 230,
-          "y": 416,
-          "width": 827,
-          "height": 24,
-          "text": "maximum of FOUR words in each gap. One has been done for you as an example.",
-          "bold": false
-        },
-        {
-          "x": 1223,
-          "y": 416,
-          "width": 94,
-          "height": 23,
-          "text": "(4 marks)",
-          "bold": false
-        },
-        {
-          "x": 831,
-          "y": 451,
-          "width": 171,
-          "height": 18,
-          "text": "Norton’s advice",
-          "bold": false
-        },
-        {
-          "x": 244,
-          "y": 453,
-          "width": 184,
-          "height": 17,
-          "text": "David’s Situation",
-          "bold": false
-        },
-        {
-          "x": 243,
-          "y": 507,
-          "width": 611,
-          "height": 76,
-          "text": "Right now... => (i)",
-          "bold": true
-        },
-        {
-          "x": 243,
-          "y": 637,
-          "width": 617,
-          "height": 75,
-          "text": "Go on your trip but when you feel lonely... => (ii)",
-          "bold": true
-        },
-        {
-          "x": 242,
-          "y": 744,
-          "width": 914,
-          "height": 75,
-          "text": "While you are there... E> explore all you can.",
-          "bold": true
-        },
-        {
-          "x": 242,
-          "y": 870,
-          "width": 624,
-          "height": 75,
-          "text": "If you find things start to get tough... => (iii)",
-          "bold": true
-        },
-        {
-          "x": 241,
-          "y": 998,
-          "width": 623,
-          "height": 75,
-          "text": "In the worst case scenario... => (iv)",
-          "bold": true
-        },
-        {
-          "x": 156,
-          "y": 1098,
-          "width": 889,
-          "height": 33,
-          "text": "58. | What does Norton imply when he says ‘A longer fringe may also help’ (line 76)?",
-          "bold": false
-        },
-        {
-          "x": 156,
-          "y": 1218,
-          "width": 575,
-          "height": 24,
-          "text": "59. What is the tone of Norton’s response to P Smith?",
-          "bold": true
-        },
-        {
-          "x": 239,
-          "y": 1261,
-          "width": 107,
-          "height": 19,
-          "text": "A. bitter",
-          "bold": false
-        },
-        {
-          "x": 239,
-          "y": 1305,
-          "width": 139,
-          "height": 22,
-          "text": "B. amusing",
-          "bold": false
-        },
-        {
-          "x": 1074,
-          "y": 1345,
-          "width": 231,
-          "height": 31,
-          "text": "A B Cc D",
-          "bold": false
-        },
-        {
-          "x": 239,
-          "y": 1347,
-          "width": 148,
-          "height": 19,
-          "text": "C. reflective",
-          "bold": false
-        },
-        {
-          "x": 1067,
-          "y": 1379,
-          "width": 246,
-          "height": 50,
-          "text": "O00 0",
-          "bold": true
-        },
-        {
-          "x": 239,
-          "y": 1390,
-          "width": 158,
-          "height": 24,
-          "text": "D. supportive",
-          "bold": true
-        },
-        {
-          "x": 154,
-          "y": 1449,
-          "width": 1165,
-          "height": 24,
-          "text": "60. Throughout the text a number of problems are described. Norton classifies his readers’ problems into",
-          "bold": false
-        },
-        {
-          "x": 225,
-          "y": 1477,
-          "width": 1094,
-          "height": 25,
-          "text": "categories. Complete the table below using the examples of problems listed. Write the letter of the problem",
-          "bold": false
-        },
-        {
-          "x": 226,
-          "y": 1506,
-          "width": 1086,
-          "height": 25,
-          "text": "in the correct gap. Some categories have more than one example. One has been done for you as an example.",
-          "bold": false
-        },
-        {
-          "x": 1224,
-          "y": 1536,
-          "width": 93,
-          "height": 22,
-          "text": "(5 marks)",
-          "bold": true
-        },
-        {
-          "x": 260,
-          "y": 1592,
-          "width": 978,
-          "height": 24,
-          "text": "Problem mentioned in the text Norton’s Category Example(s)",
-          "bold": false
-        },
-        {
-          "x": 216,
-          "y": 1651,
-          "width": 994,
-          "height": 31,
-          "text": "A-talianfarmer E. Barber ‘Problems’ (i) and (ii)",
-          "bold": true
-        },
-        {
-          "x": 221,
-          "y": 1715,
-          "width": 977,
-          "height": 23,
-          "text": "B. Bereavement F. Loneliness Problems and(iii)",
-          "bold": true
-        },
-        {
-          "x": 221,
-          "y": 1774,
-          "width": 839,
-          "height": 25,
-          "text": "C. Best-man speech Very Common Problems (iv)",
-          "bold": true
-        },
-        {
-          "x": 220,
-          "y": 1834,
-          "width": 917,
-          "height": 25,
-          "text": "D. Travelling to Sweden Problematic Problems (vy)",
-          "bold": true
-        },
-        {
-          "x": 148,
-          "y": 1883,
-          "width": 516,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 153,
-          "y": 1972,
-          "width": 596,
-          "height": 30,
-          "text": "2020-DSE-ENG LANG 1-B2-3 3",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2020/b2/questions-3-figure-1.webp",
-          "x": 796,
-          "y": 460,
-          "width": 524,
-          "height": 632,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2020/b2/questions-3-figure-2.webp",
-          "x": 208,
-          "y": 464,
-          "width": 520,
-          "height": 628,
-          "alt": "Original figure 2"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2020/b2/questions-3-figure-3.webp",
-          "x": 1084,
-          "y": 1936,
-          "width": 284,
-          "height": 100,
-          "alt": "Original figure 3"
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 4",
-      "lines": [
-        {
-          "x": 149,
-          "y": 212,
-          "width": 1163,
-          "height": 27,
-          "text": "61. Based on the information in paragraphs 16-24, complete the two conversations between the letter writers",
-          "bold": false
-        },
-        {
-          "x": 220,
-          "y": 241,
-          "width": 1093,
-          "height": 27,
-          "text": "and Graham Norton by writing a letter (A-H) in the appropriate gap. Use each letter ONCE only. ONE",
-          "bold": false
-        },
-        {
-          "x": 219,
-          "y": 269,
-          "width": 1088,
-          "height": 27,
-          "text": "option is not used. (7 marks)",
-          "bold": false
-        },
-        {
-          "x": 219,
-          "y": 327,
-          "width": 977,
-          "height": 33,
-          "text": "A. — longing for this B. _ ignoring him C. leaving loved ones",
-          "bold": false
-        },
-        {
-          "x": 219,
-          "y": 374,
-          "width": 926,
-          "height": 26,
-          "text": "D. doing long term E. moaning about this F. taking the job",
-          "bold": false
-        },
-        {
-          "x": 219,
-          "y": 414,
-          "width": 675,
-          "height": 34,
-          "text": "G. _ thinking of problems H. _ getting other opportunities",
-          "bold": true
-        },
-        {
-          "x": 148,
-          "y": 493,
-          "width": 159,
-          "height": 18,
-          "text": "Conversation 1",
-          "bold": false
-        },
-        {
-          "x": 175,
-          "y": 527,
-          "width": 88,
-          "height": 18,
-          "text": "> David:",
-          "bold": false
-        },
-        {
-          "x": 322,
-          "y": 602,
-          "width": 913,
-          "height": 25,
-          "text": "Honestly, 1 don’t know what I’lI be (i) but this feels right. Having",
-          "bold": false
-        },
-        {
-          "x": 322,
-          "y": 645,
-          "width": 913,
-          "height": 26,
-          "text": "said that, if this falls apart I'll find it hard to shake off feeling lonely. So, I’m just going to",
-          "bold": false
-        },
-        {
-          "x": 322,
-          "y": 688,
-          "width": 913,
-          "height": 26,
-          "text": "forge ahead before I have time to dwell on like",
-          "bold": false
-        },
-        {
-          "x": 1020,
-          "y": 690,
-          "width": 141,
-          "height": 21,
-          "text": "any regrets",
-          "bold": false
-        },
-        {
-          "x": 322,
-          "y": 733,
-          "width": 29,
-          "height": 23,
-          "text": "(ii)",
-          "bold": false
-        },
-        {
-          "x": 1227,
-          "y": 815,
-          "width": 103,
-          "height": 19,
-          "text": ">Norton:",
-          "bold": true
-        },
-        {
-          "x": 179,
-          "y": 871,
-          "width": 985,
-          "height": 26,
-          "text": "Just remember why you’re (iii) __, it will be an adventure! And you know",
-          "bold": false
-        },
-        {
-          "x": 179,
-          "y": 929,
-          "width": 976,
-          "height": 26,
-          "text": "what, I envy you, because if it doesn’t work out you’l] be (iv) in your future.",
-          "bold": false
-        },
-        {
-          "x": 147,
-          "y": 1079,
-          "width": 160,
-          "height": 17,
-          "text": "Conversation 2",
-          "bold": false
-        },
-        {
-          "x": 183,
-          "y": 1116,
-          "width": 110,
-          "height": 18,
-          "text": ">P Smith:",
-          "bold": false
-        },
-        {
-          "x": 356,
-          "y": 1178,
-          "width": 617,
-          "height": 25,
-          "text": "A great haircut at last! You’ve no idea how I’ve been (v)",
-          "bold": true
-        },
-        {
-          "x": 356,
-          "y": 1221,
-          "width": 549,
-          "height": 25,
-          "text": "what happens? The hairdresser keeps picking his nose.",
-          "bold": true
-        },
-        {
-          "x": 1227,
-          "y": 1324,
-          "width": 103,
-          "height": 19,
-          "text": ">Norton:",
-          "bold": true
-        },
-        {
-          "x": 608,
-          "y": 1385,
-          "width": 533,
-          "height": 24,
-          "text": "? You’ve got what you wanted. You should really be",
-          "bold": true
-        },
-        {
-          "x": 215,
-          "y": 1387,
-          "width": 170,
-          "height": 24,
-          "text": "Why are you (vi)",
-          "bold": false
-        },
-        {
-          "x": 214,
-          "y": 1431,
-          "width": 42,
-          "height": 22,
-          "text": "(vii)",
-          "bold": true
-        },
-        {
-          "x": 147,
-          "y": 1586,
-          "width": 1164,
-          "height": 25,
-          "text": "62. Throughout the text Norton often compares himself to a medical doctor. Why do you think these",
-          "bold": false
-        },
-        {
-          "x": 218,
-          "y": 1616,
-          "width": 630,
-          "height": 24,
-          "text": "comparisons help to describe Norton’s role as an agony uncle?",
-          "bold": false
-        },
-        {
-          "x": 631,
-          "y": 1842,
-          "width": 207,
-          "height": 19,
-          "text": "END OF PART B2",
-          "bold": true
-        },
-        {
-          "x": 142,
-          "y": 1885,
-          "width": 516,
-          "height": 23,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 147,
-          "y": 1976,
-          "width": 599,
-          "height": 26,
-          "text": "2020-DSE-ENG LANG 1-B2-4 4",
-          "bold": true
-        }
-      ]
+      "prompt": "Throughout the text Norton often compares himself to a medical doctor. Why do you think these\ncomparisons help to describe Norton's role as an agony uncle?\nEND OF PART B2"
     }
   ]
 }

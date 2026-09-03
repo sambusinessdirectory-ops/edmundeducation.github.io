@@ -1,0 +1,567 @@
+{
+  "id": "dse-2014-b1",
+  "year": 2014,
+  "section": "B1",
+  "title": "The World Needs More Love Letters",
+  "sourceLabel": "HKDSE 2014 English Language Paper 1 Part B1",
+  "sourceHeading": "The World Needs More Love Letters",
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "Text 2 - Paragraph 1",
+      "text": "The website The World Needs More Love Letters aims to spread joy through letters. Not through emails, or your usual love letters, written to real people you love, but surprise letters for strangers. These letters don't say \"I love you\", but they are full of kindness, telling people how special they are. It's the sort of stuff that most people don't really say out loud even to the people they care about, let alone a total stranger.",
+      "images": [
+        {
+          "src": "assets/reading-comprehension/dse/content/2014/b1/passage-1-crop-1.webp",
+          "alt": "A surprise letter left on a park bench"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "label": "Text 2 - Paragraph 2",
+      "text": "The website was started by a 24-year-old woman named Hannah Brencher. After college, she moved to New York City but was hit by depression and loneliness. One day she felt so alone, she wanted to reach out to someone. So she started writing letters. Letters to complete strangers."
+    },
+    {
+      "number": 3,
+      "label": "Text 2 - Paragraph 3",
+      "text": "But these weren't sad letters about how she was feeling. They were happy letters, all about the other person, not her. She would write messages for people like \"Have a bright day\" or \"You're brilliant!\" Brencher began dropping the notes all over the city of New York, in cafes, in library books, in parks and on the train. It made her feel better, knowing that she might be making somebody's day through just a few short, sweet words. And so, The World Needs More Love Letters was born."
+    },
+    {
+      "number": 4,
+      "label": "Text 2 - Paragraph 4",
+      "text": "Brencher's idea of writing random letters to strangers has now exploded. She has personally written hundreds of letters. Last year, she was invited to speak at a global conference. At the conference, she talked about a woman whose husband, a soldier, came back from the war and they struggled to reconnect. The wife tucked love letters throughout the house as a way to say: \"Come back to me. Find me when you can.\" In another example, she talked about a university student who slipped letters around her campus. Soon everyone was writing them and there were love letters hanging from the trees."
+    },
+    {
+      "number": 5,
+      "label": "Text 2 - Paragraph 5",
+      "text": "Now there are more than 10,000 people who join in all over the world. Sometimes, they write letters that people have requested to order, to people who are lonely and down and just want someone to tell them that everything will be OK. Mostly, though, they scribble notes and leave them somewhere unlikely, for somebody to find."
+    },
+    {
+      "number": 6,
+      "label": "Text 3 - Paragraph 1",
+      "text": "The World Needs More Love Letters is a very cute idea. It also sounds, well, a bit American touchy-feely. I'm not sure that's something we British do well. But I know that if I received such a letter, it would put a smile on my face. So I decide to give it a try."
+    },
+    {
+      "number": 7,
+      "label": "Text 3 - Paragraph 2",
+      "text": "On the morning I decide to write my love letters to strangers, I made the journalistic schoolgirl-error of forgetting my notepad and pen. So I go to the nearest stationery shop and also buy some cards with matching envelopes."
+    },
+    {
+      "number": 8,
+      "label": "Text 3 - Paragraph 3",
+      "text": "With my supplies to hand, I can't stop thinking about what I might say. By the time I sit down to write my letters, I feel very self-conscious. I don't want to make a spelling mistake, cross it out and ruin the whole thing. I browse Brencher's website for inspiration. But everything I start to write sounds, well... cheesy. And stupid. \"Hey! You! Yes, you!\" Nope."
+    },
+    {
+      "number": 9,
+      "label": "Text 3 - Paragraph 4",
+      "text": "I try again, and write a few over-used expressions before I cross them out and start afresh. \"In a city like London where people go out of their way not to smile or even catch your eye, I just felt like saying hello.\" I add, \"I hope you had a good day, but if not, wishing this random note will make you feel better.\" That'll do for a first attempt."
+    },
+    {
+      "number": 10,
+      "label": "Text 3 - Paragraph 5",
+      "text": "My next letter is basically the same, except I address it to \"the stranger sitting on the train\". By letter number three, I figure less is more so simply say: \"YOU ARE WAY BETTER THAN YOU THINK YOU ARE.\" Which, let's face it, we'd all love to hear someone say. I mark the envelope: \"Something to cheer you up if you're having a bad day.\" I like that one. I think I nailed it."
+    },
+    {
+      "number": 11,
+      "label": "Text 3 - Paragraph 6",
+      "text": "The next part is the letter-drop: where to leave them? I slip one in the sofa in the cafe that I'm in, between the cushions so the next person notices. Then I drop the other one on the train, as if it wasn't me that left it on that seat at all. On my way home I notice a nice-looking bike with a basket. So I drop the last note in there."
+    },
+    {
+      "number": 12,
+      "label": "Text 3 - Paragraph 7",
+      "text": "It's kind of exciting leaving these notes behind. (I actually stand a safe distance from the bike, pretending to window shop just in case I catch the bike owner coming back.) I'd like to think they would appreciate the gesture, although I can equally understand why they might think I am a lunatic. But I guess, as Brencher's experiment shows, it's really not that much weirder to take the time to write a random letter for someone with the aim of making their day that bit brighter than it is to, say, Tweet a whole bunch of people you'll never meet or never really know."
+    },
+    {
+      "number": 13,
+      "label": "Text 3 - Paragraph 8",
+      "text": "When I get home, I realise I have got one card and one envelope left. So I scrawl a lil' something for my husband and leave it under his pillow. Way better than sending a text."
+    }
+  ],
+  "questions": [
+    {
+      "number": 31,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "What is the name of the website?"
+    },
+    {
+      "number": 32,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "What is the purpose of the website?"
+    },
+    {
+      "number": 33,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Who are the letters written to?"
+    },
+    {
+      "number": 34,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Who created this website?"
+    },
+    {
+      "number": 35,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Why did this person start writing such letters? (2 marks)"
+    },
+    {
+      "number": 36,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "In paragraph 3, find a word that is similar in meaning to 'letters'."
+    },
+    {
+      "number": 37,
+      "group": "paper",
+      "type": "choice",
+      "prompt": "Which of the following places is NOT mentioned in paragraph 3? Blacken ONE circle only.",
+      "options": [
+        {
+          "value": "A",
+          "label": "A"
+        },
+        {
+          "value": "B",
+          "label": "B"
+        },
+        {
+          "value": "C",
+          "label": "C"
+        },
+        {
+          "value": "D",
+          "label": "D"
+        }
+      ],
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/content/2014/b1/questions-1-crop-1.webp",
+          "alt": "Options A to D: a park, a bookshop, a cafe and a train"
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "What did this person gain from writing these letters?"
+    },
+    {
+      "number": 39,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Give one example from the text which shows how the idea of writing these love letters has 'exploded'\n(line 29)."
+    },
+    {
+      "number": 40,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "In paragraph 4, find a word that can be replaced by 'put'."
+    },
+    {
+      "number": 41,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Who does 'you' (line 36) refer to?"
+    },
+    {
+      "number": 42,
+      "group": "paper",
+      "type": "parts",
+      "prompt": "Decide whether the following statements are True, False, or the information is Not Given in paragraphs 4-5. (3 marks)",
+      "parts": [
+        {
+          "key": "1",
+          "label": "(i) Hannah Brencher writes her own letters.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "2",
+          "label": "(ii) The love letters successfully made the woman and her soldier husband fall back in love.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "3",
+          "label": "(iii) Some people ask for letters to be written to them.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "group": "paper",
+      "type": "parts",
+      "prompt": "Number the events (1-5) in order. The event that happens first is number 1. The first and last events have been ordered for you.",
+      "parts": [
+        {
+          "key": "1",
+          "label": "Letters are hung from trees in the university campus.",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "2",
+          "label": "Brencher writes letters to strangers.",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "3",
+          "label": "A student slips letters around her university campus.",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Event",
+                "header": true
+              },
+              {
+                "text": "Order",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Brencher goes to New York City."
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "Letters are hung from trees in the university campus."
+              },
+              {
+                "text": "",
+                "part": "1"
+              }
+            ],
+            [
+              {
+                "text": "Brencher writes letters to strangers."
+              },
+              {
+                "text": "",
+                "part": "2"
+              }
+            ],
+            [
+              {
+                "text": "A student slips letters around her university campus."
+              },
+              {
+                "text": "",
+                "part": "3"
+              }
+            ],
+            [
+              {
+                "text": "Brencher gives a talk at an international conference."
+              },
+              {
+                "text": "5"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "group": "paper",
+      "type": "parts",
+      "prompt": "Decide if the following statements are 'Dos' or 'Don'ts' for people writing the kind of letter mentioned in the text. (4 marks)",
+      "parts": [
+        {
+          "key": "1",
+          "label": "(i) Send your letter by email.",
+          "type": "choice",
+          "options": [
+            "Do",
+            "Don't"
+          ]
+        },
+        {
+          "key": "2",
+          "label": "(ii) Say something nice to the person who will read your letter.",
+          "type": "choice",
+          "options": [
+            "Do",
+            "Don't"
+          ]
+        },
+        {
+          "key": "3",
+          "label": "(iii) Be romantic in your letter.",
+          "type": "choice",
+          "options": [
+            "Do",
+            "Don't"
+          ]
+        },
+        {
+          "key": "4",
+          "label": "(iv) Place your letter somewhere for a stranger to find.",
+          "type": "choice",
+          "options": [
+            "Do",
+            "Don't"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "What nationality is the writer?"
+    },
+    {
+      "number": 46,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "Find a phrase in paragraph 1 that means 'make me happy'."
+    },
+    {
+      "number": 47,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "In line 6, the writer says that she decides to 'give it a try'. What is she going to try to do?"
+    },
+    {
+      "number": 48,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "What did the writer buy at the stationery shop? (2 marks)"
+    },
+    {
+      "number": 49,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "What did the writer do to find ideas for her letter writing?"
+    },
+    {
+      "number": 50,
+      "group": "paper",
+      "type": "choice",
+      "prompt": "Why does the writer say 'Nope' (line 19)?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. She does not like the website."
+        },
+        {
+          "value": "B",
+          "label": "B. She thinks writing letters is stupid."
+        },
+        {
+          "value": "C",
+          "label": "C. She does not like the words she just wrote."
+        },
+        {
+          "value": "D",
+          "label": "D. She does not want to make a spelling mistake."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "group": "paper",
+      "type": "choice",
+      "prompt": "How does the writer feel in paragraph 3?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. confident"
+        },
+        {
+          "value": "B",
+          "label": "B. nervous"
+        },
+        {
+          "value": "C",
+          "label": "C. relaxed"
+        },
+        {
+          "value": "D",
+          "label": "D. upset"
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "group": "paper",
+      "type": "parts",
+      "prompt": "Decide whether the following statements are True, False, or the information is Not Given in paragraphs 4-5. (3 marks)",
+      "parts": [
+        {
+          "key": "1",
+          "label": "(i) The writer thinks that people in London don't often smile at strangers.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "2",
+          "label": "(ii) The writer thinks that shorter notes are better than longer ones.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "3",
+          "label": "(iii) The writer is most pleased with her third letter.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "group": "paper",
+      "type": "parts",
+      "prompt": "Where does the writer leave each of her three letters? (3 marks)",
+      "parts": [
+        {
+          "key": "ii",
+          "label": "ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "iii)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "How does the writer avoid being noticed while waiting for one of her letters to be found? (2 marks)"
+    },
+    {
+      "number": 55,
+      "group": "paper",
+      "type": "choice",
+      "prompt": "The 'gesture' (line 46) refers to….",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. leaving the letter."
+        },
+        {
+          "value": "B",
+          "label": "B. having someone say 'thank you'."
+        },
+        {
+          "value": "C",
+          "label": "C. doing some window shopping."
+        },
+        {
+          "value": "D",
+          "label": "D. catching the bike owner."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "group": "paper",
+      "type": "choice",
+      "prompt": "What does 'a lunatic' (line 48) mean? Someone who is...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. nice."
+        },
+        {
+          "value": "B",
+          "label": "B. clever."
+        },
+        {
+          "value": "C",
+          "label": "C. crazy."
+        },
+        {
+          "value": "D",
+          "label": "D. unkind."
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "How does the writer compare writing these letters to writing a Tweet?\nBoth are"
+    },
+    {
+      "number": 58,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "In which room of her house does the writer leave her last letter?"
+    },
+    {
+      "number": 59,
+      "group": "paper",
+      "type": "choice",
+      "prompt": "Which of the following is the best title for Text 3?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. A guide to writing a love letter"
+        },
+        {
+          "value": "B",
+          "label": "B. Have you ever received a love letter?"
+        },
+        {
+          "value": "C",
+          "label": "C. How to write letters to impress"
+        },
+        {
+          "value": "D",
+          "label": "D. My attempt at writing random love letters"
+        }
+      ]
+    }
+  ],
+  "instructions": {
+    "paper": "Answer every question using the passage."
+  }
+}

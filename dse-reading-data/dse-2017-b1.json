@@ -5,2688 +5,508 @@
   "title": "Millennials: Coming of Age",
   "sourceLabel": "HKDSE 2017 English Language Paper 1 Part B1",
   "sourceHeading": "Millennials: Coming of Age",
-  "displayMode": "structured-paper",
-  "paragraphs": [],
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "Paragraph 1",
+      "text": "MILLENNIALS - Coming of age Millennials are the largest generation in history and are about to move into their prime spending years. Companies want to understand the attitudes and lifestyle of Millennials because their shopping habits will make a big difference to their business. Slide-1 Snug in the nest, a growing number of Millennials are choosing to live at home with their parents. Many Millennials don't want to own a home but their reluctance to enter the housing market could change. As they get older, they will likely have a desire to settle down, and this could lead to a surge in home sales. Slide-2 It's not just homes: Millennials have been reluctant to buy items such as cars, music and luxury goods. Instead, they're turning to a new set of services that provide access to products without the burdens of ownership, giving rise to what's being called a \"sharing economy\". The must-haves for previous generations aren't as important for Millennials. They're postponing major purchases - or avoiding them entirely. \"25 years from now, car sharing will be the norm, and car ownership an anomaly.\" Jeremy Rifkin, Author and Economist Slide-3 Millennials have been putting off significant milestones like getting married and having children. But that doesn't mean they want to stay single forever. The average age of couples getting married in 1970 was 20. By 2010, it had risen to 30. Slide-4 Millennials' love for technology is changing the retail industry. With product information, reviews and price comparisons at their fingertips, they are able to compare prices in the store or shop online. Millennials want maximum convenience at the lowest price. So when marketing to this generation, a strong brand isn't enough to lock in a sale. Slide-5 For Millennials, wellness is a daily, active pursuit. They're exercising more, eating smarter and smoking less than previous generations. They're using apps to track training data, and online information to find the healthiest foods. And this is one space in retail where they're willing to spend money on as 'healthy' doesn't just mean 'not sick'. It's a daily commitment to eating right and exercising. Slide-6 1980 2000"
+    },
+    {
+      "number": 2,
+      "label": "Paragraph 2",
+      "text": "1980 2000 You might think that young people have it easy. But in a special report, the editor of The Economist, Robert Guest, argues that millennials have it tougher than most people think."
+    },
+    {
+      "number": 3,
+      "label": "Paragraph 3",
+      "text": "In some respects the young have never had it so good, Guest writes. 'They are wealthier and are more likely to live longer than any other generation. They live in more liberal societies than their predecessors could barely have imagined, and have high speed access to information from around the world."
+    },
+    {
+      "number": 4,
+      "label": "Paragraph 4",
+      "text": "'They are also brainier than any previous generation before them. Average scores on intelligence tests have been rising for decades in many countries, thanks to both better nutrition and mass education.'"
+    },
+    {
+      "number": 5,
+      "label": "Paragraph 5",
+      "text": "However, the report says, the talent and intelligence of millennials is often wasted, with not enough employment opportunities. Youngsters are twice as likely as their elders to be unemployed, while over 25% of young people in middle-income nations - and 15% in richer ones - are NEETs (not in education, employment or training)."
+    },
+    {
+      "number": 6,
+      "label": "Paragraph 6",
+      "text": "Furthermore, the cost of housing and education often prices millennials out of the market. 'Education has become SO Hong Kong Examinations and Assessment Authority at a later stag"
+    },
+    {
+      "number": 7,
+      "label": "Paragraph 7",
+      "text": "LARGEST GENERATION YET"
+    },
+    {
+      "number": 8,
+      "label": "Paragraph 8",
+      "text": "O MOST",
+      "images": [
+        {
+          "src": "assets/reading-comprehension/dse/content/2017/b1/passage-2-crop-1.webp",
+          "alt": "Who are millennials? Population and generation infographic"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "label": "Paragraph 9",
+      "text": "HO RACIALY"
+    },
+    {
+      "number": 10,
+      "label": "Paragraph 10",
+      "text": "$= 2.5 BILLION GENASE"
+    },
+    {
+      "number": 11,
+      "label": "Paragraph 11",
+      "text": "WORLDWIDE"
+    },
+    {
+      "number": 12,
+      "label": "Paragraph 12",
+      "text": "VE IT BETTER OR WORSE? expensive that many students rack up heavy debts. Housing has grown costlier, too, especially in the globally connected megacities where the best jobs are. Young people yearn to move to such cities: besides higher pay, they offer excitement and a wide selection of other young people to date or marry. Yet constraints on the supply of housing make that hard."
+    },
+    {
+      "number": 13,
+      "label": "Paragraph 13",
+      "text": "Guest also wrote that the time it takes to feel financially secure means people leave having children until later. 'For both sexes, the path to adulthood-from school to work, marriage and children-has become longer and more complicated. Mostly, this is a good thing. Many young people now study until their mid-zos and put off having children until their late 3os."
+    },
+    {
+      "number": 14,
+      "label": "Paragraph 14",
+      "text": "\"They form families later partly because they want to and partly because it is taking them longer to become established in their careers. Alas, despite improvements in fertility treatment, the biological clock has not been reset to accommodate modern working lives.'"
+    },
+    {
+      "number": 15,
+      "label": "Paragraph 15",
+      "text": "At the end of the fascinating report, Guest urged countries around the world to 'work harder to give the young a fair shot'."
+    },
+    {
+      "number": 16,
+      "label": "Paragraph 16",
+      "text": "'If they do not, that would not only be immoral; it would also be dangerous.' edged in the booklet HKDSE Question Papers published by the a later stage."
+    }
+  ],
   "instructions": {
-    "paper": "Answer every numbered question using the original question pages above. Include all subparts in the matching answer field."
+    "paper": "Answer every question using the passage."
   },
   "questions": [
     {
       "number": 22,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 22",
-      "placeholder": "Enter all answer parts for Question 22"
+      "prompt": "Find a phrase on slide 1 that shows Millennials are entering adulthood."
     },
     {
       "number": 23,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 23",
-      "placeholder": "Enter all answer parts for Question 23"
+      "prompt": "What do companies hope to achieve by understanding Millennials' attitudes and lifestyle?"
     },
     {
       "number": 24,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 24",
-      "placeholder": "Enter all answer parts for Question 24"
+      "type": "choice",
+      "prompt": "'Snug in the nest' (slide 2) means Millennials are...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. unable to buy a home."
+        },
+        {
+          "value": "B",
+          "label": "B. happily living with parents."
+        },
+        {
+          "value": "C",
+          "label": "C. unable to take care of themselves."
+        },
+        {
+          "value": "D",
+          "label": "D. waiting to enter the housing market."
+        }
+      ]
     },
     {
       "number": 25,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 25",
-      "placeholder": "Enter all answer parts for Question 25"
+      "prompt": "According to slide 2, why might Millennials change their attitude towards home ownership?"
     },
     {
       "number": 26,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 26",
-      "placeholder": "Enter all answer parts for Question 26"
+      "prompt": "According to slide 3, why do Millennials prefer a sharing economy?\nii) What product is used by the writer to show their future purchasing habits?"
     },
     {
       "number": 27,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 27",
-      "placeholder": "Enter all answer parts for Question 27"
+      "type": "choice",
+      "prompt": "What does 'milestones' on slide 4 mean in this context?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. purchases that bring happiness"
+        },
+        {
+          "value": "B",
+          "label": "B. records of the past"
+        },
+        {
+          "value": "C",
+          "label": "C. major life events"
+        },
+        {
+          "value": "D",
+          "label": "D. fun activities"
+        }
+      ]
     },
     {
       "number": 28,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 28",
-      "placeholder": "Enter all answer parts for Question 28"
+      "type": "parts",
+      "prompt": "According to slides 1-4, are the following statements True (T), False (F) or Not Given (NG)?\n(3 marks)\nStatements T F NG",
+      "parts": [
+        {
+          "key": "i",
+          "label": "i) There are more Millennials than members of any other generation. O",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "ii) Millennials tend to buy a lot of expensive goods.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "iii) Millennials are getting married later in life.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
     },
     {
       "number": 29,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 29",
-      "placeholder": "Enter all answer parts for Question 29"
+      "type": "choice",
+      "prompt": "According to slide 5, how is technology changing the way Millennials shop?\nii) Which of the following tends to be the least important for Millennials when buying things?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. convenience"
+        },
+        {
+          "value": "B",
+          "label": "B. reviews"
+        },
+        {
+          "value": "C",
+          "label": "C. brand"
+        },
+        {
+          "value": "D",
+          "label": "D. price"
+        }
+      ]
     },
     {
       "number": 30,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 30",
-      "placeholder": "Enter all answer parts for Question 30"
+      "prompt": "Based on the information given on slide 6, fill in the blanks. Write ONE word in each blank. (5 marks)\nMillennials are (i). than other generations. They do more\n(ii) don't (iii) as much, and monitor their\nfitness with the help of (iv).. This generation defines good health as\nmore than simply not being (v)."
     },
     {
       "number": 31,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 31",
-      "placeholder": "Enter all answer parts for Question 31"
+      "prompt": "Match the following headings to each slide of Text 2. Write the slide number next to each heading.\nOne heading is NOT used and should be left blank. (5 marks)\nHeading Slide number Heading Slide number\nMillennials - Coming of age 1 Diet and fitness\nClicking to buy Access, not ownership\nLove and marriage Housing\nEducation"
     },
     {
       "number": 32,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 32",
-      "placeholder": "Enter all answer parts for Question 32"
+      "prompt": "In what period were Millennials born?"
     },
     {
       "number": 33,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 33",
-      "placeholder": "Enter all answer parts for Question 33"
+      "type": "parts",
+      "prompt": "mad you viper e ang i belen in the cprecious generation? Find ideas mentioned in paragraph arks",
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Idea mentioned in paragraph 2",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              },
+              {
+                "text": "Examples",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(e.g.) They are wealthier.",
+                "colSpan": 1,
+                "rowSpan": 1
+              },
+              {
+                "text": "Millennials have more money\nto spend.",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ],
+            [
+              {
+                "text": "",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r3c1g1"
+                ]
+              },
+              {
+                "text": "Millennials are connected to\nthe world via their\nsmartphones.",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ],
+            [
+              {
+                "text": "ii)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r4c1g1"
+                ]
+              },
+              {
+                "text": "If a Millennial is female or\ngay, he/she has more rights.",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ],
+            [
+              {
+                "text": "iii)",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "parts": [
+                  "t1r5c1g1"
+                ]
+              },
+              {
+                "text": "The average lifespan of\nMillennials could reach 90-95\nyears.",
+                "colSpan": 1,
+                "rowSpan": 1
+              }
+            ]
+          ],
+          "columns": 2
+        }
+      ],
+      "parts": [
+        {
+          "key": "t1r3c1g1",
+          "label": "Row 3, column 1",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r4c1g1",
+          "label": "ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "t1r5c1g1",
+          "label": "iii)",
+          "type": "text",
+          "inTable": true
+        }
+      ]
     },
     {
       "number": 34,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 34",
-      "placeholder": "Enter all answer parts for Question 34"
+      "prompt": "What factors have led to Millennials being more intelligent than previous generations?"
     },
     {
       "number": 35,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 35",
-      "placeholder": "Enter all answer parts for Question 35"
+      "type": "parts",
+      "prompt": "According to paragraphs 4-5, what are the three key challenges Millennials face? (3 marks)",
+      "parts": [
+        {
+          "key": "ii",
+          "label": "ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "iii)",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 36,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 36",
-      "placeholder": "Enter all answer parts for Question 36"
+      "prompt": "Fill in the blanks based on information given in paragraph 4. (2 marks)\nThe young have a (i). chance of being employed compared to their elders.\nMore than a quarter of those from (ii). countries are NEETs."
     },
     {
       "number": 37,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 37",
-      "placeholder": "Enter all answer parts for Question 37"
+      "type": "choice",
+      "prompt": "What does 'prices millennials out of the market' (lines 29-30) mean?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Millennials' jobs do not pay enough."
+        },
+        {
+          "value": "B",
+          "label": "B. It is too expensive for Millennials to afford."
+        },
+        {
+          "value": "C",
+          "label": "C. There is too much competition for Millennials."
+        },
+        {
+          "value": "D",
+          "label": "D. Millennials are one of the factors affecting market price."
+        }
+      ]
     },
     {
       "number": 38,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 38",
-      "placeholder": "Enter all answer parts for Question 38"
+      "prompt": "According to paragraph 5, what are some of the advantages that megacities offer young people?\nTick (r) three boxes.\nmore schools to choose from better apartments better employment opportunities\nmore chances of falling in love more fun things to do"
     },
     {
       "number": 39,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 39",
-      "placeholder": "Enter all answer parts for Question 39"
+      "prompt": "What does 'that' (line 39) refer to?"
     },
     {
       "number": 40,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 40",
-      "placeholder": "Enter all answer parts for Question 40"
+      "type": "parts",
+      "prompt": "According to paragraphs 6 and 7, why are young people having children later in life? Give three reasons.\n(3 marks)",
+      "parts": [
+        {
+          "key": "ii",
+          "label": "ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "iii)",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 41,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 41",
-      "placeholder": "Enter all answer parts for Question 41"
+      "type": "choice",
+      "prompt": "Which of the following can replace 'Alas' (line 52)?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Unfortunately"
+        },
+        {
+          "value": "B",
+          "label": "B. Surprisingly"
+        },
+        {
+          "value": "C",
+          "label": "C. In fact"
+        },
+        {
+          "value": "D",
+          "label": "D. Finally"
+        }
+      ]
     },
     {
       "number": 42,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 42",
-      "placeholder": "Enter all answer parts for Question 42"
+      "type": "choice",
+      "prompt": "What does 'biological clock' (line 53) mean in this context?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. The time when a person works most effectively."
+        },
+        {
+          "value": "B",
+          "label": "B. The time when a woman can no longer give birth."
+        },
+        {
+          "value": "C",
+          "label": "C. The time when a person reaches the end of their life."
+        },
+        {
+          "value": "D",
+          "label": "D. The time when a couple start to think about having a family."
+        }
+      ]
     },
     {
       "number": 43,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Question 43",
-      "placeholder": "Enter all answer parts for Question 43"
+      "prompt": "Who/what does 'they' (line 59) refer to?\nii) What would be 'immoral' (line 60)?\n(1 mark)"
     },
     {
       "number": 44,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Question 44",
-      "placeholder": "Enter all answer parts for Question 44"
-    }
-  ],
-  "structuredPassagePages": [
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Reading passage page 1",
-      "lines": [
+      "type": "choice",
+      "prompt": "What message about Millennials does the writer want to send?\nAlthough their lives seem easy, they actually face many difficulties.",
+      "options": [
         {
-          "x": 170,
-          "y": 102,
-          "width": 120,
-          "height": 23,
-          "text": "PART B1",
-          "bold": true
+          "value": "B",
+          "label": "B. Although they live better lives, they are not as happy as their parents."
         },
         {
-          "x": 169,
-          "y": 149,
-          "width": 948,
-          "height": 25,
-          "text": "Read the following texts and answer questions 22-44 in the Question-Answer Book for Part B1.",
-          "bold": false
-        },
-        {
-          "x": 169,
-          "y": 197,
-          "width": 85,
-          "height": 18,
-          "text": "Text 2",
-          "bold": true
-        },
-        {
-          "x": 287,
-          "y": 269,
-          "width": 334,
-          "height": 24,
-          "text": "MILLENNIALS - Coming of age",
-          "bold": true
-        },
-        {
-          "x": 229,
-          "y": 321,
-          "width": 483,
-          "height": 33,
-          "text": "Millennials are the largest NE",
-          "bold": false
-        },
-        {
-          "x": 859,
-          "y": 329,
-          "width": 366,
-          "height": 24,
-          "text": "Millennials have been putting off",
-          "bold": false
-        },
-        {
-          "x": 227,
-          "y": 357,
-          "width": 486,
-          "height": 41,
-          "text": "generation in history and are eu AL",
-          "bold": true
-        },
-        {
-          "x": 858,
-          "y": 359,
-          "width": 461,
-          "height": 24,
-          "text": "significant milestones like getting married",
-          "bold": false
-        },
-        {
-          "x": 858,
-          "y": 389,
-          "width": 409,
-          "height": 24,
-          "text": "and having children. But that doesn’t",
-          "bold": false
-        },
-        {
-          "x": 228,
-          "y": 390,
-          "width": 340,
-          "height": 24,
-          "text": "about to move into their prime",
-          "bold": false
-        },
-        {
-          "x": 228,
-          "y": 414,
-          "width": 445,
-          "height": 38,
-          "text": "spending years. aN",
-          "bold": true
-        },
-        {
-          "x": 859,
-          "y": 419,
-          "width": 423,
-          "height": 24,
-          "text": "mean they want to stay single forever.",
-          "bold": false
-        },
-        {
-          "x": 227,
-          "y": 467,
-          "width": 388,
-          "height": 24,
-          "text": "Companies want to understand the",
-          "bold": false
-        },
-        {
-          "x": 857,
-          "y": 479,
-          "width": 469,
-          "height": 24,
-          "text": "The average age of couples getting",
-          "bold": false
-        },
-        {
-          "x": 227,
-          "y": 498,
-          "width": 393,
-          "height": 24,
-          "text": "attitudes and lifestyle of Millennials",
-          "bold": false
-        },
-        {
-          "x": 859,
-          "y": 508,
-          "width": 466,
-          "height": 25,
-          "text": "married in 1970 was 20. By 2010, it had",
-          "bold": false
-        },
-        {
-          "x": 228,
-          "y": 531,
-          "width": 458,
-          "height": 24,
-          "text": "because their shopping habits will make a",
-          "bold": false
-        },
-        {
-          "x": 859,
-          "y": 539,
-          "width": 121,
-          "height": 19,
-          "text": "risen to 30.",
-          "bold": false
-        },
-        {
-          "x": 227,
-          "y": 563,
-          "width": 345,
-          "height": 24,
-          "text": "big difference to their business.",
-          "bold": false
-        },
-        {
-          "x": 1310,
-          "y": 599,
-          "width": 82,
-          "height": 17,
-          "text": "Slide-4",
-          "bold": false
-        },
-        {
-          "x": 659,
-          "y": 609,
-          "width": 79,
-          "height": 17,
-          "text": "Slide-1",
-          "bold": false
-        },
-        {
-          "x": 211,
-          "y": 805,
-          "width": 421,
-          "height": 25,
-          "text": "Snug in the nest, a growing number of",
-          "bold": true
-        },
-        {
-          "x": 859,
-          "y": 805,
-          "width": 474,
-          "height": 25,
-          "text": "Millennials’ love for technology is changing",
-          "bold": false
-        },
-        {
-          "x": 857,
-          "y": 835,
-          "width": 359,
-          "height": 25,
-          "text": "the retail industry. With product",
-          "bold": false
-        },
-        {
-          "x": 212,
-          "y": 836,
-          "width": 492,
-          "height": 24,
-          "text": "Millennials are choosing to live at home with",
-          "bold": false
-        },
-        {
-          "x": 858,
-          "y": 865,
-          "width": 485,
-          "height": 26,
-          "text": "information, reviews and price comparisons",
-          "bold": false
-        },
-        {
-          "x": 210,
-          "y": 866,
-          "width": 147,
-          "height": 24,
-          "text": "their parents.",
-          "bold": false
-        },
-        {
-          "x": 858,
-          "y": 895,
-          "width": 483,
-          "height": 26,
-          "text": "at their fingertips, they are able to compare",
-          "bold": false
-        },
-        {
-          "x": 212,
-          "y": 910,
-          "width": 487,
-          "height": 25,
-          "text": "Many Millennials don’t want to own a home",
-          "bold": false
-        },
-        {
-          "x": 858,
-          "y": 926,
-          "width": 369,
-          "height": 25,
-          "text": "prices in the store or shop online.",
-          "bold": false
-        },
-        {
-          "x": 212,
-          "y": 940,
-          "width": 449,
-          "height": 25,
-          "text": "but their reluctance to enter the housing",
-          "bold": false
-        },
-        {
-          "x": 212,
-          "y": 971,
-          "width": 234,
-          "height": 24,
-          "text": "market could change.",
-          "bold": false
-        },
-        {
-          "x": 859,
-          "y": 971,
-          "width": 472,
-          "height": 20,
-          "text": "Millennials want maximum convenience at",
-          "bold": false
-        },
-        {
-          "x": 857,
-          "y": 1001,
-          "width": 481,
-          "height": 25,
-          "text": "the lowest price. So when marketing to this",
-          "bold": false
-        },
-        {
-          "x": 210,
-          "y": 1015,
-          "width": 434,
-          "height": 24,
-          "text": "As they get older, they will likely have a",
-          "bold": false
-        },
-        {
-          "x": 857,
-          "y": 1031,
-          "width": 468,
-          "height": 24,
-          "text": "generation, a strong brand isn’t enough to",
-          "bold": false
-        },
-        {
-          "x": 211,
-          "y": 1045,
-          "width": 483,
-          "height": 23,
-          "text": "desire to settle down, and this could lead to",
-          "bold": false
-        },
-        {
-          "x": 858,
-          "y": 1061,
-          "width": 145,
-          "height": 19,
-          "text": "lock ina sale.",
-          "bold": false
-        },
-        {
-          "x": 211,
-          "y": 1075,
-          "width": 240,
-          "height": 24,
-          "text": "a surge in home sales.",
-          "bold": false
-        },
-        {
-          "x": 663,
-          "y": 1120,
-          "width": 81,
-          "height": 18,
-          "text": "Slide-2",
-          "bold": false
-        },
-        {
-          "x": 1309,
-          "y": 1121,
-          "width": 81,
-          "height": 18,
-          "text": "Slide-5",
-          "bold": true
-        },
-        {
-          "x": 178,
-          "y": 1318,
-          "width": 541,
-          "height": 24,
-          "text": "It’s not just homes: Millennials have been",
-          "bold": true
-        },
-        {
-          "x": 848,
-          "y": 1318,
-          "width": 477,
-          "height": 25,
-          "text": "For Millennials, wellness is a daily, active",
-          "bold": false
-        },
-        {
-          "x": 178,
-          "y": 1348,
-          "width": 540,
-          "height": 24,
-          "text": "reluctant to buy items such as cars, music and",
-          "bold": false
-        },
-        {
-          "x": 847,
-          "y": 1349,
-          "width": 478,
-          "height": 24,
-          "text": "pursuit. They’re exercising more, eating",
-          "bold": false
-        },
-        {
-          "x": 178,
-          "y": 1378,
-          "width": 143,
-          "height": 24,
-          "text": "luxury goods.",
-          "bold": false
-        },
-        {
-          "x": 847,
-          "y": 1379,
-          "width": 477,
-          "height": 24,
-          "text": "smarter and smoking less than previous",
-          "bold": false
-        },
-        {
-          "x": 846,
-          "y": 1409,
-          "width": 137,
-          "height": 23,
-          "text": "generations.",
-          "bold": false
-        },
-        {
-          "x": 179,
-          "y": 1422,
-          "width": 540,
-          "height": 25,
-          "text": "Instead, they’re turning to a new set of services",
-          "bold": false
-        },
-        {
-          "x": 177,
-          "y": 1452,
-          "width": 542,
-          "height": 25,
-          "text": "that provide access to products without the",
-          "bold": false
-        },
-        {
-          "x": 845,
-          "y": 1453,
-          "width": 479,
-          "height": 25,
-          "text": "They’re using apps to track training data,",
-          "bold": false
-        },
-        {
-          "x": 178,
-          "y": 1482,
-          "width": 541,
-          "height": 32,
-          "text": "burdens of ownership, giving rise to what’s being",
-          "bold": false
-        },
-        {
-          "x": 846,
-          "y": 1483,
-          "width": 478,
-          "height": 20,
-          "text": "and online information to find the",
-          "bold": false
-        },
-        {
-          "x": 177,
-          "y": 1512,
-          "width": 305,
-          "height": 24,
-          "text": "called a “sharing economy”.",
-          "bold": false
-        },
-        {
-          "x": 847,
-          "y": 1512,
-          "width": 183,
-          "height": 20,
-          "text": "healthiest foods.",
-          "bold": false
-        },
-        {
-          "x": 176,
-          "y": 1557,
-          "width": 543,
-          "height": 24,
-          "text": "The must-haves for previous generations aren’t",
-          "bold": false
-        },
-        {
-          "x": 846,
-          "y": 1557,
-          "width": 478,
-          "height": 25,
-          "text": "And this is one space in retail where",
-          "bold": false
-        },
-        {
-          "x": 177,
-          "y": 1587,
-          "width": 542,
-          "height": 24,
-          "text": "as important for Millennials. They’re postponing",
-          "bold": false
-        },
-        {
-          "x": 846,
-          "y": 1587,
-          "width": 479,
-          "height": 25,
-          "text": "they’re willing to spend money on as",
-          "bold": false
-        },
-        {
-          "x": 178,
-          "y": 1616,
-          "width": 491,
-          "height": 25,
-          "text": "major purchases — or avoiding them entirely.",
-          "bold": false
-        },
-        {
-          "x": 847,
-          "y": 1617,
-          "width": 477,
-          "height": 24,
-          "text": "‘healthy’ doesn’t just mean ‘not sick’. It’s a",
-          "bold": false
-        },
-        {
-          "x": 846,
-          "y": 1647,
-          "width": 478,
-          "height": 24,
-          "text": "daily commitment to eating right and",
-          "bold": false
-        },
-        {
-          "x": 191,
-          "y": 1663,
-          "width": 541,
-          "height": 25,
-          "text": "“25 years from now, car sharing will be the norm,",
-          "bold": false
-        },
-        {
-          "x": 846,
-          "y": 1677,
-          "width": 115,
-          "height": 23,
-          "text": "exercising.",
-          "bold": false
-        },
-        {
-          "x": 280,
-          "y": 1695,
-          "width": 360,
-          "height": 25,
-          "text": "and car ownership an anomaly.”",
-          "bold": false
-        },
-        {
-          "x": 274,
-          "y": 1741,
-          "width": 372,
-          "height": 23,
-          "text": "Jeremy Rifkin, Author and Economist",
-          "bold": false
-        },
-        {
-          "x": 659,
-          "y": 1793,
-          "width": 81,
-          "height": 17,
-          "text": "Slide-3",
-          "bold": false
-        },
-        {
-          "x": 1309,
-          "y": 1796,
-          "width": 81,
-          "height": 17,
-          "text": "Slide-6",
-          "bold": false
-        },
-        {
-          "x": 168,
-          "y": 1947,
-          "width": 556,
-          "height": 17,
-          "text": "2017-DSE-ENG LANG 1-B1-RP-2 2",
-          "bold": true
+          "value": "C",
+          "label": "C. Although they face many obstacles, they are able to cope with the"
         }
       ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2017/b1/passage-1-figure-1.webp",
-          "x": 136,
-          "y": 216,
-          "width": 640,
-          "height": 464,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2017/b1/passage-1-figure-2.webp",
-          "x": 772,
-          "y": 216,
-          "width": 660,
-          "height": 464,
-          "alt": "Original figure 2"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2017/b1/passage-1-figure-3.webp",
-          "x": 136,
-          "y": 700,
-          "width": 636,
-          "height": 480,
-          "alt": "Original figure 3"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2017/b1/passage-1-figure-4.webp",
-          "x": 772,
-          "y": 700,
-          "width": 652,
-          "height": 484,
-          "alt": "Original figure 4"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2017/b1/passage-1-figure-5.webp",
-          "x": 112,
-          "y": 1204,
-          "width": 660,
-          "height": 652,
-          "alt": "Original figure 5"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2017/b1/passage-1-figure-6.webp",
-          "x": 772,
-          "y": 1204,
-          "width": 652,
-          "height": 652,
-          "alt": "Original figure 6"
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Reading passage page 2",
-      "lines": [
-        {
-          "x": 168,
-          "y": 113,
-          "width": 83,
-          "height": 19,
-          "text": "Text 3",
-          "bold": true
-        },
-        {
-          "x": 1032,
-          "y": 250,
-          "width": 107,
-          "height": 36,
-          "text": "tit",
-          "bold": true
-        },
-        {
-          "x": 1184,
-          "y": 265,
-          "width": 95,
-          "height": 16,
-          "text": "RACIALLY",
-          "bold": true
-        },
-        {
-          "x": 1200,
-          "y": 288,
-          "width": 75,
-          "height": 14,
-          "text": "DIVERSE",
-          "bold": true
-        },
-        {
-          "x": 884,
-          "y": 294,
-          "width": 17,
-          "height": 31,
-          "text": "He",
-          "bold": false
-        },
-        {
-          "x": 917,
-          "y": 294,
-          "width": 226,
-          "height": 45,
-          "text": ": 2 BILLION",
-          "bold": true
-        },
-        {
-          "x": 974,
-          "y": 323,
-          "width": 170,
-          "height": 15,
-          "text": "2 WORLDWIDE",
-          "bold": true
-        },
-        {
-          "x": 237,
-          "y": 366,
-          "width": 41,
-          "height": 15,
-          "text": "1980.",
-          "bold": false
-        },
-        {
-          "x": 164,
-          "y": 499,
-          "width": 84,
-          "height": 18,
-          "text": "Text 4",
-          "bold": true
-        },
-        {
-          "x": 373,
-          "y": 559,
-          "width": 738,
-          "height": 24,
-          "text": "DO MILLENNIALS HAVE IT BETTER OR WORSE?",
-          "bold": true
-        },
-        {
-          "x": 793,
-          "y": 617,
-          "width": 486,
-          "height": 25,
-          "text": "expensive that many students rack up heavy",
-          "bold": true
-        },
-        {
-          "x": 207,
-          "y": 618,
-          "width": 483,
-          "height": 25,
-          "text": "[1] You might think that young people",
-          "bold": false
-        },
-        {
-          "x": 793,
-          "y": 647,
-          "width": 484,
-          "height": 25,
-          "text": "debts. Housing has grown costlier, too,",
-          "bold": false
-        },
-        {
-          "x": 206,
-          "y": 648,
-          "width": 483,
-          "height": 25,
-          "text": "have it easy. But in a special report, the",
-          "bold": false
-        },
-        {
-          "x": 206,
-          "y": 678,
-          "width": 482,
-          "height": 24,
-          "text": "editor of The Economist, Robert Guest,",
-          "bold": false
-        },
-        {
-          "x": 792,
-          "y": 678,
-          "width": 485,
-          "height": 24,
-          "text": "especially in the globally connected",
-          "bold": false
-        },
-        {
-          "x": 792,
-          "y": 707,
-          "width": 485,
-          "height": 26,
-          "text": "megacities where the best jobs are. Young",
-          "bold": false
-        },
-        {
-          "x": 206,
-          "y": 708,
-          "width": 482,
-          "height": 25,
-          "text": "argues that millennials have it tougher than",
-          "bold": false
-        },
-        {
-          "x": 791,
-          "y": 738,
-          "width": 485,
-          "height": 25,
-          "text": "people yearn to move to such cities: besides",
-          "bold": false
-        },
-        {
-          "x": 206,
-          "y": 739,
-          "width": 201,
-          "height": 25,
-          "text": "most people think.",
-          "bold": false
-        },
-        {
-          "x": 744,
-          "y": 740,
-          "width": 22,
-          "height": 18,
-          "text": "35",
-          "bold": false
-        },
-        {
-          "x": 791,
-          "y": 768,
-          "width": 485,
-          "height": 25,
-          "text": "higher pay, they offer excitement and a wide",
-          "bold": false
-        },
-        {
-          "x": 206,
-          "y": 784,
-          "width": 482,
-          "height": 25,
-          "text": "[2] ‘In some respects the young have never",
-          "bold": false
-        },
-        {
-          "x": 791,
-          "y": 798,
-          "width": 486,
-          "height": 25,
-          "text": "selection of other young people to date or",
-          "bold": false
-        },
-        {
-          "x": 205,
-          "y": 814,
-          "width": 483,
-          "height": 25,
-          "text": "had it so good,’ Guest writes. ‘They are",
-          "bold": false
-        },
-        {
-          "x": 791,
-          "y": 828,
-          "width": 487,
-          "height": 25,
-          "text": "marry. Yet constraints on the supply of",
-          "bold": false
-        },
-        {
-          "x": 204,
-          "y": 844,
-          "width": 484,
-          "height": 25,
-          "text": "wealthier and are more likely to live longer",
-          "bold": false
-        },
-        {
-          "x": 790,
-          "y": 859,
-          "width": 273,
-          "height": 24,
-          "text": "housing make that hard.’",
-          "bold": false
-        },
-        {
-          "x": 204,
-          "y": 874,
-          "width": 483,
-          "height": 24,
-          "text": "than any other generation. They live in",
-          "bold": false
-        },
-        {
-          "x": 204,
-          "y": 904,
-          "width": 483,
-          "height": 19,
-          "text": "more liberal societies than their",
-          "bold": false
-        },
-        {
-          "x": 791,
-          "y": 904,
-          "width": 484,
-          "height": 24,
-          "text": "[6] Guest also wrote that the time it takes",
-          "bold": false
-        },
-        {
-          "x": 161,
-          "y": 906,
-          "width": 20,
-          "height": 17,
-          "text": "10",
-          "bold": false
-        },
-        {
-          "x": 742,
-          "y": 906,
-          "width": 24,
-          "height": 17,
-          "text": "40",
-          "bold": false
-        },
-        {
-          "x": 790,
-          "y": 933,
-          "width": 486,
-          "height": 25,
-          "text": "to feel financially secure means people leave",
-          "bold": false
-        },
-        {
-          "x": 204,
-          "y": 934,
-          "width": 482,
-          "height": 25,
-          "text": "predecessors could barely have imagined,",
-          "bold": false
-        },
-        {
-          "x": 790,
-          "y": 963,
-          "width": 485,
-          "height": 25,
-          "text": "having children until later. ‘For both sexes,",
-          "bold": false
-        },
-        {
-          "x": 204,
-          "y": 964,
-          "width": 482,
-          "height": 24,
-          "text": "and have high speed access to information",
-          "bold": false
-        },
-        {
-          "x": 789,
-          "y": 993,
-          "width": 485,
-          "height": 25,
-          "text": "the path to adulthood—from school to work,",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 994,
-          "width": 253,
-          "height": 19,
-          "text": "from around the world.",
-          "bold": false
-        },
-        {
-          "x": 790,
-          "y": 1023,
-          "width": 485,
-          "height": 24,
-          "text": "marriage and children—has become longer",
-          "bold": false
-        },
-        {
-          "x": 204,
-          "y": 1038,
-          "width": 482,
-          "height": 25,
-          "text": "[3] ‘They are also brainier than any previous",
-          "bold": false
-        },
-        {
-          "x": 790,
-          "y": 1052,
-          "width": 484,
-          "height": 25,
-          "text": "and more complicated. Mostly, this is a",
-          "bold": false
-        },
-        {
-          "x": 741,
-          "y": 1055,
-          "width": 23,
-          "height": 17,
-          "text": "45",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 1068,
-          "width": 483,
-          "height": 25,
-          "text": "generation before them. Average scores on",
-          "bold": false
-        },
-        {
-          "x": 159,
-          "y": 1071,
-          "width": 19,
-          "height": 17,
-          "text": "15",
-          "bold": false
-        },
-        {
-          "x": 789,
-          "y": 1082,
-          "width": 487,
-          "height": 25,
-          "text": "good thing. Many young people now study",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 1097,
-          "width": 483,
-          "height": 26,
-          "text": "intelligence tests have been rising for",
-          "bold": false
-        },
-        {
-          "x": 788,
-          "y": 1112,
-          "width": 486,
-          "height": 25,
-          "text": "until their mid-20s and put off having",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 1128,
-          "width": 482,
-          "height": 24,
-          "text": "decades in many countries, thanks to both",
-          "bold": false
-        },
-        {
-          "x": 789,
-          "y": 1142,
-          "width": 305,
-          "height": 24,
-          "text": "children until their late 30s.",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 1158,
-          "width": 403,
-          "height": 20,
-          "text": "better nutrition and mass education.’",
-          "bold": false
-        },
-        {
-          "x": 789,
-          "y": 1187,
-          "width": 485,
-          "height": 25,
-          "text": "[7] ‘They form families later partly",
-          "bold": false
-        },
-        {
-          "x": 204,
-          "y": 1203,
-          "width": 481,
-          "height": 25,
-          "text": "[4] However, the report says, the talent",
-          "bold": false
-        },
-        {
-          "x": 787,
-          "y": 1217,
-          "width": 486,
-          "height": 25,
-          "text": "because they want to and partly because it",
-          "bold": false
-        },
-        {
-          "x": 741,
-          "y": 1220,
-          "width": 22,
-          "height": 17,
-          "text": "50",
-          "bold": false
-        },
-        {
-          "x": 203,
-          "y": 1232,
-          "width": 482,
-          "height": 26,
-          "text": "and intelligence of millennials is often",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1235,
-          "width": 23,
-          "height": 18,
-          "text": "20",
-          "bold": false
-        },
-        {
-          "x": 788,
-          "y": 1247,
-          "width": 483,
-          "height": 25,
-          "text": "is taking them longer to become established",
-          "bold": false
-        },
-        {
-          "x": 202,
-          "y": 1263,
-          "width": 482,
-          "height": 25,
-          "text": "wasted, with not enough employment",
-          "bold": false
-        },
-        {
-          "x": 788,
-          "y": 1277,
-          "width": 484,
-          "height": 25,
-          "text": "in their careers. Alas, despite improvements",
-          "bold": false
-        },
-        {
-          "x": 202,
-          "y": 1293,
-          "width": 483,
-          "height": 25,
-          "text": "opportunities. Youngsters are twice as likely",
-          "bold": false
-        },
-        {
-          "x": 787,
-          "y": 1307,
-          "width": 486,
-          "height": 25,
-          "text": "in fertility treatment, the biological clock",
-          "bold": false
-        },
-        {
-          "x": 202,
-          "y": 1323,
-          "width": 482,
-          "height": 24,
-          "text": "as their elders to be unemployed, while over",
-          "bold": false
-        },
-        {
-          "x": 786,
-          "y": 1337,
-          "width": 486,
-          "height": 20,
-          "text": "has not been reset to accommodate modern",
-          "bold": false
-        },
-        {
-          "x": 202,
-          "y": 1353,
-          "width": 481,
-          "height": 25,
-          "text": "25% of young people in middle-income",
-          "bold": false
-        },
-        {
-          "x": 786,
-          "y": 1367,
-          "width": 157,
-          "height": 24,
-          "text": "working lives.’",
-          "bold": false
-        },
-        {
-          "x": 740,
-          "y": 1370,
-          "width": 21,
-          "height": 17,
-          "text": "55",
-          "bold": false
-        },
-        {
-          "x": 202,
-          "y": 1383,
-          "width": 482,
-          "height": 23,
-          "text": "nations — and 15% in richer ones — are",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 1385,
-          "width": 22,
-          "height": 18,
-          "text": "25",
-          "bold": false
-        },
-        {
-          "x": 201,
-          "y": 1412,
-          "width": 483,
-          "height": 25,
-          "text": "NEETs (not in education, employment or",
-          "bold": false
-        },
-        {
-          "x": 787,
-          "y": 1412,
-          "width": 484,
-          "height": 24,
-          "text": "[8] At the end of the fascinating report,",
-          "bold": false
-        },
-        {
-          "x": 787,
-          "y": 1441,
-          "width": 484,
-          "height": 25,
-          "text": "Guest urged countries around the world to",
-          "bold": false
-        },
-        {
-          "x": 201,
-          "y": 1443,
-          "width": 99,
-          "height": 24,
-          "text": "training).",
-          "bold": false
-        },
-        {
-          "x": 786,
-          "y": 1467,
-          "width": 461,
-          "height": 34,
-          "text": "‘work harder to give the young a fair shot’.",
-          "bold": false
-        },
-        {
-          "x": 202,
-          "y": 1487,
-          "width": 481,
-          "height": 25,
-          "text": "[5] Furthermore, the cost of housing and",
-          "bold": false
-        },
-        {
-          "x": 787,
-          "y": 1515,
-          "width": 484,
-          "height": 25,
-          "text": "[9] ‘If they do not, that would not only be",
-          "bold": false
-        },
-        {
-          "x": 201,
-          "y": 1517,
-          "width": 482,
-          "height": 25,
-          "text": "education often prices millennials out of the",
-          "bold": false
-        },
-        {
-          "x": 786,
-          "y": 1545,
-          "width": 412,
-          "height": 25,
-          "text": "immoral; it would also be dangerous.’",
-          "bold": false
-        },
-        {
-          "x": 201,
-          "y": 1547,
-          "width": 482,
-          "height": 20,
-          "text": "market. ‘Education has become so",
-          "bold": false
-        },
-        {
-          "x": 738,
-          "y": 1548,
-          "width": 23,
-          "height": 17,
-          "text": "60",
-          "bold": false
-        },
-        {
-          "x": 154,
-          "y": 1550,
-          "width": 22,
-          "height": 17,
-          "text": "30",
-          "bold": false
-        },
-        {
-          "x": 563,
-          "y": 1659,
-          "width": 358,
-          "height": 21,
-          "text": "END OF READING PASSAGES",
-          "bold": true
-        },
-        {
-          "x": 205,
-          "y": 1723,
-          "width": 1065,
-          "height": 22,
-          "text": "Sources of materials used in this paper will be acknowledged in the booklet HKDSE Question Papers published by the",
-          "bold": false
-        },
-        {
-          "x": 204,
-          "y": 1749,
-          "width": 611,
-          "height": 23,
-          "text": "Hong Kong Examinations and Assessment Authority at a later stage.",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1964,
-          "width": 319,
-          "height": 18,
-          "text": "2017-DSE-ENG LANG 1-B1-RP-3",
-          "bold": true
-        }
-      ]
-    }
-  ],
-  "structuredQuestionPages": [
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 1",
-      "lines": [
-        {
-          "x": 927,
-          "y": 107,
-          "width": 466,
-          "height": 25,
-          "text": "Please stick the barcode label here.",
-          "bold": false
-        },
-        {
-          "x": 176,
-          "y": 125,
-          "width": 205,
-          "height": 19,
-          "text": "Candidate Number",
-          "bold": false
-        },
-        {
-          "x": 176,
-          "y": 195,
-          "width": 174,
-          "height": 23,
-          "text": "HKDSE 2017",
-          "bold": true
-        },
-        {
-          "x": 703,
-          "y": 202,
-          "width": 126,
-          "height": 89,
-          "text": "B1",
-          "bold": true
-        },
-        {
-          "x": 176,
-          "y": 229,
-          "width": 307,
-          "height": 23,
-          "text": "ENGLISH LANGUAGE",
-          "bold": true
-        },
-        {
-          "x": 176,
-          "y": 263,
-          "width": 255,
-          "height": 24,
-          "text": "PAPER 1 PART B1",
-          "bold": true
-        },
-        {
-          "x": 175,
-          "y": 297,
-          "width": 393,
-          "height": 26,
-          "text": "QUESTION-ANSWER BOOK",
-          "bold": true
-        },
-        {
-          "x": 705,
-          "y": 303,
-          "width": 146,
-          "height": 18,
-          "text": "EASY SECTION",
-          "bold": true
-        },
-        {
-          "x": 175,
-          "y": 350,
-          "width": 902,
-          "height": 28,
-          "text": "Write your Candidate Number and stick a barcode label in the space provided on this page.",
-          "bold": false
-        },
-        {
-          "x": 174,
-          "y": 389,
-          "width": 565,
-          "height": 24,
-          "text": "Read Texts 2-4 and answer questions 22-44. (43 marks)",
-          "bold": true
-        },
-        {
-          "x": 173,
-          "y": 451,
-          "width": 85,
-          "height": 19,
-          "text": "Text 2",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 503,
-          "width": 703,
-          "height": 28,
-          "text": "Find a phrase on slide 1 that shows Millennials are entering adulthood.",
-          "bold": false
-        },
-        {
-          "x": 173,
-          "y": 510,
-          "width": 29,
-          "height": 16,
-          "text": "22.",
-          "bold": false
-        },
-        {
-          "x": 241,
-          "y": 647,
-          "width": 893,
-          "height": 28,
-          "text": "What do companies hope to achieve by understanding Millennials’ attitudes and lifestyle?",
-          "bold": false
-        },
-        {
-          "x": 173,
-          "y": 653,
-          "width": 28,
-          "height": 17,
-          "text": "23.",
-          "bold": false
-        },
-        {
-          "x": 257,
-          "y": 851,
-          "width": 509,
-          "height": 25,
-          "text": "“Snug in the nest’ (slide 2) means Millennials are...",
-          "bold": true
-        },
-        {
-          "x": 172,
-          "y": 854,
-          "width": 29,
-          "height": 17,
-          "text": "24.",
-          "bold": false
-        },
-        {
-          "x": 311,
-          "y": 894,
-          "width": 218,
-          "height": 23,
-          "text": "unable to buy a home.",
-          "bold": false
-        },
-        {
-          "x": 259,
-          "y": 897,
-          "width": 21,
-          "height": 102,
-          "text": "pomp",
-          "bold": true
-        },
-        {
-          "x": 311,
-          "y": 923,
-          "width": 272,
-          "height": 24,
-          "text": "happily living with parents.",
-          "bold": false
-        },
-        {
-          "x": 1274,
-          "y": 937,
-          "width": 16,
-          "height": 18,
-          "text": "D",
-          "bold": true
-        },
-        {
-          "x": 1134,
-          "y": 938,
-          "width": 84,
-          "height": 18,
-          "text": "B Cc",
-          "bold": false
-        },
-        {
-          "x": 311,
-          "y": 939,
-          "width": 767,
-          "height": 31,
-          "text": "unable to take care of themselves. A",
-          "bold": false
-        },
-        {
-          "x": 1128,
-          "y": 967,
-          "width": 99,
-          "height": 33,
-          "text": "OO",
-          "bold": true
-        },
-        {
-          "x": 1266,
-          "y": 967,
-          "width": 30,
-          "height": 31,
-          "text": "O",
-          "bold": true
-        },
-        {
-          "x": 311,
-          "y": 968,
-          "width": 774,
-          "height": 35,
-          "text": "waiting to enter the housing market. O",
-          "bold": true
-        },
-        {
-          "x": 239,
-          "y": 1062,
-          "width": 916,
-          "height": 28,
-          "text": "According to slide 2, why might Millennials change their attitude towards home ownership?",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 1068,
-          "width": 29,
-          "height": 17,
-          "text": "25.",
-          "bold": false
-        },
-        {
-          "x": 1247,
-          "y": 1206,
-          "width": 82,
-          "height": 22,
-          "text": "(1 mark)",
-          "bold": true
-        },
-        {
-          "x": 240,
-          "y": 1208,
-          "width": 732,
-          "height": 26,
-          "text": "i) According to slide 3, why do Millennials prefer a sharing economy?",
-          "bold": false
-        },
-        {
-          "x": 172,
-          "y": 1212,
-          "width": 29,
-          "height": 18,
-          "text": "26.",
-          "bold": false
-        },
-        {
-          "x": 1248,
-          "y": 1349,
-          "width": 82,
-          "height": 22,
-          "text": "(I mark)",
-          "bold": true
-        },
-        {
-          "x": 242,
-          "y": 1350,
-          "width": 789,
-          "height": 27,
-          "text": "ii) What product is used by the writer to show their future purchasing habits?",
-          "bold": false
-        },
-        {
-          "x": 242,
-          "y": 1494,
-          "width": 553,
-          "height": 21,
-          "text": "What does ‘milestones’ on slide 4 mean in this context?",
-          "bold": true
-        },
-        {
-          "x": 172,
-          "y": 1498,
-          "width": 29,
-          "height": 17,
-          "text": "27.",
-          "bold": false
-        },
-        {
-          "x": 259,
-          "y": 1537,
-          "width": 355,
-          "height": 25,
-          "text": "A. purchases that bring happiness",
-          "bold": false
-        },
-        {
-          "x": 259,
-          "y": 1563,
-          "width": 234,
-          "height": 32,
-          "text": "B. _ records of the past",
-          "bold": false
-        },
-        {
-          "x": 1196,
-          "y": 1581,
-          "width": 30,
-          "height": 61,
-          "text": "Oo",
-          "bold": true
-        },
-        {
-          "x": 1127,
-          "y": 1582,
-          "width": 30,
-          "height": 61,
-          "text": "Ov",
-          "bold": true
-        },
-        {
-          "x": 1054,
-          "y": 1583,
-          "width": 31,
-          "height": 60,
-          "text": "O>",
-          "bold": true
-        },
-        {
-          "x": 259,
-          "y": 1596,
-          "width": 217,
-          "height": 23,
-          "text": "C. major life events",
-          "bold": false
-        },
-        {
-          "x": 259,
-          "y": 1624,
-          "width": 179,
-          "height": 19,
-          "text": "D. fun activities",
-          "bold": false
-        },
-        {
-          "x": 1260,
-          "y": 1700,
-          "width": 86,
-          "height": 56,
-          "text": "_|",
-          "bold": true
-        },
-        {
-          "x": 168,
-          "y": 1774,
-          "width": 507,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 1008,
-          "y": 1970,
-          "width": 402,
-          "height": 34,
-          "text": "*AO206818 1 *",
-          "bold": true
-        },
-        {
-          "x": 173,
-          "y": 1973,
-          "width": 282,
-          "height": 18,
-          "text": "2017-DSE-ENG LANG 1-BI-1",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2017/b1/questions-1-figure-1.webp",
-          "x": 884,
-          "y": 72,
-          "width": 556,
-          "height": 240,
-          "alt": "Original figure 1"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2017/b1/questions-1-figure-2.webp",
-          "x": 976,
-          "y": 1816,
-          "width": 460,
-          "height": 172,
-          "alt": "Original figure 2"
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 2",
-      "lines": [
-        {
-          "x": 177,
-          "y": 182,
-          "width": 29,
-          "height": 18,
-          "text": "28.",
-          "bold": false
-        },
-        {
-          "x": 246,
-          "y": 183,
-          "width": 927,
-          "height": 25,
-          "text": "According to slides 1-4, are the following statements True (T), False (F) or Not Given (NG)?",
-          "bold": false
-        },
-        {
-          "x": 1214,
-          "y": 215,
-          "width": 93,
-          "height": 22,
-          "text": "(3 marks)",
-          "bold": false
-        },
-        {
-          "x": 286,
-          "y": 263,
-          "width": 1004,
-          "height": 30,
-          "text": "Statements NG",
-          "bold": false
-        },
-        {
-          "x": 1044,
-          "y": 266,
-          "width": 50,
-          "height": 213,
-          "text": "3 O00",
-          "bold": true
-        },
-        {
-          "x": 1154,
-          "y": 269,
-          "width": 31,
-          "height": 212,
-          "text": "O00,",
-          "bold": true
-        },
-        {
-          "x": 1251,
-          "y": 322,
-          "width": 32,
-          "height": 158,
-          "text": "O00",
-          "bold": true
-        },
-        {
-          "x": 250,
-          "y": 329,
-          "width": 705,
-          "height": 23,
-          "text": "i) There are more Millennials than members of any other generation.",
-          "bold": false
-        },
-        {
-          "x": 250,
-          "y": 391,
-          "width": 529,
-          "height": 24,
-          "text": "ii) Millennials tend to buy a lot of expensive goods.",
-          "bold": true
-        },
-        {
-          "x": 249,
-          "y": 455,
-          "width": 474,
-          "height": 23,
-          "text": "iii) Millennials are getting married later in life.",
-          "bold": true
-        },
-        {
-          "x": 176,
-          "y": 552,
-          "width": 1120,
-          "height": 27,
-          "text": "29. i) According to slide 5, how is technology changing the way Millennials shop? (7 mark)",
-          "bold": false
-        },
-        {
-          "x": 243,
-          "y": 749,
-          "width": 1052,
-          "height": 35,
-          "text": "ii) Which of the following tends to be the least important for Millennials when buying things? (7 mark)",
-          "bold": false
-        },
-        {
-          "x": 245,
-          "y": 795,
-          "width": 174,
-          "height": 18,
-          "text": "A. convenience",
-          "bold": false
-        },
-        {
-          "x": 246,
-          "y": 824,
-          "width": 126,
-          "height": 18,
-          "text": "B. reviews",
-          "bold": false
-        },
-        {
-          "x": 297,
-          "y": 846,
-          "width": 976,
-          "height": 24,
-          "text": "brand A Bc D",
-          "bold": false
-        },
-        {
-          "x": 245,
-          "y": 875,
-          "width": 1034,
-          "height": 33,
-          "text": "D. price O O O O",
-          "bold": true
-        },
-        {
-          "x": 174,
-          "y": 951,
-          "width": 1124,
-          "height": 28,
-          "text": "30. Based on the information given on slide 6, fill in the blanks. Write ONE word in each blank. (5 marks)",
-          "bold": false
-        },
-        {
-          "x": 255,
-          "y": 1040,
-          "width": 1010,
-          "height": 28,
-          "text": "Millennials are (i), than other generations. They do more",
-          "bold": true
-        },
-        {
-          "x": 254,
-          "y": 1094,
-          "width": 1011,
-          "height": 31,
-          "text": "(ii). __, don’t (iii). as much, and monitor their",
-          "bold": false
-        },
-        {
-          "x": 254,
-          "y": 1157,
-          "width": 1010,
-          "height": 28,
-          "text": "fitness with the help of (iv).. This generation defines good health as",
-          "bold": false
-        },
-        {
-          "x": 253,
-          "y": 1216,
-          "width": 307,
-          "height": 24,
-          "text": "more than simply not being (v).",
-          "bold": true
-        },
-        {
-          "x": 172,
-          "y": 1318,
-          "width": 1046,
-          "height": 28,
-          "text": "31. Match the following headings to each slide of Text 2. Write the slide number next to each heading.",
-          "bold": false
-        },
-        {
-          "x": 240,
-          "y": 1346,
-          "width": 1061,
-          "height": 28,
-          "text": "One heading is NOT used and should be left blank. (5 marks)",
-          "bold": false
-        },
-        {
-          "x": 252,
-          "y": 1393,
-          "width": 1007,
-          "height": 33,
-          "text": "Heading Slide number Heading Slide number",
-          "bold": true
-        },
-        {
-          "x": 252,
-          "y": 1461,
-          "width": 753,
-          "height": 24,
-          "text": "Millennials — Coming of age 1 Diet and fitness",
-          "bold": true
-        },
-        {
-          "x": 252,
-          "y": 1518,
-          "width": 821,
-          "height": 27,
-          "text": "Clicking to buy Access, not ownership",
-          "bold": false
-        },
-        {
-          "x": 252,
-          "y": 1577,
-          "width": 680,
-          "height": 26,
-          "text": "Love and marriage Housing",
-          "bold": false
-        },
-        {
-          "x": 251,
-          "y": 1634,
-          "width": 98,
-          "height": 19,
-          "text": "Education",
-          "bold": false
-        },
-        {
-          "x": 169,
-          "y": 1710,
-          "width": 83,
-          "height": 19,
-          "text": "Text 3",
-          "bold": false
-        },
-        {
-          "x": 170,
-          "y": 1768,
-          "width": 442,
-          "height": 23,
-          "text": "32. In what period were Millennials born?",
-          "bold": true
-        },
-        {
-          "x": 164,
-          "y": 1864,
-          "width": 505,
-          "height": 23,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 169,
-          "y": 1954,
-          "width": 586,
-          "height": 28,
-          "text": "2017-DSE-ENG LANG 1-B1-2 2",
-          "bold": true
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/structured/2017/b1/questions-2-figure-2.webp",
-          "x": 572,
-          "y": 1424,
-          "width": 140,
-          "height": 268,
-          "alt": "Original figure 2"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/structured/2017/b1/questions-2-figure-3.webp",
-          "x": 1116,
-          "y": 1428,
-          "width": 144,
-          "height": 208,
-          "alt": "Original figure 3"
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 3",
-      "lines": [
-        {
-          "x": 167,
-          "y": 167,
-          "width": 92,
-          "height": 56,
-          "text": "Text 4",
-          "bold": true
-        },
-        {
-          "x": 175,
-          "y": 248,
-          "width": 1146,
-          "height": 33,
-          "text": "33. | How do young people have it better than the previous generations? Find ideas mentioned in paragraph 2 and",
-          "bold": false
-        },
-        {
-          "x": 243,
-          "y": 281,
-          "width": 1098,
-          "height": 24,
-          "text": "match them with the examples given in the column on the right. (3 marks)",
-          "bold": false
-        },
-        {
-          "x": 388,
-          "y": 341,
-          "width": 782,
-          "height": 24,
-          "text": "Idea mentioned in paragraph 2 Examples",
-          "bold": true
-        },
-        {
-          "x": 204,
-          "y": 410,
-          "width": 1054,
-          "height": 35,
-          "text": "(e.g,) They are wealthier Millennials have more money",
-          "bold": true
-        },
-        {
-          "x": 960,
-          "y": 439,
-          "width": 89,
-          "height": 23,
-          "text": "to spend.",
-          "bold": true
-        },
-        {
-          "x": 211,
-          "y": 505,
-          "width": 1030,
-          "height": 24,
-          "text": "i) _ Millennials are connected to",
-          "bold": true
-        },
-        {
-          "x": 959,
-          "y": 534,
-          "width": 184,
-          "height": 18,
-          "text": "the world via their",
-          "bold": false
-        },
-        {
-          "x": 959,
-          "y": 563,
-          "width": 130,
-          "height": 23,
-          "text": "smartphones.",
-          "bold": true
-        },
-        {
-          "x": 215,
-          "y": 651,
-          "width": 927,
-          "height": 23,
-          "text": "ii) 7 ce",
-          "bold": true
-        },
-        {
-          "x": 959,
-          "y": 666,
-          "width": 314,
-          "height": 18,
-          "text": "If a Millennial is female or",
-          "bold": false
-        },
-        {
-          "x": 958,
-          "y": 695,
-          "width": 276,
-          "height": 23,
-          "text": "gay, he/she has more rights.",
-          "bold": true
-        },
-        {
-          "x": 214,
-          "y": 793,
-          "width": 1060,
-          "height": 32,
-          "text": "iii) The average lifespan of",
-          "bold": true
-        },
-        {
-          "x": 956,
-          "y": 826,
-          "width": 313,
-          "height": 19,
-          "text": "Millennials could reach 90-95",
-          "bold": false
-        },
-        {
-          "x": 956,
-          "y": 860,
-          "width": 57,
-          "height": 18,
-          "text": "years.",
-          "bold": true
-        },
-        {
-          "x": 167,
-          "y": 980,
-          "width": 930,
-          "height": 24,
-          "text": "34. What factors have led to Millennials being more intelligent than previous generations?",
-          "bold": false
-        },
-        {
-          "x": 166,
-          "y": 1130,
-          "width": 1145,
-          "height": 25,
-          "text": "35. According to paragraphs 4-5, what are the three key challenges Millennials face? (3 marks)",
-          "bold": false
-        },
-        {
-          "x": 234,
-          "y": 1189,
-          "width": 13,
-          "height": 22,
-          "text": "i)",
-          "bold": false
-        },
-        {
-          "x": 233,
-          "y": 1262,
-          "width": 20,
-          "height": 22,
-          "text": "ii)",
-          "bold": false
-        },
-        {
-          "x": 230,
-          "y": 1334,
-          "width": 27,
-          "height": 23,
-          "text": "iii)",
-          "bold": true
-        },
-        {
-          "x": 164,
-          "y": 1406,
-          "width": 1149,
-          "height": 24,
-          "text": "36. Fill in the blanks based on information given in paragraph 4. (2 marks)",
-          "bold": false
-        },
-        {
-          "x": 267,
-          "y": 1493,
-          "width": 988,
-          "height": 31,
-          "text": "The young have a (i). chance of being employed compared to their elders.",
-          "bold": false
-        },
-        {
-          "x": 266,
-          "y": 1575,
-          "width": 1014,
-          "height": 23,
-          "text": "More than a quarter of those from (ii) countries are NEETs.",
-          "bold": false
-        },
-        {
-          "x": 161,
-          "y": 1692,
-          "width": 754,
-          "height": 24,
-          "text": "37. What does ‘prices millennials out of the market’ (lines 29-30) mean?",
-          "bold": false
-        },
-        {
-          "x": 247,
-          "y": 1734,
-          "width": 416,
-          "height": 24,
-          "text": "A. Millennials’ jobs do not pay enough.",
-          "bold": false
-        },
-        {
-          "x": 247,
-          "y": 1763,
-          "width": 485,
-          "height": 23,
-          "text": "B. It is too expensive for Millennials to afford.",
-          "bold": false
-        },
-        {
-          "x": 247,
-          "y": 1779,
-          "width": 1031,
-          "height": 39,
-          "text": "C. There is too much competition for Millennials. A B Cc D",
-          "bold": true
-        },
-        {
-          "x": 247,
-          "y": 1812,
-          "width": 1037,
-          "height": 32,
-          "text": "D. Millennials are one of the factors affecting market price. O O O O",
-          "bold": false
-        },
-        {
-          "x": 155,
-          "y": 1879,
-          "width": 508,
-          "height": 24,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 160,
-          "y": 1967,
-          "width": 1136,
-          "height": 31,
-          "text": "2017-DSE-ENG LANG 1-B1-3 3 Go on to the next page",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "width": 1488,
-      "height": 2103,
-      "label": "Question page 4",
-      "lines": [
-        {
-          "x": 173,
-          "y": 210,
-          "width": 1000,
-          "height": 24,
-          "text": "38. According to paragraph 5, what are some of the advantages that megacities offer young people?",
-          "bold": false
-        },
-        {
-          "x": 225,
-          "y": 240,
-          "width": 210,
-          "height": 18,
-          "text": "Tick three boxes.",
-          "bold": true
-        },
-        {
-          "x": 307,
-          "y": 312,
-          "width": 1008,
-          "height": 24,
-          "text": "more schools to choose from better apartments better employment opportunities",
-          "bold": false
-        },
-        {
-          "x": 307,
-          "y": 355,
-          "width": 616,
-          "height": 49,
-          "text": "more chances of falling in love [| more fun things to do",
-          "bold": true
-        },
-        {
-          "x": 172,
-          "y": 454,
-          "width": 409,
-          "height": 30,
-          "text": "39. | What does ‘that’ (line 39) refer to?",
-          "bold": true
-        },
-        {
-          "x": 171,
-          "y": 543,
-          "width": 1105,
-          "height": 24,
-          "text": "40. According to paragraphs 6 and 7, why are young people having children later in life? Give three reasons.",
-          "bold": false
-        },
-        {
-          "x": 1226,
-          "y": 573,
-          "width": 94,
-          "height": 22,
-          "text": "(3 marks)",
-          "bold": true
-        },
-        {
-          "x": 240,
-          "y": 701,
-          "width": 20,
-          "height": 22,
-          "text": "ii)",
-          "bold": false
-        },
-        {
-          "x": 238,
-          "y": 772,
-          "width": 26,
-          "height": 23,
-          "text": "iii)",
-          "bold": true
-        },
-        {
-          "x": 171,
-          "y": 855,
-          "width": 587,
-          "height": 33,
-          "text": "41. | Which of the following can replace ‘Alas’ (line 52)?",
-          "bold": true
-        },
-        {
-          "x": 310,
-          "y": 902,
-          "width": 138,
-          "height": 23,
-          "text": "Unfortunately",
-          "bold": false
-        },
-        {
-          "x": 310,
-          "y": 931,
-          "width": 121,
-          "height": 23,
-          "text": "Surprisingly",
-          "bold": false
-        },
-        {
-          "x": 1051,
-          "y": 952,
-          "width": 30,
-          "height": 60,
-          "text": "O>",
-          "bold": true
-        },
-        {
-          "x": 1123,
-          "y": 952,
-          "width": 31,
-          "height": 60,
-          "text": "Ow",
-          "bold": true
-        },
-        {
-          "x": 1192,
-          "y": 952,
-          "width": 30,
-          "height": 61,
-          "text": "Oo",
-          "bold": true
-        },
-        {
-          "x": 1261,
-          "y": 952,
-          "width": 31,
-          "height": 61,
-          "text": "Ov",
-          "bold": true
-        },
-        {
-          "x": 310,
-          "y": 959,
-          "width": 62,
-          "height": 18,
-          "text": "In fact",
-          "bold": false
-        },
-        {
-          "x": 309,
-          "y": 988,
-          "width": 69,
-          "height": 22,
-          "text": "Finally",
-          "bold": true
-        },
-        {
-          "x": 170,
-          "y": 1060,
-          "width": 664,
-          "height": 23,
-          "text": "42. What does ‘biological clock’ (line 53) mean in this context?",
-          "bold": true
-        },
-        {
-          "x": 256,
-          "y": 1098,
-          "width": 528,
-          "height": 33,
-          "text": "A. The time when a person works most effectively.",
-          "bold": false
-        },
-        {
-          "x": 257,
-          "y": 1131,
-          "width": 544,
-          "height": 24,
-          "text": "B. The time when a woman can no longer give birth.",
-          "bold": false
-        },
-        {
-          "x": 257,
-          "y": 1148,
-          "width": 1028,
-          "height": 41,
-          "text": "C. The time when a person reaches the end of their life. A B Cc D",
-          "bold": true
-        },
-        {
-          "x": 257,
-          "y": 1181,
-          "width": 1034,
-          "height": 37,
-          "text": "D. The time when a couple start to think about having a family. O O O O",
-          "bold": true
-        },
-        {
-          "x": 170,
-          "y": 1288,
-          "width": 1158,
-          "height": 24,
-          "text": "43. i) does ‘they’ (line 59) refer to? (1 mark)",
-          "bold": true
-        },
-        {
-          "x": 240,
-          "y": 1374,
-          "width": 410,
-          "height": 23,
-          "text": "ii) What would be ‘immoral’ (line 60)?",
-          "bold": true
-        },
-        {
-          "x": 1075,
-          "y": 1434,
-          "width": 244,
-          "height": 22,
-          "text": "_ (1 mark)",
-          "bold": true
-        },
-        {
-          "x": 170,
-          "y": 1513,
-          "width": 688,
-          "height": 31,
-          "text": "44. | What message about Millennials does the writer want to send?",
-          "bold": false
-        },
-        {
-          "x": 256,
-          "y": 1583,
-          "width": 733,
-          "height": 24,
-          "text": "A. Although their lives seem easy, they actually face many difficulties.",
-          "bold": false
-        },
-        {
-          "x": 256,
-          "y": 1604,
-          "width": 1028,
-          "height": 42,
-          "text": "B. Although they live better lives, they are not as happy as their parents. A B Cc D",
-          "bold": true
-        },
-        {
-          "x": 256,
-          "y": 1634,
-          "width": 1035,
-          "height": 45,
-          "text": "C. Although they face many obstacles, they are able to cope with the O O Oo O",
-          "bold": true
-        },
-        {
-          "x": 316,
-          "y": 1681,
-          "width": 108,
-          "height": 23,
-          "text": "challenges.",
-          "bold": false
-        },
-        {
-          "x": 256,
-          "y": 1715,
-          "width": 744,
-          "height": 24,
-          "text": "D. Although they have more opportunities, they don’t make the most of",
-          "bold": false
-        },
-        {
-          "x": 315,
-          "y": 1744,
-          "width": 53,
-          "height": 17,
-          "text": "them.",
-          "bold": false
-        },
-        {
-          "x": 618,
-          "y": 1801,
-          "width": 201,
-          "height": 19,
-          "text": "END OF PART B1",
-          "bold": true
-        },
-        {
-          "x": 165,
-          "y": 1864,
-          "width": 506,
-          "height": 23,
-          "text": "Answers written in the margins will not be marked.",
-          "bold": true
-        },
-        {
-          "x": 170,
-          "y": 1954,
-          "width": 587,
-          "height": 27,
-          "text": "2017-DSE-ENG LANG 1-B1-4 4",
-          "bold": true
-        }
-      ]
+      "optionBank": "B. Although they live better lives, they are not as happy as their parents.\nC. Although they face many obstacles, they are able to cope with the\nchallenges.\nAlthough they have more opportunities, they don't make the most of\nthem.\nEND OF PART B1"
     }
   ]
 }
