@@ -5,7 +5,10 @@
   "title": "Celebrity",
   "sourceLabel": "HKDSE 2014 English Language Paper 1 Part B2 · Text 4",
   "sourceHeading": "An excerpt from the autobiography of Stephen Fry, a well-loved British actor, writer and comedian.",
-  "sourceNote": "Read Text 4 and answer Questions 60–84. Superscript note references from the original paper are listed after the passage.",
+  "sourceImage": {
+    "src": "/assets/reading-comprehension/dse/2014-b2-stephen-fry.jpg",
+    "alt": "Portrait of Stephen Fry from the 2014 HKDSE reading paper"
+  },
   "paragraphs": [
     {
       "number": 1,

@@ -143,6 +143,9 @@ assert.equal(dseB2.paragraphs.length, 9);
 assert.equal(dseB2.questions.length, 25);
 assert.equal(dseB2.questions.at(0).number, 60);
 assert.equal(dseB2.questions.at(-1).number, 84);
+assert.match(dseB2.sourceImage.src, /2014-b2-stephen-fry\.jpg$/);
+assert.equal(dseB2.sourceNote, undefined);
+assert.ok((await stat(new URL(dseB2.sourceImage.src.slice(1), root))).size > 1000);
 assert.ok([...dseA.paragraphs, ...dseB2.paragraphs].every((paragraph) => !paragraph.translation));
 assert.ok([...dseA.questions, ...dseB2.questions].every((question) => !("answer" in question)));
 
