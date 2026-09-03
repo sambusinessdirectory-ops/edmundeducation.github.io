@@ -4,12 +4,14 @@ const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
 const CATALOGUE_VERSION = '20260829-audio1';
+const DSE_CATALOGUE_VERSION = '20260903-dse2014-1';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
 const QUESTION_TYPE_INDEX = window.EDMUND_IELTS_READING_QUESTION_TYPES || { taxonomy: [], articles: [] };
 const audioTimingCache = new Map();
 
 const state = {
   supabase: null, token: "", user: null, view: "login", data: null, analysis: null,
+  system: 'ielts', dseCatalogue: [], dseCataloguePromise: null, dseSort: 'desc',
   attemptId: null, answers: {}, results: {}, bookmarks: new Set(), bookmarkItems: new Map(), pendingBookmarks: new Set(), bookmarkError: false, activeAnalysis: 0, activeSkimming: 0, analysisMode: 'analysis',
   timerRunning: false, durationMs: 0, timerStartedAt: 0, timerHandle: 0, autosaveHandle: 0,
   timerMode: "stopwatch", countdownMinutes: 20, forceSubmit: false, submitting: false,
@@ -33,7 +35,8 @@ const el = {
   skimmingDialog: $('[data-skimming-dialog]'), analysisDialog: $('[data-analysis-dialog]'), toast: $('[data-toast]'),
   questionTypeSearch: $('[data-question-type-search]'), questionTypeResultCount: $('[data-question-type-result-count]'),
   questionTypeChips: $('[data-question-type-chips]'), questionTypeSelection: $('[data-question-type-selection]'),
-  questionTypeResults: $('[data-question-type-results]'), questionTypeEmpty: $('[data-question-type-empty]')
+  questionTypeResults: $('[data-question-type-results]'), questionTypeEmpty: $('[data-question-type-empty]'),
+  dseYearGrid: $('[data-dse-year-grid]'), dseCatalogueStatus: $('[data-dse-catalogue-status]')
 };
 
 function escapeHtml(value) { return String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#39;"); }
@@ -145,6 +148,18 @@ async function loadCatalogue() {
   })().finally(() => { state.cataloguePromise = null; });
   return state.cataloguePromise;
 }
+async function loadDseCatalogue() {
+  if (state.dseCatalogue.length) return state.dseCatalogue;
+  if (!state.dseCataloguePromise) state.dseCataloguePromise = (async () => {
+    const response = await fetch(`dse-reading-catalogue.json?v=${DSE_CATALOGUE_VERSION}`);
+    if (!response.ok) throw new Error('未能載入 DSE 年份目錄。');
+    const payload = await response.json();
+    if (!Array.isArray(payload.years) || payload.years.length !== 15) throw new Error('DSE 年份目錄資料有誤。');
+    state.dseCatalogue = payload.years;
+    return state.dseCatalogue;
+  })().finally(() => { state.dseCataloguePromise = null; });
+  return state.dseCataloguePromise;
+}
 async function loadArticleData(id = ARTICLE_ID) {
   await loadCatalogue();
   const entry = state.catalogue.find((item) => item.id === id);
@@ -169,6 +184,19 @@ async function loadArticleData(id = ARTICLE_ID) {
   }
   ARTICLE_ID = id; state.data = data; state.analysis = analysis;
   state.activeAnalysis = 0; state.activeSkimming = 0;
+}
+async function loadDseArticleData(id) {
+  const years = await loadDseCatalogue();
+  const entry = years.flatMap((year) => Object.values(year.sections || {}).filter(Boolean)).find((item) => item.id === id);
+  if (!entry) throw new Error('這份 DSE 練習尚未加入。');
+  if (state.data?.id === id && state.system === 'dse') return entry;
+  const response = await fetch(`dse-reading-data/${id}.json?v=${entry.version}`);
+  if (!response.ok) throw new Error('未能載入 DSE 閱讀練習資料。');
+  const data = await response.json();
+  if (data.id !== id || !Array.isArray(data.questions) || !data.paragraphs?.length) throw new Error('DSE 閱讀練習資料不符。');
+  ARTICLE_ID = id; state.data = data; state.analysis = null;
+  state.activeAnalysis = 0; state.activeSkimming = 0;
+  return entry;
 }
 function applyArticleTranslation(data, translation) {
   if (!translation || translation.articleId !== data.id || translation.locale !== 'zh-Hant'
@@ -296,7 +324,8 @@ function renderQuestionTypeView() {
 function openQuestionTypeDirectory(type = '', query = '', push = false) { state.questionType = questionTypesByKey.has(type) ? type : ''; state.questionTypeQuery = state.questionType ? '' : String(query || ''); renderQuestionTypeView(); showView('question-types'); document.title = 'By Question Type｜閱讀理解學習系統'; history[push ? 'pushState' : 'replaceState']({}, '', questionTypeUrl()); }
 async function prepareForReadingNavigation() {
   pauseTimer(); el.audio.pause();
-  if (state.view === 'exercise' && state.exerciseReady && !state.results.finalized) {
+  if (state.system === 'dse' && state.view === 'exercise') saveDseDraft();
+  if (state.system === 'ielts' && state.view === 'exercise' && state.exerciseReady && !state.results.finalized) {
     collectAnswers();
     const needsSave = state.attemptId || Object.keys(state.answers).length || currentDuration();
     if (needsSave && !await saveAttempt(false, false, true)) {
@@ -308,7 +337,7 @@ async function prepareForReadingNavigation() {
   return true;
 }
 function clearReadingRoute(url, { keepPassage = false } = {}) {
-  ['article', 'view', 'type', 'q', 'question', 'paragraph', 'section'].forEach((key) => url.searchParams.delete(key));
+  ['article', 'view', 'type', 'q', 'question', 'paragraph', 'section', 'year'].forEach((key) => url.searchParams.delete(key));
   if (!keepPassage) url.searchParams.delete('passage');
   url.hash = '';
   return url;
@@ -320,15 +349,33 @@ async function openReadingHome() {
   document.title = '選擇閱讀理解系統｜EdmundEducation';
   showView('reading-home');
 }
-async function openDsePlaceholder() {
+function renderDseCatalogue() {
+  const years = [...state.dseCatalogue].sort((left, right) => state.dseSort === 'asc' ? left.year - right.year : right.year - left.year);
+  el.dseYearGrid.innerHTML = years.map((year) => {
+    const readyCount = Object.values(year.sections || {}).filter(Boolean).length;
+    const sections = ['A', 'B1', 'B2'].map((section) => {
+      const entry = year.sections?.[section];
+      const label = entry ? `${year.year} Part ${section}：${entry.title}` : `${year.year} Part ${section} 尚未加入`;
+      return `<button class="dse-section-button${entry ? ' is-ready' : ''}" type="button" data-open-dse-exercise="${escapeHtml(entry?.id || '')}" aria-label="${escapeHtml(label)}"${entry ? '' : ' disabled'}>${section}</button>`;
+    }).join('');
+    return `<section class="dse-year-card${readyCount ? ' is-ready' : ''}"><div class="dse-year-card-header"><h2>${year.year}</h2><span class="dse-year-card-badge">${readyCount ? `${readyCount} 份已加入` : '稍後加入'}</span></div><div class="dse-section-buttons">${sections}</div></section>`;
+  }).join('');
+  el.dseCatalogueStatus.textContent = `2012–2026 · 共 ${years.length} 個年份 · 2014 Part A 及 B2 現已開放`;
+  $$('[data-dse-sort]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.dseSort === state.dseSort)));
+}
+async function openDseDashboard() {
   if (!await prepareForReadingNavigation()) return;
+  state.system = 'dse';
+  await loadDseCatalogue();
   const url = clearReadingRoute(new URL(location.href));
   url.searchParams.set('view', 'dse');
   history.replaceState({}, '', url);
+  renderDseCatalogue();
   document.title = 'DSE 閱讀理解｜EdmundEducation';
-  showView('dse-placeholder');
+  showView('dse-dashboard');
 }
 async function enterIeltsReading() {
+  state.system = 'ielts';
   const url = clearReadingRoute(new URL(location.href));
   url.searchParams.set('passage', '1');
   history.replaceState({}, '', url);
@@ -337,11 +384,21 @@ async function enterIeltsReading() {
 }
 async function openDashboard() {
   if (!await prepareForReadingNavigation()) return;
+  state.system = 'ielts';
   await loadCatalogue(); showView("dashboard"); el.welcome.textContent = `您好，${state.user.name}！請選擇 IELTS 閱讀練習。`;
   selectPassageTab(Math.max(1, Math.min(3, Number(new URLSearchParams(location.search).get("passage")) || state.passageTab)), false);
   const url = new URL(location.href); ['article', 'view', 'type', 'q', 'question', 'paragraph', 'section'].forEach((key) => url.searchParams.delete(key)); url.hash = ''; history.replaceState({}, '', url);
   document.title = 'IELTS 閱讀理解｜EdmundEducation';
   await Promise.all([loadDashboard(), loadBookmarks()]); updateBookmarkControls();
+}
+
+function setExerciseSystem(system) {
+  const dse = system === 'dse'; state.system = system;
+  $('[data-view="exercise"]').classList.toggle('dse-exercise', dse);
+  $$('[data-ielts-only]').forEach((node) => { node.hidden = dse; });
+  $('[data-dse-tools-notice]').hidden = !dse;
+  $('[data-dse-draft-note]').hidden = !dse;
+  if (dse) { el.forceSubmit.checked = false; state.forceSubmit = false; el.forceLabel.hidden = true; }
 }
 
 function updateAnswerProgress() {
@@ -380,30 +437,65 @@ function interactiveWords(text, context, spoken = false) {
   return html + escapeHtml(text.slice(last));
 }
 function renderPassage() {
-  state.wordIndex = 0; el.passage.innerHTML = state.data.paragraphs.map((paragraph) => `<section class="passage-paragraph" id="paragraph-${paragraph.number}"><div class="paragraph-heading"><span class="paragraph-label">PARAGRAPH ${escapeHtml(paragraph.label || paragraph.number)}</span><span class="scan-tags" data-scan-tags="${paragraph.number}" aria-label="已選擇此段的題目"></span><button class="paragraph-audio-button" type="button" data-play-paragraph="${paragraph.number}" aria-label="朗讀第 ${paragraph.number} 段">▶ 朗讀本段</button>${readingBookmarkButton('paragraph', paragraph.number)}</div><div class="passage-text-block">${interactiveWords(paragraph.text, `p${paragraph.number}`, true)}</div>${paragraph.translation ? `<div class="translation-copy" data-translation-copy="${paragraph.number}" hidden lang="zh-Hant">${escapeHtml(paragraph.translation)}</div>` : ''}<button class="skimming-button" type="button" data-skimming="${paragraph.number}">Skimming Tips · ${escapeHtml(paragraph.label || paragraph.number)}</button></section>`).join("");
-  if (state.data.sourceHeading) el.passage.insertAdjacentHTML('afterbegin', `<p class="source-heading">${escapeHtml(state.data.sourceHeading)}</p>${state.data.headingTranslation ? `<p class="translation-copy" data-translation-heading hidden lang="zh-Hant">${escapeHtml(state.data.headingTranslation)}</p>` : ''}`);
-  if (state.data.titleTranslation && !state.data.headingTranslation) el.passage.insertAdjacentHTML('afterbegin', `<p class="translation-copy" data-translation-heading hidden lang="zh-Hant">${escapeHtml(state.data.titleTranslation)}</p>`);
+  const dse = state.system === 'dse';
+  const sourceHeader = `${state.data.sourceLabel ? `<p class="eyebrow">${escapeHtml(state.data.sourceLabel)}</p>` : ''}${state.data.sourceHeading ? `<p class="source-heading">${escapeHtml(state.data.sourceHeading)}</p>${state.data.headingTranslation ? `<p class="translation-copy" data-translation-heading hidden lang="zh-Hant">${escapeHtml(state.data.headingTranslation)}</p>` : ''}` : ''}${state.data.titleTranslation && !state.data.headingTranslation ? `<p class="translation-copy" data-translation-heading hidden lang="zh-Hant">${escapeHtml(state.data.titleTranslation)}</p>` : ''}${state.data.sourceNote ? `<p class="dse-source-note">${escapeHtml(state.data.sourceNote)}</p>` : ''}`;
+  const sourceNotes = state.data.passageNotes?.length ? `<section class="dse-source-note"><strong>Notes</strong><br>${state.data.passageNotes.map(escapeHtml).join('<br>')}</section>` : '';
+  state.wordIndex = 0; el.passage.innerHTML = sourceHeader + state.data.paragraphs.map((paragraph) => `<section class="passage-paragraph" id="paragraph-${paragraph.number}"><div class="paragraph-heading"><span class="paragraph-label">${dse ? '' : 'PARAGRAPH '}${escapeHtml(paragraph.label || paragraph.number)}</span>${dse ? '' : `<span class="scan-tags" data-scan-tags="${paragraph.number}" aria-label="已選擇此段的題目"></span><button class="paragraph-audio-button" type="button" data-play-paragraph="${paragraph.number}" aria-label="朗讀第 ${paragraph.number} 段">▶ 朗讀本段</button>${readingBookmarkButton('paragraph', paragraph.number)}`}</div><div class="passage-text-block">${dse ? escapeHtml(paragraph.text) : interactiveWords(paragraph.text, `p${paragraph.number}`, true)}</div>${paragraph.translation ? `<div class="translation-copy" data-translation-copy="${paragraph.number}" hidden lang="zh-Hant">${escapeHtml(paragraph.translation)}</div>` : ''}${dse ? '' : `<button class="skimming-button" type="button" data-skimming="${paragraph.number}">Skimming Tips · ${escapeHtml(paragraph.label || paragraph.number)}</button>`}</section>`).join("") + sourceNotes;
   $('[data-translation-options]').innerHTML = '<legend>或選擇指定段落</legend>' + state.data.paragraphs.filter((p) => p.translation).map((p) => `<label><input type="checkbox" data-translation-paragraph="${p.number}"> 第 ${escapeHtml(p.label || p.number)} 段</label>`).join('');
   const translated = state.data.paragraphs.some((p) => p.translation); el.translationAll.disabled = !translated; el.translationAll.checked = false; $('[data-translation-availability]').hidden = translated;
   $('[data-translation-availability]').textContent = state.data.translationLoadFailed ? '中文翻譯暫時未能載入；你仍可閱讀英文及作答，請稍後重新整理。' : '這篇文章的完整中文翻譯正在逐篇整理中。';
   renderScanTags();
 }
 function normalizedOption(option) { return typeof option === "string" ? { value: option, label: option, translation: "" } : option; }
+function renderAnswerControl(control, name, partId) {
+  const type = control.type || 'text'; const options = control.options || [];
+  if (['choice', 'multiple'].includes(type)) return `<div class="choice-list">${options.map((entry) => { const option = normalizedOption(entry); return `<label><input type="${type === 'multiple' ? 'checkbox' : 'radio'}" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" data-answer-slots="${control.slots || 1}" value="${escapeHtml(option.value)}"><span><strong>${escapeHtml(option.label)}</strong>${option.translation ? `<small class="option-translation" data-question-translation hidden><br>${escapeHtml(option.translation)}</small>` : ''}</span></label>`; }).join('')}</div>${type === 'multiple' ? `<small>請選擇 ${control.slots} 項。</small>` : ''}`;
+  if (type === 'select') return `<select class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '選擇答案')}"><option value="">選擇答案</option>${options.map((entry) => { const option = normalizedOption(entry); return `<option value="${escapeHtml(option.value)}">${escapeHtml(option.label)}</option>`; }).join('')}</select>`;
+  if (type === 'textarea') return `<textarea class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '輸入答案')}" autocomplete="off" maxlength="1200" placeholder="${escapeHtml(control.placeholder || '輸入答案')}"></textarea>`;
+  return `<input class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '輸入答案')}" autocomplete="off" maxlength="300" placeholder="${escapeHtml(control.placeholder || '輸入答案')}">`;
+}
+function renderQuestionControls(question) {
+  if (question.parts?.length) return `<div class="question-parts">${question.parts.map((part) => { const name = `q${question.number}_${part.key}`; return `<div class="question-part"><span>${escapeHtml(part.label)}</span>${renderAnswerControl(part, name, name)}</div>`; }).join('')}</div>`;
+  return renderAnswerControl(question, `q${question.number}`, `q${question.number}`);
+}
 function renderQuestions() {
   const groupLabels = state.data.instructions || {}; let group = "";
   el.questions.innerHTML = state.data.questions.map((question) => {
     const sourceGroup = state.data.questionGroups?.find((item) => item.id === question.group);
     const heading = group !== question.group ? `<p class="question-group-heading">${escapeHtml(groupLabels[question.group])}</p>${sourceGroup ? `<div class="original-question-group">${interactiveWords(sourceGroup.text, `g${sourceGroup.start}`)}</div>` : ''}` : ""; group = question.group;
-    const options = ['choice','multiple'].includes(question.type) ? `<div class="choice-list">${question.options.map((entry) => { const option = normalizedOption(entry); return `<label><input type="${question.type === 'multiple' ? 'checkbox' : 'radio'}" name="q${question.number}" data-answer-part="q${question.number}" data-answer-slots="${question.slots || 1}" value="${escapeHtml(option.value)}"><span><strong>${escapeHtml(option.label)}</strong>${option.translation ? `<small class="option-translation" data-question-translation hidden><br>${escapeHtml(option.translation)}</small>` : ""}</span></label>`; }).join("")}</div>${question.type === 'multiple' ? `<small>請選擇 ${question.slots} 項。</small>` : ''}` : `<input class="answer-input" name="q${question.number}" data-answer-part="q${question.number}" aria-label="第 ${question.number} 題答案" autocomplete="off" maxlength="100" placeholder="${escapeHtml(question.placeholder || "輸入答案")}">`;
+    const controls = renderQuestionControls(question);
     const scanButtons = state.data.paragraphs.map((p) => `<button type="button" data-scan-choice="${question.number}:${p.number}">P${escapeHtml(p.label || p.number)}</button>`).join("");
-    return `${heading}<section class="question-card" id="question-${question.number}" data-question="${question.number}"><div class="question-bookmark-row">${readingBookmarkButton('question', question.number)}</div><p class="question-prompt"><span class="question-number">${question.number}</span>${interactiveWords(question.prompt, `q${question.number}`)}</p><p class="question-translation" data-question-translation hidden>${escapeHtml(question.translation)}</p>${options}<div class="question-actions"><button class="scan-button" type="button" data-scan-question="${question.number}">Scan：選擇段落</button><button class="scanning-tip-button" type="button" data-scanning-tip="${question.number}">Scanning 提示</button><button class="reveal-button" type="button" data-reveal="${question.number}">顯示答案及分析</button><span class="question-result" data-question-result="${question.number}"></span></div><div class="scan-chooser" data-scan-chooser="${question.number}" hidden><span>答案最可能在哪一段？</span>${scanButtons}</div><small class="answer-timestamp" data-answer-time="${question.number}" hidden></small></section>`;
+    const figure = question.figure ? `<figure class="question-figure"><img src="${escapeHtml(question.figure.src)}" alt="${escapeHtml(question.figure.alt || '')}" loading="lazy">${question.figure.caption ? `<figcaption>${escapeHtml(question.figure.caption)}</figcaption>` : ''}</figure>` : '';
+    const marks = question.marks ? `<p class="question-meta">${question.marks} marks</p>` : '';
+    const context = question.context ? `<div class="original-question-group">${state.system === 'dse' ? escapeHtml(question.context) : interactiveWords(question.context, `q${question.number}`)}</div>` : '';
+    const optionBank = question.optionBank ? `<div class="question-option-bank">${escapeHtml(question.optionBank)}</div>` : '';
+    const translation = question.translation ? `<p class="question-translation" data-question-translation hidden>${escapeHtml(question.translation)}</p>` : '';
+    const actions = state.system === 'dse' ? '' : `<div class="question-actions"><button class="scan-button" type="button" data-scan-question="${question.number}">Scan：選擇段落</button><button class="scanning-tip-button" type="button" data-scanning-tip="${question.number}">Scanning 提示</button><button class="reveal-button" type="button" data-reveal="${question.number}">顯示答案及分析</button><span class="question-result" data-question-result="${question.number}"></span></div><div class="scan-chooser" data-scan-chooser="${question.number}" hidden><span>答案最可能在哪一段？</span>${scanButtons}</div><small class="answer-timestamp" data-answer-time="${question.number}" hidden></small>`;
+    const bookmark = state.system === 'dse' ? '' : `<div class="question-bookmark-row">${readingBookmarkButton('question', question.number)}</div>`;
+    return `${heading}<section class="question-card" id="question-${question.number}" data-question="${question.number}">${bookmark}<p class="question-prompt"><span class="question-number">${question.number}</span>${state.system === 'dse' ? escapeHtml(question.prompt) : interactiveWords(question.prompt, `q${question.number}`)}</p>${marks}${translation}${context}${figure}${optionBank}${controls}${actions}</section>`;
   }).join("");
   if (state.data.questionPages?.length) el.questions.insertAdjacentHTML('afterbegin', `<details class="original-pages"><summary>查看原題完整排版、圖表及選項</summary>${state.data.questionPages.map((src) => `<a href="${escapeHtml(src)}" target="_blank" rel="noopener"><img src="${escapeHtml(src)}" alt="原題頁面（可開啟放大）" loading="lazy"></a>`).join('')}</details>`);
   state.data.questions.filter((q) => q.requiresReview).forEach((q) => $(`[data-question="${q.number}"]`).insertAdjacentHTML('afterbegin','<p class="review-notice">原題或答案需教師核對；本題可儲存，但暫不自動計分。</p>'));
-  updateScanControls(); updateAnswerProgress();
+  if (state.system === 'ielts') updateScanControls();
+  updateAnswerProgress();
 }
-function collectAnswers() { const form = new FormData(el.questionForm); state.data.questions.forEach((question) => { const value = form.getAll(`q${question.number}`).map(String).map((v) => v.trim()).filter(Boolean).sort().join(', '); if (value) state.answers[`q${question.number}`] = value; else delete state.answers[`q${question.number}`]; }); return state.answers; }
-function lockQuestionForm(locked) { $$('input[name^="q"]', el.questionForm).forEach((node) => { node.disabled = locked; }); $('[data-submit-partial]').disabled = locked; $('[type="submit"]', el.questionForm).disabled = locked; }
+function collectAnswers() {
+  const form = new FormData(el.questionForm);
+  const names = new Set(state.data.questions.flatMap((question) => question.parts?.length
+    ? question.parts.map((part) => `q${question.number}_${part.key}`)
+    : [`q${question.number}`]));
+  $$('[data-answer-part]', el.questionForm).forEach((control) => names.add(control.name));
+  names.forEach((name) => { const value = form.getAll(name).map(String).map((entry) => entry.trim()).filter(Boolean).sort().join(', '); if (value) state.answers[name] = value; else delete state.answers[name]; });
+  return state.answers;
+}
+function dseDraftKey() { return `edmund-dse-reading-draft-v1:${state.user?.id || 'student'}:${ARTICLE_ID}`; }
+function saveDseDraft() { if (state.system !== 'dse') return; collectAnswers(); try { localStorage.setItem(dseDraftKey(), JSON.stringify(state.answers)); } catch {} }
+function restoreDseDraft() {
+  if (state.system !== 'dse') return;
+  try { state.answers = JSON.parse(localStorage.getItem(dseDraftKey()) || '{}') || {}; } catch { state.answers = {}; }
+  $$('[data-answer-part]', el.questionForm).forEach((control) => { const value = state.answers[control.name] || ''; if (control.type === 'radio' || control.type === 'checkbox') control.checked = value.split(',').map((entry) => entry.trim()).includes(control.value); else control.value = value; });
+}
+function lockQuestionForm(locked) { $$('[name^="q"]', el.questionForm).forEach((node) => { node.disabled = locked; }); $('[data-submit-partial]').disabled = locked; $('[type="submit"]', el.questionForm).disabled = locked; }
 function applyResults(payload) {
   const list = payload?.question_results || payload?.results || []; const mapped = Array.isArray(list) ? Object.fromEntries(list.map((row) => [Number(row.question_number), row])) : {};
   $$('[data-question-result]').forEach((target) => { target.textContent = ''; target.className = 'question-result'; });
@@ -411,6 +503,7 @@ function applyResults(payload) {
   if (payload?.status && payload.status !== "in_progress") { state.results.finalized = true; pauseTimer(); lockQuestionForm(true); el.submissionStatus.textContent = `已提交：${payload.correct_count || 0} / ${payload.answered_count || 0} 題正確。${payload.review_count ? `另有 ${payload.review_count} 題待教師核對，不列入評分。` : ''}`; }
 }
 async function saveAttempt(submit = false, force = false, silent = false, retry = true) {
+  if (state.system !== 'ielts') { saveDseDraft(); return null; }
   if (state.savePromise) { try { await state.savePromise; } catch { return null; } return saveAttempt(submit, force, silent, retry); }
   if (!state.token || !state.data || state.submitting || state.results.finalized) return null; collectAnswers(); if (!submit && !state.attemptId && !Object.keys(state.answers).length && currentDuration() === 0) return null; state.submitting = true;
   const article = ARTICLE_ID; const token = state.token;
@@ -652,13 +745,38 @@ function assignScan(question, paragraph) { state.scanAssignments[question] = par
 function updateScanControls() { $$('[data-scan-question]').forEach((button) => { const p = state.scanAssignments[button.dataset.scanQuestion]; button.textContent = p ? `Scan：P${p}` : "Scan：選擇段落"; button.classList.toggle("has-scan", Boolean(p)); }); $$('[data-scan-choice]').forEach((button) => { const [q, p] = button.dataset.scanChoice.split(":"); button.classList.toggle("is-selected", Number(state.scanAssignments[q]) === Number(p)); }); }
 function renderScanTags() { $$('[data-scan-tags]').forEach((container) => { const paragraph = Number(container.dataset.scanTags); const questions = Object.entries(state.scanAssignments).filter(([, p]) => Number(p) === paragraph).map(([q]) => Number(q)).sort((a, b) => a - b); container.innerHTML = questions.map((q) => `<span class="scan-question-tag" title="第 ${q} 題的 Scan 段落">${q}</span>`).join(""); }); }
 
+async function openDseExercise(id) {
+  if (state.opening) return; state.opening = true;
+  try {
+    if (state.system === 'dse' && state.view === 'exercise') saveDseDraft();
+    setExerciseSystem('dse');
+    const entry = await loadDseArticleData(id);
+    resetAttemptState(); renderPassage(); renderQuestions(); setupAudio(); restoreDseDraft(); updateAnswerProgress();
+    state.exerciseReady = true;
+    state.timerHandle = setInterval(updateTimer, 250);
+    $('[data-exercise-title]').textContent = entry.title; $('#passage-title').textContent = entry.title;
+    $('[data-exercise-kicker]').textContent = `${state.data.year} DSE · PAPER 1 · PART ${state.data.section}`;
+    $('.questions-panel .pane-heading > .eyebrow').textContent = `QUESTIONS ${entry.questionStart}–${entry.questionEnd}`;
+    el.submissionStatus.textContent = '';
+    const url = clearReadingRoute(new URL(location.href));
+    url.searchParams.set('view', 'dse'); url.searchParams.set('year', String(state.data.year)); url.searchParams.set('section', state.data.section); url.searchParams.set('article', id);
+    history.replaceState({}, '', url); document.title = `${entry.title}｜DSE 閱讀理解`;
+    showView('exercise'); updateTimer(); updateFloatingOffsets();
+  } catch (error) {
+    console.warn('Could not open DSE Reading exercise', error); showToast(error.message || '未能載入 DSE 練習，請稍後再試。');
+    await openDseDashboard();
+  } finally { state.opening = false; }
+}
+
 async function openExercise(id = ARTICLE_ID) {
   if (state.opening) return; state.opening = true;
   try {
+  const currentIsIelts = state.system === 'ielts' && !String(state.data?.id || '').startsWith('dse-');
+  setExerciseSystem('ielts');
   await loadCatalogue();
   if (!state.catalogue.some((item) => item.id === id)) throw new Error('這篇練習暫未開放。');
   const changing = id !== ARTICLE_ID;
-  if (changing && state.exerciseReady) {
+  if (changing && state.exerciseReady && currentIsIelts) {
     pauseTimer(); el.audio.pause();
     if (!state.results.finalized) {
       collectAnswers(); const needsSave = state.attemptId || Object.keys(state.answers).length || currentDuration();
@@ -701,18 +819,19 @@ async function openExercise(id = ARTICLE_ID) {
 }
 async function openInitialView({ afterLogin = false } = {}) {
   const params = new URLSearchParams(location.search); const id = params.get('article');
-  if (state.catalogue.some((item) => item.id === id)) await openExercise(id);
+  if (id?.startsWith('dse-')) await openDseExercise(id);
+  else if (state.catalogue.some((item) => item.id === id)) await openExercise(id);
   else if (params.get('view') === 'question-types') { if (await prepareForReadingNavigation()) openQuestionTypeDirectory(params.get('type') || '', params.get('q') || '', false); }
-  else if (!afterLogin && params.get('view') === 'dse') await openDsePlaceholder();
+  else if (params.get('view') === 'dse') await openDseDashboard();
   else if (!afterLogin && [1, 2, 3].includes(Number(params.get('passage')))) await openDashboard();
   else await openReadingHome();
 }
 
-el.loginForm.addEventListener("submit", handleLogin); el.logout.addEventListener("click", logout); el.home.addEventListener("click", openReadingHome); $('[data-back-dashboard]').addEventListener("click", openDashboard); $('[data-refresh-dashboard]').addEventListener("click", loadDashboard);
+el.loginForm.addEventListener("submit", handleLogin); el.logout.addEventListener("click", logout); el.home.addEventListener("click", openReadingHome); $('[data-back-dashboard]').addEventListener("click", () => state.system === 'dse' ? openDseDashboard() : openDashboard()); $('[data-refresh-dashboard]').addEventListener("click", loadDashboard);
 $('[data-enter-ielts]').addEventListener('click', enterIeltsReading);
-$('[data-enter-dse]').addEventListener('click', openDsePlaceholder);
-$('[data-dse-enter-ielts]').addEventListener('click', enterIeltsReading);
+$('[data-enter-dse]').addEventListener('click', openDseDashboard);
 $$('[data-back-reading-home]').forEach((button) => button.addEventListener('click', openReadingHome));
+$$('[data-dse-sort]').forEach((button) => button.addEventListener('click', () => { state.dseSort = button.dataset.dseSort === 'asc' ? 'asc' : 'desc'; renderDseCatalogue(); }));
 $('[data-password-toggle]').addEventListener("click", (event) => { const input = $('input[name="password"]', el.loginForm); const shown = input.type === "text"; input.type = shown ? "password" : "text"; event.currentTarget.textContent = shown ? "顯示" : "隱藏"; event.currentTarget.setAttribute("aria-pressed", String(!shown)); });
 el.progressToggle.addEventListener("click", () => { const open = el.progressToggle.getAttribute("aria-expanded") === "true"; el.progressToggle.setAttribute("aria-expanded", String(!open)); el.progressPanel.hidden = open; el.progressLabel.textContent = open ? "展開 ＋" : "收合 −"; });
 $('[data-open-question-types]').addEventListener('click', () => openQuestionTypeDirectory('', '', true));
@@ -721,6 +840,7 @@ el.questionTypeSearch.addEventListener('input', (event) => { state.questionType 
 $('[data-clear-question-type-search]').addEventListener('click', () => { state.questionType = ''; state.questionTypeQuery = ''; history.replaceState({}, '', questionTypeUrl()); renderQuestionTypeView(); el.questionTypeSearch.focus(); });
 $$('[data-passage-tab]').forEach((button) => button.addEventListener("click", () => selectPassageTab(Number(button.dataset.passageTab))));
 document.addEventListener("click", (event) => {
+  const dseExerciseButton = event.target.closest('[data-open-dse-exercise]'); if (dseExerciseButton?.dataset.openDseExercise) return openDseExercise(dseExerciseButton.dataset.openDseExercise);
   const exerciseButton = event.target.closest('[data-open-exercise]'); if (exerciseButton) return openExercise(exerciseButton.dataset.openExercise || ARTICLE_ID);
   const catalogueButton = event.target.closest('[data-catalogue-bookmark]'); if (catalogueButton) { const entry = state.catalogue.find((item) => item.id === catalogueButton.dataset.catalogueBookmark); if (entry) return toggleReadingBookmark(catalogueBookmark(entry)).then(renderCatalogue); }
   const passageButton = event.target.closest('[data-passage-bookmark]'); if (passageButton) return togglePassageBookmark();
@@ -749,12 +869,12 @@ el.questions.addEventListener("click", (event) => {
   const reveal = event.target.closest('[data-reveal]'); if (reveal) return openAnalysis(Number(reveal.dataset.reveal));
   const row = event.target.closest('.choice-list label'); if (row) { const radio = $('input[type="radio"]', row); if (radio && !radio.disabled && !radio.checked) { radio.checked = true; radio.dispatchEvent(new Event("change", { bubbles: true })); } }
 });
-function handleAnswerInput(event) { if (!event.target.matches('[data-answer-part]')) return; const match = event.target.name?.match(/^q(\d+)/); if (event.target.type === 'checkbox' && event.target.checked) { const q = state.data.questions.find((item) => item.number === Number(match?.[1])); if ($$(`input[name="${event.target.name}"]:checked`,el.questionForm).length > q.slots) { event.target.checked = false; showToast(`本題最多選擇 ${q.slots} 項。`); } } if (match) recordAnswerTime(Number(match[1]), event.target.value); updateAnswerProgress(); }
+function handleAnswerInput(event) { if (!event.target.matches('[data-answer-part]')) return; const match = event.target.name?.match(/^q(\d+)/); if (event.target.type === 'checkbox' && event.target.checked) { const q = state.data.questions.find((item) => item.number === Number(match?.[1])); const slots = q?.slots || q?.parts?.find((part) => `q${q.number}_${part.key}` === event.target.name)?.slots || 1; if ($$(`input[name="${event.target.name}"]:checked`,el.questionForm).length > slots) { event.target.checked = false; showToast(`本題最多選擇 ${slots} 項。`); } } if (match) recordAnswerTime(Number(match[1]), event.target.value); if (state.system === 'dse') saveDseDraft(); updateAnswerProgress(); }
 el.questionForm.addEventListener("input", handleAnswerInput);
 el.questionForm.addEventListener("change", handleAnswerInput);
-el.questionForm.addEventListener("submit", (event) => { event.preventDefault(); submitAnswers(false, false); }); $('[data-submit-partial]').addEventListener("click", () => submitAnswers(true, false)); $('[data-analysis-bookmark]').addEventListener("click", toggleAnalysisBookmark); $('[data-skimming-bookmark]').addEventListener("click", toggleSkimmingBookmark);
+el.questionForm.addEventListener("submit", (event) => { event.preventDefault(); if (state.system === 'dse') { saveDseDraft(); showToast('作答內容已暫存在這部裝置。'); return; } submitAnswers(false, false); }); $('[data-submit-partial]').addEventListener("click", () => submitAnswers(true, false)); $('[data-analysis-bookmark]').addEventListener("click", toggleAnalysisBookmark); $('[data-skimming-bookmark]').addEventListener("click", toggleSkimmingBookmark);
 el.timerToggle.addEventListener("click", () => state.timerRunning ? pauseTimer() : startTimer());
-el.timerMode.addEventListener("change", () => { state.timerMode = el.timerMode.value; const countdown = state.timerMode === "countdown"; el.countdownLabel.hidden = !countdown; el.forceLabel.hidden = !countdown; el.timerModeLabel.textContent = countdown ? "倒數計時（選用）" : "計時（選用）"; updateTimer(); });
+el.timerMode.addEventListener("change", () => { state.timerMode = el.timerMode.value; const countdown = state.timerMode === "countdown"; el.countdownLabel.hidden = !countdown; el.forceLabel.hidden = !countdown || state.system === 'dse'; el.timerModeLabel.textContent = countdown ? "倒數計時（選用）" : "計時（選用）"; updateTimer(); });
 el.countdownMinutes.addEventListener("change", () => { state.countdownMinutes = Math.max(1, Math.min(180, Number(el.countdownMinutes.value) || 20)); el.countdownMinutes.value = String(state.countdownMinutes); updateTimer(); }); el.forceSubmit.addEventListener("change", () => { state.forceSubmit = el.forceSubmit.checked; });
 el.audioToggle.addEventListener("click", () => { state.audioStopAt = null; if (el.audio.ended) el.audio.currentTime = 0; return el.audio.paused ? el.audio.play().catch(() => showToast("瀏覽器未能開始播放，請再按一次。")) : el.audio.pause(); }); el.audioBack.addEventListener("click", () => { state.audioStopAt = null; el.audio.currentTime = Math.max(0, el.audio.currentTime - 5); }); el.audioSeek.addEventListener("input", () => { state.audioStopAt = null; el.audio.currentTime = Number(el.audioSeek.value); }); el.audioRate.addEventListener("change", () => { el.audio.playbackRate = Number(el.audioRate.value); });
 $$('[data-close-popover]').forEach((button) => button.addEventListener("click", () => closePopover(button.closest('[role="dialog"]'))));

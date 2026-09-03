@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
-  <link rel="stylesheet" href="reading-comprehension.css?v=20260829-readingportal3">
+  <link rel="stylesheet" href="reading-comprehension.css?v=20260903-dse2014-1">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
 </head>
 <body>
@@ -79,8 +79,8 @@
           <span class="reading-system-card-kicker">DSE READING COMPREHENSION</span>
           <strong>DSE 閱讀理解</strong>
           <span>香港中學文憑考試閱讀練習</span>
-          <small>內容即將加入</small>
-          <b aria-hidden="true">進入查看 →</b>
+          <small>2012–2026 · A、B1、B2</small>
+          <b aria-hidden="true">選擇年份 →</b>
         </button>
         <button class="reading-system-card panel is-ielts" type="button" data-enter-ielts>
           <span class="reading-system-card-kicker">IELTS READING COMPREHENSION</span>
@@ -92,15 +92,22 @@
       </div>
     </section>
 
-    <section class="view dse-placeholder-view" data-view="dse-placeholder" hidden>
-      <section class="dse-placeholder panel" aria-labelledby="dse-placeholder-title">
-        <button class="text-button" type="button" data-back-reading-home>← 返回選擇閱讀系統</button>
-        <p class="eyebrow">DSE READING COMPREHENSION</p>
-        <div class="dse-placeholder-mark" aria-hidden="true">DSE</div>
-        <h1 id="dse-placeholder-title">DSE 閱讀理解</h1>
-        <p>這個專區已建立，練習內容尚未加入。現時可返回選擇 IELTS 閱讀理解。</p>
-        <button class="primary-button" type="button" data-dse-enter-ielts>前往 IELTS 閱讀理解</button>
+    <section class="view dse-dashboard-view" data-view="dse-dashboard" hidden>
+      <section class="dse-dashboard-hero panel" aria-labelledby="dse-dashboard-title">
+        <div>
+          <button class="text-button" type="button" data-back-reading-home>← 返回選擇閱讀系統</button>
+          <p class="eyebrow">DSE READING COMPREHENSION</p>
+          <h1 id="dse-dashboard-title">DSE 閱讀理解</h1>
+          <p>選擇年份及 Paper 1 部分開始練習。2014 Part A 及 B2 已加入；其餘內容會陸續補充。</p>
+        </div>
+        <div class="dse-year-sort" role="group" aria-label="年份排序">
+          <span>年份排序</span>
+          <button type="button" data-dse-sort="desc" aria-pressed="true">新至舊</button>
+          <button type="button" data-dse-sort="asc" aria-pressed="false">舊至新</button>
+        </div>
       </section>
+      <p class="dse-catalogue-status" data-dse-catalogue-status role="status"></p>
+      <div class="dse-year-grid" data-dse-year-grid></div>
     </section>
 
     <section class="view" data-view="dashboard" hidden>
@@ -210,7 +217,8 @@
       </section>
 
       <section class="study-toolbar panel" aria-label="文章學習工具">
-        <div class="translation-control">
+        <p class="dse-tools-notice" data-dse-tools-notice hidden>2014 題目及文章已完整輸入。答案、中文翻譯、分析及朗讀會稍後加入。</p>
+        <div class="translation-control" data-ielts-only>
           <button class="secondary-button" type="button" data-translation-menu aria-expanded="false">中文翻譯 ▾</button>
           <div class="translation-menu" data-translation-panel hidden>
             <label><input type="checkbox" data-translation-all> 顯示全文翻譯</label>
@@ -219,7 +227,7 @@
             <button class="hide-translations-button" type="button" data-hide-translations>隱藏所有翻譯</button>
           </div>
         </div>
-        <div class="audio-control">
+        <div class="audio-control" data-ielts-only>
           <button class="primary-button" type="button" data-audio-toggle disabled>▶ 朗讀全文</button>
           <button class="icon-button" type="button" data-audio-back disabled aria-label="後退五秒">−5 秒</button>
           <input type="range" data-audio-seek min="0" max="1" step="0.05" value="0" disabled aria-label="朗讀進度">
@@ -232,13 +240,14 @@
 
       <div class="reading-workbench">
         <article class="passage-panel panel" aria-labelledby="passage-title">
-          <div class="pane-heading pane-heading-with-action"><div><p class="eyebrow">READING PASSAGE</p><h2 id="passage-title">Albert Einstein</h2></div><button class="secondary-button" type="button" data-passage-bookmark>☆ 收藏文章與題目組</button></div>
+          <div class="pane-heading pane-heading-with-action"><div><p class="eyebrow">READING PASSAGE</p><h2 id="passage-title">Albert Einstein</h2></div><button class="secondary-button" type="button" data-passage-bookmark data-ielts-only>☆ 收藏文章與題目組</button></div>
           <div class="passage-copy" data-passage></div>
         </article>
         <aside class="questions-panel panel" aria-labelledby="questions-title">
-          <div class="pane-heading"><p class="eyebrow">QUESTIONS 1–13</p><div class="pane-heading-with-action"><h2 id="questions-title">題目</h2><button class="secondary-button" type="button" data-bookmark-kind="questions">☆ 收藏整組題目</button></div><label class="question-translation-toggle"><input type="checkbox" data-question-translations> 顯示題目中文翻譯</label></div>
+          <div class="pane-heading"><p class="eyebrow">QUESTIONS 1–13</p><div class="pane-heading-with-action"><h2 id="questions-title">題目</h2><button class="secondary-button" type="button" data-bookmark-kind="questions" data-ielts-only>☆ 收藏整組題目</button></div><label class="question-translation-toggle" data-ielts-only><input type="checkbox" data-question-translations> 顯示題目中文翻譯</label></div>
           <form data-question-form><div data-questions></div>
-            <div class="submit-bar"><button class="secondary-button" type="button" data-submit-partial>提交已作答題目</button><button class="primary-button" type="submit">提交全部答案</button></div>
+            <div class="submit-bar" data-ielts-only><button class="secondary-button" type="button" data-submit-partial>提交已作答題目</button><button class="primary-button" type="submit">提交全部答案</button></div>
+            <p class="dse-draft-note" data-dse-draft-note hidden>作答內容只會暫存在這部裝置；答案及正式提交功能會稍後加入。</p>
             <p class="submission-status" data-submission-status role="status" aria-live="polite"></p>
           </form>
         </aside>
@@ -257,6 +266,6 @@
   <script src="ielts-reading-question-types.js?v=20260829-2"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
-  <script type="module" src="reading-comprehension.js?v=20260901-word-brush1"></script>
+  <script type="module" src="reading-comprehension.js?v=20260903-dse2014-1"></script>
 </body>
 </html>

@@ -5,14 +5,16 @@ import { readFile, stat } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
-const [html, css, script, dataText, analysisText, audioManifest, sql, nav, progress, home, manifestText, bookmarkHtml, bookmarkScript] = await Promise.all([
+const [html, css, script, dataText, analysisText, audioManifest, sql, nav, progress, home, manifestText, bookmarkHtml, bookmarkScript, dseCatalogueText, dseAText, dseB2Text] = await Promise.all([
   read("reading-comprehension.html"), read("reading-comprehension.css"), read("reading-comprehension.js"),
   read("reading-comprehension-data/p1-069-albert-einstein.json"), read("ielts-reading-analysis-data/p1-069-albert-einstein.json"),
   read("reading-comprehension-audio-manifest.js"), read("supabase-reading-comprehension.sql"),
   read("shared-system-nav.js"), read("student-progress-core.js"), read("index.html"), read("pwa-manifests/reading-comprehension.webmanifest"),
-  read("bookmark-directory.html"), read("bookmark-directory.js")
+  read("bookmark-directory.html"), read("bookmark-directory.js"),
+  read("dse-reading-catalogue.json"), read("dse-reading-data/dse-2014-a.json"), read("dse-reading-data/dse-2014-b2.json")
 ]);
 const data = JSON.parse(dataText); const analysis = JSON.parse(analysisText); const manifest = JSON.parse(manifestText);
+const dseCatalogue = JSON.parse(dseCatalogueText); const dseA = JSON.parse(dseAText); const dseB2 = JSON.parse(dseB2Text);
 
 assert.match(html, /Reading Comprehension<br><span>閱讀理解<\/span><br>學習系統/);
 assert.match(html, /data-system="reading-comprehension"/);
@@ -35,8 +37,11 @@ assert.match(html, /data-enter-ielts/);
 assert.match(html, /reading-system-choice-grid" role="group" aria-label="閱讀理解系統選擇"/);
 assert.match(html, /DSE 閱讀理解/);
 assert.match(html, /IELTS 閱讀理解/);
-assert.match(html, /data-view="dse-placeholder"/);
-assert.match(html, /練習內容尚未加入/);
+assert.match(html, /data-view="dse-dashboard"/);
+assert.match(html, /data-dse-sort="desc"/);
+assert.match(html, /data-dse-sort="asc"/);
+assert.match(html, /data-dse-year-grid/);
+assert.match(html, /2014 Part A 及 B2 已加入/);
 assert.match(html, /data-back-reading-home/);
 assert.ok(
   html.indexOf('data-view="login"') < html.indexOf('data-view="reading-home"')
@@ -62,7 +67,9 @@ assert.match(css, /\.question-type-chip\s*\{/);
 assert.match(css, /\.question-type-result-card\s*\{/);
 assert.match(css, /\.reading-system-choice-grid\s*\{/);
 assert.match(css, /\.reading-system-card\s*\{/);
-assert.match(css, /\.dse-placeholder-view\s*\{/);
+assert.match(css, /\.dse-dashboard-view\s*\{/);
+assert.match(css, /\.dse-year-grid\s*\{/);
+assert.match(css, /\.dse-section-button\s*\{/);
 assert.match(script, /flashcard_student_login/);
 assert.match(script, /reading_comprehension_save_attempt/);
 assert.match(script, /reading_comprehension_student_dashboard/);
@@ -72,7 +79,9 @@ assert.match(script, /dataset\.openExercise = articleId/);
 assert.match(script, /QUESTION_TYPE_INDEX\.umbrellaAliases/);
 assert.match(script, /url\.searchParams\.set\('passage', String\(\[1, 2, 3\]\.includes\(state\.passageTab\)/, "the in-portal finder route must retain its IELTS Passage context");
 assert.match(script, /async function openReadingHome\(\)/);
-assert.match(script, /async function openDsePlaceholder\(\)/);
+assert.match(script, /async function openDseDashboard\(\)/);
+assert.match(script, /async function openDseExercise\(id\)/);
+assert.match(script, /function renderDseCatalogue\(\)/);
 assert.match(script, /async function enterIeltsReading\(\)/);
 assert.match(script, /openInitialView\(\{ afterLogin: true \}\)/);
 assert.match(script, /await Promise\.all\(\[loadCatalogue\(\), loadBookmarks\(\)\]\)/);
@@ -83,7 +92,7 @@ assert.ok(
   "valid exercise and finder deep links must take precedence over the generic post-login selector",
 );
 assert.match(script, /el\.home\.addEventListener\("click", openReadingHome\)/);
-assert.match(script, /\$\('\[data-back-dashboard\]'\)\.addEventListener\("click", openDashboard\)/);
+assert.match(script, /\$\('\[data-back-dashboard\]'\)\.addEventListener\("click", \(\) => state\.system === 'dse' \? openDseDashboard\(\) : openDashboard\(\)\)/);
 assert.match(script, /\['skimming', 'scanning', 'analysis'\]\.includes\(requestedView\)/, "exercise deep links must preserve supported learning views");
 assert.match(script, /const url = clearReadingRoute\(new URL\(location\.href\)\); history\.replaceState\(\{\}, '', url\); document\.title = '閱讀理解學習系統｜EdmundEducation'/, "logout must clear stale article and finder routes before another student signs in");
 assert.match(script, /heading\.focus\(\{ preventScroll: true \}\)/, "SPA view changes must move keyboard focus to the new page heading");
@@ -117,6 +126,25 @@ assert.match(bookmarkScript, /Skimming Tips/);
 assert.match(bookmarkScript, /答案解析/);
 assert.equal(manifest.id, "/apps/reading-comprehension");
 assert.equal(manifest.start_url, "/reading-comprehension.html?source=pwa");
+
+assert.deepEqual(dseCatalogue.years.map((row) => row.year), Array.from({ length: 15 }, (_, index) => 2012 + index));
+assert.deepEqual(Object.keys(dseCatalogue.years[0].sections), ["A", "B1", "B2"]);
+const dse2014 = dseCatalogue.years.find((row) => row.year === 2014);
+assert.equal(dse2014.sections.A.id, "dse-2014-a");
+assert.equal(dse2014.sections.B1, null);
+assert.equal(dse2014.sections.B2.id, "dse-2014-b2");
+assert.equal(dseA.title, "Apologies all around");
+assert.equal(dseA.questions.length, 30);
+assert.equal(dseA.questions.at(0).number, 1);
+assert.equal(dseA.questions.at(-1).number, 30);
+assert.match(dseA.questions.find((question) => question.number === 8).figure.src, /2014-a-q8-robot\.jpg$/);
+assert.equal(dseB2.title, "Celebrity");
+assert.equal(dseB2.paragraphs.length, 9);
+assert.equal(dseB2.questions.length, 25);
+assert.equal(dseB2.questions.at(0).number, 60);
+assert.equal(dseB2.questions.at(-1).number, 84);
+assert.ok([...dseA.paragraphs, ...dseB2.paragraphs].every((paragraph) => !paragraph.translation));
+assert.ok([...dseA.questions, ...dseB2.questions].every((question) => !("answer" in question)));
 
 const pathMatch = audioManifest.match(/"path":"([^"]+\.mp3)"/);
 if (pathMatch) assert.ok((await stat(new URL(pathMatch[1], root))).size > 1000, "generated narration must be a real MP3");

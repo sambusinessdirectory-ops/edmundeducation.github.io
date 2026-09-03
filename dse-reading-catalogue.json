@@ -1,0 +1,41 @@
+{
+  "version": "20260903-dse2014-1",
+  "years": [
+    { "year": 2012, "sections": { "A": null, "B1": null, "B2": null } },
+    { "year": 2013, "sections": { "A": null, "B1": null, "B2": null } },
+    {
+      "year": 2014,
+      "sections": {
+        "A": {
+          "id": "dse-2014-a",
+          "title": "Apologies all around",
+          "questionStart": 1,
+          "questionEnd": 30,
+          "questionCount": 30,
+          "version": "20260903-dse2014-1"
+        },
+        "B1": null,
+        "B2": {
+          "id": "dse-2014-b2",
+          "title": "Celebrity",
+          "questionStart": 60,
+          "questionEnd": 84,
+          "questionCount": 25,
+          "version": "20260903-dse2014-1"
+        }
+      }
+    },
+    { "year": 2015, "sections": { "A": null, "B1": null, "B2": null } },
+    { "year": 2016, "sections": { "A": null, "B1": null, "B2": null } },
+    { "year": 2017, "sections": { "A": null, "B1": null, "B2": null } },
+    { "year": 2018, "sections": { "A": null, "B1": null, "B2": null } },
+    { "year": 2019, "sections": { "A": null, "B1": null, "B2": null } },
+    { "year": 2020, "sections": { "A": null, "B1": null, "B2": null } },
+    { "year": 2021, "sections": { "A": null, "B1": null, "B2": null } },
+    { "year": 2022, "sections": { "A": null, "B1": null, "B2": null } },
+    { "year": 2023, "sections": { "A": null, "B1": null, "B2": null } },
+    { "year": 2024, "sections": { "A": null, "B1": null, "B2": null } },
+    { "year": 2025, "sections": { "A": null, "B1": null, "B2": null } },
+    { "year": 2026, "sections": { "A": null, "B1": null, "B2": null } }
+  ]
+}

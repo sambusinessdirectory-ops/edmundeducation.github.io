@@ -177,16 +177,51 @@ button:focus-visible,select:focus-visible { outline: 3px solid #b9852f; outline-
 .reading-system-card>span:not(.reading-system-card-kicker) { margin-top:12px; color:var(--muted); font-weight:750; }
 .reading-system-card small { margin-top:12px; border-radius:999px; padding:6px 10px; color:currentColor; background:rgba(255,255,255,.72); font-weight:850; }
 .reading-system-card b { margin-top:26px; color:currentColor; font-size:.92rem; }
-.dse-placeholder-view { min-height:650px; display:grid; place-items:center; }
-.dse-placeholder { width:min(820px,100%); padding:clamp(30px,6vw,76px); text-align:center; background:linear-gradient(145deg,#fff,#fff7e7); border-color:#ddc88d; }
-.dse-placeholder .text-button { display:block; margin:0 auto 28px 0; }
-.dse-placeholder-mark { width:100px; height:100px; margin:0 auto 22px; display:grid; place-items:center; border-radius:28px; color:#fff; background:#8b6427; font:800 1.7rem/1 Georgia,serif; box-shadow:0 14px 30px rgba(121,85,27,.2); }
-.dse-placeholder h1 { margin:.2rem 0 .8rem; font:700 clamp(2.5rem,6vw,5rem)/1 Georgia,"Noto Serif TC",serif; }
-.dse-placeholder p:not(.eyebrow) { max-width:600px; margin:0 auto 26px; color:var(--muted); }
+.dse-dashboard-view { display:grid; gap:18px; }
+.dse-dashboard-hero { padding:clamp(26px,4vw,48px); display:flex; align-items:flex-end; justify-content:space-between; gap:28px; border-color:#ddc88d; background:linear-gradient(125deg,#fff,#fff4d9); }
+.dse-dashboard-hero h1 { margin:.2rem 0 .75rem; font:700 clamp(2.5rem,5vw,4.9rem)/1 Georgia,"Noto Serif TC",serif; }
+.dse-dashboard-hero p:last-child { max-width:760px; margin-bottom:0; color:var(--muted); }
+.dse-year-sort { flex:0 0 auto; display:grid; grid-template-columns:repeat(2,minmax(92px,1fr)); gap:7px; padding:7px; border:1px solid #ddc88d; border-radius:15px; background:rgba(255,255,255,.8); }
+.dse-year-sort span { grid-column:1/-1; padding:2px 5px; color:#75501d; font-size:.75rem; font-weight:900; }
+.dse-year-sort button { min-height:42px; border:0; border-radius:10px; padding:0 14px; color:#79551b; background:transparent; font:850 .86rem/1 inherit; cursor:pointer; }
+.dse-year-sort button[aria-pressed="true"] { color:#fff; background:#8b6427; box-shadow:0 7px 16px rgba(121,85,27,.2); }
+.dse-catalogue-status { margin:0; color:var(--muted); font-size:.88rem; font-weight:750; }
+.dse-year-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:15px; }
+.dse-year-card { min-width:0; border:1px solid var(--line); border-radius:20px; padding:20px; background:#fff; box-shadow:0 10px 28px rgba(24,54,48,.07); }
+.dse-year-card.is-ready { border-color:#d4b56d; background:linear-gradient(145deg,#fff,#fff9ec); }
+.dse-year-card-header { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:16px; }
+.dse-year-card h2 { margin:0; color:var(--green); font:700 2rem/1 Georgia,"Noto Serif TC",serif; }
+.dse-year-card-badge { border-radius:999px; padding:5px 9px; color:#76531a; background:#f6e5b8; font-size:.7rem; font-weight:900; }
+.dse-section-buttons { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
+.dse-section-button { min-height:56px; border:1px solid #d5c7a4; border-radius:11px; color:#72501a; background:#fffaf0; font:900 1rem/1 inherit; cursor:pointer; }
+.dse-section-button:hover:not(:disabled) { border-color:#8b6427; background:#f8e8bd; }
+.dse-section-button.is-ready { color:#fff; border-color:#8b6427; background:#8b6427; box-shadow:0 7px 16px rgba(121,85,27,.18); }
+.dse-section-button:disabled { color:#989186; border-color:#e5e1d8; background:#f3f2ef; opacity:1; }
+.dse-tools-notice { width:100%; margin:0; color:#6f4c15; font-weight:850; text-align:center; }
+.dse-draft-note { position:sticky; bottom:-36px; margin:25px -36px -36px; padding:18px 36px; border-top:1px solid #e5cf98; color:#6f4c15; background:#fff8e8; font-weight:800; }
+.question-meta { margin:.35rem 0 0; color:var(--muted); font-size:.78rem; font-weight:800; }
+.question-figure { margin:14px 0; border:1px solid var(--line); border-radius:12px; padding:12px; background:#fff; }
+.question-figure img { display:block; width:min(100%,520px); height:auto; margin:auto; }
+.question-figure figcaption { margin-top:8px; color:var(--muted); font-size:.76rem; text-align:center; }
+.question-option-bank { margin:12px 0; padding:12px 14px; border:1px solid #dcc98d; border-radius:11px; color:#65470f; background:#fff8e6; font-weight:800; white-space:pre-line; }
+.question-parts { display:grid; gap:12px; margin-top:14px; }
+.question-part { display:grid; gap:7px; }
+.question-part>span { color:var(--ink); font-weight:750; white-space:pre-line; }
+.question-part textarea.answer-input { min-height:90px; resize:vertical; }
+.question-part select.answer-input { appearance:auto; background:#fff; }
+.question-part .choice-list { margin:0; }
+.dse-source-note { margin:0 0 18px; padding:14px 16px; border-left:4px solid var(--gold); border-radius:0 10px 10px 0; color:#65470f; background:#fff8e8; font-size:.92rem; }
+.dse-exercise .question-actions,.dse-exercise .question-bookmark-row { display:none; }
+.dse-exercise .paragraph-heading .reading-bookmark-button { display:none; }
+.dse-exercise .question-prompt { white-space:pre-line; }
+.view h1[tabindex="-1"]:focus,.view h2[tabindex="-1"]:focus { outline:none; }
 .dashboard-system-back { margin-bottom:12px; }
 @media(max-width:800px) {
   .reading-system-choice-grid { grid-template-columns:1fr; }
   .reading-system-card { min-height:260px; }
+  .dse-dashboard-hero { align-items:stretch; display:grid; }
+  .dse-year-sort { width:100%; }
+  .dse-year-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
 }
 @media(max-width:650px) {
   .reading-home-hero { padding:30px 20px; }
@@ -194,7 +229,9 @@ button:focus-visible,select:focus-visible { outline: 3px solid #b9852f; outline-
   .reading-system-choice-grid { gap:14px; }
   .reading-system-card { min-height:235px; padding:24px 20px; }
   .reading-system-card strong { font-size:2rem; }
-  .dse-placeholder-view { min-height:520px; }
-  .dse-placeholder { padding:26px 20px; }
-  .dse-placeholder .primary-button { width:100%; }
+  .dse-dashboard-hero { padding:26px 20px; }
+  .dse-dashboard-hero h1 { font-size:2.45rem; }
+  .dse-year-grid { grid-template-columns:1fr; gap:12px; }
+  .dse-year-card { padding:18px; }
+  .dse-draft-note { bottom:-20px; margin:25px -20px -20px; padding:15px 20px; }
 }
