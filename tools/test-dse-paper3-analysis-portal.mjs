@@ -19,8 +19,10 @@ const data = context.window.EDMUND_DSE_PAPER3_DATA;
 
 assert.match(html, /data-edmund-system-switcher data-system="dse-paper3-analysis"/);
 assert.match(html, /shared-system-nav\.js\?v=20260822-night-invitation1/);
-assert.match(html, /dse-paper3-analysis-data\.js\?v=20260809-2/);
-assert.match(html, /dse-paper3-analysis\.js\?v=20260812-1/);
+assert.match(html, /dse-paper3-analysis-data\.js\?v=20260903-1/);
+assert.match(html, /dse-paper3-analysis\.js\?v=20260903-partb-1/);
+assert.match(html, /dse-listening-2023-transcript\.js\?v=20260903-1/);
+assert.match(html, /dse-listening-2023-data\.js\?v=20260903-2/);
 assert.match(html, /data-login-form/);
 assert.match(html, /autocomplete="username"/);
 assert.match(html, /autocomplete="current-password"/);
@@ -42,6 +44,9 @@ assert.match(js, /state\.sort === "asc" \? a - b : b - a/);
 assert.match(js, /data-select-year/);
 assert.match(js, /data-select-level/);
 assert.match(js, /data-select-material/);
+assert.match(js, /data-partb-audio/);
+assert.match(js, /data-partb-line/);
+assert.match(js, /payload\?\.dseTracks/);
 assert.match(js, /<details class="essay-card"/);
 assert.match(js, /<details class="analysis-accordion"/);
 assert.match(js, /data-details-action="expand"/);
@@ -57,11 +62,12 @@ assert.match(css, /@media print/);
 assert.match(css, /\.selection-grid\.level-grid,[\s\S]*?repeat\(2/);
 assert.match(css, /\.analysis-page/);
 assert.match(css, /\.essay-document h3/);
+assert.match(css, /\.partb-listening-panel/);
 
-assert.deepEqual(Array.from(data.years), Array.from({ length: 14 }, (_, index) => 2025 - index));
+assert.deepEqual(Array.from(data.years), Array.from({ length: 15 }, (_, index) => 2026 - index));
 assert.deepEqual(Array.from(data.levels, ({ label }) => label), ["B1", "B2"]);
 assert.deepEqual(Array.from(data.materialTypes, ({ id }) => id), ["model-essay", "data-file-analysis"]);
 assert.equal(data.resources["2025-b2"].modelEssays.length, 3);
 assert.equal(data.resources["2025-b2"].analysisSections.length, 13);
 
-console.log("DSE Paper 3 portal checks passed: shared login, 14 years, B1/B2, 2 resource types, 3 essays and 13 analysis sections.");
+console.log("DSE Paper 3 portal checks passed: shared login, 15 years, 2023 Part B, B1/B2, 2 resource types, 3 essays and 13 analysis sections.");

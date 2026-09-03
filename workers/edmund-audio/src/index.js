@@ -8,9 +8,11 @@ const AUDIO_PREFIXES = [
   "assets/speaking-system/audio/edmund-neural/part3/",
   "assets/speaking-system/audio/edmund-neural/exam/",
   "assets/reading-comprehension/audio/edmund-neural/",
-  "IELTS Listening - Recordings/"
+  "IELTS Listening - Recordings/",
+  "DSE Listening - Recordings/"
 ];
 const IELTS_LISTENING_PREFIX = "IELTS Listening - Recordings/";
+const DSE_LISTENING_PREFIX = "DSE Listening - Recordings/";
 const IMMUTABLE_CACHE = "public, max-age=31536000, immutable";
 const FLASHCARD_PACK_INDEXES = [
   flashcardPackIndex,
@@ -92,24 +94,44 @@ function listeningTrackNumbers(key) {
   return { practice: practiceNumber, part: partNumber };
 }
 
+function dseListeningTrack(key) {
+  if (!key.startsWith(DSE_LISTENING_PREFIX) || !key.toLowerCase().endsWith(".mp3")) return null;
+  const filename = key.slice(DSE_LISTENING_PREFIX.length);
+  const yearMatch = filename.match(/(?:^|[^0-9])(20(?:1[2-9]|2[0-6]))(?:[^0-9]|$)/i);
+  const partB = /part[\s_.-]*b(?:[^a-z]|$)/i.test(filename);
+  const taskMatch = filename.match(/part[\s_.-]*a[\s_.-]*task[\s_.-]*0*([1-4])(?:[^0-9]|$)/i);
+  if (!yearMatch || (!partB && !taskMatch)) return null;
+  const year = Number(yearMatch[1]);
+  return partB
+    ? { year, section: "part-b", task: 0 }
+    : { year, section: "part-a", task: Number(taskMatch[1]) };
+}
+
 function encodedObjectPath(key) {
   return key.split("/").map(segment => encodeURIComponent(segment)).join("/");
 }
 
 async function listeningCatalogue(request, env) {
   const origin = new URL(request.url).origin;
-  const objects = [];
-  let cursor;
-  for (let page = 0; page < 20; page += 1) {
-    const result = await env.EDMUND_ASSETS.list({
-      prefix: IELTS_LISTENING_PREFIX,
-      limit: 1000,
-      ...(cursor ? { cursor } : {})
-    });
-    objects.push(...result.objects);
-    if (!result.truncated || !result.cursor) break;
-    cursor = result.cursor;
-  }
+  const listObjects = async (prefix) => {
+    const objects = [];
+    let cursor;
+    for (let page = 0; page < 20; page += 1) {
+      const result = await env.EDMUND_ASSETS.list({
+        prefix,
+        limit: 1000,
+        ...(cursor ? { cursor } : {})
+      });
+      objects.push(...result.objects);
+      if (!result.truncated || !result.cursor) break;
+      cursor = result.cursor;
+    }
+    return objects;
+  };
+  const [objects, dseObjects] = await Promise.all([
+    listObjects(IELTS_LISTENING_PREFIX),
+    listObjects(DSE_LISTENING_PREFIX)
+  ]);
 
   const mapped = [];
   const unmapped = [];
@@ -144,10 +166,25 @@ async function listeningCatalogue(request, env) {
       if (!seen.has(`${practice}:${part}`)) missing.push({ practice, part });
     }
   }
+  const dseMapped = dseObjects
+    .map((object) => {
+      const details = dseListeningTrack(object.key);
+      return details ? { ...details, key: object.key, url: `${origin}/${encodedObjectPath(object.key)}` } : null;
+    })
+    .filter(Boolean)
+    .sort((left, right) => left.year - right.year || left.section.localeCompare(right.section) || left.task - right.task);
+  const dseSeen = new Set();
+  const dseTracks = dseMapped.filter((track) => {
+    const slot = `${track.year}:${track.section}:${track.task}`;
+    if (dseSeen.has(slot)) return false;
+    dseSeen.add(slot);
+    return true;
+  });
   return jsonResponse({
     expectedTracks: expectedPractices.size * 4,
     complete: missing.length === 0 && duplicates.length === 0,
     tracks: unique.map(({ practice, part, url }) => ({ practice, part, url })),
+    dseTracks: dseTracks.map(({ year, section, task, url }) => ({ year, section, task, url })),
     missing,
     duplicateCount: duplicates.length,
     unmappedCount: unmapped.length
@@ -285,7 +322,7 @@ export default {
       return listeningCatalogue(request, env);
     }
     if (url.pathname === "/" || url.pathname === "/health") {
-      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["part1", "part3", "exam", "flashcards", "ielts-listening", "reading-comprehension"] }), {
+      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["part1", "part3", "exam", "flashcards", "ielts-listening", "reading-comprehension", "dse-listening"] }), {
         headers: {
           "Cache-Control": "no-store",
           "Content-Type": "application/json; charset=utf-8",

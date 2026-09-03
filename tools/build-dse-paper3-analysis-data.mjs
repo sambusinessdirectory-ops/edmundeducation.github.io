@@ -168,7 +168,7 @@ function buildData(sourceText) {
   return {
     version: 1,
     generatedFrom: "2025 B2 - DSE - Paper 3 - Integrated Skills - 5__Benchmark Essays.pdf",
-    years: range(2012, 2025).reverse(),
+    years: range(2012, 2026).reverse(),
     levels: [
       { id: "b1", label: "B1" },
       { id: "b2", label: "B2" }

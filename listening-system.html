@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
-  <link rel="stylesheet" href="listening-system.css?v=20260827-import1">
+  <link rel="stylesheet" href="listening-system.css?v=20260903-dse2023-1">
 </head>
 <body>
   <a class="skip-link" href="#listening-main">跳至主要內容</a>
@@ -82,8 +82,9 @@
     </section>
 
     <section class="view" data-view="dse" hidden>
-      <section class="section-heading panel"><div><p class="eyebrow">DSE LISTENING</p><h1>DSE Paper 3 Part A 聆聽</h1></div><button class="secondary-button" type="button" data-home>返回選擇</button></section>
-      <div class="empty-state panel"><span aria-hidden="true">🎧</span><h2>目前未有可播放錄音</h2><p>此分區已建立；加入 DSE Part A 錄音後，系統會在這裡列出。</p></div>
+      <section class="section-heading panel"><div><p class="eyebrow">DSE LISTENING</p><h1>DSE Paper 3 Part A 聆聽</h1><p>選擇 2012–2026 年份；可按年份升序或降序排列。</p></div><div class="heading-actions"><label class="sort-control">排列<select data-dse-sort><option value="desc">2026 → 2012</option><option value="asc">2012 → 2026</option></select></label><button class="secondary-button" type="button" data-home>返回選擇</button></div></section>
+      <div class="dse-year-grid" data-dse-year-grid></div>
+      <section class="dse-workspace panel" data-dse-workspace hidden aria-labelledby="dse-workspace-title"></section>
     </section>
 
     <section class="view" data-view="ielts" hidden>
@@ -151,12 +152,14 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/lamejs@1.2.1/lame.min.js" integrity="sha384-xuasJXVcyv3hZq0eYpelEkBC8l4yufatZXDsKuyCU2rqfhDCb+ftuE/mSfZAteiK" crossorigin="anonymous"></script>
-  <script src="listening-system-catalog.js?v=20260827-import1"></script>
+  <script src="listening-system-catalog.js?v=20260903-dse2023-1"></script>
+  <script src="dse-listening-2023-transcript.js?v=20260903-1"></script>
+  <script src="dse-listening-2023-data.js?v=20260903-2"></script>
   <script src="listening-practice-1-data.js?v=20260822-1"></script>
   <script src="listening-practice-1-transcript.js?v=20260822-1"></script>
   <script src="listening-practice-1-analysis.js?v=20260822-1"></script>
   <script src="listening-practice-1-timings.js?v=20260822-1"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
-  <script type="module" src="listening-system.js?v=20260827-import1"></script>
+  <script type="module" src="listening-system.js?v=20260903-dse2023-1"></script>
 </body>
 </html>

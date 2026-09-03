@@ -13,8 +13,17 @@
         href: `listening-system.html?section=ielts&practice=${practice}&part=${part}` });
     }))
   }));
+  const dseYears = Object.freeze(Array.from({ length: 15 }, (_, index) => {
+    const year = 2012 + index;
+    return Object.freeze({
+      id: `dse-listening-${year}`, year,
+      title: `${year} DSE Paper 3 Part A`,
+      href: `listening-system.html?section=dse&year=${year}`,
+      available: year === 2023
+    });
+  }));
   window.EDMUND_LISTENING_CATALOG = Object.freeze({ version: 2, systems: Object.freeze([
     Object.freeze({id:"dse",title:"DSE Paper 3 Part A 聆聽"}),
     Object.freeze({id:"ielts",title:"IELTS 聆聽"})
-  ]), practices: Object.freeze(practices) });
+  ]), practices: Object.freeze(practices), dseYears });
 })();

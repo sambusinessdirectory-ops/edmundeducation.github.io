@@ -3,6 +3,7 @@ window.EDMUND_DSE_PAPER3_DATA = Object.freeze({
   "version": 1,
   "generatedFrom": "2025 B2 - DSE - Paper 3 - Integrated Skills - 5__Benchmark Essays.pdf",
   "years": [
+    2026,
     2025,
     2024,
     2023,

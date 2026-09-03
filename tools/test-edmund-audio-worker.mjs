@@ -178,7 +178,19 @@ const getCalls = [];
 const env = {
   EDMUND_ASSETS: {
     async list({ prefix }) {
-      assert(prefix === "IELTS Listening - Recordings/", "Listening list used the wrong R2 prefix");
+      assert(
+        prefix === "IELTS Listening - Recordings/" || prefix === "DSE Listening - Recordings/",
+        "Listening list used an unexpected R2 prefix"
+      );
+      if (prefix === "DSE Listening - Recordings/") {
+        return {
+          truncated: false,
+          objects: [
+            { key: `${prefix}DSE 2023 Part A Task 1.mp3`, size: 34567, uploaded: new Date("2026-09-03T01:00:00Z") },
+            { key: `${prefix}DSE 2023 Part B.mp3`, size: 45678, uploaded: new Date("2026-09-03T01:01:00Z") }
+          ]
+        };
+      }
       return {
         truncated: false,
         objects: [
@@ -320,6 +332,7 @@ const healthResponse = await worker.fetch(new Request(`${publicHost}/health`), e
 const health = await healthResponse.json();
 assert(healthResponse.status === 200 && health.products.includes("flashcards"), "Health omits flashcards");
 assert(health.products.includes("ielts-listening"), "Health omits IELTS listening");
+assert(health.products.includes("dse-listening"), "Health omits DSE listening");
 
 const listeningResponse = await worker.fetch(new Request(`${publicHost}/v1/listening/catalog`), env);
 assert(listeningResponse.status === 200, "IELTS listening catalogue did not respond");
@@ -331,6 +344,10 @@ assert(
   "Listening filenames were not mapped to the right practice and part"
 );
 assert(listeningCatalogue.missing.length === 78, "Listening missing-track count is wrong");
+assert(
+  JSON.stringify(listeningCatalogue.dseTracks.map(track => [track.year, track.section, track.task])) === JSON.stringify([[2023, "part-a", 1], [2023, "part-b", 0]]),
+  "DSE listening filenames were not mapped to the right year, section and task"
+);
 assert(listeningCatalogue.unmappedCount === 1, "Unmapped listening-object count is wrong");
 assert(listeningCatalogue.duplicateCount === 0, "Listening duplicate count is wrong");
 assert(!Object.hasOwn(listeningCatalogue, "prefix"), "Public catalogue exposed the storage prefix");
@@ -340,6 +357,12 @@ for (const track of listeningCatalogue.tracks) {
   assert(
     JSON.stringify(Object.keys(track).sort()) === JSON.stringify(["part", "practice", "url"]),
     "Public track leaked storage metadata"
+  );
+}
+for (const track of listeningCatalogue.dseTracks) {
+  assert(
+    JSON.stringify(Object.keys(track).sort()) === JSON.stringify(["section", "task", "url", "year"]),
+    "Public DSE track leaked storage metadata"
   );
 }
 assert(
