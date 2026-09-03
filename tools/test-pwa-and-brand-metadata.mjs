@@ -34,6 +34,7 @@ const htmlPages = [
   "cre.html",
   "daily-newsletter.html",
   "dse-paper3-analysis.html",
+  "dse-paper3-listening-archive.html",
   "english-in-shows-system.html",
   "english-humour-speaking.html",
   "english-humour-writing.html",
