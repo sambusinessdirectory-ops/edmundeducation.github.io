@@ -27,6 +27,9 @@
     situation: "You are listening to a YouTube Channel called Extraordinary Hong Kong People hosted by YouTuber sisters Monica and Candice Cheung. On their YouTube channel they investigate Hong Kongers who have made an impact in the world in unusual ways.",
     situationZh: "你正在收聽由 YouTuber 姊妹 Monica 和 Candice Cheung 主持的 YouTube 頻道 Extraordinary Hong Kong People。她們會訪問以非一般方式在世界上帶來影響的香港人。",
     instructions: "In Part A, you will have a total of four tasks to do. Follow the instructions in the Question-Answer Book and in the recording to complete the tasks. You will find all the information you need in the Question-Answer Book and the recording.",
+    instructionsZh: "在甲部，你需要完成四項任務。請按照答題簿及錄音中的指示完成各項任務；所需資料均可在答題簿及錄音中找到。",
+    familiarisation: "You now have two minutes to familiarise yourself with Tasks 1–4.",
+    familiarisationZh: "你現在有兩分鐘時間熟習任務 1 至 4。",
     tasks: Object.freeze([
       task(1, 13, "An extraordinary career and life story", "Candice and Monica are interviewing their first guest about her life story and career. Listen and write the information in the spaces below. The first one has been provided as an example.", [
         template("<p><strong>What is the name of the show?</strong> <span class=\"dse-example-answer\">Extraordinary Hong Kong People (example)</span></p>"),

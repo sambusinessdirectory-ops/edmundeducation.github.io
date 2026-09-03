@@ -15,6 +15,9 @@ const data = context.window.EDMUND_DSE_LISTENING_2023;
 assert.equal(data.year, 2023);
 assert.equal(data.tasks.length, 4);
 assert.equal(data.questionCount, 53);
+assert.match(data.situation, /Extraordinary Hong Kong People/);
+assert.match(data.instructions, /total of four tasks/);
+assert.match(data.familiarisation, /two minutes/);
 
 const numbers = new Set();
 for (const task of data.tasks) {
