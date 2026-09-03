@@ -1,7 +1,35 @@
 {
-  "version": "20260903-dse2026-1",
+  "version": "20260903-dse2012-1",
   "years": [
-    { "year": 2012, "sections": { "A": null, "B1": null, "B2": null } },
+    {
+      "year": 2012,
+      "sections": {
+        "A": {
+          "id": "dse-2012-a",
+          "title": "Game Boys Get Unplugged",
+          "questionStart": 1,
+          "questionEnd": 20,
+          "questionCount": 20,
+          "version": "20260903-dse2012-1"
+        },
+        "B1": {
+          "id": "dse-2012-b1",
+          "title": "Saving the World, one Patch at a Time",
+          "questionStart": 21,
+          "questionEnd": 40,
+          "questionCount": 20,
+          "version": "20260903-dse2012-1"
+        },
+        "B2": {
+          "id": "dse-2012-b2",
+          "title": "Book Publishers Weekly & The ‘Chinese Mom’ Backlash",
+          "questionStart": 41,
+          "questionEnd": 73,
+          "questionCount": 33,
+          "version": "20260903-dse2012-1"
+        }
+      }
+    },
     { "year": 2013, "sections": { "A": null, "B1": null, "B2": null } },
     {
       "year": 2014,

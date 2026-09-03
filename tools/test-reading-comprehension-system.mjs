@@ -5,17 +5,20 @@ import { readFile, stat } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
-const [html, css, script, dataText, analysisText, audioManifest, sql, nav, progress, home, manifestText, bookmarkHtml, bookmarkScript, dseCatalogueText, dseAText, dseB2Text, dse2026AText, dse2026B1Text, dse2026B2Text] = await Promise.all([
+const [html, css, script, dataText, analysisText, audioManifest, sql, nav, progress, home, manifestText, bookmarkHtml, bookmarkScript, dseCatalogueText, dse2012AText, dse2012B1Text, dse2012B2Text, dseAText, dseB2Text, dse2026AText, dse2026B1Text, dse2026B2Text] = await Promise.all([
   read("reading-comprehension.html"), read("reading-comprehension.css"), read("reading-comprehension.js"),
   read("reading-comprehension-data/p1-069-albert-einstein.json"), read("ielts-reading-analysis-data/p1-069-albert-einstein.json"),
   read("reading-comprehension-audio-manifest.js"), read("supabase-reading-comprehension.sql"),
   read("shared-system-nav.js"), read("student-progress-core.js"), read("index.html"), read("pwa-manifests/reading-comprehension.webmanifest"),
   read("bookmark-directory.html"), read("bookmark-directory.js"),
-  read("dse-reading-catalogue.json"), read("dse-reading-data/dse-2014-a.json"), read("dse-reading-data/dse-2014-b2.json"),
+  read("dse-reading-catalogue.json"),
+  read("dse-reading-data/dse-2012-a.json"), read("dse-reading-data/dse-2012-b1.json"), read("dse-reading-data/dse-2012-b2.json"),
+  read("dse-reading-data/dse-2014-a.json"), read("dse-reading-data/dse-2014-b2.json"),
   read("dse-reading-data/dse-2026-a.json"), read("dse-reading-data/dse-2026-b1.json"), read("dse-reading-data/dse-2026-b2.json")
 ]);
 const data = JSON.parse(dataText); const analysis = JSON.parse(analysisText); const manifest = JSON.parse(manifestText);
 const dseCatalogue = JSON.parse(dseCatalogueText); const dseA = JSON.parse(dseAText); const dseB2 = JSON.parse(dseB2Text);
+const dse2012A = JSON.parse(dse2012AText); const dse2012B1 = JSON.parse(dse2012B1Text); const dse2012B2 = JSON.parse(dse2012B2Text);
 const dse2026A = JSON.parse(dse2026AText); const dse2026B1 = JSON.parse(dse2026B1Text); const dse2026B2 = JSON.parse(dse2026B2Text);
 
 assert.match(html, /Reading Comprehension<br><span>閱讀理解<\/span><br>學習系統/);
@@ -43,6 +46,7 @@ assert.match(html, /data-view="dse-dashboard"/);
 assert.match(html, /data-dse-sort="desc"/);
 assert.match(html, /data-dse-sort="asc"/);
 assert.match(html, /data-dse-year-grid/);
+assert.match(html, /2012 Part A、B1、B2/);
 assert.match(html, /2026 Part A、B1、B2 已加入/);
 assert.match(html, /data-back-reading-home/);
 assert.ok(
@@ -133,6 +137,21 @@ assert.equal(manifest.start_url, "/reading-comprehension.html?source=pwa");
 
 assert.deepEqual(dseCatalogue.years.map((row) => row.year), Array.from({ length: 15 }, (_, index) => 2012 + index));
 assert.deepEqual(Object.keys(dseCatalogue.years[0].sections), ["A", "B1", "B2"]);
+const dse2012 = dseCatalogue.years.find((row) => row.year === 2012);
+assert.equal(dse2012.sections.A.id, "dse-2012-a");
+assert.equal(dse2012.sections.B1.id, "dse-2012-b1");
+assert.equal(dse2012.sections.B2.id, "dse-2012-b2");
+assert.deepEqual([dse2012A.questions.length, dse2012B1.questions.length, dse2012B2.questions.length], [20, 20, 33]);
+assert.deepEqual([dse2012A.questions.at(0).number, dse2012A.questions.at(-1).number], [1, 20]);
+assert.deepEqual([dse2012B1.questions.at(0).number, dse2012B1.questions.at(-1).number], [21, 40]);
+assert.deepEqual([dse2012B2.questions.at(0).number, dse2012B2.questions.at(-1).number], [41, 73]);
+assert.deepEqual([dse2012A.paragraphs.length, dse2012B1.paragraphs.length, dse2012B2.paragraphs.length], [23, 24, 13]);
+const dse2012Figure = dse2012A.questions.find((question) => question.number === 13).figure.src;
+assert.match(dse2012Figure, /2012-a-q13-games\.jpg$/);
+assert.ok((await stat(new URL(dse2012Figure, root))).size > 1000);
+assert.ok([...dse2012A.paragraphs, ...dse2012B1.paragraphs, ...dse2012B2.paragraphs].every((paragraph) => !paragraph.translation));
+assert.ok([...dse2012A.questions, ...dse2012B1.questions, ...dse2012B2.questions].every((question) => !("answer" in question)));
+assert.ok([dse2012A, dse2012B1, dse2012B2].every((exercise) => exercise.sourceNote === undefined));
 const dse2014 = dseCatalogue.years.find((row) => row.year === 2014);
 assert.equal(dse2014.sections.A.id, "dse-2014-a");
 assert.equal(dse2014.sections.B1, null);

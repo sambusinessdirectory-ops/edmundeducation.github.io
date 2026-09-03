@@ -4,7 +4,7 @@ const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
 const CATALOGUE_VERSION = '20260829-audio1';
-const DSE_CATALOGUE_VERSION = '20260903-dse2026-1';
+const DSE_CATALOGUE_VERSION = '20260903-dse2012-1';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
 const QUESTION_TYPE_INDEX = window.EDMUND_IELTS_READING_QUESTION_TYPES || { taxonomy: [], articles: [] };
 const audioTimingCache = new Map();
@@ -360,7 +360,7 @@ function renderDseCatalogue() {
     }).join('');
     return `<section class="dse-year-card${readyCount ? ' is-ready' : ''}"><div class="dse-year-card-header"><h2>${year.year}</h2><span class="dse-year-card-badge">${readyCount ? `${readyCount} 份已加入` : '稍後加入'}</span></div><div class="dse-section-buttons">${sections}</div></section>`;
   }).join('');
-  el.dseCatalogueStatus.textContent = `2012–2026 · 共 ${years.length} 個年份 · 2014 Part A 及 B2 現已開放`;
+  el.dseCatalogueStatus.textContent = `2012–2026 · 共 ${years.length} 個年份 · 2012、2014 及 2026 試卷現已開放`;
   $$('[data-dse-sort]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.dseSort === state.dseSort)));
 }
 async function openDseDashboard() {
