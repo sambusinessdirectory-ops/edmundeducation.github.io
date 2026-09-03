@@ -20,9 +20,11 @@ const data = context.window.EDMUND_DSE_PAPER3_DATA;
 assert.match(html, /data-edmund-system-switcher data-system="dse-paper3-analysis"/);
 assert.match(html, /shared-system-nav\.js\?v=20260822-night-invitation1/);
 assert.match(html, /dse-paper3-analysis-data\.js\?v=20260903-1/);
-assert.match(html, /dse-paper3-analysis\.js\?v=20260903-dse2016-1/);
+assert.match(html, /dse-paper3-analysis\.js\?v=20260903-dse2021-1/);
 assert.match(html, /dse-listening-2016-transcript\.js\?v=20260903-1/);
 assert.match(html, /dse-listening-2016-data\.js\?v=20260903-1/);
+assert.match(html, /dse-listening-2021-transcript\.js\?v=20260903-1/);
+assert.match(html, /dse-listening-2021-data\.js\?v=20260903-1/);
 assert.match(html, /dse-listening-2023-transcript\.js\?v=20260903-1/);
 assert.match(html, /dse-listening-2023-data\.js\?v=20260903-2/);
 assert.match(html, /data-login-form/);
@@ -72,4 +74,4 @@ assert.deepEqual(Array.from(data.materialTypes, ({ id }) => id), ["model-essay",
 assert.equal(data.resources["2025-b2"].modelEssays.length, 3);
 assert.equal(data.resources["2025-b2"].analysisSections.length, 13);
 
-console.log("DSE Paper 3 portal checks passed: shared login, 15 years, 2016/2023 Part B, B1/B2, 2 resource types, 3 essays and 13 analysis sections.");
+console.log("DSE Paper 3 portal checks passed: shared login, 15 years, 2016/2021/2023 Part B, B1/B2, 2 resource types, 3 essays and 13 analysis sections.");

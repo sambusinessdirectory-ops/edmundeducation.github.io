@@ -19,7 +19,7 @@
       id: `dse-listening-${year}`, year,
       title: `${year} DSE Paper 3 Part A`,
       href: `listening-system.html?section=dse&year=${year}`,
-      available: year === 2016 || year === 2023
+      available: year === 2016 || year === 2021 || year === 2023
     });
   }));
   window.EDMUND_LISTENING_CATALOG = Object.freeze({ version: 2, systems: Object.freeze([

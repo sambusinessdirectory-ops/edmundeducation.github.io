@@ -4,6 +4,7 @@ const SESSION_KEY = "edmund-dse-paper3-analysis-session-v1";
 const SORT_KEY = "edmund-dse-paper3-year-sort-v1";
 const DSE_CONTENT = new Map([
   [2016, window.EDMUND_DSE_LISTENING_2016 || null],
+  [2021, window.EDMUND_DSE_LISTENING_2021 || null],
   [2023, window.EDMUND_DSE_LISTENING_2023 || null]
 ].filter(([, content]) => Boolean(content)));
 const AUDIO_CATALOGUE_URL = "https://edmund-neural-audio.edmundeducation.workers.dev/v1/listening/catalog";
