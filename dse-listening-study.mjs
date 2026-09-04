@@ -1,5 +1,9 @@
-// Author-supplied answer guides are fetched only when their year is opened.
-const guideUrls = new Map([[2021, new URL('./assets/dse-listening/2021/guide.json?v=20260904-guide1', import.meta.url)]]);
+// Bilingual answer guides are fetched only when their year is opened.
+const guideUrls = new Map([
+  [2021, new URL('./assets/dse-listening/2021/guide.json?v=20260904-guide1', import.meta.url)],
+  [2023, new URL('./assets/dse-listening/2023/guide.json?v=20260904-guide2023-1', import.meta.url)]
+]);
+const guideCounts = new Map([[2021, 56], [2023, 53]]);
 const guides = new Map(), pending = new Map(), failures = new Set();
 export const getDseGuide = year => guides.get(Number(year));
 export const hasDseGuide = year => guideUrls.has(Number(year));
@@ -13,7 +17,7 @@ export async function loadDseGuide(year) {
     pending.set(year, fetch(guideUrls.get(year)).then(async response => {
       if (!response.ok) throw new Error(`DSE guide HTTP ${response.status}`);
       const guide = await response.json();
-      if (guide.year !== year || Object.keys(guide.analysis || {}).length !== 56 || ![1, 2, 3, 4].every(task => guide.transcript?.[task]?.length)) throw new Error('Incomplete DSE guide');
+      if (guide.year !== year || Object.keys(guide.analysis || {}).length !== guideCounts.get(year) || ![1, 2, 3, 4].every(task => guide.transcript?.[task]?.length)) throw new Error('Incomplete DSE guide');
       guides.set(year, guide);
       return guide;
     }).catch(error => { failures.add(year); throw error; }).finally(() => pending.delete(year)));
@@ -30,7 +34,7 @@ export function createDseStudy({state, escapeHtml: esc}) {
   let binding;
   function prefs(year, task) {
     const key = `${year}:${task}`;
-    if (!preferences.has(key)) preferences.set(key, {answers: new Set(), zh: false, full: false});
+    if (!preferences.has(key)) preferences.set(key, {answers: new Set(), zh: false, questionZh: false, full: false});
     return preferences.get(key);
   }
   function bookmark(year, task, key, title, detail, anchor, label) {
@@ -45,7 +49,7 @@ export function createDseStudy({state, escapeHtml: esc}) {
     const guide = getDseGuide(year);
     if (!guide) return '';
     const entries = Object.entries(guide.analysis).filter(([, row]) => row.task === task);
-    return `<div class="dse-study-toolbar"><button class="secondary-button" type="button" data-dse-all-answers>顯示全部答案</button><button class="secondary-button" type="button" data-dse-hide-answers>隱藏全部答案</button><a class="secondary-button" href="#dse-transcript-title">前往錄音稿 ↓</a></div>
+    return `${guide.analysisNote ? `<p class="dse-guide-note">${esc(guide.analysisNote)}</p>` : ''}<div class="dse-study-toolbar"><button class="secondary-button" type="button" data-dse-all-answers>顯示全部答案</button><button class="secondary-button" type="button" data-dse-hide-answers>隱藏全部答案</button><a class="secondary-button" href="#dse-transcript-title">前往錄音稿 ↓</a></div>
     <details class="listening-analysis dse-study-analysis" data-dse-full-analysis${prefs(year, task).full ? ' open' : ''}><summary>Task ${task} 完整答案解析 · ${entries.length} 題</summary><div class="listening-analysis-grid">${entries.map(([number, row]) => `<article class="listening-analysis-card" id="dse-analysis-q${number}"><div class="listening-analysis-card__head"><span>${number}</span><div><small>參考答案</small><strong>${esc(row.answer)}</strong></div>${analysisBookmark(year, task, number, row)}</div><p>${esc(row.explanation)}</p></article>`).join('')}</div></details>
     <aside class="answer-analysis-dialog dse-study-dialog" data-dse-study-dialog hidden role="dialog" aria-label="DSE 答案解析"><button type="button" data-dse-close-analysis aria-label="關閉解析">×</button><p class="eyebrow" data-dse-dialog-title></p><h3>答案：<span data-dse-dialog-answer></span></h3><p data-dse-dialog-copy></p><div class="answer-analysis-dialog__actions" data-dse-dialog-actions></div></aside>`;
   }
@@ -53,7 +57,7 @@ export function createDseStudy({state, escapeHtml: esc}) {
     const guide = getDseGuide(year);
     if (!guide) return '';
     const p = prefs(year, task);
-    return `<section class="listening-transcript dse-transcript" aria-labelledby="dse-transcript-title"><div class="listening-transcript__head"><div><p class="eyebrow">TRANSCRIPT · 錄音稿</p><div class="transcript-title-row"><h3 id="dse-transcript-title">Task ${task} 錄音稿</h3><button class="transcript-sync-toggle" type="button" data-toggle-transcript-sync aria-pressed="${state.syncHighlights}">同步高亮：${state.syncHighlights ? '開' : '關'}</button><button class="secondary-button" type="button" data-dse-toggle-zh aria-pressed="${p.zh}">${p.zh ? '隱藏' : '顯示'}中文翻譯</button></div></div><p>Edmund Sir 題解書原文及繁體中文翻譯。點擊一行可跳到相應錄音附近。</p></div><div class="transcript-lines" data-dse-transcript>${guide.transcript[task].map((row, index) => `<div class="transcript-line" id="dse-transcript-${task}-${index}" role="button" tabindex="0" data-dse-transcript-line="${index}" data-start="${row.start}" data-end="${row.end}"><div class="transcript-line__top"><div><strong class="dse-speaker">${esc(row.speaker)}</strong><span>${esc(row.text)}</span></div>${bookmark(year, task, `transcript:t${task}:line:${index}`, `${year} DSE · Task ${task} · 錄音稿第 ${index + 1} 行`, `${row.speaker}: ${row.text}\n${row.zh}`, `dse-transcript-${task}-${index}`, '收藏此行')}</div><small lang="zh-Hant" data-dse-zh${p.zh ? '' : ' hidden'}>${esc(row.zh)}</small></div>`).join('')}</div></section>`;
+    return `<section class="listening-transcript dse-transcript" aria-labelledby="dse-transcript-title"><div class="listening-transcript__head"><div><p class="eyebrow">TRANSCRIPT · 錄音稿</p><div class="transcript-title-row"><h3 id="dse-transcript-title">Task ${task} 錄音稿</h3><button class="transcript-sync-toggle" type="button" data-toggle-transcript-sync aria-pressed="${state.syncHighlights}">同步高亮：${state.syncHighlights ? '開' : '關'}</button><button class="secondary-button" type="button" data-dse-toggle-zh aria-pressed="${p.zh}">${p.zh ? '隱藏' : '顯示'}中文翻譯</button></div></div><p>${esc(guide.transcriptNote || 'Edmund Sir 題解書原文及繁體中文翻譯。點擊一行可跳到相應錄音附近。')}</p></div><div class="transcript-lines" data-dse-transcript>${guide.transcript[task].map((row, index) => `<div class="transcript-line" id="dse-transcript-${task}-${index}" role="button" tabindex="0" data-dse-transcript-line="${index}" data-start="${row.start}" data-end="${row.end}"><div class="transcript-line__top"><div><strong class="dse-speaker">${esc(row.speaker)}</strong><span>${esc(row.text)}</span></div>${bookmark(year, task, `transcript:t${task}:line:${index}`, `${year} DSE · Task ${task} · 錄音稿第 ${index + 1} 行`, `${row.speaker}: ${row.text}\n${row.zh}`, `dse-transcript-${task}-${index}`, '收藏此行')}</div><small lang="zh-Hant" data-dse-zh${p.zh ? '' : ' hidden'}>${esc(row.zh)}</small></div>`).join('')}</div></section>`;
   }
   function mount(host, year, task) {
     binding?.abort();
@@ -63,11 +67,25 @@ export function createDseStudy({state, escapeHtml: esc}) {
     const signal = binding.signal, p = prefs(year, task);
     const dialog = host.querySelector('[data-dse-study-dialog]');
     if (!dialog) return;
+    const questions = guide.questions?.[task], sheet = host.querySelector('.dse-paper-sheet');
+    if (questions && sheet) {
+      // Collect the original blocks before inserting translations. Do not clone
+      // answer inputs or replace the English question/illustration markup.
+      const blocks = [...sheet.children];
+      sheet.insertAdjacentHTML('beforebegin', `<div class="dse-study-toolbar"><button type="button" class="secondary-button" data-dse-toggle-question-zh aria-pressed="${p.questionZh}">${p.questionZh ? '隱藏' : '顯示'}題目中文翻譯</button></div><div class="dse-question-translation" data-dse-question-zh lang="zh-Hant"${p.questionZh ? '' : ' hidden'}><strong>${esc(questions.title)}</strong><p>${esc(questions.instruction)}</p></div>`);
+      blocks.forEach((block, i) => {
+        const text = questions.blocks[i];
+        if (!text) return;
+        const translated = esc(text).replace(/\{\{(\d+)\}\}/g, '<span class="dse-translated-blank">（$1）______</span>');
+        block.insertAdjacentHTML('afterend', `<div class="dse-question-translation" data-dse-question-zh lang="zh-Hant"${p.questionZh ? '' : ' hidden'}>${translated}</div>`);
+      });
+    }
     const entries = Object.entries(guide.analysis).filter(([, row]) => row.task === task);
     for (const [number, row] of entries) {
       const input = host.querySelector(`[data-dse-answer-q="${number}"]`);
       if (!input) continue;
-      const anchor = input.closest('label') || input;
+      const anchor = input.type === 'radio' ? input.closest('.dse-multiple-choice') : input.closest('label') || input;
+      if (!anchor) continue;
       anchor.insertAdjacentHTML('afterend', `<span class="single-answer-tools dse-answer-tools"><button class="single-answer-reveal" type="button" data-dse-reveal="${number}" aria-pressed="${p.answers.has(number)}">${p.answers.has(number) ? '隱藏答案' : '看答案'}</button><button class="listening-official-answer" type="button" data-dse-analysis="${number}"${p.answers.has(number) ? '' : ' hidden'} aria-label="查看第 ${number} 題解析">答案：<strong>${esc(row.answer)}</strong><span>查看解析</span></button></span>`);
     }
     const refresh = () => {
@@ -101,6 +119,12 @@ export function createDseStudy({state, escapeHtml: esc}) {
       else if (button.matches('[data-dse-hide-answers]')) { p.answers.clear(); dialog.hidden = true; refresh(); }
       else if (button.matches('[data-dse-analysis]')) openAnalysis(button);
       else if (button.matches('[data-dse-close-analysis]')) dialog.hidden = true;
+      else if (button.matches('[data-dse-toggle-question-zh]')) {
+        p.questionZh = !p.questionZh;
+        button.setAttribute('aria-pressed', String(p.questionZh));
+        button.textContent = `${p.questionZh ? '隱藏' : '顯示'}題目中文翻譯`;
+        host.querySelectorAll('[data-dse-question-zh]').forEach(row => { row.hidden = !p.questionZh; });
+      }
       else if (button.matches('[data-dse-toggle-zh]')) {
         p.zh = !p.zh;
         button.setAttribute('aria-pressed', String(p.zh)); button.textContent = `${p.zh ? '隱藏' : '顯示'}中文翻譯`;

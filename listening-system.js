@@ -1,9 +1,9 @@
 import { createListeningStudy } from './listening-study.js?v=20260904-guide1';
 import { safeBookmarkHref } from './listening-study-core.mjs?v=20260904-guide1';
-import { createDseStudy, getDseGuide, hasDseGuide, loadDseGuide, dseGuideFailed } from './dse-listening-study.mjs?v=20260904-guide1';
+import { createDseStudy, getDseGuide, hasDseGuide, loadDseGuide, dseGuideFailed } from './dse-listening-study.mjs?v=20260904-guide2023-1';
 import { loadPractice } from './listening-practice-loader.mjs?v=20260827-import1';
 import { answerTokens, nativeBlock, questionNumbers, handleNativeInput, handleMazeClick } from './dse-listening-question-ui.mjs?v=20260904-nativequestions1';
-import { mountListeningSearch } from './listening-search.mjs?v=20260904-guide1';
+import { mountListeningSearch } from './listening-search.mjs?v=20260904-guide2023-1';
 import { upgradeDseImages } from './dse-listening-images.mjs?v=20260904-reconstruct3';
 
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};

@@ -488,3 +488,8 @@ button:disabled { cursor:default; opacity:.5; }
 .listening-source-paper details { margin-top: 10px; }
 .listening-source-paper details p { white-space: pre-line; }
 .transcript-row-actions time { color: #596e88; font-variant-numeric: tabular-nums; font-size: .85em; }
+.dse-question-translation { white-space: pre-line; overflow-wrap: anywhere; line-height: 1.9; background: #f1f7fc; color: #344e68; border-left: 3px solid #7ea5ca; border-radius: 6px; padding: 12px 16px; margin: 8px 0 18px; }
+.dse-question-translation p { margin: 6px 0 0; }
+.dse-translated-blank { white-space: nowrap; font-weight: 600; }
+.dse-guide-note { color: #56677b; font-size: .9rem; line-height: 1.7; }
+.dse-question-translation[hidden] { display: none; }

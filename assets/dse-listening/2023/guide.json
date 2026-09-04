@@ -1,0 +1,1321 @@
+{
+  "year": 2023,
+  "source": {
+    "title": "2023 DSE Part A · 錄音稿翻譯及參考答案解析",
+    "scope": "Part A Tasks 1–4, Questions 1–53",
+    "status": "Authored reference answers, not an official HKEAA marking scheme.",
+    "questionPaper": "2023 Paper 3 Part A.pdf",
+    "questionDataSha256": "70ec223252142eb12972f0cbfb9a695952dad0a240d686490a78e8f8045b145b",
+    "transcriptDataSha256": "3b13d746ee1d0bc2a3420b3cbd815879289014604a93b03719aea20a21146306",
+    "styleReference": "2021 – DSE Listening – 5** Past Paper 題解書 (Edmund Sir)",
+    "styleReferenceSha256": "4c2f676ddcb720dc059b93378fe8ea7d021832380d466b7a10f0d98eac605593",
+    "timingBasis": "Existing split-track cues. Selected Task 1 passages independently cross-checked with local ASR. Navigation cues are approximate.",
+    "editorialNotes": [
+      "2023 teaching content is newly authored; the 2021 PDF is a style reference, not a source of 2023 answers.",
+      "Task 1 opening restored; mistaken “none the wiser” corrected to “the result”; unsupported guest first name removed. Combined speaker labels retained when a cue spans voices.",
+      "Light punctuation/spelling cleanup; original audio and student answers are unchanged."
+    ]
+  },
+  "transcriptNote": "按 2023 錄音整理，附繁體中文翻譯。點擊一行可跳到相應錄音附近。",
+  "analysisNote": "以下為按錄音編寫的參考答案及解析，並非考評局官方評分準則。",
+  "analysis": {
+    "1": {
+      "task": 1,
+      "answer": "their mother / Candice and Monica’s mother",
+      "explanation": "題目問兩位主持人的嘉賓是誰。開場介紹說 “our extraordinary mother”，接着又叫她 “Mum”。our 指 Candice 和 Monica 兩姊妹，因此答案是 their mother。\n中伏位：題目要的是嘉賓身分，不是節目名稱，也不需要猜一個錄音沒有交代的姓名。",
+      "evidence": "our extraordinary mother",
+      "questionSourcePages": [
+        3
+      ]
+    },
+    "2": {
+      "task": 1,
+      "answer": "1988",
+      "explanation": "題目問她哪一年搬到香港。媽媽先說是在赤鱲角機場動工前三年；主持人指出機場於 1991 年開始興建，她隨即確認 “Yes, 1988.”。1991 − 3 = 1988。\n中伏位：1991 是機場動工年份，不是她來港的年份；也不要把出生地 Guangzhou 當成時間答案。",
+      "evidence": "Yes, 1988",
+      "questionSourcePages": [
+        3
+      ]
+    },
+    "3": {
+      "task": 1,
+      "answer": "East Point",
+      "explanation": "題目問她一家搬到香港哪個地區。媽媽說父親 “moved us to East Point in Hong Kong”，主持人亦重複 East Point 作確認，因此直接填 East Point。\n中伏位：Guangzhou 是出生地；Chek Lap Kok Airport 是用來推算年份的地標，兩者都不是她一家搬去的地區。",
+      "evidence": "moved us to East Point in Hong Kong",
+      "questionSourcePages": [
+        3
+      ]
+    },
+    "4": {
+      "task": 1,
+      "answer": "A — Air Traffic Controller",
+      "explanation": "題目問媽媽的父親做什麼工作。主持人先提到外公帶她們參觀 air traffic control tower，之後明確說媽媽沒有跟隨外公的職業道路，成為 “an air traffic controller”。所以選 A，即航空交通管制員。\n中伏位：救援直升機機師是媽媽的工作，不是外公的工作；不能只因錄音談到救援或飛行，便選 B 或 D。",
+      "evidence": "an air traffic controller",
+      "questionSourcePages": [
+        3
+      ]
+    },
+    "5": {
+      "task": 1,
+      "answer": "a helicopter / helicopters",
+      "explanation": "題目問她駕駛哪一類飛行器。媽媽說自己一直想成為 “a helicopter pilot”，因此飛行器是 helicopter。\n中伏位：題目問 aircraft，不是職業，填 helicopter 比只寫 pilot 準確。她提到 planes、jets 和 airliners 時，前面有 “wasn’t interested in”，是在排除那些選項。",
+      "evidence": "a helicopter pilot",
+      "questionSourcePages": [
+        3
+      ]
+    },
+    "6": {
+      "task": 1,
+      "answer": "she loves the noise helicopters make",
+      "explanation": "第 6–7 題要兩個不同原因。第一個原因是 “I love the noise helicopters make”，接着用 powerful 形容那種聲音。因此可答她喜歡直升機發出的聲音。\n中伏位：只寫 powerful 太含糊，必須指出是聲音。兩個原因可按相反次序填寫，但不要把「喜歡聲音」與「聲音強勁」當作兩個獨立原因。",
+      "evidence": "I love the noise helicopters make",
+      "questionSourcePages": [
+        3
+      ]
+    },
+    "7": {
+      "task": 1,
+      "answer": "helicopters can land anywhere / being able to land anywhere",
+      "explanation": "第二個原因由 “the other thing” 引出：直升機可以 “land anywhere”。land 在這裡是動詞「降落」，不是名詞「土地」。所以答案是直升機能在所需的地方降落。\n中伏位：amazing 只是她的感受，不是完整原因；要寫出令她覺得神奇的能力。第 6–7 題須涵蓋聲音及降落能力兩點，不應重複。",
+      "evidence": "the other thing is being able to land anywhere",
+      "questionSourcePages": [
+        3
+      ]
+    },
+    "8": {
+      "task": 1,
+      "answer": "captain",
+      "explanation": "句子是 “He was a ___ of a cargo ship”，空格要填職位。媽媽說爸爸當時是大型貨船的 “captain”，因此答案是 captain，意即船長。\n中伏位：cargo ship 是他工作的船隻，不是職位；pilot 是媽媽的工作。題目已有 a 及 of a cargo ship，填 captain 即可。",
+      "evidence": "captain",
+      "questionSourcePages": [
+        3
+      ]
+    },
+    "9": {
+      "task": 1,
+      "answer": "ankle",
+      "explanation": "題目寫 “he broke his ___”，要填受傷的身體部位。媽媽明確說爸爸 “broke his ankle”，因此答案是 ankle，即腳踝。\n中伏位：不要把 ankle 寫成 leg；leg 是整條腿，未能準確表達錄音中的受傷部位。題目已有 his，只需填名詞。",
+      "evidence": "broke his ankle",
+      "questionSourcePages": [
+        3
+      ]
+    },
+    "10": {
+      "task": 1,
+      "answer": "fell down some stairs / fell down the stairs on the ship",
+      "explanation": "題目問他如何受傷。媽媽糾正主持人的戲劇化猜測，說 “He fell down some stairs on the ship.”，因此是在船上跌下樓梯。\n中伏位：terrible storm 和 ship sink 都只是主持人的猜測，媽媽並沒有確認。空格接在 when he 後面，應用過去式 fell，而不是原形 fall。",
+      "evidence": "He fell down some stairs on the ship",
+      "questionSourcePages": [
+        3
+      ]
+    },
+    "11": {
+      "task": 1,
+      "answer": "hospital / the hospital",
+      "explanation": "題目寫 “She then flew him to ___”，問直升機把他送去哪裡。主持人問媽媽當時是否在 “flying him to the hospital” 時認識爸爸；媽媽否認的是當時有交談，而不是送院這件事。所以目的地是 hospital。\n中伏位：Lamma Channel 是貨船所在的海域，不是送院目的地；rock-climbing club 是一年後再相遇的地方。",
+      "evidence": "flying him to the hospital",
+      "questionSourcePages": [
+        3
+      ]
+    },
+    "12": {
+      "task": 1,
+      "answer": "a rock-climbing club / rock climbing club",
+      "explanation": "題目問一年後他們在什麼類型的會所或社團相遇。媽媽說 “I joined a rock climbing club”，並指兩人都在同一個初學者小組，所以答案是攀岩會。\n中伏位：不是飛行會，也不是醫院。題目問 kind of club，要保留 rock-climbing，單寫 club 無法區分類型。",
+      "evidence": "I joined a rock climbing club",
+      "questionSourcePages": [
+        3
+      ]
+    },
+    "13": {
+      "task": 1,
+      "answer": "on top of a cliff / at the top of a cliff",
+      "explanation": "題目問她在哪裡邀請爸爸約會。媽媽說 “I asked him out when we were on top of a cliff”，所以答案是懸崖頂。ask somebody out 是「邀請某人約會」。\n中伏位：rock-climbing club 是兩人開始交談的場合，但這題要的是發出約會邀請時的具體位置；也不是在救援直升機上。",
+      "evidence": "I asked him out when we were on top of a cliff",
+      "questionSourcePages": [
+        3
+      ]
+    },
+    "14": {
+      "task": 2,
+      "answer": "in his bedroom / in his bedroom at home",
+      "explanation": "時間表的 2011 年一欄問 Lars 在哪裡建彈珠賽道。錄音說他 “made all the tracks in his bedroom at home”，因此答案是 in his bedroom。後面的 crowded 指房間放滿賽道，變得擠迫。\n中伏位：the Netherlands 是 Lars 來自的國家，不是這一格所問的具體建造地點。句子接在 building marble race tracks 後面，應填地點片語。",
+      "evidence": "in his bedroom at home",
+      "questionSourcePages": [
+        4
+      ]
+    },
+    "15": {
+      "task": 2,
+      "answer": "making YouTube videos / making videos",
+      "explanation": "2013 年的轉變是 “Lars started making YouTube videos of marble racing”。題目已有 “Started ___ of marble racing”，填 making YouTube videos 便能組成完整意思。\n中伏位：2011 年是開始建賽道，2016 年才創辦彈珠奧運會；不要把不同年份的活動移到 2013 年。started 後可接動名詞 making。",
+      "evidence": "Lars started making YouTube videos of marble racing",
+      "questionSourcePages": [
+        4
+      ]
+    },
+    "16": {
+      "task": 2,
+      "answer": "very simple / simple",
+      "explanation": "題目是 “The races were ___ but ___”，要求比較早期比賽的特點。錄音先說 2013 年的比賽 “very simple compared to the races we see ... nowadays”，所以第一格是 simple。\n中伏位：這裡形容的是早期比賽，不是今天的比賽；crowded 則形容放滿賽道的房間，不能用來填這一格。",
+      "evidence": "very simple",
+      "questionSourcePages": [
+        4
+      ]
+    },
+    "17": {
+      "task": 2,
+      "answer": "still fun to watch / fun to watch",
+      "explanation": "錄音用 “Very simple, but still fun to watch” 表達轉折：雖然簡單，觀看起來仍很有趣。題目的 but 正好對應這個對比，所以填 fun to watch。\n中伏位：不要寫成 boring；simple 不等於無趣。保留 to watch 可清楚指出這是觀眾觀看比賽的感受。",
+      "evidence": "Very simple, but still fun to watch",
+      "questionSourcePages": [
+        4
+      ]
+    },
+    "18": {
+      "task": 2,
+      "answer": "teams from 15 other countries / teams from fifteen other countries",
+      "explanation": "題目問 2016 年創辦彈珠奧運會時邀請誰參加。錄音說 “he invited teams from 15 other countries”，因此要寫出來自另外十五個國家的隊伍。\n中伏位：15 指國家的數目，並非十五名選手；every two years 是舉辦頻率，也不是答案。保留 teams 及 countries 可避免意思不清。",
+      "evidence": "he invited teams from 15 other countries",
+      "questionSourcePages": [
+        4
+      ]
+    },
+    "19": {
+      "task": 2,
+      "answer": "gate",
+      "explanation": "接力賽一列寫 “The marble hits a ___”。錄音說第一顆彈珠一直滾，直到 “it hits a gate”，所以答案是 gate，即擋閘。\n中伏位：baton 是真人接力賽傳遞的接力棒，不是彈珠撞到的東西。這個表格特意比較 human version 和 marble version，必須聽清楚談的是哪一種。",
+      "evidence": "it hits a gate",
+      "questionSourcePages": [
+        4
+      ]
+    },
+    "20": {
+      "task": 2,
+      "answer": "force",
+      "explanation": "題目問彈珠的什麼把下一顆推前。錄音說 “the force of the marble knocks the second marble forward”，之後再強調 force 才是關鍵，所以答案是 force，即撞擊時產生的力。\n中伏位：gate 的作用是擋停第一顆彈珠；使下一顆前進的是碰撞的力。題目已有 of the marble，填 force 即可。",
+      "evidence": "the force of the marble knocks the second marble forward",
+      "questionSourcePages": [
+        4
+      ]
+    },
+    "21": {
+      "task": 2,
+      "answer": "slope",
+      "explanation": "跳高一列問彈珠沿着什麼往下滾來加速。錄音說其動力來自 “rolling down a slope”，所以答案是 slope，即斜坡。\n中伏位：leg power 是人的跳躍方式；彈珠沒有腳，靠的是沿斜坡加速。pole 是要越過的橫桿，屬下一題。",
+      "evidence": "rolling down a slope",
+      "questionSourcePages": [
+        4
+      ]
+    },
+    "22": {
+      "task": 2,
+      "answer": "pole",
+      "explanation": "題目問彈珠加速後飛越什麼。錄音先說 “a pole is placed at different heights”，再說彈珠利用速度 “fly up and over the pole”，因此填 pole。\n中伏位：slope 是加速的斜坡，pole 才是要越過的障礙；兩者在同一段出現，但功能不同。",
+      "evidence": "fly up and over the pole",
+      "questionSourcePages": [
+        4
+      ]
+    },
+    "23": {
+      "task": 2,
+      "answer": "sand",
+      "explanation": "戶外馬拉松一列問賽道用什麼造成。錄音說路線 “has been cut into sand, usually on a beach”，因此答案是 sand。sand 在這裡是不可數名詞，不用加 s。\n中伏位：beach 是通常所在的地方；題目用 made of 問材料，所以不能只填 beach。forests and mountains 是真人馬拉松的場景。",
+      "evidence": "cut into sand",
+      "questionSourcePages": [
+        4
+      ]
+    },
+    "24": {
+      "task": 2,
+      "answer": "obstacles / sticks and stones",
+      "explanation": "題目問沙地賽道上刻意放置了什麼。錄音說有 “obstacles like sticks and stones”，放在賽道不同位置，因此可答 obstacles，或具體寫 sticks and stones。\n中伏位：sand 是賽道材料；sticks and stones 是放在上面的障礙。若列舉例子，寫齊兩項比只寫 sticks 更完整。",
+      "evidence": "obstacles like sticks and stones",
+      "questionSourcePages": [
+        4
+      ]
+    },
+    "25": {
+      "task": 2,
+      "answer": "take a Hong Kong team",
+      "explanation": "題目句子是 “Ranbir’s plan for next year is to ___ to the Tokyo Marble Olympics”。錄音說 “I plan to take a Hong Kong team there”，所以空格填 take a Hong Kong team。\n中伏位：Tokyo 是目的地，題目已提供；只寫 go 或 compete 沒有交代他計劃帶香港隊參賽。to 後用動詞原形 take。",
+      "evidence": "I plan to take a Hong Kong team there",
+      "questionSourcePages": [
+        4
+      ]
+    },
+    "26": {
+      "task": 2,
+      "answer": "become much more advanced / become more advanced",
+      "explanation": "題目問 Ranbir 對未來彈珠技術的看法。他用 “I predict” 表示預測，接着說技術 “will become much more advanced”，所以答案是變得更先進。\n中伏位：機械人或彈珠接管世界是主持人最後的玩笑，不是 Ranbir 的技術預測。題目已有 will，空格從 become 開始即可。",
+      "evidence": "marble technology will become much more advanced",
+      "questionSourcePages": [
+        4
+      ]
+    },
+    "27": {
+      "task": 3,
+      "answer": "4.12 million / 4,120,000",
+      "explanation": "Monica 先說 4.1 million，但 Estella 隨即更正為 “4.12 million as of yesterday, actually”。Monica 回答 “I stand corrected”，表示接受更正，因此應填最新的 4.12 million。\n中伏位：不要停在第一次聽到的 4.1 million；actually 及 I stand corrected 都是修正訊號。4.12 million 等於 4,120,000。",
+      "evidence": "4.12 million as of yesterday, actually",
+      "questionSourcePages": [
+        5
+      ]
+    },
+    "28": {
+      "task": 3,
+      "answer": "the TV news / television news",
+      "explanation": "題目寫 “Is more influential than ___”，問比較對象。Monica 說牠被認為比 “the TV news” 更有影響力；Estella 補充每天看牠影片的人比看電視新聞的人多。\n中伏位：followers 是上一題的數字；YouTube 是平台，不是這一題比較的對象。填 TV news，不要擴大成所有 television programmes。",
+      "evidence": "more influential than the TV news",
+      "questionSourcePages": [
+        5
+      ]
+    },
+    "29": {
+      "task": 3,
+      "answer": "a recent survey / a survey",
+      "explanation": "題目用 according to 問資料來源。錄音說 “according to a recent survey”，Estella 又確認調查只是幾天前進行，所以答案是 a recent survey。\n中伏位：這一格不是再填觀眾人數，也不是填 YouTube。according to 後面應放資料來源；recent 是「近期的」，保留它能更貼近錄音。",
+      "evidence": "according to a recent survey",
+      "questionSourcePages": [
+        5
+      ]
+    },
+    "30": {
+      "task": 3,
+      "answer": "dressing up as superheroes",
+      "explanation": "第 30–32 題問 Mr Suess 因哪三件事聞名。Estella 首先說牠喜歡 “dressing up as superheroes”，並舉 Batman、Superman 和 Iron Man 作例子，因此第一點是扮成超級英雄。\n中伏位：單寫 Batman 只是其中一個例子，不能概括整類活動。三點可互換次序，但必須是三項不同活動。",
+      "evidence": "dressing up as superheroes",
+      "questionSourcePages": [
+        5
+      ]
+    },
+    "31": {
+      "task": 3,
+      "answer": "playing the piano",
+      "explanation": "Estella 明確說 “Mr Suess plays the piano”，並指出彈琴影片最受歡迎。因此這一項是 playing the piano。play the piano 指彈鋼琴，樂器前通常用 the。\n中伏位：Max 提到 dances 只是帶懷疑的反問，Estella 馬上否認。不能把跳舞當成牠的成名活動。",
+      "evidence": "Mr Suess plays the piano",
+      "questionSourcePages": [
+        5
+      ]
+    },
+    "32": {
+      "task": 3,
+      "answer": "opening gifts / opening presents",
+      "explanation": "Estella 先提到牠收到世界各地的禮物，但隨即釐清 “it’s not just getting the gifts”，而是 “He’s famous for opening the gifts”。所以答案是拆禮物。\n中伏位：receiving gifts 和 opening gifts 不同；觀眾喜歡看的是拆開的過程。cat-sized car 只是上星期收到的一份禮物，不是另一項成名活動。",
+      "evidence": "He’s famous for opening the gifts",
+      "questionSourcePages": [
+        5
+      ]
+    },
+    "33": {
+      "task": 3,
+      "answer": "wants the cat to go / wants him to go",
+      "explanation": "題目寫 “Places the food treat where she ___”，空格要接出她想貓去哪裡。Estella 說她把食物獎勵放在 “the place where I want him to go”，因此把第一人稱改成題目的第三人稱，填 wants him to go。\n中伏位：題目主語是 she，動詞須用 wants；不要直接照抄 I want，亦不要只寫 food，因為題目已提到食物。",
+      "evidence": "the place where I want him to go",
+      "questionSourcePages": [
+        5
+      ]
+    },
+    "34": {
+      "task": 3,
+      "answer": "keeps each session short / only for a short period each time",
+      "explanation": "第二個訓練方法是重複動作，但 Estella 強調 “I keep each session short”。所以重點是每次練習時間要短。接在題目的 but 後，可填 keeps each session short，承接前面的 she。\n中伏位：repeat the action 已在題目中，不能只重複這個答案；這格問的是重複練習時的時間限制，而不是原因。",
+      "evidence": "I keep each session short",
+      "questionSourcePages": [
+        5
+      ]
+    },
+    "35": {
+      "task": 3,
+      "answer": "cats have a very short attention span / the cat will lose interest if the session is too long",
+      "explanation": "題目用 because 問練習時間要短的原因。Estella 說 “Cats have a very short attention span”，並解釋練太久會 lose interest。attention span 是「能維持專注的時間」，所以答案是貓的專注時間很短。\n中伏位：short sessions 是上一題的方法，不能當作本題原因；要交代貓容易失去興趣的特性。",
+      "evidence": "Cats have a very short attention span",
+      "questionSourcePages": [
+        5
+      ]
+    },
+    "36": {
+      "task": 3,
+      "answer": "cats have more mysterious lives than dogs",
+      "explanation": "第 36–37 題要 Max 研究所指出的兩個原因。第一點是 “cats have lives that are more mysterious than dogs”，意思是貓的生活較神秘，令人好奇。因此答案應保留 more mysterious 這個比較。\n中伏位：Estella 在家中安裝攝影機只是說明貓生活神秘的例子，不是另一個獨立原因。兩題可互換次序。",
+      "evidence": "cats have lives that are more mysterious than dogs",
+      "questionSourcePages": [
+        5
+      ]
+    },
+    "37": {
+      "task": 3,
+      "answer": "cat behaviour is less predictable than dog behaviour",
+      "explanation": "Max 的第二點是 “cat behaviour is less predictable than dog behaviour”。less predictable 指較難預測，所以下一句說牠們的行為更令人驚訝。\n中伏位：不要漏掉 less 而寫成貓「更容易預測」；這會把意思完全倒轉。mysterious lives 與 unpredictable behaviour 是兩個相關但不同的重點。",
+      "evidence": "cat behaviour is less predictable than dog behaviour",
+      "questionSourcePages": [
+        5
+      ]
+    },
+    "38": {
+      "task": 3,
+      "answer": "create positive feelings in viewers / make viewers feel positive",
+      "explanation": "第 38–39 題問貓網紅帶來的好處。Max 說牠們 “create positive feelings in their viewers”，即令觀眾產生正面感受。因此要寫清楚受益者是 viewers。\n中伏位：主人賺錢並不是 Max 在這裡列出的第一項好處；他正在說對觀眾的情緒影響。兩項好處可互換次序。",
+      "evidence": "create positive feelings in their viewers",
+      "questionSourcePages": [
+        5
+      ]
+    },
+    "39": {
+      "task": 3,
+      "answer": "encourage people to adopt stray cats / increase adoption of stray cats",
+      "explanation": "另一個好處是促進領養流浪貓。Estella 問網絡上的貓是否 “encourage people to adopt stray cats”，Max 回答研究的確顯示流浪貓領養與貓網紅有關聯，所以可答 encourage adoption of stray cats。\n中伏位：adopt 是「領養」，不是購買；stray cats 指流浪貓，不只是 Mr Suess 這一隻有主人的貓。",
+      "evidence": "encourage people to adopt stray cats",
+      "questionSourcePages": [
+        5
+      ]
+    },
+    "40": {
+      "task": 3,
+      "answer": "owners may abandon their cats when the cats stop being popular or making money",
+      "explanation": "題目問對貓網紅的擔憂。Max 說主要問題是有些主人會在貓 “stops being popular or making money” 後棄養牠們。完整答案應包括棄養這個行為，以及失去人氣或不再賺錢的情況。\n中伏位：Estella 說自己永不棄養，並沒有否定整體風險；最後提到 offensive tweet about birds 只是主持人的玩笑。",
+      "evidence": "abandon their cats once their cat stops being popular or making money",
+      "questionSourcePages": [
+        5
+      ]
+    },
+    "41": {
+      "task": 4,
+      "answer": "used brackets in his letters to show that he was happy",
+      "explanation": "題目問 Nabokov 在 1950 年代做了什麼，與今天使用表情符號相似。錄音說他 “used brackets in his letters and correspondences” 來表示高興。因此答案要涵蓋使用括號、在書信中，以及表達開心這幾個重點。\n中伏位：不是用手機傳訊息，也不是創造整套現代表情符號；後者是 Kurita 的貢獻。",
+      "evidence": "used brackets in his letters and correspondences",
+      "questionSourcePages": [
+        6
+      ]
+    },
+    "42": {
+      "task": 4,
+      "answer": "created the first complete collection of emojis for mobile phones",
+      "explanation": "題目問 Kurita 的貢獻。錄音說他 “created the first set of emojis”，並強調不是零星一兩個，而是 “a whole collection of emojis for use on mobile phones”。所以答案是創作第一套供手機使用的表情符號。\n中伏位：只說他在手機公司任職是背景，不是貢獻；要寫出 created a collection。",
+      "evidence": "a whole collection of emojis for use on mobile phones",
+      "questionSourcePages": [
+        6
+      ]
+    },
+    "43": {
+      "task": 4,
+      "answer": "a picture used in texting to convey an emotion or an idea",
+      "explanation": "錄音直接給出定義：“An emoji is a picture that is used in texting to convey an emotion or an idea.”。因此答案須包括圖像、用於文字訊息，以及傳達情緒或想法。convey 是「傳達」。\n中伏位：只寫 a picture 太籠統；只寫 emotions 亦漏了形式和用途。本題按錄音所給的定義作答，而不是自行引用其他定義。",
+      "evidence": "An emoji is a picture that is used in texting to convey an emotion or an idea",
+      "questionSourcePages": [
+        6
+      ]
+    },
+    "44": {
+      "task": 4,
+      "answer": "a photograph / a photo",
+      "explanation": "題目特別問 currently，即「目前」。講者說圖像須是畫出來的，因此 “a photograph cannot be an emoji”，後面亦重複 not a photo。所以填 photograph。\n中伏位：講者並不排除未來定義改變，但這題只問錄音中的現行定義。不要把所有 pictures 都排除，因為 drawn pictures 正是他所說的表情符號。",
+      "evidence": "a photograph cannot be an emoji",
+      "questionSourcePages": [
+        6
+      ]
+    },
+    "45": {
+      "task": 4,
+      "answer": "to flirt / flirting",
+      "explanation": "題目比較青少年和已婚伴侶如何使用飛吻表情符號。錄音說第一組是 “teenagers who are flirting”，所以青少年使用它來調情、表示浪漫興趣。\n中伏位：雖然同一圖案也可表達愛意，但本題要求錄音刻意區分的用途；show affection 是下一格已婚伴侶的答案。",
+      "evidence": "teenagers who are flirting",
+      "questionSourcePages": [
+        6
+      ]
+    },
+    "46": {
+      "task": 4,
+      "answer": "to show affection / showing affection",
+      "explanation": "講者說已婚伴侶用這個符號 “not to flirt, but instead to show affection”。not ... but instead ... 明確排除調情，改為表達愛意或親暱感情。\n中伏位：不要因為兩組人用同一個飛吻圖案，就把兩格都寫成 flirt；題目的 difference 正是要找出這個用途差別。",
+      "evidence": "not to flirt, but instead to show affection",
+      "questionSourcePages": [
+        6
+      ]
+    },
+    "47": {
+      "task": 4,
+      "answer": "decide which emojis will be created",
+      "explanation": "題目問委員會的兩項主要職能。錄音以 “The first is to decide which emojis will be created” 直接給出第一項，即決定製作哪些表情符號。\n中伏位：不是任何人都能隨意把自己的符號加入手機系統；講者強調有委員會作出選擇。這是「選擇製作哪些」的工作，與下一項統一代碼不同。",
+      "evidence": "The first is to decide which emojis will be created",
+      "questionSourcePages": [
+        6
+      ]
+    },
+    "48": {
+      "task": 4,
+      "answer": "standardise the codes for all emojis",
+      "explanation": "第二項職能是 “to standardise the codes for all emojis”，讓不同通訊技術辨認所傳送的符號。standardise 指「統一規格」，這裡統一的是代碼。\n中伏位：iPhone 和 Samsung Galaxy 只是解釋為何需要統一代碼的例子，不是兩項職能。不要把「統一代碼」寫成所有圖案外觀必須完全一樣。",
+      "evidence": "standardise the codes for all emojis",
+      "questionSourcePages": [
+        6
+      ]
+    },
+    "49": {
+      "task": 4,
+      "answer": "the committee has too much control",
+      "explanation": "表格左欄是 Concern，先填問題本身。講者說 “the committee has too much control”，所以第一項擔憂是委員會控制權過大。\n中伏位：限制情感表達是這個問題帶來的 consequence，應放下一格。填表時要分清「問題／原因」與「後果」，不能倒轉。",
+      "evidence": "the committee has too much control",
+      "questionSourcePages": [
+        6
+      ]
+    },
+    "50": {
+      "task": 4,
+      "answer": "limits how people express themselves emotionally / limits the range of emotional expression",
+      "explanation": "講者說控制權過大會令 “how people express themselves emotionally” 受到限制，並指出表情符號代替了文字交流中看不到的肢體語言及面部表情。因此後果是限制情緒表達的範圍。\n中伏位：只寫 too much control 是重複左欄的問題；這一格須說明對使用者造成什麼影響。",
+      "evidence": "a limit on how people express themselves emotionally",
+      "questionSourcePages": [
+        6
+      ]
+    },
+    "51": {
+      "task": 4,
+      "answer": "does not represent the diverse cultures and communities using the Internet",
+      "explanation": "左欄已給出委員會由中年白人男性組成。講者指出它 “is not actually representative of the many cultures and communities that use the internet”，所以後果是未能代表網民多元的文化及社群。\n中伏位：不要再抄 middle-aged white men；那是左欄已給的組成問題。右欄問的是這種單一組成導致的代表性不足。",
+      "evidence": "not actually representative of the many cultures and communities that use the internet",
+      "questionSourcePages": [
+        6
+      ]
+    },
+    "52": {
+      "task": 4,
+      "answer": "the committee’s work is not made public enough / lack of transparency",
+      "explanation": "第三項擔憂是 “the work of the committee is not made public enough”。意思是工作公開程度不足，可概括為 lack of transparency，即欠缺透明度。\n中伏位：open its doors 在這裡是比喻，指讓公眾了解工作，不是要求它把辦公室大門打開。suspicion 是下一格的後果。",
+      "evidence": "the work of the committee is not made public enough",
+      "questionSourcePages": [
+        6
+      ]
+    },
+    "53": {
+      "task": 4,
+      "answer": "people become suspicious and think the committee is secretive and beyond scrutiny",
+      "explanation": "講者說如果工作不更公開，“this will lead to suspicion”；公眾因無法了解委員會的工作，可能覺得它 secretive and beyond scrutiny，即行事隱秘而且不受審視。\n中伏位：lack of transparency 是原因，suspicion 才是後果。較完整的答案可再說明公眾因此覺得委員會缺乏監察，而不只是籠統寫 people are unhappy。",
+      "evidence": "this will lead to suspicion",
+      "questionSourcePages": [
+        6
+      ]
+    }
+  },
+  "transcript": {
+    "1": [
+      {
+        "start": 0,
+        "end": 28.29,
+        "speaker": "Exam Narrator",
+        "text": "Task 1. Candice and Monica are interviewing their first guest about her life story and career. Listen and write the information in the spaces below. The first one has been provided as an example. You now have 30 seconds to study the task. At the end of the task,",
+        "zh": "任務一。Candice 和 Monica 正在訪問首位嘉賓，了解她的人生經歷和職業生涯。請聆聽錄音，並在下方空格填寫資料。第一項已作為例子提供。你現在有三十秒時間閱讀題目。本任務結束後，"
+      },
+      {
+        "start": 28.73,
+        "end": 31.71,
+        "speaker": "Exam Narrator",
+        "text": "you will have one minute to tidy up your answers.",
+        "zh": "你將有一分鐘時間整理答案。"
+      },
+      {
+        "start": 57.2,
+        "end": 75.43,
+        "speaker": "Candice／Monica",
+        "text": "Hello there, everyone in Cyberland. This is Candice. And this is Monica. And we are Extraordinary Hong Kong People.",
+        "zh": "網絡世界的各位，你們好！我是 Candice。我是 Monica。我們是《非凡香港人》（Extraordinary Hong Kong People）。"
+      },
+      {
+        "start": 75.43,
+        "end": 85.22,
+        "speaker": "Candice and Monica",
+        "text": "And our extraordinary guest today is, drum roll please, our extraordinary mother.",
+        "zh": "今天這位非凡的嘉賓就是——請來點鼓聲——我們非凡的媽媽！"
+      },
+      {
+        "start": 86.1,
+        "end": 94.52,
+        "speaker": "Candice / Monica / Mother",
+        "text": "Hello mum. Mum. Oh my, you two are really putting on a show. Hello to all your viewers.",
+        "zh": "主持人：媽媽，你好！媽媽！　媽媽：哎呀，你們兩個真會搞氣氛。各位觀眾，你們好。"
+      },
+      {
+        "start": 95.4,
+        "end": 106.6,
+        "speaker": "Candice／Monica",
+        "text": "Now mum, you have had an extraordinary career but before we get to that let's find out about your life. First of all, when did you come to Hong Kong?",
+        "zh": "媽媽，你的職業生涯很不平凡。不過，談工作之前，我們先了解一下你的人生經歷。首先，你是什麼時候來香港的？"
+      },
+      {
+        "start": 107.51,
+        "end": 114.59,
+        "speaker": "Mother",
+        "text": "I was born in Guangzhou but I'm not saying when and we moved to Hong Kong.",
+        "zh": "我在廣州出生，不過我可不會說是哪一年。後來我們搬來香港。"
+      },
+      {
+        "start": 115.21,
+        "end": 122.19,
+        "speaker": "Candice / Monica / Mother",
+        "text": "When was that again? It was three years before they started work on Chek Lap Kok Airport.",
+        "zh": "讓我想想，那是什麼時候來着？是在赤鱲角機場動工前三年。"
+      },
+      {
+        "start": 123.25,
+        "end": 129.67,
+        "speaker": "Candice／Monica",
+        "text": "Didn't they begin building the airport in 1991? So three years before then?",
+        "zh": "機場不是在 1991 年開始興建嗎？所以是在那之前三年？"
+      },
+      {
+        "start": 129.67,
+        "end": 139.53,
+        "speaker": "Mother",
+        "text": "Yes, 1988. That was a long time ago. I was a young girl. My father, your Grandpa Choi,",
+        "zh": "對，1988 年。那是很久以前的事了，當時我還是個小女孩。我爸爸，也就是你們的 Choi 外公，"
+      },
+      {
+        "start": 140.13,
+        "end": 183.57,
+        "speaker": "Candice / Monica / Mother",
+        "text": "moved us to East Point in Hong Kong. East Point? So Grandpa Choi has always lived in East Point? That's a long time. I remember him giving us tours of the air traffic control tower when we were little. It was so exciting. That's what I thought too when I was a girl and that's when I fell in love with flying. And yet you did not follow in Grandpa's footsteps and become an air traffic controller. No, I wanted to fly but I wasn't interested in planes or jets or airliners or anything like that. As far back as I can remember, I always wanted to be a helicopter pilot.",
+        "zh": "媽媽：把我們一家搬到香港的東角。　主持人：東角？所以 Choi 外公一直住在東角？那真的很久了。我記得小時候，他帶我們參觀航空交通管制塔，真令人興奮。　媽媽：我小時候也有同樣感受，就是那時開始愛上飛行。　主持人：可是你沒有跟隨外公的職業道路，成為航空交通管制員。　媽媽：沒有。我想親自飛行，但對飛機、噴射機、客機之類都不感興趣。從我有記憶以來，我就一直想當直升機機師。"
+      },
+      {
+        "start": 184.38,
+        "end": 190.82,
+        "speaker": "Candice / Monica / Mother",
+        "text": "But why did you want to be a helicopter pilot specifically? What's the appeal? The appeal?",
+        "zh": "主持人：但為什麼偏偏想當直升機機師？它有什麼吸引力？　媽媽：吸引力？"
+      },
+      {
+        "start": 191.56,
+        "end": 199.87,
+        "speaker": "Mother",
+        "text": "Well, gosh, let me see now. First of all, I love the noise helicopters make. It's so powerful.",
+        "zh": "嗯，讓我想想。首先，我很喜歡直升機發出的聲音，那聲音很有力量。"
+      },
+      {
+        "start": 202.61,
+        "end": 209.69,
+        "speaker": "Candice / Monica / Mother",
+        "text": "Oh mom, really? The noise? You betcha. So what's the other thing? Well,",
+        "zh": "主持人：真的嗎，媽媽？你喜歡的是聲音？　媽媽：當然啦。　主持人：那另一點呢？　媽媽：嗯，"
+      },
+      {
+        "start": 209.69,
+        "end": 215.69,
+        "speaker": "Mother",
+        "text": "the other thing is being able to land anywhere. I still think it's amazing.",
+        "zh": "另一點就是能夠在任何地方降落。我至今仍覺得這很神奇。"
+      },
+      {
+        "start": 216.77,
+        "end": 236.38,
+        "speaker": "Candice / Monica / Mother",
+        "text": "Anywhere you need to land, you can. But you're not just a regular helicopter pilot, you're a rescue helicopter pilot. Which brings us to your extraordinary story. Candice? How you and Dad met is very, very romantic. Please share this story with our followers.",
+        "zh": "媽媽：需要在哪裡降落，就能在哪裡降落。　主持人：不過，你不只是一般的直升機機師，而是救援直升機機師。這就帶到你那段非凡的故事了。Candice？你和爸爸相識的經過很浪漫，請跟我們的追蹤者分享一下。"
+      },
+      {
+        "start": 237.16,
+        "end": 250.02,
+        "speaker": "Mother",
+        "text": "Well, I rescued your father in my helicopter. He was the captain on one of those huge cargo ships. He was sailing a ship in the Lamma Channel when he broke his ankle.",
+        "zh": "我當時駕駛直升機救了你們的爸爸。他是其中一艘大型貨船的船長，當時正駕船航經南丫海峽，卻弄斷了腳踝。"
+      },
+      {
+        "start": 250.76,
+        "end": 256.86,
+        "speaker": "Candice／Monica",
+        "text": "Oh poor dad. How did he break his ankle? Was it in a terrible storm? Did the ship sink?",
+        "zh": "可憐的爸爸！他怎樣弄斷腳踝的？遇上了猛烈風暴嗎？船沉了嗎？"
+      },
+      {
+        "start": 257.48,
+        "end": 265.06,
+        "speaker": "Mother",
+        "text": "Oh, stop it you two. You know perfectly well what happened. He fell down some stairs on the ship.",
+        "zh": "你們兩個別鬧了。明明知道發生了什麼事。他是在船上跌下了幾級樓梯。"
+      },
+      {
+        "start": 266.48,
+        "end": 271.24,
+        "speaker": "Candice／Monica",
+        "text": "Poor dad. It's so undramatic falling down the stairs.",
+        "zh": "可憐的爸爸。原來只是跌下樓梯，一點也不驚險。"
+      },
+      {
+        "start": 271.88,
+        "end": 276.18,
+        "speaker": "Mother",
+        "text": "Yes, but if you fell down some stairs and broke your ankle, you wouldn't be laughing.",
+        "zh": "是啊，不過如果換了是你跌下樓梯，還弄斷了腳踝，你就笑不出來了。"
+      },
+      {
+        "start": 276.74,
+        "end": 283.24,
+        "speaker": "Candice／Monica",
+        "text": "So what happened after that? So did you meet him then? When you were flying him to the hospital?",
+        "zh": "那之後怎樣？你就是在駕直升機送他去醫院時認識他的嗎？"
+      },
+      {
+        "start": 284.04,
+        "end": 294.74,
+        "speaker": "Mother",
+        "text": "Of course not. I only saw him then, but I didn't speak to him. I was flying the helicopter. Besides, that would be completely unprofessional.",
+        "zh": "當然不是。我當時只是見到他，沒有跟他說話，因為我正在駕駛直升機。而且，那樣做完全不專業。"
+      },
+      {
+        "start": 295.66,
+        "end": 298.72,
+        "speaker": "Candice／Monica",
+        "text": "I know, I know. You are very professional, Mum.",
+        "zh": "知道啦，知道啦。媽媽，你很專業。"
+      },
+      {
+        "start": 299.32,
+        "end": 313.68,
+        "speaker": "Mother",
+        "text": "Thank you for noticing. So actually, it was about a year after I rescued him when I first spoke to him. You see, I joined a rock climbing club. Your father and I were in the same group of beginners.",
+        "zh": "謝謝你留意到。其實，我是在救他約一年後才第一次跟他交談。那時我加入了一個攀岩會，你爸爸和我都在同一個初學者小組。"
+      },
+      {
+        "start": 314.52,
+        "end": 318.48,
+        "speaker": "Candice／Monica",
+        "text": "So what happened? Did you rescue him again at the rock climbing club?",
+        "zh": "那後來怎樣？你又在攀岩會救了他一次嗎？"
+      },
+      {
+        "start": 318.7,
+        "end": 331.66,
+        "speaker": "Mother",
+        "text": "No, we were both good at rock climbing. What actually happened was when I told him I flew rescue helicopters. He told me about his accident, and we quickly put two and two together.",
+        "zh": "不是，我們兩個攀岩都很拿手。實際情況是，我告訴他自己駕駛救援直升機，他就提到自己的意外。我們很快便把兩件事連起來，明白原來之前已經見過。"
+      },
+      {
+        "start": 332.08,
+        "end": 333.62,
+        "speaker": "Candice／Monica",
+        "text": "And we were the result.",
+        "zh": "而我們就是這段姻緣的成果。"
+      },
+      {
+        "start": 334.06,
+        "end": 346.8,
+        "speaker": "Mother",
+        "text": "More was the pity. Anyway, it wasn't love at first sight. He was so shy back then. It was a few months after joining the rock climbing club that I asked him out on a date.",
+        "zh": "那可真是太可惜了。總之，那並不是一見鍾情。他那時很害羞。加入攀岩會幾個月後，是我主動邀請他約會的。"
+      },
+      {
+        "start": 347.52,
+        "end": 348.44,
+        "speaker": "Candice／Monica",
+        "text": "Then it was love.",
+        "zh": "然後就墮入愛河了。"
+      },
+      {
+        "start": 349.26,
+        "end": 361.32,
+        "speaker": "Mother",
+        "text": "It was so funny because I asked him out when we were on top of a cliff. I'm not sure if he looked nervous because I asked him out, or because we were on top of a cliff. But he said yes.",
+        "zh": "有趣的是，我是在我們站在懸崖頂時邀請他的。我也不確定他看起來緊張，是因為我邀請他約會，還是因為我們當時在懸崖頂。不過，他答應了。"
+      },
+      {
+        "start": 364.14,
+        "end": 366.16,
+        "speaker": "Exam Narrator",
+        "text": "That is the end of task one.",
+        "zh": "任務一完結。"
+      }
+    ],
+    "2": [
+      {
+        "start": 0,
+        "end": 28.01,
+        "speaker": "Exam Narrator",
+        "text": "Task two. Candice is chatting to Ranbir Singh about marble racing. A pastime gaining popularity in Hong Kong. Listen and fill in the missing information in the spaces below. One has been provided as an example. You now have 30 seconds to study the task.",
+        "zh": "任務二。Candice 正在與 Ranbir Singh 談論彈珠競賽，這項消閒活動在香港日漸流行。請聆聽錄音，並在下方空格填上所缺資料。其中一項已作為例子提供。你現在有三十秒時間閱讀題目。"
+      },
+      {
+        "start": 29.8,
+        "end": 34.5,
+        "speaker": "Exam Narrator",
+        "text": "At the end of the task, you will have one minute to tidy up your answers.",
+        "zh": "本任務結束後，你將有一分鐘時間整理答案。"
+      },
+      {
+        "start": 67.97,
+        "end": 85.59,
+        "speaker": "Candice",
+        "text": "OK, everyone. Today we have Ranbir Singh, whose marble racing competitions on YouTube have become an internet sensation in Hong Kong with millions of views. Welcome, Ranbir. So why don't we start with what's what? What's the history? What's this all about?",
+        "zh": "各位，今天我們請來 Ranbir Singh。他在 YouTube 上的彈珠競賽影片在香港引起熱潮，觀看次數達數百萬。歡迎你，Ranbir。不如先由基本的介紹開始吧：它有什麼歷史？這究竟是怎樣的一回事？"
+      },
+      {
+        "start": 86.43,
+        "end": 117.07,
+        "speaker": "Ranbir Singh",
+        "text": "Thank you, Candice. So, I'm sure you viewers know what marbles are. Those little glass balls that children play with. Well, what your viewers may not know is that you can race marbles. Not only that, you can do all sorts of competitions. And that's what I've been doing for the last four years. But the story of marble racing actually begins more than 10 years ago, with someone called Lars Jensen, who's from the Netherlands.",
+        "zh": "謝謝你，Candice。我想觀眾都知道彈珠是什麼，就是小朋友玩的那些小玻璃球。不過，大家未必知道彈珠也可以競速。不止如此，還可以進行各式各樣的比賽，而這就是我過去四年一直在做的事。不過，彈珠競賽的故事其實始於十多年前，主角是來自荷蘭的 Lars Jensen。"
+      },
+      {
+        "start": 118.68,
+        "end": 142.14,
+        "speaker": "Ranbir Singh",
+        "text": "Back in 2011, Lars started racing marbles by making all of these different marble race tracks. These race tracks were amazing, and he made all the tracks in his bedroom at home. After watching this, I'd recommend that you click on the links below, and you'll see a video of Lars in his bedroom in 2011 with all of the tracks.",
+        "zh": "早在 2011 年，Lars 就開始製作各種彈珠賽道，讓彈珠競速。那些賽道很精彩，而且全都建在他家中的睡房裡。看完這段影片後，我建議大家點擊下方連結，看看他在 2011 年身處睡房、四周都是賽道的影片。"
+      },
+      {
+        "start": 142.72,
+        "end": 143.6,
+        "speaker": "Candice",
+        "text": "That's pretty crowded.",
+        "zh": "那可真夠擠迫的。"
+      },
+      {
+        "start": 145.61,
+        "end": 173.27,
+        "speaker": "Ranbir Singh",
+        "text": "Then, in 2013, Lars started making YouTube videos of marble racing. Those were really the first marble racing videos ever. Back in 2013, the races were very simple compared to the races we see on his YouTube channel nowadays. Very simple, but still fun to watch. In 2016, Lars founded the Marble Olympics.",
+        "zh": "到了 2013 年，Lars 開始製作彈珠競賽的 YouTube 影片。那確實是最早的彈珠競賽影片。跟如今在他頻道上看到的比賽相比，2013 年的比賽很簡單。雖然簡單，但看起來仍然很有趣。2016 年，Lars 創辦了彈珠奧運會。"
+      },
+      {
+        "start": 174.41,
+        "end": 189.81,
+        "speaker": "Ranbir Singh",
+        "text": "So, to start the Olympics, he invited teams from 15 other countries to the Marble Olympics to take part in different events. So now he holds the Olympics every two years in a different city, and teams from other countries go to compete.",
+        "zh": "為了開辦這個奧運會，他邀請了另外十五個國家的隊伍參加不同項目。現在他每兩年在不同城市舉辦一次奧運會，其他國家的隊伍也會前來競賽。"
+      },
+      {
+        "start": 190.99,
+        "end": 193.27,
+        "speaker": "Candice",
+        "text": "Can you tell us more about some of those events?",
+        "zh": "你可以再介紹其中一些項目嗎？"
+      },
+      {
+        "start": 194.31,
+        "end": 224.19,
+        "speaker": "Ranbir Singh",
+        "text": "Okay, so let's have a closer look at some of the main Olympic events. Now, if your viewers haven't seen these, you have to remember that the marbles take the place of humans. So, for instance, one of the most popular events is the relay race. Now, in a regular human relay race, one runner passes a baton to another runner. But in the Marble Olympics, imagine there are two marbles who are the runners.",
+        "zh": "好，我們來仔細看看幾項主要的奧運項目。如果觀眾還沒看過，請記住，彈珠在比賽中代替了人。例如，最受歡迎的項目之一是接力賽。在一般的真人接力賽中，一名跑手把接力棒交給另一名跑手。換成彈珠奧運會，就想像兩顆彈珠是那兩名跑手。"
+      },
+      {
+        "start": 225.24,
+        "end": 254.67,
+        "speaker": "Ranbir Singh",
+        "text": "The first marble rolls down a track until it hits a gate. That gate stops the first marble, but the force of the marble knocks the second marble forward, and the second marble now rolls. So it's the force of that first marble that's the important thing. Right, let's see. Another example. The high jump. As with the human high jump, a pole is placed at different heights.",
+        "zh": "第一顆彈珠沿賽道滾下，直到撞上一道擋閘。擋閘會擋停第一顆彈珠，但它撞擊產生的力會把第二顆彈珠推前，令第二顆開始滾動。所以，關鍵是第一顆彈珠的撞擊力。再看看另一個例子：跳高。跟真人跳高一樣，橫桿會放在不同高度。"
+      },
+      {
+        "start": 255.76,
+        "end": 276.78,
+        "speaker": "Ranbir Singh",
+        "text": "But instead of using leg power, marbles don't have legs, of course, the marble gets its jumping power from rolling down a slope. So the marble goes down the slope faster and faster and uses its speed. I mean, the speed it gets from going down the slope, to fly up and over the pole. So that's the high jump.",
+        "zh": "不過，彈珠當然沒有腳，不能用腿部力量起跳。它的跳躍動力來自沿斜坡往下滾動。彈珠越滾越快，利用下坡時累積的速度飛起，越過橫桿。這就是彈珠跳高。"
+      },
+      {
+        "start": 279.12,
+        "end": 306.54,
+        "speaker": "Ranbir Singh",
+        "text": "My favourite of all the events is the outdoor marathon. So, an outdoor marathon for humans will have runners race through forests and mountains. In the marble version, the marbles roll down a course that has been cut into sand, usually on a beach. So the course is cut into sand, but there are obstacles like sticks and stones put at various places on the course.",
+        "zh": "我最喜歡的項目是戶外馬拉松。真人的戶外馬拉松會讓跑手穿越森林和山地。彈珠版本則讓彈珠沿着在沙地挖出的路線滾下，通常是在沙灘上。路線在沙地挖成，途中不同位置還會放置樹枝、石頭等障礙物。"
+      },
+      {
+        "start": 307.32,
+        "end": 315.79,
+        "speaker": "Ranbir Singh",
+        "text": "What I really love is when the marbles get stuck behind one of the obstacles. That's what makes it great viewing. It's brilliant to watch.",
+        "zh": "我最喜歡看到彈珠被卡在障礙物後面。這正是比賽好看的地方，看起來非常精彩。"
+      },
+      {
+        "start": 316.9,
+        "end": 319.28,
+        "speaker": "Candice",
+        "text": "So, what's the future for marble racing?",
+        "zh": "那彈珠競賽的未來會怎樣？"
+      },
+      {
+        "start": 320.63,
+        "end": 348.31,
+        "speaker": "Ranbir Singh",
+        "text": "Well, marble racing has become really popular across the world, especially during the pandemic. Next year, the Marble Olympics will be held for the first time in five years, and they'll be held in Tokyo, and I plan to take a Hong Kong team there. It'll be a historical moment for marble racing in Hong Kong. And beyond that, with all these international teams joining the Olympics,",
+        "zh": "彈珠競賽在世界各地都變得很受歡迎，尤其是在疫情期間。明年彈珠奧運會將是五年來首次舉行，地點是東京。我計劃帶一支香港隊前往，這將是香港彈珠競賽的歷史時刻。再往後看，隨着這麼多國際隊伍參加奧運會，"
+      },
+      {
+        "start": 348.89,
+        "end": 359.61,
+        "speaker": "Ranbir Singh",
+        "text": "I'm sure you're going to see advances in marble technology. Countries will want their marbles to win, and I predict that marble technology will become much more advanced.",
+        "zh": "我相信彈珠技術一定會進步。各國都希望自己的彈珠獲勝，所以我預測彈珠技術會變得先進得多。"
+      },
+      {
+        "start": 360.78,
+        "end": 367.6,
+        "speaker": "Candice",
+        "text": "I used to worry about advanced robots taking over the world. Now I'm worried it will be the marbles instead.",
+        "zh": "我以前擔心先進的機械人會接管世界，現在反而擔心接管世界的會是彈珠了。"
+      },
+      {
+        "start": 370.17,
+        "end": 371.83,
+        "speaker": "Exam Narrator",
+        "text": "That is the end of task two.",
+        "zh": "任務二完結。"
+      }
+    ],
+    "3": [
+      {
+        "start": 0,
+        "end": 27.93,
+        "speaker": "Exam Narrator",
+        "text": "Task three. Monica is hosting a discussion on a cat called Mr Suess, who has become a popular internet influencer. With Monica are Estella Webber, owner of the cat, and Max Hui, chair of the Hong Kong Cat Shelter. Listen to the conversation and make notes in the note sheet below.",
+        "zh": "任務三。Monica 正在主持一場討論，主角是已成為知名網紅的貓 Mr Suess。與她一起參與討論的有貓主人 Estella Webber，以及香港貓咪收容所主席 Max Hui。請聆聽對話，並在下方筆記表記下資料。"
+      },
+      {
+        "start": 29.04,
+        "end": 43.89,
+        "speaker": "Exam Narrator",
+        "text": "Please note that you do not need to answer in complete sentences. You now have 30 seconds to study the task. At the end of the task, you will have one minute to tidy up your answers.",
+        "zh": "請注意，你不需要用完整句子作答。你現在有三十秒時間閱讀題目。本任務結束後，你將有一分鐘時間整理答案。"
+      },
+      {
+        "start": 76.96,
+        "end": 81.14,
+        "speaker": "Monica",
+        "text": "Welcome Estella and internet sensation, Mr Suess.",
+        "zh": "歡迎 Estella，還有網絡紅星 Mr Suess。"
+      },
+      {
+        "start": 81.82,
+        "end": 89.82,
+        "speaker": "Estella Webber",
+        "text": "Say hello, Mr Suess. Look, he's smiling. What's that, Mr Suess? He says he loves your show.",
+        "zh": "Mr Suess，打個招呼吧。看，牠在笑。你說什麼，Mr Suess？牠說牠很喜歡你的節目。"
+      },
+      {
+        "start": 90.32,
+        "end": 95.04,
+        "speaker": "Monica",
+        "text": "Thank you, Mr Suess. And welcome, Max, from the Hong Kong Cat Shelter.",
+        "zh": "謝謝你，Mr Suess。也歡迎來自香港貓咪收容所的 Max。"
+      },
+      {
+        "start": 96.26,
+        "end": 99.38,
+        "speaker": "Max Hui",
+        "text": "Nice to meet you, Monica, Estella, Mr Suess.",
+        "zh": "很高興認識你們，Monica、Estella，還有 Mr Suess。"
+      },
+      {
+        "start": 100.04,
+        "end": 117.02,
+        "speaker": "Monica",
+        "text": "Now, I have to say, I don't think we've ever had as big a star as Mr Suess on our show. So this is a great honor. Just in case you don't know Mr Suess, Mr Suess has 4.1 million followers on YouTube.",
+        "zh": "我得說，我們節目大概從沒請過像 Mr Suess 這麼大牌的明星，真是十分榮幸。萬一大家還不認識牠：Mr Suess 在 YouTube 上有四百一十萬名追蹤者。"
+      },
+      {
+        "start": 117.86,
+        "end": 121.64,
+        "speaker": "Estella Webber",
+        "text": "4.12 million as of yesterday, actually.",
+        "zh": "其實，截至昨天是四百一十二萬。"
+      },
+      {
+        "start": 122.24,
+        "end": 135.06,
+        "speaker": "Monica",
+        "text": "I stand corrected. Sorry, Mr Suess. Getting even more popular by the day. And he is considered more influential than the TV news, according to a recent survey.",
+        "zh": "我接受更正。不好意思，Mr Suess，牠真是一天比一天受歡迎。而且，根據最近一項調查，牠被認為比電視新聞更有影響力。"
+      },
+      {
+        "start": 135.64,
+        "end": 145.86,
+        "speaker": "Estella Webber",
+        "text": "That's right. More people watch Mr Suess than they watch the TV news every day. That survey was very recent too, only a few days ago.",
+        "zh": "沒錯，每天看 Mr Suess 的人比看電視新聞的人還多。那項調查也很新，只是幾天前的事。"
+      },
+      {
+        "start": 146.42,
+        "end": 153.66,
+        "speaker": "Monica",
+        "text": "Then I guess the big question is why. I mean, he's cute, but how come he's such a huge success?",
+        "zh": "那最大的問題大概就是為什麼了。牠是很可愛，但為什麼會這麼成功？"
+      },
+      {
+        "start": 154.52,
+        "end": 170.26,
+        "speaker": "Estella Webber",
+        "text": "Well, Mr Suess is famous for three things. First is that Mr Suess simply loves dressing up as superheroes. He's dressed up as Batman, Superman, Iron Man, all the superheroes.",
+        "zh": "Mr Suess 因三件事出名。首先，牠很喜歡扮成超級英雄。牠扮過蝙蝠俠、超人、鐵甲奇俠，各種超級英雄都扮過。"
+      },
+      {
+        "start": 171.3,
+        "end": 174.24,
+        "speaker": "Max Hui",
+        "text": "I'm not sure Mr Suess loves dressing up as superheroes.",
+        "zh": "我可不肯定 Mr Suess 真喜歡扮成超級英雄。"
+      },
+      {
+        "start": 174.94,
+        "end": 176.2,
+        "speaker": "Estella Webber",
+        "text": "Yes, he does, actually.",
+        "zh": "牠真的喜歡。"
+      },
+      {
+        "start": 176.8,
+        "end": 178.64,
+        "speaker": "Max Hui",
+        "text": "And I suppose he dances too.",
+        "zh": "我想，牠還會跳舞吧。"
+      },
+      {
+        "start": 178.98,
+        "end": 200.86,
+        "speaker": "Estella Webber",
+        "text": "Don't be silly. As if Mr Suess would dance. He's far more talented than that. Mr Suess plays the piano. In fact, his piano playing videos are the most popular ones. And the other thing that makes him an internet sensation is that Mr Suess gets gifts from all over the world.",
+        "zh": "別說傻話了，Mr Suess 才不會跳舞。牠的才華遠不止於此：牠會彈鋼琴。事實上，牠彈琴的影片最受歡迎。另外一件令牠成為網絡紅星的事，就是牠收到來自世界各地的禮物。"
+      },
+      {
+        "start": 201.62,
+        "end": 203.54,
+        "speaker": "Max Hui",
+        "text": "So he's popular for getting gifts?",
+        "zh": "所以，牠因為收到禮物而受歡迎？"
+      },
+      {
+        "start": 204.16,
+        "end": 219.54,
+        "speaker": "Estella Webber",
+        "text": "Well, no, it's not just getting the gifts. He's famous for opening the gifts. His viewers love to watch Mr Suess open the gifts that people send him. He got a cat-sized car last week. Did you see that one?",
+        "zh": "不是，重點不只是收到禮物，而是拆禮物。觀眾很喜歡看 Mr Suess 拆開大家寄給牠的禮物。牠上星期收到一輛適合貓大小的小汽車。你看過那段影片嗎？"
+      },
+      {
+        "start": 220.12,
+        "end": 221.44,
+        "speaker": "Max Hui",
+        "text": "No, I think I missed it.",
+        "zh": "沒有，我想我錯過了。"
+      },
+      {
+        "start": 221.9,
+        "end": 231.26,
+        "speaker": "Monica",
+        "text": "That's fascinating, Estella. But how do you train Mr Suess to do things for these videos? Aren't cats difficult to train?",
+        "zh": "很有趣，Estella。不過，你怎樣訓練 Mr Suess 拍這些影片？貓不是很難訓練嗎？"
+      },
+      {
+        "start": 231.98,
+        "end": 247.3,
+        "speaker": "Estella Webber",
+        "text": "There are two main methods I use to train my cat. The first method is to place food rewards at the place where I want him to go. When Mr Suess goes to that certain spot, I give him a little food treat.",
+        "zh": "我主要用兩種方法訓練牠。第一種，是在我想牠走到的地方放食物獎勵。Mr Suess 到達那個指定位置時，我就給牠一點小食。"
+      },
+      {
+        "start": 248.06,
+        "end": 250.86,
+        "speaker": "Monica",
+        "text": "Interesting. So what's the other method?",
+        "zh": "有意思。那另一種方法呢？"
+      },
+      {
+        "start": 251.59,
+        "end": 260.39,
+        "speaker": "Estella Webber",
+        "text": "I repeat the action I want Mr Suess to perform. But here's the important part. I keep each session short.",
+        "zh": "我會重複想讓 Mr Suess 做的動作。不過，重點是每次訓練的時間都要短。"
+      },
+      {
+        "start": 260.95,
+        "end": 271.51,
+        "speaker": "Monica",
+        "text": "Just to check that our viewers got that. You repeat the action you want him to do, but only for a short period each time. Why only a short period?",
+        "zh": "確認一下，讓觀眾聽清楚：你會重複想讓牠做的動作，但每次只維持短時間。為什麼每次只能練一會兒？"
+      },
+      {
+        "start": 272.45,
+        "end": 281.87,
+        "speaker": "Estella Webber",
+        "text": "Cats have a very short attention span. If you try to get them to repeat an action for too long, the cat will lose interest.",
+        "zh": "貓能維持專注的時間很短。如果要牠重複一個動作太久，牠就會失去興趣。"
+      },
+      {
+        "start": 282.87,
+        "end": 295.37,
+        "speaker": "Monica",
+        "text": "Now, Max, you've been studying this internet cat influencer phenomenon, and you've discovered that cat videos are much more popular than dog videos on YouTube. Why is that?",
+        "zh": "Max，你一直研究貓網紅這個現象，而且發現 YouTube 上的貓影片比狗影片受歡迎得多。這是為什麼？"
+      },
+      {
+        "start": 296.68,
+        "end": 305.5,
+        "speaker": "Max Hui",
+        "text": "Well, our research has shown that people prefer watching cat videos for two reasons. The first is that cats have lives that are more mysterious than dogs.",
+        "zh": "我們的研究顯示，人們偏愛貓影片有兩個原因。第一，貓的生活比狗更神秘。"
+      },
+      {
+        "start": 306.1,
+        "end": 331.43,
+        "speaker": "Estella Webber",
+        "text": "That's so true. Mr Suess's life is a complete mystery to me. When I'm out of the flat, he gets up to all kinds of things. I'm so curious about what he does that I have cameras all over the house to record what he's doing when I'm not there. But even then he disappears. He's a real man of mystery.",
+        "zh": "太對了。Mr Suess 的生活對我來說完全是個謎。我不在家時，牠會做各種各樣的事。我太好奇了，所以在家中各處放了攝影機，記錄我不在時牠在做什麼。但即使這樣，牠還是會消失不見。牠真是個神秘的傢伙。"
+      },
+      {
+        "start": 332.29,
+        "end": 339.71,
+        "speaker": "Max Hui",
+        "text": "And the second is that cat behaviour is less predictable than dog behaviour. What cats do is more surprising because of this.",
+        "zh": "第二，貓的行為比狗更難預測，因此牠們做的事更令人意外。"
+      },
+      {
+        "start": 340.15,
+        "end": 347.61,
+        "speaker": "Estella Webber",
+        "text": "Oh gosh, yes. Dogs are so boringly predictable. I'm never surprised by what a dog does.",
+        "zh": "天啊，沒錯。狗的行為太容易預測，簡直有點無聊。狗做什麼，我都不會感到驚訝。"
+      },
+      {
+        "start": 348.43,
+        "end": 357.17,
+        "speaker": "Monica",
+        "text": "Now, Max, you have expressed concern about owners like Estella here who use their cats for monetary gain on the internet.",
+        "zh": "Max，你曾對像 Estella 這樣，利用自己的貓在網上賺錢的主人表示擔憂。"
+      },
+      {
+        "start": 358.01,
+        "end": 370.59,
+        "speaker": "Max Hui",
+        "text": "Yes, I'm not saying that what Estella is doing does not have benefits for cats. For instance, our research has shown internet cat influencers like Mr Suess create positive feelings in their viewers.",
+        "zh": "是的。不過，我並不是說 Estella 所做的事對貓毫無好處。例如，我們的研究發現，像 Mr Suess 這類貓網紅能讓觀眾產生正面感受。"
+      },
+      {
+        "start": 371.87,
+        "end": 384.67,
+        "speaker": "Estella Webber",
+        "text": "Mr Suess makes all his viewers feel positive. He's a very positive cat. Did your research also show that internet cats encourage people to adopt stray cats?",
+        "zh": "Mr Suess 令所有觀眾都充滿正面情緒，牠是隻很積極的貓。你們的研究有沒有也發現，網絡上的貓會鼓勵人們領養流浪貓？"
+      },
+      {
+        "start": 385.51,
+        "end": 395.81,
+        "speaker": "Max Hui",
+        "text": "Yes, our research did show that adoption of stray cats is linked to internet cat influencers. This is definitely a good thing for stray cats. But we do have concerns.",
+        "zh": "有，研究的確發現，流浪貓的領養與貓網紅有關聯。這對流浪貓肯定是好事。不過，我們確實有一些擔憂。"
+      },
+      {
+        "start": 396.49,
+        "end": 397.19,
+        "speaker": "Monica",
+        "text": "Such as?",
+        "zh": "例如呢？"
+      },
+      {
+        "start": 398.11,
+        "end": 404.83,
+        "speaker": "Max Hui",
+        "text": "Our main concern is with cat owners who abandon their cats once their cat stops being popular or making money.",
+        "zh": "我們最擔心的是，有些主人會在自己的貓不再受歡迎或不再賺錢時，便把牠們遺棄。"
+      },
+      {
+        "start": 405.66,
+        "end": 413.64,
+        "speaker": "Estella Webber",
+        "text": "Oh, that's awful. I would never abandon Mr Suess. Even if he became unpopular, I would always keep him.",
+        "zh": "那太糟糕了。我絕不會遺棄 Mr Suess。即使牠不再受歡迎，我也一定會繼續照顧牠。"
+      },
+      {
+        "start": 414.18,
+        "end": 421.42,
+        "speaker": "Monica",
+        "text": "I'm trying to imagine what might make a cat unpopular. Maybe some offensive tweet about birds?",
+        "zh": "我正在想，有什麼事會令一隻貓不再受歡迎呢？可能是發了一則冒犯雀鳥的推文吧？"
+      },
+      {
+        "start": 424.23,
+        "end": 426.15,
+        "speaker": "Exam Narrator",
+        "text": "That's the end of task three.",
+        "zh": "任務三完結。"
+      }
+    ],
+    "4": [
+      {
+        "start": 0,
+        "end": 11.46,
+        "speaker": "Exam Narrator",
+        "text": "Task four. Candice and Monica have made a short documentary about the development of emojis as the new language of the internet.",
+        "zh": "任務四。Candice 和 Monica 製作了一齣短紀錄片，介紹表情符號如何發展成互聯網的新語言。"
+      },
+      {
+        "start": 13.89,
+        "end": 36.17,
+        "speaker": "Exam Narrator",
+        "text": "Listen to the conversation and answer the questions below. Please note that you do not need to answer in complete sentences. You now have 30 seconds to study the task. At the end of the task, you will have three minutes to tidy up your answers.",
+        "zh": "請聆聽對話，並回答下列問題。請注意，你不需要用完整句子作答。你現在有三十秒時間閱讀題目。本任務結束後，你將有三分鐘時間整理答案。"
+      },
+      {
+        "start": 69.18,
+        "end": 80.35,
+        "speaker": "Candice and Monica",
+        "text": "The emoji. Where do they come from? What fun facts can we learn about them? Do they have a dark side? Let's ask an expert. Hi there.",
+        "zh": "表情符號：它們從哪裡來？有什麼有趣的冷知識？它們有沒有黑暗的一面？我們來請教專家。你好。"
+      },
+      {
+        "start": 80.85,
+        "end": 109.06,
+        "speaker": "Dr Antoni Badura",
+        "text": "This is Dr. Antoni Badura, and I'm a professor of computer science at the University of Hong Kong and also a current member of the World Committee for Emojis. Let's begin with a bit of history. The idea of using a picture of a face to show emotions goes back a long way. But when do we find things like emojis inserted into writing? The first person to do this might be the famous Russian novelist Vladimir Nabokov.",
+        "zh": "我是 Antoni Badura 博士，任教於香港大學電腦科學系，目前也是世界表情符號委員會成員。先談一點歷史吧。用臉部圖像表達情緒的概念由來已久。不過，人們是何時開始把類似表情符號的東西放進文字裡的呢？最早這樣做的人，可能是著名俄羅斯小說家 Vladimir Nabokov。"
+      },
+      {
+        "start": 109.94,
+        "end": 139.81,
+        "speaker": "Dr Antoni Badura",
+        "text": "Back in the 1950s, Nabokov used brackets in his letters and correspondences to indicate to the reader that he was happy. I don't think anyone had used brackets to show happiness in everyday writing before then. But when we think of emojis as we use them today in online texting, there is one person who has arguably made the biggest contribution to the development of emojis, and that is Shigetaka Kurita. Back in the 90s, he was a designer for a mobile phone company,",
+        "zh": "早在 1950 年代，Nabokov 就在書信中使用括號，向讀者表示自己很開心。我想在那之前，還沒有人在日常文字中用括號表達快樂。不過，談到如今網上文字訊息中的表情符號，有一個人可說對它們的發展作出了最大的貢獻，那就是栗田穰崇（Shigetaka Kurita）。1990 年代，他在一家流動電話公司任職設計師，"
+      },
+      {
+        "start": 140.01,
+        "end": 169.17,
+        "speaker": "Dr Antoni Badura",
+        "text": "and while working there, he created the first set of emojis. Now, while other people claim to have used one or two emojis here or there, Kurita went much further and created a whole collection of emojis for use on mobile phones. This to me is the true beginning of emojis as we use them today. Presently, there is some debate about what is and what is not an emoji. Let me provide the latest definition that we experts in the industry subscribe to.",
+        "zh": "並在那裡工作期間創作了第一套表情符號。雖然其他人聲稱曾零星使用過一兩個表情符號，但 Kurita 做得更進一步：他創作了整套供流動電話使用的表情符號。在我看來，這才是今天這類表情符號真正的起點。目前，什麼算、什麼不算表情符號，仍有一些爭議。讓我介紹一下我們業內專家認同的最新定義。"
+      },
+      {
+        "start": 169.96,
+        "end": 198.08,
+        "speaker": "Dr Antoni Badura",
+        "text": "An emoji is a picture that is used in texting to convey an emotion or an idea. So, when we say picture, we would mean something that is drawn, in which case a photograph cannot be an emoji. I'm not saying that this won't change in the future, but currently an emoji must be a drawn picture and not a photo. It is hard to understate how influential emojis are in our lives these days.",
+        "zh": "表情符號是一種用於文字訊息、傳達情緒或想法的圖像。我們所說的圖像，是指畫出來的東西；按這個定義，相片便不算表情符號。我不是說這個定義將來不會改變，但目前表情符號必須是繪製的圖像，而不是相片。如今，表情符號對我們生活的影響實在不容小覷。"
+      },
+      {
+        "start": 198.89,
+        "end": 231.08,
+        "speaker": "Dr Antoni Badura",
+        "text": "Let's have a look at the most popular emoji in use around the world. I'm sure you've all used the emoji called face blowing a kiss. Well, here's a fun fact about this emoji. There are two groups of people who most use this emoji. One is teenagers who are flirting, and let's face it, emojis are a great way to flirt. And the other, somewhat surprisingly, is married couples. Apparently, married couples use this emoji not to flirt, but instead to show affection.",
+        "zh": "我們看看全球最常用的表情符號。我想大家都用過那個叫「飛吻臉」的圖案。它有一個有趣的現象：最常用它的是兩類人。一類是正在調情的青少年。說真的，表情符號是很好的調情工具。另一類可能有點令人意外，就是已婚伴侶。據說，已婚伴侶使用它並不是為了調情，而是表達愛意。"
+      },
+      {
+        "start": 233,
+        "end": 265.11,
+        "speaker": "Dr Antoni Badura",
+        "text": "Now, as I said in my introduction, I'm a member of the World Committee for Emojis. So, what is this committee about? Well, it serves two functions. The first is to decide which emojis will be created. The emojis you find on your smartphones are not random or created by anyone who wants to make emojis. The committee decided which ones you should have. The second function of the committee is to standardise the codes for all emojis so that communication technologies will understand which emoji is being sent.",
+        "zh": "正如自我介紹時所說，我是世界表情符號委員會的成員。這個委員會做什麼呢？它有兩項職能。第一，是決定製作哪些表情符號。智能手機上的表情符號不是隨意出現的，也不是任何想做的人都能加入；是委員會決定哪些符號可供使用。第二，是統一所有表情符號的代碼，讓不同通訊技術辨認正在傳送的是哪一個符號。"
+      },
+      {
+        "start": 265.91,
+        "end": 293.67,
+        "speaker": "Dr Antoni Badura",
+        "text": "Think about it. If the codes were not standardised, and each communication technology used a different code, then people with Apple iPhones could not send emojis to people with Samsung Galaxies. Here is a good place to talk about the darker side of emojis. Alas, it is not all smiles and laughter in the land of our cartoon friends. Even though I am a member, this still does not mean I agree with everything the committee does.",
+        "zh": "試想，如果代碼沒有統一，每種通訊技術各用不同代碼，那麼使用 Apple iPhone 的人就無法把表情符號傳給使用 Samsung Galaxy 的人。說到這裡，正好談談表情符號較陰暗的一面。唉，這個卡通朋友的世界並非只有歡笑。雖然我是委員會成員，也不代表我同意它所做的一切。"
+      },
+      {
+        "start": 294.79,
+        "end": 322.15,
+        "speaker": "Dr Antoni Badura",
+        "text": "The first issue of concern is that the committee has too much control. That is one of the most common concerns people express. And as a result of the committee's control, we effectively have a limit on how people express themselves emotionally. Keep in mind that many emojis are a stand-in for the emotions we convey through body language and facial expressions when texting. And we should not limit this range of emotional expression.",
+        "zh": "第一個令人擔憂的問題，是委員會控制權過大。這是人們最常提出的擔憂之一。由於委員會的控制，我們表達情緒的方式實際上受到限制。要記住，在文字訊息中，很多表情符號代替了原本透過肢體語言和面部表情傳達的情緒。我們不應限制這些情緒表達的範圍。"
+      },
+      {
+        "start": 323.74,
+        "end": 355.94,
+        "speaker": "Dr Antoni Badura",
+        "text": "This feeds into my second concern, which is that they, the committee, I mean, are all middle aged and white. Despite its title, the World Committee for Emojis is not actually representative of the many cultures and communities that use the internet. The committee, no matter how well intentioned, does not represent the vast diversity of people from different cultures and communities around the world. In my view, we cannot continue to have a committee that comprises entirely",
+        "zh": "這也牽涉到我的第二個擔憂：他們——我是指委員會成員——全是中年白人。儘管名為「世界表情符號委員會」，它實際上未能代表使用互聯網的眾多文化和社群。無論出發點多好，委員會都不能代表世界各地不同文化和社群的多元人士。在我看來，我們不能繼續讓委員會完全由"
+      },
+      {
+        "start": 355.94,
+        "end": 385.57,
+        "speaker": "Dr Antoni Badura",
+        "text": "of a bunch of middle-aged male Western computer engineers. My third concern is that the work of the committee is not made public enough. It needs to open its doors and let the public see what it is doing. If it does not make its work more public, then this will lead to suspicion. We do not want people to become suspicious of the committee because they lack the opportunity to look at its work or think that the committee is somehow secretive",
+        "zh": "一群中年西方男性電腦工程師組成。我的第三個擔憂，是委員會的工作不夠公開。它需要敞開大門，讓公眾了解自己在做什麼。如果不提高工作的公開程度，就會引起猜疑。我們不希望人們因為沒有機會了解委員會的工作，便對它產生懷疑，或認為它行事隱秘，"
+      },
+      {
+        "start": 385.57,
+        "end": 387.13,
+        "speaker": "Dr Antoni Badura",
+        "text": "and beyond scrutiny.",
+        "zh": "而且不受審視和監察。"
+      },
+      {
+        "start": 389.45,
+        "end": 395.35,
+        "speaker": "Dr Antoni Badura",
+        "text": "Well, that's it from me. Hope you found my guide to the world of emojis an interesting one.",
+        "zh": "我的介紹就到這裡。希望大家覺得這趟表情符號世界導覽有趣。"
+      }
+    ]
+  },
+  "questions": {
+    "1": {
+      "title": "非凡的職業生涯與人生故事",
+      "instruction": "Candice 和 Monica 正在訪問首位嘉賓，了解她的人生經歷和職業生涯。請聆聽錄音，並在下方空格填寫資料。第一項已作為例子提供。",
+      "blocks": [
+        "節目叫什麼名字？《非凡香港人》（Extraordinary Hong Kong People）（例子）",
+        "她們的嘉賓是誰？{{1}}",
+        "她在哪一年搬到香港？{{2}}",
+        "她一家搬到香港哪個地區？{{3}}",
+        "她父親從事什麼工作？\nA 航空交通管制員\nB 救援飛機領航員\nC 機場保安人員\nD 噴射機飛行教練",
+        "她駕駛哪一類飛行器？{{5}}",
+        "她為什麼選擇駕駛那一類飛行器？（提供兩個原因）",
+        "{{6}}\n{{7}}",
+        "她與丈夫相識的經過",
+        "他是一艘貨船的{{8}}。有一天，他駕船航經南丫海峽時，因為{{10}}而弄斷了{{9}}。",
+        "她隨後駕直升機把他送往{{11}}。",
+        "一年後，他們在什麼類型的社團再次相遇？{{12}}",
+        "她在哪裡邀請他約會？{{13}}"
+      ]
+    },
+    "2": {
+      "title": "彈珠競賽與彈珠奧運會",
+      "instruction": "Candice 正在與 Ranbir Singh 談論彈珠競賽，這項消閒活動在香港日漸流行。請聆聽錄音，並在下方空格填上所缺資料。其中一項已作為例子提供。",
+      "blocks": [
+        "各隊在彈珠競賽開始前列隊。",
+        "彈珠是：小朋友玩的小玻璃球。（例子）",
+        "Lars Jensen 的發展歷程",
+        "2011 年：開始在{{14}}建造彈珠賽道，令那裡變得擠迫。",
+        "2013 年：開始{{15}}，內容是彈珠競賽。\n比賽雖然{{16}}，但{{17}}。",
+        "2016 年：創辦彈珠奧運會，並邀請{{18}}參加。",
+        "彈珠奧運會的比賽項目",
+        "表格欄目：比賽項目／真人版本／彈珠版本。\n接力賽：圖中為真人接力賽。彈珠撞上一道{{19}}，彈珠的{{20}}把下一顆彈珠推前。\n跳高：圖中為真人跳高。彈珠沿{{21}}往下滾，累積足夠速度，飛越{{22}}。\n戶外馬拉松：圖中為真人戶外馬拉松。賽道由{{23}}造成，並在適當位置放置{{24}}。",
+        "彈珠競賽的未來",
+        "Ranbir 明年的計劃是{{25}}前往東京彈珠奧運會。",
+        "Ranbir 認為，未來彈珠技術會{{26}}。"
+      ]
+    },
+    "3": {
+      "title": "貓網紅 Mr Suess",
+      "instruction": "Monica 正在主持一場討論，主角是已成為知名網紅的貓 Mr Suess。與她一起參與討論的有貓主人 Estella Webber，以及香港貓咪收容所主席 Max Hui。請聆聽對話，並在下方筆記表記下資料。你不需要用完整句子作答。",
+      "blocks": [
+        "Mr Suess（貓的名字）",
+        "Mr Suess 的基本資料",
+        "擁有{{27}}名追蹤者。\n根據{{29}}，牠比{{28}}更有影響力。",
+        "Mr Suess 因哪些事情聞名？",
+        "{{30}}\n{{31}}\n{{32}}",
+        "Estella 訓練貓的方法",
+        "把食物獎勵放在她{{33}}的地方。\n重複動作，但{{34}}，因為{{35}}。",
+        "YouTube 上貓影片比狗影片受歡迎的原因",
+        "{{36}}\n{{37}}",
+        "貓網紅帶來的好處",
+        "{{38}}\n{{39}}",
+        "對貓網紅現象的擔憂",
+        "{{40}}"
+      ]
+    },
+    "4": {
+      "title": "表情符號：互聯網的新語言",
+      "instruction": "Candice 和 Monica 製作了一齣短紀錄片，介紹表情符號如何發展成互聯網的新語言。請聆聽對話，並回答下列問題。你不需要用完整句子作答。",
+      "blocks": [
+        "表情符號的歷史與背景",
+        "Vladimir Nabokov（弗拉基米爾・納博科夫）與 Shigetaka Kurita（栗田穰崇）",
+        "Vladimir Nabokov 在 1950 年代做了什麼，與我們今天使用表情符號的方式相似？{{41}}",
+        "Shigetaka Kurita 對表情符號的發展有什麼貢獻？{{42}}",
+        "目前表情符號的定義是什麼？{{43}}",
+        "目前有什麼不被視為表情符號？{{44}}",
+        "一個熱門表情符號的有趣資訊",
+        "「飛吻臉」表情符號",
+        "青少年和已婚伴侶使用這個表情符號的方式有什麼不同？\n青少年：{{45}}\n已婚伴侶：{{46}}",
+        "世界表情符號委員會的背景",
+        "委員會的兩項主要職能是什麼？\n主要職能一：{{47}}\n主要職能二：{{48}}",
+        "對世界表情符號委員會的擔憂",
+        "表格欄目：擔憂／後果。\n擔憂：{{49}}　後果：{{50}}\n擔憂：委員會由中年白人男性組成。　後果：{{51}}\n擔憂：{{52}}　後果：{{53}}"
+      ]
+    }
+  }
+}

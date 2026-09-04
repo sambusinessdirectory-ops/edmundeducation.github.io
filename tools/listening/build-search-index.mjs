@@ -22,8 +22,10 @@ for(const {year,available} of context.window.EDMUND_LISTENING_CATALOG.dseYears){
  if(!available)continue;
  load(`dse-listening-${year}-transcript.js`);load(`dse-listening-${year}-data.js`);
  const content=context.window[`EDMUND_DSE_LISTENING_${year}`];
+ const guideFile=path.join(root,`assets/dse-listening/${year}/guide.json`);
+ const guide=fs.existsSync(guideFile)?JSON.parse(fs.readFileSync(guideFile,'utf8')):null;
  for(const task of content.tasks)result.dse.push({id:`dse-${year}-${task.number}`,section:'dse',year,part:task.number,title:task.title,
-  text:clean([task.instruction,copy(task.blocks),copy(year===2021 ? JSON.parse(fs.readFileSync(path.join(root,'assets/dse-listening/2021/guide.json'),'utf8')).transcript[task.number] : content.transcript.partA[task.number])].join(' '))});
+  text:clean([task.instruction,copy(task.blocks),copy(guide?.transcript[task.number] || content.transcript.partA[task.number]),copy(guide?.questions?.[task.number])].join(' '))});
 }
 load('listening-practice-1-data.js');load('listening-practice-1-transcript.js');
 for(const {practice} of context.window.EDMUND_LISTENING_CATALOG.practices){
