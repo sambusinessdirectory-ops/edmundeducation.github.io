@@ -363,7 +363,7 @@ function renderLevels() {
       });
     }).join("")}</div>
   </section>`;
-  if (state.year === 2025) elements.screen.querySelector('.screen-section').insertAdjacentHTML('beforeend', b1FullLink());
+  if (state.year === 2025) elements.screen.querySelector('.screen-section').insertAdjacentHTML('beforeend', b1FullLink() + b2FullLink());
   if (DSE_CONTENT.has(state.year)) bindPartBPlayer();
 }
 
@@ -371,15 +371,15 @@ function b1FullLink() {
   return '<a class="selection-card is-available" href="dse-paper3-2025-b1-data-file.html" style="display:block;text-decoration:none;margin:18px 0;border:2px solid #16727c;background:#e8f3ec"><span class="card-kicker">2025 B1 · COMPLETE DATA FILE + QUESTION-ANSWER BOOK</span><strong style="font-size:clamp(24px,3vw,38px)">Data File 分析 + PP</strong><small>14 頁完整原文 · 原卷圖表 · 電郵及聊天版面 · 中英對照 · 可輸入答案</small><span class="card-status">開啟完整資料檔及問答冊</span><span class="card-arrow" aria-hidden="true">→</span></a>';
 }
 
-function renderMaterials() {
+function b2FullLink() { return '<a class="selection-card is-available" href="/paper3/2025-b2/" style="display:block;text-decoration:none;margin:18px 0;border:2px solid #16727c;background:#e8f3ec"><span class="card-kicker">2025 B2 · COMPLETE DATA FILE + RECORDING TRANSCRIPT</span><strong style="font-size:clamp(24px,3vw,38px)">Data File 分析 + PP</strong><small>17 頁完整內容 · 原海報插圖及圖表 · 電郵及聊天版面 · 中英對照 · 問答冊待補</small><span class="card-status">開啟完整資料檔、錄音稿及練習區</span><span class="card-arrow" aria-hidden="true">→</span></a>'; } function renderMaterials() {
   const resource = resourceFor();
-  const hasFullB1 = state.year === 2025 && state.level === "b1";
+  const hasFullB1 = state.year === 2025 && state.level === "b1"; const hasFullB2 = state.year === 2025 && state.level === "b2";
   elements.screen.innerHTML = `<section class="screen-section" aria-labelledby="materials-title">
     <header class="screen-heading">
       <div><p class="eyebrow">STEP 03 · RESOURCE</p><h2 id="materials-title">${escapeHtml(state.year)} ${escapeHtml(state.level.toUpperCase())}</h2><p>先讀三篇實用文範文，或逐份展開 Data File，理解如何選取、比較和整合資料。</p></div>
-      <div class="screen-counter"><strong>${hasFullB1 ? 3 : 2}</strong><span>類教材</span></div>
+      <div class="screen-counter"><strong>${hasFullB1 || hasFullB2 ? 3 : 2}</strong><span>類教材</span></div>
     </header>
-    ${hasFullB1 ? b1FullLink() : ""}
+    ${hasFullB1 ? b1FullLink() : hasFullB2 ? b2FullLink() : ""}
     <div class="selection-grid material-grid">${DATA.materialTypes.map((material) => {
       const available = hasMaterial(resource, material.id);
       const count = material.id === "model-essay" ? resource?.modelEssays?.length : resource?.analysisSections?.length;
@@ -550,7 +550,7 @@ async function handleLogin(event) {
     setConnection("已安全連接", "online");
     showView("library");
     resetToYears({ announce: false });
-    if (location.hash === "#2025-b1") { state.year = 2025; state.level = "b1"; state.screen = "materials"; renderLibrary(); }
+    if (/^#2025-b[12]$/.test(location.hash)) { state.year = 2025; state.level = location.hash.slice(-2); state.screen = "materials"; renderLibrary(); }
     showToast(`您好，${state.user.name}！`);
   } catch (error) {
     console.warn("DSE Paper 3 login failed", error);
@@ -683,7 +683,7 @@ async function initialise() {
       setConnection("已安全連接", "online");
       showView("library");
       resetToYears({ announce: false });
-    if (location.hash === "#2025-b1") { state.year = 2025; state.level = "b1"; state.screen = "materials"; renderLibrary(); }
+    if (/^#2025-b[12]$/.test(location.hash)) { state.year = 2025; state.level = location.hash.slice(-2); state.screen = "materials"; renderLibrary(); }
       return;
     }
     setConnection("已連線", "online");
