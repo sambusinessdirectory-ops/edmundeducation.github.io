@@ -247,6 +247,10 @@ button:focus-visible,select:focus-visible { outline: 3px solid #b9852f; outline-
 .dse-exercise .question-actions,.dse-exercise .question-bookmark-row { display:none; }
 .dse-exercise .paragraph-heading .reading-bookmark-button { display:none; }
 .dse-exercise .question-prompt { white-space:pre-line; }
+.dse-translation-copy { display:block; margin-top:8px; color:#63543c; font-family:Inter,"Noto Sans TC",sans-serif; font-size:15px; font-weight:500; line-height:1.7; letter-spacing:0; text-transform:none; white-space:pre-line; overflow-wrap:anywhere; }
+.dse-exercise .translation-menu { max-height:min(70vh,620px); overflow-y:auto; }
+.dse-exercise .dse-tools-notice { flex:1; text-align:left; }
+.question-translation-availability { color:var(--muted); font-size:14px; }
 .view h1[tabindex="-1"]:focus,.view h2[tabindex="-1"]:focus { outline:none; }
 .dashboard-system-back { margin-bottom:12px; }
 @media(max-width:800px) {

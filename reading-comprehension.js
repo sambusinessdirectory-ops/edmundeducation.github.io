@@ -4,7 +4,7 @@ const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
 const CATALOGUE_VERSION = '20260829-audio1';
-const DSE_CATALOGUE_VERSION = '20260904-full-question-audit-1';
+const DSE_CATALOGUE_VERSION = '20260904-dse-zh-hant-1';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
 const QUESTION_TYPE_INDEX = window.EDMUND_IELTS_READING_QUESTION_TYPES || { taxonomy: [], articles: [] };
 const audioTimingCache = new Map();
@@ -194,6 +194,15 @@ async function loadDseArticleData(id) {
   if (!response.ok) throw new Error('未能載入 DSE 閱讀練習資料。');
   const data = await response.json();
   if (data.id !== id || !Array.isArray(data.questions) || !data.paragraphs?.length || data.displayMode) throw new Error('DSE 閱讀練習資料不符。');
+  if (state.token) {
+    try {
+      const translation = await rpc('dse_reading_article_translation', { p_token: state.token, p_article_id: id });
+      if (translation && !window.DseReadingTranslations?.apply(data, translation)) throw new Error('Translation source mismatch');
+    } catch (error) {
+      data.translationLoadFailed = true;
+      console.warn('DSE translation unavailable', error);
+    }
+  }
   ARTICLE_ID = id; state.data = data; state.analysis = null;
   state.activeAnalysis = 0; state.activeSkimming = 0;
   return entry;
@@ -437,28 +446,37 @@ function interactiveWords(text, context, spoken = false) {
   }
   return html + escapeHtml(text.slice(last));
 }
-function renderContentFigures(figures, className) {
-  return (figures || []).map((figure) => `<figure class="${className}${figure.wide ? ' is-wide' : ''}${figure.small ? ' is-small' : ''}"><img src="${escapeHtml(figure.src)}" alt="${escapeHtml(figure.alt || '')}" loading="lazy">${figure.caption ? `<figcaption>${escapeHtml(figure.caption)}</figcaption>` : ''}</figure>`).join('');
+function dseTranslationCopy(object, key, scope = 'question', paragraphNumber = null) {
+  if (state.system !== 'dse') return '';
+  const text = window.DseReadingTranslations?.get(object, key);
+  if (!text) return '';
+  const attribute = scope === 'question' ? 'data-question-translation' : paragraphNumber == null ? 'data-translation-heading' : `data-translation-copy="${paragraphNumber}"`;
+  return `<span class="dse-translation-copy" ${attribute} hidden lang="zh-Hant">${escapeHtml(text)}</span>`;
+}
+function renderContentFigures(figures, className, scope = 'question', paragraphNumber = null) {
+  return (figures || []).map((figure) => `<figure class="${className}${figure.wide ? ' is-wide' : ''}${figure.small ? ' is-small' : ''}"><img src="${escapeHtml(figure.src)}" alt="${escapeHtml(figure.alt || '')}" loading="lazy">${figure.caption ? `<figcaption>${escapeHtml(figure.caption)}${dseTranslationCopy(figure, 'caption', scope, paragraphNumber)}</figcaption>` : ''}${figure.alt !== figure.caption ? dseTranslationCopy(figure, 'alt', scope, paragraphNumber) : ''}</figure>`).join('');
 }
 function renderPassage() {
   const dse = state.system === 'dse';
-  const sourceImage = state.data.sourceImage ? `<figure class="dse-passage-figure"><img src="${escapeHtml(state.data.sourceImage.src)}" alt="${escapeHtml(state.data.sourceImage.alt || '')}" loading="eager"></figure>` : '';
+  const sourceImage = state.data.sourceImage ? `<figure class="dse-passage-figure"><img src="${escapeHtml(state.data.sourceImage.src)}" alt="${escapeHtml(state.data.sourceImage.alt || '')}" loading="eager">${dseTranslationCopy(state.data.sourceImage, 'alt', 'passage')}</figure>` : '';
   const sourceHeader = `${state.data.sourceLabel ? `<p class="eyebrow">${escapeHtml(state.data.sourceLabel)}</p>` : ''}${state.data.sourceHeading ? `<p class="source-heading">${escapeHtml(state.data.sourceHeading)}</p>${state.data.headingTranslation ? `<p class="translation-copy" data-translation-heading hidden lang="zh-Hant">${escapeHtml(state.data.headingTranslation)}</p>` : ''}` : ''}${sourceImage}${state.data.titleTranslation && !state.data.headingTranslation ? `<p class="translation-copy" data-translation-heading hidden lang="zh-Hant">${escapeHtml(state.data.titleTranslation)}</p>` : ''}${state.data.sourceNote ? `<p class="dse-source-note">${escapeHtml(state.data.sourceNote)}</p>` : ''}`;
-  const sourceNotes = state.data.passageNotes?.length ? `<section class="dse-source-note"><strong>Notes</strong><br>${state.data.passageNotes.map(escapeHtml).join('<br>')}</section>` : '';
-  state.wordIndex = 0; el.passage.innerHTML = sourceHeader + state.data.paragraphs.map((paragraph) => { const paragraphImage = renderContentFigures(paragraph.images || (paragraph.image ? [paragraph.image] : []), 'dse-paragraph-figure'); return `<section class="passage-paragraph" id="paragraph-${paragraph.number}"><div class="paragraph-heading"><span class="paragraph-label">${dse ? '' : 'PARAGRAPH '}${escapeHtml(paragraph.label || paragraph.number)}</span>${dse ? '' : `<span class="scan-tags" data-scan-tags="${paragraph.number}" aria-label="已選擇此段的題目"></span><button class="paragraph-audio-button" type="button" data-play-paragraph="${paragraph.number}" aria-label="朗讀第 ${paragraph.number} 段">▶ 朗讀本段</button>${readingBookmarkButton('paragraph', paragraph.number)}`}</div>${paragraphImage}<div class="passage-text-block">${dse ? escapeHtml(paragraph.text) : interactiveWords(paragraph.text, `p${paragraph.number}`, true)}</div>${paragraph.translation ? `<div class="translation-copy" data-translation-copy="${paragraph.number}" hidden lang="zh-Hant">${escapeHtml(paragraph.translation)}</div>` : ''}${dse ? '' : `<button class="skimming-button" type="button" data-skimming="${paragraph.number}">Skimming Tips · ${escapeHtml(paragraph.label || paragraph.number)}</button>`}</section>`; }).join("") + sourceNotes;
-  $('[data-translation-options]').innerHTML = '<legend>或選擇指定段落</legend>' + state.data.paragraphs.filter((p) => p.translation).map((p) => `<label><input type="checkbox" data-translation-paragraph="${p.number}"> 第 ${escapeHtml(p.label || p.number)} 段</label>`).join('');
+  const sourceNotes = state.data.passageNotes?.length ? `<section class="dse-source-note"><strong>Notes</strong><br>${state.data.passageNotes.map((note, index) => escapeHtml(note) + dseTranslationCopy(state.data.passageNotes, index, 'passage')).join('<br>')}</section>` : '';
+  const headerKeys = ['title', 'sourceLabel', 'sourceHeading', 'sourceNote'];
+  const translatedHeader = headerKeys.filter((key, index) => !headerKeys.slice(0, index).some(previous => state.data[previous] === state.data[key])).map(key => dseTranslationCopy(state.data, key, 'passage')).join('');
+  state.wordIndex = 0; el.passage.innerHTML = sourceHeader + translatedHeader + state.data.paragraphs.map((paragraph) => { const paragraphImage = renderContentFigures(paragraph.images || (paragraph.image ? [paragraph.image] : []), 'dse-paragraph-figure', 'passage', paragraph.number); return `<section class="passage-paragraph" id="paragraph-${paragraph.number}"><div class="paragraph-heading"><span class="paragraph-label">${dse ? '' : 'PARAGRAPH '}${escapeHtml(paragraph.label || paragraph.number)}${dseTranslationCopy(paragraph, 'label', 'passage', paragraph.number)}</span>${dse ? '' : `<span class="scan-tags" data-scan-tags="${paragraph.number}" aria-label="已選擇此段的題目"></span><button class="paragraph-audio-button" type="button" data-play-paragraph="${paragraph.number}" aria-label="朗讀第 ${paragraph.number} 段">▶ 朗讀本段</button>${readingBookmarkButton('paragraph', paragraph.number)}`}</div>${paragraphImage}<div class="passage-text-block">${dse ? escapeHtml(paragraph.text) : interactiveWords(paragraph.text, `p${paragraph.number}`, true)}</div>${paragraph.translation ? `<div class="translation-copy" data-translation-copy="${paragraph.number}" hidden lang="zh-Hant">${escapeHtml(paragraph.translation)}</div>` : ''}${dse ? '' : `<button class="skimming-button" type="button" data-skimming="${paragraph.number}">Skimming Tips · ${escapeHtml(paragraph.label || paragraph.number)}</button>`}</section>`; }).join("") + sourceNotes;
+  $('[data-translation-options]').innerHTML = '<legend>或選擇指定段落</legend>' + state.data.paragraphs.filter((p) => p.translation).map((p) => `<label><input type="checkbox" data-translation-paragraph="${p.number}"> ${dse ? escapeHtml(window.DseReadingTranslations?.get(p, 'label') || p.label || `第 ${p.number} 段`) : `第 ${escapeHtml(p.label || p.number)} 段`}</label>`).join('');
   const translated = state.data.paragraphs.some((p) => p.translation); el.translationAll.disabled = !translated; el.translationAll.checked = false; $('[data-translation-availability]').hidden = translated;
   $('[data-translation-availability]').textContent = state.data.translationLoadFailed ? '中文翻譯暫時未能載入；你仍可閱讀英文及作答，請稍後重新整理。' : '這篇文章的完整中文翻譯正在逐篇整理中。';
-  if (dse) state.data.paragraphs.forEach((paragraph) => { if (paragraph.table) $(`#paragraph-${paragraph.number} .passage-text-block`).insertAdjacentHTML('beforeend', renderSourceTable(paragraph.table)); });
+  if (dse) state.data.paragraphs.forEach((paragraph) => { if (paragraph.table) $(`#paragraph-${paragraph.number} .passage-text-block`).insertAdjacentHTML('beforeend', renderSourceTable(paragraph.table, null, 'passage', paragraph.number)); });
   renderScanTags();
 }
 function normalizedOption(option) { return typeof option === "string" ? { value: option, label: option, translation: "" } : option; }
 function renderAnswerControl(control, name, partId) {
   const type = control.type || 'text'; const options = control.options || [];
-  if (['choice', 'multiple'].includes(type)) return `<div class="choice-list">${options.map((entry) => { const option = normalizedOption(entry); return `<label><input type="${type === 'multiple' ? 'checkbox' : 'radio'}" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" data-answer-slots="${control.slots || 1}" value="${escapeHtml(option.value)}"><span><strong>${escapeHtml(option.label)}</strong>${option.translation ? `<small class="option-translation" data-question-translation hidden><br>${escapeHtml(option.translation)}</small>` : ''}</span></label>`; }).join('')}</div>${type === 'multiple' && control.selectionLimit !== false ? `<small>請選擇 ${control.slots || 1} 項。</small>` : ''}`;
-  if (type === 'select') return `<select class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '選擇答案')}"><option value="">選擇答案</option>${options.map((entry) => { const option = normalizedOption(entry); return `<option value="${escapeHtml(option.value)}">${escapeHtml(option.label)}</option>`; }).join('')}</select>`;
-  if (type === 'textarea') return `<textarea class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '輸入答案')}" autocomplete="off" maxlength="1200" placeholder="${escapeHtml(control.placeholder || '輸入答案')}"></textarea>`;
-  return `<input class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '輸入答案')}" autocomplete="off" maxlength="300" placeholder="${escapeHtml(control.placeholder || '輸入答案')}">`;
+  if (['choice', 'multiple'].includes(type)) return `<div class="choice-list">${options.map((entry, index) => { const option = normalizedOption(entry); return `<label><input type="${type === 'multiple' ? 'checkbox' : 'radio'}" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" data-answer-slots="${control.slots || 1}" value="${escapeHtml(option.value)}"><span><strong>${escapeHtml(option.label)}</strong>${option.translation ? `<small class="option-translation" data-question-translation hidden><br>${escapeHtml(option.translation)}</small>` : ''}${typeof entry === 'string' ? dseTranslationCopy(options, index) : dseTranslationCopy(entry, 'label')}</span></label>`; }).join('')}</div>${type === 'multiple' && control.selectionLimit !== false ? `<small>請選擇 ${control.slots || 1} 項。</small>` : ''}`;
+  if (type === 'select') return `<select class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '選擇答案')}"><option value="">選擇答案</option>${options.map((entry, index) => { const option = normalizedOption(entry); const chinese = state.system === 'dse' ? window.DseReadingTranslations?.get(typeof entry === 'string' ? options : entry, typeof entry === 'string' ? index : 'label') : ''; return `<option value="${escapeHtml(option.value)}"${chinese ? ` data-english-label="${escapeHtml(option.label)}" data-chinese-label="${escapeHtml(chinese)}"` : ''}>${escapeHtml(option.label)}</option>`; }).join('')}</select>`;
+  if (type === 'textarea') return `<textarea class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '輸入答案')}" autocomplete="off" maxlength="1200" placeholder="${escapeHtml(control.placeholder || '輸入答案')}"></textarea>${dseTranslationCopy(control, 'placeholder')}`;
+  return `<input class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '輸入答案')}" autocomplete="off" maxlength="300" placeholder="${escapeHtml(control.placeholder || '輸入答案')}">${dseTranslationCopy(control, 'placeholder')}`;
 }
 function renderQuestionControls(question) {
   if (question.tables?.length) {
@@ -466,31 +484,36 @@ function renderQuestionControls(question) {
     const remainingControls = !question.parts?.length || remainingParts?.length ? renderQuestionControls({ ...question, tables: undefined, parts: remainingParts }) : '';
     return question.tables.map((table) => renderSourceTable(table, question)).join('') + remainingControls;
   }
-  if (question.parts?.length) return `<div class="question-parts">${question.parts.map((part) => { const name = `q${question.number}_${part.key}`; return `<div class="question-part"><span>${escapeHtml(part.label)}</span>${renderAnswerControl(part, name, name)}</div>`; }).join('')}</div>`;
+  if (question.parts?.length) return `<div class="question-parts">${question.parts.map((part) => { const name = `q${question.number}_${part.key}`; return `<div class="question-part"><span>${escapeHtml(part.label)}${dseTranslationCopy(part, 'label')}</span>${renderAnswerControl(part, name, name)}</div>`; }).join('')}</div>`;
   return renderAnswerControl(question, `q${question.number}`, `q${question.number}`);
 }
-function renderSourceTable(table, question = null) {
+function renderSourceTable(table, question = null, scope = 'question', paragraphNumber = null) {
   const columns = Math.max(...table.rows.map(row => row.reduce((count, cell) => count + (cell.colSpan || 1), 0)));
-  return `<div class="source-table-scroll" role="region" aria-label="${escapeHtml(table.caption || 'Source table')}" tabindex="0"><table class="source-table${table.compact ? ' is-compact' : ''}${table.flow ? ' is-flow' : ''}${columns > 2 ? ' is-wide' : ''}">${table.caption ? `<caption>${escapeHtml(table.caption)}</caption>` : ''}<tbody>${table.rows.map((row) => `<tr>${row.map((cell) => {
+  return `<div class="source-table-scroll" role="region" aria-label="${escapeHtml(table.caption || 'Source table')}" tabindex="0"><table class="source-table${table.compact ? ' is-compact' : ''}${table.flow ? ' is-flow' : ''}${columns > 2 ? ' is-wide' : ''}">${table.caption ? `<caption>${escapeHtml(table.caption)}${dseTranslationCopy(table, 'caption', scope, paragraphNumber)}</caption>` : ''}<tbody>${table.rows.map((row) => `<tr>${row.map((cell, cellIndex) => {
     const item = typeof cell === 'string' ? { text: cell } : cell;
     const tag = item.header ? 'th' : 'td';
     const fields = (item.parts || (item.part ? [item.part] : [])).map((key) => question?.parts?.find((entry) => entry.key === key)).filter(Boolean);
-    const controls = fields.map((part) => { const name = `q${question.number}_${part.key}`; const control = renderAnswerControl(part, name, name); return fields.length > 1 ? `<div class="table-answer-field"><span>${escapeHtml(part.label)}</span>${control}</div>` : control; }).join('');
-    return `<${tag}${item.colSpan > 1 ? ` colspan="${item.colSpan}"` : ''}${item.rowSpan > 1 ? ` rowspan="${item.rowSpan}"` : ''}>${escapeHtml(item.text || '')}${controls}</${tag}>`;
+    const controls = fields.map((part) => { const name = `q${question.number}_${part.key}`; const control = renderAnswerControl(part, name, name); return fields.length > 1 ? `<div class="table-answer-field"><span>${escapeHtml(part.label)}${dseTranslationCopy(part, 'label')}</span>${control}</div>` : dseTranslationCopy(part, 'label') + control; }).join('');
+    return `<${tag}${item.colSpan > 1 ? ` colspan="${item.colSpan}"` : ''}${item.rowSpan > 1 ? ` rowspan="${item.rowSpan}"` : ''}>${escapeHtml(item.text || '')}${typeof cell === 'string' ? dseTranslationCopy(row, cellIndex, scope, paragraphNumber) : dseTranslationCopy(cell, 'text', scope, paragraphNumber)}${controls}</${tag}>`;
   }).join('')}</tr>`).join('')}</tbody></table></div>`;
+}
+function updateQuestionTranslations() {
+  const visible = $('[data-question-translations]').checked;
+  $$('[data-question-translation]').forEach(node => { node.hidden = !visible; });
+  $$('option[data-chinese-label]').forEach(option => { option.textContent = visible ? `${option.dataset.englishLabel} · ${option.dataset.chineseLabel}` : option.dataset.englishLabel; });
 }
 function renderQuestions() {
   const groupLabels = state.data.instructions || {}; let group = "";
   el.questions.innerHTML = state.data.questions.map((question) => {
     const sourceGroup = state.data.questionGroups?.find((item) => item.id === question.group);
-    const heading = group !== question.group ? `<p class="question-group-heading">${escapeHtml(groupLabels[question.group])}</p>${sourceGroup ? `<div class="original-question-group">${interactiveWords(sourceGroup.text, `g${sourceGroup.start}`)}</div>` : ''}` : ""; group = question.group;
+    const heading = group !== question.group ? `<p class="question-group-heading">${escapeHtml(groupLabels[question.group])}${dseTranslationCopy(groupLabels, question.group)}</p>${sourceGroup ? `<div class="original-question-group">${state.system === 'dse' ? escapeHtml(sourceGroup.text) : interactiveWords(sourceGroup.text, `g${sourceGroup.start}`)}${dseTranslationCopy(sourceGroup, 'text')}</div>` : ''}` : ""; group = question.group;
     const controls = renderQuestionControls(question);
     const scanButtons = state.data.paragraphs.map((p) => `<button type="button" data-scan-choice="${question.number}:${p.number}">P${escapeHtml(p.label || p.number)}</button>`).join("");
     const figure = renderContentFigures(question.figures || (question.figure ? [question.figure] : []), 'question-figure');
     const marks = question.marks ? `<p class="question-meta">${question.marks} marks</p>` : '';
-    const context = question.context ? `<div class="original-question-group">${state.system === 'dse' ? escapeHtml(question.context) : interactiveWords(question.context, `q${question.number}`)}</div>` : '';
-    const optionBank = question.optionBank ? `<div class="question-option-bank">${escapeHtml(question.optionBank)}</div>` : '';
-    const translation = question.translation ? `<p class="question-translation" data-question-translation hidden>${escapeHtml(question.translation)}</p>` : '';
+    const context = question.context ? `<div class="original-question-group">${state.system === 'dse' ? escapeHtml(question.context) : interactiveWords(question.context, `q${question.number}`)}${dseTranslationCopy(question, 'context')}</div>` : '';
+    const optionBank = question.optionBank ? `<div class="question-option-bank">${Array.isArray(question.optionBank) ? question.optionBank.map((option, index) => `<div>${escapeHtml(option)}${dseTranslationCopy(question.optionBank, index)}</div>`).join('') : escapeHtml(question.optionBank) + dseTranslationCopy(question, 'optionBank')}</div>` : '';
+    const translation = (question.translation ? `<p class="question-translation" data-question-translation hidden>${escapeHtml(question.translation)}</p>` : '') + dseTranslationCopy(question, 'prompt');
     const actions = state.system === 'dse' ? '' : `<div class="question-actions"><button class="scan-button" type="button" data-scan-question="${question.number}">Scan：選擇段落</button><button class="scanning-tip-button" type="button" data-scanning-tip="${question.number}">Scanning 提示</button><button class="reveal-button" type="button" data-reveal="${question.number}">顯示答案及分析</button><span class="question-result" data-question-result="${question.number}"></span></div><div class="scan-chooser" data-scan-chooser="${question.number}" hidden><span>答案最可能在哪一段？</span>${scanButtons}</div><small class="answer-timestamp" data-answer-time="${question.number}" hidden></small>`;
     const bookmark = state.system === 'dse' ? '' : `<div class="question-bookmark-row">${readingBookmarkButton('question', question.number)}</div>`;
     return `${heading}<section class="question-card" id="question-${question.number}" data-question="${question.number}">${bookmark}<p class="question-prompt"><span class="question-number">${question.number}</span>${state.system === 'dse' ? escapeHtml(question.prompt) : interactiveWords(question.prompt, `q${question.number}`)}</p>${marks}${translation}${context}${question.figuresAfterControls ? '' : figure}${optionBank}${controls}${question.figuresAfterControls ? figure : ''}${actions}</section>`;
@@ -498,6 +521,11 @@ function renderQuestions() {
   if (state.system !== 'dse' && state.data.questionPages?.length) el.questions.insertAdjacentHTML('afterbegin', `<details class="original-pages"><summary>查看原題完整排版、圖表及選項</summary>${state.data.questionPages.map((src) => `<a href="${escapeHtml(src)}" target="_blank" rel="noopener"><img src="${escapeHtml(src)}" alt="原題頁面（可開啟放大）" loading="lazy"></a>`).join('')}</details>`);
   state.data.questions.filter((q) => q.requiresReview).forEach((q) => $(`[data-question="${q.number}"]`).insertAdjacentHTML('afterbegin','<p class="review-notice">原題或答案需教師核對；本題可儲存，但暫不自動計分。</p>'));
   if (state.system === 'ielts') updateScanControls();
+  const questionTranslationsAvailable = state.system !== 'dse' || Boolean(state.data.dseTranslation);
+  $('[data-question-translations]').disabled = !questionTranslationsAvailable;
+  $('[data-question-translation-availability]').hidden = questionTranslationsAvailable;
+  $('[data-question-translation-availability]').textContent = state.data.translationLoadFailed ? '題目中文翻譯暫時未能載入，請稍後重新整理。' : '這份試卷的題目中文翻譯尚未加入。';
+  updateQuestionTranslations();
   updateAnswerProgress();
 }
 function collectAnswers() {
@@ -818,7 +846,7 @@ async function openExercise(id = ARTICLE_ID) {
       applyResults(draft);
     }
     state.exerciseReady = true;
-    updateTranslations(); $$('[data-question-translation]').forEach((node) => { node.hidden = !$('[data-question-translations]').checked; }); el.submissionStatus.textContent = '';
+    updateTranslations(); updateQuestionTranslations(); el.submissionStatus.textContent = '';
     state.timerHandle = setInterval(updateTimer, 250); state.autosaveHandle = setInterval(() => { if (state.view === 'exercise') saveAttempt(false, false, true); }, 15000);
   }
   const entry = state.catalogue.find((item) => item.id === ARTICLE_ID);
@@ -883,7 +911,7 @@ el.translationButton.addEventListener("click", () => { const open = el.translati
 function updateTranslations() { const all = el.translationAll.checked; $$('[data-translation-paragraph]').forEach((checkbox) => { if (all) checkbox.checked = true; checkbox.disabled = all; }); $$('[data-translation-copy]').forEach((copy) => { const selected = $(`[data-translation-paragraph="${copy.dataset.translationCopy}"]`)?.checked; copy.hidden = !(all || selected); }); $$('[data-translation-heading]').forEach((copy) => { copy.hidden = !(all || $$('[data-translation-paragraph]').some((checkbox) => checkbox.checked)); }); }
 el.translationAll.addEventListener("change", updateTranslations); $('[data-translation-options]').addEventListener('change', updateTranslations);
 $('[data-hide-translations]').addEventListener("click", () => { el.translationAll.checked = false; $$('[data-translation-paragraph]').forEach((checkbox) => { checkbox.checked = false; checkbox.disabled = false; }); updateTranslations(); showToast("已隱藏所有文章翻譯。"); });
-$('[data-question-translations]').addEventListener("change", (event) => { $$('[data-question-translation]').forEach((node) => { node.hidden = !event.currentTarget.checked; }); });
+$('[data-question-translations]').addEventListener('change', updateQuestionTranslations);
 el.passage.addEventListener("click", (event) => { const paragraphAudio = event.target.closest('[data-play-paragraph]'); if (paragraphAudio) return playParagraph(Number(paragraphAudio.dataset.playParagraph)); const button = event.target.closest('[data-skimming]'); if (button) return openSkimming(Number(button.dataset.skimming)); const word = event.target.closest('[data-word-key]'); if (word) toggleWordBookmark(word); });
 el.questions.addEventListener("click", (event) => {
   const word = event.target.closest('[data-word-key]'); if (word) return toggleWordBookmark(word);

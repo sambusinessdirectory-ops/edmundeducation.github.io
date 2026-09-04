@@ -7,108 +7,123 @@
   "sourceHeading": "Foraging in Hong Kong for Beginners",
   "paragraphs": [
     {
-      "number": 1,
       "image": {
         "src": "assets/reading-comprehension/dse/2025-b1-foraging-logo.webp",
         "alt": "Leaf logo from Foraging in Hong Kong for Beginners",
         "small": true
       },
-      "label": "Paragraph 1",
-      "text": "Read Texts 2-4 and answer questions 22-42 in the Question-Answer Book for Part B1. * → C https://www.foraginginhongkongforbeginners.com.hk/home/ Home Foraging Info Videos Recipes About Us Join Us What is Foraging? Foraging is identifying, collecting, and eating plants like herbs, fruits, and nuts that grow wild in nature. Foraging Guidelines"
+      "text": "Home | Foraging Info | Videos | Recipes | About Us | Join Us\nForaging is identifying, collecting, and eating plants like herbs, fruits, and nuts that grow wild in nature.",
+      "number": 1,
+      "label": "Text 2 - What is Foraging? - Paragraph 1"
     },
     {
+      "text": "Here are some rules that every forager should follow:",
       "number": 2,
-      "label": "Paragraph 2",
-      "text": "Here are some rules that every forager should follow: • [3] Never start solo. It's essential to begin by partnering up with a local expert who can teach you the best ways to forage while also keeping you safe. • [4] Familiarise yourself with the herbs, bushes, and trees around you. Try to learn as much as possible about the ecosystem of which you are a part."
+      "label": "Text 2 - Foraging Guidelines - Paragraph 2"
     },
     {
+      "text": "Never start solo. It's essential to begin by partnering up with a local expert who can teach you the best ways to forage while also keeping you safe.",
       "number": 3,
-      "label": "Paragraph 5",
-      "text": "Learn to identify the poisonous plants you are likely to encounter. DO NOT EAT ANYTHING"
+      "label": "Text 2 - Paragraph 3"
     },
     {
+      "text": "Familiarise yourself with the herbs, bushes, and trees around you. Try to learn as much as possible about the ecosystem of which you are a part.",
       "number": 4,
-      "label": "Paragraph 4",
-      "text": "YOU CANNOT POSITIVELY IDENTIFY AND KNOW TO BE SAFE. • [6] Familiarise yourself with the plants that are listed on the endangered species list for your area. Apart from being unethical, it is also illegal to pick endangered plant species. • [7] Don't be greedy! Only pick as much as you need and never take ALL the plants of any one kind in a given patch. After harvesting an area, give the plants plenty of time to recover before returning to the same patch. If in doubt, don't collect. Know the Law!"
+      "label": "Text 2 - Paragraph 4"
     },
     {
+      "text": "Learn to identify the poisonous plants you are likely to encounter. DO NOT EAT ANYTHING YOU CANNOT POSITIVELY IDENTIFY AND KNOW TO BE SAFE.",
       "number": 5,
-      "label": "Paragraph 8",
-      "text": "The Agriculture, Fisheries and Conservation Department (AFCD) says it is illegal to cut, pick, or uproot any plant or part of a plant, whether living or dead, from within a country park area without express permission. It's also illegal to dig up plants from private land without permission from the lando wner. Foraging in Hong Kong"
+      "label": "Text 2 - Paragraph 5"
     },
     {
+      "text": "Familiarise yourself with the plants that are listed on the endangered species list for your area. Apart from being unethical, it is also illegal to pick endangered plant species.",
       "number": 6,
-      "label": "Paragraph 1",
-      "text": "Wanda Huang is an experienced Hong Kong forager who knows how to identify edible and medicinal plants. Huang tries to incorporate foraged food and materials into her daily life and avoids processed and synthetic products as much as possible. She even makes her own wine and shampoos."
+      "label": "Text 2 - Paragraph 6"
     },
     {
+      "text": "Don't be greedy! Only pick as much as you need and never take ALL the plants of any one kind in a given patch. After harvesting an area, give the plants plenty of time to recover before returning to the same patch. If in doubt, don't collect.",
       "number": 7,
-      "label": "Paragraph 2",
-      "text": "Huang's interest in foraging started when she was a child in Canada and her father took her on outings and taught her how to identify herbs and plants in the wild. \"We picked blueberries and made pancakes for breakfast, we made tea from pine needles and pine cones, and then we cut the pine cones for the nuts. It was, for me, such a fun experience growing up,\" she says fondly. \"And we don't have to spend time farming — constantly ploughing the land and sowing seeds. Foraging happens naturally, just like when humans were hunters and gatherers,\" Huang says."
+      "label": "Text 2 - Paragraph 7"
     },
     {
+      "text": "The Agriculture, Fisheries and Conservation Department (AFCD) says it is illegal to cut, pick, or uproot any plant or part of a plant, whether living or dead, from within a country park area without express permission. It's also illegal to dig up plants from private land without permission from the landowner.",
       "number": 8,
-      "label": "Paragraph 3",
-      "text": "The vegetables we grow today originated from wild plants which had long roots that penetrated deep into the soil. This means they absorbed a wide range of nutrients and trace minerals from the soil. Huang says that over time, commercial farming has produced bigger, sweeter, and faster-growing vegetables but their roots have shortened. As a result, they no longer absorb all of the trace minerals and nutrients found deep in the soil. \"This is why it's healthier to eat wild plants than store-bought vegetables,\" Huang says."
+      "label": "Text 2 - Know the Law! - Paragraph 8"
     },
     {
       "number": 9,
-      "label": "Paragraph 4",
-      "text": "Huang holds foraging workshops, which are particularly welcomed by chefs from high-end restaurants. \"There's real interest from the food and beverage industry in Hong Kong and they're fascinated about what is edible around them,\" Huang says. Uwe Opocensky, the chef-owner of a restaurant in Sheung Wan, says, \"the taste is much deeper because the plants grow in a natural enviromnent and the flavour is really related to the soil.\""
+      "label": "Text 3 - Foraging in Hong Kong - Paragraph 1",
+      "text": "Wanda Huang is an experienced Hong Kong forager who knows how to identify edible and medicinal plants. Huang tries to incorporate foraged food and materials into her daily life and avoids processed and synthetic products as much as possible. She even makes her own wine and shampoos."
     },
     {
       "number": 10,
-      "label": "Paragraph 5",
-      "text": "Hong Kongprovides rich pickings for foragers because of its high biodiversity. The territory lies in the subtropical zone, which means it provides ideal conditions for both tropical plants and plants that grow in colder climates. Apart from collecting wild plants for food, people also forage for a wide range of medicinal plants to use in Chinese medicine or dietary therapy. The local herbal tea, 24 flavours, is a good example of how rich Hong Kong is in wild herbs and medicinal plants."
+      "label": "Text 3 - Paragraph 2",
+      "text": "Huang's interest in foraging started when she was a child in Canada and her father took her on outings and taught her how to identify herbs and plants in the wild. \"We picked blueberries and made pancakes for breakfast, we made tea from pine needles and pine cones, and then we cut the pine cones for the nuts. It was, for me, such a fun experience growing up,\" she says fondly. \"And we don't have to spend time farming — constantly ploughing the land and sowing seeds. Foraging happens naturally, just like when humans were hunters and gatherers,\" Huang says."
     },
     {
       "number": 11,
-      "label": "Paragraph 6",
-      "text": "Nevertheless, it is hard for Hong Kong people to incorporate foraging into their lifestyle because they work such long hours and simply do not have the time. \"People now go to the supermarket and eat bananas from Chile and pak choi from the Mainland. They've lost their connection with the enviromnent.\" Huang says. It is mainly elderly villagers who still possess local knowledge about edible wild plants. Huang is sad that most people do not see this knowledge as valuable. \"To me, foraging is not about making money but about re-establishing our connection to the environment and our culture,\" Huang says. Questions from the Internet"
+      "label": "Text 3 - Paragraph 3",
+      "text": "The vegetables we grow today originated from wild plants which had long roots that penetrated deep into the soil. This means they absorbed a wide range of nutrients and trace minerals from the soil. Huang says that over time, commercial farming has produced bigger, sweeter, and faster-growing vegetables but their roots have shortened. As a result, they no longer absorb all of the trace minerals and nutrients found deep in the soil. \"This is why it's healthier to eat wild plants than store-bought vegetables,\" Huang says."
     },
     {
       "number": 12,
-      "label": "Paragraph 1",
-      "text": "Naturalist and avid forager John Wright answers questions from the internet about the fun of finding your own food and the surprising delights growing outside."
+      "label": "Text 3 - Paragraph 4",
+      "text": "Huang holds foraging workshops, which are particularly welcomed by chefs from high-end restaurants. \"There's real interest from the food and beverage industry in Hong Kong and they're fascinated about what is edible around them,\" Huang says. Uwe Opocensky, the chef-owner of a restaurant in Sheung Wan, says, \"the taste is much deeper because the plants grow in a natural environment and the flavour is really related to the soil.\""
     },
     {
       "number": 13,
-      "label": "Paragraph 2",
-      "text": "@13happy mushroom asks: How did you get into foraging?"
+      "label": "Text 3 - Paragraph 5",
+      "text": "Hong Kong provides rich pickings for foragers because of its high biodiversity. The territory lies in the subtropical zone, which means it provides ideal conditions for both tropical plants and plants that grow in colder climates. Apart from collecting wild plants for food, people also forage for a wide range of medicinal plants to use in Chinese medicine or dietary therapy. The local herbal tea, 24 flavours, is a good example of how rich Hong Kong is in wild herbs and medicinal plants."
     },
     {
       "number": 14,
-      "label": "Paragraph 3",
-      "text": "It was mushrooms that first got me interested. I encountered a mushroom and was annoyed that I didn't know what it was. So, I took it home, bought a book, and managed to identify the species. I've carried on ever since. I started teaching evening classes and now I lead mushroom picking trips and I'm currently working on my ninth nature guidebook."
+      "label": "Text 3 - Paragraph 6",
+      "text": "Nevertheless, it is hard for Hong Kong people to incorporate foraging into their lifestyle because they work such long hours and simply do not have the time. \"People now go to the supermarket and eat bananas from Chile and pak choi from the Mainland. They've lost their connection with the environment.\" Huang says. It is mainly elderly villagers who still possess local knowledge about edible wild plants. Huang is sad that most people do not see this knowledge as valuable. \"To me, foraging is not about making money but about re-establishing our connection to the environment and our culture,\" Huang says."
     },
     {
       "number": 15,
-      "label": "Paragraph 4",
-      "text": "@nature gurl asks: What's the appeal of finding wild food?"
+      "label": "Text 4 - Questions from the Internet - Paragraph 1",
+      "text": "Naturalist and avid forager John Wright answers questions from the internet about the fun of finding your own food and the surprising delights growing outside."
     },
     {
       "number": 16,
-      "label": "Paragraph 5",
-      "text": "It's a gentle way for people to go out and engage with the natural world, but there's so much more - to it. Foraging has a massive sense of freedom and release from modern day life. A connection to nature is something very special that, in my eyes, is a privilege and I'm lucky enough to have found a way to make a living from it."
+      "label": "Text 4 - Paragraph 2",
+      "text": "@13happy_mushroom asks: How did you get into foraging?"
     },
     {
       "number": 17,
-      "label": "Paragraph 6",
-      "text": "@eat to live1234 asks: What are the benefits of foraging?"
+      "label": "Text 4 - Paragraph 3",
+      "text": "It was mushrooms that first got me interested. I encountered a mushroom and was annoyed that I didn't know what it was. So, I took it home, bought a book, and managed to identify the species. I've carried on ever since. I started teaching evening classes and now I lead mushroom picking trips and I'm currently working on my ninth nature guidebook."
     },
     {
       "number": 18,
-      "label": "Paragraph 7",
-      "text": "Foraging naturally slows you down to become more observant and you gain an appreciation for the little things which, for me, are the most important. The physical activity involved in searching for wild edibles in nature provides a low-impact way to move your body while enjoying the great outdoors. Foraging also has some mental health benefits. Spending time in green spaces can help reduce stress, help people cope with anxiety, and provide relief from depression, as well as improve overall mood and well-being."
+      "label": "Text 4 - Paragraph 4",
+      "text": "@nature_gurl asks: What's the appeal of finding wild food?"
     },
     {
       "number": 19,
-      "label": "Paragraph 8",
-      "text": "@EarthFirst2024 asks: There seems to be a trend in people choosing to forage. Why do you think this is?"
+      "label": "Text 4 - Paragraph 5",
+      "text": "It's a gentle way for people to go out and engage with the natural world, but there's so much more to it. Foraging has a massive sense of freedom and release from modern day life. A connection to nature is something very special that, in my eyes, is a privilege and I'm lucky enough to have found a way to make a living from it."
     },
     {
       "number": 20,
-      "label": "Paragraph 9",
+      "label": "Text 4 - Paragraph 6",
+      "text": "@eat_to_live1234 asks: What are the benefits of foraging?"
+    },
+    {
+      "number": 21,
+      "label": "Text 4 - Paragraph 7",
+      "text": "Foraging naturally slows you down to become more observant and you gain an appreciation for the little things which, for me, are the most important. The physical activity involved in searching for wild edibles in nature provides a low-impact way to move your body while enjoying the great outdoors. Foraging also has some mental health benefits. Spending time in green spaces can help reduce stress, help people cope with anxiety, and provide relief from depression, as well as improve overall mood and well-being."
+    },
+    {
+      "number": 22,
+      "label": "Text 4 - Paragraph 8",
+      "text": "@EarthFirst2024 asks: There seems to be a trend in people choosing to forage. Why do you think this is?"
+    },
+    {
+      "number": 23,
+      "label": "Text 4 - Paragraph 9",
       "text": "I think food in general has become something people pay more attention to. A new respect for ourselves with regard to how we treat our bodies, has pushed people towards smaller producers of better quality food. Small cottage industries and producers are now more popular with organic and natural processes being favoured, and there's nothing more organic than foraged wild food!"
     }
   ],
@@ -762,23 +777,23 @@
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/content/2025/b1/questions-4-visual-1.webp",
-          "alt": "Original figure 1"
+          "alt": "A. It's amazing, one mushroom has changed my entire life."
         },
         {
           "src": "assets/reading-comprehension/dse/content/2025/b1/questions-4-visual-2.webp",
-          "alt": "Original figure 2"
+          "alt": "B. It's most important to first speak to someone who knows what they are doing."
         },
         {
           "src": "assets/reading-comprehension/dse/content/2025/b1/questions-4-visual-3.webp",
-          "alt": "Original figure 3"
+          "alt": "D. Know what you're doing before you embark on any foraging trip."
         },
         {
           "src": "assets/reading-comprehension/dse/content/2025/b1/questions-4-visual-4.webp",
-          "alt": "Original figure 4"
+          "alt": "C. If you try them yourself you'll agree with me. Totally delicious!"
         },
         {
           "src": "assets/reading-comprehension/dse/content/2025/b1/questions-4-visual-5.webp",
-          "alt": "Original figure 5"
+          "alt": "E. I can't stand by and let our heritage be lost."
         }
       ],
       "tables": [

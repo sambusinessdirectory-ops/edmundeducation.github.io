@@ -36,7 +36,7 @@
     ],
     "dse-2013-b2": [
       {
-        "anchor": "paragraph-1",
+        "anchor": "paragraph-4",
         "src": "assets/reading-comprehension/dse/content/2013/b2/passage-1-visual-1.webp"
       },
       {
@@ -90,7 +90,7 @@
     ],
     "dse-2016-b1": [
       {
-        "anchor": "paragraph-11",
+        "anchor": "paragraph-13",
         "src": "assets/reading-comprehension/dse/content/2016/b1/passage-2-crop-1.webp"
       }
     ],
@@ -112,7 +112,7 @@
         "src": "assets/reading-comprehension/dse/2017-b1-millennials-word-cloud.webp"
       },
       {
-        "anchor": "paragraph-8",
+        "anchor": "paragraph-7",
         "src": "assets/reading-comprehension/dse/content/2017/b1/passage-2-crop-1.webp"
       }
     ],

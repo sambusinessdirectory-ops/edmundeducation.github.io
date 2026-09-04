@@ -9,66 +9,76 @@
     {
       "number": 1,
       "label": "Paragraph 1",
-      "text": "By Michael S. Roth It happens every semester. A student triumphantly points out that Jean-Jacques Rousseau' is undermining himself when he claims \"the man who reflects is a depraved animal,\" or that Ralph Waldo Emerson's? call for self-reliance is in effect a call for reliance on Emerson himself. Trying not to sound too weary, I ask the student to imagine that the authors had already considered these issues."
+      "text": "It happens every semester. A student triumphantly points out that Jean-Jacques Rousseau¹ is undermining himself when he claims \"the man who reflects is a depraved animal,\" or that Ralph Waldo Emerson's² call for self-reliance is in effect a call for reliance on Emerson himself. Trying not to sound too weary, I ask the student to imagine that the authors had already considered these issues."
     },
     {
       "number": 2,
       "label": "Paragraph 2",
-      "text": "Instead of trying to find mistakes in the texts, I suggest we take the point of view that our authors created these apparent \"contradictions\" in order to get readers like us to ponder more interesting questions. How do we think about inequality and learning, for example, or how can we stand on our own feet while being open to inspiration from the world around us? Yes, there's a certain satisfaction in being critical of our authors, but isn't it more interesting to put ourselves in a frame of mind to find inspiration in them? |3] Our best college students are very good at being critical. In fact being smart, for many, means being critical. Having strong critical skills shows that you will not be easily fooled. It is a sign of sophistication, especially when coupled with an acknowledgment of one's own \"privilege\"."
+      "text": "Instead of trying to find mistakes in the texts, I suggest we take the point of view that our authors created these apparent \"contradictions\" in order to get readers like us to ponder more interesting questions. How do we think about inequality and learning, for example, or how can we stand on our own feet while being open to inspiration from the world around us? Yes, there's a certain satisfaction in being critical of our authors, but isn't it more interesting to put ourselves in a frame of mind to find inspiration in them?"
     },
     {
+      "text": "Our best college students are very good at being critical. In fact being smart, for many, means being critical. Having strong critical skills shows that you will not be easily fooled. It is a sign of sophistication, especially when coupled with an acknowledgment of one's own \"privilege\".",
       "number": 3,
+      "label": "Paragraph 3"
+    },
+    {
+      "number": 4,
       "label": "Paragraph 4",
       "text": "The combination of resistance to influence and deflection of responsibility by confessing to one's advantages is a sure sign of one's ability to negotiate the politics of learning on campus. But this ability will not take you very far beyond the university. Taking things apart, or taking people down, can provide the satisfactions of cynicism. But this is thin gruel."
     },
     {
-      "number": 4,
+      "number": 5,
       "label": "Paragraph 5",
       "text": "The skill at unmasking error, or simple intellectual one-upmanship, is not totally without value, but we should be wary of creating a class of self-satisfied debunkers — or, to use a currently fashionable word on campus, people who like to \"trouble\" ideas. In overdeveloping the capacity to show how texts, institutions or people fail to accomplish what they set out to do, we may be depriving students of the chance to learn as much as possible from what they study."
     },
     {
-      "number": 5,
-      "label": "Paragraph 6",
-      "text": "In campus cultures where being smart means being a critical unmasker, students may become too good at showing how things can't possibly make sense. They may close themselves off from their potential to find or create meaning and direction from the books, music and experiments they encounter in the I7] Once outside the university, these students may try to score points by displaying the critical prowess for which they were rewarded in school, but those points often come at their own expense. As debunkers, they contribute to a cultural climate that has little tolerance for finding or making meaning — a culture whose intellectuals and cultural commentators get \"liked\" by showing that somebody else just can't be believed. But this cynicism is no achievement."
-    },
-    {
       "number": 6,
-      "label": "Paragraph 8",
-      "text": "Liberal education in America has long been characterized by the intertwining of two traditions: of critical inquiry in pursuit of truth and exuberant performance in pursuit of excellence. In the last half-century, though, emphasis on inquiry has become dominant, and it has often been reduced to the ability to expose error and undermine belief. The inquirer has taken the guise of the sophisticated (often ironic) spectator, rather than the messy participant in continuing experiments or even the reverent beholder of great cultural achievements. 1 Jean-Jacques Rousseau was a philosopher and writer of the 18th century. His political philosophy influenced the French Revolution. 2 Ralph Waldo Emerson was an American writer, lecturer, and poet of the mid-19th century. He was seen as a champion of individualism."
+      "label": "Paragraph 6",
+      "text": "In campus cultures where being smart means being a critical unmasker, students may become too good at showing how things can't possibly make sense. They may close themselves off from their potential to find or create meaning and direction from the books, music and experiments they encounter in the classroom."
     },
     {
+      "text": "Once outside the university, these students may try to score points by displaying the critical prowess for which they were rewarded in school, but those points often come at their own expense. As debunkers, they contribute to a cultural climate that has little tolerance for finding or making meaning — a culture whose intellectuals and cultural commentators get \"liked\" by showing that somebody else just can't be believed. But this cynicism is no achievement.",
       "number": 7,
+      "label": "Paragraph 7"
+    },
+    {
+      "number": 8,
+      "label": "Paragraph 8",
+      "text": "Liberal education in America has long been characterized by the intertwining of two traditions: of critical inquiry in pursuit of truth and exuberant performance in pursuit of excellence. In the last half-century, though, emphasis on inquiry has become dominant, and it has often been reduced to the ability to expose error and undermine belief. The inquirer has taken the guise of the sophisticated (often ironic) spectator, rather than the messy participant in continuing experiments or even the reverent beholder of great cultural achievements."
+    },
+    {
+      "number": 9,
       "label": "Paragraph 9",
       "text": "Of course critical reflection is fundamental to teaching and scholarship, but fetishizing disbelief as a sign of intelligence has contributed to depleting our cultural resources. Creative work, in whatever field, depends upon commitment, the energy of participation and the ability to become absorbed in works of literature, art and science. That type of absorption is becoming an endangered species of cultural life, as our nonstop, increasingly fractured technological existence wears down our receptive capacities."
     },
     {
-      "number": 8,
+      "number": 10,
       "label": "Paragraph 10",
       "text": "In my film and philosophy class, for example, I have to insist that students put their devices away while watching movies that don't immediately engage their senses with explosions, sex or gag lines. At first they see this as some old guy's failure to grasp their skill at multitasking, but eventually most relearn how to give themselves to an emotional and intellectual experience, one that is deeply engaging partly because it does not pander to their most superficial habits of attention. I usually watch the movies with them (though I've seen them more than a dozen times), and together we share an experience that becomes the subject of reflection, interpretation and analysis. We even forget our phones and tablets when we encounter these unexpected sources of inspiration."
     },
     {
-      "number": 9,
+      "number": 11,
       "label": "Paragraph 11",
       "text": "Liberal learning depends on absorption in compelling work. It is a way to open ourselves to the various forms of life in which we might actively participate. When we learn to read or look or listen intensively, we are, at least temporarily, overcoming our own blindness by trying to understand an experience from another's point of view. We are not just developing techniques of problem solving; we are learning to activate potential, and often to instigate new possibilities."
     },
     {
-      "number": 10,
-      "label": "Paragraph 12",
-      "text": "Yes, hard-nosed critical thinking is a useful tool, but it also may become a defense against the risky insight that absorption can offer. As students and as teachers we sometimes crave that protection; without it we risk changing who we are. We risk seeing a different way of living not as something alien, but as a"
-    },
-    {
-      "number": 11,
-      "label": "Paragraph 13",
-      "text": "Liberal education must not limit itself to critical thinking and problem solving; it must also foster openness, participation and opportunity. It should be designed to take us beyond the campus to a life of ongoing, pragmatic learning that finds inspiration in unexpected sources, and increases our capacity to understand and contribute to the world - and reshape it, and ourselves, in the process. Comments Tom"
-    },
-    {
       "number": 12,
       "label": "Paragraph 12",
-      "text": "6/5/2014 2:47 AM GMT+0800 Are you serious? $60,000 taken out in student loans for tuition, room and board and no prospect for a job. Better to stick to any STEM program in college (science, technology, engineering, math). You can get the ype of education discussed in the article, and even more, from your local library, with maybe $1.50 in lat ines when you are finished, if you really want to explore what it means to be human. PUH-LEEZE Clearly this article was written for the American higher education \"rip-off machine\". Laura"
+      "text": "Yes, hard-nosed critical thinking is a useful tool, but it also may become a defense against the risky insight that absorption can offer. As students and as teachers we sometimes crave that protection; without it we risk changing who we are. We risk seeing a different way of living not as something alien, but as a possibility we might be able to explore, and even embrace."
     },
     {
       "number": 13,
       "label": "Paragraph 13",
+      "text": "Liberal education must not limit itself to critical thinking and problem solving; it must also foster openness, participation and opportunity. It should be designed to take us beyond the campus to a life of ongoing, pragmatic learning that finds inspiration in unexpected sources, and increases our capacity to understand and contribute to the world - and reshape it, and ourselves, in the process."
+    },
+    {
+      "number": 14,
+      "label": "Comments - Tom",
+      "text": "6/5/2014 2:47 AM GMT+0800 Are you serious? $60,000 taken out in student loans for tuition, room and board and no prospect for a job. Better to stick to any STEM program in college (science, technology, engineering, math). You can get the type of education discussed in the article, and even more, from your local library, with maybe $1.50 in late fines when you are finished, if you really want to explore what it means to be human. PUH-LEEZE Clearly this article was written for the American higher education \"rip-off machine\"."
+    },
+    {
+      "number": 15,
+      "label": "Comments - Laura",
       "text": "6/5/2014 8:00 PM GMT+0800 It takes months or years to design and build a structure, and most are incapable of doing this; however, it takes hours and less skill to wreck it."
     }
   ],
@@ -686,5 +696,10 @@
       "prompt": "Does Laura agree with Michael Roth? Give a reason for your answer. (2 marks)"
     }
   ],
-  "questionRevision": "20260904-full-question-audit-1"
+  "questionRevision": "20260904-full-question-audit-1",
+  "sourceNote": "By Michael S. Roth",
+  "passageNotes": [
+    "1. Jean-Jacques Rousseau was a philosopher and writer of the 18th century. His political philosophy influenced the French Revolution.",
+    "2. Ralph Waldo Emerson was an American writer, lecturer, and poet of the mid-19th century. He was seen as a champion of individualism."
+  ]
 }

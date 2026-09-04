@@ -9,7 +9,7 @@
     {
       "number": 1,
       "label": "Paragraph 1",
-      "text": "Tai Kwun: The Big House is Finally Open For 179 years, the former Victoria Prison and Central Police Station compound stood aloof in the heart of Hong Kong, visible yet inaccessible - unless you enforced the law or fell on the wrong side of it. Now everyone has a chance to step inside its walls. After a long and arduous conversion into a centre for art and heritage, Hong Kong's most significant heritage conservation project is finally complete.",
+      "text": "For 179 years, the former Victoria Prison and Central Police Station compound stood aloof in the heart of Hong Kong, visible yet inaccessible - unless you enforced the law or fell on the wrong side of it. Now everyone has a chance to step inside its walls. After a long and arduous conversion into a centre for art and heritage, Hong Kong's most significant heritage conservation project is finally complete.",
       "images": [
         {
           "src": "assets/reading-comprehension/dse/content/2020/a/passage-1-visual-1.webp",
@@ -41,7 +41,7 @@
     {
       "number": 5,
       "label": "Paragraph 5",
-      "text": "When Jacques Herzog and Pierre de Meuron visited Hong Kong last December to inspect Tai Kwun, they still disappointed their original vision for the site had been rejected. \"We were honestly a bit shocked to find that Hong Kong has neighbourhoods worse than Switzerland, that they would complain about such a radical transformation,\" said Herzog. But the feedback made them realise that what people valued about Tai Kwun was its low-rise character in a high-rise city. \"It's a horizontal oasis,\" he said. \"It has always been an attractive space just waiting to be discovered by the public.\"",
+      "text": "When Jacques Herzog and Pierre de Meuron visited Hong Kong last December to inspect Tai Kwun, they still seemed disappointed their original vision for the site had been rejected. \"We were honestly a bit shocked to find that Hong Kong has neighbourhoods worse than Switzerland, that they would complain about such a radical transformation,\" said Herzog. But the feedback made them realise that what people valued about Tai Kwun was its low-rise character in a high-rise city. \"It's a horizontal oasis,\" he said. \"It has always been an attractive space just waiting to be discovered by the public.\"",
       "images": [
         {
           "src": "assets/reading-comprehension/dse/content/2020/a/passage-1-visual-3.webp",
@@ -57,7 +57,7 @@
     {
       "number": 7,
       "label": "Paragraph 7",
-      "text": "Others defend the new additions. \"When we talk about heritage conservation now, we talk about adaptive reuse - giving a building new life. There's only so much you can do with the existing buildings,\" architectural conservationist Fredo Cheung last year. \"The point is not to mimic the old but to distinguish the old from the new,\" he said. \"It's about authenticity.\""
+      "text": "Others defend the new additions. \"When we talk about heritage conservation now, we talk about adaptive reuse - giving a building new life. There's only so much you can do with the existing buildings,\" said architectural conservationist Fredo Cheung last year. \"The point is not to mimic the old but to distinguish the old from the new,\" he said. \"It's about authenticity.\""
     },
     {
       "number": 8,
@@ -72,12 +72,17 @@
     {
       "number": 10,
       "label": "Paragraph 10",
-      "text": "Tai Kwun's new life as a public gathering space was one of the reasons its inaugural heritage exhibition, 100 Faces, focuses on its presence in the surrounding neighbourhood. The history of Tai Kwun itself is conveyed through eight storytelling spaces scattered throughout the site. Some of that history deals with well-known figures like Vietnamese Communist leader Ho Chi Minh, who was jailed in Victoria Prison as he used Hong ong as a base from which to plot his revolutionary war against France. But other stories are more humble i cope. One of Yeung's favourites is from the owner of a Sheung Wan printing pres place in Central. It gives you a sense of how the site has always had this very strong connection to the community even though it was surrounded by walls.\""
+      "text": "Tai Kwun's new life as a public gathering space was one of the reasons its inaugural heritage exhibition, 100 Faces, focuses on its presence in the surrounding neighbourhood. The history of Tai Kwun itself is conveyed through eight storytelling spaces scattered throughout the site. Some of that history deals with well-known figures like Vietnamese Communist leader Ho Chi Minh, who was jailed in Victoria Prison as he used Hong Kong as a base from which to plot his revolutionary war against France. But other stories are more humble in scope. One of Yeung's favourites is from the owner of a Sheung Wan printing press."
     },
     {
+      "text": "\"When the owner was still a very young boy, he cried a lot when he was sleeping at night,\" she says. \"His father had to get up early the next morning, so what his mother did was to bring him all the way to Chancery Lane next to the prison and get them to sleep there - because Victoria Prison after lights off was the quietest place in Central. It gives you a sense of how the site has always had this very strong connection to the community even though it was surrounded by walls.\"",
       "number": 11,
+      "label": "Paragraph 11"
+    },
+    {
+      "number": 12,
       "label": "Paragraph 12",
-      "text": "The walls are still there, but now the gates are open - and a new chapter of history has begun. More than just a museum, or an art gallery, or an historic site, Tai Kwun is a place that brings many different threads of Hong Kong life together. \"Never have we done such a large scale conservation and revitalisation project all in one go,\" says Yeung. • \"In Hong Kong, in the past, we always just conserved one building and then another. This is conserving an entire site - a place.\""
+      "text": "The walls are still there, but now the gates are open - and a new chapter of history has begun. More than just a museum, or an art gallery, or an historic site, Tai Kwun is a place that brings many different threads of Hong Kong life together. \"Never have we done such a large scale conservation and revitalisation project all in one go,\" says Yeung. \"In Hong Kong, in the past, we always just conserved one building and then another. This is conserving an entire site - a place.\""
     }
   ],
   "instructions": {

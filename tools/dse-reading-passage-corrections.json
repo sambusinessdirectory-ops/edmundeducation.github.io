@@ -1,0 +1,494 @@
+{
+  "dse-2018-b1": {
+    "source":"2018 Reading.pdf, PDF pages 12-13, visually checked 2026-09-04",
+    "textRepairs": {
+      "0":[["Read Texts 3-4 and answer questions 23-45 in the Question-Answer Book for Part B1. ", ""], [" Insect Stings and Insect Bites", ""]],
+      "3":[[" Insect Stings", ""]],
+      "5":[["17] If", "If"], [" Treatments for Stings", ""]],
+      "7":[["10] To", "To"], ["b overing", "by covering"], ["on the skin", "on the skin)."]],
+      "9":[[" Allergies to Insect Stings", ""]],
+      "12":[[" Hong Kong's First Urban Beekeeper Keeping local traditions alive Michael Leung inspects a frame of Rooftop beehives set up by HK Honey, bees — notice, no protective clothing! a key feature of urban beekeeping. Don't try this at home!", ""]],
+      "13":[["Michael Leung inspects a frame of Rooftop beehives set up by HK Honey, bees — notice, no protective clothing! a key feature of urban beekeeping. Don't try this at home!", "Michael Leung inspects a frame of bees - notice, no protective clothing! Don't try this at home! Rooftop beehives set up by HK Honey, a key feature of urban beekeeping."]]
+    },
+    "headings":{"0":"Text 3 - A Guide to Bee Stings - Paragraph 1","1":"Insect Stings and Insect Bites - Paragraph 2","4":"Insect Stings - Paragraph 5","5":"Paragraphs 6-7","6":"Treatments for Stings - Paragraph 8","7":"Paragraphs 9-10","8":"Paragraph 11","9":"Paragraph 12","10":"Allergies to Insect Stings - Paragraph 13","11":"Paragraph 14","12":"Paragraph 15","13":"Text 4 - Introduction and Paragraph 1","14":"Text 4 - Paragraph 2","15":"Text 4 - Paragraph 3","16":"Text 4 - Paragraph 4","17":"Text 4 - Paragraph 5","18":"Text 4 - Paragraph 6","19":"Text 4 - Paragraph 7","20":"Text 4 - Paragraph 8"}
+  },
+  "dse-2018-a": {
+    "source":"2018 Reading.pdf, PDF pages 2-3, visually checked 2026-09-04",
+    "title":"Music Teachers & Listening to Music While Working",
+    "textRepairs": {
+      "0":[["Read Texts 1-2 and answer questions 1-22 in the Question-Answer Book for Part A. ", ""]],
+      "1":[[" Paying attention", ""]],
+      "2":[["You can't help it..", "You can't help it."]],
+      "4":[["what we're doing is unpleasant or dull - so you're already having to force your attention to stay fixed on it - the unconscious attention system is even more potent. This means that a distraction doesn't need to be as stimulating to divert your attention to something else. ", ""]],
+      "5":[[" Type of music", ""]],
+      "8":[[" Video game soundtracks", ""]]
+    },
+    "headings":{"0":"Text 1 - Classified Ads; Text 2 - Introduction and Paragraph 1","2":"Paying attention - Paragraph 3","6":"Type of music - Paragraph 7","9":"Video game soundtracks - Paragraph 10","12":"Paragraph 13 and Comments"}
+  },
+  "dse-2017-b2": {
+    "source":"2017 Reading Passage and Questions.pdf, PDF pages 18-19, visually checked 2026-09-04",
+    "textRepairs": {
+      "0":[["MILLENNIALS - Themes In The Literature' I. Introduction ", ""], ["Millennial generation Many", "Millennial generation. Many"]],
+      "2":[["Baby Boomers?", "Baby Boomers"], [" III.", ""]],
+      "6":[[" IV.", ""]], "8":[[" V.", ""]], "11":[[" VI.", ""]], "13":[[" VII. Conclusion", ""]],
+      "14":[[" ' A selection of research articles on the topic of Millennials People born between 1946 and 1964", ""]]
+    },
+    "headings":{"0":"I. Introduction - Paragraph 1","1":"II. ______ - Paragraph 2","3":"III. ______ - Paragraph 4","7":"IV. ______ - Paragraph 8","9":"V. ______ - Paragraph 10","12":"VI. ______ - Paragraph 13","14":"VII. Conclusion - Paragraph 15"},
+    "passageNotes":["1. Literature: A selection of research articles on the topic of Millennials.", "2. Baby Boomers: People born between 1946 and 1964."]
+  },
+  "dse-2017-b1": {
+    "source": "2017 Reading Passage and Questions.pdf, PDF pages 10-11, visually checked 2026-09-04",
+    "imageAfterParagraph": 1,
+    "imageAnchors": {"assets/reading-comprehension/dse/content/2017/b1/passage-2-crop-1.webp": 7},
+    "paragraphs": [
+      "MILLENNIALS - Coming of age\nMillennials are the largest generation in history and are about to move into their prime spending years. Companies want to understand the attitudes and lifestyle of Millennials because their shopping habits will make a big difference to their business.",
+      "Snug in the nest, a growing number of Millennials are choosing to live at home with their parents. Many Millennials don't want to own a home but their reluctance to enter the housing market could change. As they get older, they will likely have a desire to settle down, and this could lead to a surge in home sales.",
+      "It's not just homes: Millennials have been reluctant to buy items such as cars, music and luxury goods. Instead, they're turning to a new set of services that provide access to products without the burdens of ownership, giving rise to what's being called a \"sharing economy\". The must-haves for previous generations aren't as important for Millennials. They're postponing major purchases - or avoiding them entirely.\n\"25 years from now, car sharing will be the norm, and car ownership an anomaly.\"\nJeremy Rifkin, Author and Economist",
+      "Millennials have been putting off significant milestones like getting married and having children. But that doesn't mean they want to stay single forever. The average age of couples getting married in 1970 was 20. By 2010, it had risen to 30.",
+      "Millennials' love for technology is changing the retail industry. With product information, reviews and price comparisons at their fingertips, they are able to compare prices in the store or shop online. Millennials want maximum convenience at the lowest price. So when marketing to this generation, a strong brand isn't enough to lock in a sale.",
+      "For Millennials, wellness is a daily, active pursuit. They're exercising more, eating smarter and smoking less than previous generations. They're using apps to track training data, and online information to find the healthiest foods. And this is one space in retail where they're willing to spend money on as 'healthy' doesn't just mean 'not sick'. It's a daily commitment to eating right and exercising.",
+      "WHO ARE MILLENNIALS?\nBorn between 1980 and 2000. Gen Y. Largest generation yet. 80 million in the U.S. 2.5 billion worldwide. Most ethnically and racially diverse.",
+      "You might think that young people have it easy. But in a special report, the editor of The Economist, Robert Guest, argues that millennials have it tougher than most people think.",
+      "'In some respects the young have never had it so good,' Guest writes. 'They are wealthier and are more likely to live longer than any other generation. They live in more liberal societies than their predecessors could barely have imagined, and have high speed access to information from around the world.",
+      "'They are also brainier than any previous generation before them. Average scores on intelligence tests have been rising for decades in many countries, thanks to both better nutrition and mass education.'",
+      "However, the report says, the talent and intelligence of millennials is often wasted, with not enough employment opportunities. Youngsters are twice as likely as their elders to be unemployed, while over 25% of young people in middle-income nations - and 15% in richer ones - are NEETs (not in education, employment or training).",
+      "Furthermore, the cost of housing and education often prices millennials out of the market. 'Education has become so expensive that many students rack up heavy debts. Housing has grown costlier, too, especially in the globally connected megacities where the best jobs are. Young people yearn to move to such cities: besides higher pay, they offer excitement and a wide selection of other young people to date or marry. Yet constraints on the supply of housing make that hard.'",
+      "Guest also wrote that the time it takes to feel financially secure means people leave having children until later. 'For both sexes, the path to adulthood - from school to work, marriage and children - has become longer and more complicated. Mostly, this is a good thing. Many young people now study until their mid-20s and put off having children until their late 30s.",
+      "'They form families later partly because they want to and partly because it is taking them longer to become established in their careers. Alas, despite improvements in fertility treatment, the biological clock has not been reset to accommodate modern working lives.'",
+      "At the end of the fascinating report, Guest urged countries around the world to 'work harder to give the young a fair shot'.",
+      "'If they do not, that would not only be immoral; it would also be dangerous.'"
+    ],
+    "headings": {"0":"Text 2 - Slide 1","1":"Text 2 - Slide 2","2":"Text 2 - Slide 3","3":"Text 2 - Slide 4","4":"Text 2 - Slide 5","5":"Text 2 - Slide 6","6":"Text 3 - Infographic","7":"Text 4 - Do Millennials Have It Better or Worse? - Paragraph 1","8":"Text 4 - Paragraph 2","9":"Text 4 - Paragraph 3","10":"Text 4 - Paragraph 4","11":"Text 4 - Paragraph 5","12":"Text 4 - Paragraph 6","13":"Text 4 - Paragraph 7","14":"Text 4 - Paragraph 8","15":"Text 4 - Paragraph 9"}
+  },
+  "dse-2017-a": {
+    "source":"2017 Reading Passage and Questions.pdf, PDF pages 2-3, visually checked 2026-09-04",
+    "textRepairs": {
+      "4": [["What is the goal", "What is the goal here?\""]],
+      "5": [["I6] ", ""]],
+      "10": [["199os", "1990s"]],
+      "16": [["more the you exclude these from us fe oraterials paper, a riboard anted mies in in sed cans. everything else", "more than 90 percent - come from just a few materials: paper, cardboard and aluminum in soda cans. Once you exclude these materials, the total annual savings in the United States from recycling everything else"], ["America's carbon footprint", "America's carbon footprint."]]
+    }
+  },
+  "dse-2016-b2": {
+    "source": "2016 Reading Passage and Questions.pdf, PDF pages 10-11, visually transcribed 2026-09-04",
+    "imageAfterParagraph": 1,
+    "paragraphs": [
+      "The arrival of food trucks to New York several years ago was greeted by a city hungry for refined street food, willing to pay higher prices to reward hard-working culinary entrepreneurs. But, what was initially a story of success, as the Mexicue truck can attest, quickly became a nightmare.",
+      "Initially, the food truck business model looked attractive. As Mexicue co-founder Thomas Kelly told Forbes sitting in the top floor of their store on Seventh Avenue, the truck was cheaper, offered lower risk than opening a restaurant and allowed him and partner David Schillace to test out their concept without having to spend hundreds of thousands of dollars. While they sunk their life savings into the truck, putting it together cost less than $100,000.",
+      "As early adopters, the Mexicue crew saw explosive growth. Their first day, parked in midtown Manhattan surrounded by the skyscrapers that investment banks call their home, the Mexicue truck attracted lines around the block. Early on, they were making $2,000 to $3,000 on good days. The happy days of the food truck dream are long gone, though.",
+      "The odds were stacked against them. Competition in New York City is ferocious, and the food truck business is no different. Mexicue found itself struggling to find good parking spots, a major factor in food truck success, as other trucks would leave as early as 3:30 in the morning to secure a solid location. The New York Police Department, seeing mobile vendors flood the streets, started aggressively handing out tickets, while regulators began to crack down on the industry.",
+      "Exhausted by the hustle, Schillace and Kelly made a U-turn and in 2011 opened their first brick-and-mortar store. Located on Seventh Avenue, it complements their previous expansion into catering (which got them through their first winter). Next to the volatile food truck business, running a restaurant appears as a balanced, steady task. Without having to tough it out through inclement weather or ticket-issuing cops, the duo knows what to expect on most days, seeing a steady stream of revenues.",
+      "While the truck is no longer a cash cow, it remains integral to their brand and image. A billboard on wheels, the truck still serves food at festivals, corporate events and even weddings.",
+      "Having covered food for more than 15 years, I've seen a lot of trends come and go. Some recent developments have been great, but not every food trend is good, and some astonishingly stupid trends have thrived. Here are some of the worst offenders.",
+      "Food trucks: There is nothing wrong with the individual food truck per se, but the overall trend is both ridiculous and in some cases, morally reprehensible. The food media continues to treat these as a new form of cuisine and some sort of breakthrough invention when they are nothing more than a way to deliver food to consumers, akin to the \"invention\" of home delivery, takeout containers or the drive through. When grouped together in parking lots, food trucks become an outdoor version of a longstanding American culinary tradition - the shopping mall food court, and nothing more. Foodwise, there is nothing new about trucks which serve foods you can already get in countless traditional eateries, albeit with much more limited menus. People act as if tacos, dumplings, or brick oven pizza have somehow been \"discovered\" by food truck cooks.",
+      "One major magazine recently suggested that food trucks had brought affordable ethnic cuisine to the people of Los Angeles - seriously? LA has always had hundreds of brick and mortar eateries serving exactly this kind of affordable ethnic cuisine. I think that one of the reasons for their hipster popularity is that food trucks bring such cuisine to people who are afraid to go to actual ethnic restaurants in diverse neighborhoods to eat it. Ironically, in many markets the food trucks do more harm than good to the existing restaurants on which they are patterned, competing unfairly with rent-paying establishments while cannibalizing hard-to-get public parking spots and squatting on public property.",
+      "Admittedly in some markets, like LA, food trucks can serve a real purpose, bringing quality dining selections to extremely pedestrian-unfriendly areas, especially near office buildings where nothing else is available within walking distance. But these practical food trucks are nothing new - such trucks and carts and sidewalk vendors always existed. The real trend is the redundant food truck - like one serving pizza parked across the sidewalk from a rent paying pizzeria. When I visit New York, I see trucks parked curbside in neighborhoods overflowing with good and diverse restaurants and having no need at all of food trucks. This strikes me as absurd. In many cases these are merely a lower barrier to entry for wanna-be \"chefs\" who can't actually start a restaurant. More a fad than a trend, I've yet to see any tangible benefits of the food truck craze to the average consumer.",
+      "FOOD is risky. You can choke on a hot dog, be poisoned by a pizza or die slowly from years of eating too much. Clearly, businesses that sell food are suspect. And what could be more suspicious than an outlet that sells food - and then drives away before its customers expire? It's small wonder that so many American cities frown on food trucks.",
+      "Miami makes it extremely hard for them to operate, as do Baltimore and Chicago. Rochester, Pittsburgh and San Diego are nearly as stern. In New York City, a cap on the number of food-truck licences available has created a black market, pushing up prices into the thousands of dollars.",
+      "How bad can food trucks be? Your intrepid correspondent sampled injera with tilapia from one serving Ethiopian nosh in Washington, DC. As The Economist went to press, it had not yet killed her. Perhaps this is unsurprising: food trucks are typically required to cook their food in inspected commercial kitchens.",
+      "Nonetheless, they stir up fury. Local restaurants complain that they steal customers and pay no rent. Officials worry that their garishness will lower the local tone. Many think they are just filthy (\"roach coaches\" is the sneer).",
+      "After years of legal wrangling, Alexandria's city council in Virginia has at last decided to allow food trucks in parks and parking lots. Not in the streets, mind. The experiment starts in July, and the typically mean-spirited conditions are there to protect the immobile restaurant trade.",
+      "Such rules are misguided. Not only is street vending an important step for aspiring entrepreneurs, but food trucks have enlivened the gastronomic scene and generated new business - and local taxes - wherever they have been allowed to roam. Chow down on that."
+    ],
+    "headings": {
+      "0": "Text 8 - Forbes - Small Business - Mexicue Moves Beyond the Food Truck - Paragraph 1",
+      "6": "Text 9 - Forbes - Lifestyle - America's Worst Food Trends - Paragraph 7",
+      "10": "Text 10 - The Economist - News - United States - Movable Feasts - Paragraph 11"
+    },
+    "passageNotes": [
+      "1. Forbes is a business magazine featuring articles on finance, investing and successful companies.",
+      "2. The Economist is a news magazine which covers current affairs, politics, business and the global economy."
+    ]
+  },
+  "dse-2016-b1": {
+    "source": "2016 Reading Passage and Questions.pdf, PDF pages 6-7, visually checked 2026-09-04",
+    "imageAfterParagraph": 13,
+    "paragraphs": [
+      "Fred's Food Truck serves American favourites, like hot dogs and cupcakes. The food truck is a huge hit all around town. It is always on the go, stopping at different locations around town. I was lucky enough to try Fred's great pork sandwich and it was mouth-watering, with just the right amount of BBQ sauce on top, served with home-made French fries.",
+      "Food trucks could soon be on the streets of Hong Kong, with John Tsang revealing the government is investigating introducing the concept.",
+      "\"Hong Kong has many locations suitable for alfresco dining where visitors can enjoy delicacies and Hong Kong's spectacular scenery at the same time,\" Tsang said. \"I have asked relevant departments to implement as early as possible the proposal to introduce food trucks. Their popularity abroad will add to the mix of Hong Kong's existing food scene.\"",
+      "In his budget speech, Financial Secretary John Tsang suggested the introduction of food trucks in Hong Kong. They are a common sight on the streets of many cities in the West. However, I am concerned that there could be adverse side effects if they were allowed to operate in Hong Kong.",
+      "They would have an impact on a long-standing culinary tradition here - food hawkers. These mobile outlets and the hawkers will in effect fill the same niche. Hong Kong is a small city and I cannot see food trucks and hawkers successfully coexisting. Given that these hawkers are a tradition we are justly proud of, Mr Tsang should rethink his food truck proposal.",
+      "There are other problems that appear to have been overlooked. Land is scarce and expensive in Hong Kong, so the truck operators would face the problem of finding suitable and affordable locations to do business. Also, traffic is busy, especially in urban areas, so they could make congestion worse than it is already. Finally, there is the hygiene issue as they would have to discharge waste water in the street.",
+      "There would certainly have to be a lot of feasibility studies and research by the relevant government departments before any go-ahead was given for this project. However, I do believe that the most important thing is to consider the harm they would do to our traditional hawkers. They are part of what makes Hong Kong unique and attracts so many tourists. They are an integral part of the city's history, whereas food trucks are very much a Western tradition. In fact, I hope we will see more food hawkers on the streets of Hong Kong in the future and that the government will encourage this.\nChris Wong, Mong Kok",
+      "I refer to the letter by Chris Wong dated March 14. I understand her concerns but some of the problems she raised were solved by moving many food hawkers' street-level outdoor stalls to food courts inside buildings. So, why go back to eating outside in dirty streets and roads?",
+      "I have seen some vans selling lunch boxes in Tai Po Industrial Estate. They offer a useful service, because there are no fast food shops in the area and some of the factory buildings do not offer an in-house canteen. These vans also operate in other remote work sites. There is clearly a market for these trucks.\nChan Tai Man, Shatin",
+      "Regarding the introduction of food trucks in Hong Kong, there is no doubt that in many parts of Europe and in the US, food trucks are popular and have sometimes been turned into successful businesses. They are very convenient and offer a cheap alternative to restaurants. The best mobile operators offer good food at affordable prices. Each truck will have its own particular dishes and style of food. I think these trucks would be popular with young Hongkongers, especially the ones offering Western food, as they would be seen as being trendy and stylish.",
+      "The only mobile food business currently operating in Hong Kong is the fleet of Mister Softee ice-cream vans. Street food has been in decline with few hawker licences being issued since the 1970s. The licences given to hawkers before then will expire when they retire or die. Some Hong Kong people may be sceptical about this proposal, saying that food trucks will cause traffic congestion in crowded areas of the city. However, I have not heard of such complaints regarding the Mister Softee fleet.",
+      "People may also raise concerns about hygiene. This is an issue that is often raised when people are discussing the merits of street food. However, you see stalls selling fish balls, chicken wings and other snacks. They operate in similar conditions to food trucks.",
+      "I do not really understand why this proposal appears to be regarded as so controversial by some people. I think critics are exaggerating the problems that these vehicles could bring to the city's streets. I would welcome their introduction. I think these mobile eateries would offer citizens a wider range of culinary options and I am sure they would be able to cater to the demands of the city's very demanding diners who expect good-quality food.\nJohn Smith, Tsim Sha Tsui"
+    ],
+    "headings": {
+      "0": "Text 3 - Food Truck Review - Paragraph 1",
+      "1": "Text 4 - The Standard - Thursday 26 February 2015 - Trucking along with local culinary treats - Paragraph 2",
+      "2": "Text 4 - Paragraph 3",
+      "3": "Text 5 - Letter to the Editor - 14 March 2015 - Paragraph 4",
+      "4": "Text 5 - Paragraph 5", "5": "Text 5 - Paragraph 6", "6": "Text 5 - Paragraph 7",
+      "7": "Text 6 - Letter to the Editor - 16 March 2015 - Paragraph 8",
+      "8": "Text 6 - Paragraph 9",
+      "9": "Text 7 - Letter to the Editor - 18 March 2015 - Paragraph 10",
+      "10": "Text 7 - Paragraph 11", "11": "Text 7 - Paragraph 12", "12": "Text 7 - Paragraph 13"
+    }
+  },
+  "dse-2016-a": {
+    "source": "2016 Reading Passage and Questions.pdf, printed A pages 2-3, visually checked 2026-09-04",
+    "replaceText": {
+      "0": "10 COMMON SUPERSTITIONS",
+      "5": "5. BLACK CATS You're in luck if you meet a black cat. However, that depends on who you ask - some say it's a sign of good things to come, but for others, it's a terrible warning.",
+      "7": "7. HORSESHOE Hanging a horseshoe over a door is lucky. But the horseshoe needs to be the right way up with the two ends pointing down so that the good fortune will shower upon you.",
+      "11": "Text 2",
+      "12": "The Scientific Study of the Lucky Mind\nBy Professor Richard Wiseman",
+      "13": "Section 1. People have searched for an effective way of improving the good fortune in their lives for many centuries. Lucky charms, such as keeping a rabbit's foot, have been found in virtually all civilizations throughout recorded history. The pagan ritual of 'knocking on wood' was designed to elicit the help of benign and powerful tree gods. Superstition represents people's attempts to control their destiny by warding off bad luck while enhancing the good.",
+      "16": "The experiment I conducted revealed that luck is not a magical ability or the result of random chance. Nor are people born lucky or unlucky. Instead, although lucky and unlucky people have almost no insight into the real causes of their good and bad luck, their thoughts and behaviour are responsible for much of their fortune. My research revealed that lucky people are more skilled at creating and noticing chance opportunities."
+    }
+  },
+  "dse-2013-b2": {
+    "source": "2013-DSE-ENG-LANG-1-RP-B2.pdf, printed pages 2-3, visually transcribed 2026-09-04",
+    "sourceNote": "What's behind the boom in dystopian fiction for young readers?",
+    "paragraphs": [
+      "Dystopia is an imaginary place or condition in which everything is bad, and in dystopian fiction, this has traditionally been characterized by an authoritarian government or some kind of oppressive control. For young readers, dystopia isn't a future to be averted; it is a version of what's already happening in the world they inhabit.",
+      "Rebecca Stead chose to set her children's novel When You Reach Me - winner of the 2010 Newbery Medal - in nineteen-seventies New York partly because that's where she grew up, but also because she wanted 'to show a world of kids with a great deal of autonomy.' Her characters, middle-class middle-school students, routinely walk around the Upper West Side by themselves, a rare freedom in today's city, despite a significant drop in New York's crime rate since Stead's footloose youth. The world of our hovered-over teens and preteens may be safer, but it's also less conducive to adventure, and therefore to adventure stories.",
+      "Perhaps that's why so many of them are reading The Hunger Games, a trilogy of novels by Suzanne Collins, which depicts a futuristic North America broken up into twelve districts. Every year, two children from each district are forced to fight to death in a televised contest called the Hunger Games, which are held in a huge outdoor arena. The winner of the contest is the last child left alive. The fervently awaited third installment in the trilogy, Mockingjay, will be published by Scholastic in August, and there are currently in print more than 2.3 million copies of the previous two books, The Hunger Games and Catching Fire.",
+      "Collins's trilogy is only the most visible example of a recent boom in dystopian fiction for young people. Many of these books come in series, spinning out extended narratives in intricately imagined worlds. In the popular Uglies series, for example, all sixteen-year-olds undergo surgery to conform to a universal standard of prettiness determined by evolutionary biology; in The Maze Runner, teenage boys awaken, all memories of their previous lives wiped clean, in a walled compound surrounded by a monster-filled labyrinth. The books tend to end in cliff-hangers that provoke their readers to post half-mocking protestations of agony ('SUZANNE, ARE YOU PURPOSELY TORTURING YOUR FANS!?!?!?') on Internet discussion boards.",
+      "Dystopian novels for young-adult readers have been around for decades. Readers of a certain age may remember having their young minds blown by House of Stairs, the story of five teenagers imprisoned in a seemingly infinite M. C. Escher-style network of staircases that ultimately turns out to be a gigantic Skinner box designed to condition their behavior. The White Mountains, in which alien overlords install mind-control caps on the heads of all those over the age of thirteen, tore through my own sixth-grade classroom like a wicked strain of the flu. Depending on the anxieties and preoccupations of its time, a dystopian young-adult novel might speculate about the aftermath of nuclear war (Z for Zachariah) or the drawbacks of engineering a too harmonious social order (The Giver) or the consequences of resource exhaustion (The Carbon Diaries 2015). And, of course, most American schoolchildren are at some point also assigned to read one of the twentieth century's dystopian classics for adults, such as Brave New World or 1984.",
+      "The typical arc of the dystopian narrative mirrors the course of adolescent disaffection. First, the fictional world is laid out. It may seem pleasant enough. Tally, the heroine of Uglies, looks forward to the surgery that will transform her into a Pretty and allow her to move to the party enclave of New Pretty Town. Eleven-year-old Jonas, in The Giver, has no problem with the blandly tranquil community where he grows up. Then somebody new, a misfit, turns up, or the hero stumbles on an incongruity. A crack opens in the façade. If the society is a false utopia, the hero discovers the lie at its very foundation: the Pretties have their brains removed when they receive their plastic surgery; the residents of Jonas's community have been drained of all passion. If the society is frankly miserable or oppressive, the hero will learn that, contrary to what he's been told, there may be an alternative out there, somewhere. Conditions at home become more and more unbearable until finally the hero decides to make a break for it, heading out across dangerous terrain.",
+      "The youth-centered versions of dystopia part company with their adult predecessors in some important respects. For one thing, the grownup ones are grimmer. The British academic Kay Sambell argues that 'the protagonist's final defeat and failure is absolutely crucial to the admonitory nature of the classic adult dystopia.' The adult dystopia extrapolates from the present to show readers how terrible things will become if our deplorable behavior continues unchecked. Because authors of children's fiction are 'reluctant to depict the extinction of hope within their stories,' Sambell writes, they equivocate when it comes to delivering a moral. Yes, our errors and delusions may lead to catastrophe, but if - as usually happens in dystopian novels for children - a new, better way of life can be assembled from the ruins, would the apocalypse really be such a bad thing?",
+      "Sambell's observation implies that dystopian stories for adults and children have essentially the same purpose - to warn us about the dangers of some current trend. That's certainly true of books like 1984 and Brave New World; they detail the consequences of political authoritarianism and feckless hedonism. This is what will happen if we don't turn back now, they scold, and scolding makes sense when your readers have a shot at getting their hands on the wheel.",
+      "Children, however, don't run the world, and teenagers, especially, feel the sting of this. Dystopian fiction may be the only genre written for children that's routinely less didactic than its adult counterpart. The Hunger Games could be taken as an indictment of reality TV, but it is not an argument. It operates like a fable or a myth, a story in which outlandish and extravagant figures and events serve as conduits for universal experiences.",
+      "While some parents disapprove of their children reading dystopian fiction, kids continue to read the books, and some of them will surely grow up to write dystopian tales of their own, incited by technologies or social trends we have yet to conceive. By then, reality TV and privacy on the Internet may seem like quaint, outdated problems. But the part about the world being broken or intolerable, about the need to sweep away the past to make room for the new? That part never gets old."
+    ],
+    "imageAfterParagraph": 4
+  },
+  "dse-2015-a": {
+    "source": "2015 Reading Passage and Questions.pdf, printed pages 2-3, visually transcribed 2026-09-04",
+    "paragraphs": [
+      "Ten years ago, Oxford University graduate Daniel Tudor moved to Seoul, preferring the warmth of Korean society to 'cold' Britain. The 31-year-old has since authored two books on his adopted home and has several other volumes in the pipeline. He speaks to Charmaine Chan about his latest title, A Geek in Korea, due out in June 2014.",
+      "You started, like so many other Westerners in Korea, teaching English. When did you begin writing about Korea and why?\n\nWhen I joined The Economist [2010-2013] I thought, 'Eventually I'd like to write a book about Korea because nobody else is really doing it.'",
+      "Why weren't they?\n\nKorea is a bit off the radar for most people in Western countries. In the 1980s Japan was the big story and people pay attention to China now because of its huge population and market. Korea has fallen in between these two countries.",
+      "In your book, you write about jeong the invisible hug. Is that something exclusive to Korea?\n\nA lot of Koreans say jeong - the warmth between people and mutual sacrifice - is uniquely Korean, as is han. It's nonsense, but Korea has words to describe these things, which shows they are important. Han is a burden, oppression or an injustice you can't correct. Its cause never goes away but you can temporarily forget about it by pursuing all-out, manic fun. This is where heung comes in. Heung is pure joy. The word isn't as famous as han, but I think that it should be. Even traditional Korean funerals used to feature extreme alcohol consumption, raucous singing, and the like.",
+      "Often when Westerners think of East Asians, the stereotypes of stoicism and self-control - the so-called 'inscrutable oriental' - come to mind. But Koreans in fact tend to be very expressive and open with their feelings. Somehow, sadness and happiness both seem to be magnified in Korea.",
+      "How is A Geek different from your first book?\n\nIt's still about South Korea, but it's aimed at a younger audience. Consider it a gateway for those who like K-pop or TV shows from Korea, but don't know anything about the country.",
+      "A few chapters are about K-pop. Are you into K-pop?\n\nGenerally K-pop is for teenagers. I'm not saying it's wrong. It's a good business. But I like music played by people who mean what they're writing. Some people think all Korean music is K-pop, but there's really good music in Korea that's not superficial or played on the radio or on TV and doesn't go outside of Korea. One of my favourite bands is 3rd Line Butterfly: these guys are not rich and famous; they're ordinary guys you can be friends with. I am friends with them. There's an interview with [Gangnam Style singer] Psy [in Geek]. He's funny and cheeky, in a Robbie Williams kind of way, and making fun of Gangnam [an affluent district of Seoul], which is superficial and flashy.",
+      "How about Korean soaps?\n\nI don't like the drama stuff. They're trying to play with your emotions with Cinderella stories: beautiful girl from poor family marries rich guy. Korea's probably not the best country in which to be a woman. If you're a young woman in Korea, what's the best way to become wealthy or to achieve status? Sadly, it's to marry somebody.",
+      "You also write about how Koreans are obsessed with success and education.\n\nYou find these mothers in Gangnam and they're scary. When I taught English I'd meet kids who, materially, led awesome lives and they'd show up in these big Mercedes with bags as big as they were. But if they didn't get an A grade in something, their parents would get mad and the next time you saw them they'd be crying. Wealthy families are obsessed with education. It's a status thing: preserve your status and show the rest of the world that you're preserving your status and your kids are doing well.",
+      "Why do you continue to live in Korea?\n\nThis jeong stuff - that's the thing that keeps me in Korea. Korea made me a better friend to my friends. England's a cold society and, growing up, I suppose I always wanted this feeling of being connected to people. I thought English people were a bit too cynical and cold. Korea is a place where you say, 'I like you. I love you. This is great.' I really like that.",
+      "Daniel Tudor is one of the most influential foreign correspondents in South Korea - and one of the least known. As the reporter for the Economist, which doesn't use bylines, most of his work is published anonymously. But Mr. Tudor's profile is about to take a sharp rise with the publication of his new book, 'Korea: The Impossible Country'.",
+      "It's the first English-language book to cover the whole waterfront of South Korean society - historical, cultural, economic, social, political - since one by another influential British expat, Michael Breen, with 'The Koreans,' which was originally published in 1998 and revised in 2004. [Mr. Breen provided a recommendation on Mr. Tudor's book jacket.] 'Korea: The Impossible Country' is also likely to get added to the list of must-read books for anyone from outside of South Korea who wants to do business or live in the country.",
+      "That's a small canon, unfortunately. In addition to Mr. Breen's book, the other indispensables are 'Diamond Dilemma' by Tariq Hussain, 'Korean Dynasty' by Donald Kirk, Tom Coyner's guide to doing business in Korea and Robert Koehler's Seoul Selection guidebooks for places and sightseeing. Indeed, the list of must-read books about North Korea is far longer.",
+      "Mr. Tudor pushes into new social and economic territory with his book, including the rising role of immigrants, multicultural families and even gay people in South Korea. He lays out some of the contradictory behavior one finds in South Korea, such as the unending desire for new and trendy gadgets and fashion and yet the tunnel-like view of what constitutes a successful life. At the end, he asks the question that nearly every visitor has after spending some time in South Korea: why aren't people happier with what they've done?"
+    ],
+    "headings": {"0":"Text 1 - In from the cold among warm-hearted Koreans - Paragraph 1","10":"Text 2 - Tudor's Book Covers Implausible, Impossible Korea - October 15, 2012 - By Evan Ramstad - Paragraph 1","11":"Text 2 - Paragraph 2","12":"Text 2 - Paragraph 3","13":"Text 2 - Paragraph 4"}
+  },
+  "dse-2015-b1": {
+    "source": "2015 Reading Passage and Questions.pdf, printed B1 pages 2-3, visually transcribed 2026-09-04",
+    "title": "Witness Statement & Will Cars with No Drivers Catch On?",
+    "paragraphs": [
+      "I, Anna Rossi, of 3 Arthur Street, Yau Ma Tei, housewife, state:\n\nOn 1 December 2014 at about 3:30pm, I was about to get into my car in the car park next to the shops on Wood Road, Wan Chai.\n\nI noticed that a silver car was driving down the aisle behind me.\n\nI saw a green sports car reverse out of a car space and collide with the silver car. The silver car was moving at the time of the collision.\n\nMy car was parked opposite where the accident happened.\n\nBoth the drivers got out of their cars. Neither of them seemed to be hurt and I went over to them to see how they were.\n\nThe driver of the green car said 'Did you see the accident?' I said words to the effect 'I saw it'. He then said 'Can you give me your contact details, just in case I need a statement from you?' I replied 'Yes'. I then gave him my contact details.\n\nIt was a sunny day.\n\nThe speed limit in the car park was 20km per hour. The silver car was travelling at about 40km per hour.\n\nI noticed damage to the back left side of the green sports car.\n\nI believe that the contents of this statement are true and correct.\n\nSigned: A. Rossi\nDated: 7 December 2014",
+      "Some day in the near future, cars will drive themselves. Traffic jams and deadly accidents will become a thing of the past. Driving to work will be less stressful, as riders can sit back with their coffee and let computers handle the trip.",
+      "That's the dream of many, at least. And it's not totally unrealistic. Google is developing 'autonomous vehicles' that are improving rapidly each year. A future of completely self-driving vehicles doesn't seem too far off.",
+      "And yet, according to a new report by the Eno Center for Transportation, there are still many obstacles to overcome before self-driving cars take over our highways.",
+      "'Self-driving cars have the potential to transform transport as we know it,' explained report co-author Daniel Fagnant - and bring billions of dollars' worth of benefits. But getting to that point won't be easy.",
+      "It's easy to list the benefits of a world with self-driving vehicles. Safety is the biggest. Right now, more than 30,000 people die each year in the United States from automobile crashes. And roughly 40 percent of fatal accidents are caused by alcohol, distraction, drugs or fatigue. Letting robots take the wheel would save lives.",
+      "Or take congestion. Cars driven by robots could travel closer together at steadier speeds. They wouldn't bunch up in traffic jams caused by a ripple of brake lights. More cars could squeeze onto the road and move more quickly, and a lot of time and fuel would be saved.",
+      "If just 10 percent of the vehicles on the road were self-driving cars, the authors estimate, the country could save more than $37 billion a year - fewer deaths, less fuel, more free time. If we reached a point where 90 percent of the cars on the road were self-driving vehicles, the benefits would rise to around $450 billion a year.",
+      "Now, as Fagnant pointed out in a presentation, these are 'ballpark, rough estimates...guesses, really.' So don't get too fixated on the numbers. They're meant to be illustrative, not definitive.",
+      "The authors also didn't try to quantify any of the costs of self-driving vehicles. What's the price tag on these gadgets? How does that compare to the benefits?",
+      "And what about unforeseen consequences? Researchers can't predict how, exactly, self-driving cars might reshape society. Maybe the vehicles will induce even more travel and congestion will get worse. Or maybe they will lead to an increase in air pollution. It's impossible to know at this point. Still, the advantages are tantalizing.",
+      "Even if the benefits are many, self-driving vehicles have a lot of hoops to leap through. First, the technology is still very pricey. By one estimate, the first wave of autonomous vehicles could cost over $100,000 - five times the cost of the average new vehicle. Even that might be an underestimate: the 3-D sensors alone on Google's autonomous car cost about $70,000.",
+      "Those costs would presumably come down over time, but no one knows how rapidly. And that's a big hurdle. One survey found that only 20 percent of Americans would 'definitely' or 'probably' buy a car with self-driving capabilities even if the price dropped to $30,000.",
+      "What's more, while the technology is rapidly improving, it's far from perfect. Google's self-driving cars have now traveled more than 435,000 miles in California, but the cars have yet to be fully tested in urban environments.",
+      "Most likely, self-driving technology will emerge gradually, piece by piece. But even intermediate features pose unique challenges.",
+      "Early autonomous cars will likely require their human drivers to take the wheel during especially complicated situations. But as one car maker is discovering, it's difficult to get people to drift in and out of attention while driving - and the process of switching back and forth between robot and human could well make these cars less safe, at first.",
+      "The Eno report also notes that there's still a ton of research yet to be done about the prospect of self-driving cars. 'As long as crucial questions go unanswered,' the report concludes, 'the nation will be hampered in its ability to successfully plan for and introduce [autonomous vehicles] into the transportation system.'"
+    ],
+    "headings": {"0":"Text 3 - Witness Statement","1":"Text 4 - Will cars with no drivers catch on? - Paragraph 1","2":"Text 4 - Paragraph 2","3":"Text 4 - Paragraph 3","4":"Text 4 - Paragraph 4","5":"The benefits of self-driving cars - Paragraph 5","6":"Text 4 - Paragraph 6","7":"Text 4 - Paragraph 7","8":"Text 4 - Paragraph 8","9":"Text 4 - Paragraph 9","10":"Text 4 - Paragraph 10","11":"The problems of self-driving cars - Paragraph 11","12":"Text 4 - Paragraph 12","13":"Text 4 - Paragraph 13","14":"Text 4 - Paragraph 14","15":"Text 4 - Paragraph 15","16":"Text 4 - Paragraph 16"}
+  },
+  "dse-2015-b2": {
+    "source": "2015 Reading Passage and Questions.pdf, printed B2 pages 2-3, visually checked 2026-09-04",
+    "sourceNote": "By Michael S. Roth",
+    "replaceStrings": {
+      "0": [["By Michael S. Roth ", ""], ["Rousseau'", "Rousseau¹"], ["Emerson's?", "Emerson's²"]],
+      "1": [[" |3] ", " "]],
+      "4": [["in the I7] Once", "in the classroom. Once"]],
+      "5": [[" 1 Jean-Jacques Rousseau was a philosopher and writer of the 18th century. His political philosophy influenced the French Revolution. 2 Ralph Waldo Emerson was an American writer, lecturer, and poet of the mid-19th century. He was seen as a champion of individualism.", ""]],
+      "9": [["but as a", "but as a possibility we might be able to explore, and even embrace."]],
+      "10": [[" Comments Tom", ""]],
+      "11": [["the ype of education", "the type of education"], ["in lat ines", "in late fines"], [" Laura", ""]]
+    },
+    "splitBefore": {"1":"Our best college students", "4":"Once outside the university"},
+    "headings": {"13":"Comments - Tom","14":"Comments - Laura"},
+    "passageNotes": ["1. Jean-Jacques Rousseau was a philosopher and writer of the 18th century. His political philosophy influenced the French Revolution.", "2. Ralph Waldo Emerson was an American writer, lecturer, and poet of the mid-19th century. He was seen as a champion of individualism."]
+  },
+  "dse-2020-b2": {
+    "source": "2020 Reading Passage.pdf, Part B2 printed pages 2-3 (PDF pages 9-10), visually checked 2026-09-04",
+    "originalParagraphCount": 23,
+    "replaceStrings": {
+      "0": [["Graham Norton: \"The letters I can never forget\" ", ""], ["often proves", "often proves effective."]],
+      "6": [["what they need", "what they need."]],
+      "7": [[" •So", " So"]],
+      "14": [[" Serious to silly, two letters from my postbag Dear Graham,", ""]],
+      "16": [[" Dear David,", ""]],
+      "19": [["two things that most people long", "two things that most people long for."]],
+      "21": [[" Dear Graham, 23| ", " "], [" Dear P,", ""]]
+    },
+    "splitBefore": {"21":"The past 40-odd years"},
+    "headings": {"15":"Serious to silly, two letters from my postbag - Dear Graham - Paragraph 16","17":"Dear David - Paragraph 18","22":"Dear Graham - Paragraph 23","23":"Dear P - Paragraph 24"}
+  },
+  "dse-2020-b1": {
+    "source": "2020 Reading Passage.pdf, Part B1 printed pages 2-3 (PDF pages 16-17), visually checked 2026-09-04",
+    "replaceText": {
+      "0": "National Kite Month\n1st - 30th April\nHome | For Teachers | Events | Forum | Find a Store | Contact Us\n\nKite flying is great fun and it's easy if you know some of Professor Kite's secrets. So grab your kite and join in the fun, the sky is big enough for everyone!",
+      "9": "Safety"
+    },
+    "textRepairs": {
+      "1": [["conditions. Wind", "conditions."]],
+      "3": [[" Flying space", ""]],
+      "5": [[" Beware", ""]],
+      "6": [[" Professor Kite says:", ""]],
+      "10": [["Kite-flying culture falls victim to urbanisation and regulation Kite-flying culture falls victim to urbanisation ", ""]],
+      "16": [["the Air lisation and regulation Navigation", "the Air Navigation"], ["areas at least metres", "areas at least 60 metres"]]
+    },
+    "removeFooter": "DING PASSAGES ed in the HKDSE Question Papers booklet published by the Hong",
+    "headings": {"0":"Text 2 - How to fly a kite - Paragraph 1","1":"Professor Kite's rules for picking the best days for flying a kite - Paragraph 2","2":"Wind - Paragraph 3","3":"Text 2 - Paragraph 4","4":"Flying space - Paragraph 5","5":"Text 2 - Paragraph 6","6":"Beware - Paragraph 7","7":"Professor Kite says - Paragraph 8","8":"Text 2 - Paragraph 9","9":"Safety","10":"Text 3 - The Grounding of Hong Kong's Kites: Kite-flying culture falls victim to urbanisation and regulation - Paragraph 1","11":"Text 3 - Paragraph 2","12":"Text 3 - Paragraph 3","13":"Text 3 - Paragraph 4","14":"Text 3 - Paragraph 5","15":"Text 3 - Paragraph 6","16":"Text 3 - Paragraph 7","17":"Text 3 - Paragraph 8","18":"Text 3 - Paragraph 9","19":"Text 3 - Paragraph 10","20":"Text 3 - Paragraph 11","21":"Text 3 - Paragraph 12","22":"Text 3 - Paragraph 13"}
+  },
+  "dse-2020-a": {
+    "source": "2020 Reading Passage.pdf, Part A printed pages 2-3, visually checked 2026-09-04",
+    "originalParagraphCount": 11,
+    "replaceStrings": {
+      "0": [["Tai Kwun: The Big House is Finally Open ", ""]],
+      "4": [["they still disappointed", "they still seemed disappointed"]],
+      "6": [["architectural conservationist Fredo Cheung last year", "said architectural conservationist Fredo Cheung last year"]],
+      "9": [["Hong ong", "Hong Kong"], ["more humble i cope", "more humble in scope"], ["a Sheung Wan printing pres place in Central.", "a Sheung Wan printing press. \"When the owner was still a very young boy, he cried a lot when he was sleeping at night,\" she says. \"His father had to get up early the next morning, so what his mother did was to bring him all the way to Chancery Lane next to the prison and get them to sleep there - because Victoria Prison after lights off was the quietest place in Central."]],
+      "10": [[" • ", " "]]
+    },
+    "splitBefore": {"9":"\"When the owner was still"}
+  },
+  "dse-2019-b2": {
+    "source": "2019 Reading and Questions.pdf, Part B2 printed pages 2-3, visually checked 2026-09-04",
+    "sourceNote": "The following is an excerpt from the autobiography of Clive James, a 79-year-old Australian author, critic and broadcaster.",
+    "textRepairs": {
+      "0": [["The following is an excerpt from the autobiography of Clive James, a 79-year-old Australian author, critic and broadcaster. ", ""], ["answer the an unfortunate", "answer the questions. Too many boys in the class had trouble remembering their own names. Most of the heat was focused on an unfortunate"]],
+      "6": [["our street and was back home within the hour. The second time I got all the way to Rocky Point Road, more than two hundred yards from home. I was not allowed to cross Rocky Point Road. But I sat there till sunset. Otherwise I did my escaping symbolically, tunneling into the poultry farm and surfacing among the chooks with a crumbling cap of birdshit on my head. ", ""]]
+    }
+  },
+  "dse-2019-b1": {
+    "source": "2019 Reading and Questions.pdf, Part B1 printed pages 2-3, visually transcribed 2026-09-04",
+    "title": "Hong Kong Public Libraries & Promoting a Reading Culture",
+    "imageAfterParagraph": 1,
+    "paragraphs": [
+      "HONG KONG PUBLIC LIBRARIES\nExplore Collections | Library Activities | Locate Libraries | About HKPL\nHome > Library Activities\n\nFun at Central Library - Orienteering Activity with 'Reading Journey' Passports\nGet your passport on the 1/F while stocks last. Follow the instructions to collect stamps at designated checkpoints around our wonderful Central Library. You can pick up a souvenir from the 4/F if you complete your reading journey.",
+      "Little Avid Readers\nDear kids, if you love reading, please come into the wonderful library world. Local authors, librarians and teachers will read their favourite stories to you. Storytelling sessions at local libraries for children aged 6-10, every Friday. (Quota 25 children)",
+      "My Pop-up Library\nHong Kong Public Library's first 'Pop-up Library' will be at Leung Kung Ho School for one day only on April 21 (Saturday) from 11 a.m. to 4 p.m. Bring your phone to experience a different kind of library service including taking a happy selfie, recommending favourite books on social media and doing online quizzes. Most regular library services are also available, so visitors can borrow books and apply for a public library card. All are welcome to enjoy the event.",
+      "Connie Lau Yin-hing, from the Office of the Ombudsman, asked why the government had been spending extra money to buy a targeted 700,000 new items a year for public libraries, but had been throwing away as waste paper hundreds of thousands of old materials rather than donating them to charity or holding book sales. Lau also said the resources stocked by public libraries had increased 17 per cent over the last eight years, but the number of items the public borrowed dropped by more than 18 per cent.",
+      "Speaking on a radio show on Wednesday, Roy Kwong Chun-yu, advisory committee member on Hong Kong Public Libraries, said those findings revealed a worrying decline in the city's 'culture of reading'. 'It saddened me to hear that hundreds of thousands of books were thrown away every year, and I think there are many reasons why fewer books were borrowed in recent years,' Kwong said. 'One of those reasons is that we don't have a culture of night libraries, since opening hours are the same as many people's working hours.' The committee Kwong sits on is tasked with formulating strategies to develop library facilities and services.",
+      "Hong Kong Central Library in Causeway Bay usually opens from 10am to 9pm, but most public libraries close at 7pm or 8pm, with some closing at 5pm on Saturday and Sunday. In comparison, most public libraries in Singapore close at 9pm, while some 'intelligent libraries' - autonomous or unmanned facilities - in Taipei are open until midnight.",
+      "'Our public libraries should also be open until 11pm or midnight... so that residents can borrow or return a book or two after their day of work,' Kwong said. He also advised the Leisure and Cultural Services Department (LCSD), which runs the public libraries system, to organise more activities to help children realise that reading at libraries can be fun.",
+      "Lau said the government had failed to explain clearly the rationale behind its annual buying target of 700,000 items, and Kwong agreed. 'It's unreasonable for libraries to follow a target set in the 1990s. The quality of procurement is more important than the quantity.'",
+      "Some residents phoned in to the radio show on Wednesday to complain about the quality of public library services. A man surnamed Wong said he had often been disturbed in libraries by noisy school children and complained that libraries closed too early at the weekend.",
+      "An LCSD spokeswoman said it welcomed 'any suggestions and views from the public and stakeholders' and would study them carefully.",
+      "At first glance, the fact that Hong Kong has slipped to third place in an international reading literacy ranking may seem to be cause for concern ('Hong Kong slips to third place in reading literacy ranking, behind Russia and Singapore', December 6). But a more careful look at the results reveals that Hong Kong pupils are still among the best readers across the globe.",
+      "Undeniably, with the advancement of technology and easy internet access, reading has taken a back seat to online activities. Access to books at home, in school and in the community, coupled with capitalising on technology, can reignite the passion for reading among youngsters.",
+      "Parents may place books around the home, even in the bathroom. Bedtime reading with kids may seem like a luxury for busy parents, but doing so not only develops literacy levels, but also strengthens the parent-child bond. With books placed at their bedside, children can look forward to nightly adventures.",
+      "At school, self-service 'street libraries' could be set up on different floors and around campus to make books more accessible to students. These libraries could be given unique, creative names so that students can recall their locations with greater ease. If pupils have easy access to books at school, they will be more likely to borrow them. Assigning roles of 'reading ambassadors' would also help to foster a reading culture.",
+      "In the community, youngsters should be encouraged to make good use of the new vending machine-style book station at Sai Wan Ho. They should also join the Reading Programme for Children and Youth organised by Hong Kong Public Libraries, as avid readers can win prizes and awards under the scheme. Motivation of this kind can surely boost interest in reading.",
+      "Finally, technology does not have to be an enemy to reading; it can promote the culture if used appropriately. A number of newspaper apps are available for download on the internet. Once these are installed on children's phones, they will be more likely to peruse news and current affairs. Also, e-books might completely replace paperbacks in the future and, for tech-savvy millennials, e-books might hold more appeal because of their accompanying features. Let them jump on the e-book bandwagon all they want, if it gets them reading.\n\nChris Wong, Shatin"
+    ],
+    "headings": {"0":"Text 2 - Library Activities - Paragraph 1","1":"Text 2 - Paragraph 2","2":"Text 2 - Paragraph 3","3":"Text 3 - Keep Hong Kong libraries open until late night to halt worrying decline in 'culture of reading', advisor urges - Paragraph 1","4":"Text 3 - Paragraph 2","5":"Text 3 - Paragraph 3","6":"Text 3 - Paragraph 4","7":"Text 3 - Paragraph 5","8":"Text 3 - Paragraph 6","9":"Text 3 - Paragraph 7","10":"Text 4 - LETTER TO THE EDITOR: For Hong Kong children, reading culture has to begin at home - Paragraph 1","11":"Text 4 - Paragraph 2","12":"Text 4 - Paragraph 3","13":"Text 4 - Paragraph 4","14":"Text 4 - Paragraph 5","15":"Text 4 - Paragraph 6"}
+  },
+  "dse-2019-a": {
+    "source": "2019 Reading and Questions.pdf, Part A printed pages 2-3, visually transcribed 2026-09-04",
+    "imageAfterParagraph": 4,
+    "paragraphs": [
+      "Today the trend is to declutter and simplify our lives. We talk to Tim Harford, who suggests that we should be messy instead.",
+      "Tim is an economist, journalist and broadcaster.",
+      "He is the author of \"Fifty Things That Made the Modern Economy\" and the million-selling \"The Undercover Economist\".",
+      "He is currently promoting his latest book, \"Messy\", while writing another. One would assume he's an impeccably organized person that is able to juggle this tangle of commitments with ease. He's not - but, according to his latest book, that's sort of the point.",
+      "Tim argues that switching between tasks is a \"messy\" strategy that's worked for many famous creatives. Focusing on one project might seem like the most efficient and simple way to organize one's work. But when someone is stuck on an issue involved in one project, having another to focus on allows that person time for the brain to unstick itself, contributing back to the original project.",
+      "In the book, I talk about all kinds of different things in the context of mess: improvisation, distraction, multi-tasking, physical mess, ambiguity and imperfection. There are lots of different things that I'm discussing in the book, but I suppose what they have in common is they are arguing for the virtues of the stuff that doesn't fit into the standard categories; the stuff that we can't quantify; the stuff that we can't organize or put into a neat box; the stuff that we can't script. These things tend to make us feel anxious. We feel that we should have a script; that we should have a number; we should have a target; we should have a tidy desk. Of course, those things have their place, but there's virtue in all the ambiguous, all the unquantifiable and all the imperfect stuff as well.",
+      "I see \"Messy\" as an argument against the excessive attempts to organize. If you think about your desk, what you find is if you spend a lot of effort trying to clear your desk or trying to tidy it, you will have vast archives of paperwork because you filed everything away. But you filed it so quickly that you don't really understand your own filing system. So now you have these incredibly well-organized wastepaper baskets basically. Let's contrast that with someone who keeps piles of paper on their desk. You would think, \"Well that's a problem. That's not very efficient.\" It turns out this is highly efficient.",
+      "Number one: Your pile of paper is self-organizing. The stuff that you keep using keeps arriving on the top of the pile. The stuff that you don't touch sinks to the bottom of the pile. We think of it as being a random pile, but it's not a random pile. It's actually naturally and organically organized by the process of using it. The second advantage is you've got this desk with paper on it, so you're surrounded by physical reminders of what you have to do, so you don't need a carefully managed to-do list because you can see in a very visible way the stuff that you have to do. The third advantage is you have a very clear sense of what needs throwing away. It's the stuff at the bottom of the piles.",
+      "So you have this weird situation where if you walked into someone's office or you looked at someone's desk, you would see that a person who appears to be disorganized because there's paper everywhere actually has a much better organized system and they're much more on top of their work. Whereas with the person who seems highly organized, actually everything looks neat but underneath the surface, the system is dysfunctional.",
+      "Of course I'm talking about averages here; I'm generalizing. Everybody has their own system, and people can make all kinds of different systems work. If people have found a system that works for them, well that's fine.",
+      "In the book, I write about Benjamin Franklin, one of the most productive and successful people in history, incredibly messy and somewhat guilty about the fact that he was incredibly messy. He carried a lot of baggage around, literally, in terms of paper, but also psychologically. He felt bad that his desk was messy. Benjamin Franklin! If Benjamin Franklin can feel guilty about not getting enough stuff done because he's messy, I think the rest of us can cut ourselves some slack.",
+      "Nevertheless, in offices we often find somebody in management has decided that there needs to be some kind of clean desk policy, for reasons that are often not very clear. Maybe it's just aesthetic. They want the place to look like a magazine shoot. Or maybe they've read something about how operating theatres work or about how high-functioning precision engineering production lines work. And then in a very inappropriate way, they say, \"Oh, and the same must be true for this regular office, which has just got paper and computers in it.\" People are ordered to tidy their desks. Now, we've already discussed that actually a messy desk can be very effective, very functional.",
+      "But there's another problem on top of that, which is that people really hate being told what they can and can't do with their own desks. It destroys their sense of their own space, of their control of their environment.",
+      "No, I think clearly there are many situations where messes are just entirely dysfunctional, and distractions just make it impossible to get stuff done. My argument in the book is not that mess is always good, distraction is always good, or there's no situation that can't be improved by adding a little chaos. I don't believe that at all. What I do believe is that we found that our organizational systems can be so effective, and they make us feel so comfortable that we take them from situations where they work extremely well, and then we start trying to apply them in situations where they're completely inappropriate.",
+      "The argument of the book is just to try nudging the pendulum a little bit more toward mess. If we experiment a little bit more with improvisation, with ambiguity, with a bit of disruption and a new challenge, we might well be surprised by how that improves things."
+    ],
+    "headings": {"1":"Who is Tim Harford? - Paragraph 2","3":"Why are we talking to him? - Paragraph 4","5":"Extract from the interview: Tim, what does it mean to be messy? - Paragraph 6","9":"Is this true for everyone? - Paragraph 10","13":"So, is there such a thing as a bad mess or a bad distraction, or do they always have merit? - Paragraph 14"}
+  },
+  "dse-2018-b2": {
+    "source": "2018 Reading.pdf, B2 printed pages 2-3, visually checked 2026-09-04",
+    "title": "Farmers Resort to Hand Pollination & Sweetness and Light",
+    "textRepairs": {
+      "0": [["Read Texts 5-6 and answer questions 46-71 in the Question-Answer Book for Part B2. Farmers Resort to Hand Pollination ", ""]],
+      "1": [[" The Economists' Version of the Bee Story", ""]],
+      "4": [[" The 'Real' Lesson of the China Bee Story", ""]],
+      "5": [[" Sweetness and Light", ""]],
+      "6": [["Sweetness and Light ", ""]],
+      "8": [["If trouble starts, you bail", "If trouble starts, you bail out.'"]]
+    },
+    "headings": {"0":"Text 5 - Farmers Resort to Hand Pollination - Paragraph 1","2":"The Economists' Version of the Bee Story - Paragraph 3","5":"The 'Real' Lesson of the China Bee Story - Paragraph 6","6":"Text 6 - Sweetness and Light - Paragraph 1"}
+  },
+  "dse-2023-b2": {
+    "source":"2023 Reading past paper.pdf, pages 18-19, visually checked 2026-09-04",
+    "replaceText":{"8":"This, it turns out, was our honeymoon phase. It's possible that we might have continued this way, Robbie and I, had I been less curious and more reverent when it came to her piano method. But the lesson book was thick enough and my progress on the opening few songs slow enough that I got impatient and started peeking ahead - and not just a few pages ahead but deep into the book, checking out the titles of the more advanced songs and beginning, during my practice sessions, to fiddle around with playing them. When I proudly debuted one of my late-in-the-book songs for Robbie, she exploded, slapping down my achievement with a vicious \"Good night!\" I got chewed out the way I'd heard her chewing out plenty of students before me. All I'd done was try to learn more and faster, but for Robbie it was a crime approaching treason. She wasn't impressed, not even a little bit."},
+    "originalParagraphCount":12,
+    "replaceStrings":{"3":[["ornery. grandfather","ornery grandfather"]],"9":[["110] ",""],["hot and unyielding ","hot and unyielding. "]],"11":[["on-and-off * since","on-and-off since"]]},
+    "splitBefore":{"9":"\"How could you be mad"}
+  },
+  "dse-2023-a": {
+    "source":"2023 Reading past paper.pdf, pages 2-3, visually transcribed 2026-09-04",
+    "paragraphs":[
+      "People have been enjoying stories for as long as humanity has been around. Some people love to read 400-page novels, while others struggle to read the first four paragraphs. More and more, technology has unfortunately resulted in many people having shorter attention spans. Therefore, writers have to find new ways to tell stories in a way that appeals to people who are used to reading snippets of information on the small screen of their smart phones. Flash fiction is a medium that works perfectly in a low-attention-span world.",
+      "Flash fiction is a category of short story that limits the author to a word count of 1,000 words or less. Some magazines limit flash fiction stories to as little as 300 words.",
+      "Following the tips below will guide you in writing a solid flash fiction story.",
+      "With a limit of 1,000 words, there isn't a lot of room for character development, so you'll want to pick one character to focus on. There will likely be two characters in the story because you'll often use a human antagonist as opposition to your main character. You might be able to use three characters, but any more than that will probably be overkill in the realm of flash fiction.",
+      "Longer story forms have a beginning, middle, and end, but with flash fiction, you're really telling only the end of a story. Of course, you won't be able to flesh out a complex story world. Instead, your flash fiction story should focus on one scene, one moment in the life of your character. It needs to be a significant, life-altering moment for your character. Focusing on one scene also means focusing on one location. So for flash fiction your limited word count focuses on the essentials to the story.",
+      "All stories are about conflict. A story can be easily defined as a character who wants or needs something and has to overcome some obstacle in order to attain it. The obstacle is the conflict. You have to answer two very important questions to write a really good flash fiction story:\n1. What does your main character want?\n2. Who or what is trying to stop your main character from getting it?",
+      "Your theme is the moral argument of your story. It's about how you want your readers to be impacted by the story. What do you want them to be encouraged to do, be, or believe as a result of reading your story?",
+      "You only have up to 1,000 words to tell your story, so you have to choose those words wisely. When you know what actions and ideas you want to communicate, choose the least amount of words to communicate them.",
+      "Flash fiction forces you to be economical with your words. It helps you to focus your ideas and strip away anything that isn't essential to your story. Often, when you're writing flash fiction, you'll write more than you need. When you go back through, you'll see what needs to be there, what can be taken out, and what needs to be reworked, which helps you to develop your editing and revising skills.",
+      "BOOOOOOOOMMMM!!!! Timothy's eyes nearly popped out of his head. His face was blackened with soot and his hair stood on end. He looked down at what remained of the school laboratory bench and saw smouldering wood and shattered glass. Shocked faces gazed up at him.",
+      "A month ago, it had all started fairly well. It was nearly the end of Chemistry and Timothy was drifting in a pleasant doze with his head rested upon Super Science Experiments for Eager Youngsters, whilst Professor Snookhorn droned on. \"So, if anyone is interested, raise your hand now ... how about you Timothy?\" \"Eh? Ermmm - sure,\" mumbled Timothy with not the faintest idea of what he had been asked. \"Marvellous!\" replied an enthused Professor Snookhorn, fixing him with a steely gaze through his thick glasses. \"Meet me in Lab 922 after school today and we'll get started.\" The bell clanged and the students crashed out of the classroom like a herd of elephants. Billy Brenton, class thug, barged past Timothy muttering \"Swotty boy - volunteering for Young Scientist of the Year - urghh!\" \"Arggghhhh!\" thought Timothy, but it was too late.",
+      "Four weeks and 25 excruciating extra Chemistry lessons later, Timothy was blinking out nervously at a gaggle of eager science teachers and pushy parents, crammed into the National School of Science Laboratory for what Professor Snookhorn enthusiastically described as \"The pinnacle of my teaching career\" (no pressure).",
+      "Professor Snookhorn was a superlative scientist but little did he know that Timothy was a bigger hazard than sulphuric acid when it came to Chemistry. He had mistaken Timothy's glazed expression for wide-eyed enthusiasm in class. Timothy looked down at the glistening bench, taking in the jewel-coloured containers of liquids and crystals, without a clue of what they were or how to use them.",
+      "A klaxon blared. Timothy's competitors scurried around like a pack of lab rats. Timothy had not bothered reading the competition rules, but jerked into action, picking random coloured bottles up and mixing the contents in a large glass container which appeared to have been placed on the bench in front of him for that purpose.",
+      "A smell like Billy Brenton's worst ever fart began to fill the air and Timothy looked down in alarm at his bench. Thick grey smoke filled Timothy's nostrils. The glass container into which he had poured his random mix shuddered and shook. The pushy parents started to point. The science teachers went pale. Timothy gulped.\nBOOOOOOOOMMMM!!!!",
+      "As the smoke cleared, the science teachers began to clap and a tear of pride trickled down Professor Snookhorn's cheek. A voice boomed: \"Ladies and gentlemen I give you the winner of this year's Young Scientist of the Year - The Biggest Bang: TIMOTHY TRENTON!\""
+    ],
+    "headings":{"1":"What is Flash Fiction? - Paragraph 2","2":"How to Write Flash Fiction - Paragraph 3","3":"Focus on One Character - Paragraph 4","4":"Focus on One Scene - Paragraph 5","5":"Focus on One Conflict - Paragraph 6","6":"Focus on One Theme - Paragraph 7","7":"Focus on Word Choice - Paragraph 8","8":"How Flash Fiction Makes You a Better Writer - Paragraph 9","9":"Flash Fiction Example: The Big Bang - Paragraph 10"}
+  },
+  "dse-2022-b2": {
+    "source":"2022 Reading - Passage and Questions.pdf, pages 13-14, visually checked 2026-09-04",
+    "sourceHeading":"Ethical concerns mount as AI takes bigger decision-making role in more industries",
+    "replaceAllText":[["Al ","AI "],["Al,","AI,"],["Al's","AI's"]],
+    "originalParagraphCount":9,
+    "replaceStrings":{
+      "0":[["snorti Ethical concerns mount as AI takes bigger decision-making role in more industries ",""],["Facebook, ano", "Facebook, and"],["banking, retail, anc", "banking, retail, and manufacturing."]],
+      "1":[[" [31 Joseph Euller/ professor", " Joseph Fuller, professor"]],
+      "2":[["Mills said What are the ethical concerns of using AI in decision-making? (51 Michael Sandel", "Mills said. Michael Sandel"]],
+      "3":[["says Fuller First", "says Fuller. First"]],
+      "4":[[" • ", " "],["That's good business for them, How much government regulation is needed?", "That's good business for them, too.\""]],
+      "5":[["How much government regulation is needed? ", ""],[" 19] ", " "]],
+      "6":[["need \"a much transportation regulations", "need \"a much better technical understanding of artificial intelligence to do that job well,\" but says they could do it. \"Existing transportation regulations"]]
+    },
+    "splitBefore":{"1":"Joseph Fuller, professor","2":"Michael Sandel, professor","5":"\"There's no businessperson"},
+    "headings":{"4":"What are the ethical concerns of using AI in decision-making? - Paragraph 5","7":"How much government regulation is needed? - Paragraph 8"}
+  },
+  "dse-2022-b1": {
+    "source":"2022 Reading - Passage and Questions.pdf, pages 7-8, visually transcribed 2026-09-04",
+    "paragraphs":[
+      "Social Media Marketing Assistant\nSTAR RESORT HOTELS\nJob Summary:\n• Works closely with local and regional sales and marketing teams for social media needs (Instagram, Facebook, WeChat, etc.)\nJob Requirements:\n• Diploma in Marketing / Communications / Hospitality\n• Experience in advertising / design\n• Ability to work well in small teams\n• Knowledge of other countries / cultures",
+      "IT Assistant Technician (6-month contract)\nKING'S GROUP\nJob Summary:\n• Provides IT support for office and warehouse management software\n• Trains users on property management software\nJob Requirements:\n• Diploma or above in Computer Science or related disciplines\n• Experience in IT support, preferably gained from property management industry",
+      "Assistant to Chef\nNANONG CHAIN OF RESTAURANTS\nGood opportunity to advance because the chef will teach assistants\nJob Summary:\n• Assists chef in daily operations\n• Needs to work long shifts\nJob Requirements:\n• Experience with a wide variety of cooking techniques\n• Quick learner who enjoys challenges",
+      "Multi-media Designer\nMONOSHINE CLOTHES GROUP\nJob Summary:\n• Provides creative designs for the image of the retail brand\n• Creates graphics for social media accounts\nJob Requirements:\n• Higher diploma or above in Graphic Design or related disciplines\n• Understanding of brand image and design",
+      "A slasher refers to a new group of workers. The slasher, also called a portfolio careerist, has become increasingly popular. It describes one person with a number of jobs and the slash (/) is used in the job title, for example, someone who is an X/Y/Z or a journalist/web editor/advertiser.",
+      "In the past, an employee was traditionally expected to put in 40 hours per week (plus the other 40 hours of unpaid overtime!) into a single career. However, the unstable job market has led many individuals to take on various jobs at the same time, as a form of safe-keeping their own incomes.",
+      "Self-proclaimed slasher Jane Mellon wrote, 'This approach might appeal to anyone who has lost their job. When our entire income comes from a single position, losing it would drop us from comfort into terror. For a slasher with multiple sources of income, losing one job would not be a disaster if she still has five more.'",
+      "There is even better news, as it may be easier to recover from losing a job as a slasher. Not only does the slasher not need to hunt for a new full-time permanent job, she also has a stronger and wider skillset, which is reinforced by strong time management and organisation skills. After all, to balance multiple jobs, you require excellent self-motivation and exceptional planning ability.",
+      "For the modern graduate, the idea that you can become a slasher can be very attractive. Alex McDonald graduated with a degree in computer science and has juggled multiple roles since then. He said, 'I've been a web developer, a games tester, a web designer and an occasional writer. It makes me more employable in a tough market.'",
+      "Erin Albert is a widely recognised expert on the portfolio career, having not only recently written a new book on the subject but also acted as a role-model to slashers everywhere. Erin is a pharmacist, an assistant professor, an entrepreneur, a writer, and a law student: does this make her any less employable? 'I'm often asked about career development, especially during the current economic crisis,' she said. 'I regularly challenge students to think about why they can't both take an immediate job offer they are not sure about and work towards their dream job.'",
+      "In the UK, entrepreneurs are a typical example of a group that expects to spread their careers across multiple areas. This inspired Emma Jones, founder of Enterprise Nation and Bitsy, to publish Working Five to Nine: How to Start a Business in Your Spare Time. Emma said, 'I thought it was the very best way to start a business as you keep risks low and give yourself time to build confidence and cash flow. I wanted to tell these stories and offer a guide to others wanting to follow the same path. The title Working Five to Nine came to me when I was sitting at my computer working on my own business during a 5pm to 9am shift!'",
+      "Unfortunately, even accounting for the positives of being a slasher, some attitudes have been slow to change. Headhunters and recruiters are often disapproving of individuals who have worked multiple jobs at the same time, while some are even disbelieving. Recruiter Norman Lamp said to a slasher client, 'There is no way someone your age could have such a wide variety of skills.' Many recruiters do not believe that these skills are deeply ingrained in the young people with slasher careers.",
+      "It is no surprise that a greater number of people under 30 are choosing to have portfolio careers. For the typical Millennial, the typical behaviour patterns of immediate pleasure seeking, multitasking and low boredom thresholds (typically all summed into the phrase 'instant on') make slashing particularly appealing. Many large organisations may mistakenly see these characteristics as weaknesses in the younger generation. They should see them as strengths.",
+      "For the foreseeable future, the advantages of being a slasher will, in most cases, continue to outweigh the negatives. And as the younger generation grow up, the slasher philosophy will no doubt continue to grow.",
+      "Interesting article on 'slashers' - portfolio working is nothing new but it is interesting that this type of career is on the rise. The article seems to ignore creative talents like artists and craftsmen who have complex and diverse careers. Far from seeing this as a negative, craftsmen like myself believe that portfolio working is a very fulfilling way to work.",
+      "I'm a slasher because there really is no choice. There just aren't any jobs out there even for those who have graduated with high grades. Since I graduated from my degree, I have been a portfolio worker because of this and they don't even consider my slasher experience.",
+      "I am a Millennial struggling to make a living and I feel patronised by this article. I am doing this to survive! Just giving it a cool name doesn't make my situation cool."
+    ],
+    "headings":{"0":"Text 2 - JOB A","1":"Text 2 - JOB B","2":"Text 2 - JOB C","3":"Text 2 - JOB D","4":"Text 3 - Graduate job seeking: The rise of the 'slasher' - Paragraph 1","5":"Text 3 - Paragraph 2","6":"Text 3 - Paragraph 3","7":"Text 3 - Paragraph 4","8":"Text 3 - Paragraph 5","9":"Text 3 - Paragraph 6","10":"Text 3 - Paragraph 7","11":"Text 3 - Paragraph 8","12":"Text 3 - Paragraph 9","13":"Text 3 - Paragraph 10","14":"COMMENTS - craftsman - 8 April 2022 10:45","15":"COMMENTS - girlartisan - 8 April 2022 13:29","16":"COMMENTS - bellaneil - 9 April 2022 16:23"}
+  },
+  "dse-2022-a": {
+    "source":"2022 Reading - Passage and Questions.pdf, pages 1-2, visually checked 2026-09-04",
+    "sourceHeading":"Hong Kong's comic industry is proverbially in shreds. The biggest saboteur? The internet",
+    "originalParagraphCount":11,
+    "replaceStrings":{
+      "0":[["Hong Kong's comic industry is proverbially in shreds. The biggest saboteur? The internet (1 ",""],["countless eaders","countless readers"],["at the even, which dew more than 5,00 visitors in 10 days, evidence that fans are sill rabid fo.","at the event, which drew more than 5,000 visitors in 10 days, evidence that fans are still rabid for traditional comics. Meanwhile, there is an exhibition by another homegrown comic mastermind, Lee Wai Chun Theresa, the artist-author behind the popular Miss 13 Dot series. Her '13-Dot' exhibition at Comix Home Base in Wan Chai is also hotly tipped."]],
+      "1":[[" [S] Lam's", " Lam's"]],
+      "2":[["Readers which", "Readers can get shorter four-block strips online, which"]],
+      "6":[[" [l1] The industry", " The industry"],["bigger market if he", "bigger market if he succeeds."]],
+      "9":[["readers demand new fighting comics outdated.","readers demand new stories and visuals. While other leading comic nations like the US and Japan have worked to stay in tune with the evolving readership, this is not so in Hong Kong. \"Many old-school comic artists have not updated their kung fu-style, which was popular from the 1960s to the 1990s,\" explains Lam. The artist adds most young people find these fighting comics outdated."]],
+      "10":[["of now culture", "of how culture"]]
+    },
+    "splitBefore":{"0":["Meanwhile, there is an exhibition", "To the undiscerning observer"],"1":"Lam's latest comics","6":"The industry veteran"}
+  },
+  "dse-2021-b2": {
+    "source":"2021 Reading Passage and Questions.pdf, pages 20-21, visually checked 2026-09-04",
+    "originalParagraphCount":9,
+    "replaceStrings": {
+      "0":[["Read Texts 6-8 and answer questions 47-66 in the Question-Answer Book for Part B2. Title: ",""],[" Title: [1l The National", " The National"]],
+      "3":[["One option for thickening the atmosphere of Mars and raising the temperature of the planet would be to set Title: [l] Recent research by NASA on terraforming Mars has sparked a debate among ethicists as to whether space exploration and terraforming other worlds are ethical endeavours. Human beings have been captivated by the possibility of planet hopping since the discovery of planets. Below is a short extract from a transcript of a debate between two professors, Annabelle Lee and Theodore Cheung, who are discussing this issue.","One option for thickening the atmosphere of Mars and raising the temperature of the planet would be to set up solar-powered, greenhouse-gas producing machines. Their sole purpose would be to emit carbon dioxide and other greenhouse gases into the atmosphere. These greenhouse-gas machines would either have to be ferried to Mars or made out of materials already located on the planet. In order to transport these machines to Mars, they would have to be lightweight. As the atmosphere warms because of the greenhouse gases, a different type of greenhouse-gas machine would be needed to mimic the natural process of plant photosynthesis, absorbing carbon dioxide and emitting oxygen. Photosynthetic bacteria and algae could also be used alongside these greenhouse-gas machines. It would take millennia upon millennia but the Martian atmosphere could slowly be oxygenated to the point that Mars' inhabitants would need only a breathing-assistance apparatus, not a pressure suit as worn by astronauts."]],
+      "4":[["Title: [l] ",""]]
+    },
+    "splitBefore":{"0":"The National Aeronautics","4":"Prof. Lee:"},
+    "headings":{"0":"Text 6 - Title: ______ - Paragraph 1","1":"Text 7 - Title: ______ - Paragraph 1","2":"Text 7 - Paragraph 2","3":"Text 7 - Paragraph 3","4":"Text 7 - Paragraph 4","5":"Text 8 - Title: ______ - Paragraph 1","6":"Text 8 - Paragraph 2","7":"Text 8 - Paragraph 3","8":"Text 8 - Paragraph 4","9":"Text 8 - Paragraph 5","10":"Text 8 - Paragraph 6"}
+  },
+  "dse-2021-a": {
+    "source": "2021 Reading Passage and Questions.pdf, pages 6-7, visually checked 2026-09-04",
+    "textRepairs": {
+      "0": [["Read Texts 1-3 and answer questions 1-27 in the Question-Answer Book for Part A. Parking up at the Food Garage ", ""]],
+      "2": [["in the City Works", "in the City Works district."]],
+      "4": [[" The War on Big Food", ""]],
+      "9": [[" 3315392022322", ""], ["bread lasts days", "bread lasts 25 days"]],
+      "10": [[" Newsletter - The Sustainability Plan of Star Resort, Singapore", ""]],
+      "11": [["Newsletter - The Sustainability Plan of Star Resort, Singapore ", ""]],
+      "13": [["vendors use environmentally-friendly", "vendors use environmentally-friendly fishing techniques and restrict our purchases of fish to only these vendors."]]
+    },
+    "headings": {"0":"Text 1 - Parking up at the Food Garage - Paragraph 1","5":"Text 2 - The War on Big Food - Paragraph 1","11":"Text 3 - Newsletter - The Sustainability Plan of Star Resort, Singapore - Paragraph 1"}
+  },
+  "dse-2025-b2": {
+    "source":"2025 Reading B2.pdf, pages 1-2, original paragraph numbering checked 2026-09-04",
+    "originalParagraphCount":11,
+    "replaceAllText":[[" What is quiet quitting?",""],[" Going against the grind",""],[" A generational divide",""],["popularity are and","popularity arc and"]],
+    "replaceStrings":{
+      "9":[["traced to TikTok, the massively popular video-sharing app, where the influencer Zaid Khan uttered a phrase that's been quoted in countless news articles: \"Your worth as a person is not defined by your labor.\" ",""]]
+    },
+    "splitBefore":{"10":["Comments: Nikia203 | April 2025 10:45", "Lewis43 1 April 2025 12:23", "Jessef04 1 April 2025 14:47", "Luna903 2 April 2025 08:56"]},
+    "textRepairs":{},
+    "headings":{"1":"What is quiet quitting? - Paragraph 2","4":"Going against the grind - Paragraph 5","8":"A generational divide - Paragraph 9","11":"Comments - Nikia203 - 1 April 2025 10:45","12":"Comments - Lewis43 - 1 April 2025 12:23","13":"Comments - Jessef04 - 1 April 2025 14:47","14":"Comments - Luna903 - 2 April 2025 08:56"}
+  },
+  "dse-2025-b1": {
+    "source":"2025 Reading B1.pdf, pages 1-2, original paragraph numbering checked 2026-09-04",
+    "originalParagraphCount":20,
+    "replaceLeading":{"count":5,"paragraphs":[
+      "Home | Foraging Info | Videos | Recipes | About Us | Join Us\nForaging is identifying, collecting, and eating plants like herbs, fruits, and nuts that grow wild in nature.",
+      "Here are some rules that every forager should follow:",
+      "Never start solo. It's essential to begin by partnering up with a local expert who can teach you the best ways to forage while also keeping you safe.",
+      "Familiarise yourself with the herbs, bushes, and trees around you. Try to learn as much as possible about the ecosystem of which you are a part.",
+      "Learn to identify the poisonous plants you are likely to encounter. DO NOT EAT ANYTHING YOU CANNOT POSITIVELY IDENTIFY AND KNOW TO BE SAFE.",
+      "Familiarise yourself with the plants that are listed on the endangered species list for your area. Apart from being unethical, it is also illegal to pick endangered plant species.",
+      "Don't be greedy! Only pick as much as you need and never take ALL the plants of any one kind in a given patch. After harvesting an area, give the plants plenty of time to recover before returning to the same patch. If in doubt, don't collect.",
+      "The Agriculture, Fisheries and Conservation Department (AFCD) says it is illegal to cut, pick, or uproot any plant or part of a plant, whether living or dead, from within a country park area without express permission. It's also illegal to dig up plants from private land without permission from the landowner."
+    ]},
+    "replaceAllText":[["enviromnent","environment"],["Hong Kongprovides","Hong Kong provides"],[" Questions from the Internet",""],["@13happy mushroom","@13happy_mushroom"],["@nature gurl","@nature_gurl"],["@eat to live1234","@eat_to_live1234"],["so much more - to it","so much more to it"]],
+    "headings":{"0":"Text 2 - What is Foraging? - Paragraph 1","1":"Text 2 - Foraging Guidelines - Paragraph 2","2":"Text 2 - Paragraph 3","3":"Text 2 - Paragraph 4","4":"Text 2 - Paragraph 5","5":"Text 2 - Paragraph 6","6":"Text 2 - Paragraph 7","7":"Text 2 - Know the Law! - Paragraph 8","8":"Text 3 - Foraging in Hong Kong - Paragraph 1","9":"Text 3 - Paragraph 2","10":"Text 3 - Paragraph 3","11":"Text 3 - Paragraph 4","12":"Text 3 - Paragraph 5","13":"Text 3 - Paragraph 6","14":"Text 4 - Questions from the Internet - Paragraph 1","15":"Text 4 - Paragraph 2","16":"Text 4 - Paragraph 3","17":"Text 4 - Paragraph 4","18":"Text 4 - Paragraph 5","19":"Text 4 - Paragraph 6","20":"Text 4 - Paragraph 7","21":"Text 4 - Paragraph 8","22":"Text 4 - Paragraph 9"}
+  },
+  "dse-2025-a": {
+    "source":"2025 Reading Part A.pdf, pages 6 and 8, original paragraph numbering verified 2026-09-04",
+    "keepParagraphs":14,
+    "replaceAllText":[["as weil as","as well as"],["Alico Leppert","Alice Leppert"],["what they've like","what they're like"],["we're taiking about","we're talking about"],["negativo gossip","negative gossip"],["rescarchers' definition","researchers' definition"],["whore we can","where we can"]],
+    "replaceText":{
+      "4":"But why? What purpose does gossip serve? What function is it fulfilling in our society? Put simply, why do we care?",
+      "13":"But just like regular gossip, sometimes the motivation behind celebrity gossip is to make ourselves feel better than others. \"Celebrity gossip is a safe way to snack on schadenfreude (the delight in the misfortune of others),\" says Benning. \"It feels a lot less shameful to admit we enjoy watching celebrity misfortunes than to admit we enjoy watching the misfortunes of family and friends.\""
+    }
+  },
+  "dse-2013-b1": {
+    "source": "2013-DSE-ENG-LANG-1-RP-B1.pdf, printed pages 2-3, visually checked 2026-09-04",
+    "replaceText": {
+      "0": "The guzheng has been a popular Chinese instrument since ancient times. It originated during the Warring States period and first became popular during the Qin Dynasty.",
+      "2": "'Chinese people are attracted to [learning] the guzheng because they have been exposed to its sound since childhood,' says Zou Lunlun, guzheng artist and founder of the International Academy for Musical Arts.",
+      "3": "'Westerners are attracted to it because of its exotic and relaxing sound. The skills of playing the guzheng bring many benefits, such as artistic expression, sense of accomplishment, stress relief, social activity and physical activity.'",
+      "7": "One-to-one classes are available for beginner, intermediate and advanced students and cost HK$420, HK$480 and HK$550, respectively. Skype lessons are available for people who would find travelling to the school difficult.",
+      "11": "The elementary course focuses on the basic fingering techniques for both hands and students learn to play traditional Chinese songs, 'Swordsman' and 'Fengyang Flower'.",
+      "12": "The association has designed a 10 grade-examination system in which the level 1 exam is suitable for elementary students and level 10 is for students able to perform at a professional level.",
+      "13": "Social media is great for deepening bonds, making friends, or finding that special someone. Or is it?",
+      "15": "'We had this idea that Facebook could be a fantastic place for people to strengthen their relationships,' says Amanda Forest of the University of Waterloo in Ontario, Canada.",
+      "16": "This assumption seems fair when applied to most people, especially those with low self-esteem. However, the findings of Forest's research - titled 'When Social Networking Is Not Working' - suggest that isn't so.",
+      "18": "The study also found that people with low self-esteem got more responses from their Facebook friends when they posted highly positive updates, compared to less positive ones. People with high self-esteem, on the other hand, used Facebook less and got more 'like' replies after posting something negative, perhaps because these responses are rarer for them.",
+      "20": "'If you're talking to somebody in person and you say something negative, you might get an indication that they don't like it,' says Forest. But when people have a negative reaction to a post on Facebook, they seem to keep it to themselves. 'On Facebook, you don't see most of the reactions.'"
+    },
+    "removeFooter": "IG PASSAGES ledged in the Examination Report and Question Papers it Authority at a later stage.",
+    "headings": {"0":"Text 2 - Master teaches a much-loved instrument - Paragraph 1","13":"Text 3 - What your updates say about you - Paragraph 1"}
+  }
+}

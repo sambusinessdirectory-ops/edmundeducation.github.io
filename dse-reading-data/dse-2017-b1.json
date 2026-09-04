@@ -8,48 +8,45 @@
   "paragraphs": [
     {
       "number": 1,
-      "image": {
-        "src": "assets/reading-comprehension/dse/2017-b1-millennials-word-cloud.webp",
-        "alt": "Millennials word cloud from Slide 1",
-        "small": true
-      },
-      "label": "Paragraph 1",
-      "text": "MILLENNIALS - Coming of age Millennials are the largest generation in history and are about to move into their prime spending years. Companies want to understand the attitudes and lifestyle of Millennials because their shopping habits will make a big difference to their business. Slide-1 Snug in the nest, a growing number of Millennials are choosing to live at home with their parents. Many Millennials don't want to own a home but their reluctance to enter the housing market could change. As they get older, they will likely have a desire to settle down, and this could lead to a surge in home sales. Slide-2 It's not just homes: Millennials have been reluctant to buy items such as cars, music and luxury goods. Instead, they're turning to a new set of services that provide access to products without the burdens of ownership, giving rise to what's being called a \"sharing economy\". The must-haves for previous generations aren't as important for Millennials. They're postponing major purchases - or avoiding them entirely. \"25 years from now, car sharing will be the norm, and car ownership an anomaly.\" Jeremy Rifkin, Author and Economist Slide-3 Millennials have been putting off significant milestones like getting married and having children. But that doesn't mean they want to stay single forever. The average age of couples getting married in 1970 was 20. By 2010, it had risen to 30. Slide-4 Millennials' love for technology is changing the retail industry. With product information, reviews and price comparisons at their fingertips, they are able to compare prices in the store or shop online. Millennials want maximum convenience at the lowest price. So when marketing to this generation, a strong brand isn't enough to lock in a sale. Slide-5 For Millennials, wellness is a daily, active pursuit. They're exercising more, eating smarter and smoking less than previous generations. They're using apps to track training data, and online information to find the healthiest foods. And this is one space in retail where they're willing to spend money on as 'healthy' doesn't just mean 'not sick'. It's a daily commitment to eating right and exercising. Slide-6 1980 2000"
+      "label": "Text 2 - Slide 1",
+      "text": "MILLENNIALS - Coming of age\nMillennials are the largest generation in history and are about to move into their prime spending years. Companies want to understand the attitudes and lifestyle of Millennials because their shopping habits will make a big difference to their business.",
+      "images": [
+        {
+          "src": "assets/reading-comprehension/dse/2017-b1-millennials-word-cloud.webp",
+          "alt": "Millennials word cloud from Slide 1. Keywords: Millennials, Generation, Social, Age, Term, Mobile, People, Education, Research, Online, Digital Natives, Technology, Work, Native.",
+          "small": true
+        }
+      ]
     },
     {
       "number": 2,
-      "label": "Paragraph 1",
-      "text": "1980 2000 You might think that young people have it easy. But in a special report, the editor of The Economist, Robert Guest, argues that millennials have it tougher than most people think."
+      "label": "Text 2 - Slide 2",
+      "text": "Snug in the nest, a growing number of Millennials are choosing to live at home with their parents. Many Millennials don't want to own a home but their reluctance to enter the housing market could change. As they get older, they will likely have a desire to settle down, and this could lead to a surge in home sales."
     },
     {
       "number": 3,
-      "label": "Paragraph 2",
-      "text": "In some respects the young have never had it so good, Guest writes. 'They are wealthier and are more likely to live longer than any other generation. They live in more liberal societies than their predecessors could barely have imagined, and have high speed access to information from around the world."
+      "label": "Text 2 - Slide 3",
+      "text": "It's not just homes: Millennials have been reluctant to buy items such as cars, music and luxury goods. Instead, they're turning to a new set of services that provide access to products without the burdens of ownership, giving rise to what's being called a \"sharing economy\". The must-haves for previous generations aren't as important for Millennials. They're postponing major purchases - or avoiding them entirely.\n\"25 years from now, car sharing will be the norm, and car ownership an anomaly.\"\nJeremy Rifkin, Author and Economist"
     },
     {
       "number": 4,
-      "label": "Paragraph 3",
-      "text": "'They are also brainier than any previous generation before them. Average scores on intelligence tests have been rising for decades in many countries, thanks to both better nutrition and mass education.'"
+      "label": "Text 2 - Slide 4",
+      "text": "Millennials have been putting off significant milestones like getting married and having children. But that doesn't mean they want to stay single forever. The average age of couples getting married in 1970 was 20. By 2010, it had risen to 30."
     },
     {
       "number": 5,
-      "label": "Paragraph 4",
-      "text": "However, the report says, the talent and intelligence of millennials is often wasted, with not enough employment opportunities. Youngsters are twice as likely as their elders to be unemployed, while over 25% of young people in middle-income nations - and 15% in richer ones - are NEETs (not in education, employment or training)."
+      "label": "Text 2 - Slide 5",
+      "text": "Millennials' love for technology is changing the retail industry. With product information, reviews and price comparisons at their fingertips, they are able to compare prices in the store or shop online. Millennials want maximum convenience at the lowest price. So when marketing to this generation, a strong brand isn't enough to lock in a sale."
     },
     {
       "number": 6,
-      "label": "Paragraph 5",
-      "text": "Furthermore, the cost of housing and education often prices millennials out of the market. 'Education has become SO Hong Kong Examinations and Assessment Authority at a later stag"
+      "label": "Text 2 - Slide 6",
+      "text": "For Millennials, wellness is a daily, active pursuit. They're exercising more, eating smarter and smoking less than previous generations. They're using apps to track training data, and online information to find the healthiest foods. And this is one space in retail where they're willing to spend money on as 'healthy' doesn't just mean 'not sick'. It's a daily commitment to eating right and exercising."
     },
     {
       "number": 7,
-      "label": "Paragraph 7",
-      "text": "LARGEST GENERATION YET"
-    },
-    {
-      "number": 8,
-      "label": "Paragraph 8",
-      "text": "O MOST",
+      "label": "Text 3 - Infographic",
+      "text": "WHO ARE MILLENNIALS?\nBorn between 1980 and 2000. Gen Y. Largest generation yet. 80 million in the U.S. 2.5 billion worldwide. Most ethnically and racially diverse.",
       "images": [
         {
           "src": "assets/reading-comprehension/dse/content/2017/b1/passage-2-crop-1.webp",
@@ -58,44 +55,49 @@
       ]
     },
     {
+      "number": 8,
+      "label": "Text 4 - Do Millennials Have It Better or Worse? - Paragraph 1",
+      "text": "You might think that young people have it easy. But in a special report, the editor of The Economist, Robert Guest, argues that millennials have it tougher than most people think."
+    },
+    {
       "number": 9,
-      "label": "Paragraph 9",
-      "text": "HO RACIALY"
+      "label": "Text 4 - Paragraph 2",
+      "text": "'In some respects the young have never had it so good,' Guest writes. 'They are wealthier and are more likely to live longer than any other generation. They live in more liberal societies than their predecessors could barely have imagined, and have high speed access to information from around the world."
     },
     {
       "number": 10,
-      "label": "Paragraph 10",
-      "text": "$= 2.5 BILLION GENASE"
+      "label": "Text 4 - Paragraph 3",
+      "text": "'They are also brainier than any previous generation before them. Average scores on intelligence tests have been rising for decades in many countries, thanks to both better nutrition and mass education.'"
     },
     {
       "number": 11,
-      "label": "Paragraph 11",
-      "text": "WORLDWIDE"
+      "label": "Text 4 - Paragraph 4",
+      "text": "However, the report says, the talent and intelligence of millennials is often wasted, with not enough employment opportunities. Youngsters are twice as likely as their elders to be unemployed, while over 25% of young people in middle-income nations - and 15% in richer ones - are NEETs (not in education, employment or training)."
     },
     {
       "number": 12,
-      "label": "Paragraph 12",
-      "text": "VE IT BETTER OR WORSE? expensive that many students rack up heavy debts. Housing has grown costlier, too, especially in the globally connected megacities where the best jobs are. Young people yearn to move to such cities: besides higher pay, they offer excitement and a wide selection of other young people to date or marry. Yet constraints on the supply of housing make that hard."
+      "label": "Text 4 - Paragraph 5",
+      "text": "Furthermore, the cost of housing and education often prices millennials out of the market. 'Education has become so expensive that many students rack up heavy debts. Housing has grown costlier, too, especially in the globally connected megacities where the best jobs are. Young people yearn to move to such cities: besides higher pay, they offer excitement and a wide selection of other young people to date or marry. Yet constraints on the supply of housing make that hard.'"
     },
     {
       "number": 13,
-      "label": "Paragraph 6",
-      "text": "Guest also wrote that the time it takes to feel financially secure means people leave having children until later. 'For both sexes, the path to adulthood-from school to work, marriage and children-has become longer and more complicated. Mostly, this is a good thing. Many young people now study until their mid-zos and put off having children until their late 3os."
+      "label": "Text 4 - Paragraph 6",
+      "text": "Guest also wrote that the time it takes to feel financially secure means people leave having children until later. 'For both sexes, the path to adulthood - from school to work, marriage and children - has become longer and more complicated. Mostly, this is a good thing. Many young people now study until their mid-20s and put off having children until their late 30s."
     },
     {
       "number": 14,
-      "label": "Paragraph 7",
-      "text": "\"They form families later partly because they want to and partly because it is taking them longer to become established in their careers. Alas, despite improvements in fertility treatment, the biological clock has not been reset to accommodate modern working lives.'"
+      "label": "Text 4 - Paragraph 7",
+      "text": "'They form families later partly because they want to and partly because it is taking them longer to become established in their careers. Alas, despite improvements in fertility treatment, the biological clock has not been reset to accommodate modern working lives.'"
     },
     {
       "number": 15,
-      "label": "Paragraph 8",
+      "label": "Text 4 - Paragraph 8",
       "text": "At the end of the fascinating report, Guest urged countries around the world to 'work harder to give the young a fair shot'."
     },
     {
       "number": 16,
-      "label": "Paragraph 9",
-      "text": "'If they do not, that would not only be immoral; it would also be dangerous.' edged in the booklet HKDSE Question Papers published by the a later stage."
+      "label": "Text 4 - Paragraph 9",
+      "text": "'If they do not, that would not only be immoral; it would also be dangerous.'"
     }
   ],
   "instructions": {

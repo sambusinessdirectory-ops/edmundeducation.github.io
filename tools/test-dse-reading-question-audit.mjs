@@ -20,7 +20,8 @@ for (const entry of entries) {
   assert.equal(review.status, 'source-reviewed');
   if (review.correctedQuestions.length) {
     assert.equal(paper.questionRevision, audit.revision);
-    assert.equal(entry.version, audit.revision);
+    assert.match(entry.version, /^\d{8}-/);
+    assert.ok(entry.version.slice(0, 8) >= audit.revision.slice(0, 8), 'Cache release must include the question audit');
   }
   assert.equal(new Set(paper.questions.map(q => q.number)).size, paper.questions.length);
   let groups = 0;

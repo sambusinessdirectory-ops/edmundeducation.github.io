@@ -136,6 +136,7 @@ jobs:
           node tools/test-reading-comprehension-catalogue.mjs
           node tools/test-reading-comprehension-audio.mjs
           node tools/test-reading-translations.mjs
+          node tools/test-dse-reading-translations.mjs --complete
           node tools/generate-ielts-reading-question-types.mjs --check
           node tools/test-ielts-reading-question-types.mjs
 

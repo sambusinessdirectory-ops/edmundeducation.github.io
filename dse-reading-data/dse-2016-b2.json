@@ -8,58 +8,90 @@
   "paragraphs": [
     {
       "number": 1,
-      "image": {
-        "src": "assets/reading-comprehension/dse/2016-b2-food-truck-badge.webp",
-        "alt": "Food Trucks badge from the original passage",
-        "small": true
-      },
-      "label": "Paragraph 1",
-      "text": "The arrival of food trucks to New York several years ago was greeted by a city hungry for refined street food, willing to pay higher prices to reward hard-working culinary entrepreneurs. But, what was initially a story of success, as the Mexicue truck can attest, quickly became a nightmare."
+      "label": "Text 8 - Forbes - Small Business - Mexicue Moves Beyond the Food Truck - Paragraph 1",
+      "text": "The arrival of food trucks to New York several years ago was greeted by a city hungry for refined street food, willing to pay higher prices to reward hard-working culinary entrepreneurs. But, what was initially a story of success, as the Mexicue truck can attest, quickly became a nightmare.",
+      "images": [
+        {
+          "src": "assets/reading-comprehension/dse/2016-b2-food-truck-badge.webp",
+          "alt": "Food Trucks badge from the original passage",
+          "small": true
+        }
+      ]
     },
     {
       "number": 2,
       "label": "Paragraph 2",
-      "text": "Initially, the food truck business model looked attractive. As Mexicue co-founder Thomas Kelly told Forbes sitting in the top floor of their store on Seventh Avenue, the truck was cheaper, offered lower risk than opening a restaurant and allowed him and partner David Schillace to test out their concept without having to spend hundreds of thousands of dollars. While they sunk their life savings into the truck, putting it together cost less than $100,000. [31 As early adopters, the Mexicue crew saw explosive growth. Their first day, parked in midtown Manhattan surrounded by the skyscrapers that investment banks call their home, the Mexicue truck attracted lines around the block. Early on, they were making $2,000 to $3,000 on good days. The happy days of the food truck dream are long gone, though."
+      "text": "Initially, the food truck business model looked attractive. As Mexicue co-founder Thomas Kelly told Forbes sitting in the top floor of their store on Seventh Avenue, the truck was cheaper, offered lower risk than opening a restaurant and allowed him and partner David Schillace to test out their concept without having to spend hundreds of thousands of dollars. While they sunk their life savings into the truck, putting it together cost less than $100,000."
     },
     {
       "number": 3,
+      "label": "Paragraph 3",
+      "text": "As early adopters, the Mexicue crew saw explosive growth. Their first day, parked in midtown Manhattan surrounded by the skyscrapers that investment banks call their home, the Mexicue truck attracted lines around the block. Early on, they were making $2,000 to $3,000 on good days. The happy days of the food truck dream are long gone, though."
+    },
+    {
+      "number": 4,
       "label": "Paragraph 4",
       "text": "The odds were stacked against them. Competition in New York City is ferocious, and the food truck business is no different. Mexicue found itself struggling to find good parking spots, a major factor in food truck success, as other trucks would leave as early as 3:30 in the morning to secure a solid location. The New York Police Department, seeing mobile vendors flood the streets, started aggressively handing out tickets, while regulators began to crack down on the industry."
     },
     {
-      "number": 4,
-      "label": "Paragraph 5",
-      "text": "Exhausted by the hustle, Schillace and Kelly made a U-turn and in 2011 opened their first running a restaurant appears as a balanced, steady task. Without having to tough it out through steady stream of revenues. [ol While the truck is no longer a cash cow, it remains integral to their brand and image. A billboard on wheels, the truck still serves food at festivals, corporate events and even weddings."
-    },
-    {
       "number": 5,
       "label": "Paragraph 5",
-      "text": "FORBES LIFESTYLE America's Worst Food Trends 17] Having covered food for more than 15 years, I've seen a lot of trends come and go. Some recent developments have been great, but not every food trend is good, and some astonishingly stupid trends have thrived. Here are some of the worst offenders."
+      "text": "Exhausted by the hustle, Schillace and Kelly made a U-turn and in 2011 opened their first brick-and-mortar store. Located on Seventh Avenue, it complements their previous expansion into catering (which got them through their first winter). Next to the volatile food truck business, running a restaurant appears as a balanced, steady task. Without having to tough it out through inclement weather or ticket-issuing cops, the duo knows what to expect on most days, seeing a steady stream of revenues."
     },
     {
       "number": 6,
-      "label": "Paragraph 8",
-      "text": "Food trucks: There is nothing wrong with the individual food truck per se, but the overall trend is both ridiculous and in some cases, morally reprehensible. The food media continues to treat these as a new form of cuisine and some sort of breakthrough invention when they are nothing more than a way to deliver food to consumers, akin to the \"invention\" of home delivery, takeout containers or the drive through. When grouped together in parking lots, food trucks become an outdoor version of a longstanding American culinary tradition - the shopping mall food court, and nothing more. Foodwise, there is nothing new about trucks Which serve foods you can already get in countless traditional eateries, albeit with much more limited menus. People act as if tacos, dumplings, or brick oven pizza have somehow been \"discovered\" by food truck cooks. ' Forbes is a business magazine featuring articles on finance, investing and successful companies. 191 One major magazine recently suggested that food trucks had brought affordable ethnic cuisine te the people of Los Angeles - seriously? LA has always had hundreds of brick and mortar eateries serving exactly this kind of affordable ethnic cuisine. I think that one of the reasons for their hipster popularity is that food trucks bring such cuisine to people who are afraid to go to actual ethnic restaurants in diverse neighborhoods to eat it. Ironically, in many markets the food trucks do more harm than good to the existing restaurants on which they are patterned, competing unfairly with rent-paying establishments while cannibalizing hard-to-get public parking spots and squatting on public property. 110] Admittedly in some markets, like LA, food trucks can serve a real purpose, bringing quality dining selections to extremely pedestrian-unfriendly areas, especially near office buildings where nothing else is available within walking distance. But these practical food trucks are nothing new - such trucks and carts and sidewalk vendors always existed. The real trend is the redundant food truck - like one serving pizza parked across the sidewalk from a rent paying pizzeria. When I visit New York, I see trucks parked curbside in neighborhoods overflowing with good and diverse restaurants and having no need at all of food trucks. This strikes me as absurd. In many cases these are merely a lower barrier to entry for wanna-be \"chefs\" who can't actually start a restaurant. More a fad than a trend, I've yet to see any tangible benefits of the food truck craze to the average consumer. Movable Feasts [111 FOOD is risky. You can choke on a hot dog, be poisoned by a pizza or die slowly from years of eating too much. Clearly, businesses that sell food are suspect. And what could be more suspicious than an outlet that sells food-and then drives away before its customers expire? It's small wonder that so many American cities frown on food trucks. (121 Miami makes it extremely hard for them to operate, as do Baltimore and Chicago. Rochester, Pittsburgh and San Diego are nearly as stern. In New York City, a cap on the number of food-truck licences available has created a black market, pushing up prices into the thousands of dollars."
+      "label": "Paragraph 6",
+      "text": "While the truck is no longer a cash cow, it remains integral to their brand and image. A billboard on wheels, the truck still serves food at festivals, corporate events and even weddings."
     },
     {
       "number": 7,
-      "label": "Paragraph 13",
-      "text": "191 One major magazine recently suggested that food trucks had brought affordable ethnic cuisine te the people of Los Angeles - seriously? LA has always had hundreds of brick and mortar eateries serving exactly this kind of affordable ethnic cuisine. I think that one of the reasons for their hipster popularity is that food trucks bring such cuisine to people who are afraid to go to actual ethnic restaurants in diverse neighborhoods to eat it. Ironically, in many markets the food trucks do more harm than good to the existing restaurants on which they are patterned, competing unfairly with rent-paying establishments while cannibalizing hard-to-get public parking spots and squatting on public property. 110] Admittedly in some markets, like LA, food trucks can serve a real purpose, bringing quality dining selections to extremely pedestrian-unfriendly areas, especially near office buildings where nothing else is available within walking distance. But these practical food trucks are nothing new - such trucks and carts and sidewalk vendors always existed. The real trend is the redundant food truck - like one serving pizza parked across the sidewalk from a rent paying pizzeria. When I visit New York, I see trucks parked curbside in neighborhoods overflowing with good and diverse restaurants and having no need at all of food trucks. This strikes me as absurd. In many cases these are merely a lower barrier to entry for wanna-be \"chefs\" who can't actually start a restaurant. More a fad than a trend, I've yet to see any tangible benefits of the food truck craze to the average consumer. Movable Feasts [111 FOOD is risky. You can choke on a hot dog, be poisoned by a pizza or die slowly from years of eating too much. Clearly, businesses that sell food are suspect. And what could be more suspicious than an outlet that sells food-and then drives away before its customers expire? It's small wonder that so many American cities frown on food trucks. (121 Miami makes it extremely hard for them to operate, as do Baltimore and Chicago. Rochester, Pittsburgh and San Diego are nearly as stern. In New York City, a cap on the number of food-truck licences available has created a black market, pushing up prices into the thousands of dollars. How bad can food trucks be? Your intrepid correspondent sampled injera with tilapia from one serving Ethiopian nosh in Washington, DC. As The Economist went to press, it had not yet killed her. Perhaps this is unsurprising: food trucks are typically required to cook their food in inspected commercial kitchens."
+      "label": "Text 9 - Forbes - Lifestyle - America's Worst Food Trends - Paragraph 7",
+      "text": "Having covered food for more than 15 years, I've seen a lot of trends come and go. Some recent developments have been great, but not every food trend is good, and some astonishingly stupid trends have thrived. Here are some of the worst offenders."
     },
     {
       "number": 8,
+      "label": "Paragraph 8",
+      "text": "Food trucks: There is nothing wrong with the individual food truck per se, but the overall trend is both ridiculous and in some cases, morally reprehensible. The food media continues to treat these as a new form of cuisine and some sort of breakthrough invention when they are nothing more than a way to deliver food to consumers, akin to the \"invention\" of home delivery, takeout containers or the drive through. When grouped together in parking lots, food trucks become an outdoor version of a longstanding American culinary tradition - the shopping mall food court, and nothing more. Foodwise, there is nothing new about trucks which serve foods you can already get in countless traditional eateries, albeit with much more limited menus. People act as if tacos, dumplings, or brick oven pizza have somehow been \"discovered\" by food truck cooks."
+    },
+    {
+      "number": 9,
+      "label": "Paragraph 9",
+      "text": "One major magazine recently suggested that food trucks had brought affordable ethnic cuisine to the people of Los Angeles - seriously? LA has always had hundreds of brick and mortar eateries serving exactly this kind of affordable ethnic cuisine. I think that one of the reasons for their hipster popularity is that food trucks bring such cuisine to people who are afraid to go to actual ethnic restaurants in diverse neighborhoods to eat it. Ironically, in many markets the food trucks do more harm than good to the existing restaurants on which they are patterned, competing unfairly with rent-paying establishments while cannibalizing hard-to-get public parking spots and squatting on public property."
+    },
+    {
+      "number": 10,
+      "label": "Paragraph 10",
+      "text": "Admittedly in some markets, like LA, food trucks can serve a real purpose, bringing quality dining selections to extremely pedestrian-unfriendly areas, especially near office buildings where nothing else is available within walking distance. But these practical food trucks are nothing new - such trucks and carts and sidewalk vendors always existed. The real trend is the redundant food truck - like one serving pizza parked across the sidewalk from a rent paying pizzeria. When I visit New York, I see trucks parked curbside in neighborhoods overflowing with good and diverse restaurants and having no need at all of food trucks. This strikes me as absurd. In many cases these are merely a lower barrier to entry for wanna-be \"chefs\" who can't actually start a restaurant. More a fad than a trend, I've yet to see any tangible benefits of the food truck craze to the average consumer."
+    },
+    {
+      "number": 11,
+      "label": "Text 10 - The Economist - News - United States - Movable Feasts - Paragraph 11",
+      "text": "FOOD is risky. You can choke on a hot dog, be poisoned by a pizza or die slowly from years of eating too much. Clearly, businesses that sell food are suspect. And what could be more suspicious than an outlet that sells food - and then drives away before its customers expire? It's small wonder that so many American cities frown on food trucks."
+    },
+    {
+      "number": 12,
+      "label": "Paragraph 12",
+      "text": "Miami makes it extremely hard for them to operate, as do Baltimore and Chicago. Rochester, Pittsburgh and San Diego are nearly as stern. In New York City, a cap on the number of food-truck licences available has created a black market, pushing up prices into the thousands of dollars."
+    },
+    {
+      "number": 13,
+      "label": "Paragraph 13",
+      "text": "How bad can food trucks be? Your intrepid correspondent sampled injera with tilapia from one serving Ethiopian nosh in Washington, DC. As The Economist went to press, it had not yet killed her. Perhaps this is unsurprising: food trucks are typically required to cook their food in inspected commercial kitchens."
+    },
+    {
+      "number": 14,
       "label": "Paragraph 14",
       "text": "Nonetheless, they stir up fury. Local restaurants complain that they steal customers and pay no rent. Officials worry that their garishness will lower the local tone. Many think they are just filthy (\"roach coaches\" is the sneer)."
     },
     {
-      "number": 9,
+      "number": 15,
       "label": "Paragraph 15",
-      "text": "After years of legal wrangling, Alexandria's city council in Virginia has at last decided to allow food trucks in parks and parking lots. Not in the streets, mind. The experiment starts in July, and the typically mean-spirited conditions are there to protect the immobile restaurant"
+      "text": "After years of legal wrangling, Alexandria's city council in Virginia has at last decided to allow food trucks in parks and parking lots. Not in the streets, mind. The experiment starts in July, and the typically mean-spirited conditions are there to protect the immobile restaurant trade."
     },
     {
-      "number": 10,
+      "number": 16,
       "label": "Paragraph 16",
-      "text": "Such rules are misguided. Not only is street vending an important step for aspiring entrepreneurs, but food trucks have enlivened the gastronomic scene and generated new business-and local taxes-wherever they have been allowed to roam. Chow down on that. 2 The Economist is a news magazine which covers current affairs, politics, business and the global economy."
+      "text": "Such rules are misguided. Not only is street vending an important step for aspiring entrepreneurs, but food trucks have enlivened the gastronomic scene and generated new business - and local taxes - wherever they have been allowed to roam. Chow down on that."
     }
   ],
   "instructions": {
@@ -684,5 +716,9 @@
       "marks": 3
     }
   ],
-  "questionRevision": "20260904-full-question-audit-1"
+  "questionRevision": "20260904-full-question-audit-1",
+  "passageNotes": [
+    "1. Forbes is a business magazine featuring articles on finance, investing and successful companies.",
+    "2. The Economist is a news magazine which covers current affairs, politics, business and the global economy."
+  ]
 }

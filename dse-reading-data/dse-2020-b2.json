@@ -9,7 +9,7 @@
     {
       "number": 1,
       "label": "Paragraph 1",
-      "text": "Graham Norton: \"The letters I can never forget\" As the Telegraph newspaper's longstanding agony uncle, he has heard it all over the last decade. Comedian and chat show host Graham Norton reveals why his personal brand of tough love often proves"
+      "text": "As the Telegraph newspaper's longstanding agony uncle, he has heard it all over the last decade. Comedian and chat show host Graham Norton reveals why his personal brand of tough love often proves effective."
     },
     {
       "number": 2,
@@ -39,12 +39,12 @@
     {
       "number": 7,
       "label": "Paragraph 7",
-      "text": "Because there are 'problems' and there are problems. And then, I've discovered, there are problematic problems. Sometimes, where it's clear that my correspondent is so low or so grief-stricken by bereavement they could be suffering from clinical depression, I see my role simply not to make it any worse and gently refer them on to an expert who can give them what they need"
+      "text": "Because there are 'problems' and there are problems. And then, I've discovered, there are problematic problems. Sometimes, where it's clear that my correspondent is so low or so grief-stricken by bereavement they could be suffering from clinical depression, I see my role simply not to make it any worse and gently refer them on to an expert who can give them what they need."
     },
     {
       "number": 8,
       "label": "Paragraph 8",
-      "text": "Then there are letters like the one when a librarian from Manchester says, \"I am going to marry a young Italian farmer half my age and my friends all think I'm crazy,\" and I think to myself well, they are right, probably - but not definitely, because, who knows, hers could be the one young Italian farmer scenario that ends happily ever after. •So all I can do is point her in the direction of the potential pitfalls and wish her luck."
+      "text": "Then there are letters like the one when a librarian from Manchester says, \"I am going to marry a young Italian farmer half my age and my friends all think I'm crazy,\" and I think to myself well, they are right, probably - but not definitely, because, who knows, hers could be the one young Italian farmer scenario that ends happily ever after. So all I can do is point her in the direction of the potential pitfalls and wish her luck."
     },
     {
       "number": 9,
@@ -79,21 +79,21 @@
     {
       "number": 15,
       "label": "Paragraph 15",
-      "text": "As for the rest of you, go on, out of the clinic with you. You might be wounded, but you're walking, so pack up your troubles in your old kit bag and smile, smile, smile. Chuckle at adversity, wink at disaster, laugh at your problems. God knows everybody else does. Serious to silly, two letters from my postbag Dear Graham,"
+      "text": "As for the rest of you, go on, out of the clinic with you. You might be wounded, but you're walking, so pack up your troubles in your old kit bag and smile, smile, smile. Chuckle at adversity, wink at disaster, laugh at your problems. God knows everybody else does."
     },
     {
       "number": 16,
-      "label": "Paragraph 16",
+      "label": "Serious to silly, two letters from my postbag - Dear Graham - Paragraph 16",
       "text": "I'm an American getting ready to take up a job offer in Sweden. I'm 19 and have no idea what I want to do with my life long-term, but I still have an idea in my head that if things don't work out with this move I'll have failed in some way. I'm going all in for it, however, because it's a chance that doesn't come around a whole lot."
     },
     {
       "number": 17,
       "label": "Paragraph 17",
-      "text": "Still, I've never been away from home for this long before and I'm terrified. I know this is the right move for me. But I love my family and I don't want to leave them behind. I have friends in Europe but it's a pretty big place. What advice can you give me? David, Illinois, USA Dear David,"
+      "text": "Still, I've never been away from home for this long before and I'm terrified. I know this is the right move for me. But I love my family and I don't want to leave them behind. I have friends in Europe but it's a pretty big place. What advice can you give me? David, Illinois, USA"
     },
     {
       "number": 18,
-      "label": "Paragraph 18",
+      "label": "Dear David - Paragraph 18",
       "text": "You have a ticket to Sweden in your hand. You aren't embarking on the first manned mission to Mars. So take some deep breaths and calm down. Obviously things will be very different when you get to Sweden; but that is why you are going."
     },
     {
@@ -104,7 +104,7 @@
     {
       "number": 20,
       "label": "Paragraph 20",
-      "text": "The most important thing to remember is that you are 19 and no decisions you make now are forever. Come to Europe and explore all it has to offer, knowing that you could still return to the States and build a whole life and career there. You are a very lucky young man. You have opportunities and time, two things that most people long"
+      "text": "The most important thing to remember is that you are 19 and no decisions you make now are forever. Come to Europe and explore all it has to offer, knowing that you could still return to the States and build a whole life and career there. You are a very lucky young man. You have opportunities and time, two things that most people long for."
     },
     {
       "number": 21,
@@ -114,11 +114,16 @@
     {
       "number": 22,
       "label": "Paragraph 22",
-      "text": "This is an exciting time for you, full of anticipation, but also trepidation. Feeling fear doesn't mean that you aren't brave. Doing something that frightens you is the very definition of courage. Go and embrace the differences. There may be ketchup on the table - but don't forget to try the lingonberry jam! Dear Graham, 23| The past 40-odd years have for me been an often fruitless search for a barber who can do a good job on my challenging hair. Now I have found one with whom I am perfectly satisfied, but while he cuts my hair, he continually picks his nose. I would appreciate your advice. P Smith, Bracknell, UK Dear P,"
+      "text": "This is an exciting time for you, full of anticipation, but also trepidation. Feeling fear doesn't mean that you aren't brave. Doing something that frightens you is the very definition of courage. Go and embrace the differences. There may be ketchup on the table - but don't forget to try the lingonberry jam!"
     },
     {
+      "text": "The past 40-odd years have for me been an often fruitless search for a barber who can do a good job on my challenging hair. Now I have found one with whom I am perfectly satisfied, but while he cuts my hair, he continually picks his nose. I would appreciate your advice. P Smith, Bracknell, UK",
       "number": 23,
-      "label": "Paragraph 24",
+      "label": "Dear Graham - Paragraph 23"
+    },
+    {
+      "number": 24,
+      "label": "Dear P - Paragraph 24",
       "text": "What comes out of the top of your head? Steel wool? But you aren't driving a car or operating heavy machinery, so next time, why not do this thing I've discovered when confronted with something I don't want to see - shut your eyes! A longer fringe may also help."
     }
   ],

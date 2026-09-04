@@ -2,14 +2,14 @@
   "id": "dse-2018-a",
   "year": 2018,
   "section": "A",
-  "title": "Music Teachers & I Won't Be a Musician",
+  "title": "Music Teachers & Listening to Music While Working",
   "sourceLabel": "HKDSE 2018 English Language Paper 1 Part A",
-  "sourceHeading": "Music Teachers & I Won't Be a Musician",
+  "sourceHeading": "Music Teachers & Listening to Music While Working",
   "paragraphs": [
     {
       "number": 1,
-      "label": "Paragraph 1",
-      "text": "Read Texts 1-2 and answer questions 1-22 in the Question-Answer Book for Part A. Classified Ad 1 Are you looking for an experienced and patient piano teacher? I am an experienced pianist with professional training in piano performance and music theory. Have been teaching piano for over 25 years. Love teaching students from kindergarteners to those who have retired. Able to speak English / Mandarin / Cantonese / Korean. If interested, please call 2121 3456 for a complimentary lesson. Classified Ad 2 Advanced level guitar tuition in your home I am a performing musician with over 15 years' experience in tutoring. Past students attended top music academies, have successful recording contracts, or work as musicians. I teach lessons for learners at intermediate level or higher. Classified Ad 3 I can coach you for all levels of drum exams from beginner to expert New teacher qualified in UK. Conveniently located in Wan Chai. Build confidence and develop awareness of the drummer's role in a band. Call 2134 5678 to get a 30-minute trial lesson for $150. 'I won't be able to focus if you turn my music off,' a gazillion teenagers have whined at their parents. Is it possible that they're right? Many people listen to music while they're carrying out a task, whether they're studying for an exam, driving a vehicle or even reading a book. Many of these people argue that background music helps them focus.",
+      "label": "Text 1 - Classified Ads; Text 2 - Introduction and Paragraph 1",
+      "text": "Classified Ad 1 Are you looking for an experienced and patient piano teacher? I am an experienced pianist with professional training in piano performance and music theory. Have been teaching piano for over 25 years. Love teaching students from kindergarteners to those who have retired. Able to speak English / Mandarin / Cantonese / Korean. If interested, please call 2121 3456 for a complimentary lesson. Classified Ad 2 Advanced level guitar tuition in your home I am a performing musician with over 15 years' experience in tutoring. Past students attended top music academies, have successful recording contracts, or work as musicians. I teach lessons for learners at intermediate level or higher. Classified Ad 3 I can coach you for all levels of drum exams from beginner to expert New teacher qualified in UK. Conveniently located in Wan Chai. Build confidence and develop awareness of the drummer's role in a band. Call 2134 5678 to get a 30-minute trial lesson for $150. 'I won't be able to focus if you turn my music off,' a gazillion teenagers have whined at their parents. Is it possible that they're right? Many people listen to music while they're carrying out a task, whether they're studying for an exam, driving a vehicle or even reading a book. Many of these people argue that background music helps them focus.",
       "images": [
         {
           "src": "assets/reading-comprehension/dse/content/2018/a/passage-1-visual-1.webp",
@@ -20,11 +20,11 @@
     {
       "number": 2,
       "label": "Paragraph 2",
-      "text": "When you think about it, that doesn't make much sense. Why would having two things to concentrate on make you more focused, not less? Some people even go so far as to say that not having music on is more distracting. Paying attention"
+      "text": "When you think about it, that doesn't make much sense. Why would having two things to concentrate on make you more focused, not less? Some people even go so far as to say that not having music on is more distracting."
     },
     {
       "number": 3,
-      "label": "Paragraph 3",
+      "label": "Paying attention - Paragraph 3",
       "text": "Why would music help us concentrate? One argument is to do with attention. For all its amazing abilities, the brain hasn't really evolved to take in abstract information or spend prolonged periods thinking about one thing. We seem to have two attention systems: a conscious one that enables us to direct our focus towards things we know we want to concentrate on and an unconscious one that shifts attention towards anything our senses pick up that might be significant. The unconscious one is simpler, more fundamental, and linked to emotional processing rather than higher reasoning. It also operates faster. So when you hear a noise when you're alone at home, you're paying attention to it long before you consciously notice it and start to work out what it might have been. You can't help it.."
     },
     {
@@ -35,16 +35,16 @@
     {
       "number": 5,
       "label": "Paragraph 5",
-      "text": "what we're doing is unpleasant or dull - so you're already having to force your attention to stay fixed on it - the unconscious attention system is even more potent. This means that a distraction doesn't need to be as stimulating to divert your attention to something else. Have you ever been working on a very important task in the library only to be driven slowly mad by someone constantly whispering, sniffing, or tapping their pen? Something quite innocuous suddenly becomes much more infuriating when you're trying to work on a task your brain doesn't necessarily enjoy."
+      "text": "Have you ever been working on a very important task in the library only to be driven slowly mad by someone constantly whispering, sniffing, or tapping their pen? Something quite innocuous suddenly becomes much more infuriating when you're trying to work on a task your brain doesn't necessarily enjoy."
     },
     {
       "number": 6,
       "label": "Paragraph 6",
-      "text": "Music is a very useful tool in such situations. It provides non-invasive noise and pleasurable feelings to effectively neutralise the unconscious attention system's ability to distract us. However, it's not just a matter of providing any old background noise to keep distractions at bay. Type of music"
+      "text": "Music is a very useful tool in such situations. It provides non-invasive noise and pleasurable feelings to effectively neutralise the unconscious attention system's ability to distract us. However, it's not just a matter of providing any old background noise to keep distractions at bay."
     },
     {
       "number": 7,
-      "label": "Paragraph 7",
+      "label": "Type of music - Paragraph 7",
       "text": "It seems clear that the type of noise, or music, is important. This may seem obvious: someone listening to classical music while they work wouldn't seem at all unusual, but if they were listening to heavy metal it would be thought very strange indeed."
     },
     {
@@ -55,11 +55,11 @@
     {
       "number": 9,
       "label": "Paragraph 9",
-      "text": "Music also has a big impact on mood - truly bleak music could sap your enthusiasm for your task. Something else to look out for is music with catchy lyrics. Musical pieces without words might be better working companions, as human speech and vocalisation is something our brains pay particular attention to. Video game soundtracks"
+      "text": "Music also has a big impact on mood - truly bleak music could sap your enthusiasm for your task. Something else to look out for is music with catchy lyrics. Musical pieces without words might be better working companions, as human speech and vocalisation is something our brains pay particular attention to."
     },
     {
       "number": 10,
-      "label": "Paragraph 10",
+      "label": "Video game soundtracks - Paragraph 10",
       "text": "Some people argue that one of the best music genres for concentration is the video game soundtrack. This makes sense, when you consider the purpose of video game music: to help create an immersive environment and to facilitate but not distract from a task that requires constant attention and focus."
     },
     {
@@ -74,7 +74,7 @@
     },
     {
       "number": 13,
-      "label": "Paragraph 13",
+      "label": "Paragraph 13 and Comments",
       "text": "So after knowing all this, how do you stop yourself getting distracted by noises around you? Perhaps it won't be a bad idea to keep your headphones and your favourite music close to hand. Laura 20 Aug 2017 17:56 I find it impossible to work with any music playing at all. I like music too much not to pay attention to it, whatever its quality and whatever I'm doing. Sandy 20 Aug 2017 15:11 Are you kidding? Am I alone in wanting peace and quiet... no sounds apart from the rain or wind. John 19 Aug 2017 22:34 All my life no one could understand how I was able to study and get good grades by listening to heavy metal music. I can't study without my brain being blasted by my tunes. Thank you for the article. I don't feel weird anymore. Leo 19 Aug 2017 20:06 Who knows? I can usually focus on my homework with music playing but I can't revise like that."
     }
   ],

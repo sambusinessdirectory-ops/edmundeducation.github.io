@@ -8,8 +8,8 @@
   "paragraphs": [
     {
       "number": 1,
-      "label": "Paragraph 1",
-      "text": "Read Texts 3-4 and answer questions 23-45 in the Question-Answer Book for Part B1. A Guide to Bee Stings Have you ever been stung by a bee? Don't panic! Here's what to do. Bees are known for their role in producing honey and pollinating flowers to produce fruit. They can however become a threat to people when they build their hives near or inside homes. Bees are considered less dangerous than other stinging insects like wasps. In Hong Kong, honey bees and carpenter bees seldom sting unless they are provoked. However, there are aggressive species such as the Africanised honey bees that will sting humans. Fortunately they haven't been spotted in Hong Kong yet. Insect Stings and Insect Bites",
+      "label": "Text 3 - A Guide to Bee Stings - Paragraph 1",
+      "text": "A Guide to Bee Stings Have you ever been stung by a bee? Don't panic! Here's what to do. Bees are known for their role in producing honey and pollinating flowers to produce fruit. They can however become a threat to people when they build their hives near or inside homes. Bees are considered less dangerous than other stinging insects like wasps. In Hong Kong, honey bees and carpenter bees seldom sting unless they are provoked. However, there are aggressive species such as the Africanised honey bees that will sting humans. Fortunately they haven't been spotted in Hong Kong yet.",
       "images": [
         {
           "src": "assets/reading-comprehension/dse/content/2018/b1/passage-1-visual-1.webp",
@@ -19,7 +19,7 @@
     },
     {
       "number": 2,
-      "label": "Paragraph 2",
+      "label": "Insect Stings and Insect Bites - Paragraph 2",
       "text": "Insect stings should not be confused with insect bites."
     },
     {
@@ -30,17 +30,17 @@
     {
       "number": 4,
       "label": "Paragraph 4",
-      "text": "While some insects sting as a form of defence, some bite to draw blood. To give such insects time to feed, insect bites have evolved so that the pain is not as sharp as a sting and is usually felt only minutes later. Insect Stings"
+      "text": "While some insects sting as a form of defence, some bite to draw blood. To give such insects time to feed, insect bites have evolved so that the pain is not as sharp as a sting and is usually felt only minutes later."
     },
     {
       "number": 5,
-      "label": "Paragraph 5",
+      "label": "Insect Stings - Paragraph 5",
       "text": "The most common insects that sting are wasps (including hornets) and bees. Wasps are the most aggressive and may sting with little provocation."
     },
     {
       "number": 6,
-      "label": "Paragraph 6",
-      "text": "Bees are much less likely to sting, most commonly stinging when they are stood or sat on. The key sign of a bee sting is that the bee leaves its stinger lodged inside the skin and a venomous sac will continue to pump poison for more than a minute. In contrast, the only sign of a wasp sting is likely to be a small puncture hole in the skin. 17] If one is stung by a wasp or bee, the area around the sting will quickly redden and swell. The swelling will reduce after a few hours, but it may remain itchy for more than a day. Treatments for Stings",
+      "label": "Paragraphs 6-7",
+      "text": "Bees are much less likely to sting, most commonly stinging when they are stood or sat on. The key sign of a bee sting is that the bee leaves its stinger lodged inside the skin and a venomous sac will continue to pump poison for more than a minute. In contrast, the only sign of a wasp sting is likely to be a small puncture hole in the skin. 17] If one is stung by a wasp or bee, the area around the sting will quickly redden and swell. The swelling will reduce after a few hours, but it may remain itchy for more than a day.",
       "images": [
         {
           "src": "assets/reading-comprehension/dse/content/2018/b1/passage-1-visual-2.webp",
@@ -50,13 +50,13 @@
     },
     {
       "number": 7,
-      "label": "Paragraph 8",
+      "label": "Treatments for Stings - Paragraph 8",
       "text": "Some people are much more sensitive to insect stings than others, and young children tend to be particularly sensitive. There are practical steps that can be taken."
     },
     {
       "number": 8,
-      "label": "Paragraph 9",
-      "text": "If stung by a bee, the pain will be reduced significantly if the stinger is removed promptly. This should be done carefully using sharp fingernails, tweezers or a knife - take great care not to squeeze the sting sac as this will inject more poison into the wound. 10] To clean the wound, wash it with soap and water and then reduce swelling by bathing in cold water or b overing it with a cold compress such as ice in a cloth (but never hold ice directly on the skin"
+      "label": "Paragraphs 9-10",
+      "text": "If stung by a bee, the pain will be reduced significantly if the stinger is removed promptly. This should be done carefully using sharp fingernails, tweezers or a knife - take great care not to squeeze the sting sac as this will inject more poison into the wound. 10] To clean the wound, wash it with soap and water and then reduce swelling by bathing in cold water or by covering it with a cold compress such as ice in a cloth (but never hold ice directly on the skin)."
     },
     {
       "number": 9,
@@ -66,11 +66,11 @@
     {
       "number": 10,
       "label": "Paragraph 12",
-      "text": "Calamine lotion can also be applied to cool the wound and ease the itch. If the itching is severe, consult your pharmacist about steroid creams. Allergies to Insect Stings"
+      "text": "Calamine lotion can also be applied to cool the wound and ease the itch. If the itching is severe, consult your pharmacist about steroid creams."
     },
     {
       "number": 11,
-      "label": "Paragraph 13",
+      "label": "Allergies to Insect Stings - Paragraph 13",
       "text": "Bee stings have the potential for an allergic reaction, resulting in anaphylactic shock, a serious medical condition that requires immediate medical assistance and can even cause death."
     },
     {
@@ -81,12 +81,12 @@
     {
       "number": 13,
       "label": "Paragraph 15",
-      "text": "Call an ambulance immediately if someone has a severe reaction to an insect sting. Hong Kong's First Urban Beekeeper Keeping local traditions alive Michael Leung inspects a frame of Rooftop beehives set up by HK Honey, bees — notice, no protective clothing! a key feature of urban beekeeping. Don't try this at home!"
+      "text": "Call an ambulance immediately if someone has a severe reaction to an insect sting."
     },
     {
       "number": 14,
-      "label": "Paragraph 1",
-      "text": "Hong Kong's First Urban Beekeeper Keeping local traditions alive Michael Leung inspects a frame of Rooftop beehives set up by HK Honey, bees — notice, no protective clothing! a key feature of urban beekeeping. Don't try this at home! On the rooftops of Hong Kong amongst the high-rise apartments, a local product designer, Michael Leung, has created his own space and is bringing nature back into the city, one beehive at a time.",
+      "label": "Text 4 - Introduction and Paragraph 1",
+      "text": "Hong Kong's First Urban Beekeeper Keeping local traditions alive Michael Leung inspects a frame of bees - notice, no protective clothing! Don't try this at home! Rooftop beehives set up by HK Honey, a key feature of urban beekeeping. On the rooftops of Hong Kong amongst the high-rise apartments, a local product designer, Michael Leung, has created his own space and is bringing nature back into the city, one beehive at a time.",
       "images": [
         {
           "src": "assets/reading-comprehension/dse/content/2018/b1/passage-2-visual-1.webp",
@@ -100,37 +100,37 @@
     },
     {
       "number": 15,
-      "label": "Paragraph 2",
+      "label": "Text 4 - Paragraph 2",
       "text": "Michael Leung is the founder and creative director of HK Honey, an organisation that links local beekeepers with city dwellers by providing locally produced honey products. But the organisation's ultimate goal is to help sustain bee populations, which have been declining, while raising awareness by keeping a vital relationship between people and bees alive."
     },
     {
       "number": 16,
-      "label": "Paragraph 3",
+      "label": "Text 4 - Paragraph 3",
       "text": "According to the HK Honey website, Leung is Hong Kong's first urban beekeeper, although beekeeping has been around in the outlying areas of Hong Kong for some time. In fact, Leung was trained by Mr. Yip, who has had a bee-farming operation in Shatin since the 1980's."
     },
     {
       "number": 17,
-      "label": "Paragraph 4",
+      "label": "Text 4 - Paragraph 4",
       "text": "After they met in early 2010, an enthusiastic Leung had HK Honey up and running by that summer. Now it's uniting Hong Kong urban beekeepers from all walks of life. It links a network of local bee farms and offers workshops, organises tours on urban beekeeping and makes honey products. Its online shop also offers handmade products such as the usual candles and bottled honey, but honey cakes made from local ingredients are only available during their workshops."
     },
     {
       "number": 18,
-      "label": "Paragraph 5",
+      "label": "Text 4 - Paragraph 5",
       "text": "Of course, it's interesting to know that there are slight differences between the western and Chinese ways of beekeeping, not to mention behavioural variances between Chinese and western bees."
     },
     {
       "number": 19,
-      "label": "Paragraph 6",
+      "label": "Text 4 - Paragraph 6",
       "text": "There is a wide range of bee species kept by beekeepers in China, unlike in the west where commercial beekeepers usually rely on a single species. In contrast to the west, the Chinese approach to beekeeping uses no protective clothing - no gloves and no head nets. 'This gives us a closer connection to the bees. When we work with them, we make sure we move very slowly and try not to disturb them too much. Leung says."
     },
     {
       "number": 20,
-      "label": "Paragraph 7",
+      "label": "Text 4 - Paragraph 7",
       "text": "Hong Kong is an incredibly dense high-rise city. Leung wasn't 100% sure if bees could sustain themselves in Hong Kong's urban environment. Surprisingly and fortunately they did sustain themselves in the city, and continue to amaze him with each new location that he sets up a beehive in. The honey in Hong Kong is an eclectic mix of wild and seasonal flowers. But when we taste it, we also taste all the hard work that has gone into producing it. The honey is priceless and a real treat to harvest and eat."
     },
     {
       "number": 21,
-      "label": "Paragraph 8",
+      "label": "Text 4 - Paragraph 8",
       "text": "Leung is a driven individual and is also channelling his energies into similar projects. He has established HK Farm, collaborating with communities and organisations within the city to grow food on the rooftops of Hong Kong."
     }
   ],

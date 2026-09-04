@@ -4,50 +4,65 @@
   "section": "B2",
   "title": "Ethical Concerns Mount as AI Takes a Bigger Role",
   "sourceLabel": "HKDSE 2022 English Language Paper 1 Part B2",
-  "sourceHeading": "Ethical Concerns Mount as AI Takes a Bigger Role",
+  "sourceHeading": "Ethical concerns mount as AI takes bigger decision-making role in more industries",
   "paragraphs": [
     {
       "number": 1,
       "label": "Paragraph 1",
-      "text": "snorti Ethical concerns mount as AI takes bigger decision-making role in more industries For decades, artificial intelligence, or Al, has been the engine of high-level STEM research. Most consumers became aware of the technology's power and potential through internet platforms like Google and Facebook, ano retailer Amazon. Today, Al is essential across a vast array of industries, including health care, banking, retail, anc"
+      "text": "For decades, artificial intelligence, or AI, has been the engine of high-level STEM research. Most consumers became aware of the technology's power and potential through internet platforms like Google and Facebook, and retailer Amazon. Today, AI is essential across a vast array of industries, including health care, banking, retail, and manufacturing."
     },
     {
       "number": 2,
       "label": "Paragraph 2",
-      "text": "But its game-changing promise to do things like improve efficiency, bring down costs, and accelerate research and development has been tempered of late with worries that these complex systems may do more societal harm than economic good. With virtually no government regulations, private companies use Al software to make determinations about health and medicine, employment and creditworthiness without having to answer for how they are ensuring that their programmes are not encoded with structural biases. [31 Joseph Euller/ professor of management practice, explains that in employment, Al software sorts and processes resumes and analyses job interviewees' voice and facial expressions. The result is the growth of what's known as 'hybrid' jobs. Rather than replacing employees, Al takes on important technical tasks of their work, freeing workers to focus on other responsibilities, making them more productive and therefore more valuable to employers."
+      "text": "But its game-changing promise to do things like improve efficiency, bring down costs, and accelerate research and development has been tempered of late with worries that these complex systems may do more societal harm than economic good. With virtually no government regulations, private companies use AI software to make determinations about health and medicine, employment and creditworthiness without having to answer for how they are ensuring that their programmes are not encoded with structural biases."
     },
     {
+      "text": "Joseph Fuller, professor of management practice, explains that in employment, AI software sorts and processes resumes and analyses job interviewees' voice and facial expressions. The result is the growth of what's known as 'hybrid' jobs. Rather than replacing employees, AI takes on important technical tasks of their work, freeing workers to focus on other responsibilities, making them more productive and therefore more valuable to employers.",
       "number": 3,
-      "label": "Paragraph 4",
-      "text": "While Big Business already has a huge head start, small businesses could also potentially be transformed by the implementation of AI, says Karen Mills, who ran the U.S. Small Business Administration from 2009 to 2013. This could have major implications for the national economy over the long haul as most people in the U.S. are employed by small businesses. Rather than hampering small businesses, the technology could give their owners detailed new insights into sales trends, cash flow, inventory, ordering, and other financial information in real time. This will help them understand how the business is doing and where problem areas might loom without having to hire any other experts in finance, accounting, or human resources. The owner doesn't need to become a financial expert, or spend hours labouring over the books every week, Mills said What are the ethical concerns of using Al in decision-making? (51 Michael Sandel, professor of political philosophy, states that the widespread use of Al presents ethical concerns for society: privacy, discrimination, and perhaps the deepest, most difficult philosophical question of the era, the role of human judgement. \"Debates about privacy safeguards and about how to overcome bias in algorithmic decision-making in employment practices are by now familiar,\" said Sandel, referring to intentional and unintentional prejudices of programme developers and those built into datasets used to train the software. \"But we've not yet wrapped our minds around the hardest question: Can smart machines out-think us, or are certain elements of human judgement indispensable in deciding some of the most important things in life?\""
+      "label": "Paragraph 3"
     },
     {
       "number": 4,
-      "label": "Paragraph 6",
-      "text": "Panic over Al suddenly injecting bias into everyday life en masse is overstated, says Fuller First, the business world and the workplace, rife with human decision-making, have always been riddled with \"all sorts' of biases that prevent people from making deals or landing contracts and jobs. \"When calibrated carefully and deployed thoughtfully, resume-screening software allows a wider pool of applicants to be considered than could be done otherwise, and should minimise the potential for favouritism that comes with human gatekeepers,\" Fuller said. Sandel disagrees. \"Al not only replicates human biases, it confers on these biases a kind of scientific credibility. It makes it seem that these predictions and judgments have an objective status,\" he said."
+      "label": "Paragraph 4",
+      "text": "While Big Business already has a huge head start, small businesses could also potentially be transformed by the implementation of AI, says Karen Mills, who ran the U.S. Small Business Administration from 2009 to 2013. This could have major implications for the national economy over the long haul as most people in the U.S. are employed by small businesses. Rather than hampering small businesses, the technology could give their owners detailed new insights into sales trends, cash flow, inventory, ordering, and other financial information in real time. This will help them understand how the business is doing and where problem areas might loom without having to hire any other experts in finance, accounting, or human resources. The owner doesn't need to become a financial expert, or spend hours labouring over the books every week, Mills said."
     },
     {
+      "text": "Michael Sandel, professor of political philosophy, states that the widespread use of AI presents ethical concerns for society: privacy, discrimination, and perhaps the deepest, most difficult philosophical question of the era, the role of human judgement. \"Debates about privacy safeguards and about how to overcome bias in algorithmic decision-making in employment practices are by now familiar,\" said Sandel, referring to intentional and unintentional prejudices of programme developers and those built into datasets used to train the software. \"But we've not yet wrapped our minds around the hardest question: Can smart machines out-think us, or are certain elements of human judgement indispensable in deciding some of the most important things in life?\"",
       "number": 5,
-      "label": "Paragraph 7",
-      "text": "\"In the world of lending, algorithm-driven decisions do have a potential dark side,\" Mills said. As machines learn from the data sets they're fed, chances are 'pretty high' they may replicate many of the banking industry's past failings that resulted in discrimination against minority groups. \"If we are not thoughtful and careful, we are going to end up with redlining again,\" she said. \"A highly regulated industry, banks are legally on the hook if the algorithms they use to evaluate loan applications end up inappropriately discriminating against classes of consumers, so those \"at the top levels' in the field are 'very focused' right now on this issue,\" said Mills, who closely studies the rapid changes in financial technology, or 'fintech'. • \"They really don't want to discriminate. They want to give access to capital to the most creditworthy borrowers,\" she said. \"That's good business for them, How much government regulation is needed?"
+      "label": "What are the ethical concerns of using AI in decision-making? - Paragraph 5"
     },
     {
       "number": 6,
-      "label": "Paragraph 8",
-      "text": "How much government regulation is needed? Given its power and expected ubiquity, some argue that the use of Al should be tightly regulated. But there's little consensus on how that should be done and who should make the rules. Thus far, companies that develop or use Al systems largely self-police, relying on existing laws and market forces, like negative reactions from consumers and shareholders as well as the demands of the highly-prized Al technical talents to keep them in line. 19] \"There's no businessperson on the planet at an enterprise of any size who isn't concerned about this and trying to reflect on what's going to be politically, legally, regulatorily, or ethically acceptable,\" said Fuller. \"Firms already consider their own potential liability from misuse before a product launch, but it's not realistic to expect companies to anticipate and prevent every possible unintended consequence of their products,\" he said."
+      "label": "Paragraph 6",
+      "text": "Panic over AI suddenly injecting bias into everyday life en masse is overstated, says Fuller. First, the business world and the workplace, rife with human decision-making, have always been riddled with \"all sorts' of biases that prevent people from making deals or landing contracts and jobs. \"When calibrated carefully and deployed thoughtfully, resume-screening software allows a wider pool of applicants to be considered than could be done otherwise, and should minimise the potential for favouritism that comes with human gatekeepers,\" Fuller said. Sandel disagrees. \"AI not only replicates human biases, it confers on these biases a kind of scientific credibility. It makes it seem that these predictions and judgments have an objective status,\" he said."
     },
     {
       "number": 7,
-      "label": "Paragraph 10",
-      "text": "Jason Furman, professor of the practice of economic policy, agrees that government regulators need \"a much transportation regulations could handle potential Al issues in autonomous vehicles rather than setting up another Al group in the existing government system,\" he said. Enforcing Al regulation within industries by industry-specific panels who are more knowledgeable about the overarching technology could make oversight of Al more thorough. \"I think governments should've started this long ago, but better late than never,\" said Furman, who thinks there needs to be a 'greater sense of urgency' to make governments act."
+      "label": "Paragraph 7",
+      "text": "\"In the world of lending, algorithm-driven decisions do have a potential dark side,\" Mills said. As machines learn from the data sets they're fed, chances are 'pretty high' they may replicate many of the banking industry's past failings that resulted in discrimination against minority groups. \"If we are not thoughtful and careful, we are going to end up with redlining again,\" she said. \"A highly regulated industry, banks are legally on the hook if the algorithms they use to evaluate loan applications end up inappropriately discriminating against classes of consumers, so those \"at the top levels' in the field are 'very focused' right now on this issue,\" said Mills, who closely studies the rapid changes in financial technology, or 'fintech'. \"They really don't want to discriminate. They want to give access to capital to the most creditworthy borrowers,\" she said. \"That's good business for them, too.\""
     },
     {
       "number": 8,
-      "label": "Paragraph 11",
-      "text": "\"Business leaders can't have it both ways, refusing responsibility for Al's harmful consequences while also fighting government oversight,\" Sandel maintains. \"The current situation is these big tech companies are neither self-regulating, nor subject to adequate government regulation. I think there needs to be more of both,\" he said, later adding: \"We can't assume that market forces by themselves will sort it out. That's a mistake, as we've seen with Facebook and other tech giants.\""
+      "label": "How much government regulation is needed? - Paragraph 8",
+      "text": "Given its power and expected ubiquity, some argue that the use of AI should be tightly regulated. But there's little consensus on how that should be done and who should make the rules. Thus far, companies that develop or use AI systems largely self-police, relying on existing laws and market forces, like negative reactions from consumers and shareholders as well as the demands of the highly-prized AI technical talents to keep them in line."
     },
     {
+      "text": "\"There's no businessperson on the planet at an enterprise of any size who isn't concerned about this and trying to reflect on what's going to be politically, legally, regulatorily, or ethically acceptable,\" said Fuller. \"Firms already consider their own potential liability from misuse before a product launch, but it's not realistic to expect companies to anticipate and prevent every possible unintended consequence of their products,\" he said.",
       "number": 9,
+      "label": "Paragraph 9"
+    },
+    {
+      "number": 10,
+      "label": "Paragraph 10",
+      "text": "Jason Furman, professor of the practice of economic policy, agrees that government regulators need \"a much better technical understanding of artificial intelligence to do that job well,\" but says they could do it. \"Existing transportation regulations could handle potential AI issues in autonomous vehicles rather than setting up another AI group in the existing government system,\" he said. Enforcing AI regulation within industries by industry-specific panels who are more knowledgeable about the overarching technology could make oversight of AI more thorough. \"I think governments should've started this long ago, but better late than never,\" said Furman, who thinks there needs to be a 'greater sense of urgency' to make governments act."
+    },
+    {
+      "number": 11,
+      "label": "Paragraph 11",
+      "text": "\"Business leaders can't have it both ways, refusing responsibility for AI's harmful consequences while also fighting government oversight,\" Sandel maintains. \"The current situation is these big tech companies are neither self-regulating, nor subject to adequate government regulation. I think there needs to be more of both,\" he said, later adding: \"We can't assume that market forces by themselves will sort it out. That's a mistake, as we've seen with Facebook and other tech giants.\""
+    },
+    {
+      "number": 12,
       "label": "Paragraph 12",
       "text": "\"Companies have to think seriously about the ethical dimensions of what they're doing and we, as US citizens, have to educate ourselves about tech and its social and ethical implications - not only to decide what the regulations should be, but also to decide what role we want big tech and social media to play in our lives,\" said Sandel. Doing that will require a major educational intervention in higher education. He said, \"we have to enable all students to learn enough about tech and about the ethical implications of new technologies so that when they are running companies or when they are acting as citizens, they will be able to ensure that technology serves human purposes rather than undermines a decent civic life.\""
     }

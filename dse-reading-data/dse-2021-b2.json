@@ -8,47 +8,57 @@
   "paragraphs": [
     {
       "number": 1,
-      "label": "Paragraph 1",
-      "text": "Read Texts 6-8 and answer questions 47-66 in the Question-Answer Book for Part B2. Title: 'One small step for man, one giant leap for mankind' On 20th July 1969, as he stepped out of the Apollo 11 lunar lander, Neil Armstrong uttered these immortal words and propelled the human race from Earth-bound beings to intrepid explorers of space. These words were the culmination of human dreams from the day our ancestors first gazed in fear and wonder at the heavens. They also signalled the beginning of a journey that has gone, in fits and starts, to find out all we can about our galaxy and our place in the universe. Armstrong, together with Buzz Aldrin and Mike Collins, made the improbable 400,000-kilometre journey to our nearest celestial neighbour in a tiny, cramped and fragile collection of metal and wiring. This trip was a modern-day miracle successfully completed after many long years of hard work. Title: [1l The National Aeronautics and Space Administration (NASA) has discovered hints of a warmer past on Mars, possibly, one in which water has flowed and life might have existed. With evidence showing that water exists in a frozen state on Mars, the human race could one day make Mars its second home. To do that, we would begin with altering the current climate and atmosphere to resemble that of Earth's. The process of transforming the Martian atmosphere to create a more habitable living environment is called terraforming."
+      "label": "Text 6 - Title: ______ - Paragraph 1",
+      "text": "'One small step for man, one giant leap for mankind' On 20th July 1969, as he stepped out of the Apollo 11 lunar lander, Neil Armstrong uttered these immortal words and propelled the human race from Earth-bound beings to intrepid explorers of space. These words were the culmination of human dreams from the day our ancestors first gazed in fear and wonder at the heavens. They also signalled the beginning of a journey that has gone, in fits and starts, to find out all we can about our galaxy and our place in the universe. Armstrong, together with Buzz Aldrin and Mike Collins, made the improbable 400,000-kilometre journey to our nearest celestial neighbour in a tiny, cramped and fragile collection of metal and wiring. This trip was a modern-day miracle successfully completed after many long years of hard work."
     },
     {
+      "text": "The National Aeronautics and Space Administration (NASA) has discovered hints of a warmer past on Mars, possibly, one in which water has flowed and life might have existed. With evidence showing that water exists in a frozen state on Mars, the human race could one day make Mars its second home. To do that, we would begin with altering the current climate and atmosphere to resemble that of Earth's. The process of transforming the Martian atmosphere to create a more habitable living environment is called terraforming.",
       "number": 2,
-      "label": "Paragraph 2",
-      "text": "Terraforming Mars would be a huge undertaking with the initial stages alone taking several centuries, and the whole process of terraforming needing several millennia to complete; a brief interval, considering that Earth needed billions of years to transform into a planet on which plants and animals could flourish. To transform the Martian landscape into one that resembles Earth would require unrelenting scientific ingenuity and enormous capital expenditure."
+      "label": "Text 7 - Title: ______ - Paragraph 1"
     },
     {
       "number": 3,
-      "label": "Paragraph 3",
-      "text": "Terraforming Mars would require three interrelated processes: building the atmosphere, increasing and maintaining temperature suitable for life, and preserving the atmosphere. The atmosphere of Mars is very thin, and temperatures there range from -113 °C to 0°C, and most of the carbon dioxide is trapped as ice at the poles. Considering these factors and challenges, physicists and engineers have been researching various terraforming methods, and encountered practical difficulties with each method investigated."
+      "label": "Text 7 - Paragraph 2",
+      "text": "Terraforming Mars would be a huge undertaking with the initial stages alone taking several centuries, and the whole process of terraforming needing several millennia to complete; a brief interval, considering that Earth needed billions of years to transform into a planet on which plants and animals could flourish. To transform the Martian landscape into one that resembles Earth would require unrelenting scientific ingenuity and enormous capital expenditure."
     },
     {
       "number": 4,
-      "label": "Paragraph 4",
-      "text": "One option for thickening the atmosphere of Mars and raising the temperature of the planet would be to set Title: [l] Recent research by NASA on terraforming Mars has sparked a debate among ethicists as to whether space exploration and terraforming other worlds are ethical endeavours. Human beings have been captivated by the possibility of planet hopping since the discovery of planets. Below is a short extract from a transcript of a debate between two professors, Annabelle Lee and Theodore Cheung, who are discussing this issue."
+      "label": "Text 7 - Paragraph 3",
+      "text": "Terraforming Mars would require three interrelated processes: building the atmosphere, increasing and maintaining temperature suitable for life, and preserving the atmosphere. The atmosphere of Mars is very thin, and temperatures there range from -113 °C to 0°C, and most of the carbon dioxide is trapped as ice at the poles. Considering these factors and challenges, physicists and engineers have been researching various terraforming methods, and encountered practical difficulties with each method investigated."
     },
     {
       "number": 5,
-      "label": "Paragraph 2",
-      "text": "Title: [l] Recent research by NASA on terraforming Mars has sparked a debate among ethicists as to whether space exploration and terraforming other worlds are ethical endeavours. Human beings have been captivated by the possibility of planet hopping since the discovery of planets. Below is a short extract from a transcript of a debate between two professors, Annabelle Lee and Theodore Cheung, who are discussing this issue. Prof. Lee: The ever-increasing scope of our space exploration efforts threatens the other planets in our solar system with biological contamination from Earth. If life is present on another world, the introduction of terrestrial life forms would be an ecological disaster as well as an immense loss to science. The possibility that life exists on other planets tells us that we cannot simply land on other planets because we want to satisfy our need for more land."
+      "label": "Text 7 - Paragraph 4",
+      "text": "One option for thickening the atmosphere of Mars and raising the temperature of the planet would be to set up solar-powered, greenhouse-gas producing machines. Their sole purpose would be to emit carbon dioxide and other greenhouse gases into the atmosphere. These greenhouse-gas machines would either have to be ferried to Mars or made out of materials already located on the planet. In order to transport these machines to Mars, they would have to be lightweight. As the atmosphere warms because of the greenhouse gases, a different type of greenhouse-gas machine would be needed to mimic the natural process of plant photosynthesis, absorbing carbon dioxide and emitting oxygen. Photosynthetic bacteria and algae could also be used alongside these greenhouse-gas machines. It would take millennia upon millennia but the Martian atmosphere could slowly be oxygenated to the point that Mars' inhabitants would need only a breathing-assistance apparatus, not a pressure suit as worn by astronauts."
     },
     {
       "number": 6,
-      "label": "Paragraph 3",
-      "text": "Prof. Cheung: I get your point but we have entered unspoiled environments before and those areas have benefitted from our intervention. The national parks service of the USA illustrates how we can create havens for nature, where we maintain the flora and fauna at levels that would not have happened if nature were left to her own devices. In response to your point that human exploration would alter natural conditions on other planets, I propose a planetary park system that would bar the landing of spacecraft in protected areas to prevent destruction of the environment."
+      "label": "Text 8 - Title: ______ - Paragraph 1",
+      "text": "Recent research by NASA on terraforming Mars has sparked a debate among ethicists as to whether space exploration and terraforming other worlds are ethical endeavours. Human beings have been captivated by the possibility of planet hopping since the discovery of planets. Below is a short extract from a transcript of a debate between two professors, Annabelle Lee and Theodore Cheung, who are discussing this issue."
     },
     {
+      "text": "Prof. Lee: The ever-increasing scope of our space exploration efforts threatens the other planets in our solar system with biological contamination from Earth. If life is present on another world, the introduction of terrestrial life forms would be an ecological disaster as well as an immense loss to science. The possibility that life exists on other planets tells us that we cannot simply land on other planets because we want to satisfy our need for more land.",
       "number": 7,
-      "label": "Paragraph 4",
-      "text": "Prof. Lee: You know that microorganisms can be spread across the planetary surface by dust storms, for example, so this approach would not protect non-park areas from human contamination. Although it may help safeguard the aesthetic qualities of some areas, a park system approach misses the larger question of whether it is ethically responsible to interfere with other planets. The discovery, exploration, and invasion of the Americas by Europeans led to dire consequences for the indigenous people of that 'New World'."
+      "label": "Text 8 - Paragraph 2"
     },
     {
       "number": 8,
-      "label": "Paragraph 5",
-      "text": "Prof. Cheung: I agree that the activities of human beings can damage the environment and cause other negative consequences, but these are exceptions. I do not subscribe to the idea that the natural world and other living creatures have intrinsic moral worth equal to human beings. It is our duty as human beings to make Earth a better place and that is something no other living organism can do. We need to continue the activities and processes not only to make our world livable and comfortable, but all other worlds around us too."
+      "label": "Text 8 - Paragraph 3",
+      "text": "Prof. Cheung: I get your point but we have entered unspoiled environments before and those areas have benefitted from our intervention. The national parks service of the USA illustrates how we can create havens for nature, where we maintain the flora and fauna at levels that would not have happened if nature were left to her own devices. In response to your point that human exploration would alter natural conditions on other planets, I propose a planetary park system that would bar the landing of spacecraft in protected areas to prevent destruction of the environment."
     },
     {
       "number": 9,
-      "label": "Paragraph 6",
+      "label": "Text 8 - Paragraph 4",
+      "text": "Prof. Lee: You know that microorganisms can be spread across the planetary surface by dust storms, for example, so this approach would not protect non-park areas from human contamination. Although it may help safeguard the aesthetic qualities of some areas, a park system approach misses the larger question of whether it is ethically responsible to interfere with other planets. The discovery, exploration, and invasion of the Americas by Europeans led to dire consequences for the indigenous people of that 'New World'."
+    },
+    {
+      "number": 10,
+      "label": "Text 8 - Paragraph 5",
+      "text": "Prof. Cheung: I agree that the activities of human beings can damage the environment and cause other negative consequences, but these are exceptions. I do not subscribe to the idea that the natural world and other living creatures have intrinsic moral worth equal to human beings. It is our duty as human beings to make Earth a better place and that is something no other living organism can do. We need to continue the activities and processes not only to make our world livable and comfortable, but all other worlds around us too."
+    },
+    {
+      "number": 11,
+      "label": "Text 8 - Paragraph 6",
       "text": "Prof. Lee: While we grapple with our ethical obligations to our fellow humans and the other creatures with whom we share the planet, it would be wise to consider the ethical obligations we have to other worlds. We must consider whether landing spacecraft on other planets is justified because they may carry with them the potential to destroy endemic ecosystems. Even if these ecosystems are composed of only microbial life, our ethical obligations must be taken seriously. Life independent of Earth deserves valuation equal to that of our world and those landscapes deserve to be spared from our meddling even if they are not home to any life."
     }
   ],

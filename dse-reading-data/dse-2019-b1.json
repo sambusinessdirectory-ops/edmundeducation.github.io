@@ -2,14 +2,14 @@
   "id": "dse-2019-b1",
   "year": 2019,
   "section": "B1",
-  "title": "Hong Kong Public Libraries & Growing Up",
+  "title": "Hong Kong Public Libraries & Promoting a Reading Culture",
   "sourceLabel": "HKDSE 2019 English Language Paper 1 Part B1",
-  "sourceHeading": "Hong Kong Public Libraries & Growing Up",
+  "sourceHeading": "Hong Kong Public Libraries & Promoting a Reading Culture",
   "paragraphs": [
     {
       "number": 1,
-      "label": "Paragraph 3",
-      "text": "Read Texts 2-4 and answer questions 19-41 in the Question-Answer Book for Part B1. HONG KONG PUBLIC LIBRARIES Explore Library Locate About Collections Activities Libraries HKPL Home > Library Activities Library Activities 11) Fun at Central Library - Orienteering Activity with 'Reading Journey' Passports Get your passport on the 1/F while stocks last. Follow the instructions to collect stamps at designated checkpoints around our wonderful Central Library. You can pick up a souvenir from the 4/F if you complete your reading journey. 12) Little Avid Readers Dear kids, if you love reading, please come into the wonderful library world. Local authors, librarians and teachers will read their favourite stories to you. Storytelling sessions at local libraries for children aged 6-10, every Friday. (Quota 25 children) My Pop-up Library Hong Kong Public Library's first 'Pop-up Library' will be at Leung Kung Ho School for one day only on April (Saturday) from 11 a.m. to 4 p.m. Bring your phone to experience a different kind of library service including taking a happy selfie, recommending favourite books on social media and doing online quizzes. Most regular library services are also available, so visitors can borrow books and apply for a public library card. All are welcome to enjoy the event. Keep Hong Kong libraries open until late night to halt worrying decline in 'culture of reading', advisor urges",
+      "label": "Text 2 - Library Activities - Paragraph 1",
+      "text": "HONG KONG PUBLIC LIBRARIES\nExplore Collections | Library Activities | Locate Libraries | About HKPL\nHome > Library Activities\n\nFun at Central Library - Orienteering Activity with 'Reading Journey' Passports\nGet your passport on the 1/F while stocks last. Follow the instructions to collect stamps at designated checkpoints around our wonderful Central Library. You can pick up a souvenir from the 4/F if you complete your reading journey.",
       "images": [
         {
           "src": "assets/reading-comprehension/dse/2019-b1-library-activities.webp",
@@ -20,58 +20,78 @@
     },
     {
       "number": 2,
-      "label": "Paragraph 1",
-      "text": "Connie Lau Yin-hing, from the Office of the were borrowed in recent years,' Kwong said. 'One Ombudsman, asked why the government had been 20 of those reasons is that we don't have a culture of spending extra money to buy a targeted 700,000 new night libraries, since opening hours are the same as items a year for public libraries, but had been many people's working hours' The committee throwing away as waste paper hundreds of Kwong sits on is tasked with formulating strategies thousands of old materials rather than donating them to develop library facilities and services. to charity or holding book sales. Lau also said the resources stocked by public libraries had increased 25 [3] Hong Kong Central Library in Causeway Bay per cent over the last eight years, but the number usually opens from 10am to 9pm, but most public libraries close at 7pm or 8pm, with some closing at of items the public borrowed dropped by more than per cent. 5pm on Saturday and Sunday. In comparison, most public libraries in Singapore close at 9pm, while"
+      "label": "Text 2 - Paragraph 2",
+      "text": "Little Avid Readers\nDear kids, if you love reading, please come into the wonderful library world. Local authors, librarians and teachers will read their favourite stories to you. Storytelling sessions at local libraries for children aged 6-10, every Friday. (Quota 25 children)"
     },
     {
       "number": 3,
-      "label": "Paragraph 2",
-      "text": "Speaking on a radio show on Wednesday, Roy 30 some 'intelligent libraries' - autonomous or Kwong Chun-yu, advisory committee member on unmanned facilities - in Taipei are open until Hong Kong Public Libraries, said those findings midnight. revealed a worrying decline in the city's 'culture of reading'. 'It saddened me to hear that hundreds of [4] 'Our public libraries should also be open until thousands of books were thrown away every year, 1lpm or midnight... so that residents can borrow or return a book or two after their day of work,' Kwong and I think there are many reasons why fewer books said. He also advised the Leisure and Cultural Services Department (LCSD), which runs the public libraries system, to organise more activities to help children realise that reading at libraries can be fun."
+      "label": "Text 2 - Paragraph 3",
+      "text": "My Pop-up Library\nHong Kong Public Library's first 'Pop-up Library' will be at Leung Kung Ho School for one day only on April 21 (Saturday) from 11 a.m. to 4 p.m. Bring your phone to experience a different kind of library service including taking a happy selfie, recommending favourite books on social media and doing online quizzes. Most regular library services are also available, so visitors can borrow books and apply for a public library card. All are welcome to enjoy the event."
     },
     {
       "number": 4,
-      "label": "Paragraph 5",
-      "text": "said. He also advised the Leisure and Cultural Services Department (LCSD), which runs the public libraries system, to organise more activities to help children realise that reading at libraries can be fun. Lau said the government had failed to explain clearly the rationale behind its annual buying target of 700,000 items, and Kwong agreed. \"It's unreasonable for libraries to follow a target set in the 1990s. The quality of procurement is more important than the quantity? LETTER TO THE EDITOR | For Hong Kong home [l] At first glance, the fact that Hong Kong has slipped to third place in an international reading literacy ranking may seem to be cause for concern ('Hong Kong slips to third place in reading literacy ranking, behind Russia and Singapore', December 6). But a more careful look at the results reveals that Hong Kong pupils are still among the best readers across the globe."
+      "label": "Text 3 - Keep Hong Kong libraries open until late night to halt worrying decline in 'culture of reading', advisor urges - Paragraph 1",
+      "text": "Connie Lau Yin-hing, from the Office of the Ombudsman, asked why the government had been spending extra money to buy a targeted 700,000 new items a year for public libraries, but had been throwing away as waste paper hundreds of thousands of old materials rather than donating them to charity or holding book sales. Lau also said the resources stocked by public libraries had increased 17 per cent over the last eight years, but the number of items the public borrowed dropped by more than 18 per cent."
     },
     {
       "number": 5,
-      "label": "Paragraph 2",
-      "text": "Undeniably, with the advancement of technology and easy internet access, reading has taken a back seat to online activities. Access to books at home, in school and in the community, coupled with capitalising on technology, can reignite the passion for reading among youngsters."
+      "label": "Text 3 - Paragraph 2",
+      "text": "Speaking on a radio show on Wednesday, Roy Kwong Chun-yu, advisory committee member on Hong Kong Public Libraries, said those findings revealed a worrying decline in the city's 'culture of reading'. 'It saddened me to hear that hundreds of thousands of books were thrown away every year, and I think there are many reasons why fewer books were borrowed in recent years,' Kwong said. 'One of those reasons is that we don't have a culture of night libraries, since opening hours are the same as many people's working hours.' The committee Kwong sits on is tasked with formulating strategies to develop library facilities and services."
     },
     {
       "number": 6,
-      "label": "Paragraph 3",
-      "text": "Parents may place books around the home, even in the bathroom. Bedtime reading with kids may seem like a luxury for busy parents, but doing so not only develops literacy levels, but also strengthens the parent-child bond. With books placed at their bedside, children can look forward to nightly adventures."
+      "label": "Text 3 - Paragraph 3",
+      "text": "Hong Kong Central Library in Causeway Bay usually opens from 10am to 9pm, but most public libraries close at 7pm or 8pm, with some closing at 5pm on Saturday and Sunday. In comparison, most public libraries in Singapore close at 9pm, while some 'intelligent libraries' - autonomous or unmanned facilities - in Taipei are open until midnight."
     },
     {
       "number": 7,
-      "label": "Paragraph 4",
-      "text": "At school, self-service 'street libraries' could be set up on different floors and around campus to make books more accessible to students. These libraries could be given unique, creative names so that students can recall their locations with greater"
+      "label": "Text 3 - Paragraph 4",
+      "text": "'Our public libraries should also be open until 11pm or midnight... so that residents can borrow or return a book or two after their day of work,' Kwong said. He also advised the Leisure and Cultural Services Department (LCSD), which runs the public libraries system, to organise more activities to help children realise that reading at libraries can be fun."
     },
     {
       "number": 8,
-      "label": "Paragraph 6",
-      "text": "Some residents phoned in to the radio show on Wednesday to complain about the quality of public library services. A man surnamed Wong said he had often been disturbed in libraries by noisy school children and complained that libraries closed too early at the weekend."
+      "label": "Text 3 - Paragraph 5",
+      "text": "Lau said the government had failed to explain clearly the rationale behind its annual buying target of 700,000 items, and Kwong agreed. 'It's unreasonable for libraries to follow a target set in the 1990s. The quality of procurement is more important than the quantity.'"
     },
     {
       "number": 9,
-      "label": "Paragraph 7",
-      "text": "An LCSD spokeswoman said it welcomed \"any suggestions and views from the public stakeholders' and would study them carefully., Kong children, reading culture has to begin at ease. If pupils have easy access to books at school, they will be more likely to borrow them. Assigning roles of 'reading ambassadors' would also help to foster a reading culture."
+      "label": "Text 3 - Paragraph 6",
+      "text": "Some residents phoned in to the radio show on Wednesday to complain about the quality of public library services. A man surnamed Wong said he had often been disturbed in libraries by noisy school children and complained that libraries closed too early at the weekend."
     },
     {
       "number": 10,
-      "label": "Paragraph 5",
-      "text": "In the community, youngsters should be encouraged to make good use of the new vending machine-style book station at Sai Wan Ho. They should also join the Reading Programme for Children and Youth organised by Hong Kong Public Libraries, as avid readers can win prizes and awards under the scheme. Motivation of this kind can surely boost interest in reading."
+      "label": "Text 3 - Paragraph 7",
+      "text": "An LCSD spokeswoman said it welcomed 'any suggestions and views from the public and stakeholders' and would study them carefully."
     },
     {
       "number": 11,
-      "label": "Paragraph 6",
-      "text": "Finally, technology does not have to be an enemy to reading; it can promote the culture if used appropriately. A number of newspaper apps are available for download on the internet. Once these are installed on children's phones, they will be more likely to peruse news and current affairs. Also, e-books might completely replace paperbacks in the future and, for tech-savvy millennials, e-books might hold more appeal because of their accompanying features. Let them jump on the e-book bandwagon all they want, if it gets them reading. Chris Wong, Shatin"
+      "label": "Text 4 - LETTER TO THE EDITOR: For Hong Kong children, reading culture has to begin at home - Paragraph 1",
+      "text": "At first glance, the fact that Hong Kong has slipped to third place in an international reading literacy ranking may seem to be cause for concern ('Hong Kong slips to third place in reading literacy ranking, behind Russia and Singapore', December 6). But a more careful look at the results reveals that Hong Kong pupils are still among the best readers across the globe."
     },
     {
       "number": 12,
-      "label": "Paragraph 12",
-      "text": "G PASSAGES ed in the HKDSE Question Papers booklet published by the Hong"
+      "label": "Text 4 - Paragraph 2",
+      "text": "Undeniably, with the advancement of technology and easy internet access, reading has taken a back seat to online activities. Access to books at home, in school and in the community, coupled with capitalising on technology, can reignite the passion for reading among youngsters."
+    },
+    {
+      "number": 13,
+      "label": "Text 4 - Paragraph 3",
+      "text": "Parents may place books around the home, even in the bathroom. Bedtime reading with kids may seem like a luxury for busy parents, but doing so not only develops literacy levels, but also strengthens the parent-child bond. With books placed at their bedside, children can look forward to nightly adventures."
+    },
+    {
+      "number": 14,
+      "label": "Text 4 - Paragraph 4",
+      "text": "At school, self-service 'street libraries' could be set up on different floors and around campus to make books more accessible to students. These libraries could be given unique, creative names so that students can recall their locations with greater ease. If pupils have easy access to books at school, they will be more likely to borrow them. Assigning roles of 'reading ambassadors' would also help to foster a reading culture."
+    },
+    {
+      "number": 15,
+      "label": "Text 4 - Paragraph 5",
+      "text": "In the community, youngsters should be encouraged to make good use of the new vending machine-style book station at Sai Wan Ho. They should also join the Reading Programme for Children and Youth organised by Hong Kong Public Libraries, as avid readers can win prizes and awards under the scheme. Motivation of this kind can surely boost interest in reading."
+    },
+    {
+      "number": 16,
+      "label": "Text 4 - Paragraph 6",
+      "text": "Finally, technology does not have to be an enemy to reading; it can promote the culture if used appropriately. A number of newspaper apps are available for download on the internet. Once these are installed on children's phones, they will be more likely to peruse news and current affairs. Also, e-books might completely replace paperbacks in the future and, for tech-savvy millennials, e-books might hold more appeal because of their accompanying features. Let them jump on the e-book bandwagon all they want, if it gets them reading.\n\nChris Wong, Shatin"
     }
   ],
   "instructions": {

@@ -8,8 +8,8 @@
   "paragraphs": [
     {
       "number": 1,
-      "label": "Paragraph 1",
-      "text": "Master teaches a much-loved instrument instrument The guzheng has been a popular Chinese instrument since ancient times. It originated during the Warring States period and first became popular during the Qin Dynasty.",
+      "label": "Text 2 - Master teaches a much-loved instrument - Paragraph 1",
+      "text": "The guzheng has been a popular Chinese instrument since ancient times. It originated during the Warring States period and first became popular during the Qin Dynasty.",
       "images": [
         {
           "src": "assets/reading-comprehension/dse/content/2013/b1/passage-1-crop-1.webp",
@@ -25,12 +25,12 @@
     {
       "number": 3,
       "label": "Paragraph 3",
-      "text": "\"Chinese people are attracted to [learning] the guzheng because they have been exposed to its sound since childhood,' says Zou Lunlun, guzheng artist and founder of the International Academy for Musical Arts."
+      "text": "'Chinese people are attracted to [learning] the guzheng because they have been exposed to its sound since childhood,' says Zou Lunlun, guzheng artist and founder of the International Academy for Musical Arts."
     },
     {
       "number": 4,
       "label": "Paragraph 4",
-      "text": "'Westerners are attracted to it because of its exotic and relaxing sound. The skills of playing the guzheng bring many benefits, such as artistic expression, sense accomplishment, stress relief, social activity and physical activity."
+      "text": "'Westerners are attracted to it because of its exotic and relaxing sound. The skills of playing the guzheng bring many benefits, such as artistic expression, sense of accomplishment, stress relief, social activity and physical activity.'"
     },
     {
       "number": 5,
@@ -50,7 +50,7 @@
     {
       "number": 8,
       "label": "Paragraph 8",
-      "text": "One-to-one classes are available for beginner, intermediate and advanced students and cost HK$420, HK$480 and HK$550, a respectively. Skype lessons are available for people who would find travelling to the school difficult."
+      "text": "One-to-one classes are available for beginner, intermediate and advanced students and cost HK$420, HK$480 and HK$550, respectively. Skype lessons are available for people who would find travelling to the school difficult."
     },
     {
       "number": 9,
@@ -70,17 +70,17 @@
     {
       "number": 12,
       "label": "Paragraph 12",
-      "text": "The elementary course focuses on the basic fingering techniques for both hands and students learn to play traditional Chinese songs, 'Swordsman' and 'Fengyang Flower'"
+      "text": "The elementary course focuses on the basic fingering techniques for both hands and students learn to play traditional Chinese songs, 'Swordsman' and 'Fengyang Flower'."
     },
     {
       "number": 13,
       "label": "Paragraph 13",
-      "text": "The association has designed a 10 grade-examination system in which the level 1 exam is suitable for elementary students and level 10 is for students able to perform at a professional level. What your updates say about you Will am little o"
+      "text": "The association has designed a 10 grade-examination system in which the level 1 exam is suitable for elementary students and level 10 is for students able to perform at a professional level."
     },
     {
       "number": 14,
-      "label": "Paragraph 1",
-      "text": "What your updates say about you Will am little o Social media is great for deepening bonds, making friends, or finding that special someone. Or is it?"
+      "label": "Text 3 - What your updates say about you - Paragraph 1",
+      "text": "Social media is great for deepening bonds, making friends, or finding that special someone. Or is it?"
     },
     {
       "number": 15,
@@ -90,7 +90,7 @@
     {
       "number": 16,
       "label": "Paragraph 3",
-      "text": "\"We had this idea that Facebook could be a fantastic place for people to strengthen their relationships, says Amanda Forest of the University of Waterloo in Ontario, Canada.",
+      "text": "'We had this idea that Facebook could be a fantastic place for people to strengthen their relationships,' says Amanda Forest of the University of Waterloo in Ontario, Canada.",
       "images": [
         {
           "src": "assets/reading-comprehension/dse/content/2013/b1/passage-2-visual-1.webp",
@@ -101,7 +101,7 @@
     {
       "number": 17,
       "label": "Paragraph 4",
-      "text": "This assumption seems fair when applied to most people, especially those with low self-esteem. However, the findings of Forest's research - titled \"When Social Networking Is Not Working' - suggest that isn't so."
+      "text": "This assumption seems fair when applied to most people, especially those with low self-esteem. However, the findings of Forest's research - titled 'When Social Networking Is Not Working' - suggest that isn't so."
     },
     {
       "number": 18,
@@ -111,7 +111,7 @@
     {
       "number": 19,
       "label": "Paragraph 6",
-      "text": "The study also found that people with low self-esteem got more responses from their Facebook friends when they posted highly positive updates, compared to less positive ones. People with high self-esteem, on the other hand, 55 low used Facebook less and got more 'like' replies after posting something negative, perhaps because these responses are rarer for them."
+      "text": "The study also found that people with low self-esteem got more responses from their Facebook friends when they posted highly positive updates, compared to less positive ones. People with high self-esteem, on the other hand, used Facebook less and got more 'like' replies after posting something negative, perhaps because these responses are rarer for them."
     },
     {
       "number": 20,
@@ -121,7 +121,7 @@
     {
       "number": 21,
       "label": "Paragraph 8",
-      "text": "\"If you're talking to somebody in person and you say something negative, you might get an indication that they don't like it,' says Forest. But when people have a negative reaction to a post on Facebook, they seem to keep it to themselves. \"On Facebook, you don't see most of the reactions.' New Comment New Messages Status Updates Birthdays Friend Requests * New Photos"
+      "text": "'If you're talking to somebody in person and you say something negative, you might get an indication that they don't like it,' says Forest. But when people have a negative reaction to a post on Facebook, they seem to keep it to themselves. 'On Facebook, you don't see most of the reactions.'"
     },
     {
       "number": 22,
@@ -132,11 +132,6 @@
       "number": 23,
       "label": "Paragraph 10",
       "text": "In theory, social networking websites like Facebook could be great for people with low self-esteem. Sharing is important for improving friendships. But in practice, people with low self-esteem seem to behave counterproductively, bombarding their friends with negative tidbits about their lives and making themselves less likeable."
-    },
-    {
-      "number": 24,
-      "label": "Paragraph 24",
-      "text": "IG PASSAGES ledged in the Examination Report and Question Papers it Authority at a later stage."
     }
   ],
   "instructions": {
@@ -212,7 +207,7 @@
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/content/2013/b1/questions-1-crop-1.webp",
-          "alt": "Three speech bubbles describing the benefits of playing the guzheng"
+          "alt": "(i) Left: By joining guzheng classes and learning how to play the instrument, I have been able to meet new and interesting friends.\n(ii) Middle: Playing the guzheng allows me to feel that I have learned something new.\n(iii) Right: The guzheng is an outlet for my creativity."
         }
       ],
       "parts": [

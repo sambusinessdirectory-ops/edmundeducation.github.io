@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
-  <link rel="stylesheet" href="reading-comprehension.css?v=20260904-full-question-audit-1">
+  <link rel="stylesheet" href="reading-comprehension.css?v=20260904-dse-zh-hant-1">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
 </head>
 <body>
@@ -217,8 +217,8 @@
       </section>
 
       <section class="study-toolbar panel" aria-label="文章學習工具">
-        <p class="dse-tools-notice" data-dse-tools-notice hidden>題目及文章已完整輸入。答案、中文翻譯、分析及朗讀會稍後加入。</p>
-        <div class="translation-control" data-ielts-only>
+        <p class="dse-tools-notice" data-dse-tools-notice hidden>答案、分析及朗讀會稍後加入。</p>
+        <div class="translation-control">
           <button class="secondary-button" type="button" data-translation-menu aria-expanded="false">中文翻譯 ▾</button>
           <div class="translation-menu" data-translation-panel hidden>
             <label><input type="checkbox" data-translation-all> 顯示全文翻譯</label>
@@ -244,7 +244,7 @@
           <div class="passage-copy" data-passage></div>
         </article>
         <aside class="questions-panel panel" aria-labelledby="questions-title">
-          <div class="pane-heading"><p class="eyebrow">QUESTIONS 1–13</p><div class="pane-heading-with-action"><h2 id="questions-title">題目</h2><button class="secondary-button" type="button" data-bookmark-kind="questions" data-ielts-only>☆ 收藏整組題目</button></div><label class="question-translation-toggle" data-ielts-only><input type="checkbox" data-question-translations> 顯示題目中文翻譯</label></div>
+          <div class="pane-heading"><p class="eyebrow">QUESTIONS 1–13</p><div class="pane-heading-with-action"><h2 id="questions-title">題目</h2><button class="secondary-button" type="button" data-bookmark-kind="questions" data-ielts-only>☆ 收藏整組題目</button></div><label class="question-translation-toggle"><input type="checkbox" data-question-translations> 顯示題目中文翻譯</label><p class="question-translation-availability" data-question-translation-availability hidden></p></div>
           <form data-question-form><div data-questions></div>
             <div class="submit-bar" data-ielts-only><button class="secondary-button" type="button" data-submit-partial>提交已作答題目</button><button class="primary-button" type="submit">提交全部答案</button></div>
             <p class="dse-draft-note" data-dse-draft-note hidden>作答內容只會暫存在這部裝置；答案及正式提交功能會稍後加入。</p>
@@ -266,6 +266,7 @@
   <script src="ielts-reading-question-types.js?v=20260829-2"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
-  <script type="module" src="reading-comprehension.js?v=20260904-full-question-audit-1"></script>
+  <script src="dse-reading-translations.js?v=20260904-dse-zh-hant-1"></script>
+  <script type="module" src="reading-comprehension.js?v=20260904-dse-zh-hant-1"></script>
 </body>
 </html>
