@@ -1,0 +1,19 @@
+[
+  {"section":"orientation","quote":"Before the recording is played, you will have five minutes to study the Question-Answer Book and the Data File to familiarise yourself with the situation and the tasks.","pages":[6,7],"note":"這是閱讀時間安排：先用五分鐘掌握身份、三種文類及任務要求。它不是可寫入文章、建議書或招募信的內容點。"},
+  {"section":"orientation","quote":"Complete the tasks by following the instructions in the Question-Answer Book and on the recording.","pages":[6,7],"note":"任務要求須同時參照問答冊和錄音；不能只看書面資料便作答。先用任務指示篩選資料，再核對錄音中的更新。"},
+  {"section":"orientation","quote":"You will find all the information you need in the Question-Answer Book, the Data File and on the recording.","pages":[7],"note":"指出三個資料來源：問答冊、Data File 和錄音。必須整合來源，不應用個人常識補作文件沒有提供的事實。"},
+  {"section":"orientation","quote":"As you listen you can make notes on page 3 of the Data File.","pages":[8,9],"note":"這是筆記位置指示。第 3 頁可協助辨認錄音主題；按分析，Wellness Month 及家長參與才是三項寫作的主線。"},
+  {"section":"orientation","quote":"You now have five minutes to familiarise yourself with the Question-Answer Book and the Data File.","pages":[6,7],"note":"這是開始預備閱讀的提示，不是寫作內容點。可先找第 4 頁任務電郵，確認三項寫作的文類、讀者和目的。"},
+  {"section":"listening-notes","quote":"Listen to the recording of a meeting between Dr David Chan, your school’s principal, Mr John Duncan, the school’s vice principal, and Ms Melissa Henley, the head of PE.","pages":[7],"note":"交代講者身份：Chan 是校長、Duncan 是副校長、Henley 是體育主任。這段會議是正式資料來源，須與各人的電郵及對話一併閱讀。"},
+  {"section":"student-interview","quote":"That’s good to hear.","pages":[37,38],"note":"記者的過渡回應，本身沒有新的回饋內容。應抽取前後學生或家長實際說出的益處，並分清 Task 1 的學生回饋與 Task 3 的家長義工益處。"},
+  {"section":"sports-article","quote":"So, Laura, which sports should we look out for?","pages":[63],"note":"訪問者引入運動選項的提問。真正可用的內容在專家回答：要按新手容易上手、活動量及新鮮感等條件篩選，不是把所有運動都推薦。"},
+  {"section":"sports-article","quote":"Sounds good.","aliases":["Any others?"],"pages":[63,64],"note":"訪問的承接語，沒有獨立內容點。繼續看下一項運動的特性，再與任務要求比較。"},
+  {"section":"sports-article","quote":"I think I’ve seen this before.","aliases":["Do you juggle balls in the air?"],"pages":[65,66],"note":"這段提問引出 Jianzi 的玩法及熟悉程度；不要把提問中的 balls 當成事實。後文指出它使用毽子，而學生已經熟悉這活動，所以不符合『未嘗試過』的條件。"},
+  {"section":"sports-article","quote":"No, you juggle a weighted shuttlecock called a Jianzi.","aliases":["You can only touch it with your feet."],"pages":[65,66],"note":"這是對 Jianzi 玩法的澄清：踢的是加重的毽子，並只可用腳接觸。可是 Jianzi 已因學生熟悉而被排除；不要把它寫成建議書選中的運動。"},
+  {"section":"sports-article","quote":"I remember playing Go at secondary school.","aliases":["Is that still popular?"],"pages":[66,67],"note":"提問引出圍棋的普及程度。圍棋雖容易學，卻需要久坐、不符合讓學生多活動的目標，不能只憑單一優點入選。"},
+  {"section":"sports-article","quote":"Recently, I’ve been hearing about Kabaddi.","aliases":["Can you explain this sport?"],"pages":[68,69],"note":"引出 Kabaddi 的背景與玩法。後面的印度文化背景、不停移動和新手容易上手，才是支持選用 Kabaddi 的具體理由。"},
+  {"section":"sports-article","quote":"Is this sport getting more popular?","pages":[70,71],"note":"這裡的 this sport 指上一句的 Dragon Boat Racing（龍舟），不是 Kabaddi。提問引出龍舟的吸引力，但即使受歡迎，仍要受『不批准下水活動』的限制。"},
+  {"section":"sports-article","quote":"It is!","pages":[70,71],"note":"肯定上一個問題：龍舟越來越受歡迎。這只是專家回答的開頭；後文雖提到樂趣、運動量和友誼，龍舟仍因屬水上活動而不能入選。"},
+  {"section":"sports-article","quote":"Originates from Ancient Chinese traditions and festivals.","pages":[70,71],"note":"補充龍舟的中國傳統文化背景。即使具有文化特色，龍舟仍是水上活動，違反第 10 頁『不會批准下水活動』的限制，不能選用。"},
+  {"section":"sports-article","quote":"Sources of materials used in this paper will be acknowledged in the HKDSE Question Papers booklet published by the Hong Kong Examinations and Assessment Authority at a later stage.","originalPage":11,"note":"這是原卷的資料出處及版權聲明，並非 Wellness Month 的活動資料或三項寫作的內容點。"}
+]
