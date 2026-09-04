@@ -4,7 +4,7 @@ const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
 const CATALOGUE_VERSION = '20260829-audio1';
-const DSE_CATALOGUE_VERSION = '20260904-dse-ielts-flow-2';
+const DSE_CATALOGUE_VERSION = '20260904-dse-image-coverage-1';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
 const QUESTION_TYPE_INDEX = window.EDMUND_IELTS_READING_QUESTION_TYPES || { taxonomy: [], articles: [] };
 const audioTimingCache = new Map();
@@ -438,7 +438,7 @@ function interactiveWords(text, context, spoken = false) {
   return html + escapeHtml(text.slice(last));
 }
 function renderContentFigures(figures, className) {
-  return (figures || []).map((figure) => `<figure class="${className}${figure.wide ? ' is-wide' : ''}"><img src="${escapeHtml(figure.src)}" alt="${escapeHtml(figure.alt || '')}" loading="lazy">${figure.caption ? `<figcaption>${escapeHtml(figure.caption)}</figcaption>` : ''}</figure>`).join('');
+  return (figures || []).map((figure) => `<figure class="${className}${figure.wide ? ' is-wide' : ''}${figure.small ? ' is-small' : ''}"><img src="${escapeHtml(figure.src)}" alt="${escapeHtml(figure.alt || '')}" loading="lazy">${figure.caption ? `<figcaption>${escapeHtml(figure.caption)}</figcaption>` : ''}</figure>`).join('');
 }
 function renderPassage() {
   const dse = state.system === 'dse';

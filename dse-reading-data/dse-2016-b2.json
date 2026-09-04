@@ -8,6 +8,11 @@
   "paragraphs": [
     {
       "number": 1,
+      "image": {
+        "src": "assets/reading-comprehension/dse/2016-b2-food-truck-badge.webp",
+        "alt": "Food Trucks badge from the original passage",
+        "small": true
+      },
       "label": "Paragraph 1",
       "text": "The arrival of food trucks to New York several years ago was greeted by a city hungry for refined street food, willing to pay higher prices to reward hard-working culinary entrepreneurs. But, what was initially a story of success, as the Mexicue truck can attest, quickly became a nightmare."
     },

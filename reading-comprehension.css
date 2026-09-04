@@ -214,6 +214,8 @@ button:focus-visible,select:focus-visible { outline: 3px solid #b9852f; outline-
 .dse-passage-figure { float:right; width:min(31%,210px); margin:4px 0 18px 28px; }
 .dse-passage-figure img { display:block; width:100%; height:auto; }
 .dse-paragraph-figure { float:right; width:min(34%,260px); margin:2px 0 18px 28px; }
+.dse-paragraph-figure.is-small { width:min(34%,160px); }
+.dse-exercise .passage-text-block { overflow-wrap:anywhere; }
 .dse-paragraph-figure.is-wide { float:none; width:100%; max-width:780px; margin:4px auto 20px; }
 .dse-paragraph-figure img { display:block; width:100%; height:auto; }
 .reading-workbench > * { min-width:0; }

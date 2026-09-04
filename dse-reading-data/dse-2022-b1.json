@@ -513,7 +513,7 @@
       "number": 39,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Use the information in Text 3 to match the people (A-E) mentioned in the text with one of the following\ncomments. Write the letter of the person in the blank below the comment. One person is NOT used. Each letter\ncan be used ONCE only. One comment does NOT match with any person in the text and you should choose\n'F. Not stated'. (5 marks)\nTake a job now You are too I have the skills Slashers fit Slashing helps\nbut keep your young to have to do many easily into a you build your\noptions open. those skills. types of jobs. corporate job. own business.\n(i) (ii) (iii)- (iv) (v)",
+      "prompt": "Use the information in Text 3 to match the people (A-E) mentioned in the text with one of the following comments. Write the letter of the person in the blank below the comment. One person is NOT used. Each letter can be used ONCE only. One comment does NOT match with any person in the text and you should choose 'F. Not stated'. (5 marks)\n\n(i) Take a job now but keep your options open.\n(ii) You are too young to have those skills.\n(iii) I have the skills to do many types of jobs.\n(iv) Slashers fit easily into a corporate job.\n(v) Slashing helps you build your own business.",
       "tables": [
         {
           "rows": [
@@ -557,16 +557,8 @@
       ],
       "figures": [
         {
-          "src": "assets/reading-comprehension/dse/content/2022/b1/questions-3-visual-1.webp",
-          "alt": "Original figure 2"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/content/2022/b1/questions-3-visual-2.webp",
-          "alt": "Original figure 3"
-        },
-        {
-          "src": "assets/reading-comprehension/dse/content/2022/b1/questions-3-visual-3.webp",
-          "alt": "Original figure 4"
+          "src": "assets/reading-comprehension/dse/2022-b1-q39-comments.webp",
+          "alt": "All five speech-bubble comments for Question 39, ordered (i) to (v) from left to right"
         }
       ]
     },

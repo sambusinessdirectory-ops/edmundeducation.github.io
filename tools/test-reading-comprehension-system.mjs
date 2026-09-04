@@ -196,6 +196,12 @@ assert.ok([...dse2026A.questions, ...dse2026B1.questions, ...dse2026B2.questions
 assert.ok([dse2026A, dse2026B1, dse2026B2].every((exercise) => exercise.sourceNote === undefined));
 
 const paperYears = [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2025, 2026];
+const imageCoverage = JSON.parse(await read('tools/dse-reading-image-coverage.json'));
+assert.deepEqual(Object.keys(imageCoverage.papers).sort(), paperYears.flatMap(year => ['a', 'b1', 'b2'].map(section => `dse-${year}-${section}`)).sort());
+assert.match(dse2026A.paragraphs[0].image.src, /2026-a-bubble-tea\.webp$/);
+assert.equal(dse2026A.paragraphs[0].image.small, true);
+assert.match(css, /\.dse-paragraph-figure\.is-small\s*\{[^}]*160px/);
+assert.match(script, /figure\.small \? ' is-small'/);
 for (const year of paperYears) {
   const catalogueYear = dseCatalogue.years.find((row) => row.year === year);
   for (const section of ["A", "B1", "B2"]) {
@@ -225,6 +231,13 @@ for (const year of paperYears) {
       assert.equal(new Set(tableParts).size, tableParts.length, `${entry.id} Q${question.number}: table field keys must be unique`);
     }
     const figures = [exercise.sourceImage, ...exercise.paragraphs.flatMap((paragraph) => paragraph.images || [paragraph.image]), ...exercise.questions.flatMap((question) => question.figures || [question.figure])].filter(Boolean);
+    // A valid URL alone does not catch an omitted image or a wrong question anchor.
+    const anchoredFigures = [];
+    const addFigures = (anchor, items) => items.filter(Boolean).forEach(figure => anchoredFigures.push({anchor, src: figure.src}));
+    addFigures('passage', [exercise.sourceImage]);
+    exercise.paragraphs.forEach(paragraph => addFigures(`paragraph-${paragraph.number}`, paragraph.images || [paragraph.image]));
+    exercise.questions.forEach(question => addFigures(`question-${question.number}`, question.figures || [question.figure]));
+    assert.deepEqual(anchoredFigures, imageCoverage.papers[entry.id], `${entry.id}: preserve every source-reviewed image at its correct anchor`);
     for (const figure of figures) {
       assert.doesNotMatch(figure.src, /\/papers\/|\/structured\//);
       assert.ok((await stat(new URL(figure.src.replace(/^\//, ''), root))).size > 100);

@@ -1,5 +1,5 @@
 {
-  "version": "20260904-dse-ielts-flow-2",
+  "version": "20260904-dse-image-coverage-1",
   "years": [
     {
       "year": 2012,
@@ -142,7 +142,7 @@
           "questionStart": 47,
           "questionEnd": 75,
           "questionCount": 29,
-          "version": "20260904-dse-ielts-flow-2"
+          "version": "20260904-dse-image-coverage-1"
         }
       }
     },
@@ -163,7 +163,7 @@
           "questionStart": 22,
           "questionEnd": 44,
           "questionCount": 23,
-          "version": "20260904-dse-ielts-flow-2"
+          "version": "20260904-dse-image-coverage-1"
         },
         "B2": {
           "id": "dse-2017-b2",
@@ -221,7 +221,7 @@
           "questionStart": 19,
           "questionEnd": 41,
           "questionCount": 23,
-          "version": "20260904-dse-ielts-flow-2"
+          "version": "20260904-dse-image-coverage-1"
         },
         "B2": {
           "id": "dse-2019-b2",
@@ -308,7 +308,7 @@
           "questionStart": 24,
           "questionEnd": 42,
           "questionCount": 19,
-          "version": "20260904-dse-ielts-flow-2"
+          "version": "20260904-dse-image-coverage-1"
         },
         "B2": {
           "id": "dse-2022-b2",
@@ -366,7 +366,7 @@
           "questionStart": 1,
           "questionEnd": 21,
           "questionCount": 21,
-          "version": "20260904-dse-ielts-flow-2"
+          "version": "20260904-dse-image-coverage-1"
         },
         "B1": {
           "id": "dse-2025-b1",
@@ -374,7 +374,7 @@
           "questionStart": 22,
           "questionEnd": 42,
           "questionCount": 21,
-          "version": "20260904-dse-ielts-flow-2"
+          "version": "20260904-dse-image-coverage-1"
         },
         "B2": {
           "id": "dse-2025-b2",
@@ -395,7 +395,7 @@
           "questionStart": 1,
           "questionEnd": 22,
           "questionCount": 22,
-          "version": "20260903-dse2026-1"
+          "version": "20260904-dse-image-coverage-1"
         },
         "B1": {
           "id": "dse-2026-b1",

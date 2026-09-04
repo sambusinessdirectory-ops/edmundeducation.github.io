@@ -1,0 +1,315 @@
+{
+  "reviewed": "2026-09-04",
+  "scope": "Small passage illustrations and question figures checked against the supplied PDFs for all 42 imported sections. Whole pages are excluded; text-only tables remain native HTML. No 2024 source was supplied.",
+  "papers": {
+    "dse-2012-a": [
+      {
+        "anchor": "question-13",
+        "src": "assets/reading-comprehension/dse/2012-a-q13-games.jpg"
+      }
+    ],
+    "dse-2012-b1": [],
+    "dse-2012-b2": [],
+    "dse-2013-a": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/content/2013/a/passage-1-visual-1.webp"
+      },
+      {
+        "anchor": "question-10",
+        "src": "assets/reading-comprehension/dse/content/2013/a/questions-2-crop-1.webp"
+      }
+    ],
+    "dse-2013-b1": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/content/2013/b1/passage-1-crop-1.webp"
+      },
+      {
+        "anchor": "paragraph-16",
+        "src": "assets/reading-comprehension/dse/content/2013/b1/passage-2-visual-1.webp"
+      },
+      {
+        "anchor": "question-31",
+        "src": "assets/reading-comprehension/dse/content/2013/b1/questions-1-crop-1.webp"
+      }
+    ],
+    "dse-2013-b2": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/content/2013/b2/passage-1-visual-1.webp"
+      },
+      {
+        "anchor": "question-56",
+        "src": "assets/reading-comprehension/dse/content/2013/b2/questions-3-visual-1.webp"
+      }
+    ],
+    "dse-2014-a": [
+      {
+        "anchor": "question-8",
+        "src": "assets/reading-comprehension/dse/2014-a-q8-robot.jpg"
+      }
+    ],
+    "dse-2014-b1": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/content/2014/b1/passage-1-crop-1.webp"
+      },
+      {
+        "anchor": "question-37",
+        "src": "assets/reading-comprehension/dse/content/2014/b1/questions-1-crop-1.webp"
+      }
+    ],
+    "dse-2014-b2": [
+      {
+        "anchor": "passage",
+        "src": "/assets/reading-comprehension/dse/2014-b2-stephen-fry.jpg"
+      }
+    ],
+    "dse-2015-a": [],
+    "dse-2015-b1": [
+      {
+        "anchor": "question-35",
+        "src": "assets/reading-comprehension/dse/content/2015/b1/questions-1-crop-1.webp"
+      },
+      {
+        "anchor": "question-38",
+        "src": "assets/reading-comprehension/dse/content/2015/b1/questions-2-crop-1.webp"
+      }
+    ],
+    "dse-2015-b2": [],
+    "dse-2016-a": [
+      {
+        "anchor": "question-1",
+        "src": "assets/reading-comprehension/dse/content/2016/a/questions-1-crop-1.webp"
+      },
+      {
+        "anchor": "question-4",
+        "src": "assets/reading-comprehension/dse/content/2016/a/questions-1-crop-2.webp"
+      }
+    ],
+    "dse-2016-b1": [
+      {
+        "anchor": "paragraph-11",
+        "src": "assets/reading-comprehension/dse/content/2016/b1/passage-2-crop-1.webp"
+      }
+    ],
+    "dse-2016-b2": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/2016-b2-food-truck-badge.webp"
+      }
+    ],
+    "dse-2017-a": [
+      {
+        "anchor": "question-1",
+        "src": "assets/reading-comprehension/dse/content/2017/a/questions-1-crop-1.webp"
+      }
+    ],
+    "dse-2017-b1": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/2017-b1-millennials-word-cloud.webp"
+      },
+      {
+        "anchor": "paragraph-8",
+        "src": "assets/reading-comprehension/dse/content/2017/b1/passage-2-crop-1.webp"
+      }
+    ],
+    "dse-2017-b2": [],
+    "dse-2018-a": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/content/2018/a/passage-1-visual-1.webp"
+      },
+      {
+        "anchor": "question-4",
+        "src": "assets/reading-comprehension/dse/content/2018/a/questions-2-crop-1.webp"
+      }
+    ],
+    "dse-2018-b1": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/content/2018/b1/passage-1-visual-1.webp"
+      },
+      {
+        "anchor": "paragraph-6",
+        "src": "assets/reading-comprehension/dse/content/2018/b1/passage-1-visual-2.webp"
+      },
+      {
+        "anchor": "paragraph-14",
+        "src": "assets/reading-comprehension/dse/content/2018/b1/passage-2-visual-1.webp"
+      },
+      {
+        "anchor": "paragraph-14",
+        "src": "assets/reading-comprehension/dse/content/2018/b1/passage-2-visual-2.webp"
+      }
+    ],
+    "dse-2018-b2": [],
+    "dse-2019-a": [
+      {
+        "anchor": "paragraph-4",
+        "src": "assets/reading-comprehension/dse/content/2019/a/passage-1-crop-1.webp"
+      },
+      {
+        "anchor": "question-16",
+        "src": "assets/reading-comprehension/dse/content/2019/a/questions-3-visual-1.webp"
+      },
+      {
+        "anchor": "question-18",
+        "src": "assets/reading-comprehension/dse/content/2019/a/questions-4-crop-1.webp"
+      }
+    ],
+    "dse-2019-b1": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/2019-b1-library-activities.webp"
+      },
+      {
+        "anchor": "question-19",
+        "src": "assets/reading-comprehension/dse/content/2019/b1/questions-1-crop-1.webp"
+      }
+    ],
+    "dse-2019-b2": [],
+    "dse-2020-a": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/content/2020/a/passage-1-visual-1.webp"
+      },
+      {
+        "anchor": "paragraph-4",
+        "src": "assets/reading-comprehension/dse/content/2020/a/passage-1-visual-2.webp"
+      },
+      {
+        "anchor": "paragraph-5",
+        "src": "assets/reading-comprehension/dse/content/2020/a/passage-1-visual-3.webp"
+      }
+    ],
+    "dse-2020-b1": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/content/2020/b1/passage-1-visual-1.webp"
+      },
+      {
+        "anchor": "paragraph-2",
+        "src": "assets/reading-comprehension/dse/content/2020/b1/passage-1-visual-2.webp"
+      },
+      {
+        "anchor": "paragraph-10",
+        "src": "assets/reading-comprehension/dse/content/2020/b1/passage-1-visual-3.webp"
+      },
+      {
+        "anchor": "question-29",
+        "src": "assets/reading-comprehension/dse/content/2020/b1/questions-2-crop-1.webp"
+      }
+    ],
+    "dse-2020-b2": [],
+    "dse-2021-a": [],
+    "dse-2021-b1": [],
+    "dse-2021-b2": [],
+    "dse-2022-a": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/content/2022/a/passage-1-crop-1.webp"
+      }
+    ],
+    "dse-2022-b1": [
+      {
+        "anchor": "question-39",
+        "src": "assets/reading-comprehension/dse/2022-b1-q39-comments.webp"
+      }
+    ],
+    "dse-2022-b2": [],
+    "dse-2023-a": [],
+    "dse-2023-b1": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/content/2023/b1/passage-1-visual-1.webp"
+      },
+      {
+        "anchor": "question-32",
+        "src": "assets/reading-comprehension/dse/content/2023/b1/questions-2-crop-1.webp"
+      },
+      {
+        "anchor": "question-45",
+        "src": "assets/reading-comprehension/dse/content/2023/b1/questions-4-visual-1.webp"
+      }
+    ],
+    "dse-2023-b2": [],
+    "dse-2025-a": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/content/2025/a/passage-1-visual-1.webp"
+      },
+      {
+        "anchor": "question-7",
+        "src": "assets/reading-comprehension/dse/content/2025/a/questions-2-visual-1.webp"
+      },
+      {
+        "anchor": "question-21",
+        "src": "assets/reading-comprehension/dse/content/2025/a/questions-4-visual-2.webp"
+      },
+      {
+        "anchor": "question-21",
+        "src": "assets/reading-comprehension/dse/content/2025/a/questions-4-visual-3.webp"
+      }
+    ],
+    "dse-2025-b1": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/2025-b1-foraging-logo.webp"
+      },
+      {
+        "anchor": "question-24",
+        "src": "assets/reading-comprehension/dse/content/2025/b1/questions-1-crop-1.webp"
+      },
+      {
+        "anchor": "question-42",
+        "src": "assets/reading-comprehension/dse/content/2025/b1/questions-4-visual-1.webp"
+      },
+      {
+        "anchor": "question-42",
+        "src": "assets/reading-comprehension/dse/content/2025/b1/questions-4-visual-2.webp"
+      },
+      {
+        "anchor": "question-42",
+        "src": "assets/reading-comprehension/dse/content/2025/b1/questions-4-visual-3.webp"
+      },
+      {
+        "anchor": "question-42",
+        "src": "assets/reading-comprehension/dse/content/2025/b1/questions-4-visual-4.webp"
+      },
+      {
+        "anchor": "question-42",
+        "src": "assets/reading-comprehension/dse/content/2025/b1/questions-4-visual-5.webp"
+      }
+    ],
+    "dse-2025-b2": [],
+    "dse-2026-a": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/2026-a-bubble-tea.webp"
+      },
+      {
+        "anchor": "question-1",
+        "src": "assets/reading-comprehension/dse/2026-a-q1-activities.jpg"
+      }
+    ],
+    "dse-2026-b1": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/2026-b1-text2-header.jpg"
+      },
+      {
+        "anchor": "paragraph-9",
+        "src": "assets/reading-comprehension/dse/2026-b1-text3-yagmanx.jpg"
+      }
+    ],
+    "dse-2026-b2": [
+      {
+        "anchor": "paragraph-1",
+        "src": "assets/reading-comprehension/dse/2026-b2-text4-airport.jpg"
+      }
+    ]
+  }
+}

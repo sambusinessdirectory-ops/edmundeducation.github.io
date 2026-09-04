@@ -180,13 +180,19 @@
       "number": 7,
       "group": "paper",
       "type": "textarea",
-      "prompt": "The flow chart shows the sequence of events described in paragraph 3. Fill in each blank with ONE word taken\nfrom paragraph 3. (5 marks)\nThe glamorous, rich and successful lifestyles of celebrities represent people's (i)."
+      "prompt": "The flow chart shows the sequence of events described in paragraph 3. Fill in each blank with ONE word taken from paragraph 3. (5 marks)\n\nThe glamorous, rich and successful lifestyles of celebrities represent people's (i) ______.\nPeople believe such celebrities are untouched by ordinary people's (ii) ______.\nThe (iii) ______ discover 'what's happening behind the scenes' with celebrities.\nSeeing that celebrities have similar experiences as ordinary people (iv) ______ celebrities.\nPeople are puzzled: if someone is successful he / she shouldn't (v) ______ such problems.",
+      "figures": [
+        {
+          "src": "assets/reading-comprehension/dse/content/2025/a/questions-2-visual-1.webp",
+          "alt": "Question 7: flow chart showing the sequence of events described in paragraph 3"
+        }
+      ]
     },
     {
       "number": 8,
       "group": "paper",
       "type": "parts",
-      "prompt": "People believe such celcbrities are untouched by ordinary people's (ii)\nThe (iii) discover 'what's happening behind the scenes' with celebrities.\nSeeing that celebrities have similar experiences People are puzzled: if someone is successful\nas ordinary people (iv) ho / she shouldn't (v)\ncelebrities. such problems.\nAccording to paragraph 4, decide whether the following statements are True (T), False (F) or Not Given (NG).\n(4 marks)\nStatements T F NG",
+      "prompt": "According to paragraph 4, decide whether the following statements are True (T), False (F) or Not Given (NG). (4 marks)",
       "parts": [
         {
           "key": "i",
@@ -227,12 +233,6 @@
             "FALSE",
             "NOT GIVEN"
           ]
-        }
-      ],
-      "figures": [
-        {
-          "src": "assets/reading-comprehension/dse/content/2025/a/questions-2-visual-1.webp",
-          "alt": "Original figure 1"
         }
       ]
     },

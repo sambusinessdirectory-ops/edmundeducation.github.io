@@ -8,6 +8,11 @@
   "paragraphs": [
     {
       "number": 1,
+      "image": {
+        "src": "assets/reading-comprehension/dse/2025-b1-foraging-logo.webp",
+        "alt": "Leaf logo from Foraging in Hong Kong for Beginners",
+        "small": true
+      },
       "label": "Paragraph 1",
       "text": "Read Texts 2-4 and answer questions 22-42 in the Question-Answer Book for Part B1. * → C https://www.foraginginhongkongforbeginners.com.hk/home/ Home Foraging Info Videos Recipes About Us Join Us What is Foraging? Foraging is identifying, collecting, and eating plants like herbs, fruits, and nuts that grow wild in nature. Foraging Guidelines"
     },
