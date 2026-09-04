@@ -162,8 +162,7 @@
           "value": "D",
           "label": "D. need a large amount of money."
         }
-      ],
-      "optionBank": "A. require time and effort.\nB. transform Earth negatively.\nC. be a challenge for scientists.\nD. need a large amount of money.\n*AO 20E1B2*"
+      ]
     },
     {
       "number": 54,
@@ -222,14 +221,160 @@
     {
       "number": 57,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the following flow chart on terraforming Mars based on information from paragraph 4. (8 marks)\nDEVELOPMENT OF TERRAFORMING INFRASTRUCTURE\nTerraforming machines will need to be set up on Mars in one of two ways: Both will need the same energy source:\nOption 1: (i) (ili)\nOption 2: (ii)\nMachine Type 1:\nPurpose: (iv)\nMachine Type 2: Additional method:\nPurpose: (v) (vi)\nDesired (vii)\nEnvironmental\nConditions on Mars: (viri)"
+      "type": "parts",
+      "prompt": "Complete the following flow chart on terraforming Mars based on information from paragraph 4. (8 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "vi",
+          "label": "(vi)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "vii",
+          "label": "(vii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "viii",
+          "label": "(viii)",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "marks": 8,
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "DEVELOPMENT OF TERRAFORMING INFRASTRUCTURE",
+                "header": true,
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "Terraforming machines will need to be set up on Mars in one of two ways:\nOption 1: (i) ______\nOption 2: (ii) ______",
+                "parts": [
+                  "i",
+                  "ii"
+                ]
+              },
+              {
+                "text": "Both will need the same energy source:\n(iii) ______",
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "↓",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "Machine Type 1:\nPurpose: (iv) ______",
+                "part": "iv",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              },
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "Machine Type 2:\nPurpose: (v) ______",
+                "part": "v"
+              },
+              {
+                "text": "Additional method:\n(vi) ______",
+                "part": "vi"
+              }
+            ],
+            [
+              {
+                "text": "↓",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "Desired Environmental Conditions on Mars:",
+                "header": true
+              },
+              {
+                "text": "(vii) ______\n(viii) ______",
+                "parts": [
+                  "vii",
+                  "viii"
+                ]
+              }
+            ]
+          ]
+        }
+      ]
     },
     {
       "number": 58,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "The main purpose of Text 7 is to explain...\nhow to make Mars similar to Eart\nhow dangerous the atmosphere of Mars i\nhow human beings can travel to Mars in future. ô 8\nhow human beings should adapt to live on Mars."
+      "type": "choice",
+      "prompt": "The main purpose of Text 7 is to explain...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. how to make Mars similar to Earth."
+        },
+        {
+          "value": "B",
+          "label": "B. how dangerous the atmosphere of Mars is."
+        },
+        {
+          "value": "C",
+          "label": "C. how human beings can travel to Mars in future."
+        },
+        {
+          "value": "D",
+          "label": "D. how human beings should adapt to live on Mars."
+        }
+      ]
     },
     {
       "number": 59,
@@ -243,11 +388,11 @@
         },
         {
           "value": "B",
-          "label": "B. sarcastic C"
+          "label": "B. sarcastic"
         },
         {
           "value": "C",
-          "label": "C. aggressive Ô 8"
+          "label": "C. aggressive"
         },
         {
           "value": "D",
@@ -277,7 +422,7 @@
       "number": 63,
       "group": "paper",
       "type": "parts",
-      "prompt": "Decide whether the following statements are True (T), False (F) or Not Given (NG). (6 marks)\nStatements T F NG",
+      "prompt": "Decide whether the following statements are True (T), False (F) or Not Given (NG). (6 marks)",
       "parts": [
         {
           "key": "i",
@@ -636,5 +781,6 @@
         }
       ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

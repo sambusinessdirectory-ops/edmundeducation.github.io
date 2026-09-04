@@ -87,8 +87,12 @@
       "number": 48,
       "group": "paper",
       "type": "choice",
-      "prompt": "What is the 'moral of this story' (line 11)?\nWe should...\nlook after bees.",
+      "prompt": "What is the 'moral of this story' (line 11)? We should...",
       "options": [
+        {
+          "value": "A",
+          "label": "A. look after bees."
+        },
         {
           "value": "B",
           "label": "B. pay more money to replace bees."
@@ -119,11 +123,15 @@
       "number": 51,
       "group": "paper",
       "type": "choice",
-      "prompt": "Why did the writer use the word 'Woah!' (line 21)?\nThe writer wants to...\n1. argue that a statement is incorrec",
+      "prompt": "Why did the writer use the word 'Woah!' (line 21)? The writer wants to...",
       "options": [
         {
+          "value": "A",
+          "label": "A. argue that a statement is incorrect."
+        },
+        {
           "value": "B",
-          "label": "B. express happiness for a new discovery"
+          "label": "B. express happiness for a new discovery."
         },
         {
           "value": "C",
@@ -144,8 +152,37 @@
     {
       "number": 53,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "ased on the information in paragraphs 3-5, complete the summary by writing ONE word to fill in eac\nlank. You should make sure that your answers are grammatically correc (5 marks)\nAfter a decade of study, economists released a (i) report about a hike in crop\nyields. This was in spite of the (ii) bees. It turns out that, for the farmers of\nMaoxian County, bees are superfluous as their human replacements can be depended upon far more.\nThis is because they are able to access each (iii) → boosting productivity.\nBees, it appears, are fussy workers preferring warm and (iv) weather. The\nmessage economists took from this was that we should spend less time and energy worrying about the\n(v) of life on Earth."
+      "type": "parts",
+      "prompt": "Based on the information in paragraphs 3-5, complete the summary by writing ONE word to fill in each blank. You should make sure that your answers are grammatically correct. (5 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text"
+        }
+      ],
+      "context": "After a decade of study, economists released a (i) ______ report about a hike in crop yields. This was in spite of the (ii) ______ bees. It turns out that, for the farmers of Maoxian County, bees are superfluous as their human replacements can be depended upon far more. This is because they are able to access each (iii) ______, boosting productivity. Bees, it appears, are fussy workers preferring warm and (iv) ______ weather. The message economists took from this was that we should spend less time and energy worrying about the (v) ______ of life on Earth.",
+      "marks": 5
     },
     {
       "number": 54,
@@ -222,33 +259,111 @@
     {
       "number": 60,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Based on the information in paragraph 3, complete the summary by writing ONE word in each blank. You\nshould make sure that your answers are grammatically correct. (4 marks)\nIn order to avoid any trouble when dealing with bees, beekeepers should protect their\n(i) like a warrior wearing a suit of armour. Instead of a helmet, they\nwear a (ii) along with something like a flying suit. The result of all\nthis gear is that beekeepers are somewhat (ili) in what they can do.\nHowever, this is not such a bad thing as they must not move too (iv)"
+      "type": "parts",
+      "prompt": "Based on the information in paragraph 3, complete the summary by writing ONE word in each blank. You should make sure that your answers are grammatically correct. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        }
+      ],
+      "context": "In order to avoid any trouble when dealing with bees, beekeepers should protect their (i) ______ like a warrior wearing a suit of armour. Instead of a helmet, they wear a (ii) ______ along with something like a flying suit. The result of all this gear is that beekeepers are somewhat (iii) ______ in what they can do. However, this is not such a bad thing as they must not move too (iv) ______.",
+      "marks": 4
     },
     {
       "number": 61,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraph 4, are the following statements True (T), False (F) or Not Given (NG)? (3 marks)\nStatements T F NG",
+      "prompt": "According to paragraph 4, are the following statements True (T), False (F) or Not Given (NG)? (3 marks)",
       "parts": [
         {
           "key": "i",
           "label": "(i) Smoke makes bees more likely to sting.",
-          "type": "choice",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
-          ]
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
-          "label": "(ii) As soon as Willie lifts the first box he knows how successful the\nharvest is.\n(ini) Willie and his family have always been successful with their honey\nharvest.",
-          "type": "choice",
+          "label": "(ii) As soon as Willie lifts the first box he knows how successful the harvest is.",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Willie and his family have always been successful with their honey harvest.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Smoke makes bees more likely to sting."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) As soon as Willie lifts the first box he knows how successful the harvest is."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Willie and his family have always been successful with their honey harvest."
+              },
+              {
+                "part": "iii"
+              }
+            ]
           ]
         }
       ]
@@ -262,8 +377,20 @@
     {
       "number": 63,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "The writer believes 'skill and luck' (line 25) contributed to Willie's success with his bees this year. Whal\n\"skill' and 'luck' is the writer referring to? (2 marks)\nSkill:\nLuck:"
+      "type": "parts",
+      "prompt": "The writer believes 'skill and luck' (line 25) contributed to Willie's success with his bees this year. What 'skill' and 'luck' is the writer referring to? (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "Skill",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "Luck",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 64,
@@ -304,8 +431,22 @@
     {
       "number": 70,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "According to paragraph 6, complete the following summary by writing ONE word in each blank. You\nshould make sure that your answers are grammatically correct. (2 marks)\nSome beekeepers are (i) when handling bees. Unlike these\nbeekeepers, Willie feels that bees are more (ii) than the honey\nitself."
+      "type": "parts",
+      "prompt": "According to paragraph 6, complete the following summary by writing ONE word in each blank. You should make sure that your answers are grammatically correct. (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ],
+      "context": "Some beekeepers are (i) ______ when handling bees. Unlike these beekeepers, Willie feels that bees are more (ii) ______ than the honey itself.",
+      "marks": 2
     },
     {
       "number": 71,
@@ -466,40 +607,89 @@
         {
           "key": "t2r2c2g1",
           "label": "Row 2, column 2",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "t2r3c2g1",
           "label": "Row 3, column 2",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "t2r4c2g1",
           "label": "Row 4, column 2",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "t2r5c2g1",
           "label": "Row 5, column 2",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "t2r6c2g1",
           "label": "Row 6, column 2",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "t2r7c2g1",
           "label": "Row 7, column 2",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         }
       ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

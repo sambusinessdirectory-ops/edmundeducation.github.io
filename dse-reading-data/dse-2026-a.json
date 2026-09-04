@@ -31,27 +31,667 @@
     "q16to22": "Questions 16–22"
   },
   "questions": [
-    { "number": 1, "group": "q1to4", "type": "multiple", "slots": 3, "prompt": "Put a tick in the box for activities that are mentioned in paragraph 1. Tick THREE boxes only.", "figure": { "src": "assets/reading-comprehension/dse/2026-a-q1-activities.jpg", "alt": "Five illustrated activity options labelled A to E", "caption": "Original activity illustrations for Question 1" }, "options": ["A", "B", "C", "D", "E"] },
-    { "number": 2, "group": "q1to4", "type": "parts", "marks": 2, "prompt": "Complete the summary of paragraph 1 using ONE word from the paragraph in each blank.", "context": "Visiting a coffee shop to meet up with others is considered to be a key part of (i) ______ in America. Will people (ii) ______ their preferences from coffee to bubble tea?", "parts": [{"key":"i","label":"(i)","type":"text"},{"key":"ii","label":"(ii)","type":"text"}] },
-    { "number": 3, "group": "q1to4", "type": "parts", "marks": 3, "prompt": "Find a word in paragraph 2 which has a similar meaning to each word.", "parts": [{"key":"i","label":"(i) ‘very’","type":"text"},{"key":"ii","label":"(ii) ‘drunk’","type":"text"},{"key":"iii","label":"(iii) ‘big’","type":"text"}] },
-    { "number": 4, "group": "q1to4", "type": "parts", "marks": 2, "prompt": "Complete the summary of paragraphs 2–4 with a word or phrase from the paragraphs.", "context": "In the beginning: Bubble tea started in the 1980s.\n\nGlobal market today: Some established (i) ______ are operating worldwide.\n\nUS market today: To date success has been limited for both Asian and more recent (ii) ______ competitors.", "parts": [{"key":"i","label":"(i)","type":"text"},{"key":"ii","label":"(ii)","type":"text"}] },
-    { "number": 5, "group": "q5to10", "type": "text", "prompt": "What is implied by the sentence ‘Clearly, the US is still very much a coffee country.’ (lines 13–14)?", "context": "Bubble tea ______" },
-    { "number": 6, "group": "q5to10", "type": "parts", "marks": 2, "prompt": "With reference to paragraph 6, complete the sentence. You may use your own words.", "context": "On the one hand, Starbucks’ coffee is not (i) ______. Yet the company is extremely (ii) ______.", "parts": [{"key":"i","label":"(i)","type":"text"},{"key":"ii","label":"(ii)","type":"text"}] },
-    { "number": 7, "group": "q5to10", "type": "choice", "prompt": "According to Zingales, what are the key factors leading to Starbucks’ success?", "options": [{"value":"A","label":"A. successful scaling and effective internal culture"},{"value":"B","label":"B. locations in Silicon Valley and successful scaling"},{"value":"C","label":"C. professional IT skills and effective internal culture"},{"value":"D","label":"D. working with economists and effective internal culture"}] },
-    { "number": 8, "group": "q5to10", "type": "parts", "marks": 5, "prompt": "Complete the information about the scaling of an organisation using ONE word from paragraphs 8 and 9 for each gap.", "context": "Scaling an organisation: Of course, there are significant challenges but the solution is bureaucracy. This results in all (i) ______ performing their duties consistently.\n\nExamples of scaling: Publishing a detailed (ii) ______ for staff to follow; creating a step-by-step process for each (iii) ______ to follow.\n\nBenefits: Reliable quality; expansion at a high (iv) ______; efficient (v) ______ service.", "parts": [{"key":"i","label":"(i)","type":"text"},{"key":"ii","label":"(ii)","type":"text"},{"key":"iii","label":"(iii)","type":"text"},{"key":"iv","label":"(iv)","type":"text"},{"key":"v","label":"(v)","type":"text"}] },
-    { "number": 9, "group": "q5to10", "type": "choice", "prompt": "What does the example from Starbucks (lines 36–37) illustrate?", "options": [{"value":"A","label":"A. becoming a famous company"},{"value":"B","label":"B. making the perfect cup of coffee"},{"value":"C","label":"C. checking the work of colleagues"},{"value":"D","label":"D. implementing a good rule-based process"}] },
-    { "number": 10, "group": "q5to10", "type": "text", "prompt": "What does ‘this’ (line 37) refer to?" },
-    { "number": 11, "group": "q11to15", "type": "text", "prompt": "Find a phrase in paragraph 10 that can be replaced by ‘familiar with’." },
-    { "number": 12, "group": "q11to15", "type": "parts", "marks": 2, "prompt": "According to paragraph 12, identify TWO differences between coffee and bubble tea.", "parts": [{"key":"i","label":"(i)","type":"text"},{"key":"ii","label":"(ii)","type":"text"}] },
-    { "number": 13, "group": "q11to15", "type": "choice", "prompt": "According to paragraphs 11 and 13, which of the following can be added to bubble tea?", "options": [{"value":"A","label":"A. tapioca pearls only"},{"value":"B","label":"B. pudding and gummy bears"},{"value":"C","label":"C. tapioca pearls and grass jelly"},{"value":"D","label":"D. tapioca pearls, grass jelly and gummy bears"}] },
-    { "number": 14, "group": "q11to15", "type": "parts", "marks": 5, "prompt": "In five lines there is ONE mistake. Replace the mistaken word with one that expresses the correct idea. In the line with no mistake, enter ✓.", "context": "People reject bubble tea for many reasons. (Example: reject → drink)\n\n1. Some think it is better than coffee because of its visual experience when they\n2. take a sip. One minute they need to chew, and then the\n3. next sip it’s all soft. Bubble tea also provides a fast shot of\n4. caffeine. Conversely, they get to choose from a variety of tea\n5. flavors and straws combined in the same cup.", "parts": [{"key":"line1","label":"Line 1","type":"text","placeholder":"Correction or ✓"},{"key":"line2","label":"Line 2","type":"text","placeholder":"Correction or ✓"},{"key":"line3","label":"Line 3","type":"text","placeholder":"Correction or ✓"},{"key":"line4","label":"Line 4","type":"text","placeholder":"Correction or ✓"},{"key":"line5","label":"Line 5","type":"text","placeholder":"Correction or ✓"}] },
-    { "number": 15, "group": "q11to15", "type": "choice", "prompt": "‘The gaps’ (line 55) refers to...", "options": [{"value":"A","label":"A. the cultural differences"},{"value":"B","label":"B. the changes in drink trends"},{"value":"C","label":"C. the sources of the ingredients"},{"value":"D","label":"D. the differences in business models"}] },
-    { "number": 16, "group": "q16to22", "type": "parts", "marks": 3, "prompt": "According to paragraph 15, decide whether each statement is True, False or Not Given.", "parts": [{"key":"i","label":"(i) Some Americans already like drinking bubble tea.","type":"choice","options":["TRUE","FALSE","NOT GIVEN"]},{"key":"ii","label":"(ii) The bubble tea chains have no plans to open across America.","type":"choice","options":["TRUE","FALSE","NOT GIVEN"]},{"key":"iii","label":"(iii) There are too many bubble tea chains in the San Francisco Bay area.","type":"choice","options":["TRUE","FALSE","NOT GIVEN"]}] },
-    { "number": 17, "group": "q16to22", "type": "textarea", "prompt": "With reference to paragraphs 14 and 15, explain how consumers’ first reactions to coffee and bubble tea are similar." },
-    { "number": 18, "group": "q16to22", "type": "choice", "prompt": "Which option best summarises the writer’s message in paragraph 16?", "options": [{"value":"A","label":"A. Bubble tea is welcomed by US consumers."},{"value":"B","label":"B. Bubble tea has already adopted effective business practices."},{"value":"C","label":"C. Bubble tea is predicted to be a passing craze for US consumers."},{"value":"D","label":"D. Bubble tea is unlikely to be a widespread phenomenon in the US."}] },
-    { "number": 19, "group": "q16to22", "type": "choice", "prompt": "Which option best describes the intention of the writer of Text 1?", "options": [{"value":"A","label":"A. to criticise the scaling of a business"},{"value":"B","label":"B. to persuade people to drink more bubble tea"},{"value":"C","label":"C. to analyse the growth of a product in a new market"},{"value":"D","label":"D. to explain the difference between coffee and bubble tea"}] },
-    { "number": 20, "group": "q16to22", "type": "text", "prompt": "Who or what does ‘They’ (line 71) refer to?" },
-    { "number": 21, "group": "q16to22", "type": "parts", "marks": 5, "prompt": "What is each person’s most likely opinion of the statement ‘I would recommend bubble tea to everyone.’?", "parts": [{"key":"i","label":"(i) Bin Chen & Andrew Chau","type":"choice","options":["Agree","Disagree","Neither agree nor disagree"]},{"key":"ii","label":"(ii) The wolf","type":"choice","options":["Agree","Disagree","Neither agree nor disagree"]},{"key":"iii","label":"(iii) Classof75","type":"choice","options":["Agree","Disagree","Neither agree nor disagree"]},{"key":"iv","label":"(iv) Cosmos girl","type":"choice","options":["Agree","Disagree","Neither agree nor disagree"]},{"key":"v","label":"(v) The writer of the article","type":"choice","options":["Agree","Disagree","Neither agree nor disagree"]}] },
-    { "number": 22, "group": "q16to22", "type": "choice", "prompt": "Which is the best alternative title for this article?", "options": [{"value":"A","label":"A. Where did we go wrong?"},{"value":"B","label":"B. What should we do next?"},{"value":"C","label":"C. How to start a new business?"},{"value":"D","label":"D. Who is the new kid on the block?"}] }
-  ]
+    {
+      "number": 1,
+      "group": "q1to4",
+      "type": "multiple",
+      "slots": 3,
+      "prompt": "Put a tick in the box for activities that are mentioned in paragraph 1. Tick THREE boxes only.",
+      "figure": {
+        "src": "assets/reading-comprehension/dse/2026-a-q1-activities.jpg",
+        "alt": "Five illustrated activity options labelled A to E",
+        "caption": "Original activity illustrations for Question 1"
+      },
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "number": 2,
+      "group": "q1to4",
+      "type": "parts",
+      "marks": 2,
+      "prompt": "Complete the summary of paragraph 1 using ONE word from the paragraph in each blank.",
+      "context": "Visiting a coffee shop to meet up with others is considered to be a key part of (i) ______ in America. Will people (ii) ______ their preferences from coffee to bubble tea?",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "group": "q1to4",
+      "type": "parts",
+      "marks": 3,
+      "prompt": "Find a word in paragraph 2 which has a similar meaning to each word.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) ‘very’",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) ‘drunk’",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii) ‘big’",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "group": "q1to4",
+      "type": "parts",
+      "marks": 2,
+      "prompt": "Complete the summary of paragraphs 2–4 with a word or phrase from the paragraphs.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "In the beginning: Bubble tea started in the 1980s.",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "Global market today",
+                "header": true
+              },
+              {
+                "text": "US market today",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Some established (i) ______ are operating worldwide.",
+                "part": "i"
+              },
+              {
+                "text": "To date success has been limited for both Asian and more recent (ii) ______ competitors.",
+                "part": "ii"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "group": "q5to10",
+      "type": "text",
+      "prompt": "What is implied by the sentence ‘Clearly, the US is still very much a coffee country.’ (lines 13–14)?",
+      "context": "Bubble tea ______"
+    },
+    {
+      "number": 6,
+      "group": "q5to10",
+      "type": "parts",
+      "marks": 2,
+      "prompt": "With reference to paragraph 6, complete the sentence. You may use your own words.",
+      "context": "On the one hand, Starbucks’ coffee is not (i) ______. Yet the company is extremely (ii) ______.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "group": "q5to10",
+      "type": "choice",
+      "prompt": "According to Zingales, what are the key factors leading to Starbucks’ success?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. successful scaling and effective internal culture"
+        },
+        {
+          "value": "B",
+          "label": "B. locations in Silicon Valley and successful scaling"
+        },
+        {
+          "value": "C",
+          "label": "C. professional IT skills and effective internal culture"
+        },
+        {
+          "value": "D",
+          "label": "D. working with economists and effective internal culture"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "group": "q5to10",
+      "type": "parts",
+      "marks": 5,
+      "prompt": "Complete the information about the scaling of an organisation using ONE word from paragraphs 8 and 9 for each gap.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Scaling an organisation",
+                "header": true
+              },
+              {
+                "text": "Of course, there are significant challenges but the solution is bureaucracy. This results in all (i) ______ performing their duties consistently.",
+                "part": "i",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "",
+                "header": true
+              },
+              {
+                "text": "McDonald’s",
+                "header": true
+              },
+              {
+                "text": "Bubble tea chains",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Example of scaling",
+                "header": true
+              },
+              {
+                "text": "Publishing a detailed (ii) ______ for staff to follow",
+                "part": "ii"
+              },
+              {
+                "text": "Creating a step-by-step process for each (iii) ______ to follow",
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "Benefits of scaling",
+                "header": true
+              },
+              {
+                "text": "Reliable quality\nExpansion at a high (iv) ______",
+                "part": "iv"
+              },
+              {
+                "text": "Efficient (v) ______ service",
+                "part": "v"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "group": "q5to10",
+      "type": "choice",
+      "prompt": "What does the example from Starbucks (lines 36–37) illustrate?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. becoming a famous company"
+        },
+        {
+          "value": "B",
+          "label": "B. making the perfect cup of coffee"
+        },
+        {
+          "value": "C",
+          "label": "C. checking the work of colleagues"
+        },
+        {
+          "value": "D",
+          "label": "D. implementing a good rule-based process"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "group": "q5to10",
+      "type": "text",
+      "prompt": "What does ‘this’ (line 37) refer to?"
+    },
+    {
+      "number": 11,
+      "group": "q11to15",
+      "type": "text",
+      "prompt": "Find a phrase in paragraph 10 that can be replaced by ‘familiar with’."
+    },
+    {
+      "number": 12,
+      "group": "q11to15",
+      "type": "parts",
+      "marks": 2,
+      "prompt": "According to paragraph 12, identify TWO differences between coffee and bubble tea.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "group": "q11to15",
+      "type": "choice",
+      "prompt": "According to paragraphs 11 and 13, which of the following can be added to bubble tea?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. tapioca pearls only"
+        },
+        {
+          "value": "B",
+          "label": "B. pudding and gummy bears"
+        },
+        {
+          "value": "C",
+          "label": "C. tapioca pearls and grass jelly"
+        },
+        {
+          "value": "D",
+          "label": "D. tapioca pearls, grass jelly and gummy bears"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "group": "q11to15",
+      "type": "parts",
+      "marks": 5,
+      "prompt": "Below is a summary of paragraphs 11–13. In five of the lines there is ONE mistake. If you find a mistake, underline it and replace the word with one that expresses the correct idea. Write the word in the Correction column. Both grammar and spelling must be correct. In one of the lines, there is no mistake; put a tick (✓) in the Correction column. One has been done for you as an example.",
+      "parts": [
+        {
+          "key": "line1",
+          "label": "Line 1",
+          "type": "text",
+          "placeholder": "Correction or ✓",
+          "inTable": true
+        },
+        {
+          "key": "line2",
+          "label": "Line 2",
+          "type": "text",
+          "placeholder": "Correction or ✓",
+          "inTable": true
+        },
+        {
+          "key": "line3",
+          "label": "Line 3",
+          "type": "text",
+          "placeholder": "Correction or ✓",
+          "inTable": true
+        },
+        {
+          "key": "line4",
+          "label": "Line 4",
+          "type": "text",
+          "placeholder": "Correction or ✓",
+          "inTable": true
+        },
+        {
+          "key": "line5",
+          "label": "Line 5",
+          "type": "text",
+          "placeholder": "Correction or ✓",
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Summary",
+                "header": true
+              },
+              {
+                "text": "Correction",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "People reject bubble tea for many reasons. Some think it is"
+              },
+              {
+                "text": "drink (example)"
+              }
+            ],
+            [
+              {
+                "text": "better than coffee because of its visual experience when they"
+              },
+              {
+                "part": "line1"
+              }
+            ],
+            [
+              {
+                "text": "take a sip. One minute they need to chew, and then the"
+              },
+              {
+                "part": "line2"
+              }
+            ],
+            [
+              {
+                "text": "next sip it’s all soft. Bubble tea also provides a fast shot of"
+              },
+              {
+                "part": "line3"
+              }
+            ],
+            [
+              {
+                "text": "caffeine. Conversely, they get to choose from a variety of tea"
+              },
+              {
+                "part": "line4"
+              }
+            ],
+            [
+              {
+                "text": "flavors and straws combined in the same cup."
+              },
+              {
+                "part": "line5"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "group": "q11to15",
+      "type": "choice",
+      "prompt": "‘The gaps’ (line 55) refers to...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. the cultural differences"
+        },
+        {
+          "value": "B",
+          "label": "B. the changes in drink trends"
+        },
+        {
+          "value": "C",
+          "label": "C. the sources of the ingredients"
+        },
+        {
+          "value": "D",
+          "label": "D. the differences in business models"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "group": "q16to22",
+      "type": "parts",
+      "marks": 3,
+      "prompt": "According to paragraph 15, decide whether each statement is True, False or Not Given.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Some Americans already like drinking bubble tea.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) The bubble tea chains have no plans to open across America.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) There are too many bubble tea chains in the San Francisco Bay area.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "group": "q16to22",
+      "type": "textarea",
+      "prompt": "With reference to paragraphs 14 and 15, explain how consumers’ first reactions to coffee and bubble tea are similar."
+    },
+    {
+      "number": 18,
+      "group": "q16to22",
+      "type": "choice",
+      "prompt": "Which option best summarises the writer’s message in paragraph 16?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Bubble tea is welcomed by US consumers."
+        },
+        {
+          "value": "B",
+          "label": "B. Bubble tea has already adopted effective business practices."
+        },
+        {
+          "value": "C",
+          "label": "C. Bubble tea is predicted to be a passing craze for US consumers."
+        },
+        {
+          "value": "D",
+          "label": "D. Bubble tea is unlikely to be a widespread phenomenon in the US."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "group": "q16to22",
+      "type": "choice",
+      "prompt": "Which option best describes the intention of the writer of Text 1?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. to criticise the scaling of a business"
+        },
+        {
+          "value": "B",
+          "label": "B. to persuade people to drink more bubble tea"
+        },
+        {
+          "value": "C",
+          "label": "C. to analyse the growth of a product in a new market"
+        },
+        {
+          "value": "D",
+          "label": "D. to explain the difference between coffee and bubble tea"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "group": "q16to22",
+      "type": "text",
+      "prompt": "Who or what does ‘They’ (line 71) refer to?"
+    },
+    {
+      "number": 21,
+      "group": "q16to22",
+      "type": "parts",
+      "marks": 5,
+      "prompt": "What is each person’s most likely opinion of the statement ‘I would recommend bubble tea to everyone.’?",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Bin Chen & Andrew Chau",
+          "type": "choice",
+          "options": [
+            "Agree",
+            "Disagree",
+            "Neither agree nor disagree"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) The wolf",
+          "type": "choice",
+          "options": [
+            "Agree",
+            "Disagree",
+            "Neither agree nor disagree"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Classof75",
+          "type": "choice",
+          "options": [
+            "Agree",
+            "Disagree",
+            "Neither agree nor disagree"
+          ]
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Cosmos girl",
+          "type": "choice",
+          "options": [
+            "Agree",
+            "Disagree",
+            "Neither agree nor disagree"
+          ]
+        },
+        {
+          "key": "v",
+          "label": "(v) The writer of the article",
+          "type": "choice",
+          "options": [
+            "Agree",
+            "Disagree",
+            "Neither agree nor disagree"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "group": "q16to22",
+      "type": "choice",
+      "prompt": "Which is the best alternative title for this article?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Where did we go wrong?"
+        },
+        {
+          "value": "B",
+          "label": "B. What should we do next?"
+        },
+        {
+          "value": "C",
+          "label": "C. How to start a new business?"
+        },
+        {
+          "value": "D",
+          "label": "D. Who is the new kid on the block?"
+        }
+      ]
+    }
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

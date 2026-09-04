@@ -75,8 +75,45 @@
     {
       "number": 1,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the summary of paragraphs 1 and 2 by selecting the best option from the choices below. (3 marks)\n(i) recently showcased Alfonso Wong's Old Master Q series and sold (ii) drawings by this genius.\nMeanwhile, Comix Home Base is showcasing work by (iii)\n(1) A. A fan\nB. A reader\nC. An auction\nD. An exhibition\n(ii) A. 10\nB. 13\nC. over a hundred\nD. over a thousand\n(iii) A. Miss 13 Dot\nB. the exhibition\nC. Alfonso Wong C\nD. Lee Wai Chun Theresa"
+      "type": "parts",
+      "prompt": "Complete the summary of paragraphs 1 and 2 by selecting the best option from the choices below. (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "choice",
+          "options": [
+            "A. A fan",
+            "B. A reader",
+            "C. An auction",
+            "D. An exhibition"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "choice",
+          "options": [
+            "A. 10",
+            "B. 13",
+            "C. over a hundred",
+            "D. over a thousand"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "choice",
+          "options": [
+            "A. Miss 13 Dot",
+            "B. the exhibition",
+            "C. Alfonso Wong",
+            "D. Lee Wai Chun Theresa"
+          ]
+        }
+      ],
+      "context": "(i) ______ recently showcased Alfonso Wong's Old Master Q series and sold (ii) ______ drawings by this genius. Meanwhile, Comix Home Base is showcasing work by (iii) ______.",
+      "marks": 3
     },
     {
       "number": 2,
@@ -141,8 +178,27 @@
     {
       "number": 7,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the biography of Lam Cheung Kwan Elphonso based on the information in paragraphs 4 and 5 by\nwriting ONE word taken from these paragraphs in each blank below. Your answers must be grammatically\n(3 marks)\nI'm Lam Cheung Kwan Elphonso. When I started as a comic (i) I used to earn a\nliving by drawing comics. Some of my (ii) can be found in comics such as 'True\nLove', 'The Jam', and 'Super Seven'. I have just released many of my short story drawings since the 1990s in a\n'Greatest Hits' collection. Today, I would not be able to make enough money if I did not take up\n(iii)"
+      "type": "parts",
+      "prompt": "Complete the biography of Lam Cheung Kwan Elphonso based on the information in paragraphs 4 and 5 by writing ONE word taken from these paragraphs in each blank below. Your answers must be grammatically correct. (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        }
+      ],
+      "context": "I'm Lam Cheung Kwan Elphonso. When I started as a comic (i) ______, I used to earn a living by drawing comics. Some of my (ii) ______ can be found in comics such as 'True Love', 'The Jam', and 'Super Seven'. I have just released many of my short story drawings since the 1990s in a 'Greatest Hits' collection. Today, I would not be able to make enough money if I did not take up (iii) ______.",
+      "marks": 3
     },
     {
       "number": 8,
@@ -177,119 +233,177 @@
     {
       "number": 10,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "According to paragraphs 6 and 7, decide whether the following statements are True (T), False (E) or\nNot Given (NG). (3 marks)\nStatements F NG\n(I) Lam dislikes drawing four-block strips."
+      "type": "parts",
+      "prompt": "According to paragraphs 6 and 7, decide whether the following statements are True (T), False (F) or Not Given (NG). (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Lam dislikes drawing four-block strips.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) In the past, comic writers put a lot of effort into improving their skills.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii) According to Lam, amateur comic artists always produce high-quality work.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Lam dislikes drawing four-block strips."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) In the past, comic writers put a lot of effort into improving their skills."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) According to Lam, amateur comic artists always produce high-quality work."
+              },
+              {
+                "part": "iii"
+              }
+            ]
+          ]
+        }
+      ]
     },
     {
       "number": 11,
       "group": "paper",
       "type": "parts",
-      "prompt": "In the past, comic writers put a lot of effort into improving their skills.",
+      "prompt": "Below is a summary of paragraphs 6 and 7. In four of the lines, there is ONE mistake. If you find a mistake, underline it and replace the word with one that expresses the correct idea in the Correction column. Both grammar and spelling must be correct. In one of the lines, there is no mistake; put a tick (✓) in the Correction column. (5 marks)",
       "parts": [
         {
-          "key": "t1r2c2g1",
-          "label": "Row 2, column 2",
+          "key": "i",
+          "label": "(i)",
           "type": "text",
           "inTable": true
         },
         {
-          "key": "t1r3c2g1",
-          "label": "Row 3, column 2",
+          "key": "ii",
+          "label": "(ii)",
           "type": "text",
           "inTable": true
         },
         {
-          "key": "t1r4c2g1",
-          "label": "Row 4, column 2",
+          "key": "iii",
+          "label": "(iii)",
           "type": "text",
           "inTable": true
         },
         {
-          "key": "t1r5c2g1",
-          "label": "Row 5, column 2",
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "(v)",
           "type": "text",
           "inTable": true
         }
       ],
       "tables": [
         {
+          "compact": true,
           "rows": [
             [
               {
                 "text": "Summary",
-                "colSpan": 1,
-                "rowSpan": 1,
                 "header": true
               },
               {
                 "text": "Correction",
-                "colSpan": 1,
-                "rowSpan": 1,
                 "header": true
               }
             ],
             [
               {
-                "text": "Elphonso Lam believes that the comic book industry will continue to gain",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "(i) Elphonso Lam believes that the comic book industry will continue to gain"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r2c2g1"
-                ]
+                "part": "i"
               }
             ],
             [
               {
-                "text": "(ii) revenue because original comics can be available at high costs. It is",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "(ii) revenue because original comics can be available at high costs. It is"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r3c2g1"
-                ]
+                "part": "ii"
               }
             ],
             [
               {
-                "text": "(iii) easy to call yourself a comic artist as long as you have access to a publisher.",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "(iii) easy to call yourself a comic artist as long as you have access to a publisher."
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r4c2g1"
-                ]
+                "part": "iii"
               }
             ],
             [
               {
-                "text": "(iv) If you get enough readers clicking on your online comics, you may become",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "(iv) If you get enough readers clicking on your online comics, you may become"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r5c2g1"
-                ]
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "(v) a traditional comic artist regardless of the quality of your work."
+              },
+              {
+                "part": "v"
               }
             ]
-          ],
-          "columns": 2
+          ]
         }
       ]
     },
@@ -313,12 +427,17 @@
       "parts": [
         {
           "key": "i",
-          "label": "(i) Comic book publishers need a system to sell their products.",
+          "label": "(i) Comic book publishers need a ______ system to sell their products.",
           "type": "text"
         },
         {
           "key": "ii",
-          "label": "(ii) There are fewer selling on the streets.\n(iji) The number of comic stores is",
+          "label": "(ii) There are fewer ______ selling on the streets.",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii) The number of comic stores is ______.",
           "type": "text"
         }
       ]
@@ -362,15 +481,107 @@
     {
       "number": 18,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Below are the events in the life of Alan Wan described in paragraphs 8 and 12. Write a word or phrase taken\nfrom paragraphs 8 and 12 in each blank below. Your answers must be grammatically correct. One has been done\n(4 marks)\nHe started (i) in Hong Kong.\nHe later took up different (ii) in the comic book industry.\nHe founded the Hong Kong Comics and Animation Federation (example)\nHe discovered that (iii). was more profitable than traditional\ncomic books.\nHe became the (iv) of an animation production company in\nNOW the Mainland."
+      "type": "parts",
+      "prompt": "Below are the events in the life of Alan Wan described in paragraphs 8 and 12. Write a word or phrase taken from paragraphs 8 and 12 in each blank below. Your answers must be grammatically correct. One has been done for you as an example. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "flow": true,
+          "caption": "1970s → NOW",
+          "rows": [
+            [
+              {
+                "text": "He started (i) ______ in Hong Kong.",
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "He later took up different (ii) ______ in the comic book industry.",
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "He founded the Hong Kong Comics and Animation Federation (example)."
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "He discovered that (iii) ______ was more profitable than traditional comic books.",
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "He became the (iv) ______ of an animation production company in the Mainland.",
+                "part": "iv"
+              }
+            ]
+          ]
+        }
+      ]
     },
     {
       "number": 19,
       "group": "paper",
       "type": "choice",
-      "prompt": "What does the writer mean when using the phrase 'stay in tune with' (line 67)?\nJ. Comic artists adjusting to their audiences' preferences\n3. The growth of lifestyle comics about girlfriends and boyfriends",
+      "prompt": "What does the writer mean when using the phrase 'stay in tune with' (line 67)?",
       "options": [
+        {
+          "value": "A",
+          "label": "A. Comic artists adjusting to their audiences' preferences."
+        },
+        {
+          "value": "B",
+          "label": "B. The growth of lifestyle comics about girlfriends and boyfriends."
+        },
         {
           "value": "C",
           "label": "C. Old-school Hong Kong comic artists working with Japanese artists."
@@ -398,111 +609,96 @@
       "group": "paper",
       "type": "parts",
       "prompt": "Based on paragraphs 12-15, what are the predictions of Alan Wan and Lam Cheung Kwan Elphonso about the\nfuture of the comic book industry in Hong Kong? Write a word or a phrase in each blank below. Note that the\nsuitable word or phrase may or may not appear in the text. Your answers must be grammatically correct. One\nhas been done for you as an example. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        }
+      ],
       "tables": [
         {
           "rows": [
             [
               {
                 "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
                 "header": true
               },
               {
                 "text": "Alan Wan",
-                "colSpan": 1,
-                "rowSpan": 1,
                 "header": true
               },
               {
-                "text": "Evidence from the\ntext",
-                "colSpan": 1,
-                "rowSpan": 1,
+                "text": "Evidence from the text",
                 "header": true
               },
               {
                 "text": "Elphonso Lam",
-                "colSpan": 1,
-                "rowSpan": 1,
                 "header": true
               },
               {
-                "text": "Evidence from the\ntext",
-                "colSpan": 1,
-                "rowSpan": 1,
+                "text": "Evidence from the text",
                 "header": true
               }
             ],
             [
               {
-                "text": "Prediction 1",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "Prediction 1"
               },
               {
-                "text": "The industry will be\nmore (i)",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r2c2g1"
-                ]
+                "text": "The industry will be more (i) ______.",
+                "part": "i"
               },
               {
-                "text": "People want more\ncontent from a range\nof devices.",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "People want more content from a range of devices."
               },
               {
-                "text": "Hong Kong artists\nwill not adjust to the\nevolving readership.",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "Hong Kong artists will not adjust to the evolving readership."
               },
               {
-                "text": "Traditional Hong\nKong artists\n(ii)",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r2c5g1"
-                ]
+                "text": "Traditional Hong Kong artists (ii) ______.",
+                "part": "ii"
               }
             ],
             [
               {
-                "text": "Hong Kong artists will\nengage in world-wide\ncompetition.",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "Prediction 2"
               },
               {
-                "text": "The world is more\n(iii)\nbecause of faster\ncommunication.",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r3c2g1"
-                ]
+                "text": "Hong Kong artists will engage in world-wide competition."
+              },
+              {
+                "text": "The world is more (iii) ______ because of faster communication.",
+                "part": "iii"
+              },
+              {
+                "text": "The Hong Kong comic industry will remain unappreciated (example)."
+              },
+              {
+                "text": "People in Hong Kong only care about (iv) ______.",
+                "part": "iv"
               }
             ]
-          ],
-          "columns": 5
-        }
-      ],
-      "parts": [
-        {
-          "key": "t1r2c2g1",
-          "label": "(i)",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r2c5g1",
-          "label": "(ii)",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r3c2g1",
-          "label": "(iii)",
-          "type": "text",
-          "inTable": true
+          ]
         }
       ]
     },
@@ -510,7 +706,7 @@
       "number": 23,
       "group": "paper",
       "type": "choice",
-      "prompt": "What is the purpose of the writer? He is writing the readers about the comic book industry.",
+      "prompt": "What is the purpose of the writer? He is writing ______ the readers about the comic book industry.",
       "options": [
         {
           "value": "A",
@@ -528,8 +724,8 @@
           "value": "D",
           "label": "D. to reassure"
         }
-      ],
-      "optionBank": "A. to warn\nB. to advise\nC. to inform\nD. to reassure"
+      ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

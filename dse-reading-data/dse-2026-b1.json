@@ -29,27 +29,586 @@
     "q35to44": "Text 3 · Questions 35–44"
   },
   "questions": [
-    { "number": 23, "group": "q23to34", "type": "choice", "prompt": "The text is taken from...", "options": [{"value":"A","label":"A. a book"},{"value":"B","label":"B. a website"},{"value":"C","label":"C. a magazine"},{"value":"D","label":"D. a newspaper"}] },
-    { "number": 24, "group": "q23to34", "type": "parts", "marks": 3, "prompt": "Select one option from the header of Text 2 for each purpose. Each option can be used ONCE only.", "optionBank": "About Us / eLessons / Articles / Online Store / Podcasts\nExample: listen to some advice — Podcasts", "parts": [{"key":"i","label":"(i) study an online class","type":"select","options":["About Us","eLessons","Articles","Online Store","Podcasts"]},{"key":"ii","label":"(ii) read some professional advice","type":"select","options":["About Us","eLessons","Articles","Online Store","Podcasts"]},{"key":"iii","label":"(iii) buy an ebook for your tablet or mobile","type":"select","options":["About Us","eLessons","Articles","Online Store","Podcasts"]}] },
-    { "number": 25, "group": "q23to34", "type": "parts", "marks": 3, "prompt": "According to paragraph 1, decide whether each statement is True, False or Not Given.", "parts": [{"key":"i","label":"(i) The purpose of this text is to give advice.","type":"choice","options":["TRUE","FALSE","NOT GIVEN"]},{"key":"ii","label":"(ii) YouTube videos are difficult to understand.","type":"choice","options":["TRUE","FALSE","NOT GIVEN"]},{"key":"iii","label":"(iii) YouTube is the biggest search engine in use today.","type":"choice","options":["TRUE","FALSE","NOT GIVEN"]}] },
-    { "number": 26, "group": "q23to34", "type": "parts", "marks": 3, "prompt": "Complete the notes about the advice in paragraph 2 with a word or phrase from the paragraph.", "context": "Use a keyword tool to help you identify (i) ______ keywords. Remember you must (ii) ______ one and include it in your YouTube videos. YouTube can then identify it in the closed captions of your videos. Following this will ensure more (iii) ______ for your videos.", "parts": [{"key":"i","label":"(i)","type":"text"},{"key":"ii","label":"(ii)","type":"text"},{"key":"iii","label":"(iii)","type":"text"}] },
-    { "number": 27, "group": "q23to34", "type": "text", "prompt": "What does ‘them’ (line 9) refer to?" },
-    { "number": 28, "group": "q23to34", "type": "text", "prompt": "Find a word or phrase in paragraph 3 that has a similar meaning to ‘remember’." },
-    { "number": 29, "group": "q23to34", "type": "parts", "marks": 2, "prompt": "Complete the sentence with a word or phrase from paragraph 4.", "context": "The content on your YouTube channel need not be (i) ______. Instead, you could (ii) ______ your current content to make new videos.", "parts": [{"key":"i","label":"(i)","type":"text"},{"key":"ii","label":"(ii)","type":"text"}] },
-    { "number": 30, "group": "q23to34", "type": "choice", "prompt": "What does ‘you’re missing a trick’ (line 15) imply?", "options": [{"value":"A","label":"A. forgetting to respond to comments"},{"value":"B","label":"B. not rewarding visitors to your channel"},{"value":"C","label":"C. not taking advantage of an opportunity"},{"value":"D","label":"D. misunderstanding the situation you are facing"}] },
-    { "number": 31, "group": "q23to34", "type": "choice", "prompt": "Why does the writer say ‘(if possible!)’ (lines 16–17)? There may be...", "options": [{"value":"A","label":"A. more likes than dislikes"},{"value":"B","label":"B. too many comments to reply to"},{"value":"C","label":"C. other social media platforms to look at"},{"value":"D","label":"D. comments missing the point of your video"}] },
-    { "number": 32, "group": "q23to34", "type": "parts", "marks": 3, "prompt": "Complete the diagram that summarises paragraph 6 using ONE word from the paragraph for each gap.", "context": "Ensure your (i) ______ appears in the channel regularly. This helps (ii) ______ your videos. Viewers will (iii) ______ more with you and your content.", "parts": [{"key":"i","label":"(i)","type":"text"},{"key":"ii","label":"(ii)","type":"text"},{"key":"iii","label":"(iii)","type":"text"}] },
-    { "number": 33, "group": "q23to34", "type": "parts", "marks": 2, "prompt": "With reference to paragraph 7, identify TWO pieces of advice about the posting of videos.", "parts": [{"key":"i","label":"(i)","type":"text"},{"key":"ii","label":"(ii)","type":"text"}] },
-    { "number": 34, "group": "q23to34", "type": "text", "prompt": "What does the title ‘Grow Your YouTube Channel’ mean?" },
-    { "number": 35, "group": "q35to44", "type": "choice", "prompt": "Why didn’t Curren ‘expect much’ (line 1) from her YouTube channel?", "options": [{"value":"A","label":"A. Curren had no money for her YouTube channel."},{"value":"B","label":"B. Curren had only lived in London for a short time."},{"value":"C","label":"C. Curren started her YouTube channel only as a hobby."},{"value":"D","label":"D. Curren was too young to have her own YouTube channel."}] },
-    { "number": 36, "group": "q35to44", "type": "text", "prompt": "The writer says ‘I didn’t know anyone there’ (line 3). Where is ‘there’?" },
-    { "number": 37, "group": "q35to44", "type": "text", "prompt": "Which phrase in paragraph 1 has a similar meaning to ‘a wise decision’?" },
-    { "number": 38, "group": "q35to44", "type": "multiple", "slots": 2, "prompt": "With reference to paragraph 3, put a tick next to the TWO correct statements.", "options": [{"value":"A","label":"A. Curren does all her studies online."},{"value":"B","label":"B. Curren edits her own videos."},{"value":"C","label":"C. Curren coaches new YouTubers."},{"value":"D","label":"D. Curren posts her videos herself."}] },
-    { "number": 39, "group": "q35to44", "type": "parts", "marks": 3, "prompt": "According to paragraph 4, decide whether each statement is True, False or Not Given.", "parts": [{"key":"i","label":"(i) Curren has a large number of YouTube subscribers.","type":"choice","options":["TRUE","FALSE","NOT GIVEN"]},{"key":"ii","label":"(ii) Curren’s subscribers will be able to view updates of her project.","type":"choice","options":["TRUE","FALSE","NOT GIVEN"]},{"key":"iii","label":"(iii) Curren thinks sharing her final year project will attract new subscribers.","type":"choice","options":["TRUE","FALSE","NOT GIVEN"]}] },
-    { "number": 40, "group": "q35to44", "type": "choice", "prompt": "What does the word ‘buzz’ (line 22) imply?", "options": [{"value":"A","label":"A. Curren feeling out of control"},{"value":"B","label":"B. Curren suddenly being inspired"},{"value":"C","label":"C. Curren chatting with her subscribers"},{"value":"D","label":"D. Curren feeling the pressure of assignment deadlines"}] },
-    { "number": 41, "group": "q35to44", "type": "parts", "marks": 4, "prompt": "Complete the summary of Curren’s studies (paragraphs 5–6) with ONE word from the paragraphs in each blank.", "context": "Curren has (i) ______ with assignment deadlines previously because she finds making YouTube videos more meaningful. Despite this, she has proved she can (ii) ______ herself to succeed in her studies. According to her (iii) ______, she may well graduate with a first class degree. However, Curren would rather maintain her (iv) ______ attitude toward her studies.", "parts": [{"key":"i","label":"(i)","type":"text"},{"key":"ii","label":"(ii)","type":"text"},{"key":"iii","label":"(iii)","type":"text"},{"key":"iv","label":"(iv)","type":"text"}] },
-    { "number": 42, "group": "q35to44", "type": "text", "prompt": "Why does Curren prefer to be ‘out there in the public’ (line 30)?", "context": "By doing this, she ensures that she thinks more ______" },
-    { "number": 43, "group": "q35to44", "type": "parts", "marks": 2, "prompt": "Give evidence from the text to justify why being a YouTuber could be both ‘scary’ and ‘the best decision’ for Curren.", "parts": [{"key":"i","label":"(i) Scary","type":"textarea"},{"key":"ii","label":"(ii) The best decision","type":"textarea"}] },
-    { "number": 44, "group": "q35to44", "type": "parts", "marks": 5, "prompt": "Is there evidence that Curren has followed each piece of advice on how to ‘Grow Your YouTube Channel’?", "parts": [{"key":"i","label":"(i) Focus your content around a single topic or keyword.","type":"choice","options":["Yes","No"]},{"key":"ii","label":"(ii) Include yourself in your videos.","type":"choice","options":["Yes","No"]},{"key":"iii","label":"(iii) Create videos from what you already have.","type":"choice","options":["Yes","No"]},{"key":"iv","label":"(iv) Keep your videos short.","type":"choice","options":["Yes","No"]},{"key":"v","label":"(v) Respond to every comment you receive.","type":"choice","options":["Yes","No"]}] }
-  ]
+    {
+      "number": 23,
+      "group": "q23to34",
+      "type": "choice",
+      "prompt": "The text is taken from...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. a book"
+        },
+        {
+          "value": "B",
+          "label": "B. a website"
+        },
+        {
+          "value": "C",
+          "label": "C. a magazine"
+        },
+        {
+          "value": "D",
+          "label": "D. a newspaper"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "group": "q23to34",
+      "type": "parts",
+      "marks": 3,
+      "prompt": "Select one of the options in the header of Text 2 (About Us, eLessons, Articles, Online Store, Podcasts) to complete the table below. Each option can be used ONCE only. One has been done for you as an example. (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "study an online class",
+          "type": "select",
+          "options": [
+            "About Us",
+            "eLessons",
+            "Articles",
+            "Online Store"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "read about another topic",
+          "type": "select",
+          "options": [
+            "About Us",
+            "eLessons",
+            "Articles",
+            "Online Store"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "buy an ebook for your tablet or mobile",
+          "type": "select",
+          "options": [
+            "About Us",
+            "eLessons",
+            "Articles",
+            "Online Store"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "If you want to...",
+                "header": true
+              },
+              {
+                "text": "go to the following option:",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "listen to some advice"
+              },
+              {
+                "text": "Podcasts (example)"
+              }
+            ],
+            [
+              {
+                "text": "study an online class"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "read about another topic"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "buy an ebook for your tablet or mobile"
+              },
+              {
+                "part": "iii"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "group": "q23to34",
+      "type": "parts",
+      "marks": 3,
+      "prompt": "According to paragraph 1, decide whether each statement is True, False or Not Given.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) The purpose of this text is to give advice.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) YouTube videos are difficult to understand.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) YouTube is the biggest search engine in use today.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "group": "q23to34",
+      "type": "parts",
+      "marks": 3,
+      "prompt": "The notes below show the advice given in paragraph 2. Fill in each blank with a word or phrase taken from paragraph 2. One has been done for you as an example. (3 marks)",
+      "context": "Use a keyword tool to help you identify (i) ______ keywords. Remember you must (ii) ______ one and include it in your YouTube videos. YouTube can then identify it in the closed captions (example) of your videos. Following this will ensure more (iii) ______ for your videos.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "group": "q23to34",
+      "type": "text",
+      "prompt": "What does ‘them’ (line 9) refer to?"
+    },
+    {
+      "number": 28,
+      "group": "q23to34",
+      "type": "text",
+      "prompt": "Find a word or phrase in paragraph 3 that has a similar meaning to ‘remember’."
+    },
+    {
+      "number": 29,
+      "group": "q23to34",
+      "type": "parts",
+      "marks": 2,
+      "prompt": "Complete the sentence with a word or phrase from paragraph 4.",
+      "context": "The content on your YouTube channel need not be (i) ______. Instead, you could (ii) ______ your current content to make new videos.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "group": "q23to34",
+      "type": "choice",
+      "prompt": "What does ‘you’re missing a trick’ (line 15) imply?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. forgetting to respond to comments"
+        },
+        {
+          "value": "B",
+          "label": "B. not rewarding visitors to your channel"
+        },
+        {
+          "value": "C",
+          "label": "C. not taking advantage of an opportunity"
+        },
+        {
+          "value": "D",
+          "label": "D. misunderstanding the situation you are facing"
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "group": "q23to34",
+      "type": "choice",
+      "prompt": "Why does the writer say ‘(if possible!)’ (lines 16–17)? There may be...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. more likes than dislikes"
+        },
+        {
+          "value": "B",
+          "label": "B. too many comments to reply to"
+        },
+        {
+          "value": "C",
+          "label": "C. other social media platforms to look at"
+        },
+        {
+          "value": "D",
+          "label": "D. comments missing the point of your video"
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "group": "q23to34",
+      "type": "parts",
+      "marks": 3,
+      "prompt": "Complete the diagram that summarises paragraph 6 using ONE word from the paragraph for each gap.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Ensure your (i) ______ appears in the channel regularly.",
+                "part": "i",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              },
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "This helps (ii) ______ your videos.",
+                "part": "ii"
+              },
+              {
+                "text": "Viewers will (iii) ______ more with you and your content.",
+                "part": "iii"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "group": "q23to34",
+      "type": "parts",
+      "marks": 2,
+      "prompt": "With reference to paragraph 7, identify TWO pieces of advice about the posting of videos.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "group": "q23to34",
+      "type": "text",
+      "prompt": "What does the title ‘Grow Your YouTube Channel’ mean?"
+    },
+    {
+      "number": 35,
+      "group": "q35to44",
+      "type": "choice",
+      "prompt": "Why didn’t Curren ‘expect much’ (line 1) from her YouTube channel?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Curren had no money for her YouTube channel."
+        },
+        {
+          "value": "B",
+          "label": "B. Curren had only lived in London for a short time."
+        },
+        {
+          "value": "C",
+          "label": "C. Curren started her YouTube channel only as a hobby."
+        },
+        {
+          "value": "D",
+          "label": "D. Curren was too young to have her own YouTube channel."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "group": "q35to44",
+      "type": "text",
+      "prompt": "The writer says ‘I didn’t know anyone there’ (line 3). Where is ‘there’?"
+    },
+    {
+      "number": 37,
+      "group": "q35to44",
+      "type": "text",
+      "prompt": "Which phrase in paragraph 1 has a similar meaning to ‘a wise decision’?"
+    },
+    {
+      "number": 38,
+      "group": "q35to44",
+      "type": "multiple",
+      "slots": 2,
+      "prompt": "With reference to paragraph 3, put a tick next to the TWO correct statements.",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Curren does all her studies online."
+        },
+        {
+          "value": "B",
+          "label": "B. Curren edits her own videos."
+        },
+        {
+          "value": "C",
+          "label": "C. Curren coaches new YouTubers."
+        },
+        {
+          "value": "D",
+          "label": "D. Curren posts her videos herself."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "group": "q35to44",
+      "type": "parts",
+      "marks": 3,
+      "prompt": "According to paragraph 4, decide whether each statement is True, False or Not Given.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Curren has a large number of YouTube subscribers.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Curren’s subscribers will be able to view updates of her project.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Curren thinks sharing her final year project will attract new subscribers.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "group": "q35to44",
+      "type": "choice",
+      "prompt": "What does the word ‘buzz’ (line 22) imply?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Curren feeling out of control"
+        },
+        {
+          "value": "B",
+          "label": "B. Curren suddenly being inspired"
+        },
+        {
+          "value": "C",
+          "label": "C. Curren chatting with her subscribers"
+        },
+        {
+          "value": "D",
+          "label": "D. Curren feeling the pressure of assignment deadlines"
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "group": "q35to44",
+      "type": "parts",
+      "marks": 4,
+      "prompt": "Complete the summary of Curren’s studies (paragraphs 5–6) with ONE word from the paragraphs in each blank.",
+      "context": "Curren has (i) ______ with assignment deadlines previously because she finds making YouTube videos more meaningful. Despite this, she has proved she can (ii) ______ herself to succeed in her studies. According to her (iii) ______, she may well graduate with a first class degree. However, Curren would rather maintain her (iv) ______ attitude toward her studies.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "group": "q35to44",
+      "type": "text",
+      "prompt": "Why does Curren prefer to be ‘out there in the public’ (line 30)?",
+      "context": "By doing this, she ensures that she thinks more ______"
+    },
+    {
+      "number": 43,
+      "group": "q35to44",
+      "type": "parts",
+      "marks": 2,
+      "prompt": "Give evidence from the text to justify why being a YouTuber could be both ‘scary’ and ‘the best decision’ for Curren.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Scary",
+          "type": "textarea"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) The best decision",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "group": "q35to44",
+      "type": "parts",
+      "marks": 5,
+      "prompt": "Is there evidence that Curren has followed each piece of advice on how to ‘Grow Your YouTube Channel’?",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Focus your content around a single topic or keyword.",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Include yourself in your videos.",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Create videos from what you already have.",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Keep your videos short.",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "key": "v",
+          "label": "(v) Respond to every comment you receive.",
+          "type": "choice",
+          "options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ]
+    }
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

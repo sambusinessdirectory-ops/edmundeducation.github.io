@@ -147,8 +147,21 @@
     {
       "number": 26,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "According to slide 3, why do Millennials prefer a sharing economy?\nii) What product is used by the writer to show their future purchasing habits?"
+      "type": "parts",
+      "prompt": "Answer both parts.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) According to slide 3, why do Millennials prefer a sharing economy?",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) What product is used by the writer to show their future purchasing habits?",
+          "type": "text"
+        }
+      ],
+      "marks": 2
     },
     {
       "number": 27,
@@ -178,11 +191,11 @@
       "number": 28,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to slides 1-4, are the following statements True (T), False (F) or Not Given (NG)?\n(3 marks)\nStatements T F NG",
+      "prompt": "According to slides 1–4, are the following statements True (T), False (F) or Not Given (NG)?",
       "parts": [
         {
           "key": "i",
-          "label": "i) There are more Millennials than members of any other generation. O",
+          "label": "(i) There are more Millennials than members of any other generation.",
           "type": "choice",
           "options": [
             "TRUE",
@@ -215,38 +228,240 @@
     {
       "number": 29,
       "group": "paper",
-      "type": "choice",
-      "prompt": "According to slide 5, how is technology changing the way Millennials shop?\nii) Which of the following tends to be the least important for Millennials when buying things?",
-      "options": [
+      "type": "parts",
+      "prompt": "Answer both parts.",
+      "parts": [
         {
-          "value": "A",
-          "label": "A. convenience"
+          "key": "i",
+          "label": "(i) According to slide 5, how is technology changing the way Millennials shop?",
+          "type": "text"
         },
         {
-          "value": "B",
-          "label": "B. reviews"
-        },
-        {
-          "value": "C",
-          "label": "C. brand"
-        },
-        {
-          "value": "D",
-          "label": "D. price"
+          "key": "ii",
+          "label": "(ii) Which of the following tends to be the least important for Millennials when buying things?",
+          "type": "choice",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. convenience"
+            },
+            {
+              "value": "B",
+              "label": "B. reviews"
+            },
+            {
+              "value": "C",
+              "label": "C. brand"
+            },
+            {
+              "value": "D",
+              "label": "D. price"
+            }
+          ]
         }
-      ]
+      ],
+      "marks": 2
     },
     {
       "number": 30,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Based on the information given on slide 6, fill in the blanks. Write ONE word in each blank. (5 marks)\nMillennials are (i). than other generations. They do more\n(ii) don't (iii) as much, and monitor their\nfitness with the help of (iv).. This generation defines good health as\nmore than simply not being (v)."
+      "type": "parts",
+      "prompt": "Based on the information given on slide 6, fill in the blanks. Write ONE word in each blank.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text"
+        }
+      ],
+      "context": "Millennials are (i) ______ than other generations. They do more (ii) ______, don’t (iii) ______ as much, and monitor their fitness with the help of (iv) ______. This generation defines good health as more than simply not being (v) ______.",
+      "marks": 5
     },
     {
       "number": 31,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Match the following headings to each slide of Text 2. Write the slide number next to each heading.\nOne heading is NOT used and should be left blank. (5 marks)\nHeading Slide number Heading Slide number\nMillennials - Coming of age 1 Diet and fitness\nClicking to buy Access, not ownership\nLove and marriage Housing\nEducation"
+      "type": "parts",
+      "prompt": "Match the following headings to each slide of Text 2. Write the slide number next to each heading. One heading is NOT used and should be left blank.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "Clicking to buy",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "NOT USED"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "Love and marriage",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "NOT USED"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "Education",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "NOT USED"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "Diet and fitness",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "NOT USED"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "Access, not ownership",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "NOT USED"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "vi",
+          "label": "Housing",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "NOT USED"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Heading",
+                "header": true
+              },
+              {
+                "text": "Slide number",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Millennials – Coming of age"
+              },
+              {
+                "text": "1 (example)"
+              }
+            ],
+            [
+              {
+                "text": "Clicking to buy"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "Love and marriage"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "Education"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "Diet and fitness"
+              },
+              {
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "Access, not ownership"
+              },
+              {
+                "part": "v"
+              }
+            ],
+            [
+              {
+                "text": "Housing"
+              },
+              {
+                "part": "vi"
+              }
+            ]
+          ]
+        }
+      ],
+      "marks": 5
     },
     {
       "number": 32,
@@ -258,7 +473,7 @@
       "number": 33,
       "group": "paper",
       "type": "parts",
-      "prompt": "mad you viper e ang i belen in the cprecious generation? Find ideas mentioned in paragraph arks",
+      "prompt": "How do young people have it better than the previous generations? Find ideas mentioned in paragraph 2 and match them with the examples given in the column on the right.",
       "tables": [
         {
           "rows": [
@@ -356,7 +571,8 @@
           "type": "text",
           "inTable": true
         }
-      ]
+      ],
+      "marks": 3
     },
     {
       "number": 34,
@@ -368,25 +584,45 @@
       "number": 35,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraphs 4-5, what are the three key challenges Millennials face? (3 marks)",
+      "prompt": "According to paragraphs 4–5, what are the three key challenges Millennials face?",
       "parts": [
         {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
           "key": "ii",
-          "label": "ii)",
+          "label": "(ii)",
           "type": "text"
         },
         {
           "key": "iii",
-          "label": "iii)",
+          "label": "(iii)",
           "type": "text"
         }
-      ]
+      ],
+      "marks": 3
     },
     {
       "number": 36,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Fill in the blanks based on information given in paragraph 4. (2 marks)\nThe young have a (i). chance of being employed compared to their elders.\nMore than a quarter of those from (ii). countries are NEETs."
+      "type": "parts",
+      "prompt": "Fill in the blanks based on information given in paragraph 4.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ],
+      "context": "The young have a (i) ______ chance of being employed compared to their elders. More than a quarter of those from (ii) ______ countries are NEETs.",
+      "marks": 2
     },
     {
       "number": 37,
@@ -415,8 +651,31 @@
     {
       "number": 38,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "According to paragraph 5, what are some of the advantages that megacities offer young people?\nTick (r) three boxes.\nmore schools to choose from better apartments better employment opportunities\nmore chances of falling in love more fun things to do"
+      "type": "multiple",
+      "prompt": "According to paragraph 5, what are some of the advantages that megacities offer young people? Tick three boxes.",
+      "options": [
+        {
+          "value": "i",
+          "label": "(i) more schools to choose from"
+        },
+        {
+          "value": "ii",
+          "label": "(ii) better apartments"
+        },
+        {
+          "value": "iii",
+          "label": "(iii) better employment opportunities"
+        },
+        {
+          "value": "iv",
+          "label": "(iv) more chances of falling in love"
+        },
+        {
+          "value": "v",
+          "label": "(v) more fun things to do"
+        }
+      ],
+      "slots": 3
     },
     {
       "number": 39,
@@ -428,19 +687,25 @@
       "number": 40,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraphs 6 and 7, why are young people having children later in life? Give three reasons.\n(3 marks)",
+      "prompt": "According to paragraphs 6 and 7, why are young people having children later in life? Give three reasons.",
       "parts": [
         {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
           "key": "ii",
-          "label": "ii)",
+          "label": "(ii)",
           "type": "text"
         },
         {
           "key": "iii",
-          "label": "iii)",
+          "label": "(iii)",
           "type": "text"
         }
-      ]
+      ],
+      "marks": 3
     },
     {
       "number": 41,
@@ -493,25 +758,46 @@
     {
       "number": 43,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Who/what does 'they' (line 59) refer to?\nii) What would be 'immoral' (line 60)?\n(1 mark)"
+      "type": "parts",
+      "prompt": "Answer both parts.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Who/what does “they” (line 59) refer to?",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) What would be “immoral” (line 60)?",
+          "type": "text"
+        }
+      ],
+      "marks": 2
     },
     {
       "number": 44,
       "group": "paper",
       "type": "choice",
-      "prompt": "What message about Millennials does the writer want to send?\nAlthough their lives seem easy, they actually face many difficulties.",
+      "prompt": "What message about Millennials does the writer want to send?",
       "options": [
+        {
+          "value": "A",
+          "label": "A. Although their lives seem easy, they actually face many difficulties."
+        },
         {
           "value": "B",
           "label": "B. Although they live better lives, they are not as happy as their parents."
         },
         {
           "value": "C",
-          "label": "C. Although they face many obstacles, they are able to cope with the"
+          "label": "C. Although they face many obstacles, they are able to cope with the challenges."
+        },
+        {
+          "value": "D",
+          "label": "D. Although they have more opportunities, they don’t make the most of them."
         }
-      ],
-      "optionBank": "B. Although they live better lives, they are not as happy as their parents.\nC. Although they face many obstacles, they are able to cope with the\nchallenges.\nAlthough they have more opportunities, they don't make the most of\nthem."
+      ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

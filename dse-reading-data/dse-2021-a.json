@@ -117,7 +117,7 @@
         },
         {
           "value": "C",
-          "label": "C. their phones D"
+          "label": "C. their phones"
         },
         {
           "value": "D",
@@ -177,11 +177,11 @@
       "number": 4,
       "group": "paper",
       "type": "parts",
-      "prompt": "Decide whether the following statements are True (T), False (F), or Not Given (NG) in paragraph 3.\n(3 marks)\nStatements T NG",
+      "prompt": "Decide whether the following statements are True (T), False (F), or Not Given (NG) in paragraph 3.\n(3 marks)",
       "parts": [
         {
           "key": "i",
-          "label": "(i) The writer enjoys watching Cool Food. C",
+          "label": "(i) The writer enjoys watching Cool Food.",
           "type": "choice",
           "options": [
             "TRUE",
@@ -244,8 +244,20 @@
     {
       "number": 7,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Find TWO words in paragraph 4 that have similar meanings to 'delicious'. (2 marks)\n(i)"
+      "type": "parts",
+      "prompt": "Find TWO words in paragraph 4 that have similar meanings to 'delicious'. (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 8,
@@ -268,8 +280,32 @@
     {
       "number": 11,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Based on the information from the text, complete the mission statement of the Food Garage. Write a word or\na phrase taken from the text to fill in each blank. Answers should be grammatically correct. (4 marks)\nOur Mission\nWe take (i) that is traditionally high in fat, salt and sugar and make\nour own delicious homemade alternatives using fresh ingredients that are sourced\n(ii) Whether it's a burger, hot dog, soft drink or sundae, we have\nfound creative ways to create (iii) dishes without compromising taste.\nBest of all, adults love our food, and so do (iv)"
+      "type": "parts",
+      "prompt": "Based on the information from the text, complete the mission statement of the Food Garage. Write a word or a phrase taken from the text to fill in each blank. Answers should be grammatically correct. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        }
+      ],
+      "context": "Our Mission\nWe take (i) ______ that is traditionally high in fat, salt and sugar and make our own delicious homemade alternatives using fresh ingredients that are sourced (ii) ______. Whether it's a burger, hot dog, soft drink or sundae, we have found creative ways to create (iii) ______ dishes without compromising taste. Best of all, adults love our food, and so do (iv) ______.",
+      "marks": 4
     },
     {
       "number": 12,
@@ -419,7 +455,7 @@
       "number": 25,
       "group": "paper",
       "type": "parts",
-      "prompt": "Decide whether the following statements are True (T), False (F) or Not Given (NG) in paragraphs 2 to 5.\n(3 marks)\nStatements T F NG",
+      "prompt": "Decide whether the following statements are True (T), False (F) or Not Given (NG) in paragraphs 2 to 5.\n(3 marks)",
       "parts": [
         {
           "key": "i",
@@ -458,117 +494,121 @@
       "group": "paper",
       "type": "parts",
       "prompt": "The table below compares the current situation with what would happen if the sustainability initiatives were\ncarried out. Complete the table by using a maximum of TWO words taken from paragraphs 2 to 5 for each gap.\n(4 marks)",
-      "tables": [
-        {
-          "rows": [
-            [
-              {
-                "text": "Current Situation",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "header": true
-              },
-              {
-                "text": "Desired Outcome",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "header": true
-              }
-            ],
-            [
-              {
-                "text": "Star Resort does not have\ncontrolling influence in the\nseafood vendor market.",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "This promotes fishing practices that\nCreate a (i).\nare sustainable.",
-                "colSpan": 2,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r2c2g1"
-                ]
-              }
-            ],
-            [
-              {
-                "text": "Vendors of other food types to\nStar Resorts may contribute to\ndamaging the environment.",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "Require our food suppliers to get\n(ii)\ndocuments to prove their green\ncredentials.",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r3c2g1"
-                ]
-              },
-              {
-                "text": "This will encourage Singaporean\nfood vendors to become\n(іїї)",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r3c3g1"
-                ]
-              }
-            ],
-            [
-              {
-                "text": "Vertical farms have been\nproducing (iv)",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r4c1g1"
-                ]
-              },
-              {
-                "text": "Increase investment in the vertical\nfarms.",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "Vertical farms will grow a greater\nrange of produce.",
-                "colSpan": 1,
-                "rowSpan": 1
-              }
-            ]
-          ],
-          "columns": 3
-        }
-      ],
       "parts": [
         {
-          "key": "t1r2c2g1",
+          "key": "i",
           "label": "(i)",
           "type": "text",
           "inTable": true
         },
         {
-          "key": "t1r3c2g1",
+          "key": "ii",
           "label": "(ii)",
           "type": "text",
           "inTable": true
         },
         {
-          "key": "t1r3c3g1",
-          "label": "(іїї)",
+          "key": "iii",
+          "label": "(iii)",
           "type": "text",
           "inTable": true
         },
         {
-          "key": "t1r4c1g1",
+          "key": "iv",
           "label": "(iv)",
           "type": "text",
           "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Current Situation",
+                "header": true
+              },
+              {
+                "text": "Initiative",
+                "header": true
+              },
+              {
+                "text": "Desired Outcome",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Star Resort does not have controlling influence in the seafood vendor market."
+              },
+              {
+                "text": "Create a (i) ______.",
+                "part": "i"
+              },
+              {
+                "text": "This promotes fishing practices that are sustainable."
+              }
+            ],
+            [
+              {
+                "text": "Vendors of other food types to Star Resorts may contribute to damaging the environment."
+              },
+              {
+                "text": "Require our food suppliers to get (ii) ______ documents to prove their green credentials.",
+                "part": "ii"
+              },
+              {
+                "text": "This will encourage Singaporean food vendors to become (iii) ______.",
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "Vertical farms have been producing (iv) ______.",
+                "part": "iv"
+              },
+              {
+                "text": "Increase investment in the vertical farms."
+              },
+              {
+                "text": "Vertical farms will grow a greater range of produce."
+              }
+            ]
+          ]
         }
       ]
     },
     {
       "number": 27,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the following summary by writing ONE word taken from paragraphs 6 to 7 in each blank below.\nYour answers must be grammatically correct. (4 marks)\nThe (i) of our staff members is the key to our success in environmental goals. For this\nreason, we would like to implement three initiatives that aim to increase participation. To raise their awareness of\nall Star Resort environmental policies, (ii) will be mandatory for all new employees.\nWe know that all employees like to receive (ili) when they reach their targets. So these\nwill be provided as our second initiative. Also, employee ownership of initiatives is a motivator so we can hold\ncompetitions to encourage employees' (iv) in finding new solutions."
+      "type": "parts",
+      "prompt": "Complete the following summary by writing ONE word taken from paragraphs 6 to 7 in each blank below. Your answers must be grammatically correct. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        }
+      ],
+      "context": "The (i) ______ of our staff members is the key to our success in environmental goals. For this reason, we would like to implement three initiatives that aim to increase participation. To raise their awareness of all Star Resort environmental policies, (ii) ______ will be mandatory for all new employees. We know that all employees like to receive (iii) ______ when they reach their targets. So these will be provided as our second initiative. Also, employee ownership of initiatives is a motivator so we can hold competitions to encourage employees' (iv) ______ in finding new solutions.",
+      "marks": 4
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

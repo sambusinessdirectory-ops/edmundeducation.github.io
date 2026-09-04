@@ -165,7 +165,7 @@
         },
         {
           "value": "C",
-          "label": "C. ancient Chinese history. D"
+          "label": "C. ancient Chinese history."
         },
         {
           "value": "D",
@@ -188,26 +188,57 @@
     {
       "number": 30,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Use ONE word to complete each blank.\nZou believes Westerners like the guzheng because it sounds and"
+      "type": "parts",
+      "prompt": "Use ONE word to complete each blank.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ],
+      "context": "Zou believes Westerners like the guzheng because it sounds (i) ______ and (ii) ______."
     },
     {
       "number": 31,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Paragraph 4 mentions five benefits of playing the guzheng. Match each of the following speech bubbles\nwith one of the benefits listed in the paragraph. Write the appropriate benefit under the speech bubble.\n(3 marks)\n3y joining guzheng classes Playing the guzheng allows The guzheng is an outlet for\nand learning how to play the me to feel that I have learned my creativity.\ninstrument, I have been able to something new.\nmeet new and interesting\nfriends.\ni) ii). iti)",
+      "type": "parts",
+      "prompt": "Paragraph 4 mentions five benefits of playing the guzheng. Match each of the following speech bubbles with one of the benefits listed in the paragraph. Write the appropriate benefit under the speech bubble.",
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/content/2013/b1/questions-1-crop-1.webp",
           "alt": "Three speech bubbles describing the benefits of playing the guzheng"
         }
-      ]
+      ],
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Left speech bubble",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Middle speech bubble",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Right speech bubble",
+          "type": "text"
+        }
+      ],
+      "marks": 3
     },
     {
       "number": 32,
       "group": "paper",
       "type": "parts",
-      "prompt": "Decide whether the following statements are True, False, or the information is Not Given. Blacken ONE\ncircle only for each statement. (4 marks)\nNG",
+      "prompt": "Decide whether the following statements are True, False, or the information is Not Given. Choose ONE answer for each statement.",
       "parts": [
         {
           "key": "i",
@@ -249,65 +280,97 @@
             "NOT GIVEN"
           ]
         }
-      ]
+      ],
+      "marks": 4
     },
     {
       "number": 33,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "The group course provided by the International Academy for Musical Arts focuses on several skills.\nPut a tick (r) next to each skill that is taught.\nhow to read music\nthe correct use of both hands\nhow to pluck the strings\nhow to maintain the instrument\nhow to sit properly while playing the instrument"
+      "type": "multiple",
+      "prompt": "The group course provided by the International Academy for Musical Arts focuses on several skills. Put a tick next to each skill that is taught.",
+      "selectionLimit": false,
+      "options": [
+        {
+          "value": "a",
+          "label": "how to read music"
+        },
+        {
+          "value": "b",
+          "label": "the correct use of both hands"
+        },
+        {
+          "value": "c",
+          "label": "how to pluck the strings"
+        },
+        {
+          "value": "d",
+          "label": "how to maintain the instrument"
+        },
+        {
+          "value": "e",
+          "label": "how to sit properly while playing the instrument"
+        }
+      ]
     },
     {
       "number": 34,
       "group": "paper",
       "type": "parts",
       "prompt": "Complete the following advertisement for the International Academy for Musical Arts. You may use more than one word for some of the blanks. (10 marks)",
-      "context": "Learn how to play the guzheng at the International Academy for Musical Arts",
       "parts": [
         {
           "key": "enrolment1",
           "label": "The International Academy for Musical Arts is pleased to announce open enrollment for ______ and",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "enrolment2",
           "label": "______ learners.",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "founder",
           "label": "The academy was set up by ______ in 2006.",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "location",
           "label": "We are located in ______.",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "setting",
           "label": "Beginners can learn in a ______ setting!",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "lessons",
           "label": "Number of lessons:",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "duration",
           "label": "Each lesson lasts:",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "cost",
           "label": "Cost:",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "remote",
           "label": "We also provide lessons through ______ for people who cannot come to the school.",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "level1",
@@ -336,11 +399,42 @@
       ],
       "tables": [
         {
-          "caption": "What we offer",
+          "compact": true,
           "rows": [
             [
               {
-                "text": "One-to-one lessons for different levels",
+                "text": "Learn how to play the guzheng at the International Academy for Musical Arts",
+                "header": true,
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "The International Academy for Musical Arts is pleased to announce open enrollment for ______ and ______ learners.",
+                "colSpan": 2,
+                "parts": [
+                  "enrolment1",
+                  "enrolment2"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "The academy was set up by ______ in 2006.",
+                "colSpan": 2,
+                "part": "founder"
+              }
+            ],
+            [
+              {
+                "text": "We are located in ______.",
+                "colSpan": 2,
+                "part": "location"
+              }
+            ],
+            [
+              {
+                "text": "What we offer: One-to-one lessons for different levels",
                 "header": true
               },
               {
@@ -350,11 +444,9 @@
             ],
             [
               {
-                "text": "",
                 "part": "level1"
               },
               {
-                "text": "",
                 "part": "cost1"
               }
             ],
@@ -368,12 +460,55 @@
             ],
             [
               {
-                "text": "",
                 "part": "level2"
               },
               {
-                "text": "",
                 "part": "cost2"
+              }
+            ],
+            [
+              {
+                "text": "And",
+                "colSpan": 2,
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Beginners can learn in a ______ setting!",
+                "part": "setting",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "Number of lessons:"
+              },
+              {
+                "part": "lessons"
+              }
+            ],
+            [
+              {
+                "text": "Each lesson lasts:"
+              },
+              {
+                "part": "duration"
+              }
+            ],
+            [
+              {
+                "text": "Cost:"
+              },
+              {
+                "part": "cost"
+              }
+            ],
+            [
+              {
+                "text": "We also provide lessons through ______ for people who cannot come to the school.",
+                "part": "remote",
+                "colSpan": 2
               }
             ]
           ]
@@ -389,8 +524,64 @@
     {
       "number": 36,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "For each of the following students, blacken the circle of the organization which offers a course they can\nattend. Blacken ONE circle only for each statement. (2 marks)\nLeisure and\nCultural Gu Zheng\nServices Artist\nDepartment Association\nStudent A: Learning how to play the guzheng sounds great, but I will be\nvery busy this year, so a short course would be best.\nStudent B: I've been playing the guzheng for many years as a hobby.\nNow I want to turn this hobby into a career."
+      "type": "parts",
+      "prompt": "For each of the following students, choose the organization which offers a course they can attend. Choose ONE answer for each statement.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "Student A: Learning how to play the guzheng sounds great, but I will be very busy this year, so a short course would be best.",
+          "type": "choice",
+          "options": [
+            "Leisure and Cultural Services Department",
+            "Gu Zheng Artist Association"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "Student B: I've been playing the guzheng for many years as a hobby. Now I want to turn this hobby into a career.",
+          "type": "choice",
+          "options": [
+            "Leisure and Cultural Services Department",
+            "Gu Zheng Artist Association"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Student",
+                "header": true
+              },
+              {
+                "text": "Organization",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Student A: Learning how to play the guzheng sounds great, but I will be very busy this year, so a short course would be best."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "Student B: I've been playing the guzheng for many years as a hobby. Now I want to turn this hobby into a career."
+              },
+              {
+                "part": "ii"
+              }
+            ]
+          ]
+        }
+      ],
+      "marks": 2
     },
     {
       "number": 37,
@@ -438,37 +629,182 @@
       "number": 41,
       "group": "paper",
       "type": "parts",
-      "prompt": "Read paragraphs 5-6 and answer the following questions by choosing either 'Low self-esteem users' or (4 marks)\n\"High self-esteem users'. Blacken ONE circle only for each question.\nLow self- High self-\nesteem users\nWho uses Facebook less?\nWho is less likeable on Facebook?",
+      "prompt": "Read paragraphs 5-6 and answer the following questions by choosing either 'Low self-esteem users' or 'High self-esteem users'. Choose ONE answer for each question.",
       "parts": [
         {
+          "key": "i",
+          "label": "(i) Who uses Facebook less?",
+          "type": "choice",
+          "options": [
+            "Low self-esteem users",
+            "High self-esteem users"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Who is less likeable on Facebook?",
+          "type": "choice",
+          "options": [
+            "Low self-esteem users",
+            "High self-esteem users"
+          ],
+          "inTable": true
+        },
+        {
           "key": "iii",
-          "label": "iii) Who is more likely to make negative comments on Facebook?",
-          "type": "text"
+          "label": "(iii) Who is more likely to make negative comments on Facebook?",
+          "type": "choice",
+          "options": [
+            "Low self-esteem users",
+            "High self-esteem users"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
-          "label": "iv) Who receives more responses when posting negative comments?",
-          "type": "text"
+          "label": "(iv) Who receives more responses when posting negative comments?",
+          "type": "choice",
+          "options": [
+            "Low self-esteem users",
+            "High self-esteem users"
+          ],
+          "inTable": true
         }
-      ]
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Question",
+                "header": true
+              },
+              {
+                "text": "Users",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Who uses Facebook less?"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Who is less likeable on Facebook?"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Who is more likely to make negative comments on Facebook?"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Who receives more responses when posting negative comments?"
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
+        }
+      ],
+      "marks": 4
     },
     {
       "number": 42,
       "group": "paper",
       "type": "parts",
-      "prompt": "Read paragraphs 7-9 and decide whether the following statements are True, False, or the information is\nNot Given. Blacken ONE circle only for each statement.\nT F NG",
+      "prompt": "Read paragraphs 7-9 and decide whether the following statements are True, False, or the information is Not Given. Choose ONE answer for each statement.",
       "parts": [
         {
           "key": "i",
-          "label": "i) People with low self-esteem feel that Facebook is a safe place to\nshare information about themselves.",
-          "type": "text"
+          "label": "(i) People with low self-esteem feel that Facebook is a safe place to share information about themselves.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
-          "label": "ii) It is more difficult to read someone's reaction when you talk to them\nface to face than through Facebook.\nlil) Participants of the study checked their e-mails even though they said\nthey would rather sleep.",
-          "type": "text"
+          "label": "(ii) It is more difficult to read someone's reaction when you talk to them face to face than through Facebook.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Participants of the study checked their e-mails even though they said they would rather sleep.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         }
-      ]
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statements",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) People with low self-esteem feel that Facebook is a safe place to share information about themselves."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) It is more difficult to read someone's reaction when you talk to them face to face than through Facebook."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Participants of the study checked their e-mails even though they said they would rather sleep."
+              },
+              {
+                "part": "iii"
+              }
+            ]
+          ]
+        }
+      ],
+      "marks": 3
     },
     {
       "number": 43,
@@ -485,8 +821,22 @@
     {
       "number": 45,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "In what way could social networking websites help people with low self-esteem?\nii) In what way can social networking websites be harmful to people with low self-esteem?"
+      "type": "parts",
+      "prompt": "Answer both parts.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) In what way could social networking websites help people with low self-esteem?",
+          "type": "textarea"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) In what way can social networking websites be harmful to people with low self-esteem?",
+          "type": "textarea"
+        }
+      ],
+      "marks": 2
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

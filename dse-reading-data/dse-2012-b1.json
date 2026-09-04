@@ -44,101 +44,741 @@
     "q39to40": "Questions 39–40"
   },
   "questions": [
-    { "number": 21, "group": "q21to26", "type": "text", "prompt": "What does ‘it’ (line 2) refer to?" },
-    { "number": 22, "group": "q21to26", "type": "choice", "prompt": "The Climate Quilt Campaign is an initiative to...", "options": [
-      { "value": "A", "label": "A. teach children about quilt-making." },
-      { "value": "B", "label": "B. help children from around the world." },
-      { "value": "C", "label": "C. raise awareness about climate change." },
-      { "value": "D", "label": "D. recycle clothing from around the world." }
-    ] },
-    { "number": 23, "group": "q21to26", "type": "text", "prompt": "Complete the sentence using information from the passage.", "context": "A ‘pledge patch’ is..." },
-    { "number": 24, "group": "q21to26", "type": "parts", "marks": 3, "prompt": "When the Chubins first opened Crafeteria, they wanted a store where people could... Choose all statements that apply.", "parts": [
-      { "key": "i", "label": "(i) sew a huge quilt", "type": "choice", "options": ["APPLIES", "DOES NOT APPLY"] },
-      { "key": "ii", "label": "(ii) learn how to quilt and embroider", "type": "choice", "options": ["APPLIES", "DOES NOT APPLY"] },
-      { "key": "iii", "label": "(iii) buy yarn, sewing machines and all kinds of fabrics", "type": "choice", "options": ["APPLIES", "DOES NOT APPLY"] },
-      { "key": "iv", "label": "(iv) meet other customers", "type": "choice", "options": ["APPLIES", "DOES NOT APPLY"] },
-      { "key": "v", "label": "(v) repair their sewing machines", "type": "choice", "options": ["APPLIES", "DOES NOT APPLY"] }
-    ] },
-    { "number": 25, "group": "q21to26", "type": "choice", "prompt": "Which of the following is closest in meaning to ‘intrigued’ (line 28)?", "options": [
-      { "value": "A", "label": "A. fascinated" },
-      { "value": "B", "label": "B. confused" },
-      { "value": "C", "label": "C. surprised" },
-      { "value": "D", "label": "D. delighted" }
-    ] },
-    { "number": 26, "group": "q21to26", "type": "text", "prompt": "Use ONE word to complete the sentence.", "context": "Quilting is a form of recycling because you can make something new out of ______ that are old." },
-    { "number": 27, "group": "q27to29", "type": "choice", "prompt": "The Chubins participated in the Climate Quilt Campaign by...", "context": "i. contributing money towards the campaign’s tight budget\nii. contacting people living in the community\niii. collecting more than 2,500 patches from around the USA\niv. donating their store’s equipment", "options": [
-      { "value": "A", "label": "A. i, iii" },
-      { "value": "B", "label": "B. ii, iii" },
-      { "value": "C", "label": "C. i, iv" },
-      { "value": "D", "label": "D. ii, iv" }
-    ] },
-    { "number": 28, "group": "q27to29", "type": "choice", "prompt": "How did Kemmerer feel when she said, ‘We couldn’t have finished the job without the help of the local community’ (lines 55–56)?", "options": [
-      { "value": "A", "label": "A. critical" },
-      { "value": "B", "label": "B. grateful" },
-      { "value": "C", "label": "C. confident" },
-      { "value": "D", "label": "D. frustrated" }
-    ] },
-    { "number": 29, "group": "q27to29", "type": "text", "prompt": "What does ‘job’ (line 55) refer to?" },
-    { "number": 30, "group": "q30", "type": "parts", "marks": 5, "prompt": "Write the name of the child on each pledge. One pledge is NOT used; write NG.", "parts": [
-      { "key": "i", "label": "(i) I will ride my bicycle to school.", "type": "text" },
-      { "key": "ii", "label": "(ii) I will turn off the tap while scrubbing my hands.", "type": "text" },
-      { "key": "iii", "label": "(iii) I will recycle as much as possible.", "type": "text" },
-      { "key": "iv", "label": "(iv) I will separate my waste.", "type": "text" },
-      { "key": "v", "label": "(v) I will pack unfinished food.", "type": "text" }
-    ] },
-    { "number": 31, "group": "q31to33", "type": "text", "prompt": "Read paragraphs 17–18. Find an expression that means the same as ‘help’." },
-    { "number": 32, "group": "q31to33", "type": "parts", "marks": 4, "prompt": "Why is Shauna Munshower positive about this project?", "parts": [
-      { "key": "a", "label": "(a)", "type": "text" },
-      { "key": "b", "label": "(b)", "type": "text" },
-      { "key": "c", "label": "(c)", "type": "text" },
-      { "key": "d", "label": "(d)", "type": "text" }
-    ] },
-    { "number": 33, "group": "q31to33", "type": "textarea", "prompt": "Why does Phyllis Smith say ‘Wow’ (line 100)?" },
-    { "number": 34, "group": "q34", "type": "parts", "marks": 4, "prompt": "Choose TRUE, FALSE or NOT GIVEN for each statement.", "parts": [
-      { "key": "i", "label": "(i) Only children stitched the quilt.", "type": "choice", "options": ["TRUE", "FALSE", "NOT GIVEN"] },
-      { "key": "ii", "label": "(ii) Rachel and Jacob are related.", "type": "choice", "options": ["TRUE", "FALSE", "NOT GIVEN"] },
-      { "key": "iii", "label": "(iii) Jacob and Patrick are classmates.", "type": "choice", "options": ["TRUE", "FALSE", "NOT GIVEN"] },
-      { "key": "iv", "label": "(iv) Each participant could express their personality through the pledge patches.", "type": "choice", "options": ["TRUE", "FALSE", "NOT GIVEN"] }
-    ] },
-    { "number": 35, "group": "q35", "type": "text", "prompt": "Use ONE word to complete the sentence.", "context": "According to Kemmerer, the ultimate goal of the Climate Quilt Campaign is to ______ kids." },
-    { "number": 36, "group": "q36", "type": "parts", "marks": 4, "prompt": "Put the events in the correct order. One event has already been assigned number 1 in the original paper; assign 1–5 here.", "parts": [
-      { "key": "displayed", "label": "The Quilt was displayed in Washington.", "type": "select", "options": ["1", "2", "3", "4", "5"] },
-      { "key": "emails", "label": "Steve sent many emails to his customers.", "type": "select", "options": ["1", "2", "3", "4", "5"] },
-      { "key": "call", "label": "Karen made a call to the Climate Quilt Campaign.", "type": "select", "options": ["1", "2", "3", "4", "5"] },
-      { "key": "volunteers", "label": "Volunteers went to the store to sew patches.", "type": "select", "options": ["1", "2", "3", "4", "5"] },
-      { "key": "children", "label": "Children all over the world began making pledge patches.", "type": "select", "options": ["1", "2", "3", "4", "5"] }
-    ] },
-    { "number": 37, "group": "q37", "type": "parts", "marks": 4, "prompt": "Match each subheading with Section A, B, C, D or E. One section letter is already used for ‘Crafeteria’; one subheading is NOT used.", "parts": [
-      { "key": "i", "label": "(i) A love of quilting", "type": "select", "options": ["A", "B", "C", "D", "E", "NOT USED"] },
-      { "key": "ii", "label": "(ii) Locals get involved", "type": "select", "options": ["A", "B", "C", "D", "E", "NOT USED"] },
-      { "key": "iii", "label": "(iii) Volunteers share their experience", "type": "select", "options": ["A", "B", "C", "D", "E", "NOT USED"] },
-      { "key": "iv", "label": "(iv) The campaign continues", "type": "select", "options": ["A", "B", "C", "D", "E", "NOT USED"] },
-      { "key": "v", "label": "(v) A campaign for all children", "type": "select", "options": ["A", "B", "C", "D", "E", "NOT USED"] },
-      { "key": "vi", "label": "(vi) Crafeteria", "type": "select", "options": ["A", "B", "C", "D", "E", "NOT USED"] }
-    ] },
-    { "number": 38, "group": "q38", "type": "parts", "marks": 5, "prompt": "Complete the pledge-patch flowchart using A–F. One statement is NOT used.", "optionBank": "A. ...patch in a creative way.\nB. ...patch to the campaign offices.\nC. ...patch with your pledge to help the environment.\nD. ...fabric from old clothes, bed sheets, or table cloths.\nE. ...patch to the Campaign’s website.\nF. ...patch approximately 16 cm × 16 cm and make sure the sides are straight.", "parts": [
-      { "key": "step1", "label": "Step 1 · Find some...", "type": "select", "options": ["A", "B", "C", "D", "E", "F"] },
-      { "key": "step2", "label": "Step 2 · Cut your...", "type": "select", "options": ["A", "B", "C", "D", "E", "F"] },
-      { "key": "step3", "label": "Step 3 · Personalise your...", "type": "select", "options": ["A", "B", "C", "D", "E", "F"] },
-      { "key": "step4", "label": "Step 4 · Decorate your...", "type": "select", "options": ["A", "B", "C", "D", "E", "F"] },
-      { "key": "step5", "label": "Step 5 · Send your...", "type": "select", "options": ["A", "B", "C", "D", "E", "F"] }
-    ] },
-    { "number": 39, "group": "q39to40", "type": "choice", "prompt": "Which of the following is the best alternative title for this text?", "options": [
-      { "value": "A", "label": "A. Campaign Needs Volunteers" },
-      { "value": "B", "label": "B. Climate Change around the World" },
-      { "value": "C", "label": "C. Climate Quilt in Action" },
-      { "value": "D", "label": "D. Recycling Old Clothes" }
-    ] },
-    { "number": 40, "group": "q39to40", "type": "parts", "marks": 9, "prompt": "Complete the summary using ONE word in each blank. Make sure the answers are grammatically correct.", "context": "The Climate Quilt Campaign is an (i) ______ initiative involving young people. In Pennsylvania, the owners of (ii) ______ invited members of their community to take part in this campaign. Children were given a scrap of recycled (iii) ______ which they used to make (iv) ______. Children taking part were of all (v) ______, so the sophistication of the pledges and the squares varied. ‘I pledge to save (vi) ______’ was one example of a pledge. In total, (vii) ______ squares of fabric were sewn together to make a quilt. The quilt was recently on display in Washington D.C. for (viii) ______. The quilt will ultimately be a symbol of children’s hopes and dreams for the future of the (ix) ______.", "parts": [
-      { "key": "i", "label": "(i)", "type": "text" },
-      { "key": "ii", "label": "(ii)", "type": "text" },
-      { "key": "iii", "label": "(iii)", "type": "text" },
-      { "key": "iv", "label": "(iv)", "type": "text" },
-      { "key": "v", "label": "(v)", "type": "text" },
-      { "key": "vi", "label": "(vi)", "type": "text" },
-      { "key": "vii", "label": "(vii)", "type": "text" },
-      { "key": "viii", "label": "(viii)", "type": "text" },
-      { "key": "ix", "label": "(ix)", "type": "text" }
-    ] }
-  ]
+    {
+      "number": 21,
+      "group": "q21to26",
+      "type": "text",
+      "prompt": "What does ‘it’ (line 2) refer to?"
+    },
+    {
+      "number": 22,
+      "group": "q21to26",
+      "type": "choice",
+      "prompt": "The Climate Quilt Campaign is an initiative to...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. teach children about quilt-making."
+        },
+        {
+          "value": "B",
+          "label": "B. help children from around the world."
+        },
+        {
+          "value": "C",
+          "label": "C. raise awareness about climate change."
+        },
+        {
+          "value": "D",
+          "label": "D. recycle clothing from around the world."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "group": "q21to26",
+      "type": "text",
+      "prompt": "Complete the sentence using information from the passage.",
+      "context": "A ‘pledge patch’ is..."
+    },
+    {
+      "number": 24,
+      "group": "q21to26",
+      "type": "multiple",
+      "marks": 3,
+      "prompt": "When the Chubins first opened Crafeteria, they wanted a store where people could... Tick all statements that apply.",
+      "options": [
+        {
+          "value": "i",
+          "label": "(i) sew a huge quilt"
+        },
+        {
+          "value": "ii",
+          "label": "(ii) learn how to quilt and embroider"
+        },
+        {
+          "value": "iii",
+          "label": "(iii) buy yarn, sewing machines and all kinds of fabrics"
+        },
+        {
+          "value": "iv",
+          "label": "(iv) meet other customers"
+        },
+        {
+          "value": "v",
+          "label": "(v) repair their sewing machines"
+        }
+      ],
+      "selectionLimit": false
+    },
+    {
+      "number": 25,
+      "group": "q21to26",
+      "type": "choice",
+      "prompt": "Which of the following is closest in meaning to ‘intrigued’ (line 28)?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. fascinated"
+        },
+        {
+          "value": "B",
+          "label": "B. confused"
+        },
+        {
+          "value": "C",
+          "label": "C. surprised"
+        },
+        {
+          "value": "D",
+          "label": "D. delighted"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "group": "q21to26",
+      "type": "parts",
+      "prompt": "Use ONE word to complete each blank.",
+      "context": "Quilting is a form of recycling because you can make something new out of (i) ______ (ii) ______ that are (iii) ______ (iv) ______.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "group": "q27to29",
+      "type": "choice",
+      "prompt": "The Chubins participated in the Climate Quilt Campaign by...",
+      "context": "i. contributing money towards the campaign’s tight budget\nii. contacting people living in the community\niii. collecting more than 2,500 patches from around the USA\niv. donating their store’s equipment",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. i, iii"
+        },
+        {
+          "value": "B",
+          "label": "B. ii, iii"
+        },
+        {
+          "value": "C",
+          "label": "C. i, iv"
+        },
+        {
+          "value": "D",
+          "label": "D. ii, iv"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "group": "q27to29",
+      "type": "choice",
+      "prompt": "How did Kemmerer feel when she said, ‘We couldn’t have finished the job without the help of the local community’ (lines 55–56)?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. critical"
+        },
+        {
+          "value": "B",
+          "label": "B. grateful"
+        },
+        {
+          "value": "C",
+          "label": "C. confident"
+        },
+        {
+          "value": "D",
+          "label": "D. frustrated"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "group": "q27to29",
+      "type": "text",
+      "prompt": "What does ‘job’ (line 55) refer to?"
+    },
+    {
+      "number": 30,
+      "group": "q30",
+      "type": "parts",
+      "marks": 5,
+      "prompt": "Write the name of the child on each pledge. One pledge is NOT used; write NG.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) I will ride my bicycle to school.",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) I will turn off the tap while scrubbing my hands.",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii) I will recycle as much as possible.",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv) I will separate my waste.",
+          "type": "text"
+        },
+        {
+          "key": "v",
+          "label": "(v) I will pack unfinished food.",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "group": "q31to33",
+      "type": "text",
+      "prompt": "Read paragraphs 17–18. Find an expression that means the same as ‘help’."
+    },
+    {
+      "number": 32,
+      "group": "q31to33",
+      "type": "parts",
+      "marks": 4,
+      "prompt": "Why is Shauna Munshower positive about this project?",
+      "parts": [
+        {
+          "key": "a",
+          "label": "(a)",
+          "type": "text"
+        },
+        {
+          "key": "b",
+          "label": "(b)",
+          "type": "text"
+        },
+        {
+          "key": "c",
+          "label": "(c)",
+          "type": "text"
+        },
+        {
+          "key": "d",
+          "label": "(d)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "group": "q31to33",
+      "type": "textarea",
+      "prompt": "Why does Phyllis Smith say ‘Wow’ (line 100)?"
+    },
+    {
+      "number": 34,
+      "group": "q34",
+      "type": "parts",
+      "marks": 4,
+      "prompt": "Decide whether the following statements are True, False, or the information is Not Given in paragraphs 13–21.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Only children stitched the quilt.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Rachel and Jacob are related.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Jacob and Patrick are classmates.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Each participant could express their personality through the pledge patches.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "group": "q35",
+      "type": "parts",
+      "prompt": "Use ONE word to complete each blank.",
+      "context": "According to Kemmerer, the ultimate goal of the Climate Quilt Campaign is to (i) ______ (ii) ______.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "group": "q36",
+      "type": "parts",
+      "marks": 4,
+      "prompt": "Put the following events in the correct order by writing the numbers 2–5 in the boxes below. One has been done for you as an example.",
+      "parts": [
+        {
+          "key": "displayed",
+          "label": "The Quilt was displayed in Washington.",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "emails",
+          "label": "Steve sent many emails to his customers.",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "call",
+          "label": "Karen made a call to the Climate Quilt Campaign.",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "volunteers",
+          "label": "Volunteers went to the store to sew patches.",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Event",
+                "header": true
+              },
+              {
+                "text": "Order",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "The Quilt was displayed in Washington."
+              },
+              {
+                "part": "displayed"
+              }
+            ],
+            [
+              {
+                "text": "Steve sent many emails to his customers."
+              },
+              {
+                "part": "emails"
+              }
+            ],
+            [
+              {
+                "text": "Karen made a call to the Climate Quilt Campaign."
+              },
+              {
+                "part": "call"
+              }
+            ],
+            [
+              {
+                "text": "Volunteers went to the store to sew patches."
+              },
+              {
+                "part": "volunteers"
+              }
+            ],
+            [
+              {
+                "text": "Children all over the world began making pledge patches."
+              },
+              {
+                "text": "1 (example)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "group": "q37",
+      "type": "parts",
+      "marks": 4,
+      "prompt": "Match each subheading with Section A, B, C, D or E. One section letter is already used for ‘Crafeteria’; one subheading is NOT used.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) A love of quilting",
+          "type": "select",
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "NOT USED"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Locals get involved",
+          "type": "select",
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "NOT USED"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Volunteers share their experience",
+          "type": "select",
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "NOT USED"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv) The campaign continues",
+          "type": "select",
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "NOT USED"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "(v) A campaign for all children",
+          "type": "select",
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "NOT USED"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Subheading",
+                "header": true
+              },
+              {
+                "text": "Section",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) A love of quilting"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Locals get involved"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Volunteers share their experience"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) The campaign continues"
+              },
+              {
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "(v) A campaign for all children"
+              },
+              {
+                "part": "v"
+              }
+            ],
+            [
+              {
+                "text": "Crafeteria"
+              },
+              {
+                "text": "B (example)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "group": "q38",
+      "type": "parts",
+      "marks": 5,
+      "prompt": "Complete the pledge-patch flowchart using A–F. One statement is NOT used.",
+      "optionBank": "A. ...patch in a creative way.\nB. ...patch to the campaign offices.\nC. ...patch with your pledge to help the environment.\nD. ...fabric from old clothes, bed sheets, or table cloths.\nE. ...patch to the Campaign’s website.\nF. ...patch approximately 16 cm × 16 cm and make sure the sides are straight.",
+      "parts": [
+        {
+          "key": "step1",
+          "label": "Step 1 · Find some...",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "key": "step2",
+          "label": "Step 2 · Cut a...",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "key": "step3",
+          "label": "Step 3 · Personalise your...",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "key": "step4",
+          "label": "Step 4 · Decorate your...",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "key": "step5",
+          "label": "Step 5 · Send your...",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "group": "q39to40",
+      "type": "choice",
+      "prompt": "Which of the following is the best alternative title for this text?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Campaign Needs Volunteers"
+        },
+        {
+          "value": "B",
+          "label": "B. Climate Change around the World"
+        },
+        {
+          "value": "C",
+          "label": "C. Climate Quilt in Action"
+        },
+        {
+          "value": "D",
+          "label": "D. Recycling Old Clothes"
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "group": "q39to40",
+      "type": "parts",
+      "marks": 9,
+      "prompt": "Complete the summary of the text by writing ONE word to fill in each blank. You should make sure your answers are grammatically correct, paying attention to tenses, plurals, etc.",
+      "context": "The Climate Quilt Campaign is an (i) ______ initiative involving young people. In Pennsylvania, the owners of (ii) ______ invited members of their community to take part in this campaign. Children were given a scrap of recycled (iii) ______ which they used to make (iv) ______ (v) ______. Children taking part were of all (vi) ______, so the sophistication of the pledges and the squares varied. “I pledge to save (vii) ______” was one example of a pledge. In total, (viii) ______ squares of fabric were sewn together to make a quilt. The quilt was recently on display in Washington D.C. for (ix) ______ (x) ______. The quilt will ultimately be a symbol of children’s hopes and dreams for the future of the (xi) ______.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text"
+        },
+        {
+          "key": "vi",
+          "label": "(vi)",
+          "type": "text"
+        },
+        {
+          "key": "vii",
+          "label": "(vii)",
+          "type": "text"
+        },
+        {
+          "key": "viii",
+          "label": "(viii)",
+          "type": "text"
+        },
+        {
+          "key": "ix",
+          "label": "(ix)",
+          "type": "text"
+        },
+        {
+          "key": "x",
+          "label": "(x)",
+          "type": "text"
+        },
+        {
+          "key": "xi",
+          "label": "(xi)",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

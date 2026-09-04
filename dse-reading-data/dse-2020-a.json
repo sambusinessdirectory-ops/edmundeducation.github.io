@@ -87,8 +87,45 @@
     {
       "number": 1,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the summary of paragraph 1 by selecting the best option from the choices below. (3 marks)\nTai Kwun was previously a prison but now it is (i) and anyone can visit. It took (ii) to make the\nmodifications to the buildings. Now the work in Tai Kwun is (iii); it has become the most important\nproject of its kind in Hong Kong.\n(i) A. a law court\nB. a heritage site\nC. a police station\nD. a residential house\n(ii) A. 179 years\nB. a long time\nC. not too long\nD. very little time\n(iii) A. starting\nB. ongoing\nC. finished\nD. cancelled"
+      "type": "parts",
+      "prompt": "Complete the summary of paragraph 1 by selecting the best option from the choices below. (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "choice",
+          "options": [
+            "A. a law court",
+            "B. a heritage site",
+            "C. a police station",
+            "D. a residential house"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "choice",
+          "options": [
+            "A. 179 years",
+            "B. a long time",
+            "C. not too long",
+            "D. very little time"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "choice",
+          "options": [
+            "A. starting",
+            "B. ongoing",
+            "C. finished",
+            "D. cancelled"
+          ]
+        }
+      ],
+      "context": "Tai Kwun was previously a prison but now it is (i) ______ and anyone can visit. It took (ii) ______ to make the modifications to the buildings. Now the work in Tai Kwun is (iii) ______; it has become the most important project of its kind in Hong Kong.",
+      "marks": 3
     },
     {
       "number": 2,
@@ -124,7 +161,7 @@
       "number": 4,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Find a word or phrase in paragraph 1 that suggests the Victoria Prison and Central Police Station was\ndisconnected from the daily lives of Hong Kong citizens.\n*AOZOEDIA*"
+      "prompt": "Find a word or phrase in paragraph 1 that suggests the Victoria Prison and Central Police Station was\ndisconnected from the daily lives of Hong Kong citizens."
     },
     {
       "number": 5,
@@ -154,7 +191,7 @@
       "number": 6,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraph 2, are the following statements True (T), False (F) or Not Given (NG)? (3 marks)\nStatements NG",
+      "prompt": "According to paragraph 2, are the following statements True (T), False (F) or Not Given (NG)? (3 marks)",
       "parts": [
         {
           "key": "i",
@@ -234,7 +271,7 @@
       "number": 11,
       "group": "paper",
       "type": "parts",
-      "prompt": "Complete the following information about the new arts pavilion by using a word or phrase taken from\nparagraphs 4-6 for each gap. Write no more than THREE words for each gap. (6 marks)\nArchitects' The architects were surprised as they After seeing that their initial design may\nresponse expected this type of reaction in have been too radical, they toned down",
+      "prompt": "Complete the following information about the new arts pavilion by using a word or phrase taken from paragraphs 4-6 for each gap. Write no more than THREE words for each gap. (6 marks)",
       "parts": [
         {
           "key": "t1r2c2g1",
@@ -257,6 +294,18 @@
         {
           "key": "t1r4c2g1",
           "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "vi",
+          "label": "(vi)",
           "type": "text",
           "inTable": true
         }
@@ -334,6 +383,20 @@
                 "colSpan": 1,
                 "rowSpan": 1
               }
+            ],
+            [
+              {
+                "text": "Architects' response",
+                "header": true
+              },
+              {
+                "text": "The architects were surprised as they expected this type of reaction in (v) ______ but not here in Hong Kong.",
+                "part": "v"
+              },
+              {
+                "text": "After seeing that their initial design may have been too radical, they toned down their new design without changing their original (vi) ______.",
+                "part": "vi"
+              }
             ]
           ],
           "columns": 3
@@ -343,8 +406,32 @@
     {
       "number": 12,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the summary of paragraph & by using ONE word taken from paragraph 8 for each gap.\n(4 marks)\nDuring the project, a number of (i) were made by the Jockey Club, for example,\nwhile working on one of the buildings in the compound, part of it (ii) Also, in the\nprisoners' (iti) the Jockey Club did not preserve the graffiti. As a result, they were\n(iv) for losing some of the buildings' original atmosphere."
+      "type": "parts",
+      "prompt": "Complete the summary of paragraph 8 by using ONE word taken from paragraph 8 for each gap. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        }
+      ],
+      "context": "During the project, a number of (i) ______ were made by the Jockey Club, for example, while working on one of the buildings in the compound, part of it (ii) ______. Also, in the prisoners' (iii) ______ the Jockey Club did not preserve the graffiti. As a result, they were (iv) ______ for losing some of the buildings' original atmosphere.",
+      "marks": 4
     },
     {
       "number": 13,
@@ -439,7 +526,7 @@
             ],
             [
               {
-                "text": "(tii)",
+                "text": "(iii)",
                 "colSpan": 1,
                 "rowSpan": 1
               },
@@ -522,7 +609,7 @@
       "parts": [
         {
           "key": "i",
-          "label": "(i) \"she' (line 63)",
+          "label": "(i) 'she' (line 63)",
           "type": "text"
         },
         {
@@ -541,207 +628,268 @@
     {
       "number": 18,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Number the following events from the text in chronological order with 'I' as the earliest. Write (2-5) in\nthe boxes provided. The first one has been done for you as an example. (4 marks)\nTai Kwun opens. (i)\nVictoria Prison is established. e.g. 1\nMother and child sleep in Chancery Lane. (ii)\nLocal residents come by to socialise.\nNew buildings are designed for the site. (iv)"
+      "type": "parts",
+      "prompt": "Number the following events from the text in chronological order with '1' as the earliest. Write (2-5) in the boxes provided. The first one has been done for you as an example. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Tai Kwun opens.",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Mother and child sleep in Chancery Lane.",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Local residents come by to socialise.",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv) New buildings are designed for the site.",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Event",
+                "header": true
+              },
+              {
+                "text": "Order",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Tai Kwun opens."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "Victoria Prison is established."
+              },
+              {
+                "text": "1 (example)"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Mother and child sleep in Chancery Lane."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Local residents come by to socialise."
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) New buildings are designed for the site."
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
+        }
+      ]
     },
     {
       "number": 19,
       "group": "paper",
       "type": "parts",
-      "prompt": "Use the information given in paragraphs 4-12 to match each of the following comments with a person or\norganisation mentioned in the text. Write the letter of the comment on the line next to the person /\norganisation given. The first has been provided for you as an example. One comment is NOT used. Each\n(5 marks)",
-      "tables": [
-        {
-          "rows": [
-            [
-              {
-                "text": "A.\nAlthough the renovation\nwas quite heavy-handed,\nTai Kwun will take on a\nnew life as a result.",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "B.\nThe size of this kind of\nproject is unheard of in\nHong Kong.",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "C.\nAlmost everyone spoken to\ndoesn't like the design.",
-                "colSpan": 1,
-                "rowSpan": 1
-              }
-            ],
-            [
-              {
-                "text": "D.\nThe design of the new\nbuildings is not appropriate\nfor the site.",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "E.\nIt was important to\nrecognise the needs of the\ncommunity.",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "It was important to get the\nrestoration right, which\nmeant we had to be willing\nto spend.",
-                "colSpan": 1,
-                "rowSpan": 1
-              }
-            ],
-            [
-              {
-                "text": "G.\nSticking to the original\nbuilding design is too\nlimiting.",
-                "colSpan": 1,
-                "rowSpan": 1
-              }
-            ]
-          ],
-          "columns": 3
-        },
-        {
-          "rows": [
-            [
-              {
-                "text": "The Jockey Club e. g.",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "(i1i) Katty Law",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1
-              }
-            ],
-            [
-              {
-                "text": "(i) Winnie Yeung",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t2r2c1g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t2r2c2g1"
-                ]
-              },
-              {
-                "text": "(iv) Fredo Cheung",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t2r2c3g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t2r2c4g1"
-                ]
-              }
-            ],
-            [
-              {
-                "text": "(ii) Herzog & de Meuron",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t2r3c1g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t2r3c2g1"
-                ]
-              },
-              {
-                "text": "(v) John Batten",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t2r3c3g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t2r3c4g1"
-                ]
-              }
-            ]
-          ],
-          "columns": 4
-        }
-      ],
+      "prompt": "Use the information given in paragraphs 4-12 to match each of the following comments with a person or organisation mentioned in the text. Write the letter of the comment on the line next to the person / organisation given. The first has been provided for you as an example. One comment is NOT used. Each letter can be used ONCE only. (5 marks)",
       "parts": [
         {
-          "key": "t2r2c1g1",
-          "label": "(i)",
-          "type": "text",
+          "key": "i",
+          "label": "(i) Winnie Yeung",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "G"
+          ],
           "inTable": true
         },
         {
-          "key": "t2r2c2g1",
-          "label": "Row 2, column 2",
-          "type": "text",
+          "key": "ii",
+          "label": "(ii) Herzog & de Meuron",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "G"
+          ],
           "inTable": true
         },
         {
-          "key": "t2r2c3g1",
-          "label": "(iv)",
-          "type": "text",
+          "key": "iii",
+          "label": "(iii) Katty Law",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "G"
+          ],
           "inTable": true
         },
         {
-          "key": "t2r2c4g1",
-          "label": "Row 2, column 4",
-          "type": "text",
+          "key": "iv",
+          "label": "(iv) Fredo Cheung",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "G"
+          ],
           "inTable": true
         },
         {
-          "key": "t2r3c1g1",
-          "label": "(ii)",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t2r3c2g1",
-          "label": "Row 3, column 2",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t2r3c3g1",
-          "label": "(v)",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t2r3c4g1",
-          "label": "Row 3, column 4",
-          "type": "text",
+          "key": "v",
+          "label": "(v) John Batten",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "G"
+          ],
           "inTable": true
         }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Person / organisation",
+                "header": true
+              },
+              {
+                "text": "Comment",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "The Jockey Club"
+              },
+              {
+                "text": "F (example)"
+              }
+            ],
+            [
+              {
+                "text": "(i) Winnie Yeung"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Herzog & de Meuron"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Katty Law"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Fredo Cheung"
+              },
+              {
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "(v) John Batten"
+              },
+              {
+                "part": "v"
+              }
+            ]
+          ]
+        }
+      ],
+      "optionBank": [
+        "A. Although the renovation was quite heavy-handed, Tai Kwun will take on a new life as a result.",
+        "B. The size of this kind of project is unheard of in Hong Kong.",
+        "C. Almost everyone spoken to doesn't like the design.",
+        "D. The design of the new buildings is not appropriate for the site.",
+        "E. It was important to recognise the needs of the community.",
+        "F. It was important to get the restoration right, which meant we had to be willing to spend. (example)",
+        "G. Sticking to the original building design is too limiting."
       ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

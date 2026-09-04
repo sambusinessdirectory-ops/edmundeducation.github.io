@@ -98,14 +98,25 @@
           "value": "D",
           "label": "D. He has replied to these comments many times before."
         }
-      ],
-      "optionBank": "A. The students are not self-reliant.\nB. The students have no imagination.\nC. He thinks the writers are not interesting.\nD. He has replied to these comments many times before.\nIn lines 1-2, the student points out that Jean-Jacques Rousseau \"is undermining himself\".\nWhy does the student think this?"
+      ]
     },
     {
       "number": 57,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Why might the student feel triumphant?"
+      "type": "parts",
+      "prompt": "Answer both parts.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) In lines 1–2, the student points out that Jean-Jacques Rousseau ‘is undermining himself’. Why does the student think this?",
+          "type": "textarea"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Why might the student feel triumphant?",
+          "type": "textarea"
+        }
+      ]
     },
     {
       "number": 58,
@@ -116,8 +127,67 @@
     {
       "number": 59,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Match the person on the left with the idea presented in the questions on the right taken from paragraph 2.\nWrite the letter (A-C) on the line next to the person's name. ONE question is not used (2 marks)\nPerson Question\ni) Michael Roth A. \"How do we think about inequality and learning?\" (line 7)\nHow can we stand on our own feet while being open to\nii) Ralph Waldo Emerson inspiration from the world around us?\" (lines 7-8)\nC. \"Isn't it more interesting to put ourselves in a frame of\nmind to find inspiration in them?\" (line 9)"
+      "type": "parts",
+      "prompt": "Match the person with the idea presented in the questions taken from paragraph 2. Write the letter (A–C) next to the person's name. ONE question is not used.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Michael Roth",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Ralph Waldo Emerson",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Person",
+                "header": true
+              },
+              {
+                "text": "Question",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Michael Roth"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Ralph Waldo Emerson"
+              },
+              {
+                "part": "ii"
+              }
+            ]
+          ]
+        }
+      ],
+      "optionBank": "A. “How do we think about inequality and learning?” (line 7)\nB. “How can we stand on our own feet while being open to inspiration from the world around us?” (lines 7–8)\nC. “Isn’t it more interesting to put ourselves in a frame of mind to find inspiration in them?” (line 9)",
+      "marks": 2
     },
     {
       "number": 60,
@@ -128,31 +198,111 @@
     {
       "number": 61,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete this summary of paragraphs 3 and 4 by choosing a word from the eight options given below.\nWrite the correct word in the space provided. Each word can be used ONCE only. (3 marks)\ndifficult important intelligent gruelling\nresponsible satisfying cynical unproductive"
+      "type": "parts",
+      "prompt": "Complete this summary of paragraphs 3 and 4 by choosing a word from the eight options given below. Write the correct word in the space provided. Each word can be used ONCE only.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        }
+      ],
+      "context": "According to Roth, the kind of thinking honed at college is (i) ______ once students leave the campus. However, students believe it makes them more (ii) ______ although others may feel they are just being (iii) ______.",
+      "marks": 3,
+      "optionBank": "difficult · important · intelligent · gruelling\nresponsible · satisfying · cynical · unproductive"
     },
     {
       "number": 62,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to Roth, the kind of thinking honed at college is (i) once\nstudents leave the campus. However, students believe it makes them more (ii)\nalthough others may feel they are just being (iii) -\nBased on paragraphs 5 and 6, decide whether the following statements are True, False or the information\nis Not Given. Blacken ONE circle only for each statement. (3 marks)\nT F NG",
+      "prompt": "Based on paragraphs 5 and 6, decide whether the following statements are True, False or the information is Not Given. Choose ONE answer for each statement.",
       "parts": [
         {
           "key": "i",
           "label": "i) The writer thinks that being critical has no use.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
           "label": "ii) Students could learn more if they were less critical.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
           "label": "iii) Students don't enjoy books, music and experiments in the classroom.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         }
-      ]
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "i) The writer thinks that being critical has no use."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "ii) Students could learn more if they were less critical."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "iii) Students don't enjoy books, music and experiments in the classroom."
+              },
+              {
+                "part": "iii"
+              }
+            ]
+          ]
+        }
+      ],
+      "marks": 3
     },
     {
       "number": 63,
@@ -350,7 +500,7 @@
         },
         {
           "value": "C",
-          "label": "C. the hatred of D"
+          "label": "C. the hatred of"
         },
         {
           "value": "D",
@@ -362,7 +512,7 @@
       "number": 66,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraph 9, in what tvo ways have people changed, contributing to the changes in oma",
+      "prompt": "According to paragraph 9, in what two ways have people changed, contributing to the changes in our cultural life?",
       "parts": [
         {
           "key": "i",
@@ -374,7 +524,8 @@
           "label": "ii)",
           "type": "text"
         }
-      ]
+      ],
+      "marks": 2
     },
     {
       "number": 67,
@@ -385,8 +536,20 @@
     {
       "number": 68,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Why do the students think Michael Roth asks them to put away their phones and tablets?\nWhen Michael Roth says that the class even \"forget\" their phones and tablets, what does this imply?"
+      "type": "parts",
+      "prompt": "Answer both parts.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Why do the students think Michael Roth asks them to put away their phones and tablets?",
+          "type": "textarea"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) When Michael Roth says that the class even “forget” their phones and tablets, what does this imply?",
+          "type": "textarea"
+        }
+      ]
     },
     {
       "number": 69,
@@ -421,8 +584,20 @@
     {
       "number": 71,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "What danger might \"absorption\" (line 56) pose?\nii) What can be used as a protection against that risk?"
+      "type": "parts",
+      "prompt": "Answer both parts.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) What danger might “absorption” (line 56) pose?",
+          "type": "textarea"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) What can be used as a protection against that risk?",
+          "type": "textarea"
+        }
+      ]
     },
     {
       "number": 72,
@@ -433,25 +608,28 @@
     {
       "number": 73,
       "group": "paper",
-      "type": "parts",
-      "prompt": "Which of the following does Michael Roth imply in paragraph 13?\nPut a tick (v) next to the TWO that apply. (2 marks)\nLearning should have some application to society.",
-      "parts": [
+      "type": "multiple",
+      "prompt": "Which of the following does Michael Roth imply in paragraph 13? Tick the TWO that apply.",
+      "options": [
         {
-          "key": "ii",
-          "label": "ii) University education is limited to critical thinking.",
-          "type": "text"
+          "value": "i",
+          "label": "(i) Learning should have some application to society."
         },
         {
-          "key": "iii",
-          "label": "iii) Liberal education helps whole person development.",
-          "type": "text"
+          "value": "ii",
+          "label": "(ii) University education is limited to critical thinking."
         },
         {
-          "key": "iv",
-          "label": "iv) There should be more problem solving rather than critical thinking.",
-          "type": "text"
+          "value": "iii",
+          "label": "(iii) Liberal education helps whole person development."
+        },
+        {
+          "value": "iv",
+          "label": "(iv) There should be more problem solving rather than critical thinking."
         }
-      ]
+      ],
+      "slots": 2,
+      "marks": 2
     },
     {
       "number": 74,
@@ -493,8 +671,7 @@
           "value": "D",
           "label": "D. to amuse the reader using his personal experience"
         }
-      ],
-      "optionBank": "A. to express a strongly held opinion\nB. to show the pros and cons of an issue\nC. to expose a dangerous secret to the public\nD. to amuse the reader using his personal experience\nRead the Comments (lines 63-74) and answer questions 76-77."
+      ]
     },
     {
       "number": 76,
@@ -508,5 +685,6 @@
       "type": "textarea",
       "prompt": "Does Laura agree with Michael Roth? Give a reason for your answer. (2 marks)"
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

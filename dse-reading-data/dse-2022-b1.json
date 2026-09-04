@@ -71,7 +71,7 @@
         },
         {
           "value": "D",
-          "label": "D. a newspaper. C"
+          "label": "D. a newspaper."
         }
       ]
     },
@@ -79,22 +79,104 @@
       "number": 25,
       "group": "paper",
       "type": "parts",
-      "prompt": "Read the following questions and choose-the appropriate job based on the information in Text 2. (4 marks)\nJOB A JOB B JOB C JOB D\nWhich job requires an understanding of other countries?",
+      "prompt": "Read the following questions and choose the appropriate job based on the information in Text 2. (4 marks)",
       "parts": [
+        {
+          "key": "i",
+          "label": "(i) Which job requires an understanding of other countries?",
+          "type": "select",
+          "options": [
+            "JOB A",
+            "JOB B",
+            "JOB C",
+            "JOB D"
+          ],
+          "inTable": true
+        },
         {
           "key": "ii",
           "label": "(ii) Which job includes on-the-job training?",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "JOB A",
+            "JOB B",
+            "JOB C",
+            "JOB D"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
           "label": "(iii) Which job requires long working hours?",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "JOB A",
+            "JOB B",
+            "JOB C",
+            "JOB D"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
           "label": "(iv) Which job is temporary?",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "JOB A",
+            "JOB B",
+            "JOB C",
+            "JOB D"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "Answer",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Which job requires an understanding of other countries?"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Which job includes on-the-job training?"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Which job requires long working hours?"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Which job is temporary?"
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
         }
       ]
     },
@@ -102,298 +184,108 @@
       "number": 26,
       "group": "paper",
       "type": "parts",
-      "prompt": "Put a tick (V) in the box that matches the skills / knowledge needed for each job. You may tick more than one\nbox for each job. (4 marks)",
+      "prompt": "Put a tick (✓) in the box that matches the skills / knowledge needed for each job. You may tick more than one box for each job. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "JOB A",
+          "type": "multiple",
+          "selectionLimit": false,
+          "options": [
+            "Design skills",
+            "Knowledge of property management",
+            "Social media skills",
+            "Kitchen skills"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "JOB B",
+          "type": "multiple",
+          "selectionLimit": false,
+          "options": [
+            "Design skills",
+            "Knowledge of property management",
+            "Social media skills",
+            "Kitchen skills"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "JOB C",
+          "type": "multiple",
+          "selectionLimit": false,
+          "options": [
+            "Design skills",
+            "Knowledge of property management",
+            "Social media skills",
+            "Kitchen skills"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "JOB D",
+          "type": "multiple",
+          "selectionLimit": false,
+          "options": [
+            "Design skills",
+            "Knowledge of property management",
+            "Social media skills",
+            "Kitchen skills"
+          ],
+          "inTable": true
+        }
+      ],
       "tables": [
         {
+          "compact": true,
           "rows": [
             [
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
+                "text": "Job",
                 "header": true
               },
               {
-                "text": "Design skills",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "header": true
-              },
-              {
-                "text": "Knowledge of\nproperty\nmanagement",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "header": true
-              },
-              {
-                "text": "Social media\nskills",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "header": true
-              },
-              {
-                "text": "Kitchen skills",
-                "colSpan": 1,
-                "rowSpan": 1,
+                "text": "Skills / Knowledge",
                 "header": true
               }
             ],
             [
               {
-                "text": "JOB A",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "JOB A"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r2c2g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r2c3g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r2c4g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r2c5g1"
-                ]
+                "part": "i"
               }
             ],
             [
               {
-                "text": "JOB B",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "JOB B"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r3c2g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r3c3g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r3c4g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r3c5g1"
-                ]
+                "part": "ii"
               }
             ],
             [
               {
-                "text": "JOB C",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "JOB C"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r4c2g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r4c3g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r4c4g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r4c5g1"
-                ]
+                "part": "iii"
               }
             ],
             [
               {
-                "text": "JOB D",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "JOB D"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r5c2g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r5c3g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r5c4g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r5c5g1"
-                ]
+                "part": "iv"
               }
             ]
-          ],
-          "columns": 5
-        }
-      ],
-      "parts": [
-        {
-          "key": "t1r2c2g1",
-          "label": "Row 2, column 2",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r2c3g1",
-          "label": "Row 2, column 3",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r2c4g1",
-          "label": "Row 2, column 4",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r2c5g1",
-          "label": "Row 2, column 5",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r3c2g1",
-          "label": "Row 3, column 2",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r3c3g1",
-          "label": "Row 3, column 3",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r3c4g1",
-          "label": "Row 3, column 4",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r3c5g1",
-          "label": "Row 3, column 5",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r4c2g1",
-          "label": "Row 4, column 2",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r4c3g1",
-          "label": "Row 4, column 3",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r4c4g1",
-          "label": "Row 4, column 4",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r4c5g1",
-          "label": "Row 4, column 5",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r5c2g1",
-          "label": "Row 5, column 2",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r5c3g1",
-          "label": "Row 5, column 3",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r5c4g1",
-          "label": "Row 5, column 4",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r5c5g1",
-          "label": "Row 5, column 5",
-          "type": "text",
-          "inTable": true
+          ]
         }
       ]
     },
@@ -406,8 +298,26 @@
     {
       "number": 28,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Which job requires creativity? Support your answer with evidence taken from Text 2.\nJOB\nEvidence:"
+      "type": "parts",
+      "prompt": "Which job requires creativity? Support your answer with evidence taken from Text 2.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "JOB",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "Evidence",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 29,
@@ -431,7 +341,7 @@
       "number": 32,
       "group": "paper",
       "type": "textarea",
-      "prompt": "In paragraph 5, Alex McDonald states that becoming a slasher can be attractive because"
+      "prompt": "In paragraph 5, Alex McDonald states that becoming a slasher can be attractive because ______."
     },
     {
       "number": 33,
@@ -449,7 +359,7 @@
         },
         {
           "value": "C",
-          "label": "C. to test someone's ability 0 0 0 0"
+          "label": "C. to test someone's ability"
         },
         {
           "value": "D",
@@ -466,8 +376,27 @@
     {
       "number": 35,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "In paragraph 7, what are the reasons Emma Jones gives for her way of starting a business? Write a word c\nhrase taken from the paragraph in each blank belov (3 marks)\n• She wanted to lower the (i)\n• She wanted more (ii) to increase her (iii)"
+      "type": "parts",
+      "prompt": "In paragraph 7, what are the reasons Emma Jones gives for her way of starting a business? Write a word or phrase taken from the paragraph in each blank below. (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        }
+      ],
+      "context": "• She wanted to lower the (i) ______.\n• She wanted more (ii) ______ to increase her (iii) ______.",
+      "marks": 3
     },
     {
       "number": 36,
@@ -485,88 +414,253 @@
       "number": 38,
       "group": "paper",
       "type": "parts",
-      "prompt": "The following statements are possible reasons for the increasing number of slashers. With reference to the\nparagraphs stated below, are the statements mentioned or NOT mentioned in the paragraphs? (4 marks)\nParagraph Statement Mentioned NOT mentioned",
+      "prompt": "The following statements are possible reasons for the increasing number of slashers. With reference to the\nparagraphs stated below, are the statements mentioned or NOT mentioned in the paragraphs? (4 marks)",
       "parts": [
         {
           "key": "i",
-          "label": "(i) Young people's dream jobs are similar.",
-          "type": "text"
+          "label": "(i) Paragraph 6: Young people's dream jobs are similar.",
+          "type": "select",
+          "options": [
+            "Mentioned",
+            "NOT mentioned"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
-          "label": "(ii) 7 Slashers prefer short working hours.",
-          "type": "text"
+          "label": "(ii) Paragraph 7: Slashers prefer short working hours.",
+          "type": "select",
+          "options": [
+            "Mentioned",
+            "NOT mentioned"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
-          "label": "(iii) Young people are easily bored.",
-          "type": "text"
+          "label": "(iii) Paragraph 9: Young people are easily bored.",
+          "type": "select",
+          "options": [
+            "Mentioned",
+            "NOT mentioned"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
-          "label": "(iv) Large companies have rigid job duties.",
-          "type": "text"
+          "label": "(iv) Paragraph 9: Large companies have rigid job duties.",
+          "type": "select",
+          "options": [
+            "Mentioned",
+            "NOT mentioned"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "Answer",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Paragraph 6: Young people's dream jobs are similar."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Paragraph 7: Slashers prefer short working hours."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Paragraph 9: Young people are easily bored."
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Paragraph 9: Large companies have rigid job duties."
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
         }
       ]
     },
     {
       "number": 39,
       "group": "paper",
-      "type": "textarea",
+      "type": "parts",
       "prompt": "Use the information in Text 3 to match the people (A-E) mentioned in the text with one of the following comments. Write the letter of the person in the blank below the comment. One person is NOT used. Each letter can be used ONCE only. One comment does NOT match with any person in the text and you should choose 'F. Not stated'. (5 marks)\n\n(i) Take a job now but keep your options open.\n(ii) You are too young to have those skills.\n(iii) I have the skills to do many types of jobs.\n(iv) Slashers fit easily into a corporate job.\n(v) Slashing helps you build your own business.",
-      "tables": [
-        {
-          "rows": [
-            [
-              {
-                "text": "A. Emma Jones",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "B. Alex McDonald",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "C. Jane Mellon",
-                "colSpan": 1,
-                "rowSpan": 1
-              }
-            ],
-            [
-              {
-                "text": "D. Erin Albert",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "E. Norman Lamp",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "F. Not stated",
-                "colSpan": 1,
-                "rowSpan": 1
-              }
-            ]
-          ],
-          "columns": 3
-        }
-      ],
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/2022-b1-q39-comments.webp",
           "alt": "All five speech-bubble comments for Question 39, ordered (i) to (v) from left to right"
         }
+      ],
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Take a job now but keep your options open.",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) You are too young to have those skills.",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii) I have the skills to do many types of jobs.",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Slashers fit easily into a corporate job.",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "(v) Slashing helps you build your own business.",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Comment",
+                "header": true
+              },
+              {
+                "text": "Person",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Take a job now but keep your options open."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) You are too young to have those skills."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) I have the skills to do many types of jobs."
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Slashers fit easily into a corporate job."
+              },
+              {
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "(v) Slashing helps you build your own business."
+              },
+              {
+                "part": "v"
+              }
+            ]
+          ]
+        }
+      ],
+      "optionBank": [
+        "A. Emma Jones",
+        "B. Alex McDonald",
+        "C. Jane Mellon",
+        "D. Erin Albert",
+        "E. Norman Lamm",
+        "F. Not stated"
       ]
     },
     {
       "number": 40,
       "group": "paper",
       "type": "choice",
-      "prompt": "According to paragraphs I-10, what is the writer's attitude towards the trend of the slasher?",
+      "prompt": "According to paragraphs 1-10, what is the writer's attitude towards the trend of the slasher?",
       "options": [
         {
           "value": "A",
@@ -602,34 +696,16 @@
           "rows": [
             [
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 2,
+                "text": "Person",
                 "header": true
               },
               {
-                "text": "Opinion towards the\nstatement: 'I like\nbeing a slasher®",
-                "colSpan": 2,
-                "rowSpan": 1,
+                "text": "Opinion towards 'I like being a slasher'",
                 "header": true
               },
               {
                 "text": "Main Point",
-                "colSpan": 1,
-                "rowSpan": 2,
                 "header": true
-              }
-            ],
-            [
-              {
-                "text": "Agrees",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "Disagrees",
-                "colSpan": 1,
-                "rowSpan": 1
               }
             ],
             [
@@ -777,5 +853,6 @@
         }
       ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

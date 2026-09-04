@@ -456,19 +456,25 @@
       "number": 53,
       "group": "paper",
       "type": "parts",
-      "prompt": "Where does the writer leave each of her three letters? (3 marks)",
+      "prompt": "Where does the writer leave each of her three letters?",
       "parts": [
         {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
           "key": "ii",
-          "label": "ii)",
+          "label": "(ii)",
           "type": "text"
         },
         {
           "key": "iii",
-          "label": "iii)",
+          "label": "(iii)",
           "type": "text"
         }
-      ]
+      ],
+      "marks": 3
     },
     {
       "number": 54,
@@ -528,7 +534,8 @@
       "number": 57,
       "group": "paper",
       "type": "textarea",
-      "prompt": "How does the writer compare writing these letters to writing a Tweet?\nBoth are"
+      "prompt": "How does the writer compare writing these letters to writing a Tweet?",
+      "context": "Both are ______."
     },
     {
       "number": 58,
@@ -563,5 +570,6 @@
   ],
   "instructions": {
     "paper": "Answer every question using the passage."
-  }
+  },
+  "questionRevision": "20260904-full-question-audit-1"
 }

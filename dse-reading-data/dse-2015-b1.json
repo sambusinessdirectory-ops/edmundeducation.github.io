@@ -110,17 +110,41 @@
         {
           "key": "i",
           "label": "i) the silver car",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "ii",
           "label": "ii) the green car",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "iii",
           "label": "iii) Anna's car",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         }
       ],
       "figures": [
@@ -145,13 +169,19 @@
     {
       "number": 38,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Where was the green car damaged?\nA. B. C. D.",
+      "type": "choice",
+      "prompt": "Where was the green car damaged?",
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/content/2015/b1/questions-2-crop-1.webp",
           "alt": "Four diagrams showing where a car was damaged"
         }
+      ],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
       ]
     },
     {
@@ -205,8 +235,21 @@
     {
       "number": 42,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "According to paragraph 1, what will no longer happen when cars drive themselves? (2 marks)\ni)"
+      "type": "parts",
+      "prompt": "According to paragraph 1, what will no longer happen when cars drive themselves?",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ],
+      "marks": 2
     },
     {
       "number": 43,
@@ -260,29 +303,103 @@
       "number": 48,
       "group": "paper",
       "type": "parts",
-      "prompt": "Based on the information give in an apes a 6, decide if ta following statements are True, False\nthe information is Not Given. Blacken ONE circle only for each statement.\nT F NG",
+      "prompt": "Based on the information given in paragraphs 5 and 6, decide if the following statements are True, False or the information is Not Given. Choose ONE answer for each statement.",
       "parts": [
         {
           "key": "i",
           "label": "i) There are more than 30,000 car crashes in the United States each year.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
           "label": "ii) Fewer people would die in self-driving cars.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
           "label": "iii) Self-driving cars would reduce congestion.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
           "label": "iv) Self-driving cars will be smaller.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         }
-      ]
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "i) There are more than 30,000 car crashes in the United States each year."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "ii) Fewer people would die in self-driving cars."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "iii) Self-driving cars would reduce congestion."
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "iv) Self-driving cars will be smaller."
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
+        }
+      ],
+      "marks": 4
     },
     {
       "number": 49,
@@ -329,27 +446,46 @@
                 "part": "p9"
               }
             ]
-          ]
+          ],
+          "compact": true
         }
       ],
       "parts": [
         {
           "key": "p7",
           "label": "p7",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
         },
         {
           "key": "p8",
           "label": "p8",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
         },
         {
           "key": "p9",
           "label": "p9",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
         }
       ],
       "optionBank": "A. The authors' calculations may not be accurate.\nB. The authors think self-driving cars will save money.\nC. The authors don't know the effect on society.\nD. The authors don't mention how expensive self-driving cars will be."
@@ -400,7 +536,7 @@
       "number": 52,
       "group": "paper",
       "type": "choice",
-      "prompt": "\"Even that might be an underestimate\" in line 35 suggests that the price of an autonomous vehicle will",
+      "prompt": "“Even that might be an underestimate” in line 35 suggests that the price of an autonomous vehicle will be...",
       "options": [
         {
           "value": "A",
@@ -470,14 +606,14 @@
         },
         {
           "value": "C",
-          "label": "C. become better B"
+          "label": "C. become better"
         },
         {
           "value": "D",
           "label": "D. become common"
         }
-      ],
-      "optionBank": "A. be finished\nB. become safe\nC. become better B\nD. become common"
+      ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

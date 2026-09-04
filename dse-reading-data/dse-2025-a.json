@@ -150,13 +150,25 @@
       "number": 2,
       "group": "paper",
       "type": "textarea",
-      "prompt": "According to paragraph 1, why is 2023 called 'The Ycar of Celebrity Breakups' (lines 3-4)?"
+      "prompt": "According to paragraph 1, why is 2023 called 'The Year of Celebrity Breakups' (lines 3-4)?"
     },
     {
       "number": 3,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Find TWO phrases used in paragraph 1 to refer to 'Breakups' (line 4). (2 marks)\n(ii)"
+      "type": "parts",
+      "prompt": "Find TWO phrases used in paragraph 1 to refer to 'Breakups' (line 4). (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 4,
@@ -167,24 +179,126 @@
     {
       "number": 5,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "What does 'it' refer to? (2 marks)\n(i) 'it' (line 8)\n(ti) \"it' (line 14)"
+      "type": "parts",
+      "prompt": "What does 'it' refer to? (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) 'it' (line 8)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) 'it' (line 14)",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 6,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Why would it 'come as a shock' (line 16) when the public realise a celebrity's family life is not as happy as they\nthought?\n*AOZOEO"
+      "prompt": "Why would it 'come as a shock' (line 16) when the public realise a celebrity's family life is not as happy as they\nthought?"
     },
     {
       "number": 7,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "The flow chart shows the sequence of events described in paragraph 3. Fill in each blank with ONE word taken from paragraph 3. (5 marks)\n\nThe glamorous, rich and successful lifestyles of celebrities represent people's (i) ______.\nPeople believe such celebrities are untouched by ordinary people's (ii) ______.\nThe (iii) ______ discover 'what's happening behind the scenes' with celebrities.\nSeeing that celebrities have similar experiences as ordinary people (iv) ______ celebrities.\nPeople are puzzled: if someone is successful he / she shouldn't (v) ______ such problems.",
+      "type": "parts",
+      "prompt": "The flow chart shows the sequence of events described in paragraph 3. Fill in each blank with ONE word taken from paragraph 3. (5 marks)",
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/content/2025/a/questions-2-visual-1.webp",
           "alt": "Question 7: flow chart showing the sequence of events described in paragraph 3"
+        }
+      ],
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "The glamorous, rich and successful lifestyles of celebrities represent people's (i) ______.",
+                "part": "i",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "↓",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "People believe such celebrities are untouched by ordinary people's (ii) ______.",
+                "part": "ii",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "↓",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "The (iii) ______ discover 'what's happening behind the scenes' with celebrities.",
+                "part": "iii",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              },
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "Seeing that celebrities have similar experiences as ordinary people (iv) ______ celebrities.",
+                "part": "iv"
+              },
+              {
+                "text": "People are puzzled: if someone is successful he / she shouldn't (v) ______ such problems.",
+                "part": "v"
+              }
+            ]
+          ]
         }
       ]
     },
@@ -256,7 +370,7 @@
         },
         {
           "value": "D",
-          "label": "D. to challenge a reader's ideas about the topic. •"
+          "label": "D. to challenge a reader's ideas about the topic."
         }
       ]
     },
@@ -270,7 +384,7 @@
       "number": 11,
       "group": "paper",
       "type": "textarea",
-      "prompt": "What words does the writer use in paragraph & to highlight contrasting ideas?"
+      "prompt": "What words does the writer use in paragraph 8 to highlight contrasting ideas?"
     },
     {
       "number": 12,
@@ -306,21 +420,31 @@
       "number": 14,
       "group": "paper",
       "type": "parts",
-      "prompt": "Find a word in paragraphs 9-10 which has a similar meaning to each word given below. (5 marks)\n'reason'",
+      "prompt": "Find a word in paragraphs 9-10 which has a similar meaning to each word given below. (5 marks)",
       "parts": [
         {
+          "key": "i",
+          "label": "(i) 'reason'",
+          "type": "text"
+        },
+        {
           "key": "ii",
-          "label": "(ii) 'behave'\n(ini) 'enhance'",
+          "label": "(ii) 'behave'",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii) 'enhance'",
           "type": "text"
         },
         {
           "key": "iv",
-          "label": "(iv) \"outcome'",
+          "label": "(iv) 'outcome'",
           "type": "text"
         },
         {
           "key": "v",
-          "label": "(v) \"described'",
+          "label": "(v) 'described'",
           "type": "text"
         }
       ]
@@ -359,13 +483,13 @@
       "number": 17,
       "group": "paper",
       "type": "textarea",
-      "prompt": "With reference to paragraph 12, explain how 'parasocial relationships' (line 52) can bo beneficial."
+      "prompt": "With reference to paragraph 12, explain how 'parasocial relationships' (line 52) can be beneficial."
     },
     {
       "number": 18,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Find one example of *difficult feelings' (line 63) Benning is referring to in paragraph 13."
+      "prompt": "Find one example of 'difficult feelings' (line 63) Benning is referring to in paragraph 13."
     },
     {
       "number": 19,
@@ -395,27 +519,100 @@
       "number": 20,
       "group": "paper",
       "type": "parts",
-      "prompt": "Based on the information in Text 1, decide whether each of the four people agrees, disagrees or neither agrees\nnor disagrees with the statement 'Celebrity gossip may benefit us.' by blackening the appropriate circle.\n(4 marks)\nOpinion towards the statement: 'Celebrity gossip may benefit us.'\nNeither agrees\nAgrees Disagrees\nnor disagrees",
+      "prompt": "Based on the information in Text 1, decide whether each of the four people agrees, disagrees or neither agrees nor disagrees with the statement 'Celebrity gossip may benefit us.' (4 marks)",
       "parts": [
         {
           "key": "i",
           "label": "(i) Dr. Alice Leppert",
-          "type": "text"
+          "type": "choice",
+          "options": [
+            "Agrees",
+            "Disagrees",
+            "Neither agrees nor disagrees"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
           "label": "(ii) Dr. Andrea Liner",
-          "type": "text"
+          "type": "choice",
+          "options": [
+            "Agrees",
+            "Disagrees",
+            "Neither agrees nor disagrees"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
           "label": "(iii) Dr. David Ludden",
-          "type": "text"
+          "type": "choice",
+          "options": [
+            "Agrees",
+            "Disagrees",
+            "Neither agrees nor disagrees"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
           "label": "(iv) Dr. Stephen Benning",
-          "type": "text"
+          "type": "choice",
+          "options": [
+            "Agrees",
+            "Disagrees",
+            "Neither agrees nor disagrees"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Person",
+                "header": true
+              },
+              {
+                "text": "Opinion",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Dr. Alice Leppert"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Dr. Andrea Liner"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Dr. David Ludden"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Dr. Stephen Benning"
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
         }
       ]
     },
@@ -423,34 +620,7 @@
       "number": 21,
       "group": "paper",
       "type": "parts",
-      "prompt": "Two friends are discussing Text 1. Use the information from paragraphs 6-14 to match each statement in the\nconversation below with a paragraph that contains similar ideas. Write the number of the paragraph (6-14) in the\nspeech bubble. Use each paragraph number ONCE only. Some paragraph numbers are NOT used. The first has\nbeen done for you as an example. (6 marks)\n1. \"My brother was telling me about his new job. 2. \"That reminds me of an article I've been\nHe's made friends with his new colleagues reading about gossiping. You know, just\nwhilst chatting about Taylor Swifi.\" sharing the latest news about people who are\nnot in the room.\"\nParagraph 13 (example)",
-      "parts": [
-        {
-          "key": "i",
-          "label": "(i) Paragraph\n3. \"Gossiping? Isn't that bad\nmouthing people?\nnot a good thing to do. It's\n4. \"Well it can be but this article\nnot good for you or others.\"\nsaid that bad mouthing actually\nPeter (ii) Paragraph can have a positive outcome.\" Mary",
-          "type": "text"
-        },
-        {
-          "key": "iii",
-          "label": "(iii) Paragraph\nS. \"I guess so. Sometimes\nhearing about celebrities\nmessing up does make me\nfeel my life isn't that bad\nafter all.\"",
-          "type": "text"
-        },
-        {
-          "key": "iv",
-          "label": "(iv) Paragraph. \"The article made me question why we d\nossip about people like Taylor Swift.'",
-          "type": "text"
-        },
-        {
-          "key": "v",
-          "label": "(v) Paragraph\n7. \"I suppose for some it makes them feel like\nhaving connection with someone when they\nfeel alone.\"",
-          "type": "text"
-        },
-        {
-          "key": "vi",
-          "label": "(vi) Paragraph",
-          "type": "text"
-        }
-      ],
+      "prompt": "Two friends are discussing Text 1. Use the information from paragraphs 6-14 to match each statement in the conversation below with a paragraph that contains similar ideas. Write the number of the paragraph (6-14) in the speech bubble. Use each paragraph number ONCE only. Some paragraph numbers are NOT used. The first has been done for you as an example. (6 marks)",
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/content/2025/a/questions-4-visual-2.webp",
@@ -460,7 +630,179 @@
           "src": "assets/reading-comprehension/dse/content/2025/a/questions-4-visual-3.webp",
           "alt": "Original figure 3"
         }
+      ],
+      "parts": [
+        {
+          "key": "i",
+          "label": "2. Mary: That reminds me of an article I've been reading about gossiping. You know, just sharing the latest news about people who are not in the room.",
+          "type": "select",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "14"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "3. Peter: Gossiping? Isn't that bad mouthing people? That's not a good thing to do. It's not good for you or others.",
+          "type": "select",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "14"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "4. Mary: Well it can be but this article said that bad mouthing actually can have a positive outcome.",
+          "type": "select",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "14"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "5. Peter: I guess so. Sometimes hearing about celebrities messing up does make me feel my life isn't that bad after all.",
+          "type": "select",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "14"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "6. Mary: The article made me question why we do gossip about people like Taylor Swift.",
+          "type": "select",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "14"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "vi",
+          "label": "7. Peter: I suppose for some it makes them feel like having connection with someone when they feel alone.",
+          "type": "select",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "14"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Conversation",
+                "header": true
+              },
+              {
+                "text": "Paragraph",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "1. Peter: My brother was telling me about his new job. He's made friends with his new colleagues whilst chatting about Taylor Swift."
+              },
+              {
+                "text": "13 (example)"
+              }
+            ],
+            [
+              {
+                "text": "2. Mary: That reminds me of an article I've been reading about gossiping. You know, just sharing the latest news about people who are not in the room."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "3. Peter: Gossiping? Isn't that bad mouthing people? That's not a good thing to do. It's not good for you or others."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "4. Mary: Well it can be but this article said that bad mouthing actually can have a positive outcome."
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "5. Peter: I guess so. Sometimes hearing about celebrities messing up does make me feel my life isn't that bad after all."
+              },
+              {
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "6. Mary: The article made me question why we do gossip about people like Taylor Swift."
+              },
+              {
+                "part": "v"
+              }
+            ],
+            [
+              {
+                "text": "7. Peter: I suppose for some it makes them feel like having connection with someone when they feel alone."
+              },
+              {
+                "part": "vi"
+              }
+            ]
+          ]
+        }
       ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

@@ -133,24 +133,53 @@
     {
       "number": 2,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Match the superstition with the pictures below. Write the number of the superstition in the box.\nThe first one has been done for you. (2 marks)\nii)\ne.g."
-    },
-    {
-      "number": 3,
-      "group": "paper",
       "type": "parts",
-      "prompt": "Answer the following questions by writing the number of the superstition in the box. (4 marks)\nWhich bad luck superstition can you undo?\nWhich superstition is the season important for?",
+      "prompt": "Answer the following questions by writing the number of the superstition in the box.",
       "parts": [
         {
+          "key": "i",
+          "label": "(i) Which bad luck superstition can you undo?",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Which superstition is the season important for?",
+          "type": "text"
+        },
+        {
           "key": "iii",
-          "label": "iii) Which superstition will bring bad luck for a long time?",
+          "label": "(iii) Which superstition will bring bad luck for a long time?",
           "type": "text"
         },
         {
           "key": "iv",
-          "label": "iv) Which superstition do some people consider lucky while some think the opposite?",
+          "label": "(iv) Which superstition do some people consider lucky while some think the opposite?",
           "type": "text"
+        }
+      ],
+      "marks": 4
+    },
+    {
+      "number": 3,
+      "group": "paper",
+      "type": "choice",
+      "prompt": "Which of the following is a bad luck superstition?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. catching a leaf"
+        },
+        {
+          "value": "B",
+          "label": "B. seeing a magpie"
+        },
+        {
+          "value": "C",
+          "label": "C. holding a closed umbrella"
+        },
+        {
+          "value": "D",
+          "label": "D. finding a three leaf clover"
         }
       ]
     },
@@ -188,64 +217,103 @@
     {
       "number": 5,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "In order to bring good luck, how should a horseshoe be placed over a door?"
+      "type": "text",
+      "prompt": "Find one example of a superstition in Section 1."
     },
     {
       "number": 6,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Find one example of a superstition in Section 1."
-    },
-    {
-      "number": 7,
-      "group": "paper",
       "type": "parts",
-      "prompt": "Decide whether the following statements are True, False or the information is Not Given in Section 1.\n(3 marks)\nStatements\nT F NG",
+      "prompt": "Decide whether the following statements are True, False or the information is Not Given in Section 1.",
       "parts": [
         {
           "key": "i",
-          "label": "i) Superstitions have existed for hundreds of years.",
-          "type": "choice",
+          "label": "(i) Superstitions have existed for hundreds of years.",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
-          ]
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
-          "label": "ii) Superstitions are only found in some countries. C",
-          "type": "choice",
+          "label": "(ii) Superstitions are only found in some countries.",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
-          ]
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
-          "label": "iii) Superstitions are becoming less popular.",
-          "type": "choice",
+          "label": "(iii) Superstitions are becoming less popular.",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Superstitions have existed for hundreds of years."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Superstitions are only found in some countries."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Superstitions are becoming less popular."
+              },
+              {
+                "part": "iii"
+              }
+            ]
           ]
         }
-      ]
+      ],
+      "marks": 3
     },
     {
-      "number": 8,
+      "number": 7,
       "group": "paper",
       "type": "textarea",
       "prompt": "Why do people believe in superstitions?"
     },
     {
-      "number": 9,
+      "number": 8,
       "group": "paper",
       "type": "choice",
-      "prompt": "What does the sentence 'At least it doesn't work in the way most people think it does' (lines 16-17)\nimply?",
+      "prompt": "What does the sentence ‘At least it doesn’t work in the way most people think it does’ (lines 16–17) imply?",
       "options": [
         {
           "value": "A",
@@ -257,14 +325,19 @@
         },
         {
           "value": "C",
-          "label": "C. Most people don't use superstitions."
+          "label": "C. Most people don’t use superstitions."
         },
         {
           "value": "D",
-          "label": "D. Most people don't understand how superstitions work."
+          "label": "D. Most people don’t understand how superstitions work."
         }
-      ],
-      "optionBank": "A. Superstitions are outdated.\nB. Superstitions bring bad luck.\nC. Most people don't use superstitions.\nD. Most people don't understand how superstitions work.\nWhat does the phrase 'magical rituals and bizarre behaviours' (lines 20-21) suggest about the writer's attitude\ntowards superstitions?"
+      ]
+    },
+    {
+      "number": 9,
+      "group": "paper",
+      "type": "textarea",
+      "prompt": "What does the phrase ‘magical rituals and bizarre behaviours’ (lines 20–21) suggest about the writer’s attitude towards superstitions?"
     },
     {
       "number": 10,
@@ -318,42 +391,117 @@
       "number": 12,
       "group": "paper",
       "type": "parts",
-      "prompt": "Complete the following notes on the luck study described in Section 3. Answers should be grammatically\ncorrect. You may write more than one word on each line. (7 marks)\nTitle: The Luck Study\nAim: (i)\nMethod:",
+      "prompt": "Complete the following notes on the luck study described in Section 3. Answers should be grammatically correct. You may write more than one word on each line.",
       "parts": [
         {
           "key": "i",
           "label": "Aim: (i)",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "ii",
           "label": "(ii) Used a to divide people into lucky and unlucky groups.",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "iii",
           "label": "(iii) Gave a to both the lucky and the unlucky group to look at.",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "iv",
           "label": "(iv) Asked both groups to count",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "v",
           "label": "(v) Waited to see if participants responded to the that told them to stop.\nResult:",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "vi",
           "label": "(vi) Lucky people were able to because",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "vii",
           "label": "(vii)",
-          "type": "text"
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "marks": 7,
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Title: The Luck Study",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Aim: (i)",
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "Method",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(ii) Used a ______ to divide people into lucky and unlucky groups.",
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Gave a ______ to both the lucky and the unlucky group to look at.",
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Asked both groups to count ______.",
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "(v) Waited to see if participants responded to the ______ that told them to stop.",
+                "part": "v"
+              }
+            ],
+            [
+              {
+                "text": "Result",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(vi) Lucky people were able to ______ because",
+                "part": "vi"
+              }
+            ],
+            [
+              {
+                "text": "(vii) ______",
+                "part": "vii"
+              }
+            ]
+          ]
         }
       ]
     },
@@ -378,42 +526,306 @@
     {
       "number": 16,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "According to Section 5, what three things could someone do to improve their luck? (3 marks)\niii)"
+      "type": "parts",
+      "prompt": "According to Section 5, what three things could someone do to improve their luck?",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        }
+      ],
+      "marks": 3
     },
     {
       "number": 17,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the summary beiow by choosing the best answer that will complete the missing information.\nBlacken ONE circle only for each question. (6 marks)\nProfessor Wiseman's study into the nature of luck has revealed that, to a large extent,\npeople (i) their own good and bad fortune. He suggests that we should be aware that there are\ngood opportunities out there for us, and that we should (ii) such events. To have good or bad\nluck depends a lot on (ill) Whether we become luckier or not is mostly a matter of the (iv)\nEven though we can't change the world around us, the way we look at it matters (v) For\nWiseman, luck is based largely on psychological principles that can be learned and improved. So, the\ncrucial question is: (vi)\n(1) A. are afraid of\nB. don't notice\nC. understand\nD. make\n(ii) A. ignore\nB take advantage of\nC. believe in\nD. organize\n(iii) A. external circumstances\nB. scientific research\nC. ourselves\nD. self-confidence\n(iv) A. body\nmind\nC. heart\nD. spirit\n(v) A. hardly\nB. slightly\nC. virtually\nD. tremendously\n(vi) A. Can we train ourselves to be luckier?\nB. Should we learn to depend more on luck?\nC. Is luck a phenomenon we should look into more?\nD. Have we learned everything we need to know about luck?"
+      "type": "parts",
+      "prompt": "Complete the summary below by choosing the best answer that will complete the missing information. Choose ONE answer for each question.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "choice",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. are afraid of"
+            },
+            {
+              "value": "B",
+              "label": "B. don’t notice"
+            },
+            {
+              "value": "C",
+              "label": "C. understand"
+            },
+            {
+              "value": "D",
+              "label": "D. make"
+            }
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "choice",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. ignore"
+            },
+            {
+              "value": "B",
+              "label": "B. take advantage of"
+            },
+            {
+              "value": "C",
+              "label": "C. believe in"
+            },
+            {
+              "value": "D",
+              "label": "D. organize"
+            }
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "choice",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. external circumstances"
+            },
+            {
+              "value": "B",
+              "label": "B. scientific research"
+            },
+            {
+              "value": "C",
+              "label": "C. ourselves"
+            },
+            {
+              "value": "D",
+              "label": "D. self-confidence"
+            }
+          ]
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "choice",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. body"
+            },
+            {
+              "value": "B",
+              "label": "B. mind"
+            },
+            {
+              "value": "C",
+              "label": "C. heart"
+            },
+            {
+              "value": "D",
+              "label": "D. spirit"
+            }
+          ]
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "choice",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. hardly"
+            },
+            {
+              "value": "B",
+              "label": "B. slightly"
+            },
+            {
+              "value": "C",
+              "label": "C. virtually"
+            },
+            {
+              "value": "D",
+              "label": "D. tremendously"
+            }
+          ]
+        },
+        {
+          "key": "vi",
+          "label": "(vi)",
+          "type": "choice",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Can we train ourselves to be luckier?"
+            },
+            {
+              "value": "B",
+              "label": "B. Should we learn to depend more on luck?"
+            },
+            {
+              "value": "C",
+              "label": "C. Is luck a phenomenon we should look into more?"
+            },
+            {
+              "value": "D",
+              "label": "D. Have we learned everything we need to know about luck?"
+            }
+          ]
+        }
+      ],
+      "context": "Professor Wiseman’s study into the nature of luck has revealed that, to a large extent, people (i) ______ their own good and bad fortune. He suggests that we should be aware that there are good opportunities out there for us, and that we should (ii) ______ such events. To have good or bad luck depends a lot on (iii) ______. Whether we become luckier or not is mostly a matter of the (iv) ______. Even though we can’t change the world around us, the way we look at it matters (v) ______. For Wiseman, luck is based largely on psychological principles that can be learned and improved. So, the crucial question is: (vi) ______.",
+      "marks": 6
     },
     {
       "number": 18,
       "group": "paper",
       "type": "parts",
-      "prompt": "Match the missing subheadings to the correct Section of the article. Write the number corresponding to each\nSection (1-4) in the box next to the subheadings. One is NOT used and should be marked with an 'X'.\n(4 marks)\nSubheading Section",
+      "prompt": "Match the missing subheadings to the correct Section of the article. Write the number corresponding to each Section (1–4) next to the subheadings. One is NOT used and should be marked with an X.",
       "parts": [
         {
           "key": "i",
-          "label": "i) Luck and the Importance of Hard Work\n11) Misconceptions about Superstition",
-          "type": "text"
+          "label": "(i) Luck and the Importance of Hard Work",
+          "type": "select",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "X"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Misconceptions about Superstition",
+          "type": "select",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "X"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
-          "label": "iii) Dealing with Bad Luck",
-          "type": "text"
+          "label": "(iii) Dealing with Bad Luck",
+          "type": "select",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "X"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
-          "label": "iv) The Power of Superstition",
-          "type": "text"
+          "label": "(iv) The Power of Superstition",
+          "type": "select",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "X"
+          ],
+          "inTable": true
         },
         {
           "key": "v",
-          "label": "V) Chance Opportunities",
-          "type": "text"
+          "label": "(v) Chance Opportunities",
+          "type": "select",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "X"
+          ],
+          "inTable": true
         }
-      ]
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Subheading",
+                "header": true
+              },
+              {
+                "text": "Section",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Luck and the Importance of Hard Work"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Misconceptions about Superstition"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Dealing with Bad Luck"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) The Power of Superstition"
+              },
+              {
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "(v) Chance Opportunities"
+              },
+              {
+                "part": "v"
+              }
+            ]
+          ]
+        }
+      ],
+      "marks": 4
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

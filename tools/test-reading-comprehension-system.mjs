@@ -3,6 +3,7 @@
 import assert from "node:assert/strict";
 import { readFile, stat } from "node:fs/promises";
 import './test-dse-reading-2023-b1.mjs';
+import './test-dse-reading-question-audit.mjs';
 
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
@@ -248,7 +249,7 @@ for (const year of paperYears) {
 
 for (const [id, number, count] of [
   ['dse-2018-b2', 71, 6], ['dse-2020-b1', 27, 5], ['dse-2021-b2', 65, 8],
-  ['dse-2022-a', 11, 4], ['dse-2022-b1', 42, 9], ['dse-2023-a', 6, 5], ['dse-2025-b2', 63, 6],
+  ['dse-2022-a', 11, 5], ['dse-2022-b1', 42, 9], ['dse-2023-a', 6, 5], ['dse-2025-b2', 63, 6],
 ]) {
   const exercise = JSON.parse(await read(`dse-reading-data/${id}.json`));
   assert.equal(exercise.questions.find((question) => question.number === number).parts.filter((part) => part.inTable).length, count, `${id} Q${number}: printed labels are not answer blanks`);

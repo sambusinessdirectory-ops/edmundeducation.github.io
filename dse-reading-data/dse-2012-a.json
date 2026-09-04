@@ -42,96 +42,621 @@
     "q19to20": "Questions 19–20"
   },
   "questions": [
-    { "number": 1, "group": "q1", "type": "parts", "marks": 4, "prompt": "Choose Polar Cafe or Internet Cafes for each expression.", "parts": [
-      { "key": "i", "label": "(i) switched off", "type": "choice", "options": ["Polar Cafe", "Internet Cafes"] },
-      { "key": "ii", "label": "(ii) race virtual hotrods", "type": "choice", "options": ["Polar Cafe", "Internet Cafes"] },
-      { "key": "iii", "label": "(iii) play alone", "type": "choice", "options": ["Polar Cafe", "Internet Cafes"] },
-      { "key": "iv", "label": "(iv) unplugged", "type": "choice", "options": ["Polar Cafe", "Internet Cafes"] }
-    ] },
-    { "number": 2, "group": "q2to7", "type": "choice", "prompt": "Why does the author write that many people will greet the cafe with ‘a huge sigh of relief’ (lines 1–2)?", "options": [
-      { "value": "A", "label": "A. People love board games." },
-      { "value": "B", "label": "B. People love going to cafes." },
-      { "value": "C", "label": "C. The cafe doesn’t have computers." },
-      { "value": "D", "label": "D. The cafe is a very friendly and homey place." }
-    ] },
-    { "number": 3, "group": "q2to7", "type": "choice", "prompt": "The main purpose of paragraph 2 is to...", "options": [
-      { "value": "A", "label": "A. provide a definition of board games." },
-      { "value": "B", "label": "B. introduce the main idea of the article." },
-      { "value": "C", "label": "C. connect the ideas in paragraphs 1 and 3." },
-      { "value": "D", "label": "D. grab the reader’s attention." }
-    ] },
-    { "number": 4, "group": "q2to7", "type": "text", "prompt": "In paragraph 3, ‘going back to’ refers to..." },
-    { "number": 5, "group": "q2to7", "type": "text", "prompt": "When did the cafe open?" },
-    { "number": 6, "group": "q2to7", "type": "text", "prompt": "What was Pat’s and Dee’s life like before they opened the cafe?" },
-    { "number": 7, "group": "q2to7", "type": "choice", "prompt": "Cafes specialising in board games are popular in...", "options": [
-      { "value": "A", "label": "A. Germany and the USA." },
-      { "value": "B", "label": "B. China and South Korea." },
-      { "value": "C", "label": "C. Germany, the USA, China and South Korea." },
-      { "value": "D", "label": "D. Germany, the USA, China, South Korea and Thailand." }
-    ] },
-    { "number": 8, "group": "q8", "type": "parts", "marks": 4, "prompt": "Choose TRUE, FALSE or NOT GIVEN for each statement.", "parts": [
-      { "key": "i", "label": "(i) Customers can play board games for two hours if they buy two drinks.", "type": "choice", "options": ["TRUE", "FALSE", "NOT GIVEN"] },
-      { "key": "ii", "label": "(ii) You need good English to play games imported from Germany or the US.", "type": "choice", "options": ["TRUE", "FALSE", "NOT GIVEN"] },
-      { "key": "iii", "label": "(iii) Pat never played Monopoly, Uno or Snakes & Ladders as a child.", "type": "choice", "options": ["TRUE", "FALSE", "NOT GIVEN"] },
-      { "key": "iv", "label": "(iv) Pat thinks computer games are not as challenging as some board games.", "type": "choice", "options": ["TRUE", "FALSE", "NOT GIVEN"] }
-    ] },
-    { "number": 9, "group": "q9to12", "type": "text", "prompt": "Find a word in paragraph 10 that means ‘originality’." },
-    { "number": 10, "group": "q9to12", "type": "text", "prompt": "What does ‘It’ (line 52) refer to?" },
-    { "number": 11, "group": "q9to12", "type": "choice", "prompt": "What is the meaning of ‘dreary’ (line 57)?", "options": [
-      { "value": "A", "label": "A. fun" },
-      { "value": "B", "label": "B. lazy" },
-      { "value": "C", "label": "C. happy" },
-      { "value": "D", "label": "D. boring" }
-    ] },
-    { "number": 12, "group": "q9to12", "type": "parts", "marks": 3, "prompt": "According to paragraphs 12–17, what does each person say can be learnt from playing board games?", "parts": [
-      { "key": "pat", "label": "Pat", "type": "text" },
-      { "key": "benson", "label": "Benson", "type": "text" },
-      { "key": "aey", "label": "Aey", "type": "text" }
-    ] },
-    { "number": 13, "group": "q13", "type": "parts", "marks": 4, "prompt": "Write the name of the game under each picture. One game is NOT given in the text; write NG for that picture.", "figure": { "src": "assets/reading-comprehension/dse/2012-a-q13-games.jpg", "alt": "Four original game pictures showing a card game, draughts, a tile game and a railway game", "caption": "Original game pictures for Question 13" }, "parts": [
-      { "key": "i", "label": "(i) Picture 1", "type": "text" },
-      { "key": "ii", "label": "(ii) Picture 2", "type": "text" },
-      { "key": "iii", "label": "(iii) Picture 3", "type": "text" },
-      { "key": "iv", "label": "(iv) Picture 4", "type": "text" }
-    ] },
-    { "number": 14, "group": "q14", "type": "parts", "marks": 5, "prompt": "Match each person with the correct speech bubble.", "optionBank": "A. It’s not about winning but getting together with friends.\nB. Who would have guessed that tiles and wooden tokens could go head to head with a keyboard and console?!\nC. I didn’t really like games very much until I started coming to the cafe.\nD. These games have helped me to improve my skills in the workplace.\nE. Anyone can play, and learn new words at the same time.", "parts": [
-      { "key": "benson", "label": "Benson", "type": "select", "options": ["A", "B", "C", "D", "E"] },
-      { "key": "aey", "label": "Aey", "type": "select", "options": ["A", "B", "C", "D", "E"] },
-      { "key": "pat", "label": "Pat", "type": "select", "options": ["A", "B", "C", "D", "E"] },
-      { "key": "dee", "label": "Dee", "type": "select", "options": ["A", "B", "C", "D", "E"] },
-      { "key": "writer", "label": "The writer", "type": "select", "options": ["A", "B", "C", "D", "E"] }
-    ] },
-    { "number": 15, "group": "q15to17", "type": "choice", "prompt": "What is the writer’s tone in paragraph 21?", "options": [
-      { "value": "A", "label": "A. positive" },
-      { "value": "B", "label": "B. worried" },
-      { "value": "C", "label": "C. doubtful" },
-      { "value": "D", "label": "D. neutral" }
-    ] },
-    { "number": 16, "group": "q15to17", "type": "textarea", "prompt": "According to Pat, why do parents want to keep their children away from the TV and computer?" },
-    { "number": 17, "group": "q15to17", "type": "choice", "prompt": "Which of the following is the best alternative subtitle for this article?", "options": [
-      { "value": "A", "label": "A. Cafe patrons swap their high-tech games for old-fashioned ones." },
-      { "value": "B", "label": "B. Parlour games are more popular than computer games." },
-      { "value": "C", "label": "C. Board games are winning awards in the gaming world." },
-      { "value": "D", "label": "D. Parlour games are a hit in Thailand’s cafes." }
-    ] },
-    { "number": 18, "group": "q18", "type": "parts", "marks": 12, "prompt": "Complete the advertisement using ONE word in each blank.", "context": "Polar Board Games & Cafe · Phase 2, Crystal Design Centre, Ram Indra-Ekamai Road, Bangkok, Thailand", "parts": [
-      { "key": "i", "label": "(i) We are a cafe ______ in parlour games.", "type": "text" },
-      { "key": "ii", "label": "(ii) We have about ______ different games.", "type": "text" },
-      { "key": "iii", "label": "(iii) Buy one ______ and play for one hour.", "type": "text" },
-      { "key": "iv", "label": "(iv) Our cafe has comfy chairs, small tables and ______ shelves.", "type": "text" },
-      { "key": "v", "label": "(v) Players roll a pair of ______.", "type": "text" },
-      { "key": "vi", "label": "(vi) Players shuffle a deck of picture ______.", "type": "text" },
-      { "key": "vii", "label": "(vii) It’s ______ compared to whizzy computer games.", "type": "text" },
-      { "key": "viii", "label": "(viii) You can buy games to play ______.", "type": "text" },
-      { "key": "ix", "label": "(ix) Monday to ______", "type": "text" },
-      { "key": "x", "label": "(x) from 1pm to ______", "type": "text" },
-      { "key": "xi", "label": "(xi) and from ______ to 10pm", "type": "text" },
-      { "key": "xii", "label": "(xii) Call us or visit our ______.", "type": "text" }
-    ] },
-    { "number": 19, "group": "q19to20", "type": "textarea", "prompt": "Why are board games making a comeback? Give one reason from the text to support your answer." },
-    { "number": 20, "group": "q19to20", "type": "parts", "marks": 2, "prompt": "Can board games compete with computer games? Give one reason to support each point of view.", "parts": [
-      { "key": "yes", "label": "Yes", "type": "text" },
-      { "key": "no", "label": "No", "type": "text" }
-    ] }
-  ]
+    {
+      "number": 1,
+      "group": "q1",
+      "type": "parts",
+      "marks": 4,
+      "prompt": "Choose Polar Cafe or Internet Cafes for each expression.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) switched off",
+          "type": "choice",
+          "options": [
+            "Polar Cafe",
+            "Internet Cafes"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) race virtual hotrods",
+          "type": "choice",
+          "options": [
+            "Polar Cafe",
+            "Internet Cafes"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) play alone",
+          "type": "choice",
+          "options": [
+            "Polar Cafe",
+            "Internet Cafes"
+          ]
+        },
+        {
+          "key": "iv",
+          "label": "(iv) unplugged",
+          "type": "choice",
+          "options": [
+            "Polar Cafe",
+            "Internet Cafes"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "group": "q2to7",
+      "type": "choice",
+      "prompt": "Why does the author write that many people will greet the cafe with ‘a huge sigh of relief’ (lines 1–2)?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. People love board games."
+        },
+        {
+          "value": "B",
+          "label": "B. People love going to cafes."
+        },
+        {
+          "value": "C",
+          "label": "C. The cafe doesn’t have computers."
+        },
+        {
+          "value": "D",
+          "label": "D. The cafe is a very friendly and homey place."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "group": "q2to7",
+      "type": "choice",
+      "prompt": "The main purpose of paragraph 2 is to...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. provide a definition of board games."
+        },
+        {
+          "value": "B",
+          "label": "B. introduce the main idea of the article."
+        },
+        {
+          "value": "C",
+          "label": "C. connect the ideas in paragraphs 1 and 3."
+        },
+        {
+          "value": "D",
+          "label": "D. grab the reader’s attention."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "group": "q2to7",
+      "type": "text",
+      "prompt": "In paragraph 3, ‘going back to’ refers to..."
+    },
+    {
+      "number": 5,
+      "group": "q2to7",
+      "type": "text",
+      "prompt": "When did the cafe open?"
+    },
+    {
+      "number": 6,
+      "group": "q2to7",
+      "type": "text",
+      "prompt": "What was Pat’s and Dee’s life like before they opened the cafe?"
+    },
+    {
+      "number": 7,
+      "group": "q2to7",
+      "type": "choice",
+      "prompt": "Cafes specialising in board games are popular in...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Germany and the USA."
+        },
+        {
+          "value": "B",
+          "label": "B. China and South Korea."
+        },
+        {
+          "value": "C",
+          "label": "C. Germany, the USA, China and South Korea."
+        },
+        {
+          "value": "D",
+          "label": "D. Germany, the USA, China, South Korea and Thailand."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "group": "q8",
+      "type": "parts",
+      "marks": 4,
+      "prompt": "Decide whether the following statements are True, False, or the information is Not Given in paragraphs 8–9.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Customers can play board games for two hours if they buy two drinks.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) You need good English to play games imported from Germany or the US.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Pat never played Monopoly, Uno or Snakes & Ladders as a child.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Pat thinks computer games are not as challenging as some board games.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "group": "q9to12",
+      "type": "text",
+      "prompt": "Find a word in paragraph 10 that means ‘originality’."
+    },
+    {
+      "number": 10,
+      "group": "q9to12",
+      "type": "text",
+      "prompt": "What does ‘It’ (line 52) refer to?"
+    },
+    {
+      "number": 11,
+      "group": "q9to12",
+      "type": "choice",
+      "prompt": "What is the meaning of ‘dreary’ (line 57)?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. fun"
+        },
+        {
+          "value": "B",
+          "label": "B. lazy"
+        },
+        {
+          "value": "C",
+          "label": "C. happy"
+        },
+        {
+          "value": "D",
+          "label": "D. boring"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "group": "q9to12",
+      "type": "parts",
+      "marks": 3,
+      "prompt": "According to paragraphs 12–17, what does each person say can be learnt from playing board games?",
+      "parts": [
+        {
+          "key": "pat",
+          "label": "Pat",
+          "type": "text"
+        },
+        {
+          "key": "benson",
+          "label": "Benson",
+          "type": "text"
+        },
+        {
+          "key": "aey",
+          "label": "Aey",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "group": "q13",
+      "type": "parts",
+      "marks": 4,
+      "prompt": "Write the name of the game under each picture. One game is NOT given in the text; write NG for that picture.",
+      "figure": {
+        "src": "assets/reading-comprehension/dse/2012-a-q13-games.jpg",
+        "alt": "Four original game pictures showing a card game, draughts, a tile game and a railway game",
+        "caption": "Original game pictures for Question 13"
+      },
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Picture 1",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Picture 2",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Picture 3",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Picture 4",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "group": "q14",
+      "type": "parts",
+      "marks": 5,
+      "prompt": "Match each person with the correct speech bubble based on paragraphs 15–21.",
+      "optionBank": "A. It’s not about winning but getting together with friends.\nB. Who would have guessed that tiles and wooden tokens could go head to head with a keyboard and console?!\nC. I didn’t really like games very much until I started coming to the cafe.\nD. These games have helped me to improve my skills in the workplace.\nE. Anyone can play, and learn new words at the same time.",
+      "parts": [
+        {
+          "key": "benson",
+          "label": "Benson",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        {
+          "key": "aey",
+          "label": "Aey",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        {
+          "key": "pat",
+          "label": "Pat",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        {
+          "key": "dee",
+          "label": "Dee",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        {
+          "key": "writer",
+          "label": "The writer",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "group": "q15to17",
+      "type": "choice",
+      "prompt": "What is the writer’s tone in paragraph 21?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. positive"
+        },
+        {
+          "value": "B",
+          "label": "B. worried"
+        },
+        {
+          "value": "C",
+          "label": "C. doubtful"
+        },
+        {
+          "value": "D",
+          "label": "D. neutral"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "group": "q15to17",
+      "type": "textarea",
+      "prompt": "According to Pat, why do parents want to keep their children away from the TV and computer?"
+    },
+    {
+      "number": 17,
+      "group": "q15to17",
+      "type": "choice",
+      "prompt": "Which of the following is the best alternative subtitle for this article?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Cafe patrons swap their high-tech games for old-fashioned ones."
+        },
+        {
+          "value": "B",
+          "label": "B. Parlour games are more popular than computer games."
+        },
+        {
+          "value": "C",
+          "label": "C. Board games are winning awards in the gaming world."
+        },
+        {
+          "value": "D",
+          "label": "D. Parlour games are a hit in Thailand’s cafes."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "group": "q18",
+      "type": "parts",
+      "marks": 12,
+      "prompt": "Complete the following advertisement for Polar Cafe. Use ONE word to fill in each blank. (Hyphenated words count as one word.)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "vi",
+          "label": "(vi)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "vii",
+          "label": "(vii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "viii",
+          "label": "(viii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ix",
+          "label": "(ix)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "x",
+          "label": "(x)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "xi",
+          "label": "(xi)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "xii",
+          "label": "(xii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "xiii",
+          "label": "(xiii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "xiv",
+          "label": "(xiv)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "xv",
+          "label": "(xv)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "xvi",
+          "label": "(xvi)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "xvii",
+          "label": "(xvii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "xviii",
+          "label": "(xviii)",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "caption": "Polar Board Games & Cafe",
+          "rows": [
+            [
+              {
+                "text": "Address\nPhase 2, (i) ______ (ii) ______ (iii) ______\nRam Indra-Ekamai Road, Bangkok, Thailand",
+                "parts": [
+                  "i",
+                  "ii",
+                  "iii"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "About us\nWe are a cafe (iv) ______ in parlour games. We have about (v) ______ different games for patrons to choose from. Buy one (vi) ______ and play for one hour.",
+                "parts": [
+                  "iv",
+                  "v",
+                  "vi"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Ambience\nOur cafe is very cozy, with (vii) ______ chairs, small tables and shelves stacked with books and games.",
+                "part": "vii"
+              }
+            ],
+            [
+              {
+                "text": "Equipment\nTo play our games, players roll a pair of (viii) ______ or shuffle a deck of picture (ix) ______. It’s (x) ______ compared to whizzy computer games, but still lots of fun.",
+                "parts": [
+                  "viii",
+                  "ix",
+                  "x"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Products\nIf you really like our games, you can buy them to play (xi) ______ (xii) ______. Games cost between Bt500 and Bt3000.",
+                "parts": [
+                  "xi",
+                  "xii"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Opening hours\nMonday to (xiii) ______ from 1pm to (xiv) ______.\n(xv) ______ and (xvi) ______ from (xvii) ______ to 10pm.",
+                "parts": [
+                  "xiii",
+                  "xiv",
+                  "xv",
+                  "xvi",
+                  "xvii"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "For more information\nCall us on (083) 133 0743 or visit our (xviii) ______: www.polarplaygames.com.",
+                "part": "xviii"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "group": "q19to20",
+      "type": "textarea",
+      "prompt": "Why are board games making a comeback? Give one reason from the text to support your answer."
+    },
+    {
+      "number": 20,
+      "group": "q19to20",
+      "type": "parts",
+      "marks": 2,
+      "prompt": "Can board games compete with computer games? Give one reason to support each point of view.",
+      "parts": [
+        {
+          "key": "yes",
+          "label": "Yes",
+          "type": "text"
+        },
+        {
+          "key": "no",
+          "label": "No",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

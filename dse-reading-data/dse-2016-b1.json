@@ -76,7 +76,7 @@
       "number": 19,
       "group": "paper",
       "type": "parts",
-      "prompt": "Decide whether the following statements are True, False or the information is Not Given in paragraph 1.\n(4 marks)\nStatements\nT F NG",
+      "prompt": "Decide whether the following statements are True, False or the information is Not Given in paragraph 1.",
       "parts": [
         {
           "key": "i",
@@ -135,33 +135,34 @@
     {
       "number": 22,
       "group": "paper",
-      "type": "choice",
-      "prompt": "Which of the following are given as reasons for introducing food trucks in Hong Kong?",
+      "type": "multiple",
+      "prompt": "Which of the following are given as reasons for introducing food trucks in Hong Kong? Tick TWO statements only. No marks will be given for three or more ticks.",
       "options": [
         {
-          "value": "A",
-          "label": "A. Tick (Y) TWO statements only. No marks will be given for three or more ticks. (2 marks)"
+          "value": "i",
+          "label": "(i) Food trucks will fill a gap in the market for cheap and convenient food."
         },
         {
-          "value": "B",
-          "label": "B. Statements"
+          "value": "ii",
+          "label": "(ii) Hong Kong has attractive places for trucks to sell from."
         },
         {
-          "value": "C",
-          "label": "C. Food trucks will fill a gap in the market for cheap and convenient food."
+          "value": "iii",
+          "label": "(iii) Food trucks will add to the choice of restaurants."
         },
         {
-          "value": "D",
-          "label": "D. 11) Hong Kong has attractive places for trucks to sell from."
+          "value": "iv",
+          "label": "(iv) Hong Kong people like food trucks."
         }
       ],
-      "optionBank": "Tick (Y) TWO statements only. No marks will be given for three or more ticks. (2 marks)\nStatements\n1) Food trucks will fill a gap in the market for cheap and convenient food.\n11) Hong Kong has attractive places for trucks to sell from.\n(t1) Food trucks will add to the choice of restaurants.\niv) Hong Kong people like food trucks.\nWhich word or phrase in paragraph 3 means 'eating outside'?"
+      "slots": 2,
+      "marks": 2
     },
     {
       "number": 23,
       "group": "paper",
       "type": "textarea",
-      "prompt": "SETEDSE ENG LANG 1-B1-1\n12 020 E1 B"
+      "prompt": "Which word or phrase in paragraph 3 means ‘eating outside’?"
     },
     {
       "number": 24,
@@ -189,7 +190,7 @@
         },
         {
           "value": "D",
-          "label": "D. Hong Kong's food trucks will be better than food trucks abroad C"
+          "label": "D. Hong Kong’s food trucks will be better than food trucks abroad."
         }
       ]
     },
@@ -215,24 +216,30 @@
       "number": 29,
       "group": "paper",
       "type": "parts",
-      "prompt": "List FOUR reasons that the writer gives to support her point of view. (4 marks)",
+      "prompt": "List FOUR reasons that the writer gives to support her point of view.",
       "parts": [
         {
           "key": "i",
-          "label": "i)",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
           "type": "text"
         },
         {
           "key": "iii",
-          "label": "iii)",
+          "label": "(iii)",
           "type": "text"
         },
         {
           "key": "iv",
-          "label": "iv)",
+          "label": "(iv)",
           "type": "text"
         }
-      ]
+      ],
+      "marks": 4
     },
     {
       "number": 30,
@@ -267,8 +274,32 @@
     {
       "number": 32,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the following paragraph with a word or phrase found in paragraph 7. (4 marks)\nChris Wong wants to see an increase in the number of (i). in Hong Kong\nbecause they have been an important part of the (if). of the city. They\nare also (iti) to Hong Kong and one of the reasons many\n(iv). visit the city."
+      "type": "parts",
+      "prompt": "Complete the following paragraph with a word or phrase found in paragraph 7.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        }
+      ],
+      "context": "Chris Wong wants to see an increase in the number of (i) ______ in Hong Kong because they have been an important part of the (ii) ______ of the city. They are also (iii) ______ to Hong Kong and one of the reasons many (iv) ______ visit the city.",
+      "marks": 4
     },
     {
       "number": 33,
@@ -333,8 +364,26 @@
     {
       "number": 37,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "The writer of Text 6 thinks there is a market for food trucks...\nwhere there are not enough places to eat.\nwhen there is not enough time to eat.\nwhere there are no factory buildings.\nwhere there are no work sites nearby."
+      "type": "choice",
+      "prompt": "The writer of Text 6 thinks there is a market for food trucks...",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. where there are not enough places to eat."
+        },
+        {
+          "value": "B",
+          "label": "B. when there is not enough time to eat."
+        },
+        {
+          "value": "C",
+          "label": "C. where there are no factory buildings."
+        },
+        {
+          "value": "D",
+          "label": "D. where there are no work sites nearby."
+        }
+      ]
     },
     {
       "number": 38,
@@ -369,31 +418,57 @@
     {
       "number": 40,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the following summary based on paragraph 11. You may write more than one word on each line\n(3 marks)\nThe number of people with hawker licences has fallen because the government started to\n(i). fewer licences in the 1970s and if a hawker (ii) then\nthe hawker licence (li)."
+      "type": "parts",
+      "prompt": "Complete the following summary based on paragraph 11. You may write more than one word on each line.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        }
+      ],
+      "context": "The number of people with hawker licences has fallen because the government started to (i) ______ fewer licences in the 1970s and if a hawker (ii) ______ then the hawker licence (iii) ______.",
+      "marks": 3
     },
     {
       "number": 41,
       "group": "paper",
       "type": "choice",
-      "prompt": "The writer gives the example of Mister Softee in order to...\n1. show that Hong Kong people are sceptical about food trucks",
+      "prompt": "The writer gives the example of Mister Softee in order to...",
       "options": [
         {
+          "value": "A",
+          "label": "A. show that Hong Kong people are sceptical about food trucks."
+        },
+        {
           "value": "B",
-          "label": "B. show food trucks already exist in Hong Kong"
+          "label": "B. show food trucks already exist in Hong Kong."
+        },
+        {
+          "value": "C",
+          "label": "C. complain about how crowded Hong Kong is."
         },
         {
           "value": "D",
           "label": "D. show that food trucks cause congestion."
         }
-      ],
-      "optionBank": "B. show food trucks already exist in Hong Kong\ncomplain about how crowded Hong Kong is.\nD. show that food trucks cause congestion."
+      ]
     },
     {
       "number": 42,
       "group": "paper",
       "type": "textarea",
-      "prompt": "What does the writer think about food truck hygiene?"
+      "prompt": "What does the writer think about food truck hygiene? Why?"
     },
     {
       "number": 43,
@@ -417,7 +492,7 @@
         },
         {
           "value": "C",
-          "label": "C. making the problems appear clearer. D"
+          "label": "C. making the problems appear clearer."
         },
         {
           "value": "D",
@@ -447,24 +522,108 @@
       "number": 46,
       "group": "paper",
       "type": "parts",
-      "prompt": "Look at Texts 5-7 and match them to the list of titles in the column below. Write the correct number (5, 6, 7)\nin the box on the right. One title is NOT used and should be marked with an 'X'. (3 marks)\nTitles Text 5 / 6/7",
+      "prompt": "Look at Texts 5–7 and match them to the list of titles below. Write the correct number (5, 6, 7) on the right. One title is NOT used and should be marked with an X.",
       "parts": [
         {
           "key": "i",
-          "label": "i) Food trucks might drive out hawkers.\nFood trucks will be popular with citizens.",
-          "type": "text"
+          "label": "(i) Food trucks might drive out hawkers.",
+          "type": "select",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "X"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Food trucks will be popular with citizens.",
+          "type": "select",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "X"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
           "label": "(iii) Hawkers could do well with food trucks.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "X"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
-          "label": "iv) Food trucks might be useful in some areas.",
-          "type": "text"
+          "label": "(iv) Food trucks might be useful in some areas.",
+          "type": "select",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "X"
+          ],
+          "inTable": true
         }
-      ]
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Title",
+                "header": true
+              },
+              {
+                "text": "Text",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Food trucks might drive out hawkers."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Food trucks will be popular with citizens."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Hawkers could do well with food trucks."
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Food trucks might be useful in some areas."
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
+        }
+      ],
+      "marks": 3
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

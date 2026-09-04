@@ -4,7 +4,7 @@ const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
 const CATALOGUE_VERSION = '20260829-audio1';
-const DSE_CATALOGUE_VERSION = '20260904-dse2023-b1-questions-1';
+const DSE_CATALOGUE_VERSION = '20260904-full-question-audit-1';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
 const QUESTION_TYPE_INDEX = window.EDMUND_IELTS_READING_QUESTION_TYPES || { taxonomy: [], articles: [] };
 const audioTimingCache = new Map();
@@ -455,7 +455,7 @@ function renderPassage() {
 function normalizedOption(option) { return typeof option === "string" ? { value: option, label: option, translation: "" } : option; }
 function renderAnswerControl(control, name, partId) {
   const type = control.type || 'text'; const options = control.options || [];
-  if (['choice', 'multiple'].includes(type)) return `<div class="choice-list">${options.map((entry) => { const option = normalizedOption(entry); return `<label><input type="${type === 'multiple' ? 'checkbox' : 'radio'}" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" data-answer-slots="${control.slots || 1}" value="${escapeHtml(option.value)}"><span><strong>${escapeHtml(option.label)}</strong>${option.translation ? `<small class="option-translation" data-question-translation hidden><br>${escapeHtml(option.translation)}</small>` : ''}</span></label>`; }).join('')}</div>${type === 'multiple' ? `<small>請選擇 ${control.slots} 項。</small>` : ''}`;
+  if (['choice', 'multiple'].includes(type)) return `<div class="choice-list">${options.map((entry) => { const option = normalizedOption(entry); return `<label><input type="${type === 'multiple' ? 'checkbox' : 'radio'}" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" data-answer-slots="${control.slots || 1}" value="${escapeHtml(option.value)}"><span><strong>${escapeHtml(option.label)}</strong>${option.translation ? `<small class="option-translation" data-question-translation hidden><br>${escapeHtml(option.translation)}</small>` : ''}</span></label>`; }).join('')}</div>${type === 'multiple' && control.selectionLimit !== false ? `<small>請選擇 ${control.slots || 1} 項。</small>` : ''}`;
   if (type === 'select') return `<select class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '選擇答案')}"><option value="">選擇答案</option>${options.map((entry) => { const option = normalizedOption(entry); return `<option value="${escapeHtml(option.value)}">${escapeHtml(option.label)}</option>`; }).join('')}</select>`;
   if (type === 'textarea') return `<textarea class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '輸入答案')}" autocomplete="off" maxlength="1200" placeholder="${escapeHtml(control.placeholder || '輸入答案')}"></textarea>`;
   return `<input class="answer-input" name="${escapeHtml(name)}" data-answer-part="${escapeHtml(partId)}" aria-label="${escapeHtml(control.label || '輸入答案')}" autocomplete="off" maxlength="300" placeholder="${escapeHtml(control.placeholder || '輸入答案')}">`;
@@ -470,11 +470,12 @@ function renderQuestionControls(question) {
   return renderAnswerControl(question, `q${question.number}`, `q${question.number}`);
 }
 function renderSourceTable(table, question = null) {
-  return `<div class="source-table-scroll" role="region" aria-label="${escapeHtml(table.caption || 'Source table')}" tabindex="0"><table class="source-table${table.compact ? ' is-compact' : ''}${table.flow ? ' is-flow' : ''}">${table.caption ? `<caption>${escapeHtml(table.caption)}</caption>` : ''}<tbody>${table.rows.map((row) => `<tr>${row.map((cell) => {
+  const columns = Math.max(...table.rows.map(row => row.reduce((count, cell) => count + (cell.colSpan || 1), 0)));
+  return `<div class="source-table-scroll" role="region" aria-label="${escapeHtml(table.caption || 'Source table')}" tabindex="0"><table class="source-table${table.compact ? ' is-compact' : ''}${table.flow ? ' is-flow' : ''}${columns > 2 ? ' is-wide' : ''}">${table.caption ? `<caption>${escapeHtml(table.caption)}</caption>` : ''}<tbody>${table.rows.map((row) => `<tr>${row.map((cell) => {
     const item = typeof cell === 'string' ? { text: cell } : cell;
     const tag = item.header ? 'th' : 'td';
     const fields = (item.parts || (item.part ? [item.part] : [])).map((key) => question?.parts?.find((entry) => entry.key === key)).filter(Boolean);
-    const controls = fields.map((part) => { const name = `q${question.number}_${part.key}`; return renderAnswerControl(part, name, name); }).join('');
+    const controls = fields.map((part) => { const name = `q${question.number}_${part.key}`; const control = renderAnswerControl(part, name, name); return fields.length > 1 ? `<div class="table-answer-field"><span>${escapeHtml(part.label)}</span>${control}</div>` : control; }).join('');
     return `<${tag}${item.colSpan > 1 ? ` colspan="${item.colSpan}"` : ''}${item.rowSpan > 1 ? ` rowspan="${item.rowSpan}"` : ''}>${escapeHtml(item.text || '')}${controls}</${tag}>`;
   }).join('')}</tr>`).join('')}</tbody></table></div>`;
 }
@@ -543,7 +544,7 @@ async function saveAttempt(submit = false, force = false, silent = false, retry 
 }
 async function submitAnswers(partial = false, force = false) {
   collectAnswers(); const count = Object.keys(state.answers).length;
-  const incompleteMultiple = state.data.questions.find((q) => q.type === 'multiple' && state.answers[`q${q.number}`] && state.answers[`q${q.number}`].split(',').length !== q.slots);
+  const incompleteMultiple = state.data.questions.find((q) => q.type === 'multiple' && q.selectionLimit !== false && state.answers[`q${q.number}`] && state.answers[`q${q.number}`].split(',').length !== q.slots);
   if (incompleteMultiple && !force) return showToast(`第 ${incompleteMultiple.number} 題需要選擇 ${incompleteMultiple.slots} 項。`);
   if (!count) return showToast("請先作答至少一題。"); if (!partial && !force && count < state.data.questions.length) return showToast(`尚有 ${state.data.questions.length - count} 題未作答；可先提交已作答題目。`);
   el.submissionStatus.textContent = "正在提交答案…"; const payload = await saveAttempt(true, force); if (payload && payload.status === "in_progress") el.submissionStatus.textContent = `已批改 ${payload.answered_count ?? count} 題；可繼續完成其餘題目。${payload.review_count ? `另有 ${payload.review_count} 題待教師核對。` : ''}`;
@@ -892,7 +893,22 @@ el.questions.addEventListener("click", (event) => {
   const reveal = event.target.closest('[data-reveal]'); if (reveal) return openAnalysis(Number(reveal.dataset.reveal));
   const row = event.target.closest('.choice-list label'); if (row) { const radio = $('input[type="radio"]', row); if (radio && !radio.disabled && !radio.checked) { radio.checked = true; radio.dispatchEvent(new Event("change", { bubbles: true })); } }
 });
-function handleAnswerInput(event) { if (!event.target.matches('[data-answer-part]')) return; const match = event.target.name?.match(/^q(\d+)/); if (event.target.type === 'checkbox' && event.target.checked) { const q = state.data.questions.find((item) => item.number === Number(match?.[1])); const slots = q?.slots || q?.parts?.find((part) => `q${q.number}_${part.key}` === event.target.name)?.slots || 1; if ($$(`input[name="${event.target.name}"]:checked`,el.questionForm).length > slots) { event.target.checked = false; showToast(`本題最多選擇 ${slots} 項。`); } } if (match) recordAnswerTime(Number(match[1]), event.target.value); if (state.system === 'dse') saveDseDraft(); updateAnswerProgress(); }
+function handleAnswerInput(event) {
+  if (!event.target.matches('[data-answer-part]')) return;
+  const match = event.target.name?.match(/^q(\d+)/);
+  if (event.target.type === 'checkbox' && event.target.checked) {
+    const question = state.data.questions.find((item) => item.number === Number(match?.[1]));
+    const control = question?.parts?.find((part) => `q${question.number}_${part.key}` === event.target.name) || question;
+    const slots = control?.slots || 1;
+    if (control?.selectionLimit !== false && $$(`input[name="${event.target.name}"]:checked`, el.questionForm).length > slots) {
+      event.target.checked = false;
+      showToast(`本題最多選擇 ${slots} 項。`);
+    }
+  }
+  if (match) recordAnswerTime(Number(match[1]), event.target.value);
+  if (state.system === 'dse') saveDseDraft();
+  updateAnswerProgress();
+}
 el.questionForm.addEventListener("input", handleAnswerInput);
 el.questionForm.addEventListener("change", handleAnswerInput);
 el.questionForm.addEventListener("submit", (event) => { event.preventDefault(); if (state.system === 'dse') { saveDseDraft(); showToast('作答內容已暫存在這部裝置。'); return; } submitAnswers(false, false); }); $('[data-submit-partial]').addEventListener("click", () => submitAnswers(true, false)); $('[data-analysis-bookmark]').addEventListener("click", toggleAnalysisBookmark); $('[data-skimming-bookmark]').addEventListener("click", toggleSkimmingBookmark);

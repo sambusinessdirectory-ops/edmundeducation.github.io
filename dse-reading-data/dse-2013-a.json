@@ -134,29 +134,103 @@
       "number": 6,
       "group": "paper",
       "type": "parts",
-      "prompt": "Read paragraphs 2-3 and decide whether the following statements are True, False, or the information is No\n6. (4 marks)\nGiven. Blacken ONE circle only for each statement\nF NG",
+      "prompt": "Read paragraphs 2-3 and decide whether the following statements are True, False, or the information is Not Given. Choose ONE answer for each statement.",
       "parts": [
         {
           "key": "i",
-          "label": "i) The three women in the persimmon orchard are the same age.",
-          "type": "text"
+          "label": "(i) The three women in the persimmon orchard are the same age.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
-          "label": "ii) The burial complex remains a mystery.",
-          "type": "text"
+          "label": "(ii) The burial complex remains a mystery.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
-          "label": "(iii) It usually takes a few hours to piece together a complete terra-cotta\nwarrior.",
-          "type": "text"
+          "label": "(iii) It usually takes a few hours to piece together a complete terra-cotta warrior.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
-          "label": "iv) Yang Rongrong has been piecing together terra-cotta warriors for 39\nyears.",
-          "type": "text"
+          "label": "(iv) Yang Rongrong has been piecing together terra-cotta warriors for 39 years.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         }
-      ]
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statements",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) The three women in the persimmon orchard are the same age."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) The burial complex remains a mystery."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) It usually takes a few hours to piece together a complete terra-cotta warrior."
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Yang Rongrong has been piecing together terra-cotta warriors for 39 years."
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
+        }
+      ],
+      "marks": 4
     },
     {
       "number": 7,
@@ -198,7 +272,7 @@
       "number": 10,
       "group": "paper",
       "type": "choice",
-      "prompt": "Which of the following is NOT mentioned in paragraph 4?",
+      "prompt": "Which of the following innovations is NOT mentioned in paragraph 4? Choose ONE answer only.",
       "options": [
         {
           "value": "A",
@@ -327,47 +401,96 @@
                 "part": "step4"
               }
             ]
-          ]
+          ],
+          "compact": true
         }
       ],
       "parts": [
         {
           "key": "step1",
-          "label": "step1",
-          "type": "text",
-          "inTable": true
+          "label": "Send the artifact to an on-site laboratory.",
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
         },
         {
           "key": "step2",
-          "label": "step2",
-          "type": "text",
-          "inTable": true
+          "label": "Spray the color with a solution.",
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
         },
         {
           "key": "step3",
-          "label": "step3",
-          "type": "text",
-          "inTable": true
+          "label": "Wrap the artifact in plastic.",
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
         },
         {
           "key": "step4",
-          "label": "step4",
-          "type": "text",
-          "inTable": true
+          "label": "Unearth the artifact.",
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
         }
       ]
     },
     {
       "number": 17,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Cople tithe following summary about the artifacts Shen Masheng shows the author. Use ONE word tails\nShen Maosheng first shows the author (i).\nwhich have a similar appearance to backpacks, and recently unearthed\n(il) Then he reveals a \"real find': a\n(iii) and a (iv)\nstill in one piece."
+      "type": "parts",
+      "prompt": "Complete the following summary about the artifacts Shen Maosheng shows the author. Use ONE word to fill in each blank.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        }
+      ],
+      "context": "Shen Maosheng first shows the author (i) ______, which have a similar appearance to backpacks, and a recently unearthed (ii) ______. Then he reveals a 'real find': a (iii) ______ and a (iv) ______ still in one piece.",
+      "marks": 4
     },
     {
       "number": 18,
       "group": "paper",
       "type": "choice",
-      "prompt": "According to paragraph 9, the artifacts are evidence of the Qin dynasty'S...",
+      "prompt": "According to paragraph 9, the artifacts are evidence of the Qin dynasty's...",
       "options": [
         {
           "value": "A",
@@ -396,31 +519,115 @@
     {
       "number": 20,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Based on the information in paragraph 10, complete the following text by writing ONE word to fill in each\nblank. You should make sure that your answers are grammatically correct, paying attention to word form,\nplurals, etc.\n(4 marks)\nThe next challenge for (i). is to (il). a\nprocedure for (iti). color to the wariors now that\nhas been developed to hold together the soil.\n(iv)"
+      "type": "parts",
+      "prompt": "Based on the information in paragraph 10, complete the following text by writing ONE word to fill in each blank. You should make sure that your answers are grammatically correct, paying attention to word form, plurals, etc.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        }
+      ],
+      "context": "The next challenge for (i) ______ is to (ii) ______ a procedure for (iii) ______ color to the warriors now that a (iv) ______ has been developed to hold together the soil.",
+      "marks": 4
     },
     {
       "number": 21,
       "group": "paper",
       "type": "parts",
-      "prompt": "Read paragraph I1 and decide whether the following statements are True, False, or the information is Not\nGiven. Blacken ONE circle only for each statement. (3 marks)\nT R NG",
+      "prompt": "Read paragraph 11 and decide whether the following statements are True, False, or the information is Not Given. Choose ONE answer for each statement.",
       "parts": [
         {
           "key": "i",
-          "label": "i) Only a small portion of the tomb has been excavated",
-          "type": "text"
+          "label": "(i) Only a small portion of the tomb has been excavated.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
-          "label": "ii) The speed of discovering new artifacts is slowing down.",
-          "type": "text"
+          "label": "(ii) The speed of discovering new artifacts is slowing down.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
           "label": "(iii) In 2011, the museum completed the excavation of the central burial mound.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         }
-      ]
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statements",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Only a small portion of the tomb has been excavated."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) The speed of discovering new artifacts is slowing down."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) In 2011, the museum completed the excavation of the central burial mound."
+              },
+              {
+                "part": "iii"
+              }
+            ]
+          ]
+        }
+      ],
+      "marks": 3
     },
     {
       "number": 22,
@@ -462,7 +669,7 @@
         },
         {
           "value": "C",
-          "label": "C. show a historically accurate view of the terra-cotta warriors. A"
+          "label": "C. show a historically accurate view of the terra-cotta warriors."
         },
         {
           "value": "D",
@@ -542,45 +749,94 @@
                 "part": "paragraph6"
               }
             ]
-          ]
+          ],
+          "compact": true
         }
       ],
       "parts": [
         {
           "key": "paragraph1",
-          "label": "paragraph1",
-          "type": "text",
-          "inTable": true
+          "label": "Paragraphs 2-3",
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "paragraph2",
-          "label": "paragraph2",
-          "type": "text",
-          "inTable": true
+          "label": "Paragraphs 4-5",
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "paragraph3",
-          "label": "paragraph3",
-          "type": "text",
-          "inTable": true
+          "label": "Paragraphs 6-7",
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "paragraph4",
-          "label": "paragraph4",
-          "type": "text",
-          "inTable": true
+          "label": "Paragraphs 8-10",
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "paragraph5",
-          "label": "paragraph5",
-          "type": "text",
-          "inTable": true
+          "label": "Paragraphs 11",
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "paragraph6",
-          "label": "paragraph6",
-          "type": "text",
-          "inTable": true
+          "label": "Paragraphs 12-13",
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         }
       ],
       "optionBank": "A. The Emperor's colorful army\nB. Locals putting pieces together\nC. New preservation methods\nD. Colorful artifacts and colorful earth\nE. Preserving the cracks\nF. Future discoveries"
@@ -601,14 +857,14 @@
         },
         {
           "value": "C",
-          "label": "C. a feature article. D"
+          "label": "C. a feature article."
         },
         {
           "value": "D",
-          "label": "D. an opinion piece. ^ 3."
+          "label": "D. an opinion piece."
         }
-      ],
-      "optionBank": "A. a travel report.\nB. a technical report.\nC. a feature article. D\nD. an opinion piece. ^ 3."
+      ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

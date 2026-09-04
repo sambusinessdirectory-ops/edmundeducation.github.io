@@ -86,7 +86,7 @@
         },
         {
           "value": "D",
-          "label": "D. gencrates intense excitement."
+          "label": "D. generates intense excitement."
         }
       ]
     },
@@ -129,8 +129,20 @@
     {
       "number": 46,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Find TWO examples from paragraph 2 of focusing on 'what a job is and isn't' (line 10). (2 marks)\n(ii)"
+      "type": "parts",
+      "prompt": "Find TWO examples from paragraph 2 of focusing on 'what a job is and isn't' (line 10). (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 47,
@@ -198,8 +210,8 @@
           "type": "text"
         },
         {
-          "key": "i",
-          "label": "(i) 'the other':",
+          "key": "ii",
+          "label": "(ii) 'the other':",
           "type": "text"
         }
       ]
@@ -214,7 +226,7 @@
       "number": 52,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraph 5, decide whether the following statements True (T), False (F) or Not Given (NG).\n(4 marks)\nStatements F NG",
+      "prompt": "According to paragraph 5, decide whether the following statements True (T), False (F) or Not Given (NG).\n(4 marks)",
       "parts": [
         {
           "key": "i",
@@ -228,7 +240,7 @@
         },
         {
           "key": "ii",
-          "label": "ii) Online groups helping people to review different aspects of their lives bloomed\nduring the pandemic.",
+          "label": "(ii) Online groups helping people to review different aspects of their lives bloomed during the pandemic.",
           "type": "choice",
           "options": [
             "TRUE",
@@ -273,8 +285,22 @@
     {
       "number": 55,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Use a word or phrase in each blank to complete the following statement based on the information in\nparagraph 7. (2 marks)\nEmployers have responded to workers' apparent 'slacking' by (i)\nthe duties and opportunities of relevant staff, resulting in dire consequences. This has been labelled\n(li)"
+      "type": "parts",
+      "prompt": "Use a word or phrase in each blank to complete the following statement based on the information in paragraph 7. (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ],
+      "context": "Employers have responded to workers' apparent 'slacking' by (i) ______ the duties and opportunities of relevant staff, resulting in dire consequences. This has been labelled (ii) ______.",
+      "marks": 2
     },
     {
       "number": 56,
@@ -285,8 +311,20 @@
     {
       "number": 57,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "In paragraph 7, what words or phrases mean 'ending someone's employment'? (2 marks)\n(ii)"
+      "type": "parts",
+      "prompt": "In paragraph 7, what words or phrases mean 'ending someone's employment'? (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 58,
@@ -301,30 +339,44 @@
       "prompt": "With reference to paragraph 8, complete the diagram describing the possible consequences of quiet quitting. (2 marks)",
       "tables": [
         {
+          "compact": true,
           "rows": [
             [
               {
                 "text": "Quiet quitting",
-                "rowSpan": 2
+                "header": true,
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "↓"
               },
+              {
+                "text": "↓"
+              }
+            ],
+            [
               {
                 "text": "(i) ______ the work of quiet quitters.",
                 "part": "i"
               },
               {
-                "text": "→"
-              },
-              {
-                "text": "Tensions could arise within teams at work."
+                "text": "Quiet quitters do not (ii) ______.",
+                "part": "ii"
               }
             ],
             [
               {
-                "text": "Quiet quitters do not (ii) ______.",
-                "part": "ii"
+                "text": "↓"
               },
               {
-                "text": "→"
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "Tensions could arise within teams at work."
               },
               {
                 "text": "Companies are less likely to progress."
@@ -351,20 +403,61 @@
     {
       "number": 60,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Based on the information in paragraph 9, complete the summary of the paragraph by writing ONB word in\neach blank below. Your answers must be grammatically correct. (5 marks)\nThe youth of today are digital natives, which proved to be i) to them in their studies\nduring the pandemic. However, after starting (il), this has resulted in some resentment\nfrom (il) workers moaning about quiet quitters being on social media. The fact is,\nmany prefer studying and working (iv). rather than in 'real life.' Aptly, quiet quitting\n(v) with an influencer's online quote: \"Your worth as a person is not defined by your\nlabor.\""
+      "type": "parts",
+      "prompt": "Based on the information in paragraph 9, complete the summary of the paragraph by writing ONE word in each blank below. Your answers must be grammatically correct. (5 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text"
+        }
+      ],
+      "context": "The youth of today are digital natives, which proved to be (i) ______ to them in their studies during the pandemic. However, after starting (ii) ______, this has resulted in some resentment from (iii) ______ workers moaning about quiet quitters being on social media. The fact is, many prefer studying and working (iv) ______ rather than in 'real life.' Aptly, quiet quitting (v) ______ with an influencer's online quote: \"Your worth as a person is not defined by your labor.\"",
+      "marks": 5
     },
     {
       "number": 61,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Who or what are the 'forebears' (line SO) mentioned in paragraph 10?"
+      "prompt": "Who or what are the 'forebears' (line 50) mentioned in paragraph 10?"
     },
     {
       "number": 62,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Newport discusses quiet quitting in relation to Gen Z. With referenco to paragraph 10, explain why Gen Z's\nuse of technology can be both positive and negative. (2 marks)\n(l) Positive:\n(i) Negative:"
+      "type": "parts",
+      "prompt": "Newport discusses quiet quitting in relation to Gen Z. With reference to paragraph 10, explain why Gen Z's use of technology can be both positive and negative. (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Positive:",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Negative:",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 63,
@@ -447,7 +540,7 @@
             ],
             [
               {
-                "text": "Of all of us, I think Gen Z can lead the way,",
+                "text": "Of all of us, I think Gen Z can lead the way.",
                 "colSpan": 1,
                 "rowSpan": 1
               },
@@ -498,38 +591,86 @@
         {
           "key": "t1r3c2g1",
           "label": "(i)",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
         },
         {
           "key": "t1r4c2g1",
           "label": "(ii)",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
         },
         {
           "key": "t1r5c2g1",
           "label": "(iii)",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
         },
         {
           "key": "t1r6c2g1",
           "label": "(iv)",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
         },
         {
           "key": "t1r7c2g1",
           "label": "(v)",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
         },
         {
           "key": "t1r8c2g1",
           "label": "(vi)",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
         }
       ],
       "optionBank": "A. Carrie Bulger\nB. Tricia Hersey\nC. Callum Borchers\nD. Gergo Vari\nE. Zaid Khan\nF. Cal Newport\nG. Barnaby Lashbrooke"
@@ -559,5 +700,5 @@
       ]
     }
   ],
-  "questionRevision": "20260904-corrected-numbering"
+  "questionRevision": "20260904-full-question-audit-1"
 }

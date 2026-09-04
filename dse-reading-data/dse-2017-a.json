@@ -99,13 +99,21 @@
     {
       "number": 1,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Which of the following recyclables is NOT mentioned in paragraph 1? Put a tick (r) in the box.\nGLASS METAL E-WASTE ORGANIC PAPER PLASTIC",
+      "type": "choice",
+      "prompt": "Which of the following recyclables is NOT mentioned in paragraph 1? Choose ONE.",
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/content/2017/a/questions-1-crop-1.webp",
           "alt": "Six pictured materials and objects for recycling"
         }
+      ],
+      "options": [
+        "GLASS",
+        "METAL",
+        "E-WASTE",
+        "ORGANIC",
+        "PAPER",
+        "PLASTIC"
       ]
     },
     {
@@ -117,14 +125,27 @@
     {
       "number": 3,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "What was the writer's view on recycling in 1996?\nii) Why did his opponents disagree with him?"
+      "type": "parts",
+      "prompt": "Answer both parts.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) What was the writer’s view on recycling in 1996?",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Why did his opponents disagree with him?",
+          "type": "text"
+        }
+      ],
+      "marks": 2
     },
     {
       "number": 4,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraphs 2-4, are the following statements True (T), False (F) or Not Given (NG)?\n(4 marks)\nStatements T F NG",
+      "prompt": "According to paragraphs 2–4, are the following statements True (T), False (F) or Not Given (NG)?",
       "parts": [
         {
           "key": "i",
@@ -158,7 +179,7 @@
         },
         {
           "key": "iv",
-          "label": "iv) The business of some recycling companies has suffered\n*AOZOEOTA*",
+          "label": "(iv) The business of some recycling companies has suffered.",
           "type": "choice",
           "options": [
             "TRUE",
@@ -207,8 +228,37 @@
     {
       "number": 8,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the following summary using ideas given in paragraphs 7 and 8. Write ONE word for each blank.\nAnswers must be grammatically correct. (5 marks)\nRecycling does not always lead to a reduction in (i)\nAlthough the E.P.A. encourages people to (ii)\nit does not necessarily make much of a (iii).. The matter becomes\nworse if people rinse their recyclables using (iv) and the electricity\nused to produce that heat comes from a (v) --burning power station."
+      "type": "parts",
+      "prompt": "Complete the following summary using ideas given in paragraphs 7 and 8. Write ONE word for each blank. Answers must be grammatically correct.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text"
+        }
+      ],
+      "context": "Recycling does not always lead to a reduction in (i) ______. Although the E.P.A. encourages people to (ii) ______, it does not necessarily make much of a (iii) ______. The matter becomes worse if people rinse their recyclables using (iv) ______, and the electricity used to produce that heat comes from a (v) ______-burning power station.",
+      "marks": 5
     },
     {
       "number": 9,
@@ -261,24 +311,36 @@
     {
       "number": 11,
       "group": "paper",
-      "type": "choice",
-      "prompt": "What does the writer think is the reason politicians support a \"zero waste\" policy (line 44)?\nii) To achieve a \"zero waste\" policy, the levels of recycling would need to be...",
-      "options": [
+      "type": "parts",
+      "prompt": "Answer both parts.",
+      "parts": [
         {
-          "value": "A",
-          "label": "A. reduced to zero."
+          "key": "i",
+          "label": "(i) What does the writer think is the reason politicians support a “zero waste” policy (line 44)?",
+          "type": "text"
         },
         {
-          "value": "B",
-          "label": "B. modestly reduced."
-        },
-        {
-          "value": "C",
-          "label": "C. slightly increased."
-        },
-        {
-          "value": "D",
-          "label": "D. increased significantly."
+          "key": "ii",
+          "label": "(ii) To achieve a “zero waste” policy, the levels of recycling would need to be...",
+          "type": "choice",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. reduced to zero."
+            },
+            {
+              "value": "B",
+              "label": "B. modestly reduced."
+            },
+            {
+              "value": "C",
+              "label": "C. slightly increased."
+            },
+            {
+              "value": "D",
+              "label": "D. increased significantly."
+            }
+          ]
         }
       ]
     },
@@ -385,195 +447,113 @@
       "number": 14,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraph 12, what materials are practical to recycle? For each type of material, tick (v) 'All',\n'Some' or 'None'. (3 marks)",
+      "prompt": "According to paragraph 12, what materials are practical to recycle? For each type of material, choose All, Some or None.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) metal",
+          "type": "select",
+          "options": [
+            "All",
+            "Some",
+            "None"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) food waste",
+          "type": "select",
+          "options": [
+            "All",
+            "Some",
+            "None"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii) cardboard",
+          "type": "select",
+          "options": [
+            "All",
+            "Some",
+            "None"
+          ],
+          "inTable": true
+        }
+      ],
       "tables": [
         {
+          "compact": true,
           "rows": [
             [
               {
                 "text": "Material",
-                "colSpan": 1,
-                "rowSpan": 1,
                 "header": true
               },
               {
-                "text": "All",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "header": true
-              },
-              {
-                "text": "Some",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "header": true
-              },
-              {
-                "text": "None",
-                "colSpan": 1,
-                "rowSpan": 1,
+                "text": "All / Some / None",
                 "header": true
               }
             ],
             [
               {
-                "text": "metal",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "(i) metal"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r2c2g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r2c3g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r2c4g1"
-                ]
+                "part": "i"
               }
             ],
             [
               {
-                "text": "food waste",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "(ii) food waste"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r3c2g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r3c3g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r3c4g1"
-                ]
+                "part": "ii"
               }
             ],
             [
               {
-                "text": "cardboard",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "(iii) cardboard"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r4c2g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r4c3g1"
-                ]
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r4c4g1"
-                ]
+                "part": "iii"
               }
             ]
-          ],
-          "columns": 4
+          ]
         }
       ],
-      "parts": [
-        {
-          "key": "t1r2c2g1",
-          "label": "Row 2, column 2",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r2c3g1",
-          "label": "Row 2, column 3",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r2c4g1",
-          "label": "Row 2, column 4",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r3c2g1",
-          "label": "Row 3, column 2",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r3c3g1",
-          "label": "Row 3, column 3",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r3c4g1",
-          "label": "Row 3, column 4",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r4c2g1",
-          "label": "Row 4, column 2",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r4c3g1",
-          "label": "Row 4, column 3",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r4c4g1",
-          "label": "Row 4, column 4",
-          "type": "text",
-          "inTable": true
-        }
-      ]
+      "marks": 3
     },
     {
       "number": 15,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "What are the two alternatives to recycling mentioned in paragraph 14? Give one advantage of using each.\n(4 marks)\nAlternative 1 (i).\nAdvantage (ii)\nAlternative 2 (iii).\nAdvantage (iv)"
+      "type": "parts",
+      "prompt": "What are the two alternatives to recycling mentioned in paragraph 14? Give one advantage of using each.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Alternative 1",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Advantage",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Alternative 2",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Advantage",
+          "type": "text"
+        }
+      ],
+      "marks": 4
     },
     {
       "number": 16,
@@ -597,92 +577,116 @@
       "number": 19,
       "group": "paper",
       "type": "parts",
-      "prompt": "Using information from paragraphs 5-12, match each person with one of the quotes below. Choose from A-F\nand write the letter in the box next to each person. Two of the quotes will NOT be used. (4 marks)\nDavid Chris Bill de Winston\nSteiner Goodall Blasio Porter",
+      "prompt": "Using information from paragraphs 5–12, match each person with one of the quotes below. Choose from A–F and write the letter next to each person. Two of the quotes will NOT be used.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "David Steiner",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "Chris Goodall",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "Bill de Blasio",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "Winston Porter",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        }
+      ],
       "tables": [
         {
+          "compact": true,
           "rows": [
             [
               {
-                "text": "QUOTES",
-                "colSpan": 2,
-                "rowSpan": 1
+                "text": "Person",
+                "header": true
               },
               {
-                "text": "QUOTES",
-                "colSpan": 2,
-                "rowSpan": 1
+                "text": "Quote",
+                "header": true
               }
             ],
             [
               {
-                "text": "A",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "David Steiner"
               },
               {
-                "text": "\"There is a limit to effective recycling.\"",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "D",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "\"Recycling can cause more pollution.\"",
-                "colSpan": 1,
-                "rowSpan": 1
+                "part": "i"
               }
             ],
             [
               {
-                "text": "B",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "Chris Goodall"
               },
               {
-                "text": "\"Cities need to recycle all waste to\nsafeguard the planet's future.\"",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "E",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "\"The recycling movement needs more\nsubsidies.\"",
-                "colSpan": 1,
-                "rowSpan": 1
+                "part": "ii"
               }
             ],
             [
               {
-                "text": "C",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "Bill de Blasio"
               },
               {
-                "text": "\"Recycling has a negative impact on the\neconomy.\"",
-                "colSpan": 1,
-                "rowSpan": 1
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "Winston Porter"
               },
               {
-                "text": "F",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "\"It's more difficult to make money from\nrecycling than people might think.\"",
-                "colSpan": 1,
-                "rowSpan": 1
+                "part": "iv"
               }
             ]
-          ],
-          "columns": 4
+          ]
         }
-      ]
+      ],
+      "marks": 4,
+      "optionBank": "A. “There is a limit to effective recycling.”\nB. “Cities need to recycle all waste to safeguard the planet’s future.”\nC. “Recycling has a negative impact on the economy.”\nD. “Recycling can cause more pollution.”\nE. “The recycling movement needs more subsidies.”\nF. “It’s more difficult to make money from recycling than people might think.”"
     },
     {
       "number": 20,
@@ -693,8 +697,27 @@
     {
       "number": 21,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Choose the best alternative title for this article.\nIn defence of recycling\nB. The pros and cons of recycling\nRecycling is more rubbish than you think\nWhy cities are recycling less of their rubbish"
+      "type": "choice",
+      "prompt": "Choose the best alternative title for this article.",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. In defence of recycling"
+        },
+        {
+          "value": "B",
+          "label": "B. The pros and cons of recycling"
+        },
+        {
+          "value": "C",
+          "label": "C. Recycling is more rubbish than you think"
+        },
+        {
+          "value": "D",
+          "label": "D. Why cities are recycling less of their rubbish"
+        }
+      ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

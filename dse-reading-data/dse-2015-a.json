@@ -141,27 +141,43 @@
                 "text": "1"
               }
             ]
-          ]
+          ],
+          "compact": true
         }
       ],
       "parts": [
         {
           "key": "economist",
           "label": "economist",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "2",
+            "3",
+            "4"
+          ]
         },
         {
           "key": "book",
           "label": "book",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "2",
+            "3",
+            "4"
+          ]
         },
         {
           "key": "teacher",
           "label": "teacher",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "2",
+            "3",
+            "4"
+          ]
         }
       ]
     },
@@ -187,7 +203,7 @@
         },
         {
           "value": "C",
-          "label": "C. exciting D"
+          "label": "C. exciting"
         },
         {
           "value": "D",
@@ -259,22 +275,81 @@
       "number": 14,
       "group": "paper",
       "type": "parts",
-      "prompt": "Based on the information given in paragraph 7, decide if the following statements are True, False or the\ninformation is Not Given. Blacken ONE circle only for each statement. (3 marks)\nStatements T F NG",
+      "prompt": "Based on the information given in paragraph 7, decide if the following statements are True, False or the information is Not Given. Choose ONE answer for each statement.",
       "parts": [
         {
           "key": "i",
           "label": "i) Daniel is a friend of Psy.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
           "label": "ii) 3rd Line Butterfly is a K-pop group.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
-          "label": "iii) Daniel thinks some good Korean music isn't well known\ninternationally.",
-          "type": "text"
+          "label": "iii) Daniel thinks some good Korean music isn't well known internationally.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "i) Daniel is a friend of Psy."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "ii) 3rd Line Butterfly is a K-pop group."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "iii) Daniel thinks some good Korean music isn't well known internationally."
+              },
+              {
+                "part": "iii"
+              }
+            ]
+          ]
         }
       ]
     },
@@ -293,8 +368,37 @@
     {
       "number": 17,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the summary of paragraph 8 by writing ONE word to fill in each blank. Each word can only be used\nonce. You should make sure your answers are grammatically correct, paying attention to tenses, plurals, etc.\n(5 marks)\nDaniel doesn't like Korean (i) because he thinks the stories are too emotional. The\nstories are often the same, with a (ii) man meeting a (iii) lady who\ncomes from a (iv) background and in the end they (v)"
+      "type": "parts",
+      "prompt": "Complete the summary of paragraph 8 by writing ONE word to fill in each blank. Each word can only be used once. You should make sure your answers are grammatically correct, paying attention to tenses, plurals, etc.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text"
+        }
+      ],
+      "context": "Daniel doesn't like Korean (i) ______ because he thinks the stories are too emotional. The stories are often the same, with a (ii) ______ man meeting a (iii) ______ lady who comes from a (iv) ______ background and in the end they (v) ______.",
+      "marks": 5
     },
     {
       "number": 18,
@@ -381,5 +485,5 @@
       "prompt": "What does the question Daniel poses at the end of his book suggest about his view of Koreans and\ntheir achievements? (2 marks)"
     }
   ],
-  "questionRevision": "20260904-corrected-numbering"
+  "questionRevision": "20260904-full-question-audit-1"
 }

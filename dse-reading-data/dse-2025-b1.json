@@ -306,8 +306,22 @@
     {
       "number": 26,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Wing it or eat on in paragraph a complete following stence wing ONE word taken from the\nTo understand the (i). we all belong to, look (ii) and learn all\nyou can about the local plant life."
+      "type": "parts",
+      "prompt": "Using the information in paragraph 4, complete the following sentence by using ONE word taken from the paragraph for each gap. (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ],
+      "context": "To understand the (i) ______ we all belong to, look (ii) ______ and learn all you can about the local plant life.",
+      "marks": 2
     },
     {
       "number": 27,
@@ -343,7 +357,7 @@
       "number": 29,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraphs 1-2, decide whether the following statements are True (T), False (F) or Not Given\n(4 marks)\nStatements T F NG",
+      "prompt": "According to paragraphs 1-2, decide whether the following statements are True (T), False (F) or Not Given (NG). (4 marks)",
       "parts": [
         {
           "key": "i",
@@ -391,13 +405,13 @@
       "number": 30,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Complete the following sentence using the information from paragraph 2.\nHuang believes her childhood experience illustrates how foraging can\nas it did for hunter-gatherers."
+      "prompt": "Complete the following sentence using the information from paragraph 2.\nHuang believes her childhood experience illustrates how foraging can ______\nas it did for hunter-gatherers."
     },
     {
       "number": 31,
       "group": "paper",
       "type": "textarea",
-      "prompt": "With reference to paragraph 3, complete the sentence below by using a word or phrase taken from the\nparagraph.\nCompared with foraged plants, store-bought plants are"
+      "prompt": "With reference to paragraph 3, complete the sentence below by using a word or phrase taken from the\nparagraph.\nCompared with foraged plants, store-bought plants are ______."
     },
     {
       "number": 32,
@@ -442,15 +456,27 @@
         },
         {
           "value": "D",
-          "label": "D. The money foragers can make seili to high-end restaurants"
+          "label": "D. The money foragers can make selling to high-end restaurants"
         }
       ]
     },
     {
       "number": 34,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Find TWO examples in paragraph 5 of the 'high biodiversity' (line 18) in Hong Kong. (2 marks)\n(i)\n(ji)"
+      "type": "parts",
+      "prompt": "Find TWO examples in paragraph 5 of the 'high biodiversity' (line 18) in Hong Kong. (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 35,
@@ -524,8 +550,167 @@
     {
       "number": 36,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Look at the information in paragraphs 1-6 and match each paragraph to the headings below. Use each\nparagraph number ONCE only. One heading does NOT refer to any of the paragraphs and you should put a\ncross (X). One has been done for you as an example. (6 marks)\nHeadings Paragraph Number\n(i) Local businesses embrace the world of foraging\n(ii) Definition of foraging\n(lii) Respect for wisdom of the elderly\n(iv) Passing knowledge to the next generation\nWhy are they better?\ne.g. Meeting a local forager\n1 (example)\n(vi) Our location means we are lucky"
+      "type": "parts",
+      "prompt": "Look at the information in paragraphs 1-6 and match each paragraph to the headings below. Use each paragraph number ONCE only. One heading does NOT refer to any of the paragraphs and you should put a cross (X). One has been done for you as an example. (6 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Local businesses embrace the world of foraging",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "X"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Definition of foraging",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "X"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Respect for wisdom of the elderly",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "X"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Passing knowledge to the next generation",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "X"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "(v) Why are they better?",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "X"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "vi",
+          "label": "(vi) Our location means we are lucky",
+          "type": "select",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "X"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Headings",
+                "header": true
+              },
+              {
+                "text": "Paragraph Number",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Local businesses embrace the world of foraging"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Definition of foraging"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Respect for wisdom of the elderly"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Passing knowledge to the next generation"
+              },
+              {
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "(v) Why are they better?"
+              },
+              {
+                "part": "v"
+              }
+            ],
+            [
+              {
+                "text": "e.g. Meeting a local forager"
+              },
+              {
+                "text": "1 (example)"
+              }
+            ],
+            [
+              {
+                "text": "(vi) Our location means we are lucky"
+              },
+              {
+                "part": "vi"
+              }
+            ]
+          ]
+        }
+      ]
     },
     {
       "number": 37,
@@ -559,7 +744,7 @@
       "parts": [
         {
           "key": "i",
-          "label": "(i) Paragraph S",
+          "label": "(i) Paragraph 5",
           "type": "text"
         },
         {
@@ -652,28 +837,57 @@
         {
           "key": "i",
           "label": "i",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
         },
         {
           "key": "ii",
           "label": "ii",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
         },
         {
           "key": "iii",
           "label": "iii",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
         },
         {
           "key": "iv",
           "label": "iv",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
         }
       ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

@@ -90,39 +90,103 @@
       "number": 45,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraphs 1-2, are the following statements True (T), False (F) or Not Given (NG)?\n(4 marks)\nStatements F NG\nHowe and Strauss were the first to use the term, 'Millennial\nGeneration'.",
+      "prompt": "According to paragraphs 1–2, are the following statements True (T), False (F) or Not Given (NG)?",
       "parts": [
         {
-          "key": "ii",
-          "label": "ii) Research by Howe and Strauss has been influential.",
-          "type": "choice",
+          "key": "i",
+          "label": "(i) Howe and Strauss were the first to use the term, “Millennial Generation”.",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
-          ]
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Research by Howe and Strauss has been influential.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
-          "label": "iii) Some themes on Millennials are in conflict with each other.",
-          "type": "choice",
+          "label": "(iii) Some themes on Millennials are in conflict with each other.",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
-          ]
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
-          "label": "iv) Experts agree that Millennials were born within the same time period.",
-          "type": "choice",
+          "label": "(iv) Experts agree that Millennials were born within the same time period.",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Howe and Strauss were the first to use the term, “Millennial Generation”."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Research by Howe and Strauss has been influential."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Some themes on Millennials are in conflict with each other."
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Experts agree that Millennials were born within the same time period."
+              },
+              {
+                "part": "iv"
+              }
+            ]
           ]
         }
-      ]
+      ],
+      "marks": 4
     },
     {
       "number": 46,
@@ -175,24 +239,30 @@
       "number": 48,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraph 5…..\nWhich generation was the first to adopt a child-centred approach to parenting?",
+      "prompt": "According to paragraph 5...",
       "parts": [
         {
+          "key": "i",
+          "label": "(i) Which generation was the first to adopt a child-centred approach to parenting?",
+          "type": "text"
+        },
+        {
           "key": "ii",
-          "label": "ii) Which generation had child bearing 'foisted upon them'?",
+          "label": "(ii) Which generation had child bearing “foisted upon them”?",
           "type": "text"
         },
         {
           "key": "iii",
-          "label": "iii) Find one factor that led to a pro-child culture. (1 mark)",
+          "label": "(iii) Find one factor that led to a pro-child culture.",
           "type": "text"
         },
         {
           "key": "iv",
-          "label": "iv) What were schools' attitudes towards the pro-child movement?",
+          "label": "(iv) What were schools’ attitudes towards the pro-child movement?",
           "type": "text"
         }
-      ]
+      ],
+      "marks": 4
     },
     {
       "number": 49,
@@ -275,7 +345,7 @@
                 "rowSpan": 1
               },
               {
-                "text": "will lead them to\n(1)",
+                "text": "will lead them to\n(v)",
                 "colSpan": 1,
                 "rowSpan": 1,
                 "parts": [
@@ -322,7 +392,7 @@
         },
         {
           "key": "t1r4c2g1",
-          "label": "(1)",
+          "label": "(v)",
           "type": "text",
           "inTable": true
         },
@@ -367,17 +437,56 @@
         {
           "key": "i",
           "label": "i)\nfrom two-parent to single-parent families",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "ii",
           "label": "ii) Children have more opportunities to",
-          "type": "text"
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "iii",
           "label": "iii) Millennials see their parents and other adults as",
-          "type": "text"
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "flow": true,
+          "rows": [
+            [
+              {
+                "text": "(i) ______\ne.g. from two-parent to single-parent families",
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Children have more opportunities to ______",
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Millennials see their parents and other adults as ______",
+                "part": "iii"
+              }
+            ]
+          ]
         }
       ]
     },
@@ -434,7 +543,7 @@
             ],
             [
               {
-                "text": "(іїї)",
+                "text": "(iii)",
                 "colSpan": 1,
                 "rowSpan": 1,
                 "parts": [
@@ -457,7 +566,7 @@
             ],
             [
               {
-                "text": "(1)",
+                "text": "(v)",
                 "colSpan": 1,
                 "rowSpan": 1,
                 "parts": [
@@ -497,7 +606,7 @@
         },
         {
           "key": "t1r3c1g1",
-          "label": "(іїї)",
+          "label": "(iii)",
           "type": "text",
           "inTable": true
         },
@@ -509,7 +618,7 @@
         },
         {
           "key": "t1r4c1g1",
-          "label": "(1)",
+          "label": "(v)",
           "type": "text",
           "inTable": true
         },
@@ -525,19 +634,25 @@
       "number": 53,
       "group": "paper",
       "type": "parts",
-      "prompt": "Which metaphor does Prensky use to describe Millennials?",
+      "prompt": "Answer all three parts.",
       "parts": [
         {
+          "key": "i",
+          "label": "(i) Which metaphor does Prensky use to describe Millennials?",
+          "type": "text"
+        },
+        {
           "key": "ii",
-          "label": "ii) Explain the meaning of this metaphor. (1 mark)",
+          "label": "(ii) Explain the meaning of this metaphor.",
           "type": "text"
         },
         {
           "key": "iii",
-          "label": "iii) What does 'the land they live in' (lines 75-76) refer to?",
+          "label": "(iii) What does “the land they live in” (lines 75–76) refer to?",
           "type": "text"
         }
-      ]
+      ],
+      "marks": 3
     },
     {
       "number": 54,
@@ -584,26 +699,37 @@
     {
       "number": 58,
       "group": "paper",
-      "type": "parts",
-      "prompt": "The writer uses citations to tell readers that certain materials came from another source. In the citations\nused in the text, which of the following information is included? Tick (r) all that apply.\nThe surname of the author iv) The year of the publication",
-      "parts": [
+      "type": "multiple",
+      "prompt": "The writer uses citations to tell readers that certain materials came from another source. In the citations used in the text, which of the following information is included? Tick all that apply.",
+      "options": [
         {
-          "key": "ii",
-          "label": "ii) Title of the author's work v) The page numbers of the material used",
-          "type": "text"
+          "value": "i",
+          "label": "(i) The surname of the author"
         },
         {
-          "key": "iii",
-          "label": "iii) The name of the publisher",
-          "type": "text"
+          "value": "ii",
+          "label": "(ii) Title of the author’s work"
+        },
+        {
+          "value": "iii",
+          "label": "(iii) The name of the publisher"
+        },
+        {
+          "value": "iv",
+          "label": "(iv) The year of the publication"
+        },
+        {
+          "value": "v",
+          "label": "(v) The page numbers of the material used"
         }
-      ]
+      ],
+      "selectionLimit": false
     },
     {
       "number": 59,
       "group": "paper",
       "type": "parts",
-      "prompt": "Read the following comments by readers of the article. Which researchers) are they referring to?\nname(s) in the line next to each comment. (2 marks)",
+      "prompt": "Read the following comments by readers of the article. Which researcher(s) are they referring to? Write the name(s) in the line next to each comment.",
       "parts": [
         {
           "key": "i",
@@ -615,7 +741,8 @@
           "label": "(ii) \"As a Millennial, I find her view of young people\nnegative and destructive.\"",
           "type": "text"
         }
-      ]
+      ],
+      "marks": 2
     },
     {
       "number": 60,
@@ -696,42 +823,84 @@
                 "text": "Conclusion"
               }
             ]
-          ]
+          ],
+          "compact": true
         }
       ],
       "parts": [
         {
           "key": "ii",
           "label": "ii",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "iii",
           "label": "iii",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "iv",
           "label": "iv",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "v",
           "label": "v",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "vi",
           "label": "vi",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         }
       ],
       "optionBank": "A. Relating to others\nB. Defining the generation\nC. Childhood years\nD. Technology\nE. Self-belief\nF. Special status"
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

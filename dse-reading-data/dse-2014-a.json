@@ -36,66 +36,634 @@
     "q30": "Question 30 · Name the character most likely to say each quote. Do not use a character more than once."
   },
   "questions": [
-    { "number": 1, "group": "q1to5", "type": "choice", "prompt": "Who shouts in line 1?", "options": [{"value":"A","label":"A. the mother"},{"value":"B","label":"B. the father"},{"value":"C","label":"C. the daughter"},{"value":"D","label":"D. the robot"}] },
-    { "number": 2, "group": "q1to5", "type": "text", "prompt": "Why doesn’t Winston like sales robots?" },
-    { "number": 3, "group": "q1to5", "type": "text", "prompt": "What does Elizabeth think the robot is trying to do?" },
-    { "number": 4, "group": "q1to5", "type": "text", "prompt": "How does Winston know Karl?" },
-    { "number": 5, "group": "q1to5", "type": "text", "prompt": "Who does ‘they’ (line 28) refer to?" },
-    { "number": 6, "group": "q6", "type": "parts", "marks": 3, "prompt": "Choose TRUE, FALSE or NOT GIVEN for each statement.", "parts": [
-      {"key":"i","label":"(i) At first glance, the robot does not appear to be very impressive.","type":"choice","options":["TRUE","FALSE","NOT GIVEN"]},
-      {"key":"ii","label":"(ii) Rachel knows who Karl is.","type":"choice","options":["TRUE","FALSE","NOT GIVEN"]},
-      {"key":"iii","label":"(iii) Karl and Winston both wanted to work at Future Industries.","type":"choice","options":["TRUE","FALSE","NOT GIVEN"]}
-    ] },
-    { "number": 7, "group": "q7to8", "type": "text", "prompt": "What does ‘it’ (line 35) refer to?" },
-    { "number": 8, "group": "q7to8", "type": "choice", "prompt": "Where on the robot is the ‘small video screen’ (line 37)?", "figure": {"src":"assets/reading-comprehension/dse/2014-a-q8-robot.jpg","alt":"Robot diagram labelled A, B, C, D and E","caption":"Original labelled diagram for Question 8"}, "options": ["A","B","C","D","E"] },
-    { "number": 9, "group": "q9", "type": "parts", "marks": 3, "prompt": "Choose TRUE, FALSE or NOT GIVEN for each statement.", "parts": [
-      {"key":"i","label":"(i) Winston does not recognize the man in the video.","type":"choice","options":["TRUE","FALSE","NOT GIVEN"]},
-      {"key":"ii","label":"(ii) The job at Future Industries was to build robots.","type":"choice","options":["TRUE","FALSE","NOT GIVEN"]},
-      {"key":"iii","label":"(iii) Karl admits feeling guilty for what he did.","type":"choice","options":["TRUE","FALSE","NOT GIVEN"]}
-    ] },
-    { "number": 10, "group": "q10to13", "type": "choice", "prompt": "Why did Karl spread the rumor about Winston?", "options": [{"value":"A","label":"A. Karl didn’t like Winston."},{"value":"B","label":"B. Karl preferred to work on his own."},{"value":"C","label":"C. Karl was scared Winston was better than him."},{"value":"D","label":"D. Karl thought Winston worked badly in a team."}] },
-    { "number": 11, "group": "q10to13", "type": "choice", "prompt": "What is Winston’s first reaction on hearing Karl’s apology?", "options": [{"value":"A","label":"A. sadness"},{"value":"B","label":"B. anger"},{"value":"C","label":"C. fear"},{"value":"D","label":"D. pity"}] },
-    { "number": 12, "group": "q10to13", "type": "parts", "marks": 2, "prompt": "Answer both parts.", "parts": [
-      {"key":"i","label":"(i) Who says ‘Winston!’ (line 53)?","type":"text"},
-      {"key":"ii","label":"(ii) Why?","type":"text"}
-    ] },
-    { "number": 13, "group": "q10to13", "type": "text", "prompt": "Why did Winston want to change jobs?" },
-    { "number": 14, "group": "q14", "type": "parts", "prompt": "Assign a number from 1 to 4 to each event.", "parts": [
-      {"key":"meets-elizabeth","label":"Winston meets Elizabeth","type":"select","options":["1","2","3","4"]},
-      {"key":"applies-future","label":"Winston applies for a job at Future Industries","type":"select","options":["1","2","3","4"]},
-      {"key":"works-comma","label":"Winston works at CommaTech","type":"select","options":["1","2","3","4"]},
-      {"key":"works-industri","label":"Winston works at IndustriCorp","type":"select","options":["1","2","3","4"]}
-    ] },
-    { "number": 15, "group": "q15to23", "type": "text", "prompt": "What does ‘it’ (line 66) refer to?" },
-    { "number": 16, "group": "q15to23", "type": "text", "prompt": "Who is under the coffee table?" },
-    { "number": 17, "group": "q15to23", "type": "text", "prompt": "What is most important in Winston’s life now?" },
-    { "number": 18, "group": "q15to23", "type": "choice", "prompt": "What does ‘the big picture’ (line 71) refer to?", "options": [{"value":"A","label":"A. The robot’s video screen."},{"value":"B","label":"B. The apology from Karl."},{"value":"C","label":"C. The things Elizabeth had always wanted."},{"value":"D","label":"D. The complete view of Winston’s life."}] },
-    { "number": 19, "group": "q15to23", "type": "choice", "prompt": "Why does Winston accept Karl’s apology?", "options": [{"value":"A","label":"A. He hadn’t really wanted the job at Future Industries."},{"value":"B","label":"B. He feels things worked out in the end."},{"value":"C","label":"C. He wants to catch up with Karl."},{"value":"D","label":"D. He’s afraid of the robot."}] },
-    { "number": 20, "group": "q15to23", "type": "text", "prompt": "In lines 88–89, who is the question directed at?" },
-    { "number": 21, "group": "q15to23", "type": "textarea", "marks": 2, "prompt": "What does it mean when the robot says, ‘Insufficient value’ (line 93)?" },
-    { "number": 22, "group": "q15to23", "type": "text", "prompt": "What does the robot do while Winston thinks of another apology?" },
-    { "number": 23, "group": "q15to23", "type": "choice", "prompt": "How does Winston feel when he says, ‘Fine’ (line 104)?", "options": [{"value":"A","label":"A. satisfied"},{"value":"B","label":"B. ashamed"},{"value":"C","label":"C. relieved"},{"value":"D","label":"D. exasperated"}] },
-    { "number": 24, "group": "q24", "type": "parts", "marks": 5, "prompt": "Fill in the missing word(s) for each apology.", "optionBank": "destroyed / copied / ignored / laughed at / returned / lost / lied to / took / damaged / replied to", "parts": [
-      {"key":"i","label":"(i) I’m sorry that I ______ that hover bike.","type":"select","options":["destroyed","copied","ignored","laughed at","returned","lost","lied to","took","damaged","replied to"]},
-      {"key":"ii","label":"(ii) I’m sorry that I ______ those books.","type":"select","options":["destroyed","copied","ignored","laughed at","returned","lost","lied to","took","damaged","replied to"]},
-      {"key":"iii","label":"(iii) I’m sorry that I ______ you, Devon.","type":"select","options":["destroyed","copied","ignored","laughed at","returned","lost","lied to","took","damaged","replied to"]},
-      {"key":"iv","label":"(iv) I’m sorry that I ______ my friend’s answers.","type":"select","options":["destroyed","copied","ignored","laughed at","returned","lost","lied to","took","damaged","replied to"]},
-      {"key":"v","label":"(v) I’m sorry that I ______ your letters.","type":"select","options":["destroyed","copied","ignored","laughed at","returned","lost","lied to","took","damaged","replied to"]}
-    ] },
-    { "number": 25, "group": "q25to29", "type": "text", "prompt": "How many of Winston’s apologies does the robot record?" },
-    { "number": 26, "group": "q25to29", "type": "text", "prompt": "Why did Winston stop contacting Cherisse?" },
-    { "number": 27, "group": "q25to29", "type": "textarea", "marks": 2, "prompt": "What is the robot’s mission?" },
-    { "number": 28, "group": "q25to29", "type": "textarea", "marks": 2, "prompt": "What is the message behind the story?" },
-    { "number": 29, "group": "q25to29", "type": "parts", "marks": 2, "prompt": "Name two people in the story who have accepted apologies.", "parts": [
-      {"key":"i","label":"(i)","type":"text"},
-      {"key":"ii","label":"(ii)","type":"text"}
-    ] },
-    { "number": 30, "group": "q30", "type": "parts", "marks": 5, "prompt": "Which character is most likely to say each quote?", "optionBank": "Example: “I hope she gets my message.” — Winston", "parts": [
-      {"key":"i","label":"(i) “Cherisse Deveraux, born March 20, 2001?”","type":"text"},
-      {"key":"ii","label":"(ii) “Don’t worry about the past dear, focus on the present.”","type":"text"},
-      {"key":"iii","label":"(iii) “I cried so much when you left.”","type":"text"},
-      {"key":"iv","label":"(iv) “Put me down, I want to play with the robot!”","type":"text"},
-      {"key":"v","label":"(v) “I couldn’t stop thinking that I ruined your career.”","type":"text"}
-    ] }
-  ]
+    {
+      "number": 1,
+      "group": "q1to5",
+      "type": "choice",
+      "prompt": "Who shouts in line 1?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. the mother"
+        },
+        {
+          "value": "B",
+          "label": "B. the father"
+        },
+        {
+          "value": "C",
+          "label": "C. the daughter"
+        },
+        {
+          "value": "D",
+          "label": "D. the robot"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "group": "q1to5",
+      "type": "text",
+      "prompt": "Why doesn’t Winston like sales robots?"
+    },
+    {
+      "number": 3,
+      "group": "q1to5",
+      "type": "text",
+      "prompt": "What does Elizabeth think the robot is trying to do?"
+    },
+    {
+      "number": 4,
+      "group": "q1to5",
+      "type": "text",
+      "prompt": "How does Winston know Karl?"
+    },
+    {
+      "number": 5,
+      "group": "q1to5",
+      "type": "text",
+      "prompt": "Who does ‘they’ (line 28) refer to?"
+    },
+    {
+      "number": 6,
+      "group": "q6",
+      "type": "parts",
+      "marks": 3,
+      "prompt": "Decide whether the following statements are True, False, or the information is Not Given in lines 1–30. Choose ONE answer for each statement.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) At first glance, the robot does not appear to be very impressive.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Rachel knows who Karl is.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Karl and Winston both wanted to work at Future Industries.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "group": "q7to8",
+      "type": "text",
+      "prompt": "What does ‘it’ (line 35) refer to?"
+    },
+    {
+      "number": 8,
+      "group": "q7to8",
+      "type": "choice",
+      "prompt": "Where on the robot is the ‘small video screen’ (line 37)?",
+      "figure": {
+        "src": "assets/reading-comprehension/dse/2014-a-q8-robot.jpg",
+        "alt": "Robot diagram labelled A, B, C, D and E",
+        "caption": "Original labelled diagram for Question 8"
+      },
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "number": 9,
+      "group": "q9",
+      "type": "parts",
+      "marks": 3,
+      "prompt": "Decide whether the following statements are True, False, or the information is Not Given in lines 40–50. Choose ONE answer for each statement.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Winston does not recognize the man in the video.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) The job at Future Industries was to build robots.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Karl admits feeling guilty for what he did.",
+          "type": "choice",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "group": "q10to13",
+      "type": "choice",
+      "prompt": "Why did Karl spread the rumor about Winston?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Karl didn’t like Winston."
+        },
+        {
+          "value": "B",
+          "label": "B. Karl preferred to work on his own."
+        },
+        {
+          "value": "C",
+          "label": "C. Karl was scared Winston was better than him."
+        },
+        {
+          "value": "D",
+          "label": "D. Karl thought Winston worked badly in a team."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "group": "q10to13",
+      "type": "choice",
+      "prompt": "What is Winston’s first reaction on hearing Karl’s apology?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. sadness"
+        },
+        {
+          "value": "B",
+          "label": "B. anger"
+        },
+        {
+          "value": "C",
+          "label": "C. fear"
+        },
+        {
+          "value": "D",
+          "label": "D. pity"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "group": "q10to13",
+      "type": "parts",
+      "marks": 2,
+      "prompt": "Answer both parts.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Who says ‘Winston!’ (line 53)?",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Why?",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "group": "q10to13",
+      "type": "text",
+      "prompt": "Why did Winston want to change jobs?"
+    },
+    {
+      "number": 14,
+      "group": "q14",
+      "type": "parts",
+      "prompt": "Number the following events in chronological order. Write 1–4.",
+      "parts": [
+        {
+          "key": "meets-elizabeth",
+          "label": "Winston meets Elizabeth",
+          "type": "select",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "key": "applies-future",
+          "label": "Winston applies for a job at Future Industries",
+          "type": "select",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "key": "works-comma",
+          "label": "Winston works at CommaTech",
+          "type": "select",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "key": "works-industri",
+          "label": "Winston works at IndustriCorp",
+          "type": "select",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "group": "q15to23",
+      "type": "text",
+      "prompt": "What does ‘it’ (line 66) refer to?"
+    },
+    {
+      "number": 16,
+      "group": "q15to23",
+      "type": "text",
+      "prompt": "Who is under the coffee table?"
+    },
+    {
+      "number": 17,
+      "group": "q15to23",
+      "type": "text",
+      "prompt": "What is most important in Winston’s life now?"
+    },
+    {
+      "number": 18,
+      "group": "q15to23",
+      "type": "choice",
+      "prompt": "What does ‘the big picture’ (line 71) refer to?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. The robot’s video screen."
+        },
+        {
+          "value": "B",
+          "label": "B. The apology from Karl."
+        },
+        {
+          "value": "C",
+          "label": "C. The things Elizabeth had always wanted."
+        },
+        {
+          "value": "D",
+          "label": "D. The complete view of Winston’s life."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "group": "q15to23",
+      "type": "choice",
+      "prompt": "Why does Winston accept Karl’s apology?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. He hadn’t really wanted the job at Future Industries."
+        },
+        {
+          "value": "B",
+          "label": "B. He feels things worked out in the end."
+        },
+        {
+          "value": "C",
+          "label": "C. He wants to catch up with Karl."
+        },
+        {
+          "value": "D",
+          "label": "D. He’s afraid of the robot."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "group": "q15to23",
+      "type": "text",
+      "prompt": "In lines 88–89, who is the question directed at?"
+    },
+    {
+      "number": 21,
+      "group": "q15to23",
+      "type": "textarea",
+      "marks": 2,
+      "prompt": "What does it mean when the robot says, ‘Insufficient value’ (line 93)?"
+    },
+    {
+      "number": 22,
+      "group": "q15to23",
+      "type": "text",
+      "prompt": "What does the robot do while Winston thinks of another apology?"
+    },
+    {
+      "number": 23,
+      "group": "q15to23",
+      "type": "choice",
+      "prompt": "How does Winston feel when he says, ‘Fine’ (line 104)?",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. satisfied"
+        },
+        {
+          "value": "B",
+          "label": "B. ashamed"
+        },
+        {
+          "value": "C",
+          "label": "C. relieved"
+        },
+        {
+          "value": "D",
+          "label": "D. exasperated"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "group": "q24",
+      "type": "parts",
+      "marks": 5,
+      "prompt": "Fill in the missing word(s) for each of Winston’s apologies. Choose an answer from the ten options given below. Only FIVE options can be used.",
+      "optionBank": "destroyed / copied / ignored / laughed at / returned / lost / lied to / took / damaged / replied to",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) I’m sorry that I ______ that hover bike.",
+          "type": "select",
+          "options": [
+            "destroyed",
+            "copied",
+            "ignored",
+            "laughed at",
+            "returned",
+            "lost",
+            "lied to",
+            "took",
+            "damaged",
+            "replied to"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) I’m sorry that I ______ those books.",
+          "type": "select",
+          "options": [
+            "destroyed",
+            "copied",
+            "ignored",
+            "laughed at",
+            "returned",
+            "lost",
+            "lied to",
+            "took",
+            "damaged",
+            "replied to"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) I’m sorry that I ______ you, Devon.",
+          "type": "select",
+          "options": [
+            "destroyed",
+            "copied",
+            "ignored",
+            "laughed at",
+            "returned",
+            "lost",
+            "lied to",
+            "took",
+            "damaged",
+            "replied to"
+          ]
+        },
+        {
+          "key": "iv",
+          "label": "(iv) I’m sorry that I ______ my friend’s answers.",
+          "type": "select",
+          "options": [
+            "destroyed",
+            "copied",
+            "ignored",
+            "laughed at",
+            "returned",
+            "lost",
+            "lied to",
+            "took",
+            "damaged",
+            "replied to"
+          ]
+        },
+        {
+          "key": "v",
+          "label": "(v) I’m sorry that I ______ your letters.",
+          "type": "select",
+          "options": [
+            "destroyed",
+            "copied",
+            "ignored",
+            "laughed at",
+            "returned",
+            "lost",
+            "lied to",
+            "took",
+            "damaged",
+            "replied to"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "group": "q25to29",
+      "type": "text",
+      "prompt": "How many of Winston’s apologies does the robot record?"
+    },
+    {
+      "number": 26,
+      "group": "q25to29",
+      "type": "text",
+      "prompt": "Why did Winston stop contacting Cherisse?"
+    },
+    {
+      "number": 27,
+      "group": "q25to29",
+      "type": "textarea",
+      "marks": 2,
+      "prompt": "What is the robot’s mission?"
+    },
+    {
+      "number": 28,
+      "group": "q25to29",
+      "type": "textarea",
+      "marks": 2,
+      "prompt": "What is the message behind the story?"
+    },
+    {
+      "number": 29,
+      "group": "q25to29",
+      "type": "parts",
+      "marks": 2,
+      "prompt": "Name two people in the story who have accepted apologies.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "group": "q30",
+      "type": "parts",
+      "marks": 5,
+      "prompt": "Which character from the story is most likely to say each quote below? Write the name of the character next to the quote. Do not use any character more than once. The first one has been done for you.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) “Cherisse Deveraux, born March 20, 2001?”",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) “Don’t worry about the past dear, focus on the present.”",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii) “I cried so much when you left.”",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv) “Put me down, I want to play with the robot!”",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "(v) “I couldn’t stop thinking that I ruined your career.”",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Quotes",
+                "header": true
+              },
+              {
+                "text": "Character",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Example: “I hope she gets my message.”"
+              },
+              {
+                "text": "Winston"
+              }
+            ],
+            [
+              {
+                "text": "(i) “Cherisse Deveraux, born March 20, 2001?”"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) “Don’t worry about the past dear, focus on the present.”"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) “I cried so much when you left.”"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) “Put me down, I want to play with the robot!”"
+              },
+              {
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "(v) “I couldn’t stop thinking that I ruined your career.”"
+              },
+              {
+                "part": "v"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

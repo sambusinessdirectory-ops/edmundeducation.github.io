@@ -272,6 +272,10 @@
         {
           "value": "C",
           "label": "C. 4"
+        },
+        {
+          "value": "D",
+          "label": "D. 5"
         }
       ]
     },
@@ -531,27 +535,67 @@
         {
           "key": "1",
           "label": "(i) Girlgeorgy",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "2",
           "label": "(ii) Artsypatsy",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "3",
           "label": "(iii) Bazseedling",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "4",
           "label": "(iv) Crustyclown",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "5",
           "label": "(v) Susan_B",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         }
       ]
     },
@@ -614,220 +658,211 @@
       "group": "paper",
       "type": "parts",
       "prompt": "Below is a table summarising the information about four of the plants. Complete all the boxes in the table by\nwriting 'Y' for yes or 'N' for no. Some have been done for you as examples. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "select",
+          "options": [
+            "Y",
+            "N"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "select",
+          "options": [
+            "Y",
+            "N"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "select",
+          "options": [
+            "Y",
+            "N"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "select",
+          "options": [
+            "Y",
+            "N"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "select",
+          "options": [
+            "Y",
+            "N"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "vi",
+          "label": "(vi)",
+          "type": "select",
+          "options": [
+            "Y",
+            "N"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "vii",
+          "label": "(vii)",
+          "type": "select",
+          "options": [
+            "Y",
+            "N"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "viii",
+          "label": "(viii)",
+          "type": "select",
+          "options": [
+            "Y",
+            "N"
+          ],
+          "inTable": true
+        }
+      ],
       "tables": [
         {
+          "compact": true,
           "rows": [
             [
               {
                 "text": "Name of Plant",
-                "colSpan": 1,
-                "rowSpan": 1,
                 "header": true
               },
               {
                 "text": "Easy to Care For",
-                "colSpan": 1,
-                "rowSpan": 1,
                 "header": true
               },
               {
                 "text": "Needs Direct Sunlight",
-                "colSpan": 1,
-                "rowSpan": 1,
                 "header": true
               },
               {
                 "text": "Suitable for Young Children",
-                "colSpan": 1,
-                "rowSpan": 1,
                 "header": true
               }
             ],
             [
               {
-                "text": "(i) English Ivy",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "(i) English Ivy"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r2c2g1"
-                ]
+                "text": "Y (example)"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r2c3g1"
-                ]
+                "part": "i"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r2c4g1"
-                ]
+                "part": "ii"
               }
             ],
             [
               {
-                "text": "(ii) Chinese Virginia Creeper",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "(ii) Chinese Virginia Creeper"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r3c2g1"
-                ]
+                "part": "iii"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r3c3g1"
-                ]
+                "part": "iv"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r3c4g1"
-                ]
+                "text": "Y (example)"
               }
             ],
             [
               {
-                "text": "(iri) Kumquat",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "(iii) Kumquat"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r4c2g1"
-                ]
+                "part": "v"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r4c3g1"
-                ]
+                "text": "Y (example)"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r4c4g1"
-                ]
+                "part": "vi"
               }
             ],
             [
               {
-                "text": "(iv) Red Crown Cactus",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "(iv) Red Crown Cactus"
               },
               {
-                "text": "Y",
-                "colSpan": 2,
-                "rowSpan": 1
+                "text": "Y (example)"
               },
               {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r5c3g1"
-                ]
+                "part": "vii"
+              },
+              {
+                "part": "viii"
               }
             ]
-          ],
-          "columns": 4
-        }
-      ],
-      "parts": [
-        {
-          "key": "t1r2c2g1",
-          "label": "Row 2, column 2",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r2c3g1",
-          "label": "Row 2, column 3",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r2c4g1",
-          "label": "Row 2, column 4",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r3c2g1",
-          "label": "Row 3, column 2",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r3c3g1",
-          "label": "Row 3, column 3",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r3c4g1",
-          "label": "Row 3, column 4",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r4c2g1",
-          "label": "Row 4, column 2",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r4c3g1",
-          "label": "Row 4, column 3",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r4c4g1",
-          "label": "Row 4, column 4",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r5c3g1",
-          "label": "Row 5, column 3",
-          "type": "text",
-          "inTable": true
+          ]
         }
       ]
     },
     {
       "number": 46,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Referring to the descriptions in the flyer, decide which plant you would recommend for each of these residents\nliving in the estate. (3 marks)\nMs. Lee, 24, lives with her parents and needs to decorate the living room with some plants that do not require\ntoo much care but produce bright flowers. Which plant suits her?\nA. Kumquat\nB. English Ivy\nC. Moon Orchid\nD. Red Crown Cactus\n(ii) Mr. Leung, 65, is retired and lives alone. He enjoys taking care of plants and wants to put a lot of time into\nthem. He would like a nice, decorative, flowering plant for his living room, which gets a lot of light, but no\ndirect sunlight. Which plant suits him?\nA. Kumquat\nB. English Ivy\nC. Moon Orchid\nD. Red Crown Cactus\nMrs. Chan is a 40-year-old housewife with two young children. She loves taking care of plants. She wants to\nhave plants for her living room, which has large windows but does not receive direct sunlight at all during the\nday. She does not want a flowering plant. Which plant suits her?\nA. Kumquat\nB. English Ivy\nC. Dumb Cane\nD. Chinese Virginia Creeper"
+      "type": "parts",
+      "prompt": "Referring to the descriptions in the flyer, decide which plant you would recommend for each of these residents living in the estate. (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Ms. Lee, 24, lives with her parents and needs to decorate the living room with some plants that do not require too much care but produce bright flowers. Which plant suits her?",
+          "type": "choice",
+          "options": [
+            "A. Kumquat",
+            "B. English Ivy",
+            "C. Moon Orchid",
+            "D. Red Crown Cactus"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Mr. Leung, 65, is retired and lives alone. He enjoys taking care of plants and wants to put a lot of time into them. He would like a nice, decorative, flowering plant for his living room, which gets a lot of light, but no direct sunlight. Which plant suits him?",
+          "type": "choice",
+          "options": [
+            "A. Kumquat",
+            "B. English Ivy",
+            "C. Moon Orchid",
+            "D. Red Crown Cactus"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Mrs. Chan is a 40-year-old housewife with two young children. She loves taking care of plants. She wants to have plants for her living room, which has large windows but does not receive direct sunlight at all during the day. She does not want a flowering plant. Which plant suits her?",
+          "type": "choice",
+          "options": [
+            "A. Kumquat",
+            "B. English Ivy",
+            "C. Dumb Cane",
+            "D. Chinese Virginia Creeper"
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

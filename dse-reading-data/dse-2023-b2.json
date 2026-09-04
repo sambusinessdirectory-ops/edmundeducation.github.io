@@ -75,36 +75,90 @@
       "number": 46,
       "group": "paper",
       "type": "textarea",
-      "prompt": "With reference to paragraph 1, what is the connection between Michelle Obama's personal essay and Mother's\nDay?\nThe essay"
+      "prompt": "With reference to paragraph 1, what is the connection between Michelle Obama's personal essay and Mother's\nDay?\nThe essay ______."
     },
     {
       "number": 47,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Use ONE word to complete the following statement based on the information in paragraph 1.\nShaped by the women in her life, Michelle rose from beginnings."
+      "prompt": "Use ONE word to complete the following statement based on the information in paragraph 1.\nShaped by the women in her life, Michelle rose from ______ beginnings."
     },
     {
       "number": 48,
       "group": "paper",
       "type": "choice",
-      "prompt": "According to paragraph 2, which ONE of the following does NOT indicate the way Michelle's mother speaks?\nin short sentences",
+      "prompt": "According to paragraph 2, which ONE of the following does NOT indicate the way Michelle's mother speaks?",
       "options": [
+        {
+          "value": "A",
+          "label": "A. in short sentences"
+        },
         {
           "value": "B",
           "label": "B. chatty and talkative"
         },
         {
+          "value": "C",
+          "label": "C. with good judgement"
+        },
+        {
           "value": "D",
           "label": "D. deliberate in word choice"
         }
-      ],
-      "optionBank": "B. chatty and talkative\nwith good judgement\nD. deliberate in word choice"
+      ]
     },
     {
       "number": 49,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Based on the information in paragraphs 2-4, suggest how Michelle's mother would react in the following\nsituations. (2 marks)\nSituation Her mother's reaction\nMeeting someone new at a party. (i)\nHearing her children complaining (ii)\nabout friends cheating at a game."
+      "type": "parts",
+      "prompt": "Based on the information in paragraphs 2-4, suggest how Michelle's mother would react in the following situations. (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Situation",
+                "header": true
+              },
+              {
+                "text": "Her mother's reaction",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Meeting someone new at a party."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "Hearing her children complaining about friends cheating at a game."
+              },
+              {
+                "part": "ii"
+              }
+            ]
+          ]
+        }
+      ]
     },
     {
       "number": 50,
@@ -158,7 +212,7 @@
       "number": 52,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraph 5, decide whether the following statements are True (T), False (F) or Not Given\n(NG). (3 marks)\nStatements T F NG",
+      "prompt": "According to paragraph 5, decide whether the following statements are True (T), False (F) or Not Given\n(NG). (3 marks)",
       "parts": [
         {
           "key": "i",
@@ -196,7 +250,7 @@
       "number": 53,
       "group": "paper",
       "type": "parts",
-      "prompt": "With reference to paragraphs 4-6 complete the table by finding an example from the text for each of the",
+      "prompt": "With reference to paragraphs 4-6 complete the table by finding an example from the text for each of the following. (4 marks)",
       "tables": [
         {
           "rows": [
@@ -221,7 +275,7 @@
                 "rowSpan": 1
               },
               {
-                "text": "(1)",
+                "text": "(i)",
                 "colSpan": 1,
                 "rowSpan": 1,
                 "parts": [
@@ -236,7 +290,7 @@
                 "rowSpan": 1
               },
               {
-                "text": "(i1)",
+                "text": "(ii)",
                 "colSpan": 1,
                 "rowSpan": 1,
                 "parts": [
@@ -251,7 +305,7 @@
                 "rowSpan": 1
               },
               {
-                "text": "(i11)",
+                "text": "(iii)",
                 "colSpan": 1,
                 "rowSpan": 1,
                 "parts": [
@@ -281,19 +335,19 @@
       "parts": [
         {
           "key": "t1r2c2g1",
-          "label": "(1)",
+          "label": "(i)",
           "type": "text",
           "inTable": true
         },
         {
           "key": "t1r3c2g1",
-          "label": "(i1)",
+          "label": "(ii)",
           "type": "text",
           "inTable": true
         },
         {
           "key": "t1r4c2g1",
-          "label": "(i11)",
+          "label": "(iii)",
           "type": "text",
           "inTable": true
         },
@@ -314,8 +368,20 @@
     {
       "number": 55,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "With reference to paragraph 8, answer the following questions. (2 marks)\nWhat was 'deeply buried' (line 31)?\n(ii) How was this expressed by Robbie?"
+      "type": "parts",
+      "prompt": "With reference to paragraph 8, answer the following questions. (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) What was 'deeply buried' (line 31)?",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) How was this expressed by Robbie?",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 56,
@@ -351,7 +417,7 @@
       "number": 58,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Was Michelle's debut of one of the \"late-in-the-book songs' (lines 38-39) a success or a failure?\nreason for your answer based on paragraph 9."
+      "prompt": "Was Michelle's debut of one of the 'late-in-the-book songs' (lines 38-39) a success or a failure? Give a reason for your answer based on paragraph 9."
     },
     {
       "number": 59,
@@ -422,14 +488,43 @@
     {
       "number": 65,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Based on the information in paragraph 12, complete the summary by writing ONE word in each blank below.\nYour answers must be grammatically correct. (5 marks)\nMichelle had little faith in her great-aunt's approach, and Robbie (i) to acknowledge\nMichelle's carefree attitude. Yet, the lessons continued with a constant toing and froing, with Robbie firing\noff endless (ii) at her. At the same time, Michelle was (iii) to do\nthings her own way, refusing to (iv) her great-aunt's wishes. The situation became a\nsomewhat irritating saga to be endured, with neither of them (v) the other's endeavours."
+      "type": "parts",
+      "prompt": "Based on the information in paragraph 12, complete the summary by writing ONE word in each blank below. Your answers must be grammatically correct. (5 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text"
+        }
+      ],
+      "context": "Michelle had little faith in her great-aunt's approach, and Robbie (i) ______ to acknowledge Michelle's carefree attitude. Yet, the lessons continued with a constant toing and froing, with Robbie firing off endless (ii) ______ at her. At the same time, Michelle was (iii) ______ to do things her own way, refusing to (iv) ______ her great-aunt's wishes. The situation became a somewhat irritating saga to be endured, with neither of them (v) ______ the other's endeavours.",
+      "marks": 5
     },
     {
       "number": 66,
       "group": "paper",
       "type": "textarea",
-      "prompt": "ering to the new, Melig apa pressed song aparty or 8) Michelle dillie Robie,"
+      "prompt": "According to the text, Michelle's parents 'expressed no sympathy' (line 58) for neither Michelle nor Robbie. Give TWO reasons why Michelle's parents took the same approach for both Michelle and Robbie. (2 marks)"
     },
     {
       "number": 67,
@@ -453,194 +548,152 @@
       "number": 68,
       "group": "paper",
       "type": "parts",
-      "prompt": "Below are summary headings for each paragraph of the excerpt from Michelle's memoir. Match the most\nappropriate summary heading with each paragraph by writing the letters (A-G) in the table below. Each\nletter can be used ONCE only. One summary heading is NOT used. One has been done for you as an\n(5 marks)",
-      "tables": [
-        {
-          "rows": [
-            [
-              {
-                "text": "Summary Headings",
-                "colSpan": 3,
-                "rowSpan": 1
-              }
-            ],
-            [
-              {
-                "text": "A. Parental pride\nB. Life, parenting and Robbie\nC. Joy of learning",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "D. My character and conflict\nE. The mood shifts",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "F. Enduring the other\nG. Wanting to understand",
-                "colSpan": 1,
-                "rowSpan": 1
-              }
-            ]
-          ],
-          "columns": 3
-        },
-        {
-          "rows": [
-            [
-              {
-                "text": "Paragraph",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "header": true
-              },
-              {
-                "text": "Summary Heading",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "header": true
-              }
-            ],
-            [
-              {
-                "text": "00",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "(i)",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t2r2c2g1"
-                ]
-              }
-            ],
-            [
-              {
-                "text": "6",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "(ii)",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t2r3c2g1"
-                ]
-              }
-            ],
-            [
-              {
-                "text": "10",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "(iii)",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t2r4c2g1"
-                ]
-              }
-            ]
-          ],
-          "columns": 2
-        },
-        {
-          "rows": [
-            [
-              {
-                "text": "Paragraph",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "header": true
-              },
-              {
-                "text": "Summary Heading",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "header": true
-              }
-            ],
-            [
-              {
-                "text": "11",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "(iv)",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t3r2c2g1"
-                ]
-              }
-            ],
-            [
-              {
-                "text": "12",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "(A)",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t3r3c2g1"
-                ]
-              }
-            ],
-            [
-              {
-                "text": "13",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "B (example)",
-                "colSpan": 1,
-                "rowSpan": 1
-              }
-            ]
-          ],
-          "columns": 2
-        }
-      ],
+      "prompt": "Below are summary headings for each paragraph of the excerpt from Michelle's memoir. Match the most appropriate summary heading with each paragraph by writing the letters (A-G) in the table below. Each letter can be used ONCE only. One summary heading is NOT used. One has been done for you as an example. (5 marks)",
       "parts": [
         {
-          "key": "t2r2c2g1",
-          "label": "(i)",
-          "type": "text",
+          "key": "i",
+          "label": "8",
+          "type": "select",
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
           "inTable": true
         },
         {
-          "key": "t2r3c2g1",
-          "label": "(ii)",
-          "type": "text",
+          "key": "ii",
+          "label": "9",
+          "type": "select",
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
           "inTable": true
         },
         {
-          "key": "t2r4c2g1",
-          "label": "(iii)",
-          "type": "text",
+          "key": "iii",
+          "label": "10",
+          "type": "select",
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
           "inTable": true
         },
         {
-          "key": "t3r2c2g1",
-          "label": "(iv)",
-          "type": "text",
+          "key": "iv",
+          "label": "11",
+          "type": "select",
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
           "inTable": true
         },
         {
-          "key": "t3r3c2g1",
-          "label": "(A)",
-          "type": "text",
+          "key": "v",
+          "label": "12",
+          "type": "select",
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
           "inTable": true
         }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Paragraph",
+                "header": true
+              },
+              {
+                "text": "Summary Heading",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "8"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "9"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "11"
+              },
+              {
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "12"
+              },
+              {
+                "part": "v"
+              }
+            ],
+            [
+              {
+                "text": "13"
+              },
+              {
+                "text": "B (example)"
+              }
+            ]
+          ]
+        }
+      ],
+      "optionBank": [
+        "A. Parental pride",
+        "B. Life, parenting and Robbie (example)",
+        "C. Joy of learning",
+        "D. My character and conflict",
+        "E. The mood shifts",
+        "F. Enduring the other",
+        "G. Wanting to understand"
       ]
     },
     {
@@ -649,5 +702,6 @@
       "type": "textarea",
       "prompt": "With reference to the text, how can parents keep girls' flames lit?"
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

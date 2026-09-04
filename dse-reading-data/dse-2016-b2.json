@@ -111,8 +111,130 @@
     {
       "number": 51,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Use information from Text 8 to complete the following fact file. You may write your answers in point form.\nDO NOT use the same answer more than once when completing the fact file.\nFact file on: Mexicue\nReasons for opening the food truck (2 marks)\nReasons for the company's initial success (2 marks)\nChallenges faced by the company (3 marks)\nChanges made to the company's operations (2 marks)"
+      "type": "parts",
+      "prompt": "Use information from Text 8 to complete the following fact file. You may write your answers in point form. DO NOT use the same answer more than once when completing the fact file.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "Opening: first reason",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "Opening: second reason",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "Initial success: first reason",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "Initial success: second reason",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "Challenges: first",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "vi",
+          "label": "Challenges: second",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "vii",
+          "label": "Challenges: third",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "viii",
+          "label": "Operations: first change",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ix",
+          "label": "Operations: second change",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "marks": 9,
+      "tables": [
+        {
+          "compact": true,
+          "caption": "Fact file on: Mexicue",
+          "rows": [
+            [
+              {
+                "text": "Reasons for opening the food truck (2 marks)",
+                "header": true
+              }
+            ],
+            [
+              {
+                "parts": [
+                  "i",
+                  "ii"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Reasons for the company’s initial success (2 marks)",
+                "header": true
+              }
+            ],
+            [
+              {
+                "parts": [
+                  "iii",
+                  "iv"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Challenges faced by the company (3 marks)",
+                "header": true
+              }
+            ],
+            [
+              {
+                "parts": [
+                  "v",
+                  "vi",
+                  "vii"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Changes made to the company’s operations (2 marks)",
+                "header": true
+              }
+            ],
+            [
+              {
+                "parts": [
+                  "viii",
+                  "ix"
+                ]
+              }
+            ]
+          ]
+        }
+      ]
     },
     {
       "number": 52,
@@ -268,29 +390,84 @@
       "number": 65,
       "group": "paper",
       "type": "parts",
-      "prompt": "Decide whether the following statements are True, False, or the information is Not Given in paragraph 12.\n(3 marks)\nStatements T F NG\nSan Diego makes it harder for food trucks to operate than Baltimore.",
+      "prompt": "Decide whether the following statements are True, False, or the information is Not Given in paragraph 12.",
       "parts": [
         {
-          "key": "ii",
-          "label": "ii) People illegally buy and sell food truck licences in New York.",
-          "type": "choice",
+          "key": "i",
+          "label": "(i) San Diego makes it harder for food trucks to operate than Baltimore.",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
-          ]
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) People illegally buy and sell food truck licences in New York.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
-          "label": "iii) Baltimore has more food trucks than Miami.",
-          "type": "choice",
+          "label": "(iii) Baltimore has more food trucks than Miami.",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) San Diego makes it harder for food trucks to operate than Baltimore."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) People illegally buy and sell food truck licences in New York."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Baltimore has more food trucks than Miami."
+              },
+              {
+                "part": "iii"
+              }
+            ]
           ]
         }
-      ]
+      ],
+      "marks": 3
     },
     {
       "number": 66,
@@ -368,7 +545,7 @@
         },
         {
           "value": "C",
-          "label": "C. They take business away from restaurants. B"
+          "label": "C. They take business away from restaurants."
         },
         {
           "value": "D",
@@ -404,24 +581,108 @@
       "number": 75,
       "group": "paper",
       "type": "parts",
-      "prompt": "Look at Texts 8-10 and match them to the list of alternative titles in the column below. Write the correct\nnumber (8, 9, 10) in the box on the right. One title is NOT used and should be marked with an 'X'.\n(3 marks)\nTitles Text 8/9/10\nHow regulators keep cheap food out of hungry mouths.",
+      "prompt": "Look at Texts 8–10 and match them to the list of alternative titles below. Write the correct number (8, 9, 10) on the right. One title is NOT used and should be marked with an X.",
       "parts": [
         {
+          "key": "i",
+          "label": "(i) How regulators keep cheap food out of hungry mouths.",
+          "type": "select",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "X"
+          ],
+          "inTable": true
+        },
+        {
           "key": "ii",
-          "label": "ii) Food trucks fueled by fusion cuisine.",
-          "type": "text"
+          "label": "(ii) Food trucks fueled by fusion cuisine.",
+          "type": "select",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "X"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
-          "label": "iii) Food trucks are no more than foodie hype.",
-          "type": "text"
+          "label": "(iii) Food trucks are no more than foodie hype.",
+          "type": "select",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "X"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
-          "label": "iv) Food truck business pushes a new model.",
-          "type": "text"
+          "label": "(iv) Food truck business pushes a new model.",
+          "type": "select",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "X"
+          ],
+          "inTable": true
         }
-      ]
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Title",
+                "header": true
+              },
+              {
+                "text": "Text",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) How regulators keep cheap food out of hungry mouths."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Food trucks fueled by fusion cuisine."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Food trucks are no more than foodie hype."
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Food truck business pushes a new model."
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
+        }
+      ],
+      "marks": 3
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

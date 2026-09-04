@@ -86,7 +86,7 @@
       "number": 1,
       "group": "paper",
       "type": "parts",
-      "prompt": "For each word given below, find a word which has a similar meaning in the specified classified ad\nmarks)",
+      "prompt": "For each word given below, find a word which has a similar meaning in the specified classified ad. (3 marks)",
       "parts": [
         {
           "key": "i",
@@ -109,36 +109,133 @@
       "number": 2,
       "group": "paper",
       "type": "parts",
-      "prompt": "Which of the classified ads do the following statements refer to? Select ONE classified ad for each\nstatement. If the statement does not match any ad, select 'X'. (3 marks)\nStatements\nThis ad... Ad",
+      "prompt": "Which of the classified ads do the following statements refer to? Select ONE classified ad for each statement. If the statement does not match any ad, select X. (3 marks)",
       "parts": [
         {
           "key": "i",
-          "label": "(i) states the monthly fees. C",
-          "type": "text"
+          "label": "(i) This ad states the monthly fees.",
+          "type": "select",
+          "options": [
+            "Ad 1",
+            "Ad 2",
+            "Ad 3",
+            "X"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
-          "label": "(ii) mentions the teacher's personality.",
-          "type": "text"
+          "label": "(ii) This ad mentions the teacher's personality.",
+          "type": "select",
+          "options": [
+            "Ad 1",
+            "Ad 2",
+            "Ad 3",
+            "X"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
-          "label": "(iii) indicates that the teacher will travel to the student.",
-          "type": "text"
+          "label": "(iii) This ad indicates that the teacher will travel to the student.",
+          "type": "select",
+          "options": [
+            "Ad 1",
+            "Ad 2",
+            "Ad 3",
+            "X"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "Answer",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) This ad states the monthly fees."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) This ad mentions the teacher's personality."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) This ad indicates that the teacher will travel to the student."
+              },
+              {
+                "part": "iii"
+              }
+            ]
+          ]
         }
       ]
     },
     {
       "number": 3,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Some of the comments below are from the music teachers in the classified ads. Match each comment with\na classified ad in Text 1. (3 marks)\n(i) I have the most teaching experience.\nA. Ad 1\nB. Ad 2 C. Ad 3\nD. Does not match any ad\n(ii)\nI teach different kinds of musical instruments.\nA. Ad 1\nB. Ad 2\nC. Ad 3\nD. Does not match any ad\n(iii)\nI don't teach beginners.\nA. Ad 1\nB. C. Ad 3 Ad 2\nDoes not match any ad"
+      "type": "parts",
+      "prompt": "Some of the comments below are from the music teachers in the classified ads. Match each comment with a classified ad in Text 1. (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) I have the most teaching experience.",
+          "type": "choice",
+          "options": [
+            "A. Ad 1",
+            "B. Ad 2",
+            "C. Ad 3",
+            "D. Does not match any ad"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) I teach different kinds of musical instruments.",
+          "type": "choice",
+          "options": [
+            "A. Ad 1",
+            "B. Ad 2",
+            "C. Ad 3",
+            "D. Does not match any ad"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) I don't teach beginners.",
+          "type": "choice",
+          "options": [
+            "A. Ad 1",
+            "B. Ad 2",
+            "C. Ad 3",
+            "D. Does not match any ad"
+          ]
+        }
+      ]
     },
     {
       "number": 4,
       "group": "paper",
       "type": "multiple",
-      "prompt": "Which two activities are NOT mentioned in paragraph 1 as tasks people do while listening to music?\nthe letters for the two activities in the boxes below. (1 mark)\nSCHECULE\nActivity and activity",
+      "prompt": "Which two activities are NOT mentioned in paragraph 1 as tasks people do while listening to music? Write the letters for the two activities in the boxes below. (1 mark)",
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/content/2018/a/questions-2-crop-1.webp",
@@ -164,27 +261,105 @@
       "number": 6,
       "group": "paper",
       "type": "parts",
-      "prompt": "Complete the summary of paragraphs 3 and 4 by writing ONE word in each blank. You should make sure\nyour answers are grammatically correct (7 marks)\nPaying Attention\nSurprisingly, the human brain finds it (i) to think about one thing for\nlong periods of time.\nThe brain has two attention systems:\n1. The Conscious System 2. The Unconscious System\nIt helps people to focus and is related to It helps people to notice anything that our\nhigher reasoning. It operates at a senses consider (ili)",
+      "prompt": "Complete the summary of paragraphs 3 and 4 by writing ONE word in each blank. You should make sure your answers are grammatically correct. (7 marks)",
       "parts": [
         {
+          "key": "i",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
           "key": "ii",
-          "label": "(ii) speed. It is linked to how our",
-          "type": "text"
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "iv",
-          "label": "(iv) guide the\nprocessing of our surroundings. The system is",
-          "type": "text"
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "v",
-          "label": "(v) functioning even\nwhen we are focusing on something else.\nWe are easily distracted by unexpected noises even when the distraction is not as",
-          "type": "text"
+          "label": "(v)",
+          "type": "text",
+          "inTable": true
         },
         {
           "key": "vi",
-          "label": "(vi) as the task we are engaged in. When the task is boring, this\ndistraction is even (vii)",
-          "type": "text"
+          "label": "(vi)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "vii",
+          "label": "(vii)",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "marks": 7,
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Paying Attention",
+                "header": true,
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "Surprisingly, the human brain finds it (i) ______ to think about one thing for long periods of time. The brain has two attention systems:",
+                "part": "i",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "1. The Conscious System",
+                "header": true
+              },
+              {
+                "text": "2. The Unconscious System",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "It helps people to focus and is related to higher reasoning. It operates at a (ii) ______ speed.",
+                "part": "ii"
+              },
+              {
+                "text": "It helps people to notice anything that our senses consider (iii) ______. It is linked to how our (iv) ______ guide the processing of our surroundings. The system is (v) ______ functioning even when we are focusing on something else.",
+                "parts": [
+                  "iii",
+                  "iv",
+                  "v"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "We are easily distracted by unexpected noises even when the distraction is not as (vi) ______ as the task we are engaged in. When the task is boring, this distraction is even (vii) ______.",
+                "parts": [
+                  "vi",
+                  "vii"
+                ],
+                "colSpan": 2
+              }
+            ]
+          ]
         }
       ]
     },
@@ -196,11 +371,15 @@
       "options": [
         {
           "value": "A",
-          "label": "A. You cannot stop the noise"
+          "label": "A. You cannot stop the noise."
         },
         {
           "value": "B",
-          "label": "B. C. You will feel scared when you hear the noise. You have to focus on the noise."
+          "label": "B. You have to focus on the noise."
+        },
+        {
+          "value": "C",
+          "label": "C. You will feel scared when you hear the noise."
         },
         {
           "value": "D",
@@ -236,7 +415,7 @@
       "number": 12,
       "group": "paper",
       "type": "choice",
-      "prompt": "According to paragraph 6, the main benefit of listening to music when working on an important task in a",
+      "prompt": "According to paragraph 6, the main benefit of listening to music when working on an important task in a library is to...",
       "options": [
         {
           "value": "A",
@@ -244,7 +423,11 @@
         },
         {
           "value": "B",
-          "label": "B. C. create enjoyment for the listener. neutralise the pleasurable feelings."
+          "label": "B. create enjoyment for the listener."
+        },
+        {
+          "value": "C",
+          "label": "C. neutralise the pleasurable feelings."
         },
         {
           "value": "D",
@@ -297,8 +480,93 @@
     {
       "number": 17,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Based on the information in paragraphs 11-12, complete the timeline of the development of video game\nsoundtracks using ONE word from the text. (6 marks)\nAt the start, technological (i) resulted in the use\nof somewhat (ii) music.\nEarly video games\nGame soundtracks improved so they were (iii)\nwithout being (iv) for the players.\nNext 10-20 years\nWith advances in (v) the game producers are\nchoosing from a wider range of music. The difficulty is keeping the\n(vi) right so players enjoy the music whilst\nLatest development\nfocusing on their game."
+      "type": "parts",
+      "prompt": "Based on the information in paragraphs 11-12, complete the timeline of the development of video game soundtracks using ONE word from the text. (6 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "vi",
+          "label": "(vi)",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "marks": 6,
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Early video games",
+                "header": true
+              },
+              {
+                "text": "At the start, technological (i) ______ resulted in the use of somewhat (ii) ______ music.",
+                "parts": [
+                  "i",
+                  "ii"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Next 10-20 years",
+                "header": true
+              },
+              {
+                "text": "Game soundtracks improved so they were (iii) ______ without being (iv) ______ for the players.",
+                "parts": [
+                  "iii",
+                  "iv"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Latest development",
+                "header": true
+              },
+              {
+                "text": "With advances in (v) ______ the game producers are choosing from a wider range of music. The difficulty is keeping the (vi) ______ right so players enjoy the music whilst focusing on their game.",
+                "parts": [
+                  "v",
+                  "vi"
+                ]
+              }
+            ]
+          ]
+        }
+      ]
     },
     {
       "number": 18,
@@ -382,30 +650,103 @@
       "number": 22,
       "group": "paper",
       "type": "parts",
-      "prompt": "What is the most likely opinion of each of the four people towards the statement 'Music helps me study'?\n(4 marks)\nNeither\nAgrees Disagrees agrees nor\ndisagrees",
+      "prompt": "What is the most likely opinion of each of the four people towards the statement 'Music helps me study'? (4 marks)",
       "parts": [
         {
           "key": "i",
           "label": "(i) Laura",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "Agrees",
+            "Disagrees",
+            "Neither agrees nor disagrees"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
           "label": "(ii) Sandy",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "Agrees",
+            "Disagrees",
+            "Neither agrees nor disagrees"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
           "label": "(iii) John",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "Agrees",
+            "Disagrees",
+            "Neither agrees nor disagrees"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
           "label": "(iv) Leo",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "Agrees",
+            "Disagrees",
+            "Neither agrees nor disagrees"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Person",
+                "header": true
+              },
+              {
+                "text": "Opinion",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Laura"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Sandy"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) John"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Leo"
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
         }
       ]
     }
   ],
-  "questionRevision": "20260904-corrected-numbering"
+  "questionRevision": "20260904-full-question-audit-1"
 }

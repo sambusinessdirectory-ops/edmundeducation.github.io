@@ -160,62 +160,73 @@
       "group": "paper",
       "type": "parts",
       "prompt": "Select one of the menu options in the header above paragraph 1 to complete each gap in the table below. Each\noption can only be used once. The first has been done for you as an example. (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Ask Professor Kite a question.",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Find an activity in National Kite Month.",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Buy a kite.",
+          "type": "text",
+          "inTable": true
+        }
+      ],
       "tables": [
         {
+          "compact": true,
           "rows": [
             [
               {
                 "text": "If you want to...",
-                "colSpan": 1,
-                "rowSpan": 1,
                 "header": true
               },
               {
                 "text": "Go to the following menu option",
-                "colSpan": 1,
-                "rowSpan": 1,
                 "header": true
               }
             ],
             [
               {
-                "text": "...share your kite flying experiences.\n...ask Professor Kite a question.\n...find an activity in National Kite Month.\n...buy a kite.",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "Share your kite flying experiences."
               },
               {
-                "text": "E.g. Forum\n(i)\n(ii)\n(iii)",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r2c2g1",
-                  "t1r2c2g2",
-                  "t1r2c2g3"
-                ]
+                "text": "Forum (example)"
+              }
+            ],
+            [
+              {
+                "text": "(i) Ask Professor Kite a question."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Find an activity in National Kite Month."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Buy a kite."
+              },
+              {
+                "part": "iii"
               }
             ]
-          ],
-          "columns": 2
-        }
-      ],
-      "parts": [
-        {
-          "key": "t1r2c2g1",
-          "label": "(i)",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r2c2g2",
-          "label": "(ii)",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r2c2g3",
-          "label": "(iii)",
-          "type": "text",
-          "inTable": true
+          ]
         }
       ]
     },
@@ -223,7 +234,7 @@
       "number": 22,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Complete the following sentence using ONE word taken from paragraph 1.\nKnowing the of kite flying will make it more enjoyable."
+      "prompt": "Complete the following sentence using ONE word taken from paragraph 1.\nKnowing the ______ of kite flying will make it more enjoyable."
     },
     {
       "number": 23,
@@ -234,14 +245,28 @@
     {
       "number": 24,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the following tips from paragraph 3. Write ONE word taken from the paragraph in each gap bears)\nThere are two methods for kite flyers to check if the wind is suitable for kite flying:\n• Either a windsock or (i) can show the wind speed.\nLook at the movement of the (ii) on the trees nearby."
+      "type": "parts",
+      "prompt": "Complete the following tips from paragraph 3. Write ONE word taken from the paragraph in each gap below. (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ],
+      "context": "There are two methods for kite flyers to check if the wind is suitable for kite flying:\n- Either a windsock or (i) ______ can show the wind speed.\n- Look at the movement of the (ii) ______ on the trees nearby.",
+      "marks": 2
     },
     {
       "number": 25,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraphs 3-6, are the following statements True (T), False (F) or Not Given (NG)? (3 marks)\nStatements T F NG",
+      "prompt": "According to paragraphs 3-6, are the following statements True (T), False (F) or Not Given (NG)? (3 marks)",
       "parts": [
         {
           "key": "i",
@@ -433,8 +458,22 @@
     {
       "number": 28,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Using the information in paragraph 7, complete the following sentence by using ONE word taken from\nparagraph 7 for each gap. (2 marks)\nFlying your kite in storms is (i) because wet lines\nattract (ii)"
+      "type": "parts",
+      "prompt": "Using the information in paragraph 7, complete the following sentence by using ONE word taken from paragraph 7 for each gap. (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ],
+      "context": "Flying your kite in storms is (i) ______ because wet lines attract (ii) ______.",
+      "marks": 2
     },
     {
       "number": 29,
@@ -525,11 +564,11 @@
       "number": 33,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraphs 1-2, are the following statements True (T), False (F) or Not Given (NG)? (4 marks)\nStatements T F NG",
+      "prompt": "According to paragraphs 1-2, are the following statements True (T), False (F) or Not Given (NG)? (4 marks)",
       "parts": [
         {
           "key": "i",
-          "label": "(i) Thomas has more than one child. C",
+          "label": "(i) Thomas has more than one child.",
           "type": "choice",
           "options": [
             "TRUE",
@@ -578,34 +617,121 @@
     {
       "number": 35,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "With reference to paragraph 5, in what ways was kite flying 'easy to do' (line 27)? Complete the sentences\nbelow by using ONE word taken from paragraph 5 for each gap. (2 marks)\nReason 1: Kites were easy to (i)\nReason 2: Children could fly kites in their (ii)"
+      "type": "parts",
+      "prompt": "With reference to paragraph 5, in what ways was kite flying 'easy to do' (line 27)? Complete the sentences below by using ONE word taken from paragraph 5 for each gap. (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        }
+      ],
+      "context": "Reason 1: Kites were easy to (i) ______.\nReason 2: Children could fly kites in their (ii) ______.",
+      "marks": 2
     },
     {
       "number": 36,
       "group": "paper",
       "type": "parts",
-      "prompt": "With reference to paragraphs 4-7, indicate when the following took place. (4 marks)\nthe Not\nStatements 1950s 1970s Stated",
+      "prompt": "With reference to paragraphs 4-7, indicate when the following took place. (4 marks)",
       "parts": [
         {
           "key": "i",
           "label": "(i) So Chi-chiu became vice-chairman of the Hong Kong Kite Fighting\nClub.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "The 1950s / 1960s",
+            "The 1970s",
+            "Not Stated"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
           "label": "(ii) Kite flying began to decline in popularity.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "The 1950s / 1960s",
+            "The 1970s",
+            "Not Stated"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
           "label": "(iii) Kites were seen around housing estates.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "The 1950s / 1960s",
+            "The 1970s",
+            "Not Stated"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
           "label": "(iv) The Government had no control over kite flying in Hong Kong.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "The 1950s / 1960s",
+            "The 1970s",
+            "Not Stated"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "When",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) So Chi-chiu became vice-chairman of the Hong Kong Kite Fighting\nClub."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Kite flying began to decline in popularity."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Kites were seen around housing estates."
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) The Government had no control over kite flying in Hong Kong."
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
         }
       ]
     },
@@ -654,8 +780,114 @@
     {
       "number": 41,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Below are comments made by some of the people mentioned in Text 3. Match each person with one\ncomment. Use each letter ONCE only. One comment is NOT used and you should select 'Not Stated'.\n(4 marks)\nA. Thomas Shum B. So Chi-chiu C. Haiven Woo Ka-hei D. Not Stated\nComments\n(i) We've tried looking for other like-minded people.\n(ii) I'm not hopeful but I have to have faith that the situation could change.\n(iii) I don't know where to go to fly a kite. C\n(iv) Before, all we needed was some simple materials to get things started."
+      "type": "parts",
+      "prompt": "Below are comments made by some of the people mentioned in Text 3. Match each person with one comment. Use each letter ONCE only. One comment is NOT used and you should select 'Not Stated'. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) We've tried looking for other like-minded people.",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) I'm not hopeful but I have to have faith that the situation could change.",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii) I don't know where to go to fly a kite.",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Before, all we needed was some simple materials to get things started.",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Comment",
+                "header": true
+              },
+              {
+                "text": "Person",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) We've tried looking for other like-minded people."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) I'm not hopeful but I have to have faith that the situation could change."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) I don't know where to go to fly a kite."
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Before, all we needed was some simple materials to get things started."
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
+        }
+      ],
+      "optionBank": [
+        "A. Thomas Shum",
+        "B. So Chi-chiu",
+        "C. Haiven Woo Ka-hei",
+        "D. Not Stated"
+      ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

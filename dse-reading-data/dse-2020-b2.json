@@ -154,7 +154,7 @@
       "number": 43,
       "group": "paper",
       "type": "choice",
-      "prompt": "Norton with the statement 'there are no problems, only solutions' (line 4).",
+      "prompt": "Norton ______ with the statement 'there are no problems, only solutions' (line 4).",
       "options": [
         {
           "value": "A",
@@ -162,7 +162,7 @@
         },
         {
           "value": "B",
-          "label": "B. disagrees A"
+          "label": "B. disagrees"
         },
         {
           "value": "C",
@@ -174,52 +174,124 @@
       "number": 44,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Why do some readers receive a 'a tongue-lashing' (lines 12-13) instead of 'a kind word' (line 12)?"
+      "prompt": "Why do some readers receive a 'tongue-lashing' (lines 12-13) instead of 'a kind word' (line 12)?"
     },
     {
       "number": 45,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraphs 4-5, are the following statements True (T), False (F) or Not Given (NG)?\n(5 marks)\nStatements T F NG\n(1) Norton planned to become an agony uncle.",
+      "prompt": "According to paragraphs 4-5, are the following statements True (T), False (F) or Not Given (NG)? (5 marks)",
       "parts": [
+        {
+          "key": "i",
+          "label": "(i) Norton planned to become an agony uncle.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        },
         {
           "key": "ii",
           "label": "(ii) Norton is reluctant to offer people advice.",
-          "type": "choice",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
-          ]
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
           "label": "(iii) The advice Norton provides may be unpopular with some people.",
-          "type": "choice",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
-          ]
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
           "label": "(iv) Norton often gives medical advice.",
-          "type": "choice",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
-          ]
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "v",
           "label": "(v) Some of Norton's readers might be surprised by his advice.",
-          "type": "choice",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Norton planned to become an agony uncle."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Norton is reluctant to offer people advice."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) The advice Norton provides may be unpopular with some people."
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Norton often gives medical advice."
+              },
+              {
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "(v) Some of Norton's readers might be surprised by his advice."
+              },
+              {
+                "part": "v"
+              }
+            ]
           ]
         }
       ]
@@ -228,7 +300,7 @@
       "number": 46,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Use ONE word to complete the following statement based on the information in paragraph 6.\nIt's the noticed by readers between the serious and silly that makes the serious\nproblems stand out."
+      "prompt": "Use ONE word to complete the following statement based on the information in paragraph 6.\nIt's the ______ noticed by readers between the serious and silly that makes the serious\nproblems stand out."
     },
     {
       "number": 47,
@@ -257,8 +329,118 @@
     {
       "number": 51,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "S1. Below are statements summarising the main ideas of paragraphs 12-15. Match the most appropriate idea (A-\nE) with each of the paragraphs. Write the letter of the main idea next to the paragraph number given. Use\neach letter ONCE only. One of the ideas is not used. (4 marks)\nMain Idea Paragraph Main Idea\nA. Positivity is the key.\n12 (i)\nB. Being a better person.\nC. Misunderstanding someone's motives. 13 (ii)\nD. Helping yourself is the best approach. 14 (iii)\nE. People believe problems are worse than they really are. 15 (iv)"
+      "type": "parts",
+      "prompt": "Below are statements summarising the main ideas of paragraphs 12-15. Match the most appropriate idea (A-E) with each of the paragraphs. Write the letter of the main idea next to the paragraph number given. Use each letter ONCE only. One of the ideas is not used. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Paragraph 12",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Paragraph 13",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Paragraph 14",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Paragraph 15",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Paragraph",
+                "header": true
+              },
+              {
+                "text": "Main idea",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Paragraph 12"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Paragraph 13"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Paragraph 14"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Paragraph 15"
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
+        }
+      ],
+      "optionBank": [
+        "A. Positivity is the key.",
+        "B. Being a better person.",
+        "C. Misunderstanding someone's motives.",
+        "D. Helping yourself is the best approach.",
+        "E. People believe problems are worse than they really are."
+      ]
     },
     {
       "number": 52,
@@ -464,98 +646,134 @@
       "number": 60,
       "group": "paper",
       "type": "parts",
-      "prompt": "Throughout the text a number of problems are described. Norton classifies his readers' problems into\ncategories. Complete the table below using the examples of problems listed. Write the letter of the problem\nin the correct gap. Some categories have more than one example. One has been done for you as an exmmple.,\nD. Travelling to Sweden Problematic Problems (v)",
+      "prompt": "Throughout the text a number of problems are described. Norton classifies his readers' problems into categories. Complete the table below using the examples of problems listed. Write the letter of the problem in the correct gap. Some categories have more than one example. One has been done for you as an example. (5 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "select",
+          "options": [
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "select",
+          "options": [
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "select",
+          "options": [
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "select",
+          "options": [
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "select",
+          "options": [
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        }
+      ],
+      "optionBank": [
+        "A. Italian farmer (example)",
+        "B. Bereavement",
+        "C. Best-man speech",
+        "D. Travelling to Sweden",
+        "E. Barber",
+        "F. Loneliness"
+      ],
       "tables": [
         {
+          "compact": true,
           "rows": [
             [
               {
                 "text": "Norton's Category",
-                "colSpan": 1,
-                "rowSpan": 1,
                 "header": true
               },
               {
                 "text": "Example(s)",
-                "colSpan": 1,
-                "rowSpan": 1,
                 "header": true
               }
             ],
             [
               {
-                "text": "'Problems'",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "'Problems'"
               },
               {
-                "text": "(i) and (ii)",
-                "colSpan": 1,
-                "rowSpan": 1,
+                "text": "(i) ______ and (ii) ______",
                 "parts": [
-                  "t1r2c2g1",
-                  "t1r2c2g2"
+                  "i",
+                  "ii"
                 ]
               }
             ],
             [
               {
-                "text": "Problems",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "Problems"
               },
               {
-                "text": "e.g._A and (iii)",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r3c2g1"
-                ]
+                "text": "A (example) and (iii) ______",
+                "part": "iii"
               }
             ],
             [
               {
-                "text": "Very Common Problems",
-                "colSpan": 1,
-                "rowSpan": 1
+                "text": "Very Common Problems"
               },
               {
-                "text": "(iv)",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "parts": [
-                  "t1r4c2g1"
-                ]
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "Problematic Problems"
+              },
+              {
+                "part": "v"
               }
             ]
-          ],
-          "columns": 2
-        }
-      ],
-      "parts": [
-        {
-          "key": "t1r2c2g1",
-          "label": "(i)",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r2c2g2",
-          "label": "(ii)",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r3c2g1",
-          "label": "(iii)",
-          "type": "text",
-          "inTable": true
-        },
-        {
-          "key": "t1r4c2g1",
-          "label": "(iv)",
-          "type": "text",
-          "inTable": true
+          ]
         }
       ]
     },
@@ -563,76 +781,125 @@
       "number": 61,
       "group": "paper",
       "type": "parts",
-      "prompt": "Based on the information in paragraphs 16-24, complete the two conversations between the letter writers\nand Graham Norton by writing a letter (A-H) in the appropriate gap. Use each letter ONCE only. ONE\noption is not used. (7 marks)\nConversation 1\n> David:\nHonestly, I don't know what I'll be (i) - but this feels right. Having\nsaid that, if this falls apart I'll find it hard to shake off feeling lonely. So, I'm just going to\nforge ahead before I have time to dwell on any regrets like",
+      "prompt": "Based on the information in paragraphs 16-24, complete the two conversations between the letter writers and Graham Norton by writing a letter (A-H) in the appropriate gap. Use each letter ONCE only. ONE option is not used. (7 marks)",
       "parts": [
         {
+          "key": "i",
+          "label": "(i)",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ]
+        },
+        {
           "key": "ii",
-          "label": "(ii)\n›Norton:\nJust remember why you're (iti) it will be an adventure! And you know\nwhat, I envy you, because if it doesn't work out you'll be (iv) in your future.\nConversation 2\n> P Smith:\nA great haircut at last! You've no idea how I've been (v) And\nwhat happens? The hairdresser keeps picking his nose.\n›Norton:\nWhy are you (vi)? You've got what you wanted. You should really be",
-          "type": "text"
+          "label": "(ii)",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ]
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ]
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ]
+        },
+        {
+          "key": "vi",
+          "label": "(vi)",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ]
         },
         {
           "key": "vii",
           "label": "(vii)",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ]
         }
       ],
-      "tables": [
-        {
-          "rows": [
-            [
-              {
-                "text": "A. longing for this",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "B. ignoring him",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "C. leaving loved ones",
-                "colSpan": 1,
-                "rowSpan": 1
-              }
-            ],
-            [
-              {
-                "text": "D. doing long term",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "E. moaning about this",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "F. taking the job",
-                "colSpan": 1,
-                "rowSpan": 1
-              }
-            ],
-            [
-              {
-                "text": "G. thinking of problems",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "H. getting other opportunities",
-                "colSpan": 1,
-                "rowSpan": 1
-              },
-              {
-                "text": "",
-                "colSpan": 1,
-                "rowSpan": 1
-              }
-            ]
-          ],
-          "columns": 3
-        }
+      "context": "Conversation 1\nDavid: Honestly, I don't know what I'll be (i) ______ but this feels right. Having said that, if this falls apart I'll find it hard to shake off feeling lonely. So, I'm just going to forge ahead before I have time to dwell on any regrets like (ii) ______.\nNorton: Just remember why you're (iii) ______, it will be an adventure! And you know what, I envy you, because if it doesn't work out you'll be (iv) ______ in your future.\n\nConversation 2\nP Smith: A great haircut at last! You've no idea how I've been (v) ______. And what happens? The hairdresser keeps picking his nose.\nNorton: Why are you (vi) ______? You've got what you wanted. You should really be (vii) ______.",
+      "marks": 7,
+      "optionBank": [
+        "A. longing for this",
+        "B. ignoring him",
+        "C. leaving loved ones",
+        "D. doing long term",
+        "E. moaning about this",
+        "F. taking the job",
+        "G. thinking of problems",
+        "H. getting other opportunities"
       ]
     },
     {
@@ -641,5 +908,6 @@
       "type": "textarea",
       "prompt": "Throughout the text Norton often compares himself to a medical doctor. Why do you think these\ncomparisons help to describe Norton's role as an agony uncle?"
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

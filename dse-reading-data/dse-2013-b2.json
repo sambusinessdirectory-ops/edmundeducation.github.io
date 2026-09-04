@@ -80,7 +80,11 @@
       "options": [
         {
           "value": "A",
-          "label": "A. an imagined, perfect world. B. an unfamiliar, terrifying place."
+          "label": "A. an imagined, perfect world."
+        },
+        {
+          "value": "B",
+          "label": "B. an unfamiliar, terrifying place."
         },
         {
           "value": "C",
@@ -96,25 +100,42 @@
       "number": 47,
       "group": "paper",
       "type": "textarea",
-      "prompt": "What does 'it' (line 6) refer to?\nBased on the information given in paragraph 2, complete the text by writing ONE word to fill in each blank."
+      "prompt": "What does 'it' (line 6) refer to?"
     },
     {
       "number": 48,
       "group": "paper",
       "type": "parts",
-      "prompt": "You should make sure that your answers are grammatically correct, paying attention to word form, plurals (5 marks)\netc.\nThe novel When You Reach Me takes place in New York City (NYC) where\ngrew up. In the 1970s, NYC had a",
+      "prompt": "Based on the information given in paragraph 2, complete the text by writing ONE word to fill in each blank. You should make sure that your answers are grammatically correct, paying attention to word form, plurals, etc.",
       "parts": [
         {
           "key": "i",
-          "label": "(i)., but children back then had more\nhigher (ii).\nIn contrast, NYC today is (iv)",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
           "type": "text"
         },
         {
           "key": "iii",
-          "label": "(iii) by their parents. As a result, children\nyet children are more (v).\ndon't walk the streets alone.",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        },
+        {
+          "key": "v",
+          "label": "(v)",
           "type": "text"
         }
-      ]
+      ],
+      "context": "The novel When You Reach Me takes place in New York City (NYC) where (i) ______ grew up. In the 1970s, NYC had a higher (ii) ______, but children back then had more (iii) ______. In contrast, NYC today is (iv) ______, yet children are more (v) ______ by their parents. As a result, children don't walk the streets alone.",
+      "marks": 5
     },
     {
       "number": 49,
@@ -126,36 +147,149 @@
       "number": 50,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Give ONE piece of evidence that shows the success of The Hunger Games series.\n19 *AOZOEIB"
+      "prompt": "Give ONE piece of evidence that shows the success of The Hunger Games series."
     },
     {
       "number": 51,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Based on the information in paragraph 3, complete the book synopsis of The Hunger Games by writing ONE\nword to fill in each blank. You should make sure that your answers are grammatically correct, paying\nattention to word form, plurals, etc. (6 marks)\nThe Hunger Games is the (0) book in a trilogy of novels written by\nSuzanne Collins. The story takes place some time in the (ii). • Two\nchildren from (ili) district are forced to compete in the Hunger Games. The\ncontest is held in an (iv) and shown\n(v).. The sole survivor (vi)"
+      "type": "parts",
+      "prompt": "Based on the information in paragraph 3, complete the book synopsis of The Hunger Games by writing ONE word to fill in each blank. You should make sure that your answers are grammatically correct, paying attention to word form, plurals, etc.",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text"
+        },
+        {
+          "key": "vi",
+          "label": "(vi)",
+          "type": "text"
+        }
+      ],
+      "context": "The Hunger Games is the (i) ______ book in a trilogy of novels written by Suzanne Collins. The story takes place some time in the (ii) ______. Two children from (iii) ______ district are forced to compete in the Hunger Games. The contest is held in an (iv) ______ and shown (v) ______. The sole survivor (vi) ______.",
+      "marks": 6
     },
     {
       "number": 52,
       "group": "paper",
       "type": "parts",
-      "prompt": "Read paragraphs 4-5 and decide whether the following statements are True, False, or the information is Not\nGiven. Blacken ONE circle only for each statement. (4 marks)\nT F NG",
+      "prompt": "Read paragraphs 4-5 and decide whether the following statements are True, False, or the information is Not Given. Choose ONE answer for each statement.",
       "parts": [
         {
           "key": "i",
-          "label": "i) The Hunger Games is the only example of the current popularity in\ndystopian fiction.\nIn the Uglies, teenagers conform to a standard prettiness by undergoing C\nsurgery.",
-          "type": "text"
+          "label": "(i) The Hunger Games is the only example of the current popularity in dystopian fiction.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) In the Uglies, teenagers conform to a standard prettiness by undergoing surgery.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
-          "label": "iii) Most participants of the Internet discussion board are teenagers.",
-          "type": "text"
+          "label": "(iii) Most participants of the Internet discussion board are teenagers.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
-          "label": "iv) Brave New World and 1984 were written for American schoolchildren.",
-          "type": "text"
+          "label": "(iv) Brave New World and 1984 were written for American schoolchildren.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         }
-      ]
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statements",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) The Hunger Games is the only example of the current popularity in dystopian fiction."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) In the Uglies, teenagers conform to a standard prettiness by undergoing surgery."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Most participants of the Internet discussion board are teenagers."
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Brave New World and 1984 were written for American schoolchildren."
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
+        }
+      ],
+      "marks": 4
     },
     {
       "number": 53,
@@ -167,19 +301,30 @@
       "number": 54,
       "group": "paper",
       "type": "parts",
-      "prompt": "Based on information in paragraphs 4 and S, write the correct book title under each of the following plot\ndescriptions. (4 marks)\nRead the horrific tale of beings from Trapped in a maze, a group of teenagers\nouter space that invade Earth and who can't remember their past struggle to\nmentally control teenagers. survive.",
+      "prompt": "Based on information in paragraphs 4 and 5, write the correct book title under each of the following plot descriptions.",
       "parts": [
         {
+          "key": "i",
+          "label": "(i) Read the horrific tale of beings from outer space that invade Earth and mentally control teenagers.",
+          "type": "text"
+        },
+        {
           "key": "ii",
-          "label": "ii)\nProblems occur when people try to Trapped in a maze that goes on forever,\nbring about too much societal harmony teenagers are being influenced to act in\nin this suspenseful dystopian novel. a certain way.",
+          "label": "(ii) Trapped in a maze, a group of teenagers who can't remember their past struggle to survive.",
           "type": "text"
         },
         {
           "key": "iii",
-          "label": "(iii) iv)",
+          "label": "(iii) Problems occur when people try to bring about too much societal harmony in this suspenseful dystopian novel.",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Trapped in a maze that goes on forever, teenagers are being influenced to act in a certain way.",
           "type": "text"
         }
-      ]
+      ],
+      "marks": 4
     },
     {
       "number": 55,
@@ -190,14 +335,93 @@
     {
       "number": 56,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Based on paragraph 6, match the descriptions (A-H) to the correct place in the timeline to show the order\nof events in a typical plot line of a dystopian novel. Write the letter in the box. NOTE: Use only FIVE (5 marks)\ndescriptions.\nA. Problems begin to disappear, and everyone is no longer miserable.\nB. The main character becomes admired by everyone.\nC. The main character appears to be happy and comfortable.\nD. The main character makes the decision to break away from the unbearable situation.\nE. A tranquil fictional world is introduced to the reader.\nF. The main character discovers that something is wrong in the fictional world.\nG. Circumstances get worse and become intolerable for everyone.\nH. The main character is no longer a misfit.\nThe story\nends.",
+      "type": "parts",
+      "prompt": "Based on paragraph 6, match the descriptions (A-H) to the correct place in the timeline to show the order of events in a typical plot line of a dystopian novel. Write the letter in the box. NOTE: Use only FIVE descriptions.",
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/content/2013/b2/questions-3-visual-1.webp",
           "alt": "Original figure 1"
         }
-      ]
+      ],
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Timeline position 1 (from left to right)",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Timeline position 2 (from left to right)",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Timeline position 3 (from left to right)",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ]
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Timeline position 4 (from left to right)",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ]
+        },
+        {
+          "key": "v",
+          "label": "(v) Timeline position 5 (from left to right)",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ]
+        }
+      ],
+      "marks": 5,
+      "optionBank": "A. Problems begin to disappear, and everyone is no longer miserable.\nB. The main character becomes admired by everyone.\nC. The main character appears to be happy and comfortable.\nD. The main character makes the decision to break away from the unbearable situation.\nE. A tranquil fictional world is introduced to the reader.\nF. The main character discovers that something is wrong in the fictional world.\nG. Circumstances get worse and become intolerable for everyone.\nH. The main character is no longer a misfit."
     },
     {
       "number": 57,
@@ -211,7 +435,11 @@
         },
         {
           "value": "B",
-          "label": "B. fail at the end of the story. C. change their behavior at the end of the story."
+          "label": "B. fail at the end of the story."
+        },
+        {
+          "value": "C",
+          "label": "C. change their behavior at the end of the story."
         },
         {
           "value": "D",
@@ -235,7 +463,7 @@
       "number": 60,
       "group": "paper",
       "type": "parts",
-      "prompt": "How is young-adult dystopian fiction different from adult dystopian fiction? Find two differences mentioned\nin the text. (marks)",
+      "prompt": "How is young-adult dystopian fiction different from adult dystopian fiction? Find two differences mentioned in the text.",
       "parts": [
         {
           "key": "i",
@@ -247,7 +475,8 @@
           "label": "ii)",
           "type": "text"
         }
-      ]
+      ],
+      "marks": 2
     },
     {
       "number": 61,
@@ -279,7 +508,11 @@
         },
         {
           "value": "B",
-          "label": "B. will be conceived as social and technological themes in books. C. may be issues of lesser importance."
+          "label": "B. will be conceived as social and technological themes in books."
+        },
+        {
+          "value": "C",
+          "label": "C. may be issues of lesser importance."
         },
         {
           "value": "D",
@@ -299,7 +532,11 @@
         },
         {
           "value": "B",
-          "label": "B. will forever remain a major part of dystopian fiction. C. will become as interesting as technology and the social trends of today"
+          "label": "B. will forever remain a major part of dystopian fiction."
+        },
+        {
+          "value": "C",
+          "label": "C. will become as interesting as technology and the social trends of today."
         },
         {
           "value": "D",
@@ -308,5 +545,5 @@
       ]
     }
   ],
-  "questionRevision": "20260904-corrected-numbering"
+  "questionRevision": "20260904-full-question-audit-1"
 }

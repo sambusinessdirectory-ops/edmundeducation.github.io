@@ -106,22 +106,119 @@
       "number": 1,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraphs 1-5, decide whether the following statements are True (T), False (F) or Not\nGiven (NG). (5 marks)\nStatements T F NG\nHarford encourages his readers to be very tidy.\n(11) Harford has more than one job.",
+      "prompt": "According to paragraphs 1-5, decide whether the following statements are True (T), False (F) or Not Given (NG). (5 marks)",
       "parts": [
+        {
+          "key": "i",
+          "label": "(i) Harford encourages his readers to be very tidy.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Harford has more than one job.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        },
         {
           "key": "iii",
           "label": "(iii) Harford's first book is called 'Messy'",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
           "label": "(iv) Harford is friends with many famous creative people.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "v",
           "label": "(v) Harford thinks it is good to be involved with more than one project at a time.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Harford encourages his readers to be very tidy."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Harford has more than one job."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Harford's first book is called 'Messy'"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Harford is friends with many famous creative people."
+              },
+              {
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "(v) Harford thinks it is good to be involved with more than one project at a time."
+              },
+              {
+                "part": "v"
+              }
+            ]
+          ]
         }
       ]
     },
@@ -147,18 +244,13 @@
         },
         {
           "value": "C",
-          "label": "C. to highlight how mess is related to various aspects of life D"
+          "label": "C. to highlight how mess is related to various aspects of life"
         },
         {
           "value": "D",
           "label": "D. to argue that mess is a positive influence in people's lives"
-        },
-        {
-          "value": "E",
-          "label": "E. g. Harford's book discusses many similar situations concerning mess. different"
         }
-      ],
-      "optionBank": "A. to prove that mess exists\nB. to show that people are messy\nC. to highlight how mess is related to various aspects of life D\nD. to argue that mess is a positive influence in people's lives\nBelow is a summary of paragraph 6. In five of the lines, there is ONE mistake. If you find a mistake,\nunderline it and replace the word with one that expresses the correct idea. Write the word in the box on the\nright. Both grammar and spelling must be correct. In one of the lines there is no mistake; put a tick (r) in\nthe box. The first has been done for you. (6 marks)\nSummary Correction\ne.g. Harford's book discusses many similar situations concerning mess. different\n(i) A common theme is the idea that there are advantages in accepting\n(ii) the things we can measure, organize or standardize. Such things\n(iii) usually make people feel calm as they feel they have lost control.\n(iv) Instead, people hate having a target to achieve, a script to follow,\n(V) or a messy workstation. Naturally, such things have their benefits\n(vi) but so too do all those situations that are easy to predict."
+      ]
     },
     {
       "number": 4,
@@ -207,7 +299,7 @@
             ],
             [
               {
-                "text": "",
+                "text": "(i)",
                 "colSpan": 1,
                 "rowSpan": 1
               },
@@ -247,7 +339,7 @@
             ],
             [
               {
-                "text": "(111)",
+                "text": "(iii)",
                 "colSpan": 1,
                 "rowSpan": 1
               },
@@ -287,7 +379,7 @@
             ],
             [
               {
-                "text": "",
+                "text": "(v)",
                 "colSpan": 1,
                 "rowSpan": 1
               },
@@ -389,8 +481,37 @@
     {
       "number": 8,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the following notes based on paragraph 8 by writing ONE word taken from paragraph 8 in each\nblank below. Your answers must be grammatically correct.\nThree reasons why your desk is more efficient than you think.\nYour piles of paper will become (i) as you add / remove documents.\n- People consider a pile to be (ii), but this is not the case.\nFor example, when you stop using the material, it will move to the (iii)\n2. You won't need a (iv) of things to do.\n- You have visible reminders right in front of you.\n3. You don't need to think about what to put in the trash.\nThe answer is (v) — keep everything at the top and bin the rest."
+      "type": "parts",
+      "prompt": "Complete the following notes based on paragraph 8 by writing ONE word taken from paragraph 8 in each blank below. Your answers must be grammatically correct. (5 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text"
+        }
+      ],
+      "context": "Three reasons why your desk is more efficient than you think.\n\n1. Your piles of paper will become (i) ______ as you add / remove documents.\n- People consider a pile to be (ii) ______, but this is not the case. For example, when you stop using the material, it will move to the (iii) ______.\n\n2. You won't need a (iv) ______ of things to do.\n- You have visible reminders right in front of you.\n\n3. You don't need to think about what to put in the trash.\nThe answer is (v) ______ - keep everything at the top and bin the rest.",
+      "marks": 5
     },
     {
       "number": 9,
@@ -400,12 +521,12 @@
       "parts": [
         {
           "key": "i",
-          "label": "(i) \"very'",
+          "label": "(i) 'very'",
           "type": "text"
         },
         {
           "key": "ii",
-          "label": "(ii) unusable'",
+          "label": "(ii) 'unusable'",
           "type": "text"
         },
         {
@@ -415,7 +536,7 @@
         },
         {
           "key": "iv",
-          "label": "(iv) \"mentally'",
+          "label": "(iv) 'mentally'",
           "type": "text"
         },
         {
@@ -500,12 +621,84 @@
     {
       "number": 16,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Several actions from the text are described below, along with their consequences. Complete the\ninformation by writing ONE word taken from the relevant paragraph in each blank below. Your answers (4 marks)\nmust be grammatically correct.\nACTION CONSEQUENCE\nParagraph Focusing on something different You will be able to (1)\nwhen facing a difficulty on a project. your thinking process.\nParagraph Constantly clearing away your You will have a filing system that is difficult\npaperwork. to (ii)\nParagraph Employees being told how to They lose their sense of\n13 organize their (iji) (iv).",
+      "type": "parts",
+      "prompt": "Several actions from the text are described below, along with their consequences. Complete the information by writing ONE word taken from the relevant paragraph in each blank below. Your answers must be grammatically correct. (4 marks)",
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/content/2019/a/questions-3-visual-1.webp",
           "alt": "Original figure 1"
+        }
+      ],
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "marks": 4,
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Action",
+                "header": true
+              },
+              {
+                "text": "Consequence",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Paragraph 5: Focusing on something different when facing a difficulty on a project."
+              },
+              {
+                "text": "You will be able to (i) ______ your thinking process.",
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "Paragraph 7: Constantly clearing away your paperwork."
+              },
+              {
+                "text": "You will have a filing system that is difficult to (ii) ______.",
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "Paragraph 13: Employees being told how to organize their (iii) ______.",
+                "part": "iii"
+              },
+              {
+                "text": "They lose their sense of (iv) ______.",
+                "part": "iv"
+              }
+            ]
+          ]
         }
       ]
     },
@@ -536,15 +729,93 @@
     {
       "number": 18,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Two friends are discussing the extract from the interview with Tim Harford (paragraphs 6-15). Use the\ninformation from the text to match each statement in the speech bubbles with a paragraph that contains\nsimilar ideas. Write the number of the paragraph next to the speech bubble. Each paragraph number can\nbe used once only. Some paragraph numbers are not used. The first two have been done for you as\nJenny Paul\nI truly dislike it when my\ndad tells me to tidy my\nbedroom - it doesn't feel Yeah, my mum's the same. Just\nParagraph like it's my room anymore, because she has to be hyper- Paragraph\nc.g. 13 but his. organized at work at her dental\nsurgery, it doesn't mean that's c.g. 12\nright for my things in my own\nroom. Even when things get a bit\nmessy, I still get things done.\nYou know, l've just read an\ninterview which says we\nParagraph could be astonished to see how messiness might make Really? How would that work? Paragraph\n(i) our lives better. Last night I spent 30 minutes (ii)\nlooking for my chemistry\nhomework because I hadn't put it\nin the right folder on my desk.\nWell the interview gave\none or two famous\nParagraph historical examples where Paragraph\n(iii). really messy people achieved great things. But that can't really work for (iv)\neveryone, can it?\nYou know, it could save\nyou looking for your\nchemistry homework next\nParagraph time. The writer describes\nhow a mountain of documents has a system to\nit so you can quickly find\nexactly what you need.",
+      "type": "parts",
+      "prompt": "Two friends are discussing the extract from the interview with Tim Harford (paragraphs 6-15). Use the information from the text to match each statement in the speech bubbles with a paragraph that contains similar ideas. Write the number of the paragraph next to the speech bubble. Each paragraph number can be used once only. Some paragraph numbers are not used. The first two have been done for you as examples. (5 marks)",
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/content/2019/a/questions-4-crop-1.webp",
           "alt": "A conversation between Jenny and Paul in speech bubbles"
         }
-      ]
+      ],
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Paragraph",
+          "type": "select",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "14",
+            "15"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Paragraph",
+          "type": "select",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "14",
+            "15"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii) Paragraph",
+          "type": "select",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "14",
+            "15"
+          ]
+        },
+        {
+          "key": "iv",
+          "label": "(iv) Paragraph",
+          "type": "select",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "14",
+            "15"
+          ]
+        },
+        {
+          "key": "v",
+          "label": "(v) Paragraph",
+          "type": "select",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "14",
+            "15"
+          ]
+        }
+      ],
+      "marks": 5
     }
   ],
-  "questionRevision": "20260904-corrected-numbering"
+  "questionRevision": "20260904-full-question-audit-1"
 }

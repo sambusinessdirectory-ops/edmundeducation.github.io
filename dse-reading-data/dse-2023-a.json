@@ -89,8 +89,45 @@
     {
       "number": 1,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the summary of paragraph 1 by selecting the best option from the choices below. (3 marks)\nStories are (i) the human race and have been enjoyed throughout history. Yet some find it (ii) to\neven get through the first few paragraphs of a story so flash fiction is (in) for many of today's readers.\n(1) A. as big as\nB. as old as\nC. as long as\nD. as difficult as\n(ii) • A. boring\nB. difficult\nC. essential\nD. meaningless\n(iii) A. a big challenge\nB. a confusing idea\nC. an ideal solution\nD. an excellent puzzle"
+      "type": "parts",
+      "prompt": "Complete the summary of paragraph 1 by selecting the best option from the choices below. (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "choice",
+          "options": [
+            "A. as big as",
+            "B. as old as",
+            "C. as long as",
+            "D. as difficult as"
+          ]
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "choice",
+          "options": [
+            "A. boring",
+            "B. difficult",
+            "C. essential",
+            "D. meaningless"
+          ]
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "choice",
+          "options": [
+            "A. a big challenge",
+            "B. a confusing idea",
+            "C. an ideal solution",
+            "D. an excellent puzzle"
+          ]
+        }
+      ],
+      "context": "Stories are (i) ______ the human race and have been enjoyed throughout history. Yet some find it (ii) ______ to even get through the first few paragraphs of a story so flash fiction is (iii) ______ for many of today's readers.",
+      "marks": 3
     },
     {
       "number": 2,
@@ -128,7 +165,7 @@
         },
         {
           "key": "iii",
-          "label": "(iii) too much of something\n*AOZOEOTA*",
+          "label": "(iii) too much of something",
           "type": "text"
         }
       ]
@@ -199,7 +236,7 @@
             ],
             [
               {
-                "text": "There is no chance that you will be able to incorporate three",
+                "text": "(iii) There is no chance that you will be able to incorporate three",
                 "colSpan": 1,
                 "rowSpan": 1
               },
@@ -282,8 +319,71 @@
     {
       "number": 7,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the notes below about paragraph 5 by writing ONE word taken from the paragraph in each blank\nbelow. (4 marks)\nThe (i) length of flash fiction helps create a focus on the key features of the story.\nLonger Story Forms Flash Fiction\n- These stories have three main parts. - The (ini) part of the typical\nThe author can develop a more story structure provides the focus of flash fiction.\n(ii) environment - It has a simpler structure which looks at a single\nfor the story. (iv), and this must be an\nimportant event for the character in the story."
+      "type": "parts",
+      "prompt": "Complete the notes below about paragraph 5 by writing ONE word taken from the paragraph in each blank below. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "The (i) ______ length of flash fiction helps create a focus on the key features of the story.",
+                "part": "i",
+                "colSpan": 2
+              }
+            ],
+            [
+              {
+                "text": "Longer Story Forms",
+                "header": true
+              },
+              {
+                "text": "Flash Fiction",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "These stories have three main parts.\nThe author can develop a more (ii) ______ environment for the story.",
+                "part": "ii"
+              },
+              {
+                "text": "The (iii) ______ part of the typical story structure provides the focus of flash fiction.\nIt has a simpler structure which looks at a single (iv) ______, and this must be an important event for the character in the story.",
+                "parts": [
+                  "iii",
+                  "iv"
+                ]
+              }
+            ]
+          ]
+        }
+      ]
     },
     {
       "number": 8,
@@ -307,7 +407,7 @@
         },
         {
           "value": "C",
-          "label": "C. prevent the characters from doing anything. B"
+          "label": "C. prevent the characters from doing anything."
         },
         {
           "value": "D",
@@ -360,8 +460,32 @@
     {
       "number": 14,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the summary of paragraph 11 below by using ONE word taken from the paragraph for each gap.\n(4 marks)\nIt all began during (i) when Timothy wasn't paying attention. Professor Snookhorn\nasked for volunteers and Timothy (ii) a reply. Although Professor Snookhorn was\n(ini), he glared at Timothy as he gave him his instructions. After the sound of the\nbell ended the lesson, the (iv), Billy Brenton, teased Timothy."
+      "type": "parts",
+      "prompt": "Complete the summary of paragraph 11 below by using ONE word taken from the paragraph for each gap. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        }
+      ],
+      "context": "It all began during (i) ______ when Timothy wasn't paying attention. Professor Snookhorn asked for volunteers and Timothy (ii) ______ a reply. Although Professor Snookhorn was (iii) ______, he glared at Timothy as he gave him his instructions. After the sound of the bell ended the lesson, the (iv) ______, Billy Brenton, teased Timothy.",
+      "marks": 4
     },
     {
       "number": 15,
@@ -373,7 +497,7 @@
       "number": 16,
       "group": "paper",
       "type": "parts",
-      "prompt": "the 16. According to paragraphs 12 and 13, are the following statements True (T), False (F) or Not Given (NG)? (4 marks)\nStatements F NG",
+      "prompt": "According to paragraphs 12 and 13, are the following statements True (T), False (F) or Not Given (NG)? (4 marks)",
       "parts": [
         {
           "key": "i",
@@ -427,7 +551,7 @@
       "number": 18,
       "group": "paper",
       "type": "textarea",
-      "prompt": "What caused the 'BO0000000MMMM!!!!' (line 65)?\nThe explosion was caused when Timothy"
+      "prompt": "What caused the 'BOOOOOOOOMMMM!!!!' (line 65)?\nThe explosion was caused when Timothy ______."
     },
     {
       "number": 19,
@@ -438,38 +562,126 @@
     {
       "number": 20,
       "group": "paper",
-      "type": "choice",
-      "prompt": "Below is a timeline of some of the events experienced by Timothy. Look at paragraphs 10-16 and write the\nletter of the correct option in the boxes given below. Use each letter ONCE only. Two options are NOT used.",
-      "options": [
+      "type": "parts",
+      "prompt": "Below is a timeline of some of the events experienced by Timothy. Look at paragraphs 10-16 and write the letter of the correct option in the boxes given below. Use each letter ONCE only. Two options are NOT used.",
+      "parts": [
         {
-          "value": "A",
-          "label": "A. Timothy caused an explosion"
+          "key": "i",
+          "label": "(i)",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "inTable": true
         },
         {
-          "value": "B",
-          "label": "B. Timothy slept"
+          "key": "ii",
+          "label": "(ii)",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "inTable": true
         },
         {
-          "value": "C",
-          "label": "C. Timothy cried"
-        },
-        {
-          "value": "D",
-          "label": "D. Timothy 'volunteered'"
-        },
-        {
-          "value": "E",
-          "label": "E. Timothy made Professor Snookhorn angry"
+          "key": "iii",
+          "label": "(iii)",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "inTable": true
         }
       ],
-      "optionBank": "A. Timothy caused an explosion\nB. Timothy slept\nC. Timothy cried\nD. Timothy 'volunteered'\nE. Timothy made Professor Snookhorn angry\n(i) (ii) Billy teased (iti) Timothy won\nTimothy the competition\nOne month ago End of story"
+      "optionBank": [
+        "A. Timothy caused an explosion",
+        "B. Timothy slept",
+        "C. Timothy cried",
+        "D. Timothy 'volunteered'",
+        "E. Timothy made Professor Snookhorn angry"
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "flow": true,
+          "caption": "One month ago → End of story",
+          "rows": [
+            [
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "Billy teased Timothy"
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "Timothy won the competition"
+              }
+            ]
+          ]
+        }
+      ]
     },
     {
       "number": 21,
       "group": "paper",
       "type": "parts",
-      "prompt": "Is the story The Big Bang a good example of flash fiction? Put a tick (Y) in the appropriate box. (2 marks)\nA good Not a good\nexample of\nflash fiction\nWith reference to the 'How to' section, give any TWO pieces of evidence from the story to support your answer.",
+      "prompt": "Is the story The Big Bang a good example of flash fiction? Put a tick (✓) in the appropriate box. With reference to the 'How to' section, give any TWO pieces of evidence from the story to support your answer. (2 marks)",
       "parts": [
+        {
+          "key": "opinion",
+          "label": "The Big Bang is...",
+          "type": "choice",
+          "options": [
+            "A good example of flash fiction",
+            "Not a good example of flash fiction"
+          ]
+        },
         {
           "key": "i",
           "label": "(i) Evidence 1:",
@@ -486,7 +698,7 @@
       "number": 22,
       "group": "paper",
       "type": "parts",
-      "prompt": "Below are comments made by some of the people in the story The Big Bang. Match each person or group of\npeople with ONE comment. Each letter can be used ONCE only. One letter is NOT used. One has been done\nfor you as an example. (3 marks)\nA. Parents D. Billy Brenton\nB. Timothy E. Professor Snookhorn\nC. Teachers",
+      "prompt": "Below are comments made by some of the people in the story The Big Bang. Match each person or group of\npeople with ONE comment. Each letter can be used ONCE only. One letter is NOT used. One has been done\nfor you as an example. (3 marks)",
       "tables": [
         {
           "rows": [
@@ -569,22 +781,48 @@
         {
           "key": "t1r2c2g1",
           "label": "(i)",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ]
         },
         {
           "key": "t1r3c2g1",
           "label": "(ii)",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ]
         },
         {
           "key": "t1r5c2g1",
           "label": "(iii)",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "D",
+            "E"
+          ]
         }
+      ],
+      "optionBank": [
+        "A. Parents",
+        "B. Timothy",
+        "C. Teachers (example)",
+        "D. Billy Brenton",
+        "E. Professor Snookhorn"
       ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

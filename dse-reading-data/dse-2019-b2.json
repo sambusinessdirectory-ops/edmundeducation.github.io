@@ -92,46 +92,118 @@
       "number": 46,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraph 1, decide whether the following statements are True (T), False (F) or Not Given\n(NG). (5 marks)\nStatements F NG\nMr Slavin's attention was often drawn towards Thommo.",
+      "prompt": "According to paragraph 1, decide whether the following statements are True (T), False (F) or Not Given (NG). (5 marks)",
       "parts": [
+        {
+          "key": "i",
+          "label": "(i) Mr Slavin's attention was often drawn towards Thommo.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        },
         {
           "key": "ii",
           "label": "(ii) Mr Slavin enjoyed punishing Thommo.",
-          "type": "choice",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
-          ]
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
           "label": "(iii) Thommo's classmates were forced to watch when the Deputy Head caned\nhim.",
-          "type": "choice",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
-          ]
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
           "label": "(iv) Thommo would only escape from the Deputy Head after six strokes of the\ncane.",
-          "type": "choice",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
-          ]
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "v",
           "label": "(v) Thommo was a thief.",
-          "type": "choice",
+          "type": "select",
           "options": [
-            "TRUE",
-            "FALSE",
-            "NOT GIVEN"
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Mr Slavin's attention was often drawn towards Thommo."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Mr Slavin enjoyed punishing Thommo."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Thommo's classmates were forced to watch when the Deputy Head caned\nhim."
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Thommo would only escape from the Deputy Head after six strokes of the\ncane."
+              },
+              {
+                "part": "iv"
+              }
+            ],
+            [
+              {
+                "text": "(v) Thommo was a thief."
+              },
+              {
+                "part": "v"
+              }
+            ]
           ]
         }
       ]
@@ -187,8 +259,20 @@
     {
       "number": 53,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "The writer says 'The pain was considerable, but the glory was greater' (line 29). What 'pain' and what\n\"glory' is the writer referring to? (2 marks)\n(i) Pain:\n(it) Glory:"
+      "type": "parts",
+      "prompt": "The writer says 'The pain was considerable, but the glory was greater' (line 29). What 'pain' and what 'glory' is the writer referring to? (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Pain",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Glory",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 54,
@@ -223,8 +307,32 @@
     {
       "number": 56,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Based on the information in paragraph 5, complete the summary by writing ONE word taken fron\nparagraph 5 in each blank below. Your answers must be grammatically correct. (4 marks)\nClive recognises that there are many (i) in his own character. However, he\ndoes not feel comfortable hurting those around him. For example, he believes that he would\nhave (ii) from his attempts at torture if he had only received some feedback\nfrom the (iti) He sees clear (iv) to how\nmuch we can improve ourselves by our own effort."
+      "type": "parts",
+      "prompt": "Based on the information in paragraph 5, complete the summary by writing ONE word taken from paragraph 5 in each blank below. Your answers must be grammatically correct. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        }
+      ],
+      "context": "Clive recognises that there are many (i) ______ in his own character. However, he does not feel comfortable hurting those around him. For example, he believes that he would have (ii) ______ from his attempts at torture if he had only received some feedback from the (iii) ______. He sees clear (iv) ______ to how much we can improve ourselves by our own effort.",
+      "marks": 4
     },
     {
       "number": 57,
@@ -428,32 +536,67 @@
         {
           "key": "i",
           "label": "i",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "ii",
           "label": "ii",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "iv",
           "label": "iv",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "iii",
           "label": "iii",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         },
         {
           "key": "v",
           "label": "v",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
         }
       ],
       "optionBank": "A. Parental Pride\nB. Living with Contradictions\nC. Token Gestures\nD. Extreme Opposites\nE. Caught in a Dilemma\nF. Putting Know-how to Good Use\nG. A Slippery Slope"
@@ -462,28 +605,121 @@
       "number": 65,
       "group": "paper",
       "type": "parts",
-      "prompt": "Match the person on the left with the statement which best represents their thoughts listed on the right.\nWrite the letter (A-F) on the line next to the person's name. TWO of the statements are not used. Each\nletter can be used ONCE only. (4 marks)\nPersons Answers Statements\nA 'Clive clearly enjoys his learning?'",
+      "prompt": "Match the person on the left with the statement which best represents their thoughts listed on the right. Write the letter (A-F) on the line next to the person's name. TWO of the statements are not used. Each letter can be used ONCE only. (4 marks)",
       "parts": [
         {
           "key": "i",
-          "label": "(i) Clive James\nB 'I don't like any of my classmates.'",
-          "type": "text"
+          "label": "(i) Clive James",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
-          "label": "(ii) Clive's mother C 'Clive works too hard.\nD'I routinely suffered at the hands of the staff.'",
-          "type": "text"
+          "label": "(ii) Clive's mother",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
-          "label": "(iii) Thommo E 'Clive can do no wrong'\nF 'Initially I was distrusted by my peers.'",
-          "type": "text"
+          "label": "(iii) Thommo",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
           "label": "(iv) Mr Slavin",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
         }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Person",
+                "header": true
+              },
+              {
+                "text": "Statement",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Clive James"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Clive's mother"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Thommo"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Mr Slavin"
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
+        }
+      ],
+      "optionBank": [
+        "A. 'Clive clearly enjoys his learning.'",
+        "B. 'I don't like any of my classmates.'",
+        "C. 'Clive works too hard.'",
+        "D. 'I routinely suffered at the hands of the staff.'",
+        "E. 'Clive can do no wrong.'",
+        "F. 'Initially I was distrusted by my peers.'"
       ]
     },
     {
@@ -492,5 +728,6 @@
       "type": "textarea",
       "prompt": "What does the last sentence in this text (lines 60-62) suggest the next paragraph would be about?"
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

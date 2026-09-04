@@ -168,7 +168,7 @@
       "number": 25,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraph 1, are the following statements True (T), False (F) or Not Given (NG)? (4 marks)\nStatements T F NG",
+      "prompt": "According to paragraph 1, are the following statements True (T), False (F) or Not Given (NG)? (4 marks)",
       "parts": [
         {
           "key": "i",
@@ -275,7 +275,7 @@
                 ]
               },
               {
-                "text": "The victim will feel it several\n(iji) later.",
+                "text": "The victim will feel it several\n(iii) later.",
                 "colSpan": 1,
                 "rowSpan": 1,
                 "parts": [
@@ -325,7 +325,7 @@
         },
         {
           "key": "t1r3c3g1",
-          "label": "(iji)",
+          "label": "(iii)",
           "type": "text",
           "inTable": true
         },
@@ -346,8 +346,102 @@
     {
       "number": 27,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "The do i have tho withe or quence of pas describe in paragraphs 5-7 when a be stings is victimaril)\nThe bee is provoked e.g. when the bee is (i)\nThe bee stings the victim.\nThe (ii) containing poison is left behind.\nPoison is pumped into the skin.\nThe skin surrounding the sting will quickly (ili)\nThe next day the skin will possibly continue to be (iv)"
+      "type": "parts",
+      "prompt": "This flow chart shows the sequence of events described in paragraphs 5-7 when a bee stings its victim. Fill in each blank with a word or phrase from paragraphs 5-7. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text",
+          "inTable": true
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text",
+          "inTable": true
+        }
+      ],
+      "marks": 4,
+      "tables": [
+        {
+          "compact": true,
+          "flow": true,
+          "rows": [
+            [
+              {
+                "text": "The bee is provoked e.g. when the bee is (i) ______.",
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "The bee stings the victim."
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "The (ii) ______ containing poison is left behind.",
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "Poison is pumped into the skin."
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "The skin surrounding the sting will quickly (iii) ______.",
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "↓"
+              }
+            ],
+            [
+              {
+                "text": "The next day the skin will possibly continue to be (iv) ______.",
+                "part": "iv"
+              }
+            ]
+          ]
+        }
+      ]
     },
     {
       "number": 28,
@@ -371,8 +465,16 @@
       "number": 31,
       "group": "paper",
       "type": "choice",
-      "prompt": "According to paragraphs 8-12, which of the following actions should NOT be taken to relieve the\nsymptoms of a bee sting?\n1. Removing the stinger quickly.\n3. Applying an anti-histamine cream",
+      "prompt": "According to paragraphs 8-12, which of the following actions should NOT be taken to relieve the symptoms of a bee sting?",
       "options": [
+        {
+          "value": "A",
+          "label": "A. Removing the stinger quickly."
+        },
+        {
+          "value": "B",
+          "label": "B. Applying an anti-histamine cream."
+        },
         {
           "value": "C",
           "label": "C. Putting ice straight on the swelling."
@@ -428,34 +530,131 @@
     {
       "number": 36,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the following summary of Michael Leung and HK Honey with a word or phrase found in\nparagraph 2. (4 marks)\nMichael Leung, has • than one job. He set up HK Honey and is also its\nin addition to being a product designer. HK Honey\nlinks Hongkongers with (ii) through the products from\nits bees. HK Honey's priorities are to maintain (iii)\nand to increase people's (iv) of the importance of\nbees."
+      "type": "parts",
+      "prompt": "Complete the following summary of Michael Leung and HK Honey with a word or phrase found in paragraph 2. (4 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        }
+      ],
+      "context": "Michael Leung, has more than one job. He set up HK Honey and is also its (i) ______, in addition to being a product designer. HK Honey links Hongkongers with (ii) ______ through the products from its bees. HK Honey's priorities are to maintain (iii) ______ and to increase people's (iv) ______ of the importance of bees.",
+      "marks": 4
     },
     {
       "number": 37,
       "group": "paper",
       "type": "parts",
-      "prompt": "With reference to paragraphs 1-4, indicate when the following events took place. (4 marks)\nThe Not\n1980s 2010 Stated",
+      "prompt": "With reference to paragraphs 1-4, indicate when the following events took place. (4 marks)",
       "parts": [
         {
           "key": "i",
           "label": "(i) Beekeeping started in Hong Kong",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "The 1980s",
+            "2010",
+            "Not Stated"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
           "label": "(ii) HK Honey founded",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "The 1980s",
+            "2010",
+            "Not Stated"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
           "label": "(iii) Mr Yip started his bee farm in Shatin",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "The 1980s",
+            "2010",
+            "Not Stated"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
           "label": "(iv) Mr Leung became a product designer",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "The 1980s",
+            "2010",
+            "Not Stated"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Event",
+                "header": true
+              },
+              {
+                "text": "When",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Beekeeping started in Hong Kong"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) HK Honey founded"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Mr Yip started his bee farm in Shatin"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Mr Leung became a product designer"
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
         }
       ]
     },
@@ -469,7 +668,7 @@
       "number": 39,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraph 4, are the following statements True (T), False (F) or Not Given (NG)? (3 marks)\nStatements\nT F NG\nHK Honey...",
+      "prompt": "According to paragraph 4, are the following statements True (T), False (F) or Not Given (NG)? (3 marks)",
       "parts": [
         {
           "key": "i",
@@ -501,7 +700,8 @@
             "NOT GIVEN"
           ]
         }
-      ]
+      ],
+      "context": "HK Honey..."
     },
     {
       "number": 40,
@@ -556,6 +756,10 @@
           "label": "A. Nature comes to the city"
         },
         {
+          "value": "B",
+          "label": "B. How to keep bees in the city"
+        },
+        {
           "value": "C",
           "label": "C. HK Honey is the best in the city"
         },
@@ -563,8 +767,8 @@
           "value": "D",
           "label": "D. Declining bee population affects the city"
         }
-      ],
-      "optionBank": "A. Nature comes to the city\nHow to keep bees in the city\nC. HK Honey is the best in the city\nD. Declining bee population affects the city"
+      ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

@@ -81,82 +81,234 @@
     {
       "number": 19,
       "group": "paper",
-      "type": "textarea",
+      "type": "choice",
       "prompt": "Which ONE of the following activities is NOT mentioned in paragraphs 1-3?",
       "figures": [
         {
           "src": "assets/reading-comprehension/dse/content/2019/b1/questions-1-crop-1.webp",
           "alt": "Four illustrations of library activities"
         }
+      ],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
       ]
     },
     {
       "number": 20,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraphs 1-3, decide whether the following statements are True (T), False (F) or Not\nGiven (NG).\n(3 marks)\nStatements\nT NG\nFun at Central Library: Small gifts will be given to every participant.",
+      "prompt": "According to paragraphs 1-3, decide whether the following statements are True (T), False (F) or Not Given (NG). (3 marks)",
       "parts": [
+        {
+          "key": "i",
+          "label": "(i) Fun at Central Library: Small gifts will be given to every participant.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        },
         {
           "key": "ii",
           "label": "(ii) Little Avid Readers: Writers from around the world will participate.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
           "label": "(iii) My Pop-up Library: The pop-up library will appear in different locations\nthroughout the year.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Fun at Central Library: Small gifts will be given to every participant."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Little Avid Readers: Writers from around the world will participate."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) My Pop-up Library: The pop-up library will appear in different locations\nthroughout the year."
+              },
+              {
+                "part": "iii"
+              }
+            ]
+          ]
         }
       ]
     },
     {
       "number": 21,
       "group": "paper",
-      "type": "choice",
-      "prompt": "Put a tick (V) next to each of the THREE statements that are correct. Tick THREE boxes only.\nIn the Pop-up public library at Leung Kung Ho School, participants can...",
+      "type": "multiple",
+      "prompt": "Put a tick next to each of the THREE statements that are correct. Tick THREE boxes only. In the Pop-up public library at Leung Kung Ho School, participants can...",
       "options": [
         {
-          "value": "A",
-          "label": "A. a. share online the books b. take photos."
+          "value": "a",
+          "label": "a. share online the books they have read."
         },
         {
-          "value": "B",
-          "label": "B. they have read. C. use all library services."
+          "value": "b",
+          "label": "b. take photos."
         },
         {
-          "value": "C",
-          "label": "C. d. spend the evening there. e. join the public library."
+          "value": "c",
+          "label": "c. use all library services."
         },
         {
-          "value": "D",
-          "label": "D. *AOZOE1B1*"
+          "value": "d",
+          "label": "d. spend the evening there."
+        },
+        {
+          "value": "e",
+          "label": "e. join the public library."
         }
-      ]
+      ],
+      "slots": 3
     },
     {
       "number": 22,
       "group": "paper",
       "type": "parts",
-      "prompt": "Based on the information in Text 2, match the child with the library activity that is most appropriate for (4 marks)\nthem. There is one child for whom no activity is suitable. Select None for that child.\nFun at Little My\nCentral Avid Pop-up None\nComments Library Readers Library",
+      "prompt": "Based on the information in Text 2, match the child with the library activity that is most appropriate for them. There is one child for whom no activity is suitable. Select None for that child. (4 marks)",
       "parts": [
         {
           "key": "i",
           "label": "(i) Mary: 'I enjoy making things with my hands'",
-          "type": "text"
+          "type": "choice",
+          "options": [
+            "Fun at Central Library",
+            "Little Avid Readers",
+            "My Pop-up Library",
+            "None"
+          ],
+          "inTable": true
         },
         {
           "key": "ii",
           "label": "(ii) Carmen: 'I like to be active, always on the move.'",
-          "type": "text"
+          "type": "choice",
+          "options": [
+            "Fun at Central Library",
+            "Little Avid Readers",
+            "My Pop-up Library",
+            "None"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
-          "label": "(iii) Chris: 'I love it when someone tells me stories.' C",
-          "type": "text"
+          "label": "(iii) Chris: 'I love it when someone tells me stories.'",
+          "type": "choice",
+          "options": [
+            "Fun at Central Library",
+            "Little Avid Readers",
+            "My Pop-up Library",
+            "None"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
           "label": "(iv) Bella: 'I love anything to do with technology.'",
-          "type": "text"
+          "type": "choice",
+          "options": [
+            "Fun at Central Library",
+            "Little Avid Readers",
+            "My Pop-up Library",
+            "None"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Comments",
+                "header": true
+              },
+              {
+                "text": "Activity",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) Mary: 'I enjoy making things with my hands'"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Carmen: 'I like to be active, always on the move.'"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) Chris: 'I love it when someone tells me stories.'"
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Bella: 'I love anything to do with technology.'"
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
         }
       ]
     },
@@ -182,14 +334,32 @@
           "value": "D",
           "label": "D. struggled to achieve"
         }
-      ],
-      "optionBank": "A. reached\nB. could not reach\nC. aimed to achieve\nD. struggled to achieve\nComplete the following notes based on paragraph 1 by writing ONE word taken from paragraph 1 in each (3 marks)"
+      ]
     },
     {
       "number": 24,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "blank below. Your answers must be grammatically correct.\nReasons why Connie Lau Yin-hing is concerned about Hong Kong public libraries:\nTo obtain the desired number of new books, extra funds were spent despite libraries disposing of\na significant number of existing (i)\n→ yet the\nIn recent years, the number of books on loan has clearly (ii)\nin public libraries across Hong\nvolume of books and materials (iii) -\nKong has grown."
+      "type": "parts",
+      "prompt": "Complete the following notes based on paragraph 1 by writing ONE word taken from paragraph 1 in each blank below. Your answers must be grammatically correct. (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        }
+      ],
+      "context": "Reasons why Connie Lau Yin-hing is concerned about Hong Kong public libraries:\n\n1. To obtain the desired number of new books, extra funds were spent despite libraries disposing of a significant number of existing (i) ______.\n\n2. In recent years, the number of books on loan has clearly (ii) ______, yet the volume of books and materials (iii) ______ in public libraries across Hong Kong has grown.",
+      "marks": 3
     },
     {
       "number": 25,
@@ -200,29 +370,140 @@
     {
       "number": 26,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the following summary of paragraph 2 by writing a word or phrase taken from paragraph 2 in\neach blank below. Your answers must be grammatically correct. (5 marks)\n- Roy Kwong Chun-yu is a member of a (i) -\nwhich\ndevelops strategies to improve libraries in Hong Kong. He was not happy to hear about the number of\nbooks being (ii)\nannually.\nIn Hong Kong there is no (ili)\nbecause libraries are\nclosed when people finish work.\n- This results in fewer books being (iv) - from\nlibraries.\n- This is one of the many reasons for a (v)\nin\nreading across Hong Kong."
+      "type": "parts",
+      "prompt": "Complete the following summary of paragraph 2 by writing a word or phrase taken from paragraph 2 in each blank below. Your answers must be grammatically correct. (5 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        },
+        {
+          "key": "iv",
+          "label": "(iv)",
+          "type": "text"
+        },
+        {
+          "key": "v",
+          "label": "(v)",
+          "type": "text"
+        }
+      ],
+      "context": "- Roy Kwong Chun-yu is a member of a (i) ______ which develops strategies to improve libraries in Hong Kong. He was not happy to hear about the number of books being (ii) ______ annually.\n- In Hong Kong there is no (iii) ______ because libraries are closed when people finish work.\n- This results in fewer books being (iv) ______ from libraries.\n- This is one of the many reasons for a (v) ______ in reading across Hong Kong.",
+      "marks": 5
     },
     {
       "number": 27,
       "group": "paper",
       "type": "parts",
-      "prompt": "With reference to paragraph 3, indicate in which place each of the following statements is true. Choose\nONE option only. One statement does not apply for any city. Select None for that statement. (4 marks)\nSingapore Hong Taipei None\nKong\nThe majority of public libraries are still open after 8pm.",
+      "prompt": "With reference to paragraph 3, indicate in which place each of the following statements is true. Choose ONE option only. One statement does not apply for any city. Select None for that statement. (4 marks)",
       "parts": [
+        {
+          "key": "i",
+          "label": "(i) The majority of public libraries are still open after 8pm.",
+          "type": "select",
+          "options": [
+            "Singapore",
+            "Hong Kong",
+            "Taipei",
+            "None"
+          ],
+          "inTable": true
+        },
         {
           "key": "ii",
           "label": "(ii) Some public libraries do not have any staff.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "Singapore",
+            "Hong Kong",
+            "Taipei",
+            "None"
+          ],
+          "inTable": true
         },
         {
           "key": "iii",
           "label": "(iii) The majority of public libraries are open 24 hours a day.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "Singapore",
+            "Hong Kong",
+            "Taipei",
+            "None"
+          ],
+          "inTable": true
         },
         {
           "key": "iv",
           "label": "(iv) Some public libraries close earlier at the weekend.",
-          "type": "text"
+          "type": "select",
+          "options": [
+            "Singapore",
+            "Hong Kong",
+            "Taipei",
+            "None"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "Answer",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "(i) The majority of public libraries are still open after 8pm."
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "(ii) Some public libraries do not have any staff."
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "(iii) The majority of public libraries are open 24 hours a day."
+              },
+              {
+                "part": "iii"
+              }
+            ],
+            [
+              {
+                "text": "(iv) Some public libraries close earlier at the weekend."
+              },
+              {
+                "part": "iv"
+              }
+            ]
+          ]
         }
       ]
     },
@@ -230,7 +511,7 @@
       "number": 28,
       "group": "paper",
       "type": "textarea",
-      "prompt": "What does Roy Kwong Chun-yu mean when he suggests 'The quality of procurement is more important\nthan the quantity' (lines 44-45)?\nHe means that libraries should\n3 Go on to the next page"
+      "prompt": "What does Roy Kwong Chun-yu mean when he suggests 'The quality of procurement is more important\nthan the quantity' (lines 44-45)?\nHe means that libraries should"
     },
     {
       "number": 29,
@@ -259,8 +540,8 @@
     {
       "number": 30,
       "group": "paper",
-      "type": "choice",
-      "prompt": "According to paragraph 6, which TWO of the following complaints were made by residents?\nComplaints about...",
+      "type": "multiple",
+      "prompt": "According to paragraph 6, which TWO of the following complaints were made by residents? Complaints about...",
       "options": [
         {
           "value": "A",
@@ -268,7 +549,7 @@
         },
         {
           "value": "B",
-          "label": "B. air quality Complaints and"
+          "label": "B. air quality"
         },
         {
           "value": "C",
@@ -282,7 +563,8 @@
           "value": "E",
           "label": "E. activities at the weekend"
         }
-      ]
+      ],
+      "slots": 2
     },
     {
       "number": 31,
@@ -317,8 +599,46 @@
     {
       "number": 33,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "According to paragraph 1, decide whether the following statement is True (T), False (F) or Not Given\n(NG).\nStatement T F NG\nThe writer believes reading levels in Hong Kong are a cause for concern."
+      "type": "parts",
+      "prompt": "According to paragraph 1, decide whether the following statement is True (T), False (F) or Not Given (NG).",
+      "parts": [
+        {
+          "key": "i",
+          "label": "The writer believes reading levels in Hong Kong are a cause for concern.",
+          "type": "select",
+          "options": [
+            "T",
+            "F",
+            "NG"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Statement",
+                "header": true
+              },
+              {
+                "text": "T / F / NG",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "The writer believes reading levels in Hong Kong are a cause for concern."
+              },
+              {
+                "part": "i"
+              }
+            ]
+          ]
+        }
+      ]
     },
     {
       "number": 34,
@@ -441,8 +761,102 @@
     {
       "number": 41,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Each of the three texts in this part (Texts 2-4) is summarised in one sentence below. Match the summary\nto the text by writing the summary letter in the correct box. Each letter can be used ONCE only.\n(3 marks)\nTexts Answers Summaries\nA. Publisher's increased focus on city's needs.\nB. Personal and societal responsibilities to promote reading.\nC. Government sets policies that impact reading in the city.\nD. Donations from local business help reading culture.\nE. Government works closely with schools.\nF. Libraries taking action to improve readers' engagement."
+      "type": "parts",
+      "prompt": "Each of the three texts in this part (Texts 2-4) is summarised in one sentence below. Match the summary to the text by writing the summary letter in the correct box. Each letter can be used ONCE only. (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "Text 2",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "ii",
+          "label": "Text 3",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        },
+        {
+          "key": "iii",
+          "label": "Text 4",
+          "type": "select",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "inTable": true
+        }
+      ],
+      "tables": [
+        {
+          "compact": true,
+          "rows": [
+            [
+              {
+                "text": "Text",
+                "header": true
+              },
+              {
+                "text": "Summary",
+                "header": true
+              }
+            ],
+            [
+              {
+                "text": "Text 2"
+              },
+              {
+                "part": "i"
+              }
+            ],
+            [
+              {
+                "text": "Text 3"
+              },
+              {
+                "part": "ii"
+              }
+            ],
+            [
+              {
+                "text": "Text 4"
+              },
+              {
+                "part": "iii"
+              }
+            ]
+          ]
+        }
+      ],
+      "optionBank": [
+        "A. Publisher's increased focus on city's needs.",
+        "B. Personal and societal responsibilities to promote reading.",
+        "C. Government sets policies that impact reading in the city.",
+        "D. Donations from local business help reading culture.",
+        "E. Government works closely with schools.",
+        "F. Libraries taking action to improve readers' engagement."
+      ]
     }
-  ]
+  ],
+  "questionRevision": "20260904-full-question-audit-1"
 }

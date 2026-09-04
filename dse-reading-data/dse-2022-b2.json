@@ -59,20 +59,39 @@
     {
       "number": 43,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Based on the information in paragraph 1, complete the summary by writing a word or phrase taken from\nparagraph 1 in each blank below. Your answers must be grammatically correct. (3 marks)\nArtificial intelligence has been driving (i) for many years now. The\ngrowth of Google and Facebook has ensured that (ii) are also conscious of the\npower of Al in the internet. Industries such as health care, banking, retail, and manufacturing find AI\n(iii) to their core functions."
+      "type": "parts",
+      "prompt": "Based on the information in paragraph 1, complete the summary by writing a word or phrase taken from paragraph 1 in each blank below. Your answers must be grammatically correct. (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        }
+      ],
+      "context": "Artificial intelligence has been driving (i) ______ for many years now. The growth of Google and Facebook has ensured that (ii) ______ are also conscious of the power of AI in the internet. Industries such as health care, banking, retail, and manufacturing find AI (iii) ______ to their core functions.",
+      "marks": 3
     },
     {
       "number": 44,
       "group": "paper",
       "type": "textarea",
-      "prompt": "In paragraph 1, what metaphor is used to describe Al?"
+      "prompt": "In paragraph 1, what metaphor is used to describe AI?"
     },
     {
       "number": 45,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Complete this sentence based on the information in paragraph 3.\n'Hybrid' jobs (line 12) are performed by both"
+      "prompt": "Complete this sentence based on the information in paragraph 3.\n'Hybrid' jobs (line 12) are performed by both ______."
     },
     {
       "number": 46,
@@ -92,7 +111,11 @@
         },
         {
           "value": "B",
-          "label": "B. C. Al can benefit both Big Business and small businesses. Big Business has been using Al for a long time."
+          "label": "B. Big Business has been using AI for a long time."
+        },
+        {
+          "value": "C",
+          "label": "C. AI can benefit both Big Business and small businesses."
         },
         {
           "value": "D",
@@ -109,8 +132,27 @@
     {
       "number": 49,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Complete the following sentences using the information in paragraph 4. Your answers must be grammatically\ncorrect. (3 marks)\nSmall businesses are important to the U.S. economy because they (i)\nAl benefits small businesses as the financial information it generates comes (ii)\nand requires (Il)"
+      "type": "parts",
+      "prompt": "Complete the following sentences using the information in paragraph 4. Your answers must be grammatically correct. (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        }
+      ],
+      "context": "Small businesses are important to the U.S. economy because they (i) ______.\nAI benefits small businesses as the financial information it generates comes (ii) ______ and requires (iii) ______.",
+      "marks": 3
     },
     {
       "number": 50,
@@ -126,13 +168,13 @@
         },
         {
           "key": "t1r3c1g1",
-          "label": "(i1)",
+          "label": "(ii)",
           "type": "text",
           "inTable": true
         },
         {
           "key": "t1r3c2g1",
-          "label": "(i1i)",
+          "label": "(iii)",
           "type": "text",
           "inTable": true
         },
@@ -183,7 +225,7 @@
             ],
             [
               {
-                "text": "(i1)",
+                "text": "(ii)",
                 "colSpan": 1,
                 "rowSpan": 1,
                 "parts": [
@@ -191,7 +233,7 @@
                 ]
               },
               {
-                "text": "whether (i1i)",
+                "text": "whether (iii)",
                 "colSpan": 1,
                 "rowSpan": 1,
                 "parts": [
@@ -226,25 +268,56 @@
       "number": 51,
       "group": "paper",
       "type": "textarea",
-      "prompt": "What is the cause of the 'Panic' (line 30)?\nPeople's perception that AI"
+      "prompt": "What is the cause of the 'Panic' (line 30)?\nPeople's perception that AI ______."
     },
     {
       "number": 52,
       "group": "paper",
       "type": "textarea",
-      "prompt": "What does Sandel imply by saying that Al seems to give an 'objective status' (line 36)?"
+      "prompt": "What does Sandel imply by saying that AI seems to give an 'objective status' (line 36)?"
     },
     {
       "number": 53,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Based on the information in paragraph 6, complete the following sentence by writing a word or phrase taken\nfrom paragraph 6 in each blank below. Your answers must be grammatically correct. (3 marks)\nAl software used for (i) needs to be accurately set so that\n(ii) can be reduced and more potential applicants would be\nconsidered instead of being eliminated by (iii)"
+      "type": "parts",
+      "prompt": "Based on the information in paragraph 6, complete the following sentence by writing a word or phrase taken from paragraph 6 in each blank below. Your answers must be grammatically correct. (3 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i)",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii)",
+          "type": "text"
+        },
+        {
+          "key": "iii",
+          "label": "(iii)",
+          "type": "text"
+        }
+      ],
+      "context": "AI software used for (i) ______ needs to be accurately set so that (ii) ______ can be reduced and more potential applicants would be considered instead of being eliminated by (iii) ______.",
+      "marks": 3
     },
     {
       "number": 54,
       "group": "paper",
-      "type": "textarea",
-      "prompt": "Mills mentions being 'very focused' (line 42). (2 marks)\nWho are very focused?\nWhy is this important?"
+      "type": "parts",
+      "prompt": "Mills mentions being 'very focused' (line 42). (2 marks)",
+      "parts": [
+        {
+          "key": "i",
+          "label": "(i) Who are very focused?",
+          "type": "text"
+        },
+        {
+          "key": "ii",
+          "label": "(ii) Why is this important?",
+          "type": "text"
+        }
+      ]
     },
     {
       "number": 55,
@@ -256,7 +329,7 @@
       "number": 56,
       "group": "paper",
       "type": "parts",
-      "prompt": "According to paragraph 7, the use of Al may have benefits as well as cause harm. Complete the table below\nwith a word or phrase taken from paragraph 7 in each blank. Your answers must be grammatically correct\n(2 marks)",
+      "prompt": "According to paragraph 7, the use of AI may have benefits as well as cause harm. Complete the table below\nwith a word or phrase taken from paragraph 7 in each blank. Your answers must be grammatically correct\n(2 marks)",
       "tables": [
         {
           "rows": [
@@ -331,7 +404,7 @@
       "number": 58,
       "group": "paper",
       "type": "textarea",
-      "prompt": "Complete the following sentence using the information in paragraph 8.\nCurrently, it is the voices of\nexpressing their opinions that prevent companies from abusing their use of AI."
+      "prompt": "Complete the following sentence using the information in paragraph 8.\nCurrently, it is the voices of ______\nexpressing their opinions that prevent companies from abusing their use of AI."
     },
     {
       "number": 59,
@@ -341,19 +414,19 @@
       "options": [
         {
           "value": "A",
-          "label": "A. to stop Al systems from self-policing"
+          "label": "A. to stop AI systems from self-policing"
         },
         {
           "value": "B",
-          "label": "B. to form a consensus on how to use AI B"
+          "label": "B. to form a consensus on how to use AI"
         },
         {
           "value": "C",
-          "label": "C. to ensure businesses use Al responsibly"
+          "label": "C. to ensure businesses use AI responsibly"
         },
         {
           "value": "D",
-          "label": "D. to meet the demand for Al technical talent"
+          "label": "D. to meet the demand for AI technical talent"
         }
       ]
     },
@@ -362,14 +435,14 @@
       "group": "paper",
       "type": "multiple",
       "prompt": "According to paragraph 9, what are some issues of concern for a business using AI? Tick the appropriate box(es). You may tick more than one box.",
-      "slots": 5,
       "options": [
         "Liability from misuse",
         "The size of an enterprise",
         "Unintended consequences",
         "Lack of business personnel",
         "Success of a product launch"
-      ]
+      ],
+      "selectionLimit": false
     },
     {
       "number": 61,
@@ -414,7 +487,7 @@
                 ]
               },
               {
-                "text": "(ini)\ncan work within the department.",
+                "text": "(iii)\ncan work within the department.",
                 "colSpan": 1,
                 "rowSpan": 1,
                 "parts": [
@@ -441,7 +514,7 @@
         },
         {
           "key": "t1r2c3g1",
-          "label": "(ini)",
+          "label": "(iii)",
           "type": "text",
           "inTable": true
         }
@@ -457,7 +530,7 @@
       "number": 63,
       "group": "paper",
       "type": "textarea",
-      "prompt": "According to paragraph 12, what is the 'educational intervention' (line 70) required?\nEducational institutions must address"
+      "prompt": "According to paragraph 12, what is the 'educational intervention' (line 70) required?\nEducational institutions must address ______."
     },
     {
       "number": 64,
@@ -538,38 +611,80 @@
         {
           "key": "comment1",
           "label": "Comment 1",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
         },
         {
           "key": "comment2",
           "label": "Comment 2",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
         },
         {
           "key": "comment3",
           "label": "Comment 3",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
         },
         {
           "key": "comment4",
           "label": "Comment 4",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
         },
         {
           "key": "comment5",
           "label": "Comment 5",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
         },
         {
           "key": "comment6",
           "label": "Comment 6",
-          "type": "text",
-          "inTable": true
+          "type": "select",
+          "inTable": true,
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
         }
       ],
       "optionBank": "A. Jason Furman\nB. Joseph Fuller\nC. Karen Mills\nD. Michael Sandel\nE. Not stated"
@@ -578,7 +693,7 @@
       "number": 65,
       "group": "paper",
       "type": "choice",
-      "prompt": "What is the author's view towards the use of Al in this text?",
+      "prompt": "What is the author's view towards the use of AI in this text?",
       "options": [
         {
           "value": "A",
@@ -599,5 +714,5 @@
       ]
     }
   ],
-  "questionRevision": "20260904-corrected-numbering"
+  "questionRevision": "20260904-full-question-audit-1"
 }
