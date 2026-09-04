@@ -2,7 +2,7 @@ import { createListeningStudy } from './listening-study.js?v=20260827-import1';
 import { loadPractice } from './listening-practice-loader.mjs?v=20260827-import1';
 import { answerTokens, nativeBlock, questionNumbers, handleNativeInput, handleMazeClick } from './dse-listening-question-ui.mjs?v=20260904-nativequestions1';
 import { mountListeningSearch } from './listening-search.mjs?v=20260904-search1';
-import { upgradeDseImages } from './dse-listening-images.mjs?v=20260904-restore2';
+import { upgradeDseImages } from './dse-listening-images.mjs?v=20260904-reconstruct3';
 
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CATALOGUE = window.EDMUND_LISTENING_CATALOG || { practices: [] };

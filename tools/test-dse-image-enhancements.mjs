@@ -7,10 +7,15 @@ import { DSE_IMAGE_ENHANCEMENTS as images } from '../dse-listening-image-manifes
 import { upgradeDseImages } from '../dse-listening-images.mjs';
 
 assert.deepEqual(Object.keys(images), dseImageSources(), 'Every active image has an enhancement');
-assert.deepEqual(JSON.parse(fs.readFileSync(path.join(root,'assets/dse-listening/restored-v2/manifest.json'))).images, images);
+assert.deepEqual(JSON.parse(fs.readFileSync(path.join(root,'assets/dse-listening/reconstructed-v3/manifest.json'))).images, images);
+const prompts=JSON.parse(fs.readFileSync(path.join(root,'tools/listening/reconstruction-prompts.json')));
 for (const [source, image] of Object.entries(images)) {
   assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,source))).digest('hex'), image.sourceSha256, `${source}: original unchanged`);
-  assert.ok(image.restorationInput.kind,'Restoration source is documented');
+  assert.equal(image.restorationInput.kind,'authorized-ai-reconstruction','Reconstruction is truthfully documented');
+  assert.equal(prompts.images[source].reviewed,true,'Every reconstruction has been visually reviewed');
+  assert.ok(prompts.images[source].prompt.length>100,'Reference prompt preserved');
+  const master=image.restorationInput.master;
+  assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,master.src))).digest('hex'),master.sha256,'Reviewed master is preserved');
   for (const [label, edge] of [['small',640],['preview',1280],['full',3840]]) {
     const output = image[label], bytes = fs.readFileSync(path.join(root,output.src));
     assert.equal(bytes.subarray(0,4).toString(),'RIFF');

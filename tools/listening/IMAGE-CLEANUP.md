@@ -1,6 +1,32 @@
 # DSE listening image cleanup
 
-## Current release: restored-v2
+## Current release: reconstructed-v3
+
+After reviewing the earlier non-generative results, the user expressly requested
+reconstruction of all illustrations. All 36 active assets now have individually
+prompted, visually reviewed built-in ImageGen reference reconstructions. These
+are reconstructed details, not recovered original photographic information.
+Subjects, actions, layouts and exam-critical labels were compared to references;
+the trench diagram received a second edit to restore its missing -9000 label.
+The intentionally pixelated videogame artwork keeps its pixel-art appearance.
+Clipped sports symbols are completed and stray page/table borders removed.
+
+Prompts and review records: `tools/listening/reconstruction-prompts.json`.
+Original generated PNG masters and responsive variants:
+`assets/dse-listening/reconstructed-v3/`. The manifest records the actual native
+master dimensions and SHA-256 checksums. The 3840px copies are resized delivery
+derivatives; they are not described as native 4K generations. Normal pages still
+load only lazy 640/1280px variants. Resizing uses white padding when needed, not
+stretching or cropping. Original exam assets and earlier releases are untouched.
+
+Rebuild delivery variants from the committed masters with Node.js and Sharp:
+`node tools/listening/build-reconstructed-images.mjs`.
+An optional generated-image directory argument imports the exact filenames in
+the prompt record. This packaging script does not generate images or call APIs.
+Run `node tools/test-dse-image-enhancements.mjs` and the native question browser
+test before publishing.
+
+## Archived second pass: restored-v2
 
 The first pass was too weak on coarse scan dots. The current pipeline uses native
 PDF image pixels (including reassembled horizontal scan strips) for the affected

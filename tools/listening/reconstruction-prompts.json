@@ -1,0 +1,260 @@
+{
+  "version": 3,
+  "tool": "Built-in image generation",
+  "authorization": "User explicitly requested reconstruction of all illustrations.",
+  "images": {
+    "assets/dse-listening/2012/school-home-photos.webp": {
+      "id": "2012/school-home-photos",
+      "generatedFile": "exec-31d0ad0f-ae75-41a2-aa97-cb9c5e4ced1b.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct the same horizontal THREE-photo strip, panels in exactly the same order and proportions: left four school runners racing on marked track lanes, middle students at computers with foreground student extending an arm toward screen, right uniformed students in corridor. Preserve each panel's people, objects, poses, framing and scene layout. Keep white gaps. Do not invent a different school activity or add labels. Produce a crisp high-definition black-and-white photograph with natural tonal detail. Remove all scan stippling, grain, blur and blotches; recreate missing fine detail carefully. Do not change composition, identifiable features, item counts or meaning. Authorized reconstruction, not simple filtering. Highest available resolution, original aspect ratio. One finished asset only, no before/after comparison.",
+      "reference": "assets/dse-listening/restored-v2/2012/school-home-photos-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2012/school-student-photos.webp": {
+      "id": "2012/school-student-photos",
+      "generatedFile": "exec-1adeb754-9ba2-4d96-b674-d120b73de83a.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct the same horizontal THREE-photo strip, panels in exactly the same order and proportions: left school orchestra students and musicians with chairs/instruments, middle large orchestra on stage behind music stands, right schoolchildren painting at easels with brushes. Preserve the observable people, furniture, poses, framing and scene layout in each panel. Keep white gaps. No labels. Produce a crisp high-definition black-and-white photograph with natural tonal detail. Remove all scan stippling, grain, blur and blotches; recreate missing fine detail carefully. Do not change composition, identifiable features, item counts or meaning. Authorized reconstruction, not simple filtering. Highest available resolution, original aspect ratio. One finished asset only, no before/after comparison.",
+      "reference": "assets/dse-listening/restored-v2/2012/school-student-photos-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2013/food-cupcake.webp": {
+      "id": "2013/food-cupcake",
+      "generatedFile": "exec-4a8bfa3f-cd84-4a7e-9c52-aba95ac1cb69.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct this single frosted cupcake in its pleated dark paper case, same closeup viewpoint and white background, pale swirled icing with light sprinkles on dark cake, exact framing. Resolve icing texture, cake and pleated paper cleanly; no additional food or text. Produce a crisp high-definition black-and-white photograph with natural tonal detail. Remove all scan stippling, grain, blur and blotches; recreate missing fine detail carefully. Do not change composition, identifiable features, item counts or meaning. Authorized reconstruction, not simple filtering. Highest available resolution, original aspect ratio. One finished asset only, no before/after comparison.",
+      "reference": "assets/dse-listening/restored-v2/2013/food-cupcake-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2013/food-drink.webp": {
+      "id": "2013/food-drink",
+      "generatedFile": "exec-73e150d5-f00d-4ed0-a7c5-117a96921902.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct this single tall fluted milkshake/sundae glass on matching saucer, pale cream top with one dark strawberry at upper right, same proportions and front three-quarter view on white. Resolve glass, cream, fruit and reflections. No new glass, straw, food or text. Produce a crisp high-definition black-and-white photograph with natural tonal detail. Remove all scan stippling, grain, blur and blotches; recreate missing fine detail carefully. Do not change composition, identifiable features, item counts or meaning. Authorized reconstruction, not simple filtering. Highest available resolution, original aspect ratio. One finished asset only, no before/after comparison.",
+      "reference": "assets/dse-listening/restored-v2/2013/food-drink-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2013/food-hotdog.webp": {
+      "id": "2013/food-hotdog",
+      "generatedFile": "exec-1e6d8fb4-3ee2-44df-95fb-53a58fe991e0.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct this single hot dog in bread bun angled from bottom-left to upper-right on white, sausage protrudes at left, same wavy mustard line. Preserve viewpoint, bun shape and topping placement. Resolve bread and sausage texture. No extra food or text. Produce a crisp high-definition black-and-white photograph with natural tonal detail. Remove all scan stippling, grain, blur and blotches; recreate missing fine detail carefully. Do not change composition, identifiable features, item counts or meaning. Authorized reconstruction, not simple filtering. Highest available resolution, original aspect ratio. One finished asset only, no before/after comparison.",
+      "reference": "assets/dse-listening/restored-v2/2013/food-hotdog-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2013/food-skewers.webp": {
+      "id": "2013/food-skewers",
+      "generatedFile": "exec-0db3d3c3-cb71-4aa0-8bbf-f2e947bd32ae.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct this same photograph of three parallel grilled skewers on a rectangular white plate angled diagonally across a woven placemat, with garnish at upper edge. Preserve skewer count, meat/vegetable positions, plate shape, viewpoint and tight crop. Resolve realistic food texture, plate and woven mat. No new dishes or text. Produce a crisp high-definition black-and-white photograph with natural tonal detail. Remove all scan stippling, grain, blur and blotches; recreate missing fine detail carefully. Do not change composition, identifiable features, item counts or meaning. Authorized reconstruction, not simple filtering. Highest available resolution, original aspect ratio. One finished asset only, no before/after comparison.",
+      "reference": "assets/dse-listening/restored-v2/2013/food-skewers-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2013/food-sushi.webp": {
+      "id": "2013/food-sushi",
+      "generatedFile": "exec-ee58bfe5-c80f-40f0-8386-6081d9393800.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct this same photo of two sushi maki rolls arranged diagonally front-left and back-right on a serrated dark leaf, rice outside with nori ring and filling exposed on top. Preserve exact count, positions, viewpoint and white background. Resolve individual rice grains, filling and leaf details. No new food, chopsticks or text. Produce a crisp high-definition black-and-white photograph with natural tonal detail. Remove all scan stippling, grain, blur and blotches; recreate missing fine detail carefully. Do not change composition, identifiable features, item counts or meaning. Authorized reconstruction, not simple filtering. Highest available resolution, original aspect ratio. One finished asset only, no before/after comparison.",
+      "reference": "assets/dse-listening/restored-v2/2013/food-sushi-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2013/food-wraps.webp": {
+      "id": "2013/food-wraps",
+      "generatedFile": "exec-6931d127-72e8-4697-bfac-8723e3fc3b18.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct this same close-up of tortilla wraps on a round plate with cut ends and fillings exposed. Preserve the exact number of visible wraps, their arrangement, rolled bread outlines, diagonal cut ends and framing from the reference, including partially visible side wraps. Resolve bread, filling and plate detail. No new props or text. Produce a crisp high-definition black-and-white photograph with natural tonal detail. Remove all scan stippling, grain, blur and blotches; recreate missing fine detail carefully. Do not change composition, identifiable features, item counts or meaning. Authorized reconstruction, not simple filtering. Highest available resolution, original aspect ratio. One finished asset only, no before/after comparison.",
+      "reference": "assets/dse-listening/restored-v2/2013/food-wraps-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2013/lounge-plan.webp": {
+      "id": "2013/lounge-plan",
+      "generatedFile": "exec-3809d558-8eef-401e-a347-9381181970b4.png",
+      "prompt": "Use case: reference-preserving reconstruction. Produce an exact clean technical redraw of this lounge floor plan. All geometry, openings, wall weights, arrows and text positions are immutable. Six rectangular zones labelled '1.' through '6.'; question labels '(22)' right of 1, '(23)' right of 2, '(24)' above 3, '(25)' above 4, '(26)' above 5 and '(27)' above-left of 6. Top says 'walkway'. Left entrance says 'Boarding Gate'. Both window arrows and labels 'window' retained. Keep two top striped blocks and center opening, diagonal room walls, lower-right extension, orientation and proportions. Pure black/white crisp lines and legible text, no shadows or redesign. Use the supplied image as strict layout and content reference. Authorized reconstruction of damaged detail. Highest available resolution, source aspect ratio. Single finished asset, no comparison.",
+      "reference": "assets/dse-listening/restored-v2/2013/lounge-plan-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2014/wild-boar.webp": {
+      "id": "2014/wild-boar",
+      "generatedFile": "exec-f5d14928-d300-46b8-bea2-a9fc4ee60cbd.png",
+      "prompt": "Use case: reference-preserving reconstruction. Produce the same close-up black-and-white photograph of a wild boar's head pointing left, exact angle, framing, ears and background. Resolve fine bristly hair, eye, snout and whisker detail instead of scan blotches. Preserve the bottom caption exactly 'A Wild Boar' in white. Do not add a whole body or other animals. Use the supplied image as strict layout and content reference. Authorized reconstruction of damaged detail. Highest available resolution, source aspect ratio. Single finished asset, no comparison.",
+      "reference": "assets/dse-listening/restored-v2/2014/wild-boar-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2015/hilton-band.webp": {
+      "id": "2015/hilton-band",
+      "generatedFile": "exec-5c449f16-7ab7-41db-8bf9-3c38a2b7ab9d.png",
+      "prompt": "Reconstruct this damaged reference into a crisp detailed high-definition black-and-white image. Same four-man band in brick courtyard, same people as closely as possible, glasses and electric guitar foreground left, suited guitarist center-left, acoustic guitarist rear center, suited man standing right. Keep exact poses, outfits, instruments, architecture and framing. Remove scan grain and blotchy blur completely; recover realistic fine detail. Authorized reconstruction, no redesign, no added objects, no comparison layout. Highest available resolution.",
+      "reference": "assets/dse-listening/restored-v2/2015/hilton-band-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2015/liberty-sisters.webp": {
+      "id": "2015/liberty-sisters",
+      "generatedFile": "exec-2041bb0a-b9e1-4222-930f-babcdae635bb.png",
+      "prompt": "Reconstruct this damaged reference into a crisp detailed high-definition black-and-white image. Same three female hip-hop dancers, white background, caps, short tops and baggy trousers, exactly same full-body poses, bent legs, hand positions and order. Preserve faces as closely as possible, same proportions and spacing. Remove scan grain and blotchy blur completely; recover realistic fine detail. Authorized reconstruction, no redesign, no added objects, no comparison layout. Highest available resolution.",
+      "reference": "assets/dse-listening/restored-v2/2015/liberty-sisters-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2015/logo-options.webp": {
+      "id": "2015/logo-options",
+      "generatedFile": "exec-f43df9d0-4998-463a-b14f-1168989101ad.png",
+      "prompt": "Use case: reference-preserving reconstruction. Produce an exact clean reconstruction of this horizontal FOUR-poster strip separated by white gaps. Preserve all four designs/order, partial guitar photo on left, dancing crowd silhouettes in second with exact caption '1st Place Prize: iPad Mini', two raised-arm people with stars in third with 'SUN 20TH JUNE' and '1-3PM', leaping woman in fourth with 'TALENT SHOW' and 'SPRING INTO THE ARTS'. Preserve original crops, item/figure counts, text positions, backgrounds and monochrome design. Sharpen lettering and silhouettes and remove scan grain, do not replace logos with different designs. Use the supplied image as strict layout and content reference. Authorized reconstruction of damaged detail. Highest available resolution, source aspect ratio. Single finished asset, no comparison.",
+      "reference": "assets/dse-listening/restored-v2/2015/logo-options-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2015/selena-cheung.webp": {
+      "id": "2015/selena-cheung",
+      "generatedFile": "exec-8b320d8f-629f-40e6-95a2-71fbc6b7a637.png",
+      "prompt": "Use case: identity-preserve. Input image is the edit target, a damaged scan of a singer. Reconstruct this exact image as a crisp high-definition black-and-white photograph, removing ALL coarse stippled dots and scan grain, with resolved natural facial features, individual strands of hair, clear fingers, microphone grille and cloth texture. Keep the same person as closely as possible, same gaze, expression, long hair and fringe, dark short-sleeve top, both hands holding the same retro microphone, bracelet, pose, proportions, original waist-up framing, pure white background. Do not glamorize, change hairstyle, add objects, add words, crop off hands, introduce illustration strokes, blur or plastic skin. This is authorized reconstruction of missing detail, not just smoothing or enlarging dots. Produce one clean finished photo, no comparison layout. Highest available resolution, portrait matching the source proportions.",
+      "reference": "User-provided detailed singer scan",
+      "reviewed": true
+    },
+    "assets/dse-listening/2016/cabbage-patch-doll.jpg": {
+      "id": "2016/cabbage-patch-doll",
+      "generatedFile": "exec-025c8ff2-f6ad-49d6-b34b-f87ed081c0ec.png",
+      "prompt": "Use case: reference-preserving reconstruction. Produce the same black-and-white photo of THREE Cabbage Patch dolls: pigtail doll at upper left, dark-haired doll at upper right with one arm raised, smaller doll front center wearing a cap and dark overalls, same exact arrangement, doll faces, clothing, hand/foot positions and white background. Resolve toy fabric, yarn hair and molded face detail. Keep dolls as dolls; no real children, no extra dolls. Use the supplied image as strict layout and content reference. Authorized reconstruction of damaged detail. Highest available resolution, source aspect ratio. Single finished asset, no comparison.",
+      "reference": "assets/dse-listening/restored-v2/2016/cabbage-patch-doll-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2016/james-dean.jpg": {
+      "id": "2016/james-dean",
+      "generatedFile": "exec-9c608647-2704-4a1f-a196-2a9649f52128.png",
+      "prompt": "Use case: reference-preserving reconstruction. Produce the same black-and-white portrait photograph of James Dean seated/leaning against a wall in a dark unzipped jacket over a white shirt, hands near lap. Preserve James Dean's identity, facial expression, swept hair, exact pose, clothes, wall background, crop and bottom caption 'James Dean'. Resolve natural facial, hair, hand and fabric detail without grain or plastic skin. No other people or props. Use the supplied image as strict layout and content reference. Authorized reconstruction of damaged detail. Highest available resolution, source aspect ratio. Single finished asset, no comparison.",
+      "reference": "assets/dse-listening/restored-v2/2016/james-dean-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2016/space-hopper.jpg": {
+      "id": "2016/space-hopper",
+      "generatedFile": "exec-30ba8300-0ed8-4d45-8efc-3ddf6b35f9ce.png",
+      "prompt": "Use case: reference-preserving reconstruction. Produce the same black-and-white product photo of the round inflatable space-hopper toy with two horn handles at top and its exact large grinning cartoon animal face. Preserve silhouette, shape, proportions, face pattern and white background, dark grey body with natural rubber texture. Sharpen contours and face without adding grain, extra features or a different toy. Use the supplied image as strict layout and content reference. Authorized reconstruction of damaged detail. Highest available resolution, source aspect ratio. Single finished asset, no comparison.",
+      "reference": "assets/dse-listening/restored-v2/2016/space-hopper-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2018/art-video-games.webp": {
+      "id": "2018/art-video-games",
+      "generatedFile": "exec-b27685ac-56ed-4e9b-b311-497e5f1695dd.png",
+      "prompt": "Use case: reference-preserving reconstruction. Produce an exact clean reconstruction of this TWO-panel monochrome pixel-art reference: left old videogame Last Supper room screen, right pixel-art Mona Lisa. Preserve the deliberately blocky pixels, exact figures/layout and relative panel sizes. Text must read 'Score:0 of 245' top left, 'Sound:on' top right and '<Apprehend Judas_' bottom left. Remove print grain while rendering clean hard-edged pixel blocks; do not turn intentional pixel art into photography, invent game scenery or change the painting. Use the supplied image as strict layout and content reference. Authorized reconstruction of damaged detail. Highest available resolution, source aspect ratio. Single finished asset, no comparison.",
+      "reference": "assets/dse-listening/restored-v2/2018/art-video-games-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2018/games-painting.webp": {
+      "id": "2018/games-painting",
+      "generatedFile": "exec-a3596197-3b5c-45f6-bd7c-8ec1882a4af3.png",
+      "prompt": "Use case: reference-preserving reconstruction. Produce the same grayscale historical painting detail of children playing games, with FOUR heavy black annotation circles in EXACT same positions and connecting black strokes. Top circle: three children straddling a fence. Left circle: crouching child. Large lower-center circle: seated ring of children. Right circle: children in a ring standing and holding hands. Preserve every activity, composition, historical dress, fence and crop. Reconstruct fine painted detail and crisp circle edges, removing scan blur/grain. Do not replace activities, shift circles, or add text. Use the supplied image as strict layout and content reference. Authorized reconstruction of damaged detail. Highest available resolution, source aspect ratio. Single finished asset, no comparison.",
+      "reference": "assets/dse-listening/restored-v2/2018/games-painting-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2020/animal-1.webp": {
+      "id": "2020/animal-1",
+      "generatedFile": "exec-0aeb1ca1-a0a0-4acb-afb5-2ac58e3b76ec.png",
+      "prompt": "Use case: strict reference technical illustration reconstruction. Reconstruct the exact long fish illustration, large round head at LEFT, one visible dark eye, small top fin, fan-shaped lower fin, very long ribbon-like body trailing off RIGHT. Preserve outline, fin count, facial expression, hatching, crop and proportions. Render clean high-definition black/white linework and faithful light grey shading on white. No scan grain or blur. This is an exam illustration: content and relative positions are immutable, improve line precision only, no artistic reinterpretation or new objects. Highest available resolution, original aspect ratio. One finished asset only.",
+      "reference": "assets/dse-listening/restored-v2/2020/animal-1-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2020/animal-2.webp": {
+      "id": "2020/animal-2",
+      "generatedFile": "exec-66cbd395-facb-47a9-9bc0-d80973cd3f2d.png",
+      "prompt": "Use case: strict reference technical illustration reconstruction. Reconstruct the exact round-bodied sea creature illustration, large eyes, protruding lips at left, small side fin and tiny tail at right, same branching wavy feelers above head. Preserve every tentacle/appendage and its path, anatomy and proportions. Render clean high-definition black/white linework and faithful light grey shading on white. No scan grain or blur. This is an exam illustration: content and relative positions are immutable, improve line precision only, no artistic reinterpretation or new objects. Highest available resolution, original aspect ratio. One finished asset only.",
+      "reference": "assets/dse-listening/restored-v2/2020/animal-2-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2020/animal-3.webp": {
+      "id": "2020/animal-3",
+      "generatedFile": "exec-9a442575-1a63-4a6e-ac07-14a5ec109c9a.png",
+      "prompt": "Use case: strict reference technical illustration reconstruction. Reconstruct the exact conical spiral shell illustration, broad bottom with small projecting lip at left, same spiral ridges and dark rectangular markings. Preserve its unusual shape, ridge count, proportions, tilt and linework. Render clean high-definition black/white linework and faithful light grey shading on white. No scan grain or blur. This is an exam illustration: content and relative positions are immutable, improve line precision only, no artistic reinterpretation or new objects. Highest available resolution, original aspect ratio. One finished asset only.",
+      "reference": "assets/dse-listening/restored-v2/2020/animal-3-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2020/animal-4.webp": {
+      "id": "2020/animal-4",
+      "generatedFile": "exec-7d4e11b0-a9ea-4b12-81ae-591b2c014a5b.png",
+      "prompt": "Use case: strict reference technical illustration reconstruction. Reconstruct the exact smooth soft sea-creature illustration: same broad curved body and several drooping fingerlike lobes, short tail exiting upper right. Preserve every lobe, markings, contour and overlap exactly; do not turn it into a starfish or add new anatomy. Render clean high-definition black/white linework and faithful light grey shading on white. No scan grain or blur. This is an exam illustration: content and relative positions are immutable, improve line precision only, no artistic reinterpretation or new objects. Highest available resolution, original aspect ratio. One finished asset only.",
+      "reference": "assets/dse-listening/restored-v2/2020/animal-4-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2020/animal-5.webp": {
+      "id": "2020/animal-5",
+      "generatedFile": "exec-dd02055c-aa03-49a5-bb4d-8a92db448e1e.png",
+      "prompt": "Use case: strict reference technical illustration reconstruction. Reconstruct the exact feather-star sea creature illustration: central small body and radiating curled feather-like arms. Preserve each arm's path and branching feather edges, including large curve downward at left and sweeping arms to right. Do not add/remove arms or simplify it into a plant. Render clean high-definition black/white linework and faithful light grey shading on white. No scan grain or blur. This is an exam illustration: content and relative positions are immutable, improve line precision only, no artistic reinterpretation or new objects. Highest available resolution, original aspect ratio. One finished asset only.",
+      "reference": "assets/dse-listening/restored-v2/2020/animal-5-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2020/animal-6.webp": {
+      "id": "2020/animal-6",
+      "generatedFile": "exec-081cb2cd-0b10-46c5-b633-143889c40b0e.png",
+      "prompt": "Use case: strict reference technical illustration reconstruction. Reconstruct the exact spider-crab illustration, small oval pointed body at upper-left center and very long thin angular legs radiating outward. Preserve every visible leg, bend, overlap, body marking, endpoint and original pose. Do not normalize leg count or invent different anatomy. Render clean high-definition black/white linework and faithful light grey shading on white. No scan grain or blur. This is an exam illustration: content and relative positions are immutable, improve line precision only, no artistic reinterpretation or new objects. Highest available resolution, original aspect ratio. One finished asset only.",
+      "reference": "assets/dse-listening/restored-v2/2020/animal-6-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2020/campsite-diagram.webp": {
+      "id": "2020/campsite-diagram",
+      "generatedFile": "exec-13d150b9-b284-4cc6-bec9-be87da94dac8.png",
+      "prompt": "Use case: strict reference technical illustration reconstruction. Reconstruct the exact functional map, same irregular outer boundary, dotted path network, SEVEN filled campsite circles and boxes A B C D E F G at exact positions. A northwest, B upper middle-left, C upper right, D middle-left, E center, F middle-right, G bottom-right. Keep bee between A/B, butterfly left of C, stethoscope above C, tortoise between D/E, mountains below D, zebra left of F, monkey left of G, crocodile right of G. Keep compass N E S W at upper right. Exact title 'Campsites within the Protected Area'. No altered routes, added sites or moved icons. Render clean high-definition black/white linework and faithful light grey shading on white. No scan grain or blur. This is an exam illustration: content and relative positions are immutable, improve line precision only, no artistic reinterpretation or new objects. Highest available resolution, original aspect ratio. One finished asset only.",
+      "reference": "assets/dse-listening/restored-v2/2020/campsite-diagram-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2020/expedition-ship.webp": {
+      "id": "2020/expedition-ship",
+      "generatedFile": "exec-63f542f5-4145-44e9-8ee0-58f04e23289b.png",
+      "prompt": "Reconstruct this damaged reference into a crisp detailed high-definition black-and-white image. Same historical sailing ship illustration, rear three-quarter view, leaning diagonally left, same hull, three masts, mast angles, crossbars and rigging on white. Preserve shape, angle and framing, no added sails or background. Remove scan grain and blotchy blur completely; recover realistic fine detail. Authorized reconstruction, no redesign, no added objects, no comparison layout. Highest available resolution.",
+      "reference": "assets/dse-listening/restored-v2/2020/expedition-ship-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2020/trench-diagram.webp": {
+      "id": "2020/trench-diagram",
+      "generatedFile": "exec-04dc84c6-6ebf-47e7-a580-29b1d7d520a6.png",
+      "prompt": "Edit image 1, use image 2 as the original chart accuracy reference. Keep the clean reconstructed style and all elements from image 1, BUT FIX THE DEPTH SCALE: add the missing '-9000' label on left below '-8000', maintaining the same evenly spaced 1000-metre intervals from 0 down to -9000. Extend canvas at bottom if needed so -9000 and D box are fully visible. The valley bottom must reach -8500 exactly halfway between -8000 and -9000, and D arrow/circle points to this bottom. C circle stays centered on -7000. B circle stays centered on -3000, A circle at roughly -1300. Preserve all wording Sea level, Pacific Ocean, Alonso Trench, Depth in metres and boxes A/B/C/D. No other alterations. Crisp high-resolution exact educational diagram, no missing labels.",
+      "initialPrompt": "Use case: strict reference technical illustration reconstruction. Reconstruct the exact depth cross-section chart. Keep axis labels 0,-1000,-2000,-3000,-4000,-5000,-6000,-7000,-8000,-9000 only, equally spaced down left, vertical title 'Depth in metres'. 'Sea level' boxed on 0 line, 'Pacific Ocean' upper right, 'Alonso Trench' in center-left box. Preserve seafloor contour, deep narrow valley and four circles: A near -1300 upper right coastline, B at -3000 entrance, C at -7000 down valley, D at -8500 valley bottom. All four boxed A/B/C/D arrows point to the same circles in the original. Do not invent -10000 or alter depths, positions or labels. Render clean high-definition black/white linework and faithful light grey shading on white. No scan grain or blur. This is an exam illustration: content and relative positions are immutable, improve line precision only, no artistic reinterpretation or new objects. Highest available resolution, original aspect ratio. One finished asset only.",
+      "reference": "assets/dse-listening/restored-v2/2020/trench-diagram-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2021/ota-benga.jpg": {
+      "id": "2021/ota-benga",
+      "generatedFile": "exec-a993b008-27d9-4168-8edf-94f4bc05f308.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct the same historical black-and-white portrait of Ota Benga, same individual, expression, closely cropped hair, shirtless torso, necklace and folded arms, same pose and white background. Preserve his facial identity and visible teeth carefully, without caricature or embellishment. Recover natural face/skin detail from this scan, remove scan grain and blur. Keep historical portrait composition. Highest available resolution. Same subject, composition and exam meaning as the reference. Authorized detailed reconstruction, not enlargement of scan dots. One finished asset, no comparison layout.",
+      "reference": "assets/dse-listening/restored-v2/2021/ota-benga-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2023/task-2-high-jump.jpg": {
+      "id": "2023/task-2-high-jump",
+      "generatedFile": "exec-75746364-923c-4307-bcaf-79cc864e4330.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct the same flat BLACK sports pictogram of ONE athlete arching backward over a horizontal high-jump bar supported by TWO vertical standards. Match the original pose, head at left, feet at right, bent arms, arched back and bar placement. Reconstruct the clipped top of the figure so the COMPLETE symbol fits with white margins. Remove page/table border remnants and the unrelated partial symbol at the bottom. Do not change the sport, add text or make a photograph. Smooth crisp silhouette edges. Highest available resolution. Same subject, composition and exam meaning as the reference. Authorized detailed reconstruction, not enlargement of scan dots. One finished asset, no comparison layout.",
+      "reference": "assets/dse-listening/restored-v2/2023/task-2-high-jump-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2023/task-2-marathon.jpg": {
+      "id": "2023/task-2-marathon",
+      "generatedFile": "exec-e9bd4274-a7f2-4178-8c7a-48258c879510.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct the same flat BLACK sports pictogram of ONE runner moving right over an uneven terrain silhouette. Match original leg and arm positions and terrain contour, restore the clipped head/upper body so the WHOLE symbol is visible with white margins. Remove extraneous table/page border lines. No added text, scenery, other runners or photography. Smooth crisp silhouette edges. Highest available resolution. Same subject, composition and exam meaning as the reference. Authorized detailed reconstruction, not enlargement of scan dots. One finished asset, no comparison layout.",
+      "reference": "assets/dse-listening/restored-v2/2023/task-2-marathon-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2023/task-2-marble-racing.jpg": {
+      "id": "2023/task-2-marble-racing",
+      "generatedFile": "exec-0df986a0-a546-4f9e-a144-8f7dc923860a.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct the same black-and-white photograph of marble racing: a rectangular start area at lower-left contains FOUR rows of FOUR marbles each, a starting gate immediately to their right, parallel white track lanes continue diagonally right, and many loose marbles are on the dark area in background. Match camera angle, lane geometry, gate, framing and marble positions. Resolve sharp glass spheres and clean track details, remove scan grain. Remove external page border; keep the photo content. No toy cars, people or text. Highest available resolution. Same subject, composition and exam meaning as the reference. Authorized detailed reconstruction, not enlargement of scan dots. One finished asset, no comparison layout.",
+      "reference": "assets/dse-listening/restored-v2/2023/task-2-marble-racing-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2023/task-2-relay.jpg": {
+      "id": "2023/task-2-relay",
+      "generatedFile": "exec-61ffebb1-d9b9-4060-806f-0a1db9e0385f.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct the same flat BLACK sports pictogram: EXACTLY TWO runners facing right, left runner hands a baton forward toward the right runner whose left arm reaches backward. Preserve exact arm/leg poses, head shapes, spacing and baton position. Remove external table borders, leave white margins around entire symbol. No extra runners, text or photorealism. Clean smooth silhouette edges. Highest available resolution. Same subject, composition and exam meaning as the reference. Authorized detailed reconstruction, not enlargement of scan dots. One finished asset, no comparison layout.",
+      "reference": "assets/dse-listening/restored-v2/2023/task-2-relay-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2023/task-3-mr-suess.jpg": {
+      "id": "2023/task-3-mr-suess",
+      "generatedFile": "exec-a332a56c-9edd-4ade-8f43-894adf668543.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct the SAME humorous black-and-white photo collage of a stern tabby CAT with large cat head wearing a black tuxedo and bow tie, paws on table with scattered money/banknotes. Preserve cat face, ears, expression, paws, suit, body pose, banknote arrangement and white background. Recover fine fur, whiskers, fabric and paper details. Remove outer page/table borders and stray clipped page text, not the objects. Do not substitute a human head or a normal unclothed cat. Highest available resolution. Same subject, composition and exam meaning as the reference. Authorized detailed reconstruction, not enlargement of scan dots. One finished asset, no comparison layout.",
+      "reference": "assets/dse-listening/restored-v2/2023/task-3-mr-suess-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2023/task-4-emoji-pioneers.jpg": {
+      "id": "2023/task-4-emoji-pioneers",
+      "generatedFile": "exec-da2b4717-52e4-4f85-8b8a-7d767497ce0a.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct the same TWO framed male portrait photographs separated by large white gap. Left older balding man in suit and tie with serious face; right smiling Japanese man with center-parted dark hair holding a small spiral notebook displaying two caret eyes and rectangular smiling mouth. Preserve both identities as closely as visible reference allows, exact expressions, clothing, poses, framing and notebook emoji. Do not substitute people, add captions or alter notebook drawing. Crisp black-and-white photographic face/hair detail without grain. Highest available resolution. Same subject, composition and exam meaning as the reference. Authorized detailed reconstruction, not enlargement of scan dots. One finished asset, no comparison layout.",
+      "reference": "assets/dse-listening/restored-v2/2023/task-4-emoji-pioneers-1280.webp",
+      "reviewed": true
+    },
+    "assets/dse-listening/2023/task-4-kiss-emoji.jpg": {
+      "id": "2023/task-4-kiss-emoji",
+      "generatedFile": "exec-4ae6249a-0c26-45d0-bfda-78ad70629e6e.png",
+      "prompt": "Use case: reference-preserving reconstruction. Reconstruct the exact monochrome emoji: round face with thick black outline, LEFT oval open eye and raised eyebrow, RIGHT winking eye with curved eyebrow, puckered 3-shaped lips, heart at lower RIGHT of face. Preserve expression, proportions, heart shape and positions. Crisp black outlines, smooth pale grey face, clean white background. Remove external page/table border. No text, no new features or alternate emoji. Highest available resolution. Same subject, composition and exam meaning as the reference. Authorized detailed reconstruction, not enlargement of scan dots. One finished asset, no comparison layout.",
+      "reference": "assets/dse-listening/restored-v2/2023/task-4-kiss-emoji-1280.webp",
+      "reviewed": true
+    }
+  }
+}
