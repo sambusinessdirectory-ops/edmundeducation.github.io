@@ -1,15 +1,16 @@
 <!doctype html>
-<html lang="zh-Hant-HK">
+<html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, viewport-fit=cover">
-  <meta name="description" content="EdmundEducation DSE English Paper 3 綜合能力分析及歷屆聆聽練習。">
-  <meta name="theme-color" content="#0f2f50">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="EdmundEducation DSE Paper 3 聆聽及 Part B Podcast 歷屆資料庫，支援年份篩選、音訊播放及同步逐字稿。">
+  <meta name="theme-color" content="#0b2339">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="EdmundEducation">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <title>DSE Paper 3 2025 B1 Data File · Question-Answer Book</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-neural-audio.edmundeducation.workers.dev; media-src 'self' blob: https://edmund-neural-audio.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; worker-src 'self'; base-uri 'self'; form-action 'self'">
+  <title>DSE 卷3／綜合能力分析｜EdmundEducation</title>
   <link rel="canonical" href="https://edmundeducation.com/dse-paper3-analysis.html">
   <link rel="manifest" href="/pwa-manifests/dse-paper3-analysis.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
@@ -20,793 +21,136 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
-  <style>
-    :root {
-      --bg: radial-gradient(115% 115% at 8% 5%, #fef7df 0%, #f7f3ff 35%, #eef4ff 70%, #e9f3f9 100%);
-      --card: rgba(255, 255, 255, 0.93);
-      --ink: #11263f;
-      --sub: #35516b;
-      --muted: #5f6f84;
-      --edge: #b8d0df;
-      --good: #1f8459;
-      --focus: #1d74d1;
-      --accent-a: #2f5d91;
-      --accent-b: #3a5f8b;
-    }
-
-    * { box-sizing: border-box; }
-    html, body { margin: 0; padding: 0; }
-    body {
-      color: var(--ink);
-      font-family: "Noto Sans TC", "Inter", "Segoe UI", Arial, sans-serif;
-      background: var(--bg);
-      min-height: 100vh;
-      line-height: 1.58;
-    }
-
-    .page {
-      max-width: 1120px;
-      margin: 0 auto;
-      padding: clamp(18px, 2vw, 34px) clamp(16px, 3vw, 34px) 48px;
-    }
-
-    .hero {
-      display: flex;
-      justify-content: space-between;
-      gap: 16px;
-      align-items: flex-start;
-      background: linear-gradient(120deg, #0f2f50, #1d4f83);
-      color: #f8fbff;
-      border-radius: 18px;
-      padding: clamp(18px, 2vw, 30px);
-      box-shadow: 0 12px 30px rgba(16, 36, 56, 0.28);
-    }
-
-    .hero h1 {
-      margin: 0;
-      font-size: clamp(1.2rem, 1.9vw, 2rem);
-      letter-spacing: .01em;
-      font-family: Georgia, "Noto Serif TC", serif;
-    }
-
-    .hero p {
-      margin: 8px 0 0;
-      color: #d7e9ff;
-      max-width: 64ch;
-    }
-
-    .chips {
-      display: grid;
-      gap: 10px;
-      justify-items: end;
-      text-align: right;
-    }
-
-    .chip {
-      background: rgba(255, 255, 255, 0.14);
-      border: 1px solid rgba(255, 255, 255, 0.35);
-      color: #ecf5ff;
-      border-radius: 999px;
-      padding: 8px 14px;
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: .02em;
-    }
-
-    .control {
-      margin-top: 14px;
-      display: grid;
-      grid-template-columns: repeat(3, auto);
-      gap: 8px;
-      align-items: stretch;
-    }
-
-    .mode-btn {
-      border: 0;
-      border-radius: 999px;
-      padding: 10px 16px;
-      font-size: 13px;
-      font-weight: 700;
-      background: rgba(255, 255, 255, 0.17);
-      color: #ebf4ff;
-      cursor: pointer;
-      transition: transform .2s ease, background .2s ease, color .2s ease;
-    }
-
-    .mode-btn:focus-visible {
-      outline: 2px solid #f0c75e;
-      outline-offset: 2px;
-    }
-
-    .mode-btn.active {
-      background: #f9f6d8;
-      color: #10253f;
-    }
-
-    .mode-btn:hover { transform: translateY(-1px); }
-
-    .archive-link {
-      display: inline-flex;
-      margin-top: 10px;
-      padding: 9px 14px;
-      border: 1px solid rgba(255,255,255,.45);
-      border-radius: 999px;
-      color: #fff;
-      font-weight: 750;
-      text-decoration: none;
-      background: rgba(255,255,255,.12);
-    }
-
-    .archive-link:hover, .archive-link:focus-visible { background: rgba(255,255,255,.23); }
-
-    .layout {
-      margin-top: 16px;
-      display: grid;
-      grid-template-columns: 260px minmax(0, 1fr);
-      gap: 18px;
-      align-items: start;
-    }
-
-    .bookmarks {
-      position: sticky;
-      top: 16px;
-      align-self: start;
-      background: var(--card);
-      border: 1px solid var(--edge);
-      border-radius: 16px;
-      padding: 14px;
-      box-shadow: 0 10px 24px rgba(17, 38, 63, 0.12);
-    }
-
-    .bookmarks h2 {
-      margin: 0 0 10px;
-      font-size: 1rem;
-      letter-spacing: .01em;
-      color: var(--accent-a);
-      font-family: Georgia, "Noto Serif TC", serif;
-    }
-
-    .bookmark-list {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: grid;
-      gap: 8px;
-    }
-
-    .bookmark-list a {
-      display: block;
-      border-radius: 10px;
-      border: 1px solid transparent;
-      text-decoration: none;
-      color: #153c60;
-      font-size: .94rem;
-      padding: 8px 10px;
-      background: #f6fbff;
-      border-color: #d8ebfb;
-    }
-
-    .bookmark-list a:hover,
-    .bookmark-list a:focus-visible {
-      border-color: var(--accent-a);
-      outline: none;
-      background: #eef7ff;
-    }
-
-    .content {
-      display: grid;
-      gap: 14px;
-    }
-
-    .card {
-      background: var(--card);
-      border-radius: 16px;
-      border: 1px solid var(--edge);
-      padding: 16px;
-      box-shadow: 0 8px 22px rgba(17, 38, 63, 0.1);
-    }
-
-    .card h2, .card h3 {
-      margin: 0 0 8px;
-      font-family: Georgia, "Noto Serif TC", serif;
-      line-height: 1.35;
-      color: #11335a;
-    }
-
-    .card h2 {
-      font-size: 1.15rem;
-      border-bottom: 1px dashed #b7d6f0;
-      padding-bottom: 8px;
-    }
-
-    .card h3 {
-      margin-top: 12px;
-      margin-bottom: 6px;
-      font-size: 1rem;
-    }
-
-    .meta {
-      color: var(--muted);
-      font-size: .92rem;
-      margin: 0 0 8px;
-    }
-
-    .checklist-wrap {
-      display: grid;
-      gap: 8px;
-      background: #f0f8ff;
-      border: 1px solid #c5def4;
-      border-radius: 12px;
-      padding: 12px;
-      margin: 8px 0 12px;
-    }
-
-    .checklist-title {
-      margin: 0;
-      font-size: .93rem;
-      color: #184f79;
-      font-weight: 700;
-    }
-
-    .checklist {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: grid;
-      gap: 6px;
-    }
-
-    .checklist li {
-      display: flex;
-      gap: 10px;
-      align-items: start;
-      font-size: .95rem;
-    }
-
-    .checklist input[type="checkbox"] {
-      margin-top: 3px;
-      width: 16px;
-      height: 16px;
-      accent-color: var(--good);
-    }
-
-    .checklist .done .label {
-      text-decoration: line-through;
-      color: #5b6f7f;
-    }
-
-    .progress-line {
-      margin: 0;
-      color: #1b5b84;
-      font-size: .92rem;
-      font-weight: 700;
-    }
-
-    .mail-card {
-      border: 1px solid #d7e2ec;
-      background: #fffdf7;
-      border-radius: 12px;
-      overflow: hidden;
-    }
-
-    .mail-head {
-      background: linear-gradient(90deg, #ebf6ff 0%, #ecf7ea 100%);
-      border-bottom: 1px solid #dbe9f6;
-      padding: 10px 12px;
-      display: grid;
-      gap: 7px;
-    }
-
-    .mail-head-row {
-      display: grid;
-      grid-template-columns: 72px 1fr;
-      gap: 8px;
-      align-items: baseline;
-      font-size: .9rem;
-    }
-
-    .mail-head-row b { color: #193b5c; }
-    .mail-body { padding: 12px; white-space: pre-wrap; }
-
-    .mail-body .line { margin: 0 0 7px; }
-    .dot-list { padding-left: 20px; margin: 8px 0; }
-
-    .chat {
-      border: 1px solid #e1ebf3;
-      background: #f8fcff;
-      border-radius: 12px;
-      padding: 12px;
-      display: grid;
-      gap: 10px;
-    }
-
-    .chat-bubble {
-      max-width: 72%;
-      border-radius: 12px;
-      padding: 10px 11px;
-      line-height: 1.45;
-      position: relative;
-      box-shadow: 0 1px 0 rgba(34, 56, 80, 0.12);
-      border: 1px solid;
-      font-size: .94rem;
-    }
-
-    .chat-bubble small {
-      display: block;
-      margin-bottom: 6px;
-      color: #466a89;
-      font-weight: 700;
-    }
-
-    .chat-bubble.left {
-      justify-self: start;
-      border-color: #d7e7f3;
-      background: #edf7ff;
-    }
-
-    .chat-bubble.right {
-      justify-self: end;
-      border-color: #cde8dd;
-      background: #e8fbef;
-    }
-
-    .note-sheet,
-    .qa-paper {
-      border: 1px dashed var(--edge);
-      background: #fff;
-      border-radius: 12px;
-      padding: 12px;
-    }
-
-    .note-sheet pre,
-    .qa-paper pre {
-      margin: 0;
-      white-space: pre-wrap;
-      font-family: "Noto Sans TC", "Menlo", "SFMono-Regular", monospace;
-      font-size: .89rem;
-      color: #1c3652;
-    }
-
-    .section-hidden { display: none; }
-
-    .muted-note {
-      color: var(--muted);
-      font-size: .85rem;
-      margin-top: 0;
-    }
-
-    .split {
-      display: grid;
-      gap: 9px;
-      grid-template-columns: 1fr;
-    }
-
-    @media (max-width: 980px) {
-      .layout { grid-template-columns: 1fr; }
-      .bookmarks { position: static; }
-      .control { grid-template-columns: 1fr 1fr; }
-    }
-  </style>
+  <link rel="stylesheet" href="dse-paper3-analysis.css?v=20260903-partb-1">
 </head>
 <body>
   <a class="skip-link" href="#paper3-main">跳至主要內容</a>
-  <header class="edmund-system-header">
-    <div class="edmund-system-header__inner">
+
+  <header class="paper3-site-header edmund-system-header">
+    <div class="paper3-header-inner edmund-system-header__inner">
       <div class="edmund-system-switcher" data-edmund-system-switcher data-system="dse-paper3-analysis">
-        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"><img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt=""><span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>DSE Paper 3 Analysis</small></span><span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span></button>
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy">
+            <strong>EdmundEducation</strong>
+            <small>DSE Paper 3 Analysis</small>
+          </span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="paper3-header-actions edmund-system-header__actions">
+        <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
+        <span class="user-pill" data-user-pill hidden></span>
+        <button class="header-button" type="button" data-library-home hidden>選擇年份</button>
+        <button class="header-button" type="button" data-logout hidden>登出</button>
       </div>
     </div>
   </header>
-  <main id="paper3-main" class="page">
-    <section class="hero">
-      <div>
-        <h1>DSE English Paper 3 B1<br><span style="font-size:.82rem;font-weight:500;letter-spacing:.08em;color:#dce9f8;">2025 Data File + Question-Answer Book</span></h1>
-        <p>This page is a text-first reconstruction for study only: checklists are interactive, formatting is preserved with structured blocks, and no page image/PDF rendering is used.</p>
-        <p class="muted-note">中文：此頁以純文字還原，保留版面細節（標題、信件欄位、對話框、留白位置），並加入可打勾進度管理。</p>
-        <a class="archive-link" href="dse-paper3-listening-archive.html">歷屆 Part B Podcast 及同步逐字稿 →</a>
-      </div>
-      <div class="chips">
-        <span class="chip">2025 · B1</span>
-        <span class="chip">Part B | Data File + PP</span>
-        <div class="control" aria-label="View mode">
-          <button class="mode-btn active" type="button" data-mode="data">Data File / 資料檔</button>
-          <button class="mode-btn" type="button" data-mode="combined">Data File 分析 + PP</button>
-          <button class="mode-btn" type="button" data-mode="qa">Q.A. Book / 試卷</button>
-        </div>
+
+  <main id="paper3-main" class="paper3-app-shell">
+    <section class="paper3-view" data-view="login">
+      <div class="login-layout">
+        <article class="login-hero paper-panel">
+          <div class="hero-grid" aria-hidden="true">
+            <span>DATA</span><span>LISTEN</span><span>READ</span><span>WRITE</span>
+          </div>
+          <div class="hero-copy">
+            <p class="eyebrow eyebrow-light">INTEGRATED SKILLS · PAPER 3</p>
+            <p class="student-label">（學生使用）</p>
+            <h1>DSE 卷3<span aria-hidden="true">／</span><br>綜合能力分析</h1>
+            <p>從資料篩選、互相對讀到整合寫作，逐步看清每一份 Data File 如何變成可用答案。</p>
+          </div>
+          <p class="hero-edition">2012—2026</p>
+        </article>
+
+        <section class="login-panel paper-panel" aria-labelledby="paper3-login-title">
+          <div class="login-heading">
+            <span class="section-number" aria-hidden="true">01</span>
+            <div>
+              <p class="eyebrow">STUDENT LOGIN</p>
+              <h2 id="paper3-login-title">登入分析系統</h2>
+              <p>使用 Flashcard、寫作練習及其他學生系統的同一個帳戶登入。</p>
+            </div>
+          </div>
+
+          <form class="login-form" data-login-form novalidate>
+            <label class="field" for="paper3-username">
+              <span>用戶名稱</span>
+              <input id="paper3-username" name="username" type="text" autocomplete="username" maxlength="100" required placeholder="輸入用戶名稱">
+            </label>
+            <label class="field" for="paper3-password">
+              <span>密碼</span>
+              <span class="password-field">
+                <input id="paper3-password" name="password" type="password" autocomplete="current-password" maxlength="200" required placeholder="輸入密碼">
+                <button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button>
+              </span>
+            </label>
+            <p class="form-status" data-login-status role="status" aria-live="polite"></p>
+            <button class="primary-button login-button" type="submit" data-login-button>登入並查看分析</button>
+          </form>
+
+          <p class="account-note">請輸入您的學生帳戶資料。</p>
+        </section>
       </div>
     </section>
 
-    <div class="layout">
-      <aside class="bookmarks">
-        <h2>Bookmarks 書籤</h2>
-        <ul class="bookmark-list">
-          <li><a href="#data-file-part">Data File Sections</a></li>
-          <li><a href="#mail-john">Email 1 (John Duncan)</a></li>
-          <li><a href="#transcript-teachers">Teacher Transcript</a></li>
-          <li><a href="#chat-sms">SMS Chat</a></li>
-          <li><a href="#mail-melissa">Email 2 (Melissa)</a></li>
-          <li><a href="#survey">Student Survey</a></li>
-          <li><a href="#email-team">Email 3 (Timothy/Manraj)</a></li>
-          <li><a href="#podcast">Sports Asia Transcript</a></li>
-          <li><a href="#qabook">Question-Answer Book</a></li>
-          <li><a href="#task5">Task 5 Poster</a></li>
-          <li><a href="#task6">Task 6 邀請信</a></li>
-          <li><a href="#task7">Task 7 演說稿</a></li>
-        </ul>
-      </aside>
-
-      <section class="content">
-        <article class="card" id="data-file-part" data-view="data combined">
-          <h2>Paper 3 B1 Data File · Part B / 紙3 B1 資料檔·Part B</h2>
-          <p class="meta">Page 1</p>
-          <div class="note-sheet">
-            <p class="meta">General Instructions / 一般指示</p>
-            <pre>ENG LANG  (EASY SECTION)
-PAPER 3 PART B1
-DATA FILE
-General Instructions / 一般指示
-
-1. Refer to the General Instructions on Page 1 of the Question-Answer Book for Part A.
-  參照Part A考卷第一頁的一般指示。
-
-Instructions for Part B / Part B指示
-1. The Question-Answer Book for Part B1 is inserted into this Data File.
-   Part B1的Question-Answer Book 已置於本資料檔中。
-2. For Part B, attempt either Tasks 5–7 (Part B1) or Tasks 8–10 (Part B2).
-   於Part B只作答B1(第5–7題)或B2(第8–10題)之一組。
-3. You are advised to use a pen for Part B.
-   建議使用筆作答Part B。
-4. The Data Files will NOT be collected at end of examination. Do NOT write your answers in the Data Files.
-   考試結束後資料檔不會被收走，請勿在資料檔上作答。
-5. Hand in only ONE Question-Answer Book for Part B, either B1 or B2, and tie it with Question-Answer Book for Part A.
-   Part B只交B1或B2其中一本問答冊，並與Part A問答冊綁在一起繳交。</pre>
-          </div>
-          <div class="checklist-wrap" data-checklist="data-section">
-            <p class="checklist-title">Checklist 任務檢核</p>
-            <p class="progress-line" id="data-progress" aria-live="polite">0/8 completed</p>
-            <ul class="checklist">
-              <li><input id="c1" type="checkbox" data-task="c1"><label class="label" for="c1">Read all general instructions / 閱讀一般指示</label></li>
-              <li><input id="c2" type="checkbox" data-task="c2"><label class="label" for="c2">Record Part B situation details / 記下Part B情境資訊</label></li>
-              <li><input id="c3" type="checkbox" data-task="c3"><label class="label" for="c3">Summarise email instructions from Mr John / 摘要John的指示</label></li>
-              <li><input id="c4" type="checkbox" data-task="c4"><label class="label" for="c4">Identify required poster information / 確認海報必備資料</label></li>
-              <li><input id="c5" type="checkbox" data-task="c5"><label class="label" for="c5">List all sports event options and schedules / 列出活動與時段</label></li>
-              <li><input id="c6" type="checkbox" data-task="c6"><label class="label" for="c6">Capture SMS communication constraints / 提取聊天資訊</label></li>
-              <li><input id="c7" type="checkbox" data-task="c7"><label class="label" for="c7">Parse student survey outcomes / 解析學生問卷結果</label></li>
-              <li><input id="c8" type="checkbox" data-task="c8"><label class="label" for="c8">Collect presentation facts + transcript / 收集簡報與訪談事實</label></li>
-            </ul>
-          </div>
-          <p class="meta">Page 2 Situation / Part B 情境段落</p>
-          <div class="note-sheet">
-            <pre>You are Nico Lin, president of Healthy Living Club.
-You are to organise Asian Games Week and Wellness Month after listening to a meeting.
-你是健康生活學會會長Nico Lin，會舉行「亞洲運動會週」與「健康月」。</pre>
-          </div>
-        </article>
-
-        <article class="card" id="task" data-view="data combined" style="display:block">
-          <h2>Listening note-taking sheet / 聽力筆記稿</h2>
-          <p class="meta">Page 3</p>
-          <div class="note-sheet">
-            <pre>Listen to the recording of a meeting between:
-• Dr David Chan (Principal)
-• Mr John Duncan (Vice Principal)
-• Ms Melissa Henley (Head of PE)
-
-The Asian Games Week
-- Slogan / 標語
-- Opening Event / 開幕活動
-- Wellness Month / 健康月
-- Guest speaker topic / 邀請嘉賓演講題目
-- After the speech / 演講後安排
-- Parent involvement / 家長參與
-</pre>
-          </div>
-        </article>
-
-        <article class="card" id="mail-john" data-view="data combined">
-          <h2>Email: Ballater High School Asian Games Week — Things to do</h2>
-          <p class="meta">Page 4</p>
-          <div class="mail-card">
-            <div class="mail-head">
-              <div class="mail-head-row"><b>To</b><span>Nico Lin</span></div>
-              <div class="mail-head-row"><b>From</b><span>Mr John Duncan</span></div>
-              <div class="mail-head-row"><b>Sent</b><span>April 5, 2025, 09:02 AM</span></div>
-              <div class="mail-head-row"><b>Subject</b><span>Asian Games Week — Things to do</span></div>
-            </div>
-            <div class="mail-body">
-              <p class="line">Dear Nico,</p>
-              <p class="line">Could you please handle the following three things to prepare for the Asian Games Week?</p>
-              <p class="line">1) Event poster (for school-wide display and school magazine)</p>
-              <p class="line">2) Invitation email to a guest speaker for the Opening Event</p>
-              <p class="line">3) Presentation script on the Asian Games</p>
-              <p class="line">Dear Nico,</p>
-              <p class="line">Good luck with all of these,</p>
-              <p class="line">Mr Duncan</p>
-            </div>
-          </div>
-          <div class="checklist-wrap">
-            <p class="checklist-title">Email checkpoints</p>
-            <ul class="checklist">
-              <li><input id="c9" type="checkbox" data-task="c9"><label class="label" for="c9">Poster requirements captured / 已記錄海報要求</label></li>
-              <li><input id="c10" type="checkbox" data-task="c10"><label class="label" for="c10">Guest email content requirements captured / 已記錄邀請信要求</label></li>
-              <li><input id="c11" type="checkbox" data-task="c11"><label class="label" for="c11">Presentation script references captured / 已記錄簡報稿參考點</label></li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="card" id="transcript-teachers" data-view="data combined">
-          <h2>Extract from teacher meeting transcript / 師生會議逐字稿</h2>
-          <p class="meta">Page 5</p>
-          <div class="note-sheet">
-            <pre>Date: Thursday, March 27, 2025
-Venue: Conference Room
-
-JD: Could we place a quiz? We all agreed that students should hear all information in the class presentation.
-TS: Quiz in lesson six (before lunch) is better than lesson one, since students are alert.
-MS: Suggest an Athletics Jamboree on Day Four.
-JD: OK, only field events can be held on Day Four (Sports Ground).
-MH: ... (add details)
-JD: Better schedule for Day Five morning, dismissed earlier.
-
-JD agreed:
-- Asian Games Quiz
-- Athletics Jamboree (field events only)
-- Athletics activities should use classroom display + school-wide awareness flow
-</pre>
-          </div>
-        </article>
-
-        <article class="card" id="chat-sms" data-view="data combined">
-          <h2>SMS chat between Dr David Chan and Mr John Duncan / 簡訊對話</h2>
-          <p class="meta">Page 6</p>
-          <div class="chat">
-            <div class="chat-bubble left">
-              <small>David · 22 March 2025 2:13pm</small>
-              Time for quick chat about Asian Games Week?
-            </div>
-            <div class="chat-bubble right">
-              <small>John</small>
-              Sure, yes it’s Nico’s.
-            </div>
-            <div class="chat-bubble left">
-              <small>David</small>
-              Where can students find the schedule? Maybe not on website only.
-            </div>
-            <div class="chat-bubble right">
-              <small>John</small>
-              Classroom notice boards only. Also dress code?
-            </div>
-            <div class="chat-bubble left">
-              <small>David</small>
-              PE uniform only, whole week.
-            </div>
-            <div class="chat-bubble left">
-              <small>David</small>
-              Dedicated school event email account changed to events@blhs.edu.hk.
-            </div>
-          </div>
-        </article>
-
-        <article class="card" id="mail-melissa" data-view="data combined">
-          <h2>Email from Ms Melissa Henley / Melissa 郵件</h2>
-          <p class="meta">Page 7</p>
-          <div class="mail-card">
-            <div class="mail-head">
-              <div class="mail-head-row"><b>To</b><span>Mr John Duncan</span></div>
-              <div class="mail-head-row"><b>From</b><span>Ms Melissa Henley</span></div>
-              <div class="mail-head-row"><b>Sent</b><span>March 24, 2025, 10:12 AM</span></div>
-              <div class="mail-head-row"><b>Subject</b><span>About the Asian Games Week Opening Event</span></div>
-            </div>
-            <div class="mail-body">
-              <pre>Candidate sport shortlist and available guest speakers:
-- Trail Running: Wong Lai Man
-- Sumo: Fung Ha Lam
-- Ultimate Frisbee: Frank Brown
-- Parachuting: Lillian Fung
-- Floorball: Adriana Smith
-
-Survey closes: 3 April.
-Budget: $1000 for guest speaker.
-Opening Event: Lesson Seven, 2:00–3:15 PM.</pre>
-            </div>
-          </div>
-        </article>
-
-        <article class="card" id="survey" data-view="data combined">
-          <h2>Student sport survey results / 學生問卷結果</h2>
-          <p class="meta">Page 8</p>
-          <div class="qa-paper">
-            <pre>Which sport do you want to know more about?
-
-Trail Running
-Floorball
-Sumo
-Ultimate Frisbee
-Parachuting
-
-Typical comments:
-• Interest comments mixed across all five sports.
-• Several students expect a “popular and fun” option and references to what they know.
-• Some comments show unfamiliarity with Parachuting / Floorball.
-</pre>
-          </div>
-        </article>
-
-        <article class="card" id="email-team" data-view="data combined">
-          <h2>Emails between Mr Timothy Siu, Mr Manraj Singh and Mr John Duncan</h2>
-          <p class="meta">Page 9</p>
-          <div class="split">
-            <div class="mail-card">
-              <div class="mail-head">
-                <div class="mail-head-row"><b>From</b><span>Timothy Siu</span></div>
-                <div class="mail-head-row"><b>To</b><span>John Duncan</span></div>
-                <div class="mail-head-row"><b>Subject</b><span>The Asian Games Presentation</span></div>
-                <div class="mail-head-row"><b>Key points</b><span>Questions: first year, and three host cities.</span></div>
-              </div>
-            </div>
-            <div class="mail-card">
-              <div class="mail-head">
-                <div class="mail-head-row"><b>From</b><span>Manraj Singh</span></div>
-                <div class="mail-head-row"><b>To</b><span>John Duncan</span></div>
-                <div class="mail-head-row"><b>Key points to include</b><span>sports examples, mascots, health &amp; environment focus, Hong Kong results.</span></div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <article class="card" id="podcast" data-view="data combined">
-          <h2>Sports Asia interview transcript / 體育訪談逐字稿</h2>
-          <p class="meta">Page 10</p>
-          <div class="note-sheet">
-            <pre>Interviewer: Peter, you competed in Hangzhou (2022). How was it?
-Peter: ... mention mascots, health &amp; environment focus, and Hong Kong medal count (53 in last Games).
-
-Key factual pool:
-- Asian Games started: 1951 in New Delhi.
-- Past host cities mentioned: Incheon, Doha.
-- Focus 2014 Incheon: environmental awareness; 2026 Nagoya: health awareness (walk for fun campaign).
-- Mascot examples: futuristic robot characters.
-- Current theme in source says tigerfish and “flame” meaning for 2026 Nagoya.
-</pre>
-          </div>
-        </article>
-
-        <article class="card section-hidden" id="qabook" data-view="qa combined">
-          <h2>Question-Answer Book (Part B1) / Part B1 問答冊</h2>
-          <p class="meta">Pages 11–14</p>
-          <p class="muted-note">No page images are embedded. Text is reconstructed for readability while keeping prompt structure and blank fields.</p>
-        </article>
-
-        <article class="card section-hidden" id="task5" data-view="qa combined">
-          <h2>Task 5: Poster (15 marks) / 第5題 海報</h2>
-          <p class="meta">Question-Answer Book p11</p>
-          <div class="qa-paper">
-            <pre>Complete the poster below for the Asian Games Week.
-
-Asian Games Week
-A week to celebrate the coming Asian Games
-
-Our slogan: (1)
-The Asian Games Week is FIVE DAYS of fun, starting on (2) October!
-
-Opening Event
-Join our guest speaker, a top athlete, on Day One of the Asian Games Week.
-Let’s meet together in the (3)
-The event takes place during lesson seven.
-
-Enjoy these special events:
-1. Athletics Jamboree (field events, Day Four)
-2. ...
-
-On Day (5), join us live in classroom and take the quiz after presentation.
-The dress code is (11) .
-
-Get ready for the Asian Games Week!
-- Stay classy!
-- Stay on time!
-- Stay informed!
-- The event schedule can be found (12) .
-- For enquiries, (13) .
-
-Answers written in the margins will not be marked.</pre>
-          </div>
-          <p class="muted-note">中文重點提示：此題為補齊標語、日期、場地、開幕流程、衣著要求、資訊來源（佈告欄/聯絡電郵）與日程填空。</p>
-        </article>
-
-        <article class="card section-hidden" id="task6" data-view="qa combined">
-          <h2>Task 6: Invitation email (19 marks) / 第6題 邀請信</h2>
-          <p class="meta">Question-Answer Book p12</p>
-          <div class="mail-card qa-paper">
-            <div class="mail-head">
-              <div class="mail-head-row"><b>To</b><span></span></div>
-              <div class="mail-head-row"><b>From</b><span>Nico Lin</span></div>
-            </div>
-            <p class="meta">Write around 120 words (around 120 字). Use polite and persuasive tone.</p>
-            <pre>Prompt:
-- state date/time and venue
-- give speech topic
-- say what happens after speech
-- explain why chosen sport
-- mention payment/offers within budget
-
-(Leave working space / 預留作答空白)</pre>
-          </div>
-        </article>
-
-        <article class="card section-hidden" id="task7" data-view="qa combined">
-          <h2>Task 7: Presentation script (19 marks) / 第7題 演說稿</h2>
-          <p class="meta">Question-Answer Book p13–14</p>
-          <div class="qa-paper">
-            <pre>Write a presentation script on the Asian Games using only the Data File material.
-
-Suggested structure:
-1. What is Asian Games Week and why it matters
-2. 5-day schedule and key events
-3. Chosen sport profile + guest speaker
-4. Quiz facts and mascots/hosts/environment
-5. Conclude with Hong Kong performance and call to action.
-
-Answers written in margins are not marked.</pre>
-          </div>
-        </article>
+    <section class="paper3-view" data-view="library" hidden>
+      <section class="library-hero paper-panel" aria-labelledby="library-title">
+        <div>
+          <p class="eyebrow">DSE PAPER 3 · INTEGRATED SKILLS</p>
+          <h1 id="library-title">卷3 綜合能力分析</h1>
+          <p data-welcome-message>請選擇年份開始。</p><a href="dse-paper3-2025-b1-data-file.html" style="display:inline-block;margin-top:18px;padding:13px 20px;border:1px solid #f3d489;border-radius:10px;background:#f3d489;color:#102b3c;text-decoration:none;font-weight:bold">2025 B1 · Data File 分析 + PP →</a>
+        </div>
+        <dl class="library-facts" aria-label="教材範圍">
+          <div><dt>年份</dt><dd>15</dd></div>
+          <div><dt>卷別</dt><dd>B1 / B2</dd></div>
+          <div><dt>2025 B1 / B2</dt><dd>已有教材</dd></div>
+        </dl>
       </section>
-    </div>
+
+      <section class="local-toolbar paper-panel" data-local-toolbar aria-label="頁內導覽">
+        <div class="toolbar-main">
+          <button class="back-button" type="button" data-back hidden><span aria-hidden="true">←</span> 返回</button>
+          <nav class="breadcrumbs" data-breadcrumbs aria-label="教材路徑"></nav>
+          <div class="toolbar-actions" data-toolbar-actions></div>
+        </div>
+        <div class="fast-navigation" data-fast-navigation hidden></div>
+      </section>
+
+      <section class="library-screen" data-library-screen aria-live="off"></section>
+      <p class="visually-hidden" data-navigation-status role="status" aria-live="polite"></p>
+    </section>
   </main>
+
+  <div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+
+  <noscript><p class="noscript-message">請啟用 JavaScript 使用 DSE 卷3綜合能力分析系統。</p></noscript>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script src="dse-paper3-analysis-data.js?v=20260903-1"></script>
+  <script src="dse-listening-2012-transcript.js?v=20260904-dsearchive1"></script>
+  <script src="dse-listening-2012-data.js?v=20260904-nativequestions1"></script>
+  <script src="dse-listening-2013-transcript.js?v=20260904-dsearchive1"></script>
+  <script src="dse-listening-2013-data.js?v=20260904-nativequestions1"></script>
+  <script src="dse-listening-2014-transcript.js?v=20260904-dsearchive1"></script>
+  <script src="dse-listening-2014-data.js?v=20260904-nativequestions1"></script>
+  <script src="dse-listening-2015-transcript.js?v=20260904-dsearchive1"></script>
+  <script src="dse-listening-2015-data.js?v=20260904-nativequestions1"></script>
+  <script src="dse-listening-2016-transcript.js?v=20260903-1"></script>
+  <script src="dse-listening-2016-data.js?v=20260903-1"></script>
+  <script src="dse-listening-2017-transcript.js?v=20260904-dsearchive1"></script>
+  <script src="dse-listening-2017-data.js?v=20260904-nativequestions1"></script>
+  <script src="dse-listening-2018-transcript.js?v=20260904-dsearchive1"></script>
+  <script src="dse-listening-2018-data.js?v=20260904-nativequestions1"></script>
+  <script src="dse-listening-2019-transcript.js?v=20260904-dsearchive1"></script>
+  <script src="dse-listening-2019-data.js?v=20260904-nativequestions1"></script>
+  <script src="dse-listening-2020-transcript.js?v=20260904-dsearchive1"></script>
+  <script src="dse-listening-2020-data.js?v=20260904-nativequestions1"></script>
+  <script src="dse-listening-2021-transcript.js?v=20260903-1"></script>
+  <script src="dse-listening-2021-data.js?v=20260903-1"></script>
+  <script src="dse-listening-2023-transcript.js?v=20260903-1"></script>
+  <script src="dse-listening-2023-data.js?v=20260903-2"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
-  <script>
-    (function () {
-      const storagePrefix = "edmund-paper3-b1-checklist";
-      const checklist = [...document.querySelectorAll("[data-task]")];
-      const progressText = document.getElementById("data-progress");
-      const modeButtons = document.querySelectorAll(".mode-btn");
-      const sections = document.querySelectorAll('[data-view]');
-
-      function updateMode(mode) {
-        sections.forEach((section) => {
-          const showIn = section.getAttribute("data-view") || "";
-          const visible = showIn.includes(mode);
-          section.style.display = visible ? "block" : "none";
-        });
-
-        modeButtons.forEach((btn) => {
-          const active = btn.dataset.mode === mode;
-          btn.classList.toggle("active", active);
-        });
-        window.scrollTo({ top: 0, behavior: "smooth" });
-        localStorage.setItem(storagePrefix + "-mode", mode);
-      }
-
-      function updateProgress() {
-        const checked = checklist.filter(cb => cb.checked).length;
-        const total = checklist.length;
-        progressText.textContent = `${checked}/${total} completed / 已完成 ${checked} / ${total}`;
-        checklist.forEach((cb) => {
-          cb.closest("li").classList.toggle("done", cb.checked);
-        });
-      }
-
-      const savedMode = localStorage.getItem(storagePrefix + "-mode") || "combined";
-      updateMode(savedMode);
-
-      const savedChecklist = JSON.parse(localStorage.getItem(storagePrefix + "-tasks") || "{}");
-      checklist.forEach((cb) => {
-        cb.checked = Boolean(savedChecklist[cb.dataset.task]);
-        cb.addEventListener("change", () => {
-          const next = {};
-          checklist.forEach((item) => {
-            next[item.dataset.task] = item.checked;
-          });
-          localStorage.setItem(storagePrefix + "-tasks", JSON.stringify(next));
-          updateProgress();
-        });
-      });
-
-      updateProgress();
-
-      modeButtons.forEach((btn) => {
-        btn.addEventListener("click", () => updateMode(btn.dataset.mode));
-      });
-    })();
-  </script>
+  <script type="module" src="dse-paper3-analysis.js?v=20260904-b1-full1"></script>
 </body>
 </html>

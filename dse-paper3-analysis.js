@@ -227,7 +227,7 @@ function resourceFor(year = state.year, level = state.level) {
 }
 
 function hasYearResource(year) {
-  return DSE_CONTENT.has(Number(year)) || DATA.levels.some((level) => Boolean(resourceFor(year, level.id)));
+  return Number(year) === 2025 || DSE_CONTENT.has(Number(year)) || DATA.levels.some((level) => Boolean(resourceFor(year, level.id)));
 }
 
 function hasMaterial(resource, material) {
@@ -352,7 +352,7 @@ function renderLevels() {
     </header>
     ${DSE_CONTENT.has(state.year) ? renderPartBPanel() : ""}
     <div class="selection-grid level-grid">${DATA.levels.map((level) => {
-      const available = Boolean(resourceFor(state.year, level.id));
+      const available = (state.year === 2025 && level.id === "b1") || Boolean(resourceFor(state.year, level.id));
       return selectionCard({
         kicker: `${state.year} · PAPER 3`,
         title: level.label,
@@ -363,16 +363,23 @@ function renderLevels() {
       });
     }).join("")}</div>
   </section>`;
+  if (state.year === 2025) elements.screen.querySelector('.screen-section').insertAdjacentHTML('beforeend', b1FullLink());
   if (DSE_CONTENT.has(state.year)) bindPartBPlayer();
+}
+
+function b1FullLink() {
+  return '<a class="selection-card is-available" href="dse-paper3-2025-b1-data-file.html" style="display:block;text-decoration:none;margin:18px 0;border:2px solid #16727c;background:#e8f3ec"><span class="card-kicker">2025 B1 · COMPLETE DATA FILE + QUESTION-ANSWER BOOK</span><strong style="font-size:clamp(24px,3vw,38px)">Data File 分析 + PP</strong><small>14 頁完整原文 · 原卷圖表 · 電郵及聊天版面 · 中英對照 · 可輸入答案</small><span class="card-status">開啟完整資料檔及問答冊</span><span class="card-arrow" aria-hidden="true">→</span></a>';
 }
 
 function renderMaterials() {
   const resource = resourceFor();
+  const hasFullB1 = state.year === 2025 && state.level === "b1";
   elements.screen.innerHTML = `<section class="screen-section" aria-labelledby="materials-title">
     <header class="screen-heading">
       <div><p class="eyebrow">STEP 03 · RESOURCE</p><h2 id="materials-title">${escapeHtml(state.year)} ${escapeHtml(state.level.toUpperCase())}</h2><p>先讀三篇實用文範文，或逐份展開 Data File，理解如何選取、比較和整合資料。</p></div>
-      <div class="screen-counter"><strong>2</strong><span>類教材</span></div>
+      <div class="screen-counter"><strong>${hasFullB1 ? 3 : 2}</strong><span>類教材</span></div>
     </header>
+    ${hasFullB1 ? b1FullLink() : ""}
     <div class="selection-grid material-grid">${DATA.materialTypes.map((material) => {
       const available = hasMaterial(resource, material.id);
       const count = material.id === "model-essay" ? resource?.modelEssays?.length : resource?.analysisSections?.length;
@@ -543,6 +550,7 @@ async function handleLogin(event) {
     setConnection("已安全連接", "online");
     showView("library");
     resetToYears({ announce: false });
+    if (location.hash === "#2025-b1") { state.year = 2025; state.level = "b1"; state.screen = "materials"; renderLibrary(); }
     showToast(`您好，${state.user.name}！`);
   } catch (error) {
     console.warn("DSE Paper 3 login failed", error);
@@ -675,6 +683,7 @@ async function initialise() {
       setConnection("已安全連接", "online");
       showView("library");
       resetToYears({ announce: false });
+    if (location.hash === "#2025-b1") { state.year = 2025; state.level = "b1"; state.screen = "materials"; renderLibrary(); }
       return;
     }
     setConnection("已連線", "online");
