@@ -2,6 +2,7 @@ import { createListeningStudy } from './listening-study.js?v=20260827-import1';
 import { loadPractice } from './listening-practice-loader.mjs?v=20260827-import1';
 import { answerTokens, nativeBlock, questionNumbers, handleNativeInput, handleMazeClick } from './dse-listening-question-ui.mjs?v=20260904-nativequestions1';
 import { mountListeningSearch } from './listening-search.mjs?v=20260904-search1';
+import { upgradeDseImages } from './dse-listening-images.mjs?v=20260904-clean4k1';
 
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CATALOGUE = window.EDMUND_LISTENING_CATALOG || { practices: [] };
@@ -425,6 +426,10 @@ function replaceDseTokens(html) {
 }
 
 function renderDseBlock(block) {
+  return upgradeDseImages(renderDseOriginalBlock(block));
+}
+
+function renderDseOriginalBlock(block) {
   const native = nativeBlock(block, state.dseAnswers);
   if (native !== null) return native;
   if (block.type === "template") return `<div class="dse-question-block">${replaceDseTokens(block.html)}</div>`;

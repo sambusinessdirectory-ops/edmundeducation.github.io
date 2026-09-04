@@ -2,17 +2,24 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import http from 'node:http';
+import vm from 'node:vm';
 import {fileURLToPath} from 'node:url';
 import {tasksByYear} from './listening/archive-question-layouts.mjs';
 import {questionNumbers} from '../dse-listening-question-ui.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const allTasksByYear={...tasksByYear}, dataContext={window:{}};
+for(const year of [2016,2021,2023]){
+ vm.runInNewContext(fs.readFileSync(path.join(root,`dse-listening-${year}-data.js`),'utf8'),dataContext);
+ allTasksByYear[year]=JSON.parse(JSON.stringify(dataContext.window[`EDMUND_DSE_LISTENING_${year}`].tasks));
+}
 const playwright=await import(process.env.PLAYWRIGHT_MODULE || 'playwright');
 const source=fs.readFileSync(path.join(root,'listening-system.js'),'utf8');
 // Exercise the production renderer, not a second implementation of its markup.
 const renderer=source.slice(source.indexOf('function dseAnswerInput('),source.indexOf('function dseAllQuestionNumbers('));
 const fixture=`<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/listening-system.css"><main class="listening-shell"><div class="dse-paper-sheet" id="host"></div></main><script type="module">
 import {answerTokens,nativeBlock,questionNumbers,handleNativeInput,handleMazeClick} from '/dse-listening-question-ui.mjs';
+import {upgradeDseImages} from '/dse-listening-images.mjs';
 const state={dseAnswers:new Map()};
 const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 ${renderer}
@@ -54,17 +61,19 @@ try {
  const answers=()=>page.evaluate(()=>window.qa.answers());
  for(const width of [1440,390]){
   await page.setViewportSize({width,height:1000});
-  for(const [year,tasks] of Object.entries(tasksByYear))for(const task of tasks){
+  for(const [year,tasks] of Object.entries(allTasksByYear))for(const task of tasks){
    await page.evaluate(task=>{window.qa.state.dseAnswers.clear();window.qa.render(task);},task);
    await page.locator('img').evaluateAll(images=>Promise.all(images.map(im=>im.decode().catch(()=>{}))));
    const checks=await page.evaluate(()=>({
     overflow:document.documentElement.scrollWidth>window.innerWidth+1,
     images:[...document.images].every(im=>im.naturalWidth>0),
+    enhanced:[...document.images].every(im=>im.currentSrc.includes('/enhanced-v1/')&&!im.currentSrc.includes('-3840.webp')),
     placeholders:/\{\{\d/.test(document.getElementById('host').textContent),
     numbers:[...new Set([...document.querySelectorAll('[data-dse-answer-q],[data-dse-answer-group],[data-dse-order-group],[data-dse-ranking],[data-dse-maze-q]')].flatMap(el=>(el.dataset.dseAnswerQ||el.dataset.dseAnswerGroup||el.dataset.dseOrderGroup||el.dataset.dseRanking||el.dataset.dseMazeQ).split(',').map(Number)))].sort((a,b)=>a-b)
    }));
    assert.equal(checks.overflow,false,`${year} Task ${task.number}, ${width}px page overflow`);
    assert.equal(checks.images,true,`${year} Task ${task.number} broken image`);
+   assert.equal(checks.enhanced,true,`${year} Task ${task.number} must load compact enhanced images, not full 4K`);
    assert.equal(checks.placeholders,false,`${year} Task ${task.number} unreplaced token`);
    assert.deepEqual(checks.numbers,questionNumbers(task),`${year} Task ${task.number} input coverage`);
   }
@@ -105,5 +114,5 @@ try {
   await page.screenshot({path:path.join(out,'2020-task2-mobile.png'),fullPage:true});
  }
  assert.deepEqual(errors,[]);
- console.log('Native DSE questions: all 32 tasks pass desktop/mobile layout, image and field coverage; group limits, ordering, ranking, maze and task-switch retention passed.');
+ console.log('Native DSE questions: all 44 tasks pass desktop/mobile layout, enhanced-image and field coverage; group limits, ordering, ranking, maze and task-switch retention passed.');
 } finally {await browser?.close();await new Promise(resolve=>server.close(resolve));}
