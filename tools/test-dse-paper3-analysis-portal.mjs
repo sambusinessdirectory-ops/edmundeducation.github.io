@@ -23,7 +23,7 @@ assert.match(html, /dse-paper3-analysis-data\.js\?v=20260903-1/);
 assert.match(html, /dse-paper3-analysis\.js\?v=20260904-dsearchive1/);
 for (const year of [2012, 2013, 2014, 2015, 2017, 2018, 2019, 2020]) {
   assert.match(html, new RegExp(`dse-listening-${year}-transcript\\.js\\?v=20260904-dsearchive1`));
-  assert.match(html, new RegExp(`dse-listening-${year}-data\\.js\\?v=20260904-dsearchive1`));
+  assert.match(html, new RegExp(`dse-listening-${year}-data\\.js\\?v=20260904-nativequestions1`));
 }
 assert.match(html, /dse-listening-2016-transcript\.js\?v=20260903-1/);
 assert.match(html, /dse-listening-2016-data\.js\?v=20260903-1/);

@@ -1,5 +1,6 @@
 import { createListeningStudy } from './listening-study.js?v=20260827-import1';
 import { loadPractice } from './listening-practice-loader.mjs?v=20260827-import1';
+import { answerTokens, nativeBlock, questionNumbers, handleNativeInput, handleMazeClick } from './dse-listening-question-ui.mjs?v=20260904-nativequestions1';
 
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CATALOGUE = window.EDMUND_LISTENING_CATALOG || { practices: [] };
@@ -419,13 +420,15 @@ function dseAnswerInput(number) {
 }
 
 function replaceDseTokens(html) {
-  return String(html).replace(/\{\{(\d+)\}\}/g, (_, number) => dseAnswerInput(Number(number)));
+  return answerTokens(html, state.dseAnswers);
 }
 
 function renderDseBlock(block) {
+  const native = nativeBlock(block, state.dseAnswers);
+  if (native !== null) return native;
   if (block.type === "template") return `<div class="dse-question-block">${replaceDseTokens(block.html)}</div>`;
   if (block.type === "heading") return `<h3 class="dse-question-heading">${escapeHtml(block.text)}</h3>`;
-  if (block.type === "image") return `<figure class="dse-question-image"><img src="${escapeHtml(block.src)}" alt="${escapeHtml(block.alt)}" loading="lazy" decoding="async"><figcaption>${escapeHtml(block.caption)}</figcaption></figure>`;
+  if (block.type === "image") return `<figure class="dse-question-image"><a class="dse-figure-link" href="${escapeHtml(block.src)}" target="_blank" rel="noopener" aria-label="${escapeHtml(block.alt)} — 放大原圖（新分頁）"><img src="${escapeHtml(block.src)}" alt="${escapeHtml(block.alt)}" loading="lazy" decoding="async"></a><figcaption>${escapeHtml(block.caption)} <span>按圖放大原圖 ↗</span></figcaption></figure>`;
   if (block.type === "multiple-choice") {
     const saved = state.dseAnswers.get(Number(block.number)) || "";
     return `<article class="dse-multiple-choice"><div class="dse-question-number">${block.number}</div><div><p>${escapeHtml(block.prompt)}</p><div class="listening-options">${block.options.map((option, index) => {
@@ -437,7 +440,7 @@ function renderDseBlock(block) {
     const saved = new Set(String(state.dseAnswers.get(Number(block.number)) || "").split(",").filter(Boolean));
     return `<article class="dse-multiple-choice"><div class="dse-question-number">${block.number}</div><div><p>${escapeHtml(block.prompt)}</p><div class="listening-options">${block.options.map((option, index) => {
       const key = String.fromCharCode(65 + index);
-      return `<label><input type="checkbox" name="dse-q${block.number}" data-dse-answer-q="${block.number}" value="${key}"${saved.has(key) ? " checked" : ""}><strong>${key}</strong><span>${escapeHtml(option)}</span></label>`;
+      return `<label><input type="checkbox" name="dse-q${block.number}" data-dse-answer-q="${block.number}" data-dse-choice-limit="${block.limit || ''}" value="${key}"${saved.has(key) ? " checked" : ""}><strong>${key}</strong><span>${escapeHtml(option)}</span></label>`;
     }).join("")}</div></div></article>`;
   }
   if (block.type === "event-table") return `<div class="listening-table-wrap"><table class="dse-event-table"><thead><tr><th>Event</th><th>Human version</th><th>Marble version</th></tr></thead><tbody>${block.rows.map((row) => `<tr><th>${escapeHtml(row.event)}</th><td><img src="${escapeHtml(row.image)}" alt="${escapeHtml(row.alt)}" loading="lazy"></td><td>${replaceDseTokens(row.copy)}</td></tr>`).join("")}</tbody></table></div>`;
@@ -446,14 +449,7 @@ function renderDseBlock(block) {
 }
 
 function dseTaskQuestionNumbers(task) {
-  const numbers = new Set();
-  for (const block of task.blocks) {
-    if (Number(block.number)) numbers.add(Number(block.number));
-    for (const source of [block.html, block.copy, ...(block.rows || []).flatMap((row) => [row.copy, row.concern, row.consequence])]) {
-      String(source || "").replace(/\{\{(\d+)\}\}/g, (_, number) => numbers.add(Number(number)));
-    }
-  }
-  return [...numbers].sort((a, b) => a - b);
+  return questionNumbers(task);
 }
 
 function dseAllQuestionNumbers() {
@@ -1017,6 +1013,10 @@ function pauseAllAudio() {
 const study = createListeningStudy({ state, rpc, escapeHtml, showView, updateRoute, pauseAllAudio, loadAudioCatalogue, toast: showToast, openPractice });
 
 document.addEventListener("click", (event) => {
+  if (handleMazeClick(event.target, state.dseAnswers)) {
+    updateDseProgress();
+    return;
+  }
   const bookmark = event.target.closest("[data-bookmark-word], [data-bookmark-item]");
   if (bookmark) {
     event.preventDefault();
@@ -1112,10 +1112,19 @@ document.addEventListener("change", (event) => {
 });
 
 document.addEventListener("input", (event) => {
+  if (handleNativeInput(event.target, document, state.dseAnswers, showToast)) {
+    updateDseProgress();
+    return;
+  }
   if (event.target.matches("[data-dse-answer-q]")) {
     const number = Number(event.target.dataset.dseAnswerQ);
     let value;
     if (event.target.type === "checkbox") {
+      const limit = Number(event.target.dataset.dseChoiceLimit);
+      if (limit && document.querySelectorAll(`input[type="checkbox"][data-dse-answer-q="${number}"]:checked`).length > limit) {
+        event.target.checked = false;
+        showToast(`最多選擇 ${limit} 項。`);
+      }
       value = [...document.querySelectorAll(`input[type="checkbox"][data-dse-answer-q="${number}"]:checked`)].map((input) => input.value).join(",");
     } else if (event.target.type === "radio") {
       value = event.target.checked ? event.target.value : state.dseAnswers.get(number) || "";

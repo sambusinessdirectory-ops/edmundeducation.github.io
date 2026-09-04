@@ -17,11 +17,17 @@ for (const [year, questionCount] of expected) {
   assert.equal(data.tasks.length, 4);
   assert.equal(data.tasks.reduce((sum, task) => sum + task.marks, 0), questionCount);
   const placeholders = data.tasks.flatMap(task => task.blocks.flatMap(block => [
-    ...[...String(block.html || "").matchAll(/\{\{(\d+)\}\}/g)].map(match => Number(match[1])),
-    ...(Number.isInteger(block.number) ? [block.number] : [])
+    ...[...String(block.html || "").matchAll(/\{\{(\d+)(?:\|[^{}]*)?\}\}/g)].map(match => Number(match[1])),
+    ...(Number.isInteger(block.number) ? [block.number] : []),
+    ...Array.from(block.numbers || [])
   ]));
   assert.deepEqual(Array.from(placeholders).sort((a,b)=>a-b), Array.from({length:questionCount},(_,i)=>i+1));
   for (const task of data.tasks) {
+    assert.ok(!JSON.stringify(task).includes('sourcePages'), `${year} must not display full page screenshots`);
+    for (const match of JSON.stringify(task).matchAll(/assets\/dse-listening\/[^"\\\s]+\.webp/g)) {
+      assert.ok(!/page-\d/.test(match[0]), `Page screenshot remains: ${match[0]}`);
+      assert.ok(fs.existsSync(path.join(root, match[0])), `Missing figure: ${match[0]}`);
+    }
     const rows = data.transcript.partA[String(task.number)];
     assert.ok(Array.isArray(rows) && rows.length > 0, `${year} Task ${task.number} transcript missing`);
     assert.ok(rows.every((row,index) => Number.isFinite(row.start) && row.end > row.start && (!index || row.start >= rows[index-1].start)), `${year} Task ${task.number} transcript timings invalid`);
