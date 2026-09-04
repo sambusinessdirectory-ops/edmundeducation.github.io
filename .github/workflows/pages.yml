@@ -332,6 +332,11 @@ jobs:
             --exclude='assets/speaking-system/audio/edmund-neural/part3/' \
             ./ _site/
 
+      - name: Publish bilingual Paper 3 source readers
+        run: |
+          unzip -oq paper3/reader-batch.zip 'paper3/*' -d _site
+          rm -f _site/paper3/reader-batch.zip
+
       - name: Verify protected Song Appreciation data is absent from Pages artifact
         run: |
           test ! -e _site/song-appreciation-data.js
