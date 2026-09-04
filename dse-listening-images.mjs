@@ -1,4 +1,4 @@
-import { DSE_IMAGE_ENHANCEMENTS } from './dse-listening-image-manifest.mjs';
+import { DSE_IMAGE_ENHANCEMENTS } from './dse-listening-image-manifest.mjs?v=20260904-restore2';
 
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 

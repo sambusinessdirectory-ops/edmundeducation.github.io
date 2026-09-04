@@ -67,7 +67,7 @@ try {
    const checks=await page.evaluate(()=>({
     overflow:document.documentElement.scrollWidth>window.innerWidth+1,
     images:[...document.images].every(im=>im.naturalWidth>0),
-    enhanced:[...document.images].every(im=>im.currentSrc.includes('/enhanced-v1/')&&!im.currentSrc.includes('-3840.webp')),
+    enhanced:[...document.images].every(im=>im.currentSrc.includes('/restored-v2/')&&!im.currentSrc.includes('-3840.webp')),
     placeholders:/\{\{\d/.test(document.getElementById('host').textContent),
     numbers:[...new Set([...document.querySelectorAll('[data-dse-answer-q],[data-dse-answer-group],[data-dse-order-group],[data-dse-ranking],[data-dse-maze-q]')].flatMap(el=>(el.dataset.dseAnswerQ||el.dataset.dseAnswerGroup||el.dataset.dseOrderGroup||el.dataset.dseRanking||el.dataset.dseMazeQ).split(',').map(Number)))].sort((a,b)=>a-b)
    }));
