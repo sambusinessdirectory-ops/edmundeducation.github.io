@@ -1,9 +1,9 @@
 import { createListeningStudy } from './listening-study.js?v=20260904-guide1';
 import { safeBookmarkHref } from './listening-study-core.mjs?v=20260904-guide1';
-import { createDseStudy, getDseGuide, hasDseGuide, loadDseGuide, dseGuideFailed } from './dse-listening-study.mjs?v=20260904-guide2023-1';
+import { createDseStudy, getDseGuide, hasDseGuide, loadDseGuide, dseGuideFailed, dseAnswerReplayStart } from './dse-listening-study.mjs?v=20260904-archiveguides1';
 import { loadPractice } from './listening-practice-loader.mjs?v=20260827-import1';
 import { answerTokens, nativeBlock, questionNumbers, handleNativeInput, handleMazeClick } from './dse-listening-question-ui.mjs?v=20260904-nativequestions1';
-import { mountListeningSearch } from './listening-search.mjs?v=20260904-guide2023-1';
+import { mountListeningSearch } from './listening-search.mjs?v=20260904-archiveguides1';
 import { upgradeDseImages } from './dse-listening-images.mjs?v=20260904-reconstruct3';
 
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -958,6 +958,25 @@ function playQuestionCue(number) {
   updateFloatingAudio(audio);
 }
 
+function playDseQuestionCue(year, task, number) {
+  const row = getDseGuide(year)?.analysis?.[number];
+  const start = dseAnswerReplayStart(row?.audioTime);
+  if (start === null || row.task !== task || state.dseYear !== year) return showToast("這題的錄音時間仍在整理中。");
+  if (state.dseTask !== task) renderDseTask(task);
+  const audio = elements.dseWorkspace.querySelector(`audio[data-dse-audio-task="${task}"]`);
+  if (!audio) return showToast("暫時未能載入這一段錄音，請稍後再試。");
+  document.querySelectorAll('audio').forEach(other => { if (other !== audio) other.pause(); });
+  const seek = () => {
+    if (!audio.isConnected || state.dseYear !== year || state.dseTask !== task) return;
+    audio.currentTime = Number.isFinite(audio.duration) ? Math.min(start, Math.max(0, audio.duration - .1)) : start;
+  };
+  if (audio.readyState < 1) audio.addEventListener('loadedmetadata', seek, {once: true});
+  try { seek(); } catch { /* Safari can defer seeking until metadata is ready. */ }
+  audio.playbackRate = state.speed;
+  audio.play().catch(() => showToast("錄音暫時未能播放，請稍後再按一次播放。"));
+  updateFloatingAudio(audio);
+}
+
 function formatAudioTime(value) {
   const seconds = Number.isFinite(Number(value)) ? Math.max(0, Math.floor(Number(value))) : 0;
   return `${String(Math.floor(seconds / 60)).padStart(2, "0")}:${String(seconds % 60).padStart(2, "0")}`;
@@ -1040,7 +1059,7 @@ function pauseAllAudio() {
 }
 
 const study = createListeningStudy({ state, rpc, escapeHtml, showView, updateRoute, pauseAllAudio, loadAudioCatalogue, toast: showToast, openPractice });
-const dseStudy = createDseStudy({state, escapeHtml});
+const dseStudy = createDseStudy({state, escapeHtml, playCue: playDseQuestionCue});
 document.querySelectorAll('[data-listening-search]').forEach(root=>mountListeningSearch(root,{
   onOpen(entry){
     if(entry.section==='dse'){

@@ -26,7 +26,9 @@
       "evidence": "our extraordinary mother",
       "questionSourcePages": [
         3
-      ]
+      ],
+      "audioTime": 82.77,
+      "audioEnd": 85.22
     },
     "2": {
       "task": 1,
@@ -35,7 +37,9 @@
       "evidence": "Yes, 1988",
       "questionSourcePages": [
         3
-      ]
+      ],
+      "audioTime": 129.67,
+      "audioEnd": 139.53
     },
     "3": {
       "task": 1,
@@ -44,7 +48,9 @@
       "evidence": "moved us to East Point in Hong Kong",
       "questionSourcePages": [
         3
-      ]
+      ],
+      "audioTime": 140.13,
+      "audioEnd": 183.57
     },
     "4": {
       "task": 1,
@@ -53,7 +59,9 @@
       "evidence": "an air traffic controller",
       "questionSourcePages": [
         3
-      ]
+      ],
+      "audioTime": 168.97,
+      "audioEnd": 183.57
     },
     "5": {
       "task": 1,
@@ -62,7 +70,9 @@
       "evidence": "a helicopter pilot",
       "questionSourcePages": [
         3
-      ]
+      ],
+      "audioTime": 182.45,
+      "audioEnd": 183.57
     },
     "6": {
       "task": 1,
@@ -71,7 +81,9 @@
       "evidence": "I love the noise helicopters make",
       "questionSourcePages": [
         3
-      ]
+      ],
+      "audioTime": 195.5,
+      "audioEnd": 199.87
     },
     "7": {
       "task": 1,
@@ -80,7 +92,9 @@
       "evidence": "the other thing is being able to land anywhere",
       "questionSourcePages": [
         3
-      ]
+      ],
+      "audioTime": 209.69,
+      "audioEnd": 215.69
     },
     "8": {
       "task": 1,
@@ -89,7 +103,9 @@
       "evidence": "captain",
       "questionSourcePages": [
         3
-      ]
+      ],
+      "audioTime": 241.45,
+      "audioEnd": 250.02
     },
     "9": {
       "task": 1,
@@ -98,7 +114,9 @@
       "evidence": "broke his ankle",
       "questionSourcePages": [
         3
-      ]
+      ],
+      "audioTime": 248.85,
+      "audioEnd": 250.02
     },
     "10": {
       "task": 1,
@@ -107,7 +125,9 @@
       "evidence": "He fell down some stairs on the ship",
       "questionSourcePages": [
         3
-      ]
+      ],
+      "audioTime": 261.87,
+      "audioEnd": 265.06
     },
     "11": {
       "task": 1,
@@ -116,7 +136,9 @@
       "evidence": "flying him to the hospital",
       "questionSourcePages": [
         3
-      ]
+      ],
+      "audioTime": 281.53,
+      "audioEnd": 283.24
     },
     "12": {
       "task": 1,
@@ -125,7 +147,9 @@
       "evidence": "I joined a rock climbing club",
       "questionSourcePages": [
         3
-      ]
+      ],
+      "audioTime": 307.58,
+      "audioEnd": 313.68
     },
     "13": {
       "task": 1,
@@ -134,7 +158,9 @@
       "evidence": "I asked him out when we were on top of a cliff",
       "questionSourcePages": [
         3
-      ]
+      ],
+      "audioTime": 350.66,
+      "audioEnd": 361.32
     },
     "14": {
       "task": 2,
@@ -143,7 +169,9 @@
       "evidence": "in his bedroom at home",
       "questionSourcePages": [
         4
-      ]
+      ],
+      "audioTime": 128.73,
+      "audioEnd": 142.14
     },
     "15": {
       "task": 2,
@@ -152,7 +180,9 @@
       "evidence": "Lars started making YouTube videos of marble racing",
       "questionSourcePages": [
         4
-      ]
+      ],
+      "audioTime": 147.18,
+      "audioEnd": 173.27
     },
     "16": {
       "task": 2,
@@ -161,7 +191,9 @@
       "evidence": "very simple",
       "questionSourcePages": [
         4
-      ]
+      ],
+      "audioTime": 159.18,
+      "audioEnd": 173.27
     },
     "17": {
       "task": 2,
@@ -170,7 +202,9 @@
       "evidence": "Very simple, but still fun to watch",
       "questionSourcePages": [
         4
-      ]
+      ],
+      "audioTime": 165.96,
+      "audioEnd": 173.27
     },
     "18": {
       "task": 2,
@@ -179,7 +213,9 @@
       "evidence": "he invited teams from 15 other countries",
       "questionSourcePages": [
         4
-      ]
+      ],
+      "audioTime": 176.2,
+      "audioEnd": 189.81
     },
     "19": {
       "task": 2,
@@ -188,7 +224,9 @@
       "evidence": "it hits a gate",
       "questionSourcePages": [
         4
-      ]
+      ],
+      "audioTime": 228.56,
+      "audioEnd": 254.67
     },
     "20": {
       "task": 2,
@@ -197,7 +235,9 @@
       "evidence": "the force of the marble knocks the second marble forward",
       "questionSourcePages": [
         4
-      ]
+      ],
+      "audioTime": 233.12,
+      "audioEnd": 254.67
     },
     "21": {
       "task": 2,
@@ -206,7 +246,9 @@
       "evidence": "rolling down a slope",
       "questionSourcePages": [
         4
-      ]
+      ],
+      "audioTime": 262.54,
+      "audioEnd": 276.78
     },
     "22": {
       "task": 2,
@@ -215,7 +257,9 @@
       "evidence": "fly up and over the pole",
       "questionSourcePages": [
         4
-      ]
+      ],
+      "audioTime": 272.71,
+      "audioEnd": 276.78
     },
     "23": {
       "task": 2,
@@ -224,7 +268,9 @@
       "evidence": "cut into sand",
       "questionSourcePages": [
         4
-      ]
+      ],
+      "audioTime": 294.49,
+      "audioEnd": 306.54
     },
     "24": {
       "task": 2,
@@ -233,7 +279,9 @@
       "evidence": "obstacles like sticks and stones",
       "questionSourcePages": [
         4
-      ]
+      ],
+      "audioTime": 301.55,
+      "audioEnd": 306.54
     },
     "25": {
       "task": 2,
@@ -242,7 +290,9 @@
       "evidence": "I plan to take a Hong Kong team there",
       "questionSourcePages": [
         4
-      ]
+      ],
+      "audioTime": 335.47,
+      "audioEnd": 348.31
     },
     "26": {
       "task": 2,
@@ -251,7 +301,9 @@
       "evidence": "marble technology will become much more advanced",
       "questionSourcePages": [
         4
-      ]
+      ],
+      "audioTime": 357.11,
+      "audioEnd": 359.61
     },
     "27": {
       "task": 3,
@@ -260,7 +312,9 @@
       "evidence": "4.12 million as of yesterday, actually",
       "questionSourcePages": [
         5
-      ]
+      ],
+      "audioTime": 117.86,
+      "audioEnd": 121.64
     },
     "28": {
       "task": 3,
@@ -269,7 +323,9 @@
       "evidence": "more influential than the TV news",
       "questionSourcePages": [
         5
-      ]
+      ],
+      "audioTime": 130.02,
+      "audioEnd": 135.06
     },
     "29": {
       "task": 3,
@@ -278,7 +334,9 @@
       "evidence": "according to a recent survey",
       "questionSourcePages": [
         5
-      ]
+      ],
+      "audioTime": 132.77,
+      "audioEnd": 135.06
     },
     "30": {
       "task": 3,
@@ -287,7 +345,9 @@
       "evidence": "dressing up as superheroes",
       "questionSourcePages": [
         5
-      ]
+      ],
+      "audioTime": 162.14,
+      "audioEnd": 170.26
     },
     "31": {
       "task": 3,
@@ -296,7 +356,9 @@
       "evidence": "Mr Suess plays the piano",
       "questionSourcePages": [
         5
-      ]
+      ],
+      "audioTime": 185.87,
+      "audioEnd": 200.86
     },
     "32": {
       "task": 3,
@@ -305,7 +367,9 @@
       "evidence": "He’s famous for opening the gifts",
       "questionSourcePages": [
         5
-      ]
+      ],
+      "audioTime": 207.38,
+      "audioEnd": 219.54
     },
     "33": {
       "task": 3,
@@ -314,7 +378,9 @@
       "evidence": "the place where I want him to go",
       "questionSourcePages": [
         5
-      ]
+      ],
+      "audioTime": 239.11,
+      "audioEnd": 247.3
     },
     "34": {
       "task": 3,
@@ -323,7 +389,9 @@
       "evidence": "I keep each session short",
       "questionSourcePages": [
         5
-      ]
+      ],
+      "audioTime": 258.29,
+      "audioEnd": 260.39
     },
     "35": {
       "task": 3,
@@ -332,7 +400,9 @@
       "evidence": "Cats have a very short attention span",
       "questionSourcePages": [
         5
-      ]
+      ],
+      "audioTime": 272.45,
+      "audioEnd": 281.87
     },
     "36": {
       "task": 3,
@@ -341,7 +411,9 @@
       "evidence": "cats have lives that are more mysterious than dogs",
       "questionSourcePages": [
         5
-      ]
+      ],
+      "audioTime": 302.56,
+      "audioEnd": 305.5
     },
     "37": {
       "task": 3,
@@ -350,7 +422,9 @@
       "evidence": "cat behaviour is less predictable than dog behaviour",
       "questionSourcePages": [
         5
-      ]
+      ],
+      "audioTime": 333.98,
+      "audioEnd": 339.71
     },
     "38": {
       "task": 3,
@@ -359,7 +433,9 @@
       "evidence": "create positive feelings in their viewers",
       "questionSourcePages": [
         5
-      ]
+      ],
+      "audioTime": 368.37,
+      "audioEnd": 370.59
     },
     "39": {
       "task": 3,
@@ -368,7 +444,9 @@
       "evidence": "encourage people to adopt stray cats",
       "questionSourcePages": [
         5
-      ]
+      ],
+      "audioTime": 381.93,
+      "audioEnd": 384.67
     },
     "40": {
       "task": 3,
@@ -377,7 +455,9 @@
       "evidence": "abandon their cats once their cat stops being popular or making money",
       "questionSourcePages": [
         5
-      ]
+      ],
+      "audioTime": 400.8,
+      "audioEnd": 404.83
     },
     "41": {
       "task": 4,
@@ -386,7 +466,9 @@
       "evidence": "used brackets in his letters and correspondences",
       "questionSourcePages": [
         6
-      ]
+      ],
+      "audioTime": 111.7,
+      "audioEnd": 139.81
     },
     "42": {
       "task": 4,
@@ -395,7 +477,9 @@
       "evidence": "a whole collection of emojis for use on mobile phones",
       "questionSourcePages": [
         6
-      ]
+      ],
+      "audioTime": 151.12,
+      "audioEnd": 169.17
     },
     "43": {
       "task": 4,
@@ -404,7 +488,9 @@
       "evidence": "An emoji is a picture that is used in texting to convey an emotion or an idea",
       "questionSourcePages": [
         6
-      ]
+      ],
+      "audioTime": 169.96,
+      "audioEnd": 198.08
     },
     "44": {
       "task": 4,
@@ -413,7 +499,9 @@
       "evidence": "a photograph cannot be an emoji",
       "questionSourcePages": [
         6
-      ]
+      ],
+      "audioTime": 181.65,
+      "audioEnd": 198.08
     },
     "45": {
       "task": 4,
@@ -422,7 +510,9 @@
       "evidence": "teenagers who are flirting",
       "questionSourcePages": [
         6
-      ]
+      ],
+      "audioTime": 217.34,
+      "audioEnd": 231.08
     },
     "46": {
       "task": 4,
@@ -431,7 +521,9 @@
       "evidence": "not to flirt, but instead to show affection",
       "questionSourcePages": [
         6
-      ]
+      ],
+      "audioTime": 228.19,
+      "audioEnd": 231.08
     },
     "47": {
       "task": 4,
@@ -440,7 +532,9 @@
       "evidence": "The first is to decide which emojis will be created",
       "questionSourcePages": [
         6
-      ]
+      ],
+      "audioTime": 242.99,
+      "audioEnd": 265.11
     },
     "48": {
       "task": 4,
@@ -449,7 +543,9 @@
       "evidence": "standardise the codes for all emojis",
       "questionSourcePages": [
         6
-      ]
+      ],
+      "audioTime": 259.04,
+      "audioEnd": 265.11
     },
     "49": {
       "task": 4,
@@ -458,7 +554,9 @@
       "evidence": "the committee has too much control",
       "questionSourcePages": [
         6
-      ]
+      ],
+      "audioTime": 297.31,
+      "audioEnd": 322.15
     },
     "50": {
       "task": 4,
@@ -467,7 +565,9 @@
       "evidence": "a limit on how people express themselves emotionally",
       "questionSourcePages": [
         6
-      ]
+      ],
+      "audioTime": 307.39,
+      "audioEnd": 322.15
     },
     "51": {
       "task": 4,
@@ -476,7 +576,9 @@
       "evidence": "not actually representative of the many cultures and communities that use the internet",
       "questionSourcePages": [
         6
-      ]
+      ],
+      "audioTime": 335.71,
+      "audioEnd": 355.94
     },
     "52": {
       "task": 4,
@@ -485,7 +587,9 @@
       "evidence": "the work of the committee is not made public enough",
       "questionSourcePages": [
         6
-      ]
+      ],
+      "audioTime": 361.23,
+      "audioEnd": 385.57
     },
     "53": {
       "task": 4,
@@ -494,7 +598,9 @@
       "evidence": "this will lead to suspicion",
       "questionSourcePages": [
         6
-      ]
+      ],
+      "audioTime": 373.58,
+      "audioEnd": 385.57
     }
   },
   "transcript": {

@@ -1,0 +1,3118 @@
+{
+  "year": 2012,
+  "source": {
+    "title": "2012 DSE Part A · 錄音稿翻譯及參考答案解析",
+    "scope": "Part A Tasks 1–4, Questions 1–53",
+    "status": "Authored reference answers, not an official HKEAA marking scheme.",
+    "questionPaper": "2012 Paper 3 Part A.pdf",
+    "questionDataSha256": "676281082355f5cebbcb60faeffe5dfca9c546ffc53bce3a6cac8f92e0889f41",
+    "transcriptDataSha256": "14eda183db079dab58f89c0bbcda1c8758d3714c0ecfdb2b7bf22f84117cd689",
+    "styleReference": "2021 – DSE Listening – 5** Past Paper 題解書 (Edmund Sir); approved 2023 Part A guide",
+    "timingBasis": "Existing original-year split-track transcript cues. Navigation cues are approximate; replay begins 15 seconds before the selected answer-bearing cue.",
+    "editorialNotes": [
+      "Newly authored Traditional Chinese teaching material based on the original-year question data and recording transcript; 2021 and 2023 are style references only.",
+      "Original English and timings retained, including transcription imperfections. Unambiguous opening and closing examination instructions are labelled Narrator. The known mixed-speaker passages in 2012 Task 2 and 2014 Task 4 use broadened group labels, not guessed individual turn assignments; other supplied labels are retained. Chinese follows recoverable meaning without inventing identities. Original audio, questions, images, Part B and student answers are unchanged."
+    ]
+  },
+  "transcriptNote": "按 2012 年原有錄音稿逐段翻譯，附繁體中文。原稿個別語音辨識及講者標籤可能不準；時間為約數。",
+  "analysisNote": "以下為按錄音編寫的參考答案及解析，並非考評局官方評分準則。",
+  "analysis": {
+    "1": {
+      "task": 1,
+      "answer": "Saturday",
+      "explanation": "題目在日期 June 11th 前留空，要求星期幾。主持人開場直接說 today’s Saturday，所以填 Saturday，首字母大寫。\n中伏位：錄音後段的 next week 和 two weeks 是安排下一次會議，不是本次會議日期；題目已印十一日，毋須再填數字。",
+      "evidence": "today's Saturday",
+      "audioTime": 60.52,
+      "audioEnd": 67.67
+    },
+    "2": {
+      "task": 1,
+      "answer": "student president",
+      "explanation": "這格問 Cherry Tam 的職位。介紹時稱她為 our student president，所以應填 student president，即學生會主席。\n中伏位：college technician 屬 Rob，ICT teacher 屬 Jack Law。姓名和職位必須對應，不能因先聽到 technician 就放進 Cherry 那一行。",
+      "evidence": "our student president",
+      "audioTime": 92.05,
+      "audioEnd": 96.59
+    },
+    "3": {
+      "task": 1,
+      "answer": "boring",
+      "explanation": "網站意見第一點是 boring，Cherry 說學生一直覺得網站沉悶，其他人亦同意。此處是形容詞，描述現有網站的觀感。\n中伏位：不是 bored；bored 形容人覺得悶，boring 才形容令人沉悶的網站。下一格的 user friendly 是另一項使用體驗。",
+      "evidence": "it's like boring",
+      "audioTime": 116.42,
+      "audioEnd": 123.88
+    },
+    "4": {
+      "task": 1,
+      "answer": "user friendly / user-friendly",
+      "explanation": "第二項意見是網站 not user friendly，即不容易使用。題目已印 not，因此空格只填 user friendly，避免重複否定。\n中伏位：boring 屬上一格；本題不是問網站內容有沒有趣，而是操作是否方便。若把 not 一起填入，會造成 not not 的錯誤。",
+      "evidence": "it's not user friendly",
+      "audioTime": 131.6,
+      "audioEnd": 136.08
+    },
+    "5": {
+      "task": 1,
+      "answer": "files",
+      "explanation": "教師除了互相溝通，也能透過內聯網 send files；後面列舉文件、圖片和短片。題目 can send 後需要名詞，概括答案為 files。\n中伏位：documents 等只是例子，files 才涵蓋全部類型；不要把傳送工具 email 當成被傳送的內容。",
+      "evidence": "send files",
+      "audioTime": 153.83,
+      "audioEnd": 159.71
+    },
+    "6": {
+      "task": 1,
+      "answer": "secure / safe",
+      "explanation": "錄音清楚指出內聯網的優點是 secure，並解釋它受到學院防火牆保護。因此可填 secure 或 safe。\n中伏位：前一句 isn’t secure 是批評使用一般電郵傳送檔案，並非批評內聯網；需要聽清楚比較對象，不能只抓到否定詞便倒轉答案。",
+      "evidence": "the advantage that it's secure",
+      "audioTime": 174.4,
+      "audioEnd": 180.04
+    },
+    "7": {
+      "task": 1,
+      "answer": "students and teachers / schoolmates and teachers",
+      "explanation": "Cherry 希望在網上跟 schoolmates and teachers 聊學校的事情，之後還確認教師也可加入。答案必須包括學生及教師兩群人。\n中伏位：不要只寫 students；主持人特別追問 teachers，正是提醒社交網絡不只開放給學生。題目 to chat 前須填人。",
+      "evidence": "schoolmates and teachers",
+      "audioTime": 197.73,
+      "audioEnd": 203.91
+    },
+    "8": {
+      "task": 1,
+      "answer": "online market",
+      "explanation": "第二個新功能建議是 online market，後文解釋讓人買賣東西，因此填網上市集。online 修飾 market，指出它是網上服務。\n中伏位：social network 是上一行聊天的功能；website 是整個網站，不能準確指出這個買賣功能的名稱。",
+      "evidence": "an online market",
+      "audioTime": 219.03,
+      "audioEnd": 222.37
+    },
+    "9": {
+      "task": 1,
+      "answer": "old textbooks / textbooks",
+      "explanation": "錄音提出在市集出售 old textbooks，再讓低年級學生購買。題目 e.g. 後要填可買賣物品的例子，所以答案是舊課本。\n中伏位：lower forms 指潛在買家的年級，不是貨品；也不要只寫 books 而忽略 textbooks 的課本含義。",
+      "evidence": "old textbooks",
+      "audioTime": 226.41,
+      "audioEnd": 233.81
+    },
+    "10": {
+      "task": 1,
+      "answer": "Rob Lee / Rob",
+      "explanation": "分工在主持人的確認句落實：you contact the web designer then, Rob。故聯絡網頁設計師的是 Rob Lee。\n中伏位：Rob 說自己程式技巧基本，並不等於拒絕所有工作；他提出聯絡認識的設計師，最後獲確認。Dannie 是設計師，不是這格負責聯絡的人。",
+      "evidence": "you contact the web designer then, Rob",
+      "audioTime": 269.46,
+      "audioEnd": 273.7
+    },
+    "11": {
+      "task": 1,
+      "answer": "Cherry Tam / Cherry",
+      "explanation": "有人提議向學生調查需求，主持人回應 Great idea, Cherry，稍後再把工作交給 Cherry。因此負責學生調查的是 Cherry Tam。\n中伏位：不能只憑不明講者的 I 判斷姓名；要利用隨後直接稱呼 Cherry 的確認。教師調查則由另一人負責。",
+      "evidence": "Great idea, Cherry",
+      "audioTime": 285.88,
+      "audioEnd": 290.88
+    },
+    "12": {
+      "task": 1,
+      "answer": "Jack Law / Mr Law",
+      "explanation": "主持人在確認 Cherry 調查學生後，說 I’ll do the same with the teachers，表示他負責教師調查。配合題目出席者表，主持人為 Jack Law。\n中伏位：the same 指做同類調查，不是說仍由 Cherry 做。答案欄問 Person，必須把第一人稱 I 轉成負責人的姓名。",
+      "evidence": "I'll do the same with the teachers",
+      "audioTime": 300.27,
+      "audioEnd": 302.11
+    },
+    "13": {
+      "task": 1,
+      "answer": "in two weeks / two weeks later / 25th June",
+      "explanation": "原先建議下星期見面，但有人表示一星期不夠，改提兩星期後，主持人最後確認 two weeks it is then。故填兩星期後，按六月十一日推算為六月二十五日。\n中伏位：next week 只是被修改的初步安排；要以最後同意的時間為準，不能第一聽到就停筆。",
+      "evidence": "two weeks it is then",
+      "audioTime": 325.82,
+      "audioEnd": 327.88
+    },
+    "14": {
+      "task": 2,
+      "answer": "Search",
+      "explanation": "網站右上方方格的標籤直接說是 search，功能是用關鍵字搜尋網站。題目要寫介面標籤，因此填 Search 即可。\n中伏位：keywords 是搜尋時輸入的內容，不是方格標題；college logo 則位於左上角，必須按錄音的左右方位對應圖中位置。",
+      "evidence": "a box labelled search",
+      "audioTime": 97.65,
+      "audioEnd": 100.61
+    },
+    "15": {
+      "task": 2,
+      "answer": "About Us",
+      "explanation": "講者按導覽列由左至右介紹：Home 後面是 About Us，收錄學院歷史、使命和教職員資料。因此填完整標籤 About Us。\n中伏位：history 或 staff 是這頁的內容，並非頁面名稱；Students 在下一個位置，須配合原圖已印的導覽項目定位。",
+      "evidence": "a page called About Us",
+      "audioTime": 122.51,
+      "audioEnd": 124.71
+    },
+    "16": {
+      "task": 2,
+      "answer": "Parents",
+      "explanation": "Students 頁面之後介紹供 parents 使用的頁面，讓家長取得切合其角度的資料，因此第十六格是 Parents。\n中伏位：這是導覽頁面的名稱，應用複數 Parents 表示整個群體；不要因同段提及 college 就把學院名稱填入家長頁的位置。",
+      "evidence": "A page for parents",
+      "audioTime": 139.65,
+      "audioEnd": 142.63
+    },
+    "17": {
+      "task": 2,
+      "answer": "Subjects",
+      "explanation": "講者接着介紹 Subjects 頁面，當中包含課程大綱，所以導覽列中課外活動之前的空格是 Subjects。\n中伏位：course outlines 只是頁面內提供的資料，不是頁面標籤；最後的 extracurricular activities 已在題目印出，不需再抄進本格。",
+      "evidence": "a Subjects page",
+      "audioTime": 145.9,
+      "audioEnd": 149.34
+    },
+    "18": {
+      "task": 2,
+      "answer": "Study at AC",
+      "explanation": "三張相片中，講者明確說中間那張叫 Study at AC，並有人問照片裡舉手的是否 Cherry。因此填完整相片說明。\n中伏位：Sports Day 是左邊且已作例子；A Recent Visit 是另一張。要抓住 in the middle 的位置訊號，不可依熟悉的活動名稱猜。",
+      "evidence": "I've called Study at AC",
+      "audioTime": 180.36,
+      "audioEnd": 184.34
+    },
+    "19": {
+      "task": 2,
+      "answer": "Latest News",
+      "explanation": "首頁左邊三個方格依次介紹，Upcoming Events 後面是 Latest News。方格內有舊新聞資料庫及贏獎盃新聞，與最新消息欄相符。\n中伏位：College Wins Cup 是一則新聞標題，不是整個欄目的名稱。題目要填小標題，應保留 Latest 以區分 news archive。",
+      "evidence": "Latest News section",
+      "audioTime": 227.21,
+      "audioEnd": 230.85
+    },
+    "20": {
+      "task": 2,
+      "answer": "Have Your Say",
+      "explanation": "第三個方格講者命名為 Have Your Say，讓師生發表對學院的意見。這是固定表達，意指表達自己的看法。\n中伏位：comments on college 是功能描述，不能取代這裡要求的欄目標籤；老師擔心學生留言內容，也沒有取消或更改這個名稱。",
+      "evidence": "Have Your Say",
+      "audioTime": 257.79,
+      "audioEnd": 260.21
+    },
+    "21": {
+      "task": 2,
+      "answer": "Transport",
+      "explanation": "學生頁面左邊的選單最上方是 transport，錄音用 at the top of the list 清楚指出位置。因此填 Transport。\n中伏位：canteen 是下一項，不能把後面聽到的名詞放入第一格；本題考的是選單標籤，不是填實際交通工具如 bus 或 train。",
+      "evidence": "transport at the top of the list",
+      "audioTime": 327.08,
+      "audioEnd": 329.88
+    },
+    "22": {
+      "task": 2,
+      "answer": "meet new friends",
+      "explanation": "ACquaint 功能例子依次是 share content、meet new friends 及 build relationships。題目第一點分享內容已印出，下一格填 meet new friends。\n中伏位：此空屬右邊功能清單，不是左邊網站選單；應保留動詞 meet，不能只填 friends 而漏掉使用者可以做的事。",
+      "evidence": "meet new friends",
+      "audioTime": 374.77,
+      "audioEnd": 375.87
+    },
+    "23": {
+      "task": 2,
+      "answer": "Academe",
+      "explanation": "另一個主要學生選單項目是學習管理系統 Academe，講者逐字拼 A, C, A, D, E, M, E，故以拼讀為準。\n中伏位：原錄音稿把前後試讀寫成 academe、Accadeen 等不同形式，但清楚拼字能排除誤聽。不要改成意思相近但字形不同的 academy。",
+      "evidence": "A, C, A, D, E, M, E",
+      "audioTime": 413.42,
+      "audioEnd": 418.06
+    },
+    "24": {
+      "task": 2,
+      "answer": "build relationships",
+      "explanation": "ACquaint 最後一項功能是 build relationships，講者及與會者再次強調可以建立學生彼此及師生之間的關係。\n中伏位：meet new friends 屬前一點；這裡是建立及發展人際關係，不只是首次認識朋友。答案以動詞原形 build 開頭，配合 you can 的清單結構。",
+      "evidence": "build relationships",
+      "audioTime": 376.77,
+      "audioEnd": 381.11
+    },
+    "25": {
+      "task": 2,
+      "answer": "Exam information",
+      "explanation": "圖書館之後有兩個考試相關連結，錄音按次序說 exam information and exam results，因此前一格是 Exam information。\n中伏位：information 是不可數名詞，不加 s；不要因兩格都跟考試有關而填相同內容。錄音提供明確順序，與選單由上而下對應。",
+      "evidence": "exam information",
+      "audioTime": 445.11,
+      "audioEnd": 449.69
+    },
+    "26": {
+      "task": 2,
+      "answer": "Exam results",
+      "explanation": "第二個考試相關連結是 exam results，承接前一個考試資訊頁，讓學生查看成績。這裡 results 用複數表示考試結果。\n中伏位：擔心考試、成績好不好等後續閒談，只是話題延伸，沒有改變選單名稱；不能把 teachers 或 subject 等閒談字眼填進來。",
+      "evidence": "exam results",
+      "audioTime": 445.11,
+      "audioEnd": 449.69
+    },
+    "27": {
+      "task": 3,
+      "answer": "Negative",
+      "explanation": "Grace 認為網上學習不能取代真正課堂學習，後面更說電腦雖適合娛樂，卻不是真正學習。因此三個態度選項中應選 Negative。\n中伏位：她稱電腦 brilliant 是說玩遊戲及聊天，不是讚揚網上學習；必須判斷對題目指定事物的態度，不能只看正面形容詞。",
+      "evidence": "learning online can't replace classroom learning",
+      "audioTime": 96.86,
+      "audioEnd": 102.9
+    },
+    "28": {
+      "task": 3,
+      "answer": "doing experiments",
+      "explanation": "Grace 除了提及聆聽及交談，還說科學課透過 doing experiments 學習，因此其中一項方法是做實驗。\n中伏位：science 只是學科名稱，題目問 Ways of learning，應寫出實際行為；可按錄音用 doing 的動名詞形式，與表格中的 listening、talking 一致。",
+      "evidence": "doing experiments",
+      "audioTime": 118.78,
+      "audioEnd": 123.56
+    },
+    "29": {
+      "task": 3,
+      "answer": "creating things",
+      "explanation": "另一項實作方法是美術課 creating things，即創作。題目列學習方式，故填動名詞片語 creating things。\n中伏位：art 是場景或學科，不是方法；後面有人說電腦也能創作，是回應 Grace 的論點，並不表示這項方法應刪除或改成玩電腦遊戲。",
+      "evidence": "creating things",
+      "audioTime": 123.56,
+      "audioEnd": 126.28
+    },
+    "30": {
+      "task": 3,
+      "answer": "Icarus Liu",
+      "explanation": "第二位學生自我介紹 My name’s Icarus Liu，並在後面拼讀名字和姓氏，所以姓名為 Icarus Liu。\n中伏位：這格位於學生姓名欄，不是學習方法。原有辨識稿在逐字拼姓時混入雜字，應以完整自我介紹及 L-I-U 的可辨拼讀互相核對。",
+      "evidence": "My name's Icarus Liu",
+      "audioTime": 149.97,
+      "audioEnd": 151.55
+    },
+    "31": {
+      "task": 3,
+      "answer": "Positive",
+      "explanation": "Icarus 認為應該比現在更多地利用網上環境學習，還說在家學到的比在學校多，並列出視像會議及創意軟件的好處。因此選 Positive。\n中伏位：主持人說他的說法 bold 只是形容大膽，並非 Icarus 自己猶豫；不要混淆別人的回應與答題人物的態度。",
+      "evidence": "we should be using that environment to learn much more",
+      "audioTime": 178.83,
+      "audioEnd": 184.33
+    },
+    "32": {
+      "task": 3,
+      "answer": "using creative software",
+      "explanation": "Icarus 提及 video conferencing 之後，補充可用 all kinds of creative software，並解釋能繪畫和設計。因此填 using creative software。\n中伏位：laptops 只是器材，creative software 才是這裡的學習途徑；題目已印視像會議，不應把相同方法重複填入。",
+      "evidence": "creative software",
+      "audioTime": 200.75,
+      "audioEnd": 203.33
+    },
+    "33": {
+      "task": 3,
+      "answer": "Undecided",
+      "explanation": "Michael 明確說 I’m still not sure，並承認尚未像其他人深入思考。他既欣賞即時查字，也想保留同學分享與教師指導，故選 Undecided。\n中伏位：他有提到網上字典的好處，不代表整體立場一定是 Positive；直接表達不確定的句子，比單一優點更能代表態度。",
+      "evidence": "I'm still not sure",
+      "audioTime": 229.03,
+      "audioEnd": 231.33
+    },
+    "34": {
+      "task": 3,
+      "answer": "using an online dictionary / looking up words online",
+      "explanation": "Michael 說閱讀時遇到不懂的字，可以立即用 online dictionary 查閱。因此這格寫使用網上字典查字。\n中伏位：reading 已在題目印出；單寫 dictionary 也未突出網上即時查閱的方式。答案最好用 using 或 looking up，與表格的動名詞學習方法一致。",
+      "evidence": "look up any words I don't know",
+      "audioTime": 237.23,
+      "audioEnd": 242.35
+    },
+    "35": {
+      "task": 3,
+      "answer": "videos of themselves",
+      "explanation": "Grace 舉出學生張貼個人資料的兩個例子：自己的影片和電話號碼。因此其中一格填 videos of themselves，必須指出影片涉及學生本人。\n中伏位：一般教學影片或新聞影片不一定是私隱資料；只寫 videos 會較含糊。兩個例子的先後可互換，但不能把同一項重複寫兩次。",
+      "evidence": "videos of themselves",
+      "audioTime": 287.53,
+      "audioEnd": 291.29
+    },
+    "36": {
+      "task": 3,
+      "answer": "phone numbers / their phone number",
+      "explanation": "同一句說學生 give out their phone number，即公開電話號碼。這是 Grace 提出的第二個個人資料例子。\n中伏位：home address 是稍後另一位學生說自己不會公開的資料，不是 Grace 此處列的例子。要按題目 According to Grace 對準講者及她的具體說法。",
+      "evidence": "their phone number",
+      "audioTime": 287.53,
+      "audioEnd": 291.29
+    },
+    "37": {
+      "task": 3,
+      "answer": "every friend request / all friend requests",
+      "explanation": "Grace 指出很多學生對 every friend request 都說 yes，即連不認識的人發出的交友邀請也接受。空格在 Saying yes to 後，填邀請這個名詞片語。\n中伏位：不是學生向每個人發送邀請，而是不加篩選地接受邀請；保留 every 或 all 能突出她認為危險的行為。",
+      "evidence": "every friend request",
+      "audioTime": 314.92,
+      "audioEnd": 317.4
+    },
+    "38": {
+      "task": 3,
+      "answer": "They are too eager to make new friends.",
+      "explanation": "Grace 解釋有些學生 too eager to make new friends，即太急於交新朋友，所以忽略保護資料及篩選邀請。答案須寫出原因，不只重述危險行為。\n中伏位：公開電話或接受所有邀請是前面題目的行為；這題 why 要追到動機。too eager 表示過度熱衷，不是一般地喜歡交朋友。",
+      "evidence": "too eager to make new friends",
+      "audioTime": 331.82,
+      "audioEnd": 335.28
+    },
+    "39": {
+      "task": 3,
+      "answer": "The school should get a social network.",
+      "explanation": "Michael 說學校應該 get a social network，並利用它教學生認識危險。第一項建議是建立或設置社交網絡。\n中伏位：他同意的是引導學生使用，而非禁止網上交友；不能因前面討論危險，就推論學校應封鎖 Facebook。第39–40題要寫兩項互補而不重複的行動。",
+      "evidence": "The school should get a social network",
+      "audioTime": 355.56,
+      "audioEnd": 357.62
+    },
+    "40": {
+      "task": 3,
+      "answer": "Educate students about the dangers of social networking.",
+      "explanation": "Michael 第二項建議是藉社交網絡 educate students about the dangers，也就是教學生認識網上社交風險。\n中伏位：not just pretend 明確否定假裝危險不存在的做法。答案要包括教育學生及危險這兩點；只寫 use technology 太籠統，沒有交代學校應如何運用科技。",
+      "evidence": "educate students about the dangers",
+      "audioTime": 357.62,
+      "audioEnd": 362.12
+    },
+    "41": {
+      "task": 4,
+      "answer": "12–17 / twelve to seventeen",
+      "explanation": "報告說十二至十七歲組別的網頁電郵使用跌幅最大，下一句給出百分之五十九。題目 people aged 後要年齡，因此填 12–17。\n中伏位：55 是整體下降組別的年齡上限；59% 是跌幅，不是歲數。摘要每格最多三詞，數字範圍最精簡清楚。",
+      "evidence": "12 to 17 age group",
+      "audioTime": 137.74,
+      "audioEnd": 143.46
+    },
+    "42": {
+      "task": 4,
+      "answer": "browser",
+      "explanation": "播客直接定義 web-based email 為透過 browser 存取的電郵。題目已印 a，所以空格只需單數名詞 browser。\n中伏位：Gmail、Hotmail 和 Yahoo Mail 是這類服務的例子，而非用來存取的工具；email access 中 access 的意思是存取，不是另一本題答案。",
+      "evidence": "through a browser",
+      "audioTime": 148.06,
+      "audioEnd": 153.64
+    },
+    "43": {
+      "task": 4,
+      "answer": "seniors / older people",
+      "explanation": "報告另外指出 email usage among seniors has increased，因此增加使用電郵的是長者。空格接在 by 後，需要人群名詞，可填 seniors。\n中伏位：前面的青少年組別是使用減少最多的人，不是本格；後文比較今天和從前的長者，是解釋原因，不應填 predecessors。",
+      "evidence": "among seniors has increased",
+      "audioTime": 174.64,
+      "audioEnd": 179.72
+    },
+    "44": {
+      "task": 4,
+      "answer": "drastically",
+      "explanation": "錄音以 a drastic increase 形容社交網站使用大幅增加。題目寫 has increased，後面應用副詞 drastically，將名詞組轉成動詞的修飾語。\n中伏位：直接照抄 drastic 是形容詞，不能正確修飾 increased；declined 則描述網頁電郵使用，意思相反。",
+      "evidence": "a drastic increase",
+      "audioTime": 198.27,
+      "audioEnd": 201.85
+    },
+    "45": {
+      "task": 4,
+      "answer": "die / disappear / become extinct",
+      "explanation": "Zuckerberg predicted the death of email，即預言電郵會消亡。題目 likely to 後要動詞原形，因此可填 die、disappear 或 become extinct。\n中伏位：death 是名詞，不能直接放在 to 後構成這個句式；後面 Rowland 懷疑此預測，不代表播客沒有提出它。",
+      "evidence": "predicted the death of email",
+      "audioTime": 212.36,
+      "audioEnd": 217.18
+    },
+    "46": {
+      "task": 4,
+      "answer": "one place",
+      "explanation": "Facebook 的優點是把多種渠道的相關訊息 consolidated into one place，即整合於同一位置。空格已有 in，填 one place，符合最多三詞限制。\n中伏位：text、email 和 instant messaging 已在題目列出；答案不是再列一種通訊方式，而是這些渠道能集中使用的便利。",
+      "evidence": "one place",
+      "audioTime": 249.21,
+      "audioEnd": 251.93
+    },
+    "47": {
+      "task": 4,
+      "answer": "cloud email services",
+      "explanation": "很多機構由內部託管電郵改用 cloud email services，Gmail 是例子。因此填三詞片語 cloud email services。\n中伏位：social networks 是講者接着問企業會否採取的下一步，不是此處已發生的轉變；in-house email 是原有系統，也不能填作新服務。",
+      "evidence": "cloud email services",
+      "audioTime": 266.12,
+      "audioEnd": 272.38
+    },
+    "48": {
+      "task": 4,
+      "answer": "cuts costs / cutting costs / lower costs",
+      "explanation": "改用雲端電郵吸引企業的原因是 it simply cuts costs，即減省成本。摘要的 Reason for switch 後可填 cutting costs，或用錄音的 cuts costs。\n中伏位：後段 productivity 和 efficiency 是商業社交系統聲稱的好處，不是這裡轉用雲端電郵的直接原因。答案仍須不超三詞。",
+      "evidence": "cuts costs",
+      "audioTime": 273.58,
+      "audioEnd": 277.24
+    },
+    "49": {
+      "task": 4,
+      "answer": "contacting prospective customers",
+      "explanation": "Collabro Chatter 自稱能有效 connecting with prospective customers，即聯繫潛在顧客。題目 in 後用動名詞，可改寫成三詞 contacting prospective customers。\n中伏位：直接照抄 connecting with prospective customers 會達四詞，超出限制；contact 是及物動詞，不用 with，便能保留 prospective 的潛在顧客含義。",
+      "evidence": "connecting with prospective customers",
+      "audioTime": 301.48,
+      "audioEnd": 305.38
+    },
+    "50": {
+      "task": 4,
+      "answer": "productivity",
+      "explanation": "系統聲稱能 advance office productivity and efficiency，所以其中一項增加的是 productivity，即生產力。題目 increases 後需名詞。\n中伏位：productive 是形容詞，不適合這個空格；office 是生產力所屬環境，不是獨立效益。第50–51題列出兩項不同指標，次序可互換。",
+      "evidence": "productivity",
+      "audioTime": 319.1,
+      "audioEnd": 323
+    },
+    "51": {
+      "task": 4,
+      "answer": "efficiency",
+      "explanation": "另一項效益是 efficiency，即效率，與 productivity 並列。錄音下一句再次一起重複，強調老闆樂見兩者提高。\n中伏位：efficient 是形容詞，答案應用名詞 efficiency；customers 屬前題的聯繫對象，不是 increases 後的效益。兩格不能都寫生產力的同義詞。",
+      "evidence": "efficiency",
+      "audioTime": 319.1,
+      "audioEnd": 323
+    },
+    "52": {
+      "task": 4,
+      "answer": "Sceptical",
+      "explanation": "Rowland 先承認講者有些好論點，再以 but 表示不相信電郵會消失，並用私隱需求支持保留電郵。因此選 Sceptical，即抱懷疑態度。\n中伏位：makes some good points 只是有限度認同；轉折後的否定才是整體立場。他不是聽不懂而 Confused，也沒有表現憤怒。",
+      "evidence": "I don't think email's going to disappear",
+      "audioTime": 337.5,
+      "audioEnd": 342.6
+    },
+    "53": {
+      "task": 4,
+      "answer": "Enthusiastic",
+      "explanation": "Cherry 說內容 really, really interesting，還覺得網上做生意很好玩，甚至想親自嘗試。這些表現是熱切感興趣，因此選 Enthusiastic。\n中伏位：fun 不一定等於 Amused；Amused 偏向被逗笑，這裡是對構想有興趣並想行動。不要把 Rowland 的懷疑態度套到 Cherry。",
+      "evidence": "really, really interesting",
+      "audioTime": 365.36,
+      "audioEnd": 369.06
+    }
+  },
+  "transcript": {
+    "1": [
+      {
+        "start": 0.04,
+        "end": 7.08,
+        "speaker": "Narrator",
+        "text": "Task 1. You will listen to a meeting at Aberdeen College where people are discussing the College's",
+        "zh": "任務一。你將聆聽 Aberdeen College 的一場會議，與會者正在討論學院的"
+      },
+      {
+        "start": 7.08,
+        "end": 17.8,
+        "speaker": "Narrator",
+        "text": "new online systems. Listen to the meeting and fill in the missing information in the",
+        "zh": "新網上系統。請聆聽會議，並填寫所缺資料。"
+      },
+      {
+        "start": 17.8,
+        "end": 23.52,
+        "speaker": "Narrator",
+        "text": "question for you as an example. You now have 30 seconds to study the task.",
+        "zh": "其中一項已作例子提供。你現在有三十秒時間閱讀題目。"
+      },
+      {
+        "start": 24.32,
+        "end": 28.96,
+        "speaker": "Narrator",
+        "text": "At the end of the task, you will have one minute to tidy up your answers.",
+        "zh": "任務結束後，你將有一分鐘時間整理答案。"
+      },
+      {
+        "start": 60.52,
+        "end": 67.67,
+        "speaker": "College meeting",
+        "text": "OK, good morning everybody. Thanks for coming to the meeting today. I know today's Saturday",
+        "zh": "好，各位早安。謝謝大家今天來開會。我知道今天是星期六，"
+      },
+      {
+        "start": 68.23,
+        "end": 71.75,
+        "speaker": "College meeting",
+        "text": "and I'm sure you've got other things to do on a Saturday morning,",
+        "zh": "也相信你們星期六早上有其他事情要做，"
+      },
+      {
+        "start": 72.61,
+        "end": 77.73,
+        "speaker": "College meeting",
+        "text": "but hopefully the meeting will be a short one. Do you two know each other?",
+        "zh": "不過希望這場會議不會太長。你們兩位認識對方嗎？"
+      },
+      {
+        "start": 77.73,
+        "end": 80.03,
+        "speaker": "College meeting",
+        "text": "No, I don't think so.",
+        "zh": "不，我想我們不認識。"
+      },
+      {
+        "start": 81.23,
+        "end": 88.61,
+        "speaker": "College meeting",
+        "text": "OK, well, this is Rob Lee. Rob's the College Technician, so he can advise us on technical matters.",
+        "zh": "好，這位是 Rob Lee。Rob 是學院的技術員，可以就技術問題給我們意見。"
+      },
+      {
+        "start": 89.49,
+        "end": 89.89,
+        "speaker": "College meeting",
+        "text": "And Rob?",
+        "zh": "Rob？"
+      },
+      {
+        "start": 90.17,
+        "end": 90.53,
+        "speaker": "College meeting",
+        "text": "Hi.",
+        "zh": "你好。"
+      },
+      {
+        "start": 91.25,
+        "end": 91.35,
+        "speaker": "College meeting",
+        "text": "Hi.",
+        "zh": "你好。"
+      },
+      {
+        "start": 92.05,
+        "end": 96.59,
+        "speaker": "College meeting",
+        "text": "Yeah. And Rob, I think you know Cherry, our student president.",
+        "zh": "對，Rob，我想你認識我們的學生會主席 Cherry。"
+      },
+      {
+        "start": 97.84,
+        "end": 105.76,
+        "speaker": "College meeting",
+        "text": "OK. Right, so as I said in my email, I wanted to discuss what needs to be done to improve",
+        "zh": "好。正如我在電郵所說，我想討論需要做些什麼，來改善"
+      },
+      {
+        "start": 105.76,
+        "end": 112.38,
+        "speaker": "College meeting",
+        "text": "the College's online systems. So maybe we could start with the College website.",
+        "zh": "學院的網上系統。不如先談學院網站。"
+      },
+      {
+        "start": 113.44,
+        "end": 115.84,
+        "speaker": "College meeting",
+        "text": "Any comments from students about the website?",
+        "zh": "學生對網站有什麼意見？"
+      },
+      {
+        "start": 116.42,
+        "end": 123.88,
+        "speaker": "College meeting",
+        "text": "Well, the first thing I've written here about the website is that it's like boring.",
+        "zh": "嗯，我在這裡記下關於網站的第一點，就是它很沉悶。"
+      },
+      {
+        "start": 125.12,
+        "end": 127.12,
+        "speaker": "College meeting",
+        "text": "Students are always saying that.",
+        "zh": "學生總是這樣說。"
+      },
+      {
+        "start": 127.8,
+        "end": 131.6,
+        "speaker": "College meeting",
+        "text": "Yeah, I agree with Cherry actually. It's a bit boring.",
+        "zh": "對，其實我同意 Cherry。它是有點沉悶。"
+      },
+      {
+        "start": 131.6,
+        "end": 136.08,
+        "speaker": "College meeting",
+        "text": "I think the thing that I would add would be that it's not user friendly.",
+        "zh": "我還想補充，它不容易使用。"
+      },
+      {
+        "start": 137.2,
+        "end": 140.96,
+        "speaker": "College meeting",
+        "text": "Yeah, I'd agree. It certainly isn't user friendly.",
+        "zh": "對，我同意。它的確不容易使用。"
+      },
+      {
+        "start": 142.49,
+        "end": 148.15,
+        "speaker": "College meeting",
+        "text": "What about the other services, like the intranet system for teachers?",
+        "zh": "其他服務又如何，例如供教師使用的內聯網系統？"
+      },
+      {
+        "start": 148.81,
+        "end": 153.25,
+        "speaker": "College meeting",
+        "text": "Intranet? Is that like where the teachers can communicate with each other?",
+        "zh": "內聯網？就是教師互相溝通的地方嗎？"
+      },
+      {
+        "start": 153.83,
+        "end": 159.71,
+        "speaker": "College meeting",
+        "text": "Yeah, the teachers can use the intranet to send files as well, like documents,",
+        "zh": "對，教師也可以用內聯網傳送檔案，例如文件、"
+      },
+      {
+        "start": 160.21,
+        "end": 162.43,
+        "speaker": "College meeting",
+        "text": "pictures, video clips.",
+        "zh": "圖片及短片。"
+      },
+      {
+        "start": 163.31,
+        "end": 165.59,
+        "speaker": "College meeting",
+        "text": "Why don't they just use their email?",
+        "zh": "為什麼他們不直接用電郵？"
+      },
+      {
+        "start": 166.74,
+        "end": 173.64,
+        "speaker": "College meeting",
+        "text": "Because it isn't secure. You know, it's not safe to send files like that.",
+        "zh": "因為那樣不安全。那樣傳送檔案並不安全。"
+      },
+      {
+        "start": 174.4,
+        "end": 180.04,
+        "speaker": "College meeting",
+        "text": "And the intranet has the advantage that it's secure because it's protected by the College's firewall.",
+        "zh": "內聯網的優點是安全，因為受到學院防火牆保護。"
+      },
+      {
+        "start": 181.48,
+        "end": 188.9,
+        "speaker": "College meeting",
+        "text": "OK, let's move on. What kinds of things would we like to see available online from the new system?",
+        "zh": "好，繼續吧。我們希望新系統提供哪些網上功能？"
+      },
+      {
+        "start": 190.59,
+        "end": 196.41,
+        "speaker": "College meeting",
+        "text": "Well, I think a social network. You know, something like Facebook.",
+        "zh": "我想要一個社交網絡，像 Facebook 那樣。"
+      },
+      {
+        "start": 197.73,
+        "end": 203.91,
+        "speaker": "College meeting",
+        "text": "Maybe a place where we could chat online about school stuff with schoolmates and teachers.",
+        "zh": "也許有個地方，讓我們跟同學和教師在網上聊學校的事情。"
+      },
+      {
+        "start": 204.91,
+        "end": 210.53,
+        "speaker": "College meeting",
+        "text": "Wait, so you would want teachers to be able to go to this social network as well?",
+        "zh": "等等，所以你希望教師也能進入這個社交網絡？"
+      },
+      {
+        "start": 211.27,
+        "end": 212.65,
+        "speaker": "College meeting",
+        "text": "As well as students, I mean.",
+        "zh": "我的意思是，除了學生以外。"
+      },
+      {
+        "start": 213.07,
+        "end": 214.07,
+        "speaker": "College meeting",
+        "text": "Sure, why not?",
+        "zh": "當然，為什麼不呢？"
+      },
+      {
+        "start": 215.01,
+        "end": 218.35,
+        "speaker": "College meeting",
+        "text": "OK, well, that's one idea. What else?",
+        "zh": "好，這是一個建議。還有呢？"
+      },
+      {
+        "start": 219.03,
+        "end": 222.37,
+        "speaker": "College meeting",
+        "text": "How about an online market?",
+        "zh": "網上市集如何？"
+      },
+      {
+        "start": 222.99,
+        "end": 225.99,
+        "speaker": "College meeting",
+        "text": "What? Like for people to buy and sell things?",
+        "zh": "什麼？就是供大家買賣東西的地方？"
+      },
+      {
+        "start": 226.41,
+        "end": 233.81,
+        "speaker": "College meeting",
+        "text": "Yeah, a market. I was thinking, you know, we could like sell things like our old textbooks",
+        "zh": "對，市集。我想我們可以出售舊課本之類的東西，"
+      },
+      {
+        "start": 234.39,
+        "end": 237.29,
+        "speaker": "College meeting",
+        "text": "and students in lower forms could buy them.",
+        "zh": "讓低年級學生購買。"
+      },
+      {
+        "start": 238.2,
+        "end": 240.95,
+        "speaker": "College meeting",
+        "text": "Sounds good. I think that would work.",
+        "zh": "聽起來不錯。我想這行得通。"
+      },
+      {
+        "start": 241.92,
+        "end": 246.42,
+        "speaker": "College meeting",
+        "text": "Right, OK, let's move on to the action we need to take.",
+        "zh": "好，現在談談我們需要採取的行動。"
+      },
+      {
+        "start": 247.24,
+        "end": 251.46,
+        "speaker": "College meeting",
+        "text": "First, the website. Can you be responsible for that, Rob?",
+        "zh": "首先是網站。Rob，你可以負責嗎？"
+      },
+      {
+        "start": 252.26,
+        "end": 255.7,
+        "speaker": "College meeting",
+        "text": "For what? The redesign of the website.",
+        "zh": "負責什麼？重新設計網站。"
+      },
+      {
+        "start": 256.54,
+        "end": 261.12,
+        "speaker": "College meeting",
+        "text": "Well, my programming skills. I mean, they're pretty basic.",
+        "zh": "嗯，我的程式編寫技巧其實很基本。"
+      },
+      {
+        "start": 262.82,
+        "end": 266.06,
+        "speaker": "College meeting",
+        "text": "But I know a web designer, so I could contact him.",
+        "zh": "不過我認識一位網頁設計師，可以聯絡他。"
+      },
+      {
+        "start": 266.52,
+        "end": 268.88,
+        "speaker": "College meeting",
+        "text": "Maybe, you know, to give us a price.",
+        "zh": "也許請他報個價。"
+      },
+      {
+        "start": 269.46,
+        "end": 273.7,
+        "speaker": "College meeting",
+        "text": "OK, right. So you contact the web designer then, Rob.",
+        "zh": "好，那麼 Rob，你就聯絡那位網頁設計師。"
+      },
+      {
+        "start": 274.4,
+        "end": 276.82,
+        "speaker": "College meeting",
+        "text": "How about the other systems we talked about?",
+        "zh": "剛才談過的其他系統呢？"
+      },
+      {
+        "start": 277.46,
+        "end": 280.8,
+        "speaker": "College meeting",
+        "text": "Well, why don't I carry out a survey of the students",
+        "zh": "不如由我向學生做一項調查，"
+      },
+      {
+        "start": 281.34,
+        "end": 284.88,
+        "speaker": "College meeting",
+        "text": "to see what it is they want from our online systems?",
+        "zh": "了解他們想我們的網上系統提供什麼？"
+      },
+      {
+        "start": 285.88,
+        "end": 290.88,
+        "speaker": "College meeting",
+        "text": "Great idea, Cherry. It's really important that we get the students' views on this.",
+        "zh": "好主意，Cherry。了解學生的意見很重要。"
+      },
+      {
+        "start": 291.91,
+        "end": 295.39,
+        "speaker": "College meeting",
+        "text": "I think a survey of the students is an excellent idea.",
+        "zh": "我認為向學生做調查是非常好的主意。"
+      },
+      {
+        "start": 296.11,
+        "end": 298.83,
+        "speaker": "College meeting",
+        "text": "So, yeah, you can do that, Cherry.",
+        "zh": "所以，對，就由你做吧，Cherry。"
+      },
+      {
+        "start": 299.07,
+        "end": 299.49,
+        "speaker": "College meeting",
+        "text": "Fine.",
+        "zh": "好。"
+      },
+      {
+        "start": 300.27,
+        "end": 302.11,
+        "speaker": "College meeting",
+        "text": "And I'll do the same with the teachers.",
+        "zh": "我會向教師做同樣的調查。"
+      },
+      {
+        "start": 302.11,
+        "end": 305.49,
+        "speaker": "College meeting",
+        "text": "We need to get their input as well.",
+        "zh": "我們也需要他們的意見。"
+      },
+      {
+        "start": 306.6,
+        "end": 307.74,
+        "speaker": "College meeting",
+        "text": "So a survey's good.",
+        "zh": "所以調查是好方法。"
+      },
+      {
+        "start": 309.15,
+        "end": 312.81,
+        "speaker": "College meeting",
+        "text": "Right, OK, so that's about all we can do today.",
+        "zh": "好，今天能做的大概就是這些。"
+      },
+      {
+        "start": 314.02,
+        "end": 316.84,
+        "speaker": "College meeting",
+        "text": "Let's meet again next week, at the same time.",
+        "zh": "我們下星期同一時間再開會吧。"
+      },
+      {
+        "start": 317.28,
+        "end": 321.56,
+        "speaker": "College meeting",
+        "text": "I'm sorry. I think I'll need more time than a week.",
+        "zh": "對不起，我想我需要超過一星期。"
+      },
+      {
+        "start": 323.12,
+        "end": 324.82,
+        "speaker": "College meeting",
+        "text": "Can we meet in two weeks' time?",
+        "zh": "可以在兩星期後開會嗎？"
+      },
+      {
+        "start": 325.82,
+        "end": 327.88,
+        "speaker": "College meeting",
+        "text": "OK, two weeks it is then.",
+        "zh": "好，就兩星期後吧。"
+      },
+      {
+        "start": 329.02,
+        "end": 330.98,
+        "speaker": "Narrator",
+        "text": "That is the end of task one.",
+        "zh": "任務一完結。"
+      },
+      {
+        "start": 330.98,
+        "end": 334.48,
+        "speaker": "Narrator",
+        "text": "You now have one minute to tidy up your answers.",
+        "zh": "你現在有一分鐘時間整理答案。"
+      }
+    ],
+    "2": [
+      {
+        "start": 0,
+        "end": 0.46,
+        "speaker": "Narrator",
+        "text": "Task two.",
+        "zh": "任務二。"
+      },
+      {
+        "start": 1.61,
+        "end": 4.31,
+        "speaker": "Narrator",
+        "text": "You will listen to a presentation by Danny Won",
+        "zh": "你將聆聽 Dannie Wan 的簡報，"
+      },
+      {
+        "start": 4.31,
+        "end": 7.77,
+        "speaker": "Narrator",
+        "text": "describing some of the features of the new website",
+        "zh": "他會介紹新網站的一些功能，"
+      },
+      {
+        "start": 7.77,
+        "end": 11.45,
+        "speaker": "Narrator",
+        "text": "to Mr Law, Rob Lee and Cherry Tam.",
+        "zh": "對象是 Law 老師、Rob Lee 和 Cherry Tam。"
+      },
+      {
+        "start": 12.27,
+        "end": 16.15,
+        "speaker": "Narrator",
+        "text": "Listen to the presentation and fill in the missing information",
+        "zh": "請聆聽簡報，填上所缺資料，"
+      },
+      {
+        "start": 16.15,
+        "end": 19.27,
+        "speaker": "Narrator",
+        "text": "in the spaces provided on the website pages.",
+        "zh": "填在網站頁面上提供的空格內。"
+      },
+      {
+        "start": 20.11,
+        "end": 22.73,
+        "speaker": "Narrator",
+        "text": "One has been done for you as an example.",
+        "zh": "其中一項已作例子提供。"
+      },
+      {
+        "start": 24.06,
+        "end": 27.14,
+        "speaker": "Narrator",
+        "text": "You now have 30 seconds to study the task.",
+        "zh": "你現在有三十秒時間閱讀題目。"
+      },
+      {
+        "start": 27.96,
+        "end": 30.8,
+        "speaker": "Narrator",
+        "text": "At the end of the task, you will have one minute",
+        "zh": "任務結束後，你將有一分鐘時間"
+      },
+      {
+        "start": 30.8,
+        "end": 32.52,
+        "speaker": "Narrator",
+        "text": "to tidy up your answers.",
+        "zh": "整理答案。"
+      },
+      {
+        "start": 65.03,
+        "end": 68.61,
+        "speaker": "Dannie Wan／與會者",
+        "text": "OK, if you're ready, Danny, you can start now.",
+        "zh": "好，Dannie，如果準備好了，可以開始。"
+      },
+      {
+        "start": 69.31,
+        "end": 69.99,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Thanks, Rob.",
+        "zh": "謝謝，Rob。"
+      },
+      {
+        "start": 70.63,
+        "end": 74.15,
+        "speaker": "Dannie Wan／與會者",
+        "text": "And thanks to Mr Law and Cherry for coming to my presentation.",
+        "zh": "也謝謝 Law 老師和 Cherry 來聽我的簡報。"
+      },
+      {
+        "start": 75.24,
+        "end": 78.24,
+        "speaker": "Dannie Wan／與會者",
+        "text": "I'm going to show you our first draft design",
+        "zh": "我會展示第一版設計草稿，"
+      },
+      {
+        "start": 78.24,
+        "end": 80.14,
+        "speaker": "Dannie Wan／與會者",
+        "text": "for the new college website.",
+        "zh": "就是學院的新網站。"
+      },
+      {
+        "start": 81,
+        "end": 84.2,
+        "speaker": "Dannie Wan／與會者",
+        "text": "It's still a bit rough, but I hope you can get the idea.",
+        "zh": "它還有點粗糙，不過希望大家能明白構思。"
+      },
+      {
+        "start": 85.5,
+        "end": 89.64,
+        "speaker": "Dannie Wan／與會者",
+        "text": "To start with, on the screen here, you can see the homepage",
+        "zh": "首先，螢幕上展示的是網站首頁，"
+      },
+      {
+        "start": 89.64,
+        "end": 93.84,
+        "speaker": "Dannie Wan／與會者",
+        "text": "of the website with the college logo in the top left corner",
+        "zh": "左上角有學院標誌，"
+      },
+      {
+        "start": 94.6,
+        "end": 96.52,
+        "speaker": "Dannie Wan／與會者",
+        "text": "and the name of the college, of course.",
+        "zh": "當然還有學院的名稱。"
+      },
+      {
+        "start": 97.65,
+        "end": 100.61,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Then on the right is a box labelled search",
+        "zh": "右邊有一個標示「搜尋」的方格，"
+      },
+      {
+        "start": 101.05,
+        "end": 103.49,
+        "speaker": "Dannie Wan／與會者",
+        "text": "for people to search the site using keywords.",
+        "zh": "讓大家用關鍵字搜尋網站。"
+      },
+      {
+        "start": 104.59,
+        "end": 107.17,
+        "speaker": "Dannie Wan／與會者",
+        "text": "And they can search anywhere in the site?",
+        "zh": "他們可以搜尋網站內任何部分？"
+      },
+      {
+        "start": 107.77,
+        "end": 109.23,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Yeah, that's right, Mr Law.",
+        "zh": "對，Law 老師，沒錯。"
+      },
+      {
+        "start": 110.07,
+        "end": 114.09,
+        "speaker": "Dannie Wan／與會者",
+        "text": "OK, so on the next row down from left to right,",
+        "zh": "好，下一行由左至右，"
+      },
+      {
+        "start": 114.09,
+        "end": 118.01,
+        "speaker": "Dannie Wan／與會者",
+        "text": "we have the tabs for the individual pages of the website.",
+        "zh": "是網站各個頁面的分頁標籤。"
+      },
+      {
+        "start": 118.99,
+        "end": 121.69,
+        "speaker": "Dannie Wan／與會者",
+        "text": "The homepage, which is the one we're on now.",
+        "zh": "首頁，就是我們目前所在的頁面。"
+      },
+      {
+        "start": 122.51,
+        "end": 124.71,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Then there's a page called About Us,",
+        "zh": "然後有一頁叫「關於我們」，"
+      },
+      {
+        "start": 125.55,
+        "end": 127.93,
+        "speaker": "Dannie Wan／與會者",
+        "text": "where you have all the information about the college,",
+        "zh": "列出學院的所有資料，"
+      },
+      {
+        "start": 128.73,
+        "end": 133.69,
+        "speaker": "Dannie Wan／與會者",
+        "text": "including its history, its mission, the staff, and so on.",
+        "zh": "包括歷史、使命、教職員等等。"
+      },
+      {
+        "start": 134.66,
+        "end": 138.88,
+        "speaker": "Dannie Wan／與會者",
+        "text": "And then we have the Students page, which I'll come to later.",
+        "zh": "接着是「學生」頁面，我稍後會介紹。"
+      },
+      {
+        "start": 139.65,
+        "end": 142.63,
+        "speaker": "Dannie Wan／與會者",
+        "text": "A page for parents, so that they can get information",
+        "zh": "還有「家長」頁面，讓他們取得"
+      },
+      {
+        "start": 142.63,
+        "end": 144.71,
+        "speaker": "Dannie Wan／與會者",
+        "text": "about the college from their perspective.",
+        "zh": "從家長角度需要了解的學院資料。"
+      },
+      {
+        "start": 145.9,
+        "end": 149.34,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Then we have a Subjects page, which will include things",
+        "zh": "接着是「科目」頁面，當中會包括"
+      },
+      {
+        "start": 149.34,
+        "end": 150.62,
+        "speaker": "Dannie Wan／與會者",
+        "text": "like the course outlines.",
+        "zh": "課程大綱之類的資料。"
+      },
+      {
+        "start": 151.32,
+        "end": 154.86,
+        "speaker": "Dannie Wan／與會者",
+        "text": "And finally, there's a page for extracurricular activities.",
+        "zh": "最後是「課外活動」頁面。"
+      },
+      {
+        "start": 155.56,
+        "end": 158.12,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Ooh, they're nice photos below that.",
+        "zh": "下面的相片真漂亮。"
+      },
+      {
+        "start": 159,
+        "end": 161.8,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Yeah, I just used ones from the old website.",
+        "zh": "對，我用了舊網站的相片。"
+      },
+      {
+        "start": 162.6,
+        "end": 167.08,
+        "speaker": "Dannie Wan／與會者",
+        "text": "You can see three just now, but it's actually a gallery of 12,",
+        "zh": "目前看到三張，但相簿其實有十二張，"
+      },
+      {
+        "start": 167.42,
+        "end": 169.52,
+        "speaker": "Dannie Wan／與會者",
+        "text": "which will change every five seconds.",
+        "zh": "每五秒更換一次。"
+      },
+      {
+        "start": 170,
+        "end": 172.72,
+        "speaker": "Dannie Wan／與會者",
+        "text": "The captions below will change as well.",
+        "zh": "下方的相片說明也會更換。"
+      },
+      {
+        "start": 173.66,
+        "end": 179.04,
+        "speaker": "Dannie Wan／與會者",
+        "text": "At present, I've put up three photos and called them Sports Day.",
+        "zh": "目前我放了三張相片，其中一張叫「運動會」。"
+      },
+      {
+        "start": 180.36,
+        "end": 184.34,
+        "speaker": "Dannie Wan／與會者",
+        "text": "The one in the middle, I've called Study at AC.",
+        "zh": "中間那張，我叫它「在 AC 學習」。"
+      },
+      {
+        "start": 185.79,
+        "end": 188.91,
+        "speaker": "Dannie Wan／與會者",
+        "text": "And the other one is A Recent Visit.",
+        "zh": "另一張是「最近一次探訪」。"
+      },
+      {
+        "start": 190.26,
+        "end": 193.92,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Is that you, Cherry, in the Study at AC photo?",
+        "zh": "Cherry，「在 AC 學習」那張相片裡的是你嗎？"
+      },
+      {
+        "start": 194.48,
+        "end": 197.26,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Yeah, that's me holding up my hand.",
+        "zh": "對，舉手的就是我。"
+      },
+      {
+        "start": 197.9,
+        "end": 199.2,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Right, moving on.",
+        "zh": "好，繼續。"
+      },
+      {
+        "start": 200.34,
+        "end": 204.97,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Now, on the left of the page, left of the welcome message",
+        "zh": "現在看頁面左邊，也就是校長歡迎辭的"
+      },
+      {
+        "start": 204.97,
+        "end": 209.15,
+        "speaker": "Dannie Wan／與會者",
+        "text": "from the principal, you can see three separate boxes.",
+        "zh": "左邊，可以看到三個獨立的方格。"
+      },
+      {
+        "start": 210.44,
+        "end": 215.06,
+        "speaker": "Dannie Wan／與會者",
+        "text": "These are for important information that you want your visitors to see first.",
+        "zh": "這些用來展示你希望訪客首先看到的重要資料。"
+      },
+      {
+        "start": 216.44,
+        "end": 219.4,
+        "speaker": "Dannie Wan／與會者",
+        "text": "The first is for upcoming events.",
+        "zh": "第一個是「即將舉行的活動」。"
+      },
+      {
+        "start": 221.01,
+        "end": 225.53,
+        "speaker": "Dannie Wan／與會者",
+        "text": "People can simply click on the link and go to the interactive calendar.",
+        "zh": "只要點擊連結，就能前往互動行事曆。"
+      },
+      {
+        "start": 227.21,
+        "end": 230.85,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Then next is the Latest News section.",
+        "zh": "下一個是「最新消息」部分。"
+      },
+      {
+        "start": 232.15,
+        "end": 235.57,
+        "speaker": "Dannie Wan／與會者",
+        "text": "You can see that I've added in a link to a story.",
+        "zh": "可以看到我加了一則新聞的連結。"
+      },
+      {
+        "start": 236.53,
+        "end": 238.15,
+        "speaker": "Dannie Wan／與會者",
+        "text": "College Wins Cup?",
+        "zh": "「學院贏得獎盃」？"
+      },
+      {
+        "start": 238.93,
+        "end": 242.05,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Yes, I just made that up as a demonstration.",
+        "zh": "對，我只是編來作示範。"
+      },
+      {
+        "start": 242.75,
+        "end": 248.35,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Actually, the college has just won the District Handball Cup, so it's right.",
+        "zh": "其實學院剛贏了區際手球盃，所以說得沒錯。"
+      },
+      {
+        "start": 249.59,
+        "end": 249.99,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Excellent.",
+        "zh": "太好了。"
+      },
+      {
+        "start": 250.65,
+        "end": 252.21,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Right, where was I?",
+        "zh": "我剛才說到哪裡？"
+      },
+      {
+        "start": 252.99,
+        "end": 254.37,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Right, the next one.",
+        "zh": "對，下一個。"
+      },
+      {
+        "start": 255.09,
+        "end": 257.21,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Well, again, this is just a demo.",
+        "zh": "這個也只是示範。"
+      },
+      {
+        "start": 257.79,
+        "end": 260.21,
+        "speaker": "Dannie Wan／與會者",
+        "text": "I called this one Have Your Say.",
+        "zh": "我把它叫作「發表你的意見」。"
+      },
+      {
+        "start": 261.42,
+        "end": 267.46,
+        "speaker": "Dannie Wan／與會者",
+        "text": "It could be a link to a place where students and teachers can make comments on the college.",
+        "zh": "它可以連結到一個地方，讓學生和教師就學院發表意見。"
+      },
+      {
+        "start": 268.9,
+        "end": 270.82,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Hmm, Have Your Say.",
+        "zh": "嗯，「發表你的意見」。"
+      },
+      {
+        "start": 271.42,
+        "end": 277.5,
+        "speaker": "Dannie Wan／與會者",
+        "text": "I like the sound of it, but I'm not sure I'd like what the students might post there.",
+        "zh": "聽起來不錯，但我不肯定自己會喜歡學生在那裡貼的內容。"
+      },
+      {
+        "start": 278,
+        "end": 279.46,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Hmm, okay.",
+        "zh": "嗯，好。"
+      },
+      {
+        "start": 280.36,
+        "end": 282.18,
+        "speaker": "Dannie Wan／與會者",
+        "text": "And that's about it for the home page.",
+        "zh": "首頁大概就是這樣。"
+      },
+      {
+        "start": 283.4,
+        "end": 283.7,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Good.",
+        "zh": "好。"
+      },
+      {
+        "start": 284.78,
+        "end": 287.9,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Have you had time to work on any of the other pages?",
+        "zh": "你有時間設計其他頁面嗎？"
+      },
+      {
+        "start": 288.68,
+        "end": 289.82,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Yeah, okay.",
+        "zh": "有，好。"
+      },
+      {
+        "start": 290.54,
+        "end": 292.9,
+        "speaker": "Dannie Wan／與會者",
+        "text": "We've been working on the students page.",
+        "zh": "我們一直在製作學生頁面。"
+      },
+      {
+        "start": 293.5,
+        "end": 294.28,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Just a second.",
+        "zh": "等一下。"
+      },
+      {
+        "start": 295.76,
+        "end": 296.56,
+        "speaker": "Dannie Wan／與會者",
+        "text": "So here it is.",
+        "zh": "就是這裡。"
+      },
+      {
+        "start": 297.12,
+        "end": 298.12,
+        "speaker": "Dannie Wan／與會者",
+        "text": "The students page.",
+        "zh": "學生頁面。"
+      },
+      {
+        "start": 299.39,
+        "end": 303.99,
+        "speaker": "Dannie Wan／與會者",
+        "text": "There will be all the same things at the top of the page, as on the home page.",
+        "zh": "頁面頂部的內容會跟首頁相同。"
+      },
+      {
+        "start": 304.79,
+        "end": 307.19,
+        "speaker": "Dannie Wan／與會者",
+        "text": "So I haven't included them on the demo.",
+        "zh": "所以我沒有把它們放進示範版本。"
+      },
+      {
+        "start": 308.43,
+        "end": 311.83,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Oh, you can see three different photos here.",
+        "zh": "這裡可以看到三張不同的相片。"
+      },
+      {
+        "start": 312.17,
+        "end": 312.81,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Okay.",
+        "zh": "好。"
+      },
+      {
+        "start": 313.75,
+        "end": 317.87,
+        "speaker": "Dannie Wan／與會者",
+        "text": "The difference is in the menus on the left side of the page,",
+        "zh": "不同的地方是頁面左邊的選單，"
+      },
+      {
+        "start": 318.51,
+        "end": 322.93,
+        "speaker": "Dannie Wan／與會者",
+        "text": "where you can see that we have various links to places in the site",
+        "zh": "可以看到通往網站各部分的連結，"
+      },
+      {
+        "start": 323.46,
+        "end": 325.67,
+        "speaker": "Dannie Wan／與會者",
+        "text": "that will be of interest to the students.",
+        "zh": "都是學生感興趣的地方。"
+      },
+      {
+        "start": 327.08,
+        "end": 329.88,
+        "speaker": "Dannie Wan／與會者",
+        "text": "So we have transport at the top of the list.",
+        "zh": "清單最上方是「交通」。"
+      },
+      {
+        "start": 331.18,
+        "end": 331.38,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Good.",
+        "zh": "好。"
+      },
+      {
+        "start": 331.86,
+        "end": 335.74,
+        "speaker": "Dannie Wan／與會者",
+        "text": "If the students can't get here, then you can't teach them very much, can you?",
+        "zh": "如果學生無法來到這裡，你也教不了他們多少，對吧？"
+      },
+      {
+        "start": 336.12,
+        "end": 337.32,
+        "speaker": "Dannie Wan／與會者",
+        "text": "That's what I always say.",
+        "zh": "我總是這樣說。"
+      },
+      {
+        "start": 339.95,
+        "end": 342.23,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Yes, so transport.",
+        "zh": "對，所以是「交通」。"
+      },
+      {
+        "start": 343.53,
+        "end": 345.55,
+        "speaker": "Dannie Wan／與會者",
+        "text": "And then we have canteen.",
+        "zh": "然後是「食堂」。"
+      },
+      {
+        "start": 346.73,
+        "end": 349.17,
+        "speaker": "Dannie Wan／與會者",
+        "text": "The next one's something quite new.",
+        "zh": "下一項是相當新的東西。"
+      },
+      {
+        "start": 349.93,
+        "end": 355.79,
+        "speaker": "Dannie Wan／與會者",
+        "text": "And this is the Acquaint, the social networking facility that we have introduced.",
+        "zh": "就是我們引入的社交網絡設施 ACquaint。"
+      },
+      {
+        "start": 356.97,
+        "end": 360.77,
+        "speaker": "Dannie Wan／與會者",
+        "text": "It's still in production, so we can't show it to you yet.",
+        "zh": "它仍在製作中，所以暫時不能展示。"
+      },
+      {
+        "start": 361.57,
+        "end": 364.53,
+        "speaker": "Dannie Wan／與會者",
+        "text": "But users will be able to access it from here.",
+        "zh": "不過用戶將能從這裡進入。"
+      },
+      {
+        "start": 365.71,
+        "end": 369.51,
+        "speaker": "Dannie Wan／與會者",
+        "text": "I've just included some examples of what you could do with Acquaint.",
+        "zh": "我列了幾個例子，說明可以用 ACquaint 做什麼。"
+      },
+      {
+        "start": 370.46,
+        "end": 373.36,
+        "speaker": "Dannie Wan／與會者",
+        "text": "The examples I've put here are share content,",
+        "zh": "這裡列出的例子有分享內容、"
+      },
+      {
+        "start": 374.77,
+        "end": 375.87,
+        "speaker": "Dannie Wan／與會者",
+        "text": "meet new friends,",
+        "zh": "結識新朋友，"
+      },
+      {
+        "start": 376.77,
+        "end": 381.11,
+        "speaker": "Dannie Wan／與會者",
+        "text": "and maybe the most important, build relationships.",
+        "zh": "以及可能是最重要的：建立人際關係。"
+      },
+      {
+        "start": 382.46,
+        "end": 383.32,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Yep, looks good.",
+        "zh": "對，看起來不錯。"
+      },
+      {
+        "start": 383.86,
+        "end": 385.9,
+        "speaker": "Dannie Wan／與會者",
+        "text": "That last one, build relationships.",
+        "zh": "最後那一點，建立人際關係。"
+      },
+      {
+        "start": 386.78,
+        "end": 390.6,
+        "speaker": "Dannie Wan／與會者",
+        "text": "It'd be really good if we could use the website to build relationships,",
+        "zh": "如果我們能利用網站建立人際關係，那就很好，"
+      },
+      {
+        "start": 391.3,
+        "end": 396.22,
+        "speaker": "Dannie Wan／與會者",
+        "text": "you know, between students and students and between students and teachers.",
+        "zh": "例如學生彼此之間，以及學生與教師之間的關係。"
+      },
+      {
+        "start": 397.18,
+        "end": 397.46,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Yeah.",
+        "zh": "對。"
+      },
+      {
+        "start": 398.06,
+        "end": 401.48,
+        "speaker": "Dannie Wan／與會者",
+        "text": "So the other major thing we've included on the menu,",
+        "zh": "所以我們在選單中加入的另一個主要項目，"
+      },
+      {
+        "start": 401.76,
+        "end": 405.04,
+        "speaker": "Dannie Wan／與會者",
+        "text": "on the students page, is academe.",
+        "zh": "是在學生頁面上的 Academe。"
+      },
+      {
+        "start": 405.04,
+        "end": 408.26,
+        "speaker": "Dannie Wan／與會者",
+        "text": "The new learning management system.",
+        "zh": "就是新的學習管理系統。"
+      },
+      {
+        "start": 409.24,
+        "end": 410.08,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Acco...",
+        "zh": "「Acco……」"
+      },
+      {
+        "start": 410.08,
+        "end": 410.52,
+        "speaker": "Dannie Wan／與會者",
+        "text": "What?",
+        "zh": "什麼？"
+      },
+      {
+        "start": 412.02,
+        "end": 412.7,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Accadeen.",
+        "zh": "「Academe」。"
+      },
+      {
+        "start": 413.42,
+        "end": 418.06,
+        "speaker": "Dannie Wan／與會者",
+        "text": "A, C, A, D, E, M, E.",
+        "zh": "拼作 A、C、A、D、E、M、E。"
+      },
+      {
+        "start": 419.34,
+        "end": 422.92,
+        "speaker": "Dannie Wan／與會者",
+        "text": "It means the academic or learning environment,",
+        "zh": "它的意思是學術或學習環境，"
+      },
+      {
+        "start": 423.44,
+        "end": 427.36,
+        "speaker": "Dannie Wan／與會者",
+        "text": "and also begins with AC for Aberdeen College.",
+        "zh": "也以 AC 開頭，代表 Aberdeen College。"
+      },
+      {
+        "start": 427.82,
+        "end": 429.12,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Oh yeah, very good.",
+        "zh": "啊，對，很好。"
+      },
+      {
+        "start": 429.92,
+        "end": 434.92,
+        "speaker": "Dannie Wan／與會者",
+        "text": "And again, we're working on that and hope to have it ready for you to see soon.",
+        "zh": "這個也還在製作，希望很快能準備好，展示給大家看。"
+      },
+      {
+        "start": 436.1,
+        "end": 439.78,
+        "speaker": "Dannie Wan／與會者",
+        "text": "So after academe, we have a link to the library,",
+        "zh": "Academe 之後，有通往圖書館的連結，"
+      },
+      {
+        "start": 440.36,
+        "end": 443.58,
+        "speaker": "Dannie Wan／與會者",
+        "text": "and then two links are to the dreaded examinations.",
+        "zh": "再來是兩個通往可怕的考試資料的連結。"
+      },
+      {
+        "start": 445.11,
+        "end": 449.69,
+        "speaker": "Dannie Wan／與會者",
+        "text": "We have separate links to exam information and exam results.",
+        "zh": "我們把「考試資訊」和「考試成績」分成兩個連結。"
+      },
+      {
+        "start": 450.55,
+        "end": 450.67,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Yeah.",
+        "zh": "對。"
+      },
+      {
+        "start": 450.99,
+        "end": 453.23,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Well, exams are on everybody's minds.",
+        "zh": "大家都很關心考試。"
+      },
+      {
+        "start": 453.91,
+        "end": 454.61,
+        "speaker": "Dannie Wan／與會者",
+        "text": "So, good.",
+        "zh": "所以，很好。"
+      },
+      {
+        "start": 455.05,
+        "end": 455.29,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Yeah.",
+        "zh": "對。"
+      },
+      {
+        "start": 455.85,
+        "end": 457.81,
+        "speaker": "Dannie Wan／與會者",
+        "text": "We can provide the information here.",
+        "zh": "我們可以在這裡提供資訊。"
+      },
+      {
+        "start": 459.02,
+        "end": 461.96,
+        "speaker": "Dannie Wan／與會者",
+        "text": "I don't know what you're looking so worried about, Cherry.",
+        "zh": "Cherry，我不知道你為什麼看起來那麼擔心。"
+      },
+      {
+        "start": 462.49,
+        "end": 466.82,
+        "speaker": "Dannie Wan／與會者",
+        "text": "As far as I can gather, you do pretty well in examinations anyway.",
+        "zh": "據我所知，你的考試成績其實不錯。"
+      },
+      {
+        "start": 467.16,
+        "end": 469.28,
+        "speaker": "Dannie Wan／與會者",
+        "text": "Well, it depends on the subject.",
+        "zh": "那要看是哪一科。"
+      },
+      {
+        "start": 470.02,
+        "end": 471.86,
+        "speaker": "Dannie Wan／與會者",
+        "text": "And that's about it so far.",
+        "zh": "目前大概就是這樣。"
+      },
+      {
+        "start": 473.22,
+        "end": 475.04,
+        "speaker": "Narrator",
+        "text": "That is the end of task two.",
+        "zh": "任務二完結。"
+      },
+      {
+        "start": 476.17,
+        "end": 479.27,
+        "speaker": "Narrator",
+        "text": "You now have one minute to tidy up your answers.",
+        "zh": "你現在有一分鐘時間整理答案。"
+      }
+    ],
+    "3": [
+      {
+        "start": 0.01,
+        "end": 0.67,
+        "speaker": "Narrator",
+        "text": "Task three.",
+        "zh": "任務三。"
+      },
+      {
+        "start": 1.98,
+        "end": 5.64,
+        "speaker": "Narrator",
+        "text": "Cherry is now talking to a group of form five and six students",
+        "zh": "Cherry 現在正與一群中五和中六學生交談，"
+      },
+      {
+        "start": 5.64,
+        "end": 10.4,
+        "speaker": "Narrator",
+        "text": "about the college's online systems and issues about studying online.",
+        "zh": "討論學院的網上系統及網上學習的相關問題。"
+      },
+      {
+        "start": 11.44,
+        "end": 15.22,
+        "speaker": "Narrator",
+        "text": "Complete the information in the spaces provided as you listen.",
+        "zh": "請一邊聆聽，一邊在空格填寫資料。"
+      },
+      {
+        "start": 16.18,
+        "end": 18.42,
+        "speaker": "Narrator",
+        "text": "One has been done for you as an example.",
+        "zh": "其中一項已作例子提供。"
+      },
+      {
+        "start": 19.54,
+        "end": 22.5,
+        "speaker": "Narrator",
+        "text": "You now have 30 seconds to study the task.",
+        "zh": "你現在有三十秒時間閱讀題目。"
+      },
+      {
+        "start": 23.41,
+        "end": 28.75,
+        "speaker": "Narrator",
+        "text": "At the end of the task, you will have one and a half minutes to tidy up your answers.",
+        "zh": "任務結束後，你將有一分半鐘時間整理答案。"
+      },
+      {
+        "start": 60,
+        "end": 60.38,
+        "speaker": "Students and Cherry",
+        "text": "Okay.",
+        "zh": "好。"
+      },
+      {
+        "start": 60.6,
+        "end": 61.8,
+        "speaker": "Students and Cherry",
+        "text": "Thanks everyone for coming.",
+        "zh": "謝謝大家前來。"
+      },
+      {
+        "start": 62.68,
+        "end": 64.68,
+        "speaker": "Students and Cherry",
+        "text": "I hope you don't mind me recording this.",
+        "zh": "希望你們不介意我錄下這次討論。"
+      },
+      {
+        "start": 65.79,
+        "end": 68.67,
+        "speaker": "Students and Cherry",
+        "text": "Perhaps we can start with everybody saying a little bit",
+        "zh": "不如先請大家簡單說說，"
+      },
+      {
+        "start": 68.67,
+        "end": 71.93,
+        "speaker": "Students and Cherry",
+        "text": "about what they think the main issues are about.",
+        "zh": "你們認為主要的問題是什麼，"
+      },
+      {
+        "start": 72.35,
+        "end": 75.99,
+        "speaker": "Students and Cherry",
+        "text": "You know, studying online at Aberdeen College.",
+        "zh": "就是在 Aberdeen College 進行網上學習這方面。"
+      },
+      {
+        "start": 76.64,
+        "end": 77.2,
+        "speaker": "Students and Cherry",
+        "text": "Right.",
+        "zh": "好。"
+      },
+      {
+        "start": 77.62,
+        "end": 78.64,
+        "speaker": "Students and Cherry",
+        "text": "Well, I can start.",
+        "zh": "那我先開始。"
+      },
+      {
+        "start": 79.44,
+        "end": 83.78,
+        "speaker": "Students and Cherry",
+        "text": "I think I should say from the outset that there's no way you can replace real learning",
+        "zh": "首先我想說，真正在課室裡的學習，根本不可能"
+      },
+      {
+        "start": 83.78,
+        "end": 88.08,
+        "speaker": "Students and Cherry",
+        "text": "in the classroom with reading from websites and watching videos on YouTube.",
+        "zh": "由閱讀網站和看 YouTube 影片來取代。"
+      },
+      {
+        "start": 88.86,
+        "end": 89.02,
+        "speaker": "Students and Cherry",
+        "text": "Sorry.",
+        "zh": "不好意思。"
+      },
+      {
+        "start": 89.52,
+        "end": 90.86,
+        "speaker": "Students and Cherry",
+        "text": "Can you introduce yourself?",
+        "zh": "可以先介紹自己嗎？"
+      },
+      {
+        "start": 91.42,
+        "end": 92.1,
+        "speaker": "Students and Cherry",
+        "text": "Oh, sorry.",
+        "zh": "啊，不好意思。"
+      },
+      {
+        "start": 92.62,
+        "end": 94.08,
+        "speaker": "Students and Cherry",
+        "text": "I'm Grace Yao from 5C.",
+        "zh": "我是 5C 班的 Grace Yau。"
+      },
+      {
+        "start": 94.44,
+        "end": 94.74,
+        "speaker": "Students and Cherry",
+        "text": "Okay.",
+        "zh": "好。"
+      },
+      {
+        "start": 95.22,
+        "end": 96.86,
+        "speaker": "Students and Cherry",
+        "text": "Grace, please go on.",
+        "zh": "Grace，請繼續。"
+      },
+      {
+        "start": 96.86,
+        "end": 102.9,
+        "speaker": "Students and Cherry",
+        "text": "You were saying that learning online can't replace classroom learning.",
+        "zh": "你剛才說，網上學習不能取代課堂學習。"
+      },
+      {
+        "start": 103.84,
+        "end": 103.86,
+        "speaker": "Students and Cherry",
+        "text": "Yeah.",
+        "zh": "對。"
+      },
+      {
+        "start": 104.4,
+        "end": 107.42,
+        "speaker": "Students and Cherry",
+        "text": "I mean, learning is meant to be interactive, right?",
+        "zh": "學習應該是互動的，對吧？"
+      },
+      {
+        "start": 107.96,
+        "end": 110.68,
+        "speaker": "Students and Cherry",
+        "text": "We learn from teachers and we learn from classmates.",
+        "zh": "我們向教師學習，也向同學學習。"
+      },
+      {
+        "start": 111.32,
+        "end": 114.94,
+        "speaker": "Students and Cherry",
+        "text": "We learn by listening to people who know more than us like the teacher",
+        "zh": "我們聆聽比自己懂得更多的人，例如教師，從而學習，"
+      },
+      {
+        "start": 114.94,
+        "end": 118.18,
+        "speaker": "Students and Cherry",
+        "text": "and by talking to people who are learning along with us.",
+        "zh": "也透過與一起學習的人交談來學習。"
+      },
+      {
+        "start": 118.78,
+        "end": 123.56,
+        "speaker": "Students and Cherry",
+        "text": "We also learn by doing things like in science, we learn by doing experiments",
+        "zh": "我們也會從實作中學習，例如科學課做實驗，"
+      },
+      {
+        "start": 123.56,
+        "end": 126.28,
+        "speaker": "Students and Cherry",
+        "text": "and in art, we learn by creating things.",
+        "zh": "美術課則透過創作學習。"
+      },
+      {
+        "start": 126.28,
+        "end": 129.34,
+        "speaker": "Students and Cherry",
+        "text": "You can create things on computers as well.",
+        "zh": "電腦上也能進行創作。"
+      },
+      {
+        "start": 130.41,
+        "end": 132.45,
+        "speaker": "Students and Cherry",
+        "text": "Yeah, but it's not the same dough, is it?",
+        "zh": "對，但那並不一樣，對吧？"
+      },
+      {
+        "start": 132.93,
+        "end": 137.09,
+        "speaker": "Students and Cherry",
+        "text": "I think computers and iPads and iPhones are brilliant for playing games",
+        "zh": "我覺得電腦、iPad 和 iPhone 用來玩遊戲，"
+      },
+      {
+        "start": 137.09,
+        "end": 138.95,
+        "speaker": "Students and Cherry",
+        "text": "and chatting with our friends and stuff.",
+        "zh": "或者跟朋友聊天之類，都很棒。"
+      },
+      {
+        "start": 139.37,
+        "end": 141.31,
+        "speaker": "Students and Cherry",
+        "text": "But it's not real learning, is it?",
+        "zh": "但那並不是真正的學習，對吧？"
+      },
+      {
+        "start": 141.95,
+        "end": 142.37,
+        "speaker": "Students and Cherry",
+        "text": "Okay.",
+        "zh": "好。"
+      },
+      {
+        "start": 142.75,
+        "end": 146.61,
+        "speaker": "Students and Cherry",
+        "text": "Maybe you can tell us more about what you think.",
+        "zh": "不如你再詳細說說自己的想法。"
+      },
+      {
+        "start": 147.23,
+        "end": 148.43,
+        "speaker": "Students and Cherry",
+        "text": "What's your name again?",
+        "zh": "你叫什麼名字？"
+      },
+      {
+        "start": 149.03,
+        "end": 149.31,
+        "speaker": "Students and Cherry",
+        "text": "Me.",
+        "zh": "我？"
+      },
+      {
+        "start": 149.97,
+        "end": 151.55,
+        "speaker": "Students and Cherry",
+        "text": "My name's Icarus Liu.",
+        "zh": "我叫 Icarus Liu。"
+      },
+      {
+        "start": 152.41,
+        "end": 152.91,
+        "speaker": "Students and Cherry",
+        "text": "Icarus.",
+        "zh": "Icarus。"
+      },
+      {
+        "start": 153.29,
+        "end": 154.67,
+        "speaker": "Students and Cherry",
+        "text": "That's an unusual name.",
+        "zh": "這個名字很特別。"
+      },
+      {
+        "start": 155.07,
+        "end": 156.03,
+        "speaker": "Students and Cherry",
+        "text": "How do you spell that?",
+        "zh": "怎樣拼寫？"
+      },
+      {
+        "start": 156.31,
+        "end": 163.65,
+        "speaker": "Students and Cherry",
+        "text": "I, C, A, R, U, S, Icarus, U, L, I, U.",
+        "zh": "I、C、A、R、U、S，Icarus；Liu，L、I、U。"
+      },
+      {
+        "start": 164.05,
+        "end": 165.09,
+        "speaker": "Students and Cherry",
+        "text": "Okay, Icarus.",
+        "zh": "好，Icarus。"
+      },
+      {
+        "start": 165.49,
+        "end": 166.29,
+        "speaker": "Students and Cherry",
+        "text": "What do you think?",
+        "zh": "你怎麼看？"
+      },
+      {
+        "start": 167.01,
+        "end": 174.15,
+        "speaker": "Students and Cherry",
+        "text": "Well, I mean, we all have computers at home and a lot of students have laptops as well.",
+        "zh": "我們家裡都有電腦，很多學生也有手提電腦。"
+      },
+      {
+        "start": 174.81,
+        "end": 178.03,
+        "speaker": "Students and Cherry",
+        "text": "So we can all access online learning materials.",
+        "zh": "所以我們都能取得網上學習材料。"
+      },
+      {
+        "start": 178.83,
+        "end": 184.33,
+        "speaker": "Students and Cherry",
+        "text": "So I think we should be using that environment to learn much more than we do.",
+        "zh": "因此我認為，我們應該比現在更多地利用這個環境學習。"
+      },
+      {
+        "start": 184.33,
+        "end": 188.25,
+        "speaker": "Students and Cherry",
+        "text": "To be honest, I learn more at home than at school.",
+        "zh": "老實說，我在家裡學到的比在學校更多。"
+      },
+      {
+        "start": 189.25,
+        "end": 191.65,
+        "speaker": "Students and Cherry",
+        "text": "That's quite a bold statement there, Icarus.",
+        "zh": "Icarus，這說法相當大膽。"
+      },
+      {
+        "start": 192.13,
+        "end": 192.43,
+        "speaker": "Students and Cherry",
+        "text": "Yeah.",
+        "zh": "對。"
+      },
+      {
+        "start": 193.07,
+        "end": 196.33,
+        "speaker": "Students and Cherry",
+        "text": "I mean, there's lots of ways we can learn online.",
+        "zh": "網上學習有很多方式。"
+      },
+      {
+        "start": 196.99,
+        "end": 200.09,
+        "speaker": "Students and Cherry",
+        "text": "We can use video conferencing to talk to people.",
+        "zh": "我們可以用視像會議跟別人交談，"
+      },
+      {
+        "start": 200.75,
+        "end": 203.33,
+        "speaker": "Students and Cherry",
+        "text": "And we can use all kinds of creative software.",
+        "zh": "也可以用各種創意軟件。"
+      },
+      {
+        "start": 204.01,
+        "end": 206.97,
+        "speaker": "Students and Cherry",
+        "text": "What do you mean, creative software?",
+        "zh": "你說的創意軟件是什麼意思？"
+      },
+      {
+        "start": 208.57,
+        "end": 213.37,
+        "speaker": "Students and Cherry",
+        "text": "Creative software, you know, to draw or design things.",
+        "zh": "就是用來繪畫或者設計東西的創意軟件。"
+      },
+      {
+        "start": 213.37,
+        "end": 214.29,
+        "speaker": "Students and Cherry",
+        "text": "Oh, right.",
+        "zh": "哦，明白。"
+      },
+      {
+        "start": 214.59,
+        "end": 214.85,
+        "speaker": "Students and Cherry",
+        "text": "Okay.",
+        "zh": "好。"
+      },
+      {
+        "start": 215.73,
+        "end": 216.03,
+        "speaker": "Students and Cherry",
+        "text": "Right.",
+        "zh": "好。"
+      },
+      {
+        "start": 216.33,
+        "end": 217.65,
+        "speaker": "Students and Cherry",
+        "text": "Maybe I'll ask somebody else.",
+        "zh": "不如問問其他人。"
+      },
+      {
+        "start": 218.83,
+        "end": 219.41,
+        "speaker": "Students and Cherry",
+        "text": "Yes.",
+        "zh": "是。"
+      },
+      {
+        "start": 220.19,
+        "end": 220.43,
+        "speaker": "Students and Cherry",
+        "text": "Yeah.",
+        "zh": "對。"
+      },
+      {
+        "start": 220.75,
+        "end": 223.67,
+        "speaker": "Students and Cherry",
+        "text": "Hi, I'm Michael Ong from 6B.",
+        "zh": "大家好，我是 6B 班的 Michael Ong。"
+      },
+      {
+        "start": 224.51,
+        "end": 228.29,
+        "speaker": "Students and Cherry",
+        "text": "Obviously, I haven't thought about this as much as grace and Icarus.",
+        "zh": "顯然，我沒有像 Grace 和 Icarus 那樣深入想過這件事。"
+      },
+      {
+        "start": 229.03,
+        "end": 231.33,
+        "speaker": "Students and Cherry",
+        "text": "I'm still not sure about all this really.",
+        "zh": "其實我對這一切仍未有確定看法。"
+      },
+      {
+        "start": 232.19,
+        "end": 236.51,
+        "speaker": "Students and Cherry",
+        "text": "I mean, I can now be reading, you know, a book or whatever.",
+        "zh": "例如，我現在讀一本書或其他東西時，"
+      },
+      {
+        "start": 237.23,
+        "end": 242.35,
+        "speaker": "Students and Cherry",
+        "text": "And I can look up any words I don't know on an online dictionary instantly",
+        "zh": "可以即時用網上字典查閱不認識的字，"
+      },
+      {
+        "start": 242.35,
+        "end": 243.71,
+        "speaker": "Students and Cherry",
+        "text": "and learn that way.",
+        "zh": "從中學習。"
+      },
+      {
+        "start": 244.59,
+        "end": 248.17,
+        "speaker": "Students and Cherry",
+        "text": "But I still want to share what I've learned with my classmates as well",
+        "zh": "但我仍然想與同學分享所學，"
+      },
+      {
+        "start": 248.83,
+        "end": 251.55,
+        "speaker": "Students and Cherry",
+        "text": "and get my teachers advised on how to use it.",
+        "zh": "也想就如何運用所學徵求教師的意見。"
+      },
+      {
+        "start": 252.46,
+        "end": 252.66,
+        "speaker": "Students and Cherry",
+        "text": "Okay.",
+        "zh": "好。"
+      },
+      {
+        "start": 253.22,
+        "end": 257.3,
+        "speaker": "Students and Cherry",
+        "text": "I want to switch the focus of our discussion a little now",
+        "zh": "現在我想稍微轉換討論焦點，"
+      },
+      {
+        "start": 257.3,
+        "end": 260.92,
+        "speaker": "Students and Cherry",
+        "text": "and ask how you'd feel about having a facility",
+        "zh": "問問大家對一項設施的看法，"
+      },
+      {
+        "start": 261.62,
+        "end": 266.06,
+        "speaker": "Students and Cherry",
+        "text": "that lets students and teachers communicate with each other.",
+        "zh": "它能讓學生和教師互相溝通。"
+      },
+      {
+        "start": 266.83,
+        "end": 268.71,
+        "speaker": "Students and Cherry",
+        "text": "We can do that already through Facebook.",
+        "zh": "我們已經可以透過 Facebook 這樣做。"
+      },
+      {
+        "start": 269.57,
+        "end": 271.75,
+        "speaker": "Students and Cherry",
+        "text": "Why not just have a college Facebook page?",
+        "zh": "何不直接開設學院的 Facebook 專頁？"
+      },
+      {
+        "start": 272.61,
+        "end": 274.49,
+        "speaker": "Students and Cherry",
+        "text": "That's an option we've talked about.",
+        "zh": "這是我們討論過的其中一個選項。"
+      },
+      {
+        "start": 274.95,
+        "end": 276.47,
+        "speaker": "Students and Cherry",
+        "text": "Do you think it would be a good idea?",
+        "zh": "你覺得是好主意嗎？"
+      },
+      {
+        "start": 277.39,
+        "end": 279.43,
+        "speaker": "Students and Cherry",
+        "text": "No, I think it's too dangerous.",
+        "zh": "不，我覺得太危險了。"
+      },
+      {
+        "start": 280.13,
+        "end": 282.81,
+        "speaker": "Students and Cherry",
+        "text": "Students are too keen to put themselves on Facebook.",
+        "zh": "學生太急於在 Facebook 展示自己。"
+      },
+      {
+        "start": 283.65,
+        "end": 287.25,
+        "speaker": "Students and Cherry",
+        "text": "They post all sorts of personal stuff like, I don't know,",
+        "zh": "他們貼出各種個人資料，例如，"
+      },
+      {
+        "start": 287.53,
+        "end": 291.29,
+        "speaker": "Students and Cherry",
+        "text": "they put up videos of themselves and they give out their phone number.",
+        "zh": "上載自己的影片，並公開電話號碼。"
+      },
+      {
+        "start": 291.79,
+        "end": 293.43,
+        "speaker": "Students and Cherry",
+        "text": "I just think it's dangerous.",
+        "zh": "我就是覺得很危險。"
+      },
+      {
+        "start": 295.7,
+        "end": 296.82,
+        "speaker": "Students and Cherry",
+        "text": "Dangerous how, Grace?",
+        "zh": "Grace，怎樣危險？"
+      },
+      {
+        "start": 297.72,
+        "end": 301.82,
+        "speaker": "Students and Cherry",
+        "text": "Because you don't know who's going to be reading all of this personal stuff.",
+        "zh": "因為你不知道誰會看這些個人資料。"
+      },
+      {
+        "start": 302.32,
+        "end": 306.32,
+        "speaker": "Students and Cherry",
+        "text": "I mean, if you do post your phone number, it's really stupid.",
+        "zh": "如果公開自己的電話號碼，實在很不明智。"
+      },
+      {
+        "start": 307.38,
+        "end": 310.18,
+        "speaker": "Students and Cherry",
+        "text": "Yeah, but you can control who sees your information.",
+        "zh": "對，但你可以控制誰能看到你的資料。"
+      },
+      {
+        "start": 310.88,
+        "end": 311.34,
+        "speaker": "Students and Cherry",
+        "text": "I know.",
+        "zh": "我知道。"
+      },
+      {
+        "start": 311.56,
+        "end": 312.3,
+        "speaker": "Students and Cherry",
+        "text": "I know you can.",
+        "zh": "我知道可以。"
+      },
+      {
+        "start": 313.02,
+        "end": 314.92,
+        "speaker": "Students and Cherry",
+        "text": "But a lot of students just don't bother",
+        "zh": "但很多學生懶得這樣做，"
+      },
+      {
+        "start": 314.92,
+        "end": 317.4,
+        "speaker": "Students and Cherry",
+        "text": "and they say yes to every friend request,",
+        "zh": "而且每個交友邀請都接受，"
+      },
+      {
+        "start": 317.94,
+        "end": 319.5,
+        "speaker": "Students and Cherry",
+        "text": "even if they don't know that person.",
+        "zh": "即使根本不認識對方。"
+      },
+      {
+        "start": 320,
+        "end": 321.12,
+        "speaker": "Students and Cherry",
+        "text": "Okay, fine.",
+        "zh": "好吧。"
+      },
+      {
+        "start": 321.54,
+        "end": 322.78,
+        "speaker": "Students and Cherry",
+        "text": "There are always dangers.",
+        "zh": "危險總會存在。"
+      },
+      {
+        "start": 323.46,
+        "end": 328.3,
+        "speaker": "Students and Cherry",
+        "text": "I would never give out personal information like my home address or whatever.",
+        "zh": "我絕不會公開住址之類的個人資料。"
+      },
+      {
+        "start": 328.94,
+        "end": 330.38,
+        "speaker": "Students and Cherry",
+        "text": "But often people do.",
+        "zh": "但人們往往會這樣做。"
+      },
+      {
+        "start": 330.74,
+        "end": 331.38,
+        "speaker": "Students and Cherry",
+        "text": "That's the point.",
+        "zh": "問題就在這裡。"
+      },
+      {
+        "start": 331.82,
+        "end": 335.28,
+        "speaker": "Students and Cherry",
+        "text": "I think some students are just too eager to make new friends.",
+        "zh": "我覺得有些學生只是太急於結識新朋友。"
+      },
+      {
+        "start": 336.14,
+        "end": 341.4,
+        "speaker": "Students and Cherry",
+        "text": "No, the point is that people need to learn that doing that sort of thing is stupid.",
+        "zh": "不，重點是大家需要學會，做那種事是愚蠢的。"
+      },
+      {
+        "start": 342.3,
+        "end": 342.76,
+        "speaker": "Students and Cherry",
+        "text": "Michael?",
+        "zh": "Michael？"
+      },
+      {
+        "start": 344,
+        "end": 346.16,
+        "speaker": "Students and Cherry",
+        "text": "I tend to agree with Icarus.",
+        "zh": "我比較同意 Icarus。"
+      },
+      {
+        "start": 346.74,
+        "end": 351.62,
+        "speaker": "Students and Cherry",
+        "text": "Making friends online is one of the great benefits of having an online social network.",
+        "zh": "在網上交朋友，是社交網絡的一大好處。"
+      },
+      {
+        "start": 352.26,
+        "end": 354.82,
+        "speaker": "Students and Cherry",
+        "text": "It's part of the reality of the outside world.",
+        "zh": "這是外面世界的現實生活的一部分。"
+      },
+      {
+        "start": 355.56,
+        "end": 357.62,
+        "speaker": "Students and Cherry",
+        "text": "The school should get a social network",
+        "zh": "學校應該建立一個社交網絡，"
+      },
+      {
+        "start": 357.62,
+        "end": 362.12,
+        "speaker": "Students and Cherry",
+        "text": "and then take the opportunity to educate students about the dangers,",
+        "zh": "然後藉機教育學生認識當中的危險，"
+      },
+      {
+        "start": 362.62,
+        "end": 365.22,
+        "speaker": "Students and Cherry",
+        "text": "not just pretend that the dangers don't exist.",
+        "zh": "而不是假裝那些危險不存在。"
+      },
+      {
+        "start": 365.74,
+        "end": 366.02,
+        "speaker": "Students and Cherry",
+        "text": "Totally.",
+        "zh": "完全同意。"
+      },
+      {
+        "start": 366.48,
+        "end": 366.72,
+        "speaker": "Students and Cherry",
+        "text": "Yeah.",
+        "zh": "對。"
+      },
+      {
+        "start": 367.42,
+        "end": 371.48,
+        "speaker": "Students and Cherry",
+        "text": "Use technology to educate students about the dangers.",
+        "zh": "利用科技教育學生認識危險。"
+      },
+      {
+        "start": 371.9,
+        "end": 372.16,
+        "speaker": "Students and Cherry",
+        "text": "Yeah.",
+        "zh": "對。"
+      },
+      {
+        "start": 373.13,
+        "end": 375.27,
+        "speaker": "Narrator",
+        "text": "That is the end of task three.",
+        "zh": "任務三完結。"
+      },
+      {
+        "start": 375.87,
+        "end": 379.31,
+        "speaker": "Narrator",
+        "text": "You now have one and a half minutes to complete your answers.",
+        "zh": "你現在有一分半鐘時間完成答案。"
+      }
+    ],
+    "4": [
+      {
+        "start": 0,
+        "end": 5.93,
+        "speaker": "Narrator",
+        "text": "Cherry and her friend Roland are listening to a podcast about online systems.",
+        "zh": "Cherry 和她的朋友 Rowland 正在收聽一個關於網上系統的播客。"
+      },
+      {
+        "start": 6.59,
+        "end": 10.61,
+        "speaker": "Narrator",
+        "text": "Complete the information in the spaces provided as you listen.",
+        "zh": "請一邊聆聽，一邊在空格填寫資料。"
+      },
+      {
+        "start": 11.84,
+        "end": 14.5,
+        "speaker": "Narrator",
+        "text": "Please note that for the summary of the podcast,",
+        "zh": "請注意，在播客摘要部分，"
+      },
+      {
+        "start": 15.3,
+        "end": 19.18,
+        "speaker": "Narrator",
+        "text": "you should use no more than three words to complete each gap.",
+        "zh": "每個空格的答案不得超過三個字。"
+      },
+      {
+        "start": 20.14,
+        "end": 22.62,
+        "speaker": "Narrator",
+        "text": "You now have one minute to study the task.",
+        "zh": "你現在有一分鐘時間閱讀題目。"
+      },
+      {
+        "start": 23.3,
+        "end": 27.52,
+        "speaker": "Narrator",
+        "text": "At the end of the task, you will have two minutes to tidy up your answers.",
+        "zh": "任務結束後，你將有兩分鐘時間整理答案。"
+      },
+      {
+        "start": 89.76,
+        "end": 92.6,
+        "speaker": "Podcast",
+        "text": "Do you want to listen to that podcast I was telling you about?",
+        "zh": "你想聽聽我之前提到的那個播客嗎？"
+      },
+      {
+        "start": 93.15,
+        "end": 97.72,
+        "speaker": "Podcast",
+        "text": "It's by a guy called Jerry Brooker and he talks.",
+        "zh": "製作者叫 Jerry Brooker，他談的是，"
+      },
+      {
+        "start": 98.22,
+        "end": 105.24,
+        "speaker": "Podcast",
+        "text": "He's talking about how what the effect is of social networks on people's use of email.",
+        "zh": "社交網絡如何影響人們使用電郵。"
+      },
+      {
+        "start": 106.22,
+        "end": 106.26,
+        "speaker": "Podcast",
+        "text": "Cool.",
+        "zh": "好啊。"
+      },
+      {
+        "start": 106.58,
+        "end": 107.14,
+        "speaker": "Podcast",
+        "text": "Let's listen.",
+        "zh": "來聽吧。"
+      },
+      {
+        "start": 108.09,
+        "end": 108.41,
+        "speaker": "Podcast",
+        "text": "Okay.",
+        "zh": "好。"
+      },
+      {
+        "start": 108.65,
+        "end": 109.51,
+        "speaker": "Podcast",
+        "text": "Here we go.",
+        "zh": "開始了。"
+      },
+      {
+        "start": 110.49,
+        "end": 115.75,
+        "speaker": "Podcast",
+        "text": "The idea of email becoming extinct anytime soon may seem silly,",
+        "zh": "說電郵很快會絕跡，可能聽起來很可笑，"
+      },
+      {
+        "start": 115.93,
+        "end": 122.13,
+        "speaker": "Podcast",
+        "text": "but chances are strong that you used web-based email less in 2011",
+        "zh": "但你在 2011 年使用網頁電郵的次數，很可能比"
+      },
+      {
+        "start": 122.83,
+        "end": 124.17,
+        "speaker": "Podcast",
+        "text": "than in 2010.",
+        "zh": "2010 年少。"
+      },
+      {
+        "start": 125.2,
+        "end": 130.7,
+        "speaker": "Podcast",
+        "text": "A recent report, the 2012 US Digital Year in Review",
+        "zh": "最近有份報告《2012 年美國數碼年度回顧》，"
+      },
+      {
+        "start": 131.16,
+        "end": 137.28,
+        "speaker": "Podcast",
+        "text": "showed that web-based email usage was down for just about every age group under 55",
+        "zh": "顯示幾乎所有五十五歲以下年齡組別使用網頁電郵的情況，"
+      },
+      {
+        "start": 137.74,
+        "end": 143.46,
+        "speaker": "Podcast",
+        "text": "from 2010 to 2011 with the 12 to 17 age group",
+        "zh": "從 2010 到 2011 年都下降，其中十二至十七歲組別"
+      },
+      {
+        "start": 143.46,
+        "end": 146.94,
+        "speaker": "Podcast",
+        "text": "showing the largest decline at a staggering 59%.",
+        "zh": "跌幅最大，達到驚人的百分之五十九。"
+      },
+      {
+        "start": 148.06,
+        "end": 153.64,
+        "speaker": "Podcast",
+        "text": "Web-based email or webmail refers to email access through a browser.",
+        "zh": "網頁電郵，是指透過瀏覽器存取的電郵。"
+      },
+      {
+        "start": 154.48,
+        "end": 158.8,
+        "speaker": "Podcast",
+        "text": "So think Gmail, Hotmail, Yahoo Mail, et cetera,",
+        "zh": "例如 Gmail、Hotmail、Yahoo Mail 等，"
+      },
+      {
+        "start": 158.94,
+        "end": 162.28,
+        "speaker": "Podcast",
+        "text": "as the majority of email usage analyzed in this report.",
+        "zh": "就是這份報告分析的主要電郵使用情況。"
+      },
+      {
+        "start": 163.02,
+        "end": 167.82,
+        "speaker": "Podcast",
+        "text": "This means that the groups of people who make up the majority of internet users",
+        "zh": "這意味着，佔互聯網使用者大多數、"
+      },
+      {
+        "start": 167.82,
+        "end": 173.6,
+        "speaker": "Podcast",
+        "text": "and have the most experience with email are now actually moving away from the medium.",
+        "zh": "也最有使用電郵經驗的群體，如今正在離開這種媒介。"
+      },
+      {
+        "start": 174.64,
+        "end": 179.72,
+        "speaker": "Podcast",
+        "text": "The report also noted that email usage among seniors has increased,",
+        "zh": "報告亦指出，長者使用電郵的情況增加，"
+      },
+      {
+        "start": 180.5,
+        "end": 184.34,
+        "speaker": "Podcast",
+        "text": "which isn't surprising as a larger percentage of older people today",
+        "zh": "這並不意外，因為如今接觸過網絡的長者比例，"
+      },
+      {
+        "start": 184.34,
+        "end": 187.62,
+        "speaker": "Podcast",
+        "text": "have had more exposure to the web than their predecessors.",
+        "zh": "比以前的長者更高。"
+      },
+      {
+        "start": 189.06,
+        "end": 194.06,
+        "speaker": "Podcast",
+        "text": "The report also went into detail on what sites people spent their time on.",
+        "zh": "報告也詳細分析大家把時間花在哪些網站。"
+      },
+      {
+        "start": 194.79,
+        "end": 197.77,
+        "speaker": "Podcast",
+        "text": "It showed time spent on webmail sites declined,",
+        "zh": "它顯示，花在網頁電郵網站上的時間減少，"
+      },
+      {
+        "start": 198.27,
+        "end": 201.85,
+        "speaker": "Podcast",
+        "text": "while social networking sites has shown a drastic increase.",
+        "zh": "而社交網站的使用則大幅增加。"
+      },
+      {
+        "start": 202.49,
+        "end": 205.75,
+        "speaker": "Podcast",
+        "text": "People are spending more time on social networking sites",
+        "zh": "大家花更多時間在社交網站，"
+      },
+      {
+        "start": 205.75,
+        "end": 211.15,
+        "speaker": "Podcast",
+        "text": "and less time on email sites, and this is good news for social network sites.",
+        "zh": "花更少時間在電郵網站，這對社交網站是好消息。"
+      },
+      {
+        "start": 212.36,
+        "end": 217.18,
+        "speaker": "Podcast",
+        "text": "Last fall, Facebook founder Mark Zuckerberg predicted the death of email",
+        "zh": "去年秋天，Facebook 創辦人 Mark Zuckerberg 在推出"
+      },
+      {
+        "start": 217.18,
+        "end": 220.52,
+        "speaker": "Podcast",
+        "text": "when he introduced Facebook's new messaging interface.",
+        "zh": "Facebook 新訊息介面時，預言電郵將會消亡。"
+      },
+      {
+        "start": 221.74,
+        "end": 225.38,
+        "speaker": "Podcast",
+        "text": "We don't think that a modern messaging system is going to be email.",
+        "zh": "「我們不認為現代訊息系統會是電郵。」"
+      },
+      {
+        "start": 226,
+        "end": 228.78,
+        "speaker": "Podcast",
+        "text": "Zuckerberg said at a press conference in San Francisco,",
+        "zh": "Zuckerberg 在三藩市的記者會上說。"
+      },
+      {
+        "start": 228.78,
+        "end": 233.4,
+        "speaker": "Podcast",
+        "text": "Facebook users are now able to communicate through Facebook",
+        "zh": "Facebook 使用者現在可以透過 Facebook 溝通，"
+      },
+      {
+        "start": 233.4,
+        "end": 236.84,
+        "speaker": "Podcast",
+        "text": "via text, email or instant message,",
+        "zh": "使用短訊、電郵或即時訊息，"
+      },
+      {
+        "start": 237.68,
+        "end": 243.02,
+        "speaker": "Podcast",
+        "text": "and receive communications from all of these avenues through one news feed.",
+        "zh": "並在同一個動態消息串接收所有渠道的通訊。"
+      },
+      {
+        "start": 244.43,
+        "end": 249.21,
+        "speaker": "Podcast",
+        "text": "Users typically value when related information from a variety of channels",
+        "zh": "用戶通常重視把不同渠道的相關資訊"
+      },
+      {
+        "start": 249.21,
+        "end": 251.93,
+        "speaker": "Podcast",
+        "text": "is consolidated into one place,",
+        "zh": "整合在同一個地方，"
+      },
+      {
+        "start": 252.73,
+        "end": 257.19,
+        "speaker": "Podcast",
+        "text": "and that's what Facebook's messaging interface is trying to accomplish for users.",
+        "zh": "這正是 Facebook 訊息介面想為使用者做到的事。"
+      },
+      {
+        "start": 258.09,
+        "end": 262.14,
+        "speaker": "Podcast",
+        "text": "Many organizations with well-established IT departments",
+        "zh": "很多擁有成熟資訊科技部門的機構，"
+      },
+      {
+        "start": 262.53,
+        "end": 265.4,
+        "speaker": "Podcast",
+        "text": "have typically hosted email in-house,",
+        "zh": "以往一般在機構內部託管電郵，"
+      },
+      {
+        "start": 266.12,
+        "end": 272.38,
+        "speaker": "Podcast",
+        "text": "whereas others, as of lately, have turned to cloud email services, like Gmail.",
+        "zh": "但最近有些已轉用 Gmail 等雲端電郵服務。"
+      },
+      {
+        "start": 273.58,
+        "end": 277.24,
+        "speaker": "Podcast",
+        "text": "This switch is attractive, as it simply cuts costs.",
+        "zh": "這種轉變吸引人，因為能直接減省成本。"
+      },
+      {
+        "start": 278.28,
+        "end": 284.3,
+        "speaker": "Podcast",
+        "text": "While many companies and large universities are making the switch to cloud-based email services,",
+        "zh": "很多公司和大型大學正在轉用雲端電郵服務，"
+      },
+      {
+        "start": 284.3,
+        "end": 289.86,
+        "speaker": "Podcast",
+        "text": "will they make another shift towards using social networks to communicate?",
+        "zh": "它們會否再轉而利用社交網絡溝通呢？"
+      },
+      {
+        "start": 290.66,
+        "end": 296.88,
+        "speaker": "Podcast",
+        "text": "One social networking system that businesses are turning to is called Collabro Chatter,",
+        "zh": "企業正在採用的其中一個社交網絡系統，叫 Collabro Chatter，"
+      },
+      {
+        "start": 297.46,
+        "end": 301.48,
+        "speaker": "Podcast",
+        "text": "a business collaboration tool which describes itself",
+        "zh": "這是一種商業協作工具，自稱是"
+      },
+      {
+        "start": 301.48,
+        "end": 305.38,
+        "speaker": "Podcast",
+        "text": "as an effective means of connecting with prospective customers.",
+        "zh": "聯繫潛在顧客的有效方法。"
+      },
+      {
+        "start": 306.66,
+        "end": 312.8,
+        "speaker": "Podcast",
+        "text": "Collabro Chatter claims that by providing a system that puts businesses in easy contact",
+        "zh": "Collabro Chatter 聲稱，透過提供一個讓企業方便地聯繫"
+      },
+      {
+        "start": 312.8,
+        "end": 319.1,
+        "speaker": "Podcast",
+        "text": "with potential customers, Collabro Chatter offers a genuine opportunity for companies",
+        "zh": "潛在顧客的系統，它真正為公司提供機會，"
+      },
+      {
+        "start": 319.1,
+        "end": 323,
+        "speaker": "Podcast",
+        "text": "to advance office productivity and efficiency.",
+        "zh": "提高辦公室生產力和效率。"
+      },
+      {
+        "start": 324.5,
+        "end": 331.52,
+        "speaker": "Podcast",
+        "text": "And increased productivity and efficiency is music to any boss's ears, in these or any times.",
+        "zh": "無論在現在還是任何時候，提高生產力和效率，都是老闆最樂意聽到的事。"
+      },
+      {
+        "start": 333.36,
+        "end": 335.64,
+        "speaker": "Podcast",
+        "text": "Well, that's it. What do you think, Roland?",
+        "zh": "好，播完了。Rowland，你怎麼看？"
+      },
+      {
+        "start": 337.5,
+        "end": 342.6,
+        "speaker": "Podcast",
+        "text": "He makes some good points, but I don't think email's going to disappear.",
+        "zh": "他有些論點不錯，但我不認為電郵會消失。"
+      },
+      {
+        "start": 343.45,
+        "end": 346.87,
+        "speaker": "Podcast",
+        "text": "I mean, people could maybe use less email,",
+        "zh": "人們也許會少用一點電郵，"
+      },
+      {
+        "start": 347.49,
+        "end": 352.31,
+        "speaker": "Podcast",
+        "text": "but they'll still use it to receive more, like, personal messages.",
+        "zh": "但仍然會用它接收較個人的訊息，"
+      },
+      {
+        "start": 353.27,
+        "end": 354.61,
+        "speaker": "Podcast",
+        "text": "You know, private stuff.",
+        "zh": "就是私人的內容。"
+      },
+      {
+        "start": 355.33,
+        "end": 357.97,
+        "speaker": "Podcast",
+        "text": "That's always going to be a big concern for people.",
+        "zh": "這一直會是大家很關心的事情，"
+      },
+      {
+        "start": 358.67,
+        "end": 359.93,
+        "speaker": "Podcast",
+        "text": "You know, privacy.",
+        "zh": "就是私隱。"
+      },
+      {
+        "start": 360.71,
+        "end": 364.52,
+        "speaker": "Podcast",
+        "text": "So, I don't know. I can't see it myself.",
+        "zh": "所以，我不太肯定。我自己看不到那會發生。"
+      },
+      {
+        "start": 365.36,
+        "end": 369.06,
+        "speaker": "Podcast",
+        "text": "I actually found what he said really, really interesting.",
+        "zh": "其實我覺得他所說的非常、非常有趣。"
+      },
+      {
+        "start": 369.62,
+        "end": 372.82,
+        "speaker": "Podcast",
+        "text": "I mean, doing business using social networking.",
+        "zh": "就是利用社交網絡做生意。"
+      },
+      {
+        "start": 373.58,
+        "end": 374.72,
+        "speaker": "Podcast",
+        "text": "Sounds like great fun.",
+        "zh": "聽起來很好玩。"
+      },
+      {
+        "start": 375.22,
+        "end": 377.26,
+        "speaker": "Podcast",
+        "text": "I might even go into business myself.",
+        "zh": "我甚至可能自己去做生意。"
+      },
+      {
+        "start": 378.79,
+        "end": 380.61,
+        "speaker": "Narrator",
+        "text": "That is the end of Task 4.",
+        "zh": "任務四完結。"
+      },
+      {
+        "start": 381.07,
+        "end": 384.63,
+        "speaker": "Narrator",
+        "text": "You now have two minutes to complete your answers to Task 4",
+        "zh": "你現在有兩分鐘時間完成任務四的答案，"
+      },
+      {
+        "start": 384.63,
+        "end": 387.27,
+        "speaker": "Narrator",
+        "text": "and to tidy up all your other answers.",
+        "zh": "並整理其餘所有答案。"
+      },
+      {
+        "start": 509.76,
+        "end": 509.8,
+        "speaker": "Narrator",
+        "text": "Art B.",
+        "zh": "乙部。"
+      }
+    ]
+  },
+  "questions": {
+    "1": {
+      "title": "學院的網上系統",
+      "instruction": "你將聆聽 Aberdeen College 的一場會議，與會者會討論學院的新網上系統。請聆聽會議，在筆記表空格填上所缺資料。其中一項已作例子提供。",
+      "blocks": [
+        "關於學院網上系統的會議",
+        "會議日期：{{1}}，六月十一日。",
+        "出席者。欄目：姓名／職位。Jack Law 先生：資訊及通訊科技教師。Rob Lee 先生：學院技術員。Cherry Tam 女士：{{2}}。",
+        "現有系統——意見。欄目：系統／意見。網站：{{3}}；不{{4}}。內聯網（例子）：供教師互相溝通；可以傳送{{5}}；優點：{{6}}。",
+        "新系統——可能提供的功能。欄目：功能／說明。社交網絡：供{{7}}聊天的地方。{{8}}：供買賣東西，例如{{9}}。",
+        "需要採取的行動。欄目：行動／負責人。聯絡網頁設計師：{{10}}。調查學生意見：{{11}}。調查教師意見：{{12}}。",
+        "下次會議：{{13}}。"
+      ]
+    },
+    "2": {
+      "title": "Aberdeen College 網站",
+      "instruction": "你將聆聽 Dannie Wan 的簡報，他會向 Law 老師、Rob Lee 和 Cherry Tam 介紹新網站的一些功能。請聆聽簡報，在網站頁面的空格填上所缺資料。其中一項已作例子提供。",
+      "blocks": [
+        "AC——學術與慈善。Aberdeen College。搜尋方格標籤：{{14}}。導覽列：首頁／{{15}}／學生／{{16}}／{{17}}／課外活動。相片說明：運動會（例子）／{{18}}／最近一次探訪。即將舉行的活動：在互動行事曆查看即將舉行的活動。{{19}}：在新聞庫閱讀過往消息；學院贏得獎盃。{{20}}：就學院等事項發表意見。熱烈歡迎：本人謹代表教職員及校董會，熱烈歡迎大家來到本校。我們致力提供愉快、關懷的學習環境，並培養瞬息萬變的世界所需的技能。歡迎瀏覽網站，期待不久與你見面。祝好，Catherine Lai 博士（校長）。網站設計：Maracas Computing；版權所有：Aberdeen College；查詢電郵：enquiries@ac.edu.hk。",
+        "AC——學術與慈善。Aberdeen College。學生。相片說明：歡送 Ingles 老師／學校管弦樂團／辯論學會。分區選單依次為：{{21}}／食堂／ACquaint／{{23}}／圖書館／{{25}}／{{26}}。ACquaint 是你的社交空間。在這裡，你可以：分享內容；{{22}}；{{24}}。網站設計：Maracas Computing；版權所有：Aberdeen College；查詢電郵：enquiries@ac.edu.hk。"
+      ]
+    },
+    "3": {
+      "title": "學生對網上學習的看法",
+      "instruction": "Cherry 現在正與一群中五和中六學生交談，討論學院的網上系統及網上學習問題。請一邊聆聽，一邊在空格填寫資料。其中一項已作例子提供。",
+      "blocks": [
+        "對網上學習的看法。欄目：學生姓名／看法（選一項）／提及的學習方法。看法選項：Positive＝正面；Negative＝負面；Undecided＝尚未決定。Grace Yau：{{27}}；聆聽教師及與教師交談（例子）；聆聽同學及與同學交談；{{28}}；{{29}}。{{30}}：{{31}}；視像會議；{{32}}。Michael Ong：{{33}}；閱讀；{{34}}；與同學分享資訊；取得教師意見。",
+        "根據 Grace 的說法，學生有哪些行為，令 Facebook 等社交網站變得危險？",
+        "張貼個人資料，例如{{35}}及{{36}}。接受{{37}}。",
+        "根據 Grace 的說法，為什麼有些學生使用社交網站時不夠小心？{{38}}",
+        "根據 Michael 的說法，學校應該做什麼？{{39}}；{{40}}。"
+      ]
+    },
+    "4": {
+      "title": "網上系統播客",
+      "instruction": "Cherry 和朋友 Rowland 正在收聽關於網上系統的播客。請一邊聆聽，一邊在空格填寫資料。播客摘要部分，每個空格不得超過三個英文詞。",
+      "blocks": [
+        "播客摘要",
+        "最近一份美國報告：2010–2011 年，網頁電郵使用跌幅最大的是{{41}}歲的人。網頁電郵定義為透過{{42}}存取的電郵。報告亦指出{{43}}使用電郵的情況增加。社交網站的使用{{44}}增加。Mark Zuckerberg（Facebook 創辦人）認為電郵可能會{{45}}。Facebook 的重大優點：可以在{{46}}使用短訊、電郵或即時訊息。很多大型機構已由內部電郵系統轉用{{47}}。轉用原因：{{48}}。",
+        "社交網絡系統的優點，例如 Collabro Chatter。",
+        "在{{49}}方面更有效；並提高{{50}}及{{51}}。",
+        "指出 Rowland 和 Cherry 對播客內容的感受，每人只選一項。Rowland：{{52}}。Cherry：{{53}}。選項：Amused＝覺得好笑；Annoyed＝惱怒；Bored＝沉悶；Confused＝困惑；Enthusiastic＝熱切感興趣；Sceptical＝懷疑。"
+      ]
+    }
+  }
+}

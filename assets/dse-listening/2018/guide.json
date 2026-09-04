@@ -1,0 +1,2710 @@
+{
+  "year": 2018,
+  "source": {
+    "title": "2018 DSE Part A · 錄音稿翻譯及參考答案解析",
+    "scope": "Part A Tasks 1–4, Questions 1–51",
+    "status": "Authored reference answers, not an official HKEAA marking scheme.",
+    "questionPaper": "2018 Paper 3 Part A.pdf",
+    "questionDataSha256": "d301e2fac62a9a44c33d2c57b19f3c99b563e5623550ab80af661ec1dc525f89",
+    "transcriptDataSha256": "6a449db4b5f177c7eb6d9bcd1fb010b4a2be3d1eacbc2e5457240f54c02577bb",
+    "styleReference": "2021 – DSE Listening – 5** Past Paper 題解書 (Edmund Sir); approved 2023 guide",
+    "timingBasis": "Original split-track transcript cues; cue-based audio navigation is approximate. Replay begins 15 seconds before the answer-bearing cue.",
+    "editorialNotes": [
+      "Newly authored from 2018 original question data, figures and recording transcript; 2021/2023 used for teaching style only. Original recordings, questions, images, student data and Part B are unchanged.",
+      "Task 2 example cues corrected from obvious ASR “N is dead / Eden alive” to “And is dead / Eaten alive”; route is checked against the supplied grid. Task 3 painting labels checked against the supplied figure. Proper-name spellings follow the question paper where explicitly supplied; no speaker identities are invented.",
+      "Guide-only speaker-label corrections mark obvious instruction continuations as Narrator, mixed announcement/dialogue cues as combined labels, and the podcast as a discussion including the host rather than only guests. Original cue timings are unchanged."
+    ]
+  },
+  "transcriptNote": "按 2018 原有錄音稿整理，逐段附繁體中文翻譯，保留原有時間；明確的指示段落標作旁白，無法細分的對話保留群組標籤。定位時間為約略錄音提示。",
+  "analysisNote": "以下為按錄音及題目編寫的參考答案與教學解析，並非考評局官方評分準則。",
+  "analysis": {
+    "1": {
+      "task": 1,
+      "answer": "terrible / awful",
+      "explanation": "題目形容 Iris 的週末，要填形容詞。她回答週末怎樣時直接說 really terrible，之後才解釋愛犬生病，所以答案是 terrible。\n中伏位：不要把 Dan 的 great 或 Kaity 的 boring 移到 Iris 一列；先按人物分欄，再把感受與原因配對。really 可保留，但不是必須。",
+      "evidence": "really terrible",
+      "audioTime": 79.03,
+      "audioEnd": 82.23
+    },
+    "2": {
+      "task": 1,
+      "answer": "dog was sick",
+      "explanation": "Iris 解釋週末糟糕，是因為 my dog was sick。題目已有 because her，所以空格填 dog was sick，便成為 because her dog was sick。\n中伏位：生病的是狗，不是 Iris；她也說不知道病因，不能自行加上吃錯東西等原因。保留 was 表示這是剛過去週末發生的事。",
+      "evidence": "my dog was sick",
+      "audioTime": 88.39,
+      "audioEnd": 94.19
+    },
+    "3": {
+      "task": 1,
+      "answer": "great / wonderful",
+      "explanation": "Dan 先說自己不是想炫耀，再以 a great weekend 形容週末，下一句又用 wonderful 加強語氣，所以兩者均能概括他的感受。\n中伏位：I don’t mean to gloat 不是否認週末愉快，而是「不是想炫耀」的客氣說法。空格修飾 weekend，應填形容詞，不是購物的動作。",
+      "evidence": "I had a great weekend",
+      "audioTime": 107.37,
+      "audioEnd": 114.69
+    },
+    "4": {
+      "task": 1,
+      "answer": "bought a new TV",
+      "explanation": "Dan 說 I bought a new TV，接着形容電視很大、畫面逼真，這就是愉快的原因。題目已有 because he，因此填 bought a new TV 即可。\n中伏位：不是單純看電視，也不是買電腦；bought 是 buy 的過去式，配合已過去的週末。不要把下一段工作整個週末的經歷套到 Dan 身上。",
+      "evidence": "I bought a new TV",
+      "audioTime": 114.69,
+      "audioEnd": 122.68
+    },
+    "5": {
+      "task": 1,
+      "answer": "boring",
+      "explanation": "Kaity 到場後被問及週末，她重複三次 Boring 以強調無聊，所以直接填 boring。這形容的是 weekend，不是人的心情。\n中伏位：boring 表示某事令人無聊，bored 才形容人感到無聊；題目是 a ___ weekend，不能填 bored。她遲到只是到場背景，不是這格要填的週末感受。",
+      "evidence": "Boring, boring, boring",
+      "audioTime": 142.56,
+      "audioEnd": 148.24
+    },
+    "6": {
+      "task": 1,
+      "answer": "had to work all weekend",
+      "explanation": "Kaity 說自己必須工作，下一句補足 all weekend，因此原因是整個週末都要工作。題目已有 she，填 had to work all weekend 可直接接上。\n中伏位：boss 是她的職位，不是完整原因；她以 reward 諷刺當老闆反而要工作，並不表示真的得到假期或獎勵。要保留 all weekend 的時間範圍。",
+      "evidence": "having to work all weekend",
+      "audioTime": 157.04,
+      "audioEnd": 161.9
+    },
+    "7": {
+      "task": 1,
+      "answer": "playground games",
+      "explanation": "Iris 說正在研究小朋友在遊樂場玩的遊戲，對方以 playground games 重述，她亦確認，故題材是 playground games。\n中伏位：這列問整個題材，不是其中一款遊戲名稱；Catch the Dragon 和 Fingers Out 應放在後面的名稱欄。computer games for learning 已是題目提供的例子。",
+      "evidence": "Yeah, that's right. Playground games",
+      "audioTime": 213.1,
+      "audioEnd": 217.18
+    },
+    "8": {
+      "task": 1,
+      "answer": "Catch the Dragon",
+      "explanation": "Iris 列出的第一款遊樂場遊戲是 Catch the Dragon，稍後大家亦重複名稱確認。第 8、9 題列兩個名稱，可互換次序。\n中伏位：不要只寫 Dragon，應保留整個名稱 Catch the Dragon；The Next Mozart 屬上一列的電腦學習遊戲，Crazy Cat 則屬最後一列，不能混填。",
+      "evidence": "Catch the Dragon",
+      "audioTime": 217.94,
+      "audioEnd": 224.5
+    },
+    "9": {
+      "task": 1,
+      "answer": "Fingers Out",
+      "explanation": "第二款遊戲名是 Fingers Out，Dan 隨即重複這個名稱，並回憶小學時常玩。因此與 Catch the Dragon 合起來構成兩項答案。\n中伏位：Out 是名稱一部分，不要漏寫；Fingers 用複數。第 8、9 題次序可互換，但不能把重複聽到的同一款遊戲填兩次，題目要兩款不同遊戲。",
+      "evidence": "Fingers Out",
+      "audioTime": 224.5,
+      "audioEnd": 232.32
+    },
+    "10": {
+      "task": 1,
+      "answer": "playground games are fun to watch",
+      "explanation": "Kaity 明確接受 Iris 的題材，理由是 Playground games are fun to watch。這裡要填採用理由，所以應交代「看這些遊戲很有趣」。\n中伏位：popular 是前一列電腦學習遊戲的理由；這一列的關鍵是 fun to watch，不是說已做了研究。保留 to watch，才能準確指出觀賞的趣味。",
+      "evidence": "Playground games are fun to watch",
+      "audioTime": 248.18,
+      "audioEnd": 253.5
+    },
+    "11": {
+      "task": 1,
+      "answer": "computer games for animals",
+      "explanation": "Dan 第二個建議是 computer games for animals，即供動物玩的電腦遊戲。他希望拿人類和動物的遊戲作比較。\n中伏位：for animals 指遊戲使用者是動物，不是一般以動物為題材、供人玩的遊戲。題材欄要填類別，Crazy Cat 是下一格的具體遊戲名稱，兩格的層次不同。",
+      "evidence": "computer games for animals",
+      "audioTime": 261.04,
+      "audioEnd": 265.72
+    },
+    "12": {
+      "task": 1,
+      "answer": "Crazy Cat",
+      "explanation": "Dan 說平板電腦上有一款 Crazy Cat，貓會在螢幕上追着紅點跑，因此遊戲名稱填 Crazy Cat。上下文已把它連到動物電腦遊戲一列。\n中伏位：red dot 是遊戲中追逐的東西，不是名稱；computer tablets 是使用裝置，也不是名稱。Crazy 修飾 Cat，Cat 在這個專有名稱中是單數。",
+      "evidence": "Crazy Cat",
+      "audioTime": 291.36,
+      "audioEnd": 297.12
+    },
+    "13": {
+      "task": 1,
+      "answer": "Dan has not done any research / the topic has not been researched",
+      "explanation": "Kaity 拒絕題材前先問 Dan 做過什麼研究，他承認沒有。她明說不能採用未經研究的題材，因此原因是 Dan 沒有做研究。\n中伏位：她並非說遊戲不好笑或沒有趣味，而是質疑準備不足；不能只寫 no，因為表格已列明不採用。答案要指出 no research 這個具體原因。",
+      "evidence": "I can't accept topics that haven't been researched",
+      "audioTime": 315.01,
+      "audioEnd": 318.95
+    },
+    "14": {
+      "task": 2,
+      "answer": "exit",
+      "explanation": "第 14 題的位置在迷宮上方。Iris 更正入口位置後確認出口在頂部，所以這個標籤填 exit。這題須把聽到的方位對應圖例位置。\n中伏位：Dan 最初猜入口在頂部，但 Iris 說相反；不要採用未獲確認的問題內容。entrance 位於有 1–6 數字的底部，屬下一個標籤。",
+      "evidence": "The exit's at the top",
+      "audioTime": 134.68,
+      "audioEnd": 137.02
+    },
+    "15": {
+      "task": 2,
+      "answer": "entrance",
+      "explanation": "第 15 題在圖例下方，錄音明確說入口在底部，也就是數字一至六所在的位置，因此填 entrance。\n中伏位：上方是出口，不要因英文 entrance 和 exit 都以 e 起首而混淆。這題問位置的名稱，不是要填 A4；A4 只是後來示範玩家選擇的起點，並不等於入口標籤。",
+      "evidence": "The entrance to the maze is at the bottom",
+      "audioTime": 120.92,
+      "audioEnd": 128.28
+    },
+    "16": {
+      "task": 2,
+      "answer": "walls / walls of the maze",
+      "explanation": "Dan 猜灰格是牆，Iris 清楚確認 The grey squares are the walls of the maze，所以圖例填 walls。這些格子是障礙，玩家不能走進去。\n中伏位：M 才代表隱藏怪物，O 則是走過的路線；灰格不是怪物位置。錄音用了複數 squares、walls，填 walls 比單數 wall 更貼合整組圖例。",
+      "evidence": "The grey squares are the walls of the maze",
+      "audioTime": 143.84,
+      "audioEnd": 147.38
+    },
+    "17": {
+      "task": 2,
+      "answer": "O: A4, B4, B5; M: B6",
+      "explanation": "第一條生命由 A4 起步，向前一格到 B4，再向右兩格，依次經 B5 到 B6，這時 Iris 說遇上怪物。所以 A4、B4、B5 標 O，B6 標 M。\n中伏位：向右兩格不能只標終點，要把經過的 B5 也畫圈；方向按圖固定，上方為向前。不要照抄前面圖例的 E2 怪物，那是示範而非本題。",
+      "evidence": "I'll move forward one square, then move right two squares",
+      "audioTime": 269.61,
+      "audioEnd": 274.85
+    },
+    "18": {
+      "task": 2,
+      "answer": "O: A5, B5, B4, B3, C3, D3, E3, E4, F4; no M",
+      "explanation": "第二條生命從 A5 開始，先到 B5，向左兩格經 B4 到 B3，再向前三格經 C3、D3 到 E3；向右到 E4，最後向前到 F4，成功離開。以上所有格子標 O。\n中伏位：這次沒有遇上怪物，不應填 M；向前三格要標出每一格。不要沿用第一條生命 A4 的起點，這次明確改為 A5。",
+      "evidence": "Move forward three squares. And, and, move right one square",
+      "audioTime": 299.32,
+      "audioEnd": 305.24
+    },
+    "19": {
+      "task": 2,
+      "answer": "make the game more colourful",
+      "explanation": "Dan 認為格子看起來沉悶，建議 make the game look more colorful，Iris 亦同意請美術部修改。答案是讓遊戲的色彩更豐富。\n中伏位：boring 是現有問題，不是改進方法；要寫出加強色彩的建議。第 19、20 題可互換，但一點談外觀，另一點談怪物數目，不能重複寫兩個外觀形容詞。",
+      "evidence": "make the game look more colorful",
+      "audioTime": 352.74,
+      "audioEnd": 359.3
+    },
+    "20": {
+      "task": 2,
+      "answer": "add more monsters",
+      "explanation": "另一項建議是 having more monsters，目的是增加挑戰性，Iris 也補充這樣會更好玩。因此填 add more monsters。\n中伏位：more challenging 是預期效果，題目問建議，最好寫出要增加怪物這個動作。不是把現有怪物移位，也不是減少生命；這些做法並沒有在建議段落中提出。",
+      "evidence": "I'd suggest having more monsters",
+      "audioTime": 365.8,
+      "audioEnd": 371.04
+    },
+    "21": {
+      "task": 2,
+      "answer": "by speaking / using voice control",
+      "explanation": "Iris 說第一種玩法是像剛才一樣說話，手機會標示路線，並確認 All voice controlled，所以答案是語音控制。\n中伏位：手機只是裝置，單寫 smartphone 沒有交代控制方法；要表達說出指令。第 21、22 題要兩種玩法，可互換次序，但不能把 speaking 和 voice control 當作兩個不同答案。",
+      "evidence": "All voice controlled",
+      "audioTime": 395.24,
+      "audioEnd": 400.1
+    },
+    "22": {
+      "task": 2,
+      "answer": "by touching the screen / using a touchscreen",
+      "explanation": "Iris 以 The second way 引出第二種玩法：simply touch the screen，因此填觸碰螢幕或使用觸控螢幕。\n中伏位：這與上一點對手機說話不同；不能只寫 online，因為題目已問網上玩法。touch 在此是操作螢幕的動詞，並非 touching 的「感人」意思，答案應寫清楚 screen。",
+      "evidence": "you can simply touch the screen",
+      "audioTime": 400.84,
+      "audioEnd": 403.78
+    },
+    "23": {
+      "task": 2,
+      "answer": "the game sends a document to the player’s phone",
+      "explanation": "防作弊程序第一步：遊戲開始時，系統把一份文件傳送到玩家手機。文件事先發出，才能讓玩家事後檢查怪物位置是否改動。\n中伏位：這時傳送的是 document，不是 password；密碼在遊戲結束後才顯示。題目已有 First, when the game starts，空格應填具體事件，不必再重複時間。",
+      "evidence": "the game sends a document to the player's phone",
+      "audioTime": 425.86,
+      "audioEnd": 428.36
+    },
+    "24": {
+      "task": 2,
+      "answer": "a password appears on the screen",
+      "explanation": "第二步發生在遊戲結束時，錄音說 a password appears on the screen，所以填密碼在螢幕上出現。這裡重點是何時取得開文件所需的密碼。\n中伏位：文件已在第一步傳到手機，不是在此時才寄出；玩家開啟文件則是第三步。按 first、second、third 分清順序，避免把前後動作混在一格。",
+      "evidence": "a password appears on the screen",
+      "audioTime": 431.9,
+      "audioEnd": 437.18
+    },
+    "25": {
+      "task": 2,
+      "answer": "the player opens the document with the password",
+      "explanation": "第三步是玩家用密碼開啟文件，Iris 說 opens the document with the password。with 在這裡表示所用工具或方法。\n中伏位：只有「開啟文件」尚可表達動作，但加上 with the password 更完整，也與上一個步驟銜接。不要寫成修改文件或重設密碼；錄音沒有這些操作，目的仍是查看預先存下的資料。",
+      "evidence": "the player opens the document with the password",
+      "audioTime": 442.08,
+      "audioEnd": 447.24
+    },
+    "26": {
+      "task": 2,
+      "answer": "the player checks the location of the monsters",
+      "explanation": "第四及最後一步是檢查怪物位置，錄音明確以 fourth and final step 引出。玩家由此知道遊戲沒有在移動後才放置怪物。\n中伏位：這裡的 checks 是「核對」，不是再次玩一局，也不是去獵殺怪物。location of the monsters 須寫清楚，單寫 check the document 未能指出實際核查的資料。",
+      "evidence": "the player checks the location of the monsters",
+      "audioTime": 453.12,
+      "audioEnd": 458.08
+    },
+    "27": {
+      "task": 3,
+      "answer": "started → completed",
+      "explanation": "題目句子中的年份 1560 並沒有錯，錯的是 started。Dan 讀出「開始」後，Kaity 即時澄清 It was completed then，所以應把 started 改為 completed。\n中伏位：Kaity 一開始懷疑日期可能錯，但那只是要求核對，不代表一定要改年份。這是改錯題，寫出要替換的字 completed，不要把整句或正確日期當答案。",
+      "evidence": "It was completed then",
+      "audioTime": 167.15,
+      "audioEnd": 171.49
+    },
+    "28": {
+      "task": 3,
+      "answer": "Pete → Pieter",
+      "explanation": "Kaity 要求核對畫家名字，並逐字拼出 P-I-E-T-E-R；Dan 發現原文寫成 P-E-T-E。因此把 Pete 改為 Pieter，姓氏 Bruegel 和 the Elder 不變。\n中伏位：不要按耳熟的英文名字 Peter 拼寫；逐字串字比一般發音更能確定答案。這題錯一個名字，無須修改畫家的姓氏或稱號。",
+      "evidence": "Pieter spelled P-I-E-T-E-R",
+      "audioTime": 175.63,
+      "audioEnd": 185.21
+    },
+    "29": {
+      "task": 3,
+      "answer": "✓",
+      "explanation": "原句是他在荷蘭出生、在比利時去世。Kaity 說 He died in Belgium and was born in the Netherlands，雖然次序相反，資料完全相同，所以填剔號。\n中伏位：聽到國家次序顛倒，不代表句子有錯；要配對 born 與 died 的關係。也不要因前兩題都需要改錯，就假設每一行必定有錯。",
+      "evidence": "He died in Belgium and was born in the Netherlands",
+      "audioTime": 203.51,
+      "audioEnd": 207.65
+    },
+    "30": {
+      "task": 3,
+      "answer": "riding horses / pretending to ride horses",
+      "explanation": "上方大圓圈是坐在圍欄上的男孩。錄音提到 boys on top of the fence，接着說 playing at riding horses，故標籤是 riding horses。\n中伏位：題號按圖的位置排列，並非按錄音提及次序；第一個聽到的瑜伽其實對應左下小圈。每項最多四個英文字，riding horses 簡潔且符合字數限制。",
+      "evidence": "they're playing at riding horses",
+      "audioTime": 308.66,
+      "audioEnd": 310.68
+    },
+    "31": {
+      "task": 3,
+      "answer": "a pretend wedding / performing a wedding",
+      "explanation": "右方圓圈有拿籃子的女孩，錄音說她們 performing a wedding, a pretend wedding，所以寫 a pretend wedding。這是模仿婚禮的遊戲。\n中伏位：basket of fruit 只是 Dan 對道具的觀察，不是遊戲名稱；題目要標示玩什麼。不要把旁邊圍欄上的騎馬遊戲填到右圈，須同時核對圖中人物動作。",
+      "evidence": "a pretend wedding",
+      "audioTime": 288.28,
+      "audioEnd": 291.42
+    },
+    "32": {
+      "task": 3,
+      "answer": "exercise / yoga-like exercise",
+      "explanation": "左方小圓圈是盤腿坐在草地上的男孩。Kaity 說那是當時的一種運動，有點像今天的瑜伽，所以可寫 exercise 或 yoga-like exercise。\n中伏位：不要說他在睡覺或吃東西，錄音已解釋動作性質；yoga 是用現代活動作類比，不是聲稱畫中人正在上現代瑜伽課。答案仍須遵守最多四字的要求。",
+      "evidence": "a form of exercise at the time, a bit like yoga today",
+      "audioTime": 260.06,
+      "audioEnd": 265.1
+    },
+    "33": {
+      "task": 3,
+      "answer": "a kicking game",
+      "explanation": "下方大圓圈有孩子跨過其他孩子的腿。Dan 問起後，Kaity 說他們會很用力踢，Dan 總結是 a kicking game，因此標籤填這一項。\n中伏位：看到跳過腿的動作容易猜 leapfrog，但錄音並未這樣命名，反而明確提到踢人和疼痛。這是聽力配圖題，應以口頭說明配合圖像，不自行套用熟悉遊戲。",
+      "evidence": "it's a kicking game",
+      "audioTime": 330.46,
+      "audioEnd": 332.7
+    },
+    "34": {
+      "task": 3,
+      "answer": "8-bit graphics",
+      "explanation": "談到以經典畫作改編的遊戲，Kaity 說 these games use 8-bit graphics，所以題目 use 後面填這個名詞片語。8-bit 是八位元，而非八種顏色。\n中伏位：後面提到 a few colours 是設計限制，不是這一格的圖像技術名稱；The Mona Lisa 和 The Last Supper 則是作品例子，也不能填在 use 後作本題答案。",
+      "evidence": "these games use 8-bit graphics",
+      "audioTime": 394.02,
+      "audioEnd": 399.5
+    },
+    "35": {
+      "task": 3,
+      "answer": "small blocks / little blocks",
+      "explanation": "設計師享受用小方塊製作複雜畫面的挑戰，錄音說 little blocks，稍後也重述 small blocks。因此第 35 題填 small blocks。\n中伏位：題目 using ___ with ___ 把素材和顏色分成兩格，本格不是再次填 8-bit graphics。blocks 應用複數，因為畫面由許多小方塊組成，而非單獨一塊。",
+      "evidence": "these little blocks",
+      "audioTime": 412.04,
+      "audioEnd": 418.28
+    },
+    "36": {
+      "task": 3,
+      "answer": "only a few colours / a small number of colours",
+      "explanation": "錄音說設計師用 little blocks with only a few colours 製作複雜圖畫，因此 with 後面填少量顏色。only 強調限制，正是設計挑戰所在。\n中伏位：不能寫 many colours，這會把意思倒轉；也不要由 8-bit 自行推算具體顏色數目，錄音只說 a few。colour 或 color 的英美拼法均可。",
+      "evidence": "only a few colours",
+      "audioTime": 412.04,
+      "audioEnd": 418.28
+    },
+    "37": {
+      "task": 3,
+      "answer": "very complex pictures / complicated images",
+      "explanation": "題目 to make 後問最終製作什麼。Kaity 說 create very complex pictures，稍後以 complicated images 重述，所以答案是複雜的圖畫。\n中伏位：後段說遊戲 very simple，形容的是玩法，並不否定畫面 complex。要分清圖像的複雜程度與遊戲的難度；pictures 用複數，與整類遊戲的畫面相符。",
+      "evidence": "create very complex pictures",
+      "audioTime": 412.04,
+      "audioEnd": 418.28
+    },
+    "38": {
+      "task": 3,
+      "answer": "funny / humorous",
+      "explanation": "Kaity 說遊戲不是認真的，只是 supposed to be funny。Dan 特意追問是 humorous funny 而非 weird funny，並得到確認，所以填 funny 或 humorous。\n中伏位：funny 可以解「好笑」或「古怪」，本段已排除古怪意思；不能填 weird。題目 to be 後用形容詞，funny 正好符合句型。",
+      "evidence": "They're just supposed to be funny",
+      "audioTime": 447.2,
+      "audioEnd": 452.26
+    },
+    "39": {
+      "task": 3,
+      "answer": "for free / free of charge",
+      "explanation": "Kaity 說網上可以找到這些遊戲，而且 they’re free，下一句再確認不用付任何費用。因此題目 can be played online 後填 for free。\n中伏位：不是付訂閱費才能玩，也不是限時免費；錄音沒有附加條件。題目已提供 online，毋須只重複「在網上」，這格要補充的是收費情況。",
+      "evidence": "The good thing is they're free",
+      "audioTime": 463.14,
+      "audioEnd": 466.54
+    },
+    "40": {
+      "task": 4,
+      "answer": "provide entertainment / pleasure and fun",
+      "explanation": "Jonathan 定義遊戲時第一點是提供娛樂，之後用 pleasure and fun 說明，人們主要為了樂趣而玩。因此可答 provide entertainment。\n中伏位：這題要概括定義的主要特點，不是舉棋類遊戲等例子。第 40–42 題可互換次序，但要包含娛樂、結果或目標、規則三個不同面向，不能重複娛樂的同義詞。",
+      "evidence": "they provide some form of entertainment",
+      "audioTime": 113.46,
+      "audioEnd": 116.22
+    },
+    "41": {
+      "task": 4,
+      "answer": "have an outcome or goal",
+      "explanation": "第二點由 The second thing 引出：遊戲有 outcome or goal，並以贏、輸或完成遊戲作解釋。所以填有結果或目標。\n中伏位：outcome 並非只指獲勝，輸掉或完成也算結果；如果只寫 win，會把定義縮窄。第 40–42 題要求主要特點，可用名詞片語 an outcome or goal 作筆記答案。",
+      "evidence": "they seem to have some outcome or goal",
+      "audioTime": 120.96,
+      "audioEnd": 125.4
+    },
+    "42": {
+      "task": 4,
+      "answer": "follow a set of rules",
+      "explanation": "Natalie 在前兩點之上補充第三點：games must follow some set of rules，Jonathan 也明確同意。因此答案是遵守一套規則。\n中伏位：不要把後面「人生是一場遊戲」當成第三個定義特點，那是兩人的另一個爭論。rules 是複數，因為指規範玩法的一套規則，而不是某一條特定規則。",
+      "evidence": "games must follow some set of rules",
+      "audioTime": 144.78,
+      "audioEnd": 148.9
+    },
+    "43": {
+      "task": 4,
+      "answer": "whether life itself is a game",
+      "explanation": "Natalie 說人生本身是一場遊戲，Jonathan 隨即反對，認為自己的、別人的，甚至 Natalie 的人生都不是。所以分歧是人生是否等同遊戲。\n中伏位：兩人其實都同意娛樂、結果及規則三項定義，不要把那些共同點當成爭議。答案用 whether 引出「是否」，可清楚表達爭論的命題，而非只寫 life。",
+      "evidence": "life itself is but a game",
+      "audioTime": 162.1,
+      "audioEnd": 165.08
+    },
+    "44": {
+      "task": 4,
+      "answer": "helps them fight better / improves real fighting skills",
+      "explanation": "Jonathan 指出螞蟻會玩打鬥遊戲，好處是 helps them fight better，Natalie 又重述能改善真正打鬥時的表現。所以答案是提升打鬥能力。\n中伏位：play fighting 已在表格中，不能只再抄一次活動名稱；這格要填好處。後面逃避捕食者的好處屬魚跳出水面那一列，不應移到螞蟻。",
+      "evidence": "It helps them fight better",
+      "audioTime": 210.52,
+      "audioEnd": 211.86
+    },
+    "45": {
+      "task": 4,
+      "answer": "jumping / play jumping",
+      "explanation": "講者描述池塘裡的魚會無明顯原因地跳出水面，並澄清牠們是為了玩樂而跳。因此魚的玩樂類型填 jumping 或 play jumping。\n中伏位：catch food 是主持人的猜測，對方用 No 否定，說大部分魚在水底覓食；不能把捕食當答案。表格這格問活動，不是逃離天敵這項好處。",
+      "evidence": "they jump for the fun of it",
+      "audioTime": 233.1,
+      "audioEnd": 235.46
+    },
+    "46": {
+      "task": 4,
+      "answer": "helps them escape predators / hunters",
+      "explanation": "錄音明說跳躍有助魚 escape from predators and hunters，即逃避捕食者與獵捕者，因此好處是有助逃生。\n中伏位：並不是讓魚抓到更多食物，前面已否定那個猜測；for fun 解釋玩樂動機，但此欄問實際好處。回答時保留 escape 的動作與 predators 的對象，意思才完整。",
+      "evidence": "jumping helps them escape from predators and hunters",
+      "audioTime": 245.78,
+      "audioEnd": 250.2
+    },
+    "47": {
+      "task": 4,
+      "answer": "play fighting occurs between stronger and weaker rats",
+      "explanation": "Natalie 第一點說打鬥遊戲在較強和較弱的老鼠之間進行，接着確認一隻總比另一隻強。因此答案要包含雙方能力不相等。\n中伏位：不是只有強壯老鼠才參與，也不是雙方勢均力敵。stronger、weaker 是比較級，保留比較關係很重要；單寫 rats play fight 只是重複題目，沒有指出第一點。",
+      "evidence": "play fighting games occur between stronger and weaker rats",
+      "audioTime": 266.78,
+      "audioEnd": 271.52
+    },
+    "48": {
+      "task": 4,
+      "answer": "if the weaker rat always loses, it stops playing",
+      "explanation": "第二點是條件關係：較弱的老鼠如果總是輸，就會停止玩。錄音中的 if 與 always 都重要，答案要交代條件和結果。\n中伏位：不是輸一次便一定停止，而是一直輸；也不是較強的老鼠退出。後面的棋類比喻只是人類相似感受，不是另一個關於老鼠的新研究結論。",
+      "evidence": "If the weaker rat always loses, it will stop playing",
+      "audioTime": 287.58,
+      "audioEnd": 291.28
+    },
+    "49": {
+      "task": 4,
+      "answer": "the stronger rat lets the weaker rat win sometimes so they can keep playing",
+      "explanation": "第三點是較強老鼠學會有時讓較弱的贏，才能繼續一起玩。答案要保留 sometimes，表示刻意讓賽而非能力反轉。\n中伏位：不是強者每次都輸，也不是弱者突然變強；錄音以 deliberately lose 再次澄清。若只寫讓對方贏，仍可表達核心，但補上為了繼續玩能完整呈現因果。",
+      "evidence": "the stronger rat learns that it has to let the weaker rat win",
+      "audioTime": 305.68,
+      "audioEnd": 309.4
+    },
+    "50": {
+      "task": 4,
+      "answer": "develop morality / learn to be moral",
+      "explanation": "總結老鼠學到的東西時，講者先說 developing a kind of morality，因此第一項是建立道德觀念或學會有道德。\n中伏位：這不是單指更擅長打鬥，那是前面螞蟻的好處；本段關心讓賽背後的社會學習。第 50、51 題可互換，但 morality 與 peacefully living together 是兩個不同重點。",
+      "evidence": "they are developing a kind of morality",
+      "audioTime": 328.84,
+      "audioEnd": 331.76
+    },
+    "51": {
+      "task": 4,
+      "answer": "learn how to live together peacefully",
+      "explanation": "第二項由 The second thing 引出，說老鼠學會 how to live together peacefully，即和平共處。主持人最後再以人類作比較，加強這個結論。\n中伏位：不要只寫 live together，這只表示同住，會漏掉 peacefully 的核心；也不是完全不打鬥，而是透過遊戲學習與其他個體相處的方式。",
+      "evidence": "they learn how to live together peacefully",
+      "audioTime": 332.82,
+      "audioEnd": 336.24
+    }
+  },
+  "transcript": {
+    "1": [
+      {
+        "start": 0.02,
+        "end": 8.37,
+        "speaker": "Narrator",
+        "text": "Task 1. Katie Chandra is the editor of the magazine. She is holding a meeting with two",
+        "zh": "任務一。Kaity Chandra 是雜誌編輯。她正在與兩位"
+      },
+      {
+        "start": 8.37,
+        "end": 17.38,
+        "speaker": "Narrator",
+        "text": "journalists, Iris Mu and Dan Lai, about the next issue. Listen to their discussion and",
+        "zh": "記者 Iris Mu 和 Dan Lai 開會，討論下一期的內容。請聆聽他們的討論，並"
+      },
+      {
+        "start": 17.38,
+        "end": 24.49,
+        "speaker": "Narrator",
+        "text": "complete the missing information in the spaces below. One has been provided as an example.",
+        "zh": "在下面的空格填上缺漏資料。其中一項已作為例子提供。"
+      },
+      {
+        "start": 26.19,
+        "end": 33.94,
+        "speaker": "Narrator",
+        "text": "You now have thirty seconds to study the task. At the end of the task, you will have one",
+        "zh": "你現在有三十秒時間閱讀題目。本任務結束後，你將有一"
+      },
+      {
+        "start": 33.94,
+        "end": 71.63,
+        "speaker": "Narrator / Editorial meeting",
+        "text": "minute to tidy up your answers. Morning, Dan. You look very well. Where's Katie?",
+        "zh": "分鐘整理答案。早安，Dan，你看起來精神很好。Kaity 在哪裡？"
+      },
+      {
+        "start": 72.29,
+        "end": 79.03,
+        "speaker": "Editorial meeting",
+        "text": "Hi, Iris. She's not here yet, but she texted to say she's on her way. So, um, how was",
+        "zh": "你好，Iris。她還未到，不過傳訊息說正在路上。那麼，嗯，你的"
+      },
+      {
+        "start": 79.03,
+        "end": 82.23,
+        "speaker": "Editorial meeting",
+        "text": "your weekend? Oh, really terrible, actually.",
+        "zh": "週末過得怎樣？噢，其實真的很糟糕。"
+      },
+      {
+        "start": 82.97,
+        "end": 87.83,
+        "speaker": "Editorial meeting",
+        "text": "Oh, dear. I'm sorry to hear that. What was so awful about it?",
+        "zh": "哎呀，很遺憾聽到你這樣說。為什麼這麼糟糕？"
+      },
+      {
+        "start": 88.39,
+        "end": 94.19,
+        "speaker": "Editorial meeting",
+        "text": "Well, my dog was sick. Oh, no. Um, why was your dog sick?",
+        "zh": "我的狗生病了。噢，不會吧。牠為什麼病了？"
+      },
+      {
+        "start": 94.91,
+        "end": 101.29,
+        "speaker": "Editorial meeting",
+        "text": "I don't know. It was fine all week. And then suddenly, at the weekend, it became really,",
+        "zh": "我不知道。牠整個星期都好好的，到了週末卻突然病得非常、"
+      },
+      {
+        "start": 101.29,
+        "end": 107.07,
+        "speaker": "Editorial meeting",
+        "text": "really sick. Oh, that's terrible. Well, I hope your dog gets better soon.",
+        "zh": "非常嚴重。真糟糕。希望你的狗快點康復。"
+      },
+      {
+        "start": 107.37,
+        "end": 114.69,
+        "speaker": "Editorial meeting",
+        "text": "Thanks. How about you? How was yours? Well, I don't mean to gloat, but I had a great weekend.",
+        "zh": "謝謝。你呢？你的週末怎樣？我不是想炫耀，不過我過了個很棒的週末。"
+      },
+      {
+        "start": 114.69,
+        "end": 122.68,
+        "speaker": "Editorial meeting",
+        "text": "A really wonderful weekend. Do you want to know why? Let me tell you. I bought a new TV,",
+        "zh": "真的非常愉快。想知道原因嗎？讓我告訴你：我買了部新電視，"
+      },
+      {
+        "start": 123.22,
+        "end": 129.74,
+        "speaker": "Editorial meeting",
+        "text": "one of those really, really big TVs. It's totally amazing. It's like real life.",
+        "zh": "就是那種非常、非常大的電視，實在太棒了，畫面就像真實世界一樣。"
+      },
+      {
+        "start": 129.96,
+        "end": 137.14,
+        "speaker": "Editorial meeting",
+        "text": "Wow. That sounds cool. I would love to have a big TV like that. Oh, here comes Katie",
+        "zh": "嘩，聽起來很不錯。我也想有一部那樣的大電視。噢，Kaity 現在"
+      },
+      {
+        "start": 137.14,
+        "end": 141.78,
+        "speaker": "Editorial meeting",
+        "text": "now. Morning, guys. Sorry, I'm a bit late. Morning, Katie.",
+        "zh": "來了。各位早安，對不起，我遲了一點。早安，Kaity。"
+      },
+      {
+        "start": 142.56,
+        "end": 148.24,
+        "speaker": "Editorial meeting",
+        "text": "So, how was your weekend, Katie? Boring, boring, boring.",
+        "zh": "Kaity，你的週末怎樣？無聊、無聊、無聊。"
+      },
+      {
+        "start": 148.64,
+        "end": 157.04,
+        "speaker": "Editorial meeting",
+        "text": "Why, why, why? Because I had to work, work, work, Dan. That's my reward for being the",
+        "zh": "為什麼、為什麼、為什麼？因為我得工作、工作、工作，Dan。這大概就是當"
+      },
+      {
+        "start": 157.04,
+        "end": 161.9,
+        "speaker": "Editorial meeting",
+        "text": "boss, I suppose, having to work all weekend. Oh, well.",
+        "zh": "老闆的「回報」吧：整個週末都要工作。唉。"
+      },
+      {
+        "start": 162.68,
+        "end": 168.54,
+        "speaker": "Editorial meeting",
+        "text": "Right now, we've got lots to get through. So, for the June edition of the magazine,",
+        "zh": "好了，現在有很多事情要處理。六月號雜誌的"
+      },
+      {
+        "start": 169.14,
+        "end": 176.66,
+        "speaker": "Editorial meeting",
+        "text": "our main theme will be games and play. Now, I sent out an email last week asking us all to",
+        "zh": "主要主題是遊戲和玩樂。我上星期發了電郵，請大家"
+      },
+      {
+        "start": 176.66,
+        "end": 183.6,
+        "speaker": "Editorial meeting",
+        "text": "come up with ideas for topics. Dan? Well, I was thinking of computer games and learning,",
+        "zh": "想一些題材。Dan？我想到電腦遊戲與學習，"
+      },
+      {
+        "start": 184.16,
+        "end": 191.2,
+        "speaker": "Editorial meeting",
+        "text": "you know, like games that actually teach you a skill. There's one called The Next Mozart.",
+        "zh": "就是那些真的能教你一項技能的遊戲。有一款叫《下一個莫扎特》。"
+      },
+      {
+        "start": 191.68,
+        "end": 196.18,
+        "speaker": "Editorial meeting",
+        "text": "It's like a piano playing game. My niece is always playing it.",
+        "zh": "那是類似彈鋼琴的遊戲，我的姪女經常玩。"
+      },
+      {
+        "start": 196.18,
+        "end": 202.6,
+        "speaker": "Editorial meeting",
+        "text": "Yeah, that is a good topic. I'll definitely accept it for the next edition. These computer",
+        "zh": "對，這個題材很好，下一期一定採用。這類用來"
+      },
+      {
+        "start": 202.6,
+        "end": 207.96,
+        "speaker": "Editorial meeting",
+        "text": "games for learning are really popular. Right, and what have you got for us, Iris?",
+        "zh": "學習的電腦遊戲很受歡迎。那 Iris，你有什麼建議？"
+      },
+      {
+        "start": 208.54,
+        "end": 212.62,
+        "speaker": "Editorial meeting",
+        "text": "Well, I've been looking at games that young children play in the playground.",
+        "zh": "我在研究小朋友在遊樂場玩的遊戲。"
+      },
+      {
+        "start": 213.1,
+        "end": 217.18,
+        "speaker": "Editorial meeting",
+        "text": "Do you mean like playground games? Yeah, that's right. Playground games.",
+        "zh": "你是指遊樂場遊戲嗎？對，就是遊樂場遊戲。"
+      },
+      {
+        "start": 217.94,
+        "end": 224.5,
+        "speaker": "Editorial meeting",
+        "text": "I was thinking of looking at some examples, you know, like Catch the Dragon and, um,",
+        "zh": "我想介紹一些例子，例如《捉龍》，還有，嗯，"
+      },
+      {
+        "start": 224.5,
+        "end": 232.32,
+        "speaker": "Editorial meeting",
+        "text": "Fingers Out. Oh, yeah. Did you say Fingers Out? I remember Fingers Out. I used to play that",
+        "zh": "《伸出手指》。噢，你剛才說《伸出手指》嗎？我記得，我以前"
+      },
+      {
+        "start": 232.32,
+        "end": 237.82,
+        "speaker": "Editorial meeting",
+        "text": "all the time when I was at primary school. What was the first game called again? Um,",
+        "zh": "讀小學時經常玩。第一款遊戲叫什麼？嗯，"
+      },
+      {
+        "start": 238.1,
+        "end": 243.42,
+        "speaker": "Editorial meeting",
+        "text": "The Dragon One. Catch the Dragon. Oh, right. Not sure if I ever played that one.",
+        "zh": "那個跟龍有關的。《捉龍》。噢，我不肯定自己有沒有玩過。"
+      },
+      {
+        "start": 243.62,
+        "end": 247.74,
+        "speaker": "Editorial meeting",
+        "text": "Oh, I did. Definitely. Anyway, this is a great topic, Iris.",
+        "zh": "我有，肯定有。總之，Iris，這題材很好。"
+      },
+      {
+        "start": 248.18,
+        "end": 253.5,
+        "speaker": "Editorial meeting",
+        "text": "So you accept it? Yep, definitely. Playground games are fun to watch.",
+        "zh": "那你採用嗎？對，一定採用。遊樂場遊戲看起來很有趣。"
+      },
+      {
+        "start": 253.5,
+        "end": 260.34,
+        "speaker": "Editorial meeting",
+        "text": "Lots and lots of fun to watch. So right back to you, Dan. Uh, any other contributions?",
+        "zh": "看起來真的非常有趣。好，再回到 Dan，你還有其他建議嗎？"
+      },
+      {
+        "start": 261.04,
+        "end": 265.72,
+        "speaker": "Editorial meeting",
+        "text": "Yes. So something I've been looking at is computer games for animals.",
+        "zh": "有。我最近在研究供動物玩的電腦遊戲。"
+      },
+      {
+        "start": 266.6,
+        "end": 271.8,
+        "speaker": "Editorial meeting",
+        "text": "I think it would be nice to contrast human games with like games animals play.",
+        "zh": "我覺得把人類玩的遊戲和動物玩的遊戲作比較會很不錯。"
+      },
+      {
+        "start": 272.64,
+        "end": 277.66,
+        "speaker": "Editorial meeting",
+        "text": "Well, it sounds interesting. What do you mean by computer games for animals exactly?",
+        "zh": "聽起來很有意思。你說的動物電腦遊戲究竟是什麼？"
+      },
+      {
+        "start": 277.66,
+        "end": 284.92,
+        "speaker": "Editorial meeting",
+        "text": "Well, there’s loads of videos on the internet. Dogs and cats jumping at moving objects on the",
+        "zh": "網上有很多影片，狗和貓朝着"
+      },
+      {
+        "start": 284.92,
+        "end": 291.36,
+        "speaker": "Editorial meeting",
+        "text": "computer screen. It's really funny. There's this one game you can get for computer tablets called",
+        "zh": "電腦螢幕上移動的物件跳來跳去，非常搞笑。有一款平板電腦遊戲叫"
+      },
+      {
+        "start": 291.36,
+        "end": 297.12,
+        "speaker": "Editorial meeting",
+        "text": "Crazy Cat. It's brilliant. The cat chases a red dot around the screen.",
+        "zh": "《瘋狂貓咪》。很好玩的，貓會追着螢幕上的紅點跑。"
+      },
+      {
+        "start": 298.34,
+        "end": 301.96,
+        "speaker": "Editorial meeting",
+        "text": "Dan, you're not getting paid to look at funny videos on the internet.",
+        "zh": "Dan，我付薪水給你，不是讓你在網上看搞笑影片。"
+      },
+      {
+        "start": 301.96,
+        "end": 309.66,
+        "speaker": "Editorial meeting",
+        "text": "What research have you done? Really? Crazy Cat? Um, no research. Sorry.",
+        "zh": "你做過什麼研究？真的嗎，《瘋狂貓咪》？嗯，沒有研究，對不起。"
+      },
+      {
+        "start": 310.67,
+        "end": 314.67,
+        "speaker": "Editorial meeting",
+        "text": "Will you accept my topic though? Dan, you haven't done any research,",
+        "zh": "不過你會採用我的題材嗎？Dan，你沒有做任何研究，"
+      },
+      {
+        "start": 315.01,
+        "end": 318.95,
+        "speaker": "Editorial meeting",
+        "text": "so it's a no. I can't accept topics that haven't been researched.",
+        "zh": "所以不會。我不能採用未經研究的題材。"
+      },
+      {
+        "start": 319.67,
+        "end": 326.21,
+        "speaker": "Editorial meeting / Narrator",
+        "text": "Yeah, okay. That is the end of task one.",
+        "zh": "好吧。任務一完結。"
+      },
+      {
+        "start": 327.58,
+        "end": 330.88,
+        "speaker": "Narrator",
+        "text": "You now have one minute to tidy up your answers.",
+        "zh": "你現在有一分鐘整理答案。"
+      }
+    ],
+    "2": [
+      {
+        "start": 0.04,
+        "end": 7.39,
+        "speaker": "Narrator",
+        "text": "Task two. Iris is working on an online game for the next issue of the magazine.",
+        "zh": "任務二。Iris 正在為下一期雜誌製作一個網上遊戲。"
+      },
+      {
+        "start": 8.55,
+        "end": 16.47,
+        "speaker": "Narrator",
+        "text": "There are three parts to task two. In part A, Iris explains the game to Dan.",
+        "zh": "任務二分為三部分。甲部分，Iris 向 Dan 解釋遊戲。"
+      },
+      {
+        "start": 17.56,
+        "end": 26.86,
+        "speaker": "Narrator",
+        "text": "In part B, Dan plays the game. In part C, Dan and Iris discuss the game.",
+        "zh": "乙部分，Dan 玩遊戲。丙部分，Dan 和 Iris 討論遊戲。"
+      },
+      {
+        "start": 28.16,
+        "end": 33.6,
+        "speaker": "Narrator",
+        "text": "You now have 30 seconds to study the task. At the end of the task,",
+        "zh": "你現在有三十秒閱讀題目。本任務結束後，"
+      },
+      {
+        "start": 34.16,
+        "end": 71.28,
+        "speaker": "Narrator",
+        "text": "you will have one minute to tidy up your answers. Part A. Fill in the missing information",
+        "zh": "你將有一分鐘整理答案。甲部分：請填上缺漏資料，"
+      },
+      {
+        "start": 71.28,
+        "end": 75.56,
+        "speaker": "Narrator",
+        "text": "in the spaces provided in the monster maze key.",
+        "zh": "寫在「怪物迷宮」圖例所提供的空格內。"
+      },
+      {
+        "start": 82.43,
+        "end": 87.23,
+        "speaker": "Iris and Dan",
+        "text": "Hey Iris, what are you working on? Well, for this edition of the magazine,",
+        "zh": "Iris，你在做什麼？我正在為這一期雜誌"
+      },
+      {
+        "start": 87.73,
+        "end": 93.05,
+        "speaker": "Iris and Dan",
+        "text": "I'm designing some games. You know, so that our subscribers can play them on their phone.",
+        "zh": "設計一些遊戲，讓訂戶可以用手機玩。"
+      },
+      {
+        "start": 93.63,
+        "end": 98.73,
+        "speaker": "Iris and Dan",
+        "text": "The idea is that they pay money to play and they can win money if they win.",
+        "zh": "構思是他們付費玩遊戲，如果勝出便可以贏錢。"
+      },
+      {
+        "start": 99.43,
+        "end": 105.73,
+        "speaker": "Iris and Dan",
+        "text": "Cool. What kind of games? Well, the one I'm working on just now is called monster maze.",
+        "zh": "很棒。是什麼遊戲？我現在做的這個叫「怪物迷宮」。"
+      },
+      {
+        "start": 106.31,
+        "end": 111.95,
+        "speaker": "Iris and Dan",
+        "text": "Have a look. That's the key. I'm just finishing the example for the key just now.",
+        "zh": "看看吧，這是圖例。我剛好在完成圖例中的示範。"
+      },
+      {
+        "start": 112.68,
+        "end": 115,
+        "speaker": "Iris and Dan",
+        "text": "Hmm. The grid looks good.",
+        "zh": "嗯，格子看起來不錯。"
+      },
+      {
+        "start": 115.34,
+        "end": 120.92,
+        "speaker": "Iris and Dan",
+        "text": "Okay, good. So where's the entrance to the maze? Is it at the top here?",
+        "zh": "好。迷宮入口在哪裡？在上面這裡嗎？"
+      },
+      {
+        "start": 120.92,
+        "end": 128.28,
+        "speaker": "Iris and Dan",
+        "text": "No, the other way round. The entrance to the maze is at the bottom where the numbers 1 to 6 are.",
+        "zh": "不，剛好相反。入口在下面，有一至六這些數字的地方。"
+      },
+      {
+        "start": 129.02,
+        "end": 134.38,
+        "speaker": "Iris and Dan",
+        "text": "Ah, I see. Where the numbers are. So the exit to the maze is at the top then?",
+        "zh": "明白，在數字那邊。那麼出口在上面嗎？"
+      },
+      {
+        "start": 134.68,
+        "end": 137.02,
+        "speaker": "Iris and Dan",
+        "text": "Exactly. The exit's at the top.",
+        "zh": "沒錯，出口在上面。"
+      },
+      {
+        "start": 137.28,
+        "end": 143.4,
+        "speaker": "Iris and Dan",
+        "text": "Oh, okay. Right. And the grey squares must be walls or something.",
+        "zh": "好。那些灰色格子應該是牆壁之類的東西吧。"
+      },
+      {
+        "start": 143.84,
+        "end": 147.38,
+        "speaker": "Iris and Dan",
+        "text": "Yes, that's right. The grey squares are the walls of the maze.",
+        "zh": "對，灰色格子就是迷宮的牆壁。"
+      },
+      {
+        "start": 147.38,
+        "end": 153.2,
+        "speaker": "Iris and Dan",
+        "text": "And those circles, the O's, that indicates the route you've taken through the maze.",
+        "zh": "那些圓圈，也就是 O，代表你走過迷宮的路線。"
+      },
+      {
+        "start": 153.92,
+        "end": 158.99,
+        "speaker": "Iris and Dan",
+        "text": "Oh, I see the O's. And what's this M here?",
+        "zh": "我看到 O 了。那這個 M 是什麼？"
+      },
+      {
+        "start": 159.53,
+        "end": 164.45,
+        "speaker": "Iris and Dan",
+        "text": "That's the monster. There are three, but they're hidden when you play the game.",
+        "zh": "那是怪物。共有三隻，不過玩遊戲時牠們是隱藏的。"
+      },
+      {
+        "start": 164.91,
+        "end": 169.67,
+        "speaker": "Iris and Dan",
+        "text": "But when you land on one of the monsters, an M appears and you lose a life.",
+        "zh": "當你走到其中一隻怪物所在的格子，便會出現 M，而你會失去一條生命。"
+      },
+      {
+        "start": 169.97,
+        "end": 172.97,
+        "speaker": "Iris and Dan",
+        "text": "Right. Still not sure if I get it.",
+        "zh": "好，我還是不太肯定自己是否明白。"
+      },
+      {
+        "start": 173.31,
+        "end": 175.85,
+        "speaker": "Iris and Dan",
+        "text": "So have a look at the example in the key.",
+        "zh": "看看圖例中的例子吧。"
+      },
+      {
+        "start": 175.85,
+        "end": 184.73,
+        "speaker": "Iris and Dan",
+        "text": "Okay. Well, in the example, the player starts on A4, goes forward one square to B4,",
+        "zh": "好。例子中的玩家由 A4 開始，向前走一格到 B4，"
+      },
+      {
+        "start": 185.55,
+        "end": 195.19,
+        "speaker": "Iris and Dan",
+        "text": "moves left one square to B3, moves forward three squares to E3, and then moves left one square.",
+        "zh": "再向左一格到 B3，向前走三格到 E3，然後向左一格。"
+      },
+      {
+        "start": 195.97,
+        "end": 199.43,
+        "speaker": "Iris and Dan",
+        "text": "And there at E2, he lands on the monster.",
+        "zh": "於是在 E2，他遇上怪物。"
+      },
+      {
+        "start": 199.91,
+        "end": 201.13,
+        "speaker": "Iris and Dan",
+        "text": "And is dead.",
+        "zh": "然後就死了。"
+      },
+      {
+        "start": 201.27,
+        "end": 201.67,
+        "speaker": "Iris and Dan",
+        "text": "Yep.",
+        "zh": "對。"
+      },
+      {
+        "start": 202.39,
+        "end": 203.35,
+        "speaker": "Iris and Dan",
+        "text": "Eaten alive.",
+        "zh": "被活生生吃掉了。"
+      },
+      {
+        "start": 203.75,
+        "end": 204.33,
+        "speaker": "Iris and Dan",
+        "text": "Exactly.",
+        "zh": "沒錯。"
+      },
+      {
+        "start": 211.61,
+        "end": 220.75,
+        "speaker": "Narrator",
+        "text": "Part B. Plot Dan's route by putting a circle in each square like the example shown above",
+        "zh": "乙部分：請像上面圖例中的示範一樣，在每一格畫圓圈，標示 Dan 的路線，"
+      },
+      {
+        "start": 220.75,
+        "end": 227.43,
+        "speaker": "Narrator",
+        "text": "in the monster maze key, and put an M if he lands on a hidden monster.",
+        "zh": "並在他遇上隱藏怪物的格子填上 M。"
+      },
+      {
+        "start": 234.18,
+        "end": 235.78,
+        "speaker": "Iris and Dan",
+        "text": "So, do you want to play, Dan?",
+        "zh": "Dan，你想玩嗎？"
+      },
+      {
+        "start": 236.14,
+        "end": 236.52,
+        "speaker": "Iris and Dan",
+        "text": "Sure.",
+        "zh": "當然。"
+      },
+      {
+        "start": 237.02,
+        "end": 243.22,
+        "speaker": "Iris and Dan",
+        "text": "Okay. We can do it without the computer just now. So, I'll hide three monsters on the grid",
+        "zh": "好，現在不用電腦也能玩。我先把三隻怪物藏在格子裡，"
+      },
+      {
+        "start": 243.22,
+        "end": 248.26,
+        "speaker": "Iris and Dan",
+        "text": "by writing down the grid number, and you have to go from the entrance of the maze",
+        "zh": "把格子座標寫下來，你要由迷宮入口"
+      },
+      {
+        "start": 248.26,
+        "end": 253.54,
+        "speaker": "Iris and Dan",
+        "text": "and reach the exit without walking into the monsters. You get two lives.",
+        "zh": "走到出口，不能碰上怪物。你有兩條生命。"
+      },
+      {
+        "start": 254.16,
+        "end": 256.8,
+        "speaker": "Iris and Dan",
+        "text": "Sure. So, this is my first life, eh?",
+        "zh": "好，這是我的第一條生命，對吧？"
+      },
+      {
+        "start": 257.12,
+        "end": 259.91,
+        "speaker": "Iris and Dan",
+        "text": "Yeah. Come on. Go.",
+        "zh": "對，來吧，開始。"
+      },
+      {
+        "start": 260.21,
+        "end": 265.03,
+        "speaker": "Iris and Dan",
+        "text": "Okay, okay. I'm thinking. I'll start on A4.",
+        "zh": "好，好，我在想。我由 A4 開始。"
+      },
+      {
+        "start": 265.73,
+        "end": 269.13,
+        "speaker": "Iris and Dan",
+        "text": "Okay. You're fine. Next move.",
+        "zh": "好，安全。下一步呢？"
+      },
+      {
+        "start": 269.61,
+        "end": 274.85,
+        "speaker": "Iris and Dan",
+        "text": "I'll move forward one square, then move right two squares.",
+        "zh": "我向前一格，然後向右兩格。"
+      },
+      {
+        "start": 275.17,
+        "end": 277.69,
+        "speaker": "Iris and Dan",
+        "text": "Gotcha. You've landed on my monster.",
+        "zh": "捉到你了！你走到我的怪物那格。"
+      },
+      {
+        "start": 279.16,
+        "end": 282.3,
+        "speaker": "Iris and Dan",
+        "text": "Okay. So...",
+        "zh": "好吧，那……"
+      },
+      {
+        "start": 282.74,
+        "end": 284.2,
+        "speaker": "Iris and Dan",
+        "text": "Your second life.",
+        "zh": "到你的第二條生命了。"
+      },
+      {
+        "start": 284.54,
+        "end": 291.9,
+        "speaker": "Iris and Dan",
+        "text": "Right. My second life. Here goes. I'll start at A5. I move forward one square.",
+        "zh": "對，第二條生命。來吧，我由 A5 開始，向前一格。"
+      },
+      {
+        "start": 292.68,
+        "end": 296.5,
+        "speaker": "Iris and Dan",
+        "text": "Now, um, I'll move left two squares.",
+        "zh": "然後，嗯，向左兩格。"
+      },
+      {
+        "start": 296.98,
+        "end": 298.84,
+        "speaker": "Iris and Dan",
+        "text": "Okay. You're fine.",
+        "zh": "好，安全。"
+      },
+      {
+        "start": 299.32,
+        "end": 305.24,
+        "speaker": "Iris and Dan",
+        "text": "Move forward three squares. And, and, move right one square.",
+        "zh": "向前三格，再、再向右一格。"
+      },
+      {
+        "start": 305.96,
+        "end": 311.02,
+        "speaker": "Iris and Dan",
+        "text": "Okay. Here goes. Move forward one square. Did I make it?",
+        "zh": "好，來吧。向前一格。我成功了嗎？"
+      },
+      {
+        "start": 311.3,
+        "end": 315.38,
+        "speaker": "Iris and Dan",
+        "text": "Yes. Well done, Dan. You made it. You survived the maze.",
+        "zh": "對，Dan，做得好！你成功了，活着走出了迷宮。"
+      },
+      {
+        "start": 315.84,
+        "end": 319.9,
+        "speaker": "Iris and Dan",
+        "text": "Hooray! I won. No longer will I be called a loser.",
+        "zh": "萬歲，我贏了！再也沒有人可以叫我是失敗者。"
+      },
+      {
+        "start": 320.62,
+        "end": 323.1,
+        "speaker": "Iris and Dan",
+        "text": "Well, I don't know about that.",
+        "zh": "這個我可不敢肯定。"
+      },
+      {
+        "start": 330.2,
+        "end": 337.31,
+        "speaker": "Narrator",
+        "text": "Part C. Listen to Iris and Dan's discussion and answer the questions.",
+        "zh": "丙部分：聆聽 Iris 和 Dan 的討論，並回答問題。"
+      },
+      {
+        "start": 338.8,
+        "end": 342.76,
+        "speaker": "Narrator",
+        "text": "Please note, you do not have to answer in full sentences.",
+        "zh": "請注意，你不需要用完整句子作答。"
+      },
+      {
+        "start": 349.76,
+        "end": 351.96,
+        "speaker": "Iris and Dan",
+        "text": "So, what do you think? Any suggestions?",
+        "zh": "你覺得怎樣？有什麼建議？"
+      },
+      {
+        "start": 352.74,
+        "end": 359.3,
+        "speaker": "Iris and Dan",
+        "text": "Hmm. Well, the grid's a bit boring to look at. You need to make the game look more colorful.",
+        "zh": "嗯，格子看起來有點沉悶。你要讓遊戲的色彩更豐富。"
+      },
+      {
+        "start": 360,
+        "end": 365.8,
+        "speaker": "Iris and Dan",
+        "text": "Yes. It does look a bit boring. You're right. I'll ask Gabby in graphics to make it more",
+        "zh": "對，看起來是有點沉悶。你說得對，我會請美術部的 Gabby 把它設計得更"
+      },
+      {
+        "start": 365.8,
+        "end": 371.04,
+        "speaker": "Iris and Dan",
+        "text": "colorful. And I'd suggest having more monsters. That'll make it more challenging.",
+        "zh": "繽紛。我也建議加入更多怪物，這樣會更有挑戰性。"
+      },
+      {
+        "start": 371.62,
+        "end": 375.6,
+        "speaker": "Iris and Dan",
+        "text": "Yes. I suppose adding more monsters would make it more fun too.",
+        "zh": "對，我想加入更多怪物也會更有趣。"
+      },
+      {
+        "start": 376.24,
+        "end": 382.3,
+        "speaker": "Iris and Dan",
+        "text": "But I have a question. I was just wondering how will people actually play it online? The game,",
+        "zh": "不過我有一個問題：大家究竟怎樣在網上玩這個遊戲？"
+      },
+      {
+        "start": 382.54,
+        "end": 388.44,
+        "speaker": "Iris and Dan",
+        "text": "I mean. Well, we're going to allow two ways of playing the game. The first one is by",
+        "zh": "我是指實際玩法。我們會提供兩種玩法。第一種是"
+      },
+      {
+        "start": 388.44,
+        "end": 395.24,
+        "speaker": "Iris and Dan",
+        "text": "actually speaking like we did. Oh, that's quite cool. So, you speak to your smartphone",
+        "zh": "像我們剛才那樣直接說出指令。很酷。即是你對着智能手機說話，"
+      },
+      {
+        "start": 395.24,
+        "end": 400.1,
+        "speaker": "Iris and Dan",
+        "text": "and it marks your route on the grid? Yes, that’s right. All voice controlled.",
+        "zh": "它就會在格子上標示你的路線？沒錯，全靠語音控制。"
+      },
+      {
+        "start": 400.84,
+        "end": 403.78,
+        "speaker": "Iris and Dan",
+        "text": "The second way is that you can simply touch the screen.",
+        "zh": "第二種方式就是直接觸碰螢幕。"
+      },
+      {
+        "start": 404.18,
+        "end": 410.34,
+        "speaker": "Iris and Dan",
+        "text": "Yes. I can imagine this working well with like touch screen devices like smartphones.",
+        "zh": "對，我能想像它很適合智能手機這類觸控螢幕裝置。"
+      },
+      {
+        "start": 411.1,
+        "end": 415.22,
+        "speaker": "Iris and Dan",
+        "text": "But how can people be sure that the game's not cheating and, you know,",
+        "zh": "但大家怎樣確定遊戲沒有作弊，沒有在"
+      },
+      {
+        "start": 415.44,
+        "end": 418.72,
+        "speaker": "Iris and Dan",
+        "text": "just placing the monsters after the player makes a move?",
+        "zh": "玩家走完一步後才放置怪物？"
+      },
+      {
+        "start": 419.3,
+        "end": 425.34,
+        "speaker": "Iris and Dan",
+        "text": "This is the tricky part. It's done in steps. So, in the first step, when the game starts,",
+        "zh": "這是比較棘手的部分，要分步驟進行。第一步，遊戲開始時，"
+      },
+      {
+        "start": 425.86,
+        "end": 428.36,
+        "speaker": "Iris and Dan",
+        "text": "the game sends a document to the player's phone.",
+        "zh": "遊戲會把一份文件傳送到玩家的手機。"
+      },
+      {
+        "start": 428.66,
+        "end": 431.14,
+        "speaker": "Iris and Dan",
+        "text": "Okay. So, what happens after that?",
+        "zh": "好，之後呢？"
+      },
+      {
+        "start": 431.9,
+        "end": 437.18,
+        "speaker": "Iris and Dan",
+        "text": "Right. The second step is that when the game's over, a password appears on the screen.",
+        "zh": "第二步，遊戲結束時，螢幕上會出現一組密碼。"
+      },
+      {
+        "start": 437.72,
+        "end": 441.68,
+        "speaker": "Iris and Dan",
+        "text": "Okay. Right. And then, what's the password for?",
+        "zh": "好，那密碼有什麼用途？"
+      },
+      {
+        "start": 442.08,
+        "end": 447.24,
+        "speaker": "Iris and Dan",
+        "text": "Right. So, the third step is that the player opens the document with the password.",
+        "zh": "第三步，玩家用該密碼開啟文件。"
+      },
+      {
+        "start": 447.24,
+        "end": 452.44,
+        "speaker": "Iris and Dan",
+        "text": "Okay. Cool. So, they open the document in the third step.",
+        "zh": "明白，很好。他們在第三步開啟文件。"
+      },
+      {
+        "start": 453.12,
+        "end": 458.08,
+        "speaker": "Iris and Dan",
+        "text": "Then the fourth and final step is that the player checks the location of the monsters.",
+        "zh": "第四步，也是最後一步，玩家檢查怪物的位置。"
+      },
+      {
+        "start": 458.44,
+        "end": 463.2,
+        "speaker": "Iris and Dan",
+        "text": "Okay. That is clever. So, when the player checks the location,",
+        "zh": "很聰明。玩家檢查位置後，"
+      },
+      {
+        "start": 463.54,
+        "end": 466.44,
+        "speaker": "Iris and Dan",
+        "text": "he knows then that the game hasn't been cheating.",
+        "zh": "就知道遊戲沒有作弊。"
+      },
+      {
+        "start": 466.9,
+        "end": 467.46,
+        "speaker": "Iris and Dan",
+        "text": "Exactly.",
+        "zh": "正是。"
+      },
+      {
+        "start": 470.18,
+        "end": 476.52,
+        "speaker": "Narrator",
+        "text": "That is the end of task two. You now have one minute to tidy up your answers.",
+        "zh": "任務二完結。你現在有一分鐘整理答案。"
+      }
+    ],
+    "3": [
+      {
+        "start": 0,
+        "end": 8.89,
+        "speaker": "Narrator",
+        "text": "Three. Katie is at the airport. She is calling Dan to ask him to edit an article she has been working",
+        "zh": "任務三。Kaity 在機場，正打電話給 Dan，請他編輯她一直在撰寫的文章。"
+      },
+      {
+        "start": 8.89,
+        "end": 19.12,
+        "speaker": "Narrator",
+        "text": "on. There are three parts to task three. In part A, you have to correct some sentences.",
+        "zh": "任務三分為三部分。甲部分，你要改正一些句子。"
+      },
+      {
+        "start": 21.09,
+        "end": 25.77,
+        "speaker": "Narrator",
+        "text": "In part B, you have to provide labels for parts of a painting.",
+        "zh": "乙部分，你要為畫作中指定的部分加上標籤。"
+      },
+      {
+        "start": 26.8,
+        "end": 30.54,
+        "speaker": "Narrator",
+        "text": "And in part C, you have to complete a text.",
+        "zh": "丙部分，你要完成一段文字。"
+      },
+      {
+        "start": 32.01,
+        "end": 38.71,
+        "speaker": "Narrator",
+        "text": "You now have 30 seconds to study task three. At the end of the task,",
+        "zh": "你現在有三十秒閱讀任務三。本任務結束後，"
+      },
+      {
+        "start": 39.07,
+        "end": 78.49,
+        "speaker": "Narrator",
+        "text": "you will have one minute to tidy up your answers. Part A. Each line of the text below",
+        "zh": "你將有一分鐘整理答案。甲部分：下面文字的每一行"
+      },
+      {
+        "start": 78.49,
+        "end": 87.08,
+        "speaker": "Narrator",
+        "text": "may have one mistake. Correct the mistake as shown below. If the line is correct,",
+        "zh": "可能有一個錯誤。請按下方示範改正錯誤。如果該行正確，"
+      },
+      {
+        "start": 87.84,
+        "end": 94.01,
+        "speaker": "Narrator",
+        "text": "then put a tick in the right-hand column. The first has been provided as an example.",
+        "zh": "在右欄加上剔號。第一項已作為例子提供。"
+      },
+      {
+        "start": 100.85,
+        "end": 101.37,
+        "speaker": "Kaity and Dan",
+        "text": "Hello.",
+        "zh": "喂。"
+      },
+      {
+        "start": 101.99,
+        "end": 102.97,
+        "speaker": "Kaity and Dan",
+        "text": "Oh, hi, Dan.",
+        "zh": "你好，Dan。"
+      },
+      {
+        "start": 103.27,
+        "end": 104.59,
+        "speaker": "Kaity and Dan",
+        "text": "Hi. Where are you?",
+        "zh": "你好，你在哪裡？"
+      },
+      {
+        "start": 104.89,
+        "end": 109.79,
+        "speaker": "Kaity and Dan",
+        "text": "I'm at the airport. Look, Dan, I've written this article about games and art,",
+        "zh": "我在機場。Dan，我寫了一篇關於遊戲與藝術的文章，"
+      },
+      {
+        "start": 110.13,
+        "end": 116.41,
+        "speaker": "Kaity and Dan",
+        "text": "but didn't have time to finish editing it. And like an idiot, I forgot my laptop.",
+        "zh": "但沒時間完成編輯。我真笨，竟然忘了帶手提電腦。"
+      },
+      {
+        "start": 117.15,
+        "end": 122.55,
+        "speaker": "Kaity and Dan",
+        "text": "I need you to check some things for me. Can you open up the file? It's in the Dropbox folder.",
+        "zh": "我需要你替我核對一些資料。你能開啟檔案嗎？在 Dropbox 資料夾裡。"
+      },
+      {
+        "start": 123.23,
+        "end": 127.57,
+        "speaker": "Kaity and Dan",
+        "text": "Sure. Okay. Let me just open it up. Right. I'm ready.",
+        "zh": "當然，讓我開啟它。好，準備好了。"
+      },
+      {
+        "start": 127.57,
+        "end": 132.79,
+        "speaker": "Kaity and Dan",
+        "text": "Okay. At the start of the article, I discuss a famous painting called",
+        "zh": "文章開頭，我討論一幅著名畫作，叫"
+      },
+      {
+        "start": 132.79,
+        "end": 136.67,
+        "speaker": "Kaity and Dan",
+        "text": "Children's Games by Peter Bruegel, the Elder.",
+        "zh": "老布魯蓋爾的《兒童遊戲》。"
+      },
+      {
+        "start": 137.59,
+        "end": 140.23,
+        "speaker": "Kaity and Dan",
+        "text": "It says here that it is a drawing.",
+        "zh": "這裡寫的是一幅素描。"
+      },
+      {
+        "start": 140.81,
+        "end": 143.55,
+        "speaker": "Kaity and Dan",
+        "text": "That should be a painting. Can you change it?",
+        "zh": "應該是繪畫作品，你可以改一下嗎？"
+      },
+      {
+        "start": 143.97,
+        "end": 146.57,
+        "speaker": "Kaity and Dan",
+        "text": "Okay. Done.",
+        "zh": "好，改好了。"
+      },
+      {
+        "start": 147.39,
+        "end": 150.89,
+        "speaker": "Kaity and Dan",
+        "text": "Okay. Now, can you double check some of the facts are written correctly?",
+        "zh": "現在可以再核對一些資料有沒有寫對嗎？"
+      },
+      {
+        "start": 151.51,
+        "end": 159.97,
+        "speaker": "Kaity and Dan",
+        "text": "I might have got the dates wrong, so please change it to 1560 if that's printed incorrectly.",
+        "zh": "年份可能寫錯了。如果不正確，請改成 1560 年。"
+      },
+      {
+        "start": 161.09,
+        "end": 166.05,
+        "speaker": "Kaity and Dan",
+        "text": "No, no, it's right. You say here that it was started in 1560.",
+        "zh": "不，年份沒錯。你這裡寫的是 1560 年開始創作。"
+      },
+      {
+        "start": 167.15,
+        "end": 171.49,
+        "speaker": "Kaity and Dan",
+        "text": "Ah, just as well you said that. It was completed then.",
+        "zh": "幸好你提起，應該是在那一年完成。"
+      },
+      {
+        "start": 172.13,
+        "end": 175.63,
+        "speaker": "Kaity and Dan",
+        "text": "Oh, and check that I've spelled the artist's first name right.",
+        "zh": "還有，檢查我有沒有拼對畫家的名字。"
+      },
+      {
+        "start": 175.63,
+        "end": 185.21,
+        "speaker": "Kaity and Dan",
+        "text": "It should be Pieter Bruegel and Pieter spelled P-I-E-T-E-R.",
+        "zh": "應該是 Pieter Bruegel，Pieter 的拼法是 P-I-E-T-E-R。"
+      },
+      {
+        "start": 185.71,
+        "end": 191.49,
+        "speaker": "Kaity and Dan",
+        "text": "Oh, you've actually written Pete Bruegel. P-E-T-E.",
+        "zh": "噢，你其實寫成了 Pete Bruegel，P-E-T-E。"
+      },
+      {
+        "start": 191.63,
+        "end": 192.73,
+        "speaker": "Kaity and Dan",
+        "text": "Thought so.",
+        "zh": "果然如此。"
+      },
+      {
+        "start": 193.17,
+        "end": 196.37,
+        "speaker": "Kaity and Dan",
+        "text": "Okay. Let me just change that now. Okay.",
+        "zh": "好，讓我現在改過來。好了。"
+      },
+      {
+        "start": 196.97,
+        "end": 202.79,
+        "speaker": "Kaity and Dan",
+        "text": "Right. And make sure I've got the countries right. I can never remember where he was born and died.",
+        "zh": "也請確定國家寫對了，我總記不住他在哪裡出生和去世。"
+      },
+      {
+        "start": 203.51,
+        "end": 207.65,
+        "speaker": "Kaity and Dan",
+        "text": "He died in Belgium and was born in the Netherlands. Got it?",
+        "zh": "他在比利時去世，在荷蘭出生。明白嗎？"
+      },
+      {
+        "start": 208.15,
+        "end": 209.43,
+        "speaker": "Kaity and Dan",
+        "text": "Yeah, I think so.",
+        "zh": "嗯，應該明白。"
+      },
+      {
+        "start": 225.81,
+        "end": 237.28,
+        "speaker": "Kaity and Dan",
+        "text": "Okay. Now, the next thing is that I've put some labels on the painting",
+        "zh": "下一件事：我在畫上加了一些標籤，"
+      },
+      {
+        "start": 237.28,
+        "end": 241.88,
+        "speaker": "Kaity and Dan",
+        "text": "to point out interesting details about what the children are actually doing.",
+        "zh": "指出孩子們究竟在做什麼，展示一些有趣的細節。"
+      },
+      {
+        "start": 241.88,
+        "end": 246.4,
+        "speaker": "Kaity and Dan",
+        "text": "Um, the games they're playing, I mean. I didn't manage to finish them.",
+        "zh": "我是指他們玩的遊戲。我還未完成標籤。"
+      },
+      {
+        "start": 246.92,
+        "end": 248.84,
+        "speaker": "Kaity and Dan",
+        "text": "Could you add them as I go through them?",
+        "zh": "我逐項說明時，你可以替我補上嗎？"
+      },
+      {
+        "start": 249.48,
+        "end": 253.26,
+        "speaker": "Kaity and Dan",
+        "text": "Yes, let's see. I've got the picture up here now.",
+        "zh": "可以，讓我看看，圖片已經開啟了。"
+      },
+      {
+        "start": 254.66,
+        "end": 259.2,
+        "speaker": "Kaity and Dan",
+        "text": "So, if you look closely, there's one boy sitting cross-legged on the grass.",
+        "zh": "仔細看，有個男孩盤腿坐在草地上。"
+      },
+      {
+        "start": 260.06,
+        "end": 265.1,
+        "speaker": "Kaity and Dan",
+        "text": "Well, this was actually a form of exercise at the time, a bit like yoga today.",
+        "zh": "這其實是當時的一種運動，有點像今天的瑜伽。"
+      },
+      {
+        "start": 265.74,
+        "end": 271.14,
+        "speaker": "Kaity and Dan",
+        "text": "Okay. I can see that now. It does look like he's doing a yoga exercise.",
+        "zh": "現在看到了，確實很像在做瑜伽運動。"
+      },
+      {
+        "start": 271.14,
+        "end": 273.36,
+        "speaker": "Kaity and Dan",
+        "text": "I didn't realise before.",
+        "zh": "我之前沒有留意到。"
+      },
+      {
+        "start": 274.28,
+        "end": 278.08,
+        "speaker": "Kaity and Dan",
+        "text": "Also, in the picture, there are girls holding a basket.",
+        "zh": "畫裡還有一些女孩拿着籃子。"
+      },
+      {
+        "start": 278.68,
+        "end": 283.38,
+        "speaker": "Kaity and Dan",
+        "text": "Oh yes, I see them. Seems to be a basket of fruit or something.",
+        "zh": "對，看到了，好像是一籃水果之類的。"
+      },
+      {
+        "start": 284.22,
+        "end": 287.82,
+        "speaker": "Kaity and Dan",
+        "text": "So, what are they doing then? It doesn't look like a game.",
+        "zh": "那她們在做什麼？看起來不像遊戲。"
+      },
+      {
+        "start": 288.28,
+        "end": 291.42,
+        "speaker": "Kaity and Dan",
+        "text": "Well, they're actually performing a wedding, a pretend wedding.",
+        "zh": "她們其實在扮演婚禮，是假裝的婚禮。"
+      },
+      {
+        "start": 291.88,
+        "end": 297.32,
+        "speaker": "Kaity and Dan",
+        "text": "Oh, I remember having to dress up for pretend weddings when I was little with my big sister.",
+        "zh": "我記得小時候要跟姐姐打扮好，玩扮婚禮的遊戲。"
+      },
+      {
+        "start": 297.88,
+        "end": 301.56,
+        "speaker": "Kaity and Dan",
+        "text": "Oh, now that would be a wedding picture I'd love to see.",
+        "zh": "那可真是我很想看的一張婚禮照片。"
+      },
+      {
+        "start": 301.8,
+        "end": 302.78,
+        "speaker": "Kaity and Dan",
+        "text": "Yeah, well.",
+        "zh": "嗯，好吧。"
+      },
+      {
+        "start": 303.18,
+        "end": 307.72,
+        "speaker": "Kaity and Dan",
+        "text": "Now, what else? Okay, you see those boys on top of the fence?",
+        "zh": "還有什麼呢？你看到坐在圍欄上的男孩嗎？"
+      },
+      {
+        "start": 308.66,
+        "end": 310.68,
+        "speaker": "Kaity and Dan",
+        "text": "Well, they're playing at riding horses.",
+        "zh": "他們在假裝騎馬。"
+      },
+      {
+        "start": 311.58,
+        "end": 317.1,
+        "speaker": "Kaity and Dan",
+        "text": "Oh yes, I can see that now. They really do look like they are riding a horse.",
+        "zh": "對，現在看出來了。他們真的很像在騎馬。"
+      },
+      {
+        "start": 317.84,
+        "end": 320.98,
+        "speaker": "Kaity and Dan",
+        "text": "So, what about the kids jumping over the other kids' legs?",
+        "zh": "那些跳過其他孩子雙腿的孩子又在做什麼？"
+      },
+      {
+        "start": 321.7,
+        "end": 322.52,
+        "speaker": "Kaity and Dan",
+        "text": "What's that about?",
+        "zh": "那是什麼遊戲？"
+      },
+      {
+        "start": 322.96,
+        "end": 324.96,
+        "speaker": "Kaity and Dan",
+        "text": "This game's actually quite painful.",
+        "zh": "這個遊戲其實很痛。"
+      },
+      {
+        "start": 324.96,
+        "end": 329.94,
+        "speaker": "Kaity and Dan",
+        "text": "The children would apparently kick very hard and it would really hurt.",
+        "zh": "據說孩子們會很用力踢，真的會令人受傷。"
+      },
+      {
+        "start": 330.46,
+        "end": 332.7,
+        "speaker": "Kaity and Dan",
+        "text": "Ouch! So, it's a kicking game.",
+        "zh": "哎喲，所以是踢人的遊戲。"
+      },
+      {
+        "start": 333.46,
+        "end": 335.94,
+        "speaker": "Kaity and Dan",
+        "text": "I'm glad we didn't play that when I was at school.",
+        "zh": "幸好我上學時沒有玩這個。"
+      },
+      {
+        "start": 336.82,
+        "end": 338.48,
+        "speaker": "Kaity and Dan",
+        "text": "We did something similar, actually.",
+        "zh": "其實我們也做過類似的事。"
+      },
+      {
+        "start": 339.12,
+        "end": 341.74,
+        "speaker": "Kaity and Dan",
+        "text": "Kicking people, I mean. It was quite violent.",
+        "zh": "我是指踢人，相當暴力。"
+      },
+      {
+        "start": 342.48,
+        "end": 342.8,
+        "speaker": "Kaity and Dan",
+        "text": "Really?",
+        "zh": "真的嗎？"
+      },
+      {
+        "start": 350.07,
+        "end": 353.41,
+        "speaker": "Narrator",
+        "text": "Part C. Complete the text.",
+        "zh": "丙部分：完成這段文字。"
+      },
+      {
+        "start": 354.44,
+        "end": 357.66,
+        "speaker": "Narrator",
+        "text": "Write one or more words in each gap.",
+        "zh": "每個空格填上一個或多個字。"
+      },
+      {
+        "start": 364.48,
+        "end": 367.24,
+        "speaker": "Kaity and Dan",
+        "text": "Right, moving on. What else is there?",
+        "zh": "好，繼續，還有什麼？"
+      },
+      {
+        "start": 367.24,
+        "end": 373.3,
+        "speaker": "Kaity and Dan",
+        "text": "Oh, oh yes. At the end of the article, there's a section on present-day games.",
+        "zh": "對了，文章末段有一節談今天的遊戲。"
+      },
+      {
+        "start": 373.94,
+        "end": 376.6,
+        "speaker": "Kaity and Dan",
+        "text": "Games that use classic art for their graphics.",
+        "zh": "就是用經典藝術作品作為畫面的遊戲。"
+      },
+      {
+        "start": 377.08,
+        "end": 378.5,
+        "speaker": "Kaity and Dan",
+        "text": "I didn't quite finish that.",
+        "zh": "那一部分我還未寫完。"
+      },
+      {
+        "start": 378.86,
+        "end": 380.94,
+        "speaker": "Kaity and Dan",
+        "text": "Oh, okay. They look fun.",
+        "zh": "好，看起來很有趣。"
+      },
+      {
+        "start": 381.48,
+        "end": 383.3,
+        "speaker": "Kaity and Dan",
+        "text": "Yeah, I loved reading up on this.",
+        "zh": "是啊，我很喜歡閱讀這方面的資料。"
+      },
+      {
+        "start": 383.74,
+        "end": 388.24,
+        "speaker": "Kaity and Dan",
+        "text": "I like the fact that they're making a video game out of a classic work of art",
+        "zh": "我很喜歡他們把經典藝術作品改編成電子遊戲，"
+      },
+      {
+        "start": 388.24,
+        "end": 391.04,
+        "speaker": "Kaity and Dan",
+        "text": "like The Last Supper or The Mona Lisa.",
+        "zh": "例如《最後的晚餐》和《蒙娜麗莎》。"
+      },
+      {
+        "start": 391.9,
+        "end": 394.02,
+        "speaker": "Kaity and Dan",
+        "text": "Yeah, I know. They're brilliant, aren't they?",
+        "zh": "對，真的很棒。"
+      },
+      {
+        "start": 394.02,
+        "end": 399.5,
+        "speaker": "Kaity and Dan",
+        "text": "So, what's interesting is that these games use 8-bit graphics.",
+        "zh": "有趣的是，這些遊戲使用八位元圖像。"
+      },
+      {
+        "start": 400,
+        "end": 403.76,
+        "speaker": "Kaity and Dan",
+        "text": "8-bit? You mean like early computer graphics?",
+        "zh": "八位元？你是指早期的電腦圖像嗎？"
+      },
+      {
+        "start": 404.62,
+        "end": 408.12,
+        "speaker": "Kaity and Dan",
+        "text": "Why use 8-bit graphics? That's a bit weird.",
+        "zh": "為什麼用八位元圖像？這有點奇怪。"
+      },
+      {
+        "start": 408.66,
+        "end": 411.42,
+        "speaker": "Kaity and Dan",
+        "text": "Well, because for the game designers, it's a challenge.",
+        "zh": "因為對遊戲設計師來說，這是一個挑戰。"
+      },
+      {
+        "start": 412.04,
+        "end": 418.28,
+        "speaker": "Kaity and Dan",
+        "text": "They're trying to use these little blocks with only a few colours to create very complex pictures.",
+        "zh": "他們嘗試用這些小方塊和少量顏色，製作非常複雜的圖畫。"
+      },
+      {
+        "start": 418.28,
+        "end": 419.18,
+        "speaker": "Kaity and Dan",
+        "text": "Hmm.",
+        "zh": "嗯。"
+      },
+      {
+        "start": 420.12,
+        "end": 423.64,
+        "speaker": "Kaity and Dan",
+        "text": "What I mean is that they, the designers of these computer games,",
+        "zh": "我的意思是，這些電腦遊戲的設計師"
+      },
+      {
+        "start": 424.1,
+        "end": 431.08,
+        "speaker": "Kaity and Dan",
+        "text": "enjoy making these really complicated images from small blocks using only a small number of colours.",
+        "zh": "很享受只用小方塊和少量顏色，製作非常複雜的圖像。"
+      },
+      {
+        "start": 431.88,
+        "end": 436.32,
+        "speaker": "Kaity and Dan",
+        "text": "Yeah, okay. Well, let me just finish making a note of that.",
+        "zh": "好，讓我先把這一點記下。"
+      },
+      {
+        "start": 437.26,
+        "end": 438.66,
+        "speaker": "Kaity and Dan",
+        "text": "Right, keep going.",
+        "zh": "好，繼續。"
+      },
+      {
+        "start": 439.38,
+        "end": 444.04,
+        "speaker": "Kaity and Dan",
+        "text": "So, the games themselves are actually quite simple, like really, really simple,",
+        "zh": "遊戲本身其實相當簡單，真的非常、非常簡單，"
+      },
+      {
+        "start": 444.22,
+        "end": 445.62,
+        "speaker": "Kaity and Dan",
+        "text": "and there's a reason for that.",
+        "zh": "而這是有原因的。"
+      },
+      {
+        "start": 446.16,
+        "end": 447.2,
+        "speaker": "Kaity and Dan",
+        "text": "And what's the reason?",
+        "zh": "什麼原因？"
+      },
+      {
+        "start": 447.2,
+        "end": 452.26,
+        "speaker": "Kaity and Dan",
+        "text": "Well, these games are not meant to be serious. They're just supposed to be funny.",
+        "zh": "這些遊戲不是要讓人認真對待，只是想令人發笑。"
+      },
+      {
+        "start": 452.96,
+        "end": 456.2,
+        "speaker": "Kaity and Dan",
+        "text": "You mean humorous funny, not weird funny?",
+        "zh": "你指幽默的「有趣」，不是古怪的「奇怪」？"
+      },
+      {
+        "start": 456.5,
+        "end": 458.48,
+        "speaker": "Kaity and Dan",
+        "text": "Yeah, exactly, like a joke.",
+        "zh": "沒錯，就像一個笑話。"
+      },
+      {
+        "start": 459.02,
+        "end": 462.74,
+        "speaker": "Kaity and Dan",
+        "text": "And where can you find these games? Do you have to pay for them?",
+        "zh": "在哪裡可以找到這些遊戲？要付錢嗎？"
+      },
+      {
+        "start": 463.14,
+        "end": 466.54,
+        "speaker": "Kaity and Dan",
+        "text": "You can get them on the internet. The good thing is they're free.",
+        "zh": "在網上就找得到，好處是免費。"
+      },
+      {
+        "start": 467.06,
+        "end": 468.16,
+        "speaker": "Kaity and Dan",
+        "text": "You don't need to pay anything.",
+        "zh": "一分錢也不用付。"
+      },
+      {
+        "start": 468.74,
+        "end": 471.12,
+        "speaker": "Kaity and Dan",
+        "text": "Free? Well, that makes a change.",
+        "zh": "免費？這倒是難得。"
+      },
+      {
+        "start": 471.78,
+        "end": 474.37,
+        "speaker": "Kaity and Dan",
+        "text": "Maybe I'll check them out. Is that everything?",
+        "zh": "我可能會去看看。都處理好了嗎？"
+      },
+      {
+        "start": 474.37,
+        "end": 477.49,
+        "speaker": "Kaity and Dan",
+        "text": "Yes, that's all. Thanks for helping out, Dan.",
+        "zh": "對，就是這些。Dan，謝謝你幫忙。"
+      }
+    ],
+    "4": [
+      {
+        "start": 35.02,
+        "end": 38.96,
+        "speaker": "Narrator",
+        "text": "You now have 30 seconds to study the task.",
+        "zh": "你現在有三十秒閱讀題目。"
+      },
+      {
+        "start": 40.28,
+        "end": 44.8,
+        "speaker": "Narrator",
+        "text": "At the end of the task, you will have three minutes to tidy up your answers.",
+        "zh": "本任務結束後，你將有三分鐘整理答案。"
+      },
+      {
+        "start": 77.68,
+        "end": 84.16,
+        "speaker": "Podcast discussion",
+        "text": "Hi. Well, today I'm joined by Dr Jonathan Newman from the University of Jeong Yi An.",
+        "zh": "你好，今天與我一起的有來自 Jeong Yi An 大學的 Jonathan Newman 博士。"
+      },
+      {
+        "start": 84.52,
+        "end": 85.24,
+        "speaker": "Podcast discussion",
+        "text": "Good morning.",
+        "zh": "早安。"
+      },
+      {
+        "start": 85.74,
+        "end": 90.54,
+        "speaker": "Podcast discussion",
+        "text": "And Dr Natalie Sum from the University of Eastern Australia.",
+        "zh": "還有東澳洲大學的 Natalie Sum 博士。"
+      },
+      {
+        "start": 91.04,
+        "end": 91.86,
+        "speaker": "Podcast discussion",
+        "text": "Good morning, Katie.",
+        "zh": "早安，Kaity。"
+      },
+      {
+        "start": 92.78,
+        "end": 97.26,
+        "speaker": "Podcast discussion",
+        "text": "Our discussion today is about the psychology of games and play.",
+        "zh": "今天我們會討論遊戲與玩樂的心理學。"
+      },
+      {
+        "start": 98,
+        "end": 99.7,
+        "speaker": "Podcast discussion",
+        "text": "So let's dive in, shall we?",
+        "zh": "那就直接開始吧。"
+      },
+      {
+        "start": 100.46,
+        "end": 104.06,
+        "speaker": "Podcast discussion",
+        "text": "Can we define what a game is, first of all? Jonathan?",
+        "zh": "首先，可以定義什麼是遊戲嗎？Jonathan？"
+      },
+      {
+        "start": 105.2,
+        "end": 106.88,
+        "speaker": "Podcast discussion",
+        "text": "Help. That's a challenge.",
+        "zh": "哎呀，這是個挑戰。"
+      },
+      {
+        "start": 107.6,
+        "end": 112.94,
+        "speaker": "Podcast discussion",
+        "text": "Well, we may say that most games have at least two key aspects in common.",
+        "zh": "我們可以說，大部分遊戲至少有兩個共同的主要特點。"
+      },
+      {
+        "start": 113.46,
+        "end": 116.22,
+        "speaker": "Podcast discussion",
+        "text": "First, they provide some form of entertainment.",
+        "zh": "第一，它們提供某種形式的娛樂。"
+      },
+      {
+        "start": 116.94,
+        "end": 120.16,
+        "speaker": "Podcast discussion",
+        "text": "We seek out games primarily for pleasure and fun.",
+        "zh": "我們主要為了快樂和趣味而玩遊戲。"
+      },
+      {
+        "start": 120.96,
+        "end": 125.4,
+        "speaker": "Podcast discussion",
+        "text": "The second thing is that they seem to have some outcome or goal.",
+        "zh": "第二，它們似乎都有某種結果或目標。"
+      },
+      {
+        "start": 126.04,
+        "end": 130.28,
+        "speaker": "Podcast discussion",
+        "text": "For instance, you either win or lose a game or finish it in some way.",
+        "zh": "例如，你不是贏就是輸，或者以某種方式完成遊戲。"
+      },
+      {
+        "start": 131.04,
+        "end": 132.16,
+        "speaker": "Podcast discussion",
+        "text": "Would you agree with that, Natalie?",
+        "zh": "Natalie，你同意嗎？"
+      },
+      {
+        "start": 132.74,
+        "end": 133.38,
+        "speaker": "Podcast discussion",
+        "text": "Yes, Jonathan.",
+        "zh": "同意，Jonathan。"
+      },
+      {
+        "start": 134.16,
+        "end": 138.08,
+        "speaker": "Podcast discussion",
+        "text": "Well, it's certainly true that games are primarily for entertainment",
+        "zh": "遊戲主要用來娛樂，這當然沒錯，"
+      },
+      {
+        "start": 138.66,
+        "end": 141.16,
+        "speaker": "Podcast discussion",
+        "text": "and that games all have some kind of outcome.",
+        "zh": "而且遊戲都有某種結果。"
+      },
+      {
+        "start": 141.86,
+        "end": 143.86,
+        "speaker": "Podcast discussion",
+        "text": "I would like to add a third aspect.",
+        "zh": "我想加入第三個特點。"
+      },
+      {
+        "start": 144.78,
+        "end": 148.9,
+        "speaker": "Podcast discussion",
+        "text": "Would you agree with me that games must follow some set of rules, too?",
+        "zh": "你同意遊戲也必須遵守一套規則嗎？"
+      },
+      {
+        "start": 149.74,
+        "end": 155.14,
+        "speaker": "Podcast discussion",
+        "text": "Yes, I'd agree that following rules would be an essential element of games in general.",
+        "zh": "同意，總的來說，遵守規則是遊戲的重要元素。"
+      },
+      {
+        "start": 155.4,
+        "end": 161.34,
+        "speaker": "Podcast discussion",
+        "text": "You know, Jonathan, to me, what's most fascinating is how games and life are so similar.",
+        "zh": "Jonathan，對我而言，最有趣的是遊戲和人生如此相似。"
+      },
+      {
+        "start": 162.1,
+        "end": 165.08,
+        "speaker": "Podcast discussion",
+        "text": "I'd even say life itself is but a game.",
+        "zh": "我甚至會說，人生本身不過是一場遊戲。"
+      },
+      {
+        "start": 166,
+        "end": 166.8,
+        "speaker": "Podcast discussion",
+        "text": "Life is a game?",
+        "zh": "人生是一場遊戲？"
+      },
+      {
+        "start": 167.22,
+        "end": 169.2,
+        "speaker": "Podcast discussion",
+        "text": "I hope you don't actually mean that.",
+        "zh": "希望你不是認真的。"
+      },
+      {
+        "start": 169.74,
+        "end": 170.66,
+        "speaker": "Podcast discussion",
+        "text": "But it is, is it not?",
+        "zh": "但事實不就是這樣嗎？"
+      },
+      {
+        "start": 171.54,
+        "end": 174.04,
+        "speaker": "Podcast discussion",
+        "text": "Life is simply a game we all have to play.",
+        "zh": "人生只是一場我們都必須參與的遊戲。"
+      },
+      {
+        "start": 174.74,
+        "end": 176.22,
+        "speaker": "Podcast discussion",
+        "text": "Maybe your life's a game, Natalie.",
+        "zh": "也許你的人生是遊戲，Natalie，"
+      },
+      {
+        "start": 176.92,
+        "end": 177.46,
+        "speaker": "Podcast discussion",
+        "text": "Mine isn't.",
+        "zh": "我的可不是。"
+      },
+      {
+        "start": 177.8,
+        "end": 180.14,
+        "speaker": "Podcast discussion",
+        "text": "And I don't think anyone else's is either.",
+        "zh": "我也不認為其他人的人生是遊戲。"
+      },
+      {
+        "start": 180.7,
+        "end": 182.06,
+        "speaker": "Podcast discussion",
+        "text": "Actually, not even yours.",
+        "zh": "其實連你的也不是。"
+      },
+      {
+        "start": 182.62,
+        "end": 186.9,
+        "speaker": "Podcast discussion",
+        "text": "Jonathan, your problem is you need to get some more fun in life.",
+        "zh": "Jonathan，你的問題是需要在人生中多找點樂趣。"
+      },
+      {
+        "start": 187.36,
+        "end": 187.74,
+        "speaker": "Podcast discussion",
+        "text": "I mean...",
+        "zh": "我是說……"
+      },
+      {
+        "start": 187.74,
+        "end": 190.6,
+        "speaker": "Podcast discussion",
+        "text": "Okay, let's leave that point there.",
+        "zh": "好，這個話題就先談到這裡。"
+      },
+      {
+        "start": 191.32,
+        "end": 196.8,
+        "speaker": "Podcast discussion",
+        "text": "Now, both of you have done a great deal of research into games and play in animals.",
+        "zh": "你們都對動物的遊戲與玩樂做了很多研究。"
+      },
+      {
+        "start": 197.36,
+        "end": 198.74,
+        "speaker": "Podcast discussion",
+        "text": "Would you like to give some examples?",
+        "zh": "可以舉些例子嗎？"
+      },
+      {
+        "start": 199.52,
+        "end": 199.7,
+        "speaker": "Podcast discussion",
+        "text": "Sure.",
+        "zh": "可以。"
+      },
+      {
+        "start": 200.38,
+        "end": 202.66,
+        "speaker": "Podcast discussion",
+        "text": "Well, here's something that'll surprise you.",
+        "zh": "有一件事你一定會驚訝。"
+      },
+      {
+        "start": 203.2,
+        "end": 205.46,
+        "speaker": "Podcast discussion",
+        "text": "Do you know ants play fight?",
+        "zh": "你知道螞蟻也會玩打鬥遊戲嗎？"
+      },
+      {
+        "start": 205.88,
+        "end": 206.96,
+        "speaker": "Podcast discussion",
+        "text": "No, really?",
+        "zh": "不會吧，真的嗎？"
+      },
+      {
+        "start": 207.58,
+        "end": 208.08,
+        "speaker": "Podcast discussion",
+        "text": "Ants?",
+        "zh": "螞蟻？"
+      },
+      {
+        "start": 208.48,
+        "end": 209,
+        "speaker": "Podcast discussion",
+        "text": "Oh, yes.",
+        "zh": "對。"
+      },
+      {
+        "start": 209.4,
+        "end": 210.04,
+        "speaker": "Podcast discussion",
+        "text": "That's right.",
+        "zh": "沒錯。"
+      },
+      {
+        "start": 210.52,
+        "end": 211.86,
+        "speaker": "Podcast discussion",
+        "text": "It helps them fight better.",
+        "zh": "這有助牠們提升打鬥能力。"
+      },
+      {
+        "start": 212.16,
+        "end": 213.24,
+        "speaker": "Podcast discussion",
+        "text": "It's really true.",
+        "zh": "是真的。"
+      },
+      {
+        "start": 214.32,
+        "end": 214.96,
+        "speaker": "Podcast discussion",
+        "text": "That's incredible.",
+        "zh": "不可思議。"
+      },
+      {
+        "start": 215.24,
+        "end": 219.68,
+        "speaker": "Podcast discussion",
+        "text": "So they actually get better at real fighting from play fighting.",
+        "zh": "所以牠們透過打鬥遊戲，能在真正打鬥時表現得更好。"
+      },
+      {
+        "start": 220.28,
+        "end": 221.72,
+        "speaker": "Podcast discussion",
+        "text": "Here's another one that gets me.",
+        "zh": "另一個讓我驚訝的例子，"
+      },
+      {
+        "start": 222.56,
+        "end": 223.08,
+        "speaker": "Podcast discussion",
+        "text": "Fish play.",
+        "zh": "是魚也會玩樂。"
+      },
+      {
+        "start": 223.68,
+        "end": 226.48,
+        "speaker": "Podcast discussion",
+        "text": "You know, sometimes when you're watching fish in a pond",
+        "zh": "有時你看着池塘裡的魚，"
+      },
+      {
+        "start": 226.48,
+        "end": 229.26,
+        "speaker": "Podcast discussion",
+        "text": "and they suddenly jump out for no apparent reason.",
+        "zh": "牠們會毫無明顯原因地突然跳出水面。"
+      },
+      {
+        "start": 229.76,
+        "end": 230.84,
+        "speaker": "Podcast discussion",
+        "text": "Yeah, I've seen that.",
+        "zh": "對，我見過。"
+      },
+      {
+        "start": 231.24,
+        "end": 232.92,
+        "speaker": "Podcast discussion",
+        "text": "I thought they'd jump to catch food.",
+        "zh": "我還以為牠們跳起來是為了捕捉食物。"
+      },
+      {
+        "start": 233.1,
+        "end": 235.46,
+        "speaker": "Podcast discussion",
+        "text": "No, no, they jump for the fun of it.",
+        "zh": "不，牠們只是為了好玩而跳。"
+      },
+      {
+        "start": 236.18,
+        "end": 237.98,
+        "speaker": "Podcast discussion",
+        "text": "Most fish feed underwater.",
+        "zh": "大部分魚在水底覓食。"
+      },
+      {
+        "start": 238.62,
+        "end": 241.68,
+        "speaker": "Podcast discussion",
+        "text": "But this play jumping helps them in certain situations",
+        "zh": "不過，這種跳躍遊戲在某些情況下能幫助牠們，"
+      },
+      {
+        "start": 241.68,
+        "end": 245.04,
+        "speaker": "Podcast discussion",
+        "text": "like if they have to escape something trying to eat them.",
+        "zh": "例如逃避想吃掉牠們的東西。"
+      },
+      {
+        "start": 245.78,
+        "end": 250.2,
+        "speaker": "Podcast discussion",
+        "text": "Yes, apparently jumping helps them escape from predators and hunters.",
+        "zh": "對，據說跳躍有助牠們逃離捕食者和獵捕者。"
+      },
+      {
+        "start": 250.98,
+        "end": 254.86,
+        "speaker": "Podcast discussion",
+        "text": "But to me, what's really fascinating is how playing games",
+        "zh": "不過，對我而言真正有趣的，是玩遊戲"
+      },
+      {
+        "start": 254.86,
+        "end": 258.34,
+        "speaker": "Podcast discussion",
+        "text": "actually develop morality in all kinds of animals.",
+        "zh": "怎樣讓各種動物發展出道德觀念。"
+      },
+      {
+        "start": 258.9,
+        "end": 259.84,
+        "speaker": "Podcast discussion",
+        "text": "Can you give an example?",
+        "zh": "可以舉個例子嗎？"
+      },
+      {
+        "start": 260.58,
+        "end": 264.06,
+        "speaker": "Podcast discussion",
+        "text": "Well, rats often engage in play fighting games.",
+        "zh": "老鼠經常玩打鬥遊戲。"
+      },
+      {
+        "start": 264.58,
+        "end": 266.28,
+        "speaker": "Podcast discussion",
+        "text": "There are three points to note here.",
+        "zh": "這裡有三點值得留意。"
+      },
+      {
+        "start": 266.78,
+        "end": 271.52,
+        "speaker": "Podcast discussion",
+        "text": "First, play fighting games occur between stronger and weaker rats.",
+        "zh": "第一，打鬥遊戲發生在較強壯和較弱小的老鼠之間。"
+      },
+      {
+        "start": 271.68,
+        "end": 274.82,
+        "speaker": "Podcast discussion",
+        "text": "So one rat will always be stronger than another rat.",
+        "zh": "即是總有一隻老鼠比另一隻強壯。"
+      },
+      {
+        "start": 275.32,
+        "end": 275.66,
+        "speaker": "Podcast discussion",
+        "text": "Precisely.",
+        "zh": "沒錯。"
+      },
+      {
+        "start": 276.14,
+        "end": 278.96,
+        "speaker": "Podcast discussion",
+        "text": "I mean, the same is true in any kind of game.",
+        "zh": "其實任何遊戲都一樣。"
+      },
+      {
+        "start": 279.56,
+        "end": 283.88,
+        "speaker": "Podcast discussion",
+        "text": "Someone will always be a bit better or a bit worse than the other player.",
+        "zh": "總會有人比對手略強或略弱。"
+      },
+      {
+        "start": 284.52,
+        "end": 286.88,
+        "speaker": "Podcast discussion",
+        "text": "Now, the second point is where it gets interesting.",
+        "zh": "第二點就有趣了。"
+      },
+      {
+        "start": 287.58,
+        "end": 291.28,
+        "speaker": "Podcast discussion",
+        "text": "If the weaker rat always loses, it will stop playing.",
+        "zh": "如果較弱的老鼠每次都輸，牠便會停止參與。"
+      },
+      {
+        "start": 292.08,
+        "end": 293.56,
+        "speaker": "Podcast discussion",
+        "text": "You mean the weaker rat says,",
+        "zh": "你是說，較弱的老鼠會說，"
+      },
+      {
+        "start": 294.04,
+        "end": 297.62,
+        "speaker": "Podcast discussion",
+        "text": "right, I'm not playing this game if you keep winning.",
+        "zh": "「你老是贏，那我不玩了。」"
+      },
+      {
+        "start": 298.46,
+        "end": 301.92,
+        "speaker": "Podcast discussion",
+        "text": "That's how I feel when I play scrabble or chess with my daughter.",
+        "zh": "我跟女兒玩拼字遊戲或國際象棋時，就是這種感覺。"
+      },
+      {
+        "start": 303.08,
+        "end": 305.1,
+        "speaker": "Podcast discussion",
+        "text": "Now, for the third and most interesting part,",
+        "zh": "第三點，也是最有趣的一點，"
+      },
+      {
+        "start": 305.68,
+        "end": 309.4,
+        "speaker": "Podcast discussion",
+        "text": "the stronger rat learns that it has to let the weaker rat win",
+        "zh": "是較強的老鼠學會必須讓較弱的老鼠"
+      },
+      {
+        "start": 309.4,
+        "end": 312,
+        "speaker": "Podcast discussion",
+        "text": "some of the time so they can keep playing.",
+        "zh": "有時也能贏，這樣大家才可以繼續玩。"
+      },
+      {
+        "start": 312.6,
+        "end": 317.16,
+        "speaker": "Podcast discussion",
+        "text": "Oh, so the stronger rat will deliberately lose to the weaker rat.",
+        "zh": "所以較強的老鼠會故意輸給較弱的老鼠。"
+      },
+      {
+        "start": 317.84,
+        "end": 320.1,
+        "speaker": "Podcast discussion",
+        "text": "Otherwise, it'll have no friends to play with.",
+        "zh": "否則牠就沒有朋友跟牠玩。"
+      },
+      {
+        "start": 320.46,
+        "end": 323.5,
+        "speaker": "Podcast discussion",
+        "text": "Oh, poor strong rat with no friends.",
+        "zh": "可憐的強壯老鼠，沒有朋友。"
+      },
+      {
+        "start": 324.16,
+        "end": 327.1,
+        "speaker": "Podcast discussion",
+        "text": "So I guess they are learning something very important from this.",
+        "zh": "我想牠們由此學到非常重要的東西。"
+      },
+      {
+        "start": 327.1,
+        "end": 327.86,
+        "speaker": "Podcast discussion",
+        "text": "Absolutely.",
+        "zh": "絕對是。"
+      },
+      {
+        "start": 328.84,
+        "end": 331.76,
+        "speaker": "Podcast discussion",
+        "text": "For one thing, they are developing a kind of morality.",
+        "zh": "一方面，牠們發展出某種道德觀念。"
+      },
+      {
+        "start": 332.82,
+        "end": 336.24,
+        "speaker": "Podcast discussion",
+        "text": "The second thing is that they learn how to live together peacefully.",
+        "zh": "另一方面，牠們學會怎樣和平共處。"
+      },
+      {
+        "start": 336.88,
+        "end": 338.36,
+        "speaker": "Podcast discussion",
+        "text": "Wow, that's amazing.",
+        "zh": "嘩，真神奇。"
+      },
+      {
+        "start": 339.08,
+        "end": 340.96,
+        "speaker": "Podcast discussion",
+        "text": "So rats have to learn to be moral",
+        "zh": "所以老鼠要學習有道德，"
+      },
+      {
+        "start": 340.96,
+        "end": 344.36,
+        "speaker": "Podcast discussion",
+        "text": "and they have to learn how to live peacefully with one another,",
+        "zh": "也要學習彼此和平共處，"
+      },
+      {
+        "start": 344.9,
+        "end": 346.76,
+        "speaker": "Podcast discussion",
+        "text": "just like us humans have to do.",
+        "zh": "就跟我們人類一樣。"
+      },
+      {
+        "start": 347.32,
+        "end": 349.18,
+        "speaker": "Podcast discussion",
+        "text": "That's absolutely fascinating.",
+        "zh": "這實在非常有趣。"
+      },
+      {
+        "start": 350.26,
+        "end": 352.68,
+        "speaker": "Podcast discussion",
+        "text": "Okay, well, we're going to have a short break.",
+        "zh": "好，我們先稍作休息。"
+      },
+      {
+        "start": 353.2,
+        "end": 354.28,
+        "speaker": "Podcast discussion",
+        "text": "And when we come back,",
+        "zh": "回來之後，"
+      },
+      {
+        "start": 354.28,
+        "end": 357.64,
+        "speaker": "Podcast discussion",
+        "text": "Natalie and Jonathan will be answering some of your questions.",
+        "zh": "Natalie 和 Jonathan 會回答大家的一些問題。"
+      },
+      {
+        "start": 360.3,
+        "end": 365.64,
+        "speaker": "Narrator",
+        "text": "That is the end of task four and of part 3a.",
+        "zh": "任務四及卷三甲部完結。"
+      },
+      {
+        "start": 366.73,
+        "end": 371.67,
+        "speaker": "Narrator",
+        "text": "You now have three minutes to complete your answers to task four",
+        "zh": "你現在有三分鐘完成任務四的答案，"
+      },
+      {
+        "start": 372.23,
+        "end": 375.19,
+        "speaker": "Narrator",
+        "text": "and to tidy up all your other answers.",
+        "zh": "並整理所有其他答案。"
+      }
+    ]
+  },
+  "questions": {
+    "1": {
+      "title": "下一期雜誌",
+      "instruction": "Kaity Chandra 是雜誌編輯。她正與兩位記者 Iris Mu 和 Dan Lai 開會，討論下一期雜誌。請聆聽討論，並在下面空格填寫缺漏資料。其中一項已作為例子提供。",
+      "blocks": [
+        "Iris、Dan 和 Kaity 週末做了什麼？\n表格欄目：人物／週末／原因。\nIris：她度過了一個{{1}}的週末，因為她的{{2}}。\nDan：他度過了一個{{3}}的週末，因為他{{4}}。\nKaity：她度過了一個{{5}}的週末，因為她{{6}}。",
+        "下一期雜誌的建議題材。\n表格欄目：題材（遊戲與玩樂）／遊戲名稱／Kaity 是否採用？／原因。\n用來學習的電腦遊戲：《下一個莫扎特》（The Next Mozart）；是；這些遊戲很受歡迎（例子）。\n{{7}}：{{8}}、{{9}}；是；{{10}}。\n{{11}}：{{12}}；否；{{13}}。"
+      ]
+    },
+    "2": {
+      "title": "怪物迷宮",
+      "instruction": "Iris 正在為下一期雜誌製作網上遊戲。任務二分三部分：甲部分，Iris 向 Dan 解釋玩法；乙部分，Dan 玩遊戲；丙部分，Dan 和 Iris 討論遊戲。",
+      "blocks": [
+        "甲部分——怪物迷宮圖例",
+        "在怪物迷宮圖例所提供的空格填上缺漏資料。\n{{14}}",
+        "例子：迷宮橫列由下至上為 A–F，直欄為 1–6。灰色格子：E4、D1、C5、B2。示範標記：A4、B4、B3、C3、D3、E3 為 O；E2 為 M。",
+        "{{15}}\n方向：↑ 向前；← 向左；→ 向右；↓ 向後。\n灰色格子＝{{16}}\nO＝走過的路線。\nM＝走到隱藏怪物所在的格子。",
+        "乙部分",
+        "按照上方怪物迷宮圖例的示範，在 Dan 走過的每一格畫圓圈（O），標示他的路線；如遇上隱藏怪物，則填 M。",
+        "{{17}} Dan 的第一條生命。請在格子上標示路線；灰色格子是 E6、D1、B2。",
+        "{{18}} Dan 的第二條生命。請在格子上標示路線；灰色格子是 E1、E6、D1、B2。",
+        "丙部分",
+        "聆聽 Iris 和 Dan 的討論，回答問題。毋須用完整句子作答。",
+        "Dan 對改善怪物迷宮遊戲有什麼建議？\n{{19}}\n{{20}}",
+        "大家會如何在網上玩這個遊戲？\n{{21}}\n{{22}}",
+        "玩家怎樣確信遊戲沒有在放置怪物時作弊？",
+        "第一，遊戲開始時，{{23}}。\n第二，遊戲結束時，{{24}}。\n第三，{{25}}。\n第四，{{26}}。"
+      ]
+    },
+    "3": {
+      "title": "《兒童遊戲》",
+      "instruction": "Kaity 在機場，打電話請 Dan 編輯她一直在撰寫的文章。任務三分三部分：甲部分改正句子；乙部分為畫作指定部分加上標籤；丙部分完成文字。",
+      "blocks": [
+        "甲部分",
+        "以下文字每行可能有一個錯誤。請改正錯誤；如果該行正確，在右欄加上剔號 ✓。",
+        "改正表格：句子／改正或 ✓。\n《兒童遊戲》是描繪小孩玩樂的最著名「素描」之一。改正：繪畫作品（例子）。\n它於 1560 年開始創作。{{27}}\n創作它的藝術家名為 Pete Bruegel the Elder。{{28}}\n他在荷蘭出生，在比利時去世。{{29}}",
+        "乙部分",
+        "為畫作中的四款兒童遊戲加上標籤，每項不多於四個英文字。",
+        "上方圓圈：{{30}}；右方圓圈：{{31}}。\n圖中為《兒童遊戲》的四組圈選人物。\n左方小圓圈：{{32}}；下方大圓圈：{{33}}。",
+        "丙部分",
+        "完成文字。每個空格填上一個或多個字。",
+        "以經典畫作改編的像素藝術遊戲圖例。",
+        "有一類現代電子遊戲以經典藝術作品為基礎。大部分這類遊戲使用{{34}}，因為設計師享受用{{35}}搭配{{36}}去製作{{37}}的挑戰。\n這些遊戲很簡單，目的是{{38}}。它們可以在網上{{39}}玩。"
+      ]
+    },
+    "4": {
+      "title": "遊戲與玩樂的心理學",
+      "instruction": "你將聆聽《What, Why, How》每週播客。Kaity 正與兩位心理學教授討論遊戲與玩樂的心理學。回答下面的問題，並完成表格。",
+      "blocks": [
+        "遊戲的定義中提及哪三個主要特點？\n{{40}}\n{{41}}\n{{42}}",
+        "Jonathan 和 Natalie 在哪一點上意見不同？\n{{43}}",
+        "完成表格。欄目：動物／玩樂類型／好處。\n螞蟻：打鬥遊戲；{{44}}。\n魚：{{45}}；{{46}}。",
+        "Natalie 對老鼠的打鬥遊戲提出哪三個重點？",
+        "第一點：{{47}}\n第二點：{{48}}\n第三點：{{49}}",
+        "老鼠從打鬥遊戲中學會什麼？\n{{50}}\n{{51}}"
+      ]
+    }
+  }
+}

@@ -1,9 +1,6 @@
 // Bilingual answer guides are fetched only when their year is opened.
-const guideUrls = new Map([
-  [2021, new URL('./assets/dse-listening/2021/guide.json?v=20260904-guide1', import.meta.url)],
-  [2023, new URL('./assets/dse-listening/2023/guide.json?v=20260904-guide2023-1', import.meta.url)]
-]);
-const guideCounts = new Map([[2021, 56], [2023, 53]]);
+const guideCounts = new Map([[2012,53],[2013,58],[2014,60],[2015,58],[2016,58],[2017,54],[2018,51],[2019,53],[2020,52],[2021,56],[2023,53]]);
+const guideUrls = new Map([...guideCounts.keys()].map(year => [year, new URL(`./assets/dse-listening/${year}/guide.json?v=20260904-archiveguides1`, import.meta.url)]));
 const guides = new Map(), pending = new Map(), failures = new Set();
 export const getDseGuide = year => guides.get(Number(year));
 export const hasDseGuide = year => guideUrls.has(Number(year));
@@ -29,7 +26,9 @@ export function dseBookmarkHref(year, task, anchor = '') {
   return `listening-system.html?section=dse&year=${Number(year)}&task=${Number(task)}${anchor ? `#${anchor}` : ''}`;
 }
 
-export function createDseStudy({state, escapeHtml: esc}) {
+export const dseAnswerReplayStart = time => Number.isFinite(time) && time >= 0 ? Math.max(0, time - 15) : null;
+
+export function createDseStudy({state, escapeHtml: esc, playCue = () => {}}) {
   const preferences = new Map();
   let binding;
   function prefs(year, task) {
@@ -45,12 +44,15 @@ export function createDseStudy({state, escapeHtml: esc}) {
   function analysisBookmark(year, task, number, analysis) {
     return bookmark(year, task, `analysis:q${number}`, `${year} DSE · Task ${task} · 第 ${number} 題解析`, `${analysis.answer}\n${analysis.explanation}`, `dse-analysis-q${number}`, '收藏解析');
   }
+  function replayButton(number, row) {
+    return dseAnswerReplayStart(row.audioTime) === null ? '' : `<button class="secondary-button dse-answer-replay" type="button" data-dse-answer-replay="${number}" aria-label="第 ${number} 題：從答案前 15 秒播放">▶ 答案前 15 秒</button>`;
+  }
   function renderAnalysis(year, task) {
     const guide = getDseGuide(year);
     if (!guide) return '';
     const entries = Object.entries(guide.analysis).filter(([, row]) => row.task === task);
     return `${guide.analysisNote ? `<p class="dse-guide-note">${esc(guide.analysisNote)}</p>` : ''}<div class="dse-study-toolbar"><button class="secondary-button" type="button" data-dse-all-answers>顯示全部答案</button><button class="secondary-button" type="button" data-dse-hide-answers>隱藏全部答案</button><a class="secondary-button" href="#dse-transcript-title">前往錄音稿 ↓</a></div>
-    <details class="listening-analysis dse-study-analysis" data-dse-full-analysis${prefs(year, task).full ? ' open' : ''}><summary>Task ${task} 完整答案解析 · ${entries.length} 題</summary><div class="listening-analysis-grid">${entries.map(([number, row]) => `<article class="listening-analysis-card" id="dse-analysis-q${number}"><div class="listening-analysis-card__head"><span>${number}</span><div><small>參考答案</small><strong>${esc(row.answer)}</strong></div>${analysisBookmark(year, task, number, row)}</div><p>${esc(row.explanation)}</p></article>`).join('')}</div></details>
+    <details class="listening-analysis dse-study-analysis" data-dse-full-analysis${prefs(year, task).full ? ' open' : ''}><summary>Task ${task} 完整答案解析 · ${entries.length} 題</summary><div class="listening-analysis-grid">${entries.map(([number, row]) => `<article class="listening-analysis-card" id="dse-analysis-q${number}"><div class="listening-analysis-card__head"><span>${number}</span><div><small>參考答案</small><strong>${esc(row.answer)}</strong></div>${analysisBookmark(year, task, number, row)}</div><p>${esc(row.explanation)}</p>${replayButton(number, row)}</article>`).join('')}</div></details>
     <aside class="answer-analysis-dialog dse-study-dialog" data-dse-study-dialog hidden role="dialog" aria-label="DSE 答案解析"><button type="button" data-dse-close-analysis aria-label="關閉解析">×</button><p class="eyebrow" data-dse-dialog-title></p><h3>答案：<span data-dse-dialog-answer></span></h3><p data-dse-dialog-copy></p><div class="answer-analysis-dialog__actions" data-dse-dialog-actions></div></aside>`;
   }
   function renderTranscript(year, task) {
@@ -81,12 +83,18 @@ export function createDseStudy({state, escapeHtml: esc}) {
       });
     }
     const entries = Object.entries(guide.analysis).filter(([, row]) => row.task === task);
+    const lastTools = new Map();
     for (const [number, row] of entries) {
       const input = host.querySelector(`[data-dse-answer-q="${number}"]`);
-      if (!input) continue;
-      const anchor = input.type === 'radio' ? input.closest('.dse-multiple-choice') : input.closest('label') || input;
+      // Group choices, ordering, ranking and maze tasks have shared controls,
+      // rather than a text input per question. Keep tools outside those labels.
+      const group = [...host.querySelectorAll('[data-dse-answer-group],[data-dse-order-group]')].find(node => (node.dataset.dseAnswerGroup || node.dataset.dseOrderGroup).split(',').includes(number));
+      const special = host.querySelector(`[data-dse-ranking="${number}"],[data-dse-maze-q="${number}"]`);
+      const anchor = input ? (['radio','checkbox'].includes(input.type) ? input.closest('.dse-multiple-choice') : input.closest('label') || input) : group?.closest('.dse-answer-group') || special?.closest('.dse-answer-group,.dse-maze');
       if (!anchor) continue;
-      anchor.insertAdjacentHTML('afterend', `<span class="single-answer-tools dse-answer-tools"><button class="single-answer-reveal" type="button" data-dse-reveal="${number}" aria-pressed="${p.answers.has(number)}">${p.answers.has(number) ? '隱藏答案' : '看答案'}</button><button class="listening-official-answer" type="button" data-dse-analysis="${number}"${p.answers.has(number) ? '' : ' hidden'} aria-label="查看第 ${number} 題解析">答案：<strong>${esc(row.answer)}</strong><span>查看解析</span></button></span>`);
+      const previous = lastTools.get(anchor) || anchor;
+      previous.insertAdjacentHTML('afterend', `<span class="single-answer-tools dse-answer-tools">${!input ? `<b class="dse-group-answer-number">${number}</b>` : ''}<button class="single-answer-reveal" type="button" data-dse-reveal="${number}" aria-pressed="${p.answers.has(number)}">${p.answers.has(number) ? '隱藏答案' : '看答案'}</button><button class="listening-official-answer" type="button" data-dse-analysis="${number}"${p.answers.has(number) ? '' : ' hidden'} aria-label="查看第 ${number} 題解析">答案：<strong>${esc(row.answer)}</strong><span>查看解析</span></button></span>`);
+      lastTools.set(anchor, previous.nextElementSibling);
     }
     const refresh = () => {
       for (const [number] of entries) {
@@ -101,7 +109,7 @@ export function createDseStudy({state, escapeHtml: esc}) {
       dialog.querySelector('[data-dse-dialog-title]').textContent = `${year} · Task ${task} · 第 ${number} 題`;
       dialog.querySelector('[data-dse-dialog-answer]').textContent = row.answer;
       dialog.querySelector('[data-dse-dialog-copy]').textContent = row.explanation;
-      dialog.querySelector('[data-dse-dialog-actions]').innerHTML = analysisBookmark(year, task, number, row);
+      dialog.querySelector('[data-dse-dialog-actions]').innerHTML = replayButton(number, row) + analysisBookmark(year, task, number, row);
       dialog.hidden = false;
       const rect = button.getBoundingClientRect(), width = Math.min(480, window.innerWidth - 24);
       dialog.style.width = `${width}px`;
@@ -118,6 +126,7 @@ export function createDseStudy({state, escapeHtml: esc}) {
       } else if (button.matches('[data-dse-all-answers]')) { entries.forEach(([number]) => p.answers.add(number)); refresh(); }
       else if (button.matches('[data-dse-hide-answers]')) { p.answers.clear(); dialog.hidden = true; refresh(); }
       else if (button.matches('[data-dse-analysis]')) openAnalysis(button);
+      else if (button.matches('[data-dse-answer-replay]')) playCue(year, task, Number(button.dataset.dseAnswerReplay));
       else if (button.matches('[data-dse-close-analysis]')) dialog.hidden = true;
       else if (button.matches('[data-dse-toggle-question-zh]')) {
         p.questionZh = !p.questionZh;

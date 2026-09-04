@@ -14,7 +14,10 @@
       "sourcePages": [
         3
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "presenting on August 30th",
+      "audioTime": 101.23,
+      "audioEnd": 104.3
     },
     "2": {
       "answer": "9:30 a.m. / half past nine",
@@ -22,7 +25,10 @@
       "sourcePages": [
         3
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "at 9:30",
+      "audioTime": 102.59,
+      "audioEnd": 104.3
     },
     "3": {
       "answer": "all the department heads",
@@ -30,7 +36,10 @@
       "sourcePages": [
         3
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "all the department heads",
+      "audioTime": 126.78,
+      "audioEnd": 128.15
     },
     "4": {
       "answer": "the boardroom / boardroom",
@@ -38,7 +47,10 @@
       "sourcePages": [
         4
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "The boardroom",
+      "audioTime": 134.88,
+      "audioEnd": 139.42
     },
     "5": {
       "answer": "15 PowerPoint slides / 15 slides",
@@ -46,7 +58,10 @@
       "sourcePages": [
         4
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "15 PowerPoint slides in total",
+      "audioTime": 161.87,
+      "audioEnd": 164.02
     },
     "6": {
       "answer": "history",
@@ -54,7 +69,10 @@
       "sourcePages": [
         4
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "history of World Expos",
+      "audioTime": 176.62,
+      "audioEnd": 177.86
     },
     "7": {
       "answer": "good and bad things",
@@ -62,7 +80,10 @@
       "sourcePages": [
         5
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "good and bad things about World Expos",
+      "audioTime": 185.97,
+      "audioEnd": 187.96
     },
     "8": {
       "answer": "future",
@@ -70,7 +91,10 @@
       "sourcePages": [
         5
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "future of World Expos",
+      "audioTime": 198.13,
+      "audioEnd": 204
     },
     "9": {
       "answer": "August 9 / 9 August / Wednesday 9 August",
@@ -78,7 +102,10 @@
       "sourcePages": [
         5
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "Wednesday the 9th of August",
+      "audioTime": 263.65,
+      "audioEnd": 269.52
     },
     "10": {
       "answer": "interview Mr Roy / interview Leo Roy’s dad",
@@ -86,7 +113,10 @@
       "sourcePages": [
         6
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "interview him",
+      "audioTime": 240.17,
+      "audioEnd": 240.82
     },
     "11": {
       "answer": "attend a talk / go to a talk / a talk on Expos",
@@ -94,7 +124,10 @@
       "sourcePages": [
         6
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "giving a talk about World Expos",
+      "audioTime": 280.87,
+      "audioEnd": 284.78
     },
     "12": {
       "answer": "August 22 / 22 August",
@@ -102,7 +135,10 @@
       "sourcePages": [
         6
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "the day after the public holiday",
+      "audioTime": 329.68,
+      "audioEnd": 332.24
     },
     "13": {
       "answer": "Cherie / C",
@@ -110,7 +146,10 @@
       "sourcePages": [
         7
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "I can give a first draft to Jasmine",
+      "audioTime": 361.28,
+      "audioEnd": 367.6
     },
     "14": {
       "answer": "the first draft of the PowerPoint presentation / first draft",
@@ -118,7 +157,10 @@
       "sourcePages": [
         7
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "first draft of the PowerPoint presentation",
+      "audioTime": 345.54,
+      "audioEnd": 348.71
     },
     "15": {
       "answer": "All / all of them",
@@ -126,7 +168,10 @@
       "sourcePages": [
         7
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "All of us will need to do it",
+      "audioTime": 382.83,
+      "audioEnd": 387.46
     },
     "16": {
       "answer": "practise the presentation",
@@ -134,7 +179,10 @@
       "sourcePages": [
         8
       ],
-      "task": 1
+      "task": 1,
+      "evidence": "practise the presentation",
+      "audioTime": 377.42,
+      "audioEnd": 387.46
     },
     "17": {
       "answer": "Bringing People Together",
@@ -142,7 +190,10 @@
       "sourcePages": [
         9
       ],
-      "task": 2
+      "task": 2,
+      "evidence": "Bringing People Together",
+      "audioTime": 97.38,
+      "audioEnd": 102.84
     },
     "18": {
       "answer": "decide on a theme / deciding on a theme",
@@ -150,7 +201,10 @@
       "sourcePages": [
         9
       ],
-      "task": 2
+      "task": 2,
+      "evidence": "Decide on a theme",
+      "audioTime": 143.21,
+      "audioEnd": 145.64
     },
     "19": {
       "answer": "invite other countries to join the exhibition",
@@ -158,7 +212,10 @@
       "sourcePages": [
         9
       ],
-      "task": 2
+      "task": 2,
+      "evidence": "invite other countries to join the exhibition",
+      "audioTime": 156.61,
+      "audioEnd": 159.84
     },
     "20": {
       "answer": "6.3 million",
@@ -166,7 +223,10 @@
       "sourcePages": [
         10
       ],
-      "task": 2
+      "task": 2,
+      "evidence": "6.3 million",
+      "audioTime": 221.37,
+      "audioEnd": 225.17
     },
     "21": {
       "answer": "grew / growing the biggest flower in the world",
@@ -174,7 +234,10 @@
       "sourcePages": [
         10
       ],
-      "task": 2
+      "task": 2,
+      "evidence": "grew the biggest flower",
+      "audioTime": 243.45,
+      "audioEnd": 246.03
     },
     "22": {
       "answer": "raising awareness of farming techniques",
@@ -182,7 +245,10 @@
       "sourcePages": [
         10
       ],
-      "task": 2
+      "task": 2,
+      "evidence": "raising awareness of farming techniques",
+      "audioTime": 258.43,
+      "audioEnd": 261.14
     },
     "23": {
       "answer": "Cultural Exchange",
@@ -190,7 +256,10 @@
       "sourcePages": [
         11
       ],
-      "task": 2
+      "task": 2,
+      "evidence": "Cultural Exchange",
+      "audioTime": 275.67,
+      "audioEnd": 276.6
     },
     "24": {
       "answer": "1939–1987 / from 1939 to 1987",
@@ -198,7 +267,10 @@
       "sourcePages": [
         11
       ],
-      "task": 2
+      "task": 2,
+      "evidence": "1939 to 1987",
+      "audioTime": 282.4,
+      "audioEnd": 289.08
     },
     "25": {
       "answer": "The City of Tomorrow",
@@ -206,7 +278,10 @@
       "sourcePages": [
         11
       ],
-      "task": 2
+      "task": 2,
+      "evidence": "The City of Tomorrow",
+      "audioTime": 306.8,
+      "audioEnd": 308.36
     },
     "26": {
       "answer": "modern food",
@@ -214,7 +289,10 @@
       "sourcePages": [
         12
       ],
-      "task": 2
+      "task": 2,
+      "evidence": "modern food",
+      "audioTime": 315.46,
+      "audioEnd": 320.23
     },
     "27": {
       "answer": "latest works of art / works of art / art",
@@ -222,7 +300,10 @@
       "sourcePages": [
         12
       ],
-      "task": 2
+      "task": 2,
+      "evidence": "latest works of art",
+      "audioTime": 317.45,
+      "audioEnd": 320.23
     },
     "28": {
       "answer": "50",
@@ -230,7 +311,10 @@
       "sourcePages": [
         12
       ],
-      "task": 2
+      "task": 2,
+      "evidence": "50 countries took part",
+      "audioTime": 330.86,
+      "audioEnd": 335.64
     },
     "29": {
       "answer": "1988–now / 1988–present / from 1988 to now",
@@ -238,7 +322,10 @@
       "sourcePages": [
         13
       ],
-      "task": 2
+      "task": 2,
+      "evidence": "started around 1988",
+      "audioTime": 347.03,
+      "audioEnd": 351.76
     },
     "30": {
       "answer": "Nature and Technology",
@@ -246,7 +333,10 @@
       "sourcePages": [
         13
       ],
-      "task": 2
+      "task": 2,
+      "evidence": "Nature and Technology",
+      "audioTime": 371.31,
+      "audioEnd": 372.7
     },
     "31": {
       "answer": "the number of visitors was lower than expected / only about 25 million people came",
@@ -254,7 +344,10 @@
       "sourcePages": [
         13
       ],
-      "task": 2
+      "task": 2,
+      "evidence": "the number of visitors was lower",
+      "audioTime": 386.91,
+      "audioEnd": 392.22
     },
     "32": {
       "answer": "millions of dollars wasted / money could be better spent",
@@ -262,7 +355,10 @@
       "sourcePages": [
         14
       ],
-      "task": 3
+      "task": 3,
+      "evidence": "millions of dollars wasted",
+      "audioTime": 109.6,
+      "audioEnd": 115.28
     },
     "33": {
       "answer": "disruption to life in the host city",
@@ -270,7 +366,10 @@
       "sourcePages": [
         14
       ],
-      "task": 3
+      "task": 3,
+      "evidence": "disruption to life in the host city",
+      "audioTime": 127.42,
+      "audioEnd": 129.24
     },
     "34": {
       "answer": "Expo buildings are not used again / buildings are not re-used",
@@ -278,7 +377,10 @@
       "sourcePages": [
         14
       ],
-      "task": 3
+      "task": 3,
+      "evidence": "the Expo buildings are not used again",
+      "audioTime": 146.99,
+      "audioEnd": 150.86
     },
     "35": {
       "answer": "friendship among different countries / international friendship",
@@ -286,7 +388,10 @@
       "sourcePages": [
         15
       ],
-      "task": 3
+      "task": 3,
+      "evidence": "promote friendship among different countries",
+      "audioTime": 188.5,
+      "audioEnd": 190.32
     },
     "36": {
       "answer": "business and tourism",
@@ -294,7 +399,10 @@
       "sourcePages": [
         15
       ],
-      "task": 3
+      "task": 3,
+      "evidence": "attract business and tourism",
+      "audioTime": 217.51,
+      "audioEnd": 219.3
     },
     "37": {
       "answer": "less writing / take out some writing",
@@ -302,7 +410,10 @@
       "sourcePages": [
         15
       ],
-      "task": 3
+      "task": 3,
+      "evidence": "take out some of the writing",
+      "audioTime": 242.67,
+      "audioEnd": 244.46
     },
     "38": {
       "answer": "more visuals / more pictures",
@@ -310,7 +421,10 @@
       "sourcePages": [
         16
       ],
-      "task": 3
+      "task": 3,
+      "evidence": "put in more visuals",
+      "audioTime": 258.21,
+      "audioEnd": 261.71
     },
     "39": {
       "answer": "change the background colour to light blue / light blue background",
@@ -318,7 +432,10 @@
       "sourcePages": [
         16
       ],
-      "task": 3
+      "task": 3,
+      "evidence": "change the background colour to light blue",
+      "audioTime": 273.74,
+      "audioEnd": 275.8
     },
     "40": {
       "answer": "put headings in red",
@@ -326,7 +443,10 @@
       "sourcePages": [
         16
       ],
-      "task": 3
+      "task": 3,
+      "evidence": "put all the main headings in red",
+      "audioTime": 300.76,
+      "audioEnd": 307.48
     },
     "41": {
       "answer": "make the writing bigger",
@@ -334,7 +454,10 @@
       "sourcePages": [
         17
       ],
-      "task": 3
+      "task": 3,
+      "evidence": "make it bigger",
+      "audioTime": 317.63,
+      "audioEnd": 320.78
     },
     "42": {
       "answer": "change the font to make it look more modern / use a more modern font",
@@ -342,7 +465,10 @@
       "sourcePages": [
         17
       ],
-      "task": 3
+      "task": 3,
+      "evidence": "change the font to make it look more modern",
+      "audioTime": 334.92,
+      "audioEnd": 338.02
     },
     "43": {
       "answer": "change numbers to bullet points / use bullet points",
@@ -350,7 +476,10 @@
       "sourcePages": [
         17
       ],
-      "task": 3
+      "task": 3,
+      "evidence": "change numbers to bullet points",
+      "audioTime": 354.61,
+      "audioEnd": 363.19
     },
     "44": {
       "answer": "to let ordinary people see things from around the world",
@@ -358,7 +487,10 @@
       "sourcePages": [
         18
       ],
-      "task": 4
+      "task": 4,
+      "evidence": "normal people could see things from around the world",
+      "audioTime": 127.31,
+      "audioEnd": 130.46
     },
     "45": {
       "answer": "more than 35,000",
@@ -366,7 +498,10 @@
       "sourcePages": [
         18
       ],
-      "task": 4
+      "task": 4,
+      "evidence": "more than 35,000",
+      "audioTime": 153.88,
+      "audioEnd": 169.58
     },
     "46": {
       "answer": "did the cooking / cooked",
@@ -374,7 +509,10 @@
       "sourcePages": [
         18
       ],
-      "task": 4
+      "task": 4,
+      "evidence": "they did the cooking",
+      "audioTime": 187.39,
+      "audioEnd": 189.74
     },
     "47": {
       "answer": "put on exotic shows / did dances / performed religious rituals",
@@ -382,7 +520,10 @@
       "sourcePages": [
         19
       ],
-      "task": 4
+      "task": 4,
+      "evidence": "exotic show",
+      "audioTime": 199.33,
+      "audioEnd": 203.68
     },
     "48": {
       "answer": "because they were pygmies / because they were the smallest people in the world",
@@ -390,7 +531,10 @@
       "sourcePages": [
         19
       ],
-      "task": 4
+      "task": 4,
+      "evidence": "smallest people from Africa",
+      "audioTime": 262.38,
+      "audioEnd": 263.74
     },
     "49": {
       "answer": "they were in the USA to show off their own culture",
@@ -398,7 +542,10 @@
       "sourcePages": [
         19
       ],
-      "task": 4
+      "task": 4,
+      "evidence": "to show off their own culture",
+      "audioTime": 295.41,
+      "audioEnd": 305.5
     },
     "50": {
       "answer": "they were advertised as the most primitive people on the planet",
@@ -406,7 +553,10 @@
       "sourcePages": [
         20
       ],
-      "task": 4
+      "task": 4,
+      "evidence": "the most primitive people on the planet",
+      "audioTime": 302.88,
+      "audioEnd": 305.5
     },
     "51": {
       "answer": "a live exhibit / live exhibit in the zoo",
@@ -414,7 +564,10 @@
       "sourcePages": [
         20
       ],
-      "task": 4
+      "task": 4,
+      "evidence": "a live exhibit in the zoo",
+      "audioTime": 339.73,
+      "audioEnd": 341.76
     },
     "52": {
       "answer": "they protested and wrote to newspapers complaining about it",
@@ -422,7 +575,10 @@
       "sourcePages": [
         20
       ],
-      "task": 4
+      "task": 4,
+      "evidence": "protest and write to the newspapers",
+      "audioTime": 350.56,
+      "audioEnd": 353.16
     },
     "53": {
       "answer": "No — he was homesick and never returned to Africa",
@@ -430,7 +586,10 @@
       "sourcePages": [
         21
       ],
-      "task": 4
+      "task": 4,
+      "evidence": "he never returned to Africa",
+      "audioTime": 381.34,
+      "audioEnd": 382.85
     },
     "54": {
       "answer": "Yes; because Jasmine wanted the full picture",
@@ -438,7 +597,10 @@
       "sourcePages": [
         21
       ],
-      "task": 4
+      "task": 4,
+      "evidence": "Jasmine wanted the full picture",
+      "audioTime": 403.14,
+      "audioEnd": 411.54
     },
     "55": {
       "answer": "No / not keen; because some audience members are American and they do not want to offend anyone",
@@ -446,7 +608,10 @@
       "sourcePages": [
         21
       ],
-      "task": 4
+      "task": 4,
+      "evidence": "we don’t want to offend anybody",
+      "audioTime": 425.79,
+      "audioEnd": 430.57
     },
     "56": {
       "answer": "Yes, but only the first half; because only the first half is directly relevant to Expos",
@@ -454,7 +619,10 @@
       "sourcePages": [
         22
       ],
-      "task": 4
+      "task": 4,
+      "evidence": "only the first half of his story is directly relevant",
+      "audioTime": 433.46,
+      "audioEnd": 437.61
     }
   },
   "transcript": {
@@ -657,7 +825,7 @@
           26
         ],
         "start": 196.66,
-        "end": 204.0
+        "end": 204
       },
       {
         "speaker": "Julian",
@@ -946,7 +1114,7 @@
         "sourcePages": [
           31
         ],
-        "start": 369.0,
+        "start": 369,
         "end": 375.54
       },
       {
@@ -986,7 +1154,7 @@
         "sourcePages": [
           31
         ],
-        "start": 393.0,
+        "start": 393,
         "end": 394.18
       },
       {
@@ -1310,7 +1478,7 @@
           36
         ],
         "start": 321.02,
-        "end": 326.0
+        "end": 326
       },
       {
         "speaker": "Professor Leung",
@@ -1761,7 +1929,7 @@
         "sourcePages": [
           44
         ],
-        "start": 294.0,
+        "start": 294,
         "end": 298.68
       },
       {
@@ -2607,5 +2775,64 @@
         "end": 445.01
       }
     ]
+  },
+  "questions": {
+    "1": {
+      "title": "世界博覽會簡報工作安排",
+      "instruction": "Bonnie、Cherie 和 Julian 正在商討研究世界博覽會的工作時間表。請聆聽對話，完成下方筆記表。第一項已作為例子提供。",
+      "blocks": [
+        "簡報詳情",
+        "簡報題目：世界博覽會概覽（例子）。\n日期：{{1}}　時間：{{2}}\n聽眾：{{3}}\n地點：{{4}}\n長度：{{5}}",
+        "將涵蓋的範疇",
+        "Bonnie：世界博覽會的{{6}}。\nJulian：世界博覽會的{{7}}。\nCherie：世界博覽會的{{8}}。",
+        "工作時間表",
+        "欄目：日期／負責人／工作。\n{{9}}／Julian／{{10}}\n8 月 19 日／Bonnie／在香港都會大學{{11}}\n{{12}}／全體／進度會議\n8 月 23 日／{{13}}／把{{14}}交給 Jasmine\n8 月 26 日／{{15}}／{{16}}"
+      ]
+    },
+    "2": {
+      "title": "世界博覽會的歷史",
+      "instruction": "你正在聽梁教授講解世界博覽會的歷史。請聆聽錄音，並在下方空格填上所缺資料。其中一項已作為例子提供。",
+      "blocks": [
+        "講題：世界博覽會的歷史：{{17}}\n世界博覽會的定義：國際展覽（例子）。",
+        "主辦國的職責",
+        "{{18}}\n{{19}}",
+        "第一階段：工業與科技發明——時期：1851–1938 年",
+        "倫敦世界博覽會：萬國工業博覽會。\n參觀人數：{{20}}\n這屆博覽會的主要成就：{{21}}\n{{22}}",
+        "第二階段",
+        "階段名稱：{{23}}　時期：{{24}}\n紐約世界博覽會的主題：{{25}}\n展品例子：{{26}}\n{{27}}\n參展國家數目：{{28}}",
+        "第三階段：國家品牌塑造",
+        "時期：{{29}}\n漢諾威世界博覽會的主題：{{30}}\n被認為不成功的原因：{{31}}"
+      ]
+    },
+    "3": {
+      "title": "簡報投影片的意見",
+      "instruction": "Cherie 剛向 Bonnie 和 Julian 展示了她製作的 PowerPoint 投影片初稿。Bonnie 和 Julian 現在正向她提供意見。請聆聽對話，並在下方筆記表記下資料。其中一項已作為例子提供。",
+      "blocks": [
+        "建議新增的 PowerPoint 投影片：舉辦世界博覽會的弊端",
+        "{{32}}\n{{33}}\n{{34}}",
+        "各國希望舉辦世界博覽會的原因",
+        "推動{{35}}。\n建立國家形象（例子）。\n吸引{{36}}。",
+        "PowerPoint 投影片版面設計建議",
+        "{{37}}\n{{38}}\n{{39}}\n{{40}}\n{{41}}\n{{42}}\n{{43}}"
+      ]
+    },
+    "4": {
+      "title": "Ota Benga 與世界博覽會的陰暗歷史",
+      "instruction": "Julian、Bonnie 和 Cherie 在咖啡店與朋友 Leo 見面。他們正在談論小組的簡報與世界博覽會。請聆聽對話，回答下列問題。你不需要用完整句子作答。其中一項已作為例子提供。",
+      "blocks": [
+        "Ota Benga（奧塔・本加）",
+        "根據 Leo 的說法，世界博覽會對一般大眾的主要作用是什麼？{{44}}",
+        "十九世紀末至二十世紀初，有多少人在世界博覽會的人類動物園中被展示？{{45}}",
+        "列出被展示的人必須進行的三項活動。",
+        "住在傳統房屋裡（例子）。\n{{46}}\n{{47}}",
+        "W. J. McGee 為什麼選中 Ota Benga 和他的族人，讓他們參加 1904 年聖路易斯世界博覽會？{{48}}",
+        "這些俾格米人以為自己到美國有什麼目的？這與博覽會的宣傳有什麼不同？\n他們以為{{49}}，但實際上{{50}}。",
+        "Ota Benga 在紐約動物園的工作是什麼？{{51}}",
+        "紐約市民有什麼反應？{{52}}",
+        "Ota Benga 的故事有美滿結局嗎？為什麼有／沒有？{{53}}",
+        "簡報應否加入 Ota Benga 的故事？請寫出每個人的理由。",
+        "Bonnie：{{54}}\nCherie：{{55}}\nJulian：{{56}}"
+      ]
+    }
   }
 }

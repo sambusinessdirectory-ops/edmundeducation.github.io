@@ -1,0 +1,2704 @@
+{
+  "year": 2013,
+  "source": {
+    "title": "2013 DSE Part A · 錄音稿翻譯及參考答案解析",
+    "scope": "Part A Tasks 1–4, Questions 1–58",
+    "status": "Authored reference answers, not an official HKEAA marking scheme.",
+    "questionPaper": "2013 Paper 3 Part A.pdf",
+    "questionDataSha256": "909ceb094a6cc5a076de63fb1ee949b9f89c504845309f186e3cb2c63760446f",
+    "transcriptDataSha256": "d40ca34d5cbbd964d4553641a320cad82f92396b10c399de8e6d56714dfd1b0e",
+    "styleReference": "2021 – DSE Listening – 5** Past Paper 題解書 (Edmund Sir); approved 2023 Part A guide",
+    "timingBasis": "Existing original-year split-track transcript cues. Navigation cues are approximate; replay begins 15 seconds before the selected answer-bearing cue.",
+    "editorialNotes": [
+      "Newly authored Traditional Chinese teaching material based on the original-year question data and recording transcript; 2021 and 2023 are style references only.",
+      "Original English and timings retained, including transcription imperfections. Unambiguous opening and closing examination instructions are labelled Narrator. The known mixed-speaker passages in 2012 Task 2 and 2014 Task 4 use broadened group labels, not guessed individual turn assignments; other supplied labels are retained. Chinese follows recoverable meaning without inventing identities. Original audio, questions, images, Part B and student answers are unchanged."
+    ]
+  },
+  "transcriptNote": "按 2013 年原有錄音稿逐段翻譯，附繁體中文。原稿個別語音辨識及講者標籤可能不準；時間為約數。",
+  "analysisNote": "以下為按錄音編寫的參考答案及解析，並非考評局官方評分準則。",
+  "analysis": {
+    "1": {
+      "task": 1,
+      "answer": "other",
+      "explanation": "旅客不是出差，也不是度假，而是回英國探望生病的媽媽，因此在三個選項中選 other。\n中伏位：穿着整齊只為增加升級機位的機會；他平常常出差，也不代表這一趟是商務旅程。要分清本次旅程目的與一般出行習慣，不能被 Linda 的猜測帶走。",
+      "evidence": "I'm going home to see her",
+      "audioTime": 109.91,
+      "audioEnd": 117.55
+    },
+    "2": {
+      "task": 1,
+      "answer": "long",
+      "explanation": "這次目的地是英國倫敦，旅客說航程需十三小時，所以屬 long 長途航班。\n中伏位：Bangkok’s so close 是稍後談常到的度假地點，不是本次航班。題目只要求三項選一，毋須把 thirteen hours 寫成自由答案，也不能把航班延誤的幾小時當成航程。",
+      "evidence": "13 hours",
+      "audioTime": 133.63,
+      "audioEnd": 140.11
+    },
+    "3": {
+      "task": 1,
+      "answer": "10–12 / ten to twelve",
+      "explanation": "Linda 問是否每年一兩次，旅客立即否定並給出 about 10 to 12 trips a year，所以填十至十二次。\n中伏位：one or two 是訪問者的估計，不是答案；up to a dozen 是她隨後的重述，只表達上限。保留10–12的範圍最完整，別漏掉一年這個頻率背景。",
+      "evidence": "10 to 12 trips a year",
+      "audioTime": 146.11,
+      "audioEnd": 154.97
+    },
+    "4": {
+      "task": 1,
+      "answer": "Bangkok",
+      "explanation": "旅客偏好到泰國度假，接着明確說每年飛 Bangkok 幾次，所以常到目的地第一格是 Bangkok。\n中伏位：Thailand 是國家，錄音提供了更具體城市；本次去 London 只是多年來第一次，不能算經常前往。此表的新加坡也是具體目的地，應寫城市名稱。",
+      "evidence": "I fly to Bangkok several times a year",
+      "audioTime": 169.02,
+      "audioEnd": 175.86
+    },
+    "5": {
+      "task": 1,
+      "answer": "Sydney",
+      "explanation": "他因女兒在澳洲讀書而經常飛悉尼，原句為 I fly to Sydney quite often。下一句還提醒悉尼以 S-Y 而不是 S-I 開頭。\n中伏位：Australia 是國家，Sydney 才是所說目的地；不要寫成 Sidney。題目中的 Singapore 已印出，另外兩格不能重複填新加坡。",
+      "evidence": "I fly to Sydney quite often",
+      "audioTime": 176.54,
+      "audioEnd": 184.78
+    },
+    "6": {
+      "task": 1,
+      "answer": "daylight / plenty of natural light",
+      "explanation": "第一個喜歡的特點是 daylight，即天然日光。旅客解釋大量窗戶讓機場不像其他封閉陰暗的機場，感覺接近戶外。\n中伏位：closed in and gloomy 是別的機場的缺點，不是香港的優點。可用名詞 daylight，或寫 plenty of natural light，清楚表達欣賞採光。",
+      "evidence": "I really appreciate the daylight",
+      "audioTime": 206.47,
+      "audioEnd": 209.29
+    },
+    "7": {
+      "task": 1,
+      "answer": "plenty of lounge space / spacious lounges",
+      "explanation": "第二個優點是 plenty of lounge space，例子是座椅各排之間空間很大，所以答案為候機室空間充足。\n中伏位：這裡說的是座位和等候空間，不是商店空間；後面 shops overcrowded 是另一項缺點。三個優點可互換次序，但每格應代表不同特點。",
+      "evidence": "there's plenty of lounge space",
+      "audioTime": 226.32,
+      "audioEnd": 229.34
+    },
+    "8": {
+      "task": 1,
+      "answer": "moving walkways",
+      "explanation": "第三個優點直接由 a third thing I like 引出，就是 moving walkways，自動行人道可減少走到閘口或入境櫃枱的路程。\n中伏位：不是普通走道，也不是自動樓梯 escalators；moving 必須保留，才能指出旅客欣賞的設備。getting bigger 是機場趨勢，不是本格答案。",
+      "evidence": "moving walkways",
+      "audioTime": 249.46,
+      "audioEnd": 256.8
+    },
+    "9": {
+      "task": 1,
+      "answer": "overcrowded shops / shops are overcrowded",
+      "explanation": "旅客第一個不滿是商店經常 overcrowded，店舖雖多，內部卻沒有足夠空間舒服地走動。故填 shops are overcrowded。\n中伏位：不是商店數目不足，因為他明說 plenty of them；也不要把整個機場說成擠迫，前面他反而讚候機室寬敞。",
+      "evidence": "shops are often overcrowded",
+      "audioTime": 274.7,
+      "audioEnd": 282.72
+    },
+    "10": {
+      "task": 1,
+      "answer": "no post office in the transit lounge",
+      "explanation": "第二個不滿是轉機候機室沒有郵局，令他無法寄支票。答案應包括 no post office 和 transit lounge，以免範圍過大。\n中伏位：題目不是問他想寄什麼，checks 只是說明不便的原因；也不能擴大成整個香港機場都沒有郵局，錄音限定了位置。",
+      "evidence": "there's no post office in the transit lounge",
+      "audioTime": 283.64,
+      "audioEnd": 292.44
+    },
+    "11": {
+      "task": 1,
+      "answer": "the transit lounge trolleys are too small",
+      "explanation": "旅客說 trolleys are too small，隨後明確澄清只指轉機候機室的手推車，並非辦理登機手續大堂的手推車。\n中伏位：只寫 small trolleys 可表達核心，但完整答案應保留 transit lounge 的限定。trolley 的結尾是 -ey，錄音特意拼字提醒，複數則為 trolleys。",
+      "evidence": "the trolleys are too small",
+      "audioTime": 297.1,
+      "audioEnd": 301.4
+    },
+    "12": {
+      "task": 1,
+      "answer": "better than",
+      "explanation": "旅客說較喜歡新加坡機場，且它 has the edge over everywhere else，表示仍略勝一籌。因此選 better than。\n中伏位：他之前讚香港的日光、空間和自動行人道，不代表認為香港一定較好；此題是兩地整體設施比較，要以明確比較回答為準。",
+      "evidence": "I like Singapore airport more",
+      "audioTime": 335.91,
+      "audioEnd": 343.55
+    },
+    "13": {
+      "task": 1,
+      "answer": "more greenery / more plants and flowers",
+      "explanation": "新加坡較好的第一個原因是 more greenery，例如盆栽棕櫚、花卉甚至花園。答案應保留比較詞 more，表示綠化比香港多。\n中伏位：題目問理由，不能只重複 better facilities；單寫 garden 是其中一個例子，more greenery 則完整概括他所強調的共同特點。",
+      "evidence": "it has more greenery",
+      "audioTime": 348.69,
+      "audioEnd": 357.79
+    },
+    "14": {
+      "task": 1,
+      "answer": "a cinema showing free movies / a movie theatre with free movies",
+      "explanation": "另一個優點是有 movie theatre，而且旅客可以免費看電影。完整答案可寫 a cinema showing free movies。\n中伏位：最後 lucky draw 提到的 DVDs 是參加調查的抽獎獎品，不是新加坡機場的設施；不要把免費電影誤寫成可以免費領取DVD或免費購物。",
+      "evidence": "a cinema where you can watch free movies",
+      "audioTime": 360.55,
+      "audioEnd": 366.27
+    },
+    "15": {
+      "task": 2,
+      "answer": "Plants 2; Toilets 1; Coffee shop 3; Internet corner 5; Children’s play area 4",
+      "explanation": "按題目排列，答案是2、1、3、5、4。旅客把廁所排首位，咖啡店居中，最後確認植物第二；上網區最末，兒童遊樂區倒數第二。\n中伏位：她最初說兒童區最不重要，隨即以 No, wait a minute 修正。排序須採用最後決定，每個數字1–5只可出現一次。",
+      "evidence": "greenery as number two",
+      "audioTime": 184.32,
+      "audioEnd": 190.88
+    },
+    "16": {
+      "task": 2,
+      "answer": "adds colour and freshness to the lounge",
+      "explanation": "旅客認為植物能 adds color and freshness to a lounge，即為候機室增加色彩和清新感。答案要包含 colour 及 freshness 兩點。\n中伏位：greenery 就是植物本身，不能只重寫它作理由；後面 avenue effect 談的是把植物放在中央的布局效果，不是這裡排序時提出的主要原因。",
+      "evidence": "adds color and freshness to a lounge",
+      "audioTime": 196.04,
+      "audioEnd": 204.66
+    },
+    "17": {
+      "task": 2,
+      "answer": "toilets on planes are cramped and smelly",
+      "explanation": "她重視機場廁所，是因飛機上的廁所經常 cramped and smelly，即狹窄又有臭味。答案須指出批評對象是機上廁所。\n中伏位：Linda 回應並非每家航空公司都臭，只是反駁；題目要求旅客本人的理由，因此仍記下她的說法，不應把 Linda 的修正當成旅客改口。",
+      "evidence": "toilets on the plane are often cramped and smelly",
+      "audioTime": 213.5,
+      "audioEnd": 217.46
+    },
+    "18": {
+      "task": 2,
+      "answer": "coffee on planes tastes bad and is lukewarm",
+      "explanation": "旅客說機上咖啡 tastes bad，而且 always lukewarm，不夠熱，因此需要候機室咖啡店。完整答案應保留味道差和溫度不足兩點。\n中伏位：lukewarm 是微溫、不冷不熱，不是 boiling hot；前面說她愛咖啡只是背景，此題有直接解釋為什麼機場咖啡店重要。",
+      "evidence": "coffee on planes tastes bad",
+      "audioTime": 233.54,
+      "audioEnd": 242.72
+    },
+    "19": {
+      "task": 2,
+      "answer": "most people use their own devices to access the Internet",
+      "explanation": "上網區較不重要，是因為大多數人使用自己的裝置；下一句明確舉智能電話和平板電腦，並說都能連上網。\n中伏位：computer nerds 是旅客帶揶揄的稱呼，不是設施不重要的實際理由。原稿前半句辨識不順，但 most people use their own devices 及後文的理由清楚。",
+      "evidence": "most people use their own devices",
+      "audioTime": 258.26,
+      "audioEnd": 264.07
+    },
+    "20": {
+      "task": 2,
+      "answer": "helps children use up their energy",
+      "explanation": "兒童遊樂區的好處是 helps kids use up their energy，讓孩子上飛機前先消耗精力。答案可寫 helps children use up their energy。\n中伏位：不是增加孩子精力，use up 是消耗；這兩格要記下正反兩方面理由，不應把「消耗精力」與「登機前玩耍」重複當兩個好處。",
+      "evidence": "helps kids use up their energy",
+      "audioTime": 287.87,
+      "audioEnd": 293.49
+    },
+    "21": {
+      "task": 2,
+      "answer": "children can be noisy and disturb other passengers",
+      "explanation": "兒童遊樂區的壞處是 kids can be noisy，後文解釋候機旅客不想旁邊有一群吵鬧的孩子，否則增加緊張。\n中伏位：不是說所有孩子都危險，而是噪音可能騷擾旅客；答案要把 noisy 與對其他人的影響連起來。排第四正是她權衡好處和壞處的結果。",
+      "evidence": "kids can be noisy",
+      "audioTime": 300.31,
+      "audioEnd": 305.59
+    },
+    "22": {
+      "task": 2,
+      "answer": "C — Coffee shop",
+      "explanation": "位置1在走道末端、靠近登機閘口並鄰近窗戶，符合旅客為咖啡店提出的三個位置條件，所以填C。\n中伏位：廁所也要近閘口，但她指定廁所是最靠近閘口的位置2；不能只抓住 close to the gate。必須再用 end of the walkway 和有窗兩項線索定位。",
+      "evidence": "at the end of the walkway",
+      "audioTime": 363.01,
+      "audioEnd": 369.81
+    },
+    "23": {
+      "task": 2,
+      "answer": "B — Toilets",
+      "explanation": "旅客說廁所應 right by the gate，而且是最靠近閘口的設施。圖中位置2緊貼左側登機閘口，因此答案B。\n中伏位：位置1的咖啡店也近閘口，但在上方走道末端；這裡的 closest 是最高級，要求比較各位置距離，不能見到 gate 便隨意選鄰近的一格。",
+      "evidence": "the closest thing to the gate",
+      "audioTime": 352.63,
+      "audioEnd": 357.07
+    },
+    "24": {
+      "task": 2,
+      "answer": "A — Plants",
+      "explanation": "植物要放 in the middle，營造大道般的效果，圖中位置3正好位於中央，故填A。講者之後還明確叫 Chris 寫字母A作確認。\n中伏位：plants 不是放窗邊的位置4；窗邊另有睡眠躺椅。平面圖題應先抓中央這個固定參照，再用它判斷其他設施的相對位置。",
+      "evidence": "in the middle",
+      "audioTime": 336.91,
+      "audioEnd": 342.17
+    },
+    "25": {
+      "task": 2,
+      "answer": "D — Sleeper chairs",
+      "explanation": "睡眠躺椅要在植物與閘口相對的另一側，且有私隱和窗景。閘口在植物左邊，因此植物右邊、靠窗的位置4符合，填D。\n中伏位：other side 是相對植物而言，不是平面圖的隨便另一角；不能與右下方留給兒童區的位置6混淆。用閘口—植物—躺椅的順序定位。",
+      "evidence": "on the other side of the plants from the gate",
+      "audioTime": 398.6,
+      "audioEnd": 402.54
+    },
+    "26": {
+      "task": 2,
+      "answer": "F — Internet corner",
+      "explanation": "旅客把上網區安排在兒童遊樂區旁邊、圖的最下方。位置5位於底部，與右下位置6相鄰，因此填F。\n中伏位：Linda 最初提議把上網區放右下角，但旅客以 No 否定；最後分配是兒童區佔角落，上網區佔旁邊。設施名稱有 corner 不代表一定放幾何角落。",
+      "evidence": "the area next to it at the foot of the plan",
+      "audioTime": 436.94,
+      "audioEnd": 440.42
+    },
+    "27": {
+      "task": 2,
+      "answer": "E — Children’s play area",
+      "explanation": "Linda 指右下角，旅客說 that space 應留給 play area，因為遠離大部分旅客座位，可減少噪音干擾。圖中位置6即右下角，所以填E。\n中伏位：that space 指前句提出的 bottom to the right；不是依設施提及次序順填。後面上網區才放旁邊的位置5，兩格不可倒轉。",
+      "evidence": "that space would be better reserved for the play area",
+      "audioTime": 425.96,
+      "audioEnd": 430.46
+    },
+    "28": {
+      "task": 3,
+      "answer": "✗ Dislike",
+      "explanation": "旅客試熱狗後說 that’s not for me，並批評太鹹，所以應填交叉，表示不喜歡。\n中伏位：他事前說願意 give it a go 只表示肯嘗試，不代表喜歡；要聽試吃後的評價。表格以圖片排序，熱狗在第一行，不能按後面食品出現次序直接填下一行。",
+      "evidence": "that's not for me",
+      "audioTime": 172.71,
+      "audioEnd": 175.41
+    },
+    "29": {
+      "task": 3,
+      "answer": "? Not sure",
+      "explanation": "雞肉串的醬汁好吃，但雞肉粗韌，評價正反兼有；Linda 更直接叫 Chris 在第二欄放 question mark，所以填問號。\n中伏位：finger-licking good 是說醬汁，不是整串雞肉都獲好評。也不要因他把肉比作牙線便只填交叉，錄音有明確的最終作答提示。",
+      "evidence": "put a question mark in the second column",
+      "audioTime": 265.8,
+      "audioEnd": 270.12
+    },
+    "30": {
+      "task": 3,
+      "answer": "✗ Dislike",
+      "explanation": "旅客試壽司後說 that’s not for me，並認為魚腥味太重，所以填交叉。\n中伏位：他說平常喜歡魚配薯條，不表示喜歡壽司；錄音特意對比 fish 與 fishy。請在壽司圖片那一行填答案，因為這項是在飲品之後才試，不跟表格順序相同。",
+      "evidence": "It's much too fishy",
+      "audioTime": 318.28,
+      "audioEnd": 321.6
+    },
+    "31": {
+      "task": 3,
+      "answer": "✓ Like",
+      "explanation": "旅客吃墨西哥薄餅卷後直接說 that’s really good，再讚香辣及飽肚，所以勾選喜歡。\n中伏位：hot 在此處是辣，他也說不是 heat hot；不能把它理解成太燙而推斷不喜歡。這一項在表格第四行，但錄音第二個試吃，必須用食品名稱對準圖片。",
+      "evidence": "that's really good",
+      "audioTime": 194.06,
+      "audioEnd": 199.4
+    },
+    "32": {
+      "task": 3,
+      "answer": "? Not sure",
+      "explanation": "紙杯蛋糕有鬆輕優點，但味道淡；旅客最後明說 I can’t make up my mind if I like it or not，所以填問號。\n中伏位：第一個 light 是正面評价，之後 tasteless 是負面評价，兩者共同形成未能決定的態度。不能只採最後一個負面形容詞就選不喜歡。",
+      "evidence": "I can't make up my mind",
+      "audioTime": 366.47,
+      "audioEnd": 370.39
+    },
+    "33": {
+      "task": 3,
+      "answer": "✓ Like",
+      "explanation": "旅客喝冰沙後說 lovely 和 hit the spot，表示正合心意，再讚冰涼清新，因此勾選喜歡。\n中伏位：cool 在此指飲品溫度，且語氣正面，不是嫌飲品過冷；wash that down 只是喝飲品把食物送下的說法，不代表飲品只有清口作用而沒有獲好評。",
+      "evidence": "lovely. That hit the spot",
+      "audioTime": 285.67,
+      "audioEnd": 289.95
+    },
+    "34": {
+      "task": 3,
+      "answer": "too salty",
+      "explanation": "熱狗不合口味的明確原因是 too salty，即太鹹。題目理由欄可直接填這個形容詞片語。\n中伏位：not a big hot dog fan 是他一般的偏好背景，本題要記這款食品試吃後的具體問題。保留 too，表示過量鹹味導致不喜歡，不只是客觀描述有鹹味。",
+      "evidence": "It's too salty",
+      "audioTime": 172.71,
+      "audioEnd": 175.41
+    },
+    "35": {
+      "task": 3,
+      "answer": "tasty sauce",
+      "explanation": "雞肉串其中一項評價是 tasty sauce，Linda 還直接指示把這兩個字記下。所以填醬汁美味。\n中伏位：美味的是 sauce，不是雞肉；後面肉質 stringy 恰好形成反差。兩個理由格可交換次序，但不能分別寫 tasty 和 finger-licking good，因為那只是同一優點。",
+      "evidence": "tasty sauce",
+      "audioTime": 243.32,
+      "audioEnd": 246.22
+    },
+    "36": {
+      "task": 3,
+      "answer": "stringy chicken / the chicken is stringy",
+      "explanation": "雞肉串另一項評價是 chicken’s a bit stringy，表示肉的纖維粗韌、難咬，後面用牙線作誇張比喻。\n中伏位：stringy 結尾為 g-y，不是 g-e-y，錄音特意提醒拼字。不要把形容醬汁的 tasty 也套到雞肉，這個負面理由解釋他為何未能決定整體喜好。",
+      "evidence": "The chicken's a bit stringy",
+      "audioTime": 247.76,
+      "audioEnd": 251.08
+    },
+    "37": {
+      "task": 3,
+      "answer": "too fishy",
+      "explanation": "壽司不受歡迎的原因是 much too fishy，即魚腥味太重。fishy 在這裡形容味道，不是引申的「可疑」。\n中伏位：raw fish 是主持人解釋食材，不是旅客直接說不喜歡所有生魚；他還區分自己通常喜歡 fish，但不喜歡 fishy taste。因此填具體味道問題最準確。",
+      "evidence": "much too fishy",
+      "audioTime": 318.28,
+      "audioEnd": 321.6
+    },
+    "38": {
+      "task": 3,
+      "answer": "spicy / hot (spicy)",
+      "explanation": "薄餅卷第一個優點是 spicy，旅客說 really hot 後特別補充不是溫度熱，所以答案為香辣。\n中伏位：hot 可以指辣或燙，這裡已用 not heat hot 排除溫度；filling 是另一個優點，但題目已作例子印出，不能重複填入空格。用 spicy 能避免歧義。",
+      "evidence": "it's spicy",
+      "audioTime": 202.67,
+      "audioEnd": 208.09
+    },
+    "39": {
+      "task": 3,
+      "answer": "light / not heavy",
+      "explanation": "紙杯蛋糕的一項優點是 light，旅客立刻解釋 not at all heavy，表示口感鬆輕、不厚重。\n中伏位：light 在這裡不是顏色淡，也不是發光，更不是保證低熱量；要根據和 heavy 的對比理解。第39–40題要保留一正一負兩點，才能表達他難以決定的原因。",
+      "evidence": "It's light",
+      "audioTime": 354.3,
+      "audioEnd": 357.8
+    },
+    "40": {
+      "task": 3,
+      "answer": "tasteless / a bit tasteless",
+      "explanation": "蛋糕的缺點是 a bit tasteless，之後再次重複 tasteless 作確認，所以填味道淡或沒有什麼味道。\n中伏位：不要寫成 tasty，兩者意思相反；less 是否定含義的後綴。蛋糕口感 light 是優點，但不代表有足夠味道，這兩項分別描述質感與味道，不應混為一談。",
+      "evidence": "a bit tasteless",
+      "audioTime": 358.85,
+      "audioEnd": 360.67
+    },
+    "41": {
+      "task": 3,
+      "answer": "icy cool / very cool",
+      "explanation": "冰沙的第一個優點是 icy cool，即很冰涼。旅客先說 very cool，接着用 icy cool 加強，所以兩種寫法均可。\n中伏位：此處 cool 是實際溫度，不是「時髦」；lukewarm 屬上一任務對飛機咖啡的負評，不能跨任務套用。飲品有另外一個清新提神的優點，要另格記下。",
+      "evidence": "Icy cool",
+      "audioTime": 290.97,
+      "audioEnd": 293.19
+    },
+    "42": {
+      "task": 3,
+      "answer": "refreshing",
+      "explanation": "冰沙另一個優點是 refreshing，令飲用者覺得清新、精神一振，下一句也以 makes you feel refreshed 解釋。\n中伏位：形容飲品用 refreshing；refreshed 通常形容喝完後的人。若只填一個形容詞，應選 refreshing，並與上一格冰涼的溫度特點分開。",
+      "evidence": "refreshing",
+      "audioTime": 290.97,
+      "audioEnd": 293.19
+    },
+    "43": {
+      "task": 4,
+      "answer": "60% / sixty per cent",
+      "explanation": "Simon 說約60%受訪者認為服務令人印象深刻，因此第一格填60%。這是滿意餐飲服務的比例。\n中伏位：15%是對種類不滿的人，25%是沒用過餐廳的人；50%只是 Linda 誤聽十五後的追問，隨即被更正。不可把不同群組的比例混在一起。",
+      "evidence": "About 60%",
+      "audioTime": 133.48,
+      "audioEnd": 136.46
+    },
+    "44": {
+      "task": 4,
+      "answer": "impressed",
+      "explanation": "錄音說 they found the services impressive，題目改為 travellers were ___ by the services，因此要用 impressed，形容旅客被服務打動。\n中伏位：impressive 形容服務本身令人印象深刻；impressed 形容人的感受。這是語法轉換題，不能聽到哪個詞就原封照抄，were...by提示被動結構。",
+      "evidence": "they found the services impressive",
+      "audioTime": 133.48,
+      "audioEnd": 136.46
+    },
+    "45": {
+      "task": 4,
+      "answer": "quarter",
+      "explanation": "25%的人沒使用餐廳，等於四分之一。題目已有 a，組成 at least a quarter，因此只填 quarter。\n中伏位：直接填25%會變成 a 25%，不合題目結構；15%是另一群體，且 Linda 說不必寫出。要把百分比轉成相應分數，並留意前面的冠詞。",
+      "evidence": "25%",
+      "audioTime": 147.32,
+      "audioEnd": 149.8
+    },
+    "46": {
+      "task": 4,
+      "answer": "reduce the number of fast food outlets",
+      "explanation": "首個改善建議是減少 fast food outlets 的數目，後面列舉漢堡、熱狗、炸雞等快餐，Linda 也同意目前過分偏重快餐。\n中伏位：不是減少所有餐廳，也不是只減低快餐價錢；reduce 的受詞是 number，完整答案要交代減少的是快餐店數量。",
+      "evidence": "reduce the number of fast food outlets",
+      "audioTime": 168.91,
+      "audioEnd": 172.83
+    },
+    "47": {
+      "task": 4,
+      "answer": "increase the number of medium-priced restaurants",
+      "explanation": "第二個建議是增加 medium-priced restaurants，讓便宜快餐與過貴高級食肆之間有平衡。答案可加 the number of 表示增設。\n中伏位：不是增加餐廳收費，也不是增設更多最高級餐廳；medium-priced 是中等價位，要完整保留，才與目前兩極化問題對應。",
+      "evidence": "increase medium-priced restaurants",
+      "audioTime": 189.39,
+      "audioEnd": 192.65
+    },
+    "48": {
+      "task": 4,
+      "answer": "provide a greater variety of food",
+      "explanation": "第三項建議是 provide a greater variety of food，之後用日本、印度及中東菜作例子。這格須概括更多元化的飲食選擇。\n中伏位：variety 是種類多元，不是單純增加每份食物的分量；題目 such as 引出例子，空格先寫總體建議，不能只提前填其中一種菜系。",
+      "evidence": "provide a greater variety of food",
+      "audioTime": 207.38,
+      "audioEnd": 211.74
+    },
+    "49": {
+      "task": 4,
+      "answer": "Japanese",
+      "explanation": "第一種被要求的菜系是 Japanese food。錄音補充目前已有一些，但質素未算高，所以希望改善選擇及品質。\n中伏位：後面提到 Japanese and Singaporeans 愛咖喱，是說顧客群體，不是增加 Singaporean food 的建議。題目已有 food，空格用形容詞 Japanese。",
+      "evidence": "Japanese food",
+      "audioTime": 218.56,
+      "audioEnd": 220.16
+    },
+    "50": {
+      "task": 4,
+      "answer": "Indian",
+      "explanation": "第二種要求是 Indian food，即印度菜，而且提出要求的不只是印度人，還有喜歡咖喱的其他旅客。\n中伏位：Singaporeans 和 Westerners 是需求者，不是這裡要求的菜系；不要把國家 India 原形放在 food 前，應用形容詞 Indian，保持首字母大寫。",
+      "evidence": "Indian food",
+      "audioTime": 225.2,
+      "audioEnd": 227.72
+    },
+    "51": {
+      "task": 4,
+      "answer": "Middle Eastern",
+      "explanation": "第三種是 Middle Eastern food，錄音用 kebabs 和 falafels 舉例。題目已印 food，因此填 Middle Eastern 即可。\n中伏位：不能只寫 Eastern，會失去「中東」的地域限定；也不要用兩種食品例子取代整體菜系名稱。三格菜系按錄音列出，應各寫不同項目。",
+      "evidence": "Middle Eastern food",
+      "audioTime": 236.17,
+      "audioEnd": 239.24
+    },
+    "52": {
+      "task": 4,
+      "answer": "places of worship",
+      "explanation": "旅客要求更多 places of worship，即宗教禮拜場所，後文以穆斯林祈禱室及冥想室作例子。\n中伏位：chapel 是機場現有設施，並非唯一要增設的種類；本格是上位類別，要先寫 places of worship，而不是只寫某一宗教。more 後用複數 places。",
+      "evidence": "places of worship",
+      "audioTime": 254.43,
+      "audioEnd": 259.13
+    },
+    "53": {
+      "task": 4,
+      "answer": "Muslim prayer room / Moslem prayer room",
+      "explanation": "具體建議之一是 Muslim prayer room，因為機場已有小教堂，卻沒有穆斯林祈禱室。題目已有 a，只填設施名稱。\n中伏位：Muslim 或 Moslem 都獲錄音明確認可；prayer 是祈禱，不能拼成 player。原句 don’t have 說的是現況，建議增設時不需要把否定一併抄下。",
+      "evidence": "a Muslim prayer room",
+      "audioTime": 267.49,
+      "audioEnd": 271.05
+    },
+    "54": {
+      "task": 4,
+      "answer": "meditation room",
+      "explanation": "另一個建議是 meditation room，即供靜坐冥想的房間。Linda 認為登機前冥想有益，不只有佛教徒才會使用，所以同意記錄。\n中伏位：不是 medication room（藥物房），兩字拼寫相近但意思完全不同；題目要設施，不是填 Buddhists 這個使用者群體。",
+      "evidence": "a meditation room",
+      "audioTime": 301.81,
+      "audioEnd": 304.77
+    },
+    "55": {
+      "task": 4,
+      "answer": "entertainment facilities",
+      "explanation": "下一大類要求是更多 entertainment facilities，即娛樂設施，後面舉遊戲中心及美術館兩例。\n中伏位：這一格要類別，不能只填其中一個例子；more 後面的 facilities 應用複數。雖然有人不確定遊戲中心是否合適，報告仍要完整記下旅客的要求。",
+      "evidence": "entertainment facilities",
+      "audioTime": 320.37,
+      "audioEnd": 322.51
+    },
+    "56": {
+      "task": 4,
+      "answer": "game centre",
+      "explanation": "有不止一位旅客建議設 game centre。Linda 認為機管局未必願意提供地方，但仍說 ought to make a note，所以報告應記遊戲中心。\n中伏位：猶豫是否採納，不等於刪除旅客建議；本題根據受訪意見填報告，而不是挑選研究員最喜歡或已批准的設施。",
+      "evidence": "a game centre",
+      "audioTime": 329.77,
+      "audioEnd": 333.21
+    },
+    "57": {
+      "task": 4,
+      "answer": "art gallery",
+      "explanation": "另一項娛樂設施是 art gallery，多位旅客在其他機場見過，覺得好，而且研究員說美術館讓人放鬆。\n中伏位：題目在空格前印 an，art 的母音開頭正好配合；game centre 前則是 a。可用冠詞檢查兩例有否填反，不要只按設施喜好自行排序。",
+      "evidence": "an art gallery",
+      "audioTime": 344.45,
+      "audioEnd": 345.79
+    },
+    "58": {
+      "task": 4,
+      "answer": "satisfied",
+      "explanation": "錄音總結設施 were mostly satisfactory，題目改寫成 travellers seemed very ___ with the facilities，因此應填 satisfied，表示旅客滿意。\n中伏位：satisfactory 形容設施令人滿意，不能直接描述旅客；satisfaction 是名詞，也不適合 very 後。留意主語由設施轉為人所需的詞形轉換。",
+      "evidence": "facilities provided were mostly satisfactory",
+      "audioTime": 361.1,
+      "audioEnd": 365.8
+    }
+  },
+  "transcript": {
+    "1": [
+      {
+        "start": 0,
+        "end": 0.58,
+        "speaker": "Narrator",
+        "text": "Task 1.",
+        "zh": "任務一。"
+      },
+      {
+        "start": 1.16,
+        "end": 7.28,
+        "speaker": "Narrator",
+        "text": "The research team leader, Linda Lee, is interviewing a traveller in the airport departure hall.",
+        "zh": "研究組組長 Linda Lee 正在機場離境大堂訪問一位旅客。"
+      },
+      {
+        "start": 8.1,
+        "end": 11.44,
+        "speaker": "Narrator",
+        "text": "She has asked you to help fill in the interview form below.",
+        "zh": "她請你協助填寫下方的訪問表格。"
+      },
+      {
+        "start": 12.72,
+        "end": 17.14,
+        "speaker": "Narrator",
+        "text": "Write the information in the spaces according to the traveller's answers.",
+        "zh": "請根據旅客的回答，在空格填上資料。"
+      },
+      {
+        "start": 18.34,
+        "end": 21.92,
+        "speaker": "Narrator",
+        "text": "One space has been filled in for you as an example.",
+        "zh": "其中一格已填好作例子。"
+      },
+      {
+        "start": 23.56,
+        "end": 26.48,
+        "speaker": "Narrator",
+        "text": "You now have 30 seconds to study the task.",
+        "zh": "你現在有三十秒時間閱讀題目。"
+      },
+      {
+        "start": 27.5,
+        "end": 32.02,
+        "speaker": "Narrator",
+        "text": "At the end of the task, you will have one minute to tidy up your answers.",
+        "zh": "任務結束後，你將有一分鐘時間整理答案。"
+      },
+      {
+        "start": 65.18,
+        "end": 71.06,
+        "speaker": "Airport survey",
+        "text": "Excuse me, my name's Linda Lee and I work for the airport authority's research division.",
+        "zh": "打擾一下，我叫 Linda Lee，在機場管理局的研究部工作。"
+      },
+      {
+        "start": 71.86,
+        "end": 75.88,
+        "speaker": "Airport survey",
+        "text": "We're trying to find out what travellers think of the facilities here.",
+        "zh": "我們想了解旅客對這裡設施的看法。"
+      },
+      {
+        "start": 76.54,
+        "end": 78.56,
+        "speaker": "Airport survey",
+        "text": "Would you mind if I asked you a few questions?",
+        "zh": "介意我問你幾個問題嗎？"
+      },
+      {
+        "start": 78.56,
+        "end": 85,
+        "speaker": "Airport survey",
+        "text": "Not at all. My flight's been delayed several hours, so I have all the time in the world.",
+        "zh": "完全不介意。我的航班延誤了幾小時，所以我有的是時間。"
+      },
+      {
+        "start": 85.9,
+        "end": 91.54,
+        "speaker": "Airport survey",
+        "text": "You look very smartly dressed. Am I right in thinking you're on a work-related trip?",
+        "zh": "你穿得很整齊。我猜你是出差，對嗎？"
+      },
+      {
+        "start": 92.3,
+        "end": 94.62,
+        "speaker": "Airport survey",
+        "text": "Well, thanks. But no, I'm not.",
+        "zh": "謝謝，但不是。"
+      },
+      {
+        "start": 95.14,
+        "end": 103,
+        "speaker": "Airport survey",
+        "text": "I usually dress smartly because it gives you a better chance of being upgraded to business or first class if the plane is overbooked.",
+        "zh": "我通常穿得整齊，因為如果飛機超額訂位，這樣較有機會獲升級到商務艙或頭等艙。"
+      },
+      {
+        "start": 103.46,
+        "end": 105.4,
+        "speaker": "Airport survey",
+        "text": "Clever. I've never thought of that.",
+        "zh": "真聰明，我從沒想過這一點。"
+      },
+      {
+        "start": 106.09,
+        "end": 109.21,
+        "speaker": "Airport survey",
+        "text": "So you're heading off for a nice holiday somewhere.",
+        "zh": "所以你是去某個地方度假吧？"
+      },
+      {
+        "start": 109.91,
+        "end": 117.55,
+        "speaker": "Airport survey",
+        "text": "I wish I were. Unfortunately, my mother, she lives in the UK, has been taken ill, so I'm going home to see her.",
+        "zh": "我倒希望如此。可惜住在英國的媽媽生病了，所以我要回家探望她。"
+      },
+      {
+        "start": 118.09,
+        "end": 122.75,
+        "speaker": "Airport survey",
+        "text": "Oh, I'm very sorry to hear that. So you know what to tick there, Chris?",
+        "zh": "很抱歉聽到這個消息。Chris，你知道應該勾選哪項了吧？"
+      },
+      {
+        "start": 124.15,
+        "end": 129.97,
+        "speaker": "Airport survey",
+        "text": "Well, I guess you've already answered my second question, which is about the length of your flight.",
+        "zh": "我想你已回答了第二題，就是航程長短。"
+      },
+      {
+        "start": 130.77,
+        "end": 133.63,
+        "speaker": "Airport survey",
+        "text": "London is quite a distance, isn't it?",
+        "zh": "倫敦相當遠，對吧？"
+      },
+      {
+        "start": 133.63,
+        "end": 140.11,
+        "speaker": "Airport survey",
+        "text": "He can say that again. Though I still think doing the trip in 13 hours is something of a miracle.",
+        "zh": "可不是嘛。不過我還是覺得十三小時就能飛到，簡直有點像奇蹟。"
+      },
+      {
+        "start": 141.77,
+        "end": 145.61,
+        "speaker": "Airport survey",
+        "text": "And how often do you fly each year? Is it just once or twice?",
+        "zh": "你每年乘搭飛機多少次？只有一兩次嗎？"
+      },
+      {
+        "start": 146.11,
+        "end": 154.97,
+        "speaker": "Airport survey",
+        "text": "Oh, no. I fly way more than that. I have to do a lot of travelling for work, so I reckon probably about 10 to 12 trips a year.",
+        "zh": "不，比那多得多。我工作上經常要出行，估計每年大約十至十二次。"
+      },
+      {
+        "start": 155.65,
+        "end": 162.36,
+        "speaker": "Airport survey",
+        "text": "Wow, up to a dozen trips a year? That's a lot. And do you fly to the UK often?",
+        "zh": "每年多達十二次？真不少。你常飛往英國嗎？"
+      },
+      {
+        "start": 162.36,
+        "end": 168.46,
+        "speaker": "Airport survey",
+        "text": "Not really. This is the first time in years, actually. I can't bear the weather, you know.",
+        "zh": "不太常。其實這是多年來第一次。我受不了那裡的天氣。"
+      },
+      {
+        "start": 169.02,
+        "end": 175.86,
+        "speaker": "Airport survey",
+        "text": "I prefer Thailand for my holidays, so I fly to Bangkok several times a year. Bangkok's so close.",
+        "zh": "我度假較喜歡去泰國，所以一年飛曼谷幾次。曼谷很近。"
+      },
+      {
+        "start": 176.54,
+        "end": 184.78,
+        "speaker": "Airport survey",
+        "text": "I also go to Singapore for business quite frequently. And as my daughter's studying in Australia, I fly to Sydney quite often.",
+        "zh": "我也經常到新加坡公幹。而且女兒在澳洲讀書，所以我常飛悉尼。"
+      },
+      {
+        "start": 185.42,
+        "end": 191.14,
+        "speaker": "Airport survey",
+        "text": "Er, that's S-Y, not S-I. You spelt it wrong.",
+        "zh": "是 S-Y，不是 S-I。你拼錯了。"
+      },
+      {
+        "start": 191.14,
+        "end": 196.58,
+        "speaker": "Airport survey",
+        "text": "Oh, Chris, just copy it from the flight information up there.",
+        "zh": "Chris，直接從上方航班資料顯示屏抄下來吧。"
+      },
+      {
+        "start": 198.33,
+        "end": 206.09,
+        "speaker": "Airport survey",
+        "text": "Now, what do you most like about the environment of this airport? I mean, the layout, the design, that kind of thing.",
+        "zh": "你最喜歡這機場環境的哪些地方？例如布局、設計之類。"
+      },
+      {
+        "start": 206.47,
+        "end": 209.29,
+        "speaker": "Airport survey",
+        "text": "Well, firstly, I really appreciate the daylight.",
+        "zh": "首先，我很欣賞這裡的天然日光。"
+      },
+      {
+        "start": 210.05,
+        "end": 210.25,
+        "speaker": "Airport survey",
+        "text": "Daylight?",
+        "zh": "日光？"
+      },
+      {
+        "start": 210.83,
+        "end": 217.79,
+        "speaker": "Airport survey",
+        "text": "Yes. So many airports are all closed in and gloomy. They make you feel like you're in a plane already.",
+        "zh": "對。很多機場封閉又陰暗，讓人覺得好像已經坐進飛機。"
+      },
+      {
+        "start": 217.79,
+        "end": 224.83,
+        "speaker": "Airport survey",
+        "text": "But all these windows, they make it seem as if you're outside. It's very thoughtful of the designers.",
+        "zh": "但這裡那麼多窗戶，讓你感覺像身處戶外。設計師考慮得很周到。"
+      },
+      {
+        "start": 226.32,
+        "end": 229.34,
+        "speaker": "Airport survey",
+        "text": "Another thing I like is that there's plenty of lounge space.",
+        "zh": "我還喜歡這裡有充足的候機室空間。"
+      },
+      {
+        "start": 230.02,
+        "end": 232.32,
+        "speaker": "Airport survey",
+        "text": "What do you mean by lounge space?",
+        "zh": "你說候機室空間，是什麼意思？"
+      },
+      {
+        "start": 232.98,
+        "end": 239.24,
+        "speaker": "Airport survey",
+        "text": "Well, take the seats we're sitting on in this lounge, for example. There's a big space between each row.",
+        "zh": "例如我們現在坐着的座椅，每排之間的空間很大。"
+      },
+      {
+        "start": 239.86,
+        "end": 246.98,
+        "speaker": "Airport survey",
+        "text": "Some airports cram all the passengers together while they're waiting, so they're all hot and bothered before they even get on the plane.",
+        "zh": "有些機場讓候機旅客擠在一起，還未登機就已又熱又煩躁。"
+      },
+      {
+        "start": 246.98,
+        "end": 248.44,
+        "speaker": "Airport survey",
+        "text": "That's a good point.",
+        "zh": "說得有道理。"
+      },
+      {
+        "start": 249.46,
+        "end": 256.8,
+        "speaker": "Airport survey",
+        "text": "And a third thing I like is the moving walkways. Airports are getting bigger and bigger, but not all of them have moving walkways.",
+        "zh": "第三樣我喜歡的是自動行人道。機場越來越大，但不是每個都有自動行人道。"
+      },
+      {
+        "start": 257.44,
+        "end": 261.94,
+        "speaker": "Airport survey",
+        "text": "Sometimes you have to walk for miles to get to the boarding gate or the immigration desk.",
+        "zh": "有時你要走很遠，才能到登機閘口或入境檢查櫃枱。"
+      },
+      {
+        "start": 262.34,
+        "end": 266.04,
+        "speaker": "Airport survey",
+        "text": "I know what you mean. London airport is especially bad.",
+        "zh": "我明白。倫敦機場尤其糟糕。"
+      },
+      {
+        "start": 267.48,
+        "end": 273.88,
+        "speaker": "Airport survey",
+        "text": "Let me ask you about the things you don't like now. What are the things that you think could be improved?",
+        "zh": "現在談談你不喜歡的地方。你覺得什麼地方可以改善？"
+      },
+      {
+        "start": 274.7,
+        "end": 282.72,
+        "speaker": "Airport survey",
+        "text": "Well, I have to say the shops are often overcrowded. There are plenty of them, but really not enough space to move around them comfortably.",
+        "zh": "我得說，商店經常擠滿人。店舖很多，但裡面的空間不足，不能舒適地走動。"
+      },
+      {
+        "start": 283.64,
+        "end": 292.44,
+        "speaker": "Airport survey",
+        "text": "Another thing is, there's no post office in the transit lounge. I've got a whole bunch of checks I need to send here and nowhere to post them.",
+        "zh": "另外，轉機候機室沒有郵局。我有一大疊支票要寄，卻找不到地方投寄。"
+      },
+      {
+        "start": 292.92,
+        "end": 296.58,
+        "speaker": "Airport survey",
+        "text": "That's a nuisance. We'll have to do something about that.",
+        "zh": "真不方便。我們得想辦法處理。"
+      },
+      {
+        "start": 297.1,
+        "end": 301.4,
+        "speaker": "Airport survey",
+        "text": "Oh, and I suppose one more thing is the trolleys are too small.",
+        "zh": "還有一點，就是手推車太小。"
+      },
+      {
+        "start": 302.2,
+        "end": 305.78,
+        "speaker": "Airport survey",
+        "text": "That's T-R-O-L-L-E-Y, Chris.",
+        "zh": "Chris，trolley 拼作 T-R-O-L-L-E-Y。"
+      },
+      {
+        "start": 306.84,
+        "end": 310.84,
+        "speaker": "Airport survey",
+        "text": "I don't mean the trolleys in the check-in hall. I mean the transit lounge ones.",
+        "zh": "我不是指辦理登機手續大堂的手推車，而是轉機候機室裡的。"
+      },
+      {
+        "start": 311.81,
+        "end": 317.11,
+        "speaker": "Airport survey",
+        "text": "You'd better specify that, Chris. He means only the transit lounge trolleys.",
+        "zh": "Chris，最好寫清楚，他只指轉機候機室的手推車。"
+      },
+      {
+        "start": 318.74,
+        "end": 327.58,
+        "speaker": "Airport survey",
+        "text": "Finally, what I'd like to do is ask you to compare Hong Kong with Singapore airport, which is one you say you go to quite often.",
+        "zh": "最後，想請你比較香港和新加坡機場，你說你經常去那裡。"
+      },
+      {
+        "start": 327.58,
+        "end": 334.2,
+        "speaker": "Airport survey",
+        "text": "So would you say Singapore airport is better, worse, or about the same as regards facilities?",
+        "zh": "就設施而言，你覺得新加坡機場較好、較差，還是差不多？"
+      },
+      {
+        "start": 335.91,
+        "end": 343.55,
+        "speaker": "Airport survey",
+        "text": "I'm afraid I'd have to say I like Singapore airport more. Yeah, it still has the edge over everywhere else.",
+        "zh": "恐怕我得說，我較喜歡新加坡機場。它仍然比其他地方略勝一籌。"
+      },
+      {
+        "start": 344.23,
+        "end": 348.03,
+        "speaker": "Airport survey",
+        "text": "And what is it that makes it superior to Hong Kong? Anything in particular?",
+        "zh": "有什麼令它比香港優勝？有具體例子嗎？"
+      },
+      {
+        "start": 348.69,
+        "end": 357.79,
+        "speaker": "Airport survey",
+        "text": "Well, for one thing it has more greenery. You know, potted palms, flowers. There's even a garden. Yeah, more greenery.",
+        "zh": "第一，它有更多綠化，例如盆栽棕櫚、花卉，甚至有個花園。對，更多綠化。"
+      },
+      {
+        "start": 358.65,
+        "end": 359.59,
+        "speaker": "Airport survey",
+        "text": "Right, more greenery.",
+        "zh": "好，更多綠化。"
+      },
+      {
+        "start": 360.55,
+        "end": 366.27,
+        "speaker": "Airport survey",
+        "text": "And another thing is it has a movie theatre. You know, a cinema where you can watch free movies.",
+        "zh": "另一點是有電影院，可以看免費電影。"
+      },
+      {
+        "start": 366.81,
+        "end": 371.09,
+        "speaker": "Airport survey",
+        "text": "Wow, that's great. Well, thanks for taking the time to talk to us.",
+        "zh": "真棒。謝謝你抽時間跟我們交談。"
+      },
+      {
+        "start": 371.47,
+        "end": 371.89,
+        "speaker": "Airport survey",
+        "text": "My pleasure.",
+        "zh": "不用客氣。"
+      },
+      {
+        "start": 372.41,
+        "end": 376.31,
+        "speaker": "Airport survey",
+        "text": "And I hope you can find something to occupy yourself for the next few hours.",
+        "zh": "希望你能找到事情，打發接下來幾小時。"
+      },
+      {
+        "start": 376.31,
+        "end": 382.97,
+        "speaker": "Airport survey",
+        "text": "In the meantime, put your business card in our lucky drawer hat. You could at least win some DVDs for yourself.",
+        "zh": "現在不妨把名片放進抽獎帽子，至少有機會贏一些 DVD。"
+      },
+      {
+        "start": 383.71,
+        "end": 388.27,
+        "speaker": "Narrator",
+        "text": "That's the end of task one. You now have one minute to tidy up your answers.",
+        "zh": "任務一完結。你現在有一分鐘時間整理答案。"
+      },
+      {
+        "start": 451.47,
+        "end": 451.5,
+        "speaker": "Narrator",
+        "text": "Task two. Linda is now interviewing another traveller about what facilities or features would be important in a new lounge area that is being planned at the airport.",
+        "zh": "任務二。Linda 現在訪問另一位旅客，詢問機場擬建的新候機室應有哪些重要設施或特色。"
+      }
+    ],
+    "2": [
+      {
+        "start": 0,
+        "end": 11.17,
+        "speaker": "Narrator",
+        "text": "Task two. Linda is now interviewing another traveller about what facilities or features would be important in a new lounge area that is being planned at the airport.",
+        "zh": "任務二。Linda 現在訪問另一位旅客，詢問機場擬建的新候機室應有哪些重要設施或特色。"
+      },
+      {
+        "start": 11.17,
+        "end": 20.23,
+        "speaker": "Narrator",
+        "text": "Listen to the traveller's answers and rank the facilities in order of how important she thinks they are.",
+        "zh": "請聆聽旅客的回答，按她認為的重要程度排列設施。"
+      },
+      {
+        "start": 21.11,
+        "end": 32.89,
+        "speaker": "Narrator",
+        "text": "Then note down her reasons. And finally, write the letter for the facility feature in the correct boxes one to six on page five.",
+        "zh": "然後記下她的理由。最後，把設施或特色的字母填入第五頁第1至6號位置的正確方格。"
+      },
+      {
+        "start": 32.89,
+        "end": 42.46,
+        "speaker": "Narrator",
+        "text": "You now have 30 seconds to study the task. At the end of the task, you'll have one minute to tidy up your answers.",
+        "zh": "你現在有三十秒時間閱讀題目。任務結束後，你將有一分鐘時間整理答案。"
+      },
+      {
+        "start": 75.94,
+        "end": 82.66,
+        "speaker": "Airport lounge interview",
+        "text": "Excuse me, madam. My name's Linda Lee and I work for the airport authority. Are you waiting for the London flight?",
+        "zh": "女士，打擾一下。我叫 Linda Lee，在機場管理局工作。你是在等倫敦的航班嗎？"
+      },
+      {
+        "start": 83.36,
+        "end": 88.42,
+        "speaker": "Airport lounge interview",
+        "text": "Yeah, it's been delayed and I have no idea how to fill the time.",
+        "zh": "對，航班延誤了，我不知道怎樣打發時間。"
+      },
+      {
+        "start": 88.86,
+        "end": 95.1,
+        "speaker": "Airport lounge interview",
+        "text": "Well, perhaps you could spare a few moments to look at this plan for a new lounge area which we're intending to build.",
+        "zh": "那麼，能否花一點時間看看我們打算興建的新候機室計劃？"
+      },
+      {
+        "start": 95.1,
+        "end": 108.3,
+        "speaker": "Airport lounge interview",
+        "text": "We'd really appreciate your comments on it. We'll be including all the facilities and features on this list and would like you first of all to rank them in order of how important you think they are.",
+        "zh": "我們很想聽取你的意見。清單上的設施和特色都會加入，首先請按你認為的重要程度排序。"
+      },
+      {
+        "start": 108.8,
+        "end": 110.66,
+        "speaker": "Airport lounge interview",
+        "text": "OK, let's have a look at them.",
+        "zh": "好，讓我看看。"
+      },
+      {
+        "start": 111.48,
+        "end": 120.44,
+        "speaker": "Airport lounge interview",
+        "text": "Hmm. Well, I notice you have a coffee there. Would you say that a coffee shop was the most important thing to have in the lounge?",
+        "zh": "我看到你在喝咖啡。你會說咖啡店是候機室最重要的設施嗎？"
+      },
+      {
+        "start": 120.44,
+        "end": 129,
+        "speaker": "Airport lounge interview",
+        "text": "Well, it certainly helps, especially when you have to wait all day for your plane. But I'd say it was of average importance, really.",
+        "zh": "它確實有幫助，尤其要等一整天才能上機時。不過我覺得它的重要程度只是中等。"
+      },
+      {
+        "start": 129.54,
+        "end": 131.9,
+        "speaker": "Airport lounge interview",
+        "text": "So you'd put it in the middle of the scale.",
+        "zh": "所以你會把它排在中間。"
+      },
+      {
+        "start": 132.16,
+        "end": 141.7,
+        "speaker": "Airport lounge interview",
+        "text": "Sure. As far as I'm concerned, toilets are the main requirement. I always get nervous before a flight and need to, you know.",
+        "zh": "當然。對我而言，廁所是最重要的。我每次飛行前都會緊張，需要去……你明白吧。"
+      },
+      {
+        "start": 142.74,
+        "end": 146.06,
+        "speaker": "Airport lounge interview",
+        "text": "So what do you think is the least important facility?",
+        "zh": "那你認為最不重要的設施是什麼？"
+      },
+      {
+        "start": 146.76,
+        "end": 156.68,
+        "speaker": "Airport lounge interview",
+        "text": "I guess it has to be the children's play area. No. Wait a minute. If you've got kids, I suppose you'd really appreciate something like that.",
+        "zh": "我想是兒童遊樂區。不，等等。如果有小朋友，我想會很欣賞這種設施。"
+      },
+      {
+        "start": 157.62,
+        "end": 166.72,
+        "speaker": "Airport lounge interview",
+        "text": "Let's say the internet corner. Yeah, the computer nerds meeting point. Well, you can tell I'm not an online sort of person.",
+        "zh": "就選上網區吧，就是電腦迷聚腳的地方。看得出來，我不是那種愛上網的人。"
+      },
+      {
+        "start": 167.38,
+        "end": 173.6,
+        "speaker": "Airport lounge interview",
+        "text": "But you'd rate the children's play area as a better facility to have than a coffee shop, would you?",
+        "zh": "但你會覺得兒童遊樂區比咖啡店更值得設置，對吧？"
+      },
+      {
+        "start": 173.6,
+        "end": 182.98,
+        "speaker": "Airport lounge interview",
+        "text": "Oh, no. I prefer coffee to kids. At least with a coffee, you can chuck it away if you don't like it. I'm only joking.",
+        "zh": "不，我寧願要咖啡，不要小朋友。至少咖啡不喜歡還可以丟掉。我只是開玩笑。"
+      },
+      {
+        "start": 184.32,
+        "end": 190.88,
+        "speaker": "Airport lounge interview",
+        "text": "So that leaves greenery as number two. I mean, plants. You rate that very highly, do you?",
+        "zh": "那麼第二名就是綠化，也就是植物。你對它的評價很高？"
+      },
+      {
+        "start": 191.34,
+        "end": 196.04,
+        "speaker": "Airport lounge interview",
+        "text": "Yes. Yes, I suppose I do. Do you have any particular reason for that?",
+        "zh": "對，我想是的。有特別原因嗎？"
+      },
+      {
+        "start": 196.04,
+        "end": 204.66,
+        "speaker": "Airport lounge interview",
+        "text": "Yes. I think greenery, or plants, whatever you want to call it, adds color and freshness to a lounge.",
+        "zh": "有。我覺得綠化或植物，隨你怎樣稱呼，都能為候機室添上色彩和清新感。"
+      },
+      {
+        "start": 205.32,
+        "end": 212.92,
+        "speaker": "Airport lounge interview",
+        "text": "It adds color and freshness. Make a note of that, Chris. And what about toilets? Why did you put them at the top of your scale?",
+        "zh": "增加色彩和清新感。Chris，記下來。那廁所呢？為什麼排第一？"
+      },
+      {
+        "start": 213.5,
+        "end": 217.46,
+        "speaker": "Airport lounge interview",
+        "text": "Because the toilets on the plane are often cramped and smelly.",
+        "zh": "因為飛機上的廁所經常狹窄又難聞。"
+      },
+      {
+        "start": 217.92,
+        "end": 224.74,
+        "speaker": "Airport lounge interview",
+        "text": "Not on every airline, surely. Most toilets on airplanes are cramped, but they're seldom smelly.",
+        "zh": "不會每家航空公司都這樣吧。飛機廁所通常狹窄，但很少有臭味。"
+      },
+      {
+        "start": 224.74,
+        "end": 229.04,
+        "speaker": "Airport lounge interview",
+        "text": "Well, I always travel cheap, so I don't expect the best.",
+        "zh": "我總是坐廉價航班，所以不期望最好。"
+      },
+      {
+        "start": 229.84,
+        "end": 232.88,
+        "speaker": "Airport lounge interview",
+        "text": "Perhaps you shouldn't drink so much coffee before you get on.",
+        "zh": "也許你登機前不該喝那麼多咖啡。"
+      },
+      {
+        "start": 233.54,
+        "end": 242.72,
+        "speaker": "Airport lounge interview",
+        "text": "Having coffee shops is a must, though. Everyone knows the coffee on planes tastes bad, and it's always lukewarm. You know, never hot enough.",
+        "zh": "不過咖啡店是必需的。大家都知道飛機上的咖啡不好喝，而且總是不冷不熱，就是不夠燙。"
+      },
+      {
+        "start": 243.3,
+        "end": 244.84,
+        "speaker": "Airport lounge interview",
+        "text": "That's not always true.",
+        "zh": "不一定總是這樣。"
+      },
+      {
+        "start": 244.96,
+        "end": 248.86,
+        "speaker": "Airport lounge interview",
+        "text": "It is. Show me an airline where the coffee isn't rubbish.",
+        "zh": "就是這樣。告訴我哪家航空公司的咖啡不糟糕吧。"
+      },
+      {
+        "start": 248.86,
+        "end": 257.18,
+        "speaker": "Airport lounge interview",
+        "text": "All right. Let's move on to the Internet corner, and let's try not to be rude about people who love computers.",
+        "zh": "好，繼續談上網區，也盡量別對喜歡電腦的人不禮貌。"
+      },
+      {
+        "start": 258.26,
+        "end": 264.07,
+        "speaker": "Airport lounge interview",
+        "text": "Well, the reason I use computers is that most people use their own devices.",
+        "zh": "談到電腦，我的理由是大部分人都使用自己的裝置。"
+      },
+      {
+        "start": 264.51,
+        "end": 268.01,
+        "speaker": "Airport lounge interview",
+        "text": "You mean their own devices like smartphones and tablets?",
+        "zh": "你指智能電話和平板電腦等自己的裝置？"
+      },
+      {
+        "start": 268.37,
+        "end": 272.39,
+        "speaker": "Airport lounge interview",
+        "text": "Yeah, everyone seems to have them, and they're all connected to the Internet.",
+        "zh": "對，似乎人人都有，而且全都能上網。"
+      },
+      {
+        "start": 272.83,
+        "end": 273.93,
+        "speaker": "Airport lounge interview",
+        "text": "Okay, good reason.",
+        "zh": "好，這理由不錯。"
+      },
+      {
+        "start": 274.77,
+        "end": 277.37,
+        "speaker": "Airport lounge interview",
+        "text": "Now, how about this last one here?",
+        "zh": "現在談最後一項。"
+      },
+      {
+        "start": 277.37,
+        "end": 283.25,
+        "speaker": "Airport lounge interview",
+        "text": "The children's play area. Why did you put it second from bottom on the scale?",
+        "zh": "兒童遊樂區。為什麼你把它排在倒數第二？"
+      },
+      {
+        "start": 284.15,
+        "end": 287.29,
+        "speaker": "Airport lounge interview",
+        "text": "I guess because there are good and bad reasons for having one.",
+        "zh": "因為設置它有好處，也有壞處。"
+      },
+      {
+        "start": 287.87,
+        "end": 293.49,
+        "speaker": "Airport lounge interview",
+        "text": "If you're a parent, the good reason is a play area helps kids use up their energy.",
+        "zh": "如果你是家長，好處是遊樂區讓孩子消耗精力。"
+      },
+      {
+        "start": 294.41,
+        "end": 300.31,
+        "speaker": "Airport lounge interview",
+        "text": "Younger kids especially have so much energy, and it's better to use up some of it before they get on the plane.",
+        "zh": "尤其年幼孩子精力充沛，上飛機前最好先消耗一點。"
+      },
+      {
+        "start": 300.31,
+        "end": 305.59,
+        "speaker": "Airport lounge interview",
+        "text": "A reason not to have a play area is that, of course, kids can be noisy,",
+        "zh": "不設遊樂區的理由，當然是孩子可能很吵，"
+      },
+      {
+        "start": 305.97,
+        "end": 312.49,
+        "speaker": "Airport lounge interview",
+        "text": "and the last thing other passengers want is a bunch of noisy kids playing while they're waiting to get on the plane.",
+        "zh": "其他旅客等候登機時，最不想遇到一群吵鬧的小朋友在旁玩耍。"
+      },
+      {
+        "start": 312.97,
+        "end": 315.27,
+        "speaker": "Airport lounge interview",
+        "text": "It just adds to the tension.",
+        "zh": "這只會增加緊張感。"
+      },
+      {
+        "start": 315.63,
+        "end": 318.17,
+        "speaker": "Airport lounge interview",
+        "text": "Okay. That's really helpful.",
+        "zh": "好，這很有幫助。"
+      },
+      {
+        "start": 318.97,
+        "end": 323.91,
+        "speaker": "Airport lounge interview",
+        "text": "Now, there's just one more thing I'd like you to look at before we let you go.",
+        "zh": "在你離開前，還有一樣東西想請你看看。"
+      },
+      {
+        "start": 324.39,
+        "end": 327.73,
+        "speaker": "Airport lounge interview",
+        "text": "This is a floor plan of the new lounge area.",
+        "zh": "這是新候機室的平面圖。"
+      },
+      {
+        "start": 328.29,
+        "end": 336.41,
+        "speaker": "Airport lounge interview",
+        "text": "Now, thinking about what you've said already, where would you position the plants, the ferns, palms and things?",
+        "zh": "考慮剛才談過的，你會把植物，例如蕨類、棕櫚等放在哪裡？"
+      },
+      {
+        "start": 336.91,
+        "end": 342.17,
+        "speaker": "Airport lounge interview",
+        "text": "Oh, without a doubt, in the middle. It would create a sort of avenue effect.",
+        "zh": "毫無疑問，在中間，可以營造一種林蔭大道的效果。"
+      },
+      {
+        "start": 342.79,
+        "end": 344.83,
+        "speaker": "Airport lounge interview",
+        "text": "Yeah, right down the center there.",
+        "zh": "對，沿正中央排列。"
+      },
+      {
+        "start": 345.43,
+        "end": 348.51,
+        "speaker": "Airport lounge interview",
+        "text": "Okay. Chris, just write the letter A there.",
+        "zh": "好，Chris，在那裡寫字母 A。"
+      },
+      {
+        "start": 349.17,
+        "end": 352.15,
+        "speaker": "Airport lounge interview",
+        "text": "And I guess you'd put the toilets here, yes?",
+        "zh": "我猜你會把廁所放這裡，對吧？"
+      },
+      {
+        "start": 352.63,
+        "end": 357.07,
+        "speaker": "Airport lounge interview",
+        "text": "Sure. Right by the gate. They should be the closest thing to the gate, in fact.",
+        "zh": "當然，就在閘口旁。事實上，它應該是最靠近閘口的設施。"
+      },
+      {
+        "start": 357.07,
+        "end": 359.27,
+        "speaker": "Airport lounge interview",
+        "text": "There we go.",
+        "zh": "好了。"
+      },
+      {
+        "start": 360.29,
+        "end": 362.67,
+        "speaker": "Airport lounge interview",
+        "text": "And the coffee shop. Where would you put that?",
+        "zh": "咖啡店呢？會放在哪裡？"
+      },
+      {
+        "start": 363.01,
+        "end": 369.81,
+        "speaker": "Airport lounge interview",
+        "text": "Again, very close to the gate. Somewhere convenient, like there, at the end of the walkway,",
+        "zh": "同樣要很近閘口，找個方便的位置，例如這裡，走道末端，"
+      },
+      {
+        "start": 370.19,
+        "end": 373.01,
+        "speaker": "Airport lounge interview",
+        "text": "and with a window so you can see the view while you're drinking.",
+        "zh": "而且有窗，讓人喝咖啡時欣賞景色。"
+      },
+      {
+        "start": 373.99,
+        "end": 376.39,
+        "speaker": "Airport lounge interview",
+        "text": "Let Chris just make a note of that.",
+        "zh": "讓 Chris 記下來。"
+      },
+      {
+        "start": 377.82,
+        "end": 378.94,
+        "speaker": "Airport lounge interview",
+        "text": "And what's this?",
+        "zh": "這是什麼？"
+      },
+      {
+        "start": 379.82,
+        "end": 383.18,
+        "speaker": "Airport lounge interview",
+        "text": "Ah, sleeper chairs. You haven't mentioned those before.",
+        "zh": "睡眠躺椅？之前沒提過。"
+      },
+      {
+        "start": 383.18,
+        "end": 390.1,
+        "speaker": "Airport lounge interview",
+        "text": "Ah, they're a new kind of reclining chair, which allows you to sleep if you have a long wait ahead,",
+        "zh": "這是一種新式可調躺椅，等候時間長時可以睡一會兒，"
+      },
+      {
+        "start": 390.46,
+        "end": 393.08,
+        "speaker": "Airport lounge interview",
+        "text": "or you're transferring from another long flight.",
+        "zh": "或剛坐完另一段長途航班、正在轉機時使用。"
+      },
+      {
+        "start": 393.52,
+        "end": 397.78,
+        "speaker": "Airport lounge interview",
+        "text": "I see, erm, a sort of first-class lounge seat.",
+        "zh": "明白，就是類似頭等候機室座位。"
+      },
+      {
+        "start": 398.6,
+        "end": 402.54,
+        "speaker": "Airport lounge interview",
+        "text": "Well, I think the obvious place would be on the other side of the plants from the gate.",
+        "zh": "我想最明顯的位置，是植物另一邊、與閘口相對的地方。"
+      },
+      {
+        "start": 403.16,
+        "end": 407.14,
+        "speaker": "Airport lounge interview",
+        "text": "You don't really want people staring at you sleeping while they're waiting.",
+        "zh": "你不會希望自己睡覺時，有候機的人盯着你看。"
+      },
+      {
+        "start": 407.86,
+        "end": 411.2,
+        "speaker": "Airport lounge interview",
+        "text": "You've got lots of privacy here, and a window to look through too.",
+        "zh": "這裡很有私隱，還有窗可以向外看。"
+      },
+      {
+        "start": 411.2,
+        "end": 414.62,
+        "speaker": "Airport lounge interview",
+        "text": "Good points. And now the last two things.",
+        "zh": "好理由。現在最後兩項。"
+      },
+      {
+        "start": 415.18,
+        "end": 419.94,
+        "speaker": "Airport lounge interview",
+        "text": "I'm afraid the internet corner has already been confirmed as part of the plan,",
+        "zh": "恐怕上網區已確定會納入計劃，"
+      },
+      {
+        "start": 420.32,
+        "end": 425.46,
+        "speaker": "Airport lounge interview",
+        "text": "so would you put it in the actual corner on the bottom to the right there?",
+        "zh": "那麼你會把它放在右下方那個真正的角落嗎？"
+      },
+      {
+        "start": 425.96,
+        "end": 430.46,
+        "speaker": "Airport lounge interview",
+        "text": "No, I think that space would be better reserved for the play area.",
+        "zh": "不，我覺得那個位置最好留給遊樂區。"
+      },
+      {
+        "start": 431,
+        "end": 436.2,
+        "speaker": "Airport lounge interview",
+        "text": "It's away from where most of the passengers sit, so they wouldn't be disturbed by the noise.",
+        "zh": "它遠離大多數旅客的座位，他們就不會被噪音騷擾。"
+      },
+      {
+        "start": 436.94,
+        "end": 440.42,
+        "speaker": "Airport lounge interview",
+        "text": "The computer nerds can take the area next to it at the foot of the plan.",
+        "zh": "電腦迷可以用旁邊那一區，就是平面圖最下方。"
+      },
+      {
+        "start": 440.42,
+        "end": 441.88,
+        "speaker": "Airport lounge interview",
+        "text": "Serves them right.",
+        "zh": "他們活該。"
+      },
+      {
+        "start": 442.86,
+        "end": 444.3,
+        "speaker": "Airport lounge interview",
+        "text": "Well, thank you so much.",
+        "zh": "非常感謝你。"
+      },
+      {
+        "start": 444.72,
+        "end": 450.02,
+        "speaker": "Airport lounge interview",
+        "text": "It's been fun talking to you, and I hope you find something to occupy yourself while you wait for your flight.",
+        "zh": "和你聊天很愉快，希望你能找到事情打發候機時間。"
+      },
+      {
+        "start": 450.42,
+        "end": 453.18,
+        "speaker": "Airport lounge interview",
+        "text": "No problem. I guess I'll just go and have another coffee.",
+        "zh": "沒問題。我想我會再喝一杯咖啡。"
+      },
+      {
+        "start": 454.18,
+        "end": 455.14,
+        "speaker": "Airport lounge interview",
+        "text": "Oh, one more thing.",
+        "zh": "還有一件事。"
+      },
+      {
+        "start": 455.5,
+        "end": 459.28,
+        "speaker": "Airport lounge interview",
+        "text": "Put your business card or your name and address in our lucky drawer hat,",
+        "zh": "把名片或者姓名地址放進我們的抽獎帽子，"
+      },
+      {
+        "start": 459.54,
+        "end": 463.14,
+        "speaker": "Airport lounge interview",
+        "text": "and you could win a prize worth up to two thousand dollars.",
+        "zh": "就有機會贏得價值高達二千元的獎品。"
+      },
+      {
+        "start": 463.46,
+        "end": 464.74,
+        "speaker": "Airport lounge interview",
+        "text": "Okay, here goes.",
+        "zh": "好，放進去。"
+      },
+      {
+        "start": 465.28,
+        "end": 466.92,
+        "speaker": "Narrator",
+        "text": "That's the end of task two.",
+        "zh": "任務二完結。"
+      },
+      {
+        "start": 467.3,
+        "end": 469.7,
+        "speaker": "Narrator",
+        "text": "You now have one minute to tidy up your answers.",
+        "zh": "你現在有一分鐘時間整理答案。"
+      }
+    ],
+    "3": [
+      {
+        "start": 0,
+        "end": 63.81,
+        "speaker": "Narrator",
+        "text": "Task three.",
+        "zh": "任務三。"
+      },
+      {
+        "start": 65.45,
+        "end": 72.45,
+        "speaker": "Narrator",
+        "text": "Linda has now invited a traveller to try some of the items available from the restaurants and coffee shops at the airport.",
+        "zh": "Linda 現在邀請一位旅客，試吃機場餐廳及咖啡店提供的部分食品。"
+      },
+      {
+        "start": 73.73,
+        "end": 76.21,
+        "speaker": "Narrator",
+        "text": "Put a take if the traveller likes the food.",
+        "zh": "如果旅客喜歡食物，請加剔號。"
+      },
+      {
+        "start": 77.16,
+        "end": 78.68,
+        "speaker": "Narrator",
+        "text": "A cross if he doesn't.",
+        "zh": "不喜歡便加交叉，"
+      },
+      {
+        "start": 79.28,
+        "end": 81.78,
+        "speaker": "Narrator",
+        "text": "Or a question mark if he's not sure.",
+        "zh": "不肯定便加問號。"
+      },
+      {
+        "start": 83.29,
+        "end": 89.13,
+        "speaker": "Narrator",
+        "text": "The items may not be mentioned in the same order as they appear in the question answer book.",
+        "zh": "食品提及的次序，未必與答題簿上的排列相同。"
+      },
+      {
+        "start": 90.07,
+        "end": 93.47,
+        "speaker": "Narrator",
+        "text": "One space has been filled in for you as an example.",
+        "zh": "其中一格已填好作例子。"
+      },
+      {
+        "start": 93.47,
+        "end": 97.66,
+        "speaker": "Narrator",
+        "text": "You now have thirty seconds to study the task.",
+        "zh": "你現在有三十秒時間閱讀題目。"
+      },
+      {
+        "start": 98.69,
+        "end": 102.97,
+        "speaker": "Narrator",
+        "text": "At the end of the task, you will have one minute to tidy up your answers.",
+        "zh": "任務結束後，你將有一分鐘時間整理答案。"
+      },
+      {
+        "start": 136.06,
+        "end": 144.48,
+        "speaker": "Traveller interview",
+        "text": "Hello, we're from the airport authority, and we're wondering if you'd like to try some of the food and drink items available at our various restaurant outlets.",
+        "zh": "你好，我們來自機場管理局，想問你有沒有興趣試試各間食肆供應的食物和飲品。"
+      },
+      {
+        "start": 145.26,
+        "end": 148.34,
+        "speaker": "Traveller interview",
+        "text": "Sure. I was just thinking how hungry I was.",
+        "zh": "當然，我剛才正覺得很餓。"
+      },
+      {
+        "start": 148.88,
+        "end": 151.16,
+        "speaker": "Traveller interview",
+        "text": "Okay, let's start with the hot dog then.",
+        "zh": "好，先從熱狗開始。"
+      },
+      {
+        "start": 151.76,
+        "end": 154.66,
+        "speaker": "Traveller interview",
+        "text": "Take a bite of that. It's from Hot Dog Express.",
+        "zh": "咬一口吧，這是 Hot Dog Express 的。"
+      },
+      {
+        "start": 156.14,
+        "end": 161.22,
+        "speaker": "Traveller interview",
+        "text": "Well, I'm not a big hot dog fan, but I'll give it a go.",
+        "zh": "我不太喜歡熱狗，不過可以試試。"
+      },
+      {
+        "start": 168.68,
+        "end": 171.89,
+        "speaker": "Traveller interview",
+        "text": "No, I can't say this one persuades me either.",
+        "zh": "不，這一款也沒有令我改觀。"
+      },
+      {
+        "start": 172.71,
+        "end": 175.41,
+        "speaker": "Traveller interview",
+        "text": "No, that's not for me. It's too salty.",
+        "zh": "不，不合我口味，太鹹了。"
+      },
+      {
+        "start": 176.13,
+        "end": 179.47,
+        "speaker": "Traveller interview",
+        "text": "Make a note of that, Chris. Too salty.",
+        "zh": "Chris，記下：太鹹。"
+      },
+      {
+        "start": 180.9,
+        "end": 184.02,
+        "speaker": "Traveller interview",
+        "text": "Alright, perhaps you should choose something you like the look of.",
+        "zh": "好，不如由你選一款外觀看起來喜歡的。"
+      },
+      {
+        "start": 185.16,
+        "end": 190.5,
+        "speaker": "Traveller interview",
+        "text": "Well, that tortilla looks pretty good. I love Mexican food usually.",
+        "zh": "那個墨西哥薄餅卷看起來不錯。我通常很喜歡墨西哥菜。"
+      },
+      {
+        "start": 194.06,
+        "end": 199.4,
+        "speaker": "Traveller interview",
+        "text": "Mmm, that's really good. And it's got loads in it.",
+        "zh": "嗯，真的很好吃，而且餡料很多。"
+      },
+      {
+        "start": 199.74,
+        "end": 201.38,
+        "speaker": "Traveller interview",
+        "text": "What's so special about it?",
+        "zh": "它有什麼特別？"
+      },
+      {
+        "start": 202.67,
+        "end": 208.09,
+        "speaker": "Traveller interview",
+        "text": "Well, it's spicy. Really hot. And I don't mean heat hot.",
+        "zh": "很香辣，非常辣。我指的不是溫度燙。"
+      },
+      {
+        "start": 209.17,
+        "end": 214.19,
+        "speaker": "Traveller interview",
+        "text": "And the other thing is, it's really filling. You know, tortillas fill you up.",
+        "zh": "還有就是很飽肚。墨西哥薄餅卷很能填飽肚子。"
+      },
+      {
+        "start": 214.59,
+        "end": 218.29,
+        "speaker": "Traveller interview",
+        "text": "Not like some other snacks which just leave you feeling hungry.",
+        "zh": "不像有些小食，吃了還是覺得餓。"
+      },
+      {
+        "start": 218.29,
+        "end": 223.23,
+        "speaker": "Traveller interview",
+        "text": "Okay, that's from Viva Tortilla, which has only recently opened.",
+        "zh": "好，這來自剛開業不久的 Viva Tortilla。"
+      },
+      {
+        "start": 224.27,
+        "end": 227.49,
+        "speaker": "Traveller interview",
+        "text": "Now, what about these chicken skewers from the food court?",
+        "zh": "那麼美食廣場的這些雞肉串呢？"
+      },
+      {
+        "start": 228.05,
+        "end": 229.21,
+        "speaker": "Traveller interview",
+        "text": "How do you feel about those?",
+        "zh": "你覺得怎樣？"
+      },
+      {
+        "start": 230.13,
+        "end": 232.25,
+        "speaker": "Traveller interview",
+        "text": "Let me just take one there.",
+        "zh": "讓我拿一串。"
+      },
+      {
+        "start": 235.77,
+        "end": 239.15,
+        "speaker": "Traveller interview",
+        "text": "Hmm. My sauce? Well, that's tasty.",
+        "zh": "嗯，醬汁？這個很好吃。"
+      },
+      {
+        "start": 240.06,
+        "end": 242.52,
+        "speaker": "Traveller interview",
+        "text": "Yeah, finger-licking good, as they say.",
+        "zh": "對，就像人們說的，好吃到舔手指。"
+      },
+      {
+        "start": 243.32,
+        "end": 246.22,
+        "speaker": "Traveller interview",
+        "text": "Just write down tasty sauce, Chris.",
+        "zh": "Chris，寫下「醬汁美味」就可以。"
+      },
+      {
+        "start": 247.76,
+        "end": 251.08,
+        "speaker": "Traveller interview",
+        "text": "The chicken's a bit stringy, though.",
+        "zh": "不過雞肉有點粗韌、纖維多。"
+      },
+      {
+        "start": 251.87,
+        "end": 256.48,
+        "speaker": "Traveller interview",
+        "text": "Oh, very stringy. I could floss my teeth with that.",
+        "zh": "非常粗韌。我都能用它來當牙線清潔牙縫了。"
+      },
+      {
+        "start": 256.98,
+        "end": 258.98,
+        "speaker": "Traveller interview",
+        "text": "Oh, what a horrible idea.",
+        "zh": "這個想法真可怕。"
+      },
+      {
+        "start": 260.62,
+        "end": 265.14,
+        "speaker": "Traveller interview",
+        "text": "Stringy is just G-Y, Chris. Not G-E-Y.",
+        "zh": "Chris，stringy 結尾是 G-Y，不是 G-E-Y。"
+      },
+      {
+        "start": 265.8,
+        "end": 270.12,
+        "speaker": "Traveller interview",
+        "text": "Oh, and I guess you should put a question mark in the second column.",
+        "zh": "我想你應該在第二欄加問號。"
+      },
+      {
+        "start": 271.04,
+        "end": 273.78,
+        "speaker": "Traveller interview",
+        "text": "I'll have a word with the manager of the Sate House.",
+        "zh": "我會跟 Sate House 的經理談談。"
+      },
+      {
+        "start": 273.78,
+        "end": 277.36,
+        "speaker": "Traveller interview",
+        "text": "In the meantime, perhaps you'd like to wash that down",
+        "zh": "現在也許你可以喝一點東西送下去，"
+      },
+      {
+        "start": 277.36,
+        "end": 281.02,
+        "speaker": "Traveller interview",
+        "text": "with a sip of our tropical smoothie from the Waikiki bar.",
+        "zh": "試一口 Waikiki 酒吧的熱帶水果冰沙。"
+      },
+      {
+        "start": 285.67,
+        "end": 289.95,
+        "speaker": "Traveller interview",
+        "text": "Mmm, lovely. That hit the spot. It's very cool.",
+        "zh": "嗯，真棒，正合我意。很冰涼。"
+      },
+      {
+        "start": 290.97,
+        "end": 293.19,
+        "speaker": "Traveller interview",
+        "text": "Icy cool, in fact, and refreshing.",
+        "zh": "事實上是冰冰的，而且很清新。"
+      },
+      {
+        "start": 294.4,
+        "end": 297.26,
+        "speaker": "Traveller interview",
+        "text": "Yeah, it really makes you feel refreshed.",
+        "zh": "真的讓人感到精神一振。"
+      },
+      {
+        "start": 298.26,
+        "end": 300.06,
+        "speaker": "Traveller interview",
+        "text": "Oh, you've missed out on the sushi.",
+        "zh": "你還未試壽司。"
+      },
+      {
+        "start": 301.37,
+        "end": 303.97,
+        "speaker": "Traveller interview",
+        "text": "Actually, I was trying to avoid that.",
+        "zh": "其實我是故意避開它。"
+      },
+      {
+        "start": 304.87,
+        "end": 307.43,
+        "speaker": "Traveller interview",
+        "text": "Japanese isn't my favourite cuisine.",
+        "zh": "日本菜不是我最喜歡的菜系。"
+      },
+      {
+        "start": 308.37,
+        "end": 309.57,
+        "speaker": "Traveller interview",
+        "text": "I'll have a go, though.",
+        "zh": "不過我會試試。"
+      },
+      {
+        "start": 312.34,
+        "end": 316.96,
+        "speaker": "Traveller interview",
+        "text": "Oh, sorry. Do you have a napkin?",
+        "zh": "不好意思，有餐巾嗎？"
+      },
+      {
+        "start": 318.28,
+        "end": 321.6,
+        "speaker": "Traveller interview",
+        "text": "Oh, that's not for me. It's much too fishy.",
+        "zh": "不合我口味，魚腥味太重。"
+      },
+      {
+        "start": 321.82,
+        "end": 323.72,
+        "speaker": "Traveller interview",
+        "text": "Well, it is raw fish.",
+        "zh": "它畢竟是生魚。"
+      },
+      {
+        "start": 324.54,
+        "end": 329.04,
+        "speaker": "Traveller interview",
+        "text": "Yes, I know. But there's fish, which I usually like,",
+        "zh": "我知道，但魚是一回事，我通常喜歡吃魚，"
+      },
+      {
+        "start": 329.6,
+        "end": 334.81,
+        "speaker": "Traveller interview",
+        "text": "especially with chips. Then there's, well, fishy, which I don't.",
+        "zh": "尤其配薯條；可是魚腥味是另一回事，我不喜歡。"
+      },
+      {
+        "start": 334.81,
+        "end": 339.87,
+        "speaker": "Traveller interview",
+        "text": "How about a mouthful of cupcake to take the taste away?",
+        "zh": "吃一口紙杯蛋糕，去掉那股味道如何？"
+      },
+      {
+        "start": 340.55,
+        "end": 341.61,
+        "speaker": "Traveller interview",
+        "text": "I won't say no.",
+        "zh": "我不會拒絕。"
+      },
+      {
+        "start": 343.94,
+        "end": 344.5,
+        "speaker": "Traveller interview",
+        "text": "Well?",
+        "zh": "怎樣？"
+      },
+      {
+        "start": 345.22,
+        "end": 349.02,
+        "speaker": "Traveller interview",
+        "text": "Mmm, just a minute. Mouthful.",
+        "zh": "等一下，嘴裡還有一大口。"
+      },
+      {
+        "start": 350.87,
+        "end": 353.4,
+        "speaker": "Traveller interview",
+        "text": "Well, I can't decide, really.",
+        "zh": "其實我決定不了。"
+      },
+      {
+        "start": 354.3,
+        "end": 357.8,
+        "speaker": "Traveller interview",
+        "text": "It's light. Not at all heavy, which is a good thing.",
+        "zh": "它很鬆輕，一點也不厚重，這是優點。"
+      },
+      {
+        "start": 358.85,
+        "end": 360.67,
+        "speaker": "Traveller interview",
+        "text": "But otherwise a bit tasteless.",
+        "zh": "但除此之外有點沒味道。"
+      },
+      {
+        "start": 361.27,
+        "end": 364.03,
+        "speaker": "Traveller interview",
+        "text": "Yeah, tasteless is the word I'd use.",
+        "zh": "對，我會用「沒味道」來形容。"
+      },
+      {
+        "start": 364.61,
+        "end": 366.47,
+        "speaker": "Traveller interview",
+        "text": "Make a note of both of those, Chris.",
+        "zh": "Chris，兩點都記下。"
+      },
+      {
+        "start": 366.47,
+        "end": 370.39,
+        "speaker": "Traveller interview",
+        "text": "I can't make up my mind if I like it or not.",
+        "zh": "我不能決定到底喜不喜歡。"
+      },
+      {
+        "start": 371.66,
+        "end": 374.68,
+        "speaker": "Traveller interview",
+        "text": "Well, thanks ever so much for helping us with the survey.",
+        "zh": "非常感謝你協助我們做調查。"
+      },
+      {
+        "start": 375.32,
+        "end": 380.12,
+        "speaker": "Traveller interview",
+        "text": "Now, if you'd like to put your business card into our lucky drawer hat...",
+        "zh": "現在，如果你願意把名片放進抽獎帽子……"
+      },
+      {
+        "start": 380.12,
+        "end": 381.82,
+        "speaker": "Narrator",
+        "text": "That's the end of task three.",
+        "zh": "任務三完結。"
+      },
+      {
+        "start": 382.28,
+        "end": 384.88,
+        "speaker": "Narrator",
+        "text": "You now have one minute to tidy up your answers.",
+        "zh": "你現在有一分鐘時間整理答案。"
+      },
+      {
+        "start": 447.88,
+        "end": 447.9,
+        "speaker": "Narrator",
+        "text": "Task four.",
+        "zh": "任務四。"
+      }
+    ],
+    "4": [
+      {
+        "start": 0,
+        "end": 0.52,
+        "speaker": "Narrator",
+        "text": "Task four.",
+        "zh": "任務四。"
+      },
+      {
+        "start": 1.47,
+        "end": 5.31,
+        "speaker": "Narrator",
+        "text": "You are now attending a meeting of the research team with Linda",
+        "zh": "你現在和 Linda 一起出席研究組會議，"
+      },
+      {
+        "start": 5.31,
+        "end": 9.49,
+        "speaker": "Narrator",
+        "text": "and two other researchers called Simon and Sandy,",
+        "zh": "還有兩位研究員 Simon 和 Sandy，"
+      },
+      {
+        "start": 9.49,
+        "end": 12.25,
+        "speaker": "Narrator",
+        "text": "who are reporting on the survey results.",
+        "zh": "他們正在報告調查結果。"
+      },
+      {
+        "start": 13.35,
+        "end": 17.55,
+        "speaker": "Narrator",
+        "text": "Based on what you hear in the conversation between Linda and the researchers,",
+        "zh": "請根據 Linda 與研究員的對話，"
+      },
+      {
+        "start": 18.35,
+        "end": 23.05,
+        "speaker": "Narrator",
+        "text": "fill in the spaces in the report below with details of the services",
+        "zh": "在下方報告空格填上服務的詳情，"
+      },
+      {
+        "start": 23.05,
+        "end": 25.41,
+        "speaker": "Narrator",
+        "text": "and recommendations for improvements.",
+        "zh": "以及改善建議。"
+      },
+      {
+        "start": 27.06,
+        "end": 30.24,
+        "speaker": "Narrator",
+        "text": "Remember to pay attention to spelling and grammar.",
+        "zh": "記得注意拼字和文法。"
+      },
+      {
+        "start": 31.1,
+        "end": 34.54,
+        "speaker": "Narrator",
+        "text": "One space has been filled in for you as an example.",
+        "zh": "其中一格已填好作例子。"
+      },
+      {
+        "start": 35.42,
+        "end": 37.96,
+        "speaker": "Narrator",
+        "text": "You now have one minute to study the task.",
+        "zh": "你現在有一分鐘時間閱讀題目。"
+      },
+      {
+        "start": 37.96,
+        "end": 43.48,
+        "speaker": "Narrator",
+        "text": "At the end of the task, you will have two minutes to tidy up your answers.",
+        "zh": "任務結束後，你將有兩分鐘時間整理答案。"
+      },
+      {
+        "start": 106.66,
+        "end": 110.5,
+        "speaker": "Survey report meeting",
+        "text": "All right, Chris, I've completed the framework of the report for you.",
+        "zh": "好，Chris，我已為你完成報告的框架。"
+      },
+      {
+        "start": 110.92,
+        "end": 112.72,
+        "speaker": "Survey report meeting",
+        "text": "You just have to fill in the details",
+        "zh": "你只須填上細節，"
+      },
+      {
+        "start": 112.72,
+        "end": 118.16,
+        "speaker": "Survey report meeting",
+        "text": "and remember to pay attention to grammar and spelling when you're doing that.",
+        "zh": "填寫時記得注意文法和拼字。"
+      },
+      {
+        "start": 119.56,
+        "end": 123.68,
+        "speaker": "Survey report meeting",
+        "text": "Simon has counted all our responses and come up with some percentage figures",
+        "zh": "Simon 已統計所有回覆，算出一些百分比，"
+      },
+      {
+        "start": 123.68,
+        "end": 125.42,
+        "speaker": "Survey report meeting",
+        "text": "along with travellers' comments.",
+        "zh": "並整理旅客的意見。"
+      },
+      {
+        "start": 126.14,
+        "end": 130.5,
+        "speaker": "Survey report meeting",
+        "text": "So how did the travellers rate our eating establishments, Simon?",
+        "zh": "Simon，旅客怎樣評價我們的食肆？"
+      },
+      {
+        "start": 131.88,
+        "end": 132.88,
+        "speaker": "Survey report meeting",
+        "text": "Pretty well, actually.",
+        "zh": "其實評價相當好。"
+      },
+      {
+        "start": 133.48,
+        "end": 136.46,
+        "speaker": "Survey report meeting",
+        "text": "About 60% said they found the services impressive.",
+        "zh": "大約百分之六十說服務令人留下深刻印象。"
+      },
+      {
+        "start": 137.24,
+        "end": 139.44,
+        "speaker": "Survey report meeting",
+        "text": "Well, it's always good to impress people.",
+        "zh": "能給人留下好印象總是好事。"
+      },
+      {
+        "start": 140.16,
+        "end": 142.98,
+        "speaker": "Survey report meeting",
+        "text": "Then 15% weren't happy with the range.",
+        "zh": "然後百分之十五對種類選擇不滿。"
+      },
+      {
+        "start": 143.56,
+        "end": 144.58,
+        "speaker": "Survey report meeting",
+        "text": "50%?",
+        "zh": "百分之五十？"
+      },
+      {
+        "start": 145.06,
+        "end": 146.48,
+        "speaker": "Survey report meeting",
+        "text": "No, 15.",
+        "zh": "不，十五。"
+      },
+      {
+        "start": 147.32,
+        "end": 149.8,
+        "speaker": "Survey report meeting",
+        "text": "And 25% hadn't used any restaurants,",
+        "zh": "另有百分之二十五沒有使用過任何餐廳，"
+      },
+      {
+        "start": 150.22,
+        "end": 152.48,
+        "speaker": "Survey report meeting",
+        "text": "so they couldn't say which ones they preferred.",
+        "zh": "所以說不出偏好哪一家。"
+      },
+      {
+        "start": 152.48,
+        "end": 157.16,
+        "speaker": "Survey report meeting",
+        "text": "Okay, don't bother writing about the 15%, Chris.",
+        "zh": "好，Chris，不用寫那百分之十五。"
+      },
+      {
+        "start": 157.72,
+        "end": 160.1,
+        "speaker": "Survey report meeting",
+        "text": "We'll let people work that out for themselves.",
+        "zh": "讓大家自己算出來吧。"
+      },
+      {
+        "start": 161.55,
+        "end": 163.43,
+        "speaker": "Survey report meeting",
+        "text": "All right, let's move on to suggestions.",
+        "zh": "現在談建議。"
+      },
+      {
+        "start": 164.47,
+        "end": 167.99,
+        "speaker": "Survey report meeting",
+        "text": "How do people think our food choices can be improved?",
+        "zh": "大家認為我們的食物選擇可以怎樣改善？"
+      },
+      {
+        "start": 168.91,
+        "end": 172.83,
+        "speaker": "Survey report meeting",
+        "text": "Well, first off, we should reduce the number of fast food outlets.",
+        "zh": "首先，我們應該減少快餐店數目。"
+      },
+      {
+        "start": 174.07,
+        "end": 179.49,
+        "speaker": "Survey report meeting",
+        "text": "Less in the way of hamburgers, hot dogs, fried chicken and other salty snacks.",
+        "zh": "少一點漢堡包、熱狗、炸雞和其他鹹味小食。"
+      },
+      {
+        "start": 179.49,
+        "end": 183.91,
+        "speaker": "Survey report meeting",
+        "text": "Yes, I have to agree. We do need to reduce them.",
+        "zh": "對，我得同意，確實需要減少。"
+      },
+      {
+        "start": 184.67,
+        "end": 188.19,
+        "speaker": "Survey report meeting",
+        "text": "There's too much emphasis on fast food. Go on.",
+        "zh": "現在太偏重快餐。請繼續。"
+      },
+      {
+        "start": 189.39,
+        "end": 192.65,
+        "speaker": "Survey report meeting",
+        "text": "Another request was to increase medium-priced restaurants.",
+        "zh": "另一個要求是增加中等價位的餐廳。"
+      },
+      {
+        "start": 193.63,
+        "end": 195.81,
+        "speaker": "Survey report meeting",
+        "text": "Either you have very cheap fast food outlets",
+        "zh": "現在不是很便宜的快餐店，"
+      },
+      {
+        "start": 195.81,
+        "end": 199.25,
+        "speaker": "Survey report meeting",
+        "text": "or upmarket eateries that are too pricey.",
+        "zh": "就是價錢太貴的高級食肆。"
+      },
+      {
+        "start": 200.46,
+        "end": 203.88,
+        "speaker": "Survey report meeting",
+        "text": "Increasing medium-priced restaurants would help balance things out.",
+        "zh": "增加中等價位餐廳，有助取得平衡。"
+      },
+      {
+        "start": 204.6,
+        "end": 206.62,
+        "speaker": "Survey report meeting",
+        "text": "Fair enough. That's worth noting down.",
+        "zh": "合理，值得記下。"
+      },
+      {
+        "start": 207.38,
+        "end": 211.74,
+        "speaker": "Survey report meeting",
+        "text": "Finally, many felt we should provide a greater variety of food.",
+        "zh": "最後，很多人認為應提供更多元化的食物。"
+      },
+      {
+        "start": 212.3,
+        "end": 215.42,
+        "speaker": "Survey report meeting",
+        "text": "And what did they mean by greater variety?",
+        "zh": "他們說更多元化，是指什麼？"
+      },
+      {
+        "start": 215.72,
+        "end": 217.74,
+        "speaker": "Survey report meeting",
+        "text": "Well, different cuisines, really.",
+        "zh": "就是不同菜系。"
+      },
+      {
+        "start": 218.56,
+        "end": 220.16,
+        "speaker": "Survey report meeting",
+        "text": "Many wanted Japanese food.",
+        "zh": "很多人想要日本菜。"
+      },
+      {
+        "start": 220.78,
+        "end": 224.22,
+        "speaker": "Survey report meeting",
+        "text": "There is some available, but not really high-quality stuff.",
+        "zh": "現在有一些，但質素不算很高。"
+      },
+      {
+        "start": 225.2,
+        "end": 227.72,
+        "speaker": "Survey report meeting",
+        "text": "There were also a lot of requests for Indian food,",
+        "zh": "也有很多人要求印度菜，"
+      },
+      {
+        "start": 228.06,
+        "end": 229.14,
+        "speaker": "Survey report meeting",
+        "text": "and not just from Indians.",
+        "zh": "而且不只是印度人。"
+      },
+      {
+        "start": 229.64,
+        "end": 232.24,
+        "speaker": "Survey report meeting",
+        "text": "The Japanese and the Singaporeans love curry,",
+        "zh": "日本人和新加坡人都喜歡咖喱，"
+      },
+      {
+        "start": 232.6,
+        "end": 233.94,
+        "speaker": "Survey report meeting",
+        "text": "and so do many Westerners.",
+        "zh": "很多西方人也是。"
+      },
+      {
+        "start": 234.34,
+        "end": 235.44,
+        "speaker": "Survey report meeting",
+        "text": "Any other requests?",
+        "zh": "還有其他要求嗎？"
+      },
+      {
+        "start": 236.17,
+        "end": 239.24,
+        "speaker": "Survey report meeting",
+        "text": "Well, there were a few for Middle Eastern food,",
+        "zh": "有幾個人要求中東菜，"
+      },
+      {
+        "start": 239.62,
+        "end": 241.8,
+        "speaker": "Survey report meeting",
+        "text": "things like kebabs and falafels.",
+        "zh": "例如烤肉串和炸鷹嘴豆丸。"
+      },
+      {
+        "start": 242.68,
+        "end": 245.32,
+        "speaker": "Survey report meeting",
+        "text": "Middle Eastern food has a whole range of possibilities.",
+        "zh": "中東菜有各式各樣的選擇。"
+      },
+      {
+        "start": 246.36,
+        "end": 246.78,
+        "speaker": "Survey report meeting",
+        "text": "Interesting.",
+        "zh": "有趣。"
+      },
+      {
+        "start": 248.01,
+        "end": 250.59,
+        "speaker": "Survey report meeting",
+        "text": "Okay, let's move on to other facilities now.",
+        "zh": "現在談其他設施。"
+      },
+      {
+        "start": 250.97,
+        "end": 253.71,
+        "speaker": "Survey report meeting",
+        "text": "What sort of requests did the travellers make, Sandy?",
+        "zh": "Sandy，旅客提出了什麼要求？"
+      },
+      {
+        "start": 254.43,
+        "end": 259.13,
+        "speaker": "Survey report meeting",
+        "text": "Well, several people felt there should be more places of worship.",
+        "zh": "有幾位覺得應該增加宗教禮拜場所。"
+      },
+      {
+        "start": 260.01,
+        "end": 261.15,
+        "speaker": "Survey report meeting",
+        "text": "Places of worship?",
+        "zh": "宗教禮拜場所？"
+      },
+      {
+        "start": 261.93,
+        "end": 264.61,
+        "speaker": "Survey report meeting",
+        "text": "You mean like chapels, that sort of thing.",
+        "zh": "你指小教堂那類？"
+      },
+      {
+        "start": 264.61,
+        "end": 266.65,
+        "speaker": "Survey report meeting",
+        "text": "We already have one of those.",
+        "zh": "我們已經有一個。"
+      },
+      {
+        "start": 267.49,
+        "end": 271.05,
+        "speaker": "Survey report meeting",
+        "text": "Yes, but we don't have a Muslim prayer room, for example.",
+        "zh": "對，但例如穆斯林祈禱室，我們就沒有。"
+      },
+      {
+        "start": 271.59,
+        "end": 274.13,
+        "speaker": "Survey report meeting",
+        "text": "Hmm, that's a bit of an oversight, really, isn't it?",
+        "zh": "這算是有點疏忽，對吧？"
+      },
+      {
+        "start": 274.75,
+        "end": 275.85,
+        "speaker": "Survey report meeting",
+        "text": "Write it down, Chris.",
+        "zh": "Chris，寫下來。"
+      },
+      {
+        "start": 276.67,
+        "end": 282.03,
+        "speaker": "Survey report meeting",
+        "text": "You can spell Muslim either M-U-S-L-I-M",
+        "zh": "Muslim 可以拼作 M-U-S-L-I-M，"
+      },
+      {
+        "start": 282.03,
+        "end": 288.27,
+        "speaker": "Survey report meeting",
+        "text": "or M-O-S-L-E-M, your choice.",
+        "zh": "或者 M-O-S-L-E-M，隨你選。"
+      },
+      {
+        "start": 288.27,
+        "end": 294.37,
+        "speaker": "Survey report meeting",
+        "text": "Oh, and prayer is spelt P-R-A-Y-E-R.",
+        "zh": "還有 prayer 拼作 P-R-A-Y-E-R。"
+      },
+      {
+        "start": 294.37,
+        "end": 294.97,
+        "speaker": "Survey report meeting",
+        "text": "Got that?",
+        "zh": "記下了嗎？"
+      },
+      {
+        "start": 295.55,
+        "end": 298.43,
+        "speaker": "Survey report meeting",
+        "text": "Any more places of worship to add, Sandy?",
+        "zh": "Sandy，還有其他禮拜場所要補充嗎？"
+      },
+      {
+        "start": 299.25,
+        "end": 301.49,
+        "speaker": "Survey report meeting",
+        "text": "Well, I'm not sure of discounts,",
+        "zh": "我不肯定這算不算，"
+      },
+      {
+        "start": 301.81,
+        "end": 304.77,
+        "speaker": "Survey report meeting",
+        "text": "but someone suggested a meditation room.",
+        "zh": "但有人提議設立靜坐冥想室。"
+      },
+      {
+        "start": 305.31,
+        "end": 306.47,
+        "speaker": "Survey report meeting",
+        "text": "I like that idea.",
+        "zh": "我喜歡這主意。"
+      },
+      {
+        "start": 307.33,
+        "end": 310.55,
+        "speaker": "Survey report meeting",
+        "text": "Meditation's a good thing to do before you get on a plane,",
+        "zh": "登機前靜坐一下是好事，"
+      },
+      {
+        "start": 310.69,
+        "end": 313.79,
+        "speaker": "Survey report meeting",
+        "text": "and it's not only Buddhists who like to do it.",
+        "zh": "也不只有佛教徒才喜歡。"
+      },
+      {
+        "start": 314.01,
+        "end": 317.11,
+        "speaker": "Survey report meeting",
+        "text": "It's definitely worth including in the report.",
+        "zh": "絕對值得放進報告。"
+      },
+      {
+        "start": 317.79,
+        "end": 320.37,
+        "speaker": "Survey report meeting",
+        "text": "There were also a number of requests",
+        "zh": "還有不少人要求"
+      },
+      {
+        "start": 320.37,
+        "end": 322.51,
+        "speaker": "Survey report meeting",
+        "text": "for more entertainment facilities.",
+        "zh": "增加娛樂設施。"
+      },
+      {
+        "start": 322.79,
+        "end": 323.57,
+        "speaker": "Survey report meeting",
+        "text": "Such as?",
+        "zh": "例如什麼？"
+      },
+      {
+        "start": 324.35,
+        "end": 326.87,
+        "speaker": "Survey report meeting",
+        "text": "Well, I'm not sure if everyone would count",
+        "zh": "我不肯定是否每個人都會把"
+      },
+      {
+        "start": 326.87,
+        "end": 328.91,
+        "speaker": "Survey report meeting",
+        "text": "this as an entertainment facility,",
+        "zh": "這個算作娛樂設施，"
+      },
+      {
+        "start": 329.77,
+        "end": 333.21,
+        "speaker": "Survey report meeting",
+        "text": "but more than one person suggested a game centre.",
+        "zh": "但不止一個人建議設立遊戲中心。"
+      },
+      {
+        "start": 333.69,
+        "end": 336.35,
+        "speaker": "Survey report meeting",
+        "text": "Hmm, I don't think the airport authority",
+        "zh": "我不覺得機場管理局"
+      },
+      {
+        "start": 336.35,
+        "end": 339.15,
+        "speaker": "Survey report meeting",
+        "text": "would be keen to give space to a game centre,",
+        "zh": "會很願意撥地方給遊戲中心，"
+      },
+      {
+        "start": 339.75,
+        "end": 341.77,
+        "speaker": "Survey report meeting",
+        "text": "but I guess we ought to make a note of it.",
+        "zh": "但我想我們應該記下來。"
+      },
+      {
+        "start": 342.19,
+        "end": 344.45,
+        "speaker": "Survey report meeting",
+        "text": "Something they might be more happy to go for",
+        "zh": "他們可能較樂意接受的，"
+      },
+      {
+        "start": 344.45,
+        "end": 345.79,
+        "speaker": "Survey report meeting",
+        "text": "is an art gallery.",
+        "zh": "是美術館。"
+      },
+      {
+        "start": 345.89,
+        "end": 349.41,
+        "speaker": "Survey report meeting",
+        "text": "Many travellers said they'd seen them in other airports",
+        "zh": "很多旅客說在其他機場看過，"
+      },
+      {
+        "start": 349.41,
+        "end": 351.31,
+        "speaker": "Survey report meeting",
+        "text": "and thought it was a great idea.",
+        "zh": "覺得是很好的主意。"
+      },
+      {
+        "start": 351.99,
+        "end": 352.95,
+        "speaker": "Survey report meeting",
+        "text": "Yes, I can see why.",
+        "zh": "對，我能理解。"
+      },
+      {
+        "start": 353.43,
+        "end": 356.31,
+        "speaker": "Survey report meeting",
+        "text": "There's something very relaxing about art galleries.",
+        "zh": "美術館總有種令人放鬆的感覺。"
+      },
+      {
+        "start": 358.28,
+        "end": 361.1,
+        "speaker": "Survey report meeting",
+        "text": "OK, to sum up then, travellers at the airport",
+        "zh": "好，總結來說，機場旅客"
+      },
+      {
+        "start": 361.1,
+        "end": 365.8,
+        "speaker": "Survey report meeting",
+        "text": "felt that the facilities provided were mostly satisfactory.",
+        "zh": "認為所提供的設施大致令人滿意。"
+      },
+      {
+        "start": 366.7,
+        "end": 368.5,
+        "speaker": "Survey report meeting",
+        "text": "I'd say that was about right, yes.",
+        "zh": "對，我想這樣說相當準確。"
+      },
+      {
+        "start": 369.08,
+        "end": 373.08,
+        "speaker": "Survey report meeting",
+        "text": "So let's increase someone's level of satisfaction even more.",
+        "zh": "那麼，讓我們再提高某個人的滿意程度吧。"
+      },
+      {
+        "start": 373.08,
+        "end": 377.42,
+        "speaker": "Survey report meeting",
+        "text": "Would you like to pull the name out of the lucky drawer hat, Sandy?",
+        "zh": "Sandy，你可以從抽獎帽子裡抽出一個名字嗎？"
+      },
+      {
+        "start": 377.9,
+        "end": 379.06,
+        "speaker": "Survey report meeting",
+        "text": "OK, sure.",
+        "zh": "可以。"
+      },
+      {
+        "start": 380.52,
+        "end": 384.68,
+        "speaker": "Survey report meeting",
+        "text": "Oh, it's Mr Pot of Jesterville, USA.",
+        "zh": "是美國 Jesterville 的 Pot 先生。"
+      },
+      {
+        "start": 385.66,
+        "end": 389.32,
+        "speaker": "Survey report meeting",
+        "text": "His first name's not Jack by any chance, is it?",
+        "zh": "他的名字該不會剛巧是 Jack 吧？"
+      },
+      {
+        "start": 389.42,
+        "end": 391.5,
+        "speaker": "Survey report meeting",
+        "text": "That's right. How did you know that?",
+        "zh": "沒錯，你怎麼知道？"
+      },
+      {
+        "start": 392.06,
+        "end": 393.8,
+        "speaker": "Narrator",
+        "text": "That is the end of task four.",
+        "zh": "任務四完結。"
+      },
+      {
+        "start": 394.38,
+        "end": 397.64,
+        "speaker": "Narrator",
+        "text": "You now have two minutes to complete your answers to task four",
+        "zh": "你現在有兩分鐘時間完成任務四的答案，"
+      },
+      {
+        "start": 397.64,
+        "end": 400.14,
+        "speaker": "Narrator",
+        "text": "and to tidy up all your other answers.",
+        "zh": "並整理其餘所有答案。"
+      },
+      {
+        "start": 400.14,
+        "end": 527.3,
+        "speaker": "Narrator",
+        "text": "Part B. Open your data file at page two.",
+        "zh": "乙部。請把資料檔案翻到第二頁。"
+      }
+    ]
+  },
+  "questions": {
+    "1": {
+      "title": "機場旅客調查",
+      "instruction": "研究組組長 Linda Lee 正在機場離境大堂訪問一位旅客。她請你協助填寫下方訪問表。請根據旅客的回答，在空格填上資料。其中一格已作例子填好。",
+      "blocks": [
+        "調查表",
+        "{{1}} 旅客類型（只勾選一格）：business＝商務；pleasure＝休閒旅遊；other＝其他。",
+        "{{2}} 航程長短（只勾選一格）：long＝長途；short＝短途；medium＝中程。",
+        "旅程資料。每年出行次數：{{3}}。常到的目的地：{{4}}／新加坡／{{5}}。",
+        "對機場環境及設施的意見。喜歡的地方：{{6}}、{{7}}、{{8}}。不喜歡的地方：{{9}}、{{10}}、{{11}}。",
+        "{{12}} 新加坡機場與香港相比是……（只勾選一格）：better than＝較好；worse than＝較差；the same as＝一樣。",
+        "所提出的理由：{{13}}；{{14}}。"
+      ]
+    },
+    "2": {
+      "title": "新機場候機室",
+      "instruction": "Linda 現在訪問另一位旅客，詢問機場擬建的新候機室應有哪些重要設施或特色。請按她認為的重要程度排列設施，再記下理由；最後，把設施或特色的字母填入第1至6號位置的正確方格。",
+      "blocks": [
+        "{{15}} 為設施排序：填入1、2、3、4、5，表示每項設施的重要程度，每個數字只可使用一次。1＝最重要；5＝最不重要。依題目次序：Plants＝植物；Toilets＝廁所；Coffee shop＝咖啡店；Internet corner＝上網區；Children’s play area＝兒童遊樂區。",
+        "旅客選擇各設施或特色的理由。植物：{{16}}。廁所：{{17}}。咖啡店：{{18}}。上網區：{{19}}。兒童遊樂區：{{20}}；{{21}}。",
+        "新候機室平面圖",
+        "填入 A–F，表示各項設施或特色應設在哪個位置。",
+        "原平面圖。walkway＝走道；Boarding Gate＝登機閘口；window＝窗戶。保留圖中第1至6號位置，依錄音判斷設施，並在下方作答。",
+        "平面圖答案。位置1：{{22}}；位置2：{{23}}；位置3：{{24}}；位置4：{{25}}；位置5：{{26}}；位置6：{{27}}。選項：A 植物；B 廁所；C 咖啡店；D 睡眠躺椅；E 兒童遊樂區；F 上網區。"
+      ]
+    },
+    "3": {
+      "title": "食物及飲品問卷",
+      "instruction": "Linda 邀請一位旅客試吃機場餐廳及咖啡店供應的部分食品。喜歡的填剔號（✓），不喜歡的填交叉（✗），不肯定的填問號（?）。錄音提及食品的次序未必跟答題簿相同。其中一格已作例子填好。",
+      "blocks": [
+        "食物及飲品問卷。欄目：食物／飲品；喜歡（✓）／不喜歡（✗）／不肯定（?）；理由。圖1熱狗：{{28}}；理由{{34}}。圖2雞肉串：{{29}}；理由{{35}}、{{36}}。圖3壽司：{{30}}；理由{{37}}。圖4墨西哥薄餅卷：{{31}}；理由{{38}}；很飽肚（例子）。圖5紙杯蛋糕：{{32}}；理由{{39}}、{{40}}。飲品圖水果冰沙：{{33}}；理由{{41}}、{{42}}。"
+      ]
+    },
+    "4": {
+      "title": "機場調查報告",
+      "instruction": "你正與 Linda 及研究員 Simon、Sandy 出席研究組會議，兩位研究員正在報告調查結果。請根據對話，在報告空格填上服務詳情和改善建議。記得注意拼字和文法。其中一格已作例子填好。",
+      "blocks": [
+        "機場調查報告",
+        "受訪旅客中，約{{43}}對餐飲服務感到{{44}}。至少{{45}}的旅客未曾使用餐廳，所以沒有表達偏好（例子）。",
+        "其餘旅客提出以下建議：",
+        "{{46}}；{{47}}；{{48}}，例如{{49}}、{{50}}及{{51}}食物。",
+        "旅客要求的其他設施包括：",
+        "更多{{52}}，例如一間{{53}}及一間{{54}}。更多{{55}}，例如一個{{56}}及一間{{57}}。整體而言，旅客似乎對機場設施非常{{58}}。"
+      ]
+    }
+  }
+}

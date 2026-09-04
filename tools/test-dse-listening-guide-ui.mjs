@@ -31,8 +31,6 @@ try{
  await page.route('**/*',route=>route.request().url().startsWith(origin)?route.continue():route.abort());
  await page.goto(origin+'/__qa');await page.waitForFunction(()=>!!window.dseQA);
  assert.equal(guideRequests,0,'Guide must not load at startup');
- await page.evaluate(()=>window.dseQA.open(2016,1));assert.equal(guideRequests,0);
- assert.match(await page.locator('.dse-no-analysis').innerText(),/尚未加入/);
  await page.evaluate(()=>window.dseQA.open(2021,1));
  await page.waitForSelector('[data-dse-reveal="1"]');assert.equal(guideRequests,1);
  assert.equal(await page.locator('[data-dse-reveal]').count(),16);
@@ -43,7 +41,7 @@ try{
  await page.locator('[data-dse-analysis="1"]').click();
  assert.match(await page.locator('[data-dse-dialog-copy]').innerText(),/中伏位/);
  await page.screenshot({path:path.join(out,'answer-popover.png')});
- await page.locator('[data-dse-dialog-actions] button').click();
+ await page.locator('[data-dse-dialog-actions] [data-bookmark-item]').click();
  const saved=await page.evaluate(()=>window.dseQA.calls.at(-1));
  assert.equal(saved.name,'learning_portal_set_bookmark');
  assert.equal(saved.args.p_href,'listening-system.html?section=dse&year=2021&task=1#dse-analysis-q1');

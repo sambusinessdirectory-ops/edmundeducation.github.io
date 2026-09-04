@@ -50,7 +50,7 @@ try{
  await page.locator('[data-dse-reveal="4"]').click();await page.locator('[data-dse-analysis="4"]').click();
  assert.match(await page.locator('[data-dse-dialog-answer]').innerText(),/^A/);
  assert.match(await page.locator('[data-dse-dialog-copy]').innerText(),/外公/);
- await page.locator('[data-dse-dialog-actions] button').click();
+ await page.locator('[data-dse-dialog-actions] [data-bookmark-item]').click();
  const saved=await page.evaluate(()=>window.dseQA.calls.at(-1));
  assert.equal(saved.name,'learning_portal_set_bookmark');
  assert.equal(saved.args.p_href,'listening-system.html?section=dse&year=2023&task=1#dse-analysis-q4');

@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import {analysisRows, transcriptZh, questionTranslations} from './2023-guide-content.mjs';
 import {questionNumbers} from '../../dse-listening-question-ui.mjs';
+import {locateGuideEvidence} from './guide-cue.mjs';
 const root = new URL('../../', import.meta.url);
 const read = file => fs.readFileSync(new URL(file, root), 'utf8');
 const sha = text => createHash('sha256').update(text).digest('hex');
@@ -51,7 +52,7 @@ for (const task of data.tasks) {
   assert(entry, `Missing Q${number}`);
   const [,answer,explanation,evidence] = entry;
   assert(combined.includes(norm(evidence)), `Q${number} evidence missing from transcript: ${evidence}`);
-  guide.analysis[number] = {task:n,answer,explanation,evidence,questionSourcePages:[n+2]};
+  guide.analysis[number] = {task:n,answer,explanation,evidence,questionSourcePages:[n+2],...locateGuideEvidence(rows,evidence)};
  }
 }
 assert.equal(Object.keys(guide.analysis).length,53);

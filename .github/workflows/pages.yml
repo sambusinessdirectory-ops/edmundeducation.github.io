@@ -261,6 +261,11 @@ jobs:
           node tools/test-dse-paper3-analysis-portal.mjs
           node tools/listening/build-search-index.mjs --check
           node tools/test-listening-search.mjs
+          node tools/test-dse-listening-guide.mjs
+          node tools/test-dse-listening-2023-guide.mjs
+          node tools/test-dse-listening-archive-guides.mjs
+          node tools/listening/build-2023-guide.mjs --check
+          node tools/listening/enrich-existing-dse-guides.mjs --check
           node tools/test-dse-image-enhancements.mjs
 
       - name: Validate PWA, shared portal navigation, mobile icons, and brand metadata

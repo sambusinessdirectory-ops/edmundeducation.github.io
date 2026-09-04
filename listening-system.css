@@ -492,4 +492,6 @@ button:disabled { cursor:default; opacity:.5; }
 .dse-question-translation p { margin: 6px 0 0; }
 .dse-translated-blank { white-space: nowrap; font-weight: 600; }
 .dse-guide-note { color: #56677b; font-size: .9rem; line-height: 1.7; }
+.dse-answer-replay { margin: 8px 0; }
+.dse-group-answer-number { color: #155668; padding: 6px; }
 .dse-question-translation[hidden] { display: none; }

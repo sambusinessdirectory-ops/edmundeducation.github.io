@@ -26,7 +26,7 @@ export function highlightedSnippet(text,query){
 const pending=new Map();
 export async function loadSearchIndex(section){
  if(!['dse','ielts'].includes(section))throw Error('Invalid listening library');
- if(!pending.has(section))pending.set(section,fetch(`assets/listening/search/${section}.json?v=20260904-guide2023-1`,{credentials:'omit'})
+ if(!pending.has(section))pending.set(section,fetch(`assets/listening/search/${section}.json?v=20260904-archiveguides1`,{credentials:'omit'})
   .then(async response=>{if(!response.ok)throw Error('搜尋資料暫時未能載入，請再按「搜尋」重試。');return response.json();})
   .then(data=>{if(data.version!==1||!Array.isArray(data.entries))throw Error('搜尋資料格式不正確。');return data.entries;})
   .catch(error=>{pending.delete(section);throw error;}));
