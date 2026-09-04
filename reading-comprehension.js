@@ -4,7 +4,7 @@ const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
 const CATALOGUE_VERSION = '20260829-audio1';
-const DSE_CATALOGUE_VERSION = '20260904-dse-image-coverage-1';
+const DSE_CATALOGUE_VERSION = '20260904-dse2023-b1-questions-1';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
 const QUESTION_TYPE_INDEX = window.EDMUND_IELTS_READING_QUESTION_TYPES || { taxonomy: [], articles: [] };
 const audioTimingCache = new Map();
@@ -470,7 +470,7 @@ function renderQuestionControls(question) {
   return renderAnswerControl(question, `q${question.number}`, `q${question.number}`);
 }
 function renderSourceTable(table, question = null) {
-  return `<div class="source-table-scroll" role="region" aria-label="${escapeHtml(table.caption || 'Source table')}" tabindex="0"><table class="source-table">${table.caption ? `<caption>${escapeHtml(table.caption)}</caption>` : ''}<tbody>${table.rows.map((row) => `<tr>${row.map((cell) => {
+  return `<div class="source-table-scroll" role="region" aria-label="${escapeHtml(table.caption || 'Source table')}" tabindex="0"><table class="source-table${table.compact ? ' is-compact' : ''}${table.flow ? ' is-flow' : ''}">${table.caption ? `<caption>${escapeHtml(table.caption)}</caption>` : ''}<tbody>${table.rows.map((row) => `<tr>${row.map((cell) => {
     const item = typeof cell === 'string' ? { text: cell } : cell;
     const tag = item.header ? 'th' : 'td';
     const fields = (item.parts || (item.part ? [item.part] : [])).map((key) => question?.parts?.find((entry) => entry.key === key)).filter(Boolean);
@@ -492,7 +492,7 @@ function renderQuestions() {
     const translation = question.translation ? `<p class="question-translation" data-question-translation hidden>${escapeHtml(question.translation)}</p>` : '';
     const actions = state.system === 'dse' ? '' : `<div class="question-actions"><button class="scan-button" type="button" data-scan-question="${question.number}">Scan：選擇段落</button><button class="scanning-tip-button" type="button" data-scanning-tip="${question.number}">Scanning 提示</button><button class="reveal-button" type="button" data-reveal="${question.number}">顯示答案及分析</button><span class="question-result" data-question-result="${question.number}"></span></div><div class="scan-chooser" data-scan-chooser="${question.number}" hidden><span>答案最可能在哪一段？</span>${scanButtons}</div><small class="answer-timestamp" data-answer-time="${question.number}" hidden></small>`;
     const bookmark = state.system === 'dse' ? '' : `<div class="question-bookmark-row">${readingBookmarkButton('question', question.number)}</div>`;
-    return `${heading}<section class="question-card" id="question-${question.number}" data-question="${question.number}">${bookmark}<p class="question-prompt"><span class="question-number">${question.number}</span>${state.system === 'dse' ? escapeHtml(question.prompt) : interactiveWords(question.prompt, `q${question.number}`)}</p>${marks}${translation}${context}${figure}${optionBank}${controls}${actions}</section>`;
+    return `${heading}<section class="question-card" id="question-${question.number}" data-question="${question.number}">${bookmark}<p class="question-prompt"><span class="question-number">${question.number}</span>${state.system === 'dse' ? escapeHtml(question.prompt) : interactiveWords(question.prompt, `q${question.number}`)}</p>${marks}${translation}${context}${question.figuresAfterControls ? '' : figure}${optionBank}${controls}${question.figuresAfterControls ? figure : ''}${actions}</section>`;
   }).join("");
   if (state.system !== 'dse' && state.data.questionPages?.length) el.questions.insertAdjacentHTML('afterbegin', `<details class="original-pages"><summary>查看原題完整排版、圖表及選項</summary>${state.data.questionPages.map((src) => `<a href="${escapeHtml(src)}" target="_blank" rel="noopener"><img src="${escapeHtml(src)}" alt="原題頁面（可開啟放大）" loading="lazy"></a>`).join('')}</details>`);
   state.data.questions.filter((q) => q.requiresReview).forEach((q) => $(`[data-question="${q.number}"]`).insertAdjacentHTML('afterbegin','<p class="review-notice">原題或答案需教師核對；本題可儲存，但暫不自動計分。</p>'));

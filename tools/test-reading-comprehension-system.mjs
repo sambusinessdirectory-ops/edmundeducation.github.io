@@ -2,6 +2,7 @@
 
 import assert from "node:assert/strict";
 import { readFile, stat } from "node:fs/promises";
+import './test-dse-reading-2023-b1.mjs';
 
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");

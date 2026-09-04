@@ -226,6 +226,12 @@ button:focus-visible,select:focus-visible { outline: 3px solid #b9852f; outline-
 .source-table caption { padding:8px 0; font-weight:800; text-align:left; }
 .source-table .answer-input { display:block; width:100%; min-width:70px; margin-top:8px; padding:7px; border-radius:4px; }
 .source-table .choice-list { min-width:80px; }
+.source-table.is-compact { min-width:0; table-layout:fixed; }
+.source-table.is-compact th,.source-table.is-compact td { min-width:0; overflow-wrap:anywhere; }
+.source-table.is-compact .answer-input { min-width:0; }
+.source-table.is-flow td { text-align:center; }
+.source-table.is-flow tr:nth-child(even) td { border:0; padding:2px; font-size:1.5rem; line-height:1; }
+.source-table.is-flow .answer-input { max-width:18rem; margin:8px auto 0; }
 .dse-paragraph-figure figcaption { margin-top:7px; color:var(--muted); font-size:.75rem; text-align:center; }
 .dse-exercise .question-actions,.dse-exercise .question-bookmark-row { display:none; }
 .dse-exercise .paragraph-heading .reading-bookmark-button { display:none; }
