@@ -29,7 +29,7 @@ const html=fs.readFileSync(base+'index.html','utf8');
 for (const file of ['sentence-analysis-core.js','sentence-analysis-data.js','sentence-analysis.js','sentence-analysis.css']) assert(html.includes(file));
 assert(html.indexOf('sentence-analysis-core.js')<html.indexOf('sentence-analysis-data.js'));
 assert(html.indexOf('sentence-analysis-data.js')<html.indexOf('sentence-analysis.js?'));
-assert(!/position\s*:\s*fixed/.test(fs.readFileSync(base+'sentence-analysis.css','utf8')));
+assert(/position\s*:\s*fixed/.test(fs.readFileSync(base+'sentence-analysis.css','utf8')));
 console.log('Sentence segmentation, source parsing, citations and loading contracts passed.');
 
 // Optional full DOM suite: point to an installed jsdom module (no production dependency).
@@ -37,8 +37,12 @@ if (process.env.PAPER3_DOM_TEST_MODULE) {
   const {JSDOM}=require(process.env.PAPER3_DOM_TEST_MODULE);
   const dom=new JSDOM(html,{url:'https://edmundeducation.com/paper3/2025-b2/',runScripts:'outside-only'});
   const {window}=dom, doc=window.document;
-  const media={matches:false,addEventListener(_,callback){this.change=callback;}};
-  window.matchMedia=()=>media;
+  let anchor={left:400,right:800,top:260,bottom:284,width:400,height:24};
+  window.HTMLElement.prototype.getClientRects=function(){return [anchor];};
+  window.HTMLElement.prototype.getBoundingClientRect=function(){
+    if(this.id==='sentence-analysis-panel') return {width:parseFloat(this.style.width)||430,height:Math.min(300,parseFloat(this.style.maxHeight)||440)};
+    return anchor;
+  };
   const originals=[...doc.querySelectorAll('.bilingual > p[lang="en"]')].map(p=>[p,p.textContent]);
   const field=doc.querySelector('textarea');field.value='Keep my existing notes';
   for (const file of ['sentence-analysis-core.js','sentence-analysis-data.js','sentence-analysis.js']) window.eval(fs.readFileSync(base+file,'utf8'));
@@ -53,23 +57,41 @@ if (process.env.PAPER3_DOM_TEST_MODULE) {
     item.click();
     assert.equal(panel.hidden,false);
     assert.equal(doc.querySelectorAll('.sentence-item.is-selected').length,1);
+    assert.equal(panel.querySelectorAll('a').length,0,'Tips must never navigate to a source page');
+    assert(!/Benchmark|PDF 第|開啟完整|非 PDF 原句分析/.test(panel.textContent),'Source labels must not appear in tips');
     if(panel.textContent.includes('沒有獨立的逐句分析')) missing.push(item.textContent);
   }
   assert.deepEqual(missing,[],'Unmapped original text');
   const teachers=items.find(x=>x.textContent.includes('it was the teachers who'));
   teachers.click();assert(panel.textContent.includes('更正句'));
-  assert.equal(panel.parentElement,doc.querySelector('.side'));
-  media.matches=true;media.change();
-  assert(panel.closest('.source-paper'),'Mobile panel is inline with source');
+  assert.equal(panel.parentElement,doc.body,'Floating tip must not resize the reading sidebar');
+  assert.equal(panel.getAttribute('aria-modal'),'false');
+  assert.equal(parseFloat(panel.style.top),294,'Tip opens below the selected sentence');
+  anchor={...anchor,top:690,bottom:714};
+  window.dispatchEvent(new window.Event('scroll'));
+  assert(parseFloat(panel.style.top)+300<anchor.top,'Tip flips above near the bottom');
+  window.innerWidth=375;window.innerHeight=667;
+  anchor={left:20,right:350,top:230,bottom:254,width:330,height:24};
+  window.dispatchEvent(new window.Event('resize'));
+  assert.equal(panel.style.width,'351px');
+  assert.equal(panel.style.left,'12px');
+  assert(parseFloat(panel.style.top)>=12);
+  assert(parseFloat(panel.style.top)+Math.min(300,parseFloat(panel.style.maxHeight))<=655);
   assert(!doc.body.classList.contains('sentence-analysis-open'));
   doc.dispatchEvent(new window.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));
   assert(panel.hidden);assert.equal(doc.activeElement,teachers);
   teachers.dispatchEvent(new window.KeyboardEvent('keydown',{key:'Enter',bubbles:true}));
   assert(!panel.hidden);
+  assert.equal(doc.activeElement,doc.querySelector('.sentence-analysis-close'));
+  panel.querySelector('blockquote').click();assert(!panel.hidden,'Clicking the tip does not close it');
+  doc.body.click();assert(panel.hidden,'Clicking outside dismisses the tip');
+  teachers.click();assert(!panel.hidden);
   doc.querySelector('[data-filter="transcript"]').click();assert(panel.hidden);
   teachers.dispatchEvent(new window.KeyboardEvent('keydown',{key:' ',bubbles:true}));
   assert(!panel.hidden);
   doc.querySelector('.sentence-analysis-close').click();assert(panel.hidden);
+  teachers.click();anchor={...anchor,top:-100,bottom:-76};
+  window.dispatchEvent(new window.Event('scroll'));assert(panel.hidden,'Tip closes when sentence leaves view');
   assert.equal(field.value,'Keep my existing notes');
-  console.log(`Full DOM suite passed: ${items.length} clickable items, complete mapping, original text retained, keyboard/mobile/close/filter and saved-note safety.`);
+  console.log(`Full DOM suite passed: ${items.length} clickable items, complete in-page tips without source links, bounded floating placement, keyboard/mobile/close/filter and saved-note safety.`);
 }

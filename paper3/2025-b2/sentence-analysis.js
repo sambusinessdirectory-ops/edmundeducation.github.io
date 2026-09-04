@@ -6,15 +6,16 @@
   const sections = {1:'cover',2:'orientation',3:'listening-notes',4:'boss-letter',
     5:'duncan-henley-emails',6:'wellness-poster',7:'student-interview',8:'whatsapp-chat',
     9:'duncan-singh-emails',10:'influator-blog',11:'sports-article'};
-  const side = document.querySelector('.side');
-  const mobile = window.matchMedia('(max-width:1100px)');
   const items = new WeakMap();
   let selected = null;
   let returnFocus = null;
+  let selectedLine = 0;
   const panel = document.createElement('aside');
   panel.id = 'sentence-analysis-panel';
   panel.className = 'sentence-analysis-panel';
   panel.setAttribute('aria-label','逐句分析');
+  panel.setAttribute('role','dialog');
+  panel.setAttribute('aria-modal','false');
   panel.hidden = true;
   const heading = document.createElement('header');
   const title = document.createElement('h2');
@@ -22,13 +23,13 @@
   const close = document.createElement('button');
   close.type = 'button';
   close.className = 'sentence-analysis-close';
-  close.textContent = '關閉 ×';
+  close.textContent = '×';
   close.setAttribute('aria-label','關閉逐句分析');
   heading.append(title, close);
   const content = document.createElement('div');
   content.className = 'sentence-analysis-content';
   panel.append(heading, content);
-  side.prepend(panel);
+  document.body.append(panel);
   const instruction = document.createElement('p');
   instruction.className = 'sentence-analysis-instruction';
   instruction.textContent = '逐句分析 · 游標移到 Data File 原文可標示句子，按一下查看分析。手機可直接輕觸；鍵盤可用 Tab、Enter 及 Esc。';
@@ -69,16 +70,24 @@
   }
   function placePanel() {
     if (!selected) return;
-    if (mobile.matches) {
-      const block = items.get(selected).block;
-      const anchor = block.closest('.poster, .definition') || block.closest('.bilingual') || block;
-      anchor.after(panel);
-      document.body.classList.remove('sentence-analysis-open');
-    } else {
-      side.prepend(panel);
-      document.body.classList.add('sentence-analysis-open');
-      side.scrollTop = 0;
-    }
+    const viewport = window.visualViewport;
+    const leftEdge = (viewport?.offsetLeft || 0) + 12;
+    const topEdge = (viewport?.offsetTop || 0) + 12;
+    const width = (viewport?.width || window.innerWidth) - 24;
+    const height = (viewport?.height || window.innerHeight) - 24;
+    const lines = selected.getClientRects();
+    const anchor = lines[Math.min(selectedLine, lines.length - 1)] || selected.getBoundingClientRect();
+    if (anchor.bottom < topEdge || anchor.top > topEdge + height) { dismiss(); return; }
+    panel.style.width = `${Math.min(430, width)}px`;
+    const below = topEdge + height - anchor.bottom - 10;
+    const above = anchor.top - topEdge - 10;
+    const useBelow = below >= Math.min(320, height * .6) || below >= above;
+    const available = useBelow ? below : above;
+    panel.style.maxHeight = `${Math.min(440, height, Math.max(160, available))}px`;
+    const bounds = panel.getBoundingClientRect();
+    panel.style.left = `${Math.max(leftEdge, Math.min(anchor.left, leftEdge + width - bounds.width))}px`;
+    const top = useBelow ? anchor.bottom + 10 : anchor.top - bounds.height - 10;
+    panel.style.top = `${Math.max(topEdge, Math.min(top, topEdge + height - bounds.height))}px`;
   }
   function dismiss(focus = false) {
     if (selected) {
@@ -87,20 +96,25 @@
     }
     selected = null;
     panel.hidden = true;
-    document.body.classList.remove('sentence-analysis-open');
     if (focus) returnFocus?.focus({preventScroll:true});
     status.textContent = '';
   }
-  function show(button) {
+  function show(button, event) {
     if (selected === button) { dismiss(); return; }
     dismiss();
     selected = button;
     returnFocus = button;
+    selectedLine = 0;
+    if (event?.detail) {
+      const lines = [...button.getClientRects()];
+      const index = lines.findIndex(rect => event.clientY >= rect.top && event.clientY <= rect.bottom && event.clientX >= rect.left && event.clientX <= rect.right);
+      if (index >= 0) selectedLine = index;
+    }
     const item = items.get(button);
     button.classList.add('is-selected');
     button.setAttribute('aria-expanded','true');
     content.replaceChildren();
-    content.append(createText('p',`Data File 第 ${item.page} 頁 · 第 ${item.number} 項`,'sentence-analysis-location'));
+    content.append(createText('p',`第 ${item.number} 項 · 句子解說`,'sentence-analysis-location'));
     const quote = createText('blockquote',item.text.trim(),'sentence-analysis-quote');
     quote.lang = 'en';
     content.append(quote);
@@ -111,29 +125,31 @@
     for (const record of records) {
       const article = document.createElement('section');
       article.className = 'sentence-analysis-entry';
-      article.append(createText('p',record.supplemental ? '導讀補充 · 非 PDF 原句分析' : 'Benchmark 原有分析','sentence-analysis-source-label'));
       for (const block of record.blocks) {
         if (block === '分析：') continue;
         const kind = block.startsWith('類型：') ? 'sentence-analysis-type' :
           block.startsWith('[') ? 'sentence-analysis-translation' : '';
         article.append(createText('p',block,kind));
       }
-      const citation = record.pages?.length ? `Benchmark PDF 第 ${record.pages.join('、')} 頁` : `原 Data File 第 ${record.originalPage || item.page} 頁`;
-      article.append(createText('p',citation,'sentence-analysis-citation'));
       content.append(article);
     }
-    const link = createText('a','開啟完整 Data File 分析 ↗');
-    link.href = '/dse-paper3-analysis.html#2025-b2';
-    link.target = '_blank';
-    link.rel = 'noopener';
-    content.append(link);
     panel.hidden = false;
+    content.scrollTop = 0;
     placePanel();
+    if (event?.type === 'keydown') close.focus({preventScroll:true});
     status.textContent = `已開啟第 ${item.page} 頁第 ${item.number} 項分析。`;
   }
   close.addEventListener('click',()=>dismiss(true));
   document.addEventListener('keydown',event=>{if(event.key==='Escape' && selected) dismiss(true);});
-  mobile.addEventListener('change',placePanel);
+  document.addEventListener('click',event=>{
+    if (selected && !panel.contains(event.target) && !selected.contains(event.target)) dismiss();
+  });
+  window.addEventListener('resize',placePanel);
+  window.addEventListener('scroll',event=>{
+    if (!(event.target instanceof Node) || !panel.contains(event.target)) placePanel();
+  },true);
+  window.visualViewport?.addEventListener('resize',placePanel);
+  window.visualViewport?.addEventListener('scroll',placePanel);
   document.querySelectorAll('[data-filter], .page-nav a, #page-jump').forEach(control=>{
     control.addEventListener(control.tagName === 'SELECT' ? 'change' : 'click',()=>dismiss());
   });
@@ -174,10 +190,10 @@
       items.set(button,{...segment,page,section,block,contextText:text});
       button.addEventListener('click',event=>{
         event.preventDefault();
-        if (!window.getSelection()?.toString()) show(button);
+        if (!window.getSelection()?.toString()) show(button,event);
       });
       button.addEventListener('keydown',event=>{
-        if (event.key==='Enter' || event.key===' ') {event.preventDefault();show(button);}
+        if (event.key==='Enter' || event.key===' ') {event.preventDefault();show(button,event);}
       });
     }
   }
