@@ -281,6 +281,17 @@ audio { width: 100%; min-height: 54px; }
 .dse-no-analysis { margin-top:18px; padding:15px 18px; display:grid; gap:4px; border:1px solid #e6cf83; border-radius:14px; color:#695014; background:#fff8dd; }
 .dse-no-analysis span { line-height:1.5; }
 .dse-transcript .transcript-line { grid-template-columns:minmax(130px,.25fr) minmax(0,1fr); gap:16px; cursor:pointer; }
+.dse-transcript .transcript-line:has(.transcript-line__top) { grid-template-columns:minmax(0,1fr); gap:6px; }
+.dse-transcript .transcript-line__top>div { min-width:0; }
+.dse-transcript .transcript-line__top .dse-speaker { display:block; }
+.dse-study-toolbar { display:flex; flex-wrap:wrap; gap:10px; margin:20px 0; }
+.dse-study-analysis>summary { cursor:pointer; padding:14px 0; font-weight:800; font-size:1.15rem; }
+.dse-study-analysis .listening-analysis-card { scroll-margin-top:100px; }
+.dse-study-analysis .listening-analysis-card p, .dse-study-dialog p { white-space:pre-wrap; overflow-wrap:anywhere; }
+.dse-answer-tools { display:inline-flex; max-width:100%; vertical-align:middle; flex-wrap:wrap; margin:6px 4px; }
+.dse-answer-tools .listening-official-answer { max-width:100%; white-space:normal; overflow-wrap:anywhere; text-align:left; }
+.dse-study-dialog { z-index:1000; max-height:calc(100dvh - 24px); overflow-y:auto; }
+.dse-study-dialog [data-dse-close-analysis] { float:right; width:34px; height:34px; border:1px solid var(--line); border-radius:50%; background:white; cursor:pointer; }
 .dse-speaker { color:var(--teal); }
 .listening-search { margin:0 0 22px; padding:22px; }
 .listening-search form>label { display:block; font-weight:800; color:var(--navy); margin-bottom:10px; }
