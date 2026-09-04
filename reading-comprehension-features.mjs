@@ -52,11 +52,18 @@ export function readingBookmarkLink(target) {
   return `reading-comprehension.html?${params}${anchor ? `#${anchor}` : ''}`;
 }
 
+export function readingNarrationParagraphText(paragraph) {
+  if (!paragraph.table) return paragraph.text;
+  const table = paragraph.table;
+  const parts = [paragraph.text, table.caption || '', ...table.rows.flatMap(row => row.map(cell => typeof cell === 'string' ? cell : cell.text || ''))];
+  return parts.map(text => text.trim()).filter(Boolean).map(text => /[.!?]$/.test(text) ? text : `${text}.`).join('\n');
+}
+
 export function validateReadingAudioTimings(payload, item, article) {
   if (!payload || payload.articleId !== article.id || payload.sourceSha256 !== item.sourceSha256
       || !Array.isArray(payload.words) || payload.words.length !== item.wordCount) return false;
   const expected = article.paragraphs.flatMap((paragraph) =>
-    paragraph.text.match(/[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*/gu) || []);
+    readingNarrationParagraphText(paragraph).match(/[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*/gu) || []);
   if (expected.length !== payload.words.length) return false;
   let previous = 0;
   return payload.words.every((word, index) => {

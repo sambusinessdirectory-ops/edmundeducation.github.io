@@ -58,3 +58,31 @@ manifest script's cache version in `reading-comprehension.html` for the release.
 The audio worker must allow the reading prefix, and the reading page's media
 security policy must allow that worker's hostname. Verify full playback,
 paragraph playback, seeking, and lazy word highlighting before release.
+
+## DSE Reading
+
+Pass `--system dse` to both the generator and publisher, with a separate build
+directory. This selects the 42 available A/B1/B2 sections from 2012-2023 and
+2025-2026; 2024 is excluded. It never replaces the IELTS manifest or recordings.
+The voice, timing and immutable audio storage rules are unchanged.
+
+The DSE source includes English passage paragraphs and native passage-table
+captions/cells in reading order, not questions, translations or exam directions.
+The table projection in Python must match `readingNarrationParagraphText` in
+`reading-comprehension-features.mjs`; the English source files remain unchanged.
+Publication writes `dse-reading-audio-manifest.js` and `dse-reading-audio-data/`.
+
+```sh
+python tools/publish-reading-catalogue-audio.py --system dse \
+  --source-root /path/to/website --output-root /path/to/dse-build --publish
+node tools/test-dse-reading-audio.mjs --require-complete
+python tools/test-dse-reading-audio-waveforms.py \
+  --output-root /path/to/dse-build --require-complete
+node tools/test-dse-reading-translations.mjs --complete
+node tools/test-reading-comprehension-audio.mjs --require-complete
+```
+
+Do not deploy an empty or partial DSE audio manifest. After publication, bump
+the reading page and DSE audio script cache versions and test full/paragraph
+playback, seeking, speed, highlighting without automatic scrolling, and the
+translation toggles on desktop and mobile.

@@ -1,10 +1,10 @@
-import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink, validateReadingAudioTimings } from './reading-comprehension-features.mjs?v=20260829-audio1';
+import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink, validateReadingAudioTimings } from './reading-comprehension-features.mjs?v=20260904-dse-audio1';
 
 const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
 const CATALOGUE_VERSION = '20260829-audio1';
-const DSE_CATALOGUE_VERSION = '20260904-dse-zh-hant-1';
+const DSE_CATALOGUE_VERSION = '20260904-dse-audio1';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
 const QUESTION_TYPE_INDEX = window.EDMUND_IELTS_READING_QUESTION_TYPES || { taxonomy: [], articles: [] };
 const audioTimingCache = new Map();
@@ -441,6 +441,10 @@ function updateFloatingOffsets() {
 function interactiveWords(text, context, spoken = false) {
   let html = ""; let last = 0; let localIndex = 0; const regex = /[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*/gu; let match;
   while ((match = regex.exec(text))) {
+    if (state.system === 'dse' && spoken) {
+      html += escapeHtml(text.slice(last, match.index)) + `<span class="spoken-word" data-word-index="${state.wordIndex++}">${escapeHtml(match[0])}</span>`;
+      last = regex.lastIndex; continue;
+    }
     const key = `word:${ARTICLE_ID}:${context}:w${localIndex++}`; const classes = ["interactive-word", spoken ? "spoken-word" : "", state.bookmarks.has(key) ? "is-bookmarked" : ""].filter(Boolean).join(" ");
     html += escapeHtml(text.slice(last, match.index)); html += `<span class="${classes}" data-word-key="${escapeHtml(key)}" data-word-context="${escapeHtml(context)}"${spoken ? ` data-word-index="${state.wordIndex++}"` : ""}>${escapeHtml(match[0])}</span>`; last = regex.lastIndex;
   }
@@ -463,11 +467,10 @@ function renderPassage() {
   const sourceNotes = state.data.passageNotes?.length ? `<section class="dse-source-note"><strong>Notes</strong><br>${state.data.passageNotes.map((note, index) => escapeHtml(note) + dseTranslationCopy(state.data.passageNotes, index, 'passage')).join('<br>')}</section>` : '';
   const headerKeys = ['title', 'sourceLabel', 'sourceHeading', 'sourceNote'];
   const translatedHeader = headerKeys.filter((key, index) => !headerKeys.slice(0, index).some(previous => state.data[previous] === state.data[key])).map(key => dseTranslationCopy(state.data, key, 'passage')).join('');
-  state.wordIndex = 0; el.passage.innerHTML = sourceHeader + translatedHeader + state.data.paragraphs.map((paragraph) => { const paragraphImage = renderContentFigures(paragraph.images || (paragraph.image ? [paragraph.image] : []), 'dse-paragraph-figure', 'passage', paragraph.number); return `<section class="passage-paragraph" id="paragraph-${paragraph.number}"><div class="paragraph-heading"><span class="paragraph-label">${dse ? '' : 'PARAGRAPH '}${escapeHtml(paragraph.label || paragraph.number)}${dseTranslationCopy(paragraph, 'label', 'passage', paragraph.number)}</span>${dse ? '' : `<span class="scan-tags" data-scan-tags="${paragraph.number}" aria-label="已選擇此段的題目"></span><button class="paragraph-audio-button" type="button" data-play-paragraph="${paragraph.number}" aria-label="朗讀第 ${paragraph.number} 段">▶ 朗讀本段</button>${readingBookmarkButton('paragraph', paragraph.number)}`}</div>${paragraphImage}<div class="passage-text-block">${dse ? escapeHtml(paragraph.text) : interactiveWords(paragraph.text, `p${paragraph.number}`, true)}</div>${paragraph.translation ? `<div class="translation-copy" data-translation-copy="${paragraph.number}" hidden lang="zh-Hant">${escapeHtml(paragraph.translation)}</div>` : ''}${dse ? '' : `<button class="skimming-button" type="button" data-skimming="${paragraph.number}">Skimming Tips · ${escapeHtml(paragraph.label || paragraph.number)}</button>`}</section>`; }).join("") + sourceNotes;
+  state.wordIndex = 0; el.passage.innerHTML = sourceHeader + translatedHeader + state.data.paragraphs.map((paragraph) => { const paragraphImage = renderContentFigures(paragraph.images || (paragraph.image ? [paragraph.image] : []), 'dse-paragraph-figure', 'passage', paragraph.number); return `<section class="passage-paragraph" id="paragraph-${paragraph.number}"><div class="paragraph-heading"><span class="paragraph-label">${dse ? '' : 'PARAGRAPH '}${escapeHtml(paragraph.label || paragraph.number)}${dseTranslationCopy(paragraph, 'label', 'passage', paragraph.number)}</span>${dse ? '' : `<span class="scan-tags" data-scan-tags="${paragraph.number}" aria-label="已選擇此段的題目"></span>`}<button class="paragraph-audio-button" type="button" data-play-paragraph="${paragraph.number}" aria-label="朗讀第 ${paragraph.number} 段">▶ 朗讀本段</button>${dse ? '' : readingBookmarkButton('paragraph', paragraph.number)}</div>${paragraphImage}<div class="passage-text-block">${interactiveWords(paragraph.text, `p${paragraph.number}`, true)}${dse && paragraph.table ? renderSourceTable(paragraph.table, null, 'passage', paragraph.number) : ''}</div>${paragraph.translation ? `<div class="translation-copy" data-translation-copy="${paragraph.number}" hidden lang="zh-Hant">${escapeHtml(paragraph.translation)}</div>` : ''}${dse ? '' : `<button class="skimming-button" type="button" data-skimming="${paragraph.number}">Skimming Tips · ${escapeHtml(paragraph.label || paragraph.number)}</button>`}</section>`; }).join("") + sourceNotes;
   $('[data-translation-options]').innerHTML = '<legend>或選擇指定段落</legend>' + state.data.paragraphs.filter((p) => p.translation).map((p) => `<label><input type="checkbox" data-translation-paragraph="${p.number}"> ${dse ? escapeHtml(window.DseReadingTranslations?.get(p, 'label') || p.label || `第 ${p.number} 段`) : `第 ${escapeHtml(p.label || p.number)} 段`}</label>`).join('');
   const translated = state.data.paragraphs.some((p) => p.translation); el.translationAll.disabled = !translated; el.translationAll.checked = false; $('[data-translation-availability]').hidden = translated;
   $('[data-translation-availability]').textContent = state.data.translationLoadFailed ? '中文翻譯暫時未能載入；你仍可閱讀英文及作答，請稍後重新整理。' : '這篇文章的完整中文翻譯正在逐篇整理中。';
-  if (dse) state.data.paragraphs.forEach((paragraph) => { if (paragraph.table) $(`#paragraph-${paragraph.number} .passage-text-block`).insertAdjacentHTML('beforeend', renderSourceTable(paragraph.table, null, 'passage', paragraph.number)); });
   renderScanTags();
 }
 function normalizedOption(option) { return typeof option === "string" ? { value: option, label: option, translation: "" } : option; }
@@ -489,12 +492,13 @@ function renderQuestionControls(question) {
 }
 function renderSourceTable(table, question = null, scope = 'question', paragraphNumber = null) {
   const columns = Math.max(...table.rows.map(row => row.reduce((count, cell) => count + (cell.colSpan || 1), 0)));
-  return `<div class="source-table-scroll" role="region" aria-label="${escapeHtml(table.caption || 'Source table')}" tabindex="0"><table class="source-table${table.compact ? ' is-compact' : ''}${table.flow ? ' is-flow' : ''}${columns > 2 ? ' is-wide' : ''}">${table.caption ? `<caption>${escapeHtml(table.caption)}${dseTranslationCopy(table, 'caption', scope, paragraphNumber)}</caption>` : ''}<tbody>${table.rows.map((row) => `<tr>${row.map((cell, cellIndex) => {
+  const renderText = text => scope === 'passage' ? interactiveWords(text, `p${paragraphNumber}-table`, true) : escapeHtml(text);
+  return `<div class="source-table-scroll" role="region" aria-label="${escapeHtml(table.caption || 'Source table')}" tabindex="0"><table class="source-table${table.compact ? ' is-compact' : ''}${table.flow ? ' is-flow' : ''}${columns > 2 ? ' is-wide' : ''}">${table.caption ? `<caption>${renderText(table.caption)}${dseTranslationCopy(table, 'caption', scope, paragraphNumber)}</caption>` : ''}<tbody>${table.rows.map((row) => `<tr>${row.map((cell, cellIndex) => {
     const item = typeof cell === 'string' ? { text: cell } : cell;
     const tag = item.header ? 'th' : 'td';
     const fields = (item.parts || (item.part ? [item.part] : [])).map((key) => question?.parts?.find((entry) => entry.key === key)).filter(Boolean);
     const controls = fields.map((part) => { const name = `q${question.number}_${part.key}`; const control = renderAnswerControl(part, name, name); return fields.length > 1 ? `<div class="table-answer-field"><span>${escapeHtml(part.label)}${dseTranslationCopy(part, 'label')}</span>${control}</div>` : dseTranslationCopy(part, 'label') + control; }).join('');
-    return `<${tag}${item.colSpan > 1 ? ` colspan="${item.colSpan}"` : ''}${item.rowSpan > 1 ? ` rowspan="${item.rowSpan}"` : ''}>${escapeHtml(item.text || '')}${typeof cell === 'string' ? dseTranslationCopy(row, cellIndex, scope, paragraphNumber) : dseTranslationCopy(cell, 'text', scope, paragraphNumber)}${controls}</${tag}>`;
+    return `<${tag}${item.colSpan > 1 ? ` colspan="${item.colSpan}"` : ''}${item.rowSpan > 1 ? ` rowspan="${item.rowSpan}"` : ''}>${renderText(item.text || '')}${typeof cell === 'string' ? dseTranslationCopy(row, cellIndex, scope, paragraphNumber) : dseTranslationCopy(cell, 'text', scope, paragraphNumber)}${controls}</${tag}>`;
   }).join('')}</tr>`).join('')}</tbody></table></div>`;
 }
 function updateQuestionTranslations() {
@@ -765,7 +769,8 @@ async function loadAudioTimings(item, article) {
   syncWord(item);
 }
 function setupAudio() {
-  const item = AUDIO_MANIFEST[ARTICLE_ID] || AUDIO_MANIFEST.items?.[ARTICLE_ID];
+  const manifest = state.system === 'dse' ? window.EDMUND_DSE_READING_AUDIO || {} : AUDIO_MANIFEST;
+  const item = manifest[ARTICLE_ID] || manifest.items?.[ARTICLE_ID];
   state.audioItem = item ? { ...item } : null; el.audio.pause(); el.audio.currentTime = 0;
   $$('.spoken-word.is-active').forEach((node) => node.classList.remove('is-active'));
   [el.audioToggle,el.audioBack,el.audioSeek,el.audioRate,el.sync].forEach((node) => { node.disabled = !item?.src; });

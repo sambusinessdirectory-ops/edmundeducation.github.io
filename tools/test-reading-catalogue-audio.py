@@ -21,6 +21,37 @@ batch = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(batch)
 
 
+class DsePronunciationTests(unittest.TestCase):
+    def setUp(self):
+        batch.configure_system("dse")
+
+    def tearDown(self):
+        batch.configure_system("ielts")
+
+    def test_printed_sound_effect_keeps_its_original_word_label(self):
+        sentence = "BOOOOOOOOMMMM!!!!"
+        speech = batch.spoken_sentence(sentence)
+        self.assertEqual(speech, "Boom!!!!")
+        self.assertEqual(batch.display_word_timings(sentence, speech, [["Boom", 0.1, 0.8]]),
+                         [["BOOOOOOOOMMMM", 0.1, 0.8]])
+        with self.assertRaises(ValueError):
+            batch.display_word_timings(sentence, speech, [["Wrong", 0.1, 0.8]])
+
+    def test_only_affected_article_cache_changes(self):
+        generator = batch.load_generator(ROOT)
+        for text, changed in (("A normal sentence.", False), ("BOOOOOOOOMMMM!!!!", True)):
+            payload = {"paragraphs": [{"text": text}]}
+            _, digest = batch.sentence_plan(payload, generator, "recipe")
+            legacy = hashlib.sha256(f"recipe\0{batch.source_hash(payload)}".encode()).hexdigest()
+            self.assertEqual(digest != legacy, changed)
+        affected = [article["id"] for article in batch.load_catalogue(ROOT) if batch.pronunciation_aliases(article)]
+        self.assertEqual(affected, ["dse-2023-a"])
+
+    def test_ielts_pronunciation_is_unchanged(self):
+        batch.configure_system("ielts")
+        self.assertEqual(batch.spoken_sentence("BOOOOOOOOMMMM!!!!"), "BOOOOOOOOMMMM!!!!")
+
+
 class SentencePlanTests(unittest.TestCase):
     def setUp(self):
         self.generator = batch.load_generator(ROOT)

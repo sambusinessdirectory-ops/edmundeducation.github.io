@@ -25,10 +25,59 @@ import soundfile as sf
 RELEASE = "v1-catalogue-20260829-pause065-1"
 MANIFEST = "reading-comprehension-audio-manifest.js"
 PRESERVED_ARTICLES = frozenset({"p1-069-albert-einstein"})
+SYSTEM = "ielts"
+MANIFEST_NAMES = ("EDMUND_READING_AUDIO", "EDMUND_READING_AUDIO_META")
+TIMING_DIRECTORY = "reading-comprehension-audio-data"
 MODEL_SHA256 = "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5"
 VOICES_SHA256 = "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
 WORD_PATTERN = re.compile(r"[^\W_]+(?:[\u2019'][^\W_]+)*(?:-[^\W_]+)*", re.UNICODE)
 WORKER = {}
+DSE_SPOKEN_FORMS = {"BOOOOOOOOMMMM": "Boom", "Ermmm": "Erm", "urghh": "Ugh", "Arggghhhh": "Argh"}
+
+
+def pronunciation_aliases(payload: dict) -> dict:
+    if SYSTEM != "dse":
+        return {}
+    words = {word for paragraph in payload["paragraphs"] for word in WORD_PATTERN.findall(paragraph["text"])}
+    return {word: spoken for word, spoken in DSE_SPOKEN_FORMS.items() if word in words}
+
+
+def spoken_sentence(sentence: str) -> str:
+    if SYSTEM != "dse":
+        return sentence
+    return WORD_PATTERN.sub(lambda match: DSE_SPOKEN_FORMS.get(match.group(), match.group()), sentence)
+
+
+def display_word_timings(sentence: str, speech: str, words: list) -> list:
+    display = WORD_PATTERN.findall(sentence)
+    spoken = WORD_PATTERN.findall(speech)
+    if len(display) != len(spoken) or [word[0] for word in words] != spoken:
+        raise ValueError("Pronunciation aliases must retain one timing per printed word")
+    return [[label, word[1], word[2]] for label, word in zip(display, words)]
+
+
+def configure_system(system: str) -> None:
+    global SYSTEM, RELEASE, MANIFEST, PRESERVED_ARTICLES, MANIFEST_NAMES, TIMING_DIRECTORY
+    if system not in ("ielts", "dse"):
+        raise ValueError(f"Unknown reading system: {system}")
+    SYSTEM = system
+    RELEASE = "v1-dse-20260904-pause065-1" if system == "dse" else "v1-catalogue-20260829-pause065-1"
+    MANIFEST = "dse-reading-audio-manifest.js" if system == "dse" else "reading-comprehension-audio-manifest.js"
+    PRESERVED_ARTICLES = frozenset() if system == "dse" else frozenset({"p1-069-albert-einstein"})
+    MANIFEST_NAMES = ("EDMUND_DSE_READING_AUDIO", "EDMUND_DSE_READING_AUDIO_META") if system == "dse" else ("EDMUND_READING_AUDIO", "EDMUND_READING_AUDIO_META")
+    TIMING_DIRECTORY = "dse-reading-audio-data" if system == "dse" else "reading-comprehension-audio-data"
+
+
+def narration_paragraph_text(paragraph: dict) -> str:
+    # Keep this projection aligned with readingNarrationParagraphText in the UI.
+    table = paragraph.get("table")
+    if not table:
+        return paragraph["text"]
+    parts = [paragraph["text"], table.get("caption", "")]
+    parts.extend(cell if isinstance(cell, str) else cell.get("text", "")
+                 for row in table.get("rows", []) for cell in row)
+    return "\n".join(text.strip() if re.search(r"[.!?]$", text.strip()) else text.strip() + "."
+                     for text in parts if text.strip())
 
 
 def load_generator(root: Path):
@@ -67,9 +116,11 @@ def voice_recipe(generator, helpers) -> dict:
 
 
 def load_manifest(path: Path) -> tuple[dict, dict]:
+    if SYSTEM == "dse" and not path.exists():
+        return {}, {}
     source = path.read_text(encoding="utf-8")
     result = []
-    for name in ("EDMUND_READING_AUDIO", "EDMUND_READING_AUDIO_META"):
+    for name in MANIFEST_NAMES:
         match = re.search(rf"window\.{name}\s*=\s*Object\.freeze\(\s*", source)
         if not match:
             raise ValueError(f"Missing {name} in {path}")
@@ -81,14 +132,18 @@ def load_manifest(path: Path) -> tuple[dict, dict]:
 
 
 def load_catalogue(root: Path) -> list[dict]:
-    catalogue = json.loads((root / "reading-comprehension-catalogue.json").read_text())
+    catalogue = json.loads((root / ("dse-reading-catalogue.json" if SYSTEM == "dse" else "reading-comprehension-catalogue.json")).read_text())
+    rows = ([entry for year in catalogue["years"] if year["year"] != 2024
+             for entry in year["sections"].values() if entry] if SYSTEM == "dse" else catalogue["articles"])
     seen, articles = set(), []
-    for row in catalogue["articles"]:
+    for row in rows:
         article_id = row["id"]
         if not re.fullmatch(r"[a-z0-9-]+", article_id) or article_id in seen:
             raise ValueError(f"Invalid or duplicate article ID: {article_id}")
         seen.add(article_id)
-        payload = json.loads((root / "reading-comprehension-data" / f"{article_id}.json").read_text())
+        payload = json.loads((root / ("dse-reading-data" if SYSTEM == "dse" else "reading-comprehension-data") / f"{article_id}.json").read_text())
+        if SYSTEM == "dse":
+            payload["paragraphs"] = [{**paragraph, "text": narration_paragraph_text(paragraph)} for paragraph in payload["paragraphs"]]
         if payload.get("id") != article_id or not payload.get("paragraphs"):
             raise ValueError(f"Invalid article: {article_id}")
         for number, paragraph in enumerate(payload["paragraphs"], 1):
@@ -104,7 +159,7 @@ def expanded_entry(root: Path, article_id: str, entry: dict) -> dict:
     if "words" in entry or not entry.get("timingsSrc"):
         return entry
     path = (root / entry["timingsSrc"].lstrip("/")).resolve()
-    if not path.is_relative_to(root.resolve() / "reading-comprehension-audio-data"):
+    if not path.is_relative_to(root.resolve() / TIMING_DIRECTORY):
         raise ValueError(f"Unexpected word timing path: {article_id}")
     timing = json.loads(path.read_text())
     if timing.get("articleId") != article_id or timing.get("sourceSha256") != entry.get("sourceSha256"):
@@ -149,11 +204,12 @@ def validate_entry(payload: dict, entry: dict, path: Path | None = None) -> None
             raise ValueError(f"Silent or truncated narration: {path}")
 
 
-def init_worker(root: str, output: str, model: str, voices: str, alignment_cache: str | None, threads: int, recipe_hash: str) -> None:
+def init_worker(root: str, output: str, model: str, voices: str, alignment_cache: str | None, threads: int, recipe_hash: str, system: str = "ielts") -> None:
     import onnxruntime as ort
     from faster_whisper import WhisperModel
     from kokoro_onnx import Kokoro
 
+    configure_system(system)
     generator = load_generator(Path(root))
     options = ort.SessionOptions()
     options.intra_op_num_threads = threads
@@ -185,6 +241,9 @@ def sentence_plan(payload: dict, generator, recipe_hash: str) -> tuple[list[list
     if paragraphs != original:
         # Changed sentence boundaries must not reuse old numbered WAV checkpoints.
         cache_key += "\0joined-initials-v1\0" + json.dumps(paragraphs, ensure_ascii=False, separators=(",", ":"))
+    aliases = pronunciation_aliases(payload)
+    if aliases:
+        cache_key += "\0pronunciation-aliases-v1\0" + json.dumps(aliases, sort_keys=True)
     return paragraphs, hashlib.sha256(cache_key.encode()).hexdigest()
 
 
@@ -201,12 +260,13 @@ def generate_article(payload: dict) -> dict:
         paragraph_start = elapsed / sample_rate
         parts = parts_by_paragraph[paragraph_index]
         for sentence_index, sentence in enumerate(parts):
+            speech = spoken_sentence(sentence)
             chunk_key = f"{paragraph_index:03}-{sentence_index:03}"
             waveform, timed = cache / f"{chunk_key}.wav", cache / f"{chunk_key}.json"
             if waveform.is_file():
                 chunk, rate = sf.read(waveform, dtype="float32")
             else:
-                chunk, rate = WORKER["kokoro"].create(helpers.spoken_text(sentence), voice=generator.VOICE, speed=generator.SPEED, lang=generator.LANGUAGE)
+                chunk, rate = WORKER["kokoro"].create(helpers.spoken_text(speech), voice=generator.VOICE, speed=generator.SPEED, lang=generator.LANGUAGE)
                 chunk = np.asarray(chunk, dtype=np.float32)
                 waveform.parent.mkdir(parents=True, exist_ok=True)
                 temporary = waveform.with_name(f".{waveform.name}.{os.getpid()}.tmp")
@@ -221,7 +281,8 @@ def generate_article(payload: dict) -> dict:
                 words = cached["words"]
             else:
                 context_audio = np.concatenate(chunks[-2:]) if chunks else None
-                words = helpers.align_sentence_words(sentence, chunk, rate, 0, WORKER["aligner"], context_audio=context_audio)
+                words = helpers.align_sentence_words(speech, chunk, rate, 0, WORKER["aligner"], context_audio=context_audio)
+                words = display_word_timings(sentence, speech, words)
                 atomic_json(timed, {"sentence": sentence, "words": words})
             if [word[0] for word in words] != WORD_PATTERN.findall(sentence):
                 raise ValueError(f"Sentence word labels differ: {article_id}:{chunk_key}")
@@ -251,7 +312,8 @@ def generate_article(payload: dict) -> dict:
     validate_entry(payload, entry, temporary)
     temporary.replace(path)
     record = {"article": article_id, "recipeSha256": WORKER["recipeHash"], "audioSha256": file_hash(path),
-              "bytes": path.stat().st_size, "entry": entry, "generationSeconds": round(time.monotonic() - started, 2)}
+              "bytes": path.stat().st_size, "entry": entry, "generationSeconds": round(time.monotonic() - started, 2),
+              "pronunciationAliases": pronunciation_aliases(payload)}
     atomic_json(output / "articles" / f"{article_id}.json", record)
     return record
 
@@ -263,6 +325,8 @@ def checkpoint(payload: dict, output: Path, recipe_hash: str) -> dict | None:
     record = json.loads(path.read_text())
     if record.get("recipeSha256") != recipe_hash:
         raise ValueError(f"Refusing to mix voice recipes: {path}")
+    if record.get("pronunciationAliases", {}) != pronunciation_aliases(payload):
+        raise ValueError(f"Pronunciation plan changed: {path}")
     entry = record["entry"]
     audio_path = output / entry["path"]
     if not audio_path.is_file() or file_hash(audio_path) != record["audioSha256"]:
@@ -290,8 +354,8 @@ def build_manifest(root: Path, output: Path, articles: list[dict], recipe_hash: 
     meta = {**baseline_meta, "buildVersion": RELEASE, "voice": "bf_isabella", "recipeSha256": recipe_hash,
             "count": len(entries), "catalogueCount": len(articles), "complete": not missing}
     content = "/* Generated by tools/generate-reading-catalogue-audio.py. */\n"
-    content += f"window.EDMUND_READING_AUDIO = Object.freeze({json.dumps(entries, ensure_ascii=False, separators=(',', ':'))});\n"
-    content += f"window.EDMUND_READING_AUDIO_META = Object.freeze({json.dumps(meta, separators=(',', ':'))});\n"
+    content += f"window.{MANIFEST_NAMES[0]} = Object.freeze({json.dumps(entries, ensure_ascii=False, separators=(',', ':'))});\n"
+    content += f"window.{MANIFEST_NAMES[1]} = Object.freeze({json.dumps(meta, separators=(',', ':'))});\n"
     temporary = output / f".{MANIFEST}.tmp"
     temporary.write_text(content, encoding="utf-8")
     temporary.replace(output / MANIFEST)
@@ -300,6 +364,7 @@ def build_manifest(root: Path, output: Path, articles: list[dict], recipe_hash: 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--system", choices=("ielts", "dse"), default="ielts")
     parser.add_argument("--source-root", type=Path, required=True)
     parser.add_argument("--output-root", type=Path, required=True)
     parser.add_argument("--model", type=Path)
@@ -312,6 +377,7 @@ def main() -> int:
     parser.add_argument("--require-complete", action="store_true")
     parser.add_argument("--background", action="store_true", help="Start a resumable local batch with generation.log and build-progress.json")
     args = parser.parse_args()
+    configure_system(args.system)
     if not 1 <= args.workers <= 4 or not 1 <= args.threads <= 8:
         parser.error("workers must be 1-4 and threads must be 1-8")
     if not args.manifest_only and (not args.model or not args.voices):
@@ -365,7 +431,7 @@ def main() -> int:
         })
     progress("running")
     initargs = (str(root), str(output), str(args.model.resolve()), str(args.voices.resolve()),
-                str(args.alignment_cache.resolve()) if args.alignment_cache else None, args.threads, recipe_hash)
+                str(args.alignment_cache.resolve()) if args.alignment_cache else None, args.threads, recipe_hash, args.system)
     with concurrent.futures.ProcessPoolExecutor(max_workers=args.workers, mp_context=multiprocessing.get_context("spawn"), initializer=init_worker, initargs=initargs) as pool:
         futures = {pool.submit(generate_article, payload): payload["id"] for payload in pending}
         for future in concurrent.futures.as_completed(futures):
