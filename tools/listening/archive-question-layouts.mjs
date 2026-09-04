@@ -66,7 +66,7 @@ export const tasksByYear = {
    ['Wild animals in Hong Kong','Helen','✓',`Most people are interested in animals because they can be ${q(14)} or ${q(15)}.`],['Wild animals in Hong Kong','Mike',yn(16),'Animals move in different ways.'],['Wild animals in Hong Kong','John','✓',`Animals are ${q(17)}.`],
    ['Important places in Hong Kong','Helen',yn(18),`Most students ${q(19)}.`],['Important places in Hong Kong','Mike','✗',`Places don’t move — ${q(20)}.`],['Important places in Hong Kong','John','✓','Can find exciting stories about each place.'],
    ['Famous people in Hong Kong','Helen','?','Probably too busy to speak to us.'],['Famous people in Hong Kong','Mike',yn(21),q(22)],['Famous people in Hong Kong','John','✗',`Only meet famous people students are not interested in, e.g. ${q(23)}.`],
-   [`Hong Kong ${q(13)}`,'Helen','✗','This theme is too common.'],['Same theme','Mike',yn(24),q(25)],['Same theme','John','✓',`All of them are ${q(26)}, especially the ${q(27)}.`]
+   [`Hong Kong ${q(13)}`,'Helen','✗','This theme is too common.'],['Same theme','Mike',yn(24),q(25)],['Same theme','John','?',`All of them are ${q(26)}, especially the ${q(27)}.`]
   ])
  ]),
  t(3,15,'A wild boar incident','Helen is now interviewing Neelay Shah who works for the Agriculture, Fisheries and Conservation Department (the AFCD). Complete the notes by filling in the missing information in the spaces provided.',[
@@ -135,8 +135,8 @@ export const tasksByYear = {
   table('Ms Reyes and Ms Chan think phones should be used…',['Person','Tick ONE option only'],[['Ms Reyes',pick(9,['in Physics classes only','in language classes only','in both Physics and language classes','in no classes'])],['Ms Chan',pick(10,['in Physics classes only','in language classes only','in both Physics and language classes','in no classes'])]]),
   h('Other request from students'),p(`Install a ${q(11)} station`),table('Possible locations',['Possible locations','Comments'],[['Corridor next to the playground',`Concerns about ${q(12)}`],[q(13),`A good idea because ${q(14)}`]])
  ]),
- t(2,13,'Mentor app','Sarah is meeting with two other members of the IT Club, Aaron and Rachel, to discuss a new app that the school is going to promote to senior students. Listen to the discussion and write the information in the spaces below. The first one has been provided as an example.',[
-  p(`App name: ${ex('Mentor')}`),h('Purpose of app'),p(`Connect with students ${q(15)}`,`Get help with e.g. homework and ${q(16)}`),
+ t(2,13,'Mentor Mine app','Sarah is meeting with two other members of the IT Club, Aaron and Rachel, to discuss a new app that the school is going to promote to senior students. Listen to the discussion and write the information in the spaces below. The first one has been provided as an example.',[
+  p(`App name: ${ex('Mentor')} Mine`),h('Purpose of app'),p(`Connect with students ${q(15)}`,`Get help with e.g. homework and ${q(16)}`),
   table('Settings: Subject, level and mode',['Setting','Details'],[['Subjects','Any'],['Starting levels',`Beginner, Apprentice and ${q(17)}`],['Modes — Academic',q(18)],['Modes — Hobby',q(19)],['Country and',q(20)],['Example — Country',q(21)],['Example — Specialism',q(22)]]),
   h('Office hours'),p(`Time limit: ${q(23)} and more on weekends.`,'<strong>Reasons:</strong>',`To develop ${q(24)}`,`To show ${q(25)}`),
   // These sentence stems are essential to the task, not inferred answers.

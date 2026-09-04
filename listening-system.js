@@ -1,7 +1,9 @@
-import { createListeningStudy } from './listening-study.js?v=20260827-import1';
+import { createListeningStudy } from './listening-study.js?v=20260904-guide1';
+import { safeBookmarkHref } from './listening-study-core.mjs?v=20260904-guide1';
+import { createDseStudy, getDseGuide, hasDseGuide, loadDseGuide, dseGuideFailed, dseAnswerReplayStart } from './dse-listening-study.mjs?v=20260904-archiveguides1';
 import { loadPractice } from './listening-practice-loader.mjs?v=20260827-import1';
 import { answerTokens, nativeBlock, questionNumbers, handleNativeInput, handleMazeClick } from './dse-listening-question-ui.mjs?v=20260904-nativequestions1';
-import { mountListeningSearch } from './listening-search.mjs?v=20260904-search1';
+import { mountListeningSearch } from './listening-search.mjs?v=20260904-archiveguides1';
 import { upgradeDseImages } from './dse-listening-images.mjs?v=20260904-reconstruct3';
 
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -137,17 +139,18 @@ async function setListeningBookmark(button) {
   const detail = String(button.dataset.bookmarkDetail || `IELTS Listening Practice ${state.practice} · ${context}`).slice(0, 3000);
   const part = Number(button.dataset.bookmarkPart) || state.practicePart;
   const anchor = String(button.dataset.bookmarkAnchor || "");
+  const href = button.dataset.bookmarkHref ? safeBookmarkHref(button.dataset.bookmarkHref) : bookmarkHref(part, anchor);
   const bookmarked = !state.listeningBookmarks.has(itemKey);
   button.disabled = true;
   try {
     await rpc("learning_portal_set_bookmark", {
       p_token: state.token, p_system_key: "listening", p_item_key: itemKey,
       p_title: title, p_detail: detail,
-      p_href: bookmarkHref(part, anchor), p_bookmarked: bookmarked
+      p_href: href, p_bookmarked: bookmarked
     });
     if (state.token !== ownerToken) return;
     if (bookmarked) state.listeningBookmarks.add(itemKey); else state.listeningBookmarks.delete(itemKey);
-    study.updateLocalBookmark({ item_key: itemKey, title, detail, href: bookmarkHref(part, anchor) }, bookmarked);
+    study.updateLocalBookmark({ item_key: itemKey, title, detail, href }, bookmarked);
     if (source) document.querySelectorAll(`[data-bookmark-source="${CSS.escape(source)}"]`).forEach((item) => item.dataset.bookmarked = String(bookmarked));
     document.querySelectorAll(`[data-bookmark-item="${CSS.escape(itemKey)}"]`).forEach((item) => item.dataset.bookmarked = String(bookmarked));
     document.querySelectorAll(`[data-analysis-dialog-bookmark][data-bookmark-item="${CSS.escape(itemKey)}"]`).forEach((item) => { item.textContent = bookmarked ? "★ 已收藏解析" : "☆ 收藏解析"; });
@@ -410,7 +413,7 @@ function renderDseYearGrid() {
     const uploaded = [1, 2, 3, 4].filter((task) => state.dseTracks.has(`${item.year}:part-a:${task}`)).length;
     return `<button class="dse-year-card${available ? " is-available" : ""}" type="button" data-open-dse-year="${item.year}" aria-label="${item.year} DSE Paper 3 Part A">
       <span>${item.year}</span><strong>Paper 3 Part A</strong>
-      <small>${available ? `4 個 Tasks · ${content.questionCount} 題${uploaded ? ` · ${uploaded}/4 段錄音` : ""}` : "教材尚未加入"}</small>
+      <small>${available ? `4 個 Tasks · ${content.questionCount} 題${uploaded ? ` · ${uploaded}/4 段錄音` : ""}${hasDseGuide(item.year) ? " · 答案、解析及雙語錄音稿" : ""}` : "教材尚未加入"}</small>
       <em>${available ? "開始練習 →" : "COMING SOON"}</em>
     </button>`;
   }).join("");
@@ -475,6 +478,7 @@ function updateDseProgress() {
 }
 
 function renderDseTranscript(taskNumber) {
+  if (getDseGuide(state.dseYear)) return dseStudy.renderTranscript(state.dseYear, taskNumber);
   const rows = DSE_CONTENT.get(state.dseYear)?.transcript?.partA?.[taskNumber] || [];
   return `<section class="listening-transcript dse-transcript" aria-labelledby="dse-transcript-title"><div class="listening-transcript__head"><div><p class="eyebrow">TIMESTAMPED TRANSCRIPT</p><div class="transcript-title-row"><h3 id="dse-transcript-title">Task ${taskNumber} 錄音稿</h3><button class="transcript-sync-toggle" type="button" data-toggle-transcript-sync aria-pressed="${state.syncHighlights}">同步高亮：${state.syncHighlights ? "開" : "關"}</button></div></div><p>錄音稿已標示角色姓名；按一下任何一行可跳到該句。</p></div><div class="transcript-lines" data-dse-transcript>${rows.map((row, index) => `<div class="transcript-line" role="button" tabindex="0" data-dse-transcript-line="${index}" data-start="${row.start}"><strong class="dse-speaker">${escapeHtml(row.speaker)}</strong><span>${escapeHtml(row.text)}</span></div>`).join("")}</div></section>`;
 }
@@ -497,6 +501,7 @@ function bindDseTranscriptSync(taskNumber) {
   });
   ["pause", "durationchange", "ended"].forEach((name) => audio.addEventListener(name, () => updateFloatingAudio(audio)));
   host.addEventListener("click", (event) => {
+    if (event.target.closest('button, a')) return;
     const line = event.target.closest("[data-dse-transcript-line]");
     if (!line) return;
     audio.currentTime = Number(line.dataset.start) || 0;
@@ -521,11 +526,28 @@ function renderDseTask(taskNumber) {
   host.innerHTML = `<article class="dse-task"><header class="dse-task__head"><div><p class="eyebrow">TASK ${task.number} · ${task.marks} MARKS</p><h2>${escapeHtml(task.title)}</h2><p>${escapeHtml(task.instruction)}</p></div></header>
     <section class="dse-task-audio"><div><strong>Task ${task.number} 錄音</strong><small>${track ? "已按題冊 Task 精準分段" : "錄音暫時未能載入"}</small></div>${track ? `<audio controls preload="metadata" data-dse-audio-task="${task.number}" src="${escapeHtml(track.url)}">您的瀏覽器不支援音訊播放器。</audio><label>播放速度<select data-dse-speed>${SPEEDS.map((speed) => `<option value="${speed}"${speed === state.speed ? " selected" : ""}>${speed}×</option>`).join("")}</select></label>` : ""}</section>
     <div class="dse-paper-sheet">${task.blocks.map(renderDseBlock).join("")}</div>
-    <aside class="dse-no-analysis"><strong>答案與解析尚未加入</strong><span>目前可完成題目、播放分段錄音及閱讀角色錄音稿；系統不會顯示或猜測答案。</span></aside>
+    ${getDseGuide(state.dseYear) ? dseStudy.renderAnalysis(state.dseYear, task.number) : hasDseGuide(state.dseYear) ? `<aside class="dse-no-analysis" role="status">${dseGuideFailed(state.dseYear) ? '<strong>題解書暫時未能載入</strong><button type="button" class="secondary-button" data-dse-retry-guide>重新載入答案及雙語錄音稿</button>' : '<strong>正在載入答案、解析及雙語錄音稿…</strong>'}</aside>` : '<aside class="dse-no-analysis"><strong>答案與解析尚未加入</strong><span>目前可完成題目、播放分段錄音及閱讀角色錄音稿；系統不會顯示或猜測答案。</span></aside>'}
     ${renderDseTranscript(task.number)}</article>`;
+  dseStudy.mount(host, state.dseYear, task.number);
   bindDseTranscriptSync(task.number);
   setFloatingAudioPart(task.number);
   updateDseProgress();
+}
+
+async function ensureDseGuide(year) {
+  if (!hasDseGuide(year) || getDseGuide(year)) return;
+  try { await loadDseGuide(year); }
+  catch (error) { console.warn('DSE answer guide load failed', error); }
+  if (state.dseYear !== year || state.view !== 'dse') return;
+  const active = document.activeElement;
+  const question = active?.dataset.dseAnswerQ;
+  const selection = question ? [active.selectionStart, active.selectionEnd] : null;
+  renderDseTask(state.dseTask);
+  if (question) {
+    const input = elements.dseWorkspace.querySelector(`[data-dse-answer-q="${question}"]`);
+    input?.focus({preventScroll: true});
+    if (input && selection[0] !== null) input.setSelectionRange(...selection);
+  }
 }
 
 function openDseYear(year, task = 1, options = {}) {
@@ -546,6 +568,7 @@ function openDseYear(year, task = 1, options = {}) {
     <div class="dse-progress"><div><span data-dse-progress-bar></span></div><strong data-dse-progress-copy>0 / ${content.questionCount} 題已填寫</strong></div>
     <div class="listening-part-tabs" role="tablist" aria-label="選擇 Part A Task">${content.tasks.map((item) => `<button type="button" role="tab" data-dse-task-tab="${item.number}" aria-selected="${item.number === state.dseTask}">Task ${item.number}<small>Q${dseTaskQuestionNumbers(item)[0]}–${dseTaskQuestionNumbers(item).at(-1)}</small></button>`).join("")}</div><div data-dse-task-host></div>`;
   renderDseTask(state.dseTask);
+  void ensureDseGuide(selectedYear);
   elements.dseWorkspace.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
@@ -935,6 +958,25 @@ function playQuestionCue(number) {
   updateFloatingAudio(audio);
 }
 
+function playDseQuestionCue(year, task, number) {
+  const row = getDseGuide(year)?.analysis?.[number];
+  const start = dseAnswerReplayStart(row?.audioTime);
+  if (start === null || row.task !== task || state.dseYear !== year) return showToast("這題的錄音時間仍在整理中。");
+  if (state.dseTask !== task) renderDseTask(task);
+  const audio = elements.dseWorkspace.querySelector(`audio[data-dse-audio-task="${task}"]`);
+  if (!audio) return showToast("暫時未能載入這一段錄音，請稍後再試。");
+  document.querySelectorAll('audio').forEach(other => { if (other !== audio) other.pause(); });
+  const seek = () => {
+    if (!audio.isConnected || state.dseYear !== year || state.dseTask !== task) return;
+    audio.currentTime = Number.isFinite(audio.duration) ? Math.min(start, Math.max(0, audio.duration - .1)) : start;
+  };
+  if (audio.readyState < 1) audio.addEventListener('loadedmetadata', seek, {once: true});
+  try { seek(); } catch { /* Safari can defer seeking until metadata is ready. */ }
+  audio.playbackRate = state.speed;
+  audio.play().catch(() => showToast("錄音暫時未能播放，請稍後再按一次播放。"));
+  updateFloatingAudio(audio);
+}
+
 function formatAudioTime(value) {
   const seconds = Number.isFinite(Number(value)) ? Math.max(0, Math.floor(Number(value))) : 0;
   return `${String(Math.floor(seconds / 60)).padStart(2, "0")}:${String(seconds % 60).padStart(2, "0")}`;
@@ -1017,6 +1059,7 @@ function pauseAllAudio() {
 }
 
 const study = createListeningStudy({ state, rpc, escapeHtml, showView, updateRoute, pauseAllAudio, loadAudioCatalogue, toast: showToast, openPractice });
+const dseStudy = createDseStudy({state, escapeHtml, playCue: playDseQuestionCue});
 document.querySelectorAll('[data-listening-search]').forEach(root=>mountListeningSearch(root,{
   onOpen(entry){
     if(entry.section==='dse'){
@@ -1050,6 +1093,7 @@ document.addEventListener("click", (event) => {
   else if (button.matches("[data-home]")) openDashboard();
   else if (button.matches("[data-back-ielts]")) openSection("ielts");
   else if (button.matches("[data-back-dse-years]")) backToDseYears();
+  else if (button.matches("[data-dse-retry-guide]")) void ensureDseGuide(state.dseYear);
   else if (button.matches("[data-dse-task-tab]")) {
     const task = Number(button.dataset.dseTaskTab);
     updateRoute("dse", 0, 0, state.dseYear, task);

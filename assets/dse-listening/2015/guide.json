@@ -1,0 +1,2132 @@
+{
+  "year": 2015,
+  "source": {
+    "title": "2015 DSE Part A · 錄音稿翻譯及參考答案解析",
+    "scope": "Part A Tasks 1–4, Questions 1–58",
+    "status": "Authored reference answers, not an official HKEAA marking scheme.",
+    "questionPaper": "2015 Paper 3 Part A.pdf",
+    "questionDataSha256": "e63f4e09c1a1294045f9bea925f8b6ccafc830f25b32f30533d3d3f00dfdf921",
+    "transcriptDataSha256": "2ec940ede8c665220cd301b4ea1e34923c99c37af9ed0b7e98d73419d127fbf2",
+    "styleReference": "2021 – DSE Listening – 5** Past Paper 題解書 (Edmund Sir); approved 2023 bilingual teaching guide.",
+    "styleReferenceSha256": "4c2f676ddcb720dc059b93378fe8ea7d021832380d466b7a10f0d98eac605593",
+    "timingBasis": "Original year split-track transcript cue boundaries. Audio navigation is approximate; answer spans may cover adjacent source cues when an utterance is split.",
+    "editorialNotes": [
+      "2015 answers and explanations are newly authored from that year's question data and recording transcript; 2021 and 2023 are style references only.",
+      "Original English text, cue boundaries, audio, question controls, images, student answers and Part B are unchanged. Guide-only speaker labels correct clear examiner instructions to Narrator and use neutral grouped labels for mixed turns or unreliable parent attribution; no individual turn identity is guessed. Raw transcript files remain unchanged.",
+      "Traditional Chinese translations retain all available transcript cues, including examiner instructions and cross-track fragments. Proper-name spellings in Chinese annotations follow the question paper where available; untranslated/missing speech is not invented."
+    ]
+  },
+  "transcriptNote": "按 2015 年錄音逐段翻譯。點擊一行可跳至相應錄音附近，時間為近似導航位置。",
+  "analysisNote": "以下為按錄音及題目編寫的參考答案與解析，並非考評局官方評分準則。",
+  "questions": {
+    "1": {
+      "title": "音樂會網站",
+      "instruction": "Nancy 正與 Glitch 公司的網頁設計師 Paul Caruso 會面，商討為音樂會建立網站。請聆聽會議，把缺漏資料填入筆記表的空格。其中一項已作為例子。",
+      "blocks": [
+        "客戶：香港文化藝術基金會。活動名稱：「音樂：{{1}}」。",
+        "詳情｜項目／資料。日期：2015 年 {{2}}。場地：香港文化中心的 {{3}}。時間：晚上 7:30–9:30（例子）；不設 {{4}}。參加者類別：年齡介乎 {{5}}；應屬於學校組合或 {{6}} 組合；歡迎 {{7}} 參加者！",
+        "第 8 題：表演類型（在正確方格加剔號）。A 爵士樂；B 合唱；C 說唱；D 民謠；E 搖滾。",
+        "其他資料：不接受 {{9}}。",
+        "申請方法",
+        "表演者須提交影片，內容包括：自我介紹；{{10}}；他們遇過的一件趣事。",
+        "購票方法｜方法／詳情。{{11}}：點擊連結或 {{12}} 形狀的圖示。電話：{{13}}。電郵：{{14}}。親身購票地點：{{15}}。",
+        "網站設計",
+        "標誌設計圖片由左至右為 A、B、C、D。A：結他圖案；B：多人舉起雙手，文字「第一名獎品：iPad Mini」；C：霹靂舞者，文字「秀出你的才華」；D：單一女孩，文字「才藝表演，投入藝術」。",
+        "第 16 題：標誌設計（只選一項）。A 設計 A；B 設計 B；C 設計 C；D 設計 D。",
+        "第 17 題：背景顏色（只選一項）。A 藍色；B 黑色；C 白色；D 紅色。"
+      ]
+    },
+    "2": {
+      "title": "表演準則與贊助商",
+      "instruction": "Nancy 正與香港文化藝術基金會同事 Lily 和 Mitchell 商討音樂會。A 部分：聆聽會議，把缺漏資料填入下表。B 部分：指出你認為三人選了哪家公司作贊助商，並提出理由。",
+      "blocks": [
+        "任務二：A 部分",
+        "表演準則｜準則／解釋。A 表演質素：沒有 {{18}}；聽起來應該 {{19}}。B 情感感染力：需要令觀眾 {{20}}。C 受觀眾歡迎程度：觀眾應 {{21}}；表演不可 {{22}}。D 教育價值：觀眾可以認識 {{23}}。E 表演者選擇的音樂：應為 {{24}}。F 每場表演時限：長度 {{25}}；原因 {{26}}。G 演出類型：我們需要 {{27}}。",
+        "任務二：B 部分",
+        "Nancy、Lily 和 Mitchell 正商討選哪家公司做贊助商。選出你認為他們選中的公司，並根據他們的說話寫下三個選擇理由。",
+        "候選贊助商｜公司／簡介。Punctual Pizzas：香港首屈一指的本地薄餅公司。Bali Gyms：美國首屈一指的健身中心，現已進駐香港。Dragonhead Sportswear：香港製造，香港人穿着。Kempes Assurance：供六十歲以上人士使用的退休基金。Fortuno Cigarettes：最受年輕人歡迎的香煙。",
+        "第 28 題：所選公司（只選一項）。A Punctual Pizzas；B Bali Gyms；C Dragonhead Sportswear；D Kempes Assurance；E Fortuno Cigarettes。",
+        "你認為他們選擇該公司的理由：{{29}}；{{30}}；{{31}}。"
+      ]
+    },
+    "3": {
+      "title": "表演者的故事",
+      "instruction": "Nancy、Lily 和 Mitchell 正開會商討部分申請在音樂會演出的表演者。請聆聽會議，把缺漏資料填入以下空格。",
+      "blocks": [
+        "Liberty Sisters 的故事",
+        "圖片：三位表演者。",
+        "她們在一個星期日上午於美孚民政會堂演出。Amanda {{32}}，必須趕往音樂會。她到達後上台，才發現那是 {{33}}。她的反應是 {{34}}。",
+        "Selena Cheung 的故事",
+        "圖片：一位拿着咪高峰的歌手。",
+        "她參加試鏡，唱歌時留意到 {{35}}。歌曲結束後，她走過去坐下，並 {{36}}。之後她唱了一首 {{37}}，但最後 {{38}}。",
+        "Hilton College 樂隊的故事",
+        "圖片：一隊學校樂隊。",
+        "他們在一位 {{39}} 的兒子生日派對演出。第一首歌時，主唱非常緊張，而且 {{40}}。然後他走到舞台後方，並 {{41}}。之後樂隊決定 {{42}}。",
+        "組合｜名稱／簡介／值得留意的特色。The Cheerful Glee Club：他們 {{43}} 地唱歌及製造音樂；特色 {{44}}。The Flying Sticks：她們使用傳統中國樂器；特色 {{45}}。St. Patrick’s Big Beats：他們 {{46}} 地演奏樂器；特色 {{47}}。"
+      ]
+    },
+    "4": {
+      "title": "音樂真人騷",
+      "instruction": "Nancy 正與香港室樂團的 Wendy Craik 博士一同參與電台節目 Power Focus。請聆聽節目，回答以下問題。不必以完整句子作答，其中一題已作為例子。",
+      "blocks": [
+        "辯題：音樂真人騷正在扼殺音樂業",
+        "Nancy Chow：反對辯題",
+        "論點一",
+        "Nancy 說音樂真人騷提供了什麼？{{48}}",
+        "她為什麼認為流行音樂對年輕人重要？{{49}}",
+        "論點二",
+        "根據 Nancy 的說法，反對這些節目的人常怎樣批評它們？{{50}}",
+        "Nancy 提到哪幾種音樂，說明「音樂業的多樣性」？嘻哈、民謠和搖滾（例子）。",
+        "論點三",
+        "Nancy 說這些節目可以怎樣幫助大家成為更好的歌手？{{51}}",
+        "根據 Nancy 的說法，這些節目有助破除哪個「迷思」？{{52}}",
+        "Wendy Craik：支持辯題",
+        "論點一",
+        "Wendy 為何稱這些節目為「電視卡拉 OK」？{{53}}；{{54}}。",
+        "論點二",
+        "根據 Wendy 的說法，節目系列結束後會發生什麼事？{{55}}",
+        "她為何說這對其他歌手不公平？{{56}}",
+        "論點三",
+        "根據 Wendy 的說法，這些節目兜售什麼「謊言」？{{57}}",
+        "這個謊言造成什麼後果？{{58}}"
+      ]
+    }
+  },
+  "transcript": {
+    "1": [
+      {
+        "start": 0.08,
+        "end": 8.26,
+        "speaker": "Narrator",
+        "text": "Task 1. Nancy is meeting Paul Caruso, a web designer from a company called Glitch, to",
+        "zh": "任務一。Nancy 正與 Glitch 公司的網頁設計師 Paul Caruso 會面，"
+      },
+      {
+        "start": 8.26,
+        "end": 15.08,
+        "speaker": "Narrator",
+        "text": "discuss creating a website for the concert. Listen to the meeting and fill in the missing",
+        "zh": "商討為音樂會建立網站。請聆聽會議，並把缺漏的"
+      },
+      {
+        "start": 15.08,
+        "end": 22.05,
+        "speaker": "Narrator",
+        "text": "information in the spaces provided in the note sheet. One has been done for you as an",
+        "zh": "資料填入筆記表的空格。已有一項作為"
+      },
+      {
+        "start": 22.05,
+        "end": 30.18,
+        "speaker": "Narrator",
+        "text": "example. You will have 30 seconds to study the task. At the end of the task, you will",
+        "zh": "例子。你有三十秒閱讀題目。任務結束後，你將"
+      },
+      {
+        "start": 30.18,
+        "end": 68.76,
+        "speaker": "Narrator／Nancy and Paul Caruso",
+        "text": "have one minute to tidy up your answers. Thanks for coming today, Paul. I'm Nancy",
+        "zh": "有一分鐘整理答案。謝謝你今天過來，Paul。我是 Nancy"
+      },
+      {
+        "start": 68.76,
+        "end": 77.61,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "Chow. We spoke on the phone. Hi, Nancy. Nice to meet you. Right, well, thanks for agreeing",
+        "zh": "Chow，我們曾通電話。你好，Nancy，很高興認識你。好的，謝謝你答應"
+      },
+      {
+        "start": 77.61,
+        "end": 83.89,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "to design the website for our concert. It's my pleasure. We're really looking for",
+        "zh": "替我們的音樂會設計網站。不用客氣。現階段，我們想要的"
+      },
+      {
+        "start": 83.89,
+        "end": 91.94,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "something quite simple at this stage. OK, not a problem. What's the name of this",
+        "zh": "其實是比較簡單的網站。好的，沒問題。順帶一問，這個"
+      },
+      {
+        "start": 91.94,
+        "end": 100.89,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "concert, by the way? It's called Music, A Night to Remember. OK, Music, A Night to",
+        "zh": "音樂會叫什麼名字？叫《音樂：難忘之夜》。好的，《音樂：難忘"
+      },
+      {
+        "start": 100.89,
+        "end": 109.24,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "Remember. Right. OK, what we normally have on a page like this is like the basic",
+        "zh": "之夜》。明白。這類網頁通常會列出"
+      },
+      {
+        "start": 109.24,
+        "end": 115.35,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "details that you want the public to know about, like, say, when the concert will",
+        "zh": "你想讓公眾知道的基本資料，例如音樂會什麼時候"
+      },
+      {
+        "start": 115.35,
+        "end": 126.64,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "take place. OK, well, it'll be held on November the 24th. November the 24th, this",
+        "zh": "舉行。好的，會在十一月二十四日舉行。十一月二十四日，是"
+      },
+      {
+        "start": 126.64,
+        "end": 136.02,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "year, I presume. Yeah, 2015. And the location? Where will it be? At the",
+        "zh": "今年吧？對，2015 年。地點呢？在哪裡舉行？在"
+      },
+      {
+        "start": 136.02,
+        "end": 144.11,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "Central Theatre of the Hong Kong Cultural Centre. OK, and the time. When",
+        "zh": "香港文化中心的中央劇院。好的，時間呢？"
+      },
+      {
+        "start": 144.11,
+        "end": 156.39,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "will it start? It'll start at half past seven, so from 7.30 to 9.30pm. Oh, another thing,",
+        "zh": "幾點開始？七點半開始，即晚上七點半至九點半。還有，"
+      },
+      {
+        "start": 156.97,
+        "end": 165.68,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "there is no interval. If you could mention that on the website. So, no interval? I'll",
+        "zh": "不設中場休息，請在網站上提一提。不設中場休息？我會"
+      },
+      {
+        "start": 165.68,
+        "end": 174.52,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "make that clear. And who can participate? Well, young people between the ages of 13",
+        "zh": "清楚說明。誰可以參加？十三"
+      },
+      {
+        "start": 174.52,
+        "end": 181.92,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "and 18 can participate, and they should either belong to a school group or an",
+        "zh": "至十八歲的青少年可以參加，而且應屬於學校組合或"
+      },
+      {
+        "start": 181.92,
+        "end": 191.11,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "independent group. So, just groups? No, no, solo participants are welcome too. What",
+        "zh": "獨立組合。那只收組合嗎？不是，亦歡迎個人參加。你們"
+      },
+      {
+        "start": 191.11,
+        "end": 197.19,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "types of performance are you looking for? What kind of music can they, are they",
+        "zh": "想要哪類表演？他們可以演出什麼"
+      },
+      {
+        "start": 197.19,
+        "end": 204.93,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "allowed to perform? Well, it can be jazz bands, rap groups or even rock music.",
+        "zh": "類型的音樂？可以是爵士樂隊、說唱組合，甚至搖滾樂。"
+      },
+      {
+        "start": 205.94,
+        "end": 214.44,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "OK, how about dance groups? No, unfortunately, we won't be accepting dance groups, just",
+        "zh": "好的，那舞蹈組合呢？抱歉，我們不接受舞蹈組合，只接受"
+      },
+      {
+        "start": 214.44,
+        "end": 223.38,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "music groups. And how do they apply? Well, they should send in a video, and the video",
+        "zh": "音樂組合。他們怎樣申請？他們應提交影片，影片"
+      },
+      {
+        "start": 223.38,
+        "end": 233.48,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "should contain three things. OK, three things. Yeah, first, it should contain a short video",
+        "zh": "須包含三項內容。好的，三項。對，首先應有一段短片，"
+      },
+      {
+        "start": 233.48,
+        "end": 243.58,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "of the artists introducing themselves. Second, it should have a video of a performance. And",
+        "zh": "由表演者自我介紹。第二，要有一段表演錄像。"
+      },
+      {
+        "start": 243.58,
+        "end": 251.24,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "what was the third thing? Oh, yeah, it should contain a video of them telling a funny story",
+        "zh": "第三項是什麼？對了，應有一段他們講述趣事的影片，"
+      },
+      {
+        "start": 251.24,
+        "end": 258.5,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "about what happened to them when they were performing. All right. How can the public",
+        "zh": "內容是他們表演時遇到的事情。好的，公眾怎樣"
+      },
+      {
+        "start": 258.5,
+        "end": 266.65,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "get their tickets? How can they contact you? Have you got it set up online or? Well, we've",
+        "zh": "購票？怎樣聯絡你們？可以在網上買嗎？我們"
+      },
+      {
+        "start": 266.65,
+        "end": 275.27,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "got four ways for people to buy tickets. Right. First, they should be able to buy tickets",
+        "zh": "提供四種購票方法。好的。第一，大家應能夠"
+      },
+      {
+        "start": 275.27,
+        "end": 284.76,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "online by clicking on a link or an icon in the shape of a shopping trolley. OK, a link",
+        "zh": "在網上點擊連結，或購物車形狀的圖示購票。好的，一個連結"
+      },
+      {
+        "start": 284.76,
+        "end": 298.02,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "or an icon in the shape of a shopping trolley. Secondly, they can call this number 749 48161.",
+        "zh": "或購物車形狀的圖示。第二，可以致電 74948161。"
+      },
+      {
+        "start": 298.12,
+        "end": 312.49,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "Did you get it down? Yes, that's 749 48161. Correct? Yes, that's correct. Thirdly, they",
+        "zh": "記下了嗎？記下了，是 74948161，對嗎？對，正確。第三，"
+      },
+      {
+        "start": 312.49,
+        "end": 332.25,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "can send us an email at information at caf.org. That's o-r-g. OK, the email address is information",
+        "zh": "可以電郵至 information@caf.org，最後是 o-r-g。好的，電郵地址是 information"
+      },
+      {
+        "start": 332.25,
+        "end": 345.66,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "at caf.org. Great. Plus, they can get tickets at the box office. All right. I think I have",
+        "zh": "@caf.org。很好。另外，也可以在售票處購票。好的，我想"
+      },
+      {
+        "start": 345.66,
+        "end": 352.01,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "most of the important information for now. Just a couple of questions about the look of",
+        "zh": "目前已記下大部分重要資料。還想問幾個關於"
+      },
+      {
+        "start": 352.01,
+        "end": 359.93,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "the web page. OK. Let me show you some designs for a logo we've used for this type of event",
+        "zh": "網頁外觀的問題。好的。讓我給你看一些我們以前為這類活動用過的標誌"
+      },
+      {
+        "start": 359.93,
+        "end": 368.76,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "before. We can adapt these a bit, obviously. So, which of these four do you think would",
+        "zh": "設計。當然可以稍作修改。這四個之中，你覺得哪個"
+      },
+      {
+        "start": 368.76,
+        "end": 379.32,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "be the best for the show? OK, let me see. Well, I don't want the one with the breakdancers.",
+        "zh": "最適合這場表演？讓我看看。我不要有霹靂舞者的那個。"
+      },
+      {
+        "start": 379.76,
+        "end": 389.07,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "As I said, it's a music concert. So, that one's out. I'm not sure about the one with the",
+        "zh": "正如我所說，這是音樂會，所以先排除那個。至於有"
+      },
+      {
+        "start": 389.07,
+        "end": 395.89,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "guitar. It gives the impression that we're only looking for serious musicians and not",
+        "zh": "結他的那個，我也不太肯定。它給人的印象是我們只招募認真的樂手，而不是"
+      },
+      {
+        "start": 395.89,
+        "end": 404.62,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "singers. Right. What about the other two? Well, either of these would do, but I think",
+        "zh": "歌手。明白。另外兩個呢？兩個都可以，但我想"
+      },
+      {
+        "start": 404.62,
+        "end": 410.42,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "I'd go for this one, just because it's a bunch of people together, as opposed to just one",
+        "zh": "選這個，純粹因為它是一群人一起，而不是只有一個"
+      },
+      {
+        "start": 410.42,
+        "end": 420.49,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "girl. OK, and what would you like the background colour of this website to be? Oh, I'd like",
+        "zh": "女孩。好的，你想網站背景用什麼顏色？我想"
+      },
+      {
+        "start": 420.49,
+        "end": 427.49,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "it to be red. But it might be difficult to read the words if the background's red. Yeah,",
+        "zh": "用紅色。不過，紅色背景可能令文字難以閱讀。對，"
+      },
+      {
+        "start": 427.69,
+        "end": 435.15,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "that's true. You know what? I think just a simple white background will do, with black",
+        "zh": "有道理。不如就用簡單的白色背景，配黑色"
+      },
+      {
+        "start": 435.15,
+        "end": 443.01,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "or maybe dark blue writing. Great. I can show you a temporary version of the website by",
+        "zh": "或深藍色文字。很好。我下星期就可以給你看網站的初步版本，"
+      },
+      {
+        "start": 443.01,
+        "end": 449.49,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "next week. And, if you like it, we can meet again to discuss adding more information",
+        "zh": "如果你喜歡，我們可以再見面，商討加入更多資料"
+      },
+      {
+        "start": 449.49,
+        "end": 457.29,
+        "speaker": "Nancy and Paul Caruso",
+        "text": "to the website. Thank you very much, Paul. I appreciate it. You're welcome. See you next week.",
+        "zh": "到網站。非常感謝，Paul。真的很感激。不用客氣，下星期見。"
+      },
+      {
+        "start": 459.53,
+        "end": 529.83,
+        "speaker": "Narrator",
+        "text": "That is the end of task one. You now have one minute to tidy up your answers. Task two.",
+        "zh": "任務一完結。你現在有一分鐘整理答案。任務二。"
+      },
+      {
+        "start": 531.42,
+        "end": 538.28,
+        "speaker": "Narrator",
+        "text": "Nancy is meeting with her HKCAF colleagues, Lily and Mitchell, to discuss the concert.",
+        "zh": "Nancy 正與香港文化藝術基金會同事 Lily 和 Mitchell 商討音樂會。"
+      },
+      {
+        "start": 538.98,
+        "end": 545.04,
+        "speaker": "Narrator",
+        "text": "For part A, listen to the meeting and fill in the missing information in the spaces",
+        "zh": "在 A 部分，請聆聽會議，把缺漏資料填入"
+      },
+      {
+        "start": 545.5,
+        "end": 553.63,
+        "speaker": "Narrator",
+        "text": "in the table below. In part B, you have to indicate which company you think Nancy, Lily",
+        "zh": "下表空格。在 B 部分，你須指出你認為 Nancy、Lily"
+      },
+      {
+        "start": 553.63,
+        "end": 561.75,
+        "speaker": "Narrator",
+        "text": "and Mitchell have chosen as the sponsor and provide reasons. You now have 30 seconds to",
+        "zh": "和 Mitchell 選了哪家公司做贊助商，並提供理由。你現在有三十秒"
+      },
+      {
+        "start": 561.75,
+        "end": 568.87,
+        "speaker": "Narrator",
+        "text": "study the task. At the end of the task, you will have one minute to tidy up your answers.",
+        "zh": "閱讀題目。任務結束後，你將有一分鐘整理答案。"
+      }
+    ],
+    "2": [
+      {
+        "start": 0.46,
+        "end": 11.02,
+        "speaker": "Narrator／Nancy, Lily and Mitchell",
+        "text": "Task two. Part A. Hi, Lily. Hi, Mitchell. Hi, Nancy. Hi, Nancy. Thanks for coming. Right.",
+        "zh": "任務二，A 部分。你好，Lily。你好，Mitchell。你好，Nancy。你好，Nancy。謝謝大家過來。"
+      },
+      {
+        "start": 11.48,
+        "end": 18.48,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Before we go ahead and watch all these videos, I think it's important that we decide on what it",
+        "zh": "在開始觀看這些影片之前，我認為我們應先決定"
+      },
+      {
+        "start": 18.48,
+        "end": 25.86,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "is we're looking for. You know, the criteria for us to pick the 10 best applicants to perform",
+        "zh": "究竟在尋找什麼，也就是選出十位最佳申請者"
+      },
+      {
+        "start": 25.86,
+        "end": 34.28,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "at the concert. Okay. Right. Well, I'd say that they must be able to perform to a very high",
+        "zh": "在音樂會演出的準則。好的。我認為他們的演出必須達到很高的"
+      },
+      {
+        "start": 34.28,
+        "end": 40.5,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "standard of quality. I mean, the performance shouldn't have any mistakes. You know,",
+        "zh": "質素，意思是表演不應有任何錯誤，"
+      },
+      {
+        "start": 40.92,
+        "end": 46.56,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "like it's performed by a professional group. Yeah, I agree. But the thing is, I mean,",
+        "zh": "就像專業組合演出那樣。對，我同意。不過，"
+      },
+      {
+        "start": 46.56,
+        "end": 55.22,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "a lot of these groups do sound professional. Yes, but it's still important. Okay. What else?",
+        "zh": "很多組合確實聽起來很專業。是的，但這仍然很重要。還有呢？"
+      },
+      {
+        "start": 56.06,
+        "end": 62.22,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "I personally think that the emotional impact is really important. That should be something we",
+        "zh": "我個人認為情感感染力很重要，是我們"
+      },
+      {
+        "start": 62.22,
+        "end": 68.27,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "should consider. What do you mean? Well, I mean, the performance should excite me.",
+        "zh": "應考慮的因素。什麼意思？我的意思是表演應令我興奮。"
+      },
+      {
+        "start": 68.27,
+        "end": 76.53,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Right. I think I understand. The performance has to make you feel something. Exactly.",
+        "zh": "我明白了。表演要令你有所感受。完全正確。"
+      },
+      {
+        "start": 77.85,
+        "end": 81.81,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "All right. Another thing I'd thought of was related to the audience.",
+        "zh": "好的，我想到另一點，與觀眾有關。"
+      },
+      {
+        "start": 82.63,
+        "end": 88.69,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "I mean, the performance has to be popular with the audience, too. Yeah, totally. It's a concert",
+        "zh": "表演也必須受觀眾歡迎。完全同意，這是供"
+      },
+      {
+        "start": 88.69,
+        "end": 96.03,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "for the paying public. We want people to come and have a good time. Yes, exactly. We need to ask",
+        "zh": "付費公眾欣賞的音樂會。我們希望大家來到後享受愉快時光。正是，我們要問"
+      },
+      {
+        "start": 96.03,
+        "end": 103.58,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "ourselves, will a Hong Kong audience like it? Is the type of music too strange? If it's too strange,",
+        "zh": "自己：香港觀眾會喜歡嗎？音樂類型會否太奇怪？如果太奇怪，"
+      },
+      {
+        "start": 103.94,
+        "end": 110.28,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "they might not like it. Yeah. But even if the audience doesn't like the music, it could still",
+        "zh": "他們可能不喜歡。對，但即使觀眾不喜歡這種音樂，它仍可能"
+      },
+      {
+        "start": 110.28,
+        "end": 116.16,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "be really educational for them. And we should definitely be considering that. Don't you think?",
+        "zh": "很有教育意義。我們也絕對應考慮這點，你不覺得嗎？"
+      },
+      {
+        "start": 116.98,
+        "end": 123.12,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "You know, it's good to be exposed to new types of music. It's important for people to hear",
+        "zh": "接觸新類型的音樂是好事，聽到一些"
+      },
+      {
+        "start": 123.12,
+        "end": 129.48,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "something new. They can learn more about different types of music. Fine. Fair enough.",
+        "zh": "新鮮事物很重要。他們可以多認識不同類型的音樂。好，有道理。"
+      },
+      {
+        "start": 130.68,
+        "end": 134.64,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "I think another criterion is to do with the songs they've chosen to play.",
+        "zh": "我認為另一個準則與他們選擇演奏的歌曲有關。"
+      },
+      {
+        "start": 135.83,
+        "end": 139.27,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "We should reward performers who wrote their own original music.",
+        "zh": "我們應嘉許創作自己原創音樂的表演者。"
+      },
+      {
+        "start": 141.26,
+        "end": 147.22,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "I mean, I always think it's better if they perform their own songs. It shows some originality.",
+        "zh": "我一直覺得演出自己寫的歌較好，這樣能展現原創性。"
+      },
+      {
+        "start": 147.22,
+        "end": 152.02,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Oh, yes, I agree. If they write their own original music.",
+        "zh": "對，我同意，就是自己創作原創音樂。"
+      },
+      {
+        "start": 153.13,
+        "end": 157.93,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Plus, some of the groups seem to have handed in auditions that last over 30 minutes.",
+        "zh": "還有，有些組合提交的試演片似乎長達三十多分鐘。"
+      },
+      {
+        "start": 158.61,
+        "end": 161.51,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "They're just too long. Even if the music was good,",
+        "zh": "太長了，即使音樂很好，"
+      },
+      {
+        "start": 162.35,
+        "end": 167.97,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "I think there should be a time limit. Say, 10 to 15 minutes per performance.",
+        "zh": "我也認為應設時限，例如每場表演十至十五分鐘。"
+      },
+      {
+        "start": 168.27,
+        "end": 172.83,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Oh, yes, absolutely. It might be really boring if it's too long.",
+        "zh": "對，當然，太長可能會非常沉悶。"
+      },
+      {
+        "start": 173.53,
+        "end": 177.27,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Okay. Anything else we should be thinking about?",
+        "zh": "好的，還有其他需要考慮的嗎？"
+      },
+      {
+        "start": 178.11,
+        "end": 183.57,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Yeah. One last thing is that there should be different types of acts. For example,",
+        "zh": "有，最後一點是應有不同類型的演出，例如"
+      },
+      {
+        "start": 184.09,
+        "end": 185.41,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "solo versus group.",
+        "zh": "個人與組合演出。"
+      },
+      {
+        "start": 185.81,
+        "end": 188.41,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Yeah, we should definitely have a variety of music.",
+        "zh": "對，我們一定要有多元化的音樂。"
+      },
+      {
+        "start": 189.09,
+        "end": 191.71,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Yes. Variety of music is important.",
+        "zh": "是的，音樂的多樣性很重要。"
+      },
+      {
+        "start": 192.55,
+        "end": 198.15,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Right. Okay. I think that gives us an idea what we should be considering",
+        "zh": "好的，這樣我們就知道觀看這些影片時"
+      },
+      {
+        "start": 198.15,
+        "end": 200.39,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "while we watch all these videos.",
+        "zh": "應考慮些什麼了。"
+      },
+      {
+        "start": 206.54,
+        "end": 215.9,
+        "speaker": "Narrator",
+        "text": "Task two, part B. Nancy, Lily and Mitchell are discussing which company to choose as a sponsor.",
+        "zh": "任務二，B 部分。Nancy、Lily 和 Mitchell 正商討選哪家公司做贊助商。"
+      },
+      {
+        "start": 216.9,
+        "end": 222.34,
+        "speaker": "Narrator",
+        "text": "Put a tick in the box next to the company you think they choose in the table below",
+        "zh": "請在下表中你認為他們所選公司的旁邊方格加上剔號，"
+      },
+      {
+        "start": 222.34,
+        "end": 228.02,
+        "speaker": "Narrator",
+        "text": "and write down the three reasons for their choice based on what they say.",
+        "zh": "並根據他們的說話，寫下三個選擇理由。"
+      },
+      {
+        "start": 229.25,
+        "end": 234.85,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Okay. That brings me to the second part of today's meeting.",
+        "zh": "好的，這帶到今天會議的第二部分。"
+      },
+      {
+        "start": 236.31,
+        "end": 242.78,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Sponsors. Now, five different companies have expressed an interest in being the sponsor",
+        "zh": "贊助商。目前有五家不同公司表示有興趣"
+      },
+      {
+        "start": 242.78,
+        "end": 249.4,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "for the event. Before we look at them, I'd like to get your initial ideas",
+        "zh": "贊助活動。在查看名單之前，我想先聽聽大家的初步想法，"
+      },
+      {
+        "start": 249.82,
+        "end": 254.72,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "as to what we're looking for. What kind of company do we want?",
+        "zh": "我們有什麼要求？想找哪類公司？"
+      },
+      {
+        "start": 255.76,
+        "end": 260.18,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Well, we want a company that conveys a positive image,",
+        "zh": "我們想找一家形象正面的公司，"
+      },
+      {
+        "start": 260.18,
+        "end": 266.54,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "something that's, say, healthy, not something that would encourage young people to take up",
+        "zh": "例如健康的品牌，而不是鼓勵年輕人養成"
+      },
+      {
+        "start": 266.54,
+        "end": 269.46,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "bad habits, like a beer company, for example.",
+        "zh": "壞習慣的公司，像啤酒公司便不適合。"
+      },
+      {
+        "start": 270.81,
+        "end": 276.29,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Yeah, I'd go along with that. Another thing is that the company should provide products",
+        "zh": "對，我贊成。另一點是公司提供的產品"
+      },
+      {
+        "start": 276.29,
+        "end": 280.98,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "or a service that's useful for young people, not something that might interest",
+        "zh": "或服務應對年輕人有用，而不是只令"
+      },
+      {
+        "start": 280.98,
+        "end": 282.34,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "their parents or grandparents.",
+        "zh": "他們的父母或祖父母感興趣。"
+      },
+      {
+        "start": 283.38,
+        "end": 289.22,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Yeah. And since this is a Hong Kong concert, I'd want it to be a local company,",
+        "zh": "對，而且這是香港的音樂會，我希望贊助商是本地公司，"
+      },
+      {
+        "start": 289.22,
+        "end": 296.09,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "not some big multinational. Right. Well, these are the five companies.",
+        "zh": "不是大型跨國企業。好的，這就是五家公司。"
+      },
+      {
+        "start": 296.95,
+        "end": 306.72,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Punctual Pizzas, Bali Gems, Dragonhead Sportswear, Kemp's Assurance, Fortuno Cigarettes.",
+        "zh": "Punctual Pizzas、Bali Gyms、Dragonhead Sportswear、Kempes Assurance 和 Fortuno Cigarettes。"
+      },
+      {
+        "start": 308.11,
+        "end": 313.41,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Yes. Well, I think it's quite obvious that this one is the only company that meets our criteria.",
+        "zh": "對，很明顯只有這家公司符合我們的準則。"
+      },
+      {
+        "start": 314.37,
+        "end": 317.85,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "They're local, what they sell is definitely for young people,",
+        "zh": "它是本地公司，銷售的產品肯定適合年輕人，"
+      },
+      {
+        "start": 317.85,
+        "end": 323.89,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "and it's health-related. Yep. Yes, I totally agree. Right.",
+        "zh": "而且與健康有關。對，我完全同意。好的。"
+      },
+      {
+        "start": 325.27,
+        "end": 330.33,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Well, we've got a lot to do to go through all of these audition clips, so...",
+        "zh": "我們還有大量試演片要看，所以……"
+      },
+      {
+        "start": 332.07,
+        "end": 338.55,
+        "speaker": "Narrator",
+        "text": "That is the end of task two. You now have one minute to tidy up your answers.",
+        "zh": "任務二完結。你現在有一分鐘整理答案。"
+      }
+    ],
+    "3": [
+      {
+        "start": 0.59,
+        "end": 6.79,
+        "speaker": "Narrator",
+        "text": "Task three. Nancy, Lily and Mitchell are meeting to discuss some of the performers",
+        "zh": "任務三。Nancy、Lily 和 Mitchell 正開會，討論一些"
+      },
+      {
+        "start": 6.79,
+        "end": 12.93,
+        "speaker": "Narrator",
+        "text": "who have applied to perform at the concert. Listen to the meeting and fill in the missing",
+        "zh": "申請在音樂會演出的表演者。請聆聽會議，把缺漏"
+      },
+      {
+        "start": 12.93,
+        "end": 19.33,
+        "speaker": "Narrator",
+        "text": "information in the spaces below. You now have 30 seconds to study the task.",
+        "zh": "資料填入下方空格。你現在有三十秒閱讀題目。"
+      },
+      {
+        "start": 20.13,
+        "end": 25.11,
+        "speaker": "Narrator",
+        "text": "At the end of the task, you will have one minute to tidy up your answers.",
+        "zh": "任務結束後，你將有一分鐘整理答案。"
+      },
+      {
+        "start": 57.07,
+        "end": 63.23,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "So we've watched a lot of these videos. Which one stood out for you in terms of the funny story?",
+        "zh": "我們看過很多影片了。說到趣事，你們對哪段印象最深？"
+      },
+      {
+        "start": 64.03,
+        "end": 69.41,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Well, I really liked the Liberty Sister story. Oh, yeah.",
+        "zh": "我很喜歡 Liberty Sisters 的故事。是嗎？"
+      },
+      {
+        "start": 70.21,
+        "end": 77.21,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "What was that then? Well, it's a story about one of the band members, Amanda. Amanda's got this",
+        "zh": "故事是怎樣的？是關於其中一名成員 Amanda。Amanda 一向"
+      },
+      {
+        "start": 77.21,
+        "end": 84.39,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "reputation for sleeping in all the time. Well, anyway. The band were meant to be playing at a",
+        "zh": "以愛睡懶覺聞名。總之，樂隊原定在"
+      },
+      {
+        "start": 84.39,
+        "end": 91.75,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "local festival at May Fu Civic Hall at 11 a.m. on a Sunday morning. The other two met at 10",
+        "zh": "星期日上午十一點，於美孚民政會堂的一個本地節慶活動演出。另外兩人在十點"
+      },
+      {
+        "start": 91.75,
+        "end": 98.77,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "o'clock at the MTR station. And surprise, surprise, there's no sign of Amanda. So they",
+        "zh": "於港鐵站碰面；果然不出所料，Amanda 不見人影。於是她們"
+      },
+      {
+        "start": 98.77,
+        "end": 104.35,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "get on the phone and she doesn't answer. Eventually, after 20 minutes, she answers.",
+        "zh": "打電話給她，但沒人接聽。足足二十分鐘後，她才接聽。"
+      },
+      {
+        "start": 105.07,
+        "end": 111.29,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "She's still in her bed. Right, they say. We'll just go to the civic hall to set up",
+        "zh": "她還躺在床上。她們說：「好吧，我們先到會堂準備，"
+      },
+      {
+        "start": 111.29,
+        "end": 115.93,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "and we will meet you there. You would just have to arrive and go straight on.",
+        "zh": "在那裡等你。你到場後就要直接上台了。」"
+      },
+      {
+        "start": 116.57,
+        "end": 121.57,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "So Amanda agrees, but she's still half asleep and she gets it into her head.",
+        "zh": "Amanda 答應了，但她仍半夢半醒，竟以為"
+      },
+      {
+        "start": 121.73,
+        "end": 129.39,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "The gig is at Chun Wan Theater and not May Fu Civic Hall. So she rushes to Chun Wan Theater",
+        "zh": "演出地點是荃灣劇院，而非美孚民政會堂。於是她趕往荃灣劇院，"
+      },
+      {
+        "start": 129.39,
+        "end": 136.37,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "and goes in the backstage door and somebody tells her she's late and it started. So she",
+        "zh": "從後台門進去，有人說她遲到了，演出已開始。於是她"
+      },
+      {
+        "start": 136.37,
+        "end": 144.41,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "rushes onto the stage and suddenly realizes it's the wrong show. It's a show for kids with people",
+        "zh": "衝上台，突然發現走錯了表演。那是兒童表演，台上的人"
+      },
+      {
+        "start": 144.41,
+        "end": 152.25,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "on stage in costumes dressed as spiders and frogs. So she just joins in and dances with everybody",
+        "zh": "穿着蜘蛛和青蛙的服裝。她索性加入，跟大家一起跳舞，"
+      },
+      {
+        "start": 152.25,
+        "end": 160.73,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "else and nobody notices and she has a good time. That's really funny. Was there one that you",
+        "zh": "竟沒有人發現，她也玩得很開心。真好笑。Mitchell，你有"
+      },
+      {
+        "start": 160.73,
+        "end": 166.55,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "liked, Mitchell? I really liked the story Selina Chung tells. Oh, I didn't watch that one.",
+        "zh": "喜歡的故事嗎？我很喜歡 Selena Cheung 講的故事。我沒有看那段。"
+      },
+      {
+        "start": 167.15,
+        "end": 171.85,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Right. Well, she was doing an audition for a show. She's the last performer on",
+        "zh": "她正為一場演出試鏡，是最後一位上場的"
+      },
+      {
+        "start": 171.85,
+        "end": 178.89,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "and she sings a really gentle ballad. During the first verse, she looks across and one of the",
+        "zh": "表演者，唱了一首很輕柔的抒情歌。唱第一段時，她望過去，看見其中一位"
+      },
+      {
+        "start": 178.89,
+        "end": 185.23,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "judges is sleeping. In the second verse, two judges are sleeping and by the third verse,",
+        "zh": "評判睡着了。唱第二段時，兩位評判睡着了；唱到第三段時，"
+      },
+      {
+        "start": 185.53,
+        "end": 192.05,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "all three have nodded off. Oh no. Selina decides to keep going and reaches the end of her song.",
+        "zh": "三位都打瞌睡了。天啊。Selena 決定繼續，把整首歌唱完。"
+      },
+      {
+        "start": 192.83,
+        "end": 198.48,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "The judges are still sleeping. She goes over to the judges and sits down next to them",
+        "zh": "評判仍然睡着。她走過去，坐在評判旁邊，"
+      },
+      {
+        "start": 198.48,
+        "end": 206.32,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "and gently wakes them up and they are incredibly apologetic. So they let her do another song and",
+        "zh": "輕輕叫醒他們。他們非常抱歉，所以讓她再唱一首。"
+      },
+      {
+        "start": 206.32,
+        "end": 211.6,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "this time she decides to sing a real loud rock song to keep them awake. She didn't get the part",
+        "zh": "這次她決定唱一首非常響亮的搖滾歌，免得他們再睡。不過，她最後沒有獲得"
+      },
+      {
+        "start": 211.6,
+        "end": 219.4,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "for the show. Oh wow. There'll always be other shows. I think that shows a pretty strong side",
+        "zh": "演出角色。噢，總會有別的演出機會。我覺得這也顯示了她"
+      },
+      {
+        "start": 219.4,
+        "end": 227.07,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "to a character as well. Yeah, absolutely. I think my favorite was the Hilton College band.",
+        "zh": "性格堅強的一面。完全同意。我最喜歡的是 Hilton College 樂隊的故事。"
+      },
+      {
+        "start": 227.07,
+        "end": 234.03,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Did you listen to that one? No, not yet. No, no. Right. Well, when they were 16,",
+        "zh": "你們聽過嗎？還沒有。沒有。好的，他們十六歲時，"
+      },
+      {
+        "start": 234.37,
+        "end": 239.89,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "they were asked to play at the birthday party of a son of a famous Hong Kong actor.",
+        "zh": "獲邀在一位香港著名演員兒子的生日派對表演。"
+      },
+      {
+        "start": 240.72,
+        "end": 246.16,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "They were playing at his house and there was a small stage built next to the swimming pool.",
+        "zh": "演出在演員家中舉行，泳池旁搭了一個小舞台。"
+      },
+      {
+        "start": 247.02,
+        "end": 253.4,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Their original singer was really good, but he used to get really nervous. In their first song,",
+        "zh": "他們原來的主唱很出色，但常常非常緊張。第一首歌時，"
+      },
+      {
+        "start": 253.4,
+        "end": 260.22,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "he goes up to the microphone like a real rock star and the singer is so nervous that he's forgotten",
+        "zh": "他像真正搖滾巨星般走近咪高峰，卻緊張得忘記了"
+      },
+      {
+        "start": 260.22,
+        "end": 266.56,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "all the words. So he's, you know, not trying to look stupid and still look cool.",
+        "zh": "全部歌詞。他想避免出醜，又想保持有型的形象。"
+      },
+      {
+        "start": 267.44,
+        "end": 271.28,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "So he very calmly walks to the back of the stage,",
+        "zh": "於是他很鎮定地走向舞台後方，"
+      },
+      {
+        "start": 271.64,
+        "end": 281.28,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "passed the drums and promptly falls into the swimming pool. Brilliant. It was then they",
+        "zh": "經過鼓的位置，然後就跌進泳池。精彩！就在那時，他們"
+      },
+      {
+        "start": 281.28,
+        "end": 288.1,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "decided they needed a new singer. Brilliant. That is a fantastic story. Yeah.",
+        "zh": "決定要找一位新主唱。精彩！真是個妙極的故事。對。"
+      },
+      {
+        "start": 289.02,
+        "end": 294.3,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Right. The other thing was I wanted to get some feedback from you, Mitchell. Remember I asked you",
+        "zh": "另外，Mitchell，我想聽聽你的意見。記得我請你"
+      },
+      {
+        "start": 294.3,
+        "end": 301.48,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "to take a look at the, let's say the unusual acts to see what they're like. What have you got?",
+        "zh": "看看那些比較不尋常的演出嗎？有什麼發現？"
+      },
+      {
+        "start": 302.24,
+        "end": 309.92,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Well, there were a lot of, how can I put it? Acts that maybe were not so suitable.",
+        "zh": "有很多，怎麼說呢，可能不太合適的演出。"
+      },
+      {
+        "start": 310.96,
+        "end": 316.98,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "But one of the more exciting groups was the Cheerful Glee Club. Okay. Yeah. They're an",
+        "zh": "不過，有個比較令人興奮的組合叫 Cheerful Glee Club。好的。他們是"
+      },
+      {
+        "start": 316.98,
+        "end": 323.98,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "acapella group. An acapella group? Yeah. An acapella group. They sing songs and make music",
+        "zh": "無伴奏合唱組合。無伴奏合唱？對，他們唱歌和製造音樂時，"
+      },
+      {
+        "start": 323.98,
+        "end": 330,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "without any musical instruments. You know, they just use their voices. Just their voices? Yeah.",
+        "zh": "完全不用樂器，只靠自己的聲音。只用人聲？對。"
+      },
+      {
+        "start": 330.72,
+        "end": 337.26,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Okay. But that's not that unusual, is it? Well, no, but they use their voices to create drum",
+        "zh": "但那也不算很特別吧？是，不過他們用聲音模仿鼓"
+      },
+      {
+        "start": 337.26,
+        "end": 343.64,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "beats, violins, and even animal sounds. Oh, wow. Exactly. It's actually quite impressive.",
+        "zh": "的節拍、小提琴，甚至動物叫聲。嘩，沒錯，實在令人印象深刻。"
+      },
+      {
+        "start": 344.3,
+        "end": 350.92,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Okay. And any other groups that you've seen so far? Yeah. There's this all-girl Chinese",
+        "zh": "好的，你還看過其他組合嗎？有一隊全女班的中樂團，"
+      },
+      {
+        "start": 350.92,
+        "end": 357.54,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "orchestra group called the Flying Sticks. Chinese orchestra? Okay. So they use",
+        "zh": "叫 Flying Sticks。中樂團？所以他們使用"
+      },
+      {
+        "start": 357.54,
+        "end": 362.24,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "traditional Chinese musical instruments? Yeah, that's right. Traditional Chinese",
+        "zh": "傳統中國樂器？沒錯，是傳統中國"
+      },
+      {
+        "start": 362.24,
+        "end": 369.02,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "instruments. Well, what is so special about that? Well, they are no ordinary Chinese orchestra",
+        "zh": "樂器。有什麼特別呢？她們不是普通的中樂"
+      },
+      {
+        "start": 369.02,
+        "end": 376.74,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "group. They use traditional Chinese instruments to play pop songs. Pop songs? Yeah. They play",
+        "zh": "團，而是用傳統中國樂器演奏流行曲。流行曲？對，她們演奏"
+      },
+      {
+        "start": 376.74,
+        "end": 383.6,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "pop songs from, you know, like Lady Gaga, Katy Perry, performed in a Chinese orchestra style.",
+        "zh": "Lady Gaga、Katy Perry 等歌手的流行歌曲，以中樂團風格演繹。"
+      },
+      {
+        "start": 383.6,
+        "end": 390.12,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "Nice. I'd like to hear that. Okay. Thanks, Mitchell. Actually, I've got one last group",
+        "zh": "很好，我想聽聽。謝謝，Mitchell。其實我還有最後一隊"
+      },
+      {
+        "start": 390.12,
+        "end": 395.4,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "I'd like to tell you about. Oh, okay. They're called the St. Patrick's Big Beats.",
+        "zh": "想介紹給你們。好的。它叫 St. Patrick’s Big Beats。"
+      },
+      {
+        "start": 396.14,
+        "end": 403.74,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "The St. Patrick's Big Beats is St. Patrick's a school? Yes. They are a marching band.",
+        "zh": "St. Patrick’s Big Beats？St. Patrick’s 是學校嗎？對，他們是步操樂隊。"
+      },
+      {
+        "start": 404.12,
+        "end": 409.88,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "A marching band? Yeah. You know, they play their instruments, you know, like drums and trumpets,",
+        "zh": "步操樂隊？對，他們演奏樂器，例如鼓和小號，"
+      },
+      {
+        "start": 409.88,
+        "end": 415.76,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "and they march at the same time. Wow. So will they be marching up and down the stage?",
+        "zh": "同時步操。嘩，他們會在舞台上來回步操嗎？"
+      },
+      {
+        "start": 416.38,
+        "end": 421.6,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "They're not sitting down at all? No. So the special thing about them is that they",
+        "zh": "完全不坐下？對，特別之處在於他們"
+      },
+      {
+        "start": 421.6,
+        "end": 428.04,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "march around in formation to form different shapes. Different shapes? Yes, like shapes of stars.",
+        "zh": "列隊步操，排成不同形狀。不同形狀？對，例如星形。"
+      },
+      {
+        "start": 428.78,
+        "end": 434.65,
+        "speaker": "Nancy, Lily and Mitchell",
+        "text": "All right. Marching and forming shapes of stars. That I have to see.",
+        "zh": "明白，一邊步操，一邊排成星形。這個我一定要看。"
+      },
+      {
+        "start": 436.37,
+        "end": 443.41,
+        "speaker": "Narrator",
+        "text": "That is the end of task three. You now have one minute to tidy up your answers.",
+        "zh": "任務三完結。你現在有一分鐘整理答案。"
+      }
+    ],
+    "4": [
+      {
+        "start": 0.33,
+        "end": 8.97,
+        "speaker": "Narrator",
+        "text": "Task four. Nancy is appearing on a radio show called Power Focus along with Dr. Wendy Craig",
+        "zh": "任務四。Nancy 正與香港室樂團的 Wendy Craik 博士一起，參與電台節目 Power Focus。"
+      },
+      {
+        "start": 8.97,
+        "end": 15.74,
+        "speaker": "Narrator",
+        "text": "from the Hong Kong Chamber Orchestra. Listen to the show and answer the questions below.",
+        "zh": "請聆聽節目，回答下面的問題。"
+      },
+      {
+        "start": 16.63,
+        "end": 24.2,
+        "speaker": "Narrator",
+        "text": "Please note you do not need to answer in complete sentences. One of them has been done for you",
+        "zh": "注意：不必以完整句子作答。其中一題已作為"
+      },
+      {
+        "start": 24.2,
+        "end": 32.91,
+        "speaker": "Narrator",
+        "text": "as an example. You now have 30 seconds to study the task. At the end of the task,",
+        "zh": "例子。你現在有三十秒閱讀題目。任務結束後，"
+      },
+      {
+        "start": 33.27,
+        "end": 71.85,
+        "speaker": "Narrator／Power Focus guests",
+        "text": "you will have two minutes to tidy up your answers. Okay. Welcome to Power Focus Hong Kong's",
+        "zh": "你將有兩分鐘整理答案。歡迎收聽 Power Focus，香港"
+      },
+      {
+        "start": 71.85,
+        "end": 76.87,
+        "speaker": "Power Focus guests",
+        "text": "number one radio debate show. My name is John Balance and I am your host.",
+        "zh": "第一的電台辯論節目。我是主持人 John Balance。"
+      },
+      {
+        "start": 77.67,
+        "end": 83.55,
+        "speaker": "Power Focus guests",
+        "text": "Tonight we have with us Nancy Chow from the Hong Kong Cultural Arts Foundation and one of",
+        "zh": "今晚的嘉賓是香港文化藝術基金會的 Nancy Chow，她亦是"
+      },
+      {
+        "start": 83.55,
+        "end": 90.03,
+        "speaker": "Power Focus guests",
+        "text": "the judges on Bella Votche, the latest music reality show to hit our screens, and Dr. Wendy",
+        "zh": "近期登上螢幕的音樂真人騷 Bella Voce 的評判之一，以及香港室樂團的 Wendy"
+      },
+      {
+        "start": 90.03,
+        "end": 96.81,
+        "speaker": "Power Focus guests",
+        "text": "Craig from the Hong Kong Chamber Orchestra. The motion in front of us tonight is related",
+        "zh": "Craik 博士。今晚的辯題與"
+      },
+      {
+        "start": 96.81,
+        "end": 102.87,
+        "speaker": "Power Focus guests",
+        "text": "to music reality shows and goes as follows. Music reality shows are killing the music",
+        "zh": "音樂真人騷有關，題目如下：「音樂真人騷正扼殺音樂"
+      },
+      {
+        "start": 102.87,
+        "end": 108.65,
+        "speaker": "Power Focus guests",
+        "text": "industry. For a change tonight, we'll start with arguments against the motion.",
+        "zh": "業。」今晚稍作改變，先由反方陳詞。"
+      },
+      {
+        "start": 109.59,
+        "end": 113.31,
+        "speaker": "Power Focus guests",
+        "text": "Nancy, you have two minutes to argue against the motion.",
+        "zh": "Nancy，你有兩分鐘反對這項辯題。"
+      },
+      {
+        "start": 114.61,
+        "end": 121.75,
+        "speaker": "Power Focus guests",
+        "text": "Okay. Thank you, John. I have three points to make to convince you that music reality shows",
+        "zh": "好的，謝謝 John。我有三點要說，說服大家音樂真人騷"
+      },
+      {
+        "start": 121.75,
+        "end": 129.93,
+        "speaker": "Power Focus guests",
+        "text": "are not destroying music. The first is that these shows provide young people with a way to",
+        "zh": "並沒有破壞音樂。第一，這些節目讓年輕人有途徑"
+      },
+      {
+        "start": 129.93,
+        "end": 137.72,
+        "speaker": "Power Focus guests",
+        "text": "hear great pop music. I know, I know, I am sure we would all love young people to be listening to",
+        "zh": "聆聽出色的流行音樂。我知道，我肯定大家都希望年輕人聽的"
+      },
+      {
+        "start": 137.72,
+        "end": 143.78,
+        "speaker": "Power Focus guests",
+        "text": "far deeper music than most pop music. But if young people are listening to pop music,",
+        "zh": "音樂比大部分流行曲更有深度。不過，如果年輕人在聽流行曲，"
+      },
+      {
+        "start": 144.18,
+        "end": 149.94,
+        "speaker": "Power Focus guests",
+        "text": "at least they are listening to something. It is important for young people to develop a love",
+        "zh": "至少他們有在聽音樂。培養年輕人對音樂"
+      },
+      {
+        "start": 149.94,
+        "end": 156.41,
+        "speaker": "Power Focus guests",
+        "text": "for music and the best place to start is pop music. And where is it that young people",
+        "zh": "的熱愛很重要，而流行曲就是最佳起點。年輕人在哪裡"
+      },
+      {
+        "start": 156.41,
+        "end": 165.57,
+        "speaker": "Power Focus guests",
+        "text": "hear good pop music? In music reality shows like ours. Secondly, to say that this type of program",
+        "zh": "聽到好的流行曲？就在我們這類音樂真人騷。第二，說這類節目"
+      },
+      {
+        "start": 165.57,
+        "end": 171.77,
+        "speaker": "Power Focus guests",
+        "text": "is destroying the industry is false. It has often been said by opponents of these shows",
+        "zh": "正在破壞音樂業是錯誤的。反對這些節目的人常說，"
+      },
+      {
+        "start": 171.77,
+        "end": 177.98,
+        "speaker": "Power Focus guests",
+        "text": "that they stop other artists from getting a chance to have a successful career. However,",
+        "zh": "它們令其他藝人失去發展成功事業的機會。然而，"
+      },
+      {
+        "start": 178.02,
+        "end": 183.52,
+        "speaker": "Power Focus guests",
+        "text": "this seems to be a very pessimistic view of the music industry. In fact, the music",
+        "zh": "這似乎是對音樂業非常悲觀的看法。事實上，音樂"
+      },
+      {
+        "start": 183.52,
+        "end": 191.85,
+        "speaker": "Power Focus guests",
+        "text": "industry has always been rich in its variety, from hip hop to folk and rock. Many artists",
+        "zh": "業一向種類豐富，從嘻哈到民謠、搖滾都有。即使有這些節目，很多藝人"
+      },
+      {
+        "start": 191.85,
+        "end": 199.73,
+        "speaker": "Power Focus guests",
+        "text": "are still successful despite these programs existing. My third point is that programs like",
+        "zh": "仍然成功。第三，像"
+      },
+      {
+        "start": 199.73,
+        "end": 206.33,
+        "speaker": "Power Focus guests",
+        "text": "The Voice of China can actually provide information about singing techniques that you have to learn",
+        "zh": "《中國好聲音》這類節目，其實可以提供歌唱技巧的資訊；如果你想成為更好的歌手，"
+      },
+      {
+        "start": 206.33,
+        "end": 211.88,
+        "speaker": "Power Focus guests",
+        "text": "if you want to be a better singer. In other words, a singer may have talent,",
+        "zh": "就必須學習這些技巧。換言之，歌手可能有天分，"
+      },
+      {
+        "start": 211.88,
+        "end": 217.45,
+        "speaker": "Power Focus guests",
+        "text": "but they still need training. These shows are also a good way of dispelling the myth",
+        "zh": "但仍需要訓練。這些節目亦能破除一個迷思："
+      },
+      {
+        "start": 217.45,
+        "end": 223.33,
+        "speaker": "Power Focus guests",
+        "text": "that talented singers don't have to work hard. The shows are great at showing that",
+        "zh": "有天分的歌手不用努力。節目很能展示，"
+      },
+      {
+        "start": 223.33,
+        "end": 229.88,
+        "speaker": "Power Focus guests",
+        "text": "being a singer requires a lot of practice in order to improve. So I would say these",
+        "zh": "歌手需要大量練習才能進步。所以我認為這些"
+      },
+      {
+        "start": 229.88,
+        "end": 236.57,
+        "speaker": "Power Focus guests",
+        "text": "programs are not destroying music. They are one of the reasons that music is still flourishing.",
+        "zh": "節目並沒有破壞音樂，反而是音樂仍然蓬勃發展的原因之一。"
+      },
+      {
+        "start": 237.81,
+        "end": 244.15,
+        "speaker": "Power Focus guests",
+        "text": "OK, thanks, Nancy. Now, Dr Craig, you have two minutes to argue for the motion.",
+        "zh": "謝謝 Nancy。現在 Craik 博士，你有兩分鐘支持辯題。"
+      },
+      {
+        "start": 245.75,
+        "end": 249.73,
+        "speaker": "Power Focus guests",
+        "text": "I'm sorry, Nancy, but I firmly believe that shows like The Voice of China",
+        "zh": "抱歉，Nancy，我堅信像《中國好聲音》這類節目，"
+      },
+      {
+        "start": 249.73,
+        "end": 255.73,
+        "speaker": "Power Focus guests",
+        "text": "are contributors to the slaughter of the music industry. And I also have three points to support",
+        "zh": "的確有份扼殺音樂業。我也有三點支持"
+      },
+      {
+        "start": 255.73,
+        "end": 263.16,
+        "speaker": "Power Focus guests",
+        "text": "my stance. First, let us be honest here for a minute. Reality music shows may be entertaining,",
+        "zh": "我的立場。第一，坦白說，音樂真人騷可能有娛樂性，"
+      },
+      {
+        "start": 263.16,
+        "end": 269.36,
+        "speaker": "Power Focus guests",
+        "text": "but what these shows offer is not high quality music. It is instead what might be called",
+        "zh": "但它們提供的並非高質素音樂，而是可以稱為"
+      },
+      {
+        "start": 269.36,
+        "end": 278.38,
+        "speaker": "Power Focus guests",
+        "text": "televised karaoke. I call it televised karaoke for two reasons. Firstly, it's televised karaoke",
+        "zh": "「電視卡拉 OK」的東西。我這樣說有兩個原因。第一，"
+      },
+      {
+        "start": 278.38,
+        "end": 283.81,
+        "speaker": "Power Focus guests",
+        "text": "because we get our enjoyment from seeing how bad a contestant is singing rather than enjoying",
+        "zh": "我們的樂趣來自看參賽者唱得多差，而不是欣賞"
+      },
+      {
+        "start": 283.81,
+        "end": 290.66,
+        "speaker": "Power Focus guests",
+        "text": "how well a singer is doing. The second reason is that even when they, the contestants,",
+        "zh": "歌手唱得多好。第二，即使參賽者"
+      },
+      {
+        "start": 290.66,
+        "end": 296.58,
+        "speaker": "Power Focus guests",
+        "text": "are doing well, they're doing well by copying famous artists, not through being original.",
+        "zh": "表現出色，也只是模仿著名歌手，而非展現原創性。"
+      },
+      {
+        "start": 298.77,
+        "end": 303.37,
+        "speaker": "Power Focus guests",
+        "text": "My second point supporting the motion is related to what happens after the end of the series.",
+        "zh": "第二個支持辯題的論點，關乎節目系列結束後的情況。"
+      },
+      {
+        "start": 305.12,
+        "end": 311.1,
+        "speaker": "Power Focus guests",
+        "text": "The winners of such TV series achieve instant fame, so they suddenly become as famous as many",
+        "zh": "這類電視比賽的冠軍會瞬間成名，突然變得像許多"
+      },
+      {
+        "start": 311.1,
+        "end": 319.21,
+        "speaker": "Power Focus guests",
+        "text": "more established singers. This is simply unfair. It creates an unfair market where",
+        "zh": "資深歌手一樣有名。這實在不公平，它製造了不公平的市場，"
+      },
+      {
+        "start": 319.21,
+        "end": 324.87,
+        "speaker": "Power Focus guests",
+        "text": "other singers don't get as much publicity as the winner of the reality show. Haven't",
+        "zh": "其他歌手得到的宣傳不及真人騷冠軍多。"
+      },
+      {
+        "start": 324.87,
+        "end": 330.83,
+        "speaker": "Power Focus guests",
+        "text": "these other singers worked just as hard? I think I've got time to make one final point.",
+        "zh": "難道這些歌手沒有同樣努力嗎？我想還有時間說最後一點。"
+      },
+      {
+        "start": 332.09,
+        "end": 338.83,
+        "speaker": "Power Focus guests",
+        "text": "My final point is that these shows sell a lie. The lie is that success is easy in the music",
+        "zh": "最後，這些節目在兜售一個謊言，就是在音樂"
+      },
+      {
+        "start": 338.83,
+        "end": 345.16,
+        "speaker": "Power Focus guests",
+        "text": "industry. The true effort needed to succeed in the music industry is being lost because it",
+        "zh": "業成功很容易。成功所需付出的真正努力被忽略，因為"
+      },
+      {
+        "start": 345.16,
+        "end": 351.84,
+        "speaker": "Power Focus guests",
+        "text": "seems so easy that everyone can do it, and success can happen overnight. In the vast majority",
+        "zh": "看起來太容易，似乎人人都能做到，而且一夜之間就能成功。絕大多數"
+      },
+      {
+        "start": 351.84,
+        "end": 358.63,
+        "speaker": "Power Focus guests",
+        "text": "of cases, success does not happen overnight. It often takes years and years of hard work,",
+        "zh": "情況下，成功並非一夜之間出現，而需要多年又多年的努力，"
+      },
+      {
+        "start": 359.25,
+        "end": 365.78,
+        "speaker": "Power Focus guests",
+        "text": "and new musicians need to know that. And the worst thing is that the consequence of perpetuating",
+        "zh": "新入行的音樂人必須知道這點。最糟的是，不斷延續"
+      },
+      {
+        "start": 365.78,
+        "end": 371.75,
+        "speaker": "Power Focus guests",
+        "text": "this lie is that many musicians won't keep going when things start getting tough. Many",
+        "zh": "這個謊言，會令很多音樂人一遇到困難就不願堅持。"
+      },
+      {
+        "start": 371.75,
+        "end": 377.71,
+        "speaker": "Power Focus guests",
+        "text": "musicians will simply give up. OK, thanks to Nancy and Wendy.",
+        "zh": "很多人會直接放棄。好的，謝謝 Nancy 和 Wendy。"
+      },
+      {
+        "start": 378.62,
+        "end": 383.94,
+        "speaker": "Power Focus guests",
+        "text": "Well, we went into the streets of Hong Kong to get people's opinions on this. Speedy Chan reports.",
+        "zh": "我們到香港街頭訪問了市民的意見。請聽 Speedy Chan 的報道。"
+      },
+      {
+        "start": 386.13,
+        "end": 393.56,
+        "speaker": "Narrator",
+        "text": "That is the end of task four. You now have two minutes to complete your answers to task four",
+        "zh": "任務四完結。你現在有兩分鐘完成任務四的答案，"
+      },
+      {
+        "start": 393.56,
+        "end": 518.56,
+        "speaker": "Narrator",
+        "text": "and to tidy up all your other answers. Part B. Look at page two of your data file.",
+        "zh": "並整理其餘所有答案。乙部：請翻開資料檔案第二頁。"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "task": 1,
+      "answer": "Night to Remember",
+      "explanation": "活動名稱在錄音中完整說成 Music, A Night to Remember，設計師亦重複確認。題目已有 Music: A，因此空格只填 Night to Remember，意即難忘之夜，名詞部分可用大寫。中伏位：不要再抄 A，亦不要填客戶 Hong Kong Cultural Arts Foundation；那是主辦機構，不是活動名稱。",
+      "evidence": "A Night to Remember",
+      "audioTime": 91.94,
+      "audioEnd": 100.89
+    },
+    "2": {
+      "task": 1,
+      "answer": "November 24 / 24 November",
+      "explanation": "Nancy 說音樂會在 November the 24th 舉行，即十一月二十四日；對方詢問是否今年，她確認 2015。題目已印出 2015，空格只需填月日，可用 November 24 或 24 November。中伏位：不要把二十四日聽成十四日；年份也不應取代題目所問的日期。",
+      "evidence": "November the 24th",
+      "audioTime": 115.35,
+      "audioEnd": 126.64
+    },
+    "3": {
+      "task": 1,
+      "answer": "Central Theatre",
+      "explanation": "地點由 at 引出，完整名稱為 Central Theatre of the Hong Kong Cultural Centre。題目已提供 The 及 Hong Kong Cultural Centre，故空格填 Central Theatre 即可。中伏位：題目要求文化中心內的指定場地，單寫 Cultural Centre 會重複已知資料，亦不要擅自換成自己熟悉的真實場館名稱。",
+      "evidence": "Central Theatre of the Hong Kong Cultural Centre",
+      "audioTime": 136.02,
+      "audioEnd": 144.11
+    },
+    "4": {
+      "task": 1,
+      "answer": "interval",
+      "explanation": "Nancy 額外提醒 there is no interval，並要求在網站註明；Paul 再重複 no interval 確認。interval 在音樂會語境指中場休息，因此 No 後填 interval。中伏位：七點半至九點半是整場時間，不是休息時間；題目已有 No，答案不用再加 no，以免變成重複否定。",
+      "evidence": "there is no interval",
+      "audioTime": 156.97,
+      "audioEnd": 165.68
+    },
+    "5": {
+      "task": 1,
+      "answer": "13 and 18 / thirteen and eighteen",
+      "explanation": "錄音說 between the ages of 13 and 18，跨相鄰兩段字幕才完成年齡範圍。題目已有 between the ages of，填 13 and 18 才構成完整搭配，表示十三至十八歲。中伏位：不是只填其中一個年齡，也不是十三或十八歲兩個單一年齡；要保留 and，表達整個範圍。",
+      "evidence": "between the ages of 13 and 18",
+      "audioTime": 165.68,
+      "audioEnd": 181.92
+    },
+    "6": {
+      "task": 1,
+      "answer": "independent",
+      "explanation": "Nancy 說參加者應屬於 a school group or an independent group。or 連接兩類組合，而題目已寫 school group 和末尾的 group，因此填形容詞 independent，解作獨立的。中伏位：solo 是接着補充的個人參加者，屬下一題，不是這裡與 school 並列的組合類別。",
+      "evidence": "independent group",
+      "audioTime": 181.92,
+      "audioEnd": 191.11
+    },
+    "7": {
+      "task": 1,
+      "answer": "solo",
+      "explanation": "Paul 問是否只接受組合，Nancy 立即說 No, no，再補充 solo participants are welcome too。solo 表示個人獨自演出，正好放在 participants 前修飾參加者。中伏位：前面的 school group、independent group 並不代表排除獨唱或獨奏者；要留意否定及 too 所帶出的補充。",
+      "evidence": "solo participants are welcome too",
+      "audioTime": 181.92,
+      "audioEnd": 191.11
+    },
+    "8": {
+      "task": 1,
+      "answer": "A, C, E — Jazz, Rap, Rock",
+      "explanation": "Nancy 列出 jazz bands、rap groups 和 rock music，分別對應 A 爵士樂、C 說唱、E 搖滾，所以須勾選這三項。中伏位：這題是多項選擇，不是只取最後聽到的 rock；Choir 和 Folk 雖也是音樂類型，但錄音沒有列為本題接受的表演種類，不可憑常識加選。",
+      "evidence": "jazz bands, rap groups or even rock music",
+      "audioTime": 197.19,
+      "audioEnd": 204.93
+    },
+    "9": {
+      "task": 1,
+      "answer": "dance groups",
+      "explanation": "Paul 主動問 dance groups 是否可以參加，Nancy 用 unfortunately 和 won’t be accepting 明確拒絕，接着限定只收音樂組合。題目已有 No，故填 dance groups。中伏位：錄音有提到某類表演不代表接受它；必須連同否定語氣判斷，不能把 just music groups 當成被排除的類別。",
+      "evidence": "we won't be accepting dance groups",
+      "audioTime": 205.94,
+      "audioEnd": 214.44
+    },
+    "10": {
+      "task": 1,
+      "answer": "a video of a performance / a performance",
+      "explanation": "影片要求分三項：自我介紹、表演錄像、表演時遇過的趣事。題目已給第一和第三項，故缺的是 a video of a performance。中伏位：不要再寫 introducing themselves 或 funny story，這兩項已印在題目；此處要的是展示演出能力的內容，不是影片長度或申請者姓名。",
+      "evidence": "it should have a video of a performance",
+      "audioTime": 233.48,
+      "audioEnd": 243.58
+    },
+    "11": {
+      "task": 1,
+      "answer": "online",
+      "explanation": "購票的第一種方法是 online by clicking on a link，意思是在網上點擊連結購票。這一格位於 Method 欄，應填 online，概括渠道。中伏位：shopping trolley 是圖示形狀，屬下一格；phone、email 和 box office 都是後面另列的購票方法，不能移來填第一行。",
+      "evidence": "online by clicking on a link",
+      "audioTime": 275.27,
+      "audioEnd": 284.76
+    },
+    "12": {
+      "task": 1,
+      "answer": "a shopping trolley / shopping trolley",
+      "explanation": "Nancy 說圖示是 in the shape of a shopping trolley，Paul 隨即重複確認。shopping trolley 指購物車，放在 in shape of 後是形狀的名詞片語。中伏位：不要只寫 shopping，那是購物活動；也不是實際去超級市場買票。link 和 icon 是可點擊項目，題目問的是 icon 的外形。",
+      "evidence": "in the shape of a shopping trolley",
+      "audioTime": 275.27,
+      "audioEnd": 284.76
+    },
+    "13": {
+      "task": 1,
+      "answer": "74948161",
+      "explanation": "電話號碼首次報讀為 749 48161，Paul 再複述，Nancy 確認正確。去掉口語分組空格後為八位數 74948161，也可保留便於閱讀的空格。中伏位：不要因分組聽成七位或九位數；重聽時逐位對照兩次報讀，而非把後面的電郵域名或日期數字混入電話。",
+      "evidence": "749 48161",
+      "audioTime": 284.76,
+      "audioEnd": 298.02
+    },
+    "14": {
+      "task": 1,
+      "answer": "information@caf.org",
+      "explanation": "錄音口述 information at caf.org，並特別拼出 o-r-g。電郵中的 at 應寫成 @，所以完整地址為 information@caf.org。中伏位：不要寫成 information at 的普通文字，也不要把 .org 換成更熟悉的 .com；主辦機構縮寫雖較長，電郵域名實際報的是 caf。",
+      "evidence": "information at caf.org",
+      "audioTime": 312.49,
+      "audioEnd": 332.25
+    },
+    "15": {
+      "task": 1,
+      "answer": "the box office / box office",
+      "explanation": "在電話和電郵之後，Nancy 用 Plus 補充最後一種方法：在 box office 購票。box office 是場館售票處，不是一般辦公室；題目已給 At，填 the box office 即可。中伏位：此格問親身購票地點，不是再填電話或網址，也不能因 office 一字便推斷是基金會的辦公室。",
+      "evidence": "at the box office",
+      "audioTime": 332.25,
+      "audioEnd": 345.66
+    },
+    "16": {
+      "task": 1,
+      "answer": "B — Design B",
+      "explanation": "Nancy 先排除霹靂舞者，再對結他圖案表示保留；剩下兩款之中，她選一群人在一起，而不是只有一名女孩的圖案。原圖由左至右 A 結他、B 多人、C 舞者、D 女孩，因此選 B。中伏位：不能只按「音樂」便選結他，因為她認為那會令人誤以為只收樂手、不收歌手。",
+      "evidence": "a bunch of people together",
+      "audioTime": 404.62,
+      "audioEnd": 410.42
+    },
+    "17": {
+      "task": 1,
+      "answer": "C — White",
+      "explanation": "Nancy 最初想用紅色，但 Paul 指出紅底可能使文字難以閱讀，她接受後改為 simple white background，所以選 C 白色。中伏位：red 是被修改的最初想法，black 和 dark blue 則是字體顏色，不是背景。必須追蹤提議、反對理由及最後決定，不能只記第一個顏色。",
+      "evidence": "a simple white background",
+      "audioTime": 427.69,
+      "audioEnd": 435.15
+    },
+    "18": {
+      "task": 2,
+      "answer": "mistakes",
+      "explanation": "第一項準則是表演質素高，講者隨即用 shouldn’t have any mistakes 具體解釋，即不應有錯誤。題目已有 No，空格填複數名詞 mistakes。中伏位：professional 是下一格的音色或水準描述；這格只問不能出現什麼，不能填 quality，否則會錯成不應有質素。",
+      "evidence": "the performance shouldn't have any mistakes",
+      "audioTime": 34.28,
+      "audioEnd": 40.5
+    },
+    "19": {
+      "task": 2,
+      "answer": "professional",
+      "explanation": "討論先說應像專業組合演出，之後明確說很多組合 do sound professional。因此 Should sound 後填形容詞 professional，意即聽起來專業。中伏位：sound 在此是連繫動詞，後接形容詞，不用 professionally；原文說參加者應達到專業水準，不代表必須已是職業樂隊。",
+      "evidence": "sound professional",
+      "audioTime": 46.56,
+      "audioEnd": 55.22
+    },
+    "20": {
+      "task": 2,
+      "answer": "excite / move",
+      "explanation": "Emotional impact 指情感上的感染力，講者說表演 should excite me，另一人概括為 make you feel something。將 me 改成題目的 the audience，便是 excite the audience。中伏位：題目已有 needs to，故用動詞原形 excite；不是名詞 excitement，也不只是說聲音大或技術高。",
+      "evidence": "the performance should excite me",
+      "audioTime": 62.22,
+      "audioEnd": 68.27
+    },
+    "21": {
+      "task": 2,
+      "answer": "like it / enjoy it / have a good time",
+      "explanation": "在受歡迎程度一項，講者希望付費觀眾 come and have a good time，並追問香港觀眾是否喜歡。因此 The audience should 後可填 like it 或 have a good time。中伏位：不是要求觀眾具備專業知識，也不是表演者享受演出；要看清題目主語是 audience，答案須表達觀眾的感受。",
+      "evidence": "come and have a good time",
+      "audioTime": 88.69,
+      "audioEnd": 96.03
+    },
+    "22": {
+      "task": 2,
+      "answer": "too strange",
+      "explanation": "講者問音樂是否 too strange，並解釋太奇怪可能令觀眾不喜歡。因此 Performance must not be 後填 too strange，意即不應過於古怪。中伏位：不要誤寫 too long，那是之後時間限制的理由；也不要只寫 new，因為大家稍後反而肯定接觸新音樂有教育價值。",
+      "evidence": "If it's too strange",
+      "audioTime": 96.03,
+      "audioEnd": 103.58
+    },
+    "23": {
+      "task": 2,
+      "answer": "different types of music / new types of music",
+      "explanation": "教育價值一項強調接觸新音樂，並清楚說觀眾可以 learn more about different types of music。題目已有 learn about，所以填 different types of music。中伏位：這裡問能學到什麼，不是問應否喜歡音樂；單寫 music 太籠統，保留 different types 才能表達拓闊音樂接觸的重點。",
+      "evidence": "learn more about different types of music",
+      "audioTime": 123.12,
+      "audioEnd": 129.48
+    },
+    "24": {
+      "task": 2,
+      "answer": "original / their own original music",
+      "explanation": "講者認為應嘉許創作自己音樂的人，並反覆強調 their own original music。因此音樂應是 original，或填 their own original music。中伏位：original 指原創，不是最初提交的版本；表演熱門歌曲或模仿名家並非這項準則。Should be 後可直接接形容詞 original。",
+      "evidence": "their own original music",
+      "audioTime": 135.83,
+      "audioEnd": 139.27
+    },
+    "25": {
+      "task": 2,
+      "answer": "10–15 minutes / ten to fifteen minutes",
+      "explanation": "有人提交超過三十分鐘的試演片，被評為太長，故提議每場表演十至十五分鐘，其他人同意。Duration 欄應寫 10–15 minutes，保留時間單位。中伏位：over 30 minutes 是不理想的現有片段長度，不是最後時限；也不要把十五分鐘誤當整場音樂會總長度。",
+      "evidence": "10 to 15 minutes per performance",
+      "audioTime": 162.35,
+      "audioEnd": 167.97
+    },
+    "26": {
+      "task": 2,
+      "answer": "it might be boring if it is too long",
+      "explanation": "時限建議後，講者立即說太長可能 very boring，因此理由是避免表演過長令觀眾沉悶。可答 it might be boring if it is too long。中伏位：本格是 Reason，不能只再寫十至十五分鐘；要說明時間長與沉悶的因果關係，而非自行加入場地費用或交通安排等未提及原因。",
+      "evidence": "really boring if it's too long",
+      "audioTime": 168.27,
+      "audioEnd": 172.83
+    },
+    "27": {
+      "task": 2,
+      "answer": "different types of acts / a variety of music",
+      "explanation": "最後一項準則要求 different types of acts，並用 solo versus group 舉例，後面再強調 variety of music。因此需要多元演出，可填 different types of acts 或 a variety of music。中伏位：不能只填 solo 或 group，因為重點是兩者都有、種類多樣；單一例子不足以概括整項準則。",
+      "evidence": "different types of acts",
+      "audioTime": 178.11,
+      "audioEnd": 183.57
+    },
+    "28": {
+      "task": 2,
+      "answer": "C — Dragonhead Sportswear",
+      "explanation": "三人沒有直接重讀所選名稱，而是說只有一家符合三項準則：本地、適合年輕人、與健康有關。對照題目公司資料，Dragonhead Sportswear 是香港製造的運動服裝，故選 C。中伏位：Bali Gyms 雖與健康有關卻來自美國；本地薄餅及香煙公司也不能同時符合健康要求。",
+      "evidence": "the only company that meets our criteria",
+      "audioTime": 308.11,
+      "audioEnd": 313.41
+    },
+    "29": {
+      "task": 2,
+      "answer": "it is a local Hong Kong company",
+      "explanation": "三個理由可互換次序，其中一項是 they’re local，即香港本地公司。題目表格寫香港製造，與他們希望香港音樂會由本地企業贊助相符。中伏位：Bali Gyms 雖在香港開業，卻不等於香港本地公司；不要把「在港提供服務」和「本地企業」混為一談，也毋須自行添加便宜等原因。",
+      "evidence": "They're local",
+      "audioTime": 314.37,
+      "audioEnd": 317.85
+    },
+    "30": {
+      "task": 2,
+      "answer": "its products are suitable for young people",
+      "explanation": "第二項理由是產品明確面向年輕人，錄音說 what they sell is definitely for young people。因此可答運動服裝適合年輕人。中伏位：題目不是問產品是否受父母或祖父母歡迎；退休基金因此不符要求。三格要三個不同理由，不能把「適合青年」和「青年可穿」拆成兩項重複意思。",
+      "evidence": "what they sell is definitely for young people",
+      "audioTime": 314.37,
+      "audioEnd": 317.85
+    },
+    "31": {
+      "task": 2,
+      "answer": "it is health-related / it has a healthy, positive image",
+      "explanation": "第三項理由直接由 health-related 表達，運動服裝與運動、健康形象相關，符合先前正面且不鼓勵壞習慣的要求。中伏位：香煙也可能受年輕人歡迎，但健康條件不符；不可只因一項符合便選它。此題三點應涵蓋本地、青年及健康，三格次序可以互換。",
+      "evidence": "it's health-related",
+      "audioTime": 317.85,
+      "audioEnd": 323.89
+    },
+    "32": {
+      "task": 3,
+      "answer": "overslept / slept in",
+      "explanation": "故事說 Amanda 一向愛睡懶覺，其他成員十點在港鐵站等不到她，打電話二十分鐘後才接通，而她仍在床上。因此可概括為 overslept 或 slept in。中伏位：走錯劇院是她醒來後的另一個失誤，不是令她必須趕往音樂會的最初原因；敘述過去事件應用過去式。",
+      "evidence": "She's still in her bed",
+      "audioTime": 105.07,
+      "audioEnd": 111.29
+    },
+    "33": {
+      "task": 3,
+      "answer": "the wrong show / a children's show",
+      "explanation": "Amanda 衝上台才發現是 wrong show，接着描述那是一場有人扮蜘蛛和青蛙的兒童演出。題目 it was 後可填 the wrong show 或 a children’s show。中伏位：她不只是到錯時間，而是去錯場地及演出；不要把本來應去的美孚民政會堂填成台上發現的情況。",
+      "evidence": "it's the wrong show",
+      "audioTime": 136.37,
+      "audioEnd": 144.41
+    },
+    "34": {
+      "task": 3,
+      "answer": "join in and dance with everyone else",
+      "explanation": "發現走錯兒童表演後，Amanda 並沒有逃走，而是 joins in and dances，跟其他人一起跳舞，甚至沒人發現。題目 reaction was to 後用動詞原形 join in and dance。中伏位：不要因覺得尷尬便推斷她道歉或離開；本故事的笑點正是她即興加入，而不是糾正錯誤。",
+      "evidence": "she just joins in and dances",
+      "audioTime": 144.41,
+      "audioEnd": 152.25
+    },
+    "35": {
+      "task": 3,
+      "answer": "the judges were falling asleep / all three judges fell asleep",
+      "explanation": "Selena 唱第一段時一位評判睡着，第二段兩位，第三段三位都 nodded off。答案可概括為評判逐一睡着或三位都睡着。中伏位：不要只說評判沒有留意她，那不及睡着具體；她唱的是輕柔抒情歌，但題目問 noticed 的內容，不是歌曲類型。",
+      "evidence": "all three have nodded off",
+      "audioTime": 185.53,
+      "audioEnd": 192.05
+    },
+    "36": {
+      "task": 3,
+      "answer": "gently woke the judges up",
+      "explanation": "唱完後，她走到評判身旁坐下，並 gently wakes them up，即輕輕叫醒他們。題目沿用過去敘事，應改成 gently woke them up。中伏位：不是自己坐下睡覺，也不是責罵評判；incredibly apologetic 描述評判被叫醒後的反應，不是她的行為。",
+      "evidence": "gently wakes them up",
+      "audioTime": 198.48,
+      "audioEnd": 206.32
+    },
+    "37": {
+      "task": 3,
+      "answer": "very loud rock song / loud rock song",
+      "explanation": "評判因睡着而道歉，讓 Selena 再唱一首。她刻意選 a real loud rock song，以免他們再次睡着。題目已有 a，填 loud rock song 即可。中伏位：gentle ballad 是第一首歌，不是重唱時的選擇；只寫 loud 不完整，因為空格需要歌曲類型的名詞片語。",
+      "evidence": "a real loud rock song",
+      "audioTime": 206.32,
+      "audioEnd": 211.6
+    },
+    "38": {
+      "task": 3,
+      "answer": "she did not get the part / she was not selected",
+      "explanation": "雖然她改唱響亮搖滾歌，結果仍是 didn’t get the part，即沒有獲選參演。題目 but in the end 正預示結果與期待相反。中伏位：不能因評判道歉並給第二次機會，就推斷她成功；也不要答評判醒來，那是重唱前已發生的事，不是試鏡最終結果。",
+      "evidence": "She didn't get the part",
+      "audioTime": 206.32,
+      "audioEnd": 211.6
+    },
+    "39": {
+      "task": 3,
+      "answer": "famous Hong Kong actor",
+      "explanation": "樂隊受邀在一位 famous Hong Kong actor 的兒子生日派對演出。題目已有 the son of a，故填 famous Hong Kong actor，指派對壽星的父親身分。中伏位：不是演員本人過生日，也不是主唱的父親；十六歲描述樂隊成員當年年齡，不能用作人物職業答案。",
+      "evidence": "a famous Hong Kong actor",
+      "audioTime": 234.37,
+      "audioEnd": 239.89
+    },
+    "40": {
+      "task": 3,
+      "answer": "forgot all the words / forgot the lyrics",
+      "explanation": "主唱走近咪高峰時太緊張，上一句說 he’s forgotten，下一句接 all the words，即忘記全部歌詞。題目以過去式 he 敘事，可寫 forgot all the words。中伏位：跌進泳池是之後走到台後發生的事，屬下一題；不要把緊張本身重複當成空格答案。",
+      "evidence": "he's forgotten all the words",
+      "audioTime": 253.4,
+      "audioEnd": 266.56
+    },
+    "41": {
+      "task": 3,
+      "answer": "fell into the swimming pool",
+      "explanation": "主唱為保持鎮定，走到舞台後方、經過鼓的位置，隨即 falls into the swimming pool。題目用 walked and，答案須改用過去式 fell into the swimming pool。中伏位：不是故意跳水，也不是跌下樓梯；泳池就在舞台旁，錄音描寫的是意外跌入。",
+      "evidence": "falls into the swimming pool",
+      "audioTime": 271.64,
+      "audioEnd": 281.28
+    },
+    "42": {
+      "task": 3,
+      "answer": "find a new singer / replace their singer",
+      "explanation": "落水事件之後，樂隊 decided they needed a new singer，即決定更換主唱。題目 a decision to 後應填動詞原形 find a new singer 或 replace their singer。中伏位：錄音沒有說整隊解散或取消演出；new singer 指新主唱，不是增加第二位伴唱。",
+      "evidence": "they needed a new singer",
+      "audioTime": 281.28,
+      "audioEnd": 288.1
+    },
+    "43": {
+      "task": 3,
+      "answer": "without musical instruments / using only their voices",
+      "explanation": "Cheerful Glee Club 是無伴奏合唱組合，錄音明確解釋他們不用任何樂器，只用人聲唱歌及製造音樂。因此填 without musical instruments 或 using only their voices。中伏位：acapella 是類型名稱，題目空格接在 make music 後，描述演出方式更合句法；不是完全沒有音樂。",
+      "evidence": "without any musical instruments",
+      "audioTime": 323.98,
+      "audioEnd": 330
+    },
+    "44": {
+      "task": 3,
+      "answer": "they imitate drums, violins and animal sounds with their voices",
+      "explanation": "特別之處不只是不用樂器，而是人聲能製造鼓的節拍、小提琴及動物聲。短引文接在前一段的 drum 後，合起來說明模仿能力。中伏位：上一格已問無伴奏形式，本格要更具體特色；不要誤以為他們真的使用鼓和小提琴，這些聲音都是由嗓子模仿出來。",
+      "evidence": "drum beats, violins, and even animal sounds",
+      "audioTime": 330.72,
+      "audioEnd": 343.64
+    },
+    "45": {
+      "task": 3,
+      "answer": "they play pop songs with traditional Chinese instruments",
+      "explanation": "Flying Sticks 雖用傳統中國樂器，特點卻是演奏流行曲，如 Lady Gaga、Katy Perry 的歌，形成中西風格結合。中伏位：使用中樂器已在 Description 欄提供，不能原樣重複當特色；全女班也是背景描述，但對話直接問 what is so special 後回答的是用中樂器演繹流行曲。",
+      "evidence": "traditional Chinese instruments to play pop songs",
+      "audioTime": 369.02,
+      "audioEnd": 376.74
+    },
+    "46": {
+      "task": 3,
+      "answer": "while marching / and march at the same time",
+      "explanation": "St. Patrick’s Big Beats 是步操樂隊，一面演奏鼓、小號等樂器，一面步操。題目 play their instruments 後可接 while marching，表達同時進行。中伏位：不是坐着演奏；星形隊形是下一格的特殊表演效果，本格只問演奏時的基本動作，避免兩格填成同一內容。",
+      "evidence": "they march at the same time",
+      "audioTime": 409.88,
+      "audioEnd": 415.76
+    },
+    "47": {
+      "task": 3,
+      "answer": "they march in formation to make different shapes, such as stars",
+      "explanation": "樂隊最特別的是 in formation 步操，組成不同圖案，錄音舉星形為例。因此應寫列隊移動、排成不同形狀，可補如星形。中伏位：只是「步操」不足以區分這格與上一格；也不是每人拿着星形道具，而是由整隊人的位置形成圖案。",
+      "evidence": "march around in formation to form different shapes",
+      "audioTime": 421.6,
+      "audioEnd": 428.04
+    },
+    "48": {
+      "task": 4,
+      "answer": "a way for young people to hear great pop music",
+      "explanation": "Nancy 第一點說真人騷為年輕人提供聽到優秀流行音樂的途徑。回答 what ... provide 時，應寫 a way for young people to hear great pop music，保留對象及內容。中伏位：不是提供成名保證；也不要只寫 entertainment，那是更籠統的概括，未對應她明說的第一個論點。",
+      "evidence": "hear great pop music",
+      "audioTime": 129.93,
+      "audioEnd": 137.72
+    },
+    "49": {
+      "task": 4,
+      "answer": "it helps young people develop a love for music",
+      "explanation": "Nancy 說年輕人應培養對音樂的熱愛，而流行曲是最佳起點；證據句承接前段 develop a love。因此原因是流行曲能培養愛樂興趣。中伏位：她承認流行曲未必很有深度，並非聲稱它比其他音樂更高深；本題問重要性，要寫出培養興趣的作用，而非只說年輕人喜歡它。",
+      "evidence": "develop a love for music and the best place to start is pop music",
+      "audioTime": 144.18,
+      "audioEnd": 156.41
+    },
+    "50": {
+      "task": 4,
+      "answer": "they stop other artists from having successful careers",
+      "explanation": "Nancy 引述反對者說真人騷阻礙其他藝人取得成功事業的機會。題目問 opponents often say，所以答案須呈現這項批評。中伏位：Nancy 本人接着反駁該說法，不能誤當她認同；也不要只答「破壞音樂業」，那是整體辯題，未說出本格要求的具體影響。",
+      "evidence": "they stop other artists from getting a chance to have a successful career",
+      "audioTime": 171.77,
+      "audioEnd": 177.98
+    },
+    "51": {
+      "task": 4,
+      "answer": "they provide information about singing techniques",
+      "explanation": "Nancy 第三點說節目能提供歌唱技巧資訊，想成為更好歌手的人必須學習。答案應指出能學 singing techniques，而非只說看電視。中伏位：她並非認為有天分就足夠，反而強調仍需訓練；節目讓人認識技巧，不等於觀看一次就必然成為專業歌手。",
+      "evidence": "provide information about singing techniques",
+      "audioTime": 199.73,
+      "audioEnd": 206.33
+    },
+    "52": {
+      "task": 4,
+      "answer": "talented singers do not have to work hard",
+      "explanation": "Nancy 明確以 myth 引出「有天分的歌手不必努力」這個錯誤觀念，節目展示他們仍須大量練習才能進步。題目問要破除的迷思，所以答案要保留 don’t。中伏位：若只寫 talented singers have to work hard，便變成她想傳達的真相，而不是題目問的錯誤信念。",
+      "evidence": "talented singers don't have to work hard",
+      "audioTime": 217.45,
+      "audioEnd": 223.33
+    },
+    "53": {
+      "task": 4,
+      "answer": "viewers enjoy how badly contestants sing rather than good singing",
+      "explanation": "Wendy 稱節目為電視卡拉 OK 的第一個理由，是觀眾從參賽者唱得差獲得樂趣，而非欣賞唱得好。答案要保留 bad 與 well 的對照。中伏位：不是所有參賽者都唱得差，也不是她說節目毫無娛樂性；她批評的是娛樂的來源不在高質素音樂。第 53–54 題可對調次序。",
+      "evidence": "how bad a contestant is singing",
+      "audioTime": 278.38,
+      "audioEnd": 283.81
+    },
+    "54": {
+      "task": 4,
+      "answer": "good contestants copy famous artists instead of being original",
+      "explanation": "第二個理由是即使參賽者唱得好，也是靠模仿著名歌手，而非原創。答案宜寫 copy famous artists instead of being original，清楚保留對比。中伏位：不能寫參賽者原創音樂很好，因為 not through 否定的正是原創；與前一格嘲笑差劣演唱不同，這格針對出色表現仍缺乏創新。",
+      "evidence": "copying famous artists, not through being original",
+      "audioTime": 290.66,
+      "audioEnd": 296.58
+    },
+    "55": {
+      "task": 4,
+      "answer": "the winners achieve instant fame",
+      "explanation": "Wendy 說節目完結後，冠軍 achieve instant fame，突然與資深歌手一樣有名。因此答案是冠軍迅速成名，主語應是 winners。中伏位：不是所有參賽者都瞬間成功，也不是其他歌手突然出名；錄音談的是系列完結後的結果，不是比賽中的訓練過程。",
+      "evidence": "The winners of such TV series achieve instant fame",
+      "audioTime": 305.12,
+      "audioEnd": 311.1
+    },
+    "56": {
+      "task": 4,
+      "answer": "other equally hard-working singers receive less publicity",
+      "explanation": "她認為不公平之處，是其他同樣努力的歌手得到的宣傳不及真人騷冠軍多。答案保留 less publicity 與 equally hard-working 會更完整。中伏位：不是說其他歌手完全沒有宣傳，也不是他們不夠努力；as much ... as 比較的是宣傳程度，背後的公平問題是努力相若、曝光不等。",
+      "evidence": "other singers don't get as much publicity",
+      "audioTime": 319.21,
+      "audioEnd": 324.87
+    },
+    "57": {
+      "task": 4,
+      "answer": "success in the music industry is easy / can happen overnight",
+      "explanation": "Wendy 最後指出節目兜售「在音樂業成功很容易」的謊言，並用 success can happen overnight 補充一夜成名的印象。中伏位：答案要寫她批評的錯誤承諾，而非多年努力這項真相；她不是否認任何人能成功，而是反對把普遍所需的長期付出淡化。",
+      "evidence": "The lie is that success is easy in the music industry",
+      "audioTime": 332.09,
+      "audioEnd": 345.16
+    },
+    "58": {
+      "task": 4,
+      "answer": "musicians give up when things get tough",
+      "explanation": "謊言的後果是新音樂人以為成功容易，一遇到困難就不再堅持；她後面直說 many musicians will simply give up。答案應包含遇困難而放棄。中伏位：不是音樂人會努力更多，也不是單純「失望」；要把錯誤期望與停止追求音樂的具體後果連起來。",
+      "evidence": "musicians won't keep going when things start getting tough",
+      "audioTime": 365.78,
+      "audioEnd": 371.75
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import { bookmarkLocation, safeBookmarkHref, bookmarksCsv, RowReplay } from './listening-study-core.mjs?v=20260827-import1';
+import { bookmarkLocation, safeBookmarkHref, bookmarksCsv, RowReplay } from './listening-study-core.mjs?v=20260904-guide1';
 import { createListeningRecorder } from './listening-recorder.js?v=20260827-import1';
 import { getLoadedPractice, loadPractice } from './listening-practice-loader.mjs?v=20260827-import1';
 

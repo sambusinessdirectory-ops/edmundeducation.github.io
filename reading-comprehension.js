@@ -1,5 +1,8 @@
 import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink, validateReadingAudioTimings } from './reading-comprehension-features.mjs?v=20260904-dse-audio1';
 
+import { DEEP_ANALYSIS_ARTICLES, createDeepAnalysisReader } from './dse-deep-analysis.mjs?v=20260904-admin-source1';
+let deepReader;
+
 const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
@@ -99,6 +102,7 @@ function setConnection(text, status) { el.connection.textContent = text; el.conn
 function setStatus(text = "", status = "") { el.loginStatus.textContent = text; el.loginStatus.dataset.state = status; }
 function showToast(message) { clearTimeout(state.toastHandle); el.toast.textContent = message; el.toast.hidden = false; state.toastHandle = setTimeout(() => { el.toast.hidden = true; }, 3600); }
 function showView(view) {
+  deepReader?.close();
   state.view = view; el.views.forEach((node) => { node.hidden = node.dataset.view !== view; });
   const signedIn = Boolean(state.user && state.token); el.user.hidden = !signedIn; el.logout.hidden = !signedIn; el.home.hidden = !signedIn || view === "login" || view === "reading-home";
   if (signedIn) el.user.textContent = `${state.user.name} · 學生`;
@@ -518,7 +522,7 @@ function renderQuestions() {
     const context = question.context ? `<div class="original-question-group">${state.system === 'dse' ? escapeHtml(question.context) : interactiveWords(question.context, `q${question.number}`)}${dseTranslationCopy(question, 'context')}</div>` : '';
     const optionBank = question.optionBank ? `<div class="question-option-bank">${Array.isArray(question.optionBank) ? question.optionBank.map((option, index) => `<div>${escapeHtml(option)}${dseTranslationCopy(question.optionBank, index)}</div>`).join('') : escapeHtml(question.optionBank) + dseTranslationCopy(question, 'optionBank')}</div>` : '';
     const translation = (question.translation ? `<p class="question-translation" data-question-translation hidden>${escapeHtml(question.translation)}</p>` : '') + dseTranslationCopy(question, 'prompt');
-    const actions = state.system === 'dse' ? '' : `<div class="question-actions"><button class="scan-button" type="button" data-scan-question="${question.number}">Scan：選擇段落</button><button class="scanning-tip-button" type="button" data-scanning-tip="${question.number}">Scanning 提示</button><button class="reveal-button" type="button" data-reveal="${question.number}">顯示答案及分析</button><span class="question-result" data-question-result="${question.number}"></span></div><div class="scan-chooser" data-scan-chooser="${question.number}" hidden><span>答案最可能在哪一段？</span>${scanButtons}</div><small class="answer-timestamp" data-answer-time="${question.number}" hidden></small>`;
+    const actions = state.system === 'dse' ? (DEEP_ANALYSIS_ARTICLES.has(ARTICLE_ID) ? `<div class="deep-entry"><button type="button" data-deep-analysis="${question.number}">查看答案 · 深度研讀 ↗</button><small>完成本題後，逐步拆解證據、推理與陷阱；原書內容完整保留。</small></div>` : '') : `<div class="question-actions"><button class="scan-button" type="button" data-scan-question="${question.number}">Scan：選擇段落</button><button class="scanning-tip-button" type="button" data-scanning-tip="${question.number}">Scanning 提示</button><button class="reveal-button" type="button" data-reveal="${question.number}">顯示答案及分析</button><span class="question-result" data-question-result="${question.number}"></span></div><div class="scan-chooser" data-scan-chooser="${question.number}" hidden><span>答案最可能在哪一段？</span>${scanButtons}</div><small class="answer-timestamp" data-answer-time="${question.number}" hidden></small>`;
     const bookmark = state.system === 'dse' ? '' : `<div class="question-bookmark-row">${readingBookmarkButton('question', question.number)}</div>`;
     return `${heading}<section class="question-card" id="question-${question.number}" data-question="${question.number}">${bookmark}<p class="question-prompt"><span class="question-number">${question.number}</span>${state.system === 'dse' ? escapeHtml(question.prompt) : interactiveWords(question.prompt, `q${question.number}`)}</p>${marks}${translation}${context}${question.figuresAfterControls ? '' : figure}${optionBank}${controls}${question.figuresAfterControls ? figure : ''}${actions}</section>`;
   }).join("");
@@ -546,6 +550,40 @@ function dseDraftKey() {
   return state.data?.questionRevision ? `${base}:${state.data.questionRevision}` : base;
 }
 function saveDseDraft() { if (state.system !== 'dse') return; collectAnswers(); try { localStorage.setItem(dseDraftKey(), JSON.stringify(state.answers)); } catch {} }
+async function verifyDeepAnalysisSourceAdmin() {
+  // A local role flag alone is not proof of administrator identity.
+  // Revalidate the existing Flashcard admin credentials; never store new ones.
+  try {
+    const saved = JSON.parse(sessionStorage.getItem('edmundFlashcardSession') || 'null');
+    if (saved?.role !== 'admin' && saved?.impersonatedByAdmin !== true) return false;
+    const password = sessionStorage.getItem('edmundFlashcardAdminPassword');
+    if (!password) return false;
+    const name = saved.role === 'admin' ? saved.name : 'Sam';
+    const rows = await rpc('flashcard_admin_login', { p_name: name, p_password: password });
+    return Array.isArray(rows) && rows.some(row => row.role === 'admin' && row.name === name);
+  } catch { return false; }
+}
+function openDseDeepAnalysis(number, trigger) {
+  if (state.system !== 'dse' || !DEEP_ANALYSIS_ARTICLES.has(ARTICLE_ID)) return;
+  const question = state.data.questions.find(q => q.number === number);
+  const panel = $(`[data-question="${number}"]`, el.questionForm);
+  if (!question || !panel) return;
+  const inputs = $$('[data-answer-part]', panel);
+  const progress = calculateAnswerProgress(inputs.map(input => ({ part: input.dataset.answerPart, name: input.name, type: input.type, value: input.value, checked: input.checked, slots: input.dataset.answerSlots })));
+  if (progress.answered < progress.total) {
+    showToast('請先完成本題各部分，再查看答案及完整解說。');
+    inputs.find(input => !input.value || ((input.type === 'radio' || input.type === 'checkbox') && !inputs.some(other => other.name === input.name && other.checked)))?.focus();
+    return;
+  }
+  saveDseDraft(); pauseTimer(); el.audio.pause(); closePopovers();
+  const names = [...new Set(inputs.map(input => input.name))];
+  const answer = names.map(name => {
+    const part = question.parts?.find(part => name === `q${number}_${part.key}`);
+    return `${part?.label ? part.label + ': ' : ''}${state.answers[name] || ''}`;
+  }).join('\n');
+  deepReader ||= createDeepAnalysisReader({ verifySourceAdmin: verifyDeepAnalysisSourceAdmin });
+  deepReader.open(state.data, number, state.user.id, answer, trigger);
+}
 function restoreDseDraft() {
   if (state.system !== 'dse') return;
   try { state.answers = JSON.parse(localStorage.getItem(dseDraftKey()) || '{}') || {}; } catch { state.answers = {}; }
@@ -808,6 +846,9 @@ async function openDseExercise(id) {
     if (state.system === 'dse' && state.view === 'exercise') saveDseDraft();
     setExerciseSystem('dse');
     const entry = await loadDseArticleData(id);
+    $('[data-dse-tools-notice]').textContent = DEEP_ANALYSIS_ARTICLES.has(id)
+      ? '完成每題後，可查看參考答案及完整深度解析。'
+      : '答案及分析會稍後加入。';
     resetAttemptState(); renderPassage(); renderQuestions(); setupAudio(); restoreDseDraft(); updateAnswerProgress();
     state.exerciseReady = true;
     state.timerHandle = setInterval(updateTimer, 250);
@@ -897,6 +938,7 @@ el.questionTypeSearch.addEventListener('input', (event) => { state.questionType 
 $('[data-clear-question-type-search]').addEventListener('click', () => { state.questionType = ''; state.questionTypeQuery = ''; history.replaceState({}, '', questionTypeUrl()); renderQuestionTypeView(); el.questionTypeSearch.focus(); });
 $$('[data-passage-tab]').forEach((button) => button.addEventListener("click", () => selectPassageTab(Number(button.dataset.passageTab))));
 document.addEventListener("click", (event) => {
+  const deepButton = event.target.closest('[data-deep-analysis]'); if (deepButton) return openDseDeepAnalysis(Number(deepButton.dataset.deepAnalysis), deepButton);
   const dseExerciseButton = event.target.closest('[data-open-dse-exercise]'); if (dseExerciseButton?.dataset.openDseExercise) return openDseExercise(dseExerciseButton.dataset.openDseExercise);
   const exerciseButton = event.target.closest('[data-open-exercise]'); if (exerciseButton) return openExercise(exerciseButton.dataset.openExercise || ARTICLE_ID);
   const catalogueButton = event.target.closest('[data-catalogue-bookmark]'); if (catalogueButton) { const entry = state.catalogue.find((item) => item.id === catalogueButton.dataset.catalogueBookmark); if (entry) return toggleReadingBookmark(catalogueBookmark(entry)).then(renderCatalogue); }

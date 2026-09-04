@@ -19,7 +19,7 @@ export function bookmarkLocation(item, transcripts, timings, dataPractice = 1) {
 
 export function safeBookmarkHref(href) {
   const value = String(href || '');
-  return /^listening-system\.html\?(?:section=ielts&practice=\d+(?:&part=[1-4])?)(?:#[a-zA-Z0-9:_-]*)?$/.test(value) ? value : 'listening-system.html?section=ielts';
+  return /^listening-system\.html\?(?:section=ielts&practice=\d+(?:&part=[1-4])?|section=dse&year=20(?:1[2-9]|2[0-6])&task=[1-4])(?:#[a-zA-Z0-9:_-]*)?$/.test(value) ? value : 'listening-system.html?section=ielts';
 }
 
 export function bookmarksCsv(rows) {

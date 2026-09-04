@@ -5,6 +5,8 @@ import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
 import { fileURLToPath } from "node:url";
+import "./test-paper3-b2-sentence-analysis.mjs";
+import "./test-paper3-b2-listening-notes.mjs";
 
 const toolsDir = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(toolsDir, "..");

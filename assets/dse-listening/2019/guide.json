@@ -1,0 +1,2271 @@
+{
+  "year": 2019,
+  "source": {
+    "title": "2019 DSE Part A · 錄音稿翻譯及參考答案解析",
+    "scope": "Part A Tasks 1–4, Questions 1–53",
+    "status": "Authored reference answers, not an official HKEAA marking scheme.",
+    "questionPaper": "2019 Paper 3 Part A.pdf",
+    "questionDataSha256": "2a159016d1a3a9cf4df42ebd4ba53c179b956ff4fd5126235941005460ebc807",
+    "transcriptDataSha256": "49e74328887d6048e7f66c0a1755abfe869355c2144ea3e8586e66d493d34620",
+    "styleReference": "2021 – DSE Listening – 5** Past Paper 題解書 (Edmund Sir); approved 2023 guide",
+    "timingBasis": "Original split-track transcript cues; cue-based audio navigation is approximate. Replay begins 15 seconds before the answer-bearing cue.",
+    "editorialNotes": [
+      "Newly authored from 2019 original question data, figures and recording transcript; 2021/2023 used for teaching style only. Original recordings, questions, images, student data and Part B are unchanged.",
+      "The source ASR varies the app and NGO names; the original paper-page-7.jpg was visually checked and prints Mentor as the completed example followed by Mine, establishing the full app name Mentor Mine. Question translations use Mentor Mine and Tarraco Solutions. A separate transcription of the original app-name passage confirmed the correction exchange but did not resolve its wordplay reliably; the mistaken duplicate “Not mental. Mental!” is corrected to “Not mental. Mentor!” using the printed example word. Other English is retained except for unambiguous “incomplete sentences” and “live fee” recognition errors. The original end-of-track cue introducing the following task is also translated.",
+      "Guide-only speaker labels mark obvious announcement continuations as Narrator. The incomplete Sarah Lo and Ms Chan label is broadened to School policy discussion so Ms Reyes is not excluded; app and NGO interview cues retain group labels without guessing individual turns or unsupported surnames. Original timing and raw transcript files remain unchanged."
+    ]
+  },
+  "transcriptNote": "按 2019 原有錄音稿整理，逐段附繁體中文翻譯，保留原有時間；明確的指示段落標作旁白，無法細分的對話保留群組標籤。定位時間為約略錄音提示。",
+  "analysisNote": "以下為按錄音及題目編寫的參考答案與教學解析，並非考評局官方評分準則。",
+  "analysis": {
+    "1": {
+      "task": 1,
+      "answer": "B — until 8:45am",
+      "explanation": "Sarah 明確說目前只能使用手機至早上八時四十五分。另一人以為是八時五十五分，她再次更正為八時四十五分，所以選 B。\n中伏位：8:55 是未獲確認的錯誤理解，後面的 only until 8:45 才是最終資料；8:30 沒有被採用。聽到 my mistake，便知道前面一個數字已被否定。",
+      "evidence": "No, only until 8.45",
+      "audioTime": 126.02,
+      "audioEnd": 128.42
+    },
+    "2": {
+      "task": 1,
+      "answer": "outdated",
+      "explanation": "學生對現行政策的評價是 outdated，意思是「過時、不合現今需要」。題目 Current policy is 後面須接形容詞，因此直接填 outdated。\n中伏位：這不是老師的立場，而是學生的看法；flexible 是下一格希望政策具備的特點。不要把「現況評價」與「希望改成怎樣」兩個相鄰重點倒轉。",
+      "evidence": "students think the policy is outdated",
+      "audioTime": 131.02,
+      "audioEnd": 133.98
+    },
+    "3": {
+      "task": 1,
+      "answer": "flexible",
+      "explanation": "Sarah 表示學生希望 policy to be more flexible，即政策更有彈性。題目已提供 more，填 flexible 就能組成比較式。\n中伏位：不要再加 more，否則出現 more more flexible；outdated 是上一格對現行政策的批評，不能填作希望增加的特質。這題談政策彈性，並不等於要求完全取消所有手機限制。",
+      "evidence": "the policy to be more flexible",
+      "audioTime": 139.46,
+      "audioEnd": 143.16
+    },
+    "4": {
+      "task": 1,
+      "answer": "214",
+      "explanation": "Sarah 先列出六十四名初中生和一百五十名高中生，再明說總數二百一十四；64＋150＝214。題目要求所有回覆者的總數，所以填 214。\n中伏位：64 和 150 都只是其中一個年級組別，不能擇一填寫；後面再次重複 214 作確認。這是學生人數，不是百分比，因此不用加百分號。",
+      "evidence": "that's 214 students in total",
+      "audioTime": 165.98,
+      "audioEnd": 169.88
+    },
+    "5": {
+      "task": 1,
+      "answer": "30 minutes / half an hour",
+      "explanation": "學生最常提出的要求，是午膳時段用手機三十分鐘。Sarah 說 for 30 minutes at lunchtime，老師也用 half an hour 重述，因此兩種寫法均可。\n中伏位：題目已有 for，空格填時間長度而非 lunch time；午膳整段時間不一定等於三十分鐘。這裡問學生要求，不是早上停止使用手機的時刻。",
+      "evidence": "for 30 minutes at lunchtime",
+      "audioTime": 186.76,
+      "audioEnd": 192.3
+    },
+    "6": {
+      "task": 1,
+      "answer": "walking between",
+      "explanation": "同一句的第二項要求是 when walking between classes，即轉堂步行時用手機。題目已提供 classes，空格只須填 walking between。\n中伏位：老師隨即否決，但題目問的是學生要求，因此不能因提議不獲接受就刪去。between 是在兩課之間，during classes 是上課期間，兩者不是同一個時間。",
+      "evidence": "when walking between classes",
+      "audioTime": 186.76,
+      "audioEnd": 192.3
+    },
+    "7": {
+      "task": 1,
+      "answer": "calculator apps",
+      "explanation": "Sarah 說學生想在物理課使用手機，目的是用 calculator apps。題目學生想使用什麼，所以填這個名詞片語。\n中伏位：scientific calculators 是 Reyes 女士認為更好的替代工具，不是學生想在手機上用的功能；網上字典則屬語文課。apps 保留複數可貼近錄音中的一般用途。",
+      "evidence": "use calculator apps",
+      "audioTime": 223.78,
+      "audioEnd": 226.34
+    },
+    "8": {
+      "task": 1,
+      "answer": "online dictionaries",
+      "explanation": "語文課使用手機的理由是查 online dictionaries，即網上字典。這跟上一列物理課計算機應用程式形成配對。\n中伏位：不能只寫 online，因為它只是修飾語，未交代工具；也不是用社交媒體練習語文，錄音沒有這項提議。字典用複數 dictionaries，拼寫時由 dictionary 改 y 為 ies。",
+      "evidence": "for online dictionaries",
+      "audioTime": 226.34,
+      "audioEnd": 231.4
+    },
+    "9": {
+      "task": 1,
+      "answer": "in language classes only",
+      "explanation": "Reyes 女士先否定物理課用手機的必要，因為科學計算機較好，然後以 but yes 表示語文課可能有用。因此她只支持在語文課使用。\n中伏位：她是科學教師，不代表必定贊成物理課用手機；要依照她實際表態。both 把否定部分錯納入，no classes 又忽略她對語文課的正面回應。",
+      "evidence": "they could be useful in language classes",
+      "audioTime": 251.42,
+      "audioEnd": 254.78
+    },
+    "10": {
+      "task": 1,
+      "answer": "in language classes only",
+      "explanation": "Chan 女士說完全同意 Reyes 女士的兩點，並再確認物理課毋須手機、查網上字典則是好主意。因此也選只在語文課使用。\n中伏位：both points 指同意「反對物理、支持語文」這兩個判斷，並非支持兩種課堂都用手機。聽到 both 不可直接選 both Physics and language classes，要理解它所指內容。",
+      "evidence": "using them for online dictionaries is definitely a good idea",
+      "audioTime": 262.98,
+      "audioEnd": 266.9
+    },
+    "11": {
+      "task": 1,
+      "answer": "battery charging / phone charging",
+      "explanation": "學生不能在課室為手機充電，因此提出 battery charging station。題目已有 station，空格填 battery charging。\n中伏位：不是借用手機的地方，也不是更換電池的服務；charging 在這裡表示充電。若只填 battery，會變成電池站，沒有清楚交代用途；保留 charging 才完整。",
+      "evidence": "a battery charging station",
+      "audioTime": 278.75,
+      "audioEnd": 282.89
+    },
+    "12": {
+      "task": 1,
+      "answer": "security",
+      "explanation": "操場旁走廊的問題是 security，Chan 女士擔心保安，Reyes 女士也同意，故該位置被排除。題目 concerns about 後面填名詞 security。\n中伏位：不是學生轉堂遲到，那是前面另一項政策的反對理由；也不是沒有足夠電力。這題要跟隨位置討論的段落，別把較早出現的顧慮移過來。",
+      "evidence": "problems with security",
+      "audioTime": 304.43,
+      "audioEnd": 306.95
+    },
+    "13": {
+      "task": 1,
+      "answer": "the library / library",
+      "explanation": "Sarah 提出的另一個位置是 library，兩位老師認為可行，並承諾研究。這格位於「可能的位置」欄，應填地點。\n中伏位：corridor next to the playground 是上一列已被否定的提議，不是本格；classrooms 只是現時禁止充電的地點。填 library 即可，不必自行加上前台或某樓層。",
+      "evidence": "The other one was the library",
+      "audioTime": 320.6,
+      "audioEnd": 322.16
+    },
+    "14": {
+      "task": 1,
+      "answer": "it is popular at lunchtime / many students use it at lunchtime",
+      "explanation": "老師接受圖書館作候選位置時說 It’s certainly popular at lunchtime，意思是午膳時有很多學生使用，所以充電站放在那裡有需求。\n中伏位：錄音沒有說圖書館一定有閉路電視或免費插座，不應自行補充保安優勢。答案須保留 at lunchtime 的情境；單寫 a good idea 只重複題目，沒有解釋原因。",
+      "evidence": "It's certainly popular at lunchtime",
+      "audioTime": 322.88,
+      "audioEnd": 327.72
+    },
+    "15": {
+      "task": 2,
+      "answer": "from around the world / worldwide",
+      "explanation": "介紹應用程式時說，它讓你 connect with other students from around the world。因此空格填 from around the world，補足所聯繫學生的範圍。\n中伏位：不是只限同校或香港學生；senior students 是學校推廣的對象，並非全部用戶所在地。題目已寫 students，答案可從 from 開始，不必重複整句。",
+      "evidence": "other students from around the world",
+      "audioTime": 96.75,
+      "audioEnd": 104.03
+    },
+    "16": {
+      "task": 2,
+      "answer": "projects",
+      "explanation": "應用程式讓學生互相協助，例子是 homework and projects。題目已給 homework and，空格填 projects，即專題研習或項目。\n中伏位：不是 subjects，科目是在下一段設定中出現；也不是單純聊天。projects 是可數名詞，在一般列舉多種學習任務時用複數，應留意字尾 s。",
+      "evidence": "homework and projects",
+      "audioTime": 104.53,
+      "audioEnd": 107.65
+    },
+    "17": {
+      "task": 2,
+      "answer": "Guide",
+      "explanation": "三個起始程度依次是 Beginner、Apprentice、Guide，題目已提供前兩個，所以填 Guide。學生也解釋，對科目很熟悉才選 Guide。\n中伏位：Guide 在此是應用程式內的程度名稱，不是旅遊導遊；不要自行改成 Teacher 或 Expert。starting levels 只問初始選項，不是之後升級所得的分數或票數。",
+      "evidence": "Beginner, apprentice and guide",
+      "audioTime": 154.39,
+      "audioEnd": 157.57
+    },
+    "18": {
+      "task": 2,
+      "answer": "preparing for an exam / exam preparation",
+      "explanation": "講者介紹 Academic 模式後說 preparing for an exam 時便選這一項，因此用途是準備考試。題目模式欄要填選擇它的情況。\n中伏位：personal interest 是 Hobby 模式的用途，兩者要分開；Academic 雖可譯學術，但答案不能只重複模式名稱。寫 exam preparation 可簡潔表達名詞筆記形式。",
+      "evidence": "if you're preparing for an exam",
+      "audioTime": 183.35,
+      "audioEnd": 186.17
+    },
+    "19": {
+      "task": 2,
+      "answer": "personal interest only",
+      "explanation": "另一個模式是 Hobby，講者說它 for personal interest only，即純粹出於個人興趣，不一定為了考試。\n中伏位：不是只限校外活動，也不是沒有指定科目；對某個學科感興趣但不考試，也可用此模式。only 強調用途，保留後能清楚區分上一格的 exam preparation。",
+      "evidence": "personal interest only",
+      "audioTime": 186.17,
+      "audioEnd": 191.25
+    },
+    "20": {
+      "task": 2,
+      "answer": "type of school / school type",
+      "explanation": "按旗子圖示後出現兩項設定：country and type of school。題目已提供 Country and，所以填 type of school。\n中伏位：旗子容易令人只想到國家，但錄音清楚說有兩項設定；這不是選校名或年級。後面的意大利例子正是說不同國家有不同類型的專門學校，為 school type 提供解釋。",
+      "evidence": "country and type of school",
+      "audioTime": 209.4,
+      "audioEnd": 216.1
+    },
+    "21": {
+      "task": 2,
+      "answer": "Italy",
+      "explanation": "例子提到 Italian schools 和 Italian teenagers，說明國家是 Italy。題目問 Country，因此應把形容詞 Italian 轉成國家名 Italy。\n中伏位：不要直接填 Italian，那是「意大利的」而不是國家名稱；sports coaching 是下一格的專修範疇。這兩格一個問地點，一個問學什麼，要按欄目分辨。",
+      "evidence": "many Italian schools",
+      "audioTime": 219.22,
+      "audioEnd": 227.8
+    },
+    "22": {
+      "task": 2,
+      "answer": "sports coaching",
+      "explanation": "意大利青少年若想專攻 sports coaching，可以選擇教授這科目的學校。因此 Specialism 一格填 sports coaching，即運動教練訓練。\n中伏位：單寫 sports 只保留範疇，漏了 coaching 的具體專業；不是運動比賽或體育新聞。coaching 是動名詞，與 sports 組成學科名稱，毋須改成 coach。",
+      "evidence": "sports coaching",
+      "audioTime": 228.32,
+      "audioEnd": 236.04
+    },
+    "23": {
+      "task": 2,
+      "answer": "a maximum of two hours each weekday / two hours per weekday",
+      "explanation": "辦公時間設定讓學生平日每天最多用兩小時即時問答，週末可以更多。因此這格填 a maximum of two hours each weekday。\n中伏位：三至四小時是週末的例子，不是平日上限；也不是每星期只可兩小時。題目後面已有 and more on weekends，空格應清楚限定 weekday，並保留 maximum 的上限意思。",
+      "evidence": "a maximum of two hours each weekday",
+      "audioTime": 260.56,
+      "audioEnd": 271
+    },
+    "24": {
+      "task": 2,
+      "answer": "good time management skills",
+      "explanation": "固定辦公時間的第一個原因，是幫助學生 develop good time management skills。題目已寫 To develop，因此填這個名詞片語。\n中伏位：不是為了延長做功課時間，而是學習管理時間；Rachel 說自己總趕死線，是用來回應這個需要的個人例子。management 與 skills 都應保留，避免只寫 time。",
+      "evidence": "develop good time management skills",
+      "audioTime": 279.3,
+      "audioEnd": 287.06
+    },
+    "25": {
+      "task": 2,
+      "answer": "availability / when you are available",
+      "explanation": "第二個原因是讓其他學生知道你何時有空，從而知道什麼時候可得到答覆。題目 To show 後可填 availability 或 when you are available。\n中伏位：不是顯示答題能力或考試成績；clock 圖示也不是單純報時。這格與前一格的時間管理不同，一項對自己有益，另一項方便其他用戶安排聯繫。",
+      "evidence": "know exactly when you're available",
+      "audioTime": 293.84,
+      "audioEnd": 300.08
+    },
+    "26": {
+      "task": 2,
+      "answer": "moving up to a higher level sooner / faster progress to a higher level",
+      "explanation": "回饋設定中，票數越多，便越快升至更高程度。錄音用 the more ... the sooner ... 表達兩者關係，因此答案要包括升級及更快。\n中伏位：不是得到金錢，也不是票數多就立即變成最高等級；只寫 more messages 也不是效果。題目已寫 More votes＝，空格應交代票數帶來的結果。",
+      "evidence": "the sooner you can move up to a higher level",
+      "audioTime": 327.56,
+      "audioEnd": 331.64
+    },
+    "27": {
+      "task": 2,
+      "answer": "people they have helped / students they have helped",
+      "explanation": "用戶可以顯示或隱藏收到的留言，講者特別解釋來自 the ones that I’ve helped。因此答案是曾經獲得你幫助的人。\n中伏位：不要把方向倒轉成曾幫助你的學生；這是你提供協助後，對方投票並留言致謝的回饋。題目 from 後面要填發訊息的人，而不是 thanks 這類留言內容。",
+      "evidence": "the ones that I've helped",
+      "audioTime": 337.76,
+      "audioEnd": 346.88
+    },
+    "28": {
+      "task": 3,
+      "answer": "get practical advice on starting their own companies",
+      "explanation": "年輕人加入中心的第一個原因，是取得創辦自己公司的實用建議。Rachel 明說 centres give practical advice on how to start their own companies。\n中伏位：不是中心直接送他們一間公司，也不是提供現成工作；答案要保留 advice 或 learn how。第 28、29 題可互換，但創業建議與學職場技能是兩項不同目的。",
+      "evidence": "how to start their own companies",
+      "audioTime": 89.16,
+      "audioEnd": 99.88
+    },
+    "29": {
+      "task": 3,
+      "answer": "learn new workplace skills",
+      "explanation": "另一個原因是學習新的職場技能，Rachel 用寫電郵作例子。因此答案可概括為 learn new workplace skills。\n中伏位：writing emails 是其中一項例子，不是所有服務的總稱；只寫 learn things 太籠統。不要把稍後賺取 Imali 的方法填過來，本題問最初加入中心的學習動機，而非如何取得貨幣。",
+      "evidence": "learn new workplace skills",
+      "audioTime": 108.3,
+      "audioEnd": 117.06
+    },
+    "30": {
+      "task": 3,
+      "answer": "virtual money",
+      "explanation": "Rachel 解釋中心完全不用現金，年輕人可以賺取 virtual money called Imali。因此空格填 virtual money，即虛擬貨幣。\n中伏位：不能填 real money，後面還特別區分會員取得的虛擬貨幣與慈善機構收到的真正金錢；Bitcoin 只是另一位的類比提問，並不是這種貨幣的實際名稱。",
+      "evidence": "virtual money called imali",
+      "audioTime": 128.44,
+      "audioEnd": 144.7
+    },
+    "31": {
+      "task": 3,
+      "answer": "local volunteering / doing voluntary work in the local area",
+      "explanation": "第一種賺取 Imali 的方法是 local volunteering，任何類型都可以，只要在附近地區進行。答案須保留 local，指出社區義工服務。\n中伏位：不是透過電腦挖礦，Rachel 已否定 Bitcoin 的猜測；幫學校、助長者都是這個方法的例子，不能拆成兩個答案而漏掉下一項個人成長工作坊。",
+      "evidence": "local volunteering",
+      "audioTime": 149.78,
+      "audioEnd": 163.08
+    },
+    "32": {
+      "task": 3,
+      "answer": "attending personal development workshops",
+      "explanation": "第二種方法是參加 personal development workshops，對方確認出席就能賺取 Imali。這些工作坊教人面對問題不放棄、設定目標。\n中伏位：不必先完成一份有薪工作才賺得到；也不是在網上付費上課，那是使用 Imali 的用途。答案用 attending 清楚表達參加工作坊的動作。",
+      "evidence": "go to personal development workshops",
+      "audioTime": 163.76,
+      "audioEnd": 173.68
+    },
+    "33": {
+      "task": 3,
+      "answer": "buy snacks at the centre cafés",
+      "explanation": "Imali 在中心內的用途，是在咖啡室買小食等東西。Rachel 說 use Imali at the centre cafés to buy things like snacks。\n中伏位：這一格限定 In the centre，網上課程和捐款要放在 Online 兩格。後段有人批評不能支付家庭正餐，正好說明不要自行把用途擴大為所有食物或生活開支。",
+      "evidence": "to buy things like snacks",
+      "audioTime": 195.88,
+      "audioEnd": 207.54
+    },
+    "34": {
+      "task": 3,
+      "answer": "pay for online courses",
+      "explanation": "第一個網上用途是 pay for online courses，即支付網上課程費用。學生可在家修讀，但很多人喜歡使用中心電腦。\n中伏位：中心電腦是使用課程的設備，不是可以用 Imali 購買的商品；參加個人成長工作坊則是賺取貨幣的方法。第 34、35 題是兩個用途，可互換次序。",
+      "evidence": "pay for online courses",
+      "audioTime": 195.88,
+      "audioEnd": 207.54
+    },
+    "35": {
+      "task": 3,
+      "answer": "donate to charity",
+      "explanation": "另一個網上用途是把 Imali 捐給慈善機構。Rachel 接着澄清，中心會把相應的真正金錢交給慈善機構。\n中伏位：不是慈善機構只能收到不能通用的 Imali，也不是會員可以任意把 Imali 兌成現金。題目只問用途，填 donate to charity 即可，但須保留 charity 這個捐贈對象。",
+      "evidence": "donate imalis to charity",
+      "audioTime": 223.04,
+      "audioEnd": 229.98
+    },
+    "36": {
+      "task": 3,
+      "answer": "a sense of belonging / it is a place where they feel they belong",
+      "explanation": "被問到最大的吸引力時，Rachel 引述文章，說這裡讓人 feel a sense of belonging。因此主要原因是得到歸屬感。\n中伏位：雖然中心提供技能和虛擬貨幣，這題用 main reason 問使用者最喜歡它的原因，錄音已明確總結為歸屬感。不要只列服務，也不要憑常識改成能賺很多真錢。",
+      "evidence": "feel a sense of belonging",
+      "audioTime": 249.72,
+      "audioEnd": 255.38
+    },
+    "37": {
+      "task": 3,
+      "answer": "gives people a way to give back to the community",
+      "explanation": "Rachel 對優點的看法是，中心讓人回饋社區，而不只是接受基本福利。答案應概括為給人一個服務、回饋社會的途徑。\n中伏位：belonging 是使用者的感受，這題轉為 Rachel 個人評價，兩者並不完全相同。give back 不是把錢退回中心，而是以服務等方式對社會作出貢獻。",
+      "evidence": "a way to give back to the community",
+      "audioTime": 269.11,
+      "audioEnd": 277.05
+    },
+    "38": {
+      "task": 3,
+      "answer": "lets people learn life skills, such as dealing with money",
+      "explanation": "Aaron 認為最大好處是學到 life skills，例子是處理金錢。因此可填學習生活技能，例如理財。\n中伏位：這不是說會員會賺取真正工資；貨幣是虛擬的，仍可讓人練習管理資源。表格按人物分列，Rachel 的回饋社區與 Aaron 的生活技能不能互換到錯誤的人物欄。",
+      "evidence": "it lets people learn life skills",
+      "audioTime": 281.59,
+      "audioEnd": 289.07
+    },
+    "39": {
+      "task": 3,
+      "answer": "real money is more useful for meals and supporting families",
+      "explanation": "Rachel 指出真錢更有用，因為人們需要支付正餐、幫補家計，而不只是買小食。答案要交代虛擬貨幣用途有限這個不足。\n中伏位：她並非否定中心所有服務，也不是說 Imali 完全沒有價值；重點是生活必需開支仍需要真錢。若只寫 actual money，不完整表達比較及原因，宜加 more useful。",
+      "evidence": "actual money is more useful",
+      "audioTime": 296.19,
+      "audioEnd": 300.85
+    },
+    "40": {
+      "task": 3,
+      "answer": "it may be vulnerable to hacking / hackers could break into the system",
+      "explanation": "Aaron 起初說很難找到缺點，然後提出可能容易被黑客入侵。答案是網上系統有遭入侵的風險，並非已經發生事故。\n中伏位：前面的 hard to see any bad points 並不是最終「沒有缺點」答案；留意之後 Maybe 和 might 引出的補充。要保留可能性，不能改成 Imali 已被偷走的事實。",
+      "evidence": "it might be vulnerable to hacking",
+      "audioTime": 318.91,
+      "audioEnd": 328.51
+    },
+    "41": {
+      "task": 4,
+      "answer": "poor and remote areas around the world",
+      "explanation": "Berg 博士介紹組織在世界各地 poor and remote areas 工作，因此答案是貧困而偏遠地區。兩個形容詞都描述服務環境。\n中伏位：Thailand 和 India 只是後來的項目例子，不是完整工作範圍；題目問 what kind of places，所以應寫地區特質，而非單純列國家。不要漏掉 remote 所表示的地理偏遠。",
+      "evidence": "poor and remote areas all over the world",
+      "audioTime": 74.72,
+      "audioEnd": 84.64
+    },
+    "42": {
+      "task": 4,
+      "answer": "an uncomfortable journey to work and school",
+      "explanation": "泰國巴士候車亭項目改善的是上班和上學路途不舒適的問題。錄音直接說 helped local people deal with an uncomfortable journey to work and school。\n中伏位：題目問解決什麼問題，不是問建造什麼，不能只答 bus shelter。錄音沒有說巴士遲到或道路擠塞，不能憑經驗增加未提及的原因。",
+      "evidence": "an uncomfortable journey to work and school",
+      "audioTime": 108.02,
+      "audioEnd": 112.8
+    },
+    "43": {
+      "task": 4,
+      "answer": "invite ideas from people often overlooked, including children",
+      "explanation": "組織重視多元，體現在邀請平常被忽略的人參與和提出意見，並以兒童為例。他們也是設施使用者，卻經常沒有發聲機會。\n中伏位：不是只替某個特殊群體服務，博士說 actually, it’s the opposite；回答要指出讓邊緣使用者參與，而不只是抽象寫 respects diversity。",
+      "evidence": "people who are often overlooked in traditional society",
+      "audioTime": 117.26,
+      "audioEnd": 130.26
+    },
+    "44": {
+      "task": 4,
+      "answer": "see how designs would look in real life",
+      "explanation": "AR 的第一項好處，是讓大家看見設計實際放進現實環境會是什麼樣子。博士說 see the designs as they would appear in real life。\n中伏位：不是只看一張圖，也不是建成後才知道樣貌；AR 把數碼設計和真實場景結合。第 44、45 題可互換，但這點談預覽效果，另一點談選擇喜好。",
+      "evidence": "see the designs as they would appear in real life",
+      "audioTime": 179.29,
+      "audioEnd": 185.01
+    },
+    "45": {
+      "task": 4,
+      "answer": "helps people decide which final design they like best",
+      "explanation": "第二項好處是幫助其他人看出最喜歡哪個設計，從而在公眾投票中選擇最終方案。答案要保留比較、選擇的功能。\n中伏位：公眾投票本身不是 AR 自動完成的工作，AR 是讓人更容易判斷設計；不能說電腦替大家決定。只重複「看見設計」也會與上一題重疊，宜寫 choose the design they prefer。",
+      "evidence": "see which final designs they like best",
+      "audioTime": 186.93,
+      "audioEnd": 193.39
+    },
+    "46": {
+      "task": 4,
+      "answer": "some users have never used a computer before",
+      "explanation": "AR 培訓對某些人特別重要，是因為這是他們第一次使用電腦，沒有相關基礎。因此答案是有些參與者從未用過電腦。\n中伏位：三天是培訓長度，不是重要的原因；AR 很新也只是主持人的概括，博士提供更具體的電腦經驗缺乏。some users 不等於所有人，答案不要擴大為整個社區都不懂電腦。",
+      "evidence": "the first time they've ever used a computer",
+      "audioTime": 219.67,
+      "audioEnd": 226.89
+    },
+    "47": {
+      "task": 4,
+      "answer": "a riverside path to a market",
+      "explanation": "Kerala 項目的目標是改善一條沿河、通往市場的小徑。博士直接說 improve a riverside path to a market，所以答案應保留地點與路線用途。\n中伏位：不是重建市場本身，也不是再次興建巴士亭，後者是泰國案例。path 是主要受改善的設施，riverside 和 to a market 說明是哪一條路。",
+      "evidence": "improve a riverside path to a market",
+      "audioTime": 239.41,
+      "audioEnd": 244.31
+    },
+    "48": {
+      "task": 4,
+      "answer": "flash floods",
+      "explanation": "團隊首先要在設計中加入安全措施應付 flash floods，即短時間內突然出現的洪水。因此第一個問題填 flash floods。\n中伏位：只是說 riverside 太含糊，那是小徑位置，不是危險；也不是乾旱。第 48、49 題可互換，但必須分別列出洪水與危險有害動物，不能把兩個洪水同義說法當兩點。",
+      "evidence": "help deal with flash floods",
+      "audioTime": 247.31,
+      "audioEnd": 253.39
+    },
+    "49": {
+      "task": 4,
+      "answer": "dangerous pests, especially snakes",
+      "explanation": "孩子告訴團隊，該區有很多 dangerous pests，尤其是 snakes，團隊因此加入應對設施。答案可寫危險有害動物，特別是蛇。\n中伏位：孩子提供的是經常使用路線所得的在地資料，不是抱怨沒有遊樂場。只寫 animals 過於籠統，應保留 dangerous 或 snakes，才能指出要解決的安全問題。",
+      "evidence": "dangerous pests, especially snakes",
+      "audioTime": 262.61,
+      "audioEnd": 270.87
+    },
+    "50": {
+      "task": 4,
+      "answer": "an earlier similar project was left unfinished, so they feared this one would be too",
+      "explanation": "居民不信任的第一個原因，是村裡幾年前有類似項目未完成，擔心新計劃也會如此。答案可把過去經驗與現在憂慮連起來。\n中伏位：不是 Tarraco 已經把這項工程棄置，也不是居民反對改善小徑；他們的疑慮來自另一個先前項目。要分清 previous project 與 current project，避免錯指責對象。",
+      "evidence": "a similar project in the village a few years before that had been left unfinished",
+      "audioTime": 286.13,
+      "audioEnd": 294.13
+    },
+    "51": {
+      "task": 4,
+      "answer": "no one would maintain the path after the team left",
+      "explanation": "第二個憂慮是團隊離開後，沒有人保養小徑。博士明確提到 no one to maintain the path once we’d gone。\n中伏位：這與上一題「能否建成」不同，這一點問完工後長期維修；兩題不能都只寫 worried they would leave。maintain 是保養維護，不是重新興建，答案需保留時間條件 after they left。",
+      "evidence": "no one to maintain the path",
+      "audioTime": 315.2,
+      "audioEnd": 319.88
+    },
+    "52": {
+      "task": 4,
+      "answer": "identify areas where the path has deteriorated / monitor damage for maintenance",
+      "explanation": "對當地使用者的好處，是透過直播輕易看出小徑哪些地方損壞，方便持續監察和維護。博士以 areas where the path had deteriorated 說明用途。\n中伏位：不是單純讓大家欣賞風景，亦不是取代所有實地維修；攝影機能顯示問題。這點對應居民的保養憂慮，與下一題替組織募款的好處不同。",
+      "evidence": "see areas where the path had deteriorated",
+      "audioTime": 353.89,
+      "audioEnd": 360.47
+    },
+    "53": {
+      "task": 4,
+      "answer": "gain more funding by promoting the work online with the images",
+      "explanation": "博士說雙贏的另一方是組織本身：利用影像在網上推廣工作，可取得更多資助。因此答案應包括 funding 和 online promotion 的關係。\n中伏位：不是向居民收看直播的費用，也不是直接出售攝影機；錄音講的是展示工作成果以吸引資助。第 52、53 題可互換，但要分清地方使用者和組織各自得到的好處。",
+      "evidence": "get more funding as we promote our work online using the images",
+      "audioTime": 371.67,
+      "audioEnd": 381.35
+    }
+  },
+  "transcript": {
+    "1": [
+      {
+        "start": 0,
+        "end": 6.66,
+        "speaker": "Narrator",
+        "text": "Task 1. Sarah is meeting with Ms. Chan, the school principal,",
+        "zh": "任務一。Sarah 正與校長 Chan 女士"
+      },
+      {
+        "start": 7.22,
+        "end": 13.8,
+        "speaker": "Narrator",
+        "text": "and Ms. Reyes, a science teacher at the school, about the school's mobile phone use policy.",
+        "zh": "和校內的科學科教師 Reyes 女士開會，討論學校的手機使用政策。"
+      },
+      {
+        "start": 15.25,
+        "end": 20.01,
+        "speaker": "Narrator",
+        "text": "Listen to the discussion and write the information in the spaces below.",
+        "zh": "聆聽討論，並把資料寫在以下空格內。"
+      },
+      {
+        "start": 21.16,
+        "end": 24.04,
+        "speaker": "Narrator",
+        "text": "The first one has been provided as an example.",
+        "zh": "第一項已作為例子提供。"
+      },
+      {
+        "start": 25.41,
+        "end": 28.79,
+        "speaker": "Narrator",
+        "text": "You now have 30 seconds to study the task.",
+        "zh": "你現在有三十秒閱讀題目。"
+      },
+      {
+        "start": 28.79,
+        "end": 33.93,
+        "speaker": "Narrator",
+        "text": "At the end of the task, you will have one minute to tidy up your answers.",
+        "zh": "本任務結束後，你將有一分鐘整理答案。"
+      },
+      {
+        "start": 65.87,
+        "end": 67.59,
+        "speaker": "School policy discussion",
+        "text": "Good morning, Sarah. Come in.",
+        "zh": "早安，Sarah，請進。"
+      },
+      {
+        "start": 68.23,
+        "end": 72.65,
+        "speaker": "School policy discussion",
+        "text": "I thought it would be useful to have Ms. Reyes here as well to hear about your survey.",
+        "zh": "我想也請 Reyes 女士在場，聽聽你的調查，會很有幫助。"
+      },
+      {
+        "start": 73.21,
+        "end": 74.69,
+        "speaker": "School policy discussion",
+        "text": "Good morning, Sarah. Hello!",
+        "zh": "Sarah，早安。你好！"
+      },
+      {
+        "start": 75.45,
+        "end": 83.17,
+        "speaker": "School policy discussion",
+        "text": "Okay, so as I was saying, Ms. Reyes, Sarah and her team at our IT club online magazine have been doing a survey",
+        "zh": "Reyes 女士，正如我剛才說，Sarah 和資訊科技學會網上雜誌的團隊正在進行調查，"
+      },
+      {
+        "start": 83.17,
+        "end": 87.63,
+        "speaker": "School policy discussion",
+        "text": "where they have been asking students about mobile phone use during the school day.",
+        "zh": "詢問學生在上課日使用手機的情況。"
+      },
+      {
+        "start": 87.63,
+        "end": 91.05,
+        "speaker": "School policy discussion",
+        "text": "So Sarah, maybe you can give us some more details.",
+        "zh": "Sarah，不如再詳細介紹一下。"
+      },
+      {
+        "start": 92.01,
+        "end": 94.21,
+        "speaker": "School policy discussion",
+        "text": "Yes, and thank you for seeing me today.",
+        "zh": "好的，謝謝你們今天抽空見我。"
+      },
+      {
+        "start": 94.93,
+        "end": 97.67,
+        "speaker": "School policy discussion",
+        "text": "Well, we're writing an article about the survey,",
+        "zh": "我們正在撰寫一篇關於這項調查的文章，"
+      },
+      {
+        "start": 98.15,
+        "end": 102.33,
+        "speaker": "School policy discussion",
+        "text": "and we thought it would be good to include your comments as well in the article.",
+        "zh": "也想把你們的意見加到文章裡。"
+      },
+      {
+        "start": 103.13,
+        "end": 103.83,
+        "speaker": "School policy discussion",
+        "text": "Okay, fine.",
+        "zh": "好，沒問題。"
+      },
+      {
+        "start": 104.93,
+        "end": 110.89,
+        "speaker": "School policy discussion",
+        "text": "The first issue we asked about was when we can use our phones during the school day.",
+        "zh": "我們首先問的是，上課日哪些時段可以使用手機。"
+      },
+      {
+        "start": 111.74,
+        "end": 117.34,
+        "speaker": "School policy discussion",
+        "text": "At the moment, we're only allowed to use our phones until 8.45 in the morning.",
+        "zh": "目前，我們只可以用手機至早上八時四十五分。"
+      },
+      {
+        "start": 117.34,
+        "end": 120.54,
+        "speaker": "School policy discussion",
+        "text": "And we can't use our phones during class.",
+        "zh": "上課時不能用手機。"
+      },
+      {
+        "start": 121,
+        "end": 125.16,
+        "speaker": "School policy discussion",
+        "text": "Oh, I thought you could use your phones until 8.55.",
+        "zh": "噢，我還以為你們可以用到八時五十五分。"
+      },
+      {
+        "start": 126.02,
+        "end": 128.42,
+        "speaker": "School policy discussion",
+        "text": "No, only until 8.45.",
+        "zh": "不，只可以用到八時四十五分。"
+      },
+      {
+        "start": 128.82,
+        "end": 130.24,
+        "speaker": "School policy discussion",
+        "text": "Okay, my mistake.",
+        "zh": "好，是我弄錯了。"
+      },
+      {
+        "start": 131.02,
+        "end": 133.98,
+        "speaker": "School policy discussion",
+        "text": "So students think the policy is outdated.",
+        "zh": "學生認為這項政策已經過時。"
+      },
+      {
+        "start": 135.02,
+        "end": 138.86,
+        "speaker": "School policy discussion",
+        "text": "What do you mean by outdated? What would students like to change?",
+        "zh": "你說「過時」是什麼意思？學生想改變什麼？"
+      },
+      {
+        "start": 139.46,
+        "end": 143.16,
+        "speaker": "School policy discussion",
+        "text": "Well, I think they'd like the policy to be more flexible.",
+        "zh": "我想他們希望政策更有彈性。"
+      },
+      {
+        "start": 143.16,
+        "end": 148.1,
+        "speaker": "School policy discussion",
+        "text": "I see. And this is the feedback from the school survey you did.",
+        "zh": "明白，這是你們校內調查收集到的意見。"
+      },
+      {
+        "start": 148.74,
+        "end": 150.68,
+        "speaker": "School policy discussion",
+        "text": "Sorry, can you tell us more about it?",
+        "zh": "不好意思，可以再多說一點嗎？"
+      },
+      {
+        "start": 151.1,
+        "end": 156.36,
+        "speaker": "School policy discussion",
+        "text": "Yes, we did a survey to ask students about why they want to use their phones,",
+        "zh": "可以。我們透過調查詢問學生為什麼想使用手機，"
+      },
+      {
+        "start": 156.78,
+        "end": 158.92,
+        "speaker": "School policy discussion",
+        "text": "and lots of students responded.",
+        "zh": "有很多學生回應。"
+      },
+      {
+        "start": 159.6,
+        "end": 165.54,
+        "speaker": "School policy discussion",
+        "text": "We heard from 64 junior students and 150 senior students,",
+        "zh": "我們收到六十四名初中生和一百五十名高中生的回覆，"
+      },
+      {
+        "start": 165.98,
+        "end": 169.88,
+        "speaker": "School policy discussion",
+        "text": "so that's 214 students in total.",
+        "zh": "即總共有二百一十四名學生。"
+      },
+      {
+        "start": 169.88,
+        "end": 173.96,
+        "speaker": "School policy discussion",
+        "text": "214? That's a lot of responses.",
+        "zh": "二百一十四？回應不少呢。"
+      },
+      {
+        "start": 174.78,
+        "end": 177.34,
+        "speaker": "School policy discussion",
+        "text": "I'm impressed. Well done to the IT club.",
+        "zh": "令我印象深刻，資訊科技學會做得很好。"
+      },
+      {
+        "start": 178.26,
+        "end": 181.3,
+        "speaker": "School policy discussion",
+        "text": "What were the main requests from students from the survey then?",
+        "zh": "那麼，調查中學生最主要的要求是什麼？"
+      },
+      {
+        "start": 181.84,
+        "end": 186.76,
+        "speaker": "School policy discussion",
+        "text": "Well, the most popular requests were that students would like to use their phones",
+        "zh": "最多學生提出，希望可以使用手機，"
+      },
+      {
+        "start": 186.76,
+        "end": 192.3,
+        "speaker": "School policy discussion",
+        "text": "for 30 minutes at lunchtime and when walking between classes.",
+        "zh": "在午膳時段用三十分鐘，以及往返不同課堂的途中使用。"
+      },
+      {
+        "start": 193,
+        "end": 196.1,
+        "speaker": "School policy discussion",
+        "text": "Walking between classes? Absolutely not.",
+        "zh": "往返課堂時？絕對不行。"
+      },
+      {
+        "start": 196.88,
+        "end": 198.62,
+        "speaker": "School policy discussion",
+        "text": "Students would never arrive on time.",
+        "zh": "學生一定不能準時到達。"
+      },
+      {
+        "start": 198.62,
+        "end": 203.94,
+        "speaker": "School policy discussion",
+        "text": "Half an hour at lunchtime is fair, but certainly not between classes.",
+        "zh": "午膳時用半小時算合理，但絕不能在往返課堂時使用。"
+      },
+      {
+        "start": 204.54,
+        "end": 206.68,
+        "speaker": "School policy discussion",
+        "text": "There's just enough time and no more.",
+        "zh": "轉堂時間剛好夠用，沒有多餘時間。"
+      },
+      {
+        "start": 206.96,
+        "end": 209.12,
+        "speaker": "School policy discussion",
+        "text": "Oh, okay. What else?",
+        "zh": "明白。還有什麼？"
+      },
+      {
+        "start": 209.76,
+        "end": 213.88,
+        "speaker": "School policy discussion",
+        "text": "Oh yeah, they also said they'd like permission to use their phones",
+        "zh": "他們也希望獲准使用手機，"
+      },
+      {
+        "start": 213.88,
+        "end": 217.02,
+        "speaker": "School policy discussion",
+        "text": "during physics and language classes.",
+        "zh": "在物理和語文課上使用。"
+      },
+      {
+        "start": 217.52,
+        "end": 220.06,
+        "speaker": "School policy discussion",
+        "text": "Why during those classes specifically?",
+        "zh": "為什麼特別是這兩類課堂？"
+      },
+      {
+        "start": 220.9,
+        "end": 223.78,
+        "speaker": "School policy discussion",
+        "text": "Well, they'd like to use them in physics classes",
+        "zh": "他們想在物理課使用，"
+      },
+      {
+        "start": 223.78,
+        "end": 226.34,
+        "speaker": "School policy discussion",
+        "text": "so they can use calculator apps.",
+        "zh": "是為了用計算機應用程式。"
+      },
+      {
+        "start": 226.34,
+        "end": 231.4,
+        "speaker": "School policy discussion",
+        "text": "And they want to use them in language classes for online dictionaries.",
+        "zh": "而在語文課則想用網上字典。"
+      },
+      {
+        "start": 232.06,
+        "end": 235.28,
+        "speaker": "School policy discussion",
+        "text": "They said they think this would be really helpful for their studies,",
+        "zh": "他們認為這對學習很有幫助，"
+      },
+      {
+        "start": 236.16,
+        "end": 239.1,
+        "speaker": "School policy discussion",
+        "text": "especially for students who are preparing for exams.",
+        "zh": "尤其對準備考試的學生。"
+      },
+      {
+        "start": 240,
+        "end": 242.34,
+        "speaker": "School policy discussion",
+        "text": "What do you think about that idea, Miss Reyes?",
+        "zh": "Reyes 女士，你對這個想法有什麼看法？"
+      },
+      {
+        "start": 242.96,
+        "end": 247.08,
+        "speaker": "School policy discussion",
+        "text": "Hmm. I don't agree that you need them in physics classes.",
+        "zh": "嗯，我不同意物理課需要用手機。"
+      },
+      {
+        "start": 248.18,
+        "end": 251.16,
+        "speaker": "School policy discussion",
+        "text": "Scientific calculators are better than phone calculators,",
+        "zh": "科學計算機比手機計算機更好，"
+      },
+      {
+        "start": 251.42,
+        "end": 254.78,
+        "speaker": "School policy discussion",
+        "text": "but yes, they could be useful in language classes.",
+        "zh": "不過在語文課上，手機的確可能有用。"
+      },
+      {
+        "start": 254.78,
+        "end": 259.14,
+        "speaker": "School policy discussion",
+        "text": "I think you're absolutely right about both points, Miss Reyes.",
+        "zh": "Reyes 女士，你這兩點都說得完全正確。"
+      },
+      {
+        "start": 259.9,
+        "end": 262.48,
+        "speaker": "School policy discussion",
+        "text": "There's no need to use phones during physics class,",
+        "zh": "物理課沒有必要使用手機，"
+      },
+      {
+        "start": 262.98,
+        "end": 266.9,
+        "speaker": "School policy discussion",
+        "text": "but using them for online dictionaries is definitely a good idea.",
+        "zh": "但用來查網上字典，的確是好主意。"
+      },
+      {
+        "start": 267.62,
+        "end": 271.35,
+        "speaker": "School policy discussion",
+        "text": "Okay. Were there any other issues that came up from the survey?",
+        "zh": "好，調查中還有其他問題嗎？"
+      },
+      {
+        "start": 272.03,
+        "end": 274.17,
+        "speaker": "School policy discussion",
+        "text": "Yes, there was one other request.",
+        "zh": "有，還有一項要求。"
+      },
+      {
+        "start": 275.11,
+        "end": 278.75,
+        "speaker": "School policy discussion",
+        "text": "Students aren't allowed to charge their phone batteries in classrooms,",
+        "zh": "學生不能在課室為手機電池充電，"
+      },
+      {
+        "start": 278.75,
+        "end": 282.89,
+        "speaker": "School policy discussion",
+        "text": "so they'd like to ask for a battery charging station.",
+        "zh": "所以希望設置電池充電站。"
+      },
+      {
+        "start": 282.89,
+        "end": 287.21,
+        "speaker": "School policy discussion",
+        "text": "A battery charging station. That's actually a good idea.",
+        "zh": "電池充電站，這其實是好主意。"
+      },
+      {
+        "start": 288.33,
+        "end": 291.81,
+        "speaker": "School policy discussion",
+        "text": "Interesting. We'd have to think carefully about where to put it.",
+        "zh": "很有意思，但要仔細考慮放在哪裡。"
+      },
+      {
+        "start": 292.33,
+        "end": 295.29,
+        "speaker": "School policy discussion",
+        "text": "Did they have any suggestions? The students, I mean.",
+        "zh": "學生有沒有提出位置建議？"
+      },
+      {
+        "start": 295.69,
+        "end": 300.63,
+        "speaker": "School policy discussion",
+        "text": "Well, one place they said was, you know, in the corridor next to the playground.",
+        "zh": "他們提議其中一個位置，就是操場旁邊的走廊。"
+      },
+      {
+        "start": 301.53,
+        "end": 303.87,
+        "speaker": "School policy discussion",
+        "text": "Hmm. I'm not so sure about that.",
+        "zh": "嗯，我對那裡有點保留。"
+      },
+      {
+        "start": 304.43,
+        "end": 306.95,
+        "speaker": "School policy discussion",
+        "text": "There could be problems with security with that.",
+        "zh": "那裡可能有保安問題。"
+      },
+      {
+        "start": 307.51,
+        "end": 310.57,
+        "speaker": "School policy discussion",
+        "text": "Yes, I tend to agree with Miss Chan, I'm afraid.",
+        "zh": "對，不好意思，我傾向同意 Chan 女士。"
+      },
+      {
+        "start": 311.41,
+        "end": 315.93,
+        "speaker": "School policy discussion",
+        "text": "So that's out as a location then. But I still think it's a good idea.",
+        "zh": "那麼這個位置就不考慮了，但我仍覺得充電站是好主意。"
+      },
+      {
+        "start": 317.06,
+        "end": 319.92,
+        "speaker": "School policy discussion",
+        "text": "Sarah, did you have another suggestion for a location?",
+        "zh": "Sarah，你還有其他位置建議嗎？"
+      },
+      {
+        "start": 320.6,
+        "end": 322.16,
+        "speaker": "School policy discussion",
+        "text": "The other one was the library.",
+        "zh": "另一個是圖書館。"
+      },
+      {
+        "start": 322.88,
+        "end": 327.72,
+        "speaker": "School policy discussion",
+        "text": "Okay. Yeah, that might work. It's certainly popular at lunchtime.",
+        "zh": "好，那裡也許可行。午膳時確實很多人去。"
+      },
+      {
+        "start": 328.46,
+        "end": 331.62,
+        "speaker": "School policy discussion",
+        "text": "Yeah, that's a good idea. We'll look into it definitely.",
+        "zh": "對，是好主意。我們一定會研究一下。"
+      },
+      {
+        "start": 332.45,
+        "end": 336.85,
+        "speaker": "School policy discussion",
+        "text": "Okay. Well, I'll look forward to reading the article in the online magazine.",
+        "zh": "好，我期待在網上雜誌讀到這篇文章。"
+      },
+      {
+        "start": 338.65,
+        "end": 341.17,
+        "speaker": "Narrator",
+        "text": "That is the end of task one.",
+        "zh": "任務一完結。"
+      },
+      {
+        "start": 342.24,
+        "end": 345.52,
+        "speaker": "Narrator",
+        "text": "You now have one minute to tidy up your answers.",
+        "zh": "你現在有一分鐘整理答案。"
+      }
+    ],
+    "2": [
+      {
+        "start": 0.02,
+        "end": 0.76,
+        "speaker": "Narrator",
+        "text": "Task two.",
+        "zh": "任務二。"
+      },
+      {
+        "start": 2.67,
+        "end": 8.59,
+        "speaker": "Narrator",
+        "text": "Sarah is meeting with two other members of the IT club, Aaron and Rachel,",
+        "zh": "Sarah 正與資訊科技學會另外兩名成員 Aaron 和 Rachel 開會，"
+      },
+      {
+        "start": 8.93,
+        "end": 14.37,
+        "speaker": "Narrator",
+        "text": "to discuss a new app that the school is going to promote to senior students.",
+        "zh": "討論學校將向高中生推廣的一個新應用程式。"
+      },
+      {
+        "start": 15.86,
+        "end": 20.26,
+        "speaker": "Narrator",
+        "text": "Listen to the discussion and write the information in the spaces below.",
+        "zh": "聆聽討論，並把資料填在以下空格內。"
+      },
+      {
+        "start": 20.26,
+        "end": 24.66,
+        "speaker": "Narrator",
+        "text": "The first one has been provided as an example.",
+        "zh": "第一項已作為例子提供。"
+      },
+      {
+        "start": 26.52,
+        "end": 29.44,
+        "speaker": "Narrator",
+        "text": "You now have 30 seconds to study the task.",
+        "zh": "你現在有三十秒閱讀題目。"
+      },
+      {
+        "start": 30.58,
+        "end": 34.96,
+        "speaker": "Narrator",
+        "text": "At the end of the task, you will have one minute to tidy up your answers.",
+        "zh": "本任務結束後，你將有一分鐘整理答案。"
+      },
+      {
+        "start": 67.05,
+        "end": 70.97,
+        "speaker": "Mentor Mine app discussion",
+        "text": "So we've been asked to give our views on this Mentor Mine app.",
+        "zh": "我們被請來評論這個 Mentor Mine 應用程式。"
+      },
+      {
+        "start": 71.39,
+        "end": 73.07,
+        "speaker": "Mentor Mine app discussion",
+        "text": "You know, the one for senior students?",
+        "zh": "就是那個給高中生用的，你知道嗎？"
+      },
+      {
+        "start": 73.59,
+        "end": 75.89,
+        "speaker": "Mentor Mine app discussion",
+        "text": "They want us to review it in the magazine.",
+        "zh": "他們想我們在雜誌裡寫一篇評測。"
+      },
+      {
+        "start": 76.73,
+        "end": 80.45,
+        "speaker": "Mentor Mine app discussion",
+        "text": "I've had it on my phone and I've been giving it a go over the weekend.",
+        "zh": "我已經把它裝到手機上，週末試用了一下。"
+      },
+      {
+        "start": 81.09,
+        "end": 82.25,
+        "speaker": "Mentor Mine app discussion",
+        "text": "What's it called?",
+        "zh": "它叫什麼名字？"
+      },
+      {
+        "start": 83.19,
+        "end": 85.77,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Mental Mine. Never heard of it.",
+        "zh": "Mental Mine？沒聽過。"
+      },
+      {
+        "start": 86.17,
+        "end": 87.91,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Not mental. Mentor!",
+        "zh": "不是 Mental，是 Mentor！（更正名稱）"
+      },
+      {
+        "start": 88.89,
+        "end": 93.09,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Let me show you. Wait a second till I find it on my phone.",
+        "zh": "我給你看看。等一下，讓我在手機上找出來。"
+      },
+      {
+        "start": 94.13,
+        "end": 95.03,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Right, here it is.",
+        "zh": "好，在這裡。"
+      },
+      {
+        "start": 95.27,
+        "end": 96.15,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Oh, okay.",
+        "zh": "噢，明白。"
+      },
+      {
+        "start": 96.75,
+        "end": 104.03,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Right, so it's an app and it helps you connect with other students from around the world.",
+        "zh": "這是一個讓你聯繫世界各地其他學生的應用程式。"
+      },
+      {
+        "start": 104.53,
+        "end": 107.65,
+        "speaker": "Mentor Mine app discussion",
+        "text": "And so they help each other with things like homework and projects.",
+        "zh": "大家可以互相協助，例如做功課和專題研習。"
+      },
+      {
+        "start": 108.33,
+        "end": 112.09,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Oh, I've heard about this one. It's got really good reviews.",
+        "zh": "我聽過這個，評價很好。"
+      },
+      {
+        "start": 113.35,
+        "end": 116.09,
+        "speaker": "Mentor Mine app discussion",
+        "text": "So you're saying you can get help with projects with this?",
+        "zh": "即是你可以用它獲得專題研習方面的幫助？"
+      },
+      {
+        "start": 116.51,
+        "end": 118.55,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Yeah, that's the idea anyway.",
+        "zh": "對，原意是這樣。"
+      },
+      {
+        "start": 119.05,
+        "end": 121.37,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Alright, so how do we get started?",
+        "zh": "好，怎樣開始？"
+      },
+      {
+        "start": 122.19,
+        "end": 123.37,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Can we have a look at the settings?",
+        "zh": "可以看看設定嗎？"
+      },
+      {
+        "start": 124.01,
+        "end": 125.87,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Right, settings.",
+        "zh": "好，設定。"
+      },
+      {
+        "start": 127.09,
+        "end": 129.73,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Right, here we go. You try it, Rachel.",
+        "zh": "來吧，Rachel，你試一下。"
+      },
+      {
+        "start": 130.47,
+        "end": 133.33,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Oh, okay. Right.",
+        "zh": "好，可以。"
+      },
+      {
+        "start": 133.33,
+        "end": 137.91,
+        "speaker": "Mentor Mine app discussion",
+        "text": "So see the button with the head and the wheels. Press it.",
+        "zh": "你看到那個有人頭和齒輪的按鈕嗎？按下去。"
+      },
+      {
+        "start": 139.43,
+        "end": 145.65,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Well, here you start by choosing your subjects, your levels for each subject and your modes.",
+        "zh": "開始時在這裡選擇科目、每一科的程度，以及模式。"
+      },
+      {
+        "start": 146.39,
+        "end": 148.97,
+        "speaker": "Mentor Mine app discussion",
+        "text": "You can select any subjects you like.",
+        "zh": "你可以選擇任何喜歡的科目。"
+      },
+      {
+        "start": 149.53,
+        "end": 153.43,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Oh, right. So it looks like there are three starting levels.",
+        "zh": "明白，看來有三個起始程度。"
+      },
+      {
+        "start": 154.39,
+        "end": 157.57,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Beginner, apprentice and guide.",
+        "zh": "初學者、學徒，以及嚮導。"
+      },
+      {
+        "start": 157.57,
+        "end": 169.49,
+        "speaker": "Mentor Mine app discussion",
+        "text": "So presumably I'd select guide if I think I know like loads about a subject and beginner or apprentice if I don't.",
+        "zh": "所以如果我覺得自己對某科目很熟悉，就選嚮導；否則就選初學者或學徒。"
+      },
+      {
+        "start": 169.93,
+        "end": 170.37,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Exactly.",
+        "zh": "沒錯。"
+      },
+      {
+        "start": 171.27,
+        "end": 173.51,
+        "speaker": "Mentor Mine app discussion",
+        "text": "What about mode? What does that mean?",
+        "zh": "模式又是什麼意思？"
+      },
+      {
+        "start": 174.19,
+        "end": 178.33,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Okay, well, press it. So you should see there are two modes.",
+        "zh": "按一下看看。應該會見到兩個模式。"
+      },
+      {
+        "start": 179.03,
+        "end": 181.81,
+        "speaker": "Mentor Mine app discussion",
+        "text": "The first one is academic. See?",
+        "zh": "第一個是學術模式，看到了嗎？"
+      },
+      {
+        "start": 182.33,
+        "end": 182.87,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Oh, yeah.",
+        "zh": "看到了。"
+      },
+      {
+        "start": 183.35,
+        "end": 186.17,
+        "speaker": "Mentor Mine app discussion",
+        "text": "You choose this one if you're preparing for an exam.",
+        "zh": "如果正在準備考試，就選這個。"
+      },
+      {
+        "start": 186.17,
+        "end": 191.25,
+        "speaker": "Mentor Mine app discussion",
+        "text": "The other one is hobby and it's for like personal interest only.",
+        "zh": "另一個是興趣模式，只是為了個人興趣。"
+      },
+      {
+        "start": 192.6,
+        "end": 200.12,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Personal interest? Oh, so presumably people can talk about a subject even if, say, they're not studying for an exam?",
+        "zh": "個人興趣？所以即使不是為了考試，大家也可以討論某個科目？"
+      },
+      {
+        "start": 201.06,
+        "end": 205.9,
+        "speaker": "Mentor Mine app discussion",
+        "text": "What's this one for? The one with the flag? Is that to choose my country?",
+        "zh": "這個有旗子的按鈕有什麼用？是選擇我的國家嗎？"
+      },
+      {
+        "start": 206.46,
+        "end": 209.4,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Let's try it. Right.",
+        "zh": "試一下吧。好。"
+      },
+      {
+        "start": 209.4,
+        "end": 216.1,
+        "speaker": "Mentor Mine app discussion",
+        "text": "So it looks like there are two settings here, country and type of school.",
+        "zh": "看來這裡有兩個設定：國家和學校類型。"
+      },
+      {
+        "start": 216.68,
+        "end": 218.48,
+        "speaker": "Mentor Mine app discussion",
+        "text": "But isn't it just for secondary schools?",
+        "zh": "但它不是只供中學使用嗎？"
+      },
+      {
+        "start": 219.22,
+        "end": 227.8,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Yeah, it is. But there are different types of schools in different countries, like many Italian schools specialising just one area.",
+        "zh": "對，不過不同國家有不同類型的學校，例如很多意大利學校只專門教授一個範疇。"
+      },
+      {
+        "start": 228.32,
+        "end": 236.04,
+        "speaker": "Mentor Mine app discussion",
+        "text": "So if Italian teenagers want to specialise in, say, sports coaching, they can choose a school for that subject.",
+        "zh": "所以意大利青少年如果想專攻例如運動教練這一科，就可以選相關學校。"
+      },
+      {
+        "start": 236.46,
+        "end": 236.88,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Right.",
+        "zh": "明白。"
+      },
+      {
+        "start": 237.68,
+        "end": 240.88,
+        "speaker": "Mentor Mine app discussion",
+        "text": "What's the clock for? Does it tell the time then?",
+        "zh": "時鐘有什麼用？顯示時間嗎？"
+      },
+      {
+        "start": 241.1,
+        "end": 244.9,
+        "speaker": "Mentor Mine app discussion",
+        "text": "No, no. This is what they call the office hours setting.",
+        "zh": "不是，這叫「辦公時間」設定。"
+      },
+      {
+        "start": 245.5,
+        "end": 246.66,
+        "speaker": "Mentor Mine app discussion",
+        "text": "You keeping up, Rachel?",
+        "zh": "Rachel，跟得上嗎？"
+      },
+      {
+        "start": 247.02,
+        "end": 256.08,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Yeah, yeah, right. Office hours. Ah, because you're like a professor sitting in your office. That's clever.",
+        "zh": "跟得上。辦公時間，因為你就像坐在辦公室裡的教授，很聰明。"
+      },
+      {
+        "start": 256.8,
+        "end": 260.56,
+        "speaker": "Mentor Mine app discussion",
+        "text": "So with this setting, you can choose your availability each day.",
+        "zh": "這個設定讓你選擇每天有空的時間。"
+      },
+      {
+        "start": 260.56,
+        "end": 271,
+        "speaker": "Mentor Mine app discussion",
+        "text": "You can set a maximum of two hours each weekday to ask and answer live questions and more on weekends, say, three to four hours.",
+        "zh": "平日每天最多可設定兩小時，供即時提問和回答；週末則可以更多，例如三至四小時。"
+      },
+      {
+        "start": 271.62,
+        "end": 275.78,
+        "speaker": "Mentor Mine app discussion",
+        "text": "You should set your office hours to when you would normally be doing your homework.",
+        "zh": "你應該把辦公時間設在平常做功課的時段。"
+      },
+      {
+        "start": 276.56,
+        "end": 278.7,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Why do they recommend to set time, do you think?",
+        "zh": "你覺得他們為什麼建議固定時間？"
+      },
+      {
+        "start": 279.3,
+        "end": 287.06,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Well, I was thinking about this and I think the first reason is they want to help students develop good time management skills.",
+        "zh": "我想過這個問題。第一個原因，是他們想幫助學生培養良好的時間管理能力。"
+      },
+      {
+        "start": 287.06,
+        "end": 293.44,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Yeah, I have no time management skills whatsoever. I'm such a deadline fighter.",
+        "zh": "對，我完全沒有時間管理能力，總是趕死線。"
+      },
+      {
+        "start": 293.84,
+        "end": 300.08,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Yeah, I know. And the other is that it's useful for other students to know exactly when you're available.",
+        "zh": "我知道。另一個原因是，讓其他學生清楚知道你何時有空，會很有用。"
+      },
+      {
+        "start": 301.06,
+        "end": 307.76,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Because if they know your availability, then they know when you might be able to answer a question. Makes sense.",
+        "zh": "他們知道你有空的時段，就知道你何時可能回答問題，這很合理。"
+      },
+      {
+        "start": 308.42,
+        "end": 312.96,
+        "speaker": "Mentor Mine app discussion",
+        "text": "So what are these? What are they? Balloons or something?",
+        "zh": "這些又是什麼？氣球之類的東西？"
+      },
+      {
+        "start": 312.96,
+        "end": 319.9,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Yeah, I have no idea why. Anyway, you click this button to go to your feedback settings.",
+        "zh": "對，我不知道為什麼用這個圖案。不過按這個按鈕，就可以進入回饋設定。"
+      },
+      {
+        "start": 320.66,
+        "end": 326.76,
+        "speaker": "Mentor Mine app discussion",
+        "text": "You see, each time you help someone, they can give you a vote and then write a message to say thanks.",
+        "zh": "每次你幫助別人，對方都可以投你一票，再寫留言表示感謝。"
+      },
+      {
+        "start": 327.56,
+        "end": 331.64,
+        "speaker": "Mentor Mine app discussion",
+        "text": "The more votes you get, the sooner you can move up to a higher level.",
+        "zh": "得到的票越多，就越快能升到更高程度。"
+      },
+      {
+        "start": 331.88,
+        "end": 337.76,
+        "speaker": "Mentor Mine app discussion",
+        "text": "OK. Yeah, it allows you to show or hide the number of votes you've got as well.",
+        "zh": "明白，也可以選擇顯示或隱藏所得票數。"
+      },
+      {
+        "start": 337.76,
+        "end": 346.88,
+        "speaker": "Mentor Mine app discussion",
+        "text": "OK. Oh, and I can show or hide the messages I've received from people. You know, the ones that I've helped. That's pretty cool.",
+        "zh": "對，我還可以顯示或隱藏收到的留言，就是那些我幫過的人的留言，很不錯。"
+      },
+      {
+        "start": 347.26,
+        "end": 350.54,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Yeah, I know. I think it's pretty cool all round actually.",
+        "zh": "我也覺得整個應用程式都很好。"
+      },
+      {
+        "start": 350.9,
+        "end": 352.06,
+        "speaker": "Mentor Mine app discussion",
+        "text": "Yeah, it looks useful.",
+        "zh": "對，看起來很有用。"
+      },
+      {
+        "start": 354.21,
+        "end": 360.38,
+        "speaker": "Narrator",
+        "text": "That is the end of task two. You now have one minute to tidy up your answers.",
+        "zh": "任務二完結。你現在有一分鐘整理答案。"
+      },
+      {
+        "start": 424.76,
+        "end": 424.8,
+        "speaker": "Narrator",
+        "text": "Task three. Sarah, Rachel and Erin are choosing stories about the use of technology around the world to feature in the IT Club's online magazine.",
+        "zh": "任務三。Sarah、Rachel 和 Aaron 正在挑選世界各地使用科技的故事，刊登於資訊科技學會網上雜誌。"
+      }
+    ],
+    "3": [
+      {
+        "start": 0,
+        "end": 12.85,
+        "speaker": "Narrator",
+        "text": "Task three. Sarah, Rachel and Erin are choosing stories about the use of technology around the world to feature in the IT Club's online magazine.",
+        "zh": "任務三。Sarah、Rachel 和 Aaron 正在挑選世界各地使用科技的故事，刊登於資訊科技學會網上雜誌。"
+      },
+      {
+        "start": 14.68,
+        "end": 23.08,
+        "speaker": "Narrator",
+        "text": "Listen to the information and complete the notes below. You now have 30 seconds to study the task.",
+        "zh": "聆聽資料並完成以下筆記。你現在有三十秒閱讀題目。"
+      },
+      {
+        "start": 24.11,
+        "end": 28.59,
+        "speaker": "Narrator",
+        "text": "At the end of the task, you will have one minute to tidy up your answers.",
+        "zh": "本任務結束後，你將有一分鐘整理答案。"
+      },
+      {
+        "start": 28.59,
+        "end": 63.87,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Right. So what stories have you found then, Rachel?",
+        "zh": "Rachel，你找到什麼故事？"
+      },
+      {
+        "start": 65,
+        "end": 75.08,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "OK, I'll go first. I was reading this interesting article about youth boost centres in South Africa that have been set up by the local government.",
+        "zh": "我先說吧。我看了一篇很有趣的文章，介紹南非由地方政府設立的 Youth Boost 青年支援中心。"
+      },
+      {
+        "start": 76,
+        "end": 79.88,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "OK, so these youth boost centres, are they for teenagers?",
+        "zh": "這些青年支援中心是給青少年用的嗎？"
+      },
+      {
+        "start": 80.52,
+        "end": 87.14,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Yeah, mainly for young people without a job and who aren't at college and they join the centre as members.",
+        "zh": "對，主要對象是沒有工作、也沒有讀大專的年輕人，他們會加入成為會員。"
+      },
+      {
+        "start": 87.8,
+        "end": 89.16,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "So why do they sign up?",
+        "zh": "他們為什麼報名加入？"
+      },
+      {
+        "start": 89.16,
+        "end": 99.88,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Well, they can learn loads of different things like the centres give them lots of practical advice on things like how to start their own companies.",
+        "zh": "他們可以學很多東西，例如中心提供大量實用建議，教他們怎樣創辦自己的公司。"
+      },
+      {
+        "start": 100.58,
+        "end": 107.88,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Sounds good. I've always wanted to start my own company. I think I'd like that much more than a boring office job or something.",
+        "zh": "聽起來很好。我一直想開自己的公司，應該比沉悶的辦公室工作更合我心意。"
+      },
+      {
+        "start": 108.3,
+        "end": 117.06,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Yeah, totally. Me too. They also help them learn new workplace skills, things like writing emails, that sort of thing.",
+        "zh": "完全同意，我也是。中心也幫助他們學習新的職場技能，例如寫電郵之類。"
+      },
+      {
+        "start": 117.06,
+        "end": 127.62,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "It does sound good, but offering things like workplace skills, isn't that just like any other job centre? What's this got to do with technology?",
+        "zh": "聽起來不錯，但提供職場技能，不是跟其他就業中心一樣嗎？這跟科技有什麼關係？"
+      },
+      {
+        "start": 128.44,
+        "end": 144.7,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Well, this one is special. The centres themselves are entirely cash free and young people who join can earn virtual money called imali, which means money in Zulu apparently. You can spend it there at the centre.",
+        "zh": "這裡很特別：中心完全不用現金，加入的年輕人可以賺取一種叫 Imali 的虛擬貨幣，據說在祖魯語中意思就是「錢」。可以在中心使用。"
+      },
+      {
+        "start": 144.7,
+        "end": 149.24,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "So do they use computers to earn it, just like Bitcoin?",
+        "zh": "即是他們像比特幣那樣，用電腦賺取嗎？"
+      },
+      {
+        "start": 149.78,
+        "end": 163.08,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "No, no. They earn this imali in lots of different ways. One of the things they can do is local volunteering and they can do any kind of volunteering as long as it's in the local area.",
+        "zh": "不是，他們可以用很多不同方式賺取 Imali，其中一種是參與本地義工服務；任何類型都可以，只要在附近地區進行。"
+      },
+      {
+        "start": 163.76,
+        "end": 173.68,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Like they might help out a nearby school or help the old people in the community. The other thing they can do is go to personal development workshops.",
+        "zh": "例如協助附近學校或社區長者。另一個方法是參加個人成長工作坊。"
+      },
+      {
+        "start": 173.68,
+        "end": 180.88,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "So they earn for attending. Yeah, that's nice. And what do they learn about at these workshops?",
+        "zh": "所以出席就能賺取，很不錯。他們在工作坊學什麼？"
+      },
+      {
+        "start": 181.44,
+        "end": 188.52,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "You know, like how to not give up when you're dealing with a problem or how to set yourself goals, things like that.",
+        "zh": "例如遇到問題時怎樣不放棄，或怎樣為自己定目標之類。"
+      },
+      {
+        "start": 188.9,
+        "end": 194.04,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "That sounds pretty cool. What can they buy with this? What's its name?",
+        "zh": "聽起來很棒。他們可以用這個——叫什麼名字？——買些什麼？"
+      },
+      {
+        "start": 194.66,
+        "end": 195.18,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Imali.",
+        "zh": "Imali（貨幣的名稱）。"
+      },
+      {
+        "start": 195.88,
+        "end": 207.54,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Imali. Well, as I said, the centres are cash free, but they can use imali at the centre cafes to buy things like snacks. They can also use the money to pay for online courses.",
+        "zh": "Imali。正如我所說，中心不用現金，但可在中心咖啡室用 Imali 買小食等東西，也可以用它支付網上課程費用。"
+      },
+      {
+        "start": 208.58,
+        "end": 211.12,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Can they work on the courses at home too?",
+        "zh": "在家也可以修讀課程嗎？"
+      },
+      {
+        "start": 211.82,
+        "end": 217.8,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "I think so, but the centres have computers so apparently most people prefer to spend time there.",
+        "zh": "應該可以，不過中心有電腦，所以大部分人似乎較喜歡留在那裡。"
+      },
+      {
+        "start": 218.38,
+        "end": 223.04,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Sounds great. Anything else? I mean that they can buy with?",
+        "zh": "很好。還可以用它買什麼？"
+      },
+      {
+        "start": 223.04,
+        "end": 229.98,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Imali. Yeah, the other online option is that you can donate imalis to charity.",
+        "zh": "Imali。還有另一個網上用途，就是捐給慈善機構。"
+      },
+      {
+        "start": 230.84,
+        "end": 235.28,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Does that mean the charity gets imalis? But how is that useful?",
+        "zh": "即是慈善機構收到 Imali？那有什麼用？"
+      },
+      {
+        "start": 235.78,
+        "end": 240.2,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "No, no, the Youth Boost Centre gives the charities real money.",
+        "zh": "不是，青年支援中心會把真正的金錢交給慈善機構。"
+      },
+      {
+        "start": 241.72,
+        "end": 246.22,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "But members, they don't earn actual money, but they still like it?",
+        "zh": "但會員沒有賺到真正的錢，也喜歡這裡？"
+      },
+      {
+        "start": 246.54,
+        "end": 247.3,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Apparently so.",
+        "zh": "看來是。"
+      },
+      {
+        "start": 247.76,
+        "end": 249.26,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "So what's the big attraction?",
+        "zh": "那最大的吸引力是什麼？"
+      },
+      {
+        "start": 249.72,
+        "end": 255.38,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Well, from what it said in the article, it's just a place where they can feel a sense of belonging.",
+        "zh": "按照文章的說法，那是一個能讓他們感到歸屬感的地方。"
+      },
+      {
+        "start": 255.86,
+        "end": 264.87,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Oh, that's really nice. Okay, so it would be good to write in the article what we think. Let's talk about the good points first.",
+        "zh": "真好。文章也應該寫寫我們的看法。先談優點吧。"
+      },
+      {
+        "start": 266.01,
+        "end": 268.57,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Rachel, you were researching it. What do you reckon?",
+        "zh": "Rachel，你做過資料搜集，你怎麼看？"
+      },
+      {
+        "start": 269.11,
+        "end": 277.05,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "I think they're an excellent idea, mainly because they give people a way to give back to the community. So it's more than just basic welfare.",
+        "zh": "我覺得這是好主意，主要是給人機會回饋社會，因此不只是提供基本福利。"
+      },
+      {
+        "start": 277.05,
+        "end": 280.79,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Yeah, I was thinking the same. What do you think, Aaron?",
+        "zh": "對，我也這樣想。Aaron，你覺得呢？"
+      },
+      {
+        "start": 281.59,
+        "end": 289.07,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "From what Rachel was saying, I think the best thing seems to be that it lets people learn life skills, like having to deal with money.",
+        "zh": "從 Rachel 的介紹來看，我認為最好的是讓人學習生活技能，例如怎樣處理金錢。"
+      },
+      {
+        "start": 289.61,
+        "end": 295.65,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Alright. What about the cons? Can you see any downsides to this imali system?",
+        "zh": "好，那缺點呢？你們看得出 Imali 制度有什麼不足嗎？"
+      },
+      {
+        "start": 296.19,
+        "end": 300.85,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Well, the obvious problem that I can see is that actual money is more useful.",
+        "zh": "我看到最明顯的問題，是實際金錢更有用。"
+      },
+      {
+        "start": 300.85,
+        "end": 307.79,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "People need real money to spend on meals, not just snacks, especially if they need to help their families.",
+        "zh": "大家需要真錢支付正餐，而不只是小食，尤其是需要幫補家計的人。"
+      },
+      {
+        "start": 308.39,
+        "end": 312.71,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Yes, that's a very good point. What about you, Aaron? What do you think?",
+        "zh": "對，很有道理。Aaron，你又怎麼看？"
+      },
+      {
+        "start": 313.57,
+        "end": 318.09,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Well, again, from what Rachel said so far, it's hard to see any bad points.",
+        "zh": "按 Rachel 到目前為止所說的，實在很難找出缺點。"
+      },
+      {
+        "start": 318.91,
+        "end": 328.51,
+        "speaker": "Sarah, Rachel and Aaron",
+        "text": "Maybe the only downside I can think of would be it might be vulnerable to hacking. You know, because, well, someone could hack into it online.",
+        "zh": "也許唯一想到的不足，是它容易遭黑客入侵，因為有人可能透過網絡入侵系統。"
+      },
+      {
+        "start": 330.5,
+        "end": 337.38,
+        "speaker": "Narrator",
+        "text": "That is the end of task three. You now have one minute to tidy up your answers.",
+        "zh": "任務三完結。你現在有一分鐘整理答案。"
+      },
+      {
+        "start": 401.86,
+        "end": 401.9,
+        "speaker": "Narrator",
+        "text": "Four. Sarah is interviewing Dr. James Berg, a computer specialist working with the NGO Tarako Solutions for the IT Club's online magazine.",
+        "zh": "任務四。Sarah 正為資訊科技學會網上雜誌，訪問在非政府組織 Tarraco Solutions 工作的電腦專家 James Berg 博士。"
+      }
+    ],
+    "4": [
+      {
+        "start": 0,
+        "end": 13.68,
+        "speaker": "Narrator",
+        "text": "Four. Sarah is interviewing Dr. James Berg, a computer specialist working with the NGO Tarako Solutions for the IT Club's online magazine.",
+        "zh": "任務四。Sarah 正為資訊科技學會網上雜誌，訪問在非政府組織 Tarraco Solutions 工作的電腦專家 James Berg 博士。"
+      },
+      {
+        "start": 14.99,
+        "end": 24.06,
+        "speaker": "Narrator",
+        "text": "Listen to the interview and complete the answers below. Please note that you do not need to answer in complete sentences.",
+        "zh": "聆聽訪問，並完成以下答案。請注意，你不需要用完整句子作答。"
+      },
+      {
+        "start": 25.57,
+        "end": 34.87,
+        "speaker": "Narrator",
+        "text": "You now have 30 seconds to study the task. At the end of the task, you will have three minutes to tidy up your answers.",
+        "zh": "你現在有三十秒閱讀題目。本任務結束後，你將有三分鐘整理答案。"
+      },
+      {
+        "start": 66.66,
+        "end": 74.72,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Dr. Berg, thank you for taking the time to meet us today. Can you tell us a bit about the ideas behind Tarako Solutions?",
+        "zh": "Berg 博士，謝謝你今天抽時間見我們。可以介紹一下 Tarraco Solutions 背後的理念嗎？"
+      },
+      {
+        "start": 74.72,
+        "end": 84.64,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Certainly. Well, Tarako Solutions is an NGO, as you probably know, and we operate in poor and remote areas all over the world.",
+        "zh": "當然。你應該知道，Tarraco Solutions 是非政府組織，在世界各地貧困和偏遠地區工作。"
+      },
+      {
+        "start": 85.34,
+        "end": 90.46,
+        "speaker": "Tarraco Solutions interview",
+        "text": "We work in these areas to solve local problems, infrastructure problems mainly.",
+        "zh": "我們在這些地方解決當地問題，主要是基建問題。"
+      },
+      {
+        "start": 90.96,
+        "end": 96.18,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Oh, really? That's quite interesting. What kind of infrastructure problems?",
+        "zh": "真的嗎？很有意思，是哪一類基建問題？"
+      },
+      {
+        "start": 96.18,
+        "end": 107.3,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Well, maybe I can illustrate what we do with a recent redevelopment project in Thailand we were working on, where we built a new bus shelter for a group of commuters.",
+        "zh": "讓我用最近在泰國進行的重建計劃作例子：我們為一群通勤者建了一個新巴士候車亭。"
+      },
+      {
+        "start": 108.02,
+        "end": 112.8,
+        "speaker": "Tarraco Solutions interview",
+        "text": "This helped local people deal with an uncomfortable journey to work and school.",
+        "zh": "這幫助居民改善上班和上學路途不舒適的問題。"
+      },
+      {
+        "start": 113.72,
+        "end": 117.26,
+        "speaker": "Tarraco Solutions interview",
+        "text": "And are the projects designed for special groups of people?",
+        "zh": "這些計劃是為某些特定群體設計的嗎？"
+      },
+      {
+        "start": 117.26,
+        "end": 130.26,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Actually, it's the opposite. We really try to embrace diversity in everything we do, so we always try to invite, you know, people who are often overlooked in traditional society.",
+        "zh": "其實正好相反。我們希望做每件事都能包容多元，所以常邀請傳統社會中容易被忽略的人參與。"
+      },
+      {
+        "start": 130.9,
+        "end": 134.76,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Very often it's these kind of people that don't get to have their say.",
+        "zh": "往往正是這些人，沒有機會表達意見。"
+      },
+      {
+        "start": 135.46,
+        "end": 137.36,
+        "speaker": "Tarraco Solutions interview",
+        "text": "OK, now I'd like...",
+        "zh": "好，我想……"
+      },
+      {
+        "start": 137.36,
+        "end": 145.34,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Sorry, I was going to add. When we're building things like the bus shelter, we invite ideas from the children,",
+        "zh": "抱歉，我還想補充：興建巴士候車亭這類設施時，我們會徵求兒童的意見，"
+      },
+      {
+        "start": 145.34,
+        "end": 148.3,
+        "speaker": "Tarraco Solutions interview",
+        "text": "as they are the users who are often overlooked.",
+        "zh": "因為他們也是使用者，卻往往被忽略。"
+      },
+      {
+        "start": 149.49,
+        "end": 156.65,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Well, that all sounds very positive. I'd like to move on to how Tarako Solutions uses technology.",
+        "zh": "聽起來很積極。接下來想談談 Tarraco Solutions 怎樣使用科技。"
+      },
+      {
+        "start": 157.73,
+        "end": 161.81,
+        "speaker": "Tarraco Solutions interview",
+        "text": "You work with AR, augmented reality. Is that right?",
+        "zh": "你們用的是 AR，擴增實境，對嗎？"
+      },
+      {
+        "start": 162.17,
+        "end": 167.05,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Yes, that's right. AR mixes digital elements with real life.",
+        "zh": "對，AR 把數碼元素與真實世界結合。"
+      },
+      {
+        "start": 167.41,
+        "end": 168.93,
+        "speaker": "Tarraco Solutions interview",
+        "text": "It sounds quite technical.",
+        "zh": "聽起來很高深。"
+      },
+      {
+        "start": 168.93,
+        "end": 178.27,
+        "speaker": "Tarraco Solutions interview",
+        "text": "It's the same tech used in the game Pokemon Go, but instead of a monster, you can see things like a new bridge or a staircase.",
+        "zh": "它跟《Pokémon Go》所用的科技一樣，只是你看見的不是怪物，而是新橋或樓梯之類。"
+      },
+      {
+        "start": 179.29,
+        "end": 185.01,
+        "speaker": "Tarraco Solutions interview",
+        "text": "AR is great. I mean, we can literally see the designs as they would appear in real life.",
+        "zh": "AR 很好用。我們能直接看見設計在現實中會呈現什麼樣貌。"
+      },
+      {
+        "start": 185.75,
+        "end": 185.97,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Amazing!",
+        "zh": "很神奇！"
+      },
+      {
+        "start": 186.93,
+        "end": 193.39,
+        "speaker": "Tarraco Solutions interview",
+        "text": "And another thing about AR is that it lets other people see which final designs they like best.",
+        "zh": "AR 另一個好處是，讓其他人看出自己最喜歡哪個最終設計。"
+      },
+      {
+        "start": 193.39,
+        "end": 199.09,
+        "speaker": "Tarraco Solutions interview",
+        "text": "This is important because in order to choose the final design, we have a public vote.",
+        "zh": "這很重要，因為我們透過公眾投票選出最終設計。"
+      },
+      {
+        "start": 200.09,
+        "end": 207.79,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Right. Now, AR is new to me, so I imagine it is probably a new concept for most of the people you're dealing with.",
+        "zh": "明白。AR 對我而言很陌生，我想對大部分參與者也會是新概念。"
+      },
+      {
+        "start": 208.13,
+        "end": 209.59,
+        "speaker": "Tarraco Solutions interview",
+        "text": "So how do you deal with that?",
+        "zh": "你們怎樣處理這個問題？"
+      },
+      {
+        "start": 210.05,
+        "end": 218.77,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Well, that's a good point. Everybody who's selected to join the project must attend a three-day AR training programme.",
+        "zh": "問得好。所有獲選參與計劃的人，都必須接受三天的 AR 培訓課程。"
+      },
+      {
+        "start": 219.25,
+        "end": 219.67,
+        "speaker": "Tarraco Solutions interview",
+        "text": "OK.",
+        "zh": "明白。"
+      },
+      {
+        "start": 219.67,
+        "end": 226.89,
+        "speaker": "Tarraco Solutions interview",
+        "text": "And for some users, it's actually the first time they've ever used a computer, so it's an essential part of the process.",
+        "zh": "有些人其實從未用過電腦，這是第一次，因此培訓是不可或缺的部分。"
+      },
+      {
+        "start": 227.83,
+        "end": 231.07,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Can you tell us what your favourite project has been so far?",
+        "zh": "到目前為止，你最喜歡哪個項目？"
+      },
+      {
+        "start": 231.59,
+        "end": 236.61,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Well, I think one of the most memorable developments has been the Kerala Project in India.",
+        "zh": "其中一個最難忘的發展項目，是印度的 Kerala 計劃。"
+      },
+      {
+        "start": 237.11,
+        "end": 238.97,
+        "speaker": "Tarraco Solutions interview",
+        "text": "OK, and what did that entail?",
+        "zh": "那涉及什麼工作？"
+      },
+      {
+        "start": 239.41,
+        "end": 244.31,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Well, this was a project designed to improve a riverside path to a market.",
+        "zh": "計劃是改善一條通往市場的河邊小徑。"
+      },
+      {
+        "start": 244.31,
+        "end": 246.73,
+        "speaker": "Tarraco Solutions interview",
+        "text": "There were several things we had to address.",
+        "zh": "我們要處理幾個問題。"
+      },
+      {
+        "start": 247.31,
+        "end": 253.39,
+        "speaker": "Tarraco Solutions interview",
+        "text": "We had to build in safety measures into the design to help deal with flash floods, for a start.",
+        "zh": "首先，設計中要加入安全措施，應付突發洪水。"
+      },
+      {
+        "start": 253.85,
+        "end": 254.69,
+        "speaker": "Tarraco Solutions interview",
+        "text": "That was important.",
+        "zh": "這很重要。"
+      },
+      {
+        "start": 255.53,
+        "end": 261.91,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Plus, one special thing about this project was that the children who used the route gave us important information.",
+        "zh": "另外，這個項目有一點特別：使用該路線的孩子給了我們重要資料。"
+      },
+      {
+        "start": 262.61,
+        "end": 270.87,
+        "speaker": "Tarraco Solutions interview",
+        "text": "They, the children, told us that actually the area had a problem with a lot of dangerous pests, especially snakes.",
+        "zh": "孩子告訴我們，該區其實有很多危險的有害動物，尤其是蛇。"
+      },
+      {
+        "start": 270.87,
+        "end": 274.43,
+        "speaker": "Tarraco Solutions interview",
+        "text": "So again, we built in features to deal with that.",
+        "zh": "因此我們也設計了應對這個問題的設施。"
+      },
+      {
+        "start": 274.95,
+        "end": 275.15,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Right.",
+        "zh": "明白。"
+      },
+      {
+        "start": 275.93,
+        "end": 279.15,
+        "speaker": "Tarraco Solutions interview",
+        "text": "This project also taught us a lot about building trust.",
+        "zh": "這個項目也讓我們學到很多建立信任的方法。"
+      },
+      {
+        "start": 279.97,
+        "end": 283.01,
+        "speaker": "Tarraco Solutions interview",
+        "text": "I mean, many of the locals were quite doubtful at first.",
+        "zh": "不少居民最初抱懷疑態度。"
+      },
+      {
+        "start": 283.47,
+        "end": 284.67,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Did they explain why?",
+        "zh": "他們有解釋原因嗎？"
+      },
+      {
+        "start": 285.01,
+        "end": 285.67,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Yes, they did.",
+        "zh": "有。"
+      },
+      {
+        "start": 286.13,
+        "end": 294.13,
+        "speaker": "Tarraco Solutions interview",
+        "text": "They told us about a similar project in the village a few years before that had been left unfinished and actually never was finished.",
+        "zh": "他們說，幾年前村內有個類似項目半途停工，到最後也沒有完成。"
+      },
+      {
+        "start": 294.13,
+        "end": 301.57,
+        "speaker": "Tarraco Solutions interview",
+        "text": "So I suppose they would have been worried that the same thing might happen to your project, that it wouldn't be finished either.",
+        "zh": "所以他們可能擔心同樣情況會在你們的項目發生，最終也不能完成。"
+      },
+      {
+        "start": 302.09,
+        "end": 302.65,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Precisely.",
+        "zh": "正是。"
+      },
+      {
+        "start": 303.38,
+        "end": 305.14,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Which I think is fair enough.",
+        "zh": "我覺得這很合理。"
+      },
+      {
+        "start": 305.6,
+        "end": 307.6,
+        "speaker": "Tarraco Solutions interview",
+        "text": "I think it was a genuine concern.",
+        "zh": "這是切實的憂慮。"
+      },
+      {
+        "start": 308.44,
+        "end": 314.66,
+        "speaker": "Tarraco Solutions interview",
+        "text": "The other reason why they were quite doubtful about it all was to do with what would happen after we left.",
+        "zh": "另一個令他們懷疑的原因，是我們離開後會怎樣。"
+      },
+      {
+        "start": 315.2,
+        "end": 319.88,
+        "speaker": "Tarraco Solutions interview",
+        "text": "They were worried that there would be no one to maintain the path once we'd gone.",
+        "zh": "他們擔心我們走了，就沒有人保養那條小徑。"
+      },
+      {
+        "start": 319.88,
+        "end": 324.74,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Again, another genuine worry. So how did you change their minds?",
+        "zh": "又是一個實在的憂慮。你們怎樣改變他們的想法？"
+      },
+      {
+        "start": 325.44,
+        "end": 332.92,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Well, we had to convince them that we aren't just another temporary volunteer project, that we wouldn't just leave.",
+        "zh": "我們要說服他們，我們不是又一個短暫的義工計劃，不會就此離開不管。"
+      },
+      {
+        "start": 333.71,
+        "end": 342.35,
+        "speaker": "Tarraco Solutions interview",
+        "text": "What really helped was another piece of technology, one that could continue to support the Kerala project long after construction had finished.",
+        "zh": "真正有幫助的是另一項科技，在建造完成很久之後，仍可以支援 Kerala 計劃。"
+      },
+      {
+        "start": 343.05,
+        "end": 344.45,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Oh yeah? And what was that?",
+        "zh": "是嗎？那是什麼？"
+      },
+      {
+        "start": 344.45,
+        "end": 353.33,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Well, we set up webcams that deliver a live feed 24 hours a day on our webpage. It’s a win-win for everyone.",
+        "zh": "我們架設了網絡攝影機，每天二十四小時在網站直播，對各方都是雙贏。"
+      },
+      {
+        "start": 353.89,
+        "end": 360.47,
+        "speaker": "Tarraco Solutions interview",
+        "text": "It means that for the local users we can easily see areas where the path had deteriorated.",
+        "zh": "對當地使用者而言，我們可以輕易看出小徑哪些地方已經損壞。"
+      },
+      {
+        "start": 361.47,
+        "end": 365.43,
+        "speaker": "Tarraco Solutions interview",
+        "text": "The webcams are great for that, so it's been a great success.",
+        "zh": "網絡攝影機在這方面很有效，所以相當成功。"
+      },
+      {
+        "start": 366.35,
+        "end": 371.67,
+        "speaker": "Tarraco Solutions interview",
+        "text": "And for Turaco Solutions, what were the benefits? You said it was a win-win situation.",
+        "zh": "那對 Tarraco Solutions 有什麼好處？你說是雙贏。"
+      },
+      {
+        "start": 371.67,
+        "end": 381.35,
+        "speaker": "Tarraco Solutions interview",
+        "text": "Oh yes, sorry. It also means that we at Turaco Solutions can get more funding as we promote our work online using the images.",
+        "zh": "對，不好意思。這也讓我們可以用影像在網上推廣工作，從而獲得更多資助。"
+      },
+      {
+        "start": 382.05,
+        "end": 386.17,
+        "speaker": "Tarraco Solutions interview",
+        "text": "OK. Thank you so much for telling us about Turaco Solutions today.",
+        "zh": "好，非常感謝你今天介紹 Tarraco Solutions。"
+      }
+    ]
+  },
+  "questions": {
+    "1": {
+      "title": "校內手機使用政策",
+      "instruction": "Sarah 正與校長 Chan 女士及校內科學科教師 Reyes 女士開會，討論學校的手機使用政策。聆聽討論，把資料填在以下空格。第一項已作為例子提供。",
+      "blocks": [
+        "會議摘要",
+        "調查主題：在上課日（例子）使用手機。",
+        "現行政策",
+        "{{1}} 允許使用手機至何時？（選出正確選項並加剔號）\nA 上午八時三十分\nB 上午八時四十五分\nC 上午八時五十五分",
+        "學生對手機政策的意見",
+        "現行政策{{2}}。\n政策應更{{3}}。",
+        "學生對新政策的要求",
+        "回覆問卷的學生總數：{{4}}。\n最多人提出的要求：學生希望在午膳時使用手機{{5}}，以及在{{6}}課堂時使用。",
+        "課堂使用情況。欄目：課堂／原因——學生想使用……\n物理課：{{7}}\n語文課：{{8}}",
+        "Reyes 女士和 Chan 女士認為手機應在哪些課堂使用？每人只選一項。\nReyes 女士：{{9}}\nChan 女士：{{10}}\n兩題選項相同：只在物理課／只在語文課／物理及語文課均可／任何課堂都不可以。",
+        "學生的其他要求",
+        "設置一個{{11}}站。",
+        "可能的位置。欄目：位置／意見。\n操場旁邊的走廊：擔心{{12}}。\n{{13}}：是好主意，因為{{14}}。"
+      ]
+    },
+    "2": {
+      "title": "Mentor Mine 應用程式",
+      "instruction": "Sarah 正與資訊科技學會另外兩名成員 Aaron 和 Rachel，討論學校將向高中生推廣的新應用程式。聆聽討論，把資料填在以下空格。第一項已作為例子提供。",
+      "blocks": [
+        "應用程式名稱：Mentor（例子）Mine。",
+        "應用程式的用途",
+        "聯繫{{15}}的學生。\n取得協助，例如功課和{{16}}。",
+        "設定：科目、程度及模式。欄目：設定／詳情。\n科目：任何科目。\n起始程度：初學者、學徒及{{17}}。\n模式——學術：{{18}}。\n模式——興趣：{{19}}。\n國家及{{20}}。\n例子——國家：{{21}}。\n例子——專修範疇：{{22}}。",
+        "辦公時間",
+        "時間上限：{{23}}；週末可以更多。\n原因：\n培養{{24}}。\n顯示{{25}}。",
+        "回饋設定。欄目：設定／詳情。\n更多票數＝{{26}}。\n用戶可以查看票數，以及來自{{27}}的留言。"
+      ]
+    },
+    "3": {
+      "title": "南非 Youth Boost 青年支援中心",
+      "instruction": "Sarah、Rachel 和 Aaron 正在挑選世界各地運用科技的故事，刊登於資訊科技學會網上雜誌。聆聽資料並完成以下筆記。",
+      "blocks": [
+        "故事：南非 Youth Boost 青年支援中心",
+        "人們報名加入的兩個主要原因：\n{{28}}\n{{29}}",
+        "Youth Boost 會員會獲得一種名叫 Imali 的{{30}}。",
+        "取得 Imali 的兩個主要方法：\n{{31}}\n{{32}}",
+        "Imali 的用途。欄目：地方／用途。\n中心內：{{33}}。\n網上：{{34}}、{{35}}。",
+        "使用者喜歡青年支援中心的主要原因：\n{{36}}",
+        "資訊科技學會成員的看法——青年支援中心的優點。欄目：成員／意見。\nRachel：{{37}}。\nAaron：{{38}}。",
+        "Imali 可能的缺點。欄目：成員／意見。\nRachel：{{39}}。\nAaron：{{40}}。"
+      ]
+    },
+    "4": {
+      "title": "Tarraco Solutions",
+      "instruction": "Sarah 正為資訊科技學會網上雜誌，訪問在非政府組織 Tarraco Solutions 工作的電腦專家 James Berg 博士。聆聽訪問並完成以下答案。毋須用完整句子作答。",
+      "blocks": [
+        "Tarraco Solutions：摘要",
+        "Tarraco Solutions 在世界各地哪一類地方工作？\n{{41}}",
+        "Tarraco Solutions 最近在泰國興建巴士候車亭，解決了什麼問題？\n{{42}}",
+        "Berg 博士說 Tarraco Solutions 重視多元。他們的工作怎樣體現這一點？\n{{43}}",
+        "Berg 博士提到使用擴增實境（AR）科技的哪兩項好處？\n{{44}}\n{{45}}",
+        "為什麼 AR 培訓對社區內某些人如此重要？\n{{46}}",
+        "印度 Kerala：一個成功故事",
+        "Kerala 計劃旨在改善什麼？\n{{47}}",
+        "團隊在 Kerala 計劃中要處理哪兩個主要問題？\n{{48}}\n{{49}}",
+        "根據 Berg 博士，當地人最初為什麼不信任這個計劃？\n{{50}}\n{{51}}",
+        "網絡攝影機直播帶來什麼好處？\n{{52}}\n{{53}}"
+      ]
+    }
+  }
+}

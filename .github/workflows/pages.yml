@@ -132,6 +132,7 @@ jobs:
       - name: Validate Reading Comprehension catalogue, holds and exercise workflows
         run: |
           node tools/test-reading-comprehension-system.mjs
+          node tools/test-dse-deep-analysis.mjs
           node tools/test-reading-comprehension-enhancements.mjs
           node tools/test-reading-comprehension-catalogue.mjs
           node tools/test-reading-comprehension-audio.mjs
@@ -261,6 +262,11 @@ jobs:
           node tools/test-dse-paper3-analysis-portal.mjs
           node tools/listening/build-search-index.mjs --check
           node tools/test-listening-search.mjs
+          node tools/test-dse-listening-guide.mjs
+          node tools/test-dse-listening-2023-guide.mjs
+          node tools/test-dse-listening-archive-guides.mjs
+          node tools/listening/build-2023-guide.mjs --check
+          node tools/listening/enrich-existing-dse-guides.mjs --check
           node tools/test-dse-image-enhancements.mjs
 
       - name: Validate PWA, shared portal navigation, mobile icons, and brand metadata

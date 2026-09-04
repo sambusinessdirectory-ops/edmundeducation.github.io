@@ -1,0 +1,1938 @@
+{
+  "year": 2017,
+  "source": {
+    "title": "2017 DSE Part A · 錄音稿翻譯及參考答案解析",
+    "scope": "Part A Tasks 1–4, Questions 1–54",
+    "status": "Authored reference answers, not an official HKEAA marking scheme.",
+    "questionPaper": "2017 Paper 3 Part A.pdf",
+    "questionDataSha256": "3634788ccb545d5c8bd1bfa73ee37ce8d9b120c598d051ff20e7a1a3bc80cff6",
+    "transcriptDataSha256": "7b00b1424639e1f4d0bfccec9635514d5beb8e38b1bf6ac0e230d89cc456dda9",
+    "styleReference": "2021 – DSE Listening – 5** Past Paper 題解書 (Edmund Sir); approved 2023 bilingual teaching guide.",
+    "styleReferenceSha256": "4c2f676ddcb720dc059b93378fe8ea7d021832380d466b7a10f0d98eac605593",
+    "timingBasis": "Original year split-track transcript cue boundaries. Audio navigation is approximate; answer spans may cover adjacent source cues when an utterance is split.",
+    "editorialNotes": [
+      "2017 answers and explanations are newly authored from that year's question data and recording transcript; 2021 and 2023 are style references only.",
+      "Original English text, cue boundaries, audio, question controls, images, student answers and Part B are unchanged. Guide-only speaker labels correct clear examiner instructions to Narrator and use neutral grouped labels for mixed turns or unreliable parent attribution; no individual turn identity is guessed. Raw transcript files remain unchanged.",
+      "Traditional Chinese translations retain all available transcript cues, including examiner instructions and cross-track fragments. Proper-name spellings in Chinese annotations follow the question paper where available; untranslated/missing speech is not invented."
+    ]
+  },
+  "transcriptNote": "按 2017 年錄音逐段翻譯。點擊一行可跳至相應錄音附近，時間為近似導航位置。",
+  "analysisNote": "以下為按錄音及題目編寫的參考答案與解析，並非考評局官方評分準則。",
+  "questions": {
+    "1": {
+      "title": "Brunch with Charlie：友好城市",
+      "instruction": "Charlie Meadows 正主持電台節目 Brunch with Charlie。請聆聽節目第一部分，把資料填入以下空格。第一項已作為例子。",
+      "blocks": [
+        "嘉賓",
+        "Emily Lee 博士，來自香港立法會（例子）。Lemy Chan，香港大學學生，修讀 {{1}}。",
+        "背景",
+        "友好城市又稱 {{2}}。同意結為友好城市的兩座城市必須 {{3}}。現代友好城市概念始於 {{4}}。最初目標：促進曾經 {{5}} 的國家互相理解。",
+        "國家之間的城市結盟",
+        "第 6 題：最常見的結盟國家（選兩項）。A 日本；B 德國；C 意大利；D 美國；E 英國；F 法國；G 蘇聯。",
+        "原因：{{7}}。",
+        "第 8 題：大城市一般與多少個城市結盟？（選正確項目。）A 只有一個；B 約五個；C 約十個；D 超過三十個。",
+        "香港締結友好城市的目標｜目標／例子。目標一：促進文化交流；例子 {{9}}、{{10}}。目標二：促進 {{11}}；例子 {{12}}、{{13}}。"
+      ]
+    },
+    "2": {
+      "title": "選擇友好城市的委員會",
+      "instruction": "請聆聽 Brunch with Charlie 第二部分，主持人 Charlie Meadows 繼續訪問，並把缺漏資料填入以下空格。",
+      "blocks": [
+        "選擇友好城市的委員會",
+        "另招募 {{14}} 人。",
+        "要求｜組別／要求。學生要求：必須是 {{15}} 學生或以上。一般公眾要求：年齡狀況必須 {{16}}。原因一：有更多時間 {{17}}。原因二：{{18}}。",
+        "招募對象的特質｜特徵／詳情。特質一：{{19}}。特質二：{{20}}。國籍：{{21}}，但必須已在香港 {{22}}。",
+        "提交申請｜項目／詳情。方法：{{23}}。截止日期：{{24}}。",
+        "政治人物",
+        "政治人物已 {{25}}。原因：{{26}}。"
+      ]
+    },
+    "3": {
+      "title": "香港友好城市的候選申請",
+      "instruction": "委員會正觀看兩段 YouTube 影片，分別來自兩個申請成為香港友好城市的候選城市。請聆聽錄音，把缺漏資料填入以下空格。",
+      "blocks": [
+        "影片一：阿根廷布宜諾斯艾利斯的 Maria",
+        "地點一：探戈課",
+        "探戈歷史｜歷史／詳情。起源：十九世紀的 {{27}}。舞者：男人與 {{28}} 跳舞。原因：{{29}}。",
+        "地點二：小保加足球場的貴賓包廂",
+        "小保加貴賓包廂｜到訪理由／特別之處。看球賽：{{30}}。食物：{{31}}。與著名前球員會面：{{32}}。",
+        "影片二：波蘭克拉科夫的 Piotr",
+        "六百五十年前，克拉科夫是 {{33}}。",
+        "地點一：皇家城堡",
+        "皇家城堡｜時間／事件／發生了什麼。三百年前：火災；{{34}}。一百五十年前：城市擴張；{{35}}。",
+        "地點二：主廣場",
+        "主廣場｜廣場特色／詳情。中央市場——昔日：{{36}}。中央市場——現在：{{37}}。咖啡店、酒吧及餐廳：{{38}}。",
+        "地點三：Nova Huta",
+        "Nova Huta 的英文意思是 {{39}}。",
+        "Nova Huta｜資料／詳情。建造：由 {{40}} 興建。遊客到訪原因：{{41}}。"
+      ]
+    },
+    "4": {
+      "title": "Lemy 的克拉科夫之旅",
+      "instruction": "委員會選擇波蘭的克拉科夫成為香港友好城市。Lemy Chan 到訪三個月後，重回 Brunch with Charlie 分享經歷。請聆聽訪問，回答以下問題。不必以完整句子作答。",
+      "blocks": [
+        "為何 Lemy 覺得克拉科夫人慷慨？{{42}}",
+        "提出兩個原因，說明 Lemy 為何認為波蘭冬天不算太難受。",
+        "室內：{{43}}。室外：{{44}}。",
+        "Lemy 在咖啡店點茶時，侍應為何生氣？{{45}}",
+        "Lemy 為何覺得侍應不公平？{{46}}",
+        "第二個星期日，Lemy 和 Julia 為何不乘火車去滑雪？{{47}}",
+        "午飯後，Lemy 在雪道發生了什麼事？{{48}}；{{49}}；{{50}}。",
+        "之後她對滑雪的態度怎樣？{{51}}",
+        "Lemy 當天為何想趕回克拉科夫？{{52}}",
+        "巴士故障後，Lemy 怎樣及時返回克拉科夫？{{53}}；{{54}}。"
+      ]
+    }
+  },
+  "transcript": {
+    "1": [
+      {
+        "start": 0.03,
+        "end": 8.97,
+        "speaker": "Narrator",
+        "text": "Task 1. Charlie Meadows is hosting a radio show called Brunch with Charlie. Listen to the first",
+        "zh": "任務一。Charlie Meadows 正主持電台節目 Brunch with Charlie。請聆聽節目的第一"
+      },
+      {
+        "start": 8.97,
+        "end": 16.34,
+        "speaker": "Narrator",
+        "text": "part of the program and write the information in the spaces below. The first one has been provided",
+        "zh": "部分，把資料填入以下空格。第一項已作為"
+      },
+      {
+        "start": 16.34,
+        "end": 24.57,
+        "speaker": "Narrator",
+        "text": "as an example. You now have 30 seconds to study the task. At the end of the task,",
+        "zh": "例子。你現在有三十秒閱讀題目。任務結束後，"
+      },
+      {
+        "start": 25.13,
+        "end": 64.12,
+        "speaker": "Narrator／Brunch with Charlie guests",
+        "text": "you will have one minute to tidy up your answers. Hi there! How are you doing? It is Charlie Meadows",
+        "zh": "你將有一分鐘整理答案。各位好，大家好嗎？又是我 Charlie Meadows，"
+      },
+      {
+        "start": 64.12,
+        "end": 71.2,
+        "speaker": "Brunch with Charlie guests",
+        "text": "here again and with me on Brunch with Charlie this morning are two guests both from the Special",
+        "zh": "今天早上與我一起參與 Brunch with Charlie 的兩位嘉賓，都來自剛成立的特別"
+      },
+      {
+        "start": 71.2,
+        "end": 78.3,
+        "speaker": "Brunch with Charlie guests",
+        "text": "Committee that has just been set up to find a twin city for Hong Kong. I am very pleased to",
+        "zh": "委員會，負責為香港尋找友好城市。我很高興"
+      },
+      {
+        "start": 78.3,
+        "end": 85.8,
+        "speaker": "Brunch with Charlie guests",
+        "text": "have with me Dr. Emily Lee who is a member of Legislative Council of Hong Kong. Welcome Dr. Lee.",
+        "zh": "邀請到香港立法會議員 Emily Lee 博士。歡迎你，Lee 博士。"
+      },
+      {
+        "start": 86.5,
+        "end": 93.72,
+        "speaker": "Brunch with Charlie guests",
+        "text": "Good morning, Charlie. Glad to be here. And also with me is Lemmy Chan. Hi. Now,",
+        "zh": "早安，Charlie，很高興來到這裡。另一位嘉賓是 Lemy Chan。你好。"
+      },
+      {
+        "start": 93.72,
+        "end": 100.66,
+        "speaker": "Brunch with Charlie guests",
+        "text": "Lemmy is an undergraduate student at Hong Kong University. And what is it that you are studying,",
+        "zh": "Lemy 是香港大學的本科生。Lemy，你修讀什麼"
+      },
+      {
+        "start": 100.88,
+        "end": 109.84,
+        "speaker": "Brunch with Charlie guests",
+        "text": "Lemmy? History. Oh yes, sorry, history. I had it noted down somewhere. Now let's start with you,",
+        "zh": "科目？歷史。對，抱歉，是歷史，我明明寫下了。先由你開始，"
+      },
+      {
+        "start": 110,
+        "end": 116.66,
+        "speaker": "Brunch with Charlie guests",
+        "text": "Dr. Lee. You have been appointed the Chairperson of this Special Committee which has just been set",
+        "zh": "Lee 博士，你獲委任為這個剛成立的特別委員會"
+      },
+      {
+        "start": 116.66,
+        "end": 123.14,
+        "speaker": "Brunch with Charlie guests",
+        "text": "up. Would you like to tell us about that? Certainly. Well, as you say, it is a committee",
+        "zh": "主席，可否介紹一下？當然。正如你所說，這個委員會"
+      },
+      {
+        "start": 123.14,
+        "end": 129.35,
+        "speaker": "Brunch with Charlie guests",
+        "text": "set up especially to choose a twin city for Hong Kong. Okay. Now, a lot of our listeners",
+        "zh": "專責為香港選擇友好城市。好的，很多聽眾"
+      },
+      {
+        "start": 129.35,
+        "end": 136.49,
+        "speaker": "Brunch with Charlie guests",
+        "text": "won't have heard of the idea of twin cities. So maybe you could explain what it is. Okay,",
+        "zh": "可能沒聽過友好城市的概念，可否解釋？好的，"
+      },
+      {
+        "start": 136.63,
+        "end": 142.07,
+        "speaker": "Brunch with Charlie guests",
+        "text": "yes. Well, the other name for a twin city you might have heard of is a sister city.",
+        "zh": "友好城市的另一個名稱是姊妹城市，大家可能聽過。"
+      },
+      {
+        "start": 143.03,
+        "end": 149.81,
+        "speaker": "Brunch with Charlie guests",
+        "text": "Okay, yes. I've heard sister city before, yeah. Okay. So when two cities decide they",
+        "zh": "對，我聽過姊妹城市。當兩個城市決定"
+      },
+      {
+        "start": 149.81,
+        "end": 154.93,
+        "speaker": "Brunch with Charlie guests",
+        "text": "want to be twin cities, they enter into an agreement. And the important thing is that",
+        "zh": "結為友好城市，便會簽訂協議。重要的是，"
+      },
+      {
+        "start": 154.93,
+        "end": 160.87,
+        "speaker": "Brunch with Charlie guests",
+        "text": "to be twin cities, the two cities have to be in different countries. Alright, so not",
+        "zh": "兩個城市必須位於不同國家。即不能是"
+      },
+      {
+        "start": 160.87,
+        "end": 167.23,
+        "speaker": "Brunch with Charlie guests",
+        "text": "two cities in the same country. Yeah, that's right. And there are thousands of towns and",
+        "zh": "同一國家的兩個城市。對。全球已有數以千計的城鎮與"
+      },
+      {
+        "start": 167.23,
+        "end": 172.73,
+        "speaker": "Brunch with Charlie guests",
+        "text": "cities twinned with each other across the world. Okay, so when did this all start",
+        "zh": "城市互相締結友好關係。那友好城市是何時開始的？"
+      },
+      {
+        "start": 172.73,
+        "end": 180.87,
+        "speaker": "Brunch with Charlie guests",
+        "text": "then, twin cities? And why did cities want to twin? Well, that's a good question. Maybe",
+        "zh": "城市為何想結成友好城市？好問題，不如"
+      },
+      {
+        "start": 180.87,
+        "end": 187.09,
+        "speaker": "Brunch with Charlie guests",
+        "text": "Lemmy should give a bit of the historical background. Oh, okay. Well, the idea of twin",
+        "zh": "由 Lemy 介紹一些歷史背景。好的。友好城市的概念，"
+      },
+      {
+        "start": 187.09,
+        "end": 194.77,
+        "speaker": "Brunch with Charlie guests",
+        "text": "cities, at least our concept of it in the modern era, started just after World War II.",
+        "zh": "至少現代意義下的概念，始於第二次世界大戰剛結束之後。"
+      },
+      {
+        "start": 195.54,
+        "end": 202.32,
+        "speaker": "Brunch with Charlie guests",
+        "text": "Okay, but why then? Why were twin cities so important after the war? Didn't people",
+        "zh": "但為何是當時？戰後為何如此重視友好城市？人們不是"
+      },
+      {
+        "start": 202.32,
+        "end": 209.26,
+        "speaker": "Brunch with Charlie guests",
+        "text": "have better things to be doing, rebuilding houses and everything? Well, twin cities were",
+        "zh": "有重建房屋等更重要的事要做嗎？當時，友好城市被視為"
+      },
+      {
+        "start": 209.26,
+        "end": 216.68,
+        "speaker": "Brunch with Charlie guests",
+        "text": "seen as part of a wider initiative at that time to promote peace and understanding. So",
+        "zh": "推動和平與相互理解的更廣泛計劃之一。"
+      },
+      {
+        "start": 216.68,
+        "end": 223.56,
+        "speaker": "Brunch with Charlie guests",
+        "text": "it had a serious point to it. Exactly. So does that mean that twin cities were in countries",
+        "zh": "所以這有很認真的目的。正是。那是否說，友好城市所在的國家，"
+      },
+      {
+        "start": 223.56,
+        "end": 228.76,
+        "speaker": "Brunch with Charlie guests",
+        "text": "which were fighting each other during the war? That's right. In countries which were",
+        "zh": "在戰爭期間曾互相交戰？沒錯，那些國家"
+      },
+      {
+        "start": 228.76,
+        "end": 235.24,
+        "speaker": "Brunch with Charlie guests",
+        "text": "until a couple of years before that, fighting each other. Wow, that can't have been easy.",
+        "zh": "在幾年前還互相作戰。嘩，那肯定不容易。"
+      },
+      {
+        "start": 235.98,
+        "end": 243.38,
+        "speaker": "Brunch with Charlie guests",
+        "text": "So did it work? Was it successful? Well, a lot of cities certainly took part. Obviously,",
+        "zh": "有效嗎？成功嗎？確實有很多城市參與。當然，"
+      },
+      {
+        "start": 243.44,
+        "end": 250.08,
+        "speaker": "Brunch with Charlie guests",
+        "text": "during the war, many countries had suffered. On the one side, you had Japan, Germany,",
+        "zh": "戰時許多國家都受苦。一方有日本、德國、"
+      },
+      {
+        "start": 250.88,
+        "end": 257.8,
+        "speaker": "Brunch with Charlie guests",
+        "text": "Italy, and on the other, you had like the United States, the UK, France, and the Soviet",
+        "zh": "意大利，另一方有美國、英國、法國和蘇"
+      },
+      {
+        "start": 257.8,
+        "end": 264.42,
+        "speaker": "Brunch with Charlie guests",
+        "text": "Union. And the most common twinning of cities was actually between France and Germany, two",
+        "zh": "聯。實際上最常見的城市結盟，是法國與德國之間，這兩個"
+      },
+      {
+        "start": 264.42,
+        "end": 271.25,
+        "speaker": "Brunch with Charlie guests",
+        "text": "countries that had been the fiercest of enemies through history. Why was that? I'm sure there",
+        "zh": "國家歷史上曾是最激烈的敵人。為什麼是它們？肯定"
+      },
+      {
+        "start": 271.25,
+        "end": 276.31,
+        "speaker": "Brunch with Charlie guests",
+        "text": "must be a good reason. Well, I think just on a practical level, these countries are",
+        "zh": "有合理原因吧。從實際角度來說，我想因為兩國"
+      },
+      {
+        "start": 276.31,
+        "end": 282.12,
+        "speaker": "Brunch with Charlie guests",
+        "text": "next to each other, and so it was easy for them to communicate with each other. Well,",
+        "zh": "相鄰，所以容易互相聯繫。這"
+      },
+      {
+        "start": 282.12,
+        "end": 289.38,
+        "speaker": "Brunch with Charlie guests",
+        "text": "that makes sense. So thinking about nowadays, a city typically pairs up with just one city?",
+        "zh": "有道理。那現在一個城市通常只與另一個城市配對嗎？"
+      },
+      {
+        "start": 289.92,
+        "end": 296.72,
+        "speaker": "Brunch with Charlie guests",
+        "text": "Is that what happens? Well, it all depends. Usually a small town, you know, of a few",
+        "zh": "是這樣嗎？視乎情況。人口只有幾"
+      },
+      {
+        "start": 296.72,
+        "end": 302.56,
+        "speaker": "Brunch with Charlie guests",
+        "text": "thousand people, would usually twin with just one other town. But there are some towns in",
+        "zh": "千的小鎮，通常只會與另一個小鎮結盟。不過，歐洲有些"
+      },
+      {
+        "start": 302.56,
+        "end": 308.87,
+        "speaker": "Brunch with Charlie guests",
+        "text": "Europe that are incredibly popular as a twin town. There's this one town called",
+        "zh": "城鎮作為友好城市非常受歡迎。例如奧地利有一個叫"
+      },
+      {
+        "start": 308.87,
+        "end": 317.52,
+        "speaker": "Brunch with Charlie guests",
+        "text": "Judenberg in Austria, and it's twinned with over 30 different towns. A big city is",
+        "zh": "Judenberg 的城鎮，與三十多個不同城鎮結盟。大城市則"
+      },
+      {
+        "start": 317.52,
+        "end": 324.58,
+        "speaker": "Brunch with Charlie guests",
+        "text": "usually twinned with more than one city, but certainly not 30. Say four or five. Ten would",
+        "zh": "通常有不止一個友好城市，但肯定不會是三十個，大約四至五個。十個便"
+      },
+      {
+        "start": 324.58,
+        "end": 333.3,
+        "speaker": "Brunch with Charlie guests",
+        "text": "be unusual. Right. So Hong Kong is now looking for its first twin city. So what do you hope",
+        "zh": "算罕見。香港現在正尋找首個友好城市，你們希望"
+      },
+      {
+        "start": 333.3,
+        "end": 339.2,
+        "speaker": "Brunch with Charlie guests",
+        "text": "to achieve? Maybe I could answer this. The first thing we want to achieve is to encourage",
+        "zh": "達到什麼目標？這點由我回答吧。第一是鼓勵"
+      },
+      {
+        "start": 339.2,
+        "end": 345.96,
+        "speaker": "Brunch with Charlie guests",
+        "text": "an exchange of culture. An exchange of culture sounds nice, but what does it mean exactly?",
+        "zh": "文化交流。聽起來很好，但具體是什麼意思？"
+      },
+      {
+        "start": 346.7,
+        "end": 352.68,
+        "speaker": "Brunch with Charlie guests",
+        "text": "Well, the obvious ones are language and food. I mean, Hong Kong has a variety of languages",
+        "zh": "最明顯的是語言和飲食。香港有多種語言，"
+      },
+      {
+        "start": 353.11,
+        "end": 358.84,
+        "speaker": "Brunch with Charlie guests",
+        "text": "and lots of amazing food that we can share with the future twin city. Nice. What else?",
+        "zh": "以及許多出色美食，可以與未來的友好城市分享。很好，還有呢？"
+      },
+      {
+        "start": 359.6,
+        "end": 365.4,
+        "speaker": "Brunch with Charlie guests",
+        "text": "Well, another aim is related to commerce. It's the promotion of business links. So",
+        "zh": "另一個目標與商業有關，就是促進商業聯繫。"
+      },
+      {
+        "start": 365.4,
+        "end": 371.36,
+        "speaker": "Brunch with Charlie guests",
+        "text": "what kind of business links? It can be any kind, really. For instance, Hong Kong is really",
+        "zh": "哪類商業聯繫？其實任何類型都可以。例如香港在"
+      },
+      {
+        "start": 371.36,
+        "end": 377.16,
+        "speaker": "Brunch with Charlie guests",
+        "text": "good at banking. I mean, obviously. And another area which I find quite exciting is fashion",
+        "zh": "銀行業方面很出色，這是顯而易見的。另一個我覺得令人興奮的領域是時裝"
+      },
+      {
+        "start": 377.16,
+        "end": 383.68,
+        "speaker": "Brunch with Charlie guests",
+        "text": "design. Really? Wow, that's quite glamorous then. Yeah, it would be great to be twinned",
+        "zh": "設計。真的？那很有魅力。對，如果能與世界其中一個時裝設計之都"
+      },
+      {
+        "start": 383.68,
+        "end": 388.62,
+        "speaker": "Brunch with Charlie guests",
+        "text": "with one of the fashion design capitals of the world. Yeah, and maybe I could come",
+        "zh": "結盟就太好了。對，說不定我也可以"
+      },
+      {
+        "start": 388.62,
+        "end": 393.58,
+        "speaker": "Brunch with Charlie guests",
+        "text": "with you. Right, we're going to take a short music break, and we'll be back in",
+        "zh": "跟你們一起去。接下來播一小段音樂，我們幾分鐘後"
+      },
+      {
+        "start": 393.58,
+        "end": 403.63,
+        "speaker": "Brunch with Charlie guests／Narrator",
+        "text": "a couple of minutes. That is the end of task one. You now have one minute to tidy up your",
+        "zh": "回來。任務一完結。你現在有一分鐘整理"
+      },
+      {
+        "start": 403.63,
+        "end": 474.76,
+        "speaker": "Narrator",
+        "text": "answers. Task two. Listen to the second part of brunch with Charlie, in which the host,",
+        "zh": "答案。任務二。請聆聽 Brunch with Charlie 的第二部分，主持人"
+      }
+    ],
+    "2": [
+      {
+        "start": 0.22,
+        "end": 7.04,
+        "speaker": "Narrator",
+        "text": "Charlie Meadows, continues with his interview. Listen and fill in the missing information",
+        "zh": "Charlie Meadows 繼續訪問。請聆聽錄音，把缺漏資料"
+      },
+      {
+        "start": 7.04,
+        "end": 15.21,
+        "speaker": "Narrator",
+        "text": "in the spaces below. You now have 30 seconds to study the task. At the end of the task,",
+        "zh": "填入以下空格。你現在有三十秒閱讀題目。任務結束後，"
+      },
+      {
+        "start": 15.57,
+        "end": 54.5,
+        "speaker": "Narrator／Twin-city committee",
+        "text": "you will have one minute to tidy up your answers. Now, Dr. Lee, you wanted to make a special",
+        "zh": "你將有一分鐘整理答案。Lee 博士，你有一項特別"
+      },
+      {
+        "start": 54.5,
+        "end": 61.09,
+        "speaker": "Twin-city committee",
+        "text": "announcement. Is that right? Yes, that's right. As you said, the committee has just been set up,",
+        "zh": "宣布，是嗎？對。正如你說，委員會剛成立，"
+      },
+      {
+        "start": 61.37,
+        "end": 65.95,
+        "speaker": "Twin-city committee",
+        "text": "and we are looking for more people, more members of the general public to join the committee.",
+        "zh": "我們正在招募更多人，更多公眾人士加入委員會。"
+      },
+      {
+        "start": 66.73,
+        "end": 70.87,
+        "speaker": "Twin-city committee",
+        "text": "So, I'm here to ask your listeners if they would be interested in getting involved",
+        "zh": "所以我想問問聽眾，是否有興趣參與，"
+      },
+      {
+        "start": 70.87,
+        "end": 78.58,
+        "speaker": "Twin-city committee",
+        "text": "in choosing a twin city for Hong Kong by coming onto the committee. Can it be anyone? Well,",
+        "zh": "加入委員會，為香港選出友好城市。任何人都可以嗎？"
+      },
+      {
+        "start": 78.9,
+        "end": 84.14,
+        "speaker": "Twin-city committee",
+        "text": "there are going to be three groups of people on the committee, politicians, students, and the general",
+        "zh": "委員會會有三類成員：政治人物、學生及一般"
+      },
+      {
+        "start": 84.14,
+        "end": 90.28,
+        "speaker": "Twin-city committee",
+        "text": "public. What were the exact numbers we are looking for, Lamy? Yes, we're looking for five",
+        "zh": "公眾。Lemy，我們究竟要多少人？我們要五名"
+      },
+      {
+        "start": 90.28,
+        "end": 96.08,
+        "speaker": "Twin-city committee",
+        "text": "students and five members of the general public. Yeah, that's right. And we would",
+        "zh": "學生，以及五名一般公眾人士。沒錯。如果你節目的聽眾"
+      },
+      {
+        "start": 96.08,
+        "end": 101.92,
+        "speaker": "Twin-city committee",
+        "text": "be delighted if the listeners of your radio show apply. Great. So, what about students?",
+        "zh": "申請，我們會很高興。很好，學生方面呢？"
+      },
+      {
+        "start": 102.68,
+        "end": 108.52,
+        "speaker": "Twin-city committee",
+        "text": "Is it open to primary school students? No, that's a bit young. It's open to secondary",
+        "zh": "小學生可以參加嗎？不，那太年輕。對象是中"
+      },
+      {
+        "start": 108.52,
+        "end": 114.64,
+        "speaker": "Twin-city committee",
+        "text": "school students and university students. So, secondary school and university students, right?",
+        "zh": "學生及大學生。即中學及大學學生，對嗎？"
+      },
+      {
+        "start": 114.64,
+        "end": 121.24,
+        "speaker": "Twin-city committee",
+        "text": "That's right. So, what about the members of the general public? Any age limits? Well,",
+        "zh": "對。一般公眾方面呢？有年齡限制嗎？"
+      },
+      {
+        "start": 121.26,
+        "end": 127.22,
+        "speaker": "Twin-city committee",
+        "text": "for the general public group, if you want to apply, you have to be retired. Retired? Now,",
+        "zh": "一般公眾組別的申請者必須已退休。退休？"
+      },
+      {
+        "start": 127.24,
+        "end": 133.4,
+        "speaker": "Twin-city committee",
+        "text": "that's what I call an age limit. Why so? Well, one reason is that they have more time",
+        "zh": "這真是年齡限制呢。為什麼？一個原因是他們比在職人士有更多時間。"
+      },
+      {
+        "start": 133.4,
+        "end": 140.1,
+        "speaker": "Twin-city committee",
+        "text": "than people who are working. Ah, you mean more time to attend the meetings? No, not really.",
+        "zh": "啊，是更多時間開會嗎？不，不太是。"
+      },
+      {
+        "start": 140.1,
+        "end": 145.34,
+        "speaker": "Twin-city committee",
+        "text": "What I mean is time to do some research, that sort of thing. But more importantly,",
+        "zh": "我是指有時間做研究之類的工作。更重要的是，"
+      },
+      {
+        "start": 145.92,
+        "end": 152.6,
+        "speaker": "Twin-city committee",
+        "text": "they have a lot of life experience to offer. Oh, okay. So, you senior citizens, if you're",
+        "zh": "他們能提供豐富人生經驗。好的，年長聽眾們，"
+      },
+      {
+        "start": 152.6,
+        "end": 158.44,
+        "speaker": "Twin-city committee",
+        "text": "listening, we want you. Okay. And what kind of person are you looking for ideally?",
+        "zh": "如果你在收聽，我們正需要你。理想申請者是怎樣的人？"
+      },
+      {
+        "start": 159.38,
+        "end": 165.46,
+        "speaker": "Twin-city committee",
+        "text": "Well, we are looking for two qualities in all the applicants. Okay. We are looking for someone",
+        "zh": "我們希望所有申請者都有兩種特質。好的，我們找的是"
+      },
+      {
+        "start": 165.46,
+        "end": 171.4,
+        "speaker": "Twin-city committee",
+        "text": "with knowledge of Hong Kong. Ah, I see. So, they can share this knowledge of Hong Kong with the",
+        "zh": "了解香港的人。明白，這樣他們就能與友好城市分享"
+      },
+      {
+        "start": 171.4,
+        "end": 177.5,
+        "speaker": "Twin-city committee",
+        "text": "Twin City, right? Yes. And the second quality is they should have a real enthusiasm for other",
+        "zh": "香港知識，對嗎？對。第二，他們應對其他"
+      },
+      {
+        "start": 177.5,
+        "end": 184.28,
+        "speaker": "Twin-city committee",
+        "text": "cultures. Yeah, I can see that, yes. I mean, we'd really want to have people on board who have that,",
+        "zh": "文化有真正熱情。明白。我們希望加入的人對"
+      },
+      {
+        "start": 184.66,
+        "end": 190.6,
+        "speaker": "Twin-city committee",
+        "text": "you know, enthusiasm for cultures for other countries. Great. Oh, I have another question.",
+        "zh": "其他國家的文化充滿熱誠。很好，我還有一個問題。"
+      },
+      {
+        "start": 191.18,
+        "end": 197.3,
+        "speaker": "Twin-city committee",
+        "text": "Do people applying for the committee have to be from Hong Kong? Actually, no. There can be any",
+        "zh": "申請加入委員會的人必須來自香港嗎？不用，可以是任何"
+      },
+      {
+        "start": 197.3,
+        "end": 202.64,
+        "speaker": "Twin-city committee",
+        "text": "nationality. As long as they have been living in Hong Kong for at least three years, that's fine.",
+        "zh": "國籍，只要在香港居住至少三年就可以。"
+      },
+      {
+        "start": 203.24,
+        "end": 209.56,
+        "speaker": "Twin-city committee",
+        "text": "I see. So, open to any nationality but must have been here for three years. Well,",
+        "zh": "明白，任何國籍均可，但必須已在港住滿三年。"
+      },
+      {
+        "start": 209.6,
+        "end": 215.7,
+        "speaker": "Twin-city committee",
+        "text": "it all sounds awesome to me. So, how do listeners apply for a place on the committee and what's",
+        "zh": "聽起來太好了。那聽眾怎樣申請委員會席位？截止日期"
+      },
+      {
+        "start": 215.7,
+        "end": 222.92,
+        "speaker": "Twin-city committee",
+        "text": "the deadline? Let me. Do you have the details there? Yeah. Applications are open now and they",
+        "zh": "是何時？Lemy，你有資料嗎？有，現在已接受申請，"
+      },
+      {
+        "start": 222.92,
+        "end": 232.38,
+        "speaker": "Twin-city committee",
+        "text": "should be submitted online. The deadline is the 30th of June. So, online applications by the end of",
+        "zh": "應在網上提交，截止日期是六月三十日。即六月底前在網上"
+      },
+      {
+        "start": 232.38,
+        "end": 240.9,
+        "speaker": "Twin-city committee",
+        "text": "June. Yes, that's right. Gotcha. Wait a minute. You said politicians before. What about the",
+        "zh": "申請。對。知道了，等一等，你之前提到政治人物，那委員會的"
+      },
+      {
+        "start": 240.9,
+        "end": 247.36,
+        "speaker": "Twin-city committee",
+        "text": "politicians on the committee? Are you choosing them too? Well, the politicians on the committee",
+        "zh": "政治人物呢？你們也在選他們嗎？委員會內的政治人物"
+      },
+      {
+        "start": 247.36,
+        "end": 254.32,
+        "speaker": "Twin-city committee",
+        "text": "have already been chosen. Already been chosen? Why is that? Well, we want to represent all the",
+        "zh": "已經選好了。已選好？為什麼？因為我們希望香港所有"
+      },
+      {
+        "start": 254.32,
+        "end": 260.08,
+        "speaker": "Twin-city committee",
+        "text": "political parties in Hong Kong. Okay, I suppose that's fair to try to represent all the political",
+        "zh": "政黨都有代表。明白，讓所有政黨"
+      },
+      {
+        "start": 260.08,
+        "end": 268.46,
+        "speaker": "Twin-city committee",
+        "text": "parties. Absolutely. Okay, so many thanks to you both. And maybe we can have you back in the",
+        "zh": "都有代表應該公平。完全正確。非常感謝兩位，希望未來可以再次邀請你們，"
+      },
+      {
+        "start": 268.46,
+        "end": 277.75,
+        "speaker": "Twin-city committee／Narrator",
+        "text": "future to tell our listeners which city was chosen. Yes, that would be great. That is the",
+        "zh": "告訴聽眾選中了哪個城市。好啊。任務二"
+      },
+      {
+        "start": 277.75,
+        "end": 350.86,
+        "speaker": "Narrator",
+        "text": "end of task two. You now have one minute to tidy up your answers. Task three. The committee",
+        "zh": "完結。你現在有一分鐘整理答案。任務三。委員會"
+      },
+      {
+        "start": 350.86,
+        "end": 350.9,
+        "speaker": "Narrator",
+        "text": "are now looking at two YouTube videos from two different entries to be at Twin City for Hong",
+        "zh": "現正觀看兩段 YouTube 影片，來自兩個不同的香港友好城市候選申請，"
+      }
+    ],
+    "3": [
+      {
+        "start": 0,
+        "end": 7.34,
+        "speaker": "Narrator",
+        "text": "are now looking at two YouTube videos from two different entries to be at Twin City for Hong",
+        "zh": "現正觀看兩段 YouTube 影片，來自兩個不同的香港友好城市候選申請。"
+      },
+      {
+        "start": 7.34,
+        "end": 17.04,
+        "speaker": "Narrator",
+        "text": "Kong. Listen and fill in the missing information in the spaces below. You now have 30 seconds to",
+        "zh": "請聆聽錄音，把缺漏資料填入以下空格。你現在有三十秒"
+      },
+      {
+        "start": 17.04,
+        "end": 24.62,
+        "speaker": "Narrator",
+        "text": "study the task. At the end of the task, you will have one and a half minutes to tidy up your",
+        "zh": "閱讀題目。任務結束後，你將有一分半鐘整理"
+      },
+      {
+        "start": 24.62,
+        "end": 67.71,
+        "speaker": "Narrator／Candidate-city videos",
+        "text": "answers. Video one. Maria from Buenos Aires, Argentina. Hello, Hong Kong. I'm Maria from",
+        "zh": "答案。影片一，阿根廷布宜諾斯艾利斯的 Maria。香港的朋友，你們好，我是來自"
+      },
+      {
+        "start": 67.71,
+        "end": 75.64,
+        "speaker": "Candidate-city videos",
+        "text": "Buenos Aires in Argentina. Choose Buenos Aires and come sample our culture. Here I am in a tango",
+        "zh": "阿根廷布宜諾斯艾利斯的 Maria。選擇我們的城市，來體驗我們的文化吧。我現在身處一堂探戈"
+      },
+      {
+        "start": 75.64,
+        "end": 84.36,
+        "speaker": "Candidate-city videos",
+        "text": "class. When people think of Argentina, the first thing they think of is tango dancing. The tango",
+        "zh": "課。提到阿根廷，大家首先想到的是探戈舞。探戈"
+      },
+      {
+        "start": 84.36,
+        "end": 92.17,
+        "speaker": "Candidate-city videos",
+        "text": "has a very rich history. Although it's considered a high class dance now, it started in lower class",
+        "zh": "歷史豐富，雖然如今被視為高雅舞蹈，但十九世紀最初源於下層階級"
+      },
+      {
+        "start": 92.17,
+        "end": 99.57,
+        "speaker": "Candidate-city videos",
+        "text": "districts in the 19th century. Most of the people who danced it were men, which meant men",
+        "zh": "居住的地區。大部分跳舞的人都是男性，因此男人"
+      },
+      {
+        "start": 99.57,
+        "end": 107.18,
+        "speaker": "Candidate-city videos",
+        "text": "often danced with other men. Why did they do this? Well, for many men, their wives or girlfriends",
+        "zh": "常常與其他男人共舞。為什麼？很多男性的妻子或女友"
+      },
+      {
+        "start": 107.18,
+        "end": 113.7,
+        "speaker": "Candidate-city videos",
+        "text": "were in Europe and they came alone to Argentina. So they had to choose between not dancing at all",
+        "zh": "仍在歐洲，他們獨自來阿根廷，所以只能選擇不跳舞，"
+      },
+      {
+        "start": 113.7,
+        "end": 121.56,
+        "speaker": "Candidate-city videos",
+        "text": "or dancing with men. The second major area of culture in Argentina is of course football.",
+        "zh": "或與男性跳舞。阿根廷第二大文化領域，當然是足球。"
+      },
+      {
+        "start": 122.56,
+        "end": 127.82,
+        "speaker": "Candidate-city videos",
+        "text": "And here I am at a Boca Junior's football stadium in one of their hospitality boxes.",
+        "zh": "我現在身處小保加球場其中一個貴賓包廂。"
+      },
+      {
+        "start": 129.74,
+        "end": 135.1,
+        "speaker": "Candidate-city videos",
+        "text": "Now, there are three great reasons for you to spend the day at a Boca Junior's hospitality box",
+        "zh": "比賽日來小保加貴賓包廂度過一天，有三個很好的理由。"
+      },
+      {
+        "start": 135.1,
+        "end": 143.32,
+        "speaker": "Candidate-city videos",
+        "text": "on a match day. Most important is you can see the game. Of course, you can see football all",
+        "zh": "最重要的是可以看球賽。當然，世界各地"
+      },
+      {
+        "start": 143.32,
+        "end": 149.94,
+        "speaker": "Candidate-city videos",
+        "text": "over the world. But what's extraordinary here is to witness the passion of a football match here",
+        "zh": "都可以看足球，但這裡特別之處，是親身感受阿根廷足球比賽的"
+      },
+      {
+        "start": 149.94,
+        "end": 158.6,
+        "speaker": "Candidate-city videos",
+        "text": "in Argentina. The passion. It's like no other place in the world. At the same time,",
+        "zh": "熱情，那份熱情世界無可比擬。同時，"
+      },
+      {
+        "start": 158.6,
+        "end": 166.9,
+        "speaker": "Candidate-city videos",
+        "text": "you can enjoy our most famous food, our beef sandwiches. Now, these are no ordinary sandwiches.",
+        "zh": "你可以享用我們最著名的食物：牛肉三文治。這可不是普通三文治。"
+      },
+      {
+        "start": 168.14,
+        "end": 175.92,
+        "speaker": "Candidate-city videos",
+        "text": "Our beef sandwiches have won prizes for being the best sandwiches in the world. And finally,",
+        "zh": "我們的牛肉三文治曾獲評為世界最佳三文治並獲獎。最後，"
+      },
+      {
+        "start": 176.5,
+        "end": 182.68,
+        "speaker": "Candidate-city videos",
+        "text": "as part of your experience, you will personally meet and spend the game with a famous ex-player",
+        "zh": "你更能親自認識一位著名的小保加前球員，與他一起度過比賽時間。"
+      },
+      {
+        "start": 182.68,
+        "end": 189.55,
+        "speaker": "Candidate-city videos",
+        "text": "of Boca Junior's. Of course, it's not unusual for ex-players to meet guests at matches nowadays.",
+        "zh": "當然，如今前球員在比賽時接待嘉賓並不罕見，"
+      },
+      {
+        "start": 189.55,
+        "end": 197.37,
+        "speaker": "Candidate-city videos",
+        "text": "But here at Boca, the ex-player will spend time with you and explain as you watch the game.",
+        "zh": "但在小保加，前球員會陪你一起觀賽，邊看邊講解。"
+      },
+      {
+        "start": 198.56,
+        "end": 203.8,
+        "speaker": "Candidate-city videos",
+        "text": "So you will be able to learn from a legendary ex-player as he explains the game to you",
+        "zh": "所以，你可以從傳奇前球員身上學習，聽他即場解說比賽"
+      },
+      {
+        "start": 203.8,
+        "end": 209.56,
+        "speaker": "Candidate-city videos",
+        "text": "as it happens. Thanks for listening Hong Kong and choose Buenos Aires.",
+        "zh": "過程。謝謝香港朋友收看，請選布宜諾斯艾利斯。"
+      },
+      {
+        "start": 228.26,
+        "end": 234.36,
+        "speaker": "Candidate-city videos",
+        "text": "I'm going to show you why you should choose Krakow to be Hong Kong's twin city.",
+        "zh": "我會向大家展示，為什麼應選克拉科夫做香港的友好城市。"
+      },
+      {
+        "start": 235.24,
+        "end": 240.46,
+        "speaker": "Candidate-city videos",
+        "text": "First of all, Krakow is great for tourism and we can share a lot of information with you",
+        "zh": "首先，克拉科夫非常適合旅遊，我們可以分享很多"
+      },
+      {
+        "start": 240.46,
+        "end": 248,
+        "speaker": "Candidate-city videos",
+        "text": "about how to promote tourism. Let me show you some examples. Krakow was the capital of Poland",
+        "zh": "推廣旅遊業的資訊。讓我舉些例子。大約六百五十年前，克拉科夫是波蘭的首都，"
+      },
+      {
+        "start": 248,
+        "end": 255.78,
+        "speaker": "Candidate-city videos",
+        "text": "about 650 years ago when Poland had kings. Where did the old kings live? Have a look behind me.",
+        "zh": "當時波蘭有國王。昔日國王住在哪裡？看看我身後。"
+      },
+      {
+        "start": 255.78,
+        "end": 262.06,
+        "speaker": "Candidate-city videos",
+        "text": "On the hill is Vavil or in English the royal castle. Of course, the royal castle that you",
+        "zh": "山上是瓦維爾，英文即皇家城堡。當然，你如今"
+      },
+      {
+        "start": 262.06,
+        "end": 269.2,
+        "speaker": "Candidate-city videos",
+        "text": "see now has changed many times in 650 years. What you see today is very different to what",
+        "zh": "看到的皇家城堡，在六百五十年間已多次改變。今天所見，"
+      },
+      {
+        "start": 269.2,
+        "end": 276.54,
+        "speaker": "Candidate-city videos",
+        "text": "the castle looked like before. For example, 300 years ago there was a huge fire and half the",
+        "zh": "與以前很不一樣。例如三百年前發生大火，半座"
+      },
+      {
+        "start": 276.54,
+        "end": 284.96,
+        "speaker": "Candidate-city videos",
+        "text": "castle was destroyed. Can you imagine? Half of the royal castle destroyed. And 150 years ago",
+        "zh": "城堡被毀。能想像嗎？半座皇家城堡被毀。一百五十年前，"
+      },
+      {
+        "start": 284.96,
+        "end": 291.98,
+        "speaker": "Candidate-city videos",
+        "text": "the walls were taken down. Why? Well, because the city was expanding and so building material was",
+        "zh": "城牆又被拆掉。為什麼？因為城市擴張，所有新建築都需要"
+      },
+      {
+        "start": 291.98,
+        "end": 298.32,
+        "speaker": "Candidate-city videos",
+        "text": "needed for all the new buildings and so the walls which had stood for hundreds of years were taken",
+        "zh": "建材，所以屹立數百年的城牆被拆"
+      },
+      {
+        "start": 298.32,
+        "end": 306.03,
+        "speaker": "Candidate-city videos",
+        "text": "down. Now I'm in the main square in Krakow. In the center of the square that building you can",
+        "zh": "了。我現在身處克拉科夫主廣場，廣場中央那座建築，"
+      },
+      {
+        "start": 306.03,
+        "end": 312.61,
+        "speaker": "Candidate-city videos",
+        "text": "see is the old central market. Until about a hundred years ago it used to sell mainly clothes.",
+        "zh": "是舊中央市場。直到大約一百年前，它主要售賣衣服。"
+      },
+      {
+        "start": 312.61,
+        "end": 319.73,
+        "speaker": "Candidate-city videos",
+        "text": "I mean lots of things of course but mainly clothes. But what about now? Well, as Krakow",
+        "zh": "當然也有很多其他商品，但主要是衣服。現在呢？由於克拉科夫"
+      },
+      {
+        "start": 319.73,
+        "end": 326.31,
+        "speaker": "Candidate-city videos",
+        "text": "attracts millions of tourists a year the market sells arts and crafts for tourists. It does sell",
+        "zh": "每年吸引數百萬遊客，市場如今向遊客售賣藝術品及手工藝品。它也有"
+      },
+      {
+        "start": 326.31,
+        "end": 331.83,
+        "speaker": "Candidate-city videos",
+        "text": "other things but arts and crafts are the main attraction and there are lots and lots of",
+        "zh": "其他商品，但主要吸引力是藝術品及手工藝品。這裡還有很多"
+      },
+      {
+        "start": 331.83,
+        "end": 337.07,
+        "speaker": "Candidate-city videos",
+        "text": "restaurants where you can get something to eat and also bars and cafes to get a drink.",
+        "zh": "餐廳可吃東西，以及酒吧和咖啡店可喝飲品。"
+      },
+      {
+        "start": 337.07,
+        "end": 342.25,
+        "speaker": "Candidate-city videos",
+        "text": "The really striking thing is that many of these are underground and under the square.",
+        "zh": "最引人注目的是，很多都設於地底，在廣場下面。"
+      },
+      {
+        "start": 342.91,
+        "end": 351,
+        "speaker": "Candidate-city videos",
+        "text": "What a good use of the space. The second thing we can offer you is culture. Here I am in a district",
+        "zh": "真是善用空間。第二，我們可以提供文化交流。我身處克拉科夫一個叫"
+      },
+      {
+        "start": 351,
+        "end": 358.09,
+        "speaker": "Candidate-city videos",
+        "text": "of Krakow called Novahutah which in English means new factory. As you can see there are lots",
+        "zh": "Nova Huta 的區域，英文意思是「新工廠」。你可以看到這裡有很多"
+      },
+      {
+        "start": 358.09,
+        "end": 365.03,
+        "speaker": "Candidate-city videos",
+        "text": "of factories here and they mainly produce steel. But what about culture? Well, this city was built",
+        "zh": "工廠，主要生產鋼鐵。那文化方面呢？這座城區是"
+      },
+      {
+        "start": 365.03,
+        "end": 371.29,
+        "speaker": "Candidate-city videos",
+        "text": "in 1949 by the communist government and because it was built during that time it has communist",
+        "zh": "共產政府於 1949 年興建的，因而保留那個年代的共產主義"
+      },
+      {
+        "start": 371.29,
+        "end": 377.97,
+        "speaker": "Candidate-city videos",
+        "text": "architecture. Tourists and particularly architecture students from all over the world actually visit",
+        "zh": "建築。世界各地遊客，尤其建築系學生，都會到訪"
+      },
+      {
+        "start": 377.97,
+        "end": 383.91,
+        "speaker": "Candidate-city videos",
+        "text": "here to see the architecture. Isn't it amazing that ugly buildings are now tourist attractions?",
+        "zh": "欣賞這些建築。醜陋建築如今成為旅遊景點，不是很奇妙嗎？"
+      },
+      {
+        "start": 384.63,
+        "end": 388.89,
+        "speaker": "Candidate-city videos",
+        "text": "I hope that you have enjoyed this video and that you will choose Krakow. Goodbye.",
+        "zh": "希望你喜歡這段影片，並選擇克拉科夫。再見。"
+      },
+      {
+        "start": 388.89,
+        "end": 388.9,
+        "speaker": "Narrator",
+        "text": "That is the end of task three. You now have task four. The committee chose Krakow in Poland",
+        "zh": "任務三完結。現在是任務四，委員會選了波蘭的克拉科夫，"
+      }
+    ],
+    "4": [
+      {
+        "start": 0,
+        "end": 109.25,
+        "speaker": "Narrator",
+        "text": "That is the end of task three. You now have task four. The committee chose Krakow in Poland",
+        "zh": "任務三完結。現在是任務四，委員會選了波蘭的克拉科夫，"
+      },
+      {
+        "start": 109.25,
+        "end": 118.09,
+        "speaker": "Narrator",
+        "text": "to be Hong Kong's twin city. Lemmy Chan visited Krakow for three months and has returned to",
+        "zh": "成為香港的友好城市。Lemy Chan 到訪克拉科夫三個月，現已回到"
+      },
+      {
+        "start": 118.09,
+        "end": 125.52,
+        "speaker": "Narrator",
+        "text": "brunch with Charlie to talk about her experiences. Listen to the interview and answer the questions",
+        "zh": "Brunch with Charlie 分享經歷。請聆聽訪問，回答以下"
+      },
+      {
+        "start": 125.52,
+        "end": 135.28,
+        "speaker": "Narrator",
+        "text": "below. Please note you do not need to answer in complete sentences. You now have 30 seconds",
+        "zh": "問題。注意：不必用完整句子作答。你現在有三十秒"
+      },
+      {
+        "start": 135.28,
+        "end": 143.74,
+        "speaker": "Narrator",
+        "text": "to study the task. At the end of the task you will have three minutes to tidy up your answers.",
+        "zh": "閱讀題目。任務結束後，你將有三分鐘整理答案。"
+      },
+      {
+        "start": 175.85,
+        "end": 182.31,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "Right, well it's time for our special guest today. Today I'm very happy to have back",
+        "zh": "現在是今天特別嘉賓的時間。很高興再次邀請到"
+      },
+      {
+        "start": 182.31,
+        "end": 189.97,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "Ms Lemmy Chan from Hong Kong University. Thank you. Now I've never been to Poland or Krakow",
+        "zh": "香港大學的 Lemy Chan。謝謝。我從未去過波蘭或克拉科夫，"
+      },
+      {
+        "start": 189.97,
+        "end": 197.57,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "and I'm sure a lot of our listeners haven't either. So maybe to start with, what were your first",
+        "zh": "相信很多聽眾也一樣。不如先談談，你對克拉科夫的第一"
+      },
+      {
+        "start": 197.57,
+        "end": 204.29,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "impressions of Krakow? Well from the moment I first arrived the people in Krakow were really",
+        "zh": "印象如何？從我剛抵達的一刻起，就覺得當地人非常"
+      },
+      {
+        "start": 204.29,
+        "end": 210.21,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "generous. Right. I mean I lived with a host family you know and they were so generous and",
+        "zh": "慷慨。我住在寄宿家庭，他們很慷慨，"
+      },
+      {
+        "start": 210.21,
+        "end": 217.33,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "so were their friends. In what way? Well I mean everyone invited me into their homes and you know",
+        "zh": "朋友也一樣。怎樣慷慨？大家都邀請我到家中，"
+      },
+      {
+        "start": 217.33,
+        "end": 223.43,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "made me feel just very welcome. It was very different to Hong Kong. I mean here you don't",
+        "zh": "令我覺得非常受歡迎，與香港很不同。在香港，通常不會"
+      },
+      {
+        "start": 223.43,
+        "end": 228.99,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "normally get invited to someone's home. You were saying before we came on air that it can be",
+        "zh": "獲邀到別人家。節目開始前，你說過波蘭可以"
+      },
+      {
+        "start": 228.99,
+        "end": 236.41,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "pretty cold in Poland. So was the weather cold all the time? Sometimes the temperature got down",
+        "zh": "很寒冷。天氣一直很冷嗎？有時氣溫降到"
+      },
+      {
+        "start": 236.41,
+        "end": 244.53,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "to minus 32 degrees. Wow how did you cope? Well actually it wasn't that bad. When you're inside",
+        "zh": "零下三十二度。嘩，你怎樣應付？其實不算很糟，室內"
+      },
+      {
+        "start": 244.53,
+        "end": 250.93,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "the heating's turned on all the time and sometimes it's actually too warm and you have to open a window.",
+        "zh": "暖氣一直開着，有時甚至太熱，要打開窗戶。"
+      },
+      {
+        "start": 251.77,
+        "end": 258.21,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "What? Even when it's minus 32 outside? Yeah exactly and when you are outside you wear",
+        "zh": "什麼？外面零下三十二度也開窗？正是。出外時則穿"
+      },
+      {
+        "start": 258.21,
+        "end": 264.65,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "thermal underwear you know like that special winter underwear. So you're always warm so",
+        "zh": "保暖內衣，就是特別的冬季內衣，於是一直都暖暖的。"
+      },
+      {
+        "start": 264.65,
+        "end": 269.51,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "if you do visit Poland in winter take your thermal underwear that's my advice.",
+        "zh": "所以冬天到波蘭，要帶保暖內衣，這就是我的建議。"
+      },
+      {
+        "start": 270.33,
+        "end": 275.23,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "Well you've heard it here first listeners. So you said your host family were nice.",
+        "zh": "聽眾們，你們在這裡率先聽到這個建議了。你說寄宿家庭很友善，"
+      },
+      {
+        "start": 275.95,
+        "end": 282.91,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "What about people in general? Actually most people were very friendly. Only most? You make it sound",
+        "zh": "一般市民呢？大部分人都很友善。只是大部分？你這樣說好像"
+      },
+      {
+        "start": 282.91,
+        "end": 289.77,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "like some people weren't. No not at all not at all though there was one particular incident.",
+        "zh": "有些人不友善。不是，完全不是，不過有一件特別的事。"
+      },
+      {
+        "start": 290.38,
+        "end": 296.49,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "Oh yes and what happened then? Well I was in a cafe and I was ordering something to drink",
+        "zh": "發生了什麼？我在咖啡店點飲品，"
+      },
+      {
+        "start": 297.04,
+        "end": 299.73,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "and I said to the waiter in Polish I said,",
+        "zh": "我用波蘭語跟侍應說："
+      },
+      {
+        "start": 302.05,
+        "end": 310.63,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "which means in Polish two teas please. And the waiter said, apparently I'd made a grammatical",
+        "zh": "意思是「請給我兩杯茶」。侍應回應，原來我在說「兩」時犯了語法"
+      },
+      {
+        "start": 310.63,
+        "end": 317.05,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "mistake when I said the word for two and he, the waiter I mean, seemed actually quite angry about",
+        "zh": "錯誤；那位侍應似乎真的為此生氣。"
+      },
+      {
+        "start": 317.05,
+        "end": 323.29,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "it. It was like if you are going to speak our language then you must speak it properly.",
+        "zh": "他的態度就像是：「既然要說我們的語言，就一定要說正確。」"
+      },
+      {
+        "start": 324.05,
+        "end": 329.89,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "I was so shocked and embarrassed. There was me trying my best to speak Polish and he was so",
+        "zh": "我又震驚又尷尬。我明明很努力嘗試說波蘭語，他卻這麼"
+      },
+      {
+        "start": 329.89,
+        "end": 336.01,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "intolerant. Apparently everything had to be grammatically perfect. At least I was trying",
+        "zh": "不包容，似乎所有文法都必須完美。至少我有努力"
+      },
+      {
+        "start": 336.01,
+        "end": 342.71,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "to speak the language. Hmm and you were telling me earlier about a big adventure you had on your",
+        "zh": "說他們的語言。嗯，你剛才還提到滑雪旅程中的大冒險。"
+      },
+      {
+        "start": 342.71,
+        "end": 349.17,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "skiing trip. Oh yes and actually this is a better example of how nice the people in Poland are.",
+        "zh": "對，這其實更能說明波蘭人有多友善。"
+      },
+      {
+        "start": 349.97,
+        "end": 356.65,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "Me and the daughter of the host family Julia, we decided to go skiing. Actually we tried to go",
+        "zh": "我和寄宿家庭的女兒 Julia 決定去滑雪。其實前一個"
+      },
+      {
+        "start": 356.65,
+        "end": 363.07,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "the Sunday before but we got this really really slow train on the Sunday morning that stopped",
+        "zh": "星期日已試過去，但早上乘搭了一班非常慢的火車，幾乎每站都停，"
+      },
+      {
+        "start": 363.07,
+        "end": 370.39,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "everywhere. I think it stopped at 52 different stations. So by the time we got there it was",
+        "zh": "我想大概停了五十二個站。結果到達時，"
+      },
+      {
+        "start": 370.39,
+        "end": 377.82,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "too late to ski. So the next Sunday we decided to get the bus instead. And was that better than",
+        "zh": "已太遲，不能滑雪。所以第二個星期日決定改乘巴士。比"
+      },
+      {
+        "start": 377.82,
+        "end": 384.6,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "the train? Yeah much better. We got there by 9 in the morning. So had you ever skied before then?",
+        "zh": "火車好嗎？好得多，早上九點已到。你以前滑過雪嗎？"
+      },
+      {
+        "start": 384.9,
+        "end": 391.98,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "No I hadn't. No neither have I. How did you find it? Well if you've never been skiing",
+        "zh": "沒有。我也沒有。感覺怎樣？從未滑雪的人，"
+      },
+      {
+        "start": 391.98,
+        "end": 397.28,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "there are easy slopes for beginners and children. So I was on the easy slopes in",
+        "zh": "可以用給初學者和小朋友的簡單雪道。所以早上我在簡單雪道，"
+      },
+      {
+        "start": 397.28,
+        "end": 404.18,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "the morning and that was okay. But then after lunch I got on the wrong lift and ended up at the",
+        "zh": "感覺還可以。但午飯後我上錯纜車，結果到了"
+      },
+      {
+        "start": 404.18,
+        "end": 413.48,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "top of a really difficult slope. Oh no. And there was no way down except to ski down. Oh no.",
+        "zh": "一條很難的雪道頂。糟了。除了滑下去，沒有其他下山方法。天啊。"
+      },
+      {
+        "start": 414.16,
+        "end": 421.2,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "And did you fall? Yeah again and again. I thought I was going to die. I was terrified.",
+        "zh": "有跌倒嗎？有，一次又一次。我以為自己會死，非常害怕。"
+      },
+      {
+        "start": 421.96,
+        "end": 427.08,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "Well you're braver than I would have been. I don't know about that. I got to the bottom",
+        "zh": "你比我勇敢多了。我也不知道。我到了坡底，"
+      },
+      {
+        "start": 427.08,
+        "end": 433.54,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "and I didn't ski again. I just sat in the cafe and drank hot chocolate all afternoon.",
+        "zh": "就沒有再滑，整個下午坐在咖啡店喝熱朱古力。"
+      },
+      {
+        "start": 434.42,
+        "end": 440.76,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "So that was your ski adventure. Well actually that wasn't all. So what else happened? Well",
+        "zh": "這就是滑雪冒險？其實還不止。還有什麼？"
+      },
+      {
+        "start": 440.76,
+        "end": 446.56,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "we were on the bus coming back and it was late evening. We were about an hour from Krakow.",
+        "zh": "我們晚上坐巴士回程，離克拉科夫大約還有一小時路程。"
+      },
+      {
+        "start": 447.04,
+        "end": 454.23,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "The weather was really bad. I mean lots of snow and the bus broke down. Oh dear. It wouldn't",
+        "zh": "天氣很差，下很大雪，巴士壞了。糟糕，本來也不是"
+      },
+      {
+        "start": 454.23,
+        "end": 459.53,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "have been that bad but I was actually going to give a talk about Hong Kong to a school in",
+        "zh": "太嚴重，但第二天早上我要到克拉科夫一間學校，"
+      },
+      {
+        "start": 459.53,
+        "end": 465.29,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "Krakow at nine o'clock in the morning the day after on the Monday morning and I really didn't",
+        "zh": "在星期一上午九點做香港主題講座，真的不想"
+      },
+      {
+        "start": 465.29,
+        "end": 472.31,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "want to miss the talk and let everyone down. Oh no. So what happened next? Well as luck would",
+        "zh": "錯過講座、讓大家失望。那後來怎樣？幸好，"
+      },
+      {
+        "start": 472.31,
+        "end": 478.65,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "have it the host family had a cousin who lived nearby and Julia called him and he said he would",
+        "zh": "寄宿家庭有一位住在附近的表親，Julia 打電話給他，他說會"
+      },
+      {
+        "start": 478.65,
+        "end": 485.25,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "help us. And did he? Did you get back on time for your talk? Actually I did and you're not going to",
+        "zh": "幫我們。有幫到嗎？你趕得及回去講座嗎？真的趕到了。你不會"
+      },
+      {
+        "start": 485.25,
+        "end": 492.69,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "believe this and I'm not sure I believe it myself but the cousin was a farmer and after Julia called",
+        "zh": "相信，連我自己也不太相信：那位表親是農夫，Julia 致電後，"
+      },
+      {
+        "start": 492.69,
+        "end": 502.39,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "him we waited and waited and waited and finally he turned up in his tractor. His tractor? Yeah",
+        "zh": "我們等了又等，最後他駕着拖拉機出現。拖拉機？對，"
+      },
+      {
+        "start": 502.39,
+        "end": 509.25,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "and he drove us all the way back to Krakow in his tractor. It turns out the tractors are really",
+        "zh": "他一路駕拖拉機送我們回克拉科夫。原來拖拉機"
+      },
+      {
+        "start": 509.25,
+        "end": 514.93,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "great for travelling in heavy snow. It took us about three hours but we got back to Krakow",
+        "zh": "很適合在大雪中行駛。花了大約三小時，但我們回到了克拉科夫，"
+      },
+      {
+        "start": 514.93,
+        "end": 521.07,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "and I managed to make it in time for my talk. I mean it was really nice of him, the cousin I mean.",
+        "zh": "我也趕得及講座。那位表親真的很好人。"
+      },
+      {
+        "start": 521.67,
+        "end": 526.55,
+        "speaker": "Lemy Chan and Charlie",
+        "text": "Well that's a great story. Okay so thanks again Lemmy for dropping in.",
+        "zh": "真是個好故事。再次感謝 Lemy 抽空來到。"
+      },
+      {
+        "start": 530.39,
+        "end": 539.9,
+        "speaker": "Narrator",
+        "text": "That is the end of task four and of part 3a. You now have three minutes to complete your answers",
+        "zh": "任務四及第三卷甲部完結。你現在有三分鐘完成"
+      },
+      {
+        "start": 539.9,
+        "end": 734.5,
+        "speaker": "Narrator",
+        "text": "to task four and to tidy up all your other answers. Part b. Look at page two of your data file.",
+        "zh": "任務四的答案，並整理其餘所有答案。乙部：請翻開資料檔案第二頁。"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "task": 1,
+      "answer": "history",
+      "explanation": "主持人問 Lemy 在大學修讀什麼，她回答 History，主持人亦立即重複確認。因此 studying 後填 history，意即歷史。中伏位：Hong Kong University 是她就讀的學校，並非學科；委員會工作也不代表她修讀政治。此處要聽清楚直接問答，不能從人物身分或節目主題推斷。",
+      "evidence": "History. Oh yes, sorry, history",
+      "audioTime": 100.88,
+      "audioEnd": 109.84
+    },
+    "2": {
+      "task": 1,
+      "answer": "sister cities / sister city",
+      "explanation": "Lee 博士用 the other name 引出 sister city，即姊妹城市，與 twin city 是同一概念。題目主語為 twin cities，可用複數 sister cities 配合。中伏位：不是指城市有血緣關係；更不是首都或相鄰城市的正式名稱。這題只要求另一稱呼，不必把整段定義抄入。",
+      "evidence": "the other name for a twin city",
+      "audioTime": 136.63,
+      "audioEnd": 142.07
+    },
+    "3": {
+      "task": 1,
+      "answer": "in different countries",
+      "explanation": "Lee 博士明確說兩城 have to be in different countries，主持人再確認不是同一國家，得到肯定。因此 must be 後填 in different countries。中伏位：same country 是主持人的否定式確認，不是要求；也不必一定相鄰，相鄰只是後文法德容易交流的原因，不屬普遍定義。",
+      "evidence": "the two cities have to be in different countries",
+      "audioTime": 154.93,
+      "audioEnd": 160.87
+    },
+    "4": {
+      "task": 1,
+      "answer": "just after World War II / after the Second World War",
+      "explanation": "Lemy 限定談 modern era 的友好城市概念，說始於第二次世界大戰剛結束後。答案可寫 just after World War II。中伏位：不是大戰期間，也不是戰前；題目特別問 modern idea，所以不要引入錄音沒談的更早歷史。after 是關鍵時間關係，單寫 World War II 不夠精確。",
+      "evidence": "started just after World War II",
+      "audioTime": 187.09,
+      "audioEnd": 194.77
+    },
+    "5": {
+      "task": 1,
+      "answer": "fighting each other / enemies",
+      "explanation": "主持人問是否涉及戰時互相交戰的國家，Lemy 確認；原來目的是促進和平及理解。因此 had been 後可填 fighting each other，或名詞 enemies。中伏位：這格描述國家過去的關係，不是現在希望達成的和平；不要填 friends，因為結盟正是為化解戰後敵對情緒。",
+      "evidence": "fighting each other during the war",
+      "audioTime": 223.56,
+      "audioEnd": 228.76
+    },
+    "6": {
+      "task": 1,
+      "answer": "B and F — Germany and France",
+      "explanation": "講者先列出二戰兩方多個國家，再明確說 most common 是法國與德國之間。因此選 B Germany、F France。中伏位：日本、意大利、美英蘇等只是戰爭背景名單；提到的所有國家不能全選。題目限選兩項，必須聽到最高頻率的比較詞 most common 才定位答案。",
+      "evidence": "between France and Germany",
+      "audioTime": 257.8,
+      "audioEnd": 264.42
+    },
+    "7": {
+      "task": 1,
+      "answer": "they are next to each other, so communication is easy",
+      "explanation": "解釋法德最常結盟時，講者從 practical level 說兩國相鄰，所以容易聯繫交流。答案寫相鄰以及方便溝通最完整。中伏位：曾為宿敵解釋和解的歷史意義，但主持人追問 why 後的直接原因是地理便利；不要單寫「兩國受戰爭影響」，那適用很多國家，未能解釋為何它們最多。",
+      "evidence": "next to each other",
+      "audioTime": 276.31,
+      "audioEnd": 282.12
+    },
+    "8": {
+      "task": 1,
+      "answer": "B — Around 5",
+      "explanation": "Lee 博士區分小鎮和大城市：小鎮通常一個，大城市約四至五個；十個已罕見，三十多個是奧地利某小鎮的特殊例子。因此選 B 約五個。中伏位：不要被最突出的 over 30 吸引，題目問 generally，不是紀錄或例外；也不能把小鎮的 one 套用到大城市。",
+      "evidence": "Say four or five",
+      "audioTime": 317.52,
+      "audioEnd": 324.58
+    },
+    "9": {
+      "task": 1,
+      "answer": "language / languages",
+      "explanation": "文化交流的兩個例子直接並列為 language and food，所以其中一格填 language 或 languages。中伏位：這兩格是例子，不是再填 culture 這個已給的目標；銀行業及時裝設計屬下一個商業目標。第 9–10 題可互換，但要涵蓋語言與飲食兩項，不能以廣東話及英語重複語言一類。",
+      "evidence": "the obvious ones are language and food",
+      "audioTime": 346.7,
+      "audioEnd": 352.68
+    },
+    "10": {
+      "task": 1,
+      "answer": "food",
+      "explanation": "與語言並列的第二個文化交流例子是 food，並補充香港有許多美食可分享。因此另一格填 food，這裡是不可數集合名詞。中伏位：不是建議去某一家餐廳，也沒有列某道菜名；不要自行加點心等未在此段說出的例子。兩格的排序可互換，但應保持兩類內容不同。",
+      "evidence": "the obvious ones are language and food",
+      "audioTime": 346.7,
+      "audioEnd": 352.68
+    },
+    "11": {
+      "task": 1,
+      "answer": "business links / commercial links",
+      "explanation": "另一目標由 commerce 引出，隨即明確說 promotion of business links，即促進商業聯繫。題目已有 To promote，故填 business links。中伏位：banking 和 fashion design 是後面支持此目標的例子，不是這格的上位概念；不要把文化交流再填一次，因為題目已把它列為第一目標。",
+      "evidence": "the promotion of business links",
+      "audioTime": 359.6,
+      "audioEnd": 365.4
+    },
+    "12": {
+      "task": 1,
+      "answer": "banking",
+      "explanation": "被問到哪類商業聯繫時，講者先舉香港擅長的 banking，即銀行業。它是 business links 的第一個具體例子。中伏位：不是指個人到銀行存款，也不是泛指有錢；題目分類是行業，填 banking 最準確。第 12–13 題兩行可對調，但須涵蓋銀行業及時裝設計兩個不同領域。",
+      "evidence": "Hong Kong is really good at banking",
+      "audioTime": 365.4,
+      "audioEnd": 377.16
+    },
+    "13": {
+      "task": 1,
+      "answer": "fashion design",
+      "explanation": "另一個令人興奮的領域在相鄰兩段中說成 fashion design，後面亦提到世界時裝設計之都。因此填 fashion design。中伏位：fashion 不是泛指衣服購物，design 點明設計行業；capital 在這裡指某領域的重要城市，不是提供另一個答案。句子跨段時要連續聽，不要漏掉 design。",
+      "evidence": "fashion design",
+      "audioTime": 383.68,
+      "audioEnd": 388.62
+    },
+    "14": {
+      "task": 2,
+      "answer": "10 / ten",
+      "explanation": "委員會招募五名學生及五名一般公眾，總數為 5＋5＝10。題目 Looking for ... more people 問新增總人數，因此填 ten。中伏位：不能只記第一次聽到的 five，也不應把政治人物加進去，因為他們已經選好；這是兩類名額的簡單合計，不是整個委員會最後總人數。",
+      "evidence": "five students and five members of the general public",
+      "audioTime": 84.14,
+      "audioEnd": 96.08
+    },
+    "15": {
+      "task": 2,
+      "answer": "secondary school",
+      "explanation": "主持人問小學生是否可參加，Lee 博士說太年輕，對象是 secondary school students 及 university students。題目已有 students or older，填 secondary school 便表示最低組別。中伏位：primary school 是被排除的提問，不是要求；university 只會錯誤排除本來符合資格的中學生。",
+      "evidence": "secondary school students and university students",
+      "audioTime": 102.68,
+      "audioEnd": 114.64
+    },
+    "16": {
+      "task": 2,
+      "answer": "retired",
+      "explanation": "一般公眾組別申請者必須 retired，即已退休。雖然表格以 Age 作標題，錄音並沒有給確切年齡數字，因此填 retired。中伏位：不要把「長者」自行換成六十或六十五歲；退休是工作狀態，不等於任何固定年齡。答題應忠於錄音，而不是套用社會上常見退休年齡。",
+      "evidence": "you have to be retired",
+      "audioTime": 121.26,
+      "audioEnd": 127.22
+    },
+    "17": {
+      "task": 2,
+      "answer": "do research",
+      "explanation": "退休者有較多時間，但主持人以為是開會，Lee 博士用 No, not really 更正為 do some research。題目 More time to 後填 do research。中伏位：attend meetings 雖聽起來合理，卻被直接否定；要留意更正訊號及之後的明確內容，不可只憑委員會工作常識作答。",
+      "evidence": "time to do some research",
+      "audioTime": 140.1,
+      "audioEnd": 145.34
+    },
+    "18": {
+      "task": 2,
+      "answer": "they have a lot of life experience",
+      "explanation": "講者用 more importantly 引出退休者更重要的優勢：可提供豐富人生經驗。因此第二個原因填 they have a lot of life experience。中伏位：不是有很多工作空閒時間，時間已是上一個原因；也沒有要求具備特定專業資格。life experience 是人生閱歷，保留整個片語比單寫 experience 清楚。",
+      "evidence": "a lot of life experience to offer",
+      "audioTime": 145.92,
+      "audioEnd": 152.6
+    },
+    "19": {
+      "task": 2,
+      "answer": "knowledge of Hong Kong",
+      "explanation": "申請者第一項特質是了解香港，這樣才可與友好城市分享相關知識。因此填 knowledge of Hong Kong。中伏位：香港國籍不是同一要求，稍後反而說任何國籍均可；只需有香港知識，而非政治人物或旅遊專家身分。第 19–20 題兩個特質可互換，但不要填兩個同義的知識描述。",
+      "evidence": "with knowledge of Hong Kong",
+      "audioTime": 165.46,
+      "audioEnd": 171.4
+    },
+    "20": {
+      "task": 2,
+      "answer": "enthusiasm for other cultures",
+      "explanation": "第二項特質是對其他文化有真正熱情，前段說 real enthusiasm for other cultures，之後再重述。因此答案可用 enthusiasm for other cultures。中伏位：不是只熱愛香港文化，因為此處要求願意接觸他國；也不是已懂很多外語，錄音沒有設這項資格。enthusiasm for 是自然搭配。",
+      "evidence": "enthusiasm for cultures for other countries",
+      "audioTime": 184.66,
+      "audioEnd": 190.6
+    },
+    "21": {
+      "task": 2,
+      "answer": "any nationality",
+      "explanation": "被問是否必須來自香港時，Lee 博士否認，說可以是 any nationality，緊接下一段補充居港年期條件。因此填 any nationality。中伏位：不是只有香港人或中國人；不限制國籍不等於完全沒有居住要求，兩格必須一起理解。這格寫國籍開放，下一格寫仍須符合的在港居住條件。",
+      "evidence": "any nationality",
+      "audioTime": 203.24,
+      "audioEnd": 209.56
+    },
+    "22": {
+      "task": 2,
+      "answer": "been living for at least three years / lived for at least three years",
+      "explanation": "錄音規定在香港居住至少三年。題目把 in Hong Kong 放在空格後，must have 後可填 lived for at least three years，完整表示須已在港住滿最低年期。中伏位：at least 包含剛好三年，不是只准三年或超過三年才可；也不是來港旅遊三次。",
+      "evidence": "living in Hong Kong for at least three years",
+      "audioTime": 197.3,
+      "audioEnd": 202.64
+    },
+    "23": {
+      "task": 2,
+      "answer": "online / submit an online application",
+      "explanation": "Lemy 說申請現已開放，應 submitted online，因此提交方法是 online。題目 How 問渠道，可直接填 online。中伏位：電台只是宣傳招募，不代表打電話給主持人報名；也沒有要求郵寄或親身遞交。下一句是截止日期，不要把日期塞進方法欄。",
+      "evidence": "should be submitted online",
+      "audioTime": 222.92,
+      "audioEnd": 232.38
+    },
+    "24": {
+      "task": 2,
+      "answer": "30 June / June 30",
+      "explanation": "Lemy 清楚說截止日期是 the 30th of June，主持人以 end of June 重述並獲確認，因此填六月三十日。中伏位：不是六月十三日；end of June 可作理解，但確切日期比籠統「六月」完整。錄音沒有要求補年份，不要隨意加上現在年份。",
+      "evidence": "The deadline is the 30th of June",
+      "audioTime": 222.92,
+      "audioEnd": 232.38
+    },
+    "25": {
+      "task": 2,
+      "answer": "already been chosen",
+      "explanation": "被問是否也在選政治人物時，Lee 博士說 have already been chosen。題目已有 Politicians have，所以空格填 already been chosen，形成現在完成被動式。中伏位：不是政治人物正在申請，也不是已拒絕參與；already 表示挑選工作完成，與目前招募學生和公眾的狀態不同。",
+      "evidence": "have already been chosen",
+      "audioTime": 247.36,
+      "audioEnd": 254.32
+    },
+    "26": {
+      "task": 2,
+      "answer": "to represent all political parties in Hong Kong",
+      "explanation": "政治人物已選定的原因，是要讓香港所有政黨都有代表，句子承接前段 represent all the。答案可寫 to represent all political parties in Hong Kong。中伏位：不是只選執政或最大政黨，也不是由一般聽眾投票；all 表達公平涵蓋各黨，是這項安排的重點。",
+      "evidence": "political parties in Hong Kong",
+      "audioTime": 254.32,
+      "audioEnd": 260.08
+    },
+    "27": {
+      "task": 3,
+      "answer": "lower-class districts",
+      "explanation": "Maria 說探戈如今被視為高雅舞蹈，卻起源於十九世紀下層階級地區，lower class 與 districts 跨兩段相接。因此填 lower-class districts。中伏位：high class 是現在的形象，不是起源；十九世紀已在題目提供，應填地方或社會背景，不要再抄年代。",
+      "evidence": "lower class districts in the 19th century",
+      "audioTime": 84.36,
+      "audioEnd": 99.57
+    },
+    "28": {
+      "task": 3,
+      "answer": "with other men",
+      "explanation": "探戈早期舞者多為男性，所以男人常 with other men 共舞。題目 Men danced 後填 with other men，介詞 with 清楚指出舞伴。中伏位：不是每人獨舞，也不是只准夫婦共舞；妻子及女友稍後被提到，是解釋她們不在場的原因，而非當時的舞伴。",
+      "evidence": "often danced with other men",
+      "audioTime": 99.57,
+      "audioEnd": 107.18
+    },
+    "29": {
+      "task": 3,
+      "answer": "their wives or girlfriends were in Europe and they came to Argentina alone",
+      "explanation": "許多男性獨自來到阿根廷，妻子或女友仍在歐洲，因此只能不跳舞或與男性跳舞。答案要指出女性伴侶留在歐洲這個情境。中伏位：錄音沒有說探戈禁止女性或男性天生較愛舞蹈；原因是移居時家人分隔兩地，不是舞蹈本身的規定。",
+      "evidence": "were in Europe and they came alone to Argentina",
+      "audioTime": 107.18,
+      "audioEnd": 113.7
+    },
+    "30": {
+      "task": 3,
+      "answer": "the exceptional passion of the football match / atmosphere",
+      "explanation": "Maria 承認世界各地都能看足球，但阿根廷球賽的激情與氣氛無可比擬。因此 Why special 欄應填獨特的 passion 或熱烈氣氛。中伏位：See a game 已列為到訪理由，不能只重複看球賽；也沒有比較票價或聲稱必定勝出，真正強調的是現場感受。",
+      "evidence": "The passion. It's like no other place in the world",
+      "audioTime": 149.94,
+      "audioEnd": 158.6
+    },
+    "31": {
+      "task": 3,
+      "answer": "award-winning beef sandwiches / the best sandwiches in the world",
+      "explanation": "包廂提供牛肉三文治，特別之處是曾得獎、被評為世界最佳三文治。答案宜寫 award-winning beef sandwiches。中伏位：只寫 food 太泛，單寫 beef 又未涵蓋食物形式；題目 Why special 要點出獲獎或最佳品質，不是只說可以在包廂吃東西。",
+      "evidence": "Our beef sandwiches have won prizes",
+      "audioTime": 168.14,
+      "audioEnd": 175.92
+    },
+    "32": {
+      "task": 3,
+      "answer": "the ex-player explains the game while watching it with you",
+      "explanation": "Maria 說見前球員本身並不罕見，真正不同在於他會陪嘉賓看整場比賽並即場講解，讓大家向傳奇球員學習。中伏位：Meet a famous ex-player 已在題目，不應再照抄；也不是與他一起下場踢球或只拿簽名。答案須突出伴看及解說這項深度互動。",
+      "evidence": "the ex-player will spend time with you and explain",
+      "audioTime": 189.55,
+      "audioEnd": 197.37
+    },
+    "33": {
+      "task": 3,
+      "answer": "the capital of Poland",
+      "explanation": "影片介紹克拉科夫約六百五十年前是波蘭首都，當時有國王。因此 was 後填 the capital of Poland。中伏位：題目問歷史身分，不是現在地位；不能因現實首都不同而改成其他城市。答題依照錄音敘述，無須另行查找現在的政治行政資料。",
+      "evidence": "Krakow was the capital of Poland",
+      "audioTime": 240.46,
+      "audioEnd": 248
+    },
+    "34": {
+      "task": 3,
+      "answer": "half the castle was destroyed",
+      "explanation": "三百年前大火燒毀一半皇家城堡，講者重複 Half of the royal castle destroyed 強調破壞程度。答案要保留 half。中伏位：不能寫整座城堡完全燒毀，也不要把一百五十年前拆城牆的事件搬來；表格以年代區分不同改變，兩件事原因各不相同。",
+      "evidence": "Half of the royal castle destroyed",
+      "audioTime": 276.54,
+      "audioEnd": 284.96
+    },
+    "35": {
+      "task": 3,
+      "answer": "the walls were taken down for building materials",
+      "explanation": "一百五十年前城市擴張，需要新建築材料，所以拆除屹立已久的城牆。答案可寫 the walls were taken down，補 for building materials 更完整。中伏位：不是這次又發生火災，也不是擴建城牆；taken down 是拆除，與 put up 建造方向相反，要聽清楚片語動詞。",
+      "evidence": "the walls were taken down",
+      "audioTime": 284.96,
+      "audioEnd": 291.98
+    },
+    "36": {
+      "task": 3,
+      "answer": "mainly sold clothes",
+      "explanation": "直到約一百年前，中央市場主要售賣衣服，錄音用 used to 及 mainly 清楚標示昔日主要貨品。因此填 mainly sold clothes。中伏位：不是只准賣衣服，講者補充也有其他商品；arts and crafts 是現在面向遊客的主打，不能與 Before 欄混淆。",
+      "evidence": "it used to sell mainly clothes",
+      "audioTime": 306.03,
+      "audioEnd": 312.61
+    },
+    "37": {
+      "task": 3,
+      "answer": "sells arts and crafts for tourists",
+      "explanation": "克拉科夫每年吸引大量旅客，因此市場現在主要向遊客售藝術品及手工藝品。答案可寫 sells arts and crafts for tourists。中伏位：只寫 souvenirs 雖接近，但不及 arts and crafts 忠於錄音；衣服是過去主打，題目 Now 需要聽 but what about now 後的轉變。",
+      "evidence": "the market sells arts and crafts for tourists",
+      "audioTime": 319.73,
+      "audioEnd": 326.31
+    },
+    "38": {
+      "task": 3,
+      "answer": "many are underground / under the square",
+      "explanation": "介紹廣場的餐廳、酒吧與咖啡店後，講者指出最特別的是很多位於地下、就在廣場下面。因此填 many are underground。中伏位：不是所有都在地下，many 不等於 all；也不是市場本身搬到地下。these 指剛列出的飲食場所，須追蹤代詞所指。",
+      "evidence": "many of these are underground and under the square",
+      "audioTime": 337.07,
+      "audioEnd": 342.25
+    },
+    "39": {
+      "task": 3,
+      "answer": "new factory",
+      "explanation": "講者直接把 Nova Huta 解釋為英文 new factory，所以空格填這兩詞。中伏位：steel 是那些工廠主要生產的材料，不是本題要求的英語名稱；即使讀者知道別種較精確的地名譯法，聆聽答案仍應依錄音所給的 new factory，不自行改寫。",
+      "evidence": "in English means new factory",
+      "audioTime": 351,
+      "audioEnd": 358.09
+    },
+    "40": {
+      "task": 3,
+      "answer": "the communist government",
+      "explanation": "講者說這個城區由 communist government 於 1949 年建成。題目 Built by 後要施事者，所以填 the communist government。中伏位：1949 是時間，不能代替建造者；也不是遊客或建築學生建造。communist 修飾 government，完整寫出能交代與後面建築風格的關係。",
+      "evidence": "in 1949 by the communist government",
+      "audioTime": 365.03,
+      "audioEnd": 371.29
+    },
+    "41": {
+      "task": 3,
+      "answer": "to see communist architecture",
+      "explanation": "建於共產時期令城區保留相應建築風格，世界各地遊客、尤其建築學生前來觀看。因此理由是 to see communist architecture。中伏位：不是參觀鋼鐵生產，雖然這裡有很多工廠；「醜陋」是講者對建築成為景點的感嘆，不應改成吸引人的現代美感。",
+      "evidence": "here to see the architecture",
+      "audioTime": 377.97,
+      "audioEnd": 383.91
+    },
+    "42": {
+      "task": 4,
+      "answer": "they invited her into their homes and made her feel welcome",
+      "explanation": "Lemy 認為當地人慷慨，因寄宿家庭及朋友都邀請她到家中，令她感到受歡迎。答案最好涵蓋邀請到家與熱情接待。中伏位：generous 在此不一定指送錢或禮物，錄音沒有提物質贈送；她與香港較少獲邀到家作對比，重點是待客方式。",
+      "evidence": "everyone invited me into their homes",
+      "audioTime": 210.21,
+      "audioEnd": 217.33
+    },
+    "43": {
+      "task": 4,
+      "answer": "the heating was on all the time",
+      "explanation": "波蘭室外雖可降至零下三十二度，室內暖氣卻一直開着，有時熱得要開窗，所以不太難受。Inside 欄填 heating was on all the time。中伏位：不能只寫氣溫低，題目問舒適的原因；保暖內衣是室外方法，應放下一格，室內外兩個情境不可互換。",
+      "evidence": "the heating's turned on all the time",
+      "audioTime": 244.53,
+      "audioEnd": 250.93
+    },
+    "44": {
+      "task": 4,
+      "answer": "she wore thermal underwear",
+      "explanation": "外出時她穿 thermal underwear，即保暖內衣，讓身體保持溫暖，所以 Outside 欄填 wore thermal underwear。中伏位：不是一般短袖內衣，也不是室外有暖氣；題目按 inside 與 outside 分開，須把衣物與室外情況配對。不要自行加手套或厚外套等錄音未列的答案。",
+      "evidence": "thermal underwear",
+      "audioTime": 258.21,
+      "audioEnd": 264.65
+    },
+    "45": {
+      "task": 4,
+      "answer": "she made a grammatical mistake when saying “two” in Polish",
+      "explanation": "點兩杯茶時，Lemy 用波蘭語說「兩」出了語法錯誤，侍應因此生氣。答案應指明 grammatical mistake，最好加 the word for two。中伏位：不是她點错飲品或拒絕用波蘭語；錄音中的生氣針對語法正確性，不是茶的數量本身。不要補出字幕未提供的波蘭語原句。",
+      "evidence": "mistake when I said the word for two",
+      "audioTime": 310.63,
+      "audioEnd": 317.05
+    },
+    "46": {
+      "task": 4,
+      "answer": "she was trying her best to speak Polish but he was intolerant",
+      "explanation": "Lemy 覺得不公平，是因她已盡力嘗試說當地語言，侍應卻毫不包容，要求語法完全正確。答案要保留努力與不寬容的對比。中伏位：她沒有說自己的語法其實沒錯，也不是要求侍應改說廣東話；問題在於對學習者缺乏體諒，而非否認語言規則。",
+      "evidence": "trying my best to speak Polish",
+      "audioTime": 324.05,
+      "audioEnd": 329.89
+    },
+    "47": {
+      "task": 4,
+      "answer": "the train was too slow and stopped at too many stations",
+      "explanation": "前一個星期日火車非常慢，停了約五十二站，抵達時已太遲滑雪，所以第二次改乘巴士。答案應把火車慢、多停站及太遲到的後果連結。中伏位：不是火車故障，故障的是後來回程巴士；第二次巴士九點已到，不能把成功抵達時間誤當不乘火車的原因。",
+      "evidence": "really really slow train",
+      "audioTime": 356.65,
+      "audioEnd": 363.07
+    },
+    "48": {
+      "task": 4,
+      "answer": "she took the wrong lift",
+      "explanation": "午飯後，Lemy 上錯滑雪纜車，這是後面遇險的起點。因此其中一格填 took the wrong lift。中伏位：早上在初學者雪道並沒有問題，題目指定 after lunch；不是纜車壞了，也不是自己故意選高難度挑戰。第 48–50 題應按事件鏈涵蓋三個不同發展。",
+      "evidence": "I got on the wrong lift",
+      "audioTime": 397.28,
+      "audioEnd": 404.18
+    },
+    "49": {
+      "task": 4,
+      "answer": "she reached a difficult slope and had to ski down",
+      "explanation": "上錯纜車使她到達很難的雪道頂部，而且只能滑下來。答案宜寫到難坡頂及被迫滑下，補足前一格的後果。中伏位：不是下不了纜車，也不是停在坡頂等待救援；there was no way down except to ski down 表示沒有其他下山方式，必須處理高難度雪道。",
+      "evidence": "top of a really difficult slope",
+      "audioTime": 404.18,
+      "audioEnd": 413.48
+    },
+    "50": {
+      "task": 4,
+      "answer": "she fell again and again",
+      "explanation": "主持人問她有沒有跌倒，她答 again and again，反覆跌倒，並形容害怕得以為會死。此格填 fell repeatedly 最直接。中伏位：terrified 是感受，可補充但不應取代發生的事件；錄音沒有說骨折或受重傷，不能把驚險感受誇大成未交代的醫療後果。",
+      "evidence": "Yeah again and again",
+      "audioTime": 414.16,
+      "audioEnd": 421.2
+    },
+    "51": {
+      "task": 4,
+      "answer": "she did not want to ski again / stopped skiing",
+      "explanation": "到坡底後她沒有再滑雪，整個下午待在咖啡店喝熱朱古力，顯示當時已不想繼續。答案可寫 stopped skiing / did not want to ski again。中伏位：不要把主持人稱她勇敢當成她喜歡滑雪；錄音能支持當次停止，卻不宜擴大成她此後一生永不滑雪的確定承諾。",
+      "evidence": "I didn't ski again",
+      "audioTime": 427.08,
+      "audioEnd": 433.54
+    },
+    "52": {
+      "task": 4,
+      "answer": "she had to give a talk about Hong Kong at a school the next morning",
+      "explanation": "翌日星期一早上九點，她要到克拉科夫一間學校講解香港，不想失約讓大家失望，因此急着回城。答案要包括翌晨的學校講座。中伏位：不是她要上課或趕飛機，也不是當晚九點演講；the day after 和 Monday morning 明確標示時間，不能混淆返程晚上。",
+      "evidence": "give a talk about Hong Kong to a school in Krakow at nine o'clock in the morning",
+      "audioTime": 454.23,
+      "audioEnd": 465.29
+    },
+    "53": {
+      "task": 4,
+      "answer": "Julia called a cousin of the host family who lived nearby",
+      "explanation": "巴士壞後，寄宿家庭剛好有表親住在附近，Julia 打電話求助，他答應幫忙。這是回城方法的第一步。中伏位：致電的人是 Julia，不一定是 Lemy；也不是向警察或巴士公司求助。兩格應一格交代聯络附近表親，一格交代他如何接送，避免兩句都只說有人幫忙。",
+      "evidence": "the host family had a cousin who lived nearby",
+      "audioTime": 472.31,
+      "audioEnd": 478.65
+    },
+    "54": {
+      "task": 4,
+      "answer": "the cousin drove them back in his tractor",
+      "explanation": "表親是農夫，駕拖拉機接她們回克拉科夫；拖拉機適合大雪，約三小時後返抵，趕上翌日講座。答案核心是 in his tractor。中伏位：不是普通汽車、的士或修好巴士；她再三強調 tractor，正是故事出人意表之處。約三小時是路程耗時，不是講座時間。",
+      "evidence": "he drove us all the way back to Krakow in his tractor",
+      "audioTime": 502.39,
+      "audioEnd": 509.25
+    }
+  }
+}

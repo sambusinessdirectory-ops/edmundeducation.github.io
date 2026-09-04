@@ -1,0 +1,22 @@
+.sentence-item{cursor:pointer;border-radius:3px;box-decoration-break:clone;-webkit-box-decoration-break:clone;transition:background-color .15s,box-shadow .15s}
+.sentence-item:hover{background:#efcf8740;box-shadow:0 1px 0 #b18428}
+.sentence-item:focus-visible{background:#efcf8759;outline:2px solid #16727c;outline-offset:3px}
+.sentence-item.is-selected{background:#efcf8773;box-shadow:0 2px 0 #a4761e}
+.sentence-analysis-instruction{font-size:14px;line-height:1.7;color:#415f67;margin:-9px 0 20px}
+.sentence-analysis-panel{position:fixed;z-index:1000;display:flex;flex-direction:column;box-sizing:border-box;width:430px;max-width:calc(100vw - 24px);max-height:min(440px,calc(100dvh - 24px));font:16px/1.75 'Avenir Next','PingFang TC',sans-serif;color:#102b3c;text-align:left;background:#fff9e9;border:1px solid #e8ba46;border-radius:18px;margin:0;box-shadow:0 16px 42px #102b3c29;overflow:hidden}
+.sentence-analysis-panel[hidden]{display:none!important}
+.sentence-analysis-panel>header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px 0 20px;flex-shrink:0}
+.sentence-analysis-panel h2{font-family:inherit;font-size:14px;letter-spacing:.08em;color:#b45b13;margin:0!important}
+.sentence-analysis-close{display:grid;place-items:center;color:#14394d;font:24px/1 sans-serif;width:34px;height:34px;min-height:34px;padding:0;border:0;border-radius:50%;background:#fff;flex-shrink:0;cursor:pointer}
+.sentence-analysis-close:hover{background:#ffefc4}
+.sentence-analysis-close:focus-visible{outline:2px solid #16727c;outline-offset:2px}
+.sentence-analysis-content{padding:4px 20px 20px;overflow-y:auto;overscroll-behavior:contain;overflow-wrap:anywhere;min-height:0}
+.sentence-analysis-content p{font:inherit;line-height:1.75;margin:0 0 12px}
+.sentence-analysis-content .sentence-analysis-location{font-size:12px;font-weight:700;letter-spacing:.04em;line-height:1.6;color:#ad591b;margin-bottom:8px}
+.sentence-analysis-quote{font:600 18px/1.5 Georgia,serif;margin:0 0 12px;padding:0;border:0;background:none;color:#143b52}
+.sentence-analysis-entry+.sentence-analysis-entry{border-top:1px solid #eadcb9;padding-top:12px}
+.sentence-analysis-entry p:last-child{margin-bottom:0}
+.sentence-analysis-content .sentence-analysis-type{display:inline-block;background:#e5f3f2;color:#105c65;font-size:13px;padding:4px 9px;border-radius:6px;font-weight:bold}
+.sentence-analysis-content .sentence-analysis-translation{color:#3b6461}
+@media(prefers-reduced-motion:reduce){.sentence-item{transition:none}}
+@media print{.sentence-analysis-panel,.sentence-analysis-instruction{display:none!important}.sentence-item{background:none!important;box-shadow:none!important;outline:none!important}}

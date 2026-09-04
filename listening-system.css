@@ -281,6 +281,17 @@ audio { width: 100%; min-height: 54px; }
 .dse-no-analysis { margin-top:18px; padding:15px 18px; display:grid; gap:4px; border:1px solid #e6cf83; border-radius:14px; color:#695014; background:#fff8dd; }
 .dse-no-analysis span { line-height:1.5; }
 .dse-transcript .transcript-line { grid-template-columns:minmax(130px,.25fr) minmax(0,1fr); gap:16px; cursor:pointer; }
+.dse-transcript .transcript-line:has(.transcript-line__top) { grid-template-columns:minmax(0,1fr); gap:6px; }
+.dse-transcript .transcript-line__top>div { min-width:0; }
+.dse-transcript .transcript-line__top .dse-speaker { display:block; }
+.dse-study-toolbar { display:flex; flex-wrap:wrap; gap:10px; margin:20px 0; }
+.dse-study-analysis>summary { cursor:pointer; padding:14px 0; font-weight:800; font-size:1.15rem; }
+.dse-study-analysis .listening-analysis-card { scroll-margin-top:100px; }
+.dse-study-analysis .listening-analysis-card p, .dse-study-dialog p { white-space:pre-wrap; overflow-wrap:anywhere; }
+.dse-answer-tools { display:inline-flex; max-width:100%; vertical-align:middle; flex-wrap:wrap; margin:6px 4px; }
+.dse-answer-tools .listening-official-answer { max-width:100%; white-space:normal; overflow-wrap:anywhere; text-align:left; }
+.dse-study-dialog { z-index:1000; max-height:calc(100dvh - 24px); overflow-y:auto; }
+.dse-study-dialog [data-dse-close-analysis] { float:right; width:34px; height:34px; border:1px solid var(--line); border-radius:50%; background:white; cursor:pointer; }
 .dse-speaker { color:var(--teal); }
 .listening-search { margin:0 0 22px; padding:22px; }
 .listening-search form>label { display:block; font-weight:800; color:var(--navy); margin-bottom:10px; }
@@ -477,3 +488,10 @@ button:disabled { cursor:default; opacity:.5; }
 .listening-source-paper details { margin-top: 10px; }
 .listening-source-paper details p { white-space: pre-line; }
 .transcript-row-actions time { color: #596e88; font-variant-numeric: tabular-nums; font-size: .85em; }
+.dse-question-translation { white-space: pre-line; overflow-wrap: anywhere; line-height: 1.9; background: #f1f7fc; color: #344e68; border-left: 3px solid #7ea5ca; border-radius: 6px; padding: 12px 16px; margin: 8px 0 18px; }
+.dse-question-translation p { margin: 6px 0 0; }
+.dse-translated-blank { white-space: nowrap; font-weight: 600; }
+.dse-guide-note { color: #56677b; font-size: .9rem; line-height: 1.7; }
+.dse-answer-replay { margin: 8px 0; }
+.dse-group-answer-number { color: #155668; padding: 6px; }
+.dse-question-translation[hidden] { display: none; }
