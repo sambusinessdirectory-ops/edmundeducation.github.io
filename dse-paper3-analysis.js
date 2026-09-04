@@ -1,4 +1,4 @@
-const DATA = window.EDMUND_DSE_PAPER3_DATA;
+const FULL_READERS = Object.freeze({  "2025-b1": ["/dse-paper3-2025-b1-data-file.html", "完整資料檔案及原題目答題簿"],  "2025-b2": ["/paper3/2025-b2/", "資料檔案、逐字稿及練習；原答題簿待補"],  "2022-b2": ["/paper3/2022-b2/", "九頁資料節錄；來源缺封面、第 3 頁及原答題簿"],  "2020-b2": ["/paper3/2020-b2/", "十頁資料節錄；來源未附封面及原答題簿"],  "2018-b2": ["/paper3/2018-b2/", "資料檔案及原題目答題簿"],  "2017-b1": ["/paper3/2017-b1/", "B1 資料檔案及原題目答題簿"],  "2017-b2": ["/paper3/2017-b2/", "B2 資料檔案及原題目答題簿"],  "2016-b2": ["/paper3/2016-b2/", "資料檔案、評分準則及逐字稿；原答題簿待補"],  "2015-b2": ["/paper3/2015-b2/", "資料檔案、評分準則及逐字稿；原答題簿待補"],  "2013-b1": ["/paper3/2013-b1/", "B1 資料檔案及原題目答題簿"],  "2013-b2": ["/paper3/2013-b2/", "B2 資料檔案及原題目答題簿"],  "2012-b2": ["/paper3/2012-b2/", "資料檔案、評分準則及逐字稿；原答題簿待補"]});function fullReaderFor(year = state.year, level = state.level) {  return FULL_READERS[String(year) + "-" + String(level).toLowerCase()] || null;}function fullReaderLink(year = state.year, level = state.level) {  const reader = fullReaderFor(year, level);  if (!reader) return "";  return '<a class="selection-card is-available" href="' + escapeHtml(reader[0]) + '" style="display:block;text-decoration:none;margin:18px 0;border:2px solid #16727c;background:#e8f3ec"><span class="card-kicker">' + escapeHtml(year + " " + level.toUpperCase()) + ' · SOURCE READER</span><strong style="font-size:clamp(24px,3vw,38px)">Data File 分析 + PP</strong><small>' + escapeHtml(reader[1]) + ' · 原文可選取 · 圖表及插圖 · 中英對照 · 可儲存答案</small><span class="card-status">開啟原文閱讀及練習</span><span class="card-arrow" aria-hidden="true">→</span></a>';}const DATA = window.EDMUND_DSE_PAPER3_DATA;
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-dse-paper3-analysis-session-v1";
 const SORT_KEY = "edmund-dse-paper3-year-sort-v1";
@@ -227,7 +227,7 @@ function resourceFor(year = state.year, level = state.level) {
 }
 
 function hasYearResource(year) {
-  return Number(year) === 2025 || DSE_CONTENT.has(Number(year)) || DATA.levels.some((level) => Boolean(resourceFor(year, level.id)));
+  return DATA.levels.some((level) => Boolean(fullReaderFor(year, level.id))) || DSE_CONTENT.has(Number(year)) || DATA.levels.some((level) => Boolean(resourceFor(year, level.id)));
 }
 
 function hasMaterial(resource, material) {
@@ -352,7 +352,7 @@ function renderLevels() {
     </header>
     ${DSE_CONTENT.has(state.year) ? renderPartBPanel() : ""}
     <div class="selection-grid level-grid">${DATA.levels.map((level) => {
-      const available = (state.year === 2025 && level.id === "b1") || Boolean(resourceFor(state.year, level.id));
+      const available = Boolean(fullReaderFor(state.year, level.id)) || Boolean(resourceFor(state.year, level.id));
       return selectionCard({
         kicker: `${state.year} · PAPER 3`,
         title: level.label,
@@ -363,7 +363,7 @@ function renderLevels() {
       });
     }).join("")}</div>
   </section>`;
-  if (state.year === 2025) elements.screen.querySelector('.screen-section').insertAdjacentHTML('beforeend', b1FullLink() + b2FullLink());
+  elements.screen.querySelector('.screen-section').insertAdjacentHTML('beforeend', DATA.levels.map((level) => fullReaderLink(state.year, level.id)).join(''));
   if (DSE_CONTENT.has(state.year)) bindPartBPlayer();
 }
 
@@ -373,13 +373,13 @@ function b1FullLink() {
 
 function b2FullLink() { return '<a class="selection-card is-available" href="/paper3/2025-b2/" style="display:block;text-decoration:none;margin:18px 0;border:2px solid #16727c;background:#e8f3ec"><span class="card-kicker">2025 B2 · COMPLETE DATA FILE + RECORDING TRANSCRIPT</span><strong style="font-size:clamp(24px,3vw,38px)">Data File 分析 + PP</strong><small>17 頁完整內容 · 原海報插圖及圖表 · 電郵及聊天版面 · 中英對照 · 問答冊待補</small><span class="card-status">開啟完整資料檔、錄音稿及練習區</span><span class="card-arrow" aria-hidden="true">→</span></a>'; } function renderMaterials() {
   const resource = resourceFor();
-  const hasFullB1 = state.year === 2025 && state.level === "b1"; const hasFullB2 = state.year === 2025 && state.level === "b2";
+  const hasFullReader = Boolean(fullReaderFor());
   elements.screen.innerHTML = `<section class="screen-section" aria-labelledby="materials-title">
     <header class="screen-heading">
-      <div><p class="eyebrow">STEP 03 · RESOURCE</p><h2 id="materials-title">${escapeHtml(state.year)} ${escapeHtml(state.level.toUpperCase())}</h2><p>先讀三篇實用文範文，或逐份展開 Data File，理解如何選取、比較和整合資料。</p></div>
-      <div class="screen-counter"><strong>${hasFullB1 || hasFullB2 ? 3 : 2}</strong><span>類教材</span></div>
+      <div><p class="eyebrow">STEP 03 · RESOURCE</p><h2 id="materials-title">${escapeHtml(state.year)} ${escapeHtml(state.level.toUpperCase())}</h2><p>先開啟 Data File 分析 + PP 閱讀原文、圖表及對話，再按本卷提供的教材練習選材與寫作。</p></div>
+      <div class="screen-counter"><strong>${hasFullReader ? 3 : 2}</strong><span>類教材</span></div>
     </header>
-    ${hasFullB1 ? b1FullLink() : hasFullB2 ? b2FullLink() : ""}
+    ${hasFullReader ? fullReaderLink() : ""}
     <div class="selection-grid material-grid">${DATA.materialTypes.map((material) => {
       const available = hasMaterial(resource, material.id);
       const count = material.id === "model-essay" ? resource?.modelEssays?.length : resource?.analysisSections?.length;
@@ -550,7 +550,7 @@ async function handleLogin(event) {
     setConnection("已安全連接", "online");
     showView("library");
     resetToYears({ announce: false });
-    if (/^#2025-b[12]$/.test(location.hash)) { state.year = 2025; state.level = location.hash.slice(-2); state.screen = "materials"; renderLibrary(); }
+    if (/^#\d{4}-b[12]$/.test(location.hash) && fullReaderFor(Number(location.hash.slice(1, 5)), location.hash.slice(-2))) { state.year = Number(location.hash.slice(1, 5)); state.level = location.hash.slice(-2); state.screen = "materials"; renderLibrary(); }
     showToast(`您好，${state.user.name}！`);
   } catch (error) {
     console.warn("DSE Paper 3 login failed", error);
@@ -683,7 +683,7 @@ async function initialise() {
       setConnection("已安全連接", "online");
       showView("library");
       resetToYears({ announce: false });
-    if (/^#2025-b[12]$/.test(location.hash)) { state.year = 2025; state.level = location.hash.slice(-2); state.screen = "materials"; renderLibrary(); }
+    if (/^#\d{4}-b[12]$/.test(location.hash) && fullReaderFor(Number(location.hash.slice(1, 5)), location.hash.slice(-2))) { state.year = Number(location.hash.slice(1, 5)); state.level = location.hash.slice(-2); state.screen = "materials"; renderLibrary(); }
       return;
     }
     setConnection("已連線", "online");
