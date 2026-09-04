@@ -32,7 +32,7 @@ const htmlPages = [
   "complex-questions-system.html",
   "course.html",
   "cre.html",
-  "daily-newsletter.html",
+  "daily-newsletter.html",  "dse-paper3-2025-b1-data-file.html",
   "dse-paper3-analysis.html",
   "dse-paper3-listening-archive.html",
   "english-in-shows-system.html",
