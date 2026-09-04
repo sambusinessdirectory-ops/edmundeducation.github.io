@@ -1,6 +1,6 @@
 import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink, validateReadingAudioTimings } from './reading-comprehension-features.mjs?v=20260829-audio1';
 
-import { DEEP_ANALYSIS_ARTICLES, createDeepAnalysisReader } from './dse-deep-analysis.mjs?v=20260904-punctuation1';
+import { DEEP_ANALYSIS_ARTICLES, createDeepAnalysisReader } from './dse-deep-analysis.mjs?v=20260904-admin-source1';
 let deepReader;
 
 const CONFIG = window.EDMUND_SUPABASE || {};
@@ -546,6 +546,19 @@ function dseDraftKey() {
   return state.data?.questionRevision ? `${base}:${state.data.questionRevision}` : base;
 }
 function saveDseDraft() { if (state.system !== 'dse') return; collectAnswers(); try { localStorage.setItem(dseDraftKey(), JSON.stringify(state.answers)); } catch {} }
+async function verifyDeepAnalysisSourceAdmin() {
+  // A local role flag alone is not proof of administrator identity.
+  // Revalidate the existing Flashcard admin credentials; never store new ones.
+  try {
+    const saved = JSON.parse(sessionStorage.getItem('edmundFlashcardSession') || 'null');
+    if (saved?.role !== 'admin' && saved?.impersonatedByAdmin !== true) return false;
+    const password = sessionStorage.getItem('edmundFlashcardAdminPassword');
+    if (!password) return false;
+    const name = saved.role === 'admin' ? saved.name : 'Sam';
+    const rows = await rpc('flashcard_admin_login', { p_name: name, p_password: password });
+    return Array.isArray(rows) && rows.some(row => row.role === 'admin' && row.name === name);
+  } catch { return false; }
+}
 function openDseDeepAnalysis(number, trigger) {
   if (state.system !== 'dse' || !DEEP_ANALYSIS_ARTICLES.has(ARTICLE_ID)) return;
   const question = state.data.questions.find(q => q.number === number);
@@ -564,7 +577,7 @@ function openDseDeepAnalysis(number, trigger) {
     const part = question.parts?.find(part => name === `q${number}_${part.key}`);
     return `${part?.label ? part.label + ': ' : ''}${state.answers[name] || ''}`;
   }).join('\n');
-  deepReader ||= createDeepAnalysisReader();
+  deepReader ||= createDeepAnalysisReader({ verifySourceAdmin: verifyDeepAnalysisSourceAdmin });
   deepReader.open(state.data, number, state.user.id, answer, trigger);
 }
 function restoreDseDraft() {

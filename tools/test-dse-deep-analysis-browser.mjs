@@ -10,7 +10,7 @@ try {
   const context=await browser.newContext({viewport:{width:1440,height:1000}});
   await context.route('**/*',async route=>{
     const url=new URL(route.request().url());
-    if(url.hostname==='cdn.jsdelivr.net') return route.fulfill({contentType:'application/javascript',body:`window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:{user:{id:'local-test'}}}})},rpc:async(name)=>({data:name==='flashcard_student_session_profile'?[{id:'local-test',name:'Local Test',session_token:'test-only'}]:name==='flashcard_student_login'?[{session_token:'test-only'}]:name.includes('translation')?null:[],error:null})})};`});
+    if(url.hostname==='cdn.jsdelivr.net') return route.fulfill({contentType:'application/javascript',body:`window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:{user:{id:'local-test'}}}})},rpc:async(name)=>({data:name==='flashcard_admin_login'?(window.__sourceAdminAllowed?[{name:'Local Admin',role:'admin'}]:[]):name==='flashcard_student_session_profile'?[{id:'local-test',name:'Local Test',session_token:'test-only'}]:name==='flashcard_student_login'?[{session_token:'test-only'}]:name.includes('translation')?null:[],error:null})})};`});
     if(url.hostname!=='127.0.0.1') return route.abort();
     if(url.pathname==='/reading-comprehension.html') {const response=await route.fetch();return route.fulfill({response,body:(await response.text()).replace(/ integrity="[^"]+"/g,'')});}
     return route.continue();
@@ -30,7 +30,7 @@ try {
   await page.locator('[data-deep-search]').fill('struggle');assert.ok(await page.locator('[data-deep-steps] button').count()>0);
   await page.locator('[data-deep-clear]').click();
   await page.locator('[data-deep-mode=full]').click();assert.equal(await page.locator('.deep-page').count(),6);
-  await page.locator('[data-deep-mode=original]').click();assert.equal(await page.locator('.deep-page img').count(),1);await page.locator('.deep-page img').evaluate(img=>img.decode());
+  assert.equal(await page.locator('[data-deep-mode=original], .deep-original, .deep-furniture, .deep-reader a[href$="/original.pdf"]').count(),0,'Source tools are absent for students');
   await page.locator('[data-deep-close]').click();assert.equal(await page.locator('[name=q2]').inputValue(),'unfortunately');assert.equal(await page.locator('[data-deep-analysis="2"]').evaluate(b=>document.activeElement===b),true);
   await page.locator('[data-deep-analysis="2"]').click();await page.locator('[data-deep-main] .deep-page').waitFor();assert.match(await page.locator('[data-deep-progress-label]').innerText(),/1 \/ 6/);await page.keyboard.press('Escape');
   // Large multiparts and source caveat: no automatic rejection of open answers.
@@ -100,10 +100,37 @@ try {
       }
     }
     if(number===21) assert.match(await page.locator('.deep-comparison').innerText(),/兩條有證據的路線/);
-    await page.locator('.deep-original summary').first().click();
-    await page.locator('.deep-original img').first().evaluate(img=>img.decode());
+    assert.equal(await page.locator('.deep-original, .deep-furniture, [data-deep-mode=original]').count(),0);
     await page.keyboard.press('Escape');
   }
+  // A saved role is insufficient: the server verification must accept it.
+  await page.evaluate(() => {
+    sessionStorage.setItem('edmundFlashcardSession', JSON.stringify({name:'Local Admin',role:'admin'}));
+    sessionStorage.setItem('edmundFlashcardAdminPassword','local-test-only');
+    window.__sourceAdminAllowed=false;
+  });
+  await page.locator('[data-deep-analysis="2"]').click();
+  await page.locator('.deep-page').waitFor();
+  assert.equal(await page.locator('.deep-original, .deep-furniture').count(),0,'Forged or rejected admin session stays hidden');
+  await page.keyboard.press('Escape');
+  await page.evaluate(() => {window.__sourceAdminAllowed=true;});
+  await page.locator('[data-deep-analysis="2"]').click();
+  await page.locator('.deep-original summary').waitFor();
+  assert.equal(await page.locator('.deep-furniture').count(),1);
+  await page.locator('.deep-original summary').click();
+  await page.locator('.deep-original img').evaluate(img=>img.decode());
+  await page.locator('[data-deep-mode=original]').click();
+  await page.locator('.deep-page img').evaluate(img=>img.decode());
+  await page.keyboard.press('Escape');
+  await page.evaluate(() => {window.__sourceAdminAllowed=false;});
+  await page.locator('[data-deep-analysis="2"]').click();
+  await page.locator('.deep-page').waitFor();
+  assert.equal(await page.locator('.deep-original, .deep-furniture, [data-deep-mode=original]').count(),0,'Admin privileges are rechecked on reopening');
+  await page.keyboard.press('Escape');
+  await page.evaluate(() => {
+    sessionStorage.removeItem('edmundFlashcardSession');
+    sessionStorage.removeItem('edmundFlashcardAdminPassword');
+  });
   // A fresh page avoids the successful load cache. First load fails, retry succeeds.
   await page.reload();await page.locator('[data-deep-analysis="2"]').waitFor();
   let failed=false;
