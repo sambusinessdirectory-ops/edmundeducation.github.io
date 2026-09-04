@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
-  <link rel="stylesheet" href="listening-system.css?v=20260904-nativequestions1">
+  <link rel="stylesheet" href="listening-system.css?v=20260904-search1">
 </head>
 <body>
   <a class="skip-link" href="#listening-main">跳至主要內容</a>
@@ -83,12 +83,22 @@
 
     <section class="view" data-view="dse" hidden>
       <section class="section-heading panel"><div><p class="eyebrow">DSE LISTENING</p><h1>DSE Paper 3 Part A 聆聽</h1><p>選擇 2012–2026 年份；可按年份升序或降序排列。</p></div><div class="heading-actions"><label class="sort-control">排列<select data-dse-sort><option value="desc">2026 → 2012</option><option value="asc">2012 → 2026</option></select></label><button class="secondary-button" type="button" data-home>返回選擇</button></div></section>
+      <section class="listening-search panel" data-listening-search="dse" aria-label="搜尋 DSE 聆聽">
+        <form role="search"><label for="dse-listening-search">搜尋題目及錄音稿</label><div class="listening-search-controls"><input id="dse-listening-search" type="search" maxlength="100" autocomplete="off" placeholder="例如 emoji、music、2018…"><button class="primary-button" type="submit">搜尋</button></div></form>
+        <p data-search-status role="status" aria-live="polite">輸入至少 2 個字元，直接前往相關年份及 Task。</p>
+        <div class="listening-search-results" data-search-results hidden></div><button class="secondary-button" type="button" data-search-more hidden>顯示更多結果</button>
+      </section>
       <div class="dse-year-grid" data-dse-year-grid></div>
       <section class="dse-workspace panel" data-dse-workspace hidden aria-labelledby="dse-workspace-title"></section>
     </section>
 
     <section class="view" data-view="ielts" hidden>
       <section class="section-heading panel"><div><p class="eyebrow">IELTS LISTENING</p><h1>選擇 Practice</h1><p>每套練習包括 Part 1、2、3、4 四段錄音。</p></div><div class="heading-actions"><label class="sort-control">排列<select data-sort><option value="asc">Practice 1 → 20</option><option value="desc">Practice 20 → 1</option></select></label><button class="secondary-button" type="button" data-home>返回選擇</button></div></section>
+      <section class="listening-search panel" data-listening-search="ielts" aria-label="搜尋 IELTS 聆聽">
+        <form role="search"><label for="ielts-listening-search">搜尋題目及中英錄音稿</label><div class="listening-search-controls"><input id="ielts-listening-search" type="search" maxlength="100" autocomplete="off" placeholder="輸入主題、單字或片語…"><button class="primary-button" type="submit">搜尋</button></div></form>
+        <p data-search-status role="status" aria-live="polite">輸入至少 2 個字元，直接前往相關 Practice 及 Part。</p>
+        <div class="listening-search-results" data-search-results hidden></div><button class="secondary-button" type="button" data-search-more hidden>顯示更多結果</button>
+      </section>
       <div class="practice-grid" data-practice-grid></div>
     </section>
 
@@ -180,6 +190,6 @@
   <script src="listening-practice-1-analysis.js?v=20260822-1"></script>
   <script src="listening-practice-1-timings.js?v=20260822-1"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
-  <script type="module" src="listening-system.js?v=20260904-nativequestions1"></script>
+  <script type="module" src="listening-system.js?v=20260904-search1"></script>
 </body>
 </html>

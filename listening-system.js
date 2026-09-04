@@ -1,6 +1,7 @@
 import { createListeningStudy } from './listening-study.js?v=20260827-import1';
 import { loadPractice } from './listening-practice-loader.mjs?v=20260827-import1';
 import { answerTokens, nativeBlock, questionNumbers, handleNativeInput, handleMazeClick } from './dse-listening-question-ui.mjs?v=20260904-nativequestions1';
+import { mountListeningSearch } from './listening-search.mjs?v=20260904-search1';
 
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CATALOGUE = window.EDMUND_LISTENING_CATALOG || { practices: [] };
@@ -428,7 +429,7 @@ function renderDseBlock(block) {
   if (native !== null) return native;
   if (block.type === "template") return `<div class="dse-question-block">${replaceDseTokens(block.html)}</div>`;
   if (block.type === "heading") return `<h3 class="dse-question-heading">${escapeHtml(block.text)}</h3>`;
-  if (block.type === "image") return `<figure class="dse-question-image"><a class="dse-figure-link" href="${escapeHtml(block.src)}" target="_blank" rel="noopener" aria-label="${escapeHtml(block.alt)} — 放大原圖（新分頁）"><img src="${escapeHtml(block.src)}" alt="${escapeHtml(block.alt)}" loading="lazy" decoding="async"></a><figcaption>${escapeHtml(block.caption)} <span>按圖放大原圖 ↗</span></figcaption></figure>`;
+  if (block.type === "image") return `<figure class="dse-question-image"><a class="dse-figure-link" href="${escapeHtml(block.src)}" target="_blank" rel="noopener" aria-label="${escapeHtml(block.alt)} — 放大原圖（新分頁）"><img src="${escapeHtml(block.src)}" alt="${escapeHtml(block.alt)}" loading="lazy" decoding="async"></a>${block.caption?`<figcaption>${escapeHtml(block.caption)}</figcaption>`:''}</figure>`;
   if (block.type === "multiple-choice") {
     const saved = state.dseAnswers.get(Number(block.number)) || "";
     return `<article class="dse-multiple-choice"><div class="dse-question-number">${block.number}</div><div><p>${escapeHtml(block.prompt)}</p><div class="listening-options">${block.options.map((option, index) => {
@@ -1011,6 +1012,14 @@ function pauseAllAudio() {
 }
 
 const study = createListeningStudy({ state, rpc, escapeHtml, showView, updateRoute, pauseAllAudio, loadAudioCatalogue, toast: showToast, openPractice });
+document.querySelectorAll('[data-listening-search]').forEach(root=>mountListeningSearch(root,{
+  onOpen(entry){
+    if(entry.section==='dse'){
+      pauseAllAudio();openDseYear(entry.year,entry.part);
+      elements.dseWorkspace.scrollIntoView({behavior:'smooth',block:'start'});
+    }else void openPractice(entry.practice,entry.part);
+  }
+}));
 
 document.addEventListener("click", (event) => {
   if (handleMazeClick(event.target, state.dseAnswers)) {
