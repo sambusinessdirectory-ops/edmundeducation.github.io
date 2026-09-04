@@ -85,7 +85,7 @@ const context = vm.createContext({
   sessionStorage: { removeItem() {} }, testData: data, testAnalysis: analysis, testCatalogue: catalogue,
   testRpc: async (name, args) => { calls.push({ name, args }); return []; }
 });
-const definitions = source.replace(/^import[^\n]+\n/, '').split('el.loginForm.addEventListener("submit", handleLogin);')[0];
+const definitions = source.replace(/^import[^\n]+\n/gm, '').split('el.loginForm.addEventListener("submit", handleLogin);')[0];
 vm.runInContext(definitions, context);
 const run = (code) => vm.runInContext(code, context);
 run('state.data = testData; state.analysis = testAnalysis; state.catalogue = testCatalogue; state.token = "test-only-token"; state.user = {name:"Test",id:"test"}; rpc = testRpc;');

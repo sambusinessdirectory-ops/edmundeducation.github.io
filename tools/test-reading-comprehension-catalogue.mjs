@@ -109,7 +109,7 @@ const context = vm.createContext({
   testCatalogue:catalogue,testRpc:rpc
 });
 const source = await read('reading-comprehension.js');
-vm.runInContext(source.replace(/^import[^\n]+\n/,'').split('el.loginForm.addEventListener("submit", handleLogin);')[0],context);
+vm.runInContext(source.replace(/^import[^\n]+\n/gm,'').split('el.loginForm.addEventListener("submit", handleLogin);')[0],context);
 vm.runInContext(source.match(/^function updateTranslations\(\).*$/m)[0],context);
 const run = code => vm.runInContext(code,context);
 run('state.catalogue=testCatalogue; state.token="test-token"; state.user={name:"Test",id:"test"}; rpc=testRpc;');

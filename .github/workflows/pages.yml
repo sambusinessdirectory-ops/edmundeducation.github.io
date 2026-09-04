@@ -132,6 +132,7 @@ jobs:
       - name: Validate Reading Comprehension catalogue, holds and exercise workflows
         run: |
           node tools/test-reading-comprehension-system.mjs
+          node tools/test-dse-deep-analysis.mjs
           node tools/test-reading-comprehension-enhancements.mjs
           node tools/test-reading-comprehension-catalogue.mjs
           node tools/test-reading-comprehension-audio.mjs
