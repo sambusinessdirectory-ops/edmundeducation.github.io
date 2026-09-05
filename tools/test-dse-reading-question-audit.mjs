@@ -7,9 +7,9 @@ const catalogue = await read('dse-reading-catalogue.json');
 const audit = await read('tools/dse-reading-question-audit.json');
 const entries = catalogue.years.flatMap(year => Object.values(year.sections).filter(Boolean));
 const papers = {};
-assert.equal(entries.length, 43);
-assert.equal(audit.sectionsReviewed, 43);
-assert.equal(audit.questionsReviewed, 985);
+assert.equal(entries.length, 44);
+assert.equal(audit.sectionsReviewed, 44);
+assert.equal(audit.questionsReviewed, 1004);
 assert.deepEqual(audit.unpopulatedYears, []);
 assert.deepEqual(Object.keys(audit.papers).sort(), entries.map(entry => entry.id).sort());
 for (const entry of entries) {

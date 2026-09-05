@@ -26,5 +26,5 @@ assert.equal(row.content.entries.filter(e=>/^paragraphs\/\d+\/text$/.test(e.path
 assert.ok(data.questions.every(q=>!('answer' in q)));
 const year=(await read('dse-reading-catalogue.json')).years.find(y=>y.year===2024);
 assert.equal(year.sections.B2.id,data.id);
-assert.equal(year.sections.A,null);assert.equal(year.sections.B1,null);
+assert.equal(year.sections.A,null);assert.equal(year.sections.B1.id,'dse-2024-b1');
 console.log('DSE 2024 B2: source-complete text, 20 questions, 42 answer fields, mobile tables, original speech bubbles and full translations verified.');

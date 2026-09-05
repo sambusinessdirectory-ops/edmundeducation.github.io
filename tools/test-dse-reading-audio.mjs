@@ -13,14 +13,14 @@ const manifest = context.window.EDMUND_DSE_READING_AUDIO;
 const meta = context.window.EDMUND_DSE_READING_AUDIO_META;
 const data = await articles();
 const expectedIds = data.map(article => article.id).sort();
-assert.equal(data.length, 43);
+assert.equal(data.length, 44);
 assert.ok(expectedIds.includes('dse-2024-b2'));
-assert.ok(!expectedIds.includes('dse-2024-a') && !expectedIds.includes('dse-2024-b1'));
+assert.ok(!expectedIds.includes('dse-2024-a') && expectedIds.includes('dse-2024-b1'));
 assert.ok(Object.keys(manifest).every(id => expectedIds.includes(id)));
 const complete = process.argv.includes('--require-complete');
 if (complete || Object.keys(manifest).length) {
   assert.deepEqual(Object.keys(manifest).sort(), expectedIds);
-  for (const [key, value] of Object.entries({voice:'bf_isabella',language:'en-gb',speed:1.05,sentencePause:0.65,paragraphPause:0.76,sampleRate:24000,complete:true,count:43,catalogueCount:43})) {
+  for (const [key, value] of Object.entries({voice:'bf_isabella',language:'en-gb',speed:1.05,sentencePause:0.65,paragraphPause:0.76,sampleRate:24000,complete:true,count:44,catalogueCount:44})) {
     assert.equal(meta[key], value, `DSE voice recipe: ${key}`);
   }
 }

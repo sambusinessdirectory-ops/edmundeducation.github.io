@@ -1,5 +1,5 @@
 {
-  "version": "20260905-dse-2024-b2",
+  "version": "20260905-dse-2024-b1",
   "years": [
     {
       "year": 2012,
@@ -389,7 +389,15 @@
       "year": 2024,
       "sections": {
         "A": null,
-        "B1": null,
+        "B1": {
+          "id": "dse-2024-b1",
+          "title": "Some Old Hawkers are Still Here",
+          "questionStart": 24,
+          "questionEnd": 42,
+          "questionCount": 19,
+          "version": "20260905-dse-2024-b1",
+          "audio": true
+        },
         "B2": {
           "id": "dse-2024-b2",
           "title": "Bad Science",

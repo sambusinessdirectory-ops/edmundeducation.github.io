@@ -4,10 +4,10 @@ import { articles, inventory, prepareTranslation, sources, sourceHash } from './
 
 const root = new URL('../', import.meta.url);
 const data = await articles();
-assert.equal(data.length, 43);
-assert.deepEqual(data.filter(item => item.year === 2024).map(item => item.id), ['dse-2024-b2']);
-assert.equal(data.reduce((n, item) => n + item.paragraphs.length, 0), 671);
-assert.equal(data.reduce((n, item) => n + item.questions.length, 0), 985);
+assert.equal(data.length, 44);
+assert.deepEqual(data.filter(item => item.year === 2024).map(item => item.id), ['dse-2024-b1', 'dse-2024-b2']);
+assert.equal(data.reduce((n, item) => n + item.paragraphs.length, 0), 685);
+assert.equal(data.reduce((n, item) => n + item.questions.length, 0), 1004);
 for (const article of data) {
   const fields = sources(article);
   assert.equal(new Set(fields.map(item => item.path)).size, fields.length);

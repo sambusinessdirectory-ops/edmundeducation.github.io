@@ -20,8 +20,8 @@
     2026
   ],
   "unpopulatedYears": [],
-  "sectionsReviewed": 43,
-  "questionsReviewed": 985,
+  "sectionsReviewed": 44,
+  "questionsReviewed": 1004,
   "questionsCorrected": 321,
   "papers": {
     "dse-2012-a": {
@@ -644,10 +644,17 @@
       "status": "source-reviewed",
       "source": "Reading 2024 B2.pdf",
       "revision": "20260905-b2-source-verified"
+    },
+    "dse-2024-b1": {
+      "questionsReviewed": 19,
+      "answerGroups": 42,
+      "correctedQuestions": [],
+      "status": "source-reviewed",
+      "source": "DSE 2024 Reading B1 Q and A.pdf",
+      "revision": "20260905-b1-source-verified"
     }
   },
   "unpopulatedSections": [
-    "dse-2024-a",
-    "dse-2024-b1"
+    "dse-2024-a"
   ]
 }
