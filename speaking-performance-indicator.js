@@ -63,6 +63,20 @@
     return { key, value: selections.get(key) };
   }
 
+  function snapshot(root = document) {
+    const indicator = root?.matches?.("[data-performance-indicator]")
+      ? root
+      : root?.querySelector?.("[data-performance-indicator]");
+    if (!indicator) return null;
+    const value = selections.get(indicator.dataset.performanceContext) || normalize(null);
+    const normalized = normalize(value);
+    return Object.freeze({
+      version: 1,
+      content: Object.freeze([...normalized.content]),
+      language: Object.freeze([...normalized.language])
+    });
+  }
+
   function tableHtml(kind, titleEn, titleZh, items, selected) {
     return `
       <section class="performance-table-card performance-${kind}">
@@ -155,5 +169,5 @@
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start, { once: true });
   else start();
 
-  window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR = Object.freeze({ content, language, normalize });
+  window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR = Object.freeze({ content, language, normalize, snapshot });
 })();

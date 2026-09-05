@@ -62,6 +62,18 @@ const SPEAKING_ACCESS_KEYS = new Set([
   ))
 ]);
 
+const PERFORMANCE_CHECKLIST_IDS = Object.freeze({
+  content: new Set([
+    "idea-topic-sentence", "explanation", "example", "conclusion", "contextual-reference"
+  ]),
+  language: new Set([
+    "parallelism-juxtaposition", "rule-of-three", "modal", "comparatives", "contrast",
+    "adjectives-adverbs", "negative-statements", "personification", "reification", "simile",
+    "metaphor", "metonymy-synecdoche", "double-literary-devices", "phrasal-verbs",
+    "concession", "precise-vocabulary"
+  ])
+});
+
 const RECORDING_PUBLIC_FIELDS = [
   "id",
   "student_id",
@@ -74,6 +86,7 @@ const RECORDING_PUBLIC_FIELDS = [
   "size_bytes",
   "duration_ms",
   "client_duration_ms",
+  "performance_checklist",
   "created_at"
 ].join(",");
 
@@ -1833,6 +1846,28 @@ async function queryLifecycleRows(env, state, limit, updatedBefore = "") {
   return rows;
 }
 
+function normalizePerformanceChecklist(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    throw new HttpError(400, "INVALID_PERFORMANCE_CHECKLIST", "Invalid performance checklist");
+  }
+  const keys = Object.keys(value).sort();
+  if (keys.length !== 3 || keys[0] !== "content" || keys[1] !== "language" || keys[2] !== "version" || value.version !== 1) {
+    throw new HttpError(400, "INVALID_PERFORMANCE_CHECKLIST", "Invalid performance checklist");
+  }
+  const normalized = { version: 1, content: [], language: [] };
+  for (const kind of ["content", "language"]) {
+    if (!Array.isArray(value[kind]) || value[kind].length > PERFORMANCE_CHECKLIST_IDS[kind].size) {
+      throw new HttpError(400, "INVALID_PERFORMANCE_CHECKLIST", "Invalid performance checklist");
+    }
+    const ids = value[kind].map(String);
+    if (new Set(ids).size !== ids.length || ids.some(id => !PERFORMANCE_CHECKLIST_IDS[kind].has(id))) {
+      throw new HttpError(400, "INVALID_PERFORMANCE_CHECKLIST", "Invalid performance checklist");
+    }
+    normalized[kind] = ids;
+  }
+  return normalized;
+}
+
 async function parseMultipartUpload(request, env) {
   const contentType = request.headers.get("Content-Type") || "";
   if (!/^multipart\/form-data\s*;/i.test(contentType) || !/boundary=/i.test(contentType)) {
@@ -1884,6 +1919,20 @@ async function parseMultipartUpload(request, env) {
     throw new HttpError(400, "INVALID_IELTS_LOCATION", "IELTS part must be 1-3 and book must be 1-16");
   }
 
+  const checklistValue = singleFormText(form, "performanceChecklist", false);
+  let performanceChecklist = null;
+  if (checklistValue) {
+    if (checklistValue.length > 4096) {
+      throw new HttpError(400, "INVALID_PERFORMANCE_CHECKLIST", "Invalid performance checklist");
+    }
+    try {
+      performanceChecklist = normalizePerformanceChecklist(JSON.parse(checklistValue));
+    } catch (error) {
+      if (error instanceof HttpError) throw error;
+      throw new HttpError(400, "INVALID_PERFORMANCE_CHECKLIST", "Invalid performance checklist");
+    }
+  }
+
   const durationValue = singleFormText(form, "durationMs", false);
   let clientDurationMs = null;
   if (durationValue !== "") {
@@ -1913,6 +1962,7 @@ async function parseMultipartUpload(request, env) {
     partNumber,
     bookNumber,
     clientDurationMs,
+    performanceChecklist,
     durationMs: mp3.durationMs,
     originalFilename: normalizeOriginalFilename(String(file.name || "recording.mp3"))
   };
@@ -2001,11 +2051,20 @@ async function uploadRecording(request, env) {
     size_bytes: upload.bytes.byteLength,
     duration_ms: upload.durationMs,
     client_duration_ms: upload.clientDurationMs,
+    performance_checklist: upload.performanceChecklist,
     sha256_hex: bytesToHex(new Uint8Array(digest)),
     crc32_value: crc32(upload.bytes)
   };
 
   const reservation = await reserveRecordingMetadata(env, metadata);
+  if (reservation.idempotent !== true && metadata.performance_checklist) {
+    try {
+      await setRecordingPerformanceChecklist(env, attemptId, student.id, metadata.performance_checklist);
+    } catch (error) {
+      await cancelRecordingReservation(env, attemptId);
+      throw error;
+    }
+  }
   if (reservation.idempotent === true && reservation.recording?.storage_state === "ready") {
     const existingId = String(reservation.recording.id || "");
     const response = json(
@@ -2282,6 +2341,18 @@ async function reserveRecordingMetadata(env, metadata) {
   return value;
 }
 
+async function setRecordingPerformanceChecklist(env, id, studentId, checklist) {
+  const value = rpcObject(await rpc(env, "speaking_set_recording_performance_checklist", {
+    p_id: id,
+    p_student_id: studentId,
+    p_performance_checklist: checklist
+  }));
+  if (!value || value.ok !== true || !value.recording) {
+    throw new HttpError(502, "CHECKLIST_SAVE_FAILED", "The performance checklist could not be saved");
+  }
+  return value.recording;
+}
+
 async function markRecordingReady(env, id, studentId) {
   const value = rpcObject(await rpc(env, "speaking_mark_recording_ready", {
     p_id: id,
@@ -2419,6 +2490,9 @@ function publicRecording(row, request, includeStudent = false) {
     sizeBytes: Number(row.size_bytes || 0),
     durationMs: Number(row.duration_ms || 0),
     clientDurationMs: row.client_duration_ms === null ? null : Number(row.client_duration_ms),
+    performanceChecklist: row.performance_checklist && typeof row.performance_checklist === "object"
+      ? row.performance_checklist
+      : null,
     createdAt: String(row.created_at || ""),
     downloadUrl: new URL(`/v1/recordings/${id}`, request.url).toString()
   };

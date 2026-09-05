@@ -105,6 +105,7 @@ create table if not exists public.speaking_recording_attempts (
   size_bytes integer not null,
   duration_ms integer not null,
   client_duration_ms integer,
+  performance_checklist jsonb,
   sha256_hex text not null,
   crc32_value bigint not null,
   storage_state text not null default 'uploading',
@@ -145,6 +146,20 @@ create table if not exists public.speaking_recording_attempts (
   check (size_bytes between 512 and 20971520),
   check (duration_ms between 1 and 1800000),
   check (client_duration_ms is null or client_duration_ms between 0 and 1800000),
+  constraint speaking_recordings_performance_checklist_check check (
+    performance_checklist is null
+    or (
+      jsonb_typeof(performance_checklist) = 'object'
+      and performance_checklist ?& array['version', 'content', 'language']
+      and performance_checklist - 'version' - 'content' - 'language' = '{}'::jsonb
+      and performance_checklist -> 'version' = '1'::jsonb
+      and jsonb_typeof(performance_checklist -> 'content') = 'array'
+      and jsonb_array_length(performance_checklist -> 'content') <= 5
+      and jsonb_typeof(performance_checklist -> 'language') = 'array'
+      and jsonb_array_length(performance_checklist -> 'language') <= 16
+      and pg_column_size(performance_checklist) <= 4096
+    )
+  ),
   check (sha256_hex ~ '^[0-9a-f]{64}$'),
   check (crc32_value between 0 and 4294967295),
   constraint speaking_recordings_storage_state_check
@@ -1033,6 +1048,41 @@ begin
       'maxBytes', v_settings.max_storage_bytes_per_student
     )
   );
+end;
+$$;
+
+-- Attach the validated checklist before the reserved MP3 object is uploaded.
+-- Only the private Worker service role can call this function.
+create or replace function public.speaking_set_recording_performance_checklist(
+  p_id uuid,
+  p_student_id uuid,
+  p_performance_checklist jsonb
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_recording public.speaking_recording_attempts%rowtype;
+begin
+  if p_performance_checklist is null then
+    return jsonb_build_object('ok', false, 'code', 'INVALID_PERFORMANCE_CHECKLIST');
+  end if;
+
+  update public.speaking_recording_attempts attempt
+  set performance_checklist = p_performance_checklist,
+      updated_at = clock_timestamp()
+  where attempt.id = p_id
+    and attempt.student_id = p_student_id
+    and attempt.storage_state = 'uploading'
+  returning attempt.* into v_recording;
+
+  if not found then
+    return jsonb_build_object('ok', false, 'code', 'RECORDING_STATE_CONFLICT');
+  end if;
+
+  return jsonb_build_object('ok', true, 'recording', to_jsonb(v_recording));
 end;
 $$;
 
@@ -2004,6 +2054,8 @@ revoke all on function public.speaking_reserve_recording_attempt(
   integer, integer, integer, text, bigint
 )
   from public, anon, authenticated;
+revoke all on function public.speaking_set_recording_performance_checklist(uuid, uuid, jsonb)
+  from public, anon, authenticated;
 revoke all on function public.speaking_mark_recording_ready(uuid, uuid)
   from public, anon, authenticated;
 revoke all on function public.speaking_begin_recording_delete(uuid, uuid)
@@ -2045,6 +2097,8 @@ grant execute on function public.speaking_reserve_recording_attempt(
   uuid, uuid, text, text, text, text, integer, integer, text,
   integer, integer, integer, text, bigint
 )
+  to service_role;
+grant execute on function public.speaking_set_recording_performance_checklist(uuid, uuid, jsonb)
   to service_role;
 grant execute on function public.speaking_mark_recording_ready(uuid, uuid)
   to service_role;

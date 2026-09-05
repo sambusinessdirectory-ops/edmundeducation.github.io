@@ -107,9 +107,76 @@
 
 .admin-recorder-notice .speaking-performance-indicator { margin-top: 22px; }
 
+.attempt-performance-record {
+  grid-column: 1 / -1;
+  overflow: hidden;
+  border: 1px solid rgba(32, 75, 92, .16);
+  border-radius: 16px;
+  background: rgba(247, 251, 251, .88);
+}
+
+.attempt-performance-record > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 13px 15px;
+  color: #173653;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.attempt-performance-record > summary strong {
+  color: #13746d;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.attempt-checklist-grid {
+  display: grid;
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr);
+  gap: 12px;
+  padding: 0 14px 14px;
+}
+
+.attempt-checklist-section {
+  overflow: hidden;
+  border: 1px solid rgba(32, 75, 92, .12);
+  border-radius: 14px;
+  background: #fff;
+}
+
+.attempt-checklist-section > header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 11px 12px;
+  font-size: 12px;
+}
+
+.attempt-checklist-content > header { background: #e6f4e2; }
+.attempt-checklist-language > header { background: #fff0cf; }
+.attempt-checklist-section > header span { color: #13746d; font-weight: 900; letter-spacing: .06em; }
+.attempt-checklist-section > header strong { color: #173653; }
+.attempt-checklist-section ul { margin: 0; padding: 0; list-style: none; }
+.attempt-checklist-section li {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: 7px;
+  border-top: 1px solid rgba(45, 77, 93, .09);
+  padding: 8px 10px;
+  color: #7a858d;
+  font-size: 13px;
+  line-height: 1.4;
+}
+.attempt-checklist-section li > span:first-child { text-align: center; font-weight: 900; }
+.attempt-checklist-section li.is-demonstrated { color: #155f4d; background: #edf9f1; font-weight: 750; }
+
 @media (max-width: 820px) {
   .performance-indicator-heading { align-items: flex-start; flex-direction: column; }
-  .performance-table-grid { grid-template-columns: 1fr; }
+  .performance-table-grid,
+  .attempt-checklist-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 480px) {
@@ -118,4 +185,5 @@
   .performance-table-card td { padding: 10px 9px; }
   .performance-table-card table { font-size: 13px; }
   .performance-indicator-heading p { font-size: 12px; }
+  .attempt-performance-record > summary { align-items: flex-start; flex-direction: column; gap: 4px; }
 }

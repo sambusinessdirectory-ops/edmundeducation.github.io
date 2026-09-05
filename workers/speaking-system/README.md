@@ -190,6 +190,7 @@ returns the existing recording without writing a duplicate Storage object.
 | `part` | for IELTS | `1`-`3`, `Part 1`-`Part 3`, or equivalent hyphenated form |
 | `book` | for IELTS | `1`-`16`, `Book 1`-`Book 16`, or equivalent hyphenated form |
 | `durationMs` | no | Non-negative client timing hint up to 300 seconds; the Worker independently derives the authoritative duration from MP3 frames |
+| `performanceChecklist` | no | JSON snapshot with `version: 1` and validated `content`/`language` item-ID arrays; at most 4 KiB |
 
 Example (placeholder tokens only):
 
@@ -204,6 +205,7 @@ curl --fail-with-body \
   -F 'part=2' \
   -F 'book=1' \
   -F 'durationMs=120000' \
+  -F 'performanceChecklist={"version":1,"content":["idea-topic-sentence"],"language":["precise-vocabulary"]}' \
   "$WORKER_BASE_URL/v1/recordings"
 ```
 
@@ -292,6 +294,8 @@ own historical reflection without reopening restricted study content.
 
 - `GET /v1/recordings?scope=mine&page=1&pageSize=100` — owner list. Each row has
   an authenticated `downloadUrl`; it is not a public or long-lived signed URL.
+  New attempts also return their immutable `performanceChecklist` snapshot so
+  the student and administrator can review the exact Content and Language ticks.
 - `GET /v1/recordings/<attempt-uuid>` — owner/admin playback. Single byte ranges
   are forwarded so audio seeking works. Add `?download=1` for attachment
   disposition.

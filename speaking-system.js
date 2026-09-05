@@ -6308,6 +6308,7 @@
         : context.isDse
         ? `${safeFilePart(state.user.name, "student")}-dse-${state.dseSession?.set?.year || "set"}-${safeFilePart(state.dseSession?.set?.set, "practice")}-part-${context.part}-item-${pad(context.index)}-${now.toISOString().replace(/[:.]/g, "-")}.mp3`
         : `${safeFilePart(state.user.name, "student")}-book-${context.book}-exercise-${pad(context.index)}-${now.toISOString().replace(/[:.]/g, "-")}.mp3`;
+      const performanceChecklist = window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR?.snapshot?.() || null;
       const metadata = {
         exerciseId: context.id,
         exerciseIndex: context.index,
@@ -6316,13 +6317,17 @@
         part: context.part,
         book: context.book,
         durationMs: state.recordedDurationMs,
-        mimeType: "audio/mpeg"
+        mimeType: "audio/mpeg",
+        ...(performanceChecklist ? { performanceChecklist } : {})
       };
       const form = new FormData();
       form.append("file", state.recordedMp3, filename);
       Object.entries(metadata).forEach(([key, value]) => {
-        if (value !== null && value !== undefined && value !== "") form.append(key, String(value));
+        if (typeof value !== "object" && value !== null && value !== undefined && value !== "") {
+          form.append(key, String(value));
+        }
       });
+      if (performanceChecklist) form.append("performanceChecklist", JSON.stringify(performanceChecklist));
       form.append("metadata", JSON.stringify(metadata));
       const maxUploadBytes = Math.max(512, Number(CONFIG.maxUploadBytes || 3 * 1024 * 1024));
       if (state.recordedMp3.size > maxUploadBytes) {
@@ -6394,6 +6399,13 @@
     const parsedExamRecording = typeof EXAM_MODE.parseRecordingExerciseId === "function"
       ? EXAM_MODE.parseRecordingExerciseId(exerciseId)
       : null;
+    const rawPerformanceChecklist = item.performanceChecklist
+      ?? item.performance_checklist
+      ?? item.metadata?.performanceChecklist
+      ?? null;
+    const normalizedPerformanceChecklist = rawPerformanceChecklist && window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR?.normalize
+      ? window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR.normalize(rawPerformanceChecklist)
+      : null;
     return {
       id: String(item.id || item.recordingId || item.key || index),
       studentId: String(item.studentId || item.student_id || ""),
@@ -6409,7 +6421,10 @@
       durationMs: Number(item.durationMs || item.duration_ms || item.metadata?.durationMs || 0),
       size: Number(item.size || item.sizeBytes || item.size_bytes || 0),
       downloadUrl: String(item.downloadUrl || item.download_url || item.fileUrl || item.file_url || item.signedUrl || item.signed_url || ""),
-      filename: String(item.filename || item.fileName || item.file_name || item.originalFilename || item.original_filename || "")
+      filename: String(item.filename || item.fileName || item.file_name || item.originalFilename || item.original_filename || ""),
+      performanceChecklist: normalizedPerformanceChecklist
+        ? { version: 1, content: normalizedPerformanceChecklist.content, language: normalizedPerformanceChecklist.language }
+        : null
     };
   }
 
@@ -6603,6 +6618,32 @@
     return mode?.parts?.reduce((total, part) => total + (part === 1 ? 12 : part === 2 ? 1 : 6), 0) || 0;
   }
 
+  function renderAttemptPerformanceChecklist(attempt) {
+    const checklist = attempt.performanceChecklist;
+    const indicator = window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR;
+    if (!checklist || !indicator?.content || !indicator?.language) return "";
+    const selected = {
+      content: new Set(checklist.content),
+      language: new Set(checklist.language)
+    };
+    const section = (kind, titleEn, titleZh, items) => `
+      <section class="attempt-checklist-section attempt-checklist-${kind}">
+        <header><span>${titleEn}</span><strong>${titleZh} · ${selected[kind].size} / ${items.length}</strong></header>
+        <ul>${items.map(item => `<li class="${selected[kind].has(item.id) ? "is-demonstrated" : ""}"><span aria-hidden="true">${selected[kind].has(item.id) ? "✓" : "—"}</span><span>${escapeHtml(item.label)}</span></li>`).join("")}</ul>
+      </section>`;
+    return `
+      <details class="attempt-performance-record">
+        <summary>
+          <span>進階說話表現指標</span>
+          <strong>內容 ${selected.content.size} / ${indicator.content.length} · 語言 ${selected.language.size} / ${indicator.language.length}</strong>
+        </summary>
+        <div class="attempt-checklist-grid">
+          ${section("content", "CONTENT CHECKLIST", "內容", indicator.content)}
+          ${section("language", "LANGUAGE CHECKLIST", "語言", indicator.language)}
+        </div>
+      </details>`;
+  }
+
   function renderAttemptCard(attempt) {
     const exam = attempt.examRecording;
     const locationLabel = attempt.exam === "learning-practice"
@@ -6627,6 +6668,7 @@
           <button class="attempt-action" type="button" data-attempt-download="${escapeHtml(attempt.id)}">下載 MP3</button>
           <button class="attempt-action danger" type="button" data-attempt-delete="${escapeHtml(attempt.id)}">刪除</button>
         </div>
+        ${renderAttemptPerformanceChecklist(attempt)}
         <div data-attempt-audio-slot></div>
       </article>`;
   }

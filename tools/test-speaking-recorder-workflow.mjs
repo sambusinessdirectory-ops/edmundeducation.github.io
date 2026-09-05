@@ -27,6 +27,9 @@ assert.match(source, /data-download-page-recording/);
 assert.match(source, /儲存這段錄音/);
 assert.match(source, /＋ 再錄一段/);
 assert.match(source, /if \(!\(await preflightRecordingQuota\(\)\)\) return;/, "every new recording must retain the per-student quota preflight");
+assert.match(source, /EDMUND_SPEAKING_PERFORMANCE_INDICATOR\?\.snapshot\?\.\(\)/, "saving a recording must snapshot its current checklist");
+assert.match(source, /form\.append\("performanceChecklist", JSON\.stringify\(performanceChecklist\)\)/, "the snapshot must travel with the recording upload");
+assert.match(source, /function renderAttemptPerformanceChecklist\(attempt\)/, "My Recordings must render the saved checklist");
 
 const part1 = sourceBetween("function renderPart1Exercise(", "function renderPart3Model(");
 assert.ok(part1.indexOf("${renderRecorderCard(exercise)}") < part1.indexOf('<section class="part1-dialogue-stage"'), "Part 1 recorder should be reachable before its long dialogue");
@@ -133,5 +136,8 @@ assert.equal(exerciseMock.classList.contains("has-floating-recorder"), false);
 assert.match(sql, /Ordinary non-exam practice is repeatable/, "ordinary practice recordings must remain repeatable in the database");
 assert.match(worker, /const attemptId = crypto\.randomUUID\(\)/, "each ordinary upload must receive its own recording ID");
 assert.match(worker, /rpc\(env, "speaking_reserve_recording_attempt"/, "uploads must retain the atomic quota reservation");
+assert.match(worker, /rpc\(env, "speaking_set_recording_performance_checklist"/, "the Worker must persist the checklist before uploading audio");
+assert.match(sql, /performance_checklist jsonb/, "recording attempts must store a checklist snapshot");
+assert.match(sql, /speaking_set_recording_performance_checklist/, "the schema must include the private checklist mutation RPC");
 
 console.log("Speaking dynamic floating multi-recording workflow checks passed.");

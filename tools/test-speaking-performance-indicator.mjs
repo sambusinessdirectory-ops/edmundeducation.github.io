@@ -66,6 +66,11 @@ try {
   assert.equal(await page.locator("[data-performance-count=content]").textContent(), "1 / 5");
   assert.equal(await page.locator("[data-performance-count=language]").textContent(), "1 / 16");
   assert.equal(await page.locator("tr.is-checked").count(), 2);
+  assert.deepEqual(
+    await page.evaluate(() => window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR.snapshot()),
+    { version: 1, content: ["idea-topic-sentence"], language: ["precise-vocabulary"] },
+    "The saved-attempt snapshot uses stable checklist IDs"
+  );
 
   await page.evaluate(() => {
     document.querySelector("[data-view-content]").innerHTML = `

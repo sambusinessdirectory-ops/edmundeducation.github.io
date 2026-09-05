@@ -309,6 +309,31 @@ test("learning-practice recordings accept shared-system metadata without IELTS l
   assert.equal(parsed.bookNumber, null);
 });
 
+test("recording upload accepts only validated performance checklist snapshots", async () => {
+  const audio = repeatFrame(40);
+  const makeRequest = checklist => {
+    const form = new FormData();
+    form.append("file", new Blob([audio], { type: "audio/mpeg" }), "practice.mp3");
+    form.append("exerciseId", "learning:sentence:ss1-q1");
+    form.append("exerciseTitle", "Sentence Structure question 1");
+    form.append("exam", "learning-practice");
+    form.append("durationMs", "1000");
+    form.append("performanceChecklist", JSON.stringify(checklist));
+    return new Request("https://worker.example/v1/recordings", { method: "POST", body: form });
+  };
+  const valid = { version: 1, content: ["idea-topic-sentence"], language: ["precise-vocabulary"] };
+  const parsed = await worker.parseMultipartUpload(makeRequest(valid), {});
+  assert.deepEqual(parsed.performanceChecklist, valid);
+  await assert.rejects(
+    worker.parseMultipartUpload(makeRequest({ version: 1, content: ["unknown"], language: [] }), {}),
+    error => error?.status === 400 && error?.code === "INVALID_PERFORMANCE_CHECKLIST"
+  );
+  await assert.rejects(
+    worker.parseMultipartUpload(makeRequest({ version: 1, content: ["idea-topic-sentence", "idea-topic-sentence"], language: [] }), {}),
+    error => error?.status === 400 && error?.code === "INVALID_PERFORMANCE_CHECKLIST"
+  );
+});
+
 test("MP3 inspection accepts a small valid ID3v2 tag and bounded zero padding", () => {
   const audio = repeatFrame(40);
   const tagged = prependId3(audio, 32);
@@ -1507,6 +1532,18 @@ test("upload reserves quota, writes the private object, then marks metadata read
         usage: { fileCount: 1, storageBytes: reservationPayload.p_size_bytes }
       });
     }
+    if (path.endsWith("/rpc/speaking_set_recording_performance_checklist")) {
+      calls.push("save-checklist");
+      const payload = JSON.parse(String(options.body));
+      assert.equal(payload.p_id, reservationPayload.p_id);
+      assert.equal(payload.p_student_id, studentId);
+      assert.deepEqual(payload.p_performance_checklist, {
+        version: 1,
+        content: ["idea-topic-sentence"],
+        language: ["precise-vocabulary"]
+      });
+      return jsonResponse({ ok: true, recording: { id: payload.p_id } });
+    }
     if (path.includes("/storage/v1/object/speaking-recordings/students/") && options.method === "POST") {
       calls.push("storage-put");
       assert.equal(options.headers.get("Content-Type"), "audio/mpeg");
@@ -1531,6 +1568,11 @@ test("upload reserves quota, writes the private object, then marks metadata read
           size_bytes: reservationPayload.p_size_bytes,
           duration_ms: reservationPayload.p_duration_ms,
           client_duration_ms: reservationPayload.p_client_duration_ms,
+          performance_checklist: {
+            version: 1,
+            content: ["idea-topic-sentence"],
+            language: ["precise-vocabulary"]
+          },
           created_at: "2026-07-19T12:34:56Z"
         }
       });
@@ -1548,6 +1590,11 @@ test("upload reserves quota, writes the private object, then marks metadata read
     form.append("part", "2");
     form.append("book", "1");
     form.append("durationMs", "1045");
+    form.append("performanceChecklist", JSON.stringify({
+      version: 1,
+      content: ["idea-topic-sentence"],
+      language: ["precise-vocabulary"]
+    }));
 
     const response = await worker.default.fetch(
       new Request("https://worker.example/v1/recordings", {
@@ -1571,12 +1618,18 @@ test("upload reserves quota, writes the private object, then marks metadata read
     );
 
     assert.equal(response.status, 201);
-    assert.deepEqual(calls, ["student-profile", "access-get", "reserve", "storage-put", "mark-ready"]);
+    assert.deepEqual(calls, ["student-profile", "access-get", "reserve", "save-checklist", "storage-put", "mark-ready"]);
     assert.equal(limiterCalls, 1);
     assert.equal(reservationPayload.p_object_path, `students/${studentId}/${reservationPayload.p_id}.mp3`);
     assert.match(reservationPayload.p_sha256_hex, /^[0-9a-f]{64}$/);
     assert.equal(reservationPayload.p_crc32_value, worker.crc32(audio));
-    assert.equal((await response.json()).recording.durationMs, 1045);
+    const responseBody = await response.json();
+    assert.equal(responseBody.recording.durationMs, 1045);
+    assert.deepEqual(responseBody.recording.performanceChecklist, {
+      version: 1,
+      content: ["idea-topic-sentence"],
+      language: ["precise-vocabulary"]
+    });
   } finally {
     globalThis.fetch = originalFetch;
   }
