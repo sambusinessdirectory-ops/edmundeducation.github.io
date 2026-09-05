@@ -136,6 +136,7 @@ jobs:
           node tools/test-reading-comprehension-enhancements.mjs
           node tools/test-reading-comprehension-catalogue.mjs
           node tools/test-reading-comprehension-audio.mjs
+          node tools/test-dse-reading-2024-b2.mjs
           node tools/test-dse-reading-audio.mjs --require-complete
           node tools/test-reading-translations.mjs
           node tools/test-dse-reading-translations.mjs --complete

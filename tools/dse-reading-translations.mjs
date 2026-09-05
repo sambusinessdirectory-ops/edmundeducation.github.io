@@ -42,7 +42,7 @@ function commonTranslation(source) {
 }
 export async function articles() {
   const catalogue = await json(new URL('dse-reading-catalogue.json', root));
-  const entries = catalogue.years.filter(year => year.year !== 2024).flatMap(year => Object.values(year.sections).filter(Boolean));
+  const entries = catalogue.years.flatMap(year => Object.values(year.sections).filter(Boolean));
   return Promise.all(entries.map(entry => json(new URL(`dse-reading-data/${entry.id}.json`, root))));
 }
 export function prepareTranslation(data, translation) {

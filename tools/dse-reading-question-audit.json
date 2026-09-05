@@ -15,14 +15,13 @@
     2021,
     2022,
     2023,
+    2024,
     2025,
     2026
   ],
-  "unpopulatedYears": [
-    2024
-  ],
-  "sectionsReviewed": 42,
-  "questionsReviewed": 965,
+  "unpopulatedYears": [],
+  "sectionsReviewed": 43,
+  "questionsReviewed": 985,
   "questionsCorrected": 321,
   "papers": {
     "dse-2012-a": {
@@ -637,6 +636,18 @@
       "answerGroups": 42,
       "correctedQuestions": [],
       "status": "source-reviewed"
+    },
+    "dse-2024-b2": {
+      "questionsReviewed": 20,
+      "answerGroups": 42,
+      "correctedQuestions": [],
+      "status": "source-reviewed",
+      "source": "Reading 2024 B2.pdf",
+      "revision": "20260905-b2-source-verified"
     }
-  }
+  },
+  "unpopulatedSections": [
+    "dse-2024-a",
+    "dse-2024-b1"
+  ]
 }

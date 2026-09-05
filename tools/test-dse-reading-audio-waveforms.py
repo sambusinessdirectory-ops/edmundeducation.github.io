@@ -52,7 +52,7 @@ def main():
         assert abs(offset / rate - record["entry"]["duration"]) < 0.002, article["id"]
         count += 1
     print(json.dumps({"recordings": count, "sentencePausesVerified": sentence_pauses,
-                      "paragraphPausesVerified": paragraph_pauses, "complete": count == 42}))
+                      "paragraphPausesVerified": paragraph_pauses, "complete": count == len(batch.load_catalogue(ROOT))}))
 
 
 if __name__ == "__main__":

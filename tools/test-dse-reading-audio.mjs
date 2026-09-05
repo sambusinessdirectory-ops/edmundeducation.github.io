@@ -13,13 +13,14 @@ const manifest = context.window.EDMUND_DSE_READING_AUDIO;
 const meta = context.window.EDMUND_DSE_READING_AUDIO_META;
 const data = await articles();
 const expectedIds = data.map(article => article.id).sort();
-assert.equal(data.length, 42);
-assert.ok(expectedIds.every(id => !id.includes('2024')));
+assert.equal(data.length, 43);
+assert.ok(expectedIds.includes('dse-2024-b2'));
+assert.ok(!expectedIds.includes('dse-2024-a') && !expectedIds.includes('dse-2024-b1'));
 assert.ok(Object.keys(manifest).every(id => expectedIds.includes(id)));
 const complete = process.argv.includes('--require-complete');
 if (complete || Object.keys(manifest).length) {
   assert.deepEqual(Object.keys(manifest).sort(), expectedIds);
-  for (const [key, value] of Object.entries({voice:'bf_isabella',language:'en-gb',speed:1.05,sentencePause:0.65,paragraphPause:0.76,sampleRate:24000,complete:true,count:42,catalogueCount:42})) {
+  for (const [key, value] of Object.entries({voice:'bf_isabella',language:'en-gb',speed:1.05,sentencePause:0.65,paragraphPause:0.76,sampleRate:24000,complete:true,count:43,catalogueCount:43})) {
     assert.equal(meta[key], value, `DSE voice recipe: ${key}`);
   }
 }
@@ -61,4 +62,4 @@ assert.doesNotMatch(page, /class="audio-control"[^>]*data-ielts-only/);
 assert.match(script, /state\.system === 'dse' \? window\.EDMUND_DSE_READING_AUDIO/);
 const sync = script.slice(script.indexOf('function syncWord('), script.indexOf('\n', script.indexOf('function syncWord(')));
 assert.doesNotMatch(sync, /scroll|focus\(/i);
-console.log(`DSE narration: ${Object.keys(manifest).length}/42 published recordings, ${words} aligned words; ${Object.keys(manifest).length ? 'voice recipe and paragraph ranges verified; ' : ''}table-text and no-forced-scroll contracts verified.`);
+console.log(`DSE narration: ${Object.keys(manifest).length}/${data.length} published recordings, ${words} aligned words; ${Object.keys(manifest).length ? 'voice recipe and paragraph ranges verified; ' : ''}table-text and no-forced-scroll contracts verified.`);

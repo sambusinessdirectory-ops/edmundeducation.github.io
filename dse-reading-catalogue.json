@@ -1,5 +1,5 @@
 {
-  "version": "20260904-full-question-audit-1",
+  "version": "20260905-dse-2024-b2",
   "years": [
     {
       "year": 2012,
@@ -390,7 +390,15 @@
       "sections": {
         "A": null,
         "B1": null,
-        "B2": null
+        "B2": {
+          "id": "dse-2024-b2",
+          "title": "Bad Science",
+          "questionStart": 43,
+          "questionEnd": 62,
+          "questionCount": 20,
+          "version": "20260905-dse-2024-b2",
+          "audio": true
+        }
       }
     },
     {

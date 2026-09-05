@@ -1,6 +1,6 @@
 -- DSE translations are separate from IELTS content and contain no marking keys.
 create table public.dse_reading_translations (
-  article_id text primary key check (article_id ~ '^dse-(201[2-9]|202[0-3]|202[56])-(a|b1|b2)$'),
+  article_id text primary key check (article_id ~ '^dse-(201[2-9]|202[0-6])-(a|b1|b2)$'),
   locale text not null default 'zh-Hant' check (locale = 'zh-Hant'),
   source_sha256 text not null check (source_sha256 ~ '^[0-9a-f]{64}$'),
   content jsonb not null check (

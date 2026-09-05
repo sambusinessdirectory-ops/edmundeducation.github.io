@@ -133,7 +133,7 @@ def load_manifest(path: Path) -> tuple[dict, dict]:
 
 def load_catalogue(root: Path) -> list[dict]:
     catalogue = json.loads((root / ("dse-reading-catalogue.json" if SYSTEM == "dse" else "reading-comprehension-catalogue.json")).read_text())
-    rows = ([entry for year in catalogue["years"] if year["year"] != 2024
+    rows = ([entry for year in catalogue["years"]
              for entry in year["sections"].values() if entry] if SYSTEM == "dse" else catalogue["articles"])
     seen, articles = set(), []
     for row in rows:
