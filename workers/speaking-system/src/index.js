@@ -65,7 +65,7 @@ const SPEAKING_ACCESS_KEYS = new Set([
 const PERFORMANCE_CHECKLIST_IDS = Object.freeze({
   content: new Set([
     "idea-topic-sentence", "explanation", "example", "conclusion", "contextual-reference",
-    ...[2,3,4].flatMap(point => ['idea-topic-sentence','explanation','example','conclusion','contextual-reference'].map(id => `point-${point}-${id}`)),
+    ...[2,3,4].flatMap(point => ['idea-topic-sentence','explanation','example','conclusion','contextual-reference','task-response','responding-to-others'].map(id => `point-${point}-${id}`)),
     'task-response', 'responding-to-others'
   ]),
   language: new Set([

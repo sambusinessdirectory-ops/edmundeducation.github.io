@@ -60,7 +60,7 @@ test("portal exposes the complete eight-page Proverb flow and first-card bookmar
   assert.match(html, /TIME SPENT/i);
   assert.match(html, /proverb-system-data\.js\?v=20260807-2/);
   assert.match(html, /shared-answer-comparison\.js\?v=20260812-1/);
-  assert.match(html, /proverb-system\.js\?v=20260829-speaking1/);
+  assert.match(html, /proverb-system\.js\?v=20260906-classroom2/);
   assert.match(html, /<script defer src="shared-speaking-practice\.js\?v=20260829-2"><\/script>/);
   assert.doesNotMatch(html, /<script[^>]+src="[^"]*lamejs/i);
   assert.match(html, /proverb-system\.css/);

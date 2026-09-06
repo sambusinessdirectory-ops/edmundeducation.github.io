@@ -1,3 +1,4 @@
+import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260906-classroom2";
 const CONFIG = window.EDMUND_IDIOM_SYSTEM_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CONTENT = window.EDMUND_IDIOM_SYSTEM_DATA || { version: "missing", lessons: [] };
@@ -1291,7 +1292,7 @@ function setLessonPage(page) {
 
 function currentProgressQuestionId(lesson = getLesson()) {
   if (!lesson || !state.exercise) return "";
-  const questions = state.exercise.correctionMode ? correctionQuestions(lesson) : lesson.questions || [];
+  const questions = orderQuestions(state.exercise.correctionMode ? correctionQuestions(lesson) : lesson.questions || [],{system:'idiom-system',owner:state.user?.id,lessonId:state.lessonId});
   const unresolved = questions.filter((question) => !state.exercise.correctIds.includes(question.id));
   if (state.exercise.correctionMode) return String(unresolved[0]?.id || "");
   const unanswered = unresolved.find((question) => {
@@ -2704,3 +2705,5 @@ initialise().catch((error) => {
   setStatus(elements.loginStatus, "系統未能完成載入，請重新整理頁面。", "error");
   showView("login");
 });
+
+installQuestionOrder({system:'idiom-system',owner:()=>state.user?.id,lessonId:()=>state.lessonId});

@@ -896,3 +896,5 @@ html.edmund-pomodoro-page-locked, html.edmund-pomodoro-page-locked body { overfl
 
   .edmund-pomodoro-header-button { transition: none !important; }
 }
+
+.edmund-music-header-button{display:flex;align-items:center;gap:9px;flex-shrink:0;padding:8px 12px;border:1px solid #c9c5e1;border-radius:12px;background:#f1eff9;color:#514477;font:700 12px system-ui}.edmund-music-header-button>span:first-child{font-size:28px}.edmund-music-header-button small{display:block;font-size:9px;margin-top:3px}@media(max-width:700px){.edmund-music-header-button{padding:5px;font-size:9px}.edmund-music-header-button small{display:none}}

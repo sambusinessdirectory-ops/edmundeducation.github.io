@@ -50,11 +50,11 @@ try {
   await page.locator("[data-performance-indicator]").waitFor();
 
   assert.equal(await page.locator(".performance-table-card").count(), 2);
-  assert.equal(await page.locator("[data-performance-kind=content]").count(), 22);
+  assert.equal(await page.locator("[data-performance-kind=content]").count(), 28);
   assert.equal(await page.locator("[data-performance-kind=language]").count(), 23);
   assert.deepEqual(
     await page.locator(".performance-content tbody tr:not(.performance-point-heading) th").allTextContents(),
-    [...[1,2,3,4].flatMap(() => expectedContent.map((label,index) => `${index + 1}. ${label}`)), "21. Task Response 回應題目", "22. Responding to Others 回應他人"]
+    [...[1,2,3,4].flatMap(() => expectedContent.map((label,index) => `${index + 1}. ${label}`)), "21. Task Response 回應題目", "28. Responding to Others 回應他人"]
   );
   assert.deepEqual(
     await page.locator(".performance-language tbody th").allTextContents(),
@@ -63,7 +63,7 @@ try {
 
   await page.locator("[data-performance-kind=content]").first().check();
   await page.locator("[data-performance-kind=language]").nth(15).check();
-  assert.equal(await page.locator("[data-performance-count=content]").textContent(), "1 / 22");
+  assert.equal(await page.locator("[data-performance-count=content]").textContent(), "1 / 28");
   assert.equal(await page.locator("[data-performance-count=language]").textContent(), "1 / 23");
   assert.equal(await page.locator("tr.is-checked").count(), 2);
   assert.deepEqual(
@@ -129,7 +129,7 @@ try {
   );
   await page.screenshot({ path: "/private/tmp/speaking-indicator-mobile.png", fullPage: true });
   assert.deepEqual(errors, []);
-  console.log("Speaking performance indicator passed: 22 content + 23 language items, live toggles, re-render retention, DSE/IELTS exam scoping and mobile layout.");
+  console.log("Speaking performance indicator passed: 28 content + 23 language items, live toggles, re-render retention, DSE/IELTS exam scoping and mobile layout.");
 } finally {
   await browser.close();
 }

@@ -1,3 +1,4 @@
+import { PAPER3_WRITING_TOPICS } from '../../../paper3-writing-topics.mjs';
 import {
   GRAMMAR_AI_ENGINE,
   GRAMMAR_AI_VERSION,
@@ -60,7 +61,7 @@ const WRITING_IMAGE_ZOOM_TENTHS = new Set([5, 10, 20, 30, 40, 50, 70]);
 const decoder = new TextDecoder("utf-8", { fatal: true });
 const encoder = new TextEncoder();
 const CANONICAL_WRITING_TOPICS = new Map(
-  WRITING_SUBMISSION_TOPIC_CATALOG.map((topic) => [topic.id, topic])
+  [...WRITING_SUBMISSION_TOPIC_CATALOG, ...PAPER3_WRITING_TOPICS].map((topic) => [topic.id, topic])
 );
 
 export default {
@@ -193,6 +194,24 @@ async function route(request, env) {
   }
   if (submissionMatch && request.method === "DELETE") {
     return deleteSubmission(request, env, submissionMatch[1]);
+  }
+  const paper3Match=url.pathname.match(/^\/v1\/paper3\/(20(?:1[2-9]|2[0-6]))\/(b[12])\/(5|6|7|8|9|10)$/);
+  if(paper3Match && request.method==='GET') {
+    const student=await authenticateStudent(request,env);
+    if(!student)throw new HttpError(401,'STUDENT_AUTH_REQUIRED','Please sign in');
+    const id=`fill:paper3-${paper3Match[1]}-${paper3Match[2]}-task-${paper3Match[3]}`;
+    const topic=CANONICAL_WRITING_TOPICS.get(id);
+    if(!topic)throw new HttpError(404,'TOPIC_NOT_FOUND','Task not found');
+    authorizeTopicResource(topic,student);
+    const submission=await rpc(env,'writing_paper3_latest',{p_student_id:student.id,p_topic_id:id});
+    return json({submission:submission?submissionResponse(submission):null},200,request,env);
+  }
+  if (url.pathname === '/v1/admin/feedback-questions' && request.method === 'GET') {
+    const admin = await authenticateAdmin(request, env);
+    if (!admin) throw new HttpError(401, 'ADMIN_AUTH_REQUIRED', 'Please sign in');
+    const offset = Math.max(0, Math.min(100000, Number(url.searchParams.get('offset')) || 0));
+    const questions = await rpc(env, 'writing_feedback_questions_inbox', {p_admin_token:admin.token,p_offset:Math.floor(offset)});
+    return json({questions}, 200, request, env);
   }
   const questionMatch = url.pathname.match(/^\/v1\/(admin\/)?submissions\/([0-9a-f-]{36})\/feedback-questions$/i);
   if (questionMatch && ['GET', 'POST'].includes(request.method)) {
@@ -1173,6 +1192,7 @@ function authorizeTopicResource(resource, student) {
   if (resource === null) return null;
   if (
     !student?.access
+    || (resource.sectionKey === 'dse-paper3' && student.access.dse !== true)
     || !resource.sectionKey
     || student.access[resource.sectionKey] === false
   ) {
@@ -1364,6 +1384,7 @@ function feedbackResponse(row) {
     sentenceStructureLinks: sentenceStructureLinksResponse(row.sentence_structure_links),
     sentenceStructureParts: feedbackStructuredPartsResponse(row.sentence_structure_parts),
     rhetoricalParts: feedbackStructuredPartsResponse(row.rhetorical_parts),
+    extensions: row.extensions || {},
     phrasalVerbParts: feedbackStructuredPartsResponse(row.phrasal_verb_parts),
     writingCommonExpressionParts: feedbackStructuredPartsResponse(row.writing_common_expression_parts),
     rhetoricalCommonExpressionParts: feedbackStructuredPartsResponse(row.rhetorical_common_expression_parts),
@@ -2235,6 +2256,7 @@ async function getSubmissionFeedback(request, env, submissionId) {
     p_student_id: student.id,
     p_submission_id: submissionId.toLowerCase()
   }));
+  if(row) row.extensions = await rpc(env, 'writing_feedback_extensions_get', {p_feedback_id:row.id});
   return json({ feedback: row ? feedbackResponse(row) : null }, 200, request, env);
 }
 
@@ -3046,6 +3068,7 @@ async function getAdminSubmissionFeedback(request, env, submissionId) {
     p_admin_token: admin.token,
     p_submission_id: submissionId.toLowerCase()
   }));
+  if(row) row.extensions = await rpc(env, 'writing_feedback_extensions_get', {p_feedback_id:row.id});
   return json({ feedback: row ? feedbackResponse(row) : null }, 200, request, env);
 }
 
@@ -3062,10 +3085,12 @@ async function putAdminSubmissionFeedback(request, env, submissionId) {
     "TOO_MANY_ADMIN_WRITES",
     "Too many administrator updates; please wait and try again"
   );
-  const payload = normalizeFeedbackPayload(
-    await readLimitedJson(request, MAX_FEEDBACK_BODY_BYTES)
-  );
-  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_save_v5", {
+  const raw = await readLimitedJson(request, MAX_FEEDBACK_BODY_BYTES);
+  const extensions = normalizeFeedbackExtensions(raw.extensions);
+  delete raw.extensions;
+  if (extensions && !raw.overallComment?.trim() && (extensions.idiomParts.length || extensions.proverbParts.length)) raw.overallComment = "請參閱以下學習建議。";
+  const payload = normalizeFeedbackPayload(raw);
+  const saveArgs = {
     p_admin_token: admin.token,
     p_submission_id: submissionId.toLowerCase(),
     p_overall_comment: payload.overallComment,
@@ -3087,6 +3112,9 @@ async function putAdminSubmissionFeedback(request, env, submissionId) {
     p_status: payload.status,
     p_expected_version: payload.expectedVersion,
     p_expected_feedback_id: payload.expectedFeedbackId
+  };
+  const row = singleRow(await rpc(env, extensions === null ? "writing_submission_feedback_admin_save_v5" : "writing_feedback_save_extended", extensions === null ? saveArgs : {
+    p_admin_token:admin.token,p_submission_id:submissionId.toLowerCase(),p_payload:saveArgs,p_extensions:extensions
   }, {
     P4090: {
       status: 409,
@@ -3140,9 +3168,9 @@ async function feedbackQuestions(request, env, submissionId, adminMode) {
     });
     return json({ questions }, 200, request, env);
   }
-  const body = await readLimitedJson(request, 48000);
+  const body = await readLimitedJson(request, MAX_FEEDBACK_BODY_BYTES);
   if (!UUID_RE.test(String(body.id || '')) || typeof body.body !== 'string' || !body.body.trim() || body.body.length > 5000) throw new HttpError(400, 'INVALID_QUESTION', 'Enter a question of up to 5000 characters');
-  if (adminMode ? !UUID_RE.test(String(body.parentId || '')) : !UUID_RE.test(String(body.feedbackId || '')) || typeof body.sectionKey !== 'string' || !/^(overall|final|improved|model|transcriptions|grammar:[0-9]+|fragment:[0-9a-f-]+|enhancement:[a-zA-Z]+:[0-9]+)$/.test(body.sectionKey) || typeof body.sectionLabel !== 'string' || !body.sectionLabel.trim() || body.sectionLabel.length > 250 || typeof body.context !== 'string' || body.context.length > 3000) throw new HttpError(400, 'INVALID_SECTION', 'Invalid feedback section');
+  if (adminMode ? !UUID_RE.test(String(body.parentId || '')) : !UUID_RE.test(String(body.feedbackId || '')) || typeof body.sectionKey !== 'string' || !/^(overall|final|improved|model|transcriptions|grammar:[0-9]+|fragment:[0-9a-f-]+|enhancement:[a-zA-Z]+:[0-9]+)$/.test(body.sectionKey) || typeof body.sectionLabel !== 'string' || !body.sectionLabel.trim() || body.sectionLabel.length > 250 || typeof body.context !== 'string' || body.context.length > 100000) throw new HttpError(400, 'INVALID_SECTION', 'Invalid feedback section');
   await enforceRateLimit(env.GRAMMAR_WRITE_RATE_LIMITER, `feedback-question:${actor.id}`, 'Question service unavailable', 'QUESTION_RATE_LIMIT', 'Please wait a moment before sending another question');
   const question = await rpc(env, adminMode ? 'writing_feedback_question_reply' : 'writing_feedback_question_add', adminMode ? {
     p_submission_id: submissionId, p_admin_token: actor.token, p_id: body.id, p_parent_id: body.parentId, p_body: body.body
@@ -3155,4 +3183,20 @@ async function feedbackQuestions(request, env, submissionId, adminMode) {
     if (env.feedbackWaitUntil) env.feedbackWaitUntil(delivery); else await delivery;
   }
   return json({ question }, 200, request, env);
+}
+
+function normalizeFeedbackExtensions(value) {
+  if(value === undefined) return null;
+  if(!value || !hasOnlyKeys(value,new Set(['idiomParts','proverbParts','moduleLinks']))) throw new HttpError(400,'INVALID_FEEDBACK','Invalid additional feedback');
+  const moduleLinks = {};
+  for(const [kind,path] of Object.entries({phrasal:'phrasal-verb-system.html',idiom:'idiom-system.html',proverb:'proverb-system.html'})) {
+    const links=value.moduleLinks?.[kind] || [];
+    if(!Array.isArray(links)||links.length>100) throw new HttpError(400,'INVALID_FEEDBACK','Invalid module links');
+    moduleLinks[kind]=links.map(link=>{
+      let url;try{url=new URL(link.url,'https://edmundeducation.com/');}catch{throw new HttpError(400,'INVALID_FEEDBACK','Invalid module URL');}
+      if(url.origin!=='https://edmundeducation.com'||url.pathname!=='/'+path||![...url.searchParams.keys()].every(k=>k==='lesson')||!/^[-a-zA-Z0-9_]{1,80}$/.test(url.searchParams.get('lesson')||'')||typeof link.label!=='string'||link.label.length>300) throw new HttpError(400,'INVALID_FEEDBACK','Invalid module URL');
+      return {label:link.label,url:url.pathname.slice(1)+url.search};
+    });
+  }
+  return {idiomParts:normalizeFeedbackStructuredParts(value.idiomParts||[],'idiomParts'),proverbParts:normalizeFeedbackStructuredParts(value.proverbParts||[],'proverbParts'),moduleLinks};
 }

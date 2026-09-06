@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import {webcrypto} from "node:crypto";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
@@ -309,6 +310,8 @@ function createHarness(applicationSource, dataFiles) {
       }),
       exerciseIds: () => Object.keys(writingExercises),
       state: () => practiceState,
+      saveUnfinished:()=>saveUnfinishedWritingPractice(),resumeAttempt:(...args)=>resumeWritingAttempt(...args),resumeRows:()=>writingResumeRows(),
+      clearPractice:()=>{practiceState=null;},
       exercise: () => currentExercise(),
       renderMode: () => renderModePage(currentExercise()),
       renderRound: () => renderPracticeRound(currentExercise()),
@@ -388,6 +391,7 @@ function createHarness(applicationSource, dataFiles) {
   assert.notEqual(injectedSource, applicationSource, "test hooks should replace init() without running the application");
 
   const context = {
+    crypto:webcrypto,
     window,
     document,
     localStorage,
@@ -1682,3 +1686,12 @@ assert.equal(hooks.attemptOutbox().length, 0, "Only a confirmed append may ackno
 assert.match(html, /window\.addEventListener\("online",[\s\S]*?retryWritingAttemptOutbox/, "Pending Writing attempts must retry when connectivity returns");
 
 console.log(`Writing tests passed: safe translation, protected audio tails, speed control, continuation, ${checkedListeningConfigurations} corpus configurations, progress dashboard and attempt log.`);
+
+const resumeHarness=createHarness(source,writingDataFiles);const rh=resumeHarness.hooks;
+rh.setCurrentStudent({id:'resume-student',name:'Resume Student',access:{'ielts-writing':true}});
+const resumeExercise='model-essay-1-ielts-task1-bar-charts';rh.taskOnePathSnapshot(resumeExercise);rh.useExercise(resumeExercise);rh.startMode('blank');
+const round=rh.state();round.screen='practice';round.round=3;round.answers={'p0-s0-b0':'my third-round answer'};round.targetBlankIds=['p0-s0-b0'];round.sentenceKeys=['p0-s0'];round.resultIds=['second-round-result'];rh.saveUnfinished();
+assert.ok(Object.keys(rh.resumeRows()).length,'unfinished round is persisted');rh.clearPractice();rh.resumeAttempt(resumeExercise,'second-round-result');
+assert.equal(rh.state().round,3);assert.equal(rh.state().answers['p0-s0-b0'],'my third-round answer');assert.equal(rh.state().targetBlankIds[0],'p0-s0-b0');
+rh.setCurrentStudent({id:'different-student',name:'Different Student',access:{'ielts-writing':true}});assert.equal(Object.keys(rh.resumeRows()).length,0,'round drafts are isolated by account');
+console.log('Writing third-round recovery preserves answers and remedial targets; account isolation passed.');

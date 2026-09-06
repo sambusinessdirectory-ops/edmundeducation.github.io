@@ -7886,6 +7886,44 @@ Device: concession 讓步
       });
     }
 
+    function writingResumeKey() { return 'edmund-writing-unfinished-v1:'+writingStateAccountKey(); }
+    function writingResumeRows() { const rows=readJson(writingResumeKey(),{});return rows && typeof rows==='object' ? rows : {}; }
+    function saveUnfinishedWritingPractice() {
+      if(!writingStateAccountKey() || !currentExercise()?.id || practiceState?.screen!=='practice')return;
+      practiceState.resumeId ||= crypto.randomUUID();
+      const rows=writingResumeRows();
+      rows[practiceState.resumeId]={exerciseId:currentExercise().id,savedAt:Date.now(),state:JSON.parse(JSON.stringify({...practiceState,listeningPlaying:false}))};
+      // Completed history already lives in the account's progress log.
+      const completed=Object.keys(rows).filter(id=>rows[id].state?.lastResult?.completed).sort((a,b)=>rows[b].savedAt-rows[a].savedAt);
+      completed.slice(50).forEach(id=>delete rows[id]);
+      if(!tryWriteJson(writingResumeKey(),rows)) console.warn('Unfinished writing round could not be saved');
+    }
+    function resumeWritingAttempt(exerciseId,resultId='',resumeId='') {
+      const section=sectionKeyForWritingExercise(exerciseId);if(!section||!canAccess(section))return;
+      const snapshots=Object.values(writingResumeRows()).filter(row=>row.exerciseId===exerciseId);
+      const saved=snapshots.find(row=>resumeId ? row.state.resumeId===resumeId : row.state.resultIds?.includes(resultId));
+      const result=writingPracticeResultsForStudent().find(row=>row.id===resultId);
+      openWritingExerciseById(exerciseId);
+      if(saved){
+        practiceState={...defaultPracticeState(currentExercise()),...saved.state,listeningPlaying:false};
+        if(!practiceState.submitted) practiceState.idleBreakDurationMs=(Number(practiceState.idleBreakDurationMs)||0)+Math.max(0,Date.now()-saved.savedAt);
+        renderExerciseView();return;
+      }
+      const mistakes=Array.isArray(result?.mistakeDetails)?result.mistakeDetails:Array.isArray(result?.mistakes)?result.mistakes:[];
+      if(result&&!result.completed&&mistakes.length){
+        practiceState={...defaultPracticeState(currentExercise()),resumeId:crypto.randomUUID(),resultIds:[resultId],screen:'practice',round:Number(result.round)||1,mode:result.mode||'sentence',difficultyKey:result.difficultyKey||'',selectedParagraphs:normalizeSelectedParagraphs(currentExercise(),result.selectedParagraphs),submitted:true,lastResult:{...result,mistakes}};
+        startNextPracticeRound();
+      }
+    }
+    function renderUnfinishedWritingPractices() {
+      const log=document.querySelector('[data-writing-attempt-log-list]');if(!log)return;
+      let panel=document.querySelector('[data-unfinished-writing]');
+      if(!panel){panel=document.createElement('section');panel.dataset.unfinishedWriting='';log.before(panel);}
+      const rows=Object.values(writingResumeRows()).filter(row=>row.state?.screen==='practice'&&!row.state?.lastResult?.completed&&canAccess(sectionKeyForWritingExercise(row.exerciseId))).sort((a,b)=>b.savedAt-a.savedAt);
+      panel.hidden=!rows.length;
+      panel.innerHTML='<h3>繼續未完成練習</h3>'+rows.map(row=>`<button class="writing-attempt-row" type="button" data-open-writing-attempt="${escapeHtml(row.exerciseId)}" data-writing-resume-id="${escapeHtml(row.state.resumeId)}"><strong>${escapeHtml(exerciseById(row.exerciseId)?.title||row.exerciseId)}</strong><span>繼續第 ${Number(row.state.round)||1} 輪 · ${escapeHtml(modeLabel(row.state.mode))}</span><span>${escapeHtml(exactDateTime(row.savedAt))}</span></button>`).join('');
+    }
+
     function defaultPracticeState(exercise) {
       const defaultDifficulty = practiceDifficultyForExercise(exercise);
       return {
@@ -10046,6 +10084,7 @@ Device: concession 讓步
           <div class="review-actions">
             ${result.mistakes.length ? `<button class="primary-button" type="button" data-next-practice-round>開始第 ${escapeHtml(practiceState.round + 1)} 輪</button>` : ""}
             <button class="secondary-button" type="button" data-restart-practice>重新練習</button>
+            <button class="secondary-button" type="button" data-return-practice-modes>返回段落及難度選擇</button>
             <button class="secondary-button" type="button" data-back-essay>返回文章</button>
           </div>
         </div>
@@ -10171,6 +10210,7 @@ Device: concession 讓步
     }
 
     function renderExerciseView() {
+      saveUnfinishedWritingPractice();
       const panel = document.querySelector("[data-exercise-view]");
       if (!panel) return;
       renderWritingBreadcrumbs();
@@ -10597,6 +10637,8 @@ Device: concession 讓步
       practiceState = {
         ...practiceState,
         screen: "practice",
+        resumeId: crypto.randomUUID(),
+        resultIds: [],
         mode,
         difficultyKey: activeDifficultyKey,
         round: 1,
@@ -10707,6 +10749,7 @@ Device: concession 讓步
         mistakeDetails: mistakes
       });
       if (!resultSaved) return;
+      practiceState.resultIds = [...(practiceState.resultIds || []), result.id];
       if (perfectParagraphIndexes.length) {
         markWritingParagraphsMastered(exercise.id, perfectParagraphIndexes);
       }
@@ -11628,7 +11671,7 @@ Device: concession 讓步
       const canOpenExercise = exerciseExists && sectionKey && canAccess(sectionKey);
       const tagName = canOpenExercise && options.clickable !== false ? "button" : "div";
       const openAttribute = tagName === "button"
-        ? `type="button" data-open-writing-attempt="${escapeHtml(result.exerciseId || "")}"`
+        ? `type="button" data-open-writing-attempt="${escapeHtml(result.exerciseId || "")}" data-writing-result-id="${escapeHtml(result.id || '')}"`
         : "";
       const correct = Math.max(0, Number(result.correct || 0));
       const total = Math.max(0, Number(result.total || 0));
@@ -11662,6 +11705,7 @@ Device: concession 讓步
     }
 
     function renderWritingAttemptLog() {
+      renderUnfinishedWritingPractices();
       const panel = document.querySelector("[data-writing-attempt-log-list]");
       const toggle = document.querySelector("[data-toggle-writing-attempt-log]");
       if (!panel || !toggle) return;
@@ -12104,6 +12148,7 @@ Device: concession 讓步
       });
 
       document.addEventListener("click", async event => {
+        saveUnfinishedWritingPractice();
         const togglePassword = event.target.closest("[data-toggle-password]");
         if (togglePassword) {
           const input = document.querySelector(togglePassword.getAttribute("data-toggle-password"));
@@ -12186,9 +12231,14 @@ Device: concession 讓步
           return;
         }
 
+        if(event.target.closest('[data-return-practice-modes]')) {
+          saveUnfinishedWritingPractice(); stopEssayAudio();
+          practiceState = {...defaultPracticeState(currentExercise()), selectedParagraphs:[...(practiceState?.selectedParagraphs||[])],difficultyKey:practiceState?.difficultyKey||'',selectorOpen:true};
+          renderExerciseView(); return;
+        }
         const writingAttemptButton = event.target.closest("[data-open-writing-attempt]");
         if (writingAttemptButton) {
-          openWritingExerciseById(writingAttemptButton.getAttribute("data-open-writing-attempt") || "");
+          resumeWritingAttempt(writingAttemptButton.getAttribute("data-open-writing-attempt") || "", writingAttemptButton.dataset.writingResultId || '', writingAttemptButton.dataset.writingResumeId || '');
           return;
         }
 
@@ -12653,6 +12703,7 @@ Device: concession 讓步
           ...(practiceState.answers || {}),
           [answerInput.getAttribute("data-answer-id")]: answerInput.value
         };
+        saveUnfinishedWritingPractice();
       });
 
       document.addEventListener("keydown", event => {
@@ -12713,7 +12764,7 @@ Device: concession 讓步
         writingPracticeIdleRound = null;
       });
 
-      window.addEventListener("pagehide", stopAudioForPageInterruption);
+      window.addEventListener("pagehide", () => {saveUnfinishedWritingPractice();stopAudioForPageInterruption();});
       window.addEventListener("online", () => {
         retryWritingAttemptOutbox().catch(error => {
           console.warn("Could not retry Writing attempt outbox after reconnecting:", error);

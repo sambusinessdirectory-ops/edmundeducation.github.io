@@ -6,7 +6,9 @@
     Object.freeze({ id: "explanation", label: "Explanation" }),
     Object.freeze({ id: "example", label: "Example" }),
     Object.freeze({ id: "conclusion", label: "Conclusion" }),
-    Object.freeze({ id: "contextual-reference", label: "Contextual Reference" })
+    Object.freeze({ id: "contextual-reference", label: "Contextual Reference" }),
+    Object.freeze({ id: "task-response", label: "Task Response 回應題目" }),
+    Object.freeze({ id: "responding-to-others", label: "Responding to Others 回應他人" })
   ]);
 
   const content = Object.freeze([
@@ -14,9 +16,7 @@
       id: point === 1 ? item.id : `point-${point}-${item.id}`,
       label: `${['First point', 'Second argument', 'Third argument', 'Fourth argument'][point - 1]} · ${item.label}`,
       point, shortLabel: item.label
-    }))),
-    Object.freeze({ id: 'task-response', label: 'Task Response 回應題目' }),
-    Object.freeze({ id: 'responding-to-others', label: 'Responding to Others 回應他人' })
+    })))
   ]);
 
   const language = Object.freeze([
@@ -101,9 +101,9 @@
             <thead><tr><th scope="col">評估項目</th><th scope="col">做到</th></tr></thead>
             <tbody>
               ${items.map((item, index) => `
-                ${kind === 'content' && index % 5 === 0 ? `<tr class="performance-point-heading"><th colspan="2">${['First point 第一論點', 'Second argument 第二論點', 'Third argument 第三論點', 'Fourth argument 第四論點', 'Overall response 整體回應'][Math.floor(index / 5)]}</th></tr>` : ''}
+                ${kind === 'content' && index % 7 === 0 ? `<tr class="performance-point-heading"><th colspan="2">${['First point 第一論點', 'Second argument 第二論點', 'Third argument 第三論點', 'Fourth argument 第四論點'][Math.floor(index / 7)]}</th></tr>` : ''}
                 <tr class="${selected.includes(item.id) ? "is-checked" : ""}">
-                  <th scope="row"><label for="performance-${kind}-${index}">${kind === "content" && item.point ? ((index % 5) + 1) : index + 1}. ${item.shortLabel || item.label}</label></th>
+                  <th scope="row"><label for="performance-${kind}-${index}">${kind === "content" && item.point ? ((index % 7) + 1) : index + 1}. ${item.shortLabel || item.label}</label></th>
                   <td><input id="performance-${kind}-${index}" type="checkbox" data-performance-kind="${kind}" value="${item.id}" ${selected.includes(item.id) ? "checked" : ""} aria-label="${item.label}"></td>
                 </tr>`).join("")}
             </tbody>
@@ -115,7 +115,7 @@
   function indicatorHtml(value) {
     return `
       <section class="speaking-performance-indicator" data-performance-indicator aria-labelledby="performance-indicator-title">
-        <header class="performance-indicator-heading">
+        <header class="performance-indicator-heading"><button type="button" data-performance-float aria-pressed="false">浮動視窗 ↗</button>
           <div>
             <span>ADVANCED SPEAKING PERFORMANCE INDICATOR</span>
             <h2 id="performance-indicator-title">進階說話表現指標</h2>
@@ -172,6 +172,26 @@
     if (count) count.textContent = `${current[kind].length} / ${kind === "content" ? content.length : language.length}`;
   });
 
+  document.addEventListener("click", event => {
+    const button = event.target.closest("[data-performance-float]");
+    if (!button) return;
+    const panel = button.closest("[data-performance-indicator]");
+    const floating = panel.classList.toggle("is-floating");
+    if(typeof panel.showPopover === 'function') {
+      if(floating){panel.setAttribute('popover','manual');panel.showPopover();}
+      else{panel.hidePopover();panel.removeAttribute('popover');}
+    }
+    button.setAttribute("aria-pressed", String(floating));
+    button.textContent = floating ? "還原面板 ↙" : "浮動視窗 ↗";
+  });
+
+  function mountForSession(container, key, initial = null) {
+    selections.set(key, normalize(initial));
+    container.innerHTML = indicatorHtml(normalize(initial));
+    const indicator = container.querySelector('[data-performance-indicator]');
+    indicator.dataset.performanceContext = key;
+    return indicator;
+  }
   const observer = new MutationObserver(scheduleMount);
   const start = () => {
     const root = document.querySelector("[data-view-content]");
@@ -181,5 +201,5 @@
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start, { once: true });
   else start();
 
-  window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR = Object.freeze({ content, language, normalize, snapshot });
+  window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR = Object.freeze({ content, language, normalize, snapshot, mountForSession });
 })();

@@ -242,6 +242,7 @@ jobs:
           npm ci --prefix tools/email-qa --ignore-scripts
           node tools/test-feedback-questions.mjs
           node tools/test-teaching-improvements.mjs
+          node tools/test-classroom-release.mjs
           node tools/test-email-atomic-submission.mjs
           node tools/test-email-submit-ui.mjs
           node tools/test-email-attempts.mjs

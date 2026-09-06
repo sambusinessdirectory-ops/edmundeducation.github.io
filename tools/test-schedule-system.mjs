@@ -248,7 +248,7 @@ for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 
 }
 
 const homepageCards = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?"/g)];
-assert.equal(homepageCards.length, 60, "homepage must contain all 60 linked category cards, including Eddie Farm and Membership");
+assert.equal(homepageCards.length, 61, "homepage must contain all 61 linked category cards, including Eddie Farm and Membership");
 const homepageCardHrefs = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?" href="([^"]+)"/g)].map(([, href]) => href);
 assert.equal(homepageCardHrefs[58], "eddie-farm.html", "Eddie Farm must be numbered card 59");
 assert.equal(homepageCardHrefs[59], "membership.html", "Membership remains available after Eddie Farm");
@@ -418,7 +418,7 @@ assert.match(scheduleHtml, /data-paste-clipboard-selection/);
 assert.match(scheduleHtml, /data-clear-clipboard-selection/);
 assert.match(scheduleHtml, /clipboard-selection-marquee/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260901-homework-workflow1/);
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260906-classroom2/);
 assert.match(scheduleHtml, /data-celebration-dialog/);
 assert.match(scheduleHtml, /恭喜您，距離成功又更近了!/);
 assert.match(scheduleHtml, /一步一步，<strong data-celebration-name>同學<\/strong> 便會走到目標~/);

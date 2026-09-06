@@ -341,8 +341,8 @@ function createFrontendHarness() {
   vm.runInContext(comparisonSource, context, { filename: "shared-answer-comparison.js" });
 
   const initialisation = /\ninitialise\(\)\.catch\(\(error\) => \{[\s\S]*?\n\}\);\s*$/;
-  assert.match(frontendSource, initialisation, "test harness could not locate the frontend bootstrap");
-  const instrumented = frontendSource.replace(initialisation, `
+  assert.match(frontendSource.replace(/\ninstallQuestionOrder\([^\n]+\n?$/,''), initialisation, "test harness could not locate the frontend bootstrap");
+  const instrumented = "const orderQuestions=questions=>questions;\n"+frontendSource.replace(/^import \{ installQuestionOrder, orderQuestions \}[^\n]+\n/m,'').replace(/\ninstallQuestionOrder\([^\n]+\n?$/,'').replace(initialisation, `
 window.__IDIOM_RUNTIME_TEST__ = {
   state, elements, LESSON_PAGES, EXERCISE_PAGE,
   getLesson, getQuestion, createExercise, exerciseFromAttempt,

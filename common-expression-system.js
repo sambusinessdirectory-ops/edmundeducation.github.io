@@ -1,3 +1,4 @@
+import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260906-classroom2";
 const ROOT = document.documentElement;
 const BODY = document.body;
 const CONFIG = window.EDMUND_COMMON_EXPRESSION_CONFIG || {};
@@ -1178,7 +1179,7 @@ async function submitAnswers({ all = false } = {}) {
   updateDraftsFromFields();
   const record = lessonState(lesson.id);
   if (all) {
-    const firstBlank = lesson.questions.find((question) => record.answers[question.id]?.correct !== true && !answerIsPresent(record.answers[question.id]?.answer, question));
+    const firstBlank = orderQuestions(lesson.questions,{system:SYSTEM.key || location.pathname,owner:state.user?.id,lessonId:state.lessonId}).find((question) => record.answers[question.id]?.correct !== true && !answerIsPresent(record.answers[question.id]?.answer, question));
     if (firstBlank) {
       const selector = dialogueQuestionParts(firstBlank)
         ? `[data-answer-field][data-question-id="${CSS.escape(firstBlank.id)}"][data-dialogue-speaker="b"]`
@@ -1468,3 +1469,5 @@ async function initialise() {
 }
 
 initialise();
+
+installQuestionOrder({system:SYSTEM.key || location.pathname,owner:()=>state.user?.id,lessonId:()=>state.lessonId});

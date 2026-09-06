@@ -2166,13 +2166,14 @@
     const modes = Array.isArray(DSE_MODE.modes) ? DSE_MODE.modes : [];
     dom.content.innerHTML = `
       <section class="content-panel exam-mode-panel dse-panel">
-        ${sectionHeader("DSE 考試練習模式", "隨機抽取並鎖定同一套歷屆題目。DSE 模式不設考官自然交流。", "3 種模式")}
+        ${sectionHeader("DSE 考試練習模式", "隨機抽取並鎖定同一套歷屆題目。DSE 模式不設考官自然交流。", "4 種模式")}
         <div class="exam-mode-grid dse-mode-grid">
           ${modes.map((mode, index) => `<button class="exam-mode-card" type="button" data-dse-mode="${escapeHtml(mode.id)}">
             <span>${pad(index + 1)} · DSE PRACTICE</span>
             <strong>${escapeHtml(mode.label)}<br><span lang="zh-Hant">${escapeHtml(mode.labelZh)}</span></strong>
             <small>${mode.parts.includes("group") ? "10 分鐘準備時間 · 3 個討論重點" : ""}${mode.parts.length > 1 ? " · " : ""}${mode.parts.includes("individual") ? "同一題組 8–10 條問題" : ""}</small>
           </button>`).join("")}
+          <a class="exam-mode-card" href="speaking-professional.html"><span>04 · DSE PRACTICE</span><strong>Full DSE Exam Practice — Professional Mode<br><span lang="zh-Hant">完整 DSE 考試練習 · 專業模式</span></strong><small>四位考生 · 逐輪計時與評估 · PDF / XLSX 報告</small></a>
         </div>
       </section>`;
   }

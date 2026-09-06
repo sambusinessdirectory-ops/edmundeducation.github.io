@@ -9,8 +9,8 @@ const dom=new JSDOM('<body><div data-view-content><article class="exam-practice-
 dom.window.requestAnimationFrame=()=>0;
 dom.window.eval(read('speaking-performance-indicator.js'));dom.window.document.dispatchEvent(new dom.window.Event('DOMContentLoaded'));
 const indicator=dom.window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR;
-assert.equal(indicator.content.length,22);assert.equal(indicator.language.length,23);
-const boxes=dom.window.document.querySelectorAll('[data-performance-kind]');assert.equal(boxes.length,45);
+assert.equal(indicator.content.length,28);assert.equal(indicator.language.length,23);
+const boxes=dom.window.document.querySelectorAll('[data-performance-kind]');assert.equal(boxes.length,51);
 for(const id of ['idea-topic-sentence','point-2-idea-topic-sentence','point-4-example','task-response','power-words']){
  const box=dom.window.document.querySelector(`input[value="${id}"]`);box.checked=true;box.dispatchEvent(new dom.window.Event('change',{bubbles:true}));
 }

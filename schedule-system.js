@@ -5554,6 +5554,9 @@ function renderWeek() {
     const dateLabel = document.createElement("span");
     dateLabel.textContent = active ? formatDayDate(date) : `${formatDayDate(date)} · 範圍外`;
     header.append(mascot, weekday, dateLabel);
+    if(active && state.currentUser?.role==='student') {
+      const book=document.createElement('button');book.type='button';book.className='challenge-log-book';book.title='Mistake or Challenge Logbook';book.setAttribute('aria-label',date+' · Mistake or Challenge Logbook');book.innerHTML='<span class="book-cover" aria-hidden="true">✦</span><span class="book-pages" aria-hidden="true"></span>';book.onclick=()=>openChallengeLog(date);header.append(book);
+    }
 
     const selfRatings = SELF_EVALUATION_DEFINITIONS.map((definition) => (
       definition.key === "motivation"
@@ -7837,3 +7840,20 @@ document.addEventListener("visibilitychange", () => {
 });
 
 initialize();
+
+async function openChallengeLog(date) {
+  if(state.currentUser?.role !== 'student')return;
+  const token=state.currentUser.studentToken;
+  const dialog=document.createElement('dialog');dialog.className='challenge-log-dialog';
+  const heading=document.createElement('h2');heading.textContent='Mistake or Challenge Logbook';
+  const dateTitle=document.createElement('p');dateTitle.textContent=date+' · 我的英語成長記錄';
+  const label=document.createElement('label');label.textContent='今天遇到甚麼困難？你怎樣克服它？';
+  const input=document.createElement('textarea');input.rows=12;input.maxLength=20000;input.disabled=true;input.setAttribute('aria-label','今天的錯誤與挑戰記錄');label.append(input);
+  const status=document.createElement('p');status.setAttribute('role','status');status.textContent='正在載入…';
+  const save=document.createElement('button');save.type='button';save.textContent='儲存成長記錄';save.disabled=true;
+  const close=document.createElement('button');close.type='button';close.textContent='關閉';close.onclick=()=>dialog.close();
+  dialog.append(heading,dateTitle,label,status,save,close);document.body.append(dialog);dialog.showModal();dialog.addEventListener('close',()=>dialog.remove(),{once:true});
+  let version=0;
+  try{const row=await callRpc('schedule_challenge_log',{p_token:token,p_date:date});if(!dialog.isConnected)return;input.value=row?.body||'';version=row?.version||0;input.disabled=false;save.disabled=false;status.textContent='';}catch{status.textContent='未能載入，請關閉後重試。';}
+  save.onclick=async()=>{if(state.currentUser?.studentToken!==token)return;save.disabled=true;status.textContent='正在儲存…';try{const row=await callRpc('schedule_challenge_log',{p_token:token,p_date:date,p_body:input.value,p_expected_version:version});version=row.version;status.textContent='已儲存這一天的成長記錄。';}catch(error){status.textContent=error.code==='40001'?'這份記錄已在另一個視窗更新；請先複製你的文字，再重新開啟。':'未能儲存，你的文字仍在這裡。請重試。';}finally{save.disabled=false;}};
+}

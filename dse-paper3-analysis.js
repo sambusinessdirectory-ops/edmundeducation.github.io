@@ -1,3 +1,4 @@
+import { mountPaper3Writing } from './paper3-writing-bridge.mjs?v=20260906-classroom2';
 import { mountPaper3Search } from './paper3-search.mjs?v=20260906';
 const FULL_READERS = Object.freeze({  "2025-b1": ["/dse-paper3-2025-b1-data-file.html", "完整資料檔案及原題目答題簿"],  "2025-b2": ["/paper3/2025-b2/", "資料檔案、逐字稿及練習；原答題簿待補"],  "2022-b2": ["/paper3/2022-b2/", "九頁資料節錄；來源缺封面、第 3 頁及原答題簿"],  "2020-b2": ["/paper3/2020-b2/", "十頁資料節錄；來源未附封面及原答題簿"],  "2018-b2": ["/paper3/2018-b2/", "資料檔案及原題目答題簿"],  "2017-b1": ["/paper3/2017-b1/", "B1 資料檔案及原題目答題簿"],  "2017-b2": ["/paper3/2017-b2/", "B2 資料檔案及原題目答題簿"],  "2016-b2": ["/paper3/2016-b2/", "資料檔案、評分準則及逐字稿；原答題簿待補"],  "2015-b2": ["/paper3/2015-b2/", "資料檔案、評分準則及逐字稿；原答題簿待補"],  "2013-b1": ["/paper3/2013-b1/", "B1 資料檔案及原題目答題簿"],  "2013-b2": ["/paper3/2013-b2/", "B2 資料檔案及原題目答題簿"],  "2012-b2": ["/paper3/2012-b2/", "資料檔案、評分準則及逐字稿；原答題簿待補"]});function fullReaderFor(year = state.year, level = state.level) {  return FULL_READERS[String(year) + "-" + String(level).toLowerCase()] || null;}function fullReaderLink(year = state.year, level = state.level) {  const reader = fullReaderFor(year, level);  if (!reader) return "";  return '<a class="selection-card is-available" href="' + escapeHtml(reader[0]) + '" style="display:block;text-decoration:none;margin:18px 0;border:2px solid #16727c;background:#e8f3ec"><span class="card-kicker">' + escapeHtml(year + " " + level.toUpperCase()) + ' · SOURCE READER</span><strong style="font-size:clamp(24px,3vw,38px)">Data File 分析 + PP</strong><small>' + escapeHtml(reader[1]) + ' · 原文可選取 · 圖表及插圖 · 中英對照 · 可儲存答案</small><span class="card-status">開啟原文閱讀及練習</span><span class="card-arrow" aria-hidden="true">→</span></a>';}const DATA = window.EDMUND_DSE_PAPER3_DATA;
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -401,6 +402,8 @@ function b2FullLink() { return '<a class="selection-card is-available" href="/pa
       });
     }).join("")}</div>
   </section>`;
+  const writing=document.createElement('section');elements.screen.append(writing);
+  mountPaper3Writing(writing,{year:state.year,level:state.level,session:()=>({...state.user,token:state.token}),activeTask:location.hash.match(/task-(\d+)/)?.[1]});
 }
 
 function renderEmptyResource() {
@@ -558,7 +561,7 @@ async function handleLogin(event) {
     setConnection("已安全連接", "online");
     showView("library");
     resetToYears({ announce: false });
-    if (/^#\d{4}-b[12]$/.test(location.hash) && fullReaderFor(Number(location.hash.slice(1, 5)), location.hash.slice(-2))) { state.year = Number(location.hash.slice(1, 5)); state.level = location.hash.slice(-2); state.screen = "materials"; renderLibrary(); }
+    if (/^#20(?:1[2-9]|2[0-6])-b[12](?:-task-(?:5|6|7|8|9|10))?$/.test(location.hash)) { state.year = Number(location.hash.slice(1, 5)); state.level = location.hash.slice(6,8); state.screen = "materials"; renderLibrary(); }
     showToast(`您好，${state.user.name}！`);
   } catch (error) {
     console.warn("DSE Paper 3 login failed", error);
@@ -691,7 +694,7 @@ async function initialise() {
       setConnection("已安全連接", "online");
       showView("library");
       resetToYears({ announce: false });
-    if (/^#\d{4}-b[12]$/.test(location.hash) && fullReaderFor(Number(location.hash.slice(1, 5)), location.hash.slice(-2))) { state.year = Number(location.hash.slice(1, 5)); state.level = location.hash.slice(-2); state.screen = "materials"; renderLibrary(); }
+    if (/^#20(?:1[2-9]|2[0-6])-b[12](?:-task-(?:5|6|7|8|9|10))?$/.test(location.hash)) { state.year = Number(location.hash.slice(1, 5)); state.level = location.hash.slice(6,8); state.screen = "materials"; renderLibrary(); }
       return;
     }
     setConnection("已連線", "online");

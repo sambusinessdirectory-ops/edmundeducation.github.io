@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260906-teaching1">
+  <link rel="stylesheet" href="writing-submission.css?v=20260906-classroom2">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
 </head>
@@ -47,6 +47,7 @@
         <button class="header-button" type="button" data-grammar-log-button hidden>文法問題記錄</button>
         <button class="header-button" type="button" data-feedback-bookmarks-button hidden>我的評語書籤</button>
         <button class="header-button" type="button" data-admin-button hidden>學生文章</button>
+        <button class="header-button" type="button" data-admin-questions-button hidden>學生提問</button>
         <button class="header-button" type="button" data-admin-review-button hidden>待補文法解釋</button>
         <button class="header-button" type="button" data-logout hidden>登出</button>
       </div>
@@ -321,6 +322,7 @@
           </div>
           <div class="submission-list" data-submission-list></div>
         </section>
+        <button class="small-button article-focus-toggle" type="button" data-article-focus aria-pressed="false">⛶ 全螢幕文章</button>
         <article class="submission-detail glass-panel" data-submission-detail>
           <div class="utility-empty"><span aria-hidden="true">✎</span><h2>選擇一篇文章</h2><p>寫作題目和文章內容會在這裡顯示。</p></div>
         </article>
@@ -456,12 +458,14 @@
             <div class="admin-manual-topic-list" data-admin-manual-topic-list></div>
           </section>
         </section>
+        <button class="small-button article-focus-toggle" type="button" data-article-focus aria-pressed="false">⛶ 全螢幕文章</button>
         <article class="submission-detail glass-panel" data-admin-detail>
           <div class="utility-empty"><span aria-hidden="true">→</span><h2>選擇學生</h2><p>學生文章和文法問題會在這裡顯示。</p></div>
         </article>
       </div>
     </section>
 
+    <section class="view" data-view="admin-questions" hidden><section class="glass-panel"><h1>學生提問 · Writing Feedback Inbox</h1><button type="button" class="small-button" data-refresh-questions>重新整理</button><div data-questions-inbox aria-live="polite"></div><button type="button" class="small-button" data-more-questions hidden>載入更多</button></section></section>
     <section class="view" data-view="admin-review" hidden>
       <section class="utility-hero glass-panel">
         <div>
@@ -488,6 +492,7 @@
         <div><p class="eyebrow">WRITING PRACTICE QUESTIONS</p><h2 id="topic-picker-title" data-topic-picker-title>選擇寫作練習題目</h2></div>
         <button class="dialog-close" type="button" data-topic-picker-close aria-label="關閉題目選擇器">×</button>
       </header>
+      <div class="topic-picker-categories"><button type="button" class="small-button" data-paper3-topic-category="B1">DSE Integrated Skills (Part B) · B1</button><button type="button" class="small-button" data-paper3-topic-category="B2">DSE Integrated Skills (Part B) · B2</button></div>
       <label class="topic-picker-search">
         <span>搜尋題目、考試、類型或關鍵字</span>
         <input type="search" data-topic-picker-search autocomplete="off" placeholder="例如：2023、environment、IELTS Task 1">
@@ -624,6 +629,6 @@
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
-  <script type="module" src="writing-submission.js?v=20260906-teaching1"></script>
+  <script type="module" src="writing-submission.js?v=20260906-classroom2"></script>
 </body>
 </html>

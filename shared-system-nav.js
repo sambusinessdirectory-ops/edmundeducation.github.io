@@ -15,6 +15,7 @@
     taskLabel: "英文學習"
   });
   const SYSTEMS = Object.freeze([
+    {id:"background-music",href:"background-music.html",zh:"背景音樂系統",en:"Background Music System"},
     { id: "progress", href: "student-progress.html", zh: "全面英文能力發展進度表", en: "Student Progress", homepageCard: 24 },
     { id: "flashcards", href: "flashcards.html", zh: "Flashcard 學習卡", en: "Flashcard System", homepageCard: 14 },
     { id: "writing", href: "writing-practice.html", zh: "英文寫作練習", en: "Writing Practice", homepageCard: 12 },
@@ -789,6 +790,14 @@
       } else {
         headerInner.insertBefore(button, headerInner.firstChild);
       }
+    }
+    if (button && !document.querySelector('[data-edmund-music-header]')) {
+      const music = document.createElement('button');
+      music.type = 'button'; music.className = 'edmund-music-header-button';
+      music.dataset.edmundMusicHeader = ''; music.setAttribute('aria-disabled', 'true');
+      music.title = 'Background Music · 音樂即將加入';
+      music.innerHTML = '<span aria-hidden="true">♫</span><span>Background Music<small>背景音樂 · Coming soon</small></span>';
+      button.insertAdjacentElement('afterend', music);
     }
     const launchers = [...document.querySelectorAll("[data-edmund-pomodoro-header], [data-edmund-pomodoro-launcher]")];
     if (!launchers.length || document.querySelector("[data-edmund-pomodoro-dialog]")) return;

@@ -22,7 +22,7 @@ const data = context.window.EDMUND_DSE_PAPER3_DATA;
 assert.match(html, /data-edmund-system-switcher data-system="dse-paper3-analysis"/);
 assert.match(html, /shared-system-nav\.js\?v=20260822-night-invitation1/);
 assert.match(html, /dse-paper3-analysis-data\.js\?v=20260903-1/);
-assert.match(html, /dse-paper3-analysis\.js\?v=20260904-dsearchive1/);
+assert.match(html, /dse-paper3-analysis\.js\?v=20260906-classroom2/);
 for (const year of [2012, 2013, 2014, 2015, 2017, 2018, 2019, 2020]) {
   assert.match(html, new RegExp(`dse-listening-${year}-transcript\\.js\\?v=20260904-dsearchive1`));
   assert.match(html, new RegExp(`dse-listening-${year}-data\\.js\\?v=20260904-nativequestions1`));
