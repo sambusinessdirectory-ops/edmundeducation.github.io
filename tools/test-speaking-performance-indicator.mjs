@@ -29,7 +29,7 @@ const expectedLanguage = [
   "Double literary devices 雙重修辭 (e.g., 並置並置 / 並置排比 etc.)",
   "Phrasal Verbs 動詞片語",
   "Although / Even though / Even if -- (Concession 讓步句)",
-  "Precise Vocabulary"
+  "Precise Vocabulary", "Sentence Structure 句子結構", "Supporting Details 支持細節", "Rephrasing 改述", "Rhetorical Questions 反問句", "Common Expressions 常用語", "Collocations 詞語搭配", "Power Words 有力詞彙"
 ];
 
 const browser = await chromium.launch({ headless: true });
@@ -50,11 +50,11 @@ try {
   await page.locator("[data-performance-indicator]").waitFor();
 
   assert.equal(await page.locator(".performance-table-card").count(), 2);
-  assert.equal(await page.locator("[data-performance-kind=content]").count(), 5);
-  assert.equal(await page.locator("[data-performance-kind=language]").count(), 16);
+  assert.equal(await page.locator("[data-performance-kind=content]").count(), 22);
+  assert.equal(await page.locator("[data-performance-kind=language]").count(), 23);
   assert.deepEqual(
-    await page.locator(".performance-content tbody th").allTextContents(),
-    expectedContent.map((label, index) => `${index + 1}. ${label}`)
+    await page.locator(".performance-content tbody tr:not(.performance-point-heading) th").allTextContents(),
+    [...[1,2,3,4].flatMap(() => expectedContent.map((label,index) => `${index + 1}. ${label}`)), "21. Task Response 回應題目", "22. Responding to Others 回應他人"]
   );
   assert.deepEqual(
     await page.locator(".performance-language tbody th").allTextContents(),
@@ -63,8 +63,8 @@ try {
 
   await page.locator("[data-performance-kind=content]").first().check();
   await page.locator("[data-performance-kind=language]").nth(15).check();
-  assert.equal(await page.locator("[data-performance-count=content]").textContent(), "1 / 5");
-  assert.equal(await page.locator("[data-performance-count=language]").textContent(), "1 / 16");
+  assert.equal(await page.locator("[data-performance-count=content]").textContent(), "1 / 22");
+  assert.equal(await page.locator("[data-performance-count=language]").textContent(), "1 / 23");
   assert.equal(await page.locator("tr.is-checked").count(), 2);
   assert.deepEqual(
     await page.evaluate(() => window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR.snapshot()),
@@ -103,7 +103,7 @@ try {
   });
   await page.locator(".dse-practice-view [data-performance-indicator]").waitFor();
   assert.match(await page.locator(".dse-practice-view .cue-label").textContent(), /YOUR ANSWER/);
-  assert.equal(await page.locator(".dse-practice-view input").count(), 21);
+  assert.equal(await page.locator(".dse-practice-view input").count(), 45);
 
   await page.evaluate(() => {
     document.querySelector("[data-view-content]").innerHTML =
@@ -129,7 +129,7 @@ try {
   );
   await page.screenshot({ path: "/private/tmp/speaking-indicator-mobile.png", fullPage: true });
   assert.deepEqual(errors, []);
-  console.log("Speaking performance indicator passed: exact 5 content + 16 language items, live toggles, re-render retention, DSE/IELTS exam scoping and mobile layout.");
+  console.log("Speaking performance indicator passed: 22 content + 23 language items, live toggles, re-render retention, DSE/IELTS exam scoping and mobile layout.");
 } finally {
   await browser.close();
 }

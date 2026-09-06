@@ -64,13 +64,15 @@ const SPEAKING_ACCESS_KEYS = new Set([
 
 const PERFORMANCE_CHECKLIST_IDS = Object.freeze({
   content: new Set([
-    "idea-topic-sentence", "explanation", "example", "conclusion", "contextual-reference"
+    "idea-topic-sentence", "explanation", "example", "conclusion", "contextual-reference",
+    ...[2,3,4].flatMap(point => ['idea-topic-sentence','explanation','example','conclusion','contextual-reference'].map(id => `point-${point}-${id}`)),
+    'task-response', 'responding-to-others'
   ]),
   language: new Set([
     "parallelism-juxtaposition", "rule-of-three", "modal", "comparatives", "contrast",
     "adjectives-adverbs", "negative-statements", "personification", "reification", "simile",
     "metaphor", "metonymy-synecdoche", "double-literary-devices", "phrasal-verbs",
-    "concession", "precise-vocabulary"
+    "concession", "precise-vocabulary", "sentence-structure", "supporting-details", "rephrasing", "rhetorical-questions", "common-expressions", "collocations", "power-words"
   ])
 });
 

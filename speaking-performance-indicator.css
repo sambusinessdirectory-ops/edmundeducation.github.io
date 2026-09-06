@@ -187,3 +187,5 @@
   .performance-indicator-heading p { font-size: 12px; }
   .attempt-performance-record > summary { align-items: flex-start; flex-direction: column; gap: 4px; }
 }
+
+.performance-point-heading th{background:#dcebe7;padding:14px!important;border-top:10px solid white;font-size:1rem}.performance-content tbody tr:not(.performance-point-heading) th{border-left:2px solid #dcebe7}.performance-content tbody tr td{border-right:2px solid #dcebe7}

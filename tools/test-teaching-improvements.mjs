@@ -1,0 +1,34 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+import {createRequire} from 'node:module';
+const require=createRequire(new URL('./email-qa/package.json',import.meta.url));
+const {JSDOM}=require('jsdom');
+const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url),'utf8');
+const dom=new JSDOM('<body><div data-view-content><article class="exam-practice-view"><section class="exam-answer-recorder"></section></article></div></body>',{runScripts:'outside-only',pretendToBeVisual:true});
+dom.window.requestAnimationFrame=()=>0;
+dom.window.eval(read('speaking-performance-indicator.js'));dom.window.document.dispatchEvent(new dom.window.Event('DOMContentLoaded'));
+const indicator=dom.window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR;
+assert.equal(indicator.content.length,22);assert.equal(indicator.language.length,23);
+const boxes=dom.window.document.querySelectorAll('[data-performance-kind]');assert.equal(boxes.length,45);
+for(const id of ['idea-topic-sentence','point-2-idea-topic-sentence','point-4-example','task-response','power-words']){
+ const box=dom.window.document.querySelector(`input[value="${id}"]`);box.checked=true;box.dispatchEvent(new dom.window.Event('change',{bubbles:true}));
+}
+assert.equal(indicator.snapshot().content.length,4);assert.equal(indicator.snapshot().language.length,1);
+assert.ok(indicator.snapshot().content.includes('point-4-example'));dom.window.close();
+const flash=read('flashcards.html');
+const back=flash.slice(flash.indexOf('function returnToDeckList()'),flash.indexOf('function logAttemptStart'));
+let result;const context=vm.createContext({currentDeckId:'dse/reading/part-b2/2019',studySession:{returnEntry:{view:'dashboard'}},stopStudyTimer(){},stopCountdownTimers(){},hideCountdownClock(){},openDeckStart(id,push){result={id,push};}});
+vm.runInContext(back+';returnToDeckList()',context);assert.equal(result.id,'dse/reading/part-b2/2019');assert.equal(result.push,false);assert.equal(context.studySession,null);
+const types=JSON.parse(read('listening-question-types.json'));assert.equal(types.rows.length,80);
+for(let practice=1;practice<=20;practice++)assert.equal(types.rows.filter(r=>r.practice===practice).length,4);
+assert.ok(types.rows.find(r=>r.practice===3&&r.part===2).types.includes('map'));
+assert.ok(types.rows.find(r=>r.practice===11&&r.part===1).types.includes('form'));
+assert.ok(types.rows.find(r=>r.practice===15&&r.part===2).types.includes('matching'));
+const search=JSON.parse(read('paper3-search-index.json'));
+assert.ok(search.some(row=>row.year===2025&&row.level==='B2'&&/wellness month/i.test(row.text)));
+assert.ok(search.some(row=>row.year===2013&&row.level==='B1'));
+const dse={window:{}};vm.runInNewContext(read('dse-speaking-data.js'),dse);
+assert.ok(Object.values(dse.window.EDMUND_DSE_SPEAKING_DATA.catalog).flat().some(row=>JSON.stringify(row).toLowerCase().includes('lego')));
+const html=read('reading-comprehension.html');assert.match(html,/data-teaching-highlight/);assert.match(html,/reading-teaching-tools.mjs/);
+console.log('Teaching improvements: independent checklist selections, same-deck return, all 20 listening practices, image-only types, Paper 3 search and Lego source passed.');

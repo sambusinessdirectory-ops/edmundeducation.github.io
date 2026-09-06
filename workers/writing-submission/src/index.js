@@ -64,9 +64,9 @@ const CANONICAL_WRITING_TOPICS = new Map(
 );
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     try {
-      return await route(request, env);
+      return await route(request, { ...env, feedbackWaitUntil: ctx?.waitUntil?.bind(ctx) });
     } catch (error) {
       if (error instanceof HttpError) {
         return json(
@@ -193,6 +193,10 @@ async function route(request, env) {
   }
   if (submissionMatch && request.method === "DELETE") {
     return deleteSubmission(request, env, submissionMatch[1]);
+  }
+  const questionMatch = url.pathname.match(/^\/v1\/(admin\/)?submissions\/([0-9a-f-]{36})\/feedback-questions$/i);
+  if (questionMatch && ['GET', 'POST'].includes(request.method)) {
+    return feedbackQuestions(request, env, questionMatch[2].toLowerCase(), Boolean(questionMatch[1]));
   }
   const submissionFeedbackMatch = url.pathname.match(
     /^\/v1\/submissions\/([0-9a-f-]{36})\/feedback$/i
@@ -3124,4 +3128,31 @@ async function deleteAdminSubmissionFeedback(request, env, submissionId) {
   }));
   if (deleted !== 1) throw new HttpError(404, "FEEDBACK_NOT_FOUND", "Feedback not found");
   return emptyResponse(204, request, env);
+}
+
+async function feedbackQuestions(request, env, submissionId, adminMode) {
+  if (!UUID_RE.test(submissionId)) throw new HttpError(400, 'INVALID_SUBMISSION', 'Invalid submission');
+  const actor = adminMode ? await authenticateAdmin(request, env) : await authenticateStudent(request, env);
+  if (!actor) throw new HttpError(401, 'AUTH_REQUIRED', 'Please sign in');
+  if (request.method === 'GET') {
+    const questions = await rpc(env, 'writing_feedback_questions_list', {
+      p_submission_id: submissionId, p_student_id: adminMode ? null : actor.id, p_admin_token: adminMode ? actor.token : null
+    });
+    return json({ questions }, 200, request, env);
+  }
+  const body = await readLimitedJson(request, 48000);
+  if (!UUID_RE.test(String(body.id || '')) || typeof body.body !== 'string' || !body.body.trim() || body.body.length > 5000) throw new HttpError(400, 'INVALID_QUESTION', 'Enter a question of up to 5000 characters');
+  if (adminMode ? !UUID_RE.test(String(body.parentId || '')) : !UUID_RE.test(String(body.feedbackId || '')) || typeof body.sectionKey !== 'string' || !/^(overall|final|improved|model|transcriptions|grammar:[0-9]+|fragment:[0-9a-f-]+|enhancement:[a-zA-Z]+:[0-9]+)$/.test(body.sectionKey) || typeof body.sectionLabel !== 'string' || !body.sectionLabel.trim() || body.sectionLabel.length > 250 || typeof body.context !== 'string' || body.context.length > 3000) throw new HttpError(400, 'INVALID_SECTION', 'Invalid feedback section');
+  await enforceRateLimit(env.GRAMMAR_WRITE_RATE_LIMITER, `feedback-question:${actor.id}`, 'Question service unavailable', 'QUESTION_RATE_LIMIT', 'Please wait a moment before sending another question');
+  const question = await rpc(env, adminMode ? 'writing_feedback_question_reply' : 'writing_feedback_question_add', adminMode ? {
+    p_submission_id: submissionId, p_admin_token: actor.token, p_id: body.id, p_parent_id: body.parentId, p_body: body.body
+  } : {
+    p_submission_id: submissionId, p_student_id: actor.id, p_id: body.id, p_feedback_id: body.feedbackId,
+    p_section_key: body.sectionKey, p_section_label: body.sectionLabel, p_context_text: body.context, p_body: body.body
+  });
+  if (!adminMode && question.notification_number && env.FEEDBACK_MAILER) {
+    const delivery = env.FEEDBACK_MAILER.deliver().catch(error => console.error('Feedback email queued for scheduler retry', safeErrorMessage(error)));
+    if (env.feedbackWaitUntil) env.feedbackWaitUntil(delivery); else await delivery;
+  }
+  return json({ question }, 200, request, env);
 }

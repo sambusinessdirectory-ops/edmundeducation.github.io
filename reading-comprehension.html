@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
-  <link rel="stylesheet" href="reading-comprehension.css?v=20260904-dse-zh-hant-1">
+  <link rel="stylesheet" href="reading-comprehension.css?v=20260906-teaching1">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="dse-deep-analysis.css?v=20260904-admin-source1">
 </head>
@@ -218,6 +218,8 @@
       </section>
 
       <section class="study-toolbar panel" aria-label="文章學習工具">
+        <button class="secondary-button" type="button" data-teaching-highlight aria-pressed="false">🖍 暫時螢光筆</button>
+        <a class="secondary-button button-link" data-reading-flashcards hidden>溫習 Flash Cards</a>
         <p class="dse-tools-notice" data-dse-tools-notice hidden>答案及分析會稍後加入。</p>
         <div class="translation-control">
           <button class="secondary-button" type="button" data-translation-menu aria-expanded="false">中文翻譯 ▾</button>
@@ -269,6 +271,7 @@
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
   <script src="dse-reading-translations.js?v=20260904-dse-zh-hant-1"></script>
-  <script type="module" src="reading-comprehension.js?v=20260905-dse-2024-b1"></script>
+  <script type="module" src="reading-comprehension.js?v=20260906-teaching1"></script>
+<script type="module" src="reading-teaching-tools.mjs?v=20260906"></script>
 </body>
 </html>

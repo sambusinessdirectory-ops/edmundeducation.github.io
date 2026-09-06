@@ -4,6 +4,7 @@
   "main": "src/index.js",
   "compatibility_date": "2026-07-31",
   "workers_dev": true,
+  "services": [{ "binding": "FEEDBACK_MAILER", "service": "edmund-schedule-system", "entrypoint": "FeedbackMailer" }],
   "preview_urls": false,
   "ai": {
     "binding": "AI"

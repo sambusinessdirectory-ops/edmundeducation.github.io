@@ -1,3 +1,4 @@
+import { mountListeningTypes } from './listening-question-types.mjs?v=20260906';
 import { createListeningStudy } from './listening-study.js?v=20260904-guide1';
 import { safeBookmarkHref } from './listening-study-core.mjs?v=20260904-guide1';
 import { createDseStudy, getDseGuide, hasDseGuide, loadDseGuide, dseGuideFailed, dseAnswerReplayStart } from './dse-listening-study.mjs?v=20260904-archiveguides1';
@@ -1223,3 +1224,5 @@ async function initialise() {
 }
 
 initialise();
+
+mountListeningTypes(document.querySelector('[data-listening-types]'), (practice, part) => openPractice(practice, part));

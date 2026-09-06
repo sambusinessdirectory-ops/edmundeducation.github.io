@@ -4127,6 +4127,7 @@
             <div class="resource-columns" data-resource-grid></div>
           </div>
 
+          <section class="panel-card hidden" data-latest-unfinished aria-label="繼續上次卡組"></section>
           <section class="progress-section" data-progress-dashboard>
             <div class="progress-toolbar">
               <h3>學習進度</h3>
@@ -193187,7 +193188,20 @@ window.EDMUND_FLASHCARD_SEED = {
       renderTimeProgressDashboard();
     }
 
+    function renderLatestUnfinished() {
+      const panel = document.querySelector('[data-latest-unfinished]');
+      if (!panel) return;
+      const prefix = `${currentUser?.name}::`;
+      const candidates = Object.entries(getProgressStore()).filter(([key, value]) => key.startsWith(prefix) && !value.completed)
+        .map(([key, value]) => ({ ...value, deckId: key.slice(prefix.length) }))
+        .sort((a, b) => Number(b.savedAt || b.startedAt || 0) - Number(a.savedAt || a.startedAt || 0));
+      const latest = candidates.find(item => canAccessDeck(item.deckId) && savedProgressForDeck(item.deckId));
+      panel.classList.toggle('hidden', !latest);
+      panel.innerHTML = latest ? `<h3>繼續上次未完成的卡組</h3><p>${escapeHtml(latest.deckTitle || deckTitleFromId(latest.deckId))}</p><p>${Object.keys(latest.answers || {}).length} / ${Number(latest.totalCards || latest.initialTotal || 0)} 張 · ${escapeHtml(latest.rangeLabel || modeLabel(latest.mode))}</p><button type="button" class="primary-button" data-latest-resume="${escapeHtml(latest.deckId)}">繼續學習 →</button>` : '';
+    }
+
     function renderDashboard() {
+      renderLatestUnfinished();
       document.body.classList.toggle("dashboard-reorder-active", dashboardMoveMode);
       const label = document.querySelector("[data-user-label]");
       if (label) label.textContent = `${currentUser?.name || "Student"} | ${isAdmin() ? "Admin mode" : "Student mode"}`;
@@ -195474,12 +195488,12 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function returnToDeckList() {
-      const target = studySession?.returnEntry || { view: "dashboard", label: "學習首頁" };
+      const deckId = currentDeckId;
       studySession = null;
       stopStudyTimer();
       stopCountdownTimers();
       hideCountdownClock();
-      restoreHistoryEntry(target);
+      openDeckStart(deckId, false);
     }
 
     function logAttemptStart(mode, totalCards) {
@@ -197823,6 +197837,18 @@ window.EDMUND_FLASHCARD_SEED = {
           return;
         }
 
+        const latestResume = event.target.closest('[data-latest-resume]');
+        if (latestResume) {
+          const deckId = latestResume.dataset.latestResume;
+          if (!canAccessDeck(deckId)) return;
+          try {
+            await ensureIeltsReadingDataForDeck(deckId);
+            await ensureSupplementalFlashcardDataForDeck(deckId);
+            openDeckStart(deckId);
+            resumeDeckSession();
+          } catch { window.alert('未能載入卡組，請稍後再試。'); }
+          return;
+        }
         if (event.target.closest("[data-resume-deck]")) {
           resumeDeckSession();
           return;

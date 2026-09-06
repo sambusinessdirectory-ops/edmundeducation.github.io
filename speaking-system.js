@@ -2069,7 +2069,7 @@
     hydrateDseSession();
     const availableCount = Array.isArray(DSE_DATA.sets) ? DSE_DATA.sets.length : 0;
     dom.content.innerHTML = `
-      <section class="content-panel dse-panel">
+      <section class="content-panel dse-panel">${dseSearchMarkup()}
         ${sectionHeader("DSE 說話考試", `${availableCount} 套歷屆題目，按年份瀏覽或進入隨機考試練習模式。`)}
         <div class="choice-grid dse-section-grid">
           <button class="choice-card dse-part-choice" type="button" data-dse-catalog="group">
@@ -2110,6 +2110,21 @@
     return `<details class="dse-source-card" ${open ? "open" : ""}><summary><span>題目文章與任務資料</span><small>Source text &amp; task</small></summary><div class="dse-source-text" lang="en">${escapeHtml(source)}</div></details>`;
   }
 
+  function dseSearchMarkup() {
+    return `<section class="dse-search-panel"><label>搜尋所有年份的文章、小組討論及個人發言<input type="search" data-dse-full-search placeholder="例如 Lego" autocomplete="off"></label><div data-dse-search-results aria-live="polite"></div></section>`;
+  }
+  function searchDseSpeaking(query, root) {
+    const target = root.querySelector('[data-dse-search-results]');
+    const term = String(query || '').normalize('NFKC').toLocaleLowerCase().trim();
+    if (!term) { target.innerHTML = ''; return; }
+    const sets = Object.values(DSE_DATA.catalog || {}).flat();
+    const matches = sets.filter(set => [set.title, set.sourceText, ...(set.groupDiscussion || []), ...(set.individualResponse || []), JSON.stringify(dseTranslationFor(set))].join(' ').normalize('NFKC').toLocaleLowerCase().includes(term));
+    target.innerHTML = `<p>${matches.length} 套題目</p>` + matches.map(set => `<details class="dse-set-card"><summary><span>${set.year} · ${escapeHtml(set.set)}</span><strong>${escapeHtml(set.title)}</strong></summary>${dseSourceCard(set, true)}<h3>Group Discussion 小組討論</h3>${dseQuestionList(set.groupDiscussion, true, dseTranslationFor(set).groupDiscussion)}<h3>Individual Response 個人發言</h3>${dseQuestionList(set.individualResponse, true, dseTranslationFor(set).individualResponse)}</details>`).join('');
+  }
+  document.addEventListener('input', event => {
+    if (event.target.matches('[data-dse-full-search]')) searchDseSpeaking(event.target.value, event.target.closest('.dse-search-panel'));
+  });
+
   function renderDseCatalog() {
     const part = state.route.part === "individual" ? "individual" : "group";
     const years = Array.isArray(DSE_DATA.years) ? [...DSE_DATA.years] : [];
@@ -2123,6 +2138,7 @@
             年份：${state.dseYearSort === "asc" ? "2012 → 2025" : "2025 → 2012"} ↕
           </button>
         </div>
+        ${dseSearchMarkup()}
         <div class="dse-year-list">
           ${years.map(year => {
             const sets = Array.isArray(DSE_DATA.catalog?.[year]) ? [...DSE_DATA.catalog[year]].sort((left, right) => {

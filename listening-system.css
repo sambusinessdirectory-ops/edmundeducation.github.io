@@ -495,3 +495,5 @@ button:disabled { cursor:default; opacity:.5; }
 .dse-answer-replay { margin: 8px 0; }
 .dse-group-answer-number { color: #155668; padding: 6px; }
 .dse-question-translation[hidden] { display: none; }
+
+.listening-type-finder{margin:18px 0;padding:22px}.listening-type-finder summary{font-size:1.3rem;font-weight:800;cursor:pointer}.listening-type-finder label{display:grid;gap:8px;margin-top:16px}.listening-type-finder input{font:inherit;padding:12px;border:1px solid #adc8bc;border-radius:8px}[data-type-filters]{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}[data-type-filters] [aria-pressed="true"]{background:#153f3a;color:white}

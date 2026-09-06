@@ -5910,7 +5910,7 @@ function renderStudentTranscriptions(feedback) {
     "teacher-feedback-improved teacher-feedback-transcription-improved",
     feedback.improvedFormatting
   );
-  if (improvedVersion) section.append(improvedVersion);
+  if (improvedVersion) { improvedVersion.append(feedbackQuestionBox(feedback, "improved", "保留原意改良版", feedback.improvedVersion)); section.append(improvedVersion); }
 
   const improvedField = createElement("label", "teacher-feedback-transcription-field");
   improvedField.append(createElement("span", "", "謄文區 - 1 Edmund 改良版"));
@@ -5923,7 +5923,7 @@ function renderStudentTranscriptions(feedback) {
   section.append(improvedField);
 
   const modelReference = feedbackModelEssayDetails(feedback);
-  if (modelReference) section.append(modelReference);
+  if (modelReference) { section.append(modelReference, feedbackQuestionBox(feedback, "model", "Edmund 範文 Model Essay", "Edmund 範文")); }
   else section.append(createElement("p", "teacher-feedback-model-unavailable", "這篇文章沒有連結的 Edmund 範文。"));
 
   const modelField = createElement("label", "teacher-feedback-transcription-field");
@@ -6015,7 +6015,7 @@ function renderStudentFeedbackLearningArea(title, itemsValue, { sentenceStructur
       ));
       const content = createElement("div", "teacher-feedback-rich-content");
       appendStructuredFeedbackRichText(content, item.text, item.formatting);
-      row.append(content);
+      row.append(content, feedbackQuestionBox(state.selectedStudentFeedback, `grammar:${index + 1}`, `文法評語 ${index + 1}`, item.text));
       list.append(row);
     });
     section.append(list);
@@ -6146,6 +6146,10 @@ function renderStudentSynonymTable(title, parts, feedback) {
       row.append(cell);
     });
     body.append(row);
+    const questionRow = document.createElement('tr');
+    const questionCell = document.createElement('td'); questionCell.colSpan = 3;
+    questionCell.append(feedbackQuestionBox(feedback, `enhancement:synonym:${index + 1}`, `${title} ${index + 1}`, [part.originalSentence?.text, part.enhancement?.text, part.benefit?.text].join('\n')));
+    questionRow.append(questionCell); body.append(questionRow);
     const copyArea = renderEnhancementCopyArea(feedback, "synonym", index + 1);
     if (copyArea) {
       const copyRow = createElement("tr", "teacher-feedback-synonym-copy-row");
@@ -6205,6 +6209,7 @@ function renderStudentFeedbackEnhancementArea(
         band.append(content);
         card.append(band);
       });
+      card.append(feedbackQuestionBox(feedback, `enhancement:${kind}:${index + 1}`, `${title} ${index + 1}`, [part.originalSentence?.text, part.enhancement?.text, part.benefit?.text].join("\n")));
       const copyArea = renderEnhancementCopyArea(feedback, kind, index + 1);
       if (copyArea) card.append(copyArea);
       list.append(card);
@@ -6260,7 +6265,7 @@ function renderStudentFeedback(feedback, container) {
     "teacher-feedback-overall",
     feedback.overallFormatting
   );
-  if (overall) panel.append(overall);
+  if (overall) { overall.append(feedbackQuestionBox(feedback, "overall", "整體評語", feedback.overallComment)); panel.append(overall); }
   const fragments = createElement("div", "teacher-feedback-fragments");
   feedback.fragments.forEach((fragment, index) => {
     const pair = createElement("article", "teacher-feedback-read-pair");
@@ -6297,7 +6302,7 @@ function renderStudentFeedback(feedback, container) {
     suggestion.append(createElement("span", "", "建議寫法"), suggestionText);
     const copyArea = renderSuggestionCopyArea(fragment);
     if (copyArea) suggestion.append(copyArea);
-    pair.append(original, comment, suggestion);
+    pair.append(original, comment, suggestion, feedbackQuestionBox(feedback, `fragment:${fragment.id}`, `逐句評語 ${index + 1}`, `${fragment.originalFragment}\n${fragment.edmundComment}\n${fragment.suggestedWriting}`));
     fragments.append(pair);
   });
   if (feedback.fragments.length) panel.append(fragments);
@@ -6307,7 +6312,7 @@ function renderStudentFeedback(feedback, container) {
     "teacher-feedback-final",
     feedback.finalFormatting
   );
-  if (finalComment) panel.append(finalComment);
+  if (finalComment) { finalComment.append(feedbackQuestionBox(feedback, "final", "最後評語", feedback.finalComment)); panel.append(finalComment); }
   const grammarArea = renderStudentFeedbackLearningArea("文法評語站", feedback.grammarPoints);
   if (grammarArea) panel.append(grammarArea);
   // Students copy the improved/model versions before moving into the more
@@ -6335,6 +6340,7 @@ function renderStudentFeedback(feedback, container) {
     if (area) panel.append(area);
   }
   container.append(panel);
+  loadFeedbackDiscussion(panel, feedback.submissionId);
 }
 
 function feedbackTextarea(label, value, datasetName, { rows = 3, maxLength = 20000 } = {}) {
@@ -7916,6 +7922,9 @@ async function loadAdminFeedback(submission, container, requestGeneration) {
       || container !== elements.adminDetail
     ) return;
     renderAdminFeedbackEditor(submission, feedback, container);
+    const discussions = createElement("section", "feedback-admin-discussion");
+    container.append(discussions);
+    loadFeedbackDiscussion(discussions, submission.id, true);
   } catch (error) {
     console.warn("Admin writing feedback could not be loaded", error);
     if (
@@ -10072,3 +10081,72 @@ initialise().catch((error) => {
   setStatus(elements.loginStatus, "系統未能完成載入，請重新整理頁面。", "error");
   showView("login");
 });
+
+function feedbackQuestionBox(feedback, sectionKey, sectionLabel, context) {
+  const box = createElement('details', 'feedback-question-box');
+  box.dataset.questionSection = sectionKey;
+  const summary = createElement('summary', '', '對這段評語有問題？提問 / 查看回覆');
+  const messages = createElement('div', 'feedback-question-messages');
+  const form = document.createElement('form'); form.className = 'feedback-question-form';
+  const label = createElement('label', '', '你的問題');
+  const input = document.createElement('textarea');input.rows=3;input.maxLength=5000;input.required=true;label.append(input);
+  const submit = createElement('button', 'small-button', '送出問題');submit.type='submit';
+  const status = createElement('p', 'form-status');status.setAttribute('role','status');
+  form.append(label,submit,status);box.append(summary,messages,form);
+  let pendingId='', pendingText='';
+  form.addEventListener('submit', async event => {
+    event.preventDefault(); event.stopPropagation();
+    const text=input.value.trim();if(!text || submit.disabled || !feedback?.id)return;
+    if(pendingText!==text){pendingId=crypto.randomUUID();pendingText=text;}
+    submit.disabled=true;status.textContent='正在送出…';
+    try {
+      await apiJson(`/v1/submissions/${feedback.submissionId}/feedback-questions`, {method:'POST',body:JSON.stringify({id:pendingId,feedbackId:feedback.id,sectionKey,sectionLabel,context:String(context||'').slice(0,3000),body:text})});
+      input.value='';pendingId='';pendingText='';status.textContent='問題已儲存。';
+      await loadFeedbackDiscussion(box.closest('.teacher-feedback-view'),feedback.submissionId);
+    } catch(error){status.textContent='未能送出，問題仍保留在這裡。請重試。';}
+    finally {submit.disabled=false;}
+  });
+  return box;
+}
+function feedbackMessageCard(question, replies=[]) {
+  const card=createElement('article','feedback-student-question');
+  card.append(createElement('strong','','學生問題'),createElement('time','',formatSubmissionDate(question.created_at)),createElement('p','',question.body));
+  replies.forEach(reply=>{const message=createElement('div','feedback-teacher-reply');message.append(createElement('strong','','Edmund 回覆'),createElement('time','',formatSubmissionDate(reply.created_at)),createElement('p','',reply.body));card.append(message);});
+  return card;
+}
+async function loadFeedbackDiscussion(root, submissionId, admin=false) {
+  if(!root)return;
+  const endpoint=`/v1/${admin?'admin/':''}submissions/${submissionId}/feedback-questions`;
+  try {
+    const payload=await apiJson(endpoint);if(!root.isConnected)return;
+    root.querySelectorAll('.feedback-discussion-error').forEach(node=>node.remove());
+    const questions=Array.isArray(payload.questions)?payload.questions:[];
+    if(admin){
+      root.replaceChildren(createElement('h2','','學生對評語的問題'));
+      if(!questions.some(q=>q.author_role==='student'))root.append(createElement('p','','目前沒有學生提問。'));
+      questions.filter(q=>q.author_role==='student').forEach(question=>{
+        const section=createElement('section','feedback-admin-question');
+        section.append(createElement('h3','',question.section_label));
+        const context=createElement('blockquote','',question.context_text);section.append(context);
+        section.append(feedbackMessageCard(question,questions.filter(q=>q.parent_id===question.id)));
+        const form=document.createElement('form');form.className='feedback-question-form';
+        const label=createElement('label','','回覆學生');const input=document.createElement('textarea');input.rows=3;input.maxLength=5000;input.required=true;label.append(input);
+        const button=createElement('button','small-button','送出回覆');button.type='submit';const status=createElement('p','form-status');status.setAttribute('role','status');form.append(label,button,status);section.append(form);root.append(section);
+        let requestId='',pendingText='';
+        form.addEventListener('submit',async event=>{event.preventDefault();event.stopPropagation();const text=input.value.trim();if(!text||button.disabled)return;if(text!==pendingText){requestId=crypto.randomUUID();pendingText=text;}button.disabled=true;status.textContent='正在儲存…';
+          try{await apiJson(endpoint,{method:'POST',body:JSON.stringify({id:requestId,parentId:question.id,body:text})});await loadFeedbackDiscussion(root,submissionId,true);}catch{status.textContent='未能送出，請重試。';button.disabled=false;}
+        });
+      });
+    }else{
+      root.querySelectorAll('[data-question-section]').forEach(box=>{
+        const list=box.querySelector('.feedback-question-messages');list.replaceChildren();
+        const rows=questions.filter(q=>q.author_role==='student'&&q.section_key===box.dataset.questionSection);
+        box.querySelector('summary').textContent=rows.length?`提問與回覆（${rows.length} 個問題）`:'對這段評語有問題？提問 / 查看回覆';
+        rows.forEach(question=>list.append(feedbackMessageCard(question,questions.filter(q=>q.parent_id===question.id))));
+      });
+    }
+  }catch{
+    if(!root.isConnected)return;
+    const error=createElement('p','feedback-discussion-error','提問記錄未能載入。');const retry=createElement('button','small-button','重試');retry.type='button';retry.addEventListener('click',()=>{error.remove();loadFeedbackDiscussion(root,submissionId,admin);});error.append(retry);root.append(error);
+  }
+}

@@ -5077,3 +5077,5 @@ button:disabled {
     display: none !important;
   }
 }
+
+.dse-search-panel{margin:20px 0;padding:22px;border:1px solid #cdded5;border-radius:16px;background:#f6faf8}.dse-search-panel label{display:grid;gap:9px;font-weight:700}.dse-search-panel input{font:inherit;padding:12px;border:1px solid #91ad9b;border-radius:9px;width:100%}.dse-search-panel .dse-set-card{margin-top:12px}

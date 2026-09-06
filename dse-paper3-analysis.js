@@ -1,3 +1,4 @@
+import { mountPaper3Search } from './paper3-search.mjs?v=20260906';
 const FULL_READERS = Object.freeze({  "2025-b1": ["/dse-paper3-2025-b1-data-file.html", "完整資料檔案及原題目答題簿"],  "2025-b2": ["/paper3/2025-b2/", "資料檔案、逐字稿及練習；原答題簿待補"],  "2022-b2": ["/paper3/2022-b2/", "九頁資料節錄；來源缺封面、第 3 頁及原答題簿"],  "2020-b2": ["/paper3/2020-b2/", "十頁資料節錄；來源未附封面及原答題簿"],  "2018-b2": ["/paper3/2018-b2/", "資料檔案及原題目答題簿"],  "2017-b1": ["/paper3/2017-b1/", "B1 資料檔案及原題目答題簿"],  "2017-b2": ["/paper3/2017-b2/", "B2 資料檔案及原題目答題簿"],  "2016-b2": ["/paper3/2016-b2/", "資料檔案、評分準則及逐字稿；原答題簿待補"],  "2015-b2": ["/paper3/2015-b2/", "資料檔案、評分準則及逐字稿；原答題簿待補"],  "2013-b1": ["/paper3/2013-b1/", "B1 資料檔案及原題目答題簿"],  "2013-b2": ["/paper3/2013-b2/", "B2 資料檔案及原題目答題簿"],  "2012-b2": ["/paper3/2012-b2/", "資料檔案、評分準則及逐字稿；原答題簿待補"]});function fullReaderFor(year = state.year, level = state.level) {  return FULL_READERS[String(year) + "-" + String(level).toLowerCase()] || null;}function fullReaderLink(year = state.year, level = state.level) {  const reader = fullReaderFor(year, level);  if (!reader) return "";  return '<a class="selection-card is-available" href="' + escapeHtml(reader[0]) + '" style="display:block;text-decoration:none;margin:18px 0;border:2px solid #16727c;background:#e8f3ec"><span class="card-kicker">' + escapeHtml(year + " " + level.toUpperCase()) + ' · SOURCE READER</span><strong style="font-size:clamp(24px,3vw,38px)">Data File 分析 + PP</strong><small>' + escapeHtml(reader[1]) + ' · 原文可選取 · 圖表及插圖 · 中英對照 · 可儲存答案</small><span class="card-status">開啟原文閱讀及練習</span><span class="card-arrow" aria-hidden="true">→</span></a>';}const DATA = window.EDMUND_DSE_PAPER3_DATA;
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-dse-paper3-analysis-session-v1";
@@ -283,6 +284,7 @@ function renderYears() {
       <div><p class="eyebrow">STEP 01 · YEAR</p><h2 id="years-title">選擇年份</h2><p>由 2012 至 2026，您可按年份排列方向瀏覽。已有教材或錄音的年份會以綠色狀態顯示。</p></div>
       <div class="screen-counter"><strong>${years.length}</strong><span>個年份</span></div>
     </header>
+    <section class="paper3-search-panel" data-paper3-search></section>
     <div class="selection-grid">${years.map((year) => selectionCard({
       kicker: "DSE PAPER 3",
       title: year,
@@ -292,6 +294,12 @@ function renderYears() {
       attributes: `data-select-year="${year}" aria-label="選擇 ${year} 年"`
     })).join("")}</div>
   </section>`;
+  mountPaper3Search(elements.screen.querySelector('[data-paper3-search]'), row => {
+    state.year = row.year;
+    if (row.material === 'part-b-transcript') { state.screen = 'levels'; state.level = ''; state.material = ''; renderLibrary(); document.querySelector('[data-partb-transcript]')?.scrollIntoView(); return; }
+    state.level = row.level.toLowerCase(); state.material = row.material; state.screen = 'resource';
+    renderLibrary(); if (row.anchor) jumpTo(row.anchor);
+  });
 }
 
 async function loadPartBAudio(year = state.year) {

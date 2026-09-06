@@ -274,3 +274,6 @@ button:focus-visible,select:focus-visible { outline: 3px solid #b9852f; outline-
   .dse-passage-figure { float:none; width:min(72%,220px); margin:18px auto 8px; }
   .dse-paragraph-figure,.dse-paragraph-figure.is-wide { float:none; width:min(100%,520px); margin:14px auto 18px; }
 }
+
+::highlight(teaching){background:#ffe766;color:#1b251f}.teaching-highlight{background:#ffe766;color:#1b251f}[data-teaching-highlight][aria-pressed="true"]{background:#ffe766;color:#1b251f}.study-toolbar{flex-wrap:wrap}.reading-divider{display:none}
+@media(min-width:981px){.reading-workbench{grid-template-columns:minmax(0,var(--passage-width,50fr)) 16px minmax(0,var(--question-width,50fr));gap:0}.reading-divider{display:block;align-self:stretch;position:relative;cursor:col-resize;touch-action:none;border-radius:8px;min-height:280px}.reading-divider:after{content:"";position:absolute;inset:0 6px;background:#b8cbc4;border-radius:8px}.reading-divider.is-centered:after{background:#467d6a}.reading-divider:hover:after,.reading-divider:focus:after,.reading-divider.is-dragging:after{background:#bd882f}.questions-panel{min-width:0}.reading-divider:focus-visible{outline:2px solid #153f3a}}

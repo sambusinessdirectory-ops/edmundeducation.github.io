@@ -840,6 +840,8 @@ function assignScan(question, paragraph) { state.scanAssignments[question] = par
 function updateScanControls() { $$('[data-scan-question]').forEach((button) => { const p = state.scanAssignments[button.dataset.scanQuestion]; button.textContent = p ? `Scan：P${p}` : "Scan：選擇段落"; button.classList.toggle("has-scan", Boolean(p)); }); $$('[data-scan-choice]').forEach((button) => { const [q, p] = button.dataset.scanChoice.split(":"); button.classList.toggle("is-selected", Number(state.scanAssignments[q]) === Number(p)); }); }
 function renderScanTags() { $$('[data-scan-tags]').forEach((container) => { const paragraph = Number(container.dataset.scanTags); const questions = Object.entries(state.scanAssignments).filter(([, p]) => Number(p) === paragraph).map(([q]) => Number(q)).sort((a, b) => a - b); container.innerHTML = questions.map((q) => `<span class="scan-question-tag" title="第 ${q} 題的 Scan 段落">${q}</span>`).join(""); }); }
 
+function updateReadingFlashcardLink(deck) { const link = document.querySelector('[data-reading-flashcards]'); link.href = `flashcards.html?deck=${encodeURIComponent(deck)}`; link.hidden = /^dse\/reading\/.*\/2026$/.test(deck); }
+
 async function openDseExercise(id) {
   if (state.opening) return; state.opening = true;
   try {
@@ -849,6 +851,7 @@ async function openDseExercise(id) {
     $('[data-dse-tools-notice]').textContent = DEEP_ANALYSIS_ARTICLES.has(id)
       ? '完成每題後，可查看參考答案及完整深度解析。'
       : '答案及分析會稍後加入。';
+    updateReadingFlashcardLink(`dse/reading/part-${state.data.section.toLowerCase()}/${state.data.year}`);
     resetAttemptState(); renderPassage(); renderQuestions(); setupAudio(); restoreDseDraft(); updateAnswerProgress();
     state.exerciseReady = true;
     state.timerHandle = setInterval(updateTimer, 250);
@@ -897,6 +900,7 @@ async function openExercise(id = ARTICLE_ID) {
   }
   const entry = state.catalogue.find((item) => item.id === ARTICLE_ID);
   $('[data-exercise-title]').textContent = entry.title; $('#passage-title').textContent = entry.title;
+  updateReadingFlashcardLink(`ielts/reading/passage-${entry.passage}/Practice ${entry.practice}`);
   $('[data-exercise-kicker]').textContent = `PRACTICE ${entry.practice} · IELTS READING · PASSAGE ${entry.passage}`;
   $('.questions-panel .pane-heading > .eyebrow').textContent = `QUESTIONS ${entry.questionStart}–${entry.questionEnd}`;
   document.title = `${entry.title}｜閱讀理解學習系統`;

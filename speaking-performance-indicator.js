@@ -1,12 +1,22 @@
 (function initialiseSpeakingPerformanceIndicator() {
   "use strict";
 
-  const content = Object.freeze([
+  const pointItems = Object.freeze([
     Object.freeze({ id: "idea-topic-sentence", label: "Idea / Topic Sentence" }),
     Object.freeze({ id: "explanation", label: "Explanation" }),
     Object.freeze({ id: "example", label: "Example" }),
     Object.freeze({ id: "conclusion", label: "Conclusion" }),
     Object.freeze({ id: "contextual-reference", label: "Contextual Reference" })
+  ]);
+
+  const content = Object.freeze([
+    ...[1, 2, 3, 4].flatMap(point => pointItems.map(item => Object.freeze({
+      id: point === 1 ? item.id : `point-${point}-${item.id}`,
+      label: `${['First point', 'Second argument', 'Third argument', 'Fourth argument'][point - 1]} · ${item.label}`,
+      point, shortLabel: item.label
+    }))),
+    Object.freeze({ id: 'task-response', label: 'Task Response 回應題目' }),
+    Object.freeze({ id: 'responding-to-others', label: 'Responding to Others 回應他人' })
   ]);
 
   const language = Object.freeze([
@@ -25,7 +35,8 @@
     Object.freeze({ id: "double-literary-devices", label: "Double literary devices 雙重修辭 (e.g., 並置並置 / 並置排比 etc.)" }),
     Object.freeze({ id: "phrasal-verbs", label: "Phrasal Verbs 動詞片語" }),
     Object.freeze({ id: "concession", label: "Although / Even though / Even if -- (Concession 讓步句)" }),
-    Object.freeze({ id: "precise-vocabulary", label: "Precise Vocabulary" })
+    Object.freeze({ id: "precise-vocabulary", label: "Precise Vocabulary" }),
+    ...[['sentence-structure', 'Sentence Structure 句子結構'], ['supporting-details', 'Supporting Details 支持細節'], ['rephrasing', 'Rephrasing 改述'], ['rhetorical-questions', 'Rhetorical Questions 反問句'], ['common-expressions', 'Common Expressions 常用語'], ['collocations', 'Collocations 詞語搭配'], ['power-words', 'Power Words 有力詞彙']].map(([id, label]) => Object.freeze({ id, label }))
   ]);
 
   const ids = Object.freeze({
@@ -90,8 +101,9 @@
             <thead><tr><th scope="col">評估項目</th><th scope="col">做到</th></tr></thead>
             <tbody>
               ${items.map((item, index) => `
+                ${kind === 'content' && index % 5 === 0 ? `<tr class="performance-point-heading"><th colspan="2">${['First point 第一論點', 'Second argument 第二論點', 'Third argument 第三論點', 'Fourth argument 第四論點', 'Overall response 整體回應'][Math.floor(index / 5)]}</th></tr>` : ''}
                 <tr class="${selected.includes(item.id) ? "is-checked" : ""}">
-                  <th scope="row"><label for="performance-${kind}-${index}">${index + 1}. ${item.label}</label></th>
+                  <th scope="row"><label for="performance-${kind}-${index}">${kind === "content" && item.point ? ((index % 5) + 1) : index + 1}. ${item.shortLabel || item.label}</label></th>
                   <td><input id="performance-${kind}-${index}" type="checkbox" data-performance-kind="${kind}" value="${item.id}" ${selected.includes(item.id) ? "checked" : ""} aria-label="${item.label}"></td>
                 </tr>`).join("")}
             </tbody>

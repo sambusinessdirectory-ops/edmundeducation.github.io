@@ -6143,3 +6143,21 @@ test("the additional-enhancements migration is private, owner-scoped and concurr
     );
   }
 });
+
+test('feedback questions save the authenticated owner and immediately request mail delivery', async () => {
+  const originalFetch = globalThis.fetch;
+  let saved, delivered = 0;
+  globalThis.fetch = async (url, init) => {
+    const call = rpcRequest(url, init);
+    if (call.name === 'writing_submission_student_profile') return jsonResponse(studentProfile());
+    if (call.name === 'writing_feedback_question_add') { saved=call.body; return jsonResponse({id:FRAGMENT_ID,notification_number:1}); }
+    throw new Error(`Unexpected RPC ${call.name}`);
+  };
+  try {
+    const request = new Request(`https://worker.example/v1/submissions/${SUBMISSION_ID}/feedback-questions`,{method:'POST',headers:{Origin:ORIGIN,Authorization:`Bearer ${STUDENT_TOKEN}`,'Content-Type':'application/json'},body:JSON.stringify({id:FRAGMENT_ID,feedbackId:FEEDBACK_ID,sectionKey:'overall',sectionLabel:'Overall',context:'Comment',body:'Why?'})});
+    const response=await worker.fetch(request,environment({FEEDBACK_MAILER:{async deliver(){delivered++;}}}));
+    assert.equal(response.status,200);assert.equal(saved.p_student_id,STUDENT_ID);assert.equal(delivered,1);
+    const bad=new Request(`https://worker.example/v1/submissions/${SUBMISSION_ID}/feedback-questions`,{headers:{Origin:ORIGIN}});
+    assert.equal((await worker.fetch(bad,environment())).status,401);
+  } finally {globalThis.fetch=originalFetch;}
+});
