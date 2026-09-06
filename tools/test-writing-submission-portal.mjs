@@ -388,7 +388,7 @@ test("submission traffic uses a first-party Supabase relay with a safe failure p
     /submissionProxyUrl:\s*"https:\/\/ookkxzgpdclzrrhfmvqx\.supabase\.co\/functions\/v1\/writing-submission-proxy"/
   );
   assert.match(html, /writing-submission-config\.js\?v=20260901-selection-delete1/);
-  assert.match(html, /writing-submission\.js\?v=20260901-pdf-navigation3/);
+  assert.match(html, /writing-submission\.js\?v=20260906-teaching1/);
   assert.match(submissionProxy, /const UPSTREAM_ORIGIN = "https:\/\/edmund-writing-submission\.edmundeducation\.workers\.dev"/);
   assert.match(submissionProxy, /const ALLOWED_ORIGINS = new Set/);
   assert.match(submissionProxy, /request\.method !== "PUT" && request\.method !== "POST"/);
@@ -421,8 +421,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260901-pdf-synonym-table1/);
-  assert.match(html, /writing-submission\.js\?v=20260901-pdf-navigation3/);
+  assert.match(html, /writing-submission\.css\?v=20260906-teaching1/);
+  assert.match(html, /writing-submission\.js\?v=20260906-teaching1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
