@@ -32,3 +32,12 @@ const dse={window:{}};vm.runInNewContext(read('dse-speaking-data.js'),dse);
 assert.ok(Object.values(dse.window.EDMUND_DSE_SPEAKING_DATA.catalog).flat().some(row=>JSON.stringify(row).toLowerCase().includes('lego')));
 const html=read('reading-comprehension.html');assert.match(html,/data-teaching-highlight/);assert.match(html,/reading-teaching-tools.mjs/);
 console.log('Teaching improvements: independent checklist selections, same-deck return, all 20 listening practices, image-only types, Paper 3 search and Lego source passed.');
+
+const reading=new JSDOM('<button data-teaching-highlight>Highlight</button><div class="reading-workbench"><article><p id="passage">This is a teaching passage.</p></article><aside>Questions</aside></div>',{runScripts:'outside-only',pretendToBeVisual:true});
+reading.window.eval(read('reading-teaching-tools.mjs'));
+const doc=reading.window.document;const highlight=doc.querySelector('[data-teaching-highlight]');highlight.click();
+const range=doc.createRange();range.setStart(doc.querySelector('#passage').firstChild,5);range.setEnd(doc.querySelector('#passage').firstChild,18);
+reading.window.getSelection().addRange(range);doc.querySelector('.reading-workbench').dispatchEvent(new reading.window.Event('keyup'));
+assert.equal(doc.querySelector('mark.teaching-highlight').textContent,'is a teaching');highlight.click();assert.equal(doc.querySelector('mark'),null);assert.equal(doc.querySelector('#passage').textContent,'This is a teaching passage.');
+const divider=doc.querySelector('[role=separator]');divider.dispatchEvent(new reading.window.KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));assert.equal(divider.getAttribute('aria-valuenow'),'55');divider.dispatchEvent(new reading.window.KeyboardEvent('keydown',{key:'Home',bubbles:true}));assert.equal(divider.getAttribute('aria-valuenow'),'50');reading.window.close();
+console.log('Temporary highlight selection/clear and keyboard divider reset passed.');
