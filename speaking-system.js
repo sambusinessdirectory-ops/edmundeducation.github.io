@@ -5955,6 +5955,7 @@
     }
     state.recordingPermissionPending = false;
     state.mediaStream = stream;
+    window.EdmundSpeakingTranscription?.start(stream, requestedContextKey);
     try {
       const recorder = createMediaRecorder(stream);
       state.mediaRecorder = recorder;
@@ -6045,6 +6046,7 @@
     syncRecorderControls();
     try {
       recorder.pause();
+      window.EdmundSpeakingTranscription?.pause(true);
     } catch (error) {
       state.recordingTransition = "";
       state.recordingBackgroundPaused = false;
@@ -6062,6 +6064,7 @@
     syncRecorderControls();
     try {
       recorder.resume();
+      window.EdmundSpeakingTranscription?.pause(false);
     } catch (error) {
       state.recordingTransition = "";
       state.mediaStream?.getAudioTracks().forEach(track => { track.enabled = false; });
@@ -6071,6 +6074,7 @@
   }
 
   function finishRecording() {
+    window.EdmundSpeakingTranscription?.stop();
     if (!state.mediaRecorder || !["recording", "paused"].includes(state.mediaRecorder.state) || state.recordingTransition) return;
     if (state.mediaRecorder.state === "recording") commitActiveRecordingDuration();
     state.recordedDurationMs = Math.min(state.recordingElapsedMs, activeRecordingLimitSeconds() * 1000);
@@ -6228,6 +6232,7 @@
   }
 
   function cancelRecorder() {
+    window.EdmundSpeakingTranscription?.stop();
     const hadPendingPermission = state.recordingPermissionPending;
     state.recordingGeneration += 1;
     state.recordingPermissionPending = false;
@@ -6812,7 +6817,8 @@
     if (summary) summary.textContent = `共 ${state.attemptTotal || state.attempts.length} 次錄音`;
     const groups = examAttemptGroups(state.attempts);
     const regular = state.attempts.filter(attempt => !attempt.examRecording);
-    container.innerHTML = `${renderExamRecordingBox(groups)}${renderRegularRecordingBox(regular)}`;
+    container.innerHTML = `${renderExamRecordingBox(groups)}${renderRegularRecordingBox(regular)}<section class="recording-library-box" data-professional-records><h2>Professional Practice · 專業口試紀錄</h2><p>Loading…</p></section>`;
+    import("./speaking-professional-library.mjs").then(m=>m.mountProfessionalLibrary(container.querySelector("[data-professional-records]"))).catch(console.error);
   }
 
   async function renderAttemptsPage() {

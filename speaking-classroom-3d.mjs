@@ -1,0 +1,19 @@
+import * as THREE from './vendor/three/three.module.js';
+import {GLTFLoader} from './vendor/three/loaders/GLTFLoader.js';
+const cache=new Map();const load=name=>{if(!cache.has(name))cache.set(name,new GLTFLoader().loadAsync(new URL(`./assets/speaking-system/classroom/${name}.glb`,import.meta.url).href));return cache.get(name);};
+export async function mountClassroom(root,candidates,onSelect){
+ let disposed=false,frame;const scene=new THREE.Scene();scene.background=new THREE.Color('#e4e9dd');const camera=new THREE.PerspectiveCamera(40,1,.1,100);camera.position.set(6,6.3,9);camera.lookAt(0,.9,0);
+ const renderer=new THREE.WebGLRenderer({antialias:true,alpha:false});renderer.setPixelRatio(Math.min(devicePixelRatio,1.7));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.outputColorSpace=THREE.SRGBColorSpace;root.replaceChildren(renderer.domElement);renderer.domElement.setAttribute('aria-label','3D secondary school classroom. Use candidate buttons below to select a speaker.');
+ scene.add(new THREE.HemisphereLight(0xfff9e8,0x6c776a,2));const sun=new THREE.DirectionalLight(0xfff4df,3);sun.position.set(-4,8,4);sun.castShadow=true;sun.shadow.mapSize.set(1024,1024);sun.shadow.camera.left=-7;sun.shadow.camera.right=7;sun.shadow.camera.top=7;sun.shadow.camera.bottom=-7;scene.add(sun);
+ const ray=new THREE.Raycaster(),mouse=new THREE.Vector2(),pickables=[],rings=new Map();let angle=.55,down=null;
+ const resize=()=>{const w=root.clientWidth||600,h=Math.max(350,Math.min(520,w*.65));renderer.setSize(w,h);camera.aspect=w/h;camera.updateProjectionMatrix();};const observer=new ResizeObserver(resize);observer.observe(root);resize();
+ const mark=object=>object.traverse(o=>{if(o.isMesh){o.castShadow=true;o.receiveShadow=true;}});
+ try{const classroom=(await load('classroom')).scene.clone(true);if(disposed)return;mark(classroom);scene.add(classroom);
+ for(let i=0;i<candidates.length;i++){const c=candidates[i],x=(i-(candidates.length-1)/2)*1.6,z=-1.1-Math.cos((i/(Math.max(1,candidates.length-1))-.5)*Math.PI)*.55;const seat=new THREE.Group();seat.position.set(x,0,z);seat.userData.candidateId=c.id;const desk=(await load('desk')).scene.clone(true);seat.add(desk);
+ if(c.name?.trim()){const horse=(await load(c.mascot||['eddy','elsie','phoebe'][i%3])).scene.clone(true);horse.scale.setScalar(.65);horse.position.set(0,.22,-.56);seat.add(horse);}
+ if(disposed)return;mark(seat);scene.add(seat);pickables.push(seat);const ring=new THREE.Mesh(new THREE.TorusGeometry(.66,.028,8,48),new THREE.MeshBasicMaterial({color:0x35a875}));ring.rotation.x=-Math.PI/2;ring.position.set(x,.03,z);ring.visible=false;scene.add(ring);rings.set(c.id,ring);}
+ }catch(error){if(!disposed)root.insertAdjacentText('beforeend','3D could not load. Use the 2D mode.');throw error;}
+ renderer.domElement.onpointerdown=e=>{down={x:e.clientX,y:e.clientY,angle};renderer.domElement.setPointerCapture(e.pointerId);};renderer.domElement.onpointermove=e=>{if(!down)return;angle=down.angle+(e.clientX-down.x)*.005;camera.position.set(Math.sin(angle)*10,6.3,Math.cos(angle)*10);camera.lookAt(0,.9,0);};renderer.domElement.onpointerup=e=>{if(!down)return;const click=Math.hypot(e.clientX-down.x,e.clientY-down.y)<6;down=null;if(!click)return;const b=renderer.domElement.getBoundingClientRect();mouse.set((e.clientX-b.left)/b.width*2-1,-(e.clientY-b.top)/b.height*2+1);ray.setFromCamera(mouse,camera);const hit=ray.intersectObjects(pickables,true)[0];if(hit){let o=hit.object;while(o&&!o.userData.candidateId)o=o.parent;if(o)onSelect(o.userData.candidateId);}};
+ const render=()=>{if(disposed)return;renderer.render(scene,camera);frame=requestAnimationFrame(render);};render();
+ return {active(id){rings.forEach((ring,key)=>ring.visible=key===id);},dispose(){disposed=true;cancelAnimationFrame(frame);observer.disconnect();renderer.dispose();renderer.domElement.remove();rings.forEach(r=>{r.geometry.dispose();r.material.dispose();});}};
+}

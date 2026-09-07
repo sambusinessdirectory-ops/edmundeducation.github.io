@@ -302,6 +302,7 @@ test("every system header receives one shared account-aware Pomodoro controller"
 test("menu behavior covers hover, focus, Escape and click-outside", () => {
   const { api } = navigationRuntime();
   assert.deepEqual(Array.from(api.systems, system => system.href), [
+    "question-collection.html",
     "background-music.html",
     "student-progress.html",
     "flashcards.html",

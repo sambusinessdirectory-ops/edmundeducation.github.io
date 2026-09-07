@@ -313,6 +313,7 @@
     }
     const question = questions[state.current - 1];
     const correct = isCorrect(question, answer);
+    window.EdmundAnswerSound?.play(correct);
     state.attempts[state.current] = { answer, status: correct ? "correct" : "wrong", checkedAt: new Date().toISOString() };
     saveLocal();
     elements.input.setAttribute("aria-invalid", String(!correct));

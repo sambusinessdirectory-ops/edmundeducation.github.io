@@ -196779,6 +196779,7 @@ window.EDMUND_FLASHCARD_SEED = {
       const sourceIndex = card?.sourceCardIndex ?? currentIndex;
       const key = String(currentIndex);
       const wasAnsweredThisRound = Boolean(studySession.answers[key]);
+      window.EdmundAnswerSound?.play(result === "green");
       studySession.answers[key] = result;
       studySession.outcomes[key] = result;
       studySession.outcomeTimes[key] = Date.now();

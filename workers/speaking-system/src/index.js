@@ -179,6 +179,43 @@ async function route(request, env, ctx) {
   }
   assertConfigured(env);
 
+  if (url.pathname === "/v1/learning-hub/identity" && request.method === "GET") {
+    const token = bearerToken(request);
+    if (!UUID_RE.test(token || "")) throw new HttpError(401,"AUTH_REQUIRED","Please sign in");
+    return json(await hubRpc(env,"learning_hub_identity",{p_token:token}),200,request,env);
+  }
+  const professionalAudio = url.pathname.match(/^\/v1\/professional-audio\/([0-9a-f-]{36})\/([0-9a-f-]{36})$/i);
+  if (professionalAudio && ["GET","PUT"].includes(request.method)) {
+    const token = bearerToken(request);
+    if (!token) throw new HttpError(401,"AUTH_REQUIRED","Please sign in");
+    const record = await hubRpc(env,"speaking_professional_action",{p_token:token,p_action:"get",p_payload:{id:professionalAudio[1]}});
+    if (!record.session?.turns?.some(turn=>turn.id===professionalAudio[2])) throw new HttpError(404,"NOT_FOUND","Turn not found");
+    const path = "/storage/v1/object/" + (request.method === "GET" ? "authenticated/" : "") + "speaking-professional-audio/" + professionalAudio[1] + "/" + professionalAudio[2];
+    if (request.method === "PUT") {
+      if (!record.canEdit) throw new HttpError(403,"FORBIDDEN","Only the session host can upload audio");
+      const mime=(request.headers.get("Content-Type")||"").split(";")[0];
+      if (!["audio/webm","audio/ogg","audio/mp4"].includes(mime)) throw new HttpError(400,"INVALID_AUDIO","Unsupported audio format");
+      const bytes=await readLimitedBytes(request,20*1024*1024);
+      const valid=bytes.length>32&&(mime==='audio/webm'?bytes[0]===0x1a&&bytes[1]===0x45&&bytes[2]===0xdf&&bytes[3]===0xa3:mime==='audio/ogg'?decoder.decode(bytes.slice(0,4))==='OggS':decoder.decode(bytes.slice(4,8))==='ftyp');
+      if(!valid)throw new HttpError(400,"INVALID_AUDIO","Invalid audio container");
+      const response=await supabaseFetch(env,path,{method:"POST",headers:{"Content-Type":mime,"x-upsert":"true"},body:bytes},60000);
+      if(!response.ok)throw new HttpError(502,"UPLOAD_FAILED","Audio could not be uploaded. Your device copy is kept.");
+      return json({ok:true,size:bytes.length,mime},200,request,env);
+    }
+    const response=await supabaseFetch(env,path,{method:"GET"},60000);
+    if(!response.ok)throw new HttpError(response.status===404?404:502,"AUDIO_UNAVAILABLE","Audio is not available yet");
+    const headers=corsHeaders(origin,env);headers.set("Content-Type",response.headers.get("Content-Type")||"audio/webm");headers.set("Cache-Control","private, no-store");
+    return new Response(response.body,{status:200,headers});
+  }
+  const hubRoute = url.pathname.match(/^\/v1\/(questions|professional)\/([a-z-]+)$/);
+  if (hubRoute && request.method === "POST") {
+    const token = bearerToken(request);
+    if (!UUID_RE.test(token || "")) throw new HttpError(401,"AUTH_REQUIRED","Please sign in");
+    const actions = hubRoute[1] === "questions" ? ["list","save","reply"] : ["list","get","save","join-code","resolve","students"];
+    if (!actions.includes(hubRoute[2])) throw new HttpError(404,"NOT_FOUND","Not found");
+    const payload = await readLimitedJson(request, 2 * 1024 * 1024);
+    return json(await hubRpc(env,hubRoute[1] === "questions" ? "learning_question_action" : "speaking_professional_action",{p_token:token,p_action:hubRoute[2],p_payload:payload}),200,request,env);
+  }
   if (url.pathname === "/v1/admin/login" && request.method === "POST") {
     return adminLogin(request, env);
   }
@@ -3092,4 +3129,15 @@ function crc32Update(state, bytes) {
 
 function crc32(bytes) {
   return (crc32Update(0xFFFFFFFF, bytes) ^ 0xFFFFFFFF) >>> 0;
+}
+
+async function hubRpc(env,name,payload){
+ const response=await supabaseFetch(env,`/rest/v1/rpc/${name}`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+ const data=await response.json();if(response.ok)return data;
+ const code=String(data?.code||'');
+ if(code==='42501')throw new HttpError(403,'FORBIDDEN','Please sign in with an authorized account.');
+ if(code==='40001')throw new HttpError(409,'CONFLICT','Record changed on another device. Reload before saving.');
+ if(code==='P0001')throw new HttpError(400,'INVALID_ACTION',String(data.message||'Invalid action').slice(0,250));
+ if(['22P02','23514','23502'].includes(code))throw new HttpError(400,'INVALID_INPUT','Please check the submitted details.');
+ throw new HttpError(502,'DATA_SERVICE_UNAVAILABLE','Learning service is temporarily unavailable.');
 }

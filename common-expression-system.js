@@ -1214,6 +1214,7 @@ async function submitAnswers({ all = false } = {}) {
     addLocalQuestionCompletion(lesson.id, question.id, now);
     if (correct) correctCount += 1;
   }
+  window.EdmundAnswerSound?.play(correctCount === targets.length);
   record.updatedAt = now;
   if (isLessonComplete(lesson) && !record.completedAt) record.completedAt = new Date().toISOString();
   captureClockElapsed({ restart: true });

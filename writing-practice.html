@@ -10712,7 +10712,8 @@ Device: concession 讓步
 
       const completedAt = Date.now();
 
-      const result = {
+      window.EdmundAnswerSound?.play(mistakes.length === 0);
+          const result = {
         schemaVersion: 3,
         id: `${exercise.id}-${completedAt}-${practiceState.round}`,
         exerciseId: exercise.id,

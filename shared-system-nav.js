@@ -15,6 +15,7 @@
     taskLabel: "英文學習"
   });
   const SYSTEMS = Object.freeze([
+    {id:"question-collection",href:"question-collection.html",zh:"提問集",en:"Question Collection"},
     {id:"background-music",href:"background-music.html",zh:"背景音樂系統",en:"Background Music System"},
     { id: "progress", href: "student-progress.html", zh: "全面英文能力發展進度表", en: "Student Progress", homepageCard: 24 },
     { id: "flashcards", href: "flashcards.html", zh: "Flashcard 學習卡", en: "Flashcard System", homepageCard: 14 },
@@ -1248,3 +1249,6 @@
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initialise, { once: true });
   else initialise();
 })();
+
+// Shared classroom controls are loaded once on every learning portal.
+if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20260907-1",document.currentScript.src).href;script.defer=true;document.head.append(script);}

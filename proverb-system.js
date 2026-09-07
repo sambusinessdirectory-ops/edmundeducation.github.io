@@ -2220,6 +2220,7 @@ async function submitExercise(kind) {
     }
   }
 
+  window.EdmundAnswerSound?.play(incorrectThisTime.length === 0);
   state.exercise.rounds.push({
     round: state.exercise.round,
     kind,

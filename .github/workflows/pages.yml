@@ -243,6 +243,8 @@ jobs:
           node tools/test-feedback-questions.mjs
           node tools/test-teaching-improvements.mjs
           node tools/test-classroom-release.mjs
+          node tools/test-september-classroom.mjs
+          node tools/test-professional-ui.mjs
           node tools/test-email-atomic-submission.mjs
           node tools/test-email-submit-ui.mjs
           node tools/test-email-attempts.mjs

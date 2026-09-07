@@ -18,7 +18,7 @@ const ok = (data) => ({ ok: true, status: 200, json: async () => data });
 test("homepage card 59 and all 18 seed types are connected", () => {
   const home = read("index.html");
   const cards = [...home.matchAll(/<a class="category(?:\s|\")[\s\S]*?<\/a>/g)];
-  assert.equal(cards.length, 61);
+  assert.equal(cards.length, 62);
   assert.match(cards[60][0], /href="background-music.html"/);
   assert.match(cards[58][0], /href="eddie-farm.html"/);
   assert.match(cards[58][0], /Eddie Farm<br>積分系統/);

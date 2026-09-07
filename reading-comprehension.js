@@ -618,6 +618,7 @@ async function submitAnswers(partial = false, force = false) {
   if (incompleteMultiple && !force) return showToast(`第 ${incompleteMultiple.number} 題需要選擇 ${incompleteMultiple.slots} 項。`);
   if (!count) return showToast("請先作答至少一題。"); if (!partial && !force && count < state.data.questions.length) return showToast(`尚有 ${state.data.questions.length - count} 題未作答；可先提交已作答題目。`);
   el.submissionStatus.textContent = "正在提交答案…"; const payload = await saveAttempt(true, force); if (payload && payload.status === "in_progress") el.submissionStatus.textContent = `已批改 ${payload.answered_count ?? count} 題；可繼續完成其餘題目。${payload.review_count ? `另有 ${payload.review_count} 題待教師核對。` : ''}`;
+  const graded=(payload?.question_results||payload?.results||[]).filter(row=>typeof row.correct==='boolean');if(graded.length)window.EdmundAnswerSound?.play(graded.every(row=>row.correct));
   if (!payload) el.submissionStatus.textContent = '未能提交；目前答案仍保留在此頁，請稍後再試。';
 }
 

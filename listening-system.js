@@ -831,6 +831,7 @@ function markPartAnswers() {
   const total = part.questions.reduce((sum, question) => sum + (question.type === "multi" ? question.numbers.length : 1), 0);
   score.textContent = `Part ${part.part}：${correct} / ${total} 題正確`;
   score.hidden = false;
+  window.EdmundAnswerSound?.play(correct === total);
   // This existing rewards endpoint only knows Practice 1. Never overwrite its
   // answers with identically numbered questions from a different practice.
   if (state.practice === 1 && state.token && Object.keys(submitted).length) {
