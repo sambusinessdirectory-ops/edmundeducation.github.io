@@ -1,7 +1,7 @@
 import {hubSession,hubRequest,escapeHtml as esc} from './learning-hub-client.mjs';
 const listening=location.pathname.endsWith('listening-system.html'),reading=location.pathname.includes('reading-comprehension'),paper3=location.pathname.includes('dse-paper3')||location.pathname.startsWith('/paper3/');
 const system=listening?'listening':'reading',main=document.querySelector('main')||document.body;
-const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('./study-support.css',import.meta.url);document.head.append(css);
+const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('./study-support.css?v=20260908-polish6',import.meta.url);document.head.append(css);
 const account=()=>hubSession()?.id||hubSession()?.name||'guest';
 const read=(k,f)=>{try{return JSON.parse(localStorage.getItem(k))??f;}catch{return f;}};
 const write=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v));}catch{}};
