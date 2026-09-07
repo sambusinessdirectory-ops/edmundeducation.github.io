@@ -18,6 +18,7 @@ const customAppleIconApps = Object.freeze({
 });
 
 const htmlPages = [
+  "elsie-model-review.html",
   "mistake-logbook.html", "question-collection.html", "background-music.html", "speaking-professional.html",
   "about.html",
   "argument-learning-system.html",
