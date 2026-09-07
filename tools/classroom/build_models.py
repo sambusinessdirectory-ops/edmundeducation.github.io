@@ -13,7 +13,7 @@ def finish(o,name,mat,parent=None):
  if parent:o.parent=parent
  return o
 def ball(name,loc,scale,mat,parent=None):
- bpy.ops.mesh.primitive_uv_sphere_add(segments=24,ring_count=12,location=loc);o=bpy.context.object;o.scale=scale;finish(o,name,mat,parent)
+ bpy.ops.mesh.primitive_uv_sphere_add(segments=40,ring_count=24,location=loc);o=bpy.context.object;o.scale=scale;finish(o,name,mat,parent)
  for p in o.data.polygons:p.use_smooth=True
  return o
 def box(name,loc,scale,mat,parent=None,bevel=.04):
@@ -23,32 +23,52 @@ def box(name,loc,scale,mat,parent=None,bevel=.04):
  return o
 def curve(name,pts,radius,mat,parent=None):
  d=bpy.data.curves.new(name,'CURVE');d.dimensions='3D';d.resolution_u=10;d.bevel_depth=radius;d.bevel_resolution=3;s=d.splines.new('BEZIER');s.bezier_points.add(len(pts)-1)
- for p,co in zip(s.bezier_points,pts):p.co=co;p.handle_left_type='AUTO';p.handle_right_type='AUTO'
+ for i,(p,co) in enumerate(zip(s.bezier_points,pts)):
+  p.co=co;p.handle_left_type='AUTO';p.handle_right_type='AUTO';p.radius=(1 if i<len(pts)-1 else .18) if 'mane' in name.lower() or 'forelock' in name.lower() or 'tail' in name.lower() else 1
  o=bpy.data.objects.new(name,d);bpy.context.collection.objects.link(o);finish(o,name,mat,parent);return o
 def group(name):
  o=bpy.data.objects.new(name,None);bpy.context.collection.objects.link(o);return o
-def ear(x,parent):
- o=ball('Upright leaf ear',(x,.02,2.25),(.105,.08,.25),goldcoat,parent);o.rotation_euler[1]=-.22 if x<0 else .22
- ball('Warm inner ear',(x,-.065,2.26),(.06,.018,.17),muzzle,parent)
+def fuse(objects,name,mat,parent):
+ bpy.ops.object.select_all(action='DESELECT')
+ for o in objects:o.select_set(True)
+ bpy.context.view_layer.objects.active=objects[0];bpy.ops.object.convert(target='MESH');bpy.ops.object.join();o=bpy.context.object
+ bpy.ops.object.transform_apply(location=False,rotation=False,scale=True)
+ remesh=o.modifiers.new('Continuous sculpted silhouette','REMESH');remesh.mode='VOXEL';remesh.voxel_size=.022;bpy.ops.object.modifier_apply(modifier=remesh.name)
+ smooth=o.modifiers.new('Soft anatomical transitions','SMOOTH');smooth.factor=1.2;smooth.iterations=5;bpy.ops.object.modifier_apply(modifier=smooth.name)
+ o.name=name;o.parent=parent;o.data.materials.clear();o.data.materials.append(mat)
+ for face in o.data.polygons:face.use_smooth=True
+ return o
+def ear(x,parent,skin):
+ o=ball('Leaf shaped ear',(x,.01,2.18),(.095,.068,.235),skin,parent)
+ for v in o.data.vertices:
+  if v.co.z>0:v.co.x*=1-v.co.z*.65
+ o.rotation_euler[1]=-.24 if x<0 else .24
+ inner=ball('Velvet inner ear',(x,-.054,2.18),(.044,.014,.145),muzzle,parent);inner.rotation_euler[1]=o.rotation_euler[1]
 def horse(name):
  g=group(name);hair=dark if name=='eddy' else cream if name=='elsie' else goldhair;skin=coat if name=='eddy' else goldcoat
- ball('Compact equine torso',(0,.04,.87),(.34,.43,.43),skin,g);ball('Neck',(0,-.13,1.30),(.25,.26,.40),skin,g)
- ball('Large rounded head',(0,-.19,1.79),(.36,.33,.43),skin,g)
- for x in [-.235,.235]:ear(x,g)
- for x in [-.16,.16]:
-  for y in [-.20,.30]:
-   ball('Equine leg',(x,y,.47),(.11,.12,.31),skin,g);ball('Dark rounded hoof',(x,y-.025,.19),(.135,.17,.13),dark,g)
- ball('Broad oval muzzle',(0,-.48,1.54),(.29,.23,.20),muzzle,g)
+ body=[ball('Ribcage',(0,.09,.86),(.35,.46,.45),skin,g),ball('Shoulders',(0,-.12,1.06),(.29,.30,.36),skin,g),ball('Tapered neck',(0,-.14,1.35),(.23,.25,.39),skin,g)]
+ for x in [-.19,.19]:
+  for y in [-.20,.32]:
+   body.append(ball('Upper leg',(x,y,.53),(.115,.13,.32),skin,g));body.append(ball('Lower leg',(x,y-.015,.31),(.085,.105,.21),skin,g));ball('Soft square hoof',(x,y-.035,.16),(.115,.15,.10),dark,g)
+ fuse(body,'Sculpted body and legs',skin,g)
+ existing=set(bpy.context.scene.objects)
+ headparts=[ball('Cheek and forehead',(0,-.21,1.79),(.355,.31,.345),skin,g),ball('Tapered facial bridge',(0,-.39,1.66),(.27,.275,.27),skin,g)]
+ fuse(headparts,'Sculpted equine face',skin,g)
+ for x in [-.245,.245]:ear(x,g,skin)
+ ball('Velvet soft muzzle',(0,-.54,1.54),(.285,.195,.16),muzzle,g)
  if name!='eddy':
-  ball('Continuous pale blaze',(0,-.500,1.87),(.072,.037,.30),white,g);ball('Blaze onto upper muzzle',(0,-.654,1.65),(.073,.018,.10),white,g)
- for x in [-.18,.18]:
-  ball('Dark eye socket',(x,-.442,1.85),(.119,.075,.161),muzzle,g);ball('Cream sclera',(x,-.498,1.86),(.103,.038,.137),white,g)
-  ball('Iris',(x+.012,-.53,1.85),(.075,.025,.11),iris if name=='elsie' else brown,g);ball('Pupil',(x+.014,-.55,1.86),(.046,.015,.080),black,g)
-  ball('Upper left catchlight',(x-.012,-.565,1.91),(.025,.01,.033),white,g);ball('Nostril',(x*.65,-.677,1.57),(.029,.015,.037),dark,g)
-  curve('Eyebrow',[(x-.065,-.40,2.06),(x,-.445,2.08),(x+.065,-.41,2.06)],.016,dark,g)
+  ball('Ivory facial blaze',(0,-.496,1.85),(.059,.016,.23),white,g);ball('Blaze bridge',(0,-.632,1.67),(.053,.015,.10),white,g)
+ for x in [-.19,.19]:
+  # Small warm sclera and large irises prevent a startled, staring expression.
+  eye=group('EyeBlink');eye.location=(x,-.458,1.84);eye.parent=g
+  for label,loc,scale,mat in [('Soft eye rim',(0,0,0),(.105,.048,.118),muzzle),('Warm sclera',(0,-.027,0),(.090,.026,.102),white),('Large iris',(.006,-.045,-.003),(.075,.018,.089),iris if name=='elsie' else brown),('Soft pupil',(.007,-.060,0),(.048,.009,.067),black),('Eye glint',(-.019,-.070,.030),(.019,.006,.024),white)]:ball(label,loc,scale,mat,eye)
+  # Children use local eye coordinates; the exported group is also the blink pivot.
+  curve('Relaxed upper eyelid',[(x-.08,-.47,1.89),(x,-.50,1.943),(x+.08,-.47,1.90)],.015,skin,g)
+  ball('Small nostril',(x*.65,-.717,1.57),(.022,.009,.018),dark,g)
+  curve('Friendly eyebrow',[(x-.06,-.43,2.015),(x,-.452,2.032),(x+.055,-.43,2.022)],.013,hair,g)
   if name!='eddy':
-   for n in range(3):curve('Elegant lash',[(x,-.5,1.96),(x+(.11 if x>0 else -.11),-.49,2.01+n*.018)],.009,dark,g)
- curve('Restrained smile',[(-.105,-.673,1.48),(0,-.700,1.445),(.105,-.673,1.48)],.012,dark,g)
+   curve('Outer lash',[(x,-.49,1.94),(x+(.10 if x>0 else -.10),-.46,1.965)],.010,dark,g)
+ curve('Gentle smile',[(-.12,-.695,1.48),(0,-.731,1.465),(.12,-.695,1.48)],.008,dark,g)
  for i in range(4):
   x=-.24+i*.14
   curve('Broad swept forelock',[(.18,.00,2.17),(x,-.25,2.20),(x-.08,-.43,2.05-i*.02)],.095,hair,g)
@@ -66,6 +86,11 @@ def horse(name):
   for x in [-.29,.29]:
    curve('Halter cheek strap',[(x,-.42,1.6),(x*.97,-.25,1.93),(x*.7,.08,2.08)],.024,muzzle,g)
    bpy.ops.mesh.primitive_torus_add(major_radius=.047,minor_radius=.012,major_segments=20,minor_segments=8,location=(x,-.60,1.61),rotation=(math.pi/2,0,0));finish(bpy.context.object,'Gold halter ring',brass,g)
+ head=group('HeadRig');head.location=(0,-.12,1.36);head.parent=g
+ bpy.context.view_layer.update()
+ for o in list(bpy.context.scene.objects):
+  if o not in existing and o not in [head,g] and o.parent==g and 'tail' not in o.name.lower():
+   world=o.matrix_world.copy();o.parent=head;o.matrix_world=world
  return g
 def desk(name='Student desk'):
  g=group(name);box('Rounded wooden desktop',(0,0,.79),(.94,.63,.07),wood,g)
@@ -107,7 +132,7 @@ export('classroom')
 for i,name in enumerate(['eddy','elsie','phoebe']):
  g=desk('Candidate '+name);g.location=((i-1)*1.55,1.2,0)
  h=horse(name);h.location=((i-1)*1.55,1.7,.18);h.scale=(.65,.65,.65)
-scene=bpy.context.scene;scene.render.engine='CYCLES';scene.cycles.samples=32;scene.world.color=(.65,.65,.65)
+scene=bpy.context.scene;scene.render.engine='CYCLES';scene.cycles.samples=24;scene.world.color=(.65,.65,.65)
 for name,loc,power,size in [('Window daylight',(-3,-4,7),1400,7),('Fill',(4,-1,5),950,6)]:
  bpy.ops.object.light_add(type='AREA',location=loc);o=bpy.context.object;o.name=name;o.data.energy=power;o.data.shape='DISK';o.data.size=size;o.rotation_euler=(Vector((0,1,1))-o.location).to_track_quat('-Z','Y').to_euler()
 bpy.ops.object.camera_add(location=(7,-10,7));cam=bpy.context.object;cam.rotation_euler=(Vector((0,1,1))-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.type='ORTHO';cam.data.ortho_scale=11;scene.camera=cam

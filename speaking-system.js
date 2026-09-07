@@ -53,6 +53,7 @@
   ];
 
   const EXAM_ACCESS_KEYS = {
+    freestyle: "exam.ielts",
     dse: "exam.dse",
     ielts: "exam.ielts",
     business: "exam.business",
@@ -309,7 +310,7 @@
   }
 
   function examAvailable(examId) {
-    return ["dse", "ielts"].includes(examId);
+    return ["dse", "ielts", "freestyle"].includes(examId);
   }
 
   function bookAvailable(part, book) {
@@ -1009,7 +1010,8 @@
       state.routeHistory.push({ ...state.route });
     }
     if (!routesEqual(route, state.route)) state.routeGeneration += 1;
-    state.route = { ...route };
+    state.route = { ...route, presentation: route.view === "exams" || route.exam === "dse" ? "" : (route.presentation ?? state.route.presentation ?? "") };
+    document.body.classList.toggle("speaking-freestyle",state.route.presentation === "freestyle");
     renderRoute();
     window.scrollTo({ top: 0, behavior: preferredScrollBehavior() });
     document.querySelector("#main-content")?.focus({ preventScroll: true });
@@ -1133,6 +1135,17 @@
         break;
       default:
         renderExams();
+    }
+  }
+
+  function applySpeakingPresentation() {
+    if(state.route.presentation !== "freestyle")return;
+    const wording=value=>String(value).replace(/IELTS\s*(?:Speaking)?/gi,"Freestyle Speaking").replace(/雅思/g,"自由會話").replace(/Band\s*9/gi,"Advanced").replace(/說話考試/g,"說話練習").replace(/考試練習模式/g,"自由會話練習模式").replace(/EXAM MODE/gi,"PRACTICE MODE").replace(/EXAM COMPLETE/gi,"PRACTICE COMPLETE");
+    for(const root of [dom.content,dom.breadcrumbs]) {
+      if(!root)continue;const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+      while(walker.nextNode()){const n=walker.currentNode;if(n.parentElement?.closest('script,style,textarea'))continue;const next=wording(n.nodeValue);if(next!==n.nodeValue)n.nodeValue=next;}
+      for(const el of root.querySelectorAll('[title],[alt],[aria-label]'))for(const attr of ['title','alt','aria-label'])if(el.hasAttribute(attr)){const old=el.getAttribute(attr),next=wording(old);if(next!==old)el.setAttribute(attr,next);}
+      for(const img of root.querySelectorAll('.exam-practice-cover img'))if(img.getAttribute('src')?.includes('ielts-exam-practice')){img.src='assets/speaking-system/mascot-speaking.png';img.alt='Freestyle Speaking';}
     }
   }
 
@@ -1921,14 +1934,14 @@
           <div class="speaking-search-results" data-speaking-search-results></div>
         </div>
         <div class="choice-grid">
-          ${EXAMS.map((exam, index) => {
+          ${[...EXAMS, {id:"freestyle",title:"Freestyle Speaking",description:"自由英語會話 · 日常話題、示範回答與完整練習模式"}].map((exam, index) => {
             const available = examAvailable(exam.id);
             const allowed = hasAccess([EXAM_ACCESS_KEYS[exam.id]]);
-            const bookmark = { kind: "exam", exam: exam.id };
+            const bookmark = { kind: "exam", exam: exam.id === "freestyle" ? "ielts" : exam.id };
             return `
               <div class="selection-card-wrap choice-card-wrap">
                 <button class="choice-card${available ? "" : " coming-soon"}${allowed ? "" : " access-locked"}" type="button" data-exam="${escapeHtml(exam.id)}" ${allowed ? "" : 'aria-disabled="true"'}>
-                  <span class="card-number">0${index + 1} · SPEAKING</span>
+                  <span class="card-number">0${exam.id === "freestyle" ? 7 : index + 1} · SPEAKING</span>
                   <strong>${escapeHtml(exam.title)}</strong>
                   <small>${escapeHtml(exam.description)}</small>
                   ${allowed ? "" : '<span class="availability">尚未開放</span>'}
@@ -7490,7 +7503,7 @@
           toast("你的帳戶尚未開放這個練習範圍。", "error");
         } else if (!examAvailable(exam.dataset.exam)) {
           toast("這個練習範疇正在準備中。", "info");
-        } else navigate(exam.dataset.exam === "dse" ? { view: "dse-sections", exam: "dse" } : { view: "parts", exam: "ielts" });
+        } else navigate(exam.dataset.exam === "dse" ? { view: "dse-sections", exam: "dse" } : { view: "parts", exam: "ielts", presentation: exam.dataset.exam === "freestyle" ? "freestyle" : "" });
         return;
       }
 
@@ -7983,6 +7996,9 @@
   }
 
   async function init() {
+  new MutationObserver(applySpeakingPresentation).observe(dom.content,{subtree:true,childList:true,characterData:true});
+  new MutationObserver(applySpeakingPresentation).observe(dom.breadcrumbs,{subtree:true,childList:true});
+
     setupEvents();
     initializeSpeakingWordBrush();
     const restored = restoreSession();
