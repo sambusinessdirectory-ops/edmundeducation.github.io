@@ -270,6 +270,15 @@ async function route(request, env) {
   if (url.pathname === "/v1/admin/students" && request.method === "GET") {
     return listAdminStudents(request, env);
   }
+  const republishMatch=url.pathname.match(/^\/v1\/admin\/submissions\/([0-9a-f-]{36})\/republish$/i);
+  if(republishMatch && request.method==='POST') {
+    const admin=await authenticateAdmin(request,env);if(!admin)throw new HttpError(401,'ADMIN_AUTH_REQUIRED','Administrator authentication required');
+    const result=await rpc(env,'writing_submission_admin_republish',{p_admin_token:admin.token,p_submission_id:republishMatch[1]});return json(result,200,request,env);
+  }
+  if(url.pathname==='/v1/submissions/delivery-version' && request.method==='GET') {
+    const token=String(request.headers.get('Authorization')||'').replace(/^Bearer\s+/i,'');if(!UUID_RE.test(token))throw new HttpError(401,'AUTH_REQUIRED','Please sign in');
+    return json(await rpc(env,'writing_submission_delivery_version',{p_token:token}),200,request,env);
+  }
   if (url.pathname === "/v1/admin/submissions" && request.method === "GET") {
     return listAdminSubmissions(request, env, url);
   }

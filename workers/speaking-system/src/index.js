@@ -174,6 +174,13 @@ async function route(request, env, ctx) {
     );
   }
 
+  const music=url.pathname.match(/^\/v1\/background-music\/(fma-[0-9]+\.mp3)$/);
+  if(music && ['GET','HEAD'].includes(request.method)){
+    const object=await env.EDMUND_ASSETS.get('background-music/'+music[1],{range:request.headers});if(!object)return new Response('Not found',{status:404});
+    const headers=new Headers({'Content-Type':'audio/mpeg','Cache-Control':'public, max-age=86400','Accept-Ranges':'bytes','Access-Control-Allow-Origin':'*','ETag':object.httpEtag});
+    let status=200;if(object.range){const start=object.range.offset||0,length=object.range.length||object.size;headers.set('Content-Range',`bytes ${start}-${start+length-1}/${object.size}`);headers.set('Content-Length',String(length));status=206;}else headers.set('Content-Length',String(object.size));
+    return new Response(request.method==='HEAD'?null:object.body,{status,headers});
+  }
   if (!isAllowedOrigin(origin, env)) {
     return json({ error: "Origin not allowed", code: "ORIGIN_NOT_ALLOWED" }, 403, request, env);
   }

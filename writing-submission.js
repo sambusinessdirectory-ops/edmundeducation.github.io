@@ -7149,6 +7149,7 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   quickSave.dataset.feedbackSave = "draft";
   const headingActions = createElement("div", "teacher-feedback-editor-head-actions");
   headingActions.append(badge, recoveryStatus, quickSave);
+  const republish=createElement('button','secondary-button','重新推送文章 · Republish');republish.type='button';republish.title='重新同步現有文章，不更改內容或評語';republish.onclick=async()=>{republish.disabled=true;try{await apiJson('/v1/admin/submissions/'+submission.id+'/republish',{method:'POST'});showToast('文章已重新推送；學生連線時會自動更新文章列表。');}catch(error){handleViewError(error);}finally{republish.disabled=false;}};headingActions.append(republish);
   heading.append(copy, headingActions);
   panel.append(heading);
   const regionId = key => `feedback-${submission.id}-${key}`;
@@ -10240,3 +10241,7 @@ document.querySelector('[data-refresh-questions]').addEventListener('click',()=>
 document.querySelector('[data-more-questions]').addEventListener('click',()=>openFeedbackInbox(true));
 
 document.querySelectorAll('[data-paper3-topic-category]').forEach(button=>button.addEventListener('click',()=>{elements.topicPickerSearch.value='DSE Integrated '+button.dataset.paper3TopicCategory;renderWritingTopicResults(elements.topicPickerSearch.value);}));
+
+let articleDeliveryVersion="0",articleDeliveryBusy=false;
+async function refreshArticleDelivery(){if(articleDeliveryBusy||document.hidden||state.user?.role==='admin'||!state.authToken)return;articleDeliveryBusy=true;try{const result=await apiJson('/v1/submissions/delivery-version');if(articleDeliveryVersion!==null&&articleDeliveryVersion!==result.version&&state.currentView==='submissions')await loadSubmissions({selectId:state.selectedSubmissionId||''});articleDeliveryVersion=result.version;}catch{}finally{articleDeliveryBusy=false;}}
+setInterval(refreshArticleDelivery,30000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshArticleDelivery();});

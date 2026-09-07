@@ -6897,6 +6897,7 @@
         toast("錄音已載入，但考試題目清單及自評暫時未能同步。", "error");
       }
       renderAttemptList();
+      if(state.restoreExamSource&&state.examSourceReturn){const snapshot=state.examSourceReturn;state.restoreExamSource=false;dom.content.querySelectorAll('details').forEach((d,i)=>d.open=snapshot.open.includes(i));requestAnimationFrame(()=>window.scrollTo({top:snapshot.scroll,behavior:'auto'}));}
       setConnection("錄音庫已同步", "live");
     } catch (error) {
       if (isAbortError(error) || !attemptRequestIsCurrent(requestGeneration, authGeneration)) return;
@@ -7636,7 +7637,11 @@
       if (examSource) {
         let route = null;
         try { route = JSON.parse(decodeURIComponent(examSource.dataset.openExamSource || "")); } catch { /* Ignore malformed DOM data. */ }
-        if (route && routeAllowed(route)) navigate(route);
+        if (route && routeAllowed(route)) {
+          if(state.route.view==='attempts')state.examSourceReturn={route:{...state.route},scroll:window.scrollY,open:[...dom.content.querySelectorAll('details')].map((d,i)=>d.open?i:-1).filter(i=>i>=0)};
+          navigate(route);
+          if(state.examSourceReturn){const back=document.createElement('button');back.className='secondary-button exam-source-return';back.textContent='← 返回本次練習題目 · Back to exam questions';back.onclick=()=>{state.restoreExamSource=true;navigate(state.examSourceReturn.route);};dom.content.prepend(back);}
+        }
         else toast("這條題目的來源目前未開放。", "error");
         return;
       }
@@ -8001,7 +8006,12 @@
 
     setupEvents();
     initializeSpeakingWordBrush();
-    const restored = restoreSession();
+    const adminSignIn = new URLSearchParams(location.search).get("admin") === "1";
+    const restored = adminSignIn ? false : restoreSession();
+    if (adminSignIn && dom.loginForm) {
+      dom.loginForm.elements.username.value = CONFIG.adminUsername || "Sam Admin Speaking";
+      dom.loginForm.elements.password.value = "";
+    }
     if (restored) {
       setConnection("驗證登入時段", "connecting");
       try {

@@ -247,6 +247,7 @@ jobs:
           node tools/test-system-access-round4.mjs
           node tools/test-speaking-navigation-round4.mjs
           node tools/test-speaking-freestyle-camera.mjs
+          node tools/test-classroom-polish.mjs
           node tools/test-september-classroom.mjs
           node tools/test-professional-ui.mjs
           node tools/test-email-atomic-submission.mjs

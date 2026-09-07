@@ -489,6 +489,7 @@ function bindDseTranscriptSync(taskNumber) {
   const host = elements.dseWorkspace.querySelector("[data-dse-transcript]");
   if (!audio || !host) return;
   const lines = [...host.querySelectorAll("[data-dse-transcript-line]")];
+  lines.forEach((line,index)=>{line.dataset.end=lines[index+1]?.dataset.start||String(audio.duration||Number(line.dataset.start)+30);});
   const activate = () => {
     const time = Number(audio.currentTime) || 0;
     let current = -1;
@@ -908,6 +909,7 @@ function bindTranscriptSync(partNumber) {
   const authoredLines = Array.isArray(timingPart.lines) && timingPart.lines.length === lines.length ? timingPart.lines : [];
   const hasTiming = index => Number.isFinite(authoredLines[index]?.start) && Number.isFinite(authoredLines[index]?.end);
   lines.forEach((line, index) => {
+    if(hasTiming(index)){line.dataset.start=authoredLines[index].start;line.dataset.end=authoredLines[index].end;}
     line.insertAdjacentHTML('beforeend', `<div class="transcript-row-actions">${hasTiming(index) ? `<time>${formatAudioTime(authoredLines[index].start)} – ${formatAudioTime(authoredLines[index].end)}</time>` : '<small>此行暫未有可用的錄音時間。</small>'}<button type="button" class="secondary-button" data-replay-row="${index}" ${!hasTiming(index) ? 'disabled' : ''}>▶ 只重聽這一行</button><button type="button" class="secondary-button" data-record-row="${index}" ${!hasTiming(index) ? 'disabled' : ''}>● 朗讀練習</button></div>`);
   });
   const activate = () => {
