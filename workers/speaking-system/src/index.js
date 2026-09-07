@@ -207,14 +207,14 @@ async function route(request, env, ctx) {
     const headers=corsHeaders(origin,env);headers.set("Content-Type",response.headers.get("Content-Type")||"audio/webm");headers.set("Cache-Control","private, no-store");
     return new Response(response.body,{status:200,headers});
   }
-  const hubRoute = url.pathname.match(/^\/v1\/(questions|professional)\/([a-z-]+)$/);
+  const hubRoute = url.pathname.match(/^\/v1\/(questions|professional|mistakes)\/([a-z-]+)$/);
   if (hubRoute && request.method === "POST") {
     const token = bearerToken(request);
     if (!UUID_RE.test(token || "")) throw new HttpError(401,"AUTH_REQUIRED","Please sign in");
-    const actions = hubRoute[1] === "questions" ? ["list","save","reply"] : ["list","get","save","join-code","resolve","students"];
+    const actions = hubRoute[1] === "mistakes" ? ["list","get","save"] : hubRoute[1] === "questions" ? ["list","save","reply"] : ["list","get","save","join-code","resolve","students"];
     if (!actions.includes(hubRoute[2])) throw new HttpError(404,"NOT_FOUND","Not found");
     const payload = await readLimitedJson(request, 2 * 1024 * 1024);
-    return json(await hubRpc(env,hubRoute[1] === "questions" ? "learning_question_action" : "speaking_professional_action",{p_token:token,p_action:hubRoute[2],p_payload:payload}),200,request,env);
+    return json(await hubRpc(env,hubRoute[1] === "mistakes" ? "learning_mistake_action" : hubRoute[1] === "questions" ? "learning_question_action" : "speaking_professional_action",{p_token:token,p_action:hubRoute[2],p_payload:payload}),200,request,env);
   }
   if (url.pathname === "/v1/admin/login" && request.method === "POST") {
     return adminLogin(request, env);

@@ -13,7 +13,7 @@ const registeredPractices = new Set(CATALOGUE.practices.map(item => item.practic
 const SESSION_KEY = "edmund-listening-session-v1";
 const AUDIO_CATALOGUE_URL = "https://edmund-neural-audio.edmundeducation.workers.dev/v1/listening/catalog";
 const SPEEDS = Object.freeze([0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]);
-const TEXT_SCALES = Object.freeze([0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3]);
+const TEXT_SCALES = Object.freeze(Array.from({length:20},(_,i)=>(i+1)*.25));
 const DSE_CONTENT = new Map([
   [2012, window.EDMUND_DSE_LISTENING_2012 || null],
   [2013, window.EDMUND_DSE_LISTENING_2013 || null],
@@ -742,7 +742,7 @@ function renderPracticeWorkspace() {
     return;
   }
   elements.workspace.hidden = false;
-  elements.workspace.style.setProperty("--listening-text-scale", String(state.textScale));
+  elements.workspace.style.setProperty("--listening-text-scale", "1");
   elements.workspace.innerHTML = `<div class="practice-workspace__head"><div><p class="eyebrow">INTERACTIVE PRACTICE</p><h2 id="practice-workspace-title">作答系統、答案與同步錄音稿</h2><p>作答後可立即檢查或顯示答案。單字、錄音稿每一行及逐題解析均可加入書簽。</p></div><label class="text-scale-control">文字大小<select data-text-scale aria-label="練習文字大小">${TEXT_SCALES.map((scale) => `<option value="${scale}"${scale === state.textScale ? " selected" : ""}>${scale}×</option>`).join("")}</select></label></div><div class="listening-part-tabs" role="tablist" aria-label="選擇錄音部分">${[1,2,3,4].map((part) => `<button type="button" role="tab" data-part-tab="${part}" aria-selected="${part === state.practicePart}">Part ${part}</button>`).join("")}</div><div data-practice-part-host></div>`;
   renderPracticePart(state.requestedPart || state.practicePart || 1);
 }
@@ -1154,19 +1154,19 @@ document.addEventListener("change", (event) => {
     state.dseSort = select.value === "asc" ? "asc" : "desc";
     savePreference("edmund-listening-dse-sort", state.dseSort);
     renderDseYearGrid();
-  } else if (select.matches("[data-speed-part], [data-dse-speed]")) {
+  } else if (select.matches("[data-speed-part], [data-dse-speed], [data-floating-speed]")) {
     state.speed = normalizeSpeed(select.value);
     savePreference("edmund-listening-speed", state.speed);
     document.querySelectorAll("audio[data-audio-part], audio[data-dse-audio-task]").forEach((audio) => {
       audio.defaultPlaybackRate = state.speed;
       audio.playbackRate = state.speed;
     });
-    document.querySelectorAll("[data-speed-part], [data-dse-speed]").forEach((control) => { control.value = String(state.speed); });
+    document.querySelectorAll("[data-speed-part], [data-dse-speed], [data-floating-speed]").forEach((control) => { control.value = String(state.speed); });
     showToast(`播放速度已設為 ${state.speed}×`);
   } else if (select.matches("[data-text-scale]")) {
     state.textScale = normalizeTextScale(select.value);
     savePreference("edmund-listening-text-scale", state.textScale);
-    elements.workspace.style.setProperty("--listening-text-scale", String(state.textScale));
+    elements.workspace.style.setProperty("--listening-text-scale", "1");
     showToast(`練習文字已調整為 ${state.textScale}×`);
   }
 });
@@ -1227,3 +1227,5 @@ async function initialise() {
 initialise();
 
 mountListeningTypes(document.querySelector('[data-listening-types]'), (practice, part) => openPractice(practice, part));
+
+window.EdmundListeningTools={audio:selectedAudio,context:()=>state.view==='dse'?{system:'listening',section:'DSE',year:state.dseYear,part:state.dseTask,url:`listening-system.html?section=dse&year=${state.dseYear}&task=${state.dseTask}`}:{system:'listening',section:'IELTS',practice:state.practice,part:state.practicePart,url:`listening-system.html?practice=${state.practice}&part=${state.practicePart}`}};

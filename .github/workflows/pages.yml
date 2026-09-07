@@ -243,6 +243,9 @@ jobs:
           node tools/test-feedback-questions.mjs
           node tools/test-teaching-improvements.mjs
           node tools/test-classroom-release.mjs
+          node tools/test-study-round4.mjs
+          node tools/test-system-access-round4.mjs
+          node tools/test-speaking-navigation-round4.mjs
           node tools/test-september-classroom.mjs
           node tools/test-professional-ui.mjs
           node tools/test-email-atomic-submission.mjs
@@ -343,6 +346,7 @@ jobs:
         run: |
           unzip -oq paper3/reader-batch.zip 'paper3/*' -d _site
           rm -f _site/paper3/reader-batch.zip
+          python3 tools/add-paper3-study-support.py _site/paper3
 
       - name: Verify protected Song Appreciation data is absent from Pages artifact
         run: |

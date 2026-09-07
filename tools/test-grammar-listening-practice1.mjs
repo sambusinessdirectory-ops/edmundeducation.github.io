@@ -86,7 +86,7 @@ assert.doesNotMatch(listeningSystem, /input\.value\s*=\s*question\.answer/, "Sho
 assert.doesNotMatch(listeningSystem, /scrollIntoView\(\{ block: "nearest"/, "Transcript sync must not force-scroll the viewport");
 assert.match(listeningSystem, /data-bookmark-item=.*transcript/);
 assert.match(listeningSystem, /practice\$\{state.practice\}:analysis:q/);
-assert.match(listeningSystem, /const TEXT_SCALES = Object\.freeze\(\[0\.5, 0\.75, 1, 1\.25, 1\.5, 1\.75, 2, 2\.25, 2\.5, 2\.75, 3\]\)/);
+assert.match(listeningSystem, /const TEXT_SCALES = Object\.freeze\(Array\.from\(\{length:20\},\(_,i\)=>\(i\+1\)\*\.25\)\)/);
 assert.match(listeningSystem, /data-floating-seek/);
 assert.match(listeningSystem, /state\.content\.timings/);
 assert.match(listeningSystem, /data-toggle-transcript-sync/);

@@ -950,7 +950,7 @@ assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{inde
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
 assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260901-homework-workflow1"/, "Homework catalog cache key is stale");
 assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260901-homework-workflow1/, "Homework link helper cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260906-classroom2/, "Schedule application cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260907-study4/, "Schedule application cache key is stale");
 assert.match(scheduleJs, /isDownload \? "↓" : "↗"/, "download materials should be visibly presented as downloads to students");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");

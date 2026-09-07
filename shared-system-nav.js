@@ -795,9 +795,9 @@
     if (button && !document.querySelector('[data-edmund-music-header]')) {
       const music = document.createElement('button');
       music.type = 'button'; music.className = 'edmund-music-header-button';
-      music.dataset.edmundMusicHeader = ''; music.setAttribute('aria-disabled', 'true');
-      music.title = 'Background Music · 音樂即將加入';
-      music.innerHTML = '<span aria-hidden="true">♫</span><span>Background Music<small>背景音樂 · Coming soon</small></span>';
+      music.dataset.edmundMusicHeader = '';
+      music.title = 'Choose background music · 選擇背景音樂';
+      music.innerHTML = '<span aria-hidden="true">♫</span><span>Background Music<small>背景音樂 · Choose music</small></span>';
       button.insertAdjacentElement('afterend', music);
     }
     const launchers = [...document.querySelectorAll("[data-edmund-pomodoro-header], [data-edmund-pomodoro-launcher]")];

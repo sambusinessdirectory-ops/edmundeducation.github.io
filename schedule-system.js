@@ -1,3 +1,4 @@
+import {mountSystemAccess,loadAccessCatalog} from './system-access-admin.mjs';
 import {
   SCHEDULE_MAX_DATE,
   SCHEDULE_MIN_DATE,
@@ -106,6 +107,7 @@ const VIDEO_CLASS_HOMEWORK_CATALOG_URL = "https://edmund-video-class.edmundeduca
 const STUDENT_PROGRESS_WORKER_URL = "https://edmund-student-progress.edmundeducation.workers.dev";
 const STUDENT_ACCOUNT_PAGE_SIZE = 100;
 const STUDENT_AUDIT_PAGE_SIZE = 10;
+let unifiedAccessCatalog=[];loadAccessCatalog().then(rows=>unifiedAccessCatalog=rows).catch(console.error);
 const STUDENT_ACCESS_SECTIONS = [
   { key: "dse", label: "DSE", group: "考試範疇" },
   { key: "ielts", label: "IELTS", group: "考試範疇" },
@@ -3746,6 +3748,7 @@ async function changeCurrentUserPassword(event) {
 
 function allStudentAccessKeys() {
   return [
+    ...unifiedAccessCatalog.map(system=>system.key),
     ...STUDENT_ACCESS_SECTIONS.map((section) => section.key),
     ...Object.values(STUDENT_ACCESS_CHILDREN).flat().map((child) => child.key)
   ];
@@ -3764,7 +3767,7 @@ function defaultStudentAccess() {
 
 function normalizeStudentAccess(value) {
   const source = value && typeof value === "object" && !Array.isArray(value) ? value : {};
-  const normalized = defaultStudentAccess();
+  const normalized = {...Object.fromEntries(Object.entries(source).filter(([key,value])=>typeof value==="boolean")),...defaultStudentAccess()};
   allStudentAccessKeys().forEach((key) => {
     if (Object.hasOwn(source, key)) normalized[key] = source[key] === true;
   });
@@ -4206,6 +4209,7 @@ function renderStudentAccessControls(student) {
     fragment.append(item);
   });
   elements.studentAccessGrid.append(fragment);
+  const allSystems=document.createElement("section");elements.studentAccessGrid.prepend(allSystems);mountSystemAccess(allSystems,student,saveSelectedStudentAccess).catch(error=>allSystems.textContent=error.message);
 }
 
 function renderStudentProfileActions(student) {
@@ -7172,7 +7176,7 @@ elements.studentProfileDialog?.addEventListener("click", (event) => {
   const setAll = event.target.closest("[data-set-student-access]");
   if (setAll) {
     const enabled = setAll.dataset.setStudentAccess === "true";
-    saveSelectedStudentAccess(Object.fromEntries(allStudentAccessKeys().map((key) => [key, enabled])));
+    saveSelectedStudentAccess(Object.fromEntries([...new Set([...Object.keys(selectedStudentProfile()?.access||{}),...allStudentAccessKeys()])].map((key) => [key, enabled])));
     return;
   }
   const reset = event.target.closest("[data-profile-reset-password]");

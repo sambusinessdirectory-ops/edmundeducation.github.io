@@ -2364,7 +2364,7 @@
       prepareDseRecorder();
       const index = Math.min(Math.max(0, Number(session.individualIndex || 0)), Math.max(0, session.set.individualResponse.length - 1));
       const finalQuestion = index >= session.set.individualResponse.length - 1;
-      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}${dseSourceCard(session.set, true)}${dseIndividualCard(session)}${renderRecorderCard()}<button class="primary-button dse-stage-action" type="button" data-dse-next-individual>${finalQuestion ? "完成個人發言 →" : "下一題 →"}</button></article>`;
+      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}${dseSourceCard(session.set, true)}${dseIndividualCard(session)}${renderRecorderCard()}<button class="primary-button dse-stage-action" type="button" data-dse-next-individual>${finalQuestion ? "完成個人發言（不需錄音） →" : "跳過／下一題（不需錄音） →"}</button></article>`;
       finishDseRecorderRender();
       autoPlayDseVoice(session);
       return;
@@ -2399,17 +2399,42 @@
     renderDsePractice();
   }
 
+  function releasePracticeRecording() {
+    if (state.practiceUploadBusy || state.examSaving || state.examSkipSaving) { toast("正在儲存錄音，請稍候。", "info"); return false; }
+    const pending = (state.recordedMp3 && !state.recordingSaved) || state.recordingProcessing || state.recordingPermissionPending || ["recording", "paused"].includes(state.mediaRecorder?.state);
+    if (pending && !window.confirm("繼續將捨棄本題尚未儲存的錄音。已儲存的錄音會保留。確定繼續？")) return false;
+    cancelRecorder(); discardRecording(false); return true;
+  }
+
+  async function endPracticeEarly() {
+    if (!window.confirm("確定提前結束本次練習並前往自我評估？已儲存的錄音會保留。")) return;
+    if (!releasePracticeRecording()) return;
+    cancelDseVoice(); cancelExamSpeech(); clearExamPhaseTimer(); clearDsePrepTimer();
+    if (state.route.view === "dse-practice" && state.dseSession) {
+      state.dseSession.endedEarly = true; state.dseSession.phase = "rating"; persistDseSession(); renderDsePractice(); return;
+    }
+    const session = state.examSession;if (!session || state.examSkipSaving) return;
+    state.examSkipSaving = true;
+    try {
+      if (session.naturalExchange && !session.introItem?.saved && !session.introItem?.skipped) {
+        try { await apiJson(examAttemptsEndpoint(`/${session.id}/introduction/skip`), {method:"PUT"}); }
+        catch(error){if(error.code!=="EXAM_INTRODUCTION_HAS_RECORDING")throw error;}
+        if(session.introItem)session.introItem.skipped=true;
+      }
+      for (const item of session.items) {
+        if(item.saved || item.skipped)continue;
+        try { await apiJson(examAttemptsEndpoint(`/${session.id}/questions/${Number(item.globalOrder)}/skip`), {method:"PUT"});item.skipped=true; }
+        catch(error){if(error.code!=="EXAM_QUESTION_HAS_RECORDING")throw error;}
+      }
+      session.endedEarly=true;session.phase="rating";renderExamRating();
+    } catch(error){toast(error.message||"未能結束，請再試一次。", "error");}
+    finally{state.examSkipSaving=false;syncRecorderControls();}
+  }
+
   function completeDseGroup() {
     const session = state.dseSession;
     if (session?.phase !== "group") return;
-    if (["recording", "paused"].includes(state.mediaRecorder?.state)) {
-      toast("請先完成目前的錄音，再前往下一部分。", "info");
-      return;
-    }
-    if (state.recordedMp3) {
-      toast("請先儲存或捨棄目前的 MP3，再前往下一部分。", "info");
-      return;
-    }
+    if (!releasePracticeRecording()) return;
     const mode = DSE_MODE.modeForId?.(session.modeId);
     cancelDseVoice();
     clearPageRecordingHistory();
@@ -2422,14 +2447,7 @@
   function completeDseIndividual() {
     const session = state.dseSession;
     if (session?.phase !== "individual") return;
-    if (["recording", "paused"].includes(state.mediaRecorder?.state)) {
-      toast("請先完成目前的錄音，再前往下一題。", "info");
-      return;
-    }
-    if (state.recordedMp3) {
-      toast("請先儲存或捨棄目前的 MP3，再前往下一題。", "info");
-      return;
-    }
+    if (!releasePracticeRecording()) return;
     cancelDseVoice();
     clearPageRecordingHistory();
     const finalIndex = Math.max(0, session.set.individualResponse.length - 1);
@@ -2550,6 +2568,7 @@
 
   function examCoverHtml() {
     return `
+      ${["dse-practice","exam-practice"].includes(state.route.view) ? '<button class="secondary-button" type="button" data-end-practice>結束本次練習 · End practice</button>' : ""}
       <figure class="exam-practice-cover">
         <img src="assets/speaking-system/ielts-exam-practice-mode.png" width="1672" height="941" alt="IELTS Exam Mode Speaking：戴著耳機在咪高峰前練習的 Edmund 馬仔">
       </figure>`;
@@ -6306,6 +6325,7 @@
       state.examSaving = true;
       syncRecorderControls();
     }
+    state.practiceUploadBusy=true;
     recordingStatus("正在安全上載 MP3…");
     try {
       if (context.isExam && context.item.uploadAttempted) {
@@ -6398,6 +6418,7 @@
       }
       return false;
     } finally {
+      state.practiceUploadBusy=false;
       if (context.isExam) {
         state.examSaving = false;
         syncRecorderControls();
@@ -7502,6 +7523,8 @@
         else startDsePractice(dseMode.dataset.dseMode);
         return;
       }
+
+      if (event.target.closest("[data-end-practice]")) { void endPracticeEarly(); return; }
 
       if (event.target.closest("[data-dse-skip-prep]")) {
         beginDseGroup();

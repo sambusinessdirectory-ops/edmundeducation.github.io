@@ -1786,7 +1786,8 @@ function showView(name) {
   elements.grammarLogButton.hidden = !loggedIn || admin || name === "grammar-log";
   elements.feedbackBookmarksButton.hidden = !loggedIn || admin || name === "feedback-bookmarks";
   elements.adminButton.hidden = !loggedIn || !admin || name === "admin";
-  document.querySelector('[data-admin-questions-button]').hidden = !loggedIn || !admin || name === 'admin-questions';
+  const questionsButton=document.querySelector('[data-admin-questions-button]');
+  if(questionsButton)questionsButton.hidden = !loggedIn || !admin || name === 'admin-questions';
   document.body.classList.remove('writing-article-focus');
   elements.adminReviewButton.hidden = !loggedIn || !admin || name === "admin-review";
   if (loggedIn) {
@@ -1858,7 +1859,8 @@ async function apiJson(path, options = {}, includeAuth = true, authToken = state
     response = await fetch(apiRequestUrl(path, options.method), {
       ...options,
       headers,
-      credentials: "omit"
+      credentials: "omit",
+      cache: "no-store"
     });
   } catch (cause) {
     if (cause?.name === "AbortError") throw cause;
@@ -3217,8 +3219,11 @@ function startWritingProofreadingClock() {
 function beginWritingProofreading() {
   const topic = elements.topicInput.value.trim();
   const answer = elements.writingInput.value.trim();
-  if (!topic || !answer) throw new Error("請先輸入寫作題目及文章內容。");
-  state.proofreadingGate = startWritingProofreadingGate();
+  if (!answer) throw new Error("請先輸入文章內容。");
+  state.proofreadingGate = normalizeWritingProofreadingGate(state.proofreadingGate);
+  if (state.proofreadingGate.status !== "idle") return;
+  state.proofreadingGate = startWritingProofreadingGate(state.proofreadStartedAt || Date.now());
+  state.proofreadStartedAt = state.proofreadingGate.startedAt;
   persistDraft();
   syncWritingProofreadingUi();
   setStatus(elements.submissionStatus, "校對時間已開始。請用五分鐘檢查內容，倒數完成後即可正式提交。", "success");
@@ -4754,7 +4759,7 @@ async function ensureDirectPasteSubmissionDuration() {
 async function enforceProofreadSubmissionChecks() {
   if (!elements.writingInput?.value.trim()) return;
   ensureProofreadTimerStarted();
-  if (!proofreadReady()) {
+  if (!proofreadReady() && !isWritingProofreadingReady(state.proofreadingGate)) {
     const remaining = proofreadRemainingSeconds();
     syncProofreadStatus();
     throw new Error(`尚未完成 5 分鐘校對（剩餘 ${formatProofreadRemaining(remaining)}），請先等到時間到。`);
@@ -8096,13 +8101,18 @@ async function deleteAdminFeedback() {
 
 async function loadSubmissions({ selectId = "" } = {}) {
   elements.submissionList.replaceChildren(loadingState("正在載入文章…"));
-  state.submissions = await fetchAllSubmissionPages("/v1/submissions");
+  try { state.submissions = await fetchAllSubmissionPages("/v1/submissions"); }
+  catch(error) {
+    const message=emptyState("文章暫時未能載入。請按重新整理；已提交的文章不會被刪除。");
+    const retry=createElement("button","small-button","重新載入文章 · Retry");retry.type="button";retry.onclick=()=>loadSubmissions({selectId}).catch(handleViewError);message.append(retry);elements.submissionList.replaceChildren(message);throw error;
+  }
   const availableIds = new Set(state.submissions.map(item => item.id));
   for (const id of state.selectedExportSubmissionIds) {
     if (!availableIds.has(id)) state.selectedExportSubmissionIds.delete(id);
   }
   renderSubmissionList();
   if (selectId) await openSubmission(selectId);
+  else if(state.submissions.length === 1) await openSubmission(state.submissions[0].id);
 }
 
 async function openSubmission(id) {

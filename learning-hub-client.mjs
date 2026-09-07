@@ -1,8 +1,9 @@
 export const HUB_URL='https://edmund-speaking-system.edmundeducation.workers.dev';
 export const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function hubSession(){
+ const shared=window.EdmundSystemNav?.getStudentSession?.();if(shared?.token&&!/speaking|question-collection/.test(location.pathname))return shared;
  try { const own=JSON.parse(sessionStorage.getItem('edmundSpeakingSessionV1')||'null');if(own?.token)return own; } catch {}
- const shared=window.EdmundSystemNav?.getStudentSession?.();if(shared?.token)return shared;
+ if(shared?.token)return shared;
  try{return JSON.parse(sessionStorage.getItem('edmund-universal-student-session-v1')||'null');}catch{return null;}
 }
 export async function hubRequest(group,action,payload={},session=hubSession()){

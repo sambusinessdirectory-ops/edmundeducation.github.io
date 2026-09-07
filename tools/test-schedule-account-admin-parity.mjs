@@ -163,7 +163,7 @@ for (const rpc of rpcNames) {
   assert.match(scheduleJs, new RegExp(`["']${escapeRegExp(rpc)}["']`), `Schedule UI must call ${rpc}`);
 }
 assert.match(scheduleJs, /p_status:\s*["']all["'][\s\S]{0,220}p_limit:[\s\S]{0,120}p_offset:/i, "student-account pages must request an explicit status, limit and offset");
-assert.match(scheduleJs, /Object\.fromEntries\(allStudentAccessKeys\(\)\.map\(\(key\)\s*=>\s*\[key,\s*enabled\]\)\)/i, "all-on/all-off must update every registered access key, including child sections");
+assert.ok(scheduleJs.includes('...allStudentAccessKeys()])].map((key) => [key, enabled])'), 'bulk access includes registered keys and saved subsection overrides');
 assert.match(scheduleJs, /schedule_admin_set_student_access[\s\S]{0,400}p_expected_updated_at:\s*student\.updated_at/i);
 assert.match(scheduleJs, /schedule_admin_get_student_account_audit[\s\S]{0,400}p_limit:[\s\S]{0,160}p_offset:/i);
 assert.match(scheduleJs, /schedule_admin_reactivate_student[\s\S]{0,350}p_expected_deleted_at:\s*student\.deleted_at/i);
