@@ -418,7 +418,7 @@ assert.match(scheduleHtml, /data-paste-clipboard-selection/);
 assert.match(scheduleHtml, /data-clear-clipboard-selection/);
 assert.match(scheduleHtml, /clipboard-selection-marquee/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260907-study4/);
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260908-refine7/);
 assert.match(scheduleHtml, /data-celebration-dialog/);
 assert.match(scheduleHtml, /恭喜您，距離成功又更近了!/);
 assert.match(scheduleHtml, /一步一步，<strong data-celebration-name>同學<\/strong> 便會走到目標~/);

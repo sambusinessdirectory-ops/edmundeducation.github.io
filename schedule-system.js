@@ -3875,6 +3875,7 @@ function renderStudentList() {
   ));
   const activeCount = state.adminStudents.filter(isStudentActive).length;
   const inactiveCount = state.adminStudents.length - activeCount;
+  let progress=document.querySelector('[data-homework-arrangement-progress]');if(!progress){progress=document.createElement('div');progress.dataset.homeworkArrangementProgress='';progress.className='homework-arrangement-progress';elements.studentList.before(progress);}const arranged=state.adminStudents.filter(s=>isStudentActive(s)&&state.adminTeacherAssignmentStudentIds.has(String(s.id))).length;const percentage=activeCount?Math.round(arranged/activeCount*100):0;progress.innerHTML=`<div><strong>本週功課安排</strong><span>${arranged} / ${activeCount} 位學生 · ${percentage}%</span></div><progress value="${arranged}" max="${activeCount||1}" aria-label="本週已安排功課的學生比例"></progress><small>尚有 ${activeCount-arranged} 位使用中學生待安排</small>`;
   elements.studentList.replaceChildren();
   elements.studentCount.textContent = `${students.length} 項 · 使用中 ${activeCount} · 已停用 ${inactiveCount}`;
   elements.studentSortButtons.forEach((button) => {
@@ -7856,8 +7857,11 @@ async function openChallengeLog(date) {
   const status=document.createElement('p');status.setAttribute('role','status');status.textContent='正在載入…';
   const save=document.createElement('button');save.type='button';save.textContent='儲存成長記錄';save.disabled=true;
   const close=document.createElement('button');close.type='button';close.textContent='關閉';close.onclick=()=>dialog.close();
-  dialog.append(heading,dateTitle,label,status,save,close);document.body.append(dialog);dialog.showModal();dialog.addEventListener('close',()=>dialog.remove(),{once:true});
+  const history=document.createElement('button');history.type='button';history.className='challenge-history-button';history.textContent='📖 查看所有日期的成長記錄';history.onclick=()=>{dialog.close();openChallengeHistory();};save.className='challenge-save-button';dialog.append(heading,dateTitle,label,status,save,close,history);document.body.append(dialog);dialog.showModal();dialog.addEventListener('close',()=>dialog.remove(),{once:true});
   let version=0;
   try{const row=await callRpc('schedule_challenge_log',{p_token:token,p_date:date});if(!dialog.isConnected)return;input.value=row?.body||'';version=row?.version||0;input.disabled=false;save.disabled=false;status.textContent='';}catch{status.textContent='未能載入，請關閉後重試。';}
   save.onclick=async()=>{if(state.currentUser?.studentToken!==token)return;save.disabled=true;status.textContent='正在儲存…';try{const row=await callRpc('schedule_challenge_log',{p_token:token,p_date:date,p_body:input.value,p_expected_version:version});version=row.version;status.textContent='已儲存這一天的成長記錄。';}catch(error){status.textContent=error.code==='40001'?'這份記錄已在另一個視窗更新；請先複製你的文字，再重新開啟。':'未能儲存，你的文字仍在這裡。請重試。';}finally{save.disabled=false;}};
 }
+
+async function openChallengeHistory(){
+ if(state.currentUser?.role!=='student')return;const token=state.currentUser.studentToken;const d=document.createElement('dialog');d.className='challenge-log-dialog challenge-history-dialog';d.innerHTML='<h2>我的成長足跡</h2><p>所有日期的錯誤與挑戰記錄</p><div data-log-entries></div><button type="button" data-close>返回日程</button>';d.querySelector('[data-close]').onclick=()=>d.close();d.addEventListener('close',()=>d.remove(),{once:true});document.body.append(d);d.showModal();const host=d.querySelector('[data-log-entries]');host.textContent='正在載入…';try{const rows=await callRpc('schedule_challenge_history',{p_token:token});if(!d.isConnected||state.currentUser?.studentToken!==token)return;host.replaceChildren();if(!rows.length)host.textContent='尚未有成長記錄。按每天的書本開始記錄。';for(const row of rows){const b=document.createElement('button');b.className='challenge-history-entry';b.type='button';const date=document.createElement('strong');date.textContent=row.log_date;const text=document.createElement('span');text.textContent=row.body.slice(0,180);b.append(date,text);b.onclick=()=>{d.close();openChallengeLog(row.log_date);};host.append(b);}}catch{host.textContent='暫時未能載入，請稍後重試。';}}

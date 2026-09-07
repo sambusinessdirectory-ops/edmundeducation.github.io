@@ -958,6 +958,7 @@ async function runEmailScheduler(env) {
   try {
     await rpc(env,'schedule_email_v2_scheduler',{p_state:'started',p_error:null});
     await rpc(env, "schedule_email_service_enqueue_due", {});
+    await rpc(env,'classroom_enqueue_notifications',{});
     await processEmailJobs(env, 3);
     await checkPageUpdates(env,rpc,sha256Hex);
     await rpc(env,'schedule_email_v2_scheduler',{p_state:'complete',p_error:null});

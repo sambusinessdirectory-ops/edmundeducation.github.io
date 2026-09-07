@@ -1145,7 +1145,7 @@
       if(!root)continue;const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
       while(walker.nextNode()){const n=walker.currentNode;if(n.parentElement?.closest('script,style,textarea'))continue;const next=wording(n.nodeValue);if(next!==n.nodeValue)n.nodeValue=next;}
       for(const el of root.querySelectorAll('[title],[alt],[aria-label]'))for(const attr of ['title','alt','aria-label'])if(el.hasAttribute(attr)){const old=el.getAttribute(attr),next=wording(old);if(next!==old)el.setAttribute(attr,next);}
-      for(const img of root.querySelectorAll('.exam-practice-cover img'))if(img.getAttribute('src')?.includes('ielts-exam-practice')){img.src='assets/speaking-system/mascot-speaking.png';img.alt='Freestyle Speaking';}
+      for(const img of root.querySelectorAll('.exam-practice-cover img'))if(img.getAttribute('src')?.includes('ielts-exam-practice')){img.src='assets/speaking-system/freestyle-practice-mode.png';img.alt='Freestyle Speaking';}
     }
   }
 
@@ -5757,6 +5757,7 @@
   }
 
   function stopMediaTracks() {
+    window.EdmundSpeakingRecordingStream=null;
     state.mediaStream?.getTracks().forEach(track => track.stop());
     state.mediaStream = null;
   }
@@ -5987,6 +5988,8 @@
     }
     state.recordingPermissionPending = false;
     state.mediaStream = stream;
+    window.EdmundSpeakingRecordingStream=stream;
+    window.EdmundSpeakingRecordingKey=requestedContextKey;
     window.EdmundSpeakingTranscription?.start(stream, requestedContextKey);
     try {
       const recorder = createMediaRecorder(stream);
