@@ -184411,8 +184411,9 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-hkfsd-incident-reports-data.js?v=20260818-1"></script>
   <script src="flashcards-hkpf-data.js?v=20260715-1"></script>
   <script src="flashcards-business-concepts-book1-data.js?v=20260816-1"></script>
+  <script src="flashcards-sunny-s3-grammar-book-data.js?v=20260908-1"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260827-1"></script>
+  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260908-sunny-s3-1"></script>
   <script>
     const ADMIN_NAME = "Sam";
     const STUDENTS_KEY = "edmundFlashcardStudents";
@@ -185825,7 +185826,14 @@ window.EDMUND_FLASHCARD_SEED = {
     // custom-setup decks stay hidden from students, including aggregate counts.
     const customSetupDeckAssignments = [
       { id: "custom-setup/sprint-text-1", studentName: "Jayden", title: "Sprint - Text 1" },
-      { id: "custom-setup/sprint-text-2", studentName: "Jayden", title: "Sprint - Text 2" }
+      { id: "custom-setup/sprint-text-2", studentName: "Jayden", title: "Sprint - Text 2" },
+      ...Array.from({ length: 47 }, (_, index) => ({
+        id: `custom-setup/sunny-s3-grammar-book/page-${index + 1}`,
+        studentName: "Sunny",
+        title: `Page ${index + 1}`,
+        collectionId: "custom-setup/sunny-s3-grammar-book",
+        collectionTitle: "S3 Grammar Book"
+      }))
     ];
 
     const accessSections = [
@@ -194757,18 +194765,37 @@ window.EDMUND_FLASHCARD_SEED = {
       );
     }
 
+    function customSetupOptionsHtml() {
+      const decks = customSetupDecksForStudent();
+      if (!decks.length) return `<p class="note-text">這裡暫時未有你的專屬卡組。</p>`;
+      const collections = new Set();
+      return `<div class="option-column">
+        <h3>${escapeHtml(isAdmin() ? "專屬卡組" : currentUser.name)}</h3>
+        ${decks.map(deck => {
+          if (!deck.collectionId) return optionButton(deck.title, deck.id, deck.title);
+          if (collections.has(deck.collectionId)) return "";
+          collections.add(deck.collectionId);
+          return routeOptionButton(deck.collectionTitle, `custom-setup-collection|${deck.collectionId}`, deck.collectionId);
+        }).join("")}
+      </div>`;
+    }
+
     function showCustomSetup() {
+      showOptions("客製 Setup", "選擇你的專屬卡組。", customSetupOptionsHtml, "columns-grid one");
+    }
+
+    function showCustomSetupCollection(collectionId) {
+      const assigned = customSetupDecksForStudent().filter(deck => deck.collectionId === collectionId);
+      if (!assigned.length || !canAccessDeck(collectionId)) return false;
       showOptions(
-        "客製 Setup",
-        "選擇你的專屬卡組。",
-        () => customSetupDecksForStudent().length ? `
-          <div class="option-column">
-            <h3>${escapeHtml(isAdmin() ? "專屬卡組" : currentUser.name)}</h3>
-            ${customSetupDecksForStudent().map(deck => optionButton(deck.title, deck.id, deck.title)).join("")}
-          </div>
-        ` : `<p class="note-text">這裡暫時未有你的專屬卡組。</p>`,
+        assigned[0].collectionTitle,
+        "選擇頁數開始溫習。未加入內容的頁數會顯示為空卡組。",
+        () => `<div class="option-column">${customSetupDecksForStudent()
+          .filter(deck => deck.collectionId === collectionId)
+          .map(deck => optionButton(deck.title, deck.id, `${deck.collectionTitle} / ${deck.title}`)).join("")}</div>`,
         "columns-grid one"
       );
+      return true;
     }
 
     function spacedRouteButton(label, note, route) {
@@ -194905,6 +194932,10 @@ window.EDMUND_FLASHCARD_SEED = {
     function deckTitleFromId(deckId) {
       if (deckId === BOOKMARK_DECK_ID || deckId === "bookmarks") return "書簽 / My Private Bookmarks";
       if (deckTitleLabels.has(deckId)) return deckTitleLabels.get(deckId);
+      const customDeck = customSetupDecksForStudent().find(deck => deck.id === deckId || deck.collectionId === deckId);
+      if (customDeck) return customDeck.id === deckId
+        ? [customDeck.collectionTitle, customDeck.title].filter(Boolean).join(" / ")
+        : customDeck.collectionTitle;
       const ieltsReadingMatch = /^ielts\/reading\/passage-([123])\/(Practice \d+)$/i.exec(String(deckId || ""));
       if (ieltsReadingMatch) {
         const passage = `Passage ${ieltsReadingMatch[1]}`;
@@ -195255,7 +195286,11 @@ window.EDMUND_FLASHCARD_SEED = {
         requestedHomeworkDeckOpened = false;
         return false;
       }
-      if (!getDeckCards(deckId).length) {
+      if (customSetupDecksForStudent().some(deck => deck.collectionId === deckId)) {
+        return showCustomSetupCollection(deckId);
+      }
+      const assignedCustomPage = customSetupDecksForStudent().some(deck => deck.id === deckId && deck.collectionId);
+      if (!getDeckCards(deckId).length && !assignedCustomPage) {
         window.setTimeout(() => window.alert("這個 Flash Cards 卡組目前不存在或尚未加入卡片。"), 0);
         return false;
       }
@@ -197786,6 +197821,7 @@ window.EDMUND_FLASHCARD_SEED = {
             showStudentCustomAdd(deckId, Number(index), pushCustomRoute);
           }
           if (route === "custom-setup-home") showCustomSetup();
+          if (route.startsWith("custom-setup-collection|")) showCustomSetupCollection(route.split("|")[1]);
           if (route === "spaced-repetition-home") showSpacedRepetitionHome();
           if (route.startsWith("spaced-repetition-days|")) showSpacedRepetitionFilter(Number(route.split("|")[1]));
           return;

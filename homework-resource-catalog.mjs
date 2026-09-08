@@ -22914,6 +22914,390 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q3"
   },
   {
+    "id": "flash:custom-setup/sunny-s3-grammar-book",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "S3 Grammar Book (Sunny)",
+    "detail": "S3 Grammar Book · 47 page decks · Sunny 專屬卡組",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-1",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "S3 Grammar Book / Page 1 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 1 · 17 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-1"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-2",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "S3 Grammar Book / Page 2 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 2 · 17 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-2"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "S3 Grammar Book / Page 3 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 3 · 17 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-3"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-4",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "S3 Grammar Book / Page 4 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 4 · 20 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-4"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-5",
+    "type": "flashcards",
+    "ordinal": 5,
+    "label": "S3 Grammar Book / Page 5 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 5 · 25 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-5"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-6",
+    "type": "flashcards",
+    "ordinal": 6,
+    "label": "S3 Grammar Book / Page 6 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 6 · 22 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-6"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-7",
+    "type": "flashcards",
+    "ordinal": 7,
+    "label": "S3 Grammar Book / Page 7 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 7 · 13 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-7"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-8",
+    "type": "flashcards",
+    "ordinal": 8,
+    "label": "S3 Grammar Book / Page 8 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 8 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-8"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-9",
+    "type": "flashcards",
+    "ordinal": 9,
+    "label": "S3 Grammar Book / Page 9 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 9 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-9"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-10",
+    "type": "flashcards",
+    "ordinal": 10,
+    "label": "S3 Grammar Book / Page 10 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 10 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-10"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-11",
+    "type": "flashcards",
+    "ordinal": 11,
+    "label": "S3 Grammar Book / Page 11 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 11 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-11"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-12",
+    "type": "flashcards",
+    "ordinal": 12,
+    "label": "S3 Grammar Book / Page 12 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 12 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-12"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-13",
+    "type": "flashcards",
+    "ordinal": 13,
+    "label": "S3 Grammar Book / Page 13 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 13 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-13"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-14",
+    "type": "flashcards",
+    "ordinal": 14,
+    "label": "S3 Grammar Book / Page 14 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 14 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-14"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-15",
+    "type": "flashcards",
+    "ordinal": 15,
+    "label": "S3 Grammar Book / Page 15 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 15 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-15"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-16",
+    "type": "flashcards",
+    "ordinal": 16,
+    "label": "S3 Grammar Book / Page 16 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 16 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-16"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-17",
+    "type": "flashcards",
+    "ordinal": 17,
+    "label": "S3 Grammar Book / Page 17 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 17 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-17"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-18",
+    "type": "flashcards",
+    "ordinal": 18,
+    "label": "S3 Grammar Book / Page 18 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 18 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-18"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-19",
+    "type": "flashcards",
+    "ordinal": 19,
+    "label": "S3 Grammar Book / Page 19 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 19 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-19"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-20",
+    "type": "flashcards",
+    "ordinal": 20,
+    "label": "S3 Grammar Book / Page 20 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 20 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-20"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-21",
+    "type": "flashcards",
+    "ordinal": 21,
+    "label": "S3 Grammar Book / Page 21 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 21 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-21"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-22",
+    "type": "flashcards",
+    "ordinal": 22,
+    "label": "S3 Grammar Book / Page 22 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 22 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-22"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-23",
+    "type": "flashcards",
+    "ordinal": 23,
+    "label": "S3 Grammar Book / Page 23 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 23 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-23"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-24",
+    "type": "flashcards",
+    "ordinal": 24,
+    "label": "S3 Grammar Book / Page 24 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 24 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-24"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-25",
+    "type": "flashcards",
+    "ordinal": 25,
+    "label": "S3 Grammar Book / Page 25 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 25 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-25"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-26",
+    "type": "flashcards",
+    "ordinal": 26,
+    "label": "S3 Grammar Book / Page 26 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 26 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-26"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-27",
+    "type": "flashcards",
+    "ordinal": 27,
+    "label": "S3 Grammar Book / Page 27 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 27 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-27"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-28",
+    "type": "flashcards",
+    "ordinal": 28,
+    "label": "S3 Grammar Book / Page 28 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 28 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-28"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-29",
+    "type": "flashcards",
+    "ordinal": 29,
+    "label": "S3 Grammar Book / Page 29 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 29 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-29"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-30",
+    "type": "flashcards",
+    "ordinal": 30,
+    "label": "S3 Grammar Book / Page 30 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 30 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-30"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-31",
+    "type": "flashcards",
+    "ordinal": 31,
+    "label": "S3 Grammar Book / Page 31 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 31 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-31"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-32",
+    "type": "flashcards",
+    "ordinal": 32,
+    "label": "S3 Grammar Book / Page 32 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 32 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-32"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-33",
+    "type": "flashcards",
+    "ordinal": 33,
+    "label": "S3 Grammar Book / Page 33 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 33 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-33"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-34",
+    "type": "flashcards",
+    "ordinal": 34,
+    "label": "S3 Grammar Book / Page 34 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 34 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-34"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-35",
+    "type": "flashcards",
+    "ordinal": 35,
+    "label": "S3 Grammar Book / Page 35 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 35 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-35"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-36",
+    "type": "flashcards",
+    "ordinal": 36,
+    "label": "S3 Grammar Book / Page 36 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 36 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-36"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-37",
+    "type": "flashcards",
+    "ordinal": 37,
+    "label": "S3 Grammar Book / Page 37 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 37 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-37"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-38",
+    "type": "flashcards",
+    "ordinal": 38,
+    "label": "S3 Grammar Book / Page 38 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 38 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-38"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-39",
+    "type": "flashcards",
+    "ordinal": 39,
+    "label": "S3 Grammar Book / Page 39 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 39 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-39"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-40",
+    "type": "flashcards",
+    "ordinal": 40,
+    "label": "S3 Grammar Book / Page 40 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 40 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-40"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-41",
+    "type": "flashcards",
+    "ordinal": 41,
+    "label": "S3 Grammar Book / Page 41 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 41 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-41"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-42",
+    "type": "flashcards",
+    "ordinal": 42,
+    "label": "S3 Grammar Book / Page 42 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 42 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-42"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-43",
+    "type": "flashcards",
+    "ordinal": 43,
+    "label": "S3 Grammar Book / Page 43 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 43 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-43"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-44",
+    "type": "flashcards",
+    "ordinal": 44,
+    "label": "S3 Grammar Book / Page 44 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 44 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-44"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-45",
+    "type": "flashcards",
+    "ordinal": 45,
+    "label": "S3 Grammar Book / Page 45 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 45 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-45"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-46",
+    "type": "flashcards",
+    "ordinal": 46,
+    "label": "S3 Grammar Book / Page 46 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 46 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-46"
+  },
+  {
+    "id": "flash:custom-setup/sunny-s3-grammar-book/page-47",
+    "type": "flashcards",
+    "ordinal": 47,
+    "label": "S3 Grammar Book / Page 47 (Sunny)",
+    "detail": "Custom Setup / Sunny S3 Grammar Book / Page 47 · 0 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fsunny-s3-grammar-book%2Fpage-47"
+  },
+  {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q4",
     "type": "flashcards",
     "ordinal": 4,

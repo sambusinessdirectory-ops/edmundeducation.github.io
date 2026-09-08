@@ -43,6 +43,7 @@ jobs:
           node tools/test-flashcard-pwa-critical-update.mjs
           node tools/test-flashcard-login-singleflight.mjs
           node tools/test-flashcard-private-decks.mjs
+          node tools/test-sunny-s3-grammar-book.mjs
 
       - name: Refresh lightweight IELTS Reading deck index
         run: node tools/generate-ielts-reading-index.mjs

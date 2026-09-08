@@ -42,12 +42,12 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 5600, "the Homework/Schedule catalogue should include every current learning resource, Speaking mock mode, Reading Comprehension exercise, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 5648, "the Homework/Schedule catalogue should include every current learning resource, Speaking mock mode, Reading Comprehension exercise, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
 }, {});
-assert.equal((byType.flashcards || []).length, 1316, "all current static and lazy-loaded flashcard leaf decks should be indexed");
+assert.equal((byType.flashcards || []).length, 1364, "all current static and lazy-loaded flashcard leaf decks should be indexed");
 assert.equal((byType["fill-blanks"] || []).length, 321, "all current writing exercises should be indexed");
 assert.equal((byType.speaking || []).length, 796, "all currently visible speaking exercises and nine requested mock modes should be indexed");
 assert.equal((byType["sentence-structure"] || []).length, 345, "all sentence structure lessons should be indexed");
@@ -948,9 +948,9 @@ assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260901-homework-workflow1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260908-sunny-s3-1"/, "Homework catalog cache key is stale");
 assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260901-homework-workflow1/, "Homework link helper cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260908-refine7/, "Schedule application cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260908-sunny-s3-1/, "Schedule application cache key is stale");
 assert.match(scheduleJs, /isDownload \? "↓" : "↗"/, "download materials should be visibly presented as downloads to students");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");
@@ -1009,3 +1009,13 @@ assert.ok(
 );
 
 console.log(`Schedule homework links verified (${HOMEWORK_RESOURCE_CATALOG.length} resources).`);
+
+const sunnyBook = (byType.flashcards || []).filter(resource => resource.id.startsWith("flash:custom-setup/sunny-s3-grammar-book"));
+assert.equal(sunnyBook.length, 48, "Sunny's book and all 47 pages have Homework links");
+for (let page = 1; page <= 47; page += 1) {
+  const resource = sunnyBook.find(item => item.id === `flash:custom-setup/sunny-s3-grammar-book/page-${page}`);
+  assert.ok(resource, `Page ${page} is available for Homework`);
+  assert.equal(resource.ordinal, page);
+  assert.ok(normalizeHomeworkResource(resource), `Page ${page} has a valid Homework link`);
+  assert.equal(new URL(resource.url, "https://edmundeducation.com/").searchParams.get("deck"), `custom-setup/sunny-s3-grammar-book/page-${page}`);
+}

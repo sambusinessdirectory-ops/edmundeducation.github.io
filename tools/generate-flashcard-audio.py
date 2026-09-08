@@ -173,6 +173,11 @@ EXTERNAL_SEED_ASSIGNMENTS = (
         "window.EDMUND_HKPF_SEED = ",
         None,
     ),
+    (
+        "flashcards-sunny-s3-grammar-book-data.js",
+        "window.EDMUND_SUNNY_S3_GRAMMAR_BOOK_SEED = ",
+        None,
+    ),
 )
 AUDIO_BUILD_VERSION = "v1"
 STATIC_AUDIO_ROOT = f"assets/flashcards/audio/edmund-neural/{AUDIO_BUILD_VERSION}"

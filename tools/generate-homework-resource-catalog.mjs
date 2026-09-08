@@ -223,14 +223,18 @@ async function flashcardResources(allFiles) {
     ["business-english/business-concepts-standard-response/q10-innovation-and-conservatism", "Q10 - 企業為何常說要創新，實際上卻很保守？"]
   ]);
 
-  return Object.entries(sandbox.window.EDMUND_FLASHCARD_SEED || {})
-    .filter(([, cards]) => Array.isArray(cards) && cards.length > 0)
+  const sunnyBookPrefix = "custom-setup/sunny-s3-grammar-book";
+  const sunnyPagePattern = /^custom-setup\/sunny-s3-grammar-book\/page-([1-9]|[1-3][0-9]|4[0-7])$/;
+  const resources = Object.entries(sandbox.window.EDMUND_FLASHCARD_SEED || {})
+    .filter(([deckId, cards]) => Array.isArray(cards) && (cards.length > 0 || sunnyPagePattern.test(deckId)))
     .map(([deckId, cards]) => {
       const readingMatch = deckId.match(/^ielts\/reading\/passage-([123])\/(Practice \d+)$/);
       const readingPassage = readingMatch?.[1] || "";
       const readingPractice = readingMatch?.[2] || "";
       const readingTitle = readingTitlesByPassage.get(readingPassage)?.[readingPractice] || "";
-      const exactTitle = businessConceptBookOneTitles.get(deckId)
+      const sunnyPage = sunnyPagePattern.exec(deckId);
+      const exactTitle = (sunnyPage ? `S3 Grammar Book / Page ${sunnyPage[1]} (Sunny)` : "")
+        || businessConceptBookOneTitles.get(deckId)
         || hkfsdIncidentReportTitles.get(deckId)
         || hkfsdBookOneTitles.get(deckId)
         || civicsBookTwoTitles.get(deckId)
@@ -248,6 +252,17 @@ async function flashcardResources(allFiles) {
         url: `flashcards.html?deck=${encodeURIComponent(deckId)}`
       };
     });
+  if (resources.some(resource => resource.id.startsWith(`flash:${sunnyBookPrefix}/`))) {
+    resources.push({
+      id: `flash:${sunnyBookPrefix}`,
+      type: "flashcards",
+      ordinal: null,
+      label: "S3 Grammar Book (Sunny)",
+      detail: "S3 Grammar Book · 47 page decks · Sunny 專屬卡組",
+      url: `flashcards.html?deck=${encodeURIComponent(sunnyBookPrefix)}`
+    });
+  }
+  return resources;
 }
 
 async function writingResources() {

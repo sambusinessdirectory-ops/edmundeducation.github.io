@@ -21,6 +21,16 @@ vm.runInNewContext(seedScript, seedContext);
 const seedDecks = Object.fromEntries(Object.entries(seedContext.window.EDMUND_FLASHCARD_SEED)
   .filter(([id]) => id.startsWith("custom-setup/")));
 assert.equal(Object.values(seedDecks).reduce((sum, cards) => sum + cards.length, 0), 231);
+const sunnySeedSource = readFileSync(new URL("../flashcards-sunny-s3-grammar-book-data.js", import.meta.url), "utf8");
+vm.runInNewContext(sunnySeedSource, seedContext);
+const sunnySeed = seedContext.window.EDMUND_SUNNY_S3_GRAMMAR_BOOK_SEED;
+assert.equal(Object.keys(sunnySeed).length, 47);
+assert.equal(Object.values(sunnySeed).flat().length, 131);
+assert.deepEqual(Object.values(sunnySeed).slice(0, 7).map(cards => cards.length), [17, 17, 17, 20, 25, 22, 13]);
+assert.ok(Object.values(sunnySeed).slice(7).every(cards => cards.length === 0));
+assert.ok(Object.values(sunnySeed).flat().every(card => card.front.trim() && card.meaning.trim() && !/^\d+$/.test(card.front.trim())));
+Object.assign(seedDecks, sunnySeed);
+
 
 const cards = count => Array.from({ length: count }, (_, i) => ({ front: `Test card ${i}`, meaning: "Test" }));
 seedDecks["custom-setup/unassigned"] = cards(13);
@@ -43,7 +53,12 @@ const attempts = [
 ];
 const harness = Function("seedDecks", "store", "attempts", `
   let currentUser = null;
-  const window = {};
+  const window = { location: { search: "" }, setTimeout: fn => fn(), alert: () => {} };
+  let requestedHomeworkDeckOpened = false;
+  let openedDeck = "";
+  const ensureIeltsReadingDataForDeck = async () => {};
+  const ensureSupplementalFlashcardDataForDeck = async () => {};
+  const openDeckStart = id => { openedDeck = id; };
   const BOOKMARK_DECK_ID = "bookmarks/private";
   const IELTS_READING_PASSAGE_1_PREFIX = "ielts/reading/passage-1";
   const IELTS_READING_PASSAGE_2_PREFIX = "ielts/reading/passage-2";
@@ -61,6 +76,7 @@ const harness = Function("seedDecks", "store", "attempts", `
   const deckTitleFromId = id => id;
   const escapeHtml = text => String(text);
   const optionButton = (title, id) => '<button data-open-deck="' + id + '">' + title + '</button>';
+  const routeOptionButton = (title, route) => '<button data-route="' + route + '">' + title + '</button>';
   let optionsFactory;
   const showOptions = (_title, _description, factory) => { optionsFactory = factory; };
   ${between("const customSetupDeckAssignments =", "const accessSections =")}
@@ -71,7 +87,8 @@ const harness = Function("seedDecks", "store", "attempts", `
   ${between("function getKnownDeckIds()", "function sectionLabelLines(")}
   ${between("function customSetupDecksForStudent(", "function normalizeSearchText(")}
   ${between("function searchableCardRows()", "function predefinedSearchDeckRows()")}
-  ${between("function showCustomSetup()", "function spacedRouteButton(")}
+  ${between("function customSetupOptionsHtml()", "function spacedRouteButton(")}
+  ${between("async function openRequestedHomeworkDeck()", "async function openRequestedFlashcardTarget()")}
   return {
     login(name, role = "student", extra = {}) {
       currentUser = name ? { name, role, access: { "custom-setup": true, "student-custom": true, dse: true }, ...extra } : null;
@@ -81,7 +98,15 @@ const harness = Function("seedDecks", "store", "attempts", `
     deckIsSearchable, searchableCardRows, familiarityStatsForPrefix, attemptStatsForPrefix,
     privateDeckVisibleToStudent, isDeckCompleted, customSetupDecksForStudent,
     renderCustomSetup() { showCustomSetup(); return optionsFactory(); },
-    rerenderCustomSetup() { return optionsFactory(); }
+    renderCollection(id) { return showCustomSetupCollection(id) ? optionsFactory() : ""; },
+    rerenderCustomSetup() { return optionsFactory(); },
+    async openHomework(id) {
+      requestedHomeworkDeckOpened = false;
+      openedDeck = "";
+      window.location.search = "?deck=" + encodeURIComponent(id);
+      const result = await openRequestedHomeworkDeck();
+      return { result, openedDeck };
+    }
   };
 `)(seedDecks, store, attempts);
 
@@ -146,3 +171,39 @@ assert.match(predefined, /assignedCustomDecks\.length\)/);
 assert.doesNotMatch(predefined, /addAggregate\("custom-setup", "客製 Setup", 2\)/);
 assert.match(between("function canAccessDeck(", "function showLogin()"), /privateDeckVisibleToStudent/);
 console.log("Private flashcard ownership, counts, search, admin previews and account switching checks passed.");
+
+// A teacher-assigned book remains a collection, including pages awaiting content.
+const sunnyPrefix = "custom-setup/sunny-s3-grammar-book";
+for (let page = 1; page <= 47; page += 1) seedDecks[`${sunnyPrefix}/page-${page}`] = page <= 7 ? cards(page) : [];
+harness.login("  sUnNy  ");
+assert.equal(harness.customSetupDecksForStudent().length, 47);
+assert.match(harness.renderCustomSetup(), /S3 Grammar Book/);
+assert.match(harness.renderCustomSetup(), /custom-setup-collection/);
+assert.doesNotMatch(harness.renderCustomSetup(), /Sprint/);
+assert.equal(harness.canAccessDeck(sunnyPrefix), true);
+assert.equal(harness.canAccessDeck(`${sunnyPrefix}/page-47`), true);
+const sunnyCollection = harness.renderCollection(sunnyPrefix);
+assert.equal((sunnyCollection.match(/data-open-deck=/g) || []).length, 47, "all 47 page entries are rendered, including empty pages");
+assert.match(sunnyCollection, /Page 47/);
+assert.equal(harness.getDeckCards(`${sunnyPrefix}/page-1`).length, 1);
+harness.login("Jayden");
+assert.equal(harness.canAccessDeck(sunnyPrefix), false);
+assert.equal(harness.getDeckCards(`${sunnyPrefix}/page-1`).length, 0);
+assert.equal(harness.renderCollection(sunnyPrefix), "");
+harness.login("Admin", "admin");
+assert.match(harness.renderCollection(sunnyPrefix), /Page 47/);
+console.log("Sunny's 47-page collection, private access, empty pages and admin visibility checks passed.");
+
+harness.login("Sunny");
+assert.deepEqual(await harness.openHomework(sunnyPrefix), { result: true, openedDeck: "" }, "book Homework link opens the page selector");
+assert.match(harness.rerenderCustomSetup(), /Page 47/);
+assert.deepEqual(await harness.openHomework(`${sunnyPrefix}/page-1`), { result: true, openedDeck: `${sunnyPrefix}/page-1` });
+assert.deepEqual(await harness.openHomework(`${sunnyPrefix}/page-47`), { result: true, openedDeck: `${sunnyPrefix}/page-47` }, "empty pages are real decks, not broken links");
+assert.deepEqual(await harness.openHomework(`${sunnyPrefix}/page-48`), { result: false, openedDeck: "" });
+harness.login("Other student");
+assert.deepEqual(await harness.openHomework(sunnyPrefix), { result: false, openedDeck: "" });
+assert.deepEqual(await harness.openHomework(`${sunnyPrefix}/page-1`), { result: false, openedDeck: "" });
+harness.login("Sunny", "student", { access: { "custom-setup": false } });
+assert.deepEqual(await harness.openHomework(sunnyPrefix), { result: false, openedDeck: "" });
+assert.deepEqual(await harness.openHomework(`${sunnyPrefix}/page-47`), { result: false, openedDeck: "" });
+console.log("Sunny source-card counts and collection/page Homework navigation checks passed.");
