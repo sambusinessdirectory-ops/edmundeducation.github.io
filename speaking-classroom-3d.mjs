@@ -1,5 +1,6 @@
 import * as THREE from './vendor/three/three.module.js';
 import {GLTFLoader} from './vendor/three/loaders/GLTFLoader.js';
+import {MascotSprites} from './speaking-mascot-sprites.mjs?v=20260908-mascots8';
 const cache=new Map();
 const load=name=>{if(!cache.has(name))cache.set(name,new GLTFLoader().loadAsync(new URL(`./assets/speaking-system/classroom/${name}.glb?v=20260908`,import.meta.url).href));return cache.get(name);};
 export function seatLayout(count,index){const angle=(index-(count-1)/2)*(count===2?.55:.40);return {x:Math.sin(angle)*3.25,z:1.15-Math.cos(angle)*3.25,yaw:-angle};}
@@ -15,18 +16,19 @@ export async function mountClassroom(root,candidates,onSelect){
  const look=()=>{camera.rotation.order='YXZ';camera.rotation.set(-pitch,yaw,0);};
  scene.add(new THREE.HemisphereLight(0xfff9ee,0x879386,2.4));const sun=new THREE.DirectionalLight(0xfff4df,2.5);sun.position.set(-4,8,4);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.bias=-.0003;sun.shadow.normalBias=.045;Object.assign(sun.shadow.camera,{left:-7,right:7,top:7,bottom:-7,near:.5,far:25});scene.add(sun);
  const resize=()=>{const w=root.clientWidth||600,h=Math.max(350,Math.min(580,w*.70));renderer.setSize(w,h);camera.aspect=w/h;camera.updateProjectionMatrix();};const observer=new ResizeObserver(resize);observer.observe(root);resize();
- const pickables=[],rings=new Map(),actors=[];
+ const pickables=[],rings=new Map(),actors=[],sprites=new MascotSprites(),backWall=[],leftWall=[];
  const mark=o=>o.traverse(n=>{if(n.isMesh){n.castShadow=!/floor|wall/i.test(n.name);n.receiveShadow=true;}});
  try {
  const classroom=(await load('classroom')).scene.clone(true);mark(classroom);scene.add(classroom);
+ for(const node of classroom.children){const name=node.name.replaceAll('_',' ');if(/Back plaster wall|Lower green wall|Chalkboard|chalkboard|noticeboard|Notice sheet|^Text/.test(name))backWall.push(node);if(/Left wall|Window/.test(name))leftWall.push(node);}
  for(let i=0;i<candidates.length;i++){
   const c=candidates[i],p=seatLayout(candidates.length,i),seat=new THREE.Group();seat.position.set(p.x,0,p.z);seat.rotation.y=p.yaw;seat.userData.candidateId=c.id;
   seat.add((await load('desk')).scene.clone(true));
-  if(c.name?.trim()){const horse=(await load(c.mascot||['eddy','elsie','phoebe'][i%3])).scene.clone(true);horse.scale.setScalar(.65);horse.position.set(0,.22,-.56);seat.add(horse);const eyes=[];horse.traverse(n=>{if(n.name.startsWith('EyeBlink'))eyes.push(n);});actors.push({horse,head:horse.getObjectByName('HeadRig'),eyes,id:c.id,phase:i*1.37});}
+  if(c.name?.trim()){const art=await sprites.create(c.mascot||['eddy','elsie','phoebe'][i%3]);art.mesh.position.set(0,.04,-.56);seat.add(art.mesh);actors.push({art,yaw:p.yaw,id:c.id,phase:i*1.37});}
   mark(seat);scene.add(seat);pickables.push(seat);
   const ring=new THREE.Mesh(new THREE.TorusGeometry(.66,.028,8,48),new THREE.MeshBasicMaterial({color:0x35a875}));ring.rotation.x=-Math.PI/2;ring.position.set(p.x,.03,p.z);ring.visible=false;scene.add(ring);rings.set(c.id,ring);
  }
- }catch(error){observer.disconnect();renderer.dispose();root.textContent='3D could not load. Use the 2D mode.';throw error;}
+ }catch(error){observer.disconnect();sprites.dispose();renderer.dispose();root.textContent='3D could not load. Use the 2D mode.';throw error;}
  const zoom=delta=>{if(free){const direction=new THREE.Vector3();camera.getWorldDirection(direction);camera.position.addScaledVector(direction,-delta);}else{distance=THREE.MathUtils.clamp(distance+delta,2.5,24);orbit();}};
  controls.onclick=e=>{const action=e.target.closest('[data-camera]')?.dataset.camera;if(action==='in')zoom(-.8);if(action==='out')zoom(.8);if(action==='reset'){free=false;yaw=.3;pitch=.57;distance=11;target.set(0,1,0);orbit();}if(action==='free'){free=!free;if(free){const d=new THREE.Vector3();camera.getWorldDirection(d);yaw=Math.atan2(-d.x,-d.z);pitch=-Math.asin(d.y);look();}else{target.copy(camera.position).addScaledVector(camera.getWorldDirection(new THREE.Vector3()),5);distance=5;yaw=Math.atan2(camera.position.x-target.x,camera.position.z-target.z);pitch=Math.asin((camera.position.y-target.y)/distance);orbit();}}controls.querySelector('[data-camera="free"]').setAttribute('aria-pressed',String(free));controls.querySelector('[data-camera-move]').hidden=!free;};
  const keys=new Set(),map={w:'forward',s:'back',a:'left',d:'right',q:'down',e:'up',ArrowUp:'forward',ArrowDown:'back',ArrowLeft:'left',ArrowRight:'right'};
@@ -39,7 +41,9 @@ export async function mountClassroom(root,candidates,onSelect){
  const reduced=matchMedia('(prefers-reduced-motion: reduce)'),clock=new THREE.Clock();let elapsed=0;
  const render=()=>{if(disposed)return;const dt=Math.min(clock.getDelta(),.05);elapsed+=dt;
  if(free&&keys.size){const forward=camera.getWorldDirection(new THREE.Vector3()),right=new THREE.Vector3().setFromMatrixColumn(camera.matrix,0);for(const k of keys){if(k==='forward'||k==='back')camera.position.addScaledVector(forward,(k==='forward'?1:-1)*dt*3);if(k==='left'||k==='right')camera.position.addScaledVector(right,(k==='right'?1:-1)*dt*3);if(k==='up'||k==='down')camera.position.y+=(k==='up'?1:-1)*dt*3;}camera.position.clamp(new THREE.Vector3(-12,.25,-12),new THREE.Vector3(12,12,12));}
- if(!reduced.matches)for(const a of actors){const t=elapsed+a.phase,speaking=a.id===activeId;a.horse.scale.y=.65*(1+Math.sin(t*1.6)*.008);if(a.head){a.head.rotation.z=Math.sin(t*(speaking?2.8:.75))*(speaking?.035:.015);a.head.rotation.x=Math.sin(t*1.1)*.017;}const blink=(t%4.7);for(const eye of a.eyes)eye.scale.y=blink<.15?Math.max(.08,Math.abs(blink-.075)/.075):1;}
+ for(const a of actors){a.art.mesh.getWorldPosition(a.art.world);const azimuth=Math.atan2(camera.position.x-a.art.world.x,camera.position.z-a.art.world.z);sprites.update(a.art,azimuth,a.yaw,elapsed+a.phase,reduced.matches,a.id===activeId);}
+ // Open the wall nearest an outside camera so rear/side artwork stays visible.
+ backWall.forEach(node=>node.visible=camera.position.z> -3.7);leftWall.forEach(node=>node.visible=camera.position.x> -4.8);
  renderer.render(scene,camera);frame=requestAnimationFrame(render);};render();
- return {active(id){activeId=id;rings.forEach((ring,key)=>ring.visible=key===id);},dispose(){disposed=true;cancelAnimationFrame(frame);observer.disconnect();renderer.dispose();root.replaceChildren();rings.forEach(r=>{r.geometry.dispose();r.material.dispose();});}};
+ return {active(id){activeId=id;rings.forEach((ring,key)=>ring.visible=key===id);},dispose(){disposed=true;cancelAnimationFrame(frame);observer.disconnect();sprites.dispose();renderer.dispose();root.replaceChildren();rings.forEach(r=>{r.geometry.dispose();r.material.dispose();});}};
 }
