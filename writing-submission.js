@@ -1781,7 +1781,7 @@ function showView(name) {
   const questionsButton=document.querySelector('[data-admin-questions-button]');
   if(questionsButton)questionsButton.hidden = !loggedIn || !admin || name === 'admin-questions';
   document.body.classList.remove('writing-article-focus');
-  elements.adminPendingButton.hidden = !loggedIn || !admin || name === "admin-pending";
+  if (elements.adminPendingButton) elements.adminPendingButton.hidden = !loggedIn || !admin || name === "admin-pending";
   elements.adminReviewButton.hidden = !loggedIn || !admin || name === "admin-review";
   if (loggedIn) {
     elements.userPill.textContent = admin
@@ -9467,9 +9467,9 @@ function bindEvents() {
   elements.grammarLogButton.addEventListener("click", () => openGrammarLog().catch(handleViewError));
   elements.feedbackBookmarksButton.addEventListener("click", () => openFeedbackBookmarks().catch(handleViewError));
   elements.adminButton.addEventListener("click", () => openAdminDashboard().catch(handleViewError));
-  elements.adminPendingButton.addEventListener("click", () => openAdminPendingSubmissions().catch(handleViewError));
-  document.querySelector("[data-admin-pending-refresh]").addEventListener("click", () => openAdminPendingSubmissions().catch(handleViewError));
-  document.querySelector("[data-admin-pending-search]").addEventListener("input", renderAdminPendingSubmissions);
+  elements.adminPendingButton?.addEventListener("click", () => openAdminPendingSubmissions().catch(handleViewError));
+  document.querySelector("[data-admin-pending-refresh]")?.addEventListener("click", () => openAdminPendingSubmissions().catch(handleViewError));
+  document.querySelector("[data-admin-pending-search]")?.addEventListener("input", renderAdminPendingSubmissions);
   elements.adminReviewButton.addEventListener("click", () => openAdminExplanationReview().catch(handleViewError));
   elements.newWriting.addEventListener("click", () => startNewDraft());
   elements.refreshSubmissions.addEventListener("click", () => loadSubmissions().catch(handleViewError));
