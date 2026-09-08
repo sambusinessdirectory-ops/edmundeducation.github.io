@@ -1,10 +1,11 @@
 import * as THREE from './vendor/three/three.module.js';
 import {GLTFLoader} from './vendor/three/loaders/GLTFLoader.js';
-import {MascotSprites} from './speaking-mascot-sprites.mjs?v=20260908-mascots8';
+import {MascotCharacters} from './speaking-mascot-characters.mjs?v=20260908-mascots9';
+import {updateAttention,listenerNod} from './speaking-mascot-behaviour.mjs?v=20260908-mascots9';
 const cache=new Map();
 const load=name=>{if(!cache.has(name))cache.set(name,new GLTFLoader().loadAsync(new URL(`./assets/speaking-system/classroom/${name}.glb?v=20260908`,import.meta.url).href));return cache.get(name);};
 export function seatLayout(count,index){const angle=(index-(count-1)/2)*(count===2?.55:.40);return {x:Math.sin(angle)*3.25,z:1.15-Math.cos(angle)*3.25,yaw:-angle};}
-export async function mountClassroom(root,candidates,onSelect){
+export async function mountClassroom(root,candidates,onSelect,{seated=false}={}){
  let disposed=false,frame,activeId=null,free=false;
  const scene=new THREE.Scene();scene.background=new THREE.Color('#e8ece3');
  const camera=new THREE.PerspectiveCamera(40,1,.08,100),target=new THREE.Vector3(0,1,0);
@@ -16,15 +17,15 @@ export async function mountClassroom(root,candidates,onSelect){
  const look=()=>{camera.rotation.order='YXZ';camera.rotation.set(-pitch,yaw,0);};
  scene.add(new THREE.HemisphereLight(0xfff9ee,0x879386,2.4));const sun=new THREE.DirectionalLight(0xfff4df,2.5);sun.position.set(-4,8,4);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.bias=-.0003;sun.shadow.normalBias=.045;Object.assign(sun.shadow.camera,{left:-7,right:7,top:7,bottom:-7,near:.5,far:25});scene.add(sun);
  const resize=()=>{const w=root.clientWidth||600,h=Math.max(350,Math.min(580,w*.70));renderer.setSize(w,h);camera.aspect=w/h;camera.updateProjectionMatrix();};const observer=new ResizeObserver(resize);observer.observe(root);resize();
- const pickables=[],rings=new Map(),actors=[],sprites=new MascotSprites(),backWall=[],leftWall=[];
- const mark=o=>o.traverse(n=>{if(n.isMesh){n.castShadow=!/floor|wall/i.test(n.name);n.receiveShadow=true;}});
+ const pickables=[],rings=new Map(),actors=[],sprites=new MascotCharacters(),backWall=[],leftWall=[];
+ const mark=o=>o.traverse(n=>{if(n.isMesh){n.castShadow=!n.userData.mascotSurface&&!/floor|wall/i.test(n.name);n.receiveShadow=true;}});
  try {
  const classroom=(await load('classroom')).scene.clone(true);mark(classroom);scene.add(classroom);
  for(const node of classroom.children){const name=node.name.replaceAll('_',' ');if(/Back plaster wall|Lower green wall|Chalkboard|chalkboard|noticeboard|Notice sheet|^Text/.test(name))backWall.push(node);if(/Left wall|Window/.test(name))leftWall.push(node);}
  for(let i=0;i<candidates.length;i++){
   const c=candidates[i],p=seatLayout(candidates.length,i),seat=new THREE.Group();seat.position.set(p.x,0,p.z);seat.rotation.y=p.yaw;seat.userData.candidateId=c.id;
   seat.add((await load('desk')).scene.clone(true));
-  if(c.name?.trim()){const art=await sprites.create(c.mascot||['eddy','elsie','phoebe'][i%3]);art.mesh.position.set(0,.04,-.56);seat.add(art.mesh);actors.push({art,yaw:p.yaw,id:c.id,phase:i*1.37});}
+  if(c.name?.trim()){const art=await sprites.create(c.mascot||['eddy','elsie','phoebe'][i%3],seated?'seated':'standing');art.mesh.position.set(0,.04,-.56);seat.add(art.mesh);actors.push({art,yaw:p.yaw,facingYaw:p.yaw,id:c.id,phase:i*1.37,slot:i,lookYaw:0,x:p.x-.56*Math.sin(p.yaw),z:p.z-.56*Math.cos(p.yaw)});}
   mark(seat);scene.add(seat);pickables.push(seat);
   const ring=new THREE.Mesh(new THREE.TorusGeometry(.66,.028,8,48),new THREE.MeshBasicMaterial({color:0x35a875}));ring.rotation.x=-Math.PI/2;ring.position.set(p.x,.03,p.z);ring.visible=false;scene.add(ring);rings.set(c.id,ring);
  }
@@ -41,9 +42,10 @@ export async function mountClassroom(root,candidates,onSelect){
  const reduced=matchMedia('(prefers-reduced-motion: reduce)'),clock=new THREE.Clock();let elapsed=0;
  const render=()=>{if(disposed)return;const dt=Math.min(clock.getDelta(),.05);elapsed+=dt;
  if(free&&keys.size){const forward=camera.getWorldDirection(new THREE.Vector3()),right=new THREE.Vector3().setFromMatrixColumn(camera.matrix,0);for(const k of keys){if(k==='forward'||k==='back')camera.position.addScaledVector(forward,(k==='forward'?1:-1)*dt*3);if(k==='left'||k==='right')camera.position.addScaledVector(right,(k==='right'?1:-1)*dt*3);if(k==='up'||k==='down')camera.position.y+=(k==='up'?1:-1)*dt*3;}camera.position.clamp(new THREE.Vector3(-12,.25,-12),new THREE.Vector3(12,12,12));}
- for(const a of actors){a.art.mesh.getWorldPosition(a.art.world);const azimuth=Math.atan2(camera.position.x-a.art.world.x,camera.position.z-a.art.world.z);sprites.update(a.art,azimuth,a.yaw,elapsed+a.phase,reduced.matches,a.id===activeId);}
+ const speaker=actors.find(a=>a.id===activeId);
+ for(const a of actors){a.art.mesh.getWorldPosition(a.art.world);const azimuth=Math.atan2(camera.position.x-a.art.world.x,camera.position.z-a.art.world.z);const looking=updateAttention(a,speaker,dt,reduced.matches),nod=listenerNod(elapsed,a.slot,!!speaker&&a!==speaker,reduced.matches);sprites.update(a.art,azimuth,a.yaw,elapsed+a.phase,reduced.matches,a.id===activeId,looking,nod);}
  // Open the wall nearest an outside camera so rear/side artwork stays visible.
  backWall.forEach(node=>node.visible=camera.position.z> -3.7);leftWall.forEach(node=>node.visible=camera.position.x> -4.8);
  renderer.render(scene,camera);frame=requestAnimationFrame(render);};render();
- return {active(id){activeId=id;rings.forEach((ring,key)=>ring.visible=key===id);},dispose(){disposed=true;cancelAnimationFrame(frame);observer.disconnect();sprites.dispose();renderer.dispose();root.replaceChildren();rings.forEach(r=>{r.geometry.dispose();r.material.dispose();});}};
+ return {active(id){activeId=id;rings.forEach((ring,key)=>ring.visible=key===id);},dispose(){disposed=true;cancelAnimationFrame(frame);observer.disconnect();sprites.dispose();renderer.dispose();renderer.forceContextLoss();root.replaceChildren();rings.forEach(r=>{r.geometry.dispose();r.material.dispose();});}};
 }

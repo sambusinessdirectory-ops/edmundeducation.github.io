@@ -1,0 +1,44 @@
+[
+  {
+    "name": "eddy",
+    "pose": "standing",
+    "generatedFile": "exec-a710a2cf-584d-4a43-b205-75a9c9a99516.png",
+    "publishedFile": "assets/speaking-system/mascots/v2/eddy-standing.png",
+    "sha256": "19eea46c0f22fa9882388a31ddea4b94d2f7e7924f188ae4ae7a359a0a9cc183"
+  },
+  {
+    "name": "eddy",
+    "pose": "seated",
+    "generatedFile": "exec-65ebf188-fb56-41b1-9d87-b10148afcdc1.png",
+    "publishedFile": "assets/speaking-system/mascots/v2/eddy-seated.png",
+    "sha256": "2d44a34c16d3ad85ad754b66f603736ff8a87c5faec9702300ff3acd01ef9f8f"
+  },
+  {
+    "name": "elsie",
+    "pose": "standing",
+    "generatedFile": "exec-a7396b7e-23fb-41db-9246-e48c38e0cd3e.png",
+    "publishedFile": "assets/speaking-system/mascots/v2/elsie-standing.png",
+    "sha256": "bbba9bf268d725d9596f227d465e0108e867fd1033d3e89916b3ee3c969e07a2"
+  },
+  {
+    "name": "elsie",
+    "pose": "seated",
+    "generatedFile": "exec-888bd80b-4a82-480d-97db-c0bf295203b0.png",
+    "publishedFile": "assets/speaking-system/mascots/v2/elsie-seated.png",
+    "sha256": "d3a5e8929ad5fcc9b7a168fb09443a030f2e1f49a8b8113e2070a6e31fe2acc5"
+  },
+  {
+    "name": "phoebe",
+    "pose": "standing",
+    "generatedFile": "exec-99720881-42fc-4da6-b8ee-9277883335c1.png",
+    "publishedFile": "assets/speaking-system/mascots/v2/phoebe-standing.png",
+    "sha256": "9294fa08ee2f6e26b20df4f39de18541e1b7b6755cf8e4d9b5aad2c43c70121f"
+  },
+  {
+    "name": "phoebe",
+    "pose": "seated",
+    "generatedFile": "exec-c162908b-e5eb-4513-9c91-b96410d23212.png",
+    "publishedFile": "assets/speaking-system/mascots/v2/phoebe-seated.png",
+    "sha256": "e3e88a536cb7babb9274df45a5a376f114f90c135d6f73086591130fa7539c6e"
+  }
+]

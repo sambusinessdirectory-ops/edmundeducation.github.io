@@ -1,5 +1,9 @@
 # DSE classroom mascot artwork
 
+The current production renderer and 16-view standing/seated artwork are documented in [v2/README.md](v2/README.md). The notes below describe the retained first revision.
+
+## First revision
+
 Eddy uses the user's 96 original RGBA idle frames directly. No pixels were regenerated, recoloured, or mirrored. Playback uses all 12 supplied frames at 6 fps, including the supplied blink drawing. A fixed crop keeps the original movement and foot alignment.
 
 Elsie and Phoebe use eight-view RGBA atlases generated with the built-in image_gen tool, using Eddy's supplied frame for style/proportions and their original creative-brief reference plates for identity. Full initial and final edit prompts are in `prompts.json`. The selected outputs were copied unchanged to `assets/speaking-system/mascots/elsie-directions-v1.png` and `phoebe-directions-v1.png`. Source crop coordinates live in `speaking-mascot-art.mjs`; Elsie's east/west cells are mapped by the actual generated view, not prompt order. These two characters use gentle breathing and speaking sway rather than claiming a generated 12-frame animation.
