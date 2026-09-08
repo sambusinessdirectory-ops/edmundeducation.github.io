@@ -554,7 +554,8 @@ async function speakingResources() {
 }
 
 async function sentenceResources() {
-  const files = await portalDataFiles("sentence-structure.html", /^sentence-structure(?:-.*)?(?:data|lessons[^/]*)\.js$/);
+  // The portal now downloads individual lessons after login; index the canonical build sources.
+  const files = ["sentence-structure-lessons-5-345.js", "sentence-structure-data.js"];
   const globals = await evaluateFiles(files);
   return (globals.EDMUND_SENTENCE_STRUCTURE_DATA?.lessons || []).map((lesson, index) => {
     const ordinal = index + 1;
