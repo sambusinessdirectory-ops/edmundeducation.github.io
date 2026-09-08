@@ -388,7 +388,7 @@ test("submission traffic uses a first-party Supabase relay with a safe failure p
     /submissionProxyUrl:\s*"https:\/\/ookkxzgpdclzrrhfmvqx\.supabase\.co\/functions\/v1\/writing-submission-proxy"/
   );
   assert.match(html, /writing-submission-config\.js\?v=20260901-selection-delete1/);
-  assert.match(html, /writing-submission\.js\?v=20260908-refine7/);
+  assert.match(html, /writing-submission\.js\?v=20260908-admin2/);
   assert.match(submissionProxy, /const UPSTREAM_ORIGIN = "https:\/\/edmund-writing-submission\.edmundeducation\.workers\.dev"/);
   assert.match(submissionProxy, /const ALLOWED_ORIGINS = new Set/);
   assert.match(submissionProxy, /request\.method !== "PUT" && request\.method !== "POST"/);
@@ -421,8 +421,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260908-loading1/);
-  assert.match(html, /writing-submission\.js\?v=20260908-refine7/);
+  assert.match(html, /writing-submission\.css\?v=20260908-admin2/);
+  assert.match(html, /writing-submission\.js\?v=20260908-admin2/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -1232,10 +1232,9 @@ test("admin proxy submission and expanded feedback tools stay authenticated and 
   assert.match(script, /FEEDBACK_HIGHLIGHT_NAMES\.forEach\(\(name\) => \{/);
   assert.match(script, /command: name,[\s\S]*?className: `is-highlight is-\$\{name\}`/);
   assert.match(script, /state\.feedbackSelectionPointerActive = false;[\s\S]*?scheduleFeedbackSelectionToolbarPosition\(\)/);
-  assert.match(script, /function deleteSelectedFeedbackText\(editor, \{ clientX, clientY \} = \{\}\)/);
-  assert.match(script, /feedbackRangeContainsClientPoint\(range, clientX, clientY\)/);
+  assert.match(script, /function deleteSelectedFeedbackText\(editor\)/);
   assert.match(script, /document\.addEventListener\("contextmenu", \(event\) => \{/);
-  assert.match(script, /if \(event\.button !== 2\) return;/);
+  assert.match(script, /if \(!editor \|\| state\.user\?\.role !== "admin"\) return;/);
   assert.match(script, /if \(deleteSelectedFeedbackText\(editor, event\)\) \{[\s\S]*?event\.preventDefault\(\);[\s\S]*?return;/);
   assert.match(script, /document\.execCommand\("delete", false\)/);
   assert.match(script, /function feedbackCaretRangeAtPoint\(editor, \{ clientX, clientY \} = \{\}\)/);
@@ -1403,4 +1402,20 @@ test("browser configuration contains no administrator password", () => {
   assert.match(config, /adminUsername:\s*"Sam Admin Writing Grammar Check"/);
   assert.doesNotMatch(config, /(?:admin)?password\s*:/i);
   assert.doesNotMatch(script, /CONFIG\.(?:admin)?password/i);
+});
+
+
+test("admin feedback queue and fullscreen preserve role and editor boundaries", () => {
+  assert.match(html, /data-view="admin-pending" hidden/);
+  assert.match(html, /data-admin-pending-button hidden/);
+  assert.match(script, /generation === state.adminPendingGeneration/);
+  assert.match(script, /state.authToken === token/);
+  assert.match(script, /!row.deletedAt && !row.hasPublishedFeedback/);
+  assert.match(script, /if \(!payload.hasMore\) break/);
+  assert.match(script, /await selectAdminStudent\(row.studentId\)/);
+  assert.match(script, /dialog.append\(bar, elements.adminDetail\)/);
+  assert.match(script, /session.placeholder.replaceWith\(elements.adminDetail\)/);
+  assert.match(script, /dialog.showModal\(\)/);
+  assert.match(script, /dialog.addEventListener\("cancel"/);
+  assert.match(css, /body.writing-feedback-fullscreen/);
 });

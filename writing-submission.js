@@ -190,6 +190,7 @@ const elements = {
   grammarLogButton: document.querySelector("[data-grammar-log-button]"),
   feedbackBookmarksButton: document.querySelector("[data-feedback-bookmarks-button]"),
   adminButton: document.querySelector("[data-admin-button]"),
+  adminPendingButton: document.querySelector("[data-admin-pending-button]"),
   adminReviewButton: document.querySelector("[data-admin-review-button]"),
   logout: document.querySelector("[data-logout]"),
   loginForm: document.querySelector("[data-login-form]"),
@@ -461,6 +462,9 @@ const state = {
   feedbackMultiSelectPending: null,
   feedbackApplyingFormat: false,
   feedbackDraggedSentenceLink: null,
+  adminPendingSubmissions: [],
+  adminPendingGeneration: 0,
+  adminPendingComplete: false,
   adminExplanationReviews: [],
   adminExplanationReviewPage: 0,
   adminExplanationReviewHasMore: false,
@@ -1439,15 +1443,6 @@ function scheduleFeedbackSelectionToolbarPosition() {
   state.feedbackSelectionToolbarFrame = requestAnimationFrame(syncFeedbackSelectionToolbarPosition);
 }
 
-function feedbackRangeContainsClientPoint(range, clientX, clientY) {
-  return [...range.getClientRects()].some(rect => (
-    clientX >= rect.left - 2
-    && clientX <= rect.right + 2
-    && clientY >= rect.top - 2
-    && clientY <= rect.bottom + 2
-  ));
-}
-
 function feedbackCaretRangeAtPoint(editor, { clientX, clientY } = {}) {
   if (!editor?.isConnected) return null;
   let range = null;
@@ -1515,7 +1510,7 @@ function insertFeedbackLineBreakAtPoint(editor, point = {}) {
   return true;
 }
 
-function deleteSelectedFeedbackText(editor, { clientX, clientY } = {}) {
+function deleteSelectedFeedbackText(editor) {
   if (!editor?.isConnected) return false;
   const selection = window.getSelection();
   const current = currentFeedbackSelection(editor);
@@ -1526,11 +1521,6 @@ function deleteSelectedFeedbackText(editor, { clientX, clientY } = {}) {
       try { return -left.compareBoundaryPoints(Range.START_TO_START, right); } catch { return 0; }
     });
   if (!selection || !ranges.length) return false;
-  if (
-    Number.isFinite(clientX)
-    && Number.isFinite(clientY)
-    && !ranges.some(range => feedbackRangeContainsClientPoint(range, clientX, clientY))
-  ) return false;
 
   state.feedbackApplyingFormat = true;
   state.activeFeedbackRichEditor = editor;
@@ -1771,6 +1761,8 @@ function formatCompactDuration(secondsValue) {
 }
 
 function showView(name) {
+  closeFeedbackFullscreen();
+  if (name !== "admin-pending") state.adminPendingGeneration += 1;
   accrueWritingTime();
   if (name !== "workspace") state.writingAreaFocused = false;
   clearFeedbackSelectionRanges();
@@ -1789,6 +1781,7 @@ function showView(name) {
   const questionsButton=document.querySelector('[data-admin-questions-button]');
   if(questionsButton)questionsButton.hidden = !loggedIn || !admin || name === 'admin-questions';
   document.body.classList.remove('writing-article-focus');
+  elements.adminPendingButton.hidden = !loggedIn || !admin || name === "admin-pending";
   elements.adminReviewButton.hidden = !loggedIn || !admin || name === "admin-review";
   if (loggedIn) {
     elements.userPill.textContent = admin
@@ -1946,6 +1939,9 @@ function readSession() {
 }
 
 function clearSession() {
+  closeFeedbackFullscreen();
+  state.adminPendingGeneration += 1;
+  state.adminPendingSubmissions = [];
   persistAdminFeedbackRecovery({ force: true });
   window.clearTimeout(state.occurrenceFlushTimer);
   window.clearTimeout(state.draftSaveTimer);
@@ -7111,6 +7107,51 @@ function renderFeedbackLearningEditor({ kind, title, description, values = [], l
   return section;
 }
 
+// Move the existing detail, preserving the editor DOM, undo history and save guards.
+let feedbackFullscreenSession = null;
+function closeFeedbackFullscreen() {
+  const session = feedbackFullscreenSession;
+  if (!session) return;
+  feedbackFullscreenSession = null;
+  session.placeholder.replaceWith(elements.adminDetail);
+  session.moved.forEach(({node, placeholder}) => placeholder.replaceWith(node));
+  session.dialog.remove();
+  document.body.classList.remove("writing-feedback-fullscreen");
+  session.trigger?.focus({ preventScroll: true });
+  window.scrollTo({ top: session.scrollY, behavior: "instant" });
+}
+
+function openFeedbackFullscreen() {
+  if (state.user?.role !== "admin" || feedbackFullscreenSession || !elements.adminDetail.querySelector("[data-feedback-editor]")) return;
+  const dialog = document.createElement("dialog");
+  dialog.className = "feedback-fullscreen-dialog";
+  dialog.setAttribute("aria-label", "全螢幕評語編輯器");
+  const bar = createElement("header", "feedback-fullscreen-bar");
+  bar.append(createElement("strong", "", elements.adminDetail.querySelector("[data-feedback-editor]").dataset.feedbackTitle || "Edmund 評語 · 專注編輯"));
+  const close = createElement("button", "secondary-button", "退出全螢幕 · Esc");
+  close.type = "button";
+  close.addEventListener("click", closeFeedbackFullscreen);
+  bar.append(close);
+  const placeholder = document.createComment("admin detail position");
+  const trigger = document.activeElement;
+  const scrollY = window.scrollY;
+  elements.adminDetail.replaceWith(placeholder);
+  dialog.append(bar, elements.adminDetail);
+  document.body.append(dialog);
+  const moved = [ensureFeedbackSelectionToolbar(), document.querySelector("[data-toast]")].filter(Boolean).map(node => {
+    const placeholder = document.createComment("feedback overlay position");
+    node.replaceWith(placeholder);
+    dialog.append(node);
+    return {node, placeholder};
+  });
+  feedbackFullscreenSession = {dialog, placeholder, trigger, scrollY, moved};
+  document.body.classList.remove("writing-article-focus");
+  document.body.classList.add("writing-feedback-fullscreen");
+  dialog.addEventListener("cancel", event => { event.preventDefault(); closeFeedbackFullscreen(); });
+  dialog.showModal();
+  close.focus();
+}
+
 function renderAdminFeedbackEditor(submission, feedback, container) {
   const serverFeedback = feedback;
   const recovery = readAdminFeedbackRecovery(submission.id);
@@ -7137,6 +7178,7 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   state.adminFeedbackSuggestedFragments = submissionOriginalFragments(submission.answer);
   const panel = createElement("section", "teacher-feedback-editor");
   panel.dataset.feedbackEditor = submission.id;
+  panel.dataset.feedbackTitle = `${submission.studentName || "學生"} · ${submission.topic}`;
   const heading = createElement("header", "teacher-feedback-editor-head");
   const copy = createElement("div");
   copy.append(createElement("p", "eyebrow", "STRUCTURED WRITING FEEDBACK"), createElement("h2", "", "撰寫 Edmund 評語"));
@@ -7148,7 +7190,11 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   quickSave.type = "button";
   quickSave.dataset.feedbackSave = "draft";
   const headingActions = createElement("div", "teacher-feedback-editor-head-actions");
-  headingActions.append(badge, recoveryStatus, quickSave);
+  const fullscreen = createElement("button", "secondary-button", "⛶ 全螢幕評語 · Full screen");
+  fullscreen.type = "button";
+  fullscreen.dataset.feedbackFullscreen = "true";
+  fullscreen.addEventListener("click", openFeedbackFullscreen);
+  headingActions.append(badge, recoveryStatus, quickSave, fullscreen);
   const republish=createElement('button','secondary-button','重新推送文章 · Republish');republish.type='button';republish.title='重新同步現有文章，不更改內容或評語';republish.onclick=async()=>{republish.disabled=true;try{await apiJson('/v1/admin/submissions/'+submission.id+'/republish',{method:'POST'});showToast('文章已重新推送；學生連線時會自動更新文章列表。');}catch(error){handleViewError(error);}finally{republish.disabled=false;}};headingActions.append(republish);
   heading.append(copy, headingActions);
   panel.append(heading);
@@ -9205,6 +9251,86 @@ async function openAdminGrammarSourceSubmission(id) {
   await openAdminSubmission(id);
 }
 
+function renderAdminPendingSubmissions() {
+  const list = document.querySelector("[data-admin-pending-list]");
+  const query = document.querySelector("[data-admin-pending-search]").value.trim().toLocaleLowerCase();
+  const rows = state.adminPendingSubmissions.filter(row => `${row.studentName} ${row.topic}`.toLocaleLowerCase().includes(query));
+  document.querySelector("[data-admin-pending-count]").textContent = `${rows.length}${state.adminPendingComplete ? "" : "+"}`;
+  if (!rows.length) {
+    list.replaceChildren(emptyState(state.adminPendingComplete
+      ? (query ? "沒有符合搜尋的待評文章。" : "所有文章均已發送評語，目前沒有待評文章。")
+      : "正在檢查所有學生的提交記錄…"));
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  for (const row of rows) {
+    const card = createElement("article", "admin-pending-card");
+    const copy = createElement("div");
+    copy.append(createElement("p", "eyebrow", row.studentName || "學生"), createElement("h2", "", row.topic),
+      createElement("p", "admin-pending-meta", `${formatSubmissionDate(row.submittedAt)} · ${row.wordCount} 字`));
+    const open = createElement("button", "primary-button", "撰寫評語 →");
+    open.type = "button";
+    open.dataset.pendingSubmissionId = row.id;
+    open.addEventListener("click", async () => {
+      if (state.user?.role !== "admin") return;
+      const token = state.authToken;
+      showView("admin");
+      try {
+        elements.adminSearch.value = "";
+        await selectAdminStudent(row.studentId);
+        if (state.currentView !== "admin" || state.authToken !== token || state.selectedAdminStudentId !== row.studentId) return;
+        await openAdminSubmission(row.id);
+        elements.adminDetail.scrollIntoView({ behavior: "smooth", block: "start" });
+      } catch (error) { handleViewError(error); }
+    });
+    card.append(copy, open);
+    fragment.append(card);
+  }
+  list.replaceChildren(fragment);
+}
+
+async function openAdminPendingSubmissions() {
+  if (state.user?.role !== "admin") return;
+  persistAdminFeedbackRecovery({ force: true });
+  showView("admin-pending");
+  const generation = ++state.adminPendingGeneration;
+  const token = state.authToken;
+  const current = () => generation === state.adminPendingGeneration && state.user?.role === "admin" && state.authToken === token;
+  state.adminPendingSubmissions = [];
+  state.adminPendingComplete = false;
+  const status = document.querySelector("[data-admin-pending-status]");
+  const refresh = document.querySelector("[data-admin-pending-refresh]");
+  refresh.disabled = true;
+  setStatus(status, "正在檢查所有學生的提交記錄…");
+  renderAdminPendingSubmissions();
+  const known = new Set();
+  let checked = 0;
+  try {
+    // No studentId filter: include all accounts, following every page of metadata.
+    for (let page = 1; current(); page += 1) {
+      const payload = await apiJson(`/v1/admin/submissions?page=${page}&pageSize=100`);
+      if (!current()) return;
+      if (!Array.isArray(payload?.submissions)) throw new Error("文章清單回應無效，請重新整理。");
+      if (payload.hasMore && !payload.submissions.length) throw new Error("文章清單尚未完整載入，請重新整理。");
+      const rows = submissionArray(payload);
+      for (const row of rows) {
+        if (!row.deletedAt && !row.hasPublishedFeedback && !known.has(row.id)) state.adminPendingSubmissions.push(row);
+        known.add(row.id);
+      }
+      checked = known.size;
+      state.adminPendingSubmissions.sort((a, b) => a.submittedAt.localeCompare(b.submittedAt) || a.id.localeCompare(b.id));
+      state.adminPendingComplete = !payload.hasMore;
+      renderAdminPendingSubmissions();
+      setStatus(status, payload.hasMore ? `已檢查 ${checked} 篇文章，正在繼續…` : `已檢查全部 ${checked} 篇文章 · 最早提交優先`);
+      if (!payload.hasMore) break;
+    }
+  } catch (error) {
+    if (current()) setStatus(status, `未能完成載入；清單可能不完整。${error.message || "請重試。"}`, "error");
+  } finally {
+    if (current()) refresh.disabled = false;
+  }
+}
+
 function renderAdminExplanationReviews() {
   elements.adminReviewCount.textContent = state.adminExplanationReviewHasMore
     ? `${state.adminExplanationReviews.length}+`
@@ -9341,6 +9467,9 @@ function bindEvents() {
   elements.grammarLogButton.addEventListener("click", () => openGrammarLog().catch(handleViewError));
   elements.feedbackBookmarksButton.addEventListener("click", () => openFeedbackBookmarks().catch(handleViewError));
   elements.adminButton.addEventListener("click", () => openAdminDashboard().catch(handleViewError));
+  elements.adminPendingButton.addEventListener("click", () => openAdminPendingSubmissions().catch(handleViewError));
+  document.querySelector("[data-admin-pending-refresh]").addEventListener("click", () => openAdminPendingSubmissions().catch(handleViewError));
+  document.querySelector("[data-admin-pending-search]").addEventListener("input", renderAdminPendingSubmissions);
   elements.adminReviewButton.addEventListener("click", () => openAdminExplanationReview().catch(handleViewError));
   elements.newWriting.addEventListener("click", () => startNewDraft());
   elements.refreshSubmissions.addEventListener("click", () => loadSubmissions().catch(handleViewError));
@@ -9623,6 +9752,8 @@ function bindEvents() {
       state.activeFeedbackRichEditor = editor;
       const range = currentFeedbackSelection(editor);
       if (range && !state.feedbackSelectionRanges.length) rememberFeedbackSelection(editor, [range]);
+      // Keep Safari/Firefox from collapsing the drag selection before contextmenu.
+      if (state.feedbackSelectionRanges.some(saved => feedbackRangeBelongsToEditor(saved, editor))) event.preventDefault();
       return;
     }
     state.feedbackSelectionPointerActive = true;
@@ -9653,9 +9784,8 @@ function bindEvents() {
     scheduleFeedbackSelectionToolbarPosition();
   });
   document.addEventListener("contextmenu", (event) => {
-    if (event.button !== 2) return;
     const editor = event.target.closest?.("[data-feedback-rich-editor]");
-    if (!editor) return;
+    if (!editor || state.user?.role !== "admin") return;
     if (deleteSelectedFeedbackText(editor, event)) {
       event.preventDefault();
       return;

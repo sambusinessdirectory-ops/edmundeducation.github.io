@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260908-loading1">
+  <link rel="stylesheet" href="writing-submission.css?v=20260908-admin2">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260908-layout1">
 </head>
@@ -48,6 +48,7 @@
         <button class="header-button" type="button" data-feedback-bookmarks-button hidden>我的評語書籤</button>
         <button class="header-button" type="button" data-admin-button hidden>學生文章</button>
         <button class="header-button" type="button" data-admin-questions-button hidden>學生提問</button>
+        <button class="header-button" type="button" data-admin-pending-button hidden>待評文章 · Awaiting feedback</button>
         <button class="header-button" type="button" data-admin-review-button hidden>待補文法解釋</button>
         <button class="header-button" type="button" data-logout hidden>登出</button>
       </div>
@@ -466,6 +467,19 @@
     </section>
 
     <section class="view" data-view="admin-questions" hidden><section class="glass-panel"><h1>學生提問 · Writing Feedback Inbox</h1><button type="button" class="small-button" data-refresh-questions>重新整理</button><div data-questions-inbox aria-live="polite"></div><button type="button" class="small-button" data-more-questions hidden>載入更多</button></section></section>
+    <section class="view" data-view="admin-pending" hidden>
+      <section class="utility-hero glass-panel">
+        <div><p class="eyebrow">ADMIN FEEDBACK QUEUE</p><h1>待評文章 · Awaiting feedback</h1>
+        <p>所有學生尚未收到評語的文章。評語草稿會保留在此，發送後才從清單移除。</p></div>
+        <button type="button" class="secondary-button" data-admin-pending-refresh>重新整理 · Refresh</button>
+      </section>
+      <section class="glass-panel admin-pending-panel">
+        <div class="admin-pending-toolbar"><label>搜尋學生／題目<input type="search" data-admin-pending-search placeholder="輸入學生姓名或文章題目"></label><span class="count-badge" data-admin-pending-count>0</span></div>
+        <p class="form-status" role="status" data-admin-pending-status></p>
+        <div data-admin-pending-list></div>
+      </section>
+    </section>
+
     <section class="view" data-view="admin-review" hidden>
       <section class="utility-hero glass-panel">
         <div>
@@ -629,6 +643,6 @@
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260908-layout1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
-  <script type="module" src="writing-submission.js?v=20260908-refine7"></script>
+  <script type="module" src="writing-submission.js?v=20260908-admin2"></script>
 </body>
 </html>
