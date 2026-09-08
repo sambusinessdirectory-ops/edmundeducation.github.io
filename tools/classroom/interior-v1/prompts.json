@@ -1,0 +1,13 @@
+{
+  "mode": "built-in image_gen",
+  "prompts": [
+    {
+      "key": "wood",
+      "prompt": "Use case: stylized-concept. Asset type: seamless material colour texture for a 3D classroom wooden floor. Create a square seamless top-down orthographic scan of warm natural honey-oak floorboards. Long narrow parallel timber planks run vertically, staggered joints, fine authentic flowing wood grain and occasional subtle knots, narrow clean dark seams, matte satin finish. Soft refined storybook realism, warm light honey beige-brown, moderate low contrast. Flat diffuse albedo lighting without directional highlights, no shadows, no perspective, no walls, no objects, no text. Edges must tile seamlessly in both directions. High detail 1536x1536."
+    },
+    {
+      "key": "city",
+      "prompt": "Use case: stylized-concept. Asset type: wide panoramic exterior backdrop seen through classroom windows in a gentle stylized 3D educational environment. Create a beautiful tranquil modern city beside abundant lush green trees and a leafy urban park: elegant light cream and pale grey apartment towers in the middle distance, softly hazed green hills beyond, sunlit canopies and shrubs across the lower foreground, clear soft blue morning sky with a few delicate white clouds across the upper third. View from a second-floor school classroom looking across a tree-lined neighbourhood. Eye-level straight horizon, no interior or window frames. Wide composition 3:1, detailed soft painterly illustration with subtle realistic depth and warm friendly daylight, no heavy outlines or plastic look. Buildings are understated so nature and greenery feel inviting. No people, cars close up, text, logos or watermarks. Landscape 3072x1024."
+    }
+  ]
+}

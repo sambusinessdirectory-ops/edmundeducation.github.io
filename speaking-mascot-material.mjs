@@ -10,23 +10,32 @@ export function mascotMaterial(atlas, flow, data, coatColour, headResource={atla
     headRects:{value:[new THREE.Vector4(),new THREE.Vector4()]}, headLayouts:{value:[new THREE.Vector4(),new THREE.Vector4()]},
     mouths:{value:[new THREE.Vector3(),new THREE.Vector3()]},
     bodyFlow:{value:new THREE.Vector4()},headFlow:{value:new THREE.Vector4()},
-    bodyBlend:{value:0},headBlend:{value:0},mouthOpen:{value:0},nod:{value:0},breath:{value:0},
+    bodyBlend:{value:0},headBlend:{value:0},mouthOpen:{value:0},nod:{value:0},headYaw:{value:0},breath:{value:0},
   };
   return new THREE.ShaderMaterial({
     uniforms, transparent:true, depthWrite:true, side:THREE.DoubleSide,
     vertexShader:`
       varying vec2 vUv;
-      uniform float nod, breath;
+      uniform float nod, headYaw, breath;
       void main(){
         vUv=uv;
         vec3 p=position;
-        float head=smoothstep(.43,.69,uv.y);
+        float head=smoothstep(.37,.44,uv.y);
         float torso=exp(-pow((uv.x-.5)/.21,2.)-pow((uv.y-.40)/.24,2.));
         float face=exp(-pow((uv.x-.5)/.26,2.)-pow((uv.y-.76)/.23,2.));
         // A shallow curved surface gives perspective parallax when looking up/down.
         p.z += max(torso*.09,face*.16);
-        p.y += head*(-nod*.25+breath*.007);
-        p.z += head*nod*.30;
+        p.z += torso*breath*.0015;
+        // Rotate the complete head about the neck, preserving its dimensions.
+        // Only the short neck join blends into the fixed seated torso.
+        vec3 neck=vec3(0.,.43,.05);
+        vec3 metric=vec3(length(modelMatrix[0].xyz),length(modelMatrix[1].xyz),length(modelMatrix[2].xyz));
+        vec3 fromNeck=(p-neck)*metric;
+        float angle=head*nod;
+        vec3 axis=vec3(cos(headYaw),0.,-sin(headYaw));
+        vec3 tilted=fromNeck*cos(angle)+cross(axis,fromNeck)*sin(angle)
+                   +axis*dot(axis,fromNeck)*(1.-cos(angle));
+        p=neck+tilted/metric;
         gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
       }
     `,

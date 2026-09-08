@@ -23,10 +23,13 @@ export function mouthOpening(seconds, speaking, reducedMotion = false) {
 }
 export function listenerNod(seconds, slot, listening, reducedMotion = false) {
   if (!listening || reducedMotion) return 0;
-  const period = 4.8 + slot * .43;
+  const period = 5.8 + slot * .47;
   const phase = (seconds + slot * 1.83) % period;
-  if (phase > .85) return 0;
-  return Math.sin(phase / .85 * Math.PI) ** 2 * .11;
+  if (phase > 1.15) return 0;
+  const ease = value => value * value * value * (value * (value * 6 - 15) + 10);
+  const dip = phase < .38 ? ease(phase / .38) : phase < .48 ? 1 : 1 - ease((phase - .48) / .67);
+  // Radians: a small, unhurried acknowledgement with a softer return.
+  return dip * (.036 + (slot % 3) * .003);
 }
 export function updateAttention(actor, speaker, dt, reducedMotion = false) {
   let desired = 0;

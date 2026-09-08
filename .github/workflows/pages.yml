@@ -250,6 +250,7 @@ jobs:
           node tools/test-speaking-mascot-sprites.mjs
           node tools/test-speaking-mascot-behaviour.mjs
           node tools/test-speaking-mascot-characters.mjs
+          node tools/test-speaking-classroom-interior.mjs
           node tools/test-classroom-polish.mjs
           node tools/test-classroom-round7.mjs
           node tools/test-september-classroom.mjs

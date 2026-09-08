@@ -1,7 +1,7 @@
 import * as THREE from './vendor/three/three.module.js';
-import {MASCOT_VIEWS} from './speaking-mascot-views.mjs?v=20260908-mascots9';
-import {viewPair, mouthOpening, COAT_COLOURS} from './speaking-mascot-behaviour.mjs?v=20260908-mascots9';
-import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20260908-mascots9';
+import {MASCOT_VIEWS} from './speaking-mascot-views.mjs?v=20260908-room10';
+import {viewPair, mouthOpening, COAT_COLOURS} from './speaking-mascot-behaviour.mjs?v=20260908-room10';
+import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20260908-room10';
 
 export class MascotCharacters {
   constructor(loader=new THREE.TextureLoader(), request=globalThis.fetch.bind(globalThis)) {
@@ -66,6 +66,7 @@ export class MascotCharacters {
     const uniforms=actor.mesh.material.uniforms;
     uniforms.mouthOpen.value=mouthOpening(seconds,speaking,reducedMotion);
     uniforms.nod.value=reducedMotion?0:nod;
+    uniforms.headYaw.value=facingYaw+headTurn-cameraAzimuth;
     uniforms.breath.value=reducedMotion?0:Math.sin(seconds*1.5);
     actor.mesh.rotation.y=cameraAzimuth-facingYaw;
     const height=actor.pose==='seated'?1.80:2.15;

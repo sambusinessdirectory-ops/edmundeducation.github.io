@@ -23,6 +23,6 @@ const was=a.lookYaw;updateAttention(a,a,1/60);assert.ok(a.lookYaw<was,'speaker r
 for(let i=0;i<200;i++)updateAttention(a,null,1/60);
 assert.ok(Math.abs(a.lookYaw)<.0001,'clearing the active speaker releases attention');
 let peaks=0,previous=0,different=false;
-for(let t=0;t<20;t+=.02){const nod=listenerNod(t,0,true);assert.ok(nod>=0&&nod<=.11);if(previous===0&&nod>0)peaks++;previous=nod;if(nod!==listenerNod(t,1,true))different=true;assert.equal(listenerNod(t,0,false),0);assert.equal(listenerNod(t,0,true,true),0);}
+for(let t=0;t<20;t+=.02){const nod=listenerNod(t,0,true);assert.ok(nod>=0&&nod<=.043);if(previous===0&&nod>0)peaks++;previous=nod;if(nod!==listenerNod(t,1,true))different=true;assert.equal(listenerNod(t,0,false),0);assert.equal(listenerNod(t,0,true,true),0);}
 assert.ok(peaks>=3&&peaks<=5,'listeners nod every few seconds');assert.ok(different,'listeners do not nod in lockstep');
 console.log('Mascot behaviour: distinct brief palettes, seated exam phases, continuous angle wrap, speaking/pause cycles, target tracking, staggered nods and reduced motion passed.');
