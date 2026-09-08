@@ -898,3 +898,43 @@ html.edmund-pomodoro-page-locked, html.edmund-pomodoro-page-locked body { overfl
 }
 
 .edmund-music-header-button{display:flex;align-items:center;gap:9px;flex-shrink:0;padding:8px 12px;border:1px solid #c9c5e1;border-radius:12px;background:#f1eff9;color:#514477;font:700 12px system-ui}.edmund-music-header-button>span:first-child{font-size:28px}.edmund-music-header-button small{display:block;font-size:9px;margin-top:3px}@media(max-width:700px){.edmund-music-header-button{padding:5px;font-size:9px}.edmund-music-header-button small{display:none}}
+
+/* One shared header layout: identity, study tools, then account actions. */
+.edmund-system-header__inner { gap: 14px; flex-wrap: wrap; }
+.edmund-system-tools { display:flex; align-items:center; gap:8px; margin-left:auto; }
+.edmund-system-tools > button { min-height:44px; height:44px; box-shadow:none; border-radius:12px; }
+.edmund-system-tools .edmund-pomodoro-header-button { min-width:124px; }
+.edmund-system-tools .edmund-music-header-button { cursor:pointer; }
+.edmund-system-tools .edmund-music-header-button strong { font:inherit; }
+.edmund-system-tools [data-answer-sound-toggle] { width:44px!important; height:44px!important; min-height:44px!important; flex-basis:44px!important; border-radius:12px!important; }
+.edmund-system-header .header-mascot { display:none; }
+.edmund-system-header__actions { gap:6px; }
+.edmund-system-header__actions > button { box-shadow:none; white-space:nowrap; }
+@media (max-width:1100px) and (min-width:701px) {
+  .edmund-system-header__actions { width:100%; justify-content:flex-end; padding-top:7px; border-top:1px solid #203d5e12; }
+}
+@media (max-width:700px) {
+  .edmund-system-header__inner { display:grid; grid-template-columns:minmax(0,1fr); width:calc(100% - 24px); gap:8px; padding:10px 0; }
+  .edmund-system-switcher { width:100%; display:grid; grid-template-columns:minmax(0,1fr) auto; gap:8px; align-items:center; }
+  .edmund-system-switcher__trigger { width:100%; min-height:44px; padding:0; gap:8px; }
+  .edmund-system-switcher__logo { width:34px; height:34px; flex-basis:34px; border-radius:10px; }
+  .edmund-system-switcher__copy { flex:1; }
+  .edmund-system-switcher__copy strong { font-size:clamp(13px,3.7vw,17px); }
+  .edmund-system-switcher__copy small { display:none; }
+  .edmund-system-switcher__chevron { width:22px; height:22px; flex:0 0 22px; font-size:13px; }
+  .edmund-system-switcher__homebase { min-height:36px; max-width:none; padding:8px; font-size:11px; white-space:nowrap; border-radius:10px; box-shadow:none; }
+  .edmund-homebase-prefix { display:none; }
+  .edmund-system-tools { width:100%; margin:0; display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr) 44px; gap:7px; }
+  .edmund-system-tools .edmund-pomodoro-header-button, .edmund-system-tools .edmund-music-header-button { width:100%; min-width:0; margin:0; padding:6px 8px; gap:7px; justify-content:center; font-size:12px; }
+  .edmund-system-tools .edmund-pomodoro-header-button img { width:25px; height:25px; flex-basis:25px; }
+  .edmund-system-tools .edmund-pomodoro-header-button span { display:grid; }
+  .edmund-system-tools .edmund-pomodoro-header-button small { display:none; }
+  .edmund-system-tools .edmund-pomodoro-header-button strong { font-size:12px; }
+  .edmund-system-tools .edmund-music-header-button > span:first-child { font-size:23px; line-height:1; }
+  .edmund-system-tools .edmund-music-header-button small { display:none; }
+  .edmund-system-header .edmund-system-header__actions { width:100%; min-width:0; display:flex; flex-wrap:wrap; gap:6px; align-items:center; justify-content:flex-start; overflow:visible; padding:8px 0 0; border-top:1px solid #203d5e12; }
+  .edmund-system-header__actions > button { min-height:38px; margin:0; padding:7px 10px; border-radius:10px; font:650 12px/1.3 system-ui,sans-serif; }
+  .edmund-system-header__actions > button:not([hidden]) { flex:1 0 auto; }
+  .edmund-system-header__actions .connection-pill, .edmund-system-header__actions .user-pill { font-size:11px; max-width:100%; }
+}
+.edmund-system-header [hidden] { display:none!important; }

@@ -257,6 +257,7 @@ jobs:
           node tools/test-classroom-round7.mjs
           node tools/test-september-classroom.mjs
           node tools/test-professional-ui.mjs
+          node tools/test-speaking-library-layout.mjs
           node tools/test-email-atomic-submission.mjs
           node tools/test-email-submit-ui.mjs
           node tools/test-email-attempts.mjs

@@ -797,8 +797,22 @@
       music.type = 'button'; music.className = 'edmund-music-header-button';
       music.dataset.edmundMusicHeader = '';
       music.title = 'Choose background music · 選擇背景音樂';
-      music.innerHTML = '<span aria-hidden="true">♫</span><span>Background Music<small>背景音樂 · Choose music</small></span>';
+      music.setAttribute('aria-label', 'Background Music · 背景音樂');
+      music.innerHTML = '<span aria-hidden="true">♫</span><span><strong>Music · 音樂</strong><small>Background music</small></span>';
       button.insertAdjacentElement('afterend', music);
+    }
+    if (headerInner && button) {
+      let tools = headerInner.querySelector('.edmund-system-tools');
+      if (!tools) {
+        tools = document.createElement('div');
+        tools.className = 'edmund-system-tools';
+        tools.setAttribute('role', 'group');
+        tools.setAttribute('aria-label', 'Study tools · 學習工具');
+        button.before(tools);
+      }
+      const music = headerInner.querySelector('[data-edmund-music-header]');
+      if (button.parentElement !== tools) tools.append(button);
+      if (music && music.parentElement !== tools) tools.append(music);
     }
     const launchers = [...document.querySelectorAll("[data-edmund-pomodoro-header], [data-edmund-pomodoro-launcher]")];
     if (!launchers.length || document.querySelector("[data-edmund-pomodoro-dialog]")) return;
@@ -1014,7 +1028,7 @@
     if (!trigger || !SYSTEMS.some(system => system.id === currentSystem)) return;
     const menuId = `edmund-system-menu-${index + 1}`;
     switcher.insertAdjacentHTML("beforeend", menuHtml(currentSystem));
-    switcher.insertAdjacentHTML("beforeend", `<a class="edmund-system-switcher__homebase" href="schedule-system.html" aria-label="快速返回 - 溫習營地"${currentSystem === "schedule" ? ' aria-current="page"' : ""}>快速返回 <span aria-hidden="true">-</span> 溫習營地</a>`);
+    switcher.insertAdjacentHTML("beforeend", `<a class="edmund-system-switcher__homebase" href="schedule-system.html" aria-label="快速返回 - 溫習營地"${currentSystem === "schedule" ? ' aria-current="page"' : ""}><span class="edmund-homebase-prefix">快速返回 · </span>溫習營地</a>`);
     const menu = switcher.querySelector(".edmund-system-switcher__menu");
     const homebase = switcher.querySelector(".edmund-system-switcher__homebase");
     menu.id = menuId;
@@ -1176,7 +1190,8 @@
     button.type = "button";
     button.className = "edmund-system-password-button";
     button.dataset.edmundChangePassword = "";
-    button.textContent = "更改用戶系統 Password";
+    button.textContent = "更改密碼";
+    button.title = "Change password · 更改用戶系統 Password";
     button.hidden = !candidate;
     button.addEventListener("click", () => {
       const dialog = ensurePasswordDialog();
@@ -1251,4 +1266,4 @@
 })();
 
 // Shared classroom controls are loaded once on every learning portal.
-if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20260908-refine7",document.currentScript.src).href;script.defer=true;document.head.append(script);}
+if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20260908-layout1",document.currentScript.src).href;script.defer=true;document.head.append(script);}

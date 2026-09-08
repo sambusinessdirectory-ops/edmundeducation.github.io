@@ -2580,10 +2580,12 @@
   }
 
   function examCoverHtml() {
+    const dse = state.route.exam === "dse" || state.route.view.startsWith("dse-");
+    const cover = dse ? "dse-exam-practice-mode-v1.png" : "ielts-exam-practice-mode.png";
     return `
       ${["dse-practice","exam-practice"].includes(state.route.view) ? '<button class="secondary-button" type="button" data-end-practice>結束本次練習 · End practice</button>' : ""}
       <figure class="exam-practice-cover">
-        <img src="assets/speaking-system/ielts-exam-practice-mode.png" width="1672" height="941" alt="IELTS Exam Mode Speaking：戴著耳機在咪高峰前練習的 Edmund 馬仔">
+        <img src="assets/speaking-system/${cover}" width="1672" height="941" alt="${dse ? "DSE" : "IELTS"} Exam Mode Speaking：戴著耳機在咪高峰前練習的 Edmund 馬仔">
       </figure>`;
   }
 
@@ -6855,7 +6857,7 @@
     const groups = examAttemptGroups(state.attempts);
     const regular = state.attempts.filter(attempt => !attempt.examRecording);
     container.innerHTML = `${renderExamRecordingBox(groups)}${renderRegularRecordingBox(regular)}<section class="recording-library-box" data-professional-records><h2>Professional Practice · 專業口試紀錄</h2><p>Loading…</p></section>`;
-    import("./speaking-professional-library.mjs").then(m=>m.mountProfessionalLibrary(container.querySelector("[data-professional-records]"))).catch(console.error);
+    import("./speaking-professional-library.mjs?v=20260908-layout1").then(m=>m.mountProfessionalLibrary(container.querySelector("[data-professional-records]"))).catch(console.error);
   }
 
   async function renderAttemptsPage() {
