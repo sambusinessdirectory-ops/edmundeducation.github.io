@@ -1001,7 +1001,7 @@ assert.match(videoClass, /\/v1\/admin\/official-playlists\/\$\{encodeURIComponen
   "permanent official-series deletion must call the authenticated Worker endpoint");
 assert.match(videoClassHtml, /data-student-page="unavailable"/,
   "removed, unpublished, and unauthorized historical links need an explicit unavailable page");
-assert.match(videoClassHtml, /video-class\.css\?v=20260820-homework-links1/,
+assert.match(videoClassHtml, /video-class\.css\?v=20260908-loading1/,
   "the unavailable-page stylesheet must use the current cache key");
 assert.ok(
   workflow.indexOf("node tools/generate-homework-resource-catalog.mjs") < workflow.indexOf("rsync -av"),

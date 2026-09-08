@@ -27,7 +27,7 @@ export function installQuestionOrder({system, owner, lessonId}) {
         });
         control.append(text, select); view.prepend(control);
       }
-      if(!global){const first=view.querySelector('.question-card[data-question-id]');control.hidden=!first;if(first&&first.previousElementSibling!==control)first.before(control);}
+      if(!global){const first=view.querySelector('.question-card[data-question-id]');if(control.hidden!==!first)control.hidden=!first;if(first&&first.previousElementSibling!==control)first.before(control);}
       control.querySelector('select').value = global ? prefs.order || 'asc' : prefs.modules?.[lesson] || 'inherit';
     });
     const descending = (prefs.modules?.[lesson] || prefs.order) === 'desc';

@@ -96,6 +96,8 @@ jobs:
         run: |
           node tools/build-sentence-structure-expansion.mjs
           node tools/generate-sentence-structure-catalog.mjs
+          node tools/build-sentence-structure-library.mjs --check
+          node tools/test-portal-loading.mjs
           git diff --exit-code -- \
             sentence-structure-lessons-5-345.js \
             workers/sentence-structure/src/catalog.js

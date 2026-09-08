@@ -5,6 +5,7 @@ import { readFile } from "node:fs/promises";
 import { webcrypto } from "node:crypto";
 import { performance } from "node:perf_hooks";
 import vm from "node:vm";
+import { createLessonLibrary } from "../lesson-library.mjs";
 
 const root = new URL("../", import.meta.url);
 const read = (name) => readFile(new URL(name, root), "utf8");
@@ -235,6 +236,7 @@ function createFrontendHarness() {
   const context = {
     window,
     document,
+    createLessonLibrary,
     sessionStorage,
     localStorage,
     fetch,
@@ -266,7 +268,7 @@ function createFrontendHarness() {
 
   const initialisation = /\ninitialise\(\)\.catch\(\(error\) => \{[\s\S]*?\n\}\);\s*$/;
   assert.match(frontendSource.replace(/\ninstallQuestionOrder\([^\n]+\n?$/,''), initialisation, "test harness could not locate the frontend bootstrap");
-  const instrumented = "const orderQuestions=questions=>questions;\n"+frontendSource.replace(/^import \{ installQuestionOrder, orderQuestions \}[^\n]+\n/m,'').replace(/\ninstallQuestionOrder\([^\n]+\n?$/,'').replace(initialisation, `
+  const instrumented = "const orderQuestions=questions=>questions;\n"+frontendSource.replace(/^import [^\n]+\n/gm,'').replace(/import\.meta\.url/g,JSON.stringify("https://edmundeducation.com/sentence-structure.js")).replace(/\ninstallQuestionOrder\([^\n]+\n?$/,'').replace(initialisation, `
 window.__SENTENCE_STRUCTURE_TEST__ = {
   state, elements, LESSON_PAGES, MAX_BOOKMARKS,
   getLesson, getQuestion, createExercise, exerciseFromAttempt,
@@ -1053,16 +1055,9 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.match(html, /<script defer src="shared-speaking-practice\.js\?v=20260829-2"><\/script>/);
   assert.doesNotMatch(html, /<script[^>]+src="[^"]*lamejs/i, "MP3 encoding must not block initial portal loading");
   const configAt = html.indexOf('src="sentence-structure-config.js"');
-  const expansionAt = html.indexOf('src="sentence-structure-lessons-5-345.js');
-  const dataAt = html.indexOf('src="sentence-structure-data.js');
   const appAt = html.indexOf('type="module" src="sentence-structure.js');
-  assert.ok(
-    configAt >= 0
-      && configAt < expansionAt
-      && expansionAt < dataAt
-      && dataAt < appAt,
-    "config, expansion, data, and module scripts must load in order"
-  );
+  assert.ok(configAt >= 0 && configAt < appAt, "configuration precedes the app");
+  assert.doesNotMatch(html, /<script[^>]+src="sentence-structure-(?:lessons|data)/, "lesson content must not block login");
   assert.match(css, /\.target-highlight\s*\{[^}]*color:\s*#d32727/i);
   assert.match(css, /\.target-highlight\s*\{[^}]*font-weight:\s*900/i);
   assert.match(css, /\.login-hero \.eyebrow\s*\{[^}]*font-size:\s*clamp\(18px,[^}]*22px\)/i);

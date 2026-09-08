@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Noto Serif TC Local";
-  src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+  src: local("Noto Serif TC"), local("Songti TC"), local("PMingLiU");
   font-display: swap;
   font-weight: 100 900;
 }

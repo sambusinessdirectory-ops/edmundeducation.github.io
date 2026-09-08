@@ -1,4 +1,4 @@
-import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-refine7";
+import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
 const CONFIG = window.EDMUND_IDIOM_SYSTEM_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CONTENT = window.EDMUND_IDIOM_SYSTEM_DATA || { version: "missing", lessons: [] };

@@ -1,7 +1,12 @@
-import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-refine7";
+import { createLessonLibrary } from "./lesson-library.mjs?v=20260908-loading1";
+import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
-const CONTENT = window.EDMUND_SENTENCE_STRUCTURE_DATA || { version: "missing", lessons: [] };
+const lessonLibrary = createLessonLibrary(new URL("./assets/sentence-structure/library/manifest.json?v=20260908-loading1", import.meta.url));
+const CONTENT = window.EDMUND_SENTENCE_STRUCTURE_DATA || lessonLibrary.content;
+const bundledContent = Boolean(window.EDMUND_SENTENCE_STRUCTURE_DATA);
+let lessonNavigation = 0, searchTimer;
+const lessonIsLoaded = id => bundledContent || lessonLibrary.loaded(id);
 
 const SESSION_KEY = "edmund-sentence-structure-session-v1";
 const PROGRESS_PANEL_PREFERENCE_KEY = "edmund-sentence-structure-progress-panel-v1";
@@ -284,6 +289,7 @@ function currentExerciseDuration() {
 
 function showView(name, { preserveScroll = false } = {}) {
   if (state.currentView === "lesson" && (name !== "lesson" || state.lessonPage !== 4)) pauseExerciseClock();
+  if (name !== "lesson") { lessonNavigation += 1; elements.lessonStepper.inert = false; }
   state.currentView = name;
   for (const view of elements.views) view.hidden = view.dataset.view !== name;
 
@@ -408,6 +414,7 @@ function clearSession() {
   window.clearTimeout(state.exercisePersistTimer);
   state.exercisePersistTimer = null;
   pauseExerciseClock();
+  lessonNavigation += 1;
   state.user = null;
   state.authToken = "";
   state.lessonId = "";
@@ -644,25 +651,30 @@ async function openDashboard({ force = false } = {}) {
   renderProgressPanelDisclosure();
   showView("dashboard");
   elements.dashboardWelcome.textContent = `${state.user.name}，選擇一個句型，由概念開始，再完成 50 題練習。`;
-  renderLessonChoices();
+  if (!lessonList().length) elements.lessonChoiceGrid.innerHTML = loadingHtml();
   if (!state.dashboardLoaded || force) elements.historyList.innerHTML = loadingHtml();
   try {
+    if (!bundledContent) await lessonLibrary.catalog();
+    if (state.authToken !== authToken) return;
+    renderLessonChoices();
     await loadDashboardData({ force });
     if (String(state.user?.id || "") !== userId || String(state.authToken || "") !== authToken) return;
     renderLessonChoices();
     renderProgressDashboard();
     renderAttemptHistory();
+    if (state.currentView === "dashboard") openRequestedHomeworkLesson();
   } catch (error) {
     if (String(state.user?.id || "") !== userId || String(state.authToken || "") !== authToken) return;
     console.warn("Sentence Structure dashboard failed", error);
     elements.historyList.innerHTML = '<p class="empty-state">未能載入練習記錄，請稍後按「重新整理」。</p>';
     renderProgressDashboard();
-    showToast("未能同步練習記錄。", "error");
+    if (!lessonList().length) elements.lessonChoiceGrid.innerHTML = '<p class="empty-state">課題目錄未能載入。<button type="button" data-retry-catalog>重試</button></p>';
+    showToast("未能同步教材或練習記錄，請重試。", "error");
   }
 }
 
 function openRequestedHomeworkLesson() {
-  if (state.requestedHomeworkLessonOpened || state.user?.role !== "student") return false;
+  if (state.requestedHomeworkLessonOpened || state.user?.role !== "student" || !lessonList().length) return false;
   const lessonId = String(new URLSearchParams(window.location.search).get("lesson") || "").trim();
   if (!lessonId) return false;
   state.requestedHomeworkLessonOpened = true;
@@ -747,7 +759,7 @@ function searchLessons(query) {
   const tokens = normalizeLessonSearchText(query).split(" ").filter(Boolean);
   if (!tokens.length) return [];
   return lessonSearchIndex().filter((entry) => {
-    const haystack = normalizeLessonSearchText(entry.texts.join(" "));
+    const haystack = entry.normalizedText ??= normalizeLessonSearchText(entry.texts.join(" "));
     return tokens.every((token) => haystack.includes(token));
   });
 }
@@ -760,6 +772,18 @@ function renderLessonSearch() {
     elements.lessonSearchResults.hidden = true;
     elements.lessonSearchResults.innerHTML = "";
     elements.lessonSearchSummary.textContent = "尚未輸入關鍵字。可搜尋全部句子結構的四個學習頁面及練習題。";
+    return;
+  }
+  if (!bundledContent && !lessonSearchIndexCache) {
+    elements.lessonSearchSummary.textContent = "正在載入搜尋索引…";
+    lessonLibrary.search().then(entries => {
+      lessonSearchIndexCache = entries;
+      if (state.currentView === "dashboard") renderLessonSearch();
+    }).catch(() => {
+      if (state.currentView === "dashboard" && elements.lessonSearchInput.value.trim()) {
+        elements.lessonSearchSummary.innerHTML = '搜尋暫未能載入。<button type="button" data-retry-search>重試</button>';
+      }
+    });
     return;
   }
   const matches = searchLessons(query);
@@ -1001,6 +1025,17 @@ function renderProgressDayPanel(activity = questionActivityRows()) {
   elements.progressDayPanel.hidden = !key;
   if (!key) return;
   const rows = activity.filter((row) => localDayKey(row.time) === key);
+  const missing = rows.map(row => row.lessonId).filter(id => !lessonIsLoaded(id));
+  if (missing.length) {
+    const token = state.authToken;
+    elements.progressDayList.innerHTML = loadingHtml();
+    lessonLibrary.many(missing).then(() => {
+      if (token === state.authToken && key === state.selectedProgressDay) renderProgressDayPanel();
+    }).catch(() => {
+      if (token === state.authToken && key === state.selectedProgressDay) elements.progressDayList.innerHTML = '<p>未能載入題目詳情。<button type="button" data-retry-day>重試</button></p>';
+    });
+    return;
+  }
   if (elements.progressDayTitle) elements.progressDayTitle.textContent = `${key} 完成題目（${rows.length} 題）`;
   elements.progressDayList.innerHTML = rows.length ? rows.map((row) => {
     const lesson = getLesson(row.lessonId);
@@ -1234,8 +1269,30 @@ function renderAttemptHistory() {
     : ""}`;
 }
 
-function openLesson(lessonId, { page = 1, attempt = null, questionId = "" } = {}) {
+async function openLesson(lessonId, { page = 1, attempt = null, questionId = "" } = {}) {
+  const navigation = ++lessonNavigation;
+  const token = state.authToken;
   const lesson = getLesson(lessonId);
+  if (lesson && !lessonIsLoaded(lessonId)) {
+    pauseExerciseClock();
+    state.lessonId = lessonId;
+    state.exercise = null;
+    elements.lessonKicker.textContent = lessonEnglishTitle(lesson).toUpperCase();
+    elements.lessonTitle.textContent = lessonTitle(lesson);
+    showView("lesson");
+    elements.lessonContent.innerHTML = loadingHtml();
+    elements.lessonStepper.inert = true;
+    try {
+      await lessonLibrary.lesson(lessonId);
+      if (navigation !== lessonNavigation || token !== state.authToken || state.currentView !== "lesson") return;
+    } catch {
+      if (navigation === lessonNavigation && token === state.authToken && state.currentView === "lesson") {
+        elements.lessonContent.innerHTML = '<p class="empty-state">此課題未能載入，請檢查網絡。<button type="button" data-retry-lesson>重試</button> <button type="button" data-back-to-dashboard>返回課題目錄</button></p>';
+        elements.lessonContent.querySelector('[data-retry-lesson]').onclick = () => openLesson(lessonId, { page, attempt, questionId });
+      }
+      return;
+    } finally { if (navigation === lessonNavigation) elements.lessonStepper.inert = false; }
+  }
   if (!lesson) return;
   pauseExerciseClock();
   state.lessonId = lesson.id;
@@ -1250,6 +1307,7 @@ function openLesson(lessonId, { page = 1, attempt = null, questionId = "" } = {}
 }
 
 function setLessonPage(page) {
+  if (!lessonIsLoaded(state.lessonId)) return;
   pauseExerciseClock();
   state.lessonPage = Math.max(1, Math.min(LESSON_PAGES, Number(page) || 1));
   renderLessonPage();
@@ -2144,10 +2202,20 @@ function bookmarkAnswerAvailable(bookmark) {
   return true;
 }
 
-function openBookmarks() {
+async function openBookmarks() {
   pauseExerciseClock();
   showView("bookmarks");
-  renderBookmarks();
+  const token = state.authToken;
+  const missing = state.bookmarks.filter(b => b.questionId !== SECTION_BOOKMARK_ID && !lessonIsLoaded(b.lessonId)).map(b => b.lessonId);
+  if (missing.length) {
+    elements.bookmarkList.innerHTML = loadingHtml();
+    try { await lessonLibrary.many(missing); }
+    catch {
+      if (token === state.authToken && state.currentView === "bookmarks") elements.bookmarkList.innerHTML = '<p>書簽題目暫未能載入。<button type="button" data-open-bookmarks>重試</button></p>';
+      return;
+    }
+  }
+  if (token === state.authToken && state.currentView === "bookmarks") renderBookmarks();
 }
 
 function renderBookmarks() {
@@ -2216,6 +2284,7 @@ async function openAdminDashboard() {
   showView("admin");
   elements.adminStudentList.innerHTML = loadingHtml();
   try {
+    if (!bundledContent) await lessonLibrary.catalog();
     const payload = await apiJson("/v1/admin/students");
     state.adminStudents = Array.isArray(payload?.students) ? payload.students : [];
     renderAdminStudents();
@@ -2267,6 +2336,9 @@ async function openAdminStudent(studentId) {
 }
 
 function handleClick(event) {
+  if (event.target.closest('[data-retry-catalog]')) return openDashboard({ force: true });
+  if (event.target.closest('[data-retry-search]')) return renderLessonSearch();
+  if (event.target.closest('[data-retry-day]')) return renderProgressDayPanel();
   const searchResult = event.target.closest("[data-lesson-search-result]");
   if (searchResult) return openLesson(searchResult.dataset.searchLesson, { page: Number(searchResult.dataset.searchPage || 1), questionId: searchResult.dataset.searchQuestion || "" });
   if (event.target.closest("[data-clear-lesson-search]")) return clearLessonSearch();
@@ -2373,7 +2445,10 @@ function bindEvents() {
   document.addEventListener("click", handleClick);
   document.addEventListener("input", (event) => {
     if (event.target.matches("[data-answer-input]")) syncExerciseButtons();
-    if (event.target.matches("[data-lesson-search-input]")) renderLessonSearch();
+    if (event.target.matches("[data-lesson-search-input]")) {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(renderLessonSearch, 250);
+    }
   });
   elements.lessonSearchForm?.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -2427,13 +2502,6 @@ async function checkHealth() {
 
 async function initialise() {
   bindEvents();
-  renderLessonChoices();
-  if (!lessonList().length) {
-    setConnection("教材未載入", "error");
-    setStatus(elements.loginStatus, "句子結構教材暫時未能載入，請重新整理頁面。", "error");
-    elements.loginButton.disabled = true;
-    return;
-  }
   checkHealth();
   const restored = await validateRestoredSession();
   if (!restored) {
