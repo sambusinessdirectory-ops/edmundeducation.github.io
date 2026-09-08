@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
-const release = "20260804-mobile-submit1";
+const release = "20260908-loading1";
 const systems = ["idiom-system", "proverb-system", "sentence-structure"];
 
 for (const system of systems) {
