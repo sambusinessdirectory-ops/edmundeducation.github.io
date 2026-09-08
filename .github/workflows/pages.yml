@@ -241,6 +241,7 @@ jobs:
           EMAIL_QA_MODULES: ${{ github.workspace }}/tools/email-qa/node_modules
         run: |
           npm ci --prefix tools/email-qa --ignore-scripts
+          node tools/test-schedule-manual-writing-resource.mjs
           node tools/test-portal-loading.mjs
           node tools/test-feedback-questions.mjs
           node tools/test-teaching-improvements.mjs
