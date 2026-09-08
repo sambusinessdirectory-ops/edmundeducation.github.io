@@ -112,6 +112,7 @@
         <div class="grammar-navigator__bar"><label><span class="sr-only">題目範圍</span><select class="grammar-range-select" data-question-range aria-label="選擇題目範圍"></select></label><span class="grammar-navigator__legend">綠色：答對 · 紅色：需再試</span></div>
         <div class="grammar-number-grid" data-question-grid aria-label="選擇題目"></div>
       </div>
+      <div class="grammar-highlight-tools"><button type="button" class="grammar-button--ghost" data-grammar-highlight aria-pressed="false">🖍 暫時螢光筆</button><span>開啟後拖選題目或解析文字；再按一次清除。</span></div>
       <article class="grammar-question">
         <div class="grammar-question__meta"><span class="grammar-question__number" data-question-number></span><span class="grammar-question__tense" data-question-tense></span><button class="grammar-bookmark" type="button" data-question-bookmark aria-pressed="false">☆ 收藏這題</button></div>
         <p class="grammar-question__prompt" data-question-prompt></p>
@@ -143,6 +144,81 @@
     previous: dashboard.querySelector("[data-previous-question]"), next: dashboard.querySelector("[data-next-question]"), saveStatus: dashboard.querySelector("[data-save-status]"),
     questionBookmark: dashboard.querySelector("[data-question-bookmark]"), explanation: dashboard.querySelector("[data-inline-explanation]"), explanationTitle: dashboard.querySelector("[data-explanation-title]"), explanationAnswer: dashboard.querySelector("[data-explanation-answer]"), explanationSteps: dashboard.querySelector("[data-inline-steps]")
   };
+
+  const highlightButton = dashboard.querySelector("[data-grammar-highlight]");
+  const highlightArea = dashboard.querySelector(".grammar-question");
+  const highlightRanges = new Set();
+  const highlightName = "grammar-teaching";
+  let highlightEnabled = false;
+  let highlightTimer = 0;
+  let touchSelection = false;
+  let pointerSelecting = false;
+
+  function clearGrammarHighlights({ disable = false } = {}) {
+    window.clearTimeout(highlightTimer);
+    highlightRanges.clear();
+    window.CSS?.highlights?.delete(highlightName);
+    highlightArea.querySelectorAll("mark.grammar-teaching-highlight").forEach(mark => mark.replaceWith(...mark.childNodes));
+    highlightArea.normalize();
+    if (disable) highlightEnabled = false;
+    highlightButton.setAttribute("aria-pressed", String(highlightEnabled));
+    highlightButton.textContent = highlightEnabled ? "清除暫時螢光筆" : "🖍 暫時螢光筆";
+  }
+
+  function highlightGrammarSelection() {
+    if (!highlightEnabled || elements.practice.hidden || dashboard.hidden) return;
+    const selection = window.getSelection();
+    if (!selection?.rangeCount || selection.isCollapsed) return;
+    const selected = selection.getRangeAt(0).cloneRange();
+    if (!highlightArea.contains(selected.startContainer) || !highlightArea.contains(selected.endContainer)) return;
+    const nodes = [];
+    const walker = document.createTreeWalker(highlightArea, NodeFilter.SHOW_TEXT);
+    while (walker.nextNode()) {
+      const node = walker.currentNode;
+      if (!node.textContent.trim() || !selected.intersectsNode(node)) continue;
+      if (node.parentElement.closest('button, input, textarea, select, label, [contenteditable], mark.grammar-teaching-highlight, [hidden]')) continue;
+      const start = node === selected.startContainer ? selected.startOffset : 0;
+      const end = node === selected.endContainer ? selected.endOffset : node.length;
+      if (end > start) nodes.push({ node, start, end });
+    }
+    const nativeHighlights = window.CSS?.highlights && window.Highlight;
+    for (const { node, start, end } of nodes.reverse()) {
+      const range = document.createRange();
+      range.setStart(node, start); range.setEnd(node, end);
+      if (nativeHighlights) highlightRanges.add(range);
+      else {
+        const mark = document.createElement("mark");
+        mark.className = "grammar-teaching-highlight";
+        range.surroundContents(mark);
+      }
+    }
+    if (nativeHighlights) window.CSS.highlights.set(highlightName, new window.Highlight(...highlightRanges));
+    if (nodes.length) selection.removeAllRanges();
+  }
+
+  highlightButton.addEventListener("mousedown", event => event.preventDefault());
+  highlightButton.addEventListener("click", () => {
+    if (highlightEnabled) clearGrammarHighlights({ disable: true });
+    else {
+      highlightEnabled = true;
+      highlightButton.setAttribute("aria-pressed", "true");
+      highlightButton.textContent = "清除暫時螢光筆";
+      highlightGrammarSelection();
+    }
+  });
+  highlightArea.addEventListener("pointerdown", event => { pointerSelecting = true; touchSelection = event.pointerType === "touch"; });
+  document.addEventListener("pointerup", () => {
+    pointerSelecting = false;
+    window.clearTimeout(highlightTimer);
+    highlightTimer = window.setTimeout(highlightGrammarSelection, touchSelection ? 300 : 0);
+  });
+  document.addEventListener("pointercancel", () => { pointerSelecting = false; });
+  highlightArea.addEventListener("keyup", event => { if (!event.shiftKey) highlightGrammarSelection(); });
+  document.addEventListener("selectionchange", () => {
+    if (!touchSelection || pointerSelecting || !highlightEnabled) return;
+    window.clearTimeout(highlightTimer);
+    highlightTimer = window.setTimeout(highlightGrammarSelection, 500);
+  });
 
   for (let start = 1; start <= 150; start += 25) {
     const end = Math.min(start + 24, 150);
@@ -185,6 +261,7 @@
   }
 
   function showQuestion(number, focus = false) {
+    clearGrammarHighlights({ disable: true });
     state.current = Math.min(150, Math.max(1, Number(number) || 1));
     state.questionStartedAt = performance.now();
     saveLocal();
@@ -368,7 +445,7 @@
   }
 
   elements.start.addEventListener("click", () => { elements.library.hidden = true; elements.practice.hidden = false; showQuestion(state.current, true); });
-  elements.back.addEventListener("click", () => { elements.practice.hidden = true; elements.library.hidden = false; elements.library.scrollIntoView({ behavior: "smooth", block: "start" }); });
+  elements.back.addEventListener("click", () => { clearGrammarHighlights({ disable: true }); elements.practice.hidden = true; elements.library.hidden = false; elements.library.scrollIntoView({ behavior: "smooth", block: "start" }); });
   elements.range.addEventListener("change", () => showQuestion(Number(elements.range.value), true));
   elements.form.addEventListener("submit", submitAnswer);
   elements.previous.addEventListener("click", () => showQuestion(state.current - 1, true));
@@ -406,7 +483,7 @@
   });
   window.addEventListener("edmund:learning-portal-session", (event) => {
     if (event.detail?.portalId !== "grammar") return;
-    if (!event.detail.user) { state.userId = ""; state.token = ""; state.remoteCorrect.clear(); state.bookmarks.clear(); return; }
+    if (!event.detail.user) { clearGrammarHighlights({ disable: true }); state.userId = ""; state.token = ""; state.remoteCorrect.clear(); state.bookmarks.clear(); return; }
     adoptSession();
   });
 
