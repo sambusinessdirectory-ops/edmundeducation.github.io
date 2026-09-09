@@ -6,6 +6,8 @@ const {PGlite}=require('@electric-sql/pglite');
 const db=new PGlite();
 await db.exec(`create role anon;create role authenticated;create role service_role;create schema extensions;create function extensions.digest(text,text) returns bytea language sql as $$select decode(md5($1),'hex')$$;create function extensions.crypt(text,text) returns text language sql as $$select 'hash:'||$1$$;`);
 await db.exec(readFileSync(new URL('../supabase/migrations/20260909120942_special_flash_card_portal.sql',import.meta.url),'utf8'));
+await db.exec(readFileSync(new URL('../supabase/migrations/20260909122706_special_flash_card_search.sql',import.meta.url),'utf8'));
+
 const scalar=async(sql,args=[])=>(await db.query(sql,args)).rows[0]?.value;
 const login=async(name,password='')=>scalar('select public.special_flash_login($1,$2) value',[name,password]);
 await db.exec(`insert into special_flash_accounts(username,role,password_hash) values('Sam White Label Admin','admin','hash:synthetic-secret');`);
@@ -17,11 +19,13 @@ const student=(await action(admin.token,'account_save',{name:'Learner A'})).id;
 const other=(await action(admin.token,'account_save',{name:'Learner B'})).id;
 const course=(await action(admin.token,'course_save',{title:'Grammar'})).id;
 const decks=[];
-for(let i=0;i<10;i++){decks.push((await action(admin.token,'deck_save',{title:`Deck ${i+1}`,course_id:course,cards:[{id:crypto.randomUUID(),front:'Term',back:'Meaning'}]})).id)}
+for(let i=0;i<10;i++){decks.push((await action(admin.token,'deck_save',{title:`Deck ${i+1}`,course_id:course,cards:[{id:crypto.randomUUID(),front:'Term',back:'Meaning 中文',note:'An example sentence.'}]})).id)}
 await action(admin.token,'access_save',{account_id:student,course_id:course,all_decks:false,deck_ids:decks.slice(0,2)});
 const s=await login('Learner A'),o=await login('Learner B');
 const library=t=>scalar('select special_flash_library($1) value',[t]);
 assert.deepEqual((await library(s.token)).decks.map(d=>d.id),decks.slice(0,2));assert.equal((await library(o.token)).decks.length,0);
+const search=(t,q)=>scalar('select special_flash_search($1,$2) value',[t,q]);
+assert.equal((await search(s.token,'EXAMPLE')).results.length,2);assert.equal((await search(s.token,'中文')).results.length,2);assert.equal((await search(o.token,'Term')).results.length,0);assert.equal((await search(s.token,'_')).results.length,0);await assert.rejects(search(null,'Term'),/sign in/);
 const get=(t,d)=>scalar('select special_flash_deck($1,$2) value',[t,d]);
 await assert.rejects(get(s.token,decks[2]),/not available/);await assert.rejects(action(s.token,'dashboard'),/Administrator/);
 await assert.rejects(action(admin.token,'account_save',{id:admin.user.id,name:'Bypass'}),/admin account/);
