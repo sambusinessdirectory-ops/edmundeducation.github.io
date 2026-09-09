@@ -6,6 +6,19 @@
   const CHART_RANGES = [7, 30, 90, 0];
   const PAGE_SIZE = 500;
   const MODE_ACCENTS = Object.freeze({ standard: "STANDARD", medium: "MEDIUM", hard: "HARD", hell: "HELL" });
+  const SYNC_PRESETS = Object.freeze({
+    jYa1eI1hpDE: Object.freeze([
+      [1.09,3.68],[3.68,6.67],[6.67,10.85],[10.85,12.70],[12.70,16.53],[16.53,18.84],[18.84,22.59],
+      [25.26,27.69],[27.69,32.78],[32.78,36.11],[36.11,41.69],[41.69,47.56],[47.56,53.04],[53.04,57.89],[57.89,62.14],
+      [65.59,68.03],[68.03,71.20],[71.20,75.16],[75.16,77.69],[77.69,79.57],[79.57,83.09],[83.09,88.84],
+      [88.84,92.20],[92.20,94.81],[94.81,97.39],[97.39,100.21],[100.21,103.52],[103.52,109.00],[109.00,114.73],
+      [114.73,120.55],[120.55,125.20],[125.20,128.89],[137.32,141.62],[141.62,144.65],[144.65,147.22],
+      [147.22,150.56],[150.56,156.48],[159.00,164.99],[164.99,169.85],[169.85,173.28],[173.28,177.69],
+      [177.69,183.25],[183.25,189.24],[189.24,195.44],[195.44,201.04],[201.04,205.54],[205.54,207.48],
+      [207.48,211.94],[211.94,213.01],[213.01,217.27],[217.27,219.12],[219.12,223.82],[223.82,224.84],
+      [224.84,229.06],[229.06,231.05]
+    ])
+  });
   const state = {
     client: null,
     session: null,
@@ -138,10 +151,16 @@
   function normalizeTranslationRows(value) {
     return asArray(value).map((row, index) => {
       if (row?.break === true || row?.intentionalBreak === true || row?.intentional_break === true) return { break: true, lineId: `break-${index}` };
+      const rawStart = row?.startSeconds ?? row?.start_seconds ?? row?.start ?? row?.time;
+      const rawEnd = row?.endSeconds ?? row?.end_seconds ?? row?.end;
+      const startSeconds = Number(rawStart);
+      const endSeconds = Number(rawEnd);
       return {
         lineId: text(row?.lineId || row?.line_id || `line-${index + 1}`),
         english: text(row?.english),
-        chinese: text(row?.chinese)
+        chinese: text(row?.chinese),
+        startSeconds: Number.isFinite(startSeconds) && startSeconds >= 0 ? startSeconds : null,
+        endSeconds: Number.isFinite(endSeconds) && endSeconds > startSeconds ? endSeconds : null
       };
     });
   }
@@ -571,6 +590,22 @@
         fragment.append(span);
       } else fragment.append(document.createTextNode(piece));
     });
+    const spans = Array.from(fragment.querySelectorAll(".lyric-word"));
+    const lineTokens = spans.map(span => normalizeSpace(span.dataset.word).toLocaleLowerCase("en"));
+    state.bookmarks.filter(item => item.songId === state.activeSong?.id && item.kind === "phrase").forEach(item => {
+      if (item.lineIds.length && !item.lineIds.includes(lineId)) return;
+      if (!item.lineIds.length && item.lineId && item.lineId !== lineId) return;
+      const phraseTokens = item.normalizedText.match(/[\p{L}\p{N}'’]+/gu) || [];
+      let bestStart = -1, bestLength = 0;
+      for (let lineStart = 0; lineStart < lineTokens.length; lineStart += 1) {
+        for (let phraseStart = 0; phraseStart < phraseTokens.length; phraseStart += 1) {
+          let length = 0;
+          while (lineTokens[lineStart + length] && phraseTokens[phraseStart + length] === lineTokens[lineStart + length]) length += 1;
+          if (length > bestLength) { bestStart = lineStart; bestLength = length; }
+        }
+      }
+      if (bestStart >= 0 && bestLength) spans.slice(bestStart, bestStart + bestLength).forEach(span => span.classList.add("is-phrase-bookmarked"));
+    });
     return fragment;
   }
 
@@ -591,6 +626,8 @@
       } else {
         tr.dataset.lineId = row.lineId;
         tr.dataset.syncIndex = String(body.querySelectorAll("tr:not(.is-break)").length);
+        if (Number.isFinite(row.startSeconds)) tr.dataset.startSeconds = String(row.startSeconds);
+        if (Number.isFinite(row.endSeconds)) tr.dataset.endSeconds = String(row.endSeconds);
         const english = document.createElement("td");
         english.dataset.translationEnglish = "";
         english.dataset.lineId = row.lineId;
@@ -644,12 +681,15 @@
   }
 
   function normalizeBookmark(row) {
+    const sourceLocator = row?.source_locator || {};
+    const lineIds = asArray(sourceLocator.lineIds || sourceLocator.line_ids).map(text).filter(Boolean);
     return {
       id: text(row?.id),
       songId: text(row?.song_id || row?.songId),
       songTitle: text(row?.song_title || row?.songTitle),
       singer: text(row?.singer),
-      lineId: text(row?.line_id || row?.lineId || row?.source_locator?.lineId || row?.source_locator?.line_id),
+      lineId: text(row?.line_id || row?.lineId || sourceLocator.lineId || sourceLocator.line_id),
+      lineIds,
       kind: ["phrase","song"].includes(row?.kind) ? row.kind : "word",
       excerpt: text(row?.excerpt || row?.selected_text || row?.bookmark_text),
       normalizedText: text(row?.normalized_text || normalizeSpace(row?.excerpt || row?.selected_text || row?.bookmark_text).toLocaleLowerCase("en")),
@@ -851,13 +891,80 @@
     return parts.length === 2 ? parts : [text(prompt), ""];
   }
 
+  function normalizedLyricWords(value) {
+    return (text(value).toLocaleLowerCase("en").match(/[\p{L}\p{N}'’]+/gu) || []).join(" ");
+  }
+
+  function questionMatchesLine(question, row) {
+    const line = normalizedLyricWords(row?.english);
+    const [before, after] = promptParts(question?.prompt).map(normalizedLyricWords);
+    if (before || after) return Boolean(line && (!before || line.includes(before)) && (!after || line.includes(after)));
+    const questionZh = normalizeSpace(question?.promptZh);
+    const lineZh = normalizeSpace(row?.chinese);
+    return Boolean(questionZh && lineZh && (lineZh.includes(questionZh) || questionZh.includes(lineZh)));
+  }
+
+  function lyricTimeline(song, duration) {
+    const sourceRows = asArray(song?.translations);
+    const lyricRows = sourceRows.filter(row => !row.break);
+    if (!lyricRows.length) return [];
+    const preset = SYNC_PRESETS[youtubeVideoId(song?.youtubeUrl)];
+    if (preset?.length === lyricRows.length) return lyricRows.map((row, index) => ({ row, start: preset[index][0], end: preset[index][1] }));
+    const explicitCount = lyricRows.filter(row => Number.isFinite(row.startSeconds)).length;
+    if (explicitCount === lyricRows.length) {
+      return lyricRows.map((row, index) => ({
+        row,
+        start: row.startSeconds,
+        end: Number.isFinite(row.endSeconds) ? row.endSeconds : (lyricRows[index + 1]?.startSeconds ?? Math.min(duration || row.startSeconds + 5, row.startSeconds + 5))
+      }));
+    }
+    if (!(duration > 0)) return [];
+    const intro = clamp(duration * .045, 8, 14);
+    const outro = clamp(duration * .035, 7, 13);
+    const available = Math.max(1, duration - intro - outro);
+    const weights = lyricRows.map(row => {
+      const wordCount = normalizedLyricWords(row.english).split(" ").filter(Boolean).length;
+      const sourceIndex = sourceRows.indexOf(row);
+      const stanzaPause = sourceRows[sourceIndex + 1]?.break ? 1.15 : 0;
+      return clamp(wordCount * .44, 1.75, 5.6) + stanzaPause;
+    });
+    const totalWeight = weights.reduce((sum, weight) => sum + weight, 0) || 1;
+    let cursor = intro;
+    return lyricRows.map((row, index) => {
+      const length = available * weights[index] / totalWeight;
+      const item = { row, start: cursor, end: cursor + length };
+      cursor += length;
+      return item;
+    });
+  }
+
+  function questionTimeline(questions, timeline) {
+    let cursor = 0;
+    let previousIndex = -1;
+    return asArray(questions).map(question => {
+      let index = previousIndex >= 0 && questionMatchesLine(question, timeline[previousIndex]?.row) ? previousIndex : -1;
+      if (index < 0) index = timeline.findIndex((item, candidate) => candidate >= cursor && questionMatchesLine(question, item.row));
+      if (index < 0) index = timeline.findIndex(item => questionMatchesLine(question, item.row));
+      if (index < 0) return null;
+      previousIndex = index;
+      cursor = index + 1;
+      return timeline[index];
+    });
+  }
+
   function renderExerciseQuestions() {
     const holder = $("[data-lyrics-exercise]"); holder.replaceChildren();
     const exercise = state.exercise;
     if (!exercise) return;
+    const timing = questionTimeline(exercise.mode.questions, lyricTimeline(state.activeSong, Number(state.player?.getDuration?.()) || 0));
     exercise.mode.questions.forEach((question, questionIndex) => {
       const card = document.createElement("article"); card.className = "exercise-line"; card.dataset.question = String(question.number);
-      card.dataset.syncIndex = String(questionIndex);
+      const questionTiming = timing[questionIndex];
+      if (questionTiming) {
+        card.dataset.syncLineId = questionTiming.row.lineId;
+        card.dataset.startSeconds = String(questionTiming.start);
+        card.dataset.endSeconds = String(questionTiming.end);
+      }
       if (Object.prototype.hasOwnProperty.call(exercise.answers, question.number)) card.classList.add("is-answered");
       const prompt = document.createElement("div"); prompt.className = "exercise-prompt";
       const [before, after] = promptParts(question.prompt); prompt.append(document.createTextNode(before));
@@ -1227,16 +1334,22 @@
     $$('[data-player-current]').forEach(node=>node.textContent=clockLabel(current));
     $$('[data-player-duration]').forEach(node=>node.textContent=clockLabel(duration));
     $$('[data-player-timeline]').forEach(input=>{if(document.activeElement!==input){input.max=String(Math.max(duration,1));input.value=String(clamp(current,0,Math.max(duration,1)));}});
-    const progress=duration>0?clamp(current/duration,0,.999999):0;
-    const rows=$$('.translation-table tr[data-sync-index]');
+    const timeline=lyricTimeline(state.activeSong,duration);
+    const active=timeline.find(item=>current>=item.start&&current<item.end);
+    const rows=$$('.translation-table tr[data-line-id]');
     rows.forEach(row=>row.classList.remove('is-current-line'));
     $$('.lyric-word.is-current-word').forEach(word=>word.classList.remove('is-current-word'));
-    if(rows.length){
-      const rowIndex=Math.min(rows.length-1,Math.floor(progress*rows.length)),row=rows[rowIndex];row.classList.add('is-current-line');
-      const words=$$('.lyric-word',row);if(words.length){const lineProgress=(progress*rows.length)-rowIndex;words[Math.min(words.length-1,Math.floor(lineProgress*words.length))]?.classList.add('is-current-word');}
+    if(active){
+      const row=rows.find(candidate=>candidate.dataset.lineId===active.row.lineId);row?.classList.add('is-current-line');
+      const words=row?$$('.lyric-word',row):[];
+      if(words.length){const lineProgress=clamp((current-active.start)/Math.max(.1,active.end-active.start),0,.999999);words[Math.min(words.length-1,Math.floor(lineProgress*words.length))]?.classList.add('is-current-word');}
     }
-    const questions=$$('.exercise-line[data-sync-index]');questions.forEach(row=>row.classList.remove('is-current-line'));
-    if(questions.length)questions[Math.min(questions.length-1,Math.floor(progress*questions.length))]?.classList.add('is-current-line');
+    const questions=$$('.exercise-line');
+    const exerciseTimeline=questionTimeline(state.exercise?.mode?.questions,timeline);
+    questions.forEach((row,index)=>{
+      const timing=exerciseTimeline[index];
+      row.classList.toggle('is-current-line',Boolean(timing&&current>=timing.start&&current<timing.end));
+    });
   }
   function addLocalPlayback(seconds) {
     const day=localDayKey(new Date());let row=state.playbackDaily.find(item=>item.day===day);

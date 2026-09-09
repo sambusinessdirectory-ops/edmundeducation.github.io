@@ -36,7 +36,7 @@ for (const marker of [
   'data-learning-dashboard', 'data-dashboard-toggle', 'data-question-chart', 'data-time-chart',
   'data-song-search', 'data-song-grid', 'data-song-tab="description"', 'data-song-tab="translation"',
   'data-song-tab="exercise"', 'data-translation-columns', 'data-bookmark-selection', 'data-mode-grid',
-  'data-countdown-value', 'data-player-timeline', 'data-player-current', 'data-player-duration', 'data-submit-exercise',
+  'data-countdown-value', 'data-player-timeline', 'data-player-current', 'data-player-duration', 'data-seek="-5"', 'data-seek="5"', 'data-submit-exercise',
   'data-relisten', 'data-result-relisten', 'data-admin-song-list', 'data-youtube-preview',
   'name="tags"', 'data-student-access-list'
 ]) assert.ok(html.includes(marker), `song-appreciation.html is missing ${marker}`);
@@ -59,15 +59,20 @@ for (const pattern of [
 assert.match(config, /song_appreciation_playback_list/);
 assert.match(config, /song_appreciation_playback_add/);
 assert.match(js, /event\.data===1\)beginPlaybackTracking/);
-assert.match(js, /\.translation-table tr\[data-sync-index\]/);
+assert.match(js, /function lyricTimeline/);
+assert.match(js, /function questionTimeline/);
+assert.match(js, /SYNC_PRESETS/);
+assert.match(js, /\.translation-table tr\[data-line-id\]/);
 assert.match(js, /\.lyric-word\.is-current-word/);
 
 for (const pattern of [
   /\.translation-columns\s*\{[^}]*grid-template-columns:\s*minmax\(0,1fr\)/s,
   /\.choice-grid\s*\{[^}]*grid-template-columns:\s*repeat\(3/s,
   /\.choice-button\.is-selected/, /\.choice-button\.is-correct/, /\.choice-button\.is-wrong/,
-  /@media \(max-width: 980px\)/, /\.learning-dashboard/, /\.chart-card--time/
+  /@media \(max-width: 980px\)/, /\.learning-dashboard/, /\.chart-card--time/, /Garamond/,
+  /\.lyric-word\.is-phrase-bookmarked/
 ]) assert.match(css, pattern);
+assert.doesNotMatch(css, /#fff1b9|#efb51d|#fff8d9/);
 
 // Song source material and answer keys are database content. They must never be
 // loaded from, or embedded in, a publicly deployable JavaScript asset.
