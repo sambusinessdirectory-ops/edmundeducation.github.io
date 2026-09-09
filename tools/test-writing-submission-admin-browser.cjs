@@ -12,8 +12,9 @@ const source=fs.readFileSync(root+'/writing-submission.js','utf8')+'\nwindow.adm
 await page.route('**/writing-submission.js?*',r=>r.fulfill({contentType:'text/javascript',body:source}));
 let failPage2=false,delayPage2=0,published=false,requests=[];
 const row=(n,extra={})=>({id:id(n),studentId:id(100+n),studentName:n===1?'Alice':'Student '+n,topic:'Article '+n,wordCount:350,submittedAt:`2026-09-0${n}T01:00:00Z`,hasPublishedFeedback:false,...extra});
-let saved=null;
+let saved=null;let ignoredIds=[];
 await page.route('https://*.workers.dev/**',async r=>{const u=new URL(r.request().url()),path=u.pathname;requests.push(path+u.search);let body={};
+if(path==='/v1/admin/feedback-queue'){if(r.request().method()==='PUT'){const a=r.request().postDataJSON();ignoredIds=a.ignored?[...new Set([...ignoredIds,a.submissionId])]:ignoredIds.filter(id=>id!==a.submissionId);body={saved:true};}else body={ignoredIds};return r.fulfill({contentType:'application/json',body:JSON.stringify(body)});}
 if(path==='/v1/admin/submissions'){if(u.searchParams.has('studentId'))return r.fulfill({contentType:'application/json',body:JSON.stringify({submissions:[row(1)],hasMore:false})});if(u.searchParams.get('page')==='1')body={submissions:[row(1,{hasPublishedFeedback:published}),row(2,{hasPublishedFeedback:true}),row(3,{deletedAt:'2026-09-08'})],hasMore:true};else{if(delayPage2)await new Promise(x=>setTimeout(x,delayPage2));if(failPage2)return r.fulfill({status:503,contentType:'application/json',body:JSON.stringify({error:'Temporary test failure'})});body={submissions:[row(4),row(1,{hasPublishedFeedback:published})],hasMore:false};}}
 else if(path.endsWith('/feedback')&&r.request().method()==='PUT'){saved=r.request().postDataJSON();published=saved.status==='published';body={feedback:{...saved,id:id(999),submissionId:id(1),version:1,fragments:[],status:saved.status}};}
 else if(path.endsWith('/feedback'))body={feedback:null};
@@ -49,6 +50,10 @@ assert.equal(saved.overallComment,'Unsaved feedback survives fullscreen.');asser
 await page.locator('.feedback-fullscreen-bar button').click();
 await page.locator('[data-admin-pending-button]').click();await page.waitForFunction(()=>window.adminQA.state.adminPendingComplete);
 assert.deepEqual(await page.locator('[data-pending-submission-id]').evaluateAll(ns=>ns.map(n=>n.dataset.pendingSubmissionId)),[id(1),id(4)]);
+await page.locator('[data-admin-pending-sort]').selectOption('newest');assert.deepEqual(await page.locator('[data-admin-pending-list] [data-pending-submission-id]').evaluateAll(ns=>ns.map(n=>n.dataset.pendingSubmissionId)),[id(4),id(1)]);
+await page.locator('[data-admin-pending-sort]').selectOption('oldest');await page.locator('[data-ignore-submission-id]').first().click();await page.waitForFunction(()=>document.querySelectorAll('[data-admin-ignored-list] .admin-pending-card').length===1);assert.equal(await page.locator('[data-admin-pending-list] .admin-pending-card').count(),1);
+await page.locator('[data-admin-pending-refresh]').click();await page.waitForFunction(()=>window.adminQA.state.adminPendingComplete);assert.equal(await page.locator('[data-admin-ignored-list] .admin-pending-card').count(),1);
+await page.locator('[data-admin-ignored-list] [data-ignore-submission-id]').click();await page.waitForFunction(()=>document.querySelectorAll('[data-admin-ignored-list] .admin-pending-card').length===0);assert.equal(await page.locator('[data-admin-pending-list] .admin-pending-card').count(),2);
 await page.screenshot({path:path.join(artifacts,'writing-pending-desktop.png')});
 await page.locator('[data-admin-pending-search]').fill('Alice');assert.equal(await page.locator('.admin-pending-card').count(),1);await page.locator('[data-admin-pending-search]').fill('');
 await page.locator('[data-pending-submission-id]').first().click();await page.waitForFunction(()=>document.querySelector('[data-feedback-editor]')&&window.adminQA.state.selectedAdminStudentId.endsWith('000000000101'));assert.ok(await page.locator('[data-feedback-editor]').isVisible());await page.locator('[data-admin-pending-button]').click();await page.waitForFunction(()=>window.adminQA.state.adminPendingComplete);

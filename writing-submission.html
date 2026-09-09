@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260908-admin2">
+  <link rel="stylesheet" href="writing-submission.css?v=20260909-queue1">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260908-layout1">
 </head>
@@ -474,9 +474,10 @@
         <button type="button" class="secondary-button" data-admin-pending-refresh>重新整理 · Refresh</button>
       </section>
       <section class="glass-panel admin-pending-panel">
-        <div class="admin-pending-toolbar"><label>搜尋學生／題目<input type="search" data-admin-pending-search placeholder="輸入學生姓名或文章題目"></label><span class="count-badge" data-admin-pending-count>0</span></div>
+        <div class="admin-pending-toolbar"><label>搜尋學生／題目<input type="search" data-admin-pending-search placeholder="輸入學生姓名或文章題目"></label><label>排列順序 · Sort<select data-admin-pending-sort><option value="oldest">最早優先 · Oldest first</option><option value="newest">最新優先 · Newest first</option></select></label><span class="count-badge" data-admin-pending-count>0</span></div>
         <p class="form-status" role="status" data-admin-pending-status></p>
         <div data-admin-pending-list></div>
+        <section class="admin-ignored-panel"><h2>已忽略 · Ignored <span class="count-badge" data-admin-ignored-count>0</span></h2><p>忽略不會刪除學生的文章；你可隨時恢復待評。</p><div data-admin-ignored-list></div></section>
       </section>
     </section>
 
@@ -643,6 +644,6 @@
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260908-layout1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
-  <script type="module" src="writing-submission.js?v=20260908-admin2"></script>
+  <script type="module" src="writing-submission.js?v=20260909-queue1"></script>
 </body>
 </html>

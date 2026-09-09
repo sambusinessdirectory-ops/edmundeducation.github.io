@@ -21,7 +21,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260908-layout1">
-  <link rel="stylesheet" href="song-appreciation.css?v=20260815-1">
+  <link rel="stylesheet" href="song-appreciation.css?v=20260909-study1">
   <script defer src="/pwa-register.js"></script>
 </head>
 <body>
@@ -125,7 +125,7 @@
         </div>
         <p class="search-status" data-search-status role="status" aria-live="polite"></p>
         <div class="inline-state" data-library-state><span class="spinner" aria-hidden="true"></span><p>正在載入歌曲⋯</p></div>
-        <div class="song-grid" data-song-grid hidden></div>
+        <div class="library-filters"><button class="filter-chip" type="button" data-favorites-only aria-pressed="false">☆ 只看收藏歌曲</button></div><div class="song-grid" data-song-grid hidden></div>
       </section>
 
       <section class="student-page" data-page="song" hidden>
@@ -149,7 +149,7 @@
           <section id="translation-panel" class="tab-panel translation-panel" role="tabpanel" aria-labelledby="translation-tab" data-tab-panel="translation" hidden>
             <div class="translation-intro"><div><p class="eyebrow">LYRICS &amp; TRANSLATION</p><h2>逐句理解，逐字收藏</h2><p>點按一個英文詞即可收藏；拖曳選取多個詞後，可收藏為片語。</p></div><button class="secondary-button" type="button" data-bookmark-selection disabled>☆ 收藏所選片語</button></div>
             <p class="selection-status" data-selection-status role="status" aria-live="polite"></p>
-            <div class="translation-columns" data-translation-columns></div>
+            <div class="text-size-controls" data-font-controls="translation" aria-label="文字大小"><span>文字大小</span><button type="button" data-font-change="-1" data-font-scope="translation" aria-label="縮小文字">A−</button><output data-font-value="translation">1×</output><button type="button" data-font-change="1" data-font-scope="translation" aria-label="放大文字">A＋</button><label>每次<select data-font-step="translation"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="0.75">0.75×</option></select></label><button type="button" data-font-reset="translation">1×</button></div><div class="translation-columns" data-translation-columns></div>
             <button class="primary-button next-tab" type="button" data-open-tab="exercise">開始聆聽練習 <span aria-hidden="true">→</span></button>
           </section>
 
@@ -159,13 +159,13 @@
             <div class="exercise-stage" data-exercise-stage hidden>
               <div class="player-card">
                 <div class="youtube-shell" data-youtube-shell><div class="youtube-placeholder"><span>♪</span><strong>等待管理員加入 YouTube 連結</strong><small>題目仍可先行練習及核對。</small></div></div>
-                <div class="player-controls" data-player-controls hidden><button type="button" data-seek="-10" aria-label="後退十秒">↶ 10</button><button class="play-control" type="button" data-player-toggle aria-label="播放或暫停">▶</button><button type="button" data-seek="10" aria-label="前進十秒">10 ↷</button></div>
-                <div class="read-countdown" data-countdown hidden><span>READ FIRST</span><strong data-countdown-value>30</strong><p>先閱讀全部選項；倒數後音樂會自動開始。</p></div>
+                <div class="player-controls" data-player-controls hidden><button type="button" data-seek="-5" aria-label="後退五秒">↶ 5</button><button class="play-control" type="button" data-player-toggle aria-label="播放或暫停">▶</button><button type="button" data-seek="5" aria-label="前進五秒">5 ↷</button><button type="button" data-restart-song>↻ 從頭播放</button><label>速度<select data-playback-rate aria-label="播放速度"><option value="1">1×</option></select></label></div>
+                <div class="read-countdown" data-countdown hidden><span>READ FIRST</span><strong data-countdown-value>30</strong><p>先閱讀全部選項；倒數後音樂會自動開始。</p><button class="primary-button" type="button" data-skip-preparation>我準備好了 · 直接開始</button></div>
                 <p class="autoplay-note" data-autoplay-note hidden role="status">瀏覽器阻止了自動播放。請按播放鍵開始。</p>
               </div>
               <div class="exercise-toolbar"><div><strong data-mode-title></strong><span data-answer-progress>已選 0 / 0</span></div><button type="button" data-change-mode>更改難度</button></div>
-              <div class="lyrics-exercise" data-lyrics-exercise></div>
-              <div class="submit-bar"><div><strong data-submit-summary>完成所有題目後提交</strong><span>提交前可隨時更改答案。</span></div><button class="primary-button" type="button" data-submit-exercise disabled>提交及核對答案</button></div>
+              <div class="text-size-controls" data-font-controls="exercise" aria-label="文字大小"><span>文字大小</span><button type="button" data-font-change="-1" data-font-scope="exercise" aria-label="縮小文字">A−</button><output data-font-value="exercise">1×</output><button type="button" data-font-change="1" data-font-scope="exercise" aria-label="放大文字">A＋</button><label>每次<select data-font-step="exercise"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="0.75">0.75×</option></select></label><button type="button" data-font-reset="exercise">1×</button></div><button type="button" class="secondary-button" data-toggle-chinese aria-pressed="false">顯示中文翻譯</button><p class="draft-save-status" data-draft-status role="status" aria-live="polite"></p><button type="button" class="secondary-button" data-reload-draft hidden>載入雲端進度</button><div class="lyrics-exercise" data-lyrics-exercise></div>
+              <div class="submit-bar"><div><strong data-submit-summary>完成所有題目後提交</strong><span>提交前可隨時更改答案。</span></div><div class="submit-actions"><button class="secondary-button" type="button" data-reset-answers>重設未完成答案</button><button class="secondary-button" type="button" data-check-partial disabled>核對已答題目</button><button class="primary-button" type="button" data-submit-exercise disabled>提交及核對答案</button></div></div>
               <section class="result-card" data-result-card hidden aria-live="polite"><p class="eyebrow">YOUR RESULT</p><strong data-result-score></strong><p data-result-message></p><div><button class="primary-button" type="button" data-try-again>再做一次</button><button class="secondary-button" type="button" data-result-relisten>↻ 重新聆聽</button></div></section>
             </div>
           </section>
@@ -174,7 +174,7 @@
 
       <section class="student-page" data-page="bookmarks" hidden>
         <div class="page-heading"><p class="eyebrow">MY WORD BANK</p><h1>我的歌曲書籤</h1><p>單字與片語都會標示來源歌曲，方便回到原文重溫。</p></div>
-        <div class="bookmark-toolbar"><button class="filter-chip is-active" type="button" data-bookmark-filter="all">全部</button><button class="filter-chip" type="button" data-bookmark-filter="word">單字</button><button class="filter-chip" type="button" data-bookmark-filter="phrase">片語</button></div>
+        <div class="bookmark-toolbar"><button class="filter-chip is-active" type="button" data-bookmark-filter="all">全部</button><button class="filter-chip" type="button" data-bookmark-filter="word">單字</button><button class="filter-chip" type="button" data-bookmark-filter="phrase">片語</button><button class="filter-chip" type="button" data-bookmark-filter="song">歌曲</button></div>
         <div class="empty-state" data-bookmark-empty hidden><span>☆</span><h2>尚未收藏任何內容</h2><p>到歌曲的 Translation 頁點按單字，或選取片語。</p></div>
         <div class="bookmark-grid" data-bookmark-grid></div>
       </section>
@@ -218,9 +218,9 @@
 
   <div class="toast-region" data-toast-region aria-live="polite" aria-atomic="true"></div>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
-  <script src="supabase-config.js?v=20260815-1"></script>
-  <script src="song-appreciation-config.js?v=20260815-1"></script>
+  <script src="supabase-config.js?v=20260909-study1"></script>
+  <script src="song-appreciation-config.js?v=20260909-study1"></script>
   <script src="shared-system-nav.js?v=20260908-layout1"></script>
-  <script src="song-appreciation.js?v=20260815-1"></script>
+  <script src="song-appreciation.js?v=20260909-study1"></script>
 </body>
 </html>

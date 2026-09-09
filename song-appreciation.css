@@ -190,7 +190,7 @@ button { color: inherit; }
 .translation-intro, .exercise-header, .form-heading { display: flex; justify-content: space-between; gap: 1rem; align-items: end; margin-bottom: 1rem; }
 .translation-intro p, .exercise-header p, .form-heading p { color: var(--muted); margin: .3rem 0 0; line-height: 1.6; }
 .selection-status { color: var(--green); min-height: 1.2rem; }
-.translation-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; align-items: start; }
+.translation-columns { display: grid; grid-template-columns: minmax(0,1fr); gap: 1rem; align-items: start; }
 .translation-table { width: 100%; border-collapse: separate; border-spacing: 0; border: 1px solid var(--line); border-radius: 1rem; overflow: hidden; background: #fff; }
 .translation-table th { padding: .8rem; background: #2a2130; color: #fff; text-align: left; font-size: .72rem; letter-spacing: .12em; }
 .translation-table td { width: 50%; padding: .72rem .8rem; border-top: 1px solid var(--line); vertical-align: top; line-height: 1.55; }
@@ -347,3 +347,33 @@ button { color: inherit; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+/* Compact library cards and accessible study controls. */
+.song-card__thumb { aspect-ratio:auto; height:clamp(88px,10vw,132px); }
+.song-card__thumb img { object-position:center 38%; }
+.song-card.is-in-progress { background:#fff8d9; border-color:#dfc572; }
+.song-card.is-completed { background:#eaf6e9; border-color:#9fc6a3; }
+.song-card.is-in-progress .song-card__body,.song-card.is-completed .song-card__body { background:transparent; }
+.song-card__status { display:block; margin-top:.8rem; font-weight:700; color:#46533d; }
+.song-card .song-favorite { width:auto; padding:.5rem .8rem; border:1px solid currentColor; border-radius:999px; margin:.8rem 1.2rem 0; background:transparent; }
+.text-size-controls { display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; margin:1rem 0; }
+.text-size-controls button,.text-size-controls select { min-height:40px; padding:.45rem .65rem; border:1px solid var(--line); border-radius:.6rem; background:white; cursor:pointer; }
+.text-size-controls label { display:flex; align-items:center; gap:.4rem; }
+.translation-table { width:100%; table-layout:fixed; }
+.translation-table td { font-size:calc(1rem * var(--translation-scale,1)); overflow-wrap:anywhere; }
+.lyrics-exercise .exercise-prompt,.lyrics-exercise .choice-button { font-size:calc(1rem * var(--exercise-scale,1)); overflow-wrap:anywhere; }
+.lyrics-exercise .choice-button b { width:auto; min-width:1.75rem; height:auto; min-height:1.75rem; }
+.lyrics-exercise.is-large-text .choice-grid { grid-template-columns:minmax(0,1fr); }
+.question-translation { color:#666; margin-top:.55rem; font-size:1em; line-height:1.6; }
+.choice-translation { display:block; color:#655e65; font-size:.85em; margin-top:.3em; }
+.submit-actions { display:flex; flex-wrap:wrap; gap:.65rem; }
+.player-controls { flex-wrap:wrap; align-items:center; }
+.player-controls label { display:flex; gap:.4rem; align-items:center; color:white; }
+.player-controls select { min-height:40px; padding:.4rem; border-radius:.5rem; background:white; color:#261c24; }
+.floating-song-controls { position:fixed; top:var(--song-header-height,64px); left:0; right:0; z-index:90; background:#302634; box-shadow:0 5px 16px #0003; margin:0; }
+.floating-song-controls[hidden] { display:none; }
+.draft-save-status { min-height:1.5rem; font-size:.85rem; color:#446b4a; }
+.draft-save-status[data-state="error"] { color:#a12828; }
+.read-countdown button { pointer-events:auto; }
+.exercise-line { scroll-margin-top:180px; }
+.library-filters { margin-bottom:1rem; }

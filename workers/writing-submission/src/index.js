@@ -279,6 +279,22 @@ async function route(request, env) {
     const token=String(request.headers.get('Authorization')||'').replace(/^Bearer\s+/i,'');if(!UUID_RE.test(token))throw new HttpError(401,'AUTH_REQUIRED','Please sign in');
     return json(await rpc(env,'writing_submission_delivery_version',{p_token:token}),200,request,env);
   }
+  if (url.pathname === "/v1/admin/feedback-queue" && ["GET", "PUT"].includes(request.method)) {
+    const admin = await authenticateAdmin(request, env);
+    if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+    if (request.method === "GET") {
+      const rows = await rpc(env, "writing_submission_admin_ignored_list", { p_admin_token: admin.token });
+      if (!Array.isArray(rows)) throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Invalid ignored queue");
+      return json({ ignoredIds: rows.map(row => String(row.submission_id)) }, 200, request, env);
+    }
+    const body = await readLimitedJson(request, 1024);
+    if (!hasExactKeys(body, ["submissionId", "ignored"]) || !UUID_RE.test(String(body.submissionId || "")) || typeof body.ignored !== "boolean") {
+      throw new HttpError(400, "INVALID_QUEUE_UPDATE", "Invalid ignored queue update");
+    }
+    const saved = await rpc(env, "writing_submission_admin_ignore", { p_admin_token: admin.token, p_submission_id: body.submissionId, p_ignored: body.ignored });
+    if (saved !== true) throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Ignored queue was not saved");
+    return json({ saved: true }, 200, request, env);
+  }
   if (url.pathname === "/v1/admin/submissions" && request.method === "GET") {
     return listAdminSubmissions(request, env, url);
   }

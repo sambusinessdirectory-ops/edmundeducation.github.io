@@ -465,6 +465,7 @@ const state = {
   adminPendingSubmissions: [],
   adminPendingGeneration: 0,
   adminPendingComplete: false,
+  adminIgnoredIds: new Set(),
   adminExplanationReviews: [],
   adminExplanationReviewPage: 0,
   adminExplanationReviewHasMore: false,
@@ -9252,41 +9253,49 @@ async function openAdminGrammarSourceSubmission(id) {
 }
 
 function renderAdminPendingSubmissions() {
-  const list = document.querySelector("[data-admin-pending-list]");
   const query = document.querySelector("[data-admin-pending-search]").value.trim().toLocaleLowerCase();
-  const rows = state.adminPendingSubmissions.filter(row => `${row.studentName} ${row.topic}`.toLocaleLowerCase().includes(query));
-  document.querySelector("[data-admin-pending-count]").textContent = `${rows.length}${state.adminPendingComplete ? "" : "+"}`;
-  if (!rows.length) {
-    list.replaceChildren(emptyState(state.adminPendingComplete
-      ? (query ? "沒有符合搜尋的待評文章。" : "所有文章均已發送評語，目前沒有待評文章。")
-      : "正在檢查所有學生的提交記錄…"));
-    return;
+  const newest = document.querySelector("[data-admin-pending-sort]")?.value === "newest";
+  const rows = state.adminPendingSubmissions.filter(row => `${row.studentName} ${row.topic}`.toLocaleLowerCase().includes(query))
+    .sort((a,b) => (newest ? -1 : 1) * (a.submittedAt.localeCompare(b.submittedAt) || a.id.localeCompare(b.id)));
+  for (const ignored of [false, true]) {
+    const list = document.querySelector(ignored ? "[data-admin-ignored-list]" : "[data-admin-pending-list]");
+    if (!list) continue;
+    const group = rows.filter(row => state.adminIgnoredIds.has(row.id) === ignored);
+    document.querySelector(ignored ? "[data-admin-ignored-count]" : "[data-admin-pending-count]").textContent = `${group.length}${state.adminPendingComplete ? "" : "+"}`;
+    list.replaceChildren();
+    if (!group.length) { list.append(emptyState(ignored ? "沒有已忽略的文章。" : state.adminPendingComplete ? "目前沒有符合條件的待評文章。" : "正在載入待評文章…")); continue; }
+    for (const row of group) {
+      const card = createElement("article", "admin-pending-card");
+      const copy = createElement("div");
+      copy.append(createElement("p", "eyebrow", row.studentName || "學生"), createElement("h2", "", row.topic), createElement("p", "admin-pending-meta", `${formatSubmissionDate(row.submittedAt)} · ${row.wordCount} 字`));
+      const actions = createElement("div", "admin-pending-actions");
+      const open = createElement("button", "primary-button", "撰寫評語 →");
+      open.type = "button"; open.dataset.pendingSubmissionId = row.id;
+      open.addEventListener("click", async () => {
+        if (state.user?.role !== "admin") return;
+        const token = state.authToken; showView("admin");
+        try {
+          elements.adminSearch.value = ""; await selectAdminStudent(row.studentId);
+          if (state.currentView !== "admin" || state.authToken !== token || state.selectedAdminStudentId !== row.studentId) return;
+          await openAdminSubmission(row.id); elements.adminDetail.scrollIntoView({ behavior: "smooth", block: "start" });
+        } catch (error) { handleViewError(error); }
+      });
+      const toggle = createElement("button", "secondary-button", ignored ? "恢復待評 · Restore" : "忽略 · Ignore");
+      toggle.type = "button"; toggle.dataset.ignoreSubmissionId = row.id;
+      toggle.addEventListener("click", async () => {
+        if (state.user?.role !== "admin") return;
+        const token = state.authToken; toggle.disabled = true;
+        try {
+          const result = await apiJson("/v1/admin/feedback-queue", { method: "PUT", body: JSON.stringify({ submissionId: row.id, ignored: !ignored }) });
+          if (result?.saved !== true) throw new Error("未能儲存清單變更。");
+          if (state.authToken !== token || state.user?.role !== "admin") return;
+          if (ignored) state.adminIgnoredIds.delete(row.id); else state.adminIgnoredIds.add(row.id);
+          renderAdminPendingSubmissions();
+        } catch (error) { setStatus(document.querySelector("[data-admin-pending-status]"), error.message, "error"); toggle.disabled = false; }
+      });
+      actions.append(open,toggle); card.append(copy,actions); list.append(card);
+    }
   }
-  const fragment = document.createDocumentFragment();
-  for (const row of rows) {
-    const card = createElement("article", "admin-pending-card");
-    const copy = createElement("div");
-    copy.append(createElement("p", "eyebrow", row.studentName || "學生"), createElement("h2", "", row.topic),
-      createElement("p", "admin-pending-meta", `${formatSubmissionDate(row.submittedAt)} · ${row.wordCount} 字`));
-    const open = createElement("button", "primary-button", "撰寫評語 →");
-    open.type = "button";
-    open.dataset.pendingSubmissionId = row.id;
-    open.addEventListener("click", async () => {
-      if (state.user?.role !== "admin") return;
-      const token = state.authToken;
-      showView("admin");
-      try {
-        elements.adminSearch.value = "";
-        await selectAdminStudent(row.studentId);
-        if (state.currentView !== "admin" || state.authToken !== token || state.selectedAdminStudentId !== row.studentId) return;
-        await openAdminSubmission(row.id);
-        elements.adminDetail.scrollIntoView({ behavior: "smooth", block: "start" });
-      } catch (error) { handleViewError(error); }
-    });
-    card.append(copy, open);
-    fragment.append(card);
-  }
-  list.replaceChildren(fragment);
 }
 
 async function openAdminPendingSubmissions() {
@@ -9297,6 +9306,7 @@ async function openAdminPendingSubmissions() {
   const token = state.authToken;
   const current = () => generation === state.adminPendingGeneration && state.user?.role === "admin" && state.authToken === token;
   state.adminPendingSubmissions = [];
+  state.adminIgnoredIds = new Set();
   state.adminPendingComplete = false;
   const status = document.querySelector("[data-admin-pending-status]");
   const refresh = document.querySelector("[data-admin-pending-refresh]");
@@ -9306,6 +9316,10 @@ async function openAdminPendingSubmissions() {
   const known = new Set();
   let checked = 0;
   try {
+    const queue = await apiJson("/v1/admin/feedback-queue");
+    if (!current()) return;
+    if (!Array.isArray(queue?.ignoredIds)) throw new Error("未能載入已忽略文章，請重試。");
+    state.adminIgnoredIds = new Set(queue.ignoredIds);
     // No studentId filter: include all accounts, following every page of metadata.
     for (let page = 1; current(); page += 1) {
       const payload = await apiJson(`/v1/admin/submissions?page=${page}&pageSize=100`);
@@ -9321,7 +9335,7 @@ async function openAdminPendingSubmissions() {
       state.adminPendingSubmissions.sort((a, b) => a.submittedAt.localeCompare(b.submittedAt) || a.id.localeCompare(b.id));
       state.adminPendingComplete = !payload.hasMore;
       renderAdminPendingSubmissions();
-      setStatus(status, payload.hasMore ? `已檢查 ${checked} 篇文章，正在繼續…` : `已檢查全部 ${checked} 篇文章 · 最早提交優先`);
+      setStatus(status, payload.hasMore ? `已檢查 ${checked} 篇文章，正在繼續…` : `已檢查全部 ${checked} 篇文章`);
       if (!payload.hasMore) break;
     }
   } catch (error) {
@@ -9470,6 +9484,7 @@ function bindEvents() {
   elements.adminPendingButton?.addEventListener("click", () => openAdminPendingSubmissions().catch(handleViewError));
   document.querySelector("[data-admin-pending-refresh]")?.addEventListener("click", () => openAdminPendingSubmissions().catch(handleViewError));
   document.querySelector("[data-admin-pending-search]")?.addEventListener("input", renderAdminPendingSubmissions);
+  document.querySelector("[data-admin-pending-sort]")?.addEventListener("change", renderAdminPendingSubmissions);
   elements.adminReviewButton.addEventListener("click", () => openAdminExplanationReview().catch(handleViewError));
   elements.newWriting.addEventListener("click", () => startNewDraft());
   elements.refreshSubmissions.addEventListener("click", () => loadSubmissions().catch(handleViewError));

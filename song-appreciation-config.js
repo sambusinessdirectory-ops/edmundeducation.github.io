@@ -18,6 +18,8 @@
       deleteBookmark: "song_appreciation_bookmark_delete",
       listAttempts: "song_appreciation_attempt_list",
       saveAttempt: "song_appreciation_attempt_save",
+      listDrafts: "song_appreciation_draft_list",
+      saveDraft: "song_appreciation_draft_save",
       adminListSongs: "song_appreciation_admin_list_songs",
       adminUpsertSong: "song_appreciation_admin_upsert_song",
       adminListStudents: "song_appreciation_admin_list_students_with_access",

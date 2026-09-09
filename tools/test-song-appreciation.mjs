@@ -36,7 +36,7 @@ for (const marker of [
   'data-learning-dashboard', 'data-dashboard-toggle', 'data-question-chart', 'data-time-chart',
   'data-song-search', 'data-song-grid', 'data-song-tab="description"', 'data-song-tab="translation"',
   'data-song-tab="exercise"', 'data-translation-columns', 'data-bookmark-selection', 'data-mode-grid',
-  'data-countdown-value', 'data-seek="-10"', 'data-seek="10"', 'data-submit-exercise',
+  'data-countdown-value', 'data-seek="-5"', 'data-seek="5"', 'data-submit-exercise',
   'data-relisten', 'data-result-relisten', 'data-admin-song-list', 'data-youtube-preview',
   'name="tags"', 'data-student-access-list'
 ]) assert.ok(html.includes(marker), `song-appreciation.html is missing ${marker}`);
@@ -50,14 +50,14 @@ assert.match(html, /data-edmund-system-switcher data-system="song-appreciation"/
 for (const pattern of [
   /flashcard_student_login/, /student_list_songs/, /student_get_song/, /admin_set_access/,
   /bookmark_add/, /bookmark_delete/, /attempt_save/, /youtubeVideoId/, /i\.ytimg\.com\/vi/,
-  /getSelection/, /kind: "phrase"/, /kind: "word"/, /remaining = 30/, /seekPlayer\(delta\)/,
+  /getSelection/, /kind: "phrase"/, /kind:\s*"word"/, /remaining = 30/, /seekPlayer\(delta\)/,
   /exercise\.answers\[number\] = option/, /p_mode_id/, /p_exercise_version/, /dailyAttemptSeries/,
   /dashboardPreferenceKey/, /aria-checked/, /player\.seekTo\(0, true\)/, /fetchAllPages/,
   /cancelReadCountdown/, /includeAnswers: false/, /validateSavedAttempt/, /revealServerResult/
 ]) assert.match(`${config}\n${js}`, pattern);
 
 for (const pattern of [
-  /\.translation-columns\s*\{[^}]*grid-template-columns:\s*1fr 1fr/s,
+  /\.translation-columns\s*\{[^}]*grid-template-columns:\s*minmax\(0,1fr\)/s,
   /\.choice-grid\s*\{[^}]*grid-template-columns:\s*repeat\(3/s,
   /\.choice-button\.is-selected/, /\.choice-button\.is-correct/, /\.choice-button\.is-wrong/,
   /@media \(max-width: 980px\)/, /\.learning-dashboard/, /\.chart-card--time/
@@ -86,7 +86,7 @@ assert.match(openSong, /if\s*\(\s*!row\s*\)[\s\S]*?(?:throw|return)/);
 // true deletion. Empty RPC results represent expired/revoked authorization.
 const addBookmark = between(js, "async function addBookmark", "async function deleteBookmark", "addBookmark");
 const deleteBookmark = between(js, "async function deleteBookmark", "function renderBookmarks", "deleteBookmark");
-const submitExercise = between(js, "async function submitExercise", "let youtubeApiPromise", "submitExercise");
+const submitExercise = between(js, "async function submitExercise", "function studyStorageKey", "submitExercise");
 assertRequiresRpcResult(addBookmark, "addBookmark");
 assertRequiresRpcResult(deleteBookmark, "deleteBookmark");
 assertRequiresRpcResult(submitExercise, "submitExercise");

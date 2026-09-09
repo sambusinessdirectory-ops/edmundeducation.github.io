@@ -6279,3 +6279,21 @@ test('Paper 3 latest answer lookup is scoped to the signed-in student and valida
  globalThis.fetch=async(input,init)=>{const call=rpcRequest(input,init);if(call.name==='writing_submission_student_profile')return jsonResponse(studentProfile({access:{dse:true,'dse-paper3':true}}));if(call.name==='writing_paper3_latest'){calls++;assert.equal(call.body.p_student_id,STUDENT_ID);assert.equal(call.body.p_topic_id,'fill:paper3-2025-b2-task-8');return jsonResponse({id:SUBMISSION_ID,answer:'Complete composition',topic:'2025 B2 Task 8'});}throw new Error(call.name);};
  const headers={Origin:ORIGIN,Authorization:`Bearer ${STUDENT_TOKEN}`};const response=await worker.fetch(new Request('https://worker.example/v1/paper3/2025/b2/8',{headers}),environment());assert.equal(response.status,200);assert.equal((await response.json()).submission.answer,'Complete composition');assert.equal((await worker.fetch(new Request('https://worker.example/v1/paper3/2025/b2/5',{headers}),environment())).status,404);assert.equal(calls,1);
 });
+
+test('admin ignored-feedback queue validates role and payload and persists restore', async t => {
+ const original=globalThis.fetch;t.after(()=>{globalThis.fetch=original;});let ignored=false,writes=0;
+ globalThis.fetch=async(input,init)=>{const request=rpcRequest(input,init);
+  if(request.name==='writing_submission_admin_me')return jsonResponse(request.body.p_admin_token===ADMIN_TOKEN?adminProfile():[]);
+  if(request.name==='writing_submission_admin_ignored_list')return jsonResponse(ignored?[{submission_id:SUBMISSION_ID}]:[]);
+  if(request.name==='writing_submission_admin_ignore'){assert.equal(request.body.p_submission_id,SUBMISSION_ID);ignored=request.body.p_ignored;writes++;return jsonResponse(true);}
+  throw new Error(`Unexpected RPC ${request.name}`);
+ };
+ const send=(method='GET',body,token=ADMIN_TOKEN)=>worker.fetch(new Request('https://worker.example/v1/admin/feedback-queue',{method,headers:{Origin:ORIGIN,Authorization:`Bearer ${token}`,'Content-Type':'application/json'},...(body===undefined?{}:{body:JSON.stringify(body)})}),environment());
+ assert.equal((await send('PUT',{submissionId:SUBMISSION_ID,ignored:true},STUDENT_TOKEN)).status,401);
+ assert.equal((await send('PUT',{submissionId:SUBMISSION_ID,ignored:'true'})).status,400);
+ assert.equal((await send('PUT',{submissionId:'bad',ignored:true})).status,400);
+ assert.equal((await send('PUT',{submissionId:SUBMISSION_ID,ignored:true})).status,200);
+ assert.deepEqual((await (await send()).json()).ignoredIds,[SUBMISSION_ID]);
+ assert.equal((await send('PUT',{submissionId:SUBMISSION_ID,ignored:false})).status,200);
+ assert.deepEqual((await (await send()).json()).ignoredIds,[]);assert.equal(writes,2);
+});

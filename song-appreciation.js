@@ -15,6 +15,12 @@
     activeTab: "description",
     bookmarks: [],
     attempts: [],
+    drafts: {},
+    textSizes: {translation:1,exercise:1},
+    showChinese: false,
+    favoritesOnly: false,
+    draftSaveTimer: 0,
+    playerGeneration: 0,
     bookmarkFilter: "all",
     questionRange: 30,
     timeRange: 30,
@@ -141,6 +147,8 @@
       number: Number(question?.number) || index + 1,
       prompt: text(question?.prompt || "{{blank}}"),
       options,
+      promptZh: text(question?.promptZh || question?.prompt_zh),
+      optionsZh: asArray(question?.optionsZh || question?.options_zh).map(text),
       answer: includeAnswers ? text(question?.answer) : ""
     };
   }
@@ -318,6 +326,7 @@
   }
 
   async function logout() {
+    if (state.exercise && !state.exercise.submitted) { pauseExerciseClock(); storeLocalDraft(); try { await flushDraft(); } catch { /* Scoped local backup retries on return. */ } }
     if (state.session?.role === "admin") {
       try { await rpc(CONFIG.rpc.adminLogout, { p_admin_token: state.session.token }); } catch { /* Local logout still applies. */ }
     }
@@ -328,6 +337,11 @@
     state.activeSong = null;
     state.bookmarks = [];
     state.attempts = [];
+    state.drafts = {};
+    state.exercise = null;
+    state.selectedPhrase = null;
+    clearTimeout(state.draftSaveTimer);
+    updateFloatingPlayer();
     $("[data-signed-in-user]").hidden = true;
     $("[data-logout]").hidden = true;
     $("[data-student-nav]").hidden = true;
@@ -337,11 +351,14 @@
 
   async function loadStudentData() {
     const token = state.session.token;
-    const [songRows, bookmarkRows, attemptRows] = await Promise.all([
+    const [songRows, bookmarkRows, attemptRows, draftRows] = await Promise.all([
       rpc(CONFIG.rpc.listSongs, { p_student_token: token }),
       fetchAllPages(CONFIG.rpc.listBookmarks, { p_student_token: token, p_song_id: null }),
-      fetchAllPages(CONFIG.rpc.listAttempts, { p_student_token: token, p_song_id: null })
+      fetchAllPages(CONFIG.rpc.listAttempts, { p_student_token: token, p_song_id: null }),
+      rpc(CONFIG.rpc.listDrafts, {p_student_token:token})
     ]);
+    if (state.session?.token !== token) return;
+    state.drafts = Object.fromEntries(asArray(draftRows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));
     state.songs = asArray(songRows)
       .map(row => normalizeSong(row.song || row, { includeAnswers: false }))
       .map(song => validateSong(song, { requireAnswers: false }))
@@ -381,16 +398,18 @@
       if (button.dataset.route === valid) button.setAttribute("aria-current", "page");
       else button.removeAttribute("aria-current");
     });
-    if (valid !== "song") { cancelReadCountdown(); pausePlayer(); pauseExerciseClock(); }
+    if (valid !== "song") { cancelReadCountdown(); pausePlayer(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
     else if (state.activeTab === "exercise") startExerciseClock();
     if (valid === "bookmarks") renderBookmarks();
     if (valid === "progress") renderAttempts();
+    if (valid === "library") renderLibrary();
+    updateFloatingPlayer();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   function renderLibrary() {
     const query = normalizeSpace($("[data-song-search]")?.value).toLocaleLowerCase("en");
-    const songs = state.songs.filter(song => !query || songHaystack(song).includes(query));
+    const songs = state.songs.filter(song => (!query || songHaystack(song).includes(query)) && (!state.favoritesOnly || songIsFavorite(song.id)));
     const grid = $("[data-song-grid]");
     grid.replaceChildren();
     songs.forEach((song, index) => grid.append(createSongCard(song, index)));
@@ -403,6 +422,7 @@
   function createSongCard(song, index) {
     const article = document.createElement("article");
     article.className = "song-card";
+    const progress=songProgress(song.id); if(progress)article.classList.add(`is-${progress}`);
     const thumb = document.createElement("div");
     thumb.className = "song-card__thumb";
     const fallback = document.createElement("span");
@@ -425,24 +445,30 @@
     const singer = document.createElement("p"); singer.textContent = song.singer;
     const tags = document.createElement("div"); tags.className = "tag-row"; tagElements(song.tags.slice(0, 4), tags);
     body.append(lesson, title, singer, tags);
+    if(progress){const status=document.createElement("small");status.className="song-card__status";status.textContent=progress==="completed"?"✓ 已完成練習":"◷ 練習進行中";body.append(status);}
+    const favorite=document.createElement("button");favorite.type="button";favorite.className="song-favorite";favorite.textContent=songIsFavorite(song.id)?"★ 已收藏":"☆ 收藏歌曲";favorite.setAttribute("aria-pressed",String(songIsFavorite(song.id)));favorite.addEventListener("click",()=>toggleFavorite(song));
     const open = document.createElement("button");
     open.type = "button";
     open.textContent = "開始賞析 →";
     open.addEventListener("click", () => openSong(song.id));
-    article.append(thumb, body, open);
+    article.append(thumb, favorite, body, open);
     return article;
   }
 
   async function openSong(songId, tab = "description") {
+    const requestId=state.songOpenGeneration=(state.songOpenGeneration||0)+1;
     if (state.session?.role !== "student" || !state.session.token) {
       toast("請先登入學生帳戶。", "error");
       return;
     }
     if (!state.songs.some(item => item.id === songId)) return;
     try {
+      if(state.exercise && !state.exercise.submitted) await flushDraft();
+      const token=state.session.token;
       // Always re-authorize and fetch protected translations/questions from the
       // server. The public catalogue and shipped JavaScript contain metadata only.
       const row = firstRow(await rpc(CONFIG.rpc.getSong, { p_student_token: state.session.token, p_song_id: songId }));
+      if(state.session?.token!==token || state.songOpenGeneration!==requestId)return;
       if (!row) throw new Error("你目前未獲授權開啟這首歌。");
       const song = validateSong(normalizeSong(row.song || row, { includeAnswers: false }), { requireAnswers: false });
       if (!song.translations.length || !song.modes.some(mode => mode.questions.length)) throw new Error("這首歌的練習資料尚未完成。");
@@ -481,11 +507,12 @@
       button.tabIndex = active ? 0 : -1;
     });
     $$("[data-tab-panel]").forEach(panel => { panel.hidden = panel.dataset.tabPanel !== valid; });
-    if (valid !== "exercise") { cancelReadCountdown(); pausePlayer(); pauseExerciseClock(); }
+    if (valid !== "exercise") { cancelReadCountdown(); pausePlayer(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
     else {
       if (state.exercise?.locked && youtubeVideoId(state.activeSong?.youtubeUrl) && !state.countdownTimer) startReadCountdown();
       startExerciseClock();
     }
+    updateFloatingPlayer();
   }
 
   function splitTranslationRows(rows) {
@@ -515,7 +542,7 @@
         span.setAttribute("aria-label", `收藏單字 ${piece}`);
         span.textContent = piece;
         if (state.bookmarks.some(item => item.songId === state.activeSong?.id && item.kind === "word" && item.normalizedText === normalizeSpace(piece).toLocaleLowerCase("en"))) span.classList.add("is-bookmarked");
-        span.addEventListener("click", () => addBookmark({ kind: "word", excerpt: piece, lineId }));
+        span.addEventListener("click", () => { if(window.getSelection?.()?.toString().trim()) {updateSelectedPhrase();return;} addBookmark({kind:"word",excerpt:piece,lineId}); });
         span.addEventListener("keydown", event => {
           if (event.key === "Enter" || event.key === " ") { event.preventDefault(); addBookmark({ kind: "word", excerpt: piece, lineId }); }
         });
@@ -556,24 +583,26 @@
   function renderTranslations(song) {
     const columns = $("[data-translation-columns]");
     columns.replaceChildren();
-    splitTranslationRows(song.translations).forEach((rows, index) => columns.append(translationTable(rows, index)));
+    columns.append(translationTable(song.translations, 0));
     $("[data-bookmark-selection]").disabled = true;
     $("[data-selection-status]").textContent = "";
     state.selectedPhrase = null;
   }
 
   function selectedPhrase() {
-    const selection = window.getSelection?.();
-    if (!selection || selection.isCollapsed || !selection.rangeCount) return null;
-    const phrase = normalizeSpace(selection.toString());
-    if (!phrase || phrase.length > 240) return null;
-    const range = selection.getRangeAt(0);
-    const startCell = range.startContainer.nodeType === Node.ELEMENT_NODE ? range.startContainer : range.startContainer.parentElement;
-    const endCell = range.endContainer.nodeType === Node.ELEMENT_NODE ? range.endContainer : range.endContainer.parentElement;
-    const start = startCell?.closest?.("[data-translation-english]");
-    const end = endCell?.closest?.("[data-translation-english]");
-    if (!start || start !== end || !$("[data-tab-panel=translation]")?.contains(start)) return null;
-    return { excerpt: phrase, lineId: text(start.dataset.lineId) };
+    const selection=window.getSelection?.();
+    if(!selection || selection.isCollapsed || !selection.rangeCount)return null;
+    const range=selection.getRangeAt(0), panel=$('[data-translation-columns]');
+    if(!panel.contains(range.startContainer)||!panel.contains(range.endContainer))return null;
+    const parts=[],lineIds=[];
+    $$('[data-translation-english]',panel).forEach(cell=>{
+      if(!range.intersectsNode(cell))return;
+      const clipped=document.createRange();clipped.selectNodeContents(cell);
+      if(cell.contains(range.startContainer))clipped.setStart(range.startContainer,range.startOffset);
+      if(cell.contains(range.endContainer))clipped.setEnd(range.endContainer,range.endOffset);
+      const part=normalizeSpace(clipped.toString());if(part){parts.push(part);lineIds.push(cell.dataset.lineId);}
+    });
+    const excerpt=parts.join(' ');return excerpt && excerpt.length<=20000?{excerpt,lineId:lineIds[0],lineIds}:null;
   }
 
   function updateSelectedPhrase() {
@@ -581,7 +610,7 @@
     state.selectedPhrase = phrase;
     const button = $("[data-bookmark-selection]");
     button.disabled = !phrase;
-    $("[data-selection-status]").textContent = phrase ? `已選取：「${phrase}」` : "";
+    $("[data-selection-status]").textContent = phrase ? `已選取：「${phrase.excerpt}」` : "";
   }
 
   function normalizeBookmark(row) {
@@ -591,7 +620,7 @@
       songTitle: text(row?.song_title || row?.songTitle),
       singer: text(row?.singer),
       lineId: text(row?.line_id || row?.lineId || row?.source_locator?.lineId || row?.source_locator?.line_id),
-      kind: row?.kind === "phrase" ? "phrase" : "word",
+      kind: ["phrase","song"].includes(row?.kind) ? row.kind : "word",
       excerpt: text(row?.excerpt || row?.selected_text || row?.bookmark_text),
       normalizedText: text(row?.normalized_text || normalizeSpace(row?.excerpt || row?.selected_text || row?.bookmark_text).toLocaleLowerCase("en")),
       createdAt: row?.created_at || new Date().toISOString()
@@ -599,7 +628,8 @@
   }
 
   async function addBookmark(input) {
-    const song = state.activeSong;
+    const song = input.song || state.activeSong;
+    const token=state.session?.token;
     const excerpt = normalizeSpace(input.excerpt);
     if (!song || !excerpt) return;
     const normalized = excerpt.toLocaleLowerCase("en");
@@ -608,29 +638,34 @@
       return;
     }
     try {
-      const sourceText = song.translations.find(row => !row.break && row.lineId === text(input.lineId))?.english || "";
+      const sourceText = (song.translations.find(row => !row.break && row.lineId === text(input.lineId))?.english || "").slice(0,1500);
       const row = firstRow(await rpc(CONFIG.rpc.addBookmark, {
         p_student_token: state.session.token,
         p_song_id: song.id,
         p_kind: input.kind,
         p_bookmark_text: excerpt,
         p_source_text: sourceText,
-        p_source_locator: { lineId: text(input.lineId) }
+        p_source_locator: { lineId: text(input.lineId), lineIds:input.lineIds||[] }
       }));
       if (!row?.id || text(row.song_id) !== song.id) throw new Error("資料服務未確認書籤已儲存。");
+      if(state.session?.token!==token)return;
+      state.bookmarks=state.bookmarks.filter(b=>b.id!==text(row.id));
       state.bookmarks.unshift(normalizeBookmark({ ...row, song_title: song.title, singer: song.singer }));
-      renderTranslations(song);
-      renderBookmarks();
+      if(state.activeSong?.id===song.id)renderTranslations(song);
+      renderBookmarks(); renderLibrary();
       window.getSelection?.().removeAllRanges?.();
-      toast(input.kind === "phrase" ? "片語已加入書籤。" : "單字已加入書籤。");
+      toast(input.kind === "song" ? "歌曲已加入收藏。" : input.kind === "phrase" ? "片語已加入書籤。" : "單字已加入書籤。");
     } catch (error) { toast(error.message || "未能儲存書籤。", "error"); }
   }
 
   async function deleteBookmark(id) {
+    const token=state.session?.token;
     try {
       const deleted = await rpc(CONFIG.rpc.deleteBookmark, { p_student_token: state.session.token, p_bookmark_id: id });
       if (deleted !== true) throw new Error("資料服務未確認書籤已移除。");
+      if(state.session?.token!==token)return;
       state.bookmarks = state.bookmarks.filter(item => item.id !== id);
+      renderLibrary();
       renderBookmarks();
       if (state.activeSong) renderTranslations(state.activeSong);
       toast("書籤已移除。");
@@ -643,11 +678,11 @@
     grid.replaceChildren();
     list.forEach(item => {
       const card = document.createElement("article"); card.className = "bookmark-card";
-      const kind = document.createElement("span"); kind.textContent = item.kind === "phrase" ? "PHRASE · 片語" : "WORD · 單字";
+      const kind = document.createElement("span"); kind.textContent = item.kind === "song" ? "SONG · 歌曲" : item.kind === "phrase" ? "PHRASE · 片語" : "WORD · 單字";
       const excerpt = document.createElement("strong"); excerpt.textContent = item.excerpt;
       const source = document.createElement("p"); source.textContent = `來源：${item.songTitle || state.songs.find(song => song.id === item.songId)?.title || "歌曲"}${item.singer ? ` · ${item.singer}` : ""}`;
       const footer = document.createElement("footer");
-      const open = document.createElement("button"); open.type = "button"; open.textContent = "查看原文"; open.onclick = () => openSong(item.songId, "translation");
+      const open = document.createElement("button"); open.type = "button"; open.textContent = "查看原文"; open.onclick = () => openSong(item.songId, item.kind === "song" ? "exercise" : "translation");
       const remove = document.createElement("button"); remove.type = "button"; remove.textContent = "移除"; remove.onclick = () => deleteBookmark(item.id);
       footer.append(open, remove); card.append(kind, excerpt, source, footer); grid.append(card);
     });
@@ -794,27 +829,38 @@
       const choices = document.createElement("div"); choices.className = "choice-grid"; choices.setAttribute("role", "radiogroup"); choices.setAttribute("aria-label", `第 ${question.number} 題`);
       question.options.forEach((option, index) => {
         const selected = exercise.answers[question.number] === option;
-        const button = document.createElement("button"); button.type = "button"; button.className = "choice-button"; button.classList.toggle("is-selected", selected); button.dataset.option = option; button.setAttribute("role", "radio"); button.setAttribute("aria-checked", String(selected)); button.disabled = exercise.locked;
+        const button = document.createElement("button"); button.type = "button"; button.className = "choice-button"; button.classList.toggle("is-selected", selected); button.dataset.option = option; button.setAttribute("role", "radio"); button.setAttribute("aria-checked", String(selected)); button.disabled = exercise.locked || exercise.submitted || exercise.submitting || exercise.checking || Boolean(exercise.pendingSubmission) || exercise.conflict || Boolean(exercise.results?.[question.number]);
         const letter = document.createElement("b"); letter.textContent = String.fromCharCode(65 + index); const label = document.createElement("span"); label.textContent = option; button.append(letter, label);
+        if(state.showChinese && question.optionsZh[index]){const zh=document.createElement("small");zh.className="choice-translation";zh.textContent=question.optionsZh[index];label.append(zh);}
         button.addEventListener("click", () => chooseAnswer(question.number, option)); choices.append(button);
       });
-      card.append(prompt, choices); holder.append(card);
+      card.append(prompt);
+      if(state.showChinese && question.promptZh){const zh=document.createElement("p");zh.className="question-translation";zh.textContent=question.promptZh;card.append(zh);}
+      card.append(choices); holder.append(card);
     });
+    applyCheckedResults();
     updateExerciseProgress();
   }
 
-  function startExercise(modeId) {
+  async function startExercise(modeId) {
+    const startGeneration=state.exerciseStartGeneration=(state.exerciseStartGeneration||0)+1;
     const song = state.activeSong;
     const mode = song?.modes.find(item => item.id === modeId);
     if (!song || !mode) return;
+    if(state.exercise && !state.exercise.submitted){try{await flushDraft();}catch(error){toast("請先同步或載入雲端進度，再切換難度。","error");return;}}
+    if(state.activeSong!==song || state.exerciseStartGeneration!==startGeneration)return;
     resetExercise();
-    state.exercise = { mode, answers: {}, locked: Boolean(youtubeVideoId(song.youtubeUrl)), submitted: false, startedAt: new Date().toISOString(), activeSeconds: 0, clockStarted: performance.now() };
+    const draft=draftForMode(song.id,mode);
+    state.exercise = { songId:song.id,ownerId:state.session.id,mode, answers: {...(draft?.answers||{})},results:draft?.result||{},revision:Number(draft?.revision||0),dirty:Boolean(draft?.dirty),pendingDraft:draft?.pending||null,pendingSubmission:draft?.pendingSubmission||null,editSequence:draft?.editSequence||0,conflict:Boolean(draft?.conflict), locked: Boolean(youtubeVideoId(song.youtubeUrl)), submitted: false, startedAt: draft?.started_at||new Date().toISOString(), activeSeconds: Number(draft?.duration_ms||0)/1000, clockStarted: 0 };
     $("[data-mode-grid]").hidden = true;
     $("[data-exercise-stage]").hidden = false;
     $("[data-mode-title]").textContent = `${mode.label} · ${mode.questionCount} 題`;
     $("[data-relisten]").hidden = false;
     renderExerciseQuestions();
+    if(draft?.needsReset){state.exercise.dirty=true;try{await flushDraft("reset");}catch{toast("請連線後重設已完成的練習。","error");return;}}
     startExerciseClock();
+    setDraftStatus(draft?"已恢復上次的練習進度":"選擇答案後會自動儲存。");
+    if(state.exercise.dirty || state.exercise.pendingDraft)void flushDraft().catch(()=>{});
     if (youtubeVideoId(song.youtubeUrl)) {
       mountPlayer(song.youtubeUrl);
       startReadCountdown();
@@ -826,6 +872,7 @@
   }
 
   function resetExercise() {
+    storeLocalDraft(); clearTimeout(state.draftSaveTimer);
     stopExerciseTimers();
     destroyPlayer();
     state.exercise = null;
@@ -849,7 +896,7 @@
   function startExerciseClock() {
     if (!state.exercise || state.exercise.submitted || state.exercise.clockStarted) return;
     state.exercise.clockStarted = performance.now();
-    state.exerciseTimer = window.setInterval(() => updateExerciseProgress(), 1000);
+    state.exerciseTimer = window.setInterval(() => { updateExerciseProgress();const e=state.exercise;if(e && Object.keys(e.answers).length && Date.now()-(e.lastDraftTick||0)>15000){e.lastDraftTick=Date.now();queueDraftSave();}}, 1000);
   }
 
   function pauseExerciseClock() {
@@ -857,6 +904,7 @@
     state.exercise.activeSeconds += Math.max(0, (performance.now() - state.exercise.clockStarted) / 1000);
     state.exercise.clockStarted = 0;
     window.clearInterval(state.exerciseTimer); state.exerciseTimer = 0;
+    if(Object.keys(state.exercise.answers).length && !state.exercise.submitted)queueDraftSave();
   }
 
   function startReadCountdown() {
@@ -890,8 +938,9 @@
 
   function chooseAnswer(number, option) {
     const exercise = state.exercise;
-    if (!exercise || exercise.locked || exercise.submitted) return;
+    if (!exercise || exercise.locked || exercise.submitted || exercise.submitting || exercise.checking || exercise.pendingSubmission || exercise.results?.[number] || exercise.conflict) return;
     exercise.answers[number] = option;
+    queueDraftSave();
     const card = $(`[data-question="${number}"]`);
     card?.classList.add("is-answered");
     $$("[data-option]", card).forEach(button => {
@@ -906,7 +955,9 @@
     if (!exercise) return;
     const answered = Object.keys(exercise.answers).length;
     $("[data-answer-progress]").textContent = `已選 ${answered} / ${exercise.mode.questionCount}`;
-    $("[data-submit-exercise]").disabled = exercise.submitted || exercise.submitting || answered !== exercise.mode.questionCount;
+    $("[data-submit-exercise]").disabled = exercise.submitted || exercise.submitting || exercise.checking || exercise.conflict || answered !== exercise.mode.questionCount;
+    $("[data-check-partial]").disabled=exercise.locked||exercise.submitted||exercise.submitting||exercise.checking||exercise.conflict||Boolean(exercise.pendingSubmission)||answered<=Object.keys(exercise.results||{}).length;
+    $("[data-reset-answers]").disabled=exercise.submitted||exercise.submitting||exercise.checking||Boolean(exercise.pendingSubmission);
     $("[data-submit-summary]").textContent = exercise.submitting ? "正在安全核對答案及儲存成績…" : answered === exercise.mode.questionCount ? "所有題目已作答，可以提交" : `尚餘 ${exercise.mode.questionCount - answered} 題`;
   }
 
@@ -961,6 +1012,9 @@
     const song = state.activeSong;
     if (!exercise || !song || exercise.submitted || exercise.submitting || Object.keys(exercise.answers).length !== exercise.mode.questionCount) return;
     if (state.session?.role !== "student" || !state.session.token) { toast("請重新登入後再提交。", "error"); return; }
+    try{await flushDraft();}catch{toast("請先同步進度後再提交。","error");return;}
+    if(state.exercise!==exercise || exercise.submitting || exercise.submitted)return;
+    const token=state.session.token;
     pauseExerciseClock();
     exercise.submitting = true;
     exercise.pendingSubmission ||= {
@@ -976,6 +1030,7 @@
       questions: exercise.mode.questions
     };
     const pending = exercise.pendingSubmission;
+    storeLocalDraft(exercise);
     $$("[data-option]", $("[data-lyrics-exercise]")).forEach(button => { button.disabled = true; });
     updateExerciseProgress();
     try {
@@ -991,14 +1046,18 @@
         p_completed_at: pending.completedAt
       }));
       if (!row) throw new Error("資料服務未回傳成績。");
+      if(state.session?.token!==token || state.exercise!==exercise)return;
       const attempt = validateSavedAttempt(row, pending);
       exercise.submitting = false;
       exercise.submitted = true;
+      exercise.results=attempt.results;
+      const backups=readLocalDrafts();delete backups[draftIdentity(song.id,exercise.mode.id)];try{localStorage.setItem(studyStorageKey(),JSON.stringify(backups));}catch{}
       revealServerResult(exercise, attempt);
       state.attempts.unshift(normalizeAttempt({ ...row, song_title: song.title }));
-      renderAttempts(); renderDashboard(); toast("成績已安全儲存。");
+      renderAttempts(); renderDashboard(); renderLibrary(); toast("成績已安全儲存。");
       $("[data-result-card]").scrollIntoView({ behavior: "smooth", block: "center" });
     } catch (error) {
+      if(state.session?.token!==token || state.exercise!==exercise)return;
       exercise.submitting = false;
       // Keep the frozen idempotent payload and choices intact: a network error
       // can occur after the database commit, so retrying must use the same UUID.
@@ -1006,6 +1065,145 @@
       toast(error.message || "未能儲存成績，請稍後再試。", "error");
     }
   }
+
+  function studyStorageKey() { return `edmund-song-drafts-v1:${state.session?.id || ''}`; }
+  function draftIdentity(songId, modeId) { return `${songId}/${modeId}`; }
+  function readLocalDrafts() { try { return JSON.parse(localStorage.getItem(studyStorageKey()) || '{}'); } catch { return {}; } }
+  function storeLocalDraft(exercise = state.exercise) {
+    if (!exercise || exercise.submitted || !state.session?.id || exercise.ownerId !== state.session.id) return;
+    const drafts = readLocalDrafts();
+    drafts[draftIdentity(exercise.songId, exercise.mode.id)] = {
+      song_id: exercise.songId, mode_id: exercise.mode.id, exercise_version: exercise.mode.version,
+      answers: exercise.answers, result: exercise.results, revision: exercise.revision,
+      duration_ms: Math.round(elapsedExerciseSeconds(exercise) * 1000), started_at: exercise.startedAt,
+      dirty: exercise.dirty, pending: exercise.pendingDraft ? {...exercise.pendingDraft,args:{...exercise.pendingDraft.args,p_student_token:undefined}} : null, pendingSubmission: exercise.pendingSubmission,
+      editSequence: exercise.editSequence
+    };
+    try { localStorage.setItem(studyStorageKey(), JSON.stringify(drafts)); }
+    catch { setDraftStatus('此瀏覽器無法保留離線備份；請保持連線並確認已儲存。', true); }
+  }
+  function elapsedExerciseSeconds(exercise) { return Math.min(14400, exercise.activeSeconds + (exercise.clockStarted ? Math.max(0,(performance.now()-exercise.clockStarted)/1000) : 0)); }
+  function setDraftStatus(message, error = false) { const el=$('[data-draft-status]'); if(el) {el.textContent=message;el.dataset.state=error?'error':'saved';const reload=$('[data-reload-draft]');if(reload)reload.hidden=!state.exercise?.conflict;} }
+  function draftForMode(songId, mode) {
+    const id=draftIdentity(songId,mode.id), remote=state.drafts[id], local=readLocalDrafts()[id];
+    if (local?.exercise_version===mode.version && (local.dirty || local.pending || local.pendingSubmission)) {
+      // A newer remote revision must be reconciled explicitly, never silently overwritten.
+      return {...local, conflict: Boolean(remote && remote.revision>local.revision && remote.mutation_id!==local.pending?.args?.p_mutation_id)};
+    }
+    if(remote?.exercise_version!==mode.version)return null;
+    if(state.attempts.some(a=>a.songId===songId && a.mode===mode.id && new Date(a.startedAt).valueOf()===new Date(remote.started_at).valueOf()))
+      return {...remote,answers:{},result:{},duration_ms:0,started_at:new Date().toISOString(),needsReset:true};
+    return remote;
+  }
+  function queueDraftSave() {
+    const exercise=state.exercise;
+    if(!exercise || exercise.submitted) return;
+    exercise.dirty=true; exercise.editSequence+=1; storeLocalDraft(exercise);
+    setDraftStatus('正在儲存…'); clearTimeout(state.draftSaveTimer);
+    state.draftSaveTimer=setTimeout(()=>flushDraft().catch(()=>{}),350);
+  }
+  async function flushDraft(action='save') {
+    const exercise=state.exercise, session=state.session;
+    if(!exercise || exercise.submitted || session?.role!=='student')return;
+    while(exercise.savePromise) { await exercise.savePromise; if(state.exercise!==exercise)return; }
+    if(exercise.conflict) {setDraftStatus('其他裝置有較新的進度。請重新載入雲端進度後再繼續。',true);throw new Error('Draft conflict');}
+    const current=()=>state.session?.id===session.id && state.session?.token===session.token && state.exercise===exercise;
+    const send=async pending=>{
+      const row=firstRow(await rpc(CONFIG.rpc.saveDraft,{...pending.args,p_student_token:session.token}));
+      if(!row || row.song_id!==exercise.songId || row.mode_id!==exercise.mode.id || row.mutation_id!==pending.args.p_mutation_id || !Number.isFinite(Number(row.revision)))throw new Error('資料服務未確認進度已儲存。');
+      if(Object.keys(row.answers||{}).length!==Object.keys(pending.args.p_answers).length || Object.entries(pending.args.p_answers).some(([k,v])=>row.answers?.[k]!==v))throw new Error('儲存回應的答案不一致。');
+      for(const [k,result] of Object.entries(row.result||{})) {const q=exercise.mode.questions.find(q=>String(q.number)===k);if(!q||result.selected!==pending.args.p_answers[k]||!q.options.includes(result.answer)||typeof result.correct!=='boolean'||result.correct!==(result.selected===result.answer))throw new Error('核對回應無效。');}
+      if(!current())return;
+      exercise.revision=Number(row.revision);exercise.results=row.result||{};exercise.pendingDraft=null;
+      exercise.dirty=exercise.editSequence!==pending.sequence;
+      state.drafts[draftIdentity(exercise.songId,exercise.mode.id)]=row;
+      storeLocalDraft(exercise);
+      setDraftStatus(exercise.dirty?'正在儲存最新選擇…':'✓ 進度已儲存，可登出後繼續');
+    };
+    const run=async()=>{
+      if(exercise.pendingDraft) await send(exercise.pendingDraft);
+      if(!current())return;
+      if(!exercise.dirty && action==='save')return;
+      const pending={sequence:exercise.editSequence,args:{
+        p_student_token:session.token,p_song_id:exercise.songId,p_mode_id:exercise.mode.id,
+        p_exercise_version:exercise.mode.version,p_answers:{...exercise.answers},
+        p_duration_ms:Math.round(elapsedExerciseSeconds(exercise)*1000),p_started_at:exercise.startedAt,
+        p_expected_revision:exercise.revision,p_mutation_id:crypto.randomUUID(),p_action:action
+      }};
+      exercise.pendingDraft=pending;storeLocalDraft(exercise);await send(pending);
+    };
+    exercise.savePromise=run().catch(error=>{
+      if(current()) { if(error.code==='40001')exercise.conflict=true;storeLocalDraft(exercise);setDraftStatus(error.code==='40001'?'另一裝置已更新進度；請載入雲端版本。':'尚未同步；答案已保留在此裝置，連線後會重試。',true); }
+      throw error;
+    }).finally(()=>{exercise.savePromise=null;if(current() && exercise.dirty && !exercise.pendingDraft && !exercise.conflict) {clearTimeout(state.draftSaveTimer);state.draftSaveTimer=setTimeout(()=>flushDraft().catch(()=>{}),350);}});
+    return exercise.savePromise;
+  }
+  function applyCheckedResults() {
+    const exercise=state.exercise;if(!exercise)return;
+    exercise.mode.questions.forEach(question=>{
+      const result=exercise.results?.[question.number];if(!result)return;
+      const card=$(`[data-question="${question.number}"]`);if(!card)return;
+      card.classList.add(result.correct?'is-correct':'is-incorrect');
+      $$('[data-option]',card).forEach(button=>{button.disabled=true;button.classList.toggle('is-correct',button.dataset.option===result.answer);button.classList.toggle('is-wrong',button.dataset.option===result.selected&&!result.correct);});
+      $('.answer-feedback',card)?.remove();const feedback=document.createElement('span');feedback.className='answer-feedback';feedback.textContent=result.correct?'✓ 正確':`答案：${result.answer}`;card.append(feedback);
+    });
+  }
+  async function checkPartialAnswers() {
+    const exercise=state.exercise;if(!exercise || exercise.submitted || exercise.checking || exercise.locked)return;
+    exercise.checking=true;renderExerciseQuestions();
+    try {await flushDraft('check');if(state.exercise===exercise){renderExerciseQuestions();toast('已核對已作答題目；其餘題目可繼續。');}}
+    catch(error){toast(error.message||'未能核對答案，請重試。','error');}
+    finally{exercise.checking=false;if(state.exercise===exercise){renderExerciseQuestions();updateExerciseProgress();}}
+  }
+  async function resetDraftAnswers() {
+    const exercise=state.exercise;if(!exercise || exercise.submitted || exercise.checking || exercise.submitting)return;
+    if(!window.confirm('重設這次尚未完成的答案及核對結果？已完成的練習紀錄會保留。'))return;
+    try {
+      await flushDraft();
+      exercise.checking=true;exercise.answers={};exercise.results={};exercise.pendingSubmission=null;exercise.editSequence+=1;exercise.dirty=true;exercise.activeSeconds=0;exercise.startedAt=new Date().toISOString();exercise.clockStarted=performance.now();
+      storeLocalDraft(exercise);await flushDraft('reset');toast('未完成答案已重設。');
+    } catch(error){toast(error.message||'未能重設，請連線後重試。','error');}
+    finally{exercise.checking=false;if(state.exercise===exercise)renderExerciseQuestions();}
+  }
+  async function reloadCloudDraft() {
+    const exercise=state.exercise;if(!exercise)return;
+    if(!window.confirm('載入雲端版本？此裝置尚未同步的選擇將被雲端進度取代。'))return;
+    try{const rows=await rpc(CONFIG.rpc.listDrafts,{p_student_token:state.session.token});state.drafts=Object.fromEntries(asArray(rows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));const saved=readLocalDrafts();delete saved[draftIdentity(exercise.songId,exercise.mode.id)];localStorage.setItem(studyStorageKey(),JSON.stringify(saved));exercise.submitted=true;startExercise(exercise.mode.id);}catch(error){toast(error.message,'error');}
+  }
+  function songIsFavorite(songId) { return state.bookmarks.some(b=>b.kind==='song' && b.songId===songId); }
+  async function toggleFavorite(song) {
+    const existing=state.bookmarks.find(b=>b.kind==='song'&&b.songId===song.id);
+    if(existing){await deleteBookmark(existing.id);return;}
+    await addBookmark({kind:'song',excerpt:song.title,lineId:'',song});
+  }
+  function songProgress(songId) {
+    if(state.attempts.some(a=>a.songId===songId))return 'completed';
+    const rows=[...Object.values(state.drafts),...Object.values(readLocalDrafts())];
+    return rows.some(d=>d.song_id===songId&&Object.keys(d.answers||{}).length)?'in-progress':'';
+  }
+  function changeTextSize(scope,delta,reset=false) {
+    const step=Number($(`[data-font-step="${scope}"]`)?.value)||.25;
+    const value=reset?1:clamp(Math.round(((state.textSizes[scope]||1)+delta*step)*100)/100,.5,5);
+    state.textSizes[scope]=value;document.documentElement.style.setProperty(`--${scope}-scale`,String(value));
+    $(`[data-font-value="${scope}"]`).textContent=`${value}×`;
+    $('[data-lyrics-exercise]').classList.toggle('is-large-text',(state.textSizes.exercise||1)>1.5);
+  }
+  function syncPlaybackControls() {
+    const rates=state.playerReady ? (state.player.getAvailablePlaybackRates?.()||[1]) : [1];
+    const rate=state.playerReady ? Number(state.player.getPlaybackRate?.()||1) : 1;
+    $$('[data-playback-rate]').forEach(select=>{select.replaceChildren(...rates.map(value=>{const option=document.createElement('option');option.value=String(value);option.textContent=`${value}×`;return option;}));select.value=String(rate);select.disabled=!state.playerReady;});
+    $$('[data-player-toggle]').forEach(button=>{const playing=state.playerState===1;button.textContent=playing?'Ⅱ':'▶';button.setAttribute('aria-label',playing?'暫停':'播放');});
+    updateFloatingPlayer();
+  }
+  function updateFloatingPlayer() {
+    const bar=$('[data-floating-player]');if(!bar)return;
+    const header=$('.site-header')||$('header');
+    const top=header?Math.max(0,header.getBoundingClientRect().bottom):0;
+    document.documentElement.style.setProperty('--song-header-height',`${top}px`);
+    const original=$('[data-player-controls]');
+    bar.hidden=!(state.playerReady&&state.activeRoute==='song'&&state.activeTab==='exercise'&&original.getBoundingClientRect().bottom<=top);
+  }
+  function setPlaybackRate(value) {if(!state.playerReady)return;const rates=state.player.getAvailablePlaybackRates?.()||[1];if(rates.includes(Number(value)))state.player.setPlaybackRate(Number(value));}
 
   let youtubeApiPromise = null;
   function loadYouTubeApi() {
@@ -1021,23 +1219,27 @@
   }
 
   async function mountPlayer(url) {
+    const generation=++state.playerGeneration;
     const id = youtubeVideoId(url); if (!id) return;
     const shell = $("[data-youtube-shell]"); shell.replaceChildren();
     const mount = document.createElement("div"); mount.id = `song-youtube-${Date.now()}`; shell.append(mount);
     try {
       const YT = await loadYouTubeApi();
+      if(generation!==state.playerGeneration)return;
       state.player = new YT.Player(mount, {
         host: "https://www.youtube-nocookie.com", videoId: id,
-        playerVars: { autoplay: 0, controls: 0, rel: 0, playsinline: 1, modestbranding: 1 },
+        playerVars: { autoplay: 0, controls: 0, rel: 0, playsinline: 1, modestbranding: 1, origin:location.origin },
         events: {
-          onReady() { state.playerReady = true; $("[data-player-controls]").hidden = false; },
-          onStateChange(event) { state.playerState = event.data; $("[data-player-toggle]").textContent = event.data === YT.PlayerState.PLAYING ? "Ⅱ" : "▶"; }
+          onReady() { if(generation!==state.playerGeneration)return;state.playerReady = true; $("[data-player-controls]").hidden = false;syncPlaybackControls(); },
+          onStateChange(event) { if(generation!==state.playerGeneration)return;state.playerState = event.data;syncPlaybackControls(); },
+          onPlaybackRateChange(){syncPlaybackControls();}
         }
       });
     } catch (error) { toast(error.message, "error"); }
   }
 
   function destroyPlayer() {
+    state.playerGeneration+=1;
     try { state.player?.destroy?.(); } catch { /* Best effort. */ }
     state.player = null; state.playerReady = false; state.playerState = null;
     const shell = $("[data-youtube-shell]");
@@ -1046,6 +1248,7 @@
       const icon = document.createElement("span"); icon.textContent = "♪"; const title = document.createElement("strong"); title.textContent = "等待管理員加入 YouTube 連結"; const note = document.createElement("small"); note.textContent = "題目仍可先行練習及核對。"; placeholder.append(icon, title, note); shell.replaceChildren(placeholder);
     }
     $("[data-player-controls]").hidden = true;
+    updateFloatingPlayer();
   }
 
   function playPlayer(fromCountdown = false) {
@@ -1214,11 +1417,25 @@
     document.addEventListener("selectionchange", () => { if (state.activeTab === "translation") updateSelectedPhrase(); });
     $("[data-bookmark-selection]").addEventListener("click", () => { const phrase = state.selectedPhrase || selectedPhrase(); if (phrase) addBookmark({ ...phrase, kind: "phrase" }); });
     $$("[data-bookmark-filter]").forEach(button => button.addEventListener("click", () => { state.bookmarkFilter = button.dataset.bookmarkFilter; $$("[data-bookmark-filter]").forEach(item => item.classList.toggle("is-active", item === button)); renderBookmarks(); }));
-    $("[data-player-toggle]").addEventListener("click", togglePlayer);
+    const floating=$('[data-player-controls]').cloneNode(true);floating.removeAttribute('data-player-controls');floating.dataset.floatingPlayer='';floating.classList.add('floating-song-controls');floating.hidden=true;document.body.append(floating);
+    $$('[data-player-toggle]').forEach(button=>button.addEventListener('click',togglePlayer));
+    $$('[data-restart-song]').forEach(button=>button.addEventListener('click',relisten));
+    $$('[data-playback-rate]').forEach(select=>select.addEventListener('change',()=>setPlaybackRate(select.value)));
+    window.addEventListener('scroll',updateFloatingPlayer,{passive:true});window.addEventListener('resize',updateFloatingPlayer);
+    $('[data-skip-preparation]').addEventListener('click',finishReadCountdown);
+    $('[data-check-partial]').addEventListener('click',checkPartialAnswers);
+    $('[data-reset-answers]').addEventListener('click',resetDraftAnswers);
+    $('[data-reload-draft]').addEventListener('click',reloadCloudDraft);
+    $('[data-favorites-only]').addEventListener('click',event=>{state.favoritesOnly=!state.favoritesOnly;event.currentTarget.setAttribute('aria-pressed',String(state.favoritesOnly));renderLibrary();});
+    $$('[data-font-change]').forEach(button=>button.addEventListener('click',()=>changeTextSize(button.dataset.fontScope,Number(button.dataset.fontChange))));
+    $$('[data-font-reset]').forEach(button=>button.addEventListener('click',()=>changeTextSize(button.dataset.fontReset,0,true)));
+    $('[data-toggle-chinese]').addEventListener('click',event=>{state.showChinese=!state.showChinese;event.currentTarget.setAttribute('aria-pressed',String(state.showChinese));event.currentTarget.textContent=state.showChinese?'隱藏中文翻譯':'顯示中文翻譯';renderExerciseQuestions();});
+    $('[data-bookmark-selection]').addEventListener('pointerdown',event=>event.preventDefault());
+    window.addEventListener('online',()=>flushDraft().catch(()=>{}));
     $$("[data-seek]").forEach(button => button.addEventListener("click", () => seekPlayer(Number(button.dataset.seek))));
     $("[data-relisten]").addEventListener("click", relisten);
     $("[data-result-relisten]").addEventListener("click", relisten);
-    $("[data-change-mode]").addEventListener("click", resetExercise);
+    $("[data-change-mode]").addEventListener("click", async()=>{try{await flushDraft();resetExercise();}catch{toast("請先同步進度後再切換。","error");}});
     $("[data-try-again]").addEventListener("click", () => startExercise(state.exercise?.mode.id));
     $("[data-submit-exercise]").addEventListener("click", submitExercise);
     $("[data-new-song]").addEventListener("click", newAdminSong);
@@ -1227,8 +1444,8 @@
     $("[data-song-form]").elements.youtubeUrl.addEventListener("input", updateAdminYouTubePreview);
     $("[data-archive-song]").addEventListener("click", () => { const form = $("[data-song-form]"); form.elements.published.checked = false; form.requestSubmit(); });
     $("[data-student-access-search]").addEventListener("input", renderStudentAccess);
-    document.addEventListener("visibilitychange", () => { if (!state.exercise || state.exercise.submitted) return; if (document.hidden) pauseExerciseClock(); else if (state.activeRoute === "song" && state.activeTab === "exercise") startExerciseClock(); });
-    window.addEventListener("pagehide", pauseExerciseClock);
+    document.addEventListener("visibilitychange", () => { if (!state.exercise || state.exercise.submitted) return; if (document.hidden) {pauseExerciseClock();storeLocalDraft();void flushDraft().catch(()=>{});} else if (state.activeRoute === "song" && state.activeTab === "exercise") startExerciseClock(); });
+    window.addEventListener("pagehide",()=>{pauseExerciseClock();storeLocalDraft();});
   }
 
   async function boot() {

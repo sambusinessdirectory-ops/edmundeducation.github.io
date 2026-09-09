@@ -1702,3 +1702,7 @@ body.writing-feedback-fullscreen { overflow: hidden; }
 .feedback-fullscreen-bar strong { min-width: 0; overflow-wrap: anywhere; }
 .feedback-fullscreen-bar button { flex-shrink: 0; }
 .admin-pending-panel [data-admin-pending-status] { margin: 16px 0; }
+
+.admin-pending-actions { display:flex; gap:.6rem; flex-wrap:wrap; justify-content:flex-end; }
+.admin-ignored-panel { margin-top:2rem; padding:1.4rem; border:1px solid #d7dee3; border-radius:1rem; background:#f4f6f8; }
+.admin-pending-toolbar select { width:100%; min-height:44px; padding:.6rem; border:1px solid #bdcbd4; border-radius:.6rem; background:white; }
