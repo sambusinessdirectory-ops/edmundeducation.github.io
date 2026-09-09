@@ -9,6 +9,11 @@ const publishedApp=readFileSync(new URL('../professional-english/app.js',import.
 assert.match(home,/href="professional-english\/"[^>]*aria-label="Flash Cards"/);
 assert.doesNotMatch(`${home}\n${publishedShell}\n${publishedApp}`,/tired\.chatgpt|Special Flash Card|Private note/i);
 assert.match(publishedShell,/<title>Professional English<\/title>/);
+assert.match(publishedApp,/className:"course-dashboards"/);
+assert.match(publishedApp,/className:"round-complete-metrics"/);
+assert.match(publishedApp,/Average time per card/);
+assert.match(publishedApp,/history:\[\.\.\.\(Array\.isArray\(e\.history\)/);
+assert.doesNotMatch(publishedApp,/\?o\("Review crosses"\):o\("Repeat this range"\)/);
 const db=new PGlite();
 await db.exec(`create role anon;create role authenticated;create role service_role;create schema extensions;create function extensions.digest(text,text) returns bytea language sql as $$select decode(md5($1),'hex')$$;create function extensions.crypt(text,text) returns text language sql as $$select 'hash:'||$1$$;`);
 await db.exec(readFileSync(new URL('../supabase/migrations/20260909120942_special_flash_card_portal.sql',import.meta.url),'utf8'));
