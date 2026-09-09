@@ -348,26 +348,33 @@ button { color: inherit; }
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
 
-/* Compact library cards and accessible study controls. */
-.song-card__thumb { aspect-ratio:auto; height:clamp(88px,10vw,132px); }
+/* Compact lesson cards and direct study controls. */
+.song-grid { grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),340px)); justify-content:start; align-items:start; }
+.song-card { cursor:pointer; }
+.song-card:focus-visible { outline:3px solid var(--rose); outline-offset:4px; }
+.song-card__thumb { aspect-ratio:16/9; height:auto; }
 .song-card__thumb img { object-position:center 38%; }
 .song-card.is-in-progress { background:#fff8d9; border-color:#dfc572; }
 .song-card.is-completed { background:#eaf6e9; border-color:#9fc6a3; }
 .song-card.is-in-progress .song-card__body,.song-card.is-completed .song-card__body { background:transparent; }
 .song-card__status { display:block; margin-top:.8rem; font-weight:700; color:#46533d; }
 .song-card .song-favorite { width:auto; padding:.5rem .8rem; border:1px solid currentColor; border-radius:999px; margin:.8rem 1.2rem 0; background:transparent; }
-.text-size-controls { display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; margin:1rem 0; }
-.text-size-controls button,.text-size-controls select { min-height:40px; padding:.45rem .65rem; border:1px solid var(--line); border-radius:.6rem; background:white; cursor:pointer; }
-.text-size-controls label { display:flex; align-items:center; gap:.4rem; }
+.text-size-controls { display:flex; align-items:center; margin:1rem 0; }
+.text-size-controls select { min-height:44px; padding:.5rem 2.2rem .5rem .75rem; border:1px solid var(--line); border-radius:.7rem; background:white; cursor:pointer; font:inherit; }
+.text-size-controls label { display:flex; align-items:center; gap:.65rem; font-weight:800; }
 .translation-table { width:100%; table-layout:fixed; }
 .translation-table td { font-size:calc(1rem * var(--translation-scale,1)); overflow-wrap:anywhere; }
 .lyrics-exercise .exercise-prompt,.lyrics-exercise .choice-button { font-size:calc(1rem * var(--exercise-scale,1)); overflow-wrap:anywhere; }
 .lyrics-exercise .choice-button b { width:auto; min-width:1.75rem; height:auto; min-height:1.75rem; }
-.lyrics-exercise.is-large-text .choice-grid { grid-template-columns:minmax(0,1fr); }
+.choice-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.choice-button { min-height:0; padding:.62rem .72rem; align-items:start; }
 .question-translation { color:#666; margin-top:.55rem; font-size:1em; line-height:1.6; }
 .choice-translation { display:block; color:#655e65; font-size:.85em; margin-top:.3em; }
 .submit-actions { display:flex; flex-wrap:wrap; gap:.65rem; }
-.player-controls { flex-wrap:wrap; align-items:center; }
+.song-player { padding:1.2rem clamp(1.3rem,4vw,3rem) 0; }
+.player-controls { display:grid; grid-template-columns:auto auto minmax(120px,1fr) auto auto auto; flex-wrap:wrap; align-items:center; }
+.player-controls > span { min-width:3.1rem; text-align:center; font-variant-numeric:tabular-nums; font-size:.78rem; }
+.player-timeline { width:100%; accent-color:var(--rose); cursor:pointer; }
 .player-controls label { display:flex; gap:.4rem; align-items:center; color:white; }
 .player-controls select { min-height:40px; padding:.4rem; border-radius:.5rem; background:white; color:#261c24; }
 .floating-song-controls { position:fixed; top:var(--song-header-height,64px); left:0; right:0; z-index:90; background:#302634; box-shadow:0 5px 16px #0003; margin:0; }
@@ -377,3 +384,15 @@ button { color: inherit; }
 .read-countdown button { pointer-events:auto; }
 .exercise-line { scroll-margin-top:180px; }
 .library-filters { margin-bottom:1rem; }
+.selection-bookmark { position:fixed; z-index:120; transform:translateX(-50%); border:0; border-radius:999px; padding:.7rem 1rem; color:#fff; background:var(--rose); box-shadow:0 10px 28px #29132042; font-weight:900; cursor:pointer; }
+.selection-bookmark[hidden] { display:none; }
+.lyric-word { -webkit-user-select:all; user-select:all; }
+.translation-table tr.is-current-line td { background:#fff1b9; box-shadow:inset 4px 0 #efb51d; }
+.lyric-word.is-current-word { color:#fff; background:var(--rose); border-radius:.3rem; box-shadow:0 0 0 3px color-mix(in srgb,var(--rose) 18%,transparent); }
+.exercise-line.is-current-line { border-color:#efb51d; background:#fff8d9; box-shadow:inset 5px 0 #efb51d; }
+@media (max-width:700px) {
+  .player-controls { grid-template-columns:auto auto minmax(80px,1fr) auto; }
+  .player-controls > button[data-restart-song],.player-controls > label { grid-row:2; }
+  .choice-grid { gap:.35rem; }
+  .choice-button { grid-template-columns:auto minmax(0,1fr); padding:.5rem; }
+}

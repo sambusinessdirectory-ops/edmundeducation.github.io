@@ -5,6 +5,7 @@ const require=createRequire(new URL('./email-qa/package.json',import.meta.url));
 const {PGlite}=require('@electric-sql/pglite');
 const root=new URL('../',import.meta.url),read=p=>fs.readFileSync(new URL(p,root),'utf8');
 const migration=read('supabase/migrations/20260909044704_song_study_progress_and_feedback_queue.sql');
+const playbackMigration=read('supabase/migrations/20260909153000_song_playback_time.sql');
 const base=read('supabase-song-appreciation.sql');
 const db=new PGlite();
 await db.exec(`create role anon;create role authenticated;create role service_role;
@@ -21,6 +22,7 @@ create function _writing_submission_admin_id(uuid) returns uuid language sql as 
 `);
 await db.exec(base.slice(base.indexOf('create or replace function public._song_appreciation_exercises_valid('),base.indexOf('-- Students need prompts')));
 await db.exec(migration);
+await db.exec(playbackMigration);
 const id=n=>`00000000-0000-4000-8000-${String(n).padStart(12,'0')}`;
 const modes=['standard','medium','hard','hell'].map(id=>({id,version:1,questionCount:2,questions:[{number:1,prompt:'A {{blank}}',options:['one','two','three'],answer:'one'},{number:2,prompt:'B {{blank}}',options:['four','five','six'],answer:'five'}]}));
 await db.query('insert into flashcard_students values($1),($2)',[id(1),id(2)]);
@@ -46,6 +48,12 @@ await assert.rejects(save({revision:5,mutation:id(16),action:null}),e=>e.code===
 const final=(await db.query('select * from song_appreciation_attempt_save($1,$2,$3,$4,$5,$6,$7,$8,$9)',[id(1),id(20),id(3),'standard',1,JSON.stringify({1:'one',2:'five'}),1000,started,new Date().toISOString()])).rows[0];assert.equal(final.correct_count,2,'multi-day resumed attempt can finish');
 const bookmark=()=>db.query('select * from song_appreciation_bookmark_add($1,$2,$3,$4,$5,$6)',[id(1),id(3),'song','Supplied title','unused','{}']);
 const fav=(await bookmark()).rows[0];assert.equal(fav.bookmark_text,'Synthetic Song');assert.equal((await bookmark()).rows[0].id,fav.id);
+await assert.rejects(db.query('select * from song_appreciation_playback_add($1,$2,$3,$4)',[id(99),id(3),10,new Date().toISOString()]),e=>e.code==='42501');
+await assert.rejects(db.query('select * from song_appreciation_playback_add($1,$2,$3,$4)',[id(1),id(3),61,new Date().toISOString()]),e=>e.code==='22023');
+await db.query('select * from song_appreciation_playback_add($1,$2,$3,$4)',[id(1),id(3),30,new Date().toISOString()]);
+await db.query('select * from song_appreciation_playback_add($1,$2,$3,$4)',[id(1),id(3),30,new Date().toISOString()]);
+const listening=(await db.query('select * from song_appreciation_playback_list($1)',[id(1)])).rows;
+assert.equal(Number(listening[0].seconds),60,'actual playback chunks accumulate by local day');
 await db.query('select writing_submission_admin_ignore($1,$2,true)',[id(8),id(7)]);
 assert.equal((await db.query('select * from writing_submission_admin_ignored_list($1)',[id(8)])).rows.length,1);
 assert.equal((await db.query('select * from writing_submission_admin_ignored_list($1)',[id(9)])).rows.length,0);

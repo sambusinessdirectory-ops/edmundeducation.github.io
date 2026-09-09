@@ -36,7 +36,7 @@ for (const marker of [
   'data-learning-dashboard', 'data-dashboard-toggle', 'data-question-chart', 'data-time-chart',
   'data-song-search', 'data-song-grid', 'data-song-tab="description"', 'data-song-tab="translation"',
   'data-song-tab="exercise"', 'data-translation-columns', 'data-bookmark-selection', 'data-mode-grid',
-  'data-countdown-value', 'data-seek="-5"', 'data-seek="5"', 'data-submit-exercise',
+  'data-countdown-value', 'data-player-timeline', 'data-player-current', 'data-player-duration', 'data-submit-exercise',
   'data-relisten', 'data-result-relisten', 'data-admin-song-list', 'data-youtube-preview',
   'name="tags"', 'data-student-access-list'
 ]) assert.ok(html.includes(marker), `song-appreciation.html is missing ${marker}`);
@@ -50,11 +50,17 @@ assert.match(html, /data-edmund-system-switcher data-system="song-appreciation"/
 for (const pattern of [
   /flashcard_student_login/, /student_list_songs/, /student_get_song/, /admin_set_access/,
   /bookmark_add/, /bookmark_delete/, /attempt_save/, /youtubeVideoId/, /i\.ytimg\.com\/vi/,
-  /getSelection/, /kind: "phrase"/, /kind:\s*"word"/, /remaining = 30/, /seekPlayer\(delta\)/,
+  /getSelection/, /kind: "phrase"/, /kind:\s*"word"/, /remaining = 30/, /seekPlayerTo\(value\)/,
   /exercise\.answers\[number\] = option/, /p_mode_id/, /p_exercise_version/, /dailyAttemptSeries/,
   /dashboardPreferenceKey/, /aria-checked/, /player\.seekTo\(0, true\)/, /fetchAllPages/,
   /cancelReadCountdown/, /includeAnswers: false/, /validateSavedAttempt/, /revealServerResult/
 ]) assert.match(`${config}\n${js}`, pattern);
+
+assert.match(config, /song_appreciation_playback_list/);
+assert.match(config, /song_appreciation_playback_add/);
+assert.match(js, /event\.data===1\)beginPlaybackTracking/);
+assert.match(js, /\.translation-table tr\[data-sync-index\]/);
+assert.match(js, /\.lyric-word\.is-current-word/);
 
 for (const pattern of [
   /\.translation-columns\s*\{[^}]*grid-template-columns:\s*minmax\(0,1fr\)/s,

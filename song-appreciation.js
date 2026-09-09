@@ -15,6 +15,7 @@
     activeTab: "description",
     bookmarks: [],
     attempts: [],
+    playbackDaily: [],
     drafts: {},
     textSizes: {translation:1,exercise:1},
     showChinese: false,
@@ -29,6 +30,10 @@
     player: null,
     playerReady: false,
     playerState: null,
+    playerSyncTimer: 0,
+    playbackStarted: 0,
+    playbackPending: 0,
+    playbackSave: null,
     countdownTimer: 0,
     exerciseTimer: 0,
     adminSongs: [],
@@ -185,6 +190,10 @@
       createdAt: raw?.createdAt || raw?.created_at || "",
       updatedAt: raw?.updatedAt || raw?.updated_at || ""
     };
+  }
+
+  function normalizePlayback(row) {
+    return { day: text(row?.activity_date || row?.day), seconds: Number(row?.seconds || row?.duration_seconds || 0) };
   }
 
   function validateSong(song, { requireAnswers = false } = {}) {
@@ -351,11 +360,12 @@
 
   async function loadStudentData() {
     const token = state.session.token;
-    const [songRows, bookmarkRows, attemptRows, draftRows] = await Promise.all([
+    const [songRows, bookmarkRows, attemptRows, draftRows, playbackRows] = await Promise.all([
       rpc(CONFIG.rpc.listSongs, { p_student_token: token }),
       fetchAllPages(CONFIG.rpc.listBookmarks, { p_student_token: token, p_song_id: null }),
       fetchAllPages(CONFIG.rpc.listAttempts, { p_student_token: token, p_song_id: null }),
-      rpc(CONFIG.rpc.listDrafts, {p_student_token:token})
+      rpc(CONFIG.rpc.listDrafts, {p_student_token:token}),
+      rpc(CONFIG.rpc.listPlayback, {p_student_token:token})
     ]);
     if (state.session?.token !== token) return;
     state.drafts = Object.fromEntries(asArray(draftRows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));
@@ -365,6 +375,7 @@
       .sort((a, b) => a.sortOrder - b.sortOrder || a.title.localeCompare(b.title));
     state.bookmarks = asArray(bookmarkRows).map(normalizeBookmark);
     state.attempts = asArray(attemptRows).map(normalizeAttempt);
+    state.playbackDaily = asArray(playbackRows).map(normalizePlayback);
   }
 
   async function enterStudent() {
@@ -422,6 +433,11 @@
   function createSongCard(song, index) {
     const article = document.createElement("article");
     article.className = "song-card";
+    article.tabIndex = 0;
+    article.setAttribute("role", "link");
+    article.setAttribute("aria-label", `開啟 ${song.title}`);
+    article.addEventListener("click", event => { if (!event.target.closest("button")) openSong(song.id); });
+    article.addEventListener("keydown", event => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openSong(song.id); } });
     const progress=songProgress(song.id); if(progress)article.classList.add(`is-${progress}`);
     const thumb = document.createElement("div");
     thumb.className = "song-card__thumb";
@@ -446,11 +462,11 @@
     const tags = document.createElement("div"); tags.className = "tag-row"; tagElements(song.tags.slice(0, 4), tags);
     body.append(lesson, title, singer, tags);
     if(progress){const status=document.createElement("small");status.className="song-card__status";status.textContent=progress==="completed"?"✓ 已完成練習":"◷ 練習進行中";body.append(status);}
-    const favorite=document.createElement("button");favorite.type="button";favorite.className="song-favorite";favorite.textContent=songIsFavorite(song.id)?"★ 已收藏":"☆ 收藏歌曲";favorite.setAttribute("aria-pressed",String(songIsFavorite(song.id)));favorite.addEventListener("click",()=>toggleFavorite(song));
+    const favorite=document.createElement("button");favorite.type="button";favorite.className="song-favorite";favorite.textContent=songIsFavorite(song.id)?"★ 已收藏":"☆ 收藏歌曲";favorite.setAttribute("aria-pressed",String(songIsFavorite(song.id)));favorite.addEventListener("click",event=>{event.stopPropagation();toggleFavorite(song);});
     const open = document.createElement("button");
     open.type = "button";
     open.textContent = "開始賞析 →";
-    open.addEventListener("click", () => openSong(song.id));
+    open.addEventListener("click", event => { event.stopPropagation(); openSong(song.id); });
     article.append(thumb, favorite, body, open);
     return article;
   }
@@ -472,6 +488,8 @@
       if (!row) throw new Error("你目前未獲授權開啟這首歌。");
       const song = validateSong(normalizeSong(row.song || row, { includeAnswers: false }), { requireAnswers: false });
       if (!song.translations.length || !song.modes.some(mode => mode.questions.length)) throw new Error("這首歌的練習資料尚未完成。");
+      pausePlayer();
+      await flushPlayback();
       state.activeSong = song;
       renderSong(song);
       routeStudent("song");
@@ -496,6 +514,8 @@
     renderTranslations(song);
     renderModes(song);
     resetExercise();
+    destroyPlayer();
+    if (youtubeVideoId(song.youtubeUrl)) mountPlayer(song.youtubeUrl);
   }
 
   function switchSongTab(tab) {
@@ -507,7 +527,9 @@
       button.tabIndex = active ? 0 : -1;
     });
     $$("[data-tab-panel]").forEach(panel => { panel.hidden = panel.dataset.tabPanel !== valid; });
-    if (valid !== "exercise") { cancelReadCountdown(); pausePlayer(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
+    $("[data-song-player]").hidden = valid === "description";
+    if (valid === "description") { cancelReadCountdown(); pausePlayer(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
+    else if (valid === "translation") { cancelReadCountdown(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
     else {
       if (state.exercise?.locked && youtubeVideoId(state.activeSong?.youtubeUrl) && !state.countdownTimer) startReadCountdown();
       startExerciseClock();
@@ -567,6 +589,8 @@
         tr.className = "is-break";
         const td = document.createElement("td"); td.colSpan = 2; td.setAttribute("aria-label", "段落分隔"); tr.append(td);
       } else {
+        tr.dataset.lineId = row.lineId;
+        tr.dataset.syncIndex = String(body.querySelectorAll("tr:not(.is-break)").length);
         const english = document.createElement("td");
         english.dataset.translationEnglish = "";
         english.dataset.lineId = row.lineId;
@@ -585,6 +609,7 @@
     columns.replaceChildren();
     columns.append(translationTable(song.translations, 0));
     $("[data-bookmark-selection]").disabled = true;
+    $("[data-bookmark-selection]").hidden = true;
     $("[data-selection-status]").textContent = "";
     state.selectedPhrase = null;
   }
@@ -597,19 +622,24 @@
     const parts=[],lineIds=[];
     $$('[data-translation-english]',panel).forEach(cell=>{
       if(!range.intersectsNode(cell))return;
-      const clipped=document.createRange();clipped.selectNodeContents(cell);
-      if(cell.contains(range.startContainer))clipped.setStart(range.startContainer,range.startOffset);
-      if(cell.contains(range.endContainer))clipped.setEnd(range.endContainer,range.endOffset);
-      const part=normalizeSpace(clipped.toString());if(part){parts.push(part);lineIds.push(cell.dataset.lineId);}
+      const words=$$('.lyric-word',cell).filter(word=>range.intersectsNode(word));
+      const part=normalizeSpace(words.map(word=>word.dataset.word).join(' '));if(part){parts.push(part);lineIds.push(cell.dataset.lineId);}
     });
     const excerpt=parts.join(' ');return excerpt && excerpt.length<=20000?{excerpt,lineId:lineIds[0],lineIds}:null;
   }
 
-  function updateSelectedPhrase() {
+  function updateSelectedPhrase(point) {
     const phrase = selectedPhrase();
     state.selectedPhrase = phrase;
     const button = $("[data-bookmark-selection]");
     button.disabled = !phrase;
+    button.hidden = !phrase;
+    if (phrase) {
+      const range=window.getSelection().getRangeAt(0),rect=range.getBoundingClientRect();
+      const x=point?.clientX ?? rect.right, y=point?.clientY ?? rect.bottom;
+      button.style.left=`${clamp(x,70,window.innerWidth-70)}px`;
+      button.style.top=`${clamp(y+14,18,window.innerHeight-50)}px`;
+    }
     $("[data-selection-status]").textContent = phrase ? `已選取：「${phrase.excerpt}」` : "";
   }
 
@@ -731,12 +761,17 @@
   function dailyAttemptSeries(days, field) {
     const start = dateRangeStart(days);
     const grouped = new Map();
-    state.attempts.forEach(attempt => {
+    if (field === "time") {
+      state.playbackDaily.forEach(item => {
+        const date = safeDate(`${item.day}T12:00:00`);
+        if (!date || (start && date < start)) return;
+        grouped.set(item.day, (grouped.get(item.day) || 0) + item.seconds);
+      });
+    } else state.attempts.forEach(attempt => {
       const date = safeDate(attempt.completedAt);
       if (!date || (start && date < start)) return;
       const key = localDayKey(date);
-      const amount = field === "questions" ? attempt.totalQuestions : attempt.durationSeconds;
-      grouped.set(key, (grouped.get(key) || 0) + amount);
+      grouped.set(key, (grouped.get(key) || 0) + attempt.totalQuestions);
     });
     return [...grouped.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([day, value]) => ({ day, value }));
   }
@@ -820,8 +855,9 @@
     const holder = $("[data-lyrics-exercise]"); holder.replaceChildren();
     const exercise = state.exercise;
     if (!exercise) return;
-    exercise.mode.questions.forEach(question => {
+    exercise.mode.questions.forEach((question, questionIndex) => {
       const card = document.createElement("article"); card.className = "exercise-line"; card.dataset.question = String(question.number);
+      card.dataset.syncIndex = String(questionIndex);
       if (Object.prototype.hasOwnProperty.call(exercise.answers, question.number)) card.classList.add("is-answered");
       const prompt = document.createElement("div"); prompt.className = "exercise-prompt";
       const [before, after] = promptParts(question.prompt); prompt.append(document.createTextNode(before));
@@ -862,7 +898,6 @@
     setDraftStatus(draft?"已恢復上次的練習進度":"選擇答案後會自動儲存。");
     if(state.exercise.dirty || state.exercise.pendingDraft)void flushDraft().catch(()=>{});
     if (youtubeVideoId(song.youtubeUrl)) {
-      mountPlayer(song.youtubeUrl);
       startReadCountdown();
     } else {
       state.exercise.locked = false;
@@ -874,7 +909,6 @@
   function resetExercise() {
     storeLocalDraft(); clearTimeout(state.draftSaveTimer);
     stopExerciseTimers();
-    destroyPlayer();
     state.exercise = null;
     $("[data-mode-grid]").hidden = false;
     $("[data-exercise-stage]").hidden = true;
@@ -1181,18 +1215,56 @@
     const rows=[...Object.values(state.drafts),...Object.values(readLocalDrafts())];
     return rows.some(d=>d.song_id===songId&&Object.keys(d.answers||{}).length)?'in-progress':'';
   }
-  function changeTextSize(scope,delta,reset=false) {
-    const step=Number($(`[data-font-step="${scope}"]`)?.value)||.25;
-    const value=reset?1:clamp(Math.round(((state.textSizes[scope]||1)+delta*step)*100)/100,.5,5);
+  function setTextSize(scope, selected) {
+    const value=clamp(Number(selected)||1,.75,3);
     state.textSizes[scope]=value;document.documentElement.style.setProperty(`--${scope}-scale`,String(value));
-    $(`[data-font-value="${scope}"]`).textContent=`${value}×`;
-    $('[data-lyrics-exercise]').classList.toggle('is-large-text',(state.textSizes.exercise||1)>1.5);
   }
+  function clockLabel(seconds) { const total=Math.max(0,Math.floor(Number(seconds)||0));return `${Math.floor(total/60)}:${String(total%60).padStart(2,'0')}`; }
+  function syncLyricsToPlayback() {
+    if(!state.playerReady)return;
+    let current=0,duration=0;
+    try{current=Number(state.player.getCurrentTime())||0;duration=Number(state.player.getDuration())||0;}catch{return;}
+    $$('[data-player-current]').forEach(node=>node.textContent=clockLabel(current));
+    $$('[data-player-duration]').forEach(node=>node.textContent=clockLabel(duration));
+    $$('[data-player-timeline]').forEach(input=>{if(document.activeElement!==input){input.max=String(Math.max(duration,1));input.value=String(clamp(current,0,Math.max(duration,1)));}});
+    const progress=duration>0?clamp(current/duration,0,.999999):0;
+    const rows=$$('.translation-table tr[data-sync-index]');
+    rows.forEach(row=>row.classList.remove('is-current-line'));
+    $$('.lyric-word.is-current-word').forEach(word=>word.classList.remove('is-current-word'));
+    if(rows.length){
+      const rowIndex=Math.min(rows.length-1,Math.floor(progress*rows.length)),row=rows[rowIndex];row.classList.add('is-current-line');
+      const words=$$('.lyric-word',row);if(words.length){const lineProgress=(progress*rows.length)-rowIndex;words[Math.min(words.length-1,Math.floor(lineProgress*words.length))]?.classList.add('is-current-word');}
+    }
+    const questions=$$('.exercise-line[data-sync-index]');questions.forEach(row=>row.classList.remove('is-current-line'));
+    if(questions.length)questions[Math.min(questions.length-1,Math.floor(progress*questions.length))]?.classList.add('is-current-line');
+  }
+  function addLocalPlayback(seconds) {
+    const day=localDayKey(new Date());let row=state.playbackDaily.find(item=>item.day===day);
+    if(!row){row={day,seconds:0};state.playbackDaily.push(row);}row.seconds+=seconds;renderDashboard();
+  }
+  function capturePlaybackChunk() {
+    if(!state.playbackStarted)return;
+    state.playbackPending+=Math.max(0,(performance.now()-state.playbackStarted)/1000);state.playbackStarted=performance.now();
+  }
+  function flushPlayback() {
+    capturePlaybackChunk();
+    const seconds=Math.floor(state.playbackPending);if(seconds<1||state.session?.role!=='student'||!state.activeSong)return state.playbackSave;
+    state.playbackPending-=seconds;addLocalPlayback(seconds);
+    const args={p_student_token:state.session.token,p_song_id:state.activeSong.id,p_seconds:seconds,p_played_at:new Date().toISOString()};
+    const send=()=>rpc(CONFIG.rpc.addPlayback,args).catch(()=>{state.playbackPending+=seconds;addLocalPlayback(-seconds);});
+    state.playbackSave=(state.playbackSave||Promise.resolve()).then(send).finally(()=>{state.playbackSave=null;});return state.playbackSave;
+  }
+  function beginPlaybackTracking() {
+    if(!state.playbackStarted)state.playbackStarted=performance.now();
+    window.clearInterval(state.playerSyncTimer);state.playerSyncTimer=window.setInterval(()=>{syncLyricsToPlayback();if(state.playbackStarted&&(performance.now()-state.playbackStarted)>10000)void flushPlayback();},200);
+  }
+  function endPlaybackTracking() { capturePlaybackChunk();state.playbackStarted=0;window.clearInterval(state.playerSyncTimer);state.playerSyncTimer=0;syncLyricsToPlayback();void flushPlayback(); }
   function syncPlaybackControls() {
     const rates=state.playerReady ? (state.player.getAvailablePlaybackRates?.()||[1]) : [1];
     const rate=state.playerReady ? Number(state.player.getPlaybackRate?.()||1) : 1;
     $$('[data-playback-rate]').forEach(select=>{select.replaceChildren(...rates.map(value=>{const option=document.createElement('option');option.value=String(value);option.textContent=`${value}×`;return option;}));select.value=String(rate);select.disabled=!state.playerReady;});
     $$('[data-player-toggle]').forEach(button=>{const playing=state.playerState===1;button.textContent=playing?'Ⅱ':'▶';button.setAttribute('aria-label',playing?'暫停':'播放');});
+    syncLyricsToPlayback();
     updateFloatingPlayer();
   }
   function updateFloatingPlayer() {
@@ -1201,7 +1273,7 @@
     const top=header?Math.max(0,header.getBoundingClientRect().bottom):0;
     document.documentElement.style.setProperty('--song-header-height',`${top}px`);
     const original=$('[data-player-controls]');
-    bar.hidden=!(state.playerReady&&state.activeRoute==='song'&&state.activeTab==='exercise'&&original.getBoundingClientRect().bottom<=top);
+    bar.hidden=!(state.playerReady&&state.activeRoute==='song'&&['translation','exercise'].includes(state.activeTab)&&original.getBoundingClientRect().bottom<=top);
   }
   function setPlaybackRate(value) {if(!state.playerReady)return;const rates=state.player.getAvailablePlaybackRates?.()||[1];if(rates.includes(Number(value)))state.player.setPlaybackRate(Number(value));}
 
@@ -1231,7 +1303,7 @@
         playerVars: { autoplay: 0, controls: 0, rel: 0, playsinline: 1, modestbranding: 1, origin:location.origin },
         events: {
           onReady() { if(generation!==state.playerGeneration)return;state.playerReady = true; $("[data-player-controls]").hidden = false;syncPlaybackControls(); },
-          onStateChange(event) { if(generation!==state.playerGeneration)return;state.playerState = event.data;syncPlaybackControls(); },
+          onStateChange(event) { if(generation!==state.playerGeneration)return;state.playerState = event.data;if(event.data===1)beginPlaybackTracking();else endPlaybackTracking();syncPlaybackControls(); },
           onPlaybackRateChange(){syncPlaybackControls();}
         }
       });
@@ -1239,6 +1311,7 @@
   }
 
   function destroyPlayer() {
+    endPlaybackTracking();
     state.playerGeneration+=1;
     try { state.player?.destroy?.(); } catch { /* Best effort. */ }
     state.player = null; state.playerReady = false; state.playerState = null;
@@ -1271,6 +1344,7 @@
     if (!state.playerReady) return;
     try { const current = Number(state.player.getCurrentTime()) || 0; const duration = Number(state.player.getDuration()) || Infinity; state.player.seekTo(clamp(current + delta, 0, duration), true); } catch { /* Player may be transitioning. */ }
   }
+  function seekPlayerTo(value) { if(!state.playerReady)return;try{state.player.seekTo(clamp(Number(value),0,Number(state.player.getDuration())||0),true);syncLyricsToPlayback();}catch{/* Player may be transitioning. */} }
   function relisten() { if (!state.playerReady) return; try { state.player.seekTo(0, true); state.player.playVideo(); $("[data-autoplay-note]").hidden = true; } catch { /* Best effort. */ } }
 
   async function enterAdmin() {
@@ -1415,20 +1489,21 @@
     $("[data-clear-search]").addEventListener("click", () => { $("[data-song-search]").value = ""; $("[data-clear-search]").hidden = true; renderLibrary(); $("[data-song-search]").focus(); });
     $("[data-dashboard-toggle]").addEventListener("click", () => setDashboardExpanded($("[data-dashboard-toggle]").getAttribute("aria-expanded") !== "true"));
     document.addEventListener("selectionchange", () => { if (state.activeTab === "translation") updateSelectedPhrase(); });
+    $('[data-translation-columns]').addEventListener('pointerup',event=>{window.setTimeout(()=>updateSelectedPhrase(event),0);});
     $("[data-bookmark-selection]").addEventListener("click", () => { const phrase = state.selectedPhrase || selectedPhrase(); if (phrase) addBookmark({ ...phrase, kind: "phrase" }); });
     $$("[data-bookmark-filter]").forEach(button => button.addEventListener("click", () => { state.bookmarkFilter = button.dataset.bookmarkFilter; $$("[data-bookmark-filter]").forEach(item => item.classList.toggle("is-active", item === button)); renderBookmarks(); }));
     const floating=$('[data-player-controls]').cloneNode(true);floating.removeAttribute('data-player-controls');floating.dataset.floatingPlayer='';floating.classList.add('floating-song-controls');floating.hidden=true;document.body.append(floating);
     $$('[data-player-toggle]').forEach(button=>button.addEventListener('click',togglePlayer));
     $$('[data-restart-song]').forEach(button=>button.addEventListener('click',relisten));
     $$('[data-playback-rate]').forEach(select=>select.addEventListener('change',()=>setPlaybackRate(select.value)));
+    $$('[data-player-timeline]').forEach(input=>input.addEventListener('input',()=>seekPlayerTo(input.value)));
     window.addEventListener('scroll',updateFloatingPlayer,{passive:true});window.addEventListener('resize',updateFloatingPlayer);
     $('[data-skip-preparation]').addEventListener('click',finishReadCountdown);
     $('[data-check-partial]').addEventListener('click',checkPartialAnswers);
     $('[data-reset-answers]').addEventListener('click',resetDraftAnswers);
     $('[data-reload-draft]').addEventListener('click',reloadCloudDraft);
     $('[data-favorites-only]').addEventListener('click',event=>{state.favoritesOnly=!state.favoritesOnly;event.currentTarget.setAttribute('aria-pressed',String(state.favoritesOnly));renderLibrary();});
-    $$('[data-font-change]').forEach(button=>button.addEventListener('click',()=>changeTextSize(button.dataset.fontScope,Number(button.dataset.fontChange))));
-    $$('[data-font-reset]').forEach(button=>button.addEventListener('click',()=>changeTextSize(button.dataset.fontReset,0,true)));
+    $$('[data-font-size]').forEach(select=>select.addEventListener('change',()=>setTextSize(select.dataset.fontSize,select.value)));
     $('[data-toggle-chinese]').addEventListener('click',event=>{state.showChinese=!state.showChinese;event.currentTarget.setAttribute('aria-pressed',String(state.showChinese));event.currentTarget.textContent=state.showChinese?'隱藏中文翻譯':'顯示中文翻譯';renderExerciseQuestions();});
     $('[data-bookmark-selection]').addEventListener('pointerdown',event=>event.preventDefault());
     window.addEventListener('online',()=>flushDraft().catch(()=>{}));
@@ -1444,8 +1519,8 @@
     $("[data-song-form]").elements.youtubeUrl.addEventListener("input", updateAdminYouTubePreview);
     $("[data-archive-song]").addEventListener("click", () => { const form = $("[data-song-form]"); form.elements.published.checked = false; form.requestSubmit(); });
     $("[data-student-access-search]").addEventListener("input", renderStudentAccess);
-    document.addEventListener("visibilitychange", () => { if (!state.exercise || state.exercise.submitted) return; if (document.hidden) {pauseExerciseClock();storeLocalDraft();void flushDraft().catch(()=>{});} else if (state.activeRoute === "song" && state.activeTab === "exercise") startExerciseClock(); });
-    window.addEventListener("pagehide",()=>{pauseExerciseClock();storeLocalDraft();});
+    document.addEventListener("visibilitychange", () => { if(document.hidden){pausePlayer();void flushPlayback();} if (!state.exercise || state.exercise.submitted) return; if (document.hidden) {pauseExerciseClock();storeLocalDraft();void flushDraft().catch(()=>{});} else if (state.activeRoute === "song" && state.activeTab === "exercise") startExerciseClock(); });
+    window.addEventListener("pagehide",()=>{pausePlayer();void flushPlayback();pauseExerciseClock();storeLocalDraft();});
   }
 
   async function boot() {

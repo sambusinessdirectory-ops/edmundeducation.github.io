@@ -21,7 +21,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260908-layout1">
-  <link rel="stylesheet" href="song-appreciation.css?v=20260909-study1">
+  <link rel="stylesheet" href="song-appreciation.css?v=20260909-human1">
   <script defer src="/pwa-register.js"></script>
 </head>
 <body>
@@ -141,15 +141,31 @@
             <button id="exercise-tab" type="button" role="tab" aria-selected="false" aria-controls="exercise-panel" data-song-tab="exercise" tabindex="-1">Exercise time<span>聆聽練習</span></button>
           </nav>
 
+          <section class="song-player" data-song-player hidden aria-label="歌曲播放器">
+            <div class="player-card">
+              <div class="youtube-shell" data-youtube-shell><div class="youtube-placeholder"><span>♪</span><strong>等待管理員加入 YouTube 連結</strong><small>歌詞及題目仍可閱讀。</small></div></div>
+              <div class="player-controls" data-player-controls hidden>
+                <button class="play-control" type="button" data-player-toggle aria-label="播放或暫停">▶</button>
+                <span data-player-current>0:00</span>
+                <input class="player-timeline" type="range" min="0" max="100" step="0.1" value="0" data-player-timeline aria-label="歌曲播放進度">
+                <span data-player-duration>0:00</span>
+                <button type="button" data-restart-song>↻ 從頭播放</button>
+                <label>速度<select data-playback-rate aria-label="播放速度"><option value="1">1×</option></select></label>
+              </div>
+              <div class="read-countdown" data-countdown hidden><span>READ FIRST</span><strong data-countdown-value>30</strong><p>先閱讀全部選項；倒數後音樂會自動開始。</p><button class="primary-button" type="button" data-skip-preparation>我準備好了 · 直接開始</button></div>
+              <p class="autoplay-note" data-autoplay-note hidden role="status">瀏覽器阻止了自動播放。請按播放鍵開始。</p>
+            </div>
+          </section>
+
           <section id="description-panel" class="tab-panel description-panel" role="tabpanel" aria-labelledby="description-tab" data-tab-panel="description">
             <p class="eyebrow">ABOUT THIS SONG · 100 WORDS</p><div class="description-copy" data-song-description></div>
             <button class="primary-button next-tab" type="button" data-open-tab="translation">閱讀逐句翻譯 <span aria-hidden="true">→</span></button>
           </section>
 
           <section id="translation-panel" class="tab-panel translation-panel" role="tabpanel" aria-labelledby="translation-tab" data-tab-panel="translation" hidden>
-            <div class="translation-intro"><div><p class="eyebrow">LYRICS &amp; TRANSLATION</p><h2>逐句理解，逐字收藏</h2><p>點按一個英文詞即可收藏；拖曳選取多個詞後，可收藏為片語。</p></div><button class="secondary-button" type="button" data-bookmark-selection disabled>☆ 收藏所選片語</button></div>
+            <div class="translation-intro"><div><p class="eyebrow">LYRICS &amp; TRANSLATION</p><h2>逐句理解，逐字收藏</h2><p>點按一個英文詞即可收藏；拖曳選取多個詞後，收藏按鈕會在選取位置旁出現。</p></div></div>
             <p class="selection-status" data-selection-status role="status" aria-live="polite"></p>
-            <div class="text-size-controls" data-font-controls="translation" aria-label="文字大小"><span>文字大小</span><button type="button" data-font-change="-1" data-font-scope="translation" aria-label="縮小文字">A−</button><output data-font-value="translation">1×</output><button type="button" data-font-change="1" data-font-scope="translation" aria-label="放大文字">A＋</button><label>每次<select data-font-step="translation"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="0.75">0.75×</option></select></label><button type="button" data-font-reset="translation">1×</button></div><div class="translation-columns" data-translation-columns></div>
+            <div class="text-size-controls" data-font-controls="translation" aria-label="文字大小"><label>文字大小<select data-font-size="translation"><option value="0.75">75%</option><option value="1" selected>100%</option><option value="1.25">125%</option><option value="1.5">150%</option><option value="1.75">175%</option><option value="2">200%</option><option value="2.5">250%</option><option value="3">300%</option></select></label></div><div class="translation-columns" data-translation-columns></div>
             <button class="primary-button next-tab" type="button" data-open-tab="exercise">開始聆聽練習 <span aria-hidden="true">→</span></button>
           </section>
 
@@ -157,14 +173,8 @@
             <div class="exercise-header"><div><p class="eyebrow">LISTENING CHALLENGE</p><h2 data-exercise-name>聆聽選擇練習</h2><p>先選難度。開始後有 30 秒閱讀所有選項，然後歌曲會自動播放。</p></div><button class="secondary-button" type="button" data-relisten hidden>↻ 重新聆聽</button></div>
             <div class="mode-grid" data-mode-grid></div>
             <div class="exercise-stage" data-exercise-stage hidden>
-              <div class="player-card">
-                <div class="youtube-shell" data-youtube-shell><div class="youtube-placeholder"><span>♪</span><strong>等待管理員加入 YouTube 連結</strong><small>題目仍可先行練習及核對。</small></div></div>
-                <div class="player-controls" data-player-controls hidden><button type="button" data-seek="-5" aria-label="後退五秒">↶ 5</button><button class="play-control" type="button" data-player-toggle aria-label="播放或暫停">▶</button><button type="button" data-seek="5" aria-label="前進五秒">5 ↷</button><button type="button" data-restart-song>↻ 從頭播放</button><label>速度<select data-playback-rate aria-label="播放速度"><option value="1">1×</option></select></label></div>
-                <div class="read-countdown" data-countdown hidden><span>READ FIRST</span><strong data-countdown-value>30</strong><p>先閱讀全部選項；倒數後音樂會自動開始。</p><button class="primary-button" type="button" data-skip-preparation>我準備好了 · 直接開始</button></div>
-                <p class="autoplay-note" data-autoplay-note hidden role="status">瀏覽器阻止了自動播放。請按播放鍵開始。</p>
-              </div>
               <div class="exercise-toolbar"><div><strong data-mode-title></strong><span data-answer-progress>已選 0 / 0</span></div><button type="button" data-change-mode>更改難度</button></div>
-              <div class="text-size-controls" data-font-controls="exercise" aria-label="文字大小"><span>文字大小</span><button type="button" data-font-change="-1" data-font-scope="exercise" aria-label="縮小文字">A−</button><output data-font-value="exercise">1×</output><button type="button" data-font-change="1" data-font-scope="exercise" aria-label="放大文字">A＋</button><label>每次<select data-font-step="exercise"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="0.75">0.75×</option></select></label><button type="button" data-font-reset="exercise">1×</button></div><button type="button" class="secondary-button" data-toggle-chinese aria-pressed="false">顯示中文翻譯</button><p class="draft-save-status" data-draft-status role="status" aria-live="polite"></p><button type="button" class="secondary-button" data-reload-draft hidden>載入雲端進度</button><div class="lyrics-exercise" data-lyrics-exercise></div>
+              <div class="text-size-controls" data-font-controls="exercise" aria-label="文字大小"><label>文字大小<select data-font-size="exercise"><option value="0.75">75%</option><option value="1" selected>100%</option><option value="1.25">125%</option><option value="1.5">150%</option><option value="1.75">175%</option><option value="2">200%</option><option value="2.5">250%</option><option value="3">300%</option></select></label></div><button type="button" class="secondary-button" data-toggle-chinese aria-pressed="false">顯示中文翻譯</button><p class="draft-save-status" data-draft-status role="status" aria-live="polite"></p><button type="button" class="secondary-button" data-reload-draft hidden>載入雲端進度</button><div class="lyrics-exercise" data-lyrics-exercise></div>
               <div class="submit-bar"><div><strong data-submit-summary>完成所有題目後提交</strong><span>提交前可隨時更改答案。</span></div><div class="submit-actions"><button class="secondary-button" type="button" data-reset-answers>重設未完成答案</button><button class="secondary-button" type="button" data-check-partial disabled>核對已答題目</button><button class="primary-button" type="button" data-submit-exercise disabled>提交及核對答案</button></div></div>
               <section class="result-card" data-result-card hidden aria-live="polite"><p class="eyebrow">YOUR RESULT</p><strong data-result-score></strong><p data-result-message></p><div><button class="primary-button" type="button" data-try-again>再做一次</button><button class="secondary-button" type="button" data-result-relisten>↻ 重新聆聽</button></div></section>
             </div>
@@ -217,10 +227,11 @@
   </main>
 
   <div class="toast-region" data-toast-region aria-live="polite" aria-atomic="true"></div>
+  <button class="selection-bookmark" type="button" data-bookmark-selection disabled hidden>☆ 收藏片語</button>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js?v=20260909-study1"></script>
-  <script src="song-appreciation-config.js?v=20260909-study1"></script>
+  <script src="song-appreciation-config.js?v=20260909-human1"></script>
   <script src="shared-system-nav.js?v=20260908-layout1"></script>
-  <script src="song-appreciation.js?v=20260909-study1"></script>
+  <script src="song-appreciation.js?v=20260909-human1"></script>
 </body>
 </html>
