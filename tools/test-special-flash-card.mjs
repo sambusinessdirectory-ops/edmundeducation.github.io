@@ -14,8 +14,8 @@ assert.match(publishedApp,/className:"axis-chart"/);
 assert.match(publishedApp,/\["week","Week"\].*\["all","All time"\]/);
 assert.match(publishedApp,/scrollIntoView\(\{behavior:"smooth",block:"start"\}\)/);
 assert.match(publishedApp,/className:"flashcard flashcard-back-card flipped"/);
-assert.equal((publishedApp.match(/className:"button header-home"/g)||[]).length,2);
-assert.match(publishedApp,/href:"\/",children:[eo]\("Home"\)/);
+assert.equal((publishedApp.match(/className:"button header-home"/g)||[]).length,0);
+assert.match(publishedApp,/team_effort/);
 assert.match(publishedApp,/className:"round-complete-metrics"/);
 assert.match(publishedApp,/Average time per card/);
 assert.match(publishedApp,/history:\[\.\.\.\(Array\.isArray\(e\.history\)/);
@@ -24,6 +24,7 @@ const db=new PGlite();
 await db.exec(`create role anon;create role authenticated;create role service_role;create schema extensions;create function extensions.digest(text,text) returns bytea language sql as $$select decode(md5($1),'hex')$$;create function extensions.crypt(text,text) returns text language sql as $$select 'hash:'||$1$$;`);
 await db.exec(readFileSync(new URL('../supabase/migrations/20260909120942_special_flash_card_portal.sql',import.meta.url),'utf8'));
 await db.exec(readFileSync(new URL('../supabase/migrations/20260909122706_special_flash_card_search.sql',import.meta.url),'utf8'));
+await db.exec(readFileSync(new URL('../supabase/migrations/20260910025843_special_flash_team_effort.sql',import.meta.url),'utf8'));
 
 const scalar=async(sql,args=[])=>(await db.query(sql,args)).rows[0]?.value;
 const login=async(name,password='')=>scalar('select public.special_flash_login($1,$2) value',[name,password]);
@@ -56,12 +57,18 @@ await assert.rejects(save(s.token,1,{},0,mut),/request changed/);
 await assert.rejects(save(o.token,1,marks,0,crypto.randomUUID()),/not available/);
 await assert.rejects(save(s.token,1,{[d.deck.cards[0].id]:null},1,crypto.randomUUID()),/Invalid card mark/);
 assert.equal((await get(s.token,decks[0])).progress.marks[d.deck.cards[0].id],'green');
+const completedStudy={queue:[d.deck.cards[0].id],position:1,history:[{endedAt:Date.now(),durationMs:1500,cards:1,known:1,review:0}]};
+const savedRound=await save(s.token,1,marks,1,crypto.randomUUID(),completedStudy);assert.equal(savedRound.revision,2);
+const teamEffort=t=>scalar('select special_flash_team_effort($1) value',[t]);
+assert.equal((await teamEffort(o.token)).courses.length,0,'students cannot see teams they are not enrolled in');
+const team=await teamEffort(s.token);assert.equal(team.courses.length,1);assert.equal(team.courses[0].total_cards,1);assert.equal(team.courses[0].members.find(member=>member.account_id===student).cards,1);assert.equal(team.courses[0].daily[0].cards,1);
+await save(s.token,1,marks,2,crypto.randomUUID(),completedStudy);assert.equal((await teamEffort(s.token)).courses[0].total_cards,1);
 await action(admin.token,'access_save',{account_id:student,course_id:course,all_decks:true,deck_ids:[]});assert.equal((await library(s.token)).decks.length,10);
 await action(admin.token,'access_save',{account_id:student,course_id:course,all_decks:false,deck_ids:[]});assert.equal((await library(s.token)).decks.length,0);await assert.rejects(save(s.token,1,marks,1,crypto.randomUUID()),/not available/);
 await action(admin.token,'account_save',{id:other,name:'Learner B',active:false});await assert.rejects(library(o.token),/sign in/);
 assert.ok((await login('Learner B')).error);
 await scalar('select special_flash_logout($1) value',[s.token]);await assert.rejects(library(s.token),/sign in/);
-for(const table of ['accounts','sessions','courses','decks','enrollments','deck_access','progress']){assert.equal(await scalar(`select has_table_privilege('anon','special_flash_${table}','SELECT') value`),false)}
+for(const table of ['accounts','sessions','courses','decks','enrollments','deck_access','progress','attempts']){assert.equal(await scalar(`select has_table_privilege('anon','special_flash_${table}','SELECT') value`),false)}
 for(let i=0;i<8;i++)await login('Sam White Label Admin','wrong');assert.match((await login('Sam White Label Admin','synthetic-secret')).error,/Too many/);
 console.log('Flash Cards: professional publishing path, username/admin login, account isolation, 2-of-10 deck access, hidden metadata, revocation, progress, idempotence, conflicts, logout, rate limiting and table permissions passed.');
 await db.close();

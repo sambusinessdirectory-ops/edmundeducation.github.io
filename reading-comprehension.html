@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Edmund 閱讀理解">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-speaking-system.edmundeducation.workers.dev; media-src 'self' blob: https://edmund-neural-audio.edmundeducation.workers.dev https://edmund-speaking-system.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; worker-src 'self'; base-uri 'self'; form-action 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-speaking-system.edmundeducation.workers.dev; media-src 'self' blob: https://edmund-neural-audio.edmundeducation.workers.dev https://edmund-speaking-system.edmundeducation.workers.dev; object-src 'none'; frame-src 'self'; worker-src 'self'; base-uri 'self'; form-action 'self'">
   <title>閱讀理解學習系統｜EdmundEducation</title>
   <link rel="canonical" href="https://edmundeducation.com/reading-comprehension.html">
   <link rel="manifest" href="/pwa-manifests/reading-comprehension.webmanifest">
@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2">
-  <link rel="stylesheet" href="reading-comprehension.css?v=20260910-mock1">
+  <link rel="stylesheet" href="reading-comprehension.css?v=20260910-float1">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="dse-deep-analysis.css?v=20260904-admin-source1">
 </head>
@@ -277,6 +277,19 @@
 
   <aside class="learning-popover" data-skimming-dialog hidden role="dialog" aria-modal="false" aria-labelledby="skimming-title"><button class="dialog-close" type="button" data-close-popover aria-label="關閉">×</button><p class="eyebrow" data-skimming-kicker></p><h2 id="skimming-title" data-skimming-title>Skimming Tips</h2><div data-skimming-content></div><button class="bookmark-button" type="button" data-skimming-bookmark>☆ 收藏這段提示</button></aside>
   <aside class="learning-popover analysis-dialog" data-analysis-dialog hidden role="dialog" aria-modal="false" aria-labelledby="analysis-title"><button class="dialog-close" type="button" data-close-popover aria-label="關閉">×</button><p class="eyebrow" data-analysis-kicker></p><h2 id="analysis-title" data-analysis-title>答案解析</h2><div class="answer-banner" data-analysis-answer></div><div data-analysis-content></div><button class="bookmark-button" type="button" data-analysis-bookmark>☆ 收藏這題解析</button></aside>
+  <aside class="interactive-flashcards-panel" data-interactive-flashcards-panel hidden aria-labelledby="interactive-flashcards-title">
+    <header class="interactive-flashcards-panel__bar" data-interactive-flashcards-drag>
+      <div><span>INTERACTIVE FLASHCARDS</span><strong id="interactive-flashcards-title">互動字卡</strong></div>
+      <div class="interactive-flashcards-panel__actions">
+        <button type="button" data-interactive-flashcards-minimize aria-label="縮小互動字卡">−</button>
+        <button type="button" data-interactive-flashcards-expand aria-label="放大互動字卡">□</button>
+        <button type="button" data-interactive-flashcards-close aria-label="關閉互動字卡">×</button>
+      </div>
+    </header>
+    <div class="interactive-flashcards-panel__body">
+      <iframe data-interactive-flashcards-frame title="互動字卡練習" allow="autoplay"></iframe>
+    </div>
+  </aside>
   <div class="toast" data-toast hidden role="status" aria-live="polite"></div>
   <audio data-reading-audio preload="metadata"></audio>
   <noscript><p>請啟用 JavaScript 使用閱讀理解學習系統。</p></noscript>

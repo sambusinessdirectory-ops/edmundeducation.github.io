@@ -27,6 +27,9 @@ assert.match(source, /flashcardShowCumulativeProgress: Boolean\(nextVisible\)/);
 assert.match(source, /showCumulativeProgress = preferences\.flashcardShowCumulativeProgress === true/);
 assert.match(source, /chartKeys = showCumulativeProgress[\s\S]*?"cumulative"/);
 assert.match(source, /stroke="#7e22ce"/);
+assert.match(source, /function chartSmoothPath\(/);
+assert.match(source, /class="chart-focus-dot"/);
+assert.doesNotMatch(source, /<polyline[^>]+data-chart-series/, 'dashboard series use smooth paths rather than angular polylines');
 
 const cumulativeSource = sourceBetween(
   "function appendCumulativeProgress(",

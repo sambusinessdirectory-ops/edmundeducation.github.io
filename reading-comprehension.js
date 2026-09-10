@@ -909,7 +909,57 @@ function updateScanControls() { $$('[data-scan-question]').forEach((button) => {
 function renderScanTags() { $$('[data-scan-tags]').forEach((container) => { const paragraph = Number(container.dataset.scanTags); const questions = Object.entries(state.scanAssignments).filter(([, p]) => Number(p) === paragraph).map(([q]) => Number(q)).sort((a, b) => a - b); container.innerHTML = questions.map((q) => `<span class="scan-question-tag" title="第 ${q} 題的 Scan 段落">${q}</span>`).join(""); }); }
 
 function updateReadingFlashcardLink(deck) { const link = document.querySelector('[data-reading-flashcards]'); const popup = document.querySelector('[data-reading-flashcards-popup]'); const hidden = /^dse\/reading\/.*\/2026$/.test(deck); link.href = `flashcards.html?deck=${encodeURIComponent(deck)}`; link.hidden = hidden; popup.dataset.interactiveFlashcards = deck; popup.hidden = hidden; }
-function openInteractiveFlashcards(deck) { const url = new URL('flashcards.html', location.href); url.searchParams.set('deck', deck); url.searchParams.set('embedded', '1'); url.searchParams.set('source', 'reading'); const popup = window.open(url.href, 'edmund-interactive-flashcards', 'popup,width=620,height=820,resizable=yes,scrollbars=yes'); if (!popup) showToast('瀏覽器阻擋了互動字卡視窗，請允許此網站開啟彈出視窗。'); else popup.focus(); }
+function openInteractiveFlashcards(deck) {
+  const panel = document.querySelector('[data-interactive-flashcards-panel]');
+  const frame = document.querySelector('[data-interactive-flashcards-frame]');
+  if (!panel || !frame) return;
+  const url = new URL('flashcards.html', location.href);
+  url.searchParams.set('deck', deck);
+  url.searchParams.set('embedded', '1');
+  url.searchParams.set('source', 'reading');
+  if (frame.dataset.deck !== deck) { frame.src = url.href; frame.dataset.deck = deck; }
+  panel.hidden = false;
+  panel.classList.remove('is-minimized');
+  document.body.classList.add('interactive-flashcards-open');
+  panel.querySelector('[data-interactive-flashcards-close]')?.focus();
+}
+
+function setupInteractiveFlashcardsPanel() {
+  const panel = document.querySelector('[data-interactive-flashcards-panel]');
+  const frame = document.querySelector('[data-interactive-flashcards-frame]');
+  const drag = document.querySelector('[data-interactive-flashcards-drag]');
+  if (!panel || !frame || !drag || panel.dataset.ready === 'true') return;
+  panel.dataset.ready = 'true';
+  panel.querySelector('[data-interactive-flashcards-close]')?.addEventListener('click', () => {
+    panel.hidden = true;
+    document.body.classList.remove('interactive-flashcards-open');
+  });
+  panel.querySelector('[data-interactive-flashcards-minimize]')?.addEventListener('click', () => {
+    panel.classList.toggle('is-minimized');
+    panel.classList.remove('is-expanded');
+  });
+  panel.querySelector('[data-interactive-flashcards-expand]')?.addEventListener('click', () => {
+    panel.classList.toggle('is-expanded');
+    panel.classList.remove('is-minimized');
+    panel.style.removeProperty('left'); panel.style.removeProperty('top');
+  });
+  drag.addEventListener('pointerdown', event => {
+    if (event.target.closest('button') || panel.classList.contains('is-expanded') || matchMedia('(max-width: 720px)').matches) return;
+    const rect = panel.getBoundingClientRect();
+    const start = { x: event.clientX, y: event.clientY, left: rect.left, top: rect.top };
+    drag.setPointerCapture(event.pointerId);
+    const move = moveEvent => {
+      const left = Math.min(innerWidth - 180, Math.max(0, start.left + moveEvent.clientX - start.x));
+      const top = Math.min(innerHeight - 80, Math.max(0, start.top + moveEvent.clientY - start.y));
+      panel.style.left = `${left}px`; panel.style.top = `${top}px`; panel.style.right = 'auto'; panel.style.bottom = 'auto';
+    };
+    const stop = () => { drag.removeEventListener('pointermove', move); drag.removeEventListener('pointerup', stop); drag.removeEventListener('pointercancel', stop); };
+    drag.addEventListener('pointermove', move); drag.addEventListener('pointerup', stop); drag.addEventListener('pointercancel', stop);
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && !panel.hidden) { panel.hidden = true; document.body.classList.remove('interactive-flashcards-open'); }
+  });
+}
 
 async function openDseExercise(id) {
   if (state.opening) return; state.opening = true;
@@ -1079,6 +1129,7 @@ window.addEventListener('popstate', () => { if (state.user && state.token) void 
 
 (async function init() {
   initializeReadingWordBrush();
+  setupInteractiveFlashcardsPanel();
   let progressVisible = true; try { progressVisible = localStorage.getItem('edmund-reading-progress-hidden') !== 'true'; } catch {}
   setAnswerProgressVisible(progressVisible);
   if (typeof ResizeObserver !== 'undefined') { const observer = new ResizeObserver(updateFloatingOffsets); ['.edmund-system-header', '[data-answer-progress-dock]', '.study-toolbar'].forEach((selector) => observer.observe($(selector))); }

@@ -17,6 +17,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
+  <script src="flashcard-theme-toggle.js?v=20260910-instant2"></script>
 
   <style>
     @font-face {
@@ -1197,6 +1198,20 @@
 
     .chart-hover-target {
       fill: transparent;
+      cursor: pointer;
+    }
+
+    .chart-focus-dot {
+      opacity: 0;
+      transform-box: fill-box;
+      transform-origin: center;
+      transition: opacity 0.12s ease, transform 0.12s ease;
+    }
+
+    .chart-hover-group:hover .chart-focus-dot,
+    .chart-hover-group:focus .chart-focus-dot {
+      opacity: 1;
+      transform: scale(1.16);
     }
 
     .chart-tooltip {
@@ -3945,7 +3960,7 @@
   </style>
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2">
-<link rel="stylesheet" href="flashcard-theme.css?v=20260910-night1">
+<link rel="stylesheet" href="flashcard-theme.css?v=20260910-night2">
 </head>
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
@@ -192851,6 +192866,25 @@ window.EDMUND_FLASHCARD_SEED = {
       }).join(" ");
     }
 
+    function chartSmoothPath(points, key, dimensions, yMax) {
+      const coords = chartPointCoords(points, key, dimensions, yMax);
+      if (!coords.length) return "";
+      if (coords.length === 1) return `M ${coords[0].x.toFixed(2)} ${coords[0].y.toFixed(2)}`;
+      const clamp = (value, first, second) => Math.max(Math.min(first, second), Math.min(Math.max(first, second), value));
+      let path = `M ${coords[0].x.toFixed(2)} ${coords[0].y.toFixed(2)}`;
+      for (let index = 0; index < coords.length - 1; index += 1) {
+        const previous = coords[Math.max(0, index - 1)];
+        const current = coords[index];
+        const next = coords[index + 1];
+        const following = coords[Math.min(coords.length - 1, index + 2)];
+        const segment = next.x - current.x;
+        const firstY = clamp(current.y + (next.y - previous.y) / 6, current.y, next.y);
+        const secondY = clamp(next.y - (following.y - current.y) / 6, current.y, next.y);
+        path += ` C ${(current.x + segment / 3).toFixed(2)} ${firstY.toFixed(2)}, ${(next.x - segment / 3).toFixed(2)} ${secondY.toFixed(2)}, ${next.x.toFixed(2)} ${next.y.toFixed(2)}`;
+      }
+      return path;
+    }
+
     function chartPointCoords(points, key, dimensions, yMax) {
       const { width, height, left, right, top, bottom } = dimensions;
       const chartWidth = width - left - right;
@@ -192878,20 +192912,18 @@ window.EDMUND_FLASHCARD_SEED = {
       const chartWidth = width - left - right;
       const chartHeight = height - top - bottom;
       const hasData = points.some(point => point.total > 0 || (showCumulativeProgress && point.cumulative > 0));
-      const lastPoint = points[points.length - 1] || { total: 0, green: 0, red: 0 };
       const xLabels = points.length
         ? [points[0], points[Math.floor((points.length - 1) / 2)], points[points.length - 1]]
         : [];
       const yLabels = [0, Math.round(yMax / 2), yMax];
-      const lastX = left + chartWidth;
       const yFor = value => top + chartHeight - (chartHeight * value / yMax);
       const gridLines = yLabels.map(value => `
-        <line x1="${left}" y1="${yFor(value).toFixed(2)}" x2="${width - right}" y2="${yFor(value).toFixed(2)}" stroke="rgba(47,128,237,0.16)" stroke-width="1" />
-        <text x="${left - 12}" y="${(yFor(value) + 4).toFixed(2)}" text-anchor="end" fill="#627085" font-size="13" font-weight="900">${value}</text>
+        <line class="chart-grid" x1="${left}" y1="${yFor(value).toFixed(2)}" x2="${width - right}" y2="${yFor(value).toFixed(2)}" stroke="rgba(47,128,237,0.12)" stroke-width="1" />
+        <text class="chart-label" x="${left - 12}" y="${(yFor(value) + 4).toFixed(2)}" text-anchor="end" fill="#627085" font-size="13" font-weight="800">${value}</text>
       `).join("");
       const axisLabels = xLabels.map((point, index) => {
         const x = left + (chartWidth * index / Math.max(xLabels.length - 1, 1));
-        return `<text x="${x.toFixed(2)}" y="${height - 18}" text-anchor="middle" fill="#627085" font-size="13" font-weight="900">${compactDateLabel(point.date)}</text>`;
+        return `<text class="chart-label" x="${x.toFixed(2)}" y="${height - 18}" text-anchor="middle" fill="#627085" font-size="13" font-weight="800">${compactDateLabel(point.date)}</text>`;
       }).join("");
       const hoverSeries = [
         { key: "total", label: "總完成", color: "#2563eb", offset: -42 },
@@ -192905,33 +192937,30 @@ window.EDMUND_FLASHCARD_SEED = {
         return `
           <g class="chart-hover-group" tabindex="0" role="button" data-progress-day="${escapeHtml(item.point.key)}" data-progress-series="${escapeHtml(seriesItem.key)}">
             <circle class="chart-hover-target" cx="${item.x.toFixed(2)}" cy="${item.y.toFixed(2)}" r="15" />
-            <circle cx="${item.x.toFixed(2)}" cy="${item.y.toFixed(2)}" r="4" fill="${seriesItem.color}" />
+            <circle class="chart-focus-dot" cx="${item.x.toFixed(2)}" cy="${item.y.toFixed(2)}" r="5" fill="${seriesItem.color}" />
             <g class="chart-tooltip">
-              <line x1="${item.x.toFixed(2)}" y1="${top}" x2="${item.x.toFixed(2)}" y2="${height - bottom}" stroke="rgba(23,32,51,0.22)" stroke-width="1" stroke-dasharray="4 5" />
-              <rect x="${boxX.toFixed(2)}" y="${boxY.toFixed(2)}" width="116" height="38" rx="8" fill="#172033" opacity="0.92" />
-              <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 16).toFixed(2)}" fill="#fff" font-size="11" font-weight="900">${escapeHtml(seriesItem.label)}：${item.value}</text>
-              <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 30).toFixed(2)}" fill="#cbd5e1" font-size="10" font-weight="800">${compactDateLabel(item.point.date)}</text>
+              <line class="chart-guide" x1="${item.x.toFixed(2)}" y1="${top}" x2="${item.x.toFixed(2)}" y2="${height - bottom}" stroke="rgba(23,32,51,0.18)" stroke-width="1" />
+              <rect class="chart-tooltip-box" x="${boxX.toFixed(2)}" y="${boxY.toFixed(2)}" width="116" height="38" rx="11" fill="#172033" opacity="0.96" />
+              <text class="chart-tooltip-primary" x="${(boxX + 10).toFixed(2)}" y="${(boxY + 16).toFixed(2)}" fill="#fff" font-size="11" font-weight="900">${escapeHtml(seriesItem.label)}：${item.value}</text>
+              <text class="chart-tooltip-secondary" x="${(boxX + 10).toFixed(2)}" y="${(boxY + 30).toFixed(2)}" fill="#cbd5e1" font-size="10" font-weight="800">${compactDateLabel(item.point.date)}</text>
             </g>
           </g>
         `;
       })).join("");
       const emptyMessage = hasData ? "" : `<text x="${width / 2}" y="${height / 2}" text-anchor="middle" fill="#627085" font-size="20" font-weight="900">暫時未有溫習紀錄</text>`;
       return `
-        <rect x="0" y="0" width="${width}" height="${height}" fill="rgba(255,255,255,0.62)" />
+        <defs><linearGradient id="progress-total-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2563eb" stop-opacity=".16"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></linearGradient></defs>
+        <rect class="chart-surface" x="0" y="0" width="${width}" height="${height}" fill="rgba(255,255,255,0.62)" />
         ${gridLines}
-        <line x1="${left}" y1="${top}" x2="${left}" y2="${height - bottom}" stroke="rgba(23,32,51,0.14)" stroke-width="1.4" />
-        <line x1="${left}" y1="${height - bottom}" x2="${width - right}" y2="${height - bottom}" stroke="rgba(23,32,51,0.14)" stroke-width="1.4" />
-        <polyline points="${chartPolyline(points, "total", dimensions, yMax)}" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-        <polyline points="${chartPolyline(points, "green", dimensions, yMax)}" fill="none" stroke="#16a34a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-        <polyline points="${chartPolyline(points, "red", dimensions, yMax)}" fill="none" stroke="#dc2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-        ${showCumulativeProgress ? `<polyline points="${chartPolyline(points, "cumulative", dimensions, yMax)}" fill="none" stroke="#7e22ce" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />` : ""}
-        <circle cx="${lastX}" cy="${yFor(lastPoint.total).toFixed(2)}" r="5" fill="#2563eb" />
-        <circle cx="${lastX}" cy="${yFor(lastPoint.green).toFixed(2)}" r="5" fill="#16a34a" />
-        <circle cx="${lastX}" cy="${yFor(lastPoint.red).toFixed(2)}" r="5" fill="#dc2626" />
-        ${showCumulativeProgress ? `<circle cx="${lastX}" cy="${yFor(lastPoint.cumulative || 0).toFixed(2)}" r="5" fill="#7e22ce" />` : ""}
+        <line class="chart-axis" x1="${left}" y1="${top}" x2="${left}" y2="${height - bottom}" stroke="rgba(23,32,51,0.14)" stroke-width="1.2" />
+        <line class="chart-axis" x1="${left}" y1="${height - bottom}" x2="${width - right}" y2="${height - bottom}" stroke="rgba(23,32,51,0.14)" stroke-width="1.2" />
+        <path d="${chartSmoothPath(points, "total", dimensions, yMax)}" fill="none" stroke="#2563eb" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="${chartSmoothPath(points, "green", dimensions, yMax)}" fill="none" stroke="#16a34a" stroke-width="3.25" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="${chartSmoothPath(points, "red", dimensions, yMax)}" fill="none" stroke="#dc2626" stroke-width="3.25" stroke-linecap="round" stroke-linejoin="round" />
+        ${showCumulativeProgress ? `<path d="${chartSmoothPath(points, "cumulative", dimensions, yMax)}" fill="none" stroke="#7e22ce" stroke-width="3.25" stroke-linecap="round" stroke-linejoin="round" />` : ""}
         ${hoverPoints}
         ${axisLabels}
-        <text x="${left}" y="18" fill="#0e2d55" font-size="13" font-weight="900">卡片數量</text>
+        <text class="chart-title" x="${left}" y="18" fill="#0e2d55" font-size="13" font-weight="900">卡片數量</text>
         ${emptyMessage}
       `;
     }
@@ -193099,12 +193128,12 @@ window.EDMUND_FLASHCARD_SEED = {
       const yFor = value => top + chartHeight - (chartHeight * value / yMax);
       const yLabels = [0, Math.round(yMax / 2), yMax];
       const gridLines = yLabels.map(value => `
-        <line x1="${left}" y1="${yFor(value).toFixed(2)}" x2="${width - right}" y2="${yFor(value).toFixed(2)}" stroke="rgba(255,145,77,0.22)" stroke-width="1" />
-        <text x="${left - 12}" y="${(yFor(value) + 4).toFixed(2)}" text-anchor="end" fill="#627085" font-size="13" font-weight="900">${value}</text>
+        <line class="chart-grid" x1="${left}" y1="${yFor(value).toFixed(2)}" x2="${width - right}" y2="${yFor(value).toFixed(2)}" stroke="rgba(255,145,77,0.14)" stroke-width="1" />
+        <text class="chart-label" x="${left - 12}" y="${(yFor(value) + 4).toFixed(2)}" text-anchor="end" fill="#627085" font-size="13" font-weight="800">${value}</text>
       `).join("");
       const axisLabels = xLabels.map((point, index) => {
         const x = left + (chartWidth * index / Math.max(xLabels.length - 1, 1));
-        return `<text x="${x.toFixed(2)}" y="${height - 18}" text-anchor="middle" fill="#627085" font-size="13" font-weight="900">${compactDateLabel(point.date)}</text>`;
+        return `<text class="chart-label" x="${x.toFixed(2)}" y="${height - 18}" text-anchor="middle" fill="#627085" font-size="13" font-weight="800">${compactDateLabel(point.date)}</text>`;
       }).join("");
       const hoverPoints = chartPointCoords(points, "minutes", dimensions, yMax).map(item => {
         const boxX = Math.min(Math.max(item.x - 58, left), width - right - 132);
@@ -193112,26 +193141,26 @@ window.EDMUND_FLASHCARD_SEED = {
         return `
           <g class="chart-hover-group" tabindex="0">
             <circle class="chart-hover-target" cx="${item.x.toFixed(2)}" cy="${item.y.toFixed(2)}" r="15" />
-            <circle cx="${item.x.toFixed(2)}" cy="${item.y.toFixed(2)}" r="4" fill="#ff914d" />
+            <circle class="chart-focus-dot" cx="${item.x.toFixed(2)}" cy="${item.y.toFixed(2)}" r="5" fill="#ff914d" />
             <g class="chart-tooltip">
-              <line x1="${item.x.toFixed(2)}" y1="${top}" x2="${item.x.toFixed(2)}" y2="${height - bottom}" stroke="rgba(23,32,51,0.22)" stroke-width="1" stroke-dasharray="4 5" />
-              <rect x="${boxX.toFixed(2)}" y="${boxY.toFixed(2)}" width="132" height="38" rx="8" fill="#172033" opacity="0.92" />
-              <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 16).toFixed(2)}" fill="#fff" font-size="11" font-weight="900">時間：${formatDuration(item.point.totalMs)}</text>
-              <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 30).toFixed(2)}" fill="#cbd5e1" font-size="10" font-weight="800">${compactDateLabel(item.point.date)}</text>
+              <line class="chart-guide" x1="${item.x.toFixed(2)}" y1="${top}" x2="${item.x.toFixed(2)}" y2="${height - bottom}" stroke="rgba(23,32,51,0.18)" stroke-width="1" />
+              <rect class="chart-tooltip-box" x="${boxX.toFixed(2)}" y="${boxY.toFixed(2)}" width="132" height="38" rx="11" fill="#172033" opacity="0.96" />
+              <text class="chart-tooltip-primary" x="${(boxX + 10).toFixed(2)}" y="${(boxY + 16).toFixed(2)}" fill="#fff" font-size="11" font-weight="900">時間：${formatDuration(item.point.totalMs)}</text>
+              <text class="chart-tooltip-secondary" x="${(boxX + 10).toFixed(2)}" y="${(boxY + 30).toFixed(2)}" fill="#cbd5e1" font-size="10" font-weight="800">${compactDateLabel(item.point.date)}</text>
             </g>
           </g>
         `;
       }).join("");
       const emptyMessage = hasData ? "" : `<text x="${width / 2}" y="${height / 2}" text-anchor="middle" fill="#627085" font-size="20" font-weight="900">暫時未有學習時間紀錄</text>`;
       return `
-        <rect x="0" y="0" width="${width}" height="${height}" fill="rgba(255,255,255,0.62)" />
+        <rect class="chart-surface" x="0" y="0" width="${width}" height="${height}" fill="rgba(255,255,255,0.62)" />
         ${gridLines}
-        <line x1="${left}" y1="${top}" x2="${left}" y2="${height - bottom}" stroke="rgba(23,32,51,0.14)" stroke-width="1.4" />
-        <line x1="${left}" y1="${height - bottom}" x2="${width - right}" y2="${height - bottom}" stroke="rgba(23,32,51,0.14)" stroke-width="1.4" />
-        <polyline points="${chartPolyline(points, "minutes", dimensions, yMax)}" fill="none" stroke="#ff914d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        <line class="chart-axis" x1="${left}" y1="${top}" x2="${left}" y2="${height - bottom}" stroke="rgba(23,32,51,0.14)" stroke-width="1.2" />
+        <line class="chart-axis" x1="${left}" y1="${height - bottom}" x2="${width - right}" y2="${height - bottom}" stroke="rgba(23,32,51,0.14)" stroke-width="1.2" />
+        <path d="${chartSmoothPath(points, "minutes", dimensions, yMax)}" fill="none" stroke="#ff914d" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
         ${hoverPoints}
         ${axisLabels}
-        <text x="${left}" y="18" fill="#0e2d55" font-size="13" font-weight="900">分鐘</text>
+        <text class="chart-title" x="${left}" y="18" fill="#0e2d55" font-size="13" font-weight="900">分鐘</text>
         ${emptyMessage}
       `;
     }
@@ -198154,6 +198183,5 @@ window.EDMUND_FLASHCARD_SEED = {
     void initialiseFlashcardPortal();
   </script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
-  <script src="flashcard-theme-toggle.js?v=20260910-night1"></script>
 </body>
 </html>
