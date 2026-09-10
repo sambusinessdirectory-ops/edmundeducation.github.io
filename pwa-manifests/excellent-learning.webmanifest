@@ -1,8 +1,8 @@
 {
   "id": "/apps/excellent-learning",
-  "name": "卓越學習系統｜EdmundEducation",
-  "short_name": "卓越學習",
-  "description": "卓越學習系統（Excellent Learning System）EdmundEducation 學習系統。",
+  "name": "英文口音學習系統｜EdmundEducation",
+  "short_name": "英文口音",
+  "description": "英文口音學習系統（English Accent Learning System）EdmundEducation 學習系統。",
   "lang": "zh-Hant-HK",
   "dir": "ltr",
   "start_url": "/excellent-learning-system.html?source=pwa",

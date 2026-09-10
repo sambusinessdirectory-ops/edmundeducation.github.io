@@ -8,18 +8,13 @@
   const stack = root.querySelector("[data-system-card-deck-stack]");
   const stage = root.querySelector("[data-system-card-deck-stage]");
   const position = root.querySelector("[data-system-card-deck-position]");
-  const sources = [];
-  let node = start;
-  while (node) {
-    if (node.matches?.("a.category[href]")) sources.push(node);
-    node = node.nextElementSibling;
-  }
+  const sources = [...root.closest(".category-strip").querySelectorAll("a.category[href]")];
   if (!sources.length) return;
 
-  const cards = sources.map((source, index) => {
+  const allCards = sources.map((source, index) => {
     const card = source.cloneNode(true);
     card.removeAttribute("id");
-    card.dataset.cardNumber = String(index + 10).padStart(2, "0");
+    card.dataset.cardNumber = String(index + 1).padStart(2, "0");
     card.dataset.deckIndex = String(index);
     card.id = `system-card-deck-option-${index}`;
     card.setAttribute("role", "option");
@@ -28,6 +23,7 @@
     return card;
   });
 
+  let cards = allCards;
   let active = 0;
   let dragY = 0;
   let pointer = null;
@@ -69,8 +65,10 @@
     render(options);
   }
 
+  root.querySelector("[data-system-card-deck-first]").addEventListener("click", () => { active = 0; render({ focus: true }); });
   root.querySelector("[data-system-card-deck-previous]").addEventListener("click", () => move(-1, { focus: true }));
   root.querySelector("[data-system-card-deck-next]").addEventListener("click", () => move(1, { focus: true }));
+  root.querySelector("[data-system-card-deck-last]").addEventListener("click", () => { active = cards.length - 1; render({ focus: true }); });
 
   stage.addEventListener("keydown", event => {
     if (["ArrowUp", "PageUp"].includes(event.key)) { event.preventDefault(); move(-1, { focus: true }); }
@@ -84,28 +82,37 @@
     event.preventDefault();
     if (wheelLocked) return;
     wheelLocked = true;
-    move(event.deltaY > 0 ? 1 : -1);
-    window.setTimeout(() => { wheelLocked = false; }, 190);
+    const step = Math.max(1, Math.min(14, Math.round(Math.abs(event.deltaY) / 28)));
+    move((event.deltaY > 0 ? 1 : -1) * step);
+    window.setTimeout(() => { wheelLocked = false; }, 65);
   }, { passive: false });
 
   stage.addEventListener("pointerdown", event => {
     if (event.button !== 0) return;
-    pointer = { id: event.pointerId, y: event.clientY, moved: false };
-    stage.setPointerCapture(event.pointerId);
+    pointer = { id: event.pointerId, y: event.clientY, rawDelta: 0, moved: false, captured: false };
   });
   stage.addEventListener("pointermove", event => {
     if (!pointer || pointer.id !== event.pointerId) return;
-    dragY = Math.max(-90, Math.min(90, event.clientY - pointer.y));
+    pointer.rawDelta = event.clientY - pointer.y;
+    dragY = Math.max(-90, Math.min(90, pointer.rawDelta));
     pointer.moved ||= Math.abs(dragY) > 8;
+    if (pointer.moved && !pointer.captured) {
+      pointer.captured = true;
+      try { stage.setPointerCapture(event.pointerId); } catch {}
+    }
     render();
   });
   function finishPointer(event) {
     if (!pointer || pointer.id !== event.pointerId) return;
-    const delta = dragY;
+    const delta = pointer.rawDelta;
     suppressClick = pointer.moved;
+    const wasCaptured = pointer.captured;
     pointer = null;
-    try { stage.releasePointerCapture(event.pointerId); } catch {}
-    if (Math.abs(delta) >= 42) move(delta < 0 ? 1 : -1);
+    if (wasCaptured) { try { stage.releasePointerCapture(event.pointerId); } catch {} }
+    if (Math.abs(delta) >= 42) {
+      const step = Math.max(1, Math.min(14, Math.round(Math.abs(delta) / 46)));
+      move((delta < 0 ? 1 : -1) * step);
+    }
     else { dragY = 0; render(); }
     if (suppressClick) window.setTimeout(() => { suppressClick = false; }, 0);
   }
@@ -115,6 +122,25 @@
     const card = event.target.closest("a.category");
     if (!card) return;
     if (suppressClick || card.dataset.deckActive !== "true") event.preventDefault();
+  });
+
+  root.querySelector("[data-system-card-deck-search]")?.addEventListener("input", event => {
+    const query = event.currentTarget.value.trim().toLocaleLowerCase();
+    cards = allCards.filter(card => {
+      const searchable = `${card.dataset.cardNumber} ${card.getAttribute("aria-label") || ""} ${card.textContent || ""}`.toLocaleLowerCase();
+      const match = !query || searchable.includes(query);
+      card.hidden = !match;
+      return match;
+    });
+    if (!cards.length) {
+      allCards.forEach(card => { card.hidden = false; });
+      cards = allCards;
+      event.currentTarget.setCustomValidity("找不到相符系統");
+    } else {
+      event.currentTarget.setCustomValidity("");
+    }
+    active = 0;
+    render();
   });
 
   render();

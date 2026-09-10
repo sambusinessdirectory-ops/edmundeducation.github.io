@@ -69,7 +69,7 @@
     { id: "execution", href: "execution-system.html", zh: "執行動力系統", en: "Execution Psychology" },
     { id: "reading-comprehension", href: "reading-comprehension.html", zh: "閱讀理解學習系統", en: "Reading Comprehension" },
     { id: "eddie-farm", href: "eddie-farm.html", zh: "Eddie Farm 積分系統", en: "Farm Points" },
-    { id: "excellent-learning", href: "excellent-learning-system.html", zh: "卓越學習系統", en: "Excellent Learning System" }
+    { id: "excellent-learning", href: "excellent-learning-system.html", zh: "英文口音學習系統", en: "English Accent Learning System" }
   ]);
 
   const SESSION_KEYS = Object.freeze({

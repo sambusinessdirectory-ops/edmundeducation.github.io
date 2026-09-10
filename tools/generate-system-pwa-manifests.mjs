@@ -35,7 +35,7 @@ const shortNames = Object.freeze({
   "false-friends": "同形異義詞", "english-in-shows": "影視英文", "ted-talk-english": "Ted Talk 英文",
   "poem-english": "詩句賞識", "bookmark-directory": "學生書簽總目錄", execution: "執行動力",
   "reading-comprehension": "閱讀理解", "eddie-farm": "Eddie Farm 積分",
-  "excellent-learning": "卓越學習"
+  "excellent-learning": "英文口音"
 });
 assert.deepEqual(Object.keys(shortNames).sort(), systems.map(({ id }) => id).sort(), "every app needs an intentional short name");
 assert.equal(new Set(Object.values(shortNames)).size, systems.length, "installed app short names must be distinct");

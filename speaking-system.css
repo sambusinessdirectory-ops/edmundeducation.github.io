@@ -5150,7 +5150,11 @@ button:disabled {
   box-shadow: 0 24px 60px rgba(34, 56, 74, .13);
   font-family: Georgia, "Times New Roman", serif;
   user-select: text;
+  touch-action: pan-y;
+  transition: box-shadow .18s ease, transform .18s ease;
 }
+.dse-native-paper.is-swipe-confirmed { animation: dse-paper-swipe-confirm .28s ease; }
+@keyframes dse-paper-swipe-confirm { 50% { transform: translateX(7px); box-shadow: 0 28px 70px rgba(34, 56, 74, .2); } }
 .dse-paper-mode-switch {
   position: sticky;
   top: 88px;
@@ -5176,6 +5180,11 @@ button:disabled {
 }
 .dse-paper-mode-switch button.is-active { color: #fff; background: #153f3a; box-shadow: 0 8px 22px rgba(21,63,58,.2); }
 .dse-paper-mode-switch small { font: 700 11px/1.1 Inter, system-ui, sans-serif; opacity: .72; }
+.dse-paper-facsimile { margin: 24px 0 34px; }
+.dse-paper-facsimile img { display: block; width: 100%; height: auto; border: 1px solid #abb2b4; background: #fff; box-shadow: 0 14px 34px rgba(24,39,48,.14); }
+.dse-paper-facsimile figcaption { margin-top: 9px; color: #52626c; font: 750 12px/1.4 Inter, system-ui, sans-serif; text-align: center; }
+.dse-native-transcript-label { display: flex; align-items: baseline; justify-content: space-between; gap: 10px 24px; margin: 0 0 20px; padding: 12px 14px; border: 1px solid rgba(21,63,58,.16); border-radius: 10px; color: #153f3a; background: #edf7ef; font-family: Inter, system-ui, sans-serif; }
+.dse-native-transcript-label small { color: #5d6e72; font-weight: 700; }
 .dse-native-paper-header { padding: 4px 0 27px; text-align: center; border-bottom: 4px double #1c2831; }
 .dse-native-paper-header > span { display: block; text-align: left; font: 800 12px/1.4 Inter, system-ui, sans-serif; letter-spacing: .08em; }
 .dse-native-paper-header p { margin: 13px 0 9px; font-size: clamp(13px, 1.3vw, 16px); font-weight: 700; }
@@ -5216,4 +5225,5 @@ button:disabled {
   .dse-paper-mode-switch { top: 70px; margin: -18px -18px 24px; }
   .dse-native-paper-part-heading { flex-wrap: wrap; }
   .dse-native-paper-part-heading small { width: 100%; margin: 0; }
+  .dse-native-transcript-label { align-items: flex-start; flex-direction: column; }
 }

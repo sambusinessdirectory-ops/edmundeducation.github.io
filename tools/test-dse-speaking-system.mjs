@@ -1,9 +1,11 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync, statSync } from "node:fs";
 import vm from "node:vm";
 
 const repository = new URL("../", import.meta.url);
 const dataSource = readFileSync(new URL("dse-speaking-data.js", repository), "utf8");
+const supplementSource = readFileSync(new URL("dse-speaking-paper-supplement.js", repository), "utf8");
+const paperManifestSource = readFileSync(new URL("dse-speaking-paper-manifest.js", repository), "utf8");
 const translationSource = readFileSync(new URL("dse-speaking-translations.js", repository), "utf8");
 const modeSource = readFileSync(new URL("dse-speaking-mode.js", repository), "utf8");
 const appSource = readFileSync(new URL("speaking-system.js", repository), "utf8");
@@ -30,18 +32,38 @@ const context = {
 context.globalThis = context;
 vm.createContext(context);
 vm.runInContext(dataSource, context, { filename: "dse-speaking-data.js" });
+vm.runInContext(supplementSource, context, { filename: "dse-speaking-paper-supplement.js" });
+vm.runInContext(paperManifestSource, context, { filename: "dse-speaking-paper-manifest.js" });
 vm.runInContext(translationSource, context, { filename: "dse-speaking-translations.js" });
 vm.runInContext(modeSource, context, { filename: "dse-speaking-mode.js" });
 
 const data = context.window.EDMUND_DSE_SPEAKING_DATA;
 const mode = context.window.EDMUND_DSE_SPEAKING_MODE;
 const translations = context.window.EDMUND_DSE_SPEAKING_TRANSLATIONS;
+const supplement = context.window.EDMUND_DSE_SPEAKING_SUPPLEMENT;
+const paperManifest = context.window.EDMUND_DSE_SPEAKING_PAPERS;
 assert.deepEqual(Array.from(data.years), Array.from({ length: 14 }, (_, index) => 2012 + index));
 assert.equal(data.sets.length, 234);
 assert.deepEqual(Object.fromEntries(data.years.map(year => [year, data.catalog[year]?.length || 0])), {
   2012: 24, 2013: 30, 2014: 30, 2015: 27, 2016: 27, 2017: 24,
   2018: 24, 2019: 24, 2020: 0, 2021: 0, 2022: 0, 2023: 24, 2024: 0, 2025: 0
 });
+assert.equal(supplement.sets.length, 48, "the supplied printed 2024 and 2025 papers should add 24 sets each");
+assert.deepEqual([...new Set(supplement.sets.map(set => set.year))], [2024, 2025]);
+assert.equal(data.sets.length + supplement.sets.length, 282);
+for (const set of supplement.sets) {
+  assert.equal(set.groupDiscussion.length, 3, `${set.year} ${set.set} supplement should have three discussion points`);
+  assert.equal(set.individualResponse.length, 8, `${set.year} ${set.set} supplement should have eight individual questions`);
+  for (const page of Object.values(set.paperPages)) {
+    const file = new URL(page, repository);
+    assert.ok(existsSync(file), `${page} should exist`);
+    assert.ok(statSync(file).size > 8_000, `${page} should contain a rendered paper page`);
+  }
+}
+assert.equal(Object.keys(paperManifest).length, 234);
+for (const pages of Object.values(paperManifest)) {
+  for (const page of Object.values(pages)) assert.ok(existsSync(new URL(page, repository)), `${page} should exist`);
+}
 
 for (const set of data.sets) {
   assert.equal(set.groupDiscussion.length, 3, `${set.year} ${set.set} should have three Group Discussion points`);
@@ -86,6 +108,8 @@ assert.equal(individual.phase, "individual");
 assert.equal(individual.individualIndex, 0);
 
 assert.ok(htmlSource.indexOf("dse-speaking-data.js") < htmlSource.indexOf("dse-speaking-translations.js"));
+assert.ok(htmlSource.indexOf("dse-speaking-data.js") < htmlSource.indexOf("dse-speaking-paper-supplement.js"));
+assert.ok(htmlSource.indexOf("dse-speaking-paper-supplement.js") < htmlSource.indexOf("dse-speaking-paper-manifest.js"));
 assert.ok(htmlSource.indexOf("dse-speaking-translations.js") < htmlSource.indexOf("dse-speaking-mode.js"));
 assert.ok(htmlSource.indexOf("dse-speaking-mode.js") < htmlSource.indexOf("speaking-system.js"));
 for (const required of [
@@ -102,7 +126,8 @@ for (const required of [
 ]) assert.ok(appSource.includes(required), `missing DSE enhancement: ${required}`);
 for (const required of [
   "dseNativePaperMarkup", "data-paper-mode=\"student\"", "data-dse-paper-mode",
-  "data-dse-word-key", "setWordBookmark", "student-only", "examiner-only"
+  "data-dse-word-key", "setWordBookmark", "student-only", "examiner-only",
+  "dse-paper-facsimile", "setDsePaperMode", "pointerup", "dsePaperHostMarkup(session.set, true)"
 ]) assert.ok(appSource.includes(required), `missing native DSE paper reader: ${required}`);
 
 assert.match(appSource, /assets\/speaking-system\/\$\{cover\}/);

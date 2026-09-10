@@ -38,6 +38,7 @@
   color: #55708f;
   font: 700 clamp(14px, 1.1vw, 18px)/1.7 Inter, system-ui, sans-serif;
 }
+.system-card-deck__search{display:grid;gap:7px;width:min(390px,100%);margin-top:22px}.system-card-deck__search span{margin:0;font:800 .72rem/1.2 Inter,system-ui,sans-serif;letter-spacing:.1em;color:#355578}.system-card-deck__search input{width:100%;min-height:48px;padding:11px 15px;border:1px solid #abc5e5;border-radius:14px;color:#102f5c;background:#ffffffd9;box-shadow:0 10px 30px #16457612;font:700 .92rem/1.2 Inter,system-ui,sans-serif}.system-card-deck__search input:focus{outline:3px solid #65a8ef55;border-color:#397fc6}
 
 .system-card-deck__stage {
   position: relative;
@@ -132,6 +133,8 @@
   font: 900 22px/1 system-ui;
   cursor: pointer;
 }
+.system-card-deck__controls button[data-system-card-deck-first],
+.system-card-deck__controls button[data-system-card-deck-last]{width:44px;height:44px;font-size:.72rem;font-weight:950;background:#113d70;color:#fff;border-color:#2f6fae}
 .system-card-deck__controls button:hover,
 .system-card-deck__controls button:focus-visible { color: #fff; background: #1668b4; }
 .system-card-deck__controls button:disabled { opacity: .32; cursor: default; }
@@ -157,7 +160,7 @@
   .system-card-deck__stage { height: 455px; }
   .system-card-deck .category,
   .system-card-deck .category:nth-child(-n + 3) { width: min(340px, 86%); min-height: 185px; height: 185px; }
-  .system-card-deck__controls { grid-template-columns: auto auto auto; }
+  .system-card-deck__controls { grid-template-columns: repeat(5, auto); }
   .system-card-deck__controls strong { writing-mode: horizontal-tb; }
 }
 @media (prefers-reduced-motion: reduce) {

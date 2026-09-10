@@ -104,6 +104,7 @@ function setStatus(text = "", status = "") { el.loginStatus.textContent = text; 
 function showToast(message) { clearTimeout(state.toastHandle); el.toast.textContent = message; el.toast.hidden = false; state.toastHandle = setTimeout(() => { el.toast.hidden = true; }, 3600); }
 function showView(view) {
   deepReader?.close();
+  if (view !== 'exercise') closeInteractiveFlashcards({ clearFrame: true });
   state.view = view; el.views.forEach((node) => { node.hidden = node.dataset.view !== view; });
   const signedIn = Boolean(state.user && state.token); el.user.hidden = !signedIn; el.logout.hidden = !signedIn; el.home.hidden = !signedIn || view === "login" || view === "reading-home";
   if (signedIn) el.user.textContent = `${state.user.name} · 學生`;
@@ -920,19 +921,48 @@ function openInteractiveFlashcards(deck) {
   if (frame.dataset.deck !== deck) { frame.src = url.href; frame.dataset.deck = deck; }
   panel.hidden = false;
   panel.classList.remove('is-minimized');
+  panel.classList.remove('is-snapping');
   document.body.classList.add('interactive-flashcards-open');
   panel.querySelector('[data-interactive-flashcards-close]')?.focus();
+}
+
+function closeInteractiveFlashcards({ clearFrame = false } = {}) {
+  const panel = document.querySelector('[data-interactive-flashcards-panel]');
+  const frame = document.querySelector('[data-interactive-flashcards-frame]');
+  if (!panel) return;
+  panel.hidden = true;
+  panel.classList.remove('is-minimized', 'is-expanded', 'is-snapping');
+  document.body.classList.remove('interactive-flashcards-open');
+  if (clearFrame && frame) { frame.src = 'about:blank'; delete frame.dataset.deck; }
+}
+
+function snapInteractiveFlashcards(panel) {
+  if (!panel || panel.classList.contains('is-expanded') || matchMedia('(max-width: 720px)').matches) return;
+  const rect = panel.getBoundingClientRect();
+  const gap = 18;
+  const threshold = 120;
+  const nearLeft = rect.left <= threshold;
+  const nearRight = innerWidth - rect.right <= threshold;
+  const nearTop = rect.top <= threshold;
+  const nearBottom = innerHeight - rect.bottom <= threshold;
+  if (!(nearLeft || nearRight) || !(nearTop || nearBottom)) return;
+  panel.classList.add('is-snapping');
+  panel.style.left = nearLeft ? `${gap}px` : 'auto';
+  panel.style.right = nearRight ? `${gap}px` : 'auto';
+  panel.style.top = nearTop ? `${gap}px` : 'auto';
+  panel.style.bottom = nearBottom ? `${gap}px` : 'auto';
+  window.setTimeout(() => panel.classList.remove('is-snapping'), 230);
 }
 
 function setupInteractiveFlashcardsPanel() {
   const panel = document.querySelector('[data-interactive-flashcards-panel]');
   const frame = document.querySelector('[data-interactive-flashcards-frame]');
   const drag = document.querySelector('[data-interactive-flashcards-drag]');
-  if (!panel || !frame || !drag || panel.dataset.ready === 'true') return;
+  const resize = document.querySelector('[data-interactive-flashcards-resize]');
+  if (!panel || !frame || !drag || !resize || panel.dataset.ready === 'true') return;
   panel.dataset.ready = 'true';
   panel.querySelector('[data-interactive-flashcards-close]')?.addEventListener('click', () => {
-    panel.hidden = true;
-    document.body.classList.remove('interactive-flashcards-open');
+    closeInteractiveFlashcards();
   });
   panel.querySelector('[data-interactive-flashcards-minimize]')?.addEventListener('click', () => {
     panel.classList.toggle('is-minimized');
@@ -953,11 +983,25 @@ function setupInteractiveFlashcardsPanel() {
       const top = Math.min(innerHeight - 80, Math.max(0, start.top + moveEvent.clientY - start.y));
       panel.style.left = `${left}px`; panel.style.top = `${top}px`; panel.style.right = 'auto'; panel.style.bottom = 'auto';
     };
-    const stop = () => { drag.removeEventListener('pointermove', move); drag.removeEventListener('pointerup', stop); drag.removeEventListener('pointercancel', stop); };
+    const stop = () => { drag.removeEventListener('pointermove', move); drag.removeEventListener('pointerup', stop); drag.removeEventListener('pointercancel', stop); snapInteractiveFlashcards(panel); };
     drag.addEventListener('pointermove', move); drag.addEventListener('pointerup', stop); drag.addEventListener('pointercancel', stop);
   });
+  resize.addEventListener('pointerdown', event => {
+    if (panel.classList.contains('is-expanded') || panel.classList.contains('is-minimized')) return;
+    event.preventDefault();
+    const rect = panel.getBoundingClientRect();
+    const start = { x:event.clientX, y:event.clientY, width:rect.width, height:rect.height };
+    resize.setPointerCapture(event.pointerId);
+    const move = moveEvent => {
+      panel.style.width = `${Math.min(innerWidth - Math.max(18, rect.left) - 18, Math.max(320, start.width + moveEvent.clientX - start.x))}px`;
+      panel.style.height = `${Math.min(innerHeight - Math.max(18, rect.top) - 18, Math.max(300, start.height + moveEvent.clientY - start.y))}px`;
+      panel.style.right = 'auto'; panel.style.bottom = 'auto'; panel.style.left = `${rect.left}px`; panel.style.top = `${rect.top}px`;
+    };
+    const stop = () => { resize.removeEventListener('pointermove', move); resize.removeEventListener('pointerup', stop); resize.removeEventListener('pointercancel', stop); snapInteractiveFlashcards(panel); };
+    resize.addEventListener('pointermove', move); resize.addEventListener('pointerup', stop); resize.addEventListener('pointercancel', stop);
+  });
   document.addEventListener('keydown', event => {
-    if (event.key === 'Escape' && !panel.hidden) { panel.hidden = true; document.body.classList.remove('interactive-flashcards-open'); }
+    if (event.key === 'Escape' && !panel.hidden) closeInteractiveFlashcards();
   });
 }
 

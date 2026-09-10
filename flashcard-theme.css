@@ -20,3 +20,61 @@
 .flashcards-night .secondary-button,.flashcards-night button.secondary-button{color:#edf5ed!important;background:#202d24!important;border-color:#425448!important;box-shadow:none!important}.flashcards-night .secondary-button:hover,.flashcards-night button.secondary-button:hover{background:#2a3a2f!important}
 .flashcards-night mark{color:#132017;background:#c9f47d}.flashcards-night ::selection{color:#132017;background:#b8e66d}
 @media(max-width:560px){.flashcard-theme-toggle span{display:none}.flashcard-theme-toggle{width:44px;justify-content:center;padding:8px!important}}
+
+/* Reading companion mode: keep the cards, range selection and grading controls only. */
+html.flashcards-reading-embed .topbar,
+html.flashcards-reading-embed .breadcrumbs,
+html.flashcards-reading-embed .custom-cursor,
+html.flashcards-reading-embed .page-loader{display:none!important}
+html.flashcards-reading-embed body{min-height:100vh;background:#0c120e!important}
+html.flashcards-reading-embed .flash-shell{padding-top:0!important}
+html.flashcards-reading-embed .flash-shell main{padding:12px!important}
+html.flashcards-reading-embed [data-deck-start]>.section-head>div:first-child,
+html.flashcards-reading-embed [data-deck-view]>.section-head>div:first-child,
+html.flashcards-reading-embed [data-deck-view]>.section-head .session-timer-pill,
+html.flashcards-reading-embed .mouse-click-icon,
+html.flashcards-reading-embed .card-note-panel{display:none!important}
+html.flashcards-reading-embed [data-deck-view]>.section-head{justify-content:flex-start;margin-bottom:10px}
+html.flashcards-reading-embed .embedded-range-return{display:inline-flex!important;min-height:44px;border-color:#9ce968!important;color:#dfffc9!important;background:#173321!important;box-shadow:0 0 18px #8fff5938!important}
+html.flashcards-reading-embed .study-layout{grid-template-columns:minmax(0,1fr) 88px!important;gap:12px!important}
+html.flashcards-reading-embed .study-side{position:sticky!important;top:12px!important}
+html.flashcards-reading-embed .study-action-dock,
+html.flashcards-reading-embed .action-rail{width:100%!important}
+html.flashcards-reading-embed .action-row{grid-template-columns:1fr!important}
+html.flashcards-reading-embed .round-button{width:72px!important;height:92px!important;min-height:92px!important;border-radius:18px!important}
+html.flashcards-reading-embed .flash-frame{min-height:clamp(360px,68vh,720px)!important}
+html.flashcards-reading-embed .flash-frame.back{scroll-margin-top:12px}
+@media(max-width:620px){html.flashcards-reading-embed .flash-shell main{padding:6px!important}html.flashcards-reading-embed .study-layout{grid-template-columns:1fr!important}html.flashcards-reading-embed .study-side{position:static!important}html.flashcards-reading-embed .action-rail{display:grid!important;grid-template-columns:1fr 1fr!important;gap:8px}html.flashcards-reading-embed .round-button{width:100%!important;height:68px!important;min-height:68px!important}}
+
+/* Lime/neon controls matching the Professional Flashcard night system. */
+.flashcards-night .pill-button:not(.danger),
+.flashcards-night .secondary-button:not(.danger),
+.flashcards-night .mode-card,
+.flashcards-night .range-card,
+.flashcards-night .compact-toggle,
+.flashcards-night .practice-chip{
+  border-color:#78a956!important;
+  color:#ddffc4!important;
+  background:linear-gradient(145deg,#223929,#17261d)!important;
+  box-shadow:inset 0 1px #ffffff12,0 0 0 1px #bfff7612,0 0 18px #8fff5920!important;
+}
+.flashcards-night .pill-button:not(.danger):hover,
+.flashcards-night .secondary-button:not(.danger):hover,
+.flashcards-night .mode-card:hover,
+.flashcards-night .range-card:hover,
+.flashcards-night .compact-toggle:hover,
+.flashcards-night .practice-chip:hover{
+  border-color:#c9f47d!important;
+  color:#101a12!important;
+  background:linear-gradient(135deg,#d9ff98,#9fea64)!important;
+  box-shadow:0 0 8px #c9f47dbb,0 0 26px #8fff596b!important;
+}
+.flashcards-night .primary-button,
+.flashcards-night button.primary-button,
+.flashcards-night .mode-card.selected,
+.flashcards-night .range-card.selected{
+  color:#101a12!important;
+  background:linear-gradient(135deg,#ddff9c,#a6ef68)!important;
+  border-color:#e7ffb7!important;
+  box-shadow:0 7px 0 #568d35,0 0 12px #c9f47dcc,0 0 34px #8fff5960!important;
+}

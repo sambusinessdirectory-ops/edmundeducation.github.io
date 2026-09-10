@@ -18,6 +18,11 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <script src="flashcard-theme-toggle.js?v=20260910-instant2"></script>
+  <script>
+    if (new URLSearchParams(location.search).get("embedded") === "1" && new URLSearchParams(location.search).get("source") === "reading") {
+      document.documentElement.classList.add("flashcards-reading-embed");
+    }
+  </script>
 
   <style>
     @font-face {
@@ -3960,7 +3965,7 @@
   </style>
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2">
-<link rel="stylesheet" href="flashcard-theme.css?v=20260910-night2">
+<link rel="stylesheet" href="flashcard-theme.css?v=20260910-night3">
 </head>
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
@@ -4541,6 +4546,7 @@
               <p data-deck-path></p>
             </div>
             <div class="session-timer-pill">時間：<span data-session-timer>00:00</span></div>
+            <button class="secondary-button embedded-range-return hidden" type="button" data-embedded-back-range>← 返回卡片範圍</button>
           </div>
 
           <div class="study-top">
@@ -198180,6 +198186,10 @@ window.EDMUND_FLASHCARD_SEED = {
       }
     }
 
+    document.querySelector("[data-embedded-back-range]")?.addEventListener("click", () => openDeckStart(currentDeckId, false));
+    if (document.documentElement.classList.contains("flashcards-reading-embed")) {
+      document.querySelector("[data-embedded-back-range]")?.classList.remove("hidden");
+    }
     void initialiseFlashcardPortal();
   </script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>

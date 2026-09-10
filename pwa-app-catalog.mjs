@@ -471,10 +471,10 @@ export const EDMUND_PWA_APPS = Object.freeze([
   {
     "id": "excellent-learning",
     "href": "excellent-learning-system.html",
-    "zh": "卓越學習系統",
-    "en": "Excellent Learning System",
-    "name": "卓越學習系統｜EdmundEducation",
-    "shortName": "卓越學習",
+    "zh": "英文口音學習系統",
+    "en": "English Accent Learning System",
+    "name": "英文口音學習系統｜EdmundEducation",
+    "shortName": "英文口音",
     "manifest": "/pwa-manifests/excellent-learning.webmanifest"
   }
 ].map(Object.freeze));

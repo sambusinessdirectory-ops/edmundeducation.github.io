@@ -4,7 +4,23 @@
   const CONFIG = window.EDMUND_SPEAKING_CONFIG || {};
   const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
   const EXAM_MODE = window.EDMUND_SPEAKING_EXAM || {};
-  const DSE_DATA = window.EDMUND_DSE_SPEAKING_DATA || { years: [], catalog: {}, sets: [] };
+  const DSE_BASE_DATA = window.EDMUND_DSE_SPEAKING_DATA || { years: [], catalog: {}, sets: [] };
+  const DSE_SUPPLEMENT = window.EDMUND_DSE_SPEAKING_SUPPLEMENT || { sets: [] };
+  const DSE_PAPERS = window.EDMUND_DSE_SPEAKING_PAPERS || {};
+  const DSE_DATA = (() => {
+    const keyed = new Map();
+    [...(DSE_BASE_DATA.sets || []), ...(DSE_SUPPLEMENT.sets || [])].forEach(set => {
+      const key = `${Number(set?.year || 0)}:${String(set?.set || "")}`;
+      keyed.set(key, { ...set, paperPages: set.paperPages || DSE_PAPERS[key] || null });
+    });
+    const sets = [...keyed.values()].filter(set => Number(set.year) && String(set.set || ""));
+    const catalog = sets.reduce((result, set) => {
+      (result[set.year] ||= []).push(set);
+      return result;
+    }, {});
+    const years = Object.keys(catalog).map(Number).sort((left, right) => left - right);
+    return Object.freeze({ years, catalog, sets });
+  })();
   const DSE_TRANSLATIONS = window.EDMUND_DSE_SPEAKING_TRANSLATIONS || {};
   const DSE_MODE = window.EDMUND_DSE_SPEAKING_MODE || {};
   const SESSION_KEY = "edmundSpeakingSessionV1";
@@ -43,6 +59,7 @@
   ]);
   const WORD_PATTERN = /[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*|[^\p{L}\p{N}]+/gu;
   const IS_WORD_PATTERN = /^[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*$/u;
+  let dsePaperSwipe = null;
 
   const EXAMS = [
     { id: "dse", title: "DSE 說話考試", description: "香港中學文憑考試說話訓練" },
@@ -2128,7 +2145,7 @@
   }
 
   function hasNativeDsePaper(set) {
-    return [2012, 2013, 2014].includes(Number(set?.year));
+    return Boolean(set?.paperPages?.student);
   }
 
   function dsePaperSetKey(set) {
@@ -2150,11 +2167,22 @@
   }
 
   function dseNativePaperMarkup(set) {
+    const studentPage = set.paperPages?.student || "";
+    const examinerPage = set.paperPages?.examiner || studentPage;
     return `<article class="dse-native-paper" data-dse-paper data-paper-mode="student">
       <nav class="dse-paper-mode-switch" aria-label="題紙模式">
         <button class="is-active" type="button" data-dse-paper-mode="student" aria-pressed="true"><strong>學生題紙</strong><small>Student paper</small></button>
         <button type="button" data-dse-paper-mode="examiner" aria-pressed="false"><strong>考官題紙</strong><small>Examiner paper</small></button>
       </nav>
+      <figure class="dse-paper-facsimile dse-student-only">
+        <img src="${escapeHtml(studentPage)}" alt="${escapeHtml(`${set.year} DSE ${set.set} student paper`)}" loading="lazy" decoding="async">
+        <figcaption>原題學生版 · Original student paper</figcaption>
+      </figure>
+      <figure class="dse-paper-facsimile dse-examiner-only">
+        <img src="${escapeHtml(examinerPage)}" alt="${escapeHtml(`${set.year} DSE ${set.set} examiner paper`)}" loading="lazy" decoding="async">
+        <figcaption>原題考官版 · Original examiner paper</figcaption>
+      </figure>
+      <div class="dse-native-transcript-label"><strong>可選取文字版本</strong><small>Selectable transcript · 按字收藏</small></div>
       <header class="dse-native-paper-header">
         <span>${escapeHtml(set.year)}-DSE · ENG LANG · PAPER 4 · ${escapeHtml(set.set)}</span>
         <p>香港考試及評核局 · HONG KONG EXAMINATIONS AND ASSESSMENT AUTHORITY</p>
@@ -2178,8 +2206,18 @@
     </article>`;
   }
 
-  function dsePaperHostMarkup(set) {
-    return `<div class="dse-native-paper-host" data-dse-paper-host="${escapeHtml(dsePaperSetKey(set))}"><button class="secondary-button dse-open-native-paper" type="button" data-open-native-dse-paper>開啟數碼題紙 · Open digital paper</button></div>`;
+  function dsePaperHostMarkup(set, expanded = false) {
+    return `<div class="dse-native-paper-host" data-dse-paper-host="${escapeHtml(dsePaperSetKey(set))}"${expanded ? ' data-rendered="true"' : ""}>${expanded ? dseNativePaperMarkup(set) : '<button class="secondary-button dse-open-native-paper" type="button" data-open-native-dse-paper>開啟數碼題紙 · Open digital paper</button>'}</div>`;
+  }
+
+  function setDsePaperMode(paper, mode) {
+    if (!paper || !["student", "examiner"].includes(mode)) return;
+    paper.dataset.paperMode = mode;
+    paper.querySelectorAll("[data-dse-paper-mode]").forEach(button => {
+      const active = button.dataset.dsePaperMode === mode;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
   }
 
   async function ensureDseWordBookmarks() {
@@ -2252,7 +2290,7 @@
     if (!term) { target.innerHTML = ''; return; }
     const sets = Object.values(DSE_DATA.catalog || {}).flat();
     const matches = sets.filter(set => [set.title, set.sourceText, ...(set.groupDiscussion || []), ...(set.individualResponse || []), JSON.stringify(dseTranslationFor(set))].join(' ').normalize('NFKC').toLocaleLowerCase().includes(term));
-    target.innerHTML = `<p>${matches.length} 套題目</p>` + matches.map(set => `<details class="dse-set-card"><summary><span>${set.year} · ${escapeHtml(set.set)}</span><strong>${escapeHtml(set.title)}</strong></summary>${hasNativeDsePaper(set) ? dsePaperHostMarkup(set) : `${dseSourceCard(set, true)}<h3>Group Discussion 小組討論</h3>${dseQuestionList(set.groupDiscussion, true, dseTranslationFor(set).groupDiscussion)}<h3>Individual Response 個人發言</h3>${dseQuestionList(set.individualResponse, true, dseTranslationFor(set).individualResponse)}`}</details>`).join('');
+    target.innerHTML = `<p>${matches.length} 套題目</p>` + matches.map(set => `<details class="dse-set-card"><summary><span>${set.year} · ${escapeHtml(set.set)}</span><strong>${escapeHtml(set.title)}</strong></summary>${hasNativeDsePaper(set) ? dsePaperHostMarkup(set, true) : `${dseSourceCard(set, true)}<h3>Group Discussion 小組討論</h3>${dseQuestionList(set.groupDiscussion, true, dseTranslationFor(set).groupDiscussion)}<h3>Individual Response 個人發言</h3>${dseQuestionList(set.individualResponse, true, dseTranslationFor(set).individualResponse)}`}</details>`).join('');
   }
   document.addEventListener('input', event => {
     if (event.target.matches('[data-dse-full-search]')) searchDseSpeaking(event.target.value, event.target.closest('.dse-search-panel'));
@@ -2285,7 +2323,10 @@
                   const questions = part === "individual" ? set.individualResponse : set.groupDiscussion;
                   const translatedSet = dseTranslationFor(set);
                   const translations = part === "individual" ? translatedSet.individualResponse : translatedSet.groupDiscussion;
-                  return `<details class="dse-set-card"><summary><span>${escapeHtml(set.set)}</span><strong>${escapeHtml(set.title)}</strong><small>${questions.length} 題</small></summary>${hasNativeDsePaper(set) ? dsePaperHostMarkup(set) : `${dseSourceCard(set)}${dseQuestionList(questions, true, translations)}`}</details>`;
+                  const paperContent = part === "individual"
+                    ? `${dseQuestionList(questions, true, translations)}${dsePaperHostMarkup(set)}`
+                    : dsePaperHostMarkup(set, true);
+                  return `<details class="dse-set-card"><summary><span>${escapeHtml(set.set)}</span><strong>${escapeHtml(set.title)}</strong><small>${questions.length} 題</small></summary>${hasNativeDsePaper(set) ? paperContent : `${dseSourceCard(set)}${dseQuestionList(questions, true, translations)}`}</details>`;
                 }).join("")}</div>` : '<p class="dse-empty-year">這個年份的題目尚未加入。</p>'}
               </details>`;
           }).join("")}
@@ -2481,13 +2522,13 @@
     const mode = DSE_MODE.modeForId?.(session.modeId);
     if (session.phase === "preparation") {
       const remaining = Math.max(0, Math.ceil((Number(session.prepEndsAt) - Date.now()) / 1000));
-      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}<section class="exam-prep-timer dse-prep-timer"><span>準備時間 · PREPARATION</span><strong data-dse-prep-clock role="timer">${Math.floor(remaining / 60)}:${pad(remaining % 60)}</strong><button class="exam-prep-skip-button" type="button" data-dse-skip-prep>略過準備時間</button></section>${dseSourceCard(session.set, true)}${dseGroupCard(session, true)}</article>`;
+      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}<section class="exam-prep-timer dse-prep-timer"><span>準備時間 · PREPARATION</span><strong data-dse-prep-clock role="timer">${Math.floor(remaining / 60)}:${pad(remaining % 60)}</strong><button class="exam-prep-skip-button" type="button" data-dse-skip-prep>略過準備時間</button></section>${dsePaperHostMarkup(session.set, true)}${dseGroupCard(session, true)}</article>`;
       startDsePrepTimer();
       return;
     }
     if (session.phase === "group") {
       prepareDseRecorder();
-      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}${dseSourceCard(session.set, true)}${dseGroupCard(session)}${renderRecorderCard()}<button class="primary-button dse-stage-action" type="button" data-dse-complete-group>${mode?.parts.includes("individual") ? "完成小組討論，進入個人發言 →" : "完成小組討論 →"}</button></article>`;
+      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}${dsePaperHostMarkup(session.set, true)}${dseGroupCard(session)}${renderRecorderCard()}<button class="primary-button dse-stage-action" type="button" data-dse-complete-group>${mode?.parts.includes("individual") ? "完成小組討論，進入個人發言 →" : "完成小組討論 →"}</button></article>`;
       finishDseRecorderRender();
       autoPlayDseVoice(session);
       return;
@@ -2496,7 +2537,7 @@
       prepareDseRecorder();
       const index = Math.min(Math.max(0, Number(session.individualIndex || 0)), Math.max(0, session.set.individualResponse.length - 1));
       const finalQuestion = index >= session.set.individualResponse.length - 1;
-      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}${dseSourceCard(session.set, true)}${dseIndividualCard(session)}${renderRecorderCard()}<button class="primary-button dse-stage-action" type="button" data-dse-next-individual>${finalQuestion ? "完成個人發言（不需錄音） →" : "跳過／下一題（不需錄音） →"}</button></article>`;
+      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}${dsePaperHostMarkup(session.set, true)}${dseIndividualCard(session)}${renderRecorderCard()}<button class="primary-button dse-stage-action" type="button" data-dse-next-individual>${finalQuestion ? "完成個人發言（不需錄音） →" : "跳過／下一題（不需錄音） →"}</button></article>`;
       finishDseRecorderRender();
       autoPlayDseVoice(session);
       return;
@@ -7664,13 +7705,7 @@
       const dsePaperMode = event.target.closest("[data-dse-paper-mode]");
       if (dsePaperMode) {
         const paper = dsePaperMode.closest("[data-dse-paper]");
-        if (!paper) return;
-        paper.dataset.paperMode = dsePaperMode.dataset.dsePaperMode;
-        paper.querySelectorAll("[data-dse-paper-mode]").forEach(button => {
-          const active = button === dsePaperMode;
-          button.classList.toggle("is-active", active);
-          button.setAttribute("aria-pressed", String(active));
-        });
+        setDsePaperMode(paper, dsePaperMode.dataset.dsePaperMode);
         return;
       }
 
@@ -8064,6 +8099,26 @@
       setAdminAccessDraft(student, next);
       syncAdminDraftControls();
     });
+
+    document.addEventListener("pointerdown", event => {
+      const paper = event.target.closest?.("[data-dse-paper]");
+      if (!paper || event.target.closest("button, [data-dse-word-key], a, input, textarea, select")) return;
+      dsePaperSwipe = { paper, pointerId: event.pointerId, x: event.clientX, y: event.clientY };
+    });
+
+    document.addEventListener("pointerup", event => {
+      if (!dsePaperSwipe || dsePaperSwipe.pointerId !== event.pointerId) return;
+      const { paper, x, y } = dsePaperSwipe;
+      dsePaperSwipe = null;
+      const dx = event.clientX - x;
+      const dy = event.clientY - y;
+      if (Math.abs(dx) < 70 || Math.abs(dx) <= Math.abs(dy) * 1.2) return;
+      setDsePaperMode(paper, paper.dataset.paperMode === "student" ? "examiner" : "student");
+      paper.classList.remove("is-swipe-confirmed");
+      window.requestAnimationFrame(() => paper.classList.add("is-swipe-confirmed"));
+    });
+
+    document.addEventListener("pointercancel", () => { dsePaperSwipe = null; });
 
     document.addEventListener("keydown", event => {
       const dsePaperWord = event.target.closest?.("[data-dse-word-key]");
