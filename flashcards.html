@@ -4606,7 +4606,7 @@
                     <button class="bookmark-card-button" type="button" data-toggle-card-bookmark aria-label="加入書簽" title="加入書簽"></button>
                   </div>
                   <div class="front-card-content">
-                    <div class="front-term" data-front-term data-fit-card-term>No cards yet.</div>
+                    <div class="front-term" data-front-term data-pronunciation-text="" data-fit-card-term>No cards yet.</div>
                     <div class="front-examples" data-front-examples></div>
                   </div>
                 </article>
@@ -196124,6 +196124,7 @@ window.EDMUND_FLASHCARD_SEED = {
         const completed = Boolean(studySession?.completed);
         frontCard?.classList.remove("reversal-mode");
         backCard?.classList.remove("reversal-mode");
+        frontTerm.dataset.pronunciationText = "";
         frontTerm.textContent = completed ? "本卡組已完成。" : (studySession?.cards.length ? "本輪完成。" : "暫時未有卡片。");
         if (frontExamples) frontExamples.innerHTML = completed ? completionSummaryHtml() : "";
         backCard.classList.add("hidden");
@@ -196155,6 +196156,7 @@ window.EDMUND_FLASHCARD_SEED = {
       const cardIndex = studySession.roundQueue[studySession.currentPosition];
       frontCard?.classList.toggle("reversal-mode", reversalMode);
       backCard?.classList.toggle("reversal-mode", reversalMode);
+      frontTerm.dataset.pronunciationText = reversalMode && !studySession.flipped ? "" : String(card.front || "");
       frontTerm.textContent = reversalMode ? (card.meaning || "（未有中文）") : card.front;
       if (noteTextarea && noteTextarea !== document.activeElement) {
         noteTextarea.disabled = false;
@@ -198201,7 +198203,7 @@ window.EDMUND_FLASHCARD_SEED = {
     void initialiseFlashcardPortal();
   </script>
   <script src="pronunciation-checker.js?v=20260910-practice5"></script>
-  <script src="flashcard-pronunciation.js?v=20260910-practice5"></script>
+  <script src="flashcard-pronunciation.js?v=20260910-flipside6"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
 </body>
 </html>

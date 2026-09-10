@@ -4,7 +4,7 @@ import test from 'node:test';
 import vm from 'node:vm';
 const source = readFileSync(new URL('../pronunciation-checker.js', import.meta.url), 'utf8');
 const uiSource = readFileSync(new URL('../flashcard-pronunciation.js', import.meta.url), 'utf8');
-function harness({ unsupported = false, startError, ui = false } = {}) {
+function harness({ unsupported = false, startError, ui = false, back = false } = {}) {
   let now = 0, serial = 0, observer;
   const timers = new Map(), instances = [], states = [], listeners = {};
   const advance = async milliseconds => {
@@ -38,14 +38,17 @@ function harness({ unsupported = false, startError, ui = false } = {}) {
     setAttribute(k,v) { this.attributes[k]=v; }
     addEventListener(k,v) { this.events[k]=v; }
     append(...c) { this.children.push(...c); }
+    prepend(c) { this.children.unshift(c); }
+    querySelector() { for (const child of this.children) { if ('checkPronunciation' in child.dataset) return child; const found=child.querySelector(); if (found) return found; } return null; }
     showModal() { this.open=true; }
     close() { this.open=false; }
     replaceChildren(...c) { this.children=c; }
     insertAdjacentElement(_,c) { if ('checkPronunciation' in c.dataset) elements.mic=c; else elements.settings=c; }
   }
-  const elements={ term:new Element(), speaker:new Element() }; elements.term.textContent='participants';
+  const elements={ term:new Element(), speaker:new Element(), back:back ? new Element() : null }; elements.term.textContent='participants';
   const document={ body:new Element(), head:new Element(), hidden:false, createElement:()=>new Element(),
-    querySelector:s => s==='[data-front-term]' ? elements.term : s==='[data-speak-card]' ? elements.speaker : s==='[data-check-pronunciation]' ? elements.mic : s==='[data-pronunciation-toast]' ? document.body.children.find(e=>'pronunciationToast' in e.dataset) : null,
+    querySelector:s => s==='[data-front-term]' ? elements.term : s==='[data-speak-card]' ? elements.speaker : s==='[data-check-pronunciation]' || s==='[data-check-pronunciation="front"]' ? elements.mic : s==='[data-back-card]' ? elements.back : s==='[data-pronunciation-toast]' ? document.body.children.find(e=>'pronunciationToast' in e.dataset) : null,
+    querySelectorAll:()=>[elements.mic,elements.back?.querySelector()].filter(Boolean),
     addEventListener:(k,v)=>{listeners[k]=v;}
   };
   const window={ webkitSpeechRecognition:unsupported ? undefined : Recognition, dispatchEvent:e=>listeners[e.type]?.(), addEventListener:(k,v)=>{listeners[k]=v;} };
@@ -138,7 +141,7 @@ test('leaving the page cancels capture',async()=>{
 });
 test('HTML loads the new version and stops detached model playback',()=>{
   const html=readFileSync(new URL('../flashcards.html',import.meta.url),'utf8');
-  assert.match(html,/pronunciation-checker\.js\?v=20260910-practice5/);assert.match(html,/flashcard-pronunciation\.js\?v=20260910-practice5/);
+  assert.match(html,/pronunciation-checker\.js\?v=20260910-practice5/);assert.match(html,/flashcard-pronunciation\.js\?v=20260910-flipside6/);
   assert.match(html,/addEventListener\("edmund-pronunciation-start", \(\) => stopNeuralSpeech\(\)\)/);
   assert.match(uiSource,/\.recognizeAndCompare\(/);assert.doesNotMatch(uiSource,/\.recordAndCompare\(/);
 });
@@ -240,4 +243,42 @@ test('download offer includes Why and Chinese settings provide deletion without 
   assert.ok(h.toast().children.some(e=>/45 MB/.test(e.textContent)));
   const why=h.toast().children.find(e=>/Why\?/.test(e.textContent));assert.ok(why);
   why.events.click({stopPropagation(){}});assert.equal(dialog.open,true);
+});
+
+test('front and reverse microphones share one session, with no card-click propagation',async()=>{
+  const h=harness({ui:true,back:true}),backMic=h.elements.back.querySelector();
+  assert.ok(backMic);let stopped=false;
+  backMic.events.click({stopPropagation(){stopped=true;}});assert.equal(stopped,true);
+  const r=h.instances[0];r.emit('start');
+  assert.equal(backMic.attributes['aria-pressed'],'true');assert.equal(h.elements.mic.attributes['aria-pressed'],'true');
+  h.click();assert.equal(h.instances.length,1);assert.equal(r.stops,1);
+  r.result('participants');r.emit('end');await h.advance(0);
+  assert.match(h.toast().children[0].textContent,/Passed/);
+  assert.equal(backMic.attributes['aria-pressed'],'false');assert.equal(h.elements.mic.attributes['aria-pressed'],'false');
+  assert.equal(h.elements.back.children.length,1);h.observe();assert.equal(h.elements.back.children.length,1);
+});
+test('reverse practice uses the English answer in a Chinese-first deck',async()=>{
+  const h=harness({ui:true,back:true});h.elements.term.textContent='參加者';h.elements.term.dataset.pronunciationText='participants';
+  h.elements.back.querySelector().events.click({stopPropagation(){}});
+  const r=h.instances[0];r.emit('start');r.result('participants');r.emit('end');await h.advance(0);
+  assert.match(h.toast().children[0].textContent,/Passed/);
+});
+test('rebuilding the reverse card cancels obsolete speech and restores its microphone',async()=>{
+  const h=harness({ui:true,back:true}),oldMic=h.elements.back.querySelector();oldMic.events.click({stopPropagation(){}});
+  const old=h.instances[0];old.emit('start');oldMic.isConnected=false;
+  h.elements.back.replaceChildren();h.elements.term.dataset.pronunciationText='swimmers';h.observe();await h.advance(0);
+  const next=h.elements.back.querySelector();assert.notEqual(next,oldMic);assert.ok(old.aborts);
+  assert.equal(h.toast().classList.contains('is-visible'),false);
+  next.events.click({stopPropagation(){}});const r=h.instances[1];r.emit('start');r.result('swimmers');r.emit('end');await h.advance(0);
+  assert.match(h.toast().children[0].textContent,/Passed/);
+});
+test('microphone and settings context menus cannot mark a card as wrong',()=>{
+  const h=harness({ui:true,back:true}),controls=h.elements.back.children[0].children;
+  for(const control of [h.elements.mic,h.elements.settings,...controls]){
+    let stopped=false;control.events.contextmenu({stopPropagation(){stopped=true;}});assert.equal(stopped,true);
+  }
+});
+test('practice stays disabled when no English answer is available',()=>{
+  const h=harness({ui:true,back:true});h.elements.term.dataset.pronunciationText='';h.observe();
+  assert.equal(h.elements.mic.disabled,true);assert.equal(h.elements.back.querySelector().disabled,true);
 });

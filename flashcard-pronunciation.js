@@ -3,6 +3,7 @@
   let busy = false;
   let activeButton = null;
   let activeText = "";
+  let microphoneState = "idle";
   let localClass = null;
   let preparingLocal = false;
   let prepareTicket = 0;
@@ -74,7 +75,7 @@
     if (localClass) {
       if (window.SpeechRecognition || window.webkitSpeechRecognition) addToastAction("Try browser recognition · 改用瀏覽器辨認", () => {
         localClass = null;
-        const button = document.querySelector('[data-check-pronunciation]');
+        const button = currentPracticeButton();
         if (button) void check(button);
       });
       return;
@@ -103,7 +104,7 @@
       if (currentText() !== text) return;
       showMessage("On-device recognition ready · 裝置辨認已就緒", "Speak naturally, with words linked together. No Siri is needed. · 請自然連讀，毋須 Siri。");
       addToastAction("Start practice · 開始朗讀", () => {
-        const button = document.querySelector('[data-check-pronunciation]');
+        const button = currentPracticeButton();
         if (button) void check(button);
       });
     } catch {
@@ -171,7 +172,31 @@
   }
 
   function currentText() {
-    return document.querySelector("[data-front-term]")?.textContent?.trim() || "";
+    const term = document.querySelector("[data-front-term]");
+    // Use the English answer on either side, including Chinese-first decks.
+    return (term?.dataset.pronunciationText ?? term?.textContent ?? "").trim();
+  }
+
+  function currentPracticeButton() {
+    const back = document.querySelector("[data-back-card]");
+    return (back && !back.classList.contains("hidden") && back.querySelector("[data-check-pronunciation]"))
+      || document.querySelector("[data-check-pronunciation]");
+  }
+
+  function syncMicrophone(button) {
+    button.classList.toggle("is-recording", microphoneState === "listening");
+    button.setAttribute("aria-pressed", String(microphoneState === "listening"));
+    button.setAttribute("aria-label", {
+      starting: "正在啟動咪高峰；再次按下可停止",
+      listening: "正在聆聽；再次按下可停止",
+      processing: "正在辨認語音，請稍候"
+    }[microphoneState] || "錄下我的讀音並檢查");
+    button.disabled = !currentText();
+  }
+
+  function setMicrophoneState(state) {
+    microphoneState = state;
+    document.querySelectorAll("[data-check-pronunciation]").forEach(syncMicrophone);
   }
 
   async function check(button) {
@@ -201,16 +226,12 @@
         recognitionClass: localClass || undefined,
         maxSeconds: Math.min(20, Math.max(8, text.split(/\s+/).length * 1.2 + 3)),
         onState: state => {
-          button.classList.toggle("is-recording", state === "listening");
-          button.setAttribute("aria-pressed", String(state === "listening"));
+          setMicrophoneState(state);
           if (state === "starting") {
-            button.setAttribute("aria-label", "正在啟動咪高峰；再次按下可停止");
             showMessage("Starting microphone… · 正在啟動咪高峰…", "Allow access if asked. Wait for ‘Speak now’. · 如有提示請允許使用，然後等候「請開始朗讀」。");
           } else if (state === "listening") {
-            button.setAttribute("aria-label", "正在聆聽；再次按下可停止");
             showMessage("Speak now · 請開始朗讀", `Read naturally: ${text} · 請自然連讀，毋須逐字分開。讀完會自動檢查，再按咪高峰可停止。`);
           } else if (state === "processing") {
-            button.setAttribute("aria-label", "正在辨認語音，請稍候");
             showMessage("Checking… · 正在辨認…", "Waiting for the final words. · 正在等候完整辨認結果。");
           }
         }
@@ -223,9 +244,7 @@
       activeButton = null;
       activeText = "";
       if (speaker) speaker.disabled = speakerWasDisabled;
-      button.classList.remove("is-recording");
-      button.setAttribute("aria-pressed", "false");
-      button.setAttribute("aria-label", "錄下我的讀音並檢查");
+      setMicrophoneState("idle");
     }
   }
 
@@ -242,31 +261,54 @@
     }
   }
 
-  function enhance() {
-    cancelIfCardChanged();
-    const speak = document.querySelector("[data-speak-card]");
-    if (!speak || document.querySelector("[data-check-pronunciation]")) return;
+  function createControls(side) {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "pronunciation-mic-button";
-    button.dataset.checkPronunciation = "";
+    button.dataset.checkPronunciation = side;
     button.setAttribute("aria-label", "錄下我的讀音並檢查");
     button.title = "Pronunciation check · 讀音檢查";
     button.setAttribute("aria-pressed", "false");
     button.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15a4 4 0 0 0 4-4V6a4 4 0 1 0-8 0v5a4 4 0 0 0 4 4Z"/><path d="M5 10v1a7 7 0 0 0 14 0v-1M12 18v3M8 21h8"/></svg>';
-    speak.insertAdjacentElement("afterend", button);
     button.addEventListener("click", event => { event.stopPropagation(); void check(button); });
     const settings = document.createElement("button");
     settings.type = "button";
     settings.className = "pronunciation-settings-button";
     settings.textContent = "語音設定";
     settings.setAttribute("aria-label", "語音設定：下載說明及刪除辨認資料");
-    button.insertAdjacentElement("afterend", settings);
     settings.addEventListener("click", event => { event.stopPropagation(); openSettings(); });
+    // Card context-menu gestures mark an answer; controls must not trigger them.
+    for (const control of [button, settings]) control.addEventListener("contextmenu", event => event.stopPropagation());
+    syncMicrophone(button);
+    return { button, settings };
+  }
+
+  function enhance() {
+    cancelIfCardChanged();
+    const speak = document.querySelector("[data-speak-card]");
+    if (speak && !document.querySelector('[data-check-pronunciation="front"]')) {
+      const { button, settings } = createControls("front");
+      speak.insertAdjacentElement("afterend", button);
+      button.insertAdjacentElement("afterend", settings);
+    }
+    // The answer is rebuilt by renderStudyCard on every reveal/navigation.
+    const back = document.querySelector("[data-back-card]");
+    if (back && !back.querySelector("[data-check-pronunciation]")) {
+      const toolbar = document.createElement("div");
+      toolbar.className = "pronunciation-back-controls";
+      toolbar.setAttribute("role", "group");
+      toolbar.setAttribute("aria-label", "背面讀音練習");
+      const { button, settings } = createControls("back");
+      toolbar.append(button, settings);
+      back.prepend(toolbar);
+    }
+    setMicrophoneState(microphoneState);
   }
 
   const style = document.createElement("style");
   style.textContent = `
+    .pronunciation-back-controls{display:flex;align-items:center;justify-content:flex-end;gap:12px;width:100%;margin-bottom:14px}.pronunciation-back-controls .pronunciation-settings-button{min-height:44px}
+
     .pronunciation-settings-button{position:relative;max-width:70px;padding:7px 5px;border:1px solid #c8d8ef;border-radius:9px;background:#fff;color:#173961;font:inherit;font-size:12px;cursor:pointer}
     .pronunciation-settings{position:fixed;inset:0;box-sizing:border-box;width:min(540px,calc(100vw - 28px));max-height:85vh;overflow:auto;margin:auto;padding:24px;border:1px solid #c8d8ef;border-radius:18px;background:#fff;color:#173961;box-shadow:0 22px 65px #0006;font:16px/1.65 system-ui,sans-serif;z-index:100002}
     .pronunciation-settings::backdrop{background:#10243e88}.pronunciation-settings h2{font-size:1.25rem;margin:0 0 12px}.pronunciation-settings p{margin:10px 0}.pronunciation-settings button{display:block;width:100%;margin-top:12px;padding:11px;border:1px solid #c8d8ef;border-radius:10px;background:#f5f8fd;color:#173961;font:inherit;cursor:pointer}.pronunciation-settings .pronunciation-settings-delete{color:#a3202a;border-color:#e6b6ba}.pronunciation-settings button:disabled{opacity:.5;cursor:wait}.pronunciation-settings-button:focus-visible,.pronunciation-settings button:focus-visible{outline:3px solid #337ddd;outline-offset:3px}
