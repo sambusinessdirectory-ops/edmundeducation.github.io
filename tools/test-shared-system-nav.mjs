@@ -8,7 +8,7 @@ const root = path.resolve(import.meta.dirname, "..");
 const scriptSource = fs.readFileSync(path.join(root, "shared-system-nav.js"), "utf8");
 const cssSource = fs.readFileSync(path.join(root, "shared-system-nav.css"), "utf8");
 const sharedNavCssRelease = "20260910-home2";
-const sharedNavJsRelease = "20260910-library5";
+const sharedNavJsRelease = "20260910-activity1";
 
 test("the night-return message explicitly stays white over its dark background", () => {
   assert.match(cssSource, /\.edmund-night-return #edmund-night-return-title\s*\{\s*color:\s*#fff;\s*\}/);
@@ -244,7 +244,7 @@ test("every system portal loads one consistent shared navigation CSS and JS rele
     const html = fs.readFileSync(path.join(root, system.href), "utf8");
     assert.match(html, new RegExp(`shared-system-nav\\.css\\?v=${sharedNavCssRelease}`), `${system.href} must load shared navigation CSS ${sharedNavCssRelease}`);
     assert.match(html, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavJsRelease}`), `${system.href} must load shared navigation JS ${sharedNavJsRelease}`);
-    assert.doesNotMatch(html, /shared-system-nav\.css\?v=(?!20260910-home2)|shared-system-nav\.js\?v=(?!20260910-library5)/, `${system.href} must not retain a stale shared navigation release`);
+    assert.doesNotMatch(html, /shared-system-nav\.css\?v=(?!20260910-home2)|shared-system-nav\.js\?v=(?!20260910-activity1)/, `${system.href} must not retain a stale shared navigation release`);
   }
   const homepage = fs.readFileSync(path.join(root, "index.html"), "utf8");
   assert.match(homepage, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavJsRelease}`));
