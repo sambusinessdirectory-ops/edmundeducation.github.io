@@ -53,6 +53,96 @@
     return { score, lexical, passed: lexical >= .78 && score >= .80 };
   }
 
+  const weakWords = new Set(['a', 'an', 'the', 'of', 'to', 'and']);
+  const spokenForms = {
+    "can't": 'can not', cannot: 'can not', "won't": 'will not', "shan't": 'shall not',
+    "don't": 'do not', "doesn't": 'does not', "didn't": 'did not', "isn't": 'is not',
+    "aren't": 'are not', "wasn't": 'was not', "weren't": 'were not', "haven't": 'have not',
+    "hasn't": 'has not', "hadn't": 'had not', "couldn't": 'could not', "wouldn't": 'would not',
+    "shouldn't": 'should not', "mustn't": 'must not',
+    "i'm": 'i am', "you're": 'you are', "we're": 'we are', "they're": 'they are',
+    "it's": 'it is', "he's": 'he is', "she's": 'she is', "that's": 'that is',
+    "i've": 'i have', "you've": 'you have', "we've": 'we have', "they've": 'they have',
+    "i'll": 'i will', "you'll": 'you will', "he'll": 'he will', "she'll": 'she will', "we'll": 'we will', "they'll": 'they will',
+    "could've": 'could have', "would've": 'would have', "should've": 'should have',
+    gonna: 'going to', wanna: 'want to', gotta: 'got to', hafta: 'have to',
+    gimme: 'give me', lemme: 'let me', kinda: 'kind of', sorta: 'sort of',
+    lotta: 'lot of', outta: 'out of', coulda: 'could have', woulda: 'would have', shoulda: 'should have'
+  };
+  const soundSpellings = new Map();
+  // These are transcript spellings of the same spoken word, not synonyms.
+  for (const group of [['break', 'brake'], ['see', 'sea'], ['meet', 'meat'], ['right', 'write', 'rite'],
+    ['hear', 'here'], ['their', 'there'], ['wear', 'where'], ['week', 'weak'], ['peace', 'piece'],
+    ['colour', 'color'], ['favour', 'favor'], ['centre', 'center'], ['organise', 'organize'], ['recognise', 'recognize']]) {
+    for (const word of group) soundSpellings.set(word, group[0]);
+  }
+  const smallNumbers = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
+    'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
+  const tens = { twenty: 20, thirty: 30, forty: 40, fifty: 50, sixty: 60, seventy: 70, eighty: 80, ninety: 90 };
+  function naturalWords(text) {
+    const words = normalizeWords(text).flatMap(word => (Object.prototype.hasOwnProperty.call(spokenForms, word) ? spokenForms[word] : word).split(' '));
+    const output = [];
+    for (let i = 0; i < words.length; i++) {
+      const word = words[i];
+      if (typeof tens[word] === "number") {
+        const unit = smallNumbers.indexOf(words[i + 1]);
+        output.push(String(tens[word] + (unit > 0 && unit < 10 ? unit : 0)));
+        if (unit > 0 && unit < 10) i++;
+      } else output.push(smallNumbers.includes(word) ? String(smallNumbers.indexOf(word)) : soundSpellings.get(word) || word);
+    }
+    return output;
+  }
+
+  function analyseNaturalTextMatch(expected, actual) {
+    const a = naturalWords(expected), b = naturalWords(actual);
+    if (!a.length || !b.length) return { score: 0, passed: false, close: false, variation: false };
+    if (a.join('') === b.join('')) return { score: 1, passed: true, close: false, variation: normalizeWords(expected).join(' ') !== normalizeWords(actual).join(' ') };
+    const weight = word => weakWords.has(word) ? .15 : 1;
+    const append = (state, cost, missing = 0, extra = 0) => ({ cost: state.cost + cost, missing: state.missing + missing, extra: state.extra + extra });
+    const grid = Array.from({ length: a.length + 1 }, () => []);
+    grid[0][0] = { cost: 0, missing: 0, extra: 0 };
+    for (let i = 1; i <= a.length; i++) grid[i][0] = append(grid[i - 1][0], weight(a[i - 1]), +!weakWords.has(a[i - 1]));
+    for (let j = 1; j <= b.length; j++) grid[0][j] = append(grid[0][j - 1], weight(b[j - 1]), 0, +!weakWords.has(b[j - 1]));
+    for (let i = 1; i <= a.length; i++) for (let j = 1; j <= b.length; j++) {
+      const left = a[i - 1], right = b[j - 1];
+      const same = left === right;
+      const softSpelling = (left === 'of' && right === 'off') || (left === 'to' && right === 'too');
+      const choices = [
+        append(grid[i - 1][j - 1], same ? 0 : softSpelling ? .08 : Math.max(weight(left), weight(right)),
+          +( !same && !softSpelling && !weakWords.has(left)), +( !same && !softSpelling && !weakWords.has(right))),
+        append(grid[i - 1][j], weight(left), +!weakWords.has(left)),
+        append(grid[i][j - 1], weight(right), 0, +!weakWords.has(right))
+      ];
+      // Word boundaries may differ in connected speech ("breakof" / "break of").
+      if (i > 1 && a[i - 2] + left === right) choices.push(append(grid[i - 2][j - 1], 0));
+      if (j > 1 && b[j - 2] + right === left) choices.push(append(grid[i - 1][j - 2], 0));
+      choices.sort((x, y) => x.cost - y.cost || (x.missing + x.extra) - (y.missing + y.extra));
+      grid[i][j] = choices[0];
+    }
+    const alignment = grid[a.length][b.length];
+    const total = Math.max(a.reduce((sum, word) => sum + weight(word), 0), b.reduce((sum, word) => sum + weight(word), 0));
+    const score = Math.max(0, 1 - alignment.cost / total);
+    const anchors = a.filter(word => !weakWords.has(word));
+    const passed = anchors.length > 0 && !alignment.missing && !alignment.extra && score >= .78;
+    return { score, passed, close: !passed && score >= .65, variation: passed, missingKeyWords: alignment.missing };
+  }
+
+  function finalTranscriptCandidates(results) {
+    let candidates = [''];
+    for (const result of results) {
+      if (!result.isFinal) continue;
+      const alternatives = Array.from(result).slice(0, 5).map(item => item.transcript?.trim()).filter(Boolean);
+      if (!alternatives.length) continue;
+      candidates = candidates.flatMap(prefix => alternatives.map(text => `${prefix} ${text}`.trim())).slice(0, 25);
+    }
+    return [...new Set(candidates.filter(text => normalizeWords(text).length))];
+  }
+
+  function bestNaturalMatch(expected, candidates) {
+    return candidates.map(transcript => ({ ...analyseNaturalTextMatch(expected, transcript), transcript }))
+      .sort((a, b) => Number(b.passed) - Number(a.passed) || b.score - a.score)[0];
+  }
+
   function monoSamples(buffer, start = 0, end = buffer.duration) {
     const from = Math.max(0, Math.floor(start * buffer.sampleRate));
     const to = Math.min(buffer.length, Math.ceil(end * buffer.sampleRate));
@@ -171,10 +261,10 @@
   // Flashcards need a transcript, not a second microphone capture. In Safari,
   // getUserMedia/MediaRecorder can compete with SpeechRecognition's audio session.
   // Start recognition directly in the tap handler and let it own the microphone.
-  function recognizeAndCompare({ expectedText = "", maxSeconds = 10, onState, onTranscript } = {}) {
+  function recognizeAndCompare({ expectedText = "", maxSeconds = 10, onState, onTranscript, recognitionClass } = {}) {
     activeCancel?.();
     activeStop?.();
-    const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const Recognition = recognitionClass || window.SpeechRecognition || window.webkitSpeechRecognition;
     const unscored = reason => ({ passed: false, scored: false, score: 0, transcript: "", reason });
     if (!Recognition) return Promise.resolve(unscored("recognition-unavailable"));
     if (!normalizeWords(expectedText).length) return Promise.resolve(unscored("no-reference"));
@@ -186,11 +276,14 @@
       let started = false;
       let heardSpeech = false;
       let transcript = "";
+      let candidates = [];
+      let lastPreview = "";
+      let phraseTimer;
       let startedAt = 0;
       let retries = 0;
       let timer;
       let retryTimer;
-      const clearTimers = () => { clearTimeout(timer); clearTimeout(retryTimer); };
+      const clearTimers = () => { clearTimeout(timer); clearTimeout(retryTimer); clearTimeout(phraseTimer); };
       const detach = () => {
         if (!recognition) return;
         recognition.onstart = recognition.onaudiostart = recognition.onspeechstart = null;
@@ -210,8 +303,9 @@
         resolve(result);
       };
       const compare = () => {
-        const match = analyseTextMatch(expectedText, transcript);
-        finish({ ...match, scored: true, transcript, reason: match.passed ? "matched" : "mismatch" });
+        const match = bestNaturalMatch(expectedText, candidates);
+        if (!match) { finish(unscored("unrecognized")); return; }
+        finish({ ...match, scored: !match.close, reason: match.passed ? "matched" : match.close ? "uncertain" : "mismatch" });
       };
       const stop = () => {
         if (settled || stopping) return;
@@ -234,9 +328,9 @@
         try {
           recognition = new Recognition();
           recognition.lang = "en-US";
-          recognition.continuous = false;
+          recognition.continuous = true;
           recognition.interimResults = true;
-          recognition.maxAlternatives = 1;
+          recognition.maxAlternatives = 5;
           const ready = () => {
             if (settled || stopping || started) return;
             started = true;
@@ -248,8 +342,13 @@
           };
           recognition.onstart = ready;
           recognition.onaudiostart = ready;
-          recognition.onspeechstart = () => { heardSpeech = true; };
-          recognition.onspeechend = () => onState?.("processing");
+          const waitForPhrase = () => {
+            if (settled || stopping) return;
+            clearTimeout(phraseTimer);
+            phraseTimer = setTimeout(stop, 1600);
+          };
+          recognition.onspeechstart = () => { heardSpeech = true; clearTimeout(phraseTimer); };
+          recognition.onspeechend = waitForPhrase;
           recognition.onresult = event => {
             if (settled) return;
             const results = Array.from(event.results);
@@ -258,9 +357,17 @@
             onTranscript?.(preview);
             // Interim hypotheses can be empty or wrong while the user is speaking.
             // Never grade them. Rebuild finals because result indices can change.
-            transcript = results.filter(item => item.isFinal).map(item => item[0]?.transcript || "").join(" ").trim();
-            if (normalizeWords(transcript).length) stop();
-            else transcript = "";
+            candidates = finalTranscriptCandidates(results);
+            const changed = preview !== lastPreview || (candidates[0] || "") !== transcript;
+            transcript = candidates[0] || "";
+            lastPreview = preview;
+            // Final may mean just one segment, not the end of the student's phrase.
+            // Keep listening through linking and natural pauses before requesting stop.
+            if (changed) {
+              clearTimeout(phraseTimer);
+              const hasInterim = results.some(item => !item.isFinal && normalizeWords(item[0]?.transcript).length);
+              if (transcript && !hasInterim) waitForPhrase();
+            }
           };
           recognition.onerror = event => {
             if (settled) return;
@@ -414,5 +521,5 @@
     }
   }
 
-  window.EdmundPronunciation = Object.freeze({ recordAndCompare, recognizeAndCompare, analyseTextMatch, stop() { activeStop?.(); }, cancel() { activeCancel?.(); } });
+  window.EdmundPronunciation = Object.freeze({ recordAndCompare, recognizeAndCompare, analyseTextMatch, analyseNaturalTextMatch, stop() { activeStop?.(); }, cancel() { activeCancel?.(); } });
 })();

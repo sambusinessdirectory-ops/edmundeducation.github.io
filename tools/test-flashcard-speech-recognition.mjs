@@ -58,7 +58,7 @@ function harness({ unsupported = false, startError, ui = false } = {}) {
     observe:()=>observer?.(), click:()=>elements.mic.events.click({stopPropagation(){}}), toast:()=>document.body.children[0] };
 }
 for(const [spoken,passed] of [['participants',true],['PARTICIPANTS!',true],['banana',false]]) test(`grades final ${spoken} as ${passed}`,async()=>{
-  const h=harness(), p=h.begin(), r=h.instances[0]; assert.ok(r.started); assert.equal(r.continuous,false);
+  const h=harness(), p=h.begin(), r=h.instances[0]; assert.ok(r.started); assert.equal(r.continuous,true);
   r.emit('start'); r.result(spoken); r.emit('end'); const result=await p;
   assert.equal(result.passed,passed); assert.equal(result.scored,true); assert.equal(result.transcript,spoken); assert.equal(h.timers.size,0);
 });
@@ -104,7 +104,7 @@ test('no startup events or missing final events time out',async()=>{
   const second=h.begin();h.instances[1].emit('start');await h.advance(15000);assert.equal((await second).reason,'recognition-timeout');assert.equal(h.timers.size,0);
 });
 test('keeps final result when Safari omits end',async()=>{
-  const h=harness(),p=h.begin(),r=h.instances[0];r.emit('start');r.result('participants');await h.advance(5000);assert.equal((await p).passed,true);
+  const h=harness(),p=h.begin(),r=h.instances[0];r.emit('start');r.result('participants');await h.advance(6600);assert.equal((await p).passed,true);
 });
 test('cancellation and repeated attempts ignore stale events',async()=>{
   const h=harness(),first=h.begin(),stale=h.instances[0].onresult,second=h.begin();assert.equal((await first).reason,'cancelled');
@@ -115,7 +115,7 @@ test('UI shows startup, listening and processing without depending on model audi
   const h=harness({ui:true});let paused=false;h.listeners['edmund-pronunciation-start']=()=>{paused=true;};h.click();
   assert.equal(paused,true);assert.equal(h.elements.speaker.disabled,true);assert.match(h.toast().children[0].textContent,/Starting microphone/);
   const r=h.instances[0];r.emit('start');assert.match(h.toast().children[0].textContent,/Speak now/);h.click();assert.match(h.toast().children[0].textContent,/Checking/);
-  await h.advance(2000);r.result('participants');r.emit('end');await h.advance(0);assert.match(h.toast().children[0].textContent,/Words matched/);
+  await h.advance(2000);r.result('participants');r.emit('end');await h.advance(0);assert.match(h.toast().children[0].textContent,/Phrase recognised/);
   assert.match(h.toast().children[1].textContent,/participants/);assert.equal(h.elements.speaker.disabled,false);assert.equal(h.elements.mic.attributes['aria-pressed'],'false');
 });
 test('UI uses neutral technical errors and retry for actual wrong words',async()=>{
@@ -136,7 +136,67 @@ test('leaving the page cancels capture',async()=>{
 });
 test('HTML loads the new version and stops detached model playback',()=>{
   const html=readFileSync(new URL('../flashcards.html',import.meta.url),'utf8');
-  assert.match(html,/pronunciation-checker\.js\?v=20260910-speech3/);assert.match(html,/flashcard-pronunciation\.js\?v=20260910-speech3/);
+  assert.match(html,/pronunciation-checker\.js\?v=20260910-natural4/);assert.match(html,/flashcard-pronunciation\.js\?v=20260910-natural4/);
   assert.match(html,/addEventListener\("edmund-pronunciation-start", \(\) => stopNeuralSpeech\(\)\)/);
   assert.match(uiSource,/\.recognizeAndCompare\(/);assert.doesNotMatch(uiSource,/\.recordAndCompare\(/);
+});
+
+for (const [expected, actual] of [
+  ['after a break of', 'After a break off'],
+  ['after a break of', 'After a break'],
+  ['after a break of', 'after a brake of'],
+  ['after a break of', 'after a breakof'],
+  ['after a break of', 'after break'],
+  ['I am going to meet you', "I'm gonna meet you"],
+  ['I want to see you', 'I wanna see you'],
+  ['would you like to', 'would you like too'],
+  ['could you give me a minute', 'could you gimme a minute'],
+  ['I cannot come', "I can't come"],
+  ['a kind of music', 'a kinda music'],
+  ['the centre of the city', 'the center of the city'],
+  ['after a break of thirty years', 'after a break of 30 years'],
+  ['twenty one students', '21 students']
+]) test(`natural speech accepts ${JSON.stringify(actual)} for ${JSON.stringify(expected)}`, () => {
+  const result = harness().window.EdmundPronunciation.analyseNaturalTextMatch(expected, actual);
+  assert.equal(result.passed, true, JSON.stringify(result));
+});
+for (const [expected, actual] of [
+  ['after a break of', 'after a banana'], ['after a break of', 'before a break'],
+  ['I can come', "I can't come"], ['I do not like it', 'I do like it'],
+  ['after thirty years', 'after thirteen years'], ['after thirty years', 'after 13 years'],
+  ['the appointment has been confirmed yet', 'the appointment'],
+  ['participants', 'banana'], ['ship', 'sheep'], ['cat', 'cap'], ['of', ''], ['of', 'the'],
+  ['students help teachers', 'teachers help students'], ['after a break of', 'banana after a break']
+]) test(`natural speech still rejects ${JSON.stringify(actual)} for ${JSON.stringify(expected)}`, () => {
+  assert.equal(harness().window.EdmundPronunciation.analyseNaturalTextMatch(expected, actual).passed, false);
+});
+test('uses real recognizer alternatives without guessing the target as a transcript', async () => {
+  const h=harness(),p=h.begin({expectedText:'after a break of'}),r=h.instances[0];
+  r.emit('start'); assert.equal(r.maxAlternatives,5);
+  r.emit('result',{results:[Object.assign([{transcript:'after a brick'},{transcript:'after a break off'}],{isFinal:true})]});
+  r.emit('end'); const result=await p; assert.equal(result.passed,true); assert.equal(result.transcript,'after a break off');
+});
+test('keeps listening beyond the first final segment and joins the full phrase',async()=>{
+  const h=harness(),p=h.begin({expectedText:'after a break of thirty years'}),r=h.instances[0];
+  r.emit('start'); r.result('after a break'); await h.advance(1000); assert.equal(r.stops,0);
+  r.emit('result',{results:[Object.assign([{transcript:'after a break'}],{isFinal:true}),Object.assign([{transcript:'of thirty years'}],{isFinal:true})]});
+  r.emit('end'); const result=await p; assert.equal(result.passed,true); assert.equal(result.transcript,'after a break of thirty years');
+});
+test('continued interim speech cancels the previous segment endpoint timer',async()=>{
+  const h=harness(),p=h.begin({expectedText:'after a break of thirty years'}),r=h.instances[0];
+  r.emit('start');r.result('after a break');await h.advance(1000);
+  r.emit('result',{results:[Object.assign([{transcript:'after a break'}],{isFinal:true}),Object.assign([{transcript:'of thirty'}],{isFinal:false})]});
+  await h.advance(2000);assert.equal(r.stops,0);
+  r.result('after a break of thirty years');r.emit('end');assert.equal((await p).passed,true);
+});
+test('the injected on-device engine works without a browser recognition API',async()=>{
+  const h=harness({unsupported:true});let local;
+  class Local {constructor(){local=this;}start(){this.onstart?.();}stop(){}abort(){}}
+  const p=h.begin({recognitionClass:Local});assert.equal(h.instances.length,0);
+  local.onresult({results:[Object.assign([{transcript:'participants'}],{isFinal:true})]});local.onend();assert.equal((await p).passed,true);
+});
+test('ordinary words cannot resolve inherited properties in normalization tables',()=>{
+  const match=harness().window.EdmundPronunciation.analyseNaturalTextMatch;
+  assert.equal(match('constructor','constructor').passed,true);
+  assert.equal(match('after a break of','constructor').passed,false);
 });
