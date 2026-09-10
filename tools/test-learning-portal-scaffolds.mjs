@@ -71,8 +71,9 @@ assert.equal(homepageCards.length, 25, "homepage should append exactly 25 learni
 assert.deepEqual(homepageCards.map((match) => match[1]), expected.map(([, , href]) => href));
 assert.deepEqual(homepageCards.map((match) => match[2].trim()), expected.map(([, , , lines]) => lines.join("<br>")));
 const allCardStarts = [...home.matchAll(/<a class="category(?:\s|\")/g)].map((match) => match.index);
-assert.equal(allCardStarts.length, 63, "homepage must contain 63 linked category cards including Background Music");
+assert.equal(allCardStarts.length, 64, "homepage must contain 64 linked category cards including Excellent Learning");
 assert.match(home.slice(allCardStarts[60]), /href="background-music\.html"/);
+assert.match(home.slice(allCardStarts[63]), /href="excellent-learning-system\.html"/);
 homepageCards.forEach((match, index) => assert.equal(allCardStarts.indexOf(match.index) + 1, index < 20 ? index + 30 : index + 31));
 assert.match(home, /href="song-appreciation\.html"[^>]*>[\s\S]*?Song Appreciation<br>英文歌<br>聆聽練習/);
 assert.match(home, /href="bookmark-directory\.html"[^>]*>[\s\S]*?學生使用<br>書簽總目錄/);

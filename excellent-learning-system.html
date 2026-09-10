@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co wss://ookkxzgpdclzrrhfmvqx.supabase.co; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="description" content="EdmundEducation Excellent Learning System 卓越學習系統">
+  <meta name="theme-color" content="#10362f">
+  <title>Excellent Learning System · 卓越學習系統</title>
+  <link rel="manifest" href="/pwa-manifests/excellent-learning.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2">
+  <link rel="stylesheet" href="excellent-learning-system.css?v=20260910-empty1">
+  <script defer src="/pwa-register.js"></script>
+</head>
+<body>
+  <header class="edmund-system-header">
+    <div class="edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="excellent-learning">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Excellent Learning System</small></span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="excellent-header-actions" data-account-actions hidden><span data-account-name></span><button type="button" data-logout>登出 · Log out</button></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="excellent-login" data-view="login">
+      <div class="excellent-intro"><p>64 · NEW LEARNING SPACE</p><h1>卓越學習系統<small>Excellent Learning System</small></h1><span>使用您的 EdmundEducation 學生帳戶進入。</span></div>
+      <form data-login-form novalidate>
+        <h2>學生登入<small>Student sign in</small></h2>
+        <label>用戶名稱 · Username<input name="username" autocomplete="username" required></label>
+        <label>密碼 · Password<input name="password" type="password" autocomplete="current-password" required></label>
+        <button type="submit">登入 · Sign in →</button>
+        <p data-login-status role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="excellent-empty" data-view="content" hidden>
+      <p>64 · EXCELLENT LEARNING SYSTEM</p>
+      <div class="excellent-orbit" aria-hidden="true"><i></i><i></i><i></i><strong>E</strong></div>
+      <h1>卓越學習系統<small>Excellent Learning System</small></h1>
+      <h2>內容即將加入<small>Learning content will be added here.</small></h2>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.50.3/dist/umd/supabase.min.js" integrity="sha384-hIOJ3C3LfQJBpaQVNahkcvi607jdU2k3LB0MLyIuyXNDsS5aI2xfaQiX+oSmHvTD" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script src="shared-system-nav.js?v=20260910-library5"></script>
+  <script src="excellent-learning-system.js?v=20260910-empty1"></script>
+</body>
+</html>

@@ -90,6 +90,7 @@ test("shared student login safely bridges every Flashcard-token portal", () => {
   assert.equal(read(sessionStorage, "edmund-learning-portal-poem-english-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-schedule-session-v1").studentToken, "11111111-1111-4111-8111-111111111111");
   assert.equal(read(sessionStorage, "edmundModelEssayDownloadSession").sessionToken, "11111111-1111-4111-8111-111111111111");
+  assert.equal(read(sessionStorage, "edmund-excellent-learning-session-v1").token, "11111111-1111-4111-8111-111111111111");
   assert.equal(sessionStorage.getItem("edmundFlashcardSession"), null);
   assert.equal(read(sessionStorage, "edmund-universal-student-session-v1").access, undefined);
 });
@@ -164,7 +165,8 @@ test("student logout removes the universal and app-specific browser sessions", (
     "edmund-common-expression-professional-message-session-v1",
     "edmund-common-expression-business-speaking-session-v1",
     "edmund-schedule-session-v1",
-    "edmundModelEssayDownloadSession"
+    "edmundModelEssayDownloadSession",
+    "edmund-excellent-learning-session-v1"
   ].forEach(key => assert.equal(sessionStorage.getItem(key), null));
   assert.equal(localStorage.getItem("edmundWritingSession"), null);
 });
@@ -224,7 +226,8 @@ test("all established student portals load the shared accessible switcher", () =
     "common-expression-rhetorical-writing.html": "common-expression-rhetorical-writing",
     "common-expression-professional-message.html": "common-expression-professional-message",
     "common-expression-business-speaking.html": "common-expression-business-speaking",
-    "song-appreciation.html": "song-appreciation"
+    "song-appreciation.html": "song-appreciation",
+    "excellent-learning-system.html": "excellent-learning"
   };
   Object.entries(pages).forEach(([file, system]) => {
     const html = fs.readFileSync(path.join(root, file), "utf8");
@@ -356,7 +359,8 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
     "bookmark-directory.html",
     "execution-system.html",
     "reading-comprehension.html",
-    "eddie-farm.html"
+    "eddie-farm.html",
+    "excellent-learning-system.html"
   ]);
   const progressSystem = api.systems.find(({ id }) => id === "progress");
   assert.equal(progressSystem?.zh, "全面英文能力發展進度表");

@@ -5135,3 +5135,85 @@ button:disabled {
   .pro-library-participants { align-items:flex-start; font-size:11px; }
   .pro-library-device { font-size:9px; }
 }
+
+/* Native DSE Paper 4 reader: selectable text with student/examiner modes. */
+.dse-native-paper-host { margin: 20px 0 4px; }
+.dse-open-native-paper { width: 100%; min-height: 52px; }
+.dse-native-paper {
+  margin-top: 18px;
+  border: 1px solid rgba(20, 48, 68, .22);
+  padding: clamp(22px, 4vw, 58px);
+  color: #151515;
+  background:
+    linear-gradient(rgba(255,255,255,.96), rgba(252,250,244,.98)),
+    repeating-linear-gradient(0deg, transparent 0 31px, rgba(29,74,104,.04) 31px 32px);
+  box-shadow: 0 24px 60px rgba(34, 56, 74, .13);
+  font-family: Georgia, "Times New Roman", serif;
+  user-select: text;
+}
+.dse-paper-mode-switch {
+  position: sticky;
+  top: 88px;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: calc(clamp(22px, 4vw, 58px) * -1) calc(clamp(22px, 4vw, 58px) * -1) 30px;
+  padding: 12px;
+  border-bottom: 1px solid rgba(20,48,68,.15);
+  background: rgba(244,248,247,.94);
+  backdrop-filter: blur(14px);
+}
+.dse-paper-mode-switch button {
+  display: grid;
+  gap: 3px;
+  min-height: 54px;
+  border: 1px solid rgba(27,75,102,.18);
+  border-radius: 12px;
+  color: #173650;
+  background: #fff;
+  cursor: pointer;
+}
+.dse-paper-mode-switch button.is-active { color: #fff; background: #153f3a; box-shadow: 0 8px 22px rgba(21,63,58,.2); }
+.dse-paper-mode-switch small { font: 700 11px/1.1 Inter, system-ui, sans-serif; opacity: .72; }
+.dse-native-paper-header { padding: 4px 0 27px; text-align: center; border-bottom: 4px double #1c2831; }
+.dse-native-paper-header > span { display: block; text-align: left; font: 800 12px/1.4 Inter, system-ui, sans-serif; letter-spacing: .08em; }
+.dse-native-paper-header p { margin: 13px 0 9px; font-size: clamp(13px, 1.3vw, 16px); font-weight: 700; }
+.dse-native-paper-header h2 { margin: 0; color: #111; font-size: clamp(24px, 3vw, 38px); letter-spacing: .06em; }
+.dse-native-paper-part { padding-top: clamp(25px, 4vw, 44px); }
+.dse-native-paper-part-heading { display: flex; align-items: baseline; gap: 12px; padding-bottom: 10px; border-bottom: 2px solid #222; }
+.dse-native-paper-part-heading span { font: 900 12px/1 Inter, system-ui, sans-serif; letter-spacing: .14em; }
+.dse-native-paper-part-heading h3 { margin: 0; color: #111; font-size: clamp(20px, 2.2vw, 30px); }
+.dse-native-paper-part-heading small { margin-left: auto; font: 800 12px/1 Inter, system-ui, sans-serif; color: #57646a; }
+.dse-native-paper-part h4 { margin: 24px 0 12px; color: #111; font-size: clamp(24px, 3vw, 39px); text-align: center; }
+.dse-native-source { margin: 0; padding: clamp(18px, 2.4vw, 30px); border: 1px solid #777; font-size: clamp(16px, 1.45vw, 20px); line-height: 1.72; }
+.dse-native-instruction { margin: 24px 0 10px; font-size: 16px; font-weight: 700; }
+.dse-native-paper-list { display: grid; gap: 11px; margin: 0; padding-left: 30px; font-size: clamp(15px, 1.3vw, 19px); line-height: 1.55; }
+.dse-native-anything { margin: 12px 0 0 3px; font-size: clamp(15px, 1.3vw, 19px); }
+.dse-native-student-note { display: grid; gap: 8px; margin-top: 30px; padding: 18px 20px; border: 1px dashed #607983; color: #314c59; background: #eef5f2; font-family: Inter, system-ui, sans-serif; }
+.dse-native-student-note span { font-size: 13px; }
+.dse-native-paper[data-paper-mode="student"] .dse-examiner-only,
+.dse-native-paper[data-paper-mode="examiner"] .dse-student-only { display: none; }
+.dse-native-paper footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 24px; margin-top: 34px; padding-top: 16px; border-top: 1px solid #aaa; color: #52626c; font: 700 12px/1.5 Inter, system-ui, sans-serif; }
+.dse-paper-word {
+  display: inline;
+  border: 0;
+  border-radius: 4px;
+  padding: 1px 0;
+  color: inherit;
+  background: transparent;
+  cursor: copy;
+  font: inherit;
+  user-select: text;
+  transition: color .16s ease, background .16s ease, box-shadow .16s ease;
+}
+.dse-paper-word:hover,
+.dse-paper-word:focus-visible { color: #083d71; background: #cdeaff; box-shadow: 0 0 0 3px #cdeaff; outline: 0; }
+.dse-paper-word.is-bookmarked { color: #692208; background: #ffd89f; box-shadow: 0 0 0 3px #ffd89f; }
+.dse-paper-word[data-saving="true"] { opacity: .5; }
+@media (max-width: 700px) {
+  .dse-native-paper { margin-inline: -14px; padding: 18px; }
+  .dse-paper-mode-switch { top: 70px; margin: -18px -18px 24px; }
+  .dse-native-paper-part-heading { flex-wrap: wrap; }
+  .dse-native-paper-part-heading small { width: 100%; margin: 0; }
+}

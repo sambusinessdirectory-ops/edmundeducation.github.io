@@ -20,6 +20,132 @@ window.EDMUND_DSE_SPEAKING_DATA = Object.freeze({
     "2012": [
       {
         "year": 2012,
+        "set": "1.1",
+        "title": "An Intern in Hong Kong",
+        "sourceText": "Below is an extract from a newspaper interview with an intern in Hong Kong. Student Fonnie Tang joined an accounting firm during the summer holidays as an unpaid intern. She wanted to gain work experience for her future career. She talks about how crucial her internship is to her becoming an accountant. What was your internship like? I attended a one-week training course to learn about accounting techniques. After training, I was assigned to assist some of the permanent staff. What did you do during the internship? I followed company staff on visits to clients' offices, prepared financial balances and statements, and so on. What were the major challenges? Assisting colleagues in the preparation of accounting documents can be complicated! What have you learned about your chosen career? You need to have good interpersonal skills to get on well with clients. Any advice for potential interns? Recognise your weaknesses and utilise your talents. The key to success is to have a sincere heart and a desire to learn. Your group wants to write a report about professional internships in Hong Kong. Discuss with your group what to include in your report. You may want to talk about:",
+        "groupDiscussion": [
+          "How an unpaid internship could be beneficial",
+          "What the challenges would be of being a summer intern",
+          "What characteristics a good intern should have"
+        ],
+        "individualResponse": [
+          "What job would you like to do in the future?",
+          "Would you like to apply for a summer internship?",
+          "Which company would you like to work for as an intern?",
+          "Why do you think some students would not be keen to be a summer intern?",
+          "How would you persuade your parents to let you be an intern?",
+          "Should all students be required to participate in an unpaid internship?",
+          "Do you think students who have participated in an internship have an advantage in finding good jobs?",
+          "Which is more important in achieving success in your career - qualifications or experience?"
+        ]
+      },
+      {
+        "year": 2012,
+        "set": "1.2",
+        "title": "Mooncake Giving - A Time-honoured or Outdated Tradition?",
+        "sourceText": "For centuries, mooncakes were the symbol of China's Mid-Autumn Festival, but in recent years they have become associated with excessive packaging and high calories. In 2009 alone, China produced 250,000 tons of mooncakes, and wrapping paper consumed more than 6,000 trees, according to the People's Daily website. However, regulations introduced by the Chinese government appear to have exerted a major influence on the mooncake market. Mooncakes have less wrapping compared to last year and more are in recyclable paper boxes rather than metal ones. While luxury boxes may not be as prominent this year, there is not much change to the Mid-Autumn gift culture at the core of the excess. It has become a custom we tiredly follow, said one customer, referring to the practice of sending expensive mooncakes to superiors and important friends. Until the Chinese start to question the time-honoured but outdated gift-sending mentality and encourage better packaging and recycling standards, Mid-Autumn Festival will continue to be a time of wasteful over-consumption. Your group is discussing the tradition of giving mooncakes. You may want to talk about:",
+        "groupDiscussion": [
+          "Whether the tradition of giving mooncakes is wasteful",
+          "Whether traditional mooncakes should be replaced with non-traditional versions",
+          "How the festival can be celebrated in a more environmentally-friendly way"
+        ],
+        "individualResponse": [
+          "How do you celebrate Mid-Autumn Festival?",
+          "Does your family eat all the mooncakes they receive?",
+          "Do you feel that it is important to buy mooncakes to celebrate Mid-Autumn Festival?",
+          "How do you feel about the variety of non-traditional mooncakes now available?",
+          "Do you think that cheaper, more simply packaged mooncakes are as attractive as a gift?",
+          "Do you think businesses should be fined for excessive mooncake packaging?",
+          "Do you agree that Hong Kong people are losing interest in giving mooncakes?",
+          "Do you think it is important to maintain traditions like the giving of mooncakes?"
+        ]
+      },
+      {
+        "year": 2012,
+        "set": "1.3",
+        "title": "Cosplay in Hong Kong",
+        "sourceText": "Japanese manga (comics) are becoming more popular worldwide, and thanks to easy access to multimedia and the internet, the youth in Hong Kong have become more involved in costume play, otherwise known as cosplay - the act of dressing up in costumes and wigs and behaving like their favourite characters in popular manga. Indeed, the number of local youths participating in cosplay has increased sharply. However, some experienced cosplayers think that the standard of new cosplayers is unacceptable and feel that they are ruining the image of Hong Kong cosplayers in general. They think that the newcomers' appearance does not accurately resemble the manga character and that they may not fully understand the character they are impersonating. According to one blogger, this creates conflict among new and experienced cosplayers, threatening the harmonious environment of cosplay in Hong Kong. Your group wants to give a presentation about cosplay in Hong Kong. Discuss with your group what to include in your presentation. You may want to talk about:",
+        "groupDiscussion": [
+          "Whether cosplay is popular in Hong Kong",
+          "How Hong Kong society views cosplayers",
+          "How experienced cosplayers can help new cosplayers"
+        ],
+        "individualResponse": [
+          "Why do some people like to read comic books?",
+          "Do you have any friends or family who enjoy dressing up as manga characters?",
+          "Would you dress up as a character from a comic book?",
+          "Do you think cosplay is more popular among boys or girls?",
+          "How would your parents feel about you participating in cosplay?",
+          "What do you think of people who enjoy cosplay?",
+          "Why do you think some young people enjoy the culture of cosplay?",
+          "In what other ways do young people express their identity?"
+        ]
+      },
+      {
+        "year": 2012,
+        "set": "2.1",
+        "title": "King of Comedy",
+        "sourceText": "The 'king of comedy' Stephen Chow's sense of humour and sharp wit have created some of the most hilarious moments in Asian cinema. As an actor, director, producer and scriptwriter, Chow has consistently produced films that have turned into box office gold. Chow's entry into comedy began with the 1990 film All For The Winner. Received well by Asian audiences, Chow began to develop his distinct brand of humour known as 'Mo Lei Tau' and by 1994 found himself capable of writing and directing successful films of his own, such as From Beijing with Love, God of Cookery and King of Comedy. Attempting to cater to a wider audience outside Asia, Chow began to change the comedic style of his films, producing big budget productions which employed more comedic action, special effects and computer-generated imagery, as seen in his 2001 hit Shaolin Soccer. His follow-up film Kung Fu Hustle finally brought him international acclaim. You are members of the film club at your school. You want to organize a Stephen Chow festival. You may want to talk about:",
+        "groupDiscussion": [
+          "Aspects of his life and career people would be interested in",
+          "How you would get information about Stephen Chow",
+          "Activities that you could organize"
+        ],
+        "individualResponse": [
+          "Would you want to become a famous actor?",
+          "Do you prefer funny movies or serious movies?",
+          "Should famous actors be paid a lot of money?",
+          "Do you think famous actors are happy?",
+          "What school subjects may help someone become an actor?",
+          "What in your opinion makes a good actor?",
+          "Can a serious message be expressed through comedy?",
+          "Do you think it is easier to make good comedy or good drama?"
+        ]
+      },
+      {
+        "year": 2012,
+        "set": "2.2",
+        "title": "Smart Technology?",
+        "sourceText": "Forget super-smartphones and iPads; here are two products that are different in today's consumer-technology industry. The Karotz is a 23cm-tall white bunny with a Hello Kitty-type face and a glowing tummy. It is described as an e-learning robot. It has a speaker for playing internet radio, a webcam and a synthesized voice that can read newspaper headlines. A child could use the Karotz to signal to a parent at work that he is home from school. The Pogoplug allows you to put your personal files online without trusting them to a third party's server which could be hacked. Your data never leaves your control. By connecting your computer to a Pogoplug, you create your own personal storage system for files such as music, movies and photos. Your group wants to write an article for your school magazine about technological products such as the Karotz and the Pogoplug and their usefulness in our lives. Discuss with your group what to include in your article. You may want to talk about:",
+        "groupDiscussion": [
+          "Why people like to use technological products",
+          "The benefits of technological products in our lives",
+          "Whether all technological products are useful"
+        ],
+        "individualResponse": [
+          "What technological product would you like to have?",
+          "What kinds of technological products do you use in school or at home?",
+          "Do you think young people enjoy using the latest technological products more than older people?",
+          "Do boys and girls like different technological products?",
+          "Do you believe that technology has improved our lives?",
+          "Do you believe that technology has negatively affected our lives?",
+          "What technological product can you not live without?",
+          "Why do you think some people enjoy using the latest technology so much?"
+        ]
+      },
+      {
+        "year": 2012,
+        "set": "2.3",
+        "title": "Tips for Writing a Diary",
+        "sourceText": "The suggestions below appeared on Wikihow. Pick a cover design that you think is nice or suits your style. Try starting the entry with something catchy or exciting and then end with writing your feelings about the day or doing a drawing to show how you are feeling. A format you can use is to write your entry on one side of the page and on the other side put a picture or include a souvenir like an entrance ticket to a show. Make it good to read. When you look back you want to enjoy reading it. Write all of your deep thoughts. If you keep things inside of you, there's no point in keeping a diary. Keep it neat. Try not to write in it more than once a day. Don't worry if you can't write every day. Your teacher wants to promote the use of diaries so that students get more writing practice. You may want to talk about:",
+        "groupDiscussion": [
+          "Why it is useful to keep a diary",
+          "How to make a diary interesting and memorable",
+          "Which tips you would find most useful for writing a diary"
+        ],
+        "individualResponse": [
+          "Have you ever kept a diary?",
+          "Would you prefer to write a diary on paper or online?",
+          "What problems could occur if you lost your diary?",
+          "Would you prefer to write a diary in your first language or in English?",
+          "How would you feel if someone read your diary?",
+          "Should parents have the right to read their child's diary?",
+          "Would you read someone's diary if you found it?",
+          "What might you learn about yourself if you looked at your diary ten years later?"
+        ]
+      },
+      {
+        "year": 2012,
         "set": "3.1",
         "title": "The Race Is On!",
         "sourceText": "Below is an extract from a column about a cross-harbour race in Hong Kong: The race is on! After a break of 30 years, the cross-harbour race is being organized once again. Participants have to swim from Sam Ka Tsuen Public Pier in Lei Yue Mun to Quarry Bay Park, a distance of 1.8km. The number of participants is limited to 1,000, and in order to qualify as a participant, interested applicants need to show that they can swim 1,500 metres in 45 minutes. One concern is whether the quality of water is suitable for swimmers, and another is whether the currents may be too strong. However, it seems that the swifter currents at Lei Yue Mun firstly help to keep the water cleaner than other parts of the harbour, and secondly help the swimmer to go with the flow to make the race easier. The event will not be harmful to swimmers, according to the organizers, the Hong Kong Amateur Swimming Association, and they hope to make the cross-harbour race an annual event. Your group is going to write an essay about the cross-harbour race in Hong Kong for a class assignment. Discuss with your group what to include in your essay. You may want to talk about:",
@@ -1532,6 +1658,27 @@ window.EDMUND_DSE_SPEAKING_DATA = Object.freeze({
           "Is spending seven and a half hours a day on the computer unhealthy?",
           "In your opinion, is being addicted to technology a serious problem?",
           "Who is to blame for the addiction to technology?"
+        ]
+      },
+      {
+        "year": 2014,
+        "set": "9.1",
+        "title": "Hong Kong Police Force Summer Internship Programme",
+        "sourceText": "Below is an extract from an advertisement for the Hong Kong Police Force Post-Secondary School Summer Internship Programme. Have you always wanted to be a police officer? Have you ever wondered what it would be like to be part of the Hong Kong Police Force? Apply for the Police Force's Summer Internship Programme for a genuine experience in a real-life police work setting. The Police Public Relations Summer Intern post is open to permanent residents of Hong Kong SAR who are full-time post-secondary students in specified disciplines, possess good knowledge in computer applications and speak fluent Cantonese and English. Job duties include reviewing and updating the Junior Police Call website and Facebook page, assisting in organizing JPC activities and training, coordinating filming applications, assisting with the weekly production of Police Magazine and maintaining the video library. The programme runs from July to August 2014 with an allowance of $7,700 per month. You are looking at an advertisement for a summer internship for the Hong Kong Police Force. Your group is thinking about whether to apply. You may want to talk about:",
+        "groupDiscussion": [
+          "Why some teenagers would be keen to join the Hong Kong Police Force",
+          "Which job duties in the Public Relations internship your group would prefer to do",
+          "Benefits of the Public Relations internship compared to other jobs"
+        ],
+        "individualResponse": [
+          "Would you like to join the Police Force in the future?",
+          "Do you think that being a police officer is a dangerous job?",
+          "What would your parents say if you wanted to become a police officer?",
+          "Do you think the Police Summer Internship Programme is a good scheme?",
+          "Should speaking English be a necessary job requirement for joining the Police Force?",
+          "How can the Police Force encourage more women to apply?",
+          "Do you respect someone who is a police officer?",
+          "Why is it important for the Police Force to communicate with the public?"
         ]
       },
       {
@@ -4806,6 +4953,132 @@ window.EDMUND_DSE_SPEAKING_DATA = Object.freeze({
   "sets": [
     {
       "year": 2012,
+      "set": "1.1",
+      "title": "An Intern in Hong Kong",
+      "sourceText": "Below is an extract from a newspaper interview with an intern in Hong Kong. Student Fonnie Tang joined an accounting firm during the summer holidays as an unpaid intern. She wanted to gain work experience for her future career. She talks about how crucial her internship is to her becoming an accountant. What was your internship like? I attended a one-week training course to learn about accounting techniques. After training, I was assigned to assist some of the permanent staff. What did you do during the internship? I followed company staff on visits to clients' offices, prepared financial balances and statements, and so on. What were the major challenges? Assisting colleagues in the preparation of accounting documents can be complicated! What have you learned about your chosen career? You need to have good interpersonal skills to get on well with clients. Any advice for potential interns? Recognise your weaknesses and utilise your talents. The key to success is to have a sincere heart and a desire to learn. Your group wants to write a report about professional internships in Hong Kong. Discuss with your group what to include in your report. You may want to talk about:",
+      "groupDiscussion": [
+        "How an unpaid internship could be beneficial",
+        "What the challenges would be of being a summer intern",
+        "What characteristics a good intern should have"
+      ],
+      "individualResponse": [
+        "What job would you like to do in the future?",
+        "Would you like to apply for a summer internship?",
+        "Which company would you like to work for as an intern?",
+        "Why do you think some students would not be keen to be a summer intern?",
+        "How would you persuade your parents to let you be an intern?",
+        "Should all students be required to participate in an unpaid internship?",
+        "Do you think students who have participated in an internship have an advantage in finding good jobs?",
+        "Which is more important in achieving success in your career - qualifications or experience?"
+      ]
+    },
+    {
+      "year": 2012,
+      "set": "1.2",
+      "title": "Mooncake Giving - A Time-honoured or Outdated Tradition?",
+      "sourceText": "For centuries, mooncakes were the symbol of China's Mid-Autumn Festival, but in recent years they have become associated with excessive packaging and high calories. In 2009 alone, China produced 250,000 tons of mooncakes, and wrapping paper consumed more than 6,000 trees, according to the People's Daily website. However, regulations introduced by the Chinese government appear to have exerted a major influence on the mooncake market. Mooncakes have less wrapping compared to last year and more are in recyclable paper boxes rather than metal ones. While luxury boxes may not be as prominent this year, there is not much change to the Mid-Autumn gift culture at the core of the excess. It has become a custom we tiredly follow, said one customer, referring to the practice of sending expensive mooncakes to superiors and important friends. Until the Chinese start to question the time-honoured but outdated gift-sending mentality and encourage better packaging and recycling standards, Mid-Autumn Festival will continue to be a time of wasteful over-consumption. Your group is discussing the tradition of giving mooncakes. You may want to talk about:",
+      "groupDiscussion": [
+        "Whether the tradition of giving mooncakes is wasteful",
+        "Whether traditional mooncakes should be replaced with non-traditional versions",
+        "How the festival can be celebrated in a more environmentally-friendly way"
+      ],
+      "individualResponse": [
+        "How do you celebrate Mid-Autumn Festival?",
+        "Does your family eat all the mooncakes they receive?",
+        "Do you feel that it is important to buy mooncakes to celebrate Mid-Autumn Festival?",
+        "How do you feel about the variety of non-traditional mooncakes now available?",
+        "Do you think that cheaper, more simply packaged mooncakes are as attractive as a gift?",
+        "Do you think businesses should be fined for excessive mooncake packaging?",
+        "Do you agree that Hong Kong people are losing interest in giving mooncakes?",
+        "Do you think it is important to maintain traditions like the giving of mooncakes?"
+      ]
+    },
+    {
+      "year": 2012,
+      "set": "1.3",
+      "title": "Cosplay in Hong Kong",
+      "sourceText": "Japanese manga (comics) are becoming more popular worldwide, and thanks to easy access to multimedia and the internet, the youth in Hong Kong have become more involved in costume play, otherwise known as cosplay - the act of dressing up in costumes and wigs and behaving like their favourite characters in popular manga. Indeed, the number of local youths participating in cosplay has increased sharply. However, some experienced cosplayers think that the standard of new cosplayers is unacceptable and feel that they are ruining the image of Hong Kong cosplayers in general. They think that the newcomers' appearance does not accurately resemble the manga character and that they may not fully understand the character they are impersonating. According to one blogger, this creates conflict among new and experienced cosplayers, threatening the harmonious environment of cosplay in Hong Kong. Your group wants to give a presentation about cosplay in Hong Kong. Discuss with your group what to include in your presentation. You may want to talk about:",
+      "groupDiscussion": [
+        "Whether cosplay is popular in Hong Kong",
+        "How Hong Kong society views cosplayers",
+        "How experienced cosplayers can help new cosplayers"
+      ],
+      "individualResponse": [
+        "Why do some people like to read comic books?",
+        "Do you have any friends or family who enjoy dressing up as manga characters?",
+        "Would you dress up as a character from a comic book?",
+        "Do you think cosplay is more popular among boys or girls?",
+        "How would your parents feel about you participating in cosplay?",
+        "What do you think of people who enjoy cosplay?",
+        "Why do you think some young people enjoy the culture of cosplay?",
+        "In what other ways do young people express their identity?"
+      ]
+    },
+    {
+      "year": 2012,
+      "set": "2.1",
+      "title": "King of Comedy",
+      "sourceText": "The 'king of comedy' Stephen Chow's sense of humour and sharp wit have created some of the most hilarious moments in Asian cinema. As an actor, director, producer and scriptwriter, Chow has consistently produced films that have turned into box office gold. Chow's entry into comedy began with the 1990 film All For The Winner. Received well by Asian audiences, Chow began to develop his distinct brand of humour known as 'Mo Lei Tau' and by 1994 found himself capable of writing and directing successful films of his own, such as From Beijing with Love, God of Cookery and King of Comedy. Attempting to cater to a wider audience outside Asia, Chow began to change the comedic style of his films, producing big budget productions which employed more comedic action, special effects and computer-generated imagery, as seen in his 2001 hit Shaolin Soccer. His follow-up film Kung Fu Hustle finally brought him international acclaim. You are members of the film club at your school. You want to organize a Stephen Chow festival. You may want to talk about:",
+      "groupDiscussion": [
+        "Aspects of his life and career people would be interested in",
+        "How you would get information about Stephen Chow",
+        "Activities that you could organize"
+      ],
+      "individualResponse": [
+        "Would you want to become a famous actor?",
+        "Do you prefer funny movies or serious movies?",
+        "Should famous actors be paid a lot of money?",
+        "Do you think famous actors are happy?",
+        "What school subjects may help someone become an actor?",
+        "What in your opinion makes a good actor?",
+        "Can a serious message be expressed through comedy?",
+        "Do you think it is easier to make good comedy or good drama?"
+      ]
+    },
+    {
+      "year": 2012,
+      "set": "2.2",
+      "title": "Smart Technology?",
+      "sourceText": "Forget super-smartphones and iPads; here are two products that are different in today's consumer-technology industry. The Karotz is a 23cm-tall white bunny with a Hello Kitty-type face and a glowing tummy. It is described as an e-learning robot. It has a speaker for playing internet radio, a webcam and a synthesized voice that can read newspaper headlines. A child could use the Karotz to signal to a parent at work that he is home from school. The Pogoplug allows you to put your personal files online without trusting them to a third party's server which could be hacked. Your data never leaves your control. By connecting your computer to a Pogoplug, you create your own personal storage system for files such as music, movies and photos. Your group wants to write an article for your school magazine about technological products such as the Karotz and the Pogoplug and their usefulness in our lives. Discuss with your group what to include in your article. You may want to talk about:",
+      "groupDiscussion": [
+        "Why people like to use technological products",
+        "The benefits of technological products in our lives",
+        "Whether all technological products are useful"
+      ],
+      "individualResponse": [
+        "What technological product would you like to have?",
+        "What kinds of technological products do you use in school or at home?",
+        "Do you think young people enjoy using the latest technological products more than older people?",
+        "Do boys and girls like different technological products?",
+        "Do you believe that technology has improved our lives?",
+        "Do you believe that technology has negatively affected our lives?",
+        "What technological product can you not live without?",
+        "Why do you think some people enjoy using the latest technology so much?"
+      ]
+    },
+    {
+      "year": 2012,
+      "set": "2.3",
+      "title": "Tips for Writing a Diary",
+      "sourceText": "The suggestions below appeared on Wikihow. Pick a cover design that you think is nice or suits your style. Try starting the entry with something catchy or exciting and then end with writing your feelings about the day or doing a drawing to show how you are feeling. A format you can use is to write your entry on one side of the page and on the other side put a picture or include a souvenir like an entrance ticket to a show. Make it good to read. When you look back you want to enjoy reading it. Write all of your deep thoughts. If you keep things inside of you, there's no point in keeping a diary. Keep it neat. Try not to write in it more than once a day. Don't worry if you can't write every day. Your teacher wants to promote the use of diaries so that students get more writing practice. You may want to talk about:",
+      "groupDiscussion": [
+        "Why it is useful to keep a diary",
+        "How to make a diary interesting and memorable",
+        "Which tips you would find most useful for writing a diary"
+      ],
+      "individualResponse": [
+        "Have you ever kept a diary?",
+        "Would you prefer to write a diary on paper or online?",
+        "What problems could occur if you lost your diary?",
+        "Would you prefer to write a diary in your first language or in English?",
+        "How would you feel if someone read your diary?",
+        "Should parents have the right to read their child's diary?",
+        "Would you read someone's diary if you found it?",
+        "What might you learn about yourself if you looked at your diary ten years later?"
+      ]
+    },
+    {
+      "year": 2012,
       "set": "3.1",
       "title": "The Race Is On!",
       "sourceText": "Below is an extract from a column about a cross-harbour race in Hong Kong: The race is on! After a break of 30 years, the cross-harbour race is being organized once again. Participants have to swim from Sam Ka Tsuen Public Pier in Lei Yue Mun to Quarry Bay Park, a distance of 1.8km. The number of participants is limited to 1,000, and in order to qualify as a participant, interested applicants need to show that they can swim 1,500 metres in 45 minutes. One concern is whether the quality of water is suitable for swimmers, and another is whether the currents may be too strong. However, it seems that the swifter currents at Lei Yue Mun firstly help to keep the water cleaner than other parts of the harbour, and secondly help the swimmer to go with the flow to make the race easier. The event will not be harmful to swimmers, according to the organizers, the Hong Kong Amateur Swimming Association, and they hope to make the cross-harbour race an annual event. Your group is going to write an essay about the cross-harbour race in Hong Kong for a class assignment. Discuss with your group what to include in your essay. You may want to talk about:",
@@ -6314,6 +6587,27 @@ window.EDMUND_DSE_SPEAKING_DATA = Object.freeze({
         "Is spending seven and a half hours a day on the computer unhealthy?",
         "In your opinion, is being addicted to technology a serious problem?",
         "Who is to blame for the addiction to technology?"
+      ]
+    },
+    {
+      "year": 2014,
+      "set": "9.1",
+      "title": "Hong Kong Police Force Summer Internship Programme",
+      "sourceText": "Below is an extract from an advertisement for the Hong Kong Police Force Post-Secondary School Summer Internship Programme. Have you always wanted to be a police officer? Have you ever wondered what it would be like to be part of the Hong Kong Police Force? Apply for the Police Force's Summer Internship Programme for a genuine experience in a real-life police work setting. The Police Public Relations Summer Intern post is open to permanent residents of Hong Kong SAR who are full-time post-secondary students in specified disciplines, possess good knowledge in computer applications and speak fluent Cantonese and English. Job duties include reviewing and updating the Junior Police Call website and Facebook page, assisting in organizing JPC activities and training, coordinating filming applications, assisting with the weekly production of Police Magazine and maintaining the video library. The programme runs from July to August 2014 with an allowance of $7,700 per month. You are looking at an advertisement for a summer internship for the Hong Kong Police Force. Your group is thinking about whether to apply. You may want to talk about:",
+      "groupDiscussion": [
+        "Why some teenagers would be keen to join the Hong Kong Police Force",
+        "Which job duties in the Public Relations internship your group would prefer to do",
+        "Benefits of the Public Relations internship compared to other jobs"
+      ],
+      "individualResponse": [
+        "Would you like to join the Police Force in the future?",
+        "Do you think that being a police officer is a dangerous job?",
+        "What would your parents say if you wanted to become a police officer?",
+        "Do you think the Police Summer Internship Programme is a good scheme?",
+        "Should speaking English be a necessary job requirement for joining the Police Force?",
+        "How can the Police Force encourage more women to apply?",
+        "Do you respect someone who is a police officer?",
+        "Why is it important for the Police Force to communicate with the public?"
       ]
     },
     {
@@ -8082,443 +8376,23 @@ window.EDMUND_DSE_SPEAKING_DATA = Object.freeze({
     },
     {
       "year": 2018,
-      "set": "8.3",
-      "title": "Getting Back to Nature at City Farms",
-      "sourceText": "Getting back to nature at city farms Some of you guys probably know about rentable allotments or city farms but I thought I’d share my experience with people new to Hong Kong. I rent my city farm in Fu Tei near Tuen Mun. I live in the neighbouring village but you can get there from Jordan on the KMB 63X very easily. Anyway, I rent about 150 sq ft for 300 HKD per month. This price includes the use of all tools and the owner waters the whole farm once or twice a day as needed. She also sells everything else you need. It is a great community atmosphere and is very busy on Sundays. Some people take it more seriously than others and I have seen some amazing vegetables come out of the ground around here. There are no real regulations and as long as you don’t bother your neighbours, nobody cares. Many people have barbecues there. I’ve got carrots, beans, choi sum and some herbs planted. I’m never sure what my wife is growing but she has some vegetables growing also!! Anyway, these allotments are all over the New Territories and you should be able to find them if you’re prepared to ask around the locals. Just thought I’d share this bit of info with you all and if anyone would like any further information or to come and have a look, feel free to ask! Your class teacher is interested in renting a small piece of farmland near your school. He has asked your group to discuss the topic. You may want to talk about:",
+      "set": "1.2",
+      "title": "The Decline and Fall of TVB?",
+      "sourceText": "The decline and fall of TVB? TVB, Hong Kong’s biggest free TV station, used to be Hong Kong’s pride. It was a leader in shaping the city’s pop culture in the 1980s. But the broadcaster appears to be losing support with the latest viewing figures showing that the average evening audience of TVB fell from 2.4 million in 1984 to 1.58 million in 2016. The fall is especially noticeable in TVB top drama series. In 2008, four out of the five top-rated TVB shows had an average audience size of more than two million viewers. By 2016, none of the five top-rated shows passed two million viewers. The lack of financial investment and creativity are two reasons often given for the decline in the broadcaster’s viewing figures. Many of the TVB drama serials have been shot using the same props and sceneries for years now. TVB fans have made fun of this by doing a “screen capture” of one scene in a drama series and comparing it with another done for another show. Because of the management’s cost-control measures, only a small number of artists dominate the shows in primetime slots. As a result, viewers get confused after watching the same actor performing the roles of three different characters in three different drama programmes in a single night. The worst may yet be to come for TVB though, as more Hong Kong viewers take to the internet to satisfy their drama-watching craving, especially given the current trend for watching all things Korean. You are doing a school project on TVB. Your group has been asked to discuss the fall in the number of viewers. You may want to talk about:",
       "groupDiscussion": [
-        "the benefits of renting a piece of farmland",
-        "whether students in your class would be interested in having a class farm",
-        "how to organise a class farm"
+        "why TVB was so successful in Hong Kong in the past",
+        "why there is a fall in the number of viewers",
+        "whether TVB can be successful again in the future"
       ],
       "individualResponse": [
-        "Would you like to grow your own food?",
-        "Would you like to learn how to grow food?",
-        "Who would be more interested in farming: young people or older people?",
-        "Why is renting farmland becoming popular?",
-        "Do you think you would be good at farming?",
-        "Should schools teach students more about farming and nature?",
-        "Why are there so few farms in Hong Kong?",
-        "Do you think food tastes better if you grow it yourself?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "8.2",
-      "title": "No More Paper Money or Coins",
-      "sourceText": "No more Paper Money or Coins A quick question: what do you take with you when you leave your house? Keys, wallet, and your phone, right? And people in China? I can tell you, most of the time, I just take my phone and just like me, there are now millions of people in China enjoying this cash-free life. The Chinese are now living in the People’s Republic of Digital. Super apps in China have changed our life, and introduced a new era where small change and cash has been left behind. All is needed is a QR code, which can be found everywhere from the largest shop to the smallest stores. What’s a QR code? It’s a Quick Response barcode with a random pattern of tiny black squares against a white background. Shoppers pay by scanning the code with their phones after selecting their goods. No cash is needed in the transaction and everything can be paid by one swipe of your phone. The fact is, every morning when I go to buy breakfast at the street cart vendor, my 4 RMB Chinese jian bing (a kind of pancake with vegetables and eggs inside, which is really yummy by the way), I can just scan, beep and walk off with my pancakes! It sounds like China’s started the transition to a cash-free economy faster than anyone could have imagined. Experts say by 2030 China will be for all intents and purposes, cashless! This is China. Stay tuned. Your Liberal Studies class is discussing how technology is changing society. Your group has been asked to discuss a ‘cashless’ society. You may want to talk about:",
-      "groupDiscussion": [
-        "why many shops prefer people to pay by phone",
-        "what problems a cashless society may cause",
-        "whether Hong Kong should be cash-free in the near future"
-      ],
-      "individualResponse": [
-        "Do you prefer paying by cash or Octopus card?",
-        "What things do you need to pay for in cash?",
-        "Why do some people prefer to use cash?",
-        "Should you always carry some cash?",
-        "What problems can carrying cash have?",
-        "How would older people feel about a cashless society?",
-        "Are changes in technology always a good thing?",
-        "Is a cashless society a sign of a developed country?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "8.1",
-      "title": "Animal-assisted Therapy",
-      "sourceText": "Animal-assisted therapy was once rare and met with the objection that it would only make hospitals dirty. It is, however, increasingly popular in hospitals, according to an Ontario doctor. From watching goldfish swim to having a dog, animal therapy is used to help people relax and give comfort. Many hospitals and homes for the elderly now have animal therapy programs in place. “People think it works and like the idea of it, so they do it,” explains Maggie O’Haire, a doctor in Ontario University. One challenge as the practice has become more widespread has been explaining how exactly it works. “Positive changes from animal-assisted contact are varied and there is no single way that has yet been identified,” says O’Haire. There are a number of theories, however. One is that humans have always enjoyed connecting with other living things. Another is the social support theory – the idea that therapy animals provide a form of simple support. In the past ten years, animal-assisted therapy has greatly expanded. Today, programs exist that provide animals who assist with physical therapy, help tutor children in reading and provide comfort in different places such as disaster zones and university campuses. While research on the subject still has a long way to go, recently studies have shown that having a pet around can lower blood pressure, and the American Heart Association has stated that owning a dog may even lower the risk of heart disease. Your school principal is interested in keeping pets at the school as he believes that animal therapy is good for students. He has asked you to discuss the idea. You may want to talk about:",
-      "groupDiscussion": [
-        "the advantages and disadvantages of animal therapy",
-        "what types of animals would be most suitable for a school",
-        "how the animals could be looked after and help the students"
-      ],
-      "individualResponse": [
-        "Do you like playing with animals?",
-        "Would you like your school to have a pet?",
-        "Do you think students would be good at looking after a school pet?",
-        "Is Hong Kong a suitable place for animal therapy?",
-        "Should animals be allowed into hospitals?",
-        "What animals are suitable for the elderly?",
-        "What can looking after a pet teach people?",
-        "How does a pet provide emotional support for people?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "7.3",
-      "title": "Employment Traps",
-      "sourceText": "Employment traps Every summer vacation, many students look for summer jobs hoping to get pocket money and working experience. With limited life experience and an eagerness to seek jobs, students often fall prey to scammers’ employment traps which cheat them out of money, steal their personal data or even make them carry out illegal activities. When facing unfamiliar recruitment processes and procedures, students should stay alert and exercise caution. Before taking up any job offer, they should understand the nature of the job thoroughly and assess whether they can meet the job requirements. They should never be tempted by an exceptionally high salary or they may get cheated out of money or end up committing crimes. Many students take any job that happens to come their way. They should pay attention to industrial safety and avoid taking up dangerous work, such as construction work, the operation of heavy machinery, handling of chemicals and corrosive substances, work processes involving extremely high temperatures, etc. They should also make use of the safety equipment provided by employers and strictly follow all safety regulations. Stay alert when seeking jobs. Watch out for employment traps. Tip 1: Watch out for offers that are too attractive Tip 2: Take good care of personal safety, personal data and belongings Tip 3: Find out about your employer and study the employment contract Tip 4: Be informed about current affairs and be ready to seek help You have been asked by the school careers advisor to help organise an activity to help raise awareness of employment traps students may face if they apply for a summer job. You may want to talk about:",
-      "groupDiscussion": [
-        "the advantages and disadvantages of summer work",
-        "how to raise awareness of employment traps for students",
-        "summer jobs that would be suitable for students"
-      ],
-      "individualResponse": [
-        "Would you like to have a summer job?",
-        "What can students learn from a summer job?",
-        "What summer job would you not enjoy?",
-        "Are young people more aware of these traps than in the past?",
-        "Is it easier to cheat younger people or older people?",
-        "What is a suitable age to start doing summer work?",
-        "Should parents encourage children to do summer jobs?",
-        "Should schools arrange summer jobs for students?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "7.2",
-      "title": "End to Printed Handouts Good Green Initiative",
-      "sourceText": "End to printed handouts good green initiative Earlier this year, the University of Hong Kong banned the sale of disposable bottled water on its Pok Fu Lam campus. This green initiative was welcomed. Now, in this new academic year, one department at HKU has implemented an unprecedented policy – a ban on giving printed paper handouts to students. I believe this is the right thing to do, and the initiative should be adopted by other departments and the other universities in Hong Kong as well. A semester at our universities lasts about three months, so students will use any handouts that they are given for a very short period of time only. After the term ends, they will probably not be read again. Sometimes, lecturers even print out in-class activity materials that are only used for a few minutes. This is such a tremendous waste of paper. Nearly all university students these days own laptops. These can be used to access online learning resources systems (in HKU and most of the other universities, it is called Moodle) onto which lecturers will upload teaching materials. As long as teachers upload their handouts, there is no need for printouts. This can significantly reduce the amount of paper used for teaching purposes. It is through this kind of cooperation that we can ensure the sustainability of our world. Anson C.Y. Chan, North Point Your school is planning on introducing ‘paperless classrooms’. The school principal has asked students for their opinion on the idea. You may want to talk about:",
-      "groupDiscussion": [
-        "how schools can become paperless",
-        "what challenges there will be",
-        "whether you think it will be successful"
-      ],
-      "individualResponse": [
-        "Do you use a lot of paper at school?",
-        "How often do your teachers give you handouts?",
-        "Do you prefer working on paper or on a laptop?",
-        "Do your teachers let you do homework online?",
-        "Do you keep your school handouts and books after your exams?",
-        "Does modern technology, such as laptops, improve teaching and education?",
-        "Are some subjects better done with paper rather than online?",
-        "Does using IT help to improve the environment?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "7.1",
-      "title": "To Reduce Stress, Sink into a Sound Bath (No Water Required)",
-      "sourceText": "To reduce stress, sink into a sound bath (no water required) Gong baths are a type of music therapy that have been used for healing for thousands of years. Canadian-born Martha Collard wants to help as many people as possible to lower stress in fast-paced Hong Kong. To do this, she set up Red Doors Studio, where she hosts gong baths. We gave it a try. What is a gong bath? Don’t be confused by the word bath – there is no water. It’s the sound waves that you are bathed in. Healing with harmonious sound, such as singing or drumming, has been used to clear minds and bodies for thousands of years and gongs (basically flat metal drums) are ideal for this. How does it work? Taking a gong bath is easy. You don’t have to do anything except lie down and close your eyes. Get under the comfortable blanket, have a lavender-scented eye pillow placed over your eyes and … gong. How does it feel? The emotional effect was instant: I had tears in my eyes and the hairs on my arms stood up. Collard says everyone’s reaction is different. “Some people laugh, some cry.” Immediately after the session I felt “fuzzy,” as if in a dreamlike state but a few hours later I had intense focus and energy: I was “buzzing” so much that I found it difficult to sleep, something that never normally happens. Decision I will definitely make it a regular thing. Your school is going to use a room for music therapy. Your group has been asked to suggest a suitable music therapy activity to be introduced to the room. You may want to talk about:",
-      "groupDiscussion": [
-        "whether a gong bath would be suitable",
-        "other music therapy activities that might be suitable",
-        "how to promote music therapy at your school"
-      ],
-      "individualResponse": [
-        "Would you like to try a gong bath?",
-        "Do you think gong baths will become popular?",
-        "What do you usually do to relax?",
-        "Should schools use music and sounds to help students reduce stress?",
-        "Are students more stressed than adults?",
-        "What do you feel is the biggest cause of stress in Hong Kong?",
-        "Can stress be productive?",
-        "Do you think we should encourage more traditional ways of reducing stress?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "6.3",
-      "title": "China Schools Seek to Nip Young Love in the Bud",
-      "sourceText": "China schools seek to nip young love in the bud In recent weeks a number of mainland Chinese secondary schools have introduced new rules designed to discourage teenage dating and romance. Many people are unhappy about the new rules. In one secondary school in Hangzhou, pupils of the opposite sex have been given a very important new instruction. They must maintain a minimum distance of half a metre from each other at all times. In addition, boys and girls are not allowed to go around school premises in pairs. Another school, in the eastern city of Wenzhou, Zhejiang province, has banned what it calls “close interaction” between students of the opposite sex as well as students of the same sex. They do not define what “close interaction” really means. The school authorities in Wenzhou have threatened “severe punishment” against offenders. Secondary schools in China admit students aged just 11 – they are just at the point when they become interested in the opposite sex. And with reports that teenage romance has become more popular at schools, school authorities – as well as parents – are worried that children’s academic performance is being affected. Some schools have moved to stop the young love with the implementation of tight measures – and they will certainly find support from some. Many Chinese regard teenage romance as something undesirable – a feeling that “early love” is immature love – and this helps explain why schools are increasingly teaching young people about the “undesirable effects” of dating. A parent has complained to your school principal about his child dating another student. Your class has been asked to discuss whether there should be guidelines about dating. You may want to talk about:",
-      "groupDiscussion": [
-        "whether you agree with the no dating rule adopted in China",
-        "the advantages and disadvantages of secondary school students dating",
-        "guidelines or advice schools should give students about dating"
-      ],
-      "individualResponse": [
-        "How do parents feel about students dating?",
-        "Is dating common among secondary school students?",
-        "Do students focus too much on their social life and not enough on their studies?",
-        "Have attitudes to dating changed since your parents were young?",
-        "Is dating good for developing social skills?",
-        "Should students tell their parents if they are dating?",
-        "How would you feel if your school stopped students from dating?",
-        "Do attitudes to dating in Hong Kong differ from those in China?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "6.2",
-      "title": "Fake News - There's a LOT of It About",
-      "sourceText": "Fake News: There's a LOT of it about A few years ago, lots of people online were talking about a video they’d seen about chicken McNuggets. The video said that chicken McNuggets were not made from real chicken, but something pink and horrible – people were so upset by the pictures that they said they’d never ever eat chicken McNuggets again. However, these images were fake because a while ago, I watched another video about how chicken McNuggets are actually made – and they are totally made from chicken. I realise it’s super-easy to post made-up stuff, sometimes even fake news, on the internet. I also know anyone with a camera can make a fake film that anyone – especially those who don’t go online very much – will believe. They’ll say they saw it “all over the internet”, therefore it must be true. I think if we believe everything we read online, whether it’s on Facebook, YouTube, or any other forum, without asking questions or thinking deeply about it, then we have a big problem. We need to double-check what we read online, and teach others to question what they read online, too. It’s scary that we live in an age when anyone with access to the internet can publish their own “news”. This is why journalism has become so important. A good journalist can protect us all from misinformation. Your group has to prepare a debate with the motion ‘The internet should be censored because it encourages fake news.’ You may want to talk about:",
-      "groupDiscussion": [
-        "arguments for the motion",
-        "arguments against the motion",
-        "which side would be easier to argue"
-      ],
-      "individualResponse": [
-        "What do you use the internet for?",
-        "Do you watch news on TV or on the internet?",
-        "Why do people spend so much time on the internet?",
-        "Do you trust everything you read on the internet?",
-        "Do you trust information in a newspaper more than on the internet?",
-        "What problems does fake news cause?",
-        "How can we raise people’s awareness about fake news?",
-        "Should governments control what is on the internet?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "6.1",
-      "title": "Man Arrested for Flying Drone to Take Photos in Hong Kong International Airport",
-      "sourceText": "Man arrested for flying drone to take photos in Hong Kong International Airport A 51-year-old man accused of flying a drone to take photographs in the restricted area of Hong Kong International Airport’s departure terminal last week was arrested upon his return to the city on Monday. The Hongkonger was picked up at the airport after flying in from Tokyo around midday, police said. He was arrested on suspicion of breaking Airport Authority law on flight safety. The investigation showed the man was flying a drone to take photographs in the restricted area of the airport’s departure hall at about 1.30pm last Thursday before he took a flight to leave Hong Kong. Police were informed after his photos were posted on the internet. Detectives from the airport police district were then assigned to track him down. After being identified, the man was placed on a list of persons wanted by police. He was stopped at the airport at noon, and police found the drone in his luggage. The incident has prompted police to ask members of the public not to fly model planes or drones to take photos inside the airport. A police source said the man had flown the drone near a boarding gate while waiting for a Tokyo-bound flight for a holiday. He posted the photos taken by the drone on his Facebook page, and they were quickly picked up by internet users and spread online. You are meeting members of your science group to discuss a project on drones. You may want to talk about:",
-      "groupDiscussion": [
-        "why drones are popular and useful",
-        "what problems drones might cause",
-        "what rules there should be about flying drones in Hong Kong"
-      ],
-      "individualResponse": [
-        "Would you like to have a drone?",
-        "Are drones popular in Hong Kong?",
-        "Where is a good place to fly a drone in Hong Kong?",
-        "Where would it be dangerous to fly a drone?",
-        "Why are drones good for taking photos?",
-        "How do you think drones will be used in the future?",
-        "How might drones be misused by some people?",
-        "How could the police use drones to reduce crime?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "5.3",
-      "title": "Brisbane's Waterfront Shows Hong Kong the Way",
-      "sourceText": "Brisbane’s waterfront shows Hong Kong the way Few places in the world have a more stunning natural asset than Victoria Harbour, yet there has been little effort to turn it over to public enjoyment. My recent trip to the north Australian city of Brisbane made that obvious. There are no spectacular skyline views or night-time light shows reflected on shimmering waters. Yet the city’s council has turned their waterfront into a place of recreation and enjoyment for people to enjoy simple activities. There are 20km of floating walkways and bicycle paths, riverside restaurants, parks, gardens and even a beach. A free ferry service makes for leisurely travel between the business and shopping district, restaurants and attractions. Among the places I visited was the Greek Garden, a 1,500-square-metre area of land on the river’s south bank where herbs and vegetables are grown, largely by volunteers; it is essentially a kitchen garden aimed at showing how to grow food plants sustainably at home. The fresh produce is harvested and given away free from food carts. As well as the Greek Garden, an art gallery and performing arts complex, there’s a man-made beach, grasslands, rainforest, a pagoda, a giant wheel, plazas, walkways, a promenade, shops and restaurants. The area, as with other riverside stretches, is lively and flourishing. Hong Kong’s harbour front is, by comparison, dull and boring. Tsim Sha Tsui’s Avenue of the Stars and the laser light show each evening are interesting, but the unfriendly environment of concrete paving and benches doesn’t encourage people to stay. You have been asked to propose facilities that could improve Victoria Harbour. The facilities should encourage more local people to visit the harbour. You may want to talk about:",
-      "groupDiscussion": [
-        "what people might enjoy doing at Victoria Harbour front",
-        "which facilities might be suitable for Victoria Harbour front",
-        "how the new facilities could best be promoted"
-      ],
-      "individualResponse": [
-        "Do you often go to Victoria Harbour?",
-        "What do you enjoy most on a visit to Victoria Harbour?",
-        "What would attract young people to visit Victoria Harbour?",
-        "Should the government do more to improve Victoria Harbour?",
-        "Should the harbour be for business or for pleasure?",
-        "What types of facilities at the harbour are attractive for families with children?",
-        "Should the government make Victoria Harbour more accessible to the public?",
-        "Would you say that Victoria Harbour is the symbol of Hong Kong?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "5.2",
-      "title": "9-year-old's America's Got Talent Appearance Sparks Parenting Debate",
-      "sourceText": "9-year-old’s America’s Got Talent appearance sparks parenting debate The appearance of nine-year-old Hong Kong singer Celine Tam on US talent show America’s Got Talent has reignited a debate on parenting, with some members of the public accusing her parents of not letting her have a childhood. Other bloggers have defended her parents, however, claiming that her parents are only helping Celine achieve her dreams. Tam’s audition – in which she sang the hit My Heart Will Go On – went viral with over 7 million views. Local media reported that she began learning to sing when she was three years old. She practises for several hours a day and has participated in numerous televised Hong Kong and mainland Chinese talent shows in her nine short years. But Tam’s story sparked comments from some Hongkongers. “This is outrageous,” wrote one commenter on the Facebook page of news outlet Apple Daily. “Just another way for her parents to make money off her.” Another agreed: “Why couldn’t they have waited until she’s older and more mature before pushing her out in front of everyone?” Others disagreed, however, claiming that Tam’s experience was not extraordinary. “Many children have entered similar competitions. As a parent, if you don’t make a decision for your kids, people will say you’re irresponsible,” wrote ManInCentral-CK. “But if you make a decision for them, people will say you don’t respect their wishes.” TVB has asked your school if any of the students would like to take part in a new talent show. Your music teacher has asked you for your opinions on talent shows. You may want to talk about:",
-      "groupDiscussion": [
-        "why talent shows are popular",
-        "the advantages and disadvantages of taking part in talent shows",
-        "whether parents should let their children take part in talent shows"
-      ],
-      "individualResponse": [
-        "Do you watch talent shows?",
-        "Would you like to be on a talent show?",
-        "Should schools organise talent shows for students?",
-        "What could children learn from competing in a talent show?",
-        "What advice would you give to a young child entering a talent show?",
-        "Do you think talent shows will remain popular in the future?",
-        "What would be stressful about being on a talent show?",
-        "Why do people want to be famous?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "5.1",
-      "title": "Boxing Champion Rex Tso Reveals Secret of Success",
-      "sourceText": "Boxing champion Rex Tso reveals secret of success Rex Tso Sing-yu, a.k.a. The Wonder Kid, has fought 18 professional boxing matches since 2011 and won them all. This year was definitely an important year for Tso. Yet despite his busy fighting schedule, he was able to help many worthwhile causes and serve as an inspiration for youngsters who feel lost and have no direction in life. “I think sports are good for children and teenagers, especially boxing,” said Tso. “Not until I started professional boxing did I find my life goals.” As a teenager, he thought of himself as “junk.” He didn’t do well academically or in other things, except playing video games. After secondary school, he and his friends tried out all sorts of jobs, including being a warehouse worker and a driver. But all those jobs were short-lived as Tso felt he was physically unfit and needed to be stronger to do this type of work. Tso’s life turned a new page when Jay Lau Chi-yuen opened a boxing gym and invited him over. That’s when he really picked up boxing and began to enter professional matches. “Boxing teaches you the need to work hard,” said Tso. “When fighting, you feel under immense stress and quickly learn to control your emotions and develop self-control. Outside the ring, you have to be disciplined about food and learn to keep to your training schedule. These are important life skills.” Your group has been asked to write a letter to Rex Tso inviting him to speak at your school. You are meeting to discuss the letter. You may want to talk about:",
-      "groupDiscussion": [
-        "why Rex would be a suitable speaker",
-        "how to persuade Rex to come to your school",
-        "whether boxing should be promoted in secondary schools in Hong Kong"
-      ],
-      "individualResponse": [
-        "Would you like to try boxing?",
-        "Is boxing a popular sport in Hong Kong?",
-        "Do you like watching boxing on TV?",
-        "Should girls do boxing?",
-        "Does boxing get enough support in Hong Kong?",
-        "Why do some people enjoy dangerous sports such as boxing?",
-        "Do you think boxing encourages violence?",
-        "Is it important to let young people take risks through activities such as boxing?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "4.3",
-      "title": "No Attendance No Problem",
-      "sourceText": "No Attendance No Problem I support the Hong Kong Baptist University’s (HKBU) recent decision to relax attendance requirements for all its students. In the past, students skipping more than 30 per cent of classes would fail a course automatically. Under the new policy, they can still pass with less-than-perfect attendance records. I feel this new policy may improve the overall quality of teaching and stimulate innovation among teaching staff at the university. University students are young adults who should learn to make responsible decisions on how to spend their time. If they find a better way to study course materials than attending lectures, the university should respect their choices. Also, under the new policy, all university teachers must rethink how to attract students with more effective teaching, as their attendance is no longer guaranteed. As a lecturer at the university myself, I have created a series of video lectures students will watch in advance. They can learn the basic concepts and techniques at their own pace through the videos and assigned reading. They can then discuss the materials and receive my feedback on their thinking during classes. I have also created WhatsApp groups for my students to discuss course materials outside the classrooms. With the new attendance policy, Baptist University is well positioned to provide more resources allowing students to access course materials in videos, to study anywhere using their mobile devices and to juggle different commitments in more flexible schedules. Simon Wang, Kowloon Tong Your careers advisor has asked you to discuss attendance policies in education. You may want to talk about:",
-      "groupDiscussion": [
-        "the advantages and disadvantages of HKBU’s attendance policy",
-        "whether you think the policy will be successful",
-        "whether it could be applied to secondary schools"
-      ],
-      "individualResponse": [
-        "Do you like learning online?",
-        "Is it important for students to go to all classes?",
-        "How would parents feel about a relaxed attendance policy?",
-        "Should students who don’t go to class still pass the course?",
-        "Are video lessons the same as face-to-face lessons?",
-        "Why is face-to-face teaching sometimes helpful?",
-        "Are students mature enough to decide if they need to go to class?",
-        "Is attendance more important in some classes than others?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "4.2",
-      "title": "Laid-back Life in Taiwan Is Very Tempting",
-      "sourceText": "Laid-back life in Taiwan is very tempting I refer to Nick Westra’s article “Why are so many Hongkongers moving to Taiwan?”. I agree that a lot of people from Hong Kong are realising that Taiwan is the ideal place for them to settle down. The living environment in Hong Kong is becoming more difficult. Costs keep rising in what is already one of the most expensive cities in the world, especially when it comes to property prices and rent. People have to work long hours to earn enough to cover living expenses. They don’t have enough time to spend with their families and are so tired that on Sundays they often sleep all day. Life in the city is too hectic, and the workplace is too competitive. However, the pace of life is much slower in Taiwan. I think you can enjoy a much less complicated way of life there and being away from the fierce competition in Hong Kong’s offices must be very liberating. Families with children can have a good quality of life because, although the salaries are lower in Taiwan, the cost of living is also much lower. While it is a big change in lifestyle, I am sure people who relocate to Taiwan will eventually adapt to living there and enjoy living there. Lily Wong, Kwai Chung Recently two of your classmates have left school and moved to Taiwan. You are discussing this with your group. You may want to talk about:",
-      "groupDiscussion": [
-        "the differences between Hong Kong and Taiwan",
-        "the advantages and disadvantages of going to live in Taiwan",
-        "the most important factor in deciding whether to move to Taiwan"
-      ],
-      "individualResponse": [
-        "Would you like to visit Taiwan?",
-        "Would you like to live in Taiwan?",
-        "Do you think you will ever live in another country?",
-        "What do you think people miss when they move away from Hong Kong?",
-        "What problems do young people face when they move to another country?",
-        "Why do you think most Hongkongers work long hours?",
-        "Would you stay in touch with friends who move to another country?",
-        "Does modern communication make emigrating easier?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "4.1",
-      "title": "An Interview with Music Producer Mark Lui",
-      "sourceText": "Do you think the Hong Kong music scene is getting better or worse? I would have to say that the industry is getting worse. The younger generation lacks hunger and the drive to be a superstar. I also don’t see any new composers trying to do anything innovative. People seem content to just turn out the same old formulae again and again. What do you think about our upcoming artists? The talent is higher but the motivation is lower, which is a pity. Artists these days aren’t hungry enough. They just want to do music because it’s fun and cool. Why do you feel young people aren’t hungry enough? I think these days life is too easy for them. They get everything they want from their parents. They often have helpers and grandparents carrying bags and doing everything for them. Do you think we can change this? It will be very difficult. The schools are not strict enough and so students don’t learn the importance of hard work. Stars like Jacky Chan spent years and years working hard every day to develop their talent. Now young people think it is enough to have a cool haircut and the latest fashions. What advice would you give to young people wanting to join the music scene? They need to put down their phones and realise that if they have talent it needs to be developed and the only way to do that is hard work and practice. A number of famous people in Hong Kong, such as Mark Lui, have recently criticised the young generation. Your group is meeting to discuss this issue. You may want to talk about:",
-      "groupDiscussion": [
-        "why older people criticise the younger generation",
-        "whether you think the criticism is fair",
-        "what is the biggest challenge for young people nowadays"
-      ],
-      "individualResponse": [
-        "Do you think young people are hard working?",
-        "Do you think young people have an easy life?",
-        "Are young people today given too much help?",
-        "Do you think the younger generation are talented?",
-        "Why is it hard for the older generation to understand the young?",
-        "Do teachers and parents understand the challenges younger people face?",
-        "Would you prefer to be a teenager today or a teenager in the past?",
-        "How can the older generation better support the younger generation?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "3.3",
-      "title": "Want to Get Fired Up? The Hong Kong Fire Services Department Is Seeking Hundreds of Recruits",
-      "sourceText": "As a member of the Hong Kong Fire Services Department (FSD), whose primary purpose it is to serve and protect the community, a Hong Kong firefighter has a challenging career. At the same time, being a firefighter offers a variety of career opportunities, is hugely rewarding, and has an excellent starting salary ($18,000 per month). The men and women of the FSD can be called upon to cover a range of incidents, including traffic and industrial accidents, gas leakages, landslides, flooding, building collapses, and even malfunctioning lifts. In the next year, the FSD is aiming to recruit 60 station officers and 160 firefighters. “The first and most important question that anyone considering a career as a Hong Kong firefighter should ask themselves is: ‘Do I have the wholehearted willingness to serve the community?’,” says Wong Ka-wing, divisional officer of the FSD’s recruitment, training and examination group. “Being a firefighter is about being trustworthy, and someone the public can always rely on in any situation.” Those wishing to be a firefighter have to complete a 36-week training programme. Then recruits are assigned to fire stations around Hong Kong to begin a three-year probation period. “On-the-job field training is very important because this is where recruits are dealing with real-life scenarios,” says Wong. The FSD also provides public education and awareness training and carries out fire safety inspections on licensed premises. Your careers adviser has asked the class to give presentations on different careers and jobs in Hong Kong. Your group has been asked to give a presentation on being a firefighter. You are meeting to discuss the topic. You may want to talk about:",
-      "groupDiscussion": [
-        "what skills and qualities are needed to be a good firefighter",
-        "the advantages and disadvantages of working as a firefighter",
-        "activities that you could organise to help students learn about the job"
-      ],
-      "individualResponse": [
-        "Would you like to be a firefighter?",
-        "Would your parents like you to become a firefighter?",
-        "What do you think is the worst part of being a firefighter?",
-        "Do you think a high academic qualification is necessary to be a firefighter?",
-        "What do you think would be the best part of working for the Fire Services Department?",
-        "Do you think the job of a firefighter is rewarding?",
-        "Should duties be different for male and female firefighters?",
-        "Does Hong Kong society appreciate firefighters?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "3.2",
-      "title": "Mongkok E-sports Festival Shoots for the Stars",
-      "sourceText": "Mongkok e-sports festival shoots for the stars I was glad to see that the three-day e-sports festival in Mongkok last weekend proved to be so popular, with gamers coming from all over the world to take part. If you’re not up to speed, an e-sports festival is an event where gamers compete by playing multi-player video games on a huge screen on stage with a live audience watching. The event in Mongkok was the first event of its kind in Hong Kong though big e-sports festivals in South Korea have been attracting large numbers of tourists and spectators to their venues in recent years. Many Hong Kong locals took the opportunity to attend hoping to learn something from the top international players. The government gave a grant of HK$35 million for the festival and, as it was so successful, I hope additional funding will be made available so that we can see more of these events involving gamers from here and abroad. A word of warning though for all of you who have set your hearts on having a career as a professional gamer touring the world competing at these events. Just like being a pop star, only a lucky few succeed. Many more fall by the wayside, their dreams in tatters with nothing more than a video game addiction to show for it, while their classmates at school have passed their exams and moved on to university. Theo Lam, Po Lam You are members of the school computer club. You want to hold an inter-school e-sports festival at your school. You are meeting to discuss this. You may want to talk about:",
-      "groupDiscussion": [
-        "advantages of holding an inter-school e-sports festival at your school",
-        "possible problems that may occur",
-        "how to promote the festival"
-      ],
-      "individualResponse": [
-        "Would you like to go to an e-sports festival?",
-        "Do you think e-sports will become more popular in the future?",
-        "Would your parents be happy if you became an e-sports professional?",
-        "What skills do you need to be good at e-sports?",
-        "Should schools teach e-sports in PE lessons?",
-        "Why do some people enjoy watching rather than playing computer games?",
-        "Could someone be a successful gamer and a successful student?",
-        "Should the government promote e-sports festivals?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "3.1",
-      "title": "Four Reasons Why Doing Nothing Is Not Boring at All",
-      "sourceText": "Four reasons why doing nothing is not boring at all For all the wonderful ways that smartphones make life easier and information more accessible, the truth is, we’re not programmed to be constantly in “go” mode, and this overstimulation can have a seriously negative impact on our health. My solution? Sitting doing nothing. Taking time to do nothing and letting yourself pause from friends and technology is one of the best things you can do. Here are four reasons to simply do nothing. 1. It Stops Tech Addiction. Smartphone addiction is a real thing. Spending too much time using technology and social media has been linked to depression and worry, and poor sleep. So the next time you have time to kill, stick your phone in your bag and kill time the old-fashioned way: whether it’s daydreaming, doodling, or just sitting around, keep away from that screen. 2. Doing Nothing Can Boost Creativity. Research has found that daydreaming involves the same processes that govern imagination. So if you’re looking to get more creative, do nothing and let the creative juices flow. 3. You Can Discover New Hobbies & Interests. If you use the extra energy you have saved doing nothing to try a new activity, you’ll enjoy your time and learn something, whereas if you’re just scrolling through Instagram, you won’t really have gained anything. 4. Unplugging & Recharging Can Relieve Stress. Take some time to unplug and recharge for improved sleep and less stress. Your principal has asked your group to prepare a talk for the next Parent-Teacher Association meeting on why letting students do nothing can be a good thing. You may want to talk about:",
-      "groupDiscussion": [
-        "whether students have enough free time",
-        "the advantages and disadvantages of students doing nothing",
-        "how you will explain to parents the value of letting their children do nothing"
-      ],
-      "individualResponse": [
-        "When do you feel bored?",
-        "What things do you find boring?",
-        "What do you do to stop being bored?",
-        "Do you enjoy doing nothing?",
-        "Do students have too many activities outside school?",
-        "Do you find school holidays boring?",
-        "Do you think it is important to keep busy?",
-        "Do you think exposure to technology has restricted your imagination?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "2.3",
-      "title": "Li Ka Shing Foundation to Give HK$5,000 Each to DSE Candidates in Remote Districts",
-      "sourceText": "Li Ka Shing Foundation to give HK$5,000 each to DSE candidates in remote districts Gift comes under scheme that covers 3,700 candidates from schools in Tin Shui Wai and outlying islands. Tycoon Li Ka-shing’s charity is giving HK$5,000 cash each to students in some districts sitting for the Diploma of Secondary Education examination. The Li Ka Shing Foundation said it hoped that the gift would enable them to focus their energy on the exam. It comes under the pilot scheme “Decide Well, Spend Wisely”, which covers 3,700 candidates from secondary schools in Tin Shui Wai and outlying islands, including Lantau, Cheung Chau, Lamma and Peng Chau. “We trust that [the students] will spend the money wisely according to their needs,” the Foundation said in an announcement. Although students will be able to spend the money on anything and there will be no checks, the Foundation is confident that most students will use the money wisely and use it to help their studies and prepare themselves for the exams. The funds will be distributed upon registration. The charity explained that the cash initiative was based on feedback received from “Love HK Your Way!”, a HK$300 million charity campaign launched by the foundation in 2010, which indicated unconditional cash distribution could be a direct and cost-efficient approach. The Foundation said it would review its learning from this pilot scheme and decide whether to extend it to candidates from other areas. The Foundation was set up in 1980 to manage the tycoon’s charitable donations. The Li Ka Shing Foundation is consulting students about whether the scheme should be available for all students in Hong Kong. They have asked your group for comments on the scheme. You may want to talk about:",
-      "groupDiscussion": [
-        "the advantages and disadvantages of the scheme",
-        "whether students will spend the money wisely",
-        "whether it should be available for all students in Hong Kong"
-      ],
-      "individualResponse": [
-        "Would you like to get this money?",
-        "Do you think 5000 dollars is too much money to give to students?",
-        "If you were Li Ka Shing, what charity would you support with the money?",
-        "Is money important for a successful education?",
-        "Which other groups of people could benefit more from a donation like this?",
-        "Are students taught enough about how to manage money?",
-        "What other kind of help could be given to students?",
-        "Why do the wealthy like to give money to charity?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "2.2",
-      "title": "Why Are the Streets of Hong Kong Full of Kids in Matching T-shirts?",
-      "sourceText": "Why are the streets of Hong Kong full of kids in matching T-shirts? There’s nothing quite as crazy as OCamp. Most countries operate introduction days for students at the start of university, but there’s nothing quite as uniquely crazy as the orientation week for new students in Hong Kong (known as “OCamp”). OCamps tend to run from about three days to a week before a university term starts. Bright-eyed students arrive ready to embark on their all-new college careers. They all have to wear the same t-shirts and do a sequence of crazy activities. Every OCamp has a “city hunt” – where students are given silly tasks to do all over the city. You might be sent to Fortress to ask for a solar-powered flashlight – an old joke from a Stephen Chow movie – or be told to wave at people in the gym until they wave back. Then there’s the “Campfire”. Sometimes there’s a circle of flashlights, sometimes there’s not, but the whole group joins in and is taught songs and dances. Students stay up talking, getting to know each other. They have to learn as much as they can about each other before the start of university. It’s frankly crazy, but it works. OCamp is about bringing different students together and giving them a way to bond, starting them out on friendships that will get them through university and beyond. Once you’ve learned the dance steps to really stupid songs, nothing’s ever going to be the same again. Your principal has asked you to help with an OCamp for new S1 students at your school. Your group is meeting to discuss this. You may want to talk about:",
-      "groupDiscussion": [
-        "the advantages and disadvantages of having an OCamp",
-        "activities that would help new students get to know each other",
-        "how to organise the activities"
-      ],
-      "individualResponse": [
-        "Would you like to join an OCamp?",
-        "Do you think an OCamp is a good way to meet new friends?",
-        "Why is it important for students to make new friends at an OCamp?",
-        "What problems do students face if they can’t attend OCamp?",
-        "Would you enjoy doing a dance in front of lots of people?",
-        "How else can universities help new students adapt to university life?",
-        "Who would be better at organising the OCamp: students or teachers?",
-        "Would an OCamp be a good idea in the workplace?"
-      ]
-    },
-    {
-      "year": 2018,
-      "set": "2.1",
-      "title": "Bike-sharing Services Push Off in Hong Kong",
-      "sourceText": "Bike-sharing services push off in Hong Kong Smart.bike, a start-up founded by Peter Wong two months ago, aims to offer busy people an easy option for short distance commutes. The service works by allowing cyclists to rent and drop off bicycles around Hong Kong. “We are here to make transportation convenient and affordable,” he said. A ride on a Smart bike will cost HK$5 per half hour. Currently, bike rentals for leisure purposes cost HK$40 per day in Tai Po. Wong said that there was a great demand for bike-sharing in a city like Hong Kong, where people walk considerable distances between public transport stops. Bicycles certainly fill this gap. To rent a Smart bike, which is powered by solar panels, users will need to log into a mobile application, register their credit card and pay a deposit of HK$399. An active map will locate the nearest bicycle. The company has 400 bikes at present. The number is expected to reach 1,000 by the end of the week, and 20,000 by July. Unlike existing bike rental services in Hong Kong, cyclists riding Smart bikes will not have to pick up and drop off their bicycles at fixed locations. “You can park them anywhere as long as it is legal,” Wong said, referring to public cycle parking spaces across the city. He said the service could also be a solution for people who had very limited living space to store their own bikes. Your economics teacher wants you to discuss businesses which offer sharing services. You may want to talk about:",
-      "groupDiscussion": [
-        "the advantages of bike-sharing services",
-        "the problems of bike-sharing services and possible solutions",
-        "other sharing services that could be introduced in Hong Kong"
-      ],
-      "individualResponse": [
-        "Do you ever go cycling?",
-        "How did you learn to ride a bike?",
-        "Would you use a bike-sharing service?",
-        "Why can cycling in Hong Kong be dangerous?",
-        "Would you prefer to cycle to school or take public transport?",
-        "What can the government do to improve safety for cyclists?",
-        "Do you think car-sharing would be successful?",
-        "Will there be more sharing services in the future?"
+        "Do you ever watch TVB?",
+        "Do you enjoy watching TVB dramas?",
+        "What types of TVB programme do you like to watch?",
+        "Do you prefer local TV programmes or foreign TV programmes?",
+        "Do you prefer to watch programmes on TV or online?",
+        "Should the government do more to support free TV stations?",
+        "How would you feel if TVB closed?",
+        "How important is TVB to Hong Kong culture?"
       ]
     },
     {
@@ -8544,23 +8418,443 @@ window.EDMUND_DSE_SPEAKING_DATA = Object.freeze({
     },
     {
       "year": 2018,
-      "set": "1.2",
-      "title": "The Decline and Fall of TVB?",
-      "sourceText": "The decline and fall of TVB? TVB, Hong Kong’s biggest free TV station, used to be Hong Kong’s pride. It was a leader in shaping the city’s pop culture in the 1980s. But the broadcaster appears to be losing support with the latest viewing figures showing that the average evening audience of TVB fell from 2.4 million in 1984 to 1.58 million in 2016. The fall is especially noticeable in TVB top drama series. In 2008, four out of the five top-rated TVB shows had an average audience size of more than two million viewers. By 2016, none of the five top-rated shows passed two million viewers. The lack of financial investment and creativity are two reasons often given for the decline in the broadcaster’s viewing figures. Many of the TVB drama serials have been shot using the same props and sceneries for years now. TVB fans have made fun of this by doing a “screen capture” of one scene in a drama series and comparing it with another done for another show. Because of the management’s cost-control measures, only a small number of artists dominate the shows in primetime slots. As a result, viewers get confused after watching the same actor performing the roles of three different characters in three different drama programmes in a single night. The worst may yet be to come for TVB though, as more Hong Kong viewers take to the internet to satisfy their drama-watching craving, especially given the current trend for watching all things Korean. You are doing a school project on TVB. Your group has been asked to discuss the fall in the number of viewers. You may want to talk about:",
+      "set": "2.1",
+      "title": "Bike-sharing Services Push Off in Hong Kong",
+      "sourceText": "Bike-sharing services push off in Hong Kong Smart.bike, a start-up founded by Peter Wong two months ago, aims to offer busy people an easy option for short distance commutes. The service works by allowing cyclists to rent and drop off bicycles around Hong Kong. “We are here to make transportation convenient and affordable,” he said. A ride on a Smart bike will cost HK$5 per half hour. Currently, bike rentals for leisure purposes cost HK$40 per day in Tai Po. Wong said that there was a great demand for bike-sharing in a city like Hong Kong, where people walk considerable distances between public transport stops. Bicycles certainly fill this gap. To rent a Smart bike, which is powered by solar panels, users will need to log into a mobile application, register their credit card and pay a deposit of HK$399. An active map will locate the nearest bicycle. The company has 400 bikes at present. The number is expected to reach 1,000 by the end of the week, and 20,000 by July. Unlike existing bike rental services in Hong Kong, cyclists riding Smart bikes will not have to pick up and drop off their bicycles at fixed locations. “You can park them anywhere as long as it is legal,” Wong said, referring to public cycle parking spaces across the city. He said the service could also be a solution for people who had very limited living space to store their own bikes. Your economics teacher wants you to discuss businesses which offer sharing services. You may want to talk about:",
       "groupDiscussion": [
-        "why TVB was so successful in Hong Kong in the past",
-        "why there is a fall in the number of viewers",
-        "whether TVB can be successful again in the future"
+        "the advantages of bike-sharing services",
+        "the problems of bike-sharing services and possible solutions",
+        "other sharing services that could be introduced in Hong Kong"
       ],
       "individualResponse": [
-        "Do you ever watch TVB?",
-        "Do you enjoy watching TVB dramas?",
-        "What types of TVB programme do you like to watch?",
-        "Do you prefer local TV programmes or foreign TV programmes?",
-        "Do you prefer to watch programmes on TV or online?",
-        "Should the government do more to support free TV stations?",
-        "How would you feel if TVB closed?",
-        "How important is TVB to Hong Kong culture?"
+        "Do you ever go cycling?",
+        "How did you learn to ride a bike?",
+        "Would you use a bike-sharing service?",
+        "Why can cycling in Hong Kong be dangerous?",
+        "Would you prefer to cycle to school or take public transport?",
+        "What can the government do to improve safety for cyclists?",
+        "Do you think car-sharing would be successful?",
+        "Will there be more sharing services in the future?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "2.2",
+      "title": "Why Are the Streets of Hong Kong Full of Kids in Matching T-shirts?",
+      "sourceText": "Why are the streets of Hong Kong full of kids in matching T-shirts? There’s nothing quite as crazy as OCamp. Most countries operate introduction days for students at the start of university, but there’s nothing quite as uniquely crazy as the orientation week for new students in Hong Kong (known as “OCamp”). OCamps tend to run from about three days to a week before a university term starts. Bright-eyed students arrive ready to embark on their all-new college careers. They all have to wear the same t-shirts and do a sequence of crazy activities. Every OCamp has a “city hunt” – where students are given silly tasks to do all over the city. You might be sent to Fortress to ask for a solar-powered flashlight – an old joke from a Stephen Chow movie – or be told to wave at people in the gym until they wave back. Then there’s the “Campfire”. Sometimes there’s a circle of flashlights, sometimes there’s not, but the whole group joins in and is taught songs and dances. Students stay up talking, getting to know each other. They have to learn as much as they can about each other before the start of university. It’s frankly crazy, but it works. OCamp is about bringing different students together and giving them a way to bond, starting them out on friendships that will get them through university and beyond. Once you’ve learned the dance steps to really stupid songs, nothing’s ever going to be the same again. Your principal has asked you to help with an OCamp for new S1 students at your school. Your group is meeting to discuss this. You may want to talk about:",
+      "groupDiscussion": [
+        "the advantages and disadvantages of having an OCamp",
+        "activities that would help new students get to know each other",
+        "how to organise the activities"
+      ],
+      "individualResponse": [
+        "Would you like to join an OCamp?",
+        "Do you think an OCamp is a good way to meet new friends?",
+        "Why is it important for students to make new friends at an OCamp?",
+        "What problems do students face if they can’t attend OCamp?",
+        "Would you enjoy doing a dance in front of lots of people?",
+        "How else can universities help new students adapt to university life?",
+        "Who would be better at organising the OCamp: students or teachers?",
+        "Would an OCamp be a good idea in the workplace?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "2.3",
+      "title": "Li Ka Shing Foundation to Give HK$5,000 Each to DSE Candidates in Remote Districts",
+      "sourceText": "Li Ka Shing Foundation to give HK$5,000 each to DSE candidates in remote districts Gift comes under scheme that covers 3,700 candidates from schools in Tin Shui Wai and outlying islands. Tycoon Li Ka-shing’s charity is giving HK$5,000 cash each to students in some districts sitting for the Diploma of Secondary Education examination. The Li Ka Shing Foundation said it hoped that the gift would enable them to focus their energy on the exam. It comes under the pilot scheme “Decide Well, Spend Wisely”, which covers 3,700 candidates from secondary schools in Tin Shui Wai and outlying islands, including Lantau, Cheung Chau, Lamma and Peng Chau. “We trust that [the students] will spend the money wisely according to their needs,” the Foundation said in an announcement. Although students will be able to spend the money on anything and there will be no checks, the Foundation is confident that most students will use the money wisely and use it to help their studies and prepare themselves for the exams. The funds will be distributed upon registration. The charity explained that the cash initiative was based on feedback received from “Love HK Your Way!”, a HK$300 million charity campaign launched by the foundation in 2010, which indicated unconditional cash distribution could be a direct and cost-efficient approach. The Foundation said it would review its learning from this pilot scheme and decide whether to extend it to candidates from other areas. The Foundation was set up in 1980 to manage the tycoon’s charitable donations. The Li Ka Shing Foundation is consulting students about whether the scheme should be available for all students in Hong Kong. They have asked your group for comments on the scheme. You may want to talk about:",
+      "groupDiscussion": [
+        "the advantages and disadvantages of the scheme",
+        "whether students will spend the money wisely",
+        "whether it should be available for all students in Hong Kong"
+      ],
+      "individualResponse": [
+        "Would you like to get this money?",
+        "Do you think 5000 dollars is too much money to give to students?",
+        "If you were Li Ka Shing, what charity would you support with the money?",
+        "Is money important for a successful education?",
+        "Which other groups of people could benefit more from a donation like this?",
+        "Are students taught enough about how to manage money?",
+        "What other kind of help could be given to students?",
+        "Why do the wealthy like to give money to charity?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "3.1",
+      "title": "Four Reasons Why Doing Nothing Is Not Boring at All",
+      "sourceText": "Four reasons why doing nothing is not boring at all For all the wonderful ways that smartphones make life easier and information more accessible, the truth is, we’re not programmed to be constantly in “go” mode, and this overstimulation can have a seriously negative impact on our health. My solution? Sitting doing nothing. Taking time to do nothing and letting yourself pause from friends and technology is one of the best things you can do. Here are four reasons to simply do nothing. 1. It Stops Tech Addiction. Smartphone addiction is a real thing. Spending too much time using technology and social media has been linked to depression and worry, and poor sleep. So the next time you have time to kill, stick your phone in your bag and kill time the old-fashioned way: whether it’s daydreaming, doodling, or just sitting around, keep away from that screen. 2. Doing Nothing Can Boost Creativity. Research has found that daydreaming involves the same processes that govern imagination. So if you’re looking to get more creative, do nothing and let the creative juices flow. 3. You Can Discover New Hobbies & Interests. If you use the extra energy you have saved doing nothing to try a new activity, you’ll enjoy your time and learn something, whereas if you’re just scrolling through Instagram, you won’t really have gained anything. 4. Unplugging & Recharging Can Relieve Stress. Take some time to unplug and recharge for improved sleep and less stress. Your principal has asked your group to prepare a talk for the next Parent-Teacher Association meeting on why letting students do nothing can be a good thing. You may want to talk about:",
+      "groupDiscussion": [
+        "whether students have enough free time",
+        "the advantages and disadvantages of students doing nothing",
+        "how you will explain to parents the value of letting their children do nothing"
+      ],
+      "individualResponse": [
+        "When do you feel bored?",
+        "What things do you find boring?",
+        "What do you do to stop being bored?",
+        "Do you enjoy doing nothing?",
+        "Do students have too many activities outside school?",
+        "Do you find school holidays boring?",
+        "Do you think it is important to keep busy?",
+        "Do you think exposure to technology has restricted your imagination?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "3.2",
+      "title": "Mongkok E-sports Festival Shoots for the Stars",
+      "sourceText": "Mongkok e-sports festival shoots for the stars I was glad to see that the three-day e-sports festival in Mongkok last weekend proved to be so popular, with gamers coming from all over the world to take part. If you’re not up to speed, an e-sports festival is an event where gamers compete by playing multi-player video games on a huge screen on stage with a live audience watching. The event in Mongkok was the first event of its kind in Hong Kong though big e-sports festivals in South Korea have been attracting large numbers of tourists and spectators to their venues in recent years. Many Hong Kong locals took the opportunity to attend hoping to learn something from the top international players. The government gave a grant of HK$35 million for the festival and, as it was so successful, I hope additional funding will be made available so that we can see more of these events involving gamers from here and abroad. A word of warning though for all of you who have set your hearts on having a career as a professional gamer touring the world competing at these events. Just like being a pop star, only a lucky few succeed. Many more fall by the wayside, their dreams in tatters with nothing more than a video game addiction to show for it, while their classmates at school have passed their exams and moved on to university. Theo Lam, Po Lam You are members of the school computer club. You want to hold an inter-school e-sports festival at your school. You are meeting to discuss this. You may want to talk about:",
+      "groupDiscussion": [
+        "advantages of holding an inter-school e-sports festival at your school",
+        "possible problems that may occur",
+        "how to promote the festival"
+      ],
+      "individualResponse": [
+        "Would you like to go to an e-sports festival?",
+        "Do you think e-sports will become more popular in the future?",
+        "Would your parents be happy if you became an e-sports professional?",
+        "What skills do you need to be good at e-sports?",
+        "Should schools teach e-sports in PE lessons?",
+        "Why do some people enjoy watching rather than playing computer games?",
+        "Could someone be a successful gamer and a successful student?",
+        "Should the government promote e-sports festivals?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "3.3",
+      "title": "Want to Get Fired Up? The Hong Kong Fire Services Department Is Seeking Hundreds of Recruits",
+      "sourceText": "As a member of the Hong Kong Fire Services Department (FSD), whose primary purpose it is to serve and protect the community, a Hong Kong firefighter has a challenging career. At the same time, being a firefighter offers a variety of career opportunities, is hugely rewarding, and has an excellent starting salary ($18,000 per month). The men and women of the FSD can be called upon to cover a range of incidents, including traffic and industrial accidents, gas leakages, landslides, flooding, building collapses, and even malfunctioning lifts. In the next year, the FSD is aiming to recruit 60 station officers and 160 firefighters. “The first and most important question that anyone considering a career as a Hong Kong firefighter should ask themselves is: ‘Do I have the wholehearted willingness to serve the community?’,” says Wong Ka-wing, divisional officer of the FSD’s recruitment, training and examination group. “Being a firefighter is about being trustworthy, and someone the public can always rely on in any situation.” Those wishing to be a firefighter have to complete a 36-week training programme. Then recruits are assigned to fire stations around Hong Kong to begin a three-year probation period. “On-the-job field training is very important because this is where recruits are dealing with real-life scenarios,” says Wong. The FSD also provides public education and awareness training and carries out fire safety inspections on licensed premises. Your careers adviser has asked the class to give presentations on different careers and jobs in Hong Kong. Your group has been asked to give a presentation on being a firefighter. You are meeting to discuss the topic. You may want to talk about:",
+      "groupDiscussion": [
+        "what skills and qualities are needed to be a good firefighter",
+        "the advantages and disadvantages of working as a firefighter",
+        "activities that you could organise to help students learn about the job"
+      ],
+      "individualResponse": [
+        "Would you like to be a firefighter?",
+        "Would your parents like you to become a firefighter?",
+        "What do you think is the worst part of being a firefighter?",
+        "Do you think a high academic qualification is necessary to be a firefighter?",
+        "What do you think would be the best part of working for the Fire Services Department?",
+        "Do you think the job of a firefighter is rewarding?",
+        "Should duties be different for male and female firefighters?",
+        "Does Hong Kong society appreciate firefighters?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "4.1",
+      "title": "An Interview with Music Producer Mark Lui",
+      "sourceText": "Do you think the Hong Kong music scene is getting better or worse? I would have to say that the industry is getting worse. The younger generation lacks hunger and the drive to be a superstar. I also don’t see any new composers trying to do anything innovative. People seem content to just turn out the same old formulae again and again. What do you think about our upcoming artists? The talent is higher but the motivation is lower, which is a pity. Artists these days aren’t hungry enough. They just want to do music because it’s fun and cool. Why do you feel young people aren’t hungry enough? I think these days life is too easy for them. They get everything they want from their parents. They often have helpers and grandparents carrying bags and doing everything for them. Do you think we can change this? It will be very difficult. The schools are not strict enough and so students don’t learn the importance of hard work. Stars like Jacky Chan spent years and years working hard every day to develop their talent. Now young people think it is enough to have a cool haircut and the latest fashions. What advice would you give to young people wanting to join the music scene? They need to put down their phones and realise that if they have talent it needs to be developed and the only way to do that is hard work and practice. A number of famous people in Hong Kong, such as Mark Lui, have recently criticised the young generation. Your group is meeting to discuss this issue. You may want to talk about:",
+      "groupDiscussion": [
+        "why older people criticise the younger generation",
+        "whether you think the criticism is fair",
+        "what is the biggest challenge for young people nowadays"
+      ],
+      "individualResponse": [
+        "Do you think young people are hard working?",
+        "Do you think young people have an easy life?",
+        "Are young people today given too much help?",
+        "Do you think the younger generation are talented?",
+        "Why is it hard for the older generation to understand the young?",
+        "Do teachers and parents understand the challenges younger people face?",
+        "Would you prefer to be a teenager today or a teenager in the past?",
+        "How can the older generation better support the younger generation?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "4.2",
+      "title": "Laid-back Life in Taiwan Is Very Tempting",
+      "sourceText": "Laid-back life in Taiwan is very tempting I refer to Nick Westra’s article “Why are so many Hongkongers moving to Taiwan?”. I agree that a lot of people from Hong Kong are realising that Taiwan is the ideal place for them to settle down. The living environment in Hong Kong is becoming more difficult. Costs keep rising in what is already one of the most expensive cities in the world, especially when it comes to property prices and rent. People have to work long hours to earn enough to cover living expenses. They don’t have enough time to spend with their families and are so tired that on Sundays they often sleep all day. Life in the city is too hectic, and the workplace is too competitive. However, the pace of life is much slower in Taiwan. I think you can enjoy a much less complicated way of life there and being away from the fierce competition in Hong Kong’s offices must be very liberating. Families with children can have a good quality of life because, although the salaries are lower in Taiwan, the cost of living is also much lower. While it is a big change in lifestyle, I am sure people who relocate to Taiwan will eventually adapt to living there and enjoy living there. Lily Wong, Kwai Chung Recently two of your classmates have left school and moved to Taiwan. You are discussing this with your group. You may want to talk about:",
+      "groupDiscussion": [
+        "the differences between Hong Kong and Taiwan",
+        "the advantages and disadvantages of going to live in Taiwan",
+        "the most important factor in deciding whether to move to Taiwan"
+      ],
+      "individualResponse": [
+        "Would you like to visit Taiwan?",
+        "Would you like to live in Taiwan?",
+        "Do you think you will ever live in another country?",
+        "What do you think people miss when they move away from Hong Kong?",
+        "What problems do young people face when they move to another country?",
+        "Why do you think most Hongkongers work long hours?",
+        "Would you stay in touch with friends who move to another country?",
+        "Does modern communication make emigrating easier?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "4.3",
+      "title": "No Attendance No Problem",
+      "sourceText": "No Attendance No Problem I support the Hong Kong Baptist University’s (HKBU) recent decision to relax attendance requirements for all its students. In the past, students skipping more than 30 per cent of classes would fail a course automatically. Under the new policy, they can still pass with less-than-perfect attendance records. I feel this new policy may improve the overall quality of teaching and stimulate innovation among teaching staff at the university. University students are young adults who should learn to make responsible decisions on how to spend their time. If they find a better way to study course materials than attending lectures, the university should respect their choices. Also, under the new policy, all university teachers must rethink how to attract students with more effective teaching, as their attendance is no longer guaranteed. As a lecturer at the university myself, I have created a series of video lectures students will watch in advance. They can learn the basic concepts and techniques at their own pace through the videos and assigned reading. They can then discuss the materials and receive my feedback on their thinking during classes. I have also created WhatsApp groups for my students to discuss course materials outside the classrooms. With the new attendance policy, Baptist University is well positioned to provide more resources allowing students to access course materials in videos, to study anywhere using their mobile devices and to juggle different commitments in more flexible schedules. Simon Wang, Kowloon Tong Your careers advisor has asked you to discuss attendance policies in education. You may want to talk about:",
+      "groupDiscussion": [
+        "the advantages and disadvantages of HKBU’s attendance policy",
+        "whether you think the policy will be successful",
+        "whether it could be applied to secondary schools"
+      ],
+      "individualResponse": [
+        "Do you like learning online?",
+        "Is it important for students to go to all classes?",
+        "How would parents feel about a relaxed attendance policy?",
+        "Should students who don’t go to class still pass the course?",
+        "Are video lessons the same as face-to-face lessons?",
+        "Why is face-to-face teaching sometimes helpful?",
+        "Are students mature enough to decide if they need to go to class?",
+        "Is attendance more important in some classes than others?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "5.1",
+      "title": "Boxing Champion Rex Tso Reveals Secret of Success",
+      "sourceText": "Boxing champion Rex Tso reveals secret of success Rex Tso Sing-yu, a.k.a. The Wonder Kid, has fought 18 professional boxing matches since 2011 and won them all. This year was definitely an important year for Tso. Yet despite his busy fighting schedule, he was able to help many worthwhile causes and serve as an inspiration for youngsters who feel lost and have no direction in life. “I think sports are good for children and teenagers, especially boxing,” said Tso. “Not until I started professional boxing did I find my life goals.” As a teenager, he thought of himself as “junk.” He didn’t do well academically or in other things, except playing video games. After secondary school, he and his friends tried out all sorts of jobs, including being a warehouse worker and a driver. But all those jobs were short-lived as Tso felt he was physically unfit and needed to be stronger to do this type of work. Tso’s life turned a new page when Jay Lau Chi-yuen opened a boxing gym and invited him over. That’s when he really picked up boxing and began to enter professional matches. “Boxing teaches you the need to work hard,” said Tso. “When fighting, you feel under immense stress and quickly learn to control your emotions and develop self-control. Outside the ring, you have to be disciplined about food and learn to keep to your training schedule. These are important life skills.” Your group has been asked to write a letter to Rex Tso inviting him to speak at your school. You are meeting to discuss the letter. You may want to talk about:",
+      "groupDiscussion": [
+        "why Rex would be a suitable speaker",
+        "how to persuade Rex to come to your school",
+        "whether boxing should be promoted in secondary schools in Hong Kong"
+      ],
+      "individualResponse": [
+        "Would you like to try boxing?",
+        "Is boxing a popular sport in Hong Kong?",
+        "Do you like watching boxing on TV?",
+        "Should girls do boxing?",
+        "Does boxing get enough support in Hong Kong?",
+        "Why do some people enjoy dangerous sports such as boxing?",
+        "Do you think boxing encourages violence?",
+        "Is it important to let young people take risks through activities such as boxing?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "5.2",
+      "title": "9-year-old's America's Got Talent Appearance Sparks Parenting Debate",
+      "sourceText": "9-year-old’s America’s Got Talent appearance sparks parenting debate The appearance of nine-year-old Hong Kong singer Celine Tam on US talent show America’s Got Talent has reignited a debate on parenting, with some members of the public accusing her parents of not letting her have a childhood. Other bloggers have defended her parents, however, claiming that her parents are only helping Celine achieve her dreams. Tam’s audition – in which she sang the hit My Heart Will Go On – went viral with over 7 million views. Local media reported that she began learning to sing when she was three years old. She practises for several hours a day and has participated in numerous televised Hong Kong and mainland Chinese talent shows in her nine short years. But Tam’s story sparked comments from some Hongkongers. “This is outrageous,” wrote one commenter on the Facebook page of news outlet Apple Daily. “Just another way for her parents to make money off her.” Another agreed: “Why couldn’t they have waited until she’s older and more mature before pushing her out in front of everyone?” Others disagreed, however, claiming that Tam’s experience was not extraordinary. “Many children have entered similar competitions. As a parent, if you don’t make a decision for your kids, people will say you’re irresponsible,” wrote ManInCentral-CK. “But if you make a decision for them, people will say you don’t respect their wishes.” TVB has asked your school if any of the students would like to take part in a new talent show. Your music teacher has asked you for your opinions on talent shows. You may want to talk about:",
+      "groupDiscussion": [
+        "why talent shows are popular",
+        "the advantages and disadvantages of taking part in talent shows",
+        "whether parents should let their children take part in talent shows"
+      ],
+      "individualResponse": [
+        "Do you watch talent shows?",
+        "Would you like to be on a talent show?",
+        "Should schools organise talent shows for students?",
+        "What could children learn from competing in a talent show?",
+        "What advice would you give to a young child entering a talent show?",
+        "Do you think talent shows will remain popular in the future?",
+        "What would be stressful about being on a talent show?",
+        "Why do people want to be famous?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "5.3",
+      "title": "Brisbane's Waterfront Shows Hong Kong the Way",
+      "sourceText": "Brisbane’s waterfront shows Hong Kong the way Few places in the world have a more stunning natural asset than Victoria Harbour, yet there has been little effort to turn it over to public enjoyment. My recent trip to the north Australian city of Brisbane made that obvious. There are no spectacular skyline views or night-time light shows reflected on shimmering waters. Yet the city’s council has turned their waterfront into a place of recreation and enjoyment for people to enjoy simple activities. There are 20km of floating walkways and bicycle paths, riverside restaurants, parks, gardens and even a beach. A free ferry service makes for leisurely travel between the business and shopping district, restaurants and attractions. Among the places I visited was the Greek Garden, a 1,500-square-metre area of land on the river’s south bank where herbs and vegetables are grown, largely by volunteers; it is essentially a kitchen garden aimed at showing how to grow food plants sustainably at home. The fresh produce is harvested and given away free from food carts. As well as the Greek Garden, an art gallery and performing arts complex, there’s a man-made beach, grasslands, rainforest, a pagoda, a giant wheel, plazas, walkways, a promenade, shops and restaurants. The area, as with other riverside stretches, is lively and flourishing. Hong Kong’s harbour front is, by comparison, dull and boring. Tsim Sha Tsui’s Avenue of the Stars and the laser light show each evening are interesting, but the unfriendly environment of concrete paving and benches doesn’t encourage people to stay. You have been asked to propose facilities that could improve Victoria Harbour. The facilities should encourage more local people to visit the harbour. You may want to talk about:",
+      "groupDiscussion": [
+        "what people might enjoy doing at Victoria Harbour front",
+        "which facilities might be suitable for Victoria Harbour front",
+        "how the new facilities could best be promoted"
+      ],
+      "individualResponse": [
+        "Do you often go to Victoria Harbour?",
+        "What do you enjoy most on a visit to Victoria Harbour?",
+        "What would attract young people to visit Victoria Harbour?",
+        "Should the government do more to improve Victoria Harbour?",
+        "Should the harbour be for business or for pleasure?",
+        "What types of facilities at the harbour are attractive for families with children?",
+        "Should the government make Victoria Harbour more accessible to the public?",
+        "Would you say that Victoria Harbour is the symbol of Hong Kong?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "6.1",
+      "title": "Man Arrested for Flying Drone to Take Photos in Hong Kong International Airport",
+      "sourceText": "Man arrested for flying drone to take photos in Hong Kong International Airport A 51-year-old man accused of flying a drone to take photographs in the restricted area of Hong Kong International Airport’s departure terminal last week was arrested upon his return to the city on Monday. The Hongkonger was picked up at the airport after flying in from Tokyo around midday, police said. He was arrested on suspicion of breaking Airport Authority law on flight safety. The investigation showed the man was flying a drone to take photographs in the restricted area of the airport’s departure hall at about 1.30pm last Thursday before he took a flight to leave Hong Kong. Police were informed after his photos were posted on the internet. Detectives from the airport police district were then assigned to track him down. After being identified, the man was placed on a list of persons wanted by police. He was stopped at the airport at noon, and police found the drone in his luggage. The incident has prompted police to ask members of the public not to fly model planes or drones to take photos inside the airport. A police source said the man had flown the drone near a boarding gate while waiting for a Tokyo-bound flight for a holiday. He posted the photos taken by the drone on his Facebook page, and they were quickly picked up by internet users and spread online. You are meeting members of your science group to discuss a project on drones. You may want to talk about:",
+      "groupDiscussion": [
+        "why drones are popular and useful",
+        "what problems drones might cause",
+        "what rules there should be about flying drones in Hong Kong"
+      ],
+      "individualResponse": [
+        "Would you like to have a drone?",
+        "Are drones popular in Hong Kong?",
+        "Where is a good place to fly a drone in Hong Kong?",
+        "Where would it be dangerous to fly a drone?",
+        "Why are drones good for taking photos?",
+        "How do you think drones will be used in the future?",
+        "How might drones be misused by some people?",
+        "How could the police use drones to reduce crime?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "6.2",
+      "title": "Fake News - There's a LOT of It About",
+      "sourceText": "Fake News: There's a LOT of it about A few years ago, lots of people online were talking about a video they’d seen about chicken McNuggets. The video said that chicken McNuggets were not made from real chicken, but something pink and horrible – people were so upset by the pictures that they said they’d never ever eat chicken McNuggets again. However, these images were fake because a while ago, I watched another video about how chicken McNuggets are actually made – and they are totally made from chicken. I realise it’s super-easy to post made-up stuff, sometimes even fake news, on the internet. I also know anyone with a camera can make a fake film that anyone – especially those who don’t go online very much – will believe. They’ll say they saw it “all over the internet”, therefore it must be true. I think if we believe everything we read online, whether it’s on Facebook, YouTube, or any other forum, without asking questions or thinking deeply about it, then we have a big problem. We need to double-check what we read online, and teach others to question what they read online, too. It’s scary that we live in an age when anyone with access to the internet can publish their own “news”. This is why journalism has become so important. A good journalist can protect us all from misinformation. Your group has to prepare a debate with the motion ‘The internet should be censored because it encourages fake news.’ You may want to talk about:",
+      "groupDiscussion": [
+        "arguments for the motion",
+        "arguments against the motion",
+        "which side would be easier to argue"
+      ],
+      "individualResponse": [
+        "What do you use the internet for?",
+        "Do you watch news on TV or on the internet?",
+        "Why do people spend so much time on the internet?",
+        "Do you trust everything you read on the internet?",
+        "Do you trust information in a newspaper more than on the internet?",
+        "What problems does fake news cause?",
+        "How can we raise people’s awareness about fake news?",
+        "Should governments control what is on the internet?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "6.3",
+      "title": "China Schools Seek to Nip Young Love in the Bud",
+      "sourceText": "China schools seek to nip young love in the bud In recent weeks a number of mainland Chinese secondary schools have introduced new rules designed to discourage teenage dating and romance. Many people are unhappy about the new rules. In one secondary school in Hangzhou, pupils of the opposite sex have been given a very important new instruction. They must maintain a minimum distance of half a metre from each other at all times. In addition, boys and girls are not allowed to go around school premises in pairs. Another school, in the eastern city of Wenzhou, Zhejiang province, has banned what it calls “close interaction” between students of the opposite sex as well as students of the same sex. They do not define what “close interaction” really means. The school authorities in Wenzhou have threatened “severe punishment” against offenders. Secondary schools in China admit students aged just 11 – they are just at the point when they become interested in the opposite sex. And with reports that teenage romance has become more popular at schools, school authorities – as well as parents – are worried that children’s academic performance is being affected. Some schools have moved to stop the young love with the implementation of tight measures – and they will certainly find support from some. Many Chinese regard teenage romance as something undesirable – a feeling that “early love” is immature love – and this helps explain why schools are increasingly teaching young people about the “undesirable effects” of dating. A parent has complained to your school principal about his child dating another student. Your class has been asked to discuss whether there should be guidelines about dating. You may want to talk about:",
+      "groupDiscussion": [
+        "whether you agree with the no dating rule adopted in China",
+        "the advantages and disadvantages of secondary school students dating",
+        "guidelines or advice schools should give students about dating"
+      ],
+      "individualResponse": [
+        "How do parents feel about students dating?",
+        "Is dating common among secondary school students?",
+        "Do students focus too much on their social life and not enough on their studies?",
+        "Have attitudes to dating changed since your parents were young?",
+        "Is dating good for developing social skills?",
+        "Should students tell their parents if they are dating?",
+        "How would you feel if your school stopped students from dating?",
+        "Do attitudes to dating in Hong Kong differ from those in China?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "7.1",
+      "title": "To Reduce Stress, Sink into a Sound Bath (No Water Required)",
+      "sourceText": "To reduce stress, sink into a sound bath (no water required) Gong baths are a type of music therapy that have been used for healing for thousands of years. Canadian-born Martha Collard wants to help as many people as possible to lower stress in fast-paced Hong Kong. To do this, she set up Red Doors Studio, where she hosts gong baths. We gave it a try. What is a gong bath? Don’t be confused by the word bath – there is no water. It’s the sound waves that you are bathed in. Healing with harmonious sound, such as singing or drumming, has been used to clear minds and bodies for thousands of years and gongs (basically flat metal drums) are ideal for this. How does it work? Taking a gong bath is easy. You don’t have to do anything except lie down and close your eyes. Get under the comfortable blanket, have a lavender-scented eye pillow placed over your eyes and … gong. How does it feel? The emotional effect was instant: I had tears in my eyes and the hairs on my arms stood up. Collard says everyone’s reaction is different. “Some people laugh, some cry.” Immediately after the session I felt “fuzzy,” as if in a dreamlike state but a few hours later I had intense focus and energy: I was “buzzing” so much that I found it difficult to sleep, something that never normally happens. Decision I will definitely make it a regular thing. Your school is going to use a room for music therapy. Your group has been asked to suggest a suitable music therapy activity to be introduced to the room. You may want to talk about:",
+      "groupDiscussion": [
+        "whether a gong bath would be suitable",
+        "other music therapy activities that might be suitable",
+        "how to promote music therapy at your school"
+      ],
+      "individualResponse": [
+        "Would you like to try a gong bath?",
+        "Do you think gong baths will become popular?",
+        "What do you usually do to relax?",
+        "Should schools use music and sounds to help students reduce stress?",
+        "Are students more stressed than adults?",
+        "What do you feel is the biggest cause of stress in Hong Kong?",
+        "Can stress be productive?",
+        "Do you think we should encourage more traditional ways of reducing stress?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "7.2",
+      "title": "End to Printed Handouts Good Green Initiative",
+      "sourceText": "End to printed handouts good green initiative Earlier this year, the University of Hong Kong banned the sale of disposable bottled water on its Pok Fu Lam campus. This green initiative was welcomed. Now, in this new academic year, one department at HKU has implemented an unprecedented policy – a ban on giving printed paper handouts to students. I believe this is the right thing to do, and the initiative should be adopted by other departments and the other universities in Hong Kong as well. A semester at our universities lasts about three months, so students will use any handouts that they are given for a very short period of time only. After the term ends, they will probably not be read again. Sometimes, lecturers even print out in-class activity materials that are only used for a few minutes. This is such a tremendous waste of paper. Nearly all university students these days own laptops. These can be used to access online learning resources systems (in HKU and most of the other universities, it is called Moodle) onto which lecturers will upload teaching materials. As long as teachers upload their handouts, there is no need for printouts. This can significantly reduce the amount of paper used for teaching purposes. It is through this kind of cooperation that we can ensure the sustainability of our world. Anson C.Y. Chan, North Point Your school is planning on introducing ‘paperless classrooms’. The school principal has asked students for their opinion on the idea. You may want to talk about:",
+      "groupDiscussion": [
+        "how schools can become paperless",
+        "what challenges there will be",
+        "whether you think it will be successful"
+      ],
+      "individualResponse": [
+        "Do you use a lot of paper at school?",
+        "How often do your teachers give you handouts?",
+        "Do you prefer working on paper or on a laptop?",
+        "Do your teachers let you do homework online?",
+        "Do you keep your school handouts and books after your exams?",
+        "Does modern technology, such as laptops, improve teaching and education?",
+        "Are some subjects better done with paper rather than online?",
+        "Does using IT help to improve the environment?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "7.3",
+      "title": "Employment Traps",
+      "sourceText": "Employment traps Every summer vacation, many students look for summer jobs hoping to get pocket money and working experience. With limited life experience and an eagerness to seek jobs, students often fall prey to scammers’ employment traps which cheat them out of money, steal their personal data or even make them carry out illegal activities. When facing unfamiliar recruitment processes and procedures, students should stay alert and exercise caution. Before taking up any job offer, they should understand the nature of the job thoroughly and assess whether they can meet the job requirements. They should never be tempted by an exceptionally high salary or they may get cheated out of money or end up committing crimes. Many students take any job that happens to come their way. They should pay attention to industrial safety and avoid taking up dangerous work, such as construction work, the operation of heavy machinery, handling of chemicals and corrosive substances, work processes involving extremely high temperatures, etc. They should also make use of the safety equipment provided by employers and strictly follow all safety regulations. Stay alert when seeking jobs. Watch out for employment traps. Tip 1: Watch out for offers that are too attractive Tip 2: Take good care of personal safety, personal data and belongings Tip 3: Find out about your employer and study the employment contract Tip 4: Be informed about current affairs and be ready to seek help You have been asked by the school careers advisor to help organise an activity to help raise awareness of employment traps students may face if they apply for a summer job. You may want to talk about:",
+      "groupDiscussion": [
+        "the advantages and disadvantages of summer work",
+        "how to raise awareness of employment traps for students",
+        "summer jobs that would be suitable for students"
+      ],
+      "individualResponse": [
+        "Would you like to have a summer job?",
+        "What can students learn from a summer job?",
+        "What summer job would you not enjoy?",
+        "Are young people more aware of these traps than in the past?",
+        "Is it easier to cheat younger people or older people?",
+        "What is a suitable age to start doing summer work?",
+        "Should parents encourage children to do summer jobs?",
+        "Should schools arrange summer jobs for students?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "8.1",
+      "title": "Animal-assisted Therapy",
+      "sourceText": "Animal-assisted therapy was once rare and met with the objection that it would only make hospitals dirty. It is, however, increasingly popular in hospitals, according to an Ontario doctor. From watching goldfish swim to having a dog, animal therapy is used to help people relax and give comfort. Many hospitals and homes for the elderly now have animal therapy programs in place. “People think it works and like the idea of it, so they do it,” explains Maggie O’Haire, a doctor in Ontario University. One challenge as the practice has become more widespread has been explaining how exactly it works. “Positive changes from animal-assisted contact are varied and there is no single way that has yet been identified,” says O’Haire. There are a number of theories, however. One is that humans have always enjoyed connecting with other living things. Another is the social support theory – the idea that therapy animals provide a form of simple support. In the past ten years, animal-assisted therapy has greatly expanded. Today, programs exist that provide animals who assist with physical therapy, help tutor children in reading and provide comfort in different places such as disaster zones and university campuses. While research on the subject still has a long way to go, recently studies have shown that having a pet around can lower blood pressure, and the American Heart Association has stated that owning a dog may even lower the risk of heart disease. Your school principal is interested in keeping pets at the school as he believes that animal therapy is good for students. He has asked you to discuss the idea. You may want to talk about:",
+      "groupDiscussion": [
+        "the advantages and disadvantages of animal therapy",
+        "what types of animals would be most suitable for a school",
+        "how the animals could be looked after and help the students"
+      ],
+      "individualResponse": [
+        "Do you like playing with animals?",
+        "Would you like your school to have a pet?",
+        "Do you think students would be good at looking after a school pet?",
+        "Is Hong Kong a suitable place for animal therapy?",
+        "Should animals be allowed into hospitals?",
+        "What animals are suitable for the elderly?",
+        "What can looking after a pet teach people?",
+        "How does a pet provide emotional support for people?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "8.2",
+      "title": "No More Paper Money or Coins",
+      "sourceText": "No more Paper Money or Coins A quick question: what do you take with you when you leave your house? Keys, wallet, and your phone, right? And people in China? I can tell you, most of the time, I just take my phone and just like me, there are now millions of people in China enjoying this cash-free life. The Chinese are now living in the People’s Republic of Digital. Super apps in China have changed our life, and introduced a new era where small change and cash has been left behind. All is needed is a QR code, which can be found everywhere from the largest shop to the smallest stores. What’s a QR code? It’s a Quick Response barcode with a random pattern of tiny black squares against a white background. Shoppers pay by scanning the code with their phones after selecting their goods. No cash is needed in the transaction and everything can be paid by one swipe of your phone. The fact is, every morning when I go to buy breakfast at the street cart vendor, my 4 RMB Chinese jian bing (a kind of pancake with vegetables and eggs inside, which is really yummy by the way), I can just scan, beep and walk off with my pancakes! It sounds like China’s started the transition to a cash-free economy faster than anyone could have imagined. Experts say by 2030 China will be for all intents and purposes, cashless! This is China. Stay tuned. Your Liberal Studies class is discussing how technology is changing society. Your group has been asked to discuss a ‘cashless’ society. You may want to talk about:",
+      "groupDiscussion": [
+        "why many shops prefer people to pay by phone",
+        "what problems a cashless society may cause",
+        "whether Hong Kong should be cash-free in the near future"
+      ],
+      "individualResponse": [
+        "Do you prefer paying by cash or Octopus card?",
+        "What things do you need to pay for in cash?",
+        "Why do some people prefer to use cash?",
+        "Should you always carry some cash?",
+        "What problems can carrying cash have?",
+        "How would older people feel about a cashless society?",
+        "Are changes in technology always a good thing?",
+        "Is a cashless society a sign of a developed country?"
+      ]
+    },
+    {
+      "year": 2018,
+      "set": "8.3",
+      "title": "Getting Back to Nature at City Farms",
+      "sourceText": "Getting back to nature at city farms Some of you guys probably know about rentable allotments or city farms but I thought I’d share my experience with people new to Hong Kong. I rent my city farm in Fu Tei near Tuen Mun. I live in the neighbouring village but you can get there from Jordan on the KMB 63X very easily. Anyway, I rent about 150 sq ft for 300 HKD per month. This price includes the use of all tools and the owner waters the whole farm once or twice a day as needed. She also sells everything else you need. It is a great community atmosphere and is very busy on Sundays. Some people take it more seriously than others and I have seen some amazing vegetables come out of the ground around here. There are no real regulations and as long as you don’t bother your neighbours, nobody cares. Many people have barbecues there. I’ve got carrots, beans, choi sum and some herbs planted. I’m never sure what my wife is growing but she has some vegetables growing also!! Anyway, these allotments are all over the New Territories and you should be able to find them if you’re prepared to ask around the locals. Just thought I’d share this bit of info with you all and if anyone would like any further information or to come and have a look, feel free to ask! Your class teacher is interested in renting a small piece of farmland near your school. He has asked your group to discuss the topic. You may want to talk about:",
+      "groupDiscussion": [
+        "the benefits of renting a piece of farmland",
+        "whether students in your class would be interested in having a class farm",
+        "how to organise a class farm"
+      ],
+      "individualResponse": [
+        "Would you like to grow your own food?",
+        "Would you like to learn how to grow food?",
+        "Who would be more interested in farming: young people or older people?",
+        "Why is renting farmland becoming popular?",
+        "Do you think you would be good at farming?",
+        "Should schools teach students more about farming and nature?",
+        "Why are there so few farms in Hong Kong?",
+        "Do you think food tastes better if you grow it yourself?"
       ]
     },
     {

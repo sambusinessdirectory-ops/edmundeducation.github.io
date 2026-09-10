@@ -2,7 +2,7 @@
  'use strict';if(window.EdmundLearningTools)return;window.EdmundLearningTools=true;
  const script=document.currentScript,base=new URL('.',script?.src||location.href);
  import(new URL('system-access-guard.mjs',base)).catch(console.error);
- import(new URL('background-music-player.mjs?v=20260910-library5',base)).catch(console.error);
+ import(new URL('background-music-player.mjs?v=20260910-floating6',base)).catch(console.error);
  const link=document.createElement('link');link.rel='stylesheet';link.href=new URL('shared-learning-tools.css?v=20260908-refine7',base);document.head.append(link);
  let audio,lastSound=0,armedUntil=0,beforeOutcomes=new Map();const preference='edmund-answer-sounds-v1';
  const enabled=()=>{try{return localStorage.getItem(preference)!=='off';}catch{return true;}};

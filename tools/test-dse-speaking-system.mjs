@@ -37,9 +37,9 @@ const data = context.window.EDMUND_DSE_SPEAKING_DATA;
 const mode = context.window.EDMUND_DSE_SPEAKING_MODE;
 const translations = context.window.EDMUND_DSE_SPEAKING_TRANSLATIONS;
 assert.deepEqual(Array.from(data.years), Array.from({ length: 14 }, (_, index) => 2012 + index));
-assert.equal(data.sets.length, 227);
+assert.equal(data.sets.length, 234);
 assert.deepEqual(Object.fromEntries(data.years.map(year => [year, data.catalog[year]?.length || 0])), {
-  2012: 18, 2013: 30, 2014: 29, 2015: 27, 2016: 27, 2017: 24,
+  2012: 24, 2013: 30, 2014: 30, 2015: 27, 2016: 27, 2017: 24,
   2018: 24, 2019: 24, 2020: 0, 2021: 0, 2022: 0, 2023: 24, 2024: 0, 2025: 0
 });
 
@@ -58,6 +58,10 @@ assert.equal(tvb.individualResponse[7], "How important is TVB to Hong Kong cultu
 const harbour = data.catalog[2023].find(set => set.set === "8.3");
 assert.equal(harbour.title, "Harbourside Concert Series");
 assert.equal(harbour.groupDiscussion.length, 3);
+for (const key of ["2012:1.1", "2012:1.2", "2012:1.3", "2012:2.1", "2012:2.2", "2012:2.3", "2014:9.1"]) {
+  const [year, setNumber] = key.split(":");
+  assert.ok(data.sets.some(set => String(set.year) === year && set.set === setNumber), `${key} should be digitised from the supplied paper`);
+}
 assert.deepEqual(Object.keys(translations).sort(), ["2015:3.3", "2018:1.2", "2018:5.2"]);
 for (const [key, translatedSet] of Object.entries(translations)) {
   const [year, setNumber] = key.split(":");
@@ -96,8 +100,13 @@ for (const required of [
   "abandonDseSession(\"page-closed\")", "openRequestedHomeworkMockMode",
   "requestedHomeworkMockModeOpened", "[data-dse-mode=\"${modeId}\"]"
 ]) assert.ok(appSource.includes(required), `missing DSE enhancement: ${required}`);
+for (const required of [
+  "dseNativePaperMarkup", "data-paper-mode=\"student\"", "data-dse-paper-mode",
+  "data-dse-word-key", "setWordBookmark", "student-only", "examiner-only"
+]) assert.ok(appSource.includes(required), `missing native DSE paper reader: ${required}`);
 
-assert.match(appSource, /assets\/speaking-system\/ielts-exam-practice-mode\.png/);
+assert.match(appSource, /assets\/speaking-system\/\$\{cover\}/);
+assert.match(appSource, /ielts-exam-practice-mode\.png/);
 assert.doesNotMatch(appSource, /ielts-exam-practice-mode-human-v2\.png/);
 
 const dseModesStart = appSource.indexOf("function renderDseModes()");

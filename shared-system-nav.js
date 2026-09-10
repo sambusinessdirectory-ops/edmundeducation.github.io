@@ -68,7 +68,8 @@
     { id: "bookmark-directory", href: "bookmark-directory.html", zh: "學生書簽總目錄", en: "Bookmark Directory" },
     { id: "execution", href: "execution-system.html", zh: "執行動力系統", en: "Execution Psychology" },
     { id: "reading-comprehension", href: "reading-comprehension.html", zh: "閱讀理解學習系統", en: "Reading Comprehension" },
-    { id: "eddie-farm", href: "eddie-farm.html", zh: "Eddie Farm 積分系統", en: "Farm Points" }
+    { id: "eddie-farm", href: "eddie-farm.html", zh: "Eddie Farm 積分系統", en: "Farm Points" },
+    { id: "excellent-learning", href: "excellent-learning-system.html", zh: "卓越學習系統", en: "Excellent Learning System" }
   ]);
 
   const SESSION_KEYS = Object.freeze({
@@ -118,7 +119,8 @@
     execution: "edmund-execution-system-session-v1",
     "reading-comprehension": "edmund-reading-comprehension-session-v1",
     schedule: "edmund-schedule-session-v1",
-    downloads: "edmundModelEssayDownloadSession"
+    downloads: "edmundModelEssayDownloadSession",
+    "excellent-learning": "edmund-excellent-learning-session-v1"
   });
 
   const LEARNING_PORTAL_IDS = Object.freeze([
@@ -269,6 +271,12 @@
         return value?.role === "student" && value.impersonatedByAdmin !== true && value.sessionToken && value.name
           ? { token: String(value.sessionToken), id: String(value.id || ""), name: String(value.name), role: "student" }
           : null;
+      },
+      "excellent-learning"() {
+        const value = storageJson(storage, SESSION_KEYS["excellent-learning"]);
+        return value?.role === "student" && value.impersonatedByAdmin !== true && value.token && value.name
+          ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
+          : null;
       }
     };
 
@@ -300,6 +308,7 @@
       || candidates["song-appreciation"]()
       || candidates.schedule()
       || candidates.downloads()
+      || candidates["excellent-learning"]()
       || candidates["common-expression-speaking"]()
       || candidates["common-expression-written"]()
       || candidates["common-expression-rhetorical-speaking"]()
@@ -487,6 +496,12 @@
       name: universal.name,
       sessionToken: universal.token,
       access: {}
+    }, overwrite);
+    writeStudentSession(storage, SESSION_KEYS["excellent-learning"], {
+      role: "student",
+      id: universal.id,
+      name: universal.name,
+      token: universal.token
     }, overwrite);
 
     // Flashcard permissions are never trusted from browser storage. Flashcards
@@ -1266,4 +1281,4 @@
 })();
 
 // Shared classroom controls are loaded once on every learning portal.
-if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20260910-library5",document.currentScript.src).href;script.defer=true;document.head.append(script);}
+if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20260910-floating6",document.currentScript.src).href;script.defer=true;document.head.append(script);}

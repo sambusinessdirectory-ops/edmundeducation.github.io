@@ -184,6 +184,8 @@
     examSkipSaving: false,
     examRatingSaving: false,
     dseYearSort: "asc",
+    dseWordBookmarks: new Set(),
+    dseWordBookmarksLoaded: false,
     dseSession: null,
     dsePrepTimer: 0,
     dseVoiceAudio: null,
@@ -508,6 +510,8 @@
     clearDsePrepTimer();
     cancelDseVoice();
     state.dseSession = null;
+    state.dseWordBookmarks.clear();
+    state.dseWordBookmarksLoaded = false;
     state.user = null;
     state.authToken = "";
     try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Storage is unavailable. */ }
@@ -2123,6 +2127,122 @@
     return `<details class="dse-source-card" ${open ? "open" : ""}><summary><span>題目文章與任務資料</span><small>Source text &amp; task</small></summary><div class="dse-source-text" lang="en">${escapeHtml(source)}</div></details>`;
   }
 
+  function hasNativeDsePaper(set) {
+    return [2012, 2013, 2014].includes(Number(set?.year));
+  }
+
+  function dsePaperSetKey(set) {
+    return `${Number(set?.year || 0)}:${String(set?.set || "")}`;
+  }
+
+  function dsePaperWordMarkup(value, set, scope) {
+    let wordIndex = 0;
+    return (String(value || "").match(WORD_PATTERN) || []).map(token => {
+      if (!IS_WORD_PATTERN.test(token)) return escapeHtml(token);
+      const itemKey = `dse-paper:${dsePaperSetKey(set)}:${scope}:${wordIndex++}:${token.toLocaleLowerCase()}`.slice(0, 180);
+      const saved = state.dseWordBookmarks.has(itemKey);
+      return `<span class="dse-paper-word${saved ? " is-bookmarked" : ""}" role="button" tabindex="0" data-dse-word="${escapeHtml(token)}" data-dse-word-key="${escapeHtml(itemKey)}" aria-pressed="${saved}" title="按一下收藏此字 · Click to bookmark">${escapeHtml(token)}</span>`;
+    }).join("");
+  }
+
+  function dsePaperListMarkup(items, set, scope) {
+    return `<ol class="dse-native-paper-list">${(items || []).map((item, index) => `<li>${dsePaperWordMarkup(item, set, `${scope}-${index}`)}</li>`).join("")}</ol>`;
+  }
+
+  function dseNativePaperMarkup(set) {
+    return `<article class="dse-native-paper" data-dse-paper data-paper-mode="student">
+      <nav class="dse-paper-mode-switch" aria-label="題紙模式">
+        <button class="is-active" type="button" data-dse-paper-mode="student" aria-pressed="true"><strong>學生題紙</strong><small>Student paper</small></button>
+        <button type="button" data-dse-paper-mode="examiner" aria-pressed="false"><strong>考官題紙</strong><small>Examiner paper</small></button>
+      </nav>
+      <header class="dse-native-paper-header">
+        <span>${escapeHtml(set.year)}-DSE · ENG LANG · PAPER 4 · ${escapeHtml(set.set)}</span>
+        <p>香港考試及評核局 · HONG KONG EXAMINATIONS AND ASSESSMENT AUTHORITY</p>
+        <h2>ENGLISH LANGUAGE · PAPER 4</h2>
+      </header>
+      <section class="dse-native-paper-part">
+        <div class="dse-native-paper-part-heading"><span>PART A</span><h3>Group Interaction</h3><small>小組討論</small></div>
+        <h4>${dsePaperWordMarkup(set.title, set, "title")}</h4>
+        <p class="dse-native-source" lang="en">${dsePaperWordMarkup(set.sourceText, set, "source")}</p>
+        <p class="dse-native-instruction">Discuss with your group. You may want to talk about:</p>
+        ${dsePaperListMarkup(set.groupDiscussion, set, "group")}
+        <p class="dse-native-anything">• anything else you think is important</p>
+      </section>
+      <section class="dse-native-paper-part dse-examiner-only">
+        <div class="dse-native-paper-part-heading"><span>PART B</span><h3>Individual Response</h3><small>個人發言</small></div>
+        <p class="dse-native-instruction">The examiner may ask one or more questions based on Part A.</p>
+        ${dsePaperListMarkup(set.individualResponse, set, "individual")}
+      </section>
+      <section class="dse-student-only dse-native-student-note"><strong>PART B · Individual Response</strong><span>考官會在小組討論後提供個人發言問題。切換至「考官題紙」即可練習。</span></section>
+      <footer><span>所有文字均可選取及螢光標示。</span><strong>按一下任何英文單字即可加入私人書簽。</strong></footer>
+    </article>`;
+  }
+
+  function dsePaperHostMarkup(set) {
+    return `<div class="dse-native-paper-host" data-dse-paper-host="${escapeHtml(dsePaperSetKey(set))}"><button class="secondary-button dse-open-native-paper" type="button" data-open-native-dse-paper>開啟數碼題紙 · Open digital paper</button></div>`;
+  }
+
+  async function ensureDseWordBookmarks() {
+    if (state.dseWordBookmarksLoaded || state.user?.role !== "student") return;
+    const helper = window.EdmundWordBookmarks;
+    if (!helper?.listWordBookmarks) return;
+    try {
+      const rows = await helper.listWordBookmarks({ rpc: learningWordRpc, token: state.authToken, systemKey: "speaking" });
+      state.dseWordBookmarks = new Set(rows.map(row => String(row.item_key || row.itemKey || "")).filter(key => key.startsWith("dse-paper:")));
+      state.dseWordBookmarksLoaded = true;
+      document.querySelectorAll("[data-dse-word-key]").forEach(word => {
+        const saved = state.dseWordBookmarks.has(word.dataset.dseWordKey);
+        word.classList.toggle("is-bookmarked", saved);
+        word.setAttribute("aria-pressed", String(saved));
+      });
+    } catch (error) {
+      console.warn("DSE paper bookmarks could not be loaded:", error);
+    }
+  }
+
+  function renderNativeDsePaper(host) {
+    if (!host || host.dataset.rendered === "true") return;
+    const set = DSE_DATA.sets.find(item => dsePaperSetKey(item) === host.dataset.dsePaperHost);
+    if (!set) return;
+    host.dataset.rendered = "true";
+    host.innerHTML = dseNativePaperMarkup(set);
+    ensureDseWordBookmarks();
+  }
+
+  async function toggleDseWordBookmark(word) {
+    if (state.user?.role !== "student") return toast("請以學生帳戶登入後收藏單字。", "info");
+    const helper = window.EdmundWordBookmarks;
+    if (!helper?.setWordBookmark || word.dataset.saving === "true") return;
+    const paper = word.closest("[data-dse-paper]");
+    const context = word.closest("p, li, h4")?.textContent?.trim() || "";
+    const itemKey = word.dataset.dseWordKey;
+    const bookmarked = !state.dseWordBookmarks.has(itemKey);
+    word.dataset.saving = "true";
+    try {
+      await helper.setWordBookmark({
+        rpc: learningWordRpc,
+        token: state.authToken,
+        systemKey: "speaking",
+        itemKey,
+        phrase: word.dataset.dseWord,
+        contextEn: context,
+        href: `speaking-system.html?view=dse&paper=${encodeURIComponent(itemKey.split(":").slice(1, 3).join("-"))}`,
+        bookmarked
+      });
+      if (bookmarked) state.dseWordBookmarks.add(itemKey); else state.dseWordBookmarks.delete(itemKey);
+      paper?.querySelectorAll(`[data-dse-word-key="${CSS.escape(itemKey)}"]`).forEach(match => {
+        match.classList.toggle("is-bookmarked", bookmarked);
+        match.setAttribute("aria-pressed", String(bookmarked));
+      });
+      toast(bookmarked ? `已收藏「${word.dataset.dseWord}」。` : `已移除「${word.dataset.dseWord}」。`, "info");
+    } catch (error) {
+      console.warn("DSE paper bookmark failed:", error);
+      toast("單字暫時未能收藏，請稍後再試。", "error");
+    } finally {
+      delete word.dataset.saving;
+    }
+  }
+
   function dseSearchMarkup() {
     return `<section class="dse-search-panel"><label>搜尋所有年份的文章、小組討論及個人發言<input type="search" data-dse-full-search placeholder="例如 Lego" autocomplete="off"></label><div data-dse-search-results aria-live="polite"></div></section>`;
   }
@@ -2132,10 +2252,34 @@
     if (!term) { target.innerHTML = ''; return; }
     const sets = Object.values(DSE_DATA.catalog || {}).flat();
     const matches = sets.filter(set => [set.title, set.sourceText, ...(set.groupDiscussion || []), ...(set.individualResponse || []), JSON.stringify(dseTranslationFor(set))].join(' ').normalize('NFKC').toLocaleLowerCase().includes(term));
-    target.innerHTML = `<p>${matches.length} 套題目</p>` + matches.map(set => `<details class="dse-set-card"><summary><span>${set.year} · ${escapeHtml(set.set)}</span><strong>${escapeHtml(set.title)}</strong></summary>${dseSourceCard(set, true)}<h3>Group Discussion 小組討論</h3>${dseQuestionList(set.groupDiscussion, true, dseTranslationFor(set).groupDiscussion)}<h3>Individual Response 個人發言</h3>${dseQuestionList(set.individualResponse, true, dseTranslationFor(set).individualResponse)}</details>`).join('');
+    target.innerHTML = `<p>${matches.length} 套題目</p>` + matches.map(set => `<details class="dse-set-card"><summary><span>${set.year} · ${escapeHtml(set.set)}</span><strong>${escapeHtml(set.title)}</strong></summary>${hasNativeDsePaper(set) ? dsePaperHostMarkup(set) : `${dseSourceCard(set, true)}<h3>Group Discussion 小組討論</h3>${dseQuestionList(set.groupDiscussion, true, dseTranslationFor(set).groupDiscussion)}<h3>Individual Response 個人發言</h3>${dseQuestionList(set.individualResponse, true, dseTranslationFor(set).individualResponse)}`}</details>`).join('');
   }
   document.addEventListener('input', event => {
     if (event.target.matches('[data-dse-full-search]')) searchDseSpeaking(event.target.value, event.target.closest('.dse-search-panel'));
+  });
+  document.addEventListener("click", event => {
+    const opener = event.target.closest("[data-open-native-dse-paper]");
+    if (opener) return renderNativeDsePaper(opener.closest("[data-dse-paper-host]"));
+    const mode = event.target.closest("[data-dse-paper-mode]");
+    if (mode) {
+      const paper = mode.closest("[data-dse-paper]");
+      if (!paper) return;
+      paper.dataset.paperMode = mode.dataset.dsePaperMode;
+      paper.querySelectorAll("[data-dse-paper-mode]").forEach(button => {
+        const active = button === mode;
+        button.classList.toggle("is-active", active);
+        button.setAttribute("aria-pressed", String(active));
+      });
+      return;
+    }
+    const word = event.target.closest("[data-dse-word-key]");
+    if (word) toggleDseWordBookmark(word);
+  });
+  document.addEventListener("keydown", event => {
+    const word = event.target.closest?.("[data-dse-word-key]");
+    if (!word || !["Enter", " "].includes(event.key)) return;
+    event.preventDefault();
+    toggleDseWordBookmark(word);
   });
 
   function renderDseCatalog() {
@@ -2166,7 +2310,7 @@
                   const questions = part === "individual" ? set.individualResponse : set.groupDiscussion;
                   const translatedSet = dseTranslationFor(set);
                   const translations = part === "individual" ? translatedSet.individualResponse : translatedSet.groupDiscussion;
-                  return `<details class="dse-set-card"><summary><span>${escapeHtml(set.set)}</span><strong>${escapeHtml(set.title)}</strong><small>${questions.length} 題</small></summary>${dseSourceCard(set)}${dseQuestionList(questions, true, translations)}</details>`;
+                  return `<details class="dse-set-card"><summary><span>${escapeHtml(set.set)}</span><strong>${escapeHtml(set.title)}</strong><small>${questions.length} 題</small></summary>${hasNativeDsePaper(set) ? dsePaperHostMarkup(set) : `${dseSourceCard(set)}${dseQuestionList(questions, true, translations)}`}</details>`;
                 }).join("")}</div>` : '<p class="dse-empty-year">這個年份的題目尚未加入。</p>'}
               </details>`;
           }).join("")}

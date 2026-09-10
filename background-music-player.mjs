@@ -46,7 +46,7 @@ function ensureStyles() {
   if (document.querySelector('link[data-background-music-player-style]')) return;
   const link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = new URL('./background-music-player.css?v=20260910-library5', import.meta.url).href;
+  link.href = new URL('./background-music-player.css?v=20260910-floating6', import.meta.url).href;
   link.dataset.backgroundMusicPlayerStyle = '';
   document.head.append(link);
 }
@@ -99,7 +99,7 @@ function playerMarkup(rows, genre) {
       <div><p>${bilingual('EDMUND 學習音樂', 'EDMUND STUDY SOUND')}</p><h2>${bilingual('背景音樂', 'Background Music')}</h2></div>
       <div class="music-heading-actions">
         <label class="music-language">${bilingual('語言', 'Language')}<select data-music-language-picker aria-label="${escape(spoken('語言', 'Language'))}"><option value="zh">中文</option><option value="en">English</option><option value="both">中文 + English</option></select></label>
-        <button type="button" data-window aria-label="${escape(spoken('開啟獨立播放器', 'Open separate player'))}">↗ <span>${bilingual('獨立播放器', 'Open player')}</span></button>
+        <button type="button" data-window aria-label="${escape(spoken('開啟浮動播放器', 'Open floating player'))}" aria-pressed="false">↗ <span>${bilingual('浮動播放器', 'Floating player')}</span></button>
       </div>
     </header>
     <div class="music-library-tools">
@@ -109,8 +109,10 @@ function playerMarkup(rows, genre) {
     </div>
     <div class="music-genre-rail" data-genre-rail>${genreCards(rows, genre)}</div>
     <div class="music-player-stage">
-      <div class="music-now-playing"><div class="music-disc" data-disc><img data-art alt=""><span aria-hidden="true"></span></div>
-        <div class="music-track-copy"><small data-genre-label></small><h3 data-title>${escape(spoken('選擇歌曲', 'Select a track'))}</h3><p data-artist></p><div class="music-tempo"><strong data-bpm>— BPM</strong><span>${bilingual('預計節奏', 'Estimated tempo')}</span></div><div class="music-current-actions"><button type="button" data-favorite-current aria-pressed="false">♡ ${bilingual('收藏', 'Favorite')}</button><button type="button" data-add-current>＋ ${bilingual('加入播放清單', 'Add to playlist')}</button></div></div>
+      <div class="music-now-playing">
+        <div class="music-track-heading"><small data-genre-label></small><h3 data-title>${escape(spoken('選擇歌曲', 'Select a track'))}</h3><p data-artist></p></div>
+        <div class="music-disc" data-disc><img data-art alt=""><span aria-hidden="true"></span></div>
+        <div class="music-track-meta"><div class="music-tempo"><strong data-bpm>— BPM</strong><span>${bilingual('預計節奏', 'Estimated tempo')}</span></div><div class="music-current-actions"><button type="button" data-favorite-current aria-pressed="false">♡ ${bilingual('收藏', 'Favorite')}</button><button type="button" data-add-current>＋ ${bilingual('加入播放清單', 'Add to playlist')}</button></div></div>
       </div>
       <div class="music-controls"><div class="music-progress"><time data-current>0:00</time><input data-seek type="range" min="0" max="1" step="0.1" value="0" aria-label="${escape(spoken('播放進度', 'Track progress'))}"><time data-duration>0:00</time></div>
         <div class="music-transport"><button type="button" data-shuffle aria-label="${escape(spoken('隨機播放', 'Shuffle'))}">⌘</button><button type="button" data-previous aria-label="${escape(spoken('上一首', 'Previous track'))}">|‹</button><button type="button" class="music-play" data-play aria-label="${escape(spoken('播放', 'Play'))}">▶</button><button type="button" data-next aria-label="${escape(spoken('下一首', 'Next track'))}">›|</button><button type="button" data-repeat aria-label="${escape(spoken('重複播放', 'Repeat'))}" aria-pressed="false">↻</button></div>
@@ -254,7 +256,16 @@ export async function mountMusic(root) {
     if (event.target.closest('[data-next]')) return playOffset(1);
     if (event.target.closest('[data-shuffle]')) { const list = rowsForView(rows); if (list.length) return setTrack(list[Math.floor(Math.random() * list.length)], { autoplay: true }); }
     if (event.target.closest('[data-repeat]')) { audio.loop = !audio.loop; event.target.closest('[data-repeat]').setAttribute('aria-pressed', String(audio.loop)); return; }
-    if (event.target.closest('[data-window]')) return window.open('background-music.html?player=1', 'edmund-background-music', 'popup,width=900,height=820,resizable=yes');
+    if (event.target.closest('[data-window]')) {
+      const playerDialog = root.closest('dialog.background-music-dialog');
+      if (!playerDialog) return openMusic();
+      const expanded = playerDialog.classList.toggle('is-expanded');
+      const button = event.target.closest('[data-window]');
+      button.setAttribute('aria-pressed', String(expanded));
+      button.querySelector('span').innerHTML = expanded
+        ? bilingual('還原浮動視窗', 'Restore panel')
+        : bilingual('放大浮動視窗', 'Expand panel');
+    }
   });
   root.querySelector('[data-music-language-picker]').addEventListener('change', event => { preferences.language = event.target.value; savePreferences(); renderAll(); });
   root.querySelector('[data-playlist-view]').addEventListener('change', event => { if (event.target.value) activeView = { type: 'playlist', value: event.target.value }; renderAll(); });

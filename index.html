@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="/site-announcements.css?v=20260812-1">
   <link rel="stylesheet" href="/homepage-system-directory.css?v=20260813-1">
+  <link rel="stylesheet" href="/homepage-system-deck.css?v=20260910-swipe1">
   <script defer src="/pwa-register.js"></script>
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="EdmundEducation">
@@ -2900,7 +2901,23 @@
           <span class="category-name">IELTS (雅思),<br>DSE 英文文憑試,<br>CRE 公務員英考<br>備試資源站！</span>
         </a>
 
-        <a class="category schedule-system-card" href="schedule-system.html" aria-label="(學生使用) 功課及溫習安排系統">
+        <section class="system-card-deck" data-system-card-deck aria-labelledby="system-card-deck-title">
+          <div class="system-card-deck__copy">
+            <p>INTERACTIVE SYSTEM SELECTOR</p>
+            <h2 id="system-card-deck-title">滑動選擇學習系統</h2>
+            <span>上下滑動、滾動或使用箭嘴，按下中央卡片即可進入。</span>
+          </div>
+          <div class="system-card-deck__stage" data-system-card-deck-stage tabindex="0" role="listbox" aria-label="學習系統卡片選擇器">
+            <div class="system-card-deck__stack" data-system-card-deck-stack></div>
+          </div>
+          <div class="system-card-deck__controls">
+            <button type="button" data-system-card-deck-previous aria-label="上一個學習系統">↑</button>
+            <strong data-system-card-deck-position>10 / 64</strong>
+            <button type="button" data-system-card-deck-next aria-label="下一個學習系統">↓</button>
+          </div>
+        </section>
+
+        <a class="category schedule-system-card" data-system-card-start href="schedule-system.html" aria-label="(學生使用) 功課及溫習安排系統">
           <span class="category-name"><span class="schedule-card-first-line">(學生使用) 功課及溫習</span><br>安排系統</span>
         </a>
 
@@ -3137,6 +3154,7 @@
         <a class="category learning-portal-card background-music-card" href="background-music.html" aria-label="Background Music System 背景音樂系統" style="--portal-card-hue:265"><span class="category-name">Background Music<br>背景音樂系統</span></a>
 <a class="category learning-portal-card question-collection-card" href="question-collection.html" aria-label="Question Collection System 提問集" style="--portal-card-hue:350"><span class="category-name">Question Collection<br>提問集</span></a>
         <a class="category learning-portal-card special-flash-card" href="professional-english/" aria-label="Flash Cards" style="--portal-card-hue:95"><span class="category-name">Flash Cards<br>閃卡</span></a>
+        <a class="category learning-portal-card excellent-learning-card" href="excellent-learning-system.html" aria-label="Excellent Learning System 卓越學習系統" style="--portal-card-hue:202"><span class="category-name">Excellent Learning System<br>卓越學習系統</span></a>
 
 
       </div>
@@ -3875,6 +3893,7 @@
   <script src="supabase-config.js"></script>
   <script src="shared-system-nav.js?v=20260910-library5"></script>
   <script src="homepage-system-directory.js?v=20260813-1"></script>
+  <script src="homepage-system-deck.js?v=20260910-swipe1"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
   <script src="site-announcements.js?v=20260812-1"></script>
 </body>
