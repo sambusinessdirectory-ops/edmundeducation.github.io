@@ -2257,31 +2257,6 @@
   document.addEventListener('input', event => {
     if (event.target.matches('[data-dse-full-search]')) searchDseSpeaking(event.target.value, event.target.closest('.dse-search-panel'));
   });
-  document.addEventListener("click", event => {
-    const opener = event.target.closest("[data-open-native-dse-paper]");
-    if (opener) return renderNativeDsePaper(opener.closest("[data-dse-paper-host]"));
-    const mode = event.target.closest("[data-dse-paper-mode]");
-    if (mode) {
-      const paper = mode.closest("[data-dse-paper]");
-      if (!paper) return;
-      paper.dataset.paperMode = mode.dataset.dsePaperMode;
-      paper.querySelectorAll("[data-dse-paper-mode]").forEach(button => {
-        const active = button === mode;
-        button.classList.toggle("is-active", active);
-        button.setAttribute("aria-pressed", String(active));
-      });
-      return;
-    }
-    const word = event.target.closest("[data-dse-word-key]");
-    if (word) toggleDseWordBookmark(word);
-  });
-  document.addEventListener("keydown", event => {
-    const word = event.target.closest?.("[data-dse-word-key]");
-    if (!word || !["Enter", " "].includes(event.key)) return;
-    event.preventDefault();
-    toggleDseWordBookmark(word);
-  });
-
   function renderDseCatalog() {
     const part = state.route.part === "individual" ? "individual" : "group";
     const years = Array.isArray(DSE_DATA.years) ? [...DSE_DATA.years] : [];
@@ -7680,6 +7655,31 @@
         return;
       }
 
+      const nativeDsePaperOpener = event.target.closest("[data-open-native-dse-paper]");
+      if (nativeDsePaperOpener) {
+        renderNativeDsePaper(nativeDsePaperOpener.closest("[data-dse-paper-host]"));
+        return;
+      }
+
+      const dsePaperMode = event.target.closest("[data-dse-paper-mode]");
+      if (dsePaperMode) {
+        const paper = dsePaperMode.closest("[data-dse-paper]");
+        if (!paper) return;
+        paper.dataset.paperMode = dsePaperMode.dataset.dsePaperMode;
+        paper.querySelectorAll("[data-dse-paper-mode]").forEach(button => {
+          const active = button === dsePaperMode;
+          button.classList.toggle("is-active", active);
+          button.setAttribute("aria-pressed", String(active));
+        });
+        return;
+      }
+
+      const dsePaperWord = event.target.closest("[data-dse-word-key]");
+      if (dsePaperWord) {
+        toggleDseWordBookmark(dsePaperWord);
+        return;
+      }
+
       const dseMode = event.target.closest("[data-dse-mode]");
       if (dseMode) {
         if (dseMode.getAttribute("aria-disabled") === "true") toast("請先完成目前已鎖定的 DSE 題組。", "info");
@@ -8066,6 +8066,12 @@
     });
 
     document.addEventListener("keydown", event => {
+      const dsePaperWord = event.target.closest?.("[data-dse-word-key]");
+      if (dsePaperWord && ["Enter", " "].includes(event.key)) {
+        event.preventDefault();
+        toggleDseWordBookmark(dsePaperWord);
+        return;
+      }
       const speakingProgressPoint = event.target.closest?.("[data-speaking-progress-day]");
       if (speakingProgressPoint && (event.key === "Enter" || event.key === " ")) {
         event.preventDefault();
