@@ -108,6 +108,7 @@ assert.equal(individual.phase, "individual");
 assert.equal(individual.individualIndex, 0);
 
 assert.ok(htmlSource.indexOf("dse-speaking-data.js") < htmlSource.indexOf("dse-speaking-translations.js"));
+assert.ok(htmlSource.indexOf("dse-speaking-illustration-manifest.js") < htmlSource.indexOf("speaking-system.js"));
 assert.ok(htmlSource.indexOf("dse-speaking-data.js") < htmlSource.indexOf("dse-speaking-paper-supplement.js"));
 assert.ok(htmlSource.indexOf("dse-speaking-paper-supplement.js") < htmlSource.indexOf("dse-speaking-paper-manifest.js"));
 assert.ok(htmlSource.indexOf("dse-speaking-translations.js") < htmlSource.indexOf("dse-speaking-mode.js"));
@@ -127,8 +128,9 @@ for (const required of [
 for (const required of [
   "dseNativePaperMarkup", "data-paper-mode=\"student\"", "data-dse-paper-mode",
   "data-dse-word-key", "setWordBookmark", "student-only", "examiner-only",
-  "dse-paper-facsimile", "setDsePaperMode", "pointerup", "dsePaperHostMarkup(session.set, true)"
+  "dse-paper-illustration", "DSE_SPEAKING_ILLUSTRATIONS", "setDsePaperMode", "pointerup", "dsePaperHostMarkup(session.set, true)"
 ]) assert.ok(appSource.includes(required), `missing native DSE paper reader: ${required}`);
+assert.ok(!appSource.includes("dse-paper-facsimile"), "full scanned paper pages must stay out of the digitized reader");
 
 assert.match(appSource, /assets\/speaking-system\/\$\{cover\}/);
 assert.match(appSource, /ielts-exam-practice-mode\.png/);

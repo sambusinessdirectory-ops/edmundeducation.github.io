@@ -18,6 +18,7 @@
   <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apps/schedule/apple-touch-icon-167.png">
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apps/schedule/apple-touch-icon-152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="student-activity-log.css?v=20260910-1">
   <script defer src="/pwa-register.js"></script>
   <style>
     @font-face {
@@ -2286,6 +2287,11 @@
         </div>
         <p class="calendar-status" data-parent-admin-status role="status" aria-live="polite"></p>
       </div>
+      <section class="student-activity-log-panel glass-card" aria-labelledby="student-activity-log-title">
+        <div class="student-activity-log-heading"><div><h2 id="student-activity-log-title">學生系統登入紀錄</h2><p>Student activity log · 只記錄登入時間、帳戶及系統。</p></div><button type="button" data-student-activity-refresh>重新整理</button></div>
+        <div class="student-activity-log-list" data-student-activity-list><p class="empty-state">正在載入學生登入紀錄…</p></div>
+        <div class="student-activity-log-footer"><span data-student-activity-status></span><button type="button" data-student-activity-more hidden>載入更多</button></div>
+      </section>
     </section>
 
     <section data-view="calendar" hidden>
@@ -2729,7 +2735,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
-  <script src="shared-system-nav.js?v=20260910-library5"></script>
+  <script src="shared-system-nav.js?v=20260910-activity1"></script>
   <script type="module" src="schedule-system.js?v=20260908-sunny-s3-1"></script>
+  <script src="student-activity-log.js?v=20260910-1"></script>
 </body>
 </html>

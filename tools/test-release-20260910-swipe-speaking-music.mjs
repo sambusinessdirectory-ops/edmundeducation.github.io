@@ -16,7 +16,7 @@ const deckPosition = homepage.indexOf("data-system-card-deck");
 const homeworkPosition = homepage.indexOf("data-system-card-start");
 assert.ok(deckPosition >= 0 && deckPosition < homeworkPosition, "the swipe selector should sit before card 10");
 assert.match(homepage, /href="excellent-learning-system\.html"/);
-assert.match(homepage, /homepage-system-deck\.js\?v=20260910-swipe2/);
+assert.match(homepage, /homepage-system-deck\.js\?v=20260910-swipe3/);
 for (const behavior of ["wheel", "pointerdown", "ArrowUp", "ArrowDown", "cloneNode(true)", "rawDelta", "data-system-card-deck-search", "data-system-card-deck-first", "data-system-card-deck-last"]) {
   assert.ok(deckScript.includes(behavior), `missing interactive deck behavior: ${behavior}`);
 }
@@ -25,7 +25,8 @@ assert.match(homepage, /data-system-card-deck-first[^>]*>01</);
 
 assert.doesNotMatch(musicScript, /window\.open\s*\(/);
 assert.match(musicScript, /class="music-track-heading"/);
-assert.match(musicScript, /classList\.toggle\('is-expanded'\)/);
+assert.match(musicScript, /makeFloating\(dialog\)/);
+assert.match(musicScript, /classList\.toggle\('is-collapsed'\)/);
 assert.match(musicCss, /writing-mode:\s*horizontal-tb/);
 assert.match(musicCss, /grid-template-areas:\s*"heading heading"/);
 
@@ -33,7 +34,8 @@ assert.match(excellent, /data-system="excellent-learning"/);
 assert.match(excellent, /supabase-config\.js/);
 assert.match(excellent, /English Accent Learning System/);
 assert.doesNotMatch(excellent, /Excellent Learning System/);
-assert.match(professionalSpeaking, /pro-paper-facsimile/);
+assert.doesNotMatch(professionalSpeaking, /pro-paper-facsimile/);
+assert.match(professionalSpeaking, /pro-paper-illustration/);
 assert.match(professionalSpeaking, /EDMUND_DSE_SPEAKING_SUPPLEMENT/);
 assert.match(professionalSpeakingHtml, /dse-speaking-paper-manifest\.js/);
 

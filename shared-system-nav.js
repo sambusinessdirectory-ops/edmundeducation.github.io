@@ -1281,4 +1281,33 @@
 })();
 
 // Shared classroom controls are loaded once on every learning portal.
-if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20260910-floating6",document.currentScript.src).href;script.defer=true;document.head.append(script);}
+if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20260910-floating7",document.currentScript.src).href;script.defer=true;document.head.append(script);}
+
+(function recordStudentSystemActivity() {
+  "use strict";
+  const pathMap = [
+    [/professional-english/,"professional-english"],[/writing/,"writing"],[/reading/,"reading"],[/speaking/,"speaking"],
+    [/listening/,"listening"],[/flashcard/,"flashcards"],[/schedule/,"schedule"],[/background-music/,"music"],[/excellent-learning/,"english-accent-learning"]
+  ];
+  function systemId() {
+    const explicit = document.querySelector("[data-edmund-system-switcher]")?.dataset.system;
+    if (explicit) return explicit;
+    const hit = pathMap.find(([pattern]) => pattern.test(location.pathname));
+    return hit?.[1] || (location.pathname === "/" || /index\.html$/.test(location.pathname) ? "home" : location.pathname.split("/").filter(Boolean)[0] || "home");
+  }
+  async function record() {
+    const student = window.EdmundSystemNav?.getStudentSession?.();
+    const config = window.EDMUND_SUPABASE;
+    if (!student?.token || !config?.url || !config?.anonKey) return;
+    const system = String(systemId()).toLowerCase().replace(/[^a-z0-9_-]/g,"-").slice(0,100);
+    const marker = `edmund-system-visit:${student.token}:${system}`;
+    try { if (sessionStorage.getItem(marker)) return; } catch {}
+    try {
+      const response = await fetch(`${config.url}/rest/v1/rpc/schedule_student_record_system_visit`,{method:"POST",credentials:"omit",headers:{apikey:config.anonKey,"Content-Type":"application/json"},body:JSON.stringify({p_token:student.token,p_system:system}),signal:AbortSignal.timeout(12000)});
+      if (response.ok) try { sessionStorage.setItem(marker,"1"); } catch {}
+    } catch {}
+  }
+  const run = () => setTimeout(record,350);
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded",run,{once:true}); else run();
+  document.addEventListener("visibilitychange",()=>{if(!document.hidden) record();});
+})();

@@ -7,6 +7,7 @@
   const DSE_BASE_DATA = window.EDMUND_DSE_SPEAKING_DATA || { years: [], catalog: {}, sets: [] };
   const DSE_SUPPLEMENT = window.EDMUND_DSE_SPEAKING_SUPPLEMENT || { sets: [] };
   const DSE_PAPERS = window.EDMUND_DSE_SPEAKING_PAPERS || {};
+  const DSE_ILLUSTRATIONS = window.EDMUND_DSE_SPEAKING_ILLUSTRATIONS || {};
   const DSE_DATA = (() => {
     const keyed = new Map();
     [...(DSE_BASE_DATA.sets || []), ...(DSE_SUPPLEMENT.sets || [])].forEach(set => {
@@ -2167,21 +2168,12 @@
   }
 
   function dseNativePaperMarkup(set) {
-    const studentPage = set.paperPages?.student || "";
-    const examinerPage = set.paperPages?.examiner || studentPage;
+    const illustration = DSE_ILLUSTRATIONS[dsePaperSetKey(set)] || null;
     return `<article class="dse-native-paper" data-dse-paper data-paper-mode="student">
       <nav class="dse-paper-mode-switch" aria-label="題紙模式">
         <button class="is-active" type="button" data-dse-paper-mode="student" aria-pressed="true"><strong>學生題紙</strong><small>Student paper</small></button>
         <button type="button" data-dse-paper-mode="examiner" aria-pressed="false"><strong>考官題紙</strong><small>Examiner paper</small></button>
       </nav>
-      <figure class="dse-paper-facsimile dse-student-only">
-        <img src="${escapeHtml(studentPage)}" alt="${escapeHtml(`${set.year} DSE ${set.set} student paper`)}" loading="lazy" decoding="async">
-        <figcaption>原題學生版 · Original student paper</figcaption>
-      </figure>
-      <figure class="dse-paper-facsimile dse-examiner-only">
-        <img src="${escapeHtml(examinerPage)}" alt="${escapeHtml(`${set.year} DSE ${set.set} examiner paper`)}" loading="lazy" decoding="async">
-        <figcaption>原題考官版 · Original examiner paper</figcaption>
-      </figure>
       <div class="dse-native-transcript-label"><strong>可選取文字版本</strong><small>Selectable transcript · 按字收藏</small></div>
       <header class="dse-native-paper-header">
         <span>${escapeHtml(set.year)}-DSE · ENG LANG · PAPER 4 · ${escapeHtml(set.set)}</span>
@@ -2191,6 +2183,7 @@
       <section class="dse-native-paper-part">
         <div class="dse-native-paper-part-heading"><span>PART A</span><h3>Group Interaction</h3><small>小組討論</small></div>
         <h4>${dsePaperWordMarkup(set.title, set, "title")}</h4>
+        ${illustration ? `<figure class="dse-paper-illustration is-${escapeHtml(illustration.position || "center")}"><img src="${escapeHtml(illustration.src)}" alt="${escapeHtml(`${set.title} illustration`)}" loading="lazy" decoding="async"><figcaption>原題插圖 · Original question illustration</figcaption></figure>` : ""}
         <p class="dse-native-source" lang="en">${dsePaperWordMarkup(set.sourceText, set, "source")}</p>
         <p class="dse-native-instruction">Discuss with your group. You may want to talk about:</p>
         ${dsePaperListMarkup(set.groupDiscussion, set, "group")}

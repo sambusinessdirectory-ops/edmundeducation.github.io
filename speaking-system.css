@@ -5227,3 +5227,6 @@ button:disabled {
   .dse-native-paper-part-heading small { width: 100%; margin: 0; }
   .dse-native-transcript-label { align-items: flex-start; flex-direction: column; }
 }
+
+/* Embedded question illustrations, separated from selectable text */
+.dse-paper-facsimile{display:none!important}.dse-paper-illustration{max-width:min(44%,430px);margin:18px 0 18px 24px;padding:10px;border:1px solid #aeb6b3;background:#fff;box-shadow:0 12px 28px #1d35431c}.dse-paper-illustration.is-right{float:right}.dse-paper-illustration.is-left{float:left;margin-left:0;margin-right:24px}.dse-paper-illustration.is-center{float:none;max-width:min(72%,620px);margin:18px auto}.dse-paper-illustration img{display:block;width:100%;height:auto}.dse-paper-illustration figcaption{margin-top:7px;color:#52626c;font:700 11px/1.35 Inter,system-ui,sans-serif;text-align:center}.dse-native-source:after{content:"";display:block;clear:both}@media(max-width:620px){.dse-paper-illustration,.dse-paper-illustration.is-right,.dse-paper-illustration.is-left,.dse-paper-illustration.is-center{float:none;max-width:100%;margin:14px auto}}

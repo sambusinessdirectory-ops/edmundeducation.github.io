@@ -28,10 +28,19 @@
   let dragY = 0;
   let pointer = null;
   let suppressClick = false;
-  let wheelLocked = false;
+  let wheelRemainder = 0;
+  let wheelFrame = 0;
 
   function render({ focus = false } = {}) {
+    allCards.forEach(card => {
+      if (!cards.includes(card)) {
+        card.hidden = true;
+        card.dataset.deckActive = "false";
+        card.style.setProperty("--deck-opacity", "0");
+      }
+    });
     cards.forEach((card, index) => {
+      card.hidden = false;
       const distance = index - active;
       const magnitude = Math.abs(distance);
       const visible = magnitude <= 5;
@@ -50,9 +59,12 @@
       card.tabIndex = distance === 0 ? 0 : -1;
     });
     const selected = cards[active];
+    if (!selected) return;
     stage.setAttribute("aria-activedescendant", selected.id);
     const label = selected.getAttribute("aria-label") || selected.textContent.trim();
-    position.textContent = `${selected.dataset.cardNumber} / ${cards.at(-1).dataset.cardNumber}`;
+    position.textContent = cards.length === allCards.length
+      ? `${selected.dataset.cardNumber} / ${allCards.length}`
+      : `${active + 1} / ${cards.length} · #${selected.dataset.cardNumber}`;
     position.setAttribute("aria-label", `${selected.dataset.cardNumber}，${label}`);
     root.querySelector("[data-system-card-deck-previous]").disabled = active === 0;
     root.querySelector("[data-system-card-deck-next]").disabled = active === cards.length - 1;
@@ -80,11 +92,13 @@
   stage.addEventListener("wheel", event => {
     if (Math.abs(event.deltaY) < Math.abs(event.deltaX) || Math.abs(event.deltaY) < 5) return;
     event.preventDefault();
-    if (wheelLocked) return;
-    wheelLocked = true;
-    const step = Math.max(1, Math.min(14, Math.round(Math.abs(event.deltaY) / 28)));
-    move((event.deltaY > 0 ? 1 : -1) * step);
-    window.setTimeout(() => { wheelLocked = false; }, 65);
+    wheelRemainder += event.deltaY;
+    cancelAnimationFrame(wheelFrame);
+    wheelFrame = requestAnimationFrame(() => {
+      const step = Math.max(1, Math.min(24, Math.round(Math.abs(wheelRemainder) / 22)));
+      move((wheelRemainder > 0 ? 1 : -1) * step);
+      wheelRemainder = 0;
+    });
   }, { passive: false });
 
   stage.addEventListener("pointerdown", event => {
@@ -133,11 +147,11 @@
       return match;
     });
     if (!cards.length) {
-      allCards.forEach(card => { card.hidden = false; });
-      cards = allCards;
       event.currentTarget.setCustomValidity("找不到相符系統");
+      stack.dataset.empty = "true";
     } else {
       event.currentTarget.setCustomValidity("");
+      stack.dataset.empty = "false";
     }
     active = 0;
     render();
