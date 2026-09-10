@@ -3,6 +3,7 @@
 
   const AudioContextClass = window.AudioContext || window.webkitAudioContext;
   let activeStop = null;
+  let activeCancel = null;
 
   function normalizeWords(value) {
     return String(value || "").toLocaleLowerCase().replace(/[’']/g, "'").match(/[a-z0-9']+/g) || [];
@@ -167,6 +168,138 @@
     return { supported: true, stop() { try { recognition.stop(); } catch {} }, result, expectedText };
   }
 
+  // Flashcards need a transcript, not a second microphone capture. In Safari,
+  // getUserMedia/MediaRecorder can compete with SpeechRecognition's audio session.
+  // Start recognition directly in the tap handler and let it own the microphone.
+  function recognizeAndCompare({ expectedText = "", maxSeconds = 10, onState, onTranscript } = {}) {
+    activeCancel?.();
+    activeStop?.();
+    const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const unscored = reason => ({ passed: false, scored: false, score: 0, transcript: "", reason });
+    if (!Recognition) return Promise.resolve(unscored("recognition-unavailable"));
+    if (!normalizeWords(expectedText).length) return Promise.resolve(unscored("no-reference"));
+
+    return new Promise(resolve => {
+      let recognition;
+      let settled = false;
+      let stopping = false;
+      let started = false;
+      let heardSpeech = false;
+      let transcript = "";
+      let startedAt = 0;
+      let retries = 0;
+      let timer;
+      let retryTimer;
+      const clearTimers = () => { clearTimeout(timer); clearTimeout(retryTimer); };
+      const detach = () => {
+        if (!recognition) return;
+        recognition.onstart = recognition.onaudiostart = recognition.onspeechstart = null;
+        recognition.onspeechend = recognition.onresult = recognition.onend = recognition.onerror = null;
+      };
+      const finish = result => {
+        if (settled) return;
+        settled = true;
+        clearTimers();
+        if (recognition) {
+          detach();
+          try { recognition.abort(); } catch {}
+        }
+        if (activeStop === stop) activeStop = null;
+        if (activeCancel === cancel) activeCancel = null;
+        onState?.("idle");
+        resolve(result);
+      };
+      const compare = () => {
+        const match = analyseTextMatch(expectedText, transcript);
+        finish({ ...match, scored: true, transcript, reason: match.passed ? "matched" : "mismatch" });
+      };
+      const stop = () => {
+        if (settled || stopping) return;
+        stopping = true;
+        clearTimers();
+        onState?.("processing");
+        // stop() requests a final result asynchronously. A 500ms race dropped
+        // valid Safari/network results; retain listeners until end or timeout.
+        timer = setTimeout(() => transcript ? compare() : finish(unscored("recognition-timeout")), 5000);
+        try { recognition?.stop(); } catch { finish(unscored("recognition-unavailable")); }
+      };
+      const cancel = () => finish(unscored("cancelled"));
+      activeStop = stop;
+      activeCancel = cancel;
+      const start = () => {
+        if (settled || stopping) return;
+        started = false;
+        onState?.("starting");
+        timer = setTimeout(() => finish(unscored("recognition-timeout")), 15000);
+        try {
+          recognition = new Recognition();
+          recognition.lang = "en-US";
+          recognition.continuous = false;
+          recognition.interimResults = true;
+          recognition.maxAlternatives = 1;
+          const ready = () => {
+            if (settled || stopping || started) return;
+            started = true;
+            startedAt = performance.now();
+            clearTimeout(timer);
+            onState?.("listening");
+            // Permission/startup time is not part of the student's speaking time.
+            timer = setTimeout(stop, Math.min(30, Math.max(8, Number(maxSeconds) || 10)) * 1000);
+          };
+          recognition.onstart = ready;
+          recognition.onaudiostart = ready;
+          recognition.onspeechstart = () => { heardSpeech = true; };
+          recognition.onspeechend = () => onState?.("processing");
+          recognition.onresult = event => {
+            if (settled) return;
+            const results = Array.from(event.results);
+            const preview = results.map(item => item[0]?.transcript || "").join(" ").trim();
+            if (normalizeWords(preview).length) heardSpeech = true;
+            onTranscript?.(preview);
+            // Interim hypotheses can be empty or wrong while the user is speaking.
+            // Never grade them. Rebuild finals because result indices can change.
+            transcript = results.filter(item => item.isFinal).map(item => item[0]?.transcript || "").join(" ").trim();
+            if (normalizeWords(transcript).length) stop();
+            else transcript = "";
+          };
+          recognition.onerror = event => {
+            if (settled) return;
+            const reasons = {
+              "not-allowed": "permission-denied",
+              "service-not-allowed": "service-not-allowed",
+              "audio-capture": "audio-capture",
+              "network": "network",
+              "language-not-supported": "language-not-supported",
+              "no-speech": "no-speech",
+              "aborted": "recognition-interrupted"
+            };
+            if (event.error === "no-speech" && transcript) compare();
+            else finish(unscored(reasons[event.error] || "recognition-unavailable"));
+          };
+          recognition.onend = () => {
+            if (settled) return;
+            if (transcript) { compare(); return; }
+            // Some Safari sessions end empty during audio-session startup. Retry
+            // once, without judging the student or restarting permission errors.
+            if (!stopping && !heardSpeech && retries === 0 && (!started || performance.now() - startedAt < 1500)) {
+              retries += 1;
+              clearTimeout(timer);
+              detach();
+              onState?.("starting");
+              retryTimer = setTimeout(start, 300);
+              return;
+            }
+            finish(unscored(heardSpeech ? "unrecognized" : (!started || performance.now() - startedAt < 1500) ? "recognition-unavailable" : "no-speech"));
+          };
+          recognition.start();
+        } catch (error) {
+          finish(unscored(error?.name === "NotAllowedError" ? "permission-denied" : "recognition-unavailable"));
+        }
+      };
+      start();
+    });
+  }
+
   async function record({ expectedText = "", maxSeconds = 7, onLevel } = {}) {
     if (!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder || !AudioContextClass) {
       throw new Error("This browser cannot record microphone audio.");
@@ -281,5 +414,5 @@
     }
   }
 
-  window.EdmundPronunciation = Object.freeze({ recordAndCompare, analyseTextMatch, stop() { activeStop?.(); } });
+  window.EdmundPronunciation = Object.freeze({ recordAndCompare, recognizeAndCompare, analyseTextMatch, stop() { activeStop?.(); }, cancel() { activeCancel?.(); } });
 })();

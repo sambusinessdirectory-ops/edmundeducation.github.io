@@ -34,6 +34,11 @@ jobs:
           node --test tools/test-membership-foundation.mjs
           npm test --prefix workers/membership
 
+      - name: Validate Flashcard speech recognition lifecycle
+        run: |
+          node tools/test-pronunciation-gating.mjs
+          node --test tools/test-flashcard-speech-recognition.mjs
+
       - name: Validate Flashcard conflict recovery release gate
         run: |
           node tools/test-flashcard-state-integrity.mjs
