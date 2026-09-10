@@ -46,7 +46,7 @@ function ensureStyles() {
   if (document.querySelector('link[data-background-music-player-style]')) return;
   const link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = new URL('./background-music-player.css?v=20260910-library4', import.meta.url).href;
+  link.href = new URL('./background-music-player.css?v=20260910-library5', import.meta.url).href;
   link.dataset.backgroundMusicPlayerStyle = '';
   document.head.append(link);
 }
@@ -125,7 +125,7 @@ function playerMarkup(rows, genre) {
 function setupAudio() {
   if (audio) return audio;
   audio = new Audio();
-  audio.preload = 'metadata';
+  audio.preload="none";
   audio.volume = .25;
   ['timeupdate', 'loadedmetadata', 'play', 'pause'].forEach(name => audio.addEventListener(name, syncMounts));
   audio.addEventListener('ended', () => audio.loop ? (audio.currentTime = 0, audio.play().catch(() => {})) : playOffset(1));
