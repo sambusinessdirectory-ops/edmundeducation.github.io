@@ -69,37 +69,6 @@
     if (event.detail?.mark === "green") playSuccessSound();
   });
 
-  function smoothPath(points) {
-    if (points.length < 2) return "";
-    const bounded = (value, start, end) => Math.max(Math.min(start, end), Math.min(Math.max(start, end), value));
-    return points.reduce((path, point, index) => {
-      if (!index) return `M ${point[0]} ${point[1]}`;
-      const previous = points[index - 1];
-      const before = points[index - 2] || previous;
-      const after = points[index + 1] || point;
-      const width = (point[0] - previous[0]) / 3;
-      // Keeping both controls within the segment's values prevents overshoot below zero.
-      const startY = bounded(previous[1] + (point[1] - before[1]) / 6, previous[1], point[1]);
-      const endY = bounded(point[1] - (after[1] - previous[1]) / 6, previous[1], point[1]);
-      return `${path} C ${previous[0] + width} ${startY}, ${point[0] - width} ${endY}, ${point[0]} ${point[1]}`;
-    }, "");
-  }
-
-  function smoothDashboardCharts() {
-    document.querySelectorAll("svg.axis-chart polyline.chart-line").forEach(line => {
-      const points = String(line.getAttribute("points") || "").trim().split(/\s+/).map(pair => pair.split(",").map(Number)).filter(pair => pair.length === 2 && pair.every(Number.isFinite));
-      if (points.length < 2) return;
-      let path = line.nextElementSibling?.matches?.("path[data-editorial-curve]") ? line.nextElementSibling : null;
-      if (!path) {
-        path = document.createElementNS("http://www.w3.org/2000/svg", "path");
-        [...line.attributes].forEach(attribute => attribute.name !== "points" && path.setAttribute(attribute.name, attribute.value));
-        path.dataset.editorialCurve = "";
-        line.insertAdjacentElement("afterend", path);
-      }
-      path.setAttribute("d", smoothPath(points));
-      line.style.opacity = "0";
-    });
-  }
   const dialogs = [
     {
       lesson: 1, id: "l1d1", title: "Confirmed Appointment", titleZh: "已確認的預約",
@@ -336,7 +305,6 @@
   function enhance() {
     document.querySelectorAll(".course-section").forEach(enhanceCourse);
     ensureSoundToggle();
-    smoothDashboardCharts();
   }
   new MutationObserver(enhance).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ["points"] });
   enhance();

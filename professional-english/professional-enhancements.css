@@ -30,3 +30,6 @@ html.theme-day .pro-lesson-card button small{color:#536d62!important;opacity:1}
 .team-effort-chart .team-chart-total-point{stroke:var(--text,#eff7ed);stroke-width:2;pointer-events:all}
 .team-effort-chart .team-chart-count{fill:var(--text,#eff7ed);font-size:13px;font-weight:800}
 .team-effort-chart circle:focus{outline:none;filter:drop-shadow(0 0 5px currentColor);stroke-width:3}
+
+/* Every remaining marker represents positive activity and must remain visible. */
+.axis-chart circle{opacity:1}
