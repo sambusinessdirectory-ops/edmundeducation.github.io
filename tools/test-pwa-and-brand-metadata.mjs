@@ -49,6 +49,7 @@ const htmlPages = [
   "execution-dashboard.html",
   "execution-thinking-log.html",
   "exam-resources.html",
+  "excellent-learning-system.html",
   "flashcards.html",
   "false-friends-system.html",
   "forum.html",

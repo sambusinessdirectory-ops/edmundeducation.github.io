@@ -467,5 +467,14 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "name": "Eddie Farm 積分系統｜EdmundEducation",
     "shortName": "Eddie Farm 積分",
     "manifest": "/pwa-manifests/eddie-farm.webmanifest"
+  },
+  {
+    "id": "excellent-learning",
+    "href": "excellent-learning-system.html",
+    "zh": "卓越學習系統",
+    "en": "Excellent Learning System",
+    "name": "卓越學習系統｜EdmundEducation",
+    "shortName": "卓越學習",
+    "manifest": "/pwa-manifests/excellent-learning.webmanifest"
   }
 ].map(Object.freeze));
