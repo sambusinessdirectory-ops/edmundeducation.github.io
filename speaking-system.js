@@ -2139,10 +2139,43 @@
     return translation && typeof translation === "object" ? translation : {};
   }
 
+  function dseSourceSegments(value, title = "") {
+    let source = String(value || "").replace(/\s+/g, " ").trim();
+    if (title && source.toLocaleLowerCase().startsWith(String(title).toLocaleLowerCase())) {
+      source = source.slice(String(title).length).trim();
+    }
+    source = source.replace(/\s*(?:Discuss with your group\.?\s*)?You may want to talk about:[\s\S]*$/i, "").trim();
+    const scenarioPattern = /\s(?=(?:You are members of|You and your group|You are on|You are a member|You are preparing|Your group|Your class|Your school|Your committee|Your club|Your form|The Student Union at your school)\b)/i;
+    const scenarioAt = source.search(scenarioPattern);
+    const article = scenarioAt >= 0 ? source.slice(0, scenarioAt).trim() : source;
+    const scenario = scenarioAt >= 0 ? source.slice(scenarioAt).trim() : "";
+    const segments = [];
+    const numberedAt = article.search(/\b1\.\s+/);
+    if (numberedAt >= 0) {
+      const lead = article.slice(0, numberedAt).trim();
+      if (lead) segments.push({ type: "paragraph", text: lead });
+      const items = article.slice(numberedAt).split(/\s+(?=\d{1,2}\.\s+)/).map(item => item.replace(/^\d{1,2}\.\s+/, "").trim()).filter(Boolean);
+      if (items.length > 1) segments.push({ type: "numbered", items });
+      else if (items[0]) segments.push({ type: "paragraph", text: items[0] });
+    } else {
+      const breaks = /\s+(?=(?:Indeed,|However,|Recently,|According to|For example,|On the other hand,|Nobody knows|Another (?:factor|reason|problem)|Despite this,|In contrast,|As a result,)\s)/g;
+      article.split(breaks).map(text => text.trim()).filter(Boolean).forEach(text => segments.push({ type: "paragraph", text }));
+    }
+    if (scenario) segments.push({ type: "task", text: scenario });
+    return segments;
+  }
+
+  function dsePlainSourceMarkup(set) {
+    return dseSourceSegments(set?.sourceText, set?.title).map(segment => {
+      if (segment.type === "numbered") return `<ol class="dse-source-numbered">${segment.items.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ol>`;
+      return `<p class="dse-source-paragraph${segment.type === "task" ? " is-task" : ""}">${escapeHtml(segment.text)}</p>`;
+    }).join("");
+  }
+
   function dseSourceCard(set, open = false) {
     const source = String(set?.sourceText || "").trim();
     if (!source) return "";
-    return `<details class="dse-source-card" ${open ? "open" : ""}><summary><span>題目文章與任務資料</span><small>Source text &amp; task</small></summary><div class="dse-source-text" lang="en">${escapeHtml(source)}</div></details>`;
+    return `<details class="dse-source-card" ${open ? "open" : ""}><summary><span>題目文章與任務資料</span><small>Source text &amp; task</small></summary><div class="dse-source-text" lang="en">${dsePlainSourceMarkup(set)}</div></details>`;
   }
 
   function hasNativeDsePaper(set) {
@@ -2167,6 +2200,14 @@
     return `<ol class="dse-native-paper-list">${(items || []).map((item, index) => `<li>${dsePaperWordMarkup(item, set, `${scope}-${index}`)}</li>`).join("")}</ol>`;
   }
 
+  function dseNativeSourceMarkup(set) {
+    return dseSourceSegments(set?.sourceText, set?.title).map((segment, index) => {
+      const scope = index ? `source-${index}` : "source";
+      if (segment.type === "numbered") return `<ol class="dse-native-source-list">${segment.items.map((item, itemIndex) => `<li>${dsePaperWordMarkup(item, set, `${scope}-item-${itemIndex}`)}</li>`).join("")}</ol>`;
+      return `<p class="dse-native-source-paragraph${segment.type === "task" ? " is-task" : ""}" lang="en">${dsePaperWordMarkup(segment.text, set, scope)}</p>`;
+    }).join("");
+  }
+
   function dseNativePaperMarkup(set) {
     const illustration = DSE_ILLUSTRATIONS[dsePaperSetKey(set)] || null;
     return `<article class="dse-native-paper" data-dse-paper data-paper-mode="student">
@@ -2174,7 +2215,6 @@
         <button class="is-active" type="button" data-dse-paper-mode="student" aria-pressed="true"><strong>學生題紙</strong><small>Student paper</small></button>
         <button type="button" data-dse-paper-mode="examiner" aria-pressed="false"><strong>考官題紙</strong><small>Examiner paper</small></button>
       </nav>
-      <div class="dse-native-transcript-label"><strong>可選取文字版本</strong><small>Selectable transcript · 按字收藏</small></div>
       <header class="dse-native-paper-header">
         <span>${escapeHtml(set.year)}-DSE · ENG LANG · PAPER 4 · ${escapeHtml(set.set)}</span>
         <p>香港考試及評核局 · HONG KONG EXAMINATIONS AND ASSESSMENT AUTHORITY</p>
@@ -2183,8 +2223,8 @@
       <section class="dse-native-paper-part">
         <div class="dse-native-paper-part-heading"><span>PART A</span><h3>Group Interaction</h3><small>小組討論</small></div>
         <h4>${dsePaperWordMarkup(set.title, set, "title")}</h4>
-        ${illustration ? `<figure class="dse-paper-illustration is-${escapeHtml(illustration.position || "center")}"><img src="${escapeHtml(illustration.src)}" alt="${escapeHtml(`${set.title} illustration`)}" loading="lazy" decoding="async"><figcaption>原題插圖 · Original question illustration</figcaption></figure>` : ""}
-        <p class="dse-native-source" lang="en">${dsePaperWordMarkup(set.sourceText, set, "source")}</p>
+        ${illustration ? `<figure class="dse-paper-illustration is-${escapeHtml(illustration.position || "center")}"><img src="${escapeHtml(illustration.src)}" alt="${escapeHtml(`${set.title} illustration`)}" loading="lazy" decoding="async"></figure>` : ""}
+        <div class="dse-native-source" lang="en">${dseNativeSourceMarkup(set)}</div>
         <p class="dse-native-instruction">Discuss with your group. You may want to talk about:</p>
         ${dsePaperListMarkup(set.groupDiscussion, set, "group")}
         <p class="dse-native-anything">• anything else you think is important</p>

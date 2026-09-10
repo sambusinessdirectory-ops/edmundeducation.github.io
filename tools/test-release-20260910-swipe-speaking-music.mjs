@@ -16,10 +16,11 @@ const deckPosition = homepage.indexOf("data-system-card-deck");
 const homeworkPosition = homepage.indexOf("data-system-card-start");
 assert.ok(deckPosition >= 0 && deckPosition < homeworkPosition, "the swipe selector should sit before card 10");
 assert.match(homepage, /href="excellent-learning-system\.html"/);
-assert.match(homepage, /homepage-system-deck\.js\?v=20260910-swipe3/);
+assert.match(homepage, /homepage-system-deck\.js\?v=20260910-ipad4/);
 for (const behavior of ["wheel", "pointerdown", "ArrowUp", "ArrowDown", "cloneNode(true)", "rawDelta", "data-system-card-deck-search", "data-system-card-deck-first", "data-system-card-deck-last"]) {
   assert.ok(deckScript.includes(behavior), `missing interactive deck behavior: ${behavior}`);
 }
+assert.match(read("homepage-system-deck.css"), /touch-action:pan-y pinch-zoom/, "touch users must retain native vertical page scrolling");
 assert.match(deckScript, /querySelectorAll\("a\.category\[href\]"\)/, "the selector should include cards 1 through 64");
 assert.match(homepage, /data-system-card-deck-first[^>]*>01</);
 

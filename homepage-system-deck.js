@@ -91,23 +91,38 @@
 
   stage.addEventListener("wheel", event => {
     if (Math.abs(event.deltaY) < Math.abs(event.deltaX) || Math.abs(event.deltaY) < 5) return;
+    const direction = event.deltaY > 0 ? 1 : -1;
+    if ((direction < 0 && active === 0) || (direction > 0 && active === cards.length - 1)) return;
     event.preventDefault();
     wheelRemainder += event.deltaY;
-    cancelAnimationFrame(wheelFrame);
+    if (wheelFrame) return;
     wheelFrame = requestAnimationFrame(() => {
-      const step = Math.max(1, Math.min(24, Math.round(Math.abs(wheelRemainder) / 22)));
-      move((wheelRemainder > 0 ? 1 : -1) * step);
-      wheelRemainder = 0;
+      const sign = wheelRemainder > 0 ? 1 : -1;
+      const step = Math.max(1, Math.min(2, Math.floor(Math.abs(wheelRemainder) / 54)));
+      move(sign * step);
+      wheelRemainder -= sign * step * 54;
+      if (Math.abs(wheelRemainder) < 18) wheelRemainder = 0;
+      wheelFrame = 0;
     });
   }, { passive: false });
 
   stage.addEventListener("pointerdown", event => {
     if (event.button !== 0) return;
-    pointer = { id: event.pointerId, y: event.clientY, rawDelta: 0, moved: false, captured: false };
+    pointer = { id: event.pointerId, type: event.pointerType, x: event.clientX, y: event.clientY, rawDelta: 0, moved: false, captured: false, axis: null };
   });
   stage.addEventListener("pointermove", event => {
     if (!pointer || pointer.id !== event.pointerId) return;
-    pointer.rawDelta = event.clientY - pointer.y;
+    const deltaX = event.clientX - pointer.x;
+    const deltaY = event.clientY - pointer.y;
+    if (pointer.type === "touch" || pointer.type === "pen") {
+      if (!pointer.axis && Math.max(Math.abs(deltaX), Math.abs(deltaY)) > 8) {
+        pointer.axis = Math.abs(deltaX) > Math.abs(deltaY) * 1.15 ? "horizontal" : "vertical";
+      }
+      if (pointer.axis !== "horizontal") return;
+      pointer.rawDelta = deltaX;
+    } else {
+      pointer.rawDelta = deltaY;
+    }
     dragY = Math.max(-90, Math.min(90, pointer.rawDelta));
     pointer.moved ||= Math.abs(dragY) > 8;
     if (pointer.moved && !pointer.captured) {
@@ -131,7 +146,12 @@
     if (suppressClick) window.setTimeout(() => { suppressClick = false; }, 0);
   }
   stage.addEventListener("pointerup", finishPointer);
-  stage.addEventListener("pointercancel", finishPointer);
+  stage.addEventListener("pointercancel", event => {
+    if (!pointer || pointer.id !== event.pointerId) return;
+    pointer = null;
+    dragY = 0;
+    render();
+  });
   stack.addEventListener("click", event => {
     const card = event.target.closest("a.category");
     if (!card) return;

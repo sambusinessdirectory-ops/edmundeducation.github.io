@@ -25,6 +25,33 @@
     return Math.max(0, 1 - row[b.length] / Math.max(a.length, b.length, 1));
   }
 
+  function wordSimilarity(expected, actual) {
+    const a = normalizeWords(expected);
+    const b = normalizeWords(actual);
+    if (!a.length || !b.length) return null;
+    const row = Array.from({ length: b.length + 1 }, (_, index) => index);
+    for (let i = 1; i <= a.length; i += 1) {
+      let diagonal = row[0];
+      row[0] = i;
+      for (let j = 1; j <= b.length; j += 1) {
+        const previous = row[j];
+        row[j] = Math.min(row[j] + 1, row[j - 1] + 1, diagonal + (a[i - 1] === b[j - 1] ? 0 : 1));
+        diagonal = previous;
+      }
+    }
+    return Math.max(0, 1 - row[b.length] / Math.max(a.length, b.length, 1));
+  }
+
+  function analyseTextMatch(expected, actual, acoustic = 0) {
+    const characterMatch = editSimilarity(expected, actual) || 0;
+    const wordMatch = wordSimilarity(expected, actual) || 0;
+    const lexical = .45 * characterMatch + .55 * wordMatch;
+    const score = lexical >= .985
+      ? Math.min(1, .985 + .015 * acoustic)
+      : .92 * lexical + .08 * acoustic;
+    return { score, lexical, passed: lexical >= .78 && score >= .80 };
+  }
+
   function monoSamples(buffer, start = 0, end = buffer.duration) {
     const from = Math.max(0, Math.floor(start * buffer.sampleRate));
     const to = Math.min(buffer.length, Math.ceil(end * buffer.sampleRate));
@@ -50,19 +77,27 @@
 
   function acousticProfile(samples, sampleRate) {
     const data = resample(samples, sampleRate);
-    if (data.length < 160) return { bands: Array(12).fill(0), envelope: [], duration: data.length / 8000 };
+    if (data.length < 160) return { bands: Array(12).fill(0), envelope: [], duration: data.length / 8000, peak: 0, rms: 0, voicedFraction: 0 };
     let peak = 0;
-    for (const value of data) peak = Math.max(peak, Math.abs(value));
+    let totalEnergy = 0;
+    for (const value of data) {
+      peak = Math.max(peak, Math.abs(value));
+      totalEnergy += value * value;
+    }
+    const rawRms = Math.sqrt(totalEnergy / data.length);
     const scale = peak > 0 ? 1 / peak : 1;
     const frequencies = [140, 190, 260, 350, 470, 630, 850, 1150, 1550, 2100, 2850, 3800];
     const bands = Array(frequencies.length).fill(0);
     const envelope = [];
+    let voicedFrames = 0;
     const frame = 320;
     const step = 240;
     for (let offset = 0; offset + frame <= data.length; offset += step) {
       let rms = 0;
       for (let i = 0; i < frame; i += 1) rms += (data[offset + i] * scale) ** 2;
-      envelope.push(Math.sqrt(rms / frame));
+      const frameRms = Math.sqrt(rms / frame);
+      envelope.push(frameRms);
+      if (frameRms > .075) voicedFrames += 1;
       frequencies.forEach((frequency, bandIndex) => {
         const omega = 2 * Math.PI * frequency / 8000;
         const coefficient = 2 * Math.cos(omega);
@@ -76,7 +111,14 @@
       });
     }
     const total = bands.reduce((sum, value) => sum + value, 0) || 1;
-    return { bands: bands.map(value => Math.sqrt(value / total)), envelope, duration: data.length / 8000 };
+    return {
+      bands: bands.map(value => Math.sqrt(value / total)),
+      envelope,
+      duration: data.length / 8000,
+      peak,
+      rms: rawRms,
+      voicedFraction: envelope.length ? voicedFrames / envelope.length : 0
+    };
   }
 
   function cosine(left, right) {
@@ -108,7 +150,7 @@
 
   function startRecognition(expectedText) {
     const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-    if (!Recognition) return { stop() {}, result: Promise.resolve("") };
+    if (!Recognition) return { supported: false, stop() {}, result: Promise.resolve("") };
     const recognition = new Recognition();
     recognition.lang = "en-US";
     recognition.interimResults = true;
@@ -121,8 +163,8 @@
       recognition.onerror = () => resolve(finalText);
       recognition.onend = () => resolve(finalText);
     });
-    try { recognition.start(); } catch { return { stop() {}, result: Promise.resolve("") }; }
-    return { stop() { try { recognition.stop(); } catch {} }, result, expectedText };
+    try { recognition.start(); } catch { return { supported: false, stop() {}, result: Promise.resolve("") }; }
+    return { supported: true, stop() { try { recognition.stop(); } catch {} }, result, expectedText };
   }
 
   async function record({ expectedText = "", maxSeconds = 7, onLevel } = {}) {
@@ -141,6 +183,9 @@
     const recorder = new MediaRecorder(stream);
     const recognition = startRecognition(expectedText);
     let heardVoice = false;
+    let voiceFrames = 0;
+    let meterFrames = 0;
+    let maximumLevel = 0;
     let lastVoiceAt = performance.now();
     let stopped = false;
     let frameId = 0;
@@ -162,7 +207,13 @@
         source.disconnect();
         const transcript = await Promise.race([recognition.result, new Promise(done => setTimeout(() => done(""), 500))]);
         activeStop = null;
-        resolve({ blob: new Blob(chunks, { type: recorder.mimeType || "audio/webm" }), transcript, context });
+        resolve({
+          blob: new Blob(chunks, { type: recorder.mimeType || "audio/webm" }),
+          transcript,
+          context,
+          recognitionSupported: recognition.supported,
+          voiceActivity: { heardVoice, voiceFrames, meterFrames, maximumLevel }
+        });
       };
     });
     recorder.start(100);
@@ -173,8 +224,10 @@
       let energy = 0;
       for (const value of meter) energy += value * value;
       const level = Math.sqrt(energy / meter.length);
+      meterFrames += 1;
+      maximumLevel = Math.max(maximumLevel, level);
       onLevel?.(Math.min(1, level * 12));
-      if (level > .025) { heardVoice = true; lastVoiceAt = performance.now(); }
+      if (level > .018) { heardVoice = true; voiceFrames += 1; lastVoiceAt = performance.now(); }
       if (heardVoice && performance.now() - lastVoiceAt > 650 && performance.now() - startedAt > 850) stop();
       else frameId = requestAnimationFrame(monitor);
     };
@@ -193,17 +246,40 @@
       ]);
       const student = acousticProfile(monoSamples(studentBuffer), studentBuffer.sampleRate);
       const model = acousticProfile(monoSamples(modelBuffer, modelStart, modelEnd ?? modelBuffer.duration), modelBuffer.sampleRate);
+      const hasSpeech = captured.voiceActivity.heardVoice
+        && captured.voiceActivity.voiceFrames >= 2
+        && captured.voiceActivity.maximumLevel >= .018
+        && student.duration >= .18
+        && student.peak >= .012
+        && student.rms >= .0015
+        && student.voicedFraction >= .04;
+      if (!hasSpeech) {
+        return { score: 0, passed: false, reason: "no-speech", transcript: "", acoustic: 0, duration: student.duration };
+      }
+      if (!captured.recognitionSupported) {
+        return { score: 0, passed: false, reason: "recognition-unavailable", transcript: "", acoustic: 0, duration: student.duration };
+      }
+      if (!normalizeWords(captured.transcript).length) {
+        return { score: 0, passed: false, reason: "unrecognized", transcript: "", acoustic: 0, duration: student.duration };
+      }
       const spectrum = cosine(student.bands, model.bands);
       const rhythm = envelopeSimilarity(student.envelope, model.envelope);
       const duration = Math.min(student.duration, model.duration) / Math.max(student.duration, model.duration, .01);
       const acoustic = .56 * spectrum + .24 * rhythm + .20 * duration;
-      const words = editSimilarity(expectedText, captured.transcript);
-      const score = words == null ? Math.min(.99, .62 + .38 * acoustic) : .68 * words + .32 * acoustic;
-      return { score, passed: score >= .8, transcript: captured.transcript, acoustic, duration: student.duration };
+      const textMatch = analyseTextMatch(expectedText, captured.transcript, acoustic);
+      return {
+        score: textMatch.score,
+        passed: textMatch.passed,
+        reason: textMatch.passed ? "matched" : "mismatch",
+        transcript: captured.transcript,
+        acoustic,
+        lexical: textMatch.lexical,
+        duration: student.duration
+      };
     } finally {
       captured.context.close().catch(() => {});
     }
   }
 
-  window.EdmundPronunciation = Object.freeze({ recordAndCompare, stop() { activeStop?.(); } });
+  window.EdmundPronunciation = Object.freeze({ recordAndCompare, analyseTextMatch, stop() { activeStop?.(); } });
 })();

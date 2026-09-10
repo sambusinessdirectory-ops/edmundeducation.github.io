@@ -18,9 +18,17 @@
     const toast = ensureToast();
     toast.className = `pronunciation-toast ${result.passed ? "is-success" : "is-retry"} is-visible`;
     const percent = Math.round(result.score * 100);
-    toast.innerHTML = result.passed
-      ? `<strong>✓ Success · 成功</strong><span>Your pronunciation is accurate. · 你的讀音準確（${percent}%）</span>`
-      : `<strong>Try again · 再試一次</strong><span>Practice the pronunciation and listen once more. · 請再練習讀音（${percent}%）</span>`;
+    if (result.passed) {
+      toast.innerHTML = `<strong>✓ Success · 成功</strong><span>Your pronunciation is accurate. · 你的讀音準確（${percent}%）</span>`;
+    } else if (result.reason === "no-speech") {
+      toast.innerHTML = "<strong>No speech detected · 未偵測到語音</strong><span>Speak clearly after tapping the microphone, then try again. · 請按咪高峰後清楚朗讀。</span>";
+    } else if (result.reason === "unrecognized") {
+      toast.innerHTML = "<strong>Could not match the words · 未能辨認字詞</strong><span>Listen once more and repeat the exact word or phrase. · 請再聆聽並讀出相同字詞。</span>";
+    } else if (result.reason === "recognition-unavailable") {
+      toast.innerHTML = "<strong>Pronunciation check unavailable · 暫未能檢查讀音</strong><span>Please use a browser with English speech recognition enabled. · 請使用支援英文語音辨認的瀏覽器。</span>";
+    } else {
+      toast.innerHTML = `<strong>Try again · 再試一次</strong><span>The spoken words did not match closely enough. · 讀出的字詞未達準確要求（${percent}%）</span>`;
+    }
     clearTimeout(showResult.timer);
     showResult.timer = setTimeout(() => toast.classList.remove("is-visible"), 4800);
   }

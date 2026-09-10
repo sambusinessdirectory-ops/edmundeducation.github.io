@@ -10,6 +10,7 @@ const translationSource = readFileSync(new URL("dse-speaking-translations.js", r
 const modeSource = readFileSync(new URL("dse-speaking-mode.js", repository), "utf8");
 const appSource = readFileSync(new URL("speaking-system.js", repository), "utf8");
 const htmlSource = readFileSync(new URL("speaking-system.html", repository), "utf8");
+const cssSource = readFileSync(new URL("speaking-system.css", repository), "utf8");
 
 const context = {
   window: {},
@@ -131,6 +132,12 @@ for (const required of [
   "dse-paper-illustration", "DSE_SPEAKING_ILLUSTRATIONS", "setDsePaperMode", "pointerup", "dsePaperHostMarkup(session.set, true)"
 ]) assert.ok(appSource.includes(required), `missing native DSE paper reader: ${required}`);
 assert.ok(!appSource.includes("dse-paper-facsimile"), "full scanned paper pages must stay out of the digitized reader");
+assert.ok(!appSource.includes("可選取文字版本"), "the redundant selectable-transcript bar must stay removed");
+assert.ok(!appSource.includes("原題插圖 · Original question illustration"), "question illustrations must not carry a redundant caption");
+assert.ok(appSource.includes("dseNativeSourceMarkup") && appSource.includes("dse-native-source-list"), "digitized source text must preserve paragraphs and numbered lists");
+assert.match(cssSource, /\.dse-search-panel\{position:sticky/, "the full-catalogue search must remain available while scrolling");
+const finland = context.window.EDMUND_DSE_SPEAKING_DATA.catalog[2014].find(set => set.set === "3.2");
+assert.ok(finland && (finland.sourceText.match(/\b\d{1,2}\.\s/g) || []).length === 10, "Finland must retain all ten separately rendered characteristics");
 
 assert.match(appSource, /assets\/speaking-system\/\$\{cover\}/);
 assert.match(appSource, /ielts-exam-practice-mode\.png/);

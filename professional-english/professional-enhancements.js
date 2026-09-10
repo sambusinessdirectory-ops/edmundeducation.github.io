@@ -1,5 +1,92 @@
 (function initialiseProfessionalEnhancements() {
   "use strict";
+  const SOUND_KEY = "edmund-professional-sound-effects-v1";
+  let soundContext = null;
+  const soundEffectsEnabled = () => {
+    try { return localStorage.getItem(SOUND_KEY) !== "off"; } catch { return true; }
+  };
+  function playSuccessSound() {
+    if (!soundEffectsEnabled()) return;
+    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContextClass) return;
+    soundContext ||= new AudioContextClass();
+    if (soundContext.state === "suspended") soundContext.resume().catch(() => {});
+    const start = soundContext.currentTime + .015;
+    [[523.25, 0, .17], [659.25, .1, .2], [783.99, .21, .3]].forEach(([frequency, delay, length]) => {
+      const oscillator = soundContext.createOscillator();
+      const gain = soundContext.createGain();
+      oscillator.type = "sine";
+      oscillator.frequency.value = frequency;
+      gain.gain.setValueAtTime(.0001, start + delay);
+      gain.gain.exponentialRampToValueAtTime(.12, start + delay + .018);
+      gain.gain.exponentialRampToValueAtTime(.0001, start + delay + length);
+      oscillator.connect(gain).connect(soundContext.destination);
+      oscillator.start(start + delay);
+      oscillator.stop(start + delay + length + .03);
+    });
+  }
+
+  function ensureSoundToggle() {
+    if (document.querySelector("[data-professional-sound-toggle]")) return;
+    const host = document.querySelector(".header-actions") || document.querySelector(".app-header");
+    if (!host) return;
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "professional-sound-toggle";
+    button.dataset.professionalSoundToggle = "";
+    const render = () => {
+      const enabled = soundEffectsEnabled();
+      button.classList.toggle("is-muted", !enabled);
+      button.setAttribute("aria-pressed", String(enabled));
+      button.setAttribute("aria-label", enabled ? "Mute correct-answer sound effects" : "Enable correct-answer sound effects");
+      button.innerHTML = `<span aria-hidden="true">${enabled ? "🔔" : "🔕"}</span><strong>答對音效<small>Sound ${enabled ? "on" : "off"}</small></strong>`;
+    };
+    button.addEventListener("click", () => {
+      try { localStorage.setItem(SOUND_KEY, soundEffectsEnabled() ? "off" : "on"); } catch {}
+      render();
+      if (soundEffectsEnabled()) playSuccessSound();
+    });
+    render();
+    host.append(button);
+  }
+
+  document.addEventListener("click", event => {
+    const knownButton = event.target.closest(".grade-controls button.tick");
+    if (knownButton && !knownButton.disabled) playSuccessSound();
+  }, true);
+
+  function smoothPath(points) {
+    if (points.length < 2) return "";
+    const control = (current, previous, next, reverse = false) => {
+      const p = previous || current;
+      const n = next || current;
+      const length = Math.hypot(n[0] - p[0], n[1] - p[1]) * .18;
+      const angle = Math.atan2(n[1] - p[1], n[0] - p[0]) + (reverse ? Math.PI : 0);
+      return [current[0] + Math.cos(angle) * length, current[1] + Math.sin(angle) * length];
+    };
+    return points.reduce((path, point, index) => {
+      if (!index) return `M ${point[0]} ${point[1]}`;
+      const start = control(points[index - 1], points[index - 2], point);
+      const end = control(point, points[index - 1], points[index + 1], true);
+      return `${path} C ${start[0]} ${start[1]}, ${end[0]} ${end[1]}, ${point[0]} ${point[1]}`;
+    }, "");
+  }
+
+  function smoothDashboardCharts() {
+    document.querySelectorAll("svg.axis-chart polyline.chart-line").forEach(line => {
+      const points = String(line.getAttribute("points") || "").trim().split(/\s+/).map(pair => pair.split(",").map(Number)).filter(pair => pair.length === 2 && pair.every(Number.isFinite));
+      if (points.length < 2) return;
+      let path = line.nextElementSibling?.matches?.("path[data-editorial-curve]") ? line.nextElementSibling : null;
+      if (!path) {
+        path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        [...line.attributes].forEach(attribute => attribute.name !== "points" && path.setAttribute(attribute.name, attribute.value));
+        path.dataset.editorialCurve = "";
+        line.insertAdjacentElement("afterend", path);
+      }
+      path.setAttribute("d", smoothPath(points));
+      line.style.opacity = "0";
+    });
+  }
   const dialogs = [
     {
       lesson: 1, id: "l1d1", title: "Confirmed Appointment", titleZh: "已確認的預約",
@@ -188,11 +275,15 @@
     modal.querySelector("[data-check-cloze]")?.addEventListener("click", () => {
       const inputs = [...modal.querySelectorAll("[data-answer]")];
       let correct = 0;
+      let newlyCorrect = 0;
       inputs.forEach(input => {
         const normalize = value => String(value).toLowerCase().replace(/[^a-z]/g, "");
         const passed = normalize(input.value) === normalize(input.dataset.answer);
+        if (passed && input.dataset.wasCorrect !== "true") newlyCorrect += 1;
+        input.dataset.wasCorrect = String(passed);
         input.classList.toggle("correct", passed); input.classList.toggle("wrong", !passed); if (passed) correct += 1;
       });
+      if (newlyCorrect) playSuccessSound();
       modal.querySelector("[data-cloze-status]").textContent = `${correct} / ${inputs.length} correct · 答對 ${correct} 題`;
       try { localStorage.setItem(`professional-dialogue:${active.id}`, JSON.stringify({ correct, total: inputs.length, at: Date.now() })); } catch {}
     });
@@ -229,8 +320,12 @@
     }
   }
 
-  function enhance() { document.querySelectorAll(".course-section").forEach(enhanceCourse); }
-  new MutationObserver(enhance).observe(document.body, { childList: true, subtree: true });
+  function enhance() {
+    document.querySelectorAll(".course-section").forEach(enhanceCourse);
+    ensureSoundToggle();
+    smoothDashboardCharts();
+  }
+  new MutationObserver(enhance).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ["points"] });
   enhance();
 })();
 

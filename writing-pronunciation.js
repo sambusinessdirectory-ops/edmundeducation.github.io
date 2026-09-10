@@ -100,9 +100,17 @@
         onLevel: level => button.style.setProperty("--mic-level", level.toFixed(2))
       });
       status.dataset.tone = result.passed ? "success" : "retry";
-      status.textContent = result.passed
-        ? `✓ Pass · ${Math.round(result.score * 100)}% — Your pronunciation is accurate. You may continue.`
-        : `Try again · ${Math.round(result.score * 100)}% — Practice the pronunciation before moving on.`;
+      if (result.passed) {
+        status.textContent = `✓ Pass · ${Math.round(result.score * 100)}% — Your pronunciation is accurate. You may continue.`;
+      } else if (result.reason === "no-speech") {
+        status.textContent = "No speech detected · 未偵測到語音。請按下錄音後清楚讀完整句子。";
+      } else if (result.reason === "unrecognized") {
+        status.textContent = "The spoken words could not be matched · 未能辨認讀出的句子。請聆聽後再讀一次。";
+      } else if (result.reason === "recognition-unavailable") {
+        status.textContent = "Pronunciation checking is unavailable in this browser · 此瀏覽器暫不支援語音辨認。";
+      } else {
+        status.textContent = `Try again · ${Math.round(result.score * 100)}% — The spoken words did not match closely enough.`;
+      }
       dialog.querySelector("[data-wp-next]").disabled = !result.passed || sentenceIndex === sentences().length - 1;
     } catch (error) {
       status.dataset.tone = "retry";
