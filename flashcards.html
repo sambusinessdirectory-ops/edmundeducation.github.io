@@ -3966,6 +3966,7 @@
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2">
 <link rel="stylesheet" href="flashcard-theme.css?v=20260910-night3">
+  <link rel="stylesheet" href="flashcards-reading-embed.css?v=20260910-1">
 </head>
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
@@ -4365,7 +4366,9 @@
             </div>
           </div>
           <p class="status deck-start-status" data-start-status role="status" aria-live="polite"></p>
-          <div class="mode-block">
+          <div class="deck-mode-columns" data-embedded-range-columns>
+          <div class="mode-block standard-mode-block" data-mode-section="standard">
+            <h3 class="embedded-mode-heading"><span>標準模式</span><small>Standard</small></h3>
             <div class="mode-grid">
               <button class="mode-card" type="button" data-start-mode="order">
                 依原定次序
@@ -4402,6 +4405,7 @@
             </div>
           </div>
           <div class="mode-block" data-range-section="30">
+            <h3 class="embedded-mode-heading"><span>30 張卡範圍</span><small>30-card ranges</small></h3>
             <div class="mode-grid">
               <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="1" data-range-end="30" data-range-label="1-30 張卡">
                 1-30 張卡
@@ -4450,6 +4454,7 @@
             </div>
           </div>
           <div class="mode-block" data-range-section="10">
+            <h3 class="embedded-mode-heading"><span>10 張卡範圍</span><small>10-card ranges</small></h3>
             <div class="mode-grid">
               <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="1" data-range-end="10" data-range-label="第 1–10 項">
                 第 1–10 項
@@ -4536,6 +4541,7 @@
                 <span>練習第 201 項之後的所有項目。</span>
               </button>
             </div>
+          </div>
           </div>
         </section>
 

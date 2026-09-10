@@ -5,9 +5,11 @@ import vm from 'node:vm';
 import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink } from '../reading-comprehension-features.mjs';
 
 const read = (path) => readFile(new URL(`../${path}`, import.meta.url), 'utf8');
-const [source, html, css, dataText, analysisText] = await Promise.all([
+const [source, html, css, dataText, analysisText, flashcardsHtml, embedCss, professionalCss, professionalHtml] = await Promise.all([
   read('reading-comprehension.js'), read('reading-comprehension.html'), read('reading-comprehension.css'),
-  read('reading-comprehension-data/p1-069-albert-einstein.json'), read('ielts-reading-analysis-data/p1-069-albert-einstein.json')
+  read('reading-comprehension-data/p1-069-albert-einstein.json'), read('ielts-reading-analysis-data/p1-069-albert-einstein.json'),
+  read('flashcards.html'), read('flashcards-reading-embed.css'),
+  read('professional-english/professional-enhancements.css'), read('professional-english/index.html')
 ]);
 const data = JSON.parse(dataText), analysis = JSON.parse(analysisText);
 const catalogue = JSON.parse(await read('reading-comprehension-catalogue.json')).articles;
@@ -142,15 +144,27 @@ assert.equal(node('[data-answer-progress-content]').hidden, false);
 assert.match(source, /let progressVisible = true/);
 assert.match(html, /data-interactive-flashcards-panel/, 'interactive flashcards render inside the reading page');
 assert.match(html, /data-interactive-flashcards-resize/, 'interactive flashcards expose a visible resize grip');
+assert.equal((html.match(/data-resize-corner="(?:nw|ne|sw|se)"/g) || []).length, 4, 'all four floating-panel corners can resize');
 assert.match(html, /frame-src 'self'/, 'the embedded same-origin flashcard frame is allowed');
 assert.match(source, /panel\.hidden = false/);
 assert.match(source, /frame\.src = url\.href/);
 assert.match(source, /closeInteractiveFlashcards\(\{ clearFrame: true \}\)/, 'leaving the exercise closes and clears the embedded session');
 assert.match(source, /function snapInteractiveFlashcards/, 'floating flashcards snap naturally to nearby corners');
 assert.match(source, /resize\.setPointerCapture/, 'students can freely resize the floating flashcards');
-assert.ok(source.includes("panel.classList.remove('is-minimized')"), 'reopening restores a collapsed flashcard panel');
+assert.match(source, /resizeHandles\.forEach/, 'each corner receives resize behavior');
+assert.match(source, /function restoreInteractiveFlashcards/, 'collapsed flashcards have an explicit restore path');
+assert.match(source, /restoreInteractiveFlashcards\(panel\)/, 'reopening restores a collapsed flashcard panel');
 assert.doesNotMatch(source, /window\.open\(url\.href/, 'interactive flashcards must not open a separate browser tab');
 assert.match(css, /\.interactive-flashcards-panel\s*\{[\s\S]*?position:\s*fixed/);
+assert.match(flashcardsHtml, /data-embedded-range-columns/, 'embedded range selection groups all choices together');
+assert.match(embedCss, /grid-template-columns:minmax\(0,.78fr\) minmax\(0,1fr\) minmax\(0,1fr\)/, 'embedded range view uses three columns at every panel width');
+assert.match(embedCss, /\[data-card-hint\][\s\S]*?display:none!important/, 'embedded card instructions are removed');
+assert.match(embedCss, /\.mouse-click-icon[\s\S]*?\.card-note-panel\{display:none!important\}/, 'mouse graphics and private notes stay out of the companion panel');
+assert.match(embedCss, /\.pwa-install-button[\s\S]*?\.pwa-notice[\s\S]*?display:none!important/, 'duplicate installation prompts stay out of the companion panel');
+assert.match(embedCss, /\.study-layout\{display:grid;grid-template-columns:minmax\(0,1fr\) minmax\(78px,92px\)/, 'card and grading controls use separate non-overlapping columns');
+assert.match(professionalCss, /html\.theme-day \.pro-practice-heading h3\{color:#174b36!important/, 'day mode uses a dark readable practice heading');
+assert.match(professionalCss, /html\.theme-day \.pro-lesson-card button b\{color:#426400!important/, 'day mode replaces pale yellow dialogue labels');
+assert.match(professionalHtml, /professional-enhancements\.css\?v=20260910-daycontrast1/, 'day contrast CSS is cache-busted');
 run('state.exerciseReady = true; state.answers = {q1:"TRUE"}; state.results = {};');
 await run(`openReadingBookmark('${id}:scanning:8')`);
 assert.equal(location.searchParams.get('view'), 'scanning');

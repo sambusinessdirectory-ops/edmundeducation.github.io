@@ -1,0 +1,95 @@
+/* Reading comprehension companion layout. Keep the standalone flashcard UI unchanged. */
+.embedded-mode-heading{display:none}
+
+html.flashcards-reading-embed,
+html.flashcards-reading-embed body{min-height:100%;background:#eef3f1}
+html.flashcards-reading-embed body{overflow-x:hidden;cursor:auto}
+html.flashcards-reading-embed .custom-cursor,
+html.flashcards-reading-embed .topbar,
+html.flashcards-reading-embed .breadcrumbs,
+html.flashcards-reading-embed .pwa-install-button,
+html.flashcards-reading-embed .pwa-notice,
+html.flashcards-reading-embed [data-pwa-ui]{display:none!important}
+html.flashcards-reading-embed .flash-shell{width:100%;max-width:none;min-height:100dvh;padding:7px}
+html.flashcards-reading-embed main{padding:0}
+html.flashcards-reading-embed .deck-card{padding:9px;border-radius:16px;box-shadow:none}
+
+/* Put standard, 30-card and 10-card choices side by side in the range view. */
+html.flashcards-reading-embed .deck-card[data-deck-start]>.section-head>div:first-child,
+html.flashcards-reading-embed .deck-card[data-deck-start] [data-export-deck-pdf],
+html.flashcards-reading-embed .deck-card[data-deck-start] [data-reset-current-deck]{display:none!important}
+html.flashcards-reading-embed .deck-card[data-deck-start]>.section-head{margin-bottom:6px}
+html.flashcards-reading-embed .deck-start-actions{width:100%;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px}
+html.flashcards-reading-embed .timer-mode-control,
+html.flashcards-reading-embed .timer-mode-toggle,
+html.flashcards-reading-embed .reversal-mode-toggle{min-width:0;min-height:34px;padding:5px 7px;border-radius:9px;font-size:11px}
+html.flashcards-reading-embed .deck-start-status{min-height:0;margin:0}
+html.flashcards-reading-embed .deck-mode-columns{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1fr) minmax(0,1fr);gap:7px;align-items:start;max-height:calc(100dvh - 72px);overflow:hidden}
+html.flashcards-reading-embed .mode-block{min-width:0;max-height:calc(100dvh - 78px);margin:0;padding:7px;border-radius:13px;overflow:auto;overscroll-behavior:contain;scrollbar-width:thin}
+html.flashcards-reading-embed .standard-mode-block{border-color:#83b8ed;background:#eaf4ff}
+html.flashcards-reading-embed [data-range-section="30"]{border-color:#77cf9d;background:#eafaf0}
+html.flashcards-reading-embed [data-range-section="10"]{border-color:#efcf57;background:#fff9dc}
+html.flashcards-reading-embed .embedded-mode-heading{position:sticky;top:-7px;z-index:2;display:grid;gap:1px;margin:-7px -7px 6px;padding:7px 8px;border-bottom:1px solid #c5d4df;background:inherit;color:#123a62;font-size:12px;line-height:1.15}
+html.flashcards-reading-embed .embedded-mode-heading small{font-size:9px;font-weight:750;opacity:.68}
+html.flashcards-reading-embed [data-range-section="30"] .embedded-mode-heading{color:#145b35}
+html.flashcards-reading-embed [data-range-section="10"] .embedded-mode-heading{color:#714b05}
+html.flashcards-reading-embed .mode-grid{grid-template-columns:1fr;gap:5px}
+html.flashcards-reading-embed .mode-card{min-width:0;min-height:38px;padding:7px 8px;border-radius:9px;font-size:11px;line-height:1.15;box-shadow:0 3px 0 #145aa8,0 6px 10px #174a7d1f}
+html.flashcards-reading-embed .standard-mode-block .mode-card{color:#fff;background:linear-gradient(180deg,#368ee8,#1767bd)}
+html.flashcards-reading-embed .mode-card span{display:none}
+html.flashcards-reading-embed [data-range-section] .mode-card{box-shadow:0 3px 0 #166534,0 6px 10px #174a7d1a}
+html.flashcards-reading-embed [data-range-section="10"] .mode-card{box-shadow:0 3px 0 #a16207,0 6px 10px #8a620b1a}
+
+/* The study view gives the card priority and keeps controls in normal flow. */
+html.flashcards-reading-embed .deck-card[data-deck-view]{min-height:calc(100dvh - 14px);padding:7px}
+html.flashcards-reading-embed .deck-card[data-deck-view]>.section-head{min-height:0;margin:0 0 4px}
+html.flashcards-reading-embed .deck-card[data-deck-view]>.section-head>div:first-child,
+html.flashcards-reading-embed .session-timer-pill,
+html.flashcards-reading-embed [data-card-hint],
+html.flashcards-reading-embed .mouse-click-icon,
+html.flashcards-reading-embed .card-note-panel{display:none!important}
+html.flashcards-reading-embed .embedded-range-return{min-height:30px;padding:4px 10px;border-radius:999px;font-size:11px}
+html.flashcards-reading-embed .study-top{grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;margin:0 0 4px}
+html.flashcards-reading-embed .stat-pill{min-width:0;min-height:28px;padding:3px 5px;border-radius:8px;font-size:10px;line-height:1.1;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+html.flashcards-reading-embed .session-progress{gap:2px;margin:0 0 5px;padding:3px 6px;border-radius:8px}
+html.flashcards-reading-embed .session-progress-line{font-size:9px;line-height:1}
+html.flashcards-reading-embed .session-progress-track{height:4px}
+html.flashcards-reading-embed .desktop-countdown{display:none!important}
+html.flashcards-reading-embed .study-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(78px,92px);gap:6px;align-items:start;overflow:visible}
+html.flashcards-reading-embed .study-main{gap:5px;min-width:0}
+html.flashcards-reading-embed .front-stage{display:grid;gap:5px}
+html.flashcards-reading-embed .front-stage>.card-nav{position:static;display:grid!important;grid-template-columns:1fr 1fr;gap:5px;width:auto;transform:none;order:2}
+html.flashcards-reading-embed .front-stage>.card-nav .secondary-button{min-width:0;min-height:30px;padding:4px;font-size:10px}
+html.flashcards-reading-embed .flash-frame{min-height:190px;padding:30px 10px 12px;border-radius:15px;scroll-margin-top:4px}
+html.flashcards-reading-embed .flash-frame.front{min-height:210px}
+html.flashcards-reading-embed .front-card-content{gap:10px;padding-right:46px}
+html.flashcards-reading-embed .card-corner-controls{top:7px;right:7px;gap:6px}
+html.flashcards-reading-embed .sound-card-button{width:38px;height:38px;padding:5px;border-radius:11px}
+html.flashcards-reading-embed .bookmark-card-button{width:34px;height:34px;border-radius:10px}
+html.flashcards-reading-embed .front-term,
+html.flashcards-reading-embed .back-term{font-size:clamp(30px,8vw,66px)}
+html.flashcards-reading-embed .back-meaning{margin-top:8px;font-size:clamp(20px,5vw,38px)}
+html.flashcards-reading-embed .examples-list,
+html.flashcards-reading-embed .front-examples{gap:7px;font-size:clamp(12px,2.5vw,18px);line-height:1.28}
+html.flashcards-reading-embed .examples-list{margin-top:1rem}
+html.flashcards-reading-embed .study-side{position:static;grid-column:auto;width:auto;max-height:none;padding:0;overflow:visible}
+html.flashcards-reading-embed .study-action-dock{display:grid;grid-template-columns:1fr;gap:5px}
+html.flashcards-reading-embed .action-rail{display:grid;grid-template-columns:1fr;gap:5px;padding:0;justify-items:stretch}
+html.flashcards-reading-embed .action-row{display:block;min-width:0}
+html.flashcards-reading-embed .round-button{width:100%;height:54px;border-radius:14px;font-size:29px}
+html.flashcards-reading-embed .mobile-study-tools{display:grid!important;width:auto;gap:4px}
+html.flashcards-reading-embed .mobile-study-tools .secondary-button{min-width:0;min-height:29px;padding:3px;font-size:9px;white-space:normal}
+html.flashcards-reading-embed .mobile-countdown{display:none!important}
+html.flashcards-reading-embed .review-panel{max-height:180px;overflow:auto}
+
+@media(max-width:430px){
+  html.flashcards-reading-embed .flash-shell{padding:4px}
+  html.flashcards-reading-embed .deck-card{padding:5px;border-radius:12px}
+  html.flashcards-reading-embed .deck-mode-columns{grid-template-columns:minmax(0,.8fr) minmax(0,1fr) minmax(0,1fr);gap:4px}
+  html.flashcards-reading-embed .mode-block{padding:5px;max-height:calc(100dvh - 66px)}
+  html.flashcards-reading-embed .embedded-mode-heading{top:-5px;margin:-5px -5px 4px;padding:6px;font-size:10px}
+  html.flashcards-reading-embed .mode-card{padding:6px 5px;font-size:9px}
+  html.flashcards-reading-embed .study-layout{grid-template-columns:minmax(0,1fr) 68px;gap:4px}
+  html.flashcards-reading-embed .round-button{height:48px;font-size:25px}
+  html.flashcards-reading-embed .flash-frame.front{min-height:185px}
+}

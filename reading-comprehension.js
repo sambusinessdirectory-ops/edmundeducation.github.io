@@ -920,9 +920,10 @@ function openInteractiveFlashcards(deck) {
   url.searchParams.set('source', 'reading');
   if (frame.dataset.deck !== deck) { frame.src = url.href; frame.dataset.deck = deck; }
   panel.hidden = false;
-  panel.classList.remove('is-minimized');
+  restoreInteractiveFlashcards(panel);
   panel.classList.remove('is-snapping');
   document.body.classList.add('interactive-flashcards-open');
+  requestAnimationFrame(() => keepInteractiveFlashcardsOnScreen(panel));
   panel.querySelector('[data-interactive-flashcards-close]')?.focus();
 }
 
@@ -934,6 +935,50 @@ function closeInteractiveFlashcards({ clearFrame = false } = {}) {
   panel.classList.remove('is-minimized', 'is-expanded', 'is-snapping');
   document.body.classList.remove('interactive-flashcards-open');
   if (clearFrame && frame) { frame.src = 'about:blank'; delete frame.dataset.deck; }
+}
+
+function rememberInteractiveFlashcardsGeometry(panel) {
+  if (!panel || panel.hidden || panel.classList.contains('is-minimized') || panel.classList.contains('is-expanded')) return;
+  const rect = panel.getBoundingClientRect();
+  panel.dataset.restoreGeometry = JSON.stringify({ left: rect.left, top: rect.top, width: rect.width, height: rect.height });
+}
+
+function applyInteractiveFlashcardsGeometry(panel, geometry) {
+  const gap = innerWidth <= 720 ? 8 : 18;
+  const availableWidth = Math.max(0, innerWidth - gap * 2);
+  const availableHeight = Math.max(0, innerHeight - gap * 2);
+  const minWidth = Math.min(280, availableWidth);
+  const minHeight = Math.min(260, availableHeight);
+  const width = Math.min(availableWidth, Math.max(minWidth, Number(geometry.width) || minWidth));
+  const height = Math.min(availableHeight, Math.max(minHeight, Number(geometry.height) || minHeight));
+  const left = Math.min(innerWidth - gap - width, Math.max(gap, Number(geometry.left) || gap));
+  const top = Math.min(innerHeight - gap - height, Math.max(gap, Number(geometry.top) || gap));
+  panel.style.left = `${left}px`; panel.style.top = `${top}px`;
+  panel.style.width = `${width}px`; panel.style.height = `${height}px`;
+  panel.style.right = 'auto'; panel.style.bottom = 'auto';
+}
+
+function keepInteractiveFlashcardsOnScreen(panel) {
+  if (!panel || panel.hidden || panel.classList.contains('is-expanded') || panel.classList.contains('is-minimized')) return;
+  const rect = panel.getBoundingClientRect();
+  applyInteractiveFlashcardsGeometry(panel, rect);
+}
+
+function restoreInteractiveFlashcards(panel) {
+  if (!panel) return;
+  panel.classList.remove('is-minimized', 'is-expanded');
+  let geometry = null;
+  try { geometry = JSON.parse(panel.dataset.restoreGeometry || 'null'); } catch {}
+  if (geometry) applyInteractiveFlashcardsGeometry(panel, geometry);
+}
+
+function minimizeInteractiveFlashcards(panel) {
+  rememberInteractiveFlashcardsGeometry(panel);
+  panel.classList.remove('is-expanded');
+  panel.classList.add('is-minimized');
+  panel.style.removeProperty('left'); panel.style.removeProperty('top');
+  panel.style.removeProperty('width'); panel.style.removeProperty('height');
+  panel.style.removeProperty('right'); panel.style.removeProperty('bottom');
 }
 
 function snapInteractiveFlashcards(panel) {
@@ -958,20 +1003,24 @@ function setupInteractiveFlashcardsPanel() {
   const panel = document.querySelector('[data-interactive-flashcards-panel]');
   const frame = document.querySelector('[data-interactive-flashcards-frame]');
   const drag = document.querySelector('[data-interactive-flashcards-drag]');
-  const resize = document.querySelector('[data-interactive-flashcards-resize]');
-  if (!panel || !frame || !drag || !resize || panel.dataset.ready === 'true') return;
+  const resizeHandles = [...document.querySelectorAll('[data-interactive-flashcards-resize]')];
+  if (!panel || !frame || !drag || !resizeHandles.length || panel.dataset.ready === 'true') return;
   panel.dataset.ready = 'true';
   panel.querySelector('[data-interactive-flashcards-close]')?.addEventListener('click', () => {
     closeInteractiveFlashcards();
   });
   panel.querySelector('[data-interactive-flashcards-minimize]')?.addEventListener('click', () => {
-    panel.classList.toggle('is-minimized');
-    panel.classList.remove('is-expanded');
+    if (panel.classList.contains('is-minimized')) restoreInteractiveFlashcards(panel);
+    else minimizeInteractiveFlashcards(panel);
   });
   panel.querySelector('[data-interactive-flashcards-expand]')?.addEventListener('click', () => {
-    panel.classList.toggle('is-expanded');
-    panel.classList.remove('is-minimized');
+    if (panel.classList.contains('is-expanded')) { restoreInteractiveFlashcards(panel); return; }
+    if (panel.classList.contains('is-minimized')) restoreInteractiveFlashcards(panel);
+    rememberInteractiveFlashcardsGeometry(panel);
+    panel.classList.add('is-expanded');
     panel.style.removeProperty('left'); panel.style.removeProperty('top');
+    panel.style.removeProperty('right'); panel.style.removeProperty('bottom');
+    panel.style.removeProperty('width'); panel.style.removeProperty('height');
   });
   drag.addEventListener('pointerdown', event => {
     if (event.target.closest('button') || panel.classList.contains('is-expanded') || matchMedia('(max-width: 720px)').matches) return;
@@ -986,20 +1035,32 @@ function setupInteractiveFlashcardsPanel() {
     const stop = () => { drag.removeEventListener('pointermove', move); drag.removeEventListener('pointerup', stop); drag.removeEventListener('pointercancel', stop); snapInteractiveFlashcards(panel); };
     drag.addEventListener('pointermove', move); drag.addEventListener('pointerup', stop); drag.addEventListener('pointercancel', stop);
   });
-  resize.addEventListener('pointerdown', event => {
+  resizeHandles.forEach(resize => resize.addEventListener('pointerdown', event => {
     if (panel.classList.contains('is-expanded') || panel.classList.contains('is-minimized')) return;
-    event.preventDefault();
+    event.preventDefault(); event.stopPropagation();
+    const corner = resize.dataset.resizeCorner || 'se';
     const rect = panel.getBoundingClientRect();
-    const start = { x:event.clientX, y:event.clientY, width:rect.width, height:rect.height };
+    const start = { x:event.clientX, y:event.clientY, left:rect.left, top:rect.top, right:rect.right, bottom:rect.bottom };
     resize.setPointerCapture(event.pointerId);
     const move = moveEvent => {
-      panel.style.width = `${Math.min(innerWidth - Math.max(18, rect.left) - 18, Math.max(320, start.width + moveEvent.clientX - start.x))}px`;
-      panel.style.height = `${Math.min(innerHeight - Math.max(18, rect.top) - 18, Math.max(300, start.height + moveEvent.clientY - start.y))}px`;
-      panel.style.right = 'auto'; panel.style.bottom = 'auto'; panel.style.left = `${rect.left}px`; panel.style.top = `${rect.top}px`;
+      const gap = innerWidth <= 720 ? 8 : 18;
+      const minWidth = Math.min(280, innerWidth - gap * 2);
+      const minHeight = Math.min(260, innerHeight - gap * 2);
+      const dx = moveEvent.clientX - start.x;
+      const dy = moveEvent.clientY - start.y;
+      const left = corner.includes('w') ? Math.min(start.right - minWidth, Math.max(gap, start.left + dx)) : start.left;
+      const right = corner.includes('e') ? Math.max(start.left + minWidth, Math.min(innerWidth - gap, start.right + dx)) : start.right;
+      const top = corner.includes('n') ? Math.min(start.bottom - minHeight, Math.max(gap, start.top + dy)) : start.top;
+      const bottom = corner.includes('s') ? Math.max(start.top + minHeight, Math.min(innerHeight - gap, start.bottom + dy)) : start.bottom;
+      applyInteractiveFlashcardsGeometry(panel, { left, top, width:right - left, height:bottom - top });
     };
-    const stop = () => { resize.removeEventListener('pointermove', move); resize.removeEventListener('pointerup', stop); resize.removeEventListener('pointercancel', stop); snapInteractiveFlashcards(panel); };
+    const stop = () => {
+      resize.removeEventListener('pointermove', move); resize.removeEventListener('pointerup', stop); resize.removeEventListener('pointercancel', stop);
+      rememberInteractiveFlashcardsGeometry(panel); snapInteractiveFlashcards(panel);
+    };
     resize.addEventListener('pointermove', move); resize.addEventListener('pointerup', stop); resize.addEventListener('pointercancel', stop);
-  });
+  }));
+  window.addEventListener('resize', () => requestAnimationFrame(() => keepInteractiveFlashcardsOnScreen(panel)));
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape' && !panel.hidden) closeInteractiveFlashcards();
   });
