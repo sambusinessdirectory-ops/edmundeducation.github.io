@@ -5,6 +5,7 @@ let deepReader;
 
 const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
+const MOCK_EXAM_KEY = "edmund-ielts-reading-mock-exams-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
 const CATALOGUE_VERSION = '20260829-audio1';
 const DSE_CATALOGUE_VERSION = '20260905-dse-2024-b1';
@@ -21,7 +22,7 @@ const state = {
   answerTimings: {}, scanAssignments: {}, wordIndex: 0, toastHandle: 0, dashboard: null,
   audioItem: null, audioSetup: false, audioStopAt: null, passageTab: 1, exerciseReady: false,
   catalogue: [], cataloguePage: 0, cataloguePromise: null, opening: false, savePromise: null,
-  questionType: "", questionTypeQuery: ""
+  questionType: "", questionTypeQuery: "", mockExam: null, lastResultPayload: null
 };
 
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -132,7 +133,7 @@ async function ensureSession() {
 }
 async function rpc(name, args) { const client = await ensureSession(); const { data, error } = await client.rpc(name, args); if (error) throw error; return data; }
 function saveSession() { try { sessionStorage.setItem(SESSION_KEY, JSON.stringify({ ...state.user, token: state.token, role: "student" })); } catch {} }
-function clearSession() { state.token = ""; state.user = null; state.bookmarks.clear(); state.bookmarkItems.clear(); state.exerciseReady = false; state.bookmarkError = false; closePopovers(); clearInterval(state.timerHandle); clearInterval(state.autosaveHandle); setBookmarkLibraryOpen(false); updateBookmarkControls(); try { sessionStorage.removeItem(SESSION_KEY); } catch {} }
+function clearSession() { state.token = ""; state.user = null; state.mockExam = null; state.bookmarks.clear(); state.bookmarkItems.clear(); state.exerciseReady = false; state.bookmarkError = false; closePopovers(); clearInterval(state.timerHandle); clearInterval(state.autosaveHandle); setBookmarkLibraryOpen(false); updateBookmarkControls(); try { sessionStorage.removeItem(SESSION_KEY); } catch {} }
 function readSession() { try { return JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null"); } catch { return null; } }
 async function validateToken(token) {
   const rows = await rpc("flashcard_student_session_profile", { p_token: token }); const row = Array.isArray(rows) ? rows[0] : null;
@@ -255,12 +256,74 @@ function formatDuration(ms) { const seconds = Math.max(0, Math.floor(Number(ms |
 function formatClock(ms) { const seconds = Math.max(0, Math.floor(Number(ms || 0) / 1000)); return `${String(Math.floor(seconds / 60)).padStart(2, "0")}:${String(seconds % 60).padStart(2, "0")}`; }
 function currentDuration() { return state.durationMs + (state.timerRunning ? Date.now() - state.timerStartedAt : 0); }
 function updateTimer() {
+  const expectedMockArticle = state.mockExam?.articles?.[state.mockExam.index]?.id;
+  if (['active', 'time-up'].includes(state.mockExam?.status) && expectedMockArticle === ARTICLE_ID) {
+    const remaining = Math.max(0, Number(state.mockExam.endsAt) - Date.now());
+    el.timer.textContent = formatClock(remaining);
+    el.timerModeLabel.textContent = `模擬試倒數 · Passage ${state.mockExam.index + 1}/3`;
+    if (remaining <= 0 && state.mockExam.status === 'active' && !state.submitting && !state.results.finalized) { state.mockExam.status = 'time-up'; persistActiveMockExam(); showToast("模擬試時間已到，系統正在提交目前答案。"); submitAnswers(true, true); }
+    return;
+  }
   const elapsed = currentDuration(); const limit = state.countdownMinutes * 60000; const shown = state.timerMode === "countdown" ? Math.max(0, limit - elapsed) : elapsed; el.timer.textContent = formatClock(shown);
   if (state.timerMode === "countdown" && elapsed >= limit && state.timerRunning) { pauseTimer(); if (state.forceSubmit) { showToast("時間已到，系統正在自動提交答案。"); submitAnswers(true, true); } else showToast("時間已到；你仍可繼續完成或自行提交。"); }
 }
 function startTimer() { if (state.timerRunning || state.results.finalized) return; state.timerRunning = true; state.timerStartedAt = Date.now(); el.timerToggle.textContent = "❚❚ 暫停"; el.timerToggle.classList.add("is-running"); updateTimer(); }
 function pauseTimer() { if (!state.timerRunning) { el.timerToggle.textContent = state.durationMs ? "▶ 繼續" : "▶ 開始"; return; } state.durationMs += Date.now() - state.timerStartedAt; state.timerRunning = false; state.timerStartedAt = 0; el.timerToggle.textContent = state.durationMs ? "▶ 繼續" : "▶ 開始"; el.timerToggle.classList.remove("is-running"); updateTimer(); }
-function resetAttemptState() { state.attemptId = null; state.answers = {}; state.results = {}; state.answerTimings = {}; state.durationMs = 0; state.timerStartedAt = 0; state.timerRunning = false; state.audioStopAt = null; el.timerToggle.textContent = "▶ 開始"; el.timerToggle.classList.remove("is-running"); clearInterval(state.timerHandle); clearInterval(state.autosaveHandle); }
+function resetAttemptState() { const correction = $('[data-correct-answers]'); if (correction) correction.hidden = true; state.lastResultPayload = null; state.attemptId = null; state.answers = {}; state.results = {}; state.answerTimings = {}; state.durationMs = 0; state.timerStartedAt = 0; state.timerRunning = false; state.audioStopAt = null; el.timerToggle.textContent = "▶ 開始"; el.timerToggle.classList.remove("is-running"); clearInterval(state.timerHandle); clearInterval(state.autosaveHandle); }
+
+function mockExamStorageKey() { return `${MOCK_EXAM_KEY}:${state.user?.id || 'student'}`; }
+function readMockExamStore() { try { return JSON.parse(localStorage.getItem(mockExamStorageKey()) || '{"attempts":[]}'); } catch { return { attempts: [] }; } }
+function writeMockExamStore(value) { try { localStorage.setItem(mockExamStorageKey(), JSON.stringify(value)); } catch {} }
+function persistActiveMockExam() { const store = readMockExamStore(); store.active = state.mockExam; writeMockExamStore(store); }
+function relativeAttemptTime(value) { const days = Math.max(0, Math.floor((Date.now() - new Date(value).getTime()) / 86400000)); return days === 0 ? '今天' : days === 1 ? '1 天前' : `${days} 天前`; }
+function renderMockExamLog() {
+  const root = $('[data-mock-exam-log]'); if (!root) return;
+  const store = readMockExamStore(); const rows = Array.isArray(store.attempts) ? store.attempts : [];
+  root.innerHTML = rows.length ? rows.map((attempt) => {
+    const correct = Number(attempt.correct || 0), total = Number(attempt.total || 0), rate = total ? Math.round(correct / total * 100) : 0;
+    const passages = (attempt.passages || []).map((row) => `<span><b>Passage ${row.passage}</b>${escapeHtml(row.title)}<strong>${Number(row.correct || 0)} / ${Number(row.total || 0)}</strong></span>`).join('');
+    return `<article class="mock-attempt"><header><div><strong>${correct} / ${total} 題</strong><small>${rate}% 正確率</small></div><time datetime="${escapeHtml(attempt.completedAt)}">${escapeHtml(new Date(attempt.completedAt).toLocaleString('zh-HK'))}<small>${relativeAttemptTime(attempt.completedAt)}</small></time></header><div>${passages}</div></article>`;
+  }).join('') : '<p class="empty-state">尚未有模擬試記錄。</p>';
+  const active = store.active;
+  const start = $('[data-start-mock-exam]');
+  if (active?.status === 'active' && Number(active.endsAt) > Date.now()) { state.mockExam = active; start.textContent = `繼續模擬試 · Passage ${Number(active.index) + 1}/3`; }
+  else { if (active && Number(active.endsAt) <= Date.now()) { delete store.active; writeMockExamStore(store); } start.textContent = '開始隨機模擬試 · Start'; }
+}
+async function startOrResumeMockExam() {
+  const store = readMockExamStore();
+  if (store.active?.status === 'active' && Number(store.active.endsAt) > Date.now()) state.mockExam = store.active;
+  else {
+    const articles = [1,2,3].map((passage) => { const pool = state.catalogue.filter((entry) => entry.passage === passage); return pool[Math.floor(Math.random() * pool.length)]; }).filter(Boolean);
+    if (articles.length !== 3) return showToast('暫時未能建立三篇模擬試，請重新整理後再試。');
+    state.mockExam = { id: crypto.randomUUID?.() || `mock-${Date.now()}`, status: 'active', startedAt: new Date().toISOString(), endsAt: Date.now() + 3600000, index: 0, articles: articles.map(({id,title,passage,practice,questionCount}) => ({id,title,passage,practice,questionCount})), results: [] };
+    persistActiveMockExam();
+  }
+  await openExercise(state.mockExam.articles[state.mockExam.index].id); activateMockExamTimer();
+}
+function restoreRegularTimerControls() {
+  state.timerMode = 'stopwatch'; state.forceSubmit = false; el.timerMode.value = 'stopwatch'; el.forceSubmit.checked = false; el.timerMode.disabled = false; el.timerToggle.disabled = false; el.countdownLabel.hidden = true; el.forceLabel.hidden = true; el.timerModeLabel.textContent = '計時（選用）';
+}
+function activateMockExamTimer() {
+  if (state.mockExam?.status !== 'active') return;
+  state.timerRunning = true; state.timerStartedAt = Date.now(); state.timerMode = 'countdown'; state.forceSubmit = true;
+  el.timerMode.value = 'countdown'; el.timerMode.disabled = true; el.timerToggle.disabled = true; el.timerToggle.textContent = '60 分鐘模擬試'; el.countdownLabel.hidden = true; el.forceLabel.hidden = true; updateTimer();
+  $('[data-mock-exam-step]').hidden = true;
+}
+function finishMockExam() {
+  const exam = state.mockExam; if (!exam) return;
+  const passages = exam.results || []; const attempt = { id: exam.id, startedAt: exam.startedAt, completedAt: new Date().toISOString(), correct: passages.reduce((sum,row)=>sum+Number(row.correct||0),0), total: passages.reduce((sum,row)=>sum+Number(row.total||0),0), passages };
+  const store = readMockExamStore(); store.attempts = [attempt, ...(store.attempts || [])].slice(0,30); delete store.active; writeMockExamStore(store); state.mockExam = null;
+  restoreRegularTimerControls();
+  const step = $('[data-mock-exam-step]'); step.hidden = false; $('[data-mock-exam-step-title]').textContent = `模擬試完成 · ${attempt.correct} / ${attempt.total}`; $('[data-mock-exam-step-score]').textContent = `${attempt.total ? Math.round(attempt.correct / attempt.total * 100) : 0}% 正確率 · 已儲存至模擬試記錄`; $('[data-mock-exam-next]').textContent = '查看模擬試記錄'; $('[data-mock-exam-next]').dataset.action = 'dashboard';
+}
+function recordMockExamResult(payload) {
+  const exam = state.mockExam; if (!exam || !['active','time-up'].includes(exam.status) || exam.articles[exam.index]?.id !== ARTICLE_ID) return;
+  if (exam.results.some((row) => row.articleId === ARTICLE_ID)) return;
+  const entry = exam.articles[exam.index]; exam.results.push({ articleId: ARTICLE_ID, passage: entry.passage, title: entry.title, correct: Number(payload.correct_count || 0), total: Number(entry.questionCount || payload.answered_count || 0) });
+  if (exam.index >= exam.articles.length - 1 || exam.status === 'time-up') { finishMockExam(); return; }
+  persistActiveMockExam(); const step = $('[data-mock-exam-step]'); step.hidden = false; $('[data-mock-exam-step-title]').textContent = `Passage ${entry.passage} 完成`; $('[data-mock-exam-step-score]').textContent = `${Number(payload.correct_count || 0)} / ${Number(payload.answered_count || entry.questionCount || 0)} 題正確 · 倒數繼續`; $('[data-mock-exam-next]').textContent = `前往 Passage ${exam.articles[exam.index + 1].passage}`; $('[data-mock-exam-next]').dataset.action = 'next';
+}
+async function advanceMockExam() { if (!state.mockExam) return openDashboard(); state.mockExam.index += 1; persistActiveMockExam(); await openExercise(state.mockExam.articles[state.mockExam.index].id); activateMockExamTimer(); }
 function recordAnswerTime(number, value) {
   if (!state.timerRunning || state.answerTimings[number] || !String(value || "").trim()) return;
   const timestamp = Math.round(currentDuration()); const previous = state.answerTimings[number - 1]?.timestamp || 0;
@@ -282,6 +345,7 @@ async function loadDashboard() {
   el.timeTotal.textContent = formatDuration(snapshot.totals?.duration_ms || time.reduce((sum, row) => sum + Number(row.duration_ms || 0), 0));
   const attempts = Array.isArray(snapshot.attempts) ? snapshot.attempts : [];
   el.history.innerHTML = attempts.length ? attempts.map((row) => `<article class="history-row"><span><strong>${escapeHtml(row.title || "Albert Einstein")}</strong><br><small>${escapeHtml(new Date(row.started_at).toLocaleString("zh-HK"))}</small></span><span>${Number(row.correct_count || 0)} / ${Number(row.answered_count || 0)} 題正確<br><small>${escapeHtml(formatDuration(row.duration_ms))} · ${row.status === "in_progress" ? "進行中" : "已提交"}</small></span></article>`).join("") : '<p class="empty-state">尚未有練習記錄。</p>';
+  renderMockExamLog();
 }
 function selectPassageTab(number, updateUrl = true) {
   if (state.passageTab !== number) state.cataloguePage = 0;
@@ -298,7 +362,8 @@ function renderCatalogue() {
   const pages = Math.max(1, Math.ceil(matches.length / 18)); state.cataloguePage = Math.max(0, Math.min(state.cataloguePage, pages - 1));
   $('[data-exercise-catalogue]').innerHTML = matches.slice(state.cataloguePage * 18, (state.cataloguePage + 1) * 18).map((entry) => {
     const saved = state.bookmarks.has(`${entry.id}:passage`);
-    return `<section class="exercise-list panel"><div><p class="eyebrow">IELTS READING · PASSAGE ${entry.passage}</p><h2>${escapeHtml(entry.title)}</h2><p>Practice ${entry.practice} · ${entry.paragraphCount} 個段落 · ${entry.questionCount} 題</p></div><div class="exercise-actions"><button class="secondary-button" type="button" data-catalogue-bookmark="${escapeHtml(entry.id)}" aria-pressed="${saved}">${saved ? '★ 已收藏文章與題目組' : '☆ 收藏文章與題目組'}</button><a class="secondary-button button-link" href="flashcards.html?deck=${encodeURIComponent(`ielts/reading/passage-${entry.passage}/Practice ${entry.practice}`)}">溫習 Flash Cards</a>${entry.downloadId ? `<a class="secondary-button button-link" href="model-essay-downloads.html?catalog=reading-passage-${entry.passage}&amp;item=${encodeURIComponent(entry.downloadId)}">下載練習 PDF</a>` : ''}<button class="primary-button" type="button" data-open-exercise="${escapeHtml(entry.id)}">開始閱讀練習</button></div></section>`;
+    const deck = `ielts/reading/passage-${entry.passage}/Practice ${entry.practice}`;
+    return `<section class="exercise-list panel"><div><p class="eyebrow">IELTS READING · PASSAGE ${entry.passage}</p><h2>${escapeHtml(entry.title)}</h2><p>Practice ${entry.practice} · ${entry.paragraphCount} 個段落 · ${entry.questionCount} 題</p></div><div class="exercise-actions"><button class="secondary-button" type="button" data-catalogue-bookmark="${escapeHtml(entry.id)}" aria-pressed="${saved}">${saved ? '★ 已收藏文章與題目組' : '☆ 收藏文章與題目組'}</button><a class="secondary-button button-link" href="flashcards.html?deck=${encodeURIComponent(deck)}">溫習 Flash Cards</a><button class="secondary-button interactive-flashcards-button" type="button" data-interactive-flashcards="${escapeHtml(deck)}">Interactive Flashcards · 互動字卡</button>${entry.downloadId ? `<a class="secondary-button button-link" href="model-essay-downloads.html?catalog=reading-passage-${entry.passage}&amp;item=${encodeURIComponent(entry.downloadId)}">下載練習 PDF</a>` : ''}<button class="primary-button" type="button" data-open-exercise="${escapeHtml(entry.id)}">開始閱讀練習</button></div></section>`;
   }).join('') || '<p class="panel empty-state">找不到符合的文章，請試試其他名稱或編號。</p>';
   $('[data-catalogue-status]').textContent = `Passage ${state.passageTab} · ${matches.length} 篇文章`;
   $('[data-catalogue-page]').textContent = `${state.cataloguePage + 1} / ${pages}`;
@@ -522,9 +587,9 @@ function renderQuestions() {
     const context = question.context ? `<div class="original-question-group">${state.system === 'dse' ? escapeHtml(question.context) : interactiveWords(question.context, `q${question.number}`)}${dseTranslationCopy(question, 'context')}</div>` : '';
     const optionBank = question.optionBank ? `<div class="question-option-bank">${Array.isArray(question.optionBank) ? question.optionBank.map((option, index) => `<div>${escapeHtml(option)}${dseTranslationCopy(question.optionBank, index)}</div>`).join('') : escapeHtml(question.optionBank) + dseTranslationCopy(question, 'optionBank')}</div>` : '';
     const translation = (question.translation ? `<p class="question-translation" data-question-translation hidden>${escapeHtml(question.translation)}</p>` : '') + dseTranslationCopy(question, 'prompt');
-    const actions = state.system === 'dse' ? (DEEP_ANALYSIS_ARTICLES.has(ARTICLE_ID) ? `<div class="deep-entry"><button type="button" data-deep-analysis="${question.number}">查看答案 · 深度研讀 ↗</button><small>完成本題後，逐步拆解證據、推理與陷阱；原書內容完整保留。</small></div>` : '') : `<div class="question-actions"><button class="scan-button" type="button" data-scan-question="${question.number}">Scan：選擇段落</button><button class="scanning-tip-button" type="button" data-scanning-tip="${question.number}">Scanning 提示</button><button class="reveal-button" type="button" data-reveal="${question.number}">顯示答案及分析</button><span class="question-result" data-question-result="${question.number}"></span></div><div class="scan-chooser" data-scan-chooser="${question.number}" hidden><span>答案最可能在哪一段？</span>${scanButtons}</div><small class="answer-timestamp" data-answer-time="${question.number}" hidden></small>`;
-    const bookmark = state.system === 'dse' ? '' : `<div class="question-bookmark-row">${readingBookmarkButton('question', question.number)}</div>`;
-    return `${heading}<section class="question-card" id="question-${question.number}" data-question="${question.number}">${bookmark}<p class="question-prompt"><span class="question-number">${question.number}</span>${state.system === 'dse' ? escapeHtml(question.prompt) : interactiveWords(question.prompt, `q${question.number}`)}</p>${marks}${translation}${context}${question.figuresAfterControls ? '' : figure}${optionBank}${controls}${question.figuresAfterControls ? figure : ''}${actions}</section>`;
+    const bookmark = state.system === 'dse' ? '' : readingBookmarkButton('question', question.number);
+    const actions = state.system === 'dse' ? (DEEP_ANALYSIS_ARTICLES.has(ARTICLE_ID) ? `<div class="deep-entry"><button type="button" data-deep-analysis="${question.number}">查看答案 · 深度研讀 ↗</button><small>完成本題後，逐步拆解證據、推理與陷阱；原書內容完整保留。</small></div>` : '') : `<div class="question-actions"><button class="scan-button" type="button" data-scan-question="${question.number}">Scan：選擇段落</button><button class="scanning-tip-button" type="button" data-scanning-tip="${question.number}">Scanning 提示</button><button class="reveal-button" type="button" data-reveal="${question.number}">顯示答案及分析</button>${bookmark}<span class="question-result" data-question-result="${question.number}"></span></div><div class="scan-chooser" data-scan-chooser="${question.number}" hidden><span>答案最可能在哪一段？</span>${scanButtons}</div><small class="answer-timestamp" data-answer-time="${question.number}" hidden></small>`;
+    return `${heading}<section class="question-card" id="question-${question.number}" data-question="${question.number}"><p class="question-prompt"><span class="question-number">${question.number}</span>${state.system === 'dse' ? escapeHtml(question.prompt) : interactiveWords(question.prompt, `q${question.number}`)}</p>${marks}${translation}${context}${question.figuresAfterControls ? '' : figure}${optionBank}${controls}${question.figuresAfterControls ? figure : ''}${actions}</section>`;
   }).join("");
   if (state.system !== 'dse' && state.data.questionPages?.length) el.questions.insertAdjacentHTML('afterbegin', `<details class="original-pages"><summary>查看原題完整排版、圖表及選項</summary>${state.data.questionPages.map((src) => `<a href="${escapeHtml(src)}" target="_blank" rel="noopener"><img src="${escapeHtml(src)}" alt="原題頁面（可開啟放大）" loading="lazy"></a>`).join('')}</details>`);
   state.data.questions.filter((q) => q.requiresReview).forEach((q) => $(`[data-question="${q.number}"]`).insertAdjacentHTML('afterbegin','<p class="review-notice">原題或答案需教師核對；本題可儲存，但暫不自動計分。</p>'));
@@ -594,8 +659,10 @@ function applyResults(payload) {
   const list = payload?.question_results || payload?.results || []; const mapped = Array.isArray(list) ? Object.fromEntries(list.map((row) => [Number(row.question_number), row])) : {};
   $$('[data-question-result]').forEach((target) => { target.textContent = ''; target.className = 'question-result'; });
   Object.entries(mapped).forEach(([number, row]) => { const target = $(`[data-question-result="${number}"]`); if (!target) return; target.textContent = row.correct ? `✓ 正確 · ${row.correct_answer}` : `✗ 答案：${row.correct_answer}`; target.className = `question-result ${row.correct ? "is-correct" : "is-wrong"}`; });
-  if (payload?.status && payload.status !== "in_progress") { state.results.finalized = true; pauseTimer(); lockQuestionForm(true); el.submissionStatus.textContent = `已提交：${payload.correct_count || 0} / ${payload.answered_count || 0} 題正確。${payload.review_count ? `另有 ${payload.review_count} 題待教師核對，不列入評分。` : ''}`; }
+  state.lastResultPayload = payload;
+  if (payload?.status && payload.status !== "in_progress") { state.results.finalized = true; pauseTimer(); lockQuestionForm(true); const wrong = Object.values(mapped).filter((row) => row.correct === false).length; const correction = $('[data-correct-answers]'); correction.hidden = !wrong || Boolean(state.mockExam); correction.textContent = `訂正 ${wrong} 題錯誤答案`; el.submissionStatus.textContent = `已提交：${payload.correct_count || 0} / ${payload.answered_count || 0} 題正確。${wrong && !state.mockExam ? '可按「訂正錯誤答案」修改並重新提交。' : ''}${payload.review_count ? `另有 ${payload.review_count} 題待教師核對，不列入評分。` : ''}`; recordMockExamResult(payload); }
 }
+function beginAnswerCorrection() { if (!state.results.finalized) return; state.results.finalized = false; state.attemptId = null; lockQuestionForm(false); $('[data-correct-answers]').hidden = true; el.submissionStatus.textContent = '訂正模式：請修改誤選答案，再提交一次。修正後的新成績會另存為一次練習記錄。'; showToast('已解鎖答案，現在可以修正誤選。'); }
 async function saveAttempt(submit = false, force = false, silent = false, retry = true) {
   if (state.system !== 'ielts') { saveDseDraft(); return null; }
   if (state.savePromise) { try { await state.savePromise; } catch { return null; } return saveAttempt(submit, force, silent, retry); }
@@ -841,7 +908,8 @@ function assignScan(question, paragraph) { state.scanAssignments[question] = par
 function updateScanControls() { $$('[data-scan-question]').forEach((button) => { const p = state.scanAssignments[button.dataset.scanQuestion]; button.textContent = p ? `Scan：P${p}` : "Scan：選擇段落"; button.classList.toggle("has-scan", Boolean(p)); }); $$('[data-scan-choice]').forEach((button) => { const [q, p] = button.dataset.scanChoice.split(":"); button.classList.toggle("is-selected", Number(state.scanAssignments[q]) === Number(p)); }); }
 function renderScanTags() { $$('[data-scan-tags]').forEach((container) => { const paragraph = Number(container.dataset.scanTags); const questions = Object.entries(state.scanAssignments).filter(([, p]) => Number(p) === paragraph).map(([q]) => Number(q)).sort((a, b) => a - b); container.innerHTML = questions.map((q) => `<span class="scan-question-tag" title="第 ${q} 題的 Scan 段落">${q}</span>`).join(""); }); }
 
-function updateReadingFlashcardLink(deck) { const link = document.querySelector('[data-reading-flashcards]'); link.href = `flashcards.html?deck=${encodeURIComponent(deck)}`; link.hidden = /^dse\/reading\/.*\/2026$/.test(deck); }
+function updateReadingFlashcardLink(deck) { const link = document.querySelector('[data-reading-flashcards]'); const popup = document.querySelector('[data-reading-flashcards-popup]'); const hidden = /^dse\/reading\/.*\/2026$/.test(deck); link.href = `flashcards.html?deck=${encodeURIComponent(deck)}`; link.hidden = hidden; popup.dataset.interactiveFlashcards = deck; popup.hidden = hidden; }
+function openInteractiveFlashcards(deck) { const url = new URL('flashcards.html', location.href); url.searchParams.set('deck', deck); url.searchParams.set('embedded', '1'); url.searchParams.set('source', 'reading'); const popup = window.open(url.href, 'edmund-interactive-flashcards', 'popup,width=620,height=820,resizable=yes,scrollbars=yes'); if (!popup) showToast('瀏覽器阻擋了互動字卡視窗，請允許此網站開啟彈出視窗。'); else popup.focus(); }
 
 async function openDseExercise(id) {
   if (state.opening) return; state.opening = true;
@@ -910,6 +978,8 @@ async function openExercise(id = ARTICLE_ID) {
   if (!['skimming', 'scanning', 'analysis'].includes(requestedView)) url.searchParams.delete('view');
   url.searchParams.set('article',ARTICLE_ID); url.searchParams.set('passage',String(entry.passage)); history.replaceState({},'',url);
   updateBookmarkControls(); showView("exercise"); updateTimer(); updateAnswerProgress();
+  if (state.mockExam?.status === 'active' && state.mockExam.articles?.[state.mockExam.index]?.id === ARTICLE_ID) activateMockExamTimer();
+  else if (el.timerMode.disabled) restoreRegularTimerControls();
   if (requestedView === 'skimming') openSkimming(Number(params.get('paragraph')));
   else if (requestedView === 'scanning' || requestedView === 'analysis') openAnalysis(Number(params.get('question')), requestedView, params.get('section') || '');
   const hashTarget = location.hash ? document.getElementById(location.hash.slice(1)) : null;
@@ -938,6 +1008,10 @@ $$('[data-dse-sort]').forEach((button) => button.addEventListener('click', () =>
 $('[data-password-toggle]').addEventListener("click", (event) => { const input = $('input[name="password"]', el.loginForm); const shown = input.type === "text"; input.type = shown ? "password" : "text"; event.currentTarget.textContent = shown ? "顯示" : "隱藏"; event.currentTarget.setAttribute("aria-pressed", String(!shown)); });
 el.progressToggle.addEventListener("click", () => { const open = el.progressToggle.getAttribute("aria-expanded") === "true"; el.progressToggle.setAttribute("aria-expanded", String(!open)); el.progressPanel.hidden = open; el.progressLabel.textContent = open ? "展開 ＋" : "收合 −"; });
 $('[data-open-question-types]').addEventListener('click', () => openQuestionTypeDirectory('', '', true));
+$('[data-start-mock-exam]').addEventListener('click', startOrResumeMockExam);
+$('[data-toggle-mock-log]').addEventListener('click', (event) => { const root = $('[data-mock-exam-log]'); root.hidden = !root.hidden; event.currentTarget.setAttribute('aria-expanded', String(!root.hidden)); event.currentTarget.textContent = root.hidden ? '查看模擬試記錄' : '收起模擬試記錄'; if (!root.hidden) renderMockExamLog(); });
+$('[data-mock-exam-next]').addEventListener('click', (event) => event.currentTarget.dataset.action === 'next' ? advanceMockExam() : openDashboard());
+$('[data-correct-answers]').addEventListener('click', beginAnswerCorrection);
 $('[data-question-types-back]').addEventListener('click', openDashboard);
 el.questionTypeSearch.addEventListener('input', (event) => { state.questionType = ''; state.questionTypeQuery = event.target.value; history.replaceState({}, '', questionTypeUrl()); renderQuestionTypeView(); });
 $('[data-clear-question-type-search]').addEventListener('click', () => { state.questionType = ''; state.questionTypeQuery = ''; history.replaceState({}, '', questionTypeUrl()); renderQuestionTypeView(); el.questionTypeSearch.focus(); });
@@ -946,6 +1020,7 @@ document.addEventListener("click", (event) => {
   const deepButton = event.target.closest('[data-deep-analysis]'); if (deepButton) return openDseDeepAnalysis(Number(deepButton.dataset.deepAnalysis), deepButton);
   const dseExerciseButton = event.target.closest('[data-open-dse-exercise]'); if (dseExerciseButton?.dataset.openDseExercise) return openDseExercise(dseExerciseButton.dataset.openDseExercise);
   const exerciseButton = event.target.closest('[data-open-exercise]'); if (exerciseButton) return openExercise(exerciseButton.dataset.openExercise || ARTICLE_ID);
+  const interactive = event.target.closest('[data-interactive-flashcards]'); if (interactive) return openInteractiveFlashcards(interactive.dataset.interactiveFlashcards);
   const catalogueButton = event.target.closest('[data-catalogue-bookmark]'); if (catalogueButton) { const entry = state.catalogue.find((item) => item.id === catalogueButton.dataset.catalogueBookmark); if (entry) return toggleReadingBookmark(catalogueBookmark(entry)).then(renderCatalogue); }
   const passageButton = event.target.closest('[data-passage-bookmark]'); if (passageButton) return togglePassageBookmark();
   const button = event.target.closest('[data-bookmark-kind]'); if (button) return toggleReadingBookmark(readingBookmarkItem(button.dataset.bookmarkKind, Number(button.dataset.bookmarkNumber || 0), button.dataset.bookmarkSection || ''));

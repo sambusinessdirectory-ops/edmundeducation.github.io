@@ -1266,4 +1266,4 @@
 })();
 
 // Shared classroom controls are loaded once on every learning portal.
-if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20260908-layout1",document.currentScript.src).href;script.defer=true;document.head.append(script);}
+if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20260910-music1",document.currentScript.src).href;script.defer=true;document.head.append(script);}
