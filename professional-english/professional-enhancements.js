@@ -5,26 +5,40 @@
   const soundEffectsEnabled = () => {
     try { return localStorage.getItem(SOUND_KEY) !== "off"; } catch { return true; }
   };
-  function playSuccessSound() {
-    if (!soundEffectsEnabled()) return;
+  async function readySoundContext() {
+    if (!soundEffectsEnabled()) return null;
     const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-    if (!AudioContextClass) return;
-    soundContext ||= new AudioContextClass();
-    if (soundContext.state === "suspended") soundContext.resume().catch(() => {});
-    const start = soundContext.currentTime + .015;
-    [[523.25, 0, .17], [659.25, .1, .2], [783.99, .21, .3]].forEach(([frequency, delay, length]) => {
-      const oscillator = soundContext.createOscillator();
-      const gain = soundContext.createGain();
-      oscillator.type = "sine";
-      oscillator.frequency.value = frequency;
-      gain.gain.setValueAtTime(.0001, start + delay);
-      gain.gain.exponentialRampToValueAtTime(.12, start + delay + .018);
-      gain.gain.exponentialRampToValueAtTime(.0001, start + delay + length);
-      oscillator.connect(gain).connect(soundContext.destination);
-      oscillator.start(start + delay);
-      oscillator.stop(start + delay + length + .03);
-    });
+    if (!AudioContextClass) return null;
+    if (!soundContext || soundContext.state === "closed") soundContext = new AudioContextClass();
+    if (soundContext.state !== "running") await soundContext.resume();
+    return soundContext.state === "running" ? soundContext : null;
   }
+
+  async function playSuccessSound() {
+    try {
+      const context = await readySoundContext();
+      if (!context || !soundEffectsEnabled()) return;
+      const start = context.currentTime + .015;
+      [[523.25, 0, .17], [659.25, .1, .2], [783.99, .21, .3]].forEach(([frequency, delay, length]) => {
+        const oscillator = context.createOscillator();
+        const gain = context.createGain();
+        oscillator.type = "sine";
+        oscillator.frequency.value = frequency;
+        gain.gain.setValueAtTime(.0001, start + delay);
+        gain.gain.exponentialRampToValueAtTime(.18, start + delay + .018);
+        gain.gain.exponentialRampToValueAtTime(.0001, start + delay + length);
+        oscillator.connect(gain).connect(context.destination);
+        oscillator.onended = () => { oscillator.disconnect(); gain.disconnect(); };
+        oscillator.start(start + delay);
+        oscillator.stop(start + delay + length + .03);
+      });
+    } catch { /* A later user gesture can retry audio if the browser interrupted it. */ }
+  }
+
+  // Unlock during the gesture, including swipe and keyboard marking.
+  ["pointerdown", "keydown"].forEach(type => document.addEventListener(type, () => {
+    readySoundContext().catch(() => {});
+  }, {capture: true, passive: true}));
 
   function ensureSoundToggle() {
     if (document.querySelector("[data-professional-sound-toggle]")) return;
@@ -39,7 +53,7 @@
       button.classList.toggle("is-muted", !enabled);
       button.setAttribute("aria-pressed", String(enabled));
       button.setAttribute("aria-label", enabled ? "Mute correct-answer sound effects" : "Enable correct-answer sound effects");
-      button.innerHTML = `<span aria-hidden="true">${enabled ? "🔔" : "🔕"}</span><strong>答對音效<small>Sound ${enabled ? "on" : "off"}</small></strong>`;
+      button.innerHTML = `<strong>答對音效<small>Sound ${enabled ? "on" : "off"}</small></strong>`;
     };
     button.addEventListener("click", () => {
       try { localStorage.setItem(SOUND_KEY, soundEffectsEnabled() ? "off" : "on"); } catch {}
@@ -50,25 +64,24 @@
     host.append(button);
   }
 
-  document.addEventListener("click", event => {
-    const knownButton = event.target.closest(".grade-controls button.tick");
-    if (knownButton && !knownButton.disabled) playSuccessSound();
-  }, true);
+  // The app emits this only after a mark is accepted, for every input method.
+  document.addEventListener("professional-card-marked", event => {
+    if (event.detail?.mark === "green") playSuccessSound();
+  });
 
   function smoothPath(points) {
     if (points.length < 2) return "";
-    const control = (current, previous, next, reverse = false) => {
-      const p = previous || current;
-      const n = next || current;
-      const length = Math.hypot(n[0] - p[0], n[1] - p[1]) * .18;
-      const angle = Math.atan2(n[1] - p[1], n[0] - p[0]) + (reverse ? Math.PI : 0);
-      return [current[0] + Math.cos(angle) * length, current[1] + Math.sin(angle) * length];
-    };
+    const bounded = (value, start, end) => Math.max(Math.min(start, end), Math.min(Math.max(start, end), value));
     return points.reduce((path, point, index) => {
       if (!index) return `M ${point[0]} ${point[1]}`;
-      const start = control(points[index - 1], points[index - 2], point);
-      const end = control(point, points[index - 1], points[index + 1], true);
-      return `${path} C ${start[0]} ${start[1]}, ${end[0]} ${end[1]}, ${point[0]} ${point[1]}`;
+      const previous = points[index - 1];
+      const before = points[index - 2] || previous;
+      const after = points[index + 1] || point;
+      const width = (point[0] - previous[0]) / 3;
+      // Keeping both controls within the segment's values prevents overshoot below zero.
+      const startY = bounded(previous[1] + (point[1] - before[1]) / 6, previous[1], point[1]);
+      const endY = bounded(point[1] - (after[1] - previous[1]) / 6, previous[1], point[1]);
+      return `${path} C ${previous[0] + width} ${startY}, ${point[0] - width} ${endY}, ${point[0]} ${point[1]}`;
     }, "");
   }
 
@@ -344,7 +357,7 @@
     document.querySelectorAll(".course-section > .section-heading h2").forEach(title => {
       if (title.textContent.includes("_")) title.textContent = title.textContent.replaceAll("_", " ");
     });
-    document.querySelectorAll(".mode-grid button,.range-grid button,.study-footer button,.grade-controls button,.resume").forEach(button => {
+    document.querySelectorAll(".mode-grid button,.study-footer button,.grade-controls button,.resume").forEach(button => {
       if (button.dataset.bilingualStacked === "true") return;
       const label = button.textContent.replace(/\s+/g, " ").trim();
       if (!/[\u3400-\u9fff]/.test(label) || !/[A-Za-z]/.test(label)) return;

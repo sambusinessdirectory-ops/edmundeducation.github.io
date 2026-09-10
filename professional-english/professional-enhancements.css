@@ -18,3 +18,15 @@ html.theme-day .pro-practice-heading h3{color:#174b36!important;text-shadow:none
 html.theme-day .pro-practice-heading p,
 html.theme-day .pro-lesson-card>p,
 html.theme-day .pro-lesson-card button small{color:#536d62!important;opacity:1}
+
+/* Keep the card range, size and completion status as separate readable rows. */
+.range-grid button{display:flex;flex-direction:column;align-items:flex-start;gap:8px;text-align:left}
+.range-grid .pro-range-numbers{display:block;font-size:1.1rem;font-weight:750;line-height:1.25;white-space:nowrap}
+.range-grid .pro-range-count{display:block;font-size:.7rem;line-height:1.35;opacity:.8}
+.range-grid .range-status{display:flex;align-items:flex-start;gap:5px;margin-top:4px}
+.range-grid .range-status .pro-zh{font-size:.85rem}
+.range-grid .range-status .pro-en{font-size:.7rem}
+.team-effort-chart .team-chart-point{opacity:1}
+.team-effort-chart .team-chart-total-point{stroke:var(--text,#eff7ed);stroke-width:2;pointer-events:all}
+.team-effort-chart .team-chart-count{fill:var(--text,#eff7ed);font-size:13px;font-weight:800}
+.team-effort-chart circle:focus{outline:none;filter:drop-shadow(0 0 5px currentColor);stroke-width:3}
