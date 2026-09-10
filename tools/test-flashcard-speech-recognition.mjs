@@ -37,13 +37,15 @@ function harness({ unsupported = false, startError, ui = false } = {}) {
     }
     setAttribute(k,v) { this.attributes[k]=v; }
     addEventListener(k,v) { this.events[k]=v; }
-    append(c) { this.children.push(c); }
+    append(...c) { this.children.push(...c); }
+    showModal() { this.open=true; }
+    close() { this.open=false; }
     replaceChildren(...c) { this.children=c; }
-    insertAdjacentElement(_,c) { elements.mic=c; }
+    insertAdjacentElement(_,c) { if ('checkPronunciation' in c.dataset) elements.mic=c; else elements.settings=c; }
   }
   const elements={ term:new Element(), speaker:new Element() }; elements.term.textContent='participants';
   const document={ body:new Element(), head:new Element(), hidden:false, createElement:()=>new Element(),
-    querySelector:s => s==='[data-front-term]' ? elements.term : s==='[data-speak-card]' ? elements.speaker : s==='[data-check-pronunciation]' ? elements.mic : s==='[data-pronunciation-toast]' ? document.body.children[0] : null,
+    querySelector:s => s==='[data-front-term]' ? elements.term : s==='[data-speak-card]' ? elements.speaker : s==='[data-check-pronunciation]' ? elements.mic : s==='[data-pronunciation-toast]' ? document.body.children.find(e=>'pronunciationToast' in e.dataset) : null,
     addEventListener:(k,v)=>{listeners[k]=v;}
   };
   const window={ webkitSpeechRecognition:unsupported ? undefined : Recognition, dispatchEvent:e=>listeners[e.type]?.(), addEventListener:(k,v)=>{listeners[k]=v;} };
@@ -55,7 +57,7 @@ function harness({ unsupported = false, startError, ui = false } = {}) {
   vm.runInContext(source,context); if(ui) vm.runInContext(uiSource,context);
   return { window, instances, states, advance, timers, elements, document, listeners,
     begin:options=>window.EdmundPronunciation.recognizeAndCompare({expectedText:'participants',onState:s=>states.push(s),...options}),
-    observe:()=>observer?.(), click:()=>elements.mic.events.click({stopPropagation(){}}), toast:()=>document.body.children[0] };
+    observe:()=>observer?.(), click:()=>elements.mic.events.click({stopPropagation(){}}), toast:()=>document.body.children.find(e=>'pronunciationToast' in e.dataset) };
 }
 for(const [spoken,passed] of [['participants',true],['PARTICIPANTS!',true],['banana',false]]) test(`grades final ${spoken} as ${passed}`,async()=>{
   const h=harness(), p=h.begin(), r=h.instances[0]; assert.ok(r.started); assert.equal(r.continuous,true);
@@ -115,28 +117,28 @@ test('UI shows startup, listening and processing without depending on model audi
   const h=harness({ui:true});let paused=false;h.listeners['edmund-pronunciation-start']=()=>{paused=true;};h.click();
   assert.equal(paused,true);assert.equal(h.elements.speaker.disabled,true);assert.match(h.toast().children[0].textContent,/Starting microphone/);
   const r=h.instances[0];r.emit('start');assert.match(h.toast().children[0].textContent,/Speak now/);h.click();assert.match(h.toast().children[0].textContent,/Checking/);
-  await h.advance(2000);r.result('participants');r.emit('end');await h.advance(0);assert.match(h.toast().children[0].textContent,/Phrase recognised/);
-  assert.match(h.toast().children[1].textContent,/participants/);assert.equal(h.elements.speaker.disabled,false);assert.equal(h.elements.mic.attributes['aria-pressed'],'false');
+  await h.advance(2000);r.result('participants');r.emit('end');await h.advance(0);assert.match(h.toast().children[0].textContent,/Passed/);
+  assert.doesNotMatch(h.toast().children[1].textContent,/participants/);assert.equal(h.elements.speaker.disabled,false);assert.equal(h.elements.mic.attributes['aria-pressed'],'false');
 });
-test('UI uses neutral technical errors and retry for actual wrong words',async()=>{
+test('UI uses neutral technical errors and explicit failure for actual wrong words',async()=>{
   const h=harness({ui:true});h.click();h.instances[0].emit('error',{error:'network'});await h.advance(0);
   assert.ok(h.toast().classList.contains('is-info'));assert.match(h.toast().children[0].textContent,/connection failed/);
-  h.click();const r=h.instances[1];r.emit('start');r.result('banana');r.emit('end');await h.advance(0);assert.ok(h.toast().classList.contains('is-retry'));assert.match(h.toast().children[1].textContent,/banana/);
+  h.click();const r=h.instances[1];r.emit('start');r.result('banana');r.emit('end');await h.advance(0);assert.ok(h.toast().classList.contains('is-retry'));assert.match(h.toast().children[0].textContent,/Not passed.*未通過/);assert.doesNotMatch(h.toast().children[1].textContent,/banana/);assert.equal(h.toast().children.length,2);
 });
-test('transcript text cannot inject HTML',async()=>{
+test('transcript text is never rendered',async()=>{
   const h=harness({ui:true});h.click();const r=h.instances[0];r.emit('start');r.result('<img src=x onerror=alert(1)>');r.emit('end');await h.advance(0);
-  assert.match(h.toast().children[1].textContent,/<img/);assert.equal(h.toast().children[1].children.length,0);
+  assert.doesNotMatch(h.toast().children[1].textContent,/<img/);assert.equal(h.toast().children[1].children.length,0);
 });
 test('changing cards cancels and suppresses obsolete results',async()=>{
   const h=harness({ui:true});h.click();const old=h.instances[0];h.elements.term.textContent='swimmers';h.observe();await h.advance(0);
-  assert.ok(old.aborts);assert.equal(h.toast().classList.contains('is-visible'),false);h.click();const r=h.instances[1];r.emit('start');r.result('swimmers');r.emit('end');await h.advance(0);assert.match(h.toast().children[1].textContent,/swimmers/);
+  assert.ok(old.aborts);assert.equal(h.toast().classList.contains('is-visible'),false);h.click();const r=h.instances[1];r.emit('start');r.result('swimmers');r.emit('end');await h.advance(0);assert.match(h.toast().children[0].textContent,/Passed/);assert.doesNotMatch(h.toast().children[1].textContent,/swimmers/);
 });
 test('leaving the page cancels capture',async()=>{
   const h=harness({ui:true});h.click();h.listeners.pagehide();await h.advance(0);assert.ok(h.instances[0].aborts);assert.equal(h.elements.speaker.disabled,false);
 });
 test('HTML loads the new version and stops detached model playback',()=>{
   const html=readFileSync(new URL('../flashcards.html',import.meta.url),'utf8');
-  assert.match(html,/pronunciation-checker\.js\?v=20260910-natural4/);assert.match(html,/flashcard-pronunciation\.js\?v=20260910-natural4/);
+  assert.match(html,/pronunciation-checker\.js\?v=20260910-practice5/);assert.match(html,/flashcard-pronunciation\.js\?v=20260910-practice5/);
   assert.match(html,/addEventListener\("edmund-pronunciation-start", \(\) => stopNeuralSpeech\(\)\)/);
   assert.match(uiSource,/\.recognizeAndCompare\(/);assert.doesNotMatch(uiSource,/\.recordAndCompare\(/);
 });
@@ -199,4 +201,43 @@ test('ordinary words cannot resolve inherited properties in normalization tables
   const match=harness().window.EdmundPronunciation.analyseNaturalTextMatch;
   assert.equal(match('constructor','constructor').passed,true);
   assert.equal(match('after a break of','constructor').passed,false);
+});
+
+for (const [expected, actual, passed] of [
+  ['students help teachers learn English', 'students help teachers learn', true],
+  ['students help teachers learn English', 'students help teachers learn mathematics', true],
+  ['students help teachers learn English', 'students help teachers', false],
+  ['participants', 'participant', true],
+  ['help get rid of', 'comparison', false],
+  ['help get rid of', 'get rid of', false],
+  ['students must not leave school today', 'students must leave school today', false],
+  ['students should arrive after thirty minutes', 'students should arrive after thirteen minutes', false]
+]) test(`80% threshold: ${JSON.stringify(actual)} for ${JSON.stringify(expected)} => ${passed}`,()=>{
+  const result=harness().window.EdmundPronunciation.analyseNaturalTextMatch(expected,actual);
+  assert.equal(result.passed,passed,JSON.stringify(result));
+});
+test('a completed answer below 80% is scored as failure rather than uncertain',async()=>{
+  const h=harness(),p=h.begin({expectedText:'help get rid of'}),r=h.instances[0];
+  r.emit('start');r.result('get rid of');r.emit('end');const result=await p;
+  assert.equal(result.scored,true);assert.equal(result.reason,'mismatch');assert.equal(result.passed,false);
+});
+test('interim speech is not shown, and wrong answers do not offer engine switching',async()=>{
+  const h=harness({ui:true});h.window.AudioContext=function(){};h.window.WebAssembly={};h.click();
+  const r=h.instances[0];r.emit('start');r.result('secret interim speech',false);
+  assert.doesNotMatch(h.toast().children.map(e=>e.textContent).join(' '),/secret interim speech/);
+  r.result('comparison');r.emit('end');await h.advance(0);
+  assert.match(h.toast().children[0].textContent,/Not passed/);assert.equal(h.toast().children.length,2);
+  assert.doesNotMatch(h.toast().children.map(e=>e.textContent).join(' '),/comparison|Heard/);
+});
+test('download offer includes Why and Chinese settings provide deletion without a failed attempt',async()=>{
+  const h=harness({ui:true,unsupported:true});h.window.AudioContext=function(){};h.window.WebAssembly={};
+  h.elements.settings.events.click({stopPropagation(){}});
+  const dialog=h.document.body.children.find(e=>e.className==='pronunciation-settings');
+  assert.equal(dialog.open,true);
+  const copy=dialog.children.map(e=>e.textContent).join(' ');
+  assert.match(copy,/45 MB/);assert.match(copy,/毋須依賴 Siri/);assert.match(copy,/刪除裝置語音辨認資料/);assert.match(copy,/學習紀錄/);
+  dialog.close();h.click();await h.advance(0);
+  assert.ok(h.toast().children.some(e=>/45 MB/.test(e.textContent)));
+  const why=h.toast().children.find(e=>/Why\?/.test(e.textContent));assert.ok(why);
+  why.events.click({stopPropagation(){}});assert.equal(dialog.open,true);
 });

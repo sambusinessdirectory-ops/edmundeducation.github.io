@@ -1,4 +1,4 @@
-import { loadEnglishModel } from './speaking-local-transcription.mjs';
+import { loadEnglishModel } from './speaking-local-transcription.mjs?v=20260910-practice5';
 
 // A SpeechRecognition-shaped adapter for the existing, self-hosted Vosk model.
 // It uses unrestricted recognition: the expected answer is never supplied as a

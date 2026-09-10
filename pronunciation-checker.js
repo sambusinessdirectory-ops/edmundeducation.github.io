@@ -107,8 +107,12 @@
       const left = a[i - 1], right = b[j - 1];
       const same = left === right;
       const softSpelling = (left === 'of' && right === 'off') || (left === 'to' && right === 'too');
+      // Allow small recognition/pronunciation differences in longer words.
+      // Short minimal pairs (cat/cap, ship/sheep) still need a real match.
+      const similarity = Math.min(left.length, right.length) >= 5 ? editSimilarity(left, right) : 0;
+      const substitution = similarity >= .8 ? 1 - similarity : Math.max(weight(left), weight(right));
       const choices = [
-        append(grid[i - 1][j - 1], same ? 0 : softSpelling ? .08 : Math.max(weight(left), weight(right)),
+        append(grid[i - 1][j - 1], same ? 0 : softSpelling ? .08 : substitution,
           +( !same && !softSpelling && !weakWords.has(left)), +( !same && !softSpelling && !weakWords.has(right))),
         append(grid[i - 1][j], weight(left), +!weakWords.has(left)),
         append(grid[i][j - 1], weight(right), 0, +!weakWords.has(right))
@@ -123,7 +127,10 @@
     const total = Math.max(a.reduce((sum, word) => sum + weight(word), 0), b.reduce((sum, word) => sum + weight(word), 0));
     const score = Math.max(0, 1 - alignment.cost / total);
     const anchors = a.filter(word => !weakWords.has(word));
-    const passed = anchors.length > 0 && !alignment.missing && !alignment.extra && score >= .78;
+    // Eighty percent of the weighted phrase is sufficient. Keep negation and
+    // numbers intact: changing these reverses the answer rather than its accent.
+    const critical = words => words.filter(word => ['not', 'never', 'no'].includes(word) || /^\d+$/.test(word)).join(' ');
+    const passed = anchors.length > 0 && critical(a) === critical(b) && score + Number.EPSILON >= .8;
     return { score, passed, close: !passed && score >= .65, variation: passed, missingKeyWords: alignment.missing };
   }
 
@@ -305,7 +312,7 @@
       const compare = () => {
         const match = bestNaturalMatch(expectedText, candidates);
         if (!match) { finish(unscored("unrecognized")); return; }
-        finish({ ...match, scored: !match.close, reason: match.passed ? "matched" : match.close ? "uncertain" : "mismatch" });
+        finish({ ...match, scored: true, reason: match.passed ? "matched" : "mismatch" });
       };
       const stop = () => {
         if (settled || stopping) return;
