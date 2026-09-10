@@ -757,24 +757,34 @@ html.edmund-pomodoro-page-locked, html.edmund-pomodoro-page-locked body { overfl
 .edmund-system-switcher__link[data-homepage-card="30"] { --expression-spine: #344c76; --expression-paper: #fafbff; --expression-paper-end: #d1daee; --expression-ink: #263b63; --expression-accent: #597bb7; }
 
 .edmund-system-switcher__home {
-  min-height: 38px;
-  margin-top: 8px;
-  border-radius: 11px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #53627d;
-  font-size: 10px;
-  font-weight: 850;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  min-height: 62px;
+  margin: 0 0 11px;
+  padding: 11px 15px;
+  border: 1px solid rgba(43, 92, 67, .24);
+  border-radius: 15px;
+  display: grid;
+  align-content: center;
+  gap: 2px;
+  color: #fff;
   text-decoration: none;
-  background: #f5f7fb;
+  background: linear-gradient(135deg, #174e42, #2f7f67);
+  box-shadow: 0 10px 24px rgba(26, 79, 65, .24);
 }
+
+.edmund-system-switcher__home strong { font-size: 15px; line-height: 1.2; }
+.edmund-system-switcher__home span { color: #d5eee5; font-size: 10px; font-weight: 800; letter-spacing: .04em; }
 
 .edmund-system-switcher__home:hover,
 .edmund-system-switcher__home:focus-visible {
-  color: #1a3974;
-  background: #eaf0fb;
+  color: #fff;
+  background: linear-gradient(135deg, #123f36, #276e5a);
+  transform: translateY(-1px);
+  box-shadow: 0 13px 28px rgba(26, 79, 65, .3);
 }
+.edmund-system-switcher__home:focus-visible { outline: 3px solid rgba(47, 127, 103, .28); outline-offset: 2px; }
 
 @media (pointer: fine) {
   .custom-cursor ~ .flash-shell .edmund-system-switcher__trigger,

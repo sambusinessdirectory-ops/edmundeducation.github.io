@@ -3944,7 +3944,7 @@
     }
   </style>
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
-  <link rel="stylesheet" href="shared-system-nav.css?v=20260908-layout1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2">
 <link rel="stylesheet" href="flashcard-theme.css?v=20260910-night1">
 </head>
 <body>
@@ -4135,7 +4135,9 @@
               <div class="range-tabs" data-progress-ranges>
                 <button class="range-tab" type="button" data-progress-range="week">Week</button>
                 <button class="range-tab" type="button" data-progress-range="month">Month</button>
-                <button class="range-tab" type="button" data-progress-range="half-year">Half a Year</button>
+                <button class="range-tab" type="button" data-progress-range="three-month">3 Months</button>
+                <button class="range-tab" type="button" data-progress-range="six-month">6 Months</button>
+                <button class="range-tab" type="button" data-progress-range="nine-month">9 Months</button>
                 <button class="range-tab" type="button" data-progress-range="ytd">Year to Date</button>
                 <button class="range-tab" type="button" data-progress-range="year">1 Year</button>
                 <button class="range-tab" type="button" data-progress-range="all">All Time</button>
@@ -4627,7 +4629,7 @@
   <script src="flashcards-ielts-reading-index.js?v=20260731-1"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="supabase-config.js"></script>
-  <script src="shared-system-nav.js?v=20260910-music1"></script>
+  <script src="shared-system-nav.js?v=20260910-library4"></script>
   <script>
 window.EDMUND_FLASHCARD_SEED = {
   "ielts/reading/passage-2/Practice 1":   [
@@ -191645,7 +191647,9 @@ window.EDMUND_FLASHCARD_SEED = {
       };
       if (rangeKey === "week") return addDays(end, -6);
       if (rangeKey === "month") return addDays(end, -29);
-      if (rangeKey === "half-year") return addDays(end, -181);
+      if (rangeKey === "three-month") return addDays(end, -90);
+      if (rangeKey === "six-month") return addDays(end, -181);
+      if (rangeKey === "nine-month") return addDays(end, -273);
       if (rangeKey === "ytd") return new Date(end.getFullYear(), 0, 1);
       if (rangeKey === "year") return addDays(end, -364);
       if (rangeKey === "all" && rows.length) {

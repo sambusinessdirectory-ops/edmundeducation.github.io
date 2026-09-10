@@ -962,6 +962,7 @@
     }).join("");
     return `<nav class="edmund-system-switcher__menu" aria-label="EdmundEducation 系統快速切換">
       <div class="edmund-system-switcher__menu-heading"><strong>快速切換系統</strong><span>Quick switch</span></div>
+      <a class="edmund-system-switcher__home" href="index.html"><strong>返回 EdmundEducation 首頁</strong><span>Go to main page</span></a>
       <label class="edmund-system-switcher__search">
         <span aria-hidden="true">⌕</span>
         <input type="search" data-system-switcher-search autocomplete="off" spellcheck="false" aria-label="搜尋學習系統" placeholder="搜尋中文或英文名稱">
@@ -970,7 +971,6 @@
       <p class="edmund-system-switcher__search-status" data-system-switcher-search-status role="status" aria-live="polite">共 ${SYSTEMS.length} 個系統</p>
       <div class="edmund-system-switcher__links">${links}</div>
       <p class="edmund-system-switcher__empty" data-system-switcher-empty hidden>找不到相符的學習系統。</p>
-      <a class="edmund-system-switcher__home" href="index.html">返回 EdmundEducation 首頁</a>
     </nav>`;
   }
 
@@ -1266,4 +1266,4 @@
 })();
 
 // Shared classroom controls are loaded once on every learning portal.
-if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20260910-music1",document.currentScript.src).href;script.defer=true;document.head.append(script);}
+if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20260910-library4",document.currentScript.src).href;script.defer=true;document.head.append(script);}
