@@ -718,8 +718,8 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /展開以 Open Book 參考 Edmund 範文 Model Essay/);
   assert.match(script, /Vocab 生字 Mini Card · Edmund 主題性生字/);
   assert.match(script, /writing-submission-reference-data\.mjs\?v=/);
-  assert.match(script, /TOPIC_CATALOG_VERSION\s*=\s*"20260818-hkfsd-ir3"/);
-  assert.match(script, /TOPIC_REFERENCE_VERSION\s*=\s*"20260818-hkfsd-ir3"/);
+  assert.match(script, /TOPIC_CATALOG_VERSION\s*=\s*"20260911-dse-part-b"/);
+  assert.match(script, /TOPIC_REFERENCE_VERSION\s*=\s*"20260911-dse-part-b"/);
   assert.match(script, /reference\.exerciseId !== route\.exerciseId/);
   assert.match(script, /reference\.writingHref !== route\.writingHref/);
   assert.match(script, /reference\.flashDeckId !== route\.flashDeckId/);
