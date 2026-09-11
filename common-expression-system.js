@@ -531,7 +531,7 @@ let expressionMapModule = null;
 
 function syncExpressionMap() {
   if (SYSTEM_KEY !== "speaking" || !state.user) return;
-  expressionMapModule ||= import("./common-expression-map.mjs?v=20260911-map1");
+  expressionMapModule ||= import("./common-expression-map.mjs?v=20260911-map2");
   expressionMapModule.then(({ createExpressionMap }) => {
     if (!state.user) return;
     expressionMap ||= createExpressionMap({

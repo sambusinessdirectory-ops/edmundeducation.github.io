@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 import test from 'node:test';
-import { levelPositions } from '../common-expression-map.mjs';
+import { levelPositions, minimumMapScale, restoreMapPreferences } from '../common-expression-map.mjs';
 import { MASCOT_VIEWS } from '../speaking-mascot-views.mjs';
 const root=path.resolve(import.meta.dirname,'..');
 const window={};
@@ -16,7 +16,7 @@ test('every current Speaking lesson has a distinct, reachable stone and readable
  assert.equal(new Set(stones.map(p=>p.id)).size,lessons.length);
  for(const lesson of lessons) assert.ok(stones.some(p=>p.id===lesson.id));
  for(const [index,stone] of stones.entries()) {
-  assert.ok(stone.x>=100 && stone.x<=1500 && stone.y>=180 && stone.y<=1060,`${stone.id}: stone, horse and caption fit the meadow`);
+  assert.ok(stone.x>=100 && stone.x<=1500 && stone.y>=180 && stone.y<=1700,`${stone.id}: stone, horse and caption fit the meadow`);
   for(const other of stones.slice(index+1)) assert.ok(Math.hypot(stone.x-other.x,stone.y-other.y)>190,`${stone.id}: level hit areas and captions must not overlap`);
  }
 });
@@ -31,4 +31,19 @@ test('all three original horse sheets and every directional crop are valid deplo
   assert.ok(standing.views.length>=8,'Walking needs all facing directions');
   for(const {rect:[x,y,w,h]} of standing.views) assert.ok(x>=0 && y>=0 && w>0 && h>0 && x+w<=1.00001 && y+h<=1.00001,'Crop stays inside the original sheet');
  }
+});
+
+
+test('normal zoom always covers the viewport, including wide and rotated screens',()=>{
+ for(const [width,height] of [[1406,672],[2500,800],[390,464],[320,800],[820,750]]) {
+  const scale=minimumMapScale(width,height);
+  assert.ok(1600*scale>=width && 1950*scale>=height);
+ }
+});
+
+test('map is the default and only an explicitly saved valid stone restores the starting location',()=>{
+ const ids=lessons.map(l=>l.id);
+ assert.deepEqual(restoreMapPreferences(null,{mode:false,character:'phoebe',selected:ids[2]},ids),{mode:true,character:'phoebe',pinned:null});
+ assert.deepEqual(restoreMapPreferences({mode:false,character:'elsie',pinned:ids[9]},null,ids),{mode:false,character:'elsie',pinned:ids[9]});
+ assert.deepEqual(restoreMapPreferences({character:'unknown',pinned:'not-a-lesson'},null,ids),{mode:true,character:'eddy',pinned:null});
 });
