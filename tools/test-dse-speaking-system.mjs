@@ -129,7 +129,7 @@ for (const required of [
 for (const required of [
   "dseNativePaperMarkup", "data-paper-mode=\"student\"", "data-dse-paper-mode",
   "data-dse-word-key", "setWordBookmark", "student-only", "examiner-only",
-  "dse-paper-illustration", "DSE_SPEAKING_ILLUSTRATIONS", "setDsePaperMode", "pointerup", "dsePaperHostMarkup(session.set, true)"
+  "DSE_SOURCE.illustrationsFor(set)", "DSE_SPEAKING_ILLUSTRATIONS", "setDsePaperMode", "pointerup", "dsePaperHostMarkup(session.set, true)"
 ]) assert.ok(appSource.includes(required), `missing native DSE paper reader: ${required}`);
 assert.ok(!appSource.includes("dse-paper-facsimile"), "full scanned paper pages must stay out of the digitized reader");
 assert.ok(!appSource.includes("可選取文字版本"), "the redundant selectable-transcript bar must stay removed");

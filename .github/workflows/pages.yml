@@ -257,6 +257,7 @@ jobs:
           node tools/test-special-flash-card.mjs
           node tools/test-professional-feedback.mjs
           node tools/test-learning-updates-20260911.mjs
+          node tools/test-writing-feedback-email.mjs
           node tools/test-schedule-manual-writing-resource.mjs
           node tools/test-portal-loading.mjs
           node tools/test-feedback-questions.mjs
@@ -287,6 +288,7 @@ jobs:
         run: |
           node tools/test-dse-speaking-system.mjs
           node tools/test-dse-speaking-source-layouts.mjs
+          node tools/test-dse-2024-illustrations.mjs
 
       - name: Validate Speaking sticky recorder, repeated recordings and private storage
         run: |

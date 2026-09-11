@@ -2212,7 +2212,7 @@
   }
 
   function dsePlainSourceMarkup(set) {
-    return DSE_SOURCE.render(dseSourceSegments(set), escapeHtml);
+    return DSE_SOURCE.render(dseSourceSegments(set), escapeHtml, false, DSE_SOURCE.illustrationsFor(set));
   }
 
   function dseSourceCard(set, open = false) {
@@ -2249,11 +2249,10 @@
       keys: DSE_SOURCE.bookmarkKeys(dseLegacySourceSegments(set?.sourceText, set?.title), segments, dsePaperSetKey(set)),
       index: 0
     };
-    return DSE_SOURCE.render(segments, (text, scope) => dsePaperWordMarkup(text, set, scope, sourceWords), true);
+    return DSE_SOURCE.render(segments, (text, scope) => dsePaperWordMarkup(text, set, scope, sourceWords), true, DSE_SOURCE.illustrationsFor(set));
   }
 
   function dseNativePaperMarkup(set) {
-    const illustration = DSE_ILLUSTRATIONS[dsePaperSetKey(set)] || null;
     return `<article class="dse-native-paper" data-dse-paper data-paper-mode="student">
       <nav class="dse-paper-mode-switch" aria-label="題紙模式">
         <button class="is-active" type="button" data-dse-paper-mode="student" aria-pressed="true"><strong>學生題紙</strong><small>Student paper</small></button>
@@ -2267,7 +2266,6 @@
       <section class="dse-native-paper-part">
         <div class="dse-native-paper-part-heading"><span>PART A</span><h3>Group Interaction</h3><small>小組討論</small></div>
         <h4>${dsePaperWordMarkup(set.title, set, "title")}</h4>
-        ${illustration ? `<figure class="dse-paper-illustration is-${escapeHtml(illustration.position || "center")}"><img src="${escapeHtml(illustration.src)}" alt="${escapeHtml(`${set.title} illustration`)}" loading="lazy" decoding="async"></figure>` : ""}
         <div class="dse-native-source" lang="en">${dseNativeSourceMarkup(set)}</div>
         <p class="dse-native-instruction">Discuss with your group. You may want to talk about:</p>
         ${dsePaperListMarkup(set.groupDiscussion, set, "group")}

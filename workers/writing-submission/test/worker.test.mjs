@@ -6297,3 +6297,36 @@ test('admin ignored-feedback queue validates role and payload and persists resto
  assert.equal((await send('PUT',{submissionId:SUBMISSION_ID,ignored:false})).status,200);
  assert.deepEqual((await (await send()).json()).ignoredIds,[]);assert.equal(writes,2);
 });
+
+test('grading notification settings require a student session and cannot select another owner', async t => {
+ const previous=globalThis.fetch;t.after(()=>globalThis.fetch=previous);const calls=[];
+ globalThis.fetch=async(input,init)=>{const call=rpcRequest(input,init);calls.push(call);
+  if(call.name==='writing_submission_student_profile')return jsonResponse(studentProfile());
+  if(call.name==='writing_feedback_email_get')return jsonResponse({email:'',enabled:false});
+  if(call.name==='writing_feedback_email_set')return jsonResponse({email:call.body.p_email,enabled:call.body.p_enabled});
+  throw new Error(call.name);
+ };
+ const req=(method,body,token=STUDENT_TOKEN)=>new Request('https://worker.example/v1/email-notifications',{method,headers:{Origin:ORIGIN,'Content-Type':'application/json',...(token?{Authorization:`Bearer ${token}`}:{})},...(body?{body:JSON.stringify(body)}:{})});
+ assert.equal((await worker.fetch(req('GET',null,null),environment())).status,401);
+ assert.equal((await worker.fetch(req('GET'),environment())).status,200);
+ for(const body of [{email:'bad',enabled:true},{email:'a@example.invalid',enabled:true,studentId:SUBMISSION_ID},{email:'a@example.invalid\r\nBcc: b@example.invalid',enabled:true},{email:'a@example.invalid',enabled:'yes'}]) assert.equal((await worker.fetch(req('PUT',body),environment())).status,400);
+ const response=await worker.fetch(req('PUT',{email:'a@example.invalid',enabled:true}),environment());
+ assert.equal(response.status,200);assert.equal((await response.json()).preferences.enabled,true);
+ assert.ok(calls.filter(c=>c.name.startsWith('writing_feedback_email_')).every(c=>c.body.p_student_id===STUDENT_ID));
+ assert.equal((await worker.fetch(req('PUT',{email:'',enabled:false}),environment())).status,200);
+});
+
+test('publishing comments requests delivery only for an opted-in queued notification', async t=>{
+ const previous=globalThis.fetch;t.after(()=>globalThis.fetch=previous);let notificationStatus='queued',deliveries=0;
+ globalThis.fetch=async(input,init)=>{const call=rpcRequest(input,init);
+  if(call.name==='writing_submission_admin_me')return jsonResponse(adminProfile());
+  if(call.name==='writing_submission_feedback_admin_save_v5')return jsonResponse([storedFeedback({status:call.body.p_status})]);
+  if(call.name==='writing_feedback_email_status'){assert.equal(call.body.p_feedback_id,FEEDBACK_ID);return jsonResponse(notificationStatus);}
+  throw new Error(call.name);
+ };
+ const request=status=>new Request(`https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,{method:'PUT',headers:{Origin:ORIGIN,'Content-Type':'application/json',Authorization:`Bearer ${ADMIN_TOKEN}`},body:JSON.stringify({overallComment:'Good work',fragments:[],finalComment:'Keep practising',status,expectedFeedbackId:FEEDBACK_ID,expectedVersion:2})});
+ const env=environment({FEEDBACK_MAILER:{async deliver(){deliveries++;}}});
+ let response=await worker.fetch(request('published'),env);assert.equal(response.status,200);assert.equal((await response.json()).notification.status,'queued');assert.equal(deliveries,1);
+ notificationStatus='not_subscribed';response=await worker.fetch(request('published'),env);assert.equal(response.status,200);assert.equal(deliveries,1);
+ response=await worker.fetch(request('draft'),env);assert.equal(response.status,200);assert.equal((await response.json()).notification,null);assert.equal(deliveries,1);
+});

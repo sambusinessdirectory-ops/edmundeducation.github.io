@@ -1700,3 +1700,15 @@ body.writing-feedback-fullscreen { overflow: hidden; }
 .admin-pending-actions { display:flex; gap:.6rem; flex-wrap:wrap; justify-content:flex-end; }
 .admin-ignored-panel { margin-top:2rem; padding:1.4rem; border:1px solid #d7dee3; border-radius:1rem; background:#f4f6f8; }
 .admin-pending-toolbar select { width:100%; min-height:44px; padding:.6rem; border:1px solid #bdcbd4; border-radius:.6rem; background:white; }
+
+.writing-email-preference{padding:1.1rem 1.4rem}
+.writing-email-preference summary{cursor:pointer;display:flex;gap:.75rem;flex-wrap:wrap;align-items:center}
+.writing-email-preference summary span{font-size:.82rem;opacity:.75}
+.writing-email-preference p{line-height:1.65;max-width:76ch}
+.writing-email-preference form{display:grid;gap:1rem;max-width:760px}
+.writing-email-preference label{display:grid;gap:.4rem}
+.writing-email-preference input[type=email]{width:100%;box-sizing:border-box;font:inherit;padding:.75rem;border:1px solid #a8bccf;border-radius:10px;background:var(--paper-strong,#fff);color:var(--ink,#242342)}
+.writing-email-preference .writing-email-consent{display:flex;gap:.6rem;align-items:center}
+.writing-email-consent input{width:20px;height:20px;flex:none}
+.writing-email-actions{display:flex;flex-wrap:wrap;gap:.75rem}
+[data-writing-email-preferences]:empty{display:none}
