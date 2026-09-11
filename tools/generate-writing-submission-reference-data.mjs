@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import vm from "node:vm";
 import { fileURLToPath } from "node:url";
@@ -56,6 +56,16 @@ function normalizeCardText(value) {
 }
 
 function compactEssay(exercise) {
+  // Imported Part B files may contain writing notes or a different bilingual
+  // version. Use the canonical passage and its source-matched translations;
+  // complete source annotations remain available through the Writing Practice link.
+  if (/^dse-writing-20\d{2}-part-b-/.test(exercise?.id || "") && Array.isArray(exercise?.sourceFiles)) {
+    return exercise.paragraphs.map((paragraph, index) => ({
+      label: cleanText(paragraph.label || `Paragraph ${index + 1}`),
+      english: cleanText(paragraph.sentences.map(sentenceText).join(" ")),
+      chinese: cleanText(exercise.translation?.[index] || "")
+    }));
+  }
   const translationSections = Array.isArray(exercise?.translationSections)
     ? exercise.translationSections
     : [];
@@ -161,10 +171,16 @@ const flashcardFiles = [...new Set(localScriptSources(
   /^(?:flashcards-ielts-writing(?:-.*)?|flashcards-dse-writing-part-a|flashcards-dse-practical-writing|flashcards-hkpf|flashcards-hkfsd-incident-reports)-data\.js$/
 ))];
 await evaluateFiles(flashcardFiles, flashcardContext);
+await evaluateFiles((await readdir(root)).filter(file => /^flashcards-dse-writing-part-b-\d{4}-data\.js$/.test(file)).sort(), flashcardContext);
 const flashcardSeed = flashcardContext.window.EDMUND_FLASHCARD_SEED || {};
 
 function flashDeckIdForWritingExercise(exerciseId, essayKey) {
   if (essayKey) return essayPortals.flashDeckId(essayKey);
+  const dsePartBMatch = /^dse-writing-(20\d{2})-part-b-(q\d+)(?:-bilingual)?$/i.exec(exerciseId);
+  if (dsePartBMatch) {
+    const deckId = `dse/writing/part-b/${dsePartBMatch[1]}/${dsePartBMatch[2].toUpperCase()}`;
+    return flashcardSeed[deckId]?.length ? deckId : "";
+  }
   const dsePartAMatch = /^dse-writing-(20(?:1[2-9]|2[0-5]))-part-a(?:-argument-(?:for|against))?$/i.exec(exerciseId);
   if (dsePartAMatch) return `dse/writing/part-a/${dsePartAMatch[1]}`;
   if (exerciseId === "hkfsd-incident-report-3") {

@@ -11,6 +11,9 @@ const root = path.resolve(import.meta.dirname, "..");
 const generator = path.join(root, "tools/generate-writing-submission-reference-data.mjs");
 const checkedInModule = path.join(root, "writing-submission-reference-data.mjs");
 const homeworkCatalogModule = path.join(root, "homework-resource-catalog.mjs");
+const importedPartB = evaluateBrowserFiles(["writing-practice-dse-part-b-library-data.js"])
+  .window.EDMUND_DSE_WRITING_PART_B_LIBRARY_EXERCISES;
+const importedPartBIds = new Set(Object.keys(importedPartB));
 
 function generateReferenceModule(outputPath) {
   execFileSync(process.execPath, [generator, "--output", outputPath], {
@@ -81,6 +84,7 @@ function publishedWritingFlashDeckIds() {
     "flashcards.html",
     /^(?:flashcards-ielts-writing(?:-.*)?|flashcards-dse-writing-part-a|flashcards-dse-practical-writing|flashcards-hkpf|flashcards-hkfsd-incident-reports)-data\.js$/
   ), sandbox);
+  evaluateBrowserFiles(fs.readdirSync(root).filter(file => /^flashcards-dse-writing-part-b-\d{4}-data\.js$/.test(file)).sort(), sandbox);
   return new Set(Object.entries(sandbox.window.EDMUND_FLASHCARD_SEED || {})
     .filter(([, cards]) => Array.isArray(cards) && cards.length)
     .map(([deckId]) => deckId));
@@ -102,6 +106,29 @@ test("Writing Submission reference data is deterministic and up to date", () => 
   }
 });
 
+test("DSE Part B reference routes use the published flashcards and preserve model-only topics", async () => {
+  const { WRITING_SUBMISSION_REFERENCE_DATA: references } = await import(pathToFileURL(checkedInModule).href);
+  const { HOMEWORK_RESOURCE_CATALOG: catalog } = await import(pathToFileURL(homeworkCatalogModule).href);
+  const source = fs.readFileSync(path.join(root, "writing-submission.js"), "utf8");
+  const start = source.indexOf("function writingExerciseIdFromTopicResource(");
+  const end = source.indexOf("function topicReferenceLinkRow(", start);
+  assert.ok(start >= 0 && end > start);
+  const context = vm.createContext({
+    state: { homeworkResourceCatalog: catalog },
+    canonicalWritingTopicResource: resource => resource,
+    essayPortals: { fromWritingExerciseId: () => "" },
+    paper3TopicRoute: () => ""
+  });
+  vm.runInContext(source.slice(start, end), context);
+  for (const resource of catalog.filter(item => /^fill:dse-writing-.*-part-b-/.test(item.id))) {
+    const route = context.selectedTopicReferenceRoute(resource);
+    const reference = references[resource.id.slice(5)];
+    assert.equal(route.flashDeckId, reference.flashDeckId, resource.id);
+    assert.equal(route.writingHref, reference.writingHref, resource.id);
+    assert.equal(route.hasFlashcards, reference.vocabulary.length > 0, resource.id);
+  }
+});
+
 test("generated references cover every published Writing Practice lesson with no stale or duplicate route", async () => {
   const moduleUrl = `${pathToFileURL(checkedInModule).href}?test=${Date.now()}`;
   const { WRITING_SUBMISSION_REFERENCE_DATA: references } = await import(moduleUrl);
@@ -109,16 +136,16 @@ test("generated references cover every published Writing Practice lesson with no
 
   const authoritativeIds = authoritativeWritingExerciseIds();
   const generatedIds = entries.map(([exerciseId]) => exerciseId);
-  assert.equal(authoritativeIds.length, 321);
+  assert.equal(authoritativeIds.length, 407);
   assert.deepEqual(generatedIds, authoritativeIds, "references must exactly match Writing Practice sources");
   assert.equal(new Set(generatedIds).size, generatedIds.length);
-  assert.equal(entries.filter(([, reference]) => reference.vocabulary.length > 0).length, 305);
-  assert.equal(entries.filter(([, reference]) => reference.flashDeckId).length, 302);
-  assert.equal(entries.filter(([, reference]) => reference.paragraphs.every((paragraph) => paragraph.chinese)).length, 320);
+  assert.equal(entries.filter(([, reference]) => reference.vocabulary.length > 0).length, 386);
+  assert.equal(entries.filter(([, reference]) => reference.flashDeckId).length, 386);
+  assert.equal(entries.filter(([, reference]) => reference.paragraphs.every((paragraph) => paragraph.chinese)).length, 389);
 
   const expectedCategoryCoverage = {
     "DSE Part A": { total: 15, modelEssay: 15, translation: 15, vocabulary: 15, flashCards: 15 },
-    "DSE Part B": { total: 3, modelEssay: 3, translation: 3, vocabulary: 3, flashCards: 0 },
+    "DSE Part B": { total: 89, modelEssay: 89, translation: 72, vocabulary: 84, flashCards: 84 },
     "IELTS Task 1": { total: 60, modelEssay: 60, translation: 60, vocabulary: 59, flashCards: 59 },
     "IELTS Task 2": { total: 228, modelEssay: 228, translation: 228, vocabulary: 224, flashCards: 224 },
     "Government / HKFSD": { total: 1, modelEssay: 1, translation: 0, vocabulary: 1, flashCards: 1 },
@@ -145,6 +172,18 @@ test("generated references cover every published Writing Practice lesson with no
     coverage.flashCards += Number(Boolean(reference.flashDeckId));
   }
   assert.deepEqual(actualCategoryCoverage, expectedCategoryCoverage);
+
+  assert.equal(importedPartBIds.size, 86);
+  for (const [exerciseId, source] of Object.entries(importedPartB)) {
+    const reference = references[exerciseId];
+    const sourceEnglish = Array.from(source.paragraphs, paragraph => paragraph.sentences
+      .map(sentence => sentence.parts.map(part => typeof part === "string" ? part : part.answer).join(""))
+      .join(" ").replace(/\s+/g, " ").trim());
+    assert.deepEqual(reference.paragraphs.map(paragraph => paragraph.english), sourceEnglish,
+      `${exerciseId} must use the canonical model rather than source notes or an alternate translation version`);
+    assert.deepEqual(reference.paragraphs.map(paragraph => paragraph.chinese),
+      Array.from(source.translation, text => String(text || "").replace(/\s+/g, " ").trim()));
+  }
 
   const writingHrefs = entries.map(([, reference]) => reference.writingHref);
   assert.equal(new Set(writingHrefs).size, writingHrefs.length, "each lesson needs one unique Fill-in-the-Blanks route");
@@ -206,7 +245,7 @@ test("generated references cover every published Writing Practice lesson with no
 
   assert.deepEqual(
     entries
-      .filter(([, reference]) => reference.vocabulary.length === 0)
+      .filter(([exerciseId, reference]) => !importedPartBIds.has(exerciseId) && reference.vocabulary.length === 0)
       .map(([exerciseId]) => exerciseId)
       .sort(),
     [
@@ -231,7 +270,7 @@ test("generated references cover every published Writing Practice lesson with no
 
   assert.deepEqual(
     entries
-      .filter(([, reference]) => !reference.flashDeckId)
+      .filter(([exerciseId, reference]) => !importedPartBIds.has(exerciseId) && !reference.flashDeckId)
       .map(([exerciseId]) => exerciseId)
       .sort(),
     [
@@ -245,9 +284,6 @@ test("generated references cover every published Writing Practice lesson with no
       "business-english-standard-response-book-1-q7",
       "business-english-standard-response-book-1-q8",
       "business-english-standard-response-book-1-q9",
-      "dse-writing-2022-part-b-q3",
-      "dse-writing-2024-part-b-q5",
-      "dse-writing-2025-part-b-q3",
       "hkpf-civic-composition-7",
       "model-essay-2-ielts-cause-solution",
       "model-essay-26-ielts-direct-question",
@@ -263,8 +299,8 @@ test("generated references cover every published Writing Practice lesson with no
       references["dse-writing-2024-part-b-q5"].vocabulary.length,
       references["dse-writing-2025-part-b-q3"].vocabulary.length
     ],
-    [105, 87, 73],
-    "DSE Part B must expose the thematic vocabulary already published with each lesson"
+    [144, 178, 143],
+    "DSE Part B must expose the vocabulary in each published flashcard deck"
   );
   for (const composition of [4, 5, 6]) {
     assert.equal(

@@ -37,6 +37,7 @@ function publishedWritingFlashDecks() {
     "flashcards.html",
     /^(?:flashcards-ielts-writing(?:-.*)?|flashcards-dse-writing-part-a|flashcards-hkpf|flashcards-hkfsd-incident-reports)-data\.js$/
   ), sandbox);
+  evaluate(fs.readdirSync(root).filter(file => /^flashcards-dse-writing-part-b-\d{4}-data\.js$/.test(file)).sort(), sandbox);
   return new Map(Object.entries(sandbox.window.EDMUND_FLASHCARD_SEED || {})
     .filter(([, cards]) => Array.isArray(cards) && cards.length));
 }
@@ -66,7 +67,7 @@ test("all six Writing families expose every real reciprocal route and no invente
     }]));
   assert.deepEqual(counts, {
     "DSE Part A": { lessons: 15, flashcards: 15 },
-    "DSE Part B": { lessons: 3, flashcards: 0 },
+    "DSE Part B": { lessons: 89, flashcards: 84 },
     Government: { lessons: 5, flashcards: 4 },
     "Business English": { lessons: 10, flashcards: 0 },
     "IELTS Task 1": { lessons: 60, flashcards: 59 },
@@ -96,9 +97,11 @@ test("all six Writing families expose every real reciprocal route and no invente
     "business-english-standard-response-book-1-q8",
     "business-english-standard-response-book-1-q9",
     "business-english-standard-response-book-1-q10",
-    "dse-writing-2022-part-b-q3",
-    "dse-writing-2024-part-b-q5",
-    "dse-writing-2025-part-b-q3",
+    "dse-writing-2017-part-b-q7",
+    "dse-writing-2017-part-b-q9",
+    "dse-writing-2023-part-b-q8",
+    "dse-writing-2023-part-b-q8-bilingual",
+    "dse-writing-2024-part-b-q4",
     "hkpf-civic-composition-7",
     "model-essay-2-ielts-cause-solution",
     "model-essay-9-ielts-task1-maps",

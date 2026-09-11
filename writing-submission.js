@@ -86,8 +86,8 @@ const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";
 const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
 const ADMIN_FEEDBACK_RECOVERY_KEY_PREFIX = "edmund-writing-admin-feedback-recovery-v1";
 const ADMIN_FEEDBACK_RECOVERY_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
-const TOPIC_CATALOG_VERSION = "20260818-hkfsd-ir3";
-const TOPIC_REFERENCE_VERSION = "20260818-hkfsd-ir3";
+const TOPIC_CATALOG_VERSION = "20260911-dse-part-b";
+const TOPIC_REFERENCE_VERSION = "20260911-dse-part-b";
 const MAX_FEEDBACK_SENTENCE_LINKS = 100;
 const MAX_FEEDBACK_BODY_BYTES = 512 * 1024;
 const FEEDBACK_ENHANCEMENT_KINDS = Object.freeze({
@@ -2251,11 +2251,18 @@ function selectedTopicReferenceRoute(resource = state.selectedTopicResource) {
   const essayKey = essayPortals?.fromWritingExerciseId(exerciseId) || "";
   if (essayKey && !essayPortals.hasWritingPractice(essayKey)) return null;
   const dsePartAMatch = /^dse-writing-(20(?:1[2-9]|2[0-5]))-part-a(?:-argument-(?:for|against))?$/i.exec(exerciseId);
+  const dsePartBMatch = /^dse-writing-(20\d{2})-part-b-(q\d+)(?:-bilingual)?$/i.exec(exerciseId);
+  const dsePartBDeckId = dsePartBMatch
+    ? `dse/writing/part-b/${dsePartBMatch[1]}/${dsePartBMatch[2].toUpperCase()}`
+    : "";
+  const publishedDsePartBDeck = dsePartBDeckId && state.homeworkResourceCatalog?.some(
+    resource => resource.id === `flash:${dsePartBDeckId}` && resource.type === "flashcards"
+  );
   const hkpfCompositionMatch = /^hkpf-civic-composition-([4-6])$/i.exec(exerciseId);
   const hkfsdIncidentReportMatch = /^hkfsd-incident-report-(\d+)$/i.exec(exerciseId);
   const flashDeckId = essayKey && essayPortals.hasFlashcards(essayKey)
     ? essayPortals.flashDeckId(essayKey)
-    : dsePartAMatch
+    : publishedDsePartBDeck ? dsePartBDeckId : dsePartAMatch
       ? `dse/writing/part-a/${dsePartAMatch[1]}`
       : hkpfCompositionMatch
         ? `government/hkpf/writing-composition/composition-${hkpfCompositionMatch[1]}`

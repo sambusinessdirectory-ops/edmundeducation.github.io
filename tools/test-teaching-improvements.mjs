@@ -20,16 +20,11 @@ const flash=read('flashcards.html');
 const back=flash.slice(flash.indexOf('function returnToDeckList()'),flash.indexOf('function logAttemptStart'));
 let result;const context=vm.createContext({currentDeckId:'dse/reading/part-b2/2019',studySession:{returnEntry:{view:'dashboard'}},stopStudyTimer(){},stopCountdownTimers(){},hideCountdownClock(){},openDeckStart(id,push){result={id,push};}});
 vm.runInContext(back+';returnToDeckList()',context);assert.equal(result.id,'dse/reading/part-b2/2019');assert.equal(result.push,false);assert.equal(context.studySession,null);
-const types=JSON.parse(read('listening-question-types.json'));
-// Search results now split each part into question-type ranges. Count distinct
-// parts and question coverage, rather than assuming one result row per part.
-assert.equal(types.partCount,80);
-assert.equal(new Set(types.rows.map(row=>`${row.practice}:${row.part}`)).size,80);
-for(let practice=1;practice<=20;practice++) {
- const rows=types.rows.filter(row=>row.practice===practice);
- assert.equal(new Set(rows.map(row=>row.part)).size,4);
- const numbers=rows.flatMap(row=>row.questions.flatMap(question=>question.numbers));
- assert.deepEqual([...numbers].sort((a,b)=>a-b),Array.from({length:40},(_,i)=>i+1));
+const types=JSON.parse(read('listening-question-types.json'));assert.equal(types.partCount,80);assert.equal(types.questionCount,800);
+for(let practice=1;practice<=20;practice++){
+ const rows=types.rows.filter(r=>r.practice===practice);
+ assert.deepEqual([...new Set(rows.map(r=>r.part))].sort(),[1,2,3,4]);
+ assert.deepEqual(rows.flatMap(r=>r.questions.flatMap(q=>q.numbers)).sort((a,b)=>a-b),Array.from({length:40},(_,i)=>i+1));
 }
 assert.ok(types.rows.some(r=>r.practice===3&&r.part===2&&r.type==='map'));
 assert.ok(types.rows.some(r=>r.practice===11&&r.part===1&&r.type==='form'));
