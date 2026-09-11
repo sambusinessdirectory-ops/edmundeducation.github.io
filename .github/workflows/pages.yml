@@ -289,7 +289,7 @@ jobs:
           npm test --prefix workers/speaking-system
 
       - name: Validate all six Common Expression portals, lessons and persistence contracts
-        run: node --test tools/test-common-expression-system.mjs
+        run: node --test tools/test-common-expression-system.mjs tools/test-common-expression-map.mjs
 
       - name: Validate DSE Paper 3 portal, shared login and imported analysis data
         run: |

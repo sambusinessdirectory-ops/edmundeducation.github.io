@@ -193,7 +193,7 @@ test("all six Common Expression portals carry their identity, shared navigation 
       /common-expression-system-data\.js\?v=20260811-1/,
       /common-expression-system-imported-data\.js\?v=20260811-1/,
       /shared-answer-comparison\.js\?v=20260812-1/,
-      /common-expression-system\.js\?v=20260908-loading1/,
+      portal.key === "speaking" ? /common-expression-system\.js\?v=20260911-map1/ : /common-expression-system\.js\?v=20260908-loading1/,
       /shared-speaking-practice\.css\?v=20260829-1/,
       /<script defer src=["']shared-speaking-practice\.js\?v=20260829-2["']><\/script>/,
       /shared-system-nav\.css\?v=20260910-home2/,
@@ -217,7 +217,7 @@ test("all six Common Expression portals carry their identity, shared navigation 
     const baseDataIndex = html.indexOf("common-expression-system-data.js?v=20260811-1");
     const importedDataIndex = html.indexOf("common-expression-system-imported-data.js?v=20260811-1");
     const comparisonIndex = html.indexOf("shared-answer-comparison.js?v=20260812-1");
-    const engineIndex = html.indexOf("common-expression-system.js?v=20260908-loading1");
+    const engineIndex = html.indexOf(`common-expression-system.js?v=${portal.key === "speaking" ? "20260911-map1" : "20260908-loading1"}`);
     assert.ok(baseDataIndex < importedDataIndex, `${portal.file}: base catalogue must load before imported lessons`);
     assert.ok(importedDataIndex < comparisonIndex, `${portal.file}: imported lessons must load before answer comparison`);
     assert.ok(comparisonIndex < engineIndex, `${portal.file}: answer comparison must load before the module engine`);

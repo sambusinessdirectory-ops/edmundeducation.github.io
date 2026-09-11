@@ -418,7 +418,7 @@ function renderAppShell() {
       </section>
       <section class="dashboard-toolbar glass-panel">
         <p>每個課題包括雙語概念、完整用法、重要規則及改寫練習；記錄會跟隨您的學生帳戶。</p>
-        <div class="dashboard-toolbar-actions"><button class="secondary-button" type="button" data-open-bookmarks>☆ 我的書簽</button><button class="secondary-button" type="button" data-toggle-progress aria-expanded="false">查看練習進展</button></div>
+        <div class="dashboard-toolbar-actions">${SYSTEM_KEY === "speaking" ? '<button class="secondary-button expression-map-toggle" type="button" data-map-toggle disabled aria-pressed="false" aria-controls="common-expression-meadow">互動地圖 · Interactive map</button>' : ""}<button class="secondary-button" type="button" data-open-bookmarks>☆ 我的書簽</button><button class="secondary-button" type="button" data-toggle-progress aria-expanded="false">查看練習進展</button></div>
       </section>
       <section class="common-progress-panel glass-panel" data-progress-panel hidden>
         <div class="common-progress-heading"><div><p class="eyebrow">LEARNING PROGRESS</p><h2>練習進展</h2><p>查看每日完成題數及練習時間。按圖表上的日期可查看當日詳情。</p></div><a class="secondary-button common-progress-full-link" href="student-progress.html">全面英文能力發展進度表 →</a></div>
@@ -438,6 +438,7 @@ function renderAppShell() {
         </article>
       </section>
       <div class="lesson-grid" data-lesson-grid></div>
+      ${SYSTEM_KEY === "speaking" ? '<section id="common-expression-meadow" data-expression-map hidden aria-label="常用語互動地圖"></section>' : ""}
     </section>
 
     <section class="view" data-view="lesson" hidden>
@@ -525,6 +526,35 @@ const elements = {
   toast: document.querySelector("[data-toast]")
 };
 
+let expressionMap = null;
+let expressionMapModule = null;
+
+function syncExpressionMap() {
+  if (SYSTEM_KEY !== "speaking" || !state.user) return;
+  expressionMapModule ||= import("./common-expression-map.mjs?v=20260911-map1");
+  expressionMapModule.then(({ createExpressionMap }) => {
+    if (!state.user) return;
+    expressionMap ||= createExpressionMap({
+      root: document.querySelector("[data-expression-map]"),
+      toggle: document.querySelector("[data-map-toggle]"),
+      grid: elements.lessonGrid,
+      lessons: SYSTEM.lessons,
+      getCompleted: completedCount,
+      openLesson
+    });
+    document.querySelector("[data-map-toggle]").disabled = false;
+    expressionMap.update(state.user.id || state.user.name);
+    expressionMap.setActive(state.currentView === "dashboard");
+  }).catch(error => {
+    expressionMapModule = null;
+    console.warn("Interactive map could not load", error);
+    const button = document.querySelector("[data-map-toggle]");
+    button.disabled = false;
+    button.textContent = "重試載入互動地圖 · Retry map";
+    button.onclick = () => { button.onclick = null; syncExpressionMap(); };
+  });
+}
+
 function setConnection(label, status) {
   elements.connection.textContent = label;
   elements.connection.dataset.state = status;
@@ -549,6 +579,7 @@ function showView(viewName, { scroll = true } = {}) {
     pauseClock();
   }
   state.currentView = viewName;
+  expressionMap?.setActive(viewName === "dashboard");
   for (const view of elements.views) view.hidden = view.dataset.view !== viewName;
   const loggedIn = Boolean(state.user && state.token);
   elements.userPill.hidden = !loggedIn;
@@ -599,6 +630,7 @@ function readSession() {
 }
 
 function clearSession() {
+  expressionMap?.reset();
   pauseClock();
   state.user = null;
   state.token = "";
@@ -1005,6 +1037,7 @@ function renderDashboard() {
       <div class="lesson-card-footer"><div class="progress-track" title="${completed} / ${lesson.questions.length}"><i style="--progress:${percent}%"></i></div><strong>${complete ? "已完成" : `${completed}/${lesson.questions.length}`}</strong><div class="lesson-card-actions"><button class="star-button" type="button" data-toggle-bookmark="${escapeHtml(lesson.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除課題書簽" : "收藏課題"}">${bookmarked ? "★" : "☆"}</button><button class="round-button" type="button" data-open-lesson="${escapeHtml(lesson.id)}" aria-label="開啟 ${escapeHtml(lesson.titleEn)}">→</button></div></div>
     </article>`;
   }).join("");
+  syncExpressionMap();
 }
 
 function openDashboard() {
