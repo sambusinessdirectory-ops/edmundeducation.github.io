@@ -5231,3 +5231,13 @@ button:disabled {
 
 /* Embedded question illustrations, separated from selectable text */
 .dse-paper-facsimile{display:none!important}.dse-paper-illustration{max-width:min(44%,430px);margin:18px 0 18px 24px;padding:10px;border:1px solid #aeb6b3;background:#fff;box-shadow:0 12px 28px #1d35431c}.dse-paper-illustration.is-right{float:right}.dse-paper-illustration.is-left{float:left;margin-left:0;margin-right:24px}.dse-paper-illustration.is-center{float:none;max-width:min(72%,620px);margin:18px auto}.dse-paper-illustration img{display:block;width:100%;height:auto}.dse-paper-illustration figcaption{margin-top:7px;color:#52626c;font:700 11px/1.35 Inter,system-ui,sans-serif;text-align:center}.dse-native-source:after{content:"";display:block;clear:both}@media(max-width:620px){.dse-paper-illustration,.dse-paper-illustration.is-right,.dse-paper-illustration.is-left,.dse-paper-illustration.is-center{float:none;max-width:100%;margin:14px auto}}
+
+/* Source-paper structure, shared by the catalogue and both digital paper modes. */
+.dse-source-heading { margin: 1.1em 0 .4em; font-size: 1.05em; line-height: 1.45; font-weight: 800; color: inherit; }
+.dse-source-heading:first-child { margin-top: 0; }
+.dse-source-table-wrap { max-width: 100%; overflow-x: auto; margin: 1em 0 1.4em; }
+.dse-source-table { width: 100%; border-collapse: collapse; font: inherit; line-height: 1.5; }
+.dse-source-table caption { padding: 0 0 .5em; font-weight: 800; text-align: left; }
+.dse-source-table th, .dse-source-table td { border: 1px solid #a4aaa8; padding: .55em .7em; vertical-align: top; text-align: left; min-width: 7em; }
+.dse-source-table thead { background: #edf1ef; color: #16271f; }
+.dse-source-table tbody th { font-weight: 600; }

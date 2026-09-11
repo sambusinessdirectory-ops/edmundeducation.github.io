@@ -7,6 +7,7 @@
   const DSE_BASE_DATA = window.EDMUND_DSE_SPEAKING_DATA || { years: [], catalog: {}, sets: [] };
   const DSE_SUPPLEMENT = window.EDMUND_DSE_SPEAKING_SUPPLEMENT || { sets: [] };
   const DSE_PAPERS = window.EDMUND_DSE_SPEAKING_PAPERS || {};
+  const DSE_SOURCE = window.EDMUND_DSE_SPEAKING_SOURCE;
   const DSE_ILLUSTRATIONS = window.EDMUND_DSE_SPEAKING_ILLUSTRATIONS || {};
   const DSE_DATA = (() => {
     const keyed = new Map();
@@ -2139,7 +2140,8 @@
     return translation && typeof translation === "object" ? translation : {};
   }
 
-  function dseSourceSegments(value, title = "") {
+  // Retained only to preserve keys for words saved before the source-layout update.
+  function dseLegacySourceSegments(value, title = "") {
     let source = String(value || "").replace(/\s+/g, " ").trim();
     if (title && source.toLocaleLowerCase().startsWith(String(title).toLocaleLowerCase())) {
       source = source.slice(String(title).length).trim();
@@ -2165,11 +2167,12 @@
     return segments;
   }
 
+  function dseSourceSegments(set) {
+    return DSE_SOURCE.segmentsFor(set);
+  }
+
   function dsePlainSourceMarkup(set) {
-    return dseSourceSegments(set?.sourceText, set?.title).map(segment => {
-      if (segment.type === "numbered") return `<ol class="dse-source-numbered">${segment.items.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ol>`;
-      return `<p class="dse-source-paragraph${segment.type === "task" ? " is-task" : ""}">${escapeHtml(segment.text)}</p>`;
-    }).join("");
+    return DSE_SOURCE.render(dseSourceSegments(set), escapeHtml);
   }
 
   function dseSourceCard(set, open = false) {
@@ -2186,11 +2189,11 @@
     return `${Number(set?.year || 0)}:${String(set?.set || "")}`;
   }
 
-  function dsePaperWordMarkup(value, set, scope) {
+  function dsePaperWordMarkup(value, set, scope, sourceWords = null) {
     let wordIndex = 0;
     return (String(value || "").match(WORD_PATTERN) || []).map(token => {
       if (!IS_WORD_PATTERN.test(token)) return escapeHtml(token);
-      const itemKey = `dse-paper:${dsePaperSetKey(set)}:${scope}:${wordIndex++}:${token.toLocaleLowerCase()}`.slice(0, 180);
+      const itemKey = sourceWords ? sourceWords.keys[sourceWords.index++] : `dse-paper:${dsePaperSetKey(set)}:${scope}:${wordIndex++}:${token.toLocaleLowerCase()}`.slice(0, 180);
       const saved = state.dseWordBookmarks.has(itemKey);
       return `<span class="dse-paper-word${saved ? " is-bookmarked" : ""}" role="button" tabindex="0" data-dse-word="${escapeHtml(token)}" data-dse-word-key="${escapeHtml(itemKey)}" aria-pressed="${saved}" title="按一下收藏此字 · Click to bookmark">${escapeHtml(token)}</span>`;
     }).join("");
@@ -2201,11 +2204,12 @@
   }
 
   function dseNativeSourceMarkup(set) {
-    return dseSourceSegments(set?.sourceText, set?.title).map((segment, index) => {
-      const scope = index ? `source-${index}` : "source";
-      if (segment.type === "numbered") return `<ol class="dse-native-source-list">${segment.items.map((item, itemIndex) => `<li>${dsePaperWordMarkup(item, set, `${scope}-item-${itemIndex}`)}</li>`).join("")}</ol>`;
-      return `<p class="dse-native-source-paragraph${segment.type === "task" ? " is-task" : ""}" lang="en">${dsePaperWordMarkup(segment.text, set, scope)}</p>`;
-    }).join("");
+    const segments = dseSourceSegments(set);
+    const sourceWords = {
+      keys: DSE_SOURCE.bookmarkKeys(dseLegacySourceSegments(set?.sourceText, set?.title), segments, dsePaperSetKey(set)),
+      index: 0
+    };
+    return DSE_SOURCE.render(segments, (text, scope) => dsePaperWordMarkup(text, set, scope, sourceWords), true);
   }
 
   function dseNativePaperMarkup(set) {

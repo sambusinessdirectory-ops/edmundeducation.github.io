@@ -276,6 +276,11 @@ jobs:
           node tools/test-email-v2-ui.mjs
           node tools/test-writing-submission-email.mjs
 
+      - name: Validate source paragraphs for all DSE Speaking papers
+        run: |
+          node tools/test-dse-speaking-system.mjs
+          node tools/test-dse-speaking-source-layouts.mjs
+
       - name: Validate Speaking sticky recorder, repeated recordings and private storage
         run: |
           node tools/test-speaking-recorder-workflow.mjs
