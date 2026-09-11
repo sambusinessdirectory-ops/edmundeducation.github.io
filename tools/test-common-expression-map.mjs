@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 import test from 'node:test';
-import { levelPositions, minimumMapScale, restoreMapPreferences } from '../common-expression-map.mjs';
+import { levelPositions, minimumMapScale, restoreMapPreferences, mapPreferenceKey } from '../common-expression-map.mjs';
 import { MASCOT_VIEWS } from '../speaking-mascot-views.mjs';
 const root=path.resolve(import.meta.dirname,'..');
 const window={};
@@ -46,4 +46,11 @@ test('map is the default and only an explicitly saved valid stone restores the s
  assert.deepEqual(restoreMapPreferences(null,{mode:false,character:'phoebe',selected:ids[2]},ids),{mode:true,character:'phoebe',pinned:null});
  assert.deepEqual(restoreMapPreferences({mode:false,character:'elsie',pinned:ids[9]},null,ids),{mode:false,character:'elsie',pinned:ids[9]});
  assert.deepEqual(restoreMapPreferences({character:'unknown',pinned:'not-a-lesson'},null,ids),{mode:true,character:'eddy',pinned:null});
+});
+
+
+test('Writing and Speaking keep separate account preferences even though their lesson IDs match',()=>{
+ assert.equal(mapPreferenceKey('speaking','student-a'),'edmund-expression-meadow-v2:student-a');
+ assert.equal(mapPreferenceKey('written','student-a'),'edmund-lesson-map-v1:written:student-a');
+ assert.notEqual(mapPreferenceKey('written','student-a'),mapPreferenceKey('written','student-b'));
 });

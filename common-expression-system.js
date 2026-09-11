@@ -6,6 +6,7 @@ const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CATALOGUE = window.EDMUND_COMMON_EXPRESSION_DATA || { systems: {} };
 const SYSTEM_KEY = String(BODY.dataset.commonExpressionSystem || "").trim();
 const SYSTEM = CATALOGUE.systems?.[SYSTEM_KEY];
+const HAS_LESSON_MAP = ["speaking", "written"].includes(SYSTEM_KEY);
 
 if (!SYSTEM) throw new Error(`Unknown Common Expression system: ${SYSTEM_KEY || "missing"}`);
 
@@ -418,7 +419,7 @@ function renderAppShell() {
       </section>
       <section class="dashboard-toolbar glass-panel">
         <p>每個課題包括雙語概念、完整用法、重要規則及改寫練習；記錄會跟隨您的學生帳戶。</p>
-        <div class="dashboard-toolbar-actions">${SYSTEM_KEY === "speaking" ? '<button class="secondary-button expression-map-toggle" type="button" data-map-toggle disabled aria-pressed="false" aria-controls="common-expression-meadow">互動地圖 · Interactive map</button>' : ""}<button class="secondary-button" type="button" data-open-bookmarks>☆ 我的書簽</button><button class="secondary-button" type="button" data-toggle-progress aria-expanded="false">查看練習進展</button></div>
+        <div class="dashboard-toolbar-actions">${HAS_LESSON_MAP ? '<button class="secondary-button expression-map-toggle" type="button" data-map-toggle disabled aria-pressed="false" aria-controls="common-expression-meadow">互動地圖 · Interactive map</button>' : ""}<button class="secondary-button" type="button" data-open-bookmarks>☆ 我的書簽</button><button class="secondary-button" type="button" data-toggle-progress aria-expanded="false">查看練習進展</button></div>
       </section>
       <section class="common-progress-panel glass-panel" data-progress-panel hidden>
         <div class="common-progress-heading"><div><p class="eyebrow">LEARNING PROGRESS</p><h2>練習進展</h2><p>查看每日完成題數及練習時間。按圖表上的日期可查看當日詳情。</p></div><a class="secondary-button common-progress-full-link" href="student-progress.html">全面英文能力發展進度表 →</a></div>
@@ -438,7 +439,7 @@ function renderAppShell() {
         </article>
       </section>
       <div class="lesson-grid" data-lesson-grid></div>
-      ${SYSTEM_KEY === "speaking" ? '<section id="common-expression-meadow" data-expression-map hidden aria-label="常用語互動地圖"></section>' : ""}
+      ${HAS_LESSON_MAP ? '<section id="common-expression-meadow" data-expression-map hidden aria-label="常用語互動地圖"></section>' : ""}
     </section>
 
     <section class="view" data-view="lesson" hidden>
@@ -530,15 +531,20 @@ let expressionMap = null;
 let expressionMapModule = null;
 
 function syncExpressionMap() {
-  if (SYSTEM_KEY !== "speaking" || !state.user) return;
-  expressionMapModule ||= import("./common-expression-map.mjs?v=20260911-map2");
-  expressionMapModule.then(({ createExpressionMap }) => {
+  if (!HAS_LESSON_MAP || !SYSTEM.lessons.length || !state.user) return;
+  expressionMapModule ||= Promise.all([
+    import("./common-expression-map.mjs?v=20260912-garden1"),
+    SYSTEM_KEY === "written" ? import("./common-expression-garden.mjs?v=20260912-garden1") : Promise.resolve(null)
+  ]);
+  expressionMapModule.then(([{ createExpressionMap }, garden]) => {
     if (!state.user) return;
     expressionMap ||= createExpressionMap({
       root: document.querySelector("[data-expression-map]"),
       toggle: document.querySelector("[data-map-toggle]"),
       grid: elements.lessonGrid,
       lessons: SYSTEM.lessons,
+      systemKey: SYSTEM_KEY,
+      theme: garden?.WRITTEN_GARDEN,
       getCompleted: completedCount,
       openLesson
     });

@@ -5,15 +5,15 @@ const CHARACTERS = [{ id: 'eddy', name: 'Eddie', flag: '#c84438' }, { id: 'phoeb
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' })[c]);
 const clamp = (n, lo, hi) => Math.min(hi, Math.max(lo, n));
 
-export function levelPositions(lessons) {
+export function levelPositions(lessons, { startY = 200, rowGap = 350 } = {}) {
   return lessons.map((lesson, i) => {
     const row = Math.floor(i / 7), col = row % 2 ? 6 - i % 7 : i % 7;
-    return { id: lesson.id, x: 200 + col * 210, y: 200 + row * 350 + Math.sin(col * 1.15) * 18 };
+    return { id: lesson.id, x: 200 + col * 210, y: startY + row * rowGap + Math.sin(col * 1.15) * 18 };
   });
 }
 
-export function minimumMapScale(width, height) {
-  return Math.max(.7, width / WIDTH, height / HEIGHT);
+export function minimumMapScale(width, height, worldWidth = WIDTH, worldHeight = HEIGHT) {
+  return Math.max(.7, width / worldWidth, height / worldHeight);
 }
 
 export function restoreMapPreferences(current, legacy, lessonIds) {
@@ -24,6 +24,10 @@ export function restoreMapPreferences(current, legacy, lessonIds) {
     character: CHARACTERS.some(c => c.id === chosen) ? chosen : 'eddy',
     pinned: lessonIds.includes(saved.pinned) ? saved.pinned : null
   };
+}
+
+export function mapPreferenceKey(systemKey, owner) {
+  return systemKey === 'speaking' ? `edmund-expression-meadow-v2:${owner}` : `edmund-lesson-map-v1:${systemKey}:${owner}`;
 }
 
 function baseCamp(node) {
@@ -125,8 +129,11 @@ function terrain(nodes, lessons) {
 }
 
 /** Dashboard navigation only. Walking never writes a learning result. */
-export function createExpressionMap({ root, toggle, grid, lessons, getCompleted, openLesson }) {
-  const nodes = levelPositions(lessons);
+export function createExpressionMap({ root, toggle, grid, lessons, getCompleted, openLesson, systemKey = 'speaking', theme = null }) {
+  if (!lessons.length) { root.hidden=true; toggle.hidden=true; grid.hidden=false; return { update(){}, setActive(){}, reset(){}, destroy(){} }; }
+  const WIDTH = theme?.width || 1600, HEIGHT = theme?.height || 1950;
+  const nodes = levelPositions(lessons, theme?.layout);
+  const arrivalId = `expression-map-arrival-${systemKey}`;
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
   const events = new AbortController();
   const images = new Map();
@@ -134,8 +141,8 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   let selected = 0, standing = 0, character = 'eddy', scale = .8, zoom = 1, visible = false;
   let viewport, world, space, horse, shadow, picker, status, popup, flag, pinButton, statusTimer, frame = 0, lastFrame = 0;
   let position = { ...nodes[0] }, journey = null, angle = 0, keys = new Set(), lastFacing = 0;
-  let resizeObserver, intersectObserver, drag = null, suppressClickUntil = 0, imageFailure = false;
-  const storageKey = () => `edmund-expression-meadow-v2:${owner}`;
+  let sceneAnimation, resizeObserver, intersectObserver, drag = null, suppressClickUntil = 0, imageFailure = false;
+  const storageKey = () => mapPreferenceKey(systemKey, owner);
   const on = (element, type, callback, opts = {}) => element.addEventListener(type, callback, { ...opts, signal: events.signal });
   const save = () => { try { localStorage.setItem(storageKey(), JSON.stringify({ mode, character, pinned })); return true; } catch { return false; } };
   const loadImage = id => {
@@ -213,13 +220,18 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     positionPopup();
   }
   function moveTo(target) {
-    leaveStone();
     const destination={ x:clamp(target.x,60,WIDTH-60), y:clamp(target.y,180,HEIGHT-65) };
-    const dx=destination.x-position.x, dy=destination.y-position.y;
+    const waypoints=theme?.navigation?.path(position,destination) ?? (theme?.navigation ? null : [destination]);
+    if(!waypoints) return;
+    leaveStone();
+    const points=[{...position},...waypoints];
+    const lengths=waypoints.map((p,i)=>Math.hypot(p.x-points[i].x,p.y-points[i].y));
+    const distance=lengths.reduce((sum,n)=>sum+n,0);
+    const dx=waypoints[0].x-position.x, dy=waypoints[0].y-position.y;
     angle=(Math.atan2(dx,dy)*180/Math.PI+360)%360;
     lastFacing=angle;
     if(reduced.matches || Math.hypot(dx,dy)<2) { position=destination; journey=null; settleArrival(); drawHorse(performance.now(),false); return; }
-    journey={ from:{...position}, to:destination, started:performance.now(), duration:clamp(Math.hypot(dx,dy)/.3,250,3200) };
+    journey={ from:{...position}, to:destination, started:performance.now(), points, lengths, distance, duration:clamp(distance/.3,250,3200) };
     startAnimation();
   }
   function centerOn(point, smooth=false) {
@@ -229,7 +241,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   function setScale(nextZoom, point) {
     const anchor=point || {x:(viewport.scrollLeft+viewport.clientWidth/2)/scale,y:(viewport.scrollTop+viewport.clientHeight*.4)/scale};
     zoom=clamp(Math.round(nextZoom*100)/100,1,2);
-    scale=minimumMapScale(viewport.clientWidth,viewport.clientHeight)*zoom;
+    scale=minimumMapScale(viewport.clientWidth,viewport.clientHeight,WIDTH,HEIGHT)*zoom;
     space.style.width=`${WIDTH*scale}px`; space.style.height=`${HEIGHT*scale}px`;
     world.style.transform=`scale(${scale})`;
     root.querySelector('[data-zoom="out"]').disabled=zoom<=1;
@@ -293,9 +305,10 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     updateFlag();
     positionPopup();
   }
-  function stopAnimation() { cancelAnimationFrame(frame); frame=0; lastFrame=0; keys.clear(); }
+  function stopAnimation() { root.dataset.animating='false'; cancelAnimationFrame(frame); frame=0; lastFrame=0; keys.clear(); }
   function startAnimation() {
     if(frame || !active || !mode || !visible || document.hidden) return;
+    root.dataset.animating=String(!reduced.matches);
     frame=requestAnimationFrame(animate);
   }
   function animate(time) {
@@ -308,30 +321,40 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
       const dy=Number(keys.has('ArrowDown')||keys.has('s'))-Number(keys.has('ArrowUp')||keys.has('w'));
       if(dx||dy) {
         journey=null; if(standing>=0)leaveStone(); const length=Math.hypot(dx,dy);
-        position.x=clamp(position.x+dx/length*dt*.31,60,WIDTH-60); position.y=clamp(position.y+dy/length*dt*.31,180,HEIGHT-65);
+        const step={x:clamp(position.x+dx/length*dt*.31,60,WIDTH-60), y:clamp(position.y+dy/length*dt*.31,180,HEIGHT-65)};
+        position=theme?.navigation?.step(position,step) || step;
         angle=(Math.atan2(dx,dy)*180/Math.PI+360)%360; walking=true; lastFacing=angle;
         if(position.x*scale<viewport.scrollLeft+80 || position.x*scale>viewport.scrollLeft+viewport.clientWidth-80 || position.y*scale<viewport.scrollTop+110 || position.y*scale>viewport.scrollTop+viewport.clientHeight-80) centerOn(position);
       }
     } else if(journey) {
       const t=clamp((time-journey.started)/journey.duration,0,1);
-      position.x=journey.from.x+(journey.to.x-journey.from.x)*t; position.y=journey.from.y+(journey.to.y-journey.from.y)*t;
+      let travelled=t*journey.distance, segment=0;
+      while(segment<journey.lengths.length-1 && travelled>journey.lengths[segment]) {travelled-=journey.lengths[segment];segment++;}
+      const a=journey.points[segment], b=journey.points[segment+1], fraction=journey.lengths[segment]?Math.min(1,travelled/journey.lengths[segment]):1;
+      position={x:a.x+(b.x-a.x)*fraction,y:a.y+(b.y-a.y)*fraction};
+      angle=(Math.atan2(b.x-a.x,b.y-a.y)*180/Math.PI+360)%360;
       walking=t<1;
       if(journey.follow) centerOn(position);
       if(t===1) { journey=null; settleArrival(); }
     }
+    sceneAnimation?.draw(time);
     drawHorse(time,walking);
     if(!reduced.matches || walking || journey || keys.size) startAnimation();
   }
   function build() {
     if(built) return;
     root.className='expression-map';
-    root.innerHTML=`<header class="expression-map-header"><div class="expression-map-heading"><p>THE EXPRESSION MEADOW</p><h2>常用語探索之旅<small>${lessons.length} 個課題 · 全部開放</small></h2></div><fieldset class="expression-map-characters"><legend>選擇同行角色 · Your companion</legend>${CHARACTERS.map(c=>`<button class="expression-map-character" type="button" data-character="${c.id}" aria-pressed="${c.id===character}"><canvas width="74" height="96" aria-hidden="true"></canvas>${c.name}</button>`).join('')}</fieldset></header>
+    root.dataset.theme=theme?.id || 'meadow';
+    root.dataset.animating='false';
+    root.innerHTML=`<header class="expression-map-header"><div class="expression-map-heading"><p>${escape(theme?.kicker || 'THE EXPRESSION MEADOW')}</p><h2>${escape(theme?.title || '常用語探索之旅')}<small>${lessons.length} 個課題 · 全部開放</small></h2></div><fieldset class="expression-map-characters"><legend>選擇同行角色 · Your companion</legend>${CHARACTERS.map(c=>`<button class="expression-map-character" type="button" data-character="${c.id}" aria-pressed="${c.id===character}"><canvas width="74" height="96" aria-hidden="true"></canvas>${c.name}</button>`).join('')}</fieldset></header>
     <div class="expression-map-tools"><label class="expression-map-picker"><span>前往課題</span><select aria-label="前往課題 · Choose any lesson">${lessons.map(l=>`<option value="${escape(l.id)}">${String(l.order).padStart(2,'0')} · ${escape(l.titleEn)}</option>`).join('')}</select></label><div class="expression-map-zoom" aria-label="地圖大小"><button type="button" data-zoom="out" aria-label="縮小地圖至標準大小">−</button><button type="button" data-zoom="in" aria-label="放大地圖">＋</button><button type="button" data-save-location aria-pressed="false" aria-label="定位：儲存腳下的石階作為下次登入的起點">定位</button></div></div>
-    <div class="expression-map-stage"><div class="expression-map-viewport" tabindex="0" role="region" aria-label="常用語課題地圖；拖動探索，點選石階選擇課題。可用方向鍵或 WASD 走動。"><div class="expression-map-space"><div class="expression-map-world">${terrain(nodes,lessons)}${nodes.map((p,i)=>`<button type="button" class="expression-map-stone" data-map-level="${i}" style="left:${p.x}px;top:${p.y}px" aria-pressed="false" aria-expanded="false" aria-controls="expression-map-arrival"><span class="expression-map-stone-number">${String(lessons[i].order).padStart(2,'0')}</span><span class="expression-map-stone-caption">${escape(lessons[i].titleEn)}</span><span class="expression-map-stone-status"></span></button>`).join('')}<svg class="expression-map-flag" width="57" height="100" viewBox="0 0 57 100" role="img" hidden><ellipse cx="7" cy="95" rx="7" ry="3" fill="#355530" opacity=".25"/><path d="M7 95V5" stroke="#786b46" stroke-width="4" stroke-linecap="round"/><circle cx="7" cy="5" r="4" fill="#e4d091"/><path class="expression-map-flag-cloth" d="M9 9Q28 3 50 11L44 25L50 40Q30 31 9 39Z" fill="var(--flag-color)" stroke="#fff1ca" stroke-width="1.5"/></svg><span class="expression-map-shadow"></span><canvas class="expression-map-horse" width="272" height="330" role="img" aria-label="Eddie"></canvas></div></div></div>
-    <article id="expression-map-arrival" class="expression-map-lesson-card" role="region" aria-label="石階課題" hidden><div class="expression-map-selected"><span class="expression-map-selected-number" data-map-number></span><div class="expression-map-selected-copy"><h3 data-map-title></h3><p data-map-description></p></div><button class="expression-map-open" type="button" data-map-open><span>進入課題<small>Explore lesson</small></span><span aria-hidden="true">→</span></button></div></article></div>
+    <div class="expression-map-stage"><div class="expression-map-viewport" tabindex="0" role="region" aria-label="常用語課題地圖；拖動探索，點選石階選擇課題。可用方向鍵或 WASD 走動。"><div class="expression-map-space"><div class="expression-map-world">${theme ? theme.terrain(nodes,lessons) : terrain(nodes,lessons)}${nodes.map((p,i)=>`<button type="button" class="expression-map-stone" data-map-level="${i}" style="left:${p.x}px;top:${p.y}px" aria-pressed="false" aria-expanded="false" aria-controls="${arrivalId}"><span class="expression-map-stone-number">${String(lessons[i].order).padStart(2,'0')}</span><span class="expression-map-stone-caption">${escape(lessons[i].titleEn)}</span><span class="expression-map-stone-status"></span></button>`).join('')}<svg class="expression-map-flag" width="57" height="100" viewBox="0 0 57 100" role="img" hidden><ellipse cx="7" cy="95" rx="7" ry="3" fill="#355530" opacity=".25"/><path d="M7 95V5" stroke="#786b46" stroke-width="4" stroke-linecap="round"/><circle cx="7" cy="5" r="4" fill="#e4d091"/><path class="expression-map-flag-cloth" d="M9 9Q28 3 50 11L44 25L50 40Q30 31 9 39Z" fill="var(--flag-color)" stroke="#fff1ca" stroke-width="1.5"/></svg><span class="expression-map-shadow"></span><canvas class="expression-map-horse" width="272" height="330" role="img" aria-label="Eddie"></canvas></div></div></div>
+    ${theme?.overlay || ''}<article id="${arrivalId}" class="expression-map-lesson-card" role="region" aria-label="石階課題" hidden><div class="expression-map-selected"><span class="expression-map-selected-number" data-map-number></span><div class="expression-map-selected-copy"><h3 data-map-title></h3><p data-map-description></p></div><button class="expression-map-open" type="button" data-map-open><span>進入課題<small>Explore lesson</small></span><span aria-hidden="true">→</span></button></div></article></div>
     <footer class="expression-map-footer"><p class="expression-map-message" role="status" aria-live="polite" hidden></p><div class="expression-map-legend"><span>未完成</span><span>已完成</span></div><span class="expression-map-desktop-hint">拖動地圖探索 · 方向鍵 / WASD 走動</span></footer>`;
     viewport=root.querySelector('.expression-map-viewport'); world=root.querySelector('.expression-map-world'); space=root.querySelector('.expression-map-space'); horse=root.querySelector('.expression-map-horse'); shadow=root.querySelector('.expression-map-shadow'); picker=root.querySelector('select'); status=root.querySelector('[role=status]');popup=root.querySelector('.expression-map-lesson-card');flag=root.querySelector('.expression-map-flag');pinButton=root.querySelector('[data-save-location]');
     built=true;
+    world.style.width=`${WIDTH}px`; world.style.height=`${HEIGHT}px`;
+    sceneAnimation=theme?.mount?.(root,reduced);
     CHARACTERS.forEach(c=>loadImage(c.id));
     on(root,'click',event=>{
       if(performance.now()<suppressClickUntil && viewport.contains(event.target)) { event.preventDefault(); return; }
@@ -405,7 +428,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
       if(owner!==userId) {
         owner=userId;
         let current, legacy;
-        try {current=JSON.parse(localStorage.getItem(storageKey())||'null');legacy=JSON.parse(localStorage.getItem(`edmund-expression-meadow-v1:${owner}`)||'null');} catch {current=null;legacy=null;}
+        try {current=JSON.parse(localStorage.getItem(storageKey())||'null');legacy=systemKey === 'speaking' ? JSON.parse(localStorage.getItem(`edmund-expression-meadow-v1:${owner}`)||'null') : null;} catch {current=null;legacy=null;}
         const preference=restoreMapPreferences(current,legacy,nodes.map(n=>n.id));
         mode=preference.mode;character=preference.character;pinned=preference.pinned;
         selected=Math.max(0,nodes.findIndex(p=>p.id===pinned));standing=selected;position={...nodes[selected]};journey=null;
@@ -416,6 +439,6 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     },
     setActive(value) { active=value; if(value) startAnimation();else {stopAnimation();if(journey){position={...journey.to};journey=null;settleArrival();}} },
     reset() { active=false; owner=''; mode=false; stopAnimation();clearTimeout(statusTimer);grid.hidden=false;root.hidden=true; },
-    destroy() { stopAnimation();clearTimeout(statusTimer);events.abort();resizeObserver?.disconnect();intersectObserver?.disconnect();root.replaceChildren(); }
+    destroy() { stopAnimation();clearTimeout(statusTimer);events.abort();sceneAnimation?.destroy();resizeObserver?.disconnect();intersectObserver?.disconnect();root.replaceChildren(); }
   };
 }

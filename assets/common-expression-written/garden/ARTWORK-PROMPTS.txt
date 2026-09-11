@@ -1,0 +1,52 @@
+Generated using built-in image_gen. Exactly one request per asset; no retries or variants.
+
+BACKGROUND PROMPT
+Use case: stylized-concept
+Asset type: production 2D cozy garden game BACKGROUND only, portrait artwork at 1600 x 1950 pixels.
+Primary request: A beautiful softly painted cherry blossom garden viewed from a slightly elevated isometric/top-down storybook game camera. Match a polished hand-painted children's exploration game: creamy pastel pink blossoms, light sage and yellow-green grass, soft blue water, warm brown wood, painterly small flower textures, gentle sunny daylight, charming illustrated surfaces, crisp enough for a full-screen game.
+Composition: Broad continuous grassy meadow occupies almost the entire middle and lower field, deliberately open for interactive overlays. Keep open horizontal meadow bands spanning x=180 to x=1420 at y=300,630,960,1290,1620; these will carry five rows of live lesson objects. Do not paint the lesson objects. In the spaces between these bands only, include a few restrained low flowerbeds. Surround the edges with small blossom shrubs and banks of pink and white flowers, with plenty of meadow remaining.
+Top 15 percent: a small wooden garden bench at upper left, a pink-and-white picnic blanket with basket near the top, and a soft blue stream with a small arched wooden footbridge across it near the upper right. Fit these details above the first open band.
+Lower-right corner: a pond enclosed by natural banks at approximately x=1100..1580, y=1690..1950, with clear open water. No ducks or birds in the pond. Very sparse fallen pink petals can be on the grass. It is a coherent garden landscape, with subtle ambient grounded shadows.
+Constraints: Artwork only. No interface, no labels, no letters, no text, no numbers, no watermark, no frame. Absolutely no paths, walkways, lesson discs, stepping stones, horses, people, animals, buildings or large full trees. No tall tree trunks or full tree crowns: those will be animated separately. Small flowering shrubs are welcome. Keep the central meadow generously clear and soft. Portrait 1600x1950.
+
+SPRITE SHEET PROMPT
+Use case: stylized-concept
+Asset type: production game sprite sheet, PNG with genuine transparent alpha background, 1536 x 1024 pixels.
+Primary request: Six separate cozy garden game objects arranged in a STRICT 3 columns by 2 rows equal-cell sprite grid. Each cell is 512x512. Every sprite fully contained within its cell with generous transparent padding on all sides, including top and bottom; no sprite or shadow may cross a cell boundary. NO visible grid lines, labels, text, numbers, backdrop, checkerboard drawing, or watermark. The background must be genuinely transparent alpha, including between sprites.
+Style/medium: polished softly hand-painted storybook game art, slightly elevated garden viewpoint, warm subtle shadows attached to objects only, light creamy pink and sage palette, gentle sunny daylight, soft dimensional painterly texture. This is a sheet of isolated usable game sprites, not an interface or scene.
+CELL 1, top-left: One complete full cherry blossom tree with a graceful dark brown trunk and abundant pale pink flowering crown. Entire crown, branches, trunk and tiny grassy root base visible. Centered tree rooted near bottom of cell with roomy padding. No other tree.
+CELL 2, top-middle: One small warm welcoming garden cottage with a cozy roof, golden cream walls, wooden door and a pale pink cherry-blossom porch. Whole compact cottage fully visible and centered with generous padding.
+CELL 3, top-right: One single flat oval pale pink granite stepping stone in slight top-down perspective, moss along its edges, a subtle engraved blossom motif near an edge, and a large plain clear central area reserved for a future number. Absolutely NO numeral, letter or text on it. Centered, generous padding.
+CELL 4, bottom-left: One small white pond duck in side view facing RIGHT with orange beak on the right, eye OPEN, cream feather shading, gentle rounded body and orange tucked feet. No water or pond. Centered with generous padding, full duck visible.
+CELL 5, bottom-middle: An identical copy of the duck in cell 4: same scale, same pose, facing RIGHT, beak on the right, same colors and silhouette; only difference is its eye CLOSED as a single gentle curved eyelid for a blinking animation. No water or pond. Centered with identical positioning relative to cell.
+CELL 6, bottom-right: One charming small garden camping tent as a milestone object, warm cream canvas and muted pink accents, open welcoming triangular entrance, subtle green grassy grounding and tiny blossom decoration, matching the same painterly garden style. Whole tent centered with generous padding.
+Constraints: Genuine transparent PNG alpha. Strict 3x2 sheet; exactly six isolated objects in that order. No UI, no text, no numbers, no horses, no characters. Objects must never touch cell boundaries. Match lighting and painterly style across all six cells. 1536x1024.
+PETAL PROMPT (additional single built-in image_gen call; no variants)
+Use case: stylized-concept
+Asset type: production 2D garden game sprite, PNG with genuine transparent alpha background.
+Primary request: Exactly one isolated cherry blossom petal, pale blush pink with soft painterly shading, centered with generous transparent padding on every side. A naturally curved delicate sakura petal, softly tapered at its base and with a tiny subtle notch at its rounded tip, drifting diagonally gently downward as if carried on a breeze. The entire petal is fully visible and occupies about half the canvas width and half the canvas height.
+Style: polished softly hand-painted storybook garden game artwork, creamy pastel pink, gentle sunny highlights, delicate organic edge and dimensional color shading.
+Constraints: Actual transparency, not a white background or checkerboard illustration. One single petal only. No text, no labels, no flowers, no branches, no other petals, no backdrop, no frame, no watermark, no cast shadow. Roomy padding. Square 1024x1024 PNG.
+
+DUCK DIRECTIONS PROMPT (additional single built-in image_gen call; no variants)
+Use case: stylized-concept
+Asset type: production 2D swimming duck animation SPRITE SHEET, genuine transparent RGBA PNG, landscape 2048x1536.
+Primary request: Exactly TWELVE individual frames of one consistent charming white garden duck, in a STRICT 4-column x 3-row equal-square-cell grid. Each tile is 512x512. No visible grid. Every duck fully contained in its tile with roomy transparent margins, consistently centered at x=256 and with its waterline at y=380 relative to that tile. Same duck scale, same camera elevation, same lighting across all twelve frames. Duck lower body is partly submerged: show ONLY its rounded body above a clean invisible waterline, head, curved neck, wings and short upturned tail. NO legs or feet anywhere. No water drawn; it will be composited into a pond.
+Duck identity/style: Sweet softly painted storybook garden duck, white and warm ivory feathers with delicate cream brush texture, rounded head, expressive small dark eyes, short rich orange beak, rounded floating body and softly layered wing feathers. Polished dimensional painted game art with gentle sunny lighting from upper left. Keep coherent lighting across rotation so these are genuine distinct views of a three-dimensional duck, not mirrored sprites. Camera looks slightly down at the duck swimming on a horizontal plane.
+Exact frame order, read left to right:
+ROW 1:
+1. FRONT, swimming TOWARD CAMERA and toward bottom of screen, 0 degrees. Face head-on, both eyes, centered foreshortened beak, body extends behind neck.
+2. FRONT THREE-QUARTER, swimming diagonally toward BOTTOM-RIGHT, 45 degrees. Foreshortened face and body, beak aimed southeast.
+3. TRUE RIGHT SIDE PROFILE, swimming RIGHT, 90 degrees. Beak points right, tail on left.
+4. REAR THREE-QUARTER, swimming diagonally AWAY toward TOP-RIGHT, 135 degrees. View mainly the duck's back, tail nearest camera, back of neck and partially visible rightward beak, head points northeast.
+ROW 2:
+5. BACK, swimming straight AWAY toward TOP, 180 degrees. View back of head, back of neck, symmetrical back and tail nearest camera. No visible face, eyes or beak.
+6. REAR THREE-QUARTER, swimming diagonally AWAY toward TOP-LEFT, 225 degrees. View mainly back, tail nearest camera, back of neck and partially visible leftward beak, head points northwest.
+7. TRUE LEFT SIDE PROFILE, swimming LEFT, 270 degrees. Beak points left, tail on right. Draw a real left-facing view with consistent upper-left illumination, do not horizontally mirror frame 3.
+8. FRONT THREE-QUARTER, swimming diagonally toward BOTTOM-LEFT, 315 degrees. Foreshortened face and body, beak aimed southwest.
+ROW 3, blink frames:
+9. Exact same FRONT view and position as frame 1, only eyes gently CLOSED.
+10. Exact same RIGHT PROFILE view and position as frame 3, only visible eye gently CLOSED.
+11. Exact same BACK view and position as frame 5, eyes remain hidden behind head, identical silhouette and placement.
+12. Exact same LEFT PROFILE view and position as frame 7, only visible eye gently CLOSED.
+Critical requirements: Eight different open-eye directional rotations in the first eight tiles, each unmistakably correct direction; four matching closed-eye frames in last row. No duplicate angles among first eight tiles. No horizontal mirroring, no rotating a flat sprite in the image plane. This is a proper character turnaround. Do not show any legs, feet, grass, rocks, ground, pond, water, ripple, wake, splash, cast shadow or background. Duck's submerged underside ends near its floating waterline; no dangling appendages. True transparency outside each duck silhouette, not white, black, colored or a painted checkerboard. No text, labels, numbers, arrows, watermark or borders. Exactly 4x3 equal square cells at 2048x1536.

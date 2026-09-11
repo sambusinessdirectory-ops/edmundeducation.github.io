@@ -1,4 +1,4 @@
-/* The meadow is confined to the Speaking dashboard. */
+/* Shared navigation for the Speaking meadow and Written blossom garden. */
 .expression-map-toggle { display:flex; align-items:center; justify-content:center; gap:9px; background:#214f3d; color:#fffbee; border-color:#214f3d; }
 .expression-map-toggle:hover { background:#163e2e; color:#fffbee; }
 .expression-map-toggle svg { width:21px; height:21px; }
@@ -85,3 +85,5 @@
 @keyframes expression-flag-plant { from { opacity:0; transform:translateY(-12px); } to { opacity:1; transform:translateY(0); } }
 @keyframes expression-chimney { 0%,100% { opacity:.3; transform:translateY(1px); } 50% { opacity:.65; transform:translateY(-5px); } }
 @media (prefers-reduced-motion:reduce) { .expression-map * { scroll-behavior:auto!important; transition:none!important; animation:none!important; } }
+
+.expression-map[data-animating="false"] * { animation-play-state:paused!important; }
