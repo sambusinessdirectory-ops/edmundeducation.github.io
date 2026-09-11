@@ -1,4 +1,4 @@
-import { createWritingEmailPreferences, feedbackPublicationMessage } from "./writing-email-preferences.mjs?v=20260911-email1";
+import { createWritingEmailPreferences, feedbackPublicationMessage } from "./writing-email-preferences.mjs?v=20260911-collapse1";
 import { PAPER3_WRITING_TOPICS, paper3Topic, paper3TopicRoute } from './paper3-writing-topics.mjs?v=20260906-classroom2';
 import {
   completedWritingSegments,
@@ -79,7 +79,7 @@ import {
 } from "./writing-submission-proofreading.mjs?v=20260814-1";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
-const emailPreferences = createWritingEmailPreferences({ host: document.querySelector('[data-writing-email-preferences]'), request: (...args) => apiJson(...args), accountKey: () => state.user?.role === 'student' ? state.authToken : null });
+const emailPreferences = createWritingEmailPreferences({ host: document.querySelector('[data-writing-email-preferences]'), request: (...args) => apiJson(...args), accountKey: () => state.user?.role === 'student' ? state.authToken : null, preferenceOwner: () => state.user?.id || '' });
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-writing-submission-session-v1";
 const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";

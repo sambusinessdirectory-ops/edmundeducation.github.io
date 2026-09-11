@@ -1712,3 +1712,8 @@ body.writing-feedback-fullscreen { overflow: hidden; }
 .writing-email-consent input{width:20px;height:20px;flex:none}
 .writing-email-actions{display:flex;flex-wrap:wrap;gap:.75rem}
 [data-writing-email-preferences]:empty{display:none}
+
+.writing-email-preference summary::-webkit-details-marker{display:none}
+.writing-email-preference summary::marker{content:''}
+.writing-email-preference summary .writing-email-toggle{display:inline-grid;place-items:center;flex:none;margin-left:auto;width:36px;height:36px;border:1px solid rgba(255,255,255,.35);border-radius:50%;font:700 24px/1 system-ui,sans-serif;opacity:1}
+.writing-email-preference summary:focus-visible{outline:2px solid var(--orange);outline-offset:6px;border-radius:6px}
