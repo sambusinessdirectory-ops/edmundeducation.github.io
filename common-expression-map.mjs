@@ -235,7 +235,8 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     startAnimation();
   }
   function centerOn(point, smooth=false) {
-    viewport.scrollTo({left:point.x*scale-viewport.clientWidth/2,top:point.y*scale-viewport.clientHeight*.4,behavior:smooth?'smooth':'instant'});
+    const top=theme?.cameraTop?.({point,scale,height:viewport.clientHeight,zoom}) ?? point.y*scale-viewport.clientHeight*.4;
+    viewport.scrollTo({left:point.x*scale-viewport.clientWidth/2,top,behavior:smooth?'smooth':'instant'});
     positionPopup();
   }
   function setScale(nextZoom, point) {

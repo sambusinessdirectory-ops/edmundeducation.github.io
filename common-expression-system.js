@@ -6,7 +6,7 @@ const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CATALOGUE = window.EDMUND_COMMON_EXPRESSION_DATA || { systems: {} };
 const SYSTEM_KEY = String(BODY.dataset.commonExpressionSystem || "").trim();
 const SYSTEM = CATALOGUE.systems?.[SYSTEM_KEY];
-const HAS_LESSON_MAP = ["speaking", "written"].includes(SYSTEM_KEY);
+const HAS_LESSON_MAP = ["speaking", "written", "rhetorical-speaking"].includes(SYSTEM_KEY);
 
 if (!SYSTEM) throw new Error(`Unknown Common Expression system: ${SYSTEM_KEY || "missing"}`);
 
@@ -533,10 +533,11 @@ let expressionMapModule = null;
 function syncExpressionMap() {
   if (!HAS_LESSON_MAP || !SYSTEM.lessons.length || !state.user) return;
   expressionMapModule ||= Promise.all([
-    import("./common-expression-map.mjs?v=20260912-garden1"),
-    SYSTEM_KEY === "written" ? import("./common-expression-garden.mjs?v=20260912-garden1") : Promise.resolve(null)
+    import("./common-expression-map.mjs?v=20260912-coast1"),
+    SYSTEM_KEY === "written" ? import("./common-expression-garden.mjs?v=20260912-garden1") :
+    SYSTEM_KEY === "rhetorical-speaking" ? import("./common-expression-coast.mjs?v=20260912-coast1") : Promise.resolve(null)
   ]);
-  expressionMapModule.then(([{ createExpressionMap }, garden]) => {
+  expressionMapModule.then(([{ createExpressionMap }, scene]) => {
     if (!state.user) return;
     expressionMap ||= createExpressionMap({
       root: document.querySelector("[data-expression-map]"),
@@ -544,7 +545,7 @@ function syncExpressionMap() {
       grid: elements.lessonGrid,
       lessons: SYSTEM.lessons,
       systemKey: SYSTEM_KEY,
-      theme: garden?.WRITTEN_GARDEN,
+      theme: scene?.WRITTEN_GARDEN || scene?.RHETORICAL_COAST,
       getCompleted: completedCount,
       openLesson
     });

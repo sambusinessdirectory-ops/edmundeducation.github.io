@@ -1,0 +1,53 @@
+/* Mediterranean skin. All foliage, including grass tufts, is independently layered. */
+.expression-map[data-theme="mediterranean"] { --forest:#244f55;--cream:#fff8e7;border-color:#becdc6; }
+[data-theme="mediterranean"] .expression-map-header { background:linear-gradient(110deg,#fff8e5,#ecf2eb); }
+[data-theme="mediterranean"] .expression-map-heading p { color:#687482; }
+[data-theme="mediterranean"] .expression-map-heading h2 small { color:#5b6b57; }
+[data-theme="mediterranean"] .expression-map-tools { background:#fffaf0;border-color:#587f8133; }
+[data-theme="mediterranean"] .expression-map-character[aria-pressed=true] { background:#e7ece0;border-color:#647c72;box-shadow:inset 0 0 0 1px #647c72; }
+[data-theme="mediterranean"] .expression-map-viewport { background:#d8d3a1;scrollbar-color:#688d91 #e9e2c7; }
+.coast-scenery,.coast-background,.coast-route { position:absolute;inset:0;width:100%;height:100%;pointer-events:none; }
+.coast-scenery { overflow:hidden; }
+.coast-background { object-fit:fill; }
+.coast-prop,.coast-foliage,.coast-pot { display:block;width:100%;height:100%;overflow:hidden;pointer-events:none; }
+.coast-plant { position:absolute;transform:translate(-50%,-100%);pointer-events:none; }
+.coast-foliage { transform-origin:50% 98%;animation:coast-plant-breeze var(--duration) ease-in-out var(--delay) infinite var(--direction); }
+.coast-potted .coast-pot { position:absolute;inset:50% 0 0;height:50%; }
+.coast-potted .coast-foliage { position:absolute;left:0;top:0;height:60%; }
+.coast-boat,.coast-cloud { position:absolute;pointer-events:none; }
+.coast-boat { animation:coast-boat-drift var(--duration) ease-in-out var(--delay) infinite alternate; }
+.coast-boat .coast-prop { animation:coast-boat-float 9s ease-in-out var(--delay) infinite alternate;transform-origin:50% 83%; }
+.coast-cloud { animation:coast-cloud-drift var(--duration) ease-in-out var(--delay) infinite alternate;opacity:.86; }
+
+.coast-milestone { position:absolute;width:92px;height:110px;transform:translate(-50%,-66%); }
+
+.coast-milestone b { position:absolute;left:30px;top:41px;width:40px;text-align:center;color:#38666b;font:700 18px Georgia,serif; }
+[data-theme="mediterranean"] .expression-map-stone::before { display:none; }
+.coast-stone-art { position:absolute;width:138px;height:94px;left:21px;top:-16px;pointer-events:none;filter:drop-shadow(0 6px 3px #354d4540);overflow:hidden; }
+[data-theme="mediterranean"] .expression-map-stone[aria-pressed=true] .coast-stone-art { filter:drop-shadow(0 0 3px #fffce8) drop-shadow(0 0 6px #fffbe5); }
+[data-theme="mediterranean"] .expression-map-stone:hover .coast-stone-art { filter:brightness(1.06) drop-shadow(0 6px 3px #354d4540); }
+[data-theme="mediterranean"] .expression-map-stone[data-complete=true] .coast-stone-art { filter:sepia(.13) hue-rotate(35deg) drop-shadow(0 6px 3px #354d4540); }
+[data-theme="mediterranean"] .expression-map-stone[data-arrived=true] .coast-stone-art { animation:expression-stone-land 380ms ease-out; }
+[data-theme="mediterranean"] .expression-map-stone-number { top:10px;color:#244f55;font-size:30px; }
+[data-theme="mediterranean"] .expression-map-stone-status { top:47px;right:14px;background:#fff8e6;color:#2d5c5c;border:1px solid #c2cbb9; }
+[data-theme="mediterranean"] .expression-map-stone[data-complete=true] .expression-map-stone-status { background:#496f54;color:#fffbed;border-color:#d7edce; }
+[data-theme="mediterranean"] .expression-map-stone-caption { top:85px;color:#254e51;background:linear-gradient(140deg,#fffbedf5,#f4ead3f2);border-color:#d7cdb3;box-shadow:0 3px 8px #6655371c; }
+[data-theme="mediterranean"] .expression-map-lesson-card { border-color:#9fb9b5;background:linear-gradient(125deg,#fffbed,#f0f2e9); }
+[data-theme="mediterranean"] .expression-map-lesson-card::before { background:#fffbed;border-color:#9fb9b5; }
+[data-theme="mediterranean"] .expression-map-open { background:#315f63;border-color:#254b51;box-shadow:0 4px 0 #24434b; }
+[data-theme="mediterranean"] .expression-map-selected-number { background:#315f63; }
+[data-theme="mediterranean"] .expression-map-legend span::before { background:#ddd0a9;border-color:#9da699; }
+[data-theme="mediterranean"] .expression-map-legend span:last-child::before { background:#496f54;border-color:#496f54; }
+[data-theme="mediterranean"] .expression-map-flag-cloth { animation:none; }
+.coast-flag-sail { transform-origin:9px 25px;animation:coast-pennant 5s ease-in-out infinite alternate; }
+.coast-leaves { position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:6;container-type:size; }
+.coast-leaf { position:absolute;top:-35px;left:var(--start);width:var(--size);height:var(--size);opacity:0;animation:coast-leaf-fall var(--duration) linear var(--delay) infinite; }
+
+
+@keyframes coast-plant-breeze { 0%,100% { transform:rotate(var(--a)); } 27% { transform:rotate(var(--b)); } 61% { transform:rotate(var(--c)); } 83% { transform:rotate(calc(var(--a) * .4)); } }
+@keyframes coast-boat-drift { from { transform:translate(-24px,0); } to { transform:translate(24px,2px); } }
+@keyframes coast-boat-float { from { transform:rotate(-.5deg) translateY(0); } to { transform:rotate(.5deg) translateY(1.2px); } }
+@keyframes coast-cloud-drift { from { transform:translateX(-28px); } to { transform:translateX(28px); } }
+@keyframes coast-pennant { from { transform:skewY(-1.4deg) scaleX(.98); } to { transform:skewY(1.4deg) scaleX(1); } }
+@keyframes coast-leaf-fall { 0% { opacity:0;transform:translate(0,-20px) rotate(-15deg); } 12% { opacity:.64; } 50% { transform:translate(calc(var(--drift) * .43),49cqh) rotate(105deg); } 87% { opacity:.54; } 100% { opacity:0;transform:translate(var(--drift),calc(100cqh + 50px)) rotate(230deg); } }
+@media (prefers-reduced-motion:reduce) { .coast-leaves { display:none; } }
