@@ -16,9 +16,9 @@ files, so iPhone, Android and desktop users hear the same voice.
 | MP3 compression level | `0.55` |
 | Writing sentence pause | `0.45` seconds |
 | Writing paragraph pause | `0.72` seconds |
-| Word timing | Sentence-boundary weighted alignment (`sentence-weighted-v1`) |
-| Audio build version | Flashcards `v1`; writing essays `v4` |
-| Generator runtime | `kokoro-onnx==0.5.0`, `numpy==2.5.1`, `soundfile==0.14.0` |
+| Word timing | Audio-derived alignment (`faster-whisper-base.en-audio-v1`) |
+| Audio build version | Flashcards `v1`; writing essays `v5` |
+| Generator runtime | `kokoro-onnx==0.5.0`, `numpy==2.5.1`, `soundfile==0.14.0`, `faster-whisper==1.2.1` |
 
 Reference model checksums:
 
@@ -27,6 +27,49 @@ Reference model checksums:
 
 The model and voice files are local build dependencies. Never commit them to
 the website repository.
+
+Do not substitute a system voice when a neural build takes longer than
+expected. Resume the Kokoro build with the same recipe and checkpoints.
+
+### DSE Part B voice correction (2026-09-11)
+
+The supplemental DSE release uses the same `af_heart` recipe. Its immutable
+release is `dse-part-b-kokoro-20260911`. It replaces the initial system-voice
+mappings while preserving the older URLs for cached pages. All 87 decks
+(12,420 cards) resolve to Kokoro: 9,921 new unique recordings plus existing
+Kokoro recordings, including one normalized-text alias. All 86 imported
+essay passages have fresh audio-derived word timings.
+
+The DSE-specific build reads the deployed source data directly and imports
+the canonical pronunciation and alignment functions from the generators
+below. It also records reviewed DSE pronunciation fixes (`Do-Re-Mi` is spoken
+as "doh ray mee") and ASR spelling equivalents without changing displayed
+text. Keep its output directory outside this repository. The `align` stage
+may run alongside `tts`; it waits for each essay's sentence recordings.
+
+```sh
+.venv-tts/bin/python tools/generate-dse-part-b-audio.py tts \
+  --source-root . --output-root /path/to/dse-kokoro-build \
+  --model /path/to/kokoro-v1.0.onnx --voices /path/to/voices-v1.0.bin
+.venv-tts/bin/python tools/generate-dse-part-b-audio.py align \
+  --source-root . --output-root /path/to/dse-kokoro-build --workers 2
+.venv-tts/bin/python tools/release-dse-part-b-audio.py upload-essays \
+  --source-root . --output-root /path/to/dse-kokoro-build \
+  --wrangler /path/to/wrangler/bin/wrangler.js
+.venv-tts/bin/python tools/release-dse-part-b-audio.py release \
+  --source-root . --output-root /path/to/dse-kokoro-build \
+  --wrangler /path/to/wrangler/bin/wrangler.js
+node tools/test-dse-writing-part-b-audio.mjs
+node tools/test-edmund-audio-worker.mjs
+node tools/test-writing-translation-toggle.mjs
+.venv-tts/bin/python tools/test-dse-part-b-audio-alignment.py
+```
+
+The release step requires complete TTS and alignment checkpoints, validates
+all MP3 files, uploads sixteen immutable R2 packs, and only then writes the
+supplemental manifests. Verify the deployed Worker responses before deploying
+the page manifests. Use a new release identifier for any later audio change;
+never replace objects in an already published immutable release.
 
 ## First-time setup
 

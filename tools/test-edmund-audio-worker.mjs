@@ -30,6 +30,18 @@ const indexContracts = [
     release: "v1-flashcard-expansion-20260801-1",
     mustBeComplete: false,
   },
+  {
+    file: "flashcard-pack-index-dse-writing-part-b.json",
+    prefix: "assets/flashcards/audio/american-female/dse-part-b-20260911/",
+    release: "dse-part-b-20260911",
+    mustBeComplete: true,
+  },
+  {
+    file: "flashcard-pack-index-dse-writing-part-b-kokoro.json",
+    prefix: "assets/flashcards/audio/edmund-neural/dse-part-b-kokoro-20260911/",
+    release: "dse-part-b-kokoro-20260911",
+    mustBeComplete: true,
+  },
 ];
 const indexes = indexContracts.map((contract) => ({
   ...contract,

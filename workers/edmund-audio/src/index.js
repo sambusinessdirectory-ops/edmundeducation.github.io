@@ -1,3 +1,4 @@
+import dseWritingPartBKokoroPackIndex from "./flashcard-pack-index-dse-writing-part-b-kokoro.json" with { type: "json" };
 import dseWritingPartBPackIndex from "./flashcard-pack-index-dse-writing-part-b.json" with { type: "json" };
 import flashcardPackIndex from "./flashcard-pack-index.json" with { type: "json" };
 import flashcardPassage2PackIndex from "./flashcard-pack-index-passage2.json" with { type: "json" };
@@ -5,6 +6,7 @@ import flashcardReadingExpansionPackIndex from "./flashcard-pack-index-reading-e
 import flashcardExpansionPackIndex from "./flashcard-pack-index-flashcard-expansion.json" with { type: "json" };
 
 const AUDIO_PREFIXES = [
+  "assets/writing-practice/audio/edmund-neural/dse-part-b-kokoro-20260911/",
   "assets/writing-practice/audio/american-female/dse-part-b-20260911/",
   "assets/speaking-system/audio/edmund-neural/part1/",
   "assets/speaking-system/audio/edmund-neural/part3/",
@@ -17,6 +19,7 @@ const IELTS_LISTENING_PREFIX = "IELTS Listening - Recordings/";
 const DSE_LISTENING_PREFIX = "DSE Listening - Recordings/";
 const IMMUTABLE_CACHE = "public, max-age=31536000, immutable";
 const FLASHCARD_PACK_INDEXES = [
+  dseWritingPartBKokoroPackIndex,
   dseWritingPartBPackIndex,
   flashcardPackIndex,
   flashcardPassage2PackIndex,

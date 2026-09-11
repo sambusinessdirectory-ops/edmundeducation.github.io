@@ -2297,6 +2297,6 @@
     "2013 Q9 worksheet contains an excerpt, which is preserved without inventing the rest of the story.",
     "2016 Q6 Hard retains all 75 blanks from the uncued worksheet; omitted hint-version slots 60 and 61 are restored from the source passage.",
     "224 one-letter words at the ends of answers are retained using the uncued worksheet as boundary evidence.",
-    "American female audio uses the installed Samantha (en-US) voice; sentence boundaries come from individual recordings and word highlighting is estimated within each sentence."
+    "DSE Part B flashcards and writing practice use the established Kokoro-82M af_heart voice (en-us, speed 0.96). The corrected immutable audio release replaces the initial Samantha recordings; word highlighting uses faster-whisper-base.en alignment measured from each generated sentence."
   ]
 }
