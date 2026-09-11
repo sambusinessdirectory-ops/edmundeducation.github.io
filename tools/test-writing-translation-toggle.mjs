@@ -10,6 +10,7 @@ const html = readFileSync(`${repository}/writing-practice.html`, "utf8");
 const writingAttemptsSql = readFileSync(`${repository}/supabase-writing-practice-attempts.sql`, "utf8");
 const writingDataFiles = [...html.matchAll(/<script src="(writing-practice[^"?]+-data\.js)(?:\?[^"}]*)?"/g)]
   .map(match => match[1]);
+writingDataFiles.unshift("dse-writing-part-b-topics.js");
 assert.ok(writingDataFiles.length >= 10, "writing page should declare its exercise data files");
 
 function inlineApplicationSource(documentSource) {
@@ -1260,8 +1261,9 @@ assert.equal(hooks.state(), null, "returning to the essay should leave practice 
 
 const audioManifestWindow = {};
 vm.runInNewContext(readFileSync(`${repository}/writing-audio-manifest.js`, "utf8"), { window: audioManifestWindow });
+vm.runInNewContext(readFileSync(`${repository}/writing-audio-dse-part-b-manifest.js`, "utf8"), { window: audioManifestWindow });
 const fullAudioManifest = audioManifestWindow.EDMUND_WRITING_AUDIO;
-assert.equal(Object.keys(fullAudioManifest).length, 321, "the complete writing audio manifest should contain 321 essays");
+assert.equal(Object.keys(fullAudioManifest).length, 407, "the complete writing audio manifest should contain 407 essays");
 hooks.setAudioManifest(fullAudioManifest);
 [
   {

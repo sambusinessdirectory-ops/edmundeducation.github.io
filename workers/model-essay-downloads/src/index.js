@@ -1,4 +1,5 @@
 import { CATALOG } from "./catalog.js";
+import { DSE_WRITING_PART_B_CATALOG } from "./dse-writing-part-b-catalog.js";
 import { DSE_WRITING_PART_A_CATALOG } from "./dse-writing-part-a-catalog.js";
 import { LISTENING_CATALOG } from "./listening-catalog.js";
 import { READING_CATALOG } from "./reading-catalog.js";
@@ -14,6 +15,14 @@ const COLLECTIONS = Object.freeze({
     auditSection: "dse",
     auditTask: "writing-part-a",
     defaultZipName: "Edmund-DSE-Writing-Part-A-All-Model-Answers.zip"
+  }),
+  "dse-writing-part-b": Object.freeze({
+    catalog: DSE_WRITING_PART_B_CATALOG,
+    byId: new Map(DSE_WRITING_PART_B_CATALOG.map(item => [item.id, item])),
+    bucketBinding: "SPEAKING_ASSETS",
+    auditSection: "dse",
+    auditTask: "writing-part-b",
+    defaultZipName: "Edmund-DSE-Writing-Part-B-All-Model-Answers.zip"
   }),
   task2: Object.freeze({
     catalog: CATALOG,
@@ -99,11 +108,12 @@ async function route(request, env, ctx) {
     );
     return json({
       ok: true,
-      files: DSE_WRITING_PART_A_CATALOG.length + TASK1_CATALOG.length + CATALOG.length + SPEAKING_CATALOG.length
+      files: DSE_WRITING_PART_B_CATALOG.length + DSE_WRITING_PART_A_CATALOG.length + TASK1_CATALOG.length + CATALOG.length + SPEAKING_CATALOG.length
         + LISTENING_CATALOG.length
         + Object.values(readingCounts).reduce((sum, count) => sum + count, 0),
       collections: {
         "dse-writing-part-a": DSE_WRITING_PART_A_CATALOG.length,
+        "dse-writing-part-b": DSE_WRITING_PART_B_CATALOG.length,
         task1: TASK1_CATALOG.length,
         task2: CATALOG.length,
         speaking: SPEAKING_CATALOG.length,
@@ -147,6 +157,25 @@ async function route(request, env, ctx) {
     const student = await authenticateRequest(request, env, form);
     if (!student) return json({ error: "Authentication required" }, 401, request, env);
     return downloadZip(request, env, ctx, student, form, COLLECTIONS["dse-writing-part-a"]);
+  }
+
+  if (url.pathname.startsWith("/v1/dse/writing-part-b/files/") && request.method === "POST") {
+    if (!isAllowedOrigin(origin, env)) return json({ error: "Origin not allowed" }, 403, request, env);
+    const form = await parseDownloadForm(request, env);
+    if (form instanceof Response) return form;
+    const student = await authenticateRequest(request, env, form);
+    if (!student) return json({ error: "Authentication required" }, 401, request, env);
+    const id = decodeURIComponent(url.pathname.slice("/v1/dse/writing-part-b/files/".length));
+    return downloadFile(request, env, ctx, student, id, COLLECTIONS["dse-writing-part-b"]);
+  }
+
+  if (url.pathname === "/v1/dse/writing-part-b/zip" && request.method === "POST") {
+    if (!isAllowedOrigin(origin, env)) return json({ error: "Origin not allowed" }, 403, request, env);
+    const form = await parseDownloadForm(request, env);
+    if (form instanceof Response) return form;
+    const student = await authenticateRequest(request, env, form);
+    if (!student) return json({ error: "Authentication required" }, 401, request, env);
+    return downloadZip(request, env, ctx, student, form, COLLECTIONS["dse-writing-part-b"]);
   }
 
   if (url.pathname.startsWith("/v1/files/") && request.method === "POST") {

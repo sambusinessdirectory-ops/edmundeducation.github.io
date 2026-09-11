@@ -1,0 +1,2302 @@
+{
+  "sourceFiles": [
+    {
+      "group": "questions",
+      "filename": "DSE Writing Question Set.pdf",
+      "year": null,
+      "question": null,
+      "pages": 12,
+      "sha256": "ff6529e77b9b9329792d4d1988d92173f83d7865af4e9b8d0a6190836c83cbec",
+      "textHash": "13d30d80647d870e1b63ad065627c4ef826e17e076a30c08f8e11cbf2c58b5a9"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2012 Q2.pdf",
+      "year": 2012,
+      "question": 2,
+      "pages": 13,
+      "sha256": "14362d3b6d306d274d5255edda9079a74e587865ab882ea6baec2d0431bd2983",
+      "textHash": "63eb1344740945422b143713fe998bd3f97d109a68d3a59597fd0d3071503e06"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2012 Q3.pdf",
+      "year": 2012,
+      "question": 3,
+      "pages": 14,
+      "sha256": "b3adfeaac0bc61a4b3fc38d9d42932a9c143c4e3aae72708e8ac69cc114e8f90",
+      "textHash": "7f0bc7df86d8a5443c8cf294f3e77c2caac0d520d21ba9357d68d9169bb7ac7f"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2012 Q4.pdf",
+      "year": 2012,
+      "question": 4,
+      "pages": 16,
+      "sha256": "c4e6192b3ee4041a01c2df58e4581a2ffc0e7afed8dc1647fe9286701d345e50",
+      "textHash": "934ee9eb26e70dadd99b0b44bda0d6f5b0088fba618fe2760eef540ad228fb38"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2012 Q5.pdf",
+      "year": 2012,
+      "question": 5,
+      "pages": 14,
+      "sha256": "58008e5559d2a01a3c2edca4c168e4d2f61834c0282cbbc9c854b7ce89258698",
+      "textHash": "76b29427966556fcd9b8499248a9051e95025d33392447ec763c7faff9b2c52f"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2012 Q6.pdf",
+      "year": 2012,
+      "question": 6,
+      "pages": 16,
+      "sha256": "fa2b96733e0dd6943cc99250d7dc56606ba2194b0d17717252e0d20725038af0",
+      "textHash": "f726033ab649b2bfc1a1ca941bf5c499d2a5e4d8043f00a445e316a2207be03a"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2012 Q7.pdf",
+      "year": 2012,
+      "question": 7,
+      "pages": 15,
+      "sha256": "50468a9c3259f583aeb72d90de37d4601cf4056457693df5367e311ebc014bda",
+      "textHash": "f873e13ffdba8f34a62666fede2624e370a3ee73e79e429ef38f2c773b23d15f"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2012 Q8.pdf",
+      "year": 2012,
+      "question": 8,
+      "pages": 15,
+      "sha256": "f896629b8a8ba2116767814dbbe97514158f5aafd65d511c3522620219c4b021",
+      "textHash": "7bb340fc3edb27af2fa7a716dd47c06a546fe447d0e51a61daa415422d3de72d"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2012 Q9.pdf",
+      "year": 2012,
+      "question": 9,
+      "pages": 15,
+      "sha256": "bef89f6ecb1f03f1bcc0a5f9630a218a1d77042d22011c93a9054c3b4e3400d2",
+      "textHash": "924975bd17f8ffb6bc91c304c47f5797e311b61f5a86345fa1656e442acd6ed0"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2013 Q2.pdf",
+      "year": 2013,
+      "question": 2,
+      "pages": 14,
+      "sha256": "ff79c0fb6ff2608fce8aee2caf69546e0c9064982a97518a67b4cb41367a360b",
+      "textHash": "0bc18507abd2d6eaae1dde395a7f3e0e108115ef97da5d23fe5cad3e08718238"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2013 Q3.pdf",
+      "year": 2013,
+      "question": 3,
+      "pages": 13,
+      "sha256": "a50628a5c0dbe35e412c73a7e509949c8f8cc9c05eaa16eafe9230f893534c06",
+      "textHash": "322be03eed47a1678e6351a0a552dcfa7928bec1134526b1986a02a1e7f22efb"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2013 Q4.pdf",
+      "year": 2013,
+      "question": 4,
+      "pages": 15,
+      "sha256": "a4b164e9b74866ee5c0ffdee58af0d64640c77e6138346fd780c077d6a1ac33e",
+      "textHash": "dc2bd22ca66ccf7c4a7db49152b00f1fd656703dc765a5f37c0dcf868d968040"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2013 Q5.pdf",
+      "year": 2013,
+      "question": 5,
+      "pages": 16,
+      "sha256": "a203deb2a930d5f0fb174ac255d9e14b9d6af7d5ad403d21b608049768bbaee4",
+      "textHash": "3a9b41c689d69efc9825d8474b8eb1590216c1a0a9872b0e3d87227568e8581c"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2013 Q6.pdf",
+      "year": 2013,
+      "question": 6,
+      "pages": 15,
+      "sha256": "c3083fffe9b408665a7fbc61678c093aea17dbd86507ee7165b719115ec35631",
+      "textHash": "70e655cac6a0e5b09e857244270d1c92938511d751a0133fc7bda1e96338583b"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2013 Q7.pdf",
+      "year": 2013,
+      "question": 7,
+      "pages": 16,
+      "sha256": "29d1a10e7a62f55e57f9a9ac1cbe1c47b51393e2cffc787c1c9597a96c93421e",
+      "textHash": "7bdff8dbcad2a5a46ce695d7aa279900110fa4e095d2355ab4a4050a7d7ea82d"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2013 Q8.pdf",
+      "year": 2013,
+      "question": 8,
+      "pages": 13,
+      "sha256": "6ae2122ea7924016f2a6858ab3f51c72e888c278ba1271cdc999c73799a70e12",
+      "textHash": "a09df9cba62f661ec4c9755c13218037c9d5bfe13779fa866e25298dd6cdbc7c"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2013 Q9.pdf",
+      "year": 2013,
+      "question": 9,
+      "pages": 8,
+      "sha256": "fecaef8a7ac0618434666e2277345d83c776d7ba1b08975a329c7a11b15aaf31",
+      "textHash": "c16d7a94205bac9e553434e27c72e5dcec6936ca74e72d384edd0a297443075c"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2014 Q2.pdf",
+      "year": 2014,
+      "question": 2,
+      "pages": 15,
+      "sha256": "3af7058c114666f0716033b9b2118898f336edd4b1b820a7dfecc2ac1a596ed8",
+      "textHash": "2173e5cd410d38e52e8340d1a2439c2a38423ce777e6b73dbbae30607c47514d"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2014 Q3.pdf",
+      "year": 2014,
+      "question": 3,
+      "pages": 15,
+      "sha256": "b19b9c3edcea6e5d5b9c0ce023534587db542757926505d3b6068ab2c869917a",
+      "textHash": "697b73397710088566da6f5a33a30391d7c7b9ab07ac088a8b0aabc0bf8141c9"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2014 Q4.pdf",
+      "year": 2014,
+      "question": 4,
+      "pages": 15,
+      "sha256": "5edb1557ab5e1b2db1ebe2f48ad2e6d1d71011f254ac1af9c7e500d2bca5004e",
+      "textHash": "580e7f938dffd85c2049961c6e6b7491b2551718403282b74902ab0354b805c9"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2014 Q5.pdf",
+      "year": 2014,
+      "question": 5,
+      "pages": 15,
+      "sha256": "c90135fab324c9a06acffcf1a86567b34014dccf526359fd9e7b5fed843aed46",
+      "textHash": "a3f34a3ae369045ec62c1e03d0576c28b13b307bc184bad61943c7b4a99643b7"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2014 Q6.pdf",
+      "year": 2014,
+      "question": 6,
+      "pages": 15,
+      "sha256": "b2a533de305be3d0e0e9c04d78b21a79362566234a85a1dd9a2d0f6af15ec094",
+      "textHash": "c5b7976165b22330c357fff31e6be457c6cd63351ecb14507017d83f886a0d9d"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2014 Q7.pdf",
+      "year": 2014,
+      "question": 7,
+      "pages": 14,
+      "sha256": "557e55841a88e6ae4060e1f936fe9085125fe4b3d76eb4fef852636ff7cca264",
+      "textHash": "748b3bb8058702f9b082d0fe5d3b139d8657452b88e39eda5685101d06f59362"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2014 Q8.pdf",
+      "year": 2014,
+      "question": 8,
+      "pages": 14,
+      "sha256": "e0ad1f5fa79ee8c1175f1ac200525675dcc732e4f13a78950dfb22288d04b5ad",
+      "textHash": "3a63ab23fa353fdfefb4f19ded694293519c633d6b7719a210707a1e7acdf85b"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2014 Q9.pdf",
+      "year": 2014,
+      "question": 9,
+      "pages": 14,
+      "sha256": "864652675dd7288022253ab5c05da15500232898cd938028fe6f99b725ab43bc",
+      "textHash": "379d99675df3612ee19fb5d72dade8f50ba4f5555dc2fdac507a8d91e9db96d8"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2015 Q2.pdf",
+      "year": 2015,
+      "question": 2,
+      "pages": 12,
+      "sha256": "4b144455176bbe29c7f01b11b25bf632d9e198855702cf407b8bce48a229ec17",
+      "textHash": "205209861bf65a20e297238598fe288ce3709d5afa163e2be3f893b6352583f6"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2015 Q3.pdf",
+      "year": 2015,
+      "question": 3,
+      "pages": 14,
+      "sha256": "6dee7fc3583640da332f0a494ca71b050089f2f8c9bd710afc98a9be8a4f470f",
+      "textHash": "828d826e10daf2da8e71e3634604d9bc49ec64f5f155d790fa91ea7fdbfe5439"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2015 Q4.pdf",
+      "year": 2015,
+      "question": 4,
+      "pages": 16,
+      "sha256": "26d446187c6c1484a7b624ee80f36ce998bff93d6a34fbba2bc1c315eebad157",
+      "textHash": "93539613fa178a6da43bc755dcbbd688d1ad38b736be07b4834bc265e33651f0"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2015 Q5.pdf",
+      "year": 2015,
+      "question": 5,
+      "pages": 16,
+      "sha256": "daa14fcaabee135e640c8ca266d4a29d1f8b783b36a8d8e54dc2655b189172f0",
+      "textHash": "a8dad2cb206e872749483953fb4c98e50282d63146233c6f50010def2b91546f"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2015 Q6.pdf",
+      "year": 2015,
+      "question": 6,
+      "pages": 14,
+      "sha256": "560f10c90cc65e1a4652ecaa5240a56e847f5d88791dceff667033f25615b4dc",
+      "textHash": "75005fd5bd6748dbb770ceb1368393a6b5fee58ef41dc463c8852c8fddb7c1d1"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2015 Q7.pdf",
+      "year": 2015,
+      "question": 7,
+      "pages": 17,
+      "sha256": "a0ee222dc249c3b63d6e981cc9f8fd2db5561b0e3b7d327e802afc45a8b53fc4",
+      "textHash": "45df3507fd2cc716e7f3c7f05d619878fb5b3612c54d05477574b706ec1a5d3e"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2015 Q8.pdf",
+      "year": 2015,
+      "question": 8,
+      "pages": 14,
+      "sha256": "a8b41d15f67ee61528f5325c92526e7afc80d3cfe261449132994ee0d8cd805e",
+      "textHash": "8296c145a7d0cb0056e5d9d5907ce53151685fbeb2841c1cd6c5c4f3f139b7a2"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2015 Q9.pdf",
+      "year": 2015,
+      "question": 9,
+      "pages": 15,
+      "sha256": "d903b81d747eed5bcc5bdc928fae68bba4398ad1b7c4c195a06c713f4525b964",
+      "textHash": "7a62ca98ceb244a815defd196cc0ddc007e16608a90867c35ec514d0db64ae75"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2016 Q2.pdf",
+      "year": 2016,
+      "question": 2,
+      "pages": 16,
+      "sha256": "0d48192f610b571dacc62ab2f773377f355015834e1d8f52d2bc9d8d11b4faf3",
+      "textHash": "15c2a6e0b96dc1c85c00eb6e2373da004111c791869ada3e139f6ff04d1b50b9"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2016 Q3.pdf",
+      "year": 2016,
+      "question": 3,
+      "pages": 15,
+      "sha256": "0bf2f4f01c097ecdf054470ea10d6160d09d2a86afff866cd188f5ad30ea4785",
+      "textHash": "f83f3d2c54b2984d5feaaf824f2cc7eafc219493dc9fcd0bbd2d661c9a1c257a"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2016 Q4.pdf",
+      "year": 2016,
+      "question": 4,
+      "pages": 15,
+      "sha256": "6b11e87cf7109e88312c2622043e29c0ec59b156f446665f7d959106df68dd1c",
+      "textHash": "b0a885c0d0916cc2f2258d61a5ae0a6581c5de74c86bbdbd2e09fe5b81bbf7be"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2016 Q5.pdf",
+      "year": 2016,
+      "question": 5,
+      "pages": 16,
+      "sha256": "8798f6cffb75f790adbdd1363aa837dbcc1a92ace9ec232cd2de101aceb5b12c",
+      "textHash": "4b286e6c605b5732f42134896553227a8dc7d37a675f971301a056d23ef23c34"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2016 Q6.pdf",
+      "year": 2016,
+      "question": 6,
+      "pages": 13,
+      "sha256": "e272521a3fa46dde5bcbbf94d56843fb66bf0e781a2d8175dba78a3b8fa48b8e",
+      "textHash": "55d1a68ee0329f705c70905e1bda16b0bf25d74c999fe5a6f0a9ca388216f3a7"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2016 Q7.pdf",
+      "year": 2016,
+      "question": 7,
+      "pages": 17,
+      "sha256": "3569605bedb7c948deadab2c978cd3feab3f45682427d07be366e2dfa0ec8087",
+      "textHash": "8bb7fd338ece2fbe63e633dbf8fa9222983c615e28cc7af726eb2f5a6643d69b"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2016 Q8.pdf",
+      "year": 2016,
+      "question": 8,
+      "pages": 16,
+      "sha256": "faa887e8d6f7821b797786cd765ee8c2d5e7fd1f985b218d6d4df0824b3bd4a2",
+      "textHash": "453bd66b825baf49aae3520f8edd0d59d70dc6e97db6ba94862f27d7071c5d38"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2016 Q9.pdf",
+      "year": 2016,
+      "question": 9,
+      "pages": 13,
+      "sha256": "a45f0e1376d8c1b2b1195f9805fb72a1a25db512805147f54fa993b5261675ac",
+      "textHash": "57c4ae7c802ecbe4c5aa37dd4c1f88158a006a308722f67fc1c0fbe0f58de2d0"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2017 Q2.pdf",
+      "year": 2017,
+      "question": 2,
+      "pages": 14,
+      "sha256": "675bd2b90dee30eec42652f40f2e9300746c3a721abfbdb19e0237f9c0e63082",
+      "textHash": "d38f60dc2505158ffe4495e53130e7a113f1d22e700d0ae34f3d1bac3237e0ea"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2017 Q3.pdf",
+      "year": 2017,
+      "question": 3,
+      "pages": 14,
+      "sha256": "b12dd10961143ef322587e0179f59f54ed82c13bd654362c87e551257fc9232f",
+      "textHash": "5d36169f637fea35d328f244355ca53aca01ae9e4d9fe619d4cab24c2c47dbb0"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2017 Q4.pdf",
+      "year": 2017,
+      "question": 4,
+      "pages": 15,
+      "sha256": "d9989addccf209cdbba80c5f5b8dcd8274099eb3e1c99c7416a34036797fee10",
+      "textHash": "3ba04c36a25350dc36f68c8a97dc7fa50085059180769540fdfa364a5b783102"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2017 Q5.pdf",
+      "year": 2017,
+      "question": 5,
+      "pages": 17,
+      "sha256": "cc68bd4c38e537bf9e7b7e714d942d6df105121ac4dd3fff7b79b71c4d84bb0b",
+      "textHash": "b454da4fd2f640d68e17cbb598906796ddccb9d7249828e57c6931b6a6bbaa5f"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2017 Q6.pdf",
+      "year": 2017,
+      "question": 6,
+      "pages": 16,
+      "sha256": "91b3030a0a1a61a327f328dfabbb640e96a55ed03935797a00970f7feb3c7b39",
+      "textHash": "f15e66319957decc6dcd18fbec42a806e2ab4c54ab8faf9bcf862edfe2909ffc"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2017 Q8.pdf",
+      "year": 2017,
+      "question": 8,
+      "pages": 17,
+      "sha256": "841e4284a60e6acc77c86f5420f4f7123cf923566e8c2f28e9dbcea2a3b706b1",
+      "textHash": "f30f2aac69ad6826b4161366e1af00230b97912b78dda007fcade51ebf5e6a60"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2018 Q2.pdf",
+      "year": 2018,
+      "question": 2,
+      "pages": 13,
+      "sha256": "1506d3a32236ed9c5400439fc89af66cd8a43ee286c9b67a7490e71b95a94ce8",
+      "textHash": "8de64e4f5e3e6b134b8596b294fec7073fe3b848df1db36dab63f213ff035573"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2018 Q3.pdf",
+      "year": 2018,
+      "question": 3,
+      "pages": 16,
+      "sha256": "45d173c70b732fb11518b4c4391e0eed7023fa531c247c06946ec72804549864",
+      "textHash": "29bfa15d4eeebc1d581fd0c123850df5e696f28130eccee773af1a4189faebde"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2018 Q4.pdf",
+      "year": 2018,
+      "question": 4,
+      "pages": 13,
+      "sha256": "809fb72c84bf74c31631fed5d552bbf105e8587fe4bb6a0fd336632929aa0b82",
+      "textHash": "819c8c536f5853d5715bc7c5cf3b541f66014be89d93eabc4036e906d7e32cad"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2018 Q5.pdf",
+      "year": 2018,
+      "question": 5,
+      "pages": 16,
+      "sha256": "6b05c7fe0a7a84a4ce8442b2bae40b4ead8a7b78a45bb1aaa382e546ef1eee20",
+      "textHash": "4f74676b9dda713bfd8ec7c40a15ec41daca0e772ac8d8caeccccf894aaf7115"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2018 Q6.pdf",
+      "year": 2018,
+      "question": 6,
+      "pages": 13,
+      "sha256": "1bedd24bb7d782cfa56ee0c110b253526f6f5810d66b9ad046edc133f7917627",
+      "textHash": "f839c6d2d20038f28e5bddd4f29345346dab67edfbfe7afbb056dbe448e16314"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2018 Q7.pdf",
+      "year": 2018,
+      "question": 7,
+      "pages": 17,
+      "sha256": "ddd5ce0ffd5290969ca4f73e3b8c834647354380777b02cf5564fcbf29276f0b",
+      "textHash": "11809a780c55cf56358a6dcbf1e2bc2bfb1c145c7f435f305b01e4d829295cde"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2018 Q8.pdf",
+      "year": 2018,
+      "question": 8,
+      "pages": 12,
+      "sha256": "8b85865e916eff45f3fe77a7305c2883856f0059bd9616fcfe8eb465f93f8ada",
+      "textHash": "c4e8487ccce3d6c260e43a33a36c54717fd3a2afa576b9a8a428853eba980080"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2018 Q9.pdf",
+      "year": 2018,
+      "question": 9,
+      "pages": 14,
+      "sha256": "b5c1aa9b01fae15a7bf63feaf9deb8901734d8fd61e202223f7f4140d2e1def9",
+      "textHash": "b22b7f966a41eaaa0b4f3e74222e1a770c50e4a2a4943c3a68dce945c11a3e7b"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2019 Q2.pdf",
+      "year": 2019,
+      "question": 2,
+      "pages": 17,
+      "sha256": "b6229a10814802f05857b6904511762edabb79e7bb9d4d20e60b134d62097409",
+      "textHash": "e681dae0737719e9a3e88207ca2c24ce1696173bf3fc392170d6c7748354c648"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2019 Q3.pdf",
+      "year": 2019,
+      "question": 3,
+      "pages": 16,
+      "sha256": "79704f1cfef66f382adb0fbbcaa5e39679c1f6b79315de92f6358c80d44a67c1",
+      "textHash": "1f3981b681c380ef38c7b3a3b40d59e419dcb44dfa78d62864d1e95b3e668017"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2019 Q4.pdf",
+      "year": 2019,
+      "question": 4,
+      "pages": 14,
+      "sha256": "9912e7e83a185f43e9194e29dd8b7a8b77b385d7c7635f49fbc46c0bc17fad32",
+      "textHash": "7411f0848db2fc90583151776450949258828c7aa00c56da266e210910a414eb"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2019 Q5.pdf",
+      "year": 2019,
+      "question": 5,
+      "pages": 14,
+      "sha256": "52ecc7070674eafcf2abcca5e5c40d0bd35e082dc9bff93f782321208db4a679",
+      "textHash": "3348d75007a01f27f0ecad7f2a5445b35f1dfd9471d4e1196cfe1bc4d558a5b3"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2019 Q6.pdf",
+      "year": 2019,
+      "question": 6,
+      "pages": 15,
+      "sha256": "fb552ee54f46b9f5d18f26bc4ea796fe8219afd768892946f19effe439677491",
+      "textHash": "f43e723467ae17b4392f839e26541909d700eb7c88d1dc3c4b3f9b208526703e"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2019 Q7.pdf",
+      "year": 2019,
+      "question": 7,
+      "pages": 14,
+      "sha256": "712452114a6c090c54ae46fe5938001f298ba4dc4b02a9153934fc778459fcf3",
+      "textHash": "7622e66a98c8121d7a945d54dbf0d3df7a67c7f23c9f5d9bf16d13e728947d04"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2019 Q8.pdf",
+      "year": 2019,
+      "question": 8,
+      "pages": 14,
+      "sha256": "c94571014c68d9566970da4bcdf77f3f20223297b94792f9aa78ac6da8dad7e0",
+      "textHash": "7762acb0cbbddbcfd8afb928f328ef3ea4ba7ffc3e66f4cfbf969178a68cd9ad"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2019 Q9.pdf",
+      "year": 2019,
+      "question": 9,
+      "pages": 15,
+      "sha256": "7e146fb70514e3893fe14cc3dec413dc7c0d6dcf2cc987a00c09e9a8d9bf5aba",
+      "textHash": "80a2daf4214b884aeb977b6cc523d078a18c704c114d7efe044daa1be4c0faf6"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2020 Q2.pdf",
+      "year": 2020,
+      "question": 2,
+      "pages": 13,
+      "sha256": "b03230410d49225eceb594a43c38e1440d7ed6e0691826f5cf288e83b3add5b8",
+      "textHash": "786a5a0a8b1476da500e23a4b576cbbf4063e41bc999b93dbac7e535534bb406"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2020 Q3.pdf",
+      "year": 2020,
+      "question": 3,
+      "pages": 15,
+      "sha256": "434146b4f781ef4a1b2b2ec558637ae4e66da17d698fe2ba21ae22a5d4525fad",
+      "textHash": "4e311a6e4886440e30d7811c12c54f46576641c43d586693a7bd2b69fed90f9e"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2020 Q4.pdf",
+      "year": 2020,
+      "question": 4,
+      "pages": 16,
+      "sha256": "eac08ade60e828db2ccc74d053c6ae8766e289f08d091332e1ca8b0e2d8d96e0",
+      "textHash": "c1be7d09101523312259cd8623f271a6c913afd27a8369fb43423ef3d790059c"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2020 Q5.pdf",
+      "year": 2020,
+      "question": 5,
+      "pages": 15,
+      "sha256": "dfa48f05d8124af0f573112c266b33e331e46bec7b407d5d44bef611153bee90",
+      "textHash": "b614e8d99c91f08d413d487a8eb79a1dbb7486bab9a7695e1c1af15dd0034cc4"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2020 Q6.pdf",
+      "year": 2020,
+      "question": 6,
+      "pages": 16,
+      "sha256": "5b446948868b214ffbcced7fa109a0f975a47961ab6115ff83a7ab974e27a1f0",
+      "textHash": "9edd79459493ba69998d65646b905ba7875f38f46d02e21c7be5b8a9fb185653"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2020 Q7.pdf",
+      "year": 2020,
+      "question": 7,
+      "pages": 13,
+      "sha256": "832aa69b6464192beca8282d13ab6bb9c1df63dd1a6baa013c20ffd8d308e2cb",
+      "textHash": "dd8569aa21919aaa4cc9590fa5ddedd8dd50ba2ef436a17937fe27d4a1d82bf9"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2020 Q8.pdf",
+      "year": 2020,
+      "question": 8,
+      "pages": 15,
+      "sha256": "130057d53bc5faf1061fc149ffe39f45c0ada71762be7dc0fcf88928264c338b",
+      "textHash": "4c0b42e1308ac73276abe0ead645f187e3e81939a20599e368184c0712070f1d"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2020 Q9.pdf",
+      "year": 2020,
+      "question": 9,
+      "pages": 14,
+      "sha256": "e15ab2f933d475952a1dd63bb2fd506c76d17c50ddac59e7f7e76beff1e05724",
+      "textHash": "3df424f0b19bcc8c2895c60e2037c638f3634a75b5a60a4b0860f6490a1ae5df"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2021 Q2.pdf",
+      "year": 2021,
+      "question": 2,
+      "pages": 16,
+      "sha256": "8143512413803416092b80fe9d15b302a0bc6059fd899707b9c61d6efac9ac84",
+      "textHash": "ae335d689057b973644b0663fe3ad6fc30e75042bf8e3acacaf2e7aa8fb31a98"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2021 Q3.pdf",
+      "year": 2021,
+      "question": 3,
+      "pages": 15,
+      "sha256": "2556e0a070e28b948daec57ea64c3307d174449d0819d2f38641912c7311a85a",
+      "textHash": "ca191f264766946b6b4f5dd5f86e0d3d11366b4ada068ae6dd03626ab95a2b42"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2021 Q4.pdf",
+      "year": 2021,
+      "question": 4,
+      "pages": 13,
+      "sha256": "88d130cd9763e4fdd5117d0d6a91b349afdd97a5520a718b68e29fb84ea2132e",
+      "textHash": "f0e636d1630c498086cf57dca423d31251865760a29b0eb4b93b46cc91795dcb"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2021 Q5.pdf",
+      "year": 2021,
+      "question": 5,
+      "pages": 16,
+      "sha256": "1b5fb2077d828fd03330cefe4e23b47eebcbfb66fd1cfd9a1bf9299af7cc0632",
+      "textHash": "9701f6d1c4de9331436e4a397ad5728ec7da5ae9ff36f709053c8ec58d79a0fb"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2021 Q6.pdf",
+      "year": 2021,
+      "question": 6,
+      "pages": 14,
+      "sha256": "b6f580476771c5f618005278b9f379191c4dbfcd8ebeeb7ca19e9f4c4a30e959",
+      "textHash": "23fac1a5809f8f647693fa8a7b65535058b2986256a82845e7972c8ca10d1818"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2021 Q7.pdf",
+      "year": 2021,
+      "question": 7,
+      "pages": 12,
+      "sha256": "8327c92079dfa78da97382d886c1c483226cabec8cd4c11182e93c3e82f0c319",
+      "textHash": "7cdf1e85bca556d92c8bf41a8f265f8c9513382864ce5dd29f6125540103bd2b"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2021 Q8.pdf",
+      "year": 2021,
+      "question": 8,
+      "pages": 11,
+      "sha256": "fe3f0cbb02840416b1136a247927a6a622c550fbc22db0fe2aeabccf7b82ed5f",
+      "textHash": "a65f2ad48280671e44070535653bfba7e42dd80c538b6e09aec27ec27e287eb9"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2021Q9.pdf",
+      "year": 2021,
+      "question": 9,
+      "pages": 14,
+      "sha256": "1a57d81ef4cff3e2c99b205a3a035bc6986638491233230a6c108864eb2bf0fd",
+      "textHash": "bce17140a6890e320391202dd5c83e71c00b8b35e48eeebac3a68ab55b986044"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2022 Q4.pdf",
+      "year": 2022,
+      "question": 4,
+      "pages": 12,
+      "sha256": "7e165368dc5c8743870635bb10671e00454bab36b25fe20e850e0308998ca755",
+      "textHash": "2574b1e2d70b451d0388162bd66638182722e09afb44ff4d28491b04678a7929"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2023 Q3.pdf",
+      "year": 2023,
+      "question": 3,
+      "pages": 15,
+      "sha256": "4d4e64b720eb07750f129835ef6aca2eb147a3bcdecc504ddbb35fcf1c152bfc",
+      "textHash": "ec608983ac7ef3451c795a1ae953b287b9227b6b8b925cf2e952e5ca8b4e526d"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2023 Q4.pdf",
+      "year": 2023,
+      "question": 4,
+      "pages": 17,
+      "sha256": "faabcf7cd08f0de5b714955c46d55f521dc6670f1167b6e84d2d56094aad5218",
+      "textHash": "31a2fa28bb7bdc69f288daa9baeee0bce5bdba664444e091895dda1e8b94fd6d"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2023 Q5.pdf",
+      "year": 2023,
+      "question": 5,
+      "pages": 15,
+      "sha256": "29ecf8602600124fa0f0d152c6cf73d951e1bceaceba55e2011d92906867a028",
+      "textHash": "6df78ee6f44ae8469b77bf27d69d08c52580712ca9944fb0c128959d806c704e"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2023 Q6.pdf",
+      "year": 2023,
+      "question": 6,
+      "pages": 13,
+      "sha256": "d27f051cfab359760935bb513fe6d45f8a3ab70a68f89b81649d7b53efb52e34",
+      "textHash": "717049275ae5124b532155f5d4ede211ecf63fe2e006bdcf9d6e95e08dca2936"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2024 Q3.pdf",
+      "year": 2024,
+      "question": 3,
+      "pages": 20,
+      "sha256": "fe3e5152fc40b8a5928b1efb091fe35085c008492681f01778b28719810b8b1c",
+      "textHash": "f0b7aed85d846034f173aa02d4b908950d89e3aa6825db68fce9a84c5f06d0ed"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2025 Q2.pdf",
+      "year": 2025,
+      "question": 2,
+      "pages": 14,
+      "sha256": "85b0994eb075ac16c926c64b67b07166d33794a8a0b9d4e93c73e2d9b3c1073c",
+      "textHash": "4a374c98d3402cfdd0c257e5f7414e0bb2776481a7d5f6f13f4a6d5828404d89"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2025 Q4.pdf",
+      "year": 2025,
+      "question": 4,
+      "pages": 18,
+      "sha256": "d063d1fb8ef276fb2098a707df49fc83e2aa9a5ca091382e4cde5b6eaa7d211b",
+      "textHash": "287f3da4456bf5865344bba4e0952dd0a883af9e9535aeaa8bbac79526b0f590"
+    },
+    {
+      "group": "flashcards",
+      "filename": "2025 Q5.pdf",
+      "year": 2025,
+      "question": 5,
+      "pages": 19,
+      "sha256": "0622305d5783e1d2fb337d4fabad88e6a888d04149d476b3e188443b9a59bbcb",
+      "textHash": "7ec2a6b6c8ecd3ff3469b5b55ab464778f507000011e05d2f70a8ead3287fac7"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks - 2012 Q2.pdf",
+      "year": 2012,
+      "question": 2,
+      "pages": 25,
+      "sha256": "16bce9df182163e0512fefe45464ff7b824af596acbc74d72801a30531d231de",
+      "textHash": "b47f5055d8abd95a9a1c7d4827e8db83dfbbcb8abb150cb6890b2cd138826efe"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks - 2012 Q6.pdf",
+      "year": 2012,
+      "question": 6,
+      "pages": 29,
+      "sha256": "62095bf1fb17715341252c10d3a4a8a1ae4852df3c8f525dd5d57ccf39cff406",
+      "textHash": "d0fa0205faac7455b7ae9d14f5e88fb104e9cbaa118b85078153aee9c824efde"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks - 2012 Q8.pdf",
+      "year": 2012,
+      "question": 8,
+      "pages": 30,
+      "sha256": "042d218791563b03070a82d0a5d7d934418f5fe4585280a8060474292063fb0b",
+      "textHash": "304589737d997decd56d80ce520cf33a633cfe3634e17971ce24a7dd3312682b"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks - 2012 Q9.pdf",
+      "year": 2012,
+      "question": 9,
+      "pages": 27,
+      "sha256": "f6a54b4ea16f45cadf4c0c077c38d88bdf6b372bb375f9edd12d687cedd891c1",
+      "textHash": "b860c80e4ef3e8acdd34df855beb34933a1308e4f023f39720db1ff896ac4be3"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2012 Q3.pdf",
+      "year": 2012,
+      "question": 3,
+      "pages": 28,
+      "sha256": "78f8c9928234c615c03341a57d7446c95cdfeaddaee86efb57371d7f65795193",
+      "textHash": "bc34ccc9663df6d217c2445ca8fb88adaeb1a32f97ac6291dbd0157739ae1e94"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2012 Q4.pdf",
+      "year": 2012,
+      "question": 4,
+      "pages": 27,
+      "sha256": "4e0180825bdfbd0937c5866ab00546bfcd727cbb71343b9fa06e36aca66e02b3",
+      "textHash": "fde9240e551e1f28b4ba0a9ef6fab95a20001c771975a5b73a8b0faf7c7fd6ac"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2012 Q5.pdf",
+      "year": 2012,
+      "question": 5,
+      "pages": 27,
+      "sha256": "86b9e1dd1e9d72c9b67b53c1f2855b097f5bd92206d37cb004b4de56301a41c4",
+      "textHash": "c987e29c4427979b8921da42a50e3a89745606a8ca5280c5c634201a1cfaac0f"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2012 Q7.pdf",
+      "year": 2012,
+      "question": 7,
+      "pages": 38,
+      "sha256": "be4ea28fd002b8213d5b1de49a9af0df80fb1d17aa57492a363ef7b2486baa9c",
+      "textHash": "163490ff60668935e8ed650c28cad7e62304775961c6527c67f7ff9cfe74eb6d"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2013 Q2.pdf",
+      "year": 2013,
+      "question": 2,
+      "pages": 29,
+      "sha256": "2b23206db630f81c65398865d418bab83edd56ffd781b9525cf29ee162b715f2",
+      "textHash": "bfb6ad723d1c444691b8ed5181ae818bee5c3348098862de34f3da4bf518dd6d"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2013 Q3.pdf",
+      "year": 2013,
+      "question": 3,
+      "pages": 32,
+      "sha256": "bfb35403d17224dbbdb9ebd594fb1dcb261c7f6aafcc8b908a0b191a9d1c2301",
+      "textHash": "cbee7f136b104d1e97b15c841eb1aa6f6aa7962b0eb91fcf80d14cd96f0ebd37"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2013 Q4.pdf",
+      "year": 2013,
+      "question": 4,
+      "pages": 30,
+      "sha256": "fd48a07a555df6661d95195377e4585fb58069e7a3a333fd8524d8e3cb515ecb",
+      "textHash": "3e17d8a1a61ed394b9c4d19ddb608083ba7b4fd3bba0d1bbfd0969f2816fdb4e"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2013 Q5.pdf",
+      "year": 2013,
+      "question": 5,
+      "pages": 28,
+      "sha256": "ecaad2a8d405281799a0eaddd509c3bbef7a952c320502edb44ebadf7ca707b9",
+      "textHash": "823b177a6e4790e8e457dc8faaf3c2cbb96d196cd8139690586de513a12beac7"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2013 Q6.pdf",
+      "year": 2013,
+      "question": 6,
+      "pages": 26,
+      "sha256": "14d0ed3b5fa55aeb176dc75af0bfa2cd629ea87fc47ebfafff3308a398129f0a",
+      "textHash": "d21daa1d8995dbfe83409d65b7ab1be738517b1e24e07e0eb408f052c3ab478f"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2013 Q7-1.pdf",
+      "year": 2013,
+      "question": 7,
+      "pages": 28,
+      "sha256": "03b4f2f43e862f754e391acd46aac71d767d899d2c78397de72a3844c901ba81",
+      "textHash": "511c1baffb5d17dc0869ca865c614b7d6bd2e86907a52659c217a724a44bf3de"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2013 Q7.pdf",
+      "year": 2013,
+      "question": 7,
+      "pages": 28,
+      "sha256": "477a3a992e5ea367a86e9c87f73a856f74764a2b07042374eaae291199d6e8e2",
+      "textHash": "511c1baffb5d17dc0869ca865c614b7d6bd2e86907a52659c217a724a44bf3de"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2013 Q8.pdf",
+      "year": 2013,
+      "question": 8,
+      "pages": 26,
+      "sha256": "cf5154753e1d437d824ee477b1782effa032411a8d89f217a27891b011bd3b6e",
+      "textHash": "b79c0a3a9f66ccc9cf8cd8a082ce22fa4995dbbbea2edccacd623960f8f4a72b"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2013 Q9.pdf",
+      "year": 2013,
+      "question": 9,
+      "pages": 15,
+      "sha256": "ba1c129dee530bd3f3a7a0d4e800f8b4791253b60a6903ea991e7cbced179880",
+      "textHash": "4355ceeae52d2165b3a83701b3c861018cf42c4148b01a131eb10e612d269e3f"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2014 Q2.pdf",
+      "year": 2014,
+      "question": 2,
+      "pages": 31,
+      "sha256": "b1b0f693446d71cc88a18bb44db004e016e583c9108d535ae729fd2aee72005e",
+      "textHash": "f10705b1afa2fef3e259b09f310847966a81182543f58d1fc79de33d91653007"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2014 Q3.pdf",
+      "year": 2014,
+      "question": 3,
+      "pages": 30,
+      "sha256": "5cc4ee1b6c9771d014369790fbafe7157485ea4f4210b2df4b985701fdbb0f93",
+      "textHash": "e129fb976336c9f6882d3fd7bc4bf07019aa4be93ea978c4fc36d515124a9db5"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2014 Q4.pdf",
+      "year": 2014,
+      "question": 4,
+      "pages": 29,
+      "sha256": "4c64b69749c0651c6269fcb9cc0e5404e1014f2d403230915711bcae7d559505",
+      "textHash": "19689c5b2ab4aae4319004d7a69b658a88690ed8938cf938c381cbb200f727b9"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2014 Q5.pdf",
+      "year": 2014,
+      "question": 5,
+      "pages": 30,
+      "sha256": "10a79e9d2e42c9cef9c6e5892f77b3a5380bca927c9277d2e6de7f23cb0ec4c9",
+      "textHash": "197a266a57a50a82c3d807401133b995bc1a67b086827b642bba928569a54f38"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2014 Q6.pdf",
+      "year": 2014,
+      "question": 6,
+      "pages": 26,
+      "sha256": "857d22e8f42b85606818833611fb207eeaa34da07620ed6818306e55b4a55a12",
+      "textHash": "0edaf7fa93d658aae93a381ea8c7705ebe861f4aa3c6d9cae485efbcf5694a0f"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2014 Q7.pdf",
+      "year": 2014,
+      "question": 7,
+      "pages": 28,
+      "sha256": "7d5661585d320d8d115a9c58dc886c52a7f7ec67576fe800f029a58e8eed268b",
+      "textHash": "43ae8793cd0989ed1447f9f4870dc92bede32370d7eb1e69632cb8ee0662e2a5"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2014 Q8.pdf",
+      "year": 2014,
+      "question": 8,
+      "pages": 27,
+      "sha256": "4e21a46878aa978ff1c7fd61b401d7d483316634a18d8d2f0a41da66dc9026da",
+      "textHash": "f784d81560327c34376f992fbf83c128d8b882a3b7a6948ab204dc18bf7f608a"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2014 Q9.pdf",
+      "year": 2014,
+      "question": 9,
+      "pages": 35,
+      "sha256": "4272477b9f62d573dfa3cce79d8033c304727b6f29d7fc936f51ad1ed3b88231",
+      "textHash": "5104ebb8a0c281f88706fb09ed7816c606400169039cd58df445af85d3b0e6b0"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2015 Q2.pdf",
+      "year": 2015,
+      "question": 2,
+      "pages": 29,
+      "sha256": "77bd5d87acce53c35c53631e7e642ca741825c4d01cd5d946ffd49daae9ee07b",
+      "textHash": "457db872c1e5e6a76bbc636bf1cc6888e897b65610d3a2cf80252c52b9c0d3d9"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2015 Q3.pdf",
+      "year": 2015,
+      "question": 3,
+      "pages": 36,
+      "sha256": "6e1e52ddddf5bb3853b31a6816fee707b4ca4289d6ffc1eb5270b1f67203273d",
+      "textHash": "2a312699c3fd58e5af5a068a8aaf494eacce343f237ab7a031c86443a0484d15"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2015 Q4.pdf",
+      "year": 2015,
+      "question": 4,
+      "pages": 27,
+      "sha256": "5d92440abd6e37fcee6d1f6937cc90d5612ffb6876ead104e08c46967e064ec0",
+      "textHash": "3b586f82b96c5cc6cabdddd247b312c972d452aa66bdce3d6e65a3c5d9c9504d"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2015 Q5.pdf",
+      "year": 2015,
+      "question": 5,
+      "pages": 29,
+      "sha256": "f916026e2c25d1d2870fe824c810ecbed025d37ea9a3c402d7805cfe5ae9d678",
+      "textHash": "58e718590fde5d8544db3873843dc5afd9dcea432c0978ca55e01c601ddcffd9"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2015 Q6.pdf",
+      "year": 2015,
+      "question": 6,
+      "pages": 30,
+      "sha256": "a11c7d2ee75461820e507a6608ed2bf82010852f8c88b2daca5805c668a45fcf",
+      "textHash": "2df01812c28933e36698fcef6469cacb961704c3e4aef5dfc44197696278bbb2"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2015 Q7.pdf",
+      "year": 2015,
+      "question": 7,
+      "pages": 32,
+      "sha256": "2abe6a0892cb8557eeab8436de1810d692bffd7c11673fe2fcaabb81089cdb0f",
+      "textHash": "bb423d9b5ec53adc3693c9ed47cc3ff9ad9fa38fa6bd2d6a0e6af01ab77b02c7"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2015 Q8.pdf",
+      "year": 2015,
+      "question": 8,
+      "pages": 30,
+      "sha256": "1a385a42143668af810623e549e10e424798b64d3a5e3ab1dc9e426ea12341da",
+      "textHash": "207aa15f294e4015fe4826999975f7a9a4858ba4568d9587bbd771606a5c8538"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2015 Q9.pdf",
+      "year": 2015,
+      "question": 9,
+      "pages": 29,
+      "sha256": "c5abf80bfffaee450e90134263f2edaa41b9cb50840f2a90b70221bc6702638f",
+      "textHash": "9a6d7b3a8717119593517cb97a8640c4085d202916a3b1ae08043d247c1c846e"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2016 Q2.pdf",
+      "year": 2016,
+      "question": 2,
+      "pages": 30,
+      "sha256": "0bcc5298e9d912f22e3962eb31e49884e3d1032c4b5686ba8292d8b77a06613e",
+      "textHash": "8377019c87cc05bb0e5720f0a8c3c1c6ba867a14872ff6aa53e32b9e9bd706a1"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2016 Q3.pdf",
+      "year": 2016,
+      "question": 3,
+      "pages": 29,
+      "sha256": "5c6c518519bb077c3bd3de177ec8d6f196329f3398488b76170d64e23f8c7259",
+      "textHash": "f2d58e3f84e2b0efc23001981c7732ee196ac6b7660e3b504813d2143e61fffd"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2016 Q4.pdf",
+      "year": 2016,
+      "question": 4,
+      "pages": 28,
+      "sha256": "88f5bfefabada4a8aada243cc4de4b8bf91138626bca50ce67b0c3014b8ac975",
+      "textHash": "bb6bbb51721d597dbcc9dd850becd4cff9ee6b3c10e43d620a70120d235ed7e3"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2016 Q5.pdf",
+      "year": 2016,
+      "question": 5,
+      "pages": 25,
+      "sha256": "7ad94fb8dd9f198120146ad6cf2e2e0cf77a5fee772b7add93eb9c9585abf4e2",
+      "textHash": "05ac1682c2b066521c59b94f099984c4d4f7a4d5f04eb318a435c00a7c96c4b3"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2016 Q6.pdf",
+      "year": 2016,
+      "question": 6,
+      "pages": 39,
+      "sha256": "d4f8491a90558dbc3d2fe1e8987b46f60c007531bc94949dbbe18ba3299da51a",
+      "textHash": "f72f157edbc60c9e23ba8f9dc4681778e49763d5b1f274b4e5f8c5c716b0682a"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2016 Q7.pdf",
+      "year": 2016,
+      "question": 7,
+      "pages": 38,
+      "sha256": "a02594d7d93ff904b93c70e3dba6c092b604bd76dac1e2be2993dd4ecb4a5976",
+      "textHash": "bf72a33c1fae13de4a5aabc2fd22c38d4a7b619069bff7cd88421d44b2e6d190"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2016 Q8.pdf",
+      "year": 2016,
+      "question": 8,
+      "pages": 26,
+      "sha256": "43c05c20d317633fc077586b56be7ced6324c605310d11835040f1706a9b7157",
+      "textHash": "8ff271a99be1535a92ea4fa71927f37f3d85103d6b34abd8c838f27c7622ec3a"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2016 Q9.pdf",
+      "year": 2016,
+      "question": 9,
+      "pages": 28,
+      "sha256": "dd821d550d987709693cdc73ff94f24c1917817937eb30ba94e90fdc8d39a7b9",
+      "textHash": "a4ff1d2ea9c04fae1f8aaafa25e226c4992772aa3b0b0018dd10afe21155b6d5"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2017 Q2.pdf",
+      "year": 2017,
+      "question": 2,
+      "pages": 26,
+      "sha256": "c63dfbf3dc89c14430c60ff049e9586d2d7e23ec2240a16f5b27d904fc945a20",
+      "textHash": "46aec9ac3dfc4a8ed9889d77593d212a9c731aa4fd577ecf2652c8a2133d84e7"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2017 Q3.pdf",
+      "year": 2017,
+      "question": 3,
+      "pages": 28,
+      "sha256": "53a5d8697c756bb27723e9d44324af149c6496d78b0404c7d7a1888fc705541e",
+      "textHash": "ffddad1603d4dafe0dc206fd3afecde86b3f51a3e665d301e41b824acda498e0"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2017 Q4.pdf",
+      "year": 2017,
+      "question": 4,
+      "pages": 28,
+      "sha256": "f25edb2388c390400a40fb7567d8174a9a70cfc2b66ac8254a4f57d24e34c156",
+      "textHash": "98477ca8b3ad81c6f037761cc5b5f223f22ad528ff5a2978fd6e3fe0539e596b"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2017 Q5.pdf",
+      "year": 2017,
+      "question": 5,
+      "pages": 30,
+      "sha256": "dd0ef3014ccbf99f15f49142f93d4d193fc57b3988fb6cbaebf8f4f7bb5d4c18",
+      "textHash": "a19a138f95f262a1a062cbcc037086aa67b9b6363e31ec17cf6b101d509d7288"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2017 Q6.pdf",
+      "year": 2017,
+      "question": 6,
+      "pages": 28,
+      "sha256": "9c86883f1ef27357df9fd75d01db42263b94c9aec7efd49ef8c682575760074a",
+      "textHash": "34c6527c06320fa9327231efe2ee776a4e6746c1bd4fe2c20ad2afb55a5d4903"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2017 Q7.pdf",
+      "year": 2017,
+      "question": 7,
+      "pages": 33,
+      "sha256": "365ba9c3e5ade34f0339c7fd03616e08a6c3de1ac58bd867296bd870c6b8c3b9",
+      "textHash": "100ffafaff4caf89f847a90a31c97f074790ae5c5980ec6010110fd6dcc5ce02"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2017 Q8.pdf",
+      "year": 2017,
+      "question": 8,
+      "pages": 32,
+      "sha256": "b01936febb6360e5bc9fd9bca209270a4141fe1bd6de597f69fc56b2c362fc19",
+      "textHash": "9fffcad71f59e130ec8036fc9995a64cb3b01f52895ca623f519e329b8d0156e"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2017 Q9.pdf",
+      "year": 2017,
+      "question": 9,
+      "pages": 29,
+      "sha256": "af3e589a6ce5445a9b7f603c7e998ca5ccf3e2f1de49beff87ce8897c7d84711",
+      "textHash": "446dba6ee22697b471bd0699ca68ba99d9e79fdf9b508aadb4c57e0f74454f5a"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2018 Q2.pdf",
+      "year": 2018,
+      "question": 2,
+      "pages": 26,
+      "sha256": "29300d2aec10c11d14b70a06f1bee8160278fe3ed3f20de117ad2fc7aa648398",
+      "textHash": "399608c782399a89d8e6bb7106ea6b5633865adf13d68bb3b819e06896e10163"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2018 Q3.pdf",
+      "year": 2018,
+      "question": 3,
+      "pages": 32,
+      "sha256": "90369ef312f2e763a64088e1bc8221fced798199188e54ccb473b90cf1e99659",
+      "textHash": "37265252d4edae2bad8ec680b23e7b25e8fea301777a3e5bcf33151a146b7ae5"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2018 Q4.pdf",
+      "year": 2018,
+      "question": 4,
+      "pages": 27,
+      "sha256": "08da8121841ab208664d7a413b0e163f1634046d41c7b68dd6880f915744511a",
+      "textHash": "c1f0710461bc1ed13ac4e81245f0e4af8af6b2377c6f5dc7a72558ace2228a01"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2018 Q5.pdf",
+      "year": 2018,
+      "question": 5,
+      "pages": 29,
+      "sha256": "fa2cd5ee2db5b382241adafbad9c77f5fd718efca7fd2b2c8d742d2e69e60d80",
+      "textHash": "a5f2b802a31ecd624272a3fd412b7e875629b1332caa52f72d9018fe4e9591c5"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2018 Q6.pdf",
+      "year": 2018,
+      "question": 6,
+      "pages": 27,
+      "sha256": "87dd268877d03796baef027dbb07b9a8307d41d7854ad0bb7ffdc960be8d987a",
+      "textHash": "3014f1faae913d424d0036ff7698c616ba026781d0778ede5f26b81607482c47"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2018 Q7.pdf",
+      "year": 2018,
+      "question": 7,
+      "pages": 28,
+      "sha256": "c34c318259ef7a6bf7dff8adaefcd0ab7ddc4e1326fdabbb42a52c24e2ae463d",
+      "textHash": "1401f0aaebc17c7683dc94ccd67ff3c46bea78c75c016d21e3f30ace091ad456"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2018 Q8.pdf",
+      "year": 2018,
+      "question": 8,
+      "pages": 28,
+      "sha256": "457ffa12d002e4bdc137a8fa275f22e8675c98237d2771325bca998c6db8cefe",
+      "textHash": "e0d407344e1014821a04cc661068d18fbab04684d97beb813c1d1775dad24613"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2018 Q9.pdf",
+      "year": 2018,
+      "question": 9,
+      "pages": 33,
+      "sha256": "300850ed023701ec13856247cc48c35d791d61cf2768dba78dd1efd884c95543",
+      "textHash": "2508e2fa2897c64f128f127904f23c2bcfc9714e868dc79d7f374276a046debf"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2019 Q2.pdf",
+      "year": 2019,
+      "question": 2,
+      "pages": 28,
+      "sha256": "191209463130575fc5099ef04ee9ccb99081e97ad0d8dcb873153907f5744e22",
+      "textHash": "32b33cc5b2c980b6133ab088d735640d9533ffd437ef7d67cce13635de98032c"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2019 Q3.pdf",
+      "year": 2019,
+      "question": 3,
+      "pages": 27,
+      "sha256": "77913c59987d95c56e6b7829e1eb75f8bb57e35cc109843b0fb2cefdbd7d2049",
+      "textHash": "e4dcdc98a7ca3b880dcf62723a9dfca3d118034a6d100b280ae85dff3c2553b1"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2019 Q4.pdf",
+      "year": 2019,
+      "question": 4,
+      "pages": 29,
+      "sha256": "8b430f920a57cdb7c279270273a50beeb6973aef137eb5c6840468e77b4a8567",
+      "textHash": "f4eef6f677aa6a9eae5ff0d5a629ea4d18b49ec820fd0e98d4e5c61369d6ff79"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2019 Q5.pdf",
+      "year": 2019,
+      "question": 5,
+      "pages": 25,
+      "sha256": "efec0fc231ed83bc9bc834ad4bf2a8badf9d3c067cacf29fee5e71d27cda5b31",
+      "textHash": "17b7a1d0be38f59ce0087ca4b4a00be5b4ad032a4ac1aac41edf1374d743c646"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2019 Q6.pdf",
+      "year": 2019,
+      "question": 6,
+      "pages": 26,
+      "sha256": "ad35ad411f78030efad68774df27c61b4c332a6b5029a203a85ba3ec112543c9",
+      "textHash": "b0a103c6adbc6fb874baac048028de52a3878e3a7482d64591ae52b5e13ac996"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2019 Q7.pdf",
+      "year": 2019,
+      "question": 7,
+      "pages": 27,
+      "sha256": "8ecac44f87cf1e0552fc5444e6cfd2c86c6a813aaedd34b8d9e084c4ca2c61fa",
+      "textHash": "252f974bba5cdd78715e4cffce74a8ce7bca1fd0447be47cceea91b319e09b24"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2019 Q8.pdf",
+      "year": 2019,
+      "question": 8,
+      "pages": 28,
+      "sha256": "e2da0e66debac41b3b66b7df05cb88d795376f96288b680f76326b1b7bce6ab4",
+      "textHash": "7bd3236287acac4749aa88ee6cba903ae66bc4d23f3c6110759933bd68ba69b6"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2019 Q9.pdf",
+      "year": 2019,
+      "question": 9,
+      "pages": 39,
+      "sha256": "132477088c5be46084a7a4250a788eda59c13eea8dcdad8d02c0296c417a15fd",
+      "textHash": "b613491819cf0559a26b1c94a5fbbeca7d6264f16d923cfbb590102f4a4fd7fe"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2020 Q2.pdf",
+      "year": 2020,
+      "question": 2,
+      "pages": 27,
+      "sha256": "da4f8b95bb3fef2ae7db4d9a78474f5916288a3c2cce1c6b47cdb8ecba9c1716",
+      "textHash": "6486093d66e59237040475ba0b4661fd1260f7b5d86370cdf95505b863850f29"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2020 Q3.pdf",
+      "year": 2020,
+      "question": 3,
+      "pages": 28,
+      "sha256": "bf4f7caff27973a2c5277abf86a0ca8eed7c80cd78aa1afae77eeca7a4af0ead",
+      "textHash": "aba5b6087772cfd8bae183bb7b459b2a24c79ebe61d67a8a4a5cfbd2a7f99449"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2020 Q4.pdf",
+      "year": 2020,
+      "question": 4,
+      "pages": 30,
+      "sha256": "05d42a87e137728c5ec584e2a4875ed47ff1b011ea94c0dbf8444b8e5ee91794",
+      "textHash": "abc6e909323aaa68a6810c5b30290454c2b125d5124b71660865672ee3fd77a3"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2020 Q5.pdf",
+      "year": 2020,
+      "question": 5,
+      "pages": 29,
+      "sha256": "01f4dd6fe2f933371941fcbbdee14bc0e2dccf002e379190f059444e1b5ddff0",
+      "textHash": "bda1d092eac8d4ae2b82cca22e7d8796a5142ccf2773cf17d1d1ce71e5cc7a32"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2020 Q6.pdf",
+      "year": 2020,
+      "question": 6,
+      "pages": 28,
+      "sha256": "bd876c19d201766caed1bf78b052deedafcd6aad2e403dd9d84abc0369565c12",
+      "textHash": "2c246508e5d2c9392a7ed6c4eb0f4054795afd6d18bbc881bf868d17ac327e60"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2020 Q7.pdf",
+      "year": 2020,
+      "question": 7,
+      "pages": 29,
+      "sha256": "e87a278a3d17b22618e22f778942f0f08285581358d7a249947f915afd64ebe0",
+      "textHash": "59002d065d85f43ca08b16cab19eed8604b8c95a1ff75757ad32dfface946577"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2020 Q8.pdf",
+      "year": 2020,
+      "question": 8,
+      "pages": 38,
+      "sha256": "771b1d72640c4774291d5e21fd3d3b3117d3086a063b8c963382cebcf73649fe",
+      "textHash": "38ddb29d320fa34273f01a4188bbcd5089ad20cdf20c7b640e48d0add59b6966"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2020 Q9.pdf",
+      "year": 2020,
+      "question": 9,
+      "pages": 23,
+      "sha256": "7938fd33d6c0679514c4e323662545d4ef0773e1992f22c0be5fef386641cc0d",
+      "textHash": "cdf6cb684b0a104df98b0966cb83715038991f68da579d55b8f6035e3bf633f8"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2021 Q2.pdf",
+      "year": 2021,
+      "question": 2,
+      "pages": 29,
+      "sha256": "cdbf21d54dce6b5d8b8f44968340504cfed3d38587cbdc521942ec392275b61a",
+      "textHash": "2cae4ffbb7f2cc63c1031f67eb951bce100dc9da9e5fc4ee835cf3e476dd47ce"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2021 Q3.pdf",
+      "year": 2021,
+      "question": 3,
+      "pages": 27,
+      "sha256": "e7eb6d16b5abb1fab36a51aa4b4d4bcd95860f6911294e372816e16289f4ef1c",
+      "textHash": "ec3de0a2749c186a32c04515d7db4fe82d86f94bab4a033318f2054855224b2d"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2021 Q4.pdf",
+      "year": 2021,
+      "question": 4,
+      "pages": 29,
+      "sha256": "8a1278c036c941705a9575f1c16ffe23594ccb59f54902b60ec87fc5be98c671",
+      "textHash": "c4a79eba8084889943a17914a2dc9069b6e7da812e1ab87a0168942f7b5fd05d"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2021 Q5.pdf",
+      "year": 2021,
+      "question": 5,
+      "pages": 29,
+      "sha256": "f9303a63280308efa489f59608fc2daba442afe3088ab9abe02980233a05aede",
+      "textHash": "098da700f760029a9bb96d3c9cfc24420080664c9790705b267d2b053e00a323"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2021 Q6.pdf",
+      "year": 2021,
+      "question": 6,
+      "pages": 24,
+      "sha256": "0d6f534e6497b80262a2610d5b25f6629c8f788810a98ade9535913585e430ff",
+      "textHash": "bcf5b75484ea4e43496371bb32fb4fca94cd0a87984c34d370d153b2a0a10a79"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2021 Q7.pdf",
+      "year": 2021,
+      "question": 7,
+      "pages": 38,
+      "sha256": "3337813bebbc67916a436136bc832ddf13cd958cfe8faa8d0a3ed8e20112bb42",
+      "textHash": "d26094702f7e23ad2eb9f2cb07a39ffb0dc82356b09f0087c44b6c52b25a7bb5"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2021 Q8.pdf",
+      "year": 2021,
+      "question": 8,
+      "pages": 27,
+      "sha256": "75b3c7194ed8a6a5c067d6b9f967255d2832f2cc529cfb2fbd25752cd5f33902",
+      "textHash": "1dc6950d89b954b01b8af8acbc9f6a3dbaa83ac169cf2b78cacfdd109eff9547"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2021Q9.pdf",
+      "year": 2021,
+      "question": 9,
+      "pages": 30,
+      "sha256": "b05ded8038608a4f88e185e844b2de265736371871e7890abb9ff83d3bc00877",
+      "textHash": "6a12f406deed4de17823bdff5ad84ad73e0d3286950a25eea15545cc58babdda"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2025Q2.pdf",
+      "year": 2025,
+      "question": 2,
+      "pages": 36,
+      "sha256": "d5a1bbc111b71fdd23393803ca86f949f375077f45fd940e2883e2ef72d3ee63",
+      "textHash": "5311468297be3a3a7ce258e7b21e65be934be0a19f1f2f2fc2f8e49ed1a828ad"
+    },
+    {
+      "group": "blanks",
+      "filename": "Fill in the blanks 2025Q4.pdf",
+      "year": 2025,
+      "question": 4,
+      "pages": 32,
+      "sha256": "95deb63a7b87171f49f4c7466ef0753bbdf1d488393575870e0bb676e22fd56e",
+      "textHash": "bb03d447097b826626ed73f52db881eec899128f3a54a5fff71f2ffc6ea499c7"
+    },
+    {
+      "group": "essays",
+      "filename": "2012 Q2 - Edmund Sir Model Essay.pdf",
+      "year": 2012,
+      "question": 2,
+      "pages": 18,
+      "sha256": "8d133863d429e4ff5855a181cbb883cde49607de55848d2f1d46c19b8869434f",
+      "textHash": "b6f92b16fa330fe37fdd94da6871aa15576874f147e4def4c5f43a5164eca76c"
+    },
+    {
+      "group": "essays",
+      "filename": "2012 Q3 - Edmund Sir Model Essay.pdf",
+      "year": 2012,
+      "question": 3,
+      "pages": 17,
+      "sha256": "5029a787ffbbd239523ab24f341494283226b24cfac857acc23b4ce9d1a2afd8",
+      "textHash": "183722d4d5c622a28907666db699b77d0d5321ae8fdb2b4aa888086965ae9675"
+    },
+    {
+      "group": "essays",
+      "filename": "2012 Q4 - Edmund Sir Model Essay.pdf",
+      "year": 2012,
+      "question": 4,
+      "pages": 17,
+      "sha256": "78c85234dbb492b95f008ba383deb0b42aaaaea67372e7ee84679a3ec91484e9",
+      "textHash": "df90c4edc0fbaf23504ebb2adf15bc04f9b38183aff9e50767985bdfa4ac6bd3"
+    },
+    {
+      "group": "essays",
+      "filename": "2012 Q5 - Edmund Sir Model Essay.pdf",
+      "year": 2012,
+      "question": 5,
+      "pages": 18,
+      "sha256": "38fa831b91e8a89b5cb40e2c028f3968df0860e45d158a4829dca572c1869895",
+      "textHash": "be1978eba3133b518b6f891f7245cb92c32ce9b9ff80a6fd7810f70fa59b6d8d"
+    },
+    {
+      "group": "essays",
+      "filename": "2012 Q6 - Edmund Sir Model Essay.pdf",
+      "year": 2012,
+      "question": 6,
+      "pages": 21,
+      "sha256": "673b29f80bebc3512d89903edaef112379ab878a73e642c7d2b02179a5780282",
+      "textHash": "715fb16935977ff628c60d91237f9c1dd5a0a8f0abb6043d90b5aa09cf4a8e4d"
+    },
+    {
+      "group": "essays",
+      "filename": "2012 Q8 - Edmund Sir Model Essay.pdf",
+      "year": 2012,
+      "question": 8,
+      "pages": 18,
+      "sha256": "b24980e023b2dca1fa612fb6b7859d2e27baf489c46d03931ca024f271fd94cb",
+      "textHash": "9f47803773be928393b08ffe56a2fbe52b5b2e6342849410b018f16017eec64b"
+    },
+    {
+      "group": "essays",
+      "filename": "2012 Q9 - Edmund Sir Model Essay.pdf",
+      "year": 2012,
+      "question": 9,
+      "pages": 19,
+      "sha256": "18ab02d690f1f6ac1f4c4f1486079363ffdfa8324988007d17b7513dbf4abd2e",
+      "textHash": "a30716bd4aa26010bdf61ed6a0ee6c5ae77e8549f59be8ff32c604a1988712f2"
+    },
+    {
+      "group": "essays",
+      "filename": "2013 Q2 - Edmund Sir Model Essay.pdf",
+      "year": 2013,
+      "question": 2,
+      "pages": 14,
+      "sha256": "e28b0f7389e76d89cd0fe66b94c5c57a0dd163138e3f8d82c8c7ee28a47144df",
+      "textHash": "e8e34fe79e0c046368058e0839bba8ad020d0d81b872b7829eba04416951730b"
+    },
+    {
+      "group": "essays",
+      "filename": "2013 Q3 - Edmund Sir Model Essay.pdf",
+      "year": 2013,
+      "question": 3,
+      "pages": 21,
+      "sha256": "5dd1e8d494680ebb5ab4db95f93d073ce47e3bb5ea3424b2d67234b0700dbf8b",
+      "textHash": "20820c68e70be6f6a7ce58b2a1708b8e3b57a0ad9c1c23e194e77b622242bea0"
+    },
+    {
+      "group": "essays",
+      "filename": "2013 Q4 - Edmund Sir Model Essay.pdf",
+      "year": 2013,
+      "question": 4,
+      "pages": 16,
+      "sha256": "9e14bec394ee569447c22dc935df4fc1fdbd2fde053f3cbb626e1aa70f9ad709",
+      "textHash": "f7960736a8aee27f8d2965ff2c29c8c19c91d9bd36395c9cc5e5d150145e457e"
+    },
+    {
+      "group": "essays",
+      "filename": "2013 Q5 - Edmund Sir Model Essay.pdf",
+      "year": 2013,
+      "question": 5,
+      "pages": 17,
+      "sha256": "df8fbee698cdb228b4396afef8813092428238664203615bc150ee0f5bc0c49f",
+      "textHash": "6d6463a63c3c3c36ff38d45fdfbe87d0f4cb1ef6af82a0aab6a2357c1f8f1b9a"
+    },
+    {
+      "group": "essays",
+      "filename": "2013 Q6 - Edmund Sir Model Essay.pdf",
+      "year": 2013,
+      "question": 6,
+      "pages": 17,
+      "sha256": "51da3cbeaf98aa82f0882c7553bb84f9cb47892912606009f758031c3b52c8d1",
+      "textHash": "c9652a5d8f0f0cb1a56fcf8f8e0af6d110b81fa4436bcb14f690828bae088cc2"
+    },
+    {
+      "group": "essays",
+      "filename": "2013 Q7 - Edmund Sir Model Essay.pdf",
+      "year": 2013,
+      "question": 7,
+      "pages": 17,
+      "sha256": "90a90a428e1f558d61f2007c2cfb1b9d66b96c3be2330ca86dd02ad7947cdee7",
+      "textHash": "b4627faaba364e3e217f7a4b13094ee9d403230150ccdc5a02c34a102333b7ad"
+    },
+    {
+      "group": "essays",
+      "filename": "2013 Q8 - Edmund Sir Model Essay.pdf",
+      "year": 2013,
+      "question": 8,
+      "pages": 17,
+      "sha256": "e8ac311694c6ab68639274b2a8427f7993de9c30c5866def4c15095903c89210",
+      "textHash": "235ada0f6578e10716b3033aa411a565e8abcfe8c5ff5bce4fa4603ad6296e29"
+    },
+    {
+      "group": "essays",
+      "filename": "2014 Q2 - Edmund Sir Model Essay.pdf",
+      "year": 2014,
+      "question": 2,
+      "pages": 18,
+      "sha256": "94bf365b056425cc0e248783e90cf97b1c52a3c8b608840069ece769406af592",
+      "textHash": "3b592cdecb7b419191dab2c78c9963abe7b0aba2b91425b0b435eff7d4dc12ea"
+    },
+    {
+      "group": "essays",
+      "filename": "2014 Q3 - Edmund Sir Model Essay.pdf",
+      "year": 2014,
+      "question": 3,
+      "pages": 16,
+      "sha256": "fbb9833bd8374e14ffb239fe4ddd8273a84c0199c6a598244a0c5b236aec98cd",
+      "textHash": "5d54020dc3f857727d92470e975a735b06806b84a392a6755bbf2189496e87eb"
+    },
+    {
+      "group": "essays",
+      "filename": "2014 Q4 - Edmund Sir Model Essay.pdf",
+      "year": 2014,
+      "question": 4,
+      "pages": 15,
+      "sha256": "89aa15950c1ebf734747ec5de3d32e45c6f43f219597226b3e010bdd420557c2",
+      "textHash": "e7fbb83c99f8325de7fe005f16c5c15556fbf8af5730e87e7e8d8af160169758"
+    },
+    {
+      "group": "essays",
+      "filename": "2014 Q5 - Edmund Sir Model Essay.pdf",
+      "year": 2014,
+      "question": 5,
+      "pages": 18,
+      "sha256": "80b5f36f35beabd798739ebb4380c5ebac57f80956a23a31f72e0742caf3317a",
+      "textHash": "3589bbe48cb2c08178277b1516238027faf2eb6312bd7dbac3206fd58216da9d"
+    },
+    {
+      "group": "essays",
+      "filename": "2014 Q6 - Edmund Sir Model Essay.pdf",
+      "year": 2014,
+      "question": 6,
+      "pages": 16,
+      "sha256": "e8f5073d44fc86cb11101aad0265583b5aa3e9a94630584933441dee7c98a24b",
+      "textHash": "8782aa0e5531099f433bb83e0ec340ded31f2576b6227e955d38b635bd46c353"
+    },
+    {
+      "group": "essays",
+      "filename": "2014 Q7 - Edmund Sir Model Essay.pdf",
+      "year": 2014,
+      "question": 7,
+      "pages": 16,
+      "sha256": "3529a40d62658511e7ea46a02ad599cd811b61497f46b3356b4209efff501798",
+      "textHash": "8b033fe46905ac562bbc7fdd4f7d483057a4e63e3a4f9c1c7f060aa0b6141849"
+    },
+    {
+      "group": "essays",
+      "filename": "2014 Q8 - Edmund Sir Model Essay.pdf",
+      "year": 2014,
+      "question": 8,
+      "pages": 17,
+      "sha256": "2b18d85309524afae6dc645518edc0579c54c58a4f167d4b59a85c7344cef39f",
+      "textHash": "ed73888577e50cc87165632202d2e5162b8cd1c647159ff7e7a80b957e5bc040"
+    },
+    {
+      "group": "essays",
+      "filename": "2014 Q9 - Edmund Sir Model Essay.pdf",
+      "year": 2014,
+      "question": 9,
+      "pages": 20,
+      "sha256": "dd5a81598d0552a07ef11fe22e17aabb3c3bbd21db28ffa5513c1041dcd84652",
+      "textHash": "be35ff3a65057a9ee8ef6a84813df468371ff4fe4ae5eaacc5223b09b8415ac8"
+    },
+    {
+      "group": "essays",
+      "filename": "2015 Q3 - Edmund Sir Model Essay.pdf",
+      "year": 2015,
+      "question": 3,
+      "pages": 20,
+      "sha256": "b0ba577fb00f35b26100edabcf9a96d0509cad07170b86ef5f10d9d40e4ed630",
+      "textHash": "005b04bb45443b021d92a82a1a5bafaa73f1a7edafdb08b71d3059c7e6581fb1"
+    },
+    {
+      "group": "essays",
+      "filename": "2015 Q4 - Edmund Sir Model Essay.pdf",
+      "year": 2015,
+      "question": 4,
+      "pages": 17,
+      "sha256": "0b541bbaa731eb2061c5de90e58ce25823ad5f816e0b7f8699454612d188feed",
+      "textHash": "39c409a92bd9bd5400bf13de5f986c810c95f9bdc36ad4f5a4ed2e0762378409"
+    },
+    {
+      "group": "essays",
+      "filename": "2015 Q5 - Edmund Sir Model Essay.pdf",
+      "year": 2015,
+      "question": 5,
+      "pages": 16,
+      "sha256": "6aa5076a3fd8682399172a74d8965ead80f1a0e91ea767652f59a83f89bc611c",
+      "textHash": "43edc29947fb5aa90b4755e70535aa400d114704d7e9504474899dd202f665ac"
+    },
+    {
+      "group": "essays",
+      "filename": "2015 Q6 - Edmund Sir Model Essay.pdf",
+      "year": 2015,
+      "question": 6,
+      "pages": 18,
+      "sha256": "0fc1dd13c9653a51f8c83a92fb0da94094cdcefc73c9bd1e426dffde9f765386",
+      "textHash": "f6231cb5fe573489a27014e3c815e26868fcd34fd7d44c46987fe82cd51d3244"
+    },
+    {
+      "group": "essays",
+      "filename": "2015 Q7 - Edmund Sir Model Essay.pdf",
+      "year": 2015,
+      "question": 7,
+      "pages": 20,
+      "sha256": "0194f1cd62e49510dc1b2148b0f5a7e76a13e623e7ec7ae96034bb3abc8991fb",
+      "textHash": "0c190aaa6845f4b141d3368eb08c52a072c21218e9f018cddcb180f48dec6731"
+    },
+    {
+      "group": "essays",
+      "filename": "2015 Q8 - Edmund Sir Model Essay.pdf",
+      "year": 2015,
+      "question": 8,
+      "pages": 14,
+      "sha256": "0636ae7b94ea9781b19de3f3e5b00c0bdd5f84f819942b559cbcf6bb2a907ab3",
+      "textHash": "5e4c473ee29d2189a5076f3ff81103b05f9154aa9a33af11115c5660131fc27b"
+    },
+    {
+      "group": "essays",
+      "filename": "2015 Q9 - Edmund Sir Model Essay.pdf",
+      "year": 2015,
+      "question": 9,
+      "pages": 17,
+      "sha256": "934c47a0a56557b4448cf251081162e3612145a5c655ab6041471ace28969fcc",
+      "textHash": "30b4e5feb35f9f23824c6c1a5668fc59aeed72d2a7117f6be6a5812a3060f1ab"
+    },
+    {
+      "group": "essays",
+      "filename": "2015Q2 - Edmund Sir Model Essay.pdf",
+      "year": 2015,
+      "question": 2,
+      "pages": 17,
+      "sha256": "dfeaa5b1e7cf801bf4dd95a4cf187d960535ccc7ff95b4e9057a92bdeefa5efc",
+      "textHash": "b7d9e9562d5b23e4d0233a9c3fdea9e451ca46f7641b54ab0d7d7e097360ebfb"
+    },
+    {
+      "group": "essays",
+      "filename": "2016 Q2 - Edmund Sir Model Essay.pdf",
+      "year": 2016,
+      "question": 2,
+      "pages": 18,
+      "sha256": "92656d9635e3c34878aedc464d9b47b4c883f374d9e3be7ebac4eb7c94f76195",
+      "textHash": "d92489cb70c35aeb7c736e4ab3929cc79bb7a86b8286c476d05016c2f7910d69"
+    },
+    {
+      "group": "essays",
+      "filename": "2016 Q3 - Edmund Sir Model Essay.pdf",
+      "year": 2016,
+      "question": 3,
+      "pages": 15,
+      "sha256": "2568f19249be1fdc8b98d7cf52c0fcd68499f53f24bb95f4707a0d1308cce7d0",
+      "textHash": "a7e78471a446849e2d3f85d72c9dd38c895903556153f8ed2f2039c0b4e2cd5f"
+    },
+    {
+      "group": "essays",
+      "filename": "2016 Q4 - Edmund Sir Model Essay.pdf",
+      "year": 2016,
+      "question": 4,
+      "pages": 17,
+      "sha256": "e804435f6b31e66df0f2b703f2190dc896ea15b589c3ebba7ddf6eb7b4ec7b06",
+      "textHash": "52fd26fd889b4195e704c4ee4b807661c53998659e5a11923e3e9e7ee25426cb"
+    },
+    {
+      "group": "essays",
+      "filename": "2016 Q5 - Edmund Sir Model Essay.pdf",
+      "year": 2016,
+      "question": 5,
+      "pages": 14,
+      "sha256": "f53e450d8ddd97046083b8481499004bde2dc1f55d33b308fbaa115b6818521e",
+      "textHash": "2ec5affb5a52e922196e4cb8b8af524b15bbe426b311cf827b6873ad559fbe96"
+    },
+    {
+      "group": "essays",
+      "filename": "2016 Q6 - Edmund Sir Model Essay.pdf",
+      "year": 2016,
+      "question": 6,
+      "pages": 25,
+      "sha256": "b5351dcf06c9a1c38983991a38c59bc061f022ef643967f7ba35902aba556625",
+      "textHash": "432fd1f3ce35d84144658427753730ea8207de909af8fc2ced50e246d8240cbe"
+    },
+    {
+      "group": "essays",
+      "filename": "2016 Q7 - Edmund Sir Model Essay.pdf",
+      "year": 2016,
+      "question": 7,
+      "pages": 18,
+      "sha256": "6396d83ae1806e7c8cf48dccdffae81fea621b061267af921458c7bfaed138bd",
+      "textHash": "7729773bb7492c9a8d9f28714bd845510c17338a8054b417df2c429f353d9a98"
+    },
+    {
+      "group": "essays",
+      "filename": "2016 Q8 - Edmund Sir Model Essay.pdf",
+      "year": 2016,
+      "question": 8,
+      "pages": 18,
+      "sha256": "7ba9ffea97c28d6737ef2b0e5c23d315a64d60fe87b8055b3a5e70bb82bc28b9",
+      "textHash": "ead2b638d293288b8fb33d27839752f7f2e1b0dbc299e6f555520d7b43409053"
+    },
+    {
+      "group": "essays",
+      "filename": "2016 Q9 - Edmund Sir Model Essay.pdf",
+      "year": 2016,
+      "question": 9,
+      "pages": 17,
+      "sha256": "b6337cb6d2c54a0815059f8bd6c0f6f41d15f19116548180072f68b7803ed99a",
+      "textHash": "2efbb2bf51c66218d1cb24aaa1213d3a2737fb8e5dfa32aaa9c61a70faf3c05e"
+    },
+    {
+      "group": "essays",
+      "filename": "2017 Q2 - Edmund Sir Model Essay.pdf",
+      "year": 2017,
+      "question": 2,
+      "pages": 18,
+      "sha256": "12298d2bdd325c3de43fea879e344fb9f73b4264a1ccf3b3a0780cad13e506fa",
+      "textHash": "a317d91ba950bf9e7a0247ef20c84372571223d992f588776be83f3f403c15ee"
+    },
+    {
+      "group": "essays",
+      "filename": "2017 Q3 - Edmund Sir Model Essay.pdf",
+      "year": 2017,
+      "question": 3,
+      "pages": 21,
+      "sha256": "098c43072bcd18bb4d88e40ab06ae11caaea908b5ff583f39c4259cfc19de987",
+      "textHash": "c3b73d4e7d50affb87c9c559e6d4c3fd474e131f84ef19f034a6350654a4936e"
+    },
+    {
+      "group": "essays",
+      "filename": "2017 Q4 - Edmund Sir Model Essay.pdf",
+      "year": 2017,
+      "question": 4,
+      "pages": 17,
+      "sha256": "96e047cb3e31a20478c5736cb29b73b64e737e63cc48fadd4b9477f2a99bd8d3",
+      "textHash": "0e27ce6e3a1c42f178652ed684590cb8cbdf244ae6129ad658bf12efcd1abccb"
+    },
+    {
+      "group": "essays",
+      "filename": "2017 Q5 - Edmund Sir Model Essay.pdf",
+      "year": 2017,
+      "question": 5,
+      "pages": 18,
+      "sha256": "e2ebfd80d8062aec11ab28efb79b9abc663c31fcc813d383c204412fbe0f4dd8",
+      "textHash": "3c057470f36fdfaf3fc2db6016288e0ea8e3f77ddd802ed7e985c98398a0ae41"
+    },
+    {
+      "group": "essays",
+      "filename": "2017 Q6 - Edmund Sir Model Essay.pdf",
+      "year": 2017,
+      "question": 6,
+      "pages": 16,
+      "sha256": "a4fdcd80a3c73262d9a4393ad5ab34724c5739f82c7f857f91212c3343ccee48",
+      "textHash": "d19340070713e2f0071d4435caf7861723e9825673487ff8fa8570593b2da005"
+    },
+    {
+      "group": "essays",
+      "filename": "2017 Q7 - Edmund Sir Model Essay.pdf",
+      "year": 2017,
+      "question": 7,
+      "pages": 16,
+      "sha256": "069b0ecf703f85a5f45dbbaf894447e7ac1f47c72ae5b20544e3e7c233679cd6",
+      "textHash": "8561a1564365096a94b8fa424ac78de385b585e33a4bf4a741dcdc2b358f80f8"
+    },
+    {
+      "group": "essays",
+      "filename": "2017 Q8 - Edmund Sir Model Essay.pdf",
+      "year": 2017,
+      "question": 8,
+      "pages": 19,
+      "sha256": "895cdcc47fa9fbb39f155d120479b53eeb4835705f25f30473e0c31b9e8a86da",
+      "textHash": "6b9c5a586584dc24aad51d5ea12b82e2fb28e42344fce162befb23a01bc180d2"
+    },
+    {
+      "group": "essays",
+      "filename": "2017 Q9 - Edmund Sir Model Essay.pdf",
+      "year": 2017,
+      "question": 9,
+      "pages": 17,
+      "sha256": "492da233b4dadb28849e4877f346451bf1053bafc36b8be441820b95e601706a",
+      "textHash": "bb8445eb96438d2bf269fc4c1f56929d768c966b0287b6bd2916cfc24862d7df"
+    },
+    {
+      "group": "essays",
+      "filename": "2018 Q2 - Edmund Sir Model Essay.pdf",
+      "year": 2018,
+      "question": 2,
+      "pages": 15,
+      "sha256": "08288f3947acab188e6f0545922355f7b025668e93e5b054a8ab4096501aa64b",
+      "textHash": "aca8a859f9dc3a10b88cf58c3e3f724dd84c4b8bab3b3e33b3f953fbb3329d83"
+    },
+    {
+      "group": "essays",
+      "filename": "2018 Q3 - Edmund Sir Model Essay.pdf",
+      "year": 2018,
+      "question": 3,
+      "pages": 18,
+      "sha256": "1f657ec78a1c53ac6309dab99b765dd798aa1b03a6c78587e744d0a25489bdf9",
+      "textHash": "a1cc0c61d10e402f3c6f42d8fbdb7ab6b2033004305f354fd8546929edaeee99"
+    },
+    {
+      "group": "essays",
+      "filename": "2018 Q4 - Edmund Sir Model Essay.pdf",
+      "year": 2018,
+      "question": 4,
+      "pages": 16,
+      "sha256": "f485d857af3d46939a88bfeb3bc02075e650475964c8874c3f40fbcbf2dc2222",
+      "textHash": "dd93b0b50a9b6bfac431b01b3dff2d2c45c8d18f59e3f0a6f6479d2899ed8044"
+    },
+    {
+      "group": "essays",
+      "filename": "2018 Q5 - Edmund Sir Model Essay.pdf",
+      "year": 2018,
+      "question": 5,
+      "pages": 18,
+      "sha256": "82d13ecb4f168560800b7b1c3c95147e1c40a140745a14d418a8d54932f0d741",
+      "textHash": "7ba70aeafd7c6d16c6a733c614b938b01635a586712b9810a289214dd6f9cf19"
+    },
+    {
+      "group": "essays",
+      "filename": "2018 Q6 - Edmund Sir Model Essay.pdf",
+      "year": 2018,
+      "question": 6,
+      "pages": 18,
+      "sha256": "80796decae0cfaf4f07f10edacb742b93e4877e7c4e85f67bf045f21a4c4e4dc",
+      "textHash": "27bf4a87be795bb0016768f9e0f09d83395fccd4de19e7e1c8dc1784336cb3b6"
+    },
+    {
+      "group": "essays",
+      "filename": "2018 Q7 - Edmund Sir Model Essay.pdf",
+      "year": 2018,
+      "question": 7,
+      "pages": 18,
+      "sha256": "6edcc05df5de6bfedf105002ea9efcf2786d7e1209f2d71fea7d9d9ff81cab2d",
+      "textHash": "78d21c185a273b1d60649acf1ceae7950877b6adb5c589105c3f783391acd8e6"
+    },
+    {
+      "group": "essays",
+      "filename": "2018 Q8 - Edmund Sir Model Essay.pdf",
+      "year": 2018,
+      "question": 8,
+      "pages": 15,
+      "sha256": "ff750e73b901f83b3a75265e6b8556f93e6c3353e771b921bed49c6ae51d99e9",
+      "textHash": "39641462c24716476152dd53a96926c10ab05c94eb90e3c238158a2985ac32ce"
+    },
+    {
+      "group": "essays",
+      "filename": "2018 Q9 - Edmund Sir Model Essay.pdf",
+      "year": 2018,
+      "question": 9,
+      "pages": 24,
+      "sha256": "1e16d22f1e1a8d400cf91701353c11a5ac14caa56348eca5501bf152ca54d6cb",
+      "textHash": "732ba86d7e65d6c377659066968692740fcc996ba6ae27f86668eecaa659ebeb"
+    },
+    {
+      "group": "essays",
+      "filename": "2019 Q2 - Edmund Sir Model Essay.pdf",
+      "year": 2019,
+      "question": 2,
+      "pages": 16,
+      "sha256": "f1433d06ba7b33b8dbc1eb078d3a7ebad69e7ea843c0f6582b732331dee2238a",
+      "textHash": "a7e32e27711cc6cbbb20e8ca83e869fb860100c9dad0ac018b2c9781a81ea9f6"
+    },
+    {
+      "group": "essays",
+      "filename": "2019 Q4 - Edmund Sir Model Essay.pdf",
+      "year": 2019,
+      "question": 4,
+      "pages": 15,
+      "sha256": "8e43ffddc47e23693a562e33387e4bf2b19c5807ae5ef4f90f6ab593724c7104",
+      "textHash": "b51e686eba7a68fedb660ae3af9191a904139bfcc51403a51aaa8374bd5c74b7"
+    },
+    {
+      "group": "essays",
+      "filename": "2019 Q5 - Edmund Sir Model Essay.pdf",
+      "year": 2019,
+      "question": 5,
+      "pages": 16,
+      "sha256": "0a3bcd81657a3f4a5d34b54b586eb1059e73745eb775e55c222a7ec658e63080",
+      "textHash": "02a0e4c921166cefa70761b6ff28fd0b22a79d074151e3e41ef13ec63179f067"
+    },
+    {
+      "group": "essays",
+      "filename": "2019 Q6 - Edmund Sir Model Essay.pdf",
+      "year": 2019,
+      "question": 6,
+      "pages": 17,
+      "sha256": "fe0ccc57b5060412451908cfb755e9dc0a2d43a1b9dce3e826c5cf7bdbcf0f07",
+      "textHash": "8fb3f031d465a213c2ed976ea57b3d6251605a983d3af0d74b17afd761b81e51"
+    },
+    {
+      "group": "essays",
+      "filename": "2019 Q7 - Edmund Sir Model Essay.pdf",
+      "year": 2019,
+      "question": 7,
+      "pages": 19,
+      "sha256": "9cabd7cdc665891c3b651f739937bc96a4658c0176eeb9dea79c59172bdfac43",
+      "textHash": "aaa53a9aa26ccbe42fc1c4d6d150530c1eafa3dd5afb779f1eabee70f8381b74"
+    },
+    {
+      "group": "essays",
+      "filename": "2019 Q8 - Edmund Sir Model Essay.pdf",
+      "year": 2019,
+      "question": 8,
+      "pages": 18,
+      "sha256": "3add3ccf0fdb40b0b5858bb94d12f2d3e13d8aa65ffaa0eeac73c657aa3119d5",
+      "textHash": "0f82054069bd325bc6770f5530d7630f3f87086ecee7d722c74ba694d50ee040"
+    },
+    {
+      "group": "essays",
+      "filename": "2020 Q2 - Edmund Sir Model Essay.pdf",
+      "year": 2020,
+      "question": 2,
+      "pages": 16,
+      "sha256": "ee66e7cde6888430555898c29cecaa0fe79729d26801343864266c30ceff42b3",
+      "textHash": "fd64b44333e0621f5d3073c3cae0c424548be4f54ac7bb2328f629b9f4bcbc19"
+    },
+    {
+      "group": "essays",
+      "filename": "2020 Q3 - Edmund Sir Model Essay.pdf",
+      "year": 2020,
+      "question": 3,
+      "pages": 18,
+      "sha256": "bfb0c6e8016286bde93ca10ea478326def4448fbc13f054e9c0c678908d796d4",
+      "textHash": "4d8462307db60121d061f2b5aa03656cc9649adc977090cdaff35604f46a6688"
+    },
+    {
+      "group": "essays",
+      "filename": "2020 Q4 - Edmund Sir Model Essay.pdf",
+      "year": 2020,
+      "question": 4,
+      "pages": 15,
+      "sha256": "b08ad2844bb8ad16334bbbe8b722b481ac21554a935d1d4a481647ca1f90114c",
+      "textHash": "8450968c8fbcb4fb7374c2aac266a9914c77ffd8fe327317e84ad33aafb714ad"
+    },
+    {
+      "group": "essays",
+      "filename": "2020 Q5 - Edmund Sir Model Essay-1.pdf",
+      "year": 2020,
+      "question": 5,
+      "pages": 20,
+      "sha256": "0e18462498aa045b54de95a288fe4c4b044f15dd44dcd786e990cb4d28111eb1",
+      "textHash": "c869e4868c3d1017e08b46032ca203641d4ef5ed50af237752127ca4e390b8d0"
+    },
+    {
+      "group": "essays",
+      "filename": "2020 Q5 - Edmund Sir Model Essay.pdf",
+      "year": 2020,
+      "question": 5,
+      "pages": 20,
+      "sha256": "d926a53d69de02d86dc726f91e8792d397458512ffd940148a36df5d32a12054",
+      "textHash": "c869e4868c3d1017e08b46032ca203641d4ef5ed50af237752127ca4e390b8d0"
+    },
+    {
+      "group": "essays",
+      "filename": "2020 Q6 - Edmund Sir Model Essay-1.pdf",
+      "year": 2020,
+      "question": 6,
+      "pages": 18,
+      "sha256": "97ce6ad9ef17714173bb13e550585e1efe79513d0e387156ebbc3e87608d645a",
+      "textHash": "e3246230cf16132d232879cd593cb5a7f767597dd287d202be2ea5da6ad5f50b"
+    },
+    {
+      "group": "essays",
+      "filename": "2020 Q6 - Edmund Sir Model Essay.pdf",
+      "year": 2020,
+      "question": 6,
+      "pages": 18,
+      "sha256": "f2abd5d22a717b5038ecd18c16389639c92b575729b861389214a9b86ea0df86",
+      "textHash": "e3246230cf16132d232879cd593cb5a7f767597dd287d202be2ea5da6ad5f50b"
+    },
+    {
+      "group": "essays",
+      "filename": "2020 Q7 - Edmund Sir Model Essay.pdf",
+      "year": 2020,
+      "question": 7,
+      "pages": 20,
+      "sha256": "7250cdd7e391a7f06fe03cf0a32f3c6a4f78588c9bd48456ed3df070a82f897f",
+      "textHash": "5425168b54240b7a766ffb24fede307b1ab93a70efbb7a83d1a63df70f97d8a2"
+    },
+    {
+      "group": "essays",
+      "filename": "2020 Q8 - Edmund Sir Model Essay.pdf",
+      "year": 2020,
+      "question": 8,
+      "pages": 25,
+      "sha256": "ac9d8227760488f49bfee205e2bb5d042d65bbc4129465915cf26c7fb30bc8f6",
+      "textHash": "c57c34a9f03b152107d31b45061c5da7071d5b620d26256532ace7f4727c29bf"
+    },
+    {
+      "group": "essays",
+      "filename": "2020 Q9 - Edmund Sir Model Essay.pdf",
+      "year": 2020,
+      "question": 9,
+      "pages": 18,
+      "sha256": "a7951ea8ad7ea9d5d4fb878a16989099c2a0cd40c0bbef655e6a777f7330a252",
+      "textHash": "76aab78aa059f2763550237a18883b6c28a42d586619c7790030c6a92e293501"
+    },
+    {
+      "group": "essays",
+      "filename": "2021 Q2 - Edmund Sir Model Essay.pdf",
+      "year": 2021,
+      "question": 2,
+      "pages": 17,
+      "sha256": "7c9d700b8cc1eaf6dbb01af557097cea70fd96c3b3026106e4240e7cbfa594f4",
+      "textHash": "089f2622dcc932458f8cfdbab2fd8e80ddcacd29360444e772de27b48ed2f351"
+    },
+    {
+      "group": "essays",
+      "filename": "2021 Q3 - Edmund Sir Model Essay.pdf",
+      "year": 2021,
+      "question": 3,
+      "pages": 18,
+      "sha256": "40ee0cd256b4ddecf820c5311d4af1030af558ade8346e0b02ad6828291b03cb",
+      "textHash": "3aef52292f7a7fa50baeb416b0b5128391091396426b258d985309bdf96a1cb5"
+    },
+    {
+      "group": "essays",
+      "filename": "2021 Q4 - Edmund Sir Model Essay.pdf",
+      "year": 2021,
+      "question": 4,
+      "pages": 17,
+      "sha256": "c151759572a4cfceca6194d8cb43f25aebeef726d47c64b844e3d0228402651a",
+      "textHash": "4bebc5b53549d4c1d06e4d893a17875be1a825ea3357b8a7361f608cd375aab5"
+    },
+    {
+      "group": "essays",
+      "filename": "2021 Q6 - Edmund Sir Model Essay.pdf",
+      "year": 2021,
+      "question": 6,
+      "pages": 19,
+      "sha256": "9a00b765f6bd0874e37fd1d25d9392e860772b130d47a8d2461e0503d254b557",
+      "textHash": "054d588c3a37ba57450e53c9257409fc951113accbea065b3a88b76a5f4eac63"
+    },
+    {
+      "group": "essays",
+      "filename": "2021 Q7 - Edmund Sir Model Essay.pdf",
+      "year": 2021,
+      "question": 7,
+      "pages": 24,
+      "sha256": "96a6a64358167fa2757ca63a890d3e05dc8275a5c423e7a07e59bb86ecb04d05",
+      "textHash": "0cb26c3afaaf1d7809ed0ddd16631e05681883b44a7b9d2873b504bf8d6138c2"
+    },
+    {
+      "group": "essays",
+      "filename": "2021 Q8 - Edmund Sir Model Essay.pdf",
+      "year": 2021,
+      "question": 8,
+      "pages": 19,
+      "sha256": "d6fa8d088cf58c2f495c9f87b717a2164cea1186682b19a2d3a8081d7be0217d",
+      "textHash": "2085add0c8ae85fed90d73c43fd3442f2bf4f6ba1bfd75d754211d1c4badae09"
+    },
+    {
+      "group": "essays",
+      "filename": "2021 Q9 - Edmund Sir Model Essay.pdf",
+      "year": 2021,
+      "question": 9,
+      "pages": 17,
+      "sha256": "a8537ef57821c8e0da07a7f6841a0b6c6b4d3934ddc7ec2b34bdcda1e55bb38c",
+      "textHash": "1182b7765ff4930177d143e5d8dbf16c6d3728107458625d54e9ffbf1c2affaf"
+    },
+    {
+      "group": "essays",
+      "filename": "2023 Q5 - Edmund Sir Model Essay.pdf",
+      "year": 2023,
+      "question": 5,
+      "pages": 17,
+      "sha256": "77c4db6657b3199a58e18fc8fcc14a742e0010af4e8d578ac939c46a259c04c6",
+      "textHash": "f5c163490be9637a955ae9781a33f1630c4f8d672a6f7d5a2146b4cc5717198a"
+    },
+    {
+      "group": "essays",
+      "filename": "2023 Q8 - Model Essay - Edmund Sir Model Essay.pdf",
+      "year": 2023,
+      "question": 8,
+      "pages": 20,
+      "sha256": "8a906ccd0fcf4c8ea0b792b0d5c6a2ebfc77cb1240f8d5c6558446e306d5841f",
+      "textHash": "79754159457a2db11e5835eaf11bb00d854de0e26377eb07e65df41cc2e4a99d"
+    },
+    {
+      "group": "essays",
+      "filename": "2024 Q4 - Edmund Sir Model Essay.pdf",
+      "year": 2024,
+      "question": 4,
+      "pages": 18,
+      "sha256": "9318cba20b14cd4753585b605b3edf5502007aa61ffca534f74fe5a83d54990d",
+      "textHash": "1ce405ed7f4c55e728d409020dbb1948674cc4650c300ac0ddec3ebcb8a17930"
+    },
+    {
+      "group": "essays",
+      "filename": "2025Q2 - DSE Writing - Edmund Sir Model Essay.pdf",
+      "year": 2025,
+      "question": 2,
+      "pages": 23,
+      "sha256": "e4f20815b7e7bc791f6d5465c4dc8877622fb399164f52e12dca960524a1bbd9",
+      "textHash": "0cc651f9af97e5868ca2d42de472c064c59443d0873426f7c2af3fdd4e5a69c0"
+    },
+    {
+      "group": "essays",
+      "filename": "2025Q4 - Edmund Sir Model Essay.pdf",
+      "year": 2025,
+      "question": 4,
+      "pages": 18,
+      "sha256": "21db53ea71aabb7079e36d706171d12b51387628e442459509c126c9a5e32e78",
+      "textHash": "7afb57123d821360fea80b611de0534ff36e5b3dc6f3dae9c34a1d91cffaacbd"
+    }
+  ],
+  "counts": {
+    "flashcardSets": 87,
+    "flashcards": 12420,
+    "worksheetPDFs": 83,
+    "distinctWorksheetTopics": 82,
+    "modelEssayPDFs": 82,
+    "distinctModelPDFTexts": 80,
+    "writingPracticeEntries": 86,
+    "sourceBilingualUnits": 3599,
+    "questionPrompts": 107
+  },
+  "notes": [
+    "Duplicate source PDFs are retained in downloads; duplicate exercise passages are consolidated.",
+    "2012 Q5 PDF contains a Q6 English essay and the Q5 bilingual debating-club speech. Those sections are assigned to their correct questions.",
+    "2012 Q6 PDF contains the Q7 sports-car story.",
+    "2023 Q8 PDF contains two different models; the bilingual version is available as a separate practice entry.",
+    "2013 Q9 worksheet contains an excerpt, which is preserved without inventing the rest of the story.",
+    "2016 Q6 Hard retains all 75 blanks from the uncued worksheet; omitted hint-version slots 60 and 61 are restored from the source passage.",
+    "224 one-letter words at the ends of answers are retained using the uncued worksheet as boundary evidence.",
+    "American female audio uses the installed Samantha (en-US) voice; sentence boundaries come from individual recordings and word highlighting is estimated within each sentence."
+  ]
+}

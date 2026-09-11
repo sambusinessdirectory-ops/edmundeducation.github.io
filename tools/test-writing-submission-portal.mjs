@@ -265,13 +265,13 @@ test("random question delivery exposes exactly four permission-gated canonical c
   ]));
   assert.deepEqual(counts, {
     "dse-part-a": 15,
-    "dse-part-b": 3,
+    "dse-part-b": 89,
     "ielts-task-1": 60,
     "ielts-task-2": 228
   });
 
   const dseCatalog = writingCatalog.filter((resource) => resource.sectionKey === "dse-writing");
-  assert.equal(dseCatalog.length, 18);
+  assert.equal(dseCatalog.length, 104);
   for (const resource of dseCatalog) {
     const expectedCategory = resource.detail.includes("· Part B ·") ? "dse-part-b" : "dse-part-a";
     assert.equal(

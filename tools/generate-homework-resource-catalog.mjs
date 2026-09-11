@@ -141,6 +141,7 @@ async function flashcardResources(allFiles) {
     filename: "flashcards.html#EDMUND_FLASHCARD_SEED",
     timeout: 20_000
   });
+  vm.runInContext(await readFile(path.join(root, "dse-writing-part-b-topics.js"), "utf8"), sandbox);
   const dataFiles = allFiles
     .filter((file) => /^flashcards-.*-data\.js$/.test(file))
     .sort();
@@ -233,7 +234,10 @@ async function flashcardResources(allFiles) {
       const readingPractice = readingMatch?.[2] || "";
       const readingTitle = readingTitlesByPassage.get(readingPassage)?.[readingPractice] || "";
       const sunnyPage = sunnyPagePattern.exec(deckId);
-      const exactTitle = (sunnyPage ? `S3 Grammar Book / Page ${sunnyPage[1]} (Sunny)` : "")
+      const dseWriting = /^dse\/writing\/part-b\/(20\d{2})\/(Q\d+)$/.exec(deckId);
+      const dseWritingTitle = dseWriting ? sandbox.window.EDMUND_DSE_WRITING_PART_B_TITLES?.[dseWriting[1]]?.[dseWriting[2]] : "";
+      const exactTitle = (dseWritingTitle ? `DSE Writing Part B ${dseWriting[1]} / ${dseWritingTitle}` : "")
+        || (sunnyPage ? `S3 Grammar Book / Page ${sunnyPage[1]} (Sunny)` : "")
         || businessConceptBookOneTitles.get(deckId)
         || hkfsdIncidentReportTitles.get(deckId)
         || hkfsdBookOneTitles.get(deckId)
@@ -333,6 +337,12 @@ async function dseWritingPartADownloadResources() {
 
 const downloadMaterialSources = Object.freeze([
   Object.freeze({
+    file: "dse-writing-part-b-downloads.js",
+    globalName: "EDMUND_DSE_WRITING_PART_B_DOWNLOADS",
+    catalogKey: () => "dse-writing-part-b",
+    sectionLabel: "DSE Writing Part B"
+  }),
+  Object.freeze({
     file: "dse-writing-part-a-downloads.js",
     globalName: "EDMUND_DSE_WRITING_PART_A_DOWNLOADS",
     catalogKey: () => "dse-writing-part-a",
@@ -401,7 +411,7 @@ async function downloadMaterialResources() {
       if (!/^[a-f0-9]{16}$/i.test(itemId) || !Number.isSafeInteger(ordinal) || ordinal < 1) {
         throw new Error(`Invalid ${source.sectionLabel} download item: ${JSON.stringify(item)}`);
       }
-      if (!/^(?:dse-writing-part-a|task1|task2|speaking|reading-passage-[123]|listening)$/.test(catalogKey)) {
+      if (!/^(?:dse-writing-part-[ab]|task1|task2|speaking|reading-passage-[123]|listening)$/.test(catalogKey)) {
         throw new Error(`Invalid download catalogue route for ${itemId}: ${catalogKey}`);
       }
       const detailParts = [

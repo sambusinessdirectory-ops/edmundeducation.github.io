@@ -21,6 +21,270 @@ export const WRITING_SUBMISSION_TOPIC_CATALOG = Object.freeze([
     ]
   },
   {
+    "id": "fill:dse-writing-2012-part-b-q2",
+    "type": "fill-blanks",
+    "label": "2012 Q2 — Virtual Sports versus Real Sports",
+    "detail": "DSE Writing 2012 · Part B · Question 2",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You have been following an online debate in Health and Fitness eMag about the value of doing virtual sports, such as those played on a Wii, versus real sports. Write your view on the topic and post it on the online forum."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2012-part-b-q3",
+    "type": "fill-blanks",
+    "label": "2012 Q3 — Learning through Drama",
+    "detail": "DSE Writing 2012 · Part B · Question 3",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You have been surfing a website on the use of drama techniques in education. You have seen the following topic on an online forum and are now writing your response. Many teachers incorporate drama into their lessons as they feel it has various educational benefits. However some parents are against this as they feel that learning cannot take place through drama. What is your opinion? Please share your experience of learning through drama with us!"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2012-part-b-q4",
+    "type": "fill-blanks",
+    "label": "2012 Q4 — Our First Music Festival Performance",
+    "detail": "DSE Writing 2012 · Part B · Question 4",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are the lead singer in a band. Last week you held your first performance at a music festival in Victoria Park. Write on your blog describing the performance, including how you felt, the atmosphere and the things you could have done better."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2012-part-b-q5",
+    "type": "fill-blanks",
+    "label": "2012 Q5 — Join the School Debating Club",
+    "detail": "DSE Writing 2012 · Part B · Question 5",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are trying to recruit more people to join the school debating club. Write a speech to give at the next school assembly explaining the activities the debating club organises, the benefits of being in the club and also the importance in life of being a good debater."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2012-part-b-q6",
+    "type": "fill-blanks",
+    "label": "2012 Q6 — The Obsession with Physical Beauty",
+    "detail": "DSE Writing 2012 · Part B · Question 6",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "The human desire to look attractive is universal and because of this, cosmetic surgery is now a multi-million dollar industry. Write a letter to the editor of the Hong Kong Express about the obsession with physical beauty."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2012-part-b-q7",
+    "type": "fill-blanks",
+    "label": "2012 Q7 — My Brother and the Sports Car",
+    "detail": "DSE Writing 2012 · Part B · Question 7",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Your creative writing teacher has given your class the following task and she would like you to use it to write a short story. The stories will be displayed in school during Creativity in Learning Week. You were walking by the Peninsula Hotel in Tsim Sha Tsui when you spotted your brother driving an expensive sports car. The last time you spoke to him, he was looking for a job. Write a story about how you found out the truth."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2012-part-b-q8",
+    "type": "fill-blanks",
+    "label": "2012 Q8 — Second Chance: Employing Rehabilitated Offenders",
+    "detail": "DSE Writing 2012 · Part B · Question 8",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are an intern at Hong Kong Correctional Services. The government has launched a campaign called Second Chance to encourage employers to recruit reformed criminals or drug addicts. Write a letter to all Hong Kong businesses outlining the new project, explaining the benefits and persuading them to join the scheme."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2012-part-b-q9",
+    "type": "fill-blanks",
+    "label": "2012 Q9 — Helping a Friend Overcome Depression",
+    "detail": "DSE Writing 2012 · Part B · Question 9",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Your school magazine is going to include a special feature on mental health. Recently, one of your friends was suffering from depression. Write an article for the school magazine about your friend’s depression and how he/she overcame it. Give advice to others on how to help fight depression."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2013-part-b-q2",
+    "type": "fill-blanks",
+    "label": "2013 Q2 — A Campus TV Programme about a Sporting Event",
+    "detail": "DSE Writing 2013 · Part B · Question 2",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You have been asked by Ms Chan, the teacher in charge of Campus TV, to produce a 30-minute programme about a local Hong Kong sporting event. You need to write an email to Ms Chan. In this email, suggest a sporting event, explain what would be included in the programme and outline how you will make the programme interesting to your schoolmates."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2013-part-b-q3",
+    "type": "fill-blanks",
+    "label": "2013 Q3 — A Diary Entry about Betraying a Best Friend",
+    "detail": "DSE Writing 2013 · Part B · Question 3",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are reading Julius Caesar by William Shakespeare for drama class. In the play, Brutus betrayed his best friend, Julius Caesar, for the good of the country. Your homework is to write a diary entry about a situation when you betrayed your best friend."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2013-part-b-q4",
+    "type": "fill-blanks",
+    "label": "2013 Q4 — School Bus Safety",
+    "detail": "DSE Writing 2013 · Part B · Question 4",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Many people say that private school bus service operators do not follow proper safety procedures when dealing with young children and they argue that this may pose a danger. Write a letter to the Bus Operators Association of Hong Kong to express your concerns and give three recommendations for how private school bus services can be improved."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2013-part-b-q5",
+    "type": "fill-blanks",
+    "label": "2013 Q5 — Unreasonable Complaints",
+    "detail": "DSE Writing 2013 · Part B · Question 5",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Recently you have heard several people making complaints which you thought were unreasonable. Write a letter to the editor of the Hong Kong Post about this. In your letter, describe the situation which some people complained about, outline the point of view of the complainants, and indicate why you think those people are unreasonable."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2013-part-b-q6",
+    "type": "fill-blanks",
+    "label": "2013 Q6 — Overtime and Work-Life Balance",
+    "detail": "DSE Writing 2013 · Part B · Question 6",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are a human resources assistant. Your boss has observed that many people are leaving the office very late. He has asked you to write an article for the company newsletter describing the situation and discussing the negative effects. You have also been asked to give two suggestions to improve the situation. Provide a suitable title for your article."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2013-part-b-q7",
+    "type": "fill-blanks",
+    "label": "2013 Q7 — Asian Stars and Global Popularity",
+    "detail": "DSE Writing 2013 · Part B · Question 7",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Asian singers and movie stars are gaining popularity all over the world and are no longer appealing only to Asian audiences. Write an article for your school newspaper explaining why Asian stars are gaining popularity in Western countries. Give a title to your article."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2013-part-b-q8",
+    "type": "fill-blanks",
+    "label": "2013 Q8 — A Graduation Speech about Making Good Use of Time",
+    "detail": "DSE Writing 2013 · Part B · Question 8",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are the President of the Students’ Union. You are giving a speech to the graduating classes. The inspiration for the speech comes from a popular song about how time can slip away if you don’t make good use of it. [The image includes a short song lyric excerpt about time waiting for no one.] Write your speech."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2013-part-b-q9",
+    "type": "fill-blanks",
+    "label": "2013 Q9 — Detective Story: Vandals Hit the Museum",
+    "detail": "DSE Writing 2013 · Part B · Question 9",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are entering the ‘Detective Story Competition’ and have been given the following situation: VANDALS HIT MUSEUM Several valuable masterpieces were found damaged yesterday in the Hong Kong Museum of Art. Write the story."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2014-part-b-q2",
+    "type": "fill-blanks",
+    "label": "2014 Q2 — Requesting a Donation of Old Sports Equipment",
+    "detail": "DSE Writing 2014 · Part B · Question 2",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "A local fitness centre is being renovated. As the chairperson of your school’s Sports Club, write a letter to ask the fitness centre to donate some of their old equipment to your school. In your letter, describe how the donation could benefit your school and the fitness centre."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2014-part-b-q3",
+    "type": "fill-blanks",
+    "label": "2014 Q3 — Drama Club Behaviour at City Hall",
+    "detail": "DSE Writing 2014 · Part B · Question 3",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Your school has received a complaint from City Hall about the poor behaviour of a group of your Drama Club members who attended a drama performance last week. You are the chairperson of your school’s Drama Club and you have been asked by your teacher to write an email to your Club members regarding the complaint. Write the email to your Club members."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2014-part-b-q4",
+    "type": "fill-blanks",
+    "label": "2014 Q4 — Filming Movies in the City Centre",
+    "detail": "DSE Writing 2014 · Part B · Question 4",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Some people believe that filming movies in the city centre should not be allowed. Others support it. Write a letter to the editor of the Hong Kong Daily giving your opinions. Provide three reasons to support your point of view."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2014-part-b-q5",
+    "type": "fill-blanks",
+    "label": "2014 Q5 — School Lockers for Every Student",
+    "detail": "DSE Writing 2014 · Part B · Question 5",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Currently, only a small number of students in your school have access to school lockers. As the chairperson of the Student Union of your school, you have collected the views of students from different classes on this issue. Write a letter to Ms Lee, your school Principal, to persuade her to change the policy on lockers."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2014-part-b-q6",
+    "type": "fill-blanks",
+    "label": "2014 Q6 — Working as a Theme Park Character",
+    "detail": "DSE Writing 2014 · Part B · Question 6",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "The Hong Kong Daily is asking students to submit an article about their summer job experiences. You were employed as a costumed character performer in one of the local theme parks last summer. In your article, write about your typical working day, and the good things and bad things about your job. Write the article."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2014-part-b-q7",
+    "type": "fill-blanks",
+    "label": "2014 Q7 — A Stand-Up Comedy Performance",
+    "detail": "DSE Writing 2014 · Part B · Question 7",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You recently attended a stand-up comedy show and you were impressed by the performance. Write an article for your school magazine describing the show, discussing the challenges such performers might face and how students at school can benefit from watching such a performance."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2014-part-b-q8",
+    "type": "fill-blanks",
+    "label": "2014 Q8 — The Hong Kong Schools Poetry Festival",
+    "detail": "DSE Writing 2014 · Part B · Question 8",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You took part in the Hong Kong Schools Poetry Festival. You have been asked by your teacher to write an article for your school magazine about how you prepared for the competition and what you learned from this experience."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2014-part-b-q9",
+    "type": "fill-blanks",
+    "label": "2014 Q9 — Why My Roommate Left",
+    "detail": "DSE Writing 2014 · Part B · Question 9",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are taking a creative writing workshop and you have to submit the following assignment: Imagine you are a university student living in a student hall. Your roommate has suddenly decided to leave. Write a short story describing the events that led up to your roommate’s sudden departure."
+    ],
+    "questionImages": []
+  },
+  {
     "id": "fill:dse-writing-2015-part-a-argument-against",
     "type": "fill-blanks",
     "label": "2015 - Argument against",
@@ -63,6 +327,688 @@ export const WRITING_SUBMISSION_TOPIC_CATALOG = Object.freeze([
         "alt": "2015 DSE Writing Part A source question"
       }
     ]
+  },
+  {
+    "id": "fill:dse-writing-2015-part-b-q2",
+    "type": "fill-blanks",
+    "label": "2015 Q2 — Improving PE Lessons",
+    "detail": "DSE Writing 2015 · Part B · Question 2",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "A number of your classmates have expressed their disappointment about physical education (PE) lessons at school, saying that the lessons are not interesting. As the chairperson of the Class Association, you have decided to reflect your classmates’ opinions about this to your principal, Ms Chan. Write a letter to Ms Chan explaining why your classmates are unhappy about existing PE lessons. You should then suggest two new activities that could be introduced in future PE lessons and explain why students would prefer such activities."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2015-part-b-q3",
+    "type": "fill-blanks",
+    "label": "2015 Q3 — You Are Never Too Old to Live Your Dreams",
+    "detail": "DSE Writing 2015 · Part B · Question 3",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "The Hong Kong Drama Association is planning to organise a drama competition for secondary school students. The theme is ‘You are never too old to live your dreams’. Students are invited to submit stories. The winning story will later be turned into a play by the Association. Your story should be about the elderly realising their dreams. Write your story."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2015-part-b-q4",
+    "type": "fill-blanks",
+    "label": "2015 Q4 — Studying Abroad",
+    "detail": "DSE Writing 2015 · Part B · Question 4",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Many parents in Hong Kong are sending their children to other countries to complete their schooling. Write an article for your school magazine examining two reasons for this phenomenon. You should also discuss the impact of this on local schools and on children who leave to study overseas."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2015-part-b-q5",
+    "type": "fill-blanks",
+    "label": "2015 Q5 — The Future of Hong Kong’s Harbourfront",
+    "detail": "DSE Writing 2015 · Part B · Question 5",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Many parts of Hong Kong’s harbour front are still undeveloped. Some suggest using these areas for housing and commercial use, while others argue that such areas should be left as open space for public use. Write to the editor of the Hong Kong Daily stating your opinion either for or against leaving these areas open for public use. Justify your point of view with three reasons."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2015-part-b-q6",
+    "type": "fill-blanks",
+    "label": "2015 Q6 — Responding to Mobile Service Complaints",
+    "detail": "DSE Writing 2015 · Part B · Question 6",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are a summer intern working in Hong Kong Mobile’s customer services department. Your job is to handle complaints about your company’s products and services. As part of your duties, you are required to inform your manager about complaints received and outline possible solutions. Write an email to Jackie Lee, the manager of the customer services department, summarising details of a recent complaint and suggesting three possible actions that could be taken to deal with this complaint."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2015-part-b-q7",
+    "type": "fill-blanks",
+    "label": "2015 Q7 — The Decline of Cinemas in Hong Kong",
+    "detail": "DSE Writing 2015 · Part B · Question 7",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are working on a project entitled ‘Cinemas in Hong Kong’ for the Learning English through Popular Culture module and have found that fewer people go to cinemas than before. Write a report to explain why this is happening and to suggest what could be done to increase the number of moviegoers. Give reasons to support your suggestions."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2015-part-b-q8",
+    "type": "fill-blanks",
+    "label": "2015 Q8 — Promoting Poetry at the Central Library",
+    "detail": "DSE Writing 2015 · Part B · Question 8",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "The Hong Kong Central Library is holding a language arts festival during the summer break to enhance students’ interest in learning English. Secondary schools have been asked to submit their suggestions for activities at the festival. As the chairperson of the school’s Poetry Club, your teacher has asked you to write a letter to the Central Library suggesting two interesting activities. You should also explain how these activities would increase students’ interest in learning English."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2015-part-b-q9",
+    "type": "fill-blanks",
+    "label": "2015 Q9 — Inviting an Author to Reading Week",
+    "detail": "DSE Writing 2015 · Part B · Question 9",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "The Reading Club at your school is planning to hold a reading week to promote students’ interest in reading and to improve their English. One planned event is a ‘Meet the Author’ evening, when students get to meet a famous author. As the chairperson of the Club, you have been asked to choose one author to invite for the event. Write an email to Ms Li, the English teacher in charge of the Reading Club, mentioning your choice of author. Explain why you have selected that author, and suggest activities the author can lead or help with."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2016-part-b-q2",
+    "type": "fill-blanks",
+    "label": "2016 Q2 — Opening School Sports Facilities to the Public",
+    "detail": "DSE Writing 2016 · Part B · Question 2",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Because of the lack of sports facilities, some people in your community have suggested that schools should allow the public to use their sports facilities after school hours. Write a letter to the editor of the Hong Kong Daily stating your opinion. Support your opinion with three reasons."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2016-part-b-q3",
+    "type": "fill-blanks",
+    "label": "2016 Q3 — Job Opportunities for Hong Kong Graduates in Asia",
+    "detail": "DSE Writing 2016 · Part B · Question 3",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Many Hong Kong graduates complain about the lack of employment opportunities in the city. It has been suggested that graduates who fail to find a job in Hong Kong could look for opportunities in other cities in Asia. Do you support this suggestion? Write an article for your school magazine expressing your views. Give three reasons to support your views. Provide an appropriate title for your article."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2016-part-b-q4",
+    "type": "fill-blanks",
+    "label": "2016 Q4 — Parents Tracking Children’s Mobile Phones",
+    "detail": "DSE Writing 2016 · Part B · Question 4",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "It has recently been reported that some parents in Asian countries are installing apps on their children’s mobile phones that monitor their activities to ensure that they use these devices responsibly. Write a letter to the Young Post stating whether you agree with these parents’ actions or not. Justify your position with three reasons."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2016-part-b-q5",
+    "type": "fill-blanks",
+    "label": "2016 Q5 — Hong Kong’s Disappearing Street Life",
+    "detail": "DSE Writing 2016 · Part B · Question 5",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "The Hong Kong Daily is holding an essay competition for secondary school students on the theme ‘Hong Kong’s Disappearing Street Life’. The aim is to promote youth awareness of the need to preserve unique aspects of Hong Kong culture. Entries must focus on one aspect of local street life or culture that is fast disappearing and suggest why it is worth preserving. Write your essay."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2016-part-b-q6",
+    "type": "fill-blanks",
+    "label": "2016 Q6 — Revenge Is Sweet",
+    "detail": "DSE Writing 2016 · Part B · Question 6",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "One of the planned activities for the Creative Writing Week at your school is a short story writing competition. The theme for this year’s competition is ‘Revenge is Sweet’. Write your story."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2016-part-b-q7",
+    "type": "fill-blanks",
+    "label": "2016 Q7 — A Youth Festival Proposal",
+    "detail": "DSE Writing 2016 · Part B · Question 7",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "The Hong Kong Youth Association is organising a Youth Festival to showcase popular youth trends in Hong Kong. Write a proposal for the Festival suggesting one or two trends popular with young people. You should explain how you would present these trends at the festival and justify the way you plan to present your ideas."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2016-part-b-q8",
+    "type": "fill-blanks",
+    "label": "2016 Q8 — Facing Challenges in Life",
+    "detail": "DSE Writing 2016 · Part B · Question 8",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "A famous songwriter once said, ‘Expose yourself to your deepest fear; after that, fear has no power’. How important is it for us to acknowledge the challenges we face and find ways to cope with them? Write an essay explaining your opinion with relevant examples from your personal experience."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2016-part-b-q9",
+    "type": "fill-blanks",
+    "label": "2016 Q9 — Convincing Parents to Support an Acting Career",
+    "detail": "DSE Writing 2016 · Part B · Question 9",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "As a Form Six student, you are considering educational opportunities after your HKDSE. One option you have selected is the Hong Kong Academy for Performing Arts, as you want to take up an acting career. However, your parents would like you to pursue an academic subject at another institution. As the deadline for submitting the application is approaching, write an email to your parents, who are now on an overseas trip, to convince them to support your choice."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2017-part-b-q2",
+    "type": "fill-blanks",
+    "label": "2017 Q2 — Opportunities Taken and Missed",
+    "detail": "DSE Writing 2017 · Part B · Question 2",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You have just heard this song about opportunities. [Song lyric excerpt shown in the image: about having one chance/opportunity and whether you would take it or let it pass.] You have been inspired to share your feelings about opportunities on your online blog. In your blog write about one opportunity that you missed and one opportunity that you took."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2017-part-b-q3",
+    "type": "fill-blanks",
+    "label": "2017 Q3 — A Wildlife Story",
+    "detail": "DSE Writing 2017 · Part B · Question 3",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are entering a short story competition on the topic of ‘Wildlife’. Your story should describe the events leading up to the image below. Write your story."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2017-part-b-q4",
+    "type": "fill-blanks",
+    "label": "2017 Q4 — Is Romantic Love Necessary for a Happy Marriage?",
+    "detail": "DSE Writing 2017 · Part B · Question 4",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "‘Did my heart love till now? … For I never saw true beauty till this night.’ Romeo and Juliet — Shakespeare In your drama lessons you have been looking at plays about romantic love. Your essay assignment from your drama teacher is to answer the question: Is Romantic Love Necessary for a Happy Marriage? Write your essay."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2017-part-b-q5",
+    "type": "fill-blanks",
+    "label": "2017 Q5 — Preserving Hong Kong’s Cultural Heritage",
+    "detail": "DSE Writing 2017 · Part B · Question 5",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Recently the Hong Kong Government published a list of intangible cultural heritage items that the city should protect. The following were on the list: Traditional egg tarts Mahjong Write a letter to the editor of the Hong Kong Daily supporting the Government’s choice of these two features of Hong Kong culture, suggesting why they are worth protecting and how they can be protected."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2017-part-b-q6",
+    "type": "fill-blanks",
+    "label": "2017 Q6 — Watching TV Makes Us Smarter",
+    "detail": "DSE Writing 2017 · Part B · Question 6",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "As captain of the debate team you have been asked to write a debate speech. The task is to argue that ‘Watching TV Makes Us Smarter’. In your speech you should include three reasons to support the statement. Write your speech."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2017-part-b-q7",
+    "type": "fill-blanks",
+    "label": "2017 Q7 — Helping Hong Kong’s NEETs",
+    "detail": "DSE Writing 2017 · Part B · Question 7",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are working on a project entitled ‘Hong Kong’s NEETs’. NEETs are young people who are not in education, employment or training. Many of these young people spend their time at home playing video games or surfing the Internet. Write a report to explain why the number of NEETs in Hong Kong is rising and suggest what can be done to help these youths. Give reasons to support your suggestions."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2017-part-b-q8",
+    "type": "fill-blanks",
+    "label": "2017 Q8 — Dancers Are Athletes",
+    "detail": "DSE Writing 2017 · Part B · Question 8",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Unlike swimmers or basketball players, dancers are not traditionally thought of as athletes. As a member of your school’s dance team you have been asked to write an article for your school magazine. Use the title and headings below to support the idea of dancers as athletes. Dancers Are Athletes Physical Strength & Skills Self-discipline & Training"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2017-part-b-q9",
+    "type": "fill-blanks",
+    "label": "2017 Q9 — Defending Hong Kong’s Fresh Graduates",
+    "detail": "DSE Writing 2017 · Part B · Question 9",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "It has recently been claimed that in the workplace many Hong Kong fresh university graduates are less hard-working and less willing to face challenges compared to those in the past. You strongly disagree with this opinion. Write a letter to the editor of the Hong Kong Daily disagreeing with this opinion. Support your view with three reasons and/or examples."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2018-part-b-q2",
+    "type": "fill-blanks",
+    "label": "2018 Q2 — My First Hong Kong Marathon",
+    "detail": "DSE Writing 2018 · Part B · Question 2",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You recently ran the Hong Kong Marathon for the first time. Write a blog to be posted on the Hong Kong Marathon’s website to encourage other young people to take part in the next marathon."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2018-part-b-q3",
+    "type": "fill-blanks",
+    "label": "2018 Q3 — Work Messages outside Office Hours",
+    "detail": "DSE Writing 2018 · Part B · Question 3",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are the boss of Reboot Online Company and you have recently received complaints from some staff about the number of work-related emails and text messages received out of office. Write a letter to staff addressing their complaints"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2018-part-b-q4",
+    "type": "fill-blanks",
+    "label": "2018 Q4 — Advice on Becoming a Vet",
+    "detail": "DSE Writing 2018 · Part B · Question 4",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You write an advice column for Teen magazine and you have received the following letter: I’ve been thinking about my future. I love animals and I’ve always wanted to be a vet. But when I told my parents, the first thing they said was ‘No.’ I feel really frustrated. What should I do? — J.C., 16 years old Write a letter of advice."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2018-part-b-q5",
+    "type": "fill-blanks",
+    "label": "2018 Q5 — Abolishing Class Rankings",
+    "detail": "DSE Writing 2018 · Part B · Question 5",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are representing your school at an inter-school debating competition. The motion is: ‘The policy of reporting students’ class position should be abolished’. Write a debate speech arguing for OR against the motion."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2018-part-b-q6",
+    "type": "fill-blanks",
+    "label": "2018 Q6 — The Popularity of Athleisure",
+    "detail": "DSE Writing 2018 · Part B · Question 6",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "‘Athleisure’ is currently one of the biggest trends in the fashion industry. This is a term for clothes that can be worn both for exercise and as everyday wear. Write an article for the local newspaper explaining possible reasons for the rise in popularity of athleisure."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2018-part-b-q7",
+    "type": "fill-blanks",
+    "label": "2018 Q7 — Recorded Live Performances",
+    "detail": "DSE Writing 2018 · Part B · Question 7",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "The Hong Kong Academy for Performing Arts (HKAPA) wants to encourage more people to watch stage plays. To do this, they want to show video-recordings of live drama performances from theatres all over the world. You have just watched one of these recordings. Write an article for Showbiz magazine discussing whether these recordings are a good way to attract more people to watch stage plays."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2018-part-b-q8",
+    "type": "fill-blanks",
+    "label": "2018 Q8 — Applying for a Poetry Workshop",
+    "detail": "DSE Writing 2018 · Part B · Question 8",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Poetry House is offering a scholarship for ten young writers to attend their summer poetry workshop. The workshop will promote the art and craft of poetry in a creative environment and participants will have a chance to discuss their work with guest poets from around the world. Write an application letter, explaining your interest in poetry and why you should be selected to take part in this workshop."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2018-part-b-q9",
+    "type": "fill-blanks",
+    "label": "2018 Q9 — A Pet Bird’s Escape",
+    "detail": "DSE Writing 2018 · Part B · Question 9",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Imagine you are a pet bird in a cage. One day your owner left your bird cage open. Write a story from the bird’s point of view."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2019-part-b-q2",
+    "type": "fill-blanks",
+    "label": "2019 Q2 — International Talent and the Local Community",
+    "detail": "DSE Writing 2019 · Part B · Question 2",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "The following excerpt appeared in an article in the Hong Kong Daily Press: To participate in today’s global economy, companies hire individuals whose skills and talent meet standards of excellence. One hundred years ago, people were hired from within the local community but today the best individuals are hired from around the world. Write an essay for your English teacher. Explain some of the benefits and challenges international talent brings to Hong Kong society and ways to ensure that people from the local community are not neglected. Include a title for your essay."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2019-part-b-q3",
+    "type": "fill-blanks",
+    "label": "2019 Q3 — Social Media and Public Debate",
+    "detail": "DSE Writing 2019 · Part B · Question 3",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "The Hong Kong Daily Press invites readers to submit their views on the following topic: Do social media platforms such as Facebook or Twitter encourage or stifle public debate? When first created, social media was thought to be a place where rational debate and logic would thrive. However, as time has shown, this is not always the case. Write an argumentative essay. Choose one side of the argument and state your position, giving reasons and evidence to support your view. Include a title for your essay."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2019-part-b-q4",
+    "type": "fill-blanks",
+    "label": "2019 Q4 — An Unexpected Incident at a Football Match",
+    "detail": "DSE Writing 2019 · Part B · Question 4",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are a reporter for the sports section of the Young Post. You were attending the final game of the season between rivals St. George’s School and Royal College when something unexpected happened during the game. Write a news report. Describe the incident and what happened afterwards. Include thoughts and opinions from different people involved. Give your report a headline."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2019-part-b-q5",
+    "type": "fill-blanks",
+    "label": "2019 Q5 — Sources of Pop Culture Trends",
+    "detail": "DSE Writing 2019 · Part B · Question 5",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "This week’s question in the Young Post’s Over to You column is: Where do you get information about the latest trends in pop culture? Do you turn to newspapers and magazines or do you prefer blogs and videos on social media? Write an article for the Over to You column. Choose one or two areas of pop culture from the chart below and tell readers where you like to get information about the latest trends. Provide the name of the sources you recommend. Give your article a title. Areas of Pop Culture TV and Movies Music and Concerts Food and Drink Style and Beauty Tech and Games"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2019-part-b-q6",
+    "type": "fill-blanks",
+    "label": "2019 Q6 — A Review of Cinderella: Princesses of Power",
+    "detail": "DSE Writing 2019 · Part B · Question 6",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are a reporter for the entertainment section of the Young Post. You have been asked to review a new film called Cinderella which is based on the comic series Princesses of Power. Write a review of the film. Include a brief description of the plot, how the characters are portrayed in this new version of Cinderella and why the director wanted to make this film. Give your review a title."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2019-part-b-q7",
+    "type": "fill-blanks",
+    "label": "2019 Q7 — Giving and Responding to Criticism",
+    "detail": "DSE Writing 2019 · Part B · Question 7",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Taylor Swift is an award-winning singer-songwriter. In an interview with Parade magazine she said: “I wrote the song ‘Mean’ about a critic who kept giving me really bad reviews. I get that, no matter what, people will criticise what you do. But there are different ways to criticise someone… and there’s a line that you cross when you just start to attack everything about a person.” You lead an after-school arts club. You would like to instruct members on how to review each other’s work. Write a speech to be delivered to club members. Discuss what a critic does, how to give criticism and ways to respond to criticism. Give your speech a title."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2019-part-b-q8",
+    "type": "fill-blanks",
+    "label": "2019 Q8 — Council Election Campaign Posters",
+    "detail": "DSE Writing 2019 · Part B · Question 8",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are a volunteer in your local district council office. You have been asked to design a campaign poster for Ricky Kwan, a candidate who will be running in the upcoming council election. You have finished two designs A and B and are working on a third C. Poster A Have ideas, problems or concerns? Let’s cross the bridge together. Vote Ricky Kwan! Poster B Think outside the box. Vote Ricky Kwan! Write an email to the council election committee. Explain the ideas behind designs A and B and how they would make a good campaign theme. Share the ideas you have for your third design. Include a subject heading for the email."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2019-part-b-q9",
+    "type": "fill-blanks",
+    "label": "2019 Q9 — The Tortoise and the Hare Team Up",
+    "detail": "DSE Writing 2019 · Part B · Question 9",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Cosmo book shop is organising a short story contest. The details are below: In the tale The Tortoise and the Hare, two animals challenge each other to a race to prove who is the fastest. Mid-race, the hare lies down to rest, certain that it will win. The tortoise, though slow, never gives up and crosses the finishing line ahead of the hare. Slow and steady wins the race, as the message of the story goes. Re-write this story. Use the same characters but imagine that the tortoise and the hare team up to race against other contestants. Express a message through the telling of the story. Give your story a title."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2020-part-b-q2",
+    "type": "fill-blanks",
+    "label": "2020 Q2 — Instagrammers in Housing Estates",
+    "detail": "DSE Writing 2020 · Part B · Question 2",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Some of Hong Kong’s housing estates have become extremely popular places to take Instagram photos. Choi Hung Estate, Wong Tai Sin Yik Cheong Building, Quarry Bay As part of a class assignment, you interviewed Instagrammers and residents at a housing estate which has been listed as one of the top 10 places in Hong Kong to take Instagram photos. Write an essay for your assignment. Explain what attracts Instagrammers to Hong Kong’s housing estates and how residents feel about this."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2020-part-b-q3",
+    "type": "fill-blanks",
+    "label": "2020 Q3 — The Future of Independent Stationery Shops",
+    "detail": "DSE Writing 2020 · Part B · Question 3",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "In recent years, the number of small independent stationery shops in Hong Kong has fallen. Write a news report for the Hong Kong Post. Explain this trend and discuss whether independent stationery shops can survive."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2020-part-b-q4",
+    "type": "fill-blanks",
+    "label": "2020 Q4 — Applying for an Overseas Work Transfer",
+    "detail": "DSE Writing 2020 · Part B · Question 4",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You work for the Park Hotel in Hong Kong. You would like to apply for a work transfer to the Shanghai branch of the hotel. Write a letter to Mr Wong, your manager. Highlight your work experience, why you would like to transfer and how your transfer will benefit the organisation."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2020-part-b-q5",
+    "type": "fill-blanks",
+    "label": "2020 Q5 — Dragon Boat Racing at the Olympic Games",
+    "detail": "DSE Writing 2020 · Part B · Question 5",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Some people think that the International Olympic Committee (IOC) should include a greater variety of sports in the Olympic Games. However, for a sport to be considered a new Olympic event, it must meet the following criteria: appeal to young people, promote gender equality, attract media coverage. The IOC is inviting the public to suggest sports to be included in future Olympics. You would like to propose Dragon Boat Racing. Write a letter to the President of the IOC. Give reasons to support your opinion."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2020-part-b-q6",
+    "type": "fill-blanks",
+    "label": "2020 Q6 — Food Warning Labels and Healthy Eating",
+    "detail": "DSE Writing 2020 · Part B · Question 6",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "To raise public awareness of healthy eating, some countries now legally require food manufacturers to put warning labels on foods that are high in sugar, saturated fat and salt. Write an argumentative essay. Argue either for OR against the effectiveness of food warning labels in changing people’s eating habits."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2020-part-b-q7",
+    "type": "fill-blanks",
+    "label": "2020 Q7 — Interviewing Singer Zoe Kwan",
+    "detail": "DSE Writing 2020 · Part B · Question 7",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are a reporter for Do-Re-Mi, a music magazine. You interviewed Zoe Kwan, who has just won ‘Best New Artist’ at the HKTV Music Awards. Write a feature article based on your interview. Report on Zoe’s sudden rise to fame and where the ideas behind her songs came from."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2020-part-b-q8",
+    "type": "fill-blanks",
+    "label": "2020 Q8 — The First Chapter of a Science Fiction Story",
+    "detail": "DSE Writing 2020 · Part B · Question 8",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Sci-Fi magazine is organising a First Chapter Competition. The competition involves writing the first chapter of a story based on the following scenario. A journalist is sent to investigate a research station in the Arctic after staff begin to mysteriously disappear one by one. You would like to enter the competition. Write the first chapter ONLY of your story."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2020-part-b-q9",
+    "type": "fill-blanks",
+    "label": "2020 Q9 — Experiencing Cantonese Opera",
+    "detail": "DSE Writing 2020 · Part B · Question 9",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are visiting Hong Kong. Last night, a friend took you to the new Xiqu Centre in West Kowloon Cultural District to watch Chinese Opera. You didn’t think you would like it, but after watching the performance, you changed your mind. Write a blog post for World Passport, a travel blog about different places and cultures. Describe your experience and the impact it had on you."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2021-part-b-q2",
+    "type": "fill-blanks",
+    "label": "2021 Q2 — Encouraging Electric Vehicle Sales",
+    "detail": "DSE Writing 2021 · Part B · Question 2",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Although studies show electric cars are more environmentally friendly than petrol cars, less than 3% of all vehicles sold in 2020 worldwide were electric. Write a letter to the editor of Hong Kong Post. Discuss why sales of electric vehicles are so low. Suggest what can be done to attract more people to drive these vehicles."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2021-part-b-q3",
+    "type": "fill-blanks",
+    "label": "2021 Q3 — Changing a No-Exchange/No-Refund Policy",
+    "detail": "DSE Writing 2021 · Part B · Question 3",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You work in the sales department at Fast Fashion, an online company that sells clothes. Recently, you have received a number of complaints from customers about the company’s no-exchange/no-refund policy. Write an email to the sales manager. Explain why you think this policy should be changed. Suggest what changes could be made. Discuss ways to prevent customers from taking advantage of the new policy."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2021-part-b-q4",
+    "type": "fill-blanks",
+    "label": "2021 Q4 — Applying to Be an Assistant Coach",
+    "detail": "DSE Writing 2021 · Part B · Question 4",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are a professional athlete looking for a career change. You have seen the job vacancy shown below and would like to apply for the position of Assistant Coach. Hong Kong Sports Foundation is hiring Assistant Coaches Main duties: to design training programmes for elite athletes to organise international sporting competitions to identify and support local talent Write a job application letter to the Human Resources Manager. Introduce yourself and your athletic history. Explain your interest and suitability for the job."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2021-part-b-q5",
+    "type": "fill-blanks",
+    "label": "2021 Q5 — Trust in Social Media Influencers",
+    "detail": "DSE Writing 2021 · Part B · Question 5",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "A social media influencer is a person who is paid by a company to promote goods and services through their social media networks. Surveys show that a majority of millennials trust the advice of social media influencers over traditional media advertisements. Write an argumentative essay. Discuss whether social media influencers are more trustworthy than traditional media advertisements. Give reasons to support your point of view."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2021-part-b-q6",
+    "type": "fill-blanks",
+    "label": "2021 Q6 — The 21-Day Gratitude Challenge",
+    "detail": "DSE Writing 2021 · Part B · Question 6",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You took part in a social media challenge called ‘The 21-day Gratitude Challenge’. For three weeks, you kept a journal about the things you were thankful for on a daily basis. After completing the challenge, participants are invited to share their experience on the 21-day Gratitude Challenge website. Write a blog post. Explain why you accepted this challenge and what you hoped to achieve. Reflect on the 21 days and whether taking on this challenge has changed you in any way."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2021-part-b-q7",
+    "type": "fill-blanks",
+    "label": "2021 Q7 — A Security Guard’s Scary Night",
+    "detail": "DSE Writing 2021 · Part B · Question 7",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You are joining a short story contest organised by a book shop. Write a scary story about a security guard on duty one night. Use the pictures to help you write your story. You can use the pictures in any order."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2021-part-b-q8",
+    "type": "fill-blanks",
+    "label": "2021 Q8 — Old and New Friendships",
+    "detail": "DSE Writing 2021 · Part B · Question 8",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You read this poem in class and your teacher has asked you to write an essay on the theme of friendship. New Friends and Old Friends Make new friends, but keep the old. One is silver, the other is gold. Friendships that have stood the test— Time and change—are surely best. Cherish friendship in your breast— New is good but old is best. Joseph Parry (1841-1903) Use these questions to help you write your essay: What is the difference between old and new friendships? Do you agree that older friendships are better than new ones?"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2021-part-b-q9",
+    "type": "fill-blanks",
+    "label": "2021 Q9 — Pitching a TV Drama about Three Generations",
+    "detail": "DSE Writing 2021 · Part B · Question 9",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You want to be a screenwriter and have an idea for a TV drama series about three generations of a family. Write a letter to the production manager at TV-Station X. Introduce the characters, plot and setting of your TV drama. Explain why you think this idea would be popular with viewers."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2023-part-b-q5",
+    "type": "fill-blanks",
+    "label": "2023 Q5 — Life Lessons from Fairy Tales and Fables",
+    "detail": "DSE Writing 2023 · Part B · Question 5",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Fairy tales and fables teach us how to find love, survive family conflicts, defeat the rich and powerful, and live happily ever after. Sub-image description: • An illustration of children and animals happily playing in a forest. Write an essay to explain how reading these kinds of stories has taught you important lessons about life."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2023-part-b-q8",
+    "type": "fill-blanks",
+    "label": "2023 Q8 — AI-Generated Songs in Competitions",
+    "detail": "DSE Writing 2023 · Part B · Question 8",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Contestants in a song-writing competition complained when a song created by artificial intelligence (AI) software won first prize. Sub-image description: • Logo for \"Best Song Writer\" with an AI robot and a songwriter with headphones. Write a letter to the editor on whether computer-generated songs should be allowed to compete in such competitions."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2023-part-b-q8-bilingual",
+    "type": "fill-blanks",
+    "label": "2023 Q8 — AI-Generated Songs in Competitions（雙語範文版本）",
+    "detail": "DSE Writing 2023 · Part B · Question 8",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Contestants in a song-writing competition complained when a song created by artificial intelligence (AI) software won first prize. Sub-image description: • Logo for \"Best Song Writer\" with an AI robot and a songwriter with headphones. Write a letter to the editor on whether computer-generated songs should be allowed to compete in such competitions."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2024-part-b-q4",
+    "type": "fill-blanks",
+    "label": "2024 Q4 — Is Hong Kong Too Dog-Friendly?",
+    "detail": "DSE Writing 2024 · Part B · Question 4",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Hong Kong now has many more areas such as parks, shops and restaurants that welcome dogs. Some people feel that the city has gone too far in its efforts to be dog-friendly. The Hong Kong Times is asking readers for their opinion. Write a letter to the editor expressing whether or not you support this new trend."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2025-part-b-q2",
+    "type": "fill-blanks",
+    "label": "2025 Q2 — An Old Classmate Who Changed for the Better",
+    "detail": "DSE Writing 2025 · Part B · Question 2",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "You were at a theme park and you saw an old classmate who behaved badly when you were at school. The classmate told you about an important event that happened last year. This event made the classmate a better person. Write a short story about what happened to your classmate."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:dse-writing-2025-part-b-q4",
+    "type": "fill-blanks",
+    "label": "2025 Q4 — Overcoming Challenges of Group Work",
+    "detail": "DSE Writing 2025 · Part B · Question 4",
+    "sectionKey": "dse-writing",
+    "questionPrompt": [
+      "Group work is common in the workplace and its value has long been recognised. However, group work may be unpopular among workers. Write an essay discussing the challenges of group work in the workplace and ways to overcome those challenges."
+    ],
+    "questionImages": []
   },
   {
     "id": "fill:dse-writing-2022-part-a",

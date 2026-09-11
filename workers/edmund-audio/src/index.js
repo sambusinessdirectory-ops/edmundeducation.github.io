@@ -1,9 +1,11 @@
+import dseWritingPartBPackIndex from "./flashcard-pack-index-dse-writing-part-b.json" with { type: "json" };
 import flashcardPackIndex from "./flashcard-pack-index.json" with { type: "json" };
 import flashcardPassage2PackIndex from "./flashcard-pack-index-passage2.json" with { type: "json" };
 import flashcardReadingExpansionPackIndex from "./flashcard-pack-index-reading-expansion.json" with { type: "json" };
 import flashcardExpansionPackIndex from "./flashcard-pack-index-flashcard-expansion.json" with { type: "json" };
 
 const AUDIO_PREFIXES = [
+  "assets/writing-practice/audio/american-female/dse-part-b-20260911/",
   "assets/speaking-system/audio/edmund-neural/part1/",
   "assets/speaking-system/audio/edmund-neural/part3/",
   "assets/speaking-system/audio/edmund-neural/exam/",
@@ -15,6 +17,7 @@ const IELTS_LISTENING_PREFIX = "IELTS Listening - Recordings/";
 const DSE_LISTENING_PREFIX = "DSE Listening - Recordings/";
 const IMMUTABLE_CACHE = "public, max-age=31536000, immutable";
 const FLASHCARD_PACK_INDEXES = [
+  dseWritingPartBPackIndex,
   flashcardPackIndex,
   flashcardPassage2PackIndex,
   flashcardReadingExpansionPackIndex,
@@ -322,7 +325,7 @@ export default {
       return listeningCatalogue(request, env);
     }
     if (url.pathname === "/" || url.pathname === "/health") {
-      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["part1", "part3", "exam", "flashcards", "ielts-listening", "reading-comprehension", "dse-listening"] }), {
+      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["dse-writing-part-b", "part1", "part3", "exam", "flashcards", "ielts-listening", "reading-comprehension", "dse-listening"] }), {
         headers: {
           "Cache-Control": "no-store",
           "Content-Type": "application/json; charset=utf-8",

@@ -3428,6 +3428,9 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=2"></script>
   <script src="writing-audio-manifest.js?v=writing-audio-v5-20260818-1"></script>
+  <script src="writing-audio-dse-part-b-manifest.js?v=20260911-1"></script>
+  <script src="dse-writing-part-b-topics.js?v=20260911-1"></script>
+  <script src="writing-practice-dse-part-b-library-data.js?v=20260911-1"></script>
   <script src="writing-practice-dse-part-a-data.js?v=20260726-2"></script>
   <script src="writing-practice-ielts-task1-data.js?v=20260730-1"></script>
   <script src="writing-practice-dse-2025-q3-data.js?v=20260722-1"></script>
@@ -3449,6 +3452,7 @@
   <script src="writing-practice-business-standard-response-book1-data.js?v=20260816-1"></script>
   <script src="writing-practice-hkfsd-incident-report-data.js?v=20260818-1"></script>
   <script src="writing-progression-data.js?v=20260727-1"></script>
+  <script src="dse-writing-part-b-links.js?v=20260911-1"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="supabase-config.js"></script>
   <script src="shared-system-nav.js?v=20260910-activity1"></script>
@@ -3886,26 +3890,8 @@
       { key: "part-a", label: "Part A", subline: "短文寫作" },
       { key: "part-b", label: "Part B", subline: "長文寫作" }
     ];
-    const dseWritingQuestionsByYear = {
-      "2022": [
-        { key: "Q2", label: "Q2", exerciseId: "" },
-        { key: "Q3", label: "Q3", exerciseId: "dse-writing-2022-part-b-q3" },
-        { key: "Q4", label: "Q4", exerciseId: "" },
-        { key: "Q5", label: "Q5", exerciseId: "" }
-      ],
-      "2024": [
-        { key: "Q2", label: "Q2", exerciseId: "" },
-        { key: "Q3", label: "Q3", exerciseId: "" },
-        { key: "Q4", label: "Q4", exerciseId: "" },
-        { key: "Q5", label: "Q5", exerciseId: "dse-writing-2024-part-b-q5" }
-      ],
-      "2025": [
-        { key: "Q2", label: "Q2", exerciseId: "" },
-        { key: "Q3", label: "Q3", exerciseId: "dse-writing-2025-part-b-q3" },
-        { key: "Q4", label: "Q4", exerciseId: "" },
-        { key: "Q5", label: "Q5", exerciseId: "" }
-      ]
-    };
+    const dseWritingQuestionsByYear = window.EDMUND_DSE_WRITING_PART_B_QUESTIONS || {};
+
     const dseWritingPartAQuestionsByYear = {
       "2012": [{ key: "2012", label: "2012", exerciseId: "dse-writing-2012-part-a" }],
       "2013": [{ key: "2013", label: "2013", exerciseId: "dse-writing-2013-part-a" }],
@@ -3950,6 +3936,7 @@
     const writingExercises = {};
 
     [
+      window.EDMUND_DSE_WRITING_PART_B_LIBRARY_EXERCISES,
       window.EDMUND_DSE_WRITING_PART_A_EXERCISES,
       window.EDMUND_DSE_WRITING_EXERCISES,
       window.EDMUND_DSE_WRITING_2022_EXERCISES,
@@ -6869,6 +6856,15 @@ Device: concession 讓步
     }
 
     function buildPracticeDifficultyParagraphs(exercise, difficulty) {
+      // Imported worksheets have their own passage layout and exact blank spans.
+      if (Array.isArray(difficulty?.sourceParagraphs)) {
+        const paragraphs = JSON.parse(JSON.stringify(difficulty.sourceParagraphs));
+        const answers = paragraphs.flatMap(p => p.sentences.flatMap(s => s.parts.filter(isBlankPart).map(part => part.answer)));
+        if (JSON.stringify(answers) !== JSON.stringify(difficulty.answers)) {
+          throw new Error(`${exercise.id} ${difficulty.key}: source worksheet answers do not match`);
+        }
+        return paragraphs;
+      }
       const answers = Array.isArray(difficulty?.answers) ? difficulty.answers : [];
       let prepared = buildSentenceScopedDifficultyParagraphs(exercise, answers);
 
@@ -7004,6 +7000,9 @@ Device: concession 讓步
     }
 
     function practiceTranslationLinesForParagraph(exercise, paragraphIndex) {
+      if (exercise?.sourceTranslationMissing?.includes(paragraphIndex)) {
+        return ["原 PDF 未提供這一段相符的中文譯文；已提供的中英對照及寫作講解可在「中文翻譯」分頁閱讀。"];
+      }
       const section = practiceTranslationSectionForParagraph(exercise, paragraphIndex);
       const sectionLines = cleanPracticeTranslationLines(
         section?.items?.map(practiceTranslationUnitChinese) || []
@@ -7539,6 +7538,9 @@ Device: concession 讓步
     }
 
     function writingEssayPortalLinksHtml(exerciseId) {
+      const match = /^dse-writing-(20\d{2})-part-b-(q\d+)(?:-bilingual)?$/i.exec(String(exerciseId || ""));
+      const links = match && window.EDMUND_DSE_WRITING_PART_B_LINKS?.[`${match[1]}-${match[2].toUpperCase()}`];
+      if (links) return `<div class="essay-portal-actions">${links.flashcards ? `<a class="essay-portal-link" href="${escapeHtml(links.flashcards)}" data-essay-portal-link>Flash Cards</a>` : ""}${links.downloads ? `<a class="essay-portal-link" href="${escapeHtml(links.downloads)}" data-essay-portal-link>Download Site</a>` : ""}</div>`;
       if (!essayPortals) return "";
       const essayKey = essayPortals.fromWritingExerciseId(exerciseId);
       if (!essayKey) return "";
@@ -8870,6 +8872,20 @@ Device: concession 讓步
 
       practiceParagraphs.forEach((practiceParagraph, paragraphIndex) => {
         if (!selectedParagraphs.has(paragraphIndex)) return;
+        const sourceBlanks = practiceParagraph.sentences.flatMap(sentence => sentence.parts)
+          .filter(part => isBlankPart(part) && targetIds.has(part.id));
+        if (sourceBlanks.length && sourceBlanks.every(part => Array.isArray(part.speechUnits))) {
+          sourceBlanks.forEach(part => {
+            mappedTargetIds.add(part.id);
+            part.speechUnits.forEach(unit => targetUnits.push({
+              paragraphIndex: unit.paragraphIndex,
+              startSentenceIndex: unit.sentenceIndex,
+              endSentenceIndex: unit.sentenceIndex,
+              blankIds: [part.id]
+            }));
+          });
+          return;
+        }
         const canonicalParagraph = exercise.paragraphs[paragraphIndex];
         const canonicalRanges = paragraphSentenceCharacterRanges(canonicalParagraph);
         const blankSpans = practiceParagraphBlankSpans(practiceParagraph)

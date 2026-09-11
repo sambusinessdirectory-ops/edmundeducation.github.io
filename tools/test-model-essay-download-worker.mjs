@@ -6,6 +6,7 @@ import path from "node:path";
 import { Readable } from "node:stream";
 import { pipeline } from "node:stream/promises";
 import worker from "../workers/model-essay-downloads/src/index.js";
+import { DSE_WRITING_PART_B_CATALOG } from "../workers/model-essay-downloads/src/dse-writing-part-b-catalog.js";
 import { CATALOG } from "../workers/model-essay-downloads/src/catalog.js";
 import { DSE_WRITING_PART_A_CATALOG } from "../workers/model-essay-downloads/src/dse-writing-part-a-catalog.js";
 import { LISTENING_CATALOG } from "../workers/model-essay-downloads/src/listening-catalog.js";
@@ -144,7 +145,7 @@ const healthResponse = await worker.fetch(
   ctx
 );
 const health = await healthResponse.json();
-const expectedFileCount = DSE_WRITING_PART_A_CATALOG.length + TASK1_CATALOG.length
+const expectedFileCount = DSE_WRITING_PART_B_CATALOG.length + DSE_WRITING_PART_A_CATALOG.length + TASK1_CATALOG.length
   + CATALOG.length + SPEAKING_CATALOG.length + LISTENING_CATALOG.length
   + Object.values(expectedReadingCounts).reduce((sum, count) => sum + count, 0);
 if (healthResponse.status !== 200

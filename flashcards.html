@@ -4654,6 +4654,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="flashcards-ielts-writing-data.js?v=20260713-1"></script>
   <script src="flashcards-ielts-reading-index.js?v=20260731-1"></script>
+  <script src="dse-writing-part-b-links.js?v=20260911-1"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="supabase-config.js"></script>
   <script src="shared-system-nav.js?v=20260910-activity1"></script>
@@ -184422,6 +184423,7 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-ielts-writing-opinions-3-38-express-32-43-data.js?v=20260714-1"></script>
   <script src="flashcards-ielts-writing-opinions-39-82-data.js?v=20260713-1"></script>
   <script src="flashcards-ielts-writing-task1-data.js?v=20260729-2"></script>
+  <script src="dse-writing-part-b-topics.js?v=20260911-1"></script>
   <script src="flashcards-dse-writing-part-a-data.js?v=20260726-1"></script>
   <script src="flashcards-dse-listening-data.js?v=20260726-2"></script>
   <script src="flashcards-dse-paper3-b2-2024-data.js?v=20260725-1"></script>
@@ -184444,6 +184446,7 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-sunny-s3-grammar-book-data.js?v=20260908-1"></script>
   <script src="edmund-audio-config.js?v=1"></script>
   <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260908-sunny-s3-1"></script>
+  <script src="flashcards-dse-writing-part-b-audio.js?v=20260911-1"></script>
   <script>
     const ADMIN_NAME = "Sam";
     const STUDENTS_KEY = "edmundFlashcardStudents";
@@ -184679,6 +184682,13 @@ window.EDMUND_FLASHCARD_SEED = {
     const DSE_PAPER3_B2_PREFIX = "dse/paper-3/part-b-data-file-b2";
     const supplementalFlashcardDataPromises = new Map();
     const supplementalFlashcardBundles = [
+      ...Object.entries(window.EDMUND_DSE_WRITING_PART_B_COUNTS || {}).map(([year, counts]) => ({
+        globalName: `EDMUND_DSE_WRITING_PART_B_${year}_SEED`,
+        dataUrl: `flashcards-dse-writing-part-b-${year}-data.js?v=20260911-1`,
+        datasetKey: `dseWritingPartB${year}`,
+        expectedDeckId: Object.keys(counts)[0],
+        matches: value => value === `dse/writing/part-b/${year}` || value.startsWith(`dse/writing/part-b/${year}/`)
+      })),
       {
         globalName: "EDMUND_IELTS_LISTENING_PRACTICES_2_20_SEED",
         dataUrl: IELTS_LISTENING_PRACTICES_2_20_DATA_URL,
@@ -185313,26 +185323,7 @@ window.EDMUND_FLASHCARD_SEED = {
       return dseSpeakingDeckTitles[String(year)]?.[setKey]?.[set] || set;
     }
     const dseWritingPartBQuestions = ["Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", "Q9", "Q10"];
-    const dseWritingPartBQuestionTitles = {
-      "2022": {
-        "Q2": "Q2 - You are the host of 'Teen Chat', a YouTube channel that explores a wide range of topics from a teenage perspective. Write an article for Teen Magazine about why you started this channel and what you have learned in the process.",
-        "Q3": "Q3 - You write an advice column for Jobs Online magazine. A reader asks whether he should leave his company now to open a cafe with friends, or wait a few years. Write a reply to Kam Chai offering your advice.",
-        "Q4": "Q4 - You are the captain of the school's basketball team. Your team made it to the inter-school championship final but came second. Write a speech to be delivered to the team at the end-of-season dinner celebration.",
-        "Q5": "Q5 - Young people today lack interest in traditional art forms such as lion dance, calligraphy or the art of tea drinking. You are the chairperson of your school's Heritage Club. Write a letter to the editor of Hong Kong Post expressing your views.",
-        "Q6": "Q6 - The musical group Nine Dragons has asked you to help promote them by writing a bio for their website. The bio should include background information about the group, their style of music, and plans for the future.",
-        "Q7": "Q7 - As part of your drama class, you played the role of the hero and the villain in different plays. Write an entry in your drama journal reflecting on which role you preferred playing and why.",
-        "Q8": "Q8 - The School Management is considering a four-day school week. Students would attend school four days a week instead of five, but each day would be one hour longer. As a PTA member, write a letter to the President of the PTA stating your opinion for or against the plan."
-      },
-      "2024": {
-        "Q5": "Q5 - A lesson I never expected"
-      },
-      "2025": {
-        "Q2": "Q2 - You were at a theme park and you saw an old classmate who behaved badly when you were at school. The classmate told you about an important event that happened last year. This event made the classmate a better person. Write a short story about what happened to your classmate.",
-        "Q3": "Q3 - You have noticed that an increasing number of people in Hong Kong stay in coffee shops and fast-food restaurants for a long time for activities such as tutorial lessons. Write a letter to the editor of the Hong Kong Post giving your opinion on this issue.",
-        "Q4": "Q4 - Group work is common in the workplace and its value has long been recognised. However, group work may be unpopular among workers. Write an essay discussing the challenges of group work in the workplace and ways to overcome those challenges.",
-        "Q5": "Q5 - You recently tried being a vegetarian for one week. At the end of the week, you decided to write a blogpost about your experience and whether you will continue. Write the blogpost."
-      }
-    };
+    const dseWritingPartBQuestionTitles = window.EDMUND_DSE_WRITING_PART_B_TITLES || {};
 
     function dseWritingPartBQuestionsForYear(year) {
       const customQuestions = Object.keys(dseWritingPartBQuestionTitles[String(year)] || {});
@@ -191525,7 +191516,9 @@ window.EDMUND_FLASHCARD_SEED = {
         && (prefix === IELTS_READING_PASSAGE_3_PREFIX || IELTS_READING_PASSAGE_3_PREFIX.startsWith(`${prefix}/`))
         ? IELTS_READING_PASSAGE_3_CARD_COUNT
         : 0;
-      const unloadedIeltsReadingCount = unloadedPassage1Count + unloadedPassage2Count + unloadedPassage3Count;
+      const sourceCounts = Object.assign({}, ...Object.values(window.EDMUND_DSE_WRITING_PART_B_COUNTS || {}));
+      const unloadedDseWritingCount = Object.entries(sourceCounts).reduce((total, [id, count]) => total + (!seedDecks[id] && (id === prefix || id.startsWith(`${prefix}/`)) ? count : 0), 0);
+      const unloadedIeltsReadingCount = unloadedPassage1Count + unloadedPassage2Count + unloadedPassage3Count + unloadedDseWritingCount;
       const exact = getDeckCards(prefix).length;
       if (exact) return exact + unloadedIeltsReadingCount;
       return getKnownDeckIds()
@@ -192176,7 +192169,7 @@ window.EDMUND_FLASHCARD_SEED = {
         const yearId = `dse/writing/part-b/${year}`;
         const questions = dseWritingPartBQuestionsForYear(year);
         addAggregate(yearId, `DSE / Writing / Part B / ${year}`, questions.length);
-        questions.forEach(question => addExact(`${yearId}/${question}`, `DSE / Writing / Part B / ${year} / ${dseWritingPartBQuestionTitle(year, question)}`));
+        questions.forEach(question => addExact(`${yearId}/${question}`, `DSE / Writing / Part B / ${year} / ${dseWritingPartBQuestionTitle(year, question)}`, {cardCount: deckCardCount(`${yearId}/${question}`)}));
       });
 
       addAggregate("dse/paper-3", "DSE / Paper 3", 5);
@@ -193706,6 +193699,9 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function flashEssayPortalLinksHtml(deckId) {
+      const match = /^dse\/writing\/part-b\/(20\d{2})\/(Q\d+)$/i.exec(String(deckId || ""));
+      const links = match && window.EDMUND_DSE_WRITING_PART_B_LINKS?.[`${match[1]}-${match[2].toUpperCase()}`];
+      if (links) return `<div class="essay-portal-actions">${links.writing ? `<a class="essay-portal-link" href="${escapeHtml(links.writing)}" data-essay-portal-link>Writing Practice</a>` : ""}${links.downloads ? `<a class="essay-portal-link" href="${escapeHtml(links.downloads)}" data-essay-portal-link>Download Site</a>` : ""}</div>`;
       if (!essayPortals) return "";
       const essayKey = essayPortals.fromFlashDeckId(deckId);
       if (!essayKey) return "";
@@ -193875,7 +193871,13 @@ window.EDMUND_FLASHCARD_SEED = {
       );
     }
 
-    function showDseWritingPartBQuestions(year) {
+    let dseWritingPartBViewRequest = 0;
+    async function showDseWritingPartBQuestions(year) {
+      const requestId = ++dseWritingPartBViewRequest;
+      const initiatingOptions = lastOptions;
+      const initiatingUser = currentUser;
+      if (!await ensureSupplementalFlashcardViewData(`dse/writing/part-b/${year}`)) return;
+      if (requestId !== dseWritingPartBViewRequest || lastOptions !== initiatingOptions || currentUser !== initiatingUser) return;
       showOptions(
         `DSE Writing Part B ${year}`,
         "選擇題號。",
@@ -194976,6 +194978,8 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function deckTitleFromId(deckId) {
+      const dseWritingMatch = /^dse\/writing\/part-b\/(20\d{2})\/(Q\d+)$/i.exec(String(deckId || ""));
+      if (dseWritingMatch) return `DSE Writing Part B ${dseWritingMatch[1]} / ${dseWritingPartBQuestionTitle(dseWritingMatch[1], dseWritingMatch[2].toUpperCase())}`;
       if (deckId === BOOKMARK_DECK_ID || deckId === "bookmarks") return "書簽 / My Private Bookmarks";
       if (deckTitleLabels.has(deckId)) return deckTitleLabels.get(deckId);
       const customDeck = customSetupDecksForStudent().find(deck => deck.id === deckId || deck.collectionId === deckId);

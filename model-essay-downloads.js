@@ -20,6 +20,8 @@
   const dseWritingPartAFiles = Array.isArray(window.EDMUND_DSE_WRITING_PART_A_DOWNLOADS)
     ? window.EDMUND_DSE_WRITING_PART_A_DOWNLOADS
     : [];
+  const dseWritingPartBFiles = window.EDMUND_DSE_WRITING_PART_B_DOWNLOADS || [];
+  const dseWritingPartBMeta = window.EDMUND_DSE_WRITING_PART_B_META || {};
   const questionData = window.EDMUND_MODEL_ESSAY_QUESTION_DATA || {};
   const task1Meta = window.EDMUND_IELTS_TASK1_META || {};
   const task2Meta = window.EDMUND_MODEL_ESSAY_META || {};
@@ -103,6 +105,34 @@
       selectedZipPrefix: "Edmund-DSE-Writing-Part-A-Selected",
       kicker: item => `${item.year} DSE WRITING PART A`,
       detailFallback: "DSE Writing Part A 5** 示範答案 PDF。"
+    }),
+    "dse-writing-part-b": Object.freeze({
+      key: "dse-writing-part-b",
+      parentView: "dse",
+      section: "dse",
+      isDseWritingPartB: true,
+      items: dseWritingPartBFiles,
+      meta: dseWritingPartBMeta,
+      filters: [{ key: "all", label: "全部年份" }, ...[...new Set(dseWritingPartBFiles.map(item => String(item.year)))].sort().map(year => ({ key: year, label: year }))],
+      initialSort: "number-asc",
+      endpointPrefix: "/dse/writing-part-b",
+      breadcrumb: "Writing Part B",
+      eyebrow: "DSE WRITING · PART B",
+      titleHtml: "DSE Writing Part B<br>Edmund Sir 範文下載庫",
+      totalUnit: "份 PDF 示範答案",
+      itemNoun: "示範答案",
+      filterLabel: "DSE Writing Part B 年份",
+      searchLabel: "搜尋 DSE 年份或檔案名稱",
+      searchPlaceholder: "搜尋年份、題號或寫作主題...",
+      categorySortLabel: "按年份分類",
+      emptyTitle: "找不到符合條件的 DSE Writing Part B 示範答案",
+      emptyCopy: "請嘗試另一個年份或關鍵字。",
+      allTitle: "確定下載全部 Writing Part B 示範答案？",
+      allCopy: "系統會把 82 份 DSE Writing Part B Edmund Sir 範文整理成一個 ZIP 檔案。",
+      allZipName: "Edmund-DSE-Writing-Part-B-All-Model-Answers.zip",
+      selectedZipPrefix: "Edmund-DSE-Writing-Part-B-Selected",
+      kicker: item => `${item.year} DSE WRITING PART B · Q${item.question}`,
+      detailFallback: "DSE Writing Part B Edmund Sir 範文 PDF。"
     }),
     task1: Object.freeze({
       key: "task1",
@@ -292,6 +322,7 @@
   let byId = new Map(essays.map(item => [item.id, item]));
   const allItemsById = new Map([
     ...dseWritingPartAFiles,
+    ...dseWritingPartBFiles,
     ...task1Essays,
     ...task2Essays,
     ...speakingFiles,
@@ -381,6 +412,9 @@
   const allDownloadCopy = document.querySelector("[data-all-download-copy]");
 
   function essayQuestion(essay) {
+    if (activeCatalog.isDseWritingPartB) {
+      return { question: [essay?.questionPrompt, essay?.sourceNote].filter(Boolean).join("\n\n"), tags: [String(essay?.year), `Q${essay?.question}`] };
+    }
     if (activeCatalog.isDseWritingPartA) {
       return {
         question: `${essay?.year} DSE Writing Part A 5** 示範答案。`,
@@ -415,7 +449,7 @@
   }
 
   function itemDisplayTitle(item) {
-    return (activeCatalog.isReading || activeCatalog.isListening || activeCatalog.isDseWritingPartA) && item?.title
+    return (activeCatalog.isReading || activeCatalog.isListening || activeCatalog.isDseWritingPartA || activeCatalog.isDseWritingPartB) && item?.title
       ? item.title
       : item?.filename || "PDF";
   }
@@ -903,6 +937,8 @@
   }
 
   function essayPortalLinksHtml(essay) {
+    const links = activeCatalog.key === "dse-writing-part-b" && window.EDMUND_DSE_WRITING_PART_B_LINKS?.[`${essay.year}-Q${essay.question}`];
+    if (links) return `${links.flashcards ? `<a class="essay-portal-link" href="${escapeHtml(links.flashcards)}" data-essay-portal-link>Flash Cards</a>` : ""}${links.writing ? `<a class="essay-portal-link" href="${escapeHtml(links.writing)}" data-essay-portal-link>Writing Practice</a>` : ""}`;
     if (!["task1", "task2"].includes(activeCatalog.key) || !essayPortals) return "";
     const essayKey = essayPortals.fromDownloadItem(essay);
     if (!essayKey) return "";
@@ -942,7 +978,7 @@
           </div>
           <button class="essay-title-button" type="button" data-open-detail-id="${escapeHtml(essay.id)}">${escapeHtml(itemDisplayTitle(essay))}</button>
           <div class="essay-detail">${activeCatalog.isReading || activeCatalog.isListening ? `Practice ${essay.number} · ` : ""}PDF · ${essay.pages} 頁 · ${formatBytes(essay.bytes)}</div>
-          ${["task1", "task2"].includes(activeCatalog.key) ? `<div class="essay-portal-actions">${essayPortalLinksHtml(essay)}</div>` : ""}
+          ${["task1", "task2", "dse-writing-part-b"].includes(activeCatalog.key) ? `<div class="essay-portal-actions">${essayPortalLinksHtml(essay)}</div>` : ""}
         </div>
         <div class="essay-category">
           <span class="category-pill" data-category="${escapeHtml(essay.category)}">${escapeHtml(essay.categoryLabel)}</span>
@@ -1202,7 +1238,7 @@
     const isListening = event.task === "listening";
     const isDseWritingPartA = event.section === "dse" && event.task === "writing-part-a";
     if (event.event_type === "all_bundle") {
-      const label = isDseWritingPartA
+      const label = event.task === "writing-part-b" ? "All DSE Writing Part B bundle" : isDseWritingPartA
         ? "All DSE Writing Part A bundle"
         : isTask1
           ? "All IELTS Task 1 essay bundle"
@@ -1221,7 +1257,7 @@
     });
     if (event.event_type === "single_pdf") return escapeHtml(names[0] || "PDF");
     const items = names.map(name => `<li>${escapeHtml(name)}</li>`).join("");
-    const noun = isDseWritingPartA
+    const noun = event.task === "writing-part-b" ? "DSE Writing Part B 範文" : isDseWritingPartA
       ? "DSE Writing Part A 示範答案"
       : isTask1
         ? "Task 1 範文"

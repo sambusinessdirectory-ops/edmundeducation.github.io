@@ -133,6 +133,7 @@ export const HOMEWORK_HOT_KEY_REFERENCE = Object.freeze(
 );
 const DOWNLOAD_CATALOG_KEYS = Object.freeze([
   "dse-writing-part-a",
+  "dse-writing-part-b",
   "task1",
   "task2",
   "speaking",

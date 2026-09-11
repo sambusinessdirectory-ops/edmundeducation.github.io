@@ -42,23 +42,23 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 5648, "the Homework/Schedule catalogue should include every current learning resource, Speaking mock mode, Reading Comprehension exercise, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 5989, "the Homework/Schedule catalogue should include every current learning resource, Speaking mock mode, Reading Comprehension exercise, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
 }, {});
-assert.equal((byType.flashcards || []).length, 1364, "all current static and lazy-loaded flashcard leaf decks should be indexed");
-assert.equal((byType["fill-blanks"] || []).length, 321, "all current writing exercises should be indexed");
+assert.equal((byType.flashcards || []).length, 1451, "all current static and lazy-loaded flashcard leaf decks should be indexed");
+assert.equal((byType["fill-blanks"] || []).length, 407, "all current writing exercises should be indexed");
 assert.equal((byType.speaking || []).length, 796, "all currently visible speaking exercises and nine requested mock modes should be indexed");
 assert.equal((byType["sentence-structure"] || []).length, 345, "all sentence structure lessons should be indexed");
 assert.equal((byType.idiom || []).length, 138, "all Idiom lessons should be indexed");
 assert.equal((byType.proverb || []).length, 3, "all Proverb lessons should be indexed");
 assert.equal((byType["phrasal-verb"] || []).length, 329, "all Phrasal Verb lessons should be indexed");
-assert.equal((byType["writing-submission"] || []).length, 321, "every Writing Practice exercise should have a Writing Submission assignment link");
+assert.equal((byType["writing-submission"] || []).length, 407, "every Writing Practice exercise should have a Writing Submission assignment link");
 assert.equal((byType["reading-comprehension"] || []).length, 437, "all published Reading Comprehension exercises should be indexed once");
 assert.equal((byType["reading-analysis"] || []).length, 453, "all unique available IELTS Reading analyses should be indexed once");
 assert.equal((byType["model-essay-download"] || []).length, 14, "all DSE Writing Part A model-answer downloads should be indexed");
-assert.equal((byType["download-material"] || []).length, 857, "every item in the DSE/IELTS download portal should be indexed");
+assert.equal((byType["download-material"] || []).length, 939, "every item in the DSE/IELTS download portal should be indexed");
 assert.equal((byType["common-expression"] || []).length, 172, "all six Common Expression catalogues should be indexed");
 assert.equal((byType.listening || []).length, 80, "all 20 IELTS Listening practices and four parts should be indexed");
 assert.equal((byType["learning-portal"] || []).length, 18, "all new learning portals should be available for Homework/Schedule linking");
@@ -128,6 +128,7 @@ const downloadMaterialsByCatalog = (byType["download-material"] || []).reduce((c
 }, {});
 assert.deepEqual(downloadMaterialsByCatalog, {
   "dse-writing-part-a": 14,
+  "dse-writing-part-b": 82,
   listening: 20,
   "reading-passage-1": 163,
   "reading-passage-2": 149,
