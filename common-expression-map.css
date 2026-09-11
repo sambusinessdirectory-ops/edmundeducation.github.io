@@ -1,4 +1,4 @@
-/* The meadow is confined to the optional Speaking dashboard. */
+/* The meadow is confined to the Speaking dashboard. */
 .expression-map-toggle { display:flex; align-items:center; justify-content:center; gap:9px; background:#214f3d; color:#fffbee; border-color:#214f3d; }
 .expression-map-toggle:hover { background:#163e2e; color:#fffbee; }
 .expression-map-toggle svg { width:21px; height:21px; }
@@ -23,7 +23,7 @@
 .expression-map-viewport { position:relative; height:clamp(380px,64dvh,780px); overflow:auto; overscroll-behavior:contain; touch-action:pan-x pan-y pinch-zoom; -webkit-overflow-scrolling:touch; background:#85b660; scrollbar-color:#517444 #a6c78e; scrollbar-width:thin; }
 .expression-map-viewport[data-dragging=true] { cursor:grabbing; user-select:none; }
 .expression-map-space { position:relative; }
-.expression-map-world { position:absolute; top:0; left:0; width:1600px; height:1200px; transform-origin:top left; isolation:isolate; }
+.expression-map-world { position:absolute; top:0; left:0; width:1600px; height:1950px; transform-origin:top left; isolation:isolate; }
 .expression-map-terrain { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
 .expression-map-stone { position:absolute; width:180px; height:104px; padding:0; margin:-45px 0 0 -90px; border:0; background:none; z-index:2; color:#24402b; }
 .expression-map-stone::before { content:""; position:absolute; width:88px; height:63px; left:46px; top:0; border-radius:50%; background:linear-gradient(165deg,#fffae2 4%,#e7d6a5 66%,#b6a579); border:3px solid #fff5ce; box-shadow:0 7px 0 #7b8256,0 11px 0 #476044,0 18px 14px #20472359,inset 0 -4px 2px #b8b080; transition:filter .15s; }
@@ -31,18 +31,23 @@
 .expression-map-stone[data-complete=true]::before { background:linear-gradient(165deg,#d8f29e,#87bd64); border-color:#f1ffbc; box-shadow:0 7px 0 #5f8847,0 11px 0 #365636,0 18px 14px #20472359; }
 .expression-map-stone[aria-pressed=true]::before { outline:4px solid #fffce7; outline-offset:6px; }
 .expression-map-stone-number { position:absolute; top:11px; left:0; width:100%; font:700 30px/1.2 Georgia,serif; text-shadow:0 1px #fffaf0; }
-.expression-map-stone-caption { display:block; position:absolute; left:0; top:84px; width:180px; font-size:17px; line-height:1.15; font-weight:750; text-shadow:0 1px 0 #effcc9; }
+.expression-map-stone-caption { display:block; position:absolute; left:-5px; top:83px; width:190px; padding:5px 7px 6px; color:#183b2b; border:1px solid #f8f4d499; border-radius:11px; background:linear-gradient(135deg,#fffbe9e8,#f3efcef0); box-shadow:0 3px 8px #35552c1f; font:500 18px/1.24 Georgia,serif; text-wrap:pretty; }
+.expression-map-stone[data-arrived=true] .expression-map-stone-caption { opacity:0; }
+.expression-map-stone[data-arrived=true]::before { animation:expression-stone-land 380ms ease-out; }
 .expression-map-stone-status { position:absolute; top:45px; right:24px; min-width:36px; padding:4px 6px; border-radius:10px; font-size:13px; font-weight:800; background:#fff9df; box-shadow:0 2px 5px #21482a30; }
 .expression-map-horse { position:absolute; width:136px; height:165px; margin-left:-68px; margin-top:-157px; pointer-events:none; z-index:4; }
 .expression-map-shadow { position:absolute; width:60px; height:19px; margin-left:-30px; margin-top:-7px; border-radius:50%; background:#25452651; filter:blur(3px); pointer-events:none; z-index:3; }
-.expression-map-selected { display:flex; align-items:center; gap:18px; padding:18px 26px; background:linear-gradient(110deg,#fffbee,#f1ecd4); border-top:1px solid #9cad86; }
-.expression-map-selected-number { flex-shrink:0; width:50px; height:50px; display:grid; place-items:center; background:#254e39; color:#fff7d9; border-radius:16px; font:700 24px Georgia,serif; }
+.expression-map-stage { position:relative; }
+.expression-map-lesson-card { position:absolute; z-index:10; width:min(286px,calc(100% - 20px)); border:1px solid #b8c39d; border-radius:17px; background:linear-gradient(125deg,#fffdf2,#f2eed7); box-shadow:0 12px 28px #274c333b,0 2px 6px #274c331f; animation:expression-arrival 260ms ease-out both; transform-origin:var(--pointer-x,50%) top; }
+.expression-map-lesson-card::before { content:""; position:absolute; top:-7px; left:calc(var(--pointer-x,50%) - 7px); width:13px; height:13px; transform:rotate(45deg); background:#fffbee; border-top:1px solid #b8c39d; border-left:1px solid #b8c39d; }
+.expression-map-selected { display:grid; grid-template-columns:27px minmax(0,1fr); align-items:start; gap:8px; padding:10px; }
+.expression-map-selected-number { flex-shrink:0; width:27px; height:27px; display:grid; place-items:center; background:#254e39; color:#fff7d9; border-radius:8px; font:700 16px Georgia,serif; }
 .expression-map-selected-copy { flex:1; min-width:0; }
-.expression-map-selected-copy h3 { margin:0; font:700 clamp(19px,2.3vw,28px)/1.18 Georgia,serif; }
-.expression-map-selected-copy p { margin:4px 0 0; font-size:12px; color:#526646; }
-.expression-map-open { display:flex; align-items:center; justify-content:center; gap:15px; min-height:50px; padding:10px 23px; flex-shrink:0; color:#fffbea!important; background:#25513c; border:1px solid #153b29; border-radius:12px; box-shadow:0 4px 0 #123824; font-weight:750!important; }
-.expression-map-open small { display:block; margin-top:2px; font-size:10px; font-weight:500; opacity:.85; }
-.expression-map-footer { display:flex; flex-wrap:wrap; justify-content:space-between; gap:7px; padding:0 26px 15px; font-size:11px; color:#5f7256; }
+.expression-map-selected-copy h3 { margin:0; font:600 19px/1.18 Georgia,serif; }
+.expression-map-selected-copy p { margin:4px 0 0; font-size:12px; line-height:1.4; color:#526646; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.expression-map-open { grid-column:1 / -1; width:100%; display:flex; align-items:center; justify-content:center; gap:15px; min-height:40px; padding:8px 13px; flex-shrink:0; color:#fffbea!important; background:#25513c; border:1px solid #153b29; border-radius:12px; box-shadow:0 4px 0 #123824; font-weight:750!important; }
+.expression-map-open small { display:inline; margin-left:5px; font-size:10px; font-weight:500; opacity:.85; }
+.expression-map-footer { display:flex; flex-wrap:wrap; justify-content:space-between; gap:7px; padding:11px 26px; font-size:11px; color:#5f7256; }
 .expression-map-message { margin:0; }
 .expression-map-legend { display:flex; gap:12px; }
 .expression-map-legend span::before { content:""; display:inline-block; width:9px; height:9px; margin-right:4px; border-radius:50%; background:#d2c18c; border:1px solid #899262; }
@@ -50,6 +55,7 @@
 .expression-map-error { padding:20px; }
 @media (max-width:650px) {
  .expression-map { border-radius:20px; }
+ .expression-map-lesson-card { width:min(340px,calc(100% - 20px)); }
  .expression-map-header { padding:16px; gap:13px; }
  .expression-map-heading { width:100%; }
  .expression-map-heading h2 small { display:inline; margin-left:10px; }
@@ -62,11 +68,20 @@
  .expression-map-zoom { gap:3px; }
  .expression-map-zoom button { min-width:36px; padding:5px 7px; }
  .expression-map-viewport { height:55dvh; min-height:320px; }
- .expression-map-selected { padding:14px 12px; gap:10px; flex-wrap:wrap; }
- .expression-map-selected-number { width:40px; height:40px; border-radius:12px; font-size:20px; }
  .expression-map-open { width:100%; min-height:44px; padding:8px 15px; }
  .expression-map-open small { display:inline; margin-left:5px; }
- .expression-map-footer { padding:0 13px 13px; font-size:10px; }
+ .expression-map-footer { padding:10px 13px; font-size:10px; }
  .expression-map-desktop-hint { display:none; }
 }
-@media (prefers-reduced-motion:reduce) { .expression-map * { scroll-behavior:auto!important; transition:none!important; } }
+.expression-map-zoom button:disabled { opacity:.4; cursor:default; }
+.expression-map-zoom [data-save-location][aria-pressed=true] { color:#fffbee; background:#315d42; border-color:#315d42; }
+.expression-map-flag { position:absolute; z-index:3; overflow:visible; pointer-events:none; }
+.expression-map-flag-cloth { transform-origin:9px 24px; animation:expression-flag-breeze 3.6s ease-in-out infinite alternate; }
+.expression-map-flag.is-planted { animation:expression-flag-plant 300ms ease-out; }
+.expression-map-chimney-smoke { animation:expression-chimney 5s ease-in-out infinite; }
+@keyframes expression-arrival { from { opacity:0; transform:translateY(-7px) scale(.96); } to { opacity:1; transform:translateY(0) scale(1); } }
+@keyframes expression-stone-land { 0% { transform:scale(1); } 40% { transform:scale(1.055,.97); } 100% { transform:scale(1); } }
+@keyframes expression-flag-breeze { from { transform:skewY(-2deg) scaleX(.96); } to { transform:skewY(2deg) scaleX(1); } }
+@keyframes expression-flag-plant { from { opacity:0; transform:translateY(-12px); } to { opacity:1; transform:translateY(0); } }
+@keyframes expression-chimney { 0%,100% { opacity:.3; transform:translateY(1px); } 50% { opacity:.65; transform:translateY(-5px); } }
+@media (prefers-reduced-motion:reduce) { .expression-map * { scroll-behavior:auto!important; transition:none!important; animation:none!important; } }
