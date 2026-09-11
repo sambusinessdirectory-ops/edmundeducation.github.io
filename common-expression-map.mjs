@@ -401,7 +401,10 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
         else {settleArrival();drawHorse(performance.now(),false);}
       }
     });
-    on(viewport,'blur',()=>{if(keys.size){keys.clear();settleArrival();}}); on(window,'blur',stopAnimation);
+    on(viewport,'blur',()=>{if(keys.size){keys.clear();settleArrival();}});
+    // Losing keyboard focus must not freeze a map that is still visible.
+    // Visibility/viewport observers below own animation suspension.
+    on(window,'blur',()=>{if(keys.size){keys.clear();settleArrival();}});
     on(window,'focus',startAnimation);
     on(document,'visibilitychange',()=>document.hidden?stopAnimation():startAnimation());
     on(reduced,'change',()=>{if(reduced.matches && journey){position={...journey.to};journey=null;settleArrival();}drawHorse(performance.now(),false);startAnimation();});

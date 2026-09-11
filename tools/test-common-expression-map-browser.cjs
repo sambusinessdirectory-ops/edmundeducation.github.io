@@ -211,6 +211,36 @@ let browser;
    const after=await moving.evaluateAll(nodes=>nodes.map(n=>getComputedStyle(n).transform));
    assert.ok(before.every((value,i)=>value!==after[i]),'All foliage, boats, clouds and falling leaves move on independent timelines');
    assert.equal(await page.locator('.coast-pot').first().evaluate(n=>getComputedStyle(n).transform),potBefore,'Potted foliage moves while its pot stays grounded');
+   assert.equal(new Set(await page.locator('.coast-cloud').evaluateAll(nodes=>nodes.map(n=>n.dataset.cloud))).size,3,'Clouds use three genuinely different silhouettes');
+   assert.equal(await page.locator('.coast-ocean').count(),1);
+   assert.ok(await page.locator('.coast-wave').count()>10);
+   await page.evaluate(()=>window.dispatchEvent(new Event('blur')));
+   assert.equal(await page.locator('[data-expression-map]').getAttribute('data-animating'),'true','Losing window focus cannot freeze a still-visible map');
+   const sampleMotion=()=>page.evaluate(()=>{
+     const world=document.querySelector('.expression-map-world'),scale=world.getBoundingClientRect().width/1600;
+     const offsets=selector=>[...document.querySelectorAll(selector)].map(n=>new DOMMatrix(getComputedStyle(n).transform).m41*scale);
+     return {boats:offsets('.coast-boat'),clouds:offsets('.coast-cloud'),sea:offsets('.coast-ocean-surface'),plants:[...document.querySelectorAll('.coast-foliage')].map(n=>({kind:n.parentElement.dataset.plant,tip:new DOMMatrix(getComputedStyle(n).transform).c*n.clientHeight*scale}))};
+   });
+   const samples=[await sampleMotion()];
+   await page.locator('[data-expression-map]').screenshot({path:path.join(artifactDir,system+'-motion-start.png')});
+   for(let i=0;i<7;i++){await page.waitForTimeout(650);samples.push(await sampleMotion());}
+   await page.locator('[data-expression-map]').screenshot({path:path.join(artifactDir,system+'-motion-end.png')});
+   const first=samples[0],end=samples.at(-1);
+   const travel=end.boats.map((x,i)=>Math.abs(x-first.boats[i]));
+   assert.ok(travel.every(distance=>distance>=6),'Each boat visibly travels at least six screen pixels over the observation window');
+   const cloudTravel=end.clouds.map((x,i)=>x-first.clouds[i]);
+   assert.ok(cloudTravel.some(x=>x>3)&&cloudTravel.some(x=>x< -3),'Different clouds drift in opposite directions at visible speeds');
+   const sway={};
+   for(let i=0;i<first.plants.length;i++){
+     const tips=samples.map(s=>s.plants[i].tip),range=Math.max(...tips)-Math.min(...tips),kind=first.plants[i].kind;
+     (sway[kind]??=[]).push(range);
+   }
+   const medians=Object.fromEntries(Object.entries(sway).map(([kind,ranges])=>[kind,ranges.sort((a,b)=>a-b)[Math.floor(ranges.length/2)]]));
+   for(const [kind,pixels] of Object.entries(medians))assert.ok(pixels>1.2,`${kind} has perceptible rooted sway: ${pixels.toFixed(2)}px`);
+   assert.ok(Math.max(...samples.map(s=>s.sea[0]))-Math.min(...samples.map(s=>s.sea[0]))>1,'Ocean texture rolls gently inside its shoreline mask');
+   fs.writeFileSync(path.join(artifactDir,system+'-motion-measurements.json'),JSON.stringify({boatTravelPx:travel,cloudTravelPx:cloudTravel,medianSwayPx:medians},null,2));
+   console.log('visible motion',JSON.stringify({boatTravelPx:travel.map(x=>+x.toFixed(1)),cloudTravelPx:cloudTravel.map(x=>+x.toFixed(1)),medianSwayPx:Object.fromEntries(Object.entries(medians).map(([k,v])=>[k,+v.toFixed(1)]))}));
+
    await page.keyboard.down('ArrowUp');await page.waitForTimeout(700);await page.keyboard.up('ArrowUp');
    assert.ok(await page.locator('.expression-map-horse').evaluate(n=>parseFloat(n.style.top)>=550-12),'Keyboard walking stops at the coastal boundary');
    await page.locator('.expression-map-picker select').selectOption({index:0});await page.waitForTimeout(1000);

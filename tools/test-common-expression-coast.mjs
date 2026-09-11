@@ -4,7 +4,7 @@ import path from 'node:path';
 import vm from 'node:vm';
 import test from 'node:test';
 import { levelPositions, mapPreferenceKey } from '../common-expression-map.mjs';
-import { RHETORICAL_COAST as coast, COAST_BOUNDS, coastIsWalkable, coastPath, coastStep, coastPlantLayout } from '../common-expression-coast.mjs';
+import { RHETORICAL_COAST as coast, COAST_BOUNDS, coastIsWalkable, coastPath, coastStep, coastPlantLayout, COAST_MASONRY, VILLAGE_POTS } from '../common-expression-coast.mjs';
 const root=path.resolve(import.meta.dirname,'..'),window={};
 for(const file of ['common-expression-system-data.js','common-expression-system-imported-data.js']) vm.runInNewContext(fs.readFileSync(path.join(root,file),'utf8'),{window});
 const lessons=window.EDMUND_COMMON_EXPRESSION_DATA.systems['rhetorical-speaking'].lessons;
@@ -33,13 +33,13 @@ test('the sea and village reject clicks and stop keyboard travel at the dry terr
 test('foliage has varied, gentle timing and leaves room for stones and lesson captions',()=>{
  const plants=coastPlantLayout(nodes);
  assert.deepEqual([...new Set(plants.map(p=>p.kind))].sort(),['cypress','grass','lavender','olive','potted','shrub']);
- assert.ok(plants.length<200,'Keep mobile foliage layers bounded');
- assert.ok(new Set(plants.map(p=>p.delay)).size>50);
+ assert.ok(plants.length<100,'Keep mobile foliage layers bounded');
+ assert.ok(new Set(plants.map(p=>p.delay)).size>25);
  assert.deepEqual(new Set(plants.map(p=>p.direction)),new Set(['normal','reverse']));
  for(const p of plants) {
-  assert.ok(Math.max(Math.abs(p.a),Math.abs(p.b),Math.abs(p.c))<1.7);
-  if(p.y<=400) continue;
-  const extent=p.kind==='olive'?.48:p.kind==='cypress'?.26:.44;
+  assert.ok(Math.max(Math.abs(p.a),Math.abs(p.b),Math.abs(p.c))<5.3);
+  if(p.y<=500) continue;
+  const extent=p.kind==='olive'?.52:p.kind==='cypress'?.3:.5;
   assert.ok(!nodes.some(n=>p.x+p.size*extent>n.x-109 && p.x-p.size*extent<n.x+109 && p.y>n.y-82 && p.y-p.size<n.y+125));
  }
 });
@@ -56,4 +56,18 @@ test('the theme shares the companion lifecycle and gives every atlas crop an exp
  assert.equal(coast.cameraTop({point:nodes[0],scale:.87875,height:672,zoom:1}),0);
  assert.ok(coast.cameraTop({point:nodes[0],scale:.7,height:464,zoom:1})>0);
  for(const theme of ['speaking','written']) assert.notEqual(mapPreferenceKey(theme,'student-a'),mapPreferenceKey('rhetorical-speaking','student-a'));
+});
+
+
+test('pots are confined to house entrances and wild planting avoids the painted masonry',()=>{
+ const plants=coastPlantLayout(nodes),pots=plants.filter(p=>p.kind==='potted');
+ assert.equal(pots.length,3);
+ for(const p of pots) {assert.equal(p.bed,'house-entrance');assert.ok(p.x<800&&p.y<500);assert.ok(VILLAGE_POTS.some(([x,y])=>p.x===x&&p.y===y));}
+ const wild=plants.filter(p=>p.y>500);
+ for(const p of wild) {
+  assert.ok(p.bed.startsWith('terrace-bed-'),'Wild plants belong to small irregular beds');
+  assert.ok(!COAST_MASONRY.some(([l,t,r,b])=>p.x>l&&p.x<r&&p.y>t&&p.y<b),'Plant roots cannot sit on a wall or rock');
+ }
+ const beds=new Map();for(const p of wild)beds.set(p.bed,(beds.get(p.bed)||0)+1);
+ assert.ok([...beds.values()].every(count=>count>=2),'No lone shrub dots distributed across the meadow');
 });
