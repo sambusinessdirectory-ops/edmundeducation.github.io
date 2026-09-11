@@ -7,7 +7,7 @@ const root=path.resolve(import.meta.dirname,'..'),c={window:{}};
 const read=f=>readFileSync(path.join(root,f),'utf8');
 for(const f of ['flashcards-audio-manifest.js','flashcards-dse-writing-part-b-audio.js','writing-audio-dse-part-b-manifest.js','writing-practice-dse-part-b-library-data.js',...readdirSync(root).filter(f=>/^flashcards-dse-writing-part-b-\d{4}-data.js$/.test(f))])vm.runInNewContext(read(f),c);
 const index=JSON.parse(read('workers/edmund-audio/src/flashcard-pack-index-dse-writing-part-b.json'));
-assert.equal(index.meta.r2UploadComplete,true);assert.equal(index.meta.entryCount,9923);assert.equal(new Set(Object.values(index.packs).map(p=>p.key)).size,16);
+assert.equal(index.meta.r2UploadComplete,true);assert.equal(index.meta.entryCount,9923);assert.equal(index.meta.packCount,Object.keys(index.packs).length);assert.equal(new Set(Object.values(index.packs).map(p=>p.key)).size,16);
 const normalize=s=>s.replace(/[\u2018\u2019\u02bc\u02bb\uff07]/g,"'").replace(/([A-Za-z])\s+'\s*([A-Za-z])/g,"$1'$2").replace(/([A-Za-z])'\s+(s|t|re|ve|ll|d|m)\b/gi,"$1'$2").trim();
 for(const card of Object.values(c.window.EDMUND_FLASHCARD_SEED).flat()){
  const url=c.window.EDMUND_FLASHCARD_AUDIO[normalize(card.front)];assert.ok(url,card.front);
