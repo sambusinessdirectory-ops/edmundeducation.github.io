@@ -250,6 +250,7 @@ jobs:
           node tools/test-song-study-progress.mjs
           node tools/test-special-flash-card.mjs
           node tools/test-professional-feedback.mjs
+          node tools/test-learning-updates-20260911.mjs
           node tools/test-schedule-manual-writing-resource.mjs
           node tools/test-portal-loading.mjs
           node tools/test-feedback-questions.mjs

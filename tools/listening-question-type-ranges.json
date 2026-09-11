@@ -1,0 +1,22 @@
+{
+  "1": ["table:1-10", "multiple-choice:11-16 multiple-answers:17-20", "multiple-answers:21-26 multiple-choice:27-30", "notes:31-40"],
+  "2": ["notes:1-10", "matching:11-16 multiple-choice:17-20", "matching:21-25 multiple-choice:26-30", "notes:31-40"],
+  "3": ["table:1-10", "multiple-choice:11-16 map:17-20", "multiple-choice:21-26 matching:27-30", "notes:31-40"],
+  "4": ["notes:1-10", "multiple-answers:11-14 matching:15-20", "multiple-answers:21-24 multiple-choice:25-30", "notes:31-40"],
+  "5": ["notes:1-10", "multiple-choice:11-15 map:16-20", "multiple-answers:21-24 matching:25-30", "notes:31-40"],
+  "6": ["table:1-10", "multiple-choice:11-16 multiple-answers:17-20", "multiple-choice:21-24 matching:25-28 multiple-choice:29-30", "notes:31-40"],
+  "7": ["notes:1-6 table:7-10", "matching:11-16 multiple-answers:17-20", "multiple-choice:21-25 flowchart:26-30", "notes:31-40"],
+  "8": ["notes:1-6 table:7-10", "multiple-answers:11-14 matching:15-18 multiple-choice:19-20", "multiple-choice:21-25 matching:26-30", "notes:31-40"],
+  "9": ["notes:1-10", "multiple-choice:11-13 multiple-answers:14-15 matching:16-20", "multiple-choice:21-26 multiple-answers:27-30", "notes:31-40"],
+  "10": ["notes:1-5 table:6-10", "multiple-answers:11-14 map:15-20", "multiple-choice:21-24 multiple-answers:25-26 matching:27-30", "notes:31-40"],
+  "11": ["form:1-4 table:5-10", "multiple-answers:11-14 multiple-choice:15-20", "multiple-answers:21-24 matching:25-30", "notes:31-40"],
+  "12": ["notes:1-10", "multiple-choice:11-14 multiple-answers:15-20", "multiple-choice:21-26 matching:27-30", "notes:31-40"],
+  "13": ["notes:1-7 table:8-10", "multiple-choice:11-14 matching:15-20", "multiple-answers:21-22 matching:23-27 multiple-choice:28-30", "notes:31-40"],
+  "14": ["notes:1-10", "multiple-answers:11-12 multiple-choice:13-15 matching:16-20", "multiple-choice:21-24 matching:25-30", "notes:31-40"],
+  "15": ["notes:1-10", "multiple-choice:11-14 matching:15-20", "multiple-answers:21-24 matching:25-30", "notes:31-40"],
+  "16": ["notes:1-10", "multiple-choice:11-14 map:15-20", "multiple-answers:21-24 matching:25-30", "notes:31-40"],
+  "17": ["notes:1-10", "multiple-choice:11-15 matching:16-18 multiple-answers:19-20", "multiple-choice:21-24 flowchart:25-30", "notes:31-40"],
+  "18": ["notes:1-10", "multiple-answers:11-14 matching:15-20", "multiple-answers:21-24 multiple-choice:25-30", "notes:31-40"],
+  "19": ["notes:1-10", "multiple-choice:11-14 map:15-20", "multiple-answers:21-24 matching:25-30", "notes:31-40"],
+  "20": ["notes:1-10", "multiple-choice:11-14 table:15-20", "matching:21-26 multiple-choice:27-28 multiple-answers:29-30", "notes:31-40"]
+}

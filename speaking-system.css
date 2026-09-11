@@ -5241,3 +5241,5 @@ button:disabled {
 .dse-source-table th, .dse-source-table td { border: 1px solid #a4aaa8; padding: .55em .7em; vertical-align: top; text-align: left; min-width: 7em; }
 .dse-source-table thead { background: #edf1ef; color: #16271f; }
 .dse-source-table tbody th { font-weight: 600; }
+
+.dse-type-entry{display:grid;gap:8px;text-decoration:none;margin:18px 0;background:#f1f8f3;border:1px solid #b9d9c7;border-radius:18px;padding:24px}.dse-type-entry strong{font-size:1.6rem}.dse-selected-question{padding:30px;margin:24px 0;background:#f5faf6;border:1px solid #cbded2;border-radius:20px}.dse-selected-question h2{font-size:clamp(1.35rem,3vw,2.3rem);line-height:1.5}.dse-question-context>summary{cursor:pointer;font-weight:700;padding:18px 0}

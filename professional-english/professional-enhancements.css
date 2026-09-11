@@ -33,3 +33,5 @@ html.theme-day .pro-lesson-card button small{color:#536d62!important;opacity:1}
 
 /* Every remaining marker represents positive activity and must remain visible. */
 .axis-chart circle{opacity:1}
+
+.pro-dialogue-link{display:grid;gap:6px;text-decoration:none;padding:18px;border:1px solid var(--line,#365040);border-radius:14px;background:var(--panel,#13231b);color:var(--text,#edf5ef)}.pro-dialogue-link b,.pro-dialogue-link small{font-size:.75rem;color:var(--muted,#a8bdb0)}.pro-dialogue-link span{font-size:1.1rem;font-weight:700}.pro-dialogue-link:hover{border-color:var(--accent,#c8ed80)}

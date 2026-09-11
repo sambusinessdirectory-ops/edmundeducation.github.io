@@ -1,4 +1,5 @@
-import { mountListeningTypes } from './listening-question-types.mjs?v=20260906';
+import { mountFloatingWindow } from './floating-window.mjs?v=20260911';
+import { mountListeningTypes } from './listening-question-types.mjs?v=20260911';
 import { createListeningStudy } from './listening-study.js?v=20260904-guide1';
 import { safeBookmarkHref } from './listening-study-core.mjs?v=20260904-guide1';
 import { createDseStudy, getDseGuide, hasDseGuide, loadDseGuide, dseGuideFailed, dseAnswerReplayStart } from './dse-listening-study.mjs?v=20260904-archiveguides1';
@@ -1020,6 +1021,7 @@ function updateFloatingAudio(audio = selectedAudio()) {
 async function openPractice(practice, part = 0, options = {}) {
   const number = Number(practice);
   if (!registeredPractices.has(number)) return;
+  const requestedQuestion = Number(options.question ?? new URL(location.href).searchParams.get('question'));
   pauseAllAudio();
   saveCurrentAnswers();
   state.practice = number;
@@ -1032,7 +1034,12 @@ async function openPractice(practice, part = 0, options = {}) {
   document.querySelector('[data-floating-audio]').hidden = true;
   hideAnswerAnalysis();
   state.requestedPart = Number(part) >= 1 && Number(part) <= 4 ? Number(part) : 0;
-  if (options.update !== false) updateRoute("ielts", state.practice, state.requestedPart);
+  if (options.update !== false) {
+    updateRoute("ielts", state.practice, state.requestedPart);
+    if (requestedQuestion >= 1 && requestedQuestion <= 40) {
+      const url = new URL(location.href); url.searchParams.set('question', requestedQuestion); history.replaceState(null, '', url);
+    }
+  }
   elements.practiceTitle.textContent = `Practice ${state.practice}`;
   elements.trackGrid.innerHTML = "";
   setCatalogueStatus("正在載入錄音…");
@@ -1046,7 +1053,12 @@ async function openPractice(practice, part = 0, options = {}) {
     renderPracticeWorkspace();
     if (available === 4) setCatalogueStatus("四段錄音已準備好。", "ready");
     else setCatalogueStatus(`已找到 ${available}/4 段錄音；缺少的 Part 已在下方清楚標示。`, "warning");
-    if (state.requestedPart) window.setTimeout(() => document.querySelector(`[data-track-part="${state.requestedPart}"]`)?.scrollIntoView({ behavior: "smooth", block: "start" }), 120);
+    if (requestedQuestion >= (state.practicePart-1)*10+1 && requestedQuestion <= state.practicePart*10) {
+      const group = content.parts.find(p=>p.part===state.practicePart).questions.find(q=>(q.numbers||[q.number]).includes(requestedQuestion));
+      const key = group?.numbers?.join(' & ') || String(requestedQuestion);
+      const target = elements.workspace.querySelector(`[data-question-card="${key}"]`) || elements.workspace.querySelector(`[data-answer-q="${requestedQuestion}"]`)?.closest('td,label');
+      if (target) { target.classList.add('qtf-target'); target.tabIndex=-1; window.setTimeout(()=>{target.scrollIntoView({behavior:'smooth',block:'center'});target.focus({preventScroll:true});},150); }
+    } else if (state.requestedPart) window.setTimeout(() => document.querySelector(`[data-track-part="${state.requestedPart}"]`)?.scrollIntoView({ behavior: "smooth", block: "start" }), 120);
   } catch (error) {
     console.warn("Listening catalogue failed", error);
     if (state.practice !== number || state.view !== 'practice') return;
@@ -1228,6 +1240,11 @@ async function initialise() {
 
 initialise();
 
-mountListeningTypes(document.querySelector('[data-listening-types]'), (practice, part) => openPractice(practice, part));
+mountListeningTypes(document.querySelector('[data-listening-types]'), (practice, part, question) => openPractice(practice, part, {question}));
 
 window.EdmundListeningTools={audio:selectedAudio,context:()=>state.view==='dse'?{system:'listening',section:'DSE',year:state.dseYear,part:state.dseTask,url:`listening-system.html?section=dse&year=${state.dseYear}&task=${state.dseTask}`}:{system:'listening',section:'IELTS',practice:state.practice,part:state.practicePart,url:`listening-system.html?practice=${state.practice}&part=${state.practicePart}`}};
+
+for (const selector of ['[data-row-player]', '[data-floating-audio]']) {
+  const panel = document.querySelector(selector);
+  mountFloatingWindow(panel, { dragHandle:panel?.querySelector('div'), minHeight:180 });
+}

@@ -121,7 +121,7 @@ for (const required of [
   "dseSourceCard", "dseIndividualCard", "renderRecorderCard()", "exam: \"DSE\""
 ]) assert.match(appSource, new RegExp(required.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
 for (const required of [
-  "/v1/dse-exam-voice", "data-dse-play-question-voice", "autoPlayDseVoice",
+  "/v1/learning-voice", "data-dse-play-question-voice", "autoPlayDseVoice",
   "dse-single-question is-entering", "abandonDseSession(\"left-practice\")",
   "abandonDseSession(\"page-closed\")", "openRequestedHomeworkMockMode",
   "requestedHomeworkMockModeOpened", "[data-dse-mode=\"${modeId}\"]"

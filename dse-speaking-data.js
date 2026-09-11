@@ -204,7 +204,7 @@ window.EDMUND_DSE_SPEAKING_DATA = Object.freeze({
           "What are some major differences between Japanese and Chinese food?",
           "Do you think there are health risks in eating raw fish?",
           "Would you recommend a conveyor belt sushi bar to someone who has never been to one?",
-          "Do you think Japanese food’s reputation for being healthy is justified"
+          "Do you think Japanese food’s reputation for being healthy is justified?"
         ]
       },
       {
@@ -941,7 +941,7 @@ window.EDMUND_DSE_SPEAKING_DATA = Object.freeze({
           "Would you like to be a Cantopop star?",
           "Why do you think K-Pop and J-Pop are so popular in Hong Kong?",
           "Do you think people should be able to share songs on the Internet for free?",
-          "+o you think the subjects in Cantopop songs are relevant to young people’s lives in Hong Kong?"
+          "Do you think the subjects in Cantopop songs are relevant to young people’s lives in Hong Kong?"
         ]
       },
       {
@@ -5137,7 +5137,7 @@ window.EDMUND_DSE_SPEAKING_DATA = Object.freeze({
         "What are some major differences between Japanese and Chinese food?",
         "Do you think there are health risks in eating raw fish?",
         "Would you recommend a conveyor belt sushi bar to someone who has never been to one?",
-        "Do you think Japanese food’s reputation for being healthy is justified"
+        "Do you think Japanese food’s reputation for being healthy is justified?"
       ]
     },
     {
@@ -5872,7 +5872,7 @@ window.EDMUND_DSE_SPEAKING_DATA = Object.freeze({
         "Would you like to be a Cantopop star?",
         "Why do you think K-Pop and J-Pop are so popular in Hong Kong?",
         "Do you think people should be able to share songs on the Internet for free?",
-        "+o you think the subjects in Cantopop songs are relevant to young people’s lives in Hong Kong?"
+        "Do you think the subjects in Cantopop songs are relevant to young people’s lives in Hong Kong?"
       ]
     },
     {

@@ -1,30 +1,39 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
+import assert from 'node:assert/strict';
 const context = {window:{}}; vm.runInNewContext(fs.readFileSync('listening-practice-1-data.js','utf8'), context);
-const labels = { 'multiple-choice':'Multiple Choice 選擇題 MC', 'multiple-answers':'Multiple Choice — Multiple Answers 多選題', matching:'Matching 配對題', map:'Map / Plan Labelling 地圖／平面圖標示', gap:'Fill in the Blanks 填空題', notes:'Note Completion 筆記填充', table:'Table Completion 表格填充', form:'Form Completion 表單填充', flowchart:'Flow-chart Completion 流程圖填充', sentence:'Sentence Completion 句子填充', summary:'Summary Completion 摘要填充' };
+const ranges = JSON.parse(fs.readFileSync('tools/listening-question-type-ranges.json'));
+const labels = {
+  'multiple-choice': ['Multiple Choice — One Answer', '單項選擇', 'MC single choice 選擇題'],
+  'multiple-answers': ['Multiple Choice — Multiple Answers', '多項選擇', 'MC multiple choice 多選題'],
+  matching: ['Matching', '配對題', '分類 classification'],
+  map: ['Map / Plan Labelling', '地圖／平面圖標示', 'label 地點 地圖題'],
+  notes: ['Note Completion', '筆記填空', 'gap fill 填充'],
+  table: ['Table Completion', '表格填空', 'gap fill 填充'],
+  form: ['Form Completion', '表單填空', 'gap fill 填充 登記表'],
+  flowchart: ['Flow-chart Completion', '流程圖填空', 'gap fill 填充 flowchart 流程圖配對']
+};
 const rows=[];
-for(let practice=1;practice<=20;practice++){
- const data=practice===1?context.window.EDMUND_IELTS_LISTENING_PRACTICE_1:JSON.parse(fs.readFileSync(`assets/listening/practices/practice-${practice}.json`));
- for(const part of data.parts){
-  const source=[part.instruction,...(part.sourceBlocks||[]).map(b=>b.text||'')].join('\n');
-  const types=new Set();
-  if(/choose the correct letter/i.test(source)) types.add('multiple-choice');
-  if(part.questions.some(q=>q.type==='multi'||q.type==='multiple')) types.add('multiple-answers');
-  if(/choose (?:three|four|five|six|seven|eight|nine|ten) answers from the box/i.test(source)) types.add('matching');
-  if(/label (?:the )?(?:map|plan)|map below|plan below/i.test(source)) types.add('map');
-  if(part.questions.some(q=>q.type==='gap')) types.add('gap');
-  for(const [id,pattern] of Object.entries({notes:/complete the notes/i,table:/complete the table/i,form:/complete the form/i,flowchart:/complete the flow[ -]?chart/i,sentence:/complete the sentences/i,summary:/complete the summary/i})) if(pattern.test(source))types.add(id);
-  // Practice 1 uses its original structured instructions, rather than imported PDF blocks.
-  if(practice===1 && part.part===1) {types.add('gap');types.add('table');}
-  if(practice===1 && part.part===4) {types.add('gap');types.add('notes');}
-  // Image-only instructions were checked against their source diagrams/tables.
-  if(practice===3 && part.part===2) types.add('map');
-  if([3,6,11].includes(practice) && part.part===1) types.add('table');
-  if(practice===11 && part.part===1) types.add('form');
-  if(practice===15 && part.part===2) types.add('matching');
-  if(!types.size && part.questions.every(q=>q.type==='choice')) types.add('matching');
-  rows.push({practice,part:part.part,types:[...types],questions:part.questions.flatMap(q=>q.numbers||[q.number])});
- }
+for(let practice=1;practice<=20;practice++) {
+  const data=practice===1?JSON.parse(JSON.stringify(context.window.EDMUND_IELTS_LISTENING_PRACTICE_1)):JSON.parse(fs.readFileSync(`assets/listening/practices/practice-${practice}.json`));
+  assert.equal(data.parts.length,4);
+  for(const part of data.parts) {
+    const covered=[];
+    for(const range of ranges[practice][part.part-1].split(' ')) {
+      const [type,numbers]=range.split(':'); const [first,last]=numbers.split('-').map(Number);
+      assert.ok(labels[type]);
+      const questions=part.questions.filter(q=>(q.numbers||[q.number]).some(n=>n>=first&&n<=last)).map(q=>({numbers:q.numbers||[q.number],prompt:q.prompt}));
+      const actual=questions.flatMap(q=>q.numbers);
+      assert.deepEqual(actual,Array.from({length:last-first+1},(_,i)=>first+i),`P${practice}.${part.part} ${range}`);
+      covered.push(...actual);
+      rows.push({id:`p${practice}-${first}-${last}`,practice,part:part.part,type,first,last,questions,sourcePages:part.sourcePages||[],href:`listening-system.html?section=ielts&practice=${practice}&part=${part.part}&question=${first}`});
+    }
+    assert.deepEqual(covered,Array.from({length:10},(_,i)=>(part.part-1)*10+i+1));
+  }
 }
-fs.writeFileSync('listening-question-types.json',JSON.stringify({labels,rows},null,2)+'\n');
-console.log('Indexed',rows.length,'parts:',Object.fromEntries(Object.keys(labels).map(k=>[k,rows.filter(r=>r.types.includes(k)).length])));
+const counts=Object.fromEntries(Object.keys(labels).map(type=>{
+  const matching=rows.filter(r=>r.type===type);
+  return [type,{questions:matching.reduce((n,r)=>n+r.last-r.first+1,0),groups:matching.length,parts:new Set(matching.map(r=>`${r.practice}:${r.part}`)).size,practices:new Set(matching.map(r=>r.practice)).size}];
+}));
+fs.writeFileSync('listening-question-types.json',JSON.stringify({version:2,labels,counts,practiceCount:20,partCount:80,questionCount:800,rows},null,2)+'\n');
+console.log(JSON.stringify(counts,null,2));

@@ -9,7 +9,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "why some museums want to put their art collections online",
         "how viewing art online is different from viewing it in person",
-        "why some museums want to put their art collections online"
+        "how local museums can compete with digital museums to attract visitors"
       ],
       "individualResponse": [
         "Do you enjoy going to museums?",
@@ -19,7 +19,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Should students be encouraged to visit art museums?",
         "Do you prefer looking at art or making your own art?",
         "Should all museums be free to the public?",
-        "What can people learn by viewing art? 91"
+        "What can people learn by viewing art?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-001.webp",
@@ -44,7 +44,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Do food delivery apps encourage unhealthy eating habits?",
         "How can food delivery be more environmentally-friendly?",
         "Do you think home food delivery will continue to be popular?",
-        "Do you think technology will replace food delivery workers in the future? 93"
+        "Do you think technology will replace food delivery workers in the future?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-003.webp",
@@ -58,8 +58,8 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "sourceText": "[ “Ugly” buildings I Every city has 'ugly' buildings — buildings that most citizens consider 7 I unattractive or even horrible. 'Ugly' buildings might have strange I shapes, be made from unattractive materials, or simply not fit in with the other buildings around them. In Hong Kong, the Cultural Centre in Tsim Sha Tsui was voted one of the city's ugliest buildings, Critics have said it is 'toilet-coloured', and point out thet it has no windows and blocks the view of Victoria Harbour. One critic even said it should be knocked down and rebuilt. Whether such 'ugly' buildings should be knocked down is a common subject of debate in cities. Here are two opinions on the subject in an online forum: Yes, Ugly Buildings Should Be Knocked Down Yes! A single ugly building can ruin a neighbourhood. We don't need to preserve everything: things I change and we should move on and improve our lives, not continue the suffering of those who have to Jook at these architectural disasters! No, Ugly Buildings Should Stay Many buildings need time for people to lear to like them. People thought the Eiffel Tower was ugly when it was first built; now it's considered one of the most beautiful structures on earth. If we destroy old buildings because we think they're ugly, our city will lose its character. Your group is working on a project about 'ugly' buildings. You are meeting to discuss the issue. You may want to talk about: whether it is important for buildings to look attractive * reasons for keeping buildings that many people consider ugly © howto decide whether a building should stay or be replaced * anything else you think is important",
       "groupDiscussion": [
         "whether it is important for buildings to look attractive",
-        "want to talk about:",
-        "whether it is important for buildings to look attractive"
+        "reasons for keeping buildings that many people consider ugly",
+        "how to decide whether a building should stay or be replaced"
       ],
       "individualResponse": [
         "Do you like old buildings?",
@@ -67,9 +67,9 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Which district in Hong Kong has the most beautiful buildings?",
         "Should Hong Kong build even taller buildings?",
         "Should a building be approved by the public before it is built?",
-        "— Why do some people consider old buildings more beautiful than new buildings?",
+        "Why do some people consider old buildings more beautiful than new buildings?",
         "Do you think Hong Kong looks different to other big cities?",
-        "In your opinion, what makes a building beautiful? 95"
+        "In your opinion, what makes a building beautiful?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-005.webp",
@@ -84,13 +84,13 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "benefits tourism can bring to a city",
         "problems tourism can bring to a city",
-        "benefits tourism can bring to a city"
+        "whether Hong Kong should follow any of the above management strategies"
       ],
       "individualResponse": [
         "What do tourists like to do in Hong Kong?",
-        "What can people leam from visiting another country?",
+        "What can people learn from visiting another country?",
         "What makes Hong Kong a good place to visit?",
-        "Would you like to work in the touristn industry?",
+        "Would you like to work in the tourism industry?",
         "Is it better to plan your own trip or join a tour?",
         "Do you prefer to travel alone or with friends and family?",
         "Why do so many people travel these days?",
@@ -109,7 +109,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "whether driverless trams are a good idea for Hong Kong",
         "whether the public would like this design",
-        "whether driverless trams are a good idea for Hong Kong"
+        "other features which could be added to the tram"
       ],
       "individualResponse": [
         "Do you often take the tram?",
@@ -134,7 +134,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "reasons why people eat comfort food",
         "whether comfort food can be part of a healthy diet",
-        "reasons why people eat comfort food"
+        "other ways to reduce stress and improve mental health"
       ],
       "individualResponse": [
         "What is your favourite comfort food?",
@@ -144,7 +144,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Did your eating habits change during the pandemic?",
         "Should companies provide comfort food for their employees?",
         "Should comfort food come with health warnings?",
-        "Do you think you could live without comfort food? 101"
+        "Do you think you could live without comfort food?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-011.webp",
@@ -157,9 +157,9 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "Multi-functional cafés in Hong Kong",
       "sourceText": "Multi-functional cafés in Hong Kong The newest trend in Hong Kong is multi-functional cafés, where customers can combine coffee drinking with other activities. Read on to learn more about four multi-functional cafés in Hong Kong. Café-coding academy: Cafés and education is a popular mix, and Preface Coffee offers a quiet place to work, providing ample seating, power sockets, and fast Wi-Fi. Better yet, they have courses in website development and computer programming. Café-massage parlour: Yaw Café is a new social enterprise café and massage parlour operated by the Hong Kong Blind Union. Besides employing visually-impaired workers and massage therapists, its cakes and biscuits are made by visually-impaired bakers. Enjoy a coffee and book a head, shoulder, or neck massage with one of their therapists. Café-bair salon: At Duet, a café and a hair salon blend together in perfect harmony. The café side serves the finest espresso plus a menu of savoury fusion dishes and creative sweets. Over on the salon side, a hairstylist works his magic cutting, dyeing, and treating customers' hairdos. Café-laundromat: Wash your clothes and enjoy a cup of coffee at the same time at Clean, a new sustainable laundromat and coffee shop. Clean offers delicious coffee options along with self-service washing machines, while being eco-friendly and resource-efficient. You are members of your school's Business Club. You are doing a project on multi-functional cafés. You are meeting to discuss this. You may want to talk about: * why multi-functional cafés are popular ¢ which multi-functional café will attract the most customers © what advice you have for people who want to open a multi-functional café anything else you think is important",
       "groupDiscussion": [
-        "why multi-functional cafés are popular ¢ which multi-functional café will attract the most customers",
-        "You are members of your school's Business Club. You are doing a project on multi-functional cafés. You are",
-        "why multi-functional cafés are popular"
+        "why multi-functional cafés are popular",
+        "which multi-functional café will attract the most customers",
+        "what advice you have for people who want to open a multi-functional café"
       ],
       "individualResponse": [
         "Do you like going to cafés?",
@@ -169,7 +169,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Why are coffee shops so popular in Hong Kong?",
         "Do you think multi-functional cafés are a good idea?",
         "Do you think multi-functional cafés will take over traditional coffee shops?",
-        "What other businesses could benefit from mixed use of space? © NOT TAKE AWAY 103"
+        "What other businesses could benefit from mixed use of space?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-013.webp",
@@ -182,9 +182,9 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "Podcasting",
       "sourceText": "Podcasting Podcasting has become an effective and popular way to share exciting stories, meaningful conversations and valuable information. Due to their growing popularity, podcasts have become a part of our daily lives. But what is podcasting and why is it so popular? 'A podcast is an audio program that is available for streaming or downloading on the Internet. It is a series of episodes, often focusing on a specific topic, that listeners can subscribe to and enjoy whenever they want. Unlike other media, podcasts offer a more personal and intimate experience, allowing listeners to choose what they want to hear and when they want to hear it. Listening to a podcast often feels like a conversation with a friend. Hosts and guests share personal stories, experiences and insights, creating a real connection with the audience. The world of podcasting is also diverse, with thousands of podcasts covering a wide range of genres and topics. The listener can discover new voices, perspectives and stories that would otherwise remain hidden. Here are three types of podcast which are very popular: rn) News(@j=I Storytelling set Conversation gi News podcasts aim to bring I Storytelling podcasts often have a I In conversational podcasts, a host the latest and biggest news I theme, such as crime or ghost I invites people, sometimes famous, stories to their listeners every I stories. They have proven to be I onto the show to have a casual day. They tend to be short, I quite popular! Such stories are I chat. Podcasts of this nature are five to ten-minutes in length. often told within 20 minutes, often more than an hour long. The Tourism Board has invited students to promote Hong Kong to international visitors through podcasts. Your group is meeting to plan a series of podcasts. You may want to talk about: « which type of podcast can best promote Hong Kong © — what to include in the podcasts * how to keep listeners interested in the series anything else you think is important",
       "groupDiscussion": [
-        "what to include in the podcasts",
         "which type of podcast can best promote Hong Kong",
-        "what to include in the podcasts"
+        "what to include in the podcasts",
+        "how to keep listeners interested in the series"
       ],
       "individualResponse": [
         "Do you listen to podcasts?",
@@ -194,7 +194,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "If you created a podcast, what would you talk about?",
         "Are podcasts a good way to learn about a place?",
         "Why do some people prefer videos over podcasts?",
-        "What skills should a podcast host have? 105"
+        "What skills should a podcast host have?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-015.webp",
@@ -207,19 +207,19 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "Feeding Communities",
       "sourceText": "Feeding Communities Although there are plenty of shops, restaurants and bakeries everywhere you go, not everyone can afford to buy the food they need. To help communities in need, two initiatives have been set up in Hong Kong. Blue Fridge Project Food Angel Project On Woosung Street in Jordan, a small blue fridge stands outside with a sign that reads; “Give what you can give, take what you need to take.” Food Angel is a food assistance programme launched in 2011 with the mission of “Waste Not, Hunger Not, With I Love”. Inside the fridge: instant I noodles, biscuits, tins of food, and even socks and towels for anyone who may need them. oa *, 'The programme collects leftover food from different sectors of the food industry that would otherwise be disposed of as waste. Following strict safety protocols, the food items are tumed into nutritious Mr. Khan, the creator of the community fridge, says that “a fridge is part of your home, so even if it's on @ street, it's part of a community. People can just I The food is then distributed to serve communities in open it and leave something or take what they I need in Hong Kong. need.” meals and food packs in their central kitchens, You are members of the Social Service Club. You are meeting to discuss how to help communities in need. You may want to talk about: * why it is important for young people to help communities in need * which of the two projects above would be best to organise in your school © — what else your schoo! can do to help communities in need © anything else you think is important",
       "groupDiscussion": [
-        "why it is important for young people to help communities in need * which of the two projects above would be best to organise in your school",
-        "You are members of the Social Service Club. You are meeting to discuss how to help communities in need",
-        "why it is important for young people to help communities in need"
+        "why it is important for young people to help communities in need",
+        "which of the two projects above would be best to organise in your school",
+        "what else your school can do to help communities in need"
       ],
       "individualResponse": [
         "Have you done any community service?",
         "What kinds of food are good to donate?",
-        "_ Is alot of food wasted in Hong Kong?",
+        "Is a lot of food wasted in Hong Kong?",
         "Why do businesses want to donate their leftover food?",
         "Do you think the Blue Fridge project would work where you live?",
-        "— Would you leave food in the Blue Fridge?",
+        "Would you leave food in the Blue Fridge?",
         "Should more be done to raise awareness for communities in need?",
-        "What should you consider before volunteering? 107"
+        "What should you consider before volunteering?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-017.webp",
@@ -234,17 +234,17 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "what vocational training offers that university does not",
         "how vocational training can benefit society",
-        "what vocational training offers that university does not"
+        "what would attract more students to join a vocational training course"
       ],
       "individualResponse": [
         "What do you want to do after secondary school?",
         "Why is going to university important to Hong Kong students?",
-        "_Howcan young people learn more about different careers?",
+        "How can young people learn more about different careers?",
         "When should students start thinking about their career?",
         "Would you ever work for no pay to get some job experience?",
-        "— Would you like to go to a foreign country to gain work experience?",
+        "Would you like to go to a foreign country to gain work experience?",
         "Which do you think is more important: qualifications or experience?",
-        "Why do you think employers value vocational training? D¢ )T TAKE AWAY 109"
+        "Why do you think employers value vocational training?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-019.webp",
@@ -259,17 +259,17 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "why students should join a book club",
         "why students may not be interested in joining a book club",
-        "why students should join a book club"
+        "how to make meetings more interesting and enjoyable for students"
       ],
       "individualResponse": [
         "What types of books do you enjoy reading?",
         "Do you prefer reading paper books or e-books?",
         "Would you rather join a book club or a film club?",
         "Are Hong Kong people too busy to read books?",
-        "Doyou think a book club is 2 good place to make friends?",
+        "Do you think a book club is a good place to make friends?",
         "Would you join a book club that meets online?",
-        "Which do you leam more from: fiction or non-fiction books?",
-        "What's the difference between reading for pleasure and reading for study? DC IT TAKE AWAY i"
+        "Which do you learn more from: fiction or non-fiction books?",
+        "What's the difference between reading for pleasure and reading for study?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-021.webp",
@@ -282,19 +282,19 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "The smells of Hong Kong",
       "sourceText": "The smells of Hong Kong Hong Kong is 'fragrant harbour' in Cantonese. There are actually many different smells, not necessarily pleasant and fragrant, that can make people think of this city. The following are some examples. I Money Hong Kong is a financial centre in Asia. It is no surprise that the smell of money, both banknotes and coins, is a symbolic smell of the city. Seafood One never forgets the strong smell of dried seafood in Sheung Wan and the smell of shrimp paste in Sai Kung. All over Hong Kong, in wet markets, the odour of fish stalls is another reminder of how close Hong Kong is to the sea. Joss sticks and incense In Chinese temples, burning joss sticks and incense gives off a relaxing and woody fragrance that reflects the cultural roots of Hong Kong. Street food Hong Kong people love strect food, particularly food that has strong flavours and smells: curry fish balls, stinky tofu, egg tarts and fried chestnuts. Exhaust fumes on the road Unpleasant as it may be, the smell of the exhaust gases from cars, lorries and buses all year round just I reflects the busy traffic and the energy of the city. I I Greenery Contrary to most people's first impression, 75 percent of Hong Kong's territory is actually green: country parks, agricultural or semi-rural land. The refreshing and calming scents of trees and grass always offer escape from the stress of city life. The Tourism Board is organising an event called “Discover Hong Kong'. Your group wants to set up a stall to introduce the different smells of Hong Kong. You may want to talk about: * why introducing Hong Kong through smells is a good idea * which three smells best represent Hong Kong and why © — ways to attract visitors to your stall © anything else you think is important",
       "groupDiscussion": [
-        "why introducing Hong Kong through smells is a good idea * which three smells best represent Hong Kong and why",
         "why introducing Hong Kong through smells is a good idea",
-        "which three smells best represent Hong Kong and why"
+        "which three smells best represent Hong Kong and why",
+        "ways to attract visitors to your stall"
       ],
       "individualResponse": [
-        "— What is your favourite smell?",
-        "— What smell do you hate most?",
+        "What is your favourite smell?",
+        "What smell do you hate most?",
         "What smells remind you of your school?",
         "What smell do you like most in nature?",
         "What smells remind you of your home?",
-        "— Would you buy something because it smells good?",
+        "Would you buy something because it smells good?",
         "Should foods that have strong smells be banned in public areas?",
-        "Should movies incorporate smell in their production? DO T TAKE AWAY 113"
+        "Should movies incorporate smell in their production?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-023.webp",
@@ -309,7 +309,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "why TV talent shows are popular",
         "how participants can benefit from being in TV talent shows",
-        "why TV talent shows are popular"
+        "what problems participants could face when taking part in TV talent shows"
       ],
       "individualResponse": [
         "Do you watch TV talent shows?",
@@ -317,9 +317,9 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Which do you like to watch more: people singing or people cooking?",
         "How can young people develop their talents?",
         "Do you agree that talent can be developed through hard work?",
-        "Doyou think people can develop a new talent later in life?",
+        "Do you think people can develop a new talent later in life?",
         "Should students pursue artistic talents rather than academics?",
-        "Why does being talented not always lead to success? 115"
+        "Why does being talented not always lead to success?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-025.webp",
@@ -332,9 +332,9 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "Top jobs of the future",
       "sourceText": "Top jobs of the future Experts are constantly trying to predict what the next top jobs will be, Here are just a few that are likely to be in demand over the next 15 years. Artist — Are you creative? From video gaming, animation and virtual reality to BB packaging design, landscape design, fashion and advertising, a talent for art can be useful in a wide range of careers, meaning a huge demand for people to work in healthcare. These can be careers with Lo} Healthcare worker — By 2039, the number of people aged 75+ will have doubled, plenty of opportunities to progress. to take up both manual and non-manual roles, Apprenticeships can train people for jobs in wood trades, bricklaying and electrics. “te Construction worker — The construction industry needs thousands of people every year Nature conservation officer ~ Protecting a particular habitat such as a mangrove forest A or a stretch of coastline helps to improve the environment as well as encourage people to respect and enjoy it. These officers do work that we all benefit from in one way or another, computing and artificial intelligence to business intelligence and gaming, and other C---] : Software developer ~ Computer programming skills are needed everywhere, from cloud possibilities yet to be imagined. Your schoo! is holding a job fair on the theme of “Jobs of the Future'. Your group is discussing the topic. You may want to talk about: © why there will be a demand for the jobs mentioned in the article which jobs will attract the most students * how to promote the job fair © anything else you think is important",
       "groupDiscussion": [
-        "why there will be a demand for the jobs mentioned in the article which jobs will attract the most students",
-        "may want to talk about:",
-        "why there will be a demand for the jobs mentioned in the article"
+        "why there will be a demand for the jobs mentioned in the article",
+        "which jobs will attract the most students",
+        "how to promote the job fair"
       ],
       "individualResponse": [
         "What job would you like to do?",
@@ -344,7 +344,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Is salary important to you when choosing a job?",
         "Do you think it is important to try different jobs?",
         "Should students start planning their careers in secondary school?",
-        "What jobs do you think will disappear in the future? )T TAKE AWAY 117"
+        "What jobs do you think will disappear in the future?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-027.webp",
@@ -384,7 +384,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "whether handwriting is still important today",
         "how students can improve their handwriting",
-        "Your school is setting up some new clubs. You are meeting to discuss whether a calligraphy club is a good"
+        "activities that can be held by the club"
       ],
       "individualResponse": [
         "Do you like to do your homework with pen and paper?",
@@ -407,19 +407,19 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "Urban farming",
       "sourceText": "Urban farming Around 90 percent of the food eaten in Hong Kong is imported from Mainland China and other locations. But while Hong Kong is one of the most crowded places on earth, there is still considerable space to grow food locally. Urban farming promoters say growing food in unusual spaces — on mall rooftops, housing estate terraces, even in office buildings — could help the environment and improve local health. “Growing your own food is a necessary skill that we all need to learn to ensure a sustainable and green planet,” said one urban farmer. “Nothing is more important than the education of the next generation of urban farmers. Now is the time.” 'There are now more than 60 rooftop farms across Hong Kong, growing foods like carrots, radishes, and fruit. Yet more than 600 million square metres of rooftops are still unused. “This situation needs to change,” said the farmer. “Rooftops in Hong Kong are often empty, open spaces that are not in use. Why not take advantage of this?” Benefits of local urban farming include lower pollution levels due to less shipping, better access to healthy fruits and vegetables, and a sense of community spirit among urban farmers. The food can also be given to poor families or homeless people to reduce the problem of hunger. You are members of the school's Cookery Club. Your group would like to start an urban farm on your school's rooftop. You are meeting to discuss this. You may want to talk about: «the benefits of having a farm on the school's rooftop * how-you will organise the care of the farm «what you will do with the food you grow * anything else you think is important",
       "groupDiscussion": [
-        "how-you will organise the care of the farm",
-        "the benefits of having a farm on the school's rooftop",
-        "how-you will organise the care of the farm"
+        "the benefits of having a farm on the school’s rooftop",
+        "how you will organise the care of the farm",
+        "what you will do with the food you grow"
       ],
       "individualResponse": [
         "Do you think farming is a good hobby?",
         "Are you interested in visiting rooftop farms?",
-        "Ifyou had a farm, what would you grow?",
+        "If you had a farm, what would you grow?",
         "Why do people enjoy visiting farms?",
         "Are young people more interested in farming these days?",
         "Should schools offer after-school farming classes?",
         "Other than farming, what else can rooftops be used for?",
-        "What are the possible problems of having a rooftop farm? 123"
+        "What are the possible problems of having a rooftop farm?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-033.webp",
@@ -443,8 +443,8 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Do you think having an online job might affect your studies?",
         "How would your parents feel if you had an online job?",
         "What kind of volunteer work could people do online?",
-        "— Should people under sixteen be allowed to work online?",
-        "Do you think working online will be the trend of the future? pe NOT WAY 125"
+        "Should people under sixteen be allowed to work online?",
+        "Do you think working online will be the trend of the future?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-035.webp",
@@ -457,9 +457,9 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "Get out of the classroom and into the real world!",
       "sourceText": "Get out of the classroom and into the real world! Hong Kong is paoked with lenning appertunites away rom the textbooks. Here's just a sample of some of the amasiys nlatcus the ally las fa aflier, Enquire in store for a tailor-made educational tour experiences at ane of Ung fillawinyy otteaetions: The Hong Kong Science Tai Kwun comprises 16 Mai Fo Native Reserve in Yuen Museum features the wonders of I revitalised heritage buildi Lang @ftoeg a nvagloal encounter modem science and innovations I including the former Cent WU ivorsa anesystenss and in technology. Explore more than I Police Station, Central thriving bindiversity 500 exhibits featuring robotics, I Magistracy and Victoria Prison. I gud wale dirough stunning transportation, simulation, light, I Experience the past by sittingyin I saaiuy guall as marshes and telecommunications, sound, the tiny, cramped cells and wotlandy, Tha byat time for motion, electronics and virtual reading the stories of former reality. Come be amazed by the —_I prisoners. Then, enjoy an exciliiny 22-metre-high Energy Machine —_I mix of visual arts, music and and the real aircraft hanging from I theatre performances, 'edwatehing te in spring and satiny whan Windle come to feed on) (ali, otvrtiny and grabs among f tha mungrever, Don't forget your the ceiling. screenings, educational hrinogatary wad amibwetlat programmes and free concesty, Your class is organising a school trip to a local attraction. Your growp lng thon fstiad fr fiolp plan the trip You may want to talk about: © the benefits of learning outside of the classroom © what to consider when deciding which attraction to choose © which of these attractions your group would recommend YT TAKE AWAY '© anything else you think is important",
       "groupDiscussion": [
-        "Your class is organising a school trip to a local attraction. Your growp lng thon fstiad fr fiolp plan the trip",
         "the benefits of learning outside of the classroom",
-        "what to consider when deciding which attraction to choose"
+        "what to consider when deciding which attraction to choose",
+        "which of these attractions your group would recommend"
       ],
       "individualResponse": [
         "Do you like going on school trips?",
@@ -469,7 +469,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Which do you like more: science or history?",
         "Is walking in nature a waste of time?",
         "Should schools offer more learning outside of the classroom?",
-        "How do you think school trips will change in the future? bo 127"
+        "How do you think school trips will change in the future?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-037.webp",
@@ -482,9 +482,9 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "Take-A-Nap' campaign",
       "sourceText": "“Take-A-Nap' campaign Adults are recommended to get 7 to 9 hours of quality sleep every night, and teenagers and young adults may require even more rest time. But sometimes your schedule simply does not allow you to get a full night of sleep. Research suggests that a short nap for 20 minutes during the day has many benefits. [t can relieve eye or brain fttigue and restore brain function including attention and memory, It can help you work better, think more clearly, and balance your emotions. To improve students' wellbeing, the Wellness Centre is collaborating with the Library to launch the 'Take-A-Nap' campaign. Visit the Library to experience an energy-reviving nap in one of our sleeping pods that will boost both your health and your academic performance. The sleeping pods are a special type of chair designed to give you a perfectly timed, energy-reviving nap for your health and enjoyment. They let you recline at a comfortable sleeping angle, while playing soft music through your headphones and emitting coloured lighting to help you relax and refresh. After 20 minutes, the pod will gently wake you up with increasing light and vibration, I You are committee members of your school's Health Club. Your club js thinking of buying sleeping pods for the school. You are meeting to discuss this topic. You may want to talk about; © the benefits of taking afternoon naps © how to promote the use of sleeping pods © whether afternoon naps should be included in the school timetable * anything else you think is important",
       "groupDiscussion": [
+        "the benefits of taking afternoon naps",
         "how to promote the use of sleeping pods",
-        "You are committee members of your school's Health Club. Your club js thinking of buying sleeping pods for",
-        "the benefits of taking afternoon naps"
+        "whether afternoon naps should be included in the school timetable"
       ],
       "individualResponse": [
         "Do you like taking naps?",
@@ -494,7 +494,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Where else would sleeping pods be useful?",
         "Other than a nap, what are ways to re-energise yourself?",
         "Does napping make you more productive?",
-        "Why do some people think napping is bad? (her Ne TAKE AWAY 129"
+        "Why do some people think napping is bad?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-039.webp",
@@ -509,17 +509,17 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "what qualities make a good mascot",
         "what to consider when choosing a mascot for the Cross Harbour Race",
-        "what qualities make a good mascot"
+        "whether you would recommend using any of the characters shown above"
       ],
       "individualResponse": [
         "Are sports events popular in Hong Kong?",
-        "Doyou like watching sports events?",
+        "Do you like watching sports events?",
         "Is the Cross Harbour Race suitable for people of all ages?",
         "Why do people like to buy toys and other souvenirs at sports events?",
         "How else could the Cross Harbour Race be promoted in Hong Kong?",
         "How can Hong Kong benefit from holding major sports events?",
         "Why do large corporations sponsor major sports events?",
-        "Do mascots appeal to people of all ages? DO )T TAKE AWAY 131"
+        "Do mascots appeal to people of all ages?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-041.webp",
@@ -534,7 +534,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "why instant noodles are popular",
         "whether instant noodles should be included in the exhibition",
-        "why instant noodles are popular"
+        "other inventions that could be included"
       ],
       "individualResponse": [
         "Do you like instant noodles?",
@@ -557,19 +557,19 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "Space Tourism",
       "sourceText": "Space Tourism In 2021, Amazon founder Jeff Bezos became the second billionaire within a week to reach outer space. He travelled aboard his company's Blue Origin rocket on a NJ spaceflight that Jasted 10 minutes. Virgin Galactic founder Sir Richard Branson was Srv nlicanat bata ete dee raigtt ke sorecanisgance ma Al becoming weightless for several minutes. ry) 4 Some experts say private space travel could bring about a new era of space exploration, where you no longer have to be a trained astronaut to fly. It's a pretty exciting idea, but what are the pros and cons? exe On the positive side, some experts say private space travel speeds up the rate of Bed research, meaning more cool new technologies will be invented. New technology could also make space travel cheaper, which could encourage more exploration of the universe. This could make it possible to return to the moon, or even reach Mars. +L On the negative side, space travel can be damaging to the environment, as chemicals e from rocket fumes pollute the air. So-called 'space junk” ~ damaged pieces of space * aD vehicles floating through space — can also be a problem, potentially damaging satellites or even falling down to earth. And more space travel also means more a potential for terrible accidents. You are members of your school's Science Club. You have gathered to discuss the issue of private space travel. You may want to talk about: © the benefits of private space travel ¢ the disadvantages of private space travel '© whether private space travel should be encouraged © anything else you think is important",
       "groupDiscussion": [
-        "You are members of your school's Science Club. You have gathered to discuss the issue of private space",
         "the benefits of private space travel",
-        "the disadvantages of private space travel"
+        "the disadvantages of private space travel",
+        "whether private space travel should be encouraged"
       ],
       "individualResponse": [
         "Would you like to go to outer space?",
         "Are you interested in outer space?",
-        "__ Is going to outer space a good use of time and money?",
+        "Is going to outer space a good use of time and money?",
         "Why are some rich people so interested in going to outer space?",
         "Why are some people interested in studying outer space?",
         "Do you think space travellers are heroes?",
         "What qualities make a good space traveller?",
-        "Doyou think humans will live on other planets one day? 135"
+        "Do you think humans will live on other planets one day?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-045.webp",
@@ -594,7 +594,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Have you had any bad experiences shopping on social media?",
         "Do online reviews help you decide whether to buy something?",
         "Will shopping through social media become the norm?",
-        "Should selling on social media be more regulated? 137"
+        "Should selling on social media be more regulated?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2024/page-047.webp",
@@ -609,12 +609,12 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "how his visit can benefit students",
         "questions to ask him during the interview",
-        "how his visit can benefit students"
+        "other activities you could do on his visit"
       ],
       "individualResponse": [
         "What sports do you enjoy watching?",
-        "Haye you watched the Olympic games on TV?",
-        "Have you ever leamed a sport during the summer holiday?",
+        "Have you watched the Olympic games on TV?",
+        "Have you ever learned a sport during the summer holiday?",
         "Do you think fencing is dangerous?",
         "What qualities are needed to be a professional athlete?",
         "How has Cheung's success influenced Hong Kong people?",
@@ -632,9 +632,9 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "Photo-taking visitors not welcomed by everyone",
       "sourceText": "Photo-taking visitors not welcomed by everyone We often take photos of such aspects of everyday life as scenery and food, and we see others posting these kinds of pictures on social media. In some places, however, people are pushing back against this trend. Vermont, USA Mount Fuji, Japan Berlin, Germany Officials in this town recently I In May 2024,a Japanese town I Before opening N&S, one of voted to close its roads in autumn, I built a wall to block views of I Germany's top-rated restaurants, when the leaves of the trees tum I Mount Fuji, Japan's most I owner Billy Wagner set a 'no colour and the area is at its most I famous mountain. Large I photos, no videos' rule for the beautiful, Hundreds of tourists I groups of tourists started I place. He mentions two reasons began going there to take photos, I going there to take photos and I for the rule: privacy for the and many were parking near I refused to obey rules on I other diners and appreciation for people's private homes, damaging I throwing trash and parking. I the food. “I was interested in property and even arguing with I One resident said, “When I analogue focus, which is what a local residents, “Traffic in this I visitors don't respect rules, I restaurant visit is really all area has steadily increased, I leave litter behind and ignore I about: to smell, taste, feel, see.” causing environmental, safety, and I traffic regulations, then as I He felt that the only way that quality of life issues,” the town I regrettable as it is, we have to I people could have that focus reported, take action.” was to put their phones away. Your group is discussing the issue of taking photos in public places. You may want to talk about: why people might not like others taking photos in public places ¢ places in Hong Kong that are popular for taking photos whether Hong Kong needs to have rules for photo taking in public places * anything else you think is important",
       "groupDiscussion": [
-        "why people might not like others taking photos in public places ¢ places in Hong Kong that are popular for taking photos",
         "why people might not like others taking photos in public places",
-        "places in Hong Kong that are popular for taking photos"
+        "places in Hong Kong that are popular for taking photos",
+        "whether Hong Kong needs to have rules for photo taking in public places"
       ],
       "individualResponse": [
         "Do you like taking photos?",
@@ -644,7 +644,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Is taking photos an important part of travelling?",
         "Who likes taking photos more: younger people or older people?",
         "Can taking photos spoil an experience?",
-        "Do you think tourism causes disruption to local people? 93 OT TAKE AWAY DO"
+        "Do you think tourism causes disruption to local people?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2025/page-003.webp",
@@ -659,7 +659,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "why smartphones are so popular",
         "whether PCs are still useful for students",
-        "want to talk about:"
+        "whether smartphones will one day completely replace PCs"
       ],
       "individualResponse": [
         "Do you use a smartphone?",
@@ -669,7 +669,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Should students be allowed to use smartphones in school?",
         "Do you think schools should provide laptops for students?",
         "Do you prefer to work on a PC or smartphone?",
-        "Should very young children be allowed to use a smartphone? 95"
+        "Should very young children be allowed to use a smartphone?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2025/page-005.webp",
@@ -684,17 +684,17 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "why trips to Shenzhen are becoming popular",
         "why some Hong Kong people prefer Shenzhen to other places",
-        "presentation about the trend of travelling to Shenzhen. You might want to talk about"
+        "how Hong Kong businesses could keep people in the city during holidays"
       ],
       "individualResponse": [
         "What do you do at weekends?",
         "Have you ever been to Shenzhen?",
         "Would you like to travel to Shenzhen with your family?",
-        "— What would you do on a family trip to Shenzhen?",
+        "What would you do on a family trip to Shenzhen?",
         "Do you think the trend of Hong Kong people travelling to Shenzhen will continue?",
         "Apart from going to Shenzhen, how could Hong Kong people spend their free time?",
         "Do you think it is convenient to make everyday purchases in Shenzhen?",
-        "How will the travel habits of Hong Kong people change in the future? 97 DC YT TAKE AWAY"
+        "How will the travel habits of Hong Kong people change in the future?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2025/page-007.webp",
@@ -707,18 +707,18 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "American teenagers today are driving less than their parents did",
       "sourceText": "American teenagers today are driving less than their parents did 14 years ago, when Zachary Grand tumed 17, he couldn't wait to get his driving licence. Back then, a driving licence was considered a sign of adulthood: you were not a child anymore and could travel around freely, not depending on anyone else. How times have changed. While the share of US teenagers with a driving licence was over 65% in 1995, today it is below 40%. In cities that have good public transport, the percentage is even lower. Grand notes that teens do not want to get their driving licences anymore. “When I recently moved from California to Chicago, I was really surprised to see that so few young people here want to drive. It's incredible!” The reasons behind this trend are many, and complicated. For one thing, car costs have increased a lot and so have the prices of petrol and insurance. Additionally, cities and towns have grown more crowded and less car-friendly, and many states in the US have made it harder for teenagers to get a driving licence. Technology is also a factor. Things that teens used to do in person — hanging out with friends, taking classes, shopping for clothes, playing games — can now be done online. Ride-hailing apps like Uber and home delivery apps have also made driving less necessary. “You can do anything from your phone,” Grand says. “Call an Uber or even book a train or bus if you want to.” Your group is discussing whether it is worth learning to drive in Hong Kong. You may want to talk about: the benefits and challenges of being a driver in Hong Kong © whether Hong Kong is a car-friendly city * reasons why so few teenagers learn to drive in Hong Kong * anything else you think is important",
       "groupDiscussion": [
-        "whether Hong Kong is a car-friendly city",
         "the benefits and challenges of being a driver in Hong Kong",
-        "whether Hong Kong is a car-friendly city"
+        "whether Hong Kong is a car-friendly city",
+        "reasons why so few teenagers learn to drive in Hong Kong"
       ],
       "individualResponse": [
         "Do you want to lear to drive?",
         "Do young people in Hong Kong usually learn to drive?",
         "Is Hong Kong a safe city for driving?",
         "Do you think schools should teach students how to drive?",
-        "Doyou think it is necessary for teenagers to learn to drive in Hong Kong?",
+        "Do you think it is necessary for teenagers to learn to drive in Hong Kong?",
         "Should the government encourage more or less car ownership in Hong Kong?",
-        "— Should Hong Kong young people be allowed to drive at a younger age than 18 years old?",
+        "Should Hong Kong young people be allowed to drive at a younger age than 18 years old?",
         "Do you think that learning to drive is a sign of adulthood?"
       ],
       "paperPages": {
@@ -734,7 +734,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "common fears that Hong Kong teenagers have",
         "why they may have such fears",
-        "e how they can overcome those fears"
+        "how they can overcome those fears"
       ],
       "individualResponse": [
         "What things are you afraid of?",
@@ -767,7 +767,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Would you go on a camel ride?",
         "How would you encourage people to treat animals better?",
         "Do animals used in shows have a better life?",
-        "— Why do people go to animal shows when on holiday?",
+        "Why do people go to animal shows when on holiday?",
         "Should all animal shows be banned?",
         "What can the government do to increase tourists' awareness about animal welfare?"
       ],
@@ -784,7 +784,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "whether music groups are popular in Hong Kong",
         "whether it is better to watch a performance by a music group or an individual performer",
-        "whether music groups are popular in Hong Kong"
+        "how social media has affected pop music trends"
       ],
       "individualResponse": [
         "Do you like listening to music?",
@@ -792,8 +792,8 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Do boys and girls usually like the same kinds of music?",
         "Should all children learn to play a musical instrument?",
         "Do teens usually prefer music from Hong Kong or music from other places?",
-        "Doolder and younger people in Hong Kong like the same kinds of music?",
-        "— Is music important to young people these days?",
+        "Do older and younger people in Hong Kong like the same kinds of music?",
+        "Is music important to young people these days?",
         "Do you think music groups will completely disappear in the future?"
       ],
       "paperPages": {
@@ -809,7 +809,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "whether Hong Kong students are aware of the importance of self-care",
         "activities to organise during the Self-Care Month",
-        "You are members of the organising committee for Self-Care Month at your school. You are meeting to discuss"
+        "ways to encourage students to take part in self-care activities"
       ],
       "individualResponse": [
         "Do you enjoy exercise?",
@@ -819,7 +819,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Do students in Hong Kong have enough time to do exercise?",
         "Do you think exercise can help improve mental health?",
         "How can parents support their children's well-being?",
-        "— Who should be responsible for students' health: schools or parents? 107 YT TAKE AWAY"
+        "Who should be responsible for students' health: schools or parents?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2025/page-017.webp",
@@ -833,8 +833,8 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "sourceText": "Why Spirited Away Changed Animation Forever In 2001, one of the most celebrated anime movies hit theatres in Japan. Directed by Hayao Miyazaki and produced by Studio Ghibli, Spirited Away would leave a mark on animation in the 21st century. The story follows an ordinary 10-year-old girl, Chihiro, as she arrives at a deserted theme park that turns into a world of spirits at night. Her parents are tured into pigs by Yubaba, the witch who manages a bathhouse serving otherworldly customers, Chihiro must work in the bathhouse to save her parents and find a way to return home. The story is a tale of resilience, as Chihiro gradually finds her inner strength. The movie arrived at a time when people thought animation was for children. Spirited Away destroyed prejudice about the art form and proved that a movie created in Japanese with clements of Japanese folklore could reach global audiences of all ages. Jane Napier, a film critic, underlines the global impact of the movie. The movie's theme is uncertainty, “I think this is one reason why this movie is so popular; it recognizes that the world can be scary, and that we don't always know what's going to happen to us,” Napier explains. To Yoshioka, a Studio Ghibli fan, Spirited Away can be interpreted in numerous ways by the viewer, “This is key for the film to be loved as a classic,” he says. “So, even 20 years on, Spirited Away is a movie that can be watched and rewatched,” You are members of the Schoo! Movie Society. You have been asked to plan a Movie Festival at your school. You may want to talk about: ¢ whether anime movies would be suitable for the festival * — other types of movies that are popular among secondary schoo! students * — other activities to organise for the festival * anything else you think is important",
       "groupDiscussion": [
         "whether anime movies would be suitable for the festival",
-        "other types of movies that are popular among secondary schoo! students",
-        "You are members of the Schoo! Movie Society. You have been asked to plan a Movie Festival at your school"
+        "other types of movies that are popular among secondary school students",
+        "other activities to organise for the festival"
       ],
       "individualResponse": [
         "Do you like anime movies?",
@@ -842,7 +842,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Do you prefer animated or live-action movies?",
         "Do you think that anime movies can be for adults?",
         "Should all anime movies have a happy ending?",
-        "— What type of movies make you want to watch them again?",
+        "What type of movies make you want to watch them again?",
         "What makes an anime movie appealing?",
         "Do you agree anime movies have artistic value?"
       ],
@@ -859,7 +859,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "benefits of using personality tests for choosing a career",
         "problems with using personality tests for choosing a career",
-        "benefits of using personality tests for choosing a career"
+        "other ways to decide how to choose the right career"
       ],
       "individualResponse": [
         "What job would you like to do?",
@@ -884,7 +884,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "benefits of Scouting for secondary school students",
         "activities to organise for the club",
-        "benefits of Scouting for secondary school students"
+        "ways to encourage other students to join the club"
       ],
       "individualResponse": [
         "Do you enjoy nature?",
@@ -894,7 +894,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Is camping a popular activity in Hong Kong?",
         "Would you prefer camping in a Scout group or with your family?",
         "Do you agree Scouts could make the world a better place?",
-        "What lessons that you learn as a Scout would be the most important? 13 IT TAKE AWAY"
+        "What lessons that you learn as a Scout would be the most important?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2025/page-023.webp",
@@ -909,7 +909,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "benefits of using bamboo for scaffolding",
         "ways of improving the safety of bamboo scaffolding",
-        "benefits of using bamboo for scaffolding"
+        "whether bamboo scaffolding is part of Hong Kong’s heritage"
       ],
       "individualResponse": [
         "Do you often see bamboo scaffolding in Hong Kong?",
@@ -932,9 +932,9 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "Should Teenagers Drink Coffee and Caffeinated Energy Drinks?",
       "sourceText": "Should Teenagers Drink Coffee and Caffeinated Energy Drinks? Teenagers now have another thing to worry about: coffee. This time, it isn't parents trying to prohibit their kids from becoming over-caffeinated: it's Caligula Coffee, one of the largest coffee chains in the UK. An employee's recent refusal to serve an iced coffee to a 12-year-old is reigniting a controversial question. Should shops be allowed to ban the sale of coffee and energy drinks to teenagers and kids? While Caligula Coffee isn't completely banning the sale of coffee to teenagers, the company's new policy allows its employees to deny serving them drinks that contain caffeine, including energy drinks. “We do not encourage the sale of caffeine to children under 16,” the company's spokesperson said. Some customers, including the 12-year-old's father, are upset, He expressed his outrage online saying his daughter just deserved a treat. But not everyone is against a ban, The UK government, for example, has been working to prohibit the sale of coffee and energy drinks to teenagers after declaring the link between caffeine consumption and various health issues among younger consumers too strong to ignore. The National Institute of Health (NIH) says that significant amounts of caffeine affect the heart and blood vessels. According to Dr George of the NIH, when it comes to teenagers and caffeine, education and moderation are both key. And it's also important to remember who you're talking to. “Beware once you tell someone, especially teenagers, that they can't have something: they will find a way to get their hands on it,” You are members of the Healthy Life for All Club at your school, Your group is meeting to discuss the impact of coffee and energy drinks on teenagers. You may want to talk about: © negative effects of coffee and energy drinks on teenagers' health * what the club can do to make those effects known among students * whether coffee and energy drinks should be sold to teenagers * — anything else you think is important",
       "groupDiscussion": [
+        "negative effects of coffee and energy drinks on teenagers’ health",
         "what the club can do to make those effects known among students",
-        "negative effects of coffee and energy drinks on teenagers' health",
-        "what the club can do to make those effects known among students"
+        "whether coffee and energy drinks should be sold to teenagers"
       ],
       "individualResponse": [
         "Do you like energy drinks?",
@@ -944,7 +944,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Should schools ban unhealthy drinks?",
         "What advice could you give a parent whose child drinks too many energy drinks?",
         "What can be done to help teenagers consume fewer energy drinks?",
-        "Do you agree that banning something is not likely to work with teenagers? 17 rl TAKE AWAY"
+        "Do you agree that banning something is not likely to work with teenagers?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2025/page-027.webp",
@@ -957,9 +957,9 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "Gap Year: Work or Travel?",
       "sourceText": "Gap Year: Work or Travel? Students always face many tests and exams. Taking a break from studies for a year and having a rest sounds attractive. A “Gap year”, usually taken after the end of secondary school and before starting university, provides an opportunity for students to explore the world, look for a richer spiritual life and exchange cultural ideas. What did Hong Kong students do during their gap years? Oscar Chan Chi-kin, a year one business student at the Hong Kong University of Science and Technology, didn't go to university immediately. Instead, he went to Singapore in his gap year and volunteered to help young people develop leadership skills. “Instead of being career-driven, I hoped to gain a life direction and figure out what I love to do,” he said, After the gap year, he knew what his ideal working environment would look like in his future career. “Whether the company vision aligns with my personal values is really important.” Besides travelling and volunteering, young people from Asia also choose to intern and work to enrich their resumés and sharpen their competitive edge. However, Sascha Choi On, a student who has just started studying at CUHK has a different view: “Nowadays it's changing. Some of my friends took a gap year because they really wanted to find a sense of self, such as 'who I am' and 'what the goal in my life is', Some students really care about their inner peace and happiness rather than just focusing on earning money,” she said, You are invited to participate in a round table discussion at the Hong Kong Youth Forum about taking a gap year after secondary school. You may want to talk about: © — benefits of taking a gap year * challenges of taking a gap year * activities young people could do during their gap year * anything else you think is important",
       "groupDiscussion": [
-        "benefits of taking a gap year * challenges of taking a gap year",
-        "You are invited to participate in a round table discussion at the Hong Kong Youth Forum about taking a gap",
-        "benefits of taking a gap year"
+        "benefits of taking a gap year",
+        "challenges of taking a gap year",
+        "activities young people could do during their gap year"
       ],
       "individualResponse": [
         "Would you like to take a gap year?",
@@ -969,7 +969,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Do you know what career you would like to pursue?",
         "Do you think taking a gap year is popular among Hong Kong young people?",
         "How can students make sure that their gap year is not wasted?",
-        "How would travelling during a gap year help somebody's career? n9 DO Ir TAKE AWAY"
+        "How would travelling during a gap year help somebody's career?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2025/page-029.webp",
@@ -984,7 +984,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "what Hong Kong people normally do with their unwanted clothes",
         "why second-hand fashion is growing in Hong Kong",
-        "what Hong Kong people normally do with their unwanted clothes"
+        "ways to promote second-hand fashion"
       ],
       "individualResponse": [
         "Do you like shopping for clothes?",
@@ -1007,9 +1007,9 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "In trilingual Hong Kong, Korean language is the new kid on the block",
       "sourceText": "In trilingual Hong Kong, Korean language is the new kid on the block For decades, French, Spanish, German and Japanese have been the most popular foreign languages among Hong Kong students, But in recent years, Korean has emerged as the new kid on the block. The latest estimate by the Korean consulate in Hong Kong showed that there were around 40,000 Korean learners in 2024 based on enrolment figures at universities and private academies. In secondary schools, most Korean lessons are taught as extracurricular classes. But some have gone a step further to include the language in their curriculum as an elective. The introduction of Korean into the public school curriculum, although still at an early stage, is significant and a testament to its popularity, experts say. Professor Li Chor-Shing said the launching of Korean classes in public schools shows that many young people are motivated to learn Korean, and that it could help students with their future career prospects, Teachers say Korean has gained popularity in public schools as young people see learning Korean as more than just a hobby, Ms. Lai, who has taught Korean for over 10 years, said she has seen a shift in the past two to three years in the reasons young people want to learn the language, “It used to be K-pop fans wanting to learn how to write 'Oppa, I love you' in letters to their idols,” Ms. Lai said. “But now, aside from that, students also see Korea as a study destination or they want to work there.” You are members of the Student Union. Your school is going to require students to learn a language other than Chinese or English and you are meeting to discuss this. You may want to talk about: * why Hong Kong students should learn other languages * which other languages would be popular among students * how students can leam other languages outside the classroom * anything else you think is important",
       "groupDiscussion": [
-        "why Hong Kong students should learn other languages * which other languages would be popular among students",
-        "You are members of the Student Union. Your school is going to require students to learn a language other",
-        "why Hong Kong students should learn other languages"
+        "why Hong Kong students should learn other languages",
+        "which other languages would be popular among students",
+        "how students can learn other languages outside the classroom"
       ],
       "individualResponse": [
         "Would you like to learn Korean?",
@@ -1032,12 +1032,12 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "Once-in-a-lifetime adventures",
       "sourceText": "Once-in-a-lifetime adventures Here at Global Travel, we 've specialised in delivering unforgettable educational tours to places all over the world for over 50 years, Take a look at our current trips on offer. Swim with turtles in Australia Swim with endangered species at the world-famous Ningaloo Reef, home to around $00 types of fish and other sea creatures. At only 100 metres offshore, there's no need to scuba dive — the snorkelling is amazing. See the seven species of turtles that build their nests on beaches and islands nearby. You can also learn how to save coral reefs, which play a vital role in the marine environment. Visit a volcanic cave in Iceland 'Travel down 120m below the surface of the earth into an ancient volcanic cave. Explore the colourful rock formations and the huge underground spaces. Above ground, visit the ice lakes to see the incredible filming locations of movies like Star Wars and TV shows like Game of Thrones. You'll be amazed by the views as you learn more about the rocks we take for granted. See the starry night in Morocco Morocco, in North Africa, has some of the world's best skies for stargazing. The dry climate means cloudless skies all year round, with no towns or light pollution in its remote nature reserves, Experience a unique camping tour in the desert with dedicated guides who know all the best places to see these heavenly wonders, Find out about the history of our universe from the very heart of the desert. 'Your school has won a free adventure trip, You are part of the Schoo! Travel Team and are meeting to discuss the three choices above. You may want to talk about: * which trip would be most beneficial for students to join * problems and challenges that the students might face on the trip * how to convince parents to let their children join the trip * anything else you think is important",
       "groupDiscussion": [
+        "which trip would be most beneficial for students to join",
         "problems and challenges that the students might face on the trip",
-        "Your school has won a free adventure trip, You are part of the Schoo! Travel Team and are meeting to discuss",
-        "which trip would be most beneficial for students to join"
+        "how to convince parents to let their children join the trip"
       ],
       "individualResponse": [
-        "Have you ever been on a schoo! trip?",
+        "Have you ever been on a school trip?",
         "Would you like to go on an adventure trip?",
         "Would you prefer to take a relaxing trip or an adventure trip?",
         "Do you think adventure trips are appropriate for students?",
@@ -1059,7 +1059,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "benefits of beekeeping at school",
         "problems that beekeeping could cause at school",
-        "You are members of your student council, You are discussing if it is a good idea to put a beehive on the"
+        "other activities that could help students to learn about bees"
       ],
       "individualResponse": [
         "Do you like honey?",
@@ -1083,8 +1083,8 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "sourceText": "Young people love subtitles; older people, not so much Anyone who has ever watched movies or TV shows should be familiar with subtitles. These are words that are shown on the bottom or side of a screen to indicate what the speakers on screen are saying. For viewers to follow along with the story, the timing of the texts must be the same as the timing of the people speaking. Originally, subtitles had two main purposes: to translate the words from a foreign language into your own language, and to allow people who have hearing problems to understand the words being spoken. Recently, however, there has been a new trend among young people in the UK. According to research, 4 out of 5 viewers between the age of 18-25 use subtitles all the time — even when watching movies or TV shows in their own language — while less than 25% of people aged between 56-75 do so, “J think it's natural now for young people to accept subtitles,” said UK media expert Melanie Sharpe. She added that while older people feel that using subtitles while listening to someone speak “requires too much thinking,” young people “can take in far more information quickly because they're used to it.” Nobody knows exactly how this trend started, but one theory is that young people grew up with seeing subtitles on social media and are now comfortable with them. Another factor may be the poor sound quality of streamed videos. “They might be using subtitles because of background noise or changing volumes,” Sharpe said. You are members of the school's Campus TV Team and you are discussing whether to add English and Chinese subtitles to your programmes. You may want to talk about: © — benefits of adding subtitles to the programmes © whether adding subtitles to programmes would be popular among students © type of programmes subtitles are not suitable for © anything else you think is important",
       "groupDiscussion": [
         "benefits of adding subtitles to the programmes",
-        "You are members of the school's Campus TV Team and you are discussing whether to add English and",
-        "benefits of adding subtitles to the programmes"
+        "whether adding subtitles to programmes would be popular among students",
+        "type of programmes subtitles are not suitable for"
       ],
       "individualResponse": [
         "Is there a Campus TV channel at your school?",
@@ -1107,9 +1107,9 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "An unusual career that may be one of the most desired jobs of the future",
       "sourceText": "An unusual career that may be one of the most desired jobs of the future As artificial intelligence or 'AI' becomes more widely used and starts replacing some traditional jobs, many young people worry about their future careers. According to some experts, however, there is one popular job trend which will not be easily taken over by Al: being a 'personal shopper'. A personal shopper refers to a person who helps customers find products that they need by doing their shopping for them. Instead of visiting real stores or spending hours searching online, a customer with little free time can find a personal shopper with the right skills, knowledge and connections to help meet their needs, “This is a job that has grown quickly,” says American business executive Tom Ward. “And it's grown in line with the way that customers want to shop.” The best personal shoppers have expert knowledge of their field. To become a professional clothing shopper, for instance, you need to learn everything about fashion, from the top designer names to the latest fashion trends. While AI assistants may also have such knowledge, the benefit of human shoppers is that when they visit stores to locate good quality or 'on sale' items, they build personal relationships with store owners and supply shops. This can help a human shopper see the quality of the goods, get the best possible prices, and I even find unusual products not available online. These benefits, say retail experts, mean that human personal shoppers are still the best choice. Your class is talking about personal shopping as a career. Your group has been asked to discuss the reasons for this trend. You may want to talk about: « whether being a personal shopper would be a good job for teenagers * if Al will one day replace human salespeople in face-to-face shopping © how shopping will change in the future * anything else you think is important",
       "groupDiscussion": [
-        "whether being a personal shopper would be a good job for teenagers * if Al will one day replace human salespeople in face-to-face shopping",
         "whether being a personal shopper would be a good job for teenagers",
-        "if Al will one day replace human salespeople in face-to-face shopping"
+        "if AI will one day replace human salespeople in face-to-face shopping",
+        "how shopping will change in the future"
       ],
       "individualResponse": [
         "Do you like shopping?",
@@ -1132,15 +1132,15 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "title": "How an app is reshaping Hong Kong tourism",
       "sourceText": "How an app is reshaping Hong Kong tourism Carrying three lenses, two cameras and a tripod with him, Mainland Chinese tourist, Wei Qingyu, arrived at a basketball court with his girlfriend in search of a photo spot in Kennedy Town on a cloudy day. But why this sports facility in a residential area on Hong Kong Island? Wei said it provided the perfect vantage point to capture the city's historic trams going along a vibrant street against the backdrop of Victoria Harbour. It was a tip Wei saw on Xiaohongshu, an Instagram-like social media platform popular on the Mainland and beyond. Xiaohongshu, known for travel tips, has more than 200 million active users, with more than 70 per cent of the users born in the 1990s. The app has reshaped Hong Kong's tourism landscape, as influencers share ideas and tips for previously ordinary places. Some bring takeaways from McDonald's to MacDonnell Road in Mid-Levels for a fun photo. Others flock to Yau Ma Tei Police Station for a shot of the iconic building. Another destination popularised on Xiaohongshu is a busy footbridge in Mong Kok, Colourful neon signs adorning the residential buildings are a popular draw for tourists, who want to capture the nostalgic vintage vibe of Hong Kong. “The scenery, with some background music, seems quite romantic,” a Malaysian tourist said. “Hong Kong feels familiar because its dramas and films are very popular in Malaysia, and we go hunting for places we see on the app.” Your group has entered a competition to create a video for young tourists who visit Hong Kong. You may want to talk about: * — famous places to include in the video * activities to show in the video ¢ difficulties your group may face while making the video ¢ anything else you think is important",
       "groupDiscussion": [
-        "want to talk about:",
         "famous places to include in the video",
-        "activities to show in the video"
+        "activities to show in the video",
+        "difficulties your group may face while making the video"
       ],
       "individualResponse": [
         "Do you like making videos?",
         "Have you ever taken a photo at a famous place in Hong Kong?",
         "Do you read travel tips on social media?",
-        "— Is social media useful for exploring Hong Kong?",
+        "Is social media useful for exploring Hong Kong?",
         "What makes Hong Kong popular among tourists?",
         "Do you follow any influencers who share travel tips?",
         "What aspects of Hong Kong would you like to see on social media?",
@@ -1159,7 +1159,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "why people still play classic games like Super Mario Bros",
         "what makes a video game popular for a long time",
-        "why people still play classic games like Super Mario Bros"
+        "what video games will be like in the future"
       ],
       "individualResponse": [
         "Do you play video games?",
@@ -1184,7 +1184,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
       "groupDiscussion": [
         "why teenagers may be turning away from other social media sites",
         "whether social media is useful for finding career information",
-        "why teenagers may be turning away from other social media sites"
+        "whether secondary school students should be concerned about their future careers"
       ],
       "individualResponse": [
         "Do you use social media?",
@@ -1194,7 +1194,7 @@ window.EDMUND_DSE_SPEAKING_SUPPLEMENT = Object.freeze({
         "Would you look for jobs on social media?",
         "How do people in Hong Kong usually look for jobs?",
         "Would you post your profile on social media to find a job?",
-        "How can you check if information on social media is trustworthy? 137 bo IT TAKE AWAY"
+        "How can you check if information on social media is trustworthy?"
       ],
       "paperPages": {
         "student": "assets/speaking-system/dse-papers/2025/page-047.webp",

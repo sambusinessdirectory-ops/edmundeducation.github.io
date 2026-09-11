@@ -1,3 +1,4 @@
+import { mountFloatingWindow } from './floating-window.mjs?v=20260911';
 import { escapeHtml as escape } from './learning-hub-client.mjs';
 
 const STORAGE_KEY = 'edmund-background-music-preferences-v3';
@@ -47,7 +48,7 @@ function ensureStyles() {
   if (document.querySelector('link[data-background-music-player-style]')) return;
   const link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = new URL('./background-music-player.css?v=20260910-floating6', import.meta.url).href;
+  link.href = new URL('./background-music-player.css?v=20260911-corners1', import.meta.url).href;
   link.dataset.backgroundMusicPlayerStyle = '';
   document.head.append(link);
 }
@@ -312,11 +313,8 @@ function editPlaylist(){
   if(next!==old){preferences.playlists[next]=preferences.playlists[old]||[];delete preferences.playlists[old];activeView={type:'playlist',value:next};savePreferences();renderAll();}
 }
 
-function makeFloating(panel){
-  const grip=panel.querySelector('.music-floating-bar'); let drag=null;
-  grip.addEventListener('pointerdown',event=>{if(event.target.closest('button'))return;const r=panel.getBoundingClientRect();drag={x:event.clientX-r.left,y:event.clientY-r.top};grip.setPointerCapture(event.pointerId);});
-  grip.addEventListener('pointermove',event=>{if(!drag)return;panel.style.left=`${Math.max(0,Math.min(innerWidth-panel.offsetWidth,event.clientX-drag.x))}px`;panel.style.top=`${Math.max(0,Math.min(innerHeight-48,event.clientY-drag.y))}px`;panel.style.right='auto';panel.style.bottom='auto';});
-  grip.addEventListener('pointerup',()=>drag=null);grip.addEventListener('pointercancel',()=>drag=null);
+function makeFloating(panel) {
+  mountFloatingWindow(panel, { dragHandle:panel.querySelector('.music-floating-bar'), minHeight:240 });
 }
 
 export async function openMusic() {

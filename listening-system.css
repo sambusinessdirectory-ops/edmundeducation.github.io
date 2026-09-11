@@ -497,3 +497,8 @@ button:disabled { cursor:default; opacity:.5; }
 .dse-question-translation[hidden] { display: none; }
 
 .listening-type-finder{margin:18px 0;padding:22px}.listening-type-finder summary{font-size:1.3rem;font-weight:800;cursor:pointer}.listening-type-finder label{display:grid;gap:8px;margin-top:16px}.listening-type-finder input{font:inherit;padding:12px;border:1px solid #adc8bc;border-radius:8px}[data-type-filters]{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}[data-type-filters] [aria-pressed="true"]{background:#153f3a;color:white}
+
+/* Resizable listening players keep their controls usable in narrow windows. */
+.row-audio-player[data-corner-resize],.floating-audio-player[data-corner-resize]{min-height:180px;padding:24px;align-content:start;overflow:auto}
+.row-audio-player[data-corner-resize]{flex-wrap:wrap;align-items:flex-start}.row-audio-player[data-corner-resize]>div{flex:1 1 100%;padding-right:32px}.row-audio-player[data-corner-resize] audio{width:100%;flex:1 1 100%;min-width:0}.row-audio-player [data-row-close]{position:absolute;right:30px;top:20px}
+.floating-audio-player[data-corner-resize]{display:flex;flex-wrap:wrap}.floating-audio-player[data-corner-resize]>div{flex:1 1 100%}.floating-audio-player[data-corner-resize] input{flex:1 1 100%}

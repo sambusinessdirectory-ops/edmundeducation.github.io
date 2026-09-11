@@ -289,7 +289,7 @@
     if (!route || state.user?.role === "admin") return [];
     if (route.view === "bookmarks") return ["bookmarks"];
     if (["exams", "attempts", "admin"].includes(route.view)) return [];
-    const dseViews = ["dse-sections", "dse-catalog", "dse-modes", "dse-practice"];
+    const dseViews = ["dse-sections", "dse-catalog", "dse-modes", "dse-practice", "dse-types", "dse-question"];
     if (dseViews.includes(route.view)) return ["exam.dse"];
     const ieltsViews = ["parts", "books", "exercises", "exercise", "exam-modes", "exam-practice"];
     const exam = String(route.exam || (ieltsViews.includes(route.view) ? "ielts" : ""));
@@ -805,7 +805,7 @@
         }
         if (!state.user) return;
         setConnection("已安全連接", "live");
-        if (!openRequestedRecordingLibrary() && !openRequestedHomeworkMockMode()) openRequestedHomeworkExercise();
+        if (!openRequestedDseQuestion() && !openRequestedRecordingLibrary() && !openRequestedHomeworkMockMode()) openRequestedHomeworkExercise();
         return;
       }
       saveSession();
@@ -942,6 +942,8 @@
   function routeLabel(route) {
     switch (route?.view) {
       case "dse-sections": return "DSE 說話考試";
+      case "dse-types": return "按題型練習";
+      case "dse-question": return "指定題目練習";
       case "dse-catalog": return route.part === "individual" ? "個人發言" : "小組討論";
       case "dse-modes": return "DSE 考試練習模式";
       case "dse-practice": return DSE_MODE.modeForId?.(route.modeId)?.labelZh || "DSE 練習";
@@ -1062,9 +1064,11 @@
   function renderBreadcrumbs() {
     const route = state.route;
     const crumbs = [{ label: "Speaking System", route: { view: "exams" } }];
-    if (["dse-sections", "dse-catalog", "dse-modes", "dse-practice"].includes(route.view)) {
+    if (["dse-sections", "dse-catalog", "dse-modes", "dse-practice", "dse-types", "dse-question"].includes(route.view)) {
       crumbs.push({ label: "DSE", route: route.view === "dse-sections" ? null : { view: "dse-sections", exam: "dse" } });
     }
+    if (["dse-types","dse-question"].includes(route.view)) crumbs.push({label:"按題型練習",route:route.view==="dse-types"?null:{view:"dse-types",exam:"dse"}});
+    if (route.view === "dse-question") crumbs.push({label:"指定題目",route:null});
     if (route.view === "dse-catalog") {
       crumbs.push({ label: route.part === "individual" ? "個人發言" : "小組討論", route: null });
     }
@@ -1119,6 +1123,12 @@
     switch (state.route.view) {
       case "dse-sections":
         renderDseSections();
+        break;
+      case "dse-types":
+        renderDseTypes();
+        break;
+      case "dse-question":
+        renderDseQuestion();
         break;
       case "dse-catalog":
         renderDseCatalog();
@@ -2107,6 +2117,7 @@
     dom.content.innerHTML = `
       <section class="content-panel dse-panel">${dseSearchMarkup()}
         ${sectionHeader("DSE 說話考試", `${availableCount} 套歷屆題目，按年份瀏覽或進入隨機考試練習模式。`)}
+        <a class="choice-card dse-type-entry" href="speaking-system.html?view=dse-types" data-open-dse-types><span class="card-number">QUESTION TYPE FINDER</span><strong>By Question Type · 按題型練習</strong><small>按優點、缺點、原因、建議等題型，搜尋所有年份的小組討論及個人發言問題。</small></a>
         <div class="choice-grid dse-section-grid">
           <button class="choice-card dse-part-choice" type="button" data-dse-catalog="group">
             <span class="card-number">DSE PAPER 4 · PART A</span>
@@ -2125,6 +2136,35 @@
           </button>
         </div>
       </section>`;
+  }
+
+  async function renderDseTypes() {
+    dom.content.innerHTML = `<section class="content-panel dse-panel">${sectionHeader("By Question Type · 按題型練習", "搜尋所有年份的小組討論與個人發言。含多個要求的問題會列於相應題型，因此各類數量可能重疊。")}<div data-dse-type-finder>正在載入題型目錄…</div></section>`;
+    const root = dom.content.querySelector('[data-dse-type-finder]');
+    try {
+      const [module, response] = await Promise.all([import('./question-type-finder.mjs?v=20260911'),fetch('dse-speaking-question-types.json?v=20260911')]);
+      if (!response.ok) throw Error('load');
+      module.mountQuestionTypeFinder(root, { data:await response.json(), kind:'speaking', onOpen:row=>navigate({view:'dse-question',exam:'dse',paper:`${row.year}-${row.set}`,part:row.section,question:row.number}) });
+    } catch { if(root.isConnected) root.innerHTML='<p>題型目錄未能載入。</p><button class="secondary-button" data-open-dse-types>重試</button>'; }
+  }
+
+  function renderDseQuestion() {
+    const route=state.route, set=DSE_DATA.sets.find(s=>`${s.year}-${s.set}`===route.paper);
+    const key=route.part==='individual'?'individualResponse':'groupDiscussion';
+    const index=Number(route.question)-1;
+    if (!set || !Number.isInteger(index) || !set[key]?.[index]) { dom.content.innerHTML='<section class="content-panel"><h2>找不到這條題目</h2><button class="secondary-button" data-open-dse-types>返回題型目錄</button></section>';return; }
+    const translation=dseTranslationFor(set)[key]?.[index];
+    dom.content.innerHTML=`<section class="content-panel dse-panel"><button class="secondary-button" data-open-dse-types>← 返回題型目錄</button>${sectionHeader(`${set.year} DSE · ${set.set} · ${set.title}`,`${route.part==='individual'?'Individual Response · 個人發言':'Group Discussion · 小組討論'} · 第 ${index+1} 題`)}<article class="dse-selected-question"><span class="cue-label">QUESTION ${index+1}</span><h2 lang="en">${escapeHtml(set[key][index])}</h2>${translation?`<p lang="zh-Hant">${escapeHtml(translation)}</p>`:''}</article><details class="dse-question-context"><summary>查看完整題組與文章 · Full question set</summary><h3>Group Discussion · 小組討論</h3>${dseQuestionList(set.groupDiscussion,true,dseTranslationFor(set).groupDiscussion)}<h3>Individual Response · 個人發言</h3>${dseQuestionList(set.individualResponse,true,dseTranslationFor(set).individualResponse)}${dsePaperHostMarkup(set,true)}</details></section>`;
+  }
+
+  function openRequestedDseQuestion() {
+    if (state.requestedDseQuestionOpened || state.user?.role !== 'student') return false;
+    const params=new URLSearchParams(location.search), view=params.get('view');
+    if (!['dse-types','dse-question'].includes(view)) return false;
+    state.requestedDseQuestionOpened=true;
+    const route={view,exam:'dse',paper:params.get('paper'),part:params.get('part'),question:Number(params.get('question'))};
+    if(!routeAllowed(route)){toast('您的帳戶尚未開放 DSE Speaking。','error');return true;}
+    navigate(route,{reset:true,skipGuard:true});return true;
   }
 
   function dseQuestionList(questions, ordered = false, translations = []) {
@@ -2345,6 +2385,7 @@
             年份：${state.dseYearSort === "asc" ? "2012 → 2025" : "2025 → 2012"} ↕
           </button>
         </div>
+        <a class="secondary-button" href="speaking-system.html?view=dse-types" data-open-dse-types>By Question Type · 按題型練習</a>
         ${dseSearchMarkup()}
         <div class="dse-year-list">
           ${years.map(year => {
@@ -2409,7 +2450,7 @@
 
   function dseGroupCard(session, preparation = false) {
     const translations = dseTranslationFor(session.set).groupDiscussion;
-    return `<section class="dse-practice-card${preparation ? "" : " is-entering"}"><span class="cue-label">PART A · GROUP DISCUSSION · 小組討論</span><h2>${preparation ? "準備以下 3 個討論重點" : "開始小組討論"}</h2>${dseQuestionList(session.set.groupDiscussion, true, translations)}${preparation ? "" : '<button class="dse-voice-button" type="button" data-dse-play-question-voice aria-pressed="false">▶ 聆聽英式考官讀題</button>'}</section>`;
+    return `<section class="dse-practice-card${preparation ? "" : " is-entering"}"><span class="cue-label">PART A · GROUP DISCUSSION · 小組討論</span><h2>${preparation ? "準備以下 3 個討論重點" : "開始小組討論"}</h2>${dseQuestionList(session.set.groupDiscussion, true, translations)}${preparation ? "" : '<button class="dse-voice-button" type="button" data-dse-play-question-voice aria-pressed="false">▶ 聆聽美式男聲讀題</button>'}</section>`;
   }
 
   function dseIndividualCard(session) {
@@ -2418,7 +2459,7 @@
     const question = questions[index] || "";
     const translation = dseTranslationFor(session.set).individualResponse?.[index] || "";
     const progress = questions.length ? Math.round(((index + 1) / questions.length) * 100) : 0;
-    return `<section class="dse-individual-stage"><div class="dse-question-progress"><div><span>PART B · INDIVIDUAL RESPONSE</span><strong>第 ${index + 1} / ${questions.length} 題</strong></div><div class="dse-question-progress-track" aria-hidden="true"><i style="width:${progress}%"></i></div></div><section class="dse-single-question is-entering" aria-labelledby="dse-current-question"><span class="cue-label">QUESTION ${index + 1} · 個人發言</span><h2 id="dse-current-question" lang="en">${escapeHtml(question)}</h2>${translation ? `<p lang="zh-Hant">${escapeHtml(translation)}</p>` : ""}<button class="dse-voice-button" type="button" data-dse-play-question-voice aria-pressed="false">▶ 聆聽英式考官讀題</button></section></section>`;
+    return `<section class="dse-individual-stage"><div class="dse-question-progress"><div><span>PART B · INDIVIDUAL RESPONSE</span><strong>第 ${index + 1} / ${questions.length} 題</strong></div><div class="dse-question-progress-track" aria-hidden="true"><i style="width:${progress}%"></i></div></div><section class="dse-single-question is-entering" aria-labelledby="dse-current-question"><span class="cue-label">QUESTION ${index + 1} · 個人發言</span><h2 id="dse-current-question" lang="en">${escapeHtml(question)}</h2>${translation ? `<p lang="zh-Hant">${escapeHtml(translation)}</p>` : ""}<button class="dse-voice-button" type="button" data-dse-play-question-voice aria-pressed="false">▶ 聆聽美式男聲讀題</button></section></section>`;
   }
 
   function dseVoiceText(session = state.dseSession) {
@@ -2443,7 +2484,7 @@
     document.querySelectorAll("[data-dse-play-question-voice]").forEach(button => {
       button.classList.toggle("is-playing", playing);
       button.setAttribute("aria-pressed", String(playing));
-      button.textContent = playing ? "■ 停止考官語音" : "▶ 聆聽英式考官讀題";
+      button.textContent = playing ? "■ 停止讀題" : "▶ 聆聽美式男聲讀題";
     });
   }
 
@@ -2461,23 +2502,6 @@
     syncDseVoiceButtons(false);
   }
 
-  function fallbackDseVoice(text, automatic = false) {
-    if (automatic || !("speechSynthesis" in window)) return false;
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "en-GB";
-    utterance.rate = 0.96;
-    utterance.pitch = 0.9;
-    const masculine = /(?:Daniel|Arthur|Oliver|Thomas|George|James|Ryan|Male)/i;
-    const voices = window.speechSynthesis.getVoices();
-    utterance.voice = voices.find(voice => /^en-GB/i.test(voice.lang) && masculine.test(voice.name))
-      || voices.find(voice => /^en-GB/i.test(voice.lang))
-      || null;
-    utterance.onend = utterance.onerror = () => syncDseVoiceButtons(false);
-    syncDseVoiceButtons(true);
-    window.speechSynthesis.speak(utterance);
-    toast("雲端英式考官語音暫時未能使用，現正使用裝置上的英式英語聲線。", "info");
-    return true;
-  }
 
   async function playDseVoice(options = {}) {
     const automatic = options.automatic === true;
@@ -2495,7 +2519,7 @@
     try {
       let url = state.dseVoiceUrls.get(text);
       if (!url) {
-        const response = await apiRaw("/v1/dse-exam-voice", {
+        const response = await apiRaw("/v1/learning-voice", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ text }),
@@ -2519,10 +2543,10 @@
       if (controller.signal.aborted) return;
       console.warn("DSE examiner voice failed:", error);
       syncDseVoiceButtons(false);
-      if (fallbackDseVoice(text, automatic)) return;
-      if (!automatic && !state.dseVoiceErrorShown) {
+
+      if (!automatic) {
         state.dseVoiceErrorShown = true;
-        toast("英式考官語音暫時未能播放；題目仍可照常作答。", "error");
+        toast("美式男聲暫時未能播放，請稍後再試。題目仍可照常作答。", "error");
       }
     } finally {
       if (state.dseVoiceAbortController === controller) state.dseVoiceAbortController = null;
@@ -7710,6 +7734,7 @@
         return;
       }
 
+      if (event.target.closest('[data-open-dse-types]')) { event.preventDefault(); navigate({view:'dse-types',exam:'dse'});return; }
       const dseCatalog = event.target.closest("[data-dse-catalog]");
       if (dseCatalog) {
         navigate({ view: "dse-catalog", exam: "dse", part: dseCatalog.dataset.dseCatalog === "individual" ? "individual" : "group" });
@@ -8279,7 +8304,7 @@
           }
           if (!state.user) return;
           setConnection("已安全連接", "live");
-          if (!openRequestedRecordingLibrary() && !openRequestedHomeworkMockMode()) openRequestedHomeworkExercise();
+          if (!openRequestedDseQuestion() && !openRequestedRecordingLibrary() && !openRequestedHomeworkMockMode()) openRequestedHomeworkExercise();
         } else {
           setConnection("Admin 已連接", "live");
         }
