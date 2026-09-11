@@ -20,7 +20,7 @@ vm.runInNewContext(dataSource, context, { filename: "dse-paper3-analysis-data.js
 const data = context.window.EDMUND_DSE_PAPER3_DATA;
 
 assert.match(html, /data-edmund-system-switcher data-system="dse-paper3-analysis"/);
-assert.match(html, /shared-system-nav\.js\?v=20260910-activity1/);
+assert.match(html, /shared-system-nav\.js\?v=20260911-tools1/);
 assert.match(html, /dse-paper3-analysis-data\.js\?v=20260903-1/);
 assert.match(html, /dse-paper3-analysis\.js\?v=20260906-classroom2/);
 for (const year of [2012, 2013, 2014, 2015, 2017, 2018, 2019, 2020]) {

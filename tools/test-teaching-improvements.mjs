@@ -20,8 +20,12 @@ const flash=read('flashcards.html');
 const back=flash.slice(flash.indexOf('function returnToDeckList()'),flash.indexOf('function logAttemptStart'));
 let result;const context=vm.createContext({currentDeckId:'dse/reading/part-b2/2019',studySession:{returnEntry:{view:'dashboard'}},stopStudyTimer(){},stopCountdownTimers(){},hideCountdownClock(){},openDeckStart(id,push){result={id,push};}});
 vm.runInContext(back+';returnToDeckList()',context);assert.equal(result.id,'dse/reading/part-b2/2019');assert.equal(result.push,false);assert.equal(context.studySession,null);
-const types=JSON.parse(read('listening-question-types.json'));assert.equal(new Set(types.rows.map(r=>`${r.practice}:${r.part}`)).size,80);
-for(let practice=1;practice<=20;practice++)assert.equal(new Set(types.rows.filter(r=>r.practice===practice).map(r=>r.part)).size,4);
+const types=JSON.parse(read('listening-question-types.json'));assert.equal(types.partCount,80);assert.equal(types.questionCount,800);
+for(let practice=1;practice<=20;practice++){
+ const rows=types.rows.filter(r=>r.practice===practice);
+ assert.deepEqual([...new Set(rows.map(r=>r.part))].sort(),[1,2,3,4]);
+ assert.deepEqual(rows.flatMap(r=>r.questions.flatMap(q=>q.numbers)).sort((a,b)=>a-b),Array.from({length:40},(_,i)=>i+1));
+}
 assert.ok(types.rows.some(r=>r.practice===3&&r.part===2&&r.type==='map'));
 assert.ok(types.rows.some(r=>r.practice===11&&r.part===1&&r.type==='form'));
 assert.ok(types.rows.some(r=>r.practice===15&&r.part===2&&r.type==='matching'));
