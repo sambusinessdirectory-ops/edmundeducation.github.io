@@ -1,0 +1,560 @@
+{
+  "sourceFile": "2024 Speaking.pdf",
+  "sourceSha256": "e647c1ec990299b8e37e3b000f11d1b78f1b89c3a9cefcd957b8f66e23be2098",
+  "auditedPages": 48,
+  "questionSets": 24,
+  "illustratedSets": 14,
+  "visualIllustrations": 29,
+  "crops": [
+    {
+      "set": "1.1",
+      "page": 48,
+      "sourcePixelBounds": [
+        67,
+        412,
+        294,
+        536
+      ],
+      "sourceImageSize": [
+        740,
+        1083
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/1.1-1.webp",
+      "alt": "Visitors viewing the Mona Lisa in a museum",
+      "beforeSegment": 0,
+      "position": "left",
+      "size": "photo",
+      "width": 227,
+      "height": 124
+    },
+    {
+      "set": "1.1",
+      "page": 48,
+      "sourcePixelBounds": [
+        470,
+        585,
+        630,
+        718
+      ],
+      "sourceImageSize": [
+        740,
+        1083
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/1.1-2.webp",
+      "alt": "Mona Lisa augmented reality portrait",
+      "beforeSegment": 2,
+      "position": "right",
+      "size": "photo",
+      "width": 160,
+      "height": 133
+    },
+    {
+      "set": "1.3",
+      "page": 44,
+      "sourcePixelBounds": [
+        452,
+        376,
+        624,
+        503
+      ],
+      "sourceImageSize": [
+        741,
+        1112
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/1.3-1.webp",
+      "alt": "Hong Kong Cultural Centre beside Victoria Harbour",
+      "beforeSegment": 0,
+      "position": "right",
+      "size": "photo",
+      "width": 172,
+      "height": 127
+    },
+    {
+      "set": "2.2",
+      "page": 40,
+      "sourcePixelBounds": [
+        413,
+        509,
+        631,
+        704
+      ],
+      "sourceImageSize": [
+        738,
+        1140
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/2.2-1.webp",
+      "alt": "Driverless tram with labels: see-through top, wooden counters and benches",
+      "beforeSegment": 2,
+      "position": "right",
+      "size": "photo",
+      "width": 218,
+      "height": 195
+    },
+    {
+      "set": "3.2",
+      "page": 34,
+      "sourcePixelBounds": [
+        157,
+        637,
+        203,
+        671
+      ],
+      "sourceImageSize": [
+        747,
+        1129
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/3.2-1.webp",
+      "alt": "News podcast newspaper icon",
+      "beforeSegment": 4,
+      "position": "left",
+      "size": "icon",
+      "width": 46,
+      "height": 34
+    },
+    {
+      "set": "3.2",
+      "page": 34,
+      "sourcePixelBounds": [
+        372,
+        635,
+        399,
+        672
+      ],
+      "sourceImageSize": [
+        747,
+        1129
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/3.2-2.webp",
+      "alt": "Storytelling podcast icon",
+      "beforeSegment": 6,
+      "position": "left",
+      "size": "icon",
+      "width": 27,
+      "height": 37
+    },
+    {
+      "set": "3.2",
+      "page": 34,
+      "sourcePixelBounds": [
+        580,
+        634,
+        616,
+        672
+      ],
+      "sourceImageSize": [
+        747,
+        1129
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/3.2-3.webp",
+      "alt": "Conversation podcast icon",
+      "beforeSegment": 8,
+      "position": "left",
+      "size": "icon",
+      "width": 36,
+      "height": 38
+    },
+    {
+      "set": "3.3",
+      "page": 32,
+      "sourcePixelBounds": [
+        234,
+        494,
+        334,
+        639
+      ],
+      "sourceImageSize": [
+        733,
+        1169
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/3.3-1.webp",
+      "alt": "Blue Fridge community food donation refrigerator",
+      "beforeSegment": 2,
+      "position": "right",
+      "size": "photo",
+      "width": 100,
+      "height": 145
+    },
+    {
+      "set": "3.3",
+      "page": 32,
+      "sourcePixelBounds": [
+        485,
+        489,
+        644,
+        598
+      ],
+      "sourceImageSize": [
+        733,
+        1169
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/3.3-2.webp",
+      "alt": "Food Angel volunteers preparing meals",
+      "beforeSegment": 6,
+      "position": "right",
+      "size": "photo",
+      "width": 159,
+      "height": 109
+    },
+    {
+      "set": "5.1",
+      "page": 24,
+      "sourcePixelBounds": [
+        439,
+        378,
+        613,
+        622
+      ],
+      "sourceImageSize": [
+        742,
+        1098
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/5.1-1.webp",
+      "alt": "Stars Academy singing competition poster",
+      "beforeSegment": 0,
+      "position": "right",
+      "size": "photo",
+      "width": 174,
+      "height": 244
+    },
+    {
+      "set": "5.2",
+      "page": 22,
+      "sourcePixelBounds": [
+        68,
+        429,
+        119,
+        472
+      ],
+      "sourceImageSize": [
+        742,
+        1111
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/5.2-1.webp",
+      "alt": "Artist palette icon",
+      "beforeSegment": 1,
+      "position": "left",
+      "size": "icon",
+      "width": 51,
+      "height": 43
+    },
+    {
+      "set": "5.2",
+      "page": 22,
+      "sourcePixelBounds": [
+        73,
+        488,
+        108,
+        531
+      ],
+      "sourceImageSize": [
+        742,
+        1111
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/5.2-2.webp",
+      "alt": "Healthcare shield icon",
+      "beforeSegment": 2,
+      "position": "left",
+      "size": "icon",
+      "width": 35,
+      "height": 43
+    },
+    {
+      "set": "5.2",
+      "page": 22,
+      "sourcePixelBounds": [
+        69,
+        547,
+        115,
+        587
+      ],
+      "sourceImageSize": [
+        742,
+        1111
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/5.2-3.webp",
+      "alt": "Construction crane icon",
+      "beforeSegment": 3,
+      "position": "left",
+      "size": "icon",
+      "width": 46,
+      "height": 40
+    },
+    {
+      "set": "5.2",
+      "page": 22,
+      "sourcePixelBounds": [
+        68,
+        600,
+        116,
+        660
+      ],
+      "sourceImageSize": [
+        742,
+        1111
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/5.2-4.webp",
+      "alt": "Nature conservation tree and hands icon",
+      "beforeSegment": 4,
+      "position": "left",
+      "size": "icon",
+      "width": 48,
+      "height": 60
+    },
+    {
+      "set": "5.2",
+      "page": 22,
+      "sourcePixelBounds": [
+        62,
+        676,
+        112,
+        711
+      ],
+      "sourceImageSize": [
+        742,
+        1111
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/5.2-5.webp",
+      "alt": "Software developer icon",
+      "beforeSegment": 5,
+      "position": "left",
+      "size": "icon",
+      "width": 50,
+      "height": 35
+    },
+    {
+      "set": "6.1",
+      "page": 18,
+      "sourcePixelBounds": [
+        62,
+        430,
+        225,
+        527
+      ],
+      "sourceImageSize": [
+        738,
+        1122
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/6.1-1.webp",
+      "alt": "Handwritten hello in English",
+      "beforeSegment": 1,
+      "position": "left",
+      "size": "photo",
+      "width": 163,
+      "height": 97
+    },
+    {
+      "set": "6.1",
+      "page": 18,
+      "sourcePixelBounds": [
+        514,
+        533,
+        627,
+        688
+      ],
+      "sourceImageSize": [
+        738,
+        1122
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/6.1-2.webp",
+      "alt": "Chinese calligraphy",
+      "beforeSegment": 2,
+      "position": "right",
+      "size": "photo",
+      "width": 113,
+      "height": 155
+    },
+    {
+      "set": "7.1",
+      "page": 12,
+      "sourcePixelBounds": [
+        74,
+        429,
+        224,
+        539
+      ],
+      "sourceImageSize": [
+        743,
+        1068
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/7.1-1.webp",
+      "alt": "Hong Kong Science Museum exhibit",
+      "beforeSegment": 1,
+      "position": "right",
+      "size": "photo",
+      "width": 150,
+      "height": 110
+    },
+    {
+      "set": "7.1",
+      "page": 12,
+      "sourcePixelBounds": [
+        271,
+        425,
+        426,
+        538
+      ],
+      "sourceImageSize": [
+        743,
+        1068
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/7.1-2.webp",
+      "alt": "Tai Kwun heritage buildings",
+      "beforeSegment": 2,
+      "position": "right",
+      "size": "photo",
+      "width": 155,
+      "height": 113
+    },
+    {
+      "set": "7.1",
+      "page": 12,
+      "sourcePixelBounds": [
+        468,
+        424,
+        630,
+        539
+      ],
+      "sourceImageSize": [
+        743,
+        1068
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/7.1-3.webp",
+      "alt": "Mai Po Nature Reserve wetland",
+      "beforeSegment": 3,
+      "position": "right",
+      "size": "photo",
+      "width": 162,
+      "height": 115
+    },
+    {
+      "set": "7.2",
+      "page": 10,
+      "sourcePixelBounds": [
+        403,
+        468,
+        631,
+        641
+      ],
+      "sourceImageSize": [
+        736,
+        1028
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/7.2-1.webp",
+      "alt": "Sleeping pods in a library",
+      "beforeSegment": 1,
+      "position": "right",
+      "size": "photo",
+      "width": 228,
+      "height": 173
+    },
+    {
+      "set": "7.3",
+      "page": 8,
+      "sourcePixelBounds": [
+        138,
+        388,
+        587,
+        491
+      ],
+      "sourceImageSize": [
+        720,
+        1054
+      ],
+      "visualCount": 3,
+      "src": "assets/speaking-system/dse-illustrations/2024/7.3-1.webp",
+      "alt": "Three suggested Cross Harbour Race mascots: orca, lion and turtle",
+      "beforeSegment": 0,
+      "position": "center",
+      "size": "wide",
+      "width": 449,
+      "height": 103
+    },
+    {
+      "set": "8.1",
+      "page": 6,
+      "sourcePixelBounds": [
+        452,
+        391,
+        632,
+        529
+      ],
+      "sourceImageSize": [
+        738,
+        1028
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/8.1-1.webp",
+      "alt": "Instant noodle cups",
+      "beforeSegment": 0,
+      "position": "right",
+      "size": "photo",
+      "width": 180,
+      "height": 138
+    },
+    {
+      "set": "8.2",
+      "page": 4,
+      "sourcePixelBounds": [
+        525,
+        391,
+        618,
+        682
+      ],
+      "sourceImageSize": [
+        734,
+        1033
+      ],
+      "visualCount": 3,
+      "src": "assets/speaking-system/dse-illustrations/2024/8.2-1.webp",
+      "alt": "Space tourism icons: rocket, moon and astronaut",
+      "beforeSegment": 0,
+      "position": "right",
+      "size": "tall",
+      "width": 93,
+      "height": 291
+    },
+    {
+      "set": "8.3",
+      "page": 2,
+      "sourcePixelBounds": [
+        422,
+        412,
+        631,
+        670
+      ],
+      "sourceImageSize": [
+        730,
+        1037
+      ],
+      "visualCount": 1,
+      "src": "assets/speaking-system/dse-illustrations/2024/8.3-1.webp",
+      "alt": "Social media shopping post showing shoes and shop buttons",
+      "beforeSegment": 1,
+      "position": "right",
+      "size": "photo",
+      "width": 209,
+      "height": 258
+    }
+  ]
+}

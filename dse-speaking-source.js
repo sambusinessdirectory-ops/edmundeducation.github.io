@@ -51,9 +51,28 @@
     return keys;
   }
 
-  function render(segments, text, native = false) {
+  const escapeAttribute = value => String(value || "").replace(/[&<>"']/g, character => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[character]));
+
+  function illustrationsFor(set) {
+    const entry = window.EDMUND_DSE_SPEAKING_ILLUSTRATIONS?.[String(Number(set?.year || 0)) + ":" + String(set?.set || "")];
+    return entry?.figures || (entry?.src ? [{ ...entry, beforeSegment: 0, alt: set.title + " illustration" }] : []);
+  }
+
+  function renderFigures(figures) {
+    return figures.map(figure => {
+      const position = ["left", "right", "center"].includes(figure.position) ? figure.position : "center";
+      const size = ["icon", "photo", "wide", "tall"].includes(figure.size) ? figure.size : "photo";
+      return '<figure class="dse-source-illustration is-' + position + ' size-' + size + '"><img src="' +
+        escapeAttribute(figure.src) + '" alt="' + escapeAttribute(figure.alt) + '" loading="lazy" decoding="async"' +
+        (figure.width && figure.height ? ' width="' + Number(figure.width) + '" height="' + Number(figure.height) + '"' : '') + '></figure>';
+    }).join("");
+  }
+
+  function render(segments, text, native = false, figures = []) {
     const paragraphClass = native ? "dse-native-source-paragraph" : "dse-source-paragraph";
-    return segments.map((segment, index) => {
+    function renderSegment(segment, index) {
       const scope = index ? "source-" + index : "source";
       if (segment.type === "numbered" || segment.type === "bulleted") {
         const tag = segment.type === "numbered" ? "ol" : "ul";
@@ -71,7 +90,8 @@
           "</caption><thead><tr>" + headings + "</tr></thead><tbody>" + body + "</tbody></table></div>";
       }
       return '<p class="' + paragraphClass + (segment.type === "task" ? " is-task" : "") + '" lang="en">' + text(segment.text, scope) + "</p>";
-    }).join("");
+    }
+    return segments.map((segment, index) => renderFigures(figures.filter(figure => Number(figure.beforeSegment || 0) === index)) + renderSegment(segment, index)).join("");
   }
-  window.EDMUND_DSE_SPEAKING_SOURCE = Object.freeze({ segmentsFor, textParts, bookmarkKeys, render });
+  window.EDMUND_DSE_SPEAKING_SOURCE = Object.freeze({ segmentsFor, textParts, bookmarkKeys, illustrationsFor, render });
 })();

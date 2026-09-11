@@ -1,3 +1,4 @@
+import { createWritingEmailPreferences, feedbackPublicationMessage } from "./writing-email-preferences.mjs?v=20260911-email1";
 import { PAPER3_WRITING_TOPICS, paper3Topic, paper3TopicRoute } from './paper3-writing-topics.mjs?v=20260906-classroom2';
 import {
   completedWritingSegments,
@@ -78,6 +79,7 @@ import {
 } from "./writing-submission-proofreading.mjs?v=20260814-1";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
+const emailPreferences = createWritingEmailPreferences({ host: document.querySelector('[data-writing-email-preferences]'), request: (...args) => apiJson(...args), accountKey: () => state.user?.role === 'student' ? state.authToken : null });
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-writing-submission-session-v1";
 const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";
@@ -1762,6 +1764,7 @@ function formatCompactDuration(secondsValue) {
 }
 
 function showView(name) {
+  if (name === "login" || state.user?.role === "admin") emailPreferences.reset();
   closeFeedbackFullscreen();
   if (name !== "admin-pending") state.adminPendingGeneration += 1;
   accrueWritingTime();
@@ -3711,6 +3714,7 @@ function setGrammarDetectionEnabled(enabled, { scanCurrentWriting = false } = {}
 }
 
 async function loadWritingPreferences() {
+  void emailPreferences.load();
   state.grammarDetectionEnabled = true;
   syncGrammarDetectionControls();
   try {
@@ -7183,7 +7187,7 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   const heading = createElement("header", "teacher-feedback-editor-head");
   const copy = createElement("div");
   copy.append(createElement("p", "eyebrow", "STRUCTURED WRITING FEEDBACK"), createElement("h2", "", "撰寫 Edmund 評語"));
-  const badge = createElement("span", "teacher-feedback-status", feedback?.status === "published" ? "已發送給學生" : feedback ? "評語草稿" : "尚未建立評語");
+  const badge = createElement("span", "teacher-feedback-status", feedback?.status === "published" ? "已發送至學生帳戶" : feedback ? "評語草稿" : "尚未建立評語");
   badge.dataset.feedbackStatus = "true";
   const recoveryStatus = createElement("span", "teacher-feedback-recovery-status", "此分頁自動備份已啟用");
   recoveryStatus.dataset.feedbackRecoveryStatus = "true";
@@ -7305,7 +7309,7 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   const saveDraft = createElement("button", "secondary-button", "儲存評語草稿");
   saveDraft.type = "button";
   saveDraft.dataset.feedbackSave = "draft";
-  const publish = createElement("button", "primary-button", feedback?.status === "published" ? "更新並發送給學生" : "發送給學生");
+  const publish = createElement("button", "primary-button", feedback?.status === "published" ? "儲存更新並發送評語" : "儲存並發送評語");
   publish.type = "button";
   publish.dataset.feedbackSave = "published";
   const remove = createElement("button", "delete-submission-button teacher-feedback-delete", "刪除整份評語");
@@ -7314,7 +7318,7 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   remove.hidden = !serverFeedback;
   actions.append(saveDraft, publish, remove);
   const actionRegion = createElement("section", "teacher-feedback-action-region");
-  actionRegion.append(status, actions);
+  actionRegion.append(createElement("p", "muted", "評語會發送至學生帳戶；已自願登記電郵的學生，亦會收到評改完成通知。"), status, actions);
   appendRegion(actionRegion, "actions");
   container.append(panel);
   initializeAdminFeedbackRecovery(panel, { recovery, restoredRecovery });
@@ -8082,7 +8086,7 @@ async function saveAdminFeedback(status) {
       };
       renderAdminSubmissions();
     }
-    showToast(status === "published" ? "評語已發送給學生。" : "評語草稿已儲存。", "success");
+    showToast(status === "published" ? feedbackPublicationMessage(response?.notification?.status) : "評語草稿已儲存。", "success");
     if (isCurrentAdminFeedbackEditor(submissionId, requestGeneration, editor)) {
       await openAdminSubmission(submissionId);
     }

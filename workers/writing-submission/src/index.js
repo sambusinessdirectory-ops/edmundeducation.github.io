@@ -159,6 +159,9 @@ async function route(request, env) {
   if (url.pathname === "/v1/preferences" && request.method === "PUT") {
     return putPreferences(request, env);
   }
+  if (url.pathname === "/v1/email-notifications" && ["GET", "PUT"].includes(request.method)) {
+    return writingEmailNotifications(request, env);
+  }
   if (url.pathname === "/v1/progress" && request.method === "GET") {
     return getProgress(request, env);
   }
@@ -947,6 +950,27 @@ async function deleteAdminManualTopic(request, env, id) {
   const deleted = Array.isArray(rows) ? rows[0] : rows;
   if (deleted !== true) throw new HttpError(404, "MANUAL_TOPIC_NOT_FOUND", "Manual topic not found");
   return emptyResponse(204, request, env);
+}
+
+async function writingEmailNotifications(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  let preferences;
+  if (request.method === "PUT") {
+    await enforceRateLimit(env.SUBMISSION_WRITE_RATE_LIMITER, `writing-email-preference:${student.id}`,
+      "Notification settings temporarily unavailable", "TOO_MANY_PREFERENCE_WRITES", "Please wait before updating settings again");
+    const payload = await readLimitedJson(request, MAX_LOGIN_BODY_BYTES);
+    if (!hasExactKeys(payload, ["email", "enabled"]) || typeof payload.enabled !== "boolean" || typeof payload.email !== "string" ||
+      payload.email.length > 254 || /[\r\n\u0000-\u001f\u007f]/.test(payload.email) ||
+      (payload.enabled && !/^[^\s<>@]+@[^\s<>@]+\.[^\s<>@]+$/.test(payload.email.trim()))) {
+      throw new HttpError(400, "INVALID_EMAIL_PREFERENCE", "Enter a valid email address and choose whether to receive notifications");
+    }
+    preferences = await rpc(env, "writing_feedback_email_set", { p_student_id: student.id, p_email: payload.enabled ? payload.email.trim() : "", p_enabled: payload.enabled });
+  } else {
+    preferences = await rpc(env, "writing_feedback_email_get", { p_student_id: student.id });
+  }
+  if (!preferences || typeof preferences.enabled !== "boolean") throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Notification settings unavailable");
+  return json({ preferences }, 200, request, env);
 }
 
 async function getPreferences(request, env) {
@@ -3148,7 +3172,18 @@ async function putAdminSubmissionFeedback(request, env, submissionId) {
     }
   }));
   if (!row) throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
-  return json({ feedback: feedbackResponse(row) }, 200, request, env);
+  let notification = null;
+  if (payload.status === "published") {
+    try {
+      const status = await rpc(env, "writing_feedback_email_status", { p_feedback_id: row.id, p_version: row.version });
+      notification = { status: status || "unavailable" };
+      if (status === "queued" && env.FEEDBACK_MAILER) {
+        const delivery = env.FEEDBACK_MAILER.deliver().catch(() => console.warn("Grading notification queued for scheduler retry"));
+        if (env.feedbackWaitUntil) env.feedbackWaitUntil(delivery); else await delivery;
+      }
+    } catch { notification = { status: "unavailable" }; }
+  }
+  return json({ feedback: feedbackResponse(row), notification }, 200, request, env);
 }
 
 async function deleteAdminSubmissionFeedback(request, env, submissionId) {
