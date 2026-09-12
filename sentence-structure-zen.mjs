@@ -4,25 +4,17 @@ import { createKoiRig,koiMotion,koiRoute,lotusAngle,createSleepingCat,catMotion 
 const ART='./assets/sentence-structure/zen/';
 const maple='M0 20L-2 7L-13 13L-9 2L-21-2L-10-7L-14-18L-4-12L0-26L5-12L16-19L12-7L23-2L11 3L15 13L3 8Z';
 export const zenLeaf=(fill='#b73132')=>`<svg viewBox="-26 -28 54 54" aria-hidden="true"><path d="${maple}" fill="${fill}"/><path d="M0 21V-19M0 4L-13-7M0 3L13-8" stroke="#f6b079" fill="none" stroke-width="1"/></svg>`;
-export function zenRoute(nodes){return nodes.map((p,i)=>{
- if(!i)return `M${p.x} ${p.y}`;const a=nodes[i-1];
- if(i===21)return `C1485 ${a.y+20} 1538 1500 1538 1530L1538 1770C1538 1820 1480 ${p.y} ${p.x} ${p.y}`;
- if(a.x===p.x){const bend=p.x>800?122:-72;return `C${a.x+bend} ${a.y+90} ${p.x+bend} ${p.y-90} ${p.x} ${p.y}`;}
- return `C${(a.x+p.x)/2} ${a.y} ${(a.x+p.x)/2} ${p.y} ${p.x} ${p.y}`;
-}).join(' ');}
-export function zenTrail(d,id){return `<defs><pattern id="${id}" width="78" height="48" patternUnits="userSpaceOnUse"><rect width="78" height="48" fill="#dad4c1"/><path d="M0 1H78M38 0L32 24L0 28M32 24L78 31M18 28L22 48M58 31L56 48" fill="none" stroke="#b9b29f" stroke-width="2"/><path d="M6 5l18-1M44 4l19 1M39 33l12 3" stroke="#efead9" stroke-width="2" opacity=".6"/></pattern></defs><path d="${d}" fill="none" stroke="#575d4847" stroke-width="70" transform="translate(0 5)" stroke-linecap="round"/><path d="${d}" fill="none" stroke="#f0ead7" stroke-width="67" stroke-linecap="round"/><path d="${d}" fill="none" stroke="url(#${id})" stroke-width="59" stroke-linecap="round"/>`;}
 function pondEffects(){return `<svg class="zen-pond-effects" viewBox="0 0 1496 1051" aria-hidden="true"><defs>${WATER_SHAPES.map((p,i)=>`<clipPath id="zen-pond-${i}"><polygon points="${p.map(x=>x.join(',')).join(' ')}"/></clipPath>`).join('')}</defs>${WATER_SHAPES.map((p,i)=>{
  const min=Math.min(...p.map(x=>x[1])),max=Math.max(...p.map(x=>x[1]));
  return `<g clip-path="url(#zen-pond-${i})" data-pond="${i}">${Array.from({length:4},(_,j)=>`<path class="zen-current" d="M0 ${min+(max-min)*(j+1)/5}Q500 ${min+10+j*8} 1000 ${max-10-j*5}T1600 ${max-j*9}" style="--duration:${31+i*7+j*3}s;--delay:${-j*6-i*9}s"/>`).join('')}<ellipse class="zen-ripple" cx="${p[3][0]}" cy="${(min+max)/2}" rx="17" ry="4" style="--delay:${-i*2.9}s"/></g>`;
  }).join('')}</svg>`;}
 export function zenTerrain(nodes,lessons){
  const local=nodes.map(p=>({...p,y:p.y-ZEN_OFFSET}));
- return `<div class="sentence-zen-realm" style="top:${ZEN_OFFSET}px" aria-hidden="true"><img class="zen-background" src="${ART}background.webp" width="3200" height="2250" alt=""><canvas class="zen-living-scenery" width="1496" height="1051"></canvas>${pondEffects()}
- <svg class="zen-route" viewBox="0 0 1600 2250">${zenTrail(zenRoute(local),'zen-paving')}</svg>
+ return `<div class="sentence-zen-realm" style="top:${ZEN_OFFSET}px" aria-hidden="true"><img class="zen-background" src="${ART}background-grounded.webp" width="3200" height="2250" alt=""><canvas class="zen-living-scenery" width="1496" height="1051"></canvas>${pondEffects()}
  ${LAMPS.map(([x,y,size],i)=>{const p=artPoint([x,y]);return `<i class="zen-lamp-glow" data-lamp="${i}" style="left:${p.x-size/2}px;top:${p.y-size/2}px;width:${size}px;height:${size}px;--duration:${7.5+i*.9}s;--delay:${-i*1.8}s"></i>`;}).join('')}
  ${WATER_SHAPES.map((poly,pond)=>`<div class="zen-koi-water-layer" style="clip-path:polygon(${poly.map(([x,y])=>`${x/ART_SIZE.width*100}% ${y/ART_SIZE.height*100}%`).join(',')})">${KOI.map((f,i)=>f.pond===pond?`<div class="zen-koi-position" data-koi="${i}"><div class="zen-koi-heading"><canvas width="240" height="160" style="width:${f.width}px;height:${f.width*2/3}px"></canvas></div></div>`:'').join('')}</div>`).join('')}
  ${LOTUS.map(([x,y,size],i)=>{const p=artPoint([x,y]);return `<div class="zen-lotus-position" style="left:${p.x}px;top:${p.y}px;width:${size}px;height:${size}px"><img class="zen-lotus" src="${ART}lotus.webp" alt="" data-lotus="${i}"></div>`;}).join('')}
- <div class="zen-door-steam">${[0,1,2].map(i=>`<i style="--delay:${-i*3.1}s;--drift:${-38-i*11}px"></i>`).join('')}</div>
+ <div class="zen-door-steam">${[0,1,2].map(i=>`<i style="--delay:${-i*3.6}s;--drift:${-50-i*13}px"><svg viewBox="0 0 60 110"><path d="M30 108C12 89 46 82 31 65S13 42 32 23S38 8 30 0" fill="none" stroke="#fffef5" stroke-width="15" opacity=".2"/><path d="M30 108C12 89 46 82 31 65S13 42 32 23S38 8 30 0" fill="none" stroke="#fffef5" stroke-width="6" opacity=".5"/></svg></i>`).join('')}</div>
  <i class="zen-cat-shadow"></i><canvas class="zen-sleeping-cat" width="360" height="235"></canvas>
  ${local.map((p,i)=>lessons[i].order%10===0?`<div class="zen-milestone" data-milestone="${lessons[i].order}" style="left:${p.x-78}px;top:${p.y-110}px"><span>${lessons[i].order}</span></div>`:'').join('')}
  </div><span class="zen-realm-sign" style="top:${ZEN_OFFSET+635}px">61–90 · 庭園慢行</span>`;
@@ -40,7 +32,7 @@ export function mountZen(root,reduced){
  const flag=root.querySelector('.expression-map-flag');flag.insertAdjacentHTML('beforeend',`<g class="zen-flag-emblem" transform="translate(32 27)"><circle r="8.5" fill="none" stroke="#fff8dd" stroke-width="1.1"/>${Array.from({length:5},(_,i)=>`<ellipse cx="0" cy="-3.5" rx="2.5" ry="3" transform="rotate(${i*72})" fill="#fff8dd"/>`).join('')}</g>`);
  const catPosition=artPoint([CAT.x,CAT.y]);cat.style.cssText=`left:${catPosition.x-CAT.width/2}px;top:${catPosition.y-CAT.width*235/360+17}px;width:${CAT.width}px;height:${CAT.width*235/360}px`;
  const shadow=root.querySelector('.zen-cat-shadow');shadow.style.cssText=`left:${catPosition.x-CAT.width*.36}px;top:${catPosition.y+8}px;width:${CAT.width*.72}px;height:15px`;
- const door=artPoint([933,160]);root.querySelector('.zen-door-steam').style.cssText=`left:${door.x-40}px;top:${door.y-60}px`;
+ const door=artPoint([927,185]);root.querySelector('.zen-door-steam').style.cssText=`left:${door.x-50}px;top:${door.y-150}px`;
  function update(){
   const scale=Number(root.dataset.scale)||1,top=ZEN_OFFSET*scale-viewport.scrollTop;
   leaves.style.clipPath=`inset(${Math.max(0,Math.min(viewport.clientHeight,top))}px 0 0)`;leaves.style.opacity=String(top<viewport.clientHeight?1:0);
@@ -58,7 +50,7 @@ export function mountZen(root,reduced){
    lotuses.forEach((el,i)=>{el.style.transform=`rotate(${lotusAngle(t,i)}rad)`;});lastPaint=t;
   }update();
  }
- load('background',img=>{scenery=createGardenScenery(canvas,img);});
+ load('background-grounded',img=>{scenery=createGardenScenery(canvas,img);});
  load('koi-red',img=>{rigs[0]=createKoiRig(img,[[1390,432,26,20],[1387,613,26,20]]);});
  load('koi-tricolor',img=>{rigs[1]=createKoiRig(img,[[1390,445,26,19],[1390,607,26,19]]);});
  load('cat',img=>{catRig=createSleepingCat(img);});

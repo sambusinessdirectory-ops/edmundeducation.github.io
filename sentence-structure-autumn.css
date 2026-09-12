@@ -9,7 +9,6 @@
 .autumn-current,.autumn-brook-current { fill:none;stroke:#e3edf0;stroke-width:1.7;stroke-linecap:round;stroke-dasharray:22 127 12 88;opacity:.33;animation:autumn-current var(--duration,22s) linear var(--delay,0s) infinite; }
 .autumn-brook-current { stroke-width:2.2;stroke-dasharray:7 29;opacity:.42; }
 .autumn-route { position:absolute;inset:0;width:1600px;height:1950px;pointer-events:none; }
-.realm-connector { position:absolute;inset:0;width:1600px;height:3900px;pointer-events:none; }
 .autumn-far-fog { position:absolute;left:-800px;top:100px;width:3200px;height:350px;overflow:hidden;mask-image:linear-gradient(transparent,#000 20%,#000 65%,transparent); }
 .autumn-far-fog i { position:absolute;left:420px;top:70px;width:1000px;height:160px;background:radial-gradient(ellipse at 25% 62%,#e4dfd557,transparent 66%),radial-gradient(ellipse at 70% 55%,#e1e1dc47,transparent 69%);filter:blur(13px);animation:autumn-fog 46s ease-in-out -9s infinite alternate; }
 .autumn-far-fog i:nth-child(2) { left:1050px;top:10px;width:1050px;height:200px;opacity:.65;animation-duration:57s;animation-delay:-28s;animation-direction:alternate-reverse; }
@@ -31,8 +30,9 @@
 .autumn-milestone::before { content:"";position:absolute;left:26px;top:15px;width:7px;height:77px;border-radius:3px;background:linear-gradient(90deg,#735037,#b88a55,#6b4a34); }
 .autumn-milestone span { position:relative;display:block;text-align:center;background:#bd8a50;color:#fff1c7;border:2px solid #845f3d;border-radius:7px 3px 8px 4px;box-shadow:0 3px 0 #5f4a31;font:700 19px/33px Georgia,serif; }
 .autumn-milestone svg { position:absolute;width:29px;height:31px;bottom:2px;left:19px;transform:rotate(-24deg); }
-.realm-cloud-border { position:absolute;left:-800px;top:1827px;width:3200px;height:272px;pointer-events:none;overflow:hidden;z-index:1;background:linear-gradient(transparent 1%,#e1e2d855 26%,#e2e4dbb8 45%,#e2e3dabb 58%,#dfddcf47 79%,transparent); }
-.realm-cloud-border i { position:absolute;width:470px;height:255px;background:radial-gradient(ellipse at 45% 50%,#f3f0dfdc 0%,#e9e9dbaa 34%,#dfe3d746 56%,transparent 70%);filter:blur(13px);animation:realm-mist var(--duration) ease-in-out var(--delay) infinite alternate; }
+.realm-cloud-border { position:absolute;left:-800px;top:1760px;width:3200px;height:380px;pointer-events:none;overflow:visible;z-index:1;backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);mask-image:linear-gradient(transparent,black 24%,black 76%,transparent);-webkit-mask-image:linear-gradient(transparent,black 24%,black 76%,transparent); }
+.realm-cloud-border::before {content:"";position:absolute;inset:0;background:linear-gradient(transparent 2%,#eef0e438 22%,#eeefe4ee 43%,#eeefe4 48%,#eeefe4 53%,#eeefe4e6 60%,#eef0e438 80%,transparent);}
+.realm-cloud-border i { position:absolute;width:610px;height:360px;background:radial-gradient(ellipse at 45% 50%,#f5f4ebed 0%,#edeee2c4 28%,#e4e8dc64 48%,transparent 70%);filter:blur(42px);animation:realm-mist var(--duration) ease-in-out var(--delay) infinite alternate; }
 .autumn-realm-sign { position:absolute;left:523px;color:#eee1c7;background:#624b33dc;border:1px solid #a88a5c;border-radius:18px;padding:6px 19px;font-size:15px;font-weight:650;letter-spacing:.08em;pointer-events:none; }
 .autumn-leaves { position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:3;opacity:0; }
 .autumn-leaves>span { position:absolute;top:-35px;height:24px;opacity:0;animation:autumn-leaf-fall var(--duration) linear var(--delay) infinite; }

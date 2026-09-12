@@ -2,8 +2,6 @@
 .zen-background,.zen-living-scenery,.zen-pond-effects {position:absolute;left:-800px;top:0;width:3200px;height:2250px;max-width:none;pointer-events:none;}
 .zen-background {object-fit:fill;}
 .zen-living-scenery {opacity:1;}
-.zen-route {position:absolute;inset:0;width:1600px;height:2250px;pointer-events:none;}
-.zen-connector {position:absolute;inset:0;width:1600px;height:6150px;pointer-events:none;}
 .zen-current {fill:none;stroke:#e4f1e4;stroke-width:.9;stroke-linecap:round;stroke-dasharray:13 112 8 81;opacity:.28;animation:zen-current var(--duration) linear var(--delay) infinite;}
 .zen-ripple {fill:none;stroke:#e5f2e8;stroke-width:.6;opacity:0;transform-box:fill-box;transform-origin:center;animation:zen-ripple 11s ease-out var(--delay) infinite;}
 .zen-lamp-glow {position:absolute;border-radius:50%;background:radial-gradient(circle,#ffe3a9aa 0%,#ffca7157 24%,#ffd1801a 48%,transparent 72%);filter:blur(2px);mix-blend-mode:screen;animation:zen-lamp var(--duration) ease-in-out var(--delay) infinite alternate;}
@@ -12,8 +10,9 @@
 .zen-koi-heading canvas {position:absolute;left:0;top:0;transform:translate(-50%,-50%);opacity:.88;}
 .zen-lotus-position {position:absolute;transform:translate(-50%,-50%) scaleY(.58);transform-origin:center;filter:drop-shadow(0 3px 2px #153d3533);}
 .zen-lotus {display:block;width:100%;height:100%;transform-origin:center;}
-.zen-door-steam {position:absolute;width:80px;height:100px;}
-.zen-door-steam i {position:absolute;bottom:0;left:30px;width:29px;height:40px;background:radial-gradient(ellipse,#fffef575,transparent 67%);border-radius:50%;filter:blur(5px);opacity:0;animation:zen-steam 11s ease-out var(--delay) infinite;}
+.zen-door-steam {position:absolute;width:100px;height:160px;}
+.zen-door-steam i {position:absolute;bottom:0;left:28px;width:56px;height:110px;filter:blur(3px);opacity:0;transform-origin:50% 100%;animation:zen-steam 11s ease-in-out var(--delay) infinite;}
+.zen-door-steam svg {display:block;width:100%;height:100%;overflow:visible;}
 .zen-sleeping-cat {position:absolute;}
 .zen-cat-shadow {position:absolute;border-radius:50%;background:#493c2d35;filter:blur(3px);}
 .zen-stone-art {position:absolute;left:9px;top:-12px;width:162px;height:84px;pointer-events:none;overflow:visible;filter:drop-shadow(0 5px 3px #3c44374d);}
@@ -42,6 +41,6 @@
 @keyframes zen-current {to{stroke-dashoffset:-214;}}
 @keyframes zen-ripple {0%{opacity:0;transform:scale(.4);}30%{opacity:.35;}100%{opacity:0;transform:scale(2.5);}}
 @keyframes zen-lamp {from{opacity:.58;transform:scale(.95);}to{opacity:.92;transform:scale(1.05);}}
-@keyframes zen-steam {0%{opacity:0;transform:translate(0,10px) scale(.5);}25%{opacity:.3;}60%{opacity:.2;}100%{opacity:0;transform:translate(var(--drift),-60px) scale(2);}}
+@keyframes zen-steam {0%{opacity:0;transform:translate(0,8px) scale(.55);}20%{opacity:.68;}55%{opacity:.48;}100%{opacity:0;transform:translate(var(--drift),-105px) scale(1.3);}}
 @keyframes zen-leaf-fall {0%{opacity:0;transform:translate(0,-30px) rotate(0);}9%{opacity:.6;}85%{opacity:.52;}100%{opacity:0;transform:translate(var(--drift),850px) rotate(var(--spin));}}
 @media(prefers-reduced-motion:reduce){.zen-falling-leaves,.zen-door-steam{display:none;}}

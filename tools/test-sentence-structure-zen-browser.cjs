@@ -38,6 +38,9 @@ window.coastTest={
  await map.scrollIntoViewIfNeeded();await viewport.focus();
  assert.equal(await page.locator('.expression-map-stone').count(),90);
  assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),255);
+ assert.equal(await page.locator('.realm-connector,.zen-connector,.zen-route').count(),0,'Unrequested connecting strips are removed');
+ assert.equal(await page.locator('.realm-cloud-border').count(),2);
+ assert.ok(await page.locator('.realm-cloud-border i').first().evaluate(el=>parseFloat(getComputedStyle(el).filter.match(/blur\(([^p]+)/)[1])>=40),'Realm clouds have broad soft blur');
  await page.locator('.expression-map-picker select').selectOption('ss61');await page.waitForTimeout(3500);
  assert.equal(await page.locator('[data-map-level="60"]').getAttribute('data-arrived'),'true');
  await page.waitForFunction(()=>document.querySelector('.zen-living-scenery').dataset.renderer);
@@ -86,6 +89,13 @@ window.coastTest={
  await viewport.evaluate(el=>{el.scrollTop=3900*Number(document.querySelector('[data-sentence-map]').dataset.scale);});
  await map.screenshot({path:path.join(out,'zen-teahouse.png')});
  await page.locator('.zen-sleeping-cat').screenshot({path:path.join(out,'sleeping-cat.png')});
+ const smokeReview=page.locator('.zen-door-steam');
+ for(const time of [1800,4300,7100]){
+  await smokeReview.evaluate((el,time)=>el.getAnimations({subtree:true}).forEach(a=>{a.pause();a.currentTime=time;}),time);
+  const clip=await smokeReview.evaluate(el=>{const r=el.getBoundingClientRect();return {x:Math.max(0,r.left-80),y:Math.max(0,r.top-90),width:r.width+170,height:r.height+140};});
+  await page.screenshot({path:path.join(out,`door-steam-${time}.png`),clip});
+ }
+ await smokeReview.evaluate(el=>el.getAnimations({subtree:true}).forEach(a=>a.play()));
  await page.locator('[data-save-location]').click();assert.equal(await page.locator('.expression-map-flag').getAttribute('data-flag-level'),'ss61');
  await page.locator('[data-character=phoebe]').click();assert.equal(await page.locator('.expression-map-flag.is-zen').count(),1);
  await page.evaluate(()=>coastTest.logout());await page.evaluate(()=>coastTest.login('zen-other'));assert.equal(await page.locator('.expression-map-flag').isVisible(),false);

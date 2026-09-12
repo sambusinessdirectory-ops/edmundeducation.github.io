@@ -3,7 +3,7 @@ import { SENTENCE_COAST, SHORE_LAYOUT } from './sentence-structure-coast.mjs?v=2
 import { AUTUMN_OFFSET, realmsPath, realmsStep } from './sentence-structure-realms-navigation.mjs?v=20260912-zen1';
 import { createAutumnRabbit, rabbitMotion } from './sentence-structure-autumn-rabbit.mjs?v=20260912-autumn1';
 import { ZEN_OFFSET,ZEN_HEIGHT,ZEN_LAYOUT } from './sentence-structure-zen-geometry.mjs?v=20260912-zen1';
-import { zenTerrain,zenOverlay,decorateZenStones,mountZen,zenTrail } from './sentence-structure-zen.mjs?v=20260912-zen1';
+import { zenTerrain,zenOverlay,decorateZenStones,mountZen } from './sentence-structure-zen.mjs?v=20260912-zen2';
 const ART='./assets/sentence-structure/autumn/';
 export const AUTUMN_LAYOUT={startX:160,columnGap:205,rowYs:[520,1010,1250,1490,1710]};
 export function sentenceRealmPositions(lessons){return [
@@ -27,8 +27,6 @@ const river='M0 623L170 677L375 706L640 735L900 725L1230 739L1520 743L1730 746L2
 function water(){const id=`autumn-water-${++ids}`;return `<svg class="autumn-water" viewBox="0 0 3200 1950" aria-hidden="true"><defs><mask id="${id}"><path d="${river}" fill="white"/><path d="M1490 310L1525 312L1570 336L1540 353L1608 371L1580 395L1530 387L1550 371L1500 355Z" fill="white"/><g fill="black"><rect x="875" y="620" width="175" height="300"/><rect x="1765" y="619" width="170" height="317"/><ellipse cx="1340" cy="796" rx="62" ry="28"/><ellipse cx="1510" cy="819" rx="54" ry="22"/><ellipse cx="2470" cy="806" rx="54" ry="23"/><ellipse cx="2630" cy="787" rx="104" ry="33"/></g></mask></defs><g mask="url(#${id})"><g class="autumn-river-surface"><image href="${ART}background.webp" width="3200" height="1950"/></g>${Array.from({length:6},(_,i)=>`<path class="autumn-current" d="M-120 ${748+i*20}Q500 ${765+i*17} 1100 ${775+i*15}T2300 ${760+i*18}T3380 ${765+i*17}" style="--delay:${-i*3.7}s;--duration:${24+i*2}s"/>`).join('')}<path class="autumn-brook-current" d="M1510 323Q1575 350 1533 350T1587 381"/></g></svg>`;}
 function terrain(nodes,lessons){
  const autumn=nodes.slice(30,60).map(p=>({...p,y:p.y-AUTUMN_OFFSET}));
- const gate=`M${nodes[29].x} ${nodes[29].y}C365 1780 160 1800 160 1905C160 2010 85 2110 122 2240S184 2400 ${nodes[30].x} ${nodes[30].y}`;
- const zenGate=`M${nodes[59].x} ${nodes[59].y}C365 3770 145 3740 145 3860S110 4150 122 4310S170 4500 ${nodes[60].x} ${nodes[60].y}`;
  return `<div class="sentence-coast-realm">${SENTENCE_COAST.terrain(nodes.slice(0,30),lessons.slice(0,30))}</div>
  <div class="sentence-autumn-realm" style="top:${AUTUMN_OFFSET}px" aria-hidden="true"><img class="autumn-background" src="${ART}background.webp" width="3200" height="1950" alt="">${water()}
  <div class="autumn-dusk"></div><div class="autumn-far-fog"><i></i><i></i><i></i></div>
@@ -36,12 +34,10 @@ function terrain(nodes,lessons){
  <svg class="autumn-route" viewBox="0 0 1600 1950"><defs><mask id="autumn-route-bridge-mask"><rect width="1600" height="1950" fill="white"/><rect x="974" y="637" width="170" height="294" fill="black"/></mask></defs><g mask="url(#autumn-route-bridge-mask)">${trail(autumnRoute(autumn),`autumn-trail-${++ids}`)}</g></svg>
  ${autumn.map((p,i)=>lessons[i+30].order%10===0?milestone(p,lessons[i+30].order):'').join('')}
  <i class="autumn-rabbit-shadow"></i><canvas class="autumn-rabbit" width="360" height="350"></canvas></div>
- <svg class="realm-connector" viewBox="0 0 1600 3900" aria-hidden="true">${trail(gate,`realm-trail-${++ids}`)}</svg>
  <div class="realm-cloud-border" aria-hidden="true">${Array.from({length:11},(_,i)=>`<i style="left:${i*290-60}px;top:${i%3*11}px;--duration:${19+i%4*5}s;--delay:${-i*3.4}s;--drift:${i%2?'-': ''}27px"></i>`).join('')}</div>
  <span class="autumn-realm-sign" style="top:${AUTUMN_OFFSET+452}px">31–60 · 秋林漫步</span>
  ${zenTerrain(nodes.slice(60),lessons.slice(60))}
- <svg class="zen-connector" viewBox="0 0 1600 6150" aria-hidden="true">${zenTrail(zenGate,'zen-entry-paving')}</svg>
- <div class="realm-cloud-border zen-cloud-border" style="top:${ZEN_OFFSET-123}px" aria-hidden="true">${Array.from({length:11},(_,i)=>`<i style="left:${i*290-60}px;top:${i%3*11}px;--duration:${23+i%4*5}s;--delay:${-i*3.1}s;--drift:${i%2?'-':''}22px"></i>`).join('')}</div>`;
+ <div class="realm-cloud-border zen-cloud-border" style="top:${ZEN_OFFSET-190}px" aria-hidden="true">${Array.from({length:11},(_,i)=>`<i style="left:${i*290-60}px;top:${i%3*11}px;--duration:${23+i%4*5}s;--delay:${-i*3.1}s;--drift:${i%2?'-':''}22px"></i>`).join('')}</div>`;
 }
 const overlay=`<div class="autumn-leaves" aria-hidden="true">${Array.from({length:10},(_,i)=>`<span style="left:${4+i*10}%;--duration:${19+i%4*3}s;--delay:${-i*3.8}s;--drift:${i%2?-65:85}px;--spin:${i%2?-230:190}deg;width:${12+i%3*3}px">${leaf(['#b86536','#d49a4e','#a94b33','#c89c58'][i%4])}</span>`).join('')}</div>`;
 function mount(root,reduced){
