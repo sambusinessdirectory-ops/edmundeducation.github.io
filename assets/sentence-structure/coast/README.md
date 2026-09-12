@@ -16,8 +16,12 @@ Exploration and location flags do not create learning records or study time.
 
 `sentence-structure-coast.mjs` supplies the scene and animation layers. The shared
 map supplies Eddie/Phoebe/Elsie, walking, idle movement, arrival cards, drag/touch
-panning, keyboard controls and bounded zoom. The normal zoom always fills the
-viewport. A driftwood flag with a scallop emblem preserves Eddie red, Phoebe
+panning, keyboard controls and bounded zoom. A 3200 × 1950 painted surround adds
+800 world pixels beyond each side of the original lesson area. Students can zoom
+out to half the normal scale, subject to a responsive floor that keeps the entire
+viewport covered by scenery. The original 1600 × 1950 lesson coordinates, stream
+boundaries and saved stone IDs remain unchanged. A driftwood flag with a scallop
+emblem preserves Eddie red, Phoebe
 lavender and Elsie yellow. There is one saved stone per account for this system,
 stored in this browser at `edmund-lesson-map-v1:sentence-structure:<account>`.
 Walking to a different stone does not overwrite that saved location. This is not
@@ -41,12 +45,15 @@ bounds. Recheck these outlines after any background or bridge placement change.
   opposing directions. They reuse the approved coastal cloud artwork.
 - The sailboat travels 170 world pixels in 68 seconds, with a small wake and a
   separate 9-second rocking cycle.
-- Two flying gulls glide at different depths and speeds, occasionally flapping.
-  Four painted poses are registered around the body and blended during changes.
-- The perched gull has a registered foot anchor. It blinks roughly every 7.7
-  seconds and briefly stretches its wing once per 27-second cycle.
-- The stationary crab uses four registered poses to lift its claws occasionally,
-  with a tiny body sway. Its placement stays on the same rock.
+- Two flying gulls glide at different depths and speeds. Painted wing parts
+  articulate continuously around their shoulder anchors on every animation frame.
+  Each canvas is cleared before drawing; poses never dissolve or leave trails.
+- The perched gull has a registered foot anchor, gentle body sway, a blink every
+  5.9 seconds and a 3.8-second wing stretch every 12.4 seconds. Its first stretch
+  begins after 1.2 seconds, so the movement is noticeable without a long wait.
+- The stationary crab independently lifts its painted claws on 8.7- and
+  10.3-second cycles and gently rocks. Its first gesture begins after 0.8 seconds;
+  its placement stays on the same rock.
 - Independent water masks contain ocean shimmer, stream flow and fine moving
   highlights. Foam pulses beside the rocks. Land, cliffs and the island stay still.
 - Grass, daisies and flowering coastal shrubs have varied root-pivot sway,
@@ -57,6 +64,12 @@ Canvas wildlife uses the shared scene clock. All decorative CSS is paused by the
 shared `data-animating` lifecycle. Hiding the map, moving it offscreen or hiding
 the document pauses animation; losing keyboard focus alone does not. Reduced
 motion stops decoration and makes travel immediate while retaining water bounds.
+
+The articulation implementation is `sentence-structure-shore-wildlife.mjs`.
+Atlas polygons are explicit. Review a contact sheet of intermediate frames after
+changing them: no static feather fragments may remain around a moving wing.
+Browser checks compare actual canvas pixel hashes as well as gesture state, so
+changing an animation attribute without repainting cannot pass verification.
 
 ## Source assets
 

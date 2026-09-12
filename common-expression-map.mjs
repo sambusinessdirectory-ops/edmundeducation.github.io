@@ -132,6 +132,9 @@ function terrain(nodes, lessons) {
 export function createExpressionMap({ root, toggle, grid, lessons, getCompleted, openLesson, systemKey = 'speaking', theme = null }) {
   if (!lessons.length) { root.hidden=true; toggle.hidden=true; grid.hidden=false; return { update(){}, setActive(){}, reset(){}, destroy(){} }; }
   const WIDTH = theme?.width || 1600, HEIGHT = theme?.height || 1950;
+  const padding={left:0,right:0,...theme?.cameraPadding};
+  const cameraWidth=WIDTH+padding.left+padding.right;
+  let minimumZoom=theme?.minimumZoom ?? 1;
   const nodes = levelPositions(lessons, theme?.layout);
   const arrivalId = `expression-map-arrival-${systemKey}`;
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -236,22 +239,28 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   }
   function centerOn(point, smooth=false) {
     const top=theme?.cameraTop?.({point,scale,height:viewport.clientHeight,zoom}) ?? point.y*scale-viewport.clientHeight*.4;
-    viewport.scrollTo({left:point.x*scale-viewport.clientWidth/2,top,behavior:smooth?'smooth':'instant'});
+    const contentWidth=WIDTH*scale,viewWidth=viewport.clientWidth;
+    const left=padding.left*scale+(contentWidth<=viewWidth?(contentWidth-viewWidth)/2:clamp(point.x*scale-viewWidth/2,0,contentWidth-viewWidth));
+    viewport.scrollTo({left,top,behavior:smooth?'smooth':'instant'});
     positionPopup();
   }
   function setScale(nextZoom, point) {
-    const anchor=point || {x:(viewport.scrollLeft+viewport.clientWidth/2)/scale,y:(viewport.scrollTop+viewport.clientHeight*.4)/scale};
-    zoom=clamp(Math.round(nextZoom*100)/100,1,2);
-    scale=minimumMapScale(viewport.clientWidth,viewport.clientHeight,WIDTH,HEIGHT)*zoom;
-    space.style.width=`${WIDTH*scale}px`; space.style.height=`${HEIGHT*scale}px`;
+    const anchor=point || {x:(viewport.scrollLeft+viewport.clientWidth/2)/scale-padding.left,y:(viewport.scrollTop+viewport.clientHeight*.4)/scale};
+    const base=minimumMapScale(viewport.clientWidth,viewport.clientHeight,WIDTH,HEIGHT);
+    minimumZoom=Math.max(theme?.minimumZoom ?? 1,viewport.clientWidth/cameraWidth/base,viewport.clientHeight/HEIGHT/base);
+    zoom=clamp(Math.round(nextZoom*100)/100,minimumZoom,2);
+    scale=base*zoom;
+    space.style.width=`${cameraWidth*scale}px`; space.style.height=`${HEIGHT*scale}px`;
+    world.style.left=`${padding.left*scale}px`;
     world.style.transform=`scale(${scale})`;
-    root.querySelector('[data-zoom="out"]').disabled=zoom<=1;
+    root.dataset.zoom=String(zoom);root.dataset.scale=String(scale);
+    root.querySelector('[data-zoom="out"]').disabled=zoom<=minimumZoom;
     root.querySelector('[data-zoom="in"]').disabled=zoom>=2;
     centerOn(anchor);
   }
   function positionPopup() {
     if(!popup || !viewport || standing<0 || journey || !mode) { if(popup)popup.hidden=true; return; }
-    const node=nodes[standing], x=node.x*scale-viewport.scrollLeft, y=node.y*scale-viewport.scrollTop;
+    const node=nodes[standing], x=(node.x+padding.left)*scale-viewport.scrollLeft, y=node.y*scale-viewport.scrollTop;
     if(x<18 || x>viewport.clientWidth-18 || y<0 || y>viewport.clientHeight-45) {popup.hidden=true;return;}
     popup.hidden=false;
     const width=popup.offsetWidth, height=popup.offsetHeight;
@@ -325,7 +334,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
         const step={x:clamp(position.x+dx/length*dt*.31,60,WIDTH-60), y:clamp(position.y+dy/length*dt*.31,180,HEIGHT-65)};
         position=theme?.navigation?.step(position,step) || step;
         angle=(Math.atan2(dx,dy)*180/Math.PI+360)%360; walking=true; lastFacing=angle;
-        if(position.x*scale<viewport.scrollLeft+80 || position.x*scale>viewport.scrollLeft+viewport.clientWidth-80 || position.y*scale<viewport.scrollTop+110 || position.y*scale>viewport.scrollTop+viewport.clientHeight-80) centerOn(position);
+        if((position.x+padding.left)*scale<viewport.scrollLeft+80 || (position.x+padding.left)*scale>viewport.scrollLeft+viewport.clientWidth-80 || position.y*scale<viewport.scrollTop+110 || position.y*scale>viewport.scrollTop+viewport.clientHeight-80) centerOn(position);
       }
     } else if(journey) {
       const t=clamp((time-journey.started)/journey.duration,0,1);
@@ -355,6 +364,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     viewport=root.querySelector('.expression-map-viewport'); world=root.querySelector('.expression-map-world'); space=root.querySelector('.expression-map-space'); horse=root.querySelector('.expression-map-horse'); shadow=root.querySelector('.expression-map-shadow'); picker=root.querySelector('select'); status=root.querySelector('[role=status]');popup=root.querySelector('.expression-map-lesson-card');flag=root.querySelector('.expression-map-flag');pinButton=root.querySelector('[data-save-location]');
     built=true;
     world.style.width=`${WIDTH}px`; world.style.height=`${HEIGHT}px`;
+    if(theme?.minimumZoom<1)root.querySelector('[data-zoom="out"]').setAttribute('aria-label','縮小地圖，查看更多課題');
     sceneAnimation=theme?.mount?.(root,reduced);
     CHARACTERS.forEach(c=>loadImage(c.id));
     on(root,'click',event=>{

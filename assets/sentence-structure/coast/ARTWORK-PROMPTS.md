@@ -1,5 +1,22 @@
 Mode: built-in image_gen. Reference: user-provided coastal scene.
 
+## September 12 overview extension — built-in image_gen
+
+Edit target: the existing background.png. Output: background-wide.webp, painted
+at 3200 × 1950 world dimensions beneath the preserved original lesson area.
+Generated master: outputs/sentence-coast-assets/background-wide-final.png.
+
+Prompt 1:
+Use case: precise-object-edit / outpainting. Edit target: the provided coastal game background painting. Extend the canvas horizontally only, adding 50 percent of the existing image width on EACH side. The final image should be a wide landscape about 3200 by 1950 proportions: original artwork remains in the exact CENTRAL HALF of the new canvas, at original scale, same vertical extent. Preserve its central meadow, stream, footbridge, lighthouse, rocks, horizon, foreground driftwood and empty post exactly, all at the same height and alignment. Paint natural seamless continuations into the new LEFT AND RIGHT QUARTERS: continuation of clear pale blue sky at the top, coastal cliffs and ocean at matching heights, coastal grassy meadows with scattered daisies, rocky edges and flowing stream at the same height, lush grass and wildflowers at bottom. Match the exact hand-painted sunny blue/green style and brushwork. New edges should look like a continuous wider coastline with plenty of peaceful grassy land. Do not add animals, people, boats, clouds, text, trails, stepping stones, UI or any objects that would need animation. Do not shrink or reinterpret the original central half. This is background art for zooming out in the existing scene. Full bleed detailed illustration, no borders or blank flat-color areas.
+
+Prompt 2 (remove a duplicate prop in the new surround):
+Use case: precise-object-edit. Edit target: this wide coastal background. Remove ONLY the vertical wooden mooring post / bollard and its attached rope in the lower-right meadow, immediately behind the horizontal weathered log (approximately x=1215,y=638 in the 1606x979 source image). Replace the post and rope with naturally continuous meadow grass and small white/yellow wildflowers matching the surrounding area. Keep the horizontal weathered log, every other scene element, lighthouse, ocean, sky, bridge, stream, colors, dimensions, composition and camera exactly unchanged. No new posts, no new objects, no text. This removes a duplicate prop from an extended game background.
+
+The renderer retains the original background above this surround, softly joining
+the outer 95 pixels. The original gull post and bridge remain authoritative.
+Wildlife improvements use continuous runtime articulation of existing painted
+parts; no additional generated animal poses or background-removal pass was needed.
+
 ## background
 Use case: illustration-story
 Asset type: clean painted background for an interactive educational coastal walking map, portrait canvas 1600x1950.
@@ -31,4 +48,3 @@ ROW ONE: THE SAME perched seagull in each of four frames, facing left, full bird
 ROW TWO: THE SAME orange crab in each four frames, front three-quarter view, full body and legs. Frame1 relaxed neutral small claws. Frame2 left claw gently raised slightly, right neutral. Frame3 right claw gently raised slightly, left neutral. Frame4 both claws gently slightly raised. Feet, carapace and eye stalks remain identically positioned.
 ROW THREE: THE SAME white-and-gray flying seagull facing left, identical body/head centers and sizes. Frame1 wings extended level in a glide. Frame2 wings angled halfway upward. Frame3 wings fully up. Frame4 wings lowered slightly. Full complete silhouette and feathers. Not perched.
 Each animal centered in own cell, entire silhouette within cell, large generous transparent margins. No cell borders, no labels, NO grid or checkerboard baked in. Preserve TRUE transparency around sprites, NO ground shadows, no posts, no rocks, no background. This is a consistent animation sheet, not different individuals. Painterly illustration, clear shapes at small sizes.
-

@@ -53,10 +53,23 @@ window.coastTest={
  assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),315);
  assert.equal(await page.locator('[data-lesson-choice-grid]').isVisible(),false);
  assert.equal(await page.locator('[data-sentence-remaining]').isVisible(),true);
- assert.equal(await page.locator('[data-zoom=out]').isDisabled(),true);
+ assert.equal(await page.locator('[data-zoom=out]').isDisabled(),false);
  assert.equal(await page.locator('[data-character=eddy]').getAttribute('aria-pressed'),'true');
  assert.deepEqual(await page.locator('[data-milestone]').evaluateAll(nodes=>nodes.map(n=>n.dataset.milestone)),['10','20','30']);
  await map.screenshot({path:path.join(out,'sentence-coast-initial.png')});
+ // Review actual raster frames, not merely animation state attributes.
+ await page.evaluate(async()=>{
+  const {createShoreWildlife,flyingGullMotion,perchedGullMotion,crabMotion}=await import('/sentence-structure-shore-wildlife.mjs');
+  const img=new Image();img.src='/assets/sentence-structure/coast/wildlife.webp';await img.decode();const rig=createShoreWildlife(img);
+  const panel=document.createElement('div');panel.id='wildlife-review';panel.style='position:fixed;inset:0;z-index:99999;background:#aecad1;display:grid;grid-template-columns:repeat(8,1fr);align-content:center;gap:4px;padding:12px';
+  for(const [kind,fn,times,size] of [['fly',flyingGullMotion,[1.5,1.8,2.1,2.4,2.7,3,3.3,3.6],.45],['perch',perchedGullMotion,[0,1.8,2.3,2.7,3.1,3.7,4.5,5.5],.44],['crab',crabMotion,[0,1.4,2,2.5,3.1,4.3,5.1,5.8],.45]]){
+   for(const t of times){const cell=document.createElement('div');cell.style='text-align:center;color:#163647;font:14px sans-serif';const canvas=document.createElement('canvas');canvas.width=360;canvas.height=390;canvas.style='width:100%;height:auto';rig.paint(canvas,kind,fn(t),size);cell.append(canvas,`${kind} ${t.toFixed(1)}s`);panel.append(cell);}
+  }
+  document.body.append(panel);
+ });
+ await page.locator('#wildlife-review').screenshot({path:path.join(out,'wildlife-motion-review.png')});
+ await page.locator('#wildlife-review').evaluate(el=>el.remove());
+ if(process.env.RIG_REVIEW_ONLY)return;
  await page.locator('[data-save-location]').click();
  assert.equal(await page.locator('.expression-map-flag').getAttribute('data-flag-level'),'ss1');
  const samples=[];
@@ -124,20 +137,34 @@ window.coastTest={
  assert.equal(await page.locator('.shore-cloud').first().evaluate(el=>getComputedStyle(el).animationName),'none');
  await page.emulateMedia({reducedMotion:'no-preference'});
  await page.locator('.expression-map-picker select').selectOption('ss18');await page.waitForTimeout(3400);
- await viewport.evaluate(el=>{el.scrollTop=720;el.scrollLeft=0;});await page.waitForTimeout(500);
+ await viewport.evaluate(el=>{el.scrollTop=720;el.scrollLeft=800*Number(document.querySelector('[data-sentence-map]').dataset.scale);});await page.waitForTimeout(500);
  await map.screenshot({path:path.join(out,'sentence-coast-stream.png')});
  const animalFrames=[];
- for(let i=0;i<80;i++){
-  animalFrames.push(await page.evaluate(()=>({gull:document.querySelector('.shore-perched-gull').dataset.pose,crab:document.querySelector('.shore-crab').dataset.pose})));
-  await page.waitForTimeout(400);
+ for(let i=0;i<50;i++){
+  animalFrames.push(await page.evaluate(()=>Object.fromEntries([['gull','.shore-perched-gull'],['crab','.shore-crab'],['fly','.shore-flying-gull']].map(([key,selector])=>{
+   const el=document.querySelector(selector),bytes=el.getContext('2d').getImageData(0,0,el.width,el.height).data;
+   let hash=2166136261;for(let n=0;n<bytes.length;n++)hash=Math.imul(hash^bytes[n],16777619);
+   return [key,{motion:JSON.parse(el.dataset.motion),hash}];
+  }))));
+  await page.waitForTimeout(250);
  }
  fs.writeFileSync(path.join(out,'wildlife-poses.json'),JSON.stringify(animalFrames,null,2));
- assert.ok(animalFrames.some(p=>p.gull.includes('1,')),'Gull blinks');
- assert.ok(animalFrames.some(p=>p.gull.includes('3,')),'Gull stretches its wing');
- assert.ok(animalFrames.some(p=>!p.crab.startsWith('0,0')),'Crab moves its claws');
+ assert.ok(animalFrames.some(p=>p.gull.motion.blink>.2),'Gull blinks');
+ assert.ok(animalFrames.some(p=>p.gull.motion.wing>.8),'Gull stretches its wing');
+ assert.ok(animalFrames.some(p=>p.crab.motion.left>.8||p.crab.motion.right>.8),'Crab moves its claws');
+ for(const kind of ['gull','crab','fly'])assert.ok(new Set(animalFrames.map(p=>p[kind].hash)).size>30,kind+' paints many distinct, cleared frames');
+ // A wider painted surround allows genuine overview zoom with no blank edges.
+ const beforeScale=Number(await map.getAttribute('data-scale'));
+ while(!await page.locator('[data-zoom=out]').isDisabled())await page.locator('[data-zoom=out]').click();
+ const afterScale=Number(await map.getAttribute('data-scale'));assert.ok(afterScale<beforeScale*.7);
+ const coverage=await viewport.evaluate(el=>{const v=el.getBoundingClientRect(),a=document.querySelector('.shore-extension').getBoundingClientRect();return {covered:a.left<=v.left+1&&a.right>=v.right-15&&a.top<=v.top+1&&a.bottom>=v.bottom-15};});
+ assert.ok(coverage.covered,'Illustrated scenery covers the overview viewport');
+ await map.screenshot({path:path.join(out,'sentence-coast-overview.png')});
+ await page.locator('[data-zoom=in]').click();
  for(const [name,width,height] of [['tablet',820,1180],['phone',390,844]]){
   await page.setViewportSize({width,height});await page.locator('.expression-map-picker select').selectOption('ss1');await page.waitForTimeout(3400);await map.scrollIntoViewIfNeeded();
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'No horizontal page overflow');
+  while(!await page.locator('[data-zoom=out]').isDisabled())await page.locator('[data-zoom=out]').click();
   assert.equal(await page.locator('[data-zoom=out]').isDisabled(),true);
   await map.screenshot({path:path.join(out,`sentence-coast-${name}.png`)});
   await page.locator('[data-zoom=in]').click();await page.locator('[data-zoom=out]').click();

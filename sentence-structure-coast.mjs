@@ -1,4 +1,5 @@
-import { shorePath, shoreStep, shoreIsWalkable } from './sentence-structure-coast-navigation.mjs?v=20260912-sentence1';
+import { createShoreWildlife, flyingGullMotion, perchedGullMotion, crabMotion } from './sentence-structure-shore-wildlife.mjs?v=20260912-sentence2';
+import { shorePath, shoreStep, shoreIsWalkable } from './sentence-structure-coast-navigation.mjs?v=20260912-sentence2';
 
 const ART='./assets/sentence-structure/coast/';
 export const SHORE_LAYOUT={startX:160,columnGap:205,rowYs:[580,790,1130,1410,1660]};
@@ -89,59 +90,15 @@ function milestone(p,number) {
 }
 function terrain(nodes,lessons) {
   const clouds=[['cloud1',120,36,320,77,-13,'alternate'],['cloud2',612,30,215,63,-26,'alternate-reverse'],['cloud3',1060,93,280,83,-9,'alternate']];
-  return `<div class="shore-scenery" aria-hidden="true"><img class="shore-background" src="${ART}background.webp" width="1600" height="1950" alt="" decoding="async">${water()}
+  return `<img class="shore-extension" src="${ART}background-wide.webp" width="3200" height="1950" alt="" decoding="async"><div class="shore-scenery" aria-hidden="true"><img class="shore-background" src="${ART}background.webp" width="1600" height="1950" alt="" decoding="async">${water()}
     ${clouds.map(([kind,x,y,width,time,delay,direction])=>`<span class="shore-cloud" data-cloud="${kind}" style="left:${x}px;top:${y}px;width:${width}px;height:100px;--duration:${time}s;--delay:${delay}s;--direction:${direction}">${art(kind)}</span>`).join('')}
     <span class="shore-boat" style="left:1020px;top:321px;width:70px;height:87px">${art('boat')}<i class="shore-wake"></i></span>
-    <canvas class="shore-flying-gull" data-flying-gull="0" width="256" height="220"></canvas><canvas class="shore-flying-gull" data-flying-gull="1" width="256" height="220"></canvas>
+    <canvas class="shore-flying-gull" data-flying-gull="0" width="320" height="260"></canvas><canvas class="shore-flying-gull" data-flying-gull="1" width="320" height="260"></canvas>
     ${routeMarkup(nodes)}${plantsMarkup(nodes)}${nodes.map((p,i)=>lessons[i].order%10===0?milestone(p,lessons[i].order):'').join('')}
-    <canvas class="shore-perched-gull" width="300" height="330" aria-hidden="true"></canvas><canvas class="shore-crab" width="180" height="110" aria-hidden="true"></canvas>
+    <canvas class="shore-perched-gull" width="360" height="340" aria-hidden="true"></canvas><canvas class="shore-crab" width="180" height="110" aria-hidden="true"></canvas>
   </div>`;
 }
 
-// Each frame has an explicit source rectangle and registered feet/body anchor.
-// Interpolated opacity provides a soft pose change without reflecting an animal.
-const GULL=[
-  [50,136,312,252,187,380],[400,135,312,253,532,380],
-  [738,124,323,264,876,380],[1092,10,326,378,1236,380]
-];
-const CRAB=[
-  [30,496,318,197,187,683],[397,496,316,197,554,683],
-  [746,496,313,197,903,683],[1104,496,315,197,1261,683]
-];
-const FLY=[
-  [23,872,369,139,210,982],[410,765,303,247,554,982],
-  [764,739,279,273,900,982],[1105,874,314,187,1254,982]
-];
-function interpolateFrames(sequence,t) {
-  if(t<=sequence[0][0])return [sequence[0][1],sequence[0][1],0];
-  for(let i=1;i<sequence.length;i++)if(t<=sequence[i][0]){
-    const a=sequence[i-1],b=sequence[i];return [a[1],b[1],(t-a[0])/(b[0]-a[0])];
-  }
-  return [0,0,0];
-}
-export function perchedGullPose(seconds) {
-  const wing=seconds%27;
-  if(wing>=12&&wing<=16.4)return interpolateFrames([[12,0],[12.7,2],[13.6,3],[14.3,3],[15.3,2],[16.4,0]],wing);
-  const blink=seconds%7.7;
-  if(blink>=3.5&&blink<=3.77)return [0,1,blink<3.59?(blink-3.5)/.09:blink<3.68?1:(3.77-blink)/.09];
-  return [0,0,0];
-}
-export function crabPose(seconds) {
-  return interpolateFrames([[0,0],[5.5,0],[6.4,1],[7.8,0],[10,0],[11,2],[12.5,0],[16.5,0],[17.5,3],[19,0],[23,0]],seconds%23);
-}
-function paintPose(canvas,image,frames,pose,scale,rock=0) {
-  const ctx=canvas.getContext('2d'),w=canvas.width/2,h=canvas.height/2;
-  ctx.clearRect(0,0,canvas.width,canvas.height);
-  if(!image.complete||!image.naturalWidth)return;
-  ctx.save();ctx.scale(2,2);ctx.translate(w/2,h-5);ctx.rotate(rock);
-  const draw=(index,alpha)=>{
-    if(alpha<=0)return;
-    const [x,y,sw,sh,anchorX,anchorY]=frames[index];
-    ctx.globalAlpha=alpha;ctx.drawImage(image,x,y,sw,sh,(x-anchorX)*scale,(y-anchorY)*scale,sw*scale,sh*scale);
-  };
-  if(pose[0]===pose[1])draw(pose[0],1);else {draw(pose[0],1-pose[2]);draw(pose[1],pose[2]);}
-  ctx.restore();canvas.dataset.pose=pose.join(',');
-}
 function mount(root,reduced) {
   root.querySelector('.expression-map-viewport').setAttribute('aria-label','句子結構海岸地圖，第 1 至 30 課；可拖動、點選石階，或用方向鍵 / WASD 走動。');
   root.querySelectorAll('.expression-map-stone').forEach(stone=>stone.insertAdjacentHTML('afterbegin',art('stone','shore-stone-art')));
@@ -149,29 +106,28 @@ function mount(root,reduced) {
   flag.innerHTML=`<ellipse cx="7" cy="95" rx="9" ry="3" fill="#385756" opacity=".2"/><path d="M7 94V6" stroke="#947951" stroke-width="4" stroke-linecap="round"/><path d="M5 80l5 2M5 84l5 2M5 88l5 2" stroke="#f0dcac" stroke-width="2"/><circle cx="7" cy="5" r="4" fill="#e3cf99"/><g class="shore-pennant"><path class="expression-map-flag-cloth" d="M10 12Q31 8 52 14L43 29L52 45Q33 38 10 43Z" fill="var(--flag-color)" stroke="#fff2cf" stroke-width="1.6"/><path d="M22 26q9-14 18 0l-9 10Z M26 23l5 13l5-13M31 21v15" fill="none" stroke="#fff6dc" stroke-width="1.6" stroke-linecap="round"/></g>`;
   const gull=root.querySelector('.shore-perched-gull'),crab=root.querySelector('.shore-crab'),fliers=[...root.querySelectorAll('.shore-flying-gull')];
   const image=new Image();image.src=new URL(ART+'wildlife.webp',import.meta.url).href;
-  let elapsed=0,last=0,disposed=false;
+  let elapsed=0,last=0,disposed=false,rig=null;
   const draw=(now)=>{
     if(disposed)return;
     if(last)elapsed+=Math.min(100,Math.max(0,now-last))/1000;
     last=now;const t=reduced.matches?0:elapsed;
-    paintPose(gull,image,GULL,perchedGullPose(t),.35,reduced.matches?0:Math.sin(t*.74)*.017);
-    paintPose(crab,image,CRAB,crabPose(t),.23,reduced.matches?0:Math.sin(t*.53)*.018);
+    if(!rig)return;
+    rig.paint(gull,'perch',perchedGullMotion(t),.35);
+    rig.paint(crab,'crab',crabMotion(t),.23);
     fliers.forEach((canvas,i)=>{
-      const phase=(t+i*5.3)%10;
-      const pose=interpolateFrames([[0,0],[5.8,0],[6.3,1],[6.8,2],[7.4,1],[7.9,0],[8.4,3],[9,0],[10,0]],phase);
-      paintPose(canvas,image,FLY,pose,i?.14:.23);
+      rig.paint(canvas,'fly',flyingGullMotion(t+i*3.7),i?.14:.23);
       const x=1490-((t*(i?5.8:7.2)+i*740+160)%1580);
       const y=(i?173:110)+Math.sin(t*.10+i*3)*20;
       canvas.style.transform=`translate(${x}px,${y}px)`;
     });
   };
-  image.onload=()=>draw(performance.now());
+  image.onload=()=>{rig=createShoreWildlife(image);draw(performance.now());};
   draw(performance.now());
   return {draw,destroy(){disposed=true;image.onload=null;}};
 }
 export const SENTENCE_COAST=Object.freeze({
   id:'sentence-shore',title:'句型海岸之旅',kicker:'THE SENTENCE SHORE',
-  width:1600,height:1950,layout:SHORE_LAYOUT,terrain,mount,
+  width:1600,height:1950,cameraPadding:{left:800,right:800},minimumZoom:.5,layout:SHORE_LAYOUT,terrain,mount,
   navigation:{path:shorePath,step:shoreStep},
   cameraTop:({point,scale,height,zoom})=>zoom===1&&height>=600&&point.y<625?0:point.y*scale-height*.4
 });

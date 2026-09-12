@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {sentenceMapLessons,sentenceMapCompleted} from '../sentence-structure-map.mjs';
 import {levelPositions,restoreMapPreferences} from '../common-expression-map.mjs';
-import {SHORE_LAYOUT,shorePlants,perchedGullPose,crabPose} from '../sentence-structure-coast.mjs';
+import {SHORE_LAYOUT,shorePlants,SENTENCE_COAST} from '../sentence-structure-coast.mjs';
+import {flyingGullMotion,perchedGullMotion,crabMotion} from '../sentence-structure-shore-wildlife.mjs';
 import {shoreIsWalkable,shoreSegment,shorePath,shoreStep} from '../sentence-structure-coast-navigation.mjs';
 const catalogue=JSON.parse(readFileSync(new URL('../assets/sentence-structure/library/manifest.json',import.meta.url))).lessons.map(l=>({...l,questions:l.questionRefs.map(([id])=>({id}))}));
 const lessons=sentenceMapLessons(catalogue),nodes=levelPositions(lessons,SHORE_LAYOUT);
@@ -47,11 +48,22 @@ test('coastal plants vary by family, phase and direction without covering lesson
   assert.equal(new Set(plants.map(p=>p.direction)).size,2);
   for(const p of plants)assert.ok(!nodes.some(n=>Math.abs(p.x-n.x)<p.width*.5+96&&p.y>n.y-55&&p.y-p.height<n.y+108));
 });
-test('the perched gull blinks and stretches; crab claw poses return to rest',()=>{
-  assert.deepEqual(perchedGullPose(0),[0,0,0]);
-  assert.equal(perchedGullPose(3.63)[1],1);
-  assert.equal(perchedGullPose(13.9)[1],3);
-  assert.deepEqual(perchedGullPose(20),[0,0,0]);
-  assert.ok(crabPose(6.6).includes(1));assert.ok(crabPose(11.2).includes(2));
-  assert.ok(crabPose(17.6).includes(3));assert.equal(crabPose(22)[1],0);
+test('wildlife gestures use continuous intermediate frames and begin within a few seconds',()=>{
+  assert.equal(perchedGullMotion(0).wing,0);assert.equal(perchedGullMotion(2.25).blink,1);
+  assert.ok(perchedGullMotion(3.1).wing>.99);assert.equal(perchedGullMotion(8).wing,0);
+  assert.ok(crabMotion(2.4).left>.99);assert.ok(crabMotion(5.2).right>.99);
+  for(const fn of [flyingGullMotion,perchedGullMotion,crabMotion]){
+    const frames=Array.from({length:1500},(_,i)=>fn(i/60));
+    assert.ok(new Set(frames.map(f=>JSON.stringify(f))).size>1400);
+    for(let i=1;i<frames.length;i++)for(const key of Object.keys(frames[i])){
+      if(key==='blink')continue;
+      assert.ok(Math.abs(frames[i][key]-frames[i-1][key])<.09,`${key} changes smoothly at 60 fps`);
+    }
+  }
+});
+test('overview zoom includes a wide painted surround while retaining original walking bounds',()=>{
+  assert.equal(SENTENCE_COAST.minimumZoom,.5);
+  assert.deepEqual(SENTENCE_COAST.cameraPadding,{left:800,right:800});
+  assert.equal(SENTENCE_COAST.width,1600);assert.equal(SENTENCE_COAST.height,1950);
+  assert.equal(shoreIsWalkable({x:-300,y:600}),false);
 });
