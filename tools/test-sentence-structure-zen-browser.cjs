@@ -44,6 +44,9 @@ window.coastTest={
  await page.locator('.expression-map-picker select').selectOption('ss61');await page.waitForTimeout(3500);
  assert.equal(await page.locator('[data-map-level="60"]').getAttribute('data-arrived'),'true');
  await page.waitForFunction(()=>document.querySelector('.zen-living-scenery').dataset.renderer);
+ const normal=await viewport.evaluate(el=>{const v=el.getBoundingClientRect(),root=document.querySelector('[data-sentence-map]'),scale=+root.dataset.scale,caption=document.querySelector('[data-map-level="61"] .expression-map-stone-caption');return {scale,zoom:+root.dataset.zoom,font:parseFloat(getComputedStyle(caption).fontSize)*scale,lamps:[...document.querySelectorAll('.zen-lamp-glow')].map(l=>{const r=l.getBoundingClientRect();return r.left>=v.left&&r.right<=v.right&&r.top>=v.top&&r.bottom<=v.bottom;}),cat:(()=>{const r=document.querySelector('.zen-sleeping-cat').getBoundingClientRect();return r.left>=v.left&&r.right<=v.right&&r.top>=v.top&&r.bottom<=v.bottom;})()};});
+ assert.equal(normal.zoom,1);assert.ok(normal.scale>.8);assert.ok(normal.font>=15,'Normal-size lesson labels remain readable');assert.ok(normal.lamps.every(Boolean),'All five lamps are in the normal display');assert.ok(normal.cat,'The cat is in the normal display');
+ fs.writeFileSync(path.join(out,'normal-framing.json'),JSON.stringify(normal,null,2));
  await map.screenshot({path:path.join(out,'zen-entrance.png')});
  await page.evaluate(()=>{
   window.zenBlinkReview={active:true,peaks:Array(6).fill(0)};
@@ -55,7 +58,7 @@ window.coastTest={
    const hash=bytes=>{let h=2166136261;for(const b of bytes)h=Math.imul(h^b,16777619);return h;};
    const c=document.querySelector('.zen-living-scenery'),gl=c.getContext('webgl');
    const patch=(x,y,w,h)=>{const bytes=new Uint8Array(w*h*4);gl.readPixels(x,c.height-y-h,w,h,gl.RGBA,gl.UNSIGNED_BYTE,bytes);return hash(bytes);};
-   return {time:+c.dataset.time,renderer:c.dataset.renderer,foliage:patch(470,92,144,145),water:[patch(660,425,90,26),patch(650,597,85,28),patch(917,782,80,26)],cloth:patch(983,89,110,90),door:patch(905,100,37,37),
+   return {time:+c.dataset.time,renderer:c.dataset.renderer,foliage:patch(1270,55,100,90),water:[patch(950,300,60,20),patch(920,420,60,18),patch(1090,544,60,20)],cloth:patch(1158,67,59,52),door:patch(1099,79,22,30),
     koi:[...document.querySelectorAll('.zen-koi-position')].map(el=>{const c=el.querySelector('canvas');return {pose:JSON.parse(el.dataset.pose),motion:JSON.parse(c.dataset.motion),hash:hash(c.getContext('2d').getImageData(0,0,c.width,c.height).data)};}),
     cat:(()=>{const c=document.querySelector('.zen-sleeping-cat');return {motion:JSON.parse(c.dataset.motion),hash:hash(c.getContext('2d').getImageData(0,0,c.width,c.height).data)};})(),
     leaves:[...document.querySelectorAll('.zen-lotus')].map(el=>parseFloat(el.style.transform.slice(7))),

@@ -1,4 +1,4 @@
-import { DREAM_CLOUDS,DREAM_BELLY } from './sentence-structure-dream-geometry.mjs?v=20260912-dream1';
+import { DREAM_CLOUDS,DREAM_BELLY } from './sentence-structure-dream-geometry.mjs?v=20260912-garden-normal';
 
 // One complete repaint keeps cloud motion and breathing free of stale silhouettes.
 function livingMask(image){

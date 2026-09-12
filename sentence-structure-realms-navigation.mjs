@@ -1,7 +1,7 @@
 import { shoreIsWalkable } from './sentence-structure-coast-navigation.mjs?v=20260912-sentence2';
-import { ZEN_OFFSET,ZEN_HEIGHT,zenIsWalkable } from './sentence-structure-zen-geometry.mjs?v=20260912-zen1';
+import { ZEN_OFFSET,ZEN_HEIGHT,zenIsWalkable } from './sentence-structure-zen-geometry.mjs?v=20260912-garden-normal';
 
-import { DREAM_OFFSET,DREAM_HEIGHT } from './sentence-structure-dream-geometry.mjs?v=20260912-dream1';
+import { DREAM_OFFSET,DREAM_HEIGHT } from './sentence-structure-dream-geometry.mjs?v=20260912-garden-normal';
 
 export const AUTUMN_OFFSET=1950;
 export const REALM_BOUNDS={left:60,right:1540,top:552,bottom:DREAM_OFFSET+DREAM_HEIGHT-65};
@@ -31,7 +31,7 @@ const WAYPOINTS=[
  [1050,AUTUMN_OFFSET+615],[1050,AUTUMN_OFFSET+985],
  [640,AUTUMN_OFFSET+280],[955,AUTUMN_OFFSET+290],[970,AUTUMN_OFFSET+447],
  [145,3830],[145,4050],
- ...[700,1030,1370,1820,2150].flatMap(y=>[[90,ZEN_OFFSET+y],[1538,ZEN_OFFSET+y]])
+ ...[345,535,720,920,1170].flatMap(y=>[[90,ZEN_OFFSET+y],[1538,ZEN_OFFSET+y]])
 ].map(([x,y])=>({x,y}));
 // Cache only fixed waypoint visibility; endpoints remain validated for every trip.
 let fixedEdges;

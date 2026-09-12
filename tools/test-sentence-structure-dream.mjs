@@ -21,11 +21,13 @@ test('bear breathing and four flags are gentle and continuous',()=>{
 test('the dream has exactly thirty real positions and a freely walkable cloud border',()=>{
  const points=dreamPositions(Array.from({length:30},(_,i)=>({id:'ss'+(i+91)})));
  assert.equal(points.length,30);assert.equal(points[0].id,'ss91');assert.equal(points.at(-1).id,'ss120');
- for(const p of points)assert.ok(p.x>=60&&p.x<=1540&&p.y>DREAM_OFFSET&&p.y<8284-65);
- for(const x of [160,365,800,1390])assert.ok(realmsSegment({x,y:6100},{x,y:6420}));
+ for(const p of points)assert.ok(p.x>=60&&p.x<=1540&&p.y>DREAM_OFFSET&&p.y<7284-65);
+ for(const x of [160,365,800,1390])assert.ok(realmsSegment({x,y:5100},{x,y:5420}));
 });
-test('standard framing fits the painted garden and dream rather than cropping their sides',()=>{
- for(const y of [4615,7300]){const p={x:800,y},w=SENTENCE_REALMS.cameraViewWidth(p),floor=SENTENCE_REALMS.cameraScaleFloor(p);assert.equal(w,3200);assert.equal(minimumMapScale(1408,672,w,8284,floor),.44);}
+test('normal garden framing preserves label scale while dream framing retains its current view',()=>{
+ for(const y of [6300]){const p={x:800,y},w=SENTENCE_REALMS.cameraViewWidth(p),floor=SENTENCE_REALMS.cameraScaleFloor(p);assert.equal(w,3200);assert.equal(minimumMapScale(1408,672,w,7284,floor),.44);}
+ assert.equal(SENTENCE_REALMS.cameraViewWidth({x:800,y:4260}),1600);
+ assert.equal(minimumMapScale(1408,672,1600,7284,.7),.88);
  assert.equal(SENTENCE_REALMS.cameraViewWidth({x:800,y:2600}),1600);
  assert.equal(SENTENCE_REALMS.cameraScaleFloor({x:800,y:2600}),.7);
 });

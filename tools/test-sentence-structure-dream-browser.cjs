@@ -43,7 +43,7 @@ window.coastTest={
  assert.equal(await page.locator('.realm-connector,.zen-connector,.zen-route').count(),0);
  await page.locator('.expression-map-picker select').selectOption('ss61');await page.waitForTimeout(3500);
  const garden=await viewport.evaluate(el=>{const v=el.getBoundingClientRect(),art=document.querySelector('.zen-background').getBoundingClientRect();return {scale:+document.querySelector('[data-sentence-map]').dataset.scale,zoom:+document.querySelector('[data-sentence-map]').dataset.zoom,artVisible:art.left>=v.left-1&&art.right<=v.right+1,lamps:[...document.querySelectorAll('.zen-lamp-glow')].map(l=>{const r=l.getBoundingClientRect();return r.left>=v.left&&r.right<=v.right&&r.top>=v.top&&r.bottom<=v.bottom;})};});
- assert.equal(garden.zoom,1);assert.ok(garden.scale<.5);assert.ok(garden.artVisible,'Standard view includes both painted garden edges');assert.ok(garden.lamps.every(Boolean),'All five lanterns visible at standard garden entry zoom');
+ assert.equal(garden.zoom,1);assert.ok(garden.scale>.8);assert.equal(garden.artVisible,false,'Quiet extended scenery remains outside the normal view');assert.ok(garden.lamps.every(Boolean),'All five lanterns visible at standard garden entry zoom');
  fs.writeFileSync(path.join(out,'garden-standard-framing.json'),JSON.stringify(garden,null,2));await map.screenshot({path:path.join(out,'garden-standard.png')});
  await page.locator('.expression-map-picker select').selectOption('ss91');await page.waitForTimeout(3500);
  await page.waitForFunction(()=>document.querySelector('.dream-toy-train').dataset.poses&&document.querySelector('.dream-living-scenery').dataset.renderer);
@@ -70,7 +70,7 @@ window.coastTest={
  for(let i=0;i<4;i++)assert.ok(distinct(samples.map(s=>s.flags[i]))>30,'Each castle flag sways');
  for(let i=0;i<22;i++)assert.ok(range(samples.map(s=>s.twinkles[i]))>.2);
  for(let i=0;i<6;i++)assert.ok(range(samples.map(s=>s.lamps[i]))>.08);
- await viewport.evaluate(el=>{el.scrollTop=(6150+650)*Number(document.querySelector('[data-sentence-map]').dataset.scale);});await map.screenshot({path:path.join(out,'dream-train-view.png')});
+ await viewport.evaluate(el=>{el.scrollTop=(5150+650)*Number(document.querySelector('[data-sentence-map]').dataset.scale);});await map.screenshot({path:path.join(out,'dream-train-view.png')});
  await page.evaluate(async()=>{
   const {createDreamTrain}=await import('/sentence-structure-dream-motion.mjs');const load=async name=>{const i=new Image();i.src='/assets/sentence-structure/dream/'+name+'.webp';await i.decode();return i;};
   const [bg,atlas]=await Promise.all([load('background'),load('train')]),rig=createDreamTrain(atlas),panel=document.createElement('div');panel.id='train-loop-review';panel.style='position:fixed;inset:0;z-index:99999;background:#302e41;padding:22px;display:grid;grid-template-columns:1fr 1fr;gap:12px;color:#ffefd3;font:16px system-ui';
@@ -80,7 +80,7 @@ window.coastTest={
  await page.evaluate(()=>coastTest.logout());await page.evaluate(()=>coastTest.login('dream-other'));assert.equal(await page.locator('.expression-map-flag').isVisible(),false);
  await page.evaluate(()=>coastTest.logout());await page.evaluate(()=>coastTest.login());await page.locator('.expression-map-lesson-card').waitFor({state:'visible'});assert.equal(await page.locator('[data-map-level="90"]').getAttribute('data-arrived'),'true');
  for(const id of ['ss90','ss91']){await page.locator('.expression-map-picker select').selectOption(id);await page.waitForFunction(index=>document.querySelector(`[data-map-level="${index}"]`).dataset.arrived==='true',+id.slice(2)-1,{timeout:8000});}
- await viewport.evaluate(el=>{el.scrollTop=5920*Number(document.querySelector('[data-sentence-map]').dataset.scale);});await map.screenshot({path:path.join(out,'dream-cloud-border.png')});
+ await viewport.evaluate(el=>{el.scrollTop=4920*Number(document.querySelector('[data-sentence-map]').dataset.scale);});await map.screenshot({path:path.join(out,'dream-cloud-border.png')});
  await page.emulateMedia({reducedMotion:'reduce'});await page.locator('.expression-map-picker select').selectOption('ss120');await page.locator('[data-save-location]').click();assert.equal(await page.locator('.expression-map-flag').getAttribute('data-flag-level'),'ss120');
  await page.locator('[data-map-open]').click();await page.waitForFunction(()=>coastTest.state.lessonId==='ss120'&&!document.querySelector('[data-view=lesson]').hidden);await page.evaluate(()=>coastTest.dashboard());
  assert.equal(await page.locator('.dream-moon').evaluate(el=>getComputedStyle(el).animationName),'none');assert.equal(await page.evaluate(()=>coastTest.state.attempts.length),0);

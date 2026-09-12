@@ -1,4 +1,4 @@
-import { WATER_SHAPES, NORREN } from './sentence-structure-zen-geometry.mjs?v=20260912-zen1';
+import { WATER_SHAPES, NORREN, ART_SIZE } from './sentence-structure-zen-geometry.mjs?v=20260912-garden-normal';
 
 // The living-paint mask separates foliage, water and cloth from the hardscape.
 // The entire scene is redrawn once, so moving foliage leaves no old silhouette.
@@ -9,7 +9,7 @@ function livingMask(image){
  for(let i=0;i<p.length;i+=4){
   const x=(i/4)%c.width,y=Math.floor(i/4/c.width),r=p[i],g=p[i+1],b=p[i+2];
   const green=Math.max(0,Math.min(1,(g-Math.max(r*.96,b*1.1)-1)/22));
-  const maple=((x<460&&y<232)||(x>1170&&y>568))?Math.max(0,Math.min(1,(r-g-30)/60)):0;
+  const maple=((x>400&&x<800&&y<150)||(x>1260&&x<1640&&y>400))?Math.max(0,Math.min(1,(r-g-30)/60)):0;
   p[i]=Math.round(Math.max(green,maple)*255);p[i+1]=0;p[i+2]=0;p[i+3]=255;
  }
  ctx.putImageData(pixels,0,0);ctx.fillStyle='#00ff00';
@@ -22,16 +22,16 @@ void main(){v_uv=vec2(a_position.x*.5+.5,.5-a_position.y*.5);gl_Position=vec4(a_
 const fragment=`precision mediump float;
 uniform sampler2D u_image;uniform sampler2D u_mask;uniform float u_time;uniform float u_motion;varying vec2 v_uv;
 void main(){
- vec3 mask=texture2D(u_mask,v_uv).rgb;vec2 p=v_uv*vec2(1496.,1051.);float t=u_time;
+ vec3 mask=texture2D(u_mask,v_uv).rgb;vec2 p=v_uv*vec2(${ART_SIZE.width.toFixed(1)},${ART_SIZE.height.toFixed(1)});float t=u_time;
  // Trunks/roots and all rock, sand, lantern and building pixels stay anchored.
  float phase=p.x*.011+p.y*.007;
  float wind=sin(t*.87+phase)*1.35+sin(t*.53-p.y*.016)*.52;
  vec2 delta=vec2(wind,sin(t*.67+phase)*.35)*mask.r;
  // Water receives its own slow refraction rather than the foliage oscillation.
  delta+=vec2(sin(t*.48+p.y*.12)*1.6+sin(t*.24+p.x*.028)*.8,cos(t*.43+p.x*.035)*.55)*mask.g;
- float cloth=clamp((p.y-91.)/81.,0.,1.);
+ float cloth=clamp((p.y-${NORREN.top.toFixed(1)})/${NORREN.height.toFixed(1)},0.,1.);
  delta+=vec2(sin(t*.8+cloth*1.9)*2.1*cloth*cloth,sin(t*.65)*.38*cloth)*mask.b;
- vec2 uv=clamp(v_uv+delta*u_motion/vec2(1496.,1051.),vec2(.0001),vec2(.9999));
+ vec2 uv=clamp(v_uv+delta*u_motion/vec2(${ART_SIZE.width.toFixed(1)},${ART_SIZE.height.toFixed(1)}),vec2(.0001),vec2(.9999));
  gl_FragColor=vec4(texture2D(u_image,uv).rgb,1.);
 }`;
 export function createGardenScenery(canvas,image){

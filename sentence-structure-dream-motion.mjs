@@ -1,4 +1,4 @@
-import {DREAM_RAIL} from './sentence-structure-dream-geometry.mjs?v=20260912-dream1';
+import {DREAM_RAIL} from './sentence-structure-dream-geometry.mjs?v=20260912-garden-normal';
 const TAU=Math.PI*2;
 export const dreamBreath=t=>Math.sin(t*TAU/5.8)*.013;
 export function trainPose(t,car=0){const a=t*TAU/DREAM_RAIL.period-car*.235;return {x:DREAM_RAIL.x+Math.cos(a)*DREAM_RAIL.rx,y:DREAM_RAIL.y+Math.sin(a)*DREAM_RAIL.ry,angle:a+Math.PI/2};}

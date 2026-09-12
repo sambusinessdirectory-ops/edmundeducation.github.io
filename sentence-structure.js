@@ -1,7 +1,7 @@
 import { createLessonLibrary } from "./lesson-library.mjs?v=20260908-loading1";
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
 import { createExpressionMap } from "./common-expression-map.mjs?v=20260912-dream1";
-import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260912-dream1";
+import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260912-garden-normal";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260912-dream1";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};

@@ -1,11 +1,11 @@
 import { levelPositions } from './common-expression-map.mjs?v=20260912-dream1';
 import { SENTENCE_COAST, SHORE_LAYOUT } from './sentence-structure-coast.mjs?v=20260912-autumn1';
-import { AUTUMN_OFFSET, realmsPath, realmsStep } from './sentence-structure-realms-navigation.mjs?v=20260912-dream1';
+import { AUTUMN_OFFSET, realmsPath, realmsStep } from './sentence-structure-realms-navigation.mjs?v=20260912-garden-normal';
 import { createAutumnRabbit, rabbitMotion } from './sentence-structure-autumn-rabbit.mjs?v=20260912-autumn1';
-import { ZEN_OFFSET,ZEN_HEIGHT,ZEN_LAYOUT } from './sentence-structure-zen-geometry.mjs?v=20260912-zen1';
-import { zenTerrain,zenOverlay,decorateZenStones,mountZen } from './sentence-structure-zen.mjs?v=20260912-dream1';
-import { DREAM_OFFSET,DREAM_HEIGHT,dreamPositions } from './sentence-structure-dream-geometry.mjs?v=20260912-dream1';
-import { dreamTerrain,decorateDreamStones,mountDream } from './sentence-structure-dream.mjs?v=20260912-dream1';
+import { ZEN_OFFSET,ZEN_HEIGHT,ZEN_LAYOUT } from './sentence-structure-zen-geometry.mjs?v=20260912-garden-normal';
+import { zenTerrain,zenOverlay,decorateZenStones,mountZen } from './sentence-structure-zen.mjs?v=20260912-garden-normal';
+import { DREAM_OFFSET,DREAM_HEIGHT,dreamPositions } from './sentence-structure-dream-geometry.mjs?v=20260912-garden-normal';
+import { dreamTerrain,decorateDreamStones,mountDream } from './sentence-structure-dream.mjs?v=20260912-garden-normal';
 const ART='./assets/sentence-structure/autumn/';
 export const AUTUMN_LAYOUT={startX:160,columnGap:205,rowYs:[520,1010,1250,1490,1710]};
 export function sentenceRealmPositions(lessons){return [
@@ -40,9 +40,9 @@ function terrain(nodes,lessons){
  <div class="realm-cloud-border" aria-hidden="true">${Array.from({length:11},(_,i)=>`<i style="left:${i*290-60}px;top:${i%3*11}px;--duration:${19+i%4*5}s;--delay:${-i*3.4}s;--drift:${i%2?'-': ''}27px"></i>`).join('')}</div>
  <span class="autumn-realm-sign" style="top:${AUTUMN_OFFSET+452}px">31–60 · 秋林漫步</span>
  ${zenTerrain(nodes.slice(60,90),lessons.slice(60,90))}
- <div class="realm-cloud-border zen-cloud-border" style="top:${ZEN_OFFSET-190}px" aria-hidden="true">${Array.from({length:11},(_,i)=>`<i style="left:${i*290-60}px;top:${i%3*11}px;--duration:${23+i%4*5}s;--delay:${-i*3.1}s;--drift:${i%2?'-':''}22px"></i>`).join('')}</div>
+ <div class="realm-cloud-border zen-cloud-border" style="top:${ZEN_OFFSET-130}px" aria-hidden="true">${Array.from({length:11},(_,i)=>`<i style="left:${i*290-60}px;top:${i%3*11}px;--duration:${23+i%4*5}s;--delay:${-i*3.1}s;--drift:${i%2?'-':''}22px"></i>`).join('')}</div>
  ${dreamTerrain()}
- <div class="realm-cloud-border dream-cloud-border" style="top:${DREAM_OFFSET-190}px" aria-hidden="true">${Array.from({length:11},(_,i)=>`<i style="left:${i*290-60}px;top:${i%3*11}px;--duration:${27+i%4*5}s;--delay:${-i*3.3}s;--drift:${i%2?'-':''}19px"></i>`).join('')}</div>`;
+ <div class="realm-cloud-border dream-cloud-border" style="top:${DREAM_OFFSET-45}px" aria-hidden="true">${Array.from({length:11},(_,i)=>`<i style="left:${i*290-60}px;top:${i%3*11}px;--duration:${27+i%4*5}s;--delay:${-i*3.3}s;--drift:${i%2?'-':''}19px"></i>`).join('')}</div>`;
 }
 const overlay=`<div class="autumn-leaves" aria-hidden="true">${Array.from({length:10},(_,i)=>`<span style="left:${4+i*10}%;--duration:${19+i%4*3}s;--delay:${-i*3.8}s;--drift:${i%2?-65:85}px;--spin:${i%2?-230:190}deg;width:${12+i%3*3}px">${leaf(['#b86536','#d49a4e','#a94b33','#c89c58'][i%4])}</span>`).join('')}</div>`;
 function mount(root,reduced){
@@ -70,6 +70,6 @@ function mount(root,reduced){
 export const SENTENCE_REALMS=Object.freeze({
  id:'sentence-shore',title:'海岸・秋林・庭園・星夢之旅',kicker:'THE SENTENCE JOURNEY',width:1600,height:DREAM_OFFSET+DREAM_HEIGHT,
  cameraPadding:{left:800,right:800},minimumZoom:.5,positions:sentenceRealmPositions,terrain,mount,overlay:overlay+zenOverlay,
- cameraViewWidth:point=>point.y>=ZEN_OFFSET?3200:1600,cameraScaleFloor:point=>point.y>=ZEN_OFFSET?.3:.7,
- navigation:{path:realmsPath,step:realmsStep},cameraTop:({point,scale,height,zoom})=>zoom===1&&height>=600?(point.y<625?0:point.y>=DREAM_OFFSET&&point.y<DREAM_OFFSET+1150?(DREAM_OFFSET+45)*scale:point.y>=ZEN_OFFSET&&point.y<ZEN_OFFSET+800?(ZEN_OFFSET+15)*scale:point.y*scale-height*.4):point.y*scale-height*.4
+ cameraViewWidth:point=>point.y>=DREAM_OFFSET?3200:1600,cameraScaleFloor:point=>point.y>=DREAM_OFFSET?.3:.7,
+ navigation:{path:realmsPath,step:realmsStep},cameraTop:({point,scale,height,zoom})=>zoom===1&&height>=600?(point.y<625?0:point.y>=DREAM_OFFSET&&point.y<DREAM_OFFSET+1150?(DREAM_OFFSET+45)*scale:point.y>=ZEN_OFFSET&&point.y<ZEN_OFFSET+430?(ZEN_OFFSET+15)*scale:point.y*scale-height*.4):point.y*scale-height*.4
 });

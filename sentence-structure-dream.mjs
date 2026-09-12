@@ -1,6 +1,6 @@
-import {DREAM_OFFSET,DREAM_HEIGHT,DREAM_STARS,DREAM_FLAGS,DREAM_MOON,DREAM_RAIL,dreamPoint} from './sentence-structure-dream-geometry.mjs?v=20260912-dream1';
-import {createDreamTrain,flagShape,dreamBreath} from './sentence-structure-dream-motion.mjs?v=20260912-dream1';
-import {createDreamScenery} from './sentence-structure-dream-scenery.mjs?v=20260912-dream1';
+import {DREAM_OFFSET,DREAM_HEIGHT,DREAM_STARS,DREAM_FLAGS,DREAM_MOON,DREAM_RAIL,dreamPoint} from './sentence-structure-dream-geometry.mjs?v=20260912-garden-normal';
+import {createDreamTrain,flagShape,dreamBreath} from './sentence-structure-dream-motion.mjs?v=20260912-garden-normal';
+import {createDreamScenery} from './sentence-structure-dream-scenery.mjs?v=20260912-garden-normal';
 const ART='./assets/sentence-structure/dream/';
 const worldSize=n=>n*3200/1536;
 export function dreamTerrain(){

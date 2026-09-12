@@ -20,7 +20,7 @@ Masters and local QA artifacts: `/Users/sammak/Documents/ChatGPT/Astra/outputs/s
 - The exposed bear belly breathes over 5.8 seconds with a 1.3% deformation envelope.
 - Twenty-two tiny distant points twinkle at staggered intervals.
 - Motion uses the existing map animation lifecycle, pauses with the map, and respects reduced motion.
-- Garden and dream standard framing use the complete 3200-unit painted width. At garden entry on desktop, both maple edges and all five lanterns are visible. Other maps retain their previous camera defaults.
+- Dream standard framing uses the complete 3200-unit painted width. Garden framing was subsequently corrected: its full composition fits inside the normal 1600-unit map, with quiet scenery outside it. See `../zen/NORMAL-VIEW.md`.
 - A third soft cloud boundary separates lessons 90 and 91. It is freely walkable. No connecting road strips were added.
 
 ## Lesson behavior
