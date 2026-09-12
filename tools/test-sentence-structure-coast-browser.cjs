@@ -49,13 +49,13 @@ window.coastTest={
  assert.ok(alpha.wildlife.slice(1).every(a=>a>240),'Grey and white feather details remain opaque');
  const map=page.locator('[data-sentence-map]'),viewport=page.locator('.expression-map-viewport');
  await map.scrollIntoViewIfNeeded();await viewport.focus();await page.waitForTimeout(800);
- assert.equal(await page.locator('.expression-map-stone').count(),60);
- assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),285);
+ assert.equal(await page.locator('.expression-map-stone').count(),90);
+ assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),255);
  assert.equal(await page.locator('[data-lesson-choice-grid]').isVisible(),false);
  assert.equal(await page.locator('[data-sentence-remaining]').isVisible(),true);
  assert.equal(await page.locator('[data-zoom=out]').isDisabled(),false);
  assert.equal(await page.locator('[data-character=eddy]').getAttribute('aria-pressed'),'true');
- assert.deepEqual(await page.locator('[data-milestone]').evaluateAll(nodes=>nodes.map(n=>n.dataset.milestone)),['10','20','30','40','50','60']);
+ assert.deepEqual(await page.locator('[data-milestone]').evaluateAll(nodes=>nodes.map(n=>n.dataset.milestone)),['10','20','30','40','50','60','70','80','90']);
  await map.screenshot({path:path.join(out,'sentence-coast-initial.png')});
  // Review actual raster frames, not merely animation state attributes.
  await page.evaluate(async()=>{
@@ -114,9 +114,9 @@ window.coastTest={
  await page.locator('[data-sentence-map-toggle]').click();
  assert.equal(await page.locator('[data-lesson-choice-grid]').isVisible(),true);
  assert.equal(await page.locator('[data-remaining-lesson-grid]').isVisible(),true);
- await page.locator('[data-remaining-lesson-grid] [data-open-lesson="ss61"]').click();
- await page.waitForFunction(()=>coastTest.state.lessonId==='ss61'&&!document.querySelector('[data-view="lesson"]').hidden&&document.querySelector('[data-lesson-title]').textContent.includes('choice'));
- assert.equal(await page.evaluate(()=>coastTest.state.lessonId),'ss61');
+ await page.locator('[data-remaining-lesson-grid] [data-open-lesson="ss91"]').click();
+ await page.waitForFunction(()=>coastTest.state.lessonId==='ss91'&&!document.querySelector('[data-view="lesson"]').hidden&&document.querySelector('[data-lesson-title]').textContent.includes('Superlative'));
+ assert.equal(await page.evaluate(()=>coastTest.state.lessonId),'ss91');
  await page.evaluate(()=>coastTest.dashboard());await page.locator('[data-sentence-map-toggle]').click();
  await page.evaluate(()=>{coastTest.logout();});await page.evaluate(()=>coastTest.login('coast-fixture-b'));
  assert.equal(await page.locator('[data-character=eddy]').getAttribute('aria-pressed'),'true');
@@ -127,7 +127,7 @@ window.coastTest={
  assert.equal(await page.locator('[data-character=elsie]').getAttribute('aria-pressed'),'true');
  // Reduced motion is also used to verify every real lesson link without waiting for journeys.
  await page.emulateMedia({reducedMotion:'reduce'});
- for(let i=1;i<=60;i++){
+ for(let i=1;i<=90;i++){
   await page.locator('.expression-map-picker select').selectOption('ss'+i);
   await page.locator('[data-map-open]').click();
   await page.waitForFunction(id=>coastTest.state.lessonId===id&&!document.querySelector('[data-view="lesson"]').hidden,'ss'+i);
@@ -175,5 +175,5 @@ window.coastTest={
  }
  await page.locator('[data-sentence-map-toggle]').click();assert.equal(await map.getAttribute('data-animating'),'false');
  assert.deepEqual(errors,[]);
- console.log('PASS: first-60 map, 285 later lessons, all lesson links, progress, pins, account isolation, motion, reduced motion, zoom and responsive views');
+ console.log('PASS: first-90 map, 255 later lessons, all lesson links, progress, pins, account isolation, motion, reduced motion, zoom and responsive views');
 })().catch(error=>{console.error(error);process.exitCode=1;}).finally(async()=>{await browser?.close();server.close();});

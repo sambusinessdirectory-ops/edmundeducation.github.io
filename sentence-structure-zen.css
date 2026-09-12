@@ -1,0 +1,47 @@
+.sentence-zen-realm {position:absolute;left:0;width:1600px;height:2250px;pointer-events:none;}
+.zen-background,.zen-living-scenery,.zen-pond-effects {position:absolute;left:-800px;top:0;width:3200px;height:2250px;max-width:none;pointer-events:none;}
+.zen-background {object-fit:fill;}
+.zen-living-scenery {opacity:1;}
+.zen-route {position:absolute;inset:0;width:1600px;height:2250px;pointer-events:none;}
+.zen-connector {position:absolute;inset:0;width:1600px;height:6150px;pointer-events:none;}
+.zen-current {fill:none;stroke:#e4f1e4;stroke-width:.9;stroke-linecap:round;stroke-dasharray:13 112 8 81;opacity:.28;animation:zen-current var(--duration) linear var(--delay) infinite;}
+.zen-ripple {fill:none;stroke:#e5f2e8;stroke-width:.6;opacity:0;transform-box:fill-box;transform-origin:center;animation:zen-ripple 11s ease-out var(--delay) infinite;}
+.zen-lamp-glow {position:absolute;border-radius:50%;background:radial-gradient(circle,#ffe3a9aa 0%,#ffca7157 24%,#ffd1801a 48%,transparent 72%);filter:blur(2px);mix-blend-mode:screen;animation:zen-lamp var(--duration) ease-in-out var(--delay) infinite alternate;}
+.zen-koi-position,.zen-koi-heading {position:absolute;left:0;top:0;width:0;height:0;transform-origin:0 0;}
+.zen-koi-water-layer {position:absolute;left:-800px;top:0;width:3200px;height:2250px;pointer-events:none;}
+.zen-koi-heading canvas {position:absolute;left:0;top:0;transform:translate(-50%,-50%);opacity:.88;}
+.zen-lotus-position {position:absolute;transform:translate(-50%,-50%) scaleY(.58);transform-origin:center;filter:drop-shadow(0 3px 2px #153d3533);}
+.zen-lotus {display:block;width:100%;height:100%;transform-origin:center;}
+.zen-door-steam {position:absolute;width:80px;height:100px;}
+.zen-door-steam i {position:absolute;bottom:0;left:30px;width:29px;height:40px;background:radial-gradient(ellipse,#fffef575,transparent 67%);border-radius:50%;filter:blur(5px);opacity:0;animation:zen-steam 11s ease-out var(--delay) infinite;}
+.zen-sleeping-cat {position:absolute;}
+.zen-cat-shadow {position:absolute;border-radius:50%;background:#493c2d35;filter:blur(3px);}
+.zen-stone-art {position:absolute;left:9px;top:-12px;width:162px;height:84px;pointer-events:none;overflow:visible;filter:drop-shadow(0 5px 3px #3c44374d);}
+[data-theme="sentence-shore"] .expression-map-stone[data-zen] .expression-map-stone-number {top:2px;color:#344d42;text-shadow:0 1px #fff8e8;}
+[data-theme="sentence-shore"] .expression-map-stone[data-zen] .expression-map-stone-caption {top:82px;border:1px solid #b6b7a2;border-radius:8px;background:linear-gradient(125deg,#fffdf0f5,#eee9d6f5);color:#33493f;}
+[data-theme="sentence-shore"] .expression-map-stone[data-zen] .expression-map-stone-status {top:47px;right:7px;background:#faf8e7;border-color:#b4b59a;color:#345146;}
+[data-theme="sentence-shore"] .expression-map-stone[data-zen][data-complete=true] .expression-map-stone-status {background:#677848;color:white;}
+.expression-map-stone[data-zen][aria-pressed=true] .zen-stone-art {filter:drop-shadow(0 0 4px #fffce7) drop-shadow(0 0 6px #f6e8bd);}
+.expression-map-stone[data-zen]:hover .zen-stone-art {filter:brightness(1.04) drop-shadow(0 5px 3px #3c44374d);}
+.expression-map-stone[data-zen][data-arrived=true] .zen-stone-art {animation:expression-stone-land 380ms ease-out;}
+.zen-milestone {position:absolute;width:47px;height:96px;border-left:4px solid #899366;border-right:3px solid #68784c;border-radius:4px;}
+.zen-milestone::before,.zen-milestone::after {content:"";position:absolute;left:-5px;right:-4px;height:4px;background:#b6b883;border-radius:2px;}
+.zen-milestone::before {top:54px;}.zen-milestone::after {top:83px;}
+.zen-milestone span {display:block;position:relative;left:-5px;width:51px;line-height:35px;border:1px solid #87966c;border-radius:5px;background:#ebebd6;color:#3c5142;text-align:center;font:700 20px/35px Georgia,serif;box-shadow:0 3px 0 #66734c;}
+.zen-realm-sign {position:absolute;left:523px;color:#f6f2df;background:#52634be8;border:1px solid #8c9970;border-radius:18px;padding:6px 19px;font-size:15px;font-weight:650;letter-spacing:.08em;pointer-events:none;}
+.zen-falling-leaves {position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:3;opacity:0;}
+.zen-falling-leaves>span {position:absolute;top:-30px;height:24px;opacity:0;animation:zen-leaf-fall var(--duration) linear var(--delay) infinite;}
+.zen-falling-leaves svg {width:100%;height:100%;}
+.zen-flag-emblem {display:none;}
+.expression-map-flag.is-zen .zen-flag-emblem {display:block;}
+.expression-map-flag.is-zen .shore-pennant>path:nth-child(2) {display:none;}
+[data-current-realm="zen"] .expression-map-lesson-card {background:linear-gradient(125deg,#fffced,#e8ebd8);border-color:#a2ad88;}
+[data-current-realm="zen"] .expression-map-lesson-card::before {background:#fffced;border-color:#a2ad88;}
+[data-current-realm="zen"] .expression-map-selected h3 {color:#344c40;}
+[data-current-realm="zen"] .expression-map-open,[data-current-realm="zen"] .expression-map-selected-number {background:#51654c;border-color:#3c513b;box-shadow:0 4px 0 #34452f;}
+@keyframes zen-current {to{stroke-dashoffset:-214;}}
+@keyframes zen-ripple {0%{opacity:0;transform:scale(.4);}30%{opacity:.35;}100%{opacity:0;transform:scale(2.5);}}
+@keyframes zen-lamp {from{opacity:.58;transform:scale(.95);}to{opacity:.92;transform:scale(1.05);}}
+@keyframes zen-steam {0%{opacity:0;transform:translate(0,10px) scale(.5);}25%{opacity:.3;}60%{opacity:.2;}100%{opacity:0;transform:translate(var(--drift),-60px) scale(2);}}
+@keyframes zen-leaf-fall {0%{opacity:0;transform:translate(0,-30px) rotate(0);}9%{opacity:.6;}85%{opacity:.52;}100%{opacity:0;transform:translate(var(--drift),850px) rotate(var(--spin));}}
+@media(prefers-reduced-motion:reduce){.zen-falling-leaves,.zen-door-steam{display:none;}}

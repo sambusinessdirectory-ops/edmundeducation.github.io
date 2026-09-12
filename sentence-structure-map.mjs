@@ -1,5 +1,5 @@
 // Adapt the public catalogue to the shared map without loading lesson exercises.
-export const SENTENCE_MAP_LIMIT = 60;
+export const SENTENCE_MAP_LIMIT = 90;
 const LABELS = [
   'to + verb', 'Adjective + noun', 'Adjective + to-infinitive', 'Although',
   'While · concession', 'Despite', 'Whereas', 'From X to Y', 'Between A and B',
@@ -17,7 +17,16 @@ const LABELS = [
   'Something + adjective', 'Somewhere + adjective', 'Anywhere + adjective',
   'Someone + adjective', 'In order to', 'So that · purpose', 'Gerund as subject',
   'Verb + to-infinitive', 'Verb + bare infinitive', 'Verb + gerund',
-  'As long as', 'So long as'
+  'As long as', 'So long as',
+  'Have no choice but to', 'If only', 'Only if', 'Be about to',
+  'It’s time to', 'It’s time + past tense', 'Used to', 'Be used to',
+  'Nonetheless / Nevertheless', 'Would rather', 'Wish + past tense',
+  'Too + adjective + to', 'So + adjective + that', 'Let alone',
+  'Not to mention', 'As if / As though', 'Why not … if …?', 'By itself',
+  'Double negatives', '… is that …', 'So as to', 'Granted … However …',
+  'Whenever / Whatever / Whoever', 'Enough + to', 'The more … the more …',
+  'Negative questions', 'Rhetorical questions', 'Verb + more / less than',
+  'Adverb comparatives', 'Comparative sentences'
 ];
 export function sentenceMapLessons(lessons) {
   return lessons.slice(0, SENTENCE_MAP_LIMIT).map((lesson, index) => ({

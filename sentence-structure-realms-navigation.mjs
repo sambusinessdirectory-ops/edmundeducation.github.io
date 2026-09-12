@@ -1,7 +1,8 @@
 import { shoreIsWalkable } from './sentence-structure-coast-navigation.mjs?v=20260912-sentence2';
+import { ZEN_OFFSET,ZEN_HEIGHT,zenIsWalkable } from './sentence-structure-zen-geometry.mjs?v=20260912-zen1';
 
 export const AUTUMN_OFFSET=1950;
-export const REALM_BOUNDS={left:60,right:1540,top:552,bottom:3770};
+export const REALM_BOUNDS={left:60,right:1540,top:552,bottom:ZEN_OFFSET+ZEN_HEIGHT-100};
 // Hoof-space, traced in the autumn painting's central 1600 × 1950 region.
 export const AUTUMN_RIVER=[[0,703],[340,714],[690,725],[880,730],[1200,743],[1600,743],[1600,915],[1250,922],[900,916],[570,904],[300,891],[0,875]];
 export const AUTUMN_BROOK=[[675,298],[753,299],[815,339],[932,371],[918,421],[811,415],[755,374],[689,351]];
@@ -13,6 +14,7 @@ export function realmsIsWalkable(p){
  const b=REALM_BOUNDS;if(!Number.isFinite(p?.x)||!Number.isFinite(p?.y)||p.x<b.left||p.x>b.right||p.y<b.top||p.y>b.bottom)return false;
  if(p.y<=1790)return shoreIsWalkable(p);
  if(p.y<AUTUMN_OFFSET)return true; // Cloud border is deliberately penetrable.
+ if(p.y>=ZEN_OFFSET)return zenIsWalkable({x:p.x,y:p.y-ZEN_OFFSET});
  const q={x:p.x,y:p.y-AUTUMN_OFFSET};
  if(AUTUMN_BRIDGES.some(b=>q.x>=b.left&&q.x<=b.right&&q.y>=b.top&&q.y<=b.bottom))return true;
  return !inside(q,AUTUMN_RIVER)&&!inside(q,AUTUMN_BROOK);
@@ -24,7 +26,9 @@ const WAYPOINTS=[
  [160,1820],[160,2060],[160,2400],[1050,2390],
  [159,AUTUMN_OFFSET+615],[159,AUTUMN_OFFSET+977],
  [1050,AUTUMN_OFFSET+615],[1050,AUTUMN_OFFSET+985],
- [640,AUTUMN_OFFSET+280],[955,AUTUMN_OFFSET+290],[970,AUTUMN_OFFSET+447]
+ [640,AUTUMN_OFFSET+280],[955,AUTUMN_OFFSET+290],[970,AUTUMN_OFFSET+447],
+ [145,3830],[145,4050],
+ ...[700,1030,1370,1820,2150].flatMap(y=>[[90,ZEN_OFFSET+y],[1538,ZEN_OFFSET+y]])
 ].map(([x,y])=>({x,y}));
 // Cache only fixed waypoint visibility; endpoints remain validated for every trip.
 let fixedEdges;
