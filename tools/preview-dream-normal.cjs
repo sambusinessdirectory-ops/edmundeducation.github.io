@@ -36,10 +36,10 @@ window.coastTest={
 
  const map=page.locator('[data-sentence-map]'),viewport=page.locator('.expression-map-viewport');
  await map.scrollIntoViewIfNeeded();await viewport.focus();
- assert.equal(await page.locator('.expression-map-stone').count(),120);
+ assert.equal(await page.locator('.expression-map-stone').count(),150);
  assert.equal(await page.locator('.expression-map-stone[data-zen]').count(),30);
  assert.equal(await page.locator('.expression-map-stone[data-dream]').count(),30);
- assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),225);
+ assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),195);
  assert.equal(await page.locator('.realm-connector,.zen-connector,.zen-route').count(),0);
  await page.locator('.expression-map-picker select').selectOption('ss61');await page.waitForTimeout(3500);
  const garden=await viewport.evaluate(el=>{const v=el.getBoundingClientRect(),art=document.querySelector('.zen-background').getBoundingClientRect();return {scale:+document.querySelector('[data-sentence-map]').dataset.scale,zoom:+document.querySelector('[data-sentence-map]').dataset.zoom,artVisible:art.left>=v.left-1&&art.right<=v.right+1,lamps:[...document.querySelectorAll('.zen-lamp-glow')].map(l=>{const r=l.getBoundingClientRect();return r.left>=v.left&&r.right<=v.right&&r.top>=v.top&&r.bottom<=v.bottom;})};});

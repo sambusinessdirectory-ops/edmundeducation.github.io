@@ -1,10 +1,11 @@
+import {TOY_OFFSET,TOY_HEIGHT} from './sentence-structure-toy-geometry.mjs?v=20260912-toy1';
 import { shoreIsWalkable } from './sentence-structure-coast-navigation.mjs?v=20260912-sentence2';
 import { ZEN_OFFSET,ZEN_HEIGHT,zenIsWalkable } from './sentence-structure-zen-geometry.mjs?v=20260912-garden-normal';
 
 import { DREAM_OFFSET,DREAM_HEIGHT } from './sentence-structure-dream-geometry.mjs?v=20260912-dream-normal';
 
 export const AUTUMN_OFFSET=1950;
-export const REALM_BOUNDS={left:60,right:1540,top:552,bottom:DREAM_OFFSET+DREAM_HEIGHT-65};
+export const REALM_BOUNDS={left:60,right:1540,top:552,bottom:TOY_OFFSET+TOY_HEIGHT-65};
 // Hoof-space, traced in the autumn painting's central 1600 × 1950 region.
 export const AUTUMN_RIVER=[[0,703],[340,714],[690,725],[880,730],[1200,743],[1600,743],[1600,915],[1250,922],[900,916],[570,904],[300,891],[0,875]];
 export const AUTUMN_BROOK=[[675,298],[753,299],[815,339],[932,371],[918,421],[811,415],[755,374],[689,351]];

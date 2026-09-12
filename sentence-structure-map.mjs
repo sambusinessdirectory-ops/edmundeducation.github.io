@@ -1,5 +1,5 @@
 // Adapt the public catalogue to the shared map without loading lesson exercises.
-export const SENTENCE_MAP_LIMIT = 120;
+export const SENTENCE_MAP_LIMIT = 150;
 const LABELS = [
   'to + verb', 'Adjective + noun', 'Adjective + to-infinitive', 'Although',
   'While · concession', 'Despite', 'Whereas', 'From X to Y', 'Between A and B',
@@ -36,7 +36,14 @@ const LABELS = [
   'Not only … but also …', 'The former / The latter', 'As such',
   'Such that', 'Such … that …', 'So much so that', 'Not so much A as B',
   'Far from + adjective', 'Once', 'By the time', 'The moment / The minute',
-  'Now that', 'Reduced adverb clauses'
+  'Now that', 'Reduced adverb clauses',
+  'Parenthetical adverbs', 'So / Neither / Nor + auxiliary', 'Too / Either · ellipsis',
+  'Per se', 'Negative fronting', 'Somehow', 'Somewhat', 'Insofar as',
+  'In the sense that', 'In that', 'In that sense', 'The fact that',
+  'The idea that', 'Imperatives', 'What + noun · exclamations', 'Especially',
+  'Based on', 'According to', 'More importantly', 'Put simply',
+  'In other words', 'That said', 'WH + to-infinitive', 'Second conditional',
+  'If + were to', 'Which · result', 'V-ing · result', 'Thereby', 'Thereafter', 'All-cleft'
 ];
 export function sentenceMapLessons(lessons) {
   return lessons.slice(0, SENTENCE_MAP_LIMIT).map((lesson, index) => ({

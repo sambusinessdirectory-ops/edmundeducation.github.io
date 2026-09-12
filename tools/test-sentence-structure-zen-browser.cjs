@@ -36,8 +36,8 @@ window.coastTest={
 
  const map=page.locator('[data-sentence-map]'),viewport=page.locator('.expression-map-viewport');
  await map.scrollIntoViewIfNeeded();await viewport.focus();
- assert.equal(await page.locator('.expression-map-stone').count(),120);
- assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),225);
+ assert.equal(await page.locator('.expression-map-stone').count(),150);
+ assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),195);
  assert.equal(await page.locator('.realm-connector,.zen-connector,.zen-route').count(),0,'Unrequested connecting strips are removed');
  assert.equal(await page.locator('.realm-cloud-border').count(),3);
  assert.ok(await page.locator('.realm-cloud-border i').first().evaluate(el=>parseFloat(getComputedStyle(el).filter.match(/blur\(([^p]+)/)[1])>=40),'Realm clouds have broad soft blur');
@@ -121,5 +121,5 @@ window.coastTest={
   await map.screenshot({path:path.join(out,`zen-${name}-overview.png`)});
  }
  await page.locator('[data-sentence-map-toggle]').click();assert.equal(await map.getAttribute('data-animating'),'false');
- assert.deepEqual(errors,[]);console.log('PASS: 120-level map, all garden motion, koi blinks and turns, stationary cat, saved flags, realm travel, reduced motion and responsive overview');
+ assert.deepEqual(errors,[]);console.log('PASS: 150-level map, all garden motion, koi blinks and turns, stationary cat, saved flags, realm travel, reduced motion and responsive overview');
 })().catch(error=>{console.error(error);process.exitCode=1;}).finally(async()=>{await browser?.close();server.close();});

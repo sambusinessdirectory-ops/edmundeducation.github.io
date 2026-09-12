@@ -36,5 +36,5 @@ test('the winding trail has separated readable stops and no repeated row grid',(
  assert.equal(new Set(DREAM_TRAIL.map(p=>p[1])).size,30);
  assert.equal(dreamTrailPath().match(/C/g).length,29);
  for(let i=0;i<30;i++)for(let j=i+1;j<30;j++){const a=DREAM_TRAIL[i],b=DREAM_TRAIL[j];assert.ok(Math.abs(a[0]-b[0])>=185||Math.abs(a[1]-b[1])>=155,`Stop ${91+i} and ${91+j} need room for labels`);}
- assert.equal(SENTENCE_REALMS.height,DREAM_OFFSET+DREAM_HEIGHT);
+ assert.ok(SENTENCE_REALMS.height>=DREAM_OFFSET+DREAM_HEIGHT);
 });

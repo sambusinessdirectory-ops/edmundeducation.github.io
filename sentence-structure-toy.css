@@ -1,0 +1,22 @@
+.sentence-toy-realm {position:absolute;left:0;width:1600px;pointer-events:none;}
+.toy-background {position:absolute;left:-800px;top:0;width:3200px;height:1850px;max-width:none;}
+.toy-path,.toy-effects {position:absolute;left:0;top:0;width:1600px;height:1850px;max-width:none;pointer-events:none;}
+.toy-path path {fill:none;stroke-linejoin:round;stroke-linecap:round;}
+.toy-path-shadow {stroke:#634a3659;stroke-width:54;transform:translateY(6px);filter:url(#toy-path-shadow);}
+.toy-path-edge {stroke:#b0804e;stroke-width:50;}
+.toy-path-wood {stroke:#e6bc83;stroke-width:42;}
+.toy-path-joins {stroke:#ae7f4e;stroke-width:42;stroke-dasharray:1.2 39;opacity:.35;}
+.toy-dog {position:absolute;width:330px;height:300px;pointer-events:none;}
+.toy-dog-shadow {position:absolute;width:218px;height:32px;border-radius:50%;background:#58483c;opacity:.23;filter:blur(8px);}
+.toy-realm-sign {position:absolute;padding:6px 15px;border-radius:15px;background:#6d5139df;border:1px solid #f4d7a86b;color:#fff4dc;font-size:15px;letter-spacing:.05em;}
+.toy-level-block {position:absolute;left:0;top:-16px;width:180px;height:100px;overflow:visible;}
+[data-theme="sentence-shore"] .expression-map-stone[data-toy] .expression-map-stone-number {top:9px;color:#534535;text-shadow:0 1px #fff9de;}
+[data-theme="sentence-shore"] .expression-map-stone[data-toy] .expression-map-stone-caption {top:88px;background:#fff6ddf7;color:#504837;border-color:#d0b485;border-radius:9px;}
+[data-theme="sentence-shore"] .expression-map-stone[data-toy] .expression-map-stone-status {top:52px;right:5px;background:#fff4d9;color:#4f6455;border-color:#d0b485;}
+[data-theme="sentence-shore"] .expression-map-stone[data-toy][data-complete=true] .expression-map-stone-status {background:#708052;color:#fff9e3;}
+.expression-map-stone[data-toy][aria-pressed=true] .toy-level-block {filter:drop-shadow(0 0 7px #fff4ca);}
+.expression-map-stone[data-toy]:hover .toy-level-block {filter:brightness(1.07);}
+.toy-flag-emblem {display:none;}.expression-map-flag.is-toy .toy-flag-emblem {display:block;}.expression-map-flag.is-toy .shore-pennant>path:nth-child(2) {display:none;}
+[data-current-realm="toy"] .expression-map-lesson-card {background:linear-gradient(125deg,#fff6df,#e9eee0);border-color:#b5aa86;}
+[data-current-realm="toy"] .expression-map-open,[data-current-realm="toy"] .expression-map-selected-number {background:#7b5636;border-color:#68482f;box-shadow:0 4px 0 #483221;}
+.toy-cloud-border {height:170px;}.toy-cloud-border i {height:170px;}

@@ -9,15 +9,15 @@ import {realmsPath,realmsSegment,realmsStep,realmsIsWalkable} from '../sentence-
 import {rabbitMotion} from '../sentence-structure-autumn-rabbit.mjs';
 const catalogue=JSON.parse(readFileSync(new URL('../assets/sentence-structure/library/manifest.json',import.meta.url))).lessons;
 const lessons=sentenceMapLessons(catalogue),nodes=sentenceRealmPositions(lessons);
-test('120 real levels preserve coastal coordinates, labels and single-pin storage',()=>{
- assert.equal(lessons.length,120);assert.equal(catalogue.slice(120).length,225);assert.equal(lessons.at(-1).id,'ss120');
+test('150 real levels preserve coastal coordinates, labels and single-pin storage',()=>{
+ assert.equal(lessons.length,150);assert.equal(catalogue.slice(150).length,195);assert.equal(lessons.at(-1).id,'ss150');
  assert.ok(lessons.every(l=>l.titleEn&&l.mapLabel));
  assert.deepEqual(nodes.slice(0,30),levelPositions(lessons.slice(0,30),SHORE_LAYOUT));
  assert.equal(restoreMapPreferences({pinned:'ss30',character:'elsie'},null,lessons.map(l=>l.id)).pinned,'ss30');
  assert.equal(restoreMapPreferences({pinned:'ss60'},null,lessons.map(l=>l.id)).pinned,'ss60');
- assert.equal(restoreMapPreferences({pinned:'ss121'},null,lessons.map(l=>l.id)).pinned,null);
+ assert.equal(restoreMapPreferences({pinned:'ss151'},null,lessons.map(l=>l.id)).pinned,null);
 });
-test('all 14400 ordered routes stay on dry land or a real bridge',()=>{
+test('all 22500 ordered routes stay on dry land or a real bridge',()=>{
  for(const a of nodes)for(const b of nodes){const route=realmsPath(a,b);assert.ok(route,`${a.id} to ${b.id}`);let prev=a;for(const p of route){assert.ok(realmsSegment(prev,p));prev=p;}assert.deepEqual({x:prev.x,y:prev.y},{x:b.x,y:b.y});}
 });
 test('mist border is penetrable while both rivers still block clicks and keyboard travel',()=>{
@@ -31,7 +31,7 @@ test('rabbit ears and eyelids move continuously around a fixed resting body',()=
  assert.ok(rabbitMotion(1.67).blink>.99);assert.ok(frames.some(f=>Math.abs(f.left)>.07));assert.ok(frames.some(f=>Math.abs(f.right)>.07));
  for(let i=1;i<frames.length;i++)for(const k of ['left','right','rock','blink'])assert.ok(Math.abs(frames[i][k]-frames[i-1][k])<.3,k+' has no pose jump');
 });
-test('all four realms retain full painted overview coverage',()=>{
- assert.equal(SENTENCE_REALMS.width,1600);assert.equal(SENTENCE_REALMS.height,7000);assert.equal(SENTENCE_REALMS.minimumZoom,.5);assert.deepEqual(SENTENCE_REALMS.cameraPadding,{left:800,right:800});
+test('all five realms retain full painted overview coverage',()=>{
+ assert.equal(SENTENCE_REALMS.width,1600);assert.equal(SENTENCE_REALMS.height,8850);assert.equal(SENTENCE_REALMS.minimumZoom,.5);assert.deepEqual(SENTENCE_REALMS.cameraPadding,{left:800,right:800});
  assert.equal(realmsIsWalkable({x:-300,y:2500}),false);assert.ok(realmsIsWalkable(nodes.at(-1)));
 });

@@ -16,13 +16,13 @@ export function dreamTerrain(){
  ${Array.from({length:32},(_,i)=>{const x=80+(i*173)%1430,y=215+(i*47)%255;return `<i class="dream-twinkle ${i%4===0?'dream-twinkle-cross':''}" style="left:${x}px;top:${y}px;--duration:${2.7+i%5*.44}s;--delay:${-i*.61}s;width:${i%4===0?6:3+i%3*.6}px;height:${i%4===0?6:3+i%3*.6}px"></i>`;}).join('')}
  <span class="dream-realm-sign" style="left:30px;top:600px">91–120 · 枕間星夢</span></div>`;
 }
-export function decorateDreamStones(root){root.querySelectorAll('.expression-map-stone').forEach((stone,i)=>{if(i<90)return;stone.dataset.dream='true';stone.insertAdjacentHTML('afterbegin',`<span class="dream-level-shadow"></span><img class="dream-level-cushion" src="${ART}cushion.webp" alt="" aria-hidden="true">`);});}
+export function decorateDreamStones(root){root.querySelectorAll('.expression-map-stone').forEach((stone,i)=>{if(i<90||i>=120)return;stone.dataset.dream='true';stone.insertAdjacentHTML('afterbegin',`<span class="dream-level-shadow"></span><img class="dream-level-cushion" src="${ART}cushion.webp" alt="" aria-hidden="true">`);});}
 export function mountDream(root,reduced){
  let disposed=false,elapsed=0,last=0,lastPaint=-Infinity,scenery;
  const viewport=root.querySelector('.expression-map-viewport'),canvas=root.querySelector('.dream-living-scenery'),train=root.querySelector('.dream-toy-train');
  const flags=[...root.querySelectorAll('.dream-castle-flag path')],images=[],trainRig=createDreamTrain(train);
  const flag=root.querySelector('.expression-map-flag');flag.insertAdjacentHTML('beforeend','<path class="dream-flag-emblem" d="m31 16 3 7 8 1-6 5 2 8-7-4-7 4 2-8-6-5 8-1z" fill="#fff6cb"/>');
- function update(){flag.classList.toggle('is-dream',Number(flag.dataset.flagLevel?.slice(2))>90);}
+ function update(){flag.classList.toggle('is-dream',Number(flag.dataset.flagLevel?.slice(2))>90&&Number(flag.dataset.flagLevel?.slice(2))<=120);}
  function paint(force=false){const t=reduced.matches?0:elapsed;if(force||t-lastPaint>=1/30||reduced.matches){scenery?.paint(t,reduced.matches);trainRig.paint(t);flags.forEach((el,i)=>el.setAttribute('d',flagShape(t,i,DREAM_FLAGS[i][2],DREAM_FLAGS[i][3])));canvas.dataset.breath=String(dreamBreath(t));lastPaint=t;}update();}
  const img=new Image();images.push(img);img.onload=()=>{if(!disposed){scenery=createDreamScenery(canvas,img);paint(true);}};img.src=new URL(ART+'background-normal.webp',import.meta.url).href;
  return {update,draw(now){const scale=Number(root.dataset.scale)||1,top=DREAM_OFFSET*scale-viewport.scrollTop,inView=top<viewport.clientHeight&&top+DREAM_HEIGHT*scale>0;if(last&&inView)elapsed+=Math.min(100,Math.max(0,now-last))/1000;last=now;if(inView)paint();else update();},destroy(){disposed=true;images.forEach(i=>i.onload=null);scenery?.destroy();trainRig.destroy();}};
