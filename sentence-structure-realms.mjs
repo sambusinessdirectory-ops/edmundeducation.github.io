@@ -1,15 +1,18 @@
-import { levelPositions } from './common-expression-map.mjs?v=20260912-autumn1';
+import { levelPositions } from './common-expression-map.mjs?v=20260912-dream1';
 import { SENTENCE_COAST, SHORE_LAYOUT } from './sentence-structure-coast.mjs?v=20260912-autumn1';
-import { AUTUMN_OFFSET, realmsPath, realmsStep } from './sentence-structure-realms-navigation.mjs?v=20260912-zen1';
+import { AUTUMN_OFFSET, realmsPath, realmsStep } from './sentence-structure-realms-navigation.mjs?v=20260912-dream1';
 import { createAutumnRabbit, rabbitMotion } from './sentence-structure-autumn-rabbit.mjs?v=20260912-autumn1';
 import { ZEN_OFFSET,ZEN_HEIGHT,ZEN_LAYOUT } from './sentence-structure-zen-geometry.mjs?v=20260912-zen1';
-import { zenTerrain,zenOverlay,decorateZenStones,mountZen } from './sentence-structure-zen.mjs?v=20260912-zen2';
+import { zenTerrain,zenOverlay,decorateZenStones,mountZen } from './sentence-structure-zen.mjs?v=20260912-dream1';
+import { DREAM_OFFSET,DREAM_HEIGHT,dreamPositions } from './sentence-structure-dream-geometry.mjs?v=20260912-dream1';
+import { dreamTerrain,decorateDreamStones,mountDream } from './sentence-structure-dream.mjs?v=20260912-dream1';
 const ART='./assets/sentence-structure/autumn/';
 export const AUTUMN_LAYOUT={startX:160,columnGap:205,rowYs:[520,1010,1250,1490,1710]};
 export function sentenceRealmPositions(lessons){return [
  ...levelPositions(lessons.slice(0,30),SHORE_LAYOUT),
  ...levelPositions(lessons.slice(30,60),AUTUMN_LAYOUT).map(p=>({...p,y:p.y+AUTUMN_OFFSET})),
- ...levelPositions(lessons.slice(60,90),ZEN_LAYOUT).map(p=>({...p,y:p.y+ZEN_OFFSET}))
+ ...levelPositions(lessons.slice(60,90),ZEN_LAYOUT).map(p=>({...p,y:p.y+ZEN_OFFSET})),
+ ...dreamPositions(lessons.slice(90,120))
 ];}
 let ids=0;
 const leafPath='M0 17L-3 8L-12 11L-9 3L-18-3L-9-5L-10-14L-3-10L1-21L5-11L13-14L11-5L19-2L10 4L12 11L3 8Z';
@@ -36,15 +39,17 @@ function terrain(nodes,lessons){
  <i class="autumn-rabbit-shadow"></i><canvas class="autumn-rabbit" width="360" height="350"></canvas></div>
  <div class="realm-cloud-border" aria-hidden="true">${Array.from({length:11},(_,i)=>`<i style="left:${i*290-60}px;top:${i%3*11}px;--duration:${19+i%4*5}s;--delay:${-i*3.4}s;--drift:${i%2?'-': ''}27px"></i>`).join('')}</div>
  <span class="autumn-realm-sign" style="top:${AUTUMN_OFFSET+452}px">31–60 · 秋林漫步</span>
- ${zenTerrain(nodes.slice(60),lessons.slice(60))}
- <div class="realm-cloud-border zen-cloud-border" style="top:${ZEN_OFFSET-190}px" aria-hidden="true">${Array.from({length:11},(_,i)=>`<i style="left:${i*290-60}px;top:${i%3*11}px;--duration:${23+i%4*5}s;--delay:${-i*3.1}s;--drift:${i%2?'-':''}22px"></i>`).join('')}</div>`;
+ ${zenTerrain(nodes.slice(60,90),lessons.slice(60,90))}
+ <div class="realm-cloud-border zen-cloud-border" style="top:${ZEN_OFFSET-190}px" aria-hidden="true">${Array.from({length:11},(_,i)=>`<i style="left:${i*290-60}px;top:${i%3*11}px;--duration:${23+i%4*5}s;--delay:${-i*3.1}s;--drift:${i%2?'-':''}22px"></i>`).join('')}</div>
+ ${dreamTerrain()}
+ <div class="realm-cloud-border dream-cloud-border" style="top:${DREAM_OFFSET-190}px" aria-hidden="true">${Array.from({length:11},(_,i)=>`<i style="left:${i*290-60}px;top:${i%3*11}px;--duration:${27+i%4*5}s;--delay:${-i*3.3}s;--drift:${i%2?'-':''}19px"></i>`).join('')}</div>`;
 }
 const overlay=`<div class="autumn-leaves" aria-hidden="true">${Array.from({length:10},(_,i)=>`<span style="left:${4+i*10}%;--duration:${19+i%4*3}s;--delay:${-i*3.8}s;--drift:${i%2?-65:85}px;--spin:${i%2?-230:190}deg;width:${12+i%3*3}px">${leaf(['#b86536','#d49a4e','#a94b33','#c89c58'][i%4])}</span>`).join('')}</div>`;
 function mount(root,reduced){
  root.querySelectorAll('.expression-map-stone').forEach((stone,i)=>{if(i>=30&&i<60){stone.dataset.autumn='true';stone.insertAdjacentHTML('afterbegin',`<svg class="autumn-stone-art" viewBox="20 166 1570 710" aria-hidden="true"><image href="${ART}stone.webp" width="1611" height="976"/></svg>`);}});
- decorateZenStones(root);
- const coast=SENTENCE_COAST.mount(root,reduced,{stoneSelector:'.expression-map-stone:not([data-autumn]):not([data-zen])',label:'句型海岸、秋林與庭園地圖，第 1 至 90 課；可穿過雲霧自由來往，沿橋過河，點選石階或使用方向鍵 / WASD 走動。'});
- const zen=mountZen(root,reduced);
+ decorateZenStones(root);decorateDreamStones(root);
+ const coast=SENTENCE_COAST.mount(root,reduced,{stoneSelector:'.expression-map-stone:not([data-autumn]):not([data-zen]):not([data-dream])',label:'句型海岸、秋林、庭園與夢境地圖，第 1 至 120 課；可穿過雲霧自由來往，沿橋過河，點選石階或使用方向鍵 / WASD 走動。'});
+ const zen=mountZen(root,reduced),dream=mountDream(root,reduced);
  const flag=root.querySelector('.expression-map-flag');flag.insertAdjacentHTML('beforeend',`<g class="autumn-flag-emblem" transform="translate(30 28) scale(.43)"><path d="${leafPath}" fill="#fff3cb"/><path d="M0 20L1-16" stroke="#866443" stroke-width="1.5"/></g>`);
  const canvas=root.querySelector('.autumn-rabbit'),viewport=root.querySelector('.expression-map-viewport'),leaves=root.querySelector('.autumn-leaves');
  const image=new Image();let rig,disposed=false,elapsed=0,last=0;
@@ -56,14 +61,15 @@ function mount(root,reduced){
   leaves.style.opacity=String(top<viewport.clientHeight&&bottom>0?1:0);
   const pinned=Number(flag.dataset.flagLevel?.slice(2));flag.classList.toggle('is-autumn',pinned>30&&pinned<=60);
   const y=parseFloat(root.querySelector('.expression-map-horse').style.top)+12;
-  root.dataset.currentRealm=y>=ZEN_OFFSET?'zen':y>=AUTUMN_OFFSET?'autumn':'shore';zen.update();
+  root.dataset.currentRealm=y>=DREAM_OFFSET?'dream':y>=ZEN_OFFSET?'zen':y>=AUTUMN_OFFSET?'autumn':'shore';zen.update();dream.update();
  }
- function draw(now){if(disposed)return;coast?.draw(now);zen.draw(now);if(last)elapsed+=Math.min(100,Math.max(0,now-last))/1000;last=now;rig?.paint(canvas,rabbitMotion(reduced.matches?0:elapsed));update();}
+ function draw(now){if(disposed)return;coast?.draw(now);zen.draw(now);dream.draw(now);if(last)elapsed+=Math.min(100,Math.max(0,now-last))/1000;last=now;rig?.paint(canvas,rabbitMotion(reduced.matches?0:elapsed));update();}
  viewport.addEventListener('scroll',update,{passive:true});
- return {draw,update,destroy(){disposed=true;image.onload=null;viewport.removeEventListener('scroll',update);coast?.destroy();zen.destroy();}};
+ return {draw,update,destroy(){disposed=true;image.onload=null;viewport.removeEventListener('scroll',update);coast?.destroy();zen.destroy();dream.destroy();}};
 }
 export const SENTENCE_REALMS=Object.freeze({
- id:'sentence-shore',title:'海岸・秋林・庭園之旅',kicker:'THE SENTENCE JOURNEY',width:1600,height:ZEN_OFFSET+ZEN_HEIGHT,
+ id:'sentence-shore',title:'海岸・秋林・庭園・星夢之旅',kicker:'THE SENTENCE JOURNEY',width:1600,height:DREAM_OFFSET+DREAM_HEIGHT,
  cameraPadding:{left:800,right:800},minimumZoom:.5,positions:sentenceRealmPositions,terrain,mount,overlay:overlay+zenOverlay,
- navigation:{path:realmsPath,step:realmsStep},cameraTop:({point,scale,height,zoom})=>zoom===1&&height>=600?(point.y<625?0:point.y>=ZEN_OFFSET&&point.y<ZEN_OFFSET+800?(ZEN_OFFSET+90)*scale:point.y*scale-height*.4):point.y*scale-height*.4
+ cameraViewWidth:point=>point.y>=ZEN_OFFSET?3200:1600,cameraScaleFloor:point=>point.y>=ZEN_OFFSET?.3:.7,
+ navigation:{path:realmsPath,step:realmsStep},cameraTop:({point,scale,height,zoom})=>zoom===1&&height>=600?(point.y<625?0:point.y>=DREAM_OFFSET&&point.y<DREAM_OFFSET+1150?(DREAM_OFFSET+45)*scale:point.y>=ZEN_OFFSET&&point.y<ZEN_OFFSET+800?(ZEN_OFFSET+15)*scale:point.y*scale-height*.4):point.y*scale-height*.4
 });

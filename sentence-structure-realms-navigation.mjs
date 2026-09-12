@@ -1,8 +1,10 @@
 import { shoreIsWalkable } from './sentence-structure-coast-navigation.mjs?v=20260912-sentence2';
 import { ZEN_OFFSET,ZEN_HEIGHT,zenIsWalkable } from './sentence-structure-zen-geometry.mjs?v=20260912-zen1';
 
+import { DREAM_OFFSET,DREAM_HEIGHT } from './sentence-structure-dream-geometry.mjs?v=20260912-dream1';
+
 export const AUTUMN_OFFSET=1950;
-export const REALM_BOUNDS={left:60,right:1540,top:552,bottom:ZEN_OFFSET+ZEN_HEIGHT-100};
+export const REALM_BOUNDS={left:60,right:1540,top:552,bottom:DREAM_OFFSET+DREAM_HEIGHT-65};
 // Hoof-space, traced in the autumn painting's central 1600 × 1950 region.
 export const AUTUMN_RIVER=[[0,703],[340,714],[690,725],[880,730],[1200,743],[1600,743],[1600,915],[1250,922],[900,916],[570,904],[300,891],[0,875]];
 export const AUTUMN_BROOK=[[675,298],[753,299],[815,339],[932,371],[918,421],[811,415],[755,374],[689,351]];
@@ -14,6 +16,7 @@ export function realmsIsWalkable(p){
  const b=REALM_BOUNDS;if(!Number.isFinite(p?.x)||!Number.isFinite(p?.y)||p.x<b.left||p.x>b.right||p.y<b.top||p.y>b.bottom)return false;
  if(p.y<=1790)return shoreIsWalkable(p);
  if(p.y<AUTUMN_OFFSET)return true; // Cloud border is deliberately penetrable.
+ if(p.y>=DREAM_OFFSET)return true; // Pillow ground is freely walkable.
  if(p.y>=ZEN_OFFSET)return zenIsWalkable({x:p.x,y:p.y-ZEN_OFFSET});
  const q={x:p.x,y:p.y-AUTUMN_OFFSET};
  if(AUTUMN_BRIDGES.some(b=>q.x>=b.left&&q.x<=b.right&&q.y>=b.top&&q.y<=b.bottom))return true;

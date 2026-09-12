@@ -36,8 +36,8 @@ window.coastTest={
 
  const map=page.locator('[data-sentence-map]'),viewport=page.locator('.expression-map-viewport');
  await map.scrollIntoViewIfNeeded();await viewport.focus();
- assert.equal(await page.locator('.expression-map-stone').count(),90);
- assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),255);
+ assert.equal(await page.locator('.expression-map-stone').count(),120);
+ assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),225);
  await page.locator('.expression-map-picker select').selectOption('ss31');await page.waitForTimeout(3400);
  assert.equal(await page.locator('[data-map-level="30"]').getAttribute('data-arrived'),'true');
  await viewport.evaluate(el=>{el.scrollTop=1950*Number(document.querySelector('[data-sentence-map]').dataset.scale);});

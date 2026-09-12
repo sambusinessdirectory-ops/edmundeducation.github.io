@@ -21,7 +21,7 @@ export function zenTerrain(nodes,lessons){
 }
 export const zenOverlay=`<div class="zen-falling-leaves" aria-hidden="true">${Array.from({length:8},(_,i)=>`<span style="left:${5+i*13}%;--duration:${23+i%3*4}s;--delay:${-i*4.7}s;--drift:${i%2?-65:80}px;--spin:${i%2?-190:230}deg;width:${12+i%3*3}px">${zenLeaf(['#b72e32','#bb4934','#a92630'][i%3])}</span>`).join('')}</div>`;
 export function decorateZenStones(root){
- root.querySelectorAll('.expression-map-stone').forEach((stone,i)=>{if(i<60)return;stone.dataset.zen='true';stone.insertAdjacentHTML('afterbegin',`<svg class="zen-stone-art" viewBox="10 100 1660 760" aria-hidden="true"><image href="${ART}stone.webp" width="1677" height="938"/></svg>`);});
+ root.querySelectorAll('.expression-map-stone').forEach((stone,i)=>{if(i<60||i>=90)return;stone.dataset.zen='true';stone.insertAdjacentHTML('afterbegin',`<svg class="zen-stone-art" viewBox="10 100 1660 760" aria-hidden="true"><image href="${ART}stone.webp" width="1677" height="938"/></svg>`);});
 }
 export function mountZen(root,reduced){
  let disposed=false,elapsed=0,last=0,lastPaint=-Infinity,scenery,catRig;
@@ -35,8 +35,8 @@ export function mountZen(root,reduced){
  const door=artPoint([927,185]);root.querySelector('.zen-door-steam').style.cssText=`left:${door.x-50}px;top:${door.y-150}px`;
  function update(){
   const scale=Number(root.dataset.scale)||1,top=ZEN_OFFSET*scale-viewport.scrollTop;
-  leaves.style.clipPath=`inset(${Math.max(0,Math.min(viewport.clientHeight,top))}px 0 0)`;leaves.style.opacity=String(top<viewport.clientHeight?1:0);
-  flag.classList.toggle('is-zen',Number(flag.dataset.flagLevel?.slice(2))>60);
+  const bottom=top+ZEN_HEIGHT*scale;leaves.style.clipPath=`inset(${Math.max(0,Math.min(viewport.clientHeight,top))}px 0 ${Math.max(0,Math.min(viewport.clientHeight,viewport.clientHeight-bottom))}px)`;leaves.style.opacity=String(top<viewport.clientHeight&&bottom>0?1:0);
+  const pinned=Number(flag.dataset.flagLevel?.slice(2));flag.classList.toggle('is-zen',pinned>60&&pinned<=90);
  }
  function paint(force=false){
   if(disposed)return;const t=reduced.matches?0:elapsed;

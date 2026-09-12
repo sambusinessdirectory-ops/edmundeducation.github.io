@@ -12,8 +12,8 @@ export function levelPositions(lessons, { startY = 200, rowGap = 350, rowYs = []
   });
 }
 
-export function minimumMapScale(width, height, worldWidth = WIDTH, worldHeight = HEIGHT) {
-  return Math.max(.7, width / worldWidth, height / worldHeight);
+export function minimumMapScale(width, height, worldWidth = WIDTH, worldHeight = HEIGHT, floor = .7) {
+  return Math.max(floor, width / worldWidth, height / worldHeight);
 }
 
 export function restoreMapPreferences(current, legacy, lessonIds) {
@@ -142,6 +142,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   const images = new Map();
   let owner = '', built = false, active = false, mode = true, pinned = null, needsCenter = false;
   let selected = 0, standing = 0, character = 'eddy', scale = .8, zoom = 1, visible = false;
+  let cameraViewWidth = WIDTH;
   let viewport, world, space, horse, shadow, picker, status, popup, flag, pinButton, statusTimer, frame = 0, lastFrame = 0;
   let position = { ...nodes[0] }, journey = null, angle = 0, keys = new Set(), lastFacing = 0;
   let sceneAnimation, resizeObserver, intersectObserver, drag = null, suppressClickUntil = 0, imageFailure = false;
@@ -238,6 +239,8 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     startAnimation();
   }
   function centerOn(point, smooth=false) {
+    const wantedWidth=theme?.cameraViewWidth?.(point) ?? WIDTH;
+    if(wantedWidth!==cameraViewWidth) { setScale(zoom,point); return; }
     const top=theme?.cameraTop?.({point,scale,height:viewport.clientHeight,zoom}) ?? point.y*scale-viewport.clientHeight*.4;
     const contentWidth=WIDTH*scale,viewWidth=viewport.clientWidth;
     const left=padding.left*scale+(contentWidth<=viewWidth?(contentWidth-viewWidth)/2:clamp(point.x*scale-viewWidth/2,0,contentWidth-viewWidth));
@@ -246,7 +249,9 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   }
   function setScale(nextZoom, point) {
     const anchor=point || {x:(viewport.scrollLeft+viewport.clientWidth/2)/scale-padding.left,y:(viewport.scrollTop+viewport.clientHeight*.4)/scale};
-    const base=minimumMapScale(viewport.clientWidth,viewport.clientHeight,WIDTH,HEIGHT);
+    cameraViewWidth=theme?.cameraViewWidth?.(point || position) ?? WIDTH;
+    const floor=theme?.cameraScaleFloor?.(point || position) ?? .7;
+    const base=minimumMapScale(viewport.clientWidth,viewport.clientHeight,cameraViewWidth,HEIGHT,floor);
     minimumZoom=Math.max(theme?.minimumZoom ?? 1,viewport.clientWidth/cameraWidth/base,viewport.clientHeight/HEIGHT/base);
     zoom=clamp(Math.round(nextZoom*100)/100,minimumZoom,2);
     scale=base*zoom;
