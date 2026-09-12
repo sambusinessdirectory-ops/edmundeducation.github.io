@@ -6,6 +6,7 @@ import { webcrypto } from "node:crypto";
 import { performance } from "node:perf_hooks";
 import vm from "node:vm";
 import { createLessonLibrary } from "../lesson-library.mjs";
+import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "../sentence-structure-map.mjs";
 
 const root = new URL("../", import.meta.url);
 const read = (name) => readFile(new URL(name, root), "utf8");
@@ -152,7 +153,9 @@ function createFrontendHarness() {
     "[data-lesson-kicker]", "[data-lesson-title]", "[data-lesson-stepper]",
     "[data-lesson-content]", "[data-bookmark-list]", "[data-admin-search]",
     "[data-admin-student-count]", "[data-admin-student-list]", "[data-admin-detail]",
-    "#sentence-structure-loading-template", "[data-toast]"
+    "#sentence-structure-loading-template", "[data-toast]",
+    "[data-remaining-lesson-grid]", "[data-sentence-remaining]", "[data-remaining-count]",
+    "[data-map-bookmark-count]", "[data-sentence-map]", "[data-sentence-map-toggle]"
   ];
   selectors.forEach((selector) => selectorMap.set(selector, makeElement()));
   selectorMap.get("#sentence-structure-password").type = "password";
@@ -237,6 +240,10 @@ function createFrontendHarness() {
     window,
     document,
     createLessonLibrary,
+    SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted,
+    SENTENCE_COAST: {},
+    // Canvas/interaction behaviour is exercised by the real-browser map fixture.
+    createExpressionMap: () => ({update(){},setActive(){},reset(){}}),
     sessionStorage,
     localStorage,
     fetch,
@@ -1926,8 +1933,8 @@ test("the second dashboard aggregates Supabase attempt duration and opens daily 
   assert.match(sut.elements.timeProgressDayList.innerHTML, /2 分 30 秒/);
 });
 
-test("bookmark is pinned first and every completed 50-question lesson turns gold", () => {
-  const { sut } = createFrontendHarness();
+test("bookmarks remain above the first-30 map and completed 50-question lessons turn gold", () => {
+  const { sut, selectorMap } = createFrontendHarness();
   sut.state.bookmarks = [{ lessonId: "ss1", questionId: "ss1-q01", includeAnswer: false, createdAt: "" }];
   sut.state.attempts = [sut.normalizeAttempt({
     id: "complete-ss1",
@@ -1938,12 +1945,16 @@ test("bookmark is pinned first and every completed 50-question lesson turns gold
     result: { correctIds: sut.getLesson("ss1").questions.map((question) => question.id) }
   })];
   sut.renderLessonChoices();
-  const html = sut.elements.lessonChoiceGrid.innerHTML;
-  assert.ok(html.indexOf("data-open-bookmarks-card") < html.indexOf('data-open-lesson="ss1"'));
-  assert.match(html, /data-open-lesson="ss1"[^>]+data-tone="gold"/);
-  assert.match(html, /50 \/ 50 題已完成/);
-  assert.match(html, /0 個句型/);
-  assert.match(html, /1 道題目/);
+  const cards = sut.elements.lessonChoiceGrid.innerHTML;
+  assert.ok(html.indexOf('data-open-bookmarks-card') < html.indexOf('data-sentence-map hidden'));
+  assert.match(cards, /data-open-lesson="ss1"[^>]+data-tone="gold"/);
+  assert.match(cards, /50 \/ 50 題已完成/);
+  assert.equal(selectorMap.get('[data-map-bookmark-count]').textContent, '(1)');
+  assert.equal(occurrences(cards, 'data-open-lesson='), 30);
+  const remaining = selectorMap.get('[data-remaining-lesson-grid]').innerHTML;
+  assert.equal(occurrences(remaining, 'data-open-lesson='), 315);
+  assert.match(remaining, /data-open-lesson="ss31"/);
+  assert.match(remaining, /data-open-lesson="ss345"/);
 });
 
 test("attempt history pagination loads every dashboard page", async () => {
@@ -2078,7 +2089,7 @@ test("lesson bookmarks render as card stars and a separate left bookmark column"
   await sut.toggleSectionBookmark("ss1");
   assert.equal(sut.state.bookmarks[0].questionId, "__section__");
   assert.match(sut.elements.lessonChoiceGrid.innerHTML, /data-toggle-section-bookmark="ss1"[^>]+aria-pressed="true"/);
-  assert.match(sut.elements.lessonChoiceGrid.innerHTML, /1 個句型/);
+  assert.match(harness.selectorMap.get('[data-map-bookmark-count]').title, /1 個句型/);
 
   sut.state.bookmarks.push({ lessonId: "ss2", questionId: "ss2-q01", includeAnswer: false, createdAt: "" });
   sut.renderBookmarks();

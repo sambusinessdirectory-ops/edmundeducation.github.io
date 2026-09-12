@@ -1,5 +1,8 @@
 import { createLessonLibrary } from "./lesson-library.mjs?v=20260908-loading1";
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
+import { createExpressionMap } from "./common-expression-map.mjs?v=20260912-sentence1";
+import { SENTENCE_COAST } from "./sentence-structure-coast.mjs?v=20260912-sentence1";
+import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260912-sentence1";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const lessonLibrary = createLessonLibrary(new URL("./assets/sentence-structure/library/manifest.json?v=20260908-loading1", import.meta.url));
@@ -131,6 +134,7 @@ const state = {
 };
 
 let lessonSearchIndexCache = null;
+let sentenceMap = null;
 let exerciseClockWasRunningBeforeIdleBreak = false;
 
 function idleBreakIsPaused() {
@@ -291,6 +295,7 @@ function showView(name, { preserveScroll = false } = {}) {
   if (state.currentView === "lesson" && (name !== "lesson" || state.lessonPage !== 4)) pauseExerciseClock();
   if (name !== "lesson") { lessonNavigation += 1; elements.lessonStepper.inert = false; }
   state.currentView = name;
+  sentenceMap?.setActive(name === "dashboard");
   for (const view of elements.views) view.hidden = view.dataset.view !== name;
 
   const loggedIn = Boolean(state.user && state.authToken);
@@ -411,6 +416,7 @@ function readSession() {
 }
 
 function clearSession() {
+  sentenceMap?.reset();
   window.clearTimeout(state.exercisePersistTimer);
   state.exercisePersistTimer = null;
   pauseExerciseClock();
@@ -704,13 +710,28 @@ function renderLessonChoices() {
         <button class="lesson-section-bookmark" type="button" data-toggle-section-bookmark="${escapeHtml(lesson.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除句型書簽" : "收藏整個句型"}">${bookmarked ? "★" : "☆"}</button>
       </article>
     `;
-  }).join("");
-  const sectionBookmarkCount = state.bookmarks.filter((bookmark) => bookmark.questionId === SECTION_BOOKMARK_ID).length;
-  const questionBookmarkCount = state.bookmarks.length - sectionBookmarkCount;
-  elements.lessonChoiceGrid.innerHTML = `<button class="lesson-choice" type="button" data-open-bookmarks-card data-number="★" data-tone="bookmark">
-      <h2>書簽<span>Bookmarks</span></h2>
-      <span class="choice-meta"><span>${escapeHtml(sectionBookmarkCount)} 個句型</span><span>${escapeHtml(questionBookmarkCount)} 道題目</span><span>跟隨帳戶同步</span></span>
-    </button>${cards}`;
+  });
+  elements.lessonChoiceGrid.innerHTML = cards.slice(0, SENTENCE_MAP_LIMIT).join("");
+  document.querySelector('[data-remaining-lesson-grid]').innerHTML = cards.slice(SENTENCE_MAP_LIMIT).join("");
+  document.querySelector('[data-sentence-remaining]').hidden = cards.length <= SENTENCE_MAP_LIMIT;
+  document.querySelector('[data-remaining-count]').textContent = `${Math.max(0, cards.length - SENTENCE_MAP_LIMIT)} 個句型`;
+  document.querySelector('[data-map-bookmark-count]').textContent = `(${state.bookmarks.length})`;
+  const sectionCount = state.bookmarks.filter(bookmark => bookmark.questionId === SECTION_BOOKMARK_ID).length;
+  document.querySelector('[data-map-bookmark-count]').title = `${sectionCount} 個句型 · ${state.bookmarks.length - sectionCount} 道題目`;
+  if (!sentenceMap && lessonList().length) {
+    const mappedLessons = sentenceMapLessons(lessonList());
+    sentenceMap = createExpressionMap({
+      root: document.querySelector('[data-sentence-map]'),
+      toggle: document.querySelector('[data-sentence-map-toggle]'),
+      grid: elements.lessonChoiceGrid,
+      lessons: mappedLessons,
+      getCompleted: id => sentenceMapCompleted(state.attempts, mappedLessons.find(lesson => lesson.id === id)),
+      openLesson: id => openLesson(id, { page: 1 }),
+      systemKey: 'sentence-structure', theme: SENTENCE_COAST
+    });
+  }
+  sentenceMap?.update(String(state.user?.id || ''));
+  sentenceMap?.setActive(state.currentView === 'dashboard');
 }
 
 function collectLessonSearchStrings(value, output = [], key = "") {
