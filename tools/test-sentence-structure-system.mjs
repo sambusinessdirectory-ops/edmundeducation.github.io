@@ -241,7 +241,7 @@ function createFrontendHarness() {
     document,
     createLessonLibrary,
     SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted,
-    SENTENCE_COAST: {},
+    SENTENCE_REALMS: {},
     // Canvas/interaction behaviour is exercised by the real-browser map fixture.
     createExpressionMap: () => ({update(){},setActive(){},reset(){}}),
     sessionStorage,
@@ -1933,7 +1933,7 @@ test("the second dashboard aggregates Supabase attempt duration and opens daily 
   assert.match(sut.elements.timeProgressDayList.innerHTML, /2 分 30 秒/);
 });
 
-test("bookmarks remain above the first-30 map and completed 50-question lessons turn gold", () => {
+test("bookmarks remain above the first-60 map and completed 50-question lessons turn gold", () => {
   const { sut, selectorMap } = createFrontendHarness();
   sut.state.bookmarks = [{ lessonId: "ss1", questionId: "ss1-q01", includeAnswer: false, createdAt: "" }];
   sut.state.attempts = [sut.normalizeAttempt({
@@ -1950,10 +1950,10 @@ test("bookmarks remain above the first-30 map and completed 50-question lessons 
   assert.match(cards, /data-open-lesson="ss1"[^>]+data-tone="gold"/);
   assert.match(cards, /50 \/ 50 題已完成/);
   assert.equal(selectorMap.get('[data-map-bookmark-count]').textContent, '(1)');
-  assert.equal(occurrences(cards, 'data-open-lesson='), 30);
+  assert.equal(occurrences(cards, 'data-open-lesson='), 60);
   const remaining = selectorMap.get('[data-remaining-lesson-grid]').innerHTML;
-  assert.equal(occurrences(remaining, 'data-open-lesson='), 315);
-  assert.match(remaining, /data-open-lesson="ss31"/);
+  assert.equal(occurrences(remaining, 'data-open-lesson='), 285);
+  assert.match(remaining, /data-open-lesson="ss61"/);
   assert.match(remaining, /data-open-lesson="ss345"/);
 });
 

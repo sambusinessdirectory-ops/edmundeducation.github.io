@@ -135,12 +135,12 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   const padding={left:0,right:0,...theme?.cameraPadding};
   const cameraWidth=WIDTH+padding.left+padding.right;
   let minimumZoom=theme?.minimumZoom ?? 1;
-  const nodes = levelPositions(lessons, theme?.layout);
+  const nodes = theme?.positions?.(lessons) ?? levelPositions(lessons, theme?.layout);
   const arrivalId = `expression-map-arrival-${systemKey}`;
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
   const events = new AbortController();
   const images = new Map();
-  let owner = '', built = false, active = false, mode = true, pinned = null;
+  let owner = '', built = false, active = false, mode = true, pinned = null, needsCenter = false;
   let selected = 0, standing = 0, character = 'eddy', scale = .8, zoom = 1, visible = false;
   let viewport, world, space, horse, shadow, picker, status, popup, flag, pinButton, statusTimer, frame = 0, lastFrame = 0;
   let position = { ...nodes[0] }, journey = null, angle = 0, keys = new Set(), lastFacing = 0;
@@ -282,6 +282,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     }
     pinButton.disabled=standing<0 || Boolean(journey) || keys.size>0;
     pinButton.setAttribute('aria-pressed',String(standing>=0 && nodes[standing].id===pinned));
+    sceneAnimation?.update?.();
   }
   function saveLocation() {
     if(standing<0 || journey || keys.size) return;
@@ -324,6 +325,9 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   function animate(time) {
     frame=0;
     if(!active||!mode||!visible||document.hidden) return;
+    // Hosts can restore preferences before revealing their dashboard. Wait for
+    // a real viewport before centring a saved location in another realm.
+    if(needsCenter && viewport.clientWidth) { setScale(zoom,position); needsCenter=false; }
     const dt=Math.min(40,lastFrame?time-lastFrame:16); lastFrame=time;
     let walking=false;
     if(keys.size) {
@@ -439,7 +443,9 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   on(toggle,'click',()=>{mode=!mode;applyMode();save();});
   return {
     update(userId) {
-      if(owner!==userId) {
+      const changedOwner=owner!==userId;
+      if(changedOwner) {
+        needsCenter=true;
         owner=userId;
         let current, legacy;
         try {current=JSON.parse(localStorage.getItem(storageKey())||'null');legacy=systemKey === 'speaking' ? JSON.parse(localStorage.getItem(`edmund-expression-meadow-v1:${owner}`)||'null') : null;} catch {current=null;legacy=null;}
@@ -450,6 +456,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
         angle=0; keys.clear();
       }
       applyMode();
+      if(changedOwner && mode && built && viewport.clientWidth) { setScale(zoom,position); needsCenter=false; }
     },
     setActive(value) { active=value; if(value) startAnimation();else {stopAnimation();if(journey){position={...journey.to};journey=null;settleArrival();}} },
     reset() { active=false; owner=''; mode=false; stopAnimation();clearTimeout(statusTimer);grid.hidden=false;root.hidden=true; },

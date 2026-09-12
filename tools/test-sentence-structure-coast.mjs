@@ -7,8 +7,8 @@ import {SHORE_LAYOUT,shorePlants,SENTENCE_COAST} from '../sentence-structure-coa
 import {flyingGullMotion,perchedGullMotion,crabMotion} from '../sentence-structure-shore-wildlife.mjs';
 import {shoreIsWalkable,shoreSegment,shorePath,shoreStep} from '../sentence-structure-coast-navigation.mjs';
 const catalogue=JSON.parse(readFileSync(new URL('../assets/sentence-structure/library/manifest.json',import.meta.url))).lessons.map(l=>({...l,questions:l.questionRefs.map(([id])=>({id}))}));
-const lessons=sentenceMapLessons(catalogue),nodes=levelPositions(lessons,SHORE_LAYOUT);
-test('only the first thirty real Sentence Structure lessons enter the map',()=>{
+const lessons=sentenceMapLessons(catalogue).slice(0,30),nodes=levelPositions(lessons,SHORE_LAYOUT);
+test('the coastal realm retains the first thirty real lessons',()=>{
   assert.equal(catalogue.length,345);assert.equal(lessons.length,30);
   assert.equal(lessons[0].id,'ss1');assert.equal(lessons.at(-1).id,'ss30');
   for(const l of lessons){assert.equal(l.questions.length,50);assert.ok(l.titleEn);assert.ok(l.mapLabel);}

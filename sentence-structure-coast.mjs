@@ -99,9 +99,9 @@ function terrain(nodes,lessons) {
   </div>`;
 }
 
-function mount(root,reduced) {
-  root.querySelector('.expression-map-viewport').setAttribute('aria-label','句子結構海岸地圖，第 1 至 30 課；可拖動、點選石階，或用方向鍵 / WASD 走動。');
-  root.querySelectorAll('.expression-map-stone').forEach(stone=>stone.insertAdjacentHTML('afterbegin',art('stone','shore-stone-art')));
+function mount(root,reduced,options={}) {
+  root.querySelector('.expression-map-viewport').setAttribute('aria-label',options.label || '句子結構海岸地圖，第 1 至 30 課；可拖動、點選石階，或用方向鍵 / WASD 走動。');
+  root.querySelectorAll(options.stoneSelector || '.expression-map-stone').forEach(stone=>stone.insertAdjacentHTML('afterbegin',art('stone','shore-stone-art')));
   const flag=root.querySelector('.expression-map-flag');
   flag.innerHTML=`<ellipse cx="7" cy="95" rx="9" ry="3" fill="#385756" opacity=".2"/><path d="M7 94V6" stroke="#947951" stroke-width="4" stroke-linecap="round"/><path d="M5 80l5 2M5 84l5 2M5 88l5 2" stroke="#f0dcac" stroke-width="2"/><circle cx="7" cy="5" r="4" fill="#e3cf99"/><g class="shore-pennant"><path class="expression-map-flag-cloth" d="M10 12Q31 8 52 14L43 29L52 45Q33 38 10 43Z" fill="var(--flag-color)" stroke="#fff2cf" stroke-width="1.6"/><path d="M22 26q9-14 18 0l-9 10Z M26 23l5 13l5-13M31 21v15" fill="none" stroke="#fff6dc" stroke-width="1.6" stroke-linecap="round"/></g>`;
   const gull=root.querySelector('.shore-perched-gull'),crab=root.querySelector('.shore-crab'),fliers=[...root.querySelectorAll('.shore-flying-gull')];

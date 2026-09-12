@@ -107,7 +107,7 @@ jobs:
             sentence-structure-lessons-5-345.js \
             workers/sentence-structure/src/catalog.js
           node --test tools/test-sentence-structure-system.mjs
-          node --test tools/test-sentence-structure-coast.mjs
+          node --test tools/test-sentence-structure-coast.mjs tools/test-sentence-structure-realms.mjs
           node tools/test-mobile-exercise-actions.mjs
           npm test --prefix workers/sentence-structure
 

@@ -1,0 +1,53 @@
+/* The original coast and a second painted realm share one logical world. */
+.sentence-coast-realm,.sentence-autumn-realm { position:absolute;left:0;width:1600px;height:1950px;pointer-events:none; }
+.sentence-coast-realm { top:0; }
+.autumn-background,.autumn-water,.autumn-dusk { position:absolute;left:-800px;top:0;width:3200px;height:1950px;max-width:none;pointer-events:none; }
+.autumn-background { object-fit:fill; }
+.autumn-dusk { background:linear-gradient(#3c304423,#40332b0c 42%,#46352e15); }
+.autumn-water { overflow:hidden; }
+.autumn-river-surface { opacity:.42;animation:autumn-water-drift 12s ease-in-out -3s infinite alternate; }
+.autumn-current,.autumn-brook-current { fill:none;stroke:#e3edf0;stroke-width:1.7;stroke-linecap:round;stroke-dasharray:22 127 12 88;opacity:.33;animation:autumn-current var(--duration,22s) linear var(--delay,0s) infinite; }
+.autumn-brook-current { stroke-width:2.2;stroke-dasharray:7 29;opacity:.42; }
+.autumn-route { position:absolute;inset:0;width:1600px;height:1950px;pointer-events:none; }
+.realm-connector { position:absolute;inset:0;width:1600px;height:3900px;pointer-events:none; }
+.autumn-far-fog { position:absolute;left:-800px;top:100px;width:3200px;height:350px;overflow:hidden;mask-image:linear-gradient(transparent,#000 20%,#000 65%,transparent); }
+.autumn-far-fog i { position:absolute;left:420px;top:70px;width:1000px;height:160px;background:radial-gradient(ellipse at 25% 62%,#e4dfd557,transparent 66%),radial-gradient(ellipse at 70% 55%,#e1e1dc47,transparent 69%);filter:blur(13px);animation:autumn-fog 46s ease-in-out -9s infinite alternate; }
+.autumn-far-fog i:nth-child(2) { left:1050px;top:10px;width:1050px;height:200px;opacity:.65;animation-duration:57s;animation-delay:-28s;animation-direction:alternate-reverse; }
+.autumn-far-fog i:nth-child(3) { left:1550px;top:110px;width:800px;opacity:.55;animation-duration:62s;animation-delay:-17s; }
+.autumn-window-glow { position:absolute;width:98px;height:98px;border-radius:50%;background:radial-gradient(circle,#ffde9199 0%,#f5bd6440 23%,#ffc66c14 46%,transparent 70%);mix-blend-mode:screen;filter:blur(3px);animation:autumn-window 7.8s ease-in-out -1.7s infinite alternate; }
+.autumn-window-main { left:930px;top:288px; }
+.autumn-window-side { left:1044px;top:300px;width:78px;height:78px;animation-duration:9.7s;animation-delay:-4.5s; }
+.autumn-rabbit { position:absolute;left:139px;top:249px;width:180px;height:175px; }
+.autumn-rabbit-shadow { position:absolute;left:202px;top:413px;width:61px;height:12px;border-radius:50%;background:#583e3640;filter:blur(3px); }
+.autumn-stone-art { position:absolute;left:10px;top:-12px;width:160px;height:84px;overflow:visible;pointer-events:none;filter:drop-shadow(0 5px 3px #432e3e50); }
+[data-theme="sentence-shore"] .expression-map-stone[data-autumn] .expression-map-stone-number { top:3px;color:#674129;text-shadow:0 1px #fff0c8; }
+[data-theme="sentence-shore"] .expression-map-stone[data-autumn] .expression-map-stone-caption { top:82px;background:linear-gradient(120deg,#fff0d7f5,#f1dbbaf5);border:1px solid #c3a272;color:#65432b;border-radius:7px 11px 8px 10px; }
+[data-theme="sentence-shore"] .expression-map-stone[data-autumn] .expression-map-stone-status { top:47px;right:8px;background:#f9edcb;color:#674129;border-color:#c1a573; }
+[data-theme="sentence-shore"] .expression-map-stone[data-autumn][data-complete=true] .expression-map-stone-status { background:#707846;color:white; }
+.expression-map-stone[data-autumn][aria-pressed=true] .autumn-stone-art { filter:drop-shadow(0 0 3px #fff9d8) drop-shadow(0 0 5px #fff4cd); }
+.expression-map-stone[data-autumn]:hover .autumn-stone-art { filter:brightness(1.07) drop-shadow(0 5px 3px #432e3e50); }
+.expression-map-stone[data-autumn][data-arrived=true] .autumn-stone-art { animation:expression-stone-land 380ms ease-out; }
+.autumn-milestone { position:absolute;width:52px;height:93px; }
+.autumn-milestone::before { content:"";position:absolute;left:26px;top:15px;width:7px;height:77px;border-radius:3px;background:linear-gradient(90deg,#735037,#b88a55,#6b4a34); }
+.autumn-milestone span { position:relative;display:block;text-align:center;background:#bd8a50;color:#fff1c7;border:2px solid #845f3d;border-radius:7px 3px 8px 4px;box-shadow:0 3px 0 #5f4a31;font:700 19px/33px Georgia,serif; }
+.autumn-milestone svg { position:absolute;width:29px;height:31px;bottom:2px;left:19px;transform:rotate(-24deg); }
+.realm-cloud-border { position:absolute;left:-800px;top:1827px;width:3200px;height:272px;pointer-events:none;overflow:hidden;z-index:1;background:linear-gradient(transparent 1%,#e1e2d855 26%,#e2e4dbb8 45%,#e2e3dabb 58%,#dfddcf47 79%,transparent); }
+.realm-cloud-border i { position:absolute;width:470px;height:255px;background:radial-gradient(ellipse at 45% 50%,#f3f0dfdc 0%,#e9e9dbaa 34%,#dfe3d746 56%,transparent 70%);filter:blur(13px);animation:realm-mist var(--duration) ease-in-out var(--delay) infinite alternate; }
+.autumn-realm-sign { position:absolute;left:523px;color:#eee1c7;background:#624b33dc;border:1px solid #a88a5c;border-radius:18px;padding:6px 19px;font-size:15px;font-weight:650;letter-spacing:.08em;pointer-events:none; }
+.autumn-leaves { position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:3;opacity:0; }
+.autumn-leaves>span { position:absolute;top:-35px;height:24px;opacity:0;animation:autumn-leaf-fall var(--duration) linear var(--delay) infinite; }
+.autumn-leaves svg { width:100%;height:100%; }
+.autumn-flag-emblem { display:none; }
+.expression-map-flag.is-autumn .autumn-flag-emblem { display:block; }
+.expression-map-flag.is-autumn .shore-pennant>path:nth-child(2) { display:none; }
+[data-current-realm="autumn"] .expression-map-lesson-card { border-color:#b69b76;background:linear-gradient(125deg,#fff4dd,#ecdfc5); }
+[data-current-realm="autumn"] .expression-map-lesson-card::before { border-color:#b69b76;background:#fff4dd; }
+[data-current-realm="autumn"] .expression-map-selected h3 { color:#67472f; }
+[data-current-realm="autumn"] .expression-map-open,[data-current-realm="autumn"] .expression-map-selected-number { background:#795534;border-color:#66462b;box-shadow:0 4px 0 #543c29; }
+@keyframes autumn-water-drift { from { transform:translate(-4px,-.8px); } to { transform:translate(4px,1.2px); } }
+@keyframes autumn-current { to { stroke-dashoffset:-249; } }
+@keyframes autumn-fog { from { transform:translate(-35px,0); } to { transform:translate(35px,6px); } }
+@keyframes autumn-window { from { opacity:.62;transform:scale(.93); } to { opacity:.95;transform:scale(1.07); } }
+@keyframes realm-mist { from { transform:translate(calc(var(--drift) * -1),-4px); } to { transform:translate(var(--drift),7px); } }
+@keyframes autumn-leaf-fall { 0% { opacity:0;transform:translate(0,-30px) rotate(0); } 9% { opacity:.65; } 85% { opacity:.6; } 100% { opacity:0;transform:translate(var(--drift),800px) rotate(var(--spin)); } }
+@media(prefers-reduced-motion:reduce){.autumn-leaves{display:none;}}

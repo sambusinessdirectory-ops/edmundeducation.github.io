@@ -1,8 +1,8 @@
 import { createLessonLibrary } from "./lesson-library.mjs?v=20260908-loading1";
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
-import { createExpressionMap } from "./common-expression-map.mjs?v=20260912-sentence2";
-import { SENTENCE_COAST } from "./sentence-structure-coast.mjs?v=20260912-sentence2";
-import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260912-sentence2";
+import { createExpressionMap } from "./common-expression-map.mjs?v=20260912-autumn1";
+import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260912-autumn1";
+import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260912-autumn1";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const lessonLibrary = createLessonLibrary(new URL("./assets/sentence-structure/library/manifest.json?v=20260908-loading1", import.meta.url));
@@ -727,7 +727,7 @@ function renderLessonChoices() {
       lessons: mappedLessons,
       getCompleted: id => sentenceMapCompleted(state.attempts, mappedLessons.find(lesson => lesson.id === id)),
       openLesson: id => openLesson(id, { page: 1 }),
-      systemKey: 'sentence-structure', theme: SENTENCE_COAST
+      systemKey: 'sentence-structure', theme: SENTENCE_REALMS
     });
   }
   sentenceMap?.update(String(state.user?.id || ''));

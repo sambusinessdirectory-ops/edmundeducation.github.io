@@ -1,5 +1,5 @@
 // Adapt the public catalogue to the shared map without loading lesson exercises.
-export const SENTENCE_MAP_LIMIT = 30;
+export const SENTENCE_MAP_LIMIT = 60;
 const LABELS = [
   'to + verb', 'Adjective + noun', 'Adjective + to-infinitive', 'Although',
   'While · concession', 'Despite', 'Whereas', 'From X to Y', 'Between A and B',
@@ -7,7 +7,17 @@ const LABELS = [
   'So + must', 'Whose', 'Instead of', 'Instead', 'Rather', 'By contrast', 'Even',
   'Not even', 'Even if', 'Given that', 'Provided / Providing that',
   'WH non-specific clauses', 'In case', 'That way', 'Had better',
-  'Otherwise / Or', 'As · changes over time'
+  'Otherwise / Or', 'As · changes over time',
+  'As · identity / role', 'Whether / If · questions', 'Whether or not',
+  'While · contrast', 'It + adjective + to', 'It + adjective + that',
+  'Noun + to-infinitive', 'There is / are', 'There is / are + -ing',
+  'Another', 'Each · individuals', 'Every', 'Each · distribution',
+  'Each other / One another', 'One of the', 'Something / Anything / Everything',
+  'Somewhere / Nowhere / Elsewhere', 'Everywhere / Anywhere',
+  'Something + adjective', 'Somewhere + adjective', 'Anywhere + adjective',
+  'Someone + adjective', 'In order to', 'So that · purpose', 'Gerund as subject',
+  'Verb + to-infinitive', 'Verb + bare infinitive', 'Verb + gerund',
+  'As long as', 'So long as'
 ];
 export function sentenceMapLessons(lessons) {
   return lessons.slice(0, SENTENCE_MAP_LIMIT).map((lesson, index) => ({
