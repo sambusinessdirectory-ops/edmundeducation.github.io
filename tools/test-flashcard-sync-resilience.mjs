@@ -181,4 +181,108 @@ assert.equal(await recoveryContext.runFlashcardTerminalRecovery({automatic:true}
 assert.equal(pendingRows.length,1,'Unresolved changes must never be purged by recovery');
 assert.equal(recoveryContext.supabaseState.phase,'ready');
 
+// A completed cloud attempt proves a stale resume snapshot can be retired.
+// Use the actual recovery/replacement path so logical writes stay durable until
+// normal server acknowledgement; a visible/local completion is insufficient.
+const progressKey = 'Test Student::synthetic-deck';
+const staleProgress = {
+  attemptId: 'finished-attempt', deckId: 'synthetic-deck', savedAt: 100,
+  elapsedMs: 80, roundNumber: 1, initialQueue: [0, 1, 2],
+  outcomes: { 0: 'green', 1: 'red' }, answers: { 0: 'green', 1: 'red' },
+  outcomeTimes: { 0: 50, 1: 90 }, cardAttemptCounts: { 0: 1, 1: 1 }
+};
+const verifiedCompletion = {
+  id: 'finished-attempt', studentName: 'Test Student', deckId: 'synthetic-deck',
+  completed: true, completedAt: 200, durationMs: 180, roundNumber: 2,
+  cardOutcomes: [
+    { deckId: 'synthetic-deck', index: 0, status: 'green', answeredAt: 50 },
+    { deckId: 'synthetic-deck', index: 1, status: 'green', answeredAt: 150 },
+    { deckId: 'synthetic-deck', index: 2, status: 'green', answeredAt: 190 }
+  ],
+  cardAttempts: [{ deckId: 'synthetic-deck', index: 1, count: 2 }]
+};
+const blockedProgress = {
+  key: 'progress', status: 'blocked', terminalScope: 'key', owner: 'owner',
+  studentName: 'Test Student', studentId: 'student-id', transportType: 'student',
+  mutationId: 'old-write', logicalMutationIds: ['answer-write', 'timer-write'],
+  recoveryClass: 'fresh-canonical-rebase', expectedVersion: 3,
+  baseValue: { [progressKey]: { ...staleProgress, savedAt: 95 } },
+  payload: { [progressKey]: staleProgress }
+};
+const completionContext = {
+  ATTEMPTS_KEY: 'attempts', PROGRESS_KEY: 'progress', FAMILIARITY_KEY: 'familiarity',
+  FLASHCARD_TERMINAL_RECOVERY_CODES: new Set(['version_conflict', 'request_id_reuse']),
+  flashcardCanonicalValues: new Map([['attempts', [verifiedCompletion]], ['progress', {}]]),
+  flashcardOutboxOwnerMatches: record => record.owner === 'owner',
+  flashcardStateVersion: () => 9, flashcardStateChecksum: () => 'verified-v9',
+  flashcardOutboxMutationId: () => 'new-write',
+  flashcardIntegrityError: message => new Error(message),
+  structuredClone
+};
+vm.createContext(completionContext);
+vm.runInContext([...functions, 'flashcardCanonicalValue', 'flashcardOutboxLogicalMutationIds', 'flashcardOutboxRecordRequiresResolution',
+  'flashcardTerminalRecoveryCode', 'reconcileCompletedFlashcardProgressMutation',
+  'createFastForwardedFlashcardOutboxMutation', 'createRecoveredFlashcardOutboxMutation',
+  'recoverFlashcardTerminalOutboxRows'].map(extract).join('\n'), completionContext);
+const recoveredProgress = completionContext.createRecoveredFlashcardOutboxMutation(blockedProgress);
+assert.ok(recoveredProgress, 'Cloud-proven completion must unblock the obsolete resume snapshot');
+assert.equal(recoveredProgress.status, 'queued');
+assert.equal(recoveredProgress.mutationId, 'new-write');
+assert.equal(recoveredProgress.expectedVersion, 9);
+assert.deepEqual(plain(recoveredProgress.payload), {});
+assert.deepEqual(plain(recoveredProgress.logicalMutationIds), ['answer-write', 'timer-write', 'old-write']);
+assert.equal(blockedProgress.payload[progressKey].outcomes[1], 'red', 'Original evidence is not mutated');
+assert.equal(verifiedCompletion.cardOutcomes[1].status, 'green', 'Completed answers must not be rolled back');
+
+for (const change of [
+  value => { value.completed = false; },
+  value => { value.id = 'different-attempt'; },
+  value => { value.studentName = 'Someone Else'; },
+  value => { value.deckId = 'another-deck'; },
+  value => { value.completedAt = 99; },
+  value => { value.durationMs = 79; },
+  value => { value.cardOutcomes = value.cardOutcomes.slice(0, 2); },
+  value => { value.cardOutcomes[1].answeredAt = 89; },
+  value => { value.cardOutcomes[1].answeredAt = 90; },
+  value => { value.cardOutcomes[0].status = 'red'; }
+]) {
+  const insufficient = structuredClone(verifiedCompletion);
+  change(insufficient);
+  completionContext.flashcardCanonicalValues.set('attempts', [insufficient]);
+  assert.equal(completionContext.createRecoveredFlashcardOutboxMutation(blockedProgress), null,
+    'Missing, older, conflicting or unrelated cloud evidence must keep the update blocked');
+}
+completionContext.flashcardCanonicalValues.delete('attempts');
+assert.equal(completionContext.createRecoveredFlashcardOutboxMutation(blockedProgress), null);
+completionContext.flashcardCanonicalValues.set('attempts', [verifiedCompletion]);
+assert.equal(completionContext.createRecoveredFlashcardOutboxMutation({ ...blockedProgress, owner: 'other' }), null);
+assert.equal(completionContext.createRecoveredFlashcardOutboxMutation({
+  ...blockedProgress, receipt: { status: 'rejected', code: 'authentication_failed' }
+}), null, 'Completion evidence must never bypass authentication quarantine');
+
+const unrelatedKey = 'Test Student::unrelated-deck';
+const unrelatedProgress = { ...staleProgress, attemptId: 'different-attempt', deckId: 'unrelated-deck' };
+const mixedRecord = {
+  ...blockedProgress,
+  baseValue: { ...blockedProgress.baseValue, [unrelatedKey]: { ...unrelatedProgress, savedAt: 95 } },
+  payload: { ...blockedProgress.payload, [unrelatedKey]: unrelatedProgress }
+};
+assert.equal(completionContext.createRecoveredFlashcardOutboxMutation(mixedRecord), null,
+  'One proven completion cannot discard another unresolved deck');
+const newWork = { ...blockedProgress, payload: { ...blockedProgress.payload, [unrelatedKey]: unrelatedProgress } };
+assert.deepEqual(plain(completionContext.createRecoveredFlashcardOutboxMutation(newWork).payload),
+  { [unrelatedKey]: unrelatedProgress }, 'Unrelated new progress must survive recovery');
+
+const durableRows = new Map([['old-write', blockedProgress]]);
+completionContext.flashcardOutboxRowsForContext = async () => [...durableRows.values()];
+completionContext.supersedeFlashcardOutboxMutation = async (id, replacement) => {
+  assert.equal(durableRows.get(id), blockedProgress);
+  durableRows.set(replacement.mutationId, replacement);
+  durableRows.delete(id);
+  return true;
+};
+assert.equal(await completionContext.recoverFlashcardTerminalOutboxRows({}), 1);
+assert.equal(durableRows.size, 1, 'Recovered writes remain durable until server acknowledgement');
+assert.equal(durableRows.get('new-write').status, 'queued');
+
 console.log('Flashcard sync resilience merge, receipt-race, completion, isolation and background-recovery checks passed.');

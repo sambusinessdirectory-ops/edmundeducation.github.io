@@ -188204,11 +188204,84 @@ window.EDMUND_FLASHCARD_SEED = {
       return "";
     }
 
+    function reconcileCompletedFlashcardProgressMutation(record, canonicalValue) {
+      const unresolved = { safe: false, value: null, reason: "unverified-progress-completion" };
+      if (
+        record.key !== PROGRESS_KEY
+        || !flashcardOutboxOwnerMatches(record)
+        || !isPlainFlashcardStateObject(record.payload)
+        || !isPlainFlashcardStateObject(canonicalValue)
+        || !flashcardCanonicalValues.has(ATTEMPTS_KEY)
+      ) return unresolved;
+      // Only cloud-verified attempts can prove completion. The visible attempt
+      // store also contains unsynced local answers and is not evidence of upload.
+      const attempts = flashcardCanonicalValue(ATTEMPTS_KEY);
+      if (!Array.isArray(attempts)) return unresolved;
+      const payload = cloneFlashcardSyncPayload(record.payload);
+      let removed = false;
+      for (const [key, progress] of Object.entries(payload)) {
+        if (Object.prototype.hasOwnProperty.call(canonicalValue, key)) continue;
+        if (!isPlainFlashcardStateObject(progress) || !progress.attemptId || !progress.deckId) continue;
+        if (key !== `${record.studentName}::${progress.deckId}`) continue;
+        const completed = attempts.find(attempt => (
+          attempt?.id === progress.attemptId
+          && attempt.studentName === record.studentName
+          && attempt.deckId === progress.deckId
+          && attempt.completed === true
+        ));
+        if (!completed || !Array.isArray(completed.cardOutcomes)) continue;
+        const savedAt = flashcardProgressNumber(progress.savedAt);
+        if (
+          savedAt <= 0
+          || flashcardProgressNumber(completed.completedAt) < savedAt
+          || flashcardProgressNumber(completed.durationMs) < flashcardProgressNumber(progress.elapsedMs)
+          || flashcardProgressNumber(completed.roundNumber) < flashcardProgressNumber(progress.roundNumber)
+          || !isPlainFlashcardStateObject(progress.outcomes)
+          || !isPlainFlashcardStateObject(progress.outcomeTimes)
+          || !isPlainFlashcardStateObject(progress.answers)
+          || !isPlainFlashcardStateObject(progress.cardAttemptCounts)
+          || !Array.isArray(progress.initialQueue)
+        ) continue;
+        const outcomes = new Map(completed.cardOutcomes
+          .filter(card => card?.deckId === progress.deckId)
+          .map(card => [String(card.index), card]));
+        const counts = new Map((Array.isArray(completed.cardAttempts) ? completed.cardAttempts : [])
+          .filter(card => card?.deckId === progress.deckId)
+          .map(card => [String(card.index), flashcardProgressNumber(card.count)]));
+        const grades = [...Object.entries(progress.outcomes), ...Object.entries(progress.answers)];
+        const covered = grades.length > 0 && grades.every(([index, status]) => {
+          const card = outcomes.get(index);
+          const localTime = flashcardProgressNumber(progress.outcomeTimes[index]);
+          const cloudTime = flashcardProgressNumber(card?.answeredAt);
+          return ["red", "green"].includes(status)
+            && ["red", "green"].includes(card?.status)
+            && localTime > 0 && cloudTime >= localTime
+            && (cloudTime > localTime || card.status === status);
+        }) && progress.initialQueue.every(index => outcomes.has(String(index)))
+          && Object.entries(progress.cardAttemptCounts).every(([index, count]) => (
+            outcomes.has(index)
+            && (counts.get(index) ?? 1) >= flashcardProgressNumber(count)
+          ));
+        if (!covered) continue;
+        delete payload[key];
+        removed = true;
+      }
+      // Reconcile the entire record again: any unrelated unresolved edit still
+      // blocks it. The replacement uses the normal durable receipt/ack path.
+      return removed
+        ? reconcileFlashcardStateMutation({ ...record, payload }, canonicalValue)
+        : unresolved;
+    }
+
     function createRecoveredFlashcardOutboxMutation(record) {
       const recoveryCode = flashcardTerminalRecoveryCode(record);
       if (!recoveryCode) return null;
       const canonicalValue = flashcardCanonicalValue(record.key);
-      const reconciliation = reconcileFlashcardStateMutation(record, canonicalValue);
+      let reconciliation = reconcileFlashcardStateMutation(record, canonicalValue);
+      if (!reconciliation.safe && record.key === PROGRESS_KEY
+        && reconciliation.reason.startsWith("progress-delete-edit-overlap:")) {
+        reconciliation = reconcileCompletedFlashcardProgressMutation(record, canonicalValue);
+      }
       if (!reconciliation.safe) return null;
       const replacement = createFastForwardedFlashcardOutboxMutation(
         record,
