@@ -1,4 +1,4 @@
-import { DREAM_CLOUDS,DREAM_BELLY } from './sentence-structure-dream-geometry.mjs?v=20260912-garden-normal';
+import { DREAM_CLOUDS,DREAM_BELLY,DREAM_ART } from './sentence-structure-dream-geometry.mjs?v=20260912-dream-normal';
 
 // One complete repaint keeps cloud motion and breathing free of stale silhouettes.
 function livingMask(image){
@@ -17,11 +17,11 @@ void main(){v_uv=vec2(a_position.x*.5+.5,.5-a_position.y*.5);gl_Position=vec4(a_
 const fragment=`precision highp float;
 uniform sampler2D u_image;uniform sampler2D u_mask;uniform float u_time;uniform float u_motion;varying vec2 v_uv;
 void main(){
- vec3 mask=texture2D(u_mask,v_uv).rgb;vec2 p=v_uv*vec2(1536.,1024.);float t=u_time;
+ vec3 mask=texture2D(u_mask,v_uv).rgb;vec2 p=v_uv*vec2(${DREAM_ART.width}.,${DREAM_ART.height}.);float t=u_time;
  vec2 delta=vec2(sin(t*.25+p.y*.018)*2.6,cos(t*.18+p.x*.012)*.85)*mask.r;
  float breath=sin(t*6.28318530718/5.8)*.013;
- delta+=vec2((p.x-387.)*(-breath*.25),(p.y-469.)*(-breath))*mask.g;
- vec2 uv=clamp(v_uv+delta*u_motion/vec2(1536.,1024.),vec2(.0001),vec2(.9999));
+ delta+=vec2((p.x-${DREAM_BELLY.x}.)*(-breath*.25),(p.y-${DREAM_BELLY.anchor}.)*(-breath))*mask.g;
+ vec2 uv=clamp(v_uv+delta*u_motion/vec2(${DREAM_ART.width}.,${DREAM_ART.height}.),vec2(.0001),vec2(.9999));
  gl_FragColor=vec4(texture2D(u_image,uv).rgb,1.);
 }`;
 export function createDreamScenery(canvas,image){

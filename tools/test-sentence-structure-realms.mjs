@@ -32,6 +32,6 @@ test('rabbit ears and eyelids move continuously around a fixed resting body',()=
  for(let i=1;i<frames.length;i++)for(const k of ['left','right','rock','blink'])assert.ok(Math.abs(frames[i][k]-frames[i-1][k])<.3,k+' has no pose jump');
 });
 test('all four realms retain full painted overview coverage',()=>{
- assert.equal(SENTENCE_REALMS.width,1600);assert.equal(SENTENCE_REALMS.height,7284);assert.equal(SENTENCE_REALMS.minimumZoom,.5);assert.deepEqual(SENTENCE_REALMS.cameraPadding,{left:800,right:800});
+ assert.equal(SENTENCE_REALMS.width,1600);assert.equal(SENTENCE_REALMS.height,7000);assert.equal(SENTENCE_REALMS.minimumZoom,.5);assert.deepEqual(SENTENCE_REALMS.cameraPadding,{left:800,right:800});
  assert.equal(realmsIsWalkable({x:-300,y:2500}),false);assert.ok(realmsIsWalkable(nodes.at(-1)));
 });

@@ -1,31 +1,42 @@
-.sentence-dream-realm {position:absolute;left:0;width:1600px;height:2134px;pointer-events:none;}
-.dream-background,.dream-living-scenery {position:absolute;left:-800px;top:0;width:3200px;height:2134px;max-width:none;pointer-events:none;}
-.dream-moon {position:absolute;animation:dream-moon-rock 13s ease-in-out -3s infinite alternate;transform-origin:50% 65%;}
+.sentence-dream-realm {position:absolute;left:0;width:1600px;height:1850px;pointer-events:none;}
+.dream-background,.dream-living-scenery {position:absolute;left:-800px;top:0;width:3200px;height:1850px;max-width:none;pointer-events:none;}
+.dream-moon {position:absolute;animation:dream-moon-rock 9s ease-in-out -2s infinite;transform-origin:50% 50%;}
 .dream-moon img {width:100%;height:100%;filter:drop-shadow(0 0 15px #ffd68664);}
-.dream-hanging-star {position:absolute;transform-origin:50% 0;animation:dream-star-float var(--duration) ease-in-out var(--delay) infinite alternate;}
+.dream-hanging-star {position:absolute;transform-origin:50% 0;animation:dream-star-float var(--duration) ease-in-out var(--delay) infinite;}
 .dream-star-string {position:absolute;left:50%;top:0;width:1.5px;height:var(--hang);background:linear-gradient(#c79c6738,#efc9858a);}
-.dream-star-light {position:absolute;top:var(--hang);left:0;width:100%;aspect-ratio:1;animation:dream-star-glow calc(var(--duration) + 2s) ease-in-out var(--delay) infinite alternate;}
+.dream-star-light {position:absolute;top:var(--hang);left:0;width:100%;aspect-ratio:1;animation:dream-star-glow calc(var(--duration) + 2s) ease-in-out var(--delay) infinite;}
 .dream-star-light::before {content:"";position:absolute;inset:-36%;background:radial-gradient(circle,#ffd77744,transparent 65%);filter:blur(6px);}
 .dream-star-light img {position:relative;display:block;width:100%;height:100%;}
 .dream-castle-flag,.dream-toy-train {position:absolute;overflow:visible;pointer-events:none;}
-.dream-twinkle {position:absolute;border-radius:50%;background:#fff3d5;box-shadow:0 0 4px #ffdda57a;animation:dream-twinkle var(--duration) ease-in-out var(--delay) infinite alternate;}
-.dream-level-light {position:absolute;left:17px;top:-6px;width:146px;height:77px;border-radius:50%;border:1px solid #f4d491;background:radial-gradient(ellipse at 42% 33%,#fffdf2 0%,#fff2d6 51%,#e6cba8 83%,#bd9979 100%);box-shadow:0 4px 0 #8d725cb8,0 0 18px #ffe9ba54,inset 0 3px 3px #fff9e8;}
-[data-theme="sentence-shore"] .expression-map-stone[data-dream] .expression-map-stone-number {top:6px;color:#564869;text-shadow:0 1px #fffdf1;}
+.dream-twinkle {position:absolute;border-radius:50%;background:#fff3d5;box-shadow:0 0 7px 2px #ffdda5a0;animation:dream-twinkle var(--duration) ease-in-out var(--delay) infinite;}
+ .dream-quilt-trail {position:absolute;left:0;top:0;overflow:visible;}
+.dream-quilt-trail path {fill:none;stroke-linecap:round;stroke-linejoin:round;}
+.dream-trail-shadow {stroke:#53485955;stroke-width:47px;transform:translateY(6px);filter:url(#dream-trail-soft);}
+.dream-trail-edge {stroke:#b5967b;stroke-width:43px;opacity:.65;}
+.dream-trail-fabric {stroke:#e6c5a2;stroke-width:38px;opacity:.82;}
+.dream-trail-stitches {stroke:#fff0cd;stroke-width:1.5px;stroke-dasharray:2 12;opacity:.65;}
+.dream-level-shadow {position:absolute;left:7px;top:47px;width:168px;height:28px;border-radius:50%;background:#40364f;opacity:.23;filter:blur(8px);}
+.dream-level-cushion {position:absolute;left:3px;top:-9px;width:174px;height:88px;max-width:none;}
+[data-theme="sentence-shore"] .expression-map-stone[data-dream] .expression-map-stone-number {top:9px;color:#564869;text-shadow:0 1px #fffdf1;}
 [data-theme="sentence-shore"] .expression-map-stone[data-dream] .expression-map-stone-caption {top:88px;color:#40384e;border:1px solid #decfaf;border-radius:12px;background:#fff7e5f5;}
 [data-theme="sentence-shore"] .expression-map-stone[data-dream] .expression-map-stone-status {top:49px;right:10px;background:#fdf4e2;color:#574b65;border-color:#ddcbaa;}
 [data-theme="sentence-shore"] .expression-map-stone[data-dream][data-complete=true] .expression-map-stone-status {background:#8d754b;color:#fff7e0;}
-.expression-map-stone[data-dream][aria-pressed=true] .dream-level-light {box-shadow:0 3px 0 #a18c69,0 0 24px #fff1c48c,inset 0 2px 2px #fffdf3;}
-.expression-map-stone[data-dream]:hover .dream-level-light {filter:brightness(1.07);}
+.expression-map-stone[data-dream][aria-pressed=true] .dream-level-cushion {filter:drop-shadow(0 0 8px #fff0c5b3);}
+.expression-map-stone[data-dream]:hover .dream-level-cushion {filter:brightness(1.07);}
 .dream-realm-sign {position:absolute;color:#fff0cf;background:#3f3d62d9;border:1px solid #bba87b77;border-radius:18px;padding:6px 19px;font-size:15px;letter-spacing:.08em;}
 .dream-flag-emblem {display:none;}.expression-map-flag.is-dream .dream-flag-emblem {display:block;}.expression-map-flag.is-dream .shore-pennant>path:nth-child(2) {display:none;}
 [data-current-realm="dream"] .expression-map-lesson-card {background:linear-gradient(125deg,#fff8eb,#eee8f4);border-color:#bdb0c9;}
 [data-current-realm="dream"] .expression-map-lesson-card::before {background:#fff8eb;border-color:#bdb0c9;}
 [data-current-realm="dream"] .expression-map-open,[data-current-realm="dream"] .expression-map-selected-number {background:#59506d;border-color:#49405f;box-shadow:0 4px 0 #353047;}
-@keyframes dream-star-float {from{transform:translateY(-4px);}to{transform:translateY(5px);}}
-@keyframes dream-star-glow {from{opacity:.72;filter:brightness(.91);}to{opacity:1;filter:brightness(1.05);}}
-@keyframes dream-moon-rock {from{transform:rotate(-2deg);}to{transform:rotate(2deg);}}
-@keyframes dream-twinkle {from{opacity:.12;transform:scale(.8);}to{opacity:.67;transform:scale(1.1);}}
+@keyframes dream-star-float {0%,100%{transform:translateY(-11px);}50%{transform:translateY(11px);}}
+@keyframes dream-star-glow {0%,100%{opacity:.6;filter:brightness(.85);}50%{opacity:1;filter:brightness(1.18);}}
+@keyframes dream-moon-rock {0%,100%{transform:rotate(-9deg);}50%{transform:rotate(9deg);}}
+@keyframes dream-twinkle {0%,100%{opacity:.1;transform:scale(.65);}45%,55%{opacity:1;transform:scale(1.2);}}
 @media(prefers-reduced-motion:reduce){.dream-hanging-star,.dream-star-light,.dream-moon,.dream-twinkle{animation:none!important;}.dream-twinkle{opacity:.35;}}
 
-.dream-ambient-glow {position:absolute;pointer-events:none;border-radius:50%;background:radial-gradient(circle,#ffe6af6b,transparent 65%);mix-blend-mode:screen;filter:blur(5px);animation:dream-ambient-glow var(--duration) ease-in-out var(--delay) infinite alternate;}
-@keyframes dream-ambient-glow {from{opacity:.27;transform:scale(.95);}to{opacity:.57;transform:scale(1.04);}}
+.dream-ambient-glow {position:absolute;pointer-events:none;border-radius:50%;background:radial-gradient(circle,#ffe6af6b,transparent 65%);mix-blend-mode:screen;filter:blur(5px);animation:dream-ambient-glow var(--duration) ease-in-out var(--delay) infinite;}
+@keyframes dream-ambient-glow {0%,100%{opacity:.27;transform:scale(.95);}50%{opacity:.57;transform:scale(1.04);}}
+
+.dream-twinkle-cross::before,.dream-twinkle-cross::after {content:"";position:absolute;background:#fff4da;border-radius:50%;}
+.dream-twinkle-cross::before {left:-45%;top:35%;width:190%;height:30%;}
+.dream-twinkle-cross::after {left:35%;top:-45%;width:30%;height:190%;}

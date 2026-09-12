@@ -1,40 +1,31 @@
-# Dream bedroom realm — lessons 91–120
+# Dream pillow-cloud realm — lessons 91–120
 
-The fourth sentence-structure realm uses the supplied bedroom reference: warm lamps, navy cushions, an arched night window, a sleeping bear, a toy castle and an oval wooden railway. The final background replaces selected central cream pillows with soft cloud banks. Red and blue cushions and the foreground railway pillow remain.
+The complete main composition now fits the original 1600-unit map width. The 3200-unit painting includes quiet scenery on either side, revealed on zoom out. The camera retains readable 18-unit captions (15.8 screen pixels at the tested 1440-pixel desktop width), with the first dream view starting 145 units into the realm. The realm is 1850 units tall; later stops remain available through normal scrolling and walking.
 
-## Asset files
+## Artwork and placement
 
-- `background.webp`: final cloud-and-cushion landscape, 1536 × 1024, mapped to 3200 × 2134 world units.
-- `star.webp`, `moon.webp`: generated transparent cutouts; original alpha preserved.
-- `train.webp`: three transparent top-view wooden car cutouts. Runtime projection and shaded body depth keep them upright over the oval railway.
-- `ARTWORK-PROMPTS.md`: exact built-in image generation/edit prompts.
+- `background-normal.webp`: the current 1672 × 941 painting, mapped to 3200 × 1850 with a left offset of −800. The bear, lamp, crescent, seven hanging stars, castle, lantern globe, tent and complete railway fit the normal entry view.
+- `cushion.webp`: a softly painted, transparent ivory cushion with gold piping. Soft contact shadows replace the rigid coin rims.
+- Thirty lesson cushions follow a curved quilted trail. The trail is internal to the dream realm; no connector strips cross the cloud borders.
+- `star.webp` and `moon.webp`: independent transparent cutouts. These objects, castle flags, train and rails are absent from the background, preventing duplicate silhouettes.
+- `background.webp` and `train.webp` are retained legacy assets and are no longer loaded by this realm.
+- `NORMAL-VIEW-PROMPTS.md` records exact built-in ImageGen prompts and final master paths. The older `ARTWORK-PROMPTS.md` records earlier iterations.
 
-Masters and local QA artifacts: `/Users/sammak/Documents/ChatGPT/Astra/outputs/sentence-dream-assets/`. The final background master is `background-clouds.png`; `background.png` preserves the preceding pillow version.
+## Motion at normal zoom
 
-## Motion and framing
+- Stars move ±11 world pixels over 5.4–7.26 seconds and brighten/dim on separate phases. Standard-view browser samples verify more than 15 screen pixels of vertical travel for every star.
+- The moon rocks from −9° to +9° over nine seconds. Four flags wave about fixed poles, with changing fold shading.
+- Thirty-two sparse distant points include eight small cross-shaped glints. Opacity ranges from 0.1 to 1 with staggered timing.
+- Clouds move inside feathered masks in one complete GPU repaint. Castle walls and the sleeping face remain stationary. The belly deformation has a 1.3% envelope over 5.8 seconds.
+- Six restrained lamp/window blooms pulse independently.
+- A real three-dimensional wooden locomotive and two wagons follow the same closed rail geometry over a continuous 34-second loop. Upright bodies, rotating wheels, connecting rods, couplings and contact shadows replace the flattened sprite train. Rail gauge matches wheel placement.
+- Three.js r186 and RoundedBoxGeometry are vendored under `assets/vendor/three-r186/`, with the MIT license. `train-fallback.webp` is a rendered compatibility frame for browsers without WebGL2; those browsers retain a static train.
+- Motion shares the map lifecycle and reduced-motion setting. GPU resources are released on teardown.
 
-- Seven suspended stars float slowly and pulse gently, with six additional restrained lamp/window blooms.
-- Clouds move inside feathered masks using one complete repaint. Selected central cloud banks also move. Castle walls, book edges and the bear face stay still.
-- The crescent rocks by two degrees in either direction; four flags flex around fixed poles.
-- Three train cars complete a continuous 72-second oval loop. Position and heading remain continuous across the repeat.
-- The exposed bear belly breathes over 5.8 seconds with a 1.3% deformation envelope.
-- Twenty-two tiny distant points twinkle at staggered intervals.
-- Motion uses the existing map animation lifecycle, pauses with the map, and respects reduced motion.
-- Dream standard framing uses the complete 3200-unit painted width. Garden framing was subsequently corrected: its full composition fits inside the normal 1600-unit map, with quiet scenery outside it. See `../zen/NORMAL-VIEW.md`.
-- A third soft cloud boundary separates lessons 90 and 91. It is freely walkable. No connecting road strips were added.
+## Lesson behavior and verification
 
-## Lesson behavior
+All 120 real mapped lessons, the remaining 225 lesson links, account-owned progress, three companions and the single saved location retain their contracts. Cloud borders remain freely walkable. Garden framing and its five visible lamps are unchanged.
 
-The map displays the existing real lessons 1–120. Lessons 121–345 remain in the list. Lesson content, questions, progress ownership, three companions and the single saved location retain their existing contracts.
+The browser fixture checks normal framing and label size, actual pixel motion, star displacement, moon angle, flag-tip displacement, twinkle intensity, label/cushion collisions, train travel, account isolation, saved locations, realm traversal, reduced motion and desktop/tablet/phone layouts. The route suite checks all 14,400 ordered lesson pairs.
 
-## Verification
-
-- Unit coverage: every ordered pair of 120 level destinations is reachable; continuous train travel and breathing; realm geometry and default camera behavior.
-- Local browser fixture: all 120 real lesson links; accounts and saved locations; standard garden framing; actual changing cloud/belly pixels with fixed face/castle pixels; star, flag, moon, train, lamp and twinkle motion; realm border travel; reduced motion; desktop, tablet and phone views.
-- Existing coastal, autumn, garden and shared map browser regression suites.
-- Public release must pass the repository Pages checks and canonical deployed file hashes before reporting publication complete.
-
-## Preserve in future edits
-
-Keep the scene spacious, with broad painted forms. Avoid granular textures, excessive decoration, duplicate silhouettes, pose crossfades and unrequested connecting strips. Preserve the garden's moss/grass, stone paving, blurred realm clouds and visible cooking steam.
-
+Local preview and QA output: `/Users/sammak/Documents/ChatGPT/Astra/outputs/sentence-dream-normal-view/`. Publication is complete only after Pages checks and canonical deployed-file hashes agree with the release commit.

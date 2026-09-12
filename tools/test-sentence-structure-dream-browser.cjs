@@ -48,15 +48,21 @@ window.coastTest={
  await page.locator('.expression-map-picker select').selectOption('ss91');await page.waitForTimeout(3500);
  await page.waitForFunction(()=>document.querySelector('.dream-toy-train').dataset.poses&&document.querySelector('.dream-living-scenery').dataset.renderer);
  assert.equal(await page.locator('[data-map-level="90"]').getAttribute('data-arrived'),'true');
+ const dreamFraming=await viewport.evaluate(el=>{const v=el.getBoundingClientRect(),root=document.querySelector('[data-sentence-map]'),s=+root.dataset.scale;const inside=r=>r.left>=v.left-1&&r.right<=v.right+1&&r.top>=v.top-1&&r.bottom<=v.bottom+1;return {scale:s,zoom:+root.dataset.zoom,labelSize:parseFloat(getComputedStyle(document.querySelector('[data-dream] .expression-map-stone-caption')).fontSize)*s,stars:[...document.querySelectorAll('.dream-star-light')].map(n=>inside(n.getBoundingClientRect())),moon:inside(document.querySelector('.dream-moon').getBoundingClientRect()),flags:[...document.querySelectorAll('.dream-castle-flag')].map(n=>inside(n.getBoundingClientRect())),trainWidth:document.querySelector('.dream-toy-train').getBoundingClientRect().width};});
+ assert.equal(dreamFraming.zoom,1);assert.ok(dreamFraming.scale>.8);assert.ok(dreamFraming.labelSize>=15);assert.ok(dreamFraming.stars.every(Boolean));assert.ok(dreamFraming.moon);assert.ok(dreamFraming.flags.every(Boolean));assert.ok(dreamFraming.trainWidth>550);
+ fs.writeFileSync(path.join(out,'dream-standard-framing.json'),JSON.stringify(dreamFraming,null,2));
  await map.screenshot({path:path.join(out,'dream-standard.png')});
+ fs.writeFileSync(path.join(out,'train-fallback.png'),Buffer.from(await page.locator('.dream-toy-train').evaluate(c=>c.toDataURL().split(',')[1]),'base64'));
+ const overlaps=await page.evaluate(()=>{const nodes=[...document.querySelectorAll('.expression-map-stone[data-dream]')].map(el=>({id:el.dataset.mapLevel,caption:el.querySelector('.expression-map-stone-caption').getBoundingClientRect(),cushion:el.querySelector('.dream-level-cushion').getBoundingClientRect()})),bad=[];const overlap=(a,b)=>Math.min(a.right,b.right)-Math.max(a.left,b.left)>2&&Math.min(a.bottom,b.bottom)-Math.max(a.top,b.top)>2;for(const a of nodes)for(const b of nodes)if(a!==b&&(overlap(a.caption,b.cushion)||overlap(a.caption,b.caption)))bad.push([a.id,b.id]);return bad;});
+ assert.deepEqual(overlaps,[],'Labels must not collide with other labels or cushions along the winding trail');
  const samples=[];
  for(let n=0;n<75;n++){
   samples.push(await page.evaluate(()=>{
    const hash=bytes=>{let h=2166136261;for(const b of bytes)h=Math.imul(h^b,16777619);return h;};
    const c=document.querySelector('.dream-living-scenery'),gl=c.getContext('webgl');
    const patch=(x,y,w,h)=>{const a=new Uint8Array(w*h*4);gl.readPixels(x,c.height-y-h,w,h,gl.RGBA,gl.UNSIGNED_BYTE,a);return hash(a);};
-   const train=document.querySelector('.dream-toy-train');
-   return {t:+c.dataset.time,breath:+c.dataset.breath,belly:patch(348,394,85,54),face:patch(310,319,70,37),clouds:[patch(680,285,62,34),patch(1073,262,46,45)],castle:patch(909,225,44,52),train:hash(train.getContext('2d').getImageData(0,0,train.width,train.height).data),poses:JSON.parse(train.dataset.poses),stars:[...document.querySelectorAll('.dream-hanging-star')].map(el=>({move:getComputedStyle(el).transform,light:+getComputedStyle(el.querySelector('.dream-star-light')).opacity})),moon:getComputedStyle(document.querySelector('.dream-moon')).transform,flags:[...document.querySelectorAll('.dream-castle-flag path')].map(el=>el.getAttribute('d')),twinkles:[...document.querySelectorAll('.dream-twinkle')].map(el=>+getComputedStyle(el).opacity),lamps:[...document.querySelectorAll('.dream-ambient-glow')].map(el=>+getComputedStyle(el).opacity)};
+   const train=document.querySelector('.dream-toy-train'),tg=train.getContext('webgl2'),pixels=new Uint8Array(train.width*train.height*4);tg.readPixels(0,0,train.width,train.height,tg.RGBA,tg.UNSIGNED_BYTE,pixels);
+   return {t:+c.dataset.time,breath:+c.dataset.breath,belly:patch(500,295,65,38),face:patch(490,231,65,34),clouds:[patch(800,285,35,30),patch(1040,340,35,20)],castle:patch(930,190,55,45),train:hash(pixels),poses:JSON.parse(train.dataset.poses),stars:[...document.querySelectorAll('.dream-hanging-star')].map(el=>({move:getComputedStyle(el).transform,y:el.querySelector(".dream-star-light").getBoundingClientRect().y,light:+getComputedStyle(el.querySelector('.dream-star-light')).opacity})),moon:getComputedStyle(document.querySelector('.dream-moon')).transform,moonAngle:Math.atan2(new DOMMatrix(getComputedStyle(document.querySelector('.dream-moon')).transform).b,new DOMMatrix(getComputedStyle(document.querySelector('.dream-moon')).transform).a)*180/Math.PI,flags:[...document.querySelectorAll('.dream-castle-flag path')].map(el=>el.getAttribute('d')),flagTips:[...document.querySelectorAll('.dream-castle-flag path')].map(el=>+el.getAttribute('d').split('L')[0].split(' ').at(-1)),twinkles:[...document.querySelectorAll('.dream-twinkle')].map(el=>+getComputedStyle(el).opacity),lamps:[...document.querySelectorAll('.dream-ambient-glow')].map(el=>+getComputedStyle(el).opacity)};
   }));await page.waitForTimeout(200);
  }
  fs.writeFileSync(path.join(out,'dream-motion.json'),JSON.stringify(samples,null,2));
@@ -65,16 +71,16 @@ window.coastTest={
  for(let i=0;i<2;i++)assert.ok(distinct(samples.map(s=>s.clouds[i]))>30,'Background cloud pixels move');
  assert.ok(distinct(samples.map(s=>s.train))>30,'Toy train paints many clean moving frames');
  for(let i=0;i<3;i++)assert.ok(range(samples.map(s=>s.poses[i].x))>45,'Every train car travels forward');
- for(let i=0;i<7;i++){assert.ok(distinct(samples.map(s=>s.stars[i].move))>30);assert.ok(range(samples.map(s=>s.stars[i].light))>.09);}
- assert.ok(distinct(samples.map(s=>s.moon))>30,'Moon gently rocks');
- for(let i=0;i<4;i++)assert.ok(distinct(samples.map(s=>s.flags[i]))>30,'Each castle flag sways');
- for(let i=0;i<22;i++)assert.ok(range(samples.map(s=>s.twinkles[i]))>.2);
+ for(let i=0;i<7;i++){assert.ok(range(samples.map(s=>s.stars[i].y))>15,'Hanging star travels at least 15 screen pixels at normal zoom');assert.ok(range(samples.map(s=>s.stars[i].light))>.09);}
+ assert.ok(range(samples.map(s=>s.moonAngle))>17,'Moon visibly rocks through more than 17 degrees');
+ for(let i=0;i<4;i++)assert.ok(range(samples.map(s=>s.flagTips[i]))>10,'Each flag tip moves over 10 source pixels (17 screen pixels at normal zoom)');
+ for(let i=0;i<32;i++){assert.ok(range(samples.map(s=>s.twinkles[i]))>.85);assert.ok(Math.max(...samples.map(s=>s.twinkles[i]))>.95);}
  for(let i=0;i<6;i++)assert.ok(range(samples.map(s=>s.lamps[i]))>.08);
- await viewport.evaluate(el=>{el.scrollTop=(5150+650)*Number(document.querySelector('[data-sentence-map]').dataset.scale);});await map.screenshot({path:path.join(out,'dream-train-view.png')});
+ await viewport.evaluate(el=>{el.scrollTop=(5150+520)*Number(document.querySelector('[data-sentence-map]').dataset.scale);});await map.screenshot({path:path.join(out,'dream-train-view.png')});
  await page.evaluate(async()=>{
-  const {createDreamTrain}=await import('/sentence-structure-dream-motion.mjs');const load=async name=>{const i=new Image();i.src='/assets/sentence-structure/dream/'+name+'.webp';await i.decode();return i;};
-  const [bg,atlas]=await Promise.all([load('background'),load('train')]),rig=createDreamTrain(atlas),panel=document.createElement('div');panel.id='train-loop-review';panel.style='position:fixed;inset:0;z-index:99999;background:#302e41;padding:22px;display:grid;grid-template-columns:1fr 1fr;gap:12px;color:#ffefd3;font:16px system-ui';
-  for(const t of [0,18,36,54]){const cell=document.createElement('div'),c=document.createElement('canvas'),moving=document.createElement('canvas');c.width=moving.width=860;c.height=moving.height=352;c.style='width:100%;height:auto';c.getContext('2d').drawImage(bg,1047,719,430,176,0,0,860,352);rig.paint(moving,t);c.getContext('2d').drawImage(moving,0,0);cell.append(c,document.createElement('br'),`Train at ${t} seconds`);panel.append(cell);}document.body.append(panel);
+  const {createDreamTrain}=await import('/sentence-structure-dream-train.mjs');const bg=new Image();bg.src='/assets/sentence-structure/dream/background-normal.webp';await bg.decode();
+  const panel=document.createElement('div');panel.id='train-loop-review';panel.style='position:fixed;inset:0;z-index:99999;background:#302e41;padding:22px;display:grid;grid-template-columns:1fr 1fr;gap:12px;color:#ffefd3;font:16px system-ui';
+  for(const t of [0,8.5,17,25.5]){const cell=document.createElement('div'),c=document.createElement('canvas'),moving=document.createElement('canvas');c.width=1320;c.height=720;c.style='width:100%;height:auto';const ctx=c.getContext('2d');ctx.drawImage(bg,(780+800)*1672/3200,590*941/1850,660*1672/3200,360*941/1850,0,0,1320,720);const rig=createDreamTrain(moving);rig.paint(t);ctx.drawImage(moving,0,0);rig.destroy();cell.append(c,document.createElement('br'),`Train at ${t} seconds`);panel.append(cell);}document.body.append(panel);
  });await page.locator('#train-loop-review').screenshot({path:path.join(out,'train-loop-review.png')});await page.locator('#train-loop-review').evaluate(el=>el.remove());
  await page.locator('[data-save-location]').click();await page.locator('[data-character=elsie]').click();assert.equal(await page.locator('.expression-map-flag.is-dream').count(),1);assert.equal(await page.locator('.expression-map-flag.is-zen').count(),0);
  await page.evaluate(()=>coastTest.logout());await page.evaluate(()=>coastTest.login('dream-other'));assert.equal(await page.locator('.expression-map-flag').isVisible(),false);

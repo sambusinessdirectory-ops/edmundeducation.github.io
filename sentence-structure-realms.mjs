@@ -1,11 +1,11 @@
 import { levelPositions } from './common-expression-map.mjs?v=20260912-dream1';
 import { SENTENCE_COAST, SHORE_LAYOUT } from './sentence-structure-coast.mjs?v=20260912-autumn1';
-import { AUTUMN_OFFSET, realmsPath, realmsStep } from './sentence-structure-realms-navigation.mjs?v=20260912-garden-normal';
+import { AUTUMN_OFFSET, realmsPath, realmsStep } from './sentence-structure-realms-navigation.mjs?v=20260912-dream-normal';
 import { createAutumnRabbit, rabbitMotion } from './sentence-structure-autumn-rabbit.mjs?v=20260912-autumn1';
 import { ZEN_OFFSET,ZEN_HEIGHT,ZEN_LAYOUT } from './sentence-structure-zen-geometry.mjs?v=20260912-garden-normal';
 import { zenTerrain,zenOverlay,decorateZenStones,mountZen } from './sentence-structure-zen.mjs?v=20260912-garden-normal';
-import { DREAM_OFFSET,DREAM_HEIGHT,dreamPositions } from './sentence-structure-dream-geometry.mjs?v=20260912-garden-normal';
-import { dreamTerrain,decorateDreamStones,mountDream } from './sentence-structure-dream.mjs?v=20260912-garden-normal';
+import { DREAM_OFFSET,DREAM_HEIGHT,dreamPositions } from './sentence-structure-dream-geometry.mjs?v=20260912-dream-normal';
+import { dreamTerrain,decorateDreamStones,mountDream } from './sentence-structure-dream.mjs?v=20260912-dream-normal';
 const ART='./assets/sentence-structure/autumn/';
 export const AUTUMN_LAYOUT={startX:160,columnGap:205,rowYs:[520,1010,1250,1490,1710]};
 export function sentenceRealmPositions(lessons){return [
@@ -70,6 +70,6 @@ function mount(root,reduced){
 export const SENTENCE_REALMS=Object.freeze({
  id:'sentence-shore',title:'海岸・秋林・庭園・星夢之旅',kicker:'THE SENTENCE JOURNEY',width:1600,height:DREAM_OFFSET+DREAM_HEIGHT,
  cameraPadding:{left:800,right:800},minimumZoom:.5,positions:sentenceRealmPositions,terrain,mount,overlay:overlay+zenOverlay,
- cameraViewWidth:point=>point.y>=DREAM_OFFSET?3200:1600,cameraScaleFloor:point=>point.y>=DREAM_OFFSET?.3:.7,
- navigation:{path:realmsPath,step:realmsStep},cameraTop:({point,scale,height,zoom})=>zoom===1&&height>=600?(point.y<625?0:point.y>=DREAM_OFFSET&&point.y<DREAM_OFFSET+1150?(DREAM_OFFSET+45)*scale:point.y>=ZEN_OFFSET&&point.y<ZEN_OFFSET+430?(ZEN_OFFSET+15)*scale:point.y*scale-height*.4):point.y*scale-height*.4
+ cameraViewWidth:()=>1600,cameraScaleFloor:()=>.7,
+ navigation:{path:realmsPath,step:realmsStep},cameraTop:({point,scale,height,zoom})=>zoom===1&&height>=600?(point.y<625?0:point.y>=DREAM_OFFSET&&point.y<DREAM_OFFSET+850?(DREAM_OFFSET+145)*scale:point.y>=ZEN_OFFSET&&point.y<ZEN_OFFSET+430?(ZEN_OFFSET+15)*scale:point.y*scale-height*.4):point.y*scale-height*.4
 });

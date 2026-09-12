@@ -1,7 +1,7 @@
 import { shoreIsWalkable } from './sentence-structure-coast-navigation.mjs?v=20260912-sentence2';
 import { ZEN_OFFSET,ZEN_HEIGHT,zenIsWalkable } from './sentence-structure-zen-geometry.mjs?v=20260912-garden-normal';
 
-import { DREAM_OFFSET,DREAM_HEIGHT } from './sentence-structure-dream-geometry.mjs?v=20260912-garden-normal';
+import { DREAM_OFFSET,DREAM_HEIGHT } from './sentence-structure-dream-geometry.mjs?v=20260912-dream-normal';
 
 export const AUTUMN_OFFSET=1950;
 export const REALM_BOUNDS={left:60,right:1540,top:552,bottom:DREAM_OFFSET+DREAM_HEIGHT-65};
