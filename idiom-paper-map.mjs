@@ -1,5 +1,5 @@
 import {createExpressionMap} from './common-expression-map.mjs?v=20260912-toy1';
-import {IDIOM_PAPER_THEME} from './idiom-paper-theme.mjs?v=20260913-paper1';
+import {IDIOM_PAPER_THEME} from './idiom-paper-theme.mjs?v=20260913-paper2';
 export const IDIOM_MAP_LIMIT=30;
 export function idiomMapLessons(lessons) {
   return lessons.slice(0,IDIOM_MAP_LIMIT).map((lesson,index)=>({

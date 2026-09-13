@@ -30,9 +30,9 @@ test('all 900 ordered routes stay on walkable ground or a bridge',()=>{
   const left=nodes[1],right=nodes[2];assert.ok(paperPath(left,right).some(p=>paperOnBridge(p)),'The river crossing uses the timber bridge');
 });
 test('free walking cannot enter blue water or the windmill footprint',()=>{
-  const water={x:500,y:585};assert.ok(paperInWater(water));assert.equal(paperIsWalkable(water),false);assert.equal(paperPath(nodes[0],water),null);
+  const water={x:550,y:520};assert.ok(paperInWater(water));assert.equal(paperIsWalkable(water),false);assert.equal(paperPath(nodes[0],water),null);
   assert.equal(paperIsWalkable({x:PAPER_MILL.x,y:PAPER_MILL.y}),false);
-  const start={x:1335,y:460},end={x:1410,y:460};assert.deepEqual(paperStep(start,end),start);
+  const start={x:1420,y:380},end={x:1475,y:380};assert.deepEqual(paperStep(start,end),start);
 });
 test('both boats remain afloat across complete independent cycles',()=>{
   for(const b of PAPER_BOATS){const frames=times.map(t=>paperBoatMotion(t,b));assert.ok(span(frames.map(p=>p.x))>45);for(const f of frames){for(const dx of [-40,0,40])assert.ok(paperInWater({x:f.x+dx*b.size,y:f.y+4}),`boat hull ${JSON.stringify(f)}`);assert.ok(Math.abs(f.roll)<.03);}}
@@ -46,7 +46,7 @@ test('each castle flag has visible independent flex',()=>{
   assert.notEqual(PAPER_FLAGS[0].phase,PAPER_FLAGS[1].phase);
 });
 test('all inventoried plants sway gently around their fixed roots',()=>{
-  assert.ok(plants.length>=30);assert.deepEqual(new Set(plants.map(p=>p.kind)),new Set(['pine','round','bush','sprout']));
+  assert.ok(plants.length>=30);assert.deepEqual(new Set(plants.map(p=>p.kind)),new Set(['pine','round','tealPine','bush','tealBush','sprout']));
   for(const p of plants){const a=times.map(t=>paperPlantMotion(t,p));assert.ok(Math.min(...a)<-.025);assert.ok(Math.max(...a)>.025);assert.ok(a.every(v=>Math.abs(v)<=.051));assert.ok(!paperInWater(p));}
 });
 test('paper clouds travel gently and the flapping pigeon flies faster in both directions',()=>{
@@ -58,7 +58,7 @@ test('paper clouds travel gently and the flapping pigeon flies faster in both di
   for(const c of PAPER_CLOUDS)assert.ok(birdAverage>4*c.amplitude/c.period*1.7);
 });
 test('the entry camera frames the scenery only while the selected entry remains visible',()=>{
-  const scale=1406/1800,height=672;
+  const scale=1406/1600,height=672;
   assert.equal(IDIOM_PAPER_THEME.cameraTop({point:nodes[0],scale,height,zoom:1}),0);
   for(const y of [(height-50)/scale-1,(height-50)/scale+1,1780]){
     const top=IDIOM_PAPER_THEME.cameraTop({point:{x:700,y},scale,height,zoom:1});assert.ok(y*scale-top>=0&&y*scale-top<=height-45);
