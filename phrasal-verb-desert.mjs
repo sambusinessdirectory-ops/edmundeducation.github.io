@@ -1,5 +1,5 @@
 import {desertPlantArtwork} from './phrasal-verb-desert-plants.mjs?v=20260913-plants3';
-import {desertPositions,desertHeight,desertTrail,createDesertNavigation,DESERT_WATER,tumbleweedMotion,DESERT_MAP_LIMIT} from './phrasal-verb-desert-geometry.mjs?v=20260913-desert2';
+import {desertPositions,desertHeight,desertTrail,createDesertNavigation,DESERT_WATER,tumbleweedMotion,DESERT_MAP_LIMIT} from './phrasal-verb-desert-geometry.mjs?v=20260913-night1';
 const ART='./assets/phrasal-verb/desert/';
 const REGIONS={tumbleweed:[1130,666,332,324]};
 let instance=0;
@@ -60,8 +60,9 @@ export function createDesertTheme(lessons) {
     root.querySelector('[data-zoom=out]').textContent='−';
     root.querySelector('.expression-map-desktop-hint').textContent='點選沙地自由走動 · 拖動探索 · 方向鍵 / WASD';
     root.querySelector('.expression-map-viewport').setAttribute('aria-label','動詞片語沙漠地圖；拖動探索沙丘、點選砂岩石階，或用方向鍵 / WASD 走動。');
-    root.querySelectorAll('.expression-map-stone').forEach((stone,i)=>stone.insertAdjacentHTML('afterbegin',platform(i)));
-    const viewport=root.querySelector('.expression-map-viewport'),weeds=[...root.querySelectorAll('.desert-tumbleweed')],beds=[...root.querySelectorAll('.desert-plant')];
+    root.querySelectorAll('.expression-map-stone:not([data-night])').forEach((stone,i)=>stone.insertAdjacentHTML('afterbegin',platform(i)));
+    const region=root.querySelector('.phrasal-day-section')||root;
+    const viewport=root.querySelector('.expression-map-viewport'),weeds=[...region.querySelectorAll('.desert-tumbleweed')],beds=[...region.querySelectorAll('.desert-plant')];
     let elapsed=0,last=0,lastPaint=0,disposed=false;
     function paint(t) {
       weeds.forEach((element,i)=>{

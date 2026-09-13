@@ -21,16 +21,33 @@ let browser;
  await page.goto(origin+'/phrasal-verb-system.html');await page.waitForFunction(()=>window.desertTest);await page.evaluate(()=>desertTest.login());
  const map=page.locator('[data-phrasal-map]'),viewport=page.locator('.expression-map-viewport');
  await page.waitForSelector('.desert-plant');await map.scrollIntoViewIfNeeded();await viewport.focus();await page.waitForTimeout(1800);
- assert.equal(await page.locator('.expression-map-stone').count(),30);
- assert.equal(await page.locator('.desert-tumbleweed').count(),2);
+ assert.equal(await page.locator('.expression-map-stone').count(),60);
+ assert.equal(await page.locator('.phrasal-day-section .desert-tumbleweed').count(),2);
+ assert.equal(await page.locator('.night-tumbleweed').count(),2);
  await map.screenshot({path:path.join(out,'desert-standard.png')});
  fs.writeFileSync(path.join(out,'framing.json'),JSON.stringify(await page.evaluate(()=>{const r=document.querySelector('[data-phrasal-map]'),v=r.querySelector('.expression-map-viewport');return {viewport:[innerWidth,innerHeight],map:[v.clientWidth,v.clientHeight],scale:+r.dataset.scale,scroll:[v.scrollLeft,v.scrollTop],plantCount:r.querySelectorAll('.desert-plant').length};}),null,2));
  async function assertOverview(){
-  const frame=await page.evaluate(()=>{const root=document.querySelector('[data-phrasal-map]'),v=root.querySelector('.expression-map-viewport').getBoundingClientRect(),a=root.querySelector('.desert-background'),b=a.getBoundingClientRect(),style=getComputedStyle(a);return {overview:root.dataset.overview,art:[b.left,b.top,b.right,b.bottom],view:[v.left,v.top,v.right,v.bottom],mask:style.maskImage,filter:style.filter,count:root.querySelectorAll('[data-map-level]').length};});
-  assert.equal(frame.overview,'true');assert.equal(frame.count,30);assert.equal(frame.mask,'none');assert.equal(frame.filter,'none');
+  const frame=await page.evaluate(()=>{const root=document.querySelector('[data-phrasal-map]'),v=root.querySelector('.expression-map-viewport').getBoundingClientRect(),a=root.querySelector(root.dataset.overviewSection==='night'?'.night-background':'.desert-background'),b=a.getBoundingClientRect(),style=getComputedStyle(a);return {overview:root.dataset.overview,art:[b.left,b.top,b.right,b.bottom],view:[v.left,v.top,v.right,v.bottom],mask:style.maskImage,filter:style.filter,count:root.querySelectorAll('[data-map-level]').length};});
+  assert.equal(frame.overview,'true');assert.equal(frame.count,60);assert.equal(frame.mask,'none');assert.equal(frame.filter,'none');
   assert.ok(frame.art[0]>=frame.view[0]-1&&frame.art[1]>=frame.view[1]-1&&frame.art[2]<=frame.view[2]+1&&frame.art[3]<=frame.view[3]+1,JSON.stringify(frame));
  }
- if(process.env.PREVIEW_ONLY){await page.locator('[data-map-overview]').click();await map.screenshot({path:path.join(out,'desert-overview.png')});return;}
+ if(process.env.PREVIEW_ONLY){await page.emulateMedia({reducedMotion:'reduce'});await page.locator('.expression-map-picker select').selectOption('phrasal-verb-31');await page.waitForTimeout(500);await map.screenshot({path:path.join(out,'night-standard.png')});await page.locator('[data-map-overview]').click();await page.waitForTimeout(150);await map.screenshot({path:path.join(out,'night-overview.png')});return;}
+ if(process.env.FRAMING_ONLY){
+  await page.emulateMedia({reducedMotion:'reduce'});
+  for(const [name,width,height] of [['desktop',1440,1050],['tablet',820,1180],['phone',390,844]]){
+   await page.setViewportSize({width,height});await page.reload();await page.waitForFunction(()=>window.desertTest);await page.evaluate(()=>desertTest.login());await map.scrollIntoViewIfNeeded();
+   await page.locator('[data-phrasal-chapter=night]').click();await page.waitForTimeout(150);
+   assert.equal(await page.locator('[data-phrasal-chapter=night]').getAttribute('aria-pressed'),'true');assert.equal(await page.locator('[data-map-open]').isVisible(),true);
+   await map.screenshot({path:path.join(out,`night-${name}-standard.png`)});
+   await page.locator('[data-map-overview]').click();await page.waitForTimeout(150);await assertOverview();
+   assert.equal(await page.locator('[data-phrasal-chapter=night]').getAttribute('aria-pressed'),'true');
+   await map.screenshot({path:path.join(out,`night-${name}-overview.png`)});
+   await page.locator('.expression-map-picker select').selectOption('phrasal-verb-60');assert.equal(await page.locator('[data-map-open]').isVisible(),true);
+   await map.screenshot({path:path.join(out,`night-${name}-final-overview.png`)});
+   await page.locator('[data-phrasal-chapter=day]').click();await page.waitForTimeout(100);await assertOverview();assert.equal(await page.locator('[data-phrasal-chapter=day]').getAttribute('aria-pressed'),'true');
+  }
+  assert.deepEqual(errors,[]);console.log('PASS: standard and complete night artwork, final-stop entry and reduced-motion chapter controls at three viewport sizes');return;
+ }
  const pixelStart=await viewport.screenshot();
  const motion=[];
  for(let i=0;i<10;i++){
@@ -73,7 +90,7 @@ let browser;
  await viewport.screenshot({path:path.join(out,'desert-lower-oasis.png')});
  await page.locator('[data-map-overview]').click();await assertOverview();
  const allPlantMotion=[];
- for(let frame=0;frame<8;frame++){allPlantMotion.push(await page.locator('.desert-foliage').evaluateAll(es=>es.map(e=>new DOMMatrix(getComputedStyle(e).transform).c*parseFloat(e.parentElement.style.height))));await page.waitForTimeout(650);}
+ for(let frame=0;frame<8;frame++){allPlantMotion.push(await page.locator('.phrasal-day-section .desert-foliage').evaluateAll(es=>es.map(e=>new DOMMatrix(getComputedStyle(e).transform).c*parseFloat(e.parentElement.style.height))));await page.waitForTimeout(650);}
  for(let i=0;i<allPlantMotion[0].length;i++)assert.ok(range(allPlantMotion.map(a=>a[i]))>1,`Overview plant ${i} sways`);
  const lowerA=await viewport.screenshot();await page.waitForTimeout(2000);const lowerB=await viewport.screenshot();
  const lowerRegion=await page.evaluate(()=>{const a=document.querySelector('.desert-background').getBoundingClientRect(),v=document.querySelector('.expression-map-viewport').getBoundingClientRect(),s=+document.querySelector('[data-phrasal-map]').dataset.scale;return {left:Math.round(a.left-v.left+700*s),top:Math.round(a.top-v.top+1060*s),width:Math.floor(180*s),height:Math.floor(45*s)};});
@@ -111,7 +128,57 @@ let browser;
  assert.equal(await page.locator('[data-map-level="0"]').getAttribute('aria-pressed'),'true');assert.equal(await page.locator('.expression-map-flag').isVisible(),false);assert.equal(await page.locator('[data-character=phoebe]').getAttribute('aria-pressed'),'true');
  await page.evaluate(()=>{desertTest.logout();desertTest.login();});
  await page.emulateMedia({reducedMotion:'reduce'});
- const catalogue=await page.evaluate(()=>desertTest.lessons().slice(0,30).map(l=>({id:l.id,title:l.title||l.titleZh})));
+ // The next chapter shares selection, movement and the one account-scoped pin.
+ await page.locator('[data-phrasal-chapter=night]').click();await page.waitForTimeout(100);
+ assert.equal(await page.locator('.expression-map-picker select').inputValue(),'phrasal-verb-31');
+ await page.locator('[data-map-overview]').click();await assertOverview();
+ await page.emulateMedia({reducedMotion:'no-preference'});
+ const nightFrames=[];let nightPixelsA,nightPixelsB;
+ for(let i=0;i<35;i++){
+  nightFrames.push(await page.evaluate(()=>({
+   stars:[...document.querySelectorAll('.night-star')].map(e=>+getComputedStyle(e).opacity),
+   moon:(()=>{const m=new DOMMatrix(getComputedStyle(document.querySelector('.night-moon-disc')).transform);return Math.atan2(m.b,m.a)*180/Math.PI;})(),
+   lights:[...document.querySelectorAll('.night-light-bloom')].map(e=>({opacity:+getComputedStyle(e).opacity,scale:new DOMMatrix(getComputedStyle(e).transform).a})),
+   plants:[...document.querySelectorAll('.night-plant .desert-foliage')].map(e=>new DOMMatrix(getComputedStyle(e).transform).c*parseFloat(e.parentElement.style.height)),
+   weeds:[...document.querySelectorAll('.night-tumbleweed')].map(e=>JSON.parse(e.dataset.motion))
+  })));
+  if(i===0)nightPixelsA=await viewport.screenshot();if(i===5)nightPixelsB=await viewport.screenshot();
+  await page.waitForTimeout(750);
+ }
+ for(let i=0;i<nightFrames[0].stars.length;i++)assert.ok(range(nightFrames.map(f=>f.stars[i]))>.4,`Star ${i} twinkles`);
+ assert.ok(Math.max(...nightFrames.map(f=>f.moon))>6&&Math.min(...nightFrames.map(f=>f.moon))<-5,'Moon occasionally tilts both ways');
+ for(let i=0;i<nightFrames[0].lights.length;i++){assert.ok(range(nightFrames.map(f=>f.lights[i].opacity))>.35,`Light ${i} brightens`);assert.ok(range(nightFrames.map(f=>f.lights[i].scale))>.2,`Light ${i} blooms`);}
+ for(let i=0;i<24;i++)assert.ok(range(nightFrames.map(f=>f.plants[i]))>1,`Night plant ${i} sways`);
+ assert.ok(nightFrames.at(-1).weeds[0].x>nightFrames[0].weeds[0].x+100);assert.ok(nightFrames.at(-1).weeds[1].x<nightFrames[0].weeds[1].x-100);
+ for(const f of nightFrames)for(let i=0;i<2;i++)assert.ok(f.weeds[i].y>=(i?1357:817)&&f.weeds[i].y<=(i?1360:820));
+ const nightPixelRegions={};
+ for(const [name,x,y,width,height] of [['upper-lantern',205,311,65,70],['village-window',407,244,48,36],['lower-lantern',1344,1370,68,78],['stars',620,14,350,112],['stationary-camels',985,234,152,42]]){
+  const region=await page.evaluate(({x,y,width,height})=>{const a=document.querySelector('.night-background').getBoundingClientRect(),v=document.querySelector('.expression-map-viewport').getBoundingClientRect(),s=+document.querySelector('[data-phrasal-map]').dataset.scale;return {left:Math.round(a.left-v.left+x*s),top:Math.round(a.top-v.top+y*s),width:Math.floor(width*s),height:Math.floor(height*s)};},{x,y,width,height});
+  const [a,b]=await Promise.all([nightPixelsA,nightPixelsB].map(buffer=>sharp(buffer).extract(region).removeAlpha().raw().toBuffer()));
+  let changed=0,sum=0;for(let i=0;i<a.length;i++){const delta=Math.abs(a[i]-b[i]);sum+=delta;if(delta>3)changed++;}
+  nightPixelRegions[name]={changedFraction:changed/a.length,meanDelta:sum/a.length};
+  if(name==='stationary-camels')assert.equal(changed,0,'Caravan art stays still');else assert.ok(changed/a.length>(name==='stars'?.001:.01),`${name} changes rendered pixels: ${JSON.stringify(nightPixelRegions[name])}`);
+ }
+ fs.writeFileSync(path.join(out,'night-motion.json'),JSON.stringify({frames:nightFrames,pixels:nightPixelRegions},null,2));
+ await map.screenshot({path:path.join(out,'night-complete-animated.png')});
+ await page.emulateMedia({reducedMotion:'reduce'});await page.waitForTimeout(80);
+ for(const selector of ['.night-star','.night-moon-disc','.night-light-bloom','.night-plant .desert-foliage'])assert.equal(await page.locator(selector).first().evaluate(e=>getComputedStyle(e).animationName),'none');
+ const frozenNight=await page.locator('.night-tumbleweed').first().getAttribute('data-motion');await page.waitForTimeout(300);assert.equal(await page.locator('.night-tumbleweed').first().getAttribute('data-motion'),frozenNight);
+ await clickSand(210,2590);await page.emulateMedia({reducedMotion:'no-preference'});await clickSand(1250,2590);
+ const nightWalk=[];for(let i=0;i<16;i++){nightWalk.push(await hoof());await page.waitForTimeout(220);}
+ assert.ok(nightWalk.at(-1).x>1247);assert.ok(nightWalk.every(p=>Math.abs(p.y-2590)<3),'Night walker crosses open sand freely');
+ await page.emulateMedia({reducedMotion:'reduce'});await clickSand(150,2085);const nightDry=await hoof();await clickSand(365,2085);assert.deepEqual(await hoof(),nightDry,'Night pond rejects destination');
+ await page.locator('.expression-map-picker select').selectOption('phrasal-verb-60');await page.locator('[data-save-location]').click();
+ await page.evaluate(()=>{desertTest.logout();desertTest.login();});assert.equal(await page.locator('.expression-map-flag').getAttribute('data-flag-level'),'phrasal-verb-60');assert.equal(await page.locator('.expression-map-picker select').inputValue(),'phrasal-verb-60');
+ await page.emulateMedia({reducedMotion:'no-preference'});await page.locator('[data-phrasal-chapter=day]').click();
+ const chapterWalk=[];for(let i=0;i<17;i++){chapterWalk.push(await hoof());await page.waitForTimeout(220);}
+ const nightGeometry=await import(new URL('../phrasal-verb-night-geometry.mjs','file://'+__filename));
+ assert.ok(chapterWalk.every(p=>geometry.desertWalkable(p,nightGeometry.JOURNEY_HEIGHT,nightGeometry.JOURNEY_WATER)),'Cross-chapter travel stays dry');
+ assert.equal(await page.locator('.expression-map-picker select').inputValue(),'phrasal-verb-01');assert.ok((await hoof()).y<400);
+ assert.equal(await page.locator('.phrasal-night-section').getAttribute('data-visible'),'false');assert.equal(await page.locator('.night-star').first().evaluate(e=>getComputedStyle(e).animationPlayState),'paused');
+ fs.writeFileSync(path.join(out,'night-navigation.json'),JSON.stringify({nightWalk,chapterWalk},null,2));
+ await page.emulateMedia({reducedMotion:'reduce'});
+ const catalogue=await page.evaluate(()=>desertTest.lessons().slice(0,60).map(l=>({id:l.id,title:l.title||l.titleZh})));
  for(const lesson of catalogue){
   await page.locator('.expression-map-picker select').selectOption(lesson.id);
   assert.equal(await page.locator('[data-map-open]').isVisible(),true,`${lesson.id} entry is reachable`);
@@ -126,7 +193,7 @@ let browser;
  const collisions=await page.locator('.expression-map-stone-caption').evaluateAll(elements=>{const rects=elements.filter(e=>getComputedStyle(e).opacity!=='0').map(e=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,right:r.right,bottom:r.bottom,text:e.textContent};});const hits=[];for(let i=0;i<rects.length;i++)for(let j=i+1;j<rects.length;j++){const a=rects[i],b=rects[j];if(a.x<b.right&&a.right>b.x&&a.y<b.bottom&&a.bottom>b.y)hits.push([a.text,b.text]);}return hits;});assert.deepEqual(collisions,[]);
  assert.equal(await page.locator('.desert-cloud').first().evaluate(e=>getComputedStyle(e).animationName),'none');
  const frozen=await page.locator('.desert-tumbleweed').first().getAttribute('data-motion');await page.waitForTimeout(600);assert.equal(await page.locator('.desert-tumbleweed').first().getAttribute('data-motion'),frozen);
- await page.locator('[data-phrasal-map-toggle]').click();assert.equal(await page.locator('[data-lesson-choice-grid]').isVisible(),true);assert.equal(await page.locator('[data-lesson-choice-grid] [data-open-lesson]').count(),30);assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),299);assert.equal(await map.getAttribute('data-animating'),'false');
+ await page.locator('[data-phrasal-map-toggle]').click();assert.equal(await page.locator('[data-lesson-choice-grid]').isVisible(),true);assert.equal(await page.locator('[data-lesson-choice-grid] [data-open-lesson]').count(),60);assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),269);assert.equal(await map.getAttribute('data-animating'),'false');
  await page.locator('[data-remaining-lesson-grid] [data-open-lesson="phrasal-verb-329"]').click();assert.equal(await page.evaluate(()=>desertTest.state.lessonId),'phrasal-verb-329');await page.evaluate(()=>desertTest.dashboard());await page.locator('[data-phrasal-map-toggle]').click();
  await page.locator('.expression-map-picker select').selectOption('phrasal-verb-01');await map.scrollIntoViewIfNeeded();
  for(const [name,width,height] of [['desktop',1440,1050],['tablet',820,1180],['phone',390,844]]){
@@ -138,10 +205,16 @@ let browser;
   await assertOverview();
   await map.screenshot({path:path.join(out,`desert-${name}-overview.png`)});
   await page.locator('.expression-map-picker select').selectOption('phrasal-verb-30');assert.equal(await page.locator('[data-map-open]').isVisible(),true);
+  await page.locator('[data-phrasal-chapter=night]').click();await page.waitForTimeout(100);await assertOverview();
+  assert.equal(await page.locator('[data-phrasal-chapter=night]').getAttribute('aria-pressed'),'true');
+  await map.screenshot({path:path.join(out,`night-${name}-overview.png`)});
+  await page.locator('.expression-map-picker select').selectOption('phrasal-verb-60');assert.equal(await page.locator('[data-map-open]').isVisible(),true);
+  await page.locator('[data-zoom=in]').click();await page.locator('[data-phrasal-chapter=night]').click();await page.waitForTimeout(250);
+  assert.equal(await page.locator('[data-map-open]').isVisible(),true);await map.screenshot({path:path.join(out,`night-${name}.png`)});
  }
  await page.emulateMedia({reducedMotion:'no-preference'});await page.locator('.expression-map-picker select').selectOption('phrasal-verb-01');await page.waitForTimeout(3400);await map.scrollIntoViewIfNeeded();await page.evaluate(()=>window.dispatchEvent(new Event('blur')));assert.equal(await map.getAttribute('data-animating'),'true');
  assert.equal(await page.evaluate(()=>desertTest.state.attempts.length),0,'Travelling creates no learning attempts');
  assert.deepEqual(errors,[]);
  fs.writeFileSync(path.join(out,'browser-results.json'),JSON.stringify({lessons:catalogue.length,collisions,errors,externalRequestsBlocked:requests.length,viewports:['1440x1050','820x1180','390x844']},null,2));
- console.log('PASS: all 30 real map entries and 299 list lessons, motion, caption spacing, progress, pins, accounts, list, reduced motion and responsive views');
+ console.log('PASS: all 60 real map entries and 269 list lessons, motion, caption spacing, progress, pins, accounts, list, reduced motion and responsive views');
 })().catch(e=>{console.error(e);process.exitCode=1;}).finally(async()=>{await browser?.close();server.close();});

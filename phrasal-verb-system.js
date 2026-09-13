@@ -9,8 +9,8 @@
  * phrases are highlighted only when content explicitly supplies `highlight` or
  * `highlights` metadata.
  */
-import { createExpressionMap } from './common-expression-map.mjs?v=20260913-desert2';
-import { createDesertTheme, phrasalMapLessons, phrasalMapCompleted, DESERT_MAP_LIMIT } from './phrasal-verb-desert.mjs?v=20260913-plants3';
+import { createExpressionMap } from './common-expression-map.mjs?v=20260913-night1';
+import { createPhrasalJourney, phrasalJourneyLessons, phrasalMapCompleted, PHRASAL_MAP_LIMIT } from './phrasal-verb-journey.mjs?v=20260913-night1';
 
 let phrasalMap = null;
 const CONFIG = window.EDMUND_PHRASAL_VERB_SYSTEM_CONFIG || {};
@@ -1767,14 +1767,14 @@ function renderLessonChoices() {
   elements.lessonChoiceGrid.innerHTML = `<button class="lesson-choice" type="button" data-open-bookmarks-card data-number="★" data-tone="bookmark">
       <h2>書簽<span>Bookmarks</span></h2>
       <span class="choice-meta"><span>${escapeHtml(sectionBookmarkCount)} 組動詞片語</span><span>${escapeHtml(questionBookmarkCount)} 道題目</span><span>跟隨帳戶同步</span></span>
-    </button>${cards.slice(0, DESERT_MAP_LIMIT).join("")}`;
-  document.querySelector('[data-remaining-lesson-grid]').innerHTML = cards.slice(DESERT_MAP_LIMIT).join("");
-  document.querySelector('[data-phrasal-remaining]').hidden = cards.length <= DESERT_MAP_LIMIT;
-  document.querySelector('[data-phrasal-remaining-count]').textContent = `${Math.max(0, cards.length - DESERT_MAP_LIMIT)} 個課題`;
+    </button>${cards.slice(0, PHRASAL_MAP_LIMIT).join("")}`;
+  document.querySelector('[data-remaining-lesson-grid]').innerHTML = cards.slice(PHRASAL_MAP_LIMIT).join("");
+  document.querySelector('[data-phrasal-remaining]').hidden = cards.length <= PHRASAL_MAP_LIMIT;
+  document.querySelector('[data-phrasal-remaining-count]').textContent = `${Math.max(0, cards.length - PHRASAL_MAP_LIMIT)} 個課題`;
   const mapBookmarkCount = document.querySelector('[data-phrasal-map-bookmarks]');
   if (mapBookmarkCount) mapBookmarkCount.textContent = `(${state.bookmarks.length})`;
   if (!phrasalMap && lessonList().length) {
-    const mappedLessons = phrasalMapLessons(lessonList());
+    const mappedLessons = phrasalJourneyLessons(lessonList());
     const byId = new Map(mappedLessons.map(lesson => [lesson.id, lesson]));
     phrasalMap = createExpressionMap({
       root: document.querySelector('[data-phrasal-map]'),
@@ -1783,7 +1783,7 @@ function renderLessonChoices() {
       lessons: mappedLessons,
       getCompleted: id => phrasalMapCompleted(state.attempts, byId.get(id)),
       openLesson: id => openLesson(id, { page: 1 }),
-      systemKey: 'phrasal-verbs', theme: createDesertTheme(mappedLessons)
+      systemKey: 'phrasal-verbs', theme: createPhrasalJourney(mappedLessons)
     });
   }
   phrasalMap?.update(String(state.user?.id || ''));

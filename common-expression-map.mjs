@@ -239,9 +239,10 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     startAnimation();
   }
   function centerOn(point, smooth=false) {
+    if(root.dataset.overview==='true' && theme?.overviewBounds && theme.overviewBounds(point).key!==root.dataset.overviewSection) {setScale(0,point);return;}
     const wantedWidth=theme?.cameraViewWidth?.(point) ?? WIDTH;
     if(wantedWidth!==cameraViewWidth) { setScale(zoom,point); return; }
-    const top=theme?.cameraTop?.({point,scale,height:viewport.clientHeight,zoom}) ?? point.y*scale-viewport.clientHeight*.4;
+    const top=theme?.cameraTop?.({point,scale,height:viewport.clientHeight,zoom,overview:root.dataset.overview==='true'}) ?? point.y*scale-viewport.clientHeight*.4;
     const contentWidth=WIDTH*scale,viewWidth=viewport.clientWidth;
     const left=padding.left*scale+(contentWidth<=viewWidth?(contentWidth-viewWidth)/2:clamp(point.x*scale-viewWidth/2,0,contentWidth-viewWidth));
     viewport.scrollTo({left,top,behavior:smooth?'smooth':'instant'});
@@ -252,8 +253,9 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     cameraViewWidth=theme?.cameraViewWidth?.(point || position) ?? WIDTH;
     const floor=theme?.cameraScaleFloor?.(point || position) ?? .7;
     const base=minimumMapScale(viewport.clientWidth,viewport.clientHeight,cameraViewWidth,HEIGHT,floor);
+    const overviewBounds=theme?.overviewBounds?.(anchor) ?? {top:0,height:HEIGHT,key:''};
     minimumZoom=theme?.fitOverview
-      ? Math.min(1,viewport.clientWidth/WIDTH/base,viewport.clientHeight/HEIGHT/base)
+      ? Math.min(1,viewport.clientWidth/WIDTH/base,viewport.clientHeight/overviewBounds.height/base)
       : Math.max(theme?.minimumZoom ?? 1,viewport.clientWidth/cameraWidth/base,viewport.clientHeight/HEIGHT/base);
     zoom=clamp(theme?.fitOverview ? nextZoom : Math.round(nextZoom*100)/100,minimumZoom,2);
     scale=base*zoom;
@@ -261,8 +263,9 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
       // Center the complete artwork in a plain frame; never synthesize edge fill.
       padding.left=padding.right=Math.max(0,(viewport.clientWidth/scale-WIDTH)/2);
       space.style.width=`${Math.max(viewport.clientWidth,WIDTH*scale)}px`;
-      space.style.height=`${Math.max(viewport.clientHeight,HEIGHT*scale)}px`;
+      space.style.height=`${Math.max(viewport.clientHeight,HEIGHT*scale,overviewBounds.top*scale+viewport.clientHeight)}px`;
       root.dataset.overview=String(zoom<=minimumZoom+.001);
+      if(theme?.overviewBounds)root.dataset.overviewSection=overviewBounds.key;
       root.querySelector('[data-map-overview]')?.setAttribute('aria-pressed',root.dataset.overview);
     } else {
       space.style.width=`${cameraWidth*scale}px`; space.style.height=`${HEIGHT*scale}px`;
@@ -277,7 +280,8 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   function positionPopup() {
     if(!popup || !viewport || standing<0 || journey || !mode) { if(popup)popup.hidden=true; return; }
     const node=nodes[standing], x=(node.x+padding.left)*scale-viewport.scrollLeft, y=node.y*scale-viewport.scrollTop;
-    if(x<18 || x>viewport.clientWidth-18 || y<0 || y>viewport.clientHeight-45) {popup.hidden=true;return;}
+    const dockedOverview=theme?.fitOverview && root.dataset.overview==='true';
+    if(x<18 || x>viewport.clientWidth-18 || y<0 || y>viewport.clientHeight-(dockedOverview?0:45)) {popup.hidden=true;return;}
     popup.hidden=false;
     const width=popup.offsetWidth, height=popup.offsetHeight;
     const left=clamp(x-width/2,10,Math.max(10,viewport.clientWidth-width-10));

@@ -1,0 +1,44 @@
+.phrasal-day-section,.phrasal-night-section{position:absolute;left:0;top:0;width:1600px;pointer-events:none;overflow:hidden}
+.phrasal-chapters{display:flex;gap:8px;padding:9px 26px;background:#faf1de;border-bottom:1px solid #c8ad7840}
+.phrasal-chapters button{display:flex;align-items:center;gap:8px;padding:8px 16px;border:1px solid #b99c6a;border-radius:20px;background:transparent;color:#715639;font-size:13px;font-weight:650}
+.phrasal-chapters button span{font-size:11px;letter-spacing:.04em}
+.phrasal-chapters button[aria-pressed=true]{background:#795a35;color:#fff6dd;border-color:#795a35}
+.phrasal-chapters button[data-phrasal-chapter=night][aria-pressed=true]{background:#294569;border-color:#294569}
+.phrasal-chapter-divider{position:absolute;left:0;width:1600px;display:flex;align-items:center;justify-content:center;gap:22px;background:#1c3558;color:#f1d399;border-block:2px solid #bf965d;pointer-events:none}
+.phrasal-chapter-divider span{font:500 22px Georgia,serif;letter-spacing:.12em}
+.phrasal-chapter-divider strong{font:500 30px Georgia,serif;letter-spacing:.12em}
+.phrasal-chapter-divider small{font-size:12px;letter-spacing:.19em;opacity:.7}
+.night-background{position:absolute;inset:0;width:1600px;height:100%;max-width:none;pointer-events:none}
+.night-sky{position:absolute;left:0;top:0;width:1600px;height:190px;overflow:visible;pointer-events:none}
+.night-star{animation:night-twinkle var(--period) ease-in-out var(--delay) infinite;transform-box:view-box}
+.night-moon{position:absolute;pointer-events:none}
+.night-moon svg{display:block;width:100%;height:100%}
+.night-moon-disc{transform-origin:50px 50px;animation:night-moon-tilt 22s ease-in-out -8s infinite}
+.night-water,.night-light-layer,.night-route{position:absolute;inset:0;width:1600px;height:100%;pointer-events:none}
+.night-water-surface{opacity:.43;animation:night-water-shift 12s ease-in-out -4s infinite alternate}
+.night-water-ripple{fill:none;stroke:#b3cdcf;stroke-width:1.4;stroke-linecap:round;opacity:0;animation:night-water-ripple 8s ease-in-out var(--delay) infinite}
+.night-light-bloom{animation:night-light-bloom var(--period) ease-in-out var(--delay) infinite;transform-box:view-box}
+.night-route path{fill:none;stroke-linecap:round;stroke-linejoin:round}
+.night-path-shadow{stroke:#624025;stroke-width:86px;opacity:.3;transform:translateY(7px)}
+.night-path-edge{stroke:#b9894d;stroke-width:82px}
+.night-path-sand{stroke:#edc382;stroke-width:73px}
+.night-path-marks{stroke:#b88649;stroke-width:4px;stroke-dasharray:3 29 2 35;opacity:.32}
+.night-plant .desert-foliage{filter:brightness(.63) saturate(.74)}
+.night-tumbleweed{filter:brightness(.81) saturate(.75)}
+.night-coin{position:absolute;left:0;top:-16px;width:180px;height:110px;overflow:visible;pointer-events:none}
+[data-theme=phrasal-desert] .expression-map-stone[data-night] .expression-map-stone-number{top:8px;color:#4e371e}
+[data-theme=phrasal-desert] .expression-map-stone[data-night] .expression-map-stone-status{right:25px;top:43px;background:#fff0cf}
+[data-theme=phrasal-desert] .expression-map-stone[data-night] .expression-map-stone-caption{color:#443626;background:#fbe4bcf2;border-color:#d9b47c}
+[data-theme=phrasal-desert] .expression-map-stone[data-night][data-complete=true] .night-coin-face{fill:#bdd59d}
+[data-theme=phrasal-desert] .expression-map-stone[data-night][aria-pressed=true] .night-coin{filter:drop-shadow(0 0 3px #ffe6a7) drop-shadow(0 0 6px #ffce71)}
+[data-theme=phrasal-desert][data-current-chapter=night] .expression-map-header{background:linear-gradient(115deg,#f6efdf,#e9e6db)}
+[data-overview=true][data-overview-section] .expression-map-viewport{overflow:hidden}
+[data-overview=true][data-overview-section=day] :is(.phrasal-night-section,.phrasal-chapter-divider,.expression-map-stone[data-night]),
+[data-overview=true][data-overview-section=night] :is(.phrasal-day-section,.phrasal-chapter-divider,.expression-map-stone:not([data-night])){visibility:hidden}
+.phrasal-night-section[data-visible=false] *{animation-play-state:paused!important}
+@keyframes night-twinkle{0%,100%{opacity:.24;transform:scale(.74)}42%{opacity:.92;transform:scale(1.13)}62%{opacity:.48;transform:scale(.9)}}
+@keyframes night-moon-tilt{0%,48%,100%{transform:rotate(0)}61%{transform:rotate(8deg)}75%{transform:rotate(-7deg)}89%{transform:rotate(0)}}
+@keyframes night-light-bloom{0%,100%{opacity:.46;transform:scale(.88)}48%{opacity:.96;transform:scale(1.2)}}
+@keyframes night-water-shift{from{transform:translate(-2px,-.5px)}to{transform:translate(2px,.7px)}}
+@keyframes night-water-ripple{0%,100%{opacity:0;transform:translateX(-4px)}45%{opacity:.5}85%{transform:translateX(10px)}}
+@media(max-width:650px){.phrasal-chapters{padding:8px 10px;gap:7px}.phrasal-chapters button{flex:1;justify-content:center;padding:8px 9px;font-size:12px}}

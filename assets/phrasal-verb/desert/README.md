@@ -1,6 +1,6 @@
 # Phrasal Verb desert map
 
-The map covers lessons 1–30. The original cards for lessons 31–329 continue below it. Permanent IDs, questions, grading, progress and bookmarks belong to the existing Phrasal Verb host; the map owns navigation and account-scoped companion/location preferences only.
+This approved day chapter covers lessons 1–30. It is now followed by the [Moonlit Caravan](../night/README.md) for lessons 31–60; original cards for 61–329 continue below the combined map. Permanent IDs, questions, grading, progress and bookmarks belong to the existing Phrasal Verb host; the map owns navigation and account-scoped companion/location preferences only.
 
 ## Artwork and composition
 
@@ -12,11 +12,11 @@ Palms, cacti, reeds and shrubs use `painted-plants.webp`, a 1536 × 1024 built-i
 
 The sandstone platforms and winding trail are native SVG. Open ground allows direct walking in any direction. A small visibility graph routes around the three shores; keyboard steps also test those boundaries. The trail only indicates lesson order. The final two stops end in open sand beyond the lower oasis.
 
-Standard zoom retains readable stops and two-axis panning. Minus or the 全圖 button fits the entire landscape into a plain cream frame. At full overview the arrival card docks below the picture. The optional camera behavior is scoped to this theme. Saved locations beyond lesson 30 recover to the first stop while keeping the chosen companion.
+Standard zoom retains readable stops and two-axis panning. Minus or the 全圖 button fits the current chapter's entire landscape into a plain cream frame. At full overview the arrival card docks below the picture. The optional camera behavior is scoped to this theme. The combined journey accepts saved locations through lesson 60; saved locations outside that range recover to the first stop while keeping the chosen companion.
 
 The landscape prompt/master are retained in `outputs/phrasal-desert-map-v2`; the upgraded plant prompt/master and review images are in `outputs/phrasal-desert-plants-v3`. The built-in tool was used for both paintings; export to WebP used Sharp. There is no new runtime dependency.
 
-## Validation
+## Day-chapter validation (original release)
 
 - `node --test tools/test-phrasal-desert.mjs`: first-30 scope, true identities/question totals, 900 ordered dry routes, direct land travel, three pond obstacles, progress, plant spacing and camera.
 - Host/outbox tests and shared/coast/realm geometry regression: 54 checks passed.
