@@ -1,0 +1,46 @@
+.phrasal-map-actions{display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap;margin:22px 0 14px}
+.phrasal-map-actions .small-button{min-height:44px;border-radius:12px;padding:11px 17px}
+.phrasal-map-actions .expression-map-toggle{background:#f5dbad;border-color:#f5dbad;color:#654124}
+[data-phrasal-map]{margin-bottom:25px}
+[data-theme="phrasal-desert"]{--forest:#473b24;--cream:#fff9ea;border-color:#d6ba89}
+[data-theme="phrasal-desert"] .expression-map-header{background:linear-gradient(110deg,#fff9ed,#f0e4c8)}
+[data-theme="phrasal-desert"] .expression-map-tools{background:#fffaef}
+[data-theme="phrasal-desert"] .expression-map-heading p{color:#8e6639}
+[data-theme="phrasal-desert"] .expression-map-viewport{background:#f4c478;scrollbar-color:#b58e56 #f4dba7}
+[data-theme="phrasal-desert"] .expression-map-stone::before{display:none}
+[data-theme="phrasal-desert"] .expression-map-stone-number{top:3px;color:#664420;font-size:28px}
+[data-theme="phrasal-desert"] .expression-map-stone-status{top:43px;right:16px;background:#fff5d9;color:#5b4828}
+[data-theme="phrasal-desert"] .expression-map-stone-caption{top:76px;background:#fff5dbec;border-color:#f2d39e;color:#573e22;font-weight:600;font-size:18px;box-shadow:0 3px 7px #87602518}
+[data-theme="phrasal-desert"] .expression-map-stone[data-complete=true] .desert-stone-face{fill:#c1d699;stroke:#ecf5c9}
+[data-theme="phrasal-desert"] .expression-map-stone[aria-pressed=true] .desert-platform{filter:drop-shadow(0 0 2px #fffce8) drop-shadow(0 0 5px #fff5cd)}
+[data-theme="phrasal-desert"] .expression-map-stone:hover .desert-platform{filter:brightness(1.08)}
+[data-theme="phrasal-desert"] .expression-map-selected-number{background:#856036}
+[data-theme="phrasal-desert"] .expression-map-lesson-card{border-color:#cbae7d;background:#fff7e5}
+.desert-platform{position:absolute;left:12px;top:-14px;width:156px;height:90px;overflow:visible;pointer-events:none}
+.desert-scenery{position:absolute;inset:0;pointer-events:none}
+.desert-dunes{position:absolute;left:-800px;top:0;width:3200px;height:100%;pointer-events:none}
+.desert-background{position:absolute;left:0;top:0;width:1600px;height:900px;max-width:none;mask-image:linear-gradient(to right,transparent,#000 90px,#000 calc(100% - 90px),transparent),linear-gradient(to bottom,#000 78%,transparent 100%);mask-composite:intersect;pointer-events:none}
+.desert-water{position:absolute;left:0;top:0;width:1600px;height:900px;pointer-events:none}
+.desert-water-surface{opacity:.48;animation:desert-surface var(--duration) ease-in-out var(--delay) infinite alternate}
+.desert-ripple{fill:none;stroke:#eefff6;stroke-width:1.7;stroke-linecap:round;opacity:0;animation:desert-ripple var(--duration) ease-in-out var(--delay) infinite}
+.desert-cloud{position:absolute;opacity:.85;animation:desert-cloud var(--duration) linear var(--delay) infinite var(--direction)}
+.desert-sprite{display:block;width:100%;height:100%;overflow:hidden;pointer-events:none}
+.desert-route{position:absolute;left:0;top:0;width:1600px;height:100%;overflow:visible;pointer-events:none}
+.desert-route path{fill:none;stroke-linecap:round;stroke-linejoin:round}
+.desert-trail-shadow{stroke:#9a6c36;stroke-width:83px;opacity:.16;transform:translateY(6px)}
+.desert-trail-edge{stroke:#dfb276;stroke-width:81px}
+.desert-trail-sand{stroke:#fbe4b1;stroke-width:70px}
+.desert-trail-grain{stroke:#fff4d7;stroke-width:3px;stroke-dasharray:2 35 1 22;opacity:.7}
+.desert-plant{position:absolute;transform:translate(-50%,-100%);pointer-events:none}
+.desert-foliage{display:block;width:100%;height:100%;transform-origin:50% 100%;animation:desert-breeze var(--duration) ease-in-out var(--delay) infinite}
+.desert-plant[data-visible="false"] .desert-foliage{animation-play-state:paused}
+.desert-tumbleweed{position:absolute;left:0;top:0;pointer-events:none;margin-left:-20px;margin-top:-40px}
+.desert-tumbleweed-body{position:absolute;inset:0;transform-origin:50% 50%}
+.desert-tumbleweed-shadow{position:absolute;bottom:-3px;left:5%;width:90%;height:6px;background:#80532335;border-radius:50%;filter:blur(2px)}
+.desert-defs{position:absolute;pointer-events:none}
+@keyframes desert-breeze{0%,100%{transform:skewX(calc(var(--amplitude)*-1))}50%{transform:skewX(var(--amplitude))}}
+@keyframes desert-cloud{from{transform:translateX(-95px)}to{transform:translateX(95px)}}
+@keyframes desert-surface{from{transform:translate(-3px,-.6px)}to{transform:translate(3px,1px)}}
+@keyframes desert-ripple{0%{opacity:0;transform:translate(-8px,-1px)}40%{opacity:.46}100%{opacity:0;transform:translate(13px,3px)}}
+@media(max-width:650px){.phrasal-map-actions .small-button{flex:1}.phrasal-map-actions{gap:8px}}
+@media(prefers-reduced-motion:reduce){[data-theme="phrasal-desert"] *{animation:none!important}}

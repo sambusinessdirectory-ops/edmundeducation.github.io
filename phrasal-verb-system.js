@@ -9,6 +9,10 @@
  * phrases are highlighted only when content explicitly supplies `highlight` or
  * `highlights` metadata.
  */
+import { createExpressionMap } from './common-expression-map.mjs?v=20260912-toy1';
+import { createDesertTheme, phrasalMapLessons, phrasalMapCompleted } from './phrasal-verb-desert.mjs?v=20260913-desert1';
+
+let phrasalMap = null;
 const CONFIG = window.EDMUND_PHRASAL_VERB_SYSTEM_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CONTENT = window.EDMUND_PHRASAL_VERB_SYSTEM_DATA || { version: "missing", lessons: [] };
@@ -398,6 +402,7 @@ function showView(name, { preserveScroll = false } = {}) {
     pauseExerciseClock({ persist: name !== "lesson" && state.lessonPage === EXERCISE_PAGE });
   }
   state.currentView = name;
+  phrasalMap?.setActive(name === 'dashboard');
   document.body.dataset.phrasalVerbView = name;
   for (const view of elements.views) view.hidden = view.dataset.view !== name;
 
@@ -532,6 +537,7 @@ function readSession() {
 }
 
 function clearSession() {
+  phrasalMap?.reset();
   window.clearTimeout(state.exercisePersistTimer);
   state.exercisePersistTimer = null;
   deactivateAttemptSyncContext();
@@ -1762,6 +1768,23 @@ function renderLessonChoices() {
       <h2>書簽<span>Bookmarks</span></h2>
       <span class="choice-meta"><span>${escapeHtml(sectionBookmarkCount)} 組動詞片語</span><span>${escapeHtml(questionBookmarkCount)} 道題目</span><span>跟隨帳戶同步</span></span>
     </button>${cards}`;
+  const mapBookmarkCount = document.querySelector('[data-phrasal-map-bookmarks]');
+  if (mapBookmarkCount) mapBookmarkCount.textContent = `(${state.bookmarks.length})`;
+  if (!phrasalMap && lessonList().length) {
+    const mappedLessons = phrasalMapLessons(lessonList());
+    const byId = new Map(mappedLessons.map(lesson => [lesson.id, lesson]));
+    phrasalMap = createExpressionMap({
+      root: document.querySelector('[data-phrasal-map]'),
+      toggle: document.querySelector('[data-phrasal-map-toggle]'),
+      grid: elements.lessonChoiceGrid,
+      lessons: mappedLessons,
+      getCompleted: id => phrasalMapCompleted(state.attempts, byId.get(id)),
+      openLesson: id => openLesson(id, { page: 1 }),
+      systemKey: 'phrasal-verbs', theme: createDesertTheme(mappedLessons)
+    });
+  }
+  phrasalMap?.update(String(state.user?.id || ''));
+  phrasalMap?.setActive(state.currentView === 'dashboard');
 }
 
 function collectLessonSearchStrings(value, output = [], key = "") {

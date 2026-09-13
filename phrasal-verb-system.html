@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="phrasal-verb-system.css?v=20260908-loading1">
+  <link rel="stylesheet" href="common-expression-map.css?v=20260912-toy1">
+  <link rel="stylesheet" href="phrasal-verb-desert.css?v=20260913-desert1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2">
   <link rel="stylesheet" href="shared-speaking-practice.css?v=20260829-1">
 </head>
@@ -208,6 +210,11 @@
         <div class="lesson-search-results" data-lesson-search-results hidden aria-live="polite"></div>
       </section>
 
+      <div class="phrasal-map-actions">
+        <button class="small-button" type="button" data-open-bookmarks>★ 書簽 <span data-phrasal-map-bookmarks>(0)</span></button>
+        <button class="small-button expression-map-toggle" type="button" data-phrasal-map-toggle aria-pressed="true">課題列表 · Lesson list</button>
+      </div>
+      <section data-phrasal-map aria-label="動詞片語互動沙漠地圖" hidden></section>
       <section class="lesson-choice-grid" data-lesson-choice-grid aria-label="動詞片語選擇"></section>
 
       <section class="history-panel glass-panel" aria-labelledby="history-heading">
@@ -320,6 +327,6 @@
   <script defer src="speaking-system-config.js?v=20260829-1"></script>
 
   <script defer src="shared-speaking-practice.js?v=20260829-2"></script>
-  <script type="module" src="phrasal-verb-system.js?v=20260829-speaking1"></script>
+  <script type="module" src="phrasal-verb-system.js?v=20260913-desert1"></script>
 </body>
 </html>
