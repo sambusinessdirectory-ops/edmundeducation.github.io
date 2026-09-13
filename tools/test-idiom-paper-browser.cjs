@@ -45,6 +45,23 @@ window.paperTest={
   const thumbnail=await preview.evaluate(el=>({src:el.getAttribute('src'),width:el.getBoundingClientRect().width,height:el.getBoundingClientRect().height,alt:el.alt}));
   assert.match(thumbnail.src,/start-the-ball-rolling\.webp$/);assert.equal(thumbnail.width,88);assert.equal(thumbnail.height,68);assert.ok(thumbnail.alt.length>10);
   await page.locator('.expression-map-lesson-card').screenshot({path:path.join(out,'lesson-thumbnail.png')});
+  // Check against the painted terrain and visible sprite pixels, not just the
+  // placement coordinates: these checks catch the former floating back row.
+  const grounding=await page.evaluate(async()=>{
+    const {loadPaperArtwork,drawPaperSprite,PAPER_SPRITES}=await import('./idiom-paper-artwork.mjs?v=20260913-paper4');
+    const {paperPlants}=await import('./idiom-paper-geometry.mjs?v=20260913-paper4');const art=await loadPaperArtwork(),terrain={};
+    for(const key of ['landscape','foreground']){const im=art[key],c=document.createElement('canvas');c.width=im.naturalWidth;c.height=im.naturalHeight;const g=c.getContext('2d');g.drawImage(im,0,0);terrain[key]={g,w:c.width,h:c.height};}
+    const roots=paperPlants().map(p=>{const top=p.y<900,a=terrain[top?'landscape':'foreground'],x=Math.round(p.x/1600*a.w),y=Math.round((top?p.y/900:(p.y-780)/1170)*a.h),[r,g,b]=a.g.getImageData(x,y,1,1).data;return {kind:p.kind,x:p.x,y:p.y,rgb:[r,g,b],onGrass:g>r*.94&&g>b*1.13&&r>b*1.06};});
+    const contact=[];
+    for(const [kind,sprite]of Object.entries(PAPER_SPRITES)){if(!sprite.root)continue;const counts=[];
+      for(const angle of [-.05,0,.05]){const c=document.createElement('canvas');c.width=160;c.height=220;const g=c.getContext('2d'),w=120,h=170;g.translate(80,195);g.rotate(angle);drawPaperSprite(g,art,kind,-w*sprite.root[0]/sprite.rect[2],-h*sprite.root[1]/sprite.rect[3],w,h);g.resetTransform();const pixels=g.getImageData(50,194,60,3).data;let ink=0;for(let i=3;i<pixels.length;i+=4)if(pixels[i]>32)ink++;counts.push(ink);}
+      contact.push({kind,minimumContactPixels:Math.min(...counts)});
+    }
+    return {roots,contact};
+  });
+  assert.deepEqual(grounding.roots.filter(p=>!p.onGrass),[],'Every visible plant root must sit on the painted meadow');
+  for(const p of grounding.contact)assert.ok(p.minimumContactPixels>0,`${p.kind} must touch the ground at both sway extremes`);
+  fs.writeFileSync(path.join(out,'ground-contact.json'),JSON.stringify(grounding,null,2));
   // Hash actual painted pixels during ordinary animation, not just pose equations.
   await page.evaluate(async()=>{
     const geo=await import('./idiom-paper-geometry.mjs');
@@ -104,7 +121,7 @@ window.paperTest={
   }
   await page.setViewportSize({width:1440,height:1050});await map.scrollIntoViewIfNeeded();await page.emulateMedia({reducedMotion:'no-preference'});await page.waitForTimeout(600);assert.ok(+(await page.locator('.paper-effects').getAttribute('data-time'))>0);
   const atlasReview=await page.evaluate(async()=>{
-    const {loadPaperArtwork,drawPaperSprite,PAPER_SPRITES}=await import('./idiom-paper-artwork.mjs?v=20260913-paper3');const art=await loadPaperArtwork();
+    const {loadPaperArtwork,drawPaperSprite,PAPER_SPRITES}=await import('./idiom-paper-artwork.mjs?v=20260913-paper4');const art=await loadPaperArtwork();
     const canvas=document.createElement('canvas');canvas.width=1200;canvas.height=1200;const g=canvas.getContext('2d');
     const keys=Object.keys(PAPER_SPRITES),backgrounds=['#183a3b','#faf0d6','#8b9b56'];
     keys.forEach((key,i)=>{const x=i%4*300,y=Math.floor(i/4)*240;g.fillStyle=backgrounds[i%3];g.fillRect(x,y,300,240);const r=PAPER_SPRITES[key].rect,w=Math.min(260,190*r[2]/r[3]),h=w*r[3]/r[2];drawPaperSprite(g,art,key,x+150-w/2,y+15,w,h);g.fillStyle=i%3?'#1d3630':'#fff8dc';g.font='16px sans-serif';g.fillText(key,x+15,y+225);});
@@ -129,6 +146,6 @@ window.paperTest={
   const overview=await viewport.evaluate(el=>({zoom:+document.querySelector('[data-idiom-map]').dataset.zoom,covered:el.scrollWidth>=el.clientWidth&&el.scrollHeight>=el.clientHeight}));assert.ok(overview.zoom<1&&overview.covered);assert.equal(await page.locator(".paper-edge,.paper-surround").count(),0);await map.screenshot({path:path.join(out,'paper-overview.png')});
   const postRequests=external.filter(r=>r.method!=='GET');assert.deepEqual(postRequests,[]);
   assert.deepEqual(errors,[]);assert.deepEqual(collisions,[]);assert.equal(framing.zoom,1);assert.equal(framing.scrollTop,0);assert.ok(framing.labelSize>=14);
-  fs.writeFileSync(path.join(out,'browser-verification.json'),JSON.stringify({framing,collisions,thumbnail,observed,opened,continuationLastId:lastId,accountIsolation:true,reducedMotion:true,responsive,retina,overview,cutouts:atlasReview.sheets,errors,externalRequests:external},null,2));
+  fs.writeFileSync(path.join(out,'browser-verification.json'),JSON.stringify({framing,collisions,thumbnail,observed,opened,continuationLastId:lastId,accountIsolation:true,reducedMotion:true,responsive,retina,overview,grounding,cutouts:atlasReview.sheets,errors,externalRequests:external},null,2));
   console.log('PASS: standard layout; actual animated pixel changes for every object and plant; reduced motion; all 30 lesson entry links; full catalogue; account isolation; thumbnail; tablet and phone layout.');
 })().catch(e=>{console.error(e);process.exitCode=1;}).finally(async()=>{await browser?.close();server.close();});

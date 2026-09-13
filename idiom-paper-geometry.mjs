@@ -110,19 +110,26 @@ export function paperPath(from,to) {
   return null;
 }
 export function paperSeed(seed=41813) {return ()=>((seed=seed*16807%2147483647)-1)/2147483646;}
+// Upper edge of the painted meadow, in world coordinates. Decorative roots
+// belong below this contour, not on the mountain faces behind it.
+const MEADOW_EDGE=[[0,265],[40,274],[80,284],[120,295],[160,288],[200,279],[240,271],[280,261],[320,260],[360,246],[400,252],[440,259],[480,266],[520,273],[560,317],[600,335],[760,335],[800,280],[840,267],[880,255],[920,243],[960,242],[1000,253],[1040,267],[1080,307],[1120,297],[1160,274],[1200,280],[1240,280],[1280,280],[1320,280],[1360,280],[1400,293],[1440,296],[1480,248],[1520,255],[1560,261],[1600,269]];
+export function paperMeadowFloor(x){
+ const i=MEADOW_EDGE.findIndex(p=>p[0]>=x);if(i<=0)return MEADOW_EDGE[0][1];
+ const a=MEADOW_EDGE[i-1],b=MEADOW_EDGE[i];return a[1]+(b[1]-a[1])*(x-a[0])/(b[0]-a[0]);
+}
 export function paperPlants(nodes=PAPER_TRAIL.map(([x,y])=>({x,y}))) {
  const result=[],random=paperSeed();
  const clear=(kind,x,y,w,h)=>{
-  if(x-w/2<4||x+w/2>1596||y>1920||y-h<20||paperInWater({x,y}))return false;
+  if(x-w/2<4||x+w/2>1596||y>1920||y-h<20||paperInWater({x,y})||y<paperMeadowFloor(x)+12)return false;
   // Check the foliage silhouette by height: narrow tips and trunks should not
   // exclude an entire rectangular patch of otherwise empty meadow.
   const profile=kind.includes('ine')?[.15,.3,.45,.55,.65,.8,.9,1,.7,.2]:kind==='round'?[.35,.7,.95,1,1,.9,.8,.6,.25,.2]:Array(10).fill(1);
   for(const n of nodes)for(let i=0;i<10;i++){
    const top=y-h+h*i/10,bottom=top+h/10,half=w*profile[i]/2+h*.045+5;
-   if(Math.abs(x-n.x)<half+99&&bottom>n.y-48&&top<n.y+112)return false;
+   if(Math.abs(x-n.x)<half+99&&bottom>n.y-(y<325?18:48)&&top<n.y+112)return false;
   }
   if(x>645&&x<880&&y>560&&y<670)return false;
-  const footClearance=45+Math.min(25,w*.2);
+  const footClearance=y<325?36:45+Math.min(25,w*.2);
   if(PAPER_TRAIL.slice(1).some((b,i)=>distanceToSegment({x,y},{x:PAPER_TRAIL[i][0],y:PAPER_TRAIL[i][1]},{x:b[0],y:b[1]})<footClearance))return false;
   if(y<700&&((x>1070&&x<1400&&y-h<300)||(x>1430&&y>315&&y-h<505)))return false;
   return !result.some(p=>p.kind===kind&&Math.hypot(x-p.x,y-p.y)<Math.min(85,h*.5));
@@ -130,17 +137,18 @@ export function paperPlants(nodes=PAPER_TRAIL.map(([x,y])=>({x,y}))) {
  const add=(kind,x,y,h)=>{
   const aspects={pine:.757,round:.87,tealPine:.73,bush:1.47,tealBush:1.35,sprout:1.24};
   h*=y<300?1.2:y<900?1.5:1.65;const w=h*aspects[kind];
+  const backRow=y<325;
   const offsets=y<600?[[0,0]]:[0,40,-40,80,-80,120,-120].flatMap(dy=>[0,40,-40,80,-80,120,-120,160,-160].map(dx=>[dx,dy])).sort((a,b)=>Math.hypot(...a)-Math.hypot(...b));
-  const place=offsets.map(([dx,dy])=>[Math.max(w/2+8,Math.min(1592-w/2,x+dx)),y+dy]).find(([px,py])=>clear(kind,px,py,w,h));
+  const place=offsets.map(([dx,dy])=>{const px=Math.max(w/2+8,Math.min(1592-w/2,x+dx));return [px,backRow?paperMeadowFloor(px)+14:y+dy];}).find(([px,py])=>clear(kind,px,py,w,h));
   if(!place)return;[x,y]=place;
   result.push({id:result.length,kind,x,y,w,h,amplitude:kind.includes('ine')?.031:.04,period:6+random()*3,phase:random()*Math.PI*2});
  };
  // Rich layered foliage frames the scenery while keeping the route readable.
  const beds=[[70,245,145],[270,250,105],[440,252,125],[850,267,110],[1045,266,145],[1550,298,152],
- [70,421,115],[1160,440,97],[1020,471,80],[1340,513,80],[1570,556,125],
+ [70,421,115],[1160,440,97],[975,471,80],[1340,513,80],[1570,556,125],
  [55,651,125],[440,644,112],[660,646,90],[1510,718,140],[1130,796,115],[570,854,100],
  [78,1010,140],[1410,935,115],[790,1100,100],[430,1150,105],[1525,1350,145],
- [90,1430,110],[580,1420,85],[1015,1360,80],[1260,1665,125],[480,1725,140],
+ [90,1430,110],[580,1420,85],[1015,1360,80],[1260,1665,125],[395,1870,140],
  [85,1890,180],[745,1875,190],[1510,1890,165]];
  for(const [x,y,h]of beds){add(result.length%3?'pine':'tealPine',x,y,h);add('round',x+42,y+5,h*.75);add(result.length%2?'bush':'tealBush',x-40,y+8,h*.4);add('sprout',x+60,y+7,h*.28);}
  return result.sort((a,b)=>a.y-b.y).map((p,id)=>({...p,id}));

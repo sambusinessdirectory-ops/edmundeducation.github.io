@@ -1,8 +1,8 @@
 const ART='./assets/idiom-system/paper/v2/';
 export const PAPER_SPRITES={
-  pine:{sheet:'plants',rect:[45,12,455,601]},round:{sheet:'plants',rect:[533,58,477,548]},
-  tealPine:{sheet:'plants',rect:[1067,10,441,605]},bush:{sheet:'plants',rect:[19,650,491,334]},
-  tealBush:{sheet:'plants',rect:[545,633,473,350]},sprout:{sheet:'plants',rect:[1055,619,456,369]},
+  pine:{sheet:'plants',rect:[45,12,455,601],root:[229,591]},round:{sheet:'plants',rect:[533,58,477,548],root:[236,536]},
+  tealPine:{sheet:'plants',rect:[1067,10,441,605],root:[223,595]},bush:{sheet:'plants',rect:[19,650,491,334],root:[233,323]},
+  tealBush:{sheet:'plants',rect:[545,633,473,350],root:[249,340]},sprout:{sheet:'plants',rect:[1055,619,456,369],root:[253,354]},
   ivoryBoat:{sheet:'props',rect:[45,71,438,540]},blueBoat:{sheet:'props',rect:[528,76,446,540]},
   rotor:{sheet:'props',rect:[1005,53,502,534],anchor:[1254,315]},
   cloud:{sheet:'props',rect:[19,659,519,294]},smallCloud:{sheet:'props',rect:[577,700,420,231]},

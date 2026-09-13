@@ -1,6 +1,6 @@
-import {PAPER_FLAGS,PAPER_MILL,PAPER_BOATS,PAPER_CLOUDS,PAPER_PIGEON,PAPER_WATER,paperPlants,paperPoint} from './idiom-paper-geometry.mjs?v=20260913-paper3';
-import {paperBoatMotion,paperCloudMotion,paperPlantMotion,paperMillMotion,paperFlagMotion,paperPigeonMotion} from './idiom-paper-motion.mjs?v=20260913-paper3';
-import {loadPaperArtwork,drawPaperSprite,drawPaperShadow,PAPER_SPRITES} from './idiom-paper-artwork.mjs?v=20260913-paper3';
+import {PAPER_FLAGS,PAPER_MILL,PAPER_BOATS,PAPER_CLOUDS,PAPER_PIGEON,PAPER_WATER,paperPlants,paperPoint} from './idiom-paper-geometry.mjs?v=20260913-paper4';
+import {paperBoatMotion,paperCloudMotion,paperPlantMotion,paperMillMotion,paperFlagMotion,paperPigeonMotion} from './idiom-paper-motion.mjs?v=20260913-paper4';
+import {loadPaperArtwork,drawPaperSprite,drawPaperShadow,PAPER_SPRITES} from './idiom-paper-artwork.mjs?v=20260913-paper4';
 function oval(g,x,y,rx,ry,color){g.beginPath();g.ellipse(x,y,rx,ry,0,0,Math.PI*2);g.fillStyle=color;g.fill();}
 function drawFlag(g,art,f,m,i){
  const {sheet,rect:[sx,sy,sw,sh]}=PAPER_SPRITES[i%2?'goldFlag':'redFlag'];
@@ -49,7 +49,14 @@ export function createPaperEffects(canvas,nodes){
   g.restore();
   const clouds=PAPER_CLOUDS.map(c=>paperCloudMotion(t,c));PAPER_CLOUDS.forEach((c,i)=>{const h=c.width*(i?231/420:294/519);g.save();drawPaperSprite(g,art,i?'smallCloud':'cloud',clouds[i].x-c.width/2,clouds[i].y-h*.57,c.width,h);g.restore();});
   const angles=plants.map(p=>paperPlantMotion(t,p));
-  plants.forEach((p,i)=>{drawPaperShadow(g,p.x+3,p.y+1,p.w*.85,Math.max(9,p.h*.09),.22);g.save();g.translate(p.x,p.y);g.rotate(angles[i]);drawPaperSprite(g,art,p.kind,-p.w/2,-p.h,p.w,p.h);g.restore();});
+  plants.forEach((p,i)=>{
+   const {rect,root}=PAPER_SPRITES[p.kind],tree=p.kind.includes('ine')||p.kind==='round';
+   // Contact and sway use the visible root, excluding the atlas's clear padding.
+   drawPaperShadow(g,p.x+3,p.y+1,p.w*.8,Math.max(8,p.h*.075),.27);
+   drawPaperShadow(g,p.x,p.y+.5,p.w*(tree?.25:.75),tree?5:7,.44);
+   g.save();g.translate(p.x,p.y);g.rotate(angles[i]);
+   drawPaperSprite(g,art,p.kind,-p.w*root[0]/rect[2],-p.h*root[1]/rect[3],p.w,p.h);g.restore();
+  });
   const flags=PAPER_FLAGS.map(f=>paperFlagMotion(t,f));PAPER_FLAGS.forEach((f,i)=>drawFlag(g,art,f,flags[i],i));
   const mill=paperMillMotion(t);drawMill(g,art,mill);
   const boats=PAPER_BOATS.map(b=>paperBoatMotion(t,b));PAPER_BOATS.forEach((b,i)=>drawBoat(g,art,b,boats[i]));
