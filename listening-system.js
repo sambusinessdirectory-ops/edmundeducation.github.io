@@ -57,6 +57,8 @@ const state = {
 };
 
 let analysisHideTimer = 0;
+let ieltsMap = null;
+let ieltsMapLoad = null;
 
 const elements = {
   views: [...document.querySelectorAll("[data-view]")],
@@ -194,6 +196,7 @@ function showToast(message) {
 
 function showView(name, { scroll = true } = {}) {
   state.view = name;
+  ieltsMap?.setActive(name === 'ielts');
   elements.views.forEach((view) => { view.hidden = view.dataset.view !== name; });
   const adminView = name === 'admin' && Boolean(state.listeningAdminName);
   const signedIn = adminView || Boolean(state.user && state.token);
@@ -247,6 +250,7 @@ function readSession() {
 }
 
 function clearSession() {
+  ieltsMap?.reset();
   state.answers.clear();
   state.user = null;
   state.token = "";
@@ -373,6 +377,7 @@ function openSection(section, options = {}) {
   if (section === "ielts") {
     renderPracticeGrid();
     showView("ielts");
+    syncIeltsMap();
   } else {
     const requestedYear = Number(options.year);
     if (!DSE_CONTENT.has(requestedYear)) {
@@ -397,12 +402,40 @@ function renderPracticeGrid() {
   elements.sort.options[0].textContent = `Practice ${Math.min(...numbers)} → ${Math.max(...numbers)}`;
   elements.sort.options[1].textContent = `Practice ${Math.max(...numbers)} → ${Math.min(...numbers)}`;
   const practices = [...CATALOGUE.practices].sort((left, right) => state.sort === "desc" ? right.practice - left.practice : left.practice - right.practice);
-  elements.practiceGrid.innerHTML = `<button class="practice-card bookmark-first-card" type="button" data-open-bookmarks><span>☆</span><strong>我的書簽 · Bookmarks</strong><small>逐行重聽 · 難度星級 · 朗讀練習</small></button>` + practices.map((item) => `
+  elements.practiceGrid.innerHTML = practices.map((item) => `
     <button class="practice-card" type="button" data-open-practice="${item.practice}">
       <span>${String(item.practice).padStart(2, "0")}</span>
       <strong>Practice ${item.practice}</strong>
       <small>Part 1 · Part 2 · Part 3 · Part 4</small>
     </button>`).join("");
+}
+
+function syncIeltsMap() {
+  const root = document.querySelector('[data-ielts-map]');
+  const toggle = document.querySelector('[data-ielts-map-toggle]');
+  if (!root || !toggle || !state.user || !CATALOGUE.practices.length) return;
+  if (ieltsMap) {
+    ieltsMap.update(String(state.user.id));
+    ieltsMap.setActive(state.view === 'ielts');
+    return;
+  }
+  // Keep the real practice list usable until all decorative artwork is ready.
+  if (!ieltsMapLoad) ieltsMapLoad = import('./ielts-puzzle-map.mjs?v=20260913-puzzle1')
+    .then(async ({ mountIeltsMap }) => {
+      if (!state.user) return;
+      const map = await mountIeltsMap({ root, toggle, grid: elements.practiceGrid,
+        practices: CATALOGUE.practices,
+        openPractice: practice => openPractice(practice) });
+      if (!state.user) { map.destroy(); return; }
+      ieltsMap = map;
+      toggle.hidden = false;
+      syncIeltsMap();
+    }).catch(error => {
+      console.warn('IELTS map artwork unavailable', error);
+      root.hidden = true;
+      toggle.hidden = true;
+      elements.practiceGrid.hidden = false;
+    }).finally(() => { ieltsMapLoad = null; });
 }
 
 function renderDseYearGrid() {

@@ -211,6 +211,7 @@ jobs:
           node tools/listening/generate_catalog.mjs
           git diff --exit-code -- listening-system-catalog.js
           node tools/test-listening-system.mjs
+          node tools/test-ielts-puzzle-map.mjs
           node tools/test-grammar-listening-practice1.mjs
           node --test tools/test-listening-study.mjs
           node --test tools/test-listening-imports.mjs

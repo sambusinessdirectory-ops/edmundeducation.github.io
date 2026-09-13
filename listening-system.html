@@ -22,6 +22,8 @@
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2">
   <link rel="stylesheet" href="listening-system.css?v=20260911-tools1">
+  <link rel="stylesheet" href="common-expression-map.css?v=20260913-puzzle1">
+  <link rel="stylesheet" href="ielts-puzzle-map.css?v=20260913-puzzle1">
 </head>
 <body>
   <a class="skip-link" href="#listening-main">跳至主要內容</a>
@@ -94,6 +96,8 @@
 
     <section class="view" data-view="ielts" hidden>
       <section class="section-heading panel"><div><p class="eyebrow">IELTS LISTENING</p><h1>選擇 Practice</h1><p>每套練習包括 Part 1、2、3、4 四段錄音。</p></div><div class="heading-actions"><label class="sort-control">排列<select data-sort><option value="asc">Practice 1 → 20</option><option value="desc">Practice 20 → 1</option></select></label><button class="secondary-button" type="button" data-home>返回選擇</button></div></section>
+      <div class="ielts-map-actions"><button class="secondary-button" type="button" data-open-bookmarks>☆ 我的書簽 · Bookmarks</button><button class="secondary-button expression-map-toggle" type="button" data-ielts-map-toggle hidden aria-pressed="false">互動地圖 · Interactive map</button></div>
+      <section data-ielts-map hidden aria-label="IELTS 聆聽練習地圖"></section>
       <section class="listening-search panel" data-listening-search="ielts" aria-label="搜尋 IELTS 聆聽">
         <form role="search"><label for="ielts-listening-search">搜尋題目及中英錄音稿</label><div class="listening-search-controls"><input id="ielts-listening-search" type="search" maxlength="100" autocomplete="off" placeholder="輸入主題、單字或片語…"><button class="primary-button" type="submit">搜尋</button></div></form>
         <p data-search-status role="status" aria-live="polite">輸入至少 2 個字元，直接前往相關 Practice 及 Part。</p>
@@ -191,6 +195,6 @@
   <script src="listening-practice-1-analysis.js?v=20260822-1"></script>
   <script src="listening-practice-1-timings.js?v=20260822-1"></script>
   <script src="shared-system-nav.js?v=20260911-tools1"></script>
-  <script type="module" src="listening-system.js?v=20260911-tools1"></script>
+  <script type="module" src="listening-system.js?v=20260913-puzzle1"></script>
 <script type="module" src="study-support.mjs?v=20260911-corners1"></script></body>
 </html>

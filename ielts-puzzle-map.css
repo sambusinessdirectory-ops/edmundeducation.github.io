@@ -1,0 +1,27 @@
+.ielts-map-actions{display:flex;justify-content:flex-end;gap:10px;margin:0 0 16px;flex-wrap:wrap}
+.expression-map[data-theme="ielts-puzzle"]{--map-ink:#194944;--map-cream:#fff9e9;--map-accent:#d9b66e;margin:0 0 26px;background:#fff9e9;border-color:#dfd8b9}
+.expression-map[data-theme="ielts-puzzle"] .expression-map-viewport{height:auto;aspect-ratio:16/9;min-height:0;max-height:none;background:#70b4f1}
+.expression-map[data-theme="ielts-puzzle"] .expression-map-world{background:#7ac3ef}
+.expression-map[data-theme="ielts-puzzle"] .puzzle-landscape{position:absolute;inset:0 auto auto 0;width:1600px;height:900px;background:url('assets/listening-system/puzzle/v1/landscape.webp') center/100% 100% no-repeat;pointer-events:none}
+.expression-map[data-theme="ielts-puzzle"] .puzzle-continuation{top:860px;background-image:url('assets/listening-system/puzzle/v1/continuation.webp')}
+.expression-map[data-theme="ielts-puzzle"] :is(.puzzle-water,.puzzle-road,.puzzle-effects){position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.expression-map[data-theme="ielts-puzzle"] .puzzle-water{z-index:0}
+.expression-map[data-theme="ielts-puzzle"] .puzzle-road{z-index:1}
+.expression-map[data-theme="ielts-puzzle"] .puzzle-effects{z-index:2}
+.expression-map[data-theme="ielts-puzzle"] .expression-map-stone{width:180px;height:134px;margin:-51px 0 0 -90px;background:none!important;border:0!important;box-shadow:none!important;transform:none;z-index:3}
+.expression-map[data-theme="ielts-puzzle"] .expression-map-stone::before{display:none}
+.expression-map[data-theme="ielts-puzzle"] .expression-map-stone::after{inset:25px 38px 50px;border-radius:50%;transform:rotate(-5deg);border-color:#fff9c8}
+.expression-map[data-theme="ielts-puzzle"] .puzzle-platform{position:absolute;inset:0;width:180px;height:134px;pointer-events:none}
+.expression-map[data-theme="ielts-puzzle"] .expression-map-stone-number{position:absolute;top:35px;left:40px;width:98px;text-align:center;font-family:Georgia,serif;font-size:31px;font-weight:800;color:#214940;text-shadow:0 1px #fff9e9}
+.expression-map[data-theme="ielts-puzzle"] .expression-map-stone-caption{position:absolute;top:126px;left:-2px;width:184px;font:700 18px/1.2 system-ui,sans-serif;color:#fffdf1;text-shadow:0 2px 2px #253e4a,0 0 5px #183c4f,0 0 3px #183c4f;background:none;border:0;padding:0}
+.expression-map[data-theme="ielts-puzzle"] :is(.expression-map-stone-status,.expression-map-legend){display:none}
+.expression-map[data-theme="ielts-puzzle"] .expression-map-footer{min-height:32px;padding-block:7px}
+.expression-map[data-theme="ielts-puzzle"] .expression-map-horse{z-index:5;width:116px;height:141px;margin-left:-58px;margin-top:-133px}
+.expression-map[data-theme="ielts-puzzle"] .expression-map-stone:hover .puzzle-platform{filter:brightness(1.07)}
+.expression-map[data-theme="ielts-puzzle"] .expression-map-stone[aria-pressed="true"] .puzzle-platform{filter:drop-shadow(0 0 3px #fffbc8) drop-shadow(0 0 3px #f6d260)}
+.expression-map[data-theme="ielts-puzzle"] .expression-map-shadow{z-index:4}
+.expression-map[data-theme="ielts-puzzle"] .expression-map-flag{z-index:4}
+@media(max-width:700px){
+ .expression-map[data-theme="ielts-puzzle"] .expression-map-viewport{height:460px;aspect-ratio:auto}
+ .ielts-map-actions .secondary-button{font-size:13px;padding:9px 12px}
+}
