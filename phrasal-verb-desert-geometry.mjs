@@ -1,17 +1,23 @@
 // All coordinates use the same 1600-wide world as the shared lesson map.
 export const DESERT_WIDTH = 1600;
+export const DESERT_HEIGHT = 1635;
+export const DESERT_MAP_LIMIT = 30;
+// Registered against the complete background, in its 1600 × 1635 world.
 export const DESERT_WATER = [
-  [[915,220],[1080,209],[1280,215],[1425,229],[1450,242],[1350,253],[1280,275],[1090,277],[956,267],[881,240]],
-  [[658,407],[829,411],[925,417],[1040,424],[1118,443],[1105,463],[1160,479],[1115,500],[986,518],[803,513],[655,495],[565,473],[555,439]]
+  [[901,225],[1085,216],[1260,219],[1434,229],[1409,246],[1340,261],[1293,282],[1121,282],[978,274],[907,264],[869,244]],
+  [[593,428],[703,415],[860,421],[991,438],[1079,455],[1147,482],[1136,503],[1088,521],[1009,532],[858,538],[703,528],[582,502],[515,477],[531,447]],
+  [[604,1028],[739,1010],[895,1011],[1014,1034],[1127,1078],[1099,1100],[1025,1130],[861,1147],[714,1134],[606,1109],[495,1090],[483,1058]]
 ];
 export function desertPositions(lessons) {
-  return lessons.map((lesson,i) => {
+  return lessons.slice(0,DESERT_MAP_LIMIT).map((lesson,i) => {
     const row=Math.floor(i/7),column=row%2?6-i%7:i%7;
-    const y=row===0?327:row===1?635:875+(row-2)*245;
-    return {id:lesson.id,x:155+column*215+(row?Math.sin(row*.9+column)*9:0),y:y+Math.sin(column*1.1+row*.5)*(row?23:8)};
+    const y=[330,655,885,1250,1480][row];
+    // The final pair finishes in the open sand beyond the lower oasis.
+    const x=row===4?690+(i%7)*220:155+column*215+(row?Math.sin(row*.9+column)*9:0);
+    return {id:lesson.id,x,y:y+Math.sin(column*1.1+row*.5)*(row?18:8)};
   });
 }
-export const desertHeight=count=>Math.max(1150,875+Math.max(0,Math.ceil(count/7)-3)*245+270);
+export const desertHeight=()=>DESERT_HEIGHT;
 function inside(p,polygon) {
   let yes=false;
   for(let i=0,j=polygon.length-1;i<polygon.length;j=i++) {
@@ -20,14 +26,13 @@ function inside(p,polygon) {
   }
   return yes;
 }
-export function desertWalkable(p,height=desertHeight(329)) {
-  if(!Number.isFinite(p?.x)||!Number.isFinite(p?.y)||p.x<60||p.x>1540||p.y<300||p.y>height-65)return false;
+export function desertWalkable(p,height=DESERT_HEIGHT) {
+  if(!Number.isFinite(p?.x)||!Number.isFinite(p?.y)||p.x<60||p.x>1540||p.y<180||p.y>height-65)return false;
   // A hoof margin includes the painted shores, not just the middle of the water.
   return !DESERT_WATER.some(poly=>[[0,0],[-14,0],[14,0],[0,-12],[0,12]].some(([x,y])=>inside({x:p.x+x,y:p.y+y},poly)));
 }
 export function desertSegment(a,b,height) {
   if(!desertWalkable(a,height)||!desertWalkable(b,height))return false;
-  if(Math.min(a.y,b.y)>540)return true;
   const steps=Math.max(1,Math.ceil(Math.hypot(a.x-b.x,a.y-b.y)/5));
   for(let i=1;i<steps;i++)if(!desertWalkable({x:a.x+(b.x-a.x)*i/steps,y:a.y+(b.y-a.y)*i/steps},height))return false;
   return true;
@@ -48,26 +53,32 @@ export function desertTrail(nodes) {
   return {d,points};
 }
 export function createDesertNavigation(nodes,height) {
-  const trail=desertTrail(nodes).points;
-  const stops=new Map(nodes.map((p,i)=>[`${p.x},${p.y}`,i*12]));
-  function nearest(p) {
-    const stop=stops.get(`${p.x},${p.y}`);if(stop!==undefined)return stop;
-    let best=-1,distance=Infinity;
-    for(let i=0;i<trail.length;i++){
-      const d=Math.hypot(trail[i].x-p.x,trail[i].y-p.y);
-      if(d<distance&&desertSegment(p,trail[i],height)){best=i;distance=d;}
-    }
-    return best;
-  }
+  // A small visibility graph goes around shores only. Open sand is a direct walk.
+  const corners=DESERT_WATER.flatMap(poly=>{
+    const xs=poly.map(p=>p[0]),ys=poly.map(p=>p[1]);
+    const left=Math.min(...xs)-28,right=Math.max(...xs)+28,top=Math.min(...ys)-28,bottom=Math.max(...ys)+28;
+    return [{x:left,y:top},{x:right,y:top},{x:right,y:bottom},{x:left,y:bottom}];
+  }).filter(p=>desertWalkable(p,height));
+  const links=corners.map((a,i)=>corners.flatMap((b,j)=>i!==j&&desertSegment(a,b,height)?[{to:j,d:Math.hypot(a.x-b.x,a.y-b.y)}]:[]));
   return {
     path(from,to) {
       if(!desertWalkable(from,height)||!desertWalkable(to,height))return null;
-      if(Math.hypot(from.x-to.x,from.y-to.y)<1)return [{...to}];
-      const a=nearest(from),b=nearest(to);if(a<0||b<0)return null;
-      const points=a<=b?trail.slice(a,b+1):trail.slice(b,a+1).reverse();
-      const result=points.filter((p,i)=>i||Math.hypot(p.x-from.x,p.y-from.y)>1);
-      if(!result.length||Math.hypot(result.at(-1).x-to.x,result.at(-1).y-to.y)>1)result.push({...to});
-      return result;
+      if(desertSegment(from,to,height))return [{...to}];
+      const points=[...corners,from,to],start=corners.length,end=start+1;
+      const graph=links.map(edges=>edges.slice());graph.push([],[]);
+      for(const index of [start,end])for(let i=0;i<corners.length;i++)if(desertSegment(points[index],points[i],height)){
+        const d=Math.hypot(points[index].x-points[i].x,points[index].y-points[i].y);
+        graph[index].push({to:i,d});graph[i].push({to:index,d});
+      }
+      const dist=points.map(()=>Infinity),previous=points.map(()=>-1),visited=new Set();dist[start]=0;
+      while(visited.size<points.length){
+        let current=-1;for(let i=0;i<points.length;i++)if(!visited.has(i)&&(current<0||dist[i]<dist[current]))current=i;
+        if(current<0||!Number.isFinite(dist[current]))return null;
+        if(current===end)break;visited.add(current);
+        for(const edge of graph[current])if(dist[current]+edge.d<dist[edge.to]){dist[edge.to]=dist[current]+edge.d;previous[edge.to]=current;}
+      }
+      const route=[];for(let i=end;i!==start;i=previous[i]){if(i<0)return null;route.unshift({...points[i]});}
+      return route.filter(p=>Math.hypot(p.x-from.x,p.y-from.y)>1);
     },
     step(from,to) {
       if(desertSegment(from,to,height))return to;

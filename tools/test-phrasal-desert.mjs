@@ -6,27 +6,28 @@ import {desertPositions,desertHeight,desertTrail,desertWalkable,desertSegment,cr
 import {phrasalMapLessons,phrasalMapCompleted,desertPlants,createDesertTheme} from '../phrasal-verb-desert.mjs';
 const context={window:{}};vm.runInNewContext(fs.readFileSync(new URL('../phrasal-verb-system-data.js',import.meta.url),'utf8'),context);
 const catalogue=context.window.EDMUND_PHRASAL_VERB_SYSTEM_DATA.lessons,lessons=phrasalMapLessons(catalogue),nodes=desertPositions(lessons),height=desertHeight(lessons.length),navigation=createDesertNavigation(nodes,height);
-test('the desert represents the complete current catalogue without changing identities or questions',()=>{
- assert.equal(lessons.length,329);assert.equal(nodes.length,lessons.length);
- assert.equal(lessons[0].id,'phrasal-verb-01');assert.equal(lessons.at(-1).id,'phrasal-verb-329');
+test('the desert represents only the first 30 lessons without changing identities or questions',()=>{
+ assert.equal(lessons.length,30);assert.equal(catalogue.length,329);assert.equal(nodes.length,lessons.length);
+ assert.equal(lessons[0].id,'phrasal-verb-01');assert.equal(lessons.at(-1).id,'phrasal-verb-30');
  lessons.forEach((l,i)=>{assert.equal(l.id,catalogue[i].id);assert.equal(l.questions,catalogue[i].questions);assert.equal(l.titleEn,catalogue[i].titleEn);});
 });
-test('both ponds are obstacles and the full sandy trail stays dry',()=>{
+test('all three ponds are obstacles and the full sandy trail stays dry',()=>{
  assert.equal(desertWalkable({x:1100,y:250},height),false);
  assert.equal(desertWalkable({x:800,y:465},height),false);
+ assert.equal(desertWalkable({x:800,y:1080},height),false);
  assert.equal(desertWalkable({x:200,y:470},height),true);
  assert.equal(desertWalkable({x:1500,y:480},height),true);
  const trail=desertTrail(nodes).points;
  trail.forEach((p,i)=>{assert.ok(desertWalkable(p,height),`Dry trail point ${i}`);if(i)assert.ok(desertSegment(trail[i-1],p,height));});
 });
-test('all 108241 ordered lesson routes arrive at the requested real stop',()=>{
+test('all 900 ordered lesson routes arrive at the requested real stop',()=>{
  let pairs=0;
- for(const from of nodes)for(const to of nodes){const route=navigation.path(from,to);assert.ok(route?.length);assert.equal(route.at(-1).x,to.x);assert.equal(route.at(-1).y,to.y);pairs++;}
- assert.equal(pairs,329*329);
+ for(const from of nodes)for(const to of nodes){const route=navigation.path(from,to);assert.ok(route?.length);assert.equal(route.at(-1).x,to.x);assert.equal(route.at(-1).y,to.y);let previous=from;for(const waypoint of route){assert.ok(desertSegment(previous,waypoint,height));previous=waypoint;}pairs++;}
+ assert.equal(pairs,30*30);
 });
 test('keyboard movement cannot enter water and a free walker can rejoin the trail',()=>{
- const from={x:800,y:535};assert.deepEqual(navigation.step(from,{x:800,y:485}),from);
- for(const p of [{x:200,y:470},{x:1490,y:480},{x:750,y:565},{x:300,y:6000}]){
+ const from={x:800,y:565};assert.deepEqual(navigation.step(from,{x:800,y:485}),from);
+ for(const p of [{x:200,y:470},{x:1490,y:480},{x:750,y:565},{x:300,y:1500}]){
   const route=navigation.path(p,nodes[0]);assert.ok(route?.length);
   assert.ok(desertSegment(p,route[0],height));
  }
@@ -52,7 +53,7 @@ test('completion follows the host completed-attempt rule and the true question c
  assert.equal(phrasalMapCompleted([{lessonId:'other',status:'completed',correctCount:70}],l),0);
 });
 test('all vegetation has an independent calm anchored sway and stays clear of platform captions',()=>{
- const plants=desertPlants(nodes,height);assert.ok(plants.length>100);
+ const plants=desertPlants(nodes,height);assert.ok(plants.length>=24&&plants.length<=35);
  const kindSet=new Set(plants.map(p=>p.kind));for(const k of ['palm','shortPalm','cactus','shrub','reeds'])assert.ok(kindSet.has(k));
  for(const p of plants){assert.ok(p.period>=5);assert.ok(p.amplitude>=1.5&&p.amplitude<=4.2);}
  // The actual first two routes contain the ponds and focal plants.
@@ -68,4 +69,14 @@ test('the opening camera keeps the first lesson usable and centers lower lessons
  assert.equal(theme.cameraTop({point:nodes[0],scale:.87875,height:672,zoom:1}),0);
  assert.ok(theme.cameraTop({point:nodes[14],scale:.87875,height:672,zoom:1})>0);
  const mobile=theme.cameraTop({point:nodes[0],scale:.7,height:320,zoom:1});assert.ok(nodes[0].y*.7-mobile<275);
+});
+
+test('free walking crosses dry sand directly and detours only around the ponds',()=>{
+ for(const [from,to] of [[{x:210,y:745},{x:1250,y:745}],[{x:270,y:580},{x:390,y:850}],[{x:1100,y:1360},{x:650,y:1360}]])assert.deepEqual(navigation.path(from,to),[to]);
+ for(const [from,to] of [[{x:450,y:475},{x:1200,y:475}],[{x:400,y:1080},{x:1230,y:1080}],[{x:800,y:200},{x:1450,y:300}]]){
+  const route=navigation.path(from,to);assert.ok(route.length>1);let previous=from;
+  for(const p of route){assert.ok(desertSegment(previous,p,height));previous=p;}
+  assert.deepEqual(route.at(-1),to);
+ }
+ for(const point of [{x:800,y:465},{x:800,y:1080},{x:1100,y:250}])assert.equal(navigation.path(nodes[0],point),null);
 });

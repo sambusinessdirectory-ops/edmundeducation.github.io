@@ -9,8 +9,8 @@
  * phrases are highlighted only when content explicitly supplies `highlight` or
  * `highlights` metadata.
  */
-import { createExpressionMap } from './common-expression-map.mjs?v=20260912-toy1';
-import { createDesertTheme, phrasalMapLessons, phrasalMapCompleted } from './phrasal-verb-desert.mjs?v=20260913-desert1';
+import { createExpressionMap } from './common-expression-map.mjs?v=20260913-desert2';
+import { createDesertTheme, phrasalMapLessons, phrasalMapCompleted, DESERT_MAP_LIMIT } from './phrasal-verb-desert.mjs?v=20260913-desert2';
 
 let phrasalMap = null;
 const CONFIG = window.EDMUND_PHRASAL_VERB_SYSTEM_CONFIG || {};
@@ -1761,13 +1761,16 @@ function renderLessonChoices() {
         <button class="lesson-section-bookmark" type="button" data-toggle-section-bookmark="${escapeHtml(lesson.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除動詞片語書簽" : "收藏整組動詞片語"}">${bookmarked ? "★" : "☆"}</button>
       </article>
     `;
-  }).join("");
+  });
   const sectionBookmarkCount = state.bookmarks.filter((bookmark) => bookmark.questionId === SECTION_BOOKMARK_ID).length;
   const questionBookmarkCount = state.bookmarks.length - sectionBookmarkCount;
   elements.lessonChoiceGrid.innerHTML = `<button class="lesson-choice" type="button" data-open-bookmarks-card data-number="★" data-tone="bookmark">
       <h2>書簽<span>Bookmarks</span></h2>
       <span class="choice-meta"><span>${escapeHtml(sectionBookmarkCount)} 組動詞片語</span><span>${escapeHtml(questionBookmarkCount)} 道題目</span><span>跟隨帳戶同步</span></span>
-    </button>${cards}`;
+    </button>${cards.slice(0, DESERT_MAP_LIMIT).join("")}`;
+  document.querySelector('[data-remaining-lesson-grid]').innerHTML = cards.slice(DESERT_MAP_LIMIT).join("");
+  document.querySelector('[data-phrasal-remaining]').hidden = cards.length <= DESERT_MAP_LIMIT;
+  document.querySelector('[data-phrasal-remaining-count]').textContent = `${Math.max(0, cards.length - DESERT_MAP_LIMIT)} 個課題`;
   const mapBookmarkCount = document.querySelector('[data-phrasal-map-bookmarks]');
   if (mapBookmarkCount) mapBookmarkCount.textContent = `(${state.bookmarks.length})`;
   if (!phrasalMap && lessonList().length) {

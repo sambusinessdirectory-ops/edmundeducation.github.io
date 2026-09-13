@@ -252,10 +252,21 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     cameraViewWidth=theme?.cameraViewWidth?.(point || position) ?? WIDTH;
     const floor=theme?.cameraScaleFloor?.(point || position) ?? .7;
     const base=minimumMapScale(viewport.clientWidth,viewport.clientHeight,cameraViewWidth,HEIGHT,floor);
-    minimumZoom=Math.max(theme?.minimumZoom ?? 1,viewport.clientWidth/cameraWidth/base,viewport.clientHeight/HEIGHT/base);
-    zoom=clamp(Math.round(nextZoom*100)/100,minimumZoom,2);
+    minimumZoom=theme?.fitOverview
+      ? Math.min(1,viewport.clientWidth/WIDTH/base,viewport.clientHeight/HEIGHT/base)
+      : Math.max(theme?.minimumZoom ?? 1,viewport.clientWidth/cameraWidth/base,viewport.clientHeight/HEIGHT/base);
+    zoom=clamp(theme?.fitOverview ? nextZoom : Math.round(nextZoom*100)/100,minimumZoom,2);
     scale=base*zoom;
-    space.style.width=`${cameraWidth*scale}px`; space.style.height=`${HEIGHT*scale}px`;
+    if(theme?.fitOverview) {
+      // Center the complete artwork in a plain frame; never synthesize edge fill.
+      padding.left=padding.right=Math.max(0,(viewport.clientWidth/scale-WIDTH)/2);
+      space.style.width=`${Math.max(viewport.clientWidth,WIDTH*scale)}px`;
+      space.style.height=`${Math.max(viewport.clientHeight,HEIGHT*scale)}px`;
+      root.dataset.overview=String(zoom<=minimumZoom+.001);
+      root.querySelector('[data-map-overview]')?.setAttribute('aria-pressed',root.dataset.overview);
+    } else {
+      space.style.width=`${cameraWidth*scale}px`; space.style.height=`${HEIGHT*scale}px`;
+    }
     world.style.left=`${padding.left*scale}px`;
     world.style.transform=`scale(${scale})`;
     root.dataset.zoom=String(zoom);root.dataset.scale=String(scale);
@@ -366,7 +377,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     root.dataset.theme=theme?.id || 'meadow';
     root.dataset.animating='false';
     root.innerHTML=`<header class="expression-map-header"><div class="expression-map-heading"><p>${escape(theme?.kicker || 'THE EXPRESSION MEADOW')}</p><h2>${escape(theme?.title ?? '常用語探索之旅')}<small>${lessons.length} 個課題 · 全部開放</small></h2></div><fieldset class="expression-map-characters"><legend>選擇同行角色 · Your companion</legend>${CHARACTERS.map(c=>`<button class="expression-map-character" type="button" data-character="${c.id}" aria-pressed="${c.id===character}"><canvas width="74" height="96" aria-hidden="true"></canvas>${c.name}</button>`).join('')}</fieldset></header>
-    <div class="expression-map-tools"><label class="expression-map-picker"><span>前往課題</span><select aria-label="前往課題 · Choose any lesson">${lessons.map(l=>`<option value="${escape(l.id)}">${String(l.order).padStart(2,'0')} · ${escape(l.mapLabel || l.titleEn)}</option>`).join('')}</select></label><div class="expression-map-zoom" aria-label="地圖大小"><button type="button" data-zoom="out" aria-label="縮小地圖至標準大小">−</button><button type="button" data-zoom="in" aria-label="放大地圖">＋</button><button type="button" data-save-location aria-pressed="false" aria-label="定位：儲存腳下的石階作為下次登入的起點">定位</button></div></div>
+    <div class="expression-map-tools"><label class="expression-map-picker"><span>前往課題</span><select aria-label="前往課題 · Choose any lesson">${lessons.map(l=>`<option value="${escape(l.id)}">${String(l.order).padStart(2,'0')} · ${escape(l.mapLabel || l.titleEn)}</option>`).join('')}</select></label><div class="expression-map-zoom" aria-label="地圖大小"><button type="button" data-zoom="out" aria-label="縮小地圖至標準大小">−</button><button type="button" data-zoom="in" aria-label="放大地圖">＋</button>${theme?.fitOverview ? '<button type="button" data-map-overview aria-pressed="false" aria-label="顯示完整地圖">全圖</button>' : ''}<button type="button" data-save-location aria-pressed="false" aria-label="定位：儲存腳下的石階作為下次登入的起點">定位</button></div></div>
     <div class="expression-map-stage"><div class="expression-map-viewport" tabindex="0" role="region" aria-label="常用語課題地圖；拖動探索，點選石階選擇課題。可用方向鍵或 WASD 走動。"><div class="expression-map-space"><div class="expression-map-world">${theme ? theme.terrain(nodes,lessons) : terrain(nodes,lessons)}${nodes.map((p,i)=>`<button type="button" class="expression-map-stone" data-map-level="${i}" style="left:${p.x}px;top:${p.y}px" aria-pressed="false" aria-expanded="false" aria-controls="${arrivalId}"><span class="expression-map-stone-number">${String(lessons[i].order).padStart(2,'0')}</span><span class="expression-map-stone-caption">${escape(lessons[i].mapLabel || lessons[i].titleEn)}</span><span class="expression-map-stone-status"></span></button>`).join('')}<svg class="expression-map-flag" width="57" height="100" viewBox="0 0 57 100" role="img" hidden><ellipse cx="7" cy="95" rx="7" ry="3" fill="#355530" opacity=".25"/><path d="M7 95V5" stroke="#786b46" stroke-width="4" stroke-linecap="round"/><circle cx="7" cy="5" r="4" fill="#e4d091"/><path class="expression-map-flag-cloth" d="M9 9Q28 3 50 11L44 25L50 40Q30 31 9 39Z" fill="var(--flag-color)" stroke="#fff1ca" stroke-width="1.5"/></svg><span class="expression-map-shadow"></span><canvas class="expression-map-horse" width="272" height="330" role="img" aria-label="Eddie"></canvas></div></div></div>
     ${theme?.overlay || ''}<article id="${arrivalId}" class="expression-map-lesson-card" role="region" aria-label="石階課題" hidden><div class="expression-map-selected"><span class="expression-map-selected-number" data-map-number></span><div class="expression-map-selected-copy"><h3 data-map-title></h3><p data-map-description></p></div><button class="expression-map-open" type="button" data-map-open><span>進入課題<small>Explore lesson</small></span><span aria-hidden="true">→</span></button></div></article></div>
     <footer class="expression-map-footer"><p class="expression-map-message" role="status" aria-live="polite" hidden></p><div class="expression-map-legend"><span>未完成</span><span>已完成</span></div><span class="expression-map-desktop-hint">拖動地圖探索 · 方向鍵 / WASD 走動</span></footer>`;
@@ -383,6 +394,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
       else if(button?.dataset.character) { character=button.dataset.character; updateSelection(); save(); drawHorse(performance.now(),Boolean(journey)); }
       else if(button?.hasAttribute('data-map-open') && standing>=0) openLesson(lessons[standing].id);
       else if(button?.hasAttribute('data-save-location')) saveLocation();
+      else if(button?.hasAttribute('data-map-overview')) setScale(0);
       else if(button?.dataset.zoom) {
         setScale(zoom+(button.dataset.zoom==='in'?.2:-.2));
       } else if(world.contains(event.target)) {
@@ -428,7 +440,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     on(document,'visibilitychange',()=>document.hidden?stopAnimation():startAnimation());
     on(reduced,'change',()=>{if(reduced.matches && journey){position={...journey.to};journey=null;settleArrival();}drawHorse(performance.now(),false);startAnimation();});
     resizeObserver=new ResizeObserver(()=>{if(mode && viewport.clientWidth) {
-      setScale(zoom,position);
+      setScale(theme?.fitOverview && root.dataset.overview==='true' ? 0 : zoom,position);
       drawHorse(performance.now(),Boolean(journey));
     }});
     resizeObserver.observe(viewport);

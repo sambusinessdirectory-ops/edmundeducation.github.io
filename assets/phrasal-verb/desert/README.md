@@ -1,25 +1,27 @@
 # Phrasal Verb desert map
 
-This scene uses the complete public Phrasal Verb catalogue (329 lessons at this release). Permanent lesson IDs, exercises, grading, attempt storage and bookmarks remain in the host. The map owns only navigation and account-and-system-scoped browser preferences. Eddie, Phoebe and Elsie use the established shared companion artwork.
+The map covers lessons 1–30. The original cards for lessons 31–329 continue below it. Permanent IDs, questions, grading, progress and bookmarks belong to the existing Phrasal Verb host; the map owns navigation and account-scoped companion/location preferences only.
 
-## Artwork
+## Artwork and composition
 
-`background.webp` is a 1672 × 941 built-in ImageGen master encoded to WebP, displayed at 1600 × 900 world units. The supplied desert map is its style reference. Plants, clouds, roads, UI and characters were excluded from the painting. Two manually traced pond masks are registered to that displayed footprint. Quiet native dune shapes extend the painting, and the edges fade into that surround.
+`background-complete.webp` is a complete 1241 × 1268 built-in ImageGen painting displayed at 1600 × 1635 world units. It extends the original desert with a lower oasis, broad dunes and grouped rocks. Three manually registered pond polygons define both surface animation clips and dry-ground navigation. There is no edge fade, blur, reflected padding or synthetic landscape extension. The earlier `background.webp` is retained as source history and is no longer rendered.
 
-`botanical-atlas.webp` is a 1536 × 1024 ImageGen atlas, losslessly encoded. The generator returned an opaque neutral checkerboard even after a transparency revision. The native SVG color matrix in the scene removes neutral background at rendering time, including interior gaps, while retaining the saturated olive and golden paint. The source atlas itself does **not** contain an alpha channel. This is recorded rather than describing the source as transparent. Crops and anchored motion are in `phrasal-verb-desert.mjs`; they were reviewed in the rendered scene. Clouds reuse the existing `assets/sentence-structure/coast/clouds.webp` artwork without modification.
+Palms, cacti, reeds and shrubs are deliberately simple native SVG artwork in `phrasal-verb-desert-plants.mjs`: broad fronds, smooth trunks, a small palette and no fine texture. All 29 planted groups sway about their roots with varied phase and 6.2–9.02 second periods. Palms use ±2.4°, cacti ±1.7°, other plants ±3.4°. Offscreen plants pause.
 
-All requested artwork was produced with the built-in ImageGen tool. No new runtime library is required. Full prompts and original PNG masters are retained in the task's `outputs/phrasal-desert-map` archive.
+`botanical-atlas.webp` is now used only for the two small tumbleweeds. It is an RGB ImageGen atlas whose neutral background is removed at rendering time by the existing SVG color matrix; the source has no alpha channel. Clouds reuse the established coastal cloud asset. All three ponds have clipped surface shifts and sparse ripples. Two tumbleweeds roll in opposing directions, with rotation coupled to distance/radius. The shared owner suspends decoration while hidden or inactive; reduced motion freezes it.
 
-## Motion and layout
+The sandstone platforms and winding trail are native SVG. Open ground allows direct walking in any direction. A small visibility graph routes around the three shores; keyboard steps also test those boundaries. The trail only indicates lesson order. The final two stops end in open sand beyond the lower oasis.
 
-Every plant in the final inventory uses a root-anchored, independently phased skew. Palms use ±2.4°, cacti ±1.7°, reeds and shrubs ±4.1°, with periods of 5.8–8.62 seconds. Offscreen vegetation pauses. Both ponds have clipped surface movement and gentle short ripples. Three clouds drift slowly with varied phases and opposed directions. Exactly two small tumbleweeds roll left-to-right and right-to-left, with angular travel coupled to distance/radius; they wrap outside the 1600-unit core.
+Standard zoom retains readable stops and two-axis panning. Minus or the 全圖 button fits the entire landscape into a plain cream frame. At full overview the arrival card docks below the picture. The optional camera behavior is scoped to this theme. Saved locations beyond lesson 30 recover to the first stop while keeping the chosen companion.
 
-The sandstone platforms and winding sand path are native SVG geometry. The companion follows the sampled trail between lessons; keyboard movement cannot enter the pond masks. The initial map composition is designed for the shared desktop viewport at standard zoom. Small screens retain readable map scale and allow panning. A list view and the full lesson picker remain available.
+The full generation prompt and original PNG are retained in the task archive `outputs/phrasal-desert-map-v2`. The built-in tool was used for the painting; export to WebP used Sharp. There is no new runtime dependency.
 
-The shared animation owner pauses the scene when hidden/inactive. Reduced motion freezes decoration and preserves navigation. Rendering uses standard DOM/SVG/CSS, with Canvas 2D only for the existing shared companions. Physical Safari/mobile performance and deliberate Canvas 2D loss are outside this test coverage.
+## Validation
 
-## Checks
+- `node --test tools/test-phrasal-desert.mjs`: first-30 scope, true identities/question totals, 900 ordered dry routes, direct land travel, three pond obstacles, progress, plant spacing and camera.
+- Host/outbox tests and shared/coast/realm geometry regression: 54 checks passed.
+- `node tools/test-phrasal-desert-browser.cjs`: actual entries for all 30 mapped lessons; all 299 continuation cards; progress, saved pins, account isolation, out-of-scope saved pin recovery, no walking-induced attempts; animated direct walking and shore detours; pond click rejection; all visible plants, clouds, three ponds and opposing tumbleweeds; unchanged landmark pixels; full-art bounds and readable normal view at 1440 × 1050, 820 × 1180 and 390 × 844.
+- Shared Speaking map browser regression: existing zoom bounds, lesson entry, progress, pins and mouse/keyboard/touch navigation.
+- Paint registration: 3,517 sampled turquoise water pixels fall inside blocked walking space.
 
-- `node --test tools/test-phrasal-desert.mjs`: catalogue, pond boundaries, 108,241 ordered routes, keyboard routing, rolling direction/contact, progress semantics, plant envelopes, camera.
-- `node --test tools/test-phrasal-verb-system.mjs tools/test-phrasal-verb-attempt-outbox.mjs`: existing host and attempt safeguards.
-- `node tools/test-phrasal-desert-browser.cjs`: isolated local fixture accounts, all real lesson entries, visible motion, stationary landmarks, progress/pins/account isolation, list access, reduced motion and desktop/tablet/phone layouts. External student services are blocked.
+Browser checks use isolated fixture accounts and block external student services. They do not exercise a real authenticated student session or physical Safari hardware. Publication is checked against the canonical release and deployed file hashes.

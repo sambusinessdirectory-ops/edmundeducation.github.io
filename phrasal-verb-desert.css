@@ -6,7 +6,7 @@
 [data-theme="phrasal-desert"] .expression-map-header{background:linear-gradient(110deg,#fff9ed,#f0e4c8)}
 [data-theme="phrasal-desert"] .expression-map-tools{background:#fffaef}
 [data-theme="phrasal-desert"] .expression-map-heading p{color:#8e6639}
-[data-theme="phrasal-desert"] .expression-map-viewport{background:#f4c478;scrollbar-color:#b58e56 #f4dba7}
+[data-theme="phrasal-desert"] .expression-map-viewport{background:#efe6d0;scrollbar-color:#b58e56 #f4dba7}
 [data-theme="phrasal-desert"] .expression-map-stone::before{display:none}
 [data-theme="phrasal-desert"] .expression-map-stone-number{top:3px;color:#664420;font-size:28px}
 [data-theme="phrasal-desert"] .expression-map-stone-status{top:43px;right:16px;background:#fff5d9;color:#5b4828}
@@ -18,9 +18,15 @@
 [data-theme="phrasal-desert"] .expression-map-lesson-card{border-color:#cbae7d;background:#fff7e5}
 .desert-platform{position:absolute;left:12px;top:-14px;width:156px;height:90px;overflow:visible;pointer-events:none}
 .desert-scenery{position:absolute;inset:0;pointer-events:none}
-.desert-dunes{position:absolute;left:-800px;top:0;width:3200px;height:100%;pointer-events:none}
-.desert-background{position:absolute;left:0;top:0;width:1600px;height:900px;max-width:none;mask-image:linear-gradient(to right,transparent,#000 90px,#000 calc(100% - 90px),transparent),linear-gradient(to bottom,#000 78%,transparent 100%);mask-composite:intersect;pointer-events:none}
-.desert-water{position:absolute;left:0;top:0;width:1600px;height:900px;pointer-events:none}
+.desert-background{position:absolute;inset:0;width:1600px;height:100%;max-width:none;pointer-events:none}
+.desert-water{position:absolute;inset:0;width:1600px;height:100%;pointer-events:none}
+[data-theme="phrasal-desert"] .expression-map-world{overflow:hidden}
+[data-theme="phrasal-desert"][data-overview="true"] .expression-map-lesson-card{position:relative;left:auto!important;top:auto!important;width:auto;margin:12px;border-radius:12px;box-shadow:none}
+[data-theme="phrasal-desert"][data-overview="true"] .expression-map-lesson-card::before{display:none}
+[data-phrasal-remaining]{margin-top:30px}
+.phrasal-remaining-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:16px}
+.phrasal-remaining-heading h2{margin:0;font-size:22px}
+.phrasal-remaining-heading span{font-size:14px;color:var(--muted,#a8b4ce)}
 .desert-water-surface{opacity:.48;animation:desert-surface var(--duration) ease-in-out var(--delay) infinite alternate}
 .desert-ripple{fill:none;stroke:#eefff6;stroke-width:1.7;stroke-linecap:round;opacity:0;animation:desert-ripple var(--duration) ease-in-out var(--delay) infinite}
 .desert-cloud{position:absolute;opacity:.85;animation:desert-cloud var(--duration) linear var(--delay) infinite var(--direction)}

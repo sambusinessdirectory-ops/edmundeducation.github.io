@@ -65,7 +65,7 @@ test("portal exposes the complete eight-page Phrasal Verb flow and first-card bo
   assert.match(html, /phrasal-verb-system-data\.js/);
   assert.match(html, /phrasal-verb-system\.js/);
   assert.match(html, /phrasal-verb-system\.css/);
-  assert.ok(choices.indexOf("data-open-bookmarks-card") < choices.indexOf("${cards}"));
+  assert.ok(choices.indexOf("data-open-bookmarks-card") < choices.indexOf("${cards.slice(0, DESERT_MAP_LIMIT)"));
   assert.match(app, /const LESSON_PAGES = 8/);
   assert.match(app, /const EXERCISE_PAGE = 8/);
 });
