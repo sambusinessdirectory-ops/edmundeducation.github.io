@@ -84,6 +84,7 @@ jobs:
             supabase-idiom-system-lessons-26-138.sql
           node --test tools/test-idiom-system.mjs
           node tools/test-idiom-system-runtime.mjs
+          node --test tools/test-idiom-paper.mjs
           npm test --prefix workers/idiom-system
 
       - name: Validate and regenerate the complete Proverb catalogue

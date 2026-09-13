@@ -1,0 +1,30 @@
+.idiom-map-actions {display:flex;justify-content:flex-end;gap:10px;margin:22px 0 12px;flex-wrap:wrap;}
+.idiom-map-actions button {min-height:42px;}
+.idiom-remaining {margin:28px 0;}
+.idiom-remaining summary {cursor:pointer;font-weight:750;padding:15px 0;color:var(--navy);}
+.idiom-remaining .lesson-choice-grid {margin-top:15px;}
+[data-theme=idiom-paper] .expression-map-lesson-card.paper-has-preview {width:min(370px,calc(100% - 20px));}
+[data-theme=idiom-paper] .paper-has-preview .expression-map-selected {grid-template-columns:27px minmax(0,1fr) 88px;align-items:start;}
+.paper-lesson-preview {display:block;width:88px;height:68px;object-fit:contain;border:1px solid #d6cba6;border-radius:8px;background:#fff8e5;grid-column:3;grid-row:1;}
+[data-theme=idiom-paper] .paper-has-preview .expression-map-selected-copy h3 {font-size:18px;}
+[data-theme=idiom-paper] .paper-has-preview .expression-map-selected-copy p {white-space:normal;font-size:11px;}
+[data-theme=idiom-paper] .expression-map-viewport {background:#9faa5e;}
+[data-theme=idiom-paper] .expression-map-world {background:#9faa5e;}
+.paper-background {position:absolute;left:-800px;top:0;width:3200px;height:1950px;max-width:none;pointer-events:none;}
+.paper-trail,.paper-effects {position:absolute;inset:0;width:1600px;height:1950px;pointer-events:none;}
+.paper-trail-shadow {fill:none;stroke:#52663c;stroke-width:72;opacity:.18;filter:url(#idiom-path-shadow);transform:translateY(7px);}
+.paper-trail-edge {fill:none;stroke:#b5a475;stroke-width:65;stroke-linecap:round;stroke-linejoin:round;}
+.paper-trail-top {fill:none;stroke:#eee0b7;stroke-width:59;stroke-linecap:round;stroke-linejoin:round;}
+.paper-trail-stitch {fill:none;stroke:#faf1d4;stroke-width:1.7;stroke-dasharray:6 13;stroke-linecap:round;}
+[data-theme=idiom-paper] .expression-map-stone::before {display:none;}
+.paper-level-platform {position:absolute;left:0;top:0;width:180px;height:96px;overflow:visible;filter:drop-shadow(0 3px 4px #4d63321a);transition:filter .18s;}
+[data-theme=idiom-paper] .expression-map-stone-number {top:14px;color:#3e5543;font-size:29px;text-shadow:0 1px #fff9e8;}
+[data-theme=idiom-paper] .expression-map-stone-status {top:55px;right:5px;padding:3px 5px;border:1px solid #c9bd99;border-radius:6px;font-size:12px;box-shadow:0 2px 3px #6d613421;}
+[data-theme=idiom-paper] .expression-map-stone-caption {top:94px;left:-6px;width:192px;padding:4px 5px;border-radius:3px;border-color:#bcbe95;background:#f5eed8ee;box-shadow:0 3px 5px #40552a14;font:500 20px/1.2 Georgia,serif;}
+[data-theme=idiom-paper] .expression-map-stone[aria-pressed=true] .paper-level-platform {filter:drop-shadow(0 0 3px #fffbea) drop-shadow(0 0 5px #fffbea);}
+[data-theme=idiom-paper] .expression-map-stone:hover .paper-level-platform {filter:brightness(1.06);}
+[data-theme=idiom-paper] .expression-map-stone[data-complete=true] .paper-level-platform {filter:sepia(.12) hue-rotate(25deg) saturate(.9);}
+[data-theme=idiom-paper] .expression-map-flag-cloth {transform-origin:9px 22px;animation:idiom-pin-wave 3.2s ease-in-out infinite;}
+[data-theme=idiom-paper][data-animating=false] .expression-map-flag-cloth {animation-play-state:paused;}
+@keyframes idiom-pin-wave {0%,100%{transform:skewY(-7deg) scaleX(.91)}50%{transform:skewY(7deg) scaleX(1)}}
+@media(prefers-reduced-motion:reduce){[data-theme=idiom-paper] .expression-map-flag-cloth{animation:none;}}

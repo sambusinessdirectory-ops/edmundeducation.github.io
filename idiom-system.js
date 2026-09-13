@@ -128,6 +128,8 @@ const state = {
 
 let lessonSearchIndexCache = null;
 let exerciseClockWasRunningBeforeIdleBreak = false;
+let idiomMap = null;
+let idiomMapLoad = null;
 
 function idleBreakIsPaused() {
   return window.EdmundIdleBreak?.isPaused?.() === true;
@@ -294,6 +296,7 @@ function showView(name, { preserveScroll = false } = {}) {
     pauseExerciseClock({ persist: name !== "lesson" && state.lessonPage === EXERCISE_PAGE });
   }
   state.currentView = name;
+  idiomMap?.setActive(name === "dashboard");
   for (const view of elements.views) view.hidden = view.dataset.view !== name;
 
   const loggedIn = Boolean(state.user && state.authToken);
@@ -414,6 +417,7 @@ function readSession() {
 }
 
 function clearSession() {
+  idiomMap?.reset();
   window.clearTimeout(state.exercisePersistTimer);
   state.exercisePersistTimer = null;
   pauseExerciseClock();
@@ -706,13 +710,50 @@ function renderLessonChoices() {
         <button class="lesson-section-bookmark" type="button" data-toggle-section-bookmark="${escapeHtml(lesson.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除慣用語書簽" : "收藏整個慣用語"}">${bookmarked ? "★" : "☆"}</button>
       </article>
     `;
-  }).join("");
+  });
   const sectionBookmarkCount = state.bookmarks.filter((bookmark) => bookmark.questionId === SECTION_BOOKMARK_ID).length;
   const questionBookmarkCount = state.bookmarks.length - sectionBookmarkCount;
   elements.lessonChoiceGrid.innerHTML = `<button class="lesson-choice" type="button" data-open-bookmarks-card data-number="★" data-tone="bookmark">
       <h2>書簽<span>Bookmarks</span></h2>
       <span class="choice-meta"><span>${escapeHtml(sectionBookmarkCount)} 個慣用語</span><span>${escapeHtml(questionBookmarkCount)} 道題目</span><span>跟隨帳戶同步</span></span>
-    </button>${cards}`;
+    </button>${cards.join("")}`;
+  const remaining = document.querySelector('[data-remaining-lesson-grid]');
+  if (remaining) remaining.innerHTML = cards.slice(30).join("");
+  const remainingCount = document.querySelector('[data-remaining-count]');
+  if (remainingCount) remainingCount.textContent = `（${Math.max(0, cards.length - 30)} 個慣用語）`;
+  const bookmarkCount = document.querySelector('[data-map-bookmark-count]');
+  if (bookmarkCount) {
+    bookmarkCount.textContent = `(${state.bookmarks.length})`;
+    bookmarkCount.title = `${sectionBookmarkCount} 個慣用語 · ${questionBookmarkCount} 道題目`;
+  }
+  syncIdiomMap();
+}
+
+function syncIdiomMap() {
+  const root = document.querySelector('[data-idiom-map]');
+  const toggle = document.querySelector('[data-idiom-map-toggle]');
+  if (!root || !toggle || !state.user || !lessonList().length) return;
+  if (idiomMap) {
+    idiomMap.update(String(state.user.id));
+    idiomMap.setActive(state.currentView === 'dashboard');
+    return;
+  }
+  // The list remains available while the decorative map loads or if it fails.
+  if (!idiomMapLoad) idiomMapLoad = import('./idiom-paper-map.mjs?v=20260913-paper1')
+    .then(({mountIdiomMap}) => {
+      if (!state.user) { idiomMapLoad = null; return; }
+      toggle.hidden = false;
+      idiomMap = mountIdiomMap({root,toggle,grid:elements.lessonChoiceGrid,
+        remaining:document.querySelector('[data-idiom-remaining]'),
+        lessons:lessonList(),getAttempts:()=>state.attempts,
+        openLesson:id=>openLesson(id,{page:1})});
+      syncIdiomMap();
+    }).catch(() => {
+      idiomMapLoad = null;
+      root.hidden = true;
+      toggle.hidden = true;
+      elements.lessonChoiceGrid.hidden = false;
+    });
 }
 
 function collectLessonSearchStrings(value, output = [], key = "") {

@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="idiom-system.css?v=20260908-loading1">
+  <link rel="stylesheet" href="common-expression-map.css?v=20260912-autumn1">
+  <link rel="stylesheet" href="idiom-paper-map.css?v=20260913-paper1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2">
   <link rel="stylesheet" href="shared-speaking-practice.css?v=20260829-1">
 </head>
@@ -211,7 +213,16 @@
         <div class="lesson-search-results" id="idiom-search-results" data-lesson-search-results hidden aria-live="polite"></div>
       </section>
 
-      <section class="lesson-choice-grid" data-lesson-choice-grid aria-label="慣用語選擇"></section>
+      <div class="idiom-map-actions">
+        <button class="small-button" type="button" data-open-bookmarks-card>☆ 書簽 <span data-map-bookmark-count></span></button>
+        <button class="small-button expression-map-toggle" type="button" data-idiom-map-toggle hidden aria-pressed="true" aria-controls="idiom-paper-map idiom-lesson-list">課題列表 · Lesson list</button>
+      </div>
+      <section id="idiom-paper-map" data-idiom-map hidden aria-label="慣用語首 30 課互動地圖"></section>
+      <section id="idiom-lesson-list" class="lesson-choice-grid" data-lesson-choice-grid aria-label="慣用語選擇"></section>
+      <details class="idiom-remaining" data-idiom-remaining hidden>
+        <summary>第 31 課起 · 繼續學習 <span data-remaining-count></span></summary>
+        <div class="lesson-choice-grid" data-remaining-lesson-grid></div>
+      </details>
 
       <section class="history-panel glass-panel" aria-labelledby="history-heading">
         <div class="section-heading">
@@ -323,6 +334,6 @@
   <script defer src="speaking-system-config.js?v=20260829-1"></script>
 
   <script defer src="shared-speaking-practice.js?v=20260829-2"></script>
-  <script type="module" src="idiom-system.js?v=20260908-loading1"></script>
+  <script type="module" src="idiom-system.js?v=20260913-paper1"></script>
 </body>
 </html>
