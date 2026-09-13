@@ -1,11 +1,11 @@
 import {createDesertTheme} from './phrasal-verb-desert.mjs?v=20260913-bakery1';
 import {nightTerrain,nightCoin,mountNight} from './phrasal-verb-night.mjs?v=20260913-bakery1';
-import {bakeryTerrain,bakeryPlatform,mountBakery} from './phrasal-verb-bakery.mjs?v=20260913-bakery1';
+import {bakeryTerrain,bakeryPlatform,mountBakery} from './phrasal-verb-bakery.mjs?v=20260913-bakery2';
 import {DESERT_HEIGHT} from './phrasal-verb-desert-geometry.mjs?v=20260913-night1';
 import {NIGHT_OFFSET,NIGHT_HEIGHT} from './phrasal-verb-night-geometry.mjs?v=20260913-night1';
-import {BAKERY_OFFSET} from './phrasal-verb-bakery-geometry.mjs?v=20260913-bakery1';
-import {journeyHeight,journeyPositions,createJourneyNavigation,journeyOverview} from './phrasal-verb-journey-geometry.mjs?v=20260913-bakery1';
-export {PHRASAL_MAP_LIMIT,phrasalJourneyLessons} from './phrasal-verb-journey-geometry.mjs?v=20260913-bakery1';
+import {BAKERY_OFFSET} from './phrasal-verb-bakery-geometry.mjs?v=20260913-bakery2';
+import {journeyHeight,journeyPositions,createJourneyNavigation,journeyOverview} from './phrasal-verb-journey-geometry.mjs?v=20260913-bakery2';
+export {PHRASAL_MAP_LIMIT,phrasalJourneyLessons} from './phrasal-verb-journey-geometry.mjs?v=20260913-bakery2';
 export {phrasalMapCompleted} from './phrasal-verb-desert.mjs?v=20260913-bakery1';
 let instance=0;
 export function createPhrasalJourney(lessons){

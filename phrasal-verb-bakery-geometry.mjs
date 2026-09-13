@@ -29,6 +29,32 @@ export const BAKERY_OBJECTS={
  moon:{x:174,y:156,size:224},galaxy:{x:500,y:160,size:350},saturn:{x:1370,y:220,size:310},
  chimney:{x:790,y:233},cup:{x:1302,y:1026}
 };
+// Keep small groups in the open bands between lesson rows, leaving room to walk.
+export const BAKERY_DECORATIONS=[
+ {art:'star-cookies',x:370,y:672,size:190},
+ {art:'cupcake',x:1020,y:657,size:192},
+ {art:'star-cookies',x:740,y:925,size:190},
+ {art:'cupcake',x:351,y:945,size:168},
+ {art:'star-cookies',x:585,y:1190,size:166}
+];
+// Equal distances along the icing keep long bends as richly sprinkled as straight runs.
+export function bakerySprinkles(trail,nodes){
+ const result=[];let distance=0,next=16,index=0;
+ for(let j=1;j<trail.points.length;j++){
+  const a=trail.points[j-1],b=trail.points[j],dx=b.x-a.x,dy=b.y-a.y,length=Math.hypot(dx,dy);
+  if(!length)continue;
+  while(next<=distance+length){
+   const t=(next-distance)/length,side=(index%2?18:-18)+Math.sin(index*1.9)*5;
+   const x=a.x+dx*t-dy/length*side,y=a.y+dy*t+dx/length*side;
+   // No sugar over the numbered biscuit, progress badge, or lesson caption.
+   if(!nodes.some(n=>Math.abs(x-n.x)<73&&y>n.y-56&&y<n.y+85))
+    result.push({x,y,width:14+index%3*2,angle:index*67%160-80,color:index%6});
+   next+=20;index++;
+  }
+  distance+=length;
+ }
+ return result;
+}
 // Each steam ribbon keeps the same rim contact while its upper curls change shape.
 export function chocolateSteam(t,index){
  const phase=t*1.15+index*2.1,base=(index-1)*15;

@@ -4,6 +4,9 @@ module.exports=async function({page,map,viewport,out,sharp,assertOverview}){
  await page.emulateMedia({reducedMotion:'reduce'});await page.locator('[data-phrasal-chapter=bakery]').click();await page.waitForTimeout(250);
  await page.waitForFunction(()=>[...document.querySelectorAll('.bakery-background,.bakery-sprite')].every(image=>image.complete&&image.naturalWidth>0));
  assert.equal(await page.locator('[data-bakery]').count(),30);assert.equal(await page.locator('.desert-platform').count(),30);assert.equal(await page.locator('.night-coin').count(),30);
+ assert.equal(await page.locator('.bakery-decoration').count(),5);
+ assert.ok(await page.locator('.bakery-sprinkle').count()>=120,'Rainbow sugar remains visible between stops and around bends');
+ const glow=await page.locator('.bakery-moon-motion').evaluate(e=>getComputedStyle(e).filter);assert.ok(glow.includes('drop-shadow'),'Croissant has a warm light halo');
  assert.equal(await page.locator('[data-map-open]').isVisible(),true);assert.equal(await page.locator('[data-phrasal-chapter=bakery]').getAttribute('aria-pressed'),'true');
  const focal=await page.evaluate(()=>{const v=document.querySelector('.expression-map-viewport').getBoundingClientRect();return ['moon','galaxy','saturn'].map(name=>{const b=document.querySelector('.bakery-'+name).getBoundingClientRect();return {name,inside:b.left>=v.left-1&&b.right<=v.right+1&&b.top>=v.top-1&&b.bottom<=v.bottom+1};});});assert.ok(focal.every(f=>f.inside),JSON.stringify(focal));
  await map.screenshot({path:path.join(out,'bakery-standard.png')});
@@ -31,10 +34,10 @@ module.exports=async function({page,map,viewport,out,sharp,assertOverview}){
  // Controlled time covers two complete slow rotations, alongside the ordinary-speed observation above.
  const loops={};for(const [name,period] of [['galaxy',80000],['saturn',32000]]){
   const poses=[];for(const fraction of [0,.25,.5,.75,1,1.25,1.5,1.75,2]){
-   poses.push(await page.locator(`.bakery-${name}-motion`).evaluate((e,{fraction,period})=>{const a=e.getAnimations()[0];a.pause();a.effect.updateTiming({delay:0});a.currentTime=fraction*period;const m=new DOMMatrix(getComputedStyle(e).transform);return {fraction,a:m.a,b:m.b};},{fraction,period}));
+   poses.push(await page.locator(`.bakery-${name}-motion`).evaluate((e,{fraction,period})=>{const a=e.getAnimations()[0];a.pause();a.effect.updateTiming({delay:0});a.currentTime=fraction*period;const m=new DOMMatrix(getComputedStyle(e).transform);return {fraction,a:m.a,b:m.b,c:m.c,d:m.d,is2D:m.is2D,parentTransform:getComputedStyle(e.parentElement).transform};},{fraction,period}));
    if(fraction<=1)await viewport.screenshot({path:path.join(out,`bakery-${name}-pose-${fraction}.png`)});
   }
-  for(const p of poses){assert.ok(Math.abs(p.a-Math.cos(p.fraction*2*Math.PI))<.001);assert.ok(Math.abs(p.b-Math.sin(p.fraction*2*Math.PI))<.001);}loops[name]=poses;
+  for(const p of poses){assert.ok(Math.abs(p.a-Math.cos(p.fraction*2*Math.PI))<.001);assert.ok(Math.abs(p.b-Math.sin(p.fraction*2*Math.PI))<.001);if(name==='saturn'){assert.equal(p.is2D,true,'Saturn stays in the screen plane');assert.equal(p.parentTransform,'none','Saturn has no tilted parent');assert.ok(Math.abs(p.c+p.b)<.001&&Math.abs(p.d-p.a)<.001,'Both ring and sphere rotate rigidly around Z without foreshortening');}}loops[name]=poses;
   await page.locator(`.bakery-${name}-motion`).evaluate(e=>e.getAnimations()[0].play());
  }
  await page.locator('[data-phrasal-chapter=day]').click();await page.waitForTimeout(3500);assert.equal(await page.locator('.phrasal-bakery-section').getAttribute('data-visible'),'false');assert.equal(await page.locator('.bakery-smoke-puff').first().evaluate(e=>getComputedStyle(e).animationPlayState),'paused');

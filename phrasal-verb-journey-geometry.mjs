@@ -1,6 +1,6 @@
 import {DESERT_HEIGHT,createDesertNavigation} from './phrasal-verb-desert-geometry.mjs?v=20260913-night1';
 import {NIGHT_OFFSET,NIGHT_HEIGHT,JOURNEY_WATER,journeyPositions as firstSixty} from './phrasal-verb-night-geometry.mjs?v=20260913-night1';
-import {BAKERY_OFFSET,BAKERY_HEIGHT,bakeryPositions} from './phrasal-verb-bakery-geometry.mjs?v=20260913-bakery1';
+import {BAKERY_OFFSET,BAKERY_HEIGHT,bakeryPositions} from './phrasal-verb-bakery-geometry.mjs?v=20260913-bakery2';
 export const PHRASAL_MAP_LIMIT=90;
 export const JOURNEY_HEIGHT=BAKERY_OFFSET+BAKERY_HEIGHT;
 export {JOURNEY_WATER};
