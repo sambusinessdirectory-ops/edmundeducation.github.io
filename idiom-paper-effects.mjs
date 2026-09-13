@@ -1,6 +1,6 @@
-import {PAPER_FLAGS,PAPER_MILL,PAPER_BOATS,PAPER_CLOUDS,PAPER_PIGEON,PAPER_WATER,paperPlants,paperPoint} from './idiom-paper-geometry.mjs?v=20260913-paper2';
-import {paperBoatMotion,paperCloudMotion,paperPlantMotion,paperMillMotion,paperFlagMotion,paperPigeonMotion} from './idiom-paper-motion.mjs?v=20260913-paper2';
-import {loadPaperArtwork,drawPaperSprite,drawPaperShadow,PAPER_SPRITES} from './idiom-paper-artwork.mjs?v=20260913-paper2';
+import {PAPER_FLAGS,PAPER_MILL,PAPER_BOATS,PAPER_CLOUDS,PAPER_PIGEON,PAPER_WATER,paperPlants,paperPoint} from './idiom-paper-geometry.mjs?v=20260913-paper3';
+import {paperBoatMotion,paperCloudMotion,paperPlantMotion,paperMillMotion,paperFlagMotion,paperPigeonMotion} from './idiom-paper-motion.mjs?v=20260913-paper3';
+import {loadPaperArtwork,drawPaperSprite,drawPaperShadow,PAPER_SPRITES} from './idiom-paper-artwork.mjs?v=20260913-paper3';
 function oval(g,x,y,rx,ry,color){g.beginPath();g.ellipse(x,y,rx,ry,0,0,Math.PI*2);g.fillStyle=color;g.fill();}
 function drawFlag(g,art,f,m,i){
  const {sheet,rect:[sx,sy,sw,sh]}=PAPER_SPRITES[i%2?'goldFlag':'redFlag'];

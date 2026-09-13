@@ -1,10 +1,13 @@
-import {PAPER_WIDTH,PAPER_HEIGHT,paperPositions,paperTrailPath,paperPath,paperStep} from './idiom-paper-geometry.mjs?v=20260913-paper2';
-import {createPaperEffects} from './idiom-paper-effects.mjs?v=20260913-paper2';
-import {loadPaperArtwork,drawPaperPlatform} from './idiom-paper-artwork.mjs?v=20260913-paper2';
+import {PAPER_WIDTH,PAPER_HEIGHT,paperPositions,paperTrailPath,paperPath,paperStep,PAPER_APPROACHES,PAPER_BRIDGE_SILHOUETTES} from './idiom-paper-geometry.mjs?v=20260913-paper3';
+import {createPaperEffects} from './idiom-paper-effects.mjs?v=20260913-paper3';
+import {loadPaperArtwork,drawPaperPlatform} from './idiom-paper-artwork.mjs?v=20260913-paper3';
 const ART='./assets/idiom-system/paper/v2/';
 function terrain(nodes) {
   const d=paperTrailPath(nodes);
-  return `<div class="paper-core"><img class="paper-background" src="${ART}landscape.webp" width="1672" height="941" alt="" decoding="async"><img class="paper-foreground" src="${ART}foreground.webp" width="1691" height="930" alt="" decoding="async"></div><svg class="paper-trail" viewBox="0 0 1600 1950" aria-hidden="true"><defs><filter id="idiom-path-shadow"><feGaussianBlur stdDeviation="4"/></filter><pattern id="paper-path-material" patternUnits="userSpaceOnUse" width="90" height="45" viewBox="1192 745 90 45"><image href="${ART}props.webp" width="1536" height="1024"/></pattern><mask id="idiom-bridge-gap"><rect width="1600" height="1950" fill="white"/><path d="M545 315C597 280 658 285 703 299C735 311 768 325 793 330M1240 612C1190 564 1105 523 1020 533C961 535 904 569 856 600" fill="none" stroke="black" stroke-width="74"/></mask></defs><g mask="url(#idiom-bridge-gap)"><path class="paper-trail-shadow" d="${d}"/><path class="paper-trail-edge" d="${d}"/><path class="paper-trail-top" d="${d}"/><path class="paper-trail-fiber" d="${d}"/><path class="paper-trail-stitch" d="${d}"/></g></svg><canvas class="paper-effects" width="1600" height="1950" aria-hidden="true"></canvas>`;
+  const bridgeClips=PAPER_BRIDGE_SILHOUETTES.map((poly,i)=>`<clipPath id="paper-bridge-${i}"><polygon points="${poly.map(p=>`${p.x},${p.y}`).join(' ')}"/></clipPath>`).join('');
+  const bridges=PAPER_BRIDGE_SILHOUETTES.map((_,i)=>`<image href="${ART}landscape.webp" width="1600" height="900" clip-path="url(#paper-bridge-${i})"/>`).join('');
+  const approaches=PAPER_APPROACHES.map(d=>`<path class="paper-approach-edge" d="${d}"/><path class="paper-approach-top" d="${d}"/>`).join('');
+  return `<div class="paper-core"><img class="paper-background" src="${ART}landscape.webp" width="1672" height="941" alt="" decoding="async"><img class="paper-foreground" src="${ART}foreground.webp" width="1691" height="930" alt="" decoding="async"></div><svg class="paper-trail" viewBox="0 0 1600 1950" aria-hidden="true"><defs><filter id="idiom-path-shadow"><feGaussianBlur stdDeviation="4"/></filter><pattern id="paper-path-material" patternUnits="userSpaceOnUse" width="90" height="45" viewBox="1192 745 90 45"><image href="${ART}props.webp" width="1536" height="1024"/></pattern>${bridgeClips}</defs><g><path class="paper-trail-shadow" d="${d}"/><path class="paper-trail-edge" d="${d}"/><path class="paper-trail-top" d="${d}"/><path class="paper-trail-fiber" d="${d}"/><path class="paper-trail-stitch" d="${d}"/>${approaches}${bridges}</g></svg><canvas class="paper-effects" width="1600" height="1950" aria-hidden="true"></canvas>`;
 }
 function mount(root,reduced) {
   const viewport=root.querySelector('.expression-map-viewport');

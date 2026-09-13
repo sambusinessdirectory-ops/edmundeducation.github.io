@@ -18,13 +18,25 @@ export function paperTrailPath(nodes = PAPER_TRAIL.map(([x,y]) => ({x,y}))) {
   let d = `M${nodes[0].x} ${nodes[0].y}`;
   for (let i=0; i<nodes.length-1; i++) {
     const a=nodes[i-1]||nodes[i], b=nodes[i], c=nodes[i+1], e=nodes[i+2]||c;
-    if (i===1) { d+=`C440 322 495 318 545 315C597 280 658 285 703 299C735 311 768 325 793 330C844 335 873 343 ${c.x} ${c.y}`;continue; }
+    if (i===1) { d+=`C432 322 461 327 488 321M855 331C878 334 893 340 ${c.x} ${c.y}`;continue; }
     if (i===3) { d+=`C1320 338 1370 366 1370 425C1370 482 1425 503 ${c.x} ${c.y}`;continue; }
-    if (i===5) { d+=`C1370 696 1295 638 1240 612C1190 564 1105 523 1020 533C961 535 904 569 856 600C813 610 765 591 738 627C714 671 768 708 ${c.x} ${c.y}`;continue; }
+    if (i===5) { d+=`C1370 696 1334 662 1304 637M676 635C674 674 742 713 ${c.x} ${c.y}`;continue; }
     d += `C${b.x+(c.x-a.x)/6} ${b.y+(c.y-a.y)/6} ${c.x-(e.x-b.x)/6} ${c.y-(e.y-b.y)/6} ${c.x} ${c.y}`;
   }
   return d;
 }
+// Taper the paper lanes into the visible deck mouths. Bridge artwork is drawn
+// over their tips so its railings and masonry retain their proper depth.
+export const PAPER_APPROACHES = [
+ 'M483 292C507 288 527 293 549 302L555 317C530 321 513 338 495 350Z',
+ 'M809 308L827 317C837 319 846 311 859 302L860 360C840 356 829 339 813 331Z',
+ 'M647 635C655 609 672 594 695 591C756 577 805 562 854 564L859 581C801 584 752 598 711 610C701 617 705 627 705 635Z',
+ 'M1280 601C1297 602 1314 616 1322 616L1286 660C1275 642 1257 637 1234 629Z'
+];
+export const PAPER_BRIDGE_SILHOUETTES = [
+ [[552,323],[553,289],[591,278],[654,267],[716,270],[777,284],[822,298],[823,315],[860,334],[817,347],[763,334],[714,327],[657,326],[600,344],[559,329]],
+ [[874,647],[889,557],[943,536],[1002,520],[1090,511],[1182,520],[1249,545],[1311,588],[1333,622],[1290,638],[1268,687],[1224,699],[1166,686],[1169,623],[1100,577],[1062,572],[1010,607],[959,638],[922,650]]
+].map(poly=>poly.map(paperPoint));
 export const PAPER_FLAGS = [
   {...paperPoint([1244,74]),width:43,height:28,phase:.3},
   {...paperPoint([1329,44]),width:49,height:32,phase:1.7},
@@ -54,7 +66,7 @@ export function paperInside(p, polygon) {
   return value;
 }
 export function paperInWater(p) { return PAPER_WATER.some(poly => paperInside(p,poly)); }
-export const PAPER_BRIDGES=[[[565,329],[607,311],[659,309],[714,319],[765,340],[819,348]],[[893,627],[960,584],[1033,559],[1116,560],[1192,586],[1249,619],[1295,645]]].map(a=>a.map(paperPoint));
+export const PAPER_BRIDGES=[[[557,321],[606,303],[657,294],[714,303],[768,321],[850,336]],[[889,597],[945,563],[1032,539],[1119,544],[1198,575],[1289,625],[1320,633]]].map(a=>a.map(paperPoint));
 function distanceToSegment(p,a,b){const dx=b.x-a.x,dy=b.y-a.y,f=Math.max(0,Math.min(1,((p.x-a.x)*dx+(p.y-a.y)*dy)/(dx*dx+dy*dy)));return Math.hypot(p.x-a.x-f*dx,p.y-a.y-f*dy);}
 export function paperOnBridge(p){return PAPER_BRIDGES.some(poly=>poly.slice(1).some((b,i)=>distanceToSegment(p,poly[i],b)<17));}
 export function paperIsWalkable(p) {
@@ -74,7 +86,7 @@ export function paperStep(a,b) {
 }
 // The route endpoints are on the near bank. A small fixed graph also permits
 // free exploration without walking through the painted river.
-const WAYPOINTS = [...PAPER_BRIDGES.flat().map(p=>[p.x,p.y]),[535,305],[799,331],[817,588],[762,600],[722,630],[704,672],[1260,625],[1310,668],
+const WAYPOINTS = [...PAPER_BRIDGES.flat().map(p=>[p.x,p.y]),[525,309],[829,327],[842,574],[790,580],[739,590],[695,606],[676,635],[686,676],[1260,625],[1310,668],
   [95,327],[380,320],[510,330],[860,342],[1080,350],[1300,360],[1380,435],[1400,540],[1490,590],[1480,720],
   [140,700],[350,683],[580,715],[830,723],[1000,770],[1250,780],[1420,805]].map(([x,y])=>({x,y}));
 let fixedEdges;
@@ -100,10 +112,29 @@ export function paperPath(from,to) {
 export function paperSeed(seed=41813) {return ()=>((seed=seed*16807%2147483647)-1)/2147483646;}
 export function paperPlants(nodes=PAPER_TRAIL.map(([x,y])=>({x,y}))) {
  const result=[],random=paperSeed();
- const add=(kind,x,y,h)=>{const aspects={pine:.757,round:.87,tealPine:.73,bush:1.47,tealBush:1.35,sprout:1.24};const w=h*aspects[kind];
-  if(x-w/2<0||x+w/2>1600||paperInWater({x,y}))return;
-  if(nodes.some(n=>Math.abs(x-n.x)<w/2+101&&y>n.y-65&&y-h<n.y+127))return;
-  result.push({id:result.length,kind,x,y,w,h,amplitude:kind.includes('ine')?.031:.04,period:6+random()*3,phase:random()*Math.PI*2});};
+ const clear=(kind,x,y,w,h)=>{
+  if(x-w/2<4||x+w/2>1596||y>1920||y-h<20||paperInWater({x,y}))return false;
+  // Check the foliage silhouette by height: narrow tips and trunks should not
+  // exclude an entire rectangular patch of otherwise empty meadow.
+  const profile=kind.includes('ine')?[.15,.3,.45,.55,.65,.8,.9,1,.7,.2]:kind==='round'?[.35,.7,.95,1,1,.9,.8,.6,.25,.2]:Array(10).fill(1);
+  for(const n of nodes)for(let i=0;i<10;i++){
+   const top=y-h+h*i/10,bottom=top+h/10,half=w*profile[i]/2+h*.045+5;
+   if(Math.abs(x-n.x)<half+99&&bottom>n.y-48&&top<n.y+112)return false;
+  }
+  if(x>645&&x<880&&y>560&&y<670)return false;
+  const footClearance=45+Math.min(25,w*.2);
+  if(PAPER_TRAIL.slice(1).some((b,i)=>distanceToSegment({x,y},{x:PAPER_TRAIL[i][0],y:PAPER_TRAIL[i][1]},{x:b[0],y:b[1]})<footClearance))return false;
+  if(y<700&&((x>1070&&x<1400&&y-h<300)||(x>1430&&y>315&&y-h<505)))return false;
+  return !result.some(p=>p.kind===kind&&Math.hypot(x-p.x,y-p.y)<Math.min(85,h*.5));
+ };
+ const add=(kind,x,y,h)=>{
+  const aspects={pine:.757,round:.87,tealPine:.73,bush:1.47,tealBush:1.35,sprout:1.24};
+  h*=y<300?1.2:y<900?1.5:1.65;const w=h*aspects[kind];
+  const offsets=y<600?[[0,0]]:[0,40,-40,80,-80,120,-120].flatMap(dy=>[0,40,-40,80,-80,120,-120,160,-160].map(dx=>[dx,dy])).sort((a,b)=>Math.hypot(...a)-Math.hypot(...b));
+  const place=offsets.map(([dx,dy])=>[Math.max(w/2+8,Math.min(1592-w/2,x+dx)),y+dy]).find(([px,py])=>clear(kind,px,py,w,h));
+  if(!place)return;[x,y]=place;
+  result.push({id:result.length,kind,x,y,w,h,amplitude:kind.includes('ine')?.031:.04,period:6+random()*3,phase:random()*Math.PI*2});
+ };
  // Rich layered foliage frames the scenery while keeping the route readable.
  const beds=[[70,245,145],[270,250,105],[440,252,125],[850,267,110],[1045,266,145],[1550,298,152],
  [70,421,115],[1160,440,97],[1020,471,80],[1340,513,80],[1570,556,125],
@@ -112,5 +143,5 @@ export function paperPlants(nodes=PAPER_TRAIL.map(([x,y])=>({x,y}))) {
  [90,1430,110],[580,1420,85],[1015,1360,80],[1260,1665,125],[480,1725,140],
  [85,1890,180],[745,1875,190],[1510,1890,165]];
  for(const [x,y,h]of beds){add(result.length%3?'pine':'tealPine',x,y,h);add('round',x+42,y+5,h*.75);add(result.length%2?'bush':'tealBush',x-40,y+8,h*.4);add('sprout',x+60,y+7,h*.28);}
- return result;
+ return result.sort((a,b)=>a.y-b.y).map((p,id)=>({...p,id}));
 }

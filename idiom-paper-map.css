@@ -14,9 +14,9 @@
 .paper-foreground {position:absolute;left:0;top:780px;width:1600px;height:1170px;max-width:none;pointer-events:none;mask-image:linear-gradient(transparent,#000 120px);}
 .paper-trail,.paper-effects {position:absolute;inset:0;width:1600px;height:1950px;pointer-events:none;}
 .paper-trail-shadow {fill:none;stroke:#52663c;stroke-width:72;opacity:.18;filter:url(#idiom-path-shadow);transform:translateY(7px);}
-.paper-trail-edge {fill:none;stroke:#b5a475;stroke-width:65;stroke-linecap:round;stroke-linejoin:round;}
-.paper-trail-top {fill:none;stroke:#eee0b7;stroke-width:59;stroke-linecap:round;stroke-linejoin:round;}
-.paper-trail-fiber {fill:none;stroke:url(#paper-path-material);stroke-width:57;opacity:.73;stroke-linecap:round;}
+.paper-trail-edge {fill:none;stroke:#b5a475;stroke-width:65;stroke-linecap:butt;stroke-linejoin:round;}
+.paper-trail-top {fill:none;stroke:#eee0b7;stroke-width:59;stroke-linecap:butt;stroke-linejoin:round;}
+.paper-trail-fiber {fill:none;stroke:url(#paper-path-material);stroke-width:57;opacity:1;stroke-linecap:round;}
 .paper-trail-stitch {fill:none;stroke:#faf1d4;stroke-width:1.7;stroke-dasharray:6 13;stroke-linecap:round;}
 [data-theme=idiom-paper] .expression-map-stone::before {display:none;}
 .paper-level-platform {position:absolute;left:0;top:0;width:180px;height:96px;overflow:visible;filter:drop-shadow(0 3px 4px #4d63321a);transition:filter .18s;}
@@ -32,3 +32,6 @@
 @media(prefers-reduced-motion:reduce){[data-theme=idiom-paper] .expression-map-flag-cloth{animation:none;}}
 
 .paper-core {position:absolute;inset:0;width:1600px;height:1950px;overflow:hidden;pointer-events:none;}
+
+.paper-approach-edge {fill:#eee0b7;stroke:none;}
+.paper-approach-top {fill:url(#paper-path-material);opacity:1;}

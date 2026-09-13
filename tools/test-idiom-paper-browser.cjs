@@ -104,7 +104,7 @@ window.paperTest={
   }
   await page.setViewportSize({width:1440,height:1050});await map.scrollIntoViewIfNeeded();await page.emulateMedia({reducedMotion:'no-preference'});await page.waitForTimeout(600);assert.ok(+(await page.locator('.paper-effects').getAttribute('data-time'))>0);
   const atlasReview=await page.evaluate(async()=>{
-    const {loadPaperArtwork,drawPaperSprite,PAPER_SPRITES}=await import('./idiom-paper-artwork.mjs?v=20260913-paper2');const art=await loadPaperArtwork();
+    const {loadPaperArtwork,drawPaperSprite,PAPER_SPRITES}=await import('./idiom-paper-artwork.mjs?v=20260913-paper3');const art=await loadPaperArtwork();
     const canvas=document.createElement('canvas');canvas.width=1200;canvas.height=1200;const g=canvas.getContext('2d');
     const keys=Object.keys(PAPER_SPRITES),backgrounds=['#183a3b','#faf0d6','#8b9b56'];
     keys.forEach((key,i)=>{const x=i%4*300,y=Math.floor(i/4)*240;g.fillStyle=backgrounds[i%3];g.fillRect(x,y,300,240);const r=PAPER_SPRITES[key].rect,w=Math.min(260,190*r[2]/r[3]),h=w*r[3]/r[2];drawPaperSprite(g,art,key,x+150-w/2,y+15,w,h);g.fillStyle=i%3?'#1d3630':'#fff8dc';g.font='16px sans-serif';g.fillText(key,x+15,y+225);});
@@ -121,7 +121,7 @@ window.paperTest={
   const retina=await page.evaluate(()=>({dpr:devicePixelRatio,canvasWidth:document.querySelector('.paper-effects').width,worldWidth:1600,backgroundNativeWidth:document.querySelector('.paper-background').naturalWidth,backgroundDisplayWidth:document.querySelector('.paper-background').getBoundingClientRect().width}));
   assert.equal(retina.dpr,2);assert.equal(retina.canvasWidth,3200);assert.ok(retina.backgroundNativeWidth>=retina.backgroundDisplayWidth);
   await map.screenshot({path:path.join(out,'paper-retina.png')});assert.ok(fs.readFileSync(path.join(out,'paper-retina.png')).readUInt32BE(16)>2700);
-  for(const [name,box]of Object.entries({bird:[540,15,470,245],mill:[1365,250,230,270],trees:[0,58,480,250],castle:[1070,0,445,355]})){
+  for(const [name,box]of Object.entries({bird:[540,15,470,245],mill:[1365,250,230,270],trees:[0,58,480,250],castle:[1070,0,445,355],timber:[400,240,520,160],stone:[700,485,700,270]})){
     const clip=await viewport.evaluate((el,b)=>{const r=el.getBoundingClientRect(),s=+document.querySelector('[data-idiom-map]').dataset.scale;return{x:r.x+(b[0]+800)*s-el.scrollLeft,y:r.y+b[1]*s-el.scrollTop,width:b[2]*s,height:b[3]*s};},box);await page.screenshot({path:path.join(out,`detail-${name}.png`),clip});
   }
   // Minimum zoom exposes a deliberate paper matte, with no stretched scenery.
