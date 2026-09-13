@@ -1,6 +1,6 @@
 # Moonlit Caravan — Phrasal Verb lessons 31–60
 
-The second chapter extends the approved day oasis (1–30) in one shared map. Quick chapter buttons select the first real lesson in each region. The same companion, account-scoped saved location and learning progress work across all 60 stops. Original lesson cards continue from 61 through 329. This change adds no learning data writes or runtime dependencies.
+The second chapter extends the approved day oasis (1–30) in one shared map, now followed by the [Cosmic Bakery](../bakery/README.md) for 61–90. Quick chapter buttons select the first real lesson in each region. The same companion, account-scoped saved location and learning progress work across all 90 stops. Original lesson cards continue from 91 through 329. This change adds no learning data writes or runtime dependencies.
 
 ## Artwork
 
@@ -18,7 +18,7 @@ The night chapter starts at y = 1770 and ends at y = 3410, below the untouched 1
 
 Walking is free on dry land. A shared visibility graph avoids the three day ponds and the registered night pond; keyboard movement applies the same shore margin. Overview fits the current chapter's complete artwork in a plain frame and docks the arrival card below it. Chapter changes retain overview when it is active. Standard zoom supports panning and readable lesson controls.
 
-## Verification
+## Verification of the original night release
 
 - `node --test tools/test-phrasal-night.mjs`: real first-60 identities and original question references; unchanged first-30 positions; all 3,600 ordered dry routes; direct night walking; all four ponds; chapter framing bounds; opposing weed motion and requested bands; plant/caption clearance.
 - `node --test tools/test-phrasal-desert.mjs tools/test-common-expression-map.mjs tools/test-phrasal-verb-system.mjs`: existing day layout, walking, completion, shared preferences and host lesson contracts.

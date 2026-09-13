@@ -33,8 +33,9 @@
 [data-theme=phrasal-desert] .expression-map-stone[data-night][aria-pressed=true] .night-coin{filter:drop-shadow(0 0 3px #ffe6a7) drop-shadow(0 0 6px #ffce71)}
 [data-theme=phrasal-desert][data-current-chapter=night] .expression-map-header{background:linear-gradient(115deg,#f6efdf,#e9e6db)}
 [data-overview=true][data-overview-section] .expression-map-viewport{overflow:hidden}
-[data-overview=true][data-overview-section=day] :is(.phrasal-night-section,.phrasal-chapter-divider,.expression-map-stone[data-night]),
-[data-overview=true][data-overview-section=night] :is(.phrasal-day-section,.phrasal-chapter-divider,.expression-map-stone:not([data-night])){visibility:hidden}
+[data-overview=true] .phrasal-chapter-divider,
+[data-overview=true][data-overview-section=day] [data-map-chapter]:not([data-map-chapter=day]),
+[data-overview=true][data-overview-section=night] [data-map-chapter]:not([data-map-chapter=night]){visibility:hidden}
 .phrasal-night-section[data-visible=false] *{animation-play-state:paused!important}
 @keyframes night-twinkle{0%,100%{opacity:.24;transform:scale(.74)}42%{opacity:.92;transform:scale(1.13)}62%{opacity:.48;transform:scale(.9)}}
 @keyframes night-moon-tilt{0%,48%,100%{transform:rotate(0)}61%{transform:rotate(8deg)}75%{transform:rotate(-7deg)}89%{transform:rotate(0)}}

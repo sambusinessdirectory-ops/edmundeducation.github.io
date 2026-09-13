@@ -1,0 +1,28 @@
+import {BAKERY_OFFSET,BAKERY_HEIGHT,BAKERY_STARS,BAKERY_OBJECTS,bakeryTrail,chocolateSteam} from './phrasal-verb-bakery-geometry.mjs?v=20260913-bakery1';
+const ART='./assets/phrasal-verb/bakery/';
+function sprite(name){return `<img class="bakery-sprite" src="${ART}${name}.webp" width="1254" height="1254" alt="" decoding="async">`;}
+function celestial(name){const o=BAKERY_OBJECTS[name];return `<span class="bakery-${name}" style="left:${o.x-o.size/2}px;top:${o.y-o.size/2}px;width:${o.size}px;height:${o.size}px"><span class="bakery-${name}-motion">${sprite(name)}</span></span>`;}
+function starPath(x,y,r){return Array.from({length:10},(_,i)=>{const a=-Math.PI/2+i*Math.PI/5,rr=i%2?r*.43:r;return `${i?'L':'M'}${x+Math.cos(a)*rr} ${y+Math.sin(a)*rr}`;}).join('')+'Z';}
+export function bakeryPlatform(index,id){const gradient=`${id}-biscuit-${index}`;return `<svg class="bakery-platform" viewBox="0 0 180 110" aria-hidden="true"><defs><linearGradient id="${gradient}" x2="0" y2="1"><stop stop-color="#fff0c4"/><stop offset="1" stop-color="#efd09b"/></linearGradient></defs><ellipse cx="90" cy="81" rx="56" ry="12" fill="#362334" opacity=".28"/><ellipse cx="90" cy="50" rx="57" ry="37" fill="#b27944" stroke="#e3b675" stroke-width="3"/><path d="M34 44v11c8 34 104 34 112-1V43" fill="#d4a367"/><ellipse class="bakery-biscuit-face" cx="90" cy="40" rx="57" ry="34" fill="url(#${gradient})" stroke="#ffe9b5" stroke-width="3"/><path d="M43 27q8-11 20-13M119 16q12 5 19 15" fill="none" stroke="#fff7dc" stroke-width="3" stroke-linecap="round"/><g fill="#c79861" opacity=".45"><circle cx="50" cy="44" r="2"/><circle cx="129" cy="44" r="2"/><circle cx="67" cy="65" r="1.8"/><circle cx="112" cy="65" r="1.8"/></g></svg>`;}
+export function bakeryTerrain(nodes,id){
+ const local=nodes.map(p=>({...p,y:p.y-BAKERY_OFFSET})),trail=bakeryTrail(local),hat=BAKERY_OBJECTS.chimney,cup=BAKERY_OBJECTS.cup;
+ const sprinkles=trail.points.filter((_,i)=>i%6===3).map((p,i)=>{const before=trail.points[Math.max(0,i*6+2)],after=trail.points[Math.min(trail.points.length-1,i*6+4)],dx=after.x-before.x,dy=after.y-before.y,length=Math.hypot(dx,dy)||1,side=i%2?17:-17,x=p.x-dy/length*side,y=p.y+dx/length*side;return `<rect x="-5" y="-2" width="10" height="4" rx="2" fill="${['#eab0b6','#a8cccc','#e9c579'][i%3]}" transform="translate(${x} ${y}) rotate(${i*43%150})"/>`;}).join('');
+ return `<div class="phrasal-bakery-section" data-map-chapter="bakery" style="top:${BAKERY_OFFSET}px;height:${BAKERY_HEIGHT}px" aria-hidden="true">
+ <img class="bakery-background" src="${ART}background.webp" width="1600" height="${BAKERY_HEIGHT}" alt="" decoding="async">
+ <svg class="bakery-stars" viewBox="0 0 1600 ${BAKERY_HEIGHT}">${BAKERY_STARS.map((s,i)=>`<g class="bakery-large-star" data-bakery-star="${i}" style="--period:${s.period}s;--delay:${s.phase}s;transform-origin:${s.x}px ${s.y}px"><path d="${starPath(s.x,s.y,s.r)}" fill="#ffe8a4"/></g>`).join('')}</svg>
+ ${celestial('moon')}${celestial('galaxy')}${celestial('saturn')}
+ <svg class="bakery-chimney-smoke" style="left:${hat.x-90}px;top:${hat.y-165}px;--rise:${Math.min(130,hat.y-8)}px" width="210" height="180" viewBox="-90 -165 210 180"><defs><filter id="${id}-smoke-soft"><feGaussianBlur stdDeviation="1.7"/></filter></defs><g filter="url(#${id}-smoke-soft)">${Array.from({length:5},(_,i)=>`<g class="bakery-smoke-puff" data-bakery-puff="${i}" style="--delay:${-i*1.24}s;--drift:${22+i%3*7}px"><ellipse rx="17" ry="12" fill="#fffdf6"/><ellipse cx="-9" cy="-7" rx="10" ry="11" fill="#fffdf6"/><ellipse cx="10" cy="-6" rx="12" ry="9" fill="#fffdf6"/></g>`).join('')}</g></svg>
+ <svg class="bakery-cup-steam" style="left:${cup.x-70}px;top:${cup.y-145}px" width="140" height="155" viewBox="-70 -145 140 155"><defs><filter id="${id}-steam-soft"><feGaussianBlur stdDeviation="1.5"/></filter><linearGradient id="${id}-steam-fade" gradientUnits="userSpaceOnUse" x1="0" y1="-125" x2="0" y2="0"><stop stop-color="#fff3e4" stop-opacity="0"/><stop offset=".45" stop-color="#fff3e4" stop-opacity=".8"/><stop offset="1" stop-color="#fff3e4" stop-opacity=".45"/></linearGradient></defs>${Array.from({length:3},(_,i)=>{const p=chocolateSteam(0,i);return `<path class="bakery-steam-ribbon" data-bakery-steam="${i}" d="${p.d}" opacity="${p.opacity}" style="stroke:url(#${id}-steam-fade)" filter="url(#${id}-steam-soft)"/>`;}).join('')}</svg>
+ <svg class="bakery-route" viewBox="0 0 1600 ${BAKERY_HEIGHT}"><path d="${trail.d}" class="bakery-trail-shadow"/><path d="${trail.d}" class="bakery-trail-biscuit"/><path d="${trail.d}" class="bakery-trail-edge"/><path d="${trail.d}" class="bakery-trail-icing"/>${sprinkles}</svg>
+ </div>`;
+}
+export function mountBakery(root,reduced){
+ const region=root.querySelector('.phrasal-bakery-section'),viewport=root.querySelector('.expression-map-viewport'),steam=[...region.querySelectorAll('.bakery-steam-ribbon')];
+ let elapsed=0,last=0,lastPaint=0;
+ return {draw(now){
+  const scale=Number(root.dataset.scale)||1,top=viewport.scrollTop/scale,visible=top+viewport.clientHeight/scale>BAKERY_OFFSET&&top<BAKERY_OFFSET+BAKERY_HEIGHT;
+  region.dataset.visible=String(visible);if(last&&visible)elapsed+=Math.min(100,Math.max(0,now-last))/1000;last=now;
+  if(!visible||now-lastPaint<33)return;lastPaint=now;const t=reduced.matches?0:elapsed;
+  steam.forEach((el,i)=>{const p=chocolateSteam(t,i);el.setAttribute('d',p.d);el.setAttribute('opacity',p.opacity);el.style.strokeDashoffset=p.dashOffset;});region.dataset.motionTime=String(t);
+ },destroy(){last=lastPaint=0;}};
+}

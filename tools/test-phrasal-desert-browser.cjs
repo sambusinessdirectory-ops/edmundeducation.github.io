@@ -21,16 +21,18 @@ let browser;
  await page.goto(origin+'/phrasal-verb-system.html');await page.waitForFunction(()=>window.desertTest);await page.evaluate(()=>desertTest.login());
  const map=page.locator('[data-phrasal-map]'),viewport=page.locator('.expression-map-viewport');
  await page.waitForSelector('.desert-plant');await map.scrollIntoViewIfNeeded();await viewport.focus();await page.waitForTimeout(1800);
- assert.equal(await page.locator('.expression-map-stone').count(),60);
+ assert.equal(await page.locator('.expression-map-stone').count(),90);
  assert.equal(await page.locator('.phrasal-day-section .desert-tumbleweed').count(),2);
  assert.equal(await page.locator('.night-tumbleweed').count(),2);
  await map.screenshot({path:path.join(out,'desert-standard.png')});
  fs.writeFileSync(path.join(out,'framing.json'),JSON.stringify(await page.evaluate(()=>{const r=document.querySelector('[data-phrasal-map]'),v=r.querySelector('.expression-map-viewport');return {viewport:[innerWidth,innerHeight],map:[v.clientWidth,v.clientHeight],scale:+r.dataset.scale,scroll:[v.scrollLeft,v.scrollTop],plantCount:r.querySelectorAll('.desert-plant').length};}),null,2));
  async function assertOverview(){
-  const frame=await page.evaluate(()=>{const root=document.querySelector('[data-phrasal-map]'),v=root.querySelector('.expression-map-viewport').getBoundingClientRect(),a=root.querySelector(root.dataset.overviewSection==='night'?'.night-background':'.desert-background'),b=a.getBoundingClientRect(),style=getComputedStyle(a);return {overview:root.dataset.overview,art:[b.left,b.top,b.right,b.bottom],view:[v.left,v.top,v.right,v.bottom],mask:style.maskImage,filter:style.filter,count:root.querySelectorAll('[data-map-level]').length};});
-  assert.equal(frame.overview,'true');assert.equal(frame.count,60);assert.equal(frame.mask,'none');assert.equal(frame.filter,'none');
+  const frame=await page.evaluate(()=>{const root=document.querySelector('[data-phrasal-map]'),v=root.querySelector('.expression-map-viewport').getBoundingClientRect(),a=root.querySelector(root.dataset.overviewSection==='bakery'?'.bakery-background':root.dataset.overviewSection==='night'?'.night-background':'.desert-background'),b=a.getBoundingClientRect(),style=getComputedStyle(a);return {overview:root.dataset.overview,art:[b.left,b.top,b.right,b.bottom],view:[v.left,v.top,v.right,v.bottom],mask:style.maskImage,filter:style.filter,count:root.querySelectorAll('[data-map-level]').length};});
+  assert.equal(frame.overview,'true');assert.equal(frame.count,90);assert.equal(frame.mask,'none');assert.equal(frame.filter,'none');
   assert.ok(frame.art[0]>=frame.view[0]-1&&frame.art[1]>=frame.view[1]-1&&frame.art[2]<=frame.view[2]+1&&frame.art[3]<=frame.view[3]+1,JSON.stringify(frame));
  }
+ if(process.env.BAKERY_ONLY){await require('./phrasal-bakery-browser-checks.cjs')({page,map,viewport,out,sharp,assertOverview});assert.deepEqual(errors,[]);return;}
+ if(process.env.BAKERY_PREVIEW){await page.emulateMedia({reducedMotion:'reduce'});await page.locator('[data-phrasal-chapter=bakery]').click();await page.waitForTimeout(300);await map.screenshot({path:path.join(out,'bakery-standard.png')});await page.locator('[data-map-overview]').click();await assertOverview();await map.screenshot({path:path.join(out,'bakery-overview.png')});return;}
  if(process.env.PREVIEW_ONLY){await page.emulateMedia({reducedMotion:'reduce'});await page.locator('.expression-map-picker select').selectOption('phrasal-verb-31');await page.waitForTimeout(500);await map.screenshot({path:path.join(out,'night-standard.png')});await page.locator('[data-map-overview]').click();await page.waitForTimeout(150);await map.screenshot({path:path.join(out,'night-overview.png')});return;}
  if(process.env.FRAMING_ONLY){
   await page.emulateMedia({reducedMotion:'reduce'});
@@ -178,7 +180,7 @@ let browser;
  assert.equal(await page.locator('.phrasal-night-section').getAttribute('data-visible'),'false');assert.equal(await page.locator('.night-star').first().evaluate(e=>getComputedStyle(e).animationPlayState),'paused');
  fs.writeFileSync(path.join(out,'night-navigation.json'),JSON.stringify({nightWalk,chapterWalk},null,2));
  await page.emulateMedia({reducedMotion:'reduce'});
- const catalogue=await page.evaluate(()=>desertTest.lessons().slice(0,60).map(l=>({id:l.id,title:l.title||l.titleZh})));
+ const catalogue=await page.evaluate(()=>desertTest.lessons().slice(0,90).map(l=>({id:l.id,title:l.title||l.titleZh})));
  for(const lesson of catalogue){
   await page.locator('.expression-map-picker select').selectOption(lesson.id);
   assert.equal(await page.locator('[data-map-open]').isVisible(),true,`${lesson.id} entry is reachable`);
@@ -193,7 +195,7 @@ let browser;
  const collisions=await page.locator('.expression-map-stone-caption').evaluateAll(elements=>{const rects=elements.filter(e=>getComputedStyle(e).opacity!=='0').map(e=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,right:r.right,bottom:r.bottom,text:e.textContent};});const hits=[];for(let i=0;i<rects.length;i++)for(let j=i+1;j<rects.length;j++){const a=rects[i],b=rects[j];if(a.x<b.right&&a.right>b.x&&a.y<b.bottom&&a.bottom>b.y)hits.push([a.text,b.text]);}return hits;});assert.deepEqual(collisions,[]);
  assert.equal(await page.locator('.desert-cloud').first().evaluate(e=>getComputedStyle(e).animationName),'none');
  const frozen=await page.locator('.desert-tumbleweed').first().getAttribute('data-motion');await page.waitForTimeout(600);assert.equal(await page.locator('.desert-tumbleweed').first().getAttribute('data-motion'),frozen);
- await page.locator('[data-phrasal-map-toggle]').click();assert.equal(await page.locator('[data-lesson-choice-grid]').isVisible(),true);assert.equal(await page.locator('[data-lesson-choice-grid] [data-open-lesson]').count(),60);assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),269);assert.equal(await map.getAttribute('data-animating'),'false');
+ await page.locator('[data-phrasal-map-toggle]').click();assert.equal(await page.locator('[data-lesson-choice-grid]').isVisible(),true);assert.equal(await page.locator('[data-lesson-choice-grid] [data-open-lesson]').count(),90);assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),239);assert.equal(await map.getAttribute('data-animating'),'false');
  await page.locator('[data-remaining-lesson-grid] [data-open-lesson="phrasal-verb-329"]').click();assert.equal(await page.evaluate(()=>desertTest.state.lessonId),'phrasal-verb-329');await page.evaluate(()=>desertTest.dashboard());await page.locator('[data-phrasal-map-toggle]').click();
  await page.locator('.expression-map-picker select').selectOption('phrasal-verb-01');await map.scrollIntoViewIfNeeded();
  for(const [name,width,height] of [['desktop',1440,1050],['tablet',820,1180],['phone',390,844]]){
@@ -216,5 +218,5 @@ let browser;
  assert.equal(await page.evaluate(()=>desertTest.state.attempts.length),0,'Travelling creates no learning attempts');
  assert.deepEqual(errors,[]);
  fs.writeFileSync(path.join(out,'browser-results.json'),JSON.stringify({lessons:catalogue.length,collisions,errors,externalRequestsBlocked:requests.length,viewports:['1440x1050','820x1180','390x844']},null,2));
- console.log('PASS: all 60 real map entries and 269 list lessons, motion, caption spacing, progress, pins, accounts, list, reduced motion and responsive views');
+ console.log('PASS: all 90 real map entries and 239 list lessons, motion, caption spacing, progress, pins, accounts, list, reduced motion and responsive views');
 })().catch(e=>{console.error(e);process.exitCode=1;}).finally(async()=>{await browser?.close();server.close();});

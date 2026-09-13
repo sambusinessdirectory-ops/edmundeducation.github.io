@@ -1,0 +1,34 @@
+.phrasal-bakery-section{position:absolute;left:0;width:1600px;pointer-events:none;overflow:hidden}
+.bakery-background,.bakery-stars,.bakery-route{position:absolute;inset:0;width:1600px;height:100%;max-width:none;pointer-events:none}
+.bakery-moon,.bakery-galaxy,.bakery-saturn{position:absolute;pointer-events:none}
+.bakery-sprite,.bakery-moon-motion,.bakery-galaxy-motion,.bakery-saturn-motion{display:block;width:100%;height:100%}
+.bakery-sprite{overflow:hidden}
+.bakery-moon-motion{transform-origin:50% 48%;animation:bakery-moon-swing 8s ease-in-out -2s infinite}
+.bakery-galaxy{transform:rotate(-24deg) scaleY(.5)}
+.bakery-galaxy-motion{animation:bakery-orbit 80s linear infinite}
+.bakery-saturn-motion{animation:bakery-orbit 32s linear -5s infinite}
+.bakery-large-star{filter:drop-shadow(0 0 5px #ffce85a0);animation:bakery-star-twinkle var(--period) ease-in-out var(--delay) infinite}
+.bakery-chimney-smoke,.bakery-cup-steam{position:absolute;pointer-events:none;overflow:visible}
+.bakery-smoke-puff{animation:bakery-smoke-rise 6.2s linear var(--delay) infinite}
+.bakery-steam-ribbon{fill:none;stroke:#fff3e4;stroke-width:4;stroke-linecap:round;stroke-dasharray:86 36}
+.bakery-route path{fill:none;stroke-linecap:round;stroke-linejoin:round}
+.bakery-trail-shadow{stroke:#2d2138;stroke-width:94px;opacity:.27;transform:translateY(9px)}
+.bakery-trail-biscuit{stroke:#bc875a;stroke-width:88px}
+.bakery-trail-edge{stroke:#e7b78d;stroke-width:83px}
+.bakery-trail-icing{stroke:#fff0d9;stroke-width:71px}
+.bakery-platform{position:absolute;left:0;top:-14px;width:180px;height:110px;pointer-events:none}
+[data-theme=phrasal-desert] .expression-map-stone[data-bakery] .expression-map-stone-number{top:5px;color:#654532}
+[data-theme=phrasal-desert] .expression-map-stone[data-bakery] .expression-map-stone-status{top:44px;right:17px;background:#fff0dc;color:#654532}
+[data-theme=phrasal-desert] .expression-map-stone[data-bakery] .expression-map-stone-caption{color:#fff5e8;background:#493545df;border-color:#ffffff24;text-shadow:0 1px 1px #22152866}
+[data-theme=phrasal-desert] .expression-map-stone[data-bakery][data-complete=true] .bakery-biscuit-face{fill:#c3d5a5}
+[data-theme=phrasal-desert] .expression-map-stone[data-bakery][aria-pressed=true] .bakery-platform{filter:drop-shadow(0 0 5px #ffe1a7)}
+.phrasal-chapters button[data-phrasal-chapter=bakery][aria-pressed=true]{background:#69455f;border-color:#69455f}
+.phrasal-bakery-divider{background:#352942;color:#ffe4c0}
+[data-theme=phrasal-desert][data-current-chapter=bakery] .expression-map-header{background:linear-gradient(115deg,#fff7ea,#eee4ea)}
+[data-overview=true][data-overview-section=bakery] [data-map-chapter]:not([data-map-chapter=bakery]){visibility:hidden}
+.phrasal-bakery-section[data-visible=false] *{animation-play-state:paused!important}
+@keyframes bakery-orbit{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+@keyframes bakery-moon-swing{0%,100%{transform:rotate(-12deg)}50%{transform:rotate(12deg)}}
+@keyframes bakery-star-twinkle{0%,100%{opacity:.32;transform:scale(.82)}48%{opacity:1;transform:scale(1.12)}}
+@keyframes bakery-smoke-rise{0%{opacity:0;transform:translate(0,0) scale(.23)}10%{opacity:.6}58%{opacity:.42}100%{opacity:0;transform:translate(var(--drift),calc(var(--rise)*-1)) scale(1.24)}}
+@media(max-width:650px){.phrasal-chapters button{min-width:0;flex-direction:column;gap:2px;border-radius:13px;padding:7px 5px;font-size:11px}.phrasal-chapters button span{font-size:10px}}

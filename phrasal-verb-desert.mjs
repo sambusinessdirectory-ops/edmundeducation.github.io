@@ -60,7 +60,7 @@ export function createDesertTheme(lessons) {
     root.querySelector('[data-zoom=out]').textContent='−';
     root.querySelector('.expression-map-desktop-hint').textContent='點選沙地自由走動 · 拖動探索 · 方向鍵 / WASD';
     root.querySelector('.expression-map-viewport').setAttribute('aria-label','動詞片語沙漠地圖；拖動探索沙丘、點選砂岩石階，或用方向鍵 / WASD 走動。');
-    root.querySelectorAll('.expression-map-stone:not([data-night])').forEach((stone,i)=>stone.insertAdjacentHTML('afterbegin',platform(i)));
+    root.querySelectorAll('.expression-map-stone:not([data-night]):not([data-bakery])').forEach((stone,i)=>stone.insertAdjacentHTML('afterbegin',platform(i)));
     const region=root.querySelector('.phrasal-day-section')||root;
     const viewport=root.querySelector('.expression-map-viewport'),weeds=[...region.querySelectorAll('.desert-tumbleweed')],beds=[...region.querySelectorAll('.desert-plant')];
     let elapsed=0,last=0,lastPaint=0,disposed=false;
