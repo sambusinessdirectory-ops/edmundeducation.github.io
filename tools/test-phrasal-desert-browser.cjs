@@ -69,6 +69,8 @@ let browser;
   console.log('PASS: rendered motion, stationary landmarks and responsive graphics');return;
  }
  // Full composition has all animated plants and all three ponds.
+ await viewport.evaluate(v=>v.scrollTop=720*Number(document.querySelector('[data-phrasal-map]').dataset.scale));await page.waitForTimeout(300);
+ await viewport.screenshot({path:path.join(out,'desert-lower-oasis.png')});
  await page.locator('[data-map-overview]').click();await assertOverview();
  const allPlantMotion=[];
  for(let frame=0;frame<8;frame++){allPlantMotion.push(await page.locator('.desert-foliage').evaluateAll(es=>es.map(e=>new DOMMatrix(getComputedStyle(e).transform).c*parseFloat(e.parentElement.style.height))));await page.waitForTimeout(650);}

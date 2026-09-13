@@ -1,4 +1,4 @@
-import {desertPlantArtwork} from './phrasal-verb-desert-plants.mjs?v=20260913-desert2';
+import {desertPlantArtwork} from './phrasal-verb-desert-plants.mjs?v=20260913-plants3';
 import {desertPositions,desertHeight,desertTrail,createDesertNavigation,DESERT_WATER,tumbleweedMotion,DESERT_MAP_LIMIT} from './phrasal-verb-desert-geometry.mjs?v=20260913-desert2';
 const ART='./assets/phrasal-verb/desert/';
 const REGIONS={tumbleweed:[1130,666,332,324]};

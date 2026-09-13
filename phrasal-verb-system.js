@@ -10,7 +10,7 @@
  * `highlights` metadata.
  */
 import { createExpressionMap } from './common-expression-map.mjs?v=20260913-desert2';
-import { createDesertTheme, phrasalMapLessons, phrasalMapCompleted, DESERT_MAP_LIMIT } from './phrasal-verb-desert.mjs?v=20260913-desert2';
+import { createDesertTheme, phrasalMapLessons, phrasalMapCompleted, DESERT_MAP_LIMIT } from './phrasal-verb-desert.mjs?v=20260913-plants3';
 
 let phrasalMap = null;
 const CONFIG = window.EDMUND_PHRASAL_VERB_SYSTEM_CONFIG || {};

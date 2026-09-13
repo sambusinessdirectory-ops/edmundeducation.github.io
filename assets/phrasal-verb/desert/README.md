@@ -6,7 +6,7 @@ The map covers lessons 1–30. The original cards for lessons 31–329 continue 
 
 `background-complete.webp` is a complete 1241 × 1268 built-in ImageGen painting displayed at 1600 × 1635 world units. It extends the original desert with a lower oasis, broad dunes and grouped rocks. Three manually registered pond polygons define both surface animation clips and dry-ground navigation. There is no edge fade, blur, reflected padding or synthetic landscape extension. The earlier `background.webp` is retained as source history and is no longer rendered.
 
-Palms, cacti, reeds and shrubs are deliberately simple native SVG artwork in `phrasal-verb-desert-plants.mjs`: broad fronds, smooth trunks, a small palette and no fine texture. All 29 planted groups sway about their roots with varied phase and 6.2–9.02 second periods. Palms use ±2.4°, cacti ±1.7°, other plants ±3.4°. Offscreen plants pause.
+Palms, cacti, reeds and shrubs use `painted-plants.webp`, a 1536 × 1024 built-in ImageGen sheet with genuine alpha preserved by a lossless WebP export. `phrasal-verb-desert-plants.mjs` crops the five specimens into the existing planting envelopes. The artwork uses grouped palm leaflets, matte trunk shading, rounded cactus ribs and layered reed/shrub foliage, with restrained painterly detail. Small native contact shadows ground their bases. All 29 planted groups sway about their roots with varied phase and 6.2–9.02 second periods. Palms use ±2.4°, cacti ±1.7°, other plants ±3.4°. Offscreen plants pause.
 
 `botanical-atlas.webp` is now used only for the two small tumbleweeds. It is an RGB ImageGen atlas whose neutral background is removed at rendering time by the existing SVG color matrix; the source has no alpha channel. Clouds reuse the established coastal cloud asset. All three ponds have clipped surface shifts and sparse ripples. Two tumbleweeds roll in opposing directions, with rotation coupled to distance/radius. The shared owner suspends decoration while hidden or inactive; reduced motion freezes it.
 
@@ -14,7 +14,7 @@ The sandstone platforms and winding trail are native SVG. Open ground allows dir
 
 Standard zoom retains readable stops and two-axis panning. Minus or the 全圖 button fits the entire landscape into a plain cream frame. At full overview the arrival card docks below the picture. The optional camera behavior is scoped to this theme. Saved locations beyond lesson 30 recover to the first stop while keeping the chosen companion.
 
-The full generation prompt and original PNG are retained in the task archive `outputs/phrasal-desert-map-v2`. The built-in tool was used for the painting; export to WebP used Sharp. There is no new runtime dependency.
+The landscape prompt/master are retained in `outputs/phrasal-desert-map-v2`; the upgraded plant prompt/master and review images are in `outputs/phrasal-desert-plants-v3`. The built-in tool was used for both paintings; export to WebP used Sharp. There is no new runtime dependency.
 
 ## Validation
 
