@@ -1,0 +1,21 @@
+.expression-map[data-theme="rhetorical-blueprint"]{--map-ink:#173e50;--map-cream:#fcf8e9;--map-accent:#b88b40;border-color:#dfd9bb;background:#fcf8e9}
+.expression-map[data-theme="rhetorical-blueprint"] .expression-map-viewport{height:clamp(460px,70dvh,980px);min-height:0;max-height:none;background:#18588f;scrollbar-color:#76959c #225888}
+.expression-map[data-theme="rhetorical-blueprint"] .expression-map-world{background:#1e5c94}
+.expression-map[data-theme="rhetorical-blueprint"] .blueprint-background{position:absolute;inset:0;background:url('assets/common-expression-rhetorical-writing/blueprint/v1/blueprint.webp') center/100% 100% no-repeat;pointer-events:none}
+.expression-map[data-theme="rhetorical-blueprint"] :is(.blueprint-road,.blueprint-effects){position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.expression-map[data-theme="rhetorical-blueprint"] .blueprint-road{z-index:1}
+.expression-map[data-theme="rhetorical-blueprint"] .blueprint-effects{z-index:2}
+.expression-map[data-theme="rhetorical-blueprint"] .expression-map-stone{width:180px;height:117px;margin:-58px 0 0 -90px;background:none!important;border:0!important;box-shadow:none!important;z-index:3}
+.expression-map[data-theme="rhetorical-blueprint"] .expression-map-stone::before{display:none}
+.expression-map[data-theme="rhetorical-blueprint"] .blueprint-platform{position:absolute;left:30px;top:0;width:120px;height:103px;pointer-events:none}
+.expression-map[data-theme="rhetorical-blueprint"] .expression-map-stone-number{top:40px;font:700 28px/1.2 Georgia,serif;color:#184452;text-shadow:0 1px #fffff5}
+.expression-map[data-theme="rhetorical-blueprint"] .expression-map-stone-caption{top:111px;left:-14px;width:208px;padding:0;background:none;border:0;box-shadow:none;color:#fffef2;font:600 18px/1.24 system-ui,sans-serif;text-shadow:0 2px 2px #0c335b,0 0 4px #0c335b}
+.expression-map[data-theme="rhetorical-blueprint"] .expression-map-stone-status{top:80px;right:20px;padding:3px 6px;border-radius:8px;font-size:13px;background:#fffdf0;color:#194452}
+.expression-map[data-theme="rhetorical-blueprint"] .expression-map-stone:hover .blueprint-platform{filter:brightness(1.08)}
+.expression-map[data-theme="rhetorical-blueprint"] .expression-map-stone[aria-pressed="true"] .blueprint-platform{filter:drop-shadow(0 0 3px #fff4b3) drop-shadow(0 0 2px #efc76f)}
+.expression-map[data-theme="rhetorical-blueprint"] .expression-map-stone[data-complete="true"] .expression-map-stone-status{background:#d7ecc8;color:#245335}
+.expression-map[data-theme="rhetorical-blueprint"] .expression-map-horse{z-index:5;width:111px;height:135px;margin-left:-55.5px;margin-top:-127px}
+.expression-map[data-theme="rhetorical-blueprint"] .expression-map-shadow{z-index:4}
+.expression-map[data-theme="rhetorical-blueprint"] .expression-map-flag{z-index:4}
+.expression-map[data-theme="rhetorical-blueprint"] .expression-map-footer{min-height:34px;padding-block:7px}
+@media(max-width:700px){.expression-map[data-theme="rhetorical-blueprint"] .expression-map-viewport{height:500px;aspect-ratio:auto}}
