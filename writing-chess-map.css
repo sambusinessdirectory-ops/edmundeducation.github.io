@@ -50,3 +50,10 @@
 .chess-stop{transform:translate(-50%,-20px)}
 
 .chess-difficulty{position:absolute;left:2.2%;width:15.5%;transform:translateY(-10%);display:grid;gap:7px;padding:16px 10px;border:1px solid #c0a5749c;border-radius:10px;background:linear-gradient(120deg,#24221cce,#4b3e2cba);box-shadow:0 5px 16px #0e0b0855,inset 0 1px #e6ce9633;backdrop-filter:blur(4px);color:#fff0d6;text-align:center;pointer-events:none;z-index:3}.chess-difficulty strong{font:600 clamp(14px,1.25vw,18px) Georgia,'Noto Serif TC',serif}.chess-difficulty span{font:12px system-ui;color:#dfc9a5}.chess-stage{cursor:crosshair}.chess-label{min-height:42px;justify-content:center}.chess-plaque{cursor:default}
+
+/* Keep the ivory pieces visible through the four row labels. */
+.chess-difficulty{background:linear-gradient(120deg,#24221c80,#4b3e2c70);backdrop-filter:blur(1px);text-shadow:0 1px 3px #000c}
+/* A generated walnut surround fills the former solid margins. */
+.chess-scroll{background-image:url('assets/writing-chess-map/surround-v1.jpg');background-size:100% 100%;background-repeat:no-repeat;background-position:center}
+.chess-table{mask-image:linear-gradient(to right,transparent,black 2.5%,black 97.5%,transparent);-webkit-mask-image:linear-gradient(to right,transparent,black 2.5%,black 97.5%,transparent)}
+.chess-label strong{white-space:normal}.chess-label strong br{display:block}

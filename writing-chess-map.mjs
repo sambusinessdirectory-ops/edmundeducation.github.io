@@ -4,7 +4,7 @@ const CHARACTERS = [{id:'eddy',name:'Eddie'},{id:'phoebe',name:'Phoebe'},{id:'el
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 // Measured corners of the painted playing surface, in a 1000 x 667 world.
 export function chessPosition(index) {
-  const row = Math.floor(index / 4), column = row % 2 ? 3-index%4 : index%4;
+  const row = Math.floor(index / 4), column = index % 4;
   const t=(row+.5)/4, left=240+(181-240)*t, right=763+(816-763)*t;
   return {x:left+(right-left)*(column+.5)/4,y:104+(570-104)*t};
 }
@@ -35,7 +35,7 @@ export function mountWritingChessMap(host,{storage,owner,exerciseId,onStart}={})
   const cast=document.createElement('div');cast.className='chess-cast';cast.setAttribute('aria-label','選擇同行角色');
   cast.innerHTML=CHARACTERS.map(c=>`<button type="button" data-chess-character="${c.id}" aria-pressed="${c.id===character}"><canvas width="100" height="110" aria-hidden="true"></canvas><span>${c.name}</span></button>`).join('');
   toolbar.prepend(cast);
-  const nodeMarkup=modes.map((m,i)=>{const p=chessPosition(i);return `<button type="button" class="chess-stop ${Math.floor(i/4)%2===i%2?'ivory':'ebony'}" data-start-practice-mode="${escape(m.mode)}" data-practice-difficulty="${escape(m.difficulty)}" data-chess-index="${i}" style="left:${p.x/10}%;top:${p.y/6.67}%" aria-pressed="${i===selected}" aria-label="${escape(m.level+'，'+m.title+'，'+m.count)}"><span class="chess-coin">${String(i+1).padStart(2,'0')}</span><span class="chess-label"><strong>${escape(m.title)}</strong></span></button>`;}).join('');
+  const nodeMarkup=modes.map((m,i)=>{const p=chessPosition(i);return `<button type="button" class="chess-stop ${Math.floor(i/4)%2===i%2?'ivory':'ebony'}" data-start-practice-mode="${escape(m.mode)}" data-practice-difficulty="${escape(m.difficulty)}" data-chess-index="${i}" style="left:${p.x/10}%;top:${p.y/6.67}%" aria-pressed="${i===selected}" aria-label="${escape(m.level+'，'+m.title+'，'+m.count)}"><span class="chess-coin">${String(i+1).padStart(2,'0')}</span><span class="chess-label"><strong>${m.mode==='both'?'顯示開首<br>及結尾字母':m.mode==='blank'?'不顯示字母提示':escape(m.title)}</strong></span></button>`;}).join('');
   const difficultyMarkup=modes.filter((_,i)=>i%4===0).map((m,row)=>`<div class="chess-difficulty" style="top:${chessPosition(row*4).y/6.67}%"><strong>${escape(m.level)}</strong><span>${escape(m.count)}</span></div>`).join('');
   groups.className='writing-chess-map';
   groups.innerHTML=`<div class="chess-map-caption"><span>WRITING PRACTICE</span><span>16 種練習模式</span></div><div class="chess-scroll" tabindex="0" aria-label="練習棋盤，可左右捲動"><div class="chess-stage"><img class="chess-table" src="assets/writing-chess-map/table-v1.jpg" alt="木製棋盤，四周有書本、黃銅檯燈及西洋棋子" draggable="false">${difficultyMarkup}${nodeMarkup}<div class="chess-companion" aria-hidden="true"><span class="chess-contact"></span><canvas width="240" height="280"></canvas></div><div class="chess-plaque"><span aria-hidden="true">♛</span>請選擇練習模式及段落範圍</div></div></div><div class="chess-selection"><div><span class="chess-selection-level"></span><h3></h3><p></p></div><button class="chess-enter" type="button" data-chess-enter>開始練習 <span aria-hidden="true">→</span></button></div><p class="chess-status" aria-live="polite"></p>`;
@@ -92,11 +92,11 @@ export function mountWritingChessMap(host,{storage,owner,exerciseId,onStart}={})
     const point={x:(event.clientX-rect.left)/rect.width*1000,y:(event.clientY-rect.top)/rect.height*667};
     if(isOnChessboard(point))walkTo(point);
   });
-  // Capture prevents the host's legacy delegation from starting before the learner confirms.
-  groups.addEventListener('click',event=>{const button=event.target.closest('[data-chess-index]');if(!button)return;event.stopPropagation();select(Number(button.dataset.chessIndex));},{capture:true,signal:events.signal});
+  // Open exactly once on a tile click; the original delegated handler must not run twice.
+  groups.addEventListener('click',event=>{const button=event.target.closest('[data-chess-index]');if(!button)return;event.stopPropagation();const index=Number(button.dataset.chessIndex);select(index);onStart?.(modes[index].mode,modes[index].difficulty);},{capture:true,signal:events.signal});
   on(groups.querySelector('[data-chess-enter]'),'click',()=>onStart?.(modes[selected].mode,modes[selected].difficulty));
   on(cast,'click',event=>{const button=event.target.closest('[data-chess-character]');if(!button)return;character=button.dataset.chessCharacter;cast.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));save();draw(performance.now());});
-  on(groups,'keydown',event=>{const b=event.target.closest('[data-chess-index]');if(!b||!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End'].includes(event.key))return;event.preventDefault();const n=Number(b.dataset.chessIndex);let row=Math.floor(n/4),col=row%2?3-n%4:n%4;if(event.key==='ArrowUp')row=Math.max(0,row-1);if(event.key==='ArrowDown')row=Math.min(3,row+1);if(event.key==='ArrowLeft')col=Math.max(0,col-1);if(event.key==='ArrowRight')col=Math.min(3,col+1);const next=event.key==='Home'?0:event.key==='End'?15:row*4+(row%2?3-col:col);select(next);groups.querySelector(`[data-chess-index="${next}"]`).focus();});
+  on(groups,'keydown',event=>{const b=event.target.closest('[data-chess-index]');if(!b||!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End'].includes(event.key))return;event.preventDefault();const n=Number(b.dataset.chessIndex);let row=Math.floor(n/4),col=n%4;if(event.key==='ArrowUp')row=Math.max(0,row-1);if(event.key==='ArrowDown')row=Math.min(3,row+1);if(event.key==='ArrowLeft')col=Math.max(0,col-1);if(event.key==='ArrowRight')col=Math.min(3,col+1);const next=event.key==='Home'?0:event.key==='End'?15:row*4+col;select(next);groups.querySelector(`[data-chess-index="${next}"]`).focus();});
   on(document,'visibilitychange',()=>{if(document.hidden){cancelAnimationFrame(frame);frame=0;}else if(route.length){last=performance.now();frame=requestAnimationFrame(tick);}});
   on(reduced,'change',()=>{if(reduced.matches){cancelAnimationFrame(frame);frame=0;position=route.at(-1)||position;route=[];draw(0);}});
   const observer=new MutationObserver(()=>{if(!host.isConnected)destroy();});observer.observe(host.parentElement,{childList:true});

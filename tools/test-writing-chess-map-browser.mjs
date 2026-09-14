@@ -47,21 +47,27 @@ assert.equal(await page.locator('.chess-stop').count(),16);
 assert.equal(await page.locator('.chess-difficulty').count(),4);
 assert.equal(await page.locator('.chess-label small').count(),0);
 assert.equal(await page.locator('.chess-route').count(),0);
+assert.equal(await page.locator('.chess-stop[data-start-practice-mode="both"] br').count(),4);
+const nodePositions=await page.locator('.chess-stop').evaluateAll(nodes=>nodes.map(n=>({x:parseFloat(n.style.left),y:parseFloat(n.style.top),mode:n.dataset.startPracticeMode})));
+for(let row=0;row<4;row++){
+ const nodes=nodePositions.slice(row*4,row*4+4);assert.deepEqual(nodes.map(n=>n.mode),['blank','start','end','both']);
+ for(let i=1;i<4;i++)assert.ok(nodes[i].x>nodes[i-1].x);
+}
+await page.evaluate(async()=>{const i=new Image();i.src='assets/writing-chess-map/surround-v1.jpg';await i.decode();});
 await page.locator('.chess-stage').click({position:{x:550,y:355}});
 await page.waitForTimeout(1100);
 const freePosition=await page.locator('.chess-companion').evaluate(e=>({x:parseFloat(e.style.left),y:parseFloat(e.style.top)}));
 assert.ok(Math.abs(freePosition.x-50)<1&&Math.abs(freePosition.y-48.4)<1,'Companion walks to an arbitrary board point');
-await page.locator('[data-chess-index="0"]').click();await page.waitForTimeout(1100);
+
 
 assert.equal((await page.locator('.chess-plaque').innerText()).replace(/\s/g,''),'♛請選擇練習模式及段落範圍');
-await page.locator('[data-chess-index="6"]').click();await page.waitForTimeout(100);
+await page.locator('.chess-stage').click({position:{x:500,y:130}});await page.waitForTimeout(100);
 assert.equal(await page.locator('.chess-companion').getAttribute('data-walking'),'true');
 await page.screenshot({path:output+'/walking.png'});
-await page.locator('[data-chess-enter]').click();assert.equal(await page.locator('[data-practice-form] input').count(),45);
+await page.locator('[data-chess-index="6"]').click();assert.equal(await page.locator('[data-practice-form] input').count(),45);
 await page.locator('[data-back-practice-mode]').click();await page.locator('.chess-stage').waitFor();
 for(const [level,count]of [['standard',34],['medium',45],['hard',75],['hell',97]])for(const mode of ['blank','start','end','both']){
  await page.locator(`[data-start-practice-mode="${mode}"][data-practice-difficulty="${level}"]`).click();
- await page.locator('[data-chess-enter]').click();
  assert.equal(await page.locator('[data-practice-form] input').count(),count,level+':'+mode);
  await page.locator('[data-back-practice-mode]').click();await page.locator('.chess-stage').waitFor();
 }
@@ -74,7 +80,7 @@ assert.equal(await page.evaluate(()=>practiceState.selectedParagraphs.length),12
 await page.locator('[data-chess-character="phoebe"]').click();
 await page.locator('[data-chess-enter]').click();await page.locator('[data-back-practice-mode]').click();await page.locator('.chess-stage').waitFor();
 assert.equal(await page.locator('[data-chess-character="phoebe"]').getAttribute('aria-pressed'),'true');
-await page.emulateMedia({reducedMotion:'reduce'});await page.locator('[data-chess-index="0"]').click();
+await page.emulateMedia({reducedMotion:'reduce'});await page.locator('.chess-stage').click({position:{x:550,y:355}});
 assert.equal(await page.locator('.chess-companion').getAttribute('data-walking'),'false');
 await page.locator('[data-chess-character="elsie"]').click();await page.waitForTimeout(300);
 await page.screenshot({path:output+'/elsie.png',fullPage:true});
@@ -86,6 +92,6 @@ await page.setViewportSize({width:1440,height:1050});
 await open('writing-practice','it');await page.getByText('Food and Cooking',{exact:true}).first().click();await page.locator('[data-open-writing-deck]').first().click();await page.locator('[data-open-practice]').click();await page.locator('.chess-stage').waitFor();
 assert.equal(await page.locator('[data-chess-character="eddy"]').getAttribute('aria-pressed'),'true','Italian preferences independent from French');
 for(const [level,count]of [['standard',35],['medium',45],['hard',75],['hell',148]])for(const mode of ['blank','start','end','both']){
- await page.locator(`[data-start-practice-mode="${mode}"][data-practice-difficulty="${level}"]`).click();await page.locator('[data-chess-enter]').click();assert.equal(await page.locator('[data-practice-form] input').count(),count);await page.locator('[data-back-practice-mode]').click();await page.locator('.chess-stage').waitFor();
+ await page.locator(`[data-start-practice-mode="${mode}"][data-practice-difficulty="${level}"]`).click();assert.equal(await page.locator('[data-practice-form] input').count(),count);await page.locator('[data-back-practice-mode]').click();await page.locator('.chess-stage').waitFor();
 }
 await browser.close();console.log('Chess map: sixteen modes, live motion, character persistence, reduced motion and mobile layout passed.');
