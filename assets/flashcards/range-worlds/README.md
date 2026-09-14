@@ -2,6 +2,10 @@
 
 Shared range-selection presentation for `flashcards.html`, including the original edition and Italian, French, German, Spanish, Japanese and Korean editions. It also adapts to embedded reading-comprehension panels and the night theme.
 
+## Walkable map
+
+The default presentation is now a connected companion map, with the existing material collections retained as Quick select. Eddie, Phoebe and Elsie walk to the platforms before the learner chooses Start practice. See [walkable map implementation and verification](../../../docs/flashcard-walking-maps-20260914.md).
+
 ## Design and behavior
 
 - Standard modes use golden lacquered wooden beads on an abacus in a sunlit study. Real walnut spacer sprites fill about 60% of each available gap, leaving breathing room; a ResizeObserver adapts their count and positions to the actual layout. The red-only and green-only controls retain their material colors. All beads glow when the entire deck is mastered; the heading explicitly explains this deck-level criterion. The standard random 10/20/30/40 controls retain their existing unmastered-card selection behavior.

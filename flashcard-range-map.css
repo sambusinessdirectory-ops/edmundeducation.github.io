@@ -1,0 +1,77 @@
+/* A shared walkable journey using the established lesson-map character engine. */
+#flashcard-range-worlds[hidden],#flashcard-range-map[hidden],#flashcard-range-map [hidden] { display:none!important; }
+#flashcard-range-map { margin:20px 0; color:#233e32; }
+#flashcard-range-map .fc-map-navigation { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px; }
+#flashcard-range-map .fc-map-navigation button { border:1px solid #b9a980; border-radius:12px; padding:10px 15px; background:#fff7e3; color:#294d3d; font:650 14px/1.4 system-ui; cursor:pointer; }
+#flashcard-range-map .fc-map-navigation .fc-map-toggle { margin-left:auto; background:#204a39; color:#fff6db; }
+#flashcard-range-map .expression-map { --forest:#193f2f; --cream:#fff7e7; }
+#flashcard-range-map .expression-map-header h2 { color:#193f2f; }
+#flashcard-range-map .expression-map-character { color:#244332; }
+#flashcard-range-map .expression-map-viewport { background:#e8ddc5; height:clamp(440px,66dvh,820px); }
+#flashcard-range-map .expression-map-world { background:#4c1c1b; }
+#flashcard-range-map .fc-map-realm { position:absolute; left:0; width:1600px; isolation:isolate; overflow:hidden; background:#123328; }
+#flashcard-range-map .fc-map-realm::before { content:''; position:absolute; inset:0; pointer-events:none; z-index:-2; border:40px solid transparent; }
+#flashcard-range-map [data-collection=standard] { background:#c79560 url('assets/flashcards/range-worlds/wood.webp') center/cover; }
+#flashcard-range-map [data-collection='30']::before { border-image:url('assets/flashcards/range-worlds/cabinet.webp') 128 90 144 90 fill / 65px 36px 65px; }
+#flashcard-range-map [data-collection='10']::before { border-image:url('assets/flashcards/range-worlds/velvet.webp') 100 75 140 75 fill / 55px 28px 65px; }
+#flashcard-range-map .fc-map-realm-heading { position:absolute; top:70px; left:80px; right:80px; text-align:center; color:#f5dfb2; pointer-events:none; }
+#flashcard-range-map .fc-map-realm-heading small { font:700 13px Arial; letter-spacing:.24em; }
+#flashcard-range-map .fc-map-realm-heading h3 { margin:12px 0; font:600 34px Georgia,'Noto Serif TC',serif; color:inherit; }
+#flashcard-range-map .fc-map-realm-heading p { margin:0; font:16px system-ui; }
+#flashcard-range-map [data-collection=standard] .fc-map-realm-heading { color:#4e311a; }
+#flashcard-range-map .fc-map-rod { position:absolute; left:70px; right:70px; height:11px; background:linear-gradient(#5d3914,#f6d38a 27%,#b88a44 67%,#6b441b); box-shadow:0 4px 5px #0007; pointer-events:none; }
+#flashcard-range-map [data-collection=standard] .fc-map-rod { height:18px; background:linear-gradient(#704414,#c6944f 30%,#bd8540 62%,#734011); }
+#flashcard-range-map [data-collection='30'] .fc-map-rod { transform:translateY(-99px); }
+#flashcard-range-map .fc-abacus-post { position:absolute; top:215px; bottom:100px; width:29px; background:linear-gradient(90deg,#704015,#d4a064 35%,#996332 78%,#5c341a); box-shadow:5px 8px 9px #4021076b; border-radius:8px; }
+#flashcard-range-map .fc-abacus-left { left:52px; }#flashcard-range-map .fc-abacus-right { right:52px; }
+#flashcard-range-map .fc-map-spacer { position:absolute; width:29px; height:78px; margin-left:-14.5px; filter:drop-shadow(3px 5px 4px #4a291c70); pointer-events:none; }
+#flashcard-range-map .fc-map-platform { width:270px; height:310px; margin:-100px 0 0 -135px; padding:0; border:0; border-radius:16px; display:flex; flex-direction:column; align-items:center; background:none!important; box-shadow:none!important; color:#fff2d6; z-index:2; }
+#flashcard-range-map .fc-map-platform::before { display:none; }
+#flashcard-range-map .fc-map-platform .range-token { display:block; position:relative; flex-shrink:0; width:240px; height:240px; color:inherit; }
+#flashcard-range-map .range-object { width:100%; height:100%; display:block; object-fit:contain; filter:drop-shadow(0 9px 5px #17040970); }
+#flashcard-range-map .range-ribbon,#flashcard-range-map .range-ornament { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
+#flashcard-range-map .range-ornament { opacity:0; transition:opacity .25s; filter:drop-shadow(0 1px 1px #704013); }
+#flashcard-range-map .range-completed .range-ornament { opacity:1; }
+#flashcard-range-map .range-number { position:absolute; left:50%; top:50%; width:76%; transform:translate(-50%,-50%); color:#38230b; font:700 28px/1.15 Georgia,'Noto Serif TC',serif; text-align:center; white-space:nowrap; text-shadow:0 1px 0 #fff3; }
+#flashcard-range-map [data-material=medal] .range-number { top:65%; width:54%; font-size:25px; }
+#flashcard-range-map [data-material=gem] .range-number { width:64%; color:#fffbed; text-shadow:0 1px 3px #001a1acc; }
+#flashcard-range-map [data-gem-ink=dark] .range-number { color:#33251b; text-shadow:0 1px 2px #fff8; }
+#flashcard-range-map [data-gem-shape=pear] .range-number { top:55%; }
+#flashcard-range-map .range-choice-title { display:block; margin:0 0 9px; color:inherit; font:600 23px/1.3 Georgia,'Noto Serif TC',serif; }
+#flashcard-range-map .range-progress { display:block; position:static; top:auto; right:auto; min-width:80px; border:1px solid #d3af74; border-radius:20px; padding:4px 12px; background:#19150deb; color:#ffedc8; font:650 16px/1.3 system-ui; box-shadow:0 2px 4px #0004; }
+#flashcard-range-map .range-state { display:block; margin-top:7px; color:#dbcbaa; font:15px/1.4 system-ui; }
+#flashcard-range-map .range-description { display:none; }
+#flashcard-range-map [data-collection=standard] .fc-map-platform { color:#412710; }
+#flashcard-range-map [data-collection=standard] .range-state { color:#51351e; }
+#flashcard-range-map .status-mode-red .range-object { --bead-tone:hue-rotate(-40deg) saturate(.7); filter:var(--bead-tone) drop-shadow(0 9px 5px #0005); }
+#flashcard-range-map .status-mode-green .range-object { --bead-tone:hue-rotate(65deg) saturate(.55); filter:var(--bead-tone) drop-shadow(0 9px 5px #0005); }
+#flashcard-range-map [data-material=bead].range-completed .range-object { filter:var(--bead-tone,brightness(1)) drop-shadow(0 0 10px #ffdf62) drop-shadow(0 0 22px #ffd152); }
+#flashcard-range-map [data-material=gem].range-completed .range-token { filter:drop-shadow(0 0 7px #efc96080); }
+#flashcard-range-map .range-completed .range-state { color:#ffdc83; font-weight:700; }
+#flashcard-range-map [data-collection=standard] .range-completed .range-state { color:#714005; }
+#flashcard-range-map .fc-map-platform[aria-pressed=true] .range-token::after { content:''; position:absolute; left:13%; right:13%; bottom:12%; height:16%; border:2px solid #fff0b9; border-radius:50%; box-shadow:0 0 12px #ffda75,0 0 24px #ffda7580; pointer-events:none; }
+#flashcard-range-map .fc-map-platform:focus-visible { outline:3px solid #ffe398; outline-offset:5px; }
+#flashcard-range-map .expression-map-stone[data-arrived=true] .range-choice-title { opacity:1; }
+#flashcard-range-map .expression-map-horse { z-index:4; }
+#flashcard-range-map .expression-map-lesson-card { width:min(335px,calc(100% - 20px)); }
+#flashcard-range-map .expression-map-lesson-card h3 { color:#243e30; }
+#flashcard-range-map .expression-map-selected-copy p { color:#53634c; }
+#flashcard-range-map .expression-map-selected-number { min-width:27px; }
+#flashcard-range-map button,#flashcard-range-map select { text-transform:none; }
+html.flashcards-reading-embed #flashcard-range-map { margin:6px 0; }
+html.flashcards-reading-embed #flashcard-range-map .expression-map-header { padding:12px; gap:10px; }
+html.flashcards-reading-embed #flashcard-range-map .expression-map-heading h2 { font-size:22px; }
+html.flashcards-reading-embed #flashcard-range-map .expression-map-viewport { height:54dvh; min-height:300px; }
+@media(max-width:650px) {
+ #flashcard-range-map .fc-map-navigation { gap:5px; }
+ #flashcard-range-map .fc-map-navigation button { padding:9px; font-size:12px; flex:1; }
+ #flashcard-range-map .fc-map-navigation .fc-map-toggle { flex-basis:100%; }
+ #flashcard-range-map .expression-map-viewport { min-height:360px; height:55dvh; }
+ #flashcard-range-map .expression-map-zoom button { padding:5px; min-width:33px; }
+ #flashcard-range-map .expression-map-characters { gap:5px; }
+ #flashcard-range-map .expression-map-character { padding-right:5px; }
+}
+@media(prefers-reduced-motion:reduce) { #flashcard-range-map .range-ornament { transition:none; } }
+/* The panning canvas must not contribute its 1600px width to the page grid. */
+#flashcard-range-map { min-width:0; width:100%; max-width:100%; contain:inline-size; }
+#flashcard-range-map .expression-map,#flashcard-range-map .expression-map-stage,#flashcard-range-map .expression-map-viewport { min-width:0; max-width:100%; }

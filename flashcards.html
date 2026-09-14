@@ -3969,8 +3969,11 @@
   <link rel="stylesheet" href="flashcards-reading-embed.css?v=20260910-1">
   <script src="language-learning.js?v=20260914-six-languages-1"></script>
   <link rel="stylesheet" href="language-learning.css?v=20260914-six-languages-1">
-  <link rel="stylesheet" href="flashcard-range-worlds.css?v=20260914-worlds2">
-  <script src="flashcard-range-worlds.js?v=20260914-worlds2"></script>
+  <link rel="stylesheet" href="flashcard-range-worlds.css?v=20260914-worlds3">
+  <script src="flashcard-range-worlds.js?v=20260914-worlds3"></script>
+  <link rel="stylesheet" href="common-expression-map.css?v=20260914-worlds3">
+  <link rel="stylesheet" href="flashcard-range-map.css?v=20260914-worlds3">
+  <script type="module" src="flashcard-range-map.mjs?v=20260914-worlds3"></script>
 </head>
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
@@ -191375,6 +191378,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
       const panel = document.querySelector(`[data-${view}]`);
       if (panel) panel.classList.remove("hidden");
+      window.FlashcardRangeMap?.setActive(view === "deck-start");
 
       if (view === "admin-panel") {
         renderStudents();
@@ -195378,7 +195382,10 @@ window.EDMUND_FLASHCARD_SEED = {
         root: document.querySelector('[data-embedded-range-columns]'),
         count,
         familiarity: getDeckFamiliarity(currentDeckId),
-        hasOwner: !!currentUser?.name
+        hasOwner: !!currentUser?.name,
+        ownerId: currentUser?.id || currentUser?.name || "",
+        deckId: currentDeckId,
+        language: languageEdition.language
       });
       renderTimerModeControl();
       renderReversalModeControl();

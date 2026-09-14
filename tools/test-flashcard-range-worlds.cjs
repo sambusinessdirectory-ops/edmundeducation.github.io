@@ -3,44 +3,7 @@ const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE||path.join(process.env.HOME,'.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright'));
 const root=path.resolve(__dirname,'..'), out=process.env.RANGE_QA_DIR||'/tmp/flashcard-range-qa';
 fs.mkdirSync(out,{recursive:true});
-const pageSource=fs.readFileSync(path.join(root,'flashcards.html'),'utf8');
-const boot=`
-// Fixture adapters replace only external services, catalogue and persistence.
-const fixtureDeck='range-world-fixture';
-let fixtureCount=337;
-getDeckCards=()=>Array.from({length:fixtureCount},(_,i)=>({front:'Word '+(i+1),back:'意思 '+(i+1),examples:[]}));
-deckDataRevision=()=>'';
-privateDeckVisibleToStudent=()=>true;
-readJson=(key,fallback)=>JSON.parse(languageStorage.getItem('range-test:'+key)||'null')||fallback;
-writeJson=(key,value)=>{languageStorage.setItem('range-test:'+key,JSON.stringify(value));return true;};
-requireFlashcardStateReady=()=>true;
-logAttemptStart=()=> 'synthetic-attempt';
-saveCurrentProgress=()=>{};
-startStudyTimer=()=>{};
-stopStudyTimer=()=>{};
-renderStudyCard=()=>{};
-cachePendingFamiliarityDeck=()=>{};
-currentUser={name:'Range Preview A',role:'student'};
-currentDeckId=fixtureDeck;currentDeckTitle='Flash Cards · '+languageEdition.label;
-setupEvents();
-window.rangeTest={
- render(){currentDeckId=fixtureDeck;refreshDeckStartPanel();showAppPanel('deck-start',false);},
- progress(green=[],red=[]){saveDeckFamiliarity(fixtureDeck,{green,red});this.render();},
- count(n){fixtureCount=n;this.render();},
- owner(name){currentUser=name?{name,role:'student'}:null;this.render();},
- selection(){return studySession?{mode:studySession.mode,limit:studySession.cardLimit,queue:studySession.initialQueue}:null;},
- language:languageEdition.language,
-};
-rangeTest.render();`;
-const fixture=pageSource.replace('void initialiseFlashcardPortal();',boot);
-const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.png':'image/png','.webp':'image/webp','.svg':'image/svg+xml','.json':'application/json'};
-const server=http.createServer((req,res)=>{
- const url=new URL(req.url,'http://localhost');
- if(url.pathname==='/flashcards.html'){res.setHeader('Content-Type','text/html');res.end(fixture);return;}
- const file=path.resolve(root,'.'+decodeURIComponent(url.pathname));
- if(!file.startsWith(root+path.sep)){res.writeHead(403).end();return;}
- fs.readFile(file,(err,body)=>{if(err){res.writeHead(404).end();return;}res.setHeader('Content-Type',types[path.extname(file)]||'application/octet-stream');res.end(body);});
-});
+const {server}=require('./flashcard-range-fixture.cjs');
 let browser;
 (async()=>{
  await new Promise(r=>server.listen(0,'127.0.0.1',r));
@@ -48,7 +11,7 @@ let browser;
  browser=await chromium.launch({headless:true});
  const context=await browser.newContext({viewport:{width:1440,height:1000},deviceScaleFactor:1});
  await context.route('https://**/*',r=>r.abort());
- for(const script of ['pwa-register.js','shared-system-nav.js','pronunciation-checker.js','flashcard-pronunciation.js','page-loader.js']) await context.route(`**/${script}*`,r=>r.fulfill({contentType:'text/javascript',body:''}));
+ for(const script of ['pwa-register.js','shared-system-nav.js','pronunciation-checker.js','flashcard-pronunciation.js','page-loader.js','flashcard-range-map.mjs']) await context.route(`**/${script}*`,r=>r.fulfill({contentType:'text/javascript',body:''}));
  // Hide the fixed page header only during element captures; it otherwise cuts across tall collection screenshots.
  const page=await context.newPage(),errors=[];
  page.on('pageerror',e=>errors.push(e.message));

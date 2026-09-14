@@ -151,7 +151,8 @@
     for (let card = first; card <= last; card++) if (green.has(String(card - 1)) && !red.has(String(card - 1))) correct++;
     return {first, last, correct, total, completed: total > 0 && correct === total};
   }
-  function refresh({root, count, familiarity, hasOwner}) {
+  let lastSnapshot;
+  function refresh({root, count, familiarity, hasOwner, ownerId, deckId, language}) {
     if (!root) return;
     decorate(root);
     // Never render another person's rewards from an ownerless or cleared session.
@@ -189,6 +190,8 @@
       const summary = block.querySelector('.range-world-summary');
       summary.textContent = block.dataset.rangeWorld === 'standard' ? `已掌握 ${whole.correct} / ${whole.total} 張` : `${active.filter(b=>b.dataset.complete === 'true').length} / ${active.length} 範圍已掌握`;
     });
+    lastSnapshot={root,count,familiarity,hasOwner,ownerId,deckId,language};
+    window.FlashcardRangeMap?.refresh(lastSnapshot);
   }
-  window.FlashcardRangeWorlds = {refresh, progressFor, gems, ribbons};
+  window.FlashcardRangeWorlds = {refresh, progressFor, gems, ribbons, getSnapshot:()=>lastSnapshot};
 })();
