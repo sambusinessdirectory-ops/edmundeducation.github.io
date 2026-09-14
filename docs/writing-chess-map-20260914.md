@@ -29,3 +29,11 @@ Supersedes the route restriction above. Clicking any point within the painted pl
 Each difficulty row has one translucent panel on its left, with its actual name and question count. The sixteen tile labels retain only their hint-mode names; accessible button labels retain difficulty and count. Artwork and bronze plaque are unchanged.
 
 Checks passed: all 32 Italian/French mode combinations, free-point arrival, reduced motion, paragraph selection, character persistence, language isolation, desktop/mobile layout, four row panels and no repeated tile difficulty labels. Visual review exposed a sparse-checkout omission of the unchanged background after upstream integration; the asset was restored locally and an image-decoding assertion added. No public asset was removed.
+
+## User refinement: aligned columns and direct entry
+
+The board now uses row-major numbers 1–4 / 5–8 / 9–12 / 13–16. Columns consistently select no hints, first letter, last letter, and both letters. The both-letter tile has the explicit line break `顯示開首<br>及結尾字母`. Difficulty panels have roughly half-opacity fills and minimal blur, making the existing ivory piece visible behind them.
+
+A click/tap or native keyboard activation on a mode piece immediately starts the corresponding existing exercise callback exactly once. The lower entry button remains an optional shortcut for keyboard-focused selection. Empty-board clicks still provide direct free walking; interrupted walks redirect without queues. These rules supersede previous descriptions of mandatory bottom-button confirmation.
+
+A generated walnut surround fills the former solid side margins and adds a complete ebony king and ivory queen. Native central artwork and the requested bronze plaque remain. Prompt/master/export details are in the asset README. Desktop composition reviewed; all 32 French/Italian mode combinations pass with direct entry, including paragraph selection, free walking, reduced motion, preference persistence and mobile containment. The fixture checks row-major column order, four explicit line breaks and successful surround image decoding.
