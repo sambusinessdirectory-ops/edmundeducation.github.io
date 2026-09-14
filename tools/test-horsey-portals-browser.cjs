@@ -35,8 +35,9 @@ for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.POR
  await page.goto(origin+'/'+portal+'.html');await page.waitForFunction(()=>window.testHorsey,{timeout:30000});
  const selector=ce?'[data-map-toggle]':listening?'[data-ielts-map-toggle]':portal==='phrasal-verb-system'?'[data-phrasal-map-toggle]':portal==='idiom-system'?'[data-idiom-map-toggle]':'[data-proverb-map-toggle]';
  await page.locator(selector).waitFor({state:'visible',timeout:30000});
+ await page.waitForFunction(s=>!document.querySelector(s)?.disabled && document.querySelector('[data-horsey-map] .expression-map-viewport'),selector);
  if(await page.locator('[data-horsey-map]').isHidden())await page.locator(selector).click();
- await page.locator('[data-horsey-map] .ss-map-trophy').first().waitFor({timeout:30000}).catch(async e=>{console.log(await page.locator('.ss-map-trophy').first().evaluate(el=>({html:el.outerHTML,ancestors:[...function*(x){while(x){yield [x.className,x.getBoundingClientRect().toJSON(),getComputedStyle(x).display];x=x.parentElement}}(el)]})));throw e;});
+ await page.locator('[data-horsey-map] .ss-map-trophy').first().waitFor({timeout:30000});
  const count=await page.evaluate(()=>testHorsey.count);
  assert.equal(await page.locator('[data-trophy-counter-value]').innerText(),'1 / '+count,portal+' counter');
  assert.equal(await page.locator('.ss-map-trophy[data-trophy-tier=gold]').count(),1);
