@@ -1,3 +1,5 @@
+import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260914-portals1';
+import { createListeningTrophyProgress } from './listening-trophy-progress.mjs?v=20260914-portals1';
 import { mountFloatingWindow } from './floating-window.mjs?v=20260911';
 import { mountListeningTypes } from './listening-question-types.mjs?v=20260911';
 import { createListeningStudy } from './listening-study.js?v=20260904-guide1';
@@ -250,6 +252,7 @@ function readSession() {
 }
 
 function clearSession() {
+  listeningTrophyProgress.reset();
   ieltsMap?.reset();
   state.answers.clear();
   state.user = null;
@@ -264,6 +267,7 @@ async function validateToken(token) {
   state.token = String(row.session_token);
   state.user = { id: String(row.id), name: String(row.name), role: "student" };
   saveSession();
+  listeningTrophyProgress.restore().catch(()=>console.warn("IELTS progress is saved on this device; cloud sync will retry after checking answers."));
   window.EdmundSystemNav?.rememberStudentSession({ token: state.token, id: state.user.id, name: state.user.name, role: "student" });
   return true;
 }
@@ -410,7 +414,19 @@ function renderPracticeGrid() {
     </button>`).join("");
 }
 
+let horseyTrophies = null;
+const listeningTrophyProgress = createListeningTrophyProgress({rpc,getOwner:()=>state.user?.id,getToken:()=>state.token,onChange:()=>{syncHorseyTrophies();ieltsMap?.update(String(state.user?.id || ''));}});
+function trophyLessons() {
+  return [...CATALOGUE.practices].sort((a,b)=>a.practice-b.practice).map(p=>({id:p.id,order:p.practice,titleEn:'IELTS Listening Practice '+p.practice,questions:Array.from({length:40},(_,i)=>({id:String(i+1)}))}));
+}
+function syncHorseyTrophies() {
+  const root = document.querySelector('[data-ielts-map]');
+  if(!root) return;
+  horseyTrophies ||= createHorseyTrophies({systemKey:'ielts-listening',root,getLessons:trophyLessons,getOwner:()=>state.user?.id,answersFor:listeningTrophyProgress.answersFor,openLesson:id=>{const p=CATALOGUE.practices.find(p=>p.id===id);if(p)openPractice(p.practice);}});
+  horseyTrophies.sync();
+}
 function syncIeltsMap() {
+  syncHorseyTrophies();
   const root = document.querySelector('[data-ielts-map]');
   const toggle = document.querySelector('[data-ielts-map-toggle]');
   if (!root || !toggle || !state.user || !CATALOGUE.practices.length) return;
@@ -420,11 +436,12 @@ function syncIeltsMap() {
     return;
   }
   // Keep the real practice list usable until all decorative artwork is ready.
-  if (!ieltsMapLoad) ieltsMapLoad = import('./ielts-puzzle-map.mjs?v=20260913-puzzle1')
+  if (!ieltsMapLoad) ieltsMapLoad = import('./ielts-puzzle-map.mjs?v=20260914-portals1')
     .then(async ({ mountIeltsMap }) => {
       if (!state.user) return;
       const map = await mountIeltsMap({ root, toggle, grid: elements.practiceGrid,
         practices: CATALOGUE.practices,
+        getCompleted:id=>Object.keys(listeningTrophyProgress.answersFor(id)).length,
         openPractice: practice => openPractice(practice) });
       if (!state.user) { map.destroy(); return; }
       ieltsMap = map;
@@ -841,6 +858,7 @@ function togglePartAnswers() {
 function markPartAnswers() {
   const part = state.content.parts.find((item) => item.part === state.practicePart);
   const submitted = {};
+  const checkedIds = [];
   let correct = 0;
   part.questions.forEach((question) => {
     const ok = questionCorrect(question);
@@ -848,7 +866,7 @@ function markPartAnswers() {
     if (question.type === "multi") {
       question.numbers.forEach((number, index) => { if (answer[index]) submitted[number] = answer[index]; });
     } else if (String(answer).trim()) submitted[question.number] = String(answer).trim();
-    if (ok) correct += question.type === "multi" ? question.numbers.length : 1;
+    if (ok) { correct += question.type === "multi" ? question.numbers.length : 1; checkedIds.push(...(question.type === "multi" ? question.numbers : [question.number])); }
     const key = question.type === "multi" ? question.numbers.join(" & ") : question.number;
     const card = elements.workspace.querySelector(`[data-question-card="${CSS.escape(String(key))}"]`);
     const result = elements.workspace.querySelector(`[data-result-q="${CSS.escape(String(key))}"]`);
@@ -867,6 +885,9 @@ function markPartAnswers() {
   score.textContent = `Part ${part.part}：${correct} / ${total} 題正確`;
   score.hidden = false;
   window.EdmundAnswerSound?.play(correct === total);
+  listeningTrophyProgress.record(state.practice,checkedIds).catch(()=>{if(score.isConnected)score.textContent += ' · 獎座進度已儲存於此裝置，請再次檢查以重試雲端同步。';});
+  const trophyLesson = trophyLessons().find(l=>l.id==='ielts-listening-practice-'+state.practice);
+  if(trophyLesson) horseyTrophies?.celebrate(elements.workspace,trophyLesson,Object.keys(listeningTrophyProgress.answersFor(trophyLesson.id)));
   // This existing rewards endpoint only knows Practice 1. Never overwrite its
   // answers with identically numbered questions from a different practice.
   if (state.practice === 1 && state.token && Object.keys(submitted).length) {

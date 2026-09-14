@@ -342,7 +342,7 @@ function createFrontendHarness() {
 
   const initialisation = /\ninitialise\(\)\.catch\(\(error\) => \{[\s\S]*?\n\}\);\s*$/;
   assert.match(frontendSource.replace(/\ninstallQuestionOrder\([^\n]+\n?$/,''), initialisation, "test harness could not locate the frontend bootstrap");
-  const instrumented = "const orderQuestions=questions=>questions;\n"+frontendSource.replace(/^import \{ installQuestionOrder, orderQuestions \}[^\n]+\n/m,'').replace(/\ninstallQuestionOrder\([^\n]+\n?$/,'').replace(initialisation, `
+  const instrumented = "const createHorseyTrophies=()=>({sync(){},celebrate(){}});const orderQuestions=questions=>questions;\n"+frontendSource.replace(/^import \{ createHorseyTrophies \}[^\n]+\n/m,"").replace(/^import \{ installQuestionOrder, orderQuestions \}[^\n]+\n/m,'').replace(/\ninstallQuestionOrder\([^\n]+\n?$/,'').replace(initialisation, `
 window.__IDIOM_RUNTIME_TEST__ = {
   state, elements, LESSON_PAGES, EXERCISE_PAGE,
   getLesson, getQuestion, createExercise, exerciseFromAttempt,
