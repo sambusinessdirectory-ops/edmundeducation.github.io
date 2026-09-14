@@ -53,6 +53,7 @@ const attempts = [
 ];
 const harness = Function("seedDecks", "store", "attempts", `
   let currentUser = null;
+  const languageEdition = { active:false };
   const window = { location: { search: "" }, setTimeout: fn => fn(), alert: () => {} };
   let requestedHomeworkDeckOpened = false;
   let openedDeck = "";

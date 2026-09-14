@@ -155,7 +155,7 @@ assert.match(stateCacheIsolation, /flashcardStateVersions\.clear\(\)/);
 assert.match(stateCacheIsolation, /flashcardStateChecksums\.clear\(\)/);
 assert.match(stateCacheIsolation, /supabaseState\.hydratedOwner = ""/);
 assert.match(stateCacheIsolation, /delete remoteStore\[key\]/);
-assert.match(stateCacheIsolation, /localStorage\.removeItem\(key\)/);
+assert.match(stateCacheIsolation, /languageStorage\.removeItem\(key\)/);
 const sessionSetter = sourceBetween("function setSession(user)", "function clearSession()");
 assert.match(sessionSetter, /clearFlashcardSyncedStateCache\(\)/, "every identity transition must discard the previous account cache");
 const sessionClearer = sourceBetween("function clearSession()", "function restoreSession()");
