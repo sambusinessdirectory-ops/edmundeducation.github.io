@@ -13,7 +13,8 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  # Finish the active release; newer pushes replace only the pending release.
+  cancel-in-progress: false
 
 jobs:
   deploy:
