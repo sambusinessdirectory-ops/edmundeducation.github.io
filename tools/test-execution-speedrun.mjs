@@ -54,3 +54,14 @@ test('all four corner handles independently change width and height inside the v
   const small = resizeRect({left:8,top:8,right:367,bottom:650},'se',999,999,{width:375,height:667});
   assert.equal(small.width,359); assert.equal(small.height,651);
 });
+
+test('standalone sections count as exactly one split alongside nested sections', () => {
+  const mixed = [{id:'solo',title:'Find website',expected_ms:60000,items:[]},...sections];
+  assert.equal(expectedTotal(mixed),420000);
+  let run = {...fresh(),sections:mixed};
+  for (const at of [2000,3000,4000]) {run=transition(run,'split',at);assert.equal(run.status,'running');}
+  run=transition(run,'split',5000);
+  assert.equal(run.status,'completed');assert.equal(run.splits.length,4);
+  const single = transition({...fresh(),sections:[mixed[0]]},'split',2000);
+  assert.equal(single.status,'completed');assert.equal(single.splits.length,1);
+});

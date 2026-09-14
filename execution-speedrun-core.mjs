@@ -16,7 +16,8 @@ export function parseTime(value) {
   if (ms < 1000 || ms > 86400000) throw new Error('每個子項目的預計時間須介乎 0:01 至 1440:00。');
   return ms;
 }
-export const flatten = sections => sections.flatMap(section => section.items.map(item => ({ ...item, section: section.title, sectionId: section.id })));
+export const sectionItems = section => section.items.length ? section.items : [{ id:section.id, title:section.title, expected_ms:section.expected_ms, standalone:true }];
+export const flatten = sections => sections.flatMap(section => sectionItems(section).map(item => ({ ...item, section: section.title, sectionId: section.id })));
 export const expectedTotal = sections => flatten(sections).reduce((n, item) => n + item.expected_ms, 0);
 export function elapsed(run, now = Date.now()) {
   return run ? Math.floor(run.elapsed_ms + (run.status === 'running' ? Math.max(0, now - Date.parse(run.anchor_at)) : 0)) : 0;

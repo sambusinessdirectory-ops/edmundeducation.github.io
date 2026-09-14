@@ -10,8 +10,8 @@
   <meta name="apple-mobile-web-app-title" content="遊戲速通計時器">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-speaking-system.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; worker-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self' blob: https://edmund-speaking-system.edmundeducation.workers.dev">
-  <title>遊戲速通計時器｜執行動力系統｜EdmundEducation</title>
-  <link rel="canonical" href="https://edmundeducation.com/execution-speedrun.html">
+  <title>所有嘗試紀錄｜執行動力系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/execution-speedrun-records.html">
   <link rel="manifest" href="/pwa-manifests/execution.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="execution-speedrun.css?v=20260914-2">
   <script defer src="/pwa-register.js"></script>
 </head>
-<body data-system="execution" data-speedrun-page="all">
+<body data-system="execution" data-speedrun-page="records">
   <a class="skip-link" href="#speedrun-main">跳至主要內容</a>
   <header class="edmund-system-header">
     <div class="edmund-system-header__inner">
@@ -44,7 +44,7 @@
     </div>
   </header>
   <main id="speedrun-main" class="speedrun-shell">
-    <header class="page-heading"><div><span class="eyebrow">GAME SPEEDRUN METER</span><h1>遊戲速通計時器</h1><p>把目標拆成小關卡，每次挑戰自己的最佳時間。</p></div><button type="button" data-new disabled>＋ 建立計時器</button></header>
+    <header class="page-heading"><div><span class="eyebrow">GAME SPEEDRUN METER</span><h1>所有嘗試紀錄</h1><p>查看所有計時器的嘗試、逐段成績及歷史紀錄。</p></div><button type="button" data-new disabled>＋ 建立計時器</button></header>
     <nav class="speedrun-pages" aria-label="計時器頁面"><a href="execution-speedrun.html" data-page="all">全部計時器</a><a href="execution-speedrun-favourites.html" data-page="favourites">★ 我的最愛</a><a href="execution-speedrun-records.html" data-page="records">所有嘗試紀錄</a></nav>
     <p data-loading class="notice" role="status">正在讀取帳戶及已儲存的計時器…</p>
     <div data-login-needed class="notice" hidden><h2>請先登入執行動力系統</h2><p>登入後，從頂部的「遊戲速通計時器」返回此頁，便可儲存及使用私人計時器。</p><a href="execution-system.html">前往登入 →</a></div>
@@ -76,7 +76,7 @@
                 </section>
               </div>
               <section class="stats-grid" aria-label="相同版本的完成紀錄"><article><span>完整挑戰</span><b data-stat="completed">0</b></article><article><span>最快</span><b data-stat="fastest">—</b></article><article><span>平均</span><b data-stat="average">—</b></article><article><span>最慢</span><b data-stat="slowest">—</b></article></section>
-              <section class="panel history"><div class="panel-title"><div><h2>挑戰紀錄</h2><p class="muted">保留所有版本。提前結束的紀錄會保留，但不計入完整挑戰排行。</p></div><button type="button" data-refresh>重新整理</button></div><label class="records-filter" hidden>選擇計時器<select data-records-filter><option value="">所有計時器</option></select></label><div data-history></div><button type="button" data-more hidden>載入更多紀錄</button></section>
+              <section class="panel history"><div class="panel-title"><div><h2>所有嘗試紀錄</h2><p class="muted">保留所有版本。提前結束的紀錄會保留，但不計入完整挑戰排行。</p></div><button type="button" data-refresh>重新整理</button></div><label class="records-filter">選擇計時器<select data-records-filter><option value="">所有計時器</option></select></label><div data-history></div><button type="button" data-more hidden>載入更多紀錄</button></section>
             </div>
           </div>
         </div>

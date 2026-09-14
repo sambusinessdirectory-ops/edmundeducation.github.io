@@ -15,7 +15,7 @@ await context.exposeFunction('__qaRpc',async (name,p) => {
   if (name === 'execution_system_admin_me') data = [{id:'qa-admin',name:'測試帳戶'}];
   else if (name === 'execution_speedrun_meter_save') {
     const old = meters.find(m => m.id === p.p_id);
-    const m = {id:p.p_id,title:p.p_title,sections:p.p_sections,version:old ? old.version + (JSON.stringify(old.sections) === JSON.stringify(p.p_sections) ? 0 : 1) : 1};
+    const m = {favourite:old?.favourite||false,sort_order:old?.sort_order||0,updated_at:new Date().toISOString(),id:p.p_id,title:p.p_title,sections:p.p_sections,version:old ? old.version + (JSON.stringify(old.sections) === JSON.stringify(p.p_sections) ? 0 : 1) : 1};
     meters = [m,...meters.filter(m => m.id !== p.p_id)]; data = m;
   } else if (name === 'execution_speedrun_start') {
     const m = meters.find(m => m.id === p.p_meter_id);
@@ -30,6 +30,22 @@ await context.exposeFunction('__qaRpc',async (name,p) => {
       runs[index] = transition(adjusted,p.p_action,Date.parse(p.p_at)); events.add(p.p_id);
     }
     data = runs[index];
+  } else if (name === 'execution_speedrun_library_update') {
+    const meter = meters.find(m => m.id === p.p_id);
+    if (p.p_action === 'favourite') meter.favourite = p.p_favourite;
+    else {
+      const ordered = [...meters].sort((a,b) => a.sort_order-b.sort_order || b.updated_at.localeCompare(a.updated_at) || a.id.localeCompare(b.id));
+      const index=ordered.findIndex(m => m.id===p.p_id), other=index+(p.p_action==='up' ? -1 : 1);
+      if (ordered[other]) {[ordered[index],ordered[other]]=[ordered[other],ordered[index]];ordered.forEach((m,i) => m.sort_order=i+1);}
+    }
+    data = null;
+  } else if (name === 'execution_speedrun_records') {
+    const records = runs.filter(r => !p.p_meter_id || r.meter_id===p.p_meter_id).toReversed();
+    data={history:records.slice(p.p_offset,p.p_offset+30),history_count:records.length};
+  } else if (name === 'execution_speedrun_delete') {
+    runs=runs.filter(r => p.p_kind==='meter' ? r.meter_id!==p.p_id : r.id!==p.p_id);
+    if(p.p_kind==='meter')meters=meters.filter(m => m.id!==p.p_id);
+    data=null;
   } else if (name === 'execution_speedrun_load') {
     const active = runs.find(r => ['running','paused'].includes(r.status)) || null;
     const m = meters.find(m => m.id === (p.p_meter_id || active?.meter_id)) || meters[0];
@@ -129,6 +145,92 @@ try {
   await page.waitForFunction(() => document.querySelector('[data-pause]').textContent === '繼續');
   assert.equal(await page.locator('[data-latest]').isVisible(),false);
   assert.ok(await page.evaluate(() => Object.keys(localStorage).some(k => k.includes(':conflict:'))));
+  // New library, standalone-section, column width and deletion journeys.
+  await page.locator('[data-end]').click(); await page.locator('[data-confirm-end]').click();
+  await page.waitForFunction(() => document.querySelector('[data-start]').disabled === false);
+  await page.setViewportSize({width:1440,height:1100});
+  await page.locator('[data-new]').first().click();
+  await page.locator('[name=title]').fill('Zulu French learning');
+  await page.locator('[data-section-title="0"]').fill('Find website');
+  await page.locator('[data-remove-item="0:0"]').click();
+  await page.locator('[data-section-time="0"]').fill('1:30');
+  await page.locator('[data-add-section]').click();
+  await page.locator('[data-section-title="1"]').fill('Extract text');
+  await page.locator('[data-item-title="1:0"]').fill('Read text');
+  await page.locator('[data-item-time="1:0"]').fill('0:05');
+  assert.equal(await page.locator('[data-editor-total]').textContent(),'1:35');
+  await page.locator('[data-save]').click(); await page.locator('[data-selected]').waitFor({state:'visible'});
+  assert.equal(await page.locator('[data-split-index]').count(),2);
+  assert.equal(await page.locator('[data-split-index="0"] .split-name').textContent(),'Find website');
+  assert.equal(await page.locator('[data-section-start]').count(),1);
+  await page.locator('[data-start]').click(); await page.locator('[data-split]').click(); await page.locator('[data-split]').click();
+  await page.waitForFunction(() => document.querySelector('[data-stat="completed"]').textContent==='1');
+  const zulu=meters.find(m => m.title==='Zulu French learning');
+  await page.locator(`[data-library-action="favourite"][data-id="${zulu.id}"]`).click();
+  await page.waitForFunction(id => document.querySelector(`[data-library-action="favourite"][data-id="${id}"]`).getAttribute('aria-pressed')==='true',zulu.id);
+  for(let i=0;i<4;i++) {
+    const handle=page.locator(`[data-column-resize="${i}"]`); await handle.scrollIntoViewIfNeeded();
+    const r=await handle.boundingBox();
+    await page.mouse.move(r.x+r.width/2,r.y+r.height/2);await page.mouse.down();await page.mouse.move(r.x+r.width/2+30,r.y+r.height/2,{steps:3});await page.mouse.up();
+  }
+  const columns=await page.locator('[data-race-meter]').evaluate(el => el.style.getPropertyValue('--speedrun-columns'));
+  assert.ok(columns.includes('px'));
+  await page.locator('[data-float]').click();await page.locator('[data-float]').click();
+  assert.equal(await page.locator('[data-race-meter]').evaluate(el => el.style.getPropertyValue('--speedrun-columns')),columns);
+  await page.reload();await page.locator('[data-app]').waitFor({state:'visible'});
+  assert.equal(await page.locator('[data-race-meter]').evaluate(el => el.style.getPropertyValue('--speedrun-columns')),columns);
+  await page.locator('[data-new]').first().click();
+  await page.locator('[name=title]').fill('Alpha single section');
+  await page.locator('[data-section-title="0"]').fill('Read');
+  await page.locator('[data-remove-item="0:0"]').click();await page.locator('[data-section-time="0"]').fill('1:00');
+  await page.locator('[data-save]').click();await page.locator('[data-selected]').waitFor({state:'visible'});
+  await page.waitForFunction(() => !document.querySelector('[data-start]').disabled);
+  await page.locator('[data-start]').click();await page.locator('[data-split]').click();
+  await page.waitForFunction(() => document.querySelector('[data-run-status]').textContent==='挑戰完成');
+  await page.waitForFunction(() => !document.querySelector('[data-start]').disabled);
+  const initial=await page.locator('[data-meter-id] strong').allTextContents();
+  await page.locator('[data-library-action="down"]').first().click();
+  await page.waitForFunction(first => document.querySelector('[data-meter-id] strong').textContent !== first,initial[0]);
+  const custom=await page.locator('[data-meter-id] strong').allTextContents();
+  await page.reload();await page.locator('[data-app]').waitFor({state:'visible'});
+  assert.deepEqual(await page.locator('[data-meter-id] strong').allTextContents(),custom);
+  await page.locator('[data-sort]').selectOption('alpha');
+  assert.equal(await page.locator('[data-meter-id] strong').first().textContent(),'Alpha single section');
+  await page.reload();await page.locator('[data-app]').waitFor({state:'visible'});
+  assert.equal(await page.locator('[data-sort]').inputValue(),'alpha');
+  await page.locator('[data-sort]').selectOption('custom');
+  await page.screenshot({path:`${output}/library-v2.png`,fullPage:true});
+  await page.locator('[data-page="favourites"]').click();await page.locator('[data-app]').waitFor({state:'visible'});
+  assert.equal(await page.locator('[data-meter-id]').count(),1);
+  assert.equal(await page.locator('[data-meter-id] strong').textContent(),'Zulu French learning');
+  await page.locator('[data-library-action="favourite"]').click();
+  await page.waitForFunction(() => document.querySelectorAll('[data-meter-id]').length===0);
+  await page.locator('[data-page="records"]').click();await page.locator('[data-app]').waitFor({state:'visible'});
+  assert.equal(await page.locator('[data-history] details').count(),runs.length);
+  await page.locator('[data-records-filter]').selectOption(zulu.id);
+  await page.waitForFunction(() => document.querySelectorAll('[data-history] details').length===1);
+  await page.locator('[data-history] summary').click();
+  await page.screenshot({path:`${output}/records-v2.png`,fullPage:true});
+  await page.locator('[data-delete-run]').click();await page.locator('[data-cancel-delete]').click();
+  assert.equal(await page.locator('[data-history] details').count(),1);
+  await page.locator('[data-delete-run]').click();await page.locator('[data-confirm-delete]').click();
+  await page.waitForFunction(() => document.querySelectorAll('[data-history] details').length===0);
+  assert.equal(runs.filter(r => r.meter_id===zulu.id).length,0);
+  await page.locator('[data-page="all"]').click();await page.locator('[data-app]').waitFor({state:'visible'});
+  await page.locator(`[data-meter-id="${zulu.id}"]`).click();
+  await page.waitForFunction(() => document.querySelector('[data-selected-title]').textContent==='Zulu French learning');
+  assert.equal(await page.locator('[data-stat="completed"]').textContent(),'0');
+  const original=meters.find(m => m.title==='英文閱讀挑戰');
+  await page.locator(`[data-delete-meter="${original.id}"]`).click();
+  assert.match(await page.locator('[data-delete-copy]').textContent(),/所有歷史嘗試/);
+  await page.locator('[data-confirm-delete]').click();
+  await page.waitForFunction(id => !document.querySelector(`[data-meter-id="${id}"]`),original.id);
+  assert.ok(!meters.some(m => m.id===original.id));assert.ok(!runs.some(r => r.meter_id===original.id));
+  assert.ok(meters.some(m => m.id===zulu.id));
+  await page.setViewportSize({width:390,height:844});
+  assert.ok(await page.evaluate(() => document.documentElement.scrollWidth<=innerWidth));
+  await page.screenshot({path:`${output}/mobile-v2.png`,fullPage:true});
+
   assert.deepEqual(errors,[]);
-  console.log('Browser QA passed: editor, totals, split colors, pause/reload/resume, history, offline retry, cross-device conflict recovery, four-corner resize, desktop and mobile.');
+  console.log('Browser QA passed: standalone and nested sections, favourites, custom/A–Z ordering, records filtering/deletion, column widths and persistence, split timing, offline/conflict recovery, floating resize, desktop and mobile.');
 } finally { await browser.close(); }

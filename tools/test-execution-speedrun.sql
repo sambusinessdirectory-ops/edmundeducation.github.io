@@ -4,6 +4,7 @@ do $$
 declare
   a uuid := extensions.gen_random_uuid(); b uuid := extensions.gen_random_uuid();
   ta uuid := extensions.gen_random_uuid(); tb uuid := extensions.gen_random_uuid();
+  m2 uuid := extensions.gen_random_uuid(); r4 uuid := extensions.gen_random_uuid(); before_ids uuid[]; after_ids uuid[];
   m uuid := extensions.gen_random_uuid(); r uuid := extensions.gen_random_uuid();
   r2 uuid := extensions.gen_random_uuid(); r3 uuid := extensions.gen_random_uuid(); e uuid := extensions.gen_random_uuid();
   at timestamptz := now() - interval '1 hour'; result jsonb; shape jsonb;
@@ -64,6 +65,55 @@ begin
   assert result->'stats'->>'completed' = '0' and result->>'history_count' = '3', 'Versions mixed or history lost';
   assert not has_table_privilege('authenticated','public.execution_speedrun_runs','SELECT');
   assert not has_function_privilege('anon','public.execution_speedrun_load(uuid,integer,uuid,uuid)','EXECUTE');
+  -- Library preferences and standalone sections preserve existing historical snapshots.
+  shape := '[{"id":"solo","title":"Find website","expected_ms":60000,"items":[]},{"id":"group","title":"Read","items":[{"id":"child","title":"Passage","expected_ms":30000}]}]'::jsonb;
+  perform public.execution_speedrun_meter_save(m2,'Standalone QA',shape,0,null,ta);
+  perform public.execution_speedrun_library_update(m2,'favourite',true,null,ta);
+  assert (select favourite from public.execution_speedrun_meters where id=m2);
+  select array_agg(id order by sort_order,updated_at desc,id) into before_ids from public.execution_speedrun_meters where owner_kind='admin' and owner_id=a;
+  perform public.execution_speedrun_library_update(before_ids[2],'up',false,null,ta);
+  select array_agg(id order by sort_order,updated_at desc,id) into after_ids from public.execution_speedrun_meters where owner_kind='admin' and owner_id=a;
+  assert after_ids[1]=before_ids[2] and after_ids[2]=before_ids[1];
+  perform public.execution_speedrun_start(r4,m2,1,at,null,ta);
+  result := public.execution_speedrun_event(extensions.gen_random_uuid(),r4,'split',0,1000,at+interval '1 sec',null,ta);
+  assert result->>'status'='running', 'Standalone section missing from total split count';
+  result := public.execution_speedrun_event(extensions.gen_random_uuid(),r4,'split',1,2000,at+interval '2 sec',null,ta);
+  assert result->>'status'='completed' and jsonb_array_length(result->'splits')=2;
+  result := public.execution_speedrun_records(null,0,null,ta);
+  assert result->>'history_count'='4';
+  result := public.execution_speedrun_records(m2,0,null,ta);
+  assert result->>'history_count'='1';
+  result := public.execution_speedrun_records(null,0,null,tb);
+  assert result->>'history_count'='0';
+  begin
+    perform public.execution_speedrun_delete(r4,'run',2,null,tb);
+    raise exception 'Cross-owner deletion accepted';
+  exception when insufficient_privilege then null; end;
+  perform public.execution_speedrun_delete(r4,'run',2,null,ta);
+  assert not exists(select 1 from public.execution_speedrun_runs where id=r4);
+  assert not exists(select 1 from public.execution_speedrun_events where run_id=r4);
+  result := public.execution_speedrun_load(m2,0,null,ta);
+  assert result->'stats'->>'completed'='0' and result->'stats'->'best_segments'='[]'::jsonb;
+  begin
+    perform public.execution_speedrun_start(r4,m2,1,at,null,ta);
+    raise exception 'Deleted attempt was resurrected by start retry';
+  exception when serialization_failure then null; end;
+  r4 := extensions.gen_random_uuid();
+  perform public.execution_speedrun_start(r4,m2,1,at,null,ta);
+  result := public.execution_speedrun_records(m2,0,null,ta);
+  assert result->'history'->0->>'status'='running', 'All-attempts page omitted the active attempt';
+  perform public.execution_speedrun_delete(r4,'run',0,null,ta);
+  assert not exists(select 1 from public.execution_speedrun_runs where id=r4);
+  assert not exists(select 1 from public.execution_speedrun_events where run_id=r4);
+  perform public.execution_speedrun_delete(m,'meter',2,null,ta);
+  assert not exists(select 1 from public.execution_speedrun_meters where id=m);
+  assert not exists(select 1 from public.execution_speedrun_runs where meter_id=m);
+  assert not exists(select 1 from public.execution_speedrun_events where run_id in (r,r2,r3));
+  assert exists(select 1 from public.execution_speedrun_meters where id=m2);
+  begin
+    perform public.execution_speedrun_meter_save(m,'Deleted retry',shape,0,null,ta);
+    raise exception 'Deleted meter was resurrected';
+  exception when serialization_failure then null; end;
   perform set_config('request.jwt.claim.sub','',true);
   begin
     perform public.execution_speedrun_load(m,0,null,ta);

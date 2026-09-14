@@ -49,6 +49,8 @@ const htmlPages = [
   "execution-dashboard.html",
   "execution-thinking-log.html",
   "execution-speedrun.html",
+  "execution-speedrun-favourites.html",
+  "execution-speedrun-records.html",
   "exam-resources.html",
   "excellent-learning-system.html",
   "flashcards.html",
