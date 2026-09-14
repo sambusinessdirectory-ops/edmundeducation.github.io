@@ -235,7 +235,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     angle=(Math.atan2(dx,dy)*180/Math.PI+360)%360;
     lastFacing=angle;
     if(reduced.matches || Math.hypot(dx,dy)<2) { position=destination; journey=null; settleArrival(); drawHorse(performance.now(),false); return; }
-    journey={ from:{...position}, to:destination, started:performance.now(), points, lengths, distance, duration:clamp(distance/.3,250,3200) };
+    journey={ from:{...position}, to:destination, started:performance.now(), points, lengths, distance, duration:theme?.navigation?.duration?.({distance,from:position,to:destination}) ?? clamp(distance/.3,250,3200) };
     startAnimation();
   }
   function centerOn(point, smooth=false) {

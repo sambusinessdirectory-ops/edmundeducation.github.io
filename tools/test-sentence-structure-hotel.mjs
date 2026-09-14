@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {HOTEL_OFFSET,HOTEL_HEIGHT,HOTEL_SCALE,HOTEL_ROOMS,HOTEL_FLAGS,HOTEL_LIGHTS,HOTEL_PLANTS,HOTEL_TREES,hotelPositions,hotelArrivalIndex,hotelTrainPose,hotelFlagOffset,hotelLightLevel,hotelIsWalkable,hotelCompanionVisible} from '../sentence-structure-hotel-geometry.mjs';
+import {HOTEL_OFFSET,HOTEL_HEIGHT,HOTEL_SCALE,HOTEL_ROOMS,HOTEL_FLAGS,HOTEL_LIGHTS,HOTEL_PLANTS,HOTEL_TREES,HOTEL_LIFT_X,hotelPositions,hotelArrivalIndex,hotelTrainPose,hotelFlagOffset,hotelLightLevel,hotelIsWalkable,hotelCompanionVisible,hotelElevatorState,hotelJourneyDuration} from '../sentence-structure-hotel-geometry.mjs';
 import {sentenceMapLessons} from '../sentence-structure-map.mjs';
 import {sentenceRealmPositions,SENTENCE_REALMS} from '../sentence-structure-realms.mjs';
 const lessons=sentenceMapLessons(JSON.parse(readFileSync(new URL('../assets/sentence-structure/library/manifest.json',import.meta.url))).lessons),nodes=sentenceRealmPositions(lessons);
@@ -28,4 +28,13 @@ test('flags remain attached while every light changes gently with staggered phas
  assert.equal(HOTEL_FLAGS.length,2);assert.equal(HOTEL_PLANTS.length,14);assert.equal(HOTEL_TREES.length,18);assert.equal(HOTEL_LIGHTS.length,35);
  for(const f of HOTEL_FLAGS)for(let t=0;t<30;t+=.1){assert.equal(Math.abs(hotelFlagOffset(t,0,f.phase)),0);assert.ok(Math.abs(hotelFlagOffset(t,1,f.phase))<=3.1);}
  for(let i=0;i<HOTEL_LIGHTS.length;i++){const phase=((i*.61803398875)%1)*Math.PI*2,values=Array.from({length:300},(_,j)=>hotelLightLevel(j/10,phase));assert.ok(Math.max(...values)-Math.min(...values)>.3);for(let j=1;j<values.length;j++)assert.ok(Math.abs(values[j]-values[j-1])<.02);}
+});
+test('elevator reveals only in the left shaft, boards gradually and supports both directions',()=>{
+ assert.equal(HOTEL_LIFT_X,225*HOTEL_SCALE);
+ for(const y of [349,500,794,908]){const p={x:HOTEL_LIFT_X,y:HOTEL_OFFSET+y*HOTEL_SCALE},s=hotelElevatorState(p);assert.ok(s.riding);assert.equal(s.alpha,1);assert.ok(Math.abs(s.y-y)<1e-9);assert.equal(s.gate,0);assert.ok(hotelIsWalkable(p));}
+ assert.equal(hotelElevatorState(nodes[150]).alpha,0);
+ assert.equal(hotelElevatorState({x:HOTEL_LIFT_X,y:HOTEL_OFFSET+200*HOTEL_SCALE}).alpha,0);
+ const boarding=hotelElevatorState({x:284*HOTEL_SCALE,y:HOTEL_OFFSET+500*HOTEL_SCALE});assert.ok(boarding.alpha>0&&boarding.alpha<1);assert.ok(boarding.gate>0);
+ assert.ok(hotelJourneyDuration({distance:1400,from:nodes[150],to:nodes[179]})>6000);
+ assert.equal(hotelJourneyDuration({distance:1400,from:nodes[0],to:nodes[29]}),undefined);
 });
