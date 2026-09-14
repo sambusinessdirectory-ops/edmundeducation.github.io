@@ -1,0 +1,38 @@
+[
+  {
+    "asset": "bead",
+    "reference": "Three supplied reference images",
+    "tool": "Built-in image generator",
+    "prompt": "Use case: product-mockup. Asset: a single isolated reusable 3D bead sprite for a premium flashcard abacus interface. Reference is the wooden abacus with glossy honey-yellow beads in the attached Standard Mode design (first of three supplied references). Reproduce ONE exquisite golden amber lacquered abacus bead, viewed front-on very slightly from above, with rounded thick convex face, visible wooden depth and grain at its brown lower and side edges, bright warm soft reflections at upper left. The broad front face must be smooth blank honey-gold for a code-rendered label, no hole in front. No numerals, words, rod, frame, sparkles, floor, pedestal, other beads or characters. Full bead centered, occupies 78 percent width and 72 percent height of a square canvas with clear margins. Genuinely transparent background including outside a small soft contact shadow. Detailed realistic materials and polished dimensional rendering, not flat vector geometry. One bead only."
+  },
+  {
+    "asset": "medal",
+    "reference": "Three supplied reference images",
+    "tool": "Built-in image generator",
+    "prompt": "Use case: product-mockup. Asset: one reusable detailed medal sprite for a flashcard trophy cabinet. Use attached 30-card medal cabinet reference (second of three references) for exact material quality and style. ONE front-facing cream-gold circular medal hanging from a rich dark navy and burgundy grosgrain ribbon with fine gold stripes and a brass suspension loop. Thick engraved layered brass rim, warm ivory EMPTY flat face for code-rendered range numbers, subtle realistic patina, gold reflections. Entire object centered on square canvas, ribbon top at 7 percent height, face center at 59 percent height, medal bottom at 89 percent height, overall width 60 percent. No text, numerals, laurels, stars, glow, character, wall, cabinet, other medals, floor. Genuine transparent background. Finely detailed high quality 3D product render matching reference. One medal only."
+  },
+  {
+    "asset": "gem",
+    "reference": "Three supplied reference images",
+    "tool": "Built-in image generator",
+    "prompt": "Use case: product-mockup. Asset: a reusable isolated gemstone sprite for a premium flashcard jewel case. Match the exquisite 3D green emerald and burgundy velvet reference (third of three attached). ONE large deep emerald green cushion diamond shaped cut gemstone viewed front-on with slight depth, four gently rounded corners, intricate broad translucent facets, bright mint refractions at upper left, rich deep green center that remains spacious enough for a short white code-rendered number. Unset stone: NO gold edge, NO gold prongs, no metal at all, since a separate gold completion bezel will be added by code. Centered on square canvas occupying 76 percent width and height. No text, numeral, character, background scenery, case, velvet, pedestal, extra gems or reflection beneath. Genuine transparent background, detailed realistic photoreal jewel render, not a flat geometric icon."
+  },
+  {
+    "asset": "wood",
+    "reference": "/Users/sammak/Desktop/Game Scenes/Flashcard Stanadard Mode.png",
+    "tool": "Built-in image generator",
+    "prompt": "Use case: precise-object-edit. Reference image is the warm wooden abacus game interface. Create its empty background setting as a wide web panel, without any interface. Recreate the sunlit pale wooden tabletop and warmly lit quiet study room in the reference, angled afternoon sunlight and soft shadows. Remove the entire abacus, all beads, rods, frame supports, all characters, text, numbers, UI, labels and cream header/footer. A clean empty full-bleed warm room backdrop with wooden tabletop filling bottom half, soft cream wall and softly seen green plant at far left, wood shelving at far right. No central objects. High quality 3D materials matching reference, landscape 3:2. This is a background behind independently rendered abacus objects. The three supplied references are in this order: wooden abacus, medal cabinet, gem case. Use the matching reference only."
+  },
+  {
+    "asset": "cabinet",
+    "reference": "/Users/sammak/Desktop/Game Scenes/Flash card - 30 card range.png",
+    "tool": "Built-in image generator",
+    "prompt": "Use case: precise-object-edit. Reference is the elegant wooden medal cabinet. Create ONE empty cabinet interior background panel with exquisite dark walnut wood framing at outer edges, thin brass decorative trim and large deep forest green fine felt center. Wide landscape 3:2, straight-on view. Preserve the original rich realistic finely detailed materials, carved wood bevels, warm subtle overhead spot lighting, depth and antique study atmosphere. Remove ALL medals, ribbons, horizontal hanging rails, shelves crossing center, plaques, text, headings, banners, numerals, globe, plants, books, characters and buttons. The center 85 percent must be uninterrupted empty dark green felt so responsive live medals can be arranged in code. Full bleed no white margin. This is a reusable quiet cabinet backdrop, NOT an entire UI mockup. The three supplied references are in this order: wooden abacus, medal cabinet, gem case. Use the matching reference only."
+  },
+  {
+    "asset": "velvet",
+    "reference": "/Users/sammak/Desktop/Game Scenes/Flash card 10 mode.png",
+    "tool": "Built-in image generator",
+    "prompt": "Use case: precise-object-edit. Reference is the exquisite burgundy velvet jewelry case with emeralds. Create ONE empty jewel display tray background, straight-on top view with very slight depth at outer bottom edge. Rich deep burgundy velvet with subtle short plush nap covering the entire center, a refined narrow aged golden brass rim around the four outside edges, rounded corners, dark wooden desk only barely visible outside rim. Landscape 3:2. Remove ALL gems, compartments and dividers, character, words, labels, number, header, footer, books, cup, paper and interface. Center85 percent uninterrupted quiet velvet; code will lay responsive gem compartments on top. Faithful premium photoreal rendered materials, soft warm upper-left light, believable velvet shadows and brass. Full bleed no white margins. No other objects. The three supplied references are in this order: wooden abacus, medal cabinet, gem case. Use the matching reference only."
+  }
+]

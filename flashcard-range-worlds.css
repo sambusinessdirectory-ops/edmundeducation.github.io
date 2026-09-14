@@ -1,0 +1,119 @@
+/* Material-rich, responsive card selection shared by original and language editions. */
+#flashcard-range-worlds { --range-gold:#eed099; --range-cream:#fff3d6; display:grid; gap:30px; }
+#flashcard-range-worlds .mode-block { position:relative; isolation:isolate; display:block; margin:0; padding:30px 34px 35px; overflow:hidden; border:1px solid #a37844; border-radius:22px; background-color:#37251b; box-shadow:0 12px 30px #24110b24,inset 0 0 0 5px #eac79028; }
+#flashcard-range-worlds .embedded-mode-heading { display:flex; flex-direction:column; gap:7px; position:relative; z-index:1; margin:0; padding:0; border:0; color:var(--range-cream); text-align:center; font:600 30px/1.2 Georgia,'Noto Serif TC',serif; }
+#flashcard-range-worlds .embedded-mode-heading small { display:block; font:600 11px/1.3 Arial,sans-serif; letter-spacing:.25em; color:var(--range-gold); }
+#flashcard-range-worlds .range-world-legend { display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap; margin:12px 0 27px; color:#eddab7; font:14px/1.6 system-ui,sans-serif; text-align:center; }
+#flashcard-range-worlds .range-world-summary { display:inline-block; padding:3px 11px; border:1px solid #eac79061; border-radius:30px; background:#15171180; color:#fff0c9; font:600 12px/1.5 system-ui,sans-serif; white-space:nowrap; }
+#flashcard-range-worlds .mode-grid { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:24px 7px; position:relative; padding:15px 8px 8px; }
+#flashcard-range-worlds .mode-card.range-choice { --object-size:170px; position:relative; display:flex; flex-direction:column; align-items:center; justify-content:flex-start; min-width:0; min-height:0; gap:0; padding:0 4px 12px; border:0; border-radius:10px; background:none; box-shadow:none; text-align:center; color:var(--range-cream); transform:none; filter:none; transition:background .2s; cursor:pointer; }
+#flashcard-range-worlds .range-choice:hover:not(:disabled) { background:#fff5d80c; box-shadow:none; transform:none; }
+#flashcard-range-worlds .range-choice:focus-visible { outline:3px solid #ffdb75; outline-offset:4px; background:#f7d7881c; }
+#flashcard-range-worlds .range-token { position:relative; display:block; flex-shrink:0; width:min(100%,var(--object-size)); aspect-ratio:1; height:auto; overflow:visible; color:inherit; transition:transform .25s ease; }
+#flashcard-range-worlds .range-object { display:block; width:100%; height:100%; object-fit:contain; filter:drop-shadow(0 9px 5px #0005); }
+#flashcard-range-worlds .range-choice:hover:not(:disabled) .range-token { transform:translateY(-3px); }
+#flashcard-range-worlds .range-number { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:76%; color:#38230b; font:700 clamp(17px,1.9vw,27px)/1.15 Georgia,'Noto Serif TC',serif; white-space:nowrap; text-shadow:0 1px 0 #fff3; }
+#flashcard-range-worlds .range-choice-title { display:block; margin:0 0 7px; color:inherit; font:600 17px/1.4 Georgia,'Noto Serif TC',serif; }
+#flashcard-range-worlds .range-progress { display:block; min-width:74px; padding:3px 10px; border:1px solid #caa56b; border-radius:20px; color:#faeace; background:#15100deb; font:650 12px/1.25 system-ui,sans-serif; box-shadow:0 2px 3px #0004; }
+#flashcard-range-worlds .range-state { display:block; min-height:20px; margin-top:6px; color:#dbcbaa; font:12px/1.5 system-ui,sans-serif; }
+#flashcard-range-worlds .range-description { display:block; max-width:240px; margin:6px 3px 0; color:#efe1c6; font:12px/1.65 system-ui,sans-serif; }
+#flashcard-range-worlds [data-material=medal] .range-description,#flashcard-range-worlds [data-material=gem] .range-description { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+#flashcard-range-worlds .range-ornament { position:absolute; inset:0; width:100%; height:100%; opacity:0; pointer-events:none; transition:opacity .25s; filter:drop-shadow(0 1px 1px #704013); }
+#flashcard-range-worlds .range-completed .range-ornament { opacity:1; }
+#flashcard-range-worlds .range-completed .range-state { color:#ffdc83; font-weight:700; }
+#flashcard-range-worlds .range-choice:disabled { opacity:.4; color:#dccdb6; background:none; box-shadow:none; transform:none; cursor:not-allowed; filter:saturate(.45); }
+#flashcard-range-worlds .range-choice:disabled span { color:inherit; }
+/* Abacus: a rod behind each bead and dark wooden counters between choices. */
+#flashcard-range-worlds [data-range-world=standard] { background:#b98850 url('assets/flashcards/range-worlds/wood.webp') center/cover; border-color:#ab763f; padding-bottom:40px; }
+#flashcard-range-worlds [data-range-world=standard] .embedded-mode-heading { color:#42250e; }
+#flashcard-range-worlds [data-range-world=standard] .embedded-mode-heading small,#flashcard-range-worlds [data-range-world=standard] .range-world-legend { color:#573820; }
+#flashcard-range-worlds [data-range-world=standard] .mode-grid { grid-template-columns:repeat(4,minmax(0,1fr)); gap:28px 12px; padding:12px 26px 6px; border-left:17px ridge #a56b35; border-right:17px ridge #a56b35; box-shadow:5px 4px 8px #52361542; }
+#flashcard-range-worlds [data-range-world=standard] .range-choice { --object-size:195px; color:#3f250d; }
+#flashcard-range-worlds [data-range-world=standard] .range-token::before { content:''; position:absolute; z-index:-1; left:-40%; right:-40%; top:49%; height:16px; background:linear-gradient(#724116,#c58b45 27%,#bb8140 50%,#6a3616); border-radius:9px; box-shadow:0 8px 7px #40230c44; }
+#flashcard-range-worlds [data-range-world=standard] .range-token::after { content:''; position:absolute; z-index:-1; left:-10%; top:26%; height:56%; width:22%; border-radius:48%; background:radial-gradient(ellipse at 27% 23%,#c9926c,#844d2b 29%,#4c2617 68%,#9b6841 90%); box-shadow:2px 7px 7px #3e1e1a5c,inset 2px 1px 2px #e4b18680; }
+#flashcard-range-worlds [data-range-world=standard] .range-description,#flashcard-range-worlds [data-range-world=standard] .range-state { color:#4a2f1b; }
+#flashcard-range-worlds [data-range-world=standard] .range-completed .range-object { filter:drop-shadow(0 0 9px #ffdf62) drop-shadow(0 0 19px #ffd152) drop-shadow(0 9px 5px #6033006b); }
+#flashcard-range-worlds [data-range-world=standard] .range-completed .range-state { color:#744407; }
+#flashcard-range-worlds .status-mode-red .range-object { filter:hue-rotate(-40deg) saturate(.7) drop-shadow(0 9px 5px #0005); }
+#flashcard-range-worlds .status-mode-green .range-object { filter:hue-rotate(65deg) saturate(.55) drop-shadow(0 9px 5px #0005); }
+/* Brass medals hang in a walnut cabinet with ivory faces. */
+#flashcard-range-worlds [data-range-world='30'] { background:#103328 url('assets/flashcards/range-worlds/cabinet.webp') center/100% 100%; padding:36px 36px 30px; border:7px ridge #77522d; }
+#flashcard-range-worlds [data-range-world='30'] .range-token::before { content:''; position:absolute; top:8%; left:-25%; right:-25%; height:7px; z-index:-1; background:linear-gradient(#513513,#f6d38a 28%,#bd9046 65%,#714917); box-shadow:0 4px 5px #0009; }
+#flashcard-range-worlds [data-material=medal] .range-number { top:65%; width:53%; font-size:clamp(15px,1.5vw,23px); }
+#flashcard-range-worlds [data-material=medal].range-completed .range-object { filter:drop-shadow(0 0 12px #e9c57470) drop-shadow(0 5px 3px #0005); }
+/* Gemstones sit in velvet compartments. Only mastery adds the gold bezel. */
+#flashcard-range-worlds [data-range-world='10'] { background:#560d19 url('assets/flashcards/range-worlds/velvet.webp') center/100% 100%; border:6px ridge #a77f49; }
+#flashcard-range-worlds [data-range-world='10'] .mode-grid { grid-template-columns:repeat(7,minmax(0,1fr)); gap:10px 2px; }
+#flashcard-range-worlds [data-material=gem] { padding-top:8px; border-right:3px ridge #a643434d; box-shadow:inset 9px 0 14px #29000938,inset 0 -5px 6px #2505087d; border-radius:6px; }
+#flashcard-range-worlds [data-material=gem] .range-number { width:62%; color:#fff9df; font-size:clamp(15px,1.45vw,22px); text-shadow:0 2px 4px #000; }
+#flashcard-range-worlds [data-gem-tone=ruby] .range-object { filter:hue-rotate(190deg) saturate(1.35) drop-shadow(0 8px 3px #130207a0); }
+#flashcard-range-worlds [data-gem-tone=sapphire] .range-object { filter:hue-rotate(66deg) saturate(1.3) drop-shadow(0 8px 3px #130207a0); }
+#flashcard-range-worlds [data-gem-tone=pearl] .range-object { filter:saturate(.07) brightness(1.95) sepia(.4) drop-shadow(0 8px 3px #130207a0); }
+#flashcard-range-worlds [data-gem-tone=pearl] .range-number { color:#261d15; text-shadow:0 1px 1px #fff8; }
+#flashcard-range-worlds [data-material=gem].range-completed .range-token { filter:drop-shadow(0 0 8px #efc96080); }
+@media(max-width:1000px) {
+ #flashcard-range-worlds .mode-grid { grid-template-columns:repeat(4,minmax(0,1fr)); }
+ #flashcard-range-worlds [data-range-world='10'] .mode-grid { grid-template-columns:repeat(5,minmax(0,1fr)); }
+ #flashcard-range-worlds .range-number { font-size:23px; }
+ #flashcard-range-worlds [data-material=medal] .range-number,#flashcard-range-worlds [data-material=gem] .range-number { font-size:18px; }
+}
+@media(max-width:650px) {
+ #flashcard-range-worlds { gap:20px; }
+ #flashcard-range-worlds .mode-block,#flashcard-range-worlds [data-range-world='30'] { padding:23px 12px 20px; border-radius:15px; }
+ #flashcard-range-worlds .embedded-mode-heading { font-size:24px; }
+ #flashcard-range-worlds .range-world-legend { font-size:12px; gap:7px; margin:10px 0 20px; }
+ #flashcard-range-worlds .mode-grid,#flashcard-range-worlds [data-range-world='10'] .mode-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:17px 4px; padding:0; }
+ #flashcard-range-worlds [data-range-world=standard] .mode-grid { grid-template-columns:repeat(2,minmax(0,1fr)); padding:6px 10px; border-width:10px; gap:20px 12px; }
+ #flashcard-range-worlds .range-choice-title { font-size:15px; }
+ #flashcard-range-worlds .range-description { font-size:11px; }
+ #flashcard-range-worlds .range-number { font-size:23px; }
+ #flashcard-range-worlds [data-material=medal] .range-number,#flashcard-range-worlds [data-material=gem] .range-number { font-size:19px; }
+}
+/* Embedded reading hosts use a three-column compact collection. */
+html.flashcards-reading-embed #flashcard-range-worlds { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; max-height:calc(100dvh - 72px); overflow:hidden; }
+html.flashcards-reading-embed #flashcard-range-worlds .mode-block { max-height:calc(100dvh - 78px); margin:0; padding:12px 5px; border-width:2px; overflow:auto; scrollbar-width:thin; }
+html.flashcards-reading-embed #flashcard-range-worlds .embedded-mode-heading { position:static; margin:0; padding:0; font-size:14px; }
+html.flashcards-reading-embed #flashcard-range-worlds .embedded-mode-heading small { font-size:7px; letter-spacing:.12em; }
+html.flashcards-reading-embed #flashcard-range-worlds .range-world-legend { font-size:0; margin:7px 0 12px; }
+html.flashcards-reading-embed #flashcard-range-worlds .range-world-summary { font-size:9px; padding:2px 4px; }
+html.flashcards-reading-embed #flashcard-range-worlds .mode-grid { grid-template-columns:1fr; padding:0 3px; gap:10px; border-width:0; box-shadow:none; }
+html.flashcards-reading-embed #flashcard-range-worlds .range-choice { padding:0 1px 6px; min-height:0; gap:0; background:none; box-shadow:none; }
+html.flashcards-reading-embed #flashcard-range-worlds .range-token { display:block; max-width:145px; }
+html.flashcards-reading-embed #flashcard-range-worlds .range-choice-title { display:block; font-size:12px; margin:0 0 4px; }
+html.flashcards-reading-embed #flashcard-range-worlds .range-progress { display:block; font-size:10px; min-width:0; padding:2px 6px; }
+html.flashcards-reading-embed #flashcard-range-worlds .range-state { display:block; font-size:9px; min-height:14px; margin:4px 0 0; }
+html.flashcards-reading-embed #flashcard-range-worlds .range-number { display:block; font-size:17px; }
+html.flashcards-reading-embed #flashcard-range-worlds [data-material=medal] .range-number,html.flashcards-reading-embed #flashcard-range-worlds [data-material=gem] .range-number { font-size:13px; }
+html.flashcards-reading-embed #flashcard-range-worlds .range-description { display:none; }
+html.flashcards-reading-embed #flashcard-range-worlds [data-range-world=standard] .range-token::after { display:none; }
+@media(prefers-reduced-motion:reduce) {
+ #flashcard-range-worlds .range-choice,#flashcard-range-worlds .range-token,#flashcard-range-worlds .range-ornament { transition:none; }
+ #flashcard-range-worlds .range-choice:hover:not(:disabled) .range-token { transform:none; }
+}
+
+/* Old generic yellow/green cards and the neon night theme must not cover the objects. */
+#flashcard-range-worlds .mode-block { color:var(--range-cream); scroll-margin-top:110px; }
+#flashcard-range-worlds [data-range-world=standard] { color:#3f250d; }
+#flashcard-range-worlds .range-token { container-type:inline-size; }
+#flashcard-range-worlds [data-material=medal] .range-number { font-size:clamp(11px,10cqw,19px); }
+#flashcard-range-worlds [data-material=gem] .range-number { font-size:clamp(11px,11cqw,21px); }
+#flashcard-range-worlds [data-range-world=standard] .range-progress { color:#fff0ce; }
+.flashcards-night #flashcard-range-worlds .mode-card.range-choice { background:none!important; box-shadow:none!important; border-color:#a643434d!important; color:inherit!important; }
+.flashcards-night #flashcard-range-worlds .mode-card.range-choice:hover { background:#fff5d80c!important; }
+
+/* Nine-slice the real frames: fixed rim depth even when mobile rows are tall. */
+#flashcard-range-worlds [data-range-world='30'],#flashcard-range-worlds [data-range-world='10'] { background-image:none; padding-bottom:90px; }
+#flashcard-range-worlds [data-range-world='30']::before,#flashcard-range-worlds [data-range-world='10']::before { content:''; position:absolute; inset:0; z-index:-2; pointer-events:none; border:40px solid transparent; }
+#flashcard-range-worlds [data-range-world='30']::before { border-image:url('assets/flashcards/range-worlds/cabinet.webp') 128 90 144 90 fill / 65px 36px 65px; }
+#flashcard-range-worlds [data-range-world='10']::before { border-image:url('assets/flashcards/range-worlds/velvet.webp') 100 75 140 75 fill / 55px 28px 65px; }
+#flashcard-range-worlds .mode-grid { overflow:hidden; isolation:isolate; }
+#flashcard-range-worlds [data-range-world=standard] .range-token::before,#flashcard-range-worlds [data-range-world='30'] .range-token::before { left:-1500%; right:-1500%; }
+#flashcard-range-worlds [data-range-world='10'] .mode-card.range-choice { border-right:3px ridge #a643434d; box-shadow:inset 9px 0 14px #29000938,inset 0 -5px 6px #2505087d; }
+html.flashcards-reading-embed #flashcard-range-worlds .mode-block { overflow-x:hidden; padding-bottom:40px; }
+html.flashcards-reading-embed #flashcard-range-worlds [data-range-world='30']::before { border-image-width:35px 10px 30px; }
+html.flashcards-reading-embed #flashcard-range-worlds [data-range-world='10']::before { border-image-width:35px 8px 30px; }
+
+#flashcard-range-worlds .embedded-mode-heading { background:none; }
+#flashcard-range-worlds .status-mode-red .range-object { --bead-tone:hue-rotate(-40deg) saturate(.7); }
+#flashcard-range-worlds .status-mode-green .range-object { --bead-tone:hue-rotate(65deg) saturate(.55); }
+#flashcard-range-worlds [data-range-world=standard] .range-completed .range-object { filter:var(--bead-tone,brightness(1)) drop-shadow(0 0 9px #ffdf62) drop-shadow(0 0 19px #ffd152) drop-shadow(0 9px 5px #6033006b); }

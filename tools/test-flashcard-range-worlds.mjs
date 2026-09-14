@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+const source=fs.readFileSync(new URL('../flashcard-range-worlds.js',import.meta.url),'utf8');
+const context={document:{currentScript:{src:'https://example.test/flashcard-range-worlds.js'}},window:{},URL};
+vm.runInNewContext(source,context);
+const check=(count,start,end,green,red=[])=>JSON.parse(JSON.stringify(context.window.FlashcardRangeWorlds.progressFor(count,start,end,{green,red})));
+assert.deepEqual(check(35,31,60,['30','31','32','33','34']),{first:31,last:35,correct:5,total:5,completed:true});
+assert.equal(check(35,31,60,['30','31','32','33','34'],['32']).completed,false);
+assert.equal(check(35,31,60,['30','30',30,'32','33','34']).correct,4);
+assert.equal(check(0,1,30,[]).completed,false);
+assert.equal(check(20,21,30,[]).total,0);
+assert.equal(check(337,301,0,Array.from({length:37},(_,i)=>String(i+300))).completed,true);
+assert.equal(check(337,201,0,[]).total,137);
+assert.equal(check(30,1,30,Array.from({length:29},(_,i)=>String(i))).completed,false);
+assert.equal(check(30,1,30,Array.from({length:30},(_,i)=>String(i))).completed,true);
+for(const name of ['bead','medal','gem','wood','cabinet','velvet'])assert.ok(fs.statSync(new URL('../assets/flashcards/range-worlds/'+name+'.webp',import.meta.url)).size>1000);
+console.log('Flashcard range mastery, duplicate/conflicting states, partial ranges, remainder ranges and artwork checks passed.');

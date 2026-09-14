@@ -50,6 +50,7 @@ jobs:
           node tools/test-flashcard-state-integrity.mjs
           node tools/test-flashcard-sync-resilience.mjs
           node tools/test-flashcard-deck-modes.mjs
+          node tools/test-flashcard-range-worlds.mjs
           node tools/test-flashcard-conflict-recovery-ui.mjs
           node tools/test-flashcard-pwa-critical-update.mjs
           node tools/test-flashcard-login-singleflight.mjs
