@@ -1,5 +1,6 @@
 export const TAU = Math.PI * 2;
 export const COAT_COLOURS = Object.freeze({eddy: '#A35627', elsie: '#C56523', phoebe: '#A76742'});
+export const BLINK_FRAME_SECONDS = .12;
 export const wrapAngle = angle => ((angle + Math.PI) % TAU + TAU) % TAU - Math.PI;
 export const positiveAngle = angle => ((angle % TAU) + TAU) % TAU;
 export function viewPair(angle, angles) {
@@ -27,11 +28,8 @@ export function blinkAmount(seconds, seed = 0, reducedMotion = false) {
   const shifted = Math.max(0, seconds) + (Math.abs(seed) % 11) * .61;
   const cycle = Math.floor(shifted / period);
   const phase = shifted % period;
-  const pulse = at => {
-    const distance = Math.abs(phase - at);
-    return distance >= .105 ? 0 : .5 + .5 * Math.cos(Math.PI * distance / .105);
-  };
-  return Math.max(pulse(.12), cycle % 3 === 2 ? pulse(.39) : 0);
+  const closed = at => phase >= at && phase < at + BLINK_FRAME_SECONDS;
+  return closed(.12) || (cycle % 3 === 2 && closed(.42)) ? 1 : 0;
 }
 export function listenerNod(seconds, slot, listening, reducedMotion = false) {
   if (!listening || reducedMotion) return 0;

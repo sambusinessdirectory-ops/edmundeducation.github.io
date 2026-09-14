@@ -12,7 +12,7 @@ const root=path.resolve(__dirname,'..');
 const system='business-speaking';
 const written=system==='written', coast=system==='rhetorical-speaking';
 const lessonCount=26, last=lessonCount-1, lastId=`common-expression-${lessonCount}`;
-const artifactDir=process.env.MAP_TEST_ARTIFACTS || '/private/tmp/airport-qa';
+const artifactDir=process.env.MAP_TEST_ARTIFACTS || '/private/tmp/train-qa';
 fs.mkdirSync(artifactDir,{recursive:true});
 const types={'.html':'text/html','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.png':'image/png','.webp':'image/webp','.svg':'image/svg+xml','.json':'application/json'};
 const server=http.createServer((req,res)=>{
@@ -90,6 +90,38 @@ let browser;
  await page.evaluate(()=>{airportReview.root.scrollIntoView();});
  await page.locator('body > .expression-map').screenshot({path:artifactDir+'/motion-scene.png'});
  await page.evaluate(()=>{airportReview.animation.destroy();airportReview.root.remove();});
+
+ await page.setViewportSize({width:1440,height:1100});await page.emulateMedia({reducedMotion:'no-preference'});
+ await page.locator('.business-area-tabs').evaluate(e=>window.scrollTo({top:window.scrollY+e.getBoundingClientRect().top-110,behavior:'instant'}));await page.waitForTimeout(120);
+ const previousStates=await page.evaluate(()=>JSON.stringify([...mapTest.state.states]));
+ await page.locator('[data-business-area="train"]').click();await page.waitForTimeout(400);
+ assert.equal(await page.locator('.train-platform').count(),30);
+ assert.equal(await page.locator('[data-expression-map]').getAttribute('data-business-area'),'train');
+ await page.locator('[data-expression-map]').screenshot({path:artifactDir+'/train-normal.png'});
+ const moving=await page.locator('.train-motion').evaluate(c=>c.toDataURL());await page.waitForTimeout(1300);
+ assert.notEqual(await page.locator('.train-motion').evaluate(c=>c.toDataURL()),moving);
+ await page.locator('[data-train-platform="60"]').click();await page.waitForTimeout(3400);
+ assert.match(await page.locator('.train-reservation-note').textContent(),/60/);
+ assert.equal(await page.locator('[data-map-open]').isVisible(),false,'Reserved platform does not offer a fabricated lesson');
+ assert.equal(await page.evaluate(()=>JSON.stringify([...mapTest.state.states])),previousStates);
+ await page.locator('[data-map-overview]').click();await page.waitForTimeout(250);
+ await page.locator('[data-expression-map]').screenshot({path:artifactDir+'/train-overview.png'});
+ await page.emulateMedia({reducedMotion:'reduce'});await page.waitForTimeout(150);const frozen=await page.locator('.train-motion').evaluate(c=>c.toDataURL());await page.waitForTimeout(150);assert.equal(await page.locator('.train-motion').evaluate(c=>c.toDataURL()),frozen);
+ await page.setViewportSize({width:390,height:844});await page.waitForTimeout(150);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.locator('[data-expression-map]').screenshot({path:artifactDir+'/train-phone.png'});
+ await page.locator('.business-area-tabs').evaluate(e=>window.scrollTo({top:window.scrollY+e.getBoundingClientRect().top-110,behavior:'instant'}));await page.waitForTimeout(120);
+ await page.locator('[data-business-area="airport"]').click();assert.equal(await page.locator('[data-expression-map]').getAttribute('data-business-area'),'airport');
+ await page.setViewportSize({width:1600,height:1300});
+ const trainEvidence=await page.evaluate(async()=>{
+  const {trainTerrain,mountTrain}=await import('./common-expression-train.mjs?v=20260915-train1');const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='train-review';root.innerHTML=trainTerrain();root.querySelector('section').style.top='0';document.body.append(root);const motion=mountTrain(root,{matches:false});await new Promise(r=>setTimeout(r,150));const c=root.querySelector('canvas'),ctx=c.getContext('2d');
+  const regions={bigWindow:[120,120,300,140],smallWindow:[1190,90,55,140],curtain:[970,40,190,280],lamp:[130,335,110,80],steam:[258,355,40,78],wall:[680,415,100,70]};
+  function samples(){return Object.fromEntries(Object.entries(regions).map(([k,r])=>[k,Array.from(ctx.getImageData(...r).data)]));}
+  motion.draw(1000);const a=samples();for(let i=1;i<=250;i++)motion.draw(1000+i*32);const b=samples();window.trainReview={root,motion};return Object.fromEntries(Object.keys(a).map(k=>[k,a[k].reduce((n,v,i)=>n+(v!==b[k][i]),0)]));
+ });
+ for(const [key,count] of Object.entries(trainEvidence)){if(key==='wall')assert.equal(count,0);else assert.ok(count>20,key+' motion remains visible');}
+ fs.writeFileSync(artifactDir+'/train-motion.json',JSON.stringify(trainEvidence,null,2));
+ await page.locator('#train-review').screenshot({path:artifactDir+'/train-detail.png'});
+ await page.evaluate(()=>{trainReview.motion.destroy();trainReview.root.remove();});
  assert.equal(errors.length,0,errors.join('\n'));
- console.log('Airport browser: 26 real lessons, 4 reserved platforms, motion, typing, pause, reduced motion, saved location, account separation and mobile containment passed.');
+ console.log('Train and airport browser: 30 reserved train platforms, unchanged records, synchronized outdoor motion, curtain/light/steam motion, static walls;  26 real lessons, 4 reserved platforms, motion, typing, pause, reduced motion, saved location, account separation and mobile containment passed.');
 })().catch(error=>{console.error(error);process.exitCode=1;}).finally(async()=>{await browser?.close();server.close();});

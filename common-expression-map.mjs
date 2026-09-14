@@ -422,7 +422,14 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     built=true;
     world.style.width=`${WIDTH}px`; world.style.height=`${HEIGHT}px`;
     if(theme?.minimumZoom<1)root.querySelector('[data-zoom="out"]').setAttribute('aria-label','縮小地圖，查看更多課題');
-    sceneAnimation=theme?.mount?.(root,reduced);
+    sceneAnimation=theme?.mount?.(root,reduced,{
+      getPosition:()=>({...position}),
+      explore(point,{walk=false}={}) {
+        if(walk){moveTo(point);centerOn(point);return;}
+        journey=null;keys.clear();position={x:clamp(point.x,60,WIDTH-60),y:clamp(point.y,180,HEIGHT-65)};
+        leaveStone();angle=0;setScale(1,position);drawHorse(performance.now(),false);startAnimation();
+      }
+    });
     CHARACTERS.forEach(c=>loadImage(c.id));
     on(root,'click',event=>{
       if(performance.now()<suppressClickUntil && viewport.contains(event.target)) { event.preventDefault(); return; }
