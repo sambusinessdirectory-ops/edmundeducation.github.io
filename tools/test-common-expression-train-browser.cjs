@@ -94,7 +94,7 @@ let browser;
  await page.setViewportSize({width:1440,height:1100});await page.emulateMedia({reducedMotion:'no-preference'});
  await page.locator('.business-area-tabs').evaluate(e=>window.scrollTo({top:window.scrollY+e.getBoundingClientRect().top-110,behavior:'instant'}));await page.waitForTimeout(120);
  const previousStates=await page.evaluate(()=>JSON.stringify([...mapTest.state.states]));
- await page.locator('[data-business-area="train"]').click();await page.waitForTimeout(400);
+ await page.locator('.business-area-tabs [data-business-area="train"]').click();await page.waitForTimeout(400);
  assert.equal(await page.locator('.train-platform').count(),30);
  const noSelect=await page.locator('.train-background').evaluate(img=>({selection:getComputedStyle(img).userSelect,draggable:img.draggable,selectBlocked:!img.dispatchEvent(new Event('selectstart',{bubbles:true,cancelable:true})),dragBlocked:!img.dispatchEvent(new Event('dragstart',{bubbles:true,cancelable:true}))}));
  assert.deepEqual(noSelect,{selection:'none',draggable:false,selectBlocked:true,dragBlocked:true});
@@ -103,7 +103,7 @@ let browser;
  await page.mouse.move(box.x+box.width*.7,box.y+box.height*.45);await page.mouse.down();await page.mouse.move(box.x+box.width*.7,box.y+box.height*.25,{steps:12});await page.mouse.up();
  assert.equal(await page.evaluate(()=>getSelection().toString()),'');
  assert.ok(await vp.evaluate(e=>e.scrollTop)>scrollBefore,'Map still pans by dragging');
- await page.locator('[data-business-area="train"]').click();await page.waitForTimeout(250);
+ await page.locator('.business-area-tabs [data-business-area="train"]').click();await page.waitForTimeout(250);
 
  assert.equal(await page.locator('[data-expression-map]').getAttribute('data-business-area'),'train');
  await page.locator('[data-expression-map]').screenshot({path:artifactDir+'/train-normal.png'});

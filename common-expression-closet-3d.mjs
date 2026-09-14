@@ -1,5 +1,5 @@
 import * as THREE from './vendor/three/three.module.js';
-import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260908-room10';
+import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-mascot4';
 
 let activeClose = null;
 const clamp = (value, minimum, maximum) => Math.max(minimum, Math.min(maximum, value));

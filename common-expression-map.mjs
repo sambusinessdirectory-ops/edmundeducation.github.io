@@ -1,5 +1,5 @@
-import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-blink3';
-import { blinkAmount } from './speaking-mascot-behaviour.mjs?v=20260915-blink3';
+import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-mascot4';
+import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-mascot4';
 
 const WIDTH = 1600, HEIGHT = 1950;
 const CHARACTERS = [{ id: 'eddy', name: 'Eddie', flag: '#c84438' }, { id: 'phoebe', name: 'Phoebe', flag: '#b5a0dc' }, { id: 'elsie', name: 'Elsie', flag: '#edc84a' }];
@@ -171,7 +171,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   const openCloset = async () => {
     const request = ++closetRequest;
     try {
-      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260914-closet9');
+      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-mascot4');
       if (request !== closetRequest) return;
       closetHandle?.close();
       closetHandle = openCompanionCloset({ character });
@@ -258,7 +258,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     const lengths=waypoints.map((p,i)=>Math.hypot(p.x-points[i].x,p.y-points[i].y));
     const distance=lengths.reduce((sum,n)=>sum+n,0);
     const dx=waypoints[0].x-position.x, dy=waypoints[0].y-position.y;
-    angle=(Math.atan2(dx,dy)*180/Math.PI+360)%360;
+    angle=screenFacingAngle(dx,dy);
     lastFacing=angle;
     if(reduced.matches || Math.hypot(dx,dy)<2) { position=destination; journey=null; settleArrival(); drawHorse(performance.now(),false); return; }
     journey={ from:{...position}, to:destination, started:performance.now(), points, lengths, distance, duration:theme?.navigation?.duration?.({distance,from:position,to:destination}) ?? clamp(distance/.3,250,3200) };
@@ -383,7 +383,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
         journey=null; if(standing>=0)leaveStone(); const length=Math.hypot(dx,dy);
         const step={x:clamp(position.x+dx/length*dt*.31,60,WIDTH-60), y:clamp(position.y+dy/length*dt*.31,180,HEIGHT-65)};
         position=theme?.navigation?.step(position,step) || step;
-        angle=(Math.atan2(dx,dy)*180/Math.PI+360)%360; walking=true; lastFacing=angle;
+        angle=screenFacingAngle(dx,dy); walking=true; lastFacing=angle;
         if((position.x+padding.left)*scale<viewport.scrollLeft+80 || (position.x+padding.left)*scale>viewport.scrollLeft+viewport.clientWidth-80 || position.y*scale<viewport.scrollTop+110 || position.y*scale>viewport.scrollTop+viewport.clientHeight-80) centerOn(position);
       }
     } else if(journey) {
@@ -392,7 +392,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
       while(segment<journey.lengths.length-1 && travelled>journey.lengths[segment]) {travelled-=journey.lengths[segment];segment++;}
       const a=journey.points[segment], b=journey.points[segment+1], fraction=journey.lengths[segment]?Math.min(1,travelled/journey.lengths[segment]):1;
       position={x:a.x+(b.x-a.x)*fraction,y:a.y+(b.y-a.y)*fraction};
-      angle=(Math.atan2(b.x-a.x,b.y-a.y)*180/Math.PI+360)%360;
+      angle=screenFacingAngle(b.x-a.x,b.y-a.y);
       walking=t<1;
       if(journey.follow) centerOn(position);
       if(t===1) { journey=null; settleArrival(); }

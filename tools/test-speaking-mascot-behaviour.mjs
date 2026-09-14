@@ -1,7 +1,9 @@
 import assert from 'node:assert/strict';
-import {BLINK_FRAME_SECONDS,COAT_COLOURS,viewPair,seatedForPhase,mouthOpening,blinkAmount,listenerNod,updateAttention,wrapAngle} from '../speaking-mascot-behaviour.mjs';
+import {BLINK_FRAME_SECONDS,COAT_COLOURS,viewPair,seatedForPhase,mouthOpening,blinkAmount,listenerNod,updateAttention,wrapAngle,screenFacingAngle} from '../speaking-mascot-behaviour.mjs';
 
 assert.deepEqual(COAT_COLOURS,{eddy:'#A35627',elsie:'#C56523',phoebe:'#A76742'});
+for (const [dx,dy,expected] of [[0,1,0],[1,1,45],[1,0,90],[1,-1,135],[0,-1,180],[-1,-1,225],[-1,0,270],[-1,1,315]]) assert.ok(Math.abs(screenFacingAngle(dx,dy)-expected)<1e-9,'screen direction must match the sprite atlas');
+assert.equal(screenFacingAngle(0,0),0);
 for(const phase of ['preparation','group','individual-wait','individual'])assert.equal(seatedForPhase(phase),true);
 for(const phase of [undefined,'lobby','results'])assert.equal(seatedForPhase(phase),false);
 const angles=[0,20,45,67,90,115,140,160,180,205,230,250,270,300,320,345];

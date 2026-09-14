@@ -3,6 +3,10 @@ export const COAT_COLOURS = Object.freeze({eddy: '#A35627', elsie: '#C56523', ph
 export const BLINK_FRAME_SECONDS = .12;
 export const wrapAngle = angle => ((angle + Math.PI) % TAU + TAU) % TAU - Math.PI;
 export const positiveAngle = angle => ((angle % TAU) + TAU) % TAU;
+export function screenFacingAngle(dx, dy) {
+  if (!Number.isFinite(dx) || !Number.isFinite(dy) || (!dx && !dy)) return 0;
+  return positiveAngle(Math.atan2(dx, dy)) * 180 / Math.PI;
+}
 export function viewPair(angle, angles) {
   const degrees = positiveAngle(angle) * 180 / Math.PI;
   let first = angles.length - 1;
