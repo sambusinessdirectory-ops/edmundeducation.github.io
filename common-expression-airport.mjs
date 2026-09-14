@@ -1,5 +1,5 @@
-import {DINING_TOP,prepareDining,diningPositions,diningTerrain,mountDining} from './common-expression-dining.mjs?v=20260915-dining2';
-import {TRAIN_TOP,prepareTrain,trainPositions,trainTerrain,mountTrain} from './common-expression-train.mjs?v=20260915-dining2';
+import {DINING_TOP,prepareDining,diningPositions,diningTerrain,mountDining} from './common-expression-dining.mjs?v=20260915-dining3';
+import {TRAIN_TOP,prepareTrain,trainPositions,trainTerrain,mountTrain} from './common-expression-train.mjs?v=20260915-dining3';
 // Airport artwork and motion only; the shared map owns lesson/account state.
 const ART='./assets/common-expression-business/airport/';
 const W=1600,H=1200;

@@ -24,7 +24,7 @@
 .dining-carriage{position:absolute;left:0;width:1600px;height:1200px;isolation:isolate;overflow:hidden;background:#3a271e}
 .dining-background,.dining-motion{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.dining-motion{z-index:1}
 .dining-platform{position:absolute;z-index:3;width:170px;height:90px;margin:-43px 0 0 -85px;padding:0;border:0;background:none;color:#283c30;text-align:center;cursor:pointer}
-.dining-place-setting{position:absolute;left:5px;top:0;width:160px;height:76px;pointer-events:none;filter:drop-shadow(1px 5px 3px #3c251450)}
+.dining-place-setting{position:absolute;left:25px;top:0;width:120px;height:76px;pointer-events:none;filter:drop-shadow(1px 5px 3px #3c251450)}
 .dining-platform span{position:relative;display:block;padding-top:43px;font:600 24px/26px Georgia,serif;text-shadow:0 1px #fff8e8;pointer-events:none}
 .dining-platform small{position:relative;display:block;top:9px;font:11px/15px system-ui;color:#493422;text-shadow:0 1px #fff4da;pointer-events:none}
 .dining-platform:hover .dining-place-setting,.dining-platform[aria-pressed=true] .dining-place-setting{filter:drop-shadow(0 0 3px #fff3a8) drop-shadow(1px 5px 3px #3c251460) brightness(1.06)}
