@@ -29,3 +29,14 @@ assert.equal(sentenceTrophyCollection([...lessons,{...extra,questions:extra.ques
 assert.equal(sentenceTrophyCollection(lessons,[attempt(50),attempt(50)]).filter(x=>x.earned).length,1,'Repeat completions count as one trophy');
 assert.equal(sentenceTrophyCollection(lessons.slice(0,10),all).length,10,'Maximum adapts when the available catalogue is smaller');
 console.log('Dynamic trophy maximum and repeat-completion counts passed.');
+
+assert.equal(sentenceTrophyState(lesson,[attempt(24)]).tier,null);
+assert.equal(sentenceTrophyState(lesson,[attempt(25)]).tier,'silver');
+assert.equal(sentenceTrophyState(lesson,[attempt(49)]).tier,'silver');
+assert.equal(sentenceTrophyState(lesson,[attempt(50)]).tier,'gold');
+assert.equal(sentenceTrophyState(lesson,[attempt(25),attempt(1)]).tier,'silver','New practice does not erase the silver milestone');
+assert.equal(sentenceTrophyState(lesson,[attempt(50),attempt(25)]).tier,'gold','Gold always takes precedence');
+assert.equal(sentenceTrophyState(lesson,[attempt(13),attempt(13,{result:{correctIds:ids.slice(13,26)}})]).tier,null,'Partial attempts do not pool into silver');
+assert.equal(sentenceTrophyState(lesson,[attempt(25,{result:{correctIds:Array(25).fill(ids[0])}})]).tier,null,'Silver requires distinct correct questions');
+assert.equal(sentenceTrophyState({...lesson,questions:lesson.questions.slice(0,25)},[attempt(25)]).tier,null,'Only 50-question modules grant trophies');
+console.log('Silver at 25, gold at 50, promotion, persistence and distinct-question thresholds passed.');

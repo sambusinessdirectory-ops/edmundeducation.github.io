@@ -16,6 +16,12 @@ Validation: `tools/test-sentence-structure-trophies.mjs` checks thresholds, uniq
 Source originals and review evidence: `/Users/sammak/Documents/ChatGPT/Astra/outputs/golden-horsey-trophy/`.
 
 
-Earned trophies have six small gold star/mote particles that rise and fade on staggered 3.4–4.5 second cycles. Particles ignore input, do not cover the live number plaque, and are absent from locked previews. They pause with the map and closed collection and disappear under reduced-motion preferences. Browser checks measure real particle movement and verify reduced-motion suppression.
+Trophies have ten larger star/mote particles with longer bright phases, a small edge glow, and a left-to-right sheen every 5.8 seconds. The sheen is masked by the exact sprite alpha, so it never draws a rectangle across the background. Silver uses a live grayscale/brightness finish on the same gold artwork, with cool white reflections and particles; no additional raster asset is required. Effects pause with the map or closed collection, and moving effects disappear under reduced-motion preferences.
 
 The upper-left map header shows Eddie with the current student’s earned / available trophy count. Both numbers come from the same current eligible catalogue as the collection (345 modules today); repeated completions count once. Clicking the counter opens the collection. The browser fixture verifies updates after earning, saved normal-mode restoration, account switching, and desktop/phone header layouts.
+
+Silver is awarded when one attempt reaches at least 25 distinct correct answers in an eligible 50-question module. The existing full-completion rule upgrades it to gold; later practice never downgrades the highest earned tier. Separate partial attempts do not pool. Gold counts remain completion counts; the collection also reports its silver total.
+
+The map's hide/show button stores only a display preference, scoped to the current student in browser local storage. Trophies and their effects disappear together, while platform numbers and navigation remain usable. Existing attempts are never changed by hiding or interacting.
+
+Map trophies are independent buttons beside the original platform buttons. Pointer or keyboard activation starts a 1.3-second rise, alternating wiggles and landing, without forwarding the click to map navigation. Collection and completion trophies support the same interaction. Browser checks cover silver thresholds/promotion, masked sheen movement, stronger particles, landing, keyboard activation, route isolation, hiding and reload/account preference isolation.

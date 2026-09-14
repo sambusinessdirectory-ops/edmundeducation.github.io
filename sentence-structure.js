@@ -3,7 +3,7 @@ import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=202
 import { createExpressionMap } from "./common-expression-map.mjs?v=20260914-hotel3b";
 import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260914-hotel3b";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260914-hotel3b";
-import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies, syncSentenceTrophyCounter } from "./sentence-structure-trophies.mjs?v=20260914-trophy3";
+import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies, syncSentenceTrophyCounter, syncSentenceTrophyControls, animateSentenceTrophy } from "./sentence-structure-trophies.mjs?v=20260914-trophy4";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const lessonLibrary = createLessonLibrary(new URL("./assets/sentence-structure/library/manifest.json?v=20260908-loading1", import.meta.url));
@@ -425,6 +425,7 @@ function clearSession() {
   lessonNavigation += 1;
   sentenceTrophies = []; earnedSentenceTrophies = new Set();
   syncSentenceTrophyCounter(document.querySelector('[data-sentence-map]'), []);
+  syncSentenceTrophyControls(document.querySelector('[data-sentence-map]'), '');
   const trophyShelf = document.querySelector("[data-sentence-trophy-shelf]");
   if (trophyShelf) { trophyShelf.open = false; trophyShelf.replaceChildren(); }
   state.user = null;
@@ -737,8 +738,9 @@ function renderLessonChoices() {
         mount(root, reduced) {
           const scenery = SENTENCE_REALMS.mount(root, reduced);
           return { draw: now => scenery.draw(now), update() {
-            scenery.update(); syncSentenceMapTrophies(root, mappedLessons, earnedSentenceTrophies);
+            scenery.update(); syncSentenceMapTrophies(root, mappedLessons, sentenceTrophies);
             syncSentenceTrophyCounter(root, sentenceTrophies);
+            syncSentenceTrophyControls(root, String(state.user?.id || ''));
           }, destroy: () => scenery.destroy() };
         }
       }
@@ -746,6 +748,7 @@ function renderLessonChoices() {
   }
   sentenceMap?.update(String(state.user?.id || ''));
   syncSentenceTrophyCounter(document.querySelector('[data-sentence-map]'), sentenceTrophies);
+  syncSentenceTrophyControls(document.querySelector('[data-sentence-map]'), String(state.user?.id || ''));
   sentenceMap?.setActive(state.currentView === 'dashboard');
 }
 
@@ -2380,6 +2383,8 @@ async function openAdminStudent(studentId) {
 }
 
 function handleClick(event) {
+  const trophy = event.target.closest('[data-trophy-interact]');
+  if (trophy) { event.preventDefault(); return animateSentenceTrophy(trophy); }
   if (event.target.closest('[data-view-sentence-trophies]')) {
     return state.attemptSaveQueue.then(() => openDashboard()).then(() => {
       const shelf = document.querySelector('[data-sentence-trophy-shelf]');
