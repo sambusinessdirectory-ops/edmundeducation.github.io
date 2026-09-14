@@ -50,12 +50,6 @@
       document.title=`${label} ${kind}｜EdmundEducation`;
       document.querySelectorAll('.edmund-system-switcher__copy small').forEach(el=>el.textContent=`${label} ${kind}`);
     }
-    const nav=document.createElement('nav');nav.className='language-edition-nav';nav.setAttribute('aria-label','學習語言');
-    const status=document.createElement('span');status.textContent=language==='en'?'學習語言':`${label} · 獨立學習紀錄`;nav.append(status);
-    for(const [code,text] of [['en','原系統'],['it','Italian'],['fr','French']]){
-      const a=document.createElement('a');a.textContent=text;const url=new URL(location.href);url.search='';if(code!=='en')url.searchParams.set('language',code);a.href=url.href;
-      if(code===language)a.setAttribute('aria-current','page');nav.append(a);
-    }
-    document.querySelector('.edmund-system-header')?.after(nav);
+
   });
 })();
