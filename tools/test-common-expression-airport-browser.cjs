@@ -72,7 +72,7 @@ let browser;
 
  await page.setViewportSize({width:1600,height:1300});
  const evidence=await page.evaluate(async()=>{
-  const {BUSINESS_AIRPORT,AIRPORT_INVENTORY}=await import('./common-expression-airport.mjs?v=20260915-dining1');
+  const {BUSINESS_AIRPORT,AIRPORT_INVENTORY}=await import('./common-expression-airport.mjs?v=20260915-dining3');
   const root=document.createElement('div');root.className='expression-map';root.dataset.theme='airport';root.style.cssText='position:relative;width:1600px;height:1200px';
   root.innerHTML='<div class="expression-map-heading"><small></small></div>'+BUSINESS_AIRPORT.terrain([],mapTest.lessons);document.body.append(root);
   const animation=BUSINESS_AIRPORT.mount(root,{matches:false});await new Promise(r=>setTimeout(r,100));
