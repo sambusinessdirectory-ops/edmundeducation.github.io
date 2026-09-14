@@ -9,7 +9,7 @@ for(const [name,poses] of Object.entries(MASCOT_VIEWS))for(const [pose,data] of 
  const png=fs.readFileSync(new URL(base+data.image,import.meta.url));
  assert.equal(png[25],6,`${name} ${pose} is RGBA`);assert.equal(data.views.length,16);assert.equal(new Set(data.views.map(v=>v.sourceCell)).size,16);assert.equal(data.views[0].angle,0);
  if(pose==='standing'){
-  assert.equal(folder,'v3');assert.ok(data.blinkImage,`${name} has blink artwork`);
+  assert.equal(folder,'v3');assert.ok(data.blinkImage,`${name} has blink artwork`);if(name==='elsie')assert.equal(data.blinkImage,'elsie-blink-v2.png','Elsie uses the registered eye-only blink asset');
   const blink=fs.readFileSync(new URL(base+data.blinkImage,import.meta.url));assert.equal(blink[25],6,`${name} blink is RGBA`);
   assert.equal(blink.readUInt32BE(16),png.readUInt32BE(16));assert.equal(blink.readUInt32BE(20),png.readUInt32BE(20));
  }

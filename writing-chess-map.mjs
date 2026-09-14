@@ -1,5 +1,5 @@
-import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-blink1';
-import { blinkAmount } from './speaking-mascot-behaviour.mjs?v=20260915-blink1';
+import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-blink2';
+import { blinkAmount } from './speaking-mascot-behaviour.mjs?v=20260915-blink2';
 
 const CHARACTERS = [{id:'eddy',name:'Eddie'},{id:'phoebe',name:'Phoebe'},{id:'elsie',name:'Elsie'}];
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

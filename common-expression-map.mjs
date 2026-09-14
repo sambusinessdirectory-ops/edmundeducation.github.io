@@ -1,5 +1,5 @@
-import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-blink1';
-import { blinkAmount } from './speaking-mascot-behaviour.mjs?v=20260915-blink1';
+import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-blink2';
+import { blinkAmount } from './speaking-mascot-behaviour.mjs?v=20260915-blink2';
 
 const WIDTH = 1600, HEIGHT = 1950;
 const CHARACTERS = [{ id: 'eddy', name: 'Eddie', flag: '#c84438' }, { id: 'phoebe', name: 'Phoebe', flag: '#b5a0dc' }, { id: 'elsie', name: 'Elsie', flag: '#edc84a' }];

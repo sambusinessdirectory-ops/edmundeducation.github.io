@@ -6,11 +6,14 @@ The three `sources/*-full-rgb.png` files are the exact Eddy, Elsie and Phoebe sh
 
 `build-views.py` measures the normalized sheets, creates compatibility flow fields, and replaces the standing entries in `speaking-mascot-views.mjs`. Existing seated body atlases remain in v2 because the supplied sheets contain standing poses only. The classroom renderer uses the new standing sheet for every head, including seated candidates, so all three characters blink without making them stand through desks.
 
+Elsie’s closed-eye poses are independent redraws with noticeably shifted hair and head silhouettes. `register-elsie-blink.py` registers each closed drawing to the surrounding face and transfers only small, feathered eye patches onto the exact open pose. This prevents the whole head from popping during a blink while preserving the supplied eyelid artwork.
+
 Rebuild from the site root with the bundled Python runtime containing Pillow and NumPy:
 
 ```sh
 python3 tools/mascot-art/v3/extract-blink-sheets.py tools/mascot-art/v3/sources/eddy-full-rgb.png assets/speaking-system/mascots/v3 eddy
 python3 tools/mascot-art/v3/extract-blink-sheets.py tools/mascot-art/v3/sources/elsie-full-rgb.png assets/speaking-system/mascots/v3 elsie
+python3 tools/mascot-art/v3/register-elsie-blink.py assets/speaking-system/mascots/v3/elsie-standing.png assets/speaking-system/mascots/v3/elsie-blink.png assets/speaking-system/mascots/v3/elsie-blink-v2.png
 python3 tools/mascot-art/v3/extract-blink-sheets.py tools/mascot-art/v3/sources/phoebe-full-rgb.png assets/speaking-system/mascots/v3 phoebe
 python3 tools/mascot-art/v3/build-views.py
 ```

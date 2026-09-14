@@ -1,4 +1,4 @@
-import { createExpressionMap } from './common-expression-map.mjs?v=20260915-blink1';
+import { createExpressionMap } from './common-expression-map.mjs?v=20260915-blink2';
 import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260914-portals1';
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
 /*
