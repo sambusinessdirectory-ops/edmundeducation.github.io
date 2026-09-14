@@ -65,3 +65,23 @@ test('standalone sections count as exactly one split alongside nested sections',
   const single = transition({...fresh(),sections:[mixed[0]]},'split',2000);
   assert.equal(single.status,'completed');assert.equal(single.splits.length,1);
 });
+
+test('time mapper freezes a split before naming and preserves standalone-to-nested timing', async () => {
+  const {mapperElapsed,mapperStop,mapperSections}=await import('../execution-time-mapper-core.mjs');
+  const draft={parts:[],current:{id:'i1',section_id:'s1',section_title:'Reading',title:null,elapsed_ms:120,anchor:1000,started_at:new Date(1000).toISOString()}};
+  const stopped=mapperStop(draft,2345);
+  assert.equal(stopped.parts[0].elapsed_ms,1465);
+  assert.equal(mapperElapsed(stopped,99999),0);
+  assert.equal(mapperStop(stopped,99999).parts.length,1);
+  assert.deepEqual(mapperSections(stopped.parts),[{id:'s1',title:'Reading',items:[],expected_ms:2000}]);
+  stopped.parts.push({id:'i2',section_id:'s1',section_title:'Reading',title:'Answer',elapsed_ms:3025});
+  stopped.parts.push({id:'i3',section_id:'s2',section_title:'Check',title:null,elapsed_ms:0});
+  const sections=mapperSections(stopped.parts);
+  assert.equal(sections[0].items.length,2);
+  assert.equal(sections[0].items[0].title,'Reading');
+  assert.equal(sections[0].items[1].expected_ms,4000);
+  assert.equal(sections[1].expected_ms,1000);
+  const paused={parts:[],current:{...draft.current,anchor:null,elapsed_ms:4321}};
+  assert.equal(mapperElapsed(paused,99999),4321);
+  assert.equal(mapperStop(paused,99999).parts[0].elapsed_ms,4321);
+});

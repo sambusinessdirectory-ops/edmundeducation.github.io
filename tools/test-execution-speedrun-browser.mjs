@@ -17,6 +17,13 @@ await context.exposeFunction('__qaRpc',async (name,p) => {
     const old = meters.find(m => m.id === p.p_id);
     const m = {favourite:old?.favourite||false,sort_order:old?.sort_order||0,updated_at:new Date().toISOString(),id:p.p_id,title:p.p_title,sections:p.p_sections,version:old ? old.version + (JSON.stringify(old.sections) === JSON.stringify(p.p_sections) ? 0 : 1) : 1};
     meters = [m,...meters.filter(m => m.id !== p.p_id)]; data = m;
+  } else if(name==='execution_speedrun_mapper_save') {
+    let r=runs.find(r=>r.id===p.p_run_id);
+    if(!r){
+      const m={id:p.p_id,title:p.p_title,sections:p.p_sections,version:1,sort_order:0,favourite:false,updated_at:new Date().toISOString()};meters.unshift(m);
+      r={id:p.p_run_id,meter_id:m.id,title:m.title,sections:m.sections,meter_version:1,status:'completed',source:'mapper',elapsed_ms:p.p_splits.reduce((n,s)=>n+s.elapsed_ms,0),splits:p.p_splits.map(s=>({elapsed_ms:s.elapsed_ms,completed:true})),started_at:p.p_splits[0].started_at,ended_at:p.p_splits.at(-1).ended_at,revision:p.p_splits.length};runs.push(r);
+    }
+    data={id:r.meter_id,run_id:r.id};
   } else if (name === 'execution_speedrun_start') {
     const m = meters.find(m => m.id === p.p_meter_id);
     data = runs.find(r => r.id === p.p_id);
@@ -231,6 +238,76 @@ try {
   assert.ok(await page.evaluate(() => document.documentElement.scrollWidth<=innerWidth));
   await page.screenshot({path:`${output}/mobile-v2.png`,fullPage:true});
 
+  // Time Mapper: standalone, same-section conversion, new nested and standalone
+  // sections, immediate split freeze, pause, reload recovery and offline retry.
+  await page.setViewportSize({width:1440,height:1100});
+  await page.locator('[data-mapper-open]').click();
+  await page.locator('[data-map-title]').fill('Measured learning');
+  await page.locator('[data-map-main]').fill('Reading');
+  await page.locator('[data-map-go]').click();
+  await page.waitForTimeout(1100);
+  await page.locator('[data-map-next]').click();
+  const mappedTime=await page.locator('[data-map-total]').textContent();
+  await page.waitForTimeout(400);
+  assert.equal(await page.locator('[data-map-total]').textContent(),mappedTime);
+  assert.equal(await page.locator('[data-map-convert]').isVisible(),true);
+  await page.locator('[data-map-sub]').fill('Answer');
+  await page.locator('[data-map-go]').click();
+  await page.waitForTimeout(250);await page.locator('[data-map-pause]').click();
+  const mapperFrozen=await page.locator('[data-map-clock]').textContent();
+  await page.waitForTimeout(350);
+  assert.equal(await page.locator('[data-map-clock]').textContent(),mapperFrozen);
+  await page.locator('[data-map-close]').click();
+  await page.reload();await page.locator('[data-app]').waitFor({state:'visible'});
+  await page.locator('[data-mapper-open]').click();
+  assert.equal(await page.locator('[data-map-clock]').textContent(),mapperFrozen);
+  await page.locator('[data-map-pause]').click();await page.waitForTimeout(100);
+  await page.locator('[data-map-next]').click();
+  assert.equal(await page.locator('.mapper-section>div').count(),2);
+  await page.locator('[data-map-choice]').selectOption('new');
+  await page.locator('[data-map-main]').fill('Review');await page.locator('[data-map-sub]').fill('Vocabulary');
+  await page.locator('[data-map-go]').click();await page.waitForTimeout(150);await page.locator('[data-map-next]').click();
+  await page.locator('[data-map-choice]').selectOption('new');
+  await page.locator('[data-map-main]').fill('Check');await page.locator('[data-map-go]').click();
+  await page.waitForTimeout(200);
+  await page.setViewportSize({width:390,height:844});
+  assert.ok(await page.evaluate(()=>document.querySelector('[data-mapper]').scrollWidth<=document.querySelector('[data-mapper]').clientWidth));
+  await page.screenshot({path:`${output}/mapper-mobile.png`,fullPage:true});
+  offline=true;await page.locator('[data-map-finish]').click();
+  await page.locator('[data-map-error]').waitFor({state:'visible'});
+  const savedCount=await page.locator('[data-map-count]').textContent();
+  assert.equal(savedCount,'（4）');
+  offline=false;await page.locator('[data-map-finish]').click();
+  await page.waitForFunction(()=>!document.querySelector('[data-mapper]').open);
+  await page.waitForFunction(()=>document.querySelector('[data-selected-title]').textContent==='Measured learning');
+  const mapped=meters.find(m=>m.title==='Measured learning');
+  assert.equal(mapped.sections.length,3);assert.equal(mapped.sections[0].items.length,2);
+  assert.equal(mapped.sections[1].items.length,1);assert.equal(mapped.sections[2].items.length,0);
+  const mappedRun=runs.find(r=>r.meter_id===mapped.id);
+  assert.equal(mappedRun.splits.length,4);assert.equal(mappedRun.status,'completed');
+  assert.ok(mappedRun.elapsed_ms<4000,'Naming and paused time must be excluded');
+  assert.equal(await page.locator('[data-stat="completed"]').textContent(),'1');
+  assert.match(await page.locator('[data-history]').textContent(),/Time Mapper/);
+  await page.locator('[data-start]').click();await page.locator('[data-end]').click();await page.locator('[data-confirm-end]').click();
+  await page.waitForFunction(()=>!document.querySelector('[data-start]').hidden);
+  await page.setViewportSize({width:1440,height:1100});
+  await page.locator('[data-mapper-open]').click();
+  assert.equal(await page.locator('[data-map-title]').inputValue(),'');
+  await page.screenshot({path:`${output}/mapper-desktop.png`,fullPage:true});
+  await page.locator('[data-map-title]').fill('First nested mapping');
+  await page.locator('[data-map-main]').fill('Main');await page.locator('[data-map-sub]').fill('First subsection');
+  await page.locator('[data-map-go]').click();await page.waitForTimeout(100);
+  await page.reload();await page.locator('[data-app]').waitFor({state:'visible'});
+  await page.locator('[data-mapper-open]').click();
+  assert.equal(await page.locator('[data-map-status]').textContent(),'正在測量本項時間');
+  await page.locator('[data-map-next]').click();
+  const beforeFinish=await page.locator('[data-map-total]').textContent();
+  await page.waitForTimeout(200);await page.locator('[data-map-finish]').click();
+  await page.waitForFunction(()=>!document.querySelector('[data-mapper]').open);
+  const firstNested=meters.find(m=>m.title==='First nested mapping');
+  assert.equal(firstNested.sections[0].items[0].title,'First subsection');
+  assert.equal(runs.find(r=>r.meter_id===firstNested.id).splits.length,1,'Finish while naming must not append a phantom split');
+
   assert.deepEqual(errors,[]);
-  console.log('Browser QA passed: standalone and nested sections, favourites, custom/A–Z ordering, records filtering/deletion, column widths and persistence, split timing, offline/conflict recovery, floating resize, desktop and mobile.');
+  console.log('Browser QA passed: Time Mapper creation, mapping hierarchy, immediate freeze, running and paused refresh recovery, finish while naming, offline retry, mobile layout; standalone and nested sections, favourites, custom/A–Z ordering, records filtering/deletion, column widths and persistence, split timing, offline/conflict recovery, floating resize, desktop and mobile.');
 } finally { await browser.close(); }

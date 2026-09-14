@@ -1,4 +1,5 @@
-import { formatTime, formatDelta, parseTime, flatten, sectionItems, expectedTotal, elapsed, transition, resizeRect } from './execution-speedrun-core.mjs?v=20260914-2';
+import {initTimeMapper} from './execution-time-mapper.js?v=20260914-3';
+import { formatTime, formatDelta, parseTime, flatten, sectionItems, expectedTotal, elapsed, transition, resizeRect } from './execution-speedrun-core.mjs?v=20260914-3';
 
 const $ = s => document.querySelector(s);
 const $$ = s => [...document.querySelectorAll(s)];
@@ -202,7 +203,7 @@ function renderHistory() {
     const target = expectedTotal(run.sections), complete = run.status === 'completed';
     const shownRun = {...run,elapsed_ms:elapsed(run)};
     const date = new Intl.DateTimeFormat('zh-HK',{dateStyle:'medium',timeStyle:'medium'}).format(new Date(run.started_at));
-    return `<details><summary><span>${escape(run.title)} · ${escape(date)} · 版本 ${run.meter_version} · ${complete ? '完整挑戰' : statusNames[run.status]} ▾</span><b>${formatTime(shownRun.elapsed_ms,true)} <span class="${complete ? deltaClass(run.elapsed_ms-target) : ''}">${complete ? formatDelta(run.elapsed_ms-target) : `${run.splits.length}/${flatten(run.sections).length} 項完成`}</span></b></summary><div class="history-table-wrap"><table><thead><tr><th>主項目 / 子項目</th><th>預計</th><th>實際</th><th>差異</th></tr></thead><tbody>${historyRows(shownRun)}</tbody></table></div><button type="button" class="remove delete-attempt" data-delete-run="${escape(run.id)}" ${state.queue.length ? 'disabled' : ''}>永久刪除此嘗試</button></details>`;
+    return `<details><summary><span>${escape(run.title)} · ${escape(date)} · 版本 ${run.meter_version} · ${run.source === 'mapper' ? 'Time Mapper · ' : ''}${complete ? '完整挑戰' : statusNames[run.status]} ▾</span><b>${formatTime(shownRun.elapsed_ms,true)} <span class="${complete ? deltaClass(run.elapsed_ms-target) : ''}">${complete ? formatDelta(run.elapsed_ms-target) : `${run.splits.length}/${flatten(run.sections).length} 項完成`}</span></b></summary><div class="history-table-wrap"><table><thead><tr><th>主項目 / 子項目</th><th>預計</th><th>實際</th><th>差異</th></tr></thead><tbody>${historyRows(shownRun)}</tbody></table></div><button type="button" class="remove delete-attempt" data-delete-run="${escape(run.id)}" ${state.queue.length ? 'disabled' : ''}>永久刪除此嘗試</button></details>`;
   }).join('') : '<p class="muted">此範圍內暫時沒有挑戰紀錄。</p>';
   $('[data-more]').hidden = state.history.length >= state.historyCount;
 }
@@ -495,6 +496,14 @@ async function init() {
     $('[data-user-pill]').hidden = false; $('[data-user-pill]').textContent = user.name;
     $('[data-connection-status]').textContent = '已安全連接';
     bind(); bindLibrary(); bindColumns();
+    if (pageMode !== 'records') initTimeMapper({
+      key:`${state.storageKey}:mapper`, canOpen:()=>!active() && !state.queue.length && !state.locked && !state.conflict && !state.saving && !state.draft,
+      rpc, message, onSaved:async saved=>{
+        state.run=null;
+        if(pageMode==='favourites') await rpc('execution_speedrun_library_update',{p_id:saved.id,p_action:'favourite',p_favourite:true});
+        await load(saved.id); message('Time Mapper 已儲存計時器與實測紀錄，可以隨時再次挑戰。');
+      }
+    });
     if (state.locked) message('此帳戶的計時器已在另一視窗開啟。請在原視窗操作，或關閉原視窗後重新整理此頁。','pending');
     else if (state.queue.length) { message('已找回未同步的挑戰，正在恢復…','pending'); void flush(); }
     else if (pageMode === 'records') message('已載入所有嘗試紀錄，可篩選計時器或展開詳情。');

@@ -8,3 +8,14 @@
 @container(max-width:440px){.split-labels,.split-row,.section-row{grid-template-columns:var(--speedrun-columns,minmax(65px,1fr) repeat(3,minmax(43px,64px)))}}
 
 .column-overflow{margin:0;padding:8px 16px;background:#202536;color:#c6c8dc;font-size:.75rem;flex-shrink:0}.meter-scroll{scrollbar-width:thin;scrollbar-color:#77748c #202536}
+/* Time Mapper: naming is a paused step, with the measured timeline below. */
+.page-heading{flex-wrap:wrap}.page-heading>div{flex:1 1 420px}
+.time-mapper{width:min(740px,calc(100vw - 24px));max-height:calc(100dvh - 32px);padding:28px;color:var(--ink);overflow:auto}
+.time-mapper>header{display:flex;align-items:start;justify-content:space-between;gap:16px}.time-mapper h2{margin-top:8px}
+.time-mapper form{display:grid;gap:18px;margin:22px 0}.time-mapper label{display:grid;gap:8px;font-size:.9rem}.time-mapper label span{font-size:.8rem;color:var(--muted)}
+.time-mapper select{width:100%;font:inherit;padding:12px;border:1px solid var(--line);border-radius:9px;background:white;color:var(--ink)}
+.time-mapper select:focus-visible{outline:3px solid #8271f4}.time-mapper [data-map-error]{background:#fff1f1;color:#852532;padding:14px;border-radius:9px}
+.mapper-clock-panel{background:#151821;color:#f5f6fa;border-radius:14px;padding:24px;text-align:center;margin:20px 0}.mapper-clock-panel p{overflow-wrap:anywhere}.mapper-clock{font:700 clamp(2.3rem,7vw,4.5rem)/1.4 ui-monospace,SFMono-Regular,monospace;color:var(--green);font-variant-numeric:tabular-nums}
+.mapper-actions{display:flex;justify-content:center;gap:12px}.mapper-section{border:1px solid var(--line);border-radius:10px;padding:14px;margin:10px 0;overflow-wrap:anywhere}.mapper-section>b{float:right;margin-left:12px}.mapper-section>div{display:flex;justify-content:space-between;gap:15px;padding:9px 0 0 15px}.mapper-section b{font-variant-numeric:tabular-nums;white-space:nowrap}
+.time-mapper footer{margin-top:20px}.time-mapper footer .muted{margin:12px 0 0}.time-mapper [data-map-parts]{max-height:280px;overflow:auto}
+@media(max-width:520px){.time-mapper{padding:18px}.time-mapper>header{flex-wrap:wrap}.time-mapper>header button{margin-left:auto}.time-mapper footer>button{width:100%}.page-heading>[data-mapper-open]{width:100%}}
