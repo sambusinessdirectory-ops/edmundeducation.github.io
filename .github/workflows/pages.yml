@@ -121,6 +121,7 @@ jobs:
           node --test tools/test-sentence-structure-system.mjs
           node tools/test-sentence-structure-trophies.mjs
           node tools/test-horsey-award-dates.mjs
+          node tools/test-companion-trophy-directions.mjs
           node tools/test-horsey-portals.mjs
           node tools/test-common-expression-closet.mjs
           node --test tools/test-sentence-structure-coast.mjs tools/test-sentence-structure-realms.mjs tools/test-sentence-structure-zen.mjs tools/test-sentence-structure-dream.mjs tools/test-sentence-structure-toy.mjs tools/test-sentence-structure-hotel.mjs

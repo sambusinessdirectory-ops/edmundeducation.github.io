@@ -1,6 +1,6 @@
 import {batchClosetSurfaces} from './closet-static-batches.mjs';
 import * as THREE from './vendor/three/three.module.js';
-import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-mascot4';
+import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-companions1';
 
 let activeClose = null;
 const clamp = (value, minimum, maximum) => Math.max(minimum, Math.min(maximum, value));
@@ -781,6 +781,7 @@ function mountCloset(root, character, signal) {
 }
 
 export function openCompanionCloset({ character = 'eddy' } = {}) {
+  if(character!=='eddy')return {close(){}};
   activeClose?.();
   const dialog = document.createElement('dialog');
   dialog.className = 'expression-closet';

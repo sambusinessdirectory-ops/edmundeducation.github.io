@@ -1,5 +1,5 @@
-import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-smooth1';
-import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-smooth1';
+import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-companions1';
+import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
 
 const WIDTH = 1600, HEIGHT = 1950;
 const CHARACTERS = [{ id: 'eddy', name: 'Eddie', flag: '#c84438' }, { id: 'phoebe', name: 'Phoebe', flag: '#b5a0dc' }, { id: 'elsie', name: 'Elsie', flag: '#edc84a' }];
@@ -169,10 +169,11 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     closetHandle = null;
   };
   const openCloset = async () => {
+    if(character!=='eddy') return;
     const request = ++closetRequest;
     try {
-      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-smooth1');
-      if (request !== closetRequest) return;
+      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-companions1');
+      if (request !== closetRequest || character!=='eddy') return;
       closetHandle?.close();
       closetHandle = openCompanionCloset({ character });
     } catch (error) {
@@ -196,6 +197,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     const h=height*.91, w=h*sw/sh, x=(width-w)/2, y=height-h-6;
     const phase=time/(walking?80:750), bob=reduced.matches?0:Math.sin(phase)*(walking?2.7:.8);
     ctx.save();
+    if(view.mirror){ctx.translate(width,0);ctx.scale(-1,1);}
     ctx.translate(width/2,height-6);
     ctx.rotate(reduced.matches?0:Math.sin(phase)*(walking?.022:.012));
     ctx.translate(-width/2,-height+6+bob);
@@ -360,6 +362,10 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     root.querySelector('[data-map-number]').textContent=String(lesson.order).padStart(2,'0');
     root.querySelectorAll('[data-character]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.character===character)));
     horse?.setAttribute('aria-label',CHARACTERS.find(c=>c.id===character).name);
+    const closetButton=root.querySelector('[data-open-closet]');
+    if(closetButton){closetButton.hidden=character!=='eddy';closetButton.disabled=character!=='eddy';}
+    if(character!=='eddy')closeCloset();
+    if(root.dataset.companion!==character){root.dataset.companion=character;window.dispatchEvent(new CustomEvent('horsey-companion-change',{detail:{character,root}}));}
     updateFlag();
     root.dispatchEvent(new CustomEvent('map-selection-change', {detail:lesson.id}));
     positionPopup();

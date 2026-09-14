@@ -27,6 +27,8 @@ bindEvents();window.trophyTest={
  await counter.locator('img').evaluate(i=>i.decode());
  assert.equal(await shelf.locator('[data-trophy-count]').innerText(),'4 / 345\n金色獎座 · 2 銀色 · 0 銅色');
  assert.equal(await map.locator('.ss-trophy-marker').count(),5);
+ await shelf.locator('summary').click();assert.equal(await shelf.evaluate(e=>e.open),true,'Collection expands with a normal click');
+ await shelf.locator('summary').click();assert.equal(await shelf.evaluate(e=>e.open),false,'Collection collapses with a normal click');
  await counter.click();await page.waitForFunction(()=>document.querySelector('[data-sentence-trophy-shelf]').open);assert.equal(await shelf.locator('[data-trophy-earned="true"]').count(),4);
  assert.equal(await shelf.locator('[data-trophy-lesson="ss181"]').getAttribute('data-trophy-earned'),'true');
  const final=await page.evaluate(()=>trophyTest.nearFinish('ss4'));

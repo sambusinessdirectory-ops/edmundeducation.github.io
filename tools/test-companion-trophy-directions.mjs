@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {MASCOT_VIEWS} from '../speaking-mascot-views.mjs';
+import {TROPHY_ART} from '../horsey-trophy-art.mjs';
+import {applyViewPair} from '../speaking-mascot-material.mjs';
+const view=(id,a)=>MASCOT_VIEWS[id].standing.views.find(v=>v.angle===a);
+assert.equal(view('phoebe',145).sourceCell,10);
+assert.equal(view('phoebe',235).sourceCell,5);
+assert.equal(view('elsie',235).sourceCell,6);
+assert.equal(view('elsie',235).mirror,true);
+assert.ok(view('elsie',250).mirror);
+for(const id of ['eddy','phoebe','elsie'])assert.ok(TROPHY_ART[id].map.includes(id==='eddy'?'eddie':id));
+assert.equal(new Set(Object.values(TROPHY_ART).map(a=>a.map)).size,3);
+const values=[],vector={fromArray(v){values.push([...v]);},set(){}};
+const uniforms={bodyRects:{value:[vector,vector]},bodyLayouts:{value:[vector,vector]},bodyFlow:{value:vector},bodyBlend:{}};
+const data=MASCOT_VIEWS.elsie.standing,index=data.views.findIndex(v=>v.angle===235);
+applyViewPair({uniforms},'body',data,{first:index,second:index,blend:0});
+assert.ok(values[0][2]<0,'3D texture coordinates mirror the same rear view as the 2D renderer');
+console.log('PASS: Phoebe rear diagonals, Elsie mirrored rear views, 2D/3D identity data and distinct trophy assets');

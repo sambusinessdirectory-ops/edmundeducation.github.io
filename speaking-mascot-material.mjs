@@ -100,7 +100,8 @@ export function mascotMaterial(atlas, flow, data, coatColour, headResource={atla
 export function applyViewPair(material, prefix, data, pair) {
   const views=[data.views[pair.first],data.views[pair.second]],u=material.uniforms;
   for(let i=0;i<2;i++) {
-    u[prefix+'Rects'].value[i].fromArray(views[i].rect);
+    const rect=[...views[i].rect];if(views[i].mirror){rect[0]+=rect[2];rect[2]*=-1;}
+    u[prefix+'Rects'].value[i].fromArray(rect);
     u[prefix+'Layouts'].value[i].fromArray(views[i].layout);
     if(prefix==='head')u.mouths.value[i].fromArray(views[i].mouth);
   }
