@@ -1,7 +1,7 @@
 import { createLessonLibrary } from "./lesson-library.mjs?v=20260908-loading1";
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
-import { createExpressionMap } from "./common-expression-map.mjs?v=20260915-blink3";
-import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260915-blink3";
+import { createExpressionMap } from "./common-expression-map.mjs?v=20260915-mascot4";
+import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260915-mascot4";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260914-hotel3b";
 import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies, syncSentenceTrophyCounter, syncSentenceTrophyControls, animateSentenceTrophy } from "./sentence-structure-trophies.mjs?v=20260914-trophy4";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};

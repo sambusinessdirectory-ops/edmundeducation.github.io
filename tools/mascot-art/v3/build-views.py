@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image
 
 ROOT=Path(__file__).resolve().parents[3]
-ASSETS=ROOT/'assets/speaking-system/mascots/v3'
+ASSETS=ROOT/'assets/speaking-system/mascots/v4'
 MANIFEST=ROOT/'speaking-mascot-views.mjs'
 ANGLES=[0,30,60,75,90,115,145,160,180,210,235,250,270,300,330,350]
 GRID,FLOW_SIZE=4,128
@@ -50,7 +50,7 @@ def standing(name):
         views.append(view)
     coat=np.median([view.pop('coatSample') for view in views],axis=0);source_coat='#'+''.join(f'{int(value):02x}' for value in coat)
     flow=np.full((GRID*FLOW_SIZE,GRID*FLOW_SIZE,4),128,np.uint8);(ASSETS/f'{name}-standing.flow').write_bytes(flow.tobytes())
-    return {'sourceCoat':source_coat,'folder':'v3','image':f'{name}-standing.png','blinkImage':('elsie-blink-v2.png' if name=='elsie' else f'{name}-blink.png'),'flow':f'{name}-standing.flow','flowSize':FLOW_SIZE,'flowGrid':[GRID,GRID],'flowRange':0,'views':views}
+    return {'sourceCoat':source_coat,'folder':'v4','image':f'{name}-standing.png','blinkImage':('elsie-blink-registered.png' if name=='elsie' else f'{name}-blink.png'),'flow':f'{name}-standing.flow','flowSize':FLOW_SIZE,'flowGrid':[GRID,GRID],'flowRange':0,'views':views}
 
 prefix='// Measured crop, mouth and view data. Source PNGs are unchanged.\nexport const MASCOT_VIEWS = '
 text=MANIFEST.read_text();data=json.loads(text.removeprefix(prefix).removesuffix(';\n').removesuffix(';'))

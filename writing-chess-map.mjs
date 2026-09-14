@@ -1,5 +1,5 @@
-import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-blink3';
-import { blinkAmount } from './speaking-mascot-behaviour.mjs?v=20260915-blink3';
+import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-mascot4';
+import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-mascot4';
 
 const CHARACTERS = [{id:'eddy',name:'Eddie'},{id:'phoebe',name:'Phoebe'},{id:'elsie',name:'Elsie'}];
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -72,7 +72,7 @@ export function mountWritingChessMap(host,{storage,owner,exerciseId,onStart}={})
   function tick(time){
     frame=0;if(dead||document.hidden)return;const wasWalking=route.length>0;
     let budget=Math.min((time-last)/1000,.05)*390;last=time;
-    while(route.length&&budget>0){const goal=route[0],dx=goal.x-position.x,dy=goal.y-position.y,d=Math.hypot(dx,dy);angle=(Math.atan2(dx,dy)*180/Math.PI+360)%360;if(d<=budget){position={...goal};route.shift();budget-=d;}else{position.x+=dx/d*budget;position.y+=dy/d*budget;budget=0;}}
+    while(route.length&&budget>0){const goal=route[0],dx=goal.x-position.x,dy=goal.y-position.y,d=Math.hypot(dx,dy);angle=screenFacingAngle(dx,dy);if(d<=budget){position={...goal};route.shift();budget-=d;}else{position.x+=dx/d*budget;position.y+=dy/d*budget;budget=0;}}
     draw(time);
     if(wasWalking&&!route.length){angle=0;draw(time);status.textContent=arrivalLabel?`已到達：${arrivalLabel}`:"已到達棋盤上選擇的位置。";}
     if(!reduced.matches||route.length)frame=requestAnimationFrame(tick);
