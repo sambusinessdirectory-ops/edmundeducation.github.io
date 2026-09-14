@@ -15,7 +15,7 @@ Measured painted playing-surface corners, in the 1000 × 667 application world: 
 
 ## Generated side surround (user refinement)
 
-Built-in image generation, 2026-09-14. Master: `/Users/sammak/.codex/generated_images/01a09dc3-2ef0-7b00-8475-b5a9c6399001/exec-a7fc71a7-e251-4b49-b148-086d7a31616d.png`. Web export: `surround-v1.jpg` at the returned native dimensions (1776 × 888). The original central board is retained; the surround fills the full map width underneath it, with narrow CSS edge blending. This is a generated/composited surround, not a pixel-preserving model outpaint. The filesystem sandbox still prevents supplying local reference paths to the image tool.
+Built-in image generation, 2026-09-14. Master: `/Users/sammak/.codex/generated_images/01a09dc3-2ef0-7b00-8475-b5a9c6399001/exec-a7fc71a7-e251-4b49-b148-086d7a31616d.png`. Web export: `surround-v1.jpg` at the returned native dimensions (1774 × 887). The original central board is retained; the surround fills the full map width underneath it, with narrow CSS edge blending. This is a generated/composited surround, not a pixel-preserving model outpaint. The filesystem sandbox still prevents supplying local reference paths to the image tool.
 
 Exact prompt:
 
