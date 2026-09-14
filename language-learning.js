@@ -18,7 +18,10 @@
       const system=name.startsWith('flashcard_')?'flashcard':'writing';
       const access=(a,write=false)=>client.rpc('language_learning_access',{p_language:language,p_system:system,p_args:a,p_write:write});
       if(/_admin_set_student_access$/.test(name)){
-        const result=await access(args,true);return result.error?result:{data:[{name:args.p_student_name,access:result.data}],error:null};
+        const result=await access(args,true);if(result.error)return result;
+        const listed=await client.rpc(system+'_admin_list_students',{p_admin_name:args.p_admin_name,p_admin_password:args.p_admin_password});
+        if(listed.error)return listed;
+        return {data:(listed.data||[]).filter(row=>row.name===args.p_student_name).map(row=>({...row,access:result.data})),error:null};
       }
       if(/_admin_upsert_student$/.test(name)){
         const original=await client.rpc(system+'_admin_list_students',{p_admin_name:args.p_admin_name,p_admin_password:args.p_admin_password});
