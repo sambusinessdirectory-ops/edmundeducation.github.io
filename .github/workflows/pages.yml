@@ -239,6 +239,7 @@ jobs:
           node tools/test-ielts-task1-download-catalog.mjs
           node tools/test-essay-portal-links.mjs
           node tools/test-writing-translation-toggle.mjs
+          node tools/test-writing-chess-map.mjs
 
       - name: Validate DSE Writing Part A resources and sticky listening controls
         run: |

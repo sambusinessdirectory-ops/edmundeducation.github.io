@@ -44,6 +44,7 @@ await page.locator('[data-essay-tab="translation"]').click();assert.equal(await 
 await page.locator('[data-open-practice]').click();assert.equal(await page.locator('[data-start-practice-mode]').count(),16);
 for(const [level,count]of [['standard',35],['medium',45],['hard',75],['hell',148]])for(const mode of ['blank','start','end','both']){
  await page.locator(`[data-start-practice-mode="${mode}"][data-practice-difficulty="${level}"]`).click();
+ if(await page.locator("[data-chess-enter]").count())await page.locator("[data-chess-enter]").click();
  assert.equal(await page.locator('[data-practice-form] input').count(),count,level+':'+mode);
  await page.locator('[data-back-practice-mode]').click();
 }
@@ -73,6 +74,7 @@ await page.screenshot({path:output+'/french-writing-translations.png'});
 await page.locator('[data-open-practice]').click();
 for(const [level,count]of [['standard',34],['medium',45],['hard',75],['hell',97]])for(const mode of ['blank','start','end','both']){
  await page.locator(`[data-start-practice-mode="${mode}"][data-practice-difficulty="${level}"]`).click();
+ if(await page.locator("[data-chess-enter]").count())await page.locator("[data-chess-enter]").click();
  assert.equal(await page.locator('[data-practice-form] input').count(),count,level+':'+mode);await page.locator('[data-back-practice-mode]').click();
 }
 await open('flashcards','fr');await page.getByText('Food and Cooking',{exact:true}).first().click();await page.locator('[data-open-deck]').first().click();

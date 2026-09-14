@@ -3192,6 +3192,8 @@
   <link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2">
   <script src="language-learning.js?v=20260914-six-languages-1"></script>
   <link rel="stylesheet" href="language-learning.css?v=20260914-six-languages-1">
+  <link rel="stylesheet" href="writing-chess-map.css?v=20260914-1">
+  <script>window.writingChessMapReady = import("./writing-chess-map.mjs?v=20260914-1");</script>
 </head>
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
@@ -5834,6 +5836,7 @@ Device: concession 讓步
       : null;
 
     let currentUser = null;
+    let writingChessMapController = null;
     let currentView = "login";
     let studentsCache = [];
     let studentsLoadedFromSupabase = false;
@@ -7960,7 +7963,7 @@ Device: concession 讓步
       const defaultDifficulty = practiceDifficultyForExercise(exercise);
       return {
         screen: "mode",
-        selectorOpen: true,
+        selectorOpen: practiceDifficultySetsForExercise(exercise).length * practiceModesForExercise(exercise).length !== 16,
         showTranslation: false,
         listeningEnabled: false,
         listeningUnitIndex: 0,
@@ -10257,6 +10260,8 @@ Device: concession 讓步
     }
 
     function renderExerciseView() {
+      writingChessMapController?.destroy();
+      writingChessMapController = null;
       saveUnfinishedWritingPractice();
       const panel = document.querySelector("[data-exercise-view]");
       if (!panel) return;
@@ -10312,6 +10317,16 @@ Device: concession 讓步
 
       if (practiceState?.screen === "mode") {
         panel.innerHTML = renderModePage(exercise);
+        const chessHost = window.writingChessMapReady && panel.querySelector('.mode-page');
+        window.writingChessMapReady?.then(({ mountWritingChessMap }) => {
+          if (!chessHost?.isConnected || practiceState?.screen !== "mode" || currentExercise()?.id !== exercise.id) return;
+          writingChessMapController = mountWritingChessMap(chessHost, {
+            storage: languageStorage,
+            owner: writingStateAccountKey() || currentUser?.name || "guest",
+            exerciseId: exercise.id,
+            onStart: startPracticeMode
+          });
+        }).catch(error => console.warn("Chess map unavailable; standard mode selection remains available.", error));
         syncEssayAudioRateButtons();
         syncWritingBookmarkButtons();
         return;

@@ -4,6 +4,10 @@ This is the canonical recipe for every pre-generated voice file used by Edmund
 Education. The browser never synthesizes speech. It only plays versioned MP3
 files, so iPhone, Android and desktop users hear the same voice.
 
+## Language-specific voice choices
+
+The recipe below is the existing English default. For Italian, French, Spanish, Japanese and German, follow the user-approved language-specific selections in [Independent language learning editions](italian-french-learning-notes.md#user-approved-voice-selections--2026-09-14). Keep those voices distinct from the English default.
+
 ## The recipe — do not change silently
 
 | Setting | Permanent value |
