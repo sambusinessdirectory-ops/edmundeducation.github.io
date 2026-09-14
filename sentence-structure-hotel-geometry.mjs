@@ -20,7 +20,7 @@ export function hotelArrivalIndex(nodes,position,selected){
  if(nodes[selected]&&Math.hypot(nodes[selected].x-position.x,nodes[selected].y-position.y)<42)return selected;
  return nodes.findIndex(n=>Math.hypot(n.x-position.x,n.y-position.y)<42);
 }
-export const HOTEL_LIFT_X=291*HOTEL_SCALE;
+export const HOTEL_LIFT_X=225*HOTEL_SCALE;
 export const HOTEL_FLOORS=[349,460,571,682,794,908].map(y=>HOTEL_OFFSET+y*HOTEL_SCALE);
 export const HOTEL_WAYPOINTS=[{x:HOTEL_LIFT_X,y:HOTEL_OFFSET-12},...HOTEL_FLOORS.map(y=>({x:HOTEL_LIFT_X,y}))];
 export function hotelIsWalkable(p){
@@ -29,6 +29,12 @@ export function hotelIsWalkable(p){
  return HOTEL_FLOORS.some(y=>Math.abs(p.y-y)<=12)&&p.x>=HOTEL_LIFT_X-12&&p.x<=1090*HOTEL_SCALE;
 }
 export function hotelCompanionVisible(p){return p.y<HOTEL_OFFSET||(p.x>308*HOTEL_SCALE&&HOTEL_FLOORS.some(y=>Math.abs(p.y-y)<14));}
+export function hotelJourneyDuration({distance,from,to}){return from.y>=HOTEL_OFFSET||to.y>=HOTEL_OFFSET?Math.max(450,Math.min(9500,distance/.22)):undefined;}
+export function hotelElevatorState(p){
+ const x=p.x/HOTEL_SCALE,y=(p.y-HOTEL_OFFSET)/HOTEL_SCALE;
+ const approach=Math.max(0,Math.min(1,(312-x)/55)),v=approach*approach*(3-2*approach);
+ return {x:225,y,alpha:y>=343&&y<=914&&x>=205?v:0,passengerX:Math.max(225,Math.min(312,x)),gate:Math.max(0,Math.min(1,(x-240)/45)),riding:x<243&&y>=343&&y<=914};
+}
 export const HOTEL_FLAGS=[{x:241,y:43,w:62,h:42,phase:0},{x:1165,y:43,w:60,h:42,phase:1.3}];
 export const HOTEL_PLANTS=[
  [783,311,26,29,340],[442,423,25,25,447],[783,427,25,25,451],
