@@ -15,6 +15,11 @@
 .expression-map-character { display:flex; align-items:center; gap:5px; min-height:55px; padding:3px 12px 3px 4px; border:1px solid #b4c1a3; border-radius:15px; background:#ffffff91; font-size:12px!important; font-weight:700!important; }
 .expression-map-character[aria-pressed=true] { border-color:#345938; background:#e5edce; box-shadow:inset 0 0 0 1px #345938; }
 .expression-map-character canvas { width:37px; height:48px; }
+.expression-map-closet-button { display:flex; align-items:center; justify-content:center; gap:7px; min-height:55px; padding:5px 11px; border:1px solid #554b43; border-radius:15px; color:#fff6e8; background:linear-gradient(145deg,#433832,#211d1b); box-shadow:inset 0 0 0 1px #ac7b5140,0 4px 10px #2b20161c; font-size:12px!important; font-weight:750!important; }
+.expression-map-closet-button:hover { background:linear-gradient(145deg,#55463d,#2b2421); }
+.expression-map-closet-button svg { width:24px; height:29px; fill:#332925; stroke:#c99c70; stroke-width:1.4; }
+.expression-map-closet-button span { display:grid; text-align:left; line-height:1.05; }
+.expression-map-closet-button small { margin-top:4px; color:#d8bfa5; font-size:9px; font-weight:600; letter-spacing:.12em; }
 .expression-map-tools { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:12px 26px; border-top:1px solid #254e2e1a; border-bottom:1px solid #254e2e40; }
 .expression-map-picker { display:flex; align-items:center; gap:10px; min-width:0; font-size:12px; font-weight:700; }
 .expression-map-picker select { min-width:0; width:300px; max-width:100%; font-size:16px; border:1px solid #b5c1a3; padding:9px 30px 9px 10px; border-radius:9px; color:#254632; background:#fffdf5; }
@@ -61,6 +66,8 @@
  .expression-map-heading h2 small { display:inline; margin-left:10px; }
  .expression-map-characters { width:100%; }
  .expression-map-character { flex:1; justify-content:center; }
+ .expression-map-closet-button { flex:0 0 68px; padding-inline:7px; }
+ .expression-map-closet-button span { display:none; }
  .expression-map-tools { padding:10px; gap:7px; }
  .expression-map-picker { flex:1; }
  .expression-map-picker > span { display:none; }
@@ -72,6 +79,54 @@
  .expression-map-open small { display:inline; margin-left:5px; }
  .expression-map-footer { padding:10px 13px; font-size:10px; }
  .expression-map-desktop-hint { display:none; }
+}
+.expression-closet { width:min(1480px,calc(100vw - 28px)); max-width:none; max-height:calc(100dvh - 28px); padding:0; overflow:auto; overscroll-behavior:contain; border:1px solid #715743; border-radius:24px; color:#f7eee4; background:#121110; box-shadow:0 34px 110px #000c; }
+.expression-closet::backdrop { background:#090807d9; backdrop-filter:blur(7px) saturate(.65); }
+.expression-closet-header { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:17px 21px 13px; border-bottom:1px solid #9a714b4d; background:linear-gradient(115deg,#29231f,#161514 70%); }
+.expression-closet-header p { margin:0 0 3px; color:#cba77e; font-size:9px; font-weight:800; letter-spacing:.23em; }
+.expression-closet-header h2 { margin:0; color:#fff8ee; font:500 clamp(23px,3vw,34px)/1.1 Georgia,serif; }
+.expression-closet-header h2 small { margin-left:8px; color:#bda993; font:600 11px/1.2 ui-sans-serif,system-ui,sans-serif; letter-spacing:.12em; }
+.expression-closet-close { width:43px; height:43px; flex:0 0 43px; border:1px solid #8d735d; border-radius:50%; color:#fff4e8; background:#2d2723; font:300 29px/1 ui-sans-serif,system-ui,sans-serif; cursor:pointer; }
+.expression-closet-close:hover { background:#4a3c34; }
+.expression-closet-close:focus-visible,.expression-closet-controls button:focus-visible,.expression-closet-item:focus-visible { outline:3px solid #e8b77c; outline-offset:2px; }
+.expression-closet-controls { display:flex; flex-wrap:wrap; align-items:center; gap:7px; padding:9px 17px; border-bottom:1px solid #765a433b; background:#1d1a18; }
+.expression-closet-controls button { min-height:35px; padding:6px 10px; border:1px solid #665346; border-radius:8px; color:#f9eee1; background:#302925; font:650 11px/1.2 ui-sans-serif,system-ui,sans-serif; cursor:pointer; }
+.expression-closet-controls button:hover { border-color:#ad825e; background:#44372f; }
+.expression-closet-controls span { margin-left:auto; color:#ae9c8c; font:500 10px/1.35 ui-sans-serif,system-ui,sans-serif; }
+.expression-closet-workspace { display:grid; grid-template-columns:minmax(0,1fr) 270px; align-items:stretch; }
+.expression-closet-stage { position:relative; min-width:0; min-height:390px; overflow:hidden; background:#0b0c0e; }
+.expression-closet-stage canvas { display:block; width:100%; touch-action:none; }
+.expression-closet-loading { position:absolute; z-index:2; left:50%; top:50%; margin:0; padding:10px 14px; transform:translate(-50%,-50%); border:1px solid #9a76593d; border-radius:10px; color:#e8d6c2; background:#171412d9; font:600 12px/1.4 ui-sans-serif,system-ui,sans-serif; pointer-events:none; }
+.expression-closet-inventory { padding:19px 15px; border-left:1px solid #765a4359; background:linear-gradient(160deg,#241e1a,#161412); }
+.expression-closet-inventory-kicker { margin:0 0 4px; color:#cba77e; font:800 8px/1.2 ui-sans-serif,system-ui,sans-serif; letter-spacing:.2em; }
+.expression-closet-inventory h3 { margin:0 0 14px; color:#fff7ed; font:500 22px/1.15 Georgia,serif; }
+.expression-closet-inventory h3 small { color:#b9a38e; font:650 10px/1.2 ui-sans-serif,system-ui,sans-serif; letter-spacing:.1em; }
+.expression-closet-inventory table { width:100%; table-layout:fixed; border-spacing:7px; margin:-7px; }
+.expression-closet-inventory td { width:50%; padding:0; vertical-align:top; }
+.expression-closet-item,.expression-closet-empty { width:100%; min-height:132px; box-sizing:border-box; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:5px; padding:8px; border:1px solid #6b5544; border-radius:12px; color:#e9ddcf; background:#2a2420; text-align:center; }
+.expression-closet-item { cursor:pointer; font:inherit; }
+.expression-closet-item:hover { border-color:#c18d60; background:#3a2f28; }
+.expression-closet-item:disabled { cursor:not-allowed; opacity:.48; filter:saturate(.35); }
+.expression-closet-item[aria-pressed=true] { border-color:#efbd7d; background:#493529; box-shadow:inset 0 0 0 2px #efbd7d3d; }
+.expression-closet-item img { display:block; width:100%; height:74px; object-fit:contain; filter:drop-shadow(0 7px 7px #0008); }
+.expression-closet-item strong { color:#fff8ef; font:700 11px/1.2 ui-sans-serif,system-ui,sans-serif; }
+.expression-closet-item span,.expression-closet-empty span { color:#bba997; font:600 9px/1.2 ui-sans-serif,system-ui,sans-serif; }
+.expression-closet-empty { border-style:dashed; color:#846d59; background:#1d1917; font:300 22px/1 ui-sans-serif,system-ui,sans-serif; }
+.expression-closet-inventory-help { margin:17px 2px 0; color:#ad9a88; font:500 10px/1.5 ui-sans-serif,system-ui,sans-serif; }
+@media (max-width:900px) {
+ .expression-closet-workspace { grid-template-columns:1fr; }
+ .expression-closet-inventory { border-left:0; border-top:1px solid #765a4359; }
+ .expression-closet-inventory table { max-width:360px; }
+ .expression-closet-item,.expression-closet-empty { min-height:112px; }
+}
+@media (max-width:650px) {
+ .expression-closet { width:calc(100vw - 12px); max-height:calc(100dvh - 12px); border-radius:17px; }
+ .expression-closet-header { padding:13px 14px 11px; }
+ .expression-closet-header h2 small { display:block; margin:4px 0 0; }
+ .expression-closet-controls { padding:8px; gap:5px; }
+ .expression-closet-controls button { flex:1 1 auto; padding-inline:6px; }
+ .expression-closet-controls span { width:100%; margin:2px 2px 0; text-align:center; }
+ .expression-closet-stage { min-height:300px; }
 }
 .expression-map-zoom button:disabled { opacity:.4; cursor:default; }
 .expression-map-zoom [data-save-location][aria-pressed=true] { color:#fffbee; background:#315d42; border-color:#315d42; }
