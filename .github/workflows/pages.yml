@@ -314,7 +314,7 @@ jobs:
           npm test --prefix workers/speaking-system
 
       - name: Validate all six Common Expression portals, lessons and persistence contracts
-        run: node --test tools/test-common-expression-system.mjs tools/test-common-expression-map.mjs tools/test-common-expression-garden.mjs tools/test-common-expression-coast.mjs
+        run: node --test tools/test-common-expression-system.mjs tools/test-common-expression-map.mjs tools/test-common-expression-garden.mjs tools/test-common-expression-coast.mjs tools/test-common-expression-airport.mjs
       - name: Validate rhetorical-writing blueprint map
         run: node tools/test-common-expression-blueprint.mjs
 
