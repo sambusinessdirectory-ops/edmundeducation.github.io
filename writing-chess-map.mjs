@@ -1,3 +1,4 @@
+import { cosmeticAtlas, restoreCosmetics } from './eddy-cosmetics.mjs?v=20260915-outfits1';
 import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-companions1';
 import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
 
@@ -16,6 +17,7 @@ export function isOnChessboard({x,y}) {
 }
 
 export function mountWritingChessMap(host,{storage,owner,exerciseId,onStart}={}) {
+  void restoreCosmetics(owner);
   const groups=host.querySelector('.practice-mode-groups');
   const buttons=[...groups?.querySelectorAll('[data-start-practice-mode]')||[]];
   // Other catalogues keep their actual available modes; never invent sixteen modes.
@@ -49,7 +51,7 @@ export function mountWritingChessMap(host,{storage,owner,exerciseId,onStart}={})
   const avatar=groups.querySelector('.chess-companion'), canvas=avatar.querySelector('canvas'), status=groups.querySelector('.chess-status');
   const drawSprite=(target,id,facing,time,walking)=>{
     const open=loadImage(id),closed=loadImage(id,true);
-    const img=blinkAmount(time/1000,id.charCodeAt(0),reduced.matches)>.5&&closed?.naturalWidth?closed:open;
+    const img=cosmeticAtlas(id,blinkAmount(time/1000,id.charCodeAt(0),reduced.matches)>.5&&closed?.naturalWidth?closed:open);
     const ctx=target.getContext('2d');ctx.clearRect(0,0,target.width,target.height);if(!img.naturalWidth)return;
     const distance=a=>Math.abs(((a-facing+540)%360)-180);
     const v=MASCOT_VIEWS[id].standing.views.reduce((a,b)=>distance(a.angle)<distance(b.angle)?a:b);

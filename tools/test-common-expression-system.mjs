@@ -193,11 +193,11 @@ test("all six Common Expression portals carry their identity, shared navigation 
       /common-expression-system-data\.js\?v=20260811-1/,
       /common-expression-system-imported-data\.js\?v=20260811-1/,
       /shared-answer-comparison\.js\?v=20260812-1/,
-      portal.key === "business-speaking" ? /common-expression-system\.js\?v=20260915-companions1/ : /common-expression-system\.js\?v=20260915-companions1/,
+      portal.key === "business-speaking" ? /common-expression-system\.js\?v=20260915-outfits1/ : /common-expression-system\.js\?v=20260915-outfits1/,
       /shared-speaking-practice\.css\?v=20260829-1/,
       /<script defer src=["']shared-speaking-practice\.js\?v=20260829-2["']><\/script>/,
       /shared-system-nav\.css\?v=20260910-home2/,
-      /shared-system-nav\.js\?v=20260911-tools1/
+      /shared-system-nav\.js\?v=20260915-outfits1/
     ]) assert.match(html, contract, `${portal.file}: missing required portal asset or PWA contract`);
     assert.doesNotMatch(html, /<script[^>]+src=["'][^"']*lamejs/i, `${portal.file}: MP3 encoder must load only after recording is selected`);
 
@@ -217,7 +217,7 @@ test("all six Common Expression portals carry their identity, shared navigation 
     const baseDataIndex = html.indexOf("common-expression-system-data.js?v=20260811-1");
     const importedDataIndex = html.indexOf("common-expression-system-imported-data.js?v=20260811-1");
     const comparisonIndex = html.indexOf("shared-answer-comparison.js?v=20260812-1");
-    const engineIndex = html.indexOf(`common-expression-system.js?v=${portal.key === "business-speaking" ? "20260915-companions1" : "20260915-companions1"}`);
+    const engineIndex = html.indexOf(`common-expression-system.js?v=${portal.key === "business-speaking" ? "20260915-outfits1" : "20260915-outfits1"}`);
     assert.ok(baseDataIndex < importedDataIndex, `${portal.file}: base catalogue must load before imported lessons`);
     assert.ok(importedDataIndex < comparisonIndex, `${portal.file}: imported lessons must load before answer comparison`);
     assert.ok(comparisonIndex < engineIndex, `${portal.file}: answer comparison must load before the module engine`);

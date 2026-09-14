@@ -331,6 +331,7 @@
       role: "student"
     };
     writeStorageJson(storage, UNIVERSAL_SESSION_KEY, normalized, true);
+    if(previous?.id!==normalized.id||previous?.token!==normalized.token)window.dispatchEvent(new CustomEvent('edmund-student-session-change'));
     bridgeStudentSession(normalized, true);
     ensurePasswordButton();
     syncPomodoroOwner();
@@ -372,6 +373,7 @@
       // Writing Practice will also clear its own session during logout.
     }
     ensurePasswordButton();
+    window.dispatchEvent(new CustomEvent('edmund-student-session-change'));
     syncPomodoroOwner();
     tickPomodoro();
   }

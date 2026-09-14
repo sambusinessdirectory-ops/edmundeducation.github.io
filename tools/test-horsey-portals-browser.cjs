@@ -9,6 +9,7 @@ const portals=['idiom-system','phrasal-verb-system','proverb-system',...['speaki
 for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.PORTAL)){
  const page=await browser.newPage({viewport:{width:1440,height:1050}}),errors=[];page.on('pageerror',e=>{errors.push(e.message);console.error(portal,e.message);});
  await page.route('https://**/*',r=>r.abort());
+ await page.addInitScript(()=>localStorage.setItem('edmund-eddy-wardrobe-v1:fixture-a',JSON.stringify({equipped:{headwear:'white-fedora',top:'cream-cable-knit'},outfits:[]})));
  for(const file of ['shared-system-nav.js','shared-speaking-practice.js','pwa-register.js'])await page.route('**/'+file+'*',r=>r.fulfill({contentType:'text/javascript',body:''}));
  const ce=portal.startsWith('common-expression-'),listening=portal==='listening-system',file=ce?'common-expression-system':portal;
  await page.route('**/'+file+'.js?*',r=>{
@@ -39,6 +40,7 @@ for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.POR
  if(await page.locator('[data-horsey-map]').isHidden())await page.locator(selector).click();
  await page.locator('[data-horsey-map] .ss-map-trophy').first().waitFor({timeout:30000});
  const mapRoot=page.locator('[data-horsey-map]');
+ await page.waitForFunction(async()=>{const m=await import('/eddy-cosmetics.mjs?v=20260915-outfits1');return m.cosmeticsState().equipped.headwear==='white-fedora';});
  for(const character of ['phoebe','elsie','eddy']){
   await mapRoot.locator('[data-character="'+character+'"]').click();
   assert.equal(await mapRoot.locator('[data-open-closet]').isVisible(),character==='eddy');

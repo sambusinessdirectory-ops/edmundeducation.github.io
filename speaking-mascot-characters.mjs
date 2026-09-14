@@ -1,4 +1,5 @@
 import * as THREE from './vendor/three/three.module.js';
+import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-outfits1';
 import {MASCOT_VIEWS} from './speaking-mascot-views.mjs?v=20260915-companions1';
 import {viewPair, mouthOpening, blinkAmount, COAT_COLOURS} from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
 import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20260915-companions1';
@@ -6,6 +7,8 @@ import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20
 export class MascotCharacters {
   constructor(loader=new THREE.TextureLoader(), request=globalThis.fetch.bind(globalThis)) {
     this.loader=loader;this.fetch=request;this.resources=new Map();this.actors=[];this.disposed=false;
+    this.unsubscribeCosmetics=subscribeCosmetics(()=>this.refreshCosmetics());
+    void restoreCosmetics();
   }
   load(name,pose) {
     const key=name+'-'+pose;
@@ -58,8 +61,23 @@ export class MascotCharacters {
     const mesh=new THREE.Mesh(geometry,material);
     mesh.name=name+'-'+pose+'-character';mesh.userData.mascotSurface=true;mesh.castShadow=false;
     const actor={name,pose,mesh,data:resource.data,headData,angles:resource.data.views.map(view=>view.angle),headAngles:headData.views.map(view=>view.angle),blinkSeed:this.actors.length+({eddy:1,elsie:5,phoebe:9}[name]||1),world:new THREE.Vector3()};
-    this.actors.push(actor);this.update(actor,0,0,0,true,false,0,0);
+    actor.resource=resource;
+    this.actors.push(actor);this.refreshCosmetics();this.update(actor,0,0,0,true,false,0,0);
     return actor;
+  }
+  refreshCosmetics() {
+    for(const actor of this.actors){
+      if(actor.name!=='eddy'||actor.pose!=='standing')continue;
+      const r=actor.resource,u=actor.mesh.material.uniforms;
+      const open=cosmeticAtlas('eddy',r.atlas.image),blink=cosmeticAtlas('eddy',(r.blink||r.atlas).image);
+      if(actor.cosmeticOpen===open&&actor.cosmeticBlink===blink)continue;
+      actor.cosmeticTextures?.forEach(t=>t.dispose());
+      actor.cosmeticTextures=[];
+      const texture=(image,original)=>{if(image===original.image)return original;const t=new THREE.CanvasTexture(image);t.colorSpace=THREE.SRGBColorSpace;t.generateMipmaps=false;t.minFilter=THREE.LinearFilter;actor.cosmeticTextures.push(t);return t;};
+      const a=texture(open,r.atlas),b=texture(blink,r.blink||r.atlas);
+      u.atlas.value=u.headAtlas.value=a;u.headBlinkAtlas.value=b;
+      actor.cosmeticOpen=open;actor.cosmeticBlink=blink;
+    }
   }
   update(actor,cameraAzimuth,facingYaw,seconds,reducedMotion,speaking,lookYaw=0,nod=0) {
     const bodyTurn=lookYaw*.12,headTurn=lookYaw;
@@ -82,6 +100,8 @@ export class MascotCharacters {
   dispose() {
     if(this.disposed)return;
     this.disposed=true;
+    this.unsubscribeCosmetics();
+    for(const actor of this.actors)actor.cosmeticTextures?.forEach(t=>t.dispose());
     for(const actor of this.actors){actor.mesh.geometry.dispose();actor.mesh.material.dispose();}
     for(const entry of this.resources.values()){entry.atlas?.dispose();entry.blink?.dispose();entry.flow?.dispose();}
     this.actors.length=0;this.resources.clear();

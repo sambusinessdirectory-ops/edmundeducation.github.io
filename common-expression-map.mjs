@@ -1,3 +1,4 @@
+import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-outfits1';
 import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-companions1';
 import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
 
@@ -172,7 +173,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     if(character!=='eddy') return;
     const request = ++closetRequest;
     try {
-      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-companions1');
+      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-outfits1');
       if (request !== closetRequest || character!=='eddy') return;
       closetHandle?.close();
       closetHandle = openCompanionCloset({ character });
@@ -187,7 +188,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
 
   function drawSprite(ctx, id, facing, time, walking, width, height) {
     const open = loadImage(id), closed = loadImage(id, true);
-    const img = blinkAmount(time/1000, id.charCodeAt(0), reduced.matches) > .5 && closed?.complete && closed.naturalWidth ? closed : open;
+    const img = cosmeticAtlas(id, blinkAmount(time/1000, id.charCodeAt(0), reduced.matches) > .5 && closed?.complete && closed.naturalWidth ? closed : open);
     if (!img.complete || !img.naturalWidth) return;
     const views = MASCOT_VIEWS[id].standing.views;
     const distance = a => Math.abs(((a-facing+540)%360)-180);
@@ -510,8 +511,11 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     } else stopAnimation();
   }
   on(toggle,'click',()=>{mode=!mode;applyMode();save();});
+  const unsubscribeCosmetics=subscribeCosmetics(()=>{if(built){drawAvatar('eddy');drawHorse(performance.now(),false);}});
+  events.signal.addEventListener('abort',unsubscribeCosmetics,{once:true});
   return {
     update(userId) {
+      void restoreCosmetics(userId);
       const changedOwner=owner!==userId;
       if(changedOwner) {
         needsCenter=true;

@@ -84,7 +84,7 @@ test('closet UI is responsive and cache-busted on every shared-map consumer', ()
   assert.match(css, /\.expression-closet::backdrop/);
   assert.match(css, /\.expression-closet-workspace/);
   assert.match(css, /\.expression-closet-inventory table/);
-  assert.match(closet, /Fitting on hold/);
+  assert.match(closet, /mountClosetInventory/);
   assert.doesNotMatch(closet, /fedoraEquipped|outfitMesh|hatMesh|hatMaterial|hatGeometry/);
   assert.match(css, /@media \(max-width:650px\)[\s\S]*?\.expression-closet/);
   const consumers = [
@@ -102,5 +102,5 @@ test('closet UI is responsive and cache-busted on every shared-map consumer', ()
     'listening-system.html',
     'common-expression-written.html'
   ];
-  for (const file of consumers) assert.match(read(file), /common-expression-map\.(?:css\?v=20260915-companions1|mjs\?v=20260915-companions1)/, file);
+  for (const file of consumers) assert.match(read(file), /common-expression-map\.(?:css\?v=20260915-outfits1|mjs\?v=20260915-outfits1)/, file);
 });

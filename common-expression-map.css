@@ -142,3 +142,19 @@
 @media (prefers-reduced-motion:reduce) { .expression-map * { scroll-behavior:auto!important; transition:none!important; animation:none!important; } }
 
 .expression-map[data-animating="false"] * { animation-play-state:paused!important; }
+.closet-equipment-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.closet-equipment-grid .expression-closet-item{width:100%;min-height:180px;cursor:pointer;border:1px solid #cfb993;border-radius:12px;background:#fffaf0;color:#49381f;padding:10px;display:flex;align-items:center;flex-direction:column;gap:5px}
+.closet-equipment-grid .expression-closet-item[aria-pressed=true]{border:2px solid #a16d24;background:#f9edce;box-shadow:0 0 0 2px #d8bd7b44}
+.closet-equipment-grid img{width:100%;height:82px;object-fit:contain}
+.closet-equipment-grid .expression-closet-item strong{color:#3d2d16;font-size:12px}
+.closet-equipment-grid .expression-closet-item span{color:#5b4724}
+.expression-closet-inventory .closet-save-status{color:#f0dfbf}
+.expression-closet-inventory form label,.expression-closet-inventory h4,[data-outfit-sets]{color:#f0dfbf}
+.closet-equipped-status{font-weight:700;color:#5b4724;font-size:12px}
+.closet-outfit-actions{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.expression-closet-inventory form{display:grid;gap:8px;margin-top:18px}
+.expression-closet-inventory input{width:100%;box-sizing:border-box;border:1px solid #b9aa92;border-radius:8px;padding:10px;background:white;color:#312a20}
+.closet-outfit-actions button,.expression-closet-inventory form button,[data-outfit-sets] button{border:1px solid #ad8c53;border-radius:8px;padding:10px 12px;background:#f8edce;color:#46371f;cursor:pointer}
+[data-outfit-sets]{display:flex;flex-wrap:wrap;gap:8px}
+.closet-save-status{min-height:3em;font-size:13px;line-height:1.5;color:#493c29}
+.expression-closet-inventory button:focus-visible{outline:3px solid #286858;outline-offset:3px}

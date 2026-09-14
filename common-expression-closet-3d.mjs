@@ -1,6 +1,7 @@
+import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260915-outfits1';
 import {batchClosetSurfaces} from './closet-static-batches.mjs';
 import * as THREE from './vendor/three/three.module.js';
-import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-companions1';
+import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-outfits1';
 
 let activeClose = null;
 const clamp = (value, minimum, maximum) => Math.max(minimum, Math.min(maximum, value));
@@ -804,21 +805,13 @@ export function openCompanionCloset({ character = 'eddy' } = {}) {
         '<p class="expression-closet-loading" data-closet-loading>Preparing the dressing room…</p>' +
       '</div>' +
       '<aside class="expression-closet-inventory" aria-labelledby="expression-closet-inventory-title">' +
-        '<p class="expression-closet-inventory-kicker">EDDIE’S COLLECTION</p>' +
-        '<h3 id="expression-closet-inventory-title">Inventory <small>物品欄</small></h3>' +
-        '<table><caption class="sr-only">Two-column clothing inventory</caption><tbody>' +
-          '<tr><td><button type="button" class="expression-closet-item" disabled aria-disabled="true">' +
-            '<span aria-hidden="true" style="font-size:38px">🎩</span>' +
-            '<strong>White Fedora</strong><span>Fitting on hold</span>' +
-          '</button></td><td><div class="expression-closet-empty" aria-label="Empty inventory slot">＋<span>Empty slot</span></div></td></tr>' +
-          '<tr><td><div class="expression-closet-empty" aria-label="Empty inventory slot">＋<span>Empty slot</span></div></td><td><div class="expression-closet-empty" aria-label="Empty inventory slot">＋<span>Empty slot</span></div></td></tr>' +
-        '</tbody></table>' +
-        '<p class="expression-closet-inventory-help">Outfit fitting is on hold while the walk-in closet is refined.</p>' +
+        '<p>Loading your wardrobe…</p>' +
       '</aside>' +
     '</div>';
   document.body.append(dialog);
 
   const controller = new AbortController();
+  mountClosetInventory(dialog.querySelector('.expression-closet-inventory'),controller.signal);
   let closed = false;
   const close = () => {
     if (closed) return;
