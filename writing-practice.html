@@ -3495,8 +3495,8 @@
       { key: "business-english", label: "商務英語", subline: "英文寫作", tone: "orange" }
     ];
 
-    let writingProgressionRows = Array.isArray(window.EDMUND_WRITING_PROGRESSION)
-      ? window.EDMUND_WRITING_PROGRESSION
+    const writingProgressionRows = Array.isArray(window.EDMUND_WRITING_PROGRESSION)
+      ? [...window.EDMUND_WRITING_PROGRESSION]
       : [];
 
     const writingPathways = {
@@ -5820,7 +5820,7 @@ Device: concession 讓步
       writingSections.splice(0,writingSections.length,...languageEdition.categories.map(([key,label],i)=>({key,label,subline:languageEdition.label,tone:['','emerald','orange','red'][i%4]})));
       for(const key of Object.keys(writingExercises))delete writingExercises[key];
       for(const key of Object.keys(writingPathways))delete writingPathways[key];
-      writingProgressionRows = [];
+      writingProgressionRows.splice(0,writingProgressionRows.length);
       if(languageEdition.language==='it')writingExercises[window.EDMUND_ITALIAN_LESSON.exercise.id]=window.EDMUND_ITALIAN_LESSON.exercise;
       for(const [key,label] of languageEdition.categories)writingPathways[key]={title:label,kind:'language',tasks:[{key:'lessons',label:'文章',deckIds:key==='food-cooking'&&languageEdition.language==='it'?[window.EDMUND_ITALIAN_LESSON.exercise.id]:[]}]};
       window.EDMUND_WRITING_AUDIO=languageEdition.language==='it' ? window.EDMUND_ITALIAN_AUDIO?.writing || {} : {};
