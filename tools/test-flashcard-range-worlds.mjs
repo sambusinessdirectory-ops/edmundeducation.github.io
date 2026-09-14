@@ -14,5 +14,10 @@ assert.equal(check(337,301,0,Array.from({length:37},(_,i)=>String(i+300))).compl
 assert.equal(check(337,201,0,[]).total,137);
 assert.equal(check(30,1,30,Array.from({length:29},(_,i)=>String(i))).completed,false);
 assert.equal(check(30,1,30,Array.from({length:30},(_,i)=>String(i))).completed,true);
-for(const name of ['bead','medal','gem','wood','cabinet','velvet'])assert.ok(fs.statSync(new URL('../assets/flashcards/range-worlds/'+name+'.webp',import.meta.url)).size>1000);
+assert.equal(new Set(context.window.FlashcardRangeWorlds.gems.map(g=>g.color)).size,9);
+assert.equal(new Set(context.window.FlashcardRangeWorlds.gems.map(g=>g.shape)).size,8);
+assert.ok(context.window.FlashcardRangeWorlds.gems.some(g=>g.shape==='four-leaf-clover'));
+assert.equal(new Set(context.window.FlashcardRangeWorlds.ribbons.map(r=>JSON.stringify(r))).size,11);
+for(const g of context.window.FlashcardRangeWorlds.gems)assert.ok(fs.statSync(new URL('../assets/flashcards/range-worlds/gems-v2/'+g.id+'.webp',import.meta.url)).size>1000);
+for(const name of ['bead' ,'medal','gem','wood','cabinet','velvet'])assert.ok(fs.statSync(new URL('../assets/flashcards/range-worlds/'+name+'.webp',import.meta.url)).size>1000);
 console.log('Flashcard range mastery, duplicate/conflicting states, partial ranges, remainder ranges and artwork checks passed.');

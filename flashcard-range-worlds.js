@@ -9,6 +9,71 @@
     '30': { title: '30 張卡範圍', subtitle: 'THE MEDAL CABINET', legend: '掌握範圍內所有卡片，獲得雙側桂冠', kind: 'medal' },
     '10': { title: '10 張卡範圍', subtitle: 'THE JEWEL COLLECTION', legend: '掌握範圍內所有卡片，寶石鑲上金邊', kind: 'gem' }
   };
+  const gems = [
+    {id:'ivory-round',shape:'round',color:'ivory',ink:'dark'},
+    {id:'burgundy-oval',shape:'oval',color:'burgundy'},
+    {id:'emerald-step',shape:'emerald-cut',color:'emerald'},
+    {id:'royal-round',shape:'round',color:'royal-blue'},
+    {id:'blush-pear',shape:'pear',color:'blush',ink:'dark'},
+    {id:'aqua-clover',shape:'four-leaf-clover',color:'aquamarine',ink:'dark'},
+    {id:'amethyst-cushion',shape:'cushion',color:'amethyst'},
+    {id:'amber-marquise',shape:'marquise',color:'amber',ink:'dark'},
+    {id:'teal-hexagon',shape:'hexagon',color:'teal'}
+  ];
+  // Each of the eleven ranges gets its own woven ribbon palette and stripe layout.
+  const ribbons = [
+    ['#741d35','#efd09a','#741d35',[.12,.24,.76,.88]],
+    ['#184982','#ecdfc5','#214879',[.18,.28,.72,.82]],
+    ['#26252d','#91313a','#29272e',[.08,.15,.85,.92]],
+    ['#466351','#eae0b4','#385644',[.23,.35,.65,.77]],
+    ['#963737','#edce9a','#8b3037',[.04,.12,.88,.96]],
+    ['#315968','#e4e1c9','#2f4b56',[.29,.34,.66,.71]],
+    ['#53294f','#c1aedb','#572d5a',[.13,.19,.81,.87]],
+    ['#b88640','#722339','#b9803d',[.3,.38,.62,.7]],
+    ['#1e4172','#d4a747','#1a3768',[.07,.1,.9,.93]],
+    ['#884534','#f0ceb0','#8a4032',[.17,.23,.77,.83]],
+    ['#394543','#cdcdb5','#4c5e58',[.36,.43,.57,.64]]
+  ];
+  function ribbon(index) {
+    const svg=document.createElementNS(svgNS,'svg'), id=`range-ribbon-${index}`;
+    svg.setAttribute('viewBox','0 0 200 200');svg.setAttribute('aria-hidden','true');svg.classList.add('range-ribbon');
+    const [base,stripe,center,stops]=ribbons[index % ribbons.length];
+    const [a,b,c,d]=stops.map(n=>(n*100).toFixed(1)+'%');
+    // Use the original alpha silhouette and fabric luminance, leaving the brass loop intact.
+    svg.innerHTML=`<defs><linearGradient id="${id}-palette"><stop stop-color="${base}"/><stop offset="${a}" stop-color="${base}"/><stop offset="${a}" stop-color="${stripe}"/><stop offset="${b}" stop-color="${stripe}"/><stop offset="${b}" stop-color="${center}"/><stop offset="${c}" stop-color="${center}"/><stop offset="${c}" stop-color="${stripe}"/><stop offset="${d}" stop-color="${stripe}"/><stop offset="${d}" stop-color="${base}"/></linearGradient><filter id="${id}-alpha"><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/></filter><filter id="${id}-texture"><feColorMatrix type="saturate" values="0"/></filter><clipPath id="${id}-clip"><path d="M56 8 H144 V70 H110 V61 H88 V70 H56Z"/></clipPath><mask id="${id}-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200"><image href="${assetBase}medal.webp" width="200" height="200" filter="url(#${id}-alpha)"/></mask><pattern id="${id}-weave" width="1" height="1.1" patternUnits="userSpaceOnUse"><path d="M0 .3 H1" stroke="#fff9db" stroke-width=".22" opacity=".25"/></pattern><linearGradient id="${id}-shade"><stop stop-color="#000" stop-opacity=".22"/><stop offset=".2" stop-color="#fff" stop-opacity=".12"/><stop offset=".65" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".2"/></linearGradient></defs><g clip-path="url(#${id}-clip)" mask="url(#${id}-mask)"><rect x="56" y="8" width="88" height="62" fill="url(#${id}-palette)"/><image href="${assetBase}medal.webp" width="200" height="200" filter="url(#${id}-texture)" style="mix-blend-mode:soft-light" opacity=".32"/><rect x="56" y="8" width="88" height="62" fill="url(#${id}-weave)"/><rect x="56" y="8" width="88" height="62" fill="url(#${id}-shade)"/></g>`;
+    return svg;
+  }
+  function gemBezel(src) {
+    const svg=document.createElementNS(svgNS,'svg'),id=`range-gold-${++ornament.nextId}`;
+    svg.setAttribute('viewBox','0 0 200 200');svg.setAttribute('aria-hidden','true');svg.classList.add('range-ornament','range-gem-bezel');
+    // Derive the rim from the actual transparent silhouette, including the clover waists.
+    svg.innerHTML=`<defs><linearGradient id="${id}" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff5c4"/><stop offset=".25" stop-color="#edbf59"/><stop offset=".5" stop-color="#986226"/><stop offset=".75" stop-color="#ffe8a0"/><stop offset="1" stop-color="#b98737"/></linearGradient><filter id="${id}-edge" x="-10%" y="-10%" width="120%" height="120%"><feMorphology in="SourceAlpha" operator="dilate" radius="2.4" result="outer"/><feComposite in="outer" in2="SourceAlpha" operator="out"/></filter><mask id="${id}-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200" style="mask-type:alpha"><image href="${src}" width="200" height="200" filter="url(#${id}-edge)"/></mask></defs><rect width="200" height="200" fill="url(#${id})" mask="url(#${id}-mask)"/>`;
+    return svg;
+  }
+  const spacerObservers=new WeakMap();
+  function observeSpacers(grid) {
+    if(spacerObservers.has(grid))return;
+    const layer=element('div','range-spacer-layer');layer.setAttribute('aria-hidden','true');grid.append(layer);
+    const layout=()=>{
+      const rect=grid.getBoundingClientRect();if(!rect.width){layer.replaceChildren();return;}
+      const tokens=[...grid.querySelectorAll('.range-token')].map(el=>el.getBoundingClientRect());
+      const fragment=document.createDocumentFragment();
+      for(let i=0;i<tokens.length-1;i++){
+        const a=tokens[i],b=tokens[i+1];if(Math.abs(a.top-b.top)>4)continue;
+        const left=a.left+a.width*.91,right=b.left+b.width*.09,gap=right-left;
+        if(gap<18)continue;
+        const count=gap>=85?3:gap>=48?2:1;
+        const width=Math.min(30,gap*.6/count),height=Math.min(a.height*.56,width*2.5),spacing=(gap-width*count)/(count+1);
+        for(let n=0;n<count;n++){
+          const bead=element('img','range-spacer-bead');bead.src=assetBase+'spacer-walnut.webp';bead.alt='';bead.decoding='async';
+          bead.style.cssText=`left:${left-rect.left-grid.clientLeft+spacing+n*(width+spacing)}px;top:${a.top-rect.top-grid.clientTop+a.height*.51-height/2}px;width:${width}px;height:${height}px;`;
+          fragment.append(bead);
+        }
+      }
+      layer.replaceChildren(fragment);
+    };
+    const observer=new ResizeObserver(layout);observer.observe(grid);spacerObservers.set(grid,observer);requestAnimationFrame(layout);
+  }
   function element(tag, cls, text) {
     const el = document.createElement(tag); el.className = cls;
     if (text !== undefined) el.textContent = text;
@@ -59,9 +124,11 @@
         button.dataset.originalTitle = title; button.dataset.originalDescription = description;
         const token = element('span', 'range-token');
         const image = element('img', 'range-object');
-        image.src = assetBase + world.kind + '.webp'; image.alt = ''; image.loading = key === 'standard' ? 'eager' : 'lazy'; image.decoding = 'async';
+        const gem = world.kind === 'gem' ? gems[index % gems.length] : null;
+        image.src = assetBase + (gem ? 'gems-v2/'+gem.id : world.kind) + '.webp'; image.alt = ''; image.loading = key === 'standard' ? 'eager' : 'lazy'; image.decoding = 'async';
         token.append(image);
-        if (world.kind !== 'bead') token.append(ornament(world.kind));
+        if (world.kind === 'medal') {token.append(ribbon(index));token.append(ornament('medal'));button.dataset.ribbon = String(index);}
+        if (gem) token.append(gemBezel(image.src));
         token.append(element('span', 'range-number'));
         const titleNode = element('span', 'range-choice-title', title);
         const progress = element('span', 'range-progress');
@@ -70,8 +137,9 @@
         button.replaceChildren(token, titleNode, progress, state, desc);
         button.classList.add('range-choice'); button.dataset.material = world.kind;
         button.style.setProperty('--choice-index', index);
-        if (world.kind === 'gem') button.dataset.gemTone = ['emerald','pearl','ruby','sapphire'][index % 4];
+        if (gem) {button.dataset.gemShape=gem.shape;button.dataset.gemColor=gem.color;button.dataset.gemInk=gem.ink || 'light';}
       });
+      if (world.kind === 'bead') observeSpacers(grid);
     });
   }
   function progressFor(count, start, end, familiarity) {
@@ -122,5 +190,5 @@
       summary.textContent = block.dataset.rangeWorld === 'standard' ? `已掌握 ${whole.correct} / ${whole.total} 張` : `${active.filter(b=>b.dataset.complete === 'true').length} / ${active.length} 範圍已掌握`;
     });
   }
-  window.FlashcardRangeWorlds = {refresh, progressFor};
+  window.FlashcardRangeWorlds = {refresh, progressFor, gems, ribbons};
 })();

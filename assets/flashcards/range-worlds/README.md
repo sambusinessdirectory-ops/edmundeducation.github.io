@@ -4,9 +4,9 @@ Shared range-selection presentation for `flashcards.html`, including the origina
 
 ## Design and behavior
 
-- Standard modes use golden lacquered wooden beads on an abacus in a sunlit study. The red-only and green-only controls retain their material colors. All beads glow when the entire deck is mastered; the heading explicitly explains this deck-level criterion. The standard random 10/20/30/40 controls retain their existing unmastered-card selection behavior.
-- Thirty-card ranges use ivory-faced brass medals, fabric ribbons, walnut framing and forest-green felt. Completion adds gold laurels on both sides and a small star.
-- Ten-card ranges use emerald, ruby, sapphire and pale diamond variations in a burgundy velvet case. Completion adds a gold bezel and four prongs. The original emerald cutout has no gold edge, so the reward is an actual visible state change.
+- Standard modes use golden lacquered wooden beads on an abacus in a sunlit study. Real walnut spacer sprites fill about 60% of each available gap, leaving breathing room; a ResizeObserver adapts their count and positions to the actual layout. The red-only and green-only controls retain their material colors. All beads glow when the entire deck is mastered; the heading explicitly explains this deck-level criterion. The standard random 10/20/30/40 controls retain their existing unmastered-card selection behavior.
+- Thirty-card ranges use ivory-faced brass medals, eleven distinct fabric ribbon palettes and stripe layouts, walnut framing and forest-green felt. Desktop rows contain five medals. Completion adds gold laurels on both sides and a small star.
+- Ten-card ranges use nine separately colored gems in eight shapes, four per desktop row in a burgundy velvet case. Ivory round, burgundy oval, emerald cut, royal-blue round, blush pear, aqua four-leaf clover, amethyst cushion, amber marquise and teal hexagon all have quiet centers for readable live numbers. Completion adds a gold bezel derived from each actual alpha silhouette, including the concave clover outline. Uncompleted stones have no gold edge.
 - Existing fallback HTML, forty native buttons, delegated events and session selection attributes remain available. Labels, progress and descriptions are live text, independent of the artwork.
 - The existing range definitions are preserved: 30-card blocks through 300 plus the remainder; 10-card blocks through 200 plus the remainder. Partial final ranges display their actual available endpoints and denominator. Empty/unavailable ranges remain disabled and never appear completed.
 
@@ -27,9 +27,22 @@ The user's three supplied references are `Flashcard Stanadard Mode.png`, `Flash 
 | cabinet.webp | exec-e3f51877-ad41-4f08-91bd-e90b55de0115.png |
 | velvet.webp | exec-8dbba2dc-ae52-4017-8261-c7563c0b39f4.png |
 
-Full-resolution PNG originals are preserved at `/Users/sammak/Documents/ChatGPT/Astra/outputs/flashcard-range-worlds/artwork/`. The web assets use WebP quality 90 and alpha quality 100. Objects are 600×600, sufficient for the 195px maximum display size at 3× density; backgrounds retain their 1536×1024 resolution. All six deployed images total 784,464 bytes. This is layered raster artwork with HTML/CSS and SVG completion ornaments, not a real-time 3D scene.
+Full-resolution PNG originals are preserved at `/Users/sammak/Documents/ChatGPT/Astra/outputs/flashcard-range-worlds/artwork/`. The web assets use WebP quality 90 and alpha quality 100. Objects are 600×600, sufficient for the 195px maximum display size at 3× density; backgrounds retain their 1536×1024 resolution. The original six images total 784,464 bytes. The old gem.webp is retained for provenance but is no longer requested by the renderer. This is layered raster artwork with HTML/CSS and SVG completion ornaments, not a real-time 3D scene.
 
 Generated sprites were inspected for genuine transparency. The alpha channel ranges from 0 to 255; no checkerboard or painted backdrop is displayed. Sprite numbers and labels are never baked into images. Native SVG gradients use unique IDs, avoiding cross-instance fragment collisions. Decoration layers ignore pointer input.
+
+## September 14 refinement (worlds2)
+
+The supplied ribbon, gem-cut/color and quatrefoil references informed the second pass. Exact prompts and edit outcomes are recorded in [prompts-v2.json](prompts-v2.json).
+
+- Nine new gem sprites are 480×480 transparent WebP, with each stone fitted inside 370×370. They retain real distinct colors rather than hue-rotating one noisy diamond. Light stones use dark type; dark stones use ivory type. Reflections are concentrated around the rim.
+- The initial atlas and attempted transparency repair both contained a painted checkerboard. The built-in image editor replaced only that backdrop with flat chroma green. `node tools/build-flashcard-gems-v2.cjs /path/to/gems-chroma-original.png` flood-fills connected green background from each cell boundary, keys it to alpha, treats only adjacent edge spill, and packs the nine sprites. Internal gem regions are preserved. The script verifies a 3×3 layout. Original: `exec-e0bf4f60-9c38-4740-82d6-6c871f6e1f9a.png`.
+- Walnut spacer original: `exec-e58fdef5-28ea-415d-a050-a25bc25e57e0.png`, genuine alpha, trimmed and resized to 112×300 WebP.
+- Ribbons use SVG color/stripe layers clipped to the original medal alpha, with original grayscale fabric shading and fine weave. The original brass buckle, medal body and completion laurels stay intact.
+- A morphological dilation of each gem's alpha forms its gold reward rim. The gold mask preserves the stone silhouette and never covers its readable center.
+- Wide layout: standard 4 columns, medals 5, gems 4. Tablet: 2/3/4. Phone: 2/2/2. Embedded reading panes keep one object per column and independent vertical scrolling.
+- Full-resolution generation sources, review captures, exact prompts and preview: `/Users/sammak/Documents/ChatGPT/Astra/outputs/flashcard-range-worlds-v2/`.
+- The browser check verifies all seven languages, eleven ribbon variants, nine gem colors, the clover, eighteen desktop spacer beads, native button actions, actual mastery rules, account/language isolation and compact layouts. Fixed page navigation is hidden only while taking collection-only evidence captures; it is present during interaction checks and unchanged in production code.
 
 ## Issues caught and solved
 
