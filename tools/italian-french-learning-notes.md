@@ -18,3 +18,24 @@ French Food and Cooking includes 151 supplied cards (five examples each), 33 tra
 `tools/generate-french-lesson-audio.py` synthesizes locally, with Piper Tom (`fr_FR-tom-medium`, length_scale 0.96) for male card audio and Kokoro `ff_siwis` (speed 1.04) for female writing narration. Word timings use local multilingual faster-whisper base with French forced. Dependencies: piper-tts 1.3.0, kokoro-onnx 0.5.0, faster-whisper 1.2.1. Model attribution: https://huggingface.co/rhasspy/piper-voices/tree/main/fr/fr_FR/tom/medium (Tom model card identifies AGPLv3 dataset); https://github.com/thewh1teagle/kokoro-onnx. Models are not shipped in the website; generated MP3s are in language-audio/fr.
 
 German, Spanish, Japanese and Korean contain the same six categories and existing custom-card tools. No lesson content has been invented for them. Selection remains exclusive to the upper-left homepage triangles; study pages do not add an edition switch bar.
+
+## User-approved voice selections — 2026-09-14
+
+These are the user's final choices after listening to locally generated samples. Use them for future lessons and language development; do not silently substitute another voice. This records preferences only and does not change deployed audio.
+
+| Language | Flashcards — male | Writing practice — female | Engine / model |
+| --- | --- | --- | --- |
+| Spanish | Alex (`em_alex`) | Dora (`ef_dora`) | Official Kokoro-82M v1.0 |
+| Japanese | Kumo (`jm_kumo`) | Alpha (`jf_alpha`) | Official Kokoro-82M v1.0 |
+| German | Martin (`voices/martin.pt`) | Victoria (`voices/victoria.pt`) | Community Kokoro fine-tunes, listed below |
+| Italian | Nicola (`im_nicola`) | Sara (`if_sara`) | Existing Kokoro setup; retain |
+| French | Tom (`fr_FR-tom-medium`) | Siwis (`ff_siwis`) | Existing Piper / Kokoro setup; explicitly retained |
+
+German model repositories and the exact audition checkpoints:
+- https://huggingface.co/kikiri-tts/kikiri-german-martin — `kikiri_german_martin_ep10.pth`, `voices/martin.pt`.
+- https://huggingface.co/kikiri-tts/kikiri-german-victoria — `kikiri_german_victoria_ep10.pth`, `voices/victoria.pt`.
+- Use the corresponding German Kokoro/Misaki frontend and matching checkpoint/voice pair. These are community German adaptations, not interchangeable official base-model voicepacks. The audition patched German G2P `ʏ` to `y` as recommended for the model vocabulary.
+
+The Spanish, Japanese and German audition samples used speed 1.0, without pitch or style modifications. Preserve native-language pronunciation. The user prefers youthful adult, attractive, sensual, energetic voices, and likes the existing English and Italian voices; this is an aesthetic preference, not a guaranteed model capability. Keep the existing English voice recipe unchanged. No Korean voice has been selected.
+
+Audition files and the listening page are saved in `/Users/sammak/Downloads/Kokoro Voice Samples/`. These selections supersede earlier candidate lists (Spanish Santa, other Japanese female voices, and German Thorsten were not chosen).
