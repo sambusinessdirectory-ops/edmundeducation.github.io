@@ -19,13 +19,13 @@ bindEvents();window.trophyTest={
 };`});});
  await page.goto(origin+'/sentence-structure.html');await page.waitForFunction(()=>window.trophyTest);
  const prior=['ss1','ss31','ss152','ss181'].map((id,i)=>({id:'prior-'+i,lessonId:id,status:'completed',correctCount:50,totalCount:50}));
- prior.push(...[['ss9',25],['ss10',24],['ss11',49]].map(([lessonId,n])=>({id:'partial-'+lessonId,lessonId,status:'in_progress',correctCount:n,totalCount:50})));
+ prior.push(...[['ss9',40],['ss10',24],['ss11',49]].map(([lessonId,n])=>({id:'partial-'+lessonId,lessonId,status:'in_progress',correctCount:n,totalCount:50})));
  await page.evaluate(rows=>trophyTest.login('trophy-a',rows),prior);await page.waitForSelector('.expression-map-stone');
  const shelf=page.locator('[data-sentence-trophy-shelf]'),map=page.locator('[data-sentence-map]'),counter=page.locator('[data-sentence-trophy-counter]');
  assert.equal(await counter.locator('[data-trophy-counter-value]').innerText(),'4 / 345');
  assert.match(await counter.getAttribute('aria-label'),/4.*345/);
  await counter.locator('img').evaluate(i=>i.decode());
- assert.equal(await shelf.locator('[data-trophy-count]').innerText(),'4 / 345\n金色獎座 · 2 座銀色');
+ assert.equal(await shelf.locator('[data-trophy-count]').innerText(),'4 / 345\n金色獎座 · 2 銀色 · 0 銅色');
  assert.equal(await map.locator('.ss-trophy-marker').count(),5);
  await counter.click();await page.waitForFunction(()=>document.querySelector('[data-sentence-trophy-shelf]').open);assert.equal(await shelf.locator('[data-trophy-earned="true"]').count(),4);
  assert.equal(await shelf.locator('[data-trophy-lesson="ss181"]').getAttribute('data-trophy-earned'),'true');
@@ -126,7 +126,7 @@ bindEvents();window.trophyTest={
  assert.equal(await shelf.locator('[data-trophy-earned="true"]').count(),0);assert.equal(await map.locator('.ss-trophy-marker').count(),0);assert.equal(await shelf.evaluate(e=>e.open),false);
  assert.equal(await counter.locator('[data-trophy-counter-value]').innerText(),'0 / 345','Counter must not leak another account’s trophies');
  assert.equal(await map.getAttribute('data-trophies-hidden'),'false','A different student has their own visibility preference');
- await page.evaluate(()=>trophyTest.login('trophy-promotion',[{lessonId:'ss9',status:'in_progress',correctCount:25,totalCount:50}]));
+ await page.evaluate(()=>trophyTest.login('trophy-promotion',[{lessonId:'ss9',status:'in_progress',correctCount:40,totalCount:50}]));
  assert.equal(await map.locator('[data-trophy-level="8"]').getAttribute('data-trophy-tier'),'silver');
  await page.evaluate(()=>{trophyTest.state.attempts.push({lessonId:'ss9',status:'completed',correctCount:50,totalCount:50});trophyTest.dashboard();});
  assert.equal(await map.locator('[data-trophy-level="8"]').getAttribute('data-trophy-tier'),'gold','The same silver statue promotes to gold');

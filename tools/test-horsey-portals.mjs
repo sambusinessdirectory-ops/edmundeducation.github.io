@@ -5,7 +5,7 @@ for(const total of [20,30,40,50,1,7]) {
  const lesson={id:'lesson',questions:Array.from({length:total},(_,i)=>({id:String(i+1)}))};
  const attempt=n=>({lessonId:lesson.id,totalCount:total,correctCount:n,status:n===total?'completed':'in_progress',result:{correctIds:lesson.questions.slice(0,n).map(q=>q.id)}});
  assert.equal(horseyState(lesson,[attempt(Math.ceil(total/2)-1)]).tier,null);
- assert.equal(horseyState(lesson,[attempt(Math.ceil(total/2))]).tier,total===1?'gold':'silver');
+ assert.equal(horseyState(lesson,[attempt(Math.ceil(total/2))]).tier,total===1?'gold':'bronze');
  assert.equal(horseyState(lesson,[attempt(total),attempt(0)]).tier,'gold');
  assert.equal(horseyState(lesson,[{...attempt(total),totalCount:total+1}]).tier,null);
  assert.equal(horseyState(lesson,[{...attempt(total),result:{correctIds:['unknown']}}]).tier,null);

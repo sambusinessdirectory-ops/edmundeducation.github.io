@@ -22,7 +22,7 @@ test('Closet control is inserted before Eddie and opens an accessible dialog', (
 test('3D closet retains the classroom performance and lifecycle safeguards', () => {
   assert.match(closet, /three\.module\.js/);
   assert.match(closet, /new MascotCharacters\(\)/);
-  assert.match(closet, /Math\.min\(devicePixelRatio, 1\.6\)/);
+  assert.match(closet, /Math\.min\(devicePixelRatio, 1\.25\)/);
   assert.match(closet, /shadowMap\.autoUpdate = false/);
   assert.match(closet, /new ResizeObserver/);
   assert.match(closet, /prefers-reduced-motion/);
@@ -37,7 +37,7 @@ test('3D closet retains the classroom performance and lifecycle safeguards', () 
 test('reference-inspired wardrobe is real procedural geometry, not a flat screenshot', () => {
   assert.match(closet, /Wardrobe bay/);
   assert.match(closet, /ExtrudeGeometry\(garmentShape/);
-  assert.match(closet, /MeshPhysicalMaterial/);
+  assert.match(closet, /MeshStandardMaterial/);
   assert.match(closet, /bumpMap: surfaces\.weave/);
   assert.match(closet, /WebGLCubeRenderTarget/);
   assert.match(closet, /roundedPanel/);
@@ -102,5 +102,5 @@ test('closet UI is responsive and cache-busted on every shared-map consumer', ()
     'listening-system.html',
     'common-expression-written.html'
   ];
-  for (const file of consumers) assert.match(read(file), /common-expression-map\.(?:css\?v=20260914-closet9|mjs\?v=20260915-blink2)/, file);
+  for (const file of consumers) assert.match(read(file), /common-expression-map\.(?:css\?v=20260915-smooth1|mjs\?v=20260915-smooth1)/, file);
 });

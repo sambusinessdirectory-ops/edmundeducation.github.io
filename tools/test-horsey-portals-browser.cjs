@@ -16,17 +16,17 @@ for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.POR
   if(listening) s=s.replace('createListeningTrophyProgress({rpc,','createListeningTrophyProgress({rpc:async()=>[],');
   const fixture=ce ? `
    const fixtureLessons=SYSTEM.lessons;state.user={id:'fixture-a',name:'Fixture'};state.token='fixture';
-   for(const [i,l] of fixtureLessons.entries()) if(i<2) for(const q of l.questions.slice(0,i===0?l.questions.length:Math.ceil(l.questions.length/2)))lessonState(l.id).answers[q.id]={correct:true};
+   for(const [i,l] of fixtureLessons.entries()) if(i<3) for(const q of l.questions.slice(0,i===0?l.questions.length:Math.ceil(l.questions.length*(i===1?.5:.8))))lessonState(l.id).answers[q.id]={correct:true,updatedAt:"2026-09-14T10:00:00Z"};
    renderDashboard();showView('dashboard',{scroll:false});
    window.testHorsey={count:fixtureLessons.length,reset(){state.user.id='fixture-b';state.states.clear();renderDashboard();},exercise(){state.lessonId=fixtureLessons[0].id;renderQuestionList();}};
   ` : listening ? `
    rpc=async()=>[];state.user={id:'fixture-a',name:'Fixture'};state.token='fixture';await listeningTrophyProgress.restore();
    await listeningTrophyProgress.record(1,Array.from({length:40},(_,i)=>i+1));await listeningTrophyProgress.record(2,Array.from({length:20},(_,i)=>i+1));
-   renderPracticeGrid();showView('ielts',{scroll:false});syncIeltsMap();
+   await listeningTrophyProgress.record(3,Array.from({length:32},(_,i)=>i+1));renderPracticeGrid();showView('ielts',{scroll:false});syncIeltsMap();
    window.testHorsey={count:CATALOGUE.practices.length,reset:async()=>{state.user.id='fixture-b';await listeningTrophyProgress.restore();syncIeltsMap();}};
   ` : `
    state.user={id:'fixture-a',name:'Fixture',role:'student'};state.authToken='fixture';const fixtureLessons=lessonList();
-   state.attempts=fixtureLessons.slice(0,2).map((l,i)=>({lessonId:l.id,totalCount:l.questions.length,correctCount:i===0?l.questions.length:Math.ceil(l.questions.length/2),status:i===0?'completed':'in_progress',result:{correctIds:l.questions.slice(0,i===0?l.questions.length:Math.ceil(l.questions.length/2)).map(q=>q.id)}}));
+   state.attempts=fixtureLessons.slice(0,3).map((l,i)=>({lessonId:l.id,totalCount:l.questions.length,correctCount:i===0?l.questions.length:Math.ceil(l.questions.length*(i===1?.5:.8)),status:i===0?'completed':'in_progress',completedAt:"2026-09-14T10:00:00Z",result:{correctIds:l.questions.slice(0,i===0?l.questions.length:Math.ceil(l.questions.length*(i===1?.5:.8))).map(q=>q.id)}}));
    renderLessonChoices();showView('dashboard',{preserveScroll:true});
    window.testHorsey={count:fixtureLessons.length,reset(){state.user.id='fixture-b';state.attempts=[];renderLessonChoices();},exercise(){state.lessonId=fixtureLessons[0].id;ensureExercise(fixtureLessons[0]);state.exercise.correctIds=fixtureLessons[0].questions.map(q=>q.id);renderExercisePage(fixtureLessons[0]);}};
   `;
@@ -36,15 +36,39 @@ for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.POR
  const selector=ce?'[data-map-toggle]':listening?'[data-ielts-map-toggle]':portal==='phrasal-verb-system'?'[data-phrasal-map-toggle]':portal==='idiom-system'?'[data-idiom-map-toggle]':'[data-proverb-map-toggle]';
  await page.locator(selector).waitFor({state:'visible',timeout:30000});
  if(await page.locator('[data-horsey-map]').isHidden())await page.locator(selector).click();
- await page.locator('[data-horsey-map] .ss-map-trophy').first().waitFor({timeout:30000});
+ await page.locator('[data-horsey-map] .ss-map-trophy').first().waitFor({timeout:30000}).catch(async e=>{console.log(await page.locator('.ss-map-trophy').first().evaluate(el=>({html:el.outerHTML,ancestors:[...function*(x){while(x){yield [x.className,x.getBoundingClientRect().toJSON(),getComputedStyle(x).display];x=x.parentElement}}(el)]})));throw e;});
  const count=await page.evaluate(()=>testHorsey.count);
  assert.equal(await page.locator('[data-trophy-counter-value]').innerText(),'1 / '+count,portal+' counter');
  assert.equal(await page.locator('.ss-map-trophy[data-trophy-tier=gold]').count(),1);
  assert.equal(await page.locator('.ss-map-trophy[data-trophy-tier=silver]').count(),1);
- const trophy=page.locator('.ss-map-trophy').first();await trophy.scrollIntoViewIfNeeded();await trophy.click({force:true});assert.match(await trophy.getAttribute('class'),/is-bouncing/);
+ assert.equal(await page.locator('.ss-map-trophy[data-trophy-tier=bronze]').count(),1);
+ const trophy=page.locator('.ss-map-trophy').first();await trophy.scrollIntoViewIfNeeded();await trophy.dispatchEvent('click');assert.match(await trophy.getAttribute('class'),/is-bouncing/);
  assert.equal(await trophy.locator('.ss-trophy-sparkles i').count(),10);
  await page.locator('[data-toggle-map-trophies]').click();assert.equal(await trophy.isVisible(),false);
  await page.locator('[data-toggle-map-trophies]').click();assert.equal(await trophy.isVisible(),true);
+
+ const map=page.locator('[data-horsey-map]'),viewport=map.locator('.expression-map-viewport');
+ await viewport.focus();await page.keyboard.down('d');await page.waitForFunction(()=>document.querySelector('[data-horsey-map]').dataset.walking==='true');
+ assert.equal(await trophy.locator('.ss-trophy-sheen').evaluate(e=>getComputedStyle(e).display),'none','Walking pauses sheen');
+ await page.keyboard.up('d');await page.waitForFunction(()=>document.querySelector('[data-horsey-map]').dataset.walking==='false');
+ if(portal==='common-expression-speaking'){
+  await page.locator('[data-open-closet]').click();
+  await page.waitForFunction(()=>document.querySelector('[data-closet-stage] canvas')?.dataset.actorPosition,{timeout:60000});
+  assert.equal(await map.getAttribute('data-animating'),'false','Closet suspends background map');
+  const canvas=page.locator('[data-closet-stage] canvas'),before=await canvas.getAttribute('data-actor-position');
+  await canvas.focus();await page.keyboard.down('KeyD');await page.waitForTimeout(500);await page.keyboard.up('KeyD');
+  assert.notEqual(await canvas.getAttribute('data-actor-position'),before,'Closet WASD movement');
+  await page.locator('[data-close-closet]').click();
+  assert.equal(await page.locator('body').getAttribute('data-closet-open'),null);
+  await page.waitForFunction(()=>document.querySelector('[data-horsey-map]').dataset.animating==='true');
+ }
+ const shelf=page.locator('[data-horsey-shelf]');await shelf.evaluate(e=>e.open=true);
+ const individual=shelf.locator('[data-trophy-visibility-lesson]').first();await individual.click();
+ assert.equal(await trophy.isVisible(),false,portal+' individual hiding');
+ await page.locator('[data-show-all-trophies]').click();assert.equal(await trophy.isVisible(),true);
+ assert.equal(await shelf.locator('[data-trophy-visibility-lesson]').first().getAttribute('aria-pressed'),'false');
+ assert.ok(await shelf.locator('.ss-trophy-date time').count()>0,portal+' award date');
+ await shelf.evaluate(e=>e.open=false);
  await page.locator('[data-horsey-map]').screenshot({path:out+'/'+portal+'.png'});
  await page.locator(selector).click();assert.equal(await page.locator('[data-horsey-map]').isHidden(),true);
  await page.locator(selector).click();assert.equal(await trophy.isVisible(),true);

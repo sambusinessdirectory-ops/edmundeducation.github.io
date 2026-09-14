@@ -1,9 +1,9 @@
 import { createLessonLibrary } from "./lesson-library.mjs?v=20260908-loading1";
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
-import { createExpressionMap } from "./common-expression-map.mjs?v=20260915-blink2";
-import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260915-blink2";
+import { createExpressionMap } from "./common-expression-map.mjs?v=20260915-smooth1";
+import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260915-smooth1";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260914-hotel3b";
-import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies, syncSentenceTrophyCounter, syncSentenceTrophyControls, animateSentenceTrophy } from "./sentence-structure-trophies.mjs?v=20260914-trophy4";
+import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies, syncSentenceTrophyCounter, syncSentenceTrophyControls, animateSentenceTrophy, awardDateMarkup } from "./sentence-structure-trophies.mjs?v=20260915-smooth1";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const lessonLibrary = createLessonLibrary(new URL("./assets/sentence-structure/library/manifest.json?v=20260908-loading1", import.meta.url));
@@ -702,7 +702,7 @@ function openRequestedHomeworkLesson() {
 function renderLessonChoices() {
   sentenceTrophies = sentenceTrophyCollection(lessonList(), state.user?.role === "student" ? state.attempts : []);
   earnedSentenceTrophies = new Set(sentenceTrophies.filter(item => item.earned).map(item => item.lesson.id));
-  renderSentenceTrophyShelf(document.querySelector("[data-sentence-trophy-shelf]"), sentenceTrophies);
+  renderSentenceTrophyShelf(document.querySelector("[data-sentence-trophy-shelf]"), sentenceTrophies, String(state.user?.id || ""));
   if (elements.lessonCount) elements.lessonCount.textContent = String(lessonList().length);
   const cards = lessonList().map((lesson, index) => {
     const complete = earnedSentenceTrophies.has(lesson.id);
@@ -1750,7 +1750,8 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
       </div>`
     : "";
 
-  const trophyEarned = sentenceTrophyState(lesson, [{lessonId: lesson.id, status: completed ? 'completed' : 'in_progress', totalCount: total, correctCount: correct, result: {correctIds: state.exercise.correctIds}}]).earned;
+  const trophyProgress = sentenceTrophyState(lesson, [{lessonId: lesson.id, status: completed ? 'completed' : 'in_progress', totalCount: total, correctCount: correct, completedAt:state.exercise.completedAt, result: {correctIds: state.exercise.correctIds,rounds:state.exercise.rounds}}]);
+  const trophyEarned = trophyProgress.earned;
   const trophyOrder = lessonList().findIndex(item => item.id === lesson.id) + 1;
   elements.lessonContent.innerHTML = `<section class="exercise-page">
     <header class="exercise-header">
@@ -1765,6 +1766,7 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
       <p class="eyebrow">GOLDEN HORSEY · MODULE ${escapeHtml(String(trophyOrder).padStart(2, '0'))}</p>
       ${goldenEddieFigure(trophyOrder, {eager: true})}
       <h3>你的金色 Horsey 獎座！</h3>
+      ${awardDateMarkup(trophyProgress)}
       <p>你已完成 <strong>${escapeHtml(lessonEnglishTitle(lesson))}</strong> 的全部 <strong>50 / 50</strong> 題。</p>
       <div class="round-summary-actions"><button class="primary-button" type="button" data-view-sentence-trophies>查看我的獎座 →</button><button class="secondary-button" type="button" data-finish-exercise>返回學習首頁</button></div>
     </section>` : completed ? `<section class="round-summary completion-card">

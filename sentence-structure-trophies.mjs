@@ -1,3 +1,7 @@
+import {trophyProgress,awardDateMarkup,tierName} from './horsey-awards.mjs';
+import {syncTrophyExtras,visibilityButton,handleVisibilityClick} from './horsey-trophy-ui.mjs';
+export {awardDateMarkup};
+const shelfBindings = new WeakMap();
 export const GOLDEN_EDDIE_ART = 'assets/sentence-structure/rewards/golden-eddie-v1.webp';
 export const GOLDEN_EDDIE_MAP_ART = 'assets/sentence-structure/rewards/golden-eddie-map-v2.webp';
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -6,22 +10,8 @@ const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp
 // Use the existing account-scoped attempts; never combine partial attempts or
 // maintain a second reward store. Older records may contain counts without IDs.
 export function sentenceTrophyState(lesson, attempts = []) {
-  const questions = lesson?.questions || [];
-  const expected = new Set(questions.map(q => q.id));
-  const eligible = questions.length === 50 && expected.size === 50;
-  let correct = 0, earned = false;
-  for (const attempt of attempts) {
-    if (attempt.lessonId !== lesson?.id) continue;
-    const count = Number(attempt.correctCount);
-    if (!Number.isFinite(count) || count < 0) continue;
-    const ids = attempt.result?.correctIds;
-    const actual = Array.isArray(ids) ? new Set(ids.filter(id => expected.has(id))).size : count;
-    correct = Math.max(correct, Math.min(50, count, actual));
-    if (eligible && attempt.status === 'completed' && Number(attempt.totalCount) === 50
-      && count === 50 && actual === 50) earned = true;
-  }
-  const tier = !eligible ? null : earned ? 'gold' : correct >= 25 ? 'silver' : null;
-  return { eligible, earned, tier, correct: Math.floor(correct), total: 50 };
+  const result = trophyProgress(lesson, attempts);
+  return lesson?.questions?.length === 50 ? result : {...result,eligible:false,tier:null,earned:false};
 }
 
 export function sentenceTrophyCollection(lessons, attempts = []) {
@@ -67,7 +57,7 @@ function sculpture(art, { order, preview = false, eager = false, marker = false 
 }
 
 export function goldenEddieFigure(order, { preview = false, eager = false, tier = 'gold' } = {}) {
-  const title = tier === 'silver' ? '銀色 Eddie 獎座' : '金色 Eddie 獎座';
+  const title = tierName(tier) + ' Eddie 獎座';
   return `<figure class="ss-trophy-figure${preview ? ' is-preview' : ''}" data-trophy-tier="${tier}">${preview ? `<span class="ss-trophy-preview" aria-label="${title}預覽">${sculpture(GOLDEN_EDDIE_ART, {order, preview, eager})}</span>` : `<button type="button" class="ss-trophy-interactive" data-trophy-interact aria-label="讓${title}浮起搖擺 · 句型 ${order}">${sculpture(GOLDEN_EDDIE_ART, {order, eager})}</button>`}</figure>`;
 }
 
@@ -87,7 +77,8 @@ const preferenceKey = owner => `edmund-sentence-trophies-v1:${owner}`;
 export function syncSentenceTrophyControls(root, owner = '') {
   const tools = root?.querySelector('.expression-map-tools');
   if (!tools) return;
-  if (root.dataset.trophyOwner !== owner) {
+  const ownerChanged = root.dataset.trophyOwner !== owner;
+  if (ownerChanged) {
     root.dataset.trophyOwner = owner;
     let hidden = false;
     try { hidden = Boolean(owner) && localStorage.getItem(preferenceKey(owner)) === 'hidden'; } catch {}
@@ -110,16 +101,22 @@ export function syncSentenceTrophyControls(root, owner = '') {
   toggle.textContent = hidden ? '顯示獎座' : '隱藏獎座';
   toggle.setAttribute('aria-label', '隱藏地圖獎座');
   toggle.setAttribute('aria-pressed', String(hidden));
+  if(ownerChanged) root.dispatchEvent(new CustomEvent('horsey-owner-change'));
 }
 
-export function renderSentenceTrophyShelf(root, collection) {
+export function renderSentenceTrophyShelf(root, collection, owner = '') {
   if (!root) return;
+  let binding=shelfBindings.get(root);
+  if(!binding){binding={};shelfBindings.set(root,binding);window.addEventListener('horsey-visibility-change',event=>{if(event.detail===binding.owner && root.isConnected)renderSentenceTrophyShelf(root,binding.collection,binding.owner);});}
+  Object.assign(binding,{collection,owner});
+  root.onclick=event=>handleVisibilityClick(event,owner);
   const earned = collection.filter(item => item.earned);
   const silver = collection.filter(item => item.tier === 'silver');
   const next = collection.filter(item => !item.tier).sort((a, b) => b.correct - a.correct || a.order - b.order)[0];
-  const cards = [...earned, ...silver, ...(next ? [next] : [])];
-  root.innerHTML = `<summary class="ss-trophy-summary"><img src="${GOLDEN_EDDIE_ART}" alt="" width="72" height="72" draggable="false"><span><small>THE HORSEY COLLECTION</small><strong>我的 Horsey 獎座</strong><span>答對 25 題獲得銀色 Eddie，完成全部 50 題升級為金色。</span></span><b data-trophy-count>${earned.length} / ${collection.length}<small>金色獎座 · ${silver.length} 座銀色</small></b><i aria-hidden="true">⌄</i></summary>
-    <div class="ss-trophy-cabinet"><div class="ss-trophy-cabinet-heading"><h2>你的努力，閃閃發光</h2><p>已獲得 ${earned.length} 座金色、${silver.length} 座銀色獎座。點一下 Eddie，讓牠開心地跳一跳。</p></div><div class="ss-trophy-grid">${cards.map(item => `<article class="ss-trophy-display${item.earned ? ' is-earned' : item.tier ? ' is-silver' : ' is-locked'}" data-trophy-lesson="${escape(item.lesson.id)}" data-trophy-earned="${item.earned}" data-trophy-tier="${item.tier || 'none'}"><span class="ss-trophy-status">${item.earned ? '✓ 金色獎座 · GOLD' : item.tier === 'silver' ? '銀色獎座 · SILVER' : '下一座獎座 · UP NEXT'}</span>${goldenEddieFigure(item.order, {preview: !item.tier, tier: item.tier || 'gold'})}<div class="ss-trophy-nameplate"><small>MODULE ${String(item.order).padStart(2, '0')}</small><h3>${escape(item.lesson.titleEn || item.lesson.title)}</h3><p>${escape(item.lesson.title || item.lesson.titleZh || '')}</p><span>${item.correct} / 50 題已完成</span></div><button type="button" class="ss-trophy-action" data-open-lesson="${escape(item.lesson.id)}">${item.earned ? '重溫句型' : '繼續學習'} <span aria-hidden="true">→</span></button></article>`).join('')}</div></div>`;
+  const bronze = collection.filter(item => item.tier === 'bronze');
+  const cards = [...earned, ...silver, ...bronze, ...(next ? [next] : [])];
+  root.innerHTML = `<summary class="ss-trophy-summary"><img src="${GOLDEN_EDDIE_ART}" alt="" width="72" height="72" draggable="false"><span><small>THE HORSEY COLLECTION</small><strong>我的 Horsey 獎座</strong><span>25–39 題：銅色 · 40–49 題：銀色 · 50 題：金色。</span></span><b data-trophy-count>${earned.length} / ${collection.length}<small>金色獎座 · ${silver.length} 銀色 · ${bronze.length} 銅色</small></b><i aria-hidden="true">⌄</i></summary>
+    <div class="ss-trophy-cabinet"><div class="ss-trophy-cabinet-heading"><h2>你的努力，閃閃發光</h2><p>已獲得 ${earned.length} 座金色、${silver.length} 座銀色、${bronze.length} 座銅色獎座。點一下 Eddie，讓牠開心地跳一跳。</p></div><div class="ss-trophy-grid">${cards.map(item => `<article class="ss-trophy-display${item.earned ? ' is-earned' : item.tier ? ' is-silver' : ' is-locked'}" data-trophy-lesson="${escape(item.lesson.id)}" data-trophy-earned="${item.earned}" data-trophy-tier="${item.tier || 'none'}"><span class="ss-trophy-status">${item.earned ? '✓ 金色獎座 · GOLD' : item.tier ? tierName(item.tier) + '獎座' : '下一座獎座 · UP NEXT'}</span>${goldenEddieFigure(item.order, {preview: !item.tier, tier: item.tier || 'gold'})}<div class="ss-trophy-nameplate"><small>MODULE ${String(item.order).padStart(2, '0')}</small><h3>${escape(item.lesson.titleEn || item.lesson.title)}</h3><p>${escape(item.lesson.title || item.lesson.titleZh || '')}</p><span>${item.correct} / 50 題已完成</span>${awardDateMarkup(item)}</div>${visibilityButton(item,owner)}<button type="button" class="ss-trophy-action" data-open-lesson="${escape(item.lesson.id)}">${item.earned ? '重溫句型' : '繼續學習'} <span aria-hidden="true">→</span></button></article>`).join('')}</div></div>`;
 }
 
 // Trophy buttons sit beside the original platform buttons, avoiding nested
@@ -155,7 +152,7 @@ export function syncSentenceMapTrophies(root, lessons, collection) {
     }
     button.dataset.trophyTier = tier;
     button.dataset.hotelTrophy = String(hotel);
-    button.setAttribute('aria-label', `${tier === 'gold' ? '金色' : '銀色'} Eddie · ${lesson.titleEn || lesson.title} · 點一下浮起搖擺`);
+    button.setAttribute('aria-label', `${tierName(tier)} Eddie · ${lesson.titleEn || lesson.title} · 點一下浮起搖擺`);
     const size = paired ? 52 : hotel ? 72 : 154;
     const offsetX = paired ? platform.classList.contains('hotel-door-secondary') ? 31 : -14 : (platform.offsetWidth-size)/2;
     const offsetY = paired ? 31 : hotel ? 7 : -107;
@@ -163,4 +160,5 @@ export function syncSentenceMapTrophies(root, lessons, collection) {
     button.style.left = `${platform.offsetLeft+offsetX}px`;
     button.style.top = `${platform.offsetTop+offsetY}px`;
   }
+  syncTrophyExtras(root, lessons, collection);
 }

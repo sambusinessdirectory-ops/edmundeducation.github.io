@@ -1,3 +1,4 @@
+import {batchClosetSurfaces} from './closet-static-batches.mjs';
 import * as THREE from './vendor/three/three.module.js';
 import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260908-room10';
 
@@ -170,7 +171,11 @@ function buildCloset(scene, resources) {
   const featureWallMap = loadSurface('./assets/closet/materials/charcoal-bronze-plaster-v1.jpg', { repeat: [2.2, 1.25] });
   const featureWallBump = loadSurface('./assets/closet/materials/charcoal-bronze-plaster-v1.jpg', { color: false, repeat: [2.2, 1.25] });
   const material = (color, options = {}) => {
-    const value = new THREE.MeshPhysicalMaterial({ color, roughness: .72, envMapIntensity: .7, ...options });
+    // Match the smooth speaking classroom's single-layer material model.
+    // Colour, fabric maps, metal, roughness and reflections are retained without
+    // evaluating extra clearcoat and sheen lighting lobes for every fragment.
+    const {clearcoat, clearcoatRoughness, sheen, sheenColor, ...standard} = options;
+    const value = new THREE.MeshStandardMaterial({ color, roughness: .72, envMapIntensity: .7, ...standard });
     resources.materials.add(value);
     return value;
   };
@@ -195,12 +200,12 @@ function buildCloset(scene, resources) {
   resources.materials.add(featureWall);
   const foldedSideColours = ['#ddd5c8', '#64758b', '#9c897a', '#484746'];
   const foldedSides = foldedSideColours.map(color => material(color, { roughness: .96, metalness: 0, clearcoat: 0, bumpMap: surfaces.weave, bumpScale: .025 }));
-  const foldedTops = generatedGarments.map(map => material('#ffffff', { map, transparent: true, alphaTest: .08, roughness: .96, metalness: 0, clearcoat: 0, side: THREE.DoubleSide }));
+  const foldedTops = generatedGarments.map(map => material('#ffffff', { map, transparent: false, alphaTest: .08, roughness: .96, metalness: 0, clearcoat: 0, side: THREE.DoubleSide }));
   const hangingGarmentFaces = hangingGarmentSpecs.map(([name, , roughness, sheen], index) =>
     material('#ffffff', {
       name: 'Generated ' + name + ' material',
       map: hangingGarmentMaps[index],
-      transparent: true,
+      transparent: false,
       alphaTest: .08,
       roughness,
       sheen,
@@ -376,7 +381,7 @@ function buildCloset(scene, resources) {
         new THREE.Vector3(garmentX, 2.82, -4.03), new THREE.Vector3(garmentX + .07, 2.95, -4.03)
       ]);
       resources.geometries.add(hangerGeometry);
-      const hangerMaterial = new THREE.LineBasicMaterial({ color: '#c9a77c', transparent: true, opacity: .92 });
+      const hangerMaterial = new THREE.LineBasicMaterial({ color: '#c9a77c', transparent: false, opacity: .92 });
       resources.materials.add(hangerMaterial);
       bay.add(new THREE.LineSegments(hangerGeometry, hangerMaterial));
     }
@@ -503,7 +508,7 @@ function mountCloset(root, character, signal) {
   const movementRight = new THREE.Vector3();
 
   const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
-  renderer.setPixelRatio(Math.min(devicePixelRatio, 1.6));
+  renderer.setPixelRatio(Math.min(devicePixelRatio, 1.25));
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
   renderer.toneMappingExposure = 1.08;
@@ -548,6 +553,7 @@ function mountCloset(root, character, signal) {
   scene.add(leftGlow, rightGlow, frontGlow);
 
   const environment = buildCloset(scene, resources);
+  batchClosetSurfaces(scene, environment.group, resources, environment.mirrorSurface);
   const plinthMaterial = new THREE.MeshStandardMaterial({ color: '#312823', roughness: .55, metalness: .12 });
   resources.materials.add(plinthMaterial);
   const plinthGeometry = new THREE.CylinderGeometry(.74, .82, .14, 48);
@@ -695,8 +701,20 @@ function mountCloset(root, character, signal) {
   renderer.shadowMap.needsUpdate = true;
 
   const clock = new THREE.Clock();
-  const render = () => {
-    if (disposed) return;
+  let lastRender = 0, budgetSamples = 0, slowFrames = 0;
+  document.addEventListener('visibilitychange', () => {
+    movementKeys.clear();
+    if (!document.hidden && !disposed) { clock.getDelta(); cancelAnimationFrame(frame); frame=requestAnimationFrame(render); }
+  }, {signal});
+  const render = (now = performance.now()) => {
+    if (disposed || document.hidden) return;
+    if (!movementKeys.size && !drag && now-lastRender < 32) { frame=requestAnimationFrame(render); return; }
+    if (lastRender && now-lastRender > (movementKeys.size || drag ? 26 : 46)) slowFrames++;
+    if (++budgetSamples >= 24) {
+      if (slowFrames > 12 && renderer.getPixelRatio() > .65) { renderer.setPixelRatio(Math.max(.65, renderer.getPixelRatio() * .8)); resize(); }
+      budgetSamples=0;slowFrames=0;
+    }
+    lastRender=now;
     const delta = Math.min(clock.getDelta(), .05);
     elapsed += delta;
     if (actor) {
@@ -807,6 +825,8 @@ export function openCompanionCloset({ character = 'eddy' } = {}) {
     controller.abort();
     if (dialog.open) dialog.close();
     dialog.remove();
+    delete document.body.dataset.closetOpen;
+    window.dispatchEvent(new CustomEvent('edmund-closet-visibility', {detail:false}));
     if (activeClose === close) activeClose = null;
   };
   activeClose = close;
@@ -818,6 +838,8 @@ export function openCompanionCloset({ character = 'eddy' } = {}) {
   dialog.addEventListener('click', event => {
     if (event.target === dialog) close();
   }, { signal: controller.signal });
+  document.body.dataset.closetOpen = 'true';
+  window.dispatchEvent(new CustomEvent('edmund-closet-visibility', {detail:true}));
   dialog.showModal();
   mountCloset(dialog.querySelector('[data-closet-stage]'), character, controller.signal);
   return { close };

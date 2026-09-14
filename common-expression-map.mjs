@@ -1,5 +1,5 @@
-import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-blink2';
-import { blinkAmount } from './speaking-mascot-behaviour.mjs?v=20260915-blink2';
+import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-smooth1';
+import { blinkAmount } from './speaking-mascot-behaviour.mjs?v=20260915-smooth1';
 
 const WIDTH = 1600, HEIGHT = 1950;
 const CHARACTERS = [{ id: 'eddy', name: 'Eddie', flag: '#c84438' }, { id: 'phoebe', name: 'Phoebe', flag: '#b5a0dc' }, { id: 'elsie', name: 'Elsie', flag: '#edc84a' }];
@@ -171,7 +171,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   const openCloset = async () => {
     const request = ++closetRequest;
     try {
-      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260914-closet9');
+      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-smooth1');
       if (request !== closetRequest) return;
       closetHandle?.close();
       closetHandle = openCompanionCloset({ character });
@@ -226,7 +226,8 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     const ctx=horse.getContext('2d'); ctx.clearRect(0,0,horse.width,horse.height);
     ctx.save(); ctx.scale(2,2); drawSprite(ctx,character,angle,time,walking,136,165); ctx.restore();
     horse.style.left=`${position.x}px`; horse.style.top=`${position.y-12}px`;
-    horse.dataset.moving=String(walking);
+    if (horse.dataset.moving !== String(walking)) horse.dataset.moving=String(walking);
+    if (root.dataset.walking !== String(walking)) root.dataset.walking=String(walking);
     shadow.style.left=`${position.x}px`; shadow.style.top=`${position.y-12}px`;
   }
   function select(index, { center = true } = {}) {
@@ -360,17 +361,18 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     root.querySelectorAll('[data-character]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.character===character)));
     horse?.setAttribute('aria-label',CHARACTERS.find(c=>c.id===character).name);
     updateFlag();
+    root.dispatchEvent(new CustomEvent('map-selection-change', {detail:lesson.id}));
     positionPopup();
   }
   function stopAnimation() { root.dataset.animating='false'; cancelAnimationFrame(frame); frame=0; lastFrame=0; keys.clear(); }
   function startAnimation() {
-    if(frame || !active || !mode || !visible || document.hidden) return;
+    if(frame || !active || !mode || !visible || document.hidden || document.body.dataset.closetOpen === 'true') return;
     root.dataset.animating=String(!reduced.matches);
     frame=requestAnimationFrame(animate);
   }
   function animate(time) {
     frame=0;
-    if(!active||!mode||!visible||document.hidden) return;
+    if(!active||!mode||!visible||document.hidden||document.body.dataset.closetOpen==='true') return;
     // Hosts can restore preferences before revealing their dashboard. Wait for
     // a real viewport before centring a saved location in another realm.
     if(needsCenter && viewport.clientWidth) { setScale(zoom,position); needsCenter=false; }
@@ -472,6 +474,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     // Losing keyboard focus must not freeze a map that is still visible.
     // Visibility/viewport observers below own animation suspension.
     on(window,'blur',()=>{if(keys.size){keys.clear();settleArrival();}});
+    on(window,'edmund-closet-visibility',event=>event.detail?stopAnimation():startAnimation());
     on(window,'focus',startAnimation);
     on(document,'visibilitychange',()=>document.hidden?stopAnimation():startAnimation());
     on(reduced,'change',()=>{if(reduced.matches && journey){position={...journey.to};journey=null;settleArrival();}drawHorse(performance.now(),false);startAnimation();});
