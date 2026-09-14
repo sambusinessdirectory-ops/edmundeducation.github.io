@@ -1,3 +1,4 @@
+import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260914-portals1';
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
 const ROOT = document.documentElement;
 const BODY = document.body;
@@ -6,7 +7,7 @@ const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CATALOGUE = window.EDMUND_COMMON_EXPRESSION_DATA || { systems: {} };
 const SYSTEM_KEY = String(BODY.dataset.commonExpressionSystem || "").trim();
 const SYSTEM = CATALOGUE.systems?.[SYSTEM_KEY];
-const HAS_LESSON_MAP = ["speaking", "written", "rhetorical-speaking", "rhetorical-writing"].includes(SYSTEM_KEY);
+const HAS_LESSON_MAP = ["speaking", "written", "rhetorical-speaking", "rhetorical-writing", "professional-message", "business-speaking"].includes(SYSTEM_KEY);
 
 if (!SYSTEM) throw new Error(`Unknown Common Expression system: ${SYSTEM_KEY || "missing"}`);
 
@@ -527,6 +528,14 @@ const elements = {
   toast: document.querySelector("[data-toast]")
 };
 
+let horseyTrophies = null;
+let horseyMapLessons = SYSTEM.lessons;
+function syncHorseyTrophies() {
+  const root = document.querySelector('[data-expression-map]');
+  if (!root) return;
+  horseyTrophies ||= createHorseyTrophies({systemKey:'common-expression-'+SYSTEM_KEY,root,getLessons:()=>SYSTEM.lessons,getMapLessons:()=>horseyMapLessons,getOwner:()=>state.user?.id,answersFor:id=>lessonState(id).answers,openLesson});
+  horseyTrophies.sync();
+}
 let expressionMap = null;
 let expressionMapModule = null;
 
@@ -540,6 +549,7 @@ function syncExpressionMap() {
   ]);
   expressionMapModule.then(([{ createExpressionMap }, scene]) => {
     if (!state.user) return;
+    horseyMapLessons = scene?.blueprintLessons ? scene.blueprintLessons(SYSTEM.lessons) : SYSTEM.lessons;
     expressionMap ||= createExpressionMap({
       root: document.querySelector("[data-expression-map]"),
       toggle: document.querySelector("[data-map-toggle]"),
@@ -553,6 +563,7 @@ function syncExpressionMap() {
     document.querySelector("[data-map-toggle]").disabled = false;
     expressionMap.update(state.user.id || state.user.name);
     expressionMap.setActive(state.currentView === "dashboard");
+    syncHorseyTrophies();
   }).catch(error => {
     expressionMapModule = null;
     console.warn("Interactive map could not load", error);
@@ -1022,6 +1033,7 @@ function renderProgressDashboard() {
 }
 
 function renderDashboard() {
+  syncHorseyTrophies();
   const questionCount = totalCompletedQuestions();
   const duration = SYSTEM.lessons.reduce((sum, lesson) => sum + currentDurationMs(lesson.id), 0);
   elements.dashboardWelcome.textContent = `${state.user.name}，請選擇一個課題開始學習。`;
@@ -1157,6 +1169,8 @@ function renderQuestionList({ preserveScroll = false } = {}) {
       : `<label class="field"><span>您的改寫答案${saved.correct ? " · 已完成" : ""}</span><textarea class="answer-field" data-answer-field data-question-id="${escapeHtml(question.id)}" spellcheck="true" autocomplete="off" ${saved.correct ? "readonly" : ""} placeholder="輸入完整的改寫句子…">${escapeHtml(saved.answer || "")}</textarea></label>`;
     return `<article class="question-card glass-panel${saved.correct ? " is-correct" : ""}" data-question-id="${escapeHtml(question.id)}" data-edmund-prompt-text="${escapeHtml(question.promptEn)}"${feedback ? ` data-edmund-answer-text="${escapeHtml(question.answerEn)}"` : ""} data-edmund-record-id="${escapeHtml(question.id)}" data-edmund-record-title="${escapeHtml(`${SYSTEM.titleEn} · ${lesson.titleEn} · 第 ${index + 1} 題`)}"><div class="question-meta"><span class="question-number">QUESTION ${String(index + 1).padStart(2, "0")} / ${lesson.questions.length}</span>${index === 0 ? `<button class="star-button" type="button" data-question-lesson-bookmark aria-pressed="${state.bookmarks.has(lesson.id)}" aria-label="收藏本課題">${state.bookmarks.has(lesson.id) ? "★" : "☆"}</button>` : ""}</div><p class="prompt-en">${escapeHtml(question.promptEn)}</p><p class="prompt-zh">${escapeHtml(question.promptZh)}</p>${answerFields}<div class="question-inline-actions"><button class="text-button" type="button" data-clear-answer="${escapeHtml(question.id)}" ${saved.correct ? "disabled" : ""}>清除答案</button></div>${feedback}</article>`;
   }).join("");
+  syncHorseyTrophies();
+  horseyTrophies?.celebrate(elements.questionList, lesson, lesson.questions.filter(q=>lessonState(lesson.id).answers[q.id]?.correct).map(q=>q.id));
   elements.exerciseDraftStatus.textContent = state.dirtyLessonIds.has(lesson.id) ? "有尚未同步的答案" : "答案已同步";
   if (scrollPosition !== null) requestAnimationFrame(() => window.scrollTo({ top: scrollPosition }));
 }

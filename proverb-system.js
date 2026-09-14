@@ -1,3 +1,5 @@
+import { createExpressionMap } from './common-expression-map.mjs?v=20260914-portals1';
+import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260914-portals1';
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
 /*
  * Public lesson contract (provided by proverb-system-data.js):
@@ -379,6 +381,7 @@ function showView(name, { preserveScroll = false } = {}) {
     pauseExerciseClock({ persist: name !== "lesson" && state.lessonPage === EXERCISE_PAGE });
   }
   state.currentView = name;
+  proverbMap?.setActive(name === 'dashboard');
   document.body.dataset.proverbView = name;
   for (const view of elements.views) view.hidden = view.dataset.view !== name;
 
@@ -500,6 +503,7 @@ function readSession() {
 }
 
 function clearSession() {
+  proverbMap?.reset();
   window.clearTimeout(state.exercisePersistTimer);
   state.exercisePersistTimer = null;
   pauseExerciseClock();
@@ -770,7 +774,20 @@ function openRequestedHomeworkLesson() {
   return true;
 }
 
+let proverbMap = null;
+let horseyTrophies = null;
+function syncHorseyTrophies() {
+  const root = document.querySelector('[data-proverb-map]');
+  if (!root) return;
+  horseyTrophies ||= createHorseyTrophies({systemKey:'proverb',mapTitle:'諺語探索之旅',root,getLessons:lessonList,getMapLessons:lessonList,getOwner:()=>state.user?.id,getAttempts:()=>state.attempts,openLesson:id=>openLesson(id,{page:1})});
+  horseyTrophies.sync();
+}
+
 function renderLessonChoices() {
+  if (!proverbMap && lessonList().length) proverbMap = createExpressionMap({root:document.querySelector('[data-proverb-map]'),toggle:document.querySelector('[data-proverb-map-toggle]'),grid:elements.lessonChoiceGrid,lessons:lessonList(),systemKey:'proverb',getCompleted:id=>Math.max(0,...state.attempts.filter(a=>a.lessonId===id&&a.totalCount===getLesson(id)?.questions.length).map(a=>a.correctCount)),openLesson:id=>openLesson(id,{page:1})});
+  proverbMap?.update(String(state.user?.id || ''));
+  proverbMap?.setActive(state.currentView === 'dashboard');
+  syncHorseyTrophies();
   if (elements.lessonCount) elements.lessonCount.textContent = String(lessonList().length);
   const cards = lessonList().map((lesson, index) => {
     const questionCount = lessonQuestionCount(lesson);
@@ -2033,6 +2050,8 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     </div>` : ""}
   </section>`;
 
+  syncHorseyTrophies();
+  horseyTrophies?.celebrate(elements.lessonContent, lesson, state.exercise.correctIds);
   updateLessonStepper();
   if (!completed) startExerciseClock();
   syncExerciseButtons();

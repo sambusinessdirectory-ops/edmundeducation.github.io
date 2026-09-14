@@ -1,3 +1,4 @@
+import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260914-portals1';
 /*
  * Public lesson contract (provided by phrasal-verb-system-data.js):
  * { version, system: "phrasal-verb", lessons: PhrasalVerbLesson[] }.
@@ -1739,7 +1740,16 @@ function openRequestedHomeworkLesson() {
   return true;
 }
 
+let horseyTrophies = null;
+function syncHorseyTrophies() {
+  const root = document.querySelector('[data-phrasal-map]');
+  if (!root) return;
+  horseyTrophies ||= createHorseyTrophies({systemKey:'phrasal-verb',root,getLessons:lessonList,getMapLessons:() => phrasalJourneyLessons(lessonList()),getOwner:()=>state.user?.id,getAttempts:()=>state.attempts,openLesson:id=>openLesson(id,{page:1})});
+  horseyTrophies.sync();
+}
+
 function renderLessonChoices() {
+  syncHorseyTrophies();
   if (elements.lessonCount) elements.lessonCount.textContent = String(lessonList().length);
   const cards = lessonList().map((lesson, index) => {
     const questionCount = lessonQuestionCount(lesson);
@@ -3073,6 +3083,8 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     </div>` : ""}
   </section>`;
 
+  syncHorseyTrophies();
+  horseyTrophies?.celebrate(elements.lessonContent, lesson, state.exercise.correctIds);
   updateLessonStepper();
   if (!completed) startExerciseClock();
   syncExerciseButtons();

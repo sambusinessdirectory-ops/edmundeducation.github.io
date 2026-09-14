@@ -1,3 +1,4 @@
+import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260914-portals1';
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
 const CONFIG = window.EDMUND_IDIOM_SYSTEM_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -688,7 +689,16 @@ function openRequestedHomeworkLesson() {
   return true;
 }
 
+let horseyTrophies = null;
+function syncHorseyTrophies() {
+  const root = document.querySelector('[data-idiom-map]');
+  if (!root) return;
+  horseyTrophies ||= createHorseyTrophies({systemKey:'idiom',root,getLessons:lessonList,getMapLessons:() => lessonList().slice(0, 30),getOwner:()=>state.user?.id,getAttempts:()=>state.attempts,openLesson:id=>openLesson(id,{page:1})});
+  horseyTrophies.sync();
+}
+
 function renderLessonChoices() {
+  syncHorseyTrophies();
   if (elements.lessonCount) elements.lessonCount.textContent = String(lessonList().length);
   const cards = lessonList().map((lesson, index) => {
     const totalQuestions = Array.isArray(lesson.questions) ? lesson.questions.length : 0;
@@ -1955,6 +1965,8 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     </div>` : ""}
   </section>`;
 
+  syncHorseyTrophies();
+  horseyTrophies?.celebrate(elements.lessonContent, lesson, state.exercise.correctIds);
   updateLessonStepper();
   if (!completed) startExerciseClock();
   syncExerciseButtons();

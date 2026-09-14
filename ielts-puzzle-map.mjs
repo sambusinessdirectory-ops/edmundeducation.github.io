@@ -6,9 +6,9 @@ import {mountPuzzleEffects} from './ielts-puzzle-effects.mjs';
 export function puzzleLessons(practices){
  return practices.filter(p=>Number.isInteger(p.practice)&&p.practice>=1&&p.practice<=PUZZLE_LIMIT)
   .sort((a,b)=>a.practice-b.practice)
-  .map(p=>({id:p.id,order:p.practice,titleEn:`IELTS Listening Practice ${p.practice}`,titleZh:`${p.parts.length} 個部分 · Parts 1–${p.parts.length}`,mapLabel:`Practice ${p.practice}`,questions:[]}));
+  .map(p=>({id:p.id,order:p.practice,titleEn:`IELTS Listening Practice ${p.practice}`,titleZh:`${p.parts.length} 個部分 · Parts 1–${p.parts.length}`,mapLabel:`Practice ${p.practice}`,questions:Array.from({length:40},(_,i)=>({id:String(i+1)}))}));
 }
-export async function mountIeltsMap({root,toggle,grid,practices,openPractice}){
+export async function mountIeltsMap({root,toggle,grid,practices,openPractice,getCompleted=()=>0}){
  const lessons=puzzleLessons(practices),count=Math.max(...lessons.map(l=>l.order));
  const extended=count>20,height=extended?1760:900,art=await loadPuzzleArtwork(extended),navigation=createPuzzleNavigation(count);
  const theme={
@@ -31,11 +31,11 @@ export async function mountIeltsMap({root,toggle,grid,practices,openPractice}){
    return {...animation,update(){
     mapRoot.querySelectorAll('[data-map-level]').forEach((button,index)=>{
      const lesson=lessons[index];button.setAttribute('aria-label',`${lesson.titleEn} · ${lesson.titleZh}`);
-     button.querySelector('.expression-map-stone-status').textContent='';
+     button.querySelector('.expression-map-stone-status').textContent=`${getCompleted(lesson.id)} / 40`;
     });
    }};
   }
  };
- return createExpressionMap({root,toggle,grid,lessons,getCompleted:()=>0,systemKey:'listening-system-ielts',theme,
+ return createExpressionMap({root,toggle,grid,lessons,getCompleted,systemKey:'listening-system-ielts',theme,
   openLesson:id=>{const practice=practices.find(p=>p.id===id);if(practice)openPractice(practice.practice);}});
 }
