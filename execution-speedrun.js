@@ -15,6 +15,7 @@ function message(text, kind = 'online') {
   $('[data-sync]').textContent = text;
   $('[data-retry]').hidden = !state.queue.length || state.conflict;
   $('[data-export]').hidden = !state.queue.length;
+  $('[data-latest]').hidden = !state.conflict;
 }
 async function rpc(name, params = {}) {
   const { data, error } = await state.client.rpc(name, { ...params, p_student_token:state.role === 'student' ? state.token : null, p_admin_token:state.role === 'admin' ? state.token : null });
@@ -47,11 +48,11 @@ async function flush() {
       try { await load(state.selected?.id, false); }
       catch { message('計時已儲存至資料庫；紀錄暫時未能重新載入，請按「重新整理」。','pending'); }
     }
-    renderMeter();
+    renderLibrary(); renderMeter();
   } catch (error) {
     state.conflict = ['40001','42501','23505'].includes(error.code);
     message(state.conflict
-      ? '另一視窗已更新此挑戰，或登入已過期。未同步紀錄已保留；請先匯出紀錄，再重新登入或整理頁面。'
+      ? '另一視窗已更新此挑戰，或登入已過期。未同步紀錄已保留；可匯出備份並載入最新紀錄，或重新登入後再試。'
       : '暫時未能同步。計時操作已保留在此裝置，恢復連線後會自動重試；請勿清除瀏覽器資料。', 'error');
     renderControls();
   } finally { state.flushing = false; renderControls(); }
@@ -60,6 +61,10 @@ function queueEvent(name, params) {
   state.queue.push({ rpc:name, params });
   persist();
   void flush();
+}
+function exportRecovery() {
+  const url = URL.createObjectURL(new Blob([JSON.stringify({run:state.run,events:state.queue},null,2)],{type:'application/json'}));
+  const a = document.createElement('a'); a.href = url; a.download = `speedrun-recovery-${state.run?.id || 'records'}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(url),1000);
 }
 function startRun() {
   if (!state.selected || active() || state.queue.length || state.locked || state.conflict || state.saving) return;
@@ -287,9 +292,21 @@ function bind() {
   $('[data-cancel-end]').addEventListener('click',() => $('[data-end-dialog]').close());
   $('[data-confirm-end]').addEventListener('click',() => { $('[data-end-dialog]').close(); act('end'); });
   $('[data-retry]').addEventListener('click',() => void flush());
-  $('[data-export]').addEventListener('click',() => {
-    const url = URL.createObjectURL(new Blob([JSON.stringify({run:state.run,events:state.queue},null,2)],{type:'application/json'}));
-    const a = document.createElement('a'); a.href = url; a.download = `speedrun-recovery-${state.run?.id || 'records'}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(url),1000);
+  $('[data-export]').addEventListener('click',exportRecovery);
+  $('[data-latest]').addEventListener('click',async () => {
+    if (!state.conflict) return;
+    const pending = state.queue, run = state.run;
+    exportRecovery();
+    try {
+      localStorage.setItem(`${state.storageKey}:conflict:${uuid()}`,JSON.stringify({run,queue:pending}));
+      state.queue = []; state.conflict = false;
+      await load(state.selected?.id,true); persist();
+      message('已載入資料庫的最新紀錄；未同步計時另存為下載檔及此裝置的備份。');
+    } catch {
+      state.queue = pending; state.run = run; state.conflict = true;
+      message('未能載入最新紀錄。備份仍然保留；請重新登入後再試。','error');
+      renderLibrary(); renderMeter();
+    }
   });
   $('[data-refresh]').addEventListener('click',() => { if (state.queue.length) return void flush(); void load(state.selected?.id,true).catch(e => message(e.message,'error')); });
   $('[data-more]').addEventListener('click',async () => { $('[data-more]').disabled = true; try { await load(state.selected?.id,false,true); } catch(e) { message(e.message,'error'); } finally { $('[data-more]').disabled = false; } });

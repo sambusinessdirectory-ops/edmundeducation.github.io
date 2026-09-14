@@ -117,6 +117,18 @@ try {
   const mobile = await page.locator('[data-race-meter]').boundingBox();
   assert.ok(mobile.x>=0 && mobile.x+mobile.width<=390 && mobile.y+mobile.height<=844);
   await page.screenshot({path:`${output}/floating-mobile.png`});
+  await page.locator('[data-float]').click();
+  await page.locator('[data-start]').click();
+  await page.waitForFunction(() => document.querySelector('[data-sync]').textContent.includes('所有計時操作已同步'));
+  const remote = runs.find(r => r.status === 'running');
+  remote.status = 'paused'; remote.anchor_at = null; remote.elapsed_ms = 1000; remote.revision++;
+  await page.locator('[data-split]').click();
+  await page.locator('[data-latest]').waitFor({state:'visible'});
+  const download = page.waitForEvent('download');
+  await page.locator('[data-latest]').click(); await download;
+  await page.waitForFunction(() => document.querySelector('[data-pause]').textContent === '繼續');
+  assert.equal(await page.locator('[data-latest]').isVisible(),false);
+  assert.ok(await page.evaluate(() => Object.keys(localStorage).some(k => k.includes(':conflict:'))));
   assert.deepEqual(errors,[]);
-  console.log('Browser QA passed: editor, totals, split colors, pause/reload/resume, history, offline retry, four-corner resize, desktop and mobile.');
+  console.log('Browser QA passed: editor, totals, split colors, pause/reload/resume, history, offline retry, cross-device conflict recovery, four-corner resize, desktop and mobile.');
 } finally { await browser.close(); }
