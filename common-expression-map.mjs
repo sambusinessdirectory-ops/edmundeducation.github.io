@@ -217,7 +217,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     root.querySelectorAll('[data-arrived="true"]').forEach(button=>{button.dataset.arrived='false';button.setAttribute('aria-expanded','false');});
   }
   function settleArrival() {
-    const index=nodes.findIndex(node=>Math.hypot(node.x-position.x,node.y-position.y)<42);
+    const index=theme?.arrivalIndex?.(nodes,position,selected) ?? nodes.findIndex(node=>Math.hypot(node.x-position.x,node.y-position.y)<42);
     standing=index;
     if(index>=0) { selected=index; position={...nodes[index]}; angle=0; }
     updateSelection();
@@ -268,7 +268,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
       if(theme?.overviewBounds)root.dataset.overviewSection=overviewBounds.key;
       root.querySelector('[data-map-overview]')?.setAttribute('aria-pressed',root.dataset.overview);
     } else {
-      space.style.width=`${cameraWidth*scale}px`; space.style.height=`${HEIGHT*scale}px`;
+      space.style.width=`${cameraWidth*scale}px`; space.style.height=`${theme?.cameraSpaceHeight?.({scale,height:viewport.clientHeight,point:point||position}) ?? HEIGHT*scale}px`;
     }
     world.style.left=`${padding.left*scale}px`;
     world.style.transform=`scale(${scale})`;

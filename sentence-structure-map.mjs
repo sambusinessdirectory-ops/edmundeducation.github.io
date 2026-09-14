@@ -1,5 +1,5 @@
 // Adapt the public catalogue to the shared map without loading lesson exercises.
-export const SENTENCE_MAP_LIMIT = 150;
+export const SENTENCE_MAP_LIMIT = 180;
 const LABELS = [
   'to + verb', 'Adjective + noun', 'Adjective + to-infinitive', 'Although',
   'While · concession', 'Despite', 'Whereas', 'From X to Y', 'Between A and B',
@@ -43,7 +43,15 @@ const LABELS = [
   'The idea that', 'Imperatives', 'What + noun · exclamations', 'Especially',
   'Based on', 'According to', 'More importantly', 'Put simply',
   'In other words', 'That said', 'WH + to-infinitive', 'Second conditional',
-  'If + were to', 'Which · result', 'V-ing · result', 'Thereby', 'Thereafter', 'All-cleft'
+  'If + were to', 'Which · result', 'V-ing · result', 'Thereby', 'Thereafter', 'All-cleft',
+  'It-cleft', 'Should you', 'Had + subject + V3', 'Alternative questions',
+  'Declarative questions', 'Supposing that', 'Assuming that', 'All the more',
+  'All the more reason to', 'All the same', 'All the while', 'Not because … but because',
+  'Now is the best time to', 'Not that … but', 'Even so', 'For all',
+  'Emphatic do / does / did', 'Fronting', 'There is no', 'There seems to be',
+  'Have / Get + object + V3', 'Get + object + to', 'Much as', 'Try as … might',
+  'Be that as it may', 'As … as … may be', 'To the extent that', 'In case of',
+  'On condition that', 'This / That is why'
 ];
 export function sentenceMapLessons(lessons) {
   return lessons.slice(0, SENTENCE_MAP_LIMIT).map((lesson, index) => ({

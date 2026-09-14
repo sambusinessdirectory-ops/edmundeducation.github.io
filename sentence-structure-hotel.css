@@ -1,0 +1,28 @@
+.sentence-hotel-realm {position:absolute;left:0;width:1600px;overflow:hidden;pointer-events:none;background:#c8a7a5;}
+.hotel-background,.hotel-scenery,.hotel-effects {position:absolute;inset:0;width:1600px;height:100%;max-width:none;pointer-events:none;}
+.hotel-scenery[hidden],.hotel-effects[hidden] {display:none;}
+.hotel-road-sign {position:absolute;left:1363px;top:1157px;width:165px;height:43px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;color:#514232;text-align:center;font-family:Georgia,'Times New Roman',serif;}
+.hotel-road-sign span:first-child {font-size:15px;letter-spacing:1.1px;line-height:1;}
+.hotel-road-sign span:last-child {font-size:10px;letter-spacing:.1px;line-height:1;white-space:nowrap;}
+.hotel-companion-portrait {position:absolute;left:1437px;top:61px;display:flex;align-items:center;gap:13px;color:#292122;font:16px Georgia,serif;}
+.hotel-companion-portrait canvas {width:39px;height:51px;}
+[data-theme="sentence-shore"] .expression-map-stone[data-hotel] {width:69px;height:83px;margin:-85px 0 0 -34.5px;border-radius:2px;background:transparent;border:0;box-shadow:none;}
+.expression-map-stone[data-hotel]>* {display:none!important;}
+.expression-map-stone[data-hotel]::before {display:none!important;}
+.expression-map-stone[data-hotel]::after {content:attr(data-hotel-label);position:absolute;left:50%;bottom:calc(100% + 6px);transform:translateX(-50%);white-space:nowrap;padding:5px 8px;border:1px solid #c29a5f;border-radius:5px;background:#fff2ddec;color:#623841;font:600 13px/1.3 system-ui;opacity:0;}
+.expression-map-stone[data-hotel]:hover,.expression-map-stone[data-hotel]:focus-visible {outline:2px solid #fbe6ad;outline-offset:2px;box-shadow:0 0 12px #ffe2a782;}
+.expression-map-stone[data-hotel]:hover::after,.expression-map-stone[data-hotel]:focus-visible::after {opacity:1;}
+.expression-map-stone.hotel-door-secondary {visibility:hidden;pointer-events:none;}
+.expression-map-horse.hotel-companion {width:100px;height:122px;margin-left:-50px;margin-top:-114px;}
+.expression-map-shadow.hotel-companion-shadow {width:44px;height:10px;margin-left:-22px;opacity:.65;}
+.hotel-in-service-passage {visibility:hidden;}
+.expression-map-flag.is-hotel {transform:scale(.62);transform-origin:bottom left;}
+[data-current-realm="hotel"] .expression-map-lesson-card {border-color:#c9a16f;background:#fff3e8;box-shadow:0 12px 28px #5c35433b;}
+[data-current-realm="hotel"] .expression-map-lesson-card::before {background:#fff3e8;border-color:#c9a16f;}
+[data-current-realm="hotel"] .expression-map-open,[data-current-realm="hotel"] .expression-map-selected-number {background:#7c3e4f;border-color:#683645;box-shadow:0 4px 0 #552b38;}
+.hotel-room-lessons {padding:10px 10px 0;display:flex;flex-direction:column;gap:5px;}
+.hotel-room-lessons[hidden] {display:none;}
+.hotel-room-lessons button {text-align:left;padding:7px 9px;border:1px solid #d4b595;border-radius:6px;background:#fffaf3;color:#68464a;font-size:12px;line-height:1.25;}
+.hotel-room-lessons button[aria-pressed="true"] {background:#eed9d7;border-color:#a57574;}
+[data-current-realm="hotel"] .expression-map-viewport {background:#c8a7a5;}
+@media(prefers-reduced-motion:reduce){.sentence-hotel-realm * {animation:none!important;}}

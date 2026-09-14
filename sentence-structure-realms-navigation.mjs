@@ -1,3 +1,4 @@
+import {HOTEL_OFFSET,HOTEL_HEIGHT,HOTEL_WAYPOINTS,hotelIsWalkable} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel1';
 import {TOY_OFFSET,TOY_HEIGHT} from './sentence-structure-toy-geometry.mjs?v=20260912-toy1';
 import { shoreIsWalkable } from './sentence-structure-coast-navigation.mjs?v=20260912-sentence2';
 import { ZEN_OFFSET,ZEN_HEIGHT,zenIsWalkable } from './sentence-structure-zen-geometry.mjs?v=20260912-garden-normal';
@@ -5,7 +6,7 @@ import { ZEN_OFFSET,ZEN_HEIGHT,zenIsWalkable } from './sentence-structure-zen-ge
 import { DREAM_OFFSET,DREAM_HEIGHT } from './sentence-structure-dream-geometry.mjs?v=20260912-dream-normal';
 
 export const AUTUMN_OFFSET=1950;
-export const REALM_BOUNDS={left:60,right:1540,top:552,bottom:TOY_OFFSET+TOY_HEIGHT-65};
+export const REALM_BOUNDS={left:60,right:1540,top:552,bottom:HOTEL_OFFSET+HOTEL_HEIGHT-65};
 // Hoof-space, traced in the autumn painting's central 1600 × 1950 region.
 export const AUTUMN_RIVER=[[0,703],[340,714],[690,725],[880,730],[1200,743],[1600,743],[1600,915],[1250,922],[900,916],[570,904],[300,891],[0,875]];
 export const AUTUMN_BROOK=[[675,298],[753,299],[815,339],[932,371],[918,421],[811,415],[755,374],[689,351]];
@@ -15,6 +16,7 @@ function inside(p,polygon){let yes=false;for(let i=0,j=polygon.length-1;i<polygo
 }return yes;}
 export function realmsIsWalkable(p){
  const b=REALM_BOUNDS;if(!Number.isFinite(p?.x)||!Number.isFinite(p?.y)||p.x<b.left||p.x>b.right||p.y<b.top||p.y>b.bottom)return false;
+ if(p.y>=HOTEL_OFFSET)return hotelIsWalkable(p);
  if(p.y<=1790)return shoreIsWalkable(p);
  if(p.y<AUTUMN_OFFSET)return true; // Cloud border is deliberately penetrable.
  if(p.y>=DREAM_OFFSET)return true; // Pillow ground is freely walkable.
@@ -33,7 +35,7 @@ const WAYPOINTS=[
  [640,AUTUMN_OFFSET+280],[955,AUTUMN_OFFSET+290],[970,AUTUMN_OFFSET+447],
  [145,3830],[145,4050],
  ...[345,535,720,920,1170].flatMap(y=>[[90,ZEN_OFFSET+y],[1538,ZEN_OFFSET+y]])
-].map(([x,y])=>({x,y}));
+].map(([x,y])=>({x,y})).concat(HOTEL_WAYPOINTS);
 // Cache only fixed waypoint visibility; endpoints remain validated for every trip.
 let fixedEdges;
 export function realmsPath(from,to){

@@ -1,3 +1,4 @@
+import {HOTEL_OFFSET,HOTEL_HEIGHT} from '../sentence-structure-hotel-geometry.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -8,10 +9,10 @@ import {SENTENCE_REALMS} from '../sentence-structure-realms.mjs';
 import {realmsSegment} from '../sentence-structure-realms-navigation.mjs';
 const catalog=JSON.parse(readFileSync(new URL('../assets/sentence-structure/library/manifest.json',import.meta.url))).lessons;
 test('the toy realm maps exactly the next thirty real lessons and retains readable labels',()=>{
- const lessons=sentenceMapLessons(catalog);assert.equal(SENTENCE_MAP_LIMIT,150);assert.equal(lessons.length,150);assert.ok(lessons.every(l=>l.mapLabel&&l.titleEn));assert.equal(catalog.length-lessons.length,195);
- const points=toyPositions(lessons.slice(120));assert.equal(points[0].id,'ss121');assert.equal(points.at(-1).id,'ss150');assert.equal(points.length,30);
+ const lessons=sentenceMapLessons(catalog);assert.equal(SENTENCE_MAP_LIMIT,180);assert.equal(lessons.length,180);assert.ok(lessons.every(l=>l.mapLabel&&l.titleEn));assert.equal(catalog.length-lessons.length,165);
+ const points=toyPositions(lessons.slice(120,150));assert.equal(points[0].id,'ss121');assert.equal(points.at(-1).id,'ss150');assert.equal(points.length,30);
  for(const p of points)assert.ok(p.x>=60&&p.x<=1540&&p.y>TOY_OFFSET&&p.y<TOY_OFFSET+TOY_HEIGHT-65);
- assert.equal(SENTENCE_REALMS.title,'');assert.equal(SENTENCE_REALMS.cameraViewWidth(points[0]),1600);assert.equal(SENTENCE_REALMS.height,8850);
+ assert.equal(SENTENCE_REALMS.title,'');assert.equal(SENTENCE_REALMS.cameraViewWidth(points[0]),1600);assert.equal(SENTENCE_REALMS.height,HOTEL_OFFSET+HOTEL_HEIGHT);
 });
 test('marbles roll smoothly without slipping and reverse independently',()=>{
  let opposed=0;for(let t=0;t<30;t+=1/60){const v=TOY_MARBLES.map(m=>{const a=marbleMotion(t,m),b=marbleMotion(t+1/60,m);assert.ok(Math.abs(a.x-m.x)<=m.amplitude+.001);assert.ok(Math.abs((b.x-a.x)+(b.roll-a.roll)*m.r)<1e-9);assert.ok(Math.abs(b.x-a.x)<.3);return b.x-a.x;});if(v.some(x=>x>0)&&v.some(x=>x<0))opposed++;}assert.ok(opposed>1700);

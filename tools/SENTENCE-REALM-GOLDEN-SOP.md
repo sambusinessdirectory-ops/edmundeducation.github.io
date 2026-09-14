@@ -1,6 +1,6 @@
 # Golden SOP — illustrated sentence journey realms
 
-Version: 2026-09-12. Applies to additions and revisions of the sentence-structure learning map.
+Version: 2026-09-14. Applies to additions and revisions of the sentence-structure learning map.
 
 ## 1. Lock the normal view first
 
@@ -52,3 +52,9 @@ Pause with the map, respect reduced motion, and release canvases/GPU resources d
 Review the scoped diff, retain asset provenance and dependency licenses, and update cache versions for changed modules/styles. Fetch the remote branch and publish by a normal fast-forward push. Do not overwrite other work.
 
 Wait for repository Pages checks, then verify the canonical release commit and hashes of changed modules and assets. Report the live result with a usable preview and identify any remaining limitation. Do not report publication complete based only on a local screenshot or a successful push.
+
+## 7. Exact-reference hotel addendum
+
+For the hotel, the user's explicit design-preservation instruction overrides general advice about simplifying or extending a painting. Keep the original source and make bounded, authorized repairs only. Audit untouched pixels and inspect actual motion frames. Full provenance, the image-editor prompt, approved lettering overlays, encountered issues and reproducible checks are in `assets/sentence-structure/hotel/README.md`.
+
+Keep door targets aligned with painted doorways, share a doorway when preserving the reference leaves fewer doors than lessons, and resolve arrival using the selected lesson. Use anchored foliage deformation, actual train/flag texture cutouts, exterior-only snow and independently phased lights. Upload packed WebGL masks as raw bytes so zero-phase alpha does not erase other channels. Sample inside plaster panels when matching text-removal overlays; never sample their ornamental borders. Inspect the undercarriage and rail contact, not merely the train's numeric path.
