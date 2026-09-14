@@ -21,3 +21,11 @@ Review/evidence (second self-review, not independent human acceptance):
 - `node --test tools/test-writing-practice-listening-sticky.mjs`: existing listening behavior.
 
 Limitations: physical mobile devices/Safari not tested. The broader language browser suite reaches the separately updated flashcard map and fails on its now-hidden old mode button; writing-specific coverage is handled by the focused fixture above. Existing sparse-checkout decorative assets can appear missing in local full-page screenshots; the new table and all companion assets are present and decoded. Artwork is finite resolution. Korean voice/content remains unselected.
+
+## User refinement: free walking and row-level difficulty labels
+
+Supersedes the route restriction above. Clicking any point within the painted playing surface sends the companion directly there. Clicking a mode takes a direct line from the current position, including when redirecting mid-walk; there is no queued zigzag route or painted route line. Surrounding props do not trigger walking, and horizontal touch drags remain scrolling. Selecting and starting the exercise remain separate actions.
+
+Each difficulty row has one translucent panel on its left, with its actual name and question count. The sixteen tile labels retain only their hint-mode names; accessible button labels retain difficulty and count. Artwork and bronze plaque are unchanged.
+
+Checks passed: all 32 Italian/French mode combinations, free-point arrival, reduced motion, paragraph selection, character persistence, language isolation, desktop/mobile layout, four row panels and no repeated tile difficulty labels. Visual review exposed a sparse-checkout omission of the unchanged background after upstream integration; the asset was restored locally and an image-decoding assertion added. No public asset was removed.

@@ -40,12 +40,21 @@ async function open(type,language){
 await open('writing-practice','fr');
 await page.getByText('Food and Cooking',{exact:true}).first().click();await page.locator('[data-open-writing-deck]').first().click();
 await page.locator('[data-open-practice]').click();
-await page.locator('.chess-stage').waitFor();await page.waitForTimeout(1500);
+await page.locator('.chess-stage').waitFor();await page.waitForFunction(()=>document.querySelector('.chess-table')?.naturalWidth>0);await page.waitForTimeout(1500);
 await page.locator('.writing-chess-page').evaluate(e=>e.scrollIntoView({block:'start'}));
 await page.locator('.writing-chess-page').screenshot({path:output+'/desktop.png'});
 assert.equal(await page.locator('.chess-stop').count(),16);
+assert.equal(await page.locator('.chess-difficulty').count(),4);
+assert.equal(await page.locator('.chess-label small').count(),0);
+assert.equal(await page.locator('.chess-route').count(),0);
+await page.locator('.chess-stage').click({position:{x:550,y:355}});
+await page.waitForTimeout(1100);
+const freePosition=await page.locator('.chess-companion').evaluate(e=>({x:parseFloat(e.style.left),y:parseFloat(e.style.top)}));
+assert.ok(Math.abs(freePosition.x-50)<1&&Math.abs(freePosition.y-48.4)<1,'Companion walks to an arbitrary board point');
+await page.locator('[data-chess-index="0"]').click();await page.waitForTimeout(1100);
+
 assert.equal((await page.locator('.chess-plaque').innerText()).replace(/\s/g,''),'♛請選擇練習模式及段落範圍');
-await page.locator('[data-chess-index="6"]').click();await page.waitForTimeout(500);
+await page.locator('[data-chess-index="6"]').click();await page.waitForTimeout(100);
 assert.equal(await page.locator('.chess-companion').getAttribute('data-walking'),'true');
 await page.screenshot({path:output+'/walking.png'});
 await page.locator('[data-chess-enter]').click();assert.equal(await page.locator('[data-practice-form] input').count(),45);
