@@ -18,7 +18,7 @@ python3 tools/mascot-art/v3/extract-blink-sheets.py tools/mascot-art/v3/sources/
 python3 tools/mascot-art/v3/build-views.py
 ```
 
-Runtime behavior uses short, staggered blinks roughly every 4–6 seconds, with an occasional double blink. Character instances receive different phases so they do not blink together. Reduced-motion mode holds the open-eye frame. Canvas maps use the same timing function as the WebGL classroom.
+Runtime behavior caps every closed-eye frame at 0.12 seconds, with staggered blinks roughly every 4–6 seconds, with an occasional double blink. Character instances receive different phases so they do not blink together. Reduced-motion mode holds the open-eye frame. Canvas maps use the same timing function as the WebGL classroom.
 
 Source SHA-256:
 
