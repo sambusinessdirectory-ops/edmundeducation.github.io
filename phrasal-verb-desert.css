@@ -1,3 +1,5 @@
+[data-phrasal-map],[data-phrasal-map] *{-webkit-user-select:none;user-select:none}
+[data-phrasal-map] img{-webkit-user-drag:none;-webkit-touch-callout:none}
 .phrasal-map-actions{display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap;margin:22px 0 14px}
 .phrasal-map-actions .small-button{min-height:44px;border-radius:12px;padding:11px 17px}
 .phrasal-map-actions .expression-map-toggle{background:#f5dbad;border-color:#f5dbad;color:#654124}

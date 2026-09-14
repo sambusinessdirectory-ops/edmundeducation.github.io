@@ -1,11 +1,11 @@
 import {createDesertTheme} from './phrasal-verb-desert.mjs?v=20260913-bakery1';
 import {nightTerrain,nightCoin,mountNight} from './phrasal-verb-night.mjs?v=20260913-bakery1';
-import {bakeryTerrain,bakeryPlatform,mountBakery} from './phrasal-verb-bakery.mjs?v=20260914-bakery3';
+import {bakeryTerrain,bakeryPlatform,mountBakery} from './phrasal-verb-bakery.mjs?v=20260914-bakery4';
 import {DESERT_HEIGHT} from './phrasal-verb-desert-geometry.mjs?v=20260913-night1';
 import {NIGHT_OFFSET,NIGHT_HEIGHT} from './phrasal-verb-night-geometry.mjs?v=20260913-night1';
-import {BAKERY_OFFSET} from './phrasal-verb-bakery-geometry.mjs?v=20260914-bakery3';
-import {journeyHeight,journeyPositions,createJourneyNavigation,journeyOverview} from './phrasal-verb-journey-geometry.mjs?v=20260914-bakery3';
-export {PHRASAL_MAP_LIMIT,phrasalJourneyLessons} from './phrasal-verb-journey-geometry.mjs?v=20260914-bakery3';
+import {BAKERY_OFFSET} from './phrasal-verb-bakery-geometry.mjs?v=20260914-bakery4';
+import {journeyHeight,journeyPositions,createJourneyNavigation,journeyOverview} from './phrasal-verb-journey-geometry.mjs?v=20260914-bakery4';
+export {PHRASAL_MAP_LIMIT,phrasalJourneyLessons} from './phrasal-verb-journey-geometry.mjs?v=20260914-bakery4';
 export {phrasalMapCompleted} from './phrasal-verb-desert.mjs?v=20260913-bakery1';
 let instance=0;
 export function createPhrasalJourney(lessons){
@@ -24,9 +24,13 @@ export function createPhrasalJourney(lessons){
   function syncChapter(){const scale=Number(root.dataset.scale)||1,chapter=root.dataset.overview==='true'?root.dataset.overviewSection:journeyOverview({y:viewport.scrollTop/scale+viewport.clientHeight/scale*.4}).key;root.dataset.currentChapter=chapter;controls.querySelectorAll('button').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.phrasalChapter===chapter)));}
   // Reduced motion does not run a continuous draw loop; controls still follow navigation.
   const afterSelection=()=>queueMicrotask(syncChapter);
+  const preventSelection=event=>event.preventDefault();
+  const preventSelectAll=event=>{if((event.metaKey||event.ctrlKey)&&event.key.toLowerCase()==='a'&&!event.target.closest('input,textarea,[contenteditable=true]')){event.preventDefault();event.stopPropagation();window.getSelection()?.removeAllRanges();}};
+  root.querySelectorAll('img').forEach(image=>image.draggable=false);
+  root.addEventListener('selectstart',preventSelection);root.addEventListener('dragstart',preventSelection);root.addEventListener('keydown',preventSelectAll,true);
   controls.addEventListener('click',jump);
   viewport.addEventListener('scroll',syncChapter,{passive:true});picker.addEventListener('change',afterSelection);
-  return {draw(now){first.draw(now);night.draw(now);bakery?.draw(now);syncChapter();},destroy(){controls.removeEventListener('click',jump);viewport.removeEventListener('scroll',syncChapter);picker.removeEventListener('change',afterSelection);first.destroy();night.destroy();bakery?.destroy();}};
+  return {draw(now){first.draw(now);night.draw(now);bakery?.draw(now);syncChapter();},destroy(){root.removeEventListener('selectstart',preventSelection);root.removeEventListener('dragstart',preventSelection);root.removeEventListener('keydown',preventSelectAll,true);controls.removeEventListener('click',jump);viewport.removeEventListener('scroll',syncChapter);picker.removeEventListener('change',afterSelection);first.destroy();night.destroy();bakery?.destroy();}};
  }
  return {...day,title:'動詞片語 · 探索之旅',kicker:'THE PHRASAL VERB JOURNEY',height:journeyHeight(lessons.length),positions:()=>nodes,terrain,mount,navigation:createJourneyNavigation(nodes),overviewBounds:journeyOverview,cameraTop:({point,scale,height,zoom,overview})=>{
   const chapter=journeyOverview(point),local=point.y-chapter.top;

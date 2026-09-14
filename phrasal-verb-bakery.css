@@ -7,8 +7,8 @@
 .bakery-moon-motion{transform-origin:50% 48%;filter:drop-shadow(0 0 7px #ffebb6b3) drop-shadow(0 0 19px #ffd38c66);animation:bakery-moon-swing 8s ease-in-out -2s infinite}
 .bakery-galaxy{transform:rotate(-24deg) scaleY(.5)}
 .bakery-galaxy-motion{animation:bakery-orbit 80s linear infinite}
-.bakery-saturn{perspective:800px}
-.bakery-saturn-motion{transform-origin:center;animation:bakery-saturn-turn 10s ease-in-out infinite}
+.bakery-saturn-model{position:absolute;inset:0;width:100%;height:100%}
+.bakery-saturn-motion[data-renderer=webgl]>.bakery-sprite,.bakery-saturn-motion[data-renderer=canvas]>.bakery-sprite{visibility:hidden}
 .bakery-large-star{filter:drop-shadow(0 0 5px #ffce85a0);animation:bakery-star-twinkle var(--period) ease-in-out var(--delay) infinite}
 .bakery-chimney-smoke,.bakery-cup-steam{position:absolute;pointer-events:none;overflow:visible}
 .bakery-smoke-puff{animation:bakery-smoke-rise 6.2s linear var(--delay) infinite}
@@ -30,7 +30,6 @@
 [data-overview=true][data-overview-section=bakery] [data-map-chapter]:not([data-map-chapter=bakery]){visibility:hidden}
 .phrasal-bakery-section[data-visible=false] *{animation-play-state:paused!important}
 @keyframes bakery-orbit{from{transform:rotate(0)}to{transform:rotate(360deg)}}
-@keyframes bakery-saturn-turn{0%,100%{transform:rotateY(-32deg)}50%{transform:rotateY(32deg)}}
 @keyframes bakery-moon-swing{0%,100%{transform:rotate(-12deg)}50%{transform:rotate(12deg)}}
 @keyframes bakery-star-twinkle{0%,100%{opacity:.32;transform:scale(.82)}48%{opacity:1;transform:scale(1.12)}}
 @keyframes bakery-smoke-rise{0%{opacity:0;transform:translate(0,0) scale(.23)}10%{opacity:.6}58%{opacity:.42}100%{opacity:0;transform:translate(var(--drift),calc(var(--rise)*-1)) scale(1.24)}}

@@ -11,12 +11,28 @@ module.exports=async function({page,map,viewport,out,sharp,assertOverview}){
  assert.equal(await page.locator('[data-map-open]').isVisible(),true);assert.equal(await page.locator('[data-phrasal-chapter=bakery]').getAttribute('aria-pressed'),'true');
  const focal=await page.evaluate(()=>{const v=document.querySelector('.expression-map-viewport').getBoundingClientRect();return ['moon','galaxy','saturn'].map(name=>{const b=document.querySelector('.bakery-'+name).getBoundingClientRect();return {name,inside:b.left>=v.left-1&&b.right<=v.right+1&&b.top>=v.top-1&&b.bottom<=v.bottom+1};});});assert.ok(focal.every(f=>f.inside),JSON.stringify(focal));
  await map.screenshot({path:path.join(out,'bakery-standard.png')});
+ const model=await require('./phrasal-saturn-browser-checks.cjs')({page,out,sharp});
+ // Browser selection is blocked, while real map controls retain their normal meaning.
+ const heading=await page.locator('.expression-map-heading h2').boundingBox();
+ await page.mouse.move(heading.x+6,heading.y+12);await page.mouse.down();await page.mouse.move(heading.x+heading.width-5,heading.y+40,{steps:12});await page.mouse.up();
+ assert.equal(await page.evaluate(()=>window.getSelection().toString()),'','Dragging heading text must not highlight it');
+ await viewport.focus();for(const modifier of ['Control','Meta']){await page.keyboard.press(modifier+'+a');assert.equal(await page.evaluate(()=>window.getSelection().toString()),'','Select All does not highlight the map or move the character');}
+ assert.ok(await map.evaluate(root=>[root,...root.querySelectorAll('*')].every(e=>getComputedStyle(e).userSelect==='none')),'All map artwork, labels and controls are non-selectable');
+ assert.ok(await map.evaluate(root=>[...root.querySelectorAll('img')].every(e=>!e.draggable)),'All map images disable native dragging');
+ assert.equal(await page.locator('.bakery-sprite').first().evaluate(e=>e.dispatchEvent(new Event('dragstart',{bubbles:true,cancelable:true}))),false);
+ const beforePan=await viewport.evaluate(v=>v.scrollTop),box=await viewport.boundingBox();
+ await page.mouse.move(box.x+box.width*.55,box.y+box.height*.65);await page.mouse.down();await page.mouse.move(box.x+box.width*.55,box.y+box.height*.45,{steps:12});await page.mouse.up();
+ assert.ok(await viewport.evaluate(v=>v.scrollTop)>beforePan+50,'Dragging still pans the map');
+ await page.waitForTimeout(250); // Respect the existing post-drag accidental-click guard.
+ await page.locator('.expression-map-picker select').selectOption('phrasal-verb-64');await page.locator('[data-map-level="64"]').click();
+ assert.equal(await page.locator('.expression-map-picker select').inputValue(),'phrasal-verb-65','Stone clicks still choose lessons');assert.equal(await page.locator('[data-map-open]').isVisible(),true);
+ await page.locator('[data-phrasal-chapter=bakery]').click();
  await page.emulateMedia({reducedMotion:'no-preference'});await viewport.focus();await page.waitForTimeout(100);
  const frames=[],pixelsA=await viewport.screenshot();let pixelsB;
  for(let i=0;i<29;i++){
   frames.push(await page.evaluate(()=>{
    const angle=(s,yAxis=false)=>{const m=new DOMMatrix(getComputedStyle(document.querySelector(s)).transform);return Math.atan2(yAxis?-m.m13:m.b,m.a)*180/Math.PI;};
-   return {time:+document.querySelector('.phrasal-bakery-section').dataset.motionTime,moon:angle('.bakery-moon-motion'),galaxy:angle('.bakery-galaxy-motion'),saturn:angle('.bakery-saturn-motion',true),stars:[...document.querySelectorAll('.bakery-large-star')].map(e=>+getComputedStyle(e).opacity),puffs:[...document.querySelectorAll('.bakery-smoke-puff')].map(e=>({opacity:+getComputedStyle(e).opacity,y:new DOMMatrix(getComputedStyle(e).transform).f})),steam:[...document.querySelectorAll('.bakery-steam-veil')].map(e=>e.getAttribute('d'))};
+   return {time:+document.querySelector('.phrasal-bakery-section').dataset.motionTime,moon:angle('.bakery-moon-motion'),galaxy:angle('.bakery-galaxy-motion'),saturn:+document.querySelector('.bakery-saturn-motion').dataset.yaw,stars:[...document.querySelectorAll('.bakery-large-star')].map(e=>+getComputedStyle(e).opacity),puffs:[...document.querySelectorAll('.bakery-smoke-puff')].map(e=>({opacity:+getComputedStyle(e).opacity,y:new DOMMatrix(getComputedStyle(e).transform).f})),steam:[...document.querySelectorAll('.bakery-steam-veil')].map(e=>e.getAttribute('d'))};
   }));
   if(i===11)pixelsB=await viewport.screenshot();await page.waitForTimeout(500);
  }
@@ -32,28 +48,28 @@ module.exports=async function({page,map,viewport,out,sharp,assertOverview}){
  const cupPixels=await compare(cupA,cupB,[['chocolate-steam',1210,825,185,203,true],['mug-body',1268,1060,66,44,false]]);
  await viewport.screenshot({path:path.join(out,'bakery-cup-steam.png')});
  await page.emulateMedia({reducedMotion:'reduce'});await page.locator('[data-phrasal-chapter=bakery]').click();await page.waitForTimeout(100);await page.emulateMedia({reducedMotion:'no-preference'});
- // Controlled time covers two complete galaxy rotations and Saturn turning cycles, alongside the ordinary-speed observation above.
- const loops={};for(const [name,period] of [['galaxy',80000],['saturn',10000]]){
+ // Controlled galaxy playback supplements the sphere surface-pixel checks above.
+ const loops={};for(const [name,period] of [['galaxy',80000]]){
   const poses=[];for(const fraction of [0,.25,.5,.75,1,1.25,1.5,1.75,2]){
    poses.push(await page.locator(`.bakery-${name}-motion`).evaluate((e,{fraction,period})=>{const a=e.getAnimations()[0];a.pause();a.effect.updateTiming({delay:0});a.currentTime=fraction*period;const m=new DOMMatrix(getComputedStyle(e).transform);return {fraction,a:m.a,b:m.b,c:m.c,d:m.d,is2D:m.is2D,yAngle:Math.atan2(-m.m13,m.m11)*180/Math.PI,m13:m.m13,m31:m.m31,m33:m.m33,parentTransform:getComputedStyle(e.parentElement).transform};},{fraction,period}));
    if(fraction<=1)await viewport.screenshot({path:path.join(out,`bakery-${name}-pose-${fraction}.png`)});
   }
   for(const p of poses){
    if(name==='galaxy'){assert.ok(Math.abs(p.a-Math.cos(p.fraction*2*Math.PI))<.001);assert.ok(Math.abs(p.b-Math.sin(p.fraction*2*Math.PI))<.001);}
-   else{assert.ok(Math.abs(p.yAngle-(-32*Math.cos(p.fraction*2*Math.PI)))<.01,'Saturn alternates left/front/right around Y');assert.ok(Math.abs(p.b)<.001&&Math.abs(p.c)<.001&&Math.abs(p.d-1)<.001,'Saturn has no clockwise Z spin or X tilt');assert.ok(Math.abs(p.m13+p.m31)<.001&&Math.abs(p.a-p.m33)<.001,'Ring and sphere turn together around the vertical axis');}
+
   }loops[name]=poses;
   await page.locator(`.bakery-${name}-motion`).evaluate(e=>e.getAnimations()[0].play());
  }
  await page.locator('[data-phrasal-chapter=day]').click();await page.waitForTimeout(3500);assert.equal(await page.locator('.phrasal-bakery-section').getAttribute('data-visible'),'false');assert.equal(await page.locator('.bakery-smoke-puff').first().evaluate(e=>getComputedStyle(e).animationPlayState),'paused');
  await page.emulateMedia({reducedMotion:'reduce'});await page.locator('[data-phrasal-chapter=bakery]').click();await page.waitForTimeout(150);
  for(const selector of ['.bakery-large-star','.bakery-moon-motion','.bakery-galaxy-motion','.bakery-saturn-motion','.bakery-smoke-puff'])assert.equal(await page.locator(selector).first().evaluate(e=>getComputedStyle(e).animationName),'none');
- const steam=await page.locator('.bakery-steam-veil').first().getAttribute('d');await page.waitForTimeout(500);assert.equal(await page.locator('.bakery-steam-veil').first().getAttribute('d'),steam);
+ const steam=await page.locator('.bakery-steam-veil').first().getAttribute('d'),frozenYaw=await page.locator('.bakery-saturn-motion').getAttribute('data-yaw');await page.waitForTimeout(500);assert.equal(await page.locator('.bakery-steam-veil').first().getAttribute('d'),steam);assert.equal(await page.locator('.bakery-saturn-motion').getAttribute('data-yaw'),frozenYaw);
  for(const [name,width,height] of [['desktop',1440,1050],['tablet',820,1180],['phone',390,844]]){
   await page.setViewportSize({width,height});await page.reload();await page.waitForFunction(()=>window.desertTest);await page.evaluate(()=>desertTest.login());await map.scrollIntoViewIfNeeded();await page.locator('[data-phrasal-chapter=bakery]').click();await page.waitForTimeout(200);
   assert.equal(await page.locator('[data-map-open]').isVisible(),true);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await map.screenshot({path:path.join(out,`bakery-${name}-standard.png`)});
   await page.locator('[data-map-overview]').click();await assertOverview();assert.equal(await page.locator('[data-phrasal-chapter=bakery]').getAttribute('aria-pressed'),'true');
   await map.screenshot({path:path.join(out,`bakery-${name}-overview.png`)});await page.locator('.expression-map-picker select').selectOption('phrasal-verb-90');assert.equal(await page.locator('[data-map-open]').isVisible(),true);await map.screenshot({path:path.join(out,`bakery-${name}-last-stop.png`)});
  }
- fs.writeFileSync(path.join(out,'bakery-motion-review.json'),JSON.stringify({frames,skyPixels,cupPixels,loops,focal},null,2));
- console.log('PASS: Y-axis turning, relocated galaxy, varied scenery, filled steam, fixed scenery, reduced motion and three responsive chapter views');
+ fs.writeFileSync(path.join(out,'bakery-motion-review.json'),JSON.stringify({frames,skyPixels,cupPixels,loops,focal,model},null,2));
+ console.log('PASS: non-selectable interactive map, real 3D sphere surface rotation, frosting, filled steam, reduced motion and three responsive chapter views');
 };
