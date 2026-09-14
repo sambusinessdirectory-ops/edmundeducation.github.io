@@ -1,5 +1,6 @@
-import {DINING_TOP,prepareDining,diningPositions,diningTerrain,mountDining} from './common-expression-dining.mjs?v=20260915-dining3';
-import {TRAIN_TOP,prepareTrain,trainPositions,trainTerrain,mountTrain} from './common-expression-train.mjs?v=20260915-dining3';
+import {POKER_TOP,preparePoker,pokerPositions,pokerTerrain,mountPoker} from './common-expression-poker.mjs?v=20260915-poker1';
+import {DINING_TOP,prepareDining,diningPositions,diningTerrain,mountDining} from './common-expression-dining.mjs?v=20260915-poker1';
+import {TRAIN_TOP,prepareTrain,trainPositions,trainTerrain,mountTrain} from './common-expression-train.mjs?v=20260915-poker1';
 // Airport artwork and motion only; the shared map owns lesson/account state.
 const ART='./assets/common-expression-business/airport/';
 const W=1600,H=1200;
@@ -30,7 +31,7 @@ export const AIRPORT_INVENTORY={planes:2,runwayLights:30,plants:PLANTS,lamps:LAM
 async function image(url){const img=new Image();img.src=url;await img.decode();return img;}
 export async function prepareAirport() {
   if(assets)return assets;
-  assets=Promise.all([image(ART+'lounge-v1.jpg'),image(ART+'sprites-v1.png'),prepareTrain(),prepareDining()]).then(([background,atlas])=>{
+  assets=Promise.all([image(ART+'lounge-v1.jpg'),image(ART+'sprites-v1.png'),prepareTrain(),prepareDining(),preparePoker()]).then(([background,atlas])=>{
     const c=document.createElement('canvas');c.width=atlas.width;c.height=atlas.height;
     const ctx=c.getContext('2d',{willReadFrequently:true});ctx.drawImage(atlas,0,0);
     // Source rectangles are calibrated to the retained 1536 x 1024 atlas.
@@ -115,27 +116,27 @@ function mount(root,reduced){
   return {draw(time){if(last)elapsed+=Math.min(80,time-last)/1000;last=time;if(time-painted<32&&!reduced.matches)return;painted=time;render(reduced.matches?0:elapsed);},destroy(){dead=true;ready=null;if(surfaceLayer)surfaceLayer.width=surfaceLayer.height=0;surfaceLayer=null;canvas.width=canvas.height=0;}};
 }
 const floorPoint=p=>({x:clamp(p.x,340,1260),y:clamp(p.y,445,1140)});
-function areaFor(point){return point.y>=DINING_TOP?'dining':point.y>=TRAIN_TOP?'train':'airport';}
-function areaTop(point){return point.y>=DINING_TOP?DINING_TOP:point.y>=TRAIN_TOP?TRAIN_TOP:0;}
-function combinedPositions(lessons){const positions=[...airportPositions(lessons.slice(0,30)),...trainPositions(),...diningPositions()];return lessons.map((lesson,i)=>({...positions[i],id:lesson.id}));}
-function combinedTerrain(nodes,lessons){return terrain(nodes.slice(0,30),lessons.slice(0,30))+trainTerrain()+diningTerrain()+[TRAIN_TOP,DINING_TOP].map(y=>`<div class="business-theme-mist" style="top:${y-60}px" aria-hidden="true"></div>`).join('');}
+function areaFor(point){return point.y>=POKER_TOP?'poker':point.y>=DINING_TOP?'dining':point.y>=TRAIN_TOP?'train':'airport';}
+function areaTop(point){return point.y>=POKER_TOP?POKER_TOP:point.y>=DINING_TOP?DINING_TOP:point.y>=TRAIN_TOP?TRAIN_TOP:0;}
+function combinedPositions(lessons){const positions=[...airportPositions(lessons.slice(0,30)),...trainPositions(),...diningPositions(),...pokerPositions()];return lessons.map((lesson,i)=>({...positions[i],id:lesson.id}));}
+function combinedTerrain(nodes,lessons){return terrain(nodes.slice(0,30),lessons.slice(0,30))+trainTerrain()+diningTerrain()+pokerTerrain()+[TRAIN_TOP,DINING_TOP,POKER_TOP].map(y=>`<div class="business-theme-mist" style="top:${y-60}px" aria-hidden="true"></div>`).join('');}
 function combinedMount(root,reduced,controls){
-  const airport=mount(root,reduced),train=mountTrain(root,reduced),dining=mountDining(root,reduced),events=new AbortController();
+  const airport=mount(root,reduced),train=mountTrain(root,reduced),dining=mountDining(root,reduced),poker=mountPoker(root,reduced),events=new AbortController();
   const viewport=root.querySelector('.expression-map-viewport');
   for(const type of ['selectstart','dragstart'])viewport?.addEventListener(type,event=>event.preventDefault(),{signal:events.signal});
   const tabs=document.createElement('div');tabs.className='business-area-tabs';tabs.setAttribute('role','group');tabs.setAttribute('aria-label','選擇旅程');
-  tabs.innerHTML='<button type="button" data-business-area="airport" aria-pressed="true">機場貴賓室 · 01–30</button><button type="button" data-business-area="train" aria-pressed="false">臥鋪列車 · 31–60</button><button type="button" data-business-area="dining" aria-pressed="false">月夜餐車 · 61–90</button>';
+  tabs.innerHTML='<button type="button" data-business-area="airport" aria-pressed="true">機場貴賓室 · 01–30</button><button type="button" data-business-area="train" aria-pressed="false">臥鋪列車 · 31–60</button><button type="button" data-business-area="dining" aria-pressed="false">月夜餐車 · 61–90</button><button type="button" data-business-area="poker" aria-pressed="false">皇家牌桌 · 91–120</button>';
   root.querySelector('.expression-map-tools')?.before(tabs);
   const note=document.createElement('div');note.className='train-reservation-note';note.hidden=true;root.querySelector('.expression-map-stage')?.append(note);
-  root.querySelector('.expression-map-heading small').textContent='26 個課題已開放 · 90 個旅程平台';
+  root.querySelector('.expression-map-heading small').textContent='26 個課題已開放 · 120 個旅程平台';
   let currentArea='';
   function choose(area,point){
-    if(area!==currentArea){currentArea=area;root.dataset.businessArea=area;tabs.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.businessArea===area)));note.hidden=area==='airport';note.textContent=area==='dining'?'平台 61–90 · 課題準備中':'平台 31–60 · 課題準備中';}
+    if(area!==currentArea){currentArea=area;root.dataset.businessArea=area;tabs.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.businessArea===area)));note.hidden=area==='airport';note.textContent=area==='poker'?'平台 91–120 · 課題準備中':area==='dining'?'平台 61–90 · 課題準備中':'平台 31–60 · 課題準備中';}
     if(point&&controls)controls.explore(point);
   }
-  tabs.addEventListener('click',e=>{const b=e.target.closest('[data-business-area]');if(b){const area=b.dataset.businessArea;choose(area,area==='dining'?diningPositions()[0]:area==='train'?trainPositions()[0]:airportPositions([{id:'first'}])[0]);}},{signal:events.signal});
-  root.addEventListener('click',e=>{const b=e.target.closest('[data-train-platform],[data-dining-platform]');if(!b)return;e.stopImmediatePropagation();const order=Number(b.dataset.trainPlatform||b.dataset.diningPlatform),p=[...trainPositions(),...diningPositions()].find(p=>p.order===order);root.querySelectorAll('[data-train-platform],[data-dining-platform]').forEach(n=>n.setAttribute('aria-pressed',String(n===b)));note.textContent=`平台 ${p.order} · 課題準備中`;controls?.explore(p,{walk:true});},{capture:true,signal:events.signal});
-  return {draw(time){const position=controls?.getPosition();if(position)choose(areaFor(position));const scale=Number(root.dataset.scale)||1,top=(viewport?.scrollTop||0)/scale,bottom=top+(viewport?.clientHeight||3600)/scale;if(top<TRAIN_TOP)airport.draw(time);if(top<DINING_TOP&&bottom>TRAIN_TOP)train.draw(time);if(bottom>DINING_TOP)dining.draw(time);},destroy(){events.abort();airport.destroy();train.destroy();dining.destroy();tabs.remove();note.remove();}};
+  tabs.addEventListener('click',e=>{const b=e.target.closest('[data-business-area]');if(b){const area=b.dataset.businessArea;choose(area,area==='poker'?pokerPositions()[0]:area==='dining'?diningPositions()[0]:area==='train'?trainPositions()[0]:airportPositions([{id:'first'}])[0]);}},{signal:events.signal});
+  root.addEventListener('click',e=>{const b=e.target.closest('[data-train-platform],[data-dining-platform],[data-poker-platform]');if(!b)return;e.stopImmediatePropagation();const order=Number(b.dataset.trainPlatform||b.dataset.diningPlatform||b.dataset.pokerPlatform),p=[...trainPositions(),...diningPositions(),...pokerPositions()].find(p=>p.order===order);root.querySelectorAll('[data-train-platform],[data-dining-platform],[data-poker-platform]').forEach(n=>n.setAttribute('aria-pressed',String(n===b)));note.textContent=`平台 ${p.order} · 課題準備中`;controls?.explore(p,{walk:true});},{capture:true,signal:events.signal});
+  return {draw(time){const position=controls?.getPosition();if(position)choose(areaFor(position));const scale=Number(root.dataset.scale)||1,top=(viewport?.scrollTop||0)/scale,bottom=top+(viewport?.clientHeight||4800)/scale;if(top<TRAIN_TOP)airport.draw(time);if(top<DINING_TOP&&bottom>TRAIN_TOP)train.draw(time);if(top<POKER_TOP&&bottom>DINING_TOP)dining.draw(time);if(bottom>POKER_TOP)poker.draw(time);},destroy(){events.abort();airport.destroy();train.destroy();dining.destroy();poker.destroy();tabs.remove();note.remove();}};
 }
-function businessFloor(point){if(point.y>=DINING_TOP)return {x:clamp(point.x,360,1390),y:clamp(point.y,DINING_TOP+575,DINING_TOP+1100)};if(point.y>=TRAIN_TOP)return {x:clamp(point.x,210,1400),y:clamp(point.y,TRAIN_TOP+545,TRAIN_TOP+1140)};return floorPoint(point);}
-export const BUSINESS_AIRPORT=Object.freeze({id:'airport',title:'商務會話探索之旅',kicker:'BUSINESS SPEAKING · JOURNEYS',width:W,height:H*3,positions:combinedPositions,terrain:combinedTerrain,mount:combinedMount,fitOverview:true,overviewBounds:point=>({top:areaTop(point),height:H,key:areaFor(point)}),minimumZoom:.7,cameraScaleFloor:()=>.55,cameraTop:({point,scale,height,overview})=>{const start=areaTop(point);return overview||point.y-start<790?start*scale:point.y*scale-height*.55;},navigation:{path:(_from,to)=>[businessFloor(to)],step:(_from,to)=>businessFloor(to)}});
+function businessFloor(point){if(point.y>=POKER_TOP)return {x:clamp(point.x,300,1370),y:clamp(point.y,POKER_TOP+435,POKER_TOP+1030)};if(point.y>=DINING_TOP)return {x:clamp(point.x,360,1390),y:clamp(point.y,DINING_TOP+575,DINING_TOP+1100)};if(point.y>=TRAIN_TOP)return {x:clamp(point.x,210,1400),y:clamp(point.y,TRAIN_TOP+545,TRAIN_TOP+1140)};return floorPoint(point);}
+export const BUSINESS_AIRPORT=Object.freeze({id:'airport',title:'商務會話探索之旅',kicker:'BUSINESS SPEAKING · JOURNEYS',width:W,height:H*4,positions:combinedPositions,terrain:combinedTerrain,mount:combinedMount,fitOverview:true,overviewBounds:point=>({top:areaTop(point),height:H,key:areaFor(point)}),minimumZoom:.7,cameraScaleFloor:()=>.55,cameraTop:({point,scale,height,overview})=>{const start=areaTop(point);return overview||point.y-start<790?start*scale:point.y*scale-height*.55;},navigation:{path:(_from,to)=>[businessFloor(to)],step:(_from,to)=>businessFloor(to)}});

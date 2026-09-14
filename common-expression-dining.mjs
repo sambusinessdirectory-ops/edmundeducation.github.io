@@ -6,7 +6,7 @@ export function diningTravel(seconds,width){return ((seconds%210)+210)%210/210*w
 let prepared;
 async function image(url){const img=new Image();img.src=url;await img.decode();return img;}
 export function prepareDining(){
- return prepared ||= Promise.all([image(ART+'table-v1.jpg'),image(ART+'moonlit-lake-v1.jpg'),image(ART+'rose-v1.png'),image(ART+'tableware-v1.png'),image(ART+'plate-napkin-v2.png')]).then(([background,landscape,rose,tableware,cleanPlate])=>{
+ return prepared ||= Promise.all([image(ART+'table-v1.jpg'),image(ART+'moonlit-lake-v1.jpg'),image(ART+'rose-v1.png'),image(ART+'tableware-v1.png'),image(ART+'plate-napkin-v2.png'),image(ART+'plate-single-v1.png')]).then(([background,landscape,rose,tableware,cleanPlate,singlePlate])=>{
   const raw=document.createElement('canvas');raw.height=300;raw.width=1400;raw.getContext('2d').drawImage(landscape,0,0,1400,300);
   const overlap=230,period=raw.width-overlap,tile=document.createElement('canvas');tile.width=period;tile.height=300;const ctx=tile.getContext('2d');ctx.drawImage(raw,0,0);
   const seam=document.createElement('canvas');seam.width=overlap;seam.height=300;const sc=seam.getContext('2d');sc.drawImage(raw,period,0,overlap,300,0,0,overlap,300);sc.globalCompositeOperation='destination-in';const fade=sc.createLinearGradient(0,0,overlap,0);fade.addColorStop(0,'#000');fade.addColorStop(1,'#0000');sc.fillStyle=fade;sc.fillRect(0,0,overlap,300);ctx.drawImage(seam,0,0);
@@ -15,17 +15,17 @@ export function prepareDining(){
   const atlas=document.createElement('canvas');atlas.width=tableware.width;atlas.height=tableware.height;const ac=atlas.getContext('2d',{willReadFrequently:true});ac.drawImage(tableware,0,0);const parts=[];
   // This generated atlas has a wide place setting, cloche, then a narrow flute.
   for(const [left,right] of [[0,.42],[.42,.8],[.8,1]]){const x0=Math.floor(left*atlas.width),sw=Math.floor(right*atlas.width)-x0,pixels=ac.getImageData(x0,0,sw,atlas.height).data;let l=sw,r=0,t=atlas.height,b=0;for(let y=0;y<atlas.height;y++)for(let x=0;x<sw;x++)if(pixels[(y*sw+x)*4+3]>80){l=Math.min(l,x);r=Math.max(r,x);t=Math.min(t,y);b=Math.max(b,y);}const part=document.createElement('canvas');part.width=r-l+1;part.height=b-t+1;part.getContext('2d').drawImage(atlas,x0+l,t,part.width,part.height,0,0,part.width,part.height);parts.push(part);}
-  const pc=document.createElement('canvas');pc.width=cleanPlate.width;pc.height=cleanPlate.height;const pctx=pc.getContext('2d',{willReadFrequently:true});pctx.drawImage(cleanPlate,0,0);const pd=pctx.getImageData(0,0,pc.width,pc.height).data;let pl=pc.width,pr=0,pt=pc.height,pb=0;
+  function cropSetting(plate){const pc=document.createElement('canvas');pc.width=plate.width;pc.height=plate.height;const pctx=pc.getContext('2d',{willReadFrequently:true});pctx.drawImage(plate,0,0);const pd=pctx.getImageData(0,0,pc.width,pc.height).data;let pl=pc.width,pr=0,pt=pc.height,pb=0;
   for(let y=0;y<pc.height;y++)for(let x=0;x<pc.width;x++)if(pd[(y*pc.width+x)*4+3]>80){pl=Math.min(pl,x);pr=Math.max(pr,x);pt=Math.min(pt,y);pb=Math.max(pb,y);}
-  const setting=document.createElement('canvas');setting.width=pr-pl+1;setting.height=pb-pt+1;setting.getContext('2d').drawImage(pc,pl,pt,setting.width,setting.height,0,0,setting.width,setting.height);
-  return {background,tile,rose,roseRect:[l,t,r-l+1,b-t+1],parts,placeSetting:setting.toDataURL()};
+  const setting=document.createElement('canvas');setting.width=pr-pl+1;setting.height=pb-pt+1;setting.getContext('2d').drawImage(pc,pl,pt,setting.width,setting.height,0,0,setting.width,setting.height);return setting.toDataURL();}
+  return {background,tile,rose,roseRect:[l,t,r-l+1,b-t+1],parts,placeSettings:{single:cropSetting(singlePlate),double:cropSetting(cleanPlate)}};
  }).catch(e=>{prepared=null;throw e;});
 }
-export function diningTerrain(){return `<section class="dining-carriage" style="top:${DINING_TOP}px" aria-label="月夜餐車，平台 61 至 90"><img class="dining-background" src="${ART}table-v1.jpg" width="1600" height="1200" draggable="false" alt="月夜豪華列車餐桌，紅酒、熱湯與咖啡"><canvas class="dining-motion" width="1600" height="1200" aria-hidden="true"></canvas>${diningPositions().map(p=>`<button type="button" class="dining-platform" data-dining-platform="${p.order}" style="left:${p.x}px;top:${p.y-DINING_TOP}px" aria-label="平台 ${p.order}，課題準備中"><img class="dining-place-setting" alt="" draggable="false"><span>${p.order}</span><small>課題準備中</small></button>`).join('')}</section>`;}
+export function diningTerrain(){return `<section class="dining-carriage" style="top:${DINING_TOP}px" aria-label="月夜餐車，平台 61 至 90"><img class="dining-background" src="${ART}table-v1.jpg" width="1600" height="1200" draggable="false" alt="月夜豪華列車餐桌，紅酒、熱湯與咖啡"><canvas class="dining-motion" width="1600" height="1200" aria-hidden="true"></canvas>${diningPositions().map(p=>`<button type="button" class="dining-platform" data-dining-platform="${p.order}" style="left:${p.x}px;top:${p.y-DINING_TOP}px" aria-label="平台 ${p.order}，課題準備中"><img class="dining-place-setting" data-fold="${p.order%2?'single':'double'}" alt="" draggable="false"><span>${p.order}</span><small>課題準備中</small></button>`).join('')}</section>`;}
 export function mountDining(root,reduced){
  const canvas=root.querySelector('.dining-motion'),ctx=canvas.getContext('2d');let ready,dead=false,last=0,elapsed=0,painted=-1;
  const windowPath=new Path2D();windowPath.roundRect(273,10,1058,288,42);
- prepareDining().then(v=>{if(!dead){ready=v;root.querySelectorAll('.dining-place-setting').forEach(img=>img.src=v.placeSetting);render(0);}});
+ prepareDining().then(v=>{if(!dead){ready=v;root.querySelectorAll('.dining-place-setting').forEach(img=>img.src=v.placeSettings[img.dataset.fold]);render(0);}});
  function render(seconds){if(!ready||dead)return;ctx.clearRect(0,0,1600,1200);
   ctx.save();ctx.clip(windowPath);const shift=diningTravel(seconds,ready.tile.width);for(let x=-shift;x<1600;x+=ready.tile.width)ctx.drawImage(ready.tile,x,0);
   // A distant moon stays steady while the closer landscape travels past the train.
