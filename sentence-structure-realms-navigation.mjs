@@ -1,4 +1,4 @@
-import {HOTEL_OFFSET,HOTEL_HEIGHT,HOTEL_WAYPOINTS,hotelIsWalkable} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel2';
+import {HOTEL_OFFSET,HOTEL_HEIGHT,HOTEL_WAYPOINTS,hotelIsWalkable} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel3';
 import {TOY_OFFSET,TOY_HEIGHT} from './sentence-structure-toy-geometry.mjs?v=20260912-toy1';
 import { shoreIsWalkable } from './sentence-structure-coast-navigation.mjs?v=20260912-sentence2';
 import { ZEN_OFFSET,ZEN_HEIGHT,zenIsWalkable } from './sentence-structure-zen-geometry.mjs?v=20260912-garden-normal';

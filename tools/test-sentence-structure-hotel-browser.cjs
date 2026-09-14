@@ -77,7 +77,7 @@ window.coastTest={
  const samples=[];
  for(let i=0;i<45;i++){
   samples.push(await page.evaluate(async()=>{
-   const {HOTEL_PLANTS,HOTEL_TREES,HOTEL_LIGHTS}=await import('/sentence-structure-hotel-geometry.mjs?v=20260914-hotel2');
+   const {HOTEL_PLANTS,HOTEL_TREES,HOTEL_LIGHTS}=await import('/sentence-structure-hotel-geometry.mjs?v=20260914-hotel3');
    const scenery=document.querySelector('.hotel-scenery'),fx=document.querySelector('.hotel-effects'),copy=document.createElement('canvas');copy.width=1402;copy.height=1122;const ctx=copy.getContext('2d',{willReadFrequently:true});ctx.drawImage(scenery,0,0);
    const hash=(x,y,w,h)=>{let n=2166136261;for(const v of ctx.getImageData(Math.max(0,x|0),Math.max(0,y|0),Math.min(w|0,1402-Math.max(0,x|0)),Math.min(h|0,1122-Math.max(0,y|0))).data)n=Math.imul(n^v,16777619);return n>>>0;};
    const plant=HOTEL_PLANTS.map(([x,y,rx,ry])=>hash(x-rx,y-ry,rx*2,ry*2)),trees=HOTEL_TREES.map(([x,y,rx,ry])=>hash(x-rx,y-ry,rx*2,ry*2)),lights=HOTEL_LIGHTS.map(([x,y])=>hash(x-7,y-7,14,14)),wall=hash(540,132,330,45),pot=hash(780,340,8,5);
@@ -115,14 +115,27 @@ window.coastTest={
  await viewport.evaluate(el=>{const s=Number(document.querySelector('[data-sentence-map]').dataset.scale);el.scrollTop=8850*s-el.clientHeight/2;});
  await viewport.screenshot({path:path.join(out,'hotel-fog-boundary.png')});
  assert.ok(await page.locator('.hotel-boundary-fog').isVisible());
+ // Fog must never wash over the original companion-card heading.
+ await viewport.evaluate(el=>{const s=+document.querySelector('[data-sentence-map]').dataset.scale;el.scrollTop=8850*s-55*s;el.scrollLeft=1e7;});
+ await page.waitForTimeout(100);
+ const card=await page.locator('.hotel-companion-card').boundingBox();
+ const header={x:card.x+6,y:card.y+6,width:card.width-12,height:card.height*33/94-12};
+ await page.locator('.hotel-boundary-fog').evaluate(el=>el.style.opacity='0');
+ const noFog=await page.screenshot({clip:header});
+ await page.locator('.hotel-boundary-fog').evaluate(el=>el.style.opacity='1');
+ const withFog=await page.screenshot({clip:header});fs.writeFileSync(path.join(out,'heading-with-fog.png'),withFog);fs.writeFileSync(path.join(out,'heading-without-fog.png'),noFog);assert.ok(withFog.equals(noFog),'The heading is unchanged under fog');
+ await viewport.screenshot({path:path.join(out,'hotel-fog-right-edge.png')});
+
  await page.emulateMedia({reducedMotion:'reduce'});await page.waitForTimeout(100);
  const stopped=await page.locator('.hotel-effects').evaluate(el=>el.toDataURL());await page.waitForTimeout(500);assert.equal(await page.locator('.hotel-effects').evaluate(el=>el.toDataURL()),stopped);
  for(const [name,width,height] of [['tablet',820,1180],['phone',390,844]]){
   await page.setViewportSize({width,height});await map.scrollIntoViewIfNeeded();await page.locator('.expression-map-picker select').selectOption('ss152');
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
-  assert.ok(await page.locator('[data-map-open]').isVisible());await map.screenshot({path:path.join(out,`hotel-${name}.png`)});
+  assert.ok(await page.locator('[data-map-open]').isVisible());
+  for(const edge of [0,1e7]){await viewport.evaluate((el,x)=>el.scrollLeft=x,edge);await page.waitForTimeout(80);const b=await page.evaluate(()=>{const v=document.querySelector('.expression-map-viewport').getBoundingClientRect(),a=document.querySelector('.sentence-hotel-realm').getBoundingClientRect();return {viewLeft:v.left,viewRight:v.right,artLeft:a.left,artRight:a.right};});assert.ok(b.artLeft<=b.viewLeft+1&&b.artRight>=b.viewRight-1,'Horizontal pan never exposes the hotel gutter');}
+  await map.screenshot({path:path.join(out,`hotel-${name}.png`)});
  }
  await page.locator('[data-sentence-map-toggle]').click();assert.equal(await map.getAttribute('data-animating'),'false');assert.equal(await page.evaluate(()=>coastTest.state.attempts.length),0);
- fs.writeFileSync(path.join(out,'hotel-qa-summary.json'),JSON.stringify({lessons:180,hotelLessons:30,paintedDoors:21,remainingLessons:165,allHotelEntryLinks:true,pairedRoomSelection:true,savedLocationOwnership:true,elevatorRides:["up","down"],fogBoundary:true,reducedMotion:true,responsive:['desktop','tablet','phone'],motionSamples:samples.length,motionSeconds:samples.at(-1).t-samples[0].t,plants:14,trees:18,lights:35,flags:2,indoorSnowExcluded:true,stationaryFacade:true,errors},null,2));
+ fs.writeFileSync(path.join(out,'hotel-qa-summary.json'),JSON.stringify({lessons:180,hotelLessons:30,paintedDoors:21,remainingLessons:165,allHotelEntryLinks:true,pairedRoomSelection:true,savedLocationOwnership:true,elevatorRides:["up","down"],fogBoundary:true,companionHeadingProtectedFromFog:true,horizontalEdgesClamped:true,reducedMotion:true,responsive:['desktop','tablet','phone'],motionSamples:samples.length,motionSeconds:samples.at(-1).t-samples[0].t,plants:14,trees:18,lights:35,flags:2,indoorSnowExcluded:true,stationaryFacade:true,errors},null,2));
  assert.deepEqual(errors,[]);
 })().catch(async error=>{console.error(error);if(debugPage){console.error(await debugPage.evaluate(()=>({map:{...document.querySelector('[data-sentence-map]')?.dataset},scenery:{...document.querySelector('.hotel-scenery')?.dataset},effects:{...document.querySelector('.hotel-effects')?.dataset},hidden:document.hidden,reduced:matchMedia('(prefers-reduced-motion: reduce)').matches,rect:document.querySelector('[data-sentence-map]')?.getBoundingClientRect().toJSON(),scrollY})));await debugPage.screenshot({path:path.join(out,'hotel-failure.png')});}process.exitCode=1;}).finally(async()=>{await browser?.close();server.close();});

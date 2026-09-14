@@ -1,4 +1,5 @@
-import {HOTEL_ART,HOTEL_FLAGS,HOTEL_PLANTS,HOTEL_TREES,HOTEL_LIGHTS,HOTEL_SILHOUETTE,hotelTrainPose,hotelFlagOffset,hotelLightLevel} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel2';
+import {HOTEL_ART,HOTEL_SCALE,HOTEL_TRAIN,HOTEL_FLAGS,HOTEL_PLANTS,HOTEL_TREES,HOTEL_LIGHTS,HOTEL_SILHOUETTE,hotelTrainPose,hotelFlagOffset,hotelLightLevel} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel3';
+import {createHotelVegetation} from './sentence-structure-hotel-vegetation.mjs?v=20260914-hotel3';
 const W=HOTEL_ART.width,H=HOTEL_ART.height;
 const TRAIN_OUTLINE=[[1307,225],[1317,217],[1338,212],[1402,212],[1402,225],[1393,225],[1389,236],[1381,246],[1377,255],[1368,260],[1368,268],[1354,272],[1346,273],[1330,276],[1311,273],[1307,265]];
 const makeCanvas=()=>Object.assign(document.createElement('canvas'),{width:W,height:H});
@@ -71,9 +72,7 @@ function masks(plate){
 const vertex=`attribute vec2 a_position;varying vec2 v_uv;void main(){v_uv=vec2(a_position.x*.5+.5,.5-a_position.y*.5);gl_Position=vec4(a_position,0.,1.);}`;
 const fragment=`precision highp float;uniform sampler2D u_image;uniform sampler2D u_mask;uniform sampler2D u_lift;uniform vec4 u_lift_rect;uniform float u_reveal;uniform float u_time;uniform float u_motion;varying vec2 v_uv;
 void main(){vec4 mask=texture2D(u_mask,v_uv);vec2 p=v_uv*vec2(1402.,1122.);float t=u_time;
- float gust=.82+.18*sin(t*.31+p.x*.006);
- float dx=(sin(t*1.08+p.y*.018)*5.8+sin(t*2.1+p.x*.04)*.7)*mask.r*gust+(sin(t*.92+p.x*.012)*10.5+sin(t*1.77+p.y*.02)*1.6)*mask.g*gust;
- vec2 uv=clamp(v_uv+vec2(dx*u_motion/1402.,0.),vec2(.00001),vec2(.99999));vec3 color=texture2D(u_image,uv).rgb;
+ vec3 color=texture2D(u_image,v_uv).rgb;
  float phase=mask.a*6.2831853;float level=.88+.18*sin(t*.69+phase)+.09*sin(t*.31+phase*2.1);
  color*=1.+(level-1.)*mask.b*u_motion;
  color+=vec3(1.,.69,.30)*max(0.,level-.97)*mask.b*.25*u_motion;
@@ -81,7 +80,8 @@ void main(){vec4 mask=texture2D(u_mask,v_uv);vec2 p=v_uv*vec2(1402.,1122.);float
  float oval=1.-smoothstep(.72,1.,length((liftUV-vec2(.5))/vec2(.48)));
  color=mix(color,texture2D(u_lift,clamp(liftUV,0.,1.)).rgb,oval*u_reveal);
  gl_FragColor=vec4(color,1.);}`;
-export function createHotelScenery(canvas,plate){
+export function createHotelScenery(canvas,plate,vegetationPlate){
+ const vegetation=vegetationPlate?createHotelVegetation(plate,vegetationPlate):null;
  const gl=canvas.getContext('webgl',{alpha:false,antialias:false,preserveDrawingBuffer:true});
  if(!gl){canvas.dataset.renderer='static';return {paint(){},destroy(){}};}
  const shaders=[],textures=[];const compile=(type,code)=>{const s=gl.createShader(type);gl.shaderSource(s,code);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(s));shaders.push(s);return s;};
@@ -90,30 +90,51 @@ export function createHotelScenery(canvas,plate){
  [plate,masks(plate)].forEach((source,i)=>{const tx=gl.createTexture();textures.push(tx);gl.activeTexture(gl.TEXTURE0+i);gl.bindTexture(gl.TEXTURE_2D,tx);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);if(i)gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,W,H,0,gl.RGBA,gl.UNSIGNED_BYTE,source);else gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,source);gl.uniform1i(gl.getUniformLocation(program,i?'u_mask':'u_image'),i);});
  const liftTexture=gl.createTexture();textures.push(liftTexture);gl.activeTexture(gl.TEXTURE2);gl.bindTexture(gl.TEXTURE_2D,liftTexture);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,1,1,0,gl.RGBA,gl.UNSIGNED_BYTE,new Uint8Array([0,0,0,255]));gl.uniform1i(gl.getUniformLocation(program,'u_lift'),2);
  const time=gl.getUniformLocation(program,'u_time'),motion=gl.getUniformLocation(program,'u_motion'),liftRect=gl.getUniformLocation(program,'u_lift_rect'),reveal=gl.getUniformLocation(program,'u_reveal');canvas.dataset.renderer='webgl';
- return {paint(t,still=false,lift){gl.viewport(0,0,canvas.width,canvas.height);gl.uniform1f(time,t);gl.uniform1f(motion,still?0:1);gl.uniform1f(reveal,lift?.alpha||0);const r=lift?.rect||{x:0,y:0,w:1,h:1};gl.uniform4f(liftRect,r.x,r.y,r.w,r.h);if(lift?.alpha){gl.activeTexture(gl.TEXTURE2);gl.bindTexture(gl.TEXTURE_2D,liftTexture);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,lift.canvas);}gl.drawArrays(gl.TRIANGLES,0,6);canvas.dataset.time=String(t);},destroy(){textures.forEach(x=>gl.deleteTexture(x));shaders.forEach(x=>gl.deleteShader(x));gl.deleteBuffer(buffer);gl.deleteProgram(program);gl.getExtension('WEBGL_lose_context')?.loseContext();}};
+ return {vegetation,paint(t,still=false,lift){if(vegetation){gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,textures[0]);gl.texSubImage2D(gl.TEXTURE_2D,0,0,0,gl.RGBA,gl.UNSIGNED_BYTE,vegetation.paint(t,still));}gl.viewport(0,0,canvas.width,canvas.height);gl.uniform1f(time,t);gl.uniform1f(motion,still?0:1);gl.uniform1f(reveal,lift?.alpha||0);const r=lift?.rect||{x:0,y:0,w:1,h:1};gl.uniform4f(liftRect,r.x,r.y,r.w,r.h);if(lift?.alpha){gl.activeTexture(gl.TEXTURE2);gl.bindTexture(gl.TEXTURE_2D,liftTexture);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,lift.canvas);}gl.drawArrays(gl.TRIANGLES,0,6);canvas.dataset.time=String(t);},destroy(){textures.forEach(x=>gl.deleteTexture(x));shaders.forEach(x=>gl.deleteShader(x));gl.deleteBuffer(buffer);gl.deleteProgram(program);gl.getExtension('WEBGL_lose_context')?.loseContext();}};
 }
 function cutout(reference,points){const c=makeCanvas(),ctx=c.getContext('2d');polygon(ctx,points);ctx.clip();ctx.drawImage(reference,0,0,W,H);return c;}
 export function prepareHotelTrain(source){
  const c=Object.assign(document.createElement('canvas'),{width:source.width,height:source.height}),ctx=c.getContext('2d',{willReadFrequently:true});ctx.drawImage(source,0,0);const im=ctx.getImageData(0,0,c.width,c.height),d=im.data;let left=c.width,top=c.height,right=0,bottom=0;
  for(let y=0;y<c.height;y++)for(let x=0;x<c.width;x++){const i=(y*c.width+x)*4,spill=d[i+1]-Math.max(d[i],d[i+2]),alpha=Math.max(0,Math.min(1,1-(spill-12)/45));d[i+3]=Math.round(alpha*255);if(spill>12)d[i+1]=Math.min(d[i+1],Math.max(d[i],d[i+2])+6);if(alpha>.5){left=Math.min(left,x);right=Math.max(right,x);top=Math.min(top,y);bottom=Math.max(bottom,y);}}
- ctx.putImageData(im,0,0);return {canvas:c,bounds:{x:left,y:top,w:right-left+1,h:bottom-top+1}};
+ ctx.putImageData(im,0,0);
+ const bounds={x:left,y:top,w:right-left+1,h:bottom-top+1};
+ // Project each solid face once at 4x. A complete premultiplied sprite is
+ // translated per frame, avoiding moving strip seams and alpha flicker.
+ const sprite=Object.assign(document.createElement('canvas'),{width:448,height:400}),sc=sprite.getContext('2d');sc.scale(4,4);sc.imageSmoothingQuality='high';
+ const split=bounds.w*.47,front=32,side=80,h=55,pad=24;
+ sc.save();sc.transform(front/split,.42*front/split,0,h/bounds.h,0,pad);sc.drawImage(c,left,top,split+.5,bounds.h,0,0,split+.5,bounds.h);sc.restore();
+ sc.save();sc.transform(side/(bounds.w-split),-.368*side/(bounds.w-split),0,h/bounds.h,front,pad+front*.42);sc.drawImage(c,left+split,top,bounds.w-split,bounds.h,0,0,bounds.w-split,bounds.h);sc.restore();
+ return {canvas:c,bounds,sprite,width:112,height:100,contact:{x:26.5,y:pad+65.8}};
 }
 export function drawHotelTrain(ctx,train,pose){
- const b=train.bounds,w=118,h=73;
- // Keep the front upright. Project the receding side along the original
- // uphill track; translating an unprojected cutout leaves its rear off-rail.
- for(let x=0;x<w;x++){const u=x/w,dy=-Math.max(0,u-.47)*w*.48;ctx.drawImage(train.canvas,b.x+b.w*u,b.y,b.w/w,b.h,1307+pose.dx+x,200+pose.dy+dy,1.03,h);}
+ const x=1307+pose.dx;
+ // Nearest rail digitised from the unchanged painting: (1260,316) to
+ // (1380,263.2). Both wheelbase projection and travel use this same slope.
+ const railY=316-.44*(x+train.contact.x-1260);
+ ctx.imageSmoothingEnabled=true;ctx.imageSmoothingQuality='high';
+ ctx.drawImage(train.sprite,x,railY-train.contact.y,train.width,train.height);
 }
-export function createHotelEffects(canvas,reference,completeTrain,{snow=true}={}){
+let trainClipId=0;
+export function createHotelEffects(canvas,reference,completeTrain,{snow=true,trainLayer}={}){
  const ctx=canvas.getContext('2d');
  const train=completeTrain?prepareHotelTrain(completeTrain):null;
+ let trainAnimation,trainVisible=true;
+ if(train&&trainLayer){
+  const id=`hotel-train-clip-${++trainClipId}`,path=points=>points.map(([x,y],i)=>`${i?'L':'M'}${x/W} ${y/H}`).join(' ')+'Z';
+  trainLayer.innerHTML=`<svg width="0" height="0" aria-hidden="true"><defs><clipPath id="${id}" clipPathUnits="objectBoundingBox"><path clip-rule="evenodd" d="M0 0H1V1H0Z ${path(HOTEL_SILHOUETTE)} ${path([[1244,15],[1384,15],[1384,109],[1244,109]])}"/></clipPath></defs></svg>`;
+  trainLayer.style.clipPath=`url(#${id})`;
+  const c=train.sprite;c.className='hotel-funicular';
+  c.style.cssText=`position:absolute;left:${1307*HOTEL_SCALE}px;top:${(316-.44*(1307+train.contact.x-1260)-train.contact.y)*HOTEL_SCALE}px;width:${train.width*HOTEL_SCALE}px;height:${train.height*HOTEL_SCALE}px;will-change:transform;`;
+  trainLayer.append(c);
+  trainAnimation=c.animate([HOTEL_TRAIN.from,HOTEL_TRAIN.to].map(dx=>({transform:`translate3d(${dx*HOTEL_SCALE}px,${dx*HOTEL_TRAIN.slope*HOTEL_SCALE}px,0)`})),{duration:HOTEL_TRAIN.period*1000,iterations:Infinity,easing:'linear'});trainAnimation.pause();
+ }
  const flags=HOTEL_FLAGS.map(f=>cutout(reference,[[f.x+2,f.y+2],[f.x+13,f.y+1],[f.x+30,f.y+5],[f.x+44,f.y+9],[f.x+59,f.y+8],[f.x+59,f.y+38],[f.x+43,f.y+39],[f.x+28,f.y+34],[f.x+11,f.y+35],[f.x+2,f.y+38]]));
  const random=n=>{const v=Math.sin(n*127.1+311.7)*43758.5453;return v-Math.floor(v);};
  return {paint(t,still=false){
   ctx.clearRect(0,0,canvas.width,canvas.height);ctx.save();ctx.scale(canvas.width/W,canvas.height/H);
   HOTEL_FLAGS.forEach((f,i)=>{for(let x=0;x<f.w;x+=2){const u=x/f.w,dy=still?0:hotelFlagOffset(t,u,f.phase);ctx.drawImage(flags[i],f.x+x,f.y,2,f.h,f.x+x,f.y+dy,2.15,f.h);}});
-  const pose=still?hotelTrainPose(11.8):hotelTrainPose(t);ctx.save();exteriorClip(ctx);if(train)drawHotelTrain(ctx,train,pose);ctx.restore();
+  const pose=still?hotelTrainPose(11.8):hotelTrainPose(t);ctx.save();exteriorClip(ctx);if(train&&!trainLayer)drawHotelTrain(ctx,train,pose);if(trainAnimation){if(still){trainAnimation.pause();trainAnimation.currentTime=11800;}else if(trainVisible&&trainAnimation.playState!=='running'){trainAnimation.currentTime=(t%HOTEL_TRAIN.period)*1000;trainAnimation.play();}}ctx.restore();
   if(!still&&snow){ctx.save();exteriorClip(ctx);for(let i=0;i<235;i++){const depth=random(i+700),speed=13+depth*24,x=(random(i+30)*W+Math.sin(t*.25+i)*8+t*(2+depth*2))%(W+12),y=(random(i+500)*H+t*speed)%(H+12)-6;ctx.globalAlpha=.25+depth*.5;ctx.fillStyle='#fff8ed';ctx.beginPath();ctx.ellipse(x,y,.65+depth*1.45,1+depth*1.9,.18,0,Math.PI*2);ctx.fill();}ctx.restore();}
   ctx.restore();canvas.dataset.time=String(t);canvas.dataset.train=JSON.stringify(pose);canvas.dataset.flags=JSON.stringify(HOTEL_FLAGS.map(f=>hotelFlagOffset(t,1,f.phase)));canvas.dataset.lights=JSON.stringify(HOTEL_LIGHTS.map((_,i)=>hotelLightLevel(t,((i*.61803398875)%1)*Math.PI*2)));
- },destroy(){}};
+ },setVisible(value){trainVisible=value;if(!value)trainAnimation?.pause();},destroy(){trainAnimation?.cancel();trainLayer?.replaceChildren();}};
 }

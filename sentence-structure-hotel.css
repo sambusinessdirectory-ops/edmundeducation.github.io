@@ -1,15 +1,18 @@
 .sentence-hotel-realm {position:absolute;left:0;width:1600px;overflow:hidden;pointer-events:none;background:#c8a7a5;}
 .hotel-background,.hotel-scenery,.hotel-effects {position:absolute;inset:0;width:1600px;height:100%;max-width:none;pointer-events:none;}
+.hotel-train-layer {position:absolute;inset:0;pointer-events:none;}
+.hotel-train-layer svg {position:absolute;}
 .hotel-scenery[hidden],.hotel-effects[hidden] {display:none;}
 .hotel-elevator {position:absolute;pointer-events:none;mask-image:radial-gradient(ellipse closest-side,black 70%,transparent 100%);-webkit-mask-image:radial-gradient(ellipse closest-side,black 70%,transparent 100%);}
 .hotel-elevator[hidden] {display:none;}
-.hotel-boundary-fog {position:absolute;left:-800px;width:3200px;height:160px;pointer-events:none;z-index:2;background:linear-gradient(transparent,#e9ddd24d 22%,#e9ddd28c 44%,#e9ddd2a3 54%,#e9ddd24d 76%,transparent);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);mask-image:linear-gradient(transparent,black 30%,black 70%,transparent);-webkit-mask-image:linear-gradient(transparent,black 30%,black 70%,transparent);}
-.hotel-boundary-fog i {position:absolute;width:580px;height:136px;background:radial-gradient(ellipse,#f5e8dbd0,#f2e5d6a8 28%,transparent 70%);filter:blur(22px);animation:hotel-fog-drift 17s ease-in-out var(--delay) infinite alternate;}
+.hotel-boundary-fog {position:absolute;left:-800px;width:3200px;height:100px;pointer-events:none;z-index:2;background:linear-gradient(transparent,#e9ddd230 22%,#e9ddd270 48%,#e9ddd270 54%,#e9ddd230 76%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);mask-image:linear-gradient(transparent,black 30%,black 70%,transparent);-webkit-mask-image:linear-gradient(transparent,black 30%,black 70%,transparent);}
+.hotel-boundary-fog i {position:absolute;width:580px;height:90px;background:radial-gradient(ellipse,#f5e8db99,#f2e5d66b 28%,transparent 70%);filter:blur(16px);animation:hotel-fog-drift 17s ease-in-out var(--delay) infinite alternate;}
 @keyframes hotel-fog-drift {from{transform:translateX(-28px)}to{transform:translateX(33px)}}
 .hotel-road-sign {position:absolute;left:1363px;top:1157px;width:165px;height:43px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;color:#514232;text-align:center;font-family:Georgia,'Times New Roman',serif;}
 .hotel-road-sign span:first-child {font-size:15px;letter-spacing:1.1px;line-height:1;}
 .hotel-road-sign span:last-child {font-size:10px;letter-spacing:.1px;line-height:1;white-space:nowrap;}
-.hotel-companion-portrait {position:absolute;left:1437px;top:61px;display:flex;align-items:center;gap:13px;color:#292122;font:16px Georgia,serif;}
+.hotel-companion-card {position:absolute;left:1419.686px;top:17.118px;width:159.772px;height:107.275px;z-index:3;pointer-events:none;}
+.hotel-companion-portrait {position:absolute;z-index:4;left:1437px;top:61px;display:flex;align-items:center;gap:13px;color:#292122;font:16px Georgia,serif;}
 .hotel-companion-portrait canvas {width:39px;height:51px;}
 [data-theme="sentence-shore"] .expression-map-stone[data-hotel] {width:69px;height:83px;margin:-85px 0 0 -34.5px;border-radius:2px;background:transparent;border:0;box-shadow:none;}
 .expression-map-stone[data-hotel]>* {display:none!important;}

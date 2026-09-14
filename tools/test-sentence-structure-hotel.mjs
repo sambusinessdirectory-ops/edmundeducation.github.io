@@ -21,7 +21,7 @@ test('hotel travel stays on corridors or in the concealed service passage',()=>{
 test('funicular travels uphill and both ends of the wrap are hidden',()=>{
  const first=hotelTrainPose(0),last=hotelTrainPose(22.999999);
  assert.ok(1402+first.dx<1266);assert.ok(1307+last.dx>1402);
- let p=first;for(let t=.05;t<23;t+=.05){const n=hotelTrainPose(t);assert.ok(n.dx>p.dx);assert.ok(n.dy<p.dy);assert.ok(Math.abs(n.dy/n.dx+.55)<1e-9);p=n;}
+ let p=first;for(let t=.05;t<23;t+=.05){const n=hotelTrainPose(t);assert.ok(n.dx>p.dx);assert.ok(n.dy<p.dy);assert.ok(Math.abs(n.dy/n.dx+.44)<1e-9);p=n;}
  assert.deepEqual(hotelTrainPose(0),hotelTrainPose(23));
 });
 test('flags remain attached while every light changes gently with staggered phases',()=>{

@@ -1,10 +1,10 @@
-import {HOTEL_OFFSET,HOTEL_HEIGHT,hotelPositions,hotelArrivalIndex,hotelJourneyDuration} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel2';
-import {hotelTerrain,decorateHotelDoors,mountHotel} from './sentence-structure-hotel.mjs?v=20260914-hotel2';
+import {HOTEL_OFFSET,HOTEL_HEIGHT,hotelPositions,hotelArrivalIndex,hotelJourneyDuration} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel3';
+import {hotelTerrain,decorateHotelDoors,mountHotel} from './sentence-structure-hotel.mjs?v=20260914-hotel3';
 import {TOY_OFFSET,TOY_HEIGHT,toyPositions} from './sentence-structure-toy-geometry.mjs?v=20260912-toy1';
 import {toyTerrain,decorateToyStones,mountToy} from './sentence-structure-toy.mjs?v=20260912-toy1';
 import { levelPositions } from './common-expression-map.mjs?v=20260912-toy1';
 import { SENTENCE_COAST, SHORE_LAYOUT } from './sentence-structure-coast.mjs?v=20260912-autumn1';
-import { AUTUMN_OFFSET, realmsPath, realmsStep } from './sentence-structure-realms-navigation.mjs?v=20260914-hotel2';
+import { AUTUMN_OFFSET, realmsPath, realmsStep } from './sentence-structure-realms-navigation.mjs?v=20260914-hotel3';
 import { createAutumnRabbit, rabbitMotion } from './sentence-structure-autumn-rabbit.mjs?v=20260912-autumn1';
 import { ZEN_OFFSET,ZEN_HEIGHT,ZEN_LAYOUT } from './sentence-structure-zen-geometry.mjs?v=20260912-garden-normal';
 import { zenTerrain,zenOverlay,decorateZenStones,mountZen } from './sentence-structure-zen.mjs?v=20260912-garden-normal';
@@ -51,7 +51,7 @@ function terrain(nodes,lessons){
  <div class="realm-cloud-border dream-cloud-border" style="top:${DREAM_OFFSET-45}px" aria-hidden="true">${Array.from({length:11},(_,i)=>`<i style="left:${i*290-60}px;top:${i%3*11}px;--duration:${27+i%4*5}s;--delay:${-i*3.3}s;--drift:${i%2?'-':''}19px"></i>`).join('')}</div>
  ${toyTerrain()}
  ${hotelTerrain()}
- <div class="hotel-boundary-fog" style="top:${HOTEL_OFFSET-80}px" aria-hidden="true">${Array.from({length:10},(_,i)=>`<i style="left:${i*330-70}px;top:${i%3*16-8}px;--delay:${-i*3}s"></i>`).join('')}</div>
+ <div class="hotel-boundary-fog" style="top:${HOTEL_OFFSET-64}px" aria-hidden="true">${Array.from({length:10},(_,i)=>`<i style="left:${i*330-70}px;top:${i%3*8-10}px;--delay:${-i*3}s"></i>`).join('')}</div>
  <div class="realm-cloud-border toy-cloud-border" style="top:${TOY_OFFSET-75}px" aria-hidden="true">${Array.from({length:11},(_,i)=>`<i style="left:${i*290-60}px;top:${i%3*8}px;--duration:${25+i%4*4}s;--delay:${-i*2.7}s;--drift:${i%2?'-':''}19px"></i>`).join('')}</div>`;
 }
 const overlay=`<div class="autumn-leaves" aria-hidden="true">${Array.from({length:10},(_,i)=>`<span style="left:${4+i*10}%;--duration:${19+i%4*3}s;--delay:${-i*3.8}s;--drift:${i%2?-65:85}px;--spin:${i%2?-230:190}deg;width:${12+i%3*3}px">${leaf(['#b86536','#d49a4e','#a94b33','#c89c58'][i%4])}</span>`).join('')}</div>`;
