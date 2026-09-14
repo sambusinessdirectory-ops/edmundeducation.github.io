@@ -2,16 +2,16 @@ import { MASCOT_VIEWS } from './speaking-mascot-views.mjs';
 
 const CHARACTERS = [{id:'eddy',name:'Eddie'},{id:'phoebe',name:'Phoebe'},{id:'elsie',name:'Elsie'}];
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-// Measured corners of the painted playing surface, in a 1000 x 667 world.
+// Measured surface of table-unified-v1.jpg, in a 1000 x 667 world.
 export function chessPosition(index) {
   const row = Math.floor(index / 4), column = index % 4;
-  const t=(row+.5)/4, left=240+(181-240)*t, right=763+(816-763)*t;
-  return {x:left+(right-left)*(column+.5)/4,y:104+(570-104)*t};
+  const t=(row+.5)/4, left=315+(271-315)*t, right=708+(753-708)*t;
+  return {x:left+(right-left)*(column+.5)/4,y:119+(532-119)*t};
 }
 export function isOnChessboard({x,y}) {
-  if(y<104||y>570)return false;
-  const t=(y-104)/466;
-  return x>=240-59*t && x<=763+53*t;
+  if(y<119||y>532)return false;
+  const t=(y-119)/413;
+  return x>=315-44*t && x<=708+45*t;
 }
 
 export function mountWritingChessMap(host,{storage,owner,exerciseId,onStart}={}) {
@@ -38,7 +38,7 @@ export function mountWritingChessMap(host,{storage,owner,exerciseId,onStart}={})
   const nodeMarkup=modes.map((m,i)=>{const p=chessPosition(i);return `<button type="button" class="chess-stop ${Math.floor(i/4)%2===i%2?'ivory':'ebony'}" data-start-practice-mode="${escape(m.mode)}" data-practice-difficulty="${escape(m.difficulty)}" data-chess-index="${i}" style="left:${p.x/10}%;top:${p.y/6.67}%" aria-pressed="${i===selected}" aria-label="${escape(m.level+'，'+m.title+'，'+m.count)}"><span class="chess-coin">${String(i+1).padStart(2,'0')}</span><span class="chess-label"><strong>${m.mode==='both'?'顯示開首<br>及結尾字母':m.mode==='blank'?'不顯示字母提示':escape(m.title)}</strong></span></button>`;}).join('');
   const difficultyMarkup=modes.filter((_,i)=>i%4===0).map((m,row)=>`<div class="chess-difficulty" style="top:${chessPosition(row*4).y/6.67}%"><strong>${escape(m.level)}</strong><span>${escape(m.count)}</span></div>`).join('');
   groups.className='writing-chess-map';
-  groups.innerHTML=`<div class="chess-map-caption"><span>WRITING PRACTICE</span><span>16 種練習模式</span></div><div class="chess-scroll" tabindex="0" aria-label="練習棋盤，可左右捲動"><div class="chess-stage"><img class="chess-table" src="assets/writing-chess-map/table-v1.jpg" alt="木製棋盤，四周有書本、黃銅檯燈及西洋棋子" draggable="false">${difficultyMarkup}${nodeMarkup}<div class="chess-companion" aria-hidden="true"><span class="chess-contact"></span><canvas width="240" height="280"></canvas></div><div class="chess-plaque"><span aria-hidden="true">♛</span>請選擇練習模式及段落範圍</div></div></div><div class="chess-selection"><div><span class="chess-selection-level"></span><h3></h3><p></p></div><button class="chess-enter" type="button" data-chess-enter>開始練習 <span aria-hidden="true">→</span></button></div><p class="chess-status" aria-live="polite"></p>`;
+  groups.innerHTML=`<div class="chess-map-caption"><span>WRITING PRACTICE</span><span>16 種練習模式</span></div><div class="chess-scroll" tabindex="0" aria-label="練習棋盤，可左右捲動"><div class="chess-stage"><img class="chess-table" src="assets/writing-chess-map/table-unified-v1.jpg" alt="木製棋盤，四周有書本、黃銅檯燈及西洋棋子" draggable="false">${difficultyMarkup}${nodeMarkup}<div class="chess-companion" aria-hidden="true"><span class="chess-contact"></span><canvas width="240" height="280"></canvas></div><div class="chess-plaque"><span aria-hidden="true">♛</span>請選擇練習模式及段落範圍</div></div></div><div class="chess-selection"><div><span class="chess-selection-level"></span><h3></h3><p></p></div><button class="chess-enter" type="button" data-chess-enter>開始練習 <span aria-hidden="true">→</span></button></div><p class="chess-status" aria-live="polite"></p>`;
   const avatar=groups.querySelector('.chess-companion'), canvas=avatar.querySelector('canvas'), status=groups.querySelector('.chess-status');
   const drawSprite=(target,id,facing,time,walking)=>{
     let img=images.get(id);

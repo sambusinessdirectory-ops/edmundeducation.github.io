@@ -53,15 +53,18 @@ for(let row=0;row<4;row++){
  const nodes=nodePositions.slice(row*4,row*4+4);assert.deepEqual(nodes.map(n=>n.mode),['blank','start','end','both']);
  for(let i=1;i<4;i++)assert.ok(nodes[i].x>nodes[i-1].x);
 }
-await page.evaluate(async()=>{const i=new Image();i.src='assets/writing-chess-map/surround-v1.jpg';await i.decode();});
-await page.locator('.chess-stage').click({position:{x:550,y:355}});
+assert.equal(await page.locator('.chess-scroll').evaluate(e=>getComputedStyle(e).backgroundImage),'none');
+assert.equal(await page.locator('.chess-table').evaluate(e=>getComputedStyle(e).maskImage),'none');
+assert.ok((await page.locator('.chess-table').getAttribute('src')).includes('table-unified-v1.jpg'));
+async function clickWorld(x,y){const b=await page.locator('.chess-stage').boundingBox();await page.locator('.chess-stage').click({position:{x:b.width*x/1000,y:b.height*y/667}});}
+await clickWorld(510,360);
 await page.waitForTimeout(1100);
 const freePosition=await page.locator('.chess-companion').evaluate(e=>({x:parseFloat(e.style.left),y:parseFloat(e.style.top)}));
-assert.ok(Math.abs(freePosition.x-50)<1&&Math.abs(freePosition.y-48.4)<1,'Companion walks to an arbitrary board point');
+assert.ok(Math.abs(freePosition.x-51)<1&&Math.abs(freePosition.y-360/667*100)<1,'Companion walks to an arbitrary board point');
 
 
 assert.equal((await page.locator('.chess-plaque').innerText()).replace(/\s/g,''),'♛請選擇練習模式及段落範圍');
-await page.locator('.chess-stage').click({position:{x:500,y:130}});await page.waitForTimeout(100);
+await clickWorld(500,130);await page.waitForTimeout(100);
 assert.equal(await page.locator('.chess-companion').getAttribute('data-walking'),'true');
 await page.screenshot({path:output+'/walking.png'});
 await page.locator('[data-chess-index="6"]').click();assert.equal(await page.locator('[data-practice-form] input').count(),45);
@@ -80,10 +83,12 @@ assert.equal(await page.evaluate(()=>practiceState.selectedParagraphs.length),12
 await page.locator('[data-chess-character="phoebe"]').click();
 await page.locator('[data-chess-enter]').click();await page.locator('[data-back-practice-mode]').click();await page.locator('.chess-stage').waitFor();
 assert.equal(await page.locator('[data-chess-character="phoebe"]').getAttribute('aria-pressed'),'true');
-await page.emulateMedia({reducedMotion:'reduce'});await page.locator('.chess-stage').click({position:{x:550,y:355}});
+await page.emulateMedia({reducedMotion:'reduce'});await clickWorld(510,360);
 assert.equal(await page.locator('.chess-companion').getAttribute('data-walking'),'false');
 await page.locator('[data-chess-character="elsie"]').click();await page.waitForTimeout(300);
 await page.screenshot({path:output+'/elsie.png',fullPage:true});
+await page.setViewportSize({width:1800,height:1100});await page.waitForTimeout(300);await page.locator('.writing-chess-page').screenshot({path:output+'/wide.png'});
+assert.ok(await page.locator('.chess-stage').evaluate(e=>Math.abs(e.clientWidth-e.parentElement.clientWidth)<2),'Single scene fills wide viewport');
 await page.setViewportSize({width:390,height:844});await page.waitForTimeout(200);await page.screenshot({path:output+'/mobile.png',fullPage:true});
 assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,'No document overflow');
 assert.ok(await page.locator('.chess-scroll').evaluate(e=>e.scrollWidth>e.clientWidth),'Board scrolls within its viewport');

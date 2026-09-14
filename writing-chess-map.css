@@ -53,7 +53,11 @@
 
 /* Keep the ivory pieces visible through the four row labels. */
 .chess-difficulty{background:linear-gradient(120deg,#24221c80,#4b3e2c70);backdrop-filter:blur(1px);text-shadow:0 1px 3px #000c}
-/* A generated walnut surround fills the former solid margins. */
-.chess-scroll{background-image:url('assets/writing-chess-map/surround-v1.jpg');background-size:100% 100%;background-repeat:no-repeat;background-position:center}
-.chess-table{mask-image:linear-gradient(to right,transparent,black 2.5%,black 97.5%,transparent);-webkit-mask-image:linear-gradient(to right,transparent,black 2.5%,black 97.5%,transparent)}
+/* The complete scene uses one image; no side layers or image masks. */
 .chess-label strong{white-space:normal}.chess-label strong br{display:block}
+
+.chess-stage{width:100%;max-width:none;min-width:1100px;aspect-ratio:2/1;margin:0}
+.chess-scroll{background:none}.chess-table{mask-image:none;-webkit-mask-image:none}
+.chess-stop{width:9.5%}.chess-label{min-height:36px}.chess-label strong{font-size:clamp(12px,1vw,14px)}
+.chess-difficulty{left:9%;width:16%}
+.chess-plaque{top:85%;left:51%;width:32%;font-size:clamp(14px,1.25vw,19px);letter-spacing:1px}
