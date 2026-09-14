@@ -22,3 +22,10 @@ const all=lessons.map(l=>({lessonId:l.id,status:'completed',correctCount:50,tota
 assert.equal(sentenceTrophyCollection(lessons,all).filter(x=>x.earned).length,345);
 assert.equal(sentenceTrophyCollection(lessons,[]).filter(x=>x.earned).length,0);
 console.log('Golden Horsey: exact 50-question completion, unique IDs, legacy records, no partial-attempt pooling, all 345 modules and empty-owner state passed.');
+
+const extra={...lesson,id:'new-module',questions:ids.map(id=>({id:'new-'+id}))};
+assert.equal(sentenceTrophyCollection([...lessons,extra],[]).length,lessons.length+1,'Maximum trophy count grows with the available catalogue');
+assert.equal(sentenceTrophyCollection([...lessons,{...extra,questions:extra.questions.slice(0,49)}],[]).length,lessons.length,'Only eligible modules contribute to the maximum');
+assert.equal(sentenceTrophyCollection(lessons,[attempt(50),attempt(50)]).filter(x=>x.earned).length,1,'Repeat completions count as one trophy');
+assert.equal(sentenceTrophyCollection(lessons.slice(0,10),all).length,10,'Maximum adapts when the available catalogue is smaller');
+console.log('Dynamic trophy maximum and repeat-completion counts passed.');

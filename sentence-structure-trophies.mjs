@@ -33,6 +33,30 @@ export function sentenceTrophyCollection(lessons, attempts = []) {
     ...sentenceTrophyState(lesson, grouped.get(lesson.id) || []) })).filter(item => item.eligible);
 }
 
+export function syncSentenceTrophyCounter(root, collection) {
+  const heading = root?.querySelector('.expression-map-heading');
+  if (!heading) return;
+  let counter = heading.querySelector('[data-sentence-trophy-counter]');
+  if (!counter) {
+    const copy = document.createElement('div');
+    copy.className = 'ss-trophy-journey-copy';
+    copy.append(...heading.childNodes);
+    heading.append(copy);
+    heading.classList.add('ss-trophy-heading');
+    counter = document.createElement('button');
+    counter.type = 'button'; counter.className = 'ss-trophy-counter';
+    counter.setAttribute('data-sentence-trophy-counter', '');
+    counter.setAttribute('data-view-sentence-trophies', '');
+    counter.innerHTML = `<img src="${GOLDEN_EDDIE_ART}" alt="" width="64" height="72" draggable="false"><span><strong data-trophy-counter-value aria-live="polite" aria-atomic="true"></strong><small>金色獎座</small></span>`;
+    heading.prepend(counter);
+  }
+  const earned = collection.filter(item => item.earned).length;
+  const value = `${earned} / ${collection.length}`;
+  const label = counter.querySelector('[data-trophy-counter-value]');
+  if (label.textContent !== value) label.textContent = value;
+  counter.setAttribute('aria-label', `查看我的金色 Horsey 獎座：已獲得 ${earned} 座，目前共可獲得 ${collection.length} 座`);
+}
+
 function trophySparkles() {
   return `<span class="ss-trophy-sparkles" aria-hidden="true">${'<i></i>'.repeat(6)}</span>`;
 }

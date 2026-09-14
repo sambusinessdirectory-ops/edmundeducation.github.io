@@ -87,3 +87,23 @@
 [data-sentence-map] .ss-trophy-sparkles i { --rise:-20px; width:5px; height:5px; }
 [data-sentence-map] [data-hotel] .ss-trophy-sparkles i { --rise:-12px; width:3px; height:3px; }
 @media(prefers-reduced-motion:reduce) { .ss-trophy-sparkles,[data-sentence-map] .expression-map-stone[data-trophy-earned]>.ss-trophy-sparkles { display:none!important; } .ss-trophy-sparkles i { animation:none!important; } }
+
+/* Account-scoped collection total at the upper left of the map panel. */
+[data-sentence-map] .ss-trophy-heading { display:flex; align-items:center; gap:18px; }
+.ss-trophy-journey-copy { min-width:0; }
+[data-sentence-map] .ss-trophy-counter { display:flex; flex:none; align-items:center; gap:7px; padding:2px 14px 2px 3px; border:1px solid #c8a76580; border-radius:13px; color:#674715; background:linear-gradient(120deg,#fffbeb,#f5e7be); box-shadow:inset 0 1px #fffefa,0 3px 9px #88622210; cursor:pointer; text-align:left; user-select:none; }
+.ss-trophy-counter img { display:block; width:64px; height:72px; object-fit:contain; -webkit-user-drag:none; filter:drop-shadow(0 2px 2px #87602030); }
+.ss-trophy-counter>span { display:flex; flex-direction:column; gap:4px; }
+.ss-trophy-counter strong { font:700 25px/1.1 Georgia,serif; font-variant-numeric:tabular-nums; white-space:nowrap; }
+.ss-trophy-counter small { font:650 10px/1.3 system-ui; color:#84632e; letter-spacing:.08em; }
+[data-sentence-map] .ss-trophy-counter:hover { background:linear-gradient(120deg,#fff9db,#f0db9f); border-color:#a88441; }
+[data-sentence-map] .ss-trophy-counter:focus-visible { outline:3px solid #987023; outline-offset:3px; }
+@media(max-width:650px) {
+ [data-sentence-map] .ss-trophy-heading { gap:12px; }
+ [data-sentence-map] .ss-trophy-counter { gap:3px; padding-right:9px; }
+ .ss-trophy-counter img { width:46px; height:58px; }
+ .ss-trophy-counter strong { font-size:21px; }
+ .ss-trophy-counter small { font-size:9px; }
+ [data-sentence-map] .ss-trophy-journey-copy p { font-size:9px; letter-spacing:.12em; line-height:1.5; }
+ [data-sentence-map] .ss-trophy-journey-copy h2 small { display:block; margin-left:0; font-size:11px; }
+}

@@ -160,6 +160,7 @@ function createFrontendHarness() {
     "[data-map-bookmark-count]", "[data-sentence-map]", "[data-sentence-map-toggle]"
   ];
   selectors.forEach((selector) => selectorMap.set(selector, makeElement()));
+  selectorMap.get("[data-sentence-map]").querySelector = () => null; // Map rendering is exercised in the browser fixture.
   selectorMap.get("#sentence-structure-password").type = "password";
   selectorMap.get("#sentence-structure-loading-template").innerHTML = "<p>loading</p>";
   selectorMap.get("[data-lesson-stepper]").querySelectorAll = (selector) => selector === "[data-step]" ? steps : [];

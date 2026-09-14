@@ -3,7 +3,7 @@ import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=202
 import { createExpressionMap } from "./common-expression-map.mjs?v=20260914-hotel3b";
 import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260914-hotel3b";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260914-hotel3b";
-import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies } from "./sentence-structure-trophies.mjs?v=20260914-trophy2";
+import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies, syncSentenceTrophyCounter } from "./sentence-structure-trophies.mjs?v=20260914-trophy3";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const lessonLibrary = createLessonLibrary(new URL("./assets/sentence-structure/library/manifest.json?v=20260908-loading1", import.meta.url));
@@ -424,6 +424,7 @@ function clearSession() {
   pauseExerciseClock();
   lessonNavigation += 1;
   sentenceTrophies = []; earnedSentenceTrophies = new Set();
+  syncSentenceTrophyCounter(document.querySelector('[data-sentence-map]'), []);
   const trophyShelf = document.querySelector("[data-sentence-trophy-shelf]");
   if (trophyShelf) { trophyShelf.open = false; trophyShelf.replaceChildren(); }
   state.user = null;
@@ -737,12 +738,14 @@ function renderLessonChoices() {
           const scenery = SENTENCE_REALMS.mount(root, reduced);
           return { draw: now => scenery.draw(now), update() {
             scenery.update(); syncSentenceMapTrophies(root, mappedLessons, earnedSentenceTrophies);
+            syncSentenceTrophyCounter(root, sentenceTrophies);
           }, destroy: () => scenery.destroy() };
         }
       }
     });
   }
   sentenceMap?.update(String(state.user?.id || ''));
+  syncSentenceTrophyCounter(document.querySelector('[data-sentence-map]'), sentenceTrophies);
   sentenceMap?.setActive(state.currentView === 'dashboard');
 }
 

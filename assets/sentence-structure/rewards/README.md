@@ -17,3 +17,5 @@ Source originals and review evidence: `/Users/sammak/Documents/ChatGPT/Astra/out
 
 
 Earned trophies have six small gold star/mote particles that rise and fade on staggered 3.4–4.5 second cycles. Particles ignore input, do not cover the live number plaque, and are absent from locked previews. They pause with the map and closed collection and disappear under reduced-motion preferences. Browser checks measure real particle movement and verify reduced-motion suppression.
+
+The upper-left map header shows Eddie with the current student’s earned / available trophy count. Both numbers come from the same current eligible catalogue as the collection (345 modules today); repeated completions count once. Clicking the counter opens the collection. The browser fixture verifies updates after earning, saved normal-mode restoration, account switching, and desktop/phone header layouts.
