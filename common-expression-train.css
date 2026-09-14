@@ -16,3 +16,8 @@
 .train-reservation-note{padding:14px 24px;color:#ecddbf;background:#33212a;font-size:14px;border-top:1px solid #b2926255}
 [data-business-area=train] .expression-map-viewport{background:#29191d;scrollbar-color:#967757 #35252a}
 @media(max-width:680px){.business-area-tabs{padding:8px;gap:6px}.business-area-tabs button{flex:1;padding:9px 6px;font-size:12px}}
+
+/* Prevent native blue selection/image dragging without blocking map gestures. */
+.expression-map[data-theme="airport"] .expression-map-viewport,
+.expression-map[data-theme="airport"] .expression-map-viewport *{user-select:none;-webkit-user-select:none}
+.expression-map[data-theme="airport"] .expression-map-viewport img{-webkit-user-drag:none}

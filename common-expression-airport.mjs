@@ -1,4 +1,4 @@
-import {TRAIN_TOP,prepareTrain,trainPositions,trainTerrain,mountTrain} from './common-expression-train.mjs?v=20260915-train1';
+import {TRAIN_TOP,prepareTrain,trainPositions,trainTerrain,mountTrain} from './common-expression-train.mjs?v=20260915-train2';
 // Airport artwork and motion only; the shared map owns lesson/account state.
 const ART='./assets/common-expression-business/airport/';
 const W=1600,H=1200;
@@ -118,6 +118,8 @@ function combinedPositions(lessons){return lessons.map((lesson,i)=>i<30?airportP
 function combinedTerrain(nodes,lessons){return terrain(nodes.slice(0,30),lessons.slice(0,30))+trainTerrain();}
 function combinedMount(root,reduced,controls){
   const airport=mount(root,reduced),train=mountTrain(root,reduced),events=new AbortController();
+  const viewport=root.querySelector('.expression-map-viewport');
+  for(const type of ['selectstart','dragstart'])viewport?.addEventListener(type,event=>event.preventDefault(),{signal:events.signal});
   const tabs=document.createElement('div');tabs.className='business-area-tabs';tabs.setAttribute('role','group');tabs.setAttribute('aria-label','選擇旅程');
   tabs.innerHTML='<button type="button" data-business-area="airport" aria-pressed="true">機場貴賓室 · 01–30</button><button type="button" data-business-area="train" aria-pressed="false">臥鋪列車 · 31–60</button>';
   root.querySelector('.expression-map-tools')?.before(tabs);
