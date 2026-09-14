@@ -3,6 +3,7 @@ import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=202
 import { createExpressionMap } from "./common-expression-map.mjs?v=20260914-hotel3b";
 import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260914-hotel3b";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260914-hotel3b";
+import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies } from "./sentence-structure-trophies.mjs?v=20260914-trophy1";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const lessonLibrary = createLessonLibrary(new URL("./assets/sentence-structure/library/manifest.json?v=20260908-loading1", import.meta.url));
@@ -135,6 +136,7 @@ const state = {
 
 let lessonSearchIndexCache = null;
 let sentenceMap = null;
+let sentenceTrophies = [], earnedSentenceTrophies = new Set();
 let exerciseClockWasRunningBeforeIdleBreak = false;
 
 function idleBreakIsPaused() {
@@ -421,6 +423,9 @@ function clearSession() {
   state.exercisePersistTimer = null;
   pauseExerciseClock();
   lessonNavigation += 1;
+  sentenceTrophies = []; earnedSentenceTrophies = new Set();
+  const trophyShelf = document.querySelector("[data-sentence-trophy-shelf]");
+  if (trophyShelf) { trophyShelf.open = false; trophyShelf.replaceChildren(); }
   state.user = null;
   state.authToken = "";
   state.lessonId = "";
@@ -693,19 +698,18 @@ function openRequestedHomeworkLesson() {
 }
 
 function renderLessonChoices() {
+  sentenceTrophies = sentenceTrophyCollection(lessonList(), state.user?.role === "student" ? state.attempts : []);
+  earnedSentenceTrophies = new Set(sentenceTrophies.filter(item => item.earned).map(item => item.lesson.id));
+  renderSentenceTrophyShelf(document.querySelector("[data-sentence-trophy-shelf]"), sentenceTrophies);
   if (elements.lessonCount) elements.lessonCount.textContent = String(lessonList().length);
   const cards = lessonList().map((lesson, index) => {
-    const complete = state.attempts.some((attempt) => (
-      attempt.lessonId === lesson.id
-      && attempt.status === "completed"
-      && attempt.correctCount >= Math.min(50, attempt.totalCount || 50)
-    ));
+    const complete = earnedSentenceTrophies.has(lesson.id);
     const bookmarked = isSectionBookmarked(lesson.id);
     return `
       <article class="lesson-choice-card ${complete ? "is-complete" : ""}">
         <button class="lesson-choice ${complete ? "is-complete" : ""}" type="button" data-open-lesson="${escapeHtml(lesson.id)}" data-number="${index + 1}" data-tone="${complete ? "gold" : index % 2 ? "violet" : "blue"}">
           <h2>${escapeHtml(lessonTitle(lesson))}<span>${escapeHtml(lessonEnglishTitle(lesson))}</span></h2>
-          ${complete ? '<span class="lesson-choice-complete">✓ 50 / 50 題已完成</span>' : ""}
+          ${complete ? `<span class="lesson-choice-complete"><img class="ss-trophy-list-icon" src="${GOLDEN_EDDIE_ART}" alt="" width="38" height="38" loading="lazy">金色 Horsey · 50 / 50 題已完成</span>` : ""}
         </button>
         <button class="lesson-section-bookmark" type="button" data-toggle-section-bookmark="${escapeHtml(lesson.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除句型書簽" : "收藏整個句型"}">${bookmarked ? "★" : "☆"}</button>
       </article>
@@ -727,7 +731,15 @@ function renderLessonChoices() {
       lessons: mappedLessons,
       getCompleted: id => sentenceMapCompleted(state.attempts, mappedLessons.find(lesson => lesson.id === id)),
       openLesson: id => openLesson(id, { page: 1 }),
-      systemKey: 'sentence-structure', theme: SENTENCE_REALMS
+      systemKey: 'sentence-structure', theme: {
+        ...SENTENCE_REALMS,
+        mount(root, reduced) {
+          const scenery = SENTENCE_REALMS.mount(root, reduced);
+          return { draw: now => scenery.draw(now), update() {
+            scenery.update(); syncSentenceMapTrophies(root, mappedLessons, earnedSentenceTrophies);
+          }, destroy: () => scenery.destroy() };
+        }
+      }
     });
   }
   sentenceMap?.update(String(state.user?.id || ''));
@@ -1732,6 +1744,8 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
       </div>`
     : "";
 
+  const trophyEarned = sentenceTrophyState(lesson, [{lessonId: lesson.id, status: completed ? 'completed' : 'in_progress', totalCount: total, correctCount: correct, result: {correctIds: state.exercise.correctIds}}]).earned;
+  const trophyOrder = lessonList().findIndex(item => item.id === lesson.id) + 1;
   elements.lessonContent.innerHTML = `<section class="exercise-page">
     <header class="exercise-header">
       <div class="exercise-header-top">
@@ -1741,7 +1755,13 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
       <div class="exercise-progress-label"><span>已完成 ${escapeHtml(correct)} / ${escapeHtml(total)} 題</span><span>尚餘 ${escapeHtml(remaining)} 題</span></div>
     </header>
 
-    ${completed ? `<section class="round-summary completion-card">
+    ${trophyEarned ? `<section class="round-summary completion-card ss-trophy-celebration" data-sentence-trophy-reveal>
+      <p class="eyebrow">GOLDEN HORSEY · MODULE ${escapeHtml(String(trophyOrder).padStart(2, '0'))}</p>
+      ${goldenEddieFigure(trophyOrder, {eager: true})}
+      <h3>你的金色 Horsey 獎座！</h3>
+      <p>你已完成 <strong>${escapeHtml(lessonEnglishTitle(lesson))}</strong> 的全部 <strong>50 / 50</strong> 題。</p>
+      <div class="round-summary-actions"><button class="primary-button" type="button" data-view-sentence-trophies>查看我的獎座 →</button><button class="secondary-button" type="button" data-finish-exercise>返回學習首頁</button></div>
+    </section>` : completed ? `<section class="round-summary completion-card">
       <div class="completion-mark" aria-hidden="true">✓</div>
       <h3>恭喜，全部題目已完成！</h3>
       <p>你已完成這組 <strong>${escapeHtml(total)}</strong> 題句子結構練習。</p>
@@ -2357,6 +2377,12 @@ async function openAdminStudent(studentId) {
 }
 
 function handleClick(event) {
+  if (event.target.closest('[data-view-sentence-trophies]')) {
+    return state.attemptSaveQueue.then(() => openDashboard()).then(() => {
+      const shelf = document.querySelector('[data-sentence-trophy-shelf]');
+      if (shelf && state.currentView === 'dashboard') { shelf.open = true; shelf.scrollIntoView({behavior:'auto', block:'start'}); shelf.querySelector('summary')?.focus(); }
+    });
+  }
   if (event.target.closest('[data-retry-catalog]')) return openDashboard({ force: true });
   if (event.target.closest('[data-retry-search]')) return renderLessonSearch();
   if (event.target.closest('[data-retry-day]')) return renderProgressDayPanel();

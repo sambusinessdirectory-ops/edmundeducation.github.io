@@ -8,6 +8,8 @@ import vm from "node:vm";
 import { createLessonLibrary } from "../lesson-library.mjs";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "../sentence-structure-map.mjs";
 
+import * as trophyHelpers from "../sentence-structure-trophies.mjs";
+
 const root = new URL("../", import.meta.url);
 const read = (name) => readFile(new URL(name, root), "utf8");
 
@@ -241,6 +243,7 @@ function createFrontendHarness() {
     document,
     createLessonLibrary,
     SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted,
+    ...trophyHelpers,
     SENTENCE_REALMS: {},
     // Canvas/interaction behaviour is exercised by the real-browser map fixture.
     createExpressionMap: () => ({update(){},setActive(){},reset(){}}),
@@ -1935,6 +1938,7 @@ test("the second dashboard aggregates Supabase attempt duration and opens daily 
 
 test("bookmarks remain above the first-180 map and completed 50-question lessons turn gold", () => {
   const { sut, selectorMap } = createFrontendHarness();
+  sut.state.user = { id: "student-1", name: "Test Student", role: "student" };
   sut.state.bookmarks = [{ lessonId: "ss1", questionId: "ss1-q01", includeAnswer: false, createdAt: "" }];
   sut.state.attempts = [sut.normalizeAttempt({
     id: "complete-ss1",
