@@ -48,6 +48,10 @@ def standing(name):
         view=measure_cell(image,cell);view['angle']=angle
         if 97<angle<263:view['mouth'][2]=0
         views.append(view)
+    # Correct authored rear views; Elsie's sheet omits left rear angles.
+    remap={'phoebe':{115:(10,False),145:(10,False),235:(5,False)},'elsie':{210:(7,True),235:(6,True),250:(5,True)}}.get(name,{})
+    originals={v['sourceCell']:dict(v) for v in views}
+    views=[dict(originals[remap[v['angle']][0]],angle=v['angle'],mirror=remap[v['angle']][1]) if v['angle'] in remap else v for v in views]
     coat=np.median([view.pop('coatSample') for view in views],axis=0);source_coat='#'+''.join(f'{int(value):02x}' for value in coat)
     flow=np.full((GRID*FLOW_SIZE,GRID*FLOW_SIZE,4),128,np.uint8);(ASSETS/f'{name}-standing.flow').write_bytes(flow.tobytes())
     return {'sourceCoat':source_coat,'folder':'v4','image':f'{name}-standing.png','blinkImage':('elsie-blink-registered.png' if name=='elsie' else f'{name}-blink.png'),'flow':f'{name}-standing.flow','flowSize':FLOW_SIZE,'flowGrid':[GRID,GRID],'flowRange':0,'views':views}

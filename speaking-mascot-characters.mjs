@@ -1,7 +1,7 @@
 import * as THREE from './vendor/three/three.module.js';
-import {MASCOT_VIEWS} from './speaking-mascot-views.mjs?v=20260915-smooth1';
-import {viewPair, mouthOpening, blinkAmount, COAT_COLOURS} from './speaking-mascot-behaviour.mjs?v=20260915-smooth1';
-import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20260915-smooth1';
+import {MASCOT_VIEWS} from './speaking-mascot-views.mjs?v=20260915-companions1';
+import {viewPair, mouthOpening, blinkAmount, COAT_COLOURS} from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
+import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20260915-companions1';
 
 export class MascotCharacters {
   constructor(loader=new THREE.TextureLoader(), request=globalThis.fetch.bind(globalThis)) {

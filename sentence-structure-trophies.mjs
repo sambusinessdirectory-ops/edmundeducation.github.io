@@ -1,3 +1,4 @@
+import {syncCompanionTrophies,TROPHY_ART,trophyCharacter} from './horsey-trophy-art.mjs';
 import {trophyProgress,awardDateMarkup,tierName} from './horsey-awards.mjs';
 import {syncTrophyExtras,visibilityButton,handleVisibilityClick} from './horsey-trophy-ui.mjs';
 export {awardDateMarkup};
@@ -45,6 +46,7 @@ export function syncSentenceTrophyCounter(root, collection) {
   const value = `${earned} / ${collection.length}`;
   const label = counter.querySelector('[data-trophy-counter-value]');
   if (label.textContent !== value) label.textContent = value;
+  syncCompanionTrophies(counter);
   counter.setAttribute('aria-label', `查看我的金色 Horsey 獎座：已獲得 ${earned} 座，目前共可獲得 ${collection.length} 座`);
 }
 
@@ -53,12 +55,13 @@ function trophySparkles() {
 }
 
 function sculpture(art, { order, preview = false, eager = false, marker = false } = {}) {
-  return `<span class="ss-trophy-sculpture" style="--trophy-art:url('${art}')"><img ${marker ? 'class="ss-trophy-marker"' : ''} src="${art}" width="768" height="768" alt="" loading="${eager ? 'eager' : 'lazy'}" draggable="false">${order == null ? '' : `<span class="ss-trophy-engraving" aria-hidden="true">${escape(String(order).padStart(2, '0'))}</span>`}${preview ? '' : '<span class="ss-trophy-sheen" aria-hidden="true"></span>'}</span>${preview ? '' : trophySparkles()}`;
+  return `<span class="ss-trophy-sculpture" style="--trophy-art:url('${art}')"><img data-trophy-art-view="${art===GOLDEN_EDDIE_MAP_ART?'map':'front'}" ${marker ? 'class="ss-trophy-marker"' : ''} src="${art}" width="768" height="768" alt="" loading="${eager ? 'eager' : 'lazy'}" draggable="false">${order == null ? '' : `<span class="ss-trophy-engraving" aria-hidden="true">${escape(String(order).padStart(2, '0'))}</span>`}${preview ? '' : '<span class="ss-trophy-sheen" aria-hidden="true"></span>'}</span>${preview ? '' : trophySparkles()}`;
 }
 
 export function goldenEddieFigure(order, { preview = false, eager = false, tier = 'gold' } = {}) {
-  const title = tierName(tier) + ' Eddie 獎座';
-  return `<figure class="ss-trophy-figure${preview ? ' is-preview' : ''}" data-trophy-tier="${tier}">${preview ? `<span class="ss-trophy-preview" aria-label="${title}預覽">${sculpture(GOLDEN_EDDIE_ART, {order, preview, eager})}</span>` : `<button type="button" class="ss-trophy-interactive" data-trophy-interact aria-label="讓${title}浮起搖擺 · 句型 ${order}">${sculpture(GOLDEN_EDDIE_ART, {order, eager})}</button>`}</figure>`;
+  const character=trophyCharacter(),art=TROPHY_ART[character].front;
+  const title = tierName(tier) + ' ' + ({eddy:'Eddie',phoebe:'Phoebe',elsie:'Elsie'}[character]) + ' 獎座';
+  return `<figure class="ss-trophy-figure${preview ? ' is-preview' : ''}" data-trophy-tier="${tier}">${preview ? `<span class="ss-trophy-preview" aria-label="${title}預覽">${sculpture(art, {order, preview, eager})}</span>` : `<button type="button" class="ss-trophy-interactive" data-trophy-interact aria-label="讓${title}浮起搖擺 · 句型 ${order}">${sculpture(art, {order, eager})}</button>`}</figure>`;
 }
 
 export function animateSentenceTrophy(button) {
@@ -109,7 +112,7 @@ export function renderSentenceTrophyShelf(root, collection, owner = '') {
   let binding=shelfBindings.get(root);
   if(!binding){binding={};shelfBindings.set(root,binding);window.addEventListener('horsey-visibility-change',event=>{if(event.detail===binding.owner && root.isConnected)renderSentenceTrophyShelf(root,binding.collection,binding.owner);});}
   Object.assign(binding,{collection,owner});
-  root.onclick=event=>handleVisibilityClick(event,owner);
+  root.onclick=event=>{handleVisibilityClick(event,owner);};
   const earned = collection.filter(item => item.earned);
   const silver = collection.filter(item => item.tier === 'silver');
   const next = collection.filter(item => !item.tier).sort((a, b) => b.correct - a.correct || a.order - b.order)[0];
@@ -117,6 +120,7 @@ export function renderSentenceTrophyShelf(root, collection, owner = '') {
   const cards = [...earned, ...silver, ...bronze, ...(next ? [next] : [])];
   root.innerHTML = `<summary class="ss-trophy-summary"><img src="${GOLDEN_EDDIE_ART}" alt="" width="72" height="72" draggable="false"><span><small>THE HORSEY COLLECTION</small><strong>我的 Horsey 獎座</strong><span>25–39 題：銅色 · 40–49 題：銀色 · 50 題：金色。</span></span><b data-trophy-count>${earned.length} / ${collection.length}<small>金色獎座 · ${silver.length} 銀色 · ${bronze.length} 銅色</small></b><i aria-hidden="true">⌄</i></summary>
     <div class="ss-trophy-cabinet"><div class="ss-trophy-cabinet-heading"><h2>你的努力，閃閃發光</h2><p>已獲得 ${earned.length} 座金色、${silver.length} 座銀色、${bronze.length} 座銅色獎座。點一下 Eddie，讓牠開心地跳一跳。</p></div><div class="ss-trophy-grid">${cards.map(item => `<article class="ss-trophy-display${item.earned ? ' is-earned' : item.tier ? ' is-silver' : ' is-locked'}" data-trophy-lesson="${escape(item.lesson.id)}" data-trophy-earned="${item.earned}" data-trophy-tier="${item.tier || 'none'}"><span class="ss-trophy-status">${item.earned ? '✓ 金色獎座 · GOLD' : item.tier ? tierName(item.tier) + '獎座' : '下一座獎座 · UP NEXT'}</span>${goldenEddieFigure(item.order, {preview: !item.tier, tier: item.tier || 'gold'})}<div class="ss-trophy-nameplate"><small>MODULE ${String(item.order).padStart(2, '0')}</small><h3>${escape(item.lesson.titleEn || item.lesson.title)}</h3><p>${escape(item.lesson.title || item.lesson.titleZh || '')}</p><span>${item.correct} / 50 題已完成</span>${awardDateMarkup(item)}</div>${visibilityButton(item,owner)}<button type="button" class="ss-trophy-action" data-open-lesson="${escape(item.lesson.id)}">${item.earned ? '重溫句型' : '繼續學習'} <span aria-hidden="true">→</span></button></article>`).join('')}</div></div>`;
+  syncCompanionTrophies(root);
 }
 
 // Trophy buttons sit beside the original platform buttons, avoiding nested
@@ -161,4 +165,5 @@ export function syncSentenceMapTrophies(root, lessons, collection) {
     button.style.top = `${platform.offsetTop+offsetY}px`;
   }
   syncTrophyExtras(root, lessons, collection);
+  syncCompanionTrophies(document);
 }

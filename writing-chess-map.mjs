@@ -1,5 +1,5 @@
-import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-smooth1';
-import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-smooth1';
+import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-companions1';
+import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
 
 const CHARACTERS = [{id:'eddy',name:'Eddie'},{id:'phoebe',name:'Phoebe'},{id:'elsie',name:'Elsie'}];
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -55,11 +55,13 @@ export function mountWritingChessMap(host,{storage,owner,exerciseId,onStart}={})
     const v=MASCOT_VIEWS[id].standing.views.reduce((a,b)=>distance(a.angle)<distance(b.angle)?a:b);
     const [rx,ry,rw,rh]=v.rect, sx=rx*img.width,sy=(1-ry-rh)*img.height,sw=rw*img.width,sh=rh*img.height;
     const h=target.height*.94,w=h*sw/sh,x=(target.width-w)/2,y=target.height-h-4;
+    ctx.save();if(v.mirror){ctx.translate(target.width,0);ctx.scale(-1,1);}
     const phase=time/85,bob=walking&&!reduced.matches?Math.sin(phase)*2:0;
     if(walking&&!reduced.matches){
       ctx.drawImage(img,sx,sy,sw,sh*.79,x,y+bob,w,h*.79+1);
       for(let side=0;side<2;side++){ctx.save();const hip=x+w*(side?.75:.25);ctx.translate(hip,y+h*.79);ctx.rotate(Math.sin(phase+side*Math.PI)*.08);ctx.translate(-hip,-y-h*.79);ctx.drawImage(img,sx+side*sw/2,sy+sh*.79,sw/2,sh*.21,x+side*w/2,y+h*.79+bob,w/2,h*.21);ctx.restore();}
     }else ctx.drawImage(img,sx,sy,sw,sh,x,y,w,h);
+    ctx.restore();
   };
   function drawCast(){for(const c of CHARACTERS)drawSprite(cast.querySelector(`[data-chess-character="${c.id}"] canvas`),c.id,0,0,false);}
   function draw(time){avatar.style.left=`${position.x/10}%`;avatar.style.top=`${position.y/6.67}%`;avatar.dataset.walking=String(route.length>0);drawSprite(canvas,character,angle,time,route.length>0);}

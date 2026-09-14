@@ -38,6 +38,17 @@ for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.POR
  await page.waitForFunction(s=>!document.querySelector(s)?.disabled && document.querySelector('[data-horsey-map] .expression-map-viewport'),selector);
  if(await page.locator('[data-horsey-map]').isHidden())await page.locator(selector).click();
  await page.locator('[data-horsey-map] .ss-map-trophy').first().waitFor({timeout:30000});
+ const mapRoot=page.locator('[data-horsey-map]');
+ for(const character of ['phoebe','elsie','eddy']){
+  await mapRoot.locator('[data-character="'+character+'"]').click();
+  assert.equal(await mapRoot.locator('[data-open-closet]').isVisible(),character==='eddy');
+  const image=mapRoot.locator('.ss-map-trophy img').first();
+  await image.evaluate(img=>img.decode());
+  if(character!=='eddy')for(const tier of ['silver','bronze']){const img=mapRoot.locator('.ss-map-trophy[data-trophy-tier='+tier+'] img');await img.evaluate(i=>i.decode());assert.ok((await img.getAttribute('src')).includes(tier+'-'+character));}
+  if(portal==='common-expression-speaking'&&character!=='eddy')await mapRoot.screenshot({path:out+'/'+character+'-metals.png'});
+  assert.ok((await image.getAttribute('src')).includes(character==='eddy'?'eddie':character));
+  assert.ok((await page.locator('[data-horsey-shelf] summary img').getAttribute('src')).includes(character==='eddy'?'eddie':character));
+ }
  const count=await page.evaluate(()=>testHorsey.count);
  assert.equal(await page.locator('[data-trophy-counter-value]').innerText(),'1 / '+count,portal+' counter');
  assert.equal(await page.locator('.ss-map-trophy[data-trophy-tier=gold]').count(),1);
