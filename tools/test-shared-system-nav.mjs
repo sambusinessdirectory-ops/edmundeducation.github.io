@@ -454,7 +454,7 @@ test("a newer universal student cannot be shadowed by an older persisted Writing
   assert.match(writing, /currentUser\?\.role !== "student" \|\| currentUser\.impersonatedByAdmin/);
   assert.doesNotMatch(writing.match(/function restoredWritingStudentMatches[\s\S]*?\n    \}/)?.[0] || "", /sharedId|writingId/);
   assert.match(writing, /if \(restored && !restoredWritingStudentMatches\(shared\)\)/);
-  assert.match(writing, /localStorage\.removeItem\(SESSION_KEY\);\s*restored = false;/);
+  assert.match(writing, /(?:localStorage|languageStorage)\.removeItem\(SESSION_KEY\);\s*restored = false;/);
   assert.match(writing, /currentUser\?\.role === "student" && !currentUser\.impersonatedByAdmin/);
   assert.match(writing, /const refreshed = await restoreUniversalStudentSession\(shared\)/);
   assert.match(writing, /else if \(refreshed === false\)[\s\S]*?forgetStudentSession\(\)/);

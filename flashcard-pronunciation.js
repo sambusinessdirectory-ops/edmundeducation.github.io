@@ -55,6 +55,13 @@
         "no-reference": ["Choose a flashcard first · 請先選擇字卡", "Open a card with an English word or phrase. · 請開啟有英文字詞的字卡。"],
         "language-not-supported": ["English recognition unavailable · 暫不支援英文語音辨認", "Enable English speech recognition in your browser or device settings. · 請在瀏覽器或裝置設定啟用英文語音辨認。"]
       };
+      if(window.EdmundLanguage?.active){
+        const label=window.EdmundLanguage.label;
+        messages['no-reference']=["Choose a flashcard first · 請先選擇字卡",`Open a ${label} card. · 請先開啟字卡。`];
+        messages['language-not-supported']=[`${label} recognition unavailable · 暫不支援此語言`,"請在支援此語言的瀏覽器或裝置啟用語音辨認。"];
+        messages['service-not-allowed']=["Speech recognition is disabled · 語音辨認未啟用","請在瀏覽器設定允許語音辨認。"];
+        messages['recognition-unavailable']=["Speech recognition unavailable · 暫未能使用語音辨認","請使用支援此語言語音辨認的瀏覽器。"];
+      }
       const message = messages[result.reason] || ["Speech recognition unavailable · 暫未能使用語音辨認", "Browser recognition works where supported, including Chrome on Android and computers. On-device recognition below does not need Siri or a browser speech service. · 可使用 Android 或電腦上的 Chrome 等支援的瀏覽器；下方裝置辨認毋須 Siri 或瀏覽器語音服務。"];
       showMessage(...message, "info", 9000);
     }
@@ -72,6 +79,7 @@
   }
 
   function offerLocalRecognition() {
+    if (window.EdmundLanguage?.active) return;
     if (localClass) {
       if (window.SpeechRecognition || window.webkitSpeechRecognition) addToastAction("Try browser recognition · 改用瀏覽器辨認", () => {
         localClass = null;
@@ -86,6 +94,7 @@
   }
 
   async function prepareLocal() {
+    if(window.EdmundLanguage?.active)return;
     if (busy || preparingLocal || deletingLocal) return;
     if (settingsStatus) settingsStatus.textContent = "";
     settingsDialog?.close();
@@ -113,6 +122,9 @@
   }
 
   function openSettings() {
+    if(window.EdmundLanguage?.active){
+      showMessage(`${window.EdmundLanguage.label} · 語音辨認`, `請在支援語音辨認的瀏覽器朗讀${window.EdmundLanguage.language==='it'?'意大利':'法'}語。辨認服務由瀏覽器提供。`, "info", 9000);return;
+    }
     if (!settingsDialog) {
       settingsDialog = document.createElement("dialog");
       settingsDialog.className = "pronunciation-settings";

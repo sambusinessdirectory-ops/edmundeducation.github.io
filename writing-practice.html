@@ -3190,6 +3190,8 @@
   </style>
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2">
+  <script src="language-learning.js?v=20260914-1"></script>
+  <link rel="stylesheet" href="language-learning.css?v=20260914-1">
 </head>
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
@@ -3456,10 +3458,14 @@
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="supabase-config.js"></script>
   <script src="shared-system-nav.js?v=20260911-tools1"></script>
-  <script src="pronunciation-checker.js?v=20260910-2"></script>
+  <script src="pronunciation-checker.js?v=20260914-it-fr-1"></script>
   <script src="writing-pronunciation.js?v=20260910-2"></script>
+  <script src="italian-1-burro-montato-data.js?v=20260914-1"></script>
+  <script src="italian-1-audio.js?v=20260914-1"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
+    const languageEdition = window.EdmundLanguage || {active:false,language:"en",localKey:key=>key,storage:localStorage,rpc:(client,name,args)=>client.rpc(name,args)};
+    const languageStorage = languageEdition.storage;
     const STUDENTS_KEY = "edmundWritingStudents";
     const SESSION_KEY = "edmundWritingSession";
     const ADMIN_SESSION_PASSWORD_KEY = "edmundWritingAdminPassword";
@@ -3489,7 +3495,7 @@
       { key: "business-english", label: "商務英語", subline: "英文寫作", tone: "orange" }
     ];
 
-    const writingProgressionRows = Array.isArray(window.EDMUND_WRITING_PROGRESSION)
+    let writingProgressionRows = Array.isArray(window.EDMUND_WRITING_PROGRESSION)
       ? window.EDMUND_WRITING_PROGRESSION
       : [];
 
@@ -5810,6 +5816,15 @@ Device: concession 讓步
 
     writingExercises["model-essay-9-ielts-advantage-disadvantage"].learningContent = modelEssay9LearningContent;
 
+    if(languageEdition.active) {
+      writingSections.splice(0,writingSections.length,...languageEdition.categories.map(([key,label],i)=>({key,label,subline:languageEdition.label,tone:['','emerald','orange','red'][i%4]})));
+      for(const key of Object.keys(writingExercises))delete writingExercises[key];
+      for(const key of Object.keys(writingPathways))delete writingPathways[key];
+      writingProgressionRows = [];
+      if(languageEdition.language==='it')writingExercises[window.EDMUND_ITALIAN_LESSON.exercise.id]=window.EDMUND_ITALIAN_LESSON.exercise;
+      for(const [key,label] of languageEdition.categories)writingPathways[key]={title:label,kind:'language',tasks:[{key:'lessons',label:'文章',deckIds:key==='food-cooking'&&languageEdition.language==='it'?[window.EDMUND_ITALIAN_LESSON.exercise.id]:[]}]};
+      window.EDMUND_WRITING_AUDIO=languageEdition.language==='it' ? window.EDMUND_ITALIAN_AUDIO?.writing || {} : {};
+    }
     const supabaseClient = window.supabase?.createClient
       ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
       : null;
@@ -5874,7 +5889,7 @@ Device: concession 讓步
     const ESSAY_WORD_PATTERN = /^[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*$/u;
     let selectedEssayAudioRate = (() => {
       try {
-        const storedRate = Number(localStorage.getItem(ESSAY_AUDIO_RATE_KEY));
+        const storedRate = Number(languageStorage.getItem(ESSAY_AUDIO_RATE_KEY));
         return ESSAY_AUDIO_RATES.includes(storedRate) ? storedRate : 1;
       } catch (error) {
         return 1;
@@ -5882,7 +5897,7 @@ Device: concession 讓步
     })();
     let essayHighlightEnabled = (() => {
       try {
-        const storedHighlight = localStorage.getItem(ESSAY_AUDIO_HIGHLIGHT_KEY);
+        const storedHighlight = languageStorage.getItem(ESSAY_AUDIO_HIGHLIGHT_KEY);
         return storedHighlight === null ? true : storedHighlight !== "false";
       } catch (error) {
         return true;
@@ -5925,14 +5940,14 @@ Device: concession 讓步
 
     function readJson(key, fallback) {
       try {
-        return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback));
+        return JSON.parse(languageStorage.getItem(key) || JSON.stringify(fallback));
       } catch {
         return fallback;
       }
     }
 
     function writeJson(key, value) {
-      localStorage.setItem(key, JSON.stringify(value));
+      languageStorage.setItem(key, JSON.stringify(value));
     }
 
     function writingStateAccountKey(user = currentUser) {
@@ -6979,6 +6994,10 @@ Device: concession 讓步
       if (!sections.length) return null;
 
       const paragraphText = normalizePracticeTranslationText(plainParagraph(sourceParagraph));
+      if (languageEdition.active) {
+        const items=sections.flatMap(section=>section.items).filter(unit=>paragraphText.includes(normalizePracticeTranslationText(practiceTranslationUnitEnglish(unit))));
+        if(items.length)return {items};
+      }
       const exactTextMatch = sections.find(section => normalizePracticeTranslationText(
         section.items.map(practiceTranslationUnitEnglish).filter(Boolean).join(" ")
       ) === paragraphText);
@@ -7740,6 +7759,11 @@ Device: concession 讓步
     }
 
     function renderWritingPathwayView() {
+      if(languageEdition.active) {
+        const ids=writingPathways[currentExerciseSectionKey]?.tasks?.[0]?.deckIds||[];
+        return `<div class="pathway-card"><div class="pathway-head"><h2>${escapeHtml(writingPathways[currentExerciseSectionKey]?.title||'')}</h2><button type="button" class="secondary-button" data-back-dashboard>返回學習範圍</button></div><div class="pathway-list">${ids.length ? ids.map(id=>pathwayRowHtml({label:writingExercises[id].title,subline:languageEdition.label,exerciseIds:[id],action:`data-open-writing-deck="${id}"`,bookmarkExerciseId:id})).join('') : '<p class="note-text">這個分類暫時未有文章。</p>'}</div></div>`;
+      }
+
       const pathway = writingPathways[currentExerciseSectionKey];
       if (!pathway) return "";
 
@@ -7992,11 +8016,11 @@ Device: concession 讓步
     function writingAttemptStorageAvailable() {
       const probeKey = `${WRITING_STATE_KEY}:attempt-probe`;
       try {
-        localStorage.setItem(probeKey, "0".repeat(8192));
-        localStorage.removeItem(probeKey);
+        languageStorage.setItem(probeKey, "0".repeat(8192));
+        languageStorage.removeItem(probeKey);
         return true;
       } catch (error) {
-        try { localStorage.removeItem(probeKey); } catch {}
+        try { languageStorage.removeItem(probeKey); } catch {}
         return false;
       }
     }
@@ -8267,7 +8291,7 @@ Device: concession 讓步
       }
       const pathway = writingPathways[currentExerciseSectionKey];
       const essayType = getPathwayEssayType(pathway, currentEssayTypeKey);
-      return essayType?.label ? `返回 ${essayType.label}` : "返回 IELTS 路徑";
+      return languageEdition.active ? `返回 ${pathway?.title || "學習範圍"}` : essayType?.label ? `返回 ${essayType.label}` : "返回 IELTS 路徑";
     }
 
     function renderExerciseHeader(exercise, subtitle = "") {
@@ -9061,8 +9085,9 @@ Device: concession 讓步
                     return `
                       <article class="learning-unit translation-unit">
                         ${label ? `<div class="translation-role">${escapeHtml(label)}</div>` : ""}
-                        ${english ? `<p class="translation-english" lang="en">${escapeHtml(english)}</p>` : ""}
-                        ${chinese ? `<p class="translation-chinese" lang="zh-Hant">${escapeHtml(chinese)}</p>` : ""}
+                        ${english ? `<p class="translation-english ${languageEdition.active ? "language-it" : ""}" lang="${languageEdition.language}">${escapeHtml(english)}</p>` : ""}
+                        ${languageEdition.active && unit?.translationEn ? `<p class="language-en" lang="en">${escapeHtml(unit.translationEn)}</p>` : ""}
+                        ${chinese ? `<p class="translation-chinese language-zh" lang="zh-Hant">${escapeHtml(chinese)}</p>` : ""}
                       </article>
                     `;
                   }).join("")}
@@ -9148,7 +9173,7 @@ Device: concession 讓步
       if (!ESSAY_AUDIO_RATES.includes(rate)) return false;
       selectedEssayAudioRate = rate;
       try {
-        localStorage.setItem(ESSAY_AUDIO_RATE_KEY, String(rate));
+        languageStorage.setItem(ESSAY_AUDIO_RATE_KEY, String(rate));
       } catch (error) {
         console.warn("Could not save the essay audio speed:", error);
       }
@@ -9172,7 +9197,7 @@ Device: concession 讓步
     function setEssayHighlightEnabled(enabled) {
       essayHighlightEnabled = Boolean(enabled);
       try {
-        localStorage.setItem(ESSAY_AUDIO_HIGHLIGHT_KEY, String(essayHighlightEnabled));
+        languageStorage.setItem(ESSAY_AUDIO_HIGHLIGHT_KEY, String(essayHighlightEnabled));
       } catch (error) {
         console.warn("Could not save the essay highlight setting:", error);
       }
@@ -10846,7 +10871,7 @@ Device: concession 讓步
     async function callSupabaseRpc(name, args = {}) {
       if (!supabaseClient) throw new Error("Data service is not available.");
       await ensureSupabaseSession();
-      const { data, error } = await supabaseClient.rpc(name, args);
+      const { data, error } = await languageEdition.rpc(supabaseClient, name, args);
       if (error) throw error;
       return data;
     }
@@ -10950,7 +10975,7 @@ Device: concession 讓步
       currentUser = user;
       writeJson(SESSION_KEY, user);
       if (user?.role === "admin" && adminPasswordForSession) {
-        localStorage.setItem(ADMIN_SESSION_PASSWORD_KEY, adminPasswordForSession);
+        languageStorage.setItem(ADMIN_SESSION_PASSWORD_KEY, adminPasswordForSession);
       }
     }
 
@@ -10959,7 +10984,7 @@ Device: concession 讓步
       if (!session?.name || !session?.role) return false;
       currentUser = session;
       if (session.role === "admin" || session.impersonatedByAdmin) {
-        adminPasswordForSession = localStorage.getItem(ADMIN_SESSION_PASSWORD_KEY) || "";
+        adminPasswordForSession = languageStorage.getItem(ADMIN_SESSION_PASSWORD_KEY) || "";
       }
       if (session.role === "student") {
         studentSessionToken = session.sessionToken || "";
@@ -11194,8 +11219,8 @@ Device: concession 讓步
       currentExerciseSectionKey = "";
       currentWritingUtilityView = "";
       practiceState = null;
-      localStorage.removeItem(SESSION_KEY);
-      localStorage.removeItem(ADMIN_SESSION_PASSWORD_KEY);
+      languageStorage.removeItem(SESSION_KEY);
+      languageStorage.removeItem(ADMIN_SESSION_PASSWORD_KEY);
       document.body.classList.remove("app-active", "admin-background-active", "dashboard-background-active");
       document.querySelector("[data-login-view]")?.classList.remove("hidden");
       document.querySelector("[data-app-view]")?.classList.add("hidden");
@@ -12821,7 +12846,7 @@ Device: concession 讓步
         resetWritingPersonalState();
         currentUser = null;
         studentSessionToken = "";
-        localStorage.removeItem(SESSION_KEY);
+        languageStorage.removeItem(SESSION_KEY);
         restored = false;
       }
       await initSupabaseState();
@@ -12836,7 +12861,7 @@ Device: concession 讓步
           resetWritingPersonalState();
           currentUser = null;
           studentSessionToken = "";
-          localStorage.removeItem(SESSION_KEY);
+          languageStorage.removeItem(SESSION_KEY);
           window.EdmundSystemNav?.forgetStudentSession();
           restored = false;
         }

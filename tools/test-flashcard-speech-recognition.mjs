@@ -141,7 +141,7 @@ test('leaving the page cancels capture',async()=>{
 });
 test('HTML loads the new version and stops detached model playback',()=>{
   const html=readFileSync(new URL('../flashcards.html',import.meta.url),'utf8');
-  assert.match(html,/pronunciation-checker\.js\?v=20260910-practice5/);assert.match(html,/flashcard-pronunciation\.js\?v=20260910-flipside6/);
+  assert.match(html,/pronunciation-checker\.js\?v=20260914-it-fr-1/);assert.match(html,/flashcard-pronunciation\.js\?v=20260914-it-fr-1/);
   assert.match(html,/addEventListener\("edmund-pronunciation-start", \(\) => stopNeuralSpeech\(\)\)/);
   assert.match(uiSource,/\.recognizeAndCompare\(/);assert.doesNotMatch(uiSource,/\.recordAndCompare\(/);
 });

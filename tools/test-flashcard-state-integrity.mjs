@@ -143,7 +143,7 @@ assert.match(quarantine, /RECOVERY_BLOCKED/);
 const clearCache = sourceBetween("function clearFlashcardSyncedStateCache", "function familiarityPendingLocalKey");
 assert.match(clearCache, /if \(!legacySyncQuarantineReady\)/);
 assert.ok(
-  clearCache.indexOf("if (!legacySyncQuarantineReady)") < clearCache.indexOf("localStorage.removeItem(key)"),
+  clearCache.indexOf("if (!legacySyncQuarantineReady)") < clearCache.indexOf("languageStorage.removeItem(key)"),
   "Legacy state must be quarantined before any generic synchronized key can be removed"
 );
 
@@ -165,7 +165,7 @@ const isolatedReads = sourceBetween("function readJson", "async function writeJs
 assert.match(isolatedReads, /cloneFlashcardSyncPayload\(staged\.value\)/);
 assert.match(isolatedReads, /SUPABASE_SYNC_KEYS\.includes\(key\)[\s\S]*cloneFlashcardSyncPayload\(remoteStore\[key\]\)/);
 
-assert.match(source, /const FLASHCARD_OUTBOX_DB = "edmund-flashcard-sync-outbox";/);
+assert.match(source, /const FLASHCARD_OUTBOX_DB = languageEdition\.localKey\("edmund-flashcard-sync-outbox"\);/);
 assert.match(source, /const FLASHCARD_OUTBOX_STORE = "mutations";/);
 const outboxRecord = sourceBetween("function createFlashcardOutboxMutation", "function flashcardOutboxOwnerMatches");
 for (const field of ["mutationId", "logicalMutationId", "logicalMutationIds", "owner", "accountKey", "studentId", "studentName", "syncEpoch", "key", "payload", "baseValue", "baseChecksum", "expectedVersion", "createdAt", "retries", "status", "nextAttemptAt"]) {
