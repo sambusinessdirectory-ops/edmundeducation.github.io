@@ -72,7 +72,7 @@ let browser;
 
  await page.setViewportSize({width:1600,height:1300});
  const evidence=await page.evaluate(async()=>{
-  const {BUSINESS_AIRPORT,AIRPORT_INVENTORY}=await import('./common-expression-airport.mjs?v=20260915-train2');
+  const {BUSINESS_AIRPORT,AIRPORT_INVENTORY}=await import('./common-expression-airport.mjs?v=20260915-dining1');
   const root=document.createElement('div');root.className='expression-map';root.dataset.theme='airport';root.style.cssText='position:relative;width:1600px;height:1200px';
   root.innerHTML='<div class="expression-map-heading"><small></small></div>'+BUSINESS_AIRPORT.terrain([],mapTest.lessons);document.body.append(root);
   const animation=BUSINESS_AIRPORT.mount(root,{matches:false});await new Promise(r=>setTimeout(r,100));
@@ -122,7 +122,7 @@ let browser;
  await page.locator('[data-business-area="airport"]').click();assert.equal(await page.locator('[data-expression-map]').getAttribute('data-business-area'),'airport');
  await page.setViewportSize({width:1600,height:1300});
  const trainEvidence=await page.evaluate(async()=>{
-  const {trainTerrain,mountTrain}=await import('./common-expression-train.mjs?v=20260915-train2');const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='train-review';root.innerHTML=trainTerrain();root.querySelector('section').style.top='0';document.body.append(root);const motion=mountTrain(root,{matches:false});await new Promise(r=>setTimeout(r,150));const c=root.querySelector('canvas'),ctx=c.getContext('2d');
+  const {trainTerrain,mountTrain}=await import('./common-expression-train.mjs?v=20260915-dining1');const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='train-review';root.innerHTML=trainTerrain();root.querySelector('section').style.top='0';document.body.append(root);const motion=mountTrain(root,{matches:false});await new Promise(r=>setTimeout(r,150));const c=root.querySelector('canvas'),ctx=c.getContext('2d');
   const regions={bigWindow:[120,120,300,140],smallWindow:[1190,90,55,140],curtain:[970,40,190,280],lamp:[130,335,110,80],steam:[258,355,40,78],wall:[680,415,100,70]};
   function samples(){return Object.fromEntries(Object.entries(regions).map(([k,r])=>[k,Array.from(ctx.getImageData(...r).data)]));}
   motion.draw(1000);const a=samples();for(let i=1;i<=250;i++)motion.draw(1000+i*32);const b=samples();window.trainReview={root,motion};return Object.fromEntries(Object.keys(a).map(k=>[k,a[k].reduce((n,v,i)=>n+(v!==b[k][i]),0)]));
@@ -131,6 +131,28 @@ let browser;
  fs.writeFileSync(artifactDir+'/train-motion.json',JSON.stringify(trainEvidence,null,2));
  await page.locator('#train-review').screenshot({path:artifactDir+'/train-detail.png'});
  await page.evaluate(()=>{trainReview.motion.destroy();trainReview.root.remove();});
+
+ await page.setViewportSize({width:1440,height:1100});await page.emulateMedia({reducedMotion:'no-preference'});
+ await page.locator('.business-area-tabs').evaluate(e=>window.scrollTo({top:window.scrollY+e.getBoundingClientRect().top-110,behavior:'instant'}));
+ await page.locator('.business-area-tabs [data-business-area="dining"]').click();await page.waitForTimeout(300);
+ assert.equal(await page.locator('.dining-platform').count(),30);assert.equal(await page.locator('.business-theme-mist').count(),2);
+ assert.equal(await page.locator('[data-expression-map]').getAttribute('data-business-area'),'dining');
+ await page.locator('[data-map-overview]').click();await page.waitForTimeout(150);
+ await page.locator('[data-dining-platform="90"]').click();await page.waitForTimeout(3400);
+ assert.match(await page.locator('.train-reservation-note').textContent(),/90/);assert.equal(await page.locator('[data-map-open]').isVisible(),false);
+ assert.equal(await page.evaluate(()=>JSON.stringify([...mapTest.state.states])),previousStates);
+ await page.locator('[data-expression-map]').screenshot({path:artifactDir+'/dining-overview.png'});
+ const diningA=await page.locator('.dining-motion').evaluate(c=>c.toDataURL());await page.waitForTimeout(1100);assert.notEqual(await page.locator('.dining-motion').evaluate(c=>c.toDataURL()),diningA);
+ await page.emulateMedia({reducedMotion:'reduce'});await page.waitForTimeout(100);const diningStill=await page.locator('.dining-motion').evaluate(c=>c.toDataURL());await page.waitForTimeout(150);assert.equal(await page.locator('.dining-motion').evaluate(c=>c.toDataURL()),diningStill);
+ await page.setViewportSize({width:390,height:844});await page.waitForTimeout(150);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.locator('[data-expression-map]').screenshot({path:artifactDir+'/dining-phone.png'});
+ await page.setViewportSize({width:1600,height:1300});
+ const diningEvidence=await page.evaluate(async()=>{
+  const {diningTerrain,mountDining}=await import('./common-expression-dining.mjs?v=20260915-dining1');const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='dining-review';root.innerHTML=diningTerrain();root.querySelector('section').style.top='0';document.body.append(root);const motion=mountDining(root,{matches:false});await new Promise(r=>setTimeout(r,100));const c=root.querySelector('canvas'),ctx=c.getContext('2d');
+  const regions={window:[400,30,600,240],rose:[240,210,150,195],soup:[1170,340,120,150],coffee:[60,570,120,150],wall:[750,350,100,60]};const samples=()=>Object.fromEntries(Object.entries(regions).map(([k,r])=>[k,Array.from(ctx.getImageData(...r).data)]));motion.draw(1000);const a=samples();for(let i=1;i<=240;i++)motion.draw(1000+i*32);const b=samples();window.diningReview={root,motion};return Object.fromEntries(Object.keys(a).map(k=>[k,a[k].reduce((n,v,i)=>n+(v!==b[k][i]),0)]));
+ });
+ for(const [key,count] of Object.entries(diningEvidence)){if(key==='wall')assert.equal(count,0);else assert.ok(count>20,key+' animation changes');}
+ fs.writeFileSync(artifactDir+'/dining-motion.json',JSON.stringify(diningEvidence,null,2));await page.locator('#dining-review').screenshot({path:artifactDir+'/dining-detail.png'});
+ await page.evaluate(()=>{diningReview.motion.destroy();diningReview.root.remove();});
  assert.equal(errors.length,0,errors.join('\n'));
- console.log('Train and airport browser: 30 reserved train platforms, unchanged records, synchronized outdoor motion, curtain/light/steam motion, static walls;  26 real lessons, 4 reserved platforms, motion, typing, pause, reduced motion, saved location, account separation and mobile containment passed.');
+ console.log('Dining 61–90: moonlit window, rose, soup and coffee motion, reserved records and mobile passed. Train and airport browser: 30 reserved train platforms, unchanged records, synchronized outdoor motion, curtain/light/steam motion, static walls;  26 real lessons, 4 reserved platforms, motion, typing, pause, reduced motion, saved location, account separation and mobile containment passed.');
 })().catch(error=>{console.error(error);process.exitCode=1;}).finally(async()=>{await browser?.close();server.close();});

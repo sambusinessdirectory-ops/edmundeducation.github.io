@@ -1,3 +1,4 @@
+import {drawHotSteam} from './common-expression-steam.mjs?v=20260915-dining1';
 // Reserved Business Speaking platforms 31–60. No lesson content or records are fabricated.
 const ART='./assets/common-expression-business/train/';
 export const TRAIN_TOP=1200;
@@ -45,7 +46,7 @@ export function mountTrain(root,reduced){
       ctx.save();ctx.translate(x,y);ctx.rotate(angle);ctx.scale(flip?-1:1,1);ctx.shadowColor='#100a0790';ctx.shadowBlur=6;ctx.shadowOffsetX=4;ctx.filter='brightness(.77) saturate(.8)';ctx.drawImage(s,-w/2,0,w,h);ctx.restore();
     }
     // Wisps grow from the coffee rim, fade upward and disperse before the window.
-    if(!reduced.matches){for(let i=0;i<3;i++){const phase=(seconds/7+i/3)%1,height=45+phase*55,drift=Math.sin(seconds*.7+i)*7;ctx.save();ctx.filter='blur(1.8px)';const g=ctx.createLinearGradient(0,433,0,433-height);g.addColorStop(0,'rgba(242,232,212,0)');g.addColorStop(.25,`rgba(242,232,212,${.30*Math.sin(Math.PI*phase)})`);g.addColorStop(1,'rgba(242,232,212,0)');ctx.strokeStyle=g;ctx.lineWidth=5;ctx.beginPath();ctx.moveTo(270+i*3,433);ctx.bezierCurveTo(263+drift,420,283-drift,409-height*.3,270+drift,433-height);ctx.stroke();ctx.restore();}}
+    if(!reduced.matches)drawHotSteam(ctx,seconds,{x:274,y:433,width:34,height:105});
     canvas.dataset.seconds=seconds.toFixed(2);canvas.dataset.travel=shift.toFixed(3);
   }
   return {draw(time){if(last)elapsed+=Math.min(80,time-last)/1000;last=time;if(time-painted<32&&!reduced.matches)return;painted=time;render(reduced.matches?0:elapsed);},destroy(){dead=true;ready=null;canvas.width=canvas.height=0;}};
