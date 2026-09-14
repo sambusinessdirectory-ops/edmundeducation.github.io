@@ -3967,8 +3967,8 @@
   <link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2">
 <link rel="stylesheet" href="flashcard-theme.css?v=20260910-night3">
   <link rel="stylesheet" href="flashcards-reading-embed.css?v=20260910-1">
-  <script src="language-learning.js?v=20260914-home-only-2"></script>
-  <link rel="stylesheet" href="language-learning.css?v=20260914-1">
+  <script src="language-learning.js?v=20260914-six-languages-1"></script>
+  <link rel="stylesheet" href="language-learning.css?v=20260914-six-languages-1">
 </head>
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
@@ -184451,10 +184451,14 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-dse-writing-part-b-audio.js?v=20260911-kokoro-1"></script>
   <script src="italian-1-burro-montato-data.js?v=20260914-1"></script>
   <script src="italian-1-audio.js?v=20260914-1"></script>
+  <script src="french-1-fondant-data.js?v=20260914-1"></script>
+  <script src="french-1-audio.js?v=20260914-1"></script>
   <script>
     const ADMIN_NAME = "Sam";
     const languageEdition = window.EdmundLanguage || {active:false,language:"en",localKey:key=>key,storage:localStorage,rpc:(client,name,args)=>client.rpc(name,args)};
     const languageStorage = languageEdition.storage;
+    const editionLesson=({it:window.EDMUND_ITALIAN_LESSON,fr:window.EDMUND_FRENCH_LESSON})[languageEdition.language];
+    const editionAudio=({it:window.EDMUND_ITALIAN_AUDIO,fr:window.EDMUND_FRENCH_AUDIO})[languageEdition.language];
     const STUDENTS_KEY = "edmundFlashcardStudents";
     const CARDS_KEY = "edmundFlashcardCards";
     const SESSION_KEY = "edmundFlashcardSession";
@@ -186014,11 +186018,11 @@ window.EDMUND_FLASHCARD_SEED = {
     let studyHeaderResizeObserver = null;
     if (languageEdition.active) {
       for(const key of Object.keys(seedDecks)) delete seedDecks[key];
-      if(languageEdition.language==='it') seedDecks[window.EDMUND_ITALIAN_LESSON.deckId]=window.EDMUND_ITALIAN_LESSON.cards;
+      if(editionLesson) seedDecks[editionLesson.deckId]=editionLesson.cards;
       const utilities=accessSections.filter(s=>['student-custom','custom-setup','bookmarks','spaced-repetition'].includes(s.key));
       accessSections.splice(0,accessSections.length,...languageEdition.categories.map(([key,label])=>({key,label,group:'scope',kind:'route',target:`language-${key}`})),...utilities);
       for(const key of Object.keys(accessChildCatalog)) delete accessChildCatalog[key];
-      window.EDMUND_FLASHCARD_AUDIO=languageEdition.language==='it' ? window.EDMUND_ITALIAN_AUDIO?.flashcards || {} : {};
+      window.EDMUND_FLASHCARD_AUDIO=editionAudio?.flashcards || {};
     }
     let deckCountdownEnabled = languageStorage.getItem("edmund-deck-countdown-enabled") === "true";
     let deckCountdownSeconds = Number(languageStorage.getItem("edmund-deck-countdown-seconds") || 0);
@@ -195069,7 +195073,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function deckTitleFromId(deckId) {
-      if(languageEdition.active && deckId===window.EDMUND_ITALIAN_LESSON.deckId)return window.EDMUND_ITALIAN_LESSON.title;
+      if(languageEdition.active && deckId===editionLesson?.deckId)return editionLesson.title;
       const dseWritingMatch = /^dse\/writing\/part-b\/(20\d{2})\/(Q\d+)$/i.exec(String(deckId || ""));
       if (dseWritingMatch) return `DSE Writing Part B ${dseWritingMatch[1]} / ${dseWritingPartBQuestionTitle(dseWritingMatch[1], dseWritingMatch[2].toUpperCase())}`;
       if (deckId === BOOKMARK_DECK_ID || deckId === "bookmarks") return "書簽 / My Private Bookmarks";
@@ -198306,8 +198310,8 @@ window.EDMUND_FLASHCARD_SEED = {
     }
     void initialiseFlashcardPortal();
   </script>
-  <script src="pronunciation-checker.js?v=20260914-it-fr-1"></script>
-  <script src="flashcard-pronunciation.js?v=20260914-it-fr-1"></script>
+  <script src="pronunciation-checker.js?v=20260914-six-languages-1"></script>
+  <script src="flashcard-pronunciation.js?v=20260914-six-languages-1"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
 </body>
 </html>

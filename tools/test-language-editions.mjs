@@ -8,4 +8,7 @@ const client={async rpc(name,args){calls.push({name,args});return {data:name==='
 const result=await it.rpc(client,'writing_admin_set_student_access',{p_admin_name:'Fixture',p_admin_password:'fixture-only',p_student_name:'Student',p_access:{'food-cooking':false}});
 assert.equal(result.data[0].id,row.id);assert.equal(result.data[0].created_at,row.created_at);assert.equal(result.data[0].access['food-cooking'],false);assert.equal(row.access['dse-writing'],true);assert.equal(calls.some(c=>c.name==='writing_admin_set_student_access'),false);
 await it.rpc(client,'flashcard_student_get_state_v2',{p_token:'fixture'});assert.equal(calls.at(-1).name,'language_learning_rpc');assert.equal(calls.at(-1).args.p_language,'it');
+for(const code of ['it','fr','de','es','ja','ko']){const editionState=edition(code);assert.equal(editionState.language,code);editionState.storage.setItem('six-language-marker',code);await editionState.rpc(client,'writing_student_list_attempts',{p_token:'fixture'});assert.equal(calls.at(-1).args.p_language,code);}
+for(const code of ['it','fr','de','es','ja','ko'])assert.equal(edition(code).storage.getItem('six-language-marker'),code);
+assert.equal(en.storage.getItem('six-language-marker'),null);
 console.log('PASS: original/Italian/French storage isolation, record routing, independent access and preserved account metadata');

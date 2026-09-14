@@ -250,7 +250,7 @@
     const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!Recognition) return { supported: false, stop() {}, result: Promise.resolve("") };
     const recognition = new Recognition();
-    recognition.lang = ({it:"it-IT",fr:"fr-FR"}[window.EdmundLanguage?.language] || "en-US");
+    recognition.lang = ({it:"it-IT",fr:"fr-FR",de:"de-DE",es:"es-ES",ja:"ja-JP",ko:"ko-KR"}[window.EdmundLanguage?.language] || "en-US");
     recognition.interimResults = true;
     recognition.continuous = true;
     let finalText = "";
@@ -334,7 +334,7 @@
         timer = setTimeout(() => finish(unscored("recognition-timeout")), 15000);
         try {
           recognition = new Recognition();
-          recognition.lang = ({it:"it-IT",fr:"fr-FR"}[window.EdmundLanguage?.language] || "en-US");
+          recognition.lang = ({it:"it-IT",fr:"fr-FR",de:"de-DE",es:"es-ES",ja:"ja-JP",ko:"ko-KR"}[window.EdmundLanguage?.language] || "en-US");
           recognition.continuous = true;
           recognition.interimResults = true;
           recognition.maxAlternatives = 5;

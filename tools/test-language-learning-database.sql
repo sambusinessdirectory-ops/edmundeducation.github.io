@@ -1,6 +1,6 @@
 begin;
 do $$
-declare f uuid:=gen_random_uuid();w uuid;ft uuid;wt uuid;request uuid:=gen_random_uuid();r jsonb;again jsonb;k text;args jsonb;attempt jsonb;
+declare f uuid:=gen_random_uuid();w uuid;ft uuid;wt uuid;request uuid:=gen_random_uuid();r jsonb;again jsonb;k text;args jsonb;attempt jsonb; lang text; other text;
 begin
  perform set_config('request.jwt.claim.sub',gen_random_uuid()::text,true);
  insert into public.flashcard_students(id,name,password_hash) values(f,'language-qa-'||f,extensions.crypt(gen_random_uuid()::text,extensions.gen_salt('bf')));
@@ -30,6 +30,25 @@ begin
  if r<>'1' then raise exception 'Reset failed';end if;
  r:=public.language_learning_rpc('it','writing','writing_student_append_attempt',jsonb_build_object('p_token',wt,'p_attempt',attempt));
  if r<>'"ignored_reset"' then raise exception 'Deleted attempt resurrected';end if;
+ foreach lang in array array['fr','de','es','ja','ko'] loop
+  r:=public.language_learning_rpc(lang,'flashcard','flashcard_student_get_state_v2',jsonb_build_object('p_token',ft));
+  assert r='[]','A new language inherited progress';
+  r:=public.language_learning_rpc(lang,'flashcard','flashcard_student_upsert_state_v2',args||jsonb_build_object('p_value',jsonb_build_object('language',lang),'p_request_id',gen_random_uuid()));
+  assert r->>'status'='accepted','New language save rejected';
+  r:=public.language_learning_rpc(lang,'writing','writing_student_upsert_state',jsonb_build_object('p_token',wt,'p_key','writing-bookmarks-v1','p_value',jsonb_build_array(lang)));
+  r:=public.language_learning_rpc(lang,'writing','writing_student_append_attempt',jsonb_build_object('p_token',wt,'p_attempt',attempt));
+  assert r='"inserted"','Language attempt ID collided';
+  perform public.language_learning_access(lang,'writing',jsonb_build_object('p_token',wt),false);
+ end loop;
+ foreach lang in array array['fr','de','es','ja','ko'] loop
+  r:=public.language_learning_rpc(lang,'flashcard','flashcard_student_get_state_v2',jsonb_build_object('p_token',ft));
+  assert r->0->'value'->>'language'=lang,'Flashcard state crossed language boundary';
+  r:=public.language_learning_rpc(lang,'writing','writing_student_get_state',jsonb_build_object('p_token',wt));
+  assert r->0->'value'->>0=lang,'Writing state crossed language boundary';
+  r:=public.language_learning_rpc(lang,'writing','writing_student_list_attempts',jsonb_build_object('p_token',wt));
+  assert jsonb_array_length(r)=1,'Independent attempt missing';
+ end loop;
+
  begin
   perform public.language_learning_rpc('it','writing','writing_student_get_state',jsonb_build_object('p_token',ft));
   raise exception 'Wrong-system token accepted';

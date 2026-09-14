@@ -3190,8 +3190,8 @@
   </style>
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2">
-  <script src="language-learning.js?v=20260914-home-only-2"></script>
-  <link rel="stylesheet" href="language-learning.css?v=20260914-1">
+  <script src="language-learning.js?v=20260914-six-languages-1"></script>
+  <link rel="stylesheet" href="language-learning.css?v=20260914-six-languages-1">
 </head>
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
@@ -3458,14 +3458,18 @@
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="supabase-config.js"></script>
   <script src="shared-system-nav.js?v=20260911-tools1"></script>
-  <script src="pronunciation-checker.js?v=20260914-it-fr-1"></script>
+  <script src="pronunciation-checker.js?v=20260914-six-languages-1"></script>
   <script src="writing-pronunciation.js?v=20260910-2"></script>
   <script src="italian-1-burro-montato-data.js?v=20260914-1"></script>
   <script src="italian-1-audio.js?v=20260914-1"></script>
+  <script src="french-1-fondant-data.js?v=20260914-1"></script>
+  <script src="french-1-audio.js?v=20260914-1"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
     const languageEdition = window.EdmundLanguage || {active:false,language:"en",localKey:key=>key,storage:localStorage,rpc:(client,name,args)=>client.rpc(name,args)};
     const languageStorage = languageEdition.storage;
+    const editionLesson=({it:window.EDMUND_ITALIAN_LESSON,fr:window.EDMUND_FRENCH_LESSON})[languageEdition.language];
+    const editionAudio=({it:window.EDMUND_ITALIAN_AUDIO,fr:window.EDMUND_FRENCH_AUDIO})[languageEdition.language];
     const STUDENTS_KEY = "edmundWritingStudents";
     const SESSION_KEY = "edmundWritingSession";
     const ADMIN_SESSION_PASSWORD_KEY = "edmundWritingAdminPassword";
@@ -5821,9 +5825,9 @@ Device: concession 讓步
       for(const key of Object.keys(writingExercises))delete writingExercises[key];
       for(const key of Object.keys(writingPathways))delete writingPathways[key];
       writingProgressionRows.splice(0,writingProgressionRows.length);
-      if(languageEdition.language==='it')writingExercises[window.EDMUND_ITALIAN_LESSON.exercise.id]=window.EDMUND_ITALIAN_LESSON.exercise;
-      for(const [key,label] of languageEdition.categories)writingPathways[key]={title:label,kind:'language',tasks:[{key:'lessons',label:'文章',deckIds:key==='food-cooking'&&languageEdition.language==='it'?[window.EDMUND_ITALIAN_LESSON.exercise.id]:[]}]};
-      window.EDMUND_WRITING_AUDIO=languageEdition.language==='it' ? window.EDMUND_ITALIAN_AUDIO?.writing || {} : {};
+      if(editionLesson)writingExercises[editionLesson.exercise.id]=editionLesson.exercise;
+      for(const [key,label] of languageEdition.categories)writingPathways[key]={title:label,kind:'language',tasks:[{key:'lessons',label:'文章',deckIds:key==='food-cooking'&&editionLesson?[editionLesson.exercise.id]:[]}]};
+      window.EDMUND_WRITING_AUDIO=editionAudio?.writing || {};
     }
     const supabaseClient = window.supabase?.createClient
       ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)

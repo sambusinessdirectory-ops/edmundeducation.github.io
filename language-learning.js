@@ -1,8 +1,8 @@
 /* Language editions reuse the full study interfaces, with independent stores. */
 (function(){
   const requested=new URLSearchParams(location.search).get('language');
-  const language=['it','fr'].includes(requested)?requested:'en';
-  const label={en:'Original',it:'Italian',fr:'French'}[language];
+  const language=['it','fr','de','es','ja','ko'].includes(requested)?requested:'en';
+  const label={en:'Original',it:'Italian',fr:'French',de:'German',es:'Spanish',ja:'Japanese',ko:'Korean'}[language];
   const categories=[['food-cooking','Food and Cooking'],['culture','Culture'],['history','History'],['news','News'],['conversations','Conversations'],['travelling','Travelling']];
   const sharedKeys=new Set(['edmundFlashcardSession','edmundFlashcardAdminPassword','edmundWritingSession','edmundWritingAdminPassword']);
   const localKey=key=>language==='en'||sharedKeys.has(key)?key:`language:${language}:${key}`;

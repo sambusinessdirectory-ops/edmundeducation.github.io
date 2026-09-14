@@ -123,7 +123,7 @@
 
   function openSettings() {
     if(window.EdmundLanguage?.active){
-      showMessage(`${window.EdmundLanguage.label} · 語音辨認`, `請在支援語音辨認的瀏覽器朗讀${window.EdmundLanguage.language==='it'?'意大利':'法'}語。辨認服務由瀏覽器提供。`, "info", 9000);return;
+      showMessage(`${window.EdmundLanguage.label} · 語音辨認`, `請在支援語音辨認的瀏覽器朗讀${window.EdmundLanguage.label}。辨認服務由瀏覽器提供。`, "info", 9000);return;
     }
     if (!settingsDialog) {
       settingsDialog = document.createElement("dialog");
