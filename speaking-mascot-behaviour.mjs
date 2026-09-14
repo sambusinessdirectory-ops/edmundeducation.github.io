@@ -21,6 +21,18 @@ export function mouthOpening(seconds, speaking, reducedMotion = false) {
   const syllable = Math.sin(seconds * 16.7) * .5 + .5;
   return Math.max(0, Math.min(1, (.16 + syllable * .84) * Math.min(1, phrase * 8, (2.35 - phrase) * 9)));
 }
+export function blinkAmount(seconds, seed = 0, reducedMotion = false) {
+  if (reducedMotion) return 0;
+  const period = 4.35 + (Math.abs(seed) % 5) * .29;
+  const shifted = Math.max(0, seconds) + (Math.abs(seed) % 11) * .61;
+  const cycle = Math.floor(shifted / period);
+  const phase = shifted % period;
+  const pulse = at => {
+    const distance = Math.abs(phase - at);
+    return distance >= .105 ? 0 : .5 + .5 * Math.cos(Math.PI * distance / .105);
+  };
+  return Math.max(pulse(.12), cycle % 3 === 2 ? pulse(.39) : 0);
+}
 export function listenerNod(seconds, slot, listening, reducedMotion = false) {
   if (!listening || reducedMotion) return 0;
   const period = 5.8 + slot * .47;

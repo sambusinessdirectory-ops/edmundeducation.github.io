@@ -21,12 +21,16 @@ test('every current Speaking lesson has a distinct, reachable stone and readable
  }
 });
 
-test('all three original horse sheets and every directional crop are valid deployed PNG assets',()=>{
+test('all three v3 open and blink sheets and every directional crop are valid deployed PNG assets',()=>{
  for(const id of ['eddy','phoebe','elsie']) {
   const standing=MASCOT_VIEWS[id].standing;
-  const png=fs.readFileSync(path.join(root,'assets/speaking-system/mascots/v2',standing.image));
+  const folder=standing.folder||'v2';
+  const png=fs.readFileSync(path.join(root,'assets/speaking-system/mascots',folder,standing.image));
+  const blink=fs.readFileSync(path.join(root,'assets/speaking-system/mascots',folder,standing.blinkImage));
+  assert.equal(folder,'v3');assert.equal(blink[25],6,'Blink artwork also uses RGBA');
   assert.equal(png.subarray(1,4).toString(),'PNG');
-  assert.ok(png.readUInt32BE(16)>1000 && png.readUInt32BE(20)>1000);
+  assert.ok(png.readUInt32BE(16)>800 && png.readUInt32BE(20)>700);
+  assert.equal(blink.readUInt32BE(16),png.readUInt32BE(16));assert.equal(blink.readUInt32BE(20),png.readUInt32BE(20));
   assert.equal(png[25],6,'Use the transparent RGBA artwork');
   assert.ok(standing.views.length>=8,'Walking needs all facing directions');
   for(const {rect:[x,y,w,h]} of standing.views) assert.ok(x>=0 && y>=0 && w>0 && h>0 && x+w<=1.00001 && y+h<=1.00001,'Crop stays inside the original sheet');

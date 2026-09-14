@@ -3,14 +3,14 @@ import * as THREE from './vendor/three/three.module.js';
 export function mascotMaterial(atlas, flow, data, coatColour, headResource={atlas,flow,data}, headSpace=[1,0,0]) {
   const uniforms = {
     atlas:{value:atlas}, flowAtlas:{value:flow}, flowRange:{value:data.flowRange},
-    headAtlas:{value:headResource.atlas},headFlowAtlas:{value:headResource.flow},headSpace:{value:headSpace},
+    headAtlas:{value:headResource.atlas},headBlinkAtlas:{value:headResource.blink||headResource.atlas},headFlowAtlas:{value:headResource.flow},headSpace:{value:headSpace},
     coatGain:{value:new THREE.Color(coatColour).toArray().map((c,i)=>c/new THREE.Color(data.sourceCoat).toArray()[i])},
     headCoatGain:{value:new THREE.Color(coatColour).toArray().map((c,i)=>c/new THREE.Color(headResource.data.sourceCoat).toArray()[i])},
     bodyRects:{value:[new THREE.Vector4(),new THREE.Vector4()]}, bodyLayouts:{value:[new THREE.Vector4(),new THREE.Vector4()]},
     headRects:{value:[new THREE.Vector4(),new THREE.Vector4()]}, headLayouts:{value:[new THREE.Vector4(),new THREE.Vector4()]},
     mouths:{value:[new THREE.Vector3(),new THREE.Vector3()]},
     bodyFlow:{value:new THREE.Vector4()},headFlow:{value:new THREE.Vector4()},
-    bodyBlend:{value:0},headBlend:{value:0},mouthOpen:{value:0},nod:{value:0},headYaw:{value:0},breath:{value:0},
+    bodyBlend:{value:0},headBlend:{value:0},mouthOpen:{value:0},blink:{value:0},nod:{value:0},headYaw:{value:0},breath:{value:0},
   };
   return new THREE.ShaderMaterial({
     uniforms, transparent:true, depthWrite:true, side:THREE.DoubleSide,
@@ -41,11 +41,11 @@ export function mascotMaterial(atlas, flow, data, coatColour, headResource={atla
     `,
     fragmentShader:`
       varying vec2 vUv;
-      uniform sampler2D atlas, flowAtlas,headAtlas,headFlowAtlas;
+      uniform sampler2D atlas, flowAtlas,headAtlas,headBlinkAtlas,headFlowAtlas;
       uniform vec4 bodyRects[2],bodyLayouts[2],headRects[2],headLayouts[2];
       uniform vec3 mouths[2];
       uniform vec4 bodyFlow,headFlow;
-      uniform float bodyBlend,headBlend,flowRange,mouthOpen;
+      uniform float bodyBlend,headBlend,flowRange,mouthOpen,blink;
       uniform vec3 coatGain,headCoatGain,headSpace;
       vec4 flowAt(vec2 p,vec4 cell,bool head){
         vec3 space=head?headSpace:vec3(1.,0.,0.);
@@ -57,7 +57,7 @@ export function mascotMaterial(atlas, flow, data, coatColour, headResource={atla
       vec4 picture(vec2 p,vec4 rect,vec4 placement,vec3 mouth,bool animate){
         vec2 q=(p-placement.xy)/placement.zw;
         if(q.x<0.||q.x>1.||q.y<0.||q.y>1.)return vec4(0.);
-        vec4 col=animate?texture2D(headAtlas,rect.xy+q*rect.zw):texture2D(atlas,rect.xy+q*rect.zw);
+        vec4 col=animate?mix(texture2D(headAtlas,rect.xy+q*rect.zw),texture2D(headBlinkAtlas,rect.xy+q*rect.zw),step(.5,blink)):texture2D(atlas,rect.xy+q*rect.zw);
         vec3 rgb=pow(max(col.rgb,vec3(0.)),vec3(1./2.2));
         float saturation=(max(rgb.r,max(rgb.g,rgb.b))-min(rgb.r,min(rgb.g,rgb.b)))/max(rgb.r,.001);
         float coat=smoothstep(.42,.58,saturation)*(1.-smoothstep(.50,.65,rgb.b/max(rgb.r,.001)))*smoothstep(1.12,1.30,rgb.r/max(rgb.g,.001))*smoothstep(.18,.27,rgb.r);

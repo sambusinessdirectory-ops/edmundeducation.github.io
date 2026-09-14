@@ -1,4 +1,5 @@
-import { MASCOT_VIEWS } from './speaking-mascot-views.mjs';
+import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-blink1';
+import { blinkAmount } from './speaking-mascot-behaviour.mjs?v=20260915-blink1';
 
 const WIDTH = 1600, HEIGHT = 1950;
 const CHARACTERS = [{ id: 'eddy', name: 'Eddie', flag: '#c84438' }, { id: 'phoebe', name: 'Phoebe', flag: '#b5a0dc' }, { id: 'elsie', name: 'Elsie', flag: '#edc84a' }];
@@ -150,11 +151,14 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   const storageKey = () => mapPreferenceKey(systemKey, owner);
   const on = (element, type, callback, opts = {}) => element.addEventListener(type, callback, { ...opts, signal: events.signal });
   const save = () => { try { localStorage.setItem(storageKey(), JSON.stringify({ mode, character, pinned })); return true; } catch { return false; } };
-  const loadImage = id => {
-    if (images.has(id)) return images.get(id);
+  const loadImage = (id, blinking = false) => {
+    const data = MASCOT_VIEWS[id].standing, key = id + (blinking ? '-blink' : '-standing');
+    const source = blinking ? data.blinkImage : data.image;
+    if (!source) return null;
+    if (images.has(key)) return images.get(key);
     const img = new Image();
-    img.src = new URL(`./assets/speaking-system/mascots/v2/${MASCOT_VIEWS[id].standing.image}`, import.meta.url).href;
-    images.set(id, img);
+    img.src = new URL(`./assets/speaking-system/mascots/${data.folder||"v2"}/${source}`, import.meta.url).href;
+    images.set(key, img);
     img.addEventListener('load', () => { if (built) { drawAvatar(id); drawHorse(performance.now(), false); } });
     img.addEventListener('error', () => { imageFailure = true; if(status) { status.hidden=false; status.textContent = '角色圖片未能載入，請重新整理。課題仍可正常開啟。'; } });
     return img;
@@ -181,7 +185,8 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   };
 
   function drawSprite(ctx, id, facing, time, walking, width, height) {
-    const img = loadImage(id);
+    const open = loadImage(id), closed = loadImage(id, true);
+    const img = blinkAmount(time/1000, id.charCodeAt(0), reduced.matches) > .5 && closed?.complete && closed.naturalWidth ? closed : open;
     if (!img.complete || !img.naturalWidth) return;
     const views = MASCOT_VIEWS[id].standing.views;
     const distance = a => Math.abs(((a-facing+540)%360)-180);
