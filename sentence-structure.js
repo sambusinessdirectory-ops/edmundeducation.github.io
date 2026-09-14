@@ -3,7 +3,7 @@ import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=202
 import { createExpressionMap } from "./common-expression-map.mjs?v=20260914-hotel3b";
 import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260914-hotel3b";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260914-hotel3b";
-import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies } from "./sentence-structure-trophies.mjs?v=20260914-trophy1";
+import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies } from "./sentence-structure-trophies.mjs?v=20260914-trophy2";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const lessonLibrary = createLessonLibrary(new URL("./assets/sentence-structure/library/manifest.json?v=20260908-loading1", import.meta.url));

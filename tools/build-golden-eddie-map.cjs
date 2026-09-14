@@ -15,7 +15,7 @@ const sharp=require(process.env.HOME+'/.cache/codex-runtimes/codex-primary-runti
   rgba[j+2]=Math.min(255,Math.max(0,Math.round((b-255*(1-alpha))/alpha)));rgba[j+3]=Math.round(alpha*255);
  }
  if(transparent<info.width*info.height*.3)throw Error('Expected a substantial solid-blue background');
- const out='assets/sentence-structure/rewards/golden-eddie-map-v1.webp';
+ const out=process.argv[3]||'assets/sentence-structure/rewards/golden-eddie-map-v1.webp';
  await sharp(rgba,{raw:{width:info.width,height:info.height,channels:4}}).resize(720,720,{fit:'inside'}).extend({top:24,bottom:24,left:24,right:24,background:{r:0,g:0,b:0,alpha:0}}).webp({quality:93,alphaQuality:100}).toFile(out);
  console.log(JSON.stringify({out,transparentPixels:transparent,totalPixels:info.width*info.height}));
 })();

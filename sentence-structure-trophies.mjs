@@ -1,5 +1,5 @@
 export const GOLDEN_EDDIE_ART = 'assets/sentence-structure/rewards/golden-eddie-v1.webp';
-export const GOLDEN_EDDIE_MAP_ART = 'assets/sentence-structure/rewards/golden-eddie-map-v1.webp';
+export const GOLDEN_EDDIE_MAP_ART = 'assets/sentence-structure/rewards/golden-eddie-map-v2.webp';
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 // One trophy per module, earned from one complete 50-question attempt.
