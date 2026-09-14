@@ -50,3 +50,6 @@ Second self-review against the request, not independent human acceptance:
 - Desktop Chromium and mobile-size Chromium tested; physical devices and Safari not tested. Native artwork resolution is recorded above; it is not unlimited-resolution art.
 
 Release integration: merged upstream 10c82b07a, retaining its new shared trophy controls and professional-message map enablement. Re-ran all 34 shared checks, the trophy state checks and the complete airport browser fixture successfully. Reviewed the merged full-route capture, including centered reserved labels.
+
+## 2026-09-15: prop grounding correction
+User reported that composited plants and lamps looked pasted on. Added cached, silhouette-based directional cast shadows, tight contact shadows at each planter/lamp base, subtle faded floor reflections, warmer/desaturated plant shading, and local warm tabletop light pools. Existing masters, placements, fixed pots, swaying foliage and all flight/display loops are retained. Reviewed normal scene plus native-size planter/lamp close-ups at /private/tmp/airport-pot-contact.jpg and /private/tmp/airport-lamp-contact.jpg. Surface effects are cached once per scene and released on destruction. This was self-review, not user acceptance.

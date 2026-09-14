@@ -45,7 +45,9 @@ let browser;
  assert.notEqual(await page.locator('.airport-departures').innerText(),board);
  await page.locator('.expression-map-picker select').selectOption({index:25});await page.waitForTimeout(3400);
  assert.equal(await page.locator('[data-map-level="25"]').getAttribute('data-arrived'),'true');
- await page.locator('[data-save-location]').click();await page.locator('[data-character="elsie"]').click();
+ await page.locator('[data-save-location]').click();
+ await page.locator('.expression-map-header').evaluate(e=>window.scrollTo({top:window.scrollY+e.getBoundingClientRect().top-110,behavior:'instant'}));await page.waitForTimeout(120);
+ await page.locator('[data-character="elsie"]').click();
  await page.locator('[data-map-open]').click();assert.ok(page.url().includes('lesson=common-expression-26'));
  const stopped=await page.locator('.airport-motion').getAttribute('data-seconds');await page.waitForTimeout(150);assert.equal(await page.locator('.airport-motion').getAttribute('data-seconds'),stopped);
  await page.evaluate(()=>{mapTest.setProgress(25,3);mapTest.dashboard();});await page.waitForTimeout(150);
@@ -70,7 +72,7 @@ let browser;
 
  await page.setViewportSize({width:1600,height:1300});
  const evidence=await page.evaluate(async()=>{
-  const {BUSINESS_AIRPORT,AIRPORT_INVENTORY}=await import('./common-expression-airport.mjs?v=20260914-airport1');
+  const {BUSINESS_AIRPORT,AIRPORT_INVENTORY}=await import('./common-expression-airport.mjs?v=20260915-airport2');
   const root=document.createElement('div');root.className='expression-map';root.dataset.theme='airport';root.style.cssText='position:relative;width:1600px;height:1200px';
   root.innerHTML='<div class="expression-map-heading"><small></small></div>'+BUSINESS_AIRPORT.terrain([],mapTest.lessons);document.body.append(root);
   const animation=BUSINESS_AIRPORT.mount(root,{matches:false});await new Promise(r=>setTimeout(r,100));

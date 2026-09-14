@@ -39,7 +39,15 @@ export async function prepareAirport() {
       for(let yy=0;yy<h;yy++)for(let xx=0;xx<w;xx++)if(p.data[(yy*w+xx)*4+3]>50){l=Math.min(l,xx);r=Math.max(r,xx);t=Math.min(t,yy);b=Math.max(b,yy);}
       const out=document.createElement('canvas');out.width=r-l+1;out.height=b-t+1;out.getContext('2d').drawImage(c,x+l,y+t,out.width,out.height,0,0,out.width,out.height);sprites[key]=out;
     }
-    return {background,sprites};
+    const shadows={},reflections={};
+    for(const [key,sprite] of Object.entries(sprites)){
+      const shadow=document.createElement('canvas');shadow.width=sprite.width;shadow.height=sprite.height;
+      const sc=shadow.getContext('2d');sc.drawImage(sprite,0,0);sc.globalCompositeOperation='source-in';sc.fillStyle='#30251b';sc.fillRect(0,0,shadow.width,shadow.height);shadows[key]=shadow;
+      const reflection=document.createElement('canvas');reflection.width=sprite.width;reflection.height=sprite.height;
+      const rc=reflection.getContext('2d');rc.translate(0,sprite.height);rc.scale(1,-1);rc.drawImage(sprite,0,0);rc.setTransform(1,0,0,1,0,0);rc.globalCompositeOperation='destination-in';
+      const fade=rc.createLinearGradient(0,0,0,sprite.height);fade.addColorStop(0,'#0009');fade.addColorStop(.38,'#0002');fade.addColorStop(.7,'#0000');rc.fillStyle=fade;rc.fillRect(0,0,sprite.width,sprite.height);reflections[key]=reflection;
+    }
+    return {background,sprites,shadows,reflections};
   }).catch(error=>{assets=null;throw error;});
   return assets;
 }
@@ -49,7 +57,8 @@ function terrain(nodes,lessons){
   return `<div class="airport-scenery"><img class="airport-background" src="${ART}lounge-v1.jpg" alt="夕陽下的機場貴賓室與跑道" width="1600" height="1200"><canvas class="airport-motion" width="1600" height="1200" aria-hidden="true"></canvas><div class="airport-departures" aria-label="航班顯示板：London、Tokyo、Singapore、New York"><strong>✈ Departures</strong>${DEPARTURES.map((_,i)=>`<div data-departure-row="${i}" aria-hidden="true"></div>`).join('')}</div><svg class="airport-route" viewBox="0 0 1600 1200" aria-hidden="true"><path d="${path}" fill="none" stroke="#5f503b40" stroke-width="67" transform="translate(0 6)"/><path d="${path}" fill="none" stroke="#ddbf7c" stroke-width="66"/><path d="${path}" fill="none" stroke="#527171" stroke-width="57"/><path d="${path}" fill="none" stroke="#d7d8bd55" stroke-width="2" stroke-dasharray="6 18"/></svg></div>${all.slice(lessons.length).map((p,i)=>`<div class="expression-map-stone airport-reserved" style="left:${p.x}px;top:${p.y}px" aria-label="${lessons.length+i+1} · 尚未開放"><span class="expression-map-stone-number">${lessons.length+i+1}</span><span class="expression-map-stone-caption">即將推出<small>Coming soon</small></span></div>`).join('')}`;
 }
 function mount(root,reduced){
-  const canvas=root.querySelector('.airport-motion'),ctx=canvas.getContext('2d'),rows=[...root.querySelectorAll('[data-departure-row]')];
+  const canvas=root.querySelector('.airport-motion'),rows=[...root.querySelectorAll('[data-departure-row]')];
+  let ctx=canvas.getContext('2d'),surfaceLayer;
   let ready,dead=false,elapsed=0,last=0,painted=-1;
   prepareAirport().then(value=>{if(!dead){ready=value;render(0);}});
   root.querySelector('.expression-map-heading small').textContent=`${root.querySelectorAll('[data-map-level]').length || 26} 個課題已開放 · 30 個登機平台`;
@@ -65,21 +74,43 @@ function mount(root,reduced){
     for(let i=0;i<30;i++){const x=100+(i%15)*99,y=i<15?301:358,pulse=.35+.55*(.5+.5*Math.sin(seconds*.85+i*1.4));glow(x,y,10,pulse*.7);ctx.fillStyle=`rgba(255,236,166,${pulse})`;ctx.fillRect(x-1.5,y-1.5,3,3);}
     // The physical monitor occludes objects beyond the window.
     ctx.clearRect(1193,17,326,166);ctx.restore();
+    function contact(x,y,rx,ry,opacity){
+      ctx.save();ctx.translate(x,y);ctx.scale(rx,ry);const g=ctx.createRadialGradient(0,0,0,0,0,1);g.addColorStop(0,`rgba(37,27,18,${opacity})`);g.addColorStop(.5,`rgba(37,27,18,${opacity*.65})`);g.addColorStop(1,'rgba(37,27,18,0)');ctx.fillStyle=g;ctx.fillRect(-1,-1,2,2);ctx.restore();
+    }
+    function cast(p,key,w,projection,opacity){
+      ctx.save();ctx.translate(p.x,p.y+1);ctx.transform(1,0,-.24,-projection,0,0);ctx.filter='blur(5px)';ctx.globalAlpha=opacity;ctx.drawImage(ready.shadows[key],-w/2,-p.h,w,p.h);ctx.restore();
+    }
+    if(!surfaceLayer){
+      surfaceLayer=document.createElement('canvas');surfaceLayer.width=W;surfaceLayer.height=H;
+      const main=ctx;ctx=surfaceLayer.getContext('2d');
+      for(const p of PLANTS){const s=sprites.plant,w=p.h*s.width/s.height;
+        cast(p,'plant',w,.22,.2);ctx.save();ctx.globalAlpha=.18;ctx.filter='blur(1.4px)';ctx.drawImage(ready.reflections.plant,p.x-w/2,p.y+1,w,p.h*.32);ctx.restore();
+        contact(p.x+2,p.y+2,w*.31,8,.30);contact(p.x,p.y,w*.22,3,.48);
+      }
+      for(const p of LAMPS){const s=sprites[p.kind],w=p.h*s.width/s.height,base=w*(p.kind==='lamp'?.24:.49);
+        cast(p,p.kind,w,.15,.24);contact(p.x+2,p.y+1,base*1.5,5,.30);contact(p.x,p.y,base,2.6,.63);
+      }
+      ctx=main;
+    }
+    ctx.drawImage(surfaceLayer,0,0);
     for(let i=0;i<PLANTS.length;i++){
       const p=PLANTS[i],s=sprites.plant,w=p.h*s.width/s.height,split=.66,sway=reduced.matches?0:Math.sin(seconds*.75+i*1.7)*.022;
-      ctx.save();ctx.fillStyle='#473c3029';ctx.beginPath();ctx.ellipse(p.x,p.y+1,w*.24,5,0,0,Math.PI*2);ctx.fill();ctx.translate(p.x,p.y-p.h*(1-split));
+      ctx.save();ctx.filter='saturate(.82) sepia(.12) brightness(.91)';ctx.translate(p.x,p.y-p.h*(1-split));
       // Foliage bends at the pot rim while the planter stays on the floor.
       ctx.save();ctx.transform(1,0,sway,1,0,0);ctx.drawImage(s,0,0,s.width,s.height*split,-w/2,-p.h*split,w,p.h*split+1);ctx.restore();
       ctx.drawImage(s,0,s.height*split,s.width,s.height*(1-split),-w/2,0,w,p.h*(1-split));ctx.restore();
     }
     for(let i=0;i<LAMPS.length;i++){
       const p=LAMPS[i],s=sprites[p.kind],w=p.h*s.width/s.height,pulse=reduced.matches?.8:.58+.25*Math.sin(seconds*.65+i*2);
-      const cy=p.y-p.h*(p.kind==='lamp'?.75:.64);glow(p.x,cy,p.h*.48,pulse*.25);ctx.save();ctx.filter=`brightness(${.88+pulse*.23})`;ctx.drawImage(s,p.x-w/2,p.y-p.h,w,p.h);ctx.restore();glow(p.x,cy,p.h*.21,pulse*.18);
+      const cy=p.y-p.h*(p.kind==='lamp'?.75:.64);
+      // A small warm pool falls on the tabletop; glow stays local to the light source.
+      ctx.save();ctx.translate(p.x,p.y-1);ctx.scale(1,.22);glow(0,0,w*.78,.12+pulse*.07);ctx.restore();
+      glow(p.x,cy,p.h*.4,pulse*.12);ctx.save();ctx.filter=`sepia(.1) saturate(.9) brightness(${.82+pulse*.24})`;ctx.drawImage(s,p.x-w/2,p.y-p.h,w,p.h);ctx.restore();glow(p.x,cy,p.h*.18,pulse*.10);
     }
     rows.forEach((row,i)=>{const text=reduced.matches?DEPARTURES[i]:departureText(seconds,i);if(row.textContent!==text)row.textContent=text;});
     canvas.dataset.seconds=seconds.toFixed(2);canvas.dataset.flight=airportFlight(seconds).stage;
   }
-  return {draw(time){if(last)elapsed+=Math.min(80,time-last)/1000;last=time;if(time-painted<32&&!reduced.matches)return;painted=time;render(reduced.matches?0:elapsed);},destroy(){dead=true;ready=null;canvas.width=canvas.height=0;}};
+  return {draw(time){if(last)elapsed+=Math.min(80,time-last)/1000;last=time;if(time-painted<32&&!reduced.matches)return;painted=time;render(reduced.matches?0:elapsed);},destroy(){dead=true;ready=null;if(surfaceLayer)surfaceLayer.width=surfaceLayer.height=0;surfaceLayer=null;canvas.width=canvas.height=0;}};
 }
 const floorPoint=p=>({x:clamp(p.x,340,1260),y:clamp(p.y,445,1140)});
 export const BUSINESS_AIRPORT=Object.freeze({id:'airport',title:'商務會話啟航之旅',kicker:'BUSINESS SPEAKING · DEPARTURE LOUNGE',width:W,height:H,positions:airportPositions,terrain,mount,fitOverview:true,minimumZoom:.7,cameraScaleFloor:()=>.55,cameraTop:({point,scale,height,overview})=>overview?0:point.y<790?0:point.y*scale-height*.55,navigation:{path:(_from,to)=>[floorPoint(to)],step:(_from,to)=>floorPoint(to)}});
