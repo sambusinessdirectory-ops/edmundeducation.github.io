@@ -4,12 +4,16 @@ import * as THREE from '../vendor/three/three.module.js';
 import {MascotCharacters} from '../speaking-mascot-characters.mjs';
 import {MASCOT_VIEWS} from '../speaking-mascot-views.mjs';
 
+const extraction=fs.readFileSync(new URL('./mascot-art/v3/extract-blink-sheets.py',import.meta.url),'utf8');
+assert.ok(extraction.includes("MIRRORED_BASELINES = {'elsie': {12: 4, 13: 2, 14: 1}, 'phoebe': {13: 2}}"), 'known closed-eye and reversed-direction baseline cells are replaced');
+assert.ok(extraction.includes("(high - low) <= 6"), 'background removal must preserve Elsie cream hair');
+
 for(const [name,poses] of Object.entries(MASCOT_VIEWS))for(const [pose,data] of Object.entries(poses)){
  const folder=data.folder||'v2',base=`../assets/speaking-system/mascots/${folder}/`;
  const png=fs.readFileSync(new URL(base+data.image,import.meta.url));
  assert.equal(png[25],6,`${name} ${pose} is RGBA`);assert.equal(data.views.length,16);assert.equal(new Set(data.views.map(v=>v.sourceCell)).size,16);assert.equal(data.views[0].angle,0);
  if(pose==='standing'){
-  assert.equal(folder,'v3');assert.ok(data.blinkImage,`${name} has blink artwork`);if(name==='elsie')assert.equal(data.blinkImage,'elsie-blink-v2.png','Elsie uses the registered eye-only blink asset');
+  assert.equal(folder,'v4');assert.ok(data.blinkImage,`${name} has blink artwork`);if(name==='elsie')assert.equal(data.blinkImage,'elsie-blink-registered.png','Elsie uses the registered eye-only blink asset');
   const blink=fs.readFileSync(new URL(base+data.blinkImage,import.meta.url));assert.equal(blink[25],6,`${name} blink is RGBA`);
   assert.equal(blink.readUInt32BE(16),png.readUInt32BE(16));assert.equal(blink.readUInt32BE(20),png.readUInt32BE(20));
  }
@@ -27,4 +31,4 @@ let releases=0;const flows=[...library.resources.values()].map(resource=>resourc
 
 const finishes=[];const pending=new MascotCharacters({loadAsync:()=>new Promise(resolve=>finishes.push(resolve))},async()=>({ok:true,arrayBuffer:async()=>new ArrayBuffer(512*512*4)}));const loading=pending.create('elsie','standing');pending.dispose();let freed=0;for(const finish of finishes){const late=new THREE.Texture();late.addEventListener('dispose',()=>freed++);finish(late);}assert.equal(await loading,null);assert.equal(freed,2,'late open and blink textures cannot leak');
 const broken=new MascotCharacters({async loadAsync(){return new THREE.Texture();}},async()=>({ok:true,arrayBuffer:async()=>new ArrayBuffer(8)}));await assert.rejects(broken.create('phoebe','seated'),error=>error.cause.message==='Incomplete view interpolation');broken.dispose();
-console.log('Mascot characters: 96 views, v3 RGBA/blink integrity, shared loads, seated head reuse, independent attention, mouth/blink control, floor anchoring, reduced motion and disposal passed.');
+console.log('Mascot characters: 96 views, v4 RGBA/blink integrity, shared loads, seated head reuse, independent attention, mouth/blink control, floor anchoring, reduced motion and disposal passed.');

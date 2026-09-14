@@ -9,13 +9,14 @@ from pathlib import Path
 import sys
 
 import numpy as np
-from PIL import Image
+from PIL import Image, ImageOps
 
 GRID, CELL = 4, 256
+MIRRORED_BASELINES = {'elsie': {12: 4, 13: 2, 14: 1}, 'phoebe': {13: 2}}
 
 def boundary_background(rgb):
     low, high = rgb.min(axis=2), rgb.max(axis=2)
-    candidate = (low >= 205) & ((high - low) <= 18)
+    candidate = (low >= 205) & ((high - low) <= 6)
     height, width = candidate.shape
     seen = np.zeros((height, width), dtype=bool)
     queue = deque()
@@ -83,6 +84,12 @@ def extract(source, output_dir, name):
         x,y=(index%GRID)*CELL,(index//GRID)*CELL
         atlases['standing'].alpha_composite(normalized_sprite(cleaned,characters[index]),(x,y))
         atlases['blink'].alpha_composite(normalized_sprite(cleaned,characters[index+16]),(x,y))
+    for target, source_index in MIRRORED_BASELINES.get(name, {}).items():
+        target_xy = ((target % GRID) * CELL, (target // GRID) * CELL)
+        source_box = ((source_index % GRID) * CELL, (source_index // GRID) * CELL,
+                      (source_index % GRID + 1) * CELL, (source_index // GRID + 1) * CELL)
+        for atlas in atlases.values():
+            atlas.paste(ImageOps.mirror(atlas.crop(source_box)), target_xy)
     output_dir.mkdir(parents=True,exist_ok=True)
     for kind,atlas in atlases.items(): atlas.save(output_dir/f'{name}-{kind}.png',optimize=True)
 
