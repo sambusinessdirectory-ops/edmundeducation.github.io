@@ -1,4 +1,4 @@
-import {BAKERY_OFFSET,BAKERY_HEIGHT,BAKERY_STARS,BAKERY_OBJECTS,BAKERY_DECORATIONS,bakeryTrail,bakerySprinkles,chocolateSteam} from './phrasal-verb-bakery-geometry.mjs?v=20260913-bakery2';
+import {BAKERY_OFFSET,BAKERY_HEIGHT,BAKERY_STARS,BAKERY_OBJECTS,BAKERY_DECORATIONS,bakeryTrail,bakerySprinkles,chocolateSteam} from './phrasal-verb-bakery-geometry.mjs?v=20260914-bakery3';
 const ART='./assets/phrasal-verb/bakery/';
 function sprite(name){return `<img class="bakery-sprite" src="${ART}${name}.webp" width="1254" height="1254" alt="" decoding="async">`;}
 function celestial(name){const o=BAKERY_OBJECTS[name];return `<span class="bakery-${name}" style="left:${o.x-o.size/2}px;top:${o.y-o.size/2}px;width:${o.size}px;height:${o.size}px"><span class="bakery-${name}-motion">${sprite(name==='galaxy'?name:name+'-v2')}</span></span>`;}
@@ -14,17 +14,17 @@ export function bakeryTerrain(nodes,id){
  <svg class="bakery-stars" viewBox="0 0 1600 ${BAKERY_HEIGHT}">${BAKERY_STARS.map((s,i)=>`<g class="bakery-large-star" data-bakery-star="${i}" style="--period:${s.period}s;--delay:${s.phase}s;transform-origin:${s.x}px ${s.y}px"><path d="${starPath(s.x,s.y,s.r)}" fill="#ffe8a4"/></g>`).join('')}</svg>
  ${celestial('moon')}${celestial('galaxy')}${celestial('saturn')}${decorations}
  <svg class="bakery-chimney-smoke" style="left:${hat.x-90}px;top:${hat.y-165}px;--rise:${Math.min(130,hat.y-8)}px" width="210" height="180" viewBox="-90 -165 210 180"><defs><filter id="${id}-smoke-soft"><feGaussianBlur stdDeviation="1.7"/></filter></defs><g filter="url(#${id}-smoke-soft)">${Array.from({length:5},(_,i)=>`<g class="bakery-smoke-puff" data-bakery-puff="${i}" style="--delay:${-i*1.24}s;--drift:${22+i%3*7}px"><ellipse rx="17" ry="12" fill="#fffdf6"/><ellipse cx="-9" cy="-7" rx="10" ry="11" fill="#fffdf6"/><ellipse cx="10" cy="-6" rx="12" ry="9" fill="#fffdf6"/></g>`).join('')}</g></svg>
- <svg class="bakery-cup-steam" style="left:${cup.x-70}px;top:${cup.y-145}px" width="140" height="155" viewBox="-70 -145 140 155"><defs><filter id="${id}-steam-soft"><feGaussianBlur stdDeviation="1.5"/></filter><linearGradient id="${id}-steam-fade" gradientUnits="userSpaceOnUse" x1="0" y1="-125" x2="0" y2="0"><stop stop-color="#fff3e4" stop-opacity="0"/><stop offset=".45" stop-color="#fff3e4" stop-opacity=".8"/><stop offset="1" stop-color="#fff3e4" stop-opacity=".45"/></linearGradient></defs>${Array.from({length:3},(_,i)=>{const p=chocolateSteam(0,i);return `<path class="bakery-steam-ribbon" data-bakery-steam="${i}" d="${p.d}" opacity="${p.opacity}" style="stroke:url(#${id}-steam-fade)" filter="url(#${id}-steam-soft)"/>`;}).join('')}</svg>
+ <svg class="bakery-cup-steam" style="left:${cup.x-95}px;top:${cup.y-195}px" width="190" height="210" viewBox="-95 -195 190 210"><defs><filter id="${id}-steam-soft" x="-50%" y="-20%" width="200%" height="150%"><feGaussianBlur stdDeviation="3.8"/></filter><filter id="${id}-steam-aura" x="-60%" y="-30%" width="220%" height="160%"><feGaussianBlur stdDeviation="9.4"/></filter><linearGradient id="${id}-steam-fade" gradientUnits="userSpaceOnUse" x1="0" y1="-184" x2="0" y2="0"><stop stop-color="#fff9ef" stop-opacity="0"/><stop offset=".32" stop-color="#fff9ef" stop-opacity=".35"/><stop offset=".7" stop-color="#fff9ef" stop-opacity=".85"/><stop offset="1" stop-color="#fff9ef" stop-opacity=".6"/></linearGradient></defs>${['aura','soft'].map(layer=>`<g filter="url(#${id}-steam-${layer})" opacity="${layer==='aura'?.28:1}">${Array.from({length:3},(_,i)=>{const p=chocolateSteam(0,i);return `<path class="bakery-steam-veil" data-bakery-steam="${layer}-${i}" data-steam-index="${i}" d="${p.d}" opacity="${p.opacity}" fill="url(#${id}-steam-fade)"/>`;}).join('')}</g>`).join('')}</svg>
  <svg class="bakery-route" viewBox="0 0 1600 ${BAKERY_HEIGHT}"><path d="${trail.d}" class="bakery-trail-shadow"/><path d="${trail.d}" class="bakery-trail-biscuit"/><path d="${trail.d}" class="bakery-trail-edge"/><path d="${trail.d}" class="bakery-trail-icing"/>${sprinkles}</svg>
  </div>`;
 }
 export function mountBakery(root,reduced){
- const region=root.querySelector('.phrasal-bakery-section'),viewport=root.querySelector('.expression-map-viewport'),steam=[...region.querySelectorAll('.bakery-steam-ribbon')];
+ const region=root.querySelector('.phrasal-bakery-section'),viewport=root.querySelector('.expression-map-viewport'),steam=[...region.querySelectorAll('.bakery-steam-veil')];
  let elapsed=0,last=0,lastPaint=0;
  return {draw(now){
   const scale=Number(root.dataset.scale)||1,top=viewport.scrollTop/scale,visible=top+viewport.clientHeight/scale>BAKERY_OFFSET&&top<BAKERY_OFFSET+BAKERY_HEIGHT;
   region.dataset.visible=String(visible);if(last&&visible)elapsed+=Math.min(100,Math.max(0,now-last))/1000;last=now;
   if(!visible||now-lastPaint<33)return;lastPaint=now;const t=reduced.matches?0:elapsed;
-  steam.forEach((el,i)=>{const p=chocolateSteam(t,i);el.setAttribute('d',p.d);el.setAttribute('opacity',p.opacity);el.style.strokeDashoffset=p.dashOffset;});region.dataset.motionTime=String(t);
+  steam.forEach(el=>{const p=chocolateSteam(t,Number(el.dataset.steamIndex));el.setAttribute('d',p.d);el.setAttribute('opacity',p.opacity);});region.dataset.motionTime=String(t);
  },destroy(){last=lastPaint=0;}};
 }

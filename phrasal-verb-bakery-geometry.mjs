@@ -26,16 +26,17 @@ export const BAKERY_STARS=[
  [315,827,11],[794,828,8],[121,1098,8],[780,1100,10],[492,1370,8],[1477,1402,9]
 ].map(([x,y,r],i)=>({x,y,r,period:4.4+i%5*.63,phase:-i*.79}));
 export const BAKERY_OBJECTS={
- moon:{x:174,y:156,size:224},galaxy:{x:500,y:160,size:350},saturn:{x:1370,y:220,size:310},
+ moon:{x:174,y:156,size:224},galaxy:{x:1060,y:155,size:320},saturn:{x:1370,y:220,size:310},
  chimney:{x:790,y:233},cup:{x:1302,y:1026}
 };
 // Keep small groups in the open bands between lesson rows, leaving room to walk.
 export const BAKERY_DECORATIONS=[
  {art:'star-cookies',x:370,y:672,size:190},
- {art:'cupcake',x:1020,y:657,size:192},
- {art:'star-cookies',x:740,y:925,size:190},
+ {art:'macarons',x:1020,y:660,size:190},
+ {art:'cinnamon-wafers',x:740,y:925,size:200},
  {art:'cupcake',x:351,y:945,size:168},
- {art:'star-cookies',x:585,y:1190,size:166}
+ {art:'caramel-pudding',x:585,y:1188,size:166},
+ {art:'blue-planet',x:1135,y:391,size:145}
 ];
 // Equal distances along the icing keep long bends as richly sprinkled as straight runs.
 export function bakerySprinkles(trail,nodes){
@@ -55,9 +56,23 @@ export function bakerySprinkles(trail,nodes){
  }
  return result;
 }
-// Each steam ribbon keeps the same rim contact while its upper curls change shape.
+// Filled, tapered veils widen above a fixed cup-rim contact and curl in rising air.
+function smoothSteamEdge(points){
+ let d=`M${points[0].x.toFixed(2)} ${points[0].y.toFixed(2)}`;
+ for(let i=1;i<points.length;i++){
+  const a=points[i-1],b=points[i],before=points[Math.max(0,i-2)],after=points[Math.min(points.length-1,i+1)];
+  d+=`C${(a.x+(b.x-before.x)/6).toFixed(2)} ${(a.y+(b.y-before.y)/6).toFixed(2)} ${(b.x-(after.x-a.x)/6).toFixed(2)} ${(b.y-(after.y-a.y)/6).toFixed(2)} ${b.x.toFixed(2)} ${b.y.toFixed(2)}`;
+ }
+ return d+'Z';
+}
 export function chocolateSteam(t,index){
- const phase=t*1.15+index*2.1,base=(index-1)*15;
- const bend=(level)=>Math.sin(phase+level*.88)*(8+level*3.3);
- return {d:`M${base} 0 C${base-4} -15 ${base+bend(1)} -18 ${base+bend(1)} -31 S${base+bend(2)} -49 ${base+bend(2)} -61 S${base+bend(3)} -79 ${base+bend(3)} -94 S${base+bend(4)} -107 ${base+bend(4)} -119`,opacity:.32+(.5+.5*Math.sin(phase*.7))*.28,dashOffset:-t*17-index*39};
+ const phase=t*.7+index*1.5,base=(index-1)*10,height=160+index*9;
+ const edge=side=>Array.from({length:15},(_,j)=>{
+  const s=j/14,envelope=Math.sin(Math.PI*s);
+  const center=base*(1-s)+Math.sin(s*5.5-t*.5+index*.7)*envelope*20+Math.sin(s*10-t*.9+index)*s*8;
+  const width=Math.pow(envelope,.7)*(12+index*4)*(1+.22*Math.sin(phase-s*8));
+  return {x:center+side*width,y:-s*height};
+ });
+ const right=edge(1),left=edge(-1).reverse();
+ return {d:smoothSteamEdge([...right,...left.slice(1)]),opacity:.3+(.5+.5*Math.sin(phase*.6))*.15};
 }

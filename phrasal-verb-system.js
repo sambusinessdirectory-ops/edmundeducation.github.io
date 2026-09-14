@@ -10,7 +10,7 @@
  * `highlights` metadata.
  */
 import { createExpressionMap } from './common-expression-map.mjs?v=20260913-night1';
-import { createPhrasalJourney, phrasalJourneyLessons, phrasalMapCompleted, PHRASAL_MAP_LIMIT } from './phrasal-verb-journey.mjs?v=20260913-bakery2';
+import { createPhrasalJourney, phrasalJourneyLessons, phrasalMapCompleted, PHRASAL_MAP_LIMIT } from './phrasal-verb-journey.mjs?v=20260914-bakery3';
 
 let phrasalMap = null;
 const CONFIG = window.EDMUND_PHRASAL_VERB_SYSTEM_CONFIG || {};
