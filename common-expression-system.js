@@ -542,7 +542,7 @@ let expressionMapModule = null;
 function syncExpressionMap() {
   if (!HAS_LESSON_MAP || !SYSTEM.lessons.length || !state.user) return;
   expressionMapModule ||= Promise.all([
-    import("./common-expression-map.mjs?v=20260915-blink2"),
+    import("./common-expression-map.mjs?v=20260915-blink3"),
     SYSTEM_KEY === "business-speaking" ? import("./common-expression-airport.mjs?v=20260915-airport2").then(async module => { await module.prepareAirport(); return module; }) :
     SYSTEM_KEY === "written" ? import("./common-expression-garden.mjs?v=20260912-garden1") :
     SYSTEM_KEY === "rhetorical-speaking" ? import("./common-expression-coast.mjs?v=20260912-coast2") :
