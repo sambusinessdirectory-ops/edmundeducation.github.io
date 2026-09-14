@@ -4,7 +4,7 @@ Shared range-selection presentation for `flashcards.html`, including the origina
 
 ## Walkable map
 
-The default presentation is now a connected companion map, with the existing material collections retained as Quick select. Eddie, Phoebe and Elsie walk to the platforms before the learner chooses Start practice. See [walkable map implementation and verification](../../../docs/flashcard-walking-maps-20260914.md).
+The default presentation is now a connected companion map, with a saved, plain Normal mode alternative. Eddie, Phoebe and Elsie walk to the platforms before the learner chooses Start practice. See [walkable map implementation and verification](../../../docs/flashcard-walking-maps-20260914.md).
 
 ## Design and behavior
 
@@ -67,3 +67,13 @@ The supplied ribbon, gem-cut/color and quatrefoil references informed the second
 - Evidence and screenshots: `/Users/sammak/Documents/ChatGPT/Astra/outputs/flashcard-range-worlds/qa/`.
 
 Screenshots show synthetic review records, not any student's actual progress. A passing state check does not replace visual inspection of the completed and incomplete materials, actual normal-size labels and compact layouts.
+
+
+## September 14 refinement (worlds4)
+
+- Walking follows a direct line, independent of the alternating platform numbering. It preserves the learner's chosen zoom across collection boundaries. Manual zoom, overview and panning remain available.
+- The connected board, spacing and objects are approximately 20% smaller. The 337-card fixture measures 1280 × 3744 map units, retaining four abacus platforms, five medals and four gems per row.
+- Normal mode uses compact text buttons and current progress. It persists per account, language and deck through the existing map preference store. A restored Normal mode skips building the graphical map entirely. Embedded phones show two columns without retaining the sprite's empty square.
+- Each gem sits in an independent padded velvet well, using four subtle burgundy/plum lining tints and inset shading. Native text selection and image dragging are disabled within the graphical viewport.
+- `abacus-left-v4.webp` and `abacus-right-v4.webp` are substantial sloping honey-oak legs with broad feet, grain, bevels and matching light. They are separate 350 × 1024 crops from built-in original `exec-1f2d2f88-637e-4f75-ab2b-677f1bb132a2.png`, preserving its true alpha. Conversion used WebP quality 93 and alpha quality 100; no background replacement was needed. The outer 350-pixel portions of the 1536 × 1024 source form the respective supports. Exact prompt and preparation are recorded in [prompts-v4.json](prompts-v4.json).
+- Evidence, source artwork and screenshots: `/Users/sammak/Documents/ChatGPT/Astra/outputs/flashcard-map-refinements-v4/`.

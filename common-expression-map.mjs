@@ -239,7 +239,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     startAnimation();
   }
   function centerOn(point, smooth=false) {
-    if(root.dataset.overview==='true' && theme?.overviewBounds && theme.overviewBounds(point).key!==root.dataset.overviewSection) {setScale(0,point);return;}
+    if(theme?.automaticOverview !== false && root.dataset.overview==='true' && theme?.overviewBounds && theme.overviewBounds(point).key!==root.dataset.overviewSection) {setScale(0,point);return;}
     const wantedWidth=theme?.cameraViewWidth?.(point) ?? WIDTH;
     if(wantedWidth!==cameraViewWidth) { setScale(zoom,point); return; }
     const top=theme?.cameraTop?.({point,scale,height:viewport.clientHeight,zoom,overview:root.dataset.overview==='true'}) ?? point.y*scale-viewport.clientHeight*.4;

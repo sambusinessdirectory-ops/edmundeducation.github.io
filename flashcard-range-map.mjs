@@ -1,5 +1,6 @@
-import { createExpressionMap } from './common-expression-map.mjs';
+import { createExpressionMap } from './common-expression-map.mjs?v=20260914-flashcards4';
 
+const MAP_SIZE = .8;
 const ART = new URL('./assets/flashcards/range-worlds/', import.meta.url).href;
 const COLLECTIONS = [
   {key:'standard',title:'標準模式 · 木製算盤',eyebrow:'THE STUDY ABACUS',columns:4},
@@ -11,31 +12,22 @@ export function createFlashcardMapLayout(entries) {
   let top=0; const nodes=[],sections=[];
   for(const collection of COLLECTIONS) {
     const items=entries.filter(e=>e.world===collection.key);if(!items.length)continue;
-    const rows=Math.ceil(items.length/collection.columns),height=600+(rows-1)*360;
+    const rows=Math.ceil(items.length/collection.columns),height=(600+(rows-1)*360)*MAP_SIZE;
     const section={...collection,top,height,rows};sections.push(section);
     const margin=collection.columns===5?190:240,step=(1600-margin*2)/(collection.columns-1);
     items.forEach((entry,index)=>{
       const row=Math.floor(index/collection.columns),column=index%collection.columns;
-      nodes.push({id:entry.id,world:collection.key,row,x:margin+(row%2?collection.columns-1-column:column)*step,y:top+330+row*360});
+      nodes.push({id:entry.id,world:collection.key,row,x:(margin+(row%2?collection.columns-1-column:column)*step)*MAP_SIZE,y:top+(330+row*360)*MAP_SIZE});
     });
     top+=height;
   }
-  return {width:1600,height:top,nodes,sections};
+  return {width:1600*MAP_SIZE,height:top,nodes,sections};
 }
 
-// Follow the collection rows in order; successive rows turn at the edge.
-// Free walking and empty-space clicks remain available, as on the lesson maps.
-export function flashcardMapRoute(nodes,from,to) {
-  if(!nodes.length)return [to];
-  const nearest=p=>nodes.reduce((best,node,index)=>Math.hypot(p.x-node.x,p.y-node.y)<best.distance?{index,distance:Math.hypot(p.x-node.x,p.y-node.y)}:best,{index:0,distance:Infinity});
-  const start=nearest(from),end=nearest(to);
-  if(end.distance>2)return [to];
-  const route=[];
-  if(start.distance>2)route.push(nodes[start.index]);
-  const direction=Math.sign(end.index-start.index);
-  for(let i=start.index+direction;direction&&i!==end.index+direction;i+=direction)route.push(nodes[i]);
-  if(!route.length)route.push(to);
-  return route.map(({x,y})=>({x,y}));
+// The collections are open surfaces: take the direct route to the chosen platform.
+// Platform numbering may snake across rows; walking is independent of that order.
+export function flashcardMapRoute(_nodes,_from,to) {
+  return [{x:to.x,y:to.y}];
 }
 
 function terrain(layout) {
@@ -44,14 +36,14 @@ function terrain(layout) {
     const rows=Array.from({length:section.rows},(_,row)=>nodes.filter(n=>n.row===row));
     let fittings='';
     if(section.key!=='10') {
-      fittings=rows.map(row=>`<span class="fc-map-rod" style="top:${row[0].y-section.top+22}px"></span>`).join('');
+      fittings=rows.map(row=>`<span class="fc-map-rod" style="top:${row[0].y-section.top+18}px"></span>`).join('');
       if(section.key==='standard') {
-        fittings+='<span class="fc-abacus-post fc-abacus-left"></span><span class="fc-abacus-post fc-abacus-right"></span>';
+        fittings+=`<img class="fc-abacus-support fc-abacus-left" src="${ART}abacus-left-v4.webp" alt="" draggable="false"><img class="fc-abacus-support fc-abacus-right" src="${ART}abacus-right-v4.webp" alt="" draggable="false">`;
         for(const row of rows) {
           const sorted=[...row].sort((a,b)=>a.x-b.x);
           for(let i=1;i<sorted.length;i++) for(let n=1;n<=3;n++) {
             const a=sorted[i-1],b=sorted[i];
-            fittings+=`<img class="fc-map-spacer" src="${ART}spacer-walnut.webp" alt="" style="left:${a.x+106+(b.x-a.x-212)*n/4}px;top:${a.y-section.top-17}px">`;
+            fittings+=`<img class="fc-map-spacer" src="${ART}spacer-walnut.webp" alt="" style="left:${a.x+86+(b.x-a.x-172)*n/4}px;top:${a.y-section.top-14}px">`;
           }
         }
       }
@@ -76,7 +68,7 @@ function cloneArtwork(source) {
       if(value!==attribute.value)node.setAttribute(attribute.name,value);
     }
   });
-  holder.querySelectorAll('img').forEach(img=>img.loading='eager');
+  holder.querySelectorAll('img').forEach(img=>{img.loading='eager';img.draggable=false;});
   return [...holder.childNodes];
 }
 function progress(entry) {
@@ -103,8 +95,10 @@ function refreshLabels() {
   }
 }
 function updateToggleLabel() {
-  toggle.textContent=mapRoot.hidden?'步行地圖 · Walking map':'快速選擇 · Quick select';
-  host.dataset.view=mapRoot.hidden?'list':'map';
+  toggle.textContent=mapRoot.hidden?'圖像地圖 · Map mode':'一般模式 · Normal mode';
+  host.dataset.view=mapRoot.hidden?'normal':'map';
+  snapshot.root.classList.toggle('range-plain',mapRoot.hidden);
+  host.querySelectorAll('[data-walk-collection]').forEach(button=>{const item=COLLECTIONS.find(c=>c.key===button.dataset.walkCollection);button.textContent=mapRoot.hidden?(item.key==='standard'?'標準模式':item.key+' 張卡範圍'):item.title;});
 }
 function createHost(root) {
   host=document.createElement('div');host.id='flashcard-range-map';root.before(host);
@@ -112,7 +106,7 @@ function createHost(root) {
   for(const section of COLLECTIONS) {
     const button=document.createElement('button');button.type='button';button.dataset.walkCollection=section.key;button.textContent=section.title;
     button.addEventListener('click',()=>{
-      if(mapRoot.hidden)toggle.click();
+      if(mapRoot.hidden){snapshot.root.querySelector(`[data-range-world="${section.key}"]`)?.scrollIntoView({behavior:'smooth',block:'start'});return;}
       const first=entries.find(e=>e.world===section.key);if(!first)return;
       const picker=mapRoot.querySelector('select');picker.value=first.id;picker.dispatchEvent(new Event('change',{bubbles:true}));
       mapRoot.querySelector('.expression-map-viewport').focus({preventScroll:true});
@@ -129,9 +123,9 @@ function build() {
     getCompleted:id=>progress(entries.find(e=>e.id===id)).correct,
     openLesson:id=>{const entry=entries.find(e=>e.id===id);if(entry&&!entry.source.disabled)entry.source.click();},
     theme:{id:'flashcard-collections',title:'閃卡收藏之旅',kicker:'THE FLASHCARD COLLECTIONS',width:layout.width,height:layout.height,
-      fitOverview:true,positions:()=>layout.nodes,
+      fitOverview:true,automaticOverview:false,cameraViewWidth:()=>1600,positions:()=>layout.nodes,
       overviewBounds:point=>{const section=layout.sections.find(s=>point.y<s.top+s.height)||layout.sections.at(-1);return {top:section.top,height:section.height,key:section.key};},
-      navigation:{path:(from,to)=>flashcardMapRoute(layout.nodes,from,to),step:(_from,to)=>to,duration:({distance})=>Math.max(260,Math.min(6000,distance/.65))},
+      navigation:{path:(from,to)=>flashcardMapRoute(layout.nodes,from,to),step:(_from,to)=>to,duration:({distance})=>Math.max(260,Math.min(3800,distance/.7))},
       terrain:()=>terrain(layout),
       mount(root){
         root.querySelector('.expression-map-heading h2 small').textContent=`${entries.length} 個學習站 · 自由探索`;
@@ -141,6 +135,10 @@ function build() {
         root.querySelector('[data-map-open]').innerHTML='<span>開始練習<small>Start practice</small></span><span aria-hidden="true">→</span>';
         root.querySelector('.expression-map-lesson-card').setAttribute('aria-label','卡片平台 · Flashcard platform');
         root.querySelector('.expression-map-desktop-hint').textContent='點平台步行前往 · 拖曳探索 · 方向鍵 / WASD 走動';
+        const viewport=root.querySelector('.expression-map-viewport');
+        const stopSelection=event=>event.preventDefault();
+        viewport.addEventListener('selectstart',stopSelection);
+        viewport.addEventListener('dragstart',stopSelection);
         root.querySelectorAll('[data-map-level]').forEach((target,index)=>{
           const entry=entries[index],node=layout.nodes[index],section=layout.sections.find(s=>s.key===entry.world),source=entry.source;
           target.replaceChildren(...cloneArtwork(source));
@@ -148,10 +146,11 @@ function build() {
           target.querySelector('.range-progress').classList.add('expression-map-stone-status');
           for(const key of ['material','gemShape','gemColor','gemInk','ribbon'])if(source.dataset[key])target.dataset[key]=source.dataset[key];
           for(const cls of ['status-mode-red','status-mode-green'])target.classList.toggle(cls,source.classList.contains(cls));
-          target.dataset.platformId=entry.id;target.style.top=`${node.y-section.top}px`;
+          target.dataset.platformId=entry.id;
+          if(entry.world==='10')target.dataset.lining=String(index%4);target.style.top=`${node.y-section.top}px`;
           root.querySelector(`[data-collection="${entry.world}"]`).append(target);bindings.push({source,target});
         });
-        return {update:syncArtwork,draw(){},destroy(){}};
+        return {update:syncArtwork,draw(){},destroy(){viewport.removeEventListener('selectstart',stopSelection);viewport.removeEventListener('dragstart',stopSelection);}};
       }
     }
   });

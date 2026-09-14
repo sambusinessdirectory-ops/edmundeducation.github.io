@@ -1,0 +1,11 @@
+{
+  "revision": "20260914-worlds4",
+  "method": "Built-in image_gen",
+  "prompt": "Use case: product-mockup. Asset type: a transparent sprite for a premium wooden abacus frame, consisting ONLY of the LEFT and RIGHT heavy wooden supporting legs as one paired frame asset, with the wide center completely empty. Reference role: the user's two closeups of broad sloping honey-colored timber abacus legs guide the shape, material and quality. Create a polished realistic 3D toy rendering, warm afternoon upper-left light, rich honey oak grain, rounded bevels, substantial thickness and visible darker side faces. The left support leans inward toward the right as it rises, the right support leans inward toward the left as it rises, like a stable slightly splayed A-frame. Both have broad flat feet, softly rounded tops, broad front planks, tasteful joinery and tactile wood grain, not thin cylindrical rods. Front-facing view with subtle natural three-quarter thickness matching a tabletop abacus. Each support occupies about the outer 12 percent of the wide canvas; leave the central 70 percent clear for game platforms and rods added in code. Canvas landscape, paired legs symmetrically placed at outer edges, full length fully in frame with small transparent margins. No horizontal crossbars, no rods, no beads, no floor, no room, no accessories, no characters, no numbers or text, no metal. Genuine transparent alpha background, not a painted checkerboard. Only local self-shading and soft contact shading on the feet, no broad background cast shadow. Make the timber handsome and substantial, with continuous natural long wood grain and softly polished worn bevels. Preserve generous transparent separation between the two supports.",
+  "original": "exec-1f2d2f88-637e-4f75-ab2b-677f1bb132a2.png",
+  "outputs": [
+    "assets/flashcards/range-worlds/abacus-left-v4.webp",
+    "assets/flashcards/range-worlds/abacus-right-v4.webp"
+  ],
+  "preparation": "Preserved RGBA transparency; extracted the outer 350-pixel columns for independent undistorted timber supports; WebP quality 93, alpha quality 100."
+}

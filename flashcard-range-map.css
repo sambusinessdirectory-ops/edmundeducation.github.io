@@ -75,3 +75,34 @@ html.flashcards-reading-embed #flashcard-range-map .expression-map-viewport { he
 /* The panning canvas must not contribute its 1600px width to the page grid. */
 #flashcard-range-map { min-width:0; width:100%; max-width:100%; contain:inline-size; }
 #flashcard-range-map .expression-map,#flashcard-range-map .expression-map-stage,#flashcard-range-map .expression-map-viewport { min-width:0; max-width:100%; }
+/* Revision 4: a compact board, substantial oak supports and separate velvet wells. */
+#flashcard-range-map .fc-map-realm { width:1280px; }
+#flashcard-range-map .fc-map-realm-heading { top:51px; left:70px; right:70px; }
+#flashcard-range-map .fc-map-realm-heading h3 { font-size:29px; margin:9px 0; }
+#flashcard-range-map .fc-map-realm-heading small { font-size:12px; }
+#flashcard-range-map .fc-map-realm-heading p { font-size:15px; }
+#flashcard-range-map .fc-map-rod { left:60px; right:60px; height:9px; }
+#flashcard-range-map [data-collection=standard] .fc-map-rod { height:15px; }
+#flashcard-range-map [data-collection='30'] .fc-map-rod { transform:translateY(-82px); }
+#flashcard-range-map .fc-abacus-support { position:absolute; top:145px; width:200px; height:calc(100% - 190px); object-fit:fill; pointer-events:none; z-index:1; filter:drop-shadow(4px 7px 5px #4c281c40); }
+#flashcard-range-map .fc-map-spacer { width:24px; height:65px; margin-left:-12px; }
+#flashcard-range-map .fc-map-platform { width:230px; height:260px; margin:-84px 0 0 -115px; }
+#flashcard-range-map .fc-map-platform .range-token { width:200px; height:200px; }
+#flashcard-range-map .range-number { font-size:24px; }
+#flashcard-range-map [data-material=medal] .range-number { font-size:22px; }
+#flashcard-range-map .range-choice-title { font-size:19px; margin-bottom:6px; }
+#flashcard-range-map .range-progress { min-width:72px; font-size:14px; padding:3px 10px; }
+#flashcard-range-map .range-state { font-size:13px; margin-top:5px; }
+#flashcard-range-map .expression-map-horse { width:112px; height:137px; margin-left:-56px; margin-top:-128px; }
+#flashcard-range-map .expression-map-shadow { width:50px; height:15px; margin-left:-25px; }
+#flashcard-range-map [data-material=gem]::before { content:''; display:block; position:absolute; inset:-9px -7px -16px; width:auto; height:auto; border:6px solid #76132a; border-radius:19px; background-image:linear-gradient(var(--lining-top,#54101e99),var(--lining-bottom,#24050d99)),url('assets/flashcards/range-worlds/velvet.webp'); background-position:center; background-size:100% 100%,480% 340%; box-shadow:inset 4px 5px 10px #170006b3,inset -3px -2px 7px #d7637040,0 2px 0 #e0706d5c,0 -2px 0 #29000ac9,0 6px 8px #25010c80; outline:1px solid #bc58604a; outline-offset:-8px; z-index:-1; }
+#flashcard-range-map [data-lining='1'] { --lining-top:#681b3080; --lining-bottom:#300816b3; }
+#flashcard-range-map [data-lining='2'] { --lining-top:#42122f99; --lining-bottom:#270a22b3; }
+#flashcard-range-map [data-lining='3'] { --lining-top:#802c3490; --lining-bottom:#340b16b3; }
+#flashcard-range-map [data-material=gem]:hover::before { filter:brightness(1.08); }
+#flashcard-range-map .expression-map-viewport,#flashcard-range-map .expression-map-viewport * { user-select:none; -webkit-user-select:none; -webkit-touch-callout:none; }
+#flashcard-range-map .expression-map-viewport img { -webkit-user-drag:none; }
+#flashcard-range-map .expression-map-viewport ::selection { background:transparent; }
+
+#flashcard-range-map .fc-abacus-support.fc-abacus-left { left:15px; }
+#flashcard-range-map .fc-abacus-support.fc-abacus-right { right:15px; }
