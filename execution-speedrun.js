@@ -405,8 +405,10 @@ function bindLibrary() {
       }
       if (kind === 'meter' && state.recordsFilter === record.id) state.recordsFilter = null;
       if (state.floating && !state.run) toggleFloat();
-      closeEditor(); $('[data-delete-dialog]').close(); state.deletion = null;
-      await load(kind === 'meter' && state.selected?.id === record.id ? null : state.selected?.id,true);
+      if (kind === 'meter' && state.draft?.id === record.id) closeEditor();
+      $('[data-delete-dialog]').close(); state.deletion = null;
+      try { await load(kind === 'meter' && state.selected?.id === record.id ? null : state.selected?.id,true); }
+      catch { message('刪除已完成；請重新整理以載入最新紀錄。','pending'); return; }
       message(kind === 'meter' ? '計時器及其所有嘗試、分段與操作紀錄已永久刪除。' : '此嘗試及其分段、操作紀錄已永久刪除；統計已重新計算。');
     } catch(error) { $('[data-delete-error]').textContent = error.message || '刪除未完成，請重新整理後再試。'; $('[data-delete-error]').hidden = false; message('刪除未完成，請查看確認視窗。','error'); }
     finally { $('[data-confirm-delete]').disabled = false; }
