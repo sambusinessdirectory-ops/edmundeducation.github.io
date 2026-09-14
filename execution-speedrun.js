@@ -1,4 +1,4 @@
-import {initTimeMapper} from './execution-time-mapper.js?v=20260914-3';
+import {initTimeMapper} from './execution-time-mapper.js?v=20260914-mapper-continue-1';
 import { formatTime, formatDelta, parseTime, flatten, sectionItems, expectedTotal, elapsed, transition, resizeRect } from './execution-speedrun-core.mjs?v=20260914-3';
 
 const $ = s => document.querySelector(s);
@@ -9,6 +9,7 @@ const deltaClass = n => n < 0 ? 'ahead' : n > 0 ? 'behind' : 'neutral';
 const terminal = run => run && ['completed', 'ended'].includes(run.status);
 const active = () => state.run && !terminal(state.run);
 const pageMode = document.body.dataset.speedrunPage || 'all';
+let mapperController;
 const statusNames = { running:'正在挑戰', paused:'已暫停', completed:'挑戰完成', ended:'提前結束 · 已保留用時' };
 const state = { client:null, role:'', token:'', user:null, meters:[], selected:null, run:null, queue:[], flushing:false, conflict:false, locked:false, storageKey:'', stats:{}, history:[], historyCount:0, draft:null, floating:false, saving:false, loadId:0, sortMode:'custom', libraryBusy:false, recordsFilter:null, deletion:null };
 function message(text, kind = 'online') {
@@ -203,7 +204,7 @@ function renderHistory() {
     const target = expectedTotal(run.sections), complete = run.status === 'completed';
     const shownRun = {...run,elapsed_ms:elapsed(run)};
     const date = new Intl.DateTimeFormat('zh-HK',{dateStyle:'medium',timeStyle:'medium'}).format(new Date(run.started_at));
-    return `<details><summary><span>${escape(run.title)} · ${escape(date)} · 版本 ${run.meter_version} · ${run.source === 'mapper' ? 'Time Mapper · ' : ''}${complete ? '完整挑戰' : statusNames[run.status]} ▾</span><b>${formatTime(shownRun.elapsed_ms,true)} <span class="${complete ? deltaClass(run.elapsed_ms-target) : ''}">${complete ? formatDelta(run.elapsed_ms-target) : `${run.splits.length}/${flatten(run.sections).length} 項完成`}</span></b></summary><div class="history-table-wrap"><table><thead><tr><th>主項目 / 子項目</th><th>預計</th><th>實際</th><th>差異</th></tr></thead><tbody>${historyRows(shownRun)}</tbody></table></div><button type="button" class="remove delete-attempt" data-delete-run="${escape(run.id)}" ${state.queue.length ? 'disabled' : ''}>永久刪除此嘗試</button></details>`;
+    return `<details><summary><span>${escape(run.title)} · ${escape(date)} · 版本 ${run.meter_version} · ${run.source === 'mapper' ? 'Time Mapper · ' : ''}${complete ? '完整挑戰' : statusNames[run.status]} ▾</span><b>${formatTime(shownRun.elapsed_ms,true)} <span class="${complete ? deltaClass(run.elapsed_ms-target) : ''}">${complete ? formatDelta(run.elapsed_ms-target) : `${run.splits.length}/${flatten(run.sections).length} 項完成`}</span></b></summary><div class="history-table-wrap"><table><thead><tr><th>主項目 / 子項目</th><th>預計</th><th>實際</th><th>差異</th></tr></thead><tbody>${historyRows(shownRun)}</tbody></table></div>${run.source === 'mapper' ? `<button type="button" data-continue-mapper="${escape(run.id)}" data-meter-id="${escape(run.meter_id)}">繼續 Time Mapper · 修改 / 新增部分</button>` : ''}<button type="button" class="remove delete-attempt" data-delete-run="${escape(run.id)}" ${state.queue.length ? 'disabled' : ''}>永久刪除此嘗試</button></details>`;
   }).join('') : '<p class="muted">此範圍內暫時沒有挑戰紀錄。</p>';
   $('[data-more]').hidden = state.history.length >= state.historyCount;
 }
@@ -386,6 +387,12 @@ function bindLibrary() {
     finally { state.libraryBusy = false; renderLibrary(); }
   });
   $('[data-history]').addEventListener('click',e => {
+    const reopen=e.target.closest('[data-continue-mapper]');
+    if(reopen) {
+      if(mapperController) void mapperController.openSaved(reopen.dataset.continueMapper);
+      else location.href=`execution-speedrun.html?meter=${encodeURIComponent(reopen.dataset.meterId)}&mapper=${encodeURIComponent(reopen.dataset.continueMapper)}`;
+      return;
+    }
     const button = e.target.closest('[data-delete-run]');
     if (button) confirmDeletion('run',button.dataset.deleteRun);
   });
@@ -496,7 +503,7 @@ async function init() {
     $('[data-user-pill]').hidden = false; $('[data-user-pill]').textContent = user.name;
     $('[data-connection-status]').textContent = '已安全連接';
     bind(); bindLibrary(); bindColumns();
-    if (pageMode !== 'records') initTimeMapper({
+    if (pageMode !== 'records') mapperController=initTimeMapper({
       key:`${state.storageKey}:mapper`, canOpen:()=>!active() && !state.queue.length && !state.locked && !state.conflict && !state.saving && !state.draft,
       rpc, message, onSaved:async saved=>{
         state.run=null;
@@ -508,6 +515,8 @@ async function init() {
     else if (state.queue.length) { message('已找回未同步的挑戰，正在恢復…','pending'); void flush(); }
     else if (pageMode === 'records') message('已載入所有嘗試紀錄，可篩選計時器或展開詳情。');
     else message(active() ? '已恢復進行中的挑戰 · 暫停時間不會計入成績' : '已連接資料庫 · 建立或選擇計時器即可開始');
+    const mappingId=new URLSearchParams(location.search).get('mapper');
+    if(mappingId && mapperController) await mapperController.openSaved(mappingId);
   } catch (error) {
     $('[data-loading]').textContent = '暫時未能開啟計時器，請重新整理或返回執行動力系統登入。';
     $('[data-login-needed]').hidden = false;

@@ -1,6 +1,7 @@
 // UI integration test with an isolated RPC fake; SQL integration is tested separately.
 import assert from 'node:assert/strict';
 import { mkdir } from 'node:fs/promises';
+import {mapperSections} from '../execution-time-mapper-core.mjs';
 import { transition } from '../execution-speedrun-core.mjs';
 const { chromium } = await import(process.env.PLAYWRIGHT_MODULE_PATH || 'playwright');
 const output = process.env.SPEEDRUN_QA_DIR || '/tmp/execution-speedrun-qa';
@@ -24,6 +25,18 @@ await context.exposeFunction('__qaRpc',async (name,p) => {
       r={id:p.p_run_id,meter_id:m.id,title:m.title,sections:m.sections,meter_version:1,status:'completed',source:'mapper',elapsed_ms:p.p_splits.reduce((n,s)=>n+s.elapsed_ms,0),splits:p.p_splits.map(s=>({elapsed_ms:s.elapsed_ms,completed:true})),started_at:p.p_splits[0].started_at,ended_at:p.p_splits.at(-1).ended_at,revision:p.p_splits.length};runs.push(r);
     }
     data={id:r.meter_id,run_id:r.id};
+  } else if(name==='execution_speedrun_mapper_open') {
+    const r=runs.find(r=>r.id===p.p_run_id),m=meters.find(m=>m.id===r.meter_id);
+    let n=0;
+    data={id:m.id,run_id:r.id,title:m.title,base_revision:r.revision,meter_updated_at:m.updated_at,current:null,inputs:{main:'',sub:'',choice:'same'},parts:r.mapper_parts||r.sections.flatMap(section=>(section.items.length ? section.items : [section]).map(item=>({id:section.items.length ? item.id : `part-${section.id}`,section_id:section.id,section_title:section.title,title:section.items.length ? item.title : null,elapsed_ms:r.splits[n++].elapsed_ms,anchor:null,started_at:r.started_at,ended_at:r.ended_at})))};
+  } else if(name==='execution_speedrun_mapper_update') {
+    const r=runs.find(r=>r.id===p.p_run_id),m=meters.find(m=>m.id===r.meter_id);
+    if(r.mapper_request!==p.p_request_id) {
+      assert.equal(p.p_revision,r.revision);
+      m.sections=mapperSections(p.p_parts);m.version++;m.updated_at=new Date().toISOString();
+      Object.assign(r,{sections:m.sections,meter_version:m.version,mapper_parts:p.p_parts,mapper_request:p.p_request_id,revision:r.revision+1,elapsed_ms:p.p_parts.reduce((n,x)=>n+x.elapsed_ms,0),splits:p.p_parts.map(x=>({elapsed_ms:x.elapsed_ms,completed:true}))});
+    }
+    data={id:m.id,run_id:r.id};
   } else if (name === 'execution_speedrun_start') {
     const m = meters.find(m => m.id === p.p_meter_id);
     data = runs.find(r => r.id === p.p_id);
@@ -308,6 +321,42 @@ try {
   assert.equal(firstNested.sections[0].items[0].title,'First subsection');
   assert.equal(runs.find(r=>r.meter_id===firstNested.id).splits.length,1,'Finish while naming must not append a phantom split');
 
+  // Reopen a finished mapping, resume an earlier part, insert in an earlier main
+  // section, and save back to the same attempt after an offline failure.
+  await page.locator('[data-history] summary').first().click();
+  const continuation=runs.find(r=>r.meter_id===firstNested.id), previousTime=continuation.elapsed_ms;
+  await page.locator(`[data-continue-mapper="${continuation.id}"]`).click();
+  await page.locator('[data-map-continue="0"]').click();await page.waitForTimeout(160);
+  await page.locator('[data-map-next]').click();
+  await page.locator('[data-map-choice]').selectOption('new');
+  await page.locator('[data-map-main]').fill('Later section');await page.locator('[data-map-go]').click();
+  await page.waitForTimeout(100);await page.locator('[data-map-next]').click();
+  await page.locator('[data-map-choice]').selectOption(firstNested.sections[0].id);
+  await page.locator('[data-map-sub]').fill('Extra earlier subsection');await page.locator('[data-map-go]').click();
+  await page.waitForTimeout(100);await page.locator('[data-map-next]').click();
+  await page.setViewportSize({width:390,height:844});
+  assert.ok(await page.evaluate(()=>document.querySelector('[data-mapper]').scrollWidth<=document.querySelector('[data-mapper]').clientWidth));
+  await page.screenshot({path:`${output}/mapper-continue-mobile.png`,fullPage:true});
+  offline=true;await page.locator('[data-map-finish]').click();await page.locator('[data-map-error]').waitFor({state:'visible'});
+  offline=false;await page.locator('[data-map-finish]').click();
+  await page.waitForFunction(()=>!document.querySelector('[data-mapper]').open);
+  assert.equal(runs.filter(r=>r.meter_id===firstNested.id).length,1);
+  assert.ok(continuation.elapsed_ms>previousTime && continuation.elapsed_ms<previousTime+2000);
+  assert.equal(continuation.sections[0].items.length,2);
+  assert.equal(continuation.sections[0].items[1].title,'Extra earlier subsection');
+  assert.equal(continuation.sections[1].title,'Later section');
+  assert.equal(continuation.splits.length,3);
+  await page.locator('[data-history] summary').first().click();
+  await page.locator(`[data-continue-mapper="${continuation.id}"]`).click();
+  assert.equal(await page.locator('[data-map-count]').textContent(),'（3）');
+  await page.locator('[data-map-close]').click();
+
+  await page.locator('[data-page="records"]').click();await page.locator('[data-app]').waitFor({state:'visible'});
+  await page.locator(`details:has([data-continue-mapper="${continuation.id}"]) summary`).click();
+  await page.locator(`[data-continue-mapper="${continuation.id}"]`).click();
+  await page.locator('[data-mapper][open]').waitFor();
+  assert.equal(await page.locator('[data-map-count]').textContent(),'（3）');
+  await page.locator('[data-map-close]').click();
   assert.deepEqual(errors,[]);
-  console.log('Browser QA passed: Time Mapper creation, mapping hierarchy, immediate freeze, running and paused refresh recovery, finish while naming, offline retry, mobile layout; standalone and nested sections, favourites, custom/A–Z ordering, records filtering/deletion, column widths and persistence, split timing, offline/conflict recovery, floating resize, desktop and mobile.');
+  console.log('Browser QA passed: saved mapping continuation, same-attempt updates, earlier-section insertion, records-page reopening, Time Mapper creation, mapping hierarchy, immediate freeze, running and paused refresh recovery, finish while naming, offline retry, mobile layout; standalone and nested sections, favourites, custom/A–Z ordering, records filtering/deletion, column widths and persistence, split timing, offline/conflict recovery, floating resize, desktop and mobile.');
 } finally { await browser.close(); }

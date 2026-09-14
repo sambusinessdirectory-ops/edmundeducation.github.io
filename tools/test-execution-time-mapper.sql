@@ -5,6 +5,7 @@ declare
  a uuid:=extensions.gen_random_uuid(); b uuid:=extensions.gen_random_uuid();
  ta uuid:=extensions.gen_random_uuid(); tb uuid:=extensions.gen_random_uuid();
  m uuid:=extensions.gen_random_uuid(); r uuid:=extensions.gen_random_uuid(); bad uuid:=extensions.gen_random_uuid();
+ draft jsonb; changed jsonb; request_id uuid:=extensions.gen_random_uuid();
  at timestamptz:=now()-interval '1 hour'; shape jsonb; times jsonb; result jsonb;
 begin
  perform set_config('request.jwt.claim.sub',extensions.gen_random_uuid()::text,true);
@@ -40,7 +41,38 @@ begin
   raise exception 'Overlapping time accepted';
  exception when others then if sqlerrm='Overlapping time accepted' then raise;end if;end;
  assert not exists(select 1 from public.execution_speedrun_meters where id=bad);
- perform public.execution_speedrun_delete(r,'run',3,null,ta);
+
+ draft:=public.execution_speedrun_mapper_open(r,null,ta);
+ assert jsonb_array_length(draft->'parts')=3;
+ assert draft->'parts'->0->>'elapsed_ms'='1234';
+ begin
+  perform public.execution_speedrun_mapper_open(r,null,tb);
+  raise exception 'Cross-owner reopen accepted';
+ exception when insufficient_privilege then null; end;
+ changed:=jsonb_set(draft->'parts','{0,elapsed_ms}','2234');
+ changed:=jsonb_set(changed,'{0,ended_at}',to_jsonb(now()));
+ changed:=changed||jsonb_build_array(jsonb_build_object('id','i4','section_id','s3','section_title','New section','title',null,'elapsed_ms',777,'started_at',now()-interval '1 second','ended_at',now()));
+ perform public.execution_speedrun_mapper_update(r,request_id,3,(draft->>'meter_updated_at')::timestamptz,'Mapped',changed,null,ta);
+ assert (select elapsed_ms=3911 and jsonb_array_length(splits)=4 and revision=4 and meter_version=2 from public.execution_speedrun_runs where id=r),'Continuation lost timing or created a different attempt';
+ assert (select sections->0->'items'->0->>'expected_ms'='3000' and jsonb_array_length(sections)=3 from public.execution_speedrun_meters where id=m);
+ perform public.execution_speedrun_mapper_update(r,request_id,3,(draft->>'meter_updated_at')::timestamptz,'Mapped',changed,null,ta);
+ assert (select revision=4 from public.execution_speedrun_runs where id=r),'Retry changed revision';
+ begin
+  perform public.execution_speedrun_mapper_update(r,extensions.gen_random_uuid(),3,(draft->>'meter_updated_at')::timestamptz,'Mapped',changed,null,ta);
+  raise exception 'Stale edit accepted';
+ exception when serialization_failure then null;end;
+ begin
+  perform public.execution_speedrun_mapper_update(r,request_id,3,(draft->>'meter_updated_at')::timestamptz,'Mapped',changed,null,tb);
+  raise exception 'Cross-owner update accepted';
+ exception when insufficient_privilege then null;end;
+ result:=public.execution_speedrun_mapper_open(r,null,ta);
+ assert result->'parts'=changed,'Saved parts did not survive reopening';
+ perform public.execution_speedrun_delete(r,'run',4,null,ta);
+ begin
+  perform public.execution_speedrun_mapper_update(r,request_id,3,(draft->>'meter_updated_at')::timestamptz,'Mapped',changed,null,ta);
+  raise exception 'Deleted mapping update replayed';
+ exception when insufficient_privilege then null;end;
+
  begin
   perform public.execution_speedrun_mapper_save(m,r,'Mapped',shape,times,null,ta);
   raise exception 'Deleted mapping replayed';

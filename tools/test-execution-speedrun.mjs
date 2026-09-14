@@ -85,3 +85,15 @@ test('time mapper freezes a split before naming and preserves standalone-to-nest
   assert.equal(mapperElapsed(paused,99999),4321);
   assert.equal(mapperStop(paused,99999).parts[0].elapsed_ms,4321);
 });
+
+test('reopened mapper continues in place without counting time since finish', async()=>{
+ const {mapperContinue,mapperStop}=await import('../execution-time-mapper-core.mjs');
+ const original={parts:[{id:'a',elapsed_ms:1234,anchor:null},{id:'b',elapsed_ms:900,anchor:null}],current:null};
+ const resumed=mapperContinue(original,0,900000);
+ const saved=mapperStop(resumed,900777);
+ assert.equal(saved.parts.length,2); assert.equal(saved.parts[0].elapsed_ms,2011);
+ assert.equal(saved.parts[1].elapsed_ms,900); assert.equal(original.parts[0].elapsed_ms,1234);
+ assert.equal(saved.current,null); assert.equal(saved.currentIndex,undefined);
+ const inserted=mapperStop({...saved,insertIndex:1,current:{id:'new',elapsed_ms:0,anchor:901000}},901010);
+ assert.deepEqual(inserted.parts.map(p=>p.id),['a','new','b']);
+});
