@@ -1,7 +1,6 @@
-import {HOTEL_ART,HOTEL_SCALE,HOTEL_TRAIN,HOTEL_FLAGS,HOTEL_PLANTS,HOTEL_TREES,HOTEL_LIGHTS,HOTEL_SILHOUETTE,hotelTrainPose,hotelFlagOffset,hotelLightLevel} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel3';
-import {createHotelVegetation} from './sentence-structure-hotel-vegetation.mjs?v=20260914-hotel3';
+import {HOTEL_ART,HOTEL_SCALE,HOTEL_TRAIN,HOTEL_TRAIN_OUTLINE,HOTEL_FLAGS,HOTEL_PLANTS,HOTEL_TREES,HOTEL_LIGHTS,HOTEL_SILHOUETTE,hotelTrainPose,hotelFlagOffset,hotelLightLevel} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel3b';
+import {createHotelVegetation} from './sentence-structure-hotel-vegetation.mjs?v=20260914-hotel3b';
 const W=HOTEL_ART.width,H=HOTEL_ART.height;
-const TRAIN_OUTLINE=[[1307,225],[1317,217],[1338,212],[1402,212],[1402,225],[1393,225],[1389,236],[1381,246],[1377,255],[1368,260],[1368,268],[1354,272],[1346,273],[1330,276],[1311,273],[1307,265]];
 const makeCanvas=()=>Object.assign(document.createElement('canvas'),{width:W,height:H});
 function polygon(ctx,points){ctx.beginPath();points.forEach(([x,y],i)=>i?ctx.lineTo(x,y):ctx.moveTo(x,y));ctx.closePath();}
 export function exteriorClip(ctx){ctx.beginPath();ctx.rect(0,0,W,H);HOTEL_SILHOUETTE.forEach(([x,y],i)=>i?ctx.lineTo(x,y):ctx.moveTo(x,y));ctx.closePath();ctx.rect(1244,15,140,94);ctx.clip('evenodd');}
@@ -45,7 +44,7 @@ export function makeHotelPlate(reference,restoration){
  const c=makeCanvas(),ctx=c.getContext('2d');ctx.drawImage(reference,0,0,W,H);
  const repair=(points)=>{ctx.save();polygon(ctx,points);ctx.clip();ctx.drawImage(restoration,0,0,W,H);ctx.restore();};
  repair([[243,40],[307,40],[307,86],[243,88]]);repair([[1167,40],[1226,40],[1226,89],[1167,89]]);
- repair(TRAIN_OUTLINE);
+ repair(HOTEL_TRAIN_OUTLINE);
  repair([[655,568],[739,568],[739,685],[655,685]]);
  repair([[1254,50],[1376,50],[1376,99],[1254,99]]);
  repair([[1201,1008],[1334,1008],[1334,1053],[1201,1053]]);

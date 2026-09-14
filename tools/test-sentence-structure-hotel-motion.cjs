@@ -12,8 +12,8 @@ let browser,context;
  await page.evaluate(async()=>{
   document.body.innerHTML='<main id="art"></main>';document.head.querySelectorAll('link[rel=stylesheet]').forEach(n=>n.remove());document.body.style.cssText='margin:0;overflow:hidden';
   const art=document.querySelector('#art');art.style.cssText='position:absolute;left:-922px;top:-40px;width:1402px;height:1122px;overflow:hidden';
-  const {makeHotelPlate,createHotelScenery,createHotelEffects}=await import('/sentence-structure-hotel-scenery.mjs?v=20260914-hotel3');
-  const {HOTEL_SCALE,hotelTrainPose}=await import('/sentence-structure-hotel-geometry.mjs?v=20260914-hotel3');
+  const {makeHotelPlate,createHotelScenery,createHotelEffects}=await import('/sentence-structure-hotel-scenery.mjs?v=20260914-hotel3b');
+  const {HOTEL_SCALE,hotelTrainPose}=await import('/sentence-structure-hotel-geometry.mjs?v=20260914-hotel3b');
   const load=n=>new Promise((resolve,reject)=>{const i=new Image();i.onload=()=>resolve(i);i.onerror=reject;i.src='/assets/sentence-structure/hotel/'+n+'.png';});
   const [reference,restoration,train,vegetation]=await Promise.all(['reference','restoration','funicular-complete','vegetation-clean'].map(load));
   const plate=makeHotelPlate(reference,restoration),c=()=>Object.assign(document.createElement('canvas'),{width:1402,height:1122}),scenery=c(),effects=c(),layer=document.createElement('div');

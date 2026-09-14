@@ -1,4 +1,4 @@
-import {HOTEL_ART,HOTEL_PLANTS,HOTEL_TREES,HOTEL_SILHOUETTE} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel3';
+import {HOTEL_ART,HOTEL_PLANTS,HOTEL_TREES,HOTEL_SILHOUETTE,HOTEL_TRAIN_OUTLINE} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel3b';
 const {width:W,height:H}=HOTEL_ART;
 const canvas=(w=W,h=H)=>Object.assign(document.createElement('canvas'),{width:w,height:h});
 function polygon(c,points){c.beginPath();points.forEach(([x,y],i)=>i?c.lineTo(x,y):c.moveTo(x,y));c.closePath();}
@@ -10,6 +10,9 @@ export function hotelCanopyPose(t,index,height,plant=false){
 }
 export function createHotelVegetation(plate,restoration){
  const out=canvas(),ctx=out.getContext('2d'),under=canvas(),bg=under.getContext('2d');bg.drawImage(plate,0,0);
+ // The vegetation-only edit retained the original parked car. Apply its
+ // existing removal mask before exposing any of this background under trees.
+ const clean=canvas(),cc=clean.getContext('2d');cc.drawImage(restoration,0,0,W,H);cc.save();const xs=HOTEL_TRAIN_OUTLINE.map(p=>p[0]),ys=HOTEL_TRAIN_OUTLINE.map(p=>p[1]);cc.beginPath();cc.rect(Math.min(...xs)-5,Math.min(...ys)-5,Math.max(...xs)-Math.min(...xs)+10,Math.max(...ys)-Math.min(...ys)+10);cc.clip();cc.drawImage(plate,0,0);cc.restore();
  const source=plate.getContext('2d',{willReadFrequently:true}).getImageData(0,0,W,H).data;
  const protectedArt=canvas(),protect=protectedArt.getContext('2d');
  polygon(protect,HOTEL_SILHOUETTE);protect.fill();
@@ -43,7 +46,7 @@ export function createHotelVegetation(plate,restoration){
   mc.fillRect(0,root,W,H-root);mc.globalCompositeOperation='source-over';
   // Only pixels hidden by a moving canopy are restored. The original facade,
   // cliffs and all other artwork outside these mattes remain untouched.
-  pc.globalCompositeOperation='source-over';pc.clearRect(0,0,W,H);pc.drawImage(restoration,0,0,W,H);pc.globalCompositeOperation='destination-in';pc.drawImage(mask,0,0);bg.drawImage(patch,0,0);
+  pc.globalCompositeOperation='source-over';pc.clearRect(0,0,W,H);pc.drawImage(clean,0,0,W,H);pc.globalCompositeOperation='destination-in';pc.drawImage(mask,0,0);bg.drawImage(patch,0,0);
   sc.globalCompositeOperation='source-over';sc.clearRect(0,0,W,H);sc.drawImage(plate,0,0);sc.globalCompositeOperation='destination-in';sc.drawImage(mask,0,0);
   const left=Math.max(0,Math.floor(x-rx*1.25-2)),top=Math.max(0,Math.floor(y-ry*1.35-2)),w=Math.min(W-left,Math.ceil(rx*2.5+4)),h=Math.min(H-top,Math.ceil(root-top+2));
   const crop=canvas(w,h);crop.getContext('2d').drawImage(sprite,left,top,w,h,0,0,w,h);

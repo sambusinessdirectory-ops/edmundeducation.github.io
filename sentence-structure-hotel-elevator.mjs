@@ -1,4 +1,4 @@
-import {HOTEL_FLOORS,HOTEL_OFFSET,HOTEL_SCALE,hotelElevatorState} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel3';
+import {HOTEL_FLOORS,HOTEL_OFFSET,HOTEL_SCALE,hotelElevatorState} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel3b';
 
 // The reference's bronze cabin is revealed through a tall, feathered oval in
 // the wall shader. Shaft rails stay fixed; the cabin and passenger share a floor.

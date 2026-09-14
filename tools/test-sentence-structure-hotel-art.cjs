@@ -8,27 +8,29 @@ let browser;
  await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));browser=await chromium.launch({headless:true});const page=await browser.newPage({viewport:{width:1402,height:1122},deviceScaleFactor:1});
  await page.goto(`http://127.0.0.1:${server.address().port}/sentence-structure.html`);await page.evaluate(()=>{document.body.replaceChildren();document.body.style.cssText='margin:0;background:#c8a7a5';});
  const result=await page.evaluate(async()=>{
-  const {makeHotelPlate,createHotelScenery,createHotelEffects,HOTEL_LETTERING_REPAIRS}=await import('/sentence-structure-hotel-scenery.mjs?v=20260914-hotel3');
+  const {makeHotelPlate,createHotelScenery,createHotelEffects,HOTEL_LETTERING_REPAIRS}=await import('/sentence-structure-hotel-scenery.mjs?v=20260914-hotel3b');
   const load=src=>new Promise((resolve,reject)=>{const i=new Image();i.onload=()=>resolve(i);i.onerror=reject;i.src=src;});
   const [reference,restoration,train,liftImage,vegetationPlate]=await Promise.all(['reference','restoration','funicular-complete','elevator-reference','vegetation-clean'].map(name=>load('/assets/sentence-structure/hotel/'+name+'.png')));
   const plate=makeHotelPlate(reference,restoration),scenery=Object.assign(document.createElement('canvas'),{width:1402,height:1122}),effects=Object.assign(document.createElement('canvas'),{width:1402,height:1122});
   for(const c of [plate,scenery,effects]){c.style.cssText='position:absolute;inset:0';document.body.append(c);}
   const rig=createHotelScenery(scenery,plate,vegetationPlate),fx=createHotelEffects(effects,reference,train,{snow:false});
-  const {createHotelElevator}=await import('/sentence-structure-hotel-elevator.mjs?v=20260914-hotel3');const liftCanvas=document.createElement('canvas'),elevator=createHotelElevator(liftImage,liftCanvas);
+  const {createHotelElevator}=await import('/sentence-structure-hotel-elevator.mjs?v=20260914-hotel3b');const liftCanvas=document.createElement('canvas'),elevator=createHotelElevator(liftImage,liftCanvas);
   window.artRig={plate,scenery,effects,rig,fx,elevator,liftCanvas,train};rig.paint(14);fx.paint(11.8);
   const canvas=Object.assign(document.createElement('canvas'),{width:1402,height:1122}),ctx=canvas.getContext('2d');ctx.drawImage(reference,0,0);const before=ctx.getImageData(0,0,1402,1122).data,after=plate.getContext('2d').getImageData(0,0,1402,1122).data;
   const repairs=[[242,39,67,51],[1166,39,62,52],[1304,207,98,70],[654,567,86,120],[1253,49,125,51],[1200,1007,136,48],...HOTEL_LETTERING_REPAIRS];
   let outsideChanges=0,unchangedPixels=0;for(let y=0;y<1122;y++)for(let x=0;x<1402;x++){if(repairs.some(([a,b,w,h])=>x>=a&&x<a+w&&y>=b&&y<b+h))continue;const i=(y*1402+x)*4;unchangedPixels++;if(before[i]!==after[i]||before[i+1]!==after[i+1]||before[i+2]!==after[i+2])outsideChanges++;}
   const fallback=Object.assign(document.createElement('canvas'),{width:1402,height:1122});fallback.getContext=()=>null;const still=createHotelScenery(fallback,plate);still.paint(100);still.destroy();
-  return {outsideChanges,unchangedPixels,fallback:fallback.dataset.renderer};
+  const background=rig.vegetation.under.getContext('2d').getImageData(0,0,1402,1122).data;let parkedCarLeak=0;
+  for(let y=220;y<265;y++)for(let x=1310;x<1395;x++){const i=(y*1402+x)*4;for(let k=0;k<3;k++)parkedCarLeak=Math.max(parkedCarLeak,Math.abs(background[i+k]-after[i+k]));}
+  return {outsideChanges,unchangedPixels,parkedCarLeak,fallback:fallback.dataset.renderer};
  });
- assert.equal(result.outsideChanges,0,'Unedited source pixels are identical');assert.equal(result.fallback,'static');
+ assert.equal(result.outsideChanges,0,'Unedited source pixels are identical');assert.equal(result.fallback,'static');assert.ok(result.parkedCarLeak<=1,'The original parked train cannot leak through canopy gaps');
  await page.screenshot({path:path.join(out,'hotel-native-motion.png')});
  const poses=[];for(const t of [0,6,10,11.8,14,18,22.99,23]){await page.evaluate(t=>{artRig.rig.paint(t);artRig.fx.paint(t);},t);await page.screenshot({path:path.join(out,`hotel-train-${String(t).replace('.','_')}.png`),clip:{x:1190,y:150,width:212,height:265}});poses.push(await page.evaluate(()=>JSON.parse(artRig.effects.dataset.train)));}
  await page.evaluate(()=>{const p={x:225*1600/1402,y:8850+650*1600/1402};const lift=artRig.elevator.paint(p);artRig.rig.paint(12,false,lift);});
  await page.screenshot({path:path.join(out,'hotel-elevator-art.png'),clip:{x:126,y:390,width:300,height:355}});
  const motion=await page.evaluate(async()=>{
-  const {prepareHotelTrain,drawHotelTrain}=await import('/sentence-structure-hotel-scenery.mjs?v=20260914-hotel3');const {hotelTrainPose}=await import('/sentence-structure-hotel-geometry.mjs?v=20260914-hotel3');
+  const {prepareHotelTrain,drawHotelTrain}=await import('/sentence-structure-hotel-scenery.mjs?v=20260914-hotel3b');const {hotelTrainPose}=await import('/sentence-structure-hotel-geometry.mjs?v=20260914-hotel3b');
   const train=prepareHotelTrain(artRig.train),b=train.bounds,tc=train.canvas.getContext('2d'),row=tc.getImageData(b.x,b.y+Math.floor(b.h*.5),b.w,1).data;let solid=0;for(let i=3;i<row.length;i+=4)if(row[i]>240)solid++;
   const expected=document.createElement('canvas');expected.width=1402;expected.height=1122;const ec=expected.getContext('2d',{willReadFrequently:true});drawHotelTrain(ec,train,hotelTrainPose(11.8));artRig.fx.paint(11.8);
   const a=ec.getImageData(1250,150,152,180).data,z=artRig.effects.getContext('2d').getImageData(1250,150,152,180).data;let ea=0,za=0;for(let i=3;i<a.length;i+=4){ea+=a[i];za+=z[i];}

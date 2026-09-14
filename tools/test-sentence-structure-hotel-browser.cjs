@@ -77,7 +77,7 @@ window.coastTest={
  const samples=[];
  for(let i=0;i<45;i++){
   samples.push(await page.evaluate(async()=>{
-   const {HOTEL_PLANTS,HOTEL_TREES,HOTEL_LIGHTS}=await import('/sentence-structure-hotel-geometry.mjs?v=20260914-hotel3');
+   const {HOTEL_PLANTS,HOTEL_TREES,HOTEL_LIGHTS}=await import('/sentence-structure-hotel-geometry.mjs?v=20260914-hotel3b');
    const scenery=document.querySelector('.hotel-scenery'),fx=document.querySelector('.hotel-effects'),copy=document.createElement('canvas');copy.width=1402;copy.height=1122;const ctx=copy.getContext('2d',{willReadFrequently:true});ctx.drawImage(scenery,0,0);
    const hash=(x,y,w,h)=>{let n=2166136261;for(const v of ctx.getImageData(Math.max(0,x|0),Math.max(0,y|0),Math.min(w|0,1402-Math.max(0,x|0)),Math.min(h|0,1122-Math.max(0,y|0))).data)n=Math.imul(n^v,16777619);return n>>>0;};
    const plant=HOTEL_PLANTS.map(([x,y,rx,ry])=>hash(x-rx,y-ry,rx*2,ry*2)),trees=HOTEL_TREES.map(([x,y,rx,ry])=>hash(x-rx,y-ry,rx*2,ry*2)),lights=HOTEL_LIGHTS.map(([x,y])=>hash(x-7,y-7,14,14)),wall=hash(540,132,330,45),pot=hash(780,340,8,5);

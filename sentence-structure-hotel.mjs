@@ -1,6 +1,6 @@
-import {HOTEL_OFFSET,HOTEL_HEIGHT,HOTEL_SCALE,HOTEL_ROOMS,hotelCompanionVisible} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel3';
-import {makeHotelPlate,createHotelScenery,createHotelEffects} from './sentence-structure-hotel-scenery.mjs?v=20260914-hotel3';
-import {createHotelElevator} from './sentence-structure-hotel-elevator.mjs?v=20260914-hotel3';
+import {HOTEL_OFFSET,HOTEL_HEIGHT,HOTEL_SCALE,HOTEL_ROOMS,hotelCompanionVisible} from './sentence-structure-hotel-geometry.mjs?v=20260914-hotel3b';
+import {makeHotelPlate,createHotelScenery,createHotelEffects} from './sentence-structure-hotel-scenery.mjs?v=20260914-hotel3b';
+import {createHotelElevator} from './sentence-structure-hotel-elevator.mjs?v=20260914-hotel3b';
 const ART='./assets/sentence-structure/hotel/';
 export function hotelTerrain(){return `<div class="sentence-hotel-realm" style="top:${HOTEL_OFFSET}px;height:${HOTEL_HEIGHT}px" aria-hidden="true"><img class="hotel-background" src="${ART}reference.png" width="1402" height="1122" alt=""><canvas class="hotel-scenery" width="1402" height="1122"></canvas><canvas class="hotel-elevator" hidden></canvas><div class="hotel-train-layer"></div><canvas class="hotel-effects" width="1402" height="1122"></canvas><div class="hotel-road-sign"><span>150 Rooms</span><span>The Grand English Hotel</span></div><canvas class="hotel-companion-card" width="140" height="94"></canvas><div class="hotel-companion-portrait"><canvas width="74" height="96"></canvas><span>Eddie</span></div></div>`;}
 export function decorateHotelDoors(root){

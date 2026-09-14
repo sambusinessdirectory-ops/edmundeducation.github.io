@@ -56,6 +56,7 @@ export const HOTEL_LIGHTS=[
  [56,876,46],[1344,875,46],[595,901,35],[805,903,35],
  ...[626,663,700,738,774].map(x=>[x,866,19]),[700,949,38]
 ];
+export const HOTEL_TRAIN_OUTLINE=[[1307,225],[1317,217],[1338,212],[1402,212],[1402,225],[1393,225],[1389,236],[1381,246],[1377,255],[1368,260],[1368,268],[1354,272],[1346,273],[1330,276],[1311,273],[1307,265]];
 export const HOTEL_TRAIN={period:23,from:-174,to:110,slope:-.44};
 export function hotelTrainPose(t){const p=((t%HOTEL_TRAIN.period)+HOTEL_TRAIN.period)%HOTEL_TRAIN.period/HOTEL_TRAIN.period,dx=HOTEL_TRAIN.from+(HOTEL_TRAIN.to-HOTEL_TRAIN.from)*p;return {dx,dy:dx*HOTEL_TRAIN.slope,phase:p};}
 export function hotelFlagOffset(t,u,phase=0){return Math.sin(t*1.75-u*4.5+phase)*3.1*u;}
