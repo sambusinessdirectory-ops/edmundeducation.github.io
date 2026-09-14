@@ -29,6 +29,11 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Validate execution speedrun timing and recovery
+        run: |
+          node tools/test-execution-system.mjs
+          node --test tools/test-execution-speedrun.mjs
+
       - name: Validate membership preview and payment-disabled security boundary
         run: |
           node --test tools/test-membership-foundation.mjs
