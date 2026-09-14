@@ -79,6 +79,67 @@ test('reference-inspired wardrobe is real procedural geometry, not a flat screen
   assert.doesNotMatch(closet, /ts4_x64|2025-05-27/);
 });
 
+test('Elsie has a separate bright neoclassical closet derived from her reference', () => {
+  assert.match(map, /character === 'eddy' \|\| character === 'elsie'/);
+  assert.match(map, /character === 'phoebe'/);
+  assert.match(closet, /character === 'elsie'/);
+  assert.match(closet, /buildElsieCloset/);
+  assert.match(closet, /Elsie blush neoclassical closet/);
+  assert.match(closet, /Elsie warm oak floor/);
+  assert.match(closet, /Elsie ivory herringbone wool rug/);
+  assert.match(closet, /Elsie central marble top/);
+  assert.match(closet, /Elsie vanity mirror/);
+  assert.match(closet, /Elsie vanity bulb/);
+  assert.match(closet, /Elsie distant lakeside panorama with natural parallax/);
+  assert.match(closet, /Elsie clear arched window glass/);
+  assert.match(closet, /Elsie chandelier crystal drop/);
+  assert.match(closet, /Elsie dimensional hanging gown/);
+  assert.match(closet, /Elsie generated shelf accessory/);
+  assert.match(closet, /Elsie blush ottoman cushion/);
+  assert.match(closet, /Elsie unified grand double door/);
+  assert.match(closet, /blush-calacatta-marble-v2\.png/);
+  assert.match(closet, /ivory-herringbone-rug-v1\.png/);
+  assert.match(closet, /accessories-atlas-v1\.png/);
+  assert.match(closet, /vanity-accessories-atlas-v2\.png/);
+  assert.match(closet, /off-white-linen-v1\.png/);
+  assert.match(closet, /lakeside-window-view-v1\.png/);
+  assert.match(closet, /warm-limewash-wall-v1\.png/);
+  assert.match(closet, /detailed-dresses-atlas-v1\.png/);
+  assert.match(closet, /olive-wool-herringbone-v1\.png/);
+  assert.match(closet, /Elsie textured wall opposite window/);
+  assert.match(closet, /Elsie textured window wall/);
+  assert.match(closet, /Elsie generated detailed hanging garment/);
+  assert.match(closet, /Elsie sheer blush curtain/);
+  assert.match(closet, /Elsie off-white linen window sofa/);
+  assert.match(closet, /Elsie sofa linen cushion leaning into back/);
+  assert.match(closet, /Elsie round golden candle tray/);
+  assert.match(closet, /Elsie cylindrical candle/);
+  assert.match(closet, /Elsie scattered rose petal/);
+  assert.match(closet, /Elsie doorway wardrobe back/);
+  assert.match(closet, /Elsie doorway lipstick perfume or elegant hat/);
+  assert.match(closet, /Elsie olive wool doorway rug/);
+  assert.match(closet, /Elsie live planar mirror material/);
+  assert.match(closet, /texture2DProj/);
+  assert.match(closet, /updatePlanarMirror/);
+  assert.match(closet, /reflectionOccluders/);
+  assert.doesNotMatch(closet, /textureMatrix \* modelMatrix/);
+  assert.match(closet, /map\.repeat\.set\(1 \/ 4, 1 \/ 4\)/);
+  assert.match(closet, /\(side < 0 \? 0 : 8\) \+ \(column < 0 \? 0 : 4\) \+ item/);
+  assert.doesNotMatch(closet, /Elsie flower stem|Elsie flower vase|Elsie blush rose|Elsie side wardrobe drawer/);
+  assert.match(closet, /The Rose Atelier/);
+  for (const asset of [
+    'assets/closet/elsie/blush-calacatta-marble-v2.png',
+    'assets/closet/elsie/ivory-herringbone-rug-v1.png',
+    'assets/closet/elsie/accessories-atlas-v1.png',
+    'assets/closet/elsie/vanity-accessories-atlas-v2.png',
+    'assets/closet/elsie/off-white-linen-v1.png',
+    'assets/closet/elsie/lakeside-window-view-v1.png',
+    'assets/closet/elsie/warm-limewash-wall-v1.png',
+    'assets/closet/elsie/detailed-dresses-atlas-v1.png',
+    'assets/closet/elsie/olive-wool-herringbone-v1.png'
+  ]) assert.equal(fs.existsSync(path.join(root, asset)), true, asset);
+});
+
 test('closet UI is responsive and cache-busted on every shared-map consumer', () => {
   assert.match(css, /\.expression-map-closet-button/);
   assert.match(css, /\.expression-closet::backdrop/);
@@ -102,5 +163,5 @@ test('closet UI is responsive and cache-busted on every shared-map consumer', ()
     'listening-system.html',
     'common-expression-written.html'
   ];
-  for (const file of consumers) assert.match(read(file), /common-expression-map\.(?:css\?v=20260915-companions1|mjs\?v=20260915-companions1)/, file);
+  for (const file of consumers) assert.match(read(file), /common-expression-map\.(?:mjs\?v=20260915-elsie5|css\?v=20260915-companions1)/, file);
 });
