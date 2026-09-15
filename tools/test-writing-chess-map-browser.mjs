@@ -43,6 +43,7 @@ await page.locator('[data-open-practice]').click();
 await page.locator('.chess-stage').waitFor();await page.waitForFunction(()=>document.querySelector('.chess-table')?.naturalWidth>0);await page.waitForTimeout(1500);
 await page.locator('.writing-chess-page').evaluate(e=>e.scrollIntoView({block:'start'}));
 await page.locator('.writing-chess-page').screenshot({path:output+'/desktop.png'});
+for(const name of ['noir','celeste']){await page.locator('[data-chess-character="'+name+'"]').click();assert.equal(await page.locator('[data-chess-character="'+name+'"]').getAttribute('aria-pressed'),'true');}
 assert.equal(await page.locator('.chess-stop').count(),16);
 assert.equal(await page.locator('.chess-difficulty').count(),4);
 assert.equal(await page.locator('.chess-label small').count(),0);

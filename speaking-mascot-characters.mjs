@@ -1,6 +1,6 @@
 import * as THREE from './vendor/three/three.module.js';
 import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-avatar2';
-import {MASCOT_VIEWS} from './speaking-mascot-views.mjs?v=20260915-companions1';
+import {MASCOT_VIEWS} from './speaking-mascot-views.mjs?v=20260915-noirceleste1';
 import {viewPair, mouthOpening, blinkAmount, COAT_COLOURS} from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
 import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20260915-tailored1';
 
