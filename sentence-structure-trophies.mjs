@@ -60,7 +60,7 @@ function sculpture(art, { order, preview = false, eager = false, marker = false 
 
 export function goldenEddieFigure(order, { preview = false, eager = false, tier = 'gold' } = {}) {
   const character=trophyCharacter(),art=TROPHY_ART[character].front;
-  const title = tierName(tier) + ' ' + ({eddy:'Eddie',phoebe:'Phoebe',elsie:'Elsie'}[character]) + ' 獎座';
+  const title = tierName(tier) + ' ' + ({eddy:'Eddie',phoebe:'Phoebe',elsie:'Elsie',noir:'Noir',celeste:'Celeste'}[character]) + ' 獎座';
   return `<figure class="ss-trophy-figure${preview ? ' is-preview' : ''}" data-trophy-tier="${tier}">${preview ? `<span class="ss-trophy-preview" aria-label="${title}預覽">${sculpture(art, {order, preview, eager})}</span>` : `<button type="button" class="ss-trophy-interactive" data-trophy-interact aria-label="讓${title}浮起搖擺 · 句型 ${order}">${sculpture(art, {order, eager})}</button>`}</figure>`;
 }
 

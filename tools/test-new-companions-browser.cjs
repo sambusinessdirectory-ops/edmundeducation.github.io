@@ -34,6 +34,7 @@ for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.POR
   `;
   return r.fulfill({contentType:'text/javascript',body:s+'\n'+(portal==='sentence-structure'?'await lessonLibrary.catalog();\n':'')+fixture});
  });
+ await page.addInitScript(()=>{window.blinkDraws=[];const draw=CanvasRenderingContext2D.prototype.drawImage;CanvasRenderingContext2D.prototype.drawImage=function(img,...args){if(img?.src?.includes('-blink-v1.png'))window.blinkDraws.push(img.src);return draw.call(this,img,...args);};});
  await page.goto(origin+'/'+portal+'.html');await page.waitForFunction(()=>window.testHorsey,{timeout:30000});
  const selector=ce?'[data-map-toggle]':listening?'[data-ielts-map-toggle]':portal==='sentence-structure'?'[data-sentence-map-toggle]':portal==='phrasal-verb-system'?'[data-phrasal-map-toggle]':portal==='idiom-system'?'[data-idiom-map-toggle]':'[data-proverb-map-toggle]';
  await page.locator(selector).waitFor({state:'visible',timeout:30000});
@@ -47,6 +48,12 @@ for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.POR
   assert.equal(await button.getAttribute('aria-pressed'),'true');
   await page.waitForFunction(name=>{const c=document.querySelector('[data-character="'+name+'"] canvas');return c&&Array.from(c.getContext('2d').getImageData(0,0,c.width,c.height).data).some(v=>v>0);},name);
   await page.keyboard.press('ArrowRight');
+  const artwork=await mapRoot.locator('img[data-trophy-art-view]').evaluateAll(es=>es.map(e=>e.getAttribute('src')));
+  assert.ok(artwork.length>0,portal+' has reward fixtures');assert.ok(artwork.every(src=>src.includes('-'+name+'-map-v1.webp')),portal+' switches reward character');
+  if(portal==='sentence-structure'){
+   await mapRoot.locator('.expression-map-viewport').scrollIntoViewIfNeeded();
+   await page.waitForFunction(name=>window.blinkDraws.some(src=>src.includes(name+'-blink-v1.png')),name,{timeout:12000});
+  }
  }
  if(portal==='sentence-structure'){await mapRoot.screenshot({path:out+'/celeste-desktop.png'});await page.setViewportSize({width:390,height:844});await mapRoot.screenshot({path:out+'/celeste-mobile.png'});}
  assert.deepEqual(errors,[],portal);console.log('PASS Noir and Celeste:',portal);await page.close();
