@@ -1,4 +1,4 @@
-import { cosmeticAtlas, restoreCosmetics } from './eddy-cosmetics.mjs?v=20260915-outfits1';
+import { cosmeticAtlas, restoreCosmetics } from './eddy-cosmetics.mjs?v=20260915-fitting1';
 import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-companions1';
 import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
 

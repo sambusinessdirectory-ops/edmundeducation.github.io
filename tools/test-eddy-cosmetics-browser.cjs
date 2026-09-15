@@ -13,9 +13,9 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  });
  await page.goto(origin+'/__outfits');
  await page.evaluate(async()=>{
-  window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260915-outfits1');await cosmetics.restoreCosmetics();
+  window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260915-fitting1');await cosmetics.restoreCosmetics();
   window.base=new Image();base.src='/assets/speaking-system/mascots/v4/eddy-standing.png';await base.decode();
-  const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20260915-outfits1');mountClosetInventory(document.querySelector('#inventory'),new AbortController().signal);
+  const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20260915-fitting1');mountClosetInventory(document.querySelector('#inventory'),new AbortController().signal);
  });
  await page.locator('[data-cosmetic=white-fedora]').click();await page.locator('[data-cosmetic=cream-cable-knit]').click();
  assert.equal(await page.locator('[aria-pressed=true]').count(),2);
@@ -34,7 +34,7 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  await page.locator('canvas.gallery').screenshot({path:'/tmp/eddy-charcoal-fedora.png'});
  await page.locator('[data-remove-outfit]').click();assert.equal(await page.locator('[aria-pressed=true]').count(),0);
  await page.locator('[data-outfit]').click();await page.getByRole('status').filter({hasText:'Saved to your account'}).waitFor();assert.equal(await page.locator('[aria-pressed=true]').count(),2);
- await page.reload();await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260915-outfits1');await cosmetics.restoreCosmetics();});assert.deepEqual(await page.evaluate(()=>cosmetics.cosmeticsState().equipped),saved.equipped);
+ await page.reload();await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260915-fitting1');await cosmetics.restoreCosmetics();});assert.deepEqual(await page.evaluate(()=>cosmetics.cosmeticsState().equipped),saved.equipped);
  await page.evaluate(async()=>{const {openCompanionCloset}=await import('/common-expression-closet-3d.mjs');window.closet=openCompanionCloset();});
  await page.waitForFunction(()=>document.querySelector('[data-closet-stage] canvas')?.dataset.actorPosition,{timeout:60000});
  await page.locator('dialog').screenshot({path:'/tmp/eddy-closet-outfit.png'});

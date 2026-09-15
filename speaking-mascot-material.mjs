@@ -11,16 +11,18 @@ export function mascotMaterial(atlas, flow, data, coatColour, headResource={atla
     mouths:{value:[new THREE.Vector3(),new THREE.Vector3()]},
     bodyFlow:{value:new THREE.Vector4()},headFlow:{value:new THREE.Vector4()},
     bodyBlend:{value:0},headBlend:{value:0},mouthOpen:{value:0},blink:{value:0},nod:{value:0},headYaw:{value:0},breath:{value:0},
+    headBand:{value:new THREE.Vector2(.38,.46)},
   };
   return new THREE.ShaderMaterial({
     uniforms, transparent:true, depthWrite:true, side:THREE.DoubleSide,
     vertexShader:`
       varying vec2 vUv;
       uniform float nod, headYaw, breath;
+      uniform vec2 headBand;
       void main(){
         vUv=uv;
         vec3 p=position;
-        float head=smoothstep(.37,.44,uv.y);
+        float head=smoothstep(headBand.x,headBand.y,uv.y);
         float torso=exp(-pow((uv.x-.5)/.21,2.)-pow((uv.y-.40)/.24,2.));
         float face=exp(-pow((uv.x-.5)/.26,2.)-pow((uv.y-.76)/.23,2.));
         // A shallow curved surface gives perspective parallax when looking up/down.
@@ -28,7 +30,7 @@ export function mascotMaterial(atlas, flow, data, coatColour, headResource={atla
         p.z += torso*breath*.0015;
         // Rotate the complete head about the neck, preserving its dimensions.
         // Only the short neck join blends into the fixed seated torso.
-        vec3 neck=vec3(0.,.43,.05);
+        vec3 neck=vec3(0.,(headBand.x+headBand.y)*.5,.05);
         vec3 metric=vec3(length(modelMatrix[0].xyz),length(modelMatrix[1].xyz),length(modelMatrix[2].xyz));
         vec3 fromNeck=(p-neck)*metric;
         float angle=head*nod;
@@ -47,6 +49,7 @@ export function mascotMaterial(atlas, flow, data, coatColour, headResource={atla
       uniform vec4 bodyFlow,headFlow;
       uniform float bodyBlend,headBlend,flowRange,mouthOpen,blink;
       uniform vec3 coatGain,headCoatGain,headSpace;
+      uniform vec2 headBand;
       vec4 flowAt(vec2 p,vec4 cell,bool head){
         vec3 space=head?headSpace:vec3(1.,0.,0.);
         p=(p-space.yz)/space.x;
@@ -87,7 +90,7 @@ export function mascotMaterial(atlas, flow, data, coatColour, headResource={atla
       void main(){
         vec4 body=pair(vUv,bodyRects[0],bodyRects[1],bodyLayouts[0],bodyLayouts[1],bodyFlow,bodyBlend,vec3(0.),vec3(0.),false);
         vec4 head=pair(vUv,headRects[0],headRects[1],headLayouts[0],headLayouts[1],headFlow,headBlend,mouths[0],mouths[1],true);
-        float headWeight=smoothstep(.38,.46,vUv.y);
+        float headWeight=smoothstep(headBand.x,headBand.y,vUv.y);
         vec4 color=mix(body,head,headWeight);
         if(color.a<.18)discard;
         gl_FragColor=vec4(color.rgb/max(color.a,.001),color.a);

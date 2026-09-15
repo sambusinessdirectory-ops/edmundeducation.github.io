@@ -48,12 +48,17 @@ for item,(stamp,rows) in SOURCES.items():
   if item=='cream-cable-knit' and i in [8,9,10,11,12]:p=p.transpose(Image.Transpose.FLIP_LEFT_RIGHT)
   if item=='white-fedora':
    w,h=130,67; x,y=head_centers[i]-w//2,9
-   # Remove the original crown/hair and ears, replaced by the hat artwork.
-   mask.paste((255,255,255,255),(ox,oy,ox+256,oy+56))
+   # Follow each view's brim rather than slicing the hair with a rectangle.
+   fitted=np.array(p.resize((w,h),Image.Resampling.LANCZOS))
+   for column in range(w):
+    occupied=np.where(fitted[:,column,3]>100)[0]
+    if len(occupied):
+     bottom=int(occupied[-1])+y
+     mask.paste((255,255,255,255),(ox+x+column,oy,ox+x+column+1,oy+bottom))
   else:
    w=[114,105,108,94,82,92,99,110,112,99,92,82,82,103,106,113][i]
    w=round(w*1.08)
-   h=89 if item=='charcoal-turtleneck' else 88
+   h=81 if item=='charcoal-turtleneck' else 80
    x,y=centers[i]-w//2,110 if item=='charcoal-turtleneck' else 111
   atlas.alpha_composite(p.resize((w,h),Image.Resampling.LANCZOS),(ox+x,oy+y))
  atlas.save(OUT/f'{item}.webp',lossless=True)
@@ -61,9 +66,28 @@ for item,(stamp,rows) in SOURCES.items():
  # A small inventory image uses the same artwork as the actual equipped item.
  pieces[0].thumbnail((160,140));pieces[0].save(OUT/f'{item}-icon.webp',lossless=True)
 
-# Preserve Eddy's face, mane, tail, and exposed hooves above the clothing.
+# Only the face/mane and a rear-facing tail can be in front of a sweater.
+# Hooves must stay underneath it, emerging naturally beyond the sleeve cuffs.
 a=np.array(base); alpha=a[:,:,3].copy(); yy=np.indices(alpha.shape)[0]%256
 dark=np.max(a[:,:,:3],axis=2)<88
-a[:,:,3]=np.where((yy<126)|((yy>=126)&dark),alpha,0)
+a[:,:,3]=np.where((yy<126)|((yy<145)&dark),alpha,0)
+for i in [5,6,7,9,10]:
+ ox,oy=i%4*256,i//4*256
+ region=np.array(base)[oy:oy+256,ox:ox+256]
+ rgb=region[:,:,:3].astype(int)
+ eligible=(rgb.max(axis=2)<155)&((rgb.max(axis=2)-rgb.min(axis=2))<55)&(region[:,:,3]>100)
+ eligible[:135]=False;eligible[222:]=False
+ visited=np.zeros((256,256),bool);parts=[]
+ for y,x in zip(*np.where(eligible)):
+  if visited[y,x]:continue
+  todo=[(x,y)];visited[y,x]=True;part=[]
+  while todo:
+   xx,yy1=todo.pop();part.append((xx,yy1))
+   for nx,ny in [(xx-1,yy1),(xx+1,yy1),(xx,yy1-1),(xx,yy1+1)]:
+    if 0<=nx<256 and 0<=ny<256 and eligible[ny,nx] and not visited[ny,nx]:visited[ny,nx]=True;todo.append((nx,ny))
+  parts.append(part)
+ tail=max(parts,key=len,default=[])
+ for x,y in tail:
+  a[oy+y,ox+x,3]=alpha[oy+y,ox+x]
 Image.fromarray(a).save(OUT/'body-front.webp',lossless=True)
 print('Prepared three aligned overlays, two occlusion layers, and inventory icons.')

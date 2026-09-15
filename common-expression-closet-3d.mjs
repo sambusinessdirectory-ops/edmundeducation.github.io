@@ -1,7 +1,7 @@
-import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260915-outfits1';
+import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260915-fitting1';
 import {batchClosetSurfaces} from './closet-static-batches.mjs';
 import * as THREE from './vendor/three/three.module.js';
-import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-outfits1';
+import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-fitting1';
 
 let activeClose = null;
 const clamp = (value, minimum, maximum) => Math.max(minimum, Math.min(maximum, value));
