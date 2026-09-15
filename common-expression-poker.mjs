@@ -37,11 +37,6 @@ export function mountPoker(root,reduced){const canvas=root.querySelector('.poker
   const fill=ctx.createLinearGradient(0,-ry,0,bottom-cy);
   fill.addColorStop(0,martini?'rgba(235,235,211,.26)':'rgba(226,133,28,.64)');
   fill.addColorStop(1,martini?'rgba(197,207,186,.14)':'rgba(116,44,5,.48)');ctx.fillStyle=fill;ctx.fill(volume);
-  ctx.save();ctx.clip(volume);
-  // Refraction caustics bend independently inside the stationary tapered volume.
-  for(let i=0;i<4;i++){const x=Math.sin(seconds*.55+i*1.8)*rx*.5;
-   ctx.strokeStyle=martini?'rgba(252,255,237,.12)':'rgba(255,204,105,.16)';ctx.lineWidth=2+i*.5;ctx.beginPath();ctx.moveTo(x,-ry);ctx.bezierCurveTo(x+Math.sin(seconds+i)*9,12,x*.35-8,28,x*.15,bottom-cy);ctx.stroke();}
-  ctx.restore();
   const surface=new Path2D();surface.ellipse(0,0,rx,ry,0,0,Math.PI*2);
   const sheen=ctx.createLinearGradient(0,-ry,0,ry);sheen.addColorStop(0,martini?'rgba(247,248,223,.18)':'rgba(255,183,70,.25)');sheen.addColorStop(.65,martini?'rgba(224,234,217,.34)':'rgba(205,110,22,.35)');sheen.addColorStop(1,'rgba(255,239,198,.2)');ctx.fillStyle=sheen;ctx.fill(surface);
   // A fine raised meniscus describes the complete ellipse, with a softer rear edge.

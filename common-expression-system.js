@@ -543,7 +543,7 @@ function syncExpressionMap() {
   if (!HAS_LESSON_MAP || !SYSTEM.lessons.length || !state.user) return;
   expressionMapModule ||= Promise.all([
     import("./common-expression-map.mjs?v=20260915-fitting2"),
-    SYSTEM_KEY === "business-speaking" ? import("./common-expression-airport.mjs?v=20260915-poker2").then(async module => { await module.prepareAirport(); return module; }) :
+    SYSTEM_KEY === "business-speaking" ? import("./common-expression-airport.mjs?v=20260915-pool1").then(async module => { await module.prepareAirport(); return module; }) :
     SYSTEM_KEY === "written" ? import("./common-expression-garden.mjs?v=20260912-garden1") :
     SYSTEM_KEY === "rhetorical-speaking" ? import("./common-expression-coast.mjs?v=20260912-coast2") :
     SYSTEM_KEY === "rhetorical-writing" ? import("./common-expression-blueprint.mjs?v=20260913-blueprint1").then(async module => { await module.prepareBlueprint(); return module; }) : Promise.resolve(null)

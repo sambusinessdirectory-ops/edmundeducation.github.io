@@ -72,7 +72,7 @@ let browser;
 
  await page.setViewportSize({width:1600,height:1300});
  const evidence=await page.evaluate(async()=>{
-  const {BUSINESS_AIRPORT,AIRPORT_INVENTORY}=await import('./common-expression-airport.mjs?v=20260915-poker2');
+  const {BUSINESS_AIRPORT,AIRPORT_INVENTORY}=await import('./common-expression-airport.mjs?v=20260915-pool1');
   const root=document.createElement('div');root.className='expression-map';root.dataset.theme='airport';root.style.cssText='position:relative;width:1600px;height:1200px';
   root.innerHTML='<div class="expression-map-heading"><small></small></div>'+BUSINESS_AIRPORT.terrain([],mapTest.lessons);document.body.append(root);
   const animation=BUSINESS_AIRPORT.mount(root,{matches:false});await new Promise(r=>setTimeout(r,100));
@@ -135,7 +135,7 @@ let browser;
  await page.setViewportSize({width:1440,height:1100});await page.emulateMedia({reducedMotion:'no-preference'});
  await page.locator('.business-area-tabs').evaluate(e=>window.scrollTo({top:window.scrollY+e.getBoundingClientRect().top-110,behavior:'instant'}));
  await page.locator('.business-area-tabs [data-business-area="dining"]').click();await page.waitForTimeout(300);
- assert.equal(await page.locator('.dining-platform').count(),30);assert.equal(await page.locator('.dining-place-setting').count(),30);assert.ok(await page.locator('.dining-place-setting').evaluateAll(images=>images.every(img=>img.complete&&img.naturalWidth>0))); assert.equal(await page.locator('.business-theme-mist').count(),3);
+ assert.equal(await page.locator('.dining-platform').count(),30);assert.equal(await page.locator('.dining-place-setting').count(),30);assert.ok(await page.locator('.dining-place-setting').evaluateAll(images=>images.every(img=>img.complete&&img.naturalWidth>0))); assert.equal(await page.locator('.business-theme-mist').count(),4);
  assert.equal(await page.locator('[data-expression-map]').getAttribute('data-business-area'),'dining');
  await page.locator('[data-map-overview]').click();await page.waitForTimeout(150);
  await page.locator('[data-dining-platform="90"]').click();await page.waitForTimeout(3400);
@@ -159,7 +159,7 @@ let browser;
  await page.setViewportSize({width:1440,height:1100});await page.emulateMedia({reducedMotion:'no-preference'});
  await page.locator('.business-area-tabs').evaluate(e=>window.scrollTo({top:window.scrollY+e.getBoundingClientRect().top-110,behavior:'instant'}));
  await page.locator('.business-area-tabs [data-business-area="poker"]').click();await page.waitForTimeout(200);
- assert.equal(await page.locator('.poker-platform').count(),30);assert.equal(await page.locator('.business-theme-mist').count(),3);assert.equal(await page.locator('.poker-platform[data-counter-kind="plaque"]').count(),5);
+ assert.equal(await page.locator('.poker-platform').count(),30);assert.equal(await page.locator('.business-theme-mist').count(),4);assert.equal(await page.locator('.poker-platform[data-counter-kind="plaque"]').count(),5);
  assert.equal(await page.locator('[data-expression-map]').getAttribute('data-business-area'),'poker');
  await page.locator('[data-map-overview]').click();await page.locator('[data-poker-platform="120"]').click();await page.waitForTimeout(3400);
  assert.match(await page.locator('.train-reservation-note').textContent(),/120/);assert.equal(await page.locator('[data-map-open]').isVisible(),false);assert.equal(await page.evaluate(()=>JSON.stringify([...mapTest.state.states])),previousStates);
@@ -168,9 +168,29 @@ let browser;
  await page.setViewportSize({width:390,height:844});await page.waitForTimeout(150);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.locator('[data-expression-map]').screenshot({path:artifactDir+'/poker-phone.png'});
  await page.setViewportSize({width:1600,height:1300});
  const pokerEvidence=await page.evaluate(async()=>{
-  const {pokerTerrain,mountPoker}=await import('./common-expression-poker.mjs?v=20260915-poker2');const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='poker-review';root.innerHTML=pokerTerrain();root.querySelector('section').style.top='0';document.body.append(root);const motion=mountPoker(root,{matches:false});await new Promise(r=>setTimeout(r,100));const c=root.querySelector('canvas'),ctx=c.getContext('2d');const regions={martini:[220,135,190,100],whiskey:[1235,220,150,130],felt:[500,450,800,500],stem:[295,250,70,100]};const samples=()=>Object.fromEntries(Object.entries(regions).map(([k,r])=>[k,Array.from(ctx.getImageData(...r).data)]));motion.draw(1000);const a=samples();for(let i=1;i<=150;i++)motion.draw(1000+i*32);const b=samples();window.pokerReview={root,motion};return Object.fromEntries(Object.keys(a).map(k=>[k,a[k].reduce((n,v,i)=>n+(v!==b[k][i]),0)]));
+  const {pokerTerrain,mountPoker}=await import('./common-expression-poker.mjs?v=20260915-pool1');const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='poker-review';root.innerHTML=pokerTerrain();root.querySelector('section').style.top='0';document.body.append(root);const motion=mountPoker(root,{matches:false});await new Promise(r=>setTimeout(r,100));const c=root.querySelector('canvas'),ctx=c.getContext('2d');const regions={martini:[220,135,190,100],whiskey:[1235,220,150,130],felt:[500,450,800,500],stem:[295,250,70,100]};const samples=()=>Object.fromEntries(Object.entries(regions).map(([k,r])=>[k,Array.from(ctx.getImageData(...r).data)]));motion.draw(1000);const a=samples();for(let i=1;i<=150;i++)motion.draw(1000+i*32);const b=samples();window.pokerReview={root,motion};return Object.fromEntries(Object.keys(a).map(k=>[k,a[k].reduce((n,v,i)=>n+(v!==b[k][i]),0)]));
  });
  assert.ok(pokerEvidence.martini>20&&pokerEvidence.whiskey>20);assert.equal(pokerEvidence.felt,0);assert.equal(pokerEvidence.stem,0);fs.writeFileSync(artifactDir+'/poker-motion.json',JSON.stringify(pokerEvidence,null,2));await page.locator('#poker-review').screenshot({path:artifactDir+'/poker-detail.png'});await page.evaluate(()=>{pokerReview.motion.destroy();pokerReview.root.remove();});
+
+ await page.setViewportSize({width:1440,height:1100});await page.emulateMedia({reducedMotion:'no-preference'});
+ await page.locator('.business-area-tabs').evaluate(e=>window.scrollTo({top:window.scrollY+e.getBoundingClientRect().top-110,behavior:'instant'}));
+ await page.locator('.business-area-tabs [data-business-area="pool"]').click();await page.waitForTimeout(200);
+ assert.equal(await page.locator('.pool-platform').count(),30);assert.equal(await page.locator('.pool-platform.is-striped').count(),14);
+ assert.equal(await page.locator('[data-expression-map]').getAttribute('data-business-area'),'pool');
+ await page.locator('[data-map-overview]').click();await page.locator('[data-pool-platform="150"]').click();await page.waitForTimeout(3400);
+ assert.match(await page.locator('.train-reservation-note').textContent(),/150/);assert.equal(await page.locator('[data-map-open]').isVisible(),false);assert.equal(await page.evaluate(()=>JSON.stringify([...mapTest.state.states])),previousStates);
+ await page.locator('[data-expression-map]').screenshot({path:artifactDir+'/pool-overview.png'});
+ await page.emulateMedia({reducedMotion:'reduce'});await page.waitForTimeout(100);const poolStill=await page.locator('.pool-motion').evaluate(c=>c.toDataURL());await page.waitForTimeout(150);assert.equal(await page.locator('.pool-motion').evaluate(c=>c.toDataURL()),poolStill);
+ await page.setViewportSize({width:390,height:844});await page.waitForTimeout(150);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.locator('[data-expression-map]').screenshot({path:artifactDir+'/pool-phone.png'});
+ await page.setViewportSize({width:1600,height:1300});
+ const poolEvidence=await page.evaluate(async()=>{
+  const {poolTerrain,mountPool,POOL_DECORATIONS}=await import('./common-expression-pool.mjs?v=20260915-pool1');const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='pool-review';root.innerHTML=poolTerrain();root.querySelector('section').style.top='0';document.body.append(root);await root.querySelector('img').decode();const motion=mountPool(root,{matches:false}),c=root.querySelector('canvas'),ctx=c.getContext('2d');
+  const regions={platforms:[215,320,1170,615],rail:[0,0,1600,100]};POOL_DECORATIONS.forEach((b,i)=>regions['ball'+i]=[b.x-45,b.y-45,90,100]);
+  const sample=()=>Object.fromEntries(Object.entries(regions).map(([k,r])=>[k,Array.from(ctx.getImageData(...r).data)]));const positions=[...root.querySelectorAll('.pool-platform')].map(e=>e.getAttribute('style'));motion.draw(1000);const a=sample();for(let i=1;i<=240;i++)motion.draw(1000+i*32);const b=sample();const stable=positions.every((p,i)=>p===root.querySelectorAll('.pool-platform')[i].getAttribute('style'));window.poolReview={root,motion};return {stable,changes:Object.fromEntries(Object.keys(a).map(k=>[k,a[k].reduce((n,v,i)=>n+(v!==b[k][i]),0)]))};
+ });
+ assert.ok(poolEvidence.stable);for(const [key,value] of Object.entries(poolEvidence.changes)){if(key.startsWith('ball'))assert.ok(value>20);else assert.equal(value,0);}
+ fs.writeFileSync(artifactDir+'/pool-motion.json',JSON.stringify(poolEvidence,null,2));await page.locator('#pool-review').screenshot({path:artifactDir+'/pool-detail.png'});await page.evaluate(()=>{poolReview.motion.destroy();poolReview.root.remove();});
+ console.log('Pool 121–150 passed: 30 stationary ball platforms, 14 stripes, four gently moving decorative balls, reduced motion, mobile containment, navigation and unchanged records.');
  assert.equal(errors.length,0,errors.join('\n'));
  console.log('Poker 91–120 and odd/even napkins passed. Only both liquids animate; felt and stems are static. Dining 61–90: moonlit window, rose, soup and coffee motion, reserved records and mobile passed. Train and airport browser: 30 reserved train platforms, unchanged records, synchronized outdoor motion, curtain/light/steam motion, static walls;  26 real lessons, 4 reserved platforms, motion, typing, pause, reduced motion, saved location, account separation and mobile containment passed.');
 })().catch(error=>{console.error(error);process.exitCode=1;}).finally(async()=>{await browser?.close();server.close();});
