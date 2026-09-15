@@ -40,6 +40,15 @@ test('swordsman jacket replaces a top, preserves a hat, and remains an allowed s
  clearCosmetics();
 });
 
+test('new shared tops occupy the existing slot and survive saved-set cleaning',()=>{
+ for(const id of ['brown-leather-bomber','sunburst-hoodie','black-blazer-hoodie']){
+  clearCosmetics();equipCosmetic('white-fedora');equipCosmetic(id);
+  assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora',top:id});
+  assert.deepEqual(cleanWardrobe({equipped:cosmeticsState().equipped,outfits:[{name:id,equipped:cosmeticsState().equipped}]}).outfits[0].equipped,{headwear:'white-fedora',top:id});
+ }
+ clearCosmetics();
+});
+
 test('favorites survive cleaning only as booleans',()=>{
  const favorite=cleanWardrobe({outfits:[{name:'Blue',equipped:{top:'blue-swordsman-jacket'},favorite:true}]}).outfits[0];
  assert.equal(favorite.favorite,true);

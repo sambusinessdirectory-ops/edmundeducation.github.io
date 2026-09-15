@@ -3,13 +3,16 @@ export const COSMETICS=Object.freeze([
  {id:'white-fedora',slot:'headwear',name:'White fedora',description:'白色 Fedora 帽'},
  {id:'cream-cable-knit',slot:'top',name:'Cream cable-knit crewneck',description:'奶油色麻花針織毛衣'},
  {id:'charcoal-turtleneck',slot:'top',name:'Charcoal gray turtleneck',description:'炭灰色高領毛衣'},
- {id:'blue-swordsman-jacket',slot:'top',name:'Blue swordsman jacket',description:'藍色劍士外套 · 銀色飾邊'}
+ {id:'blue-swordsman-jacket',slot:'top',name:'Blue swordsman jacket',description:'藍色劍士外套 · 銀色飾邊'},
+ {id:'brown-leather-bomber',slot:'top',name:'Brown leather bomber jacket',description:'棕色皮革飛行外套 · 拉鍊與翻蓋口袋'},
+ {id:'sunburst-hoodie',slot:'top',name:'Charcoal sunburst hoodie',description:'炭黑連帽衫 · 背面太陽圖案'},
+ {id:'black-blazer-hoodie',slot:'top',name:'Black blazer over hoodie',description:'黑色雙排扣西裝外套 · 連帽衫內搭'}
 ]);
 export const cleanEquipment=value=>Object.fromEntries(COSMETICS.filter(item=>value?.[item.slot]===item.id).map(item=>[item.slot,item.id]));
 export function cleanWardrobe(value){return {equipped:cleanEquipment(value?.equipped),outfits:(Array.isArray(value?.outfits)?value.outfits:[]).slice(0,50).filter(x=>typeof x?.name==='string'&&x.name.trim()).map(x=>({name:x.name.trim().slice(0,60),equipped:cleanEquipment(x.equipped),...(x.favorite===true?{favorite:true}:{})}))};}
 export const COSMETIC_CHARACTERS=Object.freeze(['eddy','noir']);
 export const supportsCosmetics=id=>COSMETIC_CHARACTERS.includes(id);
-export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20260915-phoebe2',import.meta.url).href;
+export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20260916-three-tops1',import.meta.url).href;
 let owner='',token='',wardrobe=cleanWardrobe(),equipped={},revision=0,client,connection,pendingRestore,previewActive=false,lastSync=0,saveEpoch=0,saving=0;
 const listeners=new Set(),images=new Map(),atlases=new Map();
 const session=()=>globalThis.window?.EdmundSystemNav?.getStudentSession?.();

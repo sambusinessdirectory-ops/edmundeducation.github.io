@@ -1,12 +1,18 @@
-import {COSMETICS,cosmeticAsset,cosmeticsState,equipCosmetic,equipOutfit,clearCosmetics,saveAvatar,restoreCosmetics,subscribeCosmetics,toggleOutfitFavorite} from './eddy-cosmetics.mjs?v=20260915-phoebe2';
+import {COSMETICS,cosmeticAsset,cosmeticsState,equipCosmetic,equipOutfit,clearCosmetics,saveAvatar,restoreCosmetics,subscribeCosmetics,toggleOutfitFavorite} from './eddy-cosmetics.mjs?v=20260916-three-tops1';
 export function mountClosetInventory(host,signal,{character='eddy'}={}){
  host.innerHTML='<p class="expression-closet-inventory-kicker">EDDIE’S COLLECTION</p><h3 id="expression-closet-inventory-title">Inventory <small>物品欄</small></h3><div class="closet-equipment-grid"></div><div class="closet-outfit-actions"><button type="button" data-save-avatar>✦ Save avatar · 儲存造型</button><button type="button" data-remove-outfit>↺ Remove all · 全部脫下</button></div><form data-outfit-form><label for="closet-outfit-name">Name this outfit · 造型名稱</label><input id="closet-outfit-name" maxlength="60" required placeholder="My favourite outfit" autocomplete="off"><button type="submit">＋ Save outfit set · 儲存套裝</button></form><h4>My outfit sets · 我的套裝</h4><div data-outfit-sets></div><p class="closet-save-status" role="status" aria-live="polite"></p>';
  host.querySelector('.expression-closet-inventory-kicker').textContent=character==='noir'?'NOIR’S COLLECTION':'EDDIE’S COLLECTION';
  const grid=host.querySelector('.closet-equipment-grid'),status=host.querySelector('[role=status]'),sets=host.querySelector('[data-outfit-sets]');
  const buttons=[];
+ const display={
+  'blue-swordsman-jacket':'jacket-display.png',
+  'brown-leather-bomber':'brown-leather-bomber-display.png',
+  'sunburst-hoodie':'sunburst-hoodie-display.png',
+  'black-blazer-hoodie':'black-blazer-hoodie-display.png'
+ };
  for(const item of COSMETICS){
   const button=document.createElement('button');button.type='button';button.className='expression-closet-item';button.dataset.cosmetic=item.id;
-  const image=document.createElement('img');image.src=item.slot==='top'?new URL('./assets/speaking-system/cosmetics/eddy/'+(item.id==='blue-swordsman-jacket'?'jacket-display.png':'sweaters-display.png'),import.meta.url).href:cosmeticAsset(item.id+'-icon');image.alt='';image.draggable=false;
+  const image=document.createElement('img');image.src=item.slot==='top'?new URL('./assets/speaking-system/cosmetics/eddy/'+(display[item.id]||'sweaters-display.png'),import.meta.url).href:cosmeticAsset(item.id+'-icon');image.alt='';image.draggable=false;
   const title=document.createElement('strong');title.textContent=item.name;
   const description=document.createElement('small');description.textContent=item.description;
   const state=document.createElement('span');state.className='closet-equipped-status';

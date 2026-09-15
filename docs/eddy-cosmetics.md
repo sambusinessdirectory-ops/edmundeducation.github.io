@@ -1,41 +1,13 @@
-# Eddy's modular wardrobe
+# Shared Eddy and Noir modular wardrobe
 
-For the complete standards, production workflow, debugging history and release
-checklist, see [The Golden Manual v2](golden-manual-modular-wardrobe-v2.md).
+For the complete fitting, state and release standards, use the Modular Character Wardrobe Golden Manual v3. The older repository v2 manual describes the historical pipeline.
 
-## Current architecture
+Eddy and Noir share one student-owned catalog, one headwear slot and one top slot. The white fedora combines with any top. The tops are cream cable-knit crewneck, charcoal turtleneck, blue swordsman jacket, brown leather bomber jacket, charcoal sunburst hoodie and black blazer over hoodie. Choosing Noir renders Noir's independently fitted atlas for the same saved item IDs and named/favorite sets. Elsie, Phoebe and Celeste do not use this shared catalog.
 
-The closet supports one headwear slot and one top slot for Eddy: white fedora,
-cream cable-knit crewneck, charcoal turtleneck and blue swordsman jacket. The hat combines independently
-with any top. Save avatar persists the preview; named sets save combinations.
-Choosing a saved set equips and saves it. Remove all is a preview until saved.
+The standing sprite contract is a 1024 by 1024 atlas of sixteen 256-pixel views. Character-specific overlays contain only garment pixels; the canonical standing and blink characters remain the base. The three newest tops have unmodified Eddy and Noir fitting references, design screenshots, prompts, hashes, review captures and a reproducible extractor in `tools/mascot-art/wardrobe/shared-three-garments/`. Run `python3 tools/prepare-shared-three-garments.py` to rebuild their six lossless WebP overlays. The sunburst source shows only the back, so its plain front is an art inference. Blazer plus hoodie is one combined top in the current slot model.
 
-The final sweaters are extracted from character-registered fitting references by
-tools/prepare-eddy-tailored-sweaters.py, called automatically by
-tools/prepare-eddy-cosmetics.py. Only garment pixels are exported: the original
-character base is retained. The old body-front mask is no longer used by the
-runtime sweater compositor. The fedora uses a brim-following hiding mask.
+`eddy-cosmetics.mjs` caches a composite per character, base image and equipment. Maps read saved equipment; the open closet reads draft equipment. A successful save acknowledges the shared wardrobe record; cancel/discard keeps saved state intact. Standing 3D actors use dressed open and blink atlases and disable bare-body optical flow while equipped. Seated clothing is not supported.
 
-tools/clean-mascot-edges.py cleans the actual runtime standing and blink resources,
-including elsie-blink-registered.png, and the fedora. Sweater padding is performed
-by the fitted-garment extractor. Follow the Golden Manual's build order; some
-original art inputs still depend on the author's Downloads folder.
+The existing `eddy_closet_sync` RPC validates student ownership. The three new IDs require the allowlist-only migration `supabase/migrations/20260916001200_shared_three_garments.sql` before production saves will accept them; GitHub Pages does not apply migrations automatically. The migration does not change the table, account model, grants or RPC. No real student account is modified by fixture tests.
 
-eddy-cosmetics.mjs caches composites per base image and equipped state. The 2D
-maps reuse canvases; 3D standing actors replace textures on the existing mesh.
-Equipped sprites disable bare-body optical-flow warping to prevent clothing
-distortion; turns use the nearest authored direction. Seated outfits are not
-implemented.
-
-Account-scoped equipment and up to 50 named sets are saved through
-eddy_closet_sync, which validates the shared student session and item allowlist.
-Local cache restores and late responses are guarded against account switches and
-newer edits. Refer to the migration and Golden Manual for the access boundary.
-
-Validation includes tools/test-eddy-cosmetics.mjs,
-tools/test-eddy-cosmetics-browser.cjs,
-tools/test-speaking-mascot-characters.mjs and
-tools/test-horsey-portals-browser.cjs. Browser fixture tests are not a substitute
-for human visual review or a production database audit.
-
-Version 2 isolates draft clothing in the closet. Maps and other standing renderers use saved equipment only. Closing a dirty closet asks before discarding; cancel retains the draft. Successful restored logins refresh the universal student session, normalized wardrobe identities share one saved record, and focus/pageshow reconcile account changes. See tools/test-avatar-state-v2.mjs and tools/test-avatar-portals-v2.cjs for failure, discard and multi-portal coverage.
+Validation includes `tools/test-eddy-cosmetics.mjs`, `tools/test-shared-three-garments-browser.cjs`, both Eddy and Noir wardrobe browser fixtures, `tools/test-avatar-portals-v2.cjs` and `tools/test-speaking-mascot-characters.mjs`. Light/dark and 3D all-view sheets are in the shared-three-garments QA directory. Human appearance review and public asset/database verification are separate release gates.
