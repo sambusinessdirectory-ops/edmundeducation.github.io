@@ -1,4 +1,4 @@
-import {initTimeMapper} from './execution-time-mapper.js?v=20260914-mapper-continue-1';
+import {initTimeMapper} from './execution-time-mapper.js?v=20260915-mapper-open-1';
 import { formatTime, formatDelta, parseTime, flatten, sectionItems, expectedTotal, elapsed, transition, resizeRect } from './execution-speedrun-core.mjs?v=20260914-3';
 
 const $ = s => document.querySelector(s);
@@ -504,11 +504,12 @@ async function init() {
     $('[data-connection-status]').textContent = '已安全連接';
     bind(); bindLibrary(); bindColumns();
     if (pageMode !== 'records') mapperController=initTimeMapper({
-      key:`${state.storageKey}:mapper`, canOpen:()=>!active() && !state.queue.length && !state.locked && !state.conflict && !state.saving && !state.draft,
+      key:`${state.storageKey}:mapper`,
       rpc, message, onSaved:async saved=>{
-        state.run=null;
         if(pageMode==='favourites') await rpc('execution_speedrun_library_update',{p_id:saved.id,p_action:'favourite',p_favourite:true});
-        await load(saved.id); message('Time Mapper 已儲存計時器與實測紀錄，可以隨時再次挑戰。');
+        // Mapping saves independently; keep any challenge, pending writes or editor in place.
+        if(!active() && !state.queue.length && !state.locked && !state.conflict && !state.saving && !state.draft) { state.run=null; await load(saved.id); }
+        message('Time Mapper 已儲存計時器與實測紀錄，可以隨時再次挑戰。');
       }
     });
     if (state.locked) message('此帳戶的計時器已在另一視窗開啟。請在原視窗操作，或關閉原視窗後重新整理此頁。','pending');
