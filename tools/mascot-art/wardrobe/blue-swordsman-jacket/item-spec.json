@@ -1,0 +1,57 @@
+{
+  "id": "blue-swordsman-jacket",
+  "character": "eddy",
+  "pose": "standing",
+  "slot": "top",
+  "canonicalAtlas": "assets/speaking-system/mascots/v4/eddy-standing.png",
+  "canvas": [
+    1024,
+    1024
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "sourceCells": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "compatibleHeadwear": [
+    "white-fedora"
+  ],
+  "extractor": "tools/prepare-eddy-swordsman-jacket.py",
+  "generation": "built-in image_gen; canonical template plus supplied design reference",
+  "runtimeOverlay": "assets/speaking-system/cosmetics/eddy/blue-swordsman-jacket.webp",
+  "overlaySha256": "3fd018fb5def10cad7d71476e70582dc0606396457f0b94c036b1f36c408f74b",
+  "reviewStatus": "Local rendering and fixture persistence passed; not deployed",
+  "maskCalibration": {
+    "blue": "b>r+14 and b>g+7 and g>15",
+    "localY": [
+      96,
+      204
+    ],
+    "silverNeighborhood": 15,
+    "bracerNeighborhood": 31,
+    "bracerY": [
+      146,
+      183
+    ],
+    "rgbPaddingPasses": 3,
+    "chromaRejection": "r>g*1.5 and b>g*1.5"
+  },
+  "databaseMigration": "supabase/migrations/20260915082642_eddy_blue_swordsman_jacket.sql"
+}

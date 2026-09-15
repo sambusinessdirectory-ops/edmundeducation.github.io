@@ -32,9 +32,24 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  await page.evaluate(()=>cosmetics.cosmeticAtlas('eddy',base));await page.waitForFunction(()=>cosmetics.cosmeticAtlas('eddy',base)!==base);
  await page.evaluate(()=>{document.querySelector('canvas.gallery').remove();const c=cosmetics.cosmeticAtlas('eddy',base);c.className='gallery';document.body.prepend(c);});
  await page.locator('canvas.gallery').screenshot({path:'/tmp/eddy-charcoal-fedora.png'});
+ await page.locator('[data-cosmetic=blue-swordsman-jacket]').click();
+ assert.equal(await page.locator('[data-cosmetic=charcoal-turtleneck]').getAttribute('aria-pressed'),'false');
+ assert.equal(await page.locator('[data-cosmetic=white-fedora]').getAttribute('aria-pressed'),'true');
+ await page.evaluate(()=>cosmetics.cosmeticAtlas('eddy',base));await page.waitForFunction(()=>cosmetics.cosmeticAtlas('eddy',base)!==base);
+ await page.evaluate(()=>{document.querySelector('canvas.gallery').remove();const c=cosmetics.cosmeticAtlas('eddy',base);c.className='gallery';document.body.prepend(c);});
+ await page.locator('canvas.gallery').screenshot({path:'/tmp/eddy-jacket-fedora.png'});
+ await page.locator('[data-cosmetic=white-fedora]').click();
+ await page.evaluate(()=>{document.querySelector('canvas.gallery').remove();const c=cosmetics.cosmeticAtlas('eddy',base);c.className='gallery';document.body.prepend(c);});
+ await page.locator('canvas.gallery').screenshot({path:'/tmp/eddy-jacket-alone.png'});
+ assert.equal(await page.evaluate(()=>cosmetics.cosmeticAtlas('elsie',base)===base),true);
+ await page.locator('[data-cosmetic=white-fedora]').click();
+ await page.locator('#closet-outfit-name').fill('Swordsman');await page.locator('button[type=submit]').click();
+ await page.getByRole('status').filter({hasText:'Saved to your account'}).waitFor();
+ assert.deepEqual(saved.equipped,{headwear:'white-fedora',top:'blue-swordsman-jacket'});
  await page.locator('[data-remove-outfit]').click();assert.equal(await page.locator('[aria-pressed=true]').count(),0);
- await page.locator('[data-outfit]').click();await page.getByRole('status').filter({hasText:'Saved to your account'}).waitFor();assert.equal(await page.locator('[aria-pressed=true]').count(),2);
+ await page.locator('[data-outfit]').filter({hasText:'Cream + fedora'}).click();await page.getByRole('status').filter({hasText:'Saved to your account'}).waitFor();assert.equal(await page.locator('[aria-pressed=true]').count(),2);
  await page.reload();await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260915-tailored1');await cosmetics.restoreCosmetics();});assert.deepEqual(await page.evaluate(()=>cosmetics.cosmeticsState().equipped),saved.equipped);
+ await page.evaluate(()=>cosmetics.equipOutfit('Swordsman'));
  await page.evaluate(async()=>{
   const THREE=await import('/vendor/three/three.module.js');
   const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260915-tailored1');
@@ -48,11 +63,14 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
   const scene=new THREE.Scene();scene.background=new THREE.Color('#292421');scene.add(actor.mesh);
   const camera=new THREE.OrthographicCamera(-1.1,1.1,2.2,0,.1,20);camera.position.set(0,0,5);
   const renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});renderer.setSize(1024,600);renderer.setScissorTest(true);
-  const angles=[15,67,105,255];
-  for(let row=0;row<2;row++)for(let col=0;col<4;col++){
-   system.update(actor,0,angles[col]*Math.PI/180,0,true,false,0,0);actor.mesh.rotation.y=0;
-   actor.mesh.material.uniforms.flowStrength.value=row===0?1:0;
-   renderer.setViewport(col*256,(1-row)*300,256,300);renderer.setScissor(col*256,(1-row)*300,256,300);renderer.render(scene,camera);
+  const angles=[0,60,90,180];
+  for(let row=0;row<2;row++){
+   cosmetics.equipCosmetic('white-fedora');
+   for(let col=0;col<4;col++){
+    system.update(actor,0,angles[col]*Math.PI/180,0,true,false,0,0);actor.mesh.rotation.y=0;
+    if(actor.mesh.material.uniforms.flowStrength.value!==0)throw Error('Jacket must retain unwarped views with and without hat');
+    renderer.setViewport(col*256,(1-row)*300,256,300);renderer.setScissor(col*256,(1-row)*300,256,300);renderer.render(scene,camera);
+   }
   }
   renderer.domElement.id='turn-comparison';document.body.prepend(renderer.domElement);
   window.turnQA={system,renderer};
@@ -62,6 +80,7 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  await page.evaluate(async()=>{const {openCompanionCloset}=await import('/common-expression-closet-3d.mjs');window.closet=openCompanionCloset();});
  await page.waitForFunction(()=>document.querySelector('[data-closet-stage] canvas')?.dataset.actorPosition,{timeout:60000});
  await page.locator('dialog').screenshot({path:'/tmp/eddy-closet-outfit.png'});
+ await page.locator('dialog').screenshot({path:'/tmp/eddy-jacket-closet.png'});
  await page.setViewportSize({width:390,height:844});
  await page.locator('[data-save-avatar]').scrollIntoViewIfNeeded();
  assert.equal(await page.locator('[data-save-avatar]').isVisible(),true);

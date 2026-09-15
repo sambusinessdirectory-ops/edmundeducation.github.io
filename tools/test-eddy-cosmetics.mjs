@@ -28,3 +28,14 @@ test('stale restore cannot overwrite an edit or another student',async()=>{
  await assert.rejects(saving,/account changed/);assert.deepEqual(cosmeticsState().equipped,{});
  await assert.rejects(saveAvatar(),/sign in/);equipOutfit('not found');assert.deepEqual(cosmeticsState().equipped,{});
 });
+
+test('swordsman jacket replaces a top, preserves a hat, and remains an allowed saved item',()=>{
+ clearCosmetics();equipCosmetic('white-fedora');equipCosmetic('cream-cable-knit');
+ equipCosmetic('blue-swordsman-jacket');
+ assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora',top:'blue-swordsman-jacket'});
+ assert.deepEqual(cleanWardrobe({outfits:[{name:'Swordsman',equipped:cosmeticsState().equipped}]}).outfits,
+  [{name:'Swordsman',equipped:{headwear:'white-fedora',top:'blue-swordsman-jacket'}}]);
+ assert.deepEqual(cleanEquipment({headwear:'blue-swordsman-jacket'}),{});
+ equipCosmetic('blue-swordsman-jacket');assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora'});
+ clearCosmetics();
+});

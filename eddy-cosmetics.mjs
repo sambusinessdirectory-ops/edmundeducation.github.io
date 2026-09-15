@@ -2,7 +2,8 @@
 export const COSMETICS=Object.freeze([
  {id:'white-fedora',slot:'headwear',name:'White fedora',description:'白色 Fedora 帽'},
  {id:'cream-cable-knit',slot:'top',name:'Cream cable-knit crewneck',description:'奶油色麻花針織毛衣'},
- {id:'charcoal-turtleneck',slot:'top',name:'Charcoal gray turtleneck',description:'炭灰色高領毛衣'}
+ {id:'charcoal-turtleneck',slot:'top',name:'Charcoal gray turtleneck',description:'炭灰色高領毛衣'},
+ {id:'blue-swordsman-jacket',slot:'top',name:'Blue swordsman jacket',description:'藍色劍士外套 · 銀色飾邊'}
 ]);
 export const cleanEquipment=value=>Object.fromEntries(COSMETICS.filter(item=>value?.[item.slot]===item.id).map(item=>[item.slot,item.id]));
 export function cleanWardrobe(value){return {equipped:cleanEquipment(value?.equipped),outfits:(Array.isArray(value?.outfits)?value.outfits:[]).slice(0,50).filter(x=>typeof x?.name==='string'&&x.name.trim()).map(x=>({name:x.name.trim().slice(0,60),equipped:cleanEquipment(x.equipped)}))};}
