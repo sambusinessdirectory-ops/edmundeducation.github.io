@@ -6,6 +6,11 @@ ROOT=Path(__file__).resolve().parents[1]
 SOURCE=ROOT/'tools/mascot-art/wardrobe/blue-swordsman-jacket/fitting-reference.png'
 OUT=ROOT/'assets/speaking-system/cosmetics/eddy'
 source=np.array(Image.open(SOURCE).convert('RGB').resize((1024,1024),Image.Resampling.LANCZOS))
+# Only the right profile uses the targeted belly-coverage repair.
+repair=SOURCE.with_name('side-repair-reference.png')
+if repair.exists():
+ corrected=np.array(Image.open(repair).convert('RGB').resize((1024,1024),Image.Resampling.LANCZOS))
+ source[256:512,:256]=corrected[256:512,:256]
 atlas=np.zeros((1024,1024,4),dtype=np.uint8)
 counts=[]
 for i in range(16):

@@ -46,3 +46,6 @@ The prepared migration supabase/migrations/20260915082642_eddy_blue_swordsman_ja
 
 Before publication, apply and validate that migration, update the dependent module/asset cache versions, run release checks, deploy, and verify public resources. Preserve the separate uncommitted Golden Manual work.
 
+
+## Side-profile correction, 15 September
+Built-in image generation edited only the right-facing profile to extend the navy front and silver trim over Eddy's belly. The extractor takes only cell 4 from `side-repair-reference.png`; every other frame remains byte-identical to the accepted atlas. Prompt: preserve the registered 4×4 sheet, widen row 2 column 1's jacket front approximately 8 pixels at 1024 resolution from below neck to hem, close cuff gaps, retain all other poses. Reviewed in the actual standing shader with and without the fedora. Inventory uses the user's original garment photographs independently of wearable sprite art.

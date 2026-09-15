@@ -1,4 +1,4 @@
-import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-jacket1';
+import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-closet2';
 import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-companions1';
 import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
 
@@ -171,8 +171,9 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   };
   const openCloset = async () => {
     const request = ++closetRequest;
+    const pending=document.createElement('div');pending.className='closet-startup';pending.setAttribute('role','status');pending.innerHTML='Opening dressing room…<progress aria-label="Loading 3D closet"></progress>';document.body.append(pending);
     try {
-      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-jacket1');
+      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-closet2');
       if (request !== closetRequest) return;
       closetHandle?.close();
       closetHandle = openCompanionCloset({ character });
@@ -182,7 +183,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
         status.hidden = false;
         status.textContent = '3D 衣櫥未能開啟，請重新整理後再試。';
       }
-    }
+    } finally {pending.remove();}
   };
 
   function drawSprite(ctx, id, facing, time, walking, width, height) {
