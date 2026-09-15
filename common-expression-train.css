@@ -33,3 +33,15 @@
 .business-theme-mist{position:absolute;left:-12px;right:-12px;height:120px;z-index:6;pointer-events:none;background:linear-gradient(transparent 0%,#bcbca746 24%,#d0cdb4e8 48%,#d0cdb4ed 52%,#b8bea346 78%,transparent 100%);filter:blur(8px)}
 .business-theme-mist::after{content:'';position:absolute;inset:-12px 0;background:radial-gradient(ellipse at 20% 50%,#e9e4cb55,transparent 58%),radial-gradient(ellipse at 75% 45%,#d3dfd555,transparent 60%);filter:blur(12px)}
 @media(max-width:680px){.business-area-tabs{flex-wrap:wrap}.business-area-tabs button{min-width:105px}}
+.poker-realm{position:absolute;left:0;width:1600px;height:1200px;isolation:isolate;overflow:hidden;background:#0d3d2e}
+.poker-background,.poker-liquid{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.poker-liquid{z-index:1}
+.poker-platform{position:absolute;z-index:3;width:132px;height:103px;margin:-38px 0 0 -66px;padding:0;border:0;background:none;text-align:center;cursor:pointer;color:#fff6dc}
+.poker-counter{position:absolute;left:5px;top:0;width:122px;height:78px;pointer-events:none;filter:drop-shadow(1px 6px 3px #06191088)}
+.poker-platform span{position:relative;display:block;font:600 27px/68px Georgia,serif;text-shadow:0 2px 2px #102519;pointer-events:none}
+.poker-platform[data-counter-tone=dark] span{color:#172c25;text-shadow:0 1px #fff8e2}
+.poker-platform[data-counter-kind=plaque] span{line-height:66px}
+.poker-platform[data-counter-kind=plaque] .poker-counter{height:70px;top:4px}
+.poker-platform small{position:relative;display:block;top:9px;font:12px/19px system-ui;color:#fff4d5;text-shadow:0 1px 3px #08291d;pointer-events:none}
+.poker-platform:hover .poker-counter,.poker-platform[aria-pressed=true] .poker-counter{filter:drop-shadow(0 0 5px #ffe5a4) drop-shadow(1px 6px 3px #06191088) brightness(1.07)}
+.poker-platform:focus-visible{outline:3px solid #ffdea0!important;outline-offset:4px;border-radius:30px}
+.business-area-tabs [data-business-area=poker][aria-pressed=true]{background:#123d30;border-color:#123d30}

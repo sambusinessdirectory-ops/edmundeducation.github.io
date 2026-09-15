@@ -43,7 +43,7 @@ for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.POR
  await page.waitForFunction(async()=>{const m=await import('/eddy-cosmetics.mjs?v=20260915-outfits1');return m.cosmeticsState().equipped.headwear==='white-fedora';});
  for(const character of ['phoebe','elsie','eddy']){
   await mapRoot.locator('[data-character="'+character+'"]').click();
-  assert.equal(await mapRoot.locator('[data-open-closet]').isVisible(),character==='eddy');
+  assert.equal(await mapRoot.locator('[data-open-closet]').isEnabled(),character!=='phoebe');
   const image=mapRoot.locator('.ss-map-trophy img').first();
   await image.evaluate(img=>img.decode());
   if(character!=='eddy')for(const tier of ['silver','bronze']){const img=mapRoot.locator('.ss-map-trophy[data-trophy-tier='+tier+'] img');await img.evaluate(i=>i.decode());assert.ok((await img.getAttribute('src')).includes(tier+'-'+character));}
