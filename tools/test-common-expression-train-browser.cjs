@@ -72,7 +72,7 @@ let browser;
 
  await page.setViewportSize({width:1600,height:1300});
  const evidence=await page.evaluate(async()=>{
-  const {BUSINESS_AIRPORT,AIRPORT_INVENTORY}=await import('./common-expression-airport.mjs?v=20260915-lounge2');
+  const {BUSINESS_AIRPORT,AIRPORT_INVENTORY}=await import('./common-expression-airport.mjs?v=20260915-lounge3');
   const root=document.createElement('div');root.className='expression-map';root.dataset.theme='airport';root.style.cssText='position:relative;width:1600px;height:1200px';
   root.innerHTML='<div class="expression-map-heading"><small></small></div>'+BUSINESS_AIRPORT.terrain([],mapTest.lessons);document.body.append(root);
   const animation=BUSINESS_AIRPORT.mount(root,{matches:false});await new Promise(r=>setTimeout(r,100));
@@ -184,7 +184,7 @@ let browser;
  await page.setViewportSize({width:390,height:844});await page.waitForTimeout(150);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.locator('[data-expression-map]').screenshot({path:artifactDir+'/pool-phone.png'});
  await page.setViewportSize({width:1600,height:1300});
  const poolEvidence=await page.evaluate(async()=>{
-  const {poolTerrain,mountPool,POOL_DECORATIONS}=await import('./common-expression-pool.mjs?v=20260915-lounge2');const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='pool-review';root.innerHTML=poolTerrain();root.querySelector('section').style.top='0';document.body.append(root);await root.querySelector('img').decode();const motion=mountPool(root,{matches:false}),c=root.querySelector('canvas'),ctx=c.getContext('2d');
+  const {poolTerrain,mountPool,POOL_DECORATIONS}=await import('./common-expression-pool.mjs?v=20260915-lounge3');const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='pool-review';root.innerHTML=poolTerrain();root.querySelector('section').style.top='0';document.body.append(root);await root.querySelector('img').decode();const motion=mountPool(root,{matches:false}),c=root.querySelector('canvas'),ctx=c.getContext('2d');
   const regions={platforms:[215,320,1170,615],rail:[0,0,1600,100]};POOL_DECORATIONS.forEach((b,i)=>regions['ball'+i]=[b.x-45,b.y-45,90,100]);
   const sample=()=>Object.fromEntries(Object.entries(regions).map(([k,r])=>[k,Array.from(ctx.getImageData(...r).data)]));const positions=[...root.querySelectorAll('.pool-platform')].map(e=>e.getAttribute('style'));motion.draw(1000);const a=sample();for(let i=1;i<=240;i++)motion.draw(1000+i*32);const b=sample();const stable=positions.every((p,i)=>p===root.querySelectorAll('.pool-platform')[i].getAttribute('style'));window.poolReview={root,motion};return {stable,changes:Object.fromEntries(Object.keys(a).map(k=>[k,a[k].reduce((n,v,i)=>n+(v!==b[k][i]),0)]))};
  });
@@ -204,8 +204,8 @@ let browser;
  await page.setViewportSize({width:390,height:844});await page.waitForTimeout(150);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.locator('[data-expression-map]').screenshot({path:artifactDir+'/lounge-phone.png'});
  await page.setViewportSize({width:1600,height:1300});
  const loungeEvidence=await page.evaluate(async()=>{
-  const {loungeTerrain,mountLounge,prepareLounge,LOUNGE_PLANTS}=await import('./common-expression-lounge.mjs?v=20260915-lounge2');await prepareLounge();const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='lounge-review';root.innerHTML=loungeTerrain();root.querySelector('section').style.top='0';document.body.append(root);const motion=mountLounge(root,{matches:false});await new Promise(r=>setTimeout(r,100));const c=root.querySelector('canvas'),ctx=c.getContext('2d');
-  const regions={bar:[1250,10,330,320],mic:[895,85,44,217],bass:[1025,30,120,280],notes:[610,80,150,180],floor:[360,600,950,400]};LOUNGE_PLANTS.forEach((p,i)=>{regions['leaves'+i]=[p.x-90,p.y-p.h,180,p.h*.65];regions['pot'+i]=[p.x-12,p.y-30,24,25];});
+  const {loungeTerrain,mountLounge,prepareLounge,LOUNGE_PLANTS}=await import('./common-expression-lounge.mjs?v=20260915-lounge3');await prepareLounge();const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='lounge-review';root.innerHTML=loungeTerrain();root.querySelector('section').style.top='0';document.body.append(root);const motion=mountLounge(root,{matches:false});await new Promise(r=>setTimeout(r,100));const c=root.querySelector('canvas'),ctx=c.getContext('2d');
+  const regions={bar:[1250,10,330,320],mic:[693,105,44,217],bass:[770,50,120,280],notes:[405,80,150,180],floor:[360,600,950,400]};LOUNGE_PLANTS.forEach((p,i)=>{regions['leaves'+i]=[p.x-90,p.y-p.h,180,p.h*.65];regions['pot'+i]=[p.x-12,p.y-30,24,25];});
   const sample=()=>Object.fromEntries(Object.entries(regions).map(([k,r])=>[k,Array.from(ctx.getImageData(...r).data)]));motion.draw(1000);const a=sample();for(let i=1;i<=240;i++)motion.draw(1000+i*32);const b=sample();window.loungeReview={root,motion};return Object.fromEntries(Object.keys(a).map(k=>[k,a[k].reduce((n,v,i)=>n+(v!==b[k][i]),0)]));
  });
  for(const [key,value] of Object.entries(loungeEvidence)){if(['floor','bar','mic'].includes(key)||key.startsWith('pot'))assert.equal(value,0,key+' stays still');else assert.ok(value>20,key+' visibly animates');}
