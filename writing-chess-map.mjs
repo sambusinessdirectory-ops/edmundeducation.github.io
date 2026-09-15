@@ -1,8 +1,9 @@
+import { MAP_COMPANIONS } from './map-companions.mjs?v=20260915-noirceleste1';
 import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-avatar2';
-import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-companions1';
+import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-noirceleste1';
 import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
 
-const CHARACTERS = [{id:'eddy',name:'Eddie'},{id:'phoebe',name:'Phoebe'},{id:'elsie',name:'Elsie'}];
+const CHARACTERS = MAP_COMPANIONS;
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 // Measured surface of table-unified-v1.jpg, in a 1000 x 667 world.
 export function chessPosition(index) {

@@ -61,3 +61,5 @@
 .chess-stop{width:9.5%}.chess-label{min-height:36px}.chess-label strong{font-size:clamp(12px,1vw,14px)}
 .chess-difficulty{left:9%;width:16%}
 .chess-plaque{top:85%;left:51%;width:32%;font-size:clamp(14px,1.25vw,19px);letter-spacing:1px}
+
+.chess-cast{flex-wrap:wrap}
