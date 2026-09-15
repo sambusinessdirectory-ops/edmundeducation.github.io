@@ -1,0 +1,12 @@
+[data-theme="proverb-black-sand"] .expression-map-viewport{background:#292629;scrollbar-color:#c4b089 #393638;user-select:none;-webkit-user-select:none}
+.black-scenery,.black-background,.black-motion{position:absolute;inset:0;width:1600px;height:1950px;pointer-events:none}.black-scenery{overflow:hidden}.black-motion{z-index:1}
+.black-shore-title{position:absolute;left:48px;top:45px;padding:18px 26px;color:#fff0d1;background:#302b279c;border:1px solid #dac39b88;border-radius:8px;box-shadow:0 6px 16px #15161d30;z-index:2;text-shadow:0 2px 3px #171b23}
+.black-shore-title strong{display:block;font:600 29px Georgia,serif;letter-spacing:6px}.black-shore-title span{font:18px Georgia,serif;line-height:1.8}
+[data-theme="proverb-black-sand"] .expression-map-stone::before{display:none}
+.black-shell{position:absolute;left:17px;top:-17px;width:146px;height:100px;pointer-events:none;filter:drop-shadow(1px 6px 3px #0b172580)}
+[data-theme="proverb-black-sand"] .expression-map-stone-number{top:3px;color:#214846;font-size:29px}
+[data-theme="proverb-black-sand"] .expression-map-stone-status{top:48px;right:8px;color:#214846;background:#fff7df;border:1px solid #b5ac8b}
+[data-theme="proverb-black-sand"] .expression-map-stone-caption{top:88px;background:#fff5dfea;border-color:#c9b992;color:#234740;font-size:16px;box-shadow:0 3px 7px #181a2030}
+[data-theme="proverb-black-sand"] .expression-map-stone:hover .black-shell,[data-theme="proverb-black-sand"] .expression-map-stone[aria-pressed=true] .black-shell{filter:drop-shadow(0 0 4px #fff1bf) drop-shadow(0 5px 4px #15212970)}
+[data-theme="proverb-black-sand"] .black-reserved .expression-map-stone-caption{background:#242525a8;color:#f1e5c8;font-size:13px;border:0;padding:5px 10px}
+.black-reserved small{display:block;font-size:11px;opacity:.8}.black-reservation-note{padding:12px 22px;color:#f9e6be;background:#35322e}

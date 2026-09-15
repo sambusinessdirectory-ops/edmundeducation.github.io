@@ -1,3 +1,4 @@
+import {PROVERB_BLACK_SAND} from './proverb-black-sand.mjs?v=20260915-black1';
 import { createExpressionMap } from './common-expression-map.mjs?v=20260915-noirceleste1';
 import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-companions1';
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
@@ -785,7 +786,7 @@ function syncHorseyTrophies() {
 }
 
 function renderLessonChoices() {
-  if (!proverbMap && lessonList().length) proverbMap = createExpressionMap({root:document.querySelector('[data-proverb-map]'),toggle:document.querySelector('[data-proverb-map-toggle]'),grid:elements.lessonChoiceGrid,lessons:lessonList(),systemKey:'proverb',getCompleted:id=>Math.max(0,...state.attempts.filter(a=>a.lessonId===id&&a.totalCount===getLesson(id)?.questions.length).map(a=>a.correctCount)),openLesson:id=>openLesson(id,{page:1})});
+  if (!proverbMap && lessonList().length) proverbMap = createExpressionMap({root:document.querySelector('[data-proverb-map]'),toggle:document.querySelector('[data-proverb-map-toggle]'),grid:elements.lessonChoiceGrid,lessons:lessonList(),systemKey:'proverb',theme:PROVERB_BLACK_SAND,getCompleted:id=>Math.max(0,...state.attempts.filter(a=>a.lessonId===id&&a.totalCount===getLesson(id)?.questions.length).map(a=>a.correctCount)),openLesson:id=>openLesson(id,{page:1})});
   proverbMap?.update(String(state.user?.id || ''));
   proverbMap?.setActive(state.currentView === 'dashboard');
   syncHorseyTrophies();
