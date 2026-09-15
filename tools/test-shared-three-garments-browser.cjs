@@ -28,7 +28,7 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
   assert.equal(await page.evaluate(character=>cosmetics.cosmeticAtlas(character,bases[character],{preview:true})===cosmetics.cosmeticAtlas(character,bases[character],{preview:true}),character),true);
   await page.evaluate(async character=>{
    const THREE=await import('/vendor/three/three.module.js');
-   const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260915-phoebe2');
+   const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260916-three-tops1');
    const system=new MascotCharacters(undefined,undefined,{preview:true});const actor=await system.create(character,'standing');
    for(let n=0;n<100&&actor.mesh.material.uniforms.flowStrength.value!==0;n++)await new Promise(r=>setTimeout(r,20));
    if(actor.mesh.material.uniforms.flowStrength.value!==0)throw Error('New fitted top used bare-body optical flow');

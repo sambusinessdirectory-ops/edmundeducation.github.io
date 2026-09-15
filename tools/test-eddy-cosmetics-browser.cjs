@@ -54,7 +54,7 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  await page.evaluate(()=>cosmetics.equipOutfit('Swordsman'));
  await page.evaluate(async()=>{
   const THREE=await import('/vendor/three/three.module.js');
-  const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260915-phoebe2');
+  const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260916-three-tops1');
   const system=new MascotCharacters(undefined,undefined,{preview:true});const actor=await system.create('eddy','standing');
   for(const name of ['elsie','phoebe']){
    const companion=await system.create(name,'standing');
