@@ -6,7 +6,7 @@ export const COSMETICS=Object.freeze([
 ]);
 export const cleanEquipment=value=>Object.fromEntries(COSMETICS.filter(item=>value?.[item.slot]===item.id).map(item=>[item.slot,item.id]));
 export function cleanWardrobe(value){return {equipped:cleanEquipment(value?.equipped),outfits:(Array.isArray(value?.outfits)?value.outfits:[]).slice(0,50).filter(x=>typeof x?.name==='string'&&x.name.trim()).map(x=>({name:x.name.trim().slice(0,60),equipped:cleanEquipment(x.equipped)}))};}
-export const cosmeticAsset=id=>new URL('./assets/speaking-system/cosmetics/eddy/'+id+'.webp?v=20260915-fitting2',import.meta.url).href;
+export const cosmeticAsset=id=>new URL('./assets/speaking-system/cosmetics/eddy/'+id+'.webp?v=20260915-tailored1',import.meta.url).href;
 let owner='',token='',wardrobe=cleanWardrobe(),equipped={},revision=0,client,connection,pendingRestore;
 const listeners=new Set(),images=new Map(),atlases=new Map();
 const session=()=>globalThis.window?.EdmundSystemNav?.getStudentSession?.();
@@ -53,11 +53,12 @@ function load(id){if(images.has(id))return images.get(id);const img=new Image();
 export function cosmeticAtlas(id,base){
  if(id!=='eddy'||!base?.naturalWidth||!Object.keys(equipped).length)return base;
  const cacheKey=base.src+'|'+JSON.stringify(equipped);if(atlases.has(cacheKey))return atlases.get(cacheKey);
- const ids=[equipped.top,equipped.top&&'body-front',equipped.headwear,equipped.headwear&&'hat-hide'].filter(Boolean);
+ const ids=[equipped.top,equipped.headwear,equipped.headwear&&'hat-hide'].filter(Boolean);
  if(ids.map(load).some(img=>!img.complete||!img.naturalWidth))return base;
  const canvas=document.createElement('canvas');canvas.width=base.naturalWidth;canvas.height=base.naturalHeight;
  const ctx=canvas.getContext('2d');ctx.drawImage(base,0,0);
- if(equipped.top){ctx.drawImage(load(equipped.top),0,0,canvas.width,canvas.height);const front=document.createElement('canvas');front.width=canvas.width;front.height=canvas.height;const f=front.getContext('2d');f.drawImage(base,0,0);f.globalCompositeOperation='destination-in';f.drawImage(load('body-front'),0,0,front.width,front.height);ctx.drawImage(front,0,0);}
+ // Tailored overlays already follow the neck, cuffs and tail cutouts.
+ if(equipped.top)ctx.drawImage(load(equipped.top),0,0,canvas.width,canvas.height);
  if(equipped.headwear){ctx.globalCompositeOperation='destination-out';ctx.drawImage(load('hat-hide'),0,0,canvas.width,canvas.height);ctx.globalCompositeOperation='source-over';ctx.drawImage(load(equipped.headwear),0,0,canvas.width,canvas.height);}
  canvas.naturalWidth=canvas.width;canvas.naturalHeight=canvas.height;canvas.complete=true;
  atlases.set(cacheKey,canvas);return canvas;

@@ -14,6 +14,10 @@ for(const [name,poses] of Object.entries(MASCOT_VIEWS))for(const [pose,data] of 
  assert.equal(png[25],6,`${name} ${pose} is RGBA`);assert.equal(data.views.length,16);assert.ok(data.views.every(v=>Number.isInteger(v.sourceCell)&&v.sourceCell>=0&&v.sourceCell<16));assert.equal(data.views[0].angle,0);
  if(pose==='standing'){
   assert.equal(folder,'v4');assert.ok(data.blinkImage,`${name} has blink artwork`);if(name==='elsie')assert.equal(data.blinkImage,'elsie-blink-registered.png','Elsie uses the registered eye-only blink asset');
+  for(const file of [data.image,data.blinkImage]){
+   const cleaned=new URL(base+file.replace(/\.png$/,'-clean.webp'),import.meta.url);
+   assert.ok(fs.statSync(cleaned).size>10000,name+': actual runtime cleaned asset exists: '+file);
+  }
   const blink=fs.readFileSync(new URL(base+data.blinkImage,import.meta.url));assert.equal(blink[25],6,`${name} blink is RGBA`);
   assert.equal(blink.readUInt32BE(16),png.readUInt32BE(16));assert.equal(blink.readUInt32BE(20),png.readUInt32BE(20));
  }

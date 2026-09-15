@@ -1,8 +1,8 @@
 import * as THREE from './vendor/three/three.module.js';
-import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-fitting2';
+import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-tailored1';
 import {MASCOT_VIEWS} from './speaking-mascot-views.mjs?v=20260915-companions1';
 import {viewPair, mouthOpening, blinkAmount, COAT_COLOURS} from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
-import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20260915-fitting2';
+import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20260915-tailored1';
 
 export class MascotCharacters {
   constructor(loader=new THREE.TextureLoader(), request=globalThis.fetch.bind(globalThis)) {
@@ -17,7 +17,7 @@ export class MascotCharacters {
     const data=MASCOT_VIEWS[name][pose],entry={atlas:null,blink:null,flow:null,data};
     this.resources.set(key,entry);
     const base=new URL(`./assets/speaking-system/mascots/${data.folder||'v2'}/`,import.meta.url);
-    const artwork=file=>pose==='standing'?file.replace(/\.png$/,'-clean.webp?v=20260915-fitting2'):file;
+    const artwork=file=>pose==='standing'?file.replace(/\.png$/,'-clean.webp?v=20260915-tailored1'):file;
     const image=this.loader.loadAsync(new URL(artwork(data.image),base).href).then(texture=>{
       texture.colorSpace=THREE.SRGBColorSpace;texture.generateMipmaps=false;texture.minFilter=THREE.LinearFilter;
       if(this.disposed){texture.dispose();return null;}entry.atlas=texture;return texture;

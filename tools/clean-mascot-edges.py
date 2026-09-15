@@ -24,9 +24,9 @@ def clean_edges(image):
      visited[ny,nx]=True;pending.append((ny,nx))
   if len(component)<20:
    for cy,cx in component:alpha[cy,cx]=0
- known=np.array(Image.fromarray(alpha).filter(ImageFilter.MinFilter(5)))>250
+ known=np.array(Image.fromarray(alpha).filter(ImageFilter.MinFilter(9)))>250
  rgb=a[:,:,:3].copy()
- for _ in range(8):
+ for _ in range(12):
   next_known=known.copy();next_rgb=rgb.copy()
   for dy,dx in [(0,1),(0,-1),(1,0),(-1,0)]:
    neighbor=np.roll(known,(dy,dx),(0,1))
@@ -44,10 +44,10 @@ def clean_edges(image):
  return Image.fromarray(a)
 
 for character in ['eddy','elsie','phoebe']:
- for pose in ['standing','blink']:
+ for pose in ['standing', 'blink-registered' if character=='elsie' else 'blink']:
   p=ROOT/f'assets/speaking-system/mascots/v4/{character}-{pose}.png'
   clean_edges(Image.open(p)).save(p.with_name(p.stem+'-clean.webp'),lossless=True)
-for name in ['white-fedora','cream-cable-knit','charcoal-turtleneck']:
+for name in ['white-fedora']:
  p=ROOT/f'assets/speaking-system/cosmetics/eddy/{name}.webp'
  clean_edges(Image.open(p)).save(p,lossless=True)
-print('Cleaned six 3D base/blink atlases and three cosmetic overlays.')
+print('Cleaned six runtime 3D base/blink atlases and the fedora overlay.')

@@ -13,9 +13,9 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  });
  await page.goto(origin+'/__outfits');
  await page.evaluate(async()=>{
-  window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260915-fitting2');await cosmetics.restoreCosmetics();
+  window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260915-tailored1');await cosmetics.restoreCosmetics();
   window.base=new Image();base.src='/assets/speaking-system/mascots/v4/eddy-standing.png';await base.decode();
-  const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20260915-fitting2');mountClosetInventory(document.querySelector('#inventory'),new AbortController().signal);
+  const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20260915-tailored1');mountClosetInventory(document.querySelector('#inventory'),new AbortController().signal);
  });
  await page.locator('[data-cosmetic=white-fedora]').click();await page.locator('[data-cosmetic=cream-cable-knit]').click();
  assert.equal(await page.locator('[aria-pressed=true]').count(),2);
@@ -34,11 +34,15 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  await page.locator('canvas.gallery').screenshot({path:'/tmp/eddy-charcoal-fedora.png'});
  await page.locator('[data-remove-outfit]').click();assert.equal(await page.locator('[aria-pressed=true]').count(),0);
  await page.locator('[data-outfit]').click();await page.getByRole('status').filter({hasText:'Saved to your account'}).waitFor();assert.equal(await page.locator('[aria-pressed=true]').count(),2);
- await page.reload();await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260915-fitting2');await cosmetics.restoreCosmetics();});assert.deepEqual(await page.evaluate(()=>cosmetics.cosmeticsState().equipped),saved.equipped);
+ await page.reload();await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260915-tailored1');await cosmetics.restoreCosmetics();});assert.deepEqual(await page.evaluate(()=>cosmetics.cosmeticsState().equipped),saved.equipped);
  await page.evaluate(async()=>{
   const THREE=await import('/vendor/three/three.module.js');
-  const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260915-fitting2');
+  const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260915-tailored1');
   const system=new MascotCharacters();const actor=await system.create('eddy','standing');
+  for(const name of ['elsie','phoebe']){
+   const companion=await system.create(name,'standing');
+   if(!companion.resource.atlas.image.naturalWidth||!companion.resource.blink.image.naturalWidth)throw Error(name+' open/blink artwork did not load');
+  }
   for(let i=0;i<100&&actor.mesh.material.uniforms.flowStrength.value!==0;i++)await new Promise(r=>setTimeout(r,20));
   if(actor.mesh.material.uniforms.flowStrength.value!==0)throw Error('Equipped outfit must not use bare-body optical flow');
   const scene=new THREE.Scene();scene.background=new THREE.Color('#292421');scene.add(actor.mesh);
