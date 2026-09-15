@@ -158,3 +158,16 @@
 [data-outfit-sets]{display:flex;flex-wrap:wrap;gap:8px}
 .closet-save-status{min-height:3em;font-size:13px;line-height:1.5;color:#493c29}
 .expression-closet-inventory button:focus-visible{outline:3px solid #286858;outline-offset:3px}
+
+/* Garment catalog photography and wardrobe actions. */
+.closet-item-picture{display:block;position:relative;width:100%;height:auto;aspect-ratio:1;overflow:hidden;border-radius:12px;background:#262626;margin-bottom:12px}
+.closet-item-picture img{width:100%;height:100%;object-fit:contain;max-height:none!important;margin:0!important;filter:none!important}
+.closet-item-picture.cream-cable-knit img,.closet-item-picture.charcoal-turtleneck img{position:absolute;width:200%;max-width:none;height:100%;object-fit:fill;left:0}
+.closet-item-picture.charcoal-turtleneck img{left:-100%}
+.closet-item-picture.white-fedora{background:transparent}
+.closet-outfit-actions button,.expression-closet-inventory form button,[data-outfit-sets] button{background:linear-gradient(135deg,#fff6da,#e9cd8d);border:1px solid #bd9450;border-radius:14px;box-shadow:inset 0 1px #fff9e8,0 3px 0 #75572d,0 5px 12px #0002;font:600 14px/1.4 system-ui;transition:transform .15s,box-shadow .15s;min-height:44px}
+.closet-outfit-actions button:hover,.expression-closet-inventory form button:hover,[data-outfit-sets] button:hover{transform:translateY(-2px);box-shadow:inset 0 1px #fff9e8,0 4px 0 #75572d,0 7px 14px #0003}
+.closet-saved-set{display:flex;gap:8px;margin:12px 0}.closet-saved-set [data-outfit]{flex:1;text-align:left}.closet-saved-set [data-favorite]{min-width:46px;font-size:24px;color:#a23952}
+.expression-closet-loading{min-width:230px;text-align:center}.expression-closet-loading progress{display:block;width:100%;height:12px;margin-top:10px;accent-color:#e7bb68}
+
+.closet-startup{position:fixed;z-index:10000;top:50%;left:50%;transform:translate(-50%,-50%);padding:24px;border:1px solid #bd9450;border-radius:16px;background:#231e18;color:#fff1cb;box-shadow:0 10px 60px #0008;font:600 15px system-ui}.closet-startup progress{display:block;margin-top:14px;width:240px;accent-color:#e7bb68}

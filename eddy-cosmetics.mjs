@@ -6,15 +6,15 @@ export const COSMETICS=Object.freeze([
  {id:'blue-swordsman-jacket',slot:'top',name:'Blue swordsman jacket',description:'藍色劍士外套 · 銀色飾邊'}
 ]);
 export const cleanEquipment=value=>Object.fromEntries(COSMETICS.filter(item=>value?.[item.slot]===item.id).map(item=>[item.slot,item.id]));
-export function cleanWardrobe(value){return {equipped:cleanEquipment(value?.equipped),outfits:(Array.isArray(value?.outfits)?value.outfits:[]).slice(0,50).filter(x=>typeof x?.name==='string'&&x.name.trim()).map(x=>({name:x.name.trim().slice(0,60),equipped:cleanEquipment(x.equipped)}))};}
-export const cosmeticAsset=id=>new URL('./assets/speaking-system/cosmetics/eddy/'+id+'.webp?v=20260915-jacket1',import.meta.url).href;
+export function cleanWardrobe(value){return {equipped:cleanEquipment(value?.equipped),outfits:(Array.isArray(value?.outfits)?value.outfits:[]).slice(0,50).filter(x=>typeof x?.name==='string'&&x.name.trim()).map(x=>({name:x.name.trim().slice(0,60),equipped:cleanEquipment(x.equipped),...(x.favorite===true?{favorite:true}:{})}))};}
+export const cosmeticAsset=id=>new URL('./assets/speaking-system/cosmetics/eddy/'+id+'.webp?v=20260915-closet2',import.meta.url).href;
 let owner='',token='',wardrobe=cleanWardrobe(),equipped={},revision=0,client,connection,pendingRestore;
 const listeners=new Set(),images=new Map(),atlases=new Map();
 const session=()=>globalThis.window?.EdmundSystemNav?.getStudentSession?.();
 const key=id=>'edmund-eddy-wardrobe-v1:'+id;
 const notify=()=>{revision++;atlases.clear();for(const fn of listeners)fn();};
 export function subscribeCosmetics(fn){listeners.add(fn);return()=>listeners.delete(fn);}
-export function cosmeticsState(){return {owner,equipped:{...equipped},outfits:wardrobe.outfits.map(x=>({name:x.name,equipped:{...x.equipped}})),revision};}
+export function cosmeticsState(){return {owner,equipped:{...equipped},outfits:wardrobe.outfits.map(x=>({...x,equipped:{...x.equipped}})),revision};}
 export function equipCosmetic(id){const item=COSMETICS.find(x=>x.id===id);if(!item)return;equipped={...equipped};if(equipped[item.slot]===id)delete equipped[item.slot];else equipped[item.slot]=id;notify();}
 export function clearCosmetics(){equipped={};notify();}
 export function equipOutfit(name){const outfit=wardrobe.outfits.find(x=>x.name===name);if(outfit){equipped={...outfit.equipped};notify();}}
@@ -43,11 +43,19 @@ export async function saveAvatar(name){
  if(!owner||!token)throw Error('Please sign in to save your avatar.');
  const requestOwner=owner,requestToken=token,requestRevision=revision;
  const outfits=wardrobe.outfits.map(x=>({...x}));
- if(name!==undefined){name=String(name).trim();if(!name||name.length>60)throw Error('Use an outfit name from 1 to 60 characters.');const i=outfits.findIndex(x=>x.name===name);const item={name,equipped:{...equipped}};if(i>=0)outfits[i]=item;else {if(outfits.length>=50)throw Error('You can save up to 50 outfits.');outfits.push(item);}}
+ if(name!==undefined){name=String(name).trim();if(!name||name.length>60)throw Error('Use an outfit name from 1 to 60 characters.');const i=outfits.findIndex(x=>x.name===name);const item={name,equipped:{...equipped},...(i>=0&&outfits[i].favorite?{favorite:true}:{})};if(i>=0)outfits[i]=item;else {if(outfits.length>=50)throw Error('You can save up to 50 outfits.');outfits.push(item);}}
  const result=await rpc({p_token:requestToken,p_equipped:{...equipped},p_outfits:outfits});
  if(owner!==requestOwner||token!==requestToken)throw Error('The account changed. Please reopen the closet.');
  wardrobe=result;try{localStorage.setItem(key(owner),JSON.stringify(result));}catch{}
  if(revision===requestRevision)equipped={...result.equipped};notify();return result;
+}
+export async function toggleOutfitFavorite(name){
+ if(!owner||!token)throw Error('Please sign in to save favorites.');
+ const requestOwner=owner,requestToken=token;
+ const outfits=wardrobe.outfits.map(x=>x.name===name?{...x,favorite:!x.favorite}:{...x});
+ const result=await rpc({p_token:requestToken,p_outfits:outfits});
+ if(owner!==requestOwner||token!==requestToken)throw Error('The account changed. Please reopen the closet.');
+ wardrobe=result;try{localStorage.setItem(key(owner),JSON.stringify(result));}catch{}notify();return result;
 }
 function load(id){if(images.has(id))return images.get(id);const img=new Image();images.set(id,img);img.onload=()=>{atlases.clear();for(const fn of listeners)fn();};img.src=cosmeticAsset(id);return img;}
 // One composite per equipment/base combination, never one per animation frame.

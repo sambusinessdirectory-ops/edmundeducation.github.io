@@ -39,3 +39,9 @@ test('swordsman jacket replaces a top, preserves a hat, and remains an allowed s
  equipCosmetic('blue-swordsman-jacket');assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora'});
  clearCosmetics();
 });
+
+test('favorites survive cleaning only as booleans',()=>{
+ const favorite=cleanWardrobe({outfits:[{name:'Blue',equipped:{top:'blue-swordsman-jacket'},favorite:true}]}).outfits[0];
+ assert.equal(favorite.favorite,true);
+ assert.equal(cleanWardrobe({outfits:[{name:'Blue',equipped:{},favorite:'true'}]}).outfits[0].favorite,undefined);
+});

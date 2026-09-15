@@ -1,7 +1,8 @@
-import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260915-jacket1';
+import {closetRoute} from './closet-walking.mjs';
+import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260915-closet2';
 import {batchClosetSurfaces} from './closet-static-batches.mjs';
 import * as THREE from './vendor/three/three.module.js';
-import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-jacket1';
+import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-closet2';
 import { buildPhoebeCloset, PHOEBE_CLOSET_PROFILE } from './phoebe-closet-3d.mjs?v=20260915-phoebe1';
 
 let activeClose = null;
@@ -140,7 +141,7 @@ function buildCloset(scene, resources) {
 
   const surfaces = surfaceTextures(resources);
   const floorMaps = floorTextures(resources);
-  const textureLoader = new THREE.TextureLoader();
+  const textureLoader = new THREE.TextureLoader(resources.loadingManager);
   const loadSurface = (path, { color = true, repeat = [1, 1] } = {}) => {
     const texture = textureLoader.load(new URL(path, import.meta.url).href);
     if (color) texture.colorSpace = THREE.SRGBColorSpace;
@@ -494,7 +495,7 @@ function buildElsieCloset(scene, resources) {
   group.name = 'Elsie blush neoclassical closet';
   scene.add(group);
 
-  const textureLoader = new THREE.TextureLoader();
+  const textureLoader = new THREE.TextureLoader(resources.loadingManager);
   const loadTexture = (path, { color = true, repeat = [1, 1] } = {}) => {
     const texture = textureLoader.load(new URL(path, import.meta.url).href);
     if (color) texture.colorSpace = THREE.SRGBColorSpace;
@@ -935,6 +936,13 @@ function buildElsieCloset(scene, resources) {
 
 function mountCloset(root, character, signal) {
   const resources = { geometries: new Set(), materials: new Set(), textures: new Set(), renderTargets: new Set() };
+  const loading=root.closest('.expression-closet')?.querySelector('[data-closet-loading]');
+  let actorReady=false,texturesReady=true;
+  const report=(value,label)=>{if(signal.aborted||!loading)return;const text=loading.querySelector('span'),bar=loading.querySelector('progress');if(text)text.textContent=label;if(bar)bar.value=value;};
+  const finish=()=>{if(actorReady&&texturesReady){report(100,'Ready');loading.hidden=true;}};
+  resources.loadingManager=new THREE.LoadingManager(()=>{texturesReady=true;report(90,'Preparing character…');finish();},(_url,loaded,total)=>report(Math.min(85,15+70*loaded/total),`Loading room · ${loaded}/${total}`));
+  resources.loadingManager.onStart=()=>{texturesReady=false;};
+  report(10,'Building dressing room…');
   const isElsie = character === 'elsie';
   const isPhoebe = character === 'phoebe';
   const characterName = isPhoebe ? 'Phoebe' : isElsie ? 'Elsie' : 'Eddy';
@@ -996,7 +1004,7 @@ function mountCloset(root, character, signal) {
   const canvas = renderer.domElement;
   canvas.tabIndex = 0;
   canvas.style.touchAction = 'none';
-  canvas.setAttribute('aria-label', `Interactive 3D closet for ${characterName}. Use W A S D to move, drag to look around, and scroll or pinch to zoom.`);
+  canvas.setAttribute('aria-label', `Interactive 3D closet for ${characterName}. Tap the floor or use W A S D to move, drag to look around, and scroll or pinch to zoom.`);
 
   const orbit = () => {
     const horizontal = Math.cos(pitch) * distance;
@@ -1044,14 +1052,14 @@ function mountCloset(root, character, signal) {
 
   const mascots = new MascotCharacters();
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
-  const loading = root.closest('.expression-closet')?.querySelector('[data-closet-loading]');
+
   mascots.create(character, 'standing').then(created => {
     if (!created || disposed || signal.aborted) return;
     actor = created;
     actor.mesh.position.set(...roomSettings.start);
     canvas.dataset.actorPosition = roomSettings.start[0] + ',' + roomSettings.start[2];
     scene.add(actor.mesh);
-    if (loading) loading.hidden = true;
+    actorReady=true;if(!resources.textures.size)texturesReady=true;finish();
   }).catch(() => {
     if (loading) loading.textContent = `${characterName} could not load, but you can still explore the closet.`;
   });
@@ -1079,6 +1087,8 @@ function mountCloset(root, character, signal) {
     orbit();
   }, { signal });
 
+  let route=[];
+  const raycaster=new THREE.Raycaster(),floor=new THREE.Plane(new THREE.Vector3(0,1,0),0);
   const pointers = new Map();
   let drag = null;
   let pinch = 0;
@@ -1086,8 +1096,9 @@ function mountCloset(root, character, signal) {
     canvas.focus({ preventScroll: true });
     canvas.setPointerCapture(event.pointerId);
     pointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
-    drag = { x: event.clientX, y: event.clientY, lastX: event.clientX, lastY: event.clientY };
+    drag = { x: event.clientX, y: event.clientY, lastX: event.clientX, lastY: event.clientY, moved:false };
     if (pointers.size === 2) {
+      drag.moved=true;
       const [first, second] = [...pointers.values()];
       pinch = Math.hypot(first.x - second.x, first.y - second.y);
     }
@@ -1096,12 +1107,14 @@ function mountCloset(root, character, signal) {
     if (!drag || !pointers.has(event.pointerId)) return;
     pointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
     if (pointers.size === 2) {
+      drag.moved=true;
       const [first, second] = [...pointers.values()];
       const next = Math.hypot(first.x - second.x, first.y - second.y);
       zoom((pinch - next) * .018);
       pinch = next;
       return;
     }
+    if(Math.hypot(event.clientX-drag.x,event.clientY-drag.y)>8)drag.moved=true;
     const dx = event.clientX - drag.lastX;
     const dy = event.clientY - drag.lastY;
     drag.lastX = event.clientX;
@@ -1116,6 +1129,11 @@ function mountCloset(root, character, signal) {
     orbit();
   }, { signal });
   const releasePointer = event => {
+    if(event.type==='pointerup'&&drag&&!drag.moved&&pointers.size===1&&actor&&event.button===0){
+      const rect=canvas.getBoundingClientRect();raycaster.setFromCamera(new THREE.Vector2((event.clientX-rect.left)/rect.width*2-1,1-(event.clientY-rect.top)/rect.height*2),camera);
+      const hit=raycaster.ray.intersectPlane(floor,new THREE.Vector3());
+      if(hit){route=closetRoute(actor.mesh.position,{x:hit.x,z:hit.z},roomSettings.walk,roomSettings.obstacles);canvas.dataset.walkDestination=hit.x.toFixed(2)+','+hit.z.toFixed(2);canvas.dataset.walkRouteLength=String(route.length);}
+    }
     pointers.delete(event.pointerId);
     if (!pointers.size) drag = null;
   };
@@ -1128,7 +1146,7 @@ function mountCloset(root, character, signal) {
   }, { passive: false, signal });
   canvas.addEventListener('keydown', event => {
     if (['KeyW', 'KeyA', 'KeyS', 'KeyD'].includes(event.code)) {
-      movementKeys.add(event.code);
+      route=[];movementKeys.add(event.code);
       event.preventDefault();
       return;
     }
@@ -1319,8 +1337,8 @@ function mountCloset(root, character, signal) {
   }, {signal});
   const render = (now = performance.now()) => {
     if (disposed || document.hidden) return;
-    if (!movementKeys.size && !drag && now-lastRender < 32) { frame=requestAnimationFrame(render); return; }
-    if (lastRender && now-lastRender > (movementKeys.size || drag ? 26 : 46)) slowFrames++;
+    if (!movementKeys.size && !route.length && !drag && now-lastRender < 32) { frame=requestAnimationFrame(render); return; }
+    if (lastRender && now-lastRender > (movementKeys.size || route.length || drag ? 26 : 46)) slowFrames++;
     if (++budgetSamples >= 24) {
       if (slowFrames > 12 && renderer.getPixelRatio() > .65) { renderer.setPixelRatio(Math.max(.65, renderer.getPixelRatio() * .8)); resize(); }
       budgetSamples=0;slowFrames=0;
@@ -1332,12 +1350,15 @@ function mountCloset(root, character, signal) {
       const forwardInput = Number(movementKeys.has('KeyW')) - Number(movementKeys.has('KeyS'));
       const sideInput = Number(movementKeys.has('KeyD')) - Number(movementKeys.has('KeyA'));
       movementDirection.set(0, 0, 0);
+      if(route.length){const next=route[0];movementDirection.set(next.x-actor.mesh.position.x,0,next.z-actor.mesh.position.z);if(movementDirection.length()<.09){route.shift();movementDirection.set(0,0,0);}else movementDirection.normalize();}
       if (forwardInput || sideInput) {
         movementForward.set(target.x - camera.position.x, 0, target.z - camera.position.z).normalize();
         movementRight.set(-movementForward.z, 0, movementForward.x);
         movementDirection.addScaledVector(movementForward, forwardInput);
         movementDirection.addScaledVector(movementRight, sideInput).normalize();
-        const step = 1.72 * delta;
+      }
+      if(movementDirection.lengthSq()>0){
+        const step = Math.min(1.72 * delta,route.length?Math.hypot(route[0].x-actor.mesh.position.x,route[0].z-actor.mesh.position.z):Infinity);
         const walkable = (x, z) => {
           const bounds = roomSettings.walk;
           if (x < bounds.minX || x > bounds.maxX || z < bounds.minZ || z > bounds.maxZ) return false;
@@ -1427,11 +1448,11 @@ export function openCompanionCloset({ character = 'eddy' } = {}) {
       '<button type="button" data-closet-camera="in">＋ Zoom</button>' +
       '<button type="button" data-closet-camera="out">− Zoom</button>' +
       '<button type="button" data-closet-camera="reset">Reset view</button>' +
-      `<span><strong>Click the scene, then use WASD to move ${characterName}</strong> · Drag to orbit · Scroll or pinch to zoom · Shift-drag to pan</span>` +
+      `<span><strong>Tap the floor or use WASD to move ${characterName}</strong> · Drag to orbit · Scroll or pinch to zoom · Shift-drag to pan</span>` +
     '</div>' +
     '<div class="expression-closet-workspace">' +
       '<div class="expression-closet-stage" data-closet-stage>' +
-        '<p class="expression-closet-loading" data-closet-loading>Preparing the dressing room…</p>' +
+        '<p class="expression-closet-loading" data-closet-loading role="status"><span>Preparing the dressing room…</span><progress max="100" value="0" aria-label="Dressing room loading progress"></progress></p>' +
       '</div>' +
       '<aside class="expression-closet-inventory" aria-labelledby="expression-closet-inventory-title">' +
         `<p class="expression-closet-inventory-kicker">${characterName.toUpperCase()}’S COLLECTION</p>` +
@@ -1469,6 +1490,6 @@ export function openCompanionCloset({ character = 'eddy' } = {}) {
   document.body.dataset.closetOpen = 'true';
   window.dispatchEvent(new CustomEvent('edmund-closet-visibility', {detail:true}));
   dialog.showModal();
-  mountCloset(dialog.querySelector('[data-closet-stage]'), character, controller.signal);
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{if(!controller.signal.aborted){try{mountCloset(dialog.querySelector('[data-closet-stage]'), character, controller.signal);}catch(error){console.error(error);dialog.querySelector('[data-closet-loading]').textContent='The 3D room could not load. Close and try again.';}}}));
   return { close };
 }
