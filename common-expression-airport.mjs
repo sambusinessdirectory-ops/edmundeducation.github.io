@@ -1,4 +1,4 @@
-import {POKER_TOP,preparePoker,pokerPositions,pokerTerrain,mountPoker} from './common-expression-poker.mjs?v=20260915-poker1';
+import {POKER_TOP,preparePoker,pokerPositions,pokerTerrain,mountPoker} from './common-expression-poker.mjs?v=20260915-poker2';
 import {DINING_TOP,prepareDining,diningPositions,diningTerrain,mountDining} from './common-expression-dining.mjs?v=20260915-poker1';
 import {TRAIN_TOP,prepareTrain,trainPositions,trainTerrain,mountTrain} from './common-expression-train.mjs?v=20260915-poker1';
 // Airport artwork and motion only; the shared map owns lesson/account state.
