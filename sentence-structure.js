@@ -1,7 +1,7 @@
 import { createLessonLibrary } from "./lesson-library.mjs?v=20260908-loading1";
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
-import { createExpressionMap } from "./common-expression-map.mjs?v=20260915-closet2";
-import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260915-closet2";
+import { createExpressionMap } from "./common-expression-map.mjs?v=20260915-avatar2";
+import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260915-avatar2";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260914-hotel3b";
 import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies, syncSentenceTrophyCounter, syncSentenceTrophyControls, animateSentenceTrophy, awardDateMarkup } from "./sentence-structure-trophies.mjs?v=20260915-companions1";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
@@ -507,6 +507,7 @@ async function validateRestoredSession() {
     if (!profile?.id || !profile?.name) throw new Error("Invalid profile");
     state.user = { id: String(profile.id), name: String(profile.name), role: saved.role };
     saveSession();
+    if(state.user.role==='student')window.EdmundSystemNav?.rememberStudentSession({...state.user,token:state.authToken});
     return true;
   } catch (error) {
     console.warn("Sentence Structure session restore failed", error);

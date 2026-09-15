@@ -1,8 +1,9 @@
+import {beginCosmeticsPreview,confirmDiscardCosmetics,restoreCosmetics} from './eddy-cosmetics.mjs?v=20260915-avatar2';
 import {closetRoute} from './closet-walking.mjs';
-import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260915-closet2';
+import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260915-avatar2';
 import {batchClosetSurfaces} from './closet-static-batches.mjs';
 import * as THREE from './vendor/three/three.module.js';
-import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-closet2';
+import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-avatar2';
 import { buildPhoebeCloset, PHOEBE_CLOSET_PROFILE } from './phoebe-closet-3d.mjs?v=20260915-phoebe1';
 
 let activeClose = null;
@@ -1050,7 +1051,7 @@ function mountCloset(root, character, signal) {
   plinth.castShadow = true;
   scene.add(plinth);
 
-  const mascots = new MascotCharacters();
+  const mascots = new MascotCharacters(undefined,undefined,{preview:true});
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 
   mascots.create(character, 'standing').then(created => {
@@ -1415,7 +1416,9 @@ function mountCloset(root, character, signal) {
 }
 
 export function openCompanionCloset({ character = 'eddy' } = {}) {
-  activeClose?.();
+  if(activeClose&&activeClose()===false)return {close:activeClose};
+  void restoreCosmetics();
+  if(character==='eddy')beginCosmeticsPreview();
   const isElsie = character === 'elsie';
   const isPhoebe = character === 'phoebe';
   const characterName = isPhoebe ? 'Phoebe' : isElsie ? 'Elsie' : 'Eddy';
@@ -1469,7 +1472,8 @@ export function openCompanionCloset({ character = 'eddy' } = {}) {
   if(character==='eddy')mountClosetInventory(dialog.querySelector('.expression-closet-inventory'),controller.signal);
   let closed = false;
   const close = () => {
-    if (closed) return;
+    if (closed) return true;
+    if(character==='eddy'&&!confirmDiscardCosmetics())return false;
     closed = true;
     controller.abort();
     if (dialog.open) dialog.close();
@@ -1477,6 +1481,7 @@ export function openCompanionCloset({ character = 'eddy' } = {}) {
     delete document.body.dataset.closetOpen;
     window.dispatchEvent(new CustomEvent('edmund-closet-visibility', {detail:false}));
     if (activeClose === close) activeClose = null;
+    return true;
   };
   activeClose = close;
   dialog.querySelector('[data-close-closet]').addEventListener('click', close, { signal: controller.signal });

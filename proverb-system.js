@@ -1,4 +1,4 @@
-import { createExpressionMap } from './common-expression-map.mjs?v=20260915-closet2';
+import { createExpressionMap } from './common-expression-map.mjs?v=20260915-avatar2';
 import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-companions1';
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
 /*
@@ -583,6 +583,7 @@ async function validateRestoredSession() {
     if (!profile?.id || !profile?.name) throw new Error("Invalid profile");
     state.user = { id: String(profile.id), name: String(profile.name), role: saved.role };
     saveSession();
+    if(state.user.role==='student')window.EdmundSystemNav?.rememberStudentSession({...state.user,token:state.authToken});
     return true;
   } catch (error) {
     console.warn("Proverb System session restore failed", error);

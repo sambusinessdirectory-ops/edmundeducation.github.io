@@ -1,4 +1,4 @@
-import { cosmeticAtlas, restoreCosmetics } from './eddy-cosmetics.mjs?v=20260915-closet2';
+import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-avatar2';
 import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-companions1';
 import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
 
@@ -113,5 +113,6 @@ export function mountWritingChessMap(host,{storage,owner,exerciseId,onStart}={})
   on(reduced,'change',()=>{if(reduced.matches){cancelAnimationFrame(frame);frame=0;position=route.at(-1)||position;route=[];draw(0);}else if(!frame){last=performance.now();frame=requestAnimationFrame(tick);}});
   const observer=new MutationObserver(()=>{if(!host.isConnected)destroy();});observer.observe(host.parentElement,{childList:true});
   function destroy(){if(dead)return;dead=true;events.abort();observer.disconnect();cancelAnimationFrame(frame);images.forEach(img=>{img.onload=null;img.onerror=null;});}
+  const unsubscribe=subscribeCosmetics(()=>{if(!dead){drawCast();draw(performance.now());}});events.signal.addEventListener('abort',unsubscribe,{once:true});
   on(window,'pagehide',destroy);update();drawCast();draw(0);centerSelection();if(!reduced.matches){last=performance.now();frame=requestAnimationFrame(tick);}return {destroy};
 }

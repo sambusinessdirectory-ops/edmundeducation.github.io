@@ -498,6 +498,7 @@ async function validateRestoredSession() {
     if (!profile?.id || !profile?.name) throw new Error("Invalid profile");
     state.user = { id: String(profile.id), name: String(profile.name), role: saved.role };
     saveSession();
+    if(state.user.role==='student')window.EdmundSystemNav?.rememberStudentSession({...state.user,token:state.authToken});
     return true;
   } catch (error) {
     console.warn("Idiom System session restore failed", error);
@@ -749,7 +750,7 @@ function syncIdiomMap() {
     return;
   }
   // The list remains available while the decorative map loads or if it fails.
-  if (!idiomMapLoad) idiomMapLoad = import('./idiom-paper-map.mjs?v=20260915-closet2')
+  if (!idiomMapLoad) idiomMapLoad = import('./idiom-paper-map.mjs?v=20260915-avatar2')
     .then(({mountIdiomMap}) => {
       if (!state.user) { idiomMapLoad = null; return; }
       toggle.hidden = false;

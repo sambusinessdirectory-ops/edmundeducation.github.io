@@ -1,38 +1,41 @@
 # Eddy's modular wardrobe
 
-The closet offers one headwear slot and one top slot. White fedora can be
-combined with either cream cable-knit or charcoal turtleneck. Clicking an
-equipped item removes it. Save avatar commits the current outfit; named sets
-save the whole combination, and choosing a saved set equips and saves it.
-Remove all previews the bare avatar, then Save avatar persists that choice.
+For the complete standards, production workflow, debugging history and release
+checklist, see [The Golden Manual v2](golden-manual-modular-wardrobe-v2.md).
 
-The supplied September 14–15 clothing sheets are registered to the canonical
-16-direction v4 Eddy atlas by tools/prepare-eddy-cosmetics.py. It uses the first
-turnaround set, cleans detached alpha speckles, and maps each garment to a
-direction-specific anchor. Full-canvas WebP layers live in
-assets/speaking-system/cosmetics/eddy/. The hat hiding mask replaces the
-original crown and ears. The body foreground mask preserves the face, mane,
-tail and exposed hooves; it samples the current open/blink base, so it does not
-freeze the eyes. The source files remain in the user's Downloads folder.
+## Current architecture
 
-eddy-cosmetics.mjs composes on equipment/image changes and caches one atlas
-per open/blink base and outfit. The 2D maps draw the cached canvas; 3D standing
-actors reuse their existing mesh and shader with two replacement textures.
-No garment objects or render passes are added during walking. Seated poses
-keep their existing distinct artwork.
+The closet supports one headwear slot and one top slot for Eddy: white fedora,
+cream cable-knit crewneck, charcoal turtleneck and blue swordsman jacket. The hat combines independently
+with any top. Save avatar persists the preview; named sets save combinations.
+Choosing a saved set equips and saves it. Remove all is a preview until saved.
 
-The authenticated eddy_closet_sync RPC validates the shared student session,
-restricts item IDs and slots, and stores equipped items plus up to 50 named
-sets in private avatar_closet.wardrobes. Direct API table grants are revoked.
-RLS intentionally has no policies: access is through the checked private
-function and public invoker wrapper only. The advisor's informational
-RLS-without-policy notice is expected for this private table.
+The final sweaters are extracted from character-registered fitting references by
+tools/prepare-eddy-tailored-sweaters.py, called automatically by
+tools/prepare-eddy-cosmetics.py. Only garment pixels are exported: the original
+character base is retained. The old body-front mask is no longer used by the
+runtime sweater compositor. The fedora uses a brim-following hiding mask.
 
-The local cache is student-scoped and the cloud is authoritative on restore.
-Late restore/save responses cannot replace another student's wardrobe.
-Explicit save failures remain visible and do not claim a successful save.
+tools/clean-mascot-edges.py cleans the actual runtime standing and blink resources,
+including elsie-blink-registered.png, and the fedora. Sweater padding is performed
+by the fitted-garment extractor. Follow the Golden Manual's build order; some
+original art inputs still depend on the author's Downloads folder.
 
-Validation: node --test tools/test-eddy-cosmetics.mjs,
-node tools/test-eddy-cosmetics-browser.cjs, and
-node tools/test-horsey-portals-browser.cjs. Browser tests use only fixture
-accounts and block all external requests.
+eddy-cosmetics.mjs caches composites per base image and equipped state. The 2D
+maps reuse canvases; 3D standing actors replace textures on the existing mesh.
+Equipped sprites disable bare-body optical-flow warping to prevent clothing
+distortion; turns use the nearest authored direction. Seated outfits are not
+implemented.
+
+Account-scoped equipment and up to 50 named sets are saved through
+eddy_closet_sync, which validates the shared student session and item allowlist.
+Local cache restores and late responses are guarded against account switches and
+newer edits. Refer to the migration and Golden Manual for the access boundary.
+
+Validation includes tools/test-eddy-cosmetics.mjs,
+tools/test-eddy-cosmetics-browser.cjs,
+tools/test-speaking-mascot-characters.mjs and
+tools/test-horsey-portals-browser.cjs. Browser fixture tests are not a substitute
+for human visual review or a production database audit.
+
+Version 2 isolates draft clothing in the closet. Maps and other standing renderers use saved equipment only. Closing a dirty closet asks before discarding; cancel retains the draft. Successful restored logins refresh the universal student session, normalized wardrobe identities share one saved record, and focus/pageshow reconcile account changes. See tools/test-avatar-state-v2.mjs and tools/test-avatar-portals-v2.cjs for failure, discard and multi-portal coverage.
