@@ -91,3 +91,7 @@ for i in [5,6,7,9,10]:
   a[oy+y,ox+x,3]=alpha[oy+y,ox+x]
 Image.fromarray(a).save(OUT/'body-front.webp',lossless=True)
 print('Prepared three aligned overlays, two occlusion layers, and inventory icons.')
+
+# Replace approximate standalone sweaters with the character-registered artwork.
+import runpy
+runpy.run_path(str(ROOT/'tools/prepare-eddy-tailored-sweaters.py'))

@@ -40,7 +40,7 @@ for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.POR
  if(await page.locator('[data-horsey-map]').isHidden())await page.locator(selector).click();
  await page.locator('[data-horsey-map] .ss-map-trophy').first().waitFor({timeout:30000});
  const mapRoot=page.locator('[data-horsey-map]');
- await page.waitForFunction(async()=>{const m=await import('/eddy-cosmetics.mjs?v=20260915-fitting2');return m.cosmeticsState().equipped.headwear==='white-fedora';});
+ await page.waitForFunction(async()=>{const m=await import('/eddy-cosmetics.mjs?v=20260915-tailored1');return m.cosmeticsState().equipped.headwear==='white-fedora';});
  for(const character of ['phoebe','elsie','eddy']){
   await mapRoot.locator('[data-character="'+character+'"]').click();
   assert.equal(await mapRoot.locator('[data-open-closet]').isEnabled(),character!=='phoebe');
