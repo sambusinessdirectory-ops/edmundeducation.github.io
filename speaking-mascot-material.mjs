@@ -11,6 +11,7 @@ export function mascotMaterial(atlas, flow, data, coatColour, headResource={atla
     mouths:{value:[new THREE.Vector3(),new THREE.Vector3()]},
     bodyFlow:{value:new THREE.Vector4()},headFlow:{value:new THREE.Vector4()},
     bodyBlend:{value:0},headBlend:{value:0},mouthOpen:{value:0},blink:{value:0},nod:{value:0},headYaw:{value:0},breath:{value:0},
+    flowStrength:{value:1},alphaCutoff:{value:.18},
     headBand:{value:new THREE.Vector2(.38,.46)},
   };
   return new THREE.ShaderMaterial({
@@ -47,7 +48,7 @@ export function mascotMaterial(atlas, flow, data, coatColour, headResource={atla
       uniform vec4 bodyRects[2],bodyLayouts[2],headRects[2],headLayouts[2];
       uniform vec3 mouths[2];
       uniform vec4 bodyFlow,headFlow;
-      uniform float bodyBlend,headBlend,flowRange,mouthOpen,blink;
+      uniform float bodyBlend,headBlend,flowRange,mouthOpen,blink,flowStrength,alphaCutoff;
       uniform vec3 coatGain,headCoatGain,headSpace;
       uniform vec2 headBand;
       vec4 flowAt(vec2 p,vec4 cell,bool head){
@@ -78,6 +79,8 @@ export function mascotMaterial(atlas, flow, data, coatColour, headResource={atla
       }
       vec4 pair(vec2 p,vec4 a,vec4 b,vec4 la,vec4 lb,vec4 f,float blend,vec3 ma,vec3 mb,bool talk){
         vec2 pa=p,pb=p;
+        // Bare-body correspondence cannot safely warp hats or knitted garments.
+        if(flowStrength<.5)return blend<.5?picture(p,a,la,ma,talk):picture(p,b,lb,mb,talk);
         // Inverse correspondence warps align features before colour blending.
         pa=p-flowAt(pa,f,talk).xy*blend;
         pa=p-flowAt(pa,f,talk).xy*blend;
@@ -92,7 +95,7 @@ export function mascotMaterial(atlas, flow, data, coatColour, headResource={atla
         vec4 head=pair(vUv,headRects[0],headRects[1],headLayouts[0],headLayouts[1],headFlow,headBlend,mouths[0],mouths[1],true);
         float headWeight=smoothstep(headBand.x,headBand.y,vUv.y);
         vec4 color=mix(body,head,headWeight);
-        if(color.a<.18)discard;
+        if(color.a<alphaCutoff)discard;
         gl_FragColor=vec4(color.rgb/max(color.a,.001),color.a);
         #include <colorspace_fragment>
       }

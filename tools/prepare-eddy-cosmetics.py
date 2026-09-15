@@ -57,8 +57,8 @@ for item,(stamp,rows) in SOURCES.items():
      mask.paste((255,255,255,255),(ox+x+column,oy,ox+x+column+1,oy+bottom))
   else:
    w=[114,105,108,94,82,92,99,110,112,99,92,82,82,103,106,113][i]
-   w=round(w*1.08)
-   h=81 if item=='charcoal-turtleneck' else 80
+   w=round(w*1.02)
+   h=85 if item=='charcoal-turtleneck' else 84
    x,y=centers[i]-w//2,110 if item=='charcoal-turtleneck' else 111
   atlas.alpha_composite(p.resize((w,h),Image.Resampling.LANCZOS),(ox+x,oy+y))
  atlas.save(OUT/f'{item}.webp',lossless=True)

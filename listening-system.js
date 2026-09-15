@@ -436,7 +436,7 @@ function syncIeltsMap() {
     return;
   }
   // Keep the real practice list usable until all decorative artwork is ready.
-  if (!ieltsMapLoad) ieltsMapLoad = import('./ielts-puzzle-map.mjs?v=20260915-fitting1')
+  if (!ieltsMapLoad) ieltsMapLoad = import('./ielts-puzzle-map.mjs?v=20260915-fitting2')
     .then(async ({ mountIeltsMap }) => {
       if (!state.user) return;
       const map = await mountIeltsMap({ root, toggle, grid: elements.practiceGrid,

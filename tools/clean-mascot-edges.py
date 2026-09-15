@@ -11,6 +11,19 @@ import numpy as np
 ROOT=Path(__file__).resolve().parents[1]
 def clean_edges(image):
  a=np.array(image.convert('RGBA'));alpha=a[:,:,3].copy()
+ # Remove isolated matte dots, while retaining substantial detached artwork.
+ active=alpha>24; visited=np.zeros(active.shape,bool)
+ for y,x in zip(*np.where(active)):
+  if visited[y,x]:continue
+  pending=[(y,x)];visited[y,x]=True;component=[]
+  while pending:
+   cy,cx=pending.pop();component.append((cy,cx))
+   for dy,dx in [(0,1),(0,-1),(1,0),(-1,0),(1,1),(1,-1),(-1,1),(-1,-1)]:
+    ny,nx=cy+dy,cx+dx
+    if 0<=ny<active.shape[0] and 0<=nx<active.shape[1] and active[ny,nx] and not visited[ny,nx]:
+     visited[ny,nx]=True;pending.append((ny,nx))
+  if len(component)<20:
+   for cy,cx in component:alpha[cy,cx]=0
  known=np.array(Image.fromarray(alpha).filter(ImageFilter.MinFilter(5)))>250
  rgb=a[:,:,:3].copy()
  for _ in range(8):

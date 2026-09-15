@@ -163,5 +163,5 @@ test('closet UI is responsive and cache-busted on every shared-map consumer', ()
     'listening-system.html',
     'common-expression-written.html'
   ];
-  for (const file of consumers) assert.match(read(file), /common-expression-map\.(?:css\?v=20260915-outfits1|mjs\?v=20260915-fitting1)/, file);
+  for (const file of consumers) assert.match(read(file), /common-expression-map\.(?:css\?v=20260915-outfits1|mjs\?v=20260915-fitting2)/, file);
 });

@@ -1,8 +1,8 @@
 import * as THREE from './vendor/three/three.module.js';
-import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-fitting1';
+import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-fitting2';
 import {MASCOT_VIEWS} from './speaking-mascot-views.mjs?v=20260915-companions1';
 import {viewPair, mouthOpening, blinkAmount, COAT_COLOURS} from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
-import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20260915-fitting1';
+import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20260915-fitting2';
 
 export class MascotCharacters {
   constructor(loader=new THREE.TextureLoader(), request=globalThis.fetch.bind(globalThis)) {
@@ -17,7 +17,7 @@ export class MascotCharacters {
     const data=MASCOT_VIEWS[name][pose],entry={atlas:null,blink:null,flow:null,data};
     this.resources.set(key,entry);
     const base=new URL(`./assets/speaking-system/mascots/${data.folder||'v2'}/`,import.meta.url);
-    const artwork=file=>pose==='standing'?file.replace(/\.png$/,'-clean.webp'):file;
+    const artwork=file=>pose==='standing'?file.replace(/\.png$/,'-clean.webp?v=20260915-fitting2'):file;
     const image=this.loader.loadAsync(new URL(artwork(data.image),base).href).then(texture=>{
       texture.colorSpace=THREE.SRGBColorSpace;texture.generateMipmaps=false;texture.minFilter=THREE.LinearFilter;
       if(this.disposed){texture.dispose();return null;}entry.atlas=texture;return texture;
@@ -60,6 +60,7 @@ export class MascotCharacters {
     const material=mascotMaterial(resource.atlas,resource.flow,resource.data,COAT_COLOURS[name],headResource,[ratio,...offset]);
     // Standing sprites join at the neck, above the sweater, not the seated waist.
     material.uniforms.headBand.value.set(...(pose==='standing'?[.49,.53]:[.38,.46]));
+    material.uniforms.alphaCutoff.value=pose==='standing'?.42:.18;
     const geometry=new THREE.PlaneGeometry(1,1,32,40).translate(0,.5,0);
     const mesh=new THREE.Mesh(geometry,material);
     mesh.name=name+'-'+pose+'-character';mesh.userData.mascotSurface=true;mesh.castShadow=false;
@@ -79,6 +80,7 @@ export class MascotCharacters {
       const texture=(image,original)=>{if(image===original.image)return original;const t=new THREE.CanvasTexture(image);t.colorSpace=THREE.SRGBColorSpace;t.generateMipmaps=false;t.minFilter=THREE.LinearFilter;actor.cosmeticTextures.push(t);return t;};
       const a=texture(open,r.atlas),b=texture(blink,r.blink||r.atlas);
       u.atlas.value=u.headAtlas.value=a;u.headBlinkAtlas.value=b;
+      u.flowStrength.value=open===r.atlas.image?1:0;
       actor.cosmeticOpen=open;actor.cosmeticBlink=blink;
     }
   }
