@@ -1,4 +1,4 @@
-import {createExpressionMap} from './common-expression-map.mjs?v=20260915-blinktrophy1';
+import {createExpressionMap} from './common-expression-map.mjs?v=20260915-noirfit1';
 import {loadPuzzleArtwork,drawPuzzlePlatform,drawPuzzleRoad} from './ielts-puzzle-artwork.mjs';
 import {puzzlePositions,createPuzzleNavigation,PUZZLE_LIMIT} from './ielts-puzzle-geometry.mjs';
 import {mountPuzzleEffects} from './ielts-puzzle-effects.mjs';

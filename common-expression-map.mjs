@@ -1,7 +1,7 @@
 import { MAP_COMPANIONS } from './map-companions.mjs?v=20260915-noirceleste1';
-import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-avatar2';
+import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-noirfit1';
 import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-blinktrophy1';
-import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
+import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-noirfit1';
 
 const WIDTH = 1600, HEIGHT = 1950;
 const CHARACTERS = MAP_COMPANIONS;
@@ -174,7 +174,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     const request = ++closetRequest;
     const pending=document.createElement('div');pending.className='closet-startup';pending.setAttribute('role','status');pending.innerHTML='Opening dressing room…<progress aria-label="Loading 3D closet"></progress>';document.body.append(pending);
     try {
-      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-blinktrophy1');
+      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-noirfit1');
       if (request !== closetRequest) return;
       closetHandle?.close();
       closetHandle = openCompanionCloset({ character });
@@ -367,7 +367,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     const closetButton=root.querySelector('[data-open-closet]');
     if (closetButton) {
       const companion = CHARACTERS.find(c=>c.id===character);
-      const available = character === 'eddy' || character === 'elsie' || character === 'phoebe';
+      const available = character === 'eddy' || character === 'noir' || character === 'elsie' || character === 'phoebe';
       closetButton.disabled = !available;
       closetButton.setAttribute('aria-label', available ? `Open ${companion.name}'s 3D closet` : `${companion.name}'s closet is not designed yet`);
       closetButton.title = available ? `${companion.name}'s 3D closet` : 'Closet coming later';

@@ -1,9 +1,9 @@
-import {beginCosmeticsPreview,confirmDiscardCosmetics,restoreCosmetics} from './eddy-cosmetics.mjs?v=20260915-avatar2';
+import {beginCosmeticsPreview,supportsCosmetics,confirmDiscardCosmetics,restoreCosmetics} from './eddy-cosmetics.mjs?v=20260915-noirfit1';
 import {closetRoute} from './closet-walking.mjs';
-import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260915-avatar2';
+import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260915-noirfit1';
 import {batchClosetSurfaces} from './closet-static-batches.mjs';
 import * as THREE from './vendor/three/three.module.js';
-import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-blinktrophy1';
+import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-noirfit1';
 import { buildPhoebeCloset, PHOEBE_CLOSET_PROFILE } from './phoebe-closet-3d.mjs?v=20260915-phoebe1';
 
 let activeClose = null;
@@ -946,7 +946,7 @@ function mountCloset(root, character, signal) {
   report(10,'Building dressing room…');
   const isElsie = character === 'elsie';
   const isPhoebe = character === 'phoebe';
-  const characterName = isPhoebe ? 'Phoebe' : isElsie ? 'Elsie' : 'Eddy';
+  const characterName = isPhoebe ? 'Phoebe' : isElsie ? 'Elsie' : character === 'noir' ? 'Noir' : 'Eddy';
   const roomSettings = isPhoebe ? PHOEBE_CLOSET_PROFILE : isElsie ? {
     background: '#f1e5df', fogDensity: .006, exposure: 1.18,
     start: [-3.55, .18, 1.20], target: [-.30, 1.65, .25],
@@ -1418,10 +1418,10 @@ function mountCloset(root, character, signal) {
 export function openCompanionCloset({ character = 'eddy' } = {}) {
   if(activeClose&&activeClose()===false)return {close:activeClose};
   void restoreCosmetics();
-  if(character==='eddy')beginCosmeticsPreview();
+  if(supportsCosmetics(character))beginCosmeticsPreview();
   const isElsie = character === 'elsie';
   const isPhoebe = character === 'phoebe';
-  const characterName = isPhoebe ? 'Phoebe' : isElsie ? 'Elsie' : 'Eddy';
+  const characterName = isPhoebe ? 'Phoebe' : isElsie ? 'Elsie' : character === 'noir' ? 'Noir' : 'Eddy';
   const collection = isPhoebe
     ? '<tr><td><div class="expression-closet-item"><span aria-hidden="true" style="font-size:38px">🧥</span><strong>Blue Tailoring</strong><span>On display</span></div></td>' +
       '<td><div class="expression-closet-item"><span aria-hidden="true" style="font-size:38px">🪞</span><strong>Vanity</strong><span>On display</span></div></td></tr>' +
@@ -1469,11 +1469,11 @@ export function openCompanionCloset({ character = 'eddy' } = {}) {
   document.body.append(dialog);
 
   const controller = new AbortController();
-  if(character==='eddy')mountClosetInventory(dialog.querySelector('.expression-closet-inventory'),controller.signal);
+  if(supportsCosmetics(character))mountClosetInventory(dialog.querySelector('.expression-closet-inventory'),controller.signal,{character});
   let closed = false;
   const close = () => {
     if (closed) return true;
-    if(character==='eddy'&&!confirmDiscardCosmetics())return false;
+    if(supportsCosmetics(character)&&!confirmDiscardCosmetics())return false;
     closed = true;
     controller.abort();
     if (dialog.open) dialog.close();

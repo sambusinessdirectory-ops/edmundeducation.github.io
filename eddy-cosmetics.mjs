@@ -7,7 +7,9 @@ export const COSMETICS=Object.freeze([
 ]);
 export const cleanEquipment=value=>Object.fromEntries(COSMETICS.filter(item=>value?.[item.slot]===item.id).map(item=>[item.slot,item.id]));
 export function cleanWardrobe(value){return {equipped:cleanEquipment(value?.equipped),outfits:(Array.isArray(value?.outfits)?value.outfits:[]).slice(0,50).filter(x=>typeof x?.name==='string'&&x.name.trim()).map(x=>({name:x.name.trim().slice(0,60),equipped:cleanEquipment(x.equipped),...(x.favorite===true?{favorite:true}:{})}))};}
-export const cosmeticAsset=id=>new URL('./assets/speaking-system/cosmetics/eddy/'+id+'.webp?v=20260915-avatar2',import.meta.url).href;
+export const COSMETIC_CHARACTERS=Object.freeze(['eddy','noir']);
+export const supportsCosmetics=id=>COSMETIC_CHARACTERS.includes(id);
+export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20260915-noirfit1',import.meta.url).href;
 let owner='',token='',wardrobe=cleanWardrobe(),equipped={},revision=0,client,connection,pendingRestore,previewActive=false,lastSync=0,saveEpoch=0,saving=0;
 const listeners=new Set(),images=new Map(),atlases=new Map();
 const session=()=>globalThis.window?.EdmundSystemNav?.getStudentSession?.();
@@ -77,19 +79,19 @@ export async function toggleOutfitFavorite(name){
  wardrobe=result;try{localStorage.setItem(key(owner),JSON.stringify(result));}catch{}notify();return result;
  }finally{saving--;}
 }
-function load(id){if(images.has(id))return images.get(id);const img=new Image();images.set(id,img);img.onload=()=>{atlases.clear();for(const fn of listeners)fn();};img.src=cosmeticAsset(id);return img;}
+function load(id,character='eddy'){const key=character+':'+id;if(images.has(key))return images.get(key);const img=new Image();images.set(key,img);img.onload=()=>{atlases.clear();for(const fn of listeners)fn();};img.src=cosmeticAsset(id,character);return img;}
 // One composite per equipment/base combination, never one per animation frame.
 export function cosmeticAtlas(id,base,{preview=false}={}){
  const rendered=preview?equipped:wardrobe.equipped;
- if(id!=='eddy'||!base?.naturalWidth||!Object.keys(rendered).length)return base;
- const cacheKey=base.src+'|'+JSON.stringify(rendered);if(atlases.has(cacheKey))return atlases.get(cacheKey);
+ if(!supportsCosmetics(id)||!base?.naturalWidth||!Object.keys(rendered).length)return base;
+ const cacheKey=id+'|'+base.src+'|'+JSON.stringify(rendered);if(atlases.has(cacheKey))return atlases.get(cacheKey);
  const ids=[rendered.top,rendered.headwear,rendered.headwear&&'hat-hide'].filter(Boolean);
- if(ids.map(load).some(img=>!img.complete||!img.naturalWidth))return base;
+ if(ids.map(item=>load(item,id)).some(img=>!img.complete||!img.naturalWidth))return base;
  const canvas=document.createElement('canvas');canvas.width=base.naturalWidth;canvas.height=base.naturalHeight;
  const ctx=canvas.getContext('2d');ctx.drawImage(base,0,0);
  // Tailored overlays already follow the neck, cuffs and tail cutouts.
- if(rendered.top)ctx.drawImage(load(rendered.top),0,0,canvas.width,canvas.height);
- if(rendered.headwear){ctx.globalCompositeOperation='destination-out';ctx.drawImage(load('hat-hide'),0,0,canvas.width,canvas.height);ctx.globalCompositeOperation='source-over';ctx.drawImage(load(rendered.headwear),0,0,canvas.width,canvas.height);}
+ if(rendered.top)ctx.drawImage(load(rendered.top,id),0,0,canvas.width,canvas.height);
+ if(rendered.headwear){ctx.globalCompositeOperation='destination-out';ctx.drawImage(load('hat-hide',id),0,0,canvas.width,canvas.height);ctx.globalCompositeOperation='source-over';ctx.drawImage(load(rendered.headwear,id),0,0,canvas.width,canvas.height);}
  canvas.naturalWidth=canvas.width;canvas.naturalHeight=canvas.height;canvas.complete=true;
  atlases.set(cacheKey,canvas);return canvas;
 }

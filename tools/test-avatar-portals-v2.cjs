@@ -41,13 +41,17 @@ for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.POR
  if(await page.locator('[data-horsey-map], [data-sentence-map]').isHidden())await page.locator(selector).click();
 
  const mapRoot=page.locator('[data-horsey-map], [data-sentence-map]');
- await page.evaluate(async first=>{window.wardrobe=await import('/eddy-cosmetics.mjs?v=20260915-avatar2');await wardrobe.restoreCosmetics();if(first){wardrobe.beginCosmeticsPreview();wardrobe.equipCosmetic('white-fedora');wardrobe.equipCosmetic('blue-swordsman-jacket');await wardrobe.saveAvatar();wardrobe.discardCosmeticsPreview();}},portal==='sentence-structure');
+ await page.evaluate(async first=>{window.wardrobe=await import('/eddy-cosmetics.mjs?v=20260915-noirfit1');await wardrobe.restoreCosmetics();if(first){wardrobe.beginCosmeticsPreview();wardrobe.equipCosmetic('white-fedora');wardrobe.equipCosmetic('blue-swordsman-jacket');await wardrobe.saveAvatar();wardrobe.discardCosmeticsPreview();}},portal==='sentence-structure');
  await page.waitForFunction(()=>wardrobe.cosmeticsState().savedEquipment.top==='blue-swordsman-jacket');
  await page.evaluate(async()=>{const image=new Image();image.src='/assets/speaking-system/mascots/v4/eddy-standing.png';await image.decode();window.avatarBase=image;wardrobe.cosmeticAtlas('eddy',image);});
  await page.waitForFunction(()=>wardrobe.cosmeticAtlas('eddy',avatarBase)!==avatarBase);
+ await page.evaluate(async()=>{const image=new Image();image.src='/assets/speaking-system/mascots/v4/noir-standing.png';await image.decode();window.noirBase=image;wardrobe.cosmeticAtlas('noir',image);});
+ await page.waitForFunction(()=>wardrobe.cosmeticAtlas('noir',noirBase)!==noirBase);
+ const noirOriginal=await page.evaluate(()=>wardrobe.cosmeticAtlas('noir',noirBase).toDataURL());
  const original=await page.evaluate(()=>wardrobe.cosmeticAtlas('eddy',avatarBase).toDataURL());
  await page.evaluate(()=>{wardrobe.beginCosmeticsPreview();wardrobe.equipCosmetic('cream-cable-knit');});
  assert.equal(await page.evaluate(()=>wardrobe.cosmeticAtlas('eddy',avatarBase).toDataURL()),original,portal+' map uses saved avatar during draft');
+ assert.equal(await page.evaluate(()=>wardrobe.cosmeticAtlas('noir',noirBase).toDataURL()),noirOriginal,portal+' Noir retains saved outfit during draft');
  await page.evaluate(()=>wardrobe.discardCosmeticsPreview());
  assert.deepEqual(errors,[],portal);console.log('PASS saved avatar:',portal);await page.close();
 }

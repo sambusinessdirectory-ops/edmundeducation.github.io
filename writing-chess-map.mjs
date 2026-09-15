@@ -1,7 +1,7 @@
 import { MAP_COMPANIONS } from './map-companions.mjs?v=20260915-noirceleste1';
-import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-avatar2';
+import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-noirfit1';
 import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-blinktrophy1';
-import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
+import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-noirfit1';
 
 const CHARACTERS = MAP_COMPANIONS;
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

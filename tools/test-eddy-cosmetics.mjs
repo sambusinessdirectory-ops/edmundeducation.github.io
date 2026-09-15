@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {cleanEquipment,cleanWardrobe,equipCosmetic,equipOutfit,clearCosmetics,cosmeticsState,restoreCosmetics,saveAvatar} from '../eddy-cosmetics.mjs';
-test('independent headwear/top slots allow only Eddy catalog items',()=>{
+test('independent headwear/top slots allow shared Eddy and Noir catalog items',()=>{
  clearCosmetics();equipCosmetic('white-fedora');equipCosmetic('cream-cable-knit');
  assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora',top:'cream-cable-knit'});
  equipCosmetic('charcoal-turtleneck');assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora',top:'charcoal-turtleneck'});
@@ -44,4 +44,14 @@ test('favorites survive cleaning only as booleans',()=>{
  const favorite=cleanWardrobe({outfits:[{name:'Blue',equipped:{top:'blue-swordsman-jacket'},favorite:true}]}).outfits[0];
  assert.equal(favorite.favorite,true);
  assert.equal(cleanWardrobe({outfits:[{name:'Blue',equipped:{},favorite:'true'}]}).outfits[0].favorite,undefined);
+});
+
+test('every shared item ships independent Eddy and Noir fits',async()=>{
+ const {COSMETICS,COSMETIC_CHARACTERS,supportsCosmetics}=await import('../eddy-cosmetics.mjs');
+ const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
+ assert.deepEqual(COSMETIC_CHARACTERS,['eddy','noir']);assert.equal(supportsCosmetics('celeste'),false);
+ for(const item of [...COSMETICS.map(x=>x.id),'hat-hide']){
+  const hashes=COSMETIC_CHARACTERS.map(character=>{const b=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/'+item+'.webp',import.meta.url));assert.equal(b.toString('ascii',0,4),'RIFF');assert.equal(b.toString('ascii',8,12),'WEBP');assert.ok(b.length>500,item+' '+character+' must contain fitted artwork');return createHash('sha256').update(b).digest('hex');});
+  assert.notEqual(hashes[0],hashes[1],item+' must be fitted separately for both characters');
+ }
 });

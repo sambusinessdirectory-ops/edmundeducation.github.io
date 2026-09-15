@@ -14,33 +14,33 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  await page.goto(origin+'/__outfits');
  await page.evaluate(async()=>{
   window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260915-noirfit1');await cosmetics.restoreCosmetics();
-  window.base=new Image();base.src='/assets/speaking-system/mascots/v4/eddy-standing.png';await base.decode();
+  window.base=new Image();base.src='/assets/speaking-system/mascots/v4/noir-standing.png';await base.decode();
   const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20260915-noirfit1');mountClosetInventory(document.querySelector('#inventory'),new AbortController().signal);
  });
  await page.locator('[data-cosmetic=white-fedora]').click();await page.locator('[data-cosmetic=cream-cable-knit]').click();
  assert.equal(await page.locator('[data-cosmetic][aria-pressed=true]').count(),2);
  await page.locator('#closet-outfit-name').fill('Cream + fedora');await page.locator('button[type=submit]').click();await page.getByRole('status').filter({hasText:'Saved to your account'}).waitFor();
  assert.deepEqual(saved.equipped,{headwear:'white-fedora',top:'cream-cable-knit'});
- await page.evaluate(()=>cosmetics.cosmeticAtlas('eddy',base,{preview:true}));await page.waitForFunction(()=>cosmetics.cosmeticAtlas('eddy',base,{preview:true})!==base);
- await page.evaluate(()=>{const c=cosmetics.cosmeticAtlas('eddy',base,{preview:true});c.className='gallery';document.body.prepend(c);});
- await page.locator('canvas.gallery').screenshot({path:'/tmp/eddy-cream-fedora.png'});
- assert.equal(await page.evaluate(()=>cosmetics.cosmeticAtlas('eddy',base,{preview:true})===cosmetics.cosmeticAtlas('eddy',base,{preview:true})),true);
+ await page.evaluate(()=>cosmetics.cosmeticAtlas('noir',base,{preview:true}));await page.waitForFunction(()=>cosmetics.cosmeticAtlas('noir',base,{preview:true})!==base);
+ await page.evaluate(()=>{const c=cosmetics.cosmeticAtlas('noir',base,{preview:true});c.className='gallery';document.body.prepend(c);});
+ await page.locator('canvas.gallery').screenshot({path:'/tmp/noir-cream-fedora.png'});
+ assert.equal(await page.evaluate(()=>cosmetics.cosmeticAtlas('noir',base,{preview:true})===cosmetics.cosmeticAtlas('noir',base,{preview:true})),true);
  assert.equal(await page.evaluate(()=>cosmetics.cosmeticAtlas('phoebe',base)===base),true);
  await page.locator('[data-cosmetic=charcoal-turtleneck]').click();
  assert.equal(await page.locator('[data-cosmetic=cream-cable-knit]').getAttribute('aria-pressed'),'false');
  assert.equal(await page.locator('[data-cosmetic=white-fedora]').getAttribute('aria-pressed'),'true');
- await page.evaluate(()=>cosmetics.cosmeticAtlas('eddy',base,{preview:true}));await page.waitForFunction(()=>cosmetics.cosmeticAtlas('eddy',base,{preview:true})!==base);
- await page.evaluate(()=>{document.querySelector('canvas.gallery').remove();const c=cosmetics.cosmeticAtlas('eddy',base,{preview:true});c.className='gallery';document.body.prepend(c);});
- await page.locator('canvas.gallery').screenshot({path:'/tmp/eddy-charcoal-fedora.png'});
+ await page.evaluate(()=>cosmetics.cosmeticAtlas('noir',base,{preview:true}));await page.waitForFunction(()=>cosmetics.cosmeticAtlas('noir',base,{preview:true})!==base);
+ await page.evaluate(()=>{document.querySelector('canvas.gallery').remove();const c=cosmetics.cosmeticAtlas('noir',base,{preview:true});c.className='gallery';document.body.prepend(c);});
+ await page.locator('canvas.gallery').screenshot({path:'/tmp/noir-charcoal-fedora.png'});
  await page.locator('[data-cosmetic=blue-swordsman-jacket]').click();
  assert.equal(await page.locator('[data-cosmetic=charcoal-turtleneck]').getAttribute('aria-pressed'),'false');
  assert.equal(await page.locator('[data-cosmetic=white-fedora]').getAttribute('aria-pressed'),'true');
- await page.evaluate(()=>cosmetics.cosmeticAtlas('eddy',base,{preview:true}));await page.waitForFunction(()=>cosmetics.cosmeticAtlas('eddy',base,{preview:true})!==base);
- await page.evaluate(()=>{document.querySelector('canvas.gallery').remove();const c=cosmetics.cosmeticAtlas('eddy',base,{preview:true});c.className='gallery';document.body.prepend(c);});
- await page.locator('canvas.gallery').screenshot({path:'/tmp/eddy-jacket-fedora.png'});
+ await page.evaluate(()=>cosmetics.cosmeticAtlas('noir',base,{preview:true}));await page.waitForFunction(()=>cosmetics.cosmeticAtlas('noir',base,{preview:true})!==base);
+ await page.evaluate(()=>{document.querySelector('canvas.gallery').remove();const c=cosmetics.cosmeticAtlas('noir',base,{preview:true});c.className='gallery';document.body.prepend(c);});
+ await page.locator('canvas.gallery').screenshot({path:'/tmp/noir-jacket-fedora.png'});
  await page.locator('[data-cosmetic=white-fedora]').click();
- await page.evaluate(()=>{document.querySelector('canvas.gallery').remove();const c=cosmetics.cosmeticAtlas('eddy',base,{preview:true});c.className='gallery';document.body.prepend(c);});
- await page.locator('canvas.gallery').screenshot({path:'/tmp/eddy-jacket-alone.png'});
+ await page.evaluate(()=>{document.querySelector('canvas.gallery').remove();const c=cosmetics.cosmeticAtlas('noir',base,{preview:true});c.className='gallery';document.body.prepend(c);});
+ await page.locator('canvas.gallery').screenshot({path:'/tmp/noir-jacket-alone.png'});
  assert.equal(await page.evaluate(()=>cosmetics.cosmeticAtlas('elsie',base)===base),true);
  await page.locator('[data-cosmetic=white-fedora]').click();
  await page.locator('#closet-outfit-name').fill('Swordsman');await page.locator('button[type=submit]').click();
@@ -55,7 +55,7 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  await page.evaluate(async()=>{
   const THREE=await import('/vendor/three/three.module.js');
   const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260915-noirfit1');
-  const system=new MascotCharacters(undefined,undefined,{preview:true});const actor=await system.create('eddy','standing');
+  const system=new MascotCharacters(undefined,undefined,{preview:true});const actor=await system.create('noir','standing');
   for(const name of ['elsie','phoebe']){
    const companion=await system.create(name,'standing');
    if(!companion.resource.atlas.image.naturalWidth||!companion.resource.blink.image.naturalWidth)throw Error(name+' open/blink artwork did not load');
@@ -77,9 +77,9 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
   renderer.domElement.id='turn-comparison';document.body.prepend(renderer.domElement);
   window.turnQA={system,renderer};
  });
- await page.locator('#turn-comparison').screenshot({path:'/tmp/eddy-turn-comparison.png'});
+ await page.locator('#turn-comparison').screenshot({path:'/tmp/noir-turn-comparison.png'});
  await page.evaluate(()=>{turnQA.system.dispose();turnQA.renderer.dispose();document.querySelector('#turn-comparison').remove();});
- await page.evaluate(async()=>{const {openCompanionCloset}=await import('/common-expression-closet-3d.mjs');window.closet=openCompanionCloset();});
+ await page.evaluate(async()=>{const {openCompanionCloset}=await import('/common-expression-closet-3d.mjs');window.closet=openCompanionCloset({character:'noir'});});
  await page.waitForFunction(()=>document.querySelector('[data-closet-stage] canvas')?.dataset.actorPosition,{timeout:60000});
  await page.waitForFunction(()=>document.querySelector('[data-closet-loading]').hidden);
  const savedLook=await page.evaluate(()=>cosmetics.cosmeticsState().savedEquipment);
@@ -92,7 +92,7 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  assert.equal(await page.locator('dialog').count(),0);
  assert.deepEqual(await page.evaluate(()=>cosmetics.cosmeticsState().equipped),savedLook);
  assert.equal(await page.evaluate(()=>cosmetics.cosmeticsState().dirty),false);
- await page.evaluate(async()=>{const {openCompanionCloset}=await import('/common-expression-closet-3d.mjs');window.closet=openCompanionCloset();});
+ await page.evaluate(async()=>{const {openCompanionCloset}=await import('/common-expression-closet-3d.mjs');window.closet=openCompanionCloset({character:'noir'});});
  await page.waitForFunction(()=>document.querySelector('[data-closet-stage] canvas')?.dataset.actorPosition&&document.querySelector('[data-closet-loading]').hidden);
 
  const canvas=page.locator('[data-closet-stage] canvas');
@@ -102,13 +102,13 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
 
  await page.waitForFunction(previous=>document.querySelector('[data-closet-stage] canvas').dataset.actorPosition!==previous,before,{timeout:10000});
  await page.waitForFunction(()=>{const c=document.querySelector('[data-closet-stage] canvas'),a=c.dataset.actorPosition.split(',').map(Number),b=c.dataset.walkDestination.split(',').map(Number);return Math.hypot(a[0]-b[0],a[1]-b[1])<.15;},{timeout:15000});
- await page.locator('dialog').screenshot({path:'/tmp/eddy-closet-outfit.png'});
- await page.locator('dialog').screenshot({path:'/tmp/eddy-jacket-closet.png'});
+ await page.locator('dialog').screenshot({path:'/tmp/noir-closet-outfit.png'});
+ await page.locator('dialog').screenshot({path:'/tmp/noir-jacket-closet.png'});
  await page.setViewportSize({width:390,height:844});
  await page.locator('[data-save-avatar]').scrollIntoViewIfNeeded();
  assert.equal(await page.locator('[data-save-avatar]').isVisible(),true);
  assert.equal(await page.locator('dialog').evaluate(e=>e.scrollWidth<=e.clientWidth+2),true,'Mobile closet has no horizontal overflow');
- await page.locator('dialog').screenshot({path:'/tmp/eddy-closet-mobile.png'});
+ await page.locator('dialog').screenshot({path:'/tmp/noir-closet-mobile.png'});
  await page.evaluate(()=>closet.close());
  for(const character of ['elsie','phoebe']){
   await page.evaluate(async character=>{const {openCompanionCloset}=await import('/common-expression-closet-3d.mjs');window.closet=openCompanionCloset({character});},character);
@@ -116,5 +116,5 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
   assert.equal(await page.locator('dialog').evaluate(e=>e.scrollWidth<=e.clientWidth+2),true);await page.evaluate(()=>closet.close());
  }
  await page.evaluate(async()=>{window.EdmundSystemNav.getStudentSession=()=>({id:'fixture-b',token:'other-token'});await cosmetics.restoreCosmetics();});assert.deepEqual(await page.evaluate(()=>cosmetics.cosmeticsState().equipped),{});
- assert.deepEqual(errors,[]);console.log('PASS: slots, combined atlas caching, equipped state, named sets, save/reload, 3D closet and account isolation');
+ assert.deepEqual(errors,[]);console.log('Noir PASS: slots, combined atlas caching, equipped state, named sets, save/reload, 3D closet and account isolation');
  }finally{await browser.close();server.close();}})().catch(e=>{console.error(e);process.exitCode=1;server.close();});

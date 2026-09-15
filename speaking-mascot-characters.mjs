@@ -1,7 +1,7 @@
 import * as THREE from './vendor/three/three.module.js';
-import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-avatar2';
+import { cosmeticAtlas, supportsCosmetics, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-noirfit1';
 import {MASCOT_VIEWS} from './speaking-mascot-views.mjs?v=20260915-blinktrophy1';
-import {viewPair, mouthOpening, blinkAmount, COAT_COLOURS} from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
+import {viewPair, mouthOpening, blinkAmount, COAT_COLOURS} from './speaking-mascot-behaviour.mjs?v=20260915-noirfit1';
 import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20260915-tailored1';
 
 export class MascotCharacters {
@@ -71,9 +71,9 @@ export class MascotCharacters {
   }
   refreshCosmetics() {
     for(const actor of this.actors){
-      if(actor.name!=='eddy'||actor.pose!=='standing')continue;
+      if(!supportsCosmetics(actor.name)||actor.pose!=='standing')continue;
       const r=actor.resource,u=actor.mesh.material.uniforms;
-      const open=cosmeticAtlas('eddy',r.atlas.image,{preview:this.previewCosmetics}),blink=cosmeticAtlas('eddy',(r.blink||r.atlas).image,{preview:this.previewCosmetics});
+      const open=cosmeticAtlas(actor.name,r.atlas.image,{preview:this.previewCosmetics}),blink=cosmeticAtlas(actor.name,(r.blink||r.atlas).image,{preview:this.previewCosmetics});
       if(actor.cosmeticOpen===open&&actor.cosmeticBlink===blink)continue;
       actor.cosmeticTextures?.forEach(t=>t.dispose());
       actor.cosmeticTextures=[];

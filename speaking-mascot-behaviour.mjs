@@ -1,5 +1,5 @@
 export const TAU = Math.PI * 2;
-export const COAT_COLOURS = Object.freeze({eddy: '#A35627', elsie: '#C56523', phoebe: '#A76742'});
+export const COAT_COLOURS = Object.freeze({eddy: '#A35627', elsie: '#C56523', phoebe: '#A76742', noir: '#393634', celeste: '#eee9e7'});
 export const BLINK_FRAME_SECONDS = .12;
 export const wrapAngle = angle => ((angle + Math.PI) % TAU + TAU) % TAU - Math.PI;
 export const positiveAngle = angle => ((angle % TAU) + TAU) % TAU;
