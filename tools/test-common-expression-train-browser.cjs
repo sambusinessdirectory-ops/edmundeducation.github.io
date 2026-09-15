@@ -72,7 +72,7 @@ let browser;
 
  await page.setViewportSize({width:1600,height:1300});
  const evidence=await page.evaluate(async()=>{
-  const {BUSINESS_AIRPORT,AIRPORT_INVENTORY}=await import('./common-expression-airport.mjs?v=20260915-poker1');
+  const {BUSINESS_AIRPORT,AIRPORT_INVENTORY}=await import('./common-expression-airport.mjs?v=20260915-poker2');
   const root=document.createElement('div');root.className='expression-map';root.dataset.theme='airport';root.style.cssText='position:relative;width:1600px;height:1200px';
   root.innerHTML='<div class="expression-map-heading"><small></small></div>'+BUSINESS_AIRPORT.terrain([],mapTest.lessons);document.body.append(root);
   const animation=BUSINESS_AIRPORT.mount(root,{matches:false});await new Promise(r=>setTimeout(r,100));
@@ -168,7 +168,7 @@ let browser;
  await page.setViewportSize({width:390,height:844});await page.waitForTimeout(150);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.locator('[data-expression-map]').screenshot({path:artifactDir+'/poker-phone.png'});
  await page.setViewportSize({width:1600,height:1300});
  const pokerEvidence=await page.evaluate(async()=>{
-  const {pokerTerrain,mountPoker}=await import('./common-expression-poker.mjs?v=20260915-poker1');const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='poker-review';root.innerHTML=pokerTerrain();root.querySelector('section').style.top='0';document.body.append(root);const motion=mountPoker(root,{matches:false});await new Promise(r=>setTimeout(r,100));const c=root.querySelector('canvas'),ctx=c.getContext('2d');const regions={martini:[220,135,190,100],whiskey:[1235,220,150,130],felt:[500,450,800,500],stem:[295,250,70,100]};const samples=()=>Object.fromEntries(Object.entries(regions).map(([k,r])=>[k,Array.from(ctx.getImageData(...r).data)]));motion.draw(1000);const a=samples();for(let i=1;i<=150;i++)motion.draw(1000+i*32);const b=samples();window.pokerReview={root,motion};return Object.fromEntries(Object.keys(a).map(k=>[k,a[k].reduce((n,v,i)=>n+(v!==b[k][i]),0)]));
+  const {pokerTerrain,mountPoker}=await import('./common-expression-poker.mjs?v=20260915-poker2');const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='poker-review';root.innerHTML=pokerTerrain();root.querySelector('section').style.top='0';document.body.append(root);const motion=mountPoker(root,{matches:false});await new Promise(r=>setTimeout(r,100));const c=root.querySelector('canvas'),ctx=c.getContext('2d');const regions={martini:[220,135,190,100],whiskey:[1235,220,150,130],felt:[500,450,800,500],stem:[295,250,70,100]};const samples=()=>Object.fromEntries(Object.entries(regions).map(([k,r])=>[k,Array.from(ctx.getImageData(...r).data)]));motion.draw(1000);const a=samples();for(let i=1;i<=150;i++)motion.draw(1000+i*32);const b=samples();window.pokerReview={root,motion};return Object.fromEntries(Object.keys(a).map(k=>[k,a[k].reduce((n,v,i)=>n+(v!==b[k][i]),0)]));
  });
  assert.ok(pokerEvidence.martini>20&&pokerEvidence.whiskey>20);assert.equal(pokerEvidence.felt,0);assert.equal(pokerEvidence.stem,0);fs.writeFileSync(artifactDir+'/poker-motion.json',JSON.stringify(pokerEvidence,null,2));await page.locator('#poker-review').screenshot({path:artifactDir+'/poker-detail.png'});await page.evaluate(()=>{pokerReview.motion.destroy();pokerReview.root.remove();});
  assert.equal(errors.length,0,errors.join('\n'));
