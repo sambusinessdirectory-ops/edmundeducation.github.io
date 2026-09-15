@@ -21,3 +21,7 @@ Final transparency prompt: Background extraction: preserve exactly this smooth o
 Shell master: `exec-a1fbd352-b30a-4eef-8207-b4dedcf28a3f.png`. Smooth sea star master: `exec-3f6b018a-8874-4b7e-8b1d-1511638403ad.png`.
 
 Motion now reuses the Sentence Structure flying gull rig, applies a continuous band deformation to the water artwork, draws rolling ocean foam, and places expanding ripples within each tidepool. Sea stars flex gently with continuous strip deformation. Reduced motion freezes the scene. Browser checks cover both pools separately, ocean, flying and perched gulls, starfish, unchanged dry sand, lesson navigation and phone containment.
+
+## Water correction
+
+Removed all synthetic ripple rings and foam strokes. Motion now samples only the original painted water through conservative shoreline polygons and a colour-based water mask. The mask is inset beyond the displacement distance and fades to zero at its edges; nearby rock texture cannot be pulled into the animated water. Ocean and both pools retain motion. Browser regression checks confirm fixed left/right foreground rock patches and dry sand remain pixel-identical across frames.
