@@ -106,7 +106,7 @@ jobs:
             proverb-system-data.js \
             workers/proverb-system/src/catalog.js \
             supabase-proverb-system-lessons-2-3.sql
-          node --test tools/test-proverb-system.mjs
+          node --test tools/test-proverb-system.mjs tools/test-proverb-black-sand.mjs
           node workers/proverb-system/scripts/verify-catalog.mjs
           npm test --prefix workers/proverb-system
 
