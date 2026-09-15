@@ -8,11 +8,13 @@ assert.equal(view('phoebe',235).sourceCell,5);
 assert.equal(view('elsie',235).sourceCell,6);
 assert.equal(view('elsie',235).mirror,true);
 assert.ok(view('elsie',250).mirror);
-for(const id of ['eddy','phoebe','elsie'])assert.ok(TROPHY_ART[id].map.includes(id==='eddy'?'eddie':id));
-assert.equal(new Set(Object.values(TROPHY_ART).map(a=>a.map)).size,3);
+for(const id of ['eddy','phoebe','elsie','noir','celeste'])assert.ok(TROPHY_ART[id].map.includes(id==='eddy'?'eddie':id));
+assert.equal(new Set(Object.values(TROPHY_ART).map(a=>a.map)).size,5);
 const values=[],vector={fromArray(v){values.push([...v]);},set(){}};
 const uniforms={bodyRects:{value:[vector,vector]},bodyLayouts:{value:[vector,vector]},bodyFlow:{value:vector},bodyBlend:{}};
 const data=MASCOT_VIEWS.elsie.standing,index=data.views.findIndex(v=>v.angle===235);
 applyViewPair({uniforms},'body',data,{first:index,second:index,blend:0});
 assert.ok(values[0][2]<0,'3D texture coordinates mirror the same rear view as the 2D renderer');
 console.log('PASS: Phoebe rear diagonals, Elsie mirrored rear views, 2D/3D identity data and distinct trophy assets');
+
+for(const id of ['noir','celeste']){assert.notEqual(MASCOT_VIEWS[id].standing.image,MASCOT_VIEWS[id].standing.blinkImage);for(const tier of ['silver','bronze'])assert.ok(TROPHY_ART[id].metals[tier].includes(tier+'-'+id));}

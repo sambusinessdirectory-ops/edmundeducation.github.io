@@ -3,7 +3,7 @@ import {closetRoute} from './closet-walking.mjs';
 import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260915-avatar2';
 import {batchClosetSurfaces} from './closet-static-batches.mjs';
 import * as THREE from './vendor/three/three.module.js';
-import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-noirceleste1';
+import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-blinktrophy1';
 import { buildPhoebeCloset, PHOEBE_CLOSET_PROFILE } from './phoebe-closet-3d.mjs?v=20260915-phoebe1';
 
 let activeClose = null;

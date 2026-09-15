@@ -4,6 +4,7 @@ const sharp=require(process.env.HOME+'/.cache/codex-runtimes/codex-primary-runti
 const root=path.resolve(__dirname,'../..'),out=path.join(root,'assets/speaking-system/mascots/v4');
 const angles=[0,30,60,75,90,115,145,160,180,210,235,250,270,300,330,350];
 (async()=>{
+const blinkBuild=process.argv.includes('--blink');
 const source=process.argv[2];if(!source)throw Error('Pass the chroma source sheet');
 const {data,info}=await sharp(source).removeAlpha().raw().toBuffer({resolveWithObject:true});
 const rgba=Buffer.alloc(info.width*info.height*4);
@@ -34,10 +35,10 @@ for(const [name,offset,selection] of [
   layers.push({input:buf,left:(i%4)*256+Math.round((256-m.width)/2),top:Math.floor(i/4)*256+244-m.height});
  }
  const atlas=await sharp({create:{width:1024,height:1024,channels:4,background:'#00000000'}}).composite(layers).png().toBuffer();
- fs.writeFileSync(path.join(out,name+'-standing.png'),atlas);
- await sharp(atlas).webp({quality:95}).toFile(path.join(out,name+'-standing-clean.webp'));
- fs.writeFileSync(path.join(out,name+'-standing.flow'),Buffer.alloc(512*512*4,128));
- manifest[name]={standing:{sourceCoat:name==='noir'?'#393634':'#eee9e7',folder:'v4',image:name+'-standing.png',blinkImage:name+'-standing.png',flow:name+'-standing.flow',flowSize:128,flowGrid:[4,4],flowRange:0,views:angles.map((angle,i)=>({rect:[i%4/4,1-(Math.floor(i/4)+1)/4,.25,.25],layout:[0,0,1,1],mouth:[.5,.5,0],sourceCell:i,angle}))}};
+ fs.writeFileSync(path.join(out,name+(blinkBuild?'-blink-draft.png':'-standing.png')),atlas);
+ if(!blinkBuild)await sharp(atlas).webp({quality:95}).toFile(path.join(out,name+'-standing-clean.webp'));
+ if(!blinkBuild)fs.writeFileSync(path.join(out,name+'-standing.flow'),Buffer.alloc(512*512*4,128));
+ manifest[name]={standing:{sourceCoat:name==='noir'?'#393634':'#eee9e7',folder:'v4',image:name+'-standing.png',blinkImage:fs.existsSync(path.join(out,name+'-blink-v1.png'))?name+'-blink-v1.png':name+'-standing.png',flow:name+'-standing.flow',flowSize:128,flowGrid:[4,4],flowRange:0,views:angles.map((angle,i)=>({rect:[i%4/4,1-(Math.floor(i/4)+1)/4,.25,.25],layout:[0,0,1,1],mouth:[.5,.5,0],sourceCell:i,angle}))}};
 }
-fs.writeFileSync(manifestFile,'// Measured crop, mouth and view data. Source PNGs are unchanged.\nexport const MASCOT_VIEWS = '+JSON.stringify(manifest)+';\n');
+if(!blinkBuild)fs.writeFileSync(manifestFile,'// Measured crop, mouth and view data. Source PNGs are unchanged.\nexport const MASCOT_VIEWS = '+JSON.stringify(manifest)+';\n');
 })();
