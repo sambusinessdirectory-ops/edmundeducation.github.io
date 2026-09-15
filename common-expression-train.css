@@ -45,3 +45,14 @@
 .poker-platform:hover .poker-counter,.poker-platform[aria-pressed=true] .poker-counter{filter:drop-shadow(0 0 5px #ffe5a4) drop-shadow(1px 6px 3px #06191088) brightness(1.07)}
 .poker-platform:focus-visible{outline:3px solid #ffdea0!important;outline-offset:4px;border-radius:30px}
 .business-area-tabs [data-business-area=poker][aria-pressed=true]{background:#123d30;border-color:#123d30}
+.pool-realm{position:absolute;left:0;width:1600px;height:1200px;isolation:isolate;overflow:hidden;background:#155e40}
+.pool-background,.pool-route,.pool-motion{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.pool-route{z-index:1}.pool-motion{z-index:2}
+.pool-platform{position:absolute;z-index:3;width:140px;height:126px;margin:-47px 0 0 -70px;padding:0;border:0;background:none;text-align:center;cursor:pointer;color:#fff4d6}
+.pool-ball{position:absolute;left:24px;top:0;width:92px;height:92px;border-radius:50%;background:var(--ball-color);box-shadow:inset -9px -12px 14px #00171099,inset 3px 4px 5px #ffffff50,5px 10px 7px #072d26aa,1px 3px 2px #092219;overflow:hidden;pointer-events:none}
+.pool-ball::before{content:'';position:absolute;inset:0;border-radius:50%;background:radial-gradient(ellipse at 31% 22%,#ffffffd9 0%,#ffffff55 9%,#ffffff00 28%),radial-gradient(circle at 38% 31%,#ffffff20 15%,transparent 48%,#00000070 100%);z-index:2}
+.pool-platform.is-striped .pool-ball{background:linear-gradient(173deg,#f5edd9 0%,#f5edd9 22%,var(--ball-color) 23%,var(--ball-color) 76%,#ebe0c6 77%)}
+.pool-ball-number{position:absolute;left:22px;top:31px;width:49px;height:44px;border-radius:50%;background:radial-gradient(ellipse at 35% 25%,#fffdf2,#e9dfc6);color:#17241d;font:700 25px/44px Georgia,serif;letter-spacing:-1px;box-shadow:0 1px 1px #ffffff50;z-index:1}
+.pool-platform small{position:absolute;top:102px;left:0;width:100%;font:12px/18px system-ui;color:#fff5de;text-shadow:0 2px 3px #082c20;pointer-events:none}
+.pool-platform:hover .pool-ball,.pool-platform[aria-pressed=true] .pool-ball{outline:3px solid #ffdfa0;outline-offset:5px}
+.pool-platform:focus-visible{outline:3px solid #ffdfa0!important;outline-offset:5px;border-radius:25px}
+.business-area-tabs [data-business-area=pool][aria-pressed=true]{background:#18563b;border-color:#18563b}

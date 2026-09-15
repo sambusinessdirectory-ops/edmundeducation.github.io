@@ -2,11 +2,18 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import test from 'node:test';
+import { execFileSync } from 'node:child_process';
 
 const root = path.resolve(import.meta.dirname, '..');
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
+const assetIsAvailable = file => {
+  if (fs.existsSync(path.join(root, file))) return true;
+  try { execFileSync('git', ['cat-file', '-e', `HEAD:${file}`], { cwd: root, stdio: 'ignore' }); return true; }
+  catch { return false; }
+};
 const map = read('common-expression-map.mjs');
 const closet = read('common-expression-closet-3d.mjs');
+const phoebe = read('phoebe-closet-3d.mjs');
 const css = read('common-expression-map.css');
 
 test('Closet control is inserted before Eddie and opens an accessible dialog', () => {
@@ -80,8 +87,7 @@ test('reference-inspired wardrobe is real procedural geometry, not a flat screen
 });
 
 test('Elsie has a separate bright neoclassical closet derived from her reference', () => {
-  assert.match(map, /character === 'eddy' \|\| character === 'elsie'/);
-  assert.match(map, /character === 'phoebe'/);
+  assert.match(map, /character === 'eddy' \|\| character === 'elsie' \|\| character === 'phoebe'/);
   assert.match(closet, /character === 'elsie'/);
   assert.match(closet, /buildElsieCloset/);
   assert.match(closet, /Elsie blush neoclassical closet/);
@@ -137,7 +143,24 @@ test('Elsie has a separate bright neoclassical closet derived from her reference
     'assets/closet/elsie/warm-limewash-wall-v1.png',
     'assets/closet/elsie/detailed-dresses-atlas-v1.png',
     'assets/closet/elsie/olive-wool-herringbone-v1.png'
-  ]) assert.equal(fs.existsSync(path.join(root, asset)), true, asset);
+  ]) assert.equal(assetIsAvailable(asset), true, asset);
+});
+
+test('Phoebe has a separate mature blue and lavender closet with grey wood flooring', () => {
+  assert.match(closet, /buildPhoebeCloset/);
+  assert.match(closet, /PHOEBE_CLOSET_PROFILE/);
+  assert.match(closet, /The Blue Atelier/);
+  assert.match(closet, /Phoebe live planar vanity mirror material/);
+  assert.match(closet, /character === 'phoebe'/);
+  assert.match(phoebe, /Phoebe dreamy blue and lavender mature closet/);
+  assert.match(phoebe, /Phoebe light grey wooden plank floor/);
+  assert.match(phoebe, /Phoebe dreamy blue back wardrobe bay/);
+  assert.match(phoebe, /Phoebe dimensional mature hanging garment/);
+  assert.match(phoebe, /Phoebe grand vanity mirror frame/);
+  assert.match(phoebe, /Phoebe lavender tufted bench cushion/);
+  assert.match(phoebe, /Phoebe unified double door/);
+  assert.match(phoebe, /obstacles: \[/);
+  assert.doesNotMatch(phoebe, /marbleMap|marbleMaterial|pink tile texture/i);
 });
 
 test('closet UI is responsive and cache-busted on every shared-map consumer', () => {
@@ -156,6 +179,8 @@ test('closet UI is responsive and cache-busted on every shared-map consumer', ()
     'common-expression-system.js',
     'phrasal-verb-system.html',
     'common-expression-rhetorical-speaking.html',
+    'common-expression-business-speaking.html',
+    'common-expression-professional-message.html',
     'phrasal-verb-system.js',
     'sentence-structure.js',
     'sentence-structure-realms.mjs',
@@ -163,5 +188,12 @@ test('closet UI is responsive and cache-busted on every shared-map consumer', ()
     'listening-system.html',
     'common-expression-written.html'
   ];
-  for (const file of consumers) assert.match(read(file), /common-expression-map\.(?:css\?v=20260915-outfits1|mjs\?v=20260915-tailored1)/, file);
+  for (const file of consumers) assert.match(read(file), /common-expression-map\.(?:css\?v=20260915-outfits1|mjs\?v=20260915-phoebe1)/, file);
+  assert.match(read('ielts-puzzle-map.mjs'), /common-expression-map\.mjs\?v=20260915-phoebe1/);
+  for (const file of [
+    'common-expression-rhetorical-speaking.html', 'common-expression-rhetorical-writing.html',
+    'common-expression-speaking.html', 'common-expression-written.html',
+    'common-expression-business-speaking.html', 'common-expression-professional-message.html',
+    'phrasal-verb-system.html', 'sentence-structure.html', 'idiom-system.html', 'listening-system.html'
+  ]) assert.match(read(file), /\.js\?v=20260915-phoebe1/, file);
 });

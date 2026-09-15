@@ -2,6 +2,7 @@ import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260915-tai
 import {batchClosetSurfaces} from './closet-static-batches.mjs';
 import * as THREE from './vendor/three/three.module.js';
 import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-tailored1';
+import { buildPhoebeCloset, PHOEBE_CLOSET_PROFILE } from './phoebe-closet-3d.mjs?v=20260915-phoebe1';
 
 let activeClose = null;
 const clamp = (value, minimum, maximum) => Math.max(minimum, Math.min(maximum, value));
@@ -935,7 +936,9 @@ function buildElsieCloset(scene, resources) {
 function mountCloset(root, character, signal) {
   const resources = { geometries: new Set(), materials: new Set(), textures: new Set(), renderTargets: new Set() };
   const isElsie = character === 'elsie';
-  const roomSettings = isElsie ? {
+  const isPhoebe = character === 'phoebe';
+  const characterName = isPhoebe ? 'Phoebe' : isElsie ? 'Elsie' : 'Eddy';
+  const roomSettings = isPhoebe ? PHOEBE_CLOSET_PROFILE : isElsie ? {
     background: '#f1e5df', fogDensity: .006, exposure: 1.18,
     start: [-3.55, .18, 1.20], target: [-.30, 1.65, .25],
     reset: { yaw: .08, pitch: .22, distance: 12.4 },
@@ -993,7 +996,7 @@ function mountCloset(root, character, signal) {
   const canvas = renderer.domElement;
   canvas.tabIndex = 0;
   canvas.style.touchAction = 'none';
-  canvas.setAttribute('aria-label', `Interactive 3D closet for ${isElsie ? 'Elsie' : 'Eddy'}. Use W A S D to move, drag to look around, and scroll or pinch to zoom.`);
+  canvas.setAttribute('aria-label', `Interactive 3D closet for ${characterName}. Use W A S D to move, drag to look around, and scroll or pinch to zoom.`);
 
   const orbit = () => {
     const horizontal = Math.cos(pitch) * distance;
@@ -1009,10 +1012,10 @@ function mountCloset(root, character, signal) {
   };
   orbit();
 
-  scene.add(new THREE.HemisphereLight(isElsie ? 0xfffbf7 : 0xe4e7ec, isElsie ? 0xb88876 : 0x2b1b14, isElsie ? 1.20 : .82));
-  scene.add(new THREE.AmbientLight(isElsie ? 0xffe9df : 0x8b7969, isElsie ? .54 : .30));
-  const key = new THREE.SpotLight(isElsie ? 0xfff4e6 : 0xffe2bd, isElsie ? 76 : 54, 20, Math.PI / 4.7, .62, 1.18);
-  key.position.set(0, isElsie ? 5.10 : 4.25, 2.4);
+  scene.add(new THREE.HemisphereLight(isPhoebe ? 0xf5f7ff : isElsie ? 0xfffbf7 : 0xe4e7ec, isPhoebe ? 0x8d9db5 : isElsie ? 0xb88876 : 0x2b1b14, isPhoebe ? 1.05 : isElsie ? 1.20 : .82));
+  scene.add(new THREE.AmbientLight(isPhoebe ? 0xdbe8ff : isElsie ? 0xffe9df : 0x8b7969, isPhoebe ? .43 : isElsie ? .54 : .30));
+  const key = new THREE.SpotLight(isPhoebe ? 0xffeadc : isElsie ? 0xfff4e6 : 0xffe2bd, isPhoebe ? 62 : isElsie ? 76 : 54, 20, Math.PI / 4.7, .62, 1.18);
+  key.position.set(0, isPhoebe ? 4.9 : isElsie ? 5.10 : 4.25, 2.4);
   key.target.position.set(0, 1.15, -.9);
   key.castShadow = true;
   key.shadow.mapSize.set(1024, 1024);
@@ -1027,14 +1030,14 @@ function mountCloset(root, character, signal) {
   frontGlow.position.set(0, isElsie ? 3.8 : 3.15, 3.9);
   scene.add(leftGlow, rightGlow, frontGlow);
 
-  const environment = isElsie ? buildElsieCloset(scene, resources) : buildCloset(scene, resources);
+  const environment = isPhoebe ? buildPhoebeCloset(scene, resources) : isElsie ? buildElsieCloset(scene, resources) : buildCloset(scene, resources);
   batchClosetSurfaces(scene, environment.group, resources, environment.mirrorSurface);
-  const plinthMaterial = new THREE.MeshStandardMaterial({ color: isElsie ? '#d6af91' : '#312823', roughness: .55, metalness: isElsie ? .36 : .12 });
+  const plinthMaterial = new THREE.MeshStandardMaterial({ color: isPhoebe ? '#9aa8b7' : isElsie ? '#d6af91' : '#312823', roughness: isPhoebe ? 1 : .55, metalness: isPhoebe ? 0 : isElsie ? .36 : .12 });
   resources.materials.add(plinthMaterial);
-  const plinthGeometry = new THREE.CylinderGeometry(.74, .82, .14, 48);
+  const plinthGeometry = new THREE.CylinderGeometry(isPhoebe ? .55 : .74, isPhoebe ? .60 : .82, isPhoebe ? .025 : .14, 48);
   resources.geometries.add(plinthGeometry);
   const plinth = new THREE.Mesh(plinthGeometry, plinthMaterial);
-  plinth.position.set(roomSettings.start[0], .07, roomSettings.start[2]);
+  plinth.position.set(roomSettings.start[0], isPhoebe ? .013 : .07, roomSettings.start[2]);
   plinth.receiveShadow = true;
   plinth.castShadow = true;
   scene.add(plinth);
@@ -1050,7 +1053,7 @@ function mountCloset(root, character, signal) {
     scene.add(actor.mesh);
     if (loading) loading.hidden = true;
   }).catch(() => {
-    if (loading) loading.textContent = `${isElsie ? 'Elsie' : 'Eddy'} could not load, but you can still explore the closet.`;
+    if (loading) loading.textContent = `${characterName} could not load, but you can still explore the closet.`;
   });
 
   const dialog = root.closest('.expression-closet');
@@ -1173,7 +1176,7 @@ function mountCloset(root, character, signal) {
     value.needsUpdate = true;
   }
   let updatePlanarMirror = null;
-  if (isElsie) {
+  if (isElsie || isPhoebe) {
     const planarTarget = new THREE.WebGLRenderTarget(512, 512, {
       minFilter: THREE.LinearFilter,
       magFilter: THREE.LinearFilter,
@@ -1199,12 +1202,12 @@ function mountCloset(root, character, signal) {
         varying vec4 mirrorCoordinate;
         void main() {
           vec3 reflection = texture2DProj(mirrorMap, mirrorCoordinate).rgb;
-          gl_FragColor = vec4(mix(reflection, vec3(0.965, 0.945, 0.940), 0.065), 1.0);
+          gl_FragColor = vec4(mix(reflection, ${isPhoebe ? 'vec3(0.885, 0.905, 0.945)' : 'vec3(0.965, 0.945, 0.940)'}, 0.065), 1.0);
         }
       `,
       side: THREE.DoubleSide
     });
-    mirrorMaterial.name = 'Elsie live planar mirror material';
+    mirrorMaterial.name = isPhoebe ? 'Phoebe live planar vanity mirror material' : 'Elsie live planar mirror material';
     resources.materials.add(mirrorMaterial);
     environment.mirrorSurface.material = mirrorMaterial;
     environment.mirrorSurface.userData.livePlanarReflection = true;
@@ -1223,7 +1226,7 @@ function mountCloset(root, character, signal) {
     const projectionQ = new THREE.Vector4();
     const reflectionOccluders = [];
     scene.traverse(node => {
-      if (node.isMesh && node.name === 'Elsie back wall') reflectionOccluders.push(node);
+      if (node.isMesh && node.name === (isPhoebe ? 'Phoebe right wall' : 'Elsie back wall')) reflectionOccluders.push(node);
     });
     const biasMatrix = new THREE.Matrix4().set(
       .5, 0, 0, .5,
@@ -1393,8 +1396,14 @@ function mountCloset(root, character, signal) {
 export function openCompanionCloset({ character = 'eddy' } = {}) {
   activeClose?.();
   const isElsie = character === 'elsie';
-  const characterName = isElsie ? 'Elsie' : 'Eddy';
-  const collection = isElsie
+  const isPhoebe = character === 'phoebe';
+  const characterName = isPhoebe ? 'Phoebe' : isElsie ? 'Elsie' : 'Eddy';
+  const collection = isPhoebe
+    ? '<tr><td><div class="expression-closet-item"><span aria-hidden="true" style="font-size:38px">🧥</span><strong>Blue Tailoring</strong><span>On display</span></div></td>' +
+      '<td><div class="expression-closet-item"><span aria-hidden="true" style="font-size:38px">🪞</span><strong>Vanity</strong><span>On display</span></div></td></tr>' +
+      '<tr><td><div class="expression-closet-item"><span aria-hidden="true" style="font-size:38px">🧴</span><strong>Perfume</strong><span>On display</span></div></td>' +
+      '<td><div class="expression-closet-item"><span aria-hidden="true" style="font-size:38px">🪑</span><strong>Lavender Bench</strong><span>On display</span></div></td></tr>'
+    : isElsie
     ? '<tr><td><div class="expression-closet-item"><span aria-hidden="true" style="font-size:38px">👜</span><strong>Blush Handbag</strong><span>On display</span></div></td>' +
       '<td><div class="expression-closet-item"><span aria-hidden="true" style="font-size:38px">👠</span><strong>Evening Heels</strong><span>On display</span></div></td></tr>' +
       '<tr><td><div class="expression-closet-item"><span aria-hidden="true" style="font-size:38px">🧣</span><strong>Silk Scarf</strong><span>On display</span></div></td>' +
@@ -1409,7 +1418,7 @@ export function openCompanionCloset({ character = 'eddy' } = {}) {
   dialog.setAttribute('aria-labelledby', 'expression-closet-title');
   dialog.innerHTML =
     '<header class="expression-closet-header">' +
-      `<div><p>${characterName.toUpperCase()}’S DRESSING ROOM</p><h2 id="expression-closet-title">${isElsie ? 'The Rose Atelier' : 'The Closet'} <small>3D 衣櫥</small></h2></div>` +
+      `<div><p>${characterName.toUpperCase()}’S DRESSING ROOM</p><h2 id="expression-closet-title">${isPhoebe ? 'The Blue Atelier' : isElsie ? 'The Rose Atelier' : 'The Closet'} <small>3D 衣櫥</small></h2></div>` +
       '<button type="button" class="expression-closet-close" data-close-closet aria-label="Close closet">×</button>' +
     '</header>' +
     '<div class="expression-closet-controls" aria-label="Closet camera controls">' +
@@ -1430,7 +1439,7 @@ export function openCompanionCloset({ character = 'eddy' } = {}) {
         '<table><caption class="sr-only">Two-column clothing inventory</caption><tbody>' +
           collection +
         '</tbody></table>' +
-        `<p class="expression-closet-inventory-help">${isElsie ? 'Elsie’s accessories are arranged throughout the illuminated display bays.' : 'Outfit fitting is on hold while the walk-in closet is refined.'}</p>` +
+        `<p class="expression-closet-inventory-help">${isPhoebe ? 'Phoebe’s tailored garments and accessories are arranged in the powder-blue built-ins.' : isElsie ? 'Elsie’s accessories are arranged throughout the illuminated display bays.' : 'Outfit fitting is on hold while the walk-in closet is refined.'}</p>` +
       '</aside>' +
     '</div>';
   document.body.append(dialog);
