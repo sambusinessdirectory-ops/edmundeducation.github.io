@@ -179,6 +179,8 @@ test('closet UI is responsive and cache-busted on every shared-map consumer', ()
     'common-expression-system.js',
     'phrasal-verb-system.html',
     'common-expression-rhetorical-speaking.html',
+    'common-expression-business-speaking.html',
+    'common-expression-professional-message.html',
     'phrasal-verb-system.js',
     'sentence-structure.js',
     'sentence-structure-realms.mjs',
@@ -191,6 +193,7 @@ test('closet UI is responsive and cache-busted on every shared-map consumer', ()
   for (const file of [
     'common-expression-rhetorical-speaking.html', 'common-expression-rhetorical-writing.html',
     'common-expression-speaking.html', 'common-expression-written.html',
+    'common-expression-business-speaking.html', 'common-expression-professional-message.html',
     'phrasal-verb-system.html', 'sentence-structure.html', 'idiom-system.html', 'listening-system.html'
   ]) assert.match(read(file), /\.js\?v=20260915-phoebe1/, file);
 });
