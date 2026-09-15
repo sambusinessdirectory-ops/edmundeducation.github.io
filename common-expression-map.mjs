@@ -170,14 +170,9 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     closetHandle = null;
   };
   const openCloset = async () => {
-    if (character === 'phoebe') {
-      status.hidden = false;
-      status.textContent = 'Phoebe’s closet will be designed next.';
-      return;
-    }
     const request = ++closetRequest;
     try {
-      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-tailored1');
+      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-phoebe1');
       if (request !== closetRequest) return;
       closetHandle?.close();
       closetHandle = openCompanionCloset({ character });
@@ -370,7 +365,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     const closetButton=root.querySelector('[data-open-closet]');
     if (closetButton) {
       const companion = CHARACTERS.find(c=>c.id===character);
-      const available = character === 'eddy' || character === 'elsie';
+      const available = character === 'eddy' || character === 'elsie' || character === 'phoebe';
       closetButton.disabled = !available;
       closetButton.setAttribute('aria-label', available ? `Open ${companion.name}'s 3D closet` : `${companion.name}'s closet is not designed yet`);
       closetButton.title = available ? `${companion.name}'s 3D closet` : 'Closet coming later';
