@@ -1,6 +1,6 @@
 # Eddy - Blue swordsman jacket
 
-Local SOP trial, 15 September 2026. Not published.
+SOP trial, 15 September 2026. Approved for publication after local review.
 
 ## Design and registration
 - Slot: top; replaces either sweater; independently combines with white-fedora.
@@ -42,7 +42,7 @@ node tools/test-eddy-cosmetics-browser.cjs
 ```
 
 ## Publication requirement
-The prepared migration supabase/migrations/20260915082642_eddy_blue_swordsman_jacket.sql adds the jacket ID to the existing server top allowlist. It has NOT been applied to production. Fixture-save tests are not production cloud-save tests.
+The prepared migration supabase/migrations/20260915082642_eddy_blue_swordsman_jacket.sql adds the jacket ID to the existing server top allowlist. The allowlist migration has been applied to production and verified with SQL checks for the jacket, hat combination, existing tops and invalid inputs. Fixture-save tests are not production cloud-save tests.
 
 Before publication, apply and validate that migration, update the dependent module/asset cache versions, run release checks, deploy, and verify public resources. Preserve the separate uncommitted Golden Manual work.
 

@@ -1,7 +1,7 @@
-import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260915-tailored1';
+import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260915-jacket1';
 import {batchClosetSurfaces} from './closet-static-batches.mjs';
 import * as THREE from './vendor/three/three.module.js';
-import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-tailored1';
+import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260915-jacket1';
 import { buildPhoebeCloset, PHOEBE_CLOSET_PROFILE } from './phoebe-closet-3d.mjs?v=20260915-phoebe1';
 
 let activeClose = null;

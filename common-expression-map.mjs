@@ -1,4 +1,4 @@
-import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-tailored1';
+import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-jacket1';
 import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-companions1';
 import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-companions1';
 
@@ -172,7 +172,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   const openCloset = async () => {
     const request = ++closetRequest;
     try {
-      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-phoebe1');
+      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-jacket1');
       if (request !== closetRequest) return;
       closetHandle?.close();
       closetHandle = openCompanionCloset({ character });

@@ -37,7 +37,7 @@
   "generation": "built-in image_gen; canonical template plus supplied design reference",
   "runtimeOverlay": "assets/speaking-system/cosmetics/eddy/blue-swordsman-jacket.webp",
   "overlaySha256": "3fd018fb5def10cad7d71476e70582dc0606396457f0b94c036b1f36c408f74b",
-  "reviewStatus": "Local rendering and fixture persistence passed; not deployed",
+  "reviewStatus": "Local rendering and fixture persistence passed; approved for publication",
   "maskCalibration": {
     "blue": "b>r+14 and b>g+7 and g>15",
     "localY": [
@@ -53,5 +53,6 @@
     "rgbPaddingPasses": 3,
     "chromaRejection": "r>g*1.5 and b>g*1.5"
   },
-  "databaseMigration": "supabase/migrations/20260915082642_eddy_blue_swordsman_jacket.sql"
+  "databaseMigration": "supabase/migrations/20260915082642_eddy_blue_swordsman_jacket.sql",
+  "databaseStatus": "Allowlist applied; positive/negative validation queries passed"
 }
