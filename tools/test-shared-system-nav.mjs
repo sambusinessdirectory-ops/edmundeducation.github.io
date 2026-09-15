@@ -8,7 +8,7 @@ const root = path.resolve(import.meta.dirname, "..");
 const scriptSource = fs.readFileSync(path.join(root, "shared-system-nav.js"), "utf8");
 const cssSource = fs.readFileSync(path.join(root, "shared-system-nav.css"), "utf8");
 const sharedNavCssRelease = "20260910-home2";
-const sharedNavJsRelease = "20260911-tools1";
+const sharedNavJsRelease = "(?:20260911-tools1|20260915-outfits1)";
 
 test("the night-return message explicitly stays white over its dark background", () => {
   assert.match(cssSource, /\.edmund-night-return #edmund-night-return-title\s*\{\s*color:\s*#fff;\s*\}/);
@@ -31,7 +31,9 @@ function navigationRuntime() {
     querySelector() { return null; },
     querySelectorAll() { return []; }
   };
+  const events = [];
   const window = {
+    dispatchEvent(event) { events.push(event.type); return true; },
     document,
     sessionStorage,
     localStorage,
@@ -40,18 +42,29 @@ function navigationRuntime() {
     setTimeout
   };
   vm.runInNewContext(scriptSource, {
+    CustomEvent: class { constructor(type) { this.type = type; } },
     console,
     document,
     window,
     clearTimeout,
     setTimeout
   }, { filename: "shared-system-nav.js" });
-  return { api: window.EdmundSystemNav, localStorage, sessionStorage };
+  return { api: window.EdmundSystemNav, localStorage, sessionStorage, events };
 }
 
 function read(storage, key) {
   return JSON.parse(storage.getItem(key) || "null");
 }
+
+test("wardrobe listeners are notified on student changes and logout, not unchanged saves", () => {
+  const {api, events} = navigationRuntime();
+  const student = {id:'student-one',token:'token-one',name:'One',role:'student'};
+  api.rememberStudentSession(student);
+  api.rememberStudentSession(student);
+  api.rememberStudentSession({...student,id:'student-two',token:'token-two',name:'Two'});
+  api.forgetStudentSession();
+  assert.deepEqual(events, Array(3).fill('edmund-student-session-change'));
+});
 
 test("shared student login safely bridges every Flashcard-token portal", () => {
   const { api, sessionStorage } = navigationRuntime();
@@ -244,7 +257,7 @@ test("every system portal loads one consistent shared navigation CSS and JS rele
     const html = fs.readFileSync(path.join(root, system.href), "utf8");
     assert.match(html, new RegExp(`shared-system-nav\\.css\\?v=${sharedNavCssRelease}`), `${system.href} must load shared navigation CSS ${sharedNavCssRelease}`);
     assert.match(html, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavJsRelease}`), `${system.href} must load shared navigation JS ${sharedNavJsRelease}`);
-    assert.doesNotMatch(html, /shared-system-nav\.css\?v=(?!20260910-home2)|shared-system-nav\.js\?v=(?!20260911-tools1)/, `${system.href} must not retain a stale shared navigation release`);
+    assert.doesNotMatch(html, /shared-system-nav\.css\?v=(?!20260910-home2)|shared-system-nav\.js\?v=(?!20260911-tools1|20260915-outfits1)/, `${system.href} must not retain a stale shared navigation release`);
   }
   const homepage = fs.readFileSync(path.join(root, "index.html"), "utf8");
   assert.match(homepage, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavJsRelease}`));
