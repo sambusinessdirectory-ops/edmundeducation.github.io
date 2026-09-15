@@ -1,4 +1,4 @@
-import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-blinktrophy1';
+import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-phoebe2';
 import { createListeningTrophyProgress } from './listening-trophy-progress.mjs?v=20260915-companions1';
 import { mountFloatingWindow } from './floating-window.mjs?v=20260911';
 import { mountListeningTypes } from './listening-question-types.mjs?v=20260911';
@@ -436,7 +436,7 @@ function syncIeltsMap() {
     return;
   }
   // Keep the real practice list usable until all decorative artwork is ready.
-  if (!ieltsMapLoad) ieltsMapLoad = import('./ielts-puzzle-map.mjs?v=20260915-noirfit1')
+  if (!ieltsMapLoad) ieltsMapLoad = import('./ielts-puzzle-map.mjs?v=20260915-phoebe2')
     .then(async ({ mountIeltsMap }) => {
       if (!state.user) return;
       const map = await mountIeltsMap({ root, toggle, grid: elements.practiceGrid,

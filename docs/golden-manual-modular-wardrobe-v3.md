@@ -4,7 +4,7 @@ Eddy + Noir shared wardrobe | Directional sprites in 2D maps and 3D rooms
 
 Version 3.0 | 15 September 2026
 Implementation baseline: shared Eddy and Noir equipment, independent fitted atlases, registered open/blink rendering. Prior version-2 behavior is retained.
-Asset and module cache tag: 20260915-noirfit1
+Asset and module cache tag: 20260915-phoebe2
 Audience: artists, technical artists, frontend engineers, QA reviewers and release owners.
 
 Version 3 requires paired Eddy and Noir production for every shared cosmetic. Each item has one catalog ID and separate fitted artwork per character. Version 2 added the swordsman-jacket field test, precise side-profile correction, photograph-based inventory, touch navigation, loading feedback, favorites, saved-versus-preview isolation, cross-system identity handling, and unsaved-exit safeguards. It retains the original technical guidance and distinguishes legacy evidence from current acceptance gates.

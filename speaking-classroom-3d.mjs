@@ -1,7 +1,7 @@
 import * as THREE from './vendor/three/three.module.js';
 import {GLTFLoader} from './vendor/three/loaders/GLTFLoader.js';
-import {MascotCharacters} from './speaking-mascot-characters.mjs?v=20260915-noirfit1';
-import {updateAttention,listenerNod} from './speaking-mascot-behaviour.mjs?v=20260915-noirfit1';
+import {MascotCharacters} from './speaking-mascot-characters.mjs?v=20260915-phoebe2';
+import {updateAttention,listenerNod} from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
 import {createClassroomEnvironment} from './speaking-classroom-environment.mjs?v=20260908-room10';
 import {CAMERA_START,constrainCamera,constrainTarget,interiorOrbit} from './speaking-classroom-camera.mjs?v=20260908-room10';
 const cache=new Map();

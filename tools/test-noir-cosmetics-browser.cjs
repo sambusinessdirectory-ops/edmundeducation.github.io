@@ -13,9 +13,9 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  });
  await page.goto(origin+'/__outfits');
  await page.evaluate(async()=>{
-  window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260915-noirfit1');await cosmetics.restoreCosmetics();
+  window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260915-phoebe2');await cosmetics.restoreCosmetics();
   window.base=new Image();base.src='/assets/speaking-system/mascots/v4/noir-standing.png';await base.decode();
-  const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20260915-noirfit1');mountClosetInventory(document.querySelector('#inventory'),new AbortController().signal);
+  const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20260915-phoebe2');mountClosetInventory(document.querySelector('#inventory'),new AbortController().signal);
  });
  await page.locator('[data-cosmetic=white-fedora]').click();await page.locator('[data-cosmetic=cream-cable-knit]').click();
  assert.equal(await page.locator('[data-cosmetic][aria-pressed=true]').count(),2);
@@ -49,12 +49,12 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  await page.getByRole('button',{name:'Favorite Swordsman',exact:true}).click();await page.waitForFunction(()=>cosmetics.cosmeticsState().outfits.find(x=>x.name==='Swordsman').favorite===true);assert.equal(saved.outfits.find(x=>x.name==='Swordsman').favorite,true);
  await page.locator('[data-remove-outfit]').click();assert.equal(await page.locator('[data-cosmetic][aria-pressed=true]').count(),0);
  await page.locator('[data-outfit]').filter({hasText:'Cream + fedora'}).click();await page.getByRole('status').filter({hasText:'Saved to your account'}).waitFor();assert.equal(await page.locator('[data-cosmetic][aria-pressed=true]').count(),2);
- await page.reload();await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260915-noirfit1');await cosmetics.restoreCosmetics();});assert.deepEqual(await page.evaluate(()=>cosmetics.cosmeticsState().equipped),saved.equipped);
+ await page.reload();await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260915-phoebe2');await cosmetics.restoreCosmetics();});assert.deepEqual(await page.evaluate(()=>cosmetics.cosmeticsState().equipped),saved.equipped);
  assert.equal(await page.evaluate(()=>cosmetics.cosmeticsState().outfits.find(x=>x.name==='Swordsman').favorite),true);
  await page.evaluate(()=>cosmetics.equipOutfit('Swordsman'));
  await page.evaluate(async()=>{
   const THREE=await import('/vendor/three/three.module.js');
-  const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260915-noirfit1');
+  const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260915-phoebe2');
   const system=new MascotCharacters(undefined,undefined,{preview:true});const actor=await system.create('noir','standing');
   for(const name of ['elsie','phoebe']){
    const companion=await system.create(name,'standing');

@@ -1,4 +1,4 @@
-import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-blinktrophy1';
+import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-phoebe2';
 /*
  * Public lesson contract (provided by phrasal-verb-system-data.js):
  * { version, system: "phrasal-verb", lessons: PhrasalVerbLesson[] }.
@@ -10,7 +10,7 @@ import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-blinktrop
  * phrases are highlighted only when content explicitly supplies `highlight` or
  * `highlights` metadata.
  */
-import { createExpressionMap } from './common-expression-map.mjs?v=20260915-noirfit1';
+import { createExpressionMap } from './common-expression-map.mjs?v=20260915-phoebe2';
 import { createPhrasalJourney, phrasalJourneyLessons, phrasalMapCompleted, PHRASAL_MAP_LIMIT } from './phrasal-verb-journey.mjs?v=20260914-bakery4';
 
 let phrasalMap = null;

@@ -1,6 +1,6 @@
 import {PROVERB_BLACK_SAND} from './proverb-black-sand.mjs?v=20260915-black3';
-import { createExpressionMap } from './common-expression-map.mjs?v=20260915-noirfit1';
-import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-blinktrophy1';
+import { createExpressionMap } from './common-expression-map.mjs?v=20260915-phoebe2';
+import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-phoebe2';
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
 /*
  * Public lesson contract (provided by proverb-system-data.js):

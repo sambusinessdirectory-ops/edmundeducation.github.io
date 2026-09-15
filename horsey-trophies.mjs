@@ -1,7 +1,7 @@
 import {syncCompanionTrophies} from './horsey-trophy-art.mjs';
 import {trophyProgress,awardDateMarkup,tierName} from './horsey-awards.mjs';
 import {visibilityButton,handleVisibilityClick} from './horsey-trophy-ui.mjs';
-import { GOLDEN_EDDIE_ART, goldenEddieFigure, animateSentenceTrophy, syncSentenceTrophyCounter, syncSentenceTrophyControls, syncSentenceMapTrophies } from './sentence-structure-trophies.mjs?v=20260915-blinktrophy1';
+import { GOLDEN_EDDIE_ART, goldenEddieFigure, animateSentenceTrophy, syncSentenceTrophyCounter, syncSentenceTrophyControls, syncSentenceMapTrophies } from './sentence-structure-trophies.mjs?v=20260915-phoebe2';
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 // Use real catalogue totals and IDs; never pool separate partial attempts.

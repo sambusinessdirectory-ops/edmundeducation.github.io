@@ -1,7 +1,7 @@
 import { MAP_COMPANIONS } from './map-companions.mjs?v=20260915-noirceleste1';
-import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-noirfit1';
-import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-blinktrophy1';
-import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-noirfit1';
+import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260915-phoebe2';
+import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-phoebe2';
+import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
 
 const WIDTH = 1600, HEIGHT = 1950;
 const CHARACTERS = MAP_COMPANIONS;
@@ -174,7 +174,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     const request = ++closetRequest;
     const pending=document.createElement('div');pending.className='closet-startup';pending.setAttribute('role','status');pending.innerHTML='Opening dressing room…<progress aria-label="Loading 3D closet"></progress>';document.body.append(pending);
     try {
-      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-noirfit1');
+      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260915-phoebe2');
       if (request !== closetRequest) return;
       closetHandle?.close();
       closetHandle = openCompanionCloset({ character });

@@ -38,7 +38,7 @@ def decorate(c,doc):
   c.drawString(52,h-28,'EDMUND EDUCATION  /  MODULAR WARDROBE')
   c.drawRightString(w-52,h-28,'GOLDEN MANUAL  3.0')
  c.line(52,39,w-52,39);c.setFont('Helvetica',7);c.setFillColor(MUTED)
- c.drawString(52,27,'15 September 2026  |  Shared Eddy + Noir standard v3 / 20260915-noirfit1')
+ c.drawString(52,27,'15 September 2026  |  Shared Eddy + Noir standard v3 / 20260915-phoebe2')
  c.drawRightString(w-52,27,str(doc.page))
 doc=ManualDoc(str(DEST),pagesize=A4,leftMargin=52,rightMargin=52,topMargin=52,bottomMargin=53,title='The Golden Manual - Modular Character Wardrobe SOP',author='Edmund Education',subject='Asset fitting, modular cosmetics, rendering, QA and release standards')
 doc.addPageTemplates(PageTemplate(id='Manual',frames=Frame(52,53,A4[0]-104,A4[1]-105,id='body',leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0),onPage=decorate))
