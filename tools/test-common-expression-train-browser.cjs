@@ -72,7 +72,7 @@ let browser;
 
  await page.setViewportSize({width:1600,height:1300});
  const evidence=await page.evaluate(async()=>{
-  const {BUSINESS_AIRPORT,AIRPORT_INVENTORY}=await import('./common-expression-airport.mjs?v=20260915-pool1');
+  const {BUSINESS_AIRPORT,AIRPORT_INVENTORY}=await import('./common-expression-airport.mjs?v=20260915-lounge1');
   const root=document.createElement('div');root.className='expression-map';root.dataset.theme='airport';root.style.cssText='position:relative;width:1600px;height:1200px';
   root.innerHTML='<div class="expression-map-heading"><small></small></div>'+BUSINESS_AIRPORT.terrain([],mapTest.lessons);document.body.append(root);
   const animation=BUSINESS_AIRPORT.mount(root,{matches:false});await new Promise(r=>setTimeout(r,100));
@@ -135,7 +135,7 @@ let browser;
  await page.setViewportSize({width:1440,height:1100});await page.emulateMedia({reducedMotion:'no-preference'});
  await page.locator('.business-area-tabs').evaluate(e=>window.scrollTo({top:window.scrollY+e.getBoundingClientRect().top-110,behavior:'instant'}));
  await page.locator('.business-area-tabs [data-business-area="dining"]').click();await page.waitForTimeout(300);
- assert.equal(await page.locator('.dining-platform').count(),30);assert.equal(await page.locator('.dining-place-setting').count(),30);assert.ok(await page.locator('.dining-place-setting').evaluateAll(images=>images.every(img=>img.complete&&img.naturalWidth>0))); assert.equal(await page.locator('.business-theme-mist').count(),4);
+ assert.equal(await page.locator('.dining-platform').count(),30);assert.equal(await page.locator('.dining-place-setting').count(),30);assert.ok(await page.locator('.dining-place-setting').evaluateAll(images=>images.every(img=>img.complete&&img.naturalWidth>0))); assert.equal(await page.locator('.business-theme-mist').count(),5);
  assert.equal(await page.locator('[data-expression-map]').getAttribute('data-business-area'),'dining');
  await page.locator('[data-map-overview]').click();await page.waitForTimeout(150);
  await page.locator('[data-dining-platform="90"]').click();await page.waitForTimeout(3400);
@@ -159,7 +159,7 @@ let browser;
  await page.setViewportSize({width:1440,height:1100});await page.emulateMedia({reducedMotion:'no-preference'});
  await page.locator('.business-area-tabs').evaluate(e=>window.scrollTo({top:window.scrollY+e.getBoundingClientRect().top-110,behavior:'instant'}));
  await page.locator('.business-area-tabs [data-business-area="poker"]').click();await page.waitForTimeout(200);
- assert.equal(await page.locator('.poker-platform').count(),30);assert.equal(await page.locator('.business-theme-mist').count(),4);assert.equal(await page.locator('.poker-platform[data-counter-kind="plaque"]').count(),5);
+ assert.equal(await page.locator('.poker-platform').count(),30);assert.equal(await page.locator('.business-theme-mist').count(),5);assert.equal(await page.locator('.poker-platform[data-counter-kind="plaque"]').count(),5);
  assert.equal(await page.locator('[data-expression-map]').getAttribute('data-business-area'),'poker');
  await page.locator('[data-map-overview]').click();await page.locator('[data-poker-platform="120"]').click();await page.waitForTimeout(3400);
  assert.match(await page.locator('.train-reservation-note').textContent(),/120/);assert.equal(await page.locator('[data-map-open]').isVisible(),false);assert.equal(await page.evaluate(()=>JSON.stringify([...mapTest.state.states])),previousStates);
@@ -184,13 +184,33 @@ let browser;
  await page.setViewportSize({width:390,height:844});await page.waitForTimeout(150);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.locator('[data-expression-map]').screenshot({path:artifactDir+'/pool-phone.png'});
  await page.setViewportSize({width:1600,height:1300});
  const poolEvidence=await page.evaluate(async()=>{
-  const {poolTerrain,mountPool,POOL_DECORATIONS}=await import('./common-expression-pool.mjs?v=20260915-pool1');const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='pool-review';root.innerHTML=poolTerrain();root.querySelector('section').style.top='0';document.body.append(root);await root.querySelector('img').decode();const motion=mountPool(root,{matches:false}),c=root.querySelector('canvas'),ctx=c.getContext('2d');
+  const {poolTerrain,mountPool,POOL_DECORATIONS}=await import('./common-expression-pool.mjs?v=20260915-lounge1');const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='pool-review';root.innerHTML=poolTerrain();root.querySelector('section').style.top='0';document.body.append(root);await root.querySelector('img').decode();const motion=mountPool(root,{matches:false}),c=root.querySelector('canvas'),ctx=c.getContext('2d');
   const regions={platforms:[215,320,1170,615],rail:[0,0,1600,100]};POOL_DECORATIONS.forEach((b,i)=>regions['ball'+i]=[b.x-45,b.y-45,90,100]);
   const sample=()=>Object.fromEntries(Object.entries(regions).map(([k,r])=>[k,Array.from(ctx.getImageData(...r).data)]));const positions=[...root.querySelectorAll('.pool-platform')].map(e=>e.getAttribute('style'));motion.draw(1000);const a=sample();for(let i=1;i<=240;i++)motion.draw(1000+i*32);const b=sample();const stable=positions.every((p,i)=>p===root.querySelectorAll('.pool-platform')[i].getAttribute('style'));window.poolReview={root,motion};return {stable,changes:Object.fromEntries(Object.keys(a).map(k=>[k,a[k].reduce((n,v,i)=>n+(v!==b[k][i]),0)]))};
  });
  assert.ok(poolEvidence.stable);for(const [key,value] of Object.entries(poolEvidence.changes)){if(key.startsWith('ball'))assert.ok(value>20);else assert.equal(value,0);}
  fs.writeFileSync(artifactDir+'/pool-motion.json',JSON.stringify(poolEvidence,null,2));await page.locator('#pool-review').screenshot({path:artifactDir+'/pool-detail.png'});await page.evaluate(()=>{poolReview.motion.destroy();poolReview.root.remove();});
  console.log('Pool 121–150 passed: 30 stationary ball platforms, 14 stripes, four gently moving decorative balls, reduced motion, mobile containment, navigation and unchanged records.');
+
+ await page.setViewportSize({width:1440,height:1100});await page.emulateMedia({reducedMotion:'no-preference'});
+ await page.locator('.business-area-tabs').evaluate(e=>window.scrollTo({top:window.scrollY+e.getBoundingClientRect().top-110,behavior:'instant'}));
+ await page.locator('.business-area-tabs [data-business-area="lounge"]').click();await page.waitForTimeout(200);
+ assert.equal(await page.locator('.lounge-platform').count(),30);assert.equal(await page.locator('.pool-route').count(),0);
+ assert.equal(await page.locator('[data-expression-map]').getAttribute('data-business-area'),'lounge');
+ await page.locator('[data-map-overview]').click();await page.locator('[data-lounge-platform="180"]').click();await page.waitForTimeout(3400);
+ assert.match(await page.locator('.train-reservation-note').textContent(),/180/);assert.equal(await page.locator('[data-map-open]').isVisible(),false);assert.equal(await page.evaluate(()=>JSON.stringify([...mapTest.state.states])),previousStates);
+ await page.locator('[data-expression-map]').screenshot({path:artifactDir+'/lounge-overview.png'});
+ await page.emulateMedia({reducedMotion:'reduce'});await page.waitForTimeout(100);const loungeStill=await page.locator('.lounge-motion').evaluate(c=>c.toDataURL());await page.waitForTimeout(150);assert.equal(await page.locator('.lounge-motion').evaluate(c=>c.toDataURL()),loungeStill);
+ await page.setViewportSize({width:390,height:844});await page.waitForTimeout(150);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.locator('[data-expression-map]').screenshot({path:artifactDir+'/lounge-phone.png'});
+ await page.setViewportSize({width:1600,height:1300});
+ const loungeEvidence=await page.evaluate(async()=>{
+  const {loungeTerrain,mountLounge,prepareLounge,LOUNGE_PLANTS}=await import('./common-expression-lounge.mjs?v=20260915-lounge1');await prepareLounge();const root=document.createElement('div');root.style.cssText='position:relative;width:1600px;height:1200px';root.id='lounge-review';root.innerHTML=loungeTerrain();root.querySelector('section').style.top='0';document.body.append(root);const motion=mountLounge(root,{matches:false});await new Promise(r=>setTimeout(r,100));const c=root.querySelector('canvas'),ctx=c.getContext('2d');
+  const regions={bass:[1025,30,120,280],notes:[610,80,150,180],floor:[300,600,1020,400]};LOUNGE_PLANTS.forEach((p,i)=>{regions['leaves'+i]=[p.x-90,p.y-p.h,180,p.h*.65];regions['pot'+i]=[p.x-12,p.y-30,24,25];});
+  const sample=()=>Object.fromEntries(Object.entries(regions).map(([k,r])=>[k,Array.from(ctx.getImageData(...r).data)]));motion.draw(1000);const a=sample();for(let i=1;i<=240;i++)motion.draw(1000+i*32);const b=sample();window.loungeReview={root,motion};return Object.fromEntries(Object.keys(a).map(k=>[k,a[k].reduce((n,v,i)=>n+(v!==b[k][i]),0)]));
+ });
+ for(const [key,value] of Object.entries(loungeEvidence)){if(key==='floor'||key.startsWith('pot'))assert.equal(value,0,key+' stays still');else assert.ok(value>20,key+' visibly animates');}
+ fs.writeFileSync(artifactDir+'/lounge-motion.json',JSON.stringify(loungeEvidence,null,2));await page.locator('#lounge-review').screenshot({path:artifactDir+'/lounge-detail.png'});await page.evaluate(()=>{loungeReview.motion.destroy();loungeReview.root.remove();});
+ console.log('Lounge 151–180 passed: 30 reserved plaques, piano notes, bass and leaf motion, fixed pots and floor, reduced motion, phone layout and unchanged records.');
  assert.equal(errors.length,0,errors.join('\n'));
  console.log('Poker 91–120 and odd/even napkins passed. Only both liquids animate; felt and stems are static. Dining 61–90: moonlit window, rose, soup and coffee motion, reserved records and mobile passed. Train and airport browser: 30 reserved train platforms, unchanged records, synchronized outdoor motion, curtain/light/steam motion, static walls;  26 real lessons, 4 reserved platforms, motion, typing, pause, reduced motion, saved location, account separation and mobile containment passed.');
 })().catch(error=>{console.error(error);process.exitCode=1;}).finally(async()=>{await browser?.close();server.close();});
