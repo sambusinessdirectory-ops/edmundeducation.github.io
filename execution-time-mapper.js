@@ -1,7 +1,7 @@
 import {formatTime} from './execution-speedrun-core.mjs?v=20260914-3';
 import {mapperElapsed,mapperStop,mapperSections,mapperContinue} from './execution-time-mapper-core.mjs?v=20260914-mapper-continue-1';
 
-export function initTimeMapper({key,canOpen,rpc,onSaved,message}) {
+export function initTimeMapper({key,rpc,onSaved,message}) {
   const escape = value => String(value ?? '').replace(/[&<>"']/g,c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const button = document.createElement('button'); button.type='button'; button.dataset.mapperOpen='';
   button.textContent='◷ Time Mapper · 測量時間';
@@ -72,7 +72,7 @@ export function initTimeMapper({key,canOpen,rpc,onSaved,message}) {
     persist(); dialog.close();
   }
   button.addEventListener('click',()=>{
-    if(!canOpen())return message('請先完成目前的挑戰或同步操作，並在原計時視窗使用 Time Mapper。','pending');
+    if(opening || saving)return;
     draft ||= fresh(); render();error();dialog.showModal();tick();
     if(!draft.current && !draft.finished) (draft.parts.length ? $('[data-map-sub]') : $('[data-map-title]')).focus();
   });
@@ -126,7 +126,6 @@ export function initTimeMapper({key,canOpen,rpc,onSaved,message}) {
   button.textContent=draft ? '◷ 繼續 Time Mapper' : button.textContent;
   return {async openSaved(runId) {
     if(opening || saving)return;
-    if(!canOpen())return message('請先完成目前挑戰或同步操作，並在原計時視窗使用 Time Mapper。','pending');
     if(draft && draft.run_id!==runId)return message('此裝置有另一份 Time Mapper 草稿。請先按「繼續 Time Mapper」完成儲存。','pending');
     opening=true;button.disabled=true;
     try {

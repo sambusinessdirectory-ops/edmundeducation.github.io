@@ -8,10 +8,10 @@ const output = process.env.SPEEDRUN_QA_DIR || '/tmp/execution-speedrun-qa';
 await mkdir(output,{recursive:true});
 const browser = await chromium.launch({headless:true});
 const context = await browser.newContext({viewport:{width:1440,height:1100},serviceWorkers:'block'});
-let meters = [], runs = [], offline = false;
+let meters = [], runs = [], offline = false, blockChallengeSync = false;
 const events = new Set(), errors = [];
 await context.exposeFunction('__qaRpc',async (name,p) => {
-  if (offline && name.startsWith('execution_speedrun')) return {data:null,error:{message:'Simulated network outage'}};
+  if (offline && name.startsWith('execution_speedrun') || blockChallengeSync && ['execution_speedrun_start','execution_speedrun_event'].includes(name)) return {data:null,error:{message:'Simulated network outage'}};
   let data;
   if (name === 'execution_system_admin_me') data = [{id:'qa-admin',name:'測試帳戶'}];
   else if (name === 'execution_speedrun_meter_save') {
@@ -357,6 +357,61 @@ try {
   await page.locator('[data-mapper][open]').waitFor();
   assert.equal(await page.locator('[data-map-count]').textContent(),'（3）');
   await page.locator('[data-map-close]').click();
+  // Mapper remains usable with an editor draft, pending challenge sync, or
+  // a different tab owning the challenge timer. Saving must preserve that work.
+  await page.setViewportSize({width:1440,height:1100});
+  await page.locator('[data-mapper-open]').click();
+  page.once('dialog',d=>d.accept());
+  await page.locator('[data-map-discard]').click();
+  await page.locator('[data-new]').first().click();
+  await page.locator('[name=title]').fill('Keep this editor draft');
+  await page.locator('[data-section-title="0"]').fill('Unfinished editor section');
+  async function saveIndependentMapping(target,title) {
+    await target.locator('[data-mapper-open]').click();
+    await target.locator('[data-mapper][open]').waitFor();
+    await target.locator('[data-map-title]').fill(title);
+    await target.locator('[data-map-main]').fill('Independent task');
+    await target.locator('[data-map-go]').click();
+    await target.waitForTimeout(120);
+    await target.locator('[data-map-finish]').click();
+    await target.waitForFunction(()=>!document.querySelector('[data-mapper]').open);
+  }
+  await saveIndependentMapping(page,'Mapping alongside an editor');
+  assert.equal(await page.locator('[data-editor]').isVisible(),true);
+  assert.equal(await page.locator('[name=title]').inputValue(),'Keep this editor draft');
+  assert.equal(await page.locator('[data-section-title="0"]').inputValue(),'Unfinished editor section');
+  await page.locator('[data-cancel-edit]').click();
+  await page.locator('[data-start]').click();
+  await page.waitForFunction(()=>document.querySelector('[data-sync]').textContent.includes('所有計時操作已同步'));
+  const parallelChallenge=runs.find(r=>r.status==='running');
+  blockChallengeSync=true;
+  await page.locator('[data-pause]').click();
+  await page.waitForFunction(()=>document.querySelector('[data-sync-bar]').dataset.state==='error');
+  const pendingBefore=await page.evaluate(()=>localStorage.getItem('edmund-speedrun-recovery-v1:admin:qa-admin'));
+  assert.equal(JSON.parse(pendingBefore).queue.length,1);
+  await saveIndependentMapping(page,'Mapping alongside unsynced challenge');
+  assert.equal(await page.evaluate(()=>localStorage.getItem('edmund-speedrun-recovery-v1:admin:qa-admin')),pendingBefore);
+  assert.equal(await page.locator('[data-pause]').textContent(),'繼續');
+  blockChallengeSync=false;
+  await page.locator('[data-retry]').click();
+  await page.waitForFunction(()=>document.querySelector('[data-sync]').textContent.includes('所有計時操作已同步'));
+  assert.equal(runs.find(r=>r.id===parallelChallenge.id).status,'paused');
+
+  const second=await context.newPage();second.on('pageerror',e=>errors.push(e.message));
+  await second.goto(`http://127.0.0.1:8765/execution-speedrun.html?mapper=${continuation.id}`);
+  await second.locator('[data-mapper][open]').waitFor();
+  assert.equal(await second.locator('[data-start]').isDisabled(),true,'Challenge ownership remains in the first tab');
+  await second.locator('[data-map-continue="0"]').click();await second.waitForTimeout(120);
+  await second.locator('[data-map-finish]').click();
+  await second.waitForFunction(()=>!document.querySelector('[data-mapper]').open);
+  assert.equal(runs.find(r=>r.id===parallelChallenge.id).status,'paused');
+  await saveIndependentMapping(second,'Mapping from another timer tab');
+  assert.equal(runs.find(r=>r.id===parallelChallenge.id).status,'paused');
+  await second.close();
+  await page.locator('[data-pause]').click();
+  await page.waitForFunction(()=>document.querySelector('[data-sync]').textContent.includes('所有計時操作已同步'));
+  assert.equal(runs.find(r=>r.id===parallelChallenge.id).status,'running','The original challenge still resumes normally');
+
   assert.deepEqual(errors,[]);
   console.log('Browser QA passed: saved mapping continuation, same-attempt updates, earlier-section insertion, records-page reopening, Time Mapper creation, mapping hierarchy, immediate freeze, running and paused refresh recovery, finish while naming, offline retry, mobile layout; standalone and nested sections, favourites, custom/A–Z ordering, records filtering/deletion, column widths and persistence, split timing, offline/conflict recovery, floating resize, desktop and mobile.');
 } finally { await browser.close(); }
