@@ -98,4 +98,3 @@ for index,p in enumerate(r.pages):
  t=p.extract_text() or ''
  if len(t.strip())<100:print('REVIEW SHORT PAGE',index+1,len(t))
 assert len(r.pages)>10
-

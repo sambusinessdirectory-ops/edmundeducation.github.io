@@ -854,4 +854,3 @@ AFTER RELEASE
 - Keep the item modular for future combinations.
 
 The governing standard is simple: the item must be authored to fit the character, the runtime must preserve that fit, and the release must be judged by what students actually see.
-

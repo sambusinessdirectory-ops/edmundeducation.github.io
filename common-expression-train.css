@@ -56,3 +56,13 @@
 .pool-platform:hover .pool-ball,.pool-platform[aria-pressed=true] .pool-ball{outline:3px solid #ffdfa0;outline-offset:5px}
 .pool-platform:focus-visible{outline:3px solid #ffdfa0!important;outline-offset:5px;border-radius:25px}
 .business-area-tabs [data-business-area=pool][aria-pressed=true]{background:#18563b;border-color:#18563b}
+.lounge-realm{position:absolute;left:0;width:1600px;height:1200px;isolation:isolate;overflow:hidden;background:#241715}
+.lounge-background,.lounge-walkway,.lounge-motion{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.lounge-walkway{z-index:1}.lounge-motion{z-index:2}
+.lounge-platform{position:absolute;z-index:3;width:132px;height:110px;margin:-38px 0 0 -66px;padding:0;border:0;background:none;text-align:center;cursor:pointer;color:#193129}
+.lounge-record{position:absolute;left:8px;top:0;width:116px;height:76px;border:2px solid #b59960;border-radius:50%;background:repeating-radial-gradient(ellipse at center,#171a1c 0px,#171a1c 3px,#353332 4px,#181b1c 5px);box-shadow:inset 0 2px 2px #e7cd9266,0 4px 0 #75603e,0 7px 0 #141619,3px 10px 8px #08090999;overflow:hidden;pointer-events:none}
+.lounge-record::after{content:'';position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 10deg,transparent 0deg,#f7e6be30 35deg,transparent 75deg,transparent 190deg,#fff0cc20 225deg,transparent 255deg);pointer-events:none}
+.lounge-record-label{position:absolute;left:24px;top:15px;width:64px;height:43px;border:1px solid #b9995e;border-radius:50%;background:radial-gradient(ellipse at 35% 20%,#fcf0cd,#d9c192);font:700 25px/42px Georgia,serif;color:#233930;text-shadow:0 1px #fff4d1;letter-spacing:.3px}
+.lounge-platform small{position:absolute;top:89px;left:0;width:100%;font:12px/18px system-ui;color:#fff0d5;text-shadow:0 2px 3px #07080a;pointer-events:none}
+.lounge-platform:hover .lounge-record,.lounge-platform[aria-pressed=true] .lounge-record{outline:2px solid #f6d385;outline-offset:4px;filter:brightness(1.12)}
+.lounge-platform:focus-visible{outline:3px solid #ffe4a7!important;outline-offset:6px;border-radius:25px}
+.business-area-tabs{flex-wrap:wrap}.business-area-tabs [data-business-area=lounge][aria-pressed=true]{background:#502e37;border-color:#502e37}
