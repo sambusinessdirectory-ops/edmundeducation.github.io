@@ -24,6 +24,7 @@ Run:
 ```
 node tools/test-professional-learning-activity.mjs
 node tools/test-professional-learning-sync.mjs
+node tools/test-professional-polysemy-resume.mjs
 node tools/test-learning-updates-20260911.mjs --require-complete-audio
 node tools/test-professional-lesson3-polysemy.mjs
 node tools/test-professional-feedback.mjs
@@ -38,3 +39,29 @@ Bundle its `@supabase/realtime-js/dist/module/index.js` with esbuild, using
 Lesson 2 has 50 mirrored-front/back PDF cards, three bilingual examples per card,
 and verified Kokoro `af_heart` recordings. The import generator creates the deck
 inactive; activate it only after its audio assets are available on the live site.
+
+## Lesson 2/3 content and resume update
+
+The catalogue now contains 17 dialogues / 188 spoken turns and 61 polysemy words /
+371 questions across three lessons. Lesson 2 has three paired beginner/professional
+rows; Lesson 3 has four. Source Situation/flowchart material is excluded. Both
+new Dialogue 3 PDFs contain the same professional script, so the existing distinct
+beginner script is preserved; see the content import notes.
+
+Polysemy drafts save the exact question, selected answer, retry queue, round and
+attempt UUID to the account. Progress counts unique correct questions within a
+word; only the completed word contributes one point to the dashboards. Accepted
+ambiguous sense alternatives normalize to the server's canonical answer. Correct
+choices are green, including after an incorrect selection. Completed tiles use a
+darker green, a larger tick and a subtle static gold sheen. Redo starts a new attempt.
+
+Dialogue drafts are versioned. The previous l2d2 beginner script moves to
+l2d2-beginner while the restored professional script uses contentVersion 2. The
+catalogue migration preserves old saved drafts under the beginner ID, and the
+client also preserves unsynced device-only drafts before starting the new script.
+
+Progress bars use the current flashcard queue, the selected blank difficulty, or
+the current polysemy word; lesson-level polysemy progress counts completed words.
+The long Pages validation step, all audio checks, PGlite account/score tests, and
+Playwright checks for audio resume, bookmarks, warnings, exact draft resume,
+question counts, paired rows and 5× mobile layout passed before publication.

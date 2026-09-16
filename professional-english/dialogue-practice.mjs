@@ -40,20 +40,39 @@ export function mountDialoguePage({dialogues,audioManifest,root=document.body}) 
   let hint=HINTS.find(h=>h.id===params.get('hints'))||HINTS[3];
   let translations=false,highlight=true,rate=1,audio=null,current=-1,continuous=false,generation=0;
   const page=document.createElement('main');page.className='pro-practice-page';root.append(page);document.body.classList.add('pro-dialogue-open');
-  let draft={id:crypto.randomUUID(),answers:{},credited:[],complete:false,started:false};
+  const contentVersion=dialogue.contentVersion||1;
+  const freshDraft=()=>({id:crypto.randomUUID(),answers:{},credited:[],complete:false,started:false,contentVersion});
+  const draftVersion=value=>value&&typeof value==='object'&&!Array.isArray(value)?(Object.hasOwn(value,'contentVersion')?value.contentVersion:1):null;
+  const compatible=value=>draftVersion(value)===contentVersion;
+  let draft=freshDraft();
   let answers=new Map(),credited=new Set(),ready=false,lastUrl=location.href,stopStudy=()=>{};
   const draftKey=()=>`draft:${dialogue.id}:${difficulty.id}:${hint.id}`;
   const lastKey=`draft:${dialogue.id}:last`;
   function persist(){
     if(!ready||!ownsPage())return;
     rememberAnswers();draft={...draft,answers:Object.fromEntries(answers),credited:[...credited]};
-    saveState(draftKey(),draft,owner);saveState(lastKey,{difficulty:difficulty.id,hint:hint.id,complete:draft.complete,started:draft.started},owner);
+    saveState(draftKey(),draft,owner);saveState(lastKey,{difficulty:difficulty.id,hint:hint.id,complete:draft.complete,started:draft.started,contentVersion},owner);
   }
   async function restore(){
     if(!ownsPage())return;
     ready=false;page.innerHTML='<p role="status">正在載入已儲存的進度…</p>';
-    draft=await loadState(draftKey(),{id:crypto.randomUUID(),answers:{},credited:[],complete:false,started:false});
+    let saved=await loadState(draftKey());
+    // Dialogue 2's old ID contained the beginner script. Keep that attempt with
+    // the beginner version; its token positions must not enter the new script.
+    if(!saved&&dialogue.id==='l2d2-beginner'){
+      const legacy=await loadState(`draft:l2d2:${difficulty.id}:${hint.id}`);
+      if(compatible(legacy))saved=legacy;
+    }
+    if(dialogue.id==='l2d2'&&draftVersion(saved)===1){
+      const beginnerKey=`draft:l2d2-beginner:${difficulty.id}:${hint.id}`;
+      const existing=await loadState(beginnerKey);
+      const last=await loadState('draft:l2d2-beginner:last');
+      if(!ownsPage())return;
+      if(!existing)saveState(beginnerKey,{...saved,contentVersion:1},owner);
+      if(!last)saveState('draft:l2d2-beginner:last',{difficulty:difficulty.id,hint:hint.id,complete:saved.complete,started:saved.started,contentVersion:1},owner);
+    }
     if(!ownsPage())return;
+    draft=compatible(saved)?{...saved,contentVersion}:freshDraft();
     answers=new Map(Object.entries(draft.answers||{}));credited=new Set(draft.credited||[]);ready=true;
     if(view==='practice')draft.started=true;
     render();
@@ -110,6 +129,7 @@ export function mountDialoguePage({dialogues,audioManifest,root=document.body}) 
       }
     }
     draft.complete=credited.size===count(difficulty);if(draft.complete)stopStudy();persist();
+    const progress=page.querySelector('[data-blank-progress]');if(progress){progress.setAttribute('aria-valuenow',String(credited.size));progress.querySelector('span').style.width=`${credited.size/count(difficulty)*100}%`;page.querySelector('[data-blank-progress-label]').textContent=`${credited.size} / ${count(difficulty)} 題已答對 · ${Math.round(credited.size/count(difficulty)*100)}%`;}
     const result=page.querySelector('[data-result-status]');if(result)result.textContent=`${credited.size} / ${count(difficulty)} 題正確${draft.complete?' · 全部完成！可選擇重新練習。':''}`;
     const retry=page.querySelector('[data-retry-mistakes]');if(retry)retry.hidden=draft.complete||!page.querySelector('.is-wrong');
     const redo=page.querySelector('[data-redo]');if(redo)redo.hidden=!draft.complete;
@@ -120,7 +140,7 @@ export function mountDialoguePage({dialogues,audioManifest,root=document.body}) 
     if(!ownsPage())return;
     document.title=`${dialogue.titleZh} · ${view==='modes'?'選擇練習模式':view==='practice'?'填充練習':'對話學習'} | Professional English`;
     page.innerHTML=`<header class="pro-page-header"><a href="./">← 返回課程 · Back to course</a>${fontControl('dialogue')}<button type="button" data-page-theme>${document.documentElement.classList.contains('theme-day')?'☾ 夜間模式':'☀ 日間模式'}</button></header><section class="pro-page-intro"><p class="pro-eyebrow">PROFESSIONAL ENGLISH · LESSON ${dialogue.lesson} · ${dialogue.variant==='beginner'?'BEGINNER':'PROFESSIONAL'}</p><h1>${esc(dialogue.titleZh)}</h1><p>${esc(dialogue.title)}</p><nav class="pro-step-nav" aria-label="練習步驟">${[['dialogue','01','學習對話'],['modes','02','選擇模式'],['practice','03','填充練習']].map(([step,n,text])=>`<a href="${esc(query(step))}" data-step="${step}" ${step===view?'aria-current="step"':''}>${n} ${text}</a>`).join('')}</nav></section>
-      ${view!=='practice'&&draft.started&&!draft.complete?'<p class="pro-resume-note">您有未完成的練習。<button type="button" data-resume-attempt>繼續上次進度 →</button></p>':''}${view==='modes'?`<section class="pro-mode-intro"><h2>選擇練習模式</h2><p>選擇填空難度及字母提示。每個模式均可聆聽對話、調整速度及查看中文翻譯。</p><p><strong>16</strong> 種模式 · <strong>${dialogue.lines.length}</strong> 句對話</p></section><div class="pro-mode-groups">${DIFFICULTIES.map(d=>`<section class="pro-mode-group pro-mode-group--${d.id}"><header><h2>${d.zh}<small>${d.en} · ${Math.round(d.rate*100)}% 填空</small></h2><span>${count(d)} 題填充</span></header><div class="pro-mode-cards">${HINTS.map(h=>`<a href="${esc(query('practice',{difficulty:d.id,hints:h.id}))}" data-mode="${d.id}" data-hints="${h.id}"><strong>${h.zh}</strong><span>${h.en}</span><small>${count(d)} 題 →</small></a>`).join('')}</div></section>`).join('')}</div>`:`${toolbar()}<section class="pro-dialogue-content"><div class="pro-content-title"><h2>${view==='practice'?'填充練習':'完整對話'}</h2><p>${view==='practice'?`${difficulty.zh} · ${hint.zh} · ${count(difficulty)} 題`:'先聆聽角色對話，理解情境，再開始練習。按整行空白位置播放；按英文詞語加入書籤。'}</p></div>${dialogue.lines.map((line,index)=>lineMarkup(line,index,view==='practice')).join('')}${view==='practice'?'<div class="pro-submit"><button class="pro-primary" type="button" data-check-answers>提交答案 · Check answers</button><p data-result-status role="status"></p><button type="button" data-retry-mistakes hidden>再試答錯的題目</button><button type="button" data-redo hidden>重新練習 · Redo</button></div>':'<button class="pro-primary pro-choose-mode" type="button" data-choose-mode>選擇練習模式 →</button>'}</section>`}`;
+      ${view!=='practice'&&draft.started&&!draft.complete?'<p class="pro-resume-note">您有未完成的練習。<button type="button" data-resume-attempt>繼續上次進度 →</button></p>':''}${view==='modes'?`<section class="pro-mode-intro"><h2>選擇練習模式</h2><p>選擇填空難度及字母提示。每個模式均可聆聽對話、調整速度及查看中文翻譯。</p><p><strong>16</strong> 種模式 · <strong>${dialogue.lines.length}</strong> 句對話</p></section><div class="pro-mode-groups">${DIFFICULTIES.map(d=>`<section class="pro-mode-group pro-mode-group--${d.id}"><header><h2>${d.zh}<small>${d.en} · ${Math.round(d.rate*100)}% 填空</small></h2><span>${count(d)} 題填充</span></header><div class="pro-mode-cards">${HINTS.map(h=>`<a href="${esc(query('practice',{difficulty:d.id,hints:h.id}))}" data-mode="${d.id}" data-hints="${h.id}"><strong>${h.zh}</strong><span>${h.en}</span><small>${count(d)} 題 →</small></a>`).join('')}</div></section>`).join('')}</div>`:`${toolbar()}<section class="pro-dialogue-content"><div class="pro-content-title"><h2>${view==='practice'?'填充練習':'完整對話'}</h2><p>${view==='practice'?`${difficulty.zh} · ${hint.zh} · ${count(difficulty)} 題`:'先聆聽角色對話，理解情境，再開始練習。按整行空白位置播放；按英文詞語加入書籤。'}</p></div>${view==='practice'?`<section class="learning-progress-widget"><div class="learning-progress-track" data-blank-progress role="progressbar" aria-label="本練習填空進度" aria-valuemin="0" aria-valuemax="${count(difficulty)}" aria-valuenow="${credited.size}"><span style="width:${credited.size/count(difficulty)*100}%"></span></div><p data-blank-progress-label>${credited.size} / ${count(difficulty)} 題已答對 · ${Math.round(credited.size/count(difficulty)*100)}%</p></section>`:''}${dialogue.lines.map((line,index)=>lineMarkup(line,index,view==='practice')).join('')}${view==='practice'?'<div class="pro-submit"><button class="pro-primary" type="button" data-check-answers>提交答案 · Check answers</button><p data-result-status role="status"></p><button type="button" data-retry-mistakes hidden>再試答錯的題目</button><button type="button" data-redo hidden>重新練習 · Redo</button></div>':'<button class="pro-primary pro-choose-mode" type="button" data-choose-mode>選擇練習模式 →</button>'}</section>`}`;
     page.querySelectorAll('[data-blank]').forEach(input=>input.addEventListener('input',()=>{input.classList.remove('is-wrong','is-correct');input.removeAttribute('aria-invalid');persist();}));
     page.querySelectorAll('[data-blank]').forEach(input=>input.addEventListener('change',()=>grade([input],false)));
     if(view==='practice'){page.querySelector('[data-result-status]').textContent=`${credited.size} / ${count(difficulty)} 題正確${draft.complete?' · 全部完成！':''}`;page.querySelector('[data-redo]').hidden=!draft.complete;}
@@ -140,7 +160,7 @@ export function mountDialoguePage({dialogues,audioManifest,root=document.body}) 
     else if(button.matches('[data-choose-mode]'))changeView('modes');
     else if(button.matches('[data-mode]')){event.preventDefault();void changeView('practice',{difficulty:button.dataset.mode,hints:button.dataset.hints});}
     else if(button.matches('[data-resume-attempt]'))void changeView('practice',{difficulty:difficulty.id,hints:hint.id});
-    else if(button.matches('[data-redo]')){draft={id:crypto.randomUUID(),answers:{},credited:[],complete:false,started:true};answers.clear();credited.clear();render();persist();}
+    else if(button.matches('[data-redo]')){draft={...freshDraft(),started:true};answers.clear();credited.clear();render();persist();}
     else if(button.matches('[data-play-line]'))void playLine(Number(button.dataset.playLine));
     else if(button.matches('[data-play-all]')){if(audio){if(audio.paused){continuous=true;try{await audio.play();}catch{status('請再按播放按鈕重試。');}}else audio.pause();sync();}else void playLine(0,true);}
     else if(button.matches('[data-stop-audio]')){audio?.pause();sync();status(current>=0?'已停止，按「繼續」從目前位置播放。':'');}
@@ -163,7 +183,11 @@ export function mountDialoguePage({dialogues,audioManifest,root=document.body}) 
     persist();stop();const p=new URLSearchParams(location.search);view=['modes','practice'].includes(p.get('view'))?p.get('view'):'dialogue';difficulty=DIFFICULTIES.find(d=>d.id===p.get('difficulty'))||DIFFICULTIES[0];hint=HINTS.find(h=>h.id===p.get('hints'))||HINTS[3];lastUrl=location.href;await restore();
   });
   const initialised=(async()=>{
-    if(!params.has('difficulty')){const last=await loadState(lastKey);if(last?.started&&!last.complete){difficulty=DIFFICULTIES.find(d=>d.id===last.difficulty)||difficulty;hint=HINTS.find(h=>h.id===last.hint)||hint;}}
+    if(!params.has('difficulty')){
+      let last=await loadState(lastKey);
+      if(!last&&dialogue.id==='l2d2-beginner')last=await loadState('draft:l2d2:last');
+      if(compatible(last)&&last.started&&!last.complete){difficulty=DIFFICULTIES.find(d=>d.id===last.difficulty)||difficulty;hint=HINTS.find(h=>h.id===last.hint)||hint;}
+    }
     await restore();
     const line=Number(params.get('line'));if(params.has('line'))page.querySelector(`[data-dialogue-line="${line}"]`)?.scrollIntoView({block:'center'});
   })();
@@ -175,7 +199,7 @@ if (typeof document !== 'undefined' && document.body.dataset.professionalDialogu
   async function initialise(){
     // The existing course app authenticates the student before rendering this node.
     if(mounted||!document.querySelector('#root .course-section'))return;mounted=true;
-    try{const response=await fetch('./dialogue-audio.json?v=20260916-complete');if(!response.ok)throw Error('audio manifest');mountDialoguePage({dialogues:window.EDMUND_PROFESSIONAL_DIALOGUES,audioManifest:await response.json()});}
+    try{const response=await fetch('./dialogue-audio.json?v=20260916-lessons123');if(!response.ok)throw Error('audio manifest');mountDialoguePage({dialogues:window.EDMUND_PROFESSIONAL_DIALOGUES,audioManifest:await response.json()});}
     catch{const note=document.createElement('p');note.className='pro-page-load-error';note.textContent='對話未能載入。';const retry=document.createElement('button');retry.textContent='重試';retry.onclick=()=>{mounted=false;note.remove();initialise();};note.append(retry);document.body.append(note);}
   }
   new MutationObserver(initialise).observe(document.getElementById('root'),{childList:true,subtree:true});initialise();

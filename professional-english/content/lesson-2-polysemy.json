@@ -1,0 +1,1154 @@
+{
+  "lesson": 2,
+  "title": "一詞多義 (Polysemy) 練習",
+  "source": "Lesson_2_Multiple_Meanings.pdf",
+  "words": [
+    {
+      "id": "take",
+      "word": "take",
+      "baseWord": "take",
+      "sourcePage": 3,
+      "senses": [
+        {
+          "id": "take-0",
+          "zh": "拿；攜帶（把物品帶往某處）",
+          "sourceMeaning": "Carry or bring something somewhere"
+        },
+        {
+          "id": "take-1",
+          "zh": "搭乘、乘坐",
+          "sourceMeaning": "Travel by a particular form of transport"
+        },
+        {
+          "id": "take-2",
+          "zh": "花費、需要",
+          "sourceMeaning": "Need a certain amount of time"
+        },
+        {
+          "id": "take-3",
+          "zh": "接受；收下（別人給的東西）",
+          "sourceMeaning": "Accept or receive something"
+        },
+        {
+          "id": "take-4",
+          "zh": "服用",
+          "sourceMeaning": "Eat or drink medicine"
+        },
+        {
+          "id": "take-5",
+          "zh": "拿走；取走（從原處移除）",
+          "sourceMeaning": "Remove something from a place"
+        },
+        {
+          "id": "take-6",
+          "zh": "選擇、挑選",
+          "sourceMeaning": "Choose or select"
+        },
+        {
+          "id": "take-7",
+          "zh": "拍、拍攝",
+          "sourceMeaning": "Take a photo"
+        },
+        {
+          "id": "take-8",
+          "zh": "帶領；陪同某人前往",
+          "sourceMeaning": "To go with someone and bring or lead them to a particular place."
+        }
+      ],
+      "questions": [
+        {
+          "id": "take-example-0",
+          "kind": "example",
+          "en": "Please take this document to the manager.",
+          "zh": "請把這份文件拿給經理。",
+          "zhMasked": "請把這份文件____給經理。",
+          "answer": "take-0"
+        },
+        {
+          "id": "take-example-1",
+          "kind": "example",
+          "en": "I take the bus to work every morning.",
+          "zh": "我每天早上都搭巴士上班。",
+          "zhMasked": "我每天早上都____巴士上班。",
+          "answer": "take-1"
+        },
+        {
+          "id": "take-example-2",
+          "kind": "example",
+          "en": "It takes about 30 minutes to get there.",
+          "zh": "到那裡大約需要 30 分鐘。",
+          "zhMasked": "到那裡大約____ 30 分鐘。",
+          "answer": "take-2"
+        },
+        {
+          "id": "take-example-3",
+          "kind": "example",
+          "en": "She took the gift and thanked him.",
+          "zh": "她收下了禮物，並向他道謝。",
+          "zhMasked": "她____了禮物，並向他道謝。",
+          "answer": "take-3"
+        },
+        {
+          "id": "take-example-4",
+          "kind": "example",
+          "en": "You should take this medicine twice a day.",
+          "zh": "你應該每天服用這種藥兩次。",
+          "zhMasked": "你應該每天____這種藥兩次。",
+          "answer": "take-4"
+        },
+        {
+          "id": "take-example-5",
+          "kind": "example",
+          "en": "Someone took my umbrella by mistake.",
+          "zh": "有人不小心拿走了我的雨傘。",
+          "zhMasked": "有人不小心____了我的雨傘。",
+          "answer": "take-5"
+        },
+        {
+          "id": "take-example-6",
+          "kind": "example",
+          "en": "I’ll take the blue one.",
+          "zh": "我要選藍色的那個。",
+          "zhMasked": "我____藍色的那個。",
+          "answer": "take-6"
+        },
+        {
+          "id": "take-example-7",
+          "kind": "example",
+          "en": "Could you take a photo of us?",
+          "zh": "你可以幫我們拍一張照片嗎？",
+          "zhMasked": "你可以幫我們____一張照片嗎？",
+          "answer": "take-7"
+        },
+        {
+          "id": "take-example-8",
+          "kind": "example",
+          "en": "I can take you to the reception desk.",
+          "zh": "我可以帶您到接待處。",
+          "zhMasked": "我可以____您到接待處。",
+          "answer": "take-8"
+        },
+        {
+          "id": "take-passage",
+          "kind": "passage",
+          "en": "I can take you to the 23rd floor.",
+          "zh": "我可以帶您到 23 樓。",
+          "zhMasked": "我可以____您到 23 樓。",
+          "answer": "take-8"
+        }
+      ]
+    },
+    {
+      "id": "closer",
+      "word": "closer",
+      "baseWord": "close",
+      "sourcePage": 4,
+      "senses": [
+        {
+          "id": "closer-0",
+          "zh": "較近（空間距離）",
+          "sourceMeaning": "Near in distance"
+        },
+        {
+          "id": "closer-1",
+          "zh": "更接近（時間）",
+          "sourceMeaning": "Near in time"
+        },
+        {
+          "id": "closer-2",
+          "zh": "更親近；更密切（關係）",
+          "sourceMeaning": "Having a stronger relationship"
+        },
+        {
+          "id": "closer-3",
+          "zh": "更接近（事實或準確答案）",
+          "sourceMeaning": "More similar or more accurate"
+        }
+      ],
+      "questions": [
+        {
+          "id": "closer-example-0",
+          "kind": "example",
+          "en": "This station is closer to my office.",
+          "zh": "這個車站離我的辦公室比較近。",
+          "zhMasked": "這個車站離我的辦公室____。",
+          "answer": "closer-0"
+        },
+        {
+          "id": "closer-example-1",
+          "kind": "example",
+          "en": "As we get closer to the deadline, everyone gets busier.",
+          "zh": "隨著我們越來越接近截止日期，大家都變得更忙。",
+          "zhMasked": "隨著我們越來越____截止日期，大家都變得更忙。",
+          "answer": "closer-1"
+        },
+        {
+          "id": "closer-example-2",
+          "kind": "example",
+          "en": "We became closer after working together.",
+          "zh": "我們一起工作之後，關係變得更親近了。",
+          "zhMasked": "我們一起工作之後，關係變得____了。",
+          "answer": "closer-2"
+        },
+        {
+          "id": "closer-example-3",
+          "kind": "example",
+          "en": "Your second answer is closer to the truth.",
+          "zh": "你的第二個答案更接近事實。",
+          "zhMasked": "你的第二個答案____事實。",
+          "answer": "closer-3"
+        },
+        {
+          "id": "closer-passage",
+          "kind": "passage",
+          "en": "Yes. Can I use these lifts here? They are closer.",
+          "zh": "可以。我可以使用這邊的升降機嗎？它們比較近。",
+          "zhMasked": "可以。我可以使用這邊的升降機嗎？它們____。",
+          "answer": "closer-0"
+        }
+      ]
+    },
+    {
+      "id": "right",
+      "word": "right",
+      "baseWord": "right",
+      "sourcePage": 5,
+      "senses": [
+        {
+          "id": "right-0",
+          "zh": "正確的；合適的（選擇）",
+          "sourceMeaning": "Correct or suitable"
+        },
+        {
+          "id": "right-1",
+          "zh": "右邊、右側",
+          "sourceMeaning": "The right-hand side"
+        },
+        {
+          "id": "right-2",
+          "zh": "對的；正當的（道德）",
+          "sourceMeaning": "Morally good or proper"
+        },
+        {
+          "id": "right-3",
+          "zh": "權利",
+          "sourceMeaning": "A legal or moral entitlement"
+        },
+        {
+          "id": "right-4",
+          "zh": "正好、就在、立刻",
+          "sourceMeaning": "Exactly or immediately"
+        }
+      ],
+      "questions": [
+        {
+          "id": "right-example-0",
+          "kind": "example",
+          "en": "These are not the right lifts for the 23rd floor.",
+          "zh": "這些不是前往 23 樓的正確升降機。",
+          "zhMasked": "這些不是前往 23 樓的____升降機。",
+          "answer": "right-0"
+        },
+        {
+          "id": "right-example-1",
+          "kind": "example",
+          "en": "Please take Lift H on the right.",
+          "zh": "請乘搭右邊的 H 號升降機。",
+          "zhMasked": "請乘搭____的 H 號升降機。",
+          "answer": "right-1"
+        },
+        {
+          "id": "right-example-2",
+          "kind": "example",
+          "en": "You did the right thing.",
+          "zh": "你做了正確的事。",
+          "zhMasked": "你做了____的事。",
+          "answer": "right-2",
+          "context": "對方誠實承認錯誤，並把拾到的錢包交還失主。"
+        },
+        {
+          "id": "right-example-3",
+          "kind": "example",
+          "en": "Everyone has the right to speak freely.",
+          "zh": "每個人都有自由發言的權利。",
+          "zhMasked": "每個人都有自由發言的____。",
+          "answer": "right-3"
+        },
+        {
+          "id": "right-example-4",
+          "kind": "example",
+          "en": "The bus stop is right outside the building.",
+          "zh": "巴士站就在大樓外面。",
+          "zhMasked": "巴士站____大樓外面。",
+          "answer": "right-4"
+        },
+        {
+          "id": "right-passage",
+          "kind": "passage",
+          "en": "I’m afraid these are not the right lifts for the 23rd floor.",
+          "zh": "恐怕這些不是前往 23 樓的正確升降機。",
+          "zhMasked": "恐怕這些不是前往 23 樓的____升降機。",
+          "answer": "right-0"
+        }
+      ]
+    },
+    {
+      "id": "show",
+      "word": "show",
+      "baseWord": "show",
+      "sourcePage": 6,
+      "senses": [
+        {
+          "id": "show-0",
+          "zh": "給……看、展示",
+          "sourceMeaning": "Let someone see something"
+        },
+        {
+          "id": "show-1",
+          "zh": "帶、指引",
+          "sourceMeaning": "Guide someone somewhere"
+        },
+        {
+          "id": "show-2",
+          "zh": "顯示、表明",
+          "sourceMeaning": "Make something clear or prove something"
+        },
+        {
+          "id": "show-3",
+          "zh": "表現、展現",
+          "sourceMeaning": "Express a feeling or quality"
+        },
+        {
+          "id": "show-4",
+          "zh": "節目、表演",
+          "sourceMeaning": "A performance or programme"
+        }
+      ],
+      "questions": [
+        {
+          "id": "show-example-0",
+          "kind": "example",
+          "en": "Can you show me your ID?",
+          "zh": "你可以給我看你的身分證嗎？",
+          "zhMasked": "你可以把你的身分證____嗎？",
+          "answer": "show-0"
+        },
+        {
+          "id": "show-example-1",
+          "kind": "example",
+          "en": "I’ll show you to the meeting room.",
+          "zh": "我會帶您到會議室。",
+          "zhMasked": "我會____您到會議室。",
+          "answer": "show-1"
+        },
+        {
+          "id": "show-example-2",
+          "kind": "example",
+          "en": "The results show that sales have increased.",
+          "zh": "結果顯示銷售額有所增加。",
+          "zhMasked": "結果____銷售額有所增加。",
+          "answer": "show-2"
+        },
+        {
+          "id": "show-example-3",
+          "kind": "example",
+          "en": "She showed great patience.",
+          "zh": "她展現出極大的耐性。",
+          "zhMasked": "她____出極大的耐性。",
+          "answer": "show-3"
+        },
+        {
+          "id": "show-example-4",
+          "kind": "example",
+          "en": "We watched a comedy show last night.",
+          "zh": "我們昨晚看了一個喜劇節目。",
+          "zhMasked": "我們昨晚看了一個喜劇____。",
+          "answer": "show-4"
+        },
+        {
+          "id": "show-passage",
+          "kind": "passage",
+          "en": "No problem. I’ll show you the correct lift zone.",
+          "zh": "沒問題。我會帶您去正確的升降機區域。",
+          "zhMasked": "沒問題。我會____您去正確的升降機區域。",
+          "answer": "show-1"
+        }
+      ]
+    },
+    {
+      "id": "receipt",
+      "word": "receipt",
+      "baseWord": "receipt",
+      "sourcePage": 7,
+      "senses": [
+        {
+          "id": "receipt-0",
+          "zh": "收據（付款證明）",
+          "sourceMeaning": "Proof of payment"
+        },
+        {
+          "id": "receipt-1",
+          "zh": "憑證；回條（收件或登記證明）",
+          "sourceMeaning": "Proof that something was received"
+        },
+        {
+          "id": "receipt-2",
+          "zh": "收到；收取（動作）",
+          "sourceMeaning": "The act of receiving something"
+        },
+        {
+          "id": "receipt-3",
+          "zh": "收入；進帳（金額）",
+          "sourceMeaning": "Money received"
+        }
+      ],
+      "questions": [
+        {
+          "id": "receipt-example-0",
+          "kind": "example",
+          "en": "Please keep your receipt in case you need a refund.",
+          "zh": "請保留您的收據，以防之後需要退款。",
+          "zhMasked": "請保留您的____，以防之後需要退款。",
+          "answer": "receipt-0"
+        },
+        {
+          "id": "receipt-example-1",
+          "kind": "example",
+          "en": "You will receive an email receipt after submitting the form.",
+          "zh": "提交表格後，您會收到一封電子收件確認。",
+          "zhMasked": "提交表格後，您會收到一封電子____。",
+          "answer": "receipt-1"
+        },
+        {
+          "id": "receipt-example-2",
+          "kind": "example",
+          "en": "Payment is due within seven days of receipt of the invoice.",
+          "zh": "收到發票後七天內須付款。",
+          "zhMasked": "____發票後七天內須付款。",
+          "answer": "receipt-2"
+        },
+        {
+          "id": "receipt-example-3",
+          "kind": "example",
+          "en": "Ticket receipts increased this year.",
+          "zh": "今年的門票收入增加了。",
+          "zhMasked": "今年的門票____增加了。",
+          "answer": "receipt-3"
+        },
+        {
+          "id": "receipt-passage",
+          "kind": "passage",
+          "en": "Thanks. What is this QR receipt for?",
+          "zh": "謝謝。這張 QR 憑證是做甚麼用的？",
+          "zhMasked": "謝謝。這張 QR ____是做甚麼用的？",
+          "answer": "receipt-1"
+        }
+      ]
+    },
+    {
+      "id": "keep",
+      "word": "keep",
+      "baseWord": "keep",
+      "sourcePage": 8,
+      "senses": [
+        {
+          "id": "keep-0",
+          "zh": "保留；繼續持有",
+          "sourceMeaning": "Continue to have something"
+        },
+        {
+          "id": "keep-1",
+          "zh": "繼續",
+          "sourceMeaning": "Continue doing something"
+        },
+        {
+          "id": "keep-2",
+          "zh": "保持",
+          "sourceMeaning": "Maintain something in a condition"
+        },
+        {
+          "id": "keep-3",
+          "zh": "存放；儲存（在某處）",
+          "sourceMeaning": "Store something somewhere"
+        },
+        {
+          "id": "keep-4",
+          "zh": "阻止、使……不能",
+          "sourceMeaning": "Prevent someone or something from doing something"
+        },
+        {
+          "id": "keep-5",
+          "zh": "照顧、飼養",
+          "sourceMeaning": "Take care of or maintain something"
+        }
+      ],
+      "questions": [
+        {
+          "id": "keep-example-0",
+          "kind": "example",
+          "en": "You can keep the receipt.",
+          "zh": "你可以保留這張收據。",
+          "zhMasked": "你可以____這張收據。",
+          "answer": "keep-0"
+        },
+        {
+          "id": "keep-example-1",
+          "kind": "example",
+          "en": "Please keep walking straight.",
+          "zh": "請繼續直走。",
+          "zhMasked": "請____直走。",
+          "answer": "keep-1"
+        },
+        {
+          "id": "keep-example-2",
+          "kind": "example",
+          "en": "Please keep the door closed.",
+          "zh": "請保持門關著。",
+          "zhMasked": "請____門關著。",
+          "answer": "keep-2"
+        },
+        {
+          "id": "keep-example-3",
+          "kind": "example",
+          "en": "We keep the important documents in this cabinet.",
+          "zh": "我們把重要文件存放在這個櫃子裡。",
+          "zhMasked": "我們把重要文件____在這個櫃子裡。",
+          "answer": "keep-3"
+        },
+        {
+          "id": "keep-example-4",
+          "kind": "example",
+          "en": "The heavy rain kept us from leaving.",
+          "zh": "大雨令我們無法離開。",
+          "zhMasked": "大雨____我們離開。",
+          "answer": "keep-4"
+        },
+        {
+          "id": "keep-example-5",
+          "kind": "example",
+          "en": "They keep chickens on their farm.",
+          "zh": "他們在農場飼養雞隻。",
+          "zhMasked": "他們在農場____雞隻。",
+          "answer": "keep-5"
+        },
+        {
+          "id": "keep-passage",
+          "kind": "passage",
+          "en": "Please keep the QR receipt with you.",
+          "zh": "請保留這張 QR 憑證並隨身攜帶。",
+          "zhMasked": "請把這張 QR 憑證____。",
+          "answer": "keep-0"
+        }
+      ]
+    },
+    {
+      "id": "serve",
+      "word": "serve",
+      "baseWord": "serve",
+      "sourcePage": 9,
+      "senses": [
+        {
+          "id": "serve-0",
+          "zh": "供應、端上",
+          "sourceMeaning": "Provide food or drinks"
+        },
+        {
+          "id": "serve-1",
+          "zh": "服務（顧客）",
+          "sourceMeaning": "Help or provide a service to people"
+        },
+        {
+          "id": "serve-2",
+          "zh": "通往；停靠（地方或樓層）",
+          "sourceMeaning": "Go to or cover a place"
+        },
+        {
+          "id": "serve-3",
+          "zh": "任職；服役（職務）",
+          "sourceMeaning": "Work in an official role"
+        },
+        {
+          "id": "serve-4",
+          "zh": "用作、充當、起……作用",
+          "sourceMeaning": "Be useful for a purpose"
+        },
+        {
+          "id": "serve-5",
+          "zh": "送達",
+          "sourceMeaning": "Give someone an official document"
+        }
+      ],
+      "questions": [
+        {
+          "id": "serve-example-0",
+          "kind": "example",
+          "en": "This restaurant serves breakfast until 11 a.m.",
+          "zh": "這間餐廳早餐供應至上午 11 點。",
+          "zhMasked": "這間餐廳早餐____至上午 11 點。",
+          "answer": "serve-0"
+        },
+        {
+          "id": "serve-example-1",
+          "kind": "example",
+          "en": "This office serves more than 500 customers every day.",
+          "zh": "這間辦公室每天服務超過 500 名顧客。",
+          "zhMasked": "這間辦公室每天____超過 500 名顧客。",
+          "answer": "serve-1"
+        },
+        {
+          "id": "serve-example-2",
+          "kind": "example",
+          "en": "This train serves all stations between Central and the airport.",
+          "zh": "這班列車停靠中環至機場之間的所有車站。",
+          "zhMasked": "這班列車____中環至機場之間的所有車站。",
+          "answer": "serve-2"
+        },
+        {
+          "id": "serve-example-3",
+          "kind": "example",
+          "en": "He served in the army for ten years.",
+          "zh": "他在軍隊服役了十年。",
+          "zhMasked": "他在軍隊____了十年。",
+          "answer": "serve-3"
+        },
+        {
+          "id": "serve-example-4",
+          "kind": "example",
+          "en": "This room can serve as a meeting room.",
+          "zh": "這個房間可以用作會議室。",
+          "zhMasked": "這個房間可以____會議室。",
+          "answer": "serve-4"
+        },
+        {
+          "id": "serve-example-5",
+          "kind": "example",
+          "en": "He was served with legal papers.",
+          "zh": "他收到了正式送達的法律文件。",
+          "zhMasked": "他收到了____的法律文件。",
+          "answer": "serve-5"
+        },
+        {
+          "id": "serve-passage",
+          "kind": "passage",
+          "en": "Those lifts do not serve the 23rd floor.",
+          "zh": "那些升降機不到 23 樓。",
+          "zhMasked": "那些升降機不____ 23 樓。",
+          "answer": "serve-2"
+        }
+      ]
+    },
+    {
+      "id": "access",
+      "word": "access",
+      "baseWord": "access",
+      "sourcePage": 10,
+      "senses": [
+        {
+          "id": "access-0",
+          "zh": "進入；到達（地方，動詞）",
+          "sourceMeaning": "Enter or reach a place"
+        },
+        {
+          "id": "access-1",
+          "zh": "存取；查閱（資料或帳戶）",
+          "sourceMeaning": "Use or obtain information"
+        },
+        {
+          "id": "access-2",
+          "zh": "進入權限；使用權（資格）",
+          "sourceMeaning": "The ability or right to enter or use something"
+        },
+        {
+          "id": "access-3",
+          "zh": "使用機會；取得途徑（資源）",
+          "sourceMeaning": "The ability to obtain a service or resource"
+        },
+        {
+          "id": "access-4",
+          "zh": "開啟；連接（檔案或裝置）",
+          "sourceMeaning": "Reach a system, file, or device"
+        }
+      ],
+      "questions": [
+        {
+          "id": "access-example-0",
+          "kind": "example",
+          "en": "You can access the building through the main entrance.",
+          "zh": "你可以經由正門進入這棟大樓。",
+          "zhMasked": "你可以經由正門____這棟大樓。",
+          "answer": "access-0"
+        },
+        {
+          "id": "access-example-1",
+          "kind": "example",
+          "en": "You can access your account online.",
+          "zh": "你可以在網上存取你的帳戶。",
+          "zhMasked": "你可以在網上____你的帳戶。",
+          "answer": "access-1"
+        },
+        {
+          "id": "access-example-2",
+          "kind": "example",
+          "en": "Only staff have access to this room.",
+          "zh": "只有員工有權進入這個房間。",
+          "zhMasked": "只有員工____這個房間。",
+          "answer": "access-2"
+        },
+        {
+          "id": "access-example-3",
+          "kind": "example",
+          "en": "Students have free access to the library.",
+          "zh": "學生可以免費使用圖書館。",
+          "zhMasked": "學生可以免費____圖書館。",
+          "answer": "access-3"
+        },
+        {
+          "id": "access-example-4",
+          "kind": "example",
+          "en": "I can’t access the file.",
+          "zh": "我無法開啟／存取這個檔案。",
+          "zhMasked": "我無法____這個檔案。",
+          "answer": "access-4",
+          "acceptedAnswers": [
+            "access-1",
+            "access-4"
+          ]
+        },
+        {
+          "id": "access-passage",
+          "kind": "passage",
+          "en": "Please use Lift H on your right to access the 23rd floor.",
+          "zh": "請使用您右邊的 H 號升降機前往 23 樓。",
+          "zhMasked": "請使用您右邊的 H 號升降機____ 23 樓。",
+          "answer": "access-0"
+        }
+      ]
+    },
+    {
+      "id": "accompany",
+      "word": "accompany",
+      "baseWord": "accompany",
+      "sourcePage": 11,
+      "senses": [
+        {
+          "id": "accompany-0",
+          "zh": "陪同、陪伴",
+          "sourceMeaning": "Go somewhere with someone"
+        },
+        {
+          "id": "accompany-1",
+          "zh": "伴隨、隨同",
+          "sourceMeaning": "Happen or exist together with something"
+        },
+        {
+          "id": "accompany-2",
+          "zh": "隨附、附有",
+          "sourceMeaning": "Go together with something"
+        },
+        {
+          "id": "accompany-3",
+          "zh": "伴奏",
+          "sourceMeaning": "Play music for someone"
+        }
+      ],
+      "questions": [
+        {
+          "id": "accompany-example-0",
+          "kind": "example",
+          "en": "She accompanied me to the hospital.",
+          "zh": "她陪我去醫院。",
+          "zhMasked": "她____我到醫院。",
+          "answer": "accompany-0"
+        },
+        {
+          "id": "accompany-example-1",
+          "kind": "example",
+          "en": "The heavy rain was accompanied by strong winds.",
+          "zh": "大雨伴隨著強風。",
+          "zhMasked": "大雨____強風。",
+          "answer": "accompany-1"
+        },
+        {
+          "id": "accompany-example-2",
+          "kind": "example",
+          "en": "The application must be accompanied by a copy of your ID.",
+          "zh": "申請表必須附上您的身分證副本。",
+          "zhMasked": "申請表必須____您的身分證副本。",
+          "answer": "accompany-2"
+        },
+        {
+          "id": "accompany-example-3",
+          "kind": "example",
+          "en": "She sang while he accompanied her on the piano.",
+          "zh": "她唱歌時，他用鋼琴為她伴奏。",
+          "zhMasked": "她唱歌時，他用鋼琴為她____。",
+          "answer": "accompany-3"
+        },
+        {
+          "id": "accompany-passage",
+          "kind": "passage",
+          "en": "No problem at all. I’ll accompany you to the correct lift bank.",
+          "zh": "完全沒問題。我會陪同您前往正確的升降機區域。",
+          "zhMasked": "完全沒問題。我會____您前往正確的升降機區域。",
+          "answer": "accompany-0"
+        }
+      ]
+    },
+    {
+      "id": "secured",
+      "word": "secured / secure",
+      "baseWord": "secure",
+      "sourcePage": 12,
+      "senses": [
+        {
+          "id": "secured-0",
+          "zh": "安全的；受保護或受管制的（狀態）",
+          "sourceMeaning": "Safe and protected"
+        },
+        {
+          "id": "secured-1",
+          "zh": "確保安全；保護（採取措施）",
+          "sourceMeaning": "Make something safe"
+        },
+        {
+          "id": "secured-2",
+          "zh": "固定、繫緊",
+          "sourceMeaning": "Fasten something firmly"
+        },
+        {
+          "id": "secured-3",
+          "zh": "取得、獲得",
+          "sourceMeaning": "Obtain something successfully"
+        },
+        {
+          "id": "secured-4",
+          "zh": "確保；保障（結果或供應）",
+          "sourceMeaning": "Guarantee or make certain"
+        }
+      ],
+      "questions": [
+        {
+          "id": "secured-example-0",
+          "kind": "example",
+          "en": "Your personal information is secure.",
+          "zh": "您的個人資料是安全並受到保護的。",
+          "zhMasked": "您的個人資料是____的。",
+          "answer": "secured-0"
+        },
+        {
+          "id": "secured-example-1",
+          "kind": "example",
+          "en": "Please secure the door before you leave.",
+          "zh": "離開前請把門鎖好。",
+          "zhMasked": "離開前請把門____。",
+          "answer": "secured-1"
+        },
+        {
+          "id": "secured-example-2",
+          "kind": "example",
+          "en": "Please secure your luggage before the journey.",
+          "zh": "出發前請把行李固定好。",
+          "zhMasked": "出發前請把行李____。",
+          "answer": "secured-2"
+        },
+        {
+          "id": "secured-example-3",
+          "kind": "example",
+          "en": "She secured a job at an international company.",
+          "zh": "她成功獲得了一份國際公司的工作。",
+          "zhMasked": "她____了一份國際公司的工作。",
+          "answer": "secured-3"
+        },
+        {
+          "id": "secured-example-4",
+          "kind": "example",
+          "en": "The agreement will secure funding for the project.",
+          "zh": "這項協議將確保這個專案獲得資金。",
+          "zhMasked": "這項協議將____這個專案獲得資金。",
+          "answer": "secured-4"
+        },
+        {
+          "id": "secured-passage",
+          "kind": "passage",
+          "en": "When you leave, scan the QR code at the exit gate on G/F to leave the secured area.",
+          "zh": "當您離開時，請在地下樓層的出口閘機掃描 QR code，以離開受管制區域。",
+          "zhMasked": "當您離開時，請在地下樓層的出口閘機掃描 QR code，以離開____區域。",
+          "answer": "secured-0"
+        }
+      ]
+    },
+    {
+      "id": "pleasure",
+      "word": "pleasure",
+      "baseWord": "pleasure",
+      "sourcePage": 13,
+      "senses": [
+        {
+          "id": "pleasure-0",
+          "zh": "愉快；高興（感受）",
+          "sourceMeaning": "A feeling of happiness or enjoyment"
+        },
+        {
+          "id": "pleasure-1",
+          "zh": "樂事；令人愉快的活動",
+          "sourceMeaning": "Something that gives enjoyment"
+        },
+        {
+          "id": "pleasure-2",
+          "zh": "樂意；榮幸（回應幫忙）",
+          "sourceMeaning": "Willingness to help"
+        },
+        {
+          "id": "pleasure-3",
+          "zh": "娛樂；休閒享受（目的）",
+          "sourceMeaning": "Enjoyment for yourself"
+        }
+      ],
+      "questions": [
+        {
+          "id": "pleasure-example-0",
+          "kind": "example",
+          "en": "It was a pleasure to meet you.",
+          "zh": "很高興認識您。",
+          "zhMasked": "很____認識您。",
+          "answer": "pleasure-0"
+        },
+        {
+          "id": "pleasure-example-1",
+          "kind": "example",
+          "en": "Reading is one of my greatest pleasures.",
+          "zh": "閱讀是我最大的樂趣之一。",
+          "zhMasked": "閱讀是我最大的____之一。",
+          "answer": "pleasure-1"
+        },
+        {
+          "id": "pleasure-example-2",
+          "kind": "example",
+          "en": "It would be my pleasure to help.",
+          "zh": "我很樂意幫忙。",
+          "zhMasked": "我很____幫忙。",
+          "answer": "pleasure-2"
+        },
+        {
+          "id": "pleasure-example-3",
+          "kind": "example",
+          "en": "He travels for both business and pleasure.",
+          "zh": "他旅行既是為了公事，也是為了休閒享受。",
+          "zhMasked": "他旅行既是為了公事，也是為了____。",
+          "answer": "pleasure-3"
+        },
+        {
+          "id": "pleasure-passage",
+          "kind": "passage",
+          "en": "My pleasure. Enjoy your visit.",
+          "zh": "不客氣／我的榮幸。祝您到訪愉快。",
+          "zhMasked": "____。祝您到訪愉快。",
+          "answer": "pleasure-2"
+        }
+      ]
+    },
+    {
+      "id": "closes",
+      "word": "closes",
+      "baseWord": "close",
+      "sourcePage": 14,
+      "senses": [
+        {
+          "id": "closes-0",
+          "zh": "關上、關閉",
+          "sourceMeaning": "Shut something"
+        },
+        {
+          "id": "closes-1",
+          "zh": "關門、停止營業",
+          "sourceMeaning": "Stop operating or doing business"
+        },
+        {
+          "id": "closes-2",
+          "zh": "結束、終止",
+          "sourceMeaning": "End something"
+        },
+        {
+          "id": "closes-3",
+          "zh": "關閉、註銷",
+          "sourceMeaning": "Close an account"
+        },
+        {
+          "id": "closes-4",
+          "zh": "成交、完成交易",
+          "sourceMeaning": "Complete a business deal"
+        },
+        {
+          "id": "closes-5",
+          "zh": "縮小、拉近",
+          "sourceMeaning": "Reduce the distance or difference"
+        }
+      ],
+      "questions": [
+        {
+          "id": "closes-example-0",
+          "kind": "example",
+          "en": "Please close the door.",
+          "zh": "請把門關上。",
+          "zhMasked": "請把門____。",
+          "answer": "closes-0"
+        },
+        {
+          "id": "closes-example-1",
+          "kind": "example",
+          "en": "The bank closes at 5 p.m.",
+          "zh": "銀行下午 5 點關門。",
+          "zhMasked": "銀行下午 5 點____。",
+          "answer": "closes-1"
+        },
+        {
+          "id": "closes-example-2",
+          "kind": "example",
+          "en": "The manager closed the meeting with a short speech.",
+          "zh": "經理以一段簡短的講話結束了會議。",
+          "zhMasked": "經理以一段簡短的講話____了會議。",
+          "answer": "closes-2"
+        },
+        {
+          "id": "closes-example-3",
+          "kind": "example",
+          "en": "I want to close my bank account.",
+          "zh": "我想註銷我的銀行帳戶。",
+          "zhMasked": "我想____我的銀行帳戶。",
+          "answer": "closes-3"
+        },
+        {
+          "id": "closes-example-4",
+          "kind": "example",
+          "en": "They closed the deal yesterday.",
+          "zh": "他們昨天成功完成了這筆交易。",
+          "zhMasked": "他們昨天____了這筆交易。",
+          "answer": "closes-4"
+        },
+        {
+          "id": "closes-example-5",
+          "kind": "example",
+          "en": "The company is trying to close the gap between costs and revenue.",
+          "zh": "公司正努力縮小成本與收入之間的差距。",
+          "zhMasked": "公司正努力____成本與收入之間的差距。",
+          "answer": "closes-5"
+        },
+        {
+          "id": "closes-passage",
+          "kind": "passage",
+          "en": "Thank you. The office normally closes at 6:00 p.m.",
+          "zh": "謝謝。辦公室通常在下午 6 點關門。",
+          "zhMasked": "謝謝。辦公室通常在下午 6 點____。",
+          "answer": "closes-1"
+        }
+      ]
+    },
+    {
+      "id": "send",
+      "word": "send",
+      "baseWord": "send",
+      "sourcePage": 15,
+      "senses": [
+        {
+          "id": "send-0",
+          "zh": "傳送；發送（訊息）",
+          "sourceMeaning": "Send a message"
+        },
+        {
+          "id": "send-1",
+          "zh": "寄送（物品）",
+          "sourceMeaning": "Send an object or package"
+        },
+        {
+          "id": "send-2",
+          "zh": "派；安排或准許某人前往",
+          "sourceMeaning": "Make someone go somewhere"
+        },
+        {
+          "id": "send-3",
+          "zh": "送往（接受治療或協助）",
+          "sourceMeaning": "Take someone somewhere, especially for treatment or help"
+        },
+        {
+          "id": "send-4",
+          "zh": "使……移動、使……飛出",
+          "sourceMeaning": "Cause something to move"
+        },
+        {
+          "id": "send-5",
+          "zh": "使……陷入",
+          "sourceMeaning": "Cause someone to enter a state"
+        }
+      ],
+      "questions": [
+        {
+          "id": "send-example-0",
+          "kind": "example",
+          "en": "I’ll send you an email this afternoon.",
+          "zh": "我今天下午會寄／發一封電郵給你。",
+          "zhMasked": "我今天下午會____一封電郵給你。",
+          "answer": "send-0"
+        },
+        {
+          "id": "send-example-1",
+          "kind": "example",
+          "en": "She sent me a gift from Japan.",
+          "zh": "她從日本寄了一份禮物給我。",
+          "zhMasked": "她從日本____了一份禮物給我。",
+          "answer": "send-1"
+        },
+        {
+          "id": "send-example-2",
+          "kind": "example",
+          "en": "The manager sent him to the reception desk.",
+          "zh": "經理叫他去／派他去接待處。",
+          "zhMasked": "經理____他到接待處。",
+          "answer": "send-2"
+        },
+        {
+          "id": "send-example-3",
+          "kind": "example",
+          "en": "They sent him to the hospital.",
+          "zh": "他們把他送往醫院。",
+          "zhMasked": "他們把他____醫院。",
+          "answer": "send-3"
+        },
+        {
+          "id": "send-example-4",
+          "kind": "example",
+          "en": "The impact sent the box across the floor.",
+          "zh": "撞擊令箱子滑到了地板另一邊。",
+          "zhMasked": "撞擊____箱子到了地板另一邊。",
+          "answer": "send-4"
+        },
+        {
+          "id": "send-example-5",
+          "kind": "example",
+          "en": "The news sent everyone into panic.",
+          "zh": "這個消息令所有人陷入恐慌。",
+          "zhMasked": "這個消息____所有人恐慌。",
+          "answer": "send-5"
+        },
+        {
+          "id": "send-passage",
+          "kind": "passage",
+          "en": "However, I’m unable to send you upstairs until I receive confirmation from the tenant.",
+          "zh": "不過，在我收到租戶確認之前，我無法讓您上樓。",
+          "zhMasked": "不過，在我收到租戶確認之前，我無法____您到樓上。",
+          "answer": "send-2"
+        }
+      ]
+    }
+  ],
+  "sourceNotes": [
+    {
+      "word": "take",
+      "note": "The PDF passage uses the guiding-someone sense, which is absent from its table. That source meaning is included as take-8 with one supplementary example: “I can take you to the reception desk.” All eight supplied table examples are preserved."
+    },
+    {
+      "word": "right",
+      "note": "The source passage uses right twice with two different senses. The final question uses the complete first sentence as the original excerpt, testing correct/suitable. The source table example preserves the right-hand-side use."
+    },
+    "access-example-4 accepts both data access and file-opening senses because the original sentence supports both. A moral context cue clarifies right-example-2 without changing its source sentence."
+  ]
+}

@@ -4,9 +4,9 @@ Adds 113 Lesson 3 flashcards (five English examples and five Traditional Chinese
 
 ## Content
 
-Sources: the user's Lesson 3 flashcard PDF; eight Lesson 3 fill-in-the-blanks PDFs; `Lesson_1_Multiple_Meanings.pdf`. Full dialogue text was cross-checked against the matching `Lesson 3 - Complaint Handling and Calm Response.pdf` beside those files. Dialogue translations were added in Traditional Chinese. The source typo `Suit 3001` is normalized to `Suite 3001`; the original floor and room numbers are retained. Existing Lesson 1/2 dialogue objects and audio remain unchanged.
+Sources: the user's Lesson 3 flashcard PDF; eight Lesson 3 fill-in-the-blanks PDFs; `Lesson_1_Multiple_Meanings.pdf`. Full dialogue text was cross-checked against the matching `Lesson 3 - Complaint Handling and Calm Response.pdf` beside those files. Dialogue translations were added in Traditional Chinese. The source typo `Suit 3001` is normalized to `Suite 3001`; the original floor and room numbers are retained. Lesson 1 dialogue objects and audio remain unchanged. The subsequent Lesson 2 source review is documented in `professional-english/content/lesson-2-dialogue-import-notes.md`.
 
-Polysemy includes all 76 example sentences and 16 final passage excerpts. Chinese translations hide the meaning being tested. Overlapping option labels have short Chinese clarifications; example order and final passage order follow the PDF. Incorrect questions repeat in the next round until answered correctly. Completion is saved on the current device, separately per signed-in account. It is not synced between devices.
+Polysemy includes all 76 example sentences and 16 final passage excerpts. Chinese translations hide the meaning being tested. Overlapping option labels have short Chinese clarifications; example order and final passage order follow the PDF. Incorrect questions repeat in the next round until answered correctly. Completion and exact in-progress questions are saved per signed-in account and synchronized between devices. Lessons 2 and 3 add 13 words / 82 questions and 32 words / 197 questions respectively. See `tools/README-professional-learning.md` for shared progress, time tracking, and resume behavior.
 
 ## Audio
 

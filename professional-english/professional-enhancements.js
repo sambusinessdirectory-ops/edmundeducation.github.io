@@ -71,9 +71,19 @@
 
   const dialogs = window.EDMUND_PROFESSIONAL_DIALOGUES || [];
   const escapeHtml = value => String(value).replace(/[&<>"']/g, character => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character]);
+  function dialogueLink(item,number,paired=false) {
+    return `<a class="pro-dialogue-link" href="./dialogue.html?id=${encodeURIComponent(item.id)}" aria-label="${escapeHtml(item.titleZh)} · ${item.variant==='beginner'?'初階版本':'專業版本'}"><b>${paired?`對話 ${number} · Dialogue ${number}`:item.variant==='beginner'?'初階版本 · Beginner':'專業版本 · Professional'}</b><span>${escapeHtml(item.titleZh)}</span><small>${escapeHtml(item.title)}</small></a>`;
+  }
+  function lessonDialogues(lesson) {
+    const items=dialogs.filter(item=>item.lesson===lesson);
+    if(lesson===1)return `<div class="pro-dialogue-single">${items.map((item,i)=>dialogueLink(item,i+1)).join('')}</div>`;
+    const groups=new Map();
+    for(const item of items){const key=item.id.replace(/-(beginner|professional)$/,'');if(!groups.has(key))groups.set(key,{});groups.get(key)[item.variant==='beginner'?'beginner':'professional']=item;}
+    return `<table class="pro-dialogue-table"><caption class="sr-only">第 ${lesson} 課：同一對話的兩個版本</caption><thead><tr><th scope="col">初階版本<span>Beginner-friendly</span></th><th scope="col">專業版本<span>Professional</span></th></tr></thead><tbody>${[...groups.values()].map((group,i)=>`<tr>${['beginner','professional'].map(variant=>`<td>${group[variant]?dialogueLink(group[variant],i+1,true):'<span class="pro-unavailable">準備中</span>'}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+  }
   function lessonMarkup() {
-    return `<div class="pro-practice-heading"><div><span>PROFESSIONAL ENGLISH · DIALOGUE PRACTICE</span><h3>情境英語填充練習</h3><p>先聆聽完整對話及查看中文翻譯，再選擇練習模式。每篇對話均在獨立頁面開啟。</p></div><strong>${dialogs.length} dialogues</strong></div>
-      <div class="pro-lesson-grid">${[1, 2, 3].map(lesson => `<section class="pro-lesson-card"><span>0${lesson}</span><h4>${({1:"第一課：基本互動",2:"第二課：進階互動",3:"第三課：投訴處理與冷靜回應"})[lesson]}</h4><p>${({1:"Class 1 · Basic Interaction",2:"Class 2 · Advanced Interactions",3:"Class 3 · Complaint Handling and Calm Response"})[lesson]}</p><div>${dialogs.filter(item => item.lesson === lesson).map(item => `<a class="pro-dialogue-link" href="./dialogue.html?id=${item.id}"><b>${item.variant==='beginner'?'初階版本 · Beginner':'專業版本 · Professional'}</b><span>${escapeHtml(item.titleZh)}</span><small>${escapeHtml(item.title)}</small></a>`).join("")}</div></section>`).join("")}</div>`;
+    return `<div class="pro-practice-heading"><div><span>PROFESSIONAL ENGLISH · DIALOGUE PRACTICE</span><h3>情境英語填充練習</h3><p>先聆聽完整對話及查看中文翻譯，再選擇練習模式。每行為同一情境，左邊是初階版本，右邊是專業版本。</p></div><strong>${dialogs.length} dialogues</strong></div>
+      <div class="pro-lesson-grid">${[1,2,3].map(lesson=>`<section class="pro-lesson-card" data-dialogue-lesson="${lesson}"><span>0${lesson}</span><h4>${({1:'第一課：基本互動',2:'第二課：進階互動',3:'第三課：投訴處理與冷靜回應'})[lesson]}</h4><p>${({1:'Class 1 · Basic Interaction',2:'Class 2 · Advanced Interactions',3:'Class 3 · Complaint Handling and Calm Response'})[lesson]}</p>${lessonDialogues(lesson)}</section>`).join('')}</div>`;
   }
 
   function enhanceCourse(course) {
@@ -91,7 +101,7 @@
     if (!polysemy && practice) {
       polysemy = document.createElement("section");
       polysemy.className = "learning-panel learning-panel--polysemy learning-panel--practice-glow";
-      polysemy.innerHTML = `<div class="pro-practice-heading"><div><span>PROFESSIONAL ENGLISH · WORDS IN CONTEXT</span><h3>一詞多義 (Polysemy) 練習</h3><p>閱讀例句及留空的中文翻譯，選擇符合語境的意思。答錯的題目會在下一輪再出現。</p></div></div><a class="poly-landing-card" href="./polysemy.html"><strong>第一課 · Lesson 1</strong><span>16 個詞語 · 92 題練習</span><span>每個詞語最後一題為課文原句 · 開始練習 →</span></a>`;
+      polysemy.innerHTML = `<div class="pro-practice-heading"><div><span>PROFESSIONAL ENGLISH · WORDS IN CONTEXT</span><h3>一詞多義 (Polysemy) 練習</h3><p>閱讀例句及留空的中文翻譯，選擇符合語境的意思。答錯的題目會在下一輪再出現。</p></div></div><div class="poly-lesson-grid">${[1,2,3].map(lesson=>`<a class="poly-landing-card" href="./polysemy.html${lesson===1?'':`?lesson=${lesson}`}" data-poly-lesson="${lesson}"><strong>第${['','一','二','三'][lesson]}課 · Lesson ${lesson}</strong><span data-poly-count="${lesson}">${({1:'16 個詞語 · 92 題練習',2:'13 個詞語 · 82 題練習',3:'32 個詞語 · 197 題練習'})[lesson]}</span><span>每個詞語最後一題為課文原句 · 開始練習 →</span></a>`).join('')}</div>`;
       practice.after(polysemy);
     }
     const desired = [flash, practice, polysemy, team, dashboards].filter(Boolean);

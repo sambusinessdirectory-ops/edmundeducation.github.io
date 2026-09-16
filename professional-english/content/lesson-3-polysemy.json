@@ -1,0 +1,2753 @@
+{
+  "lesson": 3,
+  "title": "一詞多義 (Polysemy) 練習",
+  "source": "Lesson_3_Multiple_Meanings.pdf",
+  "words": [
+    {
+      "id": "serious",
+      "word": "serious / seriously",
+      "baseWord": "serious",
+      "sourcePage": 3,
+      "senses": [
+        {
+          "id": "serious-0",
+          "zh": "嚴重的；危險的（形容詞）",
+          "sourceMeaning": "Severe or dangerous"
+        },
+        {
+          "id": "serious-1",
+          "zh": "重大的；重要的（需要重視）",
+          "sourceMeaning": "Important and requiring attention"
+        },
+        {
+          "id": "serious-2",
+          "zh": "認真的；不是開玩笑的",
+          "sourceMeaning": "Not joking"
+        },
+        {
+          "id": "serious-3",
+          "zh": "嚴肅的",
+          "sourceMeaning": "Thoughtful and not playful"
+        },
+        {
+          "id": "serious-4",
+          "zh": "認真投入的（態度）",
+          "sourceMeaning": "Strongly committed"
+        },
+        {
+          "id": "serious-5",
+          "zh": "認真看待；重視（take … seriously）",
+          "sourceMeaning": "Take something seriously"
+        },
+        {
+          "id": "serious-6",
+          "zh": "嚴重地（副詞）",
+          "sourceMeaning": "In a severe way"
+        },
+        {
+          "id": "serious-7",
+          "zh": "真的嗎？（驚訝或不敢相信）",
+          "sourceMeaning": "Seriously? (surprise/disbelief)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "serious-example-0",
+          "kind": "example",
+          "en": "He suffered a serious injury.",
+          "zh": "他受了嚴重的傷。",
+          "zhMasked": "他受了____的傷。",
+          "answer": "serious-0"
+        },
+        {
+          "id": "serious-example-1",
+          "kind": "example",
+          "en": "This is a serious matter.",
+          "zh": "這是一件重大的事情。",
+          "zhMasked": "這是一件____的事情。",
+          "answer": "serious-1",
+          "acceptedAnswers": [
+            "serious-0",
+            "serious-1"
+          ]
+        },
+        {
+          "id": "serious-example-2",
+          "kind": "example",
+          "en": "Are you serious?",
+          "zh": "你是認真的嗎？",
+          "zhMasked": "你是____的嗎？",
+          "answer": "serious-2"
+        },
+        {
+          "id": "serious-example-3",
+          "kind": "example",
+          "en": "She had a serious expression on her face.",
+          "zh": "她臉上帶著嚴肅的表情。",
+          "zhMasked": "她臉上帶著____的表情。",
+          "answer": "serious-3"
+        },
+        {
+          "id": "serious-example-4",
+          "kind": "example",
+          "en": "He is serious about learning English.",
+          "zh": "他對學習英文非常認真。",
+          "zhMasked": "他對學習英文____。",
+          "answer": "serious-4"
+        },
+        {
+          "id": "serious-example-5",
+          "kind": "example",
+          "en": "You should take the warning seriously.",
+          "zh": "你應該認真看待／重視這個警告。",
+          "zhMasked": "你應該____這個警告。",
+          "answer": "serious-5"
+        },
+        {
+          "id": "serious-example-6",
+          "kind": "example",
+          "en": "He was seriously injured in the accident.",
+          "zh": "他在事故中嚴重受傷。",
+          "zhMasked": "他在事故中____受傷。",
+          "answer": "serious-6"
+        },
+        {
+          "id": "serious-example-7",
+          "kind": "example",
+          "en": "Seriously? You finished all of that today?",
+          "zh": "真的嗎？你今天就把那些全部做完了？",
+          "zhMasked": "____？你今天就把那些全部做完了？",
+          "answer": "serious-7"
+        },
+        {
+          "id": "serious-passage",
+          "kind": "passage",
+          "en": "Excuse me. There is a serious problem near our office.",
+          "zh": "不好意思，我們辦公室附近發生了一個嚴重的問題。",
+          "zhMasked": "不好意思，我們辦公室附近發生了一個____的問題。",
+          "answer": "serious-0",
+          "context": "租戶反映消防通道受阻及衛生問題。",
+          "acceptedAnswers": [
+            "serious-0",
+            "serious-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sorry",
+      "word": "sorry",
+      "baseWord": "sorry",
+      "sourcePage": 4,
+      "senses": [
+        {
+          "id": "sorry-0",
+          "zh": "抱歉；對不起（為自己的過失道歉）",
+          "sourceMeaning": "Apologizing for something"
+        },
+        {
+          "id": "sorry-1",
+          "zh": "遺憾；難過（聽到不幸消息）",
+          "sourceMeaning": "Showing sympathy"
+        },
+        {
+          "id": "sorry-2",
+          "zh": "後悔、懊悔",
+          "sourceMeaning": "Feeling regret"
+        },
+        {
+          "id": "sorry-3",
+          "zh": "不好意思，請再說一次（請求重複）",
+          "sourceMeaning": "Ask someone to repeat"
+        },
+        {
+          "id": "sorry-4",
+          "zh": "同情；替某人難過（feel sorry for）",
+          "sourceMeaning": "Feel pity/sympathy for someone"
+        }
+      ],
+      "questions": [
+        {
+          "id": "sorry-example-0",
+          "kind": "example",
+          "en": "I'm sorry I'm late.",
+          "zh": "對不起，我遲到了。",
+          "zhMasked": "____，我遲到了。",
+          "answer": "sorry-0"
+        },
+        {
+          "id": "sorry-example-1",
+          "kind": "example",
+          "en": "I'm sorry to hear about your loss.",
+          "zh": "聽到你的損失，我感到很遺憾。",
+          "zhMasked": "聽到你的損失，我感到很____。",
+          "answer": "sorry-1"
+        },
+        {
+          "id": "sorry-example-2",
+          "kind": "example",
+          "en": "You'll be sorry if you miss this opportunity.",
+          "zh": "如果你錯過這個機會，你會後悔的。",
+          "zhMasked": "如果你錯過這個機會，你會____的。",
+          "answer": "sorry-2"
+        },
+        {
+          "id": "sorry-example-3",
+          "kind": "example",
+          "en": "Sorry? Could you say that again?",
+          "zh": "不好意思？你可以再說一次嗎？",
+          "zhMasked": "____？你可以再說一次嗎？",
+          "answer": "sorry-3"
+        },
+        {
+          "id": "sorry-example-4",
+          "kind": "example",
+          "en": "I feel sorry for him.",
+          "zh": "我替他感到難過。",
+          "zhMasked": "我對他感到____。",
+          "answer": "sorry-4"
+        },
+        {
+          "id": "sorry-passage",
+          "kind": "passage",
+          "en": "I'm sorry to hear that. What happened?",
+          "zh": "聽到這個消息我感到很遺憾。發生了甚麼事？",
+          "zhMasked": "聽到這個消息我感到很____。發生了甚麼事？",
+          "answer": "sorry-1"
+        }
+      ]
+    },
+    {
+      "id": "block",
+      "word": "block",
+      "baseWord": "block",
+      "sourcePage": 5,
+      "senses": [
+        {
+          "id": "block-0",
+          "zh": "阻擋、堵塞",
+          "sourceMeaning": "Stop passage or movement"
+        },
+        {
+          "id": "block-1",
+          "zh": "阻止、阻礙",
+          "sourceMeaning": "Prevent something from happening"
+        },
+        {
+          "id": "block-2",
+          "zh": "封鎖、封鎖聯絡",
+          "sourceMeaning": "Stop communication"
+        },
+        {
+          "id": "block-3",
+          "zh": "塊、磚塊",
+          "sourceMeaning": "A solid piece of material"
+        },
+        {
+          "id": "block-4",
+          "zh": "街區、街段",
+          "sourceMeaning": "A group of buildings or streets"
+        },
+        {
+          "id": "block-5",
+          "zh": "一段時間、時段",
+          "sourceMeaning": "A period of time"
+        }
+      ],
+      "questions": [
+        {
+          "id": "block-example-0",
+          "kind": "example",
+          "en": "A truck blocked the entrance.",
+          "zh": "一輛貨車堵住了入口。",
+          "zhMasked": "一輛貨車____了入口。",
+          "answer": "block-0"
+        },
+        {
+          "id": "block-example-1",
+          "kind": "example",
+          "en": "The court blocked the plan.",
+          "zh": "法院阻止了這項計劃。",
+          "zhMasked": "法院____了這項計劃。",
+          "answer": "block-1"
+        },
+        {
+          "id": "block-example-2",
+          "kind": "example",
+          "en": "She blocked his number.",
+          "zh": "她封鎖了他的電話號碼。",
+          "zhMasked": "她____了他的電話號碼。",
+          "answer": "block-2"
+        },
+        {
+          "id": "block-example-3",
+          "kind": "example",
+          "en": "He lifted a heavy concrete block.",
+          "zh": "他搬起了一塊很重的混凝土磚塊。",
+          "zhMasked": "他搬起了一件很重的混凝土____。",
+          "answer": "block-3"
+        },
+        {
+          "id": "block-example-4",
+          "kind": "example",
+          "en": "The bank is two blocks away.",
+          "zh": "銀行在兩個街區之外。",
+          "zhMasked": "銀行在兩個____之外。",
+          "answer": "block-4"
+        },
+        {
+          "id": "block-example-5",
+          "kind": "example",
+          "en": "I set aside a two-hour block for studying.",
+          "zh": "我安排了一個兩小時的時段來讀書。",
+          "zhMasked": "我安排了一個兩小時的____來讀書。",
+          "answer": "block-5"
+        },
+        {
+          "id": "block-passage",
+          "kind": "passage",
+          "en": "The fire route is blocked.",
+          "zh": "消防通道被堵塞了。",
+          "zhMasked": "消防通道被____了。",
+          "answer": "block-0"
+        }
+      ]
+    },
+    {
+      "id": "understand",
+      "word": "understand",
+      "baseWord": "understand",
+      "sourcePage": 6,
+      "senses": [
+        {
+          "id": "understand-0",
+          "zh": "明白；理解（訊息或意思）",
+          "sourceMeaning": "Know the meaning of something"
+        },
+        {
+          "id": "understand-1",
+          "zh": "了解；懂得（運作方式）",
+          "sourceMeaning": "Know how something works"
+        },
+        {
+          "id": "understand-2",
+          "zh": "理解；體諒（感受或處境）",
+          "sourceMeaning": "Recognize feelings or situation"
+        },
+        {
+          "id": "understand-3",
+          "zh": "據了解；得知（獲悉消息）",
+          "sourceMeaning": "Be informed that something is true"
+        }
+      ],
+      "questions": [
+        {
+          "id": "understand-example-0",
+          "kind": "example",
+          "en": "I don't understand this instruction.",
+          "zh": "我不明白這個指示。",
+          "zhMasked": "我不____這個指示。",
+          "answer": "understand-0"
+        },
+        {
+          "id": "understand-example-1",
+          "kind": "example",
+          "en": "She understands how the security system works.",
+          "zh": "她了解保安系統是怎樣運作的。",
+          "zhMasked": "她____保安系統是怎樣運作的。",
+          "answer": "understand-1"
+        },
+        {
+          "id": "understand-example-2",
+          "kind": "example",
+          "en": "I understand why you're worried.",
+          "zh": "我理解你為甚麼會擔心。",
+          "zhMasked": "我____你為甚麼會擔心。",
+          "answer": "understand-2"
+        },
+        {
+          "id": "understand-example-3",
+          "kind": "example",
+          "en": "I understand that the building will close early today.",
+          "zh": "我得知大樓今天會提早關閉。",
+          "zhMasked": "我____大樓今天會提早關閉。",
+          "answer": "understand-3"
+        },
+        {
+          "id": "understand-passage",
+          "kind": "passage",
+          "en": "I understand. Which floor and which staircase is it?",
+          "zh": "我明白了。請問是在幾樓、哪一道樓梯？",
+          "zhMasked": "我____了。請問是在幾樓、哪一道樓梯？",
+          "answer": "understand-0"
+        }
+      ]
+    },
+    {
+      "id": "refuse",
+      "word": "refuse",
+      "baseWord": "refuse",
+      "sourcePage": 7,
+      "senses": [
+        {
+          "id": "refuse-0",
+          "zh": "垃圾；廢棄物（名詞）",
+          "sourceMeaning": "Rubbish or waste (noun)"
+        },
+        {
+          "id": "refuse-1",
+          "zh": "拒絕；不肯（做某事）",
+          "sourceMeaning": "Say you will not do something (verb)"
+        },
+        {
+          "id": "refuse-2",
+          "zh": "拒收；拒絕接受（提議或物品）",
+          "sourceMeaning": "Not accept something offered"
+        },
+        {
+          "id": "refuse-3",
+          "zh": "拒絕給予；不批准（要求）",
+          "sourceMeaning": "Not give or allow something"
+        }
+      ],
+      "questions": [
+        {
+          "id": "refuse-example-0",
+          "kind": "example",
+          "en": "Please put all household refuse in the designated bins.",
+          "zh": "請把所有家居垃圾放進指定的垃圾桶。",
+          "zhMasked": "請把所有家居____放進指定的桶內。",
+          "answer": "refuse-0"
+        },
+        {
+          "id": "refuse-example-1",
+          "kind": "example",
+          "en": "He refused to leave the building.",
+          "zh": "他拒絕離開大樓。",
+          "zhMasked": "他____離開大樓。",
+          "answer": "refuse-1"
+        },
+        {
+          "id": "refuse-example-2",
+          "kind": "example",
+          "en": "She refused the offer.",
+          "zh": "她拒絕了那個提議。",
+          "zhMasked": "她____了那個提議。",
+          "answer": "refuse-2"
+        },
+        {
+          "id": "refuse-example-3",
+          "kind": "example",
+          "en": "The company refused his request for access.",
+          "zh": "公司拒絕了他的進入申請。",
+          "zhMasked": "公司____了他的進入申請。",
+          "answer": "refuse-3"
+        },
+        {
+          "id": "refuse-passage",
+          "kind": "passage",
+          "en": "18/F, the rear staircase beside the refuse room.",
+          "zh": "18 樓，垃圾房旁邊的後樓梯。",
+          "zhMasked": "18 樓，____房旁邊的後樓梯。",
+          "answer": "refuse-0"
+        }
+      ]
+    },
+    {
+      "id": "check",
+      "word": "check",
+      "baseWord": "check",
+      "sourcePage": 8,
+      "senses": [
+        {
+          "id": "check-0",
+          "zh": "檢查；巡查（安全或狀況）",
+          "sourceMeaning": "Inspect or examine"
+        },
+        {
+          "id": "check-1",
+          "zh": "核對；確認（資料）",
+          "sourceMeaning": "Confirm information"
+        },
+        {
+          "id": "check-2",
+          "zh": "查看；查詢（是否有空或可用）",
+          "sourceMeaning": "Look to see availability/status"
+        },
+        {
+          "id": "check-3",
+          "zh": "制止、控制",
+          "sourceMeaning": "Stop or control something"
+        },
+        {
+          "id": "check-4",
+          "zh": "帳單",
+          "sourceMeaning": "Restaurant bill (AmE noun)"
+        },
+        {
+          "id": "check-5",
+          "zh": "支票",
+          "sourceMeaning": "Written payment (noun)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "check-example-0",
+          "kind": "example",
+          "en": "Please check the door before you leave.",
+          "zh": "離開前請檢查一下門。",
+          "zhMasked": "離開前請____一下門。",
+          "answer": "check-0"
+        },
+        {
+          "id": "check-example-1",
+          "kind": "example",
+          "en": "Let me check your booking details.",
+          "zh": "讓我核對一下您的預訂資料。",
+          "zhMasked": "讓我____一下您的預訂資料。",
+          "answer": "check-1"
+        },
+        {
+          "id": "check-example-2",
+          "kind": "example",
+          "en": "I'll check whether the manager is available.",
+          "zh": "我會查看經理是否有空。",
+          "zhMasked": "我會____經理是否有空。",
+          "answer": "check-2"
+        },
+        {
+          "id": "check-example-3",
+          "kind": "example",
+          "en": "The new measures helped check the spread of the fire.",
+          "zh": "新措施有助於控制火勢蔓延。",
+          "zhMasked": "新措施有助於____火勢蔓延。",
+          "answer": "check-3"
+        },
+        {
+          "id": "check-example-4",
+          "kind": "example",
+          "en": "Could we have the check, please?",
+          "zh": "可以請給我們帳單嗎？",
+          "zhMasked": "可以請給我們____嗎？",
+          "answer": "check-4"
+        },
+        {
+          "id": "check-example-5",
+          "kind": "example",
+          "en": "He paid by check.",
+          "zh": "他用支票付款。",
+          "zhMasked": "他用____付款。",
+          "answer": "check-5"
+        },
+        {
+          "id": "check-passage",
+          "kind": "passage",
+          "en": "check the area more often",
+          "zh": "更頻密地檢查／巡查該區域。",
+          "zhMasked": "更頻密地____該區域。",
+          "answer": "check-0"
+        }
+      ]
+    },
+    {
+      "id": "leave",
+      "word": "leave",
+      "baseWord": "leave",
+      "sourcePage": 9,
+      "senses": [
+        {
+          "id": "leave-0",
+          "zh": "離開",
+          "sourceMeaning": "Go away from a place"
+        },
+        {
+          "id": "leave-1",
+          "zh": "留下；放置（沒有帶走）",
+          "sourceMeaning": "Put something somewhere and not take it"
+        },
+        {
+          "id": "leave-2",
+          "zh": "遺留；忘了帶（忘記）",
+          "sourceMeaning": "Forget something somewhere"
+        },
+        {
+          "id": "leave-3",
+          "zh": "讓……保持",
+          "sourceMeaning": "Allow something to remain in a condition"
+        },
+        {
+          "id": "leave-4",
+          "zh": "留給、遺贈",
+          "sourceMeaning": "Give property after death"
+        },
+        {
+          "id": "leave-5",
+          "zh": "假期；休假（名詞）",
+          "sourceMeaning": "Time away from work (noun)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "leave-example-0",
+          "kind": "example",
+          "en": "She left the office at 6 p.m.",
+          "zh": "她下午 6 點離開辦公室。",
+          "zhMasked": "她下午 6 點____辦公室。",
+          "answer": "leave-0"
+        },
+        {
+          "id": "leave-example-1",
+          "kind": "example",
+          "en": "I left my bag on the chair.",
+          "zh": "我把包包留在椅子上。",
+          "zhMasked": "我把包包____在椅子上。",
+          "answer": "leave-1"
+        },
+        {
+          "id": "leave-example-2",
+          "kind": "example",
+          "en": "I left my phone at home.",
+          "zh": "我把手機忘在家裡了。",
+          "zhMasked": "我把手機____在家裡了。",
+          "answer": "leave-2"
+        },
+        {
+          "id": "leave-example-3",
+          "kind": "example",
+          "en": "Please leave the door open.",
+          "zh": "請讓門保持開著。",
+          "zhMasked": "請讓門____開著。",
+          "answer": "leave-3"
+        },
+        {
+          "id": "leave-example-4",
+          "kind": "example",
+          "en": "He left the house to his daughter.",
+          "zh": "他把房子留給了女兒。",
+          "zhMasked": "他把房子____了女兒。",
+          "answer": "leave-4"
+        },
+        {
+          "id": "leave-example-5",
+          "kind": "example",
+          "en": "She is on annual leave this week.",
+          "zh": "她這星期正在放年假。",
+          "zhMasked": "她這星期正在放____。",
+          "answer": "leave-5"
+        },
+        {
+          "id": "leave-passage",
+          "kind": "passage",
+          "en": "Items have been left in the rear staircase and corridor.",
+          "zh": "有物品被放置／遺留在後樓梯和走廊。",
+          "zhMasked": "有物品被____在後樓梯和走廊。",
+          "answer": "leave-1"
+        }
+      ]
+    },
+    {
+      "id": "noticed",
+      "word": "noticed",
+      "baseWord": "notice",
+      "sourcePage": 10,
+      "senses": [
+        {
+          "id": "noticed-0",
+          "zh": "注意到；察覺到（發現）",
+          "sourceMeaning": "Become aware of something"
+        },
+        {
+          "id": "noticed-1",
+          "zh": "留意；注意（集中注意力）",
+          "sourceMeaning": "Pay attention to something"
+        },
+        {
+          "id": "noticed-2",
+          "zh": "通知、告示",
+          "sourceMeaning": "Official announcement (noun)"
+        },
+        {
+          "id": "noticed-3",
+          "zh": "預先通知、提前通知",
+          "sourceMeaning": "Advance warning (noun)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "noticed-example-0",
+          "kind": "example",
+          "en": "I noticed a strange smell in the corridor.",
+          "zh": "我注意到走廊裡有一股奇怪的氣味。",
+          "zhMasked": "我____走廊裡有一股奇怪的氣味。",
+          "answer": "noticed-0"
+        },
+        {
+          "id": "noticed-example-1",
+          "kind": "example",
+          "en": "Please notice the warning sign near the door.",
+          "zh": "請留意門旁的警告標誌。",
+          "zhMasked": "請____門旁的警告標誌。",
+          "answer": "noticed-1"
+        },
+        {
+          "id": "noticed-example-2",
+          "kind": "example",
+          "en": "There is a notice on the wall.",
+          "zh": "牆上有一張告示。",
+          "zhMasked": "牆上有一張____。",
+          "answer": "noticed-2"
+        },
+        {
+          "id": "noticed-example-3",
+          "kind": "example",
+          "en": "Employees must give one month's notice before leaving.",
+          "zh": "員工離職前必須提前一個月通知。",
+          "zhMasked": "員工離職前必須給予一個月的____。",
+          "answer": "noticed-3"
+        },
+        {
+          "id": "noticed-passage",
+          "kind": "passage",
+          "en": "We have noticed rats and mosquitoes.",
+          "zh": "我們已經注意到／發現有老鼠和蚊子。",
+          "zhMasked": "我們已經____有老鼠和蚊子。",
+          "answer": "noticed-0"
+        }
+      ]
+    },
+    {
+      "id": "escalate",
+      "word": "escalate",
+      "baseWord": "escalate",
+      "sourcePage": 11,
+      "senses": [
+        {
+          "id": "escalate-0",
+          "zh": "上報；交由上級處理",
+          "sourceMeaning": "Refer an issue to a higher level"
+        },
+        {
+          "id": "escalate-1",
+          "zh": "升級；惡化（情況自行加劇）",
+          "sourceMeaning": "Become more serious or intense"
+        },
+        {
+          "id": "escalate-2",
+          "zh": "上升；增加（數量或成本）",
+          "sourceMeaning": "Increase in amount, cost, or level"
+        },
+        {
+          "id": "escalate-3",
+          "zh": "使情況升級；使衝突惡化",
+          "sourceMeaning": "Make a situation more serious"
+        }
+      ],
+      "questions": [
+        {
+          "id": "escalate-example-0",
+          "kind": "example",
+          "en": "If the problem continues, I'll escalate it to my manager.",
+          "zh": "如果問題持續，我會把它上報給經理處理。",
+          "zhMasked": "如果問題持續，我會把它____給經理處理。",
+          "answer": "escalate-0"
+        },
+        {
+          "id": "escalate-example-1",
+          "kind": "example",
+          "en": "The argument escalated quickly.",
+          "zh": "爭執很快就升級／惡化了。",
+          "zhMasked": "爭執很快就____了。",
+          "answer": "escalate-1"
+        },
+        {
+          "id": "escalate-example-2",
+          "kind": "example",
+          "en": "Construction costs have escalated this year.",
+          "zh": "今年的建築成本已經大幅上升。",
+          "zhMasked": "今年的建築成本已經大幅____。",
+          "answer": "escalate-2"
+        },
+        {
+          "id": "escalate-example-3",
+          "kind": "example",
+          "en": "His response escalated the conflict.",
+          "zh": "他的回應令衝突進一步升級。",
+          "zhMasked": "他的回應____衝突。",
+          "answer": "escalate-3"
+        },
+        {
+          "id": "escalate-passage",
+          "kind": "passage",
+          "en": "I'll record those requests clearly and escalate them to management.",
+          "zh": "我會清楚記錄這些要求，並把它們上報管理層處理。",
+          "zhMasked": "我會清楚記錄這些要求，並把它們____管理層處理。",
+          "answer": "escalate-0"
+        }
+      ]
+    },
+    {
+      "id": "suite",
+      "word": "suite",
+      "baseWord": "suite",
+      "sourcePage": 12,
+      "senses": [
+        {
+          "id": "suite-0",
+          "zh": "辦公室、單位",
+          "sourceMeaning": "Office or business unit"
+        },
+        {
+          "id": "suite-1",
+          "zh": "套房",
+          "sourceMeaning": "Set of rooms in a hotel"
+        },
+        {
+          "id": "suite-2",
+          "zh": "一套家具（配套組合）",
+          "sourceMeaning": "Matching set of furniture"
+        },
+        {
+          "id": "suite-3",
+          "zh": "軟件套裝、軟件組合",
+          "sourceMeaning": "Group of related software programs"
+        },
+        {
+          "id": "suite-4",
+          "zh": "組曲",
+          "sourceMeaning": "Set of musical pieces"
+        }
+      ],
+      "questions": [
+        {
+          "id": "suite-example-0",
+          "kind": "example",
+          "en": "Our company is located in Suite 805.",
+          "zh": "我們公司位於 805 室／805 號辦公室。",
+          "zhMasked": "我們公司位於 805 ____。",
+          "answer": "suite-0"
+        },
+        {
+          "id": "suite-example-1",
+          "kind": "example",
+          "en": "They booked a luxury suite at the hotel.",
+          "zh": "他們在酒店訂了一間豪華套房。",
+          "zhMasked": "他們在酒店訂了一間豪華____。",
+          "answer": "suite-1"
+        },
+        {
+          "id": "suite-example-2",
+          "kind": "example",
+          "en": "They bought a new bedroom suite.",
+          "zh": "他們買了一套新的睡房家具。",
+          "zhMasked": "他們買了一組新的睡房____。",
+          "answer": "suite-2"
+        },
+        {
+          "id": "suite-example-3",
+          "kind": "example",
+          "en": "The company uses a complete office software suite.",
+          "zh": "公司使用一套完整的辦公軟件套裝。",
+          "zhMasked": "公司使用一套完整的辦公____。",
+          "answer": "suite-3"
+        },
+        {
+          "id": "suite-example-4",
+          "kind": "example",
+          "en": "The orchestra performed a famous suite.",
+          "zh": "樂團演奏了一首著名的組曲。",
+          "zhMasked": "樂團演奏了一首著名的____。",
+          "answer": "suite-4"
+        },
+        {
+          "id": "suite-passage",
+          "kind": "passage",
+          "en": "The reception area outside Suite 1203.",
+          "zh": "1203 室／1203 單位外面的接待區。",
+          "zhMasked": "1203 ____外面的接待區。",
+          "answer": "suite-0"
+        }
+      ]
+    },
+    {
+      "id": "off",
+      "word": "off",
+      "baseWord": "off",
+      "sourcePage": 13,
+      "senses": [
+        {
+          "id": "off-0",
+          "zh": "關掉、停止運作",
+          "sourceMeaning": "Not operating"
+        },
+        {
+          "id": "off-1",
+          "zh": "離開、不在、休假",
+          "sourceMeaning": "Away from a place / not working"
+        },
+        {
+          "id": "off-2",
+          "zh": "脫離、拿掉",
+          "sourceMeaning": "Removed from something"
+        },
+        {
+          "id": "off-3",
+          "zh": "取消",
+          "sourceMeaning": "Cancelled"
+        },
+        {
+          "id": "off-4",
+          "zh": "不對勁、有點怪",
+          "sourceMeaning": "Not quite right"
+        },
+        {
+          "id": "off-5",
+          "zh": "變壞、不新鮮",
+          "sourceMeaning": "Food has gone bad"
+        },
+        {
+          "id": "off-6",
+          "zh": "減價、折扣",
+          "sourceMeaning": "Discount"
+        }
+      ],
+      "questions": [
+        {
+          "id": "off-example-0",
+          "kind": "example",
+          "en": "The lights are off.",
+          "zh": "燈已經關掉了。",
+          "zhMasked": "燈已經____了。",
+          "answer": "off-0"
+        },
+        {
+          "id": "off-example-1",
+          "kind": "example",
+          "en": "He is off today.",
+          "zh": "他今天休假／不在上班。",
+          "zhMasked": "他今天____。",
+          "answer": "off-1"
+        },
+        {
+          "id": "off-example-2",
+          "kind": "example",
+          "en": "Please take your bag off the chair.",
+          "zh": "請把你的包包從椅子上拿開。",
+          "zhMasked": "請把你的包包從椅子上____。",
+          "answer": "off-2"
+        },
+        {
+          "id": "off-example-3",
+          "kind": "example",
+          "en": "The meeting is off.",
+          "zh": "會議取消了。",
+          "zhMasked": "會議____了。",
+          "answer": "off-3"
+        },
+        {
+          "id": "off-example-4",
+          "kind": "example",
+          "en": "Something feels off.",
+          "zh": "感覺有點不對勁。",
+          "zhMasked": "感覺有點____。",
+          "answer": "off-4"
+        },
+        {
+          "id": "off-example-5",
+          "kind": "example",
+          "en": "The milk smells off.",
+          "zh": "這牛奶聞起來好像壞了。",
+          "zhMasked": "這牛奶聞起來好像____了。",
+          "answer": "off-5"
+        },
+        {
+          "id": "off-example-6",
+          "kind": "example",
+          "en": "This jacket is 20% off.",
+          "zh": "這件外套減價 20%。",
+          "zhMasked": "這件外套____ 20%。",
+          "answer": "off-6"
+        },
+        {
+          "id": "off-passage",
+          "kind": "passage",
+          "en": "Is the air-conditioning completely off, or is it just not cool enough?",
+          "zh": "冷氣是完全關掉了，還是只是冷度不夠？",
+          "zhMasked": "冷氣是完全____了，還是只是冷度不夠？",
+          "answer": "off-0"
+        }
+      ]
+    },
+    {
+      "id": "running",
+      "word": "running",
+      "baseWord": "run",
+      "sourcePage": 14,
+      "senses": [
+        {
+          "id": "running-0",
+          "zh": "跑、奔跑",
+          "sourceMeaning": "Move quickly on foot"
+        },
+        {
+          "id": "running-1",
+          "zh": "運作、運行",
+          "sourceMeaning": "Operate or work"
+        },
+        {
+          "id": "running-2",
+          "zh": "經營、管理",
+          "sourceMeaning": "Manage or control something"
+        },
+        {
+          "id": "running-3",
+          "zh": "延伸、持續",
+          "sourceMeaning": "Continue or extend"
+        },
+        {
+          "id": "running-4",
+          "zh": "行駛、營運",
+          "sourceMeaning": "Be available as a service"
+        },
+        {
+          "id": "running-5",
+          "zh": "流動、流出",
+          "sourceMeaning": "Flow"
+        }
+      ],
+      "questions": [
+        {
+          "id": "running-example-0",
+          "kind": "example",
+          "en": "She is running in the park.",
+          "zh": "她正在公園裡跑步。",
+          "zhMasked": "她正在公園裡____。",
+          "answer": "running-0"
+        },
+        {
+          "id": "running-example-1",
+          "kind": "example",
+          "en": "The machine is running normally.",
+          "zh": "這部機器正在正常運作。",
+          "zhMasked": "這部機器正在正常____。",
+          "answer": "running-1"
+        },
+        {
+          "id": "running-example-2",
+          "kind": "example",
+          "en": "She runs a small business.",
+          "zh": "她經營一家小公司。",
+          "zhMasked": "她____一家小公司。",
+          "answer": "running-2"
+        },
+        {
+          "id": "running-example-3",
+          "kind": "example",
+          "en": "The road runs along the river.",
+          "zh": "這條路沿著河邊延伸。",
+          "zhMasked": "這條路沿著河邊____。",
+          "answer": "running-3"
+        },
+        {
+          "id": "running-example-4",
+          "kind": "example",
+          "en": "The trains run every ten minutes.",
+          "zh": "列車每十分鐘行駛一班。",
+          "zhMasked": "列車每十分鐘____一班。",
+          "answer": "running-4"
+        },
+        {
+          "id": "running-example-5",
+          "kind": "example",
+          "en": "Water is running from the tap.",
+          "zh": "水正從水龍頭流出來。",
+          "zhMasked": "水正從水龍頭____。",
+          "answer": "running-5"
+        },
+        {
+          "id": "running-passage",
+          "kind": "passage",
+          "en": "It's running, but the area is still very warm.",
+          "zh": "冷氣正在運作，但這個區域仍然很熱。",
+          "zhMasked": "冷氣正在____，但這個區域仍然很熱。",
+          "answer": "running-1"
+        }
+      ]
+    },
+    {
+      "id": "reopened",
+      "word": "reopened",
+      "baseWord": "reopen",
+      "sourcePage": 15,
+      "senses": [
+        {
+          "id": "reopened-0",
+          "zh": "重新開放",
+          "sourceMeaning": "Open a place again"
+        },
+        {
+          "id": "reopened-1",
+          "zh": "恢復營業、重新開業",
+          "sourceMeaning": "Start a business or service again"
+        },
+        {
+          "id": "reopened-2",
+          "zh": "重啟；重新展開（調查或討論）",
+          "sourceMeaning": "Start discussing or investigating again"
+        },
+        {
+          "id": "reopened-3",
+          "zh": "重新處理；重新審理（案件）",
+          "sourceMeaning": "Open a case or matter again"
+        }
+      ],
+      "questions": [
+        {
+          "id": "reopened-example-0",
+          "kind": "example",
+          "en": "The washroom was reopened after maintenance.",
+          "zh": "洗手間在維修後重新開放。",
+          "zhMasked": "洗手間在維修後____。",
+          "answer": "reopened-0"
+        },
+        {
+          "id": "reopened-example-1",
+          "kind": "example",
+          "en": "The café reopened after renovation.",
+          "zh": "咖啡店裝修後重新開業。",
+          "zhMasked": "咖啡店裝修後____。",
+          "answer": "reopened-1"
+        },
+        {
+          "id": "reopened-example-2",
+          "kind": "example",
+          "en": "The police reopened the investigation.",
+          "zh": "警方重新展開調查。",
+          "zhMasked": "警方____調查。",
+          "answer": "reopened-2"
+        },
+        {
+          "id": "reopened-example-3",
+          "kind": "example",
+          "en": "The court decided to reopen the case.",
+          "zh": "法院決定重新審理這宗案件。",
+          "zhMasked": "法院決定____這宗案件。",
+          "answer": "reopened-3"
+        },
+        {
+          "id": "reopened-passage",
+          "kind": "passage",
+          "en": "We also need the washroom reopened.",
+          "zh": "我們也需要把洗手間重新開放。",
+          "zhMasked": "我們也需要把洗手間____。",
+          "answer": "reopened-0"
+        }
+      ]
+    },
+    {
+      "id": "identify",
+      "word": "identify",
+      "baseWord": "identify",
+      "sourcePage": 16,
+      "senses": [
+        {
+          "id": "identify-0",
+          "zh": "辨認；識別（身分或種類）",
+          "sourceMeaning": "Recognize who or what something is"
+        },
+        {
+          "id": "identify-1",
+          "zh": "確認；找出（具體是哪一個）",
+          "sourceMeaning": "Determine exactly which one"
+        },
+        {
+          "id": "identify-2",
+          "zh": "指出；列明（所需項目）",
+          "sourceMeaning": "Point out or name something"
+        },
+        {
+          "id": "identify-3",
+          "zh": "表明身分（identify yourself）",
+          "sourceMeaning": "Identify yourself"
+        }
+      ],
+      "questions": [
+        {
+          "id": "identify-example-0",
+          "kind": "example",
+          "en": "Can you identify the person in this photo?",
+          "zh": "你可以辨認出照片中的那個人嗎？",
+          "zhMasked": "你可以____照片中的那個人嗎？",
+          "answer": "identify-0"
+        },
+        {
+          "id": "identify-example-1",
+          "kind": "example",
+          "en": "We need to identify the source of the problem.",
+          "zh": "我們需要找出問題的來源。",
+          "zhMasked": "我們需要____問題的來源。",
+          "answer": "identify-1"
+        },
+        {
+          "id": "identify-example-2",
+          "kind": "example",
+          "en": "Please identify the areas that need repair.",
+          "zh": "請指出需要維修的區域。",
+          "zhMasked": "請____需要維修的區域。",
+          "answer": "identify-2"
+        },
+        {
+          "id": "identify-example-3",
+          "kind": "example",
+          "en": "Please identify yourself at the reception desk.",
+          "zh": "請在接待處表明您的身分。",
+          "zhMasked": "請在接待處____。",
+          "answer": "identify-3"
+        },
+        {
+          "id": "identify-passage",
+          "kind": "passage",
+          "en": "Could you give me the exact location of the warm area and identify which washroom is affected?",
+          "zh": "您可以告訴我較熱區域的確切位置，並確認是哪一個洗手間受到影響嗎？",
+          "zhMasked": "您可以告訴我較熱區域的確切位置，並____是哪一個洗手間受到影響嗎？",
+          "answer": "identify-1"
+        }
+      ]
+    },
+    {
+      "id": "appears",
+      "word": "appears",
+      "baseWord": "appear",
+      "sourcePage": 17,
+      "senses": [
+        {
+          "id": "appears-0",
+          "zh": "看起來、似乎",
+          "sourceMeaning": "Seem to be"
+        },
+        {
+          "id": "appears-1",
+          "zh": "出現（變得可見）",
+          "sourceMeaning": "Become visible"
+        },
+        {
+          "id": "appears-2",
+          "zh": "出席、露面",
+          "sourceMeaning": "Be present at an event or place"
+        },
+        {
+          "id": "appears-3",
+          "zh": "出現在；刊登於（名單或媒體）",
+          "sourceMeaning": "Be shown in media or writing"
+        }
+      ],
+      "questions": [
+        {
+          "id": "appears-example-0",
+          "kind": "example",
+          "en": "The door appears to be damaged.",
+          "zh": "那扇門看起來受損了。",
+          "zhMasked": "那扇門____受損了。",
+          "answer": "appears-0"
+        },
+        {
+          "id": "appears-example-1",
+          "kind": "example",
+          "en": "A warning message appeared on the screen.",
+          "zh": "螢幕上出現了一則警告訊息。",
+          "zhMasked": "螢幕上____了一則警告訊息。",
+          "answer": "appears-1"
+        },
+        {
+          "id": "appears-example-2",
+          "kind": "example",
+          "en": "The manager appeared at the meeting.",
+          "zh": "經理出席了會議。",
+          "zhMasked": "經理____了會議。",
+          "answer": "appears-2"
+        },
+        {
+          "id": "appears-example-3",
+          "kind": "example",
+          "en": "Her name appears on the list.",
+          "zh": "她的名字出現在名單上。",
+          "zhMasked": "她的名字____名單上。",
+          "answer": "appears-3"
+        },
+        {
+          "id": "appears-passage",
+          "kind": "passage",
+          "en": "The washroom beside Lift Lobby B appears to be locked / out of service.",
+          "zh": "B 升降機大堂旁邊的洗手間看起來已上鎖／暫停使用。",
+          "zhMasked": "B 升降機大堂旁邊的洗手間____已上鎖／暫停使用。",
+          "answer": "appears-0"
+        }
+      ]
+    },
+    {
+      "id": "out-of",
+      "word": "out of",
+      "baseWord": "out of",
+      "sourcePage": 18,
+      "senses": [
+        {
+          "id": "out-of-0",
+          "zh": "用完、沒有了",
+          "sourceMeaning": "No longer having something"
+        },
+        {
+          "id": "out-of-1",
+          "zh": "從……出來",
+          "sourceMeaning": "From inside to outside"
+        },
+        {
+          "id": "out-of-2",
+          "zh": "故障、不能使用",
+          "sourceMeaning": "Not functioning (fixed phrases)"
+        },
+        {
+          "id": "out-of-3",
+          "zh": "出於、因為",
+          "sourceMeaning": "Because of a feeling or reason"
+        },
+        {
+          "id": "out-of-4",
+          "zh": "……之中、滿分……",
+          "sourceMeaning": "A number from a total"
+        },
+        {
+          "id": "out-of-5",
+          "zh": "超出、不受……控制",
+          "sourceMeaning": "Outside limits / fixed phrase"
+        }
+      ],
+      "questions": [
+        {
+          "id": "out-of-example-0",
+          "kind": "example",
+          "en": "We are out of paper.",
+          "zh": "我們的紙用完了。",
+          "zhMasked": "我們的紙____了。",
+          "answer": "out-of-0"
+        },
+        {
+          "id": "out-of-example-1",
+          "kind": "example",
+          "en": "He walked out of the office.",
+          "zh": "他從辦公室走了出來。",
+          "zhMasked": "他走____辦公室。",
+          "answer": "out-of-1"
+        },
+        {
+          "id": "out-of-example-2",
+          "kind": "example",
+          "en": "The lift is out of order.",
+          "zh": "升降機故障了。",
+          "zhMasked": "升降機____了。",
+          "answer": "out-of-2"
+        },
+        {
+          "id": "out-of-example-3",
+          "kind": "example",
+          "en": "She helped him out of kindness.",
+          "zh": "她出於好心幫助了他。",
+          "zhMasked": "她____好心幫助了他。",
+          "answer": "out-of-3"
+        },
+        {
+          "id": "out-of-example-4",
+          "kind": "example",
+          "en": "He scored nine out of ten.",
+          "zh": "他十分中得到九分。",
+          "zhMasked": "他得到九分，____十分。",
+          "answer": "out-of-4"
+        },
+        {
+          "id": "out-of-example-5",
+          "kind": "example",
+          "en": "The situation is out of control.",
+          "zh": "情況已經失去控制。",
+          "zhMasked": "情況已經____。",
+          "answer": "out-of-5"
+        },
+        {
+          "id": "out-of-passage",
+          "kind": "passage",
+          "en": "The washroom beside Lift Lobby B appears to be locked / out of service.",
+          "zh": "B 升降機大堂旁邊的洗手間似乎已上鎖／暫停使用。",
+          "zhMasked": "B 升降機大堂旁邊的洗手間似乎已上鎖／____。",
+          "answer": "out-of-2"
+        }
+      ]
+    },
+    {
+      "id": "operating",
+      "word": "operating",
+      "baseWord": "operate",
+      "sourcePage": 19,
+      "senses": [
+        {
+          "id": "operating-0",
+          "zh": "運作；運行（機器）",
+          "sourceMeaning": "Work or function"
+        },
+        {
+          "id": "operating-1",
+          "zh": "操作",
+          "sourceMeaning": "Control or use a machine"
+        },
+        {
+          "id": "operating-2",
+          "zh": "經營；營運（業務或服務）",
+          "sourceMeaning": "Run a business or service"
+        },
+        {
+          "id": "operating-3",
+          "zh": "動手術、進行手術",
+          "sourceMeaning": "Perform surgery"
+        },
+        {
+          "id": "operating-4",
+          "zh": "活動；開展業務（某個地區）",
+          "sourceMeaning": "Work in a particular area"
+        }
+      ],
+      "questions": [
+        {
+          "id": "operating-example-0",
+          "kind": "example",
+          "en": "The lift is operating normally.",
+          "zh": "升降機正正常運作。",
+          "zhMasked": "升降機正正常____。",
+          "answer": "operating-0"
+        },
+        {
+          "id": "operating-example-1",
+          "kind": "example",
+          "en": "Only trained staff may operate this machine.",
+          "zh": "只有受過訓練的員工可以操作這部機器。",
+          "zhMasked": "只有受過訓練的員工可以____這部機器。",
+          "answer": "operating-1"
+        },
+        {
+          "id": "operating-example-2",
+          "kind": "example",
+          "en": "The company operates three hotels.",
+          "zh": "這家公司經營三間酒店。",
+          "zhMasked": "這家公司____三間酒店。",
+          "answer": "operating-2"
+        },
+        {
+          "id": "operating-example-3",
+          "kind": "example",
+          "en": "The surgeon will operate tomorrow.",
+          "zh": "外科醫生明天會進行手術。",
+          "zhMasked": "外科醫生明天會____。",
+          "answer": "operating-3"
+        },
+        {
+          "id": "operating-example-4",
+          "kind": "example",
+          "en": "The company operates in several countries.",
+          "zh": "這家公司在多個國家營運。",
+          "zhMasked": "這家公司在多個國家____。",
+          "answer": "operating-4"
+        },
+        {
+          "id": "operating-passage",
+          "kind": "passage",
+          "en": "Is the air-conditioning not operating at all, or is it running but not cooling the area properly?",
+          "zh": "冷氣是完全沒有運作，還是有在運行但未能正常把該區域冷卻？",
+          "zhMasked": "冷氣是完全沒有____，還是有在運行但未能正常把該區域冷卻？",
+          "answer": "operating-0"
+        }
+      ]
+    },
+    {
+      "id": "uncomfortable",
+      "word": "uncomfortable",
+      "baseWord": "comfortable",
+      "sourcePage": 20,
+      "senses": [
+        {
+          "id": "uncomfortable-0",
+          "zh": "不舒服；不舒適（身體感受）",
+          "sourceMeaning": "Physically uncomfortable"
+        },
+        {
+          "id": "uncomfortable-1",
+          "zh": "不自在；不安（心情）",
+          "sourceMeaning": "Emotionally uneasy"
+        },
+        {
+          "id": "uncomfortable-2",
+          "zh": "敏感的；令人尷尬的（話題或討論）",
+          "sourceMeaning": "Difficult or unpleasant to discuss"
+        },
+        {
+          "id": "uncomfortable-3",
+          "zh": "難堪的；令人為難的（處境）",
+          "sourceMeaning": "In a difficult situation"
+        }
+      ],
+      "questions": [
+        {
+          "id": "uncomfortable-example-0",
+          "kind": "example",
+          "en": "This chair is very uncomfortable.",
+          "zh": "這張椅子很不舒服。",
+          "zhMasked": "這張椅子很____。",
+          "answer": "uncomfortable-0"
+        },
+        {
+          "id": "uncomfortable-example-1",
+          "kind": "example",
+          "en": "I felt uncomfortable during the conversation.",
+          "zh": "在談話過程中，我感到很不自在。",
+          "zhMasked": "在談話過程中，我感到很____。",
+          "answer": "uncomfortable-1"
+        },
+        {
+          "id": "uncomfortable-example-2",
+          "kind": "example",
+          "en": "They had an uncomfortable discussion about money.",
+          "zh": "他們就金錢問題進行了一場令人尷尬／不自在的談話。",
+          "zhMasked": "他們就金錢問題進行了一場____的談話。",
+          "answer": "uncomfortable-2"
+        },
+        {
+          "id": "uncomfortable-example-3",
+          "kind": "example",
+          "en": "He was put in an uncomfortable position.",
+          "zh": "他被置於一個很難堪的處境。",
+          "zhMasked": "他被置於一個很____的處境。",
+          "answer": "uncomfortable-3"
+        },
+        {
+          "id": "uncomfortable-passage",
+          "kind": "passage",
+          "en": "The temperature is still uncomfortable.",
+          "zh": "溫度仍然令人感到不舒服／不舒適。",
+          "zhMasked": "溫度仍然令人感到____。",
+          "answer": "uncomfortable-0"
+        }
+      ]
+    },
+    {
+      "id": "log",
+      "word": "log",
+      "baseWord": "log",
+      "sourcePage": 21,
+      "senses": [
+        {
+          "id": "log-0",
+          "zh": "記錄；登記（正式輸入事項）",
+          "sourceMeaning": "Record information officially"
+        },
+        {
+          "id": "log-1",
+          "zh": "記下；追蹤記錄（持續活動）",
+          "sourceMeaning": "Keep a record of activity"
+        },
+        {
+          "id": "log-2",
+          "zh": "登入",
+          "sourceMeaning": "Log in"
+        },
+        {
+          "id": "log-3",
+          "zh": "登出",
+          "sourceMeaning": "Log out"
+        },
+        {
+          "id": "log-4",
+          "zh": "原木、木頭",
+          "sourceMeaning": "A piece of wood (noun)"
+        },
+        {
+          "id": "log-5",
+          "zh": "紀錄；日誌（名詞）",
+          "sourceMeaning": "A written record (noun)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "log-example-0",
+          "kind": "example",
+          "en": "Please log the complaint in the system.",
+          "zh": "請把這宗投訴記錄在系統內。",
+          "zhMasked": "請把這宗投訴____在系統內。",
+          "answer": "log-0"
+        },
+        {
+          "id": "log-example-1",
+          "kind": "example",
+          "en": "The system logs every visitor entry.",
+          "zh": "系統會記錄每一次訪客進入的資料。",
+          "zhMasked": "系統會____每一次訪客進入的資料。",
+          "answer": "log-1"
+        },
+        {
+          "id": "log-example-2",
+          "kind": "example",
+          "en": "You need to log in before you can access the file.",
+          "zh": "你需要先登入，才能存取該檔案。",
+          "zhMasked": "你需要先____，才能存取該檔案。",
+          "answer": "log-2"
+        },
+        {
+          "id": "log-example-3",
+          "kind": "example",
+          "en": "Remember to log out when you finish.",
+          "zh": "完成後記得登出。",
+          "zhMasked": "完成後記得____。",
+          "answer": "log-3"
+        },
+        {
+          "id": "log-example-4",
+          "kind": "example",
+          "en": "They put another log on the fire.",
+          "zh": "他們又放了一根木頭進火裡。",
+          "zhMasked": "他們又放了一根____進火裡。",
+          "answer": "log-4"
+        },
+        {
+          "id": "log-example-5",
+          "kind": "example",
+          "en": "The security officer checked the visitor log.",
+          "zh": "保安員查看了訪客紀錄。",
+          "zhMasked": "保安員查看了訪客____。",
+          "answer": "log-5"
+        },
+        {
+          "id": "log-passage",
+          "kind": "passage",
+          "en": "I'll log both issues separately and report them to the management / engineering team for follow-up.",
+          "zh": "我會把這兩個問題分別記錄，並向管理層／工程團隊報告，以便跟進。",
+          "zhMasked": "我會把這兩個問題分別____，並向管理層／工程團隊報告，以便跟進。",
+          "answer": "log-0"
+        }
+      ]
+    },
+    {
+      "id": "attend",
+      "word": "attend",
+      "baseWord": "attend",
+      "sourcePage": 22,
+      "senses": [
+        {
+          "id": "attend-0",
+          "zh": "出席、參加",
+          "sourceMeaning": "Go to an event or meeting"
+        },
+        {
+          "id": "attend-1",
+          "zh": "到場處理；前往協助",
+          "sourceMeaning": "Go to a place to deal with something"
+        },
+        {
+          "id": "attend-2",
+          "zh": "處理；關注（事情，attend to）",
+          "sourceMeaning": "Give attention to something (attend to)"
+        },
+        {
+          "id": "attend-3",
+          "zh": "照顧；照料（人，attend to）",
+          "sourceMeaning": "Take care of someone (attend to)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "attend-example-0",
+          "kind": "example",
+          "en": "She attended the meeting yesterday.",
+          "zh": "她昨天出席了會議。",
+          "zhMasked": "她昨天____了會議。",
+          "answer": "attend-0"
+        },
+        {
+          "id": "attend-example-1",
+          "kind": "example",
+          "en": "An engineer will attend the site this afternoon.",
+          "zh": "工程師今天下午會到場處理。",
+          "zhMasked": "工程師今天下午會____。",
+          "answer": "attend-1"
+        },
+        {
+          "id": "attend-example-2",
+          "kind": "example",
+          "en": "I need to attend to this matter immediately.",
+          "zh": "我需要立即處理這件事。",
+          "zhMasked": "我需要立即____這件事。",
+          "answer": "attend-2"
+        },
+        {
+          "id": "attend-example-3",
+          "kind": "example",
+          "en": "A nurse attended to the injured man.",
+          "zh": "一名護士照料那名受傷男子。",
+          "zhMasked": "一名護士____那名受傷男子。",
+          "answer": "attend-3"
+        },
+        {
+          "id": "attend-passage",
+          "kind": "passage",
+          "en": "I'll ask the responsible team to attend as soon as possible.",
+          "zh": "我會請負責的團隊盡快到場處理。",
+          "zhMasked": "我會請負責的團隊盡快____。",
+          "answer": "attend-1"
+        }
+      ]
+    },
+    {
+      "id": "properly",
+      "word": "properly",
+      "baseWord": "proper",
+      "sourcePage": 23,
+      "senses": [
+        {
+          "id": "properly-0",
+          "zh": "正確地",
+          "sourceMeaning": "Correctly"
+        },
+        {
+          "id": "properly-1",
+          "zh": "正常地",
+          "sourceMeaning": "Functioning as expected"
+        },
+        {
+          "id": "properly-2",
+          "zh": "妥善地、充分地、徹底地",
+          "sourceMeaning": "Thoroughly or completely"
+        },
+        {
+          "id": "properly-3",
+          "zh": "適當地、得體地",
+          "sourceMeaning": "Appropriately"
+        }
+      ],
+      "questions": [
+        {
+          "id": "properly-example-0",
+          "kind": "example",
+          "en": "Please fill in the form properly.",
+          "zh": "請正確地填寫表格。",
+          "zhMasked": "請____地填寫表格。",
+          "answer": "properly-0"
+        },
+        {
+          "id": "properly-example-1",
+          "kind": "example",
+          "en": "The air-conditioning is not working properly.",
+          "zh": "冷氣沒有正常運作。",
+          "zhMasked": "冷氣沒有____運作。",
+          "answer": "properly-1"
+        },
+        {
+          "id": "properly-example-2",
+          "kind": "example",
+          "en": "The problem needs to be properly investigated.",
+          "zh": "這個問題需要被妥善地／徹底地調查。",
+          "zhMasked": "這個問題需要被____調查。",
+          "answer": "properly-2"
+        },
+        {
+          "id": "properly-example-3",
+          "kind": "example",
+          "en": "Please dress properly for the formal event.",
+          "zh": "參加正式活動時，請穿著得體。",
+          "zhMasked": "參加正式活動時，請穿著____。",
+          "answer": "properly-3"
+        },
+        {
+          "id": "properly-passage",
+          "kind": "passage",
+          "en": "The lights in our meeting room are not working properly.",
+          "zh": "我們會議室的燈沒有正常運作。",
+          "zhMasked": "我們會議室的燈沒有____運作。",
+          "answer": "properly-1"
+        }
+      ]
+    },
+    {
+      "id": "dim",
+      "word": "dim",
+      "baseWord": "dim",
+      "sourcePage": 24,
+      "senses": [
+        {
+          "id": "dim-0",
+          "zh": "昏暗的；光線不足的（形容詞）",
+          "sourceMeaning": "Not bright"
+        },
+        {
+          "id": "dim-1",
+          "zh": "調暗；使燈光變暗（動作）",
+          "sourceMeaning": "Make a light less bright (verb)"
+        },
+        {
+          "id": "dim-2",
+          "zh": "變暗（亮度自行降低）",
+          "sourceMeaning": "Become less bright"
+        },
+        {
+          "id": "dim-3",
+          "zh": "模糊的",
+          "sourceMeaning": "Unclear or difficult to remember"
+        },
+        {
+          "id": "dim-4",
+          "zh": "渺茫的、不樂觀的",
+          "sourceMeaning": "Not very hopeful"
+        }
+      ],
+      "questions": [
+        {
+          "id": "dim-example-0",
+          "kind": "example",
+          "en": "The hallway is very dim at night.",
+          "zh": "晚上走廊非常昏暗。",
+          "zhMasked": "晚上走廊非常____。",
+          "answer": "dim-0"
+        },
+        {
+          "id": "dim-example-1",
+          "kind": "example",
+          "en": "Could you dim the lights?",
+          "zh": "你可以把燈光調暗一點嗎？",
+          "zhMasked": "你可以把燈光____一點嗎？",
+          "answer": "dim-1"
+        },
+        {
+          "id": "dim-example-2",
+          "kind": "example",
+          "en": "The lights dimmed before the movie started.",
+          "zh": "電影開始前，燈光暗了下來。",
+          "zhMasked": "電影開始前，燈光____。",
+          "answer": "dim-2"
+        },
+        {
+          "id": "dim-example-3",
+          "kind": "example",
+          "en": "I have only a dim memory of that day.",
+          "zh": "我對那一天只有很模糊的記憶。",
+          "zhMasked": "我對那一天只有很____的記憶。",
+          "answer": "dim-3"
+        },
+        {
+          "id": "dim-example-4",
+          "kind": "example",
+          "en": "The chances of finding it are dim.",
+          "zh": "找到它的機會很渺茫。",
+          "zhMasked": "找到它的機會很____。",
+          "answer": "dim-4"
+        },
+        {
+          "id": "dim-passage",
+          "kind": "passage",
+          "en": "The lights in our meeting room are not working properly. It is very dim.",
+          "zh": "我們會議室的燈沒有正常運作，裡面非常昏暗。",
+          "zhMasked": "我們會議室的燈沒有正常運作，裡面非常____。",
+          "answer": "dim-0"
+        }
+      ]
+    },
+    {
+      "id": "fault",
+      "word": "fault",
+      "baseWord": "fault",
+      "sourcePage": 25,
+      "senses": [
+        {
+          "id": "fault-0",
+          "zh": "故障、毛病",
+          "sourceMeaning": "A technical problem or defect"
+        },
+        {
+          "id": "fault-1",
+          "zh": "過錯、責任",
+          "sourceMeaning": "Responsibility for something bad"
+        },
+        {
+          "id": "fault-2",
+          "zh": "缺點",
+          "sourceMeaning": "A weakness or bad quality"
+        },
+        {
+          "id": "fault-3",
+          "zh": "挑剔、責怪、找毛病",
+          "sourceMeaning": "Find fault with someone/something"
+        },
+        {
+          "id": "fault-4",
+          "zh": "斷層",
+          "sourceMeaning": "A crack in the Earth's surface"
+        }
+      ],
+      "questions": [
+        {
+          "id": "fault-example-0",
+          "kind": "example",
+          "en": "The engineer found a fault in the electrical system.",
+          "zh": "工程師發現電力系統有一個故障。",
+          "zhMasked": "工程師發現電力系統有一個____。",
+          "answer": "fault-0"
+        },
+        {
+          "id": "fault-example-1",
+          "kind": "example",
+          "en": "It wasn't my fault.",
+          "zh": "這不是我的錯。",
+          "zhMasked": "這不是我的____。",
+          "answer": "fault-1"
+        },
+        {
+          "id": "fault-example-2",
+          "kind": "example",
+          "en": "Everyone has their faults.",
+          "zh": "每個人都有自己的缺點。",
+          "zhMasked": "每個人都有自己的____。",
+          "answer": "fault-2"
+        },
+        {
+          "id": "fault-example-3",
+          "kind": "example",
+          "en": "She always finds fault with my work.",
+          "zh": "她總是對我的工作挑毛病。",
+          "zhMasked": "她總是對我的工作____。",
+          "answer": "fault-3"
+        },
+        {
+          "id": "fault-example-4",
+          "kind": "example",
+          "en": "The city lies near a major fault.",
+          "zh": "這座城市位於一條主要斷層附近。",
+          "zhMasked": "這座城市位於一條主要____附近。",
+          "answer": "fault-4"
+        },
+        {
+          "id": "fault-passage",
+          "kind": "passage",
+          "en": "I'd like to report an urgent lighting fault.",
+          "zh": "我想報告一宗緊急的照明故障。",
+          "zhMasked": "我想報告一宗緊急的照明____。",
+          "answer": "fault-0"
+        }
+      ]
+    },
+    {
+      "id": "fittings",
+      "word": "fittings / fit",
+      "baseWord": "fit / fitting",
+      "sourcePage": 26,
+      "senses": [
+        {
+          "id": "fittings-0",
+          "zh": "裝置；固定設備（如浴室設備）",
+          "sourceMeaning": "Installed equipment or fixtures"
+        },
+        {
+          "id": "fittings-1",
+          "zh": "燈具；照明裝置",
+          "sourceMeaning": "Light fittings"
+        },
+        {
+          "id": "fittings-2",
+          "zh": "配件；接頭（連接零件）",
+          "sourceMeaning": "Small connecting parts"
+        },
+        {
+          "id": "fittings-3",
+          "zh": "試身、試穿",
+          "sourceMeaning": "Clothes fitting (noun)"
+        },
+        {
+          "id": "fittings-4",
+          "zh": "合身；大小合適（尺寸）",
+          "sourceMeaning": "Be the correct size (fit)"
+        },
+        {
+          "id": "fittings-5",
+          "zh": "安裝、裝設",
+          "sourceMeaning": "Put or install something in place"
+        },
+        {
+          "id": "fittings-6",
+          "zh": "適合；符合（需要）",
+          "sourceMeaning": "Be suitable"
+        },
+        {
+          "id": "fittings-7",
+          "zh": "健康的、健壯的",
+          "sourceMeaning": "Physically healthy (adjective)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "fittings-example-0",
+          "kind": "example",
+          "en": "The bathroom fittings need to be replaced.",
+          "zh": "浴室的固定設備需要更換。",
+          "zhMasked": "浴室的____需要更換。",
+          "answer": "fittings-0"
+        },
+        {
+          "id": "fittings-example-1",
+          "kind": "example",
+          "en": "Several light fittings are damaged.",
+          "zh": "有幾個燈具損壞了。",
+          "zhMasked": "有幾個____損壞了。",
+          "answer": "fittings-1"
+        },
+        {
+          "id": "fittings-example-2",
+          "kind": "example",
+          "en": "The plumber replaced the pipe fittings.",
+          "zh": "水喉工更換了水管接頭。",
+          "zhMasked": "水喉工更換了水管____。",
+          "answer": "fittings-2"
+        },
+        {
+          "id": "fittings-example-3",
+          "kind": "example",
+          "en": "I have a suit fitting tomorrow.",
+          "zh": "我明天要去做西裝試身。",
+          "zhMasked": "我明天要去做西裝____。",
+          "answer": "fittings-3"
+        },
+        {
+          "id": "fittings-example-4",
+          "kind": "example",
+          "en": "These shoes fit me perfectly.",
+          "zh": "這雙鞋非常合我的尺寸。",
+          "zhMasked": "這雙鞋非常____。",
+          "answer": "fittings-4"
+        },
+        {
+          "id": "fittings-example-5",
+          "kind": "example",
+          "en": "They fitted new lights in the corridor.",
+          "zh": "他們在走廊安裝了新的燈具。",
+          "zhMasked": "他們在走廊____了新的燈具。",
+          "answer": "fittings-5"
+        },
+        {
+          "id": "fittings-example-6",
+          "kind": "example",
+          "en": "This room doesn't fit our needs.",
+          "zh": "這個房間不符合我們的需要。",
+          "zhMasked": "這個房間不____我們的需要。",
+          "answer": "fittings-6"
+        },
+        {
+          "id": "fittings-example-7",
+          "kind": "example",
+          "en": "He exercises every day to stay fit.",
+          "zh": "他每天運動以保持健康。",
+          "zhMasked": "他每天運動以保持____。",
+          "answer": "fittings-7"
+        },
+        {
+          "id": "fittings-passage",
+          "kind": "passage",
+          "en": "Are only some fittings not working?",
+          "zh": "是不是只有部分燈具沒有運作？",
+          "zhMasked": "是不是只有部分____沒有運作？",
+          "answer": "fittings-1",
+          "context": "會議室燈光投訴",
+          "acceptedAnswers": [
+            "fittings-0",
+            "fittings-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "due-to",
+      "word": "due to",
+      "baseWord": "due to",
+      "sourcePage": 27,
+      "senses": [
+        {
+          "id": "due-to-0",
+          "zh": "預計、預定",
+          "sourceMeaning": "Expected or scheduled to happen"
+        },
+        {
+          "id": "due-to-1",
+          "zh": "由於、因為",
+          "sourceMeaning": "Because of"
+        }
+      ],
+      "questions": [
+        {
+          "id": "due-to-example-0",
+          "kind": "example",
+          "en": "The train is due to arrive at 8:30.",
+          "zh": "火車預計在 8:30 到達。",
+          "zhMasked": "火車____在 8:30 到達。",
+          "answer": "due-to-0"
+        },
+        {
+          "id": "due-to-example-1",
+          "kind": "example",
+          "en": "The delay was due to heavy traffic.",
+          "zh": "延誤是由於交通擠塞造成的。",
+          "zhMasked": "延誤是____交通擠塞造成的。",
+          "answer": "due-to-1"
+        },
+        {
+          "id": "due-to-passage",
+          "kind": "passage",
+          "en": "A client meeting is due to begin shortly.",
+          "zh": "一場客戶會議預計很快開始。",
+          "zhMasked": "一場客戶會議____很快開始。",
+          "answer": "due-to-0"
+        }
+      ]
+    },
+    {
+      "id": "short",
+      "word": "short / shorten / shortly",
+      "baseWord": "short",
+      "sourcePage": 28,
+      "senses": [
+        {
+          "id": "short-0",
+          "zh": "短的；短暫的（時間或長度）",
+          "sourceMeaning": "short: not long in time/length"
+        },
+        {
+          "id": "short-1",
+          "zh": "不足、短缺",
+          "sourceMeaning": "short: not enough"
+        },
+        {
+          "id": "short-2",
+          "zh": "矮的",
+          "sourceMeaning": "short: not tall"
+        },
+        {
+          "id": "short-3",
+          "zh": "簡短的（說話或文字）",
+          "sourceMeaning": "short: brief and direct"
+        },
+        {
+          "id": "short-4",
+          "zh": "縮短（使時間或長度減少）",
+          "sourceMeaning": "shorten: make something shorter"
+        },
+        {
+          "id": "short-5",
+          "zh": "變短（時間或長度自行減少）",
+          "sourceMeaning": "shorten: become shorter"
+        },
+        {
+          "id": "short-6",
+          "zh": "簡化；縮短（文字）",
+          "sourceMeaning": "shorten: make wording shorter"
+        },
+        {
+          "id": "short-7",
+          "zh": "很快、不久後",
+          "sourceMeaning": "shortly: soon"
+        },
+        {
+          "id": "short-8",
+          "zh": "簡短地（說話方式）",
+          "sourceMeaning": "shortly: briefly"
+        }
+      ],
+      "questions": [
+        {
+          "id": "short-example-0",
+          "kind": "example",
+          "en": "We had a short meeting.",
+          "zh": "我們開了一個短暫的會議。",
+          "zhMasked": "我們開了一個____的會議。",
+          "answer": "short-0"
+        },
+        {
+          "id": "short-example-1",
+          "kind": "example",
+          "en": "We are short of staff today.",
+          "zh": "我們今天人手不足。",
+          "zhMasked": "我們今天人手____。",
+          "answer": "short-1"
+        },
+        {
+          "id": "short-example-2",
+          "kind": "example",
+          "en": "He is quite short.",
+          "zh": "他個子相當矮。",
+          "zhMasked": "他個子相當____。",
+          "answer": "short-2"
+        },
+        {
+          "id": "short-example-3",
+          "kind": "example",
+          "en": "Please give me a short answer.",
+          "zh": "請給我一個簡短的回答。",
+          "zhMasked": "請給我一個____的回答。",
+          "answer": "short-3"
+        },
+        {
+          "id": "short-example-4",
+          "kind": "example",
+          "en": "We need to shorten the meeting.",
+          "zh": "我們需要縮短會議時間。",
+          "zhMasked": "我們需要____會議時間。",
+          "answer": "short-4"
+        },
+        {
+          "id": "short-example-5",
+          "kind": "example",
+          "en": "The days shorten in winter.",
+          "zh": "冬天白天會變短。",
+          "zhMasked": "冬天白天會____。",
+          "answer": "short-5"
+        },
+        {
+          "id": "short-example-6",
+          "kind": "example",
+          "en": "Can you shorten this email?",
+          "zh": "你可以把這封電郵縮短／簡化一點嗎？",
+          "zhMasked": "你可以把這封電郵____一點嗎？",
+          "answer": "short-6"
+        },
+        {
+          "id": "short-example-7",
+          "kind": "example",
+          "en": "The manager will arrive shortly.",
+          "zh": "經理很快就會到。",
+          "zhMasked": "經理____就會到。",
+          "answer": "short-7"
+        },
+        {
+          "id": "short-example-8",
+          "kind": "example",
+          "en": "He spoke shortly about the problem.",
+          "zh": "他簡短地談了一下這個問題。",
+          "zhMasked": "他____地談了一下這個問題。",
+          "answer": "short-8"
+        },
+        {
+          "id": "short-passage",
+          "kind": "passage",
+          "en": "A client meeting is due to begin shortly.",
+          "zh": "一場客戶會議很快就要開始。",
+          "zhMasked": "一場客戶會議____就要開始。",
+          "answer": "short-7"
+        }
+      ]
+    },
+    {
+      "id": "slip",
+      "word": "slip / slipped",
+      "baseWord": "slip",
+      "sourcePage": 29,
+      "senses": [
+        {
+          "id": "slip-0",
+          "zh": "滑倒、滑了一下",
+          "sourceMeaning": "Lose your balance"
+        },
+        {
+          "id": "slip-1",
+          "zh": "滑落、脫落",
+          "sourceMeaning": "Move out of position accidentally"
+        },
+        {
+          "id": "slip-2",
+          "zh": "悄悄地走、溜進／溜出",
+          "sourceMeaning": "Move somewhere quietly or unnoticed"
+        },
+        {
+          "id": "slip-3",
+          "zh": "塞入、悄悄放入",
+          "sourceMeaning": "Put something somewhere quietly"
+        },
+        {
+          "id": "slip-4",
+          "zh": "小失誤、疏忽",
+          "sourceMeaning": "A small mistake (noun)"
+        },
+        {
+          "id": "slip-5",
+          "zh": "紙條、單據",
+          "sourceMeaning": "A small piece of paper (noun)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "slip-example-0",
+          "kind": "example",
+          "en": "She slipped on the wet floor.",
+          "zh": "她在濕滑的地板上滑倒了。",
+          "zhMasked": "她在濕滑的地板上____了。",
+          "answer": "slip-0"
+        },
+        {
+          "id": "slip-example-1",
+          "kind": "example",
+          "en": "The phone slipped out of his hand.",
+          "zh": "手機從他手中滑落了。",
+          "zhMasked": "手機從他手中____了。",
+          "answer": "slip-1"
+        },
+        {
+          "id": "slip-example-2",
+          "kind": "example",
+          "en": "He slipped out of the meeting early.",
+          "zh": "他提早悄悄離開了會議。",
+          "zhMasked": "他提早____了會議。",
+          "answer": "slip-2"
+        },
+        {
+          "id": "slip-example-3",
+          "kind": "example",
+          "en": "She slipped the note into her bag.",
+          "zh": "她把紙條悄悄放進袋子裡。",
+          "zhMasked": "她把紙條____袋子裡。",
+          "answer": "slip-3"
+        },
+        {
+          "id": "slip-example-4",
+          "kind": "example",
+          "en": "It was just a small slip.",
+          "zh": "那只是一個小小的失誤。",
+          "zhMasked": "那只是一個小小的____。",
+          "answer": "slip-4"
+        },
+        {
+          "id": "slip-example-5",
+          "kind": "example",
+          "en": "Please fill in this slip.",
+          "zh": "請填寫這張表格／紙條。",
+          "zhMasked": "請填寫這張____。",
+          "answer": "slip-5"
+        },
+        {
+          "id": "slip-passage",
+          "kind": "passage",
+          "en": "Yes. There is a socket nearby, and someone almost slipped.",
+          "zh": "是的。附近有一個插座，而且剛才有人差點滑倒。",
+          "zhMasked": "是的。附近有一個插座，而且剛才有人差點____。",
+          "answer": "slip-0"
+        }
+      ]
+    },
+    {
+      "id": "unit",
+      "word": "unit",
+      "baseWord": "unit",
+      "sourcePage": 30,
+      "senses": [
+        {
+          "id": "unit-0",
+          "zh": "機組；設備（單一機器）",
+          "sourceMeaning": "A single piece of equipment"
+        },
+        {
+          "id": "unit-1",
+          "zh": "單位（辦公室或住宅）",
+          "sourceMeaning": "One apartment or office space"
+        },
+        {
+          "id": "unit-2",
+          "zh": "個；件（產品數量）",
+          "sourceMeaning": "One item in a group"
+        },
+        {
+          "id": "unit-3",
+          "zh": "單位（度量標準）",
+          "sourceMeaning": "A measurement"
+        },
+        {
+          "id": "unit-4",
+          "zh": "部門；小組（組織）",
+          "sourceMeaning": "A group within an organization"
+        }
+      ],
+      "questions": [
+        {
+          "id": "unit-example-0",
+          "kind": "example",
+          "en": "The maintenance team replaced the damaged air-conditioning unit.",
+          "zh": "維修團隊更換了損壞的冷氣機組。",
+          "zhMasked": "維修團隊更換了損壞的冷氣____。",
+          "answer": "unit-0"
+        },
+        {
+          "id": "unit-example-1",
+          "kind": "example",
+          "en": "This building has 40 office units.",
+          "zh": "這棟大樓有 40 個辦公單位。",
+          "zhMasked": "這棟大樓有 40 個辦公____。",
+          "answer": "unit-1"
+        },
+        {
+          "id": "unit-example-2",
+          "kind": "example",
+          "en": "We sold 500 units last month.",
+          "zh": "我們上個月售出了 500 件產品。",
+          "zhMasked": "我們上個月售出了 500 ____。",
+          "answer": "unit-2"
+        },
+        {
+          "id": "unit-example-3",
+          "kind": "example",
+          "en": "The metre is a unit of length.",
+          "zh": "米是長度的單位。",
+          "zhMasked": "米是長度的____。",
+          "answer": "unit-3"
+        },
+        {
+          "id": "unit-example-4",
+          "kind": "example",
+          "en": "She works in the security unit.",
+          "zh": "她在保安部門工作。",
+          "zhMasked": "她在保安____工作。",
+          "answer": "unit-4"
+        },
+        {
+          "id": "unit-passage",
+          "kind": "passage",
+          "en": "I'd like to report water dripping from the air-conditioning unit.",
+          "zh": "我想報告冷氣機組正在滴水。",
+          "zhMasked": "我想報告冷氣____正在滴水。",
+          "answer": "unit-0"
+        }
+      ]
+    },
+    {
+      "id": "clear",
+      "word": "clear",
+      "baseWord": "clear",
+      "sourcePage": 31,
+      "senses": [
+        {
+          "id": "clear-0",
+          "zh": "清楚的、明確的",
+          "sourceMeaning": "Easy to understand"
+        },
+        {
+          "id": "clear-1",
+          "zh": "透明的、清澈的",
+          "sourceMeaning": "Easy to see through"
+        },
+        {
+          "id": "clear-2",
+          "zh": "暢通的、沒有障礙物的",
+          "sourceMeaning": "Free from obstruction"
+        },
+        {
+          "id": "clear-3",
+          "zh": "清理、清空",
+          "sourceMeaning": "Remove things from a place (verb)"
+        },
+        {
+          "id": "clear-4",
+          "zh": "放晴、轉晴",
+          "sourceMeaning": "Become free of clouds"
+        },
+        {
+          "id": "clear-5",
+          "zh": "批准、通過",
+          "sourceMeaning": "Officially approve or allow"
+        }
+      ],
+      "questions": [
+        {
+          "id": "clear-example-0",
+          "kind": "example",
+          "en": "The instructions are very clear.",
+          "zh": "這些指示非常清楚。",
+          "zhMasked": "這些指示非常____。",
+          "answer": "clear-0"
+        },
+        {
+          "id": "clear-example-1",
+          "kind": "example",
+          "en": "The water is completely clear.",
+          "zh": "水非常清澈。",
+          "zhMasked": "水非常____。",
+          "answer": "clear-1"
+        },
+        {
+          "id": "clear-example-2",
+          "kind": "example",
+          "en": "Please keep the fire exit clear.",
+          "zh": "請保持消防出口暢通。",
+          "zhMasked": "請保持消防出口____。",
+          "answer": "clear-2"
+        },
+        {
+          "id": "clear-example-3",
+          "kind": "example",
+          "en": "Please clear the corridor.",
+          "zh": "請清理／清空走廊。",
+          "zhMasked": "請____走廊。",
+          "answer": "clear-3"
+        },
+        {
+          "id": "clear-example-4",
+          "kind": "example",
+          "en": "The sky cleared in the afternoon.",
+          "zh": "下午天空放晴了。",
+          "zhMasked": "下午天空____了。",
+          "answer": "clear-4"
+        },
+        {
+          "id": "clear-example-5",
+          "kind": "example",
+          "en": "The request was cleared by management.",
+          "zh": "這項申請已獲管理層批准。",
+          "zhMasked": "這項申請已獲管理層____。",
+          "answer": "clear-5"
+        },
+        {
+          "id": "clear-passage",
+          "kind": "passage",
+          "en": "Please keep the area clear for the moment.",
+          "zh": "目前請保持該區域暢通。",
+          "zhMasked": "目前請保持該區域____。",
+          "answer": "clear-2"
+        }
+      ]
+    },
+    {
+      "id": "leak",
+      "word": "leak",
+      "baseWord": "leak",
+      "sourcePage": 32,
+      "senses": [
+        {
+          "id": "leak-0",
+          "zh": "漏水；滲漏（液體外漏的情況，名詞）",
+          "sourceMeaning": "Liquid escaping (noun)"
+        },
+        {
+          "id": "leak-1",
+          "zh": "漏；滲漏（液體或氣體漏出的動作，動詞）",
+          "sourceMeaning": "Let liquid or gas escape (verb)"
+        },
+        {
+          "id": "leak-2",
+          "zh": "外洩；洩密事件（資料，名詞）",
+          "sourceMeaning": "Secret information becoming public"
+        },
+        {
+          "id": "leak-3",
+          "zh": "洩漏；透露（資料，動詞）",
+          "sourceMeaning": "Reveal secret information (verb)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "leak-example-0",
+          "kind": "example",
+          "en": "There is a leak under the sink.",
+          "zh": "水槽下面有漏水。",
+          "zhMasked": "水槽下面有____。",
+          "answer": "leak-0"
+        },
+        {
+          "id": "leak-example-1",
+          "kind": "example",
+          "en": "The pipe is leaking.",
+          "zh": "水管正在漏水。",
+          "zhMasked": "水管正在____。",
+          "answer": "leak-1"
+        },
+        {
+          "id": "leak-example-2",
+          "kind": "example",
+          "en": "There was a leak of confidential information.",
+          "zh": "機密資料發生了外洩。",
+          "zhMasked": "機密資料發生了____。",
+          "answer": "leak-2"
+        },
+        {
+          "id": "leak-example-3",
+          "kind": "example",
+          "en": "Someone leaked the report to the press.",
+          "zh": "有人把報告洩漏給媒體。",
+          "zhMasked": "有人把報告____給媒體。",
+          "answer": "leak-3"
+        },
+        {
+          "id": "leak-passage",
+          "kind": "passage",
+          "en": "I'll report the water leak to the management office.",
+          "zh": "我會把這個漏水問題報告給管理處。",
+          "zhMasked": "我會把這個____問題報告給管理處。",
+          "answer": "leak-0"
+        }
+      ]
+    },
+    {
+      "id": "flag",
+      "word": "flag",
+      "baseWord": "flag",
+      "sourcePage": 33,
+      "senses": [
+        {
+          "id": "flag-0",
+          "zh": "標記、註明",
+          "sourceMeaning": "Mark something for attention"
+        },
+        {
+          "id": "flag-1",
+          "zh": "提出、提醒、指出",
+          "sourceMeaning": "Report or draw attention to a problem"
+        },
+        {
+          "id": "flag-2",
+          "zh": "旗、旗幟",
+          "sourceMeaning": "A piece of cloth representing a group"
+        },
+        {
+          "id": "flag-3",
+          "zh": "衰退、減弱、變得疲倦",
+          "sourceMeaning": "Become weaker or lose energy"
+        }
+      ],
+      "questions": [
+        {
+          "id": "flag-example-0",
+          "kind": "example",
+          "en": "Please flag this email for follow-up.",
+          "zh": "請把這封電郵標記為需要跟進。",
+          "zhMasked": "請把這封電郵____為需要跟進。",
+          "answer": "flag-0"
+        },
+        {
+          "id": "flag-example-1",
+          "kind": "example",
+          "en": "She flagged a safety concern to her manager.",
+          "zh": "她向經理提出了一個安全方面的問題。",
+          "zhMasked": "她向經理____了一個安全方面的問題。",
+          "answer": "flag-1"
+        },
+        {
+          "id": "flag-example-2",
+          "kind": "example",
+          "en": "The national flag is flying outside the building.",
+          "zh": "國旗正在大樓外飄揚。",
+          "zhMasked": "國家的____正在大樓外飄揚。",
+          "answer": "flag-2"
+        },
+        {
+          "id": "flag-example-3",
+          "kind": "example",
+          "en": "His energy began to flag in the afternoon.",
+          "zh": "到了下午，他的精力開始下降。",
+          "zhMasked": "到了下午，他的精力開始____。",
+          "answer": "flag-3"
+        },
+        {
+          "id": "flag-passage",
+          "kind": "passage",
+          "en": "I'll flag the case as urgent.",
+          "zh": "我會把這宗個案標記為緊急。",
+          "zhMasked": "我會把這宗個案____為緊急。",
+          "answer": "flag-0"
+        }
+      ]
+    },
+    {
+      "id": "arrange",
+      "word": "arrange",
+      "baseWord": "arrange",
+      "sourcePage": 34,
+      "senses": [
+        {
+          "id": "arrange-0",
+          "zh": "安排；籌備（活動）",
+          "sourceMeaning": "Organize something"
+        },
+        {
+          "id": "arrange-1",
+          "zh": "安排；設法確保（有人辦妥某事）",
+          "sourceMeaning": "Make sure something is provided or done"
+        },
+        {
+          "id": "arrange-2",
+          "zh": "排列；整理（位置或次序）",
+          "sourceMeaning": "Put things in a particular order"
+        },
+        {
+          "id": "arrange-3",
+          "zh": "佈置；擺放（花或裝飾）",
+          "sourceMeaning": "Arrange flowers or objects"
+        },
+        {
+          "id": "arrange-4",
+          "zh": "編曲、改編",
+          "sourceMeaning": "Arrange music"
+        }
+      ],
+      "questions": [
+        {
+          "id": "arrange-example-0",
+          "kind": "example",
+          "en": "We arranged a meeting for Friday.",
+          "zh": "我們安排了星期五開會。",
+          "zhMasked": "我們____了星期五開會。",
+          "answer": "arrange-0"
+        },
+        {
+          "id": "arrange-example-1",
+          "kind": "example",
+          "en": "I'll arrange for an engineer to inspect the equipment.",
+          "zh": "我會安排工程師檢查設備。",
+          "zhMasked": "我會____工程師檢查設備。",
+          "answer": "arrange-1"
+        },
+        {
+          "id": "arrange-example-2",
+          "kind": "example",
+          "en": "She arranged the chairs in a circle.",
+          "zh": "她把椅子排列成一個圓圈。",
+          "zhMasked": "她把椅子____成一個圓圈。",
+          "answer": "arrange-2"
+        },
+        {
+          "id": "arrange-example-3",
+          "kind": "example",
+          "en": "She arranged the flowers on the table.",
+          "zh": "她把花佈置在桌上。",
+          "zhMasked": "她把花____在桌上。",
+          "answer": "arrange-3"
+        },
+        {
+          "id": "arrange-example-4",
+          "kind": "example",
+          "en": "He arranged the song for piano.",
+          "zh": "他把這首歌改編成鋼琴版本。",
+          "zhMasked": "他把這首歌____成鋼琴版本。",
+          "answer": "arrange-4"
+        },
+        {
+          "id": "arrange-passage",
+          "kind": "passage",
+          "en": "arrange for the area to be made safe",
+          "zh": "安排人員處理，確保該區域安全。",
+          "zhMasked": "____人員處理，確保該區域安全。",
+          "answer": "arrange-1"
+        }
+      ]
+    }
+  ],
+  "sourceNotes": [
+    {
+      "word": "fittings",
+      "note": "The source identifies light fittings as the intended passage meaning. A short lighting-complaint context cue accompanies the unchanged excerpt so it is distinguishable from general fixtures."
+    },
+    {
+      "word": "serious",
+      "note": "The passage is the opening of the blocked-fire-route/hygiene complaint. A short scenario cue accompanies the unchanged excerpt to distinguish severity from general importance."
+    },
+    "Question-specific alternative answers are accepted where the source meanings overlap: serious (severity/importance) and fittings (fixtures/light fixtures)."
+  ]
+}

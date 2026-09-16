@@ -25,6 +25,7 @@ const rect={left:100,top:100,right:700,bottom:600,width:600,height:500};for(cons
 const tiny=resizeBounds(rect,'se',-5000,-5000,{width:1200,height:900});assert.equal(tiny.width,280);assert.equal(tiny.height,160);
 const dom=new JSDOM('<body><div id="finder"></div><aside id="panel"><header>Drag</header></aside></body>',{url:'https://edmundeducation.com/professional-english/dialogue.html?id=l1d1'});const w=dom.window;
 for(const key of ['window','document','localStorage','history','location','navigator','CustomEvent','innerHeight','innerWidth'])Object.defineProperty(globalThis,key,{value:w[key],configurable:true});
+localStorage.setItem('special-flash-session-v1',JSON.stringify({token:'fixture',user:{id:'qa-learning-updates'}}));
 w.HTMLElement.prototype.scrollIntoView=function(){};w.scrollTo=()=>{};w.HTMLElement.prototype.setPointerCapture=function(){};
 let played=[];class FakeAudio{constructor(src){this.src=src;this.paused=true;played.push(this);}async play(){this.paused=false;this.onplay?.();}pause(){this.paused=true;this.onpause?.();}load(){}removeAttribute(){}}
 globalThis.Audio=FakeAudio;globalThis.fetch=async()=>({ok:true,json:async()=>null});const tick=()=>new Promise(r=>setTimeout(r,0));
@@ -32,17 +33,20 @@ const root=w.document.getElementById('finder');let opened;mountQuestionTypeFinde
 root.querySelector('[data-qtf-clear]').click();const search=root.querySelector('input');search.value='表格';search.dispatchEvent(new w.Event('input',{bubbles:true}));assert.equal(root.querySelectorAll('.qtf-result').length,9);
 const r2=w.document.createElement('div');w.document.body.append(r2);mountQuestionTypeFinder(r2,{data:speaking,kind:'speaking'});r2.querySelector('[data-qtf-type="advantages"]').click();assert.ok(r2.querySelectorAll('.qtf-result').length>0);const section=r2.querySelector('[data-qtf-section]');section.value='individual';section.dispatchEvent(new w.Event('change'));assert.ok([...r2.querySelectorAll('.qtf-meta')].every(n=>n.textContent.includes('個人發言')));
 const panel=w.document.getElementById('panel');mountFloatingWindow(panel,{dragHandle:panel.querySelector('header')});mountFloatingWindow(panel);assert.equal(panel.querySelectorAll('[data-resize-corner]').length,4);
-const data=JSON.parse(read('professional-english/dialogues.json'));assert.equal(data.dialogues.length,15);assert.equal(data.dialogues.reduce((n,d)=>n+d.lines.length,0),167);
+const data=JSON.parse(read('professional-english/dialogues.json'));assert.equal(data.dialogues.length,17);assert.equal(data.dialogues.reduce((n,d)=>n+d.lines.length,0),188);
+const lesson2=data.dialogues.filter(d=>d.lesson===2);assert.equal(lesson2.length,6);
+for(const id of ['l2d1','l2d2','l2d3'])assert.deepEqual(lesson2.filter(d=>d.id===id||d.id===id+'-beginner').map(d=>d.variant).sort(),['beginner','professional']);
+for(const d of lesson2)for(const line of d.lines)assert.doesNotMatch(line.en+'\n'+line.zh,/^\s*Situation\s*:|flow[ -]?chart|流程圖|→|_{3,}/im,'only dialogue sentences belong in the Lesson 2 exercises');
 const publishedAudio=JSON.parse(read('professional-english/dialogue-audio.json'));
 let pendingAudio=0;
 for(const dialogue of data.dialogues)for(const [i,line]of dialogue.lines.entries()){
  const clip=publishedAudio[`${dialogue.id}:${i}`];
- if(!clip){assert.equal(line.voice,'american-male','only the quota-blocked Aries clips may be unavailable');pendingAudio++;continue;}
+ if(!clip){pendingAudio++;continue;}
  assert.equal(clip.voice,line.voice);assert.equal(clip.sourceSha256,createHash('sha256').update(line.en).digest('hex'));
  const audio=fs.readFileSync(new URL('../professional-english/'+clip.path,import.meta.url));
  assert.ok(audio.length>256);assert.ok(audio.subarray(0,3).toString()==='ID3'||audio[0]===255);assert.ok(clip.duration>0);
 }
-assert.ok(pendingAudio===0||pendingAudio===23);if(process.argv.includes('--require-complete-audio'))assert.equal(pendingAudio,0);
+assert.equal(pendingAudio,0,'every dialogue line must have its published audio clip');
 const manifest={};for(const d of data.dialogues){for(const [i,l]of d.lines.entries()){assert.ok(l.zh);const expected=d.lesson===3?(l.role==='Tenant'?'british-male':'american-female'):l.role==='Visitor'?(d.lesson===1?'british-male':'british-female'):(d.lesson===1?'american-female':'american-male');assert.equal(l.voice,expected);manifest[`${d.id}:${i}`]={path:`audio/${d.id}-${i}.mp3`};}for(const rate of DIFFICULTIES.map(x=>x.rate))assert.ok(d.lines.every((l,i)=>blankPositions(l.en,i,rate).size>0));}
 assert.match(translationsText(data.dialogues[0]),/訪客：早上好/);assert.equal(data.voiceRecipes['american-male'].voice,'aries');assert.equal(data.voiceRecipes['american-female'].voice,'af_heart');assert.equal(data.voiceRecipes['british-female'].voice,'bf_isabella');assert.equal(data.voiceRecipes['british-male'].voice,'bm_fable');
 const app=mountDialoguePage({dialogues:data.dialogues,audioManifest:manifest});await app.ready;const page=app.page;
@@ -53,4 +57,4 @@ assert.match(read('speaking-system.js'),/apiRaw\("\/v1\/learning-voice"/);assert
 history.replaceState(null,'','?id=l2d1');const pending=mountDialoguePage({dialogues:data.dialogues,audioManifest:publishedAudio});await pending.ready;
 assert.equal(pending.page.querySelector('[data-play-all]').disabled,pendingAudio>0);assert.equal(pending.page.querySelectorAll('[data-play-line]:disabled').length,pendingAudio>0?data.dialogues.find(d=>d.id==='l2d1').lines.filter(l=>l.voice==='american-male').length:0);
 pending.page.querySelector('[data-show-chinese]').click();assert.equal(pending.page.querySelectorAll('[data-chinese][hidden]').length,0);pending.stop();w.dispatchEvent(new w.Event('pagehide'));
-console.log('Validated 800 listening questions, 3,102 speaking questions, four-corner geometry, finder filters/deep links, 167 translated lines, 16 modes, answer feedback and synchronized audio controls.');w.close();
+console.log('Validated 800 listening questions, 3,102 speaking questions, four-corner geometry, finder filters/deep links, 188 translated lines, 16 modes, answer feedback and synchronized audio controls.');w.close();

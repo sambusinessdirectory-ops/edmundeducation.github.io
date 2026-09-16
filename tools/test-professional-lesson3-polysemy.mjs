@@ -28,13 +28,13 @@ const dom=new JSDOM('<body><div id="root"><section class="course-section"><div c
 for(const key of ['window','document','localStorage','history','location','navigator','CustomEvent','innerHeight','innerWidth'])Object.defineProperty(globalThis,key,{value:w[key],configurable:true});
 w.scrollTo=()=>{};w.HTMLElement.prototype.scrollIntoView=function(){};
 w.localStorage.setItem('special-flash-session-v1',JSON.stringify({token:'fixture',user:{id:'qa-one'}}));
-globalThis.fetch=async()=>({ok:true,json:async()=>null});
-const {page}=mountPolysemyPage({data});assert.equal(page.querySelectorAll('[data-poly-word]').length,16);
-page.querySelector('[data-poly-word="listed"]').click();const first=data.words[0].questions[0];
+globalThis.fetch=async()=>({ok:true,json:async()=>null});globalThis.confirm=()=>true;
+const mounted=mountPolysemyPage({data});await mounted.ready;const {page}=mounted;assert.equal(page.querySelectorAll('[data-poly-word]').length,16);
+page.querySelector('[data-poly-word="listed"]').click();await mounted.ready;const first=data.words[0].questions[0];
 assert.ok(page.querySelector('.poly-translation').textContent.includes('____'));assert.ok(!page.querySelector('.poly-translation').textContent.includes('列了出來'));
 assert.equal(page.querySelectorAll('[data-poly-answer]').length,5);page.querySelector('[data-poly-answer="listed-1"]').click();assert.match(page.querySelector('.poly-feedback').textContent,/下一輪/);assert.equal(page.querySelectorAll('[data-poly-answer]:disabled').length,5);
 page.querySelector('[data-poly-next]').click();assert.equal(page.querySelectorAll('[data-poly-answer]:disabled').length,0);
-page.querySelector('[data-poly-list]').click();page.querySelector('[data-poly-word="grant"]').click();const word=data.words.find(w=>w.id==='grant');
+page.querySelector('[data-poly-list]').click();page.querySelector('[data-poly-word="grant"]').click();await mounted.ready;const word=data.words.find(w=>w.id==='grant');
 for(const q of word.questions){page.querySelector(`[data-poly-answer="${q.answer}"]`).click();assert.equal(page.querySelector('.poly-feedback').textContent,`答對了！${q.zh}`);page.querySelector('[data-poly-next]').click();}
 assert.ok(page.querySelector('.poly-complete'));assert.ok(JSON.parse(localStorage.getItem('professional-polysemy-v1:qa-one:lesson-1')).grant);
 localStorage.setItem('special-flash-session-v1',JSON.stringify({token:'fixture',user:{id:'qa-two'}}));const second=mountPolysemyPage({data});assert.match(second.page.querySelector('.poly-progress').textContent,/0 \/ 16/);
@@ -54,4 +54,6 @@ const observers=[];const NativeObserver=w.MutationObserver;w.MutationObserver=cl
 w.EDMUND_PROFESSIONAL_DIALOGUES=all.dialogues;w.eval(read('professional-english/professional-enhancements.js'));
 const course=w.document.querySelector('.course-section');assert.equal(course.querySelectorAll('.pro-lesson-card').length,3);assert.equal(course.querySelectorAll('a[href*="id=l3"]').length,8);assert.equal(course.querySelector('.learning-panel--future').nextElementSibling.className,'learning-panel learning-panel--polysemy learning-panel--practice-glow');
 assert.equal(course.querySelectorAll('a[href="./polysemy.html"]').length,1);
+assert.equal(course.querySelectorAll('[data-poly-lesson]').length,3);assert.equal(course.querySelectorAll('a[href="./polysemy.html?lesson=2"]').length,1);assert.equal(course.querySelectorAll('a[href="./polysemy.html?lesson=3"]').length,1);
+const pairedTables=course.querySelectorAll('.pro-dialogue-table');assert.equal(pairedTables.length,2);assert.deepEqual([...pairedTables].map(table=>table.querySelectorAll('tbody tr').length),[3,4]);for(const table of pairedTables)for(const row of table.querySelectorAll('tbody tr'))assert.equal(row.querySelectorAll('td a').length,2);
 console.log('Passed: 113 bilingual flashcards + audio, 8 dialogues/80 role-specific clips, 16 words/92 questions, retry rounds, final passages, masked translations, account-isolated completion and course navigation.');await new Promise(r=>setTimeout(r,40));observers.forEach(o=>o.disconnect());w.close();

@@ -165,8 +165,11 @@ function browser(server,owner=alice){
  const mounted=mountDialoguePage({dialogues:[dialogue],audioManifest:{}});await mounted.ready;
  const input=mounted.page.querySelector('[data-blank]');assert.ok(input);input.value='unfinished';input.dispatchEvent(new w.Event('input'));
  const word={id:'word',word:'word',baseWord:'word',senses:[{id:'meaning',zh:'字詞'}],questions:[{id:'q',answer:'meaning',kind:'passage',en:'Read this word.',zh:'讀這個字詞。',zhMasked:'讀這個____。'}]};
- const poly=mountPolysemyPage({data:{words:[word]}});poly.page.querySelector('[data-poly-word]').click();poly.page.querySelector('[data-poly-answer]').click();
+ const poly=mountPolysemyPage({data:{words:[word]}});poly.page.querySelector('[data-poly-word]').click();await poly.ready;
  localStorage.setItem('special-flash-session-v1',JSON.stringify(bob));
+ // The final answer now awards completion immediately, so attempt that answer
+ // after the account switch as well as the later results/navigation callback.
+ poly.page.querySelector('[data-poly-answer]').click();
  input.value=input.dataset.answer;input.dispatchEvent(new w.Event('input'));input.dispatchEvent(new w.Event('change'));
  mounted.page.querySelector('[data-check-answers]').click();mounted.page.querySelector('[data-bookmark-word]')?.click();
  poly.page.querySelector('[data-poly-next]').click();w.dispatchEvent(new w.Event('pagehide'));
@@ -175,4 +178,59 @@ function browser(server,owner=alice){
  assert.equal(poly.page.querySelector('.poly-complete'),null);
  await pause();w.close();
 }
-console.log('Passed: stale exercise and flashcard owner guards, cross-tab reauthentication, continuous outbox draining, duplicate-safe response retry, rejected-activity retention and isolation, expired-session retry, cross-tab preference ordering, concurrent account switch, and private preference hydration.');
+// A corrected professional script cannot consume the old beginner script's
+// positional answers. Preserve that old attempt before pagehide saves v2.
+{
+ const [{mountDialoguePage,blankPositions,lineTokens},{createRequire}]=await Promise.all([import('../professional-english/dialogue-practice.mjs'),import('node:module')]);
+ const require=createRequire(new URL('./email-qa/package.json',import.meta.url));const {JSDOM}=require('jsdom');
+ const dialogues=JSON.parse(fs.readFileSync(new URL('../professional-english/dialogues.json',import.meta.url),'utf8')).dialogues;
+ const beginner=dialogues.find(d=>d.id==='l2d2-beginner'),professional=dialogues.find(d=>d.id==='l2d2');
+ assert.equal(beginner.contentVersion,1);assert.equal(professional.contentVersion,2);
+ const gaps=beginner.lines.flatMap((line,index)=>[...blankPositions(line.en,index,.25)].map(token=>({key:`${index}:${token}`,answer:lineTokens(line.en)[token]})));
+ const oldKey='draft:l2d2:standard:both',beginnerKey='draft:l2d2-beginner:standard:both',lastKey='draft:l2d2-beginner:last';
+ const legacy={id:'11111111-1111-4111-8111-111111111111',answers:{[gaps[0].key]:gaps[0].answer,[gaps[1].key]:'still typing'},credited:[gaps[0].key],complete:false,started:true};
+ function setup(id,handler=async()=>response(null)){
+  const dom=new JSDOM('<body></body>',{url:`https://edmundeducation.com/professional-english/dialogue.html?id=${id}&view=practice&difficulty=standard&hints=both`,pretendToBeVisual:true}),w=dom.window;
+  for(const key of ['window','document','localStorage','history','location','navigator','CustomEvent','innerHeight','innerWidth'])Object.defineProperty(globalThis,key,{value:w[key],configurable:true});
+  w.scrollTo=()=>{};w.HTMLElement.prototype.scrollIntoView=function(){};globalThis.fetch=handler;localStorage.setItem('special-flash-session-v1',JSON.stringify(alice));return w;
+ }
+ function seed(key,value){localStorage.setItem(prefix('alice')+'state:'+key,JSON.stringify(value));localStorage.setItem(prefix('alice')+'pending:'+key,JSON.stringify({key,value}));}
+ const cached=key=>JSON.parse(localStorage.getItem(prefix('alice')+'state:'+key)||'null');
+ {
+  const w=setup('l2d2');seed(oldKey,legacy);
+  const mounted=mountDialoguePage({dialogues,audioManifest:{}});await mounted.ready;
+  const retained=cached(beginnerKey);assert.equal(retained.id,legacy.id);assert.deepEqual(retained.answers,legacy.answers);assert.deepEqual(retained.credited,legacy.credited);assert.equal(retained.contentVersion,1);
+  assert.deepEqual(cached(lastKey),{difficulty:'standard',hint:'both',complete:false,started:true,contentVersion:1});
+  assert.ok([...mounted.page.querySelectorAll('[data-blank]')].every(input=>input.value===''),'professional v2 starts without old beginner answers');
+  assert.match(mounted.page.querySelector('[data-result-status]').textContent,/^0 \//);
+  w.dispatchEvent(new w.Event('pagehide'));
+  assert.notEqual(cached(oldKey).id,legacy.id);assert.equal(cached(oldKey).contentVersion,2);assert.equal(cached(oldKey).credited.length,0);
+  assert.deepEqual(cached(beginnerKey),retained,'professional pagehide must not overwrite the migrated beginner attempt');
+  history.replaceState(null,'','?id=l2d2-beginner&view=practice&difficulty=standard&hints=both');
+  const resumed=mountDialoguePage({dialogues,audioManifest:{}});await resumed.ready;
+  assert.equal(resumed.page.querySelector(`[data-blank="${gaps[0].key}"]`).value,gaps[0].answer);assert.equal(resumed.page.querySelector(`[data-blank="${gaps[0].key}"]`).readOnly,true);
+  assert.equal(resumed.page.querySelector(`[data-blank="${gaps[1].key}"]`).value,'still typing');
+  w.dispatchEvent(new w.Event('pagehide'));assert.equal(cached(beginnerKey).id,legacy.id);w.close();
+ }
+ {
+  const w=setup('l2d2'),existing={...legacy,id:'22222222-2222-4222-8222-222222222222',contentVersion:1,answers:{[gaps[0].key]:'newer beginner work'},credited:[]},last={difficulty:'hard',hint:'none',complete:false,started:true,contentVersion:1};
+  seed(oldKey,legacy);seed(beginnerKey,existing);seed(lastKey,last);
+  const mounted=mountDialoguePage({dialogues,audioManifest:{}});await mounted.ready;
+  assert.deepEqual(cached(beginnerKey),existing,'an existing beginner attempt wins over the legacy migration');assert.deepEqual(cached(lastKey),last,'existing beginner mode preference is not replaced');
+  w.dispatchEvent(new w.Event('pagehide'));assert.deepEqual(cached(beginnerKey),existing);w.close();
+ }
+ {
+  const w=setup('l2d2-beginner');seed(oldKey,legacy);
+  const mounted=mountDialoguePage({dialogues,audioManifest:{}});await mounted.ready;
+  assert.equal(mounted.page.querySelector(`[data-blank="${gaps[1].key}"]`).value,'still typing','beginner can directly load its compatible old key');
+  w.dispatchEvent(new w.Event('pagehide'));assert.equal(cached(beginnerKey).id,legacy.id);assert.deepEqual(cached(beginnerKey).credited,legacy.credited);w.close();
+ }
+ {
+  const gate=deferred(),started=deferred();let waiting=true;
+  const w=setup('l2d2',async(url,options)=>{const body=JSON.parse(options.body);if(body.p_key===beginnerKey&&waiting){waiting=false;started.resolve();await gate.promise;}return response(null);});seed(oldKey,legacy);
+  const mounted=mountDialoguePage({dialogues,audioManifest:{}});await started.promise;
+  localStorage.setItem('special-flash-session-v1',JSON.stringify(bob));gate.resolve();await mounted.ready;w.dispatchEvent(new w.Event('pagehide'));
+  assert.equal(Object.keys(localStorage).filter(key=>key.startsWith(prefix('bob'))).length,0,'an interrupted migration cannot copy the old account’s attempt into the newly signed-in account');w.close();
+ }
+}
+console.log('Passed: versioned dialogue migration, preserved beginner attempts and pagehide safety, stale exercise and flashcard owner guards, cross-tab reauthentication, continuous outbox draining, duplicate-safe response retry, rejected-activity retention and isolation, expired-session retry, cross-tab preference ordering, concurrent account switch, and private preference hydration.');
