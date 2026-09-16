@@ -1,5 +1,5 @@
 import { MAP_COMPANIONS } from './map-companions.mjs?v=20260915-noirceleste1';
-import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260916-three-tops1';
+import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260916-girls-fleece1';
 import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-phoebe2';
 import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
 
@@ -174,7 +174,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     const request = ++closetRequest;
     const pending=document.createElement('div');pending.className='closet-startup';pending.setAttribute('role','status');pending.innerHTML='Opening dressing room…<progress aria-label="Loading 3D closet"></progress>';document.body.append(pending);
     try {
-      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260916-three-tops1');
+      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260916-girls-fleece1');
       if (request !== closetRequest) return;
       closetHandle?.close();
       closetHandle = openCompanionCloset({ character });
@@ -367,7 +367,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     const closetButton=root.querySelector('[data-open-closet]');
     if (closetButton) {
       const companion = CHARACTERS.find(c=>c.id===character);
-      const available = character === 'eddy' || character === 'noir' || character === 'elsie' || character === 'phoebe';
+      const available = character === 'eddy' || character === 'noir' || character === 'elsie' || character === 'phoebe' || character === 'celeste';
       closetButton.disabled = !available;
       closetButton.setAttribute('aria-label', available ? `Open ${companion.name}'s 3D closet` : `${companion.name}'s closet is not designed yet`);
       closetButton.title = available ? `${companion.name}'s 3D closet` : 'Closet coming later';

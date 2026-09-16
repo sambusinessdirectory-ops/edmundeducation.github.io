@@ -436,7 +436,7 @@ function syncIeltsMap() {
     return;
   }
   // Keep the real practice list usable until all decorative artwork is ready.
-  if (!ieltsMapLoad) ieltsMapLoad = import('./ielts-puzzle-map.mjs?v=20260916-three-tops1')
+  if (!ieltsMapLoad) ieltsMapLoad = import('./ielts-puzzle-map.mjs?v=20260916-girls-fleece1')
     .then(async ({ mountIeltsMap }) => {
       if (!state.user) return;
       const map = await mountIeltsMap({ root, toggle, grid: elements.practiceGrid,

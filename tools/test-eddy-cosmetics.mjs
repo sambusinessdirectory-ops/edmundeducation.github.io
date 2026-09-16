@@ -58,9 +58,26 @@ test('favorites survive cleaning only as booleans',()=>{
 test('every shared item ships independent Eddy and Noir fits',async()=>{
  const {COSMETICS,COSMETIC_CHARACTERS,supportsCosmetics}=await import('../eddy-cosmetics.mjs');
  const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
- assert.deepEqual(COSMETIC_CHARACTERS,['eddy','noir']);assert.equal(supportsCosmetics('celeste'),false);
- for(const item of [...COSMETICS.map(x=>x.id),'hat-hide']){
-  const hashes=COSMETIC_CHARACTERS.map(character=>{const b=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/'+item+'.webp',import.meta.url));assert.equal(b.toString('ascii',0,4),'RIFF');assert.equal(b.toString('ascii',8,12),'WEBP');assert.ok(b.length>500,item+' '+character+' must contain fitted artwork');return createHash('sha256').update(b).digest('hex');});
+ assert.deepEqual(COSMETIC_CHARACTERS,['eddy','noir','celeste','phoebe','elsie']);assert.equal(supportsCosmetics('celeste'),true);
+ for(const item of [...COSMETICS.filter(x=>x.group!=='girls').map(x=>x.id),'hat-hide']){
+  const hashes=['eddy','noir'].map(character=>{const b=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/'+item+'.webp',import.meta.url));assert.equal(b.toString('ascii',0,4),'RIFF');assert.equal(b.toString('ascii',8,12),'WEBP');assert.ok(b.length>500,item+' '+character+' must contain fitted artwork');return createHash('sha256').update(b).digest('hex');});
   assert.notEqual(hashes[0],hashes[1],item+' must be fitted separately for both characters');
  }
+});
+
+
+test('girls share one catalog without changing the boys equipment',async()=>{
+ const {cosmeticsForCharacter}=await import('../eddy-cosmetics.mjs');
+ clearCosmetics('eddy');clearCosmetics('celeste');equipCosmetic('white-fedora');equipCosmetic('blue-swordsman-jacket');equipCosmetic('cream-sherpa-jacket');
+ for(const character of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(character).map(x=>x.id),['cream-sherpa-jacket']);
+ assert.equal(cosmeticsForCharacter('eddy').some(x=>x.id==='cream-sherpa-jacket'),false);
+ clearCosmetics('phoebe');assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora',top:'blue-swordsman-jacket'});
+ equipCosmetic('cream-sherpa-jacket');clearCosmetics('noir');assert.deepEqual(cosmeticsState().equipped,{girlsTop:'cream-sherpa-jacket'});
+ clearCosmetics('elsie');
+ assert.deepEqual(cleanEquipment({girlsTop:'white-fedora',top:'cream-sherpa-jacket'}),{});
+});
+test('the shared fleece has three independent transparent fit assets',async()=>{
+ const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
+ const hashes=['celeste','phoebe','elsie'].map(character=>{const b=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/cream-sherpa-jacket.webp',import.meta.url));assert.equal(b.toString('ascii',0,4),'RIFF');assert.ok(b.length>10000);return createHash('sha256').update(b).digest('hex');});
+ assert.equal(new Set(hashes).size,3);
 });

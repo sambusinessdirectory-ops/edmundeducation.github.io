@@ -1,9 +1,9 @@
-import {beginCosmeticsPreview,supportsCosmetics,confirmDiscardCosmetics,restoreCosmetics} from './eddy-cosmetics.mjs?v=20260916-three-tops1';
+import {beginCosmeticsPreview,supportsCosmetics,confirmDiscardCosmetics,restoreCosmetics} from './eddy-cosmetics.mjs?v=20260916-girls-fleece1';
 import {closetRoute} from './closet-walking.mjs';
-import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260916-three-tops1';
+import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260916-girls-fleece1';
 import {batchClosetSurfaces} from './closet-static-batches.mjs';
 import * as THREE from './vendor/three/three.module.js';
-import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260916-three-tops1';
+import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260916-girls-fleece1';
 import { buildPhoebeCloset, PHOEBE_CLOSET_PROFILE } from './phoebe-closet-3d.mjs?v=20260915-phoebe2';
 
 let activeClose = null;
@@ -944,9 +944,9 @@ function mountCloset(root, character, signal) {
   resources.loadingManager=new THREE.LoadingManager(()=>{texturesReady=true;report(90,'Preparing character…');finish();},(_url,loaded,total)=>report(Math.min(85,15+70*loaded/total),`Loading room · ${loaded}/${total}`));
   resources.loadingManager.onStart=()=>{texturesReady=false;};
   report(10,'Building dressing room…');
-  const isElsie = character === 'elsie';
+  const isElsie = character === 'elsie' || character === 'celeste';
   const isPhoebe = character === 'phoebe';
-  const characterName = isPhoebe ? 'Phoebe' : isElsie ? 'Elsie' : character === 'noir' ? 'Noir' : 'Eddy';
+  const characterName = character === 'celeste' ? 'Celeste' : isPhoebe ? 'Phoebe' : isElsie ? 'Elsie' : character === 'noir' ? 'Noir' : 'Eddy';
   const roomSettings = isPhoebe ? PHOEBE_CLOSET_PROFILE : isElsie ? {
     background: '#f1e5df', fogDensity: .006, exposure: 1.18,
     start: [-3.55, .18, 1.20], target: [-.30, 1.65, .25],
@@ -1419,9 +1419,9 @@ export function openCompanionCloset({ character = 'eddy' } = {}) {
   if(activeClose&&activeClose()===false)return {close:activeClose};
   void restoreCosmetics();
   if(supportsCosmetics(character))beginCosmeticsPreview();
-  const isElsie = character === 'elsie';
+  const isElsie = character === 'elsie' || character === 'celeste';
   const isPhoebe = character === 'phoebe';
-  const characterName = isPhoebe ? 'Phoebe' : isElsie ? 'Elsie' : character === 'noir' ? 'Noir' : 'Eddy';
+  const characterName = character === 'celeste' ? 'Celeste' : isPhoebe ? 'Phoebe' : isElsie ? 'Elsie' : character === 'noir' ? 'Noir' : 'Eddy';
   const collection = isPhoebe
     ? '<tr><td><div class="expression-closet-item"><span aria-hidden="true" style="font-size:38px">🧥</span><strong>Blue Tailoring</strong><span>On display</span></div></td>' +
       '<td><div class="expression-closet-item"><span aria-hidden="true" style="font-size:38px">🪞</span><strong>Vanity</strong><span>On display</span></div></td></tr>' +

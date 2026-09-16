@@ -1,0 +1,66 @@
+// Every external request is blocked. Exercises use local fixture accounts only.
+const fs=require('fs'),path=require('path'),http=require('http'),assert=require('assert/strict');
+const {chromium}=require(process.env.HOME+'/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const root=path.resolve(__dirname,'..'),out=process.env.HORSEY_QA_DIR||'/tmp/horsey-portals-qa';fs.mkdirSync(out,{recursive:true});
+const mime={'.html':'text/html','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.json':'application/json','.svg':'image/svg+xml','.webp':'image/webp','.png':'image/png'};
+const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+new URL(req.url,'http://local').pathname);if(!file.startsWith(root+'/'))return res.writeHead(403).end();fs.readFile(file,(err,data)=>{if(err)return res.writeHead(404).end();res.setHeader('Content-Type',mime[path.extname(file)]||'application/octet-stream');res.end(data);});});
+const portals=['sentence-structure','idiom-system','phrasal-verb-system','proverb-system',...['speaking','written','rhetorical-speaking','rhetorical-writing','professional-message','business-speaking'].map(x=>'common-expression-'+x),'listening-system'];
+(async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));const origin='http://127.0.0.1:'+server.address().port,browser=await chromium.launch({headless:true});let saved={equipped:{},outfits:[]};try{
+for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.PORTAL)){
+ const page=await browser.newPage({viewport:{width:1440,height:1050}}),errors=[];page.on('pageerror',e=>{errors.push(e.message);console.error(portal,e.message);});
+ await page.route('https://**/*',r=>r.abort());
+ await page.exposeFunction('wardrobeFixture',args=>{if(args.p_equipped)saved.equipped=args.p_equipped;if(args.p_outfits)saved.outfits=args.p_outfits;return saved;});
+ await page.addInitScript(()=>{window.EdmundSystemNav={getStudentSession:()=>({id:'id:fixture-a',token:'fixture-token'})};window.EDMUND_SUPABASE={url:'https://fixture.invalid',anonKey:'fixture'};window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:{}}})},rpc:async(_n,args)=>({data:await window.wardrobeFixture(args)})})};});
+ for(const file of ['shared-system-nav.js','shared-speaking-practice.js','pwa-register.js'])await page.route('**/'+file+'*',r=>r.fulfill({contentType:'text/javascript',body:''}));
+ const ce=portal.startsWith('common-expression-'),listening=portal==='listening-system',file=ce?'common-expression-system':portal;
+ await page.route('**/'+file+'.js?*',r=>{
+  let s=fs.readFileSync(root+'/'+file+'.js','utf8').replace(/\ninitialise\(\)\.catch\([\s\S]*$/,'').replace(/\ninitialise\(\);/g,'\n');
+  if(listening) s=s.replace('createListeningTrophyProgress({rpc,','createListeningTrophyProgress({rpc:async()=>[],');
+  const fixture=ce ? `
+   const fixtureLessons=SYSTEM.lessons;state.user={id:'fixture-a',name:'Fixture'};state.token='fixture';
+   for(const [i,l] of fixtureLessons.entries()) if(i<3) for(const q of l.questions.slice(0,i===0?l.questions.length:Math.ceil(l.questions.length*(i===1?.5:.8))))lessonState(l.id).answers[q.id]={correct:true,updatedAt:"2026-09-14T10:00:00Z"};
+   renderDashboard();showView('dashboard',{scroll:false});
+   window.testHorsey={count:fixtureLessons.length,reset(){state.user.id='fixture-b';state.states.clear();renderDashboard();},exercise(){state.lessonId=fixtureLessons[0].id;renderQuestionList();}};
+  ` : listening ? `
+   rpc=async()=>[];state.user={id:'fixture-a',name:'Fixture'};state.token='fixture';await listeningTrophyProgress.restore();
+   await listeningTrophyProgress.record(1,Array.from({length:40},(_,i)=>i+1));await listeningTrophyProgress.record(2,Array.from({length:20},(_,i)=>i+1));
+   await listeningTrophyProgress.record(3,Array.from({length:32},(_,i)=>i+1));renderPracticeGrid();showView('ielts',{scroll:false});syncIeltsMap();
+   window.testHorsey={count:CATALOGUE.practices.length,reset:async()=>{state.user.id='fixture-b';await listeningTrophyProgress.restore();syncIeltsMap();}};
+  ` : `
+   state.user={id:'fixture-a',name:'Fixture',role:'student'};state.authToken='fixture';const fixtureLessons=lessonList();
+   state.attempts=fixtureLessons.slice(0,3).map((l,i)=>({lessonId:l.id,totalCount:l.questions.length,correctCount:i===0?l.questions.length:Math.ceil(l.questions.length*(i===1?.5:.8)),status:i===0?'completed':'in_progress',completedAt:"2026-09-14T10:00:00Z",result:{correctIds:l.questions.slice(0,i===0?l.questions.length:Math.ceil(l.questions.length*(i===1?.5:.8))).map(q=>q.id)}}));
+   renderLessonChoices();showView('dashboard',{preserveScroll:true});
+   window.testHorsey={count:fixtureLessons.length,reset(){state.user.id='fixture-b';state.attempts=[];renderLessonChoices();},exercise(){state.lessonId=fixtureLessons[0].id;ensureExercise(fixtureLessons[0]);state.exercise.correctIds=fixtureLessons[0].questions.map(q=>q.id);renderExercisePage(fixtureLessons[0]);}};
+  `;
+  return r.fulfill({contentType:'text/javascript',body:s+'\n'+(portal==='sentence-structure'?'await lessonLibrary.catalog();\n':'')+fixture});
+ });
+ await page.goto(origin+'/'+portal+'.html');await page.waitForFunction(()=>window.testHorsey,{timeout:30000});
+ const selector=ce?'[data-map-toggle]':listening?'[data-ielts-map-toggle]':portal==='sentence-structure'?'[data-sentence-map-toggle]':portal==='phrasal-verb-system'?'[data-phrasal-map-toggle]':portal==='idiom-system'?'[data-idiom-map-toggle]':'[data-proverb-map-toggle]';
+ await page.locator(selector).waitFor({state:'visible',timeout:30000});
+ await page.waitForFunction(s=>!document.querySelector(s)?.disabled,selector);
+ if(await page.locator('[data-horsey-map], [data-sentence-map]').isHidden())await page.locator(selector).click();
+
+ const mapRoot=page.locator('[data-horsey-map], [data-sentence-map]');
+ await page.evaluate(async first=>{window.wardrobe=await import('/eddy-cosmetics.mjs?v=20260916-girls-fleece1');await wardrobe.restoreCosmetics();if(first){wardrobe.beginCosmeticsPreview();wardrobe.equipCosmetic('white-fedora');wardrobe.equipCosmetic('blue-swordsman-jacket');wardrobe.equipCosmetic('cream-sherpa-jacket');await wardrobe.saveAvatar();wardrobe.discardCosmeticsPreview();}},portal==='sentence-structure');
+ await page.waitForFunction(()=>wardrobe.cosmeticsState().savedEquipment.top==='blue-swordsman-jacket');
+ await page.evaluate(async()=>{const image=new Image();image.src='/assets/speaking-system/mascots/v4/eddy-standing.png';await image.decode();window.avatarBase=image;wardrobe.cosmeticAtlas('eddy',image);});
+ await page.waitForFunction(()=>wardrobe.cosmeticAtlas('eddy',avatarBase)!==avatarBase);
+ await page.evaluate(async()=>{const image=new Image();image.src='/assets/speaking-system/mascots/v4/noir-standing.png';await image.decode();window.noirBase=image;wardrobe.cosmeticAtlas('noir',image);});
+ await page.waitForFunction(()=>wardrobe.cosmeticAtlas('noir',noirBase)!==noirBase);
+ const noirOriginal=await page.evaluate(()=>wardrobe.cosmeticAtlas('noir',noirBase).toDataURL());
+ const original=await page.evaluate(()=>wardrobe.cosmeticAtlas('eddy',avatarBase).toDataURL());
+ await page.evaluate(()=>{wardrobe.beginCosmeticsPreview();wardrobe.equipCosmetic('cream-cable-knit');});
+ assert.equal(await page.evaluate(()=>wardrobe.cosmeticAtlas('eddy',avatarBase).toDataURL()),original,portal+' map uses saved avatar during draft');
+ assert.equal(await page.evaluate(()=>wardrobe.cosmeticAtlas('noir',noirBase).toDataURL()),noirOriginal,portal+' Noir retains saved outfit during draft');
+ await page.evaluate(()=>wardrobe.discardCosmeticsPreview());
+
+ for(const character of ['celeste','phoebe','elsie']){
+  await page.locator('[data-character="'+character+'"]').click();
+  assert.equal(await page.locator('[data-open-closet]').isEnabled(),true,portal+' '+character+' closet available');
+  await page.evaluate(async character=>{window.girl=character;const image=new Image();image.src='/assets/speaking-system/mascots/v4/'+character+'-standing.png';await image.decode();window.girlBase=image;wardrobe.cosmeticAtlas(character,image);},character);
+  await page.waitForFunction(()=>wardrobe.cosmeticAtlas(girl,girlBase)!==girlBase);
+  assert.equal(await page.evaluate(()=>wardrobe.cosmeticsState().savedEquipment.girlsTop),'cream-sherpa-jacket');
+ }
+ assert.deepEqual(errors,[],portal);console.log('PASS saved avatar:',portal);await page.close();
+}
+}finally{await browser.close();server.close();}})().catch(e=>{console.error(e);process.exitCode=1;server.close();});
