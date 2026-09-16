@@ -1,3 +1,4 @@
+import { openOriginalPaper, restoreOriginalAnswers, saveOriginalAnswers } from './dse-listening-original-paper.mjs?v=20260916';
 import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-phoebe2';
 import { createListeningTrophyProgress } from './listening-trophy-progress.mjs?v=20260915-companions1';
 import { mountFloatingWindow } from './floating-window.mjs?v=20260911';
@@ -255,6 +256,9 @@ function clearSession() {
   listeningTrophyProgress.reset();
   ieltsMap?.reset();
   state.answers.clear();
+  state.dseAnswers.clear();
+  state.dseYear = 0;
+  document.querySelector(".original-paper-dialog")?.close();
   state.user = null;
   state.token = "";
   try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Ignore unavailable storage. */ }
@@ -578,7 +582,7 @@ function renderDseTask(taskNumber) {
   const host = elements.dseWorkspace.querySelector("[data-dse-task-host]");
   host.innerHTML = `<article class="dse-task"><header class="dse-task__head"><div><p class="eyebrow">TASK ${task.number} · ${task.marks} MARKS</p><h2>${escapeHtml(task.title)}</h2><p>${escapeHtml(task.instruction)}</p></div></header>
     <section class="dse-task-audio"><div><strong>Task ${task.number} 錄音</strong><small>${track ? "已按題冊 Task 精準分段" : "錄音暫時未能載入"}</small></div>${track ? `<audio controls preload="metadata" data-dse-audio-task="${task.number}" src="${escapeHtml(track.url)}">您的瀏覽器不支援音訊播放器。</audio><label>播放速度<select data-dse-speed>${SPEEDS.map((speed) => `<option value="${speed}"${speed === state.speed ? " selected" : ""}>${speed}×</option>`).join("")}</select></label>` : ""}</section>
-    <div class="dse-paper-sheet">${task.blocks.map(renderDseBlock).join("")}</div>
+    ${state.dseYear === 2016 ? '<p><button class="secondary-button" type="button" data-open-original-paper>📄 原卷作答 · Original paper</button></p>' : ''}<div class="dse-paper-sheet">${task.blocks.map(renderDseBlock).join("")}</div>
     ${getDseGuide(state.dseYear) ? dseStudy.renderAnalysis(state.dseYear, task.number) : hasDseGuide(state.dseYear) ? `<aside class="dse-no-analysis" role="status">${dseGuideFailed(state.dseYear) ? '<strong>題解書暫時未能載入</strong><button type="button" class="secondary-button" data-dse-retry-guide>重新載入答案及雙語錄音稿</button>' : '<strong>正在載入答案、解析及雙語錄音稿…</strong>'}</aside>` : '<aside class="dse-no-analysis"><strong>答案與解析尚未加入</strong><span>目前可完成題目、播放分段錄音及閱讀角色錄音稿；系統不會顯示或猜測答案。</span></aside>'}
     ${renderDseTranscript(task.number)}</article>`;
   dseStudy.mount(host, state.dseYear, task.number);
@@ -610,7 +614,7 @@ function openDseYear(year, task = 1, options = {}) {
     showToast(`${year} 年教材尚未加入。`);
     return;
   }
-  if (state.dseYear !== selectedYear) state.dseAnswers.clear();
+  if (state.dseYear !== selectedYear) { state.dseAnswers.clear(); if (selectedYear === 2016) restoreOriginalAnswers(state.user?.id, state.dseAnswers); }
   state.dseYear = selectedYear;
   state.dseTask = Number(task) >= 1 && Number(task) <= 4 ? Number(task) : 1;
   if (options.update !== false) updateRoute("dse", 0, 0, selectedYear, state.dseTask);
@@ -1258,6 +1262,7 @@ document.addEventListener("input", (event) => {
       value = event.target.checked ? event.target.value : state.dseAnswers.get(number) || "";
     } else value = event.target.value;
     state.dseAnswers.set(number, value);
+    if (state.dseYear === 2016 && !saveOriginalAnswers(state.user?.id,state.dseAnswers)) showToast("答案未能儲存於此瀏覽器；請保留此頁。");
     updateDseProgress();
     return;
   }
@@ -1302,3 +1307,13 @@ for (const selector of ['[data-row-player]', '[data-floating-audio]']) {
   const panel = document.querySelector(selector);
   mountFloatingWindow(panel, { dragHandle:panel?.querySelector('div'), minHeight:180 });
 }
+
+document.addEventListener('click', event => {
+  if (!event.target.closest('[data-open-original-paper]') || state.dseYear !== 2016) return;
+  void openOriginalPaper({ answers:state.dseAnswers, owner:state.user?.id, task:state.dseTask, audio:elements.dseWorkspace.querySelector('[data-dse-audio-task]'), onAnswer(q,value) {
+    elements.dseWorkspace.querySelectorAll(`[data-dse-answer-q="${q}"]`).forEach(input => {
+      if (['radio','checkbox'].includes(input.type)) input.checked = value.split(',').includes(input.value); else input.value = value;
+    });
+    updateDseProgress();
+  }});
+});
