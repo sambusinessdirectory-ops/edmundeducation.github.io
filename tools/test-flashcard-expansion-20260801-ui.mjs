@@ -4,10 +4,12 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadFlashcardCoreSeed } from "./flashcard-core-seed-fixture.mjs";
 
 const toolsDir = path.dirname(fileURLToPath(import.meta.url));
 const siteDir = path.resolve(toolsDir, "..");
 const html = fs.readFileSync(path.join(siteDir, "flashcards.html"), "utf8");
+const coreSeed = loadFlashcardCoreSeed();
 
 assert.ok(
   html.includes(
@@ -177,7 +179,7 @@ for (const practice of ["Practice 2", "Practice 10", "Practice 20"]) {
 }
 for (const part of [1, 2, 3, 4]) {
   assert.ok(
-    html.includes(`"ielts/listening/Practice 1/part-${part}"`),
+    Object.hasOwn(coreSeed, `ielts/listening/Practice 1/part-${part}`),
     `Existing Practice 1 part-${part} deck ID changed`
   );
 }
@@ -210,9 +212,9 @@ const homeworkBlock = blockBetween(
   "async function openRequestedFlashcardTarget()"
 );
 const homeworkLazyLoad = homeworkBlock.indexOf("await ensureSupplementalFlashcardDataForDeck(deckId)");
-const homeworkCardLookup = homeworkBlock.indexOf("getDeckCards(deckId)");
+const homeworkDeckOpen = homeworkBlock.indexOf("return openDeckStart(deckId)");
 assert.ok(homeworkLazyLoad >= 0, "Homework deep links do not lazy-load supplemental data");
-assert.ok(homeworkCardLookup > homeworkLazyLoad, "Homework deep links inspect cards before supplemental data can load");
+assert.ok(homeworkDeckOpen > homeworkLazyLoad, "Homework deep links open a deck before supplemental data can load");
 
 const routeBlock = blockBetween(
   'document.addEventListener("click", async event => {',

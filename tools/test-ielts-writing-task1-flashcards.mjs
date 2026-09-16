@@ -232,7 +232,7 @@ const dataScriptMatch = html.match(
 );
 assert.ok(dataScriptMatch, "flashcards.html must load the generated Task 1 data with a cache key");
 const dataScriptIndex = html.indexOf(dataScriptMatch[0]);
-const seedReadIndex = html.indexOf("const seedDecks = window.EDMUND_FLASHCARD_SEED || {};");
+const seedReadIndex = html.indexOf("const seedDecks = window.EDMUND_FLASHCARD_SEED = window.EDMUND_FLASHCARD_SEED || {};");
 assert.ok(seedReadIndex !== -1, "flashcards.html is missing its seed read");
 assert.ok(dataScriptIndex < seedReadIndex, "Task 1 data must load before the app reads the flashcard seed");
 

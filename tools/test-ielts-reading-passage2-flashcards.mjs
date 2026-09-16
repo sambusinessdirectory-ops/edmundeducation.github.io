@@ -5,6 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
 import { fileURLToPath } from "node:url";
+import { loadFlashcardCoreSeed } from "./flashcard-core-seed-fixture.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataOnly = process.argv.includes("--data-only");
@@ -212,10 +213,10 @@ const directLinkEnd = html.indexOf("\n    async function openRequestedFlashcardT
 assert(directLinkStart >= 0 && directLinkEnd > directLinkStart, "Homework direct-link handler is not async or is missing");
 const directLinkBlock = html.slice(directLinkStart, directLinkEnd);
 const lazyLoadPosition = directLinkBlock.indexOf("await ensureIeltsReadingDataForDeck(deckId)");
-const cardLookupPosition = directLinkBlock.indexOf("getDeckCards(deckId)");
+const deckOpenPosition = directLinkBlock.indexOf("return openDeckStart(deckId)");
 const reservationPosition = directLinkBlock.indexOf("requestedHomeworkDeckOpened = true");
 assert(lazyLoadPosition >= 0, "Homework direct-link handler does not await deck-specific lazy data");
-assert(cardLookupPosition > lazyLoadPosition, "Homework direct-link handler checks cards before Passage 2 data has loaded");
+assert(deckOpenPosition > lazyLoadPosition, "Homework direct-link handler opens the deck before Passage 2 data has loaded");
 assert(reservationPosition >= 0 && reservationPosition < lazyLoadPosition, "Homework direct-link handler does not reserve the request before awaiting lazy data");
 assert(/catch \(error\)[\s\S]*?requestedHomeworkDeckOpened = false[\s\S]*?連線問題[\s\S]*?return false/.test(directLinkBlock), "Homework direct-link handler cannot recover from a lazy-load network error");
 assert(/currentUser !== requestUser[\s\S]*?currentDeckRequest !== deckId/.test(directLinkBlock), "Homework direct-link handler can open a stale deck after account or URL changes");
@@ -224,7 +225,7 @@ assert(!/data-deck-search-input[\s\S]{0,1200}?ensureIeltsReadingData/.test(html)
 assert(!/data-advanced-search-input[\s\S]{0,1200}?ensureIeltsReadingData/.test(html), "Advanced search bulk-loads every Reading passage");
 assert(html.includes('<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260908-sunny-s3-1"></script>'), "Flashcard audio cache key was not refreshed for the latest audio release");
 
-const inlineSeed = parseAssignment(html, "window.EDMUND_FLASHCARD_SEED = ", ";\n  </script>");
+const inlineSeed = loadFlashcardCoreSeed();
 assert(inlineSeed["ielts/reading/passage-2/Practice 1"]?.length === 165, "Existing Passage 2 Practice 1 changed unexpectedly");
 assert(deckIds.every(deckId => !(deckId in inlineSeed)), "A generated Passage 2 deck would silently overwrite an inline deck");
 
