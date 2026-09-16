@@ -1,4 +1,5 @@
-import {mountAssessment,mountTeam,mountHighAttempts} from './community.mjs?v=20260916-community1';
+import {mountLearningHistory} from './learning-history.mjs?v=20260916-momentum1';
+import {mountAssessment,mountTeam,mountHighAttempts} from './community.mjs?v=20260916-momentum1';
 import {lessonSort} from './community-core.mjs?v=20260916-community1';
 import {exportCardsPDF} from './card-export.mjs?v=20260916-community1';
 import {mountLibraryHome} from './library-home.mjs?v=20260916-community1';
@@ -32,6 +33,12 @@ function LL(e,a){if(!e?.registerTool)return()=>{};let t=new AbortController,l={n
  (0,T.useEffect)(()=>{const update=()=>setScale(window.ProfessionalLearning.getFont(area));document.addEventListener('professional-preferences-changed',update);return()=>document.removeEventListener('professional-preferences-changed',update)},[area]);
  return (0,f.jsxs)('label',{className:'learning-font-control',children:['字體大小 · Text size ',(0,f.jsx)('select',{'aria-label':'字體大小 · Text size',value:scale,onChange:event=>window.ProfessionalLearning.setFont(area,event.target.value),children:[1,2,3,4,5].map(n=>(0,f.jsx)('option',{value:n,children:`${n}×${n===1?' 原大小':''}`},n))})]});
 }
+function EdmundLearningHistory({token,courseId,daily,range}){
+ const host=(0,T.useRef)(null),controller=(0,T.useRef)(null);
+ (0,T.useEffect)(()=>{controller.current=mountLearningHistory(host.current,{courseId});return()=>controller.current?.destroy()},[token,courseId]);
+ (0,T.useEffect)(()=>{controller.current?.update(daily,range)},[token,courseId,daily,range]);
+ return (0,f.jsx)('div',{className:'learning-history',ref:host});
+}
 function PC({token:e,decks:a}){
  const {t:l}=Be(),[summary,setSummary]=(0,T.useState)(null),[error,setError]=(0,T.useState)(''),[r,s]=(0,T.useState)('week'),[m,x]=(0,T.useState)('week');
  const course=a[0]?.course_id;
@@ -45,8 +52,7 @@ function PC({token:e,decks:a}){
    (0,f.jsxs)('div',{className:'course-dashboard-heading',children:[(0,f.jsx)('h3',{children:l('Learning progress')}),(0,f.jsx)(zC,{value:r,onChange:s,t:l})]}),
    (0,f.jsxs)('div',{className:'learning-summary',children:[(0,f.jsx)('strong',{children:summary?L:'…'}),(0,f.jsxs)('span',{children:['累積完成題目 · Questions completed',(0,f.jsx)('small',{children:`字卡 ${summary?.cards||0} · 填充 ${summary?.blanks||0} · 詞語 ${summary?.words||0}`})]})]}),
    error&&(0,f.jsx)('p',{role:'status',children:'進度暫時未能更新，正在重試。'}),
-   (0,f.jsx)(YC,{points:cumulative(r),type:'questions',label:'累積完成題目 · Cumulative questions completed'}),
-   (0,f.jsxs)('div',{className:'chart-legend',children:[(0,f.jsx)('i',{className:'total'}),'所有練習 · All exercises']}),
+   (0,f.jsx)(EdmundLearningHistory,{token:e,courseId:course,daily:summary?.daily,range:r}),
    (0,f.jsxs)('div',{className:'course-stat-grid',children:[(0,f.jsxs)('a',{className:'learning-stat-link',href:`./library.html?view=records&status=all&course=${course}`,children:[(0,f.jsx)('strong',{children:D}),(0,f.jsx)('span',{children:l('Current card progress')})]}),(0,f.jsxs)('a',{className:'known learning-stat-link',href:`./library.html?view=records&status=green&course=${course}`,children:[(0,f.jsx)('strong',{children:I}),(0,f.jsx)('span',{children:l('Known now')})]}),(0,f.jsxs)('a',{className:'review learning-stat-link',href:`./library.html?view=records&status=red&course=${course}`,children:[(0,f.jsx)('strong',{children:A}),(0,f.jsx)('span',{children:l('Need review now')})]})]})
   ]}),
   (0,f.jsxs)('section',{className:'course-dashboard',children:[
