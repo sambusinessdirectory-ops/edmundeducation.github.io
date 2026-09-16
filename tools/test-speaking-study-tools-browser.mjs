@@ -16,17 +16,34 @@ try {
  });
  await page.addInitScript(()=>{
   sessionStorage.setItem('edmundSpeakingSessionV1',JSON.stringify({id:'test-student',name:'Test Student',role:'student',token:'test-token'}));
+  const now=new Date(),today=`${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
+  localStorage.setItem(`edmund-night-return-v1:seen:student:test-student:${today}`,'1');
   window.testWords=[];
   window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:{user:{id:'test-auth'}}}})},rpc:async(name,args)=>{
     if(name==='learning_word_set_bookmark'){const row={item_key:args.p_item_key,phrase:args.p_phrase,context_en:args.p_context_en,href:args.p_href};window.testWords=window.testWords.filter(x=>x.item_key!==row.item_key);window.testWords.push(row);return {data:[]};}
     if(name==='learning_word_list_bookmarks')return {data:window.testWords};return {data:[]};
   }})};
  });
- await page.goto(`${base}/speaking-system.html`,{waitUntil:'domcontentloaded'});
- await page.waitForTimeout(1200);
  // Exercise the actual speaking brush, route and bookmark page.
  await page.goto(`${base}/speaking-system.html?exercise=ielts-part-2-book-1-exercise-01`,{waitUntil:'domcontentloaded'});
- await page.locator('[data-speaking-pen]').waitFor();await page.locator('[data-speaking-pen]').click();
+ await page.locator('[data-speaking-pen]').waitFor();await page.locator('.response-en').first().waitFor();await page.waitForTimeout(400);
+ const nightReturn=page.locator('[data-night-return-answer]').first();if(await nightReturn.isVisible().catch(()=>false))await nightReturn.click();
+ await page.locator('[data-speaking-pen]').click();
+ // Safari/trackpad selection boundaries can settle after pointerup. Only the final
+ // highlighted phrase should be saved, never the earlier partial range.
+ const intendedPhrase='One advertisement that';
+ await page.evaluate(phrase=>{
+  const paragraph=document.querySelector('.response-en');
+  const selectText=text=>{const walker=document.createTreeWalker(paragraph,NodeFilter.SHOW_TEXT);let start=null,end=null,offset=0,node;while((node=walker.nextNode())){const next=offset+node.data.length;if(!start&&text.start>=offset&&text.start<=next)start={node,offset:text.start-offset};if(text.end>=offset&&text.end<=next){end={node,offset:text.end-offset};break;}offset=next;}const range=document.createRange();range.setStart(start.node,start.offset);range.setEnd(end.node,end.offset);getSelection().removeAllRanges();getSelection().addRange(range);document.dispatchEvent(new Event('selectionchange'));};
+  selectText({start:1,end:phrase.length-1});paragraph.dispatchEvent(new PointerEvent('pointerup',{bubbles:true}));
+  setTimeout(()=>selectText({start:0,end:phrase.length}),130);
+ },intendedPhrase);
+ await page.waitForTimeout(1500);
+ const settledSelection=await page.evaluate(()=>({words:window.testWords,selection:getSelection()?.toString(),status:document.querySelector('.speaking-brush-toolbar [role="status"]')?.textContent,pressed:document.querySelector('[data-speaking-pen]')?.getAttribute('aria-pressed')}));
+ assert.equal(settledSelection.words.length,1,JSON.stringify(settledSelection));
+ assert.equal(await page.evaluate(()=>window.testWords[0].phrase),intendedPhrase);
+ assert.match(await page.locator('.speaking-brush-toolbar [role="status"]').textContent(),/已收藏/);
+ await page.evaluate(()=>{window.testWords=[];});
  for(const index of [0,1]){
   await page.evaluate(index=>{const paragraph=document.querySelectorAll('.response-en')[index];const text=paragraph.querySelector('[data-timing-index]')?.firstChild||paragraph.firstChild;const range=document.createRange();range.selectNodeContents(text);getSelection().removeAllRanges();getSelection().addRange(range);paragraph.dispatchEvent(new PointerEvent('pointerup',{bubbles:true}));},index);
   await page.waitForFunction(n=>window.testWords.length===n,index+1);

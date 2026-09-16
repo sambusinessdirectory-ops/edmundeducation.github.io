@@ -579,7 +579,7 @@
   let speakingWordList;
   async function initializeSpeakingWordBrush() {
     try {
-      const { createSpeakingWordList } = await import('./speaking-word-list.mjs?v=20260916-study');
+      const { createSpeakingWordList } = await import('./speaking-word-list.mjs?v=20260916-brush-fix1');
       speakingWordList = createSpeakingWordList({ root: () => dom.content, getUser: () => state.user, getToken: () => state.authToken, rpc: learningWordRpc, notify: toast,
       describe({ element, phrase, range }) {
         if (state.user?.role !== "student" || state.route.view !== "exercise") return false;

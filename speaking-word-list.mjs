@@ -1,6 +1,6 @@
 // Account-linked phrases, with a device-local order and exact source anchors.
 export function createSpeakingWordList({ root, getUser, getToken, rpc, describe, notify }) {
-  let enabled = false, timer, last = '', rows = [], list, generation = 0;
+  let enabled = false, timer, last = '', rows = [], list, generation = 0, captureGeneration = 0;
   const helper = window.EdmundWordBookmarks;
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const orderKey = () => `speakingPhraseOrderV1:${getUser()?.id}`;
@@ -8,8 +8,13 @@ export function createSpeakingWordList({ root, getUser, getToken, rpc, describe,
   const saveOrder = () => { try { localStorage.setItem(orderKey(), JSON.stringify(rows.map(row => row.item_key))); } catch { notify('排序未能儲存；請保持此頁開啟。', 'error'); } };
   const hash = text => { let h = 2166136261; for (const c of text) h = Math.imul(h ^ c.codePointAt(0),16777619); return (h >>> 0).toString(36); };
   const toolbar = document.createElement('div'); toolbar.className = 'speaking-brush-toolbar';
-  toolbar.innerHTML = '<button type="button" data-speaking-pen aria-pressed="false">🖌 魔法筆 · 收藏字詞</button><span>開啟後選取範文中的字詞，即可收藏。</span><button type="button" data-go="bookmarks">字詞書簽 →</button>';
-  toolbar.querySelector('button').onclick = () => { enabled = !enabled; last = ''; toolbar.querySelector('button').setAttribute('aria-pressed',String(enabled)); toolbar.querySelector('span').textContent = enabled ? '選取字詞並放開，即會自動收藏。' : '開啟後選取範文中的字詞，即可收藏。'; };
+  toolbar.innerHTML = '<button type="button" data-speaking-pen aria-pressed="false">🖌 魔法筆 · 收藏字詞</button><span role="status" aria-live="polite">開啟後選取範文中的字詞，即可收藏。</span><button type="button" data-go="bookmarks">字詞書簽 →</button>';
+  const pen = toolbar.querySelector('[data-speaking-pen]'), status = toolbar.querySelector('[role="status"]');
+  pen.onclick = () => {
+    enabled = !enabled; last = ''; captureGeneration += 1; clearTimeout(timer);
+    pen.setAttribute('aria-pressed',String(enabled));
+    status.textContent = enabled ? '選取字詞並放開，即會自動收藏。' : '開啟後選取範文中的字詞，即可收藏。';
+  };
   function mountToolbar() {
     const host = root();
     const answer = host?.querySelector('.part1-answer-message,.response-card,.part3-step');
@@ -17,23 +22,50 @@ export function createSpeakingWordList({ root, getUser, getToken, rpc, describe,
     else toolbar.remove();
   }
   new MutationObserver(mountToolbar).observe(root(),{childList:true,subtree:true}); mountToolbar();
-  async function capture() {
+  const selectedPhrase = () => getSelection()?.toString().replace(/\s+/g,' ').trim() || '';
+  async function capture(expectedPhrase) {
     if (!enabled || getUser()?.role !== 'student') return;
     const selection = getSelection(); if (!selection?.rangeCount || selection.isCollapsed) return;
     const range = selection.getRangeAt(0), node = range.commonAncestorContainer;
     const element = node.nodeType === 1 ? node : node.parentElement;
     if (!root().contains(element) || element.closest('input,textarea,button,[contenteditable]')) return;
-    const phrase = selection.toString().replace(/\s+/g,' ').trim();
+    const phrase = selectedPhrase();
+    if (expectedPhrase && phrase !== expectedPhrase) return schedule(280);
     if (!phrase || phrase.length > 300 || !/[\p{L}\p{N}]/u.test(phrase)) return;
     const info = describe({element,phrase,range}); if (!info) return;
     const token = getToken(), owner = getUser()?.id;
     const itemKey = `speaking:${hash(`${info.href}|${phrase.toLowerCase()}`)}`;
     const identity = `${owner}:${itemKey}`; if (identity === last) return; last = identity;
-    try { await helper.setWordBookmark({rpc,token,systemKey:'speaking',itemKey,...info,phrase}); if (owner === getUser()?.id) notify(`已收藏「${phrase}」到 Speaking 書簽。`,'info'); }
-    catch { if(last === identity) last=''; notify('未能收藏，請重新選取再試。','error'); }
+    const currentCapture = ++captureGeneration;
+    status.textContent = `正在收藏「${phrase}」…`;
+    try {
+      await helper.setWordBookmark({rpc,token,systemKey:'speaking',itemKey,...info,phrase});
+      if (owner === getUser()?.id && currentCapture === captureGeneration) {
+        status.textContent = `✓ 已收藏「${phrase}」。可繼續選取其他字詞。`;
+        if (selectedPhrase() === phrase) getSelection()?.removeAllRanges();
+      }
+      if (owner === getUser()?.id) notify(`已收藏「${phrase}」到 Speaking 書簽。`,'info');
+    }
+    catch {
+      if(last === identity) last='';
+      if (currentCapture === captureGeneration) status.textContent = '收藏失敗，請重新選取字詞。';
+      notify('未能收藏，請重新選取再試。','error');
+    }
   }
-  const schedule = () => { clearTimeout(timer); timer=setTimeout(capture,80); };
-  document.addEventListener('pointerup',schedule); document.addEventListener('keyup',schedule);
+  const schedule = (delay = 280) => {
+    clearTimeout(timer);
+    if (!enabled || getUser()?.role !== 'student') return;
+    const phrase = selectedPhrase();
+    if (!phrase) return;
+    timer=setTimeout(() => capture(phrase),delay);
+  };
+  // Safari and trackpads can finish updating a native selection after pointerup.
+  // Wait for selectionchange to settle so the saved phrase matches the highlight.
+  document.addEventListener('selectionchange',() => schedule(280));
+  document.addEventListener('pointerup',() => schedule(320));
+  document.addEventListener('mouseup',() => schedule(320));
+  document.addEventListener('touchend',() => schedule(380),{passive:true});
+  document.addEventListener('keyup',() => schedule(220));
   function render() {
     if (!list?.isConnected) return;
     list.innerHTML = rows.length ? rows.map((row,index) => `<div class="speaking-phrase-row" data-phrase-index="${index}"><button type="button" class="speaking-phrase-grip" data-grip="${index}" aria-label="移動 ${escape(row.phrase)}；使用上下方向鍵排序" title="拖曳或使用上下方向鍵排序">☰</button><span><strong>${escape(row.phrase)}</strong><small>${escape(row.context_en)}</small></span><a href="${escape(sourceHref(row.href))}">查看原文 ↗</a></div>`).join('') : '<p>尚未收藏字詞。開啟範文上的魔法筆，選取想溫習的字詞。</p>';
