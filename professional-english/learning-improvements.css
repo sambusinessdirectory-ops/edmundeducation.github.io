@@ -88,3 +88,5 @@ html.theme-day .round-complete-dialog .round-review{color:#b73746}
 /* Keep the two square action targets usable even when card reading text is 5×. */
 .study-workspace .grade-controls .pro-zh{font-size:min(calc(var(--font-px,16) * 1px * var(--learning-scale,1)),clamp(16px,4.5vw,20px))!important;line-height:1.3}
 .study-workspace .grade-controls .pro-en{font-size:min(calc(var(--font-px,13) * 1px * var(--learning-scale,1)),clamp(14px,4vw,18px))!important;line-height:1.3}
+.round-complete-dialog #round-complete-title>span[lang="en"]{font-size:min(calc(var(--font-px,29) * 1px * var(--learning-scale,1)),7.5vw,52px)!important;white-space:nowrap}
+.round-complete-dialog #round-complete-title>span[lang="zh-Hant"]{font-size:min(calc(var(--font-px,29) * 1px * var(--learning-scale,1)),14vw,100px)!important;white-space:nowrap}
