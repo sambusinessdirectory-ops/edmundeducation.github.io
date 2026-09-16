@@ -10,6 +10,7 @@ export const HINTS = [
   {id:'last',zh:'顯示結尾字母',en:'Last letter'},
   {id:'both',zh:'顯示開首及結尾字母',en:'First + last'}
 ];
+const roleName=role=>({Visitor:'訪客',Security:'保安人員',Tenant:'租戶',Officer:'保安／客戶服務主任'})[role]||role;
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function lineTokens(text) { return text.match(/[A-Za-z]+(?:['’][A-Za-z]+)*|[^A-Za-z]+/g)||[]; }
 export function blankPositions(text, index, rate) {
@@ -22,7 +23,7 @@ export function wordHint(word, mode) {
   const letters=word.replace(/[^A-Za-z]/g,'');const gap='_'.repeat(Math.max(1,letters.length-(mode==='both'?2:1)));
   return mode==='none'?'':mode==='first'?letters[0]+gap:mode==='last'?gap+letters.at(-1):letters[0]+gap+letters.at(-1);
 }
-export function translationsText(dialogue) { return `${dialogue.titleZh}\nLesson ${dialogue.lesson} · ${dialogue.title}\n\n`+dialogue.lines.map(line=>`${line.role==='Visitor'?'訪客':'保安人員'}：${line.zh}`).join('\n\n'); }
+export function translationsText(dialogue) { return `${dialogue.titleZh}\nLesson ${dialogue.lesson} · ${dialogue.title}\n\n`+dialogue.lines.map(line=>`${roleName(line.role)}：${line.zh}`).join('\n\n'); }
 
 export function mountDialoguePage({dialogues,audioManifest,root=document.body}) {
   const params=new URLSearchParams(location.search),dialogue=dialogues.find(d=>d.id===params.get('id'));
@@ -38,7 +39,7 @@ export function mountDialoguePage({dialogues,audioManifest,root=document.body}) 
   let translations=false,highlight=true,rate=1,audio=null,current=-1,continuous=false,generation=0;
   const page=document.createElement('main');page.className='pro-practice-page';root.append(page);document.body.classList.add('pro-dialogue-open');
   const answers=new Map();
-  const role=line=>line.role==='Visitor'?'訪客 · Visitor':'保安人員 · Security';
+  const role=line=>`${roleName(line.role)} · ${line.role}`;
   const query=(next,extra={})=>{const url=new URL(location.href);url.searchParams.set('view',next);for(const [key,value]of Object.entries(extra))url.searchParams.set(key,value);return url;};
   const count=d=>dialogue.lines.reduce((n,l,i)=>n+blankPositions(l.en,i,d.rate).size,0);
   const label=line=>line.voice==='british-male'?'英式男聲':line.voice==='british-female'?'英式女聲':line.voice==='american-male'?'美式男聲':'美式女聲';
@@ -104,7 +105,7 @@ if (typeof document !== 'undefined' && document.body.dataset.professionalDialogu
   async function initialise(){
     // The existing course app authenticates the student before rendering this node.
     if(mounted||!document.querySelector('#root .course-section'))return;mounted=true;
-    try{const response=await fetch('./dialogue-audio.json?v=20260911');if(!response.ok)throw Error('audio manifest');mountDialoguePage({dialogues:window.EDMUND_PROFESSIONAL_DIALOGUES,audioManifest:await response.json()});}
+    try{const response=await fetch('./dialogue-audio.json?v=20260916-lesson3');if(!response.ok)throw Error('audio manifest');mountDialoguePage({dialogues:window.EDMUND_PROFESSIONAL_DIALOGUES,audioManifest:await response.json()});}
     catch{const note=document.createElement('p');note.className='pro-page-load-error';note.textContent='對話未能載入。';const retry=document.createElement('button');retry.textContent='重試';retry.onclick=()=>{mounted=false;note.remove();initialise();};note.append(retry);document.body.append(note);}
   }
   new MutationObserver(initialise).observe(document.getElementById('root'),{childList:true,subtree:true});initialise();

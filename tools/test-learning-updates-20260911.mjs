@@ -32,7 +32,7 @@ const root=w.document.getElementById('finder');let opened;mountQuestionTypeFinde
 root.querySelector('[data-qtf-clear]').click();const search=root.querySelector('input');search.value='表格';search.dispatchEvent(new w.Event('input',{bubbles:true}));assert.equal(root.querySelectorAll('.qtf-result').length,9);
 const r2=w.document.createElement('div');w.document.body.append(r2);mountQuestionTypeFinder(r2,{data:speaking,kind:'speaking'});r2.querySelector('[data-qtf-type="advantages"]').click();assert.ok(r2.querySelectorAll('.qtf-result').length>0);const section=r2.querySelector('[data-qtf-section]');section.value='individual';section.dispatchEvent(new w.Event('change'));assert.ok([...r2.querySelectorAll('.qtf-meta')].every(n=>n.textContent.includes('個人發言')));
 const panel=w.document.getElementById('panel');mountFloatingWindow(panel,{dragHandle:panel.querySelector('header')});mountFloatingWindow(panel);assert.equal(panel.querySelectorAll('[data-resize-corner]').length,4);
-const data=JSON.parse(read('professional-english/dialogues.json'));assert.equal(data.dialogues.length,7);assert.equal(data.dialogues.reduce((n,d)=>n+d.lines.length,0),87);
+const data=JSON.parse(read('professional-english/dialogues.json'));assert.equal(data.dialogues.length,15);assert.equal(data.dialogues.reduce((n,d)=>n+d.lines.length,0),167);
 const publishedAudio=JSON.parse(read('professional-english/dialogue-audio.json'));
 let pendingAudio=0;
 for(const dialogue of data.dialogues)for(const [i,line]of dialogue.lines.entries()){
@@ -43,7 +43,7 @@ for(const dialogue of data.dialogues)for(const [i,line]of dialogue.lines.entries
  assert.ok(audio.length>256);assert.ok(audio.subarray(0,3).toString()==='ID3'||audio[0]===255);assert.ok(clip.duration>0);
 }
 assert.ok(pendingAudio===0||pendingAudio===23);if(process.argv.includes('--require-complete-audio'))assert.equal(pendingAudio,0);
-const manifest={};for(const d of data.dialogues){for(const [i,l]of d.lines.entries()){assert.ok(l.zh);const expected=l.role==='Visitor'?(d.lesson===1?'british-male':'british-female'):(d.lesson===1?'american-female':'american-male');assert.equal(l.voice,expected);manifest[`${d.id}:${i}`]={path:`audio/${d.id}-${i}.mp3`};}for(const rate of DIFFICULTIES.map(x=>x.rate))assert.ok(d.lines.every((l,i)=>blankPositions(l.en,i,rate).size>0));}
+const manifest={};for(const d of data.dialogues){for(const [i,l]of d.lines.entries()){assert.ok(l.zh);const expected=d.lesson===3?(l.role==='Tenant'?'british-male':'american-female'):l.role==='Visitor'?(d.lesson===1?'british-male':'british-female'):(d.lesson===1?'american-female':'american-male');assert.equal(l.voice,expected);manifest[`${d.id}:${i}`]={path:`audio/${d.id}-${i}.mp3`};}for(const rate of DIFFICULTIES.map(x=>x.rate))assert.ok(d.lines.every((l,i)=>blankPositions(l.en,i,rate).size>0));}
 assert.match(translationsText(data.dialogues[0]),/訪客：早上好/);assert.equal(data.voiceRecipes['american-male'].voice,'aries');assert.equal(data.voiceRecipes['american-female'].voice,'af_heart');assert.equal(data.voiceRecipes['british-female'].voice,'bf_isabella');assert.equal(data.voiceRecipes['british-male'].voice,'bm_fable');
 const app=mountDialoguePage({dialogues:data.dialogues,audioManifest:manifest});const page=app.page;
 assert.equal(page.querySelectorAll('.pro-turn').length,13);assert.equal(page.querySelectorAll('dialog').length,0);page.querySelector('[data-show-chinese]').click();assert.equal(page.querySelectorAll('[data-chinese][hidden]').length,0);
@@ -53,4 +53,4 @@ assert.match(read('speaking-system.js'),/apiRaw\("\/v1\/learning-voice"/);assert
 history.replaceState(null,'','?id=l2d1');const pending=mountDialoguePage({dialogues:data.dialogues,audioManifest:publishedAudio});
 assert.equal(pending.page.querySelector('[data-play-all]').disabled,pendingAudio>0);assert.equal(pending.page.querySelectorAll('[data-play-line]:disabled').length,pendingAudio>0?data.dialogues.find(d=>d.id==='l2d1').lines.filter(l=>l.voice==='american-male').length:0);
 pending.page.querySelector('[data-show-chinese]').click();assert.equal(pending.page.querySelectorAll('[data-chinese][hidden]').length,0);pending.stop();
-console.log('Validated 800 listening questions, 3,102 speaking questions, four-corner geometry, finder filters/deep links, 87 translated lines, 16 modes, answer feedback and synchronized audio controls.');w.close();
+console.log('Validated 800 listening questions, 3,102 speaking questions, four-corner geometry, finder filters/deep links, 167 translated lines, 16 modes, answer feedback and synchronized audio controls.');w.close();

@@ -73,7 +73,7 @@
   const escapeHtml = value => String(value).replace(/[&<>"']/g, character => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character]);
   function lessonMarkup() {
     return `<div class="pro-practice-heading"><div><span>PROFESSIONAL ENGLISH · DIALOGUE PRACTICE</span><h3>情境英語填充練習</h3><p>先聆聽完整對話及查看中文翻譯，再選擇練習模式。每篇對話均在獨立頁面開啟。</p></div><strong>${dialogs.length} dialogues</strong></div>
-      <div class="pro-lesson-grid">${[1, 2].map(lesson => `<section class="pro-lesson-card"><span>0${lesson}</span><h4>${lesson === 1 ? "第一課：基本互動" : "第二課：進階互動"}</h4><p>${lesson === 1 ? "Class 1 · Basic Interaction" : "Class 2 · Advanced Interactions"}</p><div>${dialogs.filter(item => item.lesson === lesson).map(item => `<a class="pro-dialogue-link" href="./dialogue.html?id=${item.id}"><b>${item.variant==='beginner'?'初階版本 · Beginner':'專業版本 · Professional'}</b><span>${escapeHtml(item.titleZh)}</span><small>${escapeHtml(item.title)}</small></a>`).join("")}</div></section>`).join("")}</div>`;
+      <div class="pro-lesson-grid">${[1, 2, 3].map(lesson => `<section class="pro-lesson-card"><span>0${lesson}</span><h4>${({1:"第一課：基本互動",2:"第二課：進階互動",3:"第三課：投訴處理與冷靜回應"})[lesson]}</h4><p>${({1:"Class 1 · Basic Interaction",2:"Class 2 · Advanced Interactions",3:"Class 3 · Complaint Handling and Calm Response"})[lesson]}</p><div>${dialogs.filter(item => item.lesson === lesson).map(item => `<a class="pro-dialogue-link" href="./dialogue.html?id=${item.id}"><b>${item.variant==='beginner'?'初階版本 · Beginner':'專業版本 · Professional'}</b><span>${escapeHtml(item.titleZh)}</span><small>${escapeHtml(item.title)}</small></a>`).join("")}</div></section>`).join("")}</div>`;
   }
 
   function enhanceCourse(course) {
@@ -87,7 +87,14 @@
       practice.classList.add("learning-panel--practice-glow");
       practice.innerHTML = lessonMarkup();
     }
-    const desired = [flash, practice, team, dashboards].filter(Boolean);
+    let polysemy = course.querySelector(":scope > .learning-panel--polysemy");
+    if (!polysemy && practice) {
+      polysemy = document.createElement("section");
+      polysemy.className = "learning-panel learning-panel--polysemy learning-panel--practice-glow";
+      polysemy.innerHTML = `<div class="pro-practice-heading"><div><span>PROFESSIONAL ENGLISH · WORDS IN CONTEXT</span><h3>一詞多義 (Polysemy) 練習</h3><p>閱讀例句及留空的中文翻譯，選擇符合語境的意思。答錯的題目會在下一輪再出現。</p></div></div><a class="poly-landing-card" href="./polysemy.html"><strong>第一課 · Lesson 1</strong><span>16 個詞語 · 92 題練習</span><span>每個詞語最後一題為課文原句 · 開始練習 →</span></a>`;
+      practice.after(polysemy);
+    }
+    const desired = [flash, practice, polysemy, team, dashboards].filter(Boolean);
     const positions = desired.map(node => [...course.children].indexOf(node));
     if (positions.some((position, index) => index > 0 && position < positions[index - 1])) {
       desired.forEach(node => course.append(node));

@@ -1,0 +1,1283 @@
+{
+  "lesson": 1,
+  "title": "一詞多義 (Polysemy) 練習",
+  "source": "Lesson_1_Multiple_Meanings.pdf",
+  "words": [
+    {
+      "id": "listed",
+      "word": "listed",
+      "baseWord": "list",
+      "sourcePage": 2,
+      "senses": [
+        {
+          "id": "listed-0",
+          "zh": "列出；列舉",
+          "sourceMeaning": "Put into a list"
+        },
+        {
+          "id": "listed-1",
+          "zh": "列入名單；被列在名單上",
+          "sourceMeaning": "Included on a list"
+        },
+        {
+          "id": "listed-2",
+          "zh": "掛牌出售；刊登出售",
+          "sourceMeaning": "Advertised for sale"
+        },
+        {
+          "id": "listed-3",
+          "zh": "上市；掛牌上市",
+          "sourceMeaning": "Officially traded on a stock exchange"
+        },
+        {
+          "id": "listed-4",
+          "zh": "註明；列明；寫明",
+          "sourceMeaning": "Written or shown in a document"
+        }
+      ],
+      "questions": [
+        {
+          "id": "listed-example-0",
+          "kind": "example",
+          "en": "She listed all the things she needed to buy.",
+          "zh": "她把所有需要買的東西都列了出來。",
+          "zhMasked": "她把所有需要買的東西都____。",
+          "answer": "listed-0"
+        },
+        {
+          "id": "listed-example-1",
+          "kind": "example",
+          "en": "His name is listed among the guests.",
+          "zh": "他的名字列在賓客名單上。",
+          "zhMasked": "他的名字____賓客之中。",
+          "answer": "listed-1"
+        },
+        {
+          "id": "listed-example-2",
+          "kind": "example",
+          "en": "The house is listed for $800,000.",
+          "zh": "這棟房子掛牌出售，售價為 80 萬美元。",
+          "zhMasked": "這棟房子____，售價為 80 萬美元。",
+          "answer": "listed-2"
+        },
+        {
+          "id": "listed-example-3",
+          "kind": "example",
+          "en": "The company is listed on the Hong Kong Stock Exchange.",
+          "zh": "這家公司在香港交易所上市。",
+          "zhMasked": "這家公司在香港交易所____。",
+          "answer": "listed-3"
+        },
+        {
+          "id": "listed-example-4",
+          "kind": "example",
+          "en": "The address is listed on the invitation.",
+          "zh": "地址已在邀請函上註明。",
+          "zhMasked": "地址已在邀請函上____。",
+          "answer": "listed-4"
+        },
+        {
+          "id": "listed-passage",
+          "kind": "passage",
+          "en": "Could I also confirm the floor listed in your meeting invitation?",
+          "zh": "我也可以確認一下您會議邀請中註明的樓層嗎？",
+          "zhMasked": "我也可以確認一下您會議邀請中____的樓層嗎？",
+          "answer": "listed-4"
+        }
+      ]
+    },
+    {
+      "id": "says",
+      "word": "says",
+      "baseWord": "say",
+      "sourcePage": 3,
+      "senses": [
+        {
+          "id": "says-0",
+          "zh": "說；講（說出話語）",
+          "sourceMeaning": "Speak words"
+        },
+        {
+          "id": "says-1",
+          "zh": "寫著；寫明；註明",
+          "sourceMeaning": "State something in writing"
+        },
+        {
+          "id": "says-2",
+          "zh": "表示；認為（表達意見）",
+          "sourceMeaning": "Express an opinion or belief"
+        },
+        {
+          "id": "says-3",
+          "zh": "指示；說明（給予指令）",
+          "sourceMeaning": "Give instructions"
+        },
+        {
+          "id": "says-4",
+          "zh": "聲稱（宣稱某事屬實）",
+          "sourceMeaning": "Claim something"
+        }
+      ],
+      "questions": [
+        {
+          "id": "says-example-0",
+          "kind": "example",
+          "en": "She says hello to me every morning.",
+          "zh": "她每天早上都會跟我說你好。",
+          "zhMasked": "她每天早上都會跟我____你好。",
+          "answer": "says-0"
+        },
+        {
+          "id": "says-example-1",
+          "kind": "example",
+          "en": "The sign says “No Parking.”",
+          "zh": "牌子上寫著『禁止停車』。",
+          "zhMasked": "牌子上____『禁止停車』。",
+          "answer": "says-1"
+        },
+        {
+          "id": "says-example-2",
+          "kind": "example",
+          "en": "He says the new system is much better.",
+          "zh": "他認為新的系統好很多。",
+          "zhMasked": "他____新的系統好很多。",
+          "answer": "says-2"
+        },
+        {
+          "id": "says-example-3",
+          "kind": "example",
+          "en": "The instructions say to press this button first.",
+          "zh": "說明書指示要先按這個按鈕。",
+          "zhMasked": "說明書____要先按這個按鈕。",
+          "answer": "says-3"
+        },
+        {
+          "id": "says-example-4",
+          "kind": "example",
+          "en": "He says he was not at the office yesterday.",
+          "zh": "他聲稱昨天不在辦公室。",
+          "zhMasked": "他____昨天不在辦公室。",
+          "answer": "says-4"
+        },
+        {
+          "id": "says-passage",
+          "kind": "passage",
+          "en": "It says the 23rd floor.",
+          "zh": "上面寫著 23 樓。",
+          "zhMasked": "上面____ 23 樓。",
+          "answer": "says-1"
+        }
+      ]
+    },
+    {
+      "id": "allow",
+      "word": "allow",
+      "baseWord": "allow",
+      "sourcePage": 4,
+      "senses": [
+        {
+          "id": "allow-0",
+          "zh": "允許；准許",
+          "sourceMeaning": "Give permission"
+        },
+        {
+          "id": "allow-1",
+          "zh": "使……成為可能；讓",
+          "sourceMeaning": "Make something possible"
+        },
+        {
+          "id": "allow-2",
+          "zh": "給予；預留",
+          "sourceMeaning": "Give time or space"
+        },
+        {
+          "id": "allow-3",
+          "zh": "考慮到；把……計算在內",
+          "sourceMeaning": "Accept or take into account (allow for)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "allow-example-0",
+          "kind": "example",
+          "en": "My parents allow me to stay out late on weekends.",
+          "zh": "我父母允許我週末晚一點回家。",
+          "zhMasked": "我父母____我週末晚一點回家。",
+          "answer": "allow-0"
+        },
+        {
+          "id": "allow-example-1",
+          "kind": "example",
+          "en": "This app allows users to send money instantly.",
+          "zh": "這個應用程式讓使用者可以即時轉帳。",
+          "zhMasked": "這個應用程式____使用者可以即時轉帳。",
+          "answer": "allow-1"
+        },
+        {
+          "id": "allow-example-2",
+          "kind": "example",
+          "en": "Please allow enough time for the journey.",
+          "zh": "請為這段路程預留足夠的時間。",
+          "zhMasked": "請為這段路程____足夠的時間。",
+          "answer": "allow-2"
+        },
+        {
+          "id": "allow-example-3",
+          "kind": "example",
+          "en": "We should allow for possible delays.",
+          "zh": "我們應該考慮到可能會有延誤。",
+          "zhMasked": "我們應該____可能會有延誤。",
+          "answer": "allow-3"
+        },
+        {
+          "id": "allow-passage",
+          "kind": "passage",
+          "en": "Please allow me a moment to verify the appointment with their office.",
+          "zh": "請給我一點時間，讓我向他們的辦公室確認您的預約。",
+          "zhMasked": "請____我一點時間，讓我向他們的辦公室確認您的預約。",
+          "answer": "allow-2"
+        }
+      ]
+    },
+    {
+      "id": "mind",
+      "word": "mind",
+      "baseWord": "mind",
+      "sourcePage": 5,
+      "senses": [
+        {
+          "id": "mind-0",
+          "zh": "介意；在意",
+          "sourceMeaning": "Object to something"
+        },
+        {
+          "id": "mind-1",
+          "zh": "照看；照顧",
+          "sourceMeaning": "Take care of something"
+        },
+        {
+          "id": "mind-2",
+          "zh": "注意；小心",
+          "sourceMeaning": "Pay attention to"
+        },
+        {
+          "id": "mind-3",
+          "zh": "心智；思想；頭腦",
+          "sourceMeaning": "The part of you that thinks"
+        },
+        {
+          "id": "mind-4",
+          "zh": "改變主意",
+          "sourceMeaning": "Change your decision (change your mind)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mind-example-0",
+          "kind": "example",
+          "en": "Do you mind if I open the window?",
+          "zh": "你介意我把窗戶打開嗎？",
+          "zhMasked": "你____我把窗戶打開嗎？",
+          "answer": "mind-0"
+        },
+        {
+          "id": "mind-example-1",
+          "kind": "example",
+          "en": "Could you mind my bag for a minute?",
+          "zh": "你可以幫我照看一下包包嗎？",
+          "zhMasked": "你可以幫我____一下包包嗎？",
+          "answer": "mind-1"
+        },
+        {
+          "id": "mind-example-2",
+          "kind": "example",
+          "en": "Mind the step.",
+          "zh": "小心台階。",
+          "zhMasked": "____台階。",
+          "answer": "mind-2"
+        },
+        {
+          "id": "mind-example-3",
+          "kind": "example",
+          "en": "She has a very creative mind.",
+          "zh": "她有非常有創意的頭腦。",
+          "zhMasked": "她有非常有創意的____。",
+          "answer": "mind-3"
+        },
+        {
+          "id": "mind-example-4",
+          "kind": "example",
+          "en": "I changed my mind and decided to stay.",
+          "zh": "我改變主意了，決定留下來。",
+          "zhMasked": "我____了，決定留下來。",
+          "answer": "mind-4"
+        },
+        {
+          "id": "mind-passage",
+          "kind": "passage",
+          "en": "Would you mind waiting in the reception area?",
+          "zh": "您介意在接待區等候嗎？",
+          "zhMasked": "您____在接待區等候嗎？",
+          "answer": "mind-0"
+        }
+      ]
+    },
+    {
+      "id": "proceed",
+      "word": "proceed",
+      "baseWord": "proceed",
+      "sourcePage": 6,
+      "senses": [
+        {
+          "id": "proceed-0",
+          "zh": "前往；前進",
+          "sourceMeaning": "Go to a place"
+        },
+        {
+          "id": "proceed-1",
+          "zh": "繼續進行（原本的活動）",
+          "sourceMeaning": "Continue doing something"
+        },
+        {
+          "id": "proceed-2",
+          "zh": "著手進行（下一步）",
+          "sourceMeaning": "Begin or carry out the next step"
+        },
+        {
+          "id": "proceed-3",
+          "zh": "接著說；繼續說",
+          "sourceMeaning": "Continue speaking"
+        },
+        {
+          "id": "proceed-4",
+          "zh": "進展（按某種方式發展）",
+          "sourceMeaning": "Develop or happen in a particular way"
+        }
+      ],
+      "questions": [
+        {
+          "id": "proceed-example-0",
+          "kind": "example",
+          "en": "Please proceed to Gate 12 for boarding.",
+          "zh": "請前往 12 號登機閘口登機。",
+          "zhMasked": "請____ 12 號登機閘口登機。",
+          "answer": "proceed-0"
+        },
+        {
+          "id": "proceed-example-1",
+          "kind": "example",
+          "en": "After a short break, we proceeded with the meeting.",
+          "zh": "短暫休息後，我們繼續進行會議。",
+          "zhMasked": "短暫休息後，我們____會議。",
+          "answer": "proceed-1"
+        },
+        {
+          "id": "proceed-example-2",
+          "kind": "example",
+          "en": "Once the documents are approved, we can proceed with the application.",
+          "zh": "文件獲得批准後，我們就可以繼續進行申請程序。",
+          "zhMasked": "文件獲得批准後，我們就可以____申請程序。",
+          "answer": "proceed-2"
+        },
+        {
+          "id": "proceed-example-3",
+          "kind": "example",
+          "en": "He paused for a moment and then proceeded to explain the problem.",
+          "zh": "他停頓了一下，然後接著說明這個問題。",
+          "zhMasked": "他停頓了一下，然後____說明這個問題。",
+          "answer": "proceed-3"
+        },
+        {
+          "id": "proceed-example-4",
+          "kind": "example",
+          "en": "The project is proceeding according to plan.",
+          "zh": "這個專案正按照計劃進行。",
+          "zhMasked": "這個專案正按照計劃____。",
+          "answer": "proceed-4"
+        },
+        {
+          "id": "proceed-passage",
+          "kind": "passage",
+          "en": "Please proceed to the visitor registration counter.",
+          "zh": "請前往訪客登記櫃檯。",
+          "zhMasked": "請____訪客登記櫃檯。",
+          "answer": "proceed-0"
+        }
+      ]
+    },
+    {
+      "id": "counter",
+      "word": "counter",
+      "baseWord": "counter",
+      "sourcePage": 7,
+      "senses": [
+        {
+          "id": "counter-0",
+          "zh": "櫃檯；服務台",
+          "sourceMeaning": "Service desk"
+        },
+        {
+          "id": "counter-1",
+          "zh": "流理台；工作檯",
+          "sourceMeaning": "Kitchen work surface"
+        },
+        {
+          "id": "counter-2",
+          "zh": "計數器",
+          "sourceMeaning": "A device or number that counts"
+        },
+        {
+          "id": "counter-3",
+          "zh": "反駁；反制；反擊",
+          "sourceMeaning": "Respond to or oppose something (verb)"
+        },
+        {
+          "id": "counter-4",
+          "zh": "與……相反；違背",
+          "sourceMeaning": "Opposite or contrary to something"
+        }
+      ],
+      "questions": [
+        {
+          "id": "counter-example-0",
+          "kind": "example",
+          "en": "Please pay at the counter.",
+          "zh": "請到櫃檯付款。",
+          "zhMasked": "請到____付款。",
+          "answer": "counter-0"
+        },
+        {
+          "id": "counter-example-1",
+          "kind": "example",
+          "en": "She put the groceries on the kitchen counter.",
+          "zh": "她把買回來的東西放在廚房的流理台上。",
+          "zhMasked": "她把買回來的東西放在廚房的____上。",
+          "answer": "counter-1"
+        },
+        {
+          "id": "counter-example-2",
+          "kind": "example",
+          "en": "The visitor counter shows that 500 people entered today.",
+          "zh": "訪客計數器顯示今天有 500 人進入。",
+          "zhMasked": "訪客____顯示今天有 500 人進入。",
+          "answer": "counter-2"
+        },
+        {
+          "id": "counter-example-3",
+          "kind": "example",
+          "en": "She countered his argument with new evidence.",
+          "zh": "她用新的證據反駁了他的論點。",
+          "zhMasked": "她用新的證據____了他的論點。",
+          "answer": "counter-3"
+        },
+        {
+          "id": "counter-example-4",
+          "kind": "example",
+          "en": "His actions run counter to company policy.",
+          "zh": "他的行為違反公司政策。",
+          "zhMasked": "他的行為____公司政策。",
+          "answer": "counter-4"
+        },
+        {
+          "id": "counter-passage",
+          "kind": "passage",
+          "en": "Please proceed to the visitor registration counter.",
+          "zh": "請前往訪客登記櫃檯。",
+          "zhMasked": "請前往訪客登記____。",
+          "answer": "counter-0"
+        }
+      ]
+    },
+    {
+      "id": "issue",
+      "word": "issue",
+      "baseWord": "issue",
+      "sourcePage": 8,
+      "senses": [
+        {
+          "id": "issue-0",
+          "zh": "發給；簽發；發放",
+          "sourceMeaning": "Officially give something"
+        },
+        {
+          "id": "issue-1",
+          "zh": "問題；狀況",
+          "sourceMeaning": "A problem (noun)"
+        },
+        {
+          "id": "issue-2",
+          "zh": "議題；事情；事項",
+          "sourceMeaning": "A topic or matter"
+        },
+        {
+          "id": "issue-3",
+          "zh": "一期；期號",
+          "sourceMeaning": "An edition of a magazine or newspaper"
+        },
+        {
+          "id": "issue-4",
+          "zh": "發布；發表（聲明或文件）",
+          "sourceMeaning": "Officially announce or publish something"
+        },
+        {
+          "id": "issue-5",
+          "zh": "發出；下達（警告或命令）",
+          "sourceMeaning": "Give an official order or warning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "issue-example-0",
+          "kind": "example",
+          "en": "The bank issued me a new credit card.",
+          "zh": "銀行發給我一張新的信用卡。",
+          "zhMasked": "銀行____我一張新的信用卡。",
+          "answer": "issue-0"
+        },
+        {
+          "id": "issue-example-1",
+          "kind": "example",
+          "en": "We are having an issue with the computer system.",
+          "zh": "我們的電腦系統出了問題。",
+          "zhMasked": "我們的電腦系統出了____。",
+          "answer": "issue-1"
+        },
+        {
+          "id": "issue-example-2",
+          "kind": "example",
+          "en": "They discussed the issue of workplace safety.",
+          "zh": "他們討論了工作場所安全這個議題。",
+          "zhMasked": "他們討論了工作場所安全這個____。",
+          "answer": "issue-2"
+        },
+        {
+          "id": "issue-example-3",
+          "kind": "example",
+          "en": "I bought the latest issue of the magazine.",
+          "zh": "我買了這本雜誌的最新一期。",
+          "zhMasked": "我買了這本雜誌的最新____。",
+          "answer": "issue-3"
+        },
+        {
+          "id": "issue-example-4",
+          "kind": "example",
+          "en": "The company issued a statement about the incident.",
+          "zh": "公司就這宗事件發布了一份聲明。",
+          "zhMasked": "公司就這宗事件____了一份聲明。",
+          "answer": "issue-4"
+        },
+        {
+          "id": "issue-example-5",
+          "kind": "example",
+          "en": "The police issued a warning to the public.",
+          "zh": "警方向公眾發出了警告。",
+          "zhMasked": "警方向公眾____了警告。",
+          "answer": "issue-5"
+        },
+        {
+          "id": "issue-passage",
+          "kind": "passage",
+          "en": "My colleague will issue your pass and direct you to Lift B.",
+          "zh": "我的同事會發給您通行證，並指引您前往 B 號升降機。",
+          "zhMasked": "我的同事會____您通行證，並指引您前往 B 號升降機。",
+          "answer": "issue-0"
+        }
+      ]
+    },
+    {
+      "id": "direct",
+      "word": "direct",
+      "baseWord": "direct",
+      "sourcePage": 9,
+      "senses": [
+        {
+          "id": "direct-0",
+          "zh": "指引；引導",
+          "sourceMeaning": "Show someone where to go"
+        },
+        {
+          "id": "direct-1",
+          "zh": "指示；命令",
+          "sourceMeaning": "Give instructions or orders"
+        },
+        {
+          "id": "direct-2",
+          "zh": "指導；管理；主持",
+          "sourceMeaning": "Manage or control something"
+        },
+        {
+          "id": "direct-3",
+          "zh": "導演",
+          "sourceMeaning": "Make a film or play"
+        },
+        {
+          "id": "direct-4",
+          "zh": "直達的；直接的（路線）",
+          "sourceMeaning": "Straight or without stopping (adjective)"
+        },
+        {
+          "id": "direct-5",
+          "zh": "直接的；坦率的（表達方式）",
+          "sourceMeaning": "Clear and straightforward (adjective)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "direct-example-0",
+          "kind": "example",
+          "en": "The receptionist directed me to the meeting room.",
+          "zh": "接待員指引我前往會議室。",
+          "zhMasked": "接待員____我前往會議室。",
+          "answer": "direct-0"
+        },
+        {
+          "id": "direct-example-1",
+          "kind": "example",
+          "en": "The manager directed the staff to leave the building.",
+          "zh": "經理指示員工離開大樓。",
+          "zhMasked": "經理____員工離開大樓。",
+          "answer": "direct-1"
+        },
+        {
+          "id": "direct-example-2",
+          "kind": "example",
+          "en": "She directs the company’s marketing team.",
+          "zh": "她管理公司的市場推廣團隊。",
+          "zhMasked": "她____公司的市場推廣團隊。",
+          "answer": "direct-2"
+        },
+        {
+          "id": "direct-example-3",
+          "kind": "example",
+          "en": "He directed several successful films.",
+          "zh": "他導演了幾部成功的電影。",
+          "zhMasked": "他____了幾部成功的電影。",
+          "answer": "direct-3"
+        },
+        {
+          "id": "direct-example-4",
+          "kind": "example",
+          "en": "Is there a direct train to the airport?",
+          "zh": "有沒有直達機場的火車？",
+          "zhMasked": "有沒有____機場的火車？",
+          "answer": "direct-4"
+        },
+        {
+          "id": "direct-example-5",
+          "kind": "example",
+          "en": "She gave me a very direct answer.",
+          "zh": "她給了我一個很直接的回答。",
+          "zhMasked": "她給了我一個很____的回答。",
+          "answer": "direct-5"
+        },
+        {
+          "id": "direct-passage",
+          "kind": "passage",
+          "en": "My colleague will issue your pass and direct you to Lift B.",
+          "zh": "我的同事會發給您通行證，並指引您前往 B 號升降機。",
+          "zhMasked": "我的同事會發給您通行證，並____您前往 B 號升降機。",
+          "answer": "direct-0"
+        }
+      ]
+    },
+    {
+      "id": "understand",
+      "word": "understand",
+      "baseWord": "understand",
+      "sourcePage": 10,
+      "senses": [
+        {
+          "id": "understand-0",
+          "zh": "理解；明白（意思）",
+          "sourceMeaning": "Know the meaning of something"
+        },
+        {
+          "id": "understand-1",
+          "zh": "了解；懂得（運作方法）",
+          "sourceMeaning": "Know how something works"
+        },
+        {
+          "id": "understand-2",
+          "zh": "了解情況；理解感受；體諒",
+          "sourceMeaning": "Recognize someone’s feelings or situation"
+        },
+        {
+          "id": "understand-3",
+          "zh": "據了解；聽說；得知",
+          "sourceMeaning": "Be informed or believe something is true"
+        },
+        {
+          "id": "understand-4",
+          "zh": "達成共識；彼此明白",
+          "sourceMeaning": "Reach an agreement or shared understanding"
+        }
+      ],
+      "questions": [
+        {
+          "id": "understand-example-0",
+          "kind": "example",
+          "en": "I don’t understand this question.",
+          "zh": "我不明白這個問題。",
+          "zhMasked": "我不____這個問題。",
+          "answer": "understand-0"
+        },
+        {
+          "id": "understand-example-1",
+          "kind": "example",
+          "en": "She understands how the system works.",
+          "zh": "她了解這個系統是怎樣運作的。",
+          "zhMasked": "她____這個系統是怎樣運作的。",
+          "answer": "understand-1"
+        },
+        {
+          "id": "understand-example-2",
+          "kind": "example",
+          "en": "I understand why you’re upset.",
+          "zh": "我理解你為甚麼會不高興。",
+          "zhMasked": "我____你為甚麼會不高興。",
+          "answer": "understand-2"
+        },
+        {
+          "id": "understand-example-3",
+          "kind": "example",
+          "en": "I understand that the meeting has been postponed.",
+          "zh": "我得知會議已經延期。",
+          "zhMasked": "我____會議已經延期。",
+          "answer": "understand-3"
+        },
+        {
+          "id": "understand-example-4",
+          "kind": "example",
+          "en": "We understand that the payment is due on Friday.",
+          "zh": "我們雙方都明白並同意款項應在星期五到期支付。",
+          "zhMasked": "我們雙方都____款項應在星期五到期支付。",
+          "answer": "understand-4"
+        },
+        {
+          "id": "understand-passage",
+          "kind": "passage",
+          "en": "Good afternoon. I understand it’s urgent.",
+          "zh": "下午好。我了解這件事很緊急。",
+          "zhMasked": "下午好。我____這件事很緊急。",
+          "answer": "understand-2"
+        }
+      ]
+    },
+    {
+      "id": "expecting",
+      "word": "expecting",
+      "baseWord": "expect",
+      "sourcePage": 11,
+      "senses": [
+        {
+          "id": "expecting-0",
+          "zh": "預期；預料（事情會發生）",
+          "sourceMeaning": "Think something will happen"
+        },
+        {
+          "id": "expecting-1",
+          "zh": "等候；預期某人到來",
+          "sourceMeaning": "Be waiting for someone"
+        },
+        {
+          "id": "expecting-2",
+          "zh": "要求；期望",
+          "sourceMeaning": "Require or demand something"
+        },
+        {
+          "id": "expecting-3",
+          "zh": "認為；預期（事情的樣子）",
+          "sourceMeaning": "Believe something will be a certain way"
+        },
+        {
+          "id": "expecting-4",
+          "zh": "懷孕；待產",
+          "sourceMeaning": "Be pregnant (be expecting)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "expecting-example-0",
+          "kind": "example",
+          "en": "We expect the meeting to finish at 5 p.m.",
+          "zh": "我們預計會議會在下午五點結束。",
+          "zhMasked": "我們____會議會在下午五點結束。",
+          "answer": "expecting-0"
+        },
+        {
+          "id": "expecting-example-1",
+          "kind": "example",
+          "en": "We’re expecting several visitors this afternoon.",
+          "zh": "我們今天下午預計會有幾位訪客到來。",
+          "zhMasked": "我們今天下午____幾位訪客到來。",
+          "answer": "expecting-1"
+        },
+        {
+          "id": "expecting-example-2",
+          "kind": "example",
+          "en": "The manager expects everyone to arrive on time.",
+          "zh": "經理要求／期望每個人準時到達。",
+          "zhMasked": "經理____每個人準時到達。",
+          "answer": "expecting-2"
+        },
+        {
+          "id": "expecting-example-3",
+          "kind": "example",
+          "en": "I expected the test to be more difficult.",
+          "zh": "我原本以為／預期這次考試會更難。",
+          "zhMasked": "我原本____這次考試會更難。",
+          "answer": "expecting-3"
+        },
+        {
+          "id": "expecting-example-4",
+          "kind": "example",
+          "en": "She’s expecting a baby in December.",
+          "zh": "她懷孕了，預產期在十二月。",
+          "zhMasked": "她____，時間在十二月。",
+          "answer": "expecting-4"
+        },
+        {
+          "id": "expecting-passage",
+          "kind": "passage",
+          "en": "May I ask whether Mr Cheung is expecting you today?",
+          "zh": "請問張先生今天知道您會來嗎？",
+          "zhMasked": "請問張先生今天____嗎？",
+          "answer": "expecting-1"
+        }
+      ]
+    },
+    {
+      "id": "afraid",
+      "word": "afraid",
+      "baseWord": "afraid",
+      "sourcePage": 12,
+      "senses": [
+        {
+          "id": "afraid-0",
+          "zh": "害怕；恐懼",
+          "sourceMeaning": "Feeling fear"
+        },
+        {
+          "id": "afraid-1",
+          "zh": "擔心（可能發生的事）",
+          "sourceMeaning": "Worried that something may happen"
+        },
+        {
+          "id": "afraid-2",
+          "zh": "恐怕；很抱歉（禮貌告知壞消息）",
+          "sourceMeaning": "Polite way to give bad news"
+        },
+        {
+          "id": "afraid-3",
+          "zh": "不敢；害怕去做",
+          "sourceMeaning": "Be afraid to do something"
+        }
+      ],
+      "questions": [
+        {
+          "id": "afraid-example-0",
+          "kind": "example",
+          "en": "She is afraid of dogs.",
+          "zh": "她很怕狗。",
+          "zhMasked": "她很____狗。",
+          "answer": "afraid-0"
+        },
+        {
+          "id": "afraid-example-1",
+          "kind": "example",
+          "en": "I’m afraid that we might miss the train.",
+          "zh": "我擔心我們可能會錯過火車。",
+          "zhMasked": "我____我們可能會錯過火車。",
+          "answer": "afraid-1"
+        },
+        {
+          "id": "afraid-example-2",
+          "kind": "example",
+          "en": "I’m afraid the manager is not available today.",
+          "zh": "很抱歉，經理今天不在。",
+          "zhMasked": "____，經理今天不在。",
+          "answer": "afraid-2"
+        },
+        {
+          "id": "afraid-example-3",
+          "kind": "example",
+          "en": "He was afraid to ask for help.",
+          "zh": "他不敢開口求助。",
+          "zhMasked": "他____開口求助。",
+          "answer": "afraid-3"
+        },
+        {
+          "id": "afraid-passage",
+          "kind": "passage",
+          "en": "I’m afraid I’m unable to grant access until the office confirms the visit.",
+          "zh": "恐怕在辦公室確認這次到訪之前，我無法允許您進入。",
+          "zhMasked": "____在辦公室確認這次到訪之前，我無法允許您進入。",
+          "answer": "afraid-2"
+        }
+      ]
+    },
+    {
+      "id": "grant",
+      "word": "grant",
+      "baseWord": "grant",
+      "sourcePage": 13,
+      "senses": [
+        {
+          "id": "grant-0",
+          "zh": "准許；批准",
+          "sourceMeaning": "Give permission"
+        },
+        {
+          "id": "grant-1",
+          "zh": "授予；賦予",
+          "sourceMeaning": "Give a right or privilege"
+        },
+        {
+          "id": "grant-2",
+          "zh": "補助金；撥款",
+          "sourceMeaning": "Give money for a specific purpose (noun)"
+        },
+        {
+          "id": "grant-3",
+          "zh": "承認；姑且承認",
+          "sourceMeaning": "Admit that something is true"
+        }
+      ],
+      "questions": [
+        {
+          "id": "grant-example-0",
+          "kind": "example",
+          "en": "The manager granted him permission to leave early.",
+          "zh": "經理批准他提早離開。",
+          "zhMasked": "經理____他提早離開。",
+          "answer": "grant-0"
+        },
+        {
+          "id": "grant-example-1",
+          "kind": "example",
+          "en": "The court granted her full custody of the child.",
+          "zh": "法院授予她孩子的完全監護權。",
+          "zhMasked": "法院____她孩子的完全監護權。",
+          "answer": "grant-1"
+        },
+        {
+          "id": "grant-example-2",
+          "kind": "example",
+          "en": "The university gave her a research grant.",
+          "zh": "大學給了她一筆研究補助金。",
+          "zhMasked": "大學給了她一筆研究____。",
+          "answer": "grant-2"
+        },
+        {
+          "id": "grant-example-3",
+          "kind": "example",
+          "en": "I grant that the plan is expensive, but it may still be worth it.",
+          "zh": "我承認這個計劃很昂貴，但它可能仍然值得。",
+          "zhMasked": "我____這個計劃很昂貴，但它可能仍然值得。",
+          "answer": "grant-3"
+        },
+        {
+          "id": "grant-passage",
+          "kind": "passage",
+          "en": "I’m afraid I’m unable to grant access until the office confirms the visit.",
+          "zh": "很抱歉，在辦公室確認此次到訪之前，我無法允許您進入。",
+          "zhMasked": "很抱歉，在辦公室確認此次到訪之前，我無法____您進入。",
+          "answer": "grant-0"
+        }
+      ]
+    },
+    {
+      "id": "promise",
+      "word": "promise",
+      "baseWord": "promise",
+      "sourcePage": 14,
+      "senses": [
+        {
+          "id": "promise-0",
+          "zh": "承諾；答應（將來會做的事）",
+          "sourceMeaning": "Give your word that you will do something"
+        },
+        {
+          "id": "promise-1",
+          "zh": "保證（確認某事屬實）",
+          "sourceMeaning": "Assure someone that something is true"
+        },
+        {
+          "id": "promise-2",
+          "zh": "承諾；諾言（名詞）",
+          "sourceMeaning": "A commitment or agreement (noun)"
+        },
+        {
+          "id": "promise-3",
+          "zh": "有前途；展現潛力",
+          "sourceMeaning": "Show signs of future success"
+        },
+        {
+          "id": "promise-4",
+          "zh": "預示；有望",
+          "sourceMeaning": "Suggest that something good is likely to happen"
+        }
+      ],
+      "questions": [
+        {
+          "id": "promise-example-0",
+          "kind": "example",
+          "en": "I promise I’ll call you tonight.",
+          "zh": "我答應你，今晚會打電話給你。",
+          "zhMasked": "我____你，今晚會打電話給你。",
+          "answer": "promise-0"
+        },
+        {
+          "id": "promise-example-1",
+          "kind": "example",
+          "en": "I promise I didn’t tell anyone.",
+          "zh": "我保證沒有告訴任何人。",
+          "zhMasked": "我____沒有告訴任何人。",
+          "answer": "promise-1"
+        },
+        {
+          "id": "promise-example-2",
+          "kind": "example",
+          "en": "She kept her promise to help me.",
+          "zh": "她遵守了要幫助我的承諾。",
+          "zhMasked": "她遵守了要幫助我的____。",
+          "answer": "promise-2"
+        },
+        {
+          "id": "promise-example-3",
+          "kind": "example",
+          "en": "The young player shows great promise.",
+          "zh": "這位年輕球員展現出很大的潛力。",
+          "zhMasked": "這位年輕球員____。",
+          "answer": "promise-3"
+        },
+        {
+          "id": "promise-example-4",
+          "kind": "example",
+          "en": "The weather promises to be good this weekend.",
+          "zh": "這個週末的天氣看來會很好。",
+          "zhMasked": "這個週末的天氣____很好。",
+          "answer": "promise-4"
+        },
+        {
+          "id": "promise-passage",
+          "kind": "passage",
+          "en": "It usually only takes a few minutes, but I don’t want to promise a time before I reach them.",
+          "zh": "通常只需要幾分鐘，但在我聯絡到他們之前，我不想保證一個確切的時間。",
+          "zhMasked": "通常只需要幾分鐘，但在我聯絡到他們之前，我不想____一個確切的時間。",
+          "answer": "promise-0"
+        }
+      ]
+    },
+    {
+      "id": "reach",
+      "word": "reach",
+      "baseWord": "reach",
+      "sourcePage": 15,
+      "senses": [
+        {
+          "id": "reach-0",
+          "zh": "到達；抵達",
+          "sourceMeaning": "Arrive at a place"
+        },
+        {
+          "id": "reach-1",
+          "zh": "聯絡到",
+          "sourceMeaning": "Contact someone"
+        },
+        {
+          "id": "reach-2",
+          "zh": "伸手去拿；伸向",
+          "sourceMeaning": "Stretch your hand toward something"
+        },
+        {
+          "id": "reach-3",
+          "zh": "達到",
+          "sourceMeaning": "Achieve a level, number, or goal"
+        },
+        {
+          "id": "reach-4",
+          "zh": "延伸至；伸到",
+          "sourceMeaning": "Extend as far as a place"
+        }
+      ],
+      "questions": [
+        {
+          "id": "reach-example-0",
+          "kind": "example",
+          "en": "We reached the hotel at midnight.",
+          "zh": "我們在午夜抵達酒店。",
+          "zhMasked": "我們在午夜____酒店。",
+          "answer": "reach-0"
+        },
+        {
+          "id": "reach-example-1",
+          "kind": "example",
+          "en": "I tried to call her, but I couldn’t reach her.",
+          "zh": "我試著打電話給她，但聯絡不到她。",
+          "zhMasked": "我試著打電話給她，但____她。",
+          "answer": "reach-1"
+        },
+        {
+          "id": "reach-example-2",
+          "kind": "example",
+          "en": "She reached for the glass on the table.",
+          "zh": "她伸手去拿桌上的杯子。",
+          "zhMasked": "她____桌上的杯子。",
+          "answer": "reach-2"
+        },
+        {
+          "id": "reach-example-3",
+          "kind": "example",
+          "en": "Sales reached one million dollars last year.",
+          "zh": "去年的銷售額達到一百萬美元。",
+          "zhMasked": "去年的銷售額____一百萬美元。",
+          "answer": "reach-3"
+        },
+        {
+          "id": "reach-example-4",
+          "kind": "example",
+          "en": "The road reaches the coast.",
+          "zh": "這條路一直延伸到海岸。",
+          "zhMasked": "這條路一直____海岸。",
+          "answer": "reach-4"
+        },
+        {
+          "id": "reach-passage",
+          "kind": "passage",
+          "en": "It usually only takes a few minutes, but I don’t want to promise a time before I reach them.",
+          "zh": "通常只需要幾分鐘，但在我聯絡到他們之前，我不想保證一個確切的時間。",
+          "zhMasked": "通常只需要幾分鐘，但在我____他們之前，我不想保證一個確切的時間。",
+          "answer": "reach-1"
+        }
+      ]
+    },
+    {
+      "id": "discuss",
+      "word": "discuss",
+      "baseWord": "discuss",
+      "sourcePage": 16,
+      "senses": [
+        {
+          "id": "discuss-0",
+          "zh": "討論；談論",
+          "sourceMeaning": "Talk about a topic"
+        },
+        {
+          "id": "discuss-1",
+          "zh": "商討；研究",
+          "sourceMeaning": "Consider something carefully"
+        },
+        {
+          "id": "discuss-2",
+          "zh": "論述；探討",
+          "sourceMeaning": "Write or speak about something in detail"
+        }
+      ],
+      "questions": [
+        {
+          "id": "discuss-example-0",
+          "kind": "example",
+          "en": "We need to discuss the new project.",
+          "zh": "我們需要討論這個新專案。",
+          "zhMasked": "我們需要____這個新專案。",
+          "answer": "discuss-0"
+        },
+        {
+          "id": "discuss-example-1",
+          "kind": "example",
+          "en": "The managers discussed several possible solutions.",
+          "zh": "經理們商討了幾個可能的解決方案。",
+          "zhMasked": "經理們____了幾個可能的解決方案。",
+          "answer": "discuss-1"
+        },
+        {
+          "id": "discuss-example-2",
+          "kind": "example",
+          "en": "The report discusses the causes of the problem.",
+          "zh": "這份報告探討了這個問題的成因。",
+          "zhMasked": "這份報告____了這個問題的成因。",
+          "answer": "discuss-2"
+        },
+        {
+          "id": "discuss-passage",
+          "kind": "passage",
+          "en": "I won’t discuss the nature of your visit.",
+          "zh": "我不會談論您此次來訪的性質。",
+          "zhMasked": "我不會____您此次來訪的性質。",
+          "answer": "discuss-0"
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "word": "nature",
+      "baseWord": "nature",
+      "sourcePage": 17,
+      "senses": [
+        {
+          "id": "nature-0",
+          "zh": "大自然；自然界",
+          "sourceMeaning": "The natural world"
+        },
+        {
+          "id": "nature-1",
+          "zh": "性質；本質（核心特性）",
+          "sourceMeaning": "The basic character of something"
+        },
+        {
+          "id": "nature-2",
+          "zh": "天性；性格",
+          "sourceMeaning": "Someone’s personality or character"
+        },
+        {
+          "id": "nature-3",
+          "zh": "類型；性質（種類或目的）",
+          "sourceMeaning": "Type or kind"
+        }
+      ],
+      "questions": [
+        {
+          "id": "nature-example-0",
+          "kind": "example",
+          "en": "She loves spending time in nature.",
+          "zh": "她很喜歡待在大自然中。",
+          "zhMasked": "她很喜歡待在____中。",
+          "answer": "nature-0"
+        },
+        {
+          "id": "nature-example-1",
+          "kind": "example",
+          "en": "We need to understand the nature of the problem.",
+          "zh": "我們需要了解這個問題的性質。",
+          "zhMasked": "我們需要了解這個問題的____。",
+          "answer": "nature-1"
+        },
+        {
+          "id": "nature-example-2",
+          "kind": "example",
+          "en": "He has a very calm nature.",
+          "zh": "他的性格非常沉穩。",
+          "zhMasked": "他的____非常沉穩。",
+          "answer": "nature-2"
+        },
+        {
+          "id": "nature-example-3",
+          "kind": "example",
+          "en": "The work is confidential in nature.",
+          "zh": "這項工作的性質是機密的。",
+          "zhMasked": "這項工作的____是機密的。",
+          "answer": "nature-3"
+        },
+        {
+          "id": "nature-passage",
+          "kind": "passage",
+          "en": "I won’t discuss the nature of your visit.",
+          "zh": "我不會談論您此次來訪的性質。",
+          "zhMasked": "我不會談論您此次來訪的____。",
+          "answer": "nature-3"
+        }
+      ]
+    }
+  ]
+}
