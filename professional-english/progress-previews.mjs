@@ -1,4 +1,4 @@
-import {rpc,session} from './learning-state.mjs?v=20260916-community1';
+import {rpc,session} from './learning-state.mjs?v=20260916-ui-polish1';
 export function blankTotal(dialogue,difficulty='standard'){const rate=({standard:.25,medium:.4,hard:.6,hell:.8})[difficulty]||.25;return dialogue.lines.reduce((n,line)=>n+Math.ceil(([...line.en.matchAll(/[A-Za-z]+(?:['’][A-Za-z]+)*/g)].filter(m=>m[0].replace(/[^a-z]/gi,'').length>2).length)*rate),0);}
 export function previewProgress(dialogue,draft){const valid=draft&&Number(draft.contentVersion||1)===Number(dialogue.contentVersion||1);return {value:valid?Number(draft.credited)||0:0,total:blankTotal(dialogue,draft?.difficulty||'standard')};}
 if(typeof document!=='undefined'&&document.body.dataset.professionalLibraryPage!=='true'){

@@ -1,5 +1,5 @@
-import {sourceLink,sourceLabel} from './library-core.mjs?v=20260916-community1';
-import {fontControl,record,startStudy,saveState,loadState,getCached,session,flush} from './learning-state.mjs?v=20260916-community1';
+import {sourceLink,sourceLabel} from './library-core.mjs?v=20260916-ui-polish1';
+import {fontControl,record,startStudy,saveState,loadState,getCached,session,flush} from './learning-state.mjs?v=20260916-ui-polish1';
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const lessonNumber=value=>[1,2,3].includes(Number(value))?Number(value):1;
 const lessonName=lesson=>`第${['','一','二','三'][lesson]}課`;
@@ -77,7 +77,7 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
   const draftKey=w=>`draft:poly:lesson-${lesson}:${w.id}`;
   const completeKey=w=>`draft:poly-complete:lesson-${lesson}:${w.id}`;
   const legacyCompleteKey=w=>`draft:poly-complete:${w.id}`;
-  function header(){return `<header class="pro-page-header"><a href="./">← 返回課程 · Back to course</a>${fontControl('polysemy')}<button type="button" data-poly-theme>切換日夜模式</button></header><section class="pro-page-intro"><p class="pro-eyebrow">PROFESSIONAL ENGLISH · LESSON ${lesson}</p><h1>一詞多義 (Polysemy) 練習</h1><p>閱讀語境，找出同一個字在不同句子中的意思。</p></section>`;}
+  function header(){return `<header class="pro-page-header"><a href="./"><svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 12H5m6-6-6 6 6 6"/></svg> 返回課程 · Back to course</a>${fontControl('polysemy')}<button type="button" data-poly-theme>切換日夜模式</button></header><section class="pro-page-intro"><p class="pro-eyebrow">PROFESSIONAL ENGLISH · LESSON ${lesson}</p><h1>一詞多義 (Polysemy) 練習</h1><p>閱讀語境，找出同一個字在不同句子中的意思。</p></section>`;}
   function persist(){
     if(!ownsPage()||loading||!word||!quiz||!attempt)return;
     saveState(draftKey(word),{version:1,lesson,word:word.id,attempt,quiz:quiz.snapshot(),correctAnswers:quiz.state.correctAnswers,completedAt,updatedAt:Date.now()},owner);
@@ -101,7 +101,7 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
     const done=data.words.filter(w=>progress[w.id]).length;
     page.innerHTML=header()+`<section class="poly-intro"><h2 tabindex="-1">${lessonName(lesson)} · 選擇一個詞語</h2><p>每個詞語先練習不同意思，最後回到課文原句。中文翻譯會隱去答案；答錯的題目將在下一輪再出現，直至全部答對。</p><p class="poly-progress">${done} / ${data.words.length} 個詞語已完成</p><progress class="poly-lesson-progress" max="${data.words.length}" value="${done}" aria-label="本課已完成詞語"></progress></section><div class="poly-word-grid">${data.words.map(w=>{
       const draft=getCached(draftKey(w)),resume=draft?.quiz&&!draft.quiz.complete;
-      return `<button type="button" data-poly-word="${esc(w.id)}" class="${progress[w.id]?'is-complete':''}"><strong lang="en">${esc(w.word)}</strong><span class="poly-source-label">課文首次出現：${esc(sourceLabel(w.source))}</span><span>${w.senses.length} 種意思 · ${w.questions.length} 題</span><small>${progress[w.id]?'<span class="poly-tile-check" aria-hidden="true">✓</span> 已完成 · 查看結果':resume?'繼續上次進度 →':'開始練習 →'}</small></button>`;
+      return `<button type="button" data-poly-word="${esc(w.id)}" class="${progress[w.id]?'is-complete':''}"><strong lang="en">${esc(w.word)}</strong><span class="poly-source-label">課文首次出現：${esc(sourceLabel(w.source))}</span><span>${w.senses.length} 種意思 · ${w.questions.length} 題</span><small>${progress[w.id]?'<span class="poly-tile-check" aria-hidden="true">✓</span> 已完成 · 查看結果':resume?'繼續上次進度 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>':'開始練習 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>'}</small></button>`;
     }).join('')}</div>`;
     document.title=`一詞多義練習 · ${lessonName(lesson)} | Professional English`;
   }
@@ -116,7 +116,7 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
     persist();
   }
   function completedView(){
-    page.innerHTML=header()+`<section class="poly-complete"><span class="poly-check" aria-hidden="true">✓</span><h2 tabindex="-1">${esc(word.word)} · 全部答對！</h2><p>您已完成 ${word.questions.length} 題${quiz?`，共練習 ${quiz.state.round} 輪`:''}。</p>${wordProgress()}<button type="button" data-poly-list>選擇下一個詞語 →</button><button type="button" data-poly-redo="${esc(word.id)}">再練一次</button></section>`;
+    page.innerHTML=header()+`<section class="poly-complete"><span class="poly-check" aria-hidden="true">✓</span><h2 tabindex="-1">${esc(word.word)} · 全部答對！</h2><p>您已完成 ${word.questions.length} 題${quiz?`，共練習 ${quiz.state.round} 輪`:''}。</p>${wordProgress()}<button type="button" data-poly-list>選擇下一個詞語 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button><button type="button" data-poly-redo="${esc(word.id)}">再練一次</button></section>`;
   }
   function answerFeedback(){
     const s=quiz.state;if(!s.answered)return;
@@ -129,7 +129,7 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
     const feedback=page.querySelector('.poly-feedback');feedback.classList.add(s.correct?'is-correct':'is-wrong');
     feedback.textContent=s.correct?`答對了！${s.question.zh}`:'這個意思不符合語境。綠色選項是正確答案；這題會在下一輪再出現，請再留意句子中的線索。';
     const next=page.querySelector('[data-poly-next]');next.hidden=false;
-    next.textContent=s.position+1<s.total?'下一題 →':s.missed?`重溫答錯的 ${s.missed} 題 →`:'查看結果 →';
+    next.innerHTML=s.position+1<s.total?'下一題 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>':s.missed?`重溫答錯的 ${s.missed} 題 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>`:'查看結果 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>';
     page.querySelector('[data-poly-progress-count]').textContent=`${s.correctCount} / ${s.wordTotal}`;page.querySelector('#poly-word-progress').value=s.correctCount;
   }
   function render(){
@@ -139,7 +139,7 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
     // Deterministic per question so resume does not reshuffle an answered choice.
     const seed=q.id.split('').reduce((n,c)=>((n*31)^c.charCodeAt(0))>>>0,0);
     for(let i=choices.length-1;i>0;i--){const j=(seed+i*2654435761)%(i+1);[choices[i],choices[j]]=[choices[j],choices[i]];}
-    page.innerHTML=header()+`<section class="poly-work"><div class="poly-toolbar"><button type="button" data-poly-list>← 詞語列表</button><span>第 ${s.round} 輪 · ${s.position+1} / ${s.total} 題</span></div>${wordProgress()}<div class="poly-question"><p class="pro-eyebrow">${q.kind==='passage'?'最後挑戰 · 課文原句':'意思練習 · 例句'}</p><h2 tabindex="-1" lang="en">${esc(word.word)}</h2>${sourceLink(word.source)}${q.context?`<p class="poly-context">情境：${esc(q.context)}</p>`:''}<p class="poly-sentence" lang="en">${highlightSentence(word,q.en)}</p><p class="poly-translation" lang="zh-Hant">${esc(q.zhMasked).replaceAll('____','<span class="poly-blank" aria-label="意思留空">____</span>')}</p><p class="poly-prompt" id="poly-prompt">${esc(word.word)} 在這句中是甚麼意思？</p><div class="poly-options" role="group" aria-labelledby="poly-prompt">${choices.map((sense,i)=>`<button type="button" data-poly-answer="${esc(sense.id)}" aria-pressed="false"><span aria-hidden="true">${String.fromCharCode(65+i)}</span>${esc(sense.zh)}</button>`).join('')}</div><div class="poly-feedback" role="status" aria-live="polite"></div><button type="button" class="pro-primary poly-next" data-poly-next hidden>下一題 →</button></div></section>`;
+    page.innerHTML=header()+`<section class="poly-work"><div class="poly-toolbar"><button type="button" data-poly-list><svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 12H5m6-6-6 6 6 6"/></svg> 詞語列表</button><span>第 ${s.round} 輪 · ${s.position+1} / ${s.total} 題</span></div>${wordProgress()}<div class="poly-question"><p class="pro-eyebrow">${q.kind==='passage'?'最後挑戰 · 課文原句':'意思練習 · 例句'}</p><h2 tabindex="-1" lang="en">${esc(word.word)}</h2>${sourceLink(word.source)}${q.context?`<p class="poly-context">情境：${esc(q.context)}</p>`:''}<p class="poly-sentence" lang="en">${highlightSentence(word,q.en)}</p><p class="poly-translation" lang="zh-Hant">${esc(q.zhMasked).replaceAll('____','<span class="poly-blank" aria-label="意思留空">____</span>')}</p><p class="poly-prompt" id="poly-prompt">${esc(word.word)} 在這句中是甚麼意思？</p><div class="poly-options" role="group" aria-labelledby="poly-prompt">${choices.map((sense,i)=>`<button type="button" data-poly-answer="${esc(sense.id)}" aria-pressed="false"><span aria-hidden="true">${String.fromCharCode(65+i)}</span>${esc(sense.zh)}</button>`).join('')}</div><div class="poly-feedback" role="status" aria-live="polite"></div><button type="button" class="pro-primary poly-next" data-poly-next hidden>下一題 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button></div></section>`;
     answerFeedback();document.title=`${word.word} · 一詞多義練習 · ${lessonName(lesson)} | Professional English`;
   }
   function focusHeading(){page.querySelector('.poly-question h2,.poly-complete h2,.poly-intro h2')?.focus({preventScroll:true});}
@@ -209,7 +209,7 @@ if(typeof document!=='undefined'&&document.body.dataset.professionalPolysemyPage
   async function initialise(){
     if(mounted||!document.querySelector('#root .course-section'))return;mounted=true;
     const lesson=lessonNumber(new URLSearchParams(location.search).get('lesson'));
-    try{const response=await fetch(`./content/lesson-${lesson}-polysemy.json?v=20260916-community1`);if(!response.ok)throw Error('content');mountPolysemyPage({data:await response.json(),lesson});}
+    try{const response=await fetch(`./content/lesson-${lesson}-polysemy.json?v=20260916-ui-polish1`);if(!response.ok)throw Error('content');mountPolysemyPage({data:await response.json(),lesson});}
     catch{const note=document.createElement('p');note.className='pro-page-load-error';note.textContent='練習暫時未能載入。';const retry=document.createElement('button');retry.type='button';retry.textContent='重試';retry.onclick=()=>{mounted=false;note.remove();initialise();};note.append(retry);document.body.append(note);}
   }
   new MutationObserver(initialise).observe(document.getElementById('root'),{childList:true,subtree:true});initialise();

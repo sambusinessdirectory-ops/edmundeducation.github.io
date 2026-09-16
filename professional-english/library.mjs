@@ -1,11 +1,11 @@
-import {bindLiveSearch} from './search.mjs?v=20260916-community1';
-import {materialsPage} from './reader.mjs?v=20260916-community1';
-import {feedbackPage,recordsPage} from './community.mjs?v=20260916-momentum1';
-import {session,rpc,bookmarks,saveState,getCached,savedStates,loadPreferences,fontControl} from './learning-state.mjs?v=20260916-community1';
-import {escapeHtml as esc,searchContent,sourceLabel,playlistItems} from './library-core.mjs?v=20260916-community1';
+import {bindLiveSearch} from './search.mjs?v=20260916-ui-polish1';
+import {materialsPage} from './reader.mjs?v=20260916-ui-polish1';
+import {feedbackPage,recordsPage} from './community.mjs?v=20260916-ui-polish1';
+import {session,rpc,bookmarks,saveState,getCached,savedStates,loadPreferences,fontControl} from './learning-state.mjs?v=20260916-ui-polish1';
+import {escapeHtml as esc,searchContent,sourceLabel,playlistItems} from './library-core.mjs?v=20260916-ui-polish1';
 const json=async path=>{const r=await fetch(path);if(!r.ok)throw Error('資料暫時未能載入，請重試。');return r.json();};
 const params=()=>new URLSearchParams(location.search);
-const materialPromise=()=>json('./content/lesson-materials.json?v=20260916-community1');
+const materialPromise=()=>json('./content/lesson-materials.json?v=20260916-ui-polish1');
 const link=(view,values={})=>'./library.html?'+new URLSearchParams({view,...values});
 const date=value=>new Date(value).toLocaleString('zh-HK',{dateStyle:'medium',timeStyle:'short'});
 let activePage=null,player=null,audioGeneration=0;
@@ -29,7 +29,7 @@ async function searchPage(page){
  bindLiveSearch(page.querySelector('.library-search'),page.querySelector('.library-results'),page.querySelector('[data-library-status]'),{url:true});
 }
 function bookmarkCard(item,playlist){
- return `<article class="phrase-card" data-phrase-card="${esc(item.key)}"><small>${esc(item.title)} · 第 ${Number(item.line)+1} 句</small><h3>${esc(item.word)}</h3><p>${esc(item.context)}</p><p class="phrase-chinese">${esc(item.translation)}</p><div class="phrase-actions"><button type="button" data-play-bookmark="${esc(item.key)}" aria-pressed="false">▶ 聆聽原句</button><a href="./dialogue.html?id=${encodeURIComponent(item.dialogue)}&line=${Number(item.line)}">返回對話</a>${playlist?`<button type="button" data-playlist-remove="${esc(item.key)}">移出清單</button><button type="button" data-playlist-up="${esc(item.key)}" aria-label="向上移動 ${esc(item.word)}">↑</button><button type="button" data-playlist-down="${esc(item.key)}" aria-label="向下移動 ${esc(item.word)}">↓</button>`:`<button type="button" data-remove-bookmark="${esc(item.key)}">移除書籤</button>`}</div></article>`;
+ return `<article class="phrase-card" data-phrase-card="${esc(item.key)}"><small>${esc(item.title)} · 第 ${Number(item.line)+1} 句</small><h3>${esc(item.word)}</h3><p>${esc(item.context)}</p><p class="phrase-chinese">${esc(item.translation)}</p><div class="phrase-actions"><button type="button" data-play-bookmark="${esc(item.key)}" aria-pressed="false">▶ 聆聽原句</button><a href="./dialogue.html?id=${encodeURIComponent(item.dialogue)}&line=${Number(item.line)}">返回對話</a>${playlist?`<button type="button" data-playlist-remove="${esc(item.key)}">移出清單</button><button type="button" data-playlist-up="${esc(item.key)}" aria-label="向上移動 ${esc(item.word)}"><svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></button><button type="button" data-playlist-down="${esc(item.key)}" aria-label="向下移動 ${esc(item.word)}"><svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v14m-6-6 6 6 6-6"/></svg></button>`:`<button type="button" data-remove-bookmark="${esc(item.key)}">移除書籤</button>`}</div></article>`;
 }
 async function bookmarksPage(page){
  try{await loadPreferences();}catch{notice('正在顯示此裝置的書籤，連線後會同步。');}
@@ -61,7 +61,7 @@ async function bookmarksPage(page){
  });
  render();
  // Flashcard bookmarks remain available through the existing library on the home page.
- body.insertAdjacentHTML('afterend','<p><a href="./">← 查看課程首頁的字卡書籤</a></p>');
+ body.insertAdjacentHTML('afterend','<p><a href="./"><svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 12H5m6-6-6 6 6 6"/></svg> 查看課程首頁的字卡書籤</a></p>');
 }
 async function messagesPage(page){
  const owner=session(),admin=owner?.user?.role==='admin';let draftId=crypto.randomUUID(),rows=[];
