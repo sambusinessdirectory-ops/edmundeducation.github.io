@@ -109,6 +109,15 @@ export function bookmarks(){
  const own=prefix(id)+'state:bookmark:';
  return Object.keys(localStorage).filter(k=>k.startsWith(own)).map(k=>{try{return {key:k.slice((prefix(id)+'state:').length),...JSON.parse(localStorage.getItem(k))}}catch{return null}}).filter(v=>v?.bookmarked);
 }
+export function savedStates(type){
+ const id=session()?.user?.id;if(!id)return [];const own=prefix(id)+'state:'+type+':';
+ return Object.keys(localStorage).filter(k=>k.startsWith(own)).map(k=>{try{return {key:k.slice((prefix(id)+'state:').length),...JSON.parse(localStorage.getItem(k))};}catch{return null;}}).filter(Boolean);
+}
+export async function loadPreferences(){
+ const owner=session();if(!owner)return;const values=await rpc('learning_state',{},owner);if(!sameSession(owner))return;
+ for(const [key,value]of Object.entries(values||{}))if(!read('pending:'+key))write('state:'+key,value);
+ document.dispatchEvent(new CustomEvent('professional-preferences-changed'));
+}
 export const bookmarkKey=(dialogue,word)=>`bookmark:${dialogue}:${word.toLowerCase().replace(/[^a-z]/g,'')}`;
 export function toggleWord(dialogue,word,line,account=session()?.user?.id){
  if(!account||session()?.user?.id!==account)return false;
@@ -159,7 +168,7 @@ export function subscribe(callback){
 let channelClient=null,currentOwner=null,fontScheduled=false;
 function applyFonts(){
  fontScheduled=false;document.documentElement.classList.add('learning-measure-font');
- const groups=[['home',document.querySelector('#root .workspace:not(.study-workspace)')],['flashcards',document.querySelector('.study-workspace')],['dialogue',document.querySelector('.pro-practice-page:not(.poly-page)')],['polysemy',document.querySelector('.poly-page')]];
+ const groups=[['home',document.querySelector('#root .workspace:not(.study-workspace)')],['home',document.querySelector('.library-page')],['flashcards',document.querySelector('.study-workspace')],['dialogue',document.querySelector('.pro-practice-page:not(.poly-page):not(.library-page)')],['polysemy',document.querySelector('.poly-page')]];
  for(const [area,container]of groups){
   if(!container)continue;container.style.setProperty('--learning-scale',getFont(area));
   const nodes=[...container.querySelectorAll('h1,h2,h3,h4,p,span,small,strong,label,button,a,input,select,li,div')].filter(el=>!el.closest('svg,.learning-font-control,.font-size-control,.learning-sync')&&!el.dataset.fontPx);
@@ -195,7 +204,7 @@ function onStorage(event){
  scheduleFonts();void checkAccount();notify();
 }
 if(typeof document!=='undefined'){
- window.ProfessionalLearning={record,startStudy,subscribe,rpc,getFont,setFont,bookmarks,saveState,loadState};
+ window.ProfessionalLearning={record,startStudy,subscribe,rpc,getFont,setFont,bookmarks,saveState,loadState,getCached};
  document.addEventListener('change',event=>{const area=event.target.dataset.learningFont;if(area)setFont(area,event.target.value);});
  document.addEventListener('professional-preferences-changed',scheduleFonts);
  document.addEventListener('professional-card-marked',onCardMarked);

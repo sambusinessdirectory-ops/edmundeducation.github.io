@@ -31,4 +31,10 @@ pointer('pointerdown',100,100);pointer('pointermove',180,101,100);pointer('point
 pointer('pointerdown',100,100);pointer('pointermove',190,101,100);pointer('pointerup',190,101,120);const pending=animations.at(-1);destroy();pending.resolve();await tick();assert.equal(marks.length,count,'navigation cancels pending mark');
 w.matchMedia=()=>({matches:true});destroy=attachCardSwipe(node,mark=>marks.push(mark));
 pointer('pointerdown',100,100);pointer('pointermove',190,101,100);pointer('pointerup',190,101,120);assert.equal(marks.length,count+1,'reduced motion commits without animation');assert.equal(animations.length,3);
+destroy();destroy=attachCardSwipe(node,mark=>marks.push(mark));
+function touch(type,x,y,time,id=11){const e=new w.Event(type,{bubbles:true,cancelable:true});const point={identifier:id,clientX:x,clientY:y};Object.defineProperties(e,{touches:{value:type==='touchend'||type==='touchcancel'?[]:[point]},changedTouches:{value:[point]},timeStamp:{value:time}});node.dispatchEvent(e);return e;}
+const touchStartCount=marks.length;
+touch('touchstart',180,100,0);touch('touchmove',184,108,20);touch('touchmove',115,113,170);touch('touchend',115,113,200);assert.equal(marks.at(-1),'red','small initial vertical drift does not cancel a deliberate horizontal touch swipe');
+touch('touchstart',180,100,0);touch('touchmove',245,104,170);touch('touchend',245,104,200);assert.equal(marks.at(-1),'green');assert.equal(marks.length,touchStartCount+2);
+touch('touchstart',180,100,0);touch('touchmove',184,150,170);touch('touchend',184,150,200);assert.equal(marks.length,touchStartCount+2,'touch scrolling cannot grade');
 destroy();w.close();console.log('Mobile flashcards: left/right drag and flick thresholds, vertical lock, cancel, short-drag snapback, delayed single commit, synthetic-click suppression, navigation cleanup and reduced motion passed.');

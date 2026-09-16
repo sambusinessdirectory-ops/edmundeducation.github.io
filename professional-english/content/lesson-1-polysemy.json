@@ -84,7 +84,13 @@
           "zhMasked": "我也可以確認一下您會議邀請中____的樓層嗎？",
           "answer": "listed-4"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 2,
+        "label": "2",
+        "pdf": "materials/lesson-1.pdf"
+      }
     },
     {
       "id": "says",
@@ -167,7 +173,13 @@
           "zhMasked": "上面____ 23 樓。",
           "answer": "says-1"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-1.pdf"
+      }
     },
     {
       "id": "allow",
@@ -237,7 +249,13 @@
           "zhMasked": "請____我一點時間，讓我向他們的辦公室確認您的預約。",
           "answer": "allow-2"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-1.pdf"
+      }
     },
     {
       "id": "mind",
@@ -320,7 +338,13 @@
           "zhMasked": "您____在接待區等候嗎？",
           "answer": "mind-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-1.pdf"
+      }
     },
     {
       "id": "proceed",
@@ -403,7 +427,13 @@
           "zhMasked": "請____訪客登記櫃檯。",
           "answer": "proceed-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-1.pdf"
+      }
     },
     {
       "id": "counter",
@@ -486,7 +516,13 @@
           "zhMasked": "請前往訪客登記____。",
           "answer": "counter-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-1.pdf"
+      }
     },
     {
       "id": "issue",
@@ -582,7 +618,13 @@
           "zhMasked": "我的同事會____您通行證，並指引您前往 B 號升降機。",
           "answer": "issue-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 2,
+        "label": "2",
+        "pdf": "materials/lesson-1.pdf"
+      }
     },
     {
       "id": "direct",
@@ -678,7 +720,13 @@
           "zhMasked": "我的同事會發給您通行證，並____您前往 B 號升降機。",
           "answer": "direct-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-1.pdf"
+      }
     },
     {
       "id": "understand",
@@ -761,7 +809,13 @@
           "zhMasked": "下午好。我____這件事很緊急。",
           "answer": "understand-2"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-1.pdf"
+      }
     },
     {
       "id": "expecting",
@@ -844,7 +898,13 @@
           "zhMasked": "請問張先生今天____嗎？",
           "answer": "expecting-1"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "label": "3",
+        "pdf": "materials/lesson-1.pdf"
+      }
     },
     {
       "id": "afraid",
@@ -914,7 +974,13 @@
           "zhMasked": "____在辦公室確認這次到訪之前，我無法允許您進入。",
           "answer": "afraid-2"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-1.pdf"
+      }
     },
     {
       "id": "grant",
@@ -984,7 +1050,13 @@
           "zhMasked": "很抱歉，在辦公室確認此次到訪之前，我無法____您進入。",
           "answer": "grant-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-1.pdf"
+      }
     },
     {
       "id": "promise",
@@ -1067,7 +1139,13 @@
           "zhMasked": "通常只需要幾分鐘，但在我聯絡到他們之前，我不想____一個確切的時間。",
           "answer": "promise-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "label": "3",
+        "pdf": "materials/lesson-1.pdf"
+      }
     },
     {
       "id": "reach",
@@ -1150,7 +1228,13 @@
           "zhMasked": "通常只需要幾分鐘，但在我____他們之前，我不想保證一個確切的時間。",
           "answer": "reach-1"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "label": "3",
+        "pdf": "materials/lesson-1.pdf"
+      }
     },
     {
       "id": "discuss",
@@ -1207,7 +1291,13 @@
           "zhMasked": "我不會____您此次來訪的性質。",
           "answer": "discuss-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "label": "3",
+        "pdf": "materials/lesson-1.pdf"
+      }
     },
     {
       "id": "nature",
@@ -1277,7 +1367,13 @@
           "zhMasked": "我不會談論您此次來訪的____。",
           "answer": "nature-3"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "label": "3",
+        "pdf": "materials/lesson-1.pdf"
+      }
     }
   ]
 }

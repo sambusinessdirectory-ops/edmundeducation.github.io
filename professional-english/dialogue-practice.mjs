@@ -1,4 +1,5 @@
-import {fontControl,loadState,saveState,record,startStudy,bookmarkKey,getCached,toggleWord,session} from './learning-state.mjs?v=20260916-idle1';
+import {openPhrasePicker,isPhraseMarked} from './phrase-bookmarks.mjs?v=20260916-library1';
+import {fontControl,loadState,saveState,record,startStudy,bookmarkKey,getCached,toggleWord,session} from './learning-state.mjs?v=20260916-library1';
 export const DIFFICULTIES = [
   {id:'standard',rate:.25,zh:'標準模式',en:'Standard'},
   {id:'medium',rate:.4,zh:'中等難度',en:'Medium'},
@@ -26,7 +27,7 @@ export function wordHint(word, mode) {
 }
 export function translationsText(dialogue) { return `${dialogue.titleZh}\nLesson ${dialogue.lesson} · ${dialogue.title}\n\n`+dialogue.lines.map(line=>`${roleName(line.role)}：${line.zh}`).join('\n\n'); }
 
-export function mountDialoguePage({dialogues,audioManifest,root=document.body}) {
+export function mountDialoguePage({dialogues,audioManifest,teachingHighlights={},root=document.body}) {
   const owner=session()?.user?.id,ownsPage=()=>Boolean(owner)&&session()?.user?.id===owner;
   const params=new URLSearchParams(location.search),dialogue=dialogues.find(d=>d.id===params.get('id'));
   if(!dialogue) {
@@ -108,14 +109,16 @@ export function mountDialoguePage({dialogues,audioManifest,root=document.body}) 
   function toolbar(){return `<section class="pro-playback" aria-label="對話播放控制"><div class="pro-playback-main"><button type="button" class="pro-primary" data-play-all aria-pressed="false" ${completeAudio?'':'disabled'}>▶ 播放整段 · Play all</button><button type="button" data-stop-audio>■ 停止／保留位置 · Stop</button><button type="button" data-sync-highlight aria-pressed="${highlight}">同步標示 ${highlight?'ON':'OFF'}</button><button type="button" data-show-chinese aria-pressed="${translations}">${translations?'隱藏':'顯示'}中文翻譯</button><button type="button" data-copy-chinese>複製全部中文</button></div><div class="pro-speed" role="group" aria-label="播放速度">${[.25,.5,.75,1,1.25,1.5].map(n=>`<button type="button" data-pro-speed="${n}" aria-pressed="${n===rate}">${n}×</button>`).join('')}</div>${completeAudio?'':'<p class="pro-audio-availability" role="status">部分錄音暫時未能載入，請重新整理後再試。</p>'}<p data-audio-status role="status"></p></section>`;}
   function lineMarkup(line,index,exercise){
     const blanks=blankPositions(line.en,index,difficulty.rate);
+    let offset=0;
     const content=lineTokens(line.en).map((word,i)=>{
+      const start=offset;offset+=word.length;const phraseMarked=isPhraseMarked(dialogue.id,index,start,offset);const teaching=(teachingHighlights[`${dialogue.id}:${index}`]||[]).find(r=>start<r.end&&offset>r.start&&/^#[0-9a-f]{6}$/i.test(r.colour));
       const key=`${index}:${i}`;
       if(exercise&&blanks.has(i))return `<input class="pro-gap ${credited.has(key)?'is-correct':''}" data-blank="${key}" data-answer="${esc(word)}" aria-label="第 ${index+1} 句，第 ${[...blanks].sort((a,b)=>a-b).indexOf(i)+1} 個填空" placeholder="${esc(wordHint(word,hint.id))}" value="${esc(answers.get(key)||'')}" ${credited.has(key)||draft.complete?'readonly':''} autocomplete="off" autocapitalize="off" spellcheck="false" style="--word-width:${Math.max(7,Math.min(18,word.length+2))}ch">`;
       if(!/^[A-Za-z]/.test(word))return esc(word);
       const marked=Boolean(getCached(bookmarkKey(dialogue.id,word),{}).bookmarked);
-      return `<button type="button" class="pro-word ${marked?'is-bookmarked':''}" data-bookmark-word="${esc(word)}" data-word-line="${index}" aria-pressed="${marked}" title="點擊加入或移除私人書籤">${esc(word)}</button>`;
+      return `<button type="button" class="pro-word ${marked?'is-bookmarked':''} ${phraseMarked?'is-phrase-bookmarked':''} ${teaching?'is-teaching-highlight':''}" ${teaching?`style="--teaching-highlight:${teaching.colour}"`:''} data-word-start="${start}" data-word-end="${offset}" data-bookmark-word="${esc(word)}" data-word-line="${index}" aria-pressed="${marked}" title="點擊加入或移除私人書籤">${esc(word)}</button>`;
     }).join('');
-    return `<article class="pro-turn pro-turn--${line.role.toLowerCase()}" data-dialogue-line="${index}" tabindex="0" aria-label="第 ${index+1} 句；按 Enter 播放"><header><span class="pro-role">${index+1}. ${role(line)}</span><button type="button" data-play-line="${index}" ${audioManifest[`${dialogue.id}:${index}`]?.path?'':'disabled title="這句錄音暫時未能提供"'} aria-label="播放第 ${index+1} 句" aria-pressed="false">▶</button></header><p lang="en">${content}</p><p class="pro-chinese" data-chinese lang="zh-Hant" ${translations?'':'hidden'}>${esc(line.zh)}</p></article>`;
+    return `<article class="pro-turn pro-turn--${line.role.toLowerCase()}" data-dialogue-line="${index}" tabindex="0" aria-label="第 ${index+1} 句；按 Enter 播放"><header><span class="pro-role">${index+1}. ${role(line)}</span><div class="pro-line-actions"><button type="button" data-bookmark-phrase="${index}">☆ 收藏片語</button><button type="button" data-play-line="${index}" ${audioManifest[`${dialogue.id}:${index}`]?.path?'':'disabled title="這句錄音暫時未能提供"'} aria-label="播放第 ${index+1} 句" aria-pressed="false">▶</button></div></header><p lang="en">${content}</p><p class="pro-chinese" data-chinese lang="zh-Hant" ${translations?'':'hidden'}>${esc(line.zh)}</p></article>`;
   }
   function grade(inputs,showWrong=true){
     if(!ownsPage())return;
@@ -140,7 +143,7 @@ export function mountDialoguePage({dialogues,audioManifest,root=document.body}) 
   function render(){
     if(!ownsPage())return;
     document.title=`${dialogue.titleZh} · ${view==='modes'?'選擇練習模式':view==='practice'?'填充練習':'對話學習'} | Professional English`;
-    page.innerHTML=`<header class="pro-page-header"><a href="./">← 返回課程 · Back to course</a>${fontControl('dialogue')}<button type="button" data-page-theme>${document.documentElement.classList.contains('theme-day')?'☾ 夜間模式':'☀ 日間模式'}</button></header><section class="pro-page-intro"><p class="pro-eyebrow">PROFESSIONAL ENGLISH · LESSON ${dialogue.lesson} · ${dialogue.variant==='beginner'?'BEGINNER':'PROFESSIONAL'}</p><h1>${esc(dialogue.titleZh)}</h1><p>${esc(dialogue.title)}</p><nav class="pro-step-nav" aria-label="練習步驟">${[['dialogue','01','學習對話'],['modes','02','選擇模式'],['practice','03','填充練習']].map(([step,n,text])=>`<a href="${esc(query(step))}" data-step="${step}" ${step===view?'aria-current="step"':''}>${n} ${text}</a>`).join('')}</nav></section>
+    page.innerHTML=`<header class="pro-page-header"><a href="./">← 返回課程 · Back to course</a><a href="./library.html?view=bookmarks">我的片語與清單</a>${fontControl('dialogue')}<button type="button" data-page-theme>${document.documentElement.classList.contains('theme-day')?'☾ 夜間模式':'☀ 日間模式'}</button></header><section class="pro-page-intro"><p class="pro-eyebrow">PROFESSIONAL ENGLISH · LESSON ${dialogue.lesson} · ${dialogue.variant==='beginner'?'BEGINNER':'PROFESSIONAL'}</p><h1>${esc(dialogue.titleZh)}</h1><p>${esc(dialogue.title)}</p><nav class="pro-step-nav" aria-label="練習步驟">${[['dialogue','01','學習對話'],['modes','02','選擇模式'],['practice','03','填充練習']].map(([step,n,text])=>`<a href="${esc(query(step))}" data-step="${step}" ${step===view?'aria-current="step"':''}>${n} ${text}</a>`).join('')}</nav></section>
       ${view!=='practice'&&draft.started&&!draft.complete?'<p class="pro-resume-note">您有未完成的練習。<button type="button" data-resume-attempt>繼續上次進度 →</button></p>':''}${view==='modes'?`<section class="pro-mode-intro"><h2>選擇練習模式</h2><p>選擇填空難度及字母提示。每個模式均可聆聽對話、調整速度及查看中文翻譯。</p><p><strong>16</strong> 種模式 · <strong>${dialogue.lines.length}</strong> 句對話</p></section><div class="pro-mode-groups">${DIFFICULTIES.map(d=>`<section class="pro-mode-group pro-mode-group--${d.id}"><header><h2>${d.zh}<small>${d.en} · ${Math.round(d.rate*100)}% 填空</small></h2><span>${count(d)} 題填充</span></header><div class="pro-mode-cards">${HINTS.map(h=>`<a href="${esc(query('practice',{difficulty:d.id,hints:h.id}))}" data-mode="${d.id}" data-hints="${h.id}"><strong>${h.zh}</strong><span>${h.en}</span><small>${count(d)} 題 →</small></a>`).join('')}</div></section>`).join('')}</div>`:`${toolbar()}<section class="pro-dialogue-content"><div class="pro-content-title"><h2>${view==='practice'?'填充練習':'完整對話'}</h2><p>${view==='practice'?`${difficulty.zh} · ${hint.zh} · ${count(difficulty)} 題`:'先聆聽角色對話，理解情境，再開始練習。按整行空白位置播放；按英文詞語加入書籤。'}</p></div>${view==='practice'?`<section class="learning-progress-widget"><div class="learning-progress-track" data-blank-progress role="progressbar" aria-label="本練習填空進度" aria-valuemin="0" aria-valuemax="${count(difficulty)}" aria-valuenow="${credited.size}"><span style="width:${credited.size/count(difficulty)*100}%"></span></div><p data-blank-progress-label>${credited.size} / ${count(difficulty)} 題已答對 · ${Math.round(credited.size/count(difficulty)*100)}%</p></section>`:''}${dialogue.lines.map((line,index)=>lineMarkup(line,index,view==='practice')).join('')}${view==='practice'?'<div class="pro-submit"><button class="pro-primary" type="button" data-check-answers>提交答案 · Check answers</button><p data-result-status role="status"></p><button type="button" data-retry-mistakes hidden>再試答錯的題目</button><button type="button" data-redo hidden>重新練習 · Redo</button></div>':'<button class="pro-primary pro-choose-mode" type="button" data-choose-mode>選擇練習模式 →</button>'}</section>`}`;
     page.querySelectorAll('[data-blank]').forEach(input=>input.addEventListener('input',()=>{input.classList.remove('is-wrong','is-correct');input.removeAttribute('aria-invalid');persist();}));
     page.querySelectorAll('[data-blank]').forEach(input=>input.addEventListener('change',()=>grade([input],false)));
@@ -152,6 +155,7 @@ export function mountDialoguePage({dialogues,audioManifest,root=document.body}) 
     if(!ownsPage()){event.preventDefault();stop();stopStudy();return;}
     const button=event.target.closest('button,a');
     if(!button){const row=event.target.closest('[data-dialogue-line]');if(row&&!event.target.closest('input,select,textarea')&&!window.getSelection()?.toString())void playLine(Number(row.dataset.dialogueLine));return;}
+    if(button.matches('[data-bookmark-phrase]')){openPhrasePicker(dialogue,Number(button.dataset.bookmarkPhrase),()=>{page.querySelectorAll('[data-bookmark-word]').forEach(b=>b.classList.toggle('is-phrase-bookmarked',isPhraseMarked(dialogue.id,Number(b.dataset.wordLine),Number(b.dataset.wordStart),Number(b.dataset.wordEnd))));});return;}
     if(button.matches('[data-bookmark-word]')){
       const marked=toggleWord(dialogue,button.dataset.bookmarkWord,Number(button.dataset.wordLine),owner);
       page.querySelectorAll('[data-bookmark-word]').forEach(b=>{if(bookmarkKey(dialogue.id,b.dataset.bookmarkWord)===bookmarkKey(dialogue.id,button.dataset.bookmarkWord)){b.classList.toggle('is-bookmarked',marked);b.setAttribute('aria-pressed',String(marked));}});return;
@@ -200,7 +204,7 @@ if (typeof document !== 'undefined' && document.body.dataset.professionalDialogu
   async function initialise(){
     // The existing course app authenticates the student before rendering this node.
     if(mounted||!document.querySelector('#root .course-section'))return;mounted=true;
-    try{const response=await fetch('./dialogue-audio.json?v=20260916-lessons123');if(!response.ok)throw Error('audio manifest');mountDialoguePage({dialogues:window.EDMUND_PROFESSIONAL_DIALOGUES,audioManifest:await response.json()});}
+    try{const response=await fetch('./dialogue-audio.json?v=20260916-lessons123');if(!response.ok)throw Error('audio manifest');mountDialoguePage({dialogues:window.EDMUND_PROFESSIONAL_DIALOGUES,audioManifest:await response.json(),teachingHighlights:await fetch('./content/dialogue-highlights.json?v=20260916-library1').then(r=>r.json()).catch(()=>({}))});}
     catch{const note=document.createElement('p');note.className='pro-page-load-error';note.textContent='對話未能載入。';const retry=document.createElement('button');retry.textContent='重試';retry.onclick=()=>{mounted=false;note.remove();initialise();};note.append(retry);document.body.append(note);}
   }
   new MutationObserver(initialise).observe(document.getElementById('root'),{childList:true,subtree:true});initialise();

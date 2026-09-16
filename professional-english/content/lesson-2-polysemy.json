@@ -136,7 +136,13 @@
           "zhMasked": "我可以____您到 23 樓。",
           "answer": "take-8"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 2,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-2.pdf"
+      }
     },
     {
       "id": "closer",
@@ -206,7 +212,13 @@
           "zhMasked": "可以。我可以使用這邊的升降機嗎？它們____。",
           "answer": "closer-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 2,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-2.pdf"
+      }
     },
     {
       "id": "right",
@@ -290,7 +302,13 @@
           "zhMasked": "恐怕這些不是前往 23 樓的____升降機。",
           "answer": "right-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 2,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-2.pdf"
+      }
     },
     {
       "id": "show",
@@ -373,7 +391,13 @@
           "zhMasked": "沒問題。我會____您去正確的升降機區域。",
           "answer": "show-1"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 2,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-2.pdf"
+      }
     },
     {
       "id": "receipt",
@@ -443,7 +467,13 @@
           "zhMasked": "謝謝。這張 QR ____是做甚麼用的？",
           "answer": "receipt-1"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 2,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-2.pdf"
+      }
     },
     {
       "id": "keep",
@@ -539,7 +569,13 @@
           "zhMasked": "請把這張 QR 憑證____。",
           "answer": "keep-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 2,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-2.pdf"
+      }
     },
     {
       "id": "serve",
@@ -635,7 +671,13 @@
           "zhMasked": "那些升降機不____ 23 樓。",
           "answer": "serve-2"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 2,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-2.pdf"
+      }
     },
     {
       "id": "access",
@@ -722,7 +764,13 @@
           "zhMasked": "請使用您右邊的 H 號升降機____ 23 樓。",
           "answer": "access-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 2,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-2.pdf"
+      }
     },
     {
       "id": "accompany",
@@ -792,7 +840,13 @@
           "zhMasked": "完全沒問題。我會____您前往正確的升降機區域。",
           "answer": "accompany-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 2,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-2.pdf"
+      }
     },
     {
       "id": "secured",
@@ -875,7 +929,13 @@
           "zhMasked": "當您離開時，請在地下樓層的出口閘機掃描 QR code，以離開____區域。",
           "answer": "secured-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 2,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-2.pdf"
+      }
     },
     {
       "id": "pleasure",
@@ -945,7 +1005,13 @@
           "zhMasked": "____。祝您到訪愉快。",
           "answer": "pleasure-2"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 2,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-2.pdf"
+      }
     },
     {
       "id": "closes",
@@ -1041,7 +1107,13 @@
           "zhMasked": "謝謝。辦公室通常在下午 6 點____。",
           "answer": "closes-1"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 2,
+        "page": 4,
+        "label": "4",
+        "pdf": "materials/lesson-2.pdf"
+      }
     },
     {
       "id": "send",
@@ -1137,7 +1209,13 @@
           "zhMasked": "不過，在我收到租戶確認之前，我無法____您到樓上。",
           "answer": "send-2"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 2,
+        "page": 4,
+        "label": "4",
+        "pdf": "materials/lesson-2.pdf"
+      }
     }
   ],
   "sourceNotes": [

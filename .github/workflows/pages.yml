@@ -285,6 +285,7 @@ jobs:
           node tools/test-professional-mobile-cards.mjs
           node tools/test-professional-study-clock.mjs
           node tools/test-professional-save-conflicts.mjs
+          node tools/test-professional-library.mjs
           node tools/test-writing-feedback-email.mjs
           node tools/test-schedule-manual-writing-resource.mjs
           node tools/test-portal-loading.mjs

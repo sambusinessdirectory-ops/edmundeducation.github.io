@@ -132,7 +132,13 @@
             "serious-1"
           ]
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "sorry",
@@ -215,7 +221,13 @@
           "zhMasked": "聽到這個消息我感到很____。發生了甚麼事？",
           "answer": "sorry-1"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "block",
@@ -311,7 +323,13 @@
           "zhMasked": "消防通道被____了。",
           "answer": "block-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "understand",
@@ -381,7 +399,13 @@
           "zhMasked": "我____了。請問是在幾樓、哪一道樓梯？",
           "answer": "understand-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "refuse",
@@ -451,7 +475,13 @@
           "zhMasked": "18 樓，____房旁邊的後樓梯。",
           "answer": "refuse-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "check",
@@ -547,7 +577,13 @@
           "zhMasked": "更頻密地____該區域。",
           "answer": "check-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "leave",
@@ -643,7 +679,13 @@
           "zhMasked": "有物品被____在後樓梯和走廊。",
           "answer": "leave-1"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "noticed",
@@ -713,7 +755,13 @@
           "zhMasked": "我們已經____有老鼠和蚊子。",
           "answer": "noticed-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "escalate",
@@ -783,7 +831,13 @@
           "zhMasked": "我會清楚記錄這些要求，並把它們____管理層處理。",
           "answer": "escalate-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "suite",
@@ -866,7 +920,13 @@
           "zhMasked": "1203 ____外面的接待區。",
           "answer": "suite-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "label": "2",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "off",
@@ -975,7 +1035,13 @@
           "zhMasked": "冷氣是完全____了，還是只是冷度不夠？",
           "answer": "off-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "label": "2",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "running",
@@ -1071,7 +1137,13 @@
           "zhMasked": "冷氣正在____，但這個區域仍然很熱。",
           "answer": "running-1"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "label": "2",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "reopened",
@@ -1141,7 +1213,13 @@
           "zhMasked": "我們也需要把洗手間____。",
           "answer": "reopened-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "label": "2",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "identify",
@@ -1211,7 +1289,13 @@
           "zhMasked": "您可以告訴我較熱區域的確切位置，並____是哪一個洗手間受到影響嗎？",
           "answer": "identify-1"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "label": "2",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "appears",
@@ -1281,7 +1365,13 @@
           "zhMasked": "B 升降機大堂旁邊的洗手間____已上鎖／暫停使用。",
           "answer": "appears-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "label": "2",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "out-of",
@@ -1377,7 +1467,13 @@
           "zhMasked": "B 升降機大堂旁邊的洗手間似乎已上鎖／____。",
           "answer": "out-of-2"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "label": "2",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "operating",
@@ -1460,7 +1556,13 @@
           "zhMasked": "冷氣是完全沒有____，還是有在運行但未能正常把該區域冷卻？",
           "answer": "operating-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "label": "2",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "uncomfortable",
@@ -1530,7 +1632,13 @@
           "zhMasked": "溫度仍然令人感到____。",
           "answer": "uncomfortable-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "label": "2",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "log",
@@ -1626,7 +1734,13 @@
           "zhMasked": "我會把這兩個問題分別____，並向管理層／工程團隊報告，以便跟進。",
           "answer": "log-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "label": "2",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "attend",
@@ -1696,7 +1810,13 @@
           "zhMasked": "我會請負責的團隊盡快____。",
           "answer": "attend-1"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "label": "2",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "properly",
@@ -1766,7 +1886,13 @@
           "zhMasked": "我們會議室的燈沒有____運作。",
           "answer": "properly-1"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "label": "2",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "dim",
@@ -1849,7 +1975,13 @@
           "zhMasked": "我們會議室的燈沒有正常運作，裡面非常____。",
           "answer": "dim-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 4,
+        "label": "4",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "fault",
@@ -1932,7 +2064,13 @@
           "zhMasked": "我想報告一宗緊急的照明____。",
           "answer": "fault-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 4,
+        "label": "4",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "fittings",
@@ -2059,7 +2197,13 @@
             "fittings-1"
           ]
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 4,
+        "label": "4",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "due-to",
@@ -2103,7 +2247,13 @@
           "zhMasked": "一場客戶會議____很快開始。",
           "answer": "due-to-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 4,
+        "label": "4",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "short",
@@ -2238,7 +2388,13 @@
           "zhMasked": "一場客戶會議____就要開始。",
           "answer": "short-7"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 4,
+        "label": "4",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "slip",
@@ -2334,7 +2490,13 @@
           "zhMasked": "是的。附近有一個插座，而且剛才有人差點____。",
           "answer": "slip-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 5,
+        "label": "5",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "unit",
@@ -2417,7 +2579,13 @@
           "zhMasked": "我想報告冷氣____正在滴水。",
           "answer": "unit-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "clear",
@@ -2513,7 +2681,13 @@
           "zhMasked": "目前請保持該區域____。",
           "answer": "clear-2"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "leak",
@@ -2583,7 +2757,13 @@
           "zhMasked": "我會把這個____問題報告給管理處。",
           "answer": "leak-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 5,
+        "label": "5",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "flag",
@@ -2653,7 +2833,13 @@
           "zhMasked": "我會把這宗個案____為緊急。",
           "answer": "flag-0"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 5,
+        "label": "5",
+        "pdf": "materials/lesson-3.pdf"
+      }
     },
     {
       "id": "arrange",
@@ -2736,7 +2922,13 @@
           "zhMasked": "____人員處理，確保該區域安全。",
           "answer": "arrange-1"
         }
-      ]
+      ],
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "label": "1",
+        "pdf": "materials/lesson-3.pdf"
+      }
     }
   ],
   "sourceNotes": [
