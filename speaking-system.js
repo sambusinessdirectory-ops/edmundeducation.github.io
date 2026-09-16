@@ -579,8 +579,8 @@
   let speakingWordList;
   async function initializeSpeakingWordBrush() {
     try {
-      const { createSpeakingWordList } = await import('./speaking-word-list.mjs?v=20260916-brush-fix2');
-      speakingWordList = createSpeakingWordList({ root: () => dom.content, getUser: () => state.user, getToken: () => state.authToken, rpc: learningWordRpc, notify: toast,
+      const { createSpeakingWordList } = await import('./speaking-word-list.mjs?v=20260917-brush-controls1');
+      speakingWordList = createSpeakingWordList({ root: () => dom.content, getUser: () => state.user, getToken: () => state.authToken, rpc: learningWordRpc, notify: toast, openSource: openSpeakingWordSource,
       describe({ element, phrase, range }) {
         if (state.user?.role !== "student" || state.route.view !== "exercise") return false;
         const english = element.closest(
@@ -4263,13 +4263,34 @@
     }
     navigate(route, { reset: true, skipGuard: true });
     const answerIndex = new URLSearchParams(location.search).get('answer');
-    if (answerIndex !== null && /^\d+$/.test(answerIndex)) requestAnimationFrame(() => {
+    if (answerIndex !== null && /^\d+$/.test(answerIndex)) focusSpeakingAnswer(exercise,Number(answerIndex));
+    return true;
+  }
+
+  function focusSpeakingAnswer(exercise,answerIndex) {
+    requestAnimationFrame(() => {
       const answers = dom.content.querySelectorAll('.part1-answer-message .part1-message-en,.response-card .response-en,.part3-step .part3-step-en');
-      if (Number(exercise.part) === 1) revealPart1Through(Number(answerIndex) * 2 + 1);
-      const answer = answers[Number(answerIndex)];
+      if (Number(exercise.part) === 1) revealPart1Through(answerIndex * 2 + 1);
+      const answer = answers[answerIndex];
       if (answer?.closest('[data-part3-model]')) openPart3Model(Number(answer.closest('[data-part3-model]').dataset.part3Model));
       if (answer) { answer.id = `speaking-answer-${answerIndex}`; answer.closest('details')?.setAttribute('open',''); answer.classList.add('speaking-source-focus'); answer.scrollIntoView({block:'center'}); }
     });
+  }
+
+  function openSpeakingWordSource(href) {
+    if (state.user?.role !== 'student') return false;
+    let url;try{url=new URL(href,location.href);}catch{return false;}
+    if(url.origin!==location.origin||!url.pathname.endsWith('/speaking-system.html'))return false;
+    const exerciseId=String(url.searchParams.get('exercise')||'');
+    const answerText=String(url.searchParams.get('answer')||'');
+    const exercise=allSpeakingExercises().find(item=>item.id===exerciseId);
+    if(!exercise||!/^\d+$/.test(answerText))return false;
+    const route={view:'exercise',exam:'ielts',part:Number(exercise.part),book:Number(exercise.book),exerciseIndex:Number(exercise.index)};
+    if(!routeAllowed(route))return false;
+    navigate(route,{skipGuard:true});
+    if(currentExercise()?.id!==exercise.id)return false;
+    focusSpeakingAnswer(exercise,Number(answerText));
+    history.replaceState(history.state,'',`${location.pathname}?exercise=${encodeURIComponent(exercise.id)}&answer=${Number(answerText)}#speaking-answer-${Number(answerText)}`);
     return true;
   }
 

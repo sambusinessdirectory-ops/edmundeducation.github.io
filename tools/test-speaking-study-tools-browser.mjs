@@ -20,15 +20,19 @@ try {
   localStorage.setItem(`edmund-night-return-v1:seen:student:test-student:${today}`,'1');
   window.testWords=[];
   window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:{user:{id:'test-auth'}}}})},rpc:async(name,args)=>{
-    if(name==='learning_word_set_bookmark'){const row={item_key:args.p_item_key,phrase:args.p_phrase,context_en:args.p_context_en,href:args.p_href};window.testWords=window.testWords.filter(x=>x.item_key!==row.item_key);window.testWords.push(row);return {data:[]};}
+    if(name==='learning_word_set_bookmark'){const row={item_key:args.p_item_key,phrase:args.p_phrase,exact_translation:args.p_exact_translation,context_en:args.p_context_en,context_zh:args.p_context_zh,href:args.p_href};window.testWords=window.testWords.filter(x=>x.item_key!==row.item_key);if(args.p_bookmarked)window.testWords.push(row);return {data:[]};}
     if(name==='learning_word_list_bookmarks')return {data:window.testWords};return {data:[]};
   }})};
  });
+ const dismissNightPrompt=async()=>{const answer=page.locator('[data-night-return-answer]').first();if(await answer.isVisible().catch(()=>false))await answer.click();};
  // Exercise the actual speaking brush, route and bookmark page.
  await page.goto(`${base}/speaking-system.html?exercise=ielts-part-2-book-1-exercise-01`,{waitUntil:'domcontentloaded'});
  await page.locator('[data-speaking-pen]').waitFor();await page.locator('.response-en').first().waitFor();await page.waitForTimeout(400);
- const nightReturn=page.locator('[data-night-return-answer]').first();if(await nightReturn.isVisible().catch(()=>false))await nightReturn.click();
+ await dismissNightPrompt();
  await page.locator('[data-speaking-pen]').click();
+ const brush=page.locator('.speaking-brush-toolbar'),brushTop=(await brush.boundingBox()).y;
+ assert.equal(await brush.evaluate(node=>getComputedStyle(node).position),'fixed');
+ await page.evaluate(()=>scrollTo(0,900));await page.waitForTimeout(100);assert.ok(Math.abs((await brush.boundingBox()).y-brushTop)<2);await page.evaluate(()=>scrollTo(0,0));
  // Safari/trackpad selection boundaries can settle after pointerup. Only the final
  // highlighted phrase should be saved, never the earlier partial range.
  const intendedPhrase='One advertisement that';
@@ -40,7 +44,11 @@ try {
  },intendedPhrase);
  await page.waitForTimeout(1500);
  const settledSelection=await page.evaluate(()=>({words:window.testWords,selection:getSelection()?.toString(),status:document.querySelector('.speaking-brush-toolbar [role="status"]')?.textContent,pressed:document.querySelector('[data-speaking-pen]')?.getAttribute('aria-pressed')}));
- assert.equal(settledSelection.words.length,1,JSON.stringify(settledSelection));
+ assert.equal(settledSelection.words.length,0,JSON.stringify(settledSelection));
+ assert.equal(settledSelection.selection,intendedPhrase);
+ assert.match(settledSelection.status,/尚未送出/);
+ await page.screenshot({path:`${output}/speaking-brush-confirmation.png`});
+ await page.locator('[data-speaking-save-selection]').click();await page.waitForFunction(()=>window.testWords.length===1);
  assert.equal(await page.evaluate(()=>window.testWords[0].phrase),intendedPhrase);
  assert.match(await page.locator('.speaking-brush-toolbar [role="status"]').textContent(),/已收藏/);
  await page.evaluate(()=>{window.testWords=[];});
@@ -48,12 +56,14 @@ try {
   const paragraph=document.querySelector('.response-en'),word='advertisement',start=paragraph.textContent.indexOf(word);
   const walker=document.createTreeWalker(paragraph,NodeFilter.SHOW_TEXT);let from=null,to=null,offset=0,node;while((node=walker.nextNode())){const next=offset+node.data.length;if(!from&&start+1>=offset&&start+1<=next)from={node,offset:start+1-offset};if(start+word.length-1>=offset&&start+word.length-1<=next){to={node,offset:start+word.length-1-offset};break;}offset=next;}const range=document.createRange();range.setStart(from.node,from.offset);range.setEnd(to.node,to.offset);getSelection().removeAllRanges();getSelection().addRange(range);document.dispatchEvent(new Event('selectionchange'));paragraph.dispatchEvent(new PointerEvent('pointerup',{bubbles:true}));
  });
- await page.waitForFunction(()=>window.testWords.length===1);
+ await page.locator('[data-speaking-save-selection]').waitFor();assert.equal(await page.evaluate(()=>window.testWords.length),0);
+ assert.match(await page.locator('[data-speaking-save-selection]').textContent(),/advertisement/);
+ await page.locator('[data-speaking-save-selection]').click();await page.waitForFunction(()=>window.testWords.length===1);
  assert.equal(await page.evaluate(()=>window.testWords[0].phrase),'advertisement');
  await page.evaluate(()=>{window.testWords=[];});
  for(const index of [0,1]){
   await page.evaluate(index=>{const paragraph=document.querySelectorAll('.response-en')[index];const text=paragraph.querySelector('[data-timing-index]')?.firstChild||paragraph.firstChild;const range=document.createRange();range.selectNodeContents(text);getSelection().removeAllRanges();getSelection().addRange(range);paragraph.dispatchEvent(new PointerEvent('pointerup',{bubbles:true}));},index);
-  await page.waitForFunction(n=>window.testWords.length===n,index+1);
+  await page.locator('[data-speaking-save-selection]').waitFor();await page.locator('[data-speaking-save-selection]').click();await page.waitForFunction(n=>window.testWords.length===n,index+1);
  }
  const saved=await page.evaluate(()=>window.testWords);assert.equal(saved.length,2);assert.ok(saved[1].href.includes('answer=1'));
  await page.locator('.speaking-brush-toolbar [data-go="bookmarks"]').click();await page.locator('.speaking-phrase-row').first().waitFor();
@@ -64,14 +74,16 @@ try {
  await page.mouse.move(grip.x+15,grip.y+15);await page.mouse.down();await page.mouse.move(second.x+25,second.y+second.height/2,{steps:10});await page.mouse.up();
  assert.equal(await page.locator('.speaking-phrase-row strong').first().textContent(),saved[0].phrase);
  await page.screenshot({path:`${output}/speaking-phrase-bookmarks.png`});
- const href=await page.locator('.speaking-phrase-row a').nth(1).getAttribute('href');await page.goto(href,{waitUntil:'domcontentloaded'});
- await page.locator('#speaking-answer-1').waitFor();assert.ok(await page.locator('#speaking-answer-1').isVisible());
+ await page.locator('[data-open-phrase-source="1"]').click();await page.locator('#speaking-answer-1').waitFor();assert.ok(await page.locator('#speaking-answer-1').isVisible());
+ assert.equal(await page.evaluate(()=>window.testWords.length),2);assert.ok(await page.locator('[data-view="login"]').isHidden());
+ await page.locator('.speaking-brush-toolbar [data-go="bookmarks"]').click();await page.locator('.speaking-phrase-row').first().waitFor();
+ await page.locator('[data-delete-phrase="0"]').click();await page.waitForFunction(()=>window.testWords.length===1);assert.equal(await page.locator('.speaking-phrase-row').count(),1);
  for(const [exercise,index] of [['ielts-part-1-book-1-accommodation',3],['ielts-part-3-book-1-exercise-01',5]]){
   await page.goto(`${base}/speaking-system.html?exercise=${exercise}&answer=${index}`,{waitUntil:'domcontentloaded'});
-  await page.locator(`#speaking-answer-${index}`).waitFor();assert.ok(await page.locator(`#speaking-answer-${index}`).isVisible());
+  await page.locator(`#speaking-answer-${index}`).waitFor();await dismissNightPrompt();assert.ok(await page.locator(`#speaking-answer-${index}`).isVisible());
   await page.locator('[data-speaking-pen]').click();
   await page.evaluate(index=>{const paragraph=document.querySelector(`#speaking-answer-${index}`);const text=paragraph.querySelector('[data-timing-index]')?.firstChild||paragraph.firstChild;const range=document.createRange();range.selectNodeContents(text);getSelection().removeAllRanges();getSelection().addRange(range);paragraph.dispatchEvent(new PointerEvent('pointerup',{bubbles:true}));},index);
-  await page.waitForFunction(()=>window.testWords.length===1);
+  await page.locator('[data-speaking-save-selection]').waitFor();await dismissNightPrompt();assert.equal(await page.evaluate(()=>window.testWords.length),0);await page.locator('[data-speaking-save-selection]').click();await page.waitForFunction(()=>window.testWords.length===1);
  }
  // Mount the actual checklist in each exam mode, maintaining real script and styles.
  for(const mode of ['IELTS Part 1','IELTS Part 2','IELTS Part 3','DSE Group Discussion','DSE Individual Response']){
