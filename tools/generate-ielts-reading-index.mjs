@@ -12,17 +12,11 @@ const outputPath = outputArgument >= 0 && process.argv[outputArgument + 1]
   ? path.resolve(process.cwd(), process.argv[outputArgument + 1])
   : path.join(root, "flashcards-ielts-reading-index.js");
 
-const html = await readFile(path.join(root, "flashcards.html"), "utf8");
-const assignmentStart = html.indexOf("window.EDMUND_FLASHCARD_SEED = {");
-const assignmentEnd = html.indexOf("\n  </script>", assignmentStart);
-if (assignmentStart < 0 || assignmentEnd < 0) {
-  throw new Error("Could not locate the inline flashcard seed");
-}
-
 const sandbox = { window: {} };
 vm.createContext(sandbox);
-vm.runInContext(html.slice(assignmentStart, assignmentEnd), sandbox, {
-  filename: "flashcards.html#EDMUND_FLASHCARD_SEED",
+const coreSource = await readFile(path.join(root, "flashcards-core-data.js"), "utf8");
+vm.runInContext(coreSource, sandbox, {
+  filename: "flashcards-core-data.js",
   timeout: 20_000
 });
 

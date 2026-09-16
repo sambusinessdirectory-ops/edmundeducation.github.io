@@ -131,19 +131,15 @@ function writingQuestionImages(exercise) {
 }
 
 async function flashcardResources(allFiles) {
-  const html = await readFile(path.join(root, "flashcards.html"), "utf8");
-  const assignmentStart = html.indexOf("window.EDMUND_FLASHCARD_SEED = {");
-  const assignmentEnd = html.indexOf("\n  </script>", assignmentStart);
-  if (assignmentStart < 0 || assignmentEnd < 0) throw new Error("Could not locate the inline flashcard seed");
-
   const sandbox = context();
-  vm.runInContext(html.slice(assignmentStart, assignmentEnd), sandbox, {
-    filename: "flashcards.html#EDMUND_FLASHCARD_SEED",
+  const coreSource = await readFile(path.join(root, "flashcards-core-data.js"), "utf8");
+  vm.runInContext(coreSource, sandbox, {
+    filename: "flashcards-core-data.js",
     timeout: 20_000
   });
   vm.runInContext(await readFile(path.join(root, "dse-writing-part-b-topics.js"), "utf8"), sandbox);
   const dataFiles = allFiles
-    .filter((file) => /^flashcards-.*-data\.js$/.test(file))
+    .filter((file) => file !== "flashcards-core-data.js" && /^flashcards-.*-data\.js$/.test(file))
     .sort();
   for (const file of dataFiles) {
     const source = await readFile(path.join(root, file), "utf8");
