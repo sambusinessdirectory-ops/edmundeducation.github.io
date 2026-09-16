@@ -5,7 +5,7 @@ import vm from 'node:vm';
 // Run the actual module functions in independent tab globals with shared browser
 // storage/locks. Network responses are controlled; no production account is used.
 let source=fs.readFileSync(new URL('../professional-english/learning-state.mjs',import.meta.url),'utf8');
-source=source.replace(/^import[^\n]+\n/,'').replace(/^export /gm,'');
+source=source.replace(/^import[^\n]+\n/gm,'').replace(/^export /gm,'');
 source=source.slice(0,source.indexOf("if(typeof document!=="))+'\nglobalThis.api={record,saveState,flush,checkAccount,onCardMarked,onStorage};';
 class Storage {
  getItem(key){return Object.hasOwn(this,key)?this[key]:null;}

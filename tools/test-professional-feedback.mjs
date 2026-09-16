@@ -74,7 +74,7 @@ button.click();assert.equal(button.getAttribute('aria-pressed'),'false');assert.
 mark('green');await flush();assert.equal(starts,6,'muted green marks stay silent');
 button.click();await flush();assert.equal(starts,9,'enabling sound plays a preview');
 // Exercise the actual accepted-mark function: blocked and unflipped cards must remain silent.
-w.e={id:'qa-deck'};w.t={user:{id:'qa'}};w.R={flipped:false,startedAt:1,round:1};w.Q={id:'qa'};w.Ut={current:false};w.i=()=>{};w.SL=()=>({marks:{},study:{}});w.M={marks:{}};w.ml=()=>{};
+w.e={id:'qa-deck'};w.t={user:{id:'qa'}};w.R={flipped:false,startedAt:1,round:1};w.Q={id:'qa'};w.Ut={current:false};w.i=()=>{};w.SL=()=>({marks:{},study:{}});w.M={marks:{}};w.ml=()=>{};w.studyTime=study=>study;w.studyClock={current:null};
 w.eval(app.slice(app.indexOf('function at(S)'),app.indexOf('function ni(S)')));
 w.at('green');await flush();assert.equal(starts,9);
 w.R.flipped=true;w.at('green');await flush();assert.equal(starts,12);

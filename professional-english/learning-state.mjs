@@ -1,3 +1,4 @@
+import {createStudyClock} from './study-clock.mjs';
 import {RealtimeClient} from './realtime-client.mjs';
 export const API='https://ookkxzgpdclzrrhfmvqx.supabase.co';
 export const PUBLIC_KEY='sb_publishable_0BOvquSJ_34TVHCoboQjVg_gRrggI7x';
@@ -115,16 +116,38 @@ export function toggleWord(dialogue,word,line,account=session()?.user?.id){
  saveState(key,{bookmarked:!old.bookmarked,word,dialogue:dialogue.id,title:dialogue.titleZh,line,context:dialogue.lines[line].en,translation:dialogue.lines[line].zh},account);
  return !old.bookmarked;
 }
-export function startStudy(kind,exercise){
- const owner=session()?.user?.id,attempt=crypto.randomUUID();let previous=Date.now(),activeAt=previous,pending=0,stopped=false;
- const active=()=>{activeAt=Date.now();};
- for(const event of ['pointerdown','keydown','scroll'])window.addEventListener(event,active,{passive:true});
- function sample(){const now=Date.now(),delta=Math.min(6000,Math.max(0,now-previous));previous=now;if(!document.hidden&&document.hasFocus()&&now-activeAt<120000&&session()?.user?.id===owner)pending+=delta;}
- function send(){if(pending>0&&session()?.user?.id===owner){record({kind,exercise,attempt,item:'time:'+crypto.randomUUID(),ms:Math.round(pending)},owner);pending=0;}}
- const timer=window.setInterval(()=>{sample();if(pending>=15000)send();},5000);
- const visibility=()=>{sample();send();previous=Date.now();if(!document.hidden)active();};document.addEventListener('visibilitychange',visibility);
- const stop=()=>{if(stopped)return;stopped=true;sample();send();window.clearInterval(timer);for(const event of ['pointerdown','keydown','scroll'])window.removeEventListener(event,active);document.removeEventListener('visibilitychange',visibility);window.removeEventListener('pagehide',stop);};
- window.addEventListener('pagehide',stop);return stop;
+export function startStudy(kind,exercise,{initialMs=0,onSample=()=>{},onCheckpoint=()=>{}}={}){
+ const owner=session()?.user?.id,attempt=crypto.randomUUID();
+ const owns=()=>Boolean(owner)&&session()?.user?.id===owner;
+ const visible=()=>!document.hidden&&document.hasFocus()&&owns();
+ const clock=createStudyClock({initialMs,active:visible()});
+ let previous=clock.sample().elapsedMs,pending=0,stopped=false,suspended=false;
+ function sample(){
+  if(!owns()){clock.setActive(false);return clock.sample();}
+  const value=clock.sample();pending+=Math.max(0,value.elapsedMs-previous);previous=value.elapsedMs;
+  onSample(value);return value;
+ }
+ function send(){
+  if(pending>0&&owns()){
+   // A delayed foreground tick may span several minutes; every RPC event must
+   // stay inside the server's per-event time limit.
+   while(pending>=1){const ms=Math.min(60000,Math.floor(pending));pending-=ms;record({kind,exercise,attempt,item:'time:'+crypto.randomUUID(),ms},owner);}
+   onCheckpoint(clock.sample());
+  }
+ }
+ const timer=window.setInterval(()=>{if(stopped||suspended)return;sample();if(pending>=15000)send();},1000);
+ const visibility=()=>{if(stopped)return;sample();clock.setActive(!suspended&&visible());send();};
+ const hide=()=>{if(stopped)return;sample();suspended=true;clock.setActive(false);send();};
+ const show=()=>{if(stopped)return;suspended=false;clock.setActive(visible());sample();};
+ document.addEventListener('visibilitychange',visibility);window.addEventListener('blur',visibility);window.addEventListener('focus',visibility);
+ window.addEventListener('pagehide',hide);window.addEventListener('pageshow',show);
+ const stop=()=>{
+  if(stopped)return;sample();clock.setActive(false);send();stopped=true;window.clearInterval(timer);
+  document.removeEventListener('visibilitychange',visibility);window.removeEventListener('blur',visibility);window.removeEventListener('focus',visibility);window.removeEventListener('pagehide',hide);window.removeEventListener('pageshow',show);
+ };
+ stop.progress=()=>{if(stopped||!owns())return;sample();const value=clock.progress();onSample(value);};
+ stop.snapshot=()=>stopped?clock.sample():sample();
+ sample();return stop;
 }
 export function subscribe(callback){
  let timer=null;const changed=()=>{if(!timer)timer=setTimeout(()=>{timer=null;callback();},120);};

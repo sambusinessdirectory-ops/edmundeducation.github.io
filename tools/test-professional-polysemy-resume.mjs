@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createRequire} from 'node:module';
 import {createPolysemyQuiz,mountPolysemyPage,highlightSentence} from '../professional-english/polysemy-practice.mjs';
-import {flush,getCached} from '../professional-english/learning-state.mjs';
+import {flush,getCached} from '../professional-english/learning-state.mjs?v=20260916-idle1';
 const require=createRequire(new URL('./email-qa/package.json',import.meta.url));const {JSDOM}=require('jsdom');
 const lessons=[1,2,3].map(n=>JSON.parse(fs.readFileSync(new URL(`../professional-english/content/lesson-${n}-polysemy.json`,import.meta.url),'utf8')));
 for(const data of lessons)for(const word of data.words){

@@ -1,0 +1,52 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import vm from 'node:vm';
+import {createStudyClock,STUDY_IDLE_MS} from '../professional-english/study-clock.mjs';
+let time=1000;const now=()=>time;
+const clock=createStudyClock({now});
+time+=STUDY_IDLE_MS-1;assert.deepEqual(clock.sample(),{elapsedMs:599999,paused:false});
+time++;assert.deepEqual(clock.sample(),{elapsedMs:600000,paused:true});
+time+=3600000;assert.deepEqual(clock.sample(),{elapsedMs:600000,paused:true},'an abandoned page stops at exactly ten minutes');
+clock.setActive(false);time+=60000;clock.setActive(true);time+=5000;
+assert.deepEqual(clock.sample(),{elapsedMs:600000,paused:true},'focus cannot renew an expired progress deadline');
+clock.progress();time+=1234;assert.deepEqual(clock.sample(),{elapsedMs:601234,paused:false},'advancing resumes without counting the idle gap');
+clock.setActive(false);time+=3000;assert.equal(clock.sample().elapsedMs,601234,'hidden time is excluded');
+clock.setActive(true);time+=1000;assert.equal(clock.sample().elapsedMs,602234);
+const restored=createStudyClock({now,initialMs:602234});time+=1000;assert.equal(restored.sample().elapsedMs,603234,'resume starts with saved active time, never wall-clock absence');
+// Test the actual shipped round functions: history and the next round use active time.
+const bundle=readFileSync(new URL('../professional-english/app.js',import.meta.url),'utf8');
+const pure=bundle.slice(bundle.indexOf('function xL('),bundle.indexOf('function Fo('));
+const context=vm.createContext({Date:{now},Math,Array,Number,Error});vm.runInContext(pure,context);
+let study=context.xL([{id:'one'}]);assert.equal(study.elapsedMs,0);
+time+=3600000;study={...study,elapsedMs:600000};
+const marked=context.SL(study,{},'green');assert.equal(marked.study.history[0].durationMs,600000,'completed round excludes idle wall time');
+const next=context.CL(marked.study,marked.marks);assert.equal(next.elapsedMs,0);assert.equal(next.round,2);
+console.log('Study clock: exact ten-minute cutoff, delayed ticks, hidden time, focus safety, progress resume, saved active time and flashcard round history passed.');
+// Exercise the shared browser adapter used by cards, blanks and polysemy.
+let adapterSource=readFileSync(new URL('../professional-english/learning-state.mjs',import.meta.url),'utf8').replace(/^import[^\n]+\n/gm,'').replace(/^export /gm,'');
+adapterSource=adapterSource.slice(0,adapterSource.indexOf("if(typeof document!=="))+'\nrecord=(event,owner)=>events.push({...event,owner});globalThis.start=startStudy;';
+for(const kind of ['card','blank','polysemy']){
+ let time=0,focused=true,hidden=false,owner='student-a';const callbacks=new Set(),handlers=new Map(),events=[],samples=[];
+ const listen=(type,handler)=>{if(!handlers.has(type))handlers.set(type,new Set());handlers.get(type).add(handler);};
+ const remove=(type,handler)=>handlers.get(type)?.delete(handler);
+ const dispatch=type=>{for(const handler of handlers.get(type)||[])handler({type});};
+ const tick=ms=>{time+=ms;for(const callback of callbacks)callback();};
+ const document={get hidden(){return hidden;},hasFocus:()=>focused,addEventListener:listen,removeEventListener:remove};
+ const window={addEventListener:listen,removeEventListener:remove,setInterval:cb=>{callbacks.add(cb);return cb;},clearInterval:cb=>callbacks.delete(cb)};
+ const context=vm.createContext({document,window,events,crypto,Date:{now:()=>time},Map,Math,Number,Boolean,Array,createStudyClock:options=>createStudyClock({...options,now:()=>time}),localStorage:{getItem:()=>JSON.stringify({token:'token',user:{id:owner}})}});
+ vm.runInContext(adapterSource,context);
+ const study=context.start(kind,'exercise',{onSample:s=>samples.push(s)});
+ tick(660000);assert.equal(study.snapshot().elapsedMs,600000);
+ assert.equal(events.reduce((n,e)=>n+e.ms,0),600000);assert.ok(events.every(e=>e.ms<=60000));
+ for(const type of ['pointerdown','keydown','scroll'])dispatch(type);
+ tick(60000);assert.equal(study.snapshot().elapsedMs,600000,'generic activity does not renew the deadline');
+ focused=false;dispatch('blur');focused=true;dispatch('focus');tick(1000);assert.equal(study.snapshot().elapsedMs,600000);
+ study.progress();tick(5000);assert.equal(study.snapshot().elapsedMs,605000);
+ hidden=true;dispatch('visibilitychange');tick(60000);hidden=false;dispatch('visibilitychange');tick(1000);assert.equal(study.snapshot().elapsedMs,606000);
+ dispatch('pagehide');tick(3600000);dispatch('pageshow');tick(5000);assert.deepEqual({...study.snapshot()},{elapsedMs:606000,paused:true},'BFCache return preserves an expired deadline');
+ study.progress();tick(1000);study();assert.equal(events.reduce((n,e)=>n+e.ms,0),607000);
+ study();tick(1000000);assert.equal(events.reduce((n,e)=>n+e.ms,0),607000,'cleanup is idempotent');
+ assert.equal(callbacks.size,0);assert.ok([...handlers.values()].every(set=>!set.size));
+ const previous=events.length;const other=context.start(kind,'exercise');owner='student-b';tick(15000);other.progress();other();assert.equal(events.length,previous,'account switch cannot attribute time to the next student');
+}
+console.log('Shared timer adapters: all three exercise kinds, chunked RPC limits, UI inactivity, hidden tabs, BFCache, cleanup and account isolation passed.');

@@ -1,4 +1,4 @@
-import {fontControl,record,startStudy,saveState,loadState,getCached,session,flush} from './learning-state.mjs';
+import {fontControl,record,startStudy,saveState,loadState,getCached,session,flush} from './learning-state.mjs?v=20260916-idle1';
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const lessonNumber=value=>[1,2,3].includes(Number(value))?Number(value):1;
 const lessonName=lesson=>`第${['','一','二','三'][lesson]}課`;
@@ -174,16 +174,16 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
       if(mayLeave()){persist();void openWord(button.dataset.polyWord||button.dataset.polyRedo,{redo:button.hasAttribute('data-poly-redo')});}
     }
     else if(button.matches('[data-poly-answer]')&&quiz&&!loading){
-      const correct=quiz.answer(button.dataset.polyAnswer);if(correct===null)return;
+      const correct=quiz.answer(button.dataset.polyAnswer);if(correct===null)return;stopStudy.progress?.();
       persist();answerFeedback();awardCompletion();page.querySelector('[data-poly-next]')?.focus();
       if(correct)document.dispatchEvent(new CustomEvent('professional-card-marked',{detail:{mark:'green'}}));
     }
-    else if(button.matches('[data-poly-next]')&&quiz&&!loading){if(quiz.next()){persist();render();focusHeading();}}
+    else if(button.matches('[data-poly-next]')&&quiz&&!loading){if(quiz.next()){stopStudy.progress?.();persist();render();focusHeading();}}
     else if(button.matches('[data-poly-theme]'))document.querySelector('[data-professional-theme-toggle]')?.click();
   });
   const beforeUnload=event=>{if(!unloadApproved&&unfinished()){persist();event.preventDefault();event.returnValue='';}};
-  const pageHide=()=>{persist();void flush();stopStudy();};
-  const pageShow=event=>{if(!event.persisted)return;unloadApproved=false;if(!ownsPage()){window.location.reload();return;}stopStudy();if(unfinished())stopStudy=startStudy('polysemy',`lesson-${lesson}:${word.id}`);};
+  const pageHide=()=>{persist();void flush();};
+  const pageShow=event=>{if(!event.persisted)return;unloadApproved=false;if(!ownsPage()){window.location.reload();return;}};
   const popState=()=>{
     if(!ownsPage()){stopStudy();return;}
     if(!mayLeave()){history.pushState(null,'',lastUrl);return;}

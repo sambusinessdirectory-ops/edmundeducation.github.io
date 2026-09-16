@@ -1,4 +1,4 @@
-import {fontControl,loadState,saveState,record,startStudy,bookmarkKey,getCached,toggleWord,session} from './learning-state.mjs';
+import {fontControl,loadState,saveState,record,startStudy,bookmarkKey,getCached,toggleWord,session} from './learning-state.mjs?v=20260916-idle1';
 export const DIFFICULTIES = [
   {id:'standard',rate:.25,zh:'標準模式',en:'Standard'},
   {id:'medium',rate:.4,zh:'中等難度',en:'Medium'},
@@ -119,6 +119,7 @@ export function mountDialoguePage({dialogues,audioManifest,root=document.body}) 
   }
   function grade(inputs,showWrong=true){
     if(!ownsPage())return;
+    if(inputs.some(input=>!input.readOnly&&input.value.trim()))stopStudy.progress?.();
     let newlyCorrect=0;
     for(const input of inputs){
       const key=input.dataset.blank,passed=input.value.trim().toLowerCase().replaceAll('’',"'")===input.dataset.answer.toLowerCase().replaceAll('’',"'");
@@ -176,7 +177,7 @@ export function mountDialoguePage({dialogues,audioManifest,root=document.body}) 
   });
   page.addEventListener('keydown',event=>{if(event.target.matches('[data-dialogue-line]')&&(event.key==='Enter'||event.key===' ')){event.preventDefault();void playLine(Number(event.target.dataset.dialogueLine));}});
   window.addEventListener('beforeunload',event=>{if(unfinished()){persist();event.preventDefault();event.returnValue='';}});
-  window.addEventListener('pagehide',()=>{persist();stop();stopStudy();});
+  window.addEventListener('pagehide',()=>{persist();stop();});
   window.addEventListener('popstate',async()=>{
     if(!ownsPage()){stop();stopStudy();return;}
     if(!mayLeave()){history.pushState(null,'',lastUrl);return;}

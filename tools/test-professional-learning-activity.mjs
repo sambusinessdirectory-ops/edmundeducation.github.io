@@ -128,4 +128,20 @@ await assert.rejects(activity(people[5],[{kind:'blank',exercise:'l2d2',attempt:'
 assert.equal((await activity(people[5],[{kind:'blank',exercise:'l2d2-beginner',attempt:'continued-old-beginner',item:'0:4',answer:"I'm"}])).accepted,1);
 assert.equal((await activity(people[5],[{kind:'blank',exercise:'l2d2',attempt:'new-professional',item:'0:4',answer:'My'}])).accepted,1);
 await scalar('select special_flash_logout($1) value',[people[0].token]);await assert.rejects(summary(people[0]),/sign in/);await assert.rejects(state(people[0],'font:home',2),/sign in/);
+// Hide a test account from every team series without deleting its learning data.
+const testAccount=(await action('account_save',{name:'Test3GR'})).id;
+await action('access_save',{account_id:testAccount,course_id:course,all_decks:true,deck_ids:[]});
+const testLogin=await scalar("select special_flash_login('Test3GR','') value");
+await activity(testLogin,[{...events[0],attempt:'test-account-round'}]);
+const beforeVisibility=await team(people[1]);
+assert.ok(beforeVisibility.courses[0].members.some(m=>m.account_id===testAccount));
+await db.exec(fs.readFileSync(new URL('../supabase/migrations/20260916051841_professional_team_reporting_visibility.sql',import.meta.url),'utf8'));
+const afterVisibility=await team(people[1]);
+assert.equal(afterVisibility.courses[0].total_cards,beforeVisibility.courses[0].total_cards-1);
+assert.ok(!afterVisibility.courses[0].members.some(m=>m.account_id===testAccount));
+assert.ok(!afterVisibility.courses[0].daily.some(m=>m.account_id===testAccount));
+assert.equal((await summary(testLogin)).questions,1,'personal work survives removal from team reporting');
+assert.equal((await scalar('select special_flash_library($1) value',[testLogin.token])).decks.length,1,'account remains enrolled');
+await assert.rejects(scalar('select special_flash_team_effort(null) value'),/sign in/);
+assert.equal(await scalar("select has_table_privilege('anon','special_flash_accounts','UPDATE') value"),false,'students cannot change reporting visibility');
 console.log('Passed: correct legacy totals, all three activities, 20 individual blanks, 10 simultaneous students, retry idempotence, wrong/incomplete rejection, own-account history/preferences/drafts/bookmarks, revoked sessions, RLS, data-free live notifications, 78 current catalogue rows, all 45 new polysemy words, and conservative/versioned/idempotent beginner draft migration.');await db.close();
