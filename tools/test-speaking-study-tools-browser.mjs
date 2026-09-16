@@ -51,7 +51,7 @@ try {
  }
  // Mount the actual checklist in each exam mode, maintaining real script and styles.
  for(const mode of ['IELTS Part 1','IELTS Part 2','IELTS Part 3','DSE Group Discussion','DSE Individual Response']){
-  await page.evaluate(mode=>{document.querySelector('[data-view-content]').innerHTML=`<article class="exam-practice-view ${mode.startsWith('DSE')?'dse-practice-view':''}"><header class="${mode.startsWith('DSE')?'dse-practice-header':'exam-progress-card'}">${mode}</header><section class="exam-question-card"><h1>Test question</h1></section><section class="${mode.startsWith('DSE')?'recorder-card':'exam-answer-recorder'}"></section></article>`;},mode);
+  await page.evaluate(mode=>{document.querySelector('[data-view-content]').innerHTML=`<article class="exam-practice-view ${mode.startsWith('DSE')?'dse-practice-view':''}"><header class="${mode.startsWith('DSE')?'dse-practice-header':'exam-progress-card'}">${mode}<time data-exam-elapsed-clock>00:00</time></header><section class="exam-question-card"><h1>Test question</h1></section><section class="${mode.startsWith('DSE')?'recorder-card':'exam-answer-recorder'}"></section></article>`;},mode);
   const notes=page.locator('[data-performance-notes]');await notes.fill(`Notes for ${mode}`);
   await assert.equal(await page.locator('[data-notes-status]').textContent(),'已儲存於此瀏覽器 · Saved in this browser');
   await page.locator('[data-performance-float]').click();await page.locator('[data-resize-corner=se]').waitFor();
@@ -64,7 +64,7 @@ try {
   assert.ok((await panel.boundingBox()).x<old.x);
   if(mode==='IELTS Part 1')await page.screenshot({path:`${output}/speaking-notes-floating.png`});
   await page.locator('[data-performance-float]').click();assert.equal(await panel.getAttribute('style'),'');
-  await page.evaluate(()=>{const panel=document.querySelector('[data-performance-indicator]');panel.remove();});
+  await page.evaluate(()=>{document.querySelector('[data-exam-elapsed-clock]').textContent='01:23';const panel=document.querySelector('[data-performance-indicator]');panel.remove();});
   await page.locator('[data-performance-notes]').waitFor();assert.equal(await page.locator('[data-performance-notes]').inputValue(),`Notes for ${mode}`);
  }
  // Original paper uses real assets and actual input controls.
