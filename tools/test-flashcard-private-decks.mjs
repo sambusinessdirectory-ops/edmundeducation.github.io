@@ -14,8 +14,7 @@ function between(start, end) {
 for (const match of source.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)) {
   if (match[1].trim()) new vm.Script(match[1]);
 }
-const seedScript = [...source.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)]
-  .find(match => match[1].trim().startsWith("window.EDMUND_FLASHCARD_SEED ="))[1];
+const seedScript = readFileSync(new URL("../flashcards-core-data.js", import.meta.url), "utf8");
 const seedContext = { window: {} };
 vm.runInNewContext(seedScript, seedContext);
 const seedDecks = Object.fromEntries(Object.entries(seedContext.window.EDMUND_FLASHCARD_SEED)
@@ -59,7 +58,7 @@ const harness = Function("seedDecks", "store", "attempts", `
   let openedDeck = "";
   const ensureIeltsReadingDataForDeck = async () => {};
   const ensureSupplementalFlashcardDataForDeck = async () => {};
-  const openDeckStart = id => { openedDeck = id; };
+  const openDeckStart = async id => { openedDeck = id; return true; };
   const BOOKMARK_DECK_ID = "bookmarks/private";
   const IELTS_READING_PASSAGE_1_PREFIX = "ielts/reading/passage-1";
   const IELTS_READING_PASSAGE_2_PREFIX = "ielts/reading/passage-2";
@@ -70,6 +69,17 @@ const harness = Function("seedDecks", "store", "attempts", `
   const getCardStore = () => store;
   const getAttempts = () => attempts;
   const getResetLogs = () => [];
+  const flashcardDataCatalog = {};
+  const catalogCardCount = () => 0;
+  const indexedIeltsReadingDeckIds = () => [
+    IELTS_READING_PASSAGE_1_PREFIX + "/Practice 1",
+    IELTS_READING_PASSAGE_2_PREFIX + "/Practice 1",
+    IELTS_READING_PASSAGE_3_PREFIX + "/Practice 1"
+  ];
+  const knownDeckCardCount = deckId => getDeckCards(deckId).length
+    || (deckId.startsWith(IELTS_READING_PASSAGE_1_PREFIX + "/") ? IELTS_READING_PASSAGE_1_CARD_COUNT : 0)
+    || (deckId.startsWith(IELTS_READING_PASSAGE_2_PREFIX + "/") ? IELTS_READING_PASSAGE_2_CARD_COUNT : 0)
+    || (deckId.startsWith(IELTS_READING_PASSAGE_3_PREFIX + "/") ? IELTS_READING_PASSAGE_3_CARD_COUNT : 0);
   const promotedSharedDecks = new Set();
   const getDeckFamiliarity = () => ({ green: ["0"], red: ["1"] });
   const isDeckFullyGreen = () => false;

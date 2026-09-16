@@ -6,6 +6,7 @@ import path from "node:path";
 import test from "node:test";
 import { pathToFileURL } from "node:url";
 import vm from "node:vm";
+import { loadFlashcardCoreSeed } from "./flashcard-core-seed-fixture.mjs";
 
 const root = path.resolve(import.meta.dirname, "..");
 const generator = path.join(root, "tools/generate-writing-submission-reference-data.mjs");
@@ -71,15 +72,8 @@ function writingCategory(exerciseId) {
 
 function publishedWritingFlashDeckIds() {
   const flashcardsHtml = fs.readFileSync(path.join(root, "flashcards.html"), "utf8");
-  const seedStart = flashcardsHtml.indexOf("window.EDMUND_FLASHCARD_SEED = {");
-  const seedEnd = flashcardsHtml.indexOf("\n};\n  </script>", seedStart);
-  assert.ok(seedStart >= 0 && seedEnd > seedStart, "Flash Cards inline seed must be readable");
-  const sandbox = { window: {} };
+  const sandbox = { window: { EDMUND_FLASHCARD_SEED: loadFlashcardCoreSeed() } };
   vm.createContext(sandbox);
-  vm.runInContext(flashcardsHtml.slice(seedStart, seedEnd + 3), sandbox, {
-    filename: "flashcards.html#EDMUND_FLASHCARD_SEED",
-    timeout: 30_000
-  });
   evaluateBrowserFiles(localScriptSources(
     "flashcards.html",
     /^(?:flashcards-ielts-writing(?:-.*)?|flashcards-dse-writing-part-a|flashcards-dse-practical-writing|flashcards-hkpf|flashcards-hkfsd-incident-reports)-data\.js$/

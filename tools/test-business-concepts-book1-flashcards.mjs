@@ -5,6 +5,7 @@ import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
+import { loadFlashcardCoreSeed } from "./flashcard-core-seed-fixture.mjs";
 import { fileURLToPath } from "node:url";
 import { HOMEWORK_RESOURCE_CATALOG } from "../homework-resource-catalog.mjs";
 
@@ -167,13 +168,7 @@ function expectedAudioDigest(front) {
 }
 
 
-const inlineAssignment = "window.EDMUND_FLASHCARD_SEED = ";
-const inlineStart = html.indexOf(inlineAssignment);
-const inlineEnd = html.indexOf("</script>", inlineStart);
-assert.ok(inlineStart >= 0 && inlineEnd > inlineStart, "Could not locate the inline flashcard seed");
-const inlineSeed = JSON.parse(
-  html.slice(inlineStart + inlineAssignment.length, inlineEnd).trim().replace(/;$/, "")
-);
+const inlineSeed = loadFlashcardCoreSeed();
 const sandbox = { window: { EDMUND_FLASHCARD_SEED: inlineSeed } };
 vm.createContext(sandbox);
 vm.runInContext(dataSource, sandbox, { filename: dataFile, timeout: 20_000 });

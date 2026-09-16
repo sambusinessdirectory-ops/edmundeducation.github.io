@@ -4,6 +4,7 @@ import path from "node:path";
 import test from "node:test";
 import { pathToFileURL } from "node:url";
 import vm from "node:vm";
+import { loadFlashcardCoreSeed } from "./flashcard-core-seed-fixture.mjs";
 
 const root = path.resolve(import.meta.dirname, "..");
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
@@ -24,15 +25,8 @@ function evaluate(files, sandbox = { window: {} }) {
 
 function publishedWritingFlashDecks() {
   const html = read("flashcards.html");
-  const seedStart = html.indexOf("window.EDMUND_FLASHCARD_SEED = {");
-  const seedEnd = html.indexOf("\n};\n  </script>", seedStart);
-  assert.ok(seedStart >= 0 && seedEnd > seedStart, "Flash Cards inline seed must be readable");
-  const sandbox = { window: {} };
+  const sandbox = { window: { EDMUND_FLASHCARD_SEED: loadFlashcardCoreSeed() } };
   vm.createContext(sandbox);
-  vm.runInContext(html.slice(seedStart, seedEnd + 3), sandbox, {
-    filename: "flashcards.html#EDMUND_FLASHCARD_SEED",
-    timeout: 30_000
-  });
   evaluate(localScriptSources(
     "flashcards.html",
     /^(?:flashcards-ielts-writing(?:-.*)?|flashcards-dse-writing-part-a|flashcards-hkpf|flashcards-hkfsd-incident-reports)-data\.js$/

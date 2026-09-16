@@ -157,14 +157,12 @@ const essayPortals = portalContext.window.EDMUND_ESSAY_PORTALS;
 if (!essayPortals) throw new Error("Essay portal mapper did not load");
 
 const flashcardsHtml = await readFile(path.join(root, "flashcards.html"), "utf8");
-const seedStart = flashcardsHtml.indexOf("window.EDMUND_FLASHCARD_SEED = {");
-const seedEnd = flashcardsHtml.indexOf("\n};\n  </script>", seedStart);
-if (seedStart < 0 || seedEnd <= seedStart) throw new Error("Could not locate inline Flash Cards seed");
 const flashcardContext = makeContext();
+const coreFlashcardSource = await readFile(path.join(root, "flashcards-core-data.js"), "utf8");
 vm.runInContext(
-  flashcardsHtml.slice(seedStart, seedEnd + 3),
+  coreFlashcardSource,
   flashcardContext,
-  { filename: "flashcards.html#EDMUND_FLASHCARD_SEED", timeout: 30_000 }
+  { filename: "flashcards-core-data.js", timeout: 30_000 }
 );
 const flashcardFiles = [...new Set(localScriptSources(
   flashcardsHtml,

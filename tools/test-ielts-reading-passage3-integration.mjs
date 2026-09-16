@@ -3,6 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadFlashcardCoreSeed } from "./flashcard-core-seed-fixture.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -63,8 +64,8 @@ assert(
   "IELTS Reading labels do not use Passage 3 canonical titles"
 );
 assert(
-  /function deckCardCount\(prefix\)[\s\S]*?unloadedPassage3Count[\s\S]*?IELTS_READING_PASSAGE_3_CARD_COUNT[\s\S]*?unloadedPassage1Count \+ unloadedPassage2Count \+ unloadedPassage3Count/.test(html),
-  "Aggregate card counts do not include unloaded Passage 3 cards"
+  /function deckCardCount\(prefix\)[\s\S]*?knownDeckCardCount\(prefix\)[\s\S]*?getKnownDeckIds\(\)/.test(html),
+  "Aggregate card counts do not include indexed unloaded decks"
 );
 assert(!html.includes("await ensureIeltsReadingData();"), "Search still bulk-loads every Reading passage");
 
@@ -73,16 +74,11 @@ const directLinkEnd = html.indexOf("\n    async function openRequestedFlashcardT
 assert(directLinkStart >= 0 && directLinkEnd > directLinkStart, "Homework direct-link handler is missing");
 const directLinkBlock = html.slice(directLinkStart, directLinkEnd);
 const lazyLoadPosition = directLinkBlock.indexOf("await ensureIeltsReadingDataForDeck(deckId)");
-const cardLookupPosition = directLinkBlock.indexOf("getDeckCards(deckId)");
+const deckOpenPosition = directLinkBlock.indexOf("return openDeckStart(deckId)");
 assert(lazyLoadPosition >= 0, "Homework direct links do not await deck-specific IELTS data");
-assert(cardLookupPosition > lazyLoadPosition, "Homework direct links inspect cards before Passage 3 can load");
+assert(deckOpenPosition > lazyLoadPosition, "Homework direct links open a deck before Passage 3 can load");
 
-const inlineSeedStart = html.indexOf("window.EDMUND_FLASHCARD_SEED = ");
-const inlineSeedEnd = html.indexOf(";\n  </script>", inlineSeedStart);
-assert(inlineSeedStart >= 0 && inlineSeedEnd > inlineSeedStart, "Inline flashcard seed is missing");
-const inlineSeed = JSON.parse(
-  html.slice(inlineSeedStart + "window.EDMUND_FLASHCARD_SEED = ".length, inlineSeedEnd)
-);
+const inlineSeed = loadFlashcardCoreSeed();
 assert(
   inlineSeed["ielts/reading/passage-3/Practice 1"]?.length === 279,
   "Existing Passage 3 Practice 1 changed unexpectedly"

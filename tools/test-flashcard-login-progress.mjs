@@ -2,15 +2,20 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 const html = readFileSync(new URL('../flashcards.html', import.meta.url), 'utf8');
+assert.ok(Buffer.byteLength(html) < 1_000_000, 'Login HTML must stay below 1 MB');
+assert.match(html, /<template data-flashcard-lazy-bundles>/, 'Card bundles must be deferred until a deck is selected');
+assert.match(html, /<template data-flashcard-lazy-audio>/, 'Audio manifests must be deferred until speech is requested');
 const start = html.indexOf('// Guard the form before lesson downloads');
 assert.ok(start > 0);
 const script = html.slice(start, html.indexOf('</script>', start));
 const resourceSources = JSON.parse(script.match(/const resourceSources = (\[.*\]);/)[1]);
-const dependencyBlock = html.slice(html.indexOf('<script src="https://cdn.jsdelivr.net/npm/@supabase'), html.indexOf('    const ADMIN_NAME'));
+const dependencyBlock = html.slice(html.indexOf('<script src="https://cdn.jsdelivr.net/npm/@supabase'), html.indexOf('    const ADMIN_NAME'))
+  .replace(/<template[\s\S]*?<\/template>/g, "");
 const actualResources = [...dependencyBlock.matchAll(/<script src="([^"]+)"/g)].map(match => match[1]);
 assert.deepEqual(resourceSources, actualResources, 'Progress must follow the actual dependency list without changing script tags');
+assert.ok(!resourceSources.some(source => /flashcards-core-data|flashcards-audio-manifest|business-concepts-book1-data/.test(source)), 'Startup must not fetch deferred card or audio bundles');
 const markedResources = actualResources.length;
-assert.equal(Number(script.match(/45 \* resources \/ (\d+)/)[1]), markedResources, 'Resource progress must match the actual downloads');
+assert.match(script, /45 \* resources \/ Math\.max\(1, resourceSources\.length\)/, 'Progress must use the actual startup-resource total');
 assert.ok(html.indexOf('onsubmit="return false"') < start);
 assert.ok(start < html.indexOf('<script src="https://cdn.jsdelivr.net/npm/@supabase'));
 

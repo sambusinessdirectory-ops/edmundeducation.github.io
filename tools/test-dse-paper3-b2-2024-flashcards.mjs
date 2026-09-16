@@ -43,13 +43,14 @@ for (const [index, card] of cards.entries()) {
   }
 }
 
-const inlineSeedEnd = html.indexOf("</script>", html.indexOf("window.EDMUND_FLASHCARD_SEED = {"));
+const catalogScript = html.indexOf('<script src="flashcards-data-catalog.js?v=20260916-lazy1"></script>');
+const lazyTemplate = html.indexOf('<template data-flashcard-lazy-bundles>');
 const dataScript = html.indexOf(
   '<script src="flashcards-dse-paper3-b2-2024-data.js?v=20260725-1"></script>'
 );
-const appSeedRead = html.indexOf("const seedDecks = window.EDMUND_FLASHCARD_SEED || {};");
-assert.ok(inlineSeedEnd !== -1 && inlineSeedEnd < dataScript);
-assert.ok(dataScript < appSeedRead);
+const appSeedRead = html.indexOf("const seedDecks = window.EDMUND_FLASHCARD_SEED = window.EDMUND_FLASHCARD_SEED || {};");
+assert.ok(catalogScript !== -1 && catalogScript < lazyTemplate);
+assert.ok(lazyTemplate < dataScript && dataScript < appSeedRead);
 assert.match(html, /const dseYears = \[[^\]]*"2024"/);
 assert.match(
   html,

@@ -4,6 +4,7 @@ import fs from "node:fs";
 import crypto from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadFlashcardCoreSeed } from "./flashcard-core-seed-fixture.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataOnly = process.argv.includes("--data-only");
@@ -104,7 +105,7 @@ assert(!html.includes("function ensureIeltsReadingData()"), "IELTS Reading must 
 assert(html.includes('<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260908-sunny-s3-1"></script>'), "Flashcard audio cache key is stale");
 assert(html.includes("ieltsReadingPracticesForPassage(passage)"), "IELTS Reading chooser is not using passage-specific decks");
 assert(html.includes("ieltsReadingPracticeLabel(passage, practice)"), "IELTS Reading chooser is not rendering passage titles");
-const inlineSeed = parseAssignment(html, "window.EDMUND_FLASHCARD_SEED = ", ";\n  </script>");
+const inlineSeed = loadFlashcardCoreSeed();
 assert(inlineSeed["ielts/reading/passage-1/Practice 1"]?.length === 140, "Existing Practice 1 changed unexpectedly");
 
 let audioResult = { checked: false };

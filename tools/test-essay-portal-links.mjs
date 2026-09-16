@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
+import { loadFlashcardCoreSeed } from "./flashcard-core-seed-fixture.mjs";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -74,12 +75,8 @@ for (const essay of task2Essays) {
 }
 
 const flashHtml = read("flashcards.html");
-const seedStart = flashHtml.indexOf("window.EDMUND_FLASHCARD_SEED = {");
-const seedEnd = flashHtml.indexOf("\n};\n  </script>", seedStart);
-assert.ok(seedStart >= 0 && seedEnd > seedStart, "Inline Flash Cards seed not found");
-const seedContext = { window: {} };
+const seedContext = { window: { EDMUND_FLASHCARD_SEED: loadFlashcardCoreSeed() } };
 vm.createContext(seedContext);
-vm.runInContext(flashHtml.slice(seedStart, seedEnd + 3), seedContext, { filename: "flashcards-inline-seed.js" });
 for (const file of [
   "flashcards-ielts-writing-task1-data.js",
   "flashcards-ielts-writing-advantage-cause-direct-data.js",
