@@ -1,11 +1,12 @@
-import { openOriginalPaper, restoreOriginalAnswers, saveOriginalAnswers } from './dse-listening-original-paper.mjs?v=20260916-crisp1';
+import { restoreOriginalAnswers, saveOriginalAnswers } from './dse-listening-original-paper.mjs?v=20260916-default1';
+import { render2016DigitalPaper } from './dse-listening-2016-paper-layout.mjs?v=20260916-default1';
 import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-phoebe2';
 import { createListeningTrophyProgress } from './listening-trophy-progress.mjs?v=20260915-companions1';
 import { mountFloatingWindow } from './floating-window.mjs?v=20260911';
 import { mountListeningTypes } from './listening-question-types.mjs?v=20260911';
 import { createListeningStudy } from './listening-study.js?v=20260904-guide1';
 import { safeBookmarkHref } from './listening-study-core.mjs?v=20260904-guide1';
-import { createDseStudy, getDseGuide, hasDseGuide, loadDseGuide, dseGuideFailed, dseAnswerReplayStart } from './dse-listening-study.mjs?v=20260904-archiveguides1';
+import { createDseStudy, getDseGuide, hasDseGuide, loadDseGuide, dseGuideFailed, dseAnswerReplayStart } from './dse-listening-study.mjs?v=20260916-digital-default1';
 import { loadPractice } from './listening-practice-loader.mjs?v=20260827-import1';
 import { answerTokens, nativeBlock, questionNumbers, handleNativeInput, handleMazeClick } from './dse-listening-question-ui.mjs?v=20260904-nativequestions1';
 import { mountListeningSearch } from './listening-search.mjs?v=20260904-archiveguides1';
@@ -56,6 +57,9 @@ const state = {
   dseSort: restorePreference("edmund-listening-dse-sort", "desc") === "asc" ? "asc" : "desc",
   dseYear: 0,
   dseTask: 1,
+  dse2016Layout: "digital",
+  dse2016Page: 3,
+  dse2016Zoom: 1,
   dseAnswers: new Map()
 };
 
@@ -533,6 +537,88 @@ function updateDseProgress() {
   if (copy) copy.textContent = `${answered} / ${all.length} 題已填寫 · ${percent}%`;
 }
 
+const DSE_2016_TASK_PAGES = Object.freeze({1: [3], 2: [4], 3: [5, 6], 4: [7, 8]});
+
+function render2016PaperWorkspace(task) {
+  const guideReady = Boolean(getDseGuide(2016));
+  const options = [
+    [1, '封面'], [2, '說明'], [3, 'Task 1'], [4, 'Task 2'],
+    [5, 'Task 3 · 1'], [6, 'Task 3 · 2'], [7, 'Task 4 · 1'], [8, 'Task 4 · 2']
+  ];
+  return `<section class="dse-digital-paper-frame" aria-label="2016 DSE 數碼原卷作答">
+    <header class="dse-digital-paper-toolbar">
+      <div><strong>2016 DSE · 數碼原卷作答</strong><small>預設作答版面 · Default view</small></div>
+      <label>頁面<select data-dse-paper-page>${options.map(([number, label]) => `<option value="${number}"${number === state.dse2016Page ? ' selected' : ''}>${label}</option>`).join('')}</select></label>
+      <label>大小<select data-dse-paper-zoom>${[1, 1.25, 1.5, 2].map(zoom => `<option value="${zoom}"${zoom === state.dse2016Zoom ? ' selected' : ''}>${Math.round(zoom * 100)}%</option>`).join('')}</select></label>
+      <button class="primary-button" type="button" data-check-dse-task${guideReady ? '' : ' disabled'}>檢查 Task ${task.number} 答案</button>
+      <button class="secondary-button" type="button" data-toggle-dse-layout>選用自訂練習版 · Optional</button>
+    </header>
+    <p class="dse-digital-paper-help">直接在原卷版面輸入答案。每個文字答案旁可填寫 POS 詞性預測；下方可逐題查看答案、解析及錄音位置。</p>
+    <output class="dse-digital-paper-score" data-dse-paper-score hidden></output>
+    <div class="dse-digital-paper-scroll"><div class="original-paper-pages dse-paper-sheet dse-digital-paper-pages" style="--paper-zoom:${state.dse2016Zoom}">${render2016DigitalPaper(state.dseAnswers)}</div></div>
+    <section class="dse-digital-answer-panel" aria-labelledby="dse-digital-answer-title">
+      <div><p class="eyebrow">STUDY TOOLS</p><h3 id="dse-digital-answer-title">Task ${task.number} 答案與解析</h3><p>先按「檢查答案」，或逐題顯示參考答案並打開解析。</p></div>
+      <div class="dse-digital-answer-dock" data-dse-digital-answer-dock></div>
+    </section>
+  </section>`;
+}
+
+function mount2016PaperWorkspace() {
+  const frame = elements.dseWorkspace?.querySelector('.dse-digital-paper-frame');
+  if (!frame) return;
+  const scroll = frame.querySelector('.dse-digital-paper-scroll');
+  const pages = frame.querySelector('.original-paper-pages');
+  const pageSelect = frame.querySelector('[data-dse-paper-page]');
+  const zoomSelect = frame.querySelector('[data-dse-paper-zoom]');
+  const goToPage = (behavior = 'auto') => {
+    const page = frame.querySelector(`#original-paper-${state.dse2016Page}`);
+    if (page) scroll.scrollTo({top: Math.max(0, page.offsetTop - 12), behavior});
+  };
+  pageSelect.onchange = () => {
+    state.dse2016Page = Number(pageSelect.value) || 3;
+    const pageTask = ({3: 1, 4: 2, 5: 3, 6: 3, 7: 4, 8: 4})[state.dse2016Page];
+    if (pageTask && pageTask !== state.dseTask) {
+      updateRoute('dse', 0, 0, 2016, pageTask);
+      renderDseTask(pageTask);
+      return;
+    }
+    goToPage('smooth');
+  };
+  zoomSelect.onchange = () => {
+    state.dse2016Zoom = [1, 1.25, 1.5, 2].includes(Number(zoomSelect.value)) ? Number(zoomSelect.value) : 1;
+    pages.style.setProperty('--paper-zoom', state.dse2016Zoom);
+    requestAnimationFrame(() => goToPage());
+  };
+  requestAnimationFrame(() => goToPage());
+}
+
+function dse2016AnswerIsCorrect(number, actual, expected) {
+  const value = String(actual || '').trim();
+  if (!value) return false;
+  if ([10, 11, 12].includes(number)) return ({A: 'yes', B: 'no'})[value] === normaliseAnswer(expected);
+  if (number === 40) return value.split(',').sort().join(',') === 'A,B';
+  if (number === 47) return value === 'C';
+  return String(expected || '').split(/\s+\/\s+/).some(answer => normaliseAnswer(answer) === normaliseAnswer(value));
+}
+
+function checkDseTaskAnswers() {
+  const guide = getDseGuide(state.dseYear);
+  if (!guide) return showToast('答案及解析仍在載入，請稍後再試。');
+  const entries = Object.entries(guide.analysis).filter(([, row]) => row.task === state.dseTask);
+  let correct = 0;
+  for (const [key, row] of entries) {
+    const number = Number(key), ok = dse2016AnswerIsCorrect(number, state.dseAnswers.get(number), row.answer);
+    if (ok) correct += 1;
+    elements.dseWorkspace.querySelectorAll(`[data-dse-answer-q="${number}"]`).forEach(input => {
+      input.dataset.state = ok ? 'correct' : 'wrong';
+      input.closest('.digital-paper-answer,.digital-paper-choices')?.setAttribute('data-state', ok ? 'correct' : 'wrong');
+    });
+  }
+  const score = elements.dseWorkspace.querySelector('[data-dse-paper-score]');
+  if (score) { score.hidden = false; score.textContent = `Task ${state.dseTask}：${correct} / ${entries.length} 題正確。可在下方逐題查看答案與解析。`; }
+  showToast(`Task ${state.dseTask}：${correct} / ${entries.length} 題正確。`);
+}
+
 function renderDseTranscript(taskNumber) {
   if (getDseGuide(state.dseYear)) return dseStudy.renderTranscript(state.dseYear, taskNumber);
   const rows = DSE_CONTENT.get(state.dseYear)?.transcript?.partA?.[taskNumber] || [];
@@ -580,12 +666,18 @@ function renderDseTask(taskNumber) {
   elements.dseWorkspace.querySelectorAll("[data-dse-task-tab]").forEach((button) => button.setAttribute("aria-selected", String(Number(button.dataset.dseTaskTab) === task.number)));
   const track = state.dseTracks.get(`${state.dseYear}:part-a:${task.number}`);
   const host = elements.dseWorkspace.querySelector("[data-dse-task-host]");
+  const digital2016 = state.dseYear === 2016 && state.dse2016Layout === 'digital';
+  if (digital2016 && !(DSE_2016_TASK_PAGES[task.number] || []).includes(state.dse2016Page)) state.dse2016Page = DSE_2016_TASK_PAGES[task.number][0];
+  const questionArea = digital2016
+    ? render2016PaperWorkspace(task)
+    : `${state.dseYear === 2016 ? '<p class="dse-layout-switch"><button class="secondary-button" type="button" data-toggle-dse-layout>📄 返回數碼原卷 · Digital paper</button><span>目前使用選用的自訂練習版。</span></p>' : ''}<div class="dse-paper-sheet">${task.blocks.map(renderDseBlock).join("")}</div>`;
   host.innerHTML = `<article class="dse-task"><header class="dse-task__head"><div><p class="eyebrow">TASK ${task.number} · ${task.marks} MARKS</p><h2>${escapeHtml(task.title)}</h2><p>${escapeHtml(task.instruction)}</p></div></header>
     <section class="dse-task-audio"><div><strong>Task ${task.number} 錄音</strong><small>${track ? "已按題冊 Task 精準分段" : "錄音暫時未能載入"}</small></div>${track ? `<audio controls preload="metadata" data-dse-audio-task="${task.number}" src="${escapeHtml(track.url)}">您的瀏覽器不支援音訊播放器。</audio><label>播放速度<select data-dse-speed>${SPEEDS.map((speed) => `<option value="${speed}"${speed === state.speed ? " selected" : ""}>${speed}×</option>`).join("")}</select></label>` : ""}</section>
-    ${state.dseYear === 2016 ? '<p><button class="secondary-button" type="button" data-open-original-paper>📄 數碼原卷 · Digitised paper</button></p>' : ''}<div class="dse-paper-sheet">${task.blocks.map(renderDseBlock).join("")}</div>
+    ${questionArea}
     ${getDseGuide(state.dseYear) ? dseStudy.renderAnalysis(state.dseYear, task.number) : hasDseGuide(state.dseYear) ? `<aside class="dse-no-analysis" role="status">${dseGuideFailed(state.dseYear) ? '<strong>題解書暫時未能載入</strong><button type="button" class="secondary-button" data-dse-retry-guide>重新載入答案及雙語錄音稿</button>' : '<strong>正在載入答案、解析及雙語錄音稿…</strong>'}</aside>` : '<aside class="dse-no-analysis"><strong>答案與解析尚未加入</strong><span>目前可完成題目、播放分段錄音及閱讀角色錄音稿；系統不會顯示或猜測答案。</span></aside>'}
     ${renderDseTranscript(task.number)}</article>`;
   dseStudy.mount(host, state.dseYear, task.number);
+  if (digital2016) mount2016PaperWorkspace();
   bindDseTranscriptSync(task.number);
   setFloatingAudioPart(task.number);
   updateDseProgress();
@@ -617,6 +709,10 @@ function openDseYear(year, task = 1, options = {}) {
   if (state.dseYear !== selectedYear) { state.dseAnswers.clear(); if (selectedYear === 2016) restoreOriginalAnswers(state.user?.id, state.dseAnswers); }
   state.dseYear = selectedYear;
   state.dseTask = Number(task) >= 1 && Number(task) <= 4 ? Number(task) : 1;
+  if (selectedYear === 2016) {
+    state.dse2016Layout = 'digital';
+    state.dse2016Page = DSE_2016_TASK_PAGES[state.dseTask][0];
+  }
   if (options.update !== false) updateRoute("dse", 0, 0, selectedYear, state.dseTask);
   elements.dseYearGrid.hidden = true;
   elements.dseWorkspace.hidden = false;
@@ -1170,9 +1266,16 @@ document.addEventListener("click", (event) => {
   else if (button.matches("[data-dse-retry-guide]")) void ensureDseGuide(state.dseYear);
   else if (button.matches("[data-dse-task-tab]")) {
     const task = Number(button.dataset.dseTaskTab);
+    if (state.dseYear === 2016 && state.dse2016Layout === 'digital') state.dse2016Page = DSE_2016_TASK_PAGES[task][0];
     updateRoute("dse", 0, 0, state.dseYear, task);
     renderDseTask(task);
   }
+  else if (button.matches('[data-toggle-dse-layout]') && state.dseYear === 2016) {
+    state.dse2016Layout = state.dse2016Layout === 'digital' ? 'custom' : 'digital';
+    if (state.dse2016Layout === 'digital') state.dse2016Page = DSE_2016_TASK_PAGES[state.dseTask][0];
+    renderDseTask(state.dseTask);
+  }
+  else if (button.matches('[data-check-dse-task]') && state.dseYear === 2016) checkDseTaskAnswers();
   else if (button.matches("[data-part-tab]")) renderPracticePart(Number(button.dataset.partTab));
   else if (button.matches("[data-toggle-translation]")) {
     const showing = button.getAttribute("aria-pressed") !== "true";
@@ -1262,6 +1365,12 @@ document.addEventListener("input", (event) => {
       value = event.target.checked ? event.target.value : state.dseAnswers.get(number) || "";
     } else value = event.target.value;
     state.dseAnswers.set(number, value);
+    elements.dseWorkspace.querySelectorAll(`[data-dse-answer-q="${number}"]`).forEach(input => {
+      delete input.dataset.state;
+      input.closest('.digital-paper-answer,.digital-paper-choices')?.removeAttribute('data-state');
+    });
+    const score = elements.dseWorkspace.querySelector('[data-dse-paper-score]');
+    if (score) score.hidden = true;
     if (state.dseYear === 2016 && !saveOriginalAnswers(state.user?.id,state.dseAnswers)) showToast("答案未能儲存於此瀏覽器；請保留此頁。");
     updateDseProgress();
     return;
@@ -1307,13 +1416,3 @@ for (const selector of ['[data-row-player]', '[data-floating-audio]']) {
   const panel = document.querySelector(selector);
   mountFloatingWindow(panel, { dragHandle:panel?.querySelector('div'), minHeight:180 });
 }
-
-document.addEventListener('click', event => {
-  if (!event.target.closest('[data-open-original-paper]') || state.dseYear !== 2016) return;
-  void openOriginalPaper({ answers:state.dseAnswers, owner:state.user?.id, task:state.dseTask, audio:elements.dseWorkspace.querySelector('[data-dse-audio-task]'), onAnswer(q,value) {
-    elements.dseWorkspace.querySelectorAll(`[data-dse-answer-q="${q}"]`).forEach(input => {
-      if (['radio','checkbox'].includes(input.type)) input.checked = value.split(',').includes(input.value); else input.value = value;
-    });
-    updateDseProgress();
-  }});
-});

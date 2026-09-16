@@ -70,21 +70,32 @@ export function createDseStudy({state, escapeHtml: esc, playCue = () => {}}) {
     const dialog = host.querySelector('[data-dse-study-dialog]');
     if (!dialog) return;
     const questions = guide.questions?.[task], sheet = host.querySelector('.dse-paper-sheet');
+    const digitalPaper = sheet?.classList.contains('dse-digital-paper-pages');
     if (questions && sheet) {
-      // Collect the original blocks before inserting translations. Do not clone
-      // answer inputs or replace the English question/illustration markup.
-      const blocks = [...sheet.children];
-      sheet.insertAdjacentHTML('beforebegin', `<div class="dse-study-toolbar"><button type="button" class="secondary-button" data-dse-toggle-question-zh aria-pressed="${p.questionZh}">${p.questionZh ? '隱藏' : '顯示'}題目中文翻譯</button></div><div class="dse-question-translation" data-dse-question-zh lang="zh-Hant"${p.questionZh ? '' : ' hidden'}><strong>${esc(questions.title)}</strong><p>${esc(questions.instruction)}</p></div>`);
-      blocks.forEach((block, i) => {
-        const text = questions.blocks[i];
-        if (!text) return;
-        const translated = esc(text).replace(/\{\{(\d+)\}\}/g, '<span class="dse-translated-blank">（$1）______</span>');
-        block.insertAdjacentHTML('afterend', `<div class="dse-question-translation" data-dse-question-zh lang="zh-Hant"${p.questionZh ? '' : ' hidden'}>${translated}</div>`);
-      });
+      if (digitalPaper) {
+        const translated = questions.blocks.map(text => `<p>${esc(text).replace(/\{\{(\d+)\}\}/g, '<span class="dse-translated-blank">（$1）______</span>')}</p>`).join('');
+        host.querySelector('.dse-digital-paper-help')?.insertAdjacentHTML('afterend', `<div class="dse-study-toolbar"><button type="button" class="secondary-button" data-dse-toggle-question-zh aria-pressed="${p.questionZh}">${p.questionZh ? '隱藏' : '顯示'}題目中文翻譯</button></div><div class="dse-question-translation dse-digital-question-translation" data-dse-question-zh lang="zh-Hant"${p.questionZh ? '' : ' hidden'}><strong>${esc(questions.title)}</strong><p>${esc(questions.instruction)}</p>${translated}</div>`);
+      } else {
+        // Collect the original blocks before inserting translations. Do not clone
+        // answer inputs or replace the English question/illustration markup.
+        const blocks = [...sheet.children];
+        sheet.insertAdjacentHTML('beforebegin', `<div class="dse-study-toolbar"><button type="button" class="secondary-button" data-dse-toggle-question-zh aria-pressed="${p.questionZh}">${p.questionZh ? '隱藏' : '顯示'}題目中文翻譯</button></div><div class="dse-question-translation" data-dse-question-zh lang="zh-Hant"${p.questionZh ? '' : ' hidden'}><strong>${esc(questions.title)}</strong><p>${esc(questions.instruction)}</p></div>`);
+        blocks.forEach((block, i) => {
+          const text = questions.blocks[i];
+          if (!text) return;
+          const translated = esc(text).replace(/\{\{(\d+)\}\}/g, '<span class="dse-translated-blank">（$1）______</span>');
+          block.insertAdjacentHTML('afterend', `<div class="dse-question-translation" data-dse-question-zh lang="zh-Hant"${p.questionZh ? '' : ' hidden'}>${translated}</div>`);
+        });
+      }
     }
     const entries = Object.entries(guide.analysis).filter(([, row]) => row.task === task);
     const lastTools = new Map();
     for (const [number, row] of entries) {
+      const digitalDock = host.querySelector('[data-dse-digital-answer-dock]');
+      if (digitalDock) {
+        digitalDock.insertAdjacentHTML('beforeend', `<div class="dse-digital-answer-row" data-dse-digital-tool-q="${number}"><b>${number}</b><span class="single-answer-tools dse-answer-tools"><button class="single-answer-reveal" type="button" data-dse-reveal="${number}" aria-pressed="${p.answers.has(number)}">${p.answers.has(number) ? '隱藏答案' : '看答案'}</button><button class="listening-official-answer" type="button" data-dse-analysis="${number}"${p.answers.has(number) ? '' : ' hidden'} aria-label="查看第 ${number} 題解析">答案：<strong>${esc(row.answer)}</strong><span>查看解析</span></button></span></div>`);
+        continue;
+      }
       const input = host.querySelector(`[data-dse-answer-q="${number}"]`);
       // Group choices, ordering, ranking and maze tasks have shared controls,
       // rather than a text input per question. Keep tools outside those labels.

@@ -5,19 +5,19 @@ const esc = value => String(value ?? '').replace(/[&<>"']/g, character => ({
 const line = (question, value, className = '') => `
   <label class="digital-paper-answer ${className}">
     <span>(${question})</span>
-    <input data-original-q="${question}" value="${esc(value(question))}" maxlength="2000" spellcheck="false" aria-label="第 ${question} 題答案">
+    <input data-original-q="${question}" data-dse-answer-q="${question}" value="${esc(value(question))}" maxlength="2000" spellcheck="false" aria-label="第 ${question} 題答案">
   </label>`;
 
 const longLine = (question, value, className = '') => `
   <label class="digital-paper-answer digital-paper-answer-long ${className}">
     <span>(${question})</span>
-    <textarea data-original-q="${question}" maxlength="2000" spellcheck="false" aria-label="第 ${question} 題答案">${esc(value(question))}</textarea>
+    <textarea data-original-q="${question}" data-dse-answer-q="${question}" maxlength="2000" spellcheck="false" aria-label="第 ${question} 題答案">${esc(value(question))}</textarea>
   </label>`;
 
 const choice = (question, value, options, multiple = false) => {
   const saved = new Set(String(value(question)).split(',').filter(Boolean));
   return `<div class="digital-paper-choices" role="group" aria-label="第 ${question} 題">
-    ${options.map(([key, label]) => `<label><input type="${multiple ? 'checkbox' : 'radio'}" name="original-q${question}" data-original-q="${question}" value="${key}" ${saved.has(key) ? 'checked' : ''}><span>${esc(label)}</span></label>`).join('')}
+    ${options.map(([key, label]) => `<label><input type="${multiple ? 'checkbox' : 'radio'}" name="dse-digital-q${question}" data-original-q="${question}" data-dse-answer-q="${question}" value="${key}" ${saved.has(key) ? 'checked' : ''}><span>${esc(label)}</span></label>`).join('')}
   </div>`;
 };
 
