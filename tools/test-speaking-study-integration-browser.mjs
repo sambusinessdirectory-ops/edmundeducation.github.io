@@ -13,19 +13,32 @@ try{
   window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:{user:{id:'auth-test'}}}})},rpc:async(name)=>({data:name==='flashcard_student_session_profile'?[{id:'integration-student',name:'Test',session_token:'test-token'}]:[]})})};
  });
  await page.goto(`${base}/listening-system.html?section=dse&year=2016&task=1`,{waitUntil:'domcontentloaded'});
- await page.locator('[data-open-original-paper]').waitFor();await page.waitForTimeout(700);
- await page.locator('[data-dse-answer-q="1"]').fill('Saved from normal view');
- await page.locator('[data-open-original-paper]').click();await page.locator('[data-original-q="1"]').waitFor();
- assert.equal(await page.locator('[data-original-q="1"]').inputValue(),'Saved from normal view');
- await page.locator('[data-original-q="1"]').fill('Edited on original');
- await page.locator('[data-original-q="10"][value=B]').check();await page.locator('[data-paper-close]').click();
- assert.equal(await page.locator('[data-dse-answer-q="1"]').inputValue(),'Edited on original');assert.ok(await page.locator('[data-dse-answer-q="10"][value=B]').isChecked());
- await page.reload({waitUntil:'domcontentloaded'});await page.locator('[data-open-original-paper]').waitFor();
- assert.equal(await page.locator('[data-dse-answer-q="1"]').inputValue(),'Edited on original');
- await page.setViewportSize({width:390,height:844});await page.locator('[data-open-original-paper]').click();await page.locator('[data-original-q="1"]').fill('Mobile answer');
- await page.screenshot({path:`${out}/listening-original-mobile.png`});
- const dialog=await page.locator('.original-paper-dialog').boundingBox();assert.ok(dialog.width<=390);assert.ok(dialog.height<=844);
- await page.locator('[data-paper-close]').click();
+ await page.locator('.dse-digital-paper-frame').waitFor();
+ assert.equal(await page.locator('.original-paper-dialog').count(),0);
+ assert.equal(await page.locator('.digital-paper-page').count(),8);
+ await page.locator('[data-dse-answer-q="1"]').fill('Ping Pong');
+ await page.locator('[data-dse-answer-q="10"][value=B]').check();
+ await page.locator('[data-dse-digital-answer-dock]').waitFor();
+ await page.locator('.digital-paper-page .pos-guess').first().waitFor();
+ await page.locator('[data-check-dse-task]').click();
+ assert.match(await page.locator('[data-dse-paper-score]').textContent(),/1 \/ 15/);
+ await page.locator('[data-dse-reveal="1"]').click();
+ await page.locator('[data-dse-analysis="1"]').click();
+ assert.equal(await page.locator('[data-dse-study-dialog]').isHidden(),false);
+ await page.locator('[data-dse-close-analysis]').click();
+ await page.locator('[data-toggle-dse-layout]').click();
+ assert.equal(await page.locator('.dse-digital-paper-frame').count(),0);
+ assert.equal(await page.locator('.dse-paper-sheet').count(),1);
+ assert.equal(await page.locator('[data-dse-answer-q="1"]').inputValue(),'Ping Pong');
+ await page.locator('[data-dse-answer-q="1"]').fill('Edited in optional layout');
+ await page.locator('[data-toggle-dse-layout]').click();
+ assert.equal(await page.locator('.dse-digital-paper-frame').count(),1);
+ assert.equal(await page.locator('[data-dse-answer-q="1"]').inputValue(),'Edited in optional layout');
+ await page.reload({waitUntil:'domcontentloaded'});await page.locator('.dse-digital-paper-frame').waitFor();
+ assert.equal(await page.locator('[data-dse-answer-q="1"]').inputValue(),'Edited in optional layout');
+ await page.setViewportSize({width:390,height:844});await page.locator('[data-dse-answer-q="1"]').fill('Mobile answer');
+ await page.screenshot({path:`${out}/listening-digital-default-mobile.png`});
+ const frame=await page.locator('.dse-digital-paper-frame').boundingBox();assert.ok(frame.width<=390);
  assert.equal(await page.locator('[data-dse-answer-q="1"]').inputValue(),'Mobile answer');
  assert.deepEqual(errors,[]);
  // Exercise the two book controls with production markup and stylesheet.
@@ -38,5 +51,5 @@ try{
  assert.notEqual(await page.locator('.purpose-book-ferries .purpose-book-cover').evaluate(x=>getComputedStyle(x).transform),'none');
  await page.screenshot({path:`${out}/purpose-books.png`});
  for(const name of ['True Ferries','Happy Stack']){await page.locator(`[data-purpose-book="${name}"]`).click();await page.locator('.purpose-book-dialog').waitFor();assert.equal(await page.locator('.purpose-book-dialog h2').textContent(),name);await page.locator('.purpose-book-dialog button').click();}
- console.log('Actual listening integration: standard/digitised answer sharing, reload persistence, mobile controls. Purpose books: hover and empty-book dialogs passed.');
+ console.log('Actual listening integration: digitised paper defaults, checking, analysis, POS guesses, optional custom layout, persistence and mobile controls. Purpose books passed.');
 }finally{await browser.close();}

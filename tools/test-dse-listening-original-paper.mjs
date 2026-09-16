@@ -7,10 +7,12 @@ assert.equal((html.match(/class="original-paper-page digital-paper-page/g) || []
 assert.doesNotMatch(html, /page-[1-8]\.webp|paper\.json|original-paper-text/);
 
 const questionNumbers = [...html.matchAll(/data-original-q="(\d+)"/g)].map(match => Number(match[1]));
+const studyQuestionNumbers = [...html.matchAll(/data-dse-answer-q="(\d+)"/g)].map(match => Number(match[1]));
 assert.deepEqual(
   [...new Set(questionNumbers)].sort((a, b) => a - b),
   Array.from({length: 58}, (_, index) => index + 1)
 );
+assert.deepEqual(studyQuestionNumbers, questionNumbers);
 for (const question of [10, 11, 12]) assert.equal(questionNumbers.filter(value => value === question).length, 2);
 for (const question of [40, 47]) assert.equal(questionNumbers.filter(value => value === question).length, 3);
 

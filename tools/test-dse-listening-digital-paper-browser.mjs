@@ -13,16 +13,18 @@ try {
   const page = await browser.newPage({viewport: {width: 1500, height: 1600}});
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
-  await page.goto(`${base}/listening-system.html`, {waitUntil: 'domcontentloaded'});
-  await page.evaluate(async () => {
-    const module = await import('./dse-listening-original-paper.mjs');
-    window.digitalPaperAnswers = new Map();
-    await module.openOriginalPaper({answers: window.digitalPaperAnswers, owner: 'digital-paper-test', task: 1});
+  await page.route('**/*', route => new URL(route.request().url()).origin === base ? route.continue() : route.abort());
+  await page.addInitScript(() => {
+    sessionStorage.setItem('edmund-listening-session-v1', JSON.stringify({id: 'digital-paper-test', name: 'Test', token: 'test-token', role: 'student'}));
+    window.supabase = {createClient: () => ({auth: {getSession: async () => ({data: {session: {user: {id: 'auth-test'}}}})}, rpc: async name => ({data: name === 'flashcard_student_session_profile' ? [{id: 'digital-paper-test', name: 'Test', session_token: 'test-token'}] : []})})};
   });
-  await page.locator('[data-original-q="1"]').waitFor();
-  await page.waitForFunction(() => [...document.images].filter(image => image.closest('.original-paper-dialog')).every(image => image.complete));
+  await page.goto(`${base}/listening-system.html?section=dse&year=2016&task=1`, {waitUntil: 'domcontentloaded'});
+  await page.locator('.dse-digital-paper-frame [data-original-q="1"]').waitFor();
+  await page.locator('.digital-paper-page .pos-guess').first().waitFor();
+  await page.waitForFunction(() => [...document.images].filter(image => image.closest('.dse-digital-paper-frame')).every(image => image.complete));
 
   assert.equal(await page.locator('.digital-paper-page').count(), 8);
+  assert.equal(await page.locator('.original-paper-dialog').count(), 0);
   assert.equal(await page.locator('.original-paper-page > img').count(), 0);
   assert.equal(await page.locator('[data-original-q]').evaluateAll(inputs => new Set(inputs.map(input => input.dataset.originalQ)).size), 58);
   assert.equal(await page.locator('.digital-paper-exhibit-table img').count(), 2);
@@ -44,11 +46,13 @@ try {
   assert.deepEqual(answerCollisions, []);
 
   for (let number = 1; number <= 8; number += 1) {
-    await page.locator(`[data-paper-page]`).selectOption(String(number));
+    await page.locator(`[data-dse-paper-page]`).selectOption(String(number));
+    const expectedTask = ({3: 1, 4: 2, 5: 3, 6: 3, 7: 4, 8: 4})[number];
+    if (expectedTask) assert.match(await page.locator('[data-check-dse-task]').textContent(), new RegExp(`Task ${expectedTask}`));
     await page.locator(`#original-paper-${number}`).screenshot({path: `${output}/page-${number}.png`});
   }
   assert.deepEqual(errors, []);
-  console.log('2016 digitised paper browser: eight unclipped pages, 58 controls, high-resolution illustrations and scan-free layout passed.');
+  console.log('2016 digitised paper browser: default inline view, eight unclipped pages, 58 controls, high-resolution illustrations and scan-free layout passed.');
 } finally {
   await browser.close();
 }
