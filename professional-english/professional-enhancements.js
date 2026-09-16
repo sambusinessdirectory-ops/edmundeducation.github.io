@@ -134,7 +134,7 @@
     document.querySelectorAll(".course-section > .section-heading h2").forEach(title => {
       if (title.textContent.includes("_")) title.textContent = title.textContent.replaceAll("_", " ");
     });
-    document.querySelectorAll(".mode-grid button,.study-footer button,.grade-controls button,.resume").forEach(button => {
+    document.querySelectorAll(".mode-grid button,.study-footer button,.resume").forEach(button => {
       if (button.dataset.bilingualStacked === "true") return;
       const label = button.textContent.replace(/\s+/g, " ").trim();
       if (!/[\u3400-\u9fff]/.test(label) || !/[A-Za-z]/.test(label)) return;
@@ -197,22 +197,15 @@
         start?.click(); rangeStarting = false;
       }, 80);
     }
-    const navigation = event.target.closest(".study-footer button,.grade-controls button");
-    if (navigation && (/Next|下一張/.test(navigation.textContent) || navigation.closest(".grade-controls"))) {
+    const navigation = event.target.closest(".study-footer button");
+    if (navigation && /Next|下一張/.test(navigation.textContent)) {
       setTimeout(() => document.querySelector(".front-display-card")?.scrollIntoView({behavior:"smooth",block:"start"}), 90);
     }
   }, true);
 
-  let swipe = null;
-  document.addEventListener("pointerdown", event => {
-    if (event.target.closest(".flashcard-back-card")) swipe = {x:event.clientX,y:event.clientY};
-  }, true);
-  document.addEventListener("pointerup", event => {
-    if (!swipe) return;
-    const horizontal = Math.abs(event.clientX - swipe.x) > 45 && Math.abs(event.clientX - swipe.x) > Math.abs(event.clientY - swipe.y);
-    swipe = null;
-    if (horizontal) setTimeout(() => document.querySelector(".front-display-card")?.scrollIntoView({behavior:"smooth",block:"start"}), 120);
-  }, true);
+  document.addEventListener("professional-card-marked",event=>{
+    if(event.detail?.deck)setTimeout(()=>document.querySelector(".front-display-card")?.scrollIntoView({behavior:"smooth",block:"start"}),60);
+  });
 
   function enhance() { removeUnneededControls(); addReportButton(); }
   const observer = new MutationObserver(() => requestAnimationFrame(enhance));

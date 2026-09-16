@@ -65,3 +65,17 @@ the current polysemy word; lesson-level polysemy progress counts completed words
 The long Pages validation step, all audio checks, PGlite account/score tests, and
 Playwright checks for audio resume, bookmarks, warnings, exact draft resume,
 question counts, paired rows and 5× mobile layout passed before publication.
+
+## Mobile flashcards
+
+The card utilities sit in a separate row. Colored status tiles and equal square
+review/known buttons keep icons in React-owned markup. Revealing an answer is
+one-way; the redundant Show front control is removed. The completion heading
+stacks English over Chinese and the review count is red.
+
+`flashcard-swipe.mjs` handles pointer movement directly, locks vertical scrolling,
+animates accepted swipes before committing once, and suppresses the synthetic
+click after a gesture. It ignores the child's bubbling lost-capture event when
+touch capture transfers to the answer card. Cleanup cancels pending marks when
+navigating; reduced-motion users skip the departure animation. Run
+`node tools/test-professional-mobile-cards.mjs` for gesture safety checks.
