@@ -35,7 +35,7 @@ try {
  await page.evaluate(phrase=>{
   const paragraph=document.querySelector('.response-en');
   const selectText=text=>{const walker=document.createTreeWalker(paragraph,NodeFilter.SHOW_TEXT);let start=null,end=null,offset=0,node;while((node=walker.nextNode())){const next=offset+node.data.length;if(!start&&text.start>=offset&&text.start<=next)start={node,offset:text.start-offset};if(text.end>=offset&&text.end<=next){end={node,offset:text.end-offset};break;}offset=next;}const range=document.createRange();range.setStart(start.node,start.offset);range.setEnd(end.node,end.offset);getSelection().removeAllRanges();getSelection().addRange(range);document.dispatchEvent(new Event('selectionchange'));};
-  selectText({start:1,end:phrase.length-1});paragraph.dispatchEvent(new PointerEvent('pointerup',{bubbles:true}));
+  selectText({start:0,end:phrase.lastIndexOf(' ')});paragraph.dispatchEvent(new PointerEvent('pointerup',{bubbles:true}));
   setTimeout(()=>selectText({start:0,end:phrase.length}),130);
  },intendedPhrase);
  await page.waitForTimeout(1500);
@@ -43,6 +43,13 @@ try {
  assert.equal(settledSelection.words.length,1,JSON.stringify(settledSelection));
  assert.equal(await page.evaluate(()=>window.testWords[0].phrase),intendedPhrase);
  assert.match(await page.locator('.speaking-brush-toolbar [role="status"]').textContent(),/已收藏/);
+ await page.evaluate(()=>{window.testWords=[];});
+ await page.evaluate(()=>{
+  const paragraph=document.querySelector('.response-en'),word='advertisement',start=paragraph.textContent.indexOf(word);
+  const walker=document.createTreeWalker(paragraph,NodeFilter.SHOW_TEXT);let from=null,to=null,offset=0,node;while((node=walker.nextNode())){const next=offset+node.data.length;if(!from&&start+1>=offset&&start+1<=next)from={node,offset:start+1-offset};if(start+word.length-1>=offset&&start+word.length-1<=next){to={node,offset:start+word.length-1-offset};break;}offset=next;}const range=document.createRange();range.setStart(from.node,from.offset);range.setEnd(to.node,to.offset);getSelection().removeAllRanges();getSelection().addRange(range);document.dispatchEvent(new Event('selectionchange'));paragraph.dispatchEvent(new PointerEvent('pointerup',{bubbles:true}));
+ });
+ await page.waitForFunction(()=>window.testWords.length===1);
+ assert.equal(await page.evaluate(()=>window.testWords[0].phrase),'advertisement');
  await page.evaluate(()=>{window.testWords=[];});
  for(const index of [0,1]){
   await page.evaluate(index=>{const paragraph=document.querySelectorAll('.response-en')[index];const text=paragraph.querySelector('[data-timing-index]')?.firstChild||paragraph.firstChild;const range=document.createRange();range.selectNodeContents(text);getSelection().removeAllRanges();getSelection().addRange(range);paragraph.dispatchEvent(new PointerEvent('pointerup',{bubbles:true}));},index);
