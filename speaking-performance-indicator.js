@@ -86,12 +86,14 @@
     const practice = container.closest(".exam-practice-view");
     const dse = practice?.classList.contains("dse-practice-view");
     const heading = practice?.querySelector(".dse-practice-header, .exam-progress-card");
+    const stableHeading = heading?.cloneNode(true);
+    stableHeading?.querySelectorAll('time, [data-exam-elapsed-clock]').forEach(clock => clock.remove());
     const question = practice?.querySelector(
       ".dse-single-question h2, .dse-practice-card h2, .exam-question-card h1, .examiner-message:last-of-type p"
     );
     return [
       dse ? "dse" : "ielts",
-      heading?.textContent || "",
+      stableHeading?.textContent || "",
       question?.textContent || ""
     ].map(value => String(value).replace(/\s+/g, " ").trim()).join("|");
   }
