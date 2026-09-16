@@ -3962,6 +3962,24 @@
         animation-duration: 0.01ms !important;
       }
     }
+
+    .login-progress { position: fixed; z-index: 10001; bottom: max(18px, env(safe-area-inset-bottom)); left: 50%; transform: translateX(-50%); width: min(460px, calc(100% - 28px)); padding: 18px 20px; border: 1px solid #d5ddef; border-radius: 18px; background: #fff; color: #172033; box-shadow: 0 12px 45px #17203330; pointer-events: none; font-family: system-ui, sans-serif; }
+    .login-progress[hidden] { display: none; }
+    .login-progress-heading { display: flex; justify-content: space-between; gap: 12px; font-size: 13px; margin-bottom: 10px; }
+    [data-login-form] [data-login-status] { color: #52627a; }
+    [data-login-form][data-login-feedback="error"] [data-login-status] { color: #b54730; }
+    [data-login-form][data-login-feedback="complete"] [data-login-status] { color: #16804a; }
+    .login-progress-dismiss { pointer-events: auto; border: 0; background: transparent; color: #59657a; padding: 0 2px; font-size: 18px; line-height: 1; cursor: pointer; }
+    .login-progress-track { height: 8px; border-radius: 8px; overflow: hidden; background: #e7edf7; }
+    .login-progress-fill { position: relative; height: 100%; width: 5%; border-radius: inherit; background: #3565d8; transition: width .35s ease; overflow: hidden; }
+    .login-progress[data-state="working"] .login-progress-fill::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, transparent, #ffffff90, transparent); animation: login-progress-shimmer 1.5s linear infinite; }
+    .login-progress[data-state="complete"] .login-progress-fill { background: #16804a; }
+    .login-progress[data-state="error"] .login-progress-fill { background: #b54730; }
+    .login-progress[data-state="warning"] .login-progress-fill { background: #a16808; }
+    .login-progress-message { margin: 10px 0 5px; font-size: 14px; line-height: 1.5; }
+    .login-progress-detail { margin: 0; color: #59657a; font-size: 12px; line-height: 1.5; }
+    @keyframes login-progress-shimmer { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
+    @media (prefers-reduced-motion: reduce) { .login-progress-fill { transition: none; } .login-progress-fill::after { animation: none !important; } }
   </style>
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2">
@@ -3981,6 +3999,12 @@
   </div>
   <img class="custom-cursor" src="assets/homepage-optimized/eddie-front-cursor.png" alt="" aria-hidden="true">
 
+  <aside class="login-progress" data-login-progress data-state="working" aria-label="登入進度 Login progress">
+    <div class="login-progress-heading"><strong data-login-progress-title>準備登入 Preparing login</strong><span data-login-progress-state>處理中 In progress</span><button type="button" class="login-progress-dismiss" data-login-progress-dismiss aria-label="關閉進度訊息 Close progress message" hidden>×</button></div>
+    <div class="login-progress-track" role="progressbar" aria-label="登入步驟 Login steps" aria-valuemin="0" aria-valuemax="100" aria-valuenow="5" aria-valuetext="Loading the page" data-login-progress-bar><div class="login-progress-fill" data-login-progress-fill></div></div>
+    <p class="login-progress-message" data-login-progress-message role="status" aria-live="polite">正在載入學習資源… Loading learning resources…</p>
+    <p class="login-progress-detail" data-login-progress-detail>進度按完成步驟更新。Progress follows completed steps.</p>
+  </aside>
   <div class="flash-shell">
     <header class="topbar edmund-system-header">
       <div class="edmund-system-header__inner">
@@ -4050,7 +4074,7 @@
 
         <img class="hero-mascot" src="assets/flashcards/mascot-flashcard.png" alt="" aria-hidden="true">
 
-        <form class="login-card" data-login-form>
+        <form class="login-card" data-login-form onsubmit="return false" aria-busy="true">
           <h2>Login</h2>
           <div class="field">
             <label for="username">User name</label>
@@ -4064,10 +4088,112 @@
             </div>
           </div>
           <div class="field">
-            <button class="primary-button" type="submit">Enter Flashcards</button>
+            <button class="primary-button" type="submit" disabled>Enter Flashcards</button>
           </div>
-          <p class="status" data-login-status></p>
+          <p class="status" data-login-status>正在準備登入，請稍候… Preparing login…</p>
+          <noscript>請啟用 JavaScript 後重新載入，才能登入。Enable JavaScript and reload to log in.</noscript>
         </form>
+        <script>
+          // Guard the form before lesson downloads or account startup can stall.
+          (() => {
+            const form = document.querySelector("[data-login-form]");
+            const status = form.querySelector("[data-login-status]");
+            const submit = form.querySelector('button[type="submit"]');
+            const panel = document.querySelector("[data-login-progress]");
+            const bar = panel.querySelector("[data-login-progress-bar]");
+            const fill = panel.querySelector("[data-login-progress-fill]");
+            const message = panel.querySelector("[data-login-progress-message]");
+            const detail = panel.querySelector("[data-login-progress-detail]");
+            const badge = panel.querySelector("[data-login-progress-state]");
+            const dismiss = panel.querySelector("[data-login-progress-dismiss]");
+            dismiss.addEventListener("click", () => { panel.hidden = true; });
+            let ready = false, active = true, mode = "startup", value = 5;
+            let startedAt = Date.now(), stageAt = startedAt, timer, hideTimer;
+            let resources = 0, resourcePhase = true;
+            const resourceSources = ["https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js", "flashcards-ielts-writing-data.js?v=20260713-1", "flashcards-ielts-reading-index.js?v=20260731-1", "dse-writing-part-b-links.js?v=20260911-1", "essay-portal-links.js?v=20260730-1", "supabase-config.js", "shared-system-nav.js?v=20260915-outfits1", "flashcards-ielts-writing-advantage-cause-direct-data.js?v=20260714-1", "flashcards-ielts-writing-express-4-31-data.js?v=20260714-1", "flashcards-ielts-writing-opinions-3-38-express-32-43-data.js?v=20260714-1", "flashcards-ielts-writing-opinions-39-82-data.js?v=20260713-1", "flashcards-ielts-writing-task1-data.js?v=20260729-2", "dse-writing-part-b-topics.js?v=20260911-1", "flashcards-dse-writing-part-a-data.js?v=20260726-1", "flashcards-dse-listening-data.js?v=20260726-2", "flashcards-dse-paper3-b2-2024-data.js?v=20260725-1", "flashcards-dse-paper3-b2-2025-data.js?v=20260725-1", "flashcards-dse-speaking-2012-data.js?v=20260713-1", "flashcards-dse-speaking-2013-data.js?v=20260713-1", "flashcards-dse-speaking-2014-data.js?v=20260713-1", "flashcards-dse-speaking-2015-data.js?v=20260713-1", "flashcards-dse-speaking-2016-data.js?v=20260713-1", "flashcards-dse-speaking-2017-data.js?v=20260713-1", "flashcards-dse-speaking-2018-data.js?v=20260713-1", "flashcards-dse-speaking-2019-data.js?v=20260713-1", "flashcards-government-civics-book1-data.js?v=20260808-1", "flashcards-government-civics-book2-data.js?v=20260817-1", "flashcards-government-concept-logic-book1-data.js?v=20260817-1", "flashcards-hkfsd-concept-vocabulary-book1-data.js?v=20260818-1", "flashcards-hkfsd-incident-reports-data.js?v=20260818-1", "flashcards-hkpf-data.js?v=20260715-1", "flashcards-business-concepts-book1-data.js?v=20260816-1", "flashcards-sunny-s3-grammar-book-data.js?v=20260908-1", "edmund-audio-config.js?v=1", "flashcards-audio-manifest.js?v=edmund-neural-v1-20260908-sunny-s3-1", "flashcards-dse-writing-part-b-audio.js?v=20260911-kokoro-1", "italian-1-burro-montato-data.js?v=20260914-1", "italian-1-audio.js?v=20260914-1", "french-1-fondant-data.js?v=20260914-1", "french-1-audio.js?v=20260914-1"];
+            const pendingResources = new Set(resourceSources);
+            form.addEventListener("submit", event => {
+              event.preventDefault();
+              if (!ready) event.stopImmediatePropagation();
+            }, true);
+            function tick() {
+              const seconds = Math.floor((Date.now() - startedAt) / 1000);
+              const waiting = Date.now() - stageAt >= 12000;
+              detail.textContent = waiting
+                ? `已等候 ${seconds} 秒 · 仍在處理上方步驟，請勿重複登入或清除瀏覽器資料。 ${seconds}s elapsed · Still working on the step above. Please do not submit again or clear browser data.`
+                : `已用 ${seconds} 秒 · 進度按完成步驟更新。 ${seconds}s elapsed · Progress follows completed steps.`;
+            }
+            function step(next, text) {
+              if (!active) return;
+              value = Math.max(value, Math.min(99, next));
+              stageAt = Date.now();
+              bar.setAttribute("aria-valuenow", String(value));
+              bar.setAttribute("aria-valuetext", text);
+              fill.style.width = `${value}%`;
+              message.textContent = text;
+              status.textContent = text;
+              tick();
+            }
+            function settle(text, state) {
+              active = false;
+              clearInterval(timer);
+              clearTimeout(hideTimer);
+              panel.dataset.state = state;
+              form.dataset.loginFeedback = state;
+              dismiss.hidden = state === "complete";
+              badge.textContent = state === "complete" ? "完成 Done" : state === "warning" ? "需要留意 Please check" : "未能完成 Needs attention";
+              message.textContent = text;
+              status.textContent = text;
+              bar.setAttribute("aria-valuetext", text);
+              detail.textContent = state === "complete" ? "可以繼續。You can continue." : "請查看上方訊息。Please follow the message above.";
+              if (state === "complete") {
+                value = 100;
+                bar.setAttribute("aria-valuenow", "100");
+                fill.style.width = "100%";
+                hideTimer = setTimeout(() => { panel.hidden = true; }, 2200);
+              }
+            }
+            timer = setInterval(tick, 1000);
+            document.addEventListener("load", event => {
+              if (!resourcePhase || !pendingResources.has(event.target?.getAttribute?.("src"))) return;
+              pendingResources.delete(event.target.getAttribute("src"));
+              resources++;
+              step(5 + 45 * resources / 40, `正在載入學習資源（${resources}/40）… Loading learning resources (${resources}/40)…`);
+            }, true);
+            document.addEventListener("error", event => {
+              if (!resourcePhase || !pendingResources.has(event.target?.getAttribute?.("src"))) return;
+              step(value, "部分資源未能載入，正在繼續檢查… A resource could not load; continuing startup checks…");
+            }, true);
+            window.EdmundFlashcardLoginStartup = Object.freeze({
+              step(next, text) { resourcePhase = false; step(next, text); },
+              loginStep(next, text) { if (mode === "login") step(next, text); },
+              begin() {
+                clearTimeout(hideTimer);
+                clearInterval(timer);
+                active = true; mode = "login"; value = 0;
+                dismiss.hidden = true; form.dataset.loginFeedback = "working";
+                startedAt = Date.now(); panel.hidden = false; panel.dataset.state = "working";
+                panel.querySelector("[data-login-progress-title]").textContent = "正在登入 Signing in";
+                badge.textContent = "處理中 In progress";
+                step(5, "正在開始安全登入… Starting secure login…");
+                timer = setInterval(tick, 1000);
+              },
+              ready(warning = "") {
+                ready = true;
+                form.removeAttribute("aria-busy");
+                submit.disabled = false;
+                settle(warning || "已準備好，可以登入。Ready — you can now sign in.", warning ? "warning" : "complete");
+              },
+              finish() { settle("登入完成，學習頁已準備好。Signed in — your learning page is ready.", "complete"); },
+              notice(text, warning = false) { settle(text, warning ? "warning" : "error"); },
+              fail(text) {
+                ready = false;
+                form.removeAttribute("aria-busy"); submit.disabled = true;
+                settle(text, "error");
+              }
+            });
+          })();
+        </script>
       </section>
 
       <section class="app-view hidden" data-app-view>
@@ -188539,6 +188665,7 @@ window.EDMUND_FLASHCARD_SEED = {
           if (context?.owner && !isSupabaseStateContextCurrent(context)) throw error;
           supabaseState.outboxErrorClass = "hydration-transient";
           supabaseState.outboxLastError = String(error?.message || error || "Temporary state-read failure");
+          window.EdmundFlashcardLoginStartup?.loginStep(65, `連線中斷，正在重試學習紀錄（${attempt + 1}/${FLASHCARD_HYDRATION_READ_ATTEMPTS}）… Connection interrupted. Retrying learning records (${attempt + 1}/${FLASHCARD_HYDRATION_READ_ATTEMPTS})…`);
           updateSupabaseStatus(
             `資料連線暫時中斷，正在重新載入（${attempt + 1}/${FLASHCARD_HYDRATION_READ_ATTEMPTS}）`,
             "warning"
@@ -190279,6 +190406,7 @@ window.EDMUND_FLASHCARD_SEED = {
         const mergedAttempts = mergeFlashcardAttempts(remoteAttempts, accountBackup);
         remoteStore[ATTEMPTS_KEY] = mergedAttempts;
         cacheJsonLocally(ATTEMPTS_KEY, mergedAttempts);
+        window.EdmundFlashcardLoginStartup?.loginStep(78, "正在核對雲端紀錄與此裝置的待儲存進度… Checking cloud records against progress saved on this device…");
         const pendingOutboxRows = await prepareFlashcardOutboxForHydration(requestContext);
         const outboxBlocksAccount = pendingOutboxRows.some(flashcardOutboxTerminalBlocksAccount);
         cacheAccountAttemptsBackup(remoteStore[ATTEMPTS_KEY] || mergedAttempts);
@@ -191479,12 +191607,15 @@ window.EDMUND_FLASHCARD_SEED = {
 
     async function performFlashcardLogin(trimmedName, password) {
       loginFailureMessage = "";
+      window.EdmundFlashcardLoginStartup?.loginStep(12, "正在檢查登入頁版本… Checking for a login update…");
       if (await reloadForCurrentFlashcardClientUpdate("login")) {
         loginFailureMessage = "正在載入最新安全版本；頁面會自動重新開啟，請稍後重新登入。";
         return false;
       }
+      window.EdmundFlashcardLoginStartup?.loginStep(24, "正在檢查現有登入與復原狀態… Checking existing sign-in and recovery status…");
       const reusedRecovery = await reuseAuthenticatedFlashcardRecovery(trimmedName);
       if (reusedRecovery !== null) return reusedRecovery;
+      window.EdmundFlashcardLoginStartup?.loginStep(35, "正在核對帳戶及密碼… Checking your account and password…");
       if (supabaseClient) {
         try {
           if (trimmedName === ADMIN_NAME) {
@@ -191498,6 +191629,7 @@ window.EDMUND_FLASHCARD_SEED = {
                 loginFailureMessage = "舊有學習紀錄未能建立安全備份，登入已停止。";
                 return false;
               }
+              window.EdmundFlashcardLoginStartup?.loginStep(70, "帳戶已確認，正在載入學生名單… Account verified. Loading student list…");
               await loadStudentsFromSupabase();
               showAppPanel("admin-panel", false);
               updateSupabaseStatus("已安全連接", "live");
@@ -191520,6 +191652,7 @@ window.EDMUND_FLASHCARD_SEED = {
               createdAt: student.created_at ? new Date(student.created_at).getTime() : Date.now(),
               sessionToken: studentSessionToken
             };
+            window.EdmundFlashcardLoginStartup?.loginStep(52, "帳戶已確認，正在建立安全連線… Account verified. Establishing your session…");
             if (!setSession(authenticatedUser)) {
               loginFailureMessage = "舊有學習紀錄未能建立安全備份，登入已停止。";
               return false;
@@ -191535,6 +191668,7 @@ window.EDMUND_FLASHCARD_SEED = {
             if (dashboardPanel) dashboardPanel.inert = true;
             let stateLoaded = false;
             try {
+              window.EdmundFlashcardLoginStartup?.loginStep(65, "正在取回你的學習紀錄… Retrieving your learning records…");
               stateLoaded = await loadStudentStateFromSupabase();
             } catch (stateRestoreError) {
               // The credentials have already been accepted. A history service
@@ -191547,7 +191681,9 @@ window.EDMUND_FLASHCARD_SEED = {
             }
             const stateContext = captureSupabaseStateSaveContext();
             if (stateLoaded && stateContext && isSupabaseStateHydrated(stateContext)) {
+              window.EdmundFlashcardLoginStartup?.loginStep(88, "學習紀錄已載入，正在準備個人字卡… Records loaded. Preparing your personal flashcards…");
               await automaticWordDeckPromise;
+              window.EdmundFlashcardLoginStartup?.loginStep(96, "正在套用偏好設定並開啟學習頁… Applying preferences and opening your learning page…");
               hydrateFlashcardDisplayPreferences();
               updateSupabaseStatus("已安全連接", "live");
               refreshCurrentView();
@@ -197139,15 +197275,19 @@ window.EDMUND_FLASHCARD_SEED = {
         form.setAttribute("aria-busy", "true");
         controls.forEach(control => { control.disabled = true; });
         const status = document.querySelector("[data-login-status]");
-        if (status) status.textContent = "Checking login...";
+        window.EdmundFlashcardLoginStartup.begin();
         try {
           const ok = await login(String(formData.get("username") || ""), String(formData.get("password") || ""));
-          if (!ok && status) status.textContent = loginFailureMessage || "Wrong user name or password.";
-          if (ok && status) status.textContent = "";
+          if (!ok) window.EdmundFlashcardLoginStartup.notice(loginFailureMessage || "帳戶名稱或密碼不正確，請檢查後再試。Wrong user name or password. Please check and try again.");
+          else if (loginFailureMessage) window.EdmundFlashcardLoginStartup.notice(loginFailureMessage, true);
+          else window.EdmundFlashcardLoginStartup.finish();
           const context = captureSupabaseStateSaveContext();
           if (ok && context && isSupabaseStateHydrated(context)) {
             window.setTimeout(openRequestedFlashcardTarget, 0);
           }
+        } catch (error) {
+          console.warn("Login could not finish:", error);
+          window.EdmundFlashcardLoginStartup.notice("登入未能完成，請檢查網絡後再試。Login could not finish. Please check your connection and try again.");
         } finally {
           form.removeAttribute("aria-busy");
           delete form.dataset.flashcardLoginBusy;
@@ -198245,6 +198385,7 @@ window.EDMUND_FLASHCARD_SEED = {
     async function initialiseFlashcardPortal() {
       renderNeuralSpeechState();
       showLogin();
+      window.EdmundFlashcardLoginStartup.step(55, "正在保護此瀏覽器的學習紀錄… Protecting learning records on this browser…");
       const quarantine = await quarantineLegacyFlashcardSyncState();
       if (!quarantine.ok) {
         const loginControls = [...document.querySelectorAll("[data-login-form] input, [data-login-form] button")];
@@ -198254,8 +198395,10 @@ window.EDMUND_FLASHCARD_SEED = {
           status.textContent = "瀏覽器內可能有舊有學習紀錄，但未能建立經核實的安全復原副本。系統已停止登入、清除及寫入；請不要清除瀏覽器資料，並聯絡管理員。";
         }
         updateSupabaseStatus("資料保護暫停：舊有紀錄未能安全備份", "error");
+        window.EdmundFlashcardLoginStartup.fail(status.textContent);
         return;
       }
+      window.EdmundFlashcardLoginStartup.step(65, "正在檢查是否能安全儲存進度… Checking that your progress can be saved safely…");
       if (!(await verifyFlashcardOutboxAvailable())) {
         const loginControls = [...document.querySelectorAll("[data-login-form] input, [data-login-form] button")];
         loginControls.forEach(control => { control.disabled = true; });
@@ -198263,10 +198406,12 @@ window.EDMUND_FLASHCARD_SEED = {
         if (status) {
           status.textContent = "這個瀏覽器未能建立耐久待同步紀錄。為免任何新進度遺失，登入及寫入已停止；請不要使用私密瀏覽，並聯絡管理員。";
         }
+        window.EdmundFlashcardLoginStartup.fail(status.textContent);
         return;
       }
       setupFlashcardOutboxWakeups();
       void requestFlashcardDurableStorage();
+      window.EdmundFlashcardLoginStartup.step(75, "正在檢查之前的登入… Checking your previous sign-in…");
       restoreSession();
       setupEvents();
       const shared = window.EdmundSystemNav?.getStudentSession?.();
@@ -198288,6 +198433,7 @@ window.EDMUND_FLASHCARD_SEED = {
         const status = document.querySelector("[data-login-status]");
         if (status) status.textContent = "正在載入完整學習紀錄…";
       }
+      window.EdmundFlashcardLoginStartup.step(85, currentUser ? "正在恢復學習紀錄… Restoring your learning records…" : "正在準備帳戶連線… Preparing the account connection…");
       const stateReady = await initSupabaseState();
       if (currentUser?.role === "student" && studentSessionToken) await loadAutomaticLearningWordDeck();
       restoredDashboardPanel?.removeAttribute("aria-busy");
@@ -198317,13 +198463,21 @@ window.EDMUND_FLASHCARD_SEED = {
           if (status) status.textContent = "您已登入；完整學習紀錄暫時未能載入，系統已保持唯讀。";
         }
       }
+      const startupWarning = currentUser && (!stateReady || (context && !isSupabaseStateHydrated(context)))
+        ? "已登入；學習紀錄未能完整載入，系統保持唯讀。Signed in; learning records are not fully available. Your learning page remains read-only."
+        : "";
+      window.EdmundFlashcardLoginStartup.ready(startupWarning);
+      if (currentUser && !startupWarning) window.EdmundFlashcardLoginStartup.finish();
     }
 
     document.querySelector("[data-embedded-back-range]")?.addEventListener("click", () => openDeckStart(currentDeckId, false));
     if (document.documentElement.classList.contains("flashcards-reading-embed")) {
       document.querySelector("[data-embedded-back-range]")?.classList.remove("hidden");
     }
-    void initialiseFlashcardPortal();
+    void initialiseFlashcardPortal().catch(error => {
+      console.error("Flashcard login startup failed:", error);
+      window.EdmundFlashcardLoginStartup.fail("登入頁未能完成載入，請重新載入再試。請勿清除瀏覽器資料；若問題持續，請聯絡管理員。Login could not finish loading. Please reload and try again. Do not clear browser data; contact your teacher if this continues.");
+    });
   </script>
   <script src="pronunciation-checker.js?v=20260914-six-languages-1"></script>
   <script src="flashcard-pronunciation.js?v=20260914-six-languages-1"></script>

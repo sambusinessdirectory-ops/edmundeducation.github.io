@@ -576,20 +576,17 @@
     return data;
   }
 
-  function initializeSpeakingWordBrush() {
-    const helper = window.EdmundWordBookmarks;
-    if (!helper?.createSelectionBrush) return;
-    helper.createSelectionBrush({
-      systemKey: "speaking",
-      root: () => dom.content,
-      getToken: () => state.user?.role === "student" ? state.authToken : "",
-      rpc: learningWordRpc,
-      describe({ element, phrase }) {
+  let speakingWordList;
+  async function initializeSpeakingWordBrush() {
+    try {
+      const { createSpeakingWordList } = await import('./speaking-word-list.mjs?v=20260916-study');
+      speakingWordList = createSpeakingWordList({ root: () => dom.content, getUser: () => state.user, getToken: () => state.authToken, rpc: learningWordRpc, notify: toast,
+      describe({ element, phrase, range }) {
         if (state.user?.role !== "student" || state.route.view !== "exercise") return false;
         const english = element.closest(
           ".part1-answer-message .part1-message-en,.response-card .response-en,.part3-step .part3-step-en"
         );
-        if (!english) return false;
+        if (!english || !english.contains(range.startContainer) || !english.contains(range.endContainer)) return false;
         const exercise = currentExercise();
         if (!exercise) return false;
         const part1 = english.closest(".part1-answer-message");
@@ -606,17 +603,12 @@
           phrase,
           contextEn: String(english.textContent || ""),
           contextZh: String(chinese?.textContent || ""),
-          href: `speaking-system.html?exercise=${encodeURIComponent(exercise.id)}`
+          href: `speaking-system.html?exercise=${encodeURIComponent(exercise.id)}&answer=${Math.max(0, allAnswers.indexOf(english))}#speaking-answer-${Math.max(0, allAnswers.indexOf(english))}`
         };
       },
-      onSaved({ phrase }) {
-        toast(`已收藏「${phrase}」，並加入「寫作系統生字」。`, "info");
-      },
-      onError(error) {
-        console.warn("Speaking vocabulary bookmark failed:", error);
-        toast("字詞暫時未能收藏，請稍後再試。", "error");
-      }
-    });
+      });
+      if (state.route.view === 'bookmarks') speakingWordList.mountList(dom.content);
+    } catch (error) { console.warn('Speaking word tools unavailable', error); }
   }
 
   async function studentLogin(username, password) {
@@ -4270,6 +4262,14 @@
       return false;
     }
     navigate(route, { reset: true, skipGuard: true });
+    const answerIndex = new URLSearchParams(location.search).get('answer');
+    if (answerIndex !== null && /^\d+$/.test(answerIndex)) requestAnimationFrame(() => {
+      const answers = dom.content.querySelectorAll('.part1-answer-message .part1-message-en,.response-card .response-en,.part3-step .part3-step-en');
+      if (Number(exercise.part) === 1) revealPart1Through(Number(answerIndex) * 2 + 1);
+      const answer = answers[Number(answerIndex)];
+      if (answer?.closest('[data-part3-model]')) openPart3Model(Number(answer.closest('[data-part3-model]').dataset.part3Model));
+      if (answer) { answer.id = `speaking-answer-${answerIndex}`; answer.closest('details')?.setAttribute('open',''); answer.classList.add('speaking-source-focus'); answer.scrollIntoView({block:'center'}); }
+    });
     return true;
   }
 
@@ -4422,6 +4422,7 @@
       </section>
     `;
     syncBookmarkButtons();
+    speakingWordList?.mountList(dom.content);
   }
 
   function allAccessKeys() {

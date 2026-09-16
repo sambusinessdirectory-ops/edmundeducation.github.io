@@ -55,6 +55,7 @@ jobs:
           node tools/test-flashcard-conflict-recovery-ui.mjs
           node tools/test-flashcard-pwa-critical-update.mjs
           node tools/test-flashcard-login-singleflight.mjs
+          node tools/test-flashcard-login-progress.mjs
           node tools/test-flashcard-private-decks.mjs
           node tools/test-sunny-s3-grammar-book.mjs
 
@@ -339,6 +340,7 @@ jobs:
           node tools/test-dse-paper3-analysis-portal.mjs
           node tools/listening/build-search-index.mjs --check
           node tools/test-listening-search.mjs
+          node tools/test-dse-listening-original-paper.mjs
           node tools/test-dse-listening-guide.mjs
           node tools/test-dse-listening-2023-guide.mjs
           node tools/test-dse-listening-archive-guides.mjs

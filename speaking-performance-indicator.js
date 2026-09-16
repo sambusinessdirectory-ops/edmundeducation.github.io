@@ -44,6 +44,34 @@
     language: new Set(language.map(item => item.id))
   });
   const selections = new Map();
+  const moduleUrl = document.currentScript?.src ? new URL('floating-window.mjs?v=20260916-speaking-study', document.currentScript.src).href : './floating-window.mjs?v=20260916-speaking-study';
+  function noteKey(key) {
+    try {
+      const session = JSON.parse(sessionStorage.getItem('edmundSpeakingSessionV1') || 'null');
+      return session?.id ? `speakingPracticeNotesV1:${session.role}:${session.id}:${key}` : null;
+    } catch { return null; }
+  }
+  function mountNotes(panel, key) {
+    const input = panel.querySelector('[data-performance-notes]');
+    const status = panel.querySelector('[data-notes-status]');
+    const storageKey = noteKey(key);
+    try { input.value = storageKey ? localStorage.getItem(storageKey) || '' : ''; }
+    catch { status.textContent = '未能讀取筆記；請保留此頁。'; }
+    input.addEventListener('input', () => {
+      try {
+        if (!storageKey) throw new Error('No student');
+        localStorage.setItem(storageKey, input.value);
+        status.textContent = '已儲存於此瀏覽器 · Saved in this browser';
+      } catch { status.textContent = '尚未儲存：請複製筆記備份。'; }
+    });
+  }
+  async function enableGeometry(panel) {
+    try {
+      const { mountFloatingWindow } = await import(moduleUrl);
+      if (!panel.isConnected) return;
+      mountFloatingWindow(panel, { dragHandle: panel.querySelector('.performance-indicator-heading'), isActive: () => panel.classList.contains('is-floating') });
+    } catch (error) { console.warn('Floating window controls could not load', error); }
+  }
   let mountFrame = 0;
 
   function normalize(value) {
@@ -122,10 +150,15 @@
           </div>
           <p>學生或考官可即時勾選已做到的項目。<br><span>Student or examiner: tick each feature demonstrated in this answer.</span></p>
         </header>
+        <div class="performance-panel-scroll">
+        <section class="performance-notes"><label for="performance-practice-notes">練習筆記 · Practice notes</label>
+          <textarea id="performance-practice-notes" data-performance-notes maxlength="20000" placeholder="記下字詞、想法或練習心得…"></textarea>
+          <small data-notes-status role="status">筆記按題目自動儲存於此瀏覽器。</small>
+        </section>
         <div class="performance-table-grid">
           ${tableHtml("content", "CONTENT CHECKLIST", "內容", content, value.content)}
           ${tableHtml("language", "LANGUAGE CHECKLIST", "語言", language, value.language)}
-        </div>
+        </div></div>
       </section>`;
   }
 
@@ -139,7 +172,9 @@
     }
     const { key, value } = stateFor(container);
     container.insertAdjacentHTML("beforeend", indicatorHtml(value));
-    container.querySelector("[data-performance-indicator]").dataset.performanceContext = key;
+    const panel = container.querySelector("[data-performance-indicator]");
+    panel.dataset.performanceContext = key;
+    mountNotes(panel, key);
   }
 
   function mountAll() {
@@ -177,6 +212,8 @@
     if (!button) return;
     const panel = button.closest("[data-performance-indicator]");
     const floating = panel.classList.toggle("is-floating");
+    if (floating) enableGeometry(panel);
+    else for (const name of ['left','top','right','bottom','width','height','transform']) panel.style[name] = '';
     if(typeof panel.showPopover === 'function') {
       if(floating){panel.setAttribute('popover','manual');panel.showPopover();}
       else{panel.hidePopover();panel.removeAttribute('popover');}
@@ -190,6 +227,7 @@
     container.innerHTML = indicatorHtml(normalize(initial));
     const indicator = container.querySelector('[data-performance-indicator]');
     indicator.dataset.performanceContext = key;
+    mountNotes(indicator, key);
     return indicator;
   }
   const observer = new MutationObserver(scheduleMount);

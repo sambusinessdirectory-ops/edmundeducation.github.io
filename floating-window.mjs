@@ -10,7 +10,7 @@ export function resizeBounds(rect, corner, dx, dy, viewport, minimum = {}) {
   return { left, top, width: right - left, height: bottom - top };
 }
 
-export function mountFloatingWindow(panel, { dragHandle, minWidth = 280, minHeight = 160 } = {}) {
+export function mountFloatingWindow(panel, { dragHandle, minWidth = 280, minHeight = 160, isActive = () => true } = {}) {
   if (!panel || panel.dataset.cornerResize) return;
   panel.dataset.cornerResize = 'true';
   if (!document.querySelector('[data-floating-window-styles]')) {
@@ -19,7 +19,7 @@ export function mountFloatingWindow(panel, { dragHandle, minWidth = 280, minHeig
     css.dataset.floatingWindowStyles = ''; document.head.append(css);
   }
   const viewport = () => ({ width: innerWidth, height: innerHeight });
-  const disabled = () => panel.classList.contains('is-collapsed') || panel.classList.contains('is-expanded') || (panel.matches('.listening-transcript') && !panel.classList.contains('transcript-floating'));
+  const disabled = () => !isActive() || panel.classList.contains('is-collapsed') || panel.classList.contains('is-expanded') || (panel.matches('.listening-transcript') && !panel.classList.contains('transcript-floating'));
   const apply = rect => {
     Object.assign(panel.style, { left: `${rect.left}px`, top: `${rect.top}px`, width: `${rect.width}px`, height: `${rect.height}px`, right: 'auto', bottom: 'auto', transform: 'none' });
   };
