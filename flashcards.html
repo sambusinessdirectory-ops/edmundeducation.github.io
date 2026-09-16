@@ -4050,7 +4050,7 @@
 
         <img class="hero-mascot" src="assets/flashcards/mascot-flashcard.png" alt="" aria-hidden="true">
 
-        <form class="login-card" data-login-form>
+        <form class="login-card" data-login-form onsubmit="return false" aria-busy="true">
           <h2>Login</h2>
           <div class="field">
             <label for="username">User name</label>
@@ -4064,10 +4064,44 @@
             </div>
           </div>
           <div class="field">
-            <button class="primary-button" type="submit">Enter Flashcards</button>
+            <button class="primary-button" type="submit" disabled>Enter Flashcards</button>
           </div>
-          <p class="status" data-login-status></p>
+          <p class="status" data-login-status role="status" aria-live="polite">正在準備登入，請稍候… Preparing login…</p>
+          <noscript>請啟用 JavaScript 後重新載入，才能登入。Enable JavaScript and reload to log in.</noscript>
         </form>
+        <script>
+          // Install before the large lesson payload and external scripts: a
+          // native form submission would reload and put credentials in the URL.
+          (() => {
+            const form = document.querySelector("[data-login-form]");
+            const status = form.querySelector("[data-login-status]");
+            const submit = form.querySelector('button[type="submit"]');
+            let ready = false;
+            form.addEventListener("submit", event => {
+              event.preventDefault();
+              if (!ready) event.stopImmediatePropagation();
+            }, true);
+            const slowStartup = window.setTimeout(() => {
+              status.textContent = "載入較慢，請稍候；若一直未能登入，請重新載入頁面。請勿清除瀏覽器資料。Loading is taking longer than usual. Please wait, or reload if it does not finish. Do not clear browser data.";
+            }, 15000);
+            window.EdmundFlashcardLoginStartup = Object.freeze({
+              ready() {
+                ready = true;
+                window.clearTimeout(slowStartup);
+                form.removeAttribute("aria-busy");
+                submit.disabled = false;
+                status.textContent = "";
+              },
+              fail(message) {
+                ready = false;
+                window.clearTimeout(slowStartup);
+                form.removeAttribute("aria-busy");
+                submit.disabled = true;
+                status.textContent = message;
+              }
+            });
+          })();
+        </script>
       </section>
 
       <section class="app-view hidden" data-app-view>
@@ -198254,6 +198288,7 @@ window.EDMUND_FLASHCARD_SEED = {
           status.textContent = "瀏覽器內可能有舊有學習紀錄，但未能建立經核實的安全復原副本。系統已停止登入、清除及寫入；請不要清除瀏覽器資料，並聯絡管理員。";
         }
         updateSupabaseStatus("資料保護暫停：舊有紀錄未能安全備份", "error");
+        window.EdmundFlashcardLoginStartup.fail(status.textContent);
         return;
       }
       if (!(await verifyFlashcardOutboxAvailable())) {
@@ -198263,6 +198298,7 @@ window.EDMUND_FLASHCARD_SEED = {
         if (status) {
           status.textContent = "這個瀏覽器未能建立耐久待同步紀錄。為免任何新進度遺失，登入及寫入已停止；請不要使用私密瀏覽，並聯絡管理員。";
         }
+        window.EdmundFlashcardLoginStartup.fail(status.textContent);
         return;
       }
       setupFlashcardOutboxWakeups();
@@ -198293,6 +198329,7 @@ window.EDMUND_FLASHCARD_SEED = {
       restoredDashboardPanel?.removeAttribute("aria-busy");
       if (restoredDashboardPanel) restoredDashboardPanel.inert = false;
       loginControls.forEach(control => { control.disabled = false; });
+      window.EdmundFlashcardLoginStartup.ready();
       const context = captureSupabaseStateSaveContext();
       if (currentUser && stateReady && (!context || isSupabaseStateHydrated(context))) {
         if (context) {
@@ -198323,7 +198360,10 @@ window.EDMUND_FLASHCARD_SEED = {
     if (document.documentElement.classList.contains("flashcards-reading-embed")) {
       document.querySelector("[data-embedded-back-range]")?.classList.remove("hidden");
     }
-    void initialiseFlashcardPortal();
+    void initialiseFlashcardPortal().catch(error => {
+      console.error("Flashcard login startup failed:", error);
+      window.EdmundFlashcardLoginStartup.fail("登入頁未能完成載入，請重新載入再試。請勿清除瀏覽器資料；若問題持續，請聯絡管理員。Login could not finish loading. Please reload and try again. Do not clear browser data; contact your teacher if this continues.");
+    });
   </script>
   <script src="pronunciation-checker.js?v=20260914-six-languages-1"></script>
   <script src="flashcard-pronunciation.js?v=20260914-six-languages-1"></script>
