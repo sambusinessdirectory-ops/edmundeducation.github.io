@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {chromium,webkit} from '/Users/sammak/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs';
+const {chromium,webkit}=await import(process.env.PROFESSIONAL_QA_PLAYWRIGHT||'playwright');
 const engine=process.argv[2]==='WebKit'?webkit:chromium,browser=await engine.launch({headless:true}),context=await browser.newContext({viewport:{width:1280,height:900}}),page=await context.newPage(),errors=[];
 page.on('pageerror',e=>errors.push(e.message));const out='/tmp/professional-momentum';fs.mkdirSync(out,{recursive:true});
 let teamFail=false,stamp='2026-09-16T11:58:00Z',requests=[];
