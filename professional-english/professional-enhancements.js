@@ -102,11 +102,11 @@
     if (!polysemy && practice) {
       polysemy = document.createElement("section");
       polysemy.className = "learning-panel learning-panel--polysemy learning-panel--practice-glow";
-      polysemy.innerHTML = `<div class="pro-practice-heading"><div><span>PROFESSIONAL ENGLISH · WORDS IN CONTEXT</span><h3>一詞多義 (Polysemy) 練習</h3><p>閱讀例句及留空的中文翻譯，選擇符合語境的意思。答錯的題目會在下一輪再出現。</p></div></div><div class="poly-lesson-grid">${[1,2,3].map(lesson=>`<a class="poly-landing-card" href="./polysemy.html${lesson===1?'':`?lesson=${lesson}`}" data-poly-lesson="${lesson}"><strong>第${['','一','二','三'][lesson]}課 · Lesson ${lesson}</strong><span data-poly-count="${lesson}">${({1:'16 個詞語 · 92 題練習',2:'13 個詞語 · 82 題練習',3:'32 個詞語 · 197 題練習'})[lesson]}</span><span>每個詞語最後一題為課文原句 · 開始練習 →</span></a>`).join('')}</div>`;
+      polysemy.innerHTML = `<div class="pro-practice-heading"><div><span>PROFESSIONAL ENGLISH · WORDS IN CONTEXT</span><h3>一詞多義 (Polysemy) 練習</h3><p>閱讀例句及留空的中文翻譯，選擇符合語境的意思。答錯的題目會在下一輪再出現。</p></div></div><div class="poly-lesson-grid">${[1,2,3].map(lesson=>`<a class="poly-landing-card" href="./polysemy.html${lesson===1?'':`?lesson=${lesson}`}" data-poly-lesson="${lesson}"><strong>第${['','一','二','三'][lesson]}課 · Lesson ${lesson}</strong><span data-poly-count="${lesson}">${({1:'16 個詞語 · 92 題練習',2:'13 個詞語 · 82 題練習',3:'32 個詞語 · 197 題練習'})[lesson]}</span><span>每個詞語最後一題為課文原句 · 開始練習 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></a>`).join('')}</div>`;
       practice.after(polysemy);
     }
     let quick=course.querySelector(":scope > .quick-response-panel");
-    if(!quick&&polysemy){quick=document.createElement('section');quick.className='learning-panel quick-response-panel';quick.innerHTML='<h3>Quick Response 快問快答</h3><p>選擇版本，準備練習即時回應。</p><a class="quick-response-link" href="./library.html?view=quick">進入快問快答 →</a>';polysemy.after(quick);}
+    if(!quick&&polysemy){quick=document.createElement('section');quick.className='learning-panel quick-response-panel';quick.innerHTML='<h3>Quick Response 快問快答</h3><p>選擇版本，準備練習即時回應。</p><a class="quick-response-link" href="./library.html?view=quick">進入快問快答 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>';polysemy.after(quick);}
     const desired = [flash, high, practice, polysemy, quick, team, dashboards].filter(Boolean);
     const positions = desired.map(node => [...course.children].indexOf(node));
     if (positions.some((position, index) => index > 0 && position < positions[index - 1])) {

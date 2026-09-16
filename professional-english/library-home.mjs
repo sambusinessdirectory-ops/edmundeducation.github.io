@@ -1,6 +1,6 @@
-import {bindLiveSearch} from './search.mjs?v=20260916-community1';
-import {rpc,session} from './learning-state.mjs?v=20260916-community1';
-import {escapeHtml as esc} from './library-core.mjs?v=20260916-community1';
+import {bindLiveSearch} from './search.mjs?v=20260916-ui-polish1';
+import {rpc,session} from './learning-state.mjs?v=20260916-ui-polish1';
+import {escapeHtml as esc} from './library-core.mjs?v=20260916-ui-polish1';
 export function mountLibraryHome(host,owner){
  if(document.body.dataset.professionalLibraryPage==='true')return()=>{};
  let active=true,busy=false;

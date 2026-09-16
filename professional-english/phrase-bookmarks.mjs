@@ -1,5 +1,5 @@
-import {bookmarks,saveState,session} from './learning-state.mjs?v=20260916-community1';
-import {escapeHtml as esc,phraseKey,phraseRanges} from './library-core.mjs?v=20260916-community1';
+import {bookmarks,saveState,session} from './learning-state.mjs?v=20260916-ui-polish1';
+import {escapeHtml as esc,phraseKey,phraseRanges} from './library-core.mjs?v=20260916-ui-polish1';
 export function isPhraseMarked(dialogue,line,start,end){return phraseRanges(bookmarks(),dialogue,line).some(p=>start<p.end&&end>p.start);}
 export function openPhrasePicker(dialogue,lineIndex,onSaved){
  const owner=session()?.user?.id,line=dialogue.lines[lineIndex];if(!owner||!line)return;
@@ -15,7 +15,7 @@ export function openPhrasePicker(dialogue,lineIndex,onSaved){
   else if(button.matches('[data-save-phrase]')){
    if(session()?.user?.id!==owner){modal.close();return;}const {start,end}=bounds(),word=line.en.slice(start,end).trim();
    saveState(phraseKey(dialogue.id,lineIndex,start,end),{bookmarked:true,type:'phrase',word,dialogue:dialogue.id,title:dialogue.titleZh,lesson:dialogue.lesson,line:lineIndex,start,end,context:line.en,translation:line.zh},owner);
-   onSaved?.();modal.querySelector('[data-phrase-status]').innerHTML='已加入書籤。<a href="./library.html?view=bookmarks" target="_blank" rel="noopener">整理播放清單 ↗</a>';button.textContent='✓ 已收藏';button.disabled=true;
+   onSaved?.();modal.querySelector('[data-phrase-status]').innerHTML='已加入書籤。<a href="./library.html?view=bookmarks" target="_blank" rel="noopener">整理播放清單 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></a>';button.textContent='✓ 已收藏';button.disabled=true;
   }
  });
  modal.addEventListener('close',()=>modal.remove(),{once:true});document.body.append(modal);update();modal.showModal();modal.querySelector('[data-save-phrase]').focus();
