@@ -5,10 +5,14 @@ const html = readFileSync(new URL('../flashcards.html', import.meta.url), 'utf8'
 const start = html.indexOf('// Guard the form before lesson downloads');
 assert.ok(start > 0);
 const script = html.slice(start, html.indexOf('</script>', start));
-const markedResources = [...html.matchAll(/<script data-login-resource src=/g)].length;
+const resourceSources = JSON.parse(script.match(/const resourceSources = (\[.*\]);/)[1]);
+const dependencyBlock = html.slice(html.indexOf('<script src="https://cdn.jsdelivr.net/npm/@supabase'), html.indexOf('    const ADMIN_NAME'));
+const actualResources = [...dependencyBlock.matchAll(/<script src="([^"]+)"/g)].map(match => match[1]);
+assert.deepEqual(resourceSources, actualResources, 'Progress must follow the actual dependency list without changing script tags');
+const markedResources = actualResources.length;
 assert.equal(Number(script.match(/45 \* resources \/ (\d+)/)[1]), markedResources, 'Resource progress must match the actual downloads');
 assert.ok(html.indexOf('onsubmit="return false"') < start);
-assert.ok(start < html.indexOf('<script data-login-resource'));
+assert.ok(start < html.indexOf('<script src="https://cdn.jsdelivr.net/npm/@supabase'));
 
 const nodes = new Map();
 function node(selector) {
@@ -39,11 +43,11 @@ function submit() {
 }
 assert.equal(submit().prevented, true);
 assert.equal(submit().stopped, true);
-documentListeners.load({target: {matches: () => true}});
+documentListeners.load({target: {getAttribute: () => resourceSources[0]}});
 assert.ok(Number(bar.attrs['aria-valuenow']) > 5);
 ui.step(55, 'Protecting records');
 const loaded = bar.attrs['aria-valuenow'];
-documentListeners.load({target: {matches: () => true}});
+documentListeners.load({target: {getAttribute: () => resourceSources[0]}});
 assert.equal(bar.attrs['aria-valuenow'], loaded, 'Late assets cannot overwrite startup status');
 now = 15000;
 for (const tick of intervals.values()) tick();
