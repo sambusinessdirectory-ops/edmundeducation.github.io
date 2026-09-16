@@ -67,9 +67,13 @@ try {
   await page.evaluate(()=>{document.querySelector('[data-exam-elapsed-clock]').textContent='01:23';const panel=document.querySelector('[data-performance-indicator]');panel.remove();});
   await page.locator('[data-performance-notes]').waitFor();assert.equal(await page.locator('[data-performance-notes]').inputValue(),`Notes for ${mode}`);
  }
- // Original paper uses real assets and actual input controls.
+ // The digitised paper uses semantic layout, reconstructed illustrations and actual input controls.
  await page.evaluate(async()=>{const m=await import('./dse-listening-original-paper.mjs');window.paperAnswers=new Map();await m.openOriginalPaper({answers:window.paperAnswers,owner:'test-student',task:1});});
  await page.locator('[data-original-q="1"]').waitFor();assert.equal(await page.locator('.original-paper-page').count(),8);
+ assert.equal(await page.locator('.digital-paper-page').count(),8);
+ assert.equal(await page.locator('.original-paper-page > img').count(),0);
+ assert.equal(await page.locator('.digital-paper-exhibit-table img').count(),2);
+ assert.equal(await page.locator('.digital-paper-james > img').count(),1);
  assert.equal(await page.locator('[data-original-q]').evaluateAll(xs=>new Set(xs.map(x=>x.dataset.originalQ)).size),58);
  await page.locator('[data-original-q="1"]').fill('Space Invaders');
  await page.locator('[data-original-q="10"][value=A]').check();
@@ -80,5 +84,5 @@ try {
  await page.locator('[data-paper-close]').click();
  assert.equal(await page.evaluate(async()=>{const m=await import('./dse-listening-original-paper.mjs');const map=new Map();m.restoreOriginalAnswers('test-student',map);return map.get(1);}), 'Space Invaders');
  assert.equal(await page.evaluate(async()=>{const m=await import('./dse-listening-original-paper.mjs');const map=new Map();m.restoreOriginalAnswers('another-student',map);return map.size;}),0);
- assert.deepEqual(errors,[]);console.log('All five mock modes: saved notes, drag, four corners and restore passed. Original paper: 8 pages, 58 questions, controls, persistence and account isolation passed.');
+ assert.deepEqual(errors,[]);console.log('All five mock modes: saved notes, drag, four corners and restore passed. Crisp digital paper: 8 semantic pages, 58 questions, reconstructed illustrations, controls, persistence and account isolation passed.');
 } finally {await browser.close();}
