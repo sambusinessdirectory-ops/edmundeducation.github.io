@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 const bundle=fs.readFileSync(new URL('../professional-english/app.js',import.meta.url),'utf8');
+assert.ok(bundle.includes('c==="Not synced"'),'recovery controls compare the stable status value, not the translated label');
 const save=bundle.slice(bundle.indexOf('async function zt(){'),bundle.indexOf('function ml(',bundle.indexOf('async function zt(){')));
 assert.ok(save.startsWith('async function zt(){'));
 for(const code of ['PT409','40001']){

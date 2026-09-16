@@ -24,7 +24,8 @@ No student accounts, marks, attempts or drafts were deleted.
 
 The browser now recognizes both `PT409` and legacy `40001` as conflicts, stops
 further writes until recovery, and retains the pending request and completed
-answers in its device backup.
+answers in its device backup. Recovery controls compare the stable internal status
+value rather than its translated label, so they are also visible in bilingual mode.
 
 ## Verification
 
@@ -40,7 +41,9 @@ The shared student-login endpoint returned HTTP 200 for a nonexistent synthetic
 username, confirming normal endpoint execution without student credentials.
 The rollback counter stopped increasing rapidly and no active looping API
 queries remained. Regression tests cover the database error code and browser
-conflict handling with device-backup retention.
+conflict handling with device-backup retention. Chromium and WebKit browser checks
+confirmed the recovery controls are visible, a completed answer and position remain
+in local storage, and clicking Retry after a conflict sends no further mutation.
 
 Provider reference:
 https://supabase.com/docs/guides/troubleshooting/high-cpu-and-infinite-transaction-retries-when-using-custom-error-codes-in-rpc-functions-77326b
