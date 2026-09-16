@@ -1,5 +1,5 @@
-import {sourceLink,sourceLabel} from './library-core.mjs?v=20260916-library1';
-import {fontControl,record,startStudy,saveState,loadState,getCached,session,flush} from './learning-state.mjs?v=20260916-library1';
+import {sourceLink,sourceLabel} from './library-core.mjs?v=20260916-community1';
+import {fontControl,record,startStudy,saveState,loadState,getCached,session,flush} from './learning-state.mjs?v=20260916-community1';
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const lessonNumber=value=>[1,2,3].includes(Number(value))?Number(value):1;
 const lessonName=lesson=>`第${['','一','二','三'][lesson]}課`;
@@ -209,7 +209,7 @@ if(typeof document!=='undefined'&&document.body.dataset.professionalPolysemyPage
   async function initialise(){
     if(mounted||!document.querySelector('#root .course-section'))return;mounted=true;
     const lesson=lessonNumber(new URLSearchParams(location.search).get('lesson'));
-    try{const response=await fetch(`./content/lesson-${lesson}-polysemy.json?v=20260916-library1`);if(!response.ok)throw Error('content');mountPolysemyPage({data:await response.json(),lesson});}
+    try{const response=await fetch(`./content/lesson-${lesson}-polysemy.json?v=20260916-community1`);if(!response.ok)throw Error('content');mountPolysemyPage({data:await response.json(),lesson});}
     catch{const note=document.createElement('p');note.className='pro-page-load-error';note.textContent='練習暫時未能載入。';const retry=document.createElement('button');retry.type='button';retry.textContent='重試';retry.onclick=()=>{mounted=false;note.remove();initialise();};note.append(retry);document.body.append(note);}
   }
   new MutationObserver(initialise).observe(document.getElementById('root'),{childList:true,subtree:true});initialise();

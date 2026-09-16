@@ -191,7 +191,7 @@ async function checkAccount(){
  }catch{}
  if(currentOwner!==id||session()?.user?.id!==id||session()?.token!==owner.token)return;
  channelClient=new RealtimeClient(`${API.replace('https:','wss:')}/realtime/v1`,{params:{apikey:PUBLIC_KEY}});
- channelClient.channel('professional-learning',{config:{private:false}}).on('broadcast',{event:'changed'},notify).subscribe(status=>{document.documentElement.dataset.learningRealtime=status;if(status==='SUBSCRIBED')notify();});
+ channelClient.channel('professional-learning',{config:{private:false}}).on('broadcast',{event:'changed'},notify).on('broadcast',{event:'encouragement'},()=>document.dispatchEvent(new Event('professional-encouragement-changed'))).subscribe(status=>{document.documentElement.dataset.learningRealtime=status;if(status==='SUBSCRIBED')notify();});
 }
 function onCardMarked(event){
  const d=event.detail;

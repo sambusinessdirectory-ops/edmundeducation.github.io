@@ -1,0 +1,3435 @@
+{
+  "version": 1,
+  "pages": {
+    "1:2": [
+      {
+        "table": 0,
+        "row": 0,
+        "cell": 1,
+        "dialogue": "l1d1",
+        "line": 0,
+        "en": "Good morning. Welcome to Three Garden Road. How may I assist you today?",
+        "zh": "早上好，歡迎來到 Three Garden Road。請問今天有甚麼可以幫到您？",
+        "audio": true,
+        "lesson": 1,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 1,
+        "cell": 1,
+        "dialogue": "l1d1",
+        "line": 1,
+        "en": "Morning. I have a 10:30 meeting with Vivian Chan at Bright Star Consulting.",
+        "zh": "早上好。我上午 10:30 與 Bright Star Consulting 的 Vivian Chan 有約。",
+        "audio": true,
+        "lesson": 1,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 2,
+        "cell": 1,
+        "dialogue": "l1d1",
+        "line": 2,
+        "en": "Certainly. May I have your name and company, please?",
+        "zh": "好的。請問您的姓名及所屬公司是？",
+        "audio": true,
+        "lesson": 1,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 3,
+        "cell": 1,
+        "dialogue": "l1d1",
+        "line": 3,
+        "en": "Daniel Roberts, from Eastgate Partners.",
+        "zh": "Daniel Roberts，來自 Eastgate Partners。",
+        "audio": true,
+        "lesson": 1,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 4,
+        "cell": 1,
+        "dialogue": "l1d1",
+        "line": 4,
+        "en": "Thank you, Mr Roberts. Could I also confirm the floor listed in your meeting invitation?",
+        "zh": "謝謝您，Roberts 先生。我想再確認一下，您的會議邀請上列明的是哪一層？",
+        "audio": true,
+        "lesson": 1,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 5,
+        "cell": 1,
+        "dialogue": "l1d1",
+        "line": 5,
+        "en": "It says the 23rd floor.",
+        "zh": "上面寫的是 23 樓。",
+        "audio": true,
+        "lesson": 1,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 6,
+        "cell": 1,
+        "dialogue": "l1d1",
+        "line": 6,
+        "en": "Great. If I understood you correctly, that's Vivian Chan, Bright Star Consulting, 23rd floor, at 10:30. Is that correct?",
+        "zh": "好的。如果我理解正確，您是上午 10:30 與 Bright Star Consulting 的 Vivian Chan 在 23 樓會面。對嗎？",
+        "audio": true,
+        "lesson": 1,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 7,
+        "cell": 1,
+        "dialogue": "l1d1",
+        "line": 7,
+        "en": "That's correct.",
+        "zh": "對。",
+        "audio": true,
+        "lesson": 1,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 8,
+        "cell": 1,
+        "dialogue": "l1d1",
+        "line": 8,
+        "en": "Thank you. Please allow me a moment to verify the appointment with their office. Would you mind waiting in the reception area?",
+        "zh": "謝謝您。請稍候片刻，讓我向對方辦公室核實您的預約。麻煩您先在接待區等候，可以嗎？",
+        "audio": true,
+        "lesson": 1,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 9,
+        "cell": 1,
+        "dialogue": "l1d1",
+        "line": 9,
+        "en": "No problem.",
+        "zh": "沒問題。",
+        "audio": true,
+        "lesson": 1,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 10,
+        "cell": 1,
+        "dialogue": "l1d1",
+        "line": 10,
+        "en": "Thank you for waiting, Mr Roberts. Your appointment has been confirmed. Please proceed to the visitor registration counter. My colleague will issue your pass and direct you to Lift B.",
+        "zh": "謝謝您的耐心等候，Roberts 先生。您的預約已確認。請前往訪客登記櫃檯，我的同事會為您發出訪客證，並指引您前往 B 座升降機。",
+        "audio": true,
+        "lesson": 1,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 11,
+        "cell": 1,
+        "dialogue": "l1d1",
+        "line": 11,
+        "en": "Perfect. Thank you.",
+        "zh": "好的，謝謝。",
+        "audio": true,
+        "lesson": 1,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 12,
+        "cell": 1,
+        "dialogue": "l1d1",
+        "line": 12,
+        "en": "You're welcome. Enjoy your visit.",
+        "zh": "不客氣，祝您到訪愉快。",
+        "audio": true,
+        "lesson": 1,
+        "page": 2
+      }
+    ],
+    "1:3": [
+      {
+        "table": 0,
+        "row": 0,
+        "cell": 1,
+        "dialogue": "l1d2",
+        "line": 0,
+        "en": "Hi. I need to see Raymond Cheung at Sterling Asset Management. It's urgent.",
+        "zh": "你好。我需要見 Sterling Asset Management 的 Raymond Cheung。事情很緊急。",
+        "audio": true,
+        "lesson": 1,
+        "page": 3
+      },
+      {
+        "table": 0,
+        "row": 1,
+        "cell": 1,
+        "dialogue": "l1d2",
+        "line": 1,
+        "en": "Good afternoon. I understand it's urgent. May I ask whether Mr Cheung is expecting you today?",
+        "zh": "下午好。我明白事情很緊急。請問 Cheung 先生今天有預約您前來嗎？",
+        "audio": true,
+        "lesson": 1,
+        "page": 3
+      },
+      {
+        "table": 0,
+        "row": 2,
+        "cell": 1,
+        "dialogue": "l1d2",
+        "line": 2,
+        "en": "No, but he knows who I am. I only need five minutes.",
+        "zh": "沒有，但他認識我。我只需要五分鐘。",
+        "audio": true,
+        "lesson": 1,
+        "page": 3
+      },
+      {
+        "table": 0,
+        "row": 3,
+        "cell": 1,
+        "dialogue": "l1d2",
+        "line": 3,
+        "en": "I see. May I have your name and company so I can contact his office?",
+        "zh": "明白。請問您的姓名及所屬公司是？我可以聯絡他的辦公室。",
+        "audio": true,
+        "lesson": 1,
+        "page": 3
+      },
+      {
+        "table": 0,
+        "row": 4,
+        "cell": 1,
+        "dialogue": "l1d2",
+        "line": 4,
+        "en": "Elaine Foster, Westfield Advisory. Can I just go up? I'm already late.",
+        "zh": "Elaine Foster，Westfield Advisory。我可以直接上去嗎？我已經遲到了。",
+        "audio": true,
+        "lesson": 1,
+        "page": 3
+      },
+      {
+        "table": 0,
+        "row": 5,
+        "cell": 1,
+        "dialogue": "l1d2",
+        "line": 5,
+        "en": "I'm afraid I'm unable to grant access until the office confirms the visit. What I can do is call them now and let them know you're waiting.",
+        "zh": "不好意思，在對方辦公室確認您的到訪前，我暫時不能讓您進入。我可以現在替您致電他們，通知他們您正在等候。",
+        "audio": true,
+        "lesson": 1,
+        "page": 3
+      },
+      {
+        "table": 0,
+        "row": 6,
+        "cell": 1,
+        "dialogue": "l1d2",
+        "line": 6,
+        "en": "How long is that going to take?",
+        "zh": "那要等多久？",
+        "audio": true,
+        "lesson": 1,
+        "page": 3
+      },
+      {
+        "table": 0,
+        "row": 7,
+        "cell": 1,
+        "dialogue": "l1d2",
+        "line": 7,
+        "en": "It usually only takes a few minutes, but I don't want to promise a time before I reach them. Would you mind waiting by the Customer Services Counter?",
+        "zh": "通常只需幾分鐘，但在聯絡到他們之前，我不想向您承諾確實的時間。麻煩您在客戶服務櫃檯旁等候，可以嗎？",
+        "audio": true,
+        "lesson": 1,
+        "page": 3
+      },
+      {
+        "table": 0,
+        "row": 8,
+        "cell": 1,
+        "dialogue": "l1d2",
+        "line": 8,
+        "en": "Fine, but please tell them it's confidential.",
+        "zh": "好吧，但請告訴他們這件事是保密的。",
+        "audio": true,
+        "lesson": 1,
+        "page": 3
+      },
+      {
+        "table": 0,
+        "row": 9,
+        "cell": 1,
+        "dialogue": "l1d2",
+        "line": 9,
+        "en": "Certainly. I'll only say that you've arrived and would like to speak with Mr Cheung. I won't discuss the nature of your visit.",
+        "zh": "當然可以。我只會說您已經到了，並希望與 Cheung 先生談一談。我不會透露您到訪的具體事宜。",
+        "audio": true,
+        "lesson": 1,
+        "page": 3
+      },
+      {
+        "table": 0,
+        "row": 10,
+        "cell": 1,
+        "dialogue": "l1d2",
+        "line": 10,
+        "en": "Thank you.",
+        "zh": "謝謝。",
+        "audio": true,
+        "lesson": 1,
+        "page": 3
+      },
+      {
+        "table": 0,
+        "row": 11,
+        "cell": 1,
+        "dialogue": "l1d2",
+        "line": 11,
+        "en": "You're welcome. I'll update you as soon as I hear back.",
+        "zh": "不客氣。一收到回覆，我便會立即通知您。",
+        "audio": true,
+        "lesson": 1,
+        "page": 3
+      }
+    ],
+    "1:6": [
+      {
+        "table": 0,
+        "row": 0,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 0,
+        "en": "Good afternoon. Welcome to Three Garden Road. How may I assist you today?",
+        "zh": "下午好，歡迎來到 Three Garden Road。請問今天有甚麼可以幫到您？",
+        "audio": true,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 1,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 1,
+        "en": "Hi. I’m here to see Anthony Lau at Apex Consulting.",
+        "zh": "你好，我來找 Apex Consulting 的 Anthony Lau。",
+        "audio": true,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 2,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 2,
+        "en": "Certainly. May I have your name, please?",
+        "zh": "好的。請問您的姓名是？",
+        "audio": true,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 3,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 3,
+        "en": "Sophia Flora. I have a meeting with Mr Lau this afternoon.",
+        "zh": "Sophia Flora。我今天下午與 Lau 先生有約。",
+        "audio": true,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 4,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 4,
+        "en": "Thank you, Ms Flora. Could I confirm the floor with you?",
+        "zh": "謝謝您，Flora 女士。我想和您確認一下樓層。",
+        "audio": true,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 5,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 5,
+        "en": "It says the 14th floor.",
+        "zh": "上面寫的是 14 樓。",
+        "audio": true,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 6,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 6,
+        "en": "I see. There seems to be a discrepancy. Our building directory currently lists Apex Consulting on the 24th floor, rather than the 14th.",
+        "zh": "明白。資料似乎有些不一致。大廈名錄目前列明 Apex Consulting 位於 24 樓，而不是 14 樓。",
+        "audio": false,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 7,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 7,
+        "en": "Really? Are you sure the directory is up to date?",
+        "zh": "真的嗎？你確定名錄的資料是最新的嗎？",
+        "audio": true,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 8,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 8,
+        "en": "That’s a good question. Let me contact Apex Consulting and confirm their current location.",
+        "zh": "您問得好。讓我聯絡 Apex Consulting，確認他們目前的位置。",
+        "audio": true,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 9,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 9,
+        "en": "But my email definitely says the 14th floor.",
+        "zh": "但我的電郵確實寫着 14 樓。",
+        "audio": true,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 10,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 10,
+        "en": "I understand your concern. Just to confirm, you’re here to see Mr Anthony Lau at Apex Consulting, and your email states the 14th floor. Is that correct?",
+        "zh": "我明白您的疑慮。再確認一下，您是來找 Apex Consulting 的 Anthony Lau 先生，而您的電郵列明是 14 樓，對嗎？",
+        "audio": true,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 11,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 11,
+        "en": "Yes, that’s correct.",
+        "zh": "對，沒錯。",
+        "audio": true,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 12,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 12,
+        "en": "Thank you. Please allow me a moment to check with their office. Would you mind waiting in the reception area while I verify the floor?",
+        "zh": "謝謝您。請稍候片刻，讓我向對方辦公室查詢。核實樓層期間，麻煩您先在接待區等候，可以嗎？",
+        "audio": true,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 13,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 13,
+        "en": "Sure. How long will it take?",
+        "zh": "可以。大概要等多久？",
+        "audio": true,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 14,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 14,
+        "en": "It should only take a few minutes, but I’ll update you as soon as I receive confirmation.",
+        "zh": "應該只需幾分鐘，一收到確認，我便會立即通知您。",
+        "audio": true,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 15,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 15,
+        "en": "All right. Thank you.",
+        "zh": "好的，謝謝。",
+        "audio": true,
+        "lesson": 1,
+        "page": 6
+      },
+      {
+        "table": 0,
+        "row": 16,
+        "cell": 1,
+        "dialogue": "l1d3",
+        "line": 16,
+        "en": "You’re welcome, Ms Martin. Thank you for your patience.",
+        "zh": "不客氣，Martin 女士。謝謝您的耐心等候。",
+        "audio": false,
+        "lesson": 1,
+        "page": 6
+      }
+    ],
+    "2:1": [
+      {
+        "table": 0,
+        "row": 1,
+        "cell": 1,
+        "dialogue": "l2d1-beginner",
+        "line": 0,
+        "en": "Thanks, Mr. Daniels. Your visit is confirmed. I can take you to the 23rd floor.",
+        "zh": "謝謝您，Daniels 先生。您的到訪已獲確認。我可以帶您前往 23 樓。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 1,
+        "cell": 3,
+        "dialogue": "l2d1",
+        "line": 0,
+        "en": "Thanks, Mr. Daniels. Your appointment has been confirmed, and you'll be visiting the 23rd floor.",
+        "zh": "謝謝您，Daniels 先生。您的預約已確認，您將前往 23 樓。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 2,
+        "cell": 1,
+        "dialogue": "l2d1-beginner",
+        "line": 1,
+        "en": "Yes. Can I use these lifts here? They are closer.",
+        "zh": "好的。我可以乘搭這裡的升降機嗎？它們比較近。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 2,
+        "cell": 3,
+        "dialogue": "l2d1",
+        "line": 1,
+        "en": "Great. I'll just take the nearest lifts here.",
+        "zh": "好的，我就乘搭最近的這幾部升降機吧。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 3,
+        "cell": 1,
+        "dialogue": "l2d1-beginner",
+        "line": 2,
+        "en": "I’m afraid these are not the right lifts for the 23rd floor. Please take Lift H on the right to the 23rd floor.",
+        "zh": "不好意思，這幾部升降機不到 23 樓。請乘搭右邊的 H 號升降機前往 23 樓。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 3,
+        "cell": 3,
+        "dialogue": "l2d1",
+        "line": 2,
+        "en": "Just a moment, please. Those lifts do not serve the 23rd floor. Please use Lift H on your right to access the 23rd floor.",
+        "zh": "請稍等。這幾部升降機不到 23 樓。請使用您右邊的 H 號升降機前往 23 樓。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 4,
+        "cell": 1,
+        "dialogue": "l2d1-beginner",
+        "line": 3,
+        "en": "Oh, I didn't know there were different lift zones.",
+        "zh": "哦，我不知道升降機有不同的分區。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 4,
+        "cell": 3,
+        "dialogue": "l2d1",
+        "line": 3,
+        "en": "I see. I wasn't aware the lifts were zoned.",
+        "zh": "明白了，我不知道升降機是分區的。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 5,
+        "cell": 1,
+        "dialogue": "l2d1-beginner",
+        "line": 4,
+        "en": "No problem. I'll show you the correct lift zone.",
+        "zh": "沒問題。我會帶您前往正確的升降機區域。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 5,
+        "cell": 3,
+        "dialogue": "l2d1",
+        "line": 4,
+        "en": "No problem at all. I’ll accompany you to the correct lift bank.",
+        "zh": "沒關係，我會陪您前往正確的升降機區域。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 7,
+        "cell": 1,
+        "dialogue": "l2d1-beginner",
+        "line": 5,
+        "en": "Thanks. What is this QR receipt for?",
+        "zh": "謝謝。這張 QR 憑證有甚麼用途？",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 7,
+        "cell": 3,
+        "dialogue": "l2d1",
+        "line": 5,
+        "en": "Thank you. And what is this QR receipt for?",
+        "zh": "謝謝。另外，這張 QR 憑證有甚麼用途？",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 8,
+        "cell": 1,
+        "dialogue": "l2d1-beginner",
+        "line": 6,
+        "en": "Please keep the QR receipt with you. When you leave, scan the QR code at the exit gate on G/F.",
+        "zh": "請隨身保留這張 QR 憑證。離開時，請在地下的出口閘機掃描 QR 碼。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 8,
+        "cell": 3,
+        "dialogue": "l2d1",
+        "line": 6,
+        "en": "Please keep the QR receipt with you during your visit. When you return to G/F, scan the QR code at the exit gate to leave the secured area.",
+        "zh": "到訪期間，請隨身保留這張 QR 憑證。返回地下時，請在出口閘機掃描 QR 碼，離開管制區域。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 9,
+        "cell": 1,
+        "dialogue": "l2d1-beginner",
+        "line": 7,
+        "en": "Do I need to come back to the counter?",
+        "zh": "我需要再到櫃檯嗎？",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 9,
+        "cell": 3,
+        "dialogue": "l2d1",
+        "line": 7,
+        "en": "Do I need to return to the counter afterwards?",
+        "zh": "之後我需要再到櫃檯嗎？",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 10,
+        "cell": 1,
+        "dialogue": "l2d1-beginner",
+        "line": 8,
+        "en": "Only if you need help. Keep the QR receipt until you have exited through the gate.",
+        "zh": "只有在您需要協助時才需要。請保留 QR 憑證，直至您通過閘機離開。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 10,
+        "cell": 3,
+        "dialogue": "l2d1",
+        "line": 8,
+        "en": "Not unless you need assistance. Please keep the QR receipt until you have passed through the exit gate.",
+        "zh": "除非您需要協助，否則不用。通過出口閘機前，請保留這張 QR 憑證。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 11,
+        "cell": 1,
+        "dialogue": "l2d1-beginner",
+        "line": 9,
+        "en": "Got it. Thank you.",
+        "zh": "明白了。謝謝您。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 11,
+        "cell": 3,
+        "dialogue": "l2d1",
+        "line": 9,
+        "en": "Perfect. Thanks for explaining.",
+        "zh": "好的，謝謝您的說明。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 12,
+        "cell": 1,
+        "dialogue": "l2d1-beginner",
+        "line": 10,
+        "en": "You're welcome. Enjoy your visit.",
+        "zh": "不客氣。祝您到訪愉快。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      },
+      {
+        "table": 0,
+        "row": 12,
+        "cell": 3,
+        "dialogue": "l2d1",
+        "line": 10,
+        "en": "My pleasure. Enjoy your visit.",
+        "zh": "不客氣，祝您到訪愉快。",
+        "audio": true,
+        "lesson": 2,
+        "page": 1
+      }
+    ],
+    "2:2": [
+      {
+        "table": 0,
+        "row": 1,
+        "cell": 1,
+        "dialogue": "l2d2-beginner",
+        "line": 0,
+        "en": "Excuse me. I'm ready to leave, but I'm not sure how to get back to the ground floor.",
+        "zh": "不好意思，我準備離開了，但我不太清楚怎樣返回地下。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 1,
+        "cell": 3,
+        "dialogue": "l2d2",
+        "line": 0,
+        "en": "Excuse me. My meeting has finished, and I'm not familiar with the way back to the main lobby.",
+        "zh": "不好意思，我的會議已經結束了，但我不熟悉返回大堂的路。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 2,
+        "cell": 1,
+        "dialogue": "l2d2-beginner",
+        "line": 1,
+        "en": "No problem. I can show you to the ground floor.",
+        "zh": "沒問題。我可以帶您到地下。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 2,
+        "cell": 3,
+        "dialogue": "l2d2",
+        "line": 1,
+        "en": "Certainly. I can accompany you back to G/F and show you the exit.",
+        "zh": "當然可以。我可以陪您返回地下，並帶您到出口。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 3,
+        "cell": 1,
+        "dialogue": "l2d2-beginner",
+        "line": 2,
+        "en": "Thank you. Which lift should we use?",
+        "zh": "謝謝。請問我們應該乘搭哪部升降機？",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 3,
+        "cell": 3,
+        "dialogue": "l2d2",
+        "line": 2,
+        "en": "Thank you. I wasn't sure which lift to use.",
+        "zh": "謝謝您。我不太確定應該乘搭哪部升降機。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 4,
+        "cell": 1,
+        "dialogue": "l2d2-beginner",
+        "line": 3,
+        "en": "Please follow me. We'll use this lift back to G/F.",
+        "zh": "請跟我來。我們乘搭這部升降機返回地下。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 4,
+        "cell": 3,
+        "dialogue": "l2d2",
+        "line": 3,
+        "en": "That's all right. Please follow me; I'll lead the way to the correct lift.",
+        "zh": "沒關係。請跟我來，我會帶您前往正確的升降機。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 5,
+        "cell": 1,
+        "dialogue": "l2d2-beginner",
+        "line": 4,
+        "en": "Okay.",
+        "zh": "好的。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 5,
+        "cell": 3,
+        "dialogue": "l2d2",
+        "line": 4,
+        "en": "Great.",
+        "zh": "太好了。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 7,
+        "cell": 1,
+        "dialogue": "l2d2-beginner",
+        "line": 5,
+        "en": "We're on the ground floor now. The exit gate is on your left.",
+        "zh": "我們現在到地下了。出口閘機在您的左邊。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 7,
+        "cell": 3,
+        "dialogue": "l2d2",
+        "line": 5,
+        "en": "We've arrived at the ground floor. The exit gate is on your left-hand side.",
+        "zh": "我們已經到達地下了。出口閘機在您的左手邊。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 8,
+        "cell": 1,
+        "dialogue": "l2d2-beginner",
+        "line": 6,
+        "en": "Do I use the QR receipt here?",
+        "zh": "我是在這裡使用 QR 憑證嗎？",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 8,
+        "cell": 3,
+        "dialogue": "l2d2",
+        "line": 6,
+        "en": "I still have the QR receipt from earlier. Do I scan it there?",
+        "zh": "我仍保留著剛才的 QR 憑證。我在那裡掃描它嗎？",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 9,
+        "cell": 1,
+        "dialogue": "l2d2-beginner",
+        "line": 7,
+        "en": "Yes. Please scan the QR code at the gate.",
+        "zh": "是的。請在閘機掃描 QR 碼。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 9,
+        "cell": 3,
+        "dialogue": "l2d2",
+        "line": 7,
+        "en": "Yes. Please scan the QR code at the exit gate before leaving the secured area.",
+        "zh": "是的。離開管制區域前，請在出口閘機掃描 QR 碼。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 10,
+        "cell": 1,
+        "dialogue": "l2d2-beginner",
+        "line": 8,
+        "en": "Thank you for showing me the way.",
+        "zh": "謝謝您帶我過來。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 10,
+        "cell": 3,
+        "dialogue": "l2d2",
+        "line": 8,
+        "en": "Understood. Thank you for escorting me down.",
+        "zh": "明白了。謝謝您陪我下來。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 11,
+        "cell": 1,
+        "dialogue": "l2d2-beginner",
+        "line": 9,
+        "en": "You're welcome. Have a good day.",
+        "zh": "不客氣，祝您有愉快的一天。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      },
+      {
+        "table": 0,
+        "row": 11,
+        "cell": 3,
+        "dialogue": "l2d2",
+        "line": 9,
+        "en": "You're very welcome. The main exit is just ahead after the gate. Have a pleasant afternoon.",
+        "zh": "不用客氣。通過閘機後，主要出口就在前方。祝您下午愉快。",
+        "audio": true,
+        "lesson": 2,
+        "page": 2
+      }
+    ],
+    "2:4": [
+      {
+        "table": 0,
+        "row": 1,
+        "cell": 1,
+        "dialogue": "l2d3-beginner",
+        "line": 0,
+        "en": "Good evening. I'm here for a meeting with Jenny Chan.",
+        "zh": "晚上好，我來與 Jenny Chan 會面。",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 1,
+        "cell": 3,
+        "dialogue": "l2d3",
+        "line": 0,
+        "en": "Good evening. I'm here for a meeting with Jenny Chan.",
+        "zh": "晚上好，我來與 Jenny Chan 會面。",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 2,
+        "cell": 1,
+        "dialogue": "l2d3-beginner",
+        "line": 1,
+        "en": "Good evening. May I have your name and company, please?",
+        "zh": "晚上好。請問您的姓名及所屬公司是？",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 2,
+        "cell": 3,
+        "dialogue": "l2d3",
+        "line": 1,
+        "en": "Good evening. Welcome to Three Garden Road. May I have your name, company and appointment time, please?",
+        "zh": "晚上好，歡迎來到 Three Garden Road。請問您的姓名、所屬公司及預約時間是？",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 3,
+        "cell": 1,
+        "dialogue": "l2d3-beginner",
+        "line": 2,
+        "en": "Eric Wong, Metro Design Ltd. I have a 6:30 appointment.",
+        "zh": "Eric Wong，來自 Metro Design Ltd。我有下午 6:30 的預約。",
+        "audio": false,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 3,
+        "cell": 3,
+        "dialogue": "l2d3",
+        "line": 2,
+        "en": "Eric Wong from Metro Design Ltd. My appointment was for 6:30 p.m.",
+        "zh": "Eric Wong，來自 Metro Design Ltd。我的預約時間是下午 6:30。",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 4,
+        "cell": 1,
+        "dialogue": "l2d3-beginner",
+        "line": 3,
+        "en": "Thank you. The office normally closes at 6:00 p.m.",
+        "zh": "謝謝您。辦公室通常在下午 6:00 關閉。",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 4,
+        "cell": 3,
+        "dialogue": "l2d3",
+        "line": 3,
+        "en": "Thank you, Mr Wong. The tenant's normal office hours have already ended, so I'll need to verify that Ms Chan is still available.",
+        "zh": "謝謝您，Wong 先生。租戶的正常辦公時間已經結束，因此我需要先核實 Chan 女士是否仍可接待您。",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 5,
+        "cell": 1,
+        "dialogue": "l2d3-beginner",
+        "line": 4,
+        "en": "She told me she would still be in the office. Can you just call upstairs?",
+        "zh": "她跟我說她會留在辦公室。你可以直接打電話上去嗎？",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 5,
+        "cell": 3,
+        "dialogue": "l2d3",
+        "line": 4,
+        "en": "She told me she would still be in the office. Can you just call upstairs?",
+        "zh": "她跟我說她會留在辦公室。你可以直接打電話上去嗎？",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 6,
+        "cell": 1,
+        "dialogue": "l2d3-beginner",
+        "line": 5,
+        "en": "Yes, I can call the office. Please wait here while I check.",
+        "zh": "可以，我可以致電辦公室。請在這裡稍候，讓我先核實一下。",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 6,
+        "cell": 3,
+        "dialogue": "l2d3",
+        "line": 5,
+        "en": "Certainly. What I can do is contact the office now and let them know you've arrived.",
+        "zh": "當然可以。我現在可以聯絡他們的辦公室，通知他們您已經到了。",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 7,
+        "cell": 1,
+        "dialogue": "l2d3-beginner",
+        "line": 6,
+        "en": "Can I go up first? I'm already late.",
+        "zh": "我可以先上去嗎？我已經遲到了。",
+        "audio": false,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 7,
+        "cell": 3,
+        "dialogue": "l2d3",
+        "line": 6,
+        "en": "Can I go up while you're calling? I'm already late.",
+        "zh": "你打電話的時候，我可以先上去嗎？我已經遲到了。",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 8,
+        "cell": 1,
+        "dialogue": "l2d3-beginner",
+        "line": 7,
+        "en": "Sorry. I need confirmation before I can send you upstairs.",
+        "zh": "不好意思。我需要先得到確認，才可以讓您上樓。",
+        "audio": false,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 8,
+        "cell": 3,
+        "dialogue": "l2d3",
+        "line": 7,
+        "en": "I understand your concern. However, I'm unable to send you upstairs until I receive confirmation from the tenant.",
+        "zh": "我明白您的情況。不過，在收到租戶確認之前，我暫時不能讓您上樓。",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 9,
+        "cell": 1,
+        "dialogue": "l2d3-beginner",
+        "line": 8,
+        "en": "All right.",
+        "zh": "好吧。",
+        "audio": false,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 9,
+        "cell": 3,
+        "dialogue": "l2d3",
+        "line": 8,
+        "en": "How long will that take?",
+        "zh": "那要等多久？",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 10,
+        "cell": 1,
+        "dialogue": "l2d3-beginner",
+        "line": 9,
+        "en": "Thank you for waiting. Ms Chan has confirmed the meeting. Please use the correct lift zone to the 19th floor.",
+        "zh": "謝謝您的等候。Chan 女士已確認您的會面。請使用正確的升降機區域前往 19 樓。",
+        "audio": false,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 10,
+        "cell": 3,
+        "dialogue": "l2d3",
+        "line": 9,
+        "en": "I'll check immediately, but I don't want to promise a time before I reach them. Would you mind waiting by the CS counter?",
+        "zh": "我會立即替您查詢，但在聯絡到他們之前，我不想向您承諾確實所需時間。麻煩您先在客戶服務櫃檯旁等候，可以嗎？",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 11,
+        "cell": 1,
+        "dialogue": "l2d3-beginner",
+        "line": 10,
+        "en": "Thank you.",
+        "zh": "謝謝。",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 11,
+        "cell": 3,
+        "dialogue": "l2d3",
+        "line": 10,
+        "en": "Okay.",
+        "zh": "好的。",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 12,
+        "cell": 1,
+        "dialogue": "l2d3-beginner",
+        "line": 11,
+        "en": "You're welcome. Please keep your QR receipt for the exit gate when you leave.",
+        "zh": "不客氣。離開時，請保留您的 QR 離場憑證，以便在出口閘機使用。",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      },
+      {
+        "table": 0,
+        "row": 12,
+        "cell": 3,
+        "dialogue": "l2d3",
+        "line": 11,
+        "en": "Thank you for waiting, Mr Wong. The tenant has confirmed that Ms Chan is in the office. You may proceed to the 19th floor. Please keep your QR receipt for the exit gate when you leave.",
+        "zh": "謝謝您的等候，Wong 先生。租戶已確認 Chan 女士仍在辦公室。您現在可以前往 19 樓。離開時，請保留您的 QR 離場憑證，以便在出口閘機使用。",
+        "audio": true,
+        "lesson": 2,
+        "page": 4
+      }
+    ],
+    "3:1": [
+      {
+        "table": 1,
+        "row": 1,
+        "cell": 1,
+        "dialogue": "l3d1-beginner",
+        "line": 0,
+        "en": "Excuse me. There is a serious problem near our office.",
+        "zh": "不好意思，我們辦公室附近有一個嚴重問題。",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 1,
+        "cell": 3,
+        "dialogue": "l3d1-professional",
+        "line": 0,
+        "en": "Excuse me. I’d like to report an urgent environmental and hygiene issue near our office.",
+        "zh": "不好意思，我想匯報我們辦公室附近一個緊急的環境及衞生問題。",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 2,
+        "cell": 1,
+        "dialogue": "l3d1-beginner",
+        "line": 1,
+        "en": "I’m sorry to hear that. What happened?",
+        "zh": "聽到這情況我很抱歉。發生甚麼事？",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 2,
+        "cell": 3,
+        "dialogue": "l3d1-professional",
+        "line": 1,
+        "en": "I’m sorry about the situation. Could you tell me exactly what has happened?",
+        "zh": "對於這個情況，我很抱歉。可否清楚告訴我發生了甚麼事？",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 3,
+        "cell": 1,
+        "dialogue": "l3d1-beginner",
+        "line": 2,
+        "en": "Someone has put boxes and other things in the rear staircase. The fire route is blocked.",
+        "zh": "有人在後樓梯放置紙箱及其他物品。消防通道被阻塞了。",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 3,
+        "cell": 3,
+        "dialogue": "l3d1-professional",
+        "line": 2,
+        "en": "Items have been left in the rear staircase and corridor, and they are obstructing the fire escape route.",
+        "zh": "有物品被留在後樓梯和走廊，正在阻礙走火通道。",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 4,
+        "cell": 1,
+        "dialogue": "l3d1-beginner",
+        "line": 3,
+        "en": "I understand. Which floor and which staircase is it?",
+        "zh": "我明白。請問是哪一層、哪條樓梯？",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 4,
+        "cell": 3,
+        "dialogue": "l3d1-professional",
+        "line": 3,
+        "en": "Thank you for letting us know. May I confirm the floor and the exact staircase / corridor location?",
+        "zh": "謝謝您通知我們。請問可否確認樓層，以及樓梯／走廊的確實位置？",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 5,
+        "cell": 1,
+        "dialogue": "l3d1-beginner",
+        "line": 4,
+        "en": "18/F, the rear staircase beside the refuse room. The refuse room also smells very bad, and we have seen rats and mosquitoes.",
+        "zh": "18樓，垃圾房旁邊的後樓梯。垃圾房也很臭，而且我們看見老鼠和蚊。",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 5,
+        "cell": 3,
+        "dialogue": "l3d1-professional",
+        "line": 4,
+        "en": "It is on 18/F, at the rear staircase beside the refuse room. There is also a strong odour from the refuse room, and we have noticed rats and mosquitoes.",
+        "zh": "位置在18樓垃圾房旁邊的後樓梯。垃圾房亦傳出強烈異味，而且我們已留意到有老鼠和蚊。",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 6,
+        "cell": 1,
+        "dialogue": "l3d1-beginner",
+        "line": 5,
+        "en": "Thank you. I’ll report the blocked route and hygiene problem to management now.",
+        "zh": "謝謝。我現在會向管理處匯報通道受阻和衞生問題。",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 6,
+        "cell": 3,
+        "dialogue": "l3d1-professional",
+        "line": 5,
+        "en": "Understood. I’ll report both the fire-route obstruction and the hygiene concerns to the management office immediately.",
+        "zh": "明白。我會立即向管理處匯報消防通道阻塞及衞生方面的問題。",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 7,
+        "cell": 1,
+        "dialogue": "l3d1-beginner",
+        "line": 6,
+        "en": "Please send cleaners immediately, check the area more often, and warn the unit responsible.",
+        "zh": "請立即派清潔工，更頻密檢查該範圍，並警告相關負責單位。",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 7,
+        "cell": 3,
+        "dialogue": "l3d1-professional",
+        "line": 6,
+        "en": "Please arrange cleaning right away, increase frontline patrols, and issue a warning to the unit responsible.",
+        "zh": "請立即安排清潔、增加前線巡邏，並向相關負責單位發出警告。",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 8,
+        "cell": 1,
+        "dialogue": "l3d1-beginner",
+        "line": 7,
+        "en": "I understand your concern. I’ll pass those requests to management and ask the team to follow up.",
+        "zh": "我明白您的擔心。我會把這些要求轉交管理處，並請團隊跟進。",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 8,
+        "cell": 3,
+        "dialogue": "l3d1-professional",
+        "line": 7,
+        "en": "I understand your concern. I’ll record those requests clearly and escalate them to management for appropriate follow-up under the building procedures.",
+        "zh": "我明白您的擔心。我會清楚記錄這些要求，並向管理層升級匯報，以便按大廈程序作適當跟進。",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 9,
+        "cell": 1,
+        "dialogue": "l3d1-beginner",
+        "line": 8,
+        "en": "When will it be cleared?",
+        "zh": "何時會清理好？",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 9,
+        "cell": 3,
+        "dialogue": "l3d1-professional",
+        "line": 8,
+        "en": "How soon can this be cleared?",
+        "zh": "這個情況最快何時可以清理好？",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 10,
+        "cell": 1,
+        "dialogue": "l3d1-beginner",
+        "line": 9,
+        "en": "I can’t confirm the exact time yet, but I’ll report it as urgent and update you when we receive a response.",
+        "zh": "我暫時未能確認確實時間，但會以緊急事項匯報，收到回覆後便通知您最新情況。",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      },
+      {
+        "table": 1,
+        "row": 10,
+        "cell": 3,
+        "dialogue": "l3d1-professional",
+        "line": 9,
+        "en": "I’ll mark the matter as urgent, but I don’t want to promise a clearance time before the responsible team confirms it. We’ll update you once we receive their response.",
+        "zh": "我會把這件事標示為緊急，但在負責團隊確認之前，我不想承諾清理完成的時間。我們一收到他們的回覆，便會通知您最新情況。",
+        "audio": true,
+        "lesson": 3,
+        "page": 1
+      }
+    ],
+    "3:2": [
+      {
+        "table": 1,
+        "row": 1,
+        "cell": 1,
+        "dialogue": "l3d2-beginner",
+        "line": 0,
+        "en": "Hi. Our reception area is very warm, and the washroom nearby is locked.",
+        "zh": "你好。我們的接待區很熱，而且附近的洗手間上鎖了。",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 1,
+        "cell": 3,
+        "dialogue": "l3d2-professional",
+        "line": 0,
+        "en": "Hello. I’d like to report two facility issues on our floor. the reception area is uncomfortably warm, and the nearby washroom is currently inaccessible.",
+        "zh": "你好。我想匯報我們樓層的兩個設施問題。接待區熱得令人不舒服，而且附近的洗手間現時無法使用。",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 2,
+        "cell": 1,
+        "dialogue": "l3d2-beginner",
+        "line": 1,
+        "en": "I’m sorry about that. Which floor are you on?",
+        "zh": "對此我很抱歉。請問您在哪一層？",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 2,
+        "cell": 3,
+        "dialogue": "l3d2-professional",
+        "line": 1,
+        "en": "I’m sorry for the inconvenience. May I confirm your floor first?",
+        "zh": "對造成不便我很抱歉。請問可否先確認您的樓層？",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 3,
+        "cell": 1,
+        "dialogue": "l3d2-beginner",
+        "line": 2,
+        "en": "We’re on 12/F.",
+        "zh": "我們在12樓。",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 3,
+        "cell": 3,
+        "dialogue": "l3d2-professional",
+        "line": 2,
+        "en": "We’re on 12/F.",
+        "zh": "我們在12樓。",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 4,
+        "cell": 1,
+        "dialogue": "l3d2-beginner",
+        "line": 3,
+        "en": "Where exactly is the warm area, and which washroom is locked?",
+        "zh": "很熱的範圍確實在哪裡？是哪個洗手間上鎖了？",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 4,
+        "cell": 3,
+        "dialogue": "l3d2-professional",
+        "line": 3,
+        "en": "Thank you. Could you give me the exact location of the warm area and identify which washroom is affected?",
+        "zh": "謝謝。可否告訴我很熱的範圍的確實位置，並說明是哪個洗手間受影響？",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 5,
+        "cell": 1,
+        "dialogue": "l3d2-beginner",
+        "line": 4,
+        "en": "The reception area outside Suite 1203. The washroom beside Lift Lobby B is locked.",
+        "zh": "1203室外面的接待區。B升降機大堂旁邊的洗手間上鎖了。",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 5,
+        "cell": 3,
+        "dialogue": "l3d2-professional",
+        "line": 4,
+        "en": "The reception area outside Suite 1203 is very warm. The washroom beside Lift Lobby B appears to be locked / out of service.",
+        "zh": "1203室外面的接待區很熱。B升降機大堂旁邊的洗手間似乎上鎖了／暫停使用。",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 6,
+        "cell": 1,
+        "dialogue": "l3d2-beginner",
+        "line": 5,
+        "en": "Thank you. Is the air-conditioning completely off, or is it just not cool enough?",
+        "zh": "謝謝。冷氣是完全關掉了，還是只是不夠凍？",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 6,
+        "cell": 3,
+        "dialogue": "l3d2-professional",
+        "line": 5,
+        "en": "Understood. Is the air-conditioning not operating at all, or is it running but not cooling the area properly?",
+        "zh": "明白。冷氣是完全沒有運作，還是有運作但未能有效降低該範圍的溫度？",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 7,
+        "cell": 1,
+        "dialogue": "l3d2-beginner",
+        "line": 6,
+        "en": "It’s running, but the area is still very warm. We also need the washroom reopened.",
+        "zh": "冷氣有運作，但該範圍仍然很熱。我們亦需要洗手間重新開放。",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 7,
+        "cell": 3,
+        "dialogue": "l3d2-professional",
+        "line": 6,
+        "en": "It is running, but the temperature is still uncomfortable. We also need access to a washroom nearby.",
+        "zh": "冷氣有運作，但溫度仍令人不舒服。我們亦需要使用附近的洗手間。",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 8,
+        "cell": 1,
+        "dialogue": "l3d2-beginner",
+        "line": 7,
+        "en": "I’ll report both problems to management and the engineering team now.",
+        "zh": "我現在會向管理處和工程團隊匯報這兩個問題。",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 8,
+        "cell": 3,
+        "dialogue": "l3d2-professional",
+        "line": 7,
+        "en": "Thank you. I’ll log both issues separately and report them to the management / engineering team for follow-up.",
+        "zh": "謝謝。我會分開記錄這兩個問題，並向管理處／工程團隊匯報以作跟進。",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 9,
+        "cell": 1,
+        "dialogue": "l3d2-beginner",
+        "line": 8,
+        "en": "Can someone fix them in thirty minutes?",
+        "zh": "可以安排人在三十分鐘內修好嗎？",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 9,
+        "cell": 3,
+        "dialogue": "l3d2-professional",
+        "line": 8,
+        "en": "Can you have both fixed within thirty minutes?",
+        "zh": "您可以安排在三十分鐘內把兩個問題都修好嗎？",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 10,
+        "cell": 1,
+        "dialogue": "l3d2-beginner",
+        "line": 9,
+        "en": "I can’t promise a repair time, but I’ll report both issues as soon as possible and update you when I have more information.",
+        "zh": "我不能承諾維修時間，但會盡快匯報這兩個問題，並在有更多資料時通知您最新情況。",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      },
+      {
+        "table": 1,
+        "row": 10,
+        "cell": 3,
+        "dialogue": "l3d2-professional",
+        "line": 9,
+        "en": "I’ll ask the responsible team to attend as soon as possible, but I don’t want to promise a repair time before they assess the problems. I’ll update you once I receive their response.",
+        "zh": "我會請負責團隊盡快到場，但在他們評估問題之前，我不想承諾維修時間。我一收到他們的回覆，便會通知您最新情況。",
+        "audio": true,
+        "lesson": 3,
+        "page": 2
+      }
+    ],
+    "3:4": [
+      {
+        "table": 1,
+        "row": 1,
+        "cell": 1,
+        "dialogue": "l3d3-beginner",
+        "line": 0,
+        "en": "Excuse me. The lights in our meeting room are not working properly. It’s very dim.",
+        "zh": "不好意思，我們會議室的燈未能正常運作，房間很暗。",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 1,
+        "cell": 3,
+        "dialogue": "l3d3-professional",
+        "line": 0,
+        "en": "Excuse me. I’d like to report an urgent lighting fault in one of our meeting rooms. The room is currently very dim.",
+        "zh": "不好意思，我想匯報我們其中一間會議室的緊急燈光故障。房間現時很暗。",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 2,
+        "cell": 1,
+        "dialogue": "l3d3-beginner",
+        "line": 1,
+        "en": "I’m sorry. Which floor and meeting room is it?",
+        "zh": "很抱歉。請問是哪一層、哪間會議室？",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 2,
+        "cell": 3,
+        "dialogue": "l3d3-professional",
+        "line": 1,
+        "en": "I’m sorry for the inconvenience. May I confirm the floor and the exact suite number?",
+        "zh": "對造成不便我很抱歉。請問可否確認樓層及確實單位號碼？",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 3,
+        "cell": 1,
+        "dialogue": "l3d3-beginner",
+        "line": 2,
+        "en": "15/F, Meeting Room 3. Our client will arrive in about 20 minutes.",
+        "zh": "15樓，三號會議室。我們的客戶大約二十分鐘後到達。",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 3,
+        "cell": 3,
+        "dialogue": "l3d3-professional",
+        "line": 2,
+        "en": "It’s Suite 3017 on 30/F. We have a client meeting starting in about 20 minutes.",
+        "zh": "30樓3017室。我們有一個客戶會議，大約二十分鐘後開始。",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 4,
+        "cell": 1,
+        "dialogue": "l3d3-beginner",
+        "line": 3,
+        "en": "I understand. Are all the lights off, or only some of them?",
+        "zh": "我明白。是所有燈都熄了，還是只有部分？",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 4,
+        "cell": 3,
+        "dialogue": "l3d3-professional",
+        "line": 3,
+        "en": "Understood. Are all of the lights affected, or are only some fittings not working?",
+        "zh": "明白。是所有燈都受影響，還是只有部分燈具不能運作？",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 5,
+        "cell": 1,
+        "dialogue": "l3d3-beginner",
+        "line": 4,
+        "en": "Only a few lights are on. The room is too dark for the meeting.",
+        "zh": "只有幾盞燈亮著。房間太暗，無法開會。",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 5,
+        "cell": 3,
+        "dialogue": "l3d3-professional",
+        "line": 4,
+        "en": "Only a few lights are operating, so the room is too dark to use comfortably.",
+        "zh": "只有幾盞燈正常運作，所以房間太暗，不能舒適使用。",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 6,
+        "cell": 1,
+        "dialogue": "l3d3-beginner",
+        "line": 5,
+        "en": "Thank you. I’ll report the lighting problem to management / engineering as urgent.",
+        "zh": "謝謝。我會把燈光問題列為緊急事項，向管理處／工程部匯報。",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 6,
+        "cell": 3,
+        "dialogue": "l3d3-professional",
+        "line": 5,
+        "en": "Thank you for the details. I’ll log this as an urgent lighting fault and contact the management / engineering team immediately.",
+        "zh": "謝謝您提供詳情。我會把這記錄為緊急燈光故障，並立即聯絡管理處／工程團隊。",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 7,
+        "cell": 1,
+        "dialogue": "l3d3-beginner",
+        "line": 6,
+        "en": "Please get someone here immediately. We really need the room.",
+        "zh": "請立即安排人員到場。我們真的需要使用這間房。",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 7,
+        "cell": 3,
+        "dialogue": "l3d3-professional",
+        "line": 6,
+        "en": "Please have someone come up now. We need the room for the client meeting.",
+        "zh": "請現在安排人員上來。我們需要使用這間房與客戶開會。",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 8,
+        "cell": 1,
+        "dialogue": "l3d3-beginner",
+        "line": 7,
+        "en": "I understand. I’ll ask the team to attend as soon as possible.",
+        "zh": "我明白。我會請團隊盡快到場。",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 8,
+        "cell": 3,
+        "dialogue": "l3d3-professional",
+        "line": 7,
+        "en": "I understand the urgency. I’ll request attendance as soon as possible and explain that a client meeting is due to begin shortly.",
+        "zh": "我明白事情很緊急。我會要求人員盡快到場，並說明客戶會議即將開始。",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 9,
+        "cell": 1,
+        "dialogue": "l3d3-beginner",
+        "line": 8,
+        "en": "Will it be fixed before the client arrives?",
+        "zh": "能在客戶到達前修好嗎？",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 9,
+        "cell": 3,
+        "dialogue": "l3d3-professional",
+        "line": 8,
+        "en": "Can you guarantee it will be repaired before the meeting?",
+        "zh": "您能保證在會議前修好嗎？",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 10,
+        "cell": 1,
+        "dialogue": "l3d3-beginner",
+        "line": 9,
+        "en": "I can’t confirm that yet, but I’ll follow up and update you as soon as I receive a response.",
+        "zh": "我暫時未能確認，但會跟進，並在收到回覆後立即通知您最新情況。",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      },
+      {
+        "table": 1,
+        "row": 10,
+        "cell": 3,
+        "dialogue": "l3d3-professional",
+        "line": 9,
+        "en": "I’m afraid I’m unable to guarantee the repair time before the technician assesses the fault. I’ll follow up closely and update you as soon as I receive a confirmed response.",
+        "zh": "很抱歉，在技術員評估故障之前，我未能保證維修時間。我會密切跟進，並在收到已確認的回覆後立即通知您最新情況。",
+        "audio": true,
+        "lesson": 3,
+        "page": 4
+      }
+    ],
+    "3:5": [
+      {
+        "table": 1,
+        "row": 1,
+        "cell": 1,
+        "dialogue": "l3d4-beginner",
+        "line": 0,
+        "en": "Excuse me. The air-conditioner in our office is dripping water.",
+        "zh": "不好意思，我們辦公室的冷氣機正在滴水。",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 1,
+        "cell": 3,
+        "dialogue": "l3d4-professional",
+        "line": 0,
+        "en": "Excuse me. I'd like to report water dripping from the air-conditioning unit in our office.",
+        "zh": "不好意思，我想匯報我們辦公室的冷氣機正在滴水。",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 2,
+        "cell": 1,
+        "dialogue": "l3d4-beginner",
+        "line": 1,
+        "en": "I'm sorry about that. Which floor and where exactly is it?",
+        "zh": "對此我很抱歉。請問是哪一層，確實位置在哪裡？",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 2,
+        "cell": 3,
+        "dialogue": "l3d4-professional",
+        "line": 1,
+        "en": "I'm sorry about the inconvenience. May I confirm the floor and exact location of the leak?",
+        "zh": "對造成不便我很抱歉。請問可否確認樓層及漏水的確實位置？",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 3,
+        "cell": 1,
+        "dialogue": "l3d4-beginner",
+        "line": 2,
+        "en": "15/F, outside Meeting Room 2 near the reception desk. The floor is getting wet.",
+        "zh": "15樓，接待處附近的二號會議室外面。地板正變濕。",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 3,
+        "cell": 3,
+        "dialogue": "l3d4-professional",
+        "line": 2,
+        "en": "It's on 15/F, Suit 3001, just outside Meeting Room 2. The dripping is making the floor wet.",
+        "zh": "位置在15樓3001室，就在二號會議室外面。滴水令地板變濕。",
+        "audio": false,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 4,
+        "cell": 1,
+        "dialogue": "l3d4-beginner",
+        "line": 3,
+        "en": "Thank you. Is the water near any power socket or electrical equipment?",
+        "zh": "謝謝。水是否接近任何電源插座或電器設備？",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 4,
+        "cell": 3,
+        "dialogue": "l3d4-professional",
+        "line": 3,
+        "en": "Thank you for the details. For safety, may I also check whether the water is close to any electrical socket, equipment, or a walkway?",
+        "zh": "謝謝您提供詳情。為安全起見，可否亦確認水是否接近任何電源插座、設備或通道？",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 5,
+        "cell": 1,
+        "dialogue": "l3d4-beginner",
+        "line": 4,
+        "en": "Yes. There is a socket nearby, and someone almost slipped.",
+        "zh": "是的，附近有一個插座，而且有人差點滑倒。",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 5,
+        "cell": 3,
+        "dialogue": "l3d4-professional",
+        "line": 4,
+        "en": "Yes. There is a power socket nearby, and one of my colleagues almost slipped.",
+        "zh": "是的，附近有一個電源插座，而且我的一位同事差點滑倒。",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 6,
+        "cell": 1,
+        "dialogue": "l3d4-beginner",
+        "line": 5,
+        "en": "Understood. Please keep people away from the wet area for now. I'll report it to management and ask the technical team to check it.",
+        "zh": "明白。請暫時讓人遠離濕滑範圍。我會向管理處匯報，並請技術團隊檢查。",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 6,
+        "cell": 3,
+        "dialogue": "l3d4-professional",
+        "line": 5,
+        "en": "Thank you for letting us know. Please keep the area clear for the moment. I'll report the water leak to the management office and request urgent attendance from the technical team.",
+        "zh": "謝謝您通知我們。請暫時保持該範圍暢通。我會向管理處匯報漏水，並要求技術團隊緊急到場處理。",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 7,
+        "cell": 1,
+        "dialogue": "l3d4-beginner",
+        "line": 6,
+        "en": "Can you get someone here now? We have a client meeting soon.",
+        "zh": "您能現在安排人員到場嗎？我們快要與客戶開會。",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 7,
+        "cell": 3,
+        "dialogue": "l3d4-professional",
+        "line": 6,
+        "en": "Could someone attend immediately?",
+        "zh": "可否安排人員立即到場？",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 8,
+        "cell": 1,
+        "dialogue": "l3d4-beginner",
+        "line": 7,
+        "en": "I understand it's urgent. I'll mark it as urgent and ask for a cleaner and a wet-floor sign. I can't confirm the repair time yet, but I'll update you as soon as I receive a response.",
+        "zh": "我明白事情很緊急。我會標示為緊急，並要求安排清潔工及小心地滑牌。我暫時未能確認維修時間，但會在收到回覆後立即通知您最新情況。",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 8,
+        "cell": 3,
+        "dialogue": "l3d4-professional",
+        "line": 7,
+        "en": "I understand the urgency. I'll flag the case as urgent and arrange for the area to be made safe, including cleaning and a wet-floor sign.",
+        "zh": "我明白事情很緊急。我會將個案標示為緊急，並安排令該範圍安全，包括清潔及設置小心地滑牌。",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 9,
+        "cell": 1,
+        "dialogue": "l3d4-beginner",
+        "line": 8,
+        "en": "All right. Please let us know.",
+        "zh": "好的。請通知我們。",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 9,
+        "cell": 3,
+        "dialogue": "l3d4-professional",
+        "line": 8,
+        "en": "Thank you. Please keep us informed.",
+        "zh": "謝謝。請讓我們知道最新情況。",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 10,
+        "cell": 1,
+        "dialogue": "l3d4-beginner",
+        "line": 9,
+        "en": "Certainly. We'll follow up and keep you updated.",
+        "zh": "當然。我們會跟進，並讓您知道最新情況。",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      },
+      {
+        "table": 1,
+        "row": 10,
+        "cell": 3,
+        "dialogue": "l3d4-professional",
+        "line": 9,
+        "en": "Certainly. We'll follow up with the responsible team and keep you updated.",
+        "zh": "當然。我們會向負責團隊跟進，並讓您知道最新情況。",
+        "audio": true,
+        "lesson": 3,
+        "page": 5
+      }
+    ]
+  },
+  "upgrades": [
+    {
+      "lesson": 1,
+      "page": 2,
+      "selector": "p",
+      "index": 3,
+      "prompt": "Rewrite “ I go check.\" as one natural professional response:",
+      "answer": "Thank you. Please allow me a moment to verify the appointment with their office. Would you mind waiting in the reception area?",
+      "translation": "謝謝您。請稍候片刻，讓我向對方辦公室核實您的預約。麻煩您先在接待區等候，可以嗎？",
+      "source": {
+        "lesson": 1,
+        "page": 2,
+        "dialogue": "l1d1",
+        "line": 8
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 2,
+      "selector": "p",
+      "index": 4,
+      "prompt": "Rewrite \"What is your name?\" as one natural professional response:",
+      "answer": "Certainly. May I have your name and company, please?",
+      "translation": "好的。請問您的姓名及所屬公司是？",
+      "source": {
+        "lesson": 1,
+        "page": 2,
+        "dialogue": "l1d1",
+        "line": 2
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 2,
+      "selector": "p",
+      "index": 5,
+      "prompt": "Rewrite \"OK, I confirm a meeting.\" as one natural professional response:",
+      "answer": "Thank you for waiting, Mr Roberts. Your appointment has been confirmed. Please proceed to the visitor registration counter. My colleague will issue your pass and direct you to Lift B.",
+      "translation": "謝謝您的耐心等候，Roberts 先生。您的預約已確認。請前往訪客登記櫃檯，我的同事會為您發出訪客證，並指引您前往 B 座升降機。",
+      "source": {
+        "lesson": 1,
+        "page": 2,
+        "dialogue": "l1d1",
+        "line": 10
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 2,
+      "selector": "p",
+      "index": 6,
+      "prompt": "Rewrite \"What is the floor?\" as one natural professional response:",
+      "answer": "Thank you, Mr Roberts. Could I also confirm the floor listed in your meeting invitation?",
+      "translation": "謝謝您，Roberts 先生。我想再確認一下，您的會議邀請上列明的是哪一層？",
+      "source": {
+        "lesson": 1,
+        "page": 2,
+        "dialogue": "l1d1",
+        "line": 4
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 2,
+      "selector": "p",
+      "index": 7,
+      "prompt": "Rewrite \"Please go to the counter\" as one natural professional response:",
+      "answer": "Thank you for waiting, Mr Roberts. Your appointment has been confirmed. Please proceed to the visitor registration counter. My colleague will issue your pass and direct you to Lift B.",
+      "translation": "謝謝您的耐心等候，Roberts 先生。您的預約已確認。請前往訪客登記櫃檯，我的同事會為您發出訪客證，並指引您前往 B 座升降機。",
+      "source": {
+        "lesson": 1,
+        "page": 2,
+        "dialogue": "l1d1",
+        "line": 10
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 2,
+      "selector": "p",
+      "index": 8,
+      "prompt": "Rewrite \"Let me repeat again\" as one natural professional response:",
+      "answer": "Great. If I understood you correctly, that's Vivian Chan, Bright Star Consulting, 23rd floor, at 10:30. Is that correct?",
+      "translation": "好的。如果我理解正確，您是上午 10:30 與 Bright Star Consulting 的 Vivian Chan 在 23 樓會面。對嗎？",
+      "source": {
+        "lesson": 1,
+        "page": 2,
+        "dialogue": "l1d1",
+        "line": 6
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 2,
+      "selector": "p",
+      "index": 9,
+      "prompt": "Rewrite \"How can I help you?\" as one natural professional response:",
+      "answer": "Good morning. Welcome to Three Garden Road. How may I assist you today?",
+      "translation": "早上好，歡迎來到 Three Garden Road。請問今天有甚麼可以幫到您？",
+      "source": {
+        "lesson": 1,
+        "page": 2,
+        "dialogue": "l1d1",
+        "line": 0
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 4,
+      "selector": "p",
+      "index": 2,
+      "prompt": "Rewrite “Yeah, I know it is urgent.\" as one natural professional response:",
+      "answer": "Good afternoon. I understand it's urgent. May I ask whether Mr Cheung is expecting you today?",
+      "translation": "下午好。我明白事情很緊急。請問 Cheung 先生今天有預約您前來嗎？",
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "dialogue": "l1d2",
+        "line": 1
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 4,
+      "selector": "p",
+      "index": 3,
+      "prompt": "Rewrite \"I will let you know / I will tell you\" as one natural professional response:",
+      "answer": "You're welcome. I'll update you as soon as I hear back.",
+      "translation": "不客氣。一收到回覆，我便會立即通知您。",
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "dialogue": "l1d2",
+        "line": 11
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 4,
+      "selector": "p",
+      "index": 4,
+      "prompt": "Rewrite \"I can’t do this for you\" as one natural professional response:",
+      "answer": "I'm afraid I'm unable to grant access until the office confirms the visit. What I can do is call them now and let them know you're waiting.",
+      "translation": "不好意思，在對方辦公室確認您的到訪前，我暫時不能讓您進入。我可以現在替您致電他們，通知他們您正在等候。",
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "dialogue": "l1d2",
+        "line": 5
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 4,
+      "selector": "p",
+      "index": 5,
+      "prompt": "Rewrite \"OK OK no problem\" as one natural professional response:",
+      "answer": "Certainly. I'll only say that you've arrived and would like to speak with Mr Cheung. I won't discuss the nature of your visit.",
+      "translation": "當然可以。我只會說您已經到了，並希望與 Cheung 先生談一談。我不會透露您到訪的具體事宜。",
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "dialogue": "l1d2",
+        "line": 9
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 4,
+      "selector": "p",
+      "index": 6,
+      "prompt": "Rewrite \"Let you go inside\" as one natural professional response:",
+      "answer": "I'm afraid I'm unable to grant access until the office confirms the visit. What I can do is call them now and let them know you're waiting.",
+      "translation": "不好意思，在對方辦公室確認您的到訪前，我暫時不能讓您進入。我可以現在替您致電他們，通知他們您正在等候。",
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "dialogue": "l1d2",
+        "line": 5
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 4,
+      "selector": "p",
+      "index": 7,
+      "prompt": "Rewrite \"I can only do xxxx\" as one natural professional response:",
+      "answer": "I'm afraid I'm unable to grant access until the office confirms the visit. What I can do is call them now and let them know you're waiting.",
+      "translation": "不好意思，在對方辦公室確認您的到訪前，我暫時不能讓您進入。我可以現在替您致電他們，通知他們您正在等候。",
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "dialogue": "l1d2",
+        "line": 5
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 4,
+      "selector": "p",
+      "index": 8,
+      "prompt": "Rewrite \"Tell them you come\" as one natural professional response:",
+      "answer": "I'm afraid I'm unable to grant access until the office confirms the visit. What I can do is call them now and let them know you're waiting.",
+      "translation": "不好意思，在對方辦公室確認您的到訪前，我暫時不能讓您進入。我可以現在替您致電他們，通知他們您正在等候。",
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "dialogue": "l1d2",
+        "line": 5
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 4,
+      "selector": "p",
+      "index": 9,
+      "prompt": "Rewrite \"It is very fast\" as one natural professional response:",
+      "answer": "It usually only takes a few minutes, but I don't want to promise a time before I reach them. Would you mind waiting by the Customer Services Counter?",
+      "translation": "通常只需幾分鐘，但在聯絡到他們之前，我不想向您承諾確實的時間。麻煩您在客戶服務櫃檯旁等候，可以嗎？",
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "dialogue": "l1d2",
+        "line": 7
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 4,
+      "selector": "p",
+      "index": 10,
+      "prompt": "Rewrite \"You come and find John Lee\" as one natural professional response:",
+      "answer": "Certainly. I'll only say that you've arrived and would like to speak with Mr Cheung. I won't discuss the nature of your visit.",
+      "translation": "當然可以。我只會說您已經到了，並希望與 Cheung 先生談一談。我不會透露您到訪的具體事宜。",
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "dialogue": "l1d2",
+        "line": 9
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 4,
+      "selector": "p",
+      "index": 11,
+      "prompt": "Rewrite \"I won’t tell people\" as one natural professional response:",
+      "answer": "Certainly. I'll only say that you've arrived and would like to speak with Mr Cheung. I won't discuss the nature of your visit.",
+      "translation": "當然可以。我只會說您已經到了，並希望與 Cheung 先生談一談。我不會透露您到訪的具體事宜。",
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "dialogue": "l1d2",
+        "line": 9
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 4,
+      "selector": "p",
+      "index": 12,
+      "prompt": "Rewrite \"why you come\" as one natural professional response:",
+      "answer": "Certainly. I'll only say that you've arrived and would like to speak with Mr Cheung. I won't discuss the nature of your visit.",
+      "translation": "當然可以。我只會說您已經到了，並希望與 Cheung 先生談一談。我不會透露您到訪的具體事宜。",
+      "source": {
+        "lesson": 1,
+        "page": 3,
+        "dialogue": "l1d2",
+        "line": 9
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 6,
+      "selector": "p",
+      "index": 5,
+      "prompt": "Rewrite “It is different.\" as one natural professional response:",
+      "answer": "I see. There seems to be a discrepancy. Our building directory currently lists Apex Consulting on the 24th floor, rather than the 14th.",
+      "translation": "明白。資料似乎有些不一致。大廈名錄目前列明 Apex Consulting 位於 24 樓，而不是 14 樓。",
+      "source": {
+        "lesson": 1,
+        "page": 6,
+        "dialogue": "l1d3",
+        "line": 6
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 6,
+      "selector": "p",
+      "index": 6,
+      "prompt": "Rewrite \"The board says it is 4th floor for Company X\" as one natural professional response:",
+      "answer": "I see. There seems to be a discrepancy. Our building directory currently lists Apex Consulting on the 24th floor, rather than the 14th.",
+      "translation": "明白。資料似乎有些不一致。大廈名錄目前列明 Apex Consulting 位於 24 樓，而不是 14 樓。",
+      "source": {
+        "lesson": 1,
+        "page": 6,
+        "dialogue": "l1d3",
+        "line": 6
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 6,
+      "selector": "p",
+      "index": 7,
+      "prompt": "Rewrite \"I know\" as one natural professional response:",
+      "answer": "I understand your concern. Just to confirm, you’re here to see Mr Anthony Lau at Apex Consulting, and your email states the 14th floor. Is that correct?",
+      "translation": "我明白您的疑慮。再確認一下，您是來找 Apex Consulting 的 Anthony Lau 先生，而您的電郵列明是 14 樓，對嗎？",
+      "source": {
+        "lesson": 1,
+        "page": 6,
+        "dialogue": "l1d3",
+        "line": 10
+      },
+      "note": ""
+    },
+    {
+      "lesson": 1,
+      "page": 6,
+      "selector": "p",
+      "index": 8,
+      "prompt": "Rewrite \"I will tell you very fast\" as one natural professional response:",
+      "answer": "It should only take a few minutes, but I’ll update you as soon as I receive confirmation.",
+      "translation": "應該只需幾分鐘，一收到確認，我便會立即通知您。",
+      "source": {
+        "lesson": 1,
+        "page": 6,
+        "dialogue": "l1d3",
+        "line": 14
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 3,
+      "selector": "tr",
+      "index": 1,
+      "prompt": "1. Rewrite “not the right lifts for the 23rd floor” as one precise professional sentence.",
+      "answer": "Just a moment, please. Those lifts do not serve the 23rd floor. Please use Lift H on your right to access the 23rd floor.",
+      "translation": "請稍等。這幾部升降機不到 23 樓。請使用您右邊的 H 號升降機前往 23 樓。",
+      "source": {
+        "lesson": 2,
+        "page": 1,
+        "dialogue": "l2d1",
+        "line": 2
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 3,
+      "selector": "tr",
+      "index": 2,
+      "prompt": "2. Rewrite “Please keep the QR receipt with you” as one precise professional sentence",
+      "answer": "Please keep the QR receipt with you during your visit. When you return to G/F, scan the QR code at the exit gate to leave the secured area.",
+      "translation": "到訪期間，請隨身保留這張 QR 憑證。返回地下時，請在出口閘機掃描 QR 碼，離開管制區域。",
+      "source": {
+        "lesson": 2,
+        "page": 1,
+        "dialogue": "l2d1",
+        "line": 6
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 3,
+      "selector": "tr",
+      "index": 3,
+      "prompt": "3. “We're on G/F now. The exit gate is on your left.”",
+      "answer": "We've arrived at the ground floor. The exit gate is on your left-hand side.",
+      "translation": "我們已經到達地下了。出口閘機在您的左手邊。",
+      "source": {
+        "lesson": 2,
+        "page": 2,
+        "dialogue": "l2d2",
+        "line": 5
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 3,
+      "selector": "tr",
+      "index": 4,
+      "prompt": "4. Rewrite “When you leave” as one precise professional sentence",
+      "answer": "Please keep the QR receipt with you during your visit. When you return to G/F, scan the QR code at the exit gate to leave the secured area.",
+      "translation": "到訪期間，請隨身保留這張 QR 憑證。返回地下時，請在出口閘機掃描 QR 碼，離開管制區域。",
+      "source": {
+        "lesson": 2,
+        "page": 1,
+        "dialogue": "l2d1",
+        "line": 6
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 3,
+      "selector": "tr",
+      "index": 5,
+      "prompt": "5. Rewrite “ I'll show you the correct lift zone.” as one precise professional sentence",
+      "answer": "No problem at all. I’ll accompany you to the correct lift bank.",
+      "translation": "沒關係，我會陪您前往正確的升降機區域。",
+      "source": {
+        "lesson": 2,
+        "page": 1,
+        "dialogue": "l2d1",
+        "line": 4
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 3,
+      "selector": "tr",
+      "index": 7,
+      "prompt": "1. Rewrite “showing me the way” as one precise professional sentence.",
+      "answer": "Understood. Thank you for escorting me down.",
+      "translation": "明白了。謝謝您陪我下來。",
+      "source": {
+        "lesson": 2,
+        "page": 2,
+        "dialogue": "l2d2",
+        "line": 8
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 3,
+      "selector": "tr",
+      "index": 8,
+      "prompt": "2. Rewrite “Have a good day” as one precise professional sentence.",
+      "answer": "You're very welcome. The main exit is just ahead after the gate. Have a pleasant afternoon.",
+      "translation": "不用客氣。通過閘機後，主要出口就在前方。祝您下午愉快。",
+      "source": {
+        "lesson": 2,
+        "page": 2,
+        "dialogue": "l2d2",
+        "line": 9
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 3,
+      "selector": "tr",
+      "index": 9,
+      "prompt": "3. Rewrite “I want to go now.” as one precise professional sentence.",
+      "answer": "Excuse me. My meeting has finished, and I'm not familiar with the way back to the main lobby.",
+      "translation": "不好意思，我的會議已經結束了，但我不熟悉返回大堂的路。",
+      "source": {
+        "lesson": 2,
+        "page": 2,
+        "dialogue": "l2d2",
+        "line": 0
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 3,
+      "selector": "tr",
+      "index": 10,
+      "prompt": "4. Rewrite “I don’t know.” as one precise professional sentence",
+      "answer": "Thank you. I wasn't sure which lift to use.",
+      "translation": "謝謝您。我不太確定應該乘搭哪部升降機。",
+      "source": {
+        "lesson": 2,
+        "page": 2,
+        "dialogue": "l2d2",
+        "line": 2
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 3,
+      "selector": "tr",
+      "index": 11,
+      "prompt": "5. Rewrite “We’re on the ground floor now.” as one precise professional sentence",
+      "answer": "We've arrived at the ground floor. The exit gate is on your left-hand side.",
+      "translation": "我們已經到達地下了。出口閘機在您的左手邊。",
+      "source": {
+        "lesson": 2,
+        "page": 2,
+        "dialogue": "l2d2",
+        "line": 5
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 3,
+      "selector": "tr",
+      "index": 12,
+      "prompt": "6. Rewrite “Please scan the QR code at the gate.” as one precise professional sentence",
+      "answer": "Yes. Please scan the QR code at the exit gate before leaving the secured area.",
+      "translation": "是的。離開管制區域前，請在出口閘機掃描 QR 碼。",
+      "source": {
+        "lesson": 2,
+        "page": 2,
+        "dialogue": "l2d2",
+        "line": 7
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 3,
+      "selector": "tr",
+      "index": 13,
+      "prompt": "7. Rewrite “I can show you to the ground floor..” as one precise professional sentence",
+      "answer": "Certainly. I can accompany you back to G/F and show you the exit.",
+      "translation": "當然可以。我可以陪您返回地下，並帶您到出口。",
+      "source": {
+        "lesson": 2,
+        "page": 2,
+        "dialogue": "l2d2",
+        "line": 1
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 3,
+      "selector": "tr",
+      "index": 14,
+      "prompt": "8. Rewrite “Please keep walking to the exit” as one precise professional sentence",
+      "answer": "You're very welcome. The main exit is just ahead after the gate. Have a pleasant afternoon.",
+      "translation": "不用客氣。通過閘機後，主要出口就在前方。祝您下午愉快。",
+      "source": {
+        "lesson": 2,
+        "page": 2,
+        "dialogue": "l2d2",
+        "line": 9
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 5,
+      "selector": "tr",
+      "index": 1,
+      "prompt": "1. Rewrite “The office normally closes at 6:00 p.m.” as one precise professional sentence.",
+      "answer": "Thank you, Mr Wong. The tenant's normal office hours have already ended, so I'll need to verify that Ms Chan is still available.",
+      "translation": "謝謝您，Wong 先生。租戶的正常辦公時間已經結束，因此我需要先核實 Chan 女士是否仍可接待您。",
+      "source": {
+        "lesson": 2,
+        "page": 4,
+        "dialogue": "l2d3",
+        "line": 3
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 5,
+      "selector": "tr",
+      "index": 2,
+      "prompt": "2. Rewrite “Yes, I can call the office.” as one precise professional sentence.",
+      "answer": "Certainly. What I can do is contact the office now and let them know you've arrived.",
+      "translation": "當然可以。我現在可以聯絡他們的辦公室，通知他們您已經到了。",
+      "source": {
+        "lesson": 2,
+        "page": 4,
+        "dialogue": "l2d3",
+        "line": 5
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 5,
+      "selector": "tr",
+      "index": 3,
+      "prompt": "3. Rewrite “I need confirmation before I can send you upstairs.” as one precise professional sentence.",
+      "answer": "I understand your concern. However, I'm unable to send you upstairs until I receive confirmation from the tenant.",
+      "translation": "我明白您的情況。不過，在收到租戶確認之前，我暫時不能讓您上樓。",
+      "source": {
+        "lesson": 2,
+        "page": 4,
+        "dialogue": "l2d3",
+        "line": 7
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 5,
+      "selector": "tr",
+      "index": 4,
+      "prompt": "4. Rewrite “Please wait here while I check.” as one precise professional sentence",
+      "answer": "I'll check immediately, but I don't want to promise a time before I reach them. Would you mind waiting by the CS counter?",
+      "translation": "我會立即替您查詢，但在聯絡到他們之前，我不想向您承諾確實所需時間。麻煩您先在客戶服務櫃檯旁等候，可以嗎？",
+      "source": {
+        "lesson": 2,
+        "page": 4,
+        "dialogue": "l2d3",
+        "line": 9
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 5,
+      "selector": "tr",
+      "index": 5,
+      "prompt": "5. Rewrite “I know you are late, but....” as one precise professional sentence",
+      "answer": "I understand your concern. However, I'm unable to send you upstairs until I receive confirmation from the tenant.",
+      "translation": "我明白您的情況。不過，在收到租戶確認之前，我暫時不能讓您上樓。",
+      "source": {
+        "lesson": 2,
+        "page": 4,
+        "dialogue": "l2d3",
+        "line": 7
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 5,
+      "selector": "tr",
+      "index": 6,
+      "prompt": "6. Rewrite “Please don’t lose your QR code.” as one precise professional sentence",
+      "answer": "Thank you for waiting, Mr Wong. The tenant has confirmed that Ms Chan is in the office. You may proceed to the 19th floor. Please keep your QR receipt for the exit gate when you leave.",
+      "translation": "謝謝您的等候，Wong 先生。租戶已確認 Chan 女士仍在辦公室。您現在可以前往 19 樓。離開時，請保留您的 QR 離場憑證，以便在出口閘機使用。",
+      "source": {
+        "lesson": 2,
+        "page": 4,
+        "dialogue": "l2d3",
+        "line": 11
+      },
+      "note": ""
+    },
+    {
+      "lesson": 2,
+      "page": 5,
+      "selector": "tr",
+      "index": 7,
+      "prompt": "7. Rewrite “You can go to the 19th floor now.” as one precise professional sentence",
+      "answer": "Thank you for waiting, Mr Wong. The tenant has confirmed that Ms Chan is in the office. You may proceed to the 19th floor. Please keep your QR receipt for the exit gate when you leave.",
+      "translation": "謝謝您的等候，Wong 先生。租戶已確認 Chan 女士仍在辦公室。您現在可以前往 19 樓。離開時，請保留您的 QR 離場憑證，以便在出口閘機使用。",
+      "source": {
+        "lesson": 2,
+        "page": 4,
+        "dialogue": "l2d3",
+        "line": 11
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 3,
+      "selector": "tr",
+      "index": 1,
+      "prompt": "1. Rewrite “What happened?” Ask for details without sounding abrupt.",
+      "answer": "I’m sorry about the situation. Could you tell me exactly what has happened?",
+      "translation": "對於這個情況，我很抱歉。可否清楚告訴我發生了甚麼事？",
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "dialogue": "l3d1-professional",
+        "line": 1
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 3,
+      "selector": "tr",
+      "index": 2,
+      "prompt": "2. Rewrite “Which floor is it?” Ask for the exact location clearly.",
+      "answer": "Thank you for letting us know. May I confirm the floor and the exact staircase / corridor location?",
+      "translation": "謝謝您通知我們。請問可否確認樓層，以及樓梯／走廊的確實位置？",
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "dialogue": "l3d1-professional",
+        "line": 3
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 3,
+      "selector": "tr",
+      "index": 3,
+      "prompt": "3. Rewrite “I’ll tell management.” Use a more professional reporting phrase.",
+      "answer": "Understood. I’ll report both the fire-route obstruction and the hygiene concerns to the management office immediately.",
+      "translation": "明白。我會立即向管理處匯報消防通道阻塞及衞生方面的問題。",
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "dialogue": "l3d1-professional",
+        "line": 5
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 3,
+      "selector": "tr",
+      "index": 4,
+      "prompt": "4. Rewrite “We’ll send cleaners now.” Avoid promising an action or time that has not been confirmed.",
+      "answer": "I understand your concern. I’ll record those requests clearly and escalate them to management for appropriate follow-up under the building procedures.",
+      "translation": "我明白您的擔心。我會清楚記錄這些要求，並向管理層升級匯報，以便按大廈程序作適當跟進。",
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "dialogue": "l3d1-professional",
+        "line": 7
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 3,
+      "selector": "tr",
+      "index": 5,
+      "prompt": "5. Rewrite “We will warn them.” Explain that management will follow the building procedure.",
+      "answer": "I understand your concern. I’ll record those requests clearly and escalate them to management for appropriate follow-up under the building procedures.",
+      "translation": "我明白您的擔心。我會清楚記錄這些要求，並向管理層升級匯報，以便按大廈程序作適當跟進。",
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "dialogue": "l3d1-professional",
+        "line": 7
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 3,
+      "selector": "tr",
+      "index": 6,
+      "prompt": "6. Rewrite “I don’t know when.” Give a realistic follow-up without sounding helpless.",
+      "answer": "I’ll mark the matter as urgent, but I don’t want to promise a clearance time before the responsible team confirms it. We’ll update you once we receive their response.",
+      "translation": "我會把這件事標示為緊急，但在負責團隊確認之前，我不想承諾清理完成的時間。我們一收到他們的回覆，便會通知您最新情況。",
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "dialogue": "l3d1-professional",
+        "line": 9
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 3,
+      "selector": "tr",
+      "index": 7,
+      "prompt": "7. Rewrite “Please wait.” Acknowledge urgency and say what you will do next.",
+      "answer": "I’ll mark the matter as urgent, but I don’t want to promise a clearance time before the responsible team confirms it. We’ll update you once we receive their response.",
+      "translation": "我會把這件事標示為緊急，但在負責團隊確認之前，我不想承諾清理完成的時間。我們一收到他們的回覆，便會通知您最新情況。",
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "dialogue": "l3d1-professional",
+        "line": 9
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 3,
+      "selector": "tr",
+      "index": 8,
+      "prompt": "8. Rewrite “We know.” Acknowledge the concern and confirm it will be recorded.",
+      "answer": "I understand your concern. I’ll record those requests clearly and escalate them to management for appropriate follow-up under the building procedures.",
+      "translation": "我明白您的擔心。我會清楚記錄這些要求，並向管理層升級匯報，以便按大廈程序作適當跟進。",
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "dialogue": "l3d1-professional",
+        "line": 7
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 3,
+      "selector": "tr",
+      "index": 9,
+      "prompt": "9. Rewrite “Someone has put some items.” from the Tenant side",
+      "answer": "Items have been left in the rear staircase and corridor, and they are obstructing the fire escape route.",
+      "translation": "有物品被留在後樓梯和走廊，正在阻礙走火通道。",
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "dialogue": "l3d1-professional",
+        "line": 2
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 3,
+      "selector": "tr",
+      "index": 10,
+      "prompt": "10. Rewrite “When will it be cleared.” from the Tenant side",
+      "answer": "How soon can this be cleared?",
+      "translation": "這個情況最快何時可以清理好？",
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "dialogue": "l3d1-professional",
+        "line": 8
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 3,
+      "selector": "tr",
+      "index": 11,
+      "prompt": "11. Rewrite “ask the team to follow up.” from the Tenant side",
+      "answer": "Please arrange cleaning right away, increase frontline patrols, and issue a warning to the unit responsible.",
+      "translation": "請立即安排清潔、增加前線巡邏，並向相關負責單位發出警告。",
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "dialogue": "l3d1-professional",
+        "line": 6
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 3,
+      "selector": "tr",
+      "index": 12,
+      "prompt": "12. Rewrite “smells very bad.” from the Tenant side",
+      "answer": "It is on 18/F, at the rear staircase beside the refuse room. There is also a strong odour from the refuse room, and we have noticed rats and mosquitoes.",
+      "translation": "位置在18樓垃圾房旁邊的後樓梯。垃圾房亦傳出強烈異味，而且我們已留意到有老鼠和蚊。",
+      "source": {
+        "lesson": 3,
+        "page": 1,
+        "dialogue": "l3d1-professional",
+        "line": 4
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 1,
+      "prompt": "1. “Which washroom is locked?”",
+      "answer": "Thank you. Could you give me the exact location of the warm area and identify which washroom is affected?",
+      "translation": "謝謝。可否告訴我很熱的範圍的確實位置，並說明是哪個洗手間受影響？",
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "dialogue": "l3d2-professional",
+        "line": 3
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 2,
+      "prompt": "2. “Is the air-con off?”",
+      "answer": "Understood. Is the air-conditioning not operating at all, or is it running but not cooling the area properly?",
+      "translation": "明白。冷氣是完全沒有運作，還是有運作但未能有效降低該範圍的溫度？",
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "dialogue": "l3d2-professional",
+        "line": 5
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 3,
+      "prompt": "3. “I’ll tell engineering.”",
+      "answer": "Thank you. I’ll log both issues separately and report them to the management / engineering team for follow-up.",
+      "translation": "謝謝。我會分開記錄這兩個問題，並向管理處／工程團隊匯報以作跟進。",
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "dialogue": "l3d2-professional",
+        "line": 7
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 4,
+      "prompt": "4. “I can’t promise ten minutes.”",
+      "answer": "I’ll ask the responsible team to attend as soon as possible, but I don’t want to promise a repair time before they assess the problems. I’ll update you once I receive their response.",
+      "translation": "我會請負責團隊盡快到場，但在他們評估問題之前，我不想承諾維修時間。我一收到他們的回覆，便會通知您最新情況。",
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "dialogue": "l3d2-professional",
+        "line": 9
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 5,
+      "prompt": "5. “I’ll let you know later.”",
+      "answer": "I’ll ask the responsible team to attend as soon as possible, but I don’t want to promise a repair time before they assess the problems. I’ll update you once I receive their response.",
+      "translation": "我會請負責團隊盡快到場，但在他們評估問題之前，我不想承諾維修時間。我一收到他們的回覆，便會通知您最新情況。",
+      "source": {
+        "lesson": 3,
+        "page": 2,
+        "dialogue": "l3d2-professional",
+        "line": 9
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 6,
+      "prompt": "1. “Which room is it?”",
+      "answer": "I’m sorry for the inconvenience. May I confirm the floor and the exact suite number?",
+      "translation": "對造成不便我很抱歉。請問可否確認樓層及確實單位號碼？",
+      "source": {
+        "lesson": 3,
+        "page": 4,
+        "dialogue": "l3d3-professional",
+        "line": 1
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 7,
+      "prompt": "2. “Are all the lights broken?”",
+      "answer": "Understood. Are all of the lights affected, or are only some fittings not working?",
+      "translation": "明白。是所有燈都受影響，還是只有部分燈具不能運作？",
+      "source": {
+        "lesson": 3,
+        "page": 4,
+        "dialogue": "l3d3-professional",
+        "line": 3
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 8,
+      "prompt": "3. “I’ll tell them it is urgent.”",
+      "answer": "I understand the urgency. I’ll request attendance as soon as possible and explain that a client meeting is due to begin shortly.",
+      "translation": "我明白事情很緊急。我會要求人員盡快到場，並說明客戶會議即將開始。",
+      "source": {
+        "lesson": 3,
+        "page": 4,
+        "dialogue": "l3d3-professional",
+        "line": 7
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 9,
+      "prompt": "4. “I can’t guarantee it will be fixed.”",
+      "answer": "I’m afraid I’m unable to guarantee the repair time before the technician assesses the fault. I’ll follow up closely and update you as soon as I receive a confirmed response.",
+      "translation": "很抱歉，在技術員評估故障之前，我未能保證維修時間。我會密切跟進，並在收到已確認的回覆後立即通知您最新情況。",
+      "source": {
+        "lesson": 3,
+        "page": 4,
+        "dialogue": "l3d3-professional",
+        "line": 9
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 10,
+      "prompt": "5. “I’ll update you when they reply.”",
+      "answer": "I’m afraid I’m unable to guarantee the repair time before the technician assesses the fault. I’ll follow up closely and update you as soon as I receive a confirmed response.",
+      "translation": "很抱歉，在技術員評估故障之前，我未能保證維修時間。我會密切跟進，並在收到已確認的回覆後立即通知您最新情況。",
+      "source": {
+        "lesson": 3,
+        "page": 4,
+        "dialogue": "l3d3-professional",
+        "line": 9
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 11,
+      "prompt": "“I’m sorry about that. Which floor and where exactly is it?”",
+      "answer": "I'm sorry about the inconvenience. May I confirm the floor and exact location of the leak?",
+      "translation": "對造成不便我很抱歉。請問可否確認樓層及漏水的確實位置？",
+      "source": {
+        "lesson": 3,
+        "page": 5,
+        "dialogue": "l3d4-professional",
+        "line": 1
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 12,
+      "prompt": "2. Rewrite “Is the water near any power socket or electrical equipment?”",
+      "answer": "Thank you for the details. For safety, may I also check whether the water is close to any electrical socket, equipment, or a walkway?",
+      "translation": "謝謝您提供詳情。為安全起見，可否亦確認水是否接近任何電源插座、設備或通道？",
+      "source": {
+        "lesson": 3,
+        "page": 5,
+        "dialogue": "l3d4-professional",
+        "line": 3
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 13,
+      "prompt": "3. Rewrite “Please keep people away from the wet area for now.”",
+      "answer": "Thank you for letting us know. Please keep the area clear for the moment. I'll report the water leak to the management office and request urgent attendance from the technical team.",
+      "translation": "謝謝您通知我們。請暫時保持該範圍暢通。我會向管理處匯報漏水，並要求技術團隊緊急到場處理。",
+      "source": {
+        "lesson": 3,
+        "page": 5,
+        "dialogue": "l3d4-professional",
+        "line": 5
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 14,
+      "prompt": "4. Rewrite “I’ll report it to management and ask the technical team to check it.”",
+      "answer": "Thank you for letting us know. Please keep the area clear for the moment. I'll report the water leak to the management office and request urgent attendance from the technical team.",
+      "translation": "謝謝您通知我們。請暫時保持該範圍暢通。我會向管理處匯報漏水，並要求技術團隊緊急到場處理。",
+      "source": {
+        "lesson": 3,
+        "page": 5,
+        "dialogue": "l3d4-professional",
+        "line": 5
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 15,
+      "prompt": "5. Rewrite “I understand it’s urgent.”",
+      "answer": "I understand the urgency. I'll flag the case as urgent and arrange for the area to be made safe, including cleaning and a wet-floor sign.",
+      "translation": "我明白事情很緊急。我會將個案標示為緊急，並安排令該範圍安全，包括清潔及設置小心地滑牌。",
+      "source": {
+        "lesson": 3,
+        "page": 5,
+        "dialogue": "l3d4-professional",
+        "line": 7
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 16,
+      "prompt": "6. Rewrite “I’ll mark it as urgent and ask for a cleaner and a wet-floor sign.”",
+      "answer": "I understand the urgency. I'll flag the case as urgent and arrange for the area to be made safe, including cleaning and a wet-floor sign.",
+      "translation": "我明白事情很緊急。我會將個案標示為緊急，並安排令該範圍安全，包括清潔及設置小心地滑牌。",
+      "source": {
+        "lesson": 3,
+        "page": 5,
+        "dialogue": "l3d4-professional",
+        "line": 7
+      },
+      "note": ""
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 17,
+      "prompt": "7. Rewrite “I can’t confirm the repair time yet, but I’ll update you.”",
+      "answer": "I’m afraid I’m unable to guarantee the repair time before the technician assesses the fault. I’ll follow up closely and update you as soon as I receive a confirmed response.",
+      "translation": "很抱歉，在技術員評估故障之前，我未能保證維修時間。我會密切跟進，並在收到已確認的回覆後立即通知您最新情況。",
+      "source": {
+        "lesson": 3,
+        "page": 4,
+        "dialogue": "l3d3-professional",
+        "line": 9
+      },
+      "note": "維修時間的表達參考對話 3；對話 4 的結尾沒有承諾維修時間。"
+    },
+    {
+      "lesson": 3,
+      "page": 6,
+      "selector": "tr",
+      "index": 18,
+      "prompt": "8. Rewrite “We’ll follow up and keep you updated.”",
+      "answer": "Certainly. We'll follow up with the responsible team and keep you updated.",
+      "translation": "當然。我們會向負責團隊跟進，並讓您知道最新情況。",
+      "source": {
+        "lesson": 3,
+        "page": 5,
+        "dialogue": "l3d4-professional",
+        "line": 9
+      },
+      "note": ""
+    }
+  ]
+}

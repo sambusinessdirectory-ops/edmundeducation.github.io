@@ -1,8 +1,11 @@
-import {session,rpc,bookmarks,saveState,getCached,savedStates,loadPreferences,fontControl} from './learning-state.mjs?v=20260916-library1';
-import {escapeHtml as esc,searchContent,sourceLabel,playlistItems} from './library-core.mjs?v=20260916-library1';
+import {bindLiveSearch} from './search.mjs?v=20260916-community1';
+import {materialsPage} from './reader.mjs?v=20260916-community1';
+import {feedbackPage,recordsPage} from './community.mjs?v=20260916-community1';
+import {session,rpc,bookmarks,saveState,getCached,savedStates,loadPreferences,fontControl} from './learning-state.mjs?v=20260916-community1';
+import {escapeHtml as esc,searchContent,sourceLabel,playlistItems} from './library-core.mjs?v=20260916-community1';
 const json=async path=>{const r=await fetch(path);if(!r.ok)throw Error('資料暫時未能載入，請重試。');return r.json();};
 const params=()=>new URLSearchParams(location.search);
-const materialPromise=()=>json('./content/lesson-materials.json?v=20260916-library1');
+const materialPromise=()=>json('./content/lesson-materials.json?v=20260916-community1');
 const link=(view,values={})=>'./library.html?'+new URLSearchParams({view,...values});
 const date=value=>new Date(value).toLocaleString('zh-HK',{dateStyle:'medium',timeStyle:'short'});
 let activePage=null,player=null,audioGeneration=0;
@@ -19,29 +22,11 @@ async function playBookmark(item,done){
  }catch(error){if(token===audioGeneration)notice(error.message||'請再按播放按鈕。');}
 }
 function notice(text){const node=activePage?.querySelector('[data-library-status]');if(node)node.textContent=text;}
-function pageHeader(view){return `<header class="library-heading"><p class="pro-eyebrow">PROFESSIONAL ENGLISH · 學習資料庫</p><h1>${({search:'搜尋詞語與句子',materials:'課文與下載',bookmarks:'我的書籤與播放清單',messages:'課程訊息'})[view]}</h1><nav aria-label="學習資料庫">${[['search','搜尋'],['materials','課文與下載'],['bookmarks','書籤與播放清單'],['messages','課程訊息']].map(([id,title])=>`<a href="${link(id)}" ${id===view?'aria-current="page"':''}>${title}</a>`).join('')}<a href="./">返回課程</a></nav></header><p data-library-status role="status" aria-live="polite"></p>`;}
-function highlightQuery(container,query){
- if(!query)return;const walker=document.createTreeWalker(container,NodeFilter.SHOW_TEXT),nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
- for(const node of nodes){const text=node.textContent,low=text.toLowerCase(),q=query.toLowerCase();let start=0,at=low.indexOf(q);if(at<0)continue;const fragment=document.createDocumentFragment();while(at>=0){fragment.append(text.slice(start,at));const mark=document.createElement('mark');mark.className='search-hit';mark.textContent=text.slice(at,at+q.length);fragment.append(mark);start=at+q.length;at=low.indexOf(q,start);}fragment.append(text.slice(start));node.replaceWith(fragment);}
-}
+function pageHeader(view){return `<header class="library-heading"><p class="pro-eyebrow">PROFESSIONAL ENGLISH · 學習資料庫</p><h1>${({search:'搜尋詞語與句子',materials:'課文與下載',bookmarks:'我的書籤',messages:'課程訊息',feedback:'匿名課程回饋',records:'字卡練習紀錄',quick:'Quick Response 快問快答'})[view]}</h1><nav aria-label="學習資料庫">${[['search','搜尋'],['materials','課文與下載'],['bookmarks','我的書籤'],['messages','課程訊息']].map(([id,title])=>`<a href="${link(id)}" ${id===view?'aria-current="page"':''}>${title}</a>`).join('')}<a href="./">返回課程</a></nav></header><p data-library-status role="status" aria-live="polite"></p>`;}
 async function searchPage(page){
  const query=(params().get('q')||'').slice(0,200),lesson=params().get('lesson')||'',type=params().get('type')||'';
  page.insertAdjacentHTML('beforeend',`<form class="library-search" action="./library.html"><input type="hidden" name="view" value="search"><label>搜尋英文或中文<input name="q" type="search" value="${esc(query)}" maxlength="200" placeholder="例如：receipt、follow up、投訴" required></label><label>課堂<select name="lesson"><option value="">全部課堂</option>${[1,2,3].map(n=>`<option value="${n}" ${lesson===String(n)?'selected':''}>第 ${n} 課</option>`).join('')}</select></label><label>內容<select name="type"><option value="">全部內容</option>${['課文','對話','一詞多義','字卡'].map(t=>`<option ${type===t?'selected':''}>${t}</option>`).join('')}</select></label><button type="submit" class="pro-primary">搜尋</button></form><section class="library-results" aria-live="polite"></section>`);
- if(!query)return;notice('正在搜尋…');
- const results=page.querySelector('.library-results');
- const [materials,...polysemy]=await Promise.all([materialPromise(),...[1,2,3].map(n=>json(`./content/lesson-${n}-polysemy.json?v=20260916-library1`))]);
- let entries=searchContent({materials,dialogues:window.EDMUND_PROFESSIONAL_DIALOGUES||[],polysemy},query),warning='';
- try{const flash=await rpc('search',{p_query:query});for(const row of flash.results||[])entries.push({kind:'字卡',lesson:Number((row.deck_title.match(/(?:Class|Lesson)\s*(\d+)/i)||[])[1])||0,title:row.front,location:row.deck_title+(row.position?` · 第 ${row.position} 張`:""),text:row.back+' '+row.note,href:`./?deck=${encodeURIComponent(row.deck_id)}&card=${encodeURIComponent(row.card_id)}`});if(flash.has_more)warning='字卡結果超過 100 項，請輸入更完整的詞語。';}catch{warning='字卡搜尋暫時未能連線；以下仍顯示課文與練習結果。';}
- entries=entries.filter(r=>(!lesson||String(r.lesson)===lesson)&&(!type||r.kind===type));notice(`${entries.length} 個位置${warning?' · '+warning:''}`);
- results.innerHTML=entries.length?entries.map(row=>`<article class="library-result"><div class="library-result-meta">${esc(row.kind)} · 第 ${row.lesson||'—'} 課 · ${esc(row.location)}</div><h2><a href="${esc(row.href)}">${esc(row.title)}</a></h2><p>${esc(row.text)}</p></article>`).join(''):'<p>找不到相符詞語。試試較短的詞語，或選擇全部課堂。</p>';
- results.querySelectorAll('p,h2').forEach(p=>highlightQuery(p,query));
-}
-async function materialsPage(page){
- const materials=await materialPromise(),lesson=materials.find(l=>l.lesson===Number(params().get('lesson')))||materials[0],number=Math.max(1,Math.min(lesson.pages.length,Number(params().get('page'))||1)),source=lesson.pages[number-1],q=params().get('q')||'';
- page.insertAdjacentHTML('beforeend',`<div class="material-downloads">${materials.map(l=>`<article><h2>第 ${l.lesson} 課</h2><p>${esc(l.title)}</p><a href="${link('materials',{lesson:l.lesson})}">閱讀文字版</a><a href="./${l.pdf}" download="Professional-English-Lesson-${l.lesson}.pdf">↓ 下載 PDF · ${l.pages.length} 頁</a></article>`).join('')}</div><section class="material-reader"><header class="material-reader-controls"><h2>第 ${lesson.lesson} 課 · ${esc(lesson.title)}</h2><label>頁數<select data-material-page>${lesson.pages.map(p=>`<option value="${p.page}" ${p.page===number?'selected':''}>${sourceLabel(p)}</option>`).join('')}</select></label><a href="./${lesson.pdf}#page=${number}" target="_blank" rel="noopener">查看原版 PDF ↗</a></header><p class="material-colour-note">保留原教材的角色顏色及教學重點標示。表格可左右捲動。</p><article class="material-text" aria-label="課文第 ${number} 頁">${source.html}</article><nav class="material-pagination" aria-label="課文頁數">${number>1?`<a href="${link('materials',{lesson:lesson.lesson,page:number-1,q})}">← 上一頁</a>`:'<span></span>'}<span>${number} / ${lesson.pages.length}</span>${number<lesson.pages.length?`<a href="${link('materials',{lesson:lesson.lesson,page:number+1,q})}">下一頁 →</a>`:'<span></span>'}</nav></section>`);
- page.querySelector('[data-material-page]').onchange=e=>location.assign(link('materials',{lesson:lesson.lesson,page:e.target.value,q}));
- highlightQuery(page.querySelector('.material-text'),q);
- if(params().has('page'))page.querySelector('.material-reader').scrollIntoView({block:'start'});
+ bindLiveSearch(page.querySelector('.library-search'),page.querySelector('.library-results'),page.querySelector('[data-library-status]'),{url:true});
 }
 function bookmarkCard(item,playlist){
  return `<article class="phrase-card" data-phrase-card="${esc(item.key)}"><small>${esc(item.title)} · 第 ${Number(item.line)+1} 句</small><h3>${esc(item.word)}</h3><p>${esc(item.context)}</p><p class="phrase-chinese">${esc(item.translation)}</p><div class="phrase-actions"><button type="button" data-play-bookmark="${esc(item.key)}" aria-pressed="false">▶ 聆聽原句</button><a href="./dialogue.html?id=${encodeURIComponent(item.dialogue)}&line=${Number(item.line)}">返回對話</a>${playlist?`<button type="button" data-playlist-remove="${esc(item.key)}">移出清單</button><button type="button" data-playlist-up="${esc(item.key)}" aria-label="向上移動 ${esc(item.word)}">↑</button><button type="button" data-playlist-down="${esc(item.key)}" aria-label="向下移動 ${esc(item.word)}">↓</button>`:`<button type="button" data-remove-bookmark="${esc(item.key)}">移除書籤</button>`}</div></article>`;
@@ -87,11 +72,12 @@ async function messagesPage(page){
  container.addEventListener('click',async e=>{const button=e.target.closest('[data-delete-message]');if(!button)return;const message=rows.find(m=>m.id===button.dataset.deleteMessage);if(!message||!confirm('刪除這則課程訊息？'))return;button.disabled=true;try{await rpc('messages',{p_action:'delete',p_id:message.id,p_revision:message.revision},owner);await refresh();notice('訊息已刪除。');}catch(error){notice(error.message);button.disabled=false;}});
  await refresh();
 }
+function quickPage(page){page.insertAdjacentHTML('beforeend',`<section class="quick-response-choices"><button type="button" data-quick-version="beginner"><span>01</span><h2>初階版本</h2><p>Beginner-friendly</p></button><button type="button" data-quick-version="professional"><span>02</span><h2>專業版本</h2><p>Professional</p></button></section><section class="quick-response-empty" role="status" hidden></section>`);page.querySelectorAll('[data-quick-version]').forEach(b=>b.onclick=()=>{page.querySelectorAll('[data-quick-version]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));const content=page.querySelector('.quick-response-empty');content.hidden=false;content.textContent=(b.dataset.quickVersion==='beginner'?'初階版本':'專業版本')+' · 內容稍後加入。';});}
 async function mount(){
  if(activePage||!session()?.token||!document.querySelector('#root .workspace'))return;
  const page=document.createElement('main');activePage=page;page.className='pro-practice-page library-page';document.body.append(page);document.body.classList.add('pro-library-open');
- const view=['search','materials','bookmarks','messages'].includes(params().get('view'))?params().get('view'):'search';page.innerHTML=pageHeader(view);
- try{await ({search:searchPage,materials:materialsPage,bookmarks:bookmarksPage,messages:messagesPage})[view](page);}catch(error){notice(error.message);const retry=document.createElement('button');retry.textContent='重試';retry.onclick=()=>location.reload();page.append(retry);}
+ const view=['search','materials','bookmarks','messages','feedback','records','quick'].includes(params().get('view'))?params().get('view'):'search';page.innerHTML=pageHeader(view);
+ try{await ({search:searchPage,materials:materialsPage,bookmarks:bookmarksPage,messages:messagesPage,feedback:feedbackPage,records:recordsPage,quick:quickPage})[view](page);}catch(error){notice(error.message);const retry=document.createElement('button');retry.textContent='重試';retry.onclick=()=>location.reload();page.append(retry);}
 }
 if(document.body.dataset.professionalLibraryPage==='true'){
  new MutationObserver(()=>{if(activePage&&!session()?.token){stopAudio();activePage.remove();activePage=null;document.body.classList.remove('pro-library-open');}void mount();}).observe(document.getElementById('root'),{childList:true,subtree:true});void mount();window.addEventListener('pagehide',stopAudio);

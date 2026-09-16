@@ -1,5 +1,5 @@
-import {openPhrasePicker,isPhraseMarked} from './phrase-bookmarks.mjs?v=20260916-library1';
-import {fontControl,loadState,saveState,record,startStudy,bookmarkKey,getCached,toggleWord,session} from './learning-state.mjs?v=20260916-library1';
+import {openPhrasePicker,isPhraseMarked} from './phrase-bookmarks.mjs?v=20260916-community1';
+import {fontControl,loadState,saveState,record,startStudy,bookmarkKey,getCached,toggleWord,session} from './learning-state.mjs?v=20260916-community1';
 export const DIFFICULTIES = [
   {id:'standard',rate:.25,zh:'標準模式',en:'Standard'},
   {id:'medium',rate:.4,zh:'中等難度',en:'Medium'},
@@ -204,7 +204,7 @@ if (typeof document !== 'undefined' && document.body.dataset.professionalDialogu
   async function initialise(){
     // The existing course app authenticates the student before rendering this node.
     if(mounted||!document.querySelector('#root .course-section'))return;mounted=true;
-    try{const response=await fetch('./dialogue-audio.json?v=20260916-lessons123');if(!response.ok)throw Error('audio manifest');mountDialoguePage({dialogues:window.EDMUND_PROFESSIONAL_DIALOGUES,audioManifest:await response.json(),teachingHighlights:await fetch('./content/dialogue-highlights.json?v=20260916-library1').then(r=>r.json()).catch(()=>({}))});}
+    try{const response=await fetch('./dialogue-audio.json?v=20260916-lessons123');if(!response.ok)throw Error('audio manifest');mountDialoguePage({dialogues:window.EDMUND_PROFESSIONAL_DIALOGUES,audioManifest:await response.json(),teachingHighlights:await fetch('./content/dialogue-highlights.json?v=20260916-community1').then(r=>r.json()).catch(()=>({}))});}
     catch{const note=document.createElement('p');note.className='pro-page-load-error';note.textContent='對話未能載入。';const retry=document.createElement('button');retry.textContent='重試';retry.onclick=()=>{mounted=false;note.remove();initialise();};note.append(retry);document.body.append(note);}
   }
   new MutationObserver(initialise).observe(document.getElementById('root'),{childList:true,subtree:true});initialise();

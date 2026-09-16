@@ -1,5 +1,5 @@
-import {bookmarks,saveState,session} from './learning-state.mjs?v=20260916-library1';
-import {escapeHtml as esc,phraseKey,phraseRanges} from './library-core.mjs?v=20260916-library1';
+import {bookmarks,saveState,session} from './learning-state.mjs?v=20260916-community1';
+import {escapeHtml as esc,phraseKey,phraseRanges} from './library-core.mjs?v=20260916-community1';
 export function isPhraseMarked(dialogue,line,start,end){return phraseRanges(bookmarks(),dialogue,line).some(p=>start<p.end&&end>p.start);}
 export function openPhrasePicker(dialogue,lineIndex,onSaved){
  const owner=session()?.user?.id,line=dialogue.lines[lineIndex];if(!owner||!line)return;

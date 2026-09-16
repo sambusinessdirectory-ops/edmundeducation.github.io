@@ -14,7 +14,9 @@ async function setup(id='alice',admin=false){
   apiCalls++;const name=route.request().url().split('/').at(-1),args=route.request().postDataJSON(),owner=args.p_token;let payload={};
   if(name==='special_flash_library')payload={decks:[{id:'qa-deck',course_id:'qa-course',course_title:'ProfessionalEnglish_ThreeGardenRoad_HK',title:'Class 2 · 第二課',count:cards.length,version:1,active:true,known:0,review:0}]};
   else if(name==='special_flash_deck')payload={deck:{id:'qa-deck',course_id:'qa-course',title:'Class 2 · 第二課',version:1,cards},progress:{marks:{},revision:0}};
-  else if(name==='special_flash_annotations')payload=[];
+  else if(name==='special_flash_annotations'||name==='special_flash_card_records')payload=[];
+  else if(name==='special_flash_exercise_progress')payload={drafts:{},polysemy:{}};
+  else if(name==='special_flash_record_marks')payload={accepted:args.p_events.length};
   else if(name==='special_flash_learning_state'){states[owner]??={};if(args.p_key){if(args.p_value!==undefined)states[owner][args.p_key]=args.p_value;payload=states[owner][args.p_key]??null;}else payload=Object.fromEntries(Object.entries(states[owner]).filter(([k])=>!k.startsWith('draft:')));}
   else if(name==='special_flash_save')payload={saved:true,revision:args.p_revision+1,mutation_id:args.p_mutation};
   else if(name==='special_flash_activity')payload={accepted:args.p_events.length};
