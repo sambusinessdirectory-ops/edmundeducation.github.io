@@ -1,9 +1,9 @@
-import {beginCosmeticsPreview,supportsCosmetics,confirmDiscardCosmetics,restoreCosmetics} from './eddy-cosmetics.mjs?v=20260916-girls-fleece1';
+import {beginCosmeticsPreview,supportsCosmetics,confirmDiscardCosmetics,restoreCosmetics} from './eddy-cosmetics.mjs?v=20260916-girls-individual1';
 import {closetRoute} from './closet-walking.mjs';
-import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260916-girls-fleece1';
+import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260916-girls-individual1';
 import {batchClosetSurfaces} from './closet-static-batches.mjs';
 import * as THREE from './vendor/three/three.module.js';
-import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260916-girls-fleece1';
+import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260916-girls-individual1';
 import { buildPhoebeCloset, PHOEBE_CLOSET_PROFILE } from './phoebe-closet-3d.mjs?v=20260915-phoebe2';
 
 let activeClose = null;

@@ -5,7 +5,7 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
 (async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));const origin='http://127.0.0.1:'+server.address().port,browser=await chromium.launch({headless:true});try{
  const page=await browser.newPage({viewport:{width:1400,height:1050},hasTouch:true}),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.route('https://**/*',r=>r.abort());
  await page.route('**/__outfits',r=>r.fulfill({contentType:'text/html',body:'<!doctype html><link rel="stylesheet" href="/common-expression-map.css"><style>body{background:#e4dfcd}canvas.gallery{width:800px;height:800px}</style><div id="inventory"></div>'}));
- let saved={equipped:{},outfits:[]};await page.exposeFunction('saveFixture',args=>{if(args.p_token!=='fixture-token')return {equipped:{},outfits:[]};if(args.p_equipped)saved.equipped=args.p_equipped;if(args.p_outfits)saved.outfits=args.p_outfits;return saved;});
+ let saved={equipped:{},outfits:[]};await page.exposeFunction('saveFixture',args=>{if(args.p_token!=='fixture-token')return {equipped:{},outfits:[]};return require('./wardrobe-fixture.cjs')(saved,args);});
  await page.addInitScript(()=>{
   window.EdmundSystemNav={getStudentSession:()=>({id:'fixture-a',token:'fixture-token'})};
   window.EDMUND_SUPABASE={url:'https://fixture.invalid',anonKey:'fixture'};
@@ -13,9 +13,9 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  });
  await page.goto(origin+'/__outfits');
  await page.evaluate(async()=>{
-  window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260916-girls-fleece1');await cosmetics.restoreCosmetics();
+  window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260916-girls-individual1');await cosmetics.restoreCosmetics();
   window.base=new Image();base.src='/assets/speaking-system/mascots/v4/eddy-standing.png';await base.decode();
-  const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20260916-girls-fleece1');mountClosetInventory(document.querySelector('#inventory'),new AbortController().signal);
+  const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20260916-girls-individual1');mountClosetInventory(document.querySelector('#inventory'),new AbortController().signal);
  });
  await page.locator('[data-cosmetic=white-fedora]').click();await page.locator('[data-cosmetic=cream-cable-knit]').click();
  assert.equal(await page.locator('[data-cosmetic][aria-pressed=true]').count(),2);
@@ -49,12 +49,12 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  await page.getByRole('button',{name:'Favorite Swordsman',exact:true}).click();await page.waitForFunction(()=>cosmetics.cosmeticsState().outfits.find(x=>x.name==='Swordsman').favorite===true);assert.equal(saved.outfits.find(x=>x.name==='Swordsman').favorite,true);
  await page.locator('[data-remove-outfit]').click();assert.equal(await page.locator('[data-cosmetic][aria-pressed=true]').count(),0);
  await page.locator('[data-outfit]').filter({hasText:'Cream + fedora'}).click();await page.getByRole('status').filter({hasText:'Saved to your account'}).waitFor();assert.equal(await page.locator('[data-cosmetic][aria-pressed=true]').count(),2);
- await page.reload();await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260916-girls-fleece1');await cosmetics.restoreCosmetics();});assert.deepEqual(await page.evaluate(()=>cosmetics.cosmeticsState().equipped),saved.equipped);
+ await page.reload();await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260916-girls-individual1');await cosmetics.restoreCosmetics();});assert.deepEqual(await page.evaluate(()=>cosmetics.cosmeticsState().equipped),saved.equipped);
  assert.equal(await page.evaluate(()=>cosmetics.cosmeticsState().outfits.find(x=>x.name==='Swordsman').favorite),true);
  await page.evaluate(()=>cosmetics.equipOutfit('Swordsman'));
  await page.evaluate(async()=>{
   const THREE=await import('/vendor/three/three.module.js');
-  const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260916-girls-fleece1');
+  const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260916-girls-individual1');
   const system=new MascotCharacters(undefined,undefined,{preview:true});const actor=await system.create('eddy','standing');
   for(const name of ['elsie','phoebe']){
    const companion=await system.create(name,'standing');

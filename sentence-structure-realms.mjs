@@ -2,7 +2,7 @@ import {HOTEL_OFFSET,HOTEL_HEIGHT,hotelPositions,hotelArrivalIndex,hotelJourneyD
 import {hotelTerrain,decorateHotelDoors,mountHotel} from './sentence-structure-hotel.mjs?v=20260914-hotel3b';
 import {TOY_OFFSET,TOY_HEIGHT,toyPositions} from './sentence-structure-toy-geometry.mjs?v=20260912-toy1';
 import {toyTerrain,decorateToyStones,mountToy} from './sentence-structure-toy.mjs?v=20260912-toy1';
-import { levelPositions } from './common-expression-map.mjs?v=20260916-girls-fleece1';
+import { levelPositions } from './common-expression-map.mjs?v=20260916-girls-individual1';
 import { SENTENCE_COAST, SHORE_LAYOUT } from './sentence-structure-coast.mjs?v=20260912-autumn1';
 import { AUTUMN_OFFSET, realmsPath, realmsStep } from './sentence-structure-realms-navigation.mjs?v=20260914-hotel3b';
 import { createAutumnRabbit, rabbitMotion } from './sentence-structure-autumn-rabbit.mjs?v=20260912-autumn1';

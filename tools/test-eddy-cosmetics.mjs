@@ -66,15 +66,23 @@ test('every shared item ships independent Eddy and Noir fits',async()=>{
 });
 
 
-test('girls share one catalog without changing the boys equipment',async()=>{
+test('girls share availability but have independent equipped slots',async()=>{
  const {cosmeticsForCharacter}=await import('../eddy-cosmetics.mjs');
- clearCosmetics('eddy');clearCosmetics('celeste');equipCosmetic('white-fedora');equipCosmetic('blue-swordsman-jacket');equipCosmetic('cream-sherpa-jacket');
- for(const character of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(character).map(x=>x.id),['cream-sherpa-jacket']);
- assert.equal(cosmeticsForCharacter('eddy').some(x=>x.id==='cream-sherpa-jacket'),false);
- clearCosmetics('phoebe');assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora',top:'blue-swordsman-jacket'});
- equipCosmetic('cream-sherpa-jacket');clearCosmetics('noir');assert.deepEqual(cosmeticsState().equipped,{girlsTop:'cream-sherpa-jacket'});
- clearCosmetics('elsie');
- assert.deepEqual(cleanEquipment({girlsTop:'white-fedora',top:'cream-sherpa-jacket'}),{});
+ clearCosmetics('eddy');for(const c of ['celeste','phoebe','elsie'])clearCosmetics(c);
+ equipCosmetic('white-fedora');equipCosmetic('blue-swordsman-jacket');equipCosmetic('cream-sherpa-jacket','elsie');
+ assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora',top:'blue-swordsman-jacket',elsieTop:'cream-sherpa-jacket'});
+ for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['cream-sherpa-jacket']);
+ clearCosmetics('phoebe');assert.equal(cosmeticsState().equipped.elsieTop,'cream-sherpa-jacket');
+ equipCosmetic('cream-sherpa-jacket','phoebe');clearCosmetics('elsie');
+ assert.equal(cosmeticsState().equipped.phoebeTop,'cream-sherpa-jacket');assert.equal(cosmeticsState().equipped.elsieTop,undefined);assert.equal(cosmeticsState().equipped.celesteTop,undefined);
+ for(const c of ['eddy','celeste','phoebe','elsie'])clearCosmetics(c);
+});
+test('legacy looks and sets migrate into independent character copies',()=>{
+ const value=cleanWardrobe({equipped:{girlsTop:'cream-sherpa-jacket'},outfits:[{name:'Winter',group:'girls',equipped:{girlsTop:'cream-sherpa-jacket'},favorite:true}]});
+ assert.deepEqual(value.equipped,{celesteTop:'cream-sherpa-jacket',phoebeTop:'cream-sherpa-jacket',elsieTop:'cream-sherpa-jacket'});
+ assert.deepEqual(value.outfits.map(x=>x.character),['celeste','phoebe','elsie']);
+ for(const x of value.outfits){assert.deepEqual(x.equipped,{[x.character+'Top']:'cream-sherpa-jacket'});assert.equal(x.favorite,true);}
+ assert.deepEqual(cleanWardrobe(value),value);
 });
 test('the shared fleece has three independent transparent fit assets',async()=>{
  const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');

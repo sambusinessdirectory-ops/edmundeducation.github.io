@@ -1,5 +1,5 @@
 import { MAP_COMPANIONS } from './map-companions.mjs?v=20260915-noirceleste1';
-import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260916-girls-fleece1';
+import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260916-girls-individual1';
 import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-phoebe2';
 import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
 

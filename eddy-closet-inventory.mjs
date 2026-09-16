@@ -1,4 +1,4 @@
-import {cosmeticsForCharacter,wardrobeGroup,cosmeticAsset,cosmeticsState,equipCosmetic,equipOutfit,clearCosmetics,saveAvatar,restoreCosmetics,subscribeCosmetics,toggleOutfitFavorite} from './eddy-cosmetics.mjs?v=20260916-girls-fleece1';
+import {cosmeticsForCharacter,outfitsForCharacter,isCosmeticEquipped,wardrobeGroup,cosmeticAsset,cosmeticsState,equipCosmetic,equipOutfit,clearCosmetics,saveAvatar,restoreCosmetics,subscribeCosmetics,toggleOutfitFavorite} from './eddy-cosmetics.mjs?v=20260916-girls-individual1';
 export function mountClosetInventory(host,signal,{character='eddy'}={}){
  host.innerHTML='<p class="expression-closet-inventory-kicker">EDDIE’S COLLECTION</p><h3 id="expression-closet-inventory-title">Inventory <small>物品欄</small></h3><div class="closet-equipment-grid"></div><div class="closet-outfit-actions"><button type="button" data-save-avatar>✦ Save avatar · 儲存造型</button><button type="button" data-remove-outfit>↺ Remove all · 全部脫下</button></div><form data-outfit-form><label for="closet-outfit-name">Name this outfit · 造型名稱</label><input id="closet-outfit-name" maxlength="60" required placeholder="My favourite outfit" autocomplete="off"><button type="submit">＋ Save outfit set · 儲存套裝</button></form><h4>My outfit sets · 我的套裝</h4><div data-outfit-sets></div><p class="closet-save-status" role="status" aria-live="polite"></p>';
  host.querySelector('.expression-closet-inventory-kicker').textContent=character.toUpperCase()+'’S COLLECTION';
@@ -17,19 +17,19 @@ export function mountClosetInventory(host,signal,{character='eddy'}={}){
   const description=document.createElement('small');description.textContent=item.description;
   const state=document.createElement('span');state.className='closet-equipped-status';
   const picture=document.createElement('span');picture.className='closet-item-picture '+item.id;picture.append(image);button.append(picture,title,description,state);grid.append(button);buttons.push([item,button,state]);
-  button.addEventListener('click',()=>{equipCosmetic(item.id);status.textContent='Preview updated. Save avatar to keep this look. · 儲存後套用至所有地圖';},{signal});
+  button.addEventListener('click',()=>{equipCosmetic(item.id,character);status.textContent='Preview updated. Save avatar to keep this look. · 儲存後套用至所有地圖';},{signal});
  }
  let busy=false,lastSets='';
  const render=()=>{
-  const data=cosmeticsState();data.outfits=data.outfits.filter(x=>(x.group||'boys')===wardrobeGroup(character));
-  for(const [item,button,state] of buttons){const yes=data.equipped[item.slot]===item.id;button.setAttribute('aria-pressed',String(yes));state.textContent=yes?'✓ Equipped · 已裝備':'Equip · 裝備';}
+  const data=cosmeticsState();data.outfits=outfitsForCharacter(data.outfits,character);
+  for(const [item,button,state] of buttons){const yes=isCosmeticEquipped(data.equipped,item,character);button.setAttribute('aria-pressed',String(yes));state.textContent=yes?'✓ Equipped · 已裝備':'Equip · 裝備';}
   const serialized=JSON.stringify(data.outfits);
   if(serialized!==lastSets){lastSets=serialized;sets.replaceChildren();if(!data.outfits.length)sets.textContent='No saved sets yet · 尚未儲存套裝';
    for(const outfit of [...data.outfits].sort((a,b)=>Number(b.favorite)-Number(a.favorite))){const button=document.createElement('button');button.type='button';button.textContent=outfit.name;button.dataset.outfit=outfit.name;const row=document.createElement('div');row.className='closet-saved-set';const heart=document.createElement('button');heart.type='button';heart.dataset.favorite=outfit.name;heart.textContent=outfit.favorite?'♥':'♡';heart.setAttribute('aria-label',(outfit.favorite?'Unfavorite ':'Favorite ')+outfit.name);heart.setAttribute('aria-pressed',String(!!outfit.favorite));row.append(button,heart);sets.append(row);}
   }
  };
  async function save(name){if(busy)return;busy=true;host.querySelectorAll('button,input').forEach(e=>e.disabled=true);status.textContent='Saving… · 儲存中';
-  try{await saveAvatar(name,character);status.textContent='Saved to your account. '+(wardrobeGroup(character)==='girls'?'Celeste, Phoebe and Elsie':'Eddy and Noir')+' will wear their fitted version across all maps. · 已儲存';}
+  try{await saveAvatar(name,character);status.textContent='Saved to your account. '+(wardrobeGroup(character)==='girls'?character.charAt(0).toUpperCase()+character.slice(1):'Eddy and Noir')+' will wear this outfit across all maps. · 已儲存';}
   catch(error){status.textContent=error.message||'Could not save. Please try again.';}
   finally{busy=false;if(!signal.aborted){host.querySelectorAll('button,input').forEach(e=>e.disabled=false);render();}}
  }

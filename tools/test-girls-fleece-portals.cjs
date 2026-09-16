@@ -9,7 +9,7 @@ const portals=['sentence-structure','idiom-system','phrasal-verb-system','prover
 for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.PORTAL)){
  const page=await browser.newPage({viewport:{width:1440,height:1050}}),errors=[];page.on('pageerror',e=>{errors.push(e.message);console.error(portal,e.message);});
  await page.route('https://**/*',r=>r.abort());
- await page.exposeFunction('wardrobeFixture',args=>{if(args.p_equipped)saved.equipped=args.p_equipped;if(args.p_outfits)saved.outfits=args.p_outfits;return saved;});
+ await page.exposeFunction('wardrobeFixture',args=>{return require('./wardrobe-fixture.cjs')(saved,args);});
  await page.addInitScript(()=>{window.EdmundSystemNav={getStudentSession:()=>({id:'id:fixture-a',token:'fixture-token'})};window.EDMUND_SUPABASE={url:'https://fixture.invalid',anonKey:'fixture'};window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:{}}})},rpc:async(_n,args)=>({data:await window.wardrobeFixture(args)})})};});
  for(const file of ['shared-system-nav.js','shared-speaking-practice.js','pwa-register.js'])await page.route('**/'+file+'*',r=>r.fulfill({contentType:'text/javascript',body:''}));
  const ce=portal.startsWith('common-expression-'),listening=portal==='listening-system',file=ce?'common-expression-system':portal;
@@ -41,7 +41,7 @@ for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.POR
  if(await page.locator('[data-horsey-map], [data-sentence-map]').isHidden())await page.locator(selector).click();
 
  const mapRoot=page.locator('[data-horsey-map], [data-sentence-map]');
- await page.evaluate(async first=>{window.wardrobe=await import('/eddy-cosmetics.mjs?v=20260916-girls-fleece1');await wardrobe.restoreCosmetics();if(first){wardrobe.beginCosmeticsPreview();wardrobe.equipCosmetic('white-fedora');wardrobe.equipCosmetic('blue-swordsman-jacket');wardrobe.equipCosmetic('cream-sherpa-jacket');await wardrobe.saveAvatar();wardrobe.discardCosmeticsPreview();}},portal==='sentence-structure');
+ await page.evaluate(async first=>{window.wardrobe=await import('/eddy-cosmetics.mjs?v=20260916-girls-individual1');await wardrobe.restoreCosmetics();if(first){wardrobe.beginCosmeticsPreview();wardrobe.equipCosmetic('white-fedora');wardrobe.equipCosmetic('blue-swordsman-jacket');await wardrobe.saveAvatar();wardrobe.equipCosmetic('cream-sherpa-jacket','elsie');await wardrobe.saveAvatar(undefined,'elsie');wardrobe.discardCosmeticsPreview();}},portal==='sentence-structure');
  await page.waitForFunction(()=>wardrobe.cosmeticsState().savedEquipment.top==='blue-swordsman-jacket');
  await page.evaluate(async()=>{const image=new Image();image.src='/assets/speaking-system/mascots/v4/eddy-standing.png';await image.decode();window.avatarBase=image;wardrobe.cosmeticAtlas('eddy',image);});
  await page.waitForFunction(()=>wardrobe.cosmeticAtlas('eddy',avatarBase)!==avatarBase);
@@ -58,8 +58,9 @@ for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.POR
   await page.locator('[data-character="'+character+'"]').click();
   assert.equal(await page.locator('[data-open-closet]').isEnabled(),true,portal+' '+character+' closet available');
   await page.evaluate(async character=>{window.girl=character;const image=new Image();image.src='/assets/speaking-system/mascots/v4/'+character+'-standing.png';await image.decode();window.girlBase=image;wardrobe.cosmeticAtlas(character,image);},character);
-  await page.waitForFunction(()=>wardrobe.cosmeticAtlas(girl,girlBase)!==girlBase);
-  assert.equal(await page.evaluate(()=>wardrobe.cosmeticsState().savedEquipment.girlsTop),'cream-sherpa-jacket');
+  if(character==='elsie')await page.waitForFunction(()=>wardrobe.cosmeticAtlas(girl,girlBase)!==girlBase);
+  else assert.equal(await page.evaluate(()=>wardrobe.cosmeticAtlas(girl,girlBase)===girlBase),true,portal+' '+character+' remains independently bare');
+  assert.equal(await page.evaluate(()=>wardrobe.cosmeticsState().savedEquipment[girl+'Top']),character==='elsie'?'cream-sherpa-jacket':undefined);
  }
  assert.deepEqual(errors,[],portal);console.log('PASS saved avatar:',portal);await page.close();
 }
