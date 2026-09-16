@@ -1,3 +1,4 @@
+import {fontControl,record,startStudy,saveState,loadState,getCached,session} from './learning-state.mjs';
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 // Each first round preserves the source order and finishes with the passage.
@@ -22,23 +23,26 @@ export function createPolysemyQuiz(word) {
   };
 }
 
-function progressKey(){
-  try {const session=JSON.parse(localStorage.getItem('special-flash-session-v1')||'null');return session?.user?.id?`professional-polysemy-v1:${session.user.id}:lesson-1`:null;}catch{return null;}
-}
-function completedWords(){try{return JSON.parse(localStorage.getItem(progressKey())||'{}');}catch{return {};}}
+function progressKey(owner=session()?.user?.id){return owner?`professional-polysemy-v1:${owner}:lesson-1`:null;}
+function completedWords(owner){try{return JSON.parse(localStorage.getItem(progressKey(owner))||'{}');}catch{return {};}}
 export function mountPolysemyPage({data,root=document.body}) {
+  const owner=session()?.user?.id,ownsPage=()=>Boolean(owner)&&session()?.user?.id===owner;
   const page=document.createElement('main');page.className='pro-practice-page poly-page';root.append(page);document.body.classList.add('pro-dialogue-open');
-  let word=null,quiz=null,progress=completedWords();
-  function header(){return `<header class="pro-page-header"><a href="./">← 返回課程 · Back to course</a><button type="button" data-poly-theme>切換日夜模式</button></header><section class="pro-page-intro"><p class="pro-eyebrow">PROFESSIONAL ENGLISH · LESSON 1</p><h1>一詞多義 (Polysemy) 練習</h1><p>閱讀語境，找出同一個字在不同句子中的意思。</p></section>`;}
+  let word=null,quiz=null,progress=completedWords(owner),attempt=null,correctAnswers={},stopStudy=()=>{};
+  function header(){return `<header class="pro-page-header"><a href="./">← 返回課程 · Back to course</a>${fontControl('polysemy')}<button type="button" data-poly-theme>切換日夜模式</button></header><section class="pro-page-intro"><p class="pro-eyebrow">PROFESSIONAL ENGLISH · LESSON 1</p><h1>一詞多義 (Polysemy) 練習</h1><p>閱讀語境，找出同一個字在不同句子中的意思。</p></section>`;}
   function showList(){
-    word=null;quiz=null;
+    if(!ownsPage())return;
+    stopStudy();word=null;quiz=null;
     page.innerHTML=header()+`<section class="poly-intro"><h2 tabindex="-1">第一課 · 選擇一個詞語</h2><p>每個詞語先練習不同意思，最後回到課文原句。中文翻譯會隱去答案；答錯的題目將在下一輪再出現，直至全部答對。</p><p class="poly-progress">${data.words.filter(w=>progress[w.id]).length} / ${data.words.length} 個詞語已完成</p></section><div class="poly-word-grid">${data.words.map(w=>`<button type="button" data-poly-word="${esc(w.id)}"><strong lang="en">${esc(w.word)}</strong><span>${w.senses.length} 種意思 · ${w.questions.length} 題</span><small>${progress[w.id]?'✓ 已完成 · 再練一次':'開始練習 →'}</small></button>`).join('')}</div>`;
     document.title='一詞多義練習 · 第一課 | Professional English';
   }
   function render(){
+    if(!ownsPage())return;
     const s=quiz.state;
     if(s.complete){
-      progress[word.id]={completedAt:Date.now(),rounds:s.round};try{const key=progressKey();if(key)localStorage.setItem(key,JSON.stringify(progress));}catch{}
+      stopStudy();record({kind:'polysemy',exercise:`lesson-1:${word.id}`,attempt,item:'word',answers:correctAnswers},owner);
+      progress[word.id]={completedAt:Date.now(),rounds:s.round};try{const key=progressKey(owner);if(key)localStorage.setItem(key,JSON.stringify(progress));}catch{}
+      saveState(`draft:poly-complete:${word.id}`,progress[word.id],owner);
       page.innerHTML=header()+`<section class="poly-complete"><span class="poly-check" aria-hidden="true">✓</span><h2 tabindex="-1">${esc(word.word)} · 全部答對！</h2><p>您已完成 ${word.questions.length} 題，共練習 ${s.round} 輪。</p><button type="button" data-poly-list>選擇下一個詞語 →</button><button type="button" data-poly-word="${esc(word.id)}">再練一次</button></section>`;return;
     }
     const q=s.question;
@@ -53,9 +57,10 @@ export function mountPolysemyPage({data,root=document.body}) {
   }
   function focusHeading(){page.querySelector('.poly-question h2,.poly-complete h2,.poly-intro h2')?.focus({preventScroll:true});}
   page.addEventListener('click',event=>{
+    if(!ownsPage()){event.preventDefault();stopStudy();return;}
     const button=event.target.closest('button');if(!button)return;
     if(button.matches('[data-poly-list]')){showList();focusHeading();}
-    else if(button.matches('[data-poly-word]')){word=data.words.find(w=>w.id===button.dataset.polyWord);if(word){quiz=createPolysemyQuiz(word);render();focusHeading();}}
+    else if(button.matches('[data-poly-word]')){word=data.words.find(w=>w.id===button.dataset.polyWord);if(word){stopStudy();attempt=crypto.randomUUID();correctAnswers={};quiz=createPolysemyQuiz(word);stopStudy=startStudy('polysemy',`lesson-1:${word.id}`);render();focusHeading();}}
     else if(button.matches('[data-poly-answer]')){
       const correct=quiz.answer(button.dataset.polyAnswer);if(correct===null)return;
       page.querySelectorAll('[data-poly-answer]').forEach(b=>b.disabled=true);
@@ -64,12 +69,13 @@ export function mountPolysemyPage({data,root=document.body}) {
       feedback.textContent=correct?`答對了！${quiz.state.question.zh}`:'這個意思不符合語境。這題會在下一輪再出現，請再留意句子中的線索。';
       const s=quiz.state,next=page.querySelector('[data-poly-next]');next.hidden=false;
       next.textContent=s.position+1<s.total?'下一題 →':s.missed?`重溫答錯的 ${s.missed} 題 →`:'查看結果 →';next.focus();
+      if(correct)correctAnswers[quiz.state.question.id]=button.dataset.polyAnswer;
       if(correct)document.dispatchEvent(new CustomEvent('professional-card-marked',{detail:{mark:'green'}}));
     }
     else if(button.matches('[data-poly-next]')){if(quiz.next()){render();focusHeading();}}
     else if(button.matches('[data-poly-theme]'))document.querySelector('[data-professional-theme-toggle]')?.click();
   });
-  showList();return {page};
+  showList();Promise.all(data.words.map(async w=>{const saved=await loadState(`draft:poly-complete:${w.id}`);if(ownsPage()&&saved)progress[w.id]=saved;})).then(()=>{if(ownsPage()&&!word)showList();});return {page};
 }
 
 if(typeof document!=='undefined'&&document.body.dataset.professionalPolysemyPage==='true'){

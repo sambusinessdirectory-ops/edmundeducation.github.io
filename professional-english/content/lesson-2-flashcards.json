@@ -1,0 +1,852 @@
+[
+  {
+    "id": "0d635ac1-6d2d-5c21-9c79-29d43af38f78",
+    "front": "lift zone",
+    "back": "升降機分區",
+    "examples": [
+      "Those lifts do not serve the 23rd floor.",
+      "I'll show you the correct lift zone.",
+      "The lifts are divided into different zones."
+    ],
+    "examples_zh": [
+      "那些升降機不到二十三樓。",
+      "我會帶您到正確的升降機分區。",
+      "升降機分為不同分區。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/0d635ac1-6d2d-5c21-9c79-29d43af38f78.mp3"
+  },
+  {
+    "id": "8a907924-9164-59c2-9afa-9a80e96b53a0",
+    "front": "lift bank",
+    "back": "升降機組",
+    "examples": [
+      "I'll accompany you to the correct lift bank.",
+      "Please follow me to the correct lift bank.",
+      "This lift bank serves your destination floor."
+    ],
+    "examples_zh": [
+      "我會陪同您前往正確的升降機組。",
+      "請跟我前往正確的升降機組。",
+      "這組升降機可前往您的目的樓層。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/8a907924-9164-59c2-9afa-9a80e96b53a0.mp3"
+  },
+  {
+    "id": "b169ee5f-c303-5c97-8324-620185f05d08",
+    "front": "destination floor",
+    "back": "目的樓層",
+    "examples": [
+      "Please confirm your destination floor.",
+      "Lift H is the correct lift for your destination.",
+      "If the destination floor is unclear, ask before directing."
+    ],
+    "examples_zh": [
+      "請確認您的目的樓層。",
+      "H 升降機是前往您目的樓層的正確升降機。",
+      "如果目的樓層不清楚，帶路前先查問清楚。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/b169ee5f-c303-5c97-8324-620185f05d08.mp3"
+  },
+  {
+    "id": "5bd4f210-17fe-5516-8993-df7488d7b3b3",
+    "front": "nearest lift",
+    "back": "最近的升降機",
+    "examples": [
+      "I'll just take the nearest lifts here.",
+      "The nearest lift may not serve your floor.",
+      "Please check the lift zone before using the nearest lift."
+    ],
+    "examples_zh": [
+      "我就使用這裡最近的升降機。",
+      "最近的升降機未必能到您的樓層。",
+      "使用最近的升降機前，請先確認升降機分區。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/5bd4f210-17fe-5516-8993-df7488d7b3b3.mp3"
+  },
+  {
+    "id": "6a545636-797d-53a1-ac84-8688a557d1c8",
+    "front": "QR receipt",
+    "back": "QR 離場憑證",
+    "examples": [
+      "What is this QR receipt for?",
+      "Please keep the QR receipt with you during your visit.",
+      "Keep the QR receipt until you have passed through the exit gate."
+    ],
+    "examples_zh": [
+      "這張 QR 離場憑證有甚麼用途？",
+      "到訪期間，請隨身保留 QR 離場憑證。",
+      "請保留 QR 離場憑證，直至通過出口閘機。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/6a545636-797d-53a1-ac84-8688a557d1c8.mp3"
+  },
+  {
+    "id": "d99b9a73-0fae-5d29-a795-769231d4ca4e",
+    "front": "QR code",
+    "back": "QR 碼",
+    "examples": [
+      "Please scan the QR code at the exit gate.",
+      "My QR code isn't scanning.",
+      "Please scan your QR code at the gate before leaving."
+    ],
+    "examples_zh": [
+      "請在出口閘機掃描 QR 碼。",
+      "我的 QR 碼掃描不到。",
+      "離開前，請在閘機掃描您的 QR 碼。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/d99b9a73-0fae-5d29-a795-769231d4ca4e.mp3"
+  },
+  {
+    "id": "12d5fe70-679c-50a0-9eef-ff05a33b8ca3",
+    "front": "exit gate",
+    "back": "出口閘機",
+    "examples": [
+      "The exit gate is on your left-hand side.",
+      "Please scan the QR code at the exit gate.",
+      "The main exit is just ahead after the gate."
+    ],
+    "examples_zh": [
+      "出口閘機在您的左手邊。",
+      "請在出口閘機掃描 QR 碼。",
+      "通過閘機後，主出口就在前方。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/12d5fe70-679c-50a0-9eef-ff05a33b8ca3.mp3"
+  },
+  {
+    "id": "0e034e49-fef3-5b0d-9b1f-1ac1bf5a5d50",
+    "front": "secured area",
+    "back": "保安管制區",
+    "examples": [
+      "Scan the QR code to leave the secured area.",
+      "The QR receipt is used when leaving the secured area.",
+      "If the QR code does not scan, do not force the gate."
+    ],
+    "examples_zh": [
+      "請掃描 QR 碼離開保安管制區。",
+      "離開保安管制區時需要使用 QR 離場憑證。",
+      "如果 QR 碼掃描不到，請不要強行推開閘機。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/0e034e49-fef3-5b0d-9b1f-1ac1bf5a5d50.mp3"
+  },
+  {
+    "id": "84221910-555a-55e2-a3b3-fe1f0d49a900",
+    "front": "ground floor (G/F)",
+    "back": "地下／G/F",
+    "examples": [
+      "We've arrived at the ground floor.",
+      "I can accompany you back to G/F.",
+      "The exit gate is on your left when we reach G/F."
+    ],
+    "examples_zh": [
+      "我們已到達地下。",
+      "我可以陪同您返回地下。",
+      "到達地下後，出口閘機在您的左邊。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/84221910-555a-55e2-a3b3-fe1f0d49a900.mp3"
+  },
+  {
+    "id": "0071d453-dee0-563d-b07f-8b66abb9ae6b",
+    "front": "CS counter",
+    "back": "客戶服務櫃位",
+    "examples": [
+      "Would you mind waiting by the CS counter?",
+      "Please come back to the CS counter for assistance.",
+      "You only need to return to the counter if you need help."
+    ],
+    "examples_zh": [
+      "介意在客戶服務櫃位旁等候嗎？",
+      "如需協助，請返回客戶服務櫃位。",
+      "只有需要協助時，您才需要返回櫃位。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/0071d453-dee0-563d-b07f-8b66abb9ae6b.mp3"
+  },
+  {
+    "id": "5f0e9b34-2706-5272-8c42-aaf4cfc2c9f2",
+    "front": "Those lifts do not serve the 23rd floor.",
+    "back": "那些升降機不到二十三樓。",
+    "examples": [
+      "Just a moment, please. Those lifts do not serve the 23rd floor.",
+      "The lifts are divided into different zones.",
+      "Please use Lift H on your right to access the 23rd floor."
+    ],
+    "examples_zh": [
+      "請稍等。那些升降機不到二十三樓。",
+      "升降機分為不同分區。",
+      "請使用右邊的 H 升降機前往二十三樓。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/5f0e9b34-2706-5272-8c42-aaf4cfc2c9f2.mp3"
+  },
+  {
+    "id": "62206c50-d17f-5092-bdd7-49b96a3fdd38",
+    "front": "Please use Lift H on your right to access the 23rd floor.",
+    "back": "請使用右邊的 H 升降機前往二十三樓。",
+    "examples": [
+      "Please use Lift H on your right to access the 23rd floor.",
+      "Lift H is the correct lift for your destination.",
+      "I'll show you to the correct lift bank."
+    ],
+    "examples_zh": [
+      "請使用右邊的 H 升降機前往二十三樓。",
+      "H 升降機是前往您目的樓層的正確升降機。",
+      "我會帶您到正確的升降機組。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/62206c50-d17f-5092-bdd7-49b96a3fdd38.mp3"
+  },
+  {
+    "id": "e272921b-ac9f-531d-b341-9fbb2155e593",
+    "front": "The lifts are divided into different zones.",
+    "back": "升降機分為不同分區。",
+    "examples": [
+      "The lifts are divided into different zones.",
+      "These lifts do not serve the 23rd floor.",
+      "You'll need the correct lift zone for your destination."
+    ],
+    "examples_zh": [
+      "升降機分為不同分區。",
+      "這些升降機不到二十三樓。",
+      "您需要使用前往目的樓層的正確升降機分區。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/e272921b-ac9f-531d-b341-9fbb2155e593.mp3"
+  },
+  {
+    "id": "930cc3be-6c67-5631-a4f5-3ab8cdd88271",
+    "front": "I'll accompany you to the correct lift bank.",
+    "back": "我會陪同您前往正確的升降機組。",
+    "examples": [
+      "I'll accompany you to the correct lift bank.",
+      "Please follow me; I'll lead the way.",
+      "I'll show you the correct lift zone."
+    ],
+    "examples_zh": [
+      "我會陪同您前往正確的升降機組。",
+      "請跟我來；我會帶路。",
+      "我會帶您到正確的升降機分區。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/930cc3be-6c67-5631-a4f5-3ab8cdd88271.mp3"
+  },
+  {
+    "id": "9baf465a-591d-5761-859c-aa828a1eece4",
+    "front": "Please keep the QR receipt with you during your visit.",
+    "back": "到訪期間，請隨身保留 QR 離場憑證。",
+    "examples": [
+      "Please keep the QR receipt with you during your visit.",
+      "You'll need the QR receipt when you return to G/F.",
+      "Keep it with you until you have exited through the gate."
+    ],
+    "examples_zh": [
+      "到訪期間，請隨身保留 QR 離場憑證。",
+      "返回地下時，您會需要使用 QR 離場憑證。",
+      "請保留憑證，直至通過閘機離開。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/9baf465a-591d-5761-859c-aa828a1eece4.mp3"
+  },
+  {
+    "id": "2ab45543-9bc9-5bca-9855-e49beaa9fa64",
+    "front": "When you return to G/F, scan the QR code at the exit gate.",
+    "back": "返回地下時，請在出口閘機掃描 QR 碼。",
+    "examples": [
+      "When you return to G/F, scan the QR code at the exit gate.",
+      "Scan the code before leaving the secured area.",
+      "The exit gate is on your left-hand side."
+    ],
+    "examples_zh": [
+      "返回地下時，請在出口閘機掃描 QR 碼。",
+      "離開保安管制區前，請先掃描 QR 碼。",
+      "出口閘機在您的左手邊。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/2ab45543-9bc9-5bca-9855-e49beaa9fa64.mp3"
+  },
+  {
+    "id": "156a76d0-a365-5112-9d39-123d53ba127d",
+    "front": "Please keep the QR receipt until you have passed through the exit gate.",
+    "back": "請保留 QR 離場憑證，直至通過出口閘機。",
+    "examples": [
+      "Please keep the QR receipt until you have passed through the exit gate.",
+      "Do not discard the receipt before you leave the secured area.",
+      "Once you are through the gate, you no longer need it."
+    ],
+    "examples_zh": [
+      "請保留 QR 離場憑證，直至通過出口閘機。",
+      "離開保安管制區前，請不要丟掉憑證。",
+      "通過閘機後，便不再需要保留憑證。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/156a76d0-a365-5112-9d39-123d53ba127d.mp3"
+  },
+  {
+    "id": "7bc210a8-93ad-5088-aad7-98e566aed0ec",
+    "front": "Not unless you need assistance.",
+    "back": "除非您需要協助，否則不用。",
+    "examples": [
+      "Do I need to return to the counter afterwards? Not unless you need assistance.",
+      "Only return to the counter if you need help.",
+      "Otherwise, keep the QR receipt and proceed to the exit gate."
+    ],
+    "examples_zh": [
+      "之後需要返回櫃位嗎？除非您需要協助，否則不用。",
+      "只有需要幫忙時才返回櫃位。",
+      "否則，請保留 QR 離場憑證並前往出口閘機。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/7bc210a8-93ad-5088-aad7-98e566aed0ec.mp3"
+  },
+  {
+    "id": "15302ad5-6f48-57be-86bd-63633bf08e64",
+    "front": "Please don't force the gate.",
+    "back": "請不要強行推開閘機。",
+    "examples": [
+      "Please don't force the gate.",
+      "If the QR code does not scan, let me check it for you.",
+      "Please come back to the CS counter for assistance if needed."
+    ],
+    "examples_zh": [
+      "請不要強行推開閘機。",
+      "如果 QR 碼掃描不到，讓我替您檢查。",
+      "如有需要，請返回客戶服務櫃位尋求協助。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/15302ad5-6f48-57be-86bd-63633bf08e64.mp3"
+  },
+  {
+    "id": "df0ae3cd-0150-5bb8-8863-5cc19e8d2bd5",
+    "front": "Let me check the QR receipt and assist you with the exit gate.",
+    "back": "讓我檢查 QR 離場憑證，並協助您使用出口閘機。",
+    "examples": [
+      "Let me check the QR receipt and assist you with the exit gate.",
+      "No problem. I'll see why the QR code is not scanning.",
+      "Please wait here while I check the receipt."
+    ],
+    "examples_zh": [
+      "讓我檢查 QR 離場憑證，並協助您使用出口閘機。",
+      "沒問題，我會看看為甚麼 QR 碼掃描不到。",
+      "請在這裡稍候，讓我檢查憑證。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/df0ae3cd-0150-5bb8-8863-5cc19e8d2bd5.mp3"
+  },
+  {
+    "id": "6fb2c31a-c7e5-5e1e-8308-c494a03201b4",
+    "front": "escort",
+    "back": "陪同／護送",
+    "examples": [
+      "I can escort you back to G/F.",
+      "Thank you for escorting me down.",
+      "A security officer may escort a visitor to the correct lift."
+    ],
+    "examples_zh": [
+      "我可以陪同您返回地下。",
+      "多謝您陪同我下來。",
+      "保安員可陪同訪客前往正確的升降機。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/6fb2c31a-c7e5-5e1e-8308-c494a03201b4.mp3"
+  },
+  {
+    "id": "2415b7ae-f547-5b51-ae5f-9ace817f4862",
+    "front": "I'm ready to leave.",
+    "back": "我準備離開了。",
+    "examples": [
+      "Excuse me. I'm ready to leave.",
+      "My meeting has finished, and I'm ready to leave.",
+      "If you are ready to leave, I can show you the way back."
+    ],
+    "examples_zh": [
+      "不好意思，我準備離開了。",
+      "我的會議已經結束，我準備離開。",
+      "如果您準備離開，我可以帶您返回大堂。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/2415b7ae-f547-5b51-ae5f-9ace817f4862.mp3"
+  },
+  {
+    "id": "dab6e9a0-1db6-5ceb-aeb6-f3d99c996e98",
+    "front": "I'm not familiar with the way back to the main lobby.",
+    "back": "我不熟悉返回主大堂的路線。",
+    "examples": [
+      "I'm not familiar with the way back to the main lobby.",
+      "I wasn't sure which lift to use.",
+      "Certainly. I can accompany you back to G/F."
+    ],
+    "examples_zh": [
+      "我不熟悉返回主大堂的路線。",
+      "我不確定應該使用哪部升降機。",
+      "當然可以，我可以陪同您返回地下。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/dab6e9a0-1db6-5ceb-aeb6-f3d99c996e98.mp3"
+  },
+  {
+    "id": "b09b0c43-1099-5d7a-a781-0b953c7a7092",
+    "front": "I can accompany you back to G/F and show you the exit.",
+    "back": "我可以陪同您返回地下，並帶您到出口。",
+    "examples": [
+      "I can accompany you back to G/F and show you the exit.",
+      "Please follow me to the correct lift.",
+      "Once we reach G/F, I'll point out the exit gate."
+    ],
+    "examples_zh": [
+      "我可以陪同您返回地下，並帶您到出口。",
+      "請跟我前往正確的升降機。",
+      "到達地下後，我會指示出口閘機的位置。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/b09b0c43-1099-5d7a-a781-0b953c7a7092.mp3"
+  },
+  {
+    "id": "fe7557e7-3d9f-5ea5-8a41-41b319fd2676",
+    "front": "Please follow me; I'll lead the way to the correct lift.",
+    "back": "請跟我來；我會帶您前往正確的升降機。",
+    "examples": [
+      "Please follow me; I'll lead the way to the correct lift.",
+      "We'll use this lift back to G/F.",
+      "I'll accompany you down and show you the exit."
+    ],
+    "examples_zh": [
+      "請跟我來；我會帶您前往正確的升降機。",
+      "我們會乘搭這部升降機返回地下。",
+      "我會陪同您下樓，並帶您到出口。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/fe7557e7-3d9f-5ea5-8a41-41b319fd2676.mp3"
+  },
+  {
+    "id": "038f3666-3d0a-5b80-8271-ae2fc9e01f4f",
+    "front": "We've arrived at the ground floor.",
+    "back": "我們已到達地下。",
+    "examples": [
+      "We've arrived at the ground floor.",
+      "The exit gate is on your left-hand side.",
+      "Please scan the QR codebefore leaving the secured area."
+    ],
+    "examples_zh": [
+      "我們已到達地下。",
+      "出口閘機在您的左手邊。",
+      "離開保安管制區前，請先掃描 QR 碼。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/038f3666-3d0a-5b80-8271-ae2fc9e01f4f.mp3"
+  },
+  {
+    "id": "ab9a4260-8d5b-5a6e-997d-7a28aa271373",
+    "front": "The exit gate is on your left-hand side.",
+    "back": "出口閘機在您的左手邊。",
+    "examples": [
+      "The exit gate is on your left-hand side.",
+      "Once we reach G/F, the exit gate will be on your left.",
+      "Please follow the signs after you pass through the gate."
+    ],
+    "examples_zh": [
+      "出口閘機在您的左手邊。",
+      "到達地下後，出口閘機會在您的左邊。",
+      "通過閘機後，請跟隨指示牌前往出口。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/ab9a4260-8d5b-5a6e-997d-7a28aa271373.mp3"
+  },
+  {
+    "id": "10ab9d38-33c3-51bf-832c-095284e2e2da",
+    "front": "Please follow the signs to the exit.",
+    "back": "請跟隨指示牌前往出口。",
+    "examples": [
+      "Please follow the signs to the exit.",
+      "The exit gate will be on your left when we reach G/F.",
+      "The main exit is just ahead after the gate."
+    ],
+    "examples_zh": [
+      "請跟隨指示牌前往出口。",
+      "到達地下後，出口閘機會在您的左邊。",
+      "通過閘機後，主出口就在前方。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/10ab9d38-33c3-51bf-832c-095284e2e2da.mp3"
+  },
+  {
+    "id": "bc80070c-836e-5eb8-97a3-18f96e5d95d7",
+    "front": "The main exit is just ahead after the gate.",
+    "back": "通過閘機後，主出口就在前方。",
+    "examples": [
+      "The main exit is just ahead after the gate.",
+      "Please scan your QR code first, then continue straight ahead.",
+      "Have a pleasant afternoon."
+    ],
+    "examples_zh": [
+      "通過閘機後，主出口就在前方。",
+      "請先掃描 QR 碼，然後繼續向前行。",
+      "祝您下午愉快。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/bc80070c-836e-5eb8-97a3-18f96e5d95d7.mp3"
+  },
+  {
+    "id": "87d41a5d-7c17-5300-b98d-cce6768a9668",
+    "front": "Have a pleasant afternoon.",
+    "back": "祝您下午愉快。",
+    "examples": [
+      "Have a pleasant afternoon.",
+      "You're very welcome. Have a pleasant afternoon.",
+      "Use this phrase to close the interaction politely."
+    ],
+    "examples_zh": [
+      "祝您下午愉快。",
+      "不用客氣，祝您下午愉快。",
+      "可用這句話有禮貌地結束對話。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/87d41a5d-7c17-5300-b98d-cce6768a9668.mp3"
+  },
+  {
+    "id": "c229f5bf-e785-58ff-b3f3-7b1268d5b8a4",
+    "front": "normal office hours",
+    "back": "正常辦公時間",
+    "examples": [
+      "The tenant's normal office hours have already ended.",
+      "The office normally closes at 6:00 p.m.",
+      "After normal office hours, verify the host before allowing access."
+    ],
+    "examples_zh": [
+      "租戶的正常辦公時間已經結束。",
+      "辦公室通常在下午六時關門。",
+      "正常辦公時間後，讓訪客進入前要先核實接待人。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/c229f5bf-e785-58ff-b3f3-7b1268d5b8a4.mp3"
+  },
+  {
+    "id": "a69aa033-b699-5ec9-98a3-20fd3fd0f715",
+    "front": "still available",
+    "back": "仍然有空／仍可接待",
+    "examples": [
+      "I'll need to verify that Ms Chan is still available.",
+      "Although the office is closed, the host may still be available.",
+      "Let me contact the office and check whether your host is still available."
+    ],
+    "examples_zh": [
+      "我需要先核實 Chan 女士是否仍可接待您。",
+      "即使辦公室已關門，接待人仍可能在辦公室。",
+      "讓我聯絡辦公室，確認您的接待人是否仍可接待您。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/a69aa033-b699-5ec9-98a3-20fd3fd0f715.mp3"
+  },
+  {
+    "id": "88d8ae4d-03bb-5699-9c4f-fa74434298ec",
+    "front": "contact the office",
+    "back": "聯絡辦公室",
+    "examples": [
+      "What I can do is contact the office now.",
+      "Let me contact your host and verify the appointment.",
+      "I haven't been able to reach the office yet."
+    ],
+    "examples_zh": [
+      "我現在可以聯絡辦公室。",
+      "讓我聯絡您的接待人並核實預約。",
+      "我暫時仍未能聯絡到辦公室。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/88d8ae4d-03bb-5699-9c4f-fa74434298ec.mp3"
+  },
+  {
+    "id": "da571718-7f8d-5519-93c4-0b702470e1d2",
+    "front": "receive confirmation",
+    "back": "收到確認",
+    "examples": [
+      "I'm unable to send you upstairs until I receive confirmation.",
+      "Please wait while I contact the tenant for confirmation.",
+      "Once I receive confirmation, I can give you the next step."
+    ],
+    "examples_zh": [
+      "在收到確認前，我未能讓您上樓。",
+      "請稍候，讓我聯絡租戶取得確認。",
+      "收到確認後，我便可以告訴您下一步。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/da571718-7f8d-5519-93c4-0b702470e1d2.mp3"
+  },
+  {
+    "id": "9aab0b58-eaf4-5523-97fa-6f860f62c403",
+    "front": "send you upstairs",
+    "back": "讓您上樓",
+    "examples": [
+      "I need confirmation before I can send you upstairs.",
+      "I'm unable to send you upstairs until the tenant confirms the visit.",
+      "Once the visit is confirmed, you may proceed upstairs."
+    ],
+    "examples_zh": [
+      "我需要先取得確認，才可以讓您上樓。",
+      "在租戶確認到訪前，我未能讓您上樓。",
+      "到訪獲確認後，您便可以上樓。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/9aab0b58-eaf4-5523-97fa-6f860f62c403.mp3"
+  },
+  {
+    "id": "79e23fdb-3590-53c6-ab67-79bf6585778c",
+    "front": "The tenant's normal office hours have already ended.",
+    "back": "租戶的正常辦公時間已經結束。",
+    "examples": [
+      "The tenant's normal office hours have already ended.",
+      "I'll need to verify that Ms Chan is still available.",
+      "I understand you have an appointment, but access still needs confirmation."
+    ],
+    "examples_zh": [
+      "租戶的正常辦公時間已經結束。",
+      "我需要先核實 Chan 女士是否仍可接待您。",
+      "我明白您有預約，但仍需要先確認才可進入。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/79e23fdb-3590-53c6-ab67-79bf6585778c.mp3"
+  },
+  {
+    "id": "34cdf26f-0f64-509a-ae01-608c39493bef",
+    "front": "I'll need to verify that Ms Chan is still available.",
+    "back": "我需要先核實 Chan 女士是否仍可接待您。",
+    "examples": [
+      "I'll need to verify that Ms Chan is still available.",
+      "She told you she would be in the office, but I still need to check.",
+      "Please wait here while I contact the office."
+    ],
+    "examples_zh": [
+      "我需要先核實 Chan 女士是否仍可接待您。",
+      "即使她說會留在辦公室，我仍需要先核實。",
+      "請在這裡稍候，讓我聯絡辦公室。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/34cdf26f-0f64-509a-ae01-608c39493bef.mp3"
+  },
+  {
+    "id": "47862289-eae6-5869-927f-c2694ff75074",
+    "front": "What I can do is contact the office now and let them know you've arrived.",
+    "back": "我現在可以聯絡辦公室，通知他們您已到達。",
+    "examples": [
+      "What I can do is contact the office now and let them know you've arrived.",
+      "I'll try to reach your host immediately.",
+      "Would you mind waiting here while I check?"
+    ],
+    "examples_zh": [
+      "我現在可以聯絡辦公室，通知他們您已到達。",
+      "我會立即嘗試聯絡您的接待人。",
+      "我查詢期間，介意在這裡稍候嗎？"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/47862289-eae6-5869-927f-c2694ff75074.mp3"
+  },
+  {
+    "id": "c39a7c43-2a6d-5a76-bcd4-22b26c8b9250",
+    "front": "I'm unable to send you upstairs until I receive confirmation from the tenant.",
+    "back": "在收到租戶確認前，我未能讓您上樓。",
+    "examples": [
+      "I'm unable to send you upstairs until I receive confirmation from the tenant.",
+      "I understand you're already late, but I still need confirmation.",
+      "Please wait by the CS counter while I contact the office."
+    ],
+    "examples_zh": [
+      "在收到租戶確認前，我未能讓您上樓。",
+      "我明白您已經遲到，但我仍需要先取得確認。",
+      "請在客戶服務櫃位旁稍候，讓我聯絡辦公室。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/c39a7c43-2a6d-5a76-bcd4-22b26c8b9250.mp3"
+  },
+  {
+    "id": "85e8affa-e6ed-5260-a94e-18213f253952",
+    "front": "I don't want to promise a time before I reach them.",
+    "back": "在聯絡到他們之前，我不想承諾所需時間。",
+    "examples": [
+      "I'll check immediately, but I don't want to promise a time before I reach them.",
+      "It may only take a few minutes, but I cannot guarantee a time.",
+      "I'll update you as soon as I hear back."
+    ],
+    "examples_zh": [
+      "我會立即查詢，但在聯絡到他們之前，我不想承諾所需時間。",
+      "可能只需要幾分鐘，但我不能保證所需時間。",
+      "一有回覆，我會盡快通知您。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/85e8affa-e6ed-5260-a94e-18213f253952.mp3"
+  },
+  {
+    "id": "ea1634b1-1c23-581d-849d-76ed28121115",
+    "front": "Would you mind waiting by the CS counter?",
+    "back": "介意在客戶服務櫃位旁等候嗎？",
+    "examples": [
+      "Would you mind waiting by the CS counter?",
+      "I'll contact the office while you wait.",
+      "Thank you for waiting. I'll update you as soon as I have confirmation."
+    ],
+    "examples_zh": [
+      "介意在客戶服務櫃位旁等候嗎？",
+      "您等候期間，我會聯絡辦公室。",
+      "多謝等候；一有確認，我會盡快通知您。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/ea1634b1-1c23-581d-849d-76ed28121115.mp3"
+  },
+  {
+    "id": "51a66c42-cb37-59ce-a96f-22851ae2024e",
+    "front": "The tenant has confirmed that Ms Chan is in the office.",
+    "back": "租戶已確認 Chan 女士仍在辦公室。",
+    "examples": [
+      "The tenant has confirmed that Ms Chan is in the office.",
+      "Thank you for waiting, Mr Wong.",
+      "You may proceed to the 19th floor."
+    ],
+    "examples_zh": [
+      "租戶已確認 Chan 女士仍在辦公室。",
+      "Wong 先生，多謝您等候。",
+      "您現在可以前往十九樓。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/51a66c42-cb37-59ce-a96f-22851ae2024e.mp3"
+  },
+  {
+    "id": "38018e0f-40b8-53f0-aaa0-c4eb4fb8b297",
+    "front": "You may proceed to the 19th floor.",
+    "back": "您現在可以前往十九樓。",
+    "examples": [
+      "You may proceed to the 19th floor.",
+      "The visit has now been confirmed.",
+      "Please use the correct lift zone and keep your QR receipt."
+    ],
+    "examples_zh": [
+      "您現在可以前往十九樓。",
+      "到訪現已獲確認。",
+      "請使用正確的升降機分區，並保留 QR 離場憑證。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/38018e0f-40b8-53f0-aaa0-c4eb4fb8b297.mp3"
+  },
+  {
+    "id": "a4413a40-a6cf-5835-9568-fbb3a6fb81fc",
+    "front": "Please keep your QR receipt for the exit gate when you leave.",
+    "back": "離開時，請保留 QR 離場憑證以便使用出口閘機。",
+    "examples": [
+      "Please keep your QR receipt for the exit gate when you leave.",
+      "You'll need the receipt when you return to G/F.",
+      "Scan the QR code at the gate before leaving the secured area."
+    ],
+    "examples_zh": [
+      "離開時，請保留 QR 離場憑證以便使用出口閘機。",
+      "返回地下時，您會需要使用這張憑證。",
+      "離開保安管制區前，請在閘機掃描 QR 碼。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/a4413a40-a6cf-5835-9568-fbb3a6fb81fc.mp3"
+  },
+  {
+    "id": "0686b328-c704-5a3d-bf08-94817249f36a",
+    "front": "May I ask which floor you came from?",
+    "back": "請問您是從哪一層下來的？",
+    "examples": [
+      "May I ask which floor you came from?",
+      "This helps me confirm which lift lobby you used.",
+      "Once I know the floor, I can direct you to the correct exit."
+    ],
+    "examples_zh": [
+      "請問您是從哪一層下來的？",
+      "這有助我確認您使用了哪個升降機大堂。",
+      "知道樓層後，我便可以指示您前往正確出口。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/0686b328-c704-5a3d-bf08-94817249f36a.mp3"
+  },
+  {
+    "id": "c88966b8-50b4-548d-a065-4ae5fcc31957",
+    "front": "The exit gate is on the other side.",
+    "back": "出口閘機在另一邊。",
+    "examples": [
+      "The exit gate is on the other side.",
+      "You're standing on the wrong side of the lift lobby.",
+      "Please follow me and I'll point out the exit gate."
+    ],
+    "examples_zh": [
+      "出口閘機在另一邊。",
+      "您現在站在升降機大堂的另一側。",
+      "請跟我來，我會指示出口閘機的位置。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/c88966b8-50b4-548d-a065-4ae5fcc31957.mp3"
+  },
+  {
+    "id": "4ec1d97f-f684-55b8-89af-01d9e1a22687",
+    "front": "Please come back to the CS counter for assistance.",
+    "back": "請返回客戶服務櫃位尋求協助。",
+    "examples": [
+      "Please come back to the CS counter for assistance.",
+      "If the QR code still does not scan, I'll check it at the counter.",
+      "Please don't force the gate while we check the problem."
+    ],
+    "examples_zh": [
+      "請返回客戶服務櫃位尋求協助。",
+      "如果 QR 碼仍然掃描不到，我會在櫃位替您檢查。",
+      "我們檢查問題期間，請不要強行推開閘機。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/4ec1d97f-f684-55b8-89af-01d9e1a22687.mp3"
+  },
+  {
+    "id": "f220972d-7054-5c6c-8b7c-3b2ad326a67c",
+    "front": "I understand you have an appointment.",
+    "back": "我明白您有預約。",
+    "examples": [
+      "I understand you have an appointment.",
+      "The office is outside normal hours, so I still need confirmation.",
+      "I'll try to contact your host for you."
+    ],
+    "examples_zh": [
+      "我明白您有預約。",
+      "辦公室已過正常辦公時間，所以我仍需要先取得確認。",
+      "我會嘗試替您聯絡接待人。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/f220972d-7054-5c6c-8b7c-3b2ad326a67c.mp3"
+  },
+  {
+    "id": "83d1e2c1-bf71-5ad1-816a-5a9990ed94c8",
+    "front": "I still need confirmation before I can send you upstairs.",
+    "back": "在讓您上樓前，我仍需要確認。",
+    "examples": [
+      "I still need confirmation before I can send you upstairs.",
+      "A message on your phone does not replace confirmation from the office.",
+      "Please wait while I try to reach your host."
+    ],
+    "examples_zh": [
+      "在讓您上樓前，我仍需要確認。",
+      "您電話上的訊息不能取代辦公室的確認。",
+      "請稍候，讓我嘗試聯絡您的接待人。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/83d1e2c1-bf71-5ad1-816a-5a9990ed94c8.mp3"
+  },
+  {
+    "id": "2cf28bc2-a555-5fd9-b73e-c0416154e356",
+    "front": "I haven't been able to reach the office yet.",
+    "back": "我暫時仍未能聯絡到辦公室。",
+    "examples": [
+      "I haven't been able to reach the office yet.",
+      "I understand you have an appointment, but I cannot allow access without confirmation.",
+      "I'll explain the next realistic step if no one answers."
+    ],
+    "examples_zh": [
+      "我暫時仍未能聯絡到辦公室。",
+      "我明白您有預約，但未有確認前我不能讓您進入。",
+      "如果沒有人接聽，我會向您說明下一個可行安排。"
+    ],
+    "note": "",
+    "audio": "/audio/lesson-2/2cf28bc2-a555-5fd9-b73e-c0416154e356.mp3"
+  }
+]

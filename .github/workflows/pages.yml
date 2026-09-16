@@ -279,6 +279,8 @@ jobs:
           node tools/test-professional-feedback.mjs
           node tools/test-learning-updates-20260911.mjs
           node tools/test-professional-lesson3-polysemy.mjs
+          node tools/test-professional-learning-activity.mjs
+          node tools/test-professional-learning-sync.mjs
           node tools/test-writing-feedback-email.mjs
           node tools/test-schedule-manual-writing-resource.mjs
           node tools/test-portal-loading.mjs

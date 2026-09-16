@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "devDependencies": {
     "@electric-sql/pglite": "0.5.8",
+    "@supabase/realtime-js": "2.116.0",
     "jsdom": "26.1.0"
   }
 }

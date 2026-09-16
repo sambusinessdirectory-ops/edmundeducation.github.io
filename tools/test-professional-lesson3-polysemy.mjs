@@ -28,6 +28,7 @@ const dom=new JSDOM('<body><div id="root"><section class="course-section"><div c
 for(const key of ['window','document','localStorage','history','location','navigator','CustomEvent','innerHeight','innerWidth'])Object.defineProperty(globalThis,key,{value:w[key],configurable:true});
 w.scrollTo=()=>{};w.HTMLElement.prototype.scrollIntoView=function(){};
 w.localStorage.setItem('special-flash-session-v1',JSON.stringify({token:'fixture',user:{id:'qa-one'}}));
+globalThis.fetch=async()=>({ok:true,json:async()=>null});
 const {page}=mountPolysemyPage({data});assert.equal(page.querySelectorAll('[data-poly-word]').length,16);
 page.querySelector('[data-poly-word="listed"]').click();const first=data.words[0].questions[0];
 assert.ok(page.querySelector('.poly-translation').textContent.includes('____'));assert.ok(!page.querySelector('.poly-translation').textContent.includes('列了出來'));
@@ -44,10 +45,11 @@ for(const d of dialogues){assert.equal(d.lines.length,10);for(const [i,line] of 
  const clip=manifest[`${d.id}:${i}`];assert.equal(clip.voice,line.voice);assert.equal(clip.sourceSha256,createHash('sha256').update(line.en).digest('hex'));assert.ok(clip.duration>0);assert.ok(fs.statSync(new URL('../professional-english/'+clip.path,import.meta.url)).size>256);
 }}
 assert.match(translationsText(dialogues[0]),/租戶：/);assert.match(translationsText(dialogues[0]),/保安／客戶服務主任：/);
-history.replaceState(null,'','dialogue.html?id=l3d4-professional');const dpage=mountDialoguePage({dialogues:all.dialogues,audioManifest:manifest});assert.match(dpage.page.textContent,/租戶 · Tenant/);assert.match(dpage.page.textContent,/主任 · Officer/);assert.equal(dpage.page.querySelector('[data-play-all]').disabled,false);dpage.stop();
+history.replaceState(null,'','dialogue.html?id=l3d4-professional');const dpage=mountDialoguePage({dialogues:all.dialogues,audioManifest:manifest});await dpage.ready;assert.match(dpage.page.textContent,/租戶 · Tenant/);assert.match(dpage.page.textContent,/主任 · Officer/);assert.equal(dpage.page.querySelector('[data-play-all]').disabled,false);dpage.stop();w.dispatchEvent(new w.Event('pagehide'));
 const cards=JSON.parse(read('professional-english/content/lesson-3-flashcards.json'));const cm=JSON.parse(read('professional-english/content/lesson-3-audio.json'));
 assert.equal(cards.length,113);assert.equal(new Set(cards.map(c=>c.id)).size,113);assert.equal(cm.recipe.voice,'af_heart');assert.equal(cm.recipe.speed,.96);
 for(const c of cards){assert.equal(c.examples.length,5);assert.equal(c.examples_zh.length,5);const clip=cm.clips[c.id];assert.equal(clip.sourceSha256,createHash('sha256').update(c.front).digest('hex'));assert.ok(clip.duration>0);assert.ok(fs.statSync(new URL('../professional-english/'+clip.path,import.meta.url)).size>256);}
+const lesson2=JSON.parse(read('professional-english/content/lesson-2-flashcards.json'));const lesson2Audio=JSON.parse(read('professional-english/content/lesson-2-audio.json'));assert.equal(lesson2.length,50);assert.equal(lesson2Audio.recipe.voice,'af_heart');for(const card of lesson2){assert.equal(card.examples.length,3);assert.equal(card.examples_zh.length,3);assert.ok(lesson2Audio.clips[card.id].duration>0);assert.equal(lesson2Audio.clips[card.id].sourceSha256,createHash('sha256').update(card.front).digest('hex'));assert.ok(fs.statSync(new URL('../professional-english'+card.audio,import.meta.url)).size>256);}
 const observers=[];const NativeObserver=w.MutationObserver;w.MutationObserver=class extends NativeObserver{constructor(cb){super(cb);observers.push(this);}};
 w.EDMUND_PROFESSIONAL_DIALOGUES=all.dialogues;w.eval(read('professional-english/professional-enhancements.js'));
 const course=w.document.querySelector('.course-section');assert.equal(course.querySelectorAll('.pro-lesson-card').length,3);assert.equal(course.querySelectorAll('a[href*="id=l3"]').length,8);assert.equal(course.querySelector('.learning-panel--future').nextElementSibling.className,'learning-panel learning-panel--polysemy learning-panel--practice-glow');

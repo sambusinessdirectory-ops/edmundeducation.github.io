@@ -5,6 +5,7 @@ import vm from 'node:vm';
 const require=createRequire(new URL('./email-qa/package.json',import.meta.url));
 const {JSDOM}=require('jsdom');
 const app=await readFile(new URL('../professional-english/app.js',import.meta.url),'utf8');
+new vm.Script(app.replace(/^import .*;\n/gm,'')); // Parse the full shipped bundle before component tests.
 const enhancements=await readFile(new URL('../professional-english/professional-enhancements.js',import.meta.url),'utf8');
 const jsx=(type,props)=>typeof type==='function'?type(props):({type,props});
 const context={f:{jsx,jsxs:jsx,Fragment:'fragment'},EdmundTeamColors:['#c9f47d','#73c9ff']};
@@ -46,7 +47,7 @@ assert.equal(mixedChart.filter(node=>node.type==='circle').length,2,'the zero-re
 assert.match(app,/Known now/);assert.match(app,/Marked for review during practice/);
 const today=new Date().toLocaleDateString('en-CA');
 const chart=flatten(context.EdmundTeamChart({course:{members:[{account_id:'qa',username:'QA'}],daily:[{account_id:'qa',date:today,cards:39}]}}));
-assert.equal(chart.find(n=>n.props.className==='team-chart-count').props.children,'39 cards · 張字卡');
+assert.equal(chart.find(n=>n.props.className==='team-chart-count').props.children,'39 questions · 題');
 assert.equal(chart.filter(n=>n.type==='circle').length,2,'one day must have both member and total markers');
 for(const circle of chart.filter(n=>n.type==='circle'))assert.ok(Number.isFinite(circle.props.cx)&&Number.isFinite(circle.props.cy));
 
@@ -73,7 +74,7 @@ button.click();assert.equal(button.getAttribute('aria-pressed'),'false');assert.
 mark('green');await flush();assert.equal(starts,6,'muted green marks stay silent');
 button.click();await flush();assert.equal(starts,9,'enabling sound plays a preview');
 // Exercise the actual accepted-mark function: blocked and unflipped cards must remain silent.
-w.R={flipped:false};w.Q={id:'qa'};w.Ut={current:false};w.i=()=>{};w.SL=()=>({marks:{},study:{}});w.M={marks:{}};w.ml=()=>{};
+w.e={id:'qa-deck'};w.t={user:{id:'qa'}};w.R={flipped:false,startedAt:1,round:1};w.Q={id:'qa'};w.Ut={current:false};w.i=()=>{};w.SL=()=>({marks:{},study:{}});w.M={marks:{}};w.ml=()=>{};
 w.eval(app.slice(app.indexOf('function at(S)'),app.indexOf('function ni(S)')));
 w.at('green');await flush();assert.equal(starts,9);
 w.R.flipped=true;w.at('green');await flush();assert.equal(starts,12);
