@@ -38,5 +38,5 @@ try{
  assert.notEqual(await page.locator('.purpose-book-ferries .purpose-book-cover').evaluate(x=>getComputedStyle(x).transform),'none');
  await page.screenshot({path:`${out}/purpose-books.png`});
  for(const name of ['True Ferries','Happy Stack']){await page.locator(`[data-purpose-book="${name}"]`).click();await page.locator('.purpose-book-dialog').waitFor();assert.equal(await page.locator('.purpose-book-dialog h2').textContent(),name);await page.locator('.purpose-book-dialog button').click();}
- console.log('Actual listening integration: standard/original answer sharing, reload persistence, mobile controls. Purpose books: hover and empty-book dialogs passed.');
+ console.log('Actual listening integration: standard/digitised answer sharing, reload persistence, mobile controls. Purpose books: hover and empty-book dialogs passed.');
 }finally{await browser.close();}
