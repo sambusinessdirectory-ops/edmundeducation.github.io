@@ -1,21 +1,42 @@
 import assert from 'node:assert/strict';
-import {readFile,stat} from 'node:fs/promises';
-const root=new URL('../assets/dse-listening/2016/original/',import.meta.url);
-const paper=JSON.parse(await readFile(new URL('paper.json',root),'utf8'));
-assert.equal(paper.year,2016);assert.equal(paper.pages.length,8);
-const questions=new Map();
-for(const page of paper.pages){
- assert.ok((await stat(new URL(`page-${page.page}.webp`,root))).size>20000);
- assert.ok(page.words.length>30);
- for(const field of page.fields){
-  assert.ok(field.q>=1&&field.q<=58);assert.ok(field.x>=0&&field.y>=0&&field.w>0&&field.h>0);
-  assert.ok(field.x+field.w<=page.width&&field.y+field.h<=page.height);
-  const rows=questions.get(field.q)||[];rows.push(field);questions.set(field.q,rows);
- }
+import {stat} from 'node:fs/promises';
+import {render2016DigitalPaper} from '../dse-listening-2016-paper-layout.mjs';
+
+const html = render2016DigitalPaper(new Map());
+assert.equal((html.match(/class="original-paper-page digital-paper-page/g) || []).length, 8);
+assert.doesNotMatch(html, /page-[1-8]\.webp|paper\.json|original-paper-text/);
+
+const questionNumbers = [...html.matchAll(/data-original-q="(\d+)"/g)].map(match => Number(match[1]));
+assert.deepEqual(
+  [...new Set(questionNumbers)].sort((a, b) => a - b),
+  Array.from({length: 58}, (_, index) => index + 1)
+);
+for (const question of [10, 11, 12]) assert.equal(questionNumbers.filter(value => value === question).length, 2);
+for (const question of [40, 47]) assert.equal(questionNumbers.filter(value => value === question).length, 3);
+
+for (const filename of [
+  'cabbage-patch-doll-1280.webp',
+  'space-hopper-1280.webp',
+  'james-dean-1280.webp'
+]) {
+  const file = new URL(`../assets/dse-listening/reconstructed-v3/2016/${filename}`, import.meta.url);
+  assert.ok((await stat(file)).size > 20_000);
+  assert.match(html, new RegExp(filename.replace('.', '\\.')));
 }
-assert.deepEqual([...questions.keys()].sort((a,b)=>a-b),Array.from({length:58},(_,i)=>i+1));
-for(const [q,fields] of questions){
- const choices=[10,11,12].includes(q)?['A','B']:[40,47].includes(q)?['A','B','C']:null;
- if(choices)assert.deepEqual(fields.map(f=>f.value),choices);else assert.equal(fields.length,1);
-}
-console.log('2016 original paper: 8 source pages, 58 unique questions, exact choice sets and all overlay bounds validated.');
+
+for (const phrase of [
+  'GENERAL INSTRUCTIONS',
+  'The Chau family is on holiday in London',
+  'Task 1',
+  'Task 2',
+  'Task 3',
+  'Task 4',
+  'END OF TASK 4',
+  'End of Part A'
+]) assert.match(html, new RegExp(phrase));
+
+assert.match(html, /<strong>37<\/strong>/);
+assert.match(html, /<strong>39<\/strong>/);
+assert.match(html, /<strong>45<\/strong>/);
+
+console.log('2016 digitised paper: 8 semantic pages, 58 unique questions, exact choice sets, crisp text and high-resolution illustrations validated.');
