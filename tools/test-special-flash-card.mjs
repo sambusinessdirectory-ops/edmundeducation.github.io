@@ -25,6 +25,7 @@ await db.exec(`create role anon;create role authenticated;create role service_ro
 await db.exec(readFileSync(new URL('../supabase/migrations/20260909120942_special_flash_card_portal.sql',import.meta.url),'utf8'));
 await db.exec(readFileSync(new URL('../supabase/migrations/20260909122706_special_flash_card_search.sql',import.meta.url),'utf8'));
 await db.exec(readFileSync(new URL('../supabase/migrations/20260910025843_special_flash_team_effort.sql',import.meta.url),'utf8'));
+await db.exec(readFileSync(new URL('../supabase/migrations/20260916102429_professional_save_conflict_no_transaction_retry.sql',import.meta.url),'utf8'));
 
 const scalar=async(sql,args=[])=>(await db.query(sql,args)).rows[0]?.value;
 const login=async(name,password='')=>scalar('select public.special_flash_login($1,$2) value',[name,password]);
@@ -52,7 +53,7 @@ const d=await get(s.token,decks[0]);const marks={[d.deck.cards[0].id]:'green'},m
 const save=(t,version,m,revision,id,study=null)=>scalar('select special_flash_save($1,$2,$3,$4,$5,$6,$7) value',[t,decks[0],version,m,study,revision,id]);
 const saved=await save(s.token,1,marks,0,mut);assert.equal(saved.revision,1);
 assert.equal((await save(s.token,1,marks,0,mut)).revision,1);
-await assert.rejects(save(s.token,1,{},0,crypto.randomUUID()),/another device/);
+await assert.rejects(save(s.token,1,{},0,crypto.randomUUID()),error=>error.code==='PT409'&&/another device/.test(error.message),'stale revisions return a business conflict without triggering PostgREST transaction retries');
 await assert.rejects(save(s.token,1,{},0,mut),/request changed/);
 await assert.rejects(save(o.token,1,marks,0,crypto.randomUUID()),/not available/);
 await assert.rejects(save(s.token,1,{[d.deck.cards[0].id]:null},1,crypto.randomUUID()),/Invalid card mark/);
