@@ -1,5 +1,7 @@
 # Listening practice import recipe
 
+For reconstruction of DSE Listening question papers themselves, use `DSE-LISTENING-PAST-PAPER-DIGITIZATION-GOLDEN-MANUAL.md`. This document remains the standard for IELTS practice content, transcript timing and source reconciliation.
+
 ## What this batch contains
 
 Practices 2–20: 19 source PDFs, 760 numbered answers, 76 original recordings
