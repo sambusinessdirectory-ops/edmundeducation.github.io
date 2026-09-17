@@ -3,3 +3,21 @@ body.pro-dialogue-open{margin:0;background:var(--bg,#0c1712);color:var(--text,#e
 @media(prefers-reduced-motion:reduce){.pro-turn,.pro-mode-cards a{transition:none!important;transform:none!important}}
 
 .pro-practice-page button:disabled{opacity:.5;cursor:not-allowed}.pro-audio-availability{font-size:.85rem;color:var(--pro-muted);border-left:3px solid #d3a84b;padding-left:12px;margin:12px 0 0}
+
+/* Keep phrase actions horizontal instead of inheriting the square play-button width. */
+.pro-turn .pro-line-actions{flex-shrink:0;flex-wrap:nowrap}
+.pro-turn .pro-line-actions [data-bookmark-phrase]{width:auto;white-space:nowrap;word-break:normal;overflow-wrap:normal;flex-shrink:0}
+.pro-turn .pro-role{min-width:0}
+.pro-teaching-phrase{display:inline;background:var(--teaching-highlight);color:#111;padding:0;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.pro-teaching-phrase .pro-word{border-radius:0!important}
+.pro-practice-controls{border-top:1px solid var(--pro-border);margin-top:12px;padding-top:10px}
+.pro-current-mode{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:.8rem;color:var(--pro-muted)}
+.pro-current-mode>span{min-width:0}.pro-current-mode button{flex-shrink:0;white-space:nowrap}
+.pro-playback .pro-floating-progress{position:static;top:auto;margin:10px 0 0;padding:0;border:0;background:transparent;box-shadow:none}
+.pro-playback .pro-floating-progress .learning-progress-track{height:9px}
+.pro-playback .pro-floating-progress p{font-size:12px!important;margin:5px 0 0}
+.pro-inline-modes:not([hidden]){display:flex;flex-wrap:wrap;align-items:end;gap:10px;padding:12px 0}
+.pro-inline-modes label{display:grid;gap:4px;font-size:13px}.pro-inline-modes select{font:inherit;max-width:100%;padding:8px;border-radius:8px;border:1px solid var(--pro-border);background:var(--pro-panel);color:var(--pro-ink)}
+.pro-inline-modes small{flex-basis:100%;color:var(--pro-muted)}
+.pro-playback{max-height:70dvh;overflow-y:auto;overscroll-behavior:contain}
+@media(max-width:600px){.pro-turn>header{flex-wrap:wrap}.pro-line-actions{margin-left:auto}.pro-current-mode{align-items:start}.pro-current-mode button{font-size:12px!important}.pro-inline-modes label{flex:1;min-width:110px}.pro-inline-modes select{width:100%}.pro-playback .pro-playback-main{flex-wrap:nowrap;overflow-x:auto;padding:2px 0 6px}.pro-playback-main button{white-space:nowrap;flex-shrink:0}.pro-playback .pro-speed{margin-top:6px}}

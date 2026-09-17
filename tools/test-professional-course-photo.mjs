@@ -1,0 +1,24 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';import {createRequire} from 'node:module';
+const require=createRequire(new URL('./email-qa/package.json',import.meta.url));const {PGlite}=require('@electric-sql/pglite'),db=new PGlite();
+await db.exec(`create role anon;create role authenticated;create role service_role;create schema extensions;create function extensions.digest(text,text) returns bytea language sql as $$select decode(md5($1),'hex')$$;create function extensions.crypt(text,text) returns text language sql as $$select 'hash:'||$1$$;`);
+for(const file of ['20260909120942_special_flash_card_portal.sql','20260917061059_professional_course_photo.sql'])await db.exec(fs.readFileSync(new URL('../supabase/migrations/'+file,import.meta.url),'utf8'));
+const scalar=async(sql,args=[])=>(await db.query(sql,args)).rows[0]?.value;
+await db.exec("insert into special_flash_accounts(username,role,password_hash) values('Sam White Label Admin','admin','hash:secret'),('Test3GR','student',null),('Peer','student',null),('Outside','student',null)");
+const login=async name=>scalar('select special_flash_login($1,$2) value',[name,name==='Sam White Label Admin'?'secret':'']);
+const admin=await login('Sam White Label Admin'),editor=await login('Test3GR'),peer=await login('Peer'),outside=await login('Outside');
+const course=crypto.randomUUID(),other=crypto.randomUUID();await db.query("insert into special_flash_courses(id,title) values($1,'Course A'),($2,'Other course')",[course,other]);
+await db.query('insert into special_flash_enrollments(account_id,course_id,all_decks) values($1,$3,true),($2,$3,true)',[editor.user.id,peer.user.id,course]);
+const api=(person,c=null,action='get',image=null,revision=null)=>scalar('select special_flash_course_photo($1,$2,$3,$4,$5) value',[person.token,c,action,image,revision]);
+assert.equal((await api(editor)).courses[0].can_edit,true);assert.equal((await api(peer)).courses[0].can_edit,false);assert.equal((await api(outside)).courses.length,0);
+await assert.rejects(api({token:crypto.randomUUID()},course),/sign in/i);await assert.rejects(api(outside,course),/not available/);await assert.rejects(api(editor,other,'save'),/not available/);await assert.rejects(api(peer,course,'save'),/Only the course photo editor/);
+// Minimal JPEG envelope tests the server's format/size validation. Browser tests
+// separately decode and re-encode a real image before upload.
+const image='data:image/jpeg;base64,'+Buffer.from([255,216,255,224,0,0,255,217]).toString('base64');
+await assert.rejects(api(editor,course,'save','data:image/svg+xml;base64,PHN2Zz4=',0),/JPEG/);await assert.rejects(api(editor,course,'save','data:image/jpeg;base64,YWJjZA==',0),/Invalid JPEG/);
+await assert.rejects(api(editor,course,'save','data:image/jpeg;base64,'+'A'.repeat(500001),0),/JPEG/);
+assert.equal((await api(editor,course,'save',image,0)).revision,1);assert.equal((await api(peer,course)).image,image);
+const unchanged=await api(peer,course,'get',null,1);assert.equal(unchanged.changed,false);assert.equal(unchanged.image,null,'unchanged reads do not download the photo again');
+await assert.rejects(api(editor,course,'save',image,0),/photo changed/);assert.equal((await api(admin,course,'save',image,1)).revision,2);
+assert.equal((await api(editor,course,'remove',null,2)).image,null);assert.equal((await api(peer,course)).revision,3);
+const perms=(await db.query("select has_table_privilege('anon','professional_media.course_photos','select') as read,has_table_privilege('authenticated','professional_media.course_photos','update') as write,prosecdef from pg_proc where oid='public.special_flash_course_photo(uuid,uuid,text,text,bigint)'::regprocedure")).rows[0];assert.deepEqual(perms,{read:false,write:false,prosecdef:false});
+await db.query('update special_flash_accounts set active=false where id=$1',[editor.user.id]);await assert.rejects(api(editor,course),/sign in/i);await db.close();console.log('Course photo: session validation, enrolled Test3GR editing, peer read-only access, course isolation, JPEG limits, revision conflicts, replacement/removal, and private table grants passed.');

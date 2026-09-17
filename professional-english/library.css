@@ -8,3 +8,9 @@
 .pro-word.is-teaching-highlight.is-phrase-bookmarked,.pro-word.is-teaching-highlight.is-bookmarked{text-decoration:underline;text-decoration-color:#725113;text-decoration-thickness:3px}
 
 .material-reader-controls label{white-space:nowrap}
+
+.material-reader-controls{position:sticky;top:8px;z-index:25;background:var(--pro-panel,#fff);border:1px solid var(--pro-border,#cbded0);border-radius:16px;padding:14px 18px;box-shadow:0 8px 24px #17352c1a;max-height:65dvh;overflow-y:auto}
+.material-reader-controls h2{margin:0;min-width:180px;line-height:1.4}
+.material-reader-controls label{gap:8px}.material-reader-controls select{max-width:110px}
+.material-reader .material-text{scroll-margin-top:calc(var(--reader-toolbar-height,150px) + 24px)}
+@media(max-width:700px){.material-reader-controls{top:4px;padding:12px;gap:9px}.material-reader-controls h2{font-size:16px!important;min-width:0;flex-basis:100%}.material-reader-controls label,.material-reader-controls button,.material-reader-controls a{font-size:12px!important}.material-reader-controls a,.material-reader-controls button{padding:9px 10px}.material-reader-controls label{gap:5px}.material-reader-controls select{max-width:86px;padding:7px}}
