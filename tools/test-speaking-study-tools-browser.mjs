@@ -111,6 +111,9 @@ try {
  assert.equal(await page.locator('.digital-paper-page').getAttribute('id'),'original-paper-3');
  assert.equal(await page.locator('[data-original-q]').evaluateAll(xs=>new Set(xs.map(x=>x.dataset.originalQ)).size),15);
  assert.ok(await page.locator('.digital-paper-translation').count()>20);
+ const paperTranslation=page.locator('[data-paper-translation]');assert.equal(await paperTranslation.getAttribute('aria-pressed'),'true');
+ await paperTranslation.click();assert.equal(await page.locator('.original-paper-dialog .digital-paper-translation:visible').count(),0);
+ await paperTranslation.click();assert.ok(await page.locator('.original-paper-dialog .digital-paper-translation:visible').count()>20);
  await page.locator('[data-original-q="1"]').fill('Space Invaders');
  await page.locator('[data-original-q="10"][value=A]').check();
  assert.deepEqual(await page.locator('[data-paper-page] option').allTextContents(),['Task 1']);

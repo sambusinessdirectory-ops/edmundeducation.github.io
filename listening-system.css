@@ -266,6 +266,7 @@ audio { width: 100%; min-height: 54px; }
 .dse-digital-paper-scroll { height:min(82dvh,1120px); min-height:600px; overflow:auto; overscroll-behavior:contain; scroll-behavior:smooth; }
 .dse-digital-paper-pages.dse-paper-sheet { width:100%; min-width:780px; padding:18px; border:0; border-radius:0; background:transparent; box-shadow:none; }
 .dse-digital-paper-pages .digital-paper-page { overflow:visible; }
+.dse-digital-paper-pages[data-show-translation="false"] .digital-paper-translation { display:none; }
 .dse-digital-paper-pages .dse-answer-tools { display:inline-flex; align-items:center; gap:5px; margin:4px 7px; font-family:system-ui,sans-serif; }
 .dse-digital-paper-pages .dse-answer-tools .single-answer-reveal { min-height:30px; padding:5px 9px; white-space:nowrap; }
 .dse-digital-paper-pages .dse-answer-tools .listening-official-answer { padding:7px 9px; font-size:.72em; }

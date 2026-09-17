@@ -1,12 +1,12 @@
-import { restoreOriginalAnswers, saveOriginalAnswers } from './dse-listening-original-paper.mjs?v=20260917-inline-tasks1';
-import { render2016DigitalPaper } from './dse-listening-2016-paper-layout.mjs?v=20260917-inline-tasks1';
+import { restoreOriginalAnswers, saveOriginalAnswers } from './dse-listening-original-paper.mjs?v=20260917-translation-toggle1';
+import { render2016DigitalPaper } from './dse-listening-2016-paper-layout.mjs?v=20260917-translation-toggle1';
 import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-phoebe2';
 import { createListeningTrophyProgress } from './listening-trophy-progress.mjs?v=20260915-companions1';
 import { mountFloatingWindow } from './floating-window.mjs?v=20260911';
 import { mountListeningTypes } from './listening-question-types.mjs?v=20260911';
 import { createListeningStudy } from './listening-study.js?v=20260904-guide1';
 import { safeBookmarkHref } from './listening-study-core.mjs?v=20260904-guide1';
-import { createDseStudy, getDseGuide, hasDseGuide, loadDseGuide, dseGuideFailed, dseAnswerReplayStart } from './dse-listening-study.mjs?v=20260917-inline-tasks1';
+import { createDseStudy, getDseGuide, hasDseGuide, loadDseGuide, dseGuideFailed, dseAnswerReplayStart } from './dse-listening-study.mjs?v=20260917-translation-toggle1';
 import { loadPractice } from './listening-practice-loader.mjs?v=20260827-import1';
 import { answerTokens, nativeBlock, questionNumbers, handleNativeInput, handleMazeClick } from './dse-listening-question-ui.mjs?v=20260904-nativequestions1';
 import { mountListeningSearch } from './listening-search.mjs?v=20260904-archiveguides1';
@@ -60,6 +60,7 @@ const state = {
   dse2016Layout: "digital",
   dse2016Page: 3,
   dse2016Zoom: 1,
+  dse2016Translations: restorePreference("edmund-listening-2016-translations", "show") !== "hide",
   dseAnswers: new Map()
 };
 
@@ -548,12 +549,13 @@ function render2016PaperWorkspace(task) {
       <div><strong>2016 DSE · Task ${task.number} · 數碼原卷作答</strong><small>每個 Task 獨立顯示 · Default view</small></div>
       <label${options.length === 1 ? ' hidden' : ''}>頁面<select data-dse-paper-page>${options.map(([number, label]) => `<option value="${number}"${number === state.dse2016Page ? ' selected' : ''}>${label}</option>`).join('')}</select></label>
       <label>大小<select data-dse-paper-zoom>${[1, 1.25, 1.5, 2].map(zoom => `<option value="${zoom}"${zoom === state.dse2016Zoom ? ' selected' : ''}>${Math.round(zoom * 100)}%</option>`).join('')}</select></label>
+      <button class="secondary-button" type="button" data-toggle-dse-digital-zh aria-pressed="${state.dse2016Translations}">${state.dse2016Translations ? '隱藏' : '顯示'}中文翻譯</button>
       <button class="primary-button" type="button" data-check-dse-task${guideReady ? '' : ' disabled'}>檢查 Task ${task.number} 答案</button>
       <button class="secondary-button" type="button" data-toggle-dse-layout>選用自訂練習版 · Optional</button>
     </header>
     <p class="dse-digital-paper-help">直接在原卷版面輸入答案。中文翻譯緊貼每段英文；「看答案」及解析按鈕就在相應題目旁。</p>
     <output class="dse-digital-paper-score" data-dse-paper-score hidden></output>
-    <div class="dse-digital-paper-scroll"><div class="original-paper-pages dse-paper-sheet dse-digital-paper-pages" style="--paper-zoom:${state.dse2016Zoom}">${render2016DigitalPaper(state.dseAnswers, task.number)}</div></div>
+    <div class="dse-digital-paper-scroll"><div class="original-paper-pages dse-paper-sheet dse-digital-paper-pages" data-show-translation="${state.dse2016Translations}" style="--paper-zoom:${state.dse2016Zoom}">${render2016DigitalPaper(state.dseAnswers, task.number)}</div></div>
   </section>`;
 }
 
@@ -564,6 +566,7 @@ function mount2016PaperWorkspace() {
   const pages = frame.querySelector('.original-paper-pages');
   const pageSelect = frame.querySelector('[data-dse-paper-page]');
   const zoomSelect = frame.querySelector('[data-dse-paper-zoom]');
+  const translationToggle = frame.querySelector('[data-toggle-dse-digital-zh]');
   const goToPage = (behavior = 'auto') => {
     const page = frame.querySelector(`#original-paper-${state.dse2016Page}`);
     if (page) scroll.scrollTo({top: Math.max(0, page.offsetTop - 12), behavior});
@@ -576,6 +579,13 @@ function mount2016PaperWorkspace() {
     state.dse2016Zoom = [1, 1.25, 1.5, 2].includes(Number(zoomSelect.value)) ? Number(zoomSelect.value) : 1;
     pages.style.setProperty('--paper-zoom', state.dse2016Zoom);
     requestAnimationFrame(() => goToPage());
+  };
+  translationToggle.onclick = () => {
+    state.dse2016Translations = !state.dse2016Translations;
+    savePreference("edmund-listening-2016-translations", state.dse2016Translations ? "show" : "hide");
+    pages.dataset.showTranslation = String(state.dse2016Translations);
+    translationToggle.setAttribute('aria-pressed', String(state.dse2016Translations));
+    translationToggle.textContent = `${state.dse2016Translations ? '隱藏' : '顯示'}中文翻譯`;
   };
   requestAnimationFrame(() => goToPage());
 }

@@ -32,6 +32,19 @@ try {
   assert.equal(await page.locator('[data-dse-digital-answer-dock]').count(), 0);
   assert.ok(await page.locator('.digital-paper-translation').count() >= 20);
   assert.equal(await page.locator('[data-dse-toggle-question-zh]').count(), 0);
+  const translationToggle = page.locator('[data-toggle-dse-digital-zh]');
+  assert.equal(await translationToggle.getAttribute('aria-pressed'), 'true');
+  assert.match(await translationToggle.textContent(), /隱藏中文翻譯/);
+  await translationToggle.click();
+  assert.equal(await translationToggle.getAttribute('aria-pressed'), 'false');
+  assert.equal(await page.locator('.digital-paper-translation:visible').count(), 0);
+  assert.match(await translationToggle.textContent(), /顯示中文翻譯/);
+  await page.reload({waitUntil: 'domcontentloaded'});
+  await page.locator('.dse-digital-paper-frame').waitFor();
+  assert.equal(await translationToggle.getAttribute('aria-pressed'), 'false');
+  assert.equal(await page.locator('.digital-paper-translation:visible').count(), 0);
+  await translationToggle.click();
+  assert.ok(await page.locator('.digital-paper-translation:visible').count() >= 20);
   const firstAnswerDistance = await page.locator('[data-dse-answer-q="1"]').evaluate(input => {
     const button = input.closest('p')?.querySelector('[data-dse-reveal="1"]');
     return button ? Math.abs(button.getBoundingClientRect().left - input.getBoundingClientRect().right) : Infinity;

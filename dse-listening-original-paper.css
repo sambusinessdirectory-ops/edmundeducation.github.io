@@ -82,6 +82,7 @@
   text-align: left;
 }
 .digital-paper-page :is(p,li,h2,h3,h4) > .digital-paper-translation { margin-bottom: .25em; }
+.original-paper-pages[data-show-translation="false"] .digital-paper-translation { display:none; }
 .digital-paper-page em { font-weight: 400; }
 .digital-paper-page hr { margin: .75em 0; border: 0; border-top: 1px solid #111; }
 .digital-paper-page footer {
