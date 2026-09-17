@@ -1,0 +1,12 @@
+{
+  "text": "Can I get two scoops of ice cream, please?",
+  "engine": "@cf/deepgram/aura-2-en",
+  "voice": "aries",
+  "sourceText": "Hello. Can I get two scoops of ice cream, please?",
+  "trimStartSeconds": 0.5,
+  "leadingSilenceSeconds": 0.3,
+  "trailingSilenceSeconds": 0.2,
+  "verificationTranscript": "Can I get two scoops of ice cream, please?",
+  "verificationEngine": "@cf/openai/whisper-large-v3-turbo",
+  "sha256": "189164e9e4f2866e76e54cded4ff1022dcc59143095bd9e1e569fd8a099d0203"
+}
