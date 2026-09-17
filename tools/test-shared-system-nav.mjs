@@ -373,7 +373,8 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
     "execution-system.html",
     "reading-comprehension.html",
     "eddie-farm.html",
-    "excellent-learning-system.html"
+    "excellent-learning-system.html",
+    "polysemy-lab.html"
   ]);
   const progressSystem = api.systems.find(({ id }) => id === "progress");
   assert.equal(progressSystem?.zh, "全面英文能力發展進度表");
