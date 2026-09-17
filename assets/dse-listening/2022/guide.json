@@ -1,0 +1,716 @@
+{
+  "year": 2022,
+  "source": {
+    "title": "2022 DSE Part A · 數碼原卷參考答案及題目翻譯",
+    "scope": "Part A Tasks 1–4, Questions 1–52",
+    "status": "Reference answers compiled from public teaching references; not an official HKEAA marking scheme.",
+    "questionPaper": "2022 Paper 3 Part A",
+    "questionPaperSha256": "cab59106cf72107a84d6140850ca4fd52956460c2019e3cf27e271d75a5a1251",
+    "questionPaperPages": {
+      "1": [
+        4,
+        5
+      ],
+      "2": [
+        6,
+        7
+      ],
+      "3": [
+        8,
+        9
+      ],
+      "4": [
+        10,
+        11
+      ]
+    },
+    "answerReference": "https://dsetreasure.com/dse-english-paper-3-part-a-answer/",
+    "editorialNotes": [
+      "Question wording and page structure were checked against the user-supplied scan.",
+      "Traditional Chinese translations are editorial teaching aids and may be hidden.",
+      "No recording or verified timestamped transcript was supplied for this build; no timing cues have been invented."
+    ]
+  },
+  "analysisNote": "以下為公開教學參考資料整理的答案及簡析，並非考評局官方評分準則。",
+  "analysis": {
+    "1": {
+      "task": 1,
+      "answer": "December",
+      "explanation": "參考答案重點是「December」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "December",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "2": {
+      "task": 1,
+      "answer": "every Saturday",
+      "explanation": "參考答案重點是「every Saturday」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "every Saturday",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "3": {
+      "task": 1,
+      "answer": "9 am / in the morning",
+      "explanation": "參考答案重點是「9 am / in the morning」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "9 am / in the morning",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "4": {
+      "task": 1,
+      "answer": "4:30 pm / half past four in the afternoon",
+      "explanation": "參考答案重點是「4:30 pm / half past four in the afternoon」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "4:30 pm / half past four in the afternoon",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "5": {
+      "task": 1,
+      "answer": "16 Prince Edward West Road",
+      "explanation": "參考答案重點是「16 Prince Edward West Road」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "16 Prince Edward West Road",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "6": {
+      "task": 1,
+      "answer": "B",
+      "explanation": "參考答案重點是「B」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "B",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "7": {
+      "task": 1,
+      "answer": "a talk by the store owner",
+      "explanation": "參考答案重點是「a talk by the store owner」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "a talk by the store owner",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "8": {
+      "task": 1,
+      "answer": "handmade umbrella workshop",
+      "explanation": "參考答案重點是「handmade umbrella workshop」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "handmade umbrella workshop",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "9": {
+      "task": 1,
+      "answer": "Instagram photo session",
+      "explanation": "參考答案重點是「Instagram photo session」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "Instagram photo session",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "10": {
+      "task": 1,
+      "answer": "A, B",
+      "explanation": "參考答案重點是「A, B」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "A, B",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "11": {
+      "task": 1,
+      "answer": "most popular way of promoting the event",
+      "explanation": "參考答案重點是「most popular way of promoting the event」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "most popular way of promoting the event",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "12": {
+      "task": 1,
+      "answer": "posters",
+      "explanation": "參考答案重點是「posters」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "posters",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "13": {
+      "task": 1,
+      "answer": "promote the tour in schools",
+      "explanation": "參考答案重點是「promote the tour in schools」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "promote the tour in schools",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "14": {
+      "task": 2,
+      "answer": "1928",
+      "explanation": "參考答案重點是「1928」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "1928",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "15": {
+      "task": 2,
+      "answer": "B, D",
+      "explanation": "參考答案重點是「B, D」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "B, D",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "16": {
+      "task": 2,
+      "answer": "over 30 painters",
+      "explanation": "參考答案重點是「over 30 painters」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "over 30 painters",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "17": {
+      "task": 2,
+      "answer": "6 branches / factories",
+      "explanation": "參考答案重點是「6 branches / factories」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "6 branches / factories",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "18": {
+      "task": 2,
+      "answer": "economic downturn",
+      "explanation": "參考答案重點是「economic downturn」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "economic downturn",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "19": {
+      "task": 2,
+      "answer": "possible shutdown",
+      "explanation": "參考答案重點是「possible shutdown」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "possible shutdown",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "20": {
+      "task": 2,
+      "answer": "lower wages and rent",
+      "explanation": "參考答案重點是「lower wages and rent」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "lower wages and rent",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "21": {
+      "task": 2,
+      "answer": "no young workers in Hong Kong",
+      "explanation": "參考答案重點是「no young workers in Hong Kong」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "no young workers in Hong Kong",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "22": {
+      "task": 2,
+      "answer": "the skills are difficult to learn",
+      "explanation": "參考答案重點是「the skills are difficult to learn」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "the skills are difficult to learn",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "23": {
+      "task": 2,
+      "answer": "five-star hotels",
+      "explanation": "參考答案重點是「five-star hotels」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "five-star hotels",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "24": {
+      "task": 2,
+      "answer": "overseas customers",
+      "explanation": "參考答案重點是「overseas customers」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "overseas customers",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "25": {
+      "task": 2,
+      "answer": "A, E",
+      "explanation": "參考答案重點是「A, E」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "A, E",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "26": {
+      "task": 3,
+      "answer": "children / kids",
+      "explanation": "參考答案重點是「children / kids」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "children / kids",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "27": {
+      "task": 3,
+      "answer": "A, C",
+      "explanation": "參考答案重點是「A, C」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "A, C",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "28": {
+      "task": 3,
+      "answer": "A",
+      "explanation": "參考答案重點是「A」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "A",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "29": {
+      "task": 3,
+      "answer": "quality local suppliers",
+      "explanation": "參考答案重點是「quality local suppliers」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "quality local suppliers",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "30": {
+      "task": 3,
+      "answer": "B",
+      "explanation": "參考答案重點是「B」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "B",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "31": {
+      "task": 3,
+      "answer": "room temperature",
+      "explanation": "參考答案重點是「room temperature」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "room temperature",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "32": {
+      "task": 3,
+      "answer": "avoid damaging the ingredients",
+      "explanation": "參考答案重點是「avoid damaging the ingredients」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "avoid damaging the ingredients",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "33": {
+      "task": 3,
+      "answer": "low humidity",
+      "explanation": "參考答案重點是「low humidity」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "low humidity",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "34": {
+      "task": 3,
+      "answer": "prevent mould",
+      "explanation": "參考答案重點是「prevent mould」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "prevent mould",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "35": {
+      "task": 3,
+      "answer": "high air pressure",
+      "explanation": "參考答案重點是「high air pressure」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "high air pressure",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "36": {
+      "task": 3,
+      "answer": "kill bacteria",
+      "explanation": "參考答案重點是「kill bacteria」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "kill bacteria",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "37": {
+      "task": 3,
+      "answer": "cold brew",
+      "explanation": "參考答案重點是「cold brew」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "cold brew",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "38": {
+      "task": 3,
+      "answer": "maintain freshness and flavour",
+      "explanation": "參考答案重點是「maintain freshness and flavour」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "maintain freshness and flavour",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "39": {
+      "task": 3,
+      "answer": "B, C",
+      "explanation": "參考答案重點是「B, C」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "B, C",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "40": {
+      "task": 4,
+      "answer": "in search of a better life",
+      "explanation": "參考答案重點是「in search of a better life」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "in search of a better life",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "41": {
+      "task": 4,
+      "answer": "recruited in Shanghai by representatives from a Hong Kong factory",
+      "explanation": "參考答案重點是「recruited in Shanghai by representatives from a Hong Kong factory」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "recruited in Shanghai by representatives from a Hong Kong factory",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "42": {
+      "task": 4,
+      "answer": "a small amount / low salary",
+      "explanation": "參考答案重點是「a small amount / low salary」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "a small amount / low salary",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "43": {
+      "task": 4,
+      "answer": "a dormitory",
+      "explanation": "參考答案重點是「a dormitory」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "a dormitory",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "44": {
+      "task": 4,
+      "answer": "free food in the canteen",
+      "explanation": "參考答案重點是「free food in the canteen」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "free food in the canteen",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "45": {
+      "task": 4,
+      "answer": "comfortable because he became a manager",
+      "explanation": "參考答案重點是「comfortable because he became a manager」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "comfortable because he became a manager",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "46": {
+      "task": 4,
+      "answer": "a free flat / accommodation",
+      "explanation": "參考答案重點是「a free flat / accommodation」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "a free flat / accommodation",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "47": {
+      "task": 4,
+      "answer": "great conversations with workers",
+      "explanation": "參考答案重點是「great conversations with workers」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "great conversations with workers",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "48": {
+      "task": 4,
+      "answer": "pride in making toys / making children happy",
+      "explanation": "參考答案重點是「pride in making toys / making children happy」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "pride in making toys / making children happy",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "49": {
+      "task": 4,
+      "answer": "standing for 12 hours in a row",
+      "explanation": "參考答案重點是「standing for 12 hours in a row」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "standing for 12 hours in a row",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "50": {
+      "task": 4,
+      "answer": "very hot in summer / no windows or air conditioning",
+      "explanation": "參考答案重點是「very hot in summer / no windows or air conditioning」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "very hot in summer / no windows or air conditioning",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "51": {
+      "task": 4,
+      "answer": "he was being loyal to the factory / owners",
+      "explanation": "參考答案重點是「he was being loyal to the factory / owners」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "he was being loyal to the factory / owners",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "52": {
+      "task": 4,
+      "answer": "sad or lonely because he had worked there for 30 years and the factory became empty",
+      "explanation": "參考答案重點是「sad or lonely because he had worked there for 30 years and the factory became empty」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "sad or lonely because he had worked there for 30 years and the factory became empty",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    }
+  },
+  "questions": {
+    "1": {
+      "title": "文化旅遊資料",
+      "instruction": "Charlie 和 Fatima 落實旅遊細節。聆聽對話並完成資料。",
+      "blocks": [
+        "文化旅遊資料：地點、開始月份、頻密程度、時段及地址。",
+        "Henry’s Umbrella Store 的位置。",
+        "根據地圖選出雨傘店所在位置。",
+        "旅遊包括的活動。",
+        "向參加者提供的物品：選兩項。",
+        "宣傳旅遊的方法及理由。"
+      ]
+    },
+    "2": {
+      "title": "Guang China Works 瓷器工廠",
+      "instruction": "Keaton 訪問瓷器工廠東主 TY Chow。聆聽訪問並完成資料。",
+      "blocks": [
+        "工廠名稱及創辦年份。",
+        "工廠著名特色：選兩項。",
+        "瓷器工廠的歷史。",
+        "衰落的原因及九十年代的主要顧客。",
+        "圖片：現今流行的五款瓷器圖案。",
+        "現今流行的圖案：選兩項。"
+      ]
+    },
+    "3": {
+      "title": "Bolin Medicine 製造流程",
+      "instruction": "Charlie 和 Greta 在 Bolin Medicine 工廠展覽拍攝影片。聆聽並完成資料。",
+      "blocks": [
+        "目標顧客。",
+        "針對的疾病：選兩項。",
+        "Bolin Medicine 因哪一項成就獲獎？",
+        "第一階段：採購原料。",
+        "原料來源。",
+        "禁用的物質。",
+        "第二階段：準備。",
+        "原料保存條件及原因。",
+        "第三階段：加工。",
+        "使用的工序及原因。",
+        "第四階段：包裝。",
+        "包裝特色：選兩項。"
+      ]
+    },
+    "4": {
+      "title": "Albert Wan 的工廠回憶",
+      "instruction": "Fatima 向 Charlie 講述退休玩具工廠工人 Albert Wan 的訪問。聆聽並完成答案。",
+      "blocks": [
+        "Albert 為何到上海，以及他與朋友如何來到香港。",
+        "Albert 的薪酬及福利。",
+        "在工廠工作的好處和壞處。",
+        "他為何說不記得意外，以及工廠結業時的感受。"
+      ]
+    }
+  },
+  "transcript": {}
+}

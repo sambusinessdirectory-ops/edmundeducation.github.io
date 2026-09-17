@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "scope": "HKDSE English Language Paper 3 Part A, Tasks 1–4, 2012–2024",
+  "policy": "The PDFs are evidence only. The live site uses semantic HTML/CSS, native controls and separately reconstructed or cleaned illustration assets; it does not use scanned pages as the answer interface.",
+  "sources": [
+    {"year":2012,"file":"2012 Paper 3 Questions.pdf","sha256":"f0c95aaf86b7cd23d6f1fc47e55dd2a35e152458f962247be5d85f8ac11fb7a2","pdfPageCount":37,"partAPdfPages":"19–27","taskPrintedPages":{"1":[3],"2":[4,5],"3":[6,7],"4":[8,9]}},
+    {"year":2013,"file":"2013 Paper 3.pdf","sha256":"74a8ae5fe734d8eef49aaff335325f6546e968bef78a5d6c67674b8f1f1814b2","pdfPageCount":37,"partAPdfPages":"21–28","taskPrintedPages":{"1":[3,4],"2":[5],"3":[6],"4":[7,8]}},
+    {"year":2014,"file":"2014 Paper 3.pdf","sha256":"2dc1b1923c465df33ecf2d5b49665384ac1df4f7eabb3282aa55b64d69241acd","pdfPageCount":39,"partAPdfPages":"22–29","taskPrintedPages":{"1":[3],"2":[4],"3":[5,6],"4":[7,8]}},
+    {"year":2015,"file":"2015 Paper 3.pdf","sha256":"d14a60eee715d859bab98e88e7efdbba34d503f7626972b107edacd14c792778","pdfPageCount":48,"partAPdfPages":"1–11"},
+    {"year":2016,"file":"Existing verified 2016 digitisation","status":"Bespoke semantic paper renderer retained; see assets/dse-listening/2016/original/README.md."},
+    {"year":2017,"file":"2017 Paper 3.pdf","sha256":"5448b28e7c2e7fa046bbae200cdb4ce80ae5aa23c8fae063f5e3469281d039f8","pdfPageCount":39,"partAPdfPages":"1–9"},
+    {"year":2018,"file":"2018 Paper 3.pdf","sha256":"a4efd6db73cfcdb17ec6d0cdc1efac7550550e90d31bb91105532f902e7538ad","pdfPageCount":42,"partAPdfPages":"1–10"},
+    {"year":2019,"file":"2019 Paper 3.pdf","sha256":"acdbac7588579d12b45a7db06b76734bddc5ef8f7ac8b4940caf53e5ff4b66fd","pdfPageCount":48,"partAPdfPages":"1–12"},
+    {"year":2020,"file":"2020 Paper 3.pdf","sha256":"cc8cc2392795be492cbca87819849f5ac2b6d7531fc9d9bb2535897fd1e2b423","pdfPageCount":48,"partAPdfPages":"1–11"},
+    {"year":2021,"file":"2021 Listening DSE just listening.pdf","sha256":"c61e0426102a461d0ba000ab44017f098c00ee250f3e60baefad498a312f006e","pdfPageCount":38,"partAPdfPages":"1–7"},
+    {"year":2022,"file":"2022 Paper 3.pdf","sha256":"cab59106cf72107a84d6140850ca4fd52956460c2019e3cf27e271d75a5a1251","pdfPageCount":46,"partAPdfPages":"1–11","taskPrintedPages":{"1":[4,5],"2":[6,7],"3":[8,9],"4":[10,11]}},
+    {"year":2023,"file":"2023 Paper 3.pdf","sha256":"259e67500b195518918b15a465cc1651bba0a92ce5ca1d041f4acb715c24de3f","pdfPageCount":51,"partAPdfPages":"1–11"},
+    {"year":2024,"file":"2024 DSE Listening Part A.pdf","sha256":"08694fcc90cfeeb99477bc9747c95f65857e68b446092aad1dac6ca41ac4cba8","pdfPageCount":10,"partAPdfPages":"1–10 (printed pages 1 and 3–11)","taskPrintedPages":{"1":[4,5],"2":[6,7],"3":[8,9],"4":[10,11]}}
+  ]
+}

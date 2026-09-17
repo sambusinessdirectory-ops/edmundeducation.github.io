@@ -1,0 +1,724 @@
+{
+  "year": 2024,
+  "source": {
+    "title": "2024 DSE Part A · 數碼原卷參考答案及題目翻譯",
+    "scope": "Part A Tasks 1–4, Questions 1–53",
+    "status": "Reference answers compiled from public teaching references; not an official HKEAA marking scheme.",
+    "questionPaper": "2024 Paper 3 Part A",
+    "questionPaperSha256": "08694fcc90cfeeb99477bc9747c95f65857e68b446092aad1dac6ca41ac4cba8",
+    "questionPaperPages": {
+      "1": [
+        4,
+        5
+      ],
+      "2": [
+        6,
+        7
+      ],
+      "3": [
+        8,
+        9
+      ],
+      "4": [
+        10,
+        11
+      ]
+    },
+    "answerReference": "https://dsetreasure.com/dse-english-paper-3-part-a-answer/",
+    "editorialNotes": [
+      "Question wording and page structure were checked against the user-supplied scan.",
+      "Traditional Chinese translations are editorial teaching aids and may be hidden.",
+      "No recording or verified timestamped transcript was supplied for this build; no timing cues have been invented."
+    ]
+  },
+  "analysisNote": "以下為公開教學參考資料整理的答案及簡析，並非考評局官方評分準則。",
+  "analysis": {
+    "1": {
+      "task": 1,
+      "answer": "April 30th / end of April",
+      "explanation": "參考答案重點是「April 30th / end of April」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "April 30th / end of April",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "2": {
+      "task": 1,
+      "answer": "50 dollars",
+      "explanation": "參考答案重點是「50 dollars」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "50 dollars",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "3": {
+      "task": 1,
+      "answer": "Monday",
+      "explanation": "參考答案重點是「Monday」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "Monday",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "4": {
+      "task": 1,
+      "answer": "take photos",
+      "explanation": "參考答案重點是「take photos」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "take photos",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "5": {
+      "task": 1,
+      "answer": "D",
+      "explanation": "參考答案重點是「D」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "D",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "6": {
+      "task": 1,
+      "answer": "around 70,000 years ago",
+      "explanation": "參考答案重點是「around 70,000 years ago」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "around 70,000 years ago",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "7": {
+      "task": 1,
+      "answer": "by canoe",
+      "explanation": "參考答案重點是「by canoe」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "by canoe",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "8": {
+      "task": 1,
+      "answer": "on foot / walking",
+      "explanation": "參考答案重點是「on foot / walking」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "on foot / walking",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "9": {
+      "task": 1,
+      "answer": "from island to island",
+      "explanation": "參考答案重點是「from island to island」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "from island to island",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "10": {
+      "task": 1,
+      "answer": "lack of food / to find food",
+      "explanation": "參考答案重點是「lack of food / to find food」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "lack of food / to find food",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "11": {
+      "task": 1,
+      "answer": "fighting with other humans / escape from other humans",
+      "explanation": "參考答案重點是「fighting with other humans / escape from other humans」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "fighting with other humans / escape from other humans",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "12": {
+      "task": 1,
+      "answer": "C, D, G, H",
+      "explanation": "參考答案重點是「C, D, G, H」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "C, D, G, H",
+      "questionSourcePages": [
+        4,
+        5
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "13": {
+      "task": 2,
+      "answer": "Paqua Monna",
+      "explanation": "參考答案重點是「Paqua Monna」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "Paqua Monna",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "14": {
+      "task": 2,
+      "answer": "languages",
+      "explanation": "參考答案重點是「languages」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "languages",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "15": {
+      "task": 2,
+      "answer": "customs",
+      "explanation": "參考答案重點是「customs」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "customs",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "16": {
+      "task": 2,
+      "answer": "C",
+      "explanation": "參考答案重點是「C」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "C",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "17": {
+      "task": 2,
+      "answer": "light",
+      "explanation": "參考答案重點是「light」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "light",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "18": {
+      "task": 2,
+      "answer": "strong",
+      "explanation": "參考答案重點是「strong」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "strong",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "19": {
+      "task": 2,
+      "answer": "5",
+      "explanation": "參考答案重點是「5」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "5",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "20": {
+      "task": 2,
+      "answer": "14",
+      "explanation": "參考答案重點是「14」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "14",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "21": {
+      "task": 2,
+      "answer": "May 1950",
+      "explanation": "參考答案重點是「May 1950」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "May 1950",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "22": {
+      "task": 2,
+      "answer": "the stars",
+      "explanation": "參考答案重點是「the stars」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "the stars",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "23": {
+      "task": 2,
+      "answer": "fish",
+      "explanation": "參考答案重點是「fish」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "fish",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "24": {
+      "task": 2,
+      "answer": "in bamboo water containers",
+      "explanation": "參考答案重點是「in bamboo water containers」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "in bamboo water containers",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "25": {
+      "task": 2,
+      "answer": "A, D, F",
+      "explanation": "參考答案重點是「A, D, F」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "A, D, F",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "26": {
+      "task": 2,
+      "answer": "D",
+      "explanation": "參考答案重點是「D」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "D",
+      "questionSourcePages": [
+        6,
+        7
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "27": {
+      "task": 3,
+      "answer": "strongly connected to one’s cultural background",
+      "explanation": "參考答案重點是「strongly connected to one’s cultural background」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "strongly connected to one’s cultural background",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "28": {
+      "task": 3,
+      "answer": "Singapore",
+      "explanation": "參考答案重點是「Singapore」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "Singapore",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "29": {
+      "task": 3,
+      "answer": "explore his Peruvian identity",
+      "explanation": "參考答案重點是「explore his Peruvian identity」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "explore his Peruvian identity",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "30": {
+      "task": 3,
+      "answer": "speak with her grandparents / get to know her grandparents",
+      "explanation": "參考答案重點是「speak with her grandparents / get to know her grandparents」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "speak with her grandparents / get to know her grandparents",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "31": {
+      "task": 3,
+      "answer": "give a speech at his cousin’s wedding",
+      "explanation": "參考答案重點是「give a speech at his cousin’s wedding」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "give a speech at his cousin’s wedding",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "32": {
+      "task": 3,
+      "answer": "weekly lessons with a private tutor",
+      "explanation": "參考答案重點是「weekly lessons with a private tutor」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "weekly lessons with a private tutor",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "33": {
+      "task": 3,
+      "answer": "a language exchange partner",
+      "explanation": "參考答案重點是「a language exchange partner」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "a language exchange partner",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "34": {
+      "task": 3,
+      "answer": "use a language-learning app on his way to work",
+      "explanation": "參考答案重點是「use a language-learning app on his way to work」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "use a language-learning app on his way to work",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "35": {
+      "task": 3,
+      "answer": "reading and writing Chinese characters",
+      "explanation": "參考答案重點是「reading and writing Chinese characters」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "reading and writing Chinese characters",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "36": {
+      "task": 3,
+      "answer": "write a daily diary in Chinese",
+      "explanation": "參考答案重點是「write a daily diary in Chinese」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "write a daily diary in Chinese",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "37": {
+      "task": 3,
+      "answer": "watch a French YouTube series every week",
+      "explanation": "參考答案重點是「watch a French YouTube series every week」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "watch a French YouTube series every week",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "38": {
+      "task": 3,
+      "answer": "it is never too late to learn",
+      "explanation": "參考答案重點是「it is never too late to learn」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "it is never too late to learn",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "39": {
+      "task": 3,
+      "answer": "motivation is everything",
+      "explanation": "參考答案重點是「motivation is everything」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "motivation is everything",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "40": {
+      "task": 3,
+      "answer": "there is no single right way of learning / try different ways to learn",
+      "explanation": "參考答案重點是「there is no single right way of learning / try different ways to learn」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "there is no single right way of learning / try different ways to learn",
+      "questionSourcePages": [
+        8,
+        9
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "41": {
+      "task": 4,
+      "answer": "the largest annual human migration on Earth",
+      "explanation": "參考答案重點是「the largest annual human migration on Earth」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "the largest annual human migration on Earth",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "42": {
+      "task": 4,
+      "answer": "400,000,000 / 400 million",
+      "explanation": "參考答案重點是「400,000,000 / 400 million」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "400,000,000 / 400 million",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "43": {
+      "task": 4,
+      "answer": "people left their hometowns to work in cities",
+      "explanation": "參考答案重點是「people left their hometowns to work in cities」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "people left their hometowns to work in cities",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "44": {
+      "task": 4,
+      "answer": "more university students study outside their hometowns",
+      "explanation": "參考答案重點是「more university students study outside their hometowns」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "more university students study outside their hometowns",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "45": {
+      "task": 4,
+      "answer": "buying a ticket because tickets sell out quickly",
+      "explanation": "參考答案重點是「buying a ticket because tickets sell out quickly」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "buying a ticket because tickets sell out quickly",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "46": {
+      "task": 4,
+      "answer": "safety because trains are overcrowded / many people must stand",
+      "explanation": "參考答案重點是「safety because trains are overcrowded / many people must stand」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "safety because trains are overcrowded / many people must stand",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "47": {
+      "task": 4,
+      "answer": "passengers called his family to meet him at the next station",
+      "explanation": "參考答案重點是「passengers called his family to meet him at the next station」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "passengers called his family to meet him at the next station",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "48": {
+      "task": 4,
+      "answer": "a stranger shared his lunch box",
+      "explanation": "參考答案重點是「a stranger shared his lunch box」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "a stranger shared his lunch box",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "49": {
+      "task": 4,
+      "answer": "they got married / became husband and wife",
+      "explanation": "參考答案重點是「they got married / became husband and wife」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "they got married / became husband and wife",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "50": {
+      "task": 4,
+      "answer": "stay where they are / avoid Chunyun",
+      "explanation": "參考答案重點是「stay where they are / avoid Chunyun」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "stay where they are / avoid Chunyun",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "51": {
+      "task": 4,
+      "answer": "share a car to reduce the cost",
+      "explanation": "參考答案重點是「share a car to reduce the cost」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "share a car to reduce the cost",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "52": {
+      "task": 4,
+      "answer": "international travel",
+      "explanation": "參考答案重點是「international travel」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "international travel",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    },
+    "53": {
+      "task": 4,
+      "answer": "despite the stress, spending time with loved ones makes it worthwhile",
+      "explanation": "參考答案重點是「despite the stress, spending time with loved ones makes it worthwhile」。作答時保留題目要求的關鍵資料；同義而意思完整的答案亦可接受。",
+      "evidence": "despite the stress, spending time with loved ones makes it worthwhile",
+      "questionSourcePages": [
+        10,
+        11
+      ],
+      "audioTime": null,
+      "audioEnd": null
+    }
+  },
+  "questions": {
+    "1": {
+      "title": "人類大遷徙展覽",
+      "instruction": "Grace 和 Stephen 參觀博物館，挑選適合學校歷史考察的展覽。聆聽並完成資料。",
+      "blocks": [
+        "參觀的展覽、結束日期、入場費、休館日及禁止事項。",
+        "展覽位置。",
+        "根據博物館平面圖選出展覽位置。",
+        "人類離開非洲的時間、前往澳洲及美洲的交通方式和路線，以及遷徙原因。",
+        "人類到達新環境後學會的事情：選四項。"
+      ]
+    },
+    "2": {
+      "title": "Paqua Monna 遠征",
+      "instruction": "聆聽人類遷徙專家 Elsa Larssen 教授講述一次著名遠征，並完成資料。",
+      "blocks": [
+        "講座系列名稱、遠征主題，以及波利尼西亞人的共同特徵。",
+        "Jenson 遠征的路線。",
+        "Jenson 的船。",
+        "造船木材的兩項特質及船的尺寸。",
+        "遠征過程。",
+        "遠征的出發時間、導航方法、食物及儲水方法。",
+        "風暴造成的問題：選三項。",
+        "現代研究顯示現代波利尼西亞人與南美洲人有相似的什麼？"
+      ]
+    },
+    "3": {
+      "title": "傳承語言學習",
+      "instruction": "聆聽 Philip、Charles 和 Anna 分享學習語言的經驗，並完成資料。",
+      "blocks": [
+        "傳承語言學習的定義。",
+        "三位學習者的語言、家族來源、學習原因及方法。",
+        "問題與解決方法。",
+        "各學習者遇到的困難及解決方法。",
+        "給語言學習者的訊息。",
+        "Charles、Anna 和 Philip 的訊息。"
+      ]
+    },
+    "4": {
+      "title": "春運",
+      "instruction": "聆聽關於春運的電台節目並回答問題；答案毋須使用完整句子。",
+      "blocks": [
+        "春運有何特別，以及每年大約有多少人出行。",
+        "現在春節出行人數比以往多的兩個原因。",
+        "春運乘火車面對的兩個主要問題及原因。",
+        "三個春運故事及其結果。",
+        "應對春運問題的三個方法，以及大部分中國人對春運的看法。"
+      ]
+    }
+  },
+  "transcript": {}
+}

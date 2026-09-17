@@ -58,6 +58,7 @@ try {
   for (const [task, expectedPages, firstQuestion, lastQuestion] of [[1,[3],1,15],[2,[4],16,31],[3,[5,6],32,47],[4,[7,8],48,58]]) {
     if (task !== 1) await page.locator(`[data-dse-task-tab="${task}"]`).click();
     await page.locator(`#original-paper-${expectedPages[0]}`).waitFor();
+    await page.waitForFunction(() => [...document.images].filter(image => image.closest('.dse-digital-paper-frame')).every(image => image.complete && image.naturalWidth > 0));
     assert.equal(await page.locator('.digital-paper-page').count(), expectedPages.length);
     assert.deepEqual(await page.locator('.digital-paper-page').evaluateAll(nodes => nodes.map(node => Number(node.id.replace('original-paper-','')))), expectedPages);
     const questions = await page.locator('[data-original-q]').evaluateAll(inputs => [...new Set(inputs.map(input => Number(input.dataset.originalQ)))].sort((a,b) => a-b));

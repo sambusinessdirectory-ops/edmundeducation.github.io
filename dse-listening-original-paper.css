@@ -198,11 +198,62 @@
 .digital-paper-part-end { margin: 2.8em 0 .8em 52%; line-height: 1.8; }
 .digital-paper-part-end span { margin-left: 1.4em; }
 .digital-paper-source-note { margin-top: 2.2em; font-size: .78em; }
+.archive-digital-paper-page {
+  min-height: calc(1080px * var(--paper-zoom));
+  overflow: visible;
+}
+.archive-paper-content { padding: calc(18px * var(--paper-zoom)); }
+.archive-paper-block { margin: 0 0 1.05em; break-inside: avoid; }
+.archive-paper-block > :last-child { margin-bottom: 0; }
+.archive-digital-paper-page .dse-question-block {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  color: #111;
+  background: transparent;
+  line-height: 1.65;
+}
+.archive-digital-paper-page :is(.dse-question-heading,.dse-native-table caption) { color: #111; font-family: inherit; }
+.archive-digital-paper-page .dse-question-heading { margin: .9em 0 .45em; padding-bottom: .2em; border-bottom: 1px solid #111; }
+.archive-digital-paper-page .dse-native-table { min-width: 0; color: #111; font: inherit; }
+.archive-digital-paper-page .dse-native-table :is(th,td) { padding: .65em; border-color: #111; }
+.archive-digital-paper-page .dse-native-table thead th { color: #111; background: #f2f2f0; }
+.archive-digital-paper-page .dse-native-table tbody th { color: #111; background: #f7f7f5; }
+.archive-digital-paper-page .dse-answer-gap { min-width: 10em; }
+.archive-digital-paper-page .dse-answer-gap input,
+.archive-digital-paper-page .dse-answer-gap select { border-color: #777; border-radius: 3px; color: #07529c; background: #eff8ff; }
+.archive-digital-paper-page .dse-question-image img { max-height: calc(520px * var(--paper-zoom)); object-fit: contain; }
+.archive-paper-translation { margin-top: .5em; }
+.archive-digital-paper-page .single-answer-tools { font-size: .8em; }
+.archive-digital-paper-page [data-state="correct"] { outline: 2px solid #27935c; outline-offset: 2px; }
+.archive-digital-paper-page [data-state="wrong"] { outline: 2px solid #c84747; outline-offset: 2px; }
+.dse-2022-map {
+  display: grid;
+  grid-template-columns: 1.1fr 1.25fr 1.25fr 1.1fr;
+  grid-template-areas: ". a a ." "market garden garden b" "mall school rich rich" "c station carpark d";
+  margin: .7em auto;
+  border: 2px solid #111;
+}
+.dse-2022-map .place { display:grid; min-height:3.3em; place-items:center; padding:.35em; border:1px solid #111; text-align:center; }
+.dse-2022-map .a{grid-area:a}.dse-2022-map .market{grid-area:market}.dse-2022-map .garden{grid-area:garden}.dse-2022-map .b{grid-area:b}.dse-2022-map .mall{grid-area:mall}.dse-2022-map .school{grid-area:school}.dse-2022-map .rich{grid-area:rich}.dse-2022-map .c{grid-area:c}.dse-2022-map .station{grid-area:station}.dse-2022-map .carpark{grid-area:carpark}.dse-2022-map .d{grid-area:d}
+.dse-2024-map { display:grid; grid-template-columns:1fr 2fr 1fr; margin:.7em auto; border:2px solid #111; }
+.dse-2024-map span { display:grid; min-height:3em; place-items:center; padding:.3em; border:1px solid #111; text-align:center; }
+.dse-2024-map .wide { grid-column:1/-1; }
+.dse-boat-diagram { position:relative; width:min(100%,420px); height:180px; margin:1em auto; border-bottom:4px solid #111; }
+.dse-boat-diagram::before { content:""; position:absolute; right:12%; bottom:0; width:65%; height:46%; border:2px solid #111; border-top:0; transform:skew(-12deg); }
+.dse-boat-diagram::after { content:""; position:absolute; left:49%; bottom:45%; width:3px; height:48%; background:#111; }
+.dse-boat-diagram .sail { position:absolute; left:50%; bottom:52%; width:0; height:0; border-bottom:70px solid #cfd4d8; border-right:95px solid transparent; }
+.dse-boat-diagram .height { position:absolute; left:8%; bottom:16%; }
+.dse-boat-diagram .length { position:absolute; right:25%; bottom:-1.8em; }
+.dse-speech-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1em; }
+.dse-speech-grid section { position:relative; min-height:9em; padding:1em; border:1px solid #111; border-radius:20px; }
+.dse-speech-grid strong { display:block; margin-bottom:.5em; text-align:center; }
 @media (max-width: 600px) {
   .original-paper-dialog { width: 100vw; height: 100dvh; max-height: 100dvh; border-radius: 0; }
   .original-paper-toolbar { gap: 7px; padding: 9px; }
   .original-paper-toolbar strong { font-size: 13px; }
   .original-paper-toolbar p { font-size: 11px; }
+  .dse-speech-grid { grid-template-columns:1fr; }
 }
 @media print {
   .original-paper-toolbar { display: none; }

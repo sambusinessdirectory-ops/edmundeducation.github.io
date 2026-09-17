@@ -1,11 +1,13 @@
-import {render2016DigitalPaper} from './dse-listening-2016-paper-layout.mjs?v=20260917-translation-toggle1';
-export function restoreOriginalAnswers(owner,answers) {
+import {render2016DigitalPaper} from './dse-listening-2016-paper-layout.mjs?v=20260917-dse-all-years1';
+const storageKey = (owner, year = 2016) => `dseOriginal${Number(year) || 2016}V1:${owner}`;
+
+export function restoreOriginalAnswers(owner,answers,year = 2016,questionCount = 999) {
  if(!owner)return;
- try { const data=JSON.parse(localStorage.getItem(`dseOriginal2016V1:${owner}`)||'{}');for(const [q,value] of Object.entries(data))if(Number(q)>=1&&Number(q)<=58&&typeof value==='string')answers.set(Number(q),value); } catch { /* Keep existing answers if storage is unavailable. */ }
+ try { const data=JSON.parse(localStorage.getItem(storageKey(owner,year))||'{}');for(const [q,value] of Object.entries(data))if(Number(q)>=1&&Number(q)<=questionCount&&typeof value==='string')answers.set(Number(q),value); } catch { /* Keep existing answers if storage is unavailable. */ }
 }
-export function saveOriginalAnswers(owner,answers) {
+export function saveOriginalAnswers(owner,answers,year = 2016) {
  if(!owner)return false;
- try { localStorage.setItem(`dseOriginal2016V1:${owner}`,JSON.stringify(Object.fromEntries(answers)));return true; } catch {return false;}
+ try { localStorage.setItem(storageKey(owner,year),JSON.stringify(Object.fromEntries(answers)));return true; } catch {return false;}
 }
 export async function openOriginalPaper({answers,owner,task=1,onAnswer=()=>{},audio=null}) {
  if(document.querySelector('.original-paper-dialog'))return;

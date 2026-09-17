@@ -1,6 +1,8 @@
 # Golden Manual — DSE Listening past-paper digitization
 
-Version: 2026-09-17. Current reference implementation: 2016 DSE English Language Paper 3 Part A.
+Version: 2026-09-17. Current reference implementation: DSE English Language Paper 3 Part A, 2012–2024.
+
+Implementation status: all thirteen years from 2012 through 2024 now open in the digital-paper layout by default, with four separately routed Tasks per year. The 2016 paper remains the bespoke visual reference. The other years use the shared archive-paper renderer with source-checked semantic Task blocks, while retaining their own wording, answer types, illustrations and page references.
 
 ## 1. Purpose
 
@@ -8,7 +10,7 @@ This manual defines how to turn a DSE Listening past paper into a faithful, inte
 
 Use it for every future DSE Listening paper digitization. The target is not a scan viewer and not a generic quiz that happens to contain the same questions. The target is a clean reconstruction of the original paper's structure that behaves like a first-class part of the learning system.
 
-The 2016 implementation is the golden reference because it now provides:
+The 2016 implementation established the visual and interaction standard. The completed 2012–2024 rollout provides:
 
 - semantic HTML and CSS rather than low-resolution page backgrounds;
 - the original page and task structure;

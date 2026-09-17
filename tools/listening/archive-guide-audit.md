@@ -1,6 +1,6 @@
 # DSE Part A bilingual study guides
 
-Scope: 2012–2021 and 2023, four Part A tasks each. 2022 and 2024–2026 are excluded. Part B, recordings, reconstructed illustrations and student records are outside this change.
+Scope: 2012–2024, four Part A tasks each. The 2012–2021 and 2023 guides include bilingual transcripts and replay cues. The 2022 and 2024 additions include the digitised question paper, inline Traditional Chinese translations and public teaching-reference answers; no recording or verified timestamped transcript was supplied, so those two years deliberately omit replay cues. 2025–2026, Part B and student records are outside this change.
 
 The 2021 author-provided guide and the user-approved 2023 material are the teaching-style references. New years contain authored reference answers, not official HKEAA marking schemes. Each question has an explanation and an evidence quote matched to its own year's transcript. Every existing transcript cue has a Traditional Chinese counterpart. Question translations preserve blanks and do not automatically reveal answers.
 
@@ -19,8 +19,9 @@ Replay is available in both the full analysis cards and floating answer analysis
 - 2021/2023 replay support: `enrich-existing-dse-guides.mjs --check`. Run without `--check` after reimporting the approved 2021 PDF.
 - Search: `build-search-index.mjs --check` (run without `--check` to rebuild).
 
-Archive structural/content checks: `node tools/test-dse-listening-archive-guides.mjs`.
+Archive structural/content checks: `node tools/test-dse-listening-archive-guides.mjs` and `node tools/test-dse-listening-2022-2024.mjs`.
 Isolated actual-renderer browser checks: `node tools/test-dse-listening-archive-guides-ui.mjs`, using `PLAYWRIGHT_MODULE` if needed. The harness blocks remote traffic and mocks account writes. `DSE_GUIDE_YEARS` can narrow diagnostic checks; release validation uses all 11 years.
+All-years default-route and responsive-paper QA: `node tools/test-dse-listening-all-years-browser.mjs` with `PLAYWRIGHT_MODULE_PATH` set to the bundled Playwright package.
 
 Source correction: 2014 Task 2, John's printed view on Hong Kong comics is **?**, not ✓. Verified against `assets/dse-listening/2014/paper-page-5.jpg`; corrected the same cell in the English question asset and its layout source. No numbered answer fields were changed.
 

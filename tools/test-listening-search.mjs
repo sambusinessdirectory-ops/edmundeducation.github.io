@@ -4,8 +4,8 @@ import {searchEntries,resultHref,highlightedSnippet,loadSearchIndex} from '../li
 const read=file=>fs.readFileSync(new URL('../'+file,import.meta.url),'utf8');
 const dse=JSON.parse(read('assets/listening/search/dse.json')).entries;
 const ielts=JSON.parse(read('assets/listening/search/ielts.json')).entries;
-assert.equal(dse.length,44);assert.equal(ielts.length,80);
-assert.equal(new Set([...dse,...ielts].map(x=>x.id)).size,124);
+assert.equal(dse.length,52);assert.equal(ielts.length,80);
+assert.equal(new Set([...dse,...ielts].map(x=>x.id)).size,132);
 const emoji=searchEntries(dse,'EMOJI');
 assert.equal(emoji[0].year,2023);assert.equal(emoji[0].part,4);
 assert.equal(resultHref(emoji[0]),'listening-system.html?section=dse&year=2023&task=4');
@@ -33,4 +33,4 @@ try{
  globalThis.fetch=async()=>{calls++;return {ok:true,json:async()=>({version:1,entries:ielts})};};
  await loadSearchIndex('ielts');assert.equal(calls,3);
 }finally{globalThis.fetch=oldFetch;}
-console.log('Listening search: 124 parts, emoji→2023 Task 4, IELTS content, Chinese, direct links, escaped highlights, lazy loading, single-flight and retry passed.');
+console.log('Listening search: 132 parts, emoji→2023 Task 4, IELTS content, Chinese, direct links, escaped highlights, lazy loading, single-flight and retry passed.');

@@ -20,7 +20,9 @@ load('listening-system-catalog.js');
 const result={dse:[],ielts:[]};
 for(const {year,available} of context.window.EDMUND_LISTENING_CATALOG.dseYears){
  if(!available)continue;
- load(`dse-listening-${year}-transcript.js`);load(`dse-listening-${year}-data.js`);
+ const transcriptFile=`dse-listening-${year}-transcript.js`;
+ if(fs.existsSync(path.join(root,transcriptFile)))load(transcriptFile);
+ load(`dse-listening-${year}-data.js`);
  const content=context.window[`EDMUND_DSE_LISTENING_${year}`];
  const guideFile=path.join(root,`assets/dse-listening/${year}/guide.json`);
  const guide=fs.existsSync(guideFile)?JSON.parse(fs.readFileSync(guideFile,'utf8')):null;

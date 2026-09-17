@@ -53,7 +53,8 @@ for(const year of years){
  }
  console.log(`${year}: ${data.questionCount} answers, four fully translated tasks and replay timings passed.`);
 }
-for(const year of [2011,2022,2024,2025,2026])assert.equal(hasDseGuide(year),false);
+for(const year of [2011,2025,2026])assert.equal(hasDseGuide(year),false);
+for(const year of [2022,2024])assert.equal(hasDseGuide(year),true);
 for(const value of [undefined,null,NaN,Infinity,-1,'23'])assert.equal(dseAnswerReplayStart(value),null);
 assert.equal(dseAnswerReplayStart(10),0);assert.equal(dseAnswerReplayStart(45.5),30.5);
 console.log(`Archive total: ${answers} answers, ${cues} bilingual cues, ${blocks} translated blocks. Excluded years remain excluded.`);
