@@ -485,5 +485,14 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "name": "一詞多義學習室｜EdmundEducation",
     "shortName": "一詞多義",
     "manifest": "/pwa-manifests/polysemy-lab.webmanifest"
+  },
+  {
+    "id": "natural-english",
+    "href": "natural-english.html",
+    "zh": "自然英文學習系統",
+    "en": "Native speakers 怎麼說?",
+    "name": "自然英文學習系統｜EdmundEducation",
+    "shortName": "自然英文",
+    "manifest": "/pwa-manifests/natural-english.webmanifest"
   }
 ].map(Object.freeze));
