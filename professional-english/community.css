@@ -43,3 +43,8 @@ html:not(.theme-day) .library-heading nav a[aria-current],html:not(.theme-day) .
 /* Independent left and right course photos. */
 .course-photo-group{display:flex;gap:12px;margin-left:auto;max-width:100%;flex:0 1 452px;min-width:0}.course-photo-group:has(.course-photo-slot[hidden]):not(:has(.course-photo-slot:not([hidden]))){display:none}.course-photo-group .course-photo-slot{margin:0;flex:1 1 0;min-width:0;max-width:100%;width:auto}.course-photo-edit{flex-wrap:wrap}
 @media(max-width:600px){.course-photo-group{flex-basis:100%;width:100%;margin-left:0}.course-photo-group .course-photo-frame{height:135px}.course-photo-group .course-photo-edit button{padding:6px 8px}.page-heading:has(.course-photo-slot)>button{margin-left:auto}}
+
+/* Let uploaded photos sit directly on the course background without white gutters. */
+.course-photo-frame:has(img){background:transparent!important;border:0;box-shadow:none;border-radius:0}
+.course-photo-frame>[data-photo-view]{background:transparent!important;border:0!important;box-shadow:none!important;padding:0!important}
+.course-photo-frame img{border-radius:0}
