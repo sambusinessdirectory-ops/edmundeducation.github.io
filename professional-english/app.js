@@ -1,4 +1,4 @@
-import {mountCoursePhoto} from './course-photo.mjs?v=20260917-controls1';
+import {mountCoursePhoto} from './course-photo.mjs?v=20260917-photos2';
 import {mountLearningHistory} from './learning-history.mjs?v=20260916-ui-polish1';
 import {mountAssessment,mountTeam,mountHighAttempts} from './community.mjs?v=20260916-ui-polish1';
 import {lessonSort} from './community-core.mjs?v=20260916-ui-polish1';
