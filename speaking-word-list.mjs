@@ -1,6 +1,6 @@
 // Account-linked phrases, with a device-local order and exact source anchors.
-export function createSpeakingWordList({ root, getUser, getToken, rpc, describe, notify }) {
-  let enabled = false, timer, last = '', rows = [], list, generation = 0, captureGeneration = 0;
+export function createSpeakingWordList({ root, getUser, getToken, rpc, describe, notify, openSource }) {
+  let enabled = false, timer, rows = [], list, generation = 0, pending = null, saving = false;
   const helper = window.EdmundWordBookmarks;
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const orderKey = () => `speakingPhraseOrderV1:${getUser()?.id}`;
@@ -8,12 +8,19 @@ export function createSpeakingWordList({ root, getUser, getToken, rpc, describe,
   const saveOrder = () => { try { localStorage.setItem(orderKey(), JSON.stringify(rows.map(row => row.item_key))); } catch { notify('排序未能儲存；請保持此頁開啟。', 'error'); } };
   const hash = text => { let h = 2166136261; for (const c of text) h = Math.imul(h ^ c.codePointAt(0),16777619); return (h >>> 0).toString(36); };
   const toolbar = document.createElement('div'); toolbar.className = 'speaking-brush-toolbar';
-  toolbar.innerHTML = '<button type="button" data-speaking-pen aria-pressed="false">🖌 魔法筆 · 收藏字詞</button><span role="status" aria-live="polite">開啟後選取範文中的字詞，即可收藏。</span><button type="button" data-go="bookmarks">字詞書簽 →</button>';
+  toolbar.innerHTML = '<button type="button" data-speaking-pen aria-pressed="false">🖌 魔法筆</button><span role="status" aria-live="polite">開啟後選取字詞，再按「確認收藏」。</span><span class="speaking-brush-selection-actions" data-speaking-selection-actions hidden><button type="button" data-speaking-save-selection disabled>確認收藏</button><button type="button" data-speaking-cancel-selection>取消</button></span><button type="button" data-go="bookmarks">字詞書簽 →</button>';
   const pen = toolbar.querySelector('[data-speaking-pen]'), status = toolbar.querySelector('[role="status"]');
+  const selectionActions = toolbar.querySelector('[data-speaking-selection-actions]');
+  const saveSelection = toolbar.querySelector('[data-speaking-save-selection]');
+  const cancelSelection = toolbar.querySelector('[data-speaking-cancel-selection]');
+  const clearPending = message => {
+    pending = null; saving = false; selectionActions.hidden = true; saveSelection.disabled = true;
+    if (message) status.textContent = message;
+  };
   pen.onclick = () => {
-    enabled = !enabled; last = ''; captureGeneration += 1; clearTimeout(timer);
+    enabled = !enabled; clearTimeout(timer); clearPending(enabled ? '選取字詞後，先確認內容，再按「確認收藏」。' : '開啟後選取字詞，再按「確認收藏」。');
     pen.setAttribute('aria-pressed',String(enabled));
-    status.textContent = enabled ? '選取字詞並放開，即會自動收藏。' : '開啟後選取範文中的字詞，即可收藏。';
+    if (!enabled) getSelection()?.removeAllRanges();
   };
   function mountToolbar() {
     const host = root();
@@ -46,7 +53,7 @@ export function createSpeakingWordList({ root, getUser, getToken, rpc, describe,
     if (from && to) { range.setStart(from.node,from.offset); range.setEnd(to.node,to.offset); }
     return range;
   }
-  async function capture(expectedPhrase) {
+  function prepareSelection(expectedPhrase) {
     if (!enabled || getUser()?.role !== 'student') return;
     const selection = getSelection(); if (!selection?.rangeCount || selection.isCollapsed) return;
     const rawPhrase = selectedPhrase();
@@ -58,34 +65,43 @@ export function createSpeakingWordList({ root, getUser, getToken, rpc, describe,
     if (!phrase || phrase.length > 300 || !/[\p{L}\p{N}]/u.test(phrase)) return;
     if (phrase !== rawPhrase) { selection.removeAllRanges(); selection.addRange(range); }
     const info = describe({element,phrase,range}); if (!info) return;
-    const token = getToken(), owner = getUser()?.id;
+    const owner = getUser()?.id;
     const itemKey = `speaking:${hash(`${info.href}|${phrase.toLowerCase()}`)}`;
-    const identity = `${owner}:${itemKey}`; if (identity === last) return; last = identity;
-    const currentCapture = ++captureGeneration;
-    status.textContent = `正在收藏「${phrase}」…`;
+    pending = {itemKey,...info,phrase,owner};
+    selectionActions.hidden = false; saveSelection.disabled = false;
+    saveSelection.textContent = `確認收藏「${phrase.length > 34 ? `${phrase.slice(0,31)}…` : phrase}」`;
+    status.textContent = `已選取「${phrase}」。尚未送出。`;
+  }
+  async function commitSelection() {
+    if (!pending || saving || pending.owner !== getUser()?.id) return;
+    const item = pending; saving = true; saveSelection.disabled = true; cancelSelection.disabled = true;
+    status.textContent = `正在收藏「${item.phrase}」…`;
     try {
-      await helper.setWordBookmark({rpc,token,systemKey:'speaking',itemKey,...info,phrase});
-      if (owner === getUser()?.id && currentCapture === captureGeneration) {
-        status.textContent = `✓ 已收藏「${phrase}」。可繼續選取其他字詞。`;
-        if (selectedPhrase() === phrase) getSelection()?.removeAllRanges();
-      }
-      if (owner === getUser()?.id) notify(`已收藏「${phrase}」到 Speaking 書簽。`,'info');
+      await helper.setWordBookmark({rpc,token:getToken(),systemKey:'speaking',...item,bookmarked:true});
+      if (item.owner !== getUser()?.id) return;
+      getSelection()?.removeAllRanges(); clearPending(`✓ 已收藏「${item.phrase}」。`);
+      notify(`已收藏「${item.phrase}」到 Speaking 書簽。`,'info');
     }
     catch {
-      if(last === identity) last='';
-      if (currentCapture === captureGeneration) status.textContent = '收藏失敗，請重新選取字詞。';
+      saving = false; saveSelection.disabled = false;
+      status.textContent = '收藏失敗；選取內容仍保留，請再按一次。';
       notify('未能收藏，請重新選取再試。','error');
     }
+    finally { cancelSelection.disabled = false; }
   }
   const schedule = (delay = 280) => {
     clearTimeout(timer);
     if (!enabled || getUser()?.role !== 'student') return;
     const phrase = selectedPhrase();
     if (!phrase) return;
-    timer=setTimeout(() => capture(phrase),delay);
+    timer=setTimeout(() => prepareSelection(phrase),delay);
   };
-  // Safari and trackpads can finish updating a native selection after pointerup.
-  // Wait for selectionchange to settle so the saved phrase matches the highlight.
+  saveSelection.addEventListener('pointerdown',event=>event.preventDefault());
+  saveSelection.addEventListener('click',commitSelection);
+  cancelSelection.addEventListener('pointerdown',event=>event.preventDefault());
+  cancelSelection.addEventListener('click',()=>{getSelection()?.removeAllRanges();clearPending('已取消。請重新選取字詞。');});
+  // Wait for native selection to settle, then preview it. Saving always requires
+  // the separate confirmation button, so an unfinished drag can never be sent.
   document.addEventListener('selectionchange',() => schedule(280));
   document.addEventListener('pointerup',() => schedule(320));
   document.addEventListener('mouseup',() => schedule(320));
@@ -93,15 +109,21 @@ export function createSpeakingWordList({ root, getUser, getToken, rpc, describe,
   document.addEventListener('keyup',() => schedule(220));
   function render() {
     if (!list?.isConnected) return;
-    list.innerHTML = rows.length ? rows.map((row,index) => `<div class="speaking-phrase-row" data-phrase-index="${index}"><button type="button" class="speaking-phrase-grip" data-grip="${index}" aria-label="移動 ${escape(row.phrase)}；使用上下方向鍵排序" title="拖曳或使用上下方向鍵排序">☰</button><span><strong>${escape(row.phrase)}</strong><small>${escape(row.context_en)}</small></span><a href="${escape(sourceHref(row.href))}">查看原文 ↗</a></div>`).join('') : '<p>尚未收藏字詞。開啟範文上的魔法筆，選取想溫習的字詞。</p>';
+    list.innerHTML = rows.length ? rows.map((row,index) => `<div class="speaking-phrase-row" data-phrase-index="${index}"><button type="button" class="speaking-phrase-grip" data-grip="${index}" aria-label="移動 ${escape(row.phrase)}；使用上下方向鍵排序" title="拖曳或使用上下方向鍵排序">☰</button><span><strong>${escape(row.phrase)}</strong><small>${escape(row.context_en)}</small></span><span class="speaking-phrase-actions"><button type="button" data-open-phrase-source="${index}">查看原文 ↗</button><button type="button" class="speaking-phrase-delete" data-delete-phrase="${index}">刪除</button></span></div>`).join('') : '<p>尚未收藏字詞。開啟範文上的魔法筆，選取想溫習的字詞。</p>';
   }
   function move(from,to) { if(from===to || to<0 || to>=rows.length)return; const [row]=rows.splice(from,1);rows.splice(to,0,row);saveOrder();render();list.querySelector(`[data-grip="${to}"]`)?.focus({preventScroll:true}); }
-  function sourceHref(href) { try { const url=new URL(href,location.href); return url.origin===location.origin && url.pathname.endsWith('/speaking-system.html') ? url.href : 'speaking-system.html'; } catch { return 'speaking-system.html'; } }
+  function sourceHref(href) { try { const url=new URL(href,location.href); return url.origin===location.origin && url.pathname.endsWith('/speaking-system.html') ? `${url.pathname}${url.search}${url.hash}` : 'speaking-system.html'; } catch { return 'speaking-system.html'; } }
+  async function removePhrase(index,button) {
+    const row=rows[index];if(!row||button.disabled)return;button.disabled=true;button.textContent='刪除中…';
+    try { await helper.setWordBookmark({rpc,token:getToken(),systemKey:'speaking',itemKey:row.item_key,phrase:row.phrase,exactTranslation:row.exact_translation,contextEn:row.context_en,contextZh:row.context_zh,href:sourceHref(row.href),bookmarked:false});rows.splice(index,1);saveOrder();render();notify(`已刪除「${row.phrase}」。`,'info'); }
+    catch { button.disabled=false;button.textContent='刪除';notify('未能刪除字詞，請再試一次。','error'); }
+  }
   async function mountList(host) {
     const owner=getUser()?.id, current=++generation;
     const section=document.createElement('section'); section.className='speaking-phrase-section';
-    section.innerHTML='<h2>魔法筆字詞書簽</h2><p>字詞跟隨帳戶同步；拖曳左側 ☰ 排序（排序儲存於此瀏覽器）。</p><div data-speaking-phrases role="status">正在載入字詞…</div>';
+    section.innerHTML='<h2>魔法筆字詞書簽</h2><p>字詞跟隨帳戶同步；拖曳左側 ☰ 排序，右側可直接返回原文或刪除。</p><div data-speaking-phrases role="status">正在載入字詞…</div>';
     host.prepend(section);list=section.querySelector('[data-speaking-phrases]');
+    list.addEventListener('click',event=>{const source=event.target.closest('[data-open-phrase-source]');if(source){const row=rows[Number(source.dataset.openPhraseSource)];if(row&&!openSource?.(sourceHref(row.href)))notify('未能開啟原文，請再試一次。','error');return;}const remove=event.target.closest('[data-delete-phrase]');if(remove)removePhrase(Number(remove.dataset.deletePhrase),remove);});
     list.addEventListener('keydown',event=>{ const grip=event.target.closest('[data-grip]');if(!grip||!['ArrowUp','ArrowDown'].includes(event.key))return;event.preventDefault();move(Number(grip.dataset.grip),Number(grip.dataset.grip)+(event.key==='ArrowUp'?-1:1)); });
     list.addEventListener('pointerdown',event=>{
       const grip=event.target.closest('[data-grip]');if(!grip||event.button!==0)return;event.preventDefault();
