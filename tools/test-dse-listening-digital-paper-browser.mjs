@@ -23,36 +23,46 @@ try {
   await page.locator('.digital-paper-page .pos-guess').first().waitFor();
   await page.waitForFunction(() => [...document.images].filter(image => image.closest('.dse-digital-paper-frame')).every(image => image.complete));
 
-  assert.equal(await page.locator('.digital-paper-page').count(), 8);
+  assert.equal(await page.locator('.digital-paper-page').count(), 1);
+  assert.equal(await page.locator('.digital-paper-page').getAttribute('id'), 'original-paper-3');
   assert.equal(await page.locator('.original-paper-dialog').count(), 0);
   assert.equal(await page.locator('.original-paper-page > img').count(), 0);
-  assert.equal(await page.locator('[data-original-q]').evaluateAll(inputs => new Set(inputs.map(input => input.dataset.originalQ)).size), 58);
-  assert.equal(await page.locator('.digital-paper-exhibit-table img').count(), 2);
-  assert.equal(await page.locator('.digital-paper-james > img').count(), 1);
-  assert.ok(await page.locator('.digital-paper-exhibit-table img').evaluateAll(images => images.every(image => image.naturalWidth >= 1000)));
-  assert.ok(await page.locator('.digital-paper-james > img').evaluate(image => image.naturalWidth >= 1000));
+  assert.equal(await page.locator('[data-original-q]').evaluateAll(inputs => new Set(inputs.map(input => input.dataset.originalQ)).size), 15);
+  assert.equal(await page.locator('[data-dse-reveal]').count(), 15);
+  assert.equal(await page.locator('[data-dse-digital-answer-dock]').count(), 0);
+  assert.ok(await page.locator('.digital-paper-translation').count() >= 20);
+  assert.equal(await page.locator('[data-dse-toggle-question-zh]').count(), 0);
+  const firstAnswerDistance = await page.locator('[data-dse-answer-q="1"]').evaluate(input => {
+    const button = input.closest('p')?.querySelector('[data-dse-reveal="1"]');
+    return button ? Math.abs(button.getBoundingClientRect().left - input.getBoundingClientRect().right) : Infinity;
+  });
+  assert.ok(firstAnswerDistance < 220, `answer button too far from Q1: ${firstAnswerDistance}`);
+  const firstEnglish = page.locator('.digital-paper-task-one h3').first();
+  const firstChinese = firstEnglish.locator('xpath=following-sibling::*[1]');
+  assert.ok(await firstChinese.evaluate(node => node.classList.contains('digital-paper-translation')));
+  assert.equal(await firstChinese.getAttribute('lang'), 'zh-Hant');
 
-  const clipping = await page.locator('.digital-paper-page').evaluateAll(pages => pages.map((paper, index) => ({
-    page: index + 1,
-    scrollHeight: paper.scrollHeight,
-    clientHeight: paper.clientHeight
-  })).filter(item => item.scrollHeight > item.clientHeight + 2));
-  assert.deepEqual(clipping, []);
-  const answerCollisions = await page.locator('.digital-paper-page').evaluateAll(pages => pages.flatMap((paper, index) => {
-    const footerTop = paper.querySelector('footer').getBoundingClientRect().top;
-    const answerBottom = Math.max(...[...paper.querySelectorAll('[data-original-q]')].map(input => input.getBoundingClientRect().bottom), -Infinity);
-    return answerBottom > footerTop - 8 ? [{page: index + 1, answerBottom, footerTop}] : [];
-  }));
-  assert.deepEqual(answerCollisions, []);
-
-  for (let number = 1; number <= 8; number += 1) {
-    await page.locator(`[data-dse-paper-page]`).selectOption(String(number));
-    const expectedTask = ({3: 1, 4: 2, 5: 3, 6: 3, 7: 4, 8: 4})[number];
-    if (expectedTask) assert.match(await page.locator('[data-check-dse-task]').textContent(), new RegExp(`Task ${expectedTask}`));
-    await page.locator(`#original-paper-${number}`).screenshot({path: `${output}/page-${number}.png`});
+  for (const [task, expectedPages, firstQuestion, lastQuestion] of [[1,[3],1,15],[2,[4],16,31],[3,[5,6],32,47],[4,[7,8],48,58]]) {
+    if (task !== 1) await page.locator(`[data-dse-task-tab="${task}"]`).click();
+    await page.locator(`#original-paper-${expectedPages[0]}`).waitFor();
+    assert.equal(await page.locator('.digital-paper-page').count(), expectedPages.length);
+    assert.deepEqual(await page.locator('.digital-paper-page').evaluateAll(nodes => nodes.map(node => Number(node.id.replace('original-paper-','')))), expectedPages);
+    const questions = await page.locator('[data-original-q]').evaluateAll(inputs => [...new Set(inputs.map(input => Number(input.dataset.originalQ)))].sort((a,b) => a-b));
+    assert.deepEqual(questions, Array.from({length:lastQuestion-firstQuestion+1},(_,index)=>firstQuestion+index));
+    assert.equal(await page.locator('[data-dse-reveal]').count(), lastQuestion-firstQuestion+1);
+    assert.ok(await page.locator('.digital-paper-translation').count() > 0);
+    if (task === 2) {
+      assert.equal(await page.locator('.digital-paper-exhibit-table img').count(), 2);
+      assert.ok(await page.locator('.digital-paper-exhibit-table img').evaluateAll(images => images.every(image => image.naturalWidth >= 1000)));
+    }
+    if (task === 4) assert.ok(await page.locator('.digital-paper-james > img').evaluate(image => image.naturalWidth >= 1000));
+    await page.locator(`#original-paper-${expectedPages[0]}`).screenshot({path: `${output}/task-${task}.png`});
   }
+  assert.equal(await page.locator('.digital-paper-exhibit-table img').count(), 0);
+  assert.equal(await page.locator('.digital-paper-james > img').count(), 1);
+  assert.ok(await page.locator('.digital-paper-james > img').evaluate(image => image.naturalWidth >= 1000));
   assert.deepEqual(errors, []);
-  console.log('2016 digitised paper browser: default inline view, eight unclipped pages, 58 controls, high-resolution illustrations and scan-free layout passed.');
+  console.log('2016 digitised paper browser: four separate tasks, inline Paper 3-style Chinese and per-question answer controls passed.');
 } finally {
   await browser.close();
 }

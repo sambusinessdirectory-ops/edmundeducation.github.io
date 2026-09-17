@@ -1,12 +1,12 @@
-import { restoreOriginalAnswers, saveOriginalAnswers } from './dse-listening-original-paper.mjs?v=20260916-default1';
-import { render2016DigitalPaper } from './dse-listening-2016-paper-layout.mjs?v=20260916-default1';
+import { restoreOriginalAnswers, saveOriginalAnswers } from './dse-listening-original-paper.mjs?v=20260917-inline-tasks1';
+import { render2016DigitalPaper } from './dse-listening-2016-paper-layout.mjs?v=20260917-inline-tasks1';
 import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-phoebe2';
 import { createListeningTrophyProgress } from './listening-trophy-progress.mjs?v=20260915-companions1';
 import { mountFloatingWindow } from './floating-window.mjs?v=20260911';
 import { mountListeningTypes } from './listening-question-types.mjs?v=20260911';
 import { createListeningStudy } from './listening-study.js?v=20260904-guide1';
 import { safeBookmarkHref } from './listening-study-core.mjs?v=20260904-guide1';
-import { createDseStudy, getDseGuide, hasDseGuide, loadDseGuide, dseGuideFailed, dseAnswerReplayStart } from './dse-listening-study.mjs?v=20260916-digital-default1';
+import { createDseStudy, getDseGuide, hasDseGuide, loadDseGuide, dseGuideFailed, dseAnswerReplayStart } from './dse-listening-study.mjs?v=20260917-inline-tasks1';
 import { loadPractice } from './listening-practice-loader.mjs?v=20260827-import1';
 import { answerTokens, nativeBlock, questionNumbers, handleNativeInput, handleMazeClick } from './dse-listening-question-ui.mjs?v=20260904-nativequestions1';
 import { mountListeningSearch } from './listening-search.mjs?v=20260904-archiveguides1';
@@ -541,25 +541,19 @@ const DSE_2016_TASK_PAGES = Object.freeze({1: [3], 2: [4], 3: [5, 6], 4: [7, 8]}
 
 function render2016PaperWorkspace(task) {
   const guideReady = Boolean(getDseGuide(2016));
-  const options = [
-    [1, '封面'], [2, '說明'], [3, 'Task 1'], [4, 'Task 2'],
-    [5, 'Task 3 · 1'], [6, 'Task 3 · 2'], [7, 'Task 4 · 1'], [8, 'Task 4 · 2']
-  ];
+  const pageLabels = {3: 'Task 1', 4: 'Task 2', 5: 'Task 3 · 1', 6: 'Task 3 · 2', 7: 'Task 4 · 1', 8: 'Task 4 · 2'};
+  const options = DSE_2016_TASK_PAGES[task.number].map(number => [number, pageLabels[number]]);
   return `<section class="dse-digital-paper-frame" aria-label="2016 DSE 數碼原卷作答">
     <header class="dse-digital-paper-toolbar">
-      <div><strong>2016 DSE · 數碼原卷作答</strong><small>預設作答版面 · Default view</small></div>
-      <label>頁面<select data-dse-paper-page>${options.map(([number, label]) => `<option value="${number}"${number === state.dse2016Page ? ' selected' : ''}>${label}</option>`).join('')}</select></label>
+      <div><strong>2016 DSE · Task ${task.number} · 數碼原卷作答</strong><small>每個 Task 獨立顯示 · Default view</small></div>
+      <label${options.length === 1 ? ' hidden' : ''}>頁面<select data-dse-paper-page>${options.map(([number, label]) => `<option value="${number}"${number === state.dse2016Page ? ' selected' : ''}>${label}</option>`).join('')}</select></label>
       <label>大小<select data-dse-paper-zoom>${[1, 1.25, 1.5, 2].map(zoom => `<option value="${zoom}"${zoom === state.dse2016Zoom ? ' selected' : ''}>${Math.round(zoom * 100)}%</option>`).join('')}</select></label>
       <button class="primary-button" type="button" data-check-dse-task${guideReady ? '' : ' disabled'}>檢查 Task ${task.number} 答案</button>
       <button class="secondary-button" type="button" data-toggle-dse-layout>選用自訂練習版 · Optional</button>
     </header>
-    <p class="dse-digital-paper-help">直接在原卷版面輸入答案。每個文字答案旁可填寫 POS 詞性預測；下方可逐題查看答案、解析及錄音位置。</p>
+    <p class="dse-digital-paper-help">直接在原卷版面輸入答案。中文翻譯緊貼每段英文；「看答案」及解析按鈕就在相應題目旁。</p>
     <output class="dse-digital-paper-score" data-dse-paper-score hidden></output>
-    <div class="dse-digital-paper-scroll"><div class="original-paper-pages dse-paper-sheet dse-digital-paper-pages" style="--paper-zoom:${state.dse2016Zoom}">${render2016DigitalPaper(state.dseAnswers)}</div></div>
-    <section class="dse-digital-answer-panel" aria-labelledby="dse-digital-answer-title">
-      <div><p class="eyebrow">STUDY TOOLS</p><h3 id="dse-digital-answer-title">Task ${task.number} 答案與解析</h3><p>先按「檢查答案」，或逐題顯示參考答案並打開解析。</p></div>
-      <div class="dse-digital-answer-dock" data-dse-digital-answer-dock></div>
-    </section>
+    <div class="dse-digital-paper-scroll"><div class="original-paper-pages dse-paper-sheet dse-digital-paper-pages" style="--paper-zoom:${state.dse2016Zoom}">${render2016DigitalPaper(state.dseAnswers, task.number)}</div></div>
   </section>`;
 }
 
@@ -576,12 +570,6 @@ function mount2016PaperWorkspace() {
   };
   pageSelect.onchange = () => {
     state.dse2016Page = Number(pageSelect.value) || 3;
-    const pageTask = ({3: 1, 4: 2, 5: 3, 6: 3, 7: 4, 8: 4})[state.dse2016Page];
-    if (pageTask && pageTask !== state.dseTask) {
-      updateRoute('dse', 0, 0, 2016, pageTask);
-      renderDseTask(pageTask);
-      return;
-    }
     goToPage('smooth');
   };
   zoomSelect.onchange = () => {

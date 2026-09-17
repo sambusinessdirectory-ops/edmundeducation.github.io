@@ -105,20 +105,19 @@ try {
  }
  // The digitised paper uses semantic layout, reconstructed illustrations and actual input controls.
  await page.evaluate(async()=>{const m=await import('./dse-listening-original-paper.mjs');window.paperAnswers=new Map();await m.openOriginalPaper({answers:window.paperAnswers,owner:'test-student',task:1});});
- await page.locator('[data-original-q="1"]').waitFor();assert.equal(await page.locator('.original-paper-page').count(),8);
- assert.equal(await page.locator('.digital-paper-page').count(),8);
+ await page.locator('[data-original-q="1"]').waitFor();assert.equal(await page.locator('.original-paper-page').count(),1);
+ assert.equal(await page.locator('.digital-paper-page').count(),1);
  assert.equal(await page.locator('.original-paper-page > img').count(),0);
- assert.equal(await page.locator('.digital-paper-exhibit-table img').count(),2);
- assert.equal(await page.locator('.digital-paper-james > img').count(),1);
- assert.equal(await page.locator('[data-original-q]').evaluateAll(xs=>new Set(xs.map(x=>x.dataset.originalQ)).size),58);
+ assert.equal(await page.locator('.digital-paper-page').getAttribute('id'),'original-paper-3');
+ assert.equal(await page.locator('[data-original-q]').evaluateAll(xs=>new Set(xs.map(x=>x.dataset.originalQ)).size),15);
+ assert.ok(await page.locator('.digital-paper-translation').count()>20);
  await page.locator('[data-original-q="1"]').fill('Space Invaders');
  await page.locator('[data-original-q="10"][value=A]').check();
- await page.locator('[data-original-q="40"][value=A]').check();await page.locator('[data-original-q="40"][value=C]').check();
- assert.equal(await page.evaluate(()=>window.paperAnswers.get(40)),'A,C');
- await page.locator('[data-paper-page]').selectOption('3');await page.screenshot({path:`${output}/listening-original-task1.png`});
- for(const n of ['4','5','6','7','8']){await page.locator('[data-paper-page]').selectOption(n);await page.screenshot({path:`${output}/listening-original-page-${n}.png`});}
+ assert.deepEqual(await page.locator('[data-paper-page] option').allTextContents(),['Task 1']);
+ assert.equal(await page.locator('[data-paper-page]').isHidden(),true);
+ await page.screenshot({path:`${output}/listening-original-task1.png`});
  await page.locator('[data-paper-close]').click();
  assert.equal(await page.evaluate(async()=>{const m=await import('./dse-listening-original-paper.mjs');const map=new Map();m.restoreOriginalAnswers('test-student',map);return map.get(1);}), 'Space Invaders');
  assert.equal(await page.evaluate(async()=>{const m=await import('./dse-listening-original-paper.mjs');const map=new Map();m.restoreOriginalAnswers('another-student',map);return map.size;}),0);
- assert.deepEqual(errors,[]);console.log('All five mock modes: saved notes, drag, four corners and restore passed. Crisp digital paper: 8 semantic pages, 58 questions, reconstructed illustrations, controls, persistence and account isolation passed.');
+ assert.deepEqual(errors,[]);console.log('All five mock modes passed. Task-scoped digital paper: inline translation, 15 Task 1 questions, controls, persistence and account isolation passed.');
 } finally {await browser.close();}

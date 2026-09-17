@@ -9,7 +9,7 @@ const out=process.env.DSE_QA_OUTPUT || '/private/tmp/dse-2021-guide-ui';fs.mkdir
 // Actual portal HTML/renderers. Only startup/auth/network are replaced in this
 // isolated fixture: no student account, credentials or production writes.
 const html=fs.readFileSync(path.join(root,'listening-system.html'),'utf8').replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'').replace('</body>',`<script src="/__qa-config.js"></script>${['listening-system-catalog.js','dse-listening-2021-transcript.js','dse-listening-2021-data.js','dse-listening-2016-transcript.js','dse-listening-2016-data.js'].map(file=>`<script src="/${file}"></script>`).join('')}<script type="module" src="/__qa-system.js"></script></body>`);
-const js=fs.readFileSync(path.join(root,'listening-system.js'),'utf8').replace(/initialise\(\);\s*$/,`window.dseQA={state,open:openDseYear,section:openSection,render:renderDseTask,calls:[]};state.user={id:'qa',name:'QA'};state.token='isolated-qa';state.supabase={auth:{getSession:async()=>({data:{session:{user:{id:'qa'}}}})},rpc:async(name,args)=>{window.dseQA.calls.push({name,args});return {data:[],error:null};}};showView('dse');renderDseYearGrid();`);
+const js=fs.readFileSync(path.join(root,'listening-system.js'),'utf8').replace(/\ninitialise\(\);/,`\nwindow.dseQA={state,open:openDseYear,section:openSection,render:renderDseTask,calls:[]};state.user={id:'qa',name:'QA'};state.token='isolated-qa';state.supabase={auth:{getSession:async()=>({data:{session:{user:{id:'qa'}}}})},rpc:async(name,args)=>{window.dseQA.calls.push({name,args});return {data:[],error:null};}};showView('dse');renderDseYearGrid();`);
 let guideRequests=0;
 const server=http.createServer((req,res)=>{
  const pathname=new URL(req.url,'http://localhost').pathname;

@@ -5,6 +5,14 @@ import {render2016DigitalPaper} from '../dse-listening-2016-paper-layout.mjs';
 const html = render2016DigitalPaper(new Map());
 assert.equal((html.match(/class="original-paper-page digital-paper-page/g) || []).length, 8);
 assert.doesNotMatch(html, /page-[1-8]\.webp|paper\.json|original-paper-text/);
+assert.ok((html.match(/class="digital-paper-translation"/g) || []).length > 60);
+
+for (const [task, pages, first, last] of [[1,[3],1,15],[2,[4],16,31],[3,[5,6],32,47],[4,[7,8],48,58]]) {
+  const taskHtml = render2016DigitalPaper(new Map(), task);
+  assert.equal((taskHtml.match(/class="original-paper-page digital-paper-page/g) || []).length, pages.length);
+  assert.deepEqual([...taskHtml.matchAll(/id="original-paper-(\d+)"/g)].map(match => Number(match[1])), pages);
+  assert.deepEqual([...new Set([...taskHtml.matchAll(/data-original-q="(\d+)"/g)].map(match => Number(match[1])))].sort((a,b)=>a-b), Array.from({length:last-first+1},(_,index)=>first+index));
+}
 
 const questionNumbers = [...html.matchAll(/data-original-q="(\d+)"/g)].map(match => Number(match[1]));
 const studyQuestionNumbers = [...html.matchAll(/data-dse-answer-q="(\d+)"/g)].map(match => Number(match[1]));

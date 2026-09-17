@@ -15,10 +15,13 @@ try{
  await page.goto(`${base}/listening-system.html?section=dse&year=2016&task=1`,{waitUntil:'domcontentloaded'});
  await page.locator('.dse-digital-paper-frame').waitFor();
  assert.equal(await page.locator('.original-paper-dialog').count(),0);
- assert.equal(await page.locator('.digital-paper-page').count(),8);
+ assert.equal(await page.locator('.digital-paper-page').count(),1);
+ assert.equal(await page.locator('.digital-paper-page').getAttribute('id'),'original-paper-3');
  await page.locator('[data-dse-answer-q="1"]').fill('Ping Pong');
  await page.locator('[data-dse-answer-q="10"][value=B]').check();
- await page.locator('[data-dse-digital-answer-dock]').waitFor();
+ await page.locator('[data-dse-reveal="1"]').waitFor();
+ assert.equal(await page.locator('[data-dse-digital-answer-dock]').count(),0);
+ assert.ok(await page.locator('.digital-paper-translation').count()>20);
  await page.locator('.digital-paper-page .pos-guess').first().waitFor();
  await page.locator('[data-check-dse-task]').click();
  assert.match(await page.locator('[data-dse-paper-score]').textContent(),/1 \/ 15/);
