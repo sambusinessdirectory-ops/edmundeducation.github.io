@@ -105,10 +105,14 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
     }).join('')}</div>`;
     document.title=`一詞多義練習 · ${lessonName(lesson)} | Professional English`;
   }
+  function creditCorrectQuestions(){
+    if(!ownsPage()||!word||!quiz||!attempt)return;
+    for(const [item,answer] of Object.entries(quiz.state.correctAnswers))
+      record({kind:'polysemy',exercise:`lesson-${lesson}:${word.id}`,attempt,item,answer},owner);
+  }
   function awardCompletion(){
     if(!ownsPage()||!word||!quiz||quiz.state.correctCount!==word.questions.length||awarded)return;
     stopStudy();awarded=true;completedAt=completedAt||Date.now();
-    record({kind:'polysemy',exercise:`lesson-${lesson}:${word.id}`,attempt,item:'word',answers:quiz.state.correctAnswers},owner);
     progress[word.id]={completedAt,rounds:quiz.state.round};
     try{localStorage.setItem(progressKey(owner,lesson),JSON.stringify(progress));}catch{}
     saveState(completeKey(word),progress[word.id],owner);
@@ -163,7 +167,7 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
     if(!redo&&!saved&&progress[chosen.id]){quiz=null;completedView();focusHeading();return;}
     quiz=valid&&!redo?restored:createPolysemyQuiz(chosen);attempt=valid&&!redo?saved.attempt:crypto.randomUUID();completedAt=valid&&!redo&&Number.isFinite(saved.completedAt)?saved.completedAt:null;
     if(quiz.state.correctCount<chosen.questions.length)stopStudy=startStudy('polysemy',`lesson-${lesson}:${chosen.id}`);
-    render();persist();focusHeading();
+    creditCorrectQuestions();render();persist();focusHeading();
   }
   function openWord(id,options){opening=restoreWord(id,options);return opening;}
   page.addEventListener('click',event=>{
@@ -176,6 +180,7 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
     }
     else if(button.matches('[data-poly-answer]')&&quiz&&!loading){
       const correct=quiz.answer(button.dataset.polyAnswer);if(correct===null)return;stopStudy.progress?.();
+      if(correct){const q=quiz.state.question;record({kind:'polysemy',exercise:`lesson-${lesson}:${word.id}`,attempt,item:q.id,answer:q.answer},owner);}
       persist();answerFeedback();awardCompletion();page.querySelector('[data-poly-next]')?.focus();
       if(correct)document.dispatchEvent(new CustomEvent('professional-card-marked',{detail:{mark:'green'}}));
     }

@@ -1,6 +1,6 @@
 import {bindLiveSearch} from './search.mjs?v=20260916-ui-polish1';
 import {materialsPage} from './reader.mjs?v=20260917-controls1';
-import {feedbackPage,recordsPage} from './community.mjs?v=20260916-ui-polish1';
+import {feedbackPage,recordsPage} from './community.mjs?v=20260917-poly-question1';
 import {session,rpc,bookmarks,saveState,getCached,savedStates,loadPreferences,fontControl} from './learning-state.mjs?v=20260916-ui-polish1';
 import {escapeHtml as esc,searchContent,sourceLabel,playlistItems} from './library-core.mjs?v=20260916-ui-polish1';
 const json=async path=>{const r=await fetch(path);if(!r.ok)throw Error('資料暫時未能載入，請重試。');return r.json();};

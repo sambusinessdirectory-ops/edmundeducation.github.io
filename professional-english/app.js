@@ -1,6 +1,6 @@
 import {mountCoursePhoto} from './course-photo.mjs?v=20260917-photos3';
-import {mountLearningHistory} from './learning-history.mjs?v=20260916-ui-polish1';
-import {mountAssessment,mountTeam,mountHighAttempts} from './community.mjs?v=20260916-ui-polish1';
+import {mountLearningHistory} from './learning-history.mjs?v=20260917-poly-question1';
+import {mountAssessment,mountTeam,mountHighAttempts} from './community.mjs?v=20260917-poly-question1';
 import {lessonSort} from './community-core.mjs?v=20260916-ui-polish1';
 import {exportCardsPDF} from './card-export.mjs?v=20260916-ui-polish1';
 import {mountLibraryHome} from './library-home.mjs?v=20260916-ui-polish1';
@@ -52,7 +52,7 @@ function PC({token:e,decks:a}){
  return (0,f.jsxs)('div',{className:"course-dashboards",children:[
   (0,f.jsxs)('section',{className:'course-dashboard',children:[
    (0,f.jsxs)('div',{className:'course-dashboard-heading',children:[(0,f.jsx)('h3',{children:l('Learning progress')}),(0,f.jsx)(zC,{value:r,onChange:s,t:l})]}),
-   (0,f.jsxs)('div',{className:'learning-summary',children:[(0,f.jsx)('strong',{children:summary?L:'…'}),(0,f.jsxs)('span',{children:['累積完成題目 · Questions completed',(0,f.jsx)('small',{children:`字卡 ${summary?.cards||0} · 填充 ${summary?.blanks||0} · 詞語 ${summary?.words||0}`})]})]}),
+   (0,f.jsxs)('div',{className:'learning-summary',children:[(0,f.jsx)('strong',{children:summary?L:'…'}),(0,f.jsxs)('span',{children:['累積完成題目 · Questions completed',(0,f.jsx)('small',{children:`字卡 ${summary?.cards||0} · 填充 ${summary?.blanks||0} · 一詞多義 ${summary?.words||0} 題`})]})]}),
    error&&(0,f.jsx)('p',{role:'status',children:'進度暫時未能更新，正在重試。'}),
    (0,f.jsx)(EdmundLearningHistory,{token:e,courseId:course,daily:summary?.daily,range:r}),
    (0,f.jsxs)('div',{className:'course-stat-grid',children:[(0,f.jsxs)('a',{className:'learning-stat-link',href:`./library.html?view=records&status=all&course=${course}`,children:[(0,f.jsx)('strong',{children:D}),(0,f.jsx)('span',{children:l('Current card progress')})]}),(0,f.jsxs)('a',{className:'known learning-stat-link',href:`./library.html?view=records&status=green&course=${course}`,children:[(0,f.jsx)('strong',{children:I}),(0,f.jsx)('span',{children:l('Known now')})]}),(0,f.jsxs)('a',{className:'review learning-stat-link',href:`./library.html?view=records&status=red&course=${course}`,children:[(0,f.jsx)('strong',{children:A}),(0,f.jsx)('span',{children:l('Need review now')})]})]})

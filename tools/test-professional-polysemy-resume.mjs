@@ -36,7 +36,7 @@ globalThis.fetch=async(url,options)=>{
   const key=body.p_token+':'+body.p_key;
   if(Object.hasOwn(body,'p_value'))cloud.set(key,structuredClone(body.p_value));value=cloud.get(key)??null;
  }else if(url.endsWith('special_flash_activity')){
-  for(const e of body.p_events)if(e.item==='word')credited.set(body.p_token+':'+e.exercise+':'+e.attempt,e);
+  for(const e of body.p_events)if(e.kind==='polysemy'&&!e.item.startsWith('time:'))credited.set(body.p_token+':'+e.exercise+':'+e.attempt+':'+e.item,e);
   value={accepted:body.p_events.length};
  }
  return {ok:true,json:async()=>value};
@@ -46,7 +46,7 @@ let mounted=mountPolysemyPage({data:lessons[0]});await mounted.ready;
 mounted.page.querySelector(`[data-poly-word="${word.id}"]`).click();await mounted.ready;
 const clickAnswer=id=>mounted.page.querySelector(`[data-poly-answer="${id}"]`).click();
 const next=()=>mounted.page.querySelector('[data-poly-next]').click();
-clickAnswer(word.questions[0].answer);assert.equal(mounted.page.querySelector('progress#poly-word-progress').value,1);next();
+clickAnswer(word.questions[0].answer);await flush();assert.equal(credited.size,1,'first question earns credit before word completion');assert.equal(mounted.page.querySelector('progress#poly-word-progress').value,1);next();
 const wrong=word.senses.find(s=>s.id!==word.questions[1].answer).id;clickAnswer(wrong);
 assert.ok(mounted.page.querySelector(`[data-poly-answer="${word.questions[1].answer}"]`).classList.contains('is-correct'),'correct answer green after wrong selection');
 assert.ok(mounted.page.querySelector(`[data-poly-answer="${wrong}"]`).classList.contains('is-wrong'));next();
@@ -69,7 +69,7 @@ while(!mounted.page.querySelector('.poly-complete')){
  if(mounted.page.querySelector('.poly-toolbar').textContent.includes('第 2 輪'))sawRetry=true;
  clickAnswer(question.answer);next();
 }
-assert.equal(sawRetry,true);await flush();assert.equal(credited.size,1);assert.equal([...credited.values()][0].exercise,`lesson-1:${word.id}`);assert.equal(Object.keys([...credited.values()][0].answers).length,word.questions.length);
+assert.equal(sawRetry,true);await flush();assert.equal(credited.size,word.questions.length);assert.equal([...credited.values()][0].exercise,`lesson-1:${word.id}`);assert.deepEqual(new Set([...credited.values()].map(e=>e.item)),new Set(word.questions.map(q=>q.id)));
 assert.equal(mounted.page.querySelector('progress').value,word.questions.length);mounted.page.querySelector('[data-poly-list]').click();
 assert.ok(mounted.page.querySelector(`[data-poly-word="${word.id}"].is-complete .poly-tile-check`));
 await mounted.openWord(word.id);assert.ok(mounted.page.querySelector('.poly-complete'),'completed selection shows results, not a new attempt');
@@ -92,4 +92,4 @@ const before=credited.size;await mounted.openWord(legacy.id);assert.ok(mounted.p
 mounted.page.querySelector('[data-poly-redo]').click();await mounted.ready;localStorage.setItem('special-flash-session-v1',JSON.stringify(bob));
 mounted.page.querySelector('[data-poly-answer]').click();w.dispatchEvent(new w.Event('pagehide'));mounted.destroy();assert.equal(Object.keys(localStorage).filter(k=>k.startsWith('professional-learning-v2:bob:')).length,0);
 w.close();
-console.log('Passed: all three lessons; valid/stale/corrupt snapshots; exact question, selection, missed-round and UUID resume; cloud/device resume; leave/back/unload guards; green correct answers; unique-question progress; one score per completed word; explicit redo; legacy completion fallback; account isolation.');
+console.log('Passed: all three lessons; valid/stale/corrupt snapshots; exact question, selection, missed-round and UUID resume; cloud/device resume; leave/back/unload guards; green correct answers; unique-question progress; one score per correct question; explicit redo; legacy completion fallback; account isolation.');
