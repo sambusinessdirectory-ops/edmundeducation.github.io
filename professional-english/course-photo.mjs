@@ -1,5 +1,12 @@
-import {rpc,session} from './learning-state.mjs?v=20260916-ui-polish1';
+import {API,PUBLIC_KEY,session} from './learning-state.mjs?v=20260916-ui-polish1';
 import {escapeHtml as esc} from './library-core.mjs?v=20260916-ui-polish1';
+// Photo bodies exceed the browser's 64 KiB keepalive budget. Use a normal
+// foreground request; never route image uploads through the study-event helper.
+async function rpc(name,args={},owner=session()){
+ if(!owner?.token)throw Error('請先登入。');
+ const response=await fetch(`${API}/rest/v1/rpc/special_flash_${name}`,{method:'POST',headers:{apikey:PUBLIC_KEY,'Content-Type':'application/json'},body:JSON.stringify({p_token:owner.token,...args}),signal:AbortSignal.timeout(60000)});
+ const value=await response.json();if(!response.ok)throw Object.assign(Error(value.message||'未能更新照片'),{code:value.code});return value;
+}
 export async function compressPhoto(file){
  if(!file||!/^image\/(jpeg|png|webp|heic|heif)$/i.test(file.type)||file.size>20*1024*1024)throw Error('請選擇 20 MB 以下的照片（JPEG、PNG 或 WebP）。');
  const url=URL.createObjectURL(file),image=new Image();
