@@ -76,6 +76,7 @@ const htmlPages = [
   "news-post.html",
   "phrasal-verb-system.html",
   "poem-english-system.html",
+  "polysemy-lab.html",
   "parent-communication.html",
   "part-of-speech-system.html",
   "precise-language-system.html",

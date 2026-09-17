@@ -1,0 +1,45 @@
+{
+  "id": "/apps/polysemy-lab",
+  "name": "一詞多義學習室｜EdmundEducation",
+  "short_name": "一詞多義",
+  "description": "一詞多義學習室（Polysemy Lab）EdmundEducation 學習系統。",
+  "lang": "zh-Hant-HK",
+  "dir": "ltr",
+  "start_url": "/polysemy-lab.html?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f5ef",
+  "theme_color": "#173e48",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/edmundeducation-logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/icon-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/icons/icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

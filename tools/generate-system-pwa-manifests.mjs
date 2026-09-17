@@ -35,6 +35,7 @@ const shortNames = Object.freeze({
   "false-friends": "同形異義詞", "english-in-shows": "影視英文", "ted-talk-english": "Ted Talk 英文",
   "poem-english": "詩句賞識", "bookmark-directory": "學生書簽總目錄", execution: "執行動力",
   "reading-comprehension": "閱讀理解", "eddie-farm": "Eddie Farm 積分",
+  "polysemy-lab": "一詞多義",
   "excellent-learning": "英文口音"
 });
 assert.deepEqual(Object.keys(shortNames).sort(), systems.map(({ id }) => id).sort(), "every app needs an intentional short name");
@@ -52,8 +53,8 @@ const appNames = Object.freeze({
 });
 
 const customIconApps = new Set(Object.keys(appNames));
-const themeColors = Object.freeze({ "parent-communication": "#72598f", execution: "#221d36", "reading-comprehension": "#153f3a", "excellent-learning": "#10362f" });
-const backgroundColors = Object.freeze({ "parent-communication": "#f3edfb", execution: "#f4f0e9", "reading-comprehension": "#f2f6f3", "excellent-learning": "#f4f2e9" });
+const themeColors = Object.freeze({ "polysemy-lab": "#173e48", "parent-communication": "#72598f", execution: "#221d36", "reading-comprehension": "#153f3a", "excellent-learning": "#10362f" });
+const backgroundColors = Object.freeze({ "polysemy-lab": "#f5f5ef", "parent-communication": "#f3edfb", execution: "#f4f0e9", "reading-comprehension": "#f2f6f3", "excellent-learning": "#f4f2e9" });
 const defaultIcons = Object.freeze([
   { src: "/assets/icons/icon-192x192.png", sizes: "192x192", type: "image/png", purpose: "any" },
   { src: "/assets/icons/edmundeducation-logo-512.png", sizes: "512x512", type: "image/png", purpose: "any" },

@@ -476,5 +476,14 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "name": "英文口音學習系統｜EdmundEducation",
     "shortName": "英文口音",
     "manifest": "/pwa-manifests/excellent-learning.webmanifest"
+  },
+  {
+    "id": "polysemy-lab",
+    "href": "polysemy-lab.html",
+    "zh": "一詞多義學習室",
+    "en": "Polysemy Lab",
+    "name": "一詞多義學習室｜EdmundEducation",
+    "shortName": "一詞多義",
+    "manifest": "/pwa-manifests/polysemy-lab.webmanifest"
   }
 ].map(Object.freeze));
