@@ -6,7 +6,20 @@ import { dseImageSources, root } from './listening/image-sources.mjs';
 import { DSE_IMAGE_ENHANCEMENTS as images } from '../dse-listening-image-manifest.mjs';
 import { upgradeDseImages } from '../dse-listening-images.mjs';
 
-assert.deepEqual(Object.keys(images), dseImageSources(), 'Every active image has an enhancement');
+const sourceManifest = JSON.parse(fs.readFileSync(path.join(root, 'tools/listening/dse-part-a-source-manifest.json')));
+const cleanedPaperImages = new Map(sourceManifest.cleanedPaperIllustrations.map((image) => [image.src, image]));
+for (const [source, image] of cleanedPaperImages) {
+  assert.equal(
+    crypto.createHash('sha256').update(fs.readFileSync(path.join(root, source))).digest('hex'),
+    image.sha256,
+    `${source}: cleaned paper illustration unchanged`
+  );
+}
+assert.deepEqual(
+  Object.keys(images),
+  dseImageSources().filter((source) => !cleanedPaperImages.has(source)),
+  'Every active image is either reconstructed or recorded as a cleaned paper illustration'
+);
 assert.deepEqual(JSON.parse(fs.readFileSync(path.join(root,'assets/dse-listening/reconstructed-v3/manifest.json'))).images, images);
 const prompts=JSON.parse(fs.readFileSync(path.join(root,'tools/listening/reconstruction-prompts.json')));
 for (const [source, image] of Object.entries(images)) {
