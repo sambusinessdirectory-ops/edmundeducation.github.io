@@ -35,10 +35,10 @@ if(engine===chromium){await context.grantPermissions(['microphone']);await page.
 await page.locator('[data-recordings]').click();for(const width of [768,390,320]){await page.setViewportSize({width,height:844});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Recording library fits '+width);}await page.screenshot({path:out+'/recordings-mobile.png',fullPage:true});
 // New modules retain their own ticks, questions and saved runs, with shared dashboards.
 await page.setViewportSize({width:1280,height:900});
-assert.equal(await page.locator('[data-module-select] option').count(),modules.length);
+assert.equal(await page.locator('[data-module]').count(),modules.length);assert.equal(await page.locator('.module-card-grid').evaluate(n=>getComputedStyle(n).gridTemplateColumns.split(' ').length),3);
 const resumed=new Map();
 for(const module of modules.slice(1)){
- await page.locator('[data-module-select]').selectOption(module.id);
+ await page.locator('[data-module="'+module.id+'"]').click();
  assert.equal(await page.locator('.module-heading h1').innerText(),module.word);
  assert.equal(await page.locator('[data-sense]').count(),module.senses.length);
  assert.equal(await page.locator('#directory-progress').evaluate(n=>n.max),module.senses.length);
@@ -52,12 +52,12 @@ for(const module of modules.slice(1)){
  await page.getByText('已儲存至學生帳戶',{exact:true}).waitFor();
  assert.ok(calls.some(c=>c.name==='polysemy_lab_modules_sync'&&c.args.p_events.some(e=>e.module===module.id&&e.kind==='answer'&&e.question===q.id)));
 }
-await page.locator('[data-module-select]').selectOption('work');await page.reload();await page.locator('[data-app]').waitFor({state:'visible'});assert.equal(await page.locator('[data-module-select]').inputValue(),'work');await page.locator('[data-mode=practice]').click();assert.equal(await page.locator('.sentence').innerText(),resumed.get('work'));
+await page.locator('[data-module=work]').click();await page.reload();await page.locator('[data-app]').waitFor({state:'visible'});assert.equal(await page.locator('[data-module=work]').getAttribute('aria-pressed'),'true');await page.locator('[data-mode=practice]').click();assert.equal(await page.locator('.sentence').innerText(),resumed.get('work'));
 await page.locator('[data-recordings]').click();assert.equal(await page.locator('[data-library] select option').count(),83);
 await page.locator('[data-library] input[type=file]').setInputFiles(fileURLToPath(new URL('../polysemy-lab/'+Object.values(JSON.parse(fs.readFileSync(new URL('../polysemy-lab/audio.json',import.meta.url),'utf8')))[0].path,import.meta.url)));await page.locator('[data-library] form button').click();await page.getByText('已儲存至學生帳戶。',{exact:true}).waitFor();assert.ok([...recordings.values()].some(r=>r.module==='work'&&r.question.startsWith('work-')));
-await page.locator('[data-module-select]').selectOption('busy');assert.equal(await page.locator('#directory-progress').evaluate(n=>n.value),1);await page.locator('[data-mode=practice]').click();assert.equal(await page.locator('.sentence').innerText(),resumed.get('busy'));
-await page.locator('[data-module-select]').selectOption('show');assert.equal(await page.locator('#directory-progress').evaluate(n=>n.value),4);
-await page.locator('[data-module-select]').selectOption('immediate');await page.setViewportSize({width:390,height:844});await page.screenshot({path:out+'/new-module-mobile.png',fullPage:true});
+await page.locator('[data-module=busy]').click();assert.equal(await page.locator('#directory-progress').evaluate(n=>n.value),1);await page.locator('[data-mode=practice]').click();assert.equal(await page.locator('.sentence').innerText(),resumed.get('busy'));
+await page.locator('[data-module=show]').click();assert.equal(await page.locator('#directory-progress').evaluate(n=>n.value),4);
+await page.locator('[data-module=immediate]').click();await page.setViewportSize({width:390,height:844});await page.screenshot({path:out+'/new-module-mobile.png',fullPage:true});
 assert.ok(!calls.some(c=>c.name.startsWith('special_flash')),'never calls Professional English login or storage');assert.ok(calls.some(c=>c.name==='flashcard_student_login'));assert.deepEqual(errors,[]);
 const pendingQuestions=JSON.parse(fs.readFileSync(new URL('../polysemy-lab/audio-pending.json',import.meta.url))).questions;
 if(pendingQuestions.length){

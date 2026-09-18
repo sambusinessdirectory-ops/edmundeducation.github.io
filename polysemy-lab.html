@@ -7,7 +7,7 @@
 <meta name="theme-color" content="#173e48"><title>Polysemy Lab · 一詞多義學習室 | EdmundEducation</title>
 <meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Edmund 一詞多義"><meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="manifest" href="/pwa-manifests/polysemy-lab.webmanifest"><link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png"><link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png"><link rel="stylesheet" href="/pwa-ui.css"><script defer src="/pwa-register.js"></script>
-<link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2"><link rel="stylesheet" href="polysemy-lab/style.css?v=20260918-modules1">
+<link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2"><link rel="stylesheet" href="polysemy-lab/style.css?v=20260918-module-cards1">
 </head>
 <body>
 <header class="edmund-system-header"><div class="edmund-system-header__inner">
@@ -22,7 +22,7 @@
 <div data-app hidden>
 <div class="account-line"><p class="eyebrow">65 / POLYSEMY LAB</p><p data-sync role="status" aria-live="polite"></p><button data-sync-retry hidden>重試儲存</button></div>
 <details class="panel dashboard-panel" data-dashboards><summary><span>我的學習進展<small>Questions completed & study time</small></span><span class="expand-label">展開 / 收起</span></summary><div class="dashboard-controls"><p>瀏覽詞義不計入完成題數。每次練習中，同一題答對只計一次。</p><label>時段 <select data-range><option value="7">最近 7 天</option><option value="30">最近 30 天</option><option value="all">全部時間</option></select></label></div><div class="dashboard-grid" data-charts></div><section data-day-detail hidden class="day-detail" aria-live="polite"></section></details>
-<div class="module-selector"><label>選擇單元 <select data-module-select aria-label="選擇單元"></select></label><a data-manual hidden target="_blank" rel="noopener">閱讀完整教材 PDF</a></div><section class="module-heading"><div><p class="eyebrow">MODULE 01 / 詞義與用法</p><h1>show</h1></div><div class="module-numbers"><span><strong>16</strong>詞義與用法</span><span><strong>33</strong>語境練習</span><span><strong>6</strong>每題選項</span></div></section>
+<section class="module-library" aria-labelledby="module-library-title"><div class="module-library-heading"><div><p class="eyebrow">CHOOSE A MODULE</p><h2 id="module-library-title">選擇學習單元</h2><p>每個單元都是一個完整的詞義與語境練習。</p></div><a data-manual hidden target="_blank" rel="noopener">閱讀目前單元完整教材 PDF</a></div><div class="module-card-grid" data-modules></div></section><section class="module-heading"><div><p class="eyebrow">MODULE 01 / 詞義與用法</p><h1>show</h1></div><div class="module-numbers"><span><strong>16</strong>詞義與用法</span><span><strong>33</strong>語境練習</span><span><strong>6</strong>每題選項</span></div></section>
 <nav class="module-tabs" aria-label="學習模式"><button data-mode="directory" aria-pressed="true">詞義總覽 <small>Explore meanings</small></button><button data-mode="practice" aria-pressed="false">開始練習 <small>Practise in context</small></button></nav>
 <section data-directory><div class="directory-heading"><div><h2>把每一種用法，看清楚。</h2><p>點開任何一格查看解釋。可同時展開多格，方便比較。</p></div><button data-collapse>全部收起</button></div><div class="progress-wrap"><label for="directory-progress" data-view-count></label><progress id="directory-progress" max="16" value="0"></progress><small>✓ 已瀏覽只代表打開閱讀，不代表已掌握。</small></div><div class="meaning-grid" data-meanings></div><section class="panel comparison-panel"><p class="eyebrow">LOOK A LITTLE CLOSER</p><h2>相似詞語，怎樣分辨？</h2><div data-comparisons></div><p class="note">以上包括獨立詞義、相近用法、名詞形式及固定片語。部分意思重疊；練習已避開同時合理的競爭選項。</p></section><button class="primary" data-start>開始 / 繼續練習</button></section>
 <section data-practice hidden aria-label="六選一語境練習"></section><section data-library hidden aria-label="我的錄音"></section>
@@ -30,5 +30,5 @@
 </main>
 <footer>EdmundEducation</footer>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.50.3/dist/umd/supabase.min.js" integrity="sha384-hIOJ3C3LfQJBpaQVNahkcvi607jdU2k3LB0MLyIuyXNDsS5aI2xfaQiX+oSmHvTD" crossorigin="anonymous"></script>
-<script src="supabase-config.js"></script><script src="shared-system-nav.js?v=20260911-tools1"></script><script type="module" src="polysemy-lab/app.mjs?v=20260918-modules1"></script>
+<script src="supabase-config.js"></script><script src="shared-system-nav.js?v=20260911-tools1"></script><script type="module" src="polysemy-lab/app.mjs?v=20260918-module-cards1"></script>
 </body></html>
