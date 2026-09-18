@@ -1,0 +1,266 @@
+{
+  "depict-0": {
+    "path": "audio/0bee6af874daaf292bd55a75.mp3",
+    "voice": "american-female",
+    "index": 0,
+    "text": "The ad showed ordinary people in stressful places.",
+    "duration": 3.768,
+    "sourceSha256": "162263f5c3b945e57b816cb62f613b8b9a125101b9646b7efff1ecc745f6f25d"
+  },
+  "depict-2": {
+    "path": "audio/03e1a8267cf40a02fc719d35.mp3",
+    "voice": "british-male",
+    "index": 2,
+    "text": "The documentary showed how people lived during the crisis.",
+    "duration": 4.368,
+    "sourceSha256": "07e8f1fe2840a201eb6a69ca11a877378c85571f0a6365dc05489f0ed0405103"
+  },
+  "present-0": {
+    "path": "audio/1fee9358f9c0539234ccde49.mp3",
+    "voice": "british-female",
+    "index": 3,
+    "text": "Please show me your ID.",
+    "duration": 2.232,
+    "sourceSha256": "cf6a66a29616044e75b5923debb359d028844e236a2b39b71dd231a746be5fe9"
+  },
+  "present-1": {
+    "path": "audio/e8999a123af306fbb83e14ba.mp3",
+    "voice": "american-female",
+    "index": 4,
+    "text": "She showed the manager the damaged equipment.",
+    "duration": 3.072,
+    "sourceSha256": "2709ed456f331f3a65abf8724f268e8a33ff84fcf2f3f5b33c7c59f373fe210a"
+  },
+  "guide-1": {
+    "path": "audio/d69bdbf00ab0f4cc38a3fbe6.mp3",
+    "voice": "british-male",
+    "index": 6,
+    "text": "The receptionist showed us to our seats.",
+    "duration": 3.408,
+    "sourceSha256": "73fea48bed7650bf7299a289ef5a5bdb6e747c4d634e861167a41979ac0a2463"
+  },
+  "demonstrate-0": {
+    "path": "audio/699a8580e5dacdf5f7c6d385.mp3",
+    "voice": "british-female",
+    "index": 7,
+    "text": "Can you show me how this machine works?",
+    "duration": 2.688,
+    "sourceSha256": "6030d479840c9a433363810fa79fe2e54b11ce022da58749e9b74ee16b6780a0"
+  },
+  "demonstrate-1": {
+    "path": "audio/d3adb28ffca0818bd2021039.mp3",
+    "voice": "american-female",
+    "index": 8,
+    "text": "The trainer showed us where to find the emergency exit.",
+    "duration": 3.6,
+    "sourceSha256": "974d3b833e9d2b77992dd48af6a2c13eb48c93b2b5eee39e1072997095eb9382"
+  },
+  "evidence-1": {
+    "path": "audio/a39defbfd096884e20138014.mp3",
+    "voice": "british-male",
+    "index": 10,
+    "text": "The evidence shows that the system failed.",
+    "duration": 3.6,
+    "sourceSha256": "8028932376aa656325d36eb5200206eb3367bcc4c9100dd3025faa3c8b0c08ce"
+  },
+  "display-0": {
+    "path": "audio/a0a258b9389d497c524d5e1d.mp3",
+    "voice": "british-female",
+    "index": 11,
+    "text": "The screen shows the current temperature.",
+    "duration": 2.832,
+    "sourceSha256": "9a5a564a1955baa99f4cb434a2cf32cac06792adc30ba49421ed5c5ce957a6b9"
+  },
+  "display-1": {
+    "path": "audio/3ed7fd49eed50e6552a2d5fc.mp3",
+    "voice": "american-female",
+    "index": 12,
+    "text": "The ticket shows the departure time.",
+    "duration": 2.64,
+    "sourceSha256": "bf3e996e0edb1701226668e30dc951315bd5c0340435045355268c20338e4937"
+  },
+  "express-1": {
+    "path": "audio/16caa68891e0c5b4bfd0ba1b.mp3",
+    "voice": "british-male",
+    "index": 14,
+    "text": "He tried not to show his disappointment.",
+    "duration": 3.408,
+    "sourceSha256": "77ecf8687c79fc7a63fb700dad60a1701eabc7fc478e827bfaa2fee9e2a9fd82"
+  },
+  "ability-0": {
+    "path": "audio/dcff3ce720ce982571b638f9.mp3",
+    "voice": "british-female",
+    "index": 15,
+    "text": "The campaign showed the company\u2019s ability to understand its customers.",
+    "duration": 4.344,
+    "sourceSha256": "39551ab734796de0134249960aa236482e67a485c1dc7b50590d619fab983d32"
+  },
+  "ability-1": {
+    "path": "audio/67ea3f45cc6592bd075302e3.mp3",
+    "voice": "american-female",
+    "index": 16,
+    "text": "Her performance showed real talent.",
+    "duration": 2.568,
+    "sourceSha256": "69f879c93a097b79d7d53b705fc3dab655670a75124db05d8bc79cd1e30d5c0b"
+  },
+  "map-1": {
+    "path": "audio/09e2d8de41c5090f917fa7ab.mp3",
+    "voice": "british-male",
+    "index": 18,
+    "text": "The graph shows a sharp increase in demand.",
+    "duration": 3.6,
+    "sourceSha256": "aaccae69ffe1f00b64b58cfc8be92dcf1db05ed034843c1a4cfa11fa6282392b"
+  },
+  "visible-0": {
+    "path": "audio/b432bd51ae6ef4a2a021ec56.mp3",
+    "voice": "british-female",
+    "index": 19,
+    "text": "The stain shows clearly on the white shirt.",
+    "duration": 2.904,
+    "sourceSha256": "09594e7a695b7f93264a27360711d4e7bea96e384d73957c371c46f52f6b548e"
+  },
+  "visible-1": {
+    "path": "audio/a57dd4c4b717aa6f1009d3dd.mp3",
+    "voice": "american-female",
+    "index": 20,
+    "text": "His tiredness began to show.",
+    "duration": 2.28,
+    "sourceSha256": "c79358194106fb36841247c87d961f85d1e57ac09865b0027bb434d15fb00948"
+  },
+  "screen-1": {
+    "path": "audio/abfade9989a4fd44044e48f0.mp3",
+    "voice": "british-male",
+    "index": 22,
+    "text": "The documentary will be shown on television tonight.",
+    "duration": 4.032,
+    "sourceSha256": "6422285769ca0013f997bdb0e2686a33eb98d1ef63cf4c965c1492518067054a"
+  },
+  "entertainment-0": {
+    "path": "audio/7adda58a6203e178e2a6de8e.mp3",
+    "voice": "british-female",
+    "index": 23,
+    "text": "We watched a comedy show last night.",
+    "duration": 2.712,
+    "sourceSha256": "a541a5acf50a661b739151767b346d37c26cfb2b2648b874113b4b3784f1294b"
+  },
+  "entertainment-1": {
+    "path": "audio/0f154ab884a5799bb4750604.mp3",
+    "voice": "american-female",
+    "index": 24,
+    "text": "The theatre show starts at eight.",
+    "duration": 2.376,
+    "sourceSha256": "25f297950a84918c10fd5e8a4b9a83fd190565c409a8bdb42048467dcf970395"
+  },
+  "exhibition-1": {
+    "path": "audio/d58d7bc71dd40b8bf97bd20f.mp3",
+    "voice": "british-male",
+    "index": 26,
+    "text": "We visited an art show at the gallery.",
+    "duration": 3.264,
+    "sourceSha256": "b9f834fa9a343cffbd954bda9ebaea6e4b4601664f18e7cb0ddbf5e959a0d4de"
+  },
+  "pretence-0": {
+    "path": "audio/c42f2db4fefb7b586dee217a.mp3",
+    "voice": "british-female",
+    "index": 27,
+    "text": "His concern was mostly for show.",
+    "duration": 2.64,
+    "sourceSha256": "caed086c6edc7b503904b4e6b5d38f53745da142df83632cca31e5b610fa5d35"
+  },
+  "pretence-1": {
+    "path": "audio/bd9c1375fe844da5555b60d1.mp3",
+    "voice": "american-female",
+    "index": 28,
+    "text": "The expensive decorations were mainly for show.",
+    "duration": 3.408,
+    "sourceSha256": "e01c63ff9451718fa846ffd89b977b1ba483df762de8e986d5c7059c4abfdd60"
+  },
+  "screening-1": {
+    "path": "audio/0c8196a76a74bc446e022795.mp3",
+    "voice": "british-male",
+    "index": 30,
+    "text": "The first showing of the new collection attracted a large audience.",
+    "duration": 4.752,
+    "sourceSha256": "2f72f02e9655cecf82effdf7b5278ff2e452f5ab7e8cbf2dba5efa3cb26c472d"
+  },
+  "result-0": {
+    "path": "audio/5f1bffac84965102877a2a30.mp3",
+    "voice": "british-female",
+    "index": 31,
+    "text": "The team made a strong showing in the competition.",
+    "duration": 3.12,
+    "sourceSha256": "5aa7b7cdf09801536d31111e591852b57fe7fdd0cd746fdf49525851e0fd6f73"
+  },
+  "result-1": {
+    "path": "audio/a46304ebd1ba2c282fede979.mp3",
+    "voice": "american-female",
+    "index": 32,
+    "text": "The product made a disappointing showing in its first month.",
+    "duration": 3.6,
+    "sourceSha256": "bc6a12677edcc5baeb4835c3ef1b6a7e593f3526936703238b6ece985ff5447c"
+  },
+  "depict-1": {
+    "path": "audio/3cdf704f9d00820e022a741e.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The photograph shows a family sitting around a table.",
+    "duration": 3.288,
+    "sourceSha256": "c0981ad7064c1acabedc4823b6d93b86f57a824ad1b2e010b1cd1fe5a1ce1783"
+  },
+  "guide-0": {
+    "path": "audio/f09407fb0df4646613d12f52.mp3",
+    "voice": "american-male",
+    "index": 5,
+    "text": "I\u2019ll show you the way to the meeting room.",
+    "duration": 2.472,
+    "sourceSha256": "08b617004339facef56f7606c98110fec603dbebba890ecac74c4b523dbf96cf"
+  },
+  "evidence-0": {
+    "path": "audio/93b5ab1f5027758b2e2e4b0e.mp3",
+    "voice": "american-male",
+    "index": 9,
+    "text": "The results show that sales have increased.",
+    "duration": 2.808,
+    "sourceSha256": "1efdd5f622b38f60e5b832c50e50b682e8d469802042ca544c7eeb59ac4bd780"
+  },
+  "express-0": {
+    "path": "audio/a64d5122c1106e206e732ed6.mp3",
+    "voice": "american-male",
+    "index": 13,
+    "text": "She showed great patience with the customer.",
+    "duration": 2.784,
+    "sourceSha256": "37c166c74dda73a0881ca452435094660de896c99cdb653b74d850d98218efc2"
+  },
+  "map-0": {
+    "path": "audio/1002f06257f97c6cbae45eff.mp3",
+    "voice": "american-male",
+    "index": 17,
+    "text": "The map shows the location of the nearest station.",
+    "duration": 2.976,
+    "sourceSha256": "0edacb42d93fedb917e509dfca4cac9f4d3e32a3b338ab75a972ddc9ca856c37"
+  },
+  "screen-0": {
+    "path": "audio/13c44d16b08851799163f77b.mp3",
+    "voice": "american-male",
+    "index": 21,
+    "text": "The film is showing at several cinemas.",
+    "duration": 2.856,
+    "sourceSha256": "46ed8370de1ed18e1ef993d4ebfa2db9b20077bad1912ad9540a37578632a35d"
+  },
+  "exhibition-0": {
+    "path": "audio/272580a43db71c13a3e179bf.mp3",
+    "voice": "american-male",
+    "index": 25,
+    "text": "The company presented its new model at the motor show.",
+    "duration": 3.336,
+    "sourceSha256": "84a4922d0b7a16d086e520c177fc67753f80aa940505bce31f02be1012439cfb"
+  },
+  "screening-0": {
+    "path": "audio/310b839b9edacde93cb2bfc4.mp3",
+    "voice": "american-male",
+    "index": 29,
+    "text": "We booked tickets for the 8 p.m. showing.",
+    "duration": 2.472,
+    "sourceSha256": "c1bd96b47656385bc0b816d620f9565cb36955943f50b5df96082926fca032e4"
+  }
+}

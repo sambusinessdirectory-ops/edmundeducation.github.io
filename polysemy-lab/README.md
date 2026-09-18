@@ -1,6 +1,6 @@
 # Polysemy Lab — homepage card 65
 
-Entry: `/polysemy-lab.html`. Initial module: SHOW, 16 directory entries and 33 questions, exactly six curated options each. The original ad sentence is last. Related/overlapping meanings remain in the reference but are not opposing choices in ambiguous contexts.
+Entry: `/polysemy-lab.html`. Initial module: SHOW, 16 directory entries and 33 questions, exactly six curated options each. Practice order is seeded by each new run UUID, with adjacent identical senses avoided. The reference directory remains in teaching order. Related/overlapping meanings remain in the reference but are not opposing choices in ambiguous contexts.
 
 ## Accounts and progress
 
@@ -14,8 +14,16 @@ The two collapsible dashboards show completed questions and active study time by
 
 ## Verification
 
-- `node tools/test-polysemy-lab.mjs` — catalogue, retry rounds, metrics, PGlite account isolation/expiry, atomic validation, idempotency, permissions.
+- `node tools/test-polysemy-lab.mjs` — catalogue, spaced retry, legacy resume, metrics and private recordings, PGlite account isolation/expiry, atomic validation, idempotency, permissions.
 - `node tools/test-shared-system-nav.mjs` — shared navigation regression.
 - `PROFESSIONAL_QA_PLAYWRIGHT=/path/to/playwright/index.mjs node tools/test-polysemy-lab-browser.mjs [WebKit]` — local preview on port 8633, synthetic accounts and intercepted RPCs, full practice/resume, offline saving, idle clock and responsive layouts. `POLYSEMY_QA_BASE` can select a deployed origin. The SDK stub requires stripping SRI only in the intercepted test HTML; the shipped HTML retains SRI.
 
 Live migration: `20260917015203_polysemy_lab_show.sql`. Existing login functions and Professional English tables are not modified.
+
+## September 18 media and practice update
+
+The replay engine folds saved answers (including legacy ordered runs), preserves completed questions, and shuffles remaining questions. A wrong answer is scheduled after 5–6 intervening answers. If reviews are due together, the oldest due question takes precedence. Near the end, already-correct questions provide the intervening practice; these do not earn extra completion credit. The persisted `round` field is the attempt number for that question. Original question IDs and database uniqueness constraints are unchanged.
+
+`audio.json` maps all 33 question IDs to immutable MP3 files. Voices cycle in manual order: Kokoro af_heart (US female), Aura2 Aries (US male), Kokoro bm_fable (UK male), Kokoro bf_isabella (UK female). The shuffled question retains its assigned voice. All clips have 300 ms leading silence for mobile playback and were checked with independent speech recognition. `tools/generate-polysemy-audio.py` documents reproducible generation with model hash checks and in-memory credentials. Supply the manual-order sentences JSON and the established local model/voices paths. Merge the local/cloud manifest shards into `audio.json`.
+
+`media.mjs` provides click-to-listen, optional recorder and the My Recordings view, including file upload, replay, download and failed-upload retry. `recording.mjs` uses a separate owner-keyed IndexedDB cache. The migration `20260918060607_polysemy_lab_media_shuffle.sql` adds a private, owner-scoped recording RPC with checked audio containers, 2 MB per recording and 100 MB per student. Only the authenticated transport plus a valid homework student token can access it; no public recording URLs exist. Sounds reuse the shared `edmund:answer-result` event.
