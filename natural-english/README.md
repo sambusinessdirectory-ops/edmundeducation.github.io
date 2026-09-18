@@ -10,3 +10,18 @@ Validation: tools/test-natural-english.mjs (PGlite); tools/test-natural-english-
 
 ## Voice standard — 2026-09-18 revision
 Scoop (module 1) retains Aries American male. Starting with module 2, enumerate all model sentences in teaching order, including listening, reveals, recording models and final takeaways. Assign each distinct sentence on its first appearance: American female (Kokoro af_heart, en-us, 0.96), American male (Aura 2 Aries, en-us, 1), British male (Kokoro bm_fable, en-gb, 0.98), British female (Kokoro bf_isabella, en-gb, 1.05), then repeat. Restart the cycle for each module. Repeated sentences and slow playback retain the original voice. Persist sentence IDs, first-appearance indices and voice assignments in the module audio manifest; do not rotate based on clicks or navigation. Generate/verify all four voices using the Polysemy audio pipeline and serve the manifest assets (the current Aries-only endpoint cannot provide the other three voices). No module 2 exists yet; this is a required authoring and release condition for new modules, not a change to Scoop.
+
+## Modules 2–6 release (2026-09-18)
+
+Modules 2–6 follow the same eight-step journey as Scoop and are opened from numbered module cards. The selection cards and the lesson header intentionally show only the Chinese situation; the English target is withheld until the learner answers the opening surprise question.
+
+The module registry is `catalogue.mjs`. Each question ID is globally unique and each event, practice run, recording and progress lookup is module-scoped. The original Scoop endpoint remains available for backward compatibility; the multi-module client uses `natural_english_modules_sync` and `natural_english_modules_recording`.
+
+For this release, the user-approved temporary voice sequence for every new module is:
+
+1. American female
+2. British male
+3. British female
+4. repeat from step 1
+
+The cycle restarts in each module. Repeated sentences reuse their first assigned audio. Scoop retains its existing voice behavior. The source assignment and durations are recorded in `audio/modules-2-6.json`; learner-facing pages do not display technical voice labels.
