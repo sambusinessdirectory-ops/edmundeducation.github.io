@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {renderEmailHtml} from '../email-shared.mjs';
 import {validateEmailDraft} from '../email-preview.mjs';
-import worker,{buildMime,sendGmailJob,processEmailJobs} from '../workers/schedule-system/src/index.js';
+import worker,{buildMime,sendGmailJob,processEmailJobs,runEmailScheduler} from '../workers/schedule-system/src/index.js';
 import {publishedPageContent,visitorRoute,safeDiagnostic} from '../workers/schedule-system/src/email-v2.js';
 
 const job={jobId:'2a1e6a97-8ee2-4667-ad21-dafbc6b00b63',attempt:1,recipientName:'測試 <script>',recipientEmail:'test@example.invalid',senderEmail:'sender@gmail.com',subject:'Edmund 學習提醒',content:'Hello\n<img src=x onerror=alert(1)>',signatureContent:'iVBORw0KGgo=',signatureContentType:'image/png',signatureLink:'https://example.com/signature',attachments:[{filename:'中文 report.pdf',content:'JVBERi0xLjQK',contentType:'application/pdf'}]};
@@ -55,6 +55,24 @@ try{
  mock({networkFailure:true});await assert.rejects(sendGmailJob(env,{...job}),e=>e.uncertain===true);
  mock({tokenStatus:400});await assert.rejects(sendGmailJob(env,{...job}),/invalid_grant/);assert.equal(gmailCalls,0);
  mock({failRecordOnce:true});await processEmailJobs(env,2);assert.equal(gmailCalls,1);assert.equal(finishCalls,2);
+ let schedulerClaimed=false,schedulerFailed=false;
+ globalThis.fetch=async(url,options={})=>{
+  const address=String(url);
+  if(address.includes('/rpc/')){
+   const method=address.split('/').pop(),body=JSON.parse(options.body||'{}');
+   if(method==='classroom_enqueue_notifications')return json({code:'PGRST202',message:'missing function'},404);
+   if(method==='schedule_email_service_claim_job'){schedulerClaimed=true;return json(null);}
+   if(method==='schedule_email_published_hashes')return json({});
+   if(method==='schedule_email_v2_scheduler'){if(body.p_state==='failed')schedulerFailed=true;return json(true);}
+   if(['schedule_email_service_enqueue_due','schedule_email_page_check'].includes(method))return json(true);
+   throw new Error(`Unexpected scheduler RPC ${method}`);
+  }
+  if(address.startsWith('https://edmundeducation.com/'))return new Response('<main>Published page</main>',{status:200});
+  throw new Error(`Unexpected scheduler URL ${address}`);
+ };
+ await runEmailScheduler(env);
+ assert.equal(schedulerClaimed,true,'writing queue is claimed even when the classroom producer fails');
+ assert.equal(schedulerFailed,true,'the auxiliary failure remains visible in scheduler health');
  globalThis.fetch=async()=>{throw new Error('Must not access network');};
  const blocked=await worker.fetch(new Request('https://worker.example/v1/admin/email/templates/1/send-once',{method:'POST'}),env);assert.equal(blocked.status,401);
 }finally{globalThis.fetch=originalFetch;}
