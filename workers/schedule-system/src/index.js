@@ -954,13 +954,23 @@ export async function processEmailJobs(env, maxJobs = 2) {
   return processed;
 }
 
-async function runEmailScheduler(env) {
+export async function runEmailScheduler(env) {
   try {
     await rpc(env,'schedule_email_v2_scheduler',{p_state:'started',p_error:null});
     await rpc(env, "schedule_email_service_enqueue_due", {});
-    await rpc(env,'classroom_enqueue_notifications',{});
+    let classroomError = null;
+    try {
+      await rpc(env,'classroom_enqueue_notifications',{});
+    } catch (error) {
+      classroomError = error;
+      console.error("Classroom notification enqueue failed", safeDiagnostic(error));
+    }
+    // Existing writing-submission jobs must still be delivered when an
+    // unrelated producer fails. Report that producer failure after the queue
+    // and page checks have had their chance to run.
     await processEmailJobs(env, 3);
     await checkPageUpdates(env,rpc,sha256Hex);
+    if (classroomError) throw classroomError;
     await rpc(env,'schedule_email_v2_scheduler',{p_state:'complete',p_error:null});
   } catch (error) {
     console.error("Email scheduler failed", safeDiagnostic(error));
