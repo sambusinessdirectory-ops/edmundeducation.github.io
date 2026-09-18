@@ -32,23 +32,17 @@
       "index": 0,
       "duration": 1.488
     },
-    "This soda is flat. Oh, sorry about that.": {
-      "path": "natural-english/audio/flat-02-9c514bd81b29ee1abc8a.mp3",
+    "This soda is flat.": {
+      "path": "natural-english/audio/flat-02-b205dc8082f480dc8263.mp3",
       "voice": "british-male",
       "index": 1,
-      "duration": 3.768
-    },
-    "This soda is flat.": {
-      "path": "natural-english/audio/flat-03-63cfd48329cc24a3ba82.mp3",
-      "voice": "british-female",
-      "index": 2,
-      "duration": 2.064
+      "duration": 1.752
     },
     "I'll get you a new one.": {
-      "path": "natural-english/audio/flat-04-e623e98dcd113da64f7a.mp3",
-      "voice": "american-female",
-      "index": 3,
-      "duration": 1.848
+      "path": "natural-english/audio/flat-03-ec018d266f0dd08615d1.mp3",
+      "voice": "british-female",
+      "index": 2,
+      "duration": 2.016
     }
   },
   "ready": {

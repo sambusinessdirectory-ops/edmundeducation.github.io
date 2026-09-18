@@ -2,7 +2,7 @@ import * as scoop from './scoop.mjs';
 const mc=(id,prompt,options,answer,explanation)=>({id,type:'mc',prompt,options,answers:[answer],explanation});
 const blank=(id,prompt,before,after,answers,hint)=>({id,type:'blank',prompt,before,after,answers:Array.isArray(answers)?answers:[answers],hint,explanation:`答案是 ${Array.isArray(answers)?answers[0]:answers}。${hint}`});
 const lesson=(data)=>({...data,questionMap:new Map(data.questions.map(q=>[q.id,q]))});
-const scoopLesson=lesson({id:'scoop',number:1,slug:'scoop',titleZh:'一球、兩球，怎麼說？',titleEn:'scoop',kicker:'雪糕店 · 美式日常點餐',heading:'一球、兩球，scoop!',summary:'點雪糕時，學會自然地說份量、口味和杯或甜筒。',surpriseLabel:'你可能會這樣說…',steps:scoop.steps,questions:scoop.questions,takeaways:['Two scoops, please.','Can I get two scoops of vanilla ice cream, please?','In a cup, please.'],completionTitle:'你可以自己點一份雪糕了！'});
+const scoopLesson=lesson({id:'scoop',number:1,slug:'scoop',titleZh:'一球、兩球，怎麼說？',titleEn:'scoop',heading:'一球、兩球，scoop!',summary:'點雪糕時，學會自然地說份量、口味和杯或甜筒。',surpriseLabel:'你可能會這樣說…',steps:scoop.steps,questions:scoop.questions,takeaways:['Two scoops, please.','Can I get two scoops of vanilla ice cream, please?','In a cup, please.'],completionTitle:'你可以自己點一份雪糕了！'});
 const boxQuestions=[
  mc('box-spot','吃不完想帶走，哪一句最自然？',['Can I get a box?','Please close my food.','Please make this outside.'],'Can I get a box?','在美國餐廳，通常直接向店員要 a box。'),
  mc('box-listen','客人想做甚麼？',['想再點一份食物','想拿盒子裝吃不完的食物','想結帳','想換枱'],'想拿盒子裝吃不完的食物','Can I get a box? 是想拿盒子裝剩下的食物。'),
@@ -39,7 +39,7 @@ const flatQuestions=[
 ];
 const flatSteps=[
  {id:'flat-surprise',label:'發現驚喜',title:'汽水沒有氣，不用說 no gas',intro:'直譯可能聽得明，但 native speakers 通常用一個簡單形容詞。',sentence:'It has no gas.',questions:['flat-spot'],reveal:'汽水或其他有氣飲品失去氣泡時，通常說 It’s flat。flat 在這裡不是「平的」。',revealItems:[['沒有氣','flat'],['不是空杯','not empty']],model:"It's flat.",zh:'它沒有氣了。'},
- {id:'flat-listen',label:'聽懂客人',title:'這杯汽水有甚麼問題？',intro:'聽句子，分辨甜度、溫度、份量和氣泡。',model:'This soda is flat. Oh, sorry about that.',zh:'這杯汽水沒有氣。噢，真的不好意思。',questions:['flat-listen']},
+ {id:'flat-listen',label:'聽懂客人',title:'這杯汽水有甚麼問題？',intro:'聽句子，分辨甜度、溫度、份量和氣泡。',model:'This soda is flat.',zh:'這杯汽水沒有氣。',questions:['flat-listen']},
  {id:'flat-choose',label:'選對一句',title:'選出真正的問題',intro:'杯內還有汽水，只是完全沒有氣。',questions:['flat-choose']},
  {id:'flat-blanks',label:'自己填空',title:'由 flat 寫到完整句',intro:'分清 soda 與 flat 在句中的位置。',questions:['flat-blank1','flat-blank2','flat-blank3','flat-blank4']},
  {id:'flat-speak',label:'開口練習',title:'換你說一次',intro:'先聽示範，再選擇錄下自己朗讀。',model:'This soda is flat.',zh:'這杯汽水沒有氣。',recording:'phrase',questions:[]},
@@ -112,15 +112,15 @@ const dressingSteps=[
 ];
 export const modules=[
  scoopLesson,
- lesson({id:'box',number:2,slug:'box',titleZh:'剩菜打包',titleEn:'Can I get a box?',kicker:'餐廳 · 吃不完帶走',heading:'剩菜打包，box!',summary:'吃不完時自然地要盒子，也學會再要一個袋。',surpriseLabel:'你可能會這樣說…',steps:boxSteps,questions:boxQuestions,takeaways:['Can I get a box?','Can I get a bag, too?'],completionTitle:'你可以自然地把剩下的食物帶走了！'}),
- lesson({id:'flat',number:3,slug:'flat',titleZh:'汽水沒有氣',titleEn:"It's flat.",kicker:'餐廳 · 說明飲品問題',heading:'汽水沒有氣，flat!',summary:'分清 flat 與 empty，自然地請店員處理沒有氣的汽水。',surpriseLabel:'你可能會這樣說…',steps:flatSteps,questions:flatQuestions,takeaways:["It's flat.",'This soda is flat.',"I'll get you a new one."],completionTitle:'你可以自然地說明汽水沒有氣了！'}),
- lesson({id:'ready',number:4,slug:'ready-to-order',titleZh:'我們可以點餐了',titleEn:"We're ready to order.",kicker:'餐廳 · 告訴店員可以開始',heading:'準備好點餐，ready!',summary:'準備好或還需要時間，都能自然地回答店員。',surpriseLabel:'你可能會這樣說…',steps:readySteps,questions:readyQuestions,takeaways:["We're ready to order.",'We need a few more minutes.'],completionTitle:'你可以自然地告訴店員是否準備好點餐了！'}),
- lesson({id:'club',number:5,slug:'club-sandwich',titleZh:'公司三文治',titleEn:'club sandwich',kicker:'餐廳 · 香港叫法與英文名稱',heading:'公司三文治，club!',summary:'避開 company sandwich，並練習點餐與選配菜。',surpriseLabel:'你可能會這樣說…',steps:clubSteps,questions:clubQuestions,takeaways:['Can I get a club sandwich?','What would you like on the side?','Fries, please.'],completionTitle:'你可以自然地點一份公司三文治了！'}),
- lesson({id:'dressing',number:6,slug:'salad-dressing',titleZh:'沙律醬',titleEn:'salad dressing',kicker:'餐廳 · 問醬汁與另外放',heading:'沙律醬，dressing!',summary:'學會 salad dressing 與 on the side，在餐廳清楚說出需要。',surpriseLabel:'你可能會這樣說…',steps:dressingSteps,questions:dressingQuestions,takeaways:['What salad dressing do you have?','Can I get the dressing on the side?','Can I get some extra dressing?'],completionTitle:'你可以自然地問沙律醬和要求另外放了！'})
+ lesson({id:'box',number:2,slug:'box',titleZh:'剩菜打包',titleEn:'Can I get a box?',heading:'剩菜打包，box!',summary:'吃不完時自然地要盒子，也學會再要一個袋。',surpriseLabel:'你可能會這樣說…',steps:boxSteps,questions:boxQuestions,takeaways:['Can I get a box?','Can I get a bag, too?'],completionTitle:'你可以自然地把剩下的食物帶走了！'}),
+ lesson({id:'flat',number:3,slug:'flat',titleZh:'汽水沒有氣',titleEn:"It's flat.",heading:'汽水沒有氣，flat!',summary:'分清 flat 與 empty，自然地請店員處理沒有氣的汽水。',surpriseLabel:'你可能會這樣說…',steps:flatSteps,questions:flatQuestions,takeaways:["It's flat.",'This soda is flat.',"I'll get you a new one."],completionTitle:'你可以自然地說明汽水沒有氣了！'}),
+ lesson({id:'ready',number:4,slug:'ready-to-order',titleZh:'我們可以點餐了',titleEn:"We're ready to order.",heading:'準備好點餐，ready!',summary:'準備好或還需要時間，都能自然地回答店員。',surpriseLabel:'你可能會這樣說…',steps:readySteps,questions:readyQuestions,takeaways:["We're ready to order.",'We need a few more minutes.'],completionTitle:'你可以自然地告訴店員是否準備好點餐了！'}),
+ lesson({id:'club',number:5,slug:'club-sandwich',titleZh:'公司三文治',titleEn:'club sandwich',heading:'公司三文治，club!',summary:'避開 company sandwich，並練習點餐與選配菜。',surpriseLabel:'你可能會這樣說…',steps:clubSteps,questions:clubQuestions,takeaways:['Can I get a club sandwich?','What would you like on the side?','Fries, please.'],completionTitle:'你可以自然地點一份公司三文治了！'}),
+ lesson({id:'dressing',number:6,slug:'salad-dressing',titleZh:'沙律醬',titleEn:'salad dressing',heading:'沙律醬，dressing!',summary:'學會 salad dressing 與 on the side，在餐廳清楚說出需要。',surpriseLabel:'你可能會這樣說…',steps:dressingSteps,questions:dressingQuestions,takeaways:['What salad dressing do you have?','Can I get the dressing on the side?','Can I get some extra dressing?'],completionTitle:'你可以自然地問沙律醬和要求另外放了！'})
 ];
 export const moduleMap=new Map(modules.map(m=>[m.id,m]));
 export const allQuestionMap=new Map(modules.flatMap(m=>m.questions.map(q=>[q.id,q])));
-export const normalise=s=>String(s??'').trim().toLowerCase().replace(/[’]/g,"'").replace(/\s+/g,' ');
+export const normalise=s=>String(s??'').trim().toLowerCase().replace(/[’]/g,"'").replace(/[.!?]+$/,'').trim().replace(/\s+/g,' ');
 export const correct=(q,value)=>q.answers.some(a=>normalise(a)===normalise(value));
 export const hkDate=at=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Hong_Kong',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(at));
 export const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
