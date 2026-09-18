@@ -285,6 +285,7 @@ jobs:
           node tools/test-professional-learning-sync.mjs
           node tools/test-professional-polysemy-resume.mjs
           node tools/test-polysemy-lab.mjs
+          node tools/test-polysemy-modules.mjs --require-audio --allow-pending-audio
           node tools/test-natural-english.mjs
           node tools/test-professional-mobile-cards.mjs
           node tools/test-professional-study-clock.mjs

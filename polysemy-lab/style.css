@@ -7,3 +7,6 @@
 
 /* Comparison hierarchy: vocabulary, example, then concise explanation. */
 .comparison-panel article{padding:24px 0 8px;margin-top:20px}.comparison-panel article h3{font-size:1.25rem;color:#126f69;line-height:1.4;margin:0 0 14px;font-weight:750}.comparison-panel article .comparison-example{font-size:1.08rem;line-height:1.75;color:#183f4b;background:#f2f7f5;border-left:3px solid #88b3a6;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 14px}.comparison-panel article .comparison-explanation{font-size:.95rem;line-height:1.9;color:#526b72;margin:0}.comparison-explanation strong{color:#163f49;font-weight:750}.comparison-panel>.note{font-size:.78rem;line-height:1.75;margin-top:24px;color:#526b72}
+
+.module-selector{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin:1.5rem 0}.module-selector label{display:flex;align-items:center;gap:.75rem;font-weight:700}.module-selector select{min-width:15rem;max-width:100%;font:inherit;padding:.7rem;border:1px solid #b5c9cb;border-radius:.7rem;background:white;color:#173e48}.module-selector a{color:#167b76;text-underline-offset:.25em}@media(max-width:560px){.module-selector label{width:100%;flex-wrap:wrap}.module-selector select{width:100%;min-width:0}}
+@media(max-width:600px){.module-heading h1{font-size:clamp(2.4rem,11vw,4.7rem);overflow-wrap:anywhere}}

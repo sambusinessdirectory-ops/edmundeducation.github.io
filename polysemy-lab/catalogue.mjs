@@ -1,0 +1,18 @@
+import {showModule,questions as showQuestions} from './show.mjs?v=20260918-modules1';
+import busy from './content/busy.mjs?v=20260918-modules1';
+import train from './content/train.mjs?v=20260918-modules1';
+import watch from './content/watch.mjs?v=20260918-modules1';
+import cancel from './content/cancel.mjs?v=20260918-modules1';
+import buy from './content/buy.mjs?v=20260918-modules1';
+import catchModule from './content/catch.mjs?v=20260918-modules1';
+import pair from './content/pair.mjs?v=20260918-modules1';
+import see from './content/see.mjs?v=20260918-modules1';
+import late from './content/late.mjs?v=20260918-modules1';
+import work from './content/work.mjs?v=20260918-modules1';
+import home from './content/home.mjs?v=20260918-modules1';
+import immediate from './content/immediate.mjs?v=20260918-modules1';
+import full from './content/full.mjs?v=20260918-modules1';
+import empty from './content/empty.mjs?v=20260918-modules1';
+export const modules=[{...showModule,number:1,questions:showQuestions},busy,train,watch,buy,catchModule,pair,cancel,see,late,work,home,immediate,full,empty];
+export const moduleMap=new Map(modules.map(m=>[m.id,m]));
+export const allQuestionMap=new Map(modules.flatMap(m=>m.questions.map(q=>[q.id,{...q,module:m.id,word:m.word}])));
