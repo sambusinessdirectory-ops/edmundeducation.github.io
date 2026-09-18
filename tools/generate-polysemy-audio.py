@@ -26,7 +26,7 @@ else:
     if error.code not in (429,500,502,503,504) or attempt==9: raise
     delay=min(300,30*(2**attempt));print('Service busy; retry in',delay,'seconds',flush=True);time.sleep(delay)
 for index,row in enumerate(rows):
- index=row.get('index',index);voice=cycle[index%4];recipe=dict(recipes[voice])
+ index=row.get('index',index);voice=row.get('voice',cycle[index%4]);recipe=dict(recipes[voice])
  # Sentence-specific pacing correction: bm_fable at 0.98 blurred 'need' into 'night'.
  if row['id']=='immediate-13-1':recipe['speed']=1.02
  if (voice=='american-male')!=(a.kind=='cloud'):continue

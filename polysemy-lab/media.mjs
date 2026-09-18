@@ -1,7 +1,7 @@
-import {mountRecorder,storeRecording,listRecordings} from './recording.mjs?v=20260918-modules1';
-import {allQuestionMap,esc} from './core.mjs?v=20260918-modules1';
+import {mountRecorder,storeRecording,listRecordings} from './recording.mjs?v=20260918-modules16-32';
+import {allQuestionMap,esc} from './core.mjs?v=20260918-modules16-32';
 let manifestPromise;
-const manifest=()=>manifestPromise||=(Promise.all(['audio.json','audio-new.json'].map(file=>fetch(new URL('./'+file+'?v=20260918-modules1',import.meta.url)).then(r=>{if(!r.ok)throw Error();return r.json();}))).then(rows=>Object.assign({},...rows)).catch(e=>{manifestPromise=null;throw e;}));
+const manifest=()=>manifestPromise||=(Promise.all(['audio.json','audio-new.json'].map(file=>fetch(new URL('./'+file+'?v=20260918-modules16-32',import.meta.url)).then(r=>{if(!r.ok)throw Error();return r.json();}))).then(rows=>Object.assign({},...rows)).catch(e=>{manifestPromise=null;throw e;}));
 export function createMedia({getUser,getModule,rpc}){
  let voice=null,dispose=()=>{},epoch=0,urls=[];
  function suspend(){voice?.pause();document.querySelectorAll('[data-library] audio').forEach(a=>a.pause());dispose();dispose=()=>{};document.querySelectorAll('[data-sentence-media] .recorder').forEach(p=>p.hidden=true);document.querySelectorAll('[data-open-recorder]').forEach(b=>b.hidden=false);}

@@ -1,5 +1,5 @@
-import {createMedia} from './media.mjs?v=20260918-modules1';
-import {modules,moduleMap,allQuestionMap,selectModule,showModule,questions,senses,questionMap,orderedOptions,replay,summary,dailyAnswers,hkDate,esc,highlighted} from './core.mjs?v=20260918-modules1';
+import {createMedia} from './media.mjs?v=20260918-modules16-32';
+import {modules,moduleMap,allQuestionMap,selectModule,showModule,questions,senses,questionMap,orderedOptions,replay,summary,dailyAnswers,hkDate,esc,highlighted} from './core.mjs?v=20260918-modules16-32';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 let client,user=null,events=[],outbox=[],timeDays=[],syncing=null,mode='directory',feedback=null,clockSeconds=0,lastAction=Date.now(),lastTick=Date.now(),generation=0,range='7',cacheWarning=false;
 const media=createMedia({getUser:()=>user,getModule:()=>showModule,rpc});

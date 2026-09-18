@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';import crypto from 'node:crypto';import {createRequire} from 'node:module';
 import {modules,selectModule,replay,summary,dailyAnswers,highlighted,shuffledQuestions} from '../polysemy-lab/core.mjs';
-const cycle=['american-female','american-male','british-male','british-female'];
+const cycle=['american-female','american-male','british-male','british-female'];const cycleNew=['american-female','british-male','british-female'];
 const manifest=JSON.parse(fs.readFileSync(new URL('../polysemy-lab/audio-new.json',import.meta.url)));
 let missingAudio=[];const allIds=new Set();
 for(const m of modules){
@@ -12,7 +12,7 @@ for(const m of modules){
   assert.equal(new Set(q.options.map(id=>senses.get(id).title)).size,6,q.id+' has duplicate labels');
   assert.equal(Object.keys(q.optionReasons).length,6);
   const row=manifest[q.id];if(!row){missingAudio.push(q.id);continue;}
-  assert.equal(row.voice,cycle[q.sentenceIndex%4]);assert.equal(row.text,q.en);assert.equal(row.sourceSha256,crypto.createHash('sha256').update(q.en).digest('hex'));assert.ok(row.duration>0.8);assert.ok(fs.statSync(new URL('../polysemy-lab/'+row.path,import.meta.url)).size>1000);
+  assert.equal(row.voice,(m.number>=16?cycleNew[q.sentenceIndex%3]:cycle[q.sentenceIndex%4]));assert.equal(row.text,q.en);assert.equal(row.sourceSha256,crypto.createHash('sha256').update(q.en).digest('hex'));assert.ok(row.duration>0.8);assert.ok(fs.statSync(new URL('../polysemy-lab/'+row.path,import.meta.url)).size>1000);
  }
  for(let seed=0;seed<10;seed++){const shuffled=shuffledQuestions(m.id+seed);assert.equal(new Set(shuffled.map(q=>q.id)).size,m.questions.length);assert.ok(shuffled.slice(1).every((q,i)=>q.sense!==shuffled[i].sense));}
  const run=crypto.randomUUID(),start={module:m.id,kind:'start',id:crypto.randomUUID(),run,at:new Date().toISOString()},events=[start];let first,retryAt;
@@ -33,6 +33,7 @@ const oldRun=crypto.randomUUID(),oldQ=modules[0].questions[0],oldStart=event(und
 const bytes=Buffer.alloc(80);bytes.write('OggS');const oldRecording={id:crypto.randomUUID(),question:oldQ.id,mime:'audio/ogg',audio:bytes.toString('base64')};await recording('save',oldRecording);
 await db.exec(fs.readFileSync(new URL('../supabase/migrations/20260918072120_polysemy_lab_modules_2_15.sql',import.meta.url),'utf8'));
 apiVersion='modules_';
+await db.exec(fs.readFileSync(new URL('../supabase/migrations/20260918193000_polysemy_lab_modules_16_32.sql',import.meta.url),'utf8'));
 assert.equal((await sync()).events.length,2);assert.ok((await sync()).events.every(e=>e.module==='show'));assert.equal((await recording('list'))[0].module,'show');assert.equal((await recording('get',{id:oldRecording.id})).audio,oldRecording.audio);
 for(const m of modules.slice(1)){
  const run=crypto.randomUUID(),q=m.questions[0],start=event(m.id,'start',{run}),answer=event(m.id,'answer',{run,round:1,question:q.id,choice:q.sense}),view=event(m.id,'view',{sense:q.sense}),time=event(m.id,'time',{seconds:15});
