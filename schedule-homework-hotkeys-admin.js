@@ -1,4 +1,4 @@
-import { HOMEWORK_HOT_KEY_REFERENCE } from "./schedule-homework-links.mjs?v=20260820-hotkey-reference1";
+import { HOMEWORK_HOT_KEY_REFERENCE } from "./schedule-homework-links.mjs?v=20260919-polysemy-native1";
 
 const SESSION_KEY = "edmund-schedule-session-v1";
 const settings = window.EDMUND_SUPABASE || {};

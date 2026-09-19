@@ -11,6 +11,8 @@
 **Last technically verified against:** the 275-lesson Sentence Structure release
 **Review frequency:** after any generator, deep-link, Schedule storage, or deployment-workflow change; otherwise at least quarterly
 
+**Companion procedure:** [HOMEWORK_LESSON_HYPERLINK_GOLDEN_MANUAL_ADDENDUM.md](HOMEWORK_LESSON_HYPERLINK_GOLDEN_MANUAL_ADDENDUM.md) defines the standard for adding a lesson-based portal with an exact post-login deep link. It includes the completed Polysemy and Native English implementation as the reference pattern.
+
 ---
 
 ## 1. Purpose

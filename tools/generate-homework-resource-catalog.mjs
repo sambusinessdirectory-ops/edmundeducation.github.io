@@ -1,7 +1,7 @@
 import { readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import vm from "node:vm";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const toolsDirectory = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(toolsDirectory, "..");
@@ -709,6 +709,27 @@ async function orderedLessonResources({ file, globalName, type, idPrefix, system
   });
 }
 
+async function moduleLessonResources({ file, type, systemLabel, page, titleFor, detailFor }) {
+  const moduleUrl = pathToFileURL(path.join(root, file));
+  const catalogue = await import(`${moduleUrl.href}?homework-catalogue`);
+  const lessons = Array.isArray(catalogue.modules) ? catalogue.modules : [];
+  if (!lessons.length) throw new Error(`${systemLabel} module catalogue is empty`);
+  return lessons.map((lesson, index) => {
+    const ordinal = index + 1;
+    if (Number(lesson?.number) !== ordinal || !/^[a-z0-9][a-z0-9-]{0,79}$/i.test(String(lesson?.id || ""))) {
+      throw new Error(`${systemLabel} module order or id mismatch at option #${ordinal}: ${lesson?.id || "missing id"}`);
+    }
+    return {
+      id: `${type}:${lesson.id}`,
+      type,
+      ordinal,
+      label: `#${ordinal} · ${compactText(titleFor(lesson), 160)}`,
+      detail: compactText(detailFor(lesson), 180),
+      url: `${page}?module=${encodeURIComponent(lesson.id)}`
+    };
+  });
+}
+
 const allFiles = await readdir(root);
 const writingPracticeResources = await writingResources();
 const resources = [
@@ -724,6 +745,22 @@ const resources = [
   ...await commonExpressionResources(),
   ...await listeningResources(),
   ...await learningPortalResources(),
+  ...await moduleLessonResources({
+    file: "polysemy-lab/catalogue.mjs",
+    type: "polysemy",
+    systemLabel: "Polysemy",
+    page: "polysemy-lab.html",
+    titleFor: (lesson) => lesson.word || lesson.id,
+    detailFor: (lesson) => `Polysemy #${lesson.number} · ${lesson.senses?.length || 0} meanings · ${lesson.questions?.length || 0} questions`
+  }),
+  ...await moduleLessonResources({
+    file: "natural-english/catalogue.mjs",
+    type: "native-english",
+    systemLabel: "Native English",
+    page: "natural-english.html",
+    titleFor: (lesson) => lesson.titleZh || lesson.titleEn || lesson.id,
+    detailFor: (lesson) => `Native English #${lesson.number} · ${lesson.titleEn || lesson.id}`
+  }),
   ...await orderedLessonResources({
     file: "idiom-system-data.js",
     globalName: "EDMUND_IDIOM_SYSTEM_DATA",

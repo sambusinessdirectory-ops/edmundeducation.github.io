@@ -58,6 +58,8 @@ await page.locator('[data-library] input[type=file]').setInputFiles(fileURLToPat
 await page.locator('[data-module=busy]').click();assert.equal(await page.locator('#directory-progress').evaluate(n=>n.value),1);await page.locator('[data-mode=practice]').click();assert.equal(await page.locator('.sentence').innerText(),resumed.get('busy'));
 await page.locator('[data-module=show]').click();assert.equal(await page.locator('#directory-progress').evaluate(n=>n.value),4);
 await page.locator('[data-module=immediate]').click();await page.setViewportSize({width:390,height:844});await page.screenshot({path:out+'/new-module-mobile.png',fullPage:true});
+// Homework deep links retain the requested module through restored login and browser history.
+await page.goto(base+'/polysemy-lab.html?module=life');await page.locator('[data-app]').waitFor({state:'visible'});assert.equal(await page.locator('.module-heading h1').innerText(),'life');assert.equal(new URL(page.url()).searchParams.get('module'),'life');await page.locator('[data-module=busy]').click();assert.equal(new URL(page.url()).searchParams.get('module'),'busy');await page.goBack();await page.waitForFunction(()=>document.querySelector('.module-heading h1')?.textContent==='life');
 assert.ok(!calls.some(c=>c.name.startsWith('special_flash')),'never calls Professional English login or storage');assert.ok(calls.some(c=>c.name==='flashcard_student_login'));assert.deepEqual(errors,[]);
 const pendingQuestions=JSON.parse(fs.readFileSync(new URL('../polysemy-lab/audio-pending.json',import.meta.url))).questions;
 if(pendingQuestions.length){

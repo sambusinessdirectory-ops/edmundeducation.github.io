@@ -51,7 +51,7 @@ import {
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
-} from "./schedule-homework-links.mjs?v=20260901-homework-workflow1";
+} from "./schedule-homework-links.mjs?v=20260919-polysemy-native1";
 import {
   ScheduleGroupShiftError,
   planScheduleGroupShift
@@ -102,7 +102,7 @@ const COUNTDOWN_STEP = COUNTDOWN_BATCH_SIZE;
 const SPAN_COLUMN_BRIDGE_PX = 32;
 const LONG_PRESS_MS = 2000;
 const MARQUEE_START_DISTANCE = 6;
-const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260908-sunny-s3-1";
+const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260919-polysemy-native1";
 const VIDEO_CLASS_HOMEWORK_CATALOG_URL = "https://edmund-video-class.edmundeducation.workers.dev/v1/homework-resources";
 const STUDENT_PROGRESS_WORKER_URL = "https://edmund-student-progress.edmundeducation.workers.dev";
 const STUDENT_ACCOUNT_PAGE_SIZE = 100;

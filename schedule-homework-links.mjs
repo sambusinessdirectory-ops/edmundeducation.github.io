@@ -71,6 +71,23 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
   }),
   Object.freeze({ type: "common-expression", trigger: "Common Expression", label: "Common Expression", color: "#7b65c8" }),
   Object.freeze({ type: "listening", trigger: "IELTS Listening", label: "IELTS Listening", color: "#218e9b" }),
+  Object.freeze({
+    type: "polysemy",
+    trigger: "Polysemy",
+    label: "Polysemy",
+    pickerTitle: "選擇 Polysemy 一詞多義課程",
+    pickerNoun: "Polysemy 課程",
+    color: "#173e48"
+  }),
+  Object.freeze({
+    type: "native-english",
+    trigger: "Native English",
+    aliases: Object.freeze(["Natural English"]),
+    label: "Native English",
+    pickerTitle: "選擇 Native English 自然英文課程",
+    pickerNoun: "Native English 課程",
+    color: "#81543d"
+  }),
   Object.freeze({ type: "learning-portal", trigger: "Learning Portal", label: "Learning Portal", color: "#356f9f" })
 ]);
 
@@ -99,6 +116,8 @@ const ALLOWED_PAGES_BY_TYPE = Object.freeze({
     "/common-expression-business-speaking.html"
   ]),
   listening: Object.freeze(["/listening-system.html"]),
+  polysemy: Object.freeze(["/polysemy-lab.html"]),
+  "native-english": Object.freeze(["/natural-english.html"]),
   "learning-portal": Object.freeze([
     "/quotes-system.html",
     "/grammar-system.html",
@@ -163,6 +182,8 @@ const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
   "/common-expression-professional-message.html": Object.freeze(["lesson"]),
   "/common-expression-business-speaking.html": Object.freeze(["lesson"]),
   "/listening-system.html": Object.freeze(["section", "practice", "part"]),
+  "/polysemy-lab.html": Object.freeze(["module"]),
+  "/natural-english.html": Object.freeze(["module"]),
   "/quotes-system.html": Object.freeze([]),
   "/grammar-system.html": Object.freeze([]),
   "/collocation-system.html": Object.freeze([]),
@@ -297,6 +318,9 @@ export function normalizeHomeworkHref(value) {
     if (parsed.searchParams.get("section") !== "ielts") return null;
     if (!Number.isSafeInteger(practice) || practice < 1 || practice > 20) return null;
     if (!Number.isSafeInteger(part) || part < 1 || part > 4) return null;
+  }
+  if (["/polysemy-lab.html", "/natural-english.html"].includes(parsed.pathname)) {
+    if (!/^[a-z0-9][a-z0-9-]{0,79}$/i.test(parsed.searchParams.get("module") || "")) return null;
   }
   const query = parsed.searchParams.toString();
   return `${parsed.pathname.slice(1)}${query ? `?${query}` : ""}`;

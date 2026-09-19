@@ -42,7 +42,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 5989, "the Homework/Schedule catalogue should include every current learning resource, Speaking mock mode, Reading Comprehension exercise, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 6027, "the Homework/Schedule catalogue should include every current learning resource, Speaking mock mode, Reading Comprehension exercise, downloadable file, Common Expression lesson, IELTS Listening part, Polysemy lesson, Native English lesson and learning portal");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -61,6 +61,8 @@ assert.equal((byType["model-essay-download"] || []).length, 14, "all DSE Writing
 assert.equal((byType["download-material"] || []).length, 939, "every item in the DSE/IELTS download portal should be indexed");
 assert.equal((byType["common-expression"] || []).length, 172, "all six Common Expression catalogues should be indexed");
 assert.equal((byType.listening || []).length, 80, "all 20 IELTS Listening practices and four parts should be indexed");
+assert.equal((byType.polysemy || []).length, 32, "all Polysemy modules should be indexed");
+assert.equal((byType["native-english"] || []).length, 6, "all Native English modules should be indexed");
 assert.equal((byType["learning-portal"] || []).length, 18, "all new learning portals should be available for Homework/Schedule linking");
 const writingPracticeAssignments = new Map((byType["writing-submission"] || []).map((resource) => [
   resource.id.slice("writing-submission:".length),
@@ -109,6 +111,10 @@ assert.ok(ids.has("common-expression:rhetorical-writing:common-expression-29"), 
 assert.ok(ids.has("common-expression:professional-message:common-expression-27"), "latest Professional Message lesson should be linkable from Homework");
 assert.ok(ids.has("common-expression:business-speaking:common-expression-26"), "latest Business Speaking lesson should be linkable from Homework");
 assert.ok(ids.has("listening:ielts-listening-practice-20-part-4"));
+assert.ok(ids.has("polysemy:show"));
+assert.ok(ids.has("polysemy:life"));
+assert.ok(ids.has("native-english:scoop"));
+assert.ok(ids.has("native-english:dressing"));
 assert.ok(ids.has("learning-portal:quotes"));
 assert.ok(ids.has("learning-portal:english-joke-collection"));
 assert.ok([...ids].some((id) => id.startsWith("download:dse-writing-part-a:")));
@@ -546,6 +552,33 @@ assert.equal(normalizeHomeworkResource({
   url: "listening-system.html?section=ielts&practice=20&part=4"
 })?.url, "listening-system.html?section=ielts&practice=20&part=4");
 assert.equal(normalizeHomeworkResource({
+  id: "polysemy:show",
+  type: "polysemy",
+  label: "#1 · show",
+  url: "polysemy-lab.html?module=show"
+})?.url, "polysemy-lab.html?module=show");
+assert.equal(normalizeHomeworkResource({
+  id: "native-english:dressing",
+  type: "native-english",
+  label: "#6 · 沙律醬",
+  url: "natural-english.html?module=dressing"
+})?.url, "natural-english.html?module=dressing");
+for (const [type, id, unsafeUrl] of [
+  ["polysemy", "show", "polysemy-lab.html"],
+  ["polysemy", "show", "polysemy-lab.html?module=show&student=someone"],
+  ["polysemy", "show", "polysemy-lab.html?module=show#meaning"],
+  ["polysemy", "show", "https://evil.example/polysemy-lab.html?module=show"],
+  ["native-english", "dressing", "natural-english.html?module=../dressing"],
+  ["native-english", "dressing", "polysemy-lab.html?module=dressing"]
+]) {
+  assert.equal(normalizeHomeworkResource({
+    id: `${type}:${id}`,
+    type,
+    label: "Unsafe module target",
+    url: unsafeUrl
+  }), null, `unsafe module URL must be rejected: ${unsafeUrl}`);
+}
+assert.equal(normalizeHomeworkResource({
   id: "download-material:listening:04c672d5277d8916",
   type: "download-material",
   label: "IELTS Listening · Practice 1",
@@ -630,6 +663,9 @@ assert.equal(homeworkAutocomplete("Add Rea", 7).trigger, "Reading Comprehension"
 assert.equal(homeworkAutocomplete("Add IELTS Reading Ex", 20).trigger, "IELTS Reading Exercise");
 assert.equal(homeworkAutocomplete("Add Co", 6).trigger, "Common Expression");
 assert.equal(homeworkAutocomplete("Add IELTS L", 11).trigger, "IELTS Listening");
+assert.equal(homeworkAutocomplete("Add Poly", 8).trigger, "Polysemy");
+assert.equal(homeworkAutocomplete("Add Native E", 12).trigger, "Native English");
+assert.equal(homeworkAutocomplete("Add Natural E", 13).trigger, "Natural English");
 assert.equal(homeworkAutocomplete("Add Dow", 7).trigger, "Download materials");
 assert.equal(homeworkAutocomplete("Add Series V", 12).trigger, "Series Video Class");
 assert.equal(homeworkAutocomplete("Add Video V", 11).trigger, "Video Video Class");
@@ -910,9 +946,11 @@ try {
   await rm(tempDirectory, { recursive: true, force: true });
 }
 
-const [scheduleHtml, scheduleJs, studentTagsSql, flashcards, writing, speaking, sentence, idiom, proverb, phrasalVerb, videoClass, videoClassHtml, workflow] = await Promise.all([
+const [scheduleHtml, scheduleJs, hotKeysHtml, hotKeysJs, studentTagsSql, flashcards, writing, speaking, sentence, idiom, proverb, phrasalVerb, videoClass, videoClassHtml, workflow] = await Promise.all([
   read("schedule-system.html"),
   read("schedule-system.js"),
+  read("schedule-homework-hotkeys-admin.html"),
+  read("schedule-homework-hotkeys-admin.js"),
   read("supabase-schedule-student-entry-tags.sql"),
   read("flashcards.html"),
   read("writing-practice.html"),
@@ -949,9 +987,11 @@ assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260908-sunny-s3-1"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260901-homework-workflow1/, "Homework link helper cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260908-sunny-s3-1/, "Schedule application cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260919-polysemy-native1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260919-polysemy-native1/, "Homework link helper cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260919-polysemy-native1/, "Schedule application cache key is stale");
+assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20260919-polysemy-native1/, "Homework Hot Keys application cache key is stale");
+assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20260919-polysemy-native1/, "Homework Hot Keys helper cache key is stale");
 assert.match(scheduleJs, /isDownload \? "↓" : "↗"/, "download materials should be visibly presented as downloads to students");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");
