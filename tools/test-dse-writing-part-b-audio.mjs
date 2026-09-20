@@ -8,6 +8,8 @@ const read=f=>readFileSync(path.join(root,f),'utf8');
 for(const f of ['flashcards-audio-manifest.js','writing-audio-manifest.js'])vm.runInNewContext(read(f),c);
 const baselineFlash=c.window.EDMUND_FLASHCARD_AUDIO,baselineWriting=c.window.EDMUND_WRITING_AUDIO;
 const baselineUrls=new Set(Object.values(baselineFlash));
+const extensionContext={window:{EDMUND_FLASHCARD_AUDIO:{}}};
+vm.runInNewContext(read('flashcards-dse-writing-part-b-audio.js'),extensionContext);
 for(const f of ['flashcards-dse-writing-part-b-audio.js','writing-audio-dse-part-b-manifest.js','writing-practice-dse-part-b-library-data.js',...readdirSync(root).filter(f=>/^flashcards-dse-writing-part-b-\d{4}-data.js$/.test(f))])vm.runInNewContext(read(f),c);
 for(const [text,url] of Object.entries(baselineFlash))assert.equal(c.window.EDMUND_FLASHCARD_AUDIO[text],url,'Changed established recording: '+text);
 for(const [id,entry] of Object.entries(baselineWriting))assert.equal(c.window.EDMUND_WRITING_AUDIO[id],entry,'Changed established essay: '+id);
@@ -29,7 +31,10 @@ for(const card of Object.values(c.window.EDMUND_FLASHCARD_SEED).flat()){
   const h=url.split('/').at(-1).replace('.mp3',''),prefix=h.slice(0,2),entry=index.entries[prefix]?.[h.slice(2)];assert.ok(entry,card.front);assert.ok(entry[1]>1000&&entry[0]+entry[1]<=index.packs[prefix].size);
  }else assert.ok(baselineUrls.has(url),'Unknown voice source: '+card.front);
 }
-assert.equal(newUrls.size,index.meta.entryCount);
+const protectedCollisions=Object.entries(extensionContext.window.EDMUND_FLASHCARD_AUDIO).filter(([text,url])=>
+ Object.hasOwn(baselineFlash,text)&&url.includes(index.audioPathPrefix)
+);
+assert.equal(newUrls.size+protectedCollisions.length,index.meta.entryCount);
 const words=/[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*/gu;
 for(const e of Object.values(c.window.EDMUND_DSE_WRITING_PART_B_LIBRARY_EXERCISES)){
  const entry=c.window.EDMUND_WRITING_AUDIO[e.id];assert.ok(entry,e.id);assert.equal(entry.voice,'af_heart');assert.equal(entry.language,'en-us');assert.equal(entry.speed,.96);
