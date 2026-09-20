@@ -42,12 +42,12 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 6027, "the Homework/Schedule catalogue should include every current learning resource, Speaking mock mode, Reading Comprehension exercise, downloadable file, Common Expression lesson, IELTS Listening part, Polysemy lesson, Native English lesson and learning portal");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 6038, "the Homework/Schedule catalogue should include every current learning resource, Speaking mock mode, Reading Comprehension exercise, downloadable file, Common Expression lesson, IELTS Listening part, Polysemy lesson, Native English lesson and learning portal");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
 }, {});
-assert.equal((byType.flashcards || []).length, 1451, "all current static and lazy-loaded flashcard leaf decks should be indexed");
+assert.equal((byType.flashcards || []).length, 1462, "all current static and lazy-loaded flashcard leaf decks should be indexed");
 assert.equal((byType["fill-blanks"] || []).length, 407, "all current writing exercises should be indexed");
 assert.equal((byType.speaking || []).length, 796, "all currently visible speaking exercises and nine requested mock modes should be indexed");
 assert.equal((byType["sentence-structure"] || []).length, 345, "all sentence structure lessons should be indexed");
