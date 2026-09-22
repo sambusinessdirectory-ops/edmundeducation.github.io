@@ -1428,11 +1428,11 @@
     "duration": 4.464
   },
   "l4d1-professional:1": {
-    "path": "audio/dialogues-v1/05e55a04e024047baef6533c.mp3",
+    "path": "audio/dialogues-v1/35bda3bbeecf2cc6208fda2f.mp3",
     "voice": "british-male",
-    "sourceSha256": "8a0445d35b6f583fe2174270deade06ada4f21a9a11653588a90630407f2fbe4",
-    "recipeSha256": "05e55a04e024047baef6533c7418ece62bf587ec660462aed5ccd603fd36394c",
-    "duration": 4.656
+    "sourceSha256": "1d83aafc6e89a90df8d13c105f62d6757c580c16e393ffb34be33752488d6d58",
+    "recipeSha256": "35bda3bbeecf2cc6208fda2f05168c53805330484b5e320b357a0aac5f6294bc",
+    "duration": 4.416
   },
   "l4d1-professional:2": {
     "path": "audio/dialogues-v1/3dadc2503a8c21c355cf1795.mp3",
