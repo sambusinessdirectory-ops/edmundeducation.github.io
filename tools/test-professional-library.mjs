@@ -34,7 +34,7 @@ assert.equal(await scalar("select has_table_privilege('anon','special_flash_mess
 const b1={key:'bookmark:a',word:'first'},b2={key:'bookmark:b',word:'second'};assert.deepEqual(playlistItems({items:[b2.key,'missing',b1.key,b2.key]},[b1,b2]),[b2,b1]);
 assert.equal(escapeHtml('<img onerror="x">'),'&lt;img onerror=&quot;x&quot;&gt;');
 const materials=JSON.parse(fs.readFileSync(new URL('../professional-english/content/lesson-materials.json',import.meta.url))),polysemy=[1,2,3].map(n=>JSON.parse(fs.readFileSync(new URL(`../professional-english/content/lesson-${n}-polysemy.json`,import.meta.url))));
-assert.equal(materials.reduce((n,l)=>n+l.pages.length,0),24);
+assert.equal(materials.reduce((n,l)=>n+l.pages.length,0),32);
 for(const l of materials){assert.ok(fs.statSync(new URL('../professional-english/'+l.pdf,import.meta.url)).size>100000);for(const p of l.pages){assert.ok(p.html.includes('<mark'));assert.doesNotMatch(p.html,/<script|onerror=|javascript:/i);}}
 for(const l of polysemy)for(const w of l.words){assert.ok(w.source.page>0&&w.source.page<=8);assert.equal(w.source.lesson,l.lesson);}
 const results=searchContent({materials,dialogues:[{id:'test',lesson:2,titleZh:'test',variant:'beginner',lines:[{en:'Please keep the QR receipt.',zh:'請保留二維碼憑證。'}]}],polysemy},'receipt');assert.ok(results.some(r=>r.kind==='課文'&&r.lesson===2));assert.ok(results.some(r=>r.kind==='對話'));assert.equal(searchContent({materials,dialogues:[],polysemy},'').length,0);
