@@ -128,7 +128,7 @@
       if (!response.ok || seen) return;
       const modal = document.createElement("dialog");
       modal.className = "lesson4-notice";
-      modal.innerHTML = `<form method="dialog"><button class="lesson4-notice-close" value="close" aria-label="Close">×</button><p class="pro-eyebrow">PROFESSIONAL ENGLISH · LESSON 4</p><h2>第四課教材已上線</h2><p>電話英語、WhatsApp 訊息記錄、確認聯絡及一詞多義練習已準備好。</p><div class="lesson4-notice-actions"><a href="./dialogue.html?id=l4d1-beginner">開始填充練習</a><a href="./library.html?view=materials&lesson=4">查看 PDF 教材</a><a href="./polysemy.html?lesson=4">進入一詞多義</a></div></form>`;
+      modal.innerHTML = `<form method="dialog"><button class="lesson4-notice-close" value="close" aria-label="Close">×</button><p class="pro-eyebrow">PROFESSIONAL ENGLISH · LESSON 4</p><h2>第四課教材已上線</h2><p>電話英語、WhatsApp 訊息記錄、確認聯絡及一詞多義練習已準備好。</p><div class="lesson4-notice-actions"><a href="./dialogue.html?id=l4d2-beginner&view=practice&difficulty=standard&hints=both">開始 WhatsApp 填充練習</a><a href="./library.html?view=materials&lesson=4">查看 PDF 教材</a><a href="./polysemy.html?lesson=4">進入一詞多義</a></div></form>`;
       document.body.append(modal);
       const markSeen = () => fetch(api, {method:"POST",headers,body:JSON.stringify({p_token:owner.token,p_key:"draft:lesson4-notice",p_value:{seenAt:new Date().toISOString()}})}).catch(()=>{});
       modal.querySelectorAll(".lesson4-notice-actions a").forEach(link => link.addEventListener("click", markSeen, {once:true}));
