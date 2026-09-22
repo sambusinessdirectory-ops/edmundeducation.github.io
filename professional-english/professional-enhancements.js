@@ -83,7 +83,7 @@
   }
   function lessonMarkup() {
     return `<div class="pro-practice-heading"><div><span>PROFESSIONAL ENGLISH · DIALOGUE PRACTICE</span><h3>情境英語填充練習</h3><p>先聆聽完整對話及查看中文翻譯，再選擇練習模式。每行為同一情境，左邊是初階版本，右邊是專業版本。</p></div><strong>${dialogs.length} dialogues</strong></div>
-      <div class="pro-lesson-grid">${[1,2,3].map(lesson=>`<section class="pro-lesson-card" data-dialogue-lesson="${lesson}"><span>0${lesson}</span><h4>${({1:'第一課：基本互動',2:'第二課：進階互動',3:'第三課：投訴處理與冷靜回應'})[lesson]}</h4><p>${({1:'Class 1 · Basic Interaction',2:'Class 2 · Advanced Interactions',3:'Class 3 · Complaint Handling and Calm Response'})[lesson]}</p>${lessonDialogues(lesson)}</section>`).join('')}</div>`;
+      <div class="pro-lesson-grid">${[1,2,3,4].map(lesson=>`<section class="pro-lesson-card" data-dialogue-lesson="${lesson}"><span>0${lesson}</span><h4>${({1:'第一課：基本互動',2:'第二課：進階互動',3:'第三課：投訴處理與冷靜回應',4:'第四課：電話英語、訊息記錄及確認聯絡'})[lesson]}</h4><p>${({1:'Class 1 · Basic Interaction',2:'Class 2 · Advanced Interactions',3:'Class 3 · Complaint Handling and Calm Response',4:'Class 4 · Telephone English, Message Taking and Confirmation Calls'})[lesson]}</p>${lessonDialogues(lesson)}${lesson===4?`<a class="pro-dialogue-link pro-material-link" href="./library.html?view=materials&lesson=4"><b>第四課教材 · Lesson 4 materials</b><span>查看 PDF 及課文</span><small>Flash cards · WhatsApp · PDF · Polysemy</small></a>`:""}</section>`).join('')}</div>`;
   }
 
   function enhanceCourse(course) {
@@ -102,7 +102,7 @@
     if (!polysemy && practice) {
       polysemy = document.createElement("section");
       polysemy.className = "learning-panel learning-panel--polysemy learning-panel--practice-glow";
-      polysemy.innerHTML = `<div class="pro-practice-heading"><div><span>PROFESSIONAL ENGLISH · WORDS IN CONTEXT</span><h3>一詞多義 (Polysemy) 練習</h3><p>閱讀例句及留空的中文翻譯，選擇符合語境的意思。答錯的題目會在下一輪再出現。</p></div></div><div class="poly-lesson-grid">${[1,2,3].map(lesson=>`<a class="poly-landing-card" href="./polysemy.html${lesson===1?'':`?lesson=${lesson}`}" data-poly-lesson="${lesson}"><strong>第${['','一','二','三'][lesson]}課 · Lesson ${lesson}</strong><span data-poly-count="${lesson}">${({1:'16 個詞語 · 92 題練習',2:'13 個詞語 · 82 題練習',3:'32 個詞語 · 197 題練習'})[lesson]}</span><span>每個詞語最後一題為課文原句 · 開始練習 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></a>`).join('')}</div>`;
+      polysemy.innerHTML = `<div class="pro-practice-heading"><div><span>PROFESSIONAL ENGLISH · WORDS IN CONTEXT</span><h3>一詞多義 (Polysemy) 練習</h3><p>閱讀例句及留空的中文翻譯，選擇符合語境的意思。答錯的題目會在下一輪再出現。</p></div></div><div class="poly-lesson-grid">${[1,2,3,4].map(lesson=>`<a class="poly-landing-card" href="./polysemy.html${lesson===1?'':`?lesson=${lesson}`}" data-poly-lesson="${lesson}"><strong>第${['','一','二','三','四'][lesson]}課 · Lesson ${lesson}</strong><span data-poly-count="${lesson}">${({1:'16 個詞語 · 92 題練習',2:'13 個詞語 · 82 題練習',3:'32 個詞語 · 197 題練習',4:'36 個詞語 · 720 題練習'})[lesson]}</span><span>每個詞語最後一題為課文原句 · 開始練習 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></a>`).join('')}</div>`;
       practice.after(polysemy);
     }
     let quick=course.querySelector(":scope > .quick-response-panel");
@@ -114,8 +114,31 @@
     }
   }
 
+  async function showLesson4Notice(course) {
+    if (course.dataset.lesson4NoticeChecked || !dialogs.some(item => item.lesson === 4)) return;
+    course.dataset.lesson4NoticeChecked = "true";
+    let owner = null;
+    try { owner = JSON.parse(localStorage.getItem("special-flash-session-v1") || "null"); } catch {}
+    if (!owner?.token || !owner?.user?.id) return;
+    const api = "https://ookkxzgpdclzrrhfmvqx.supabase.co/rest/v1/rpc/special_flash_learning_state";
+    const headers = { apikey: "sb_publishable_0BOvquSJ_34TVHCoboQjVg_gRrggI7x", "Content-Type": "application/json" };
+    try {
+      const response = await fetch(api, { method: "POST", headers, body: JSON.stringify({p_token: owner.token, p_key: "draft:lesson4-notice"})});
+      const seen = await response.json();
+      if (!response.ok || seen) return;
+      const modal = document.createElement("dialog");
+      modal.className = "lesson4-notice";
+      modal.innerHTML = `<form method="dialog"><button class="lesson4-notice-close" value="close" aria-label="Close">×</button><p class="pro-eyebrow">PROFESSIONAL ENGLISH · LESSON 4</p><h2>第四課教材已上線</h2><p>電話英語、WhatsApp 訊息記錄、確認聯絡及一詞多義練習已準備好。</p><div class="lesson4-notice-actions"><a href="./dialogue.html?id=l4d2-beginner&view=practice&difficulty=standard&hints=both">開始 WhatsApp 填充練習</a><a href="./library.html?view=materials&lesson=4">查看 PDF 教材</a><a href="./polysemy.html?lesson=4">進入一詞多義</a></div></form>`;
+      document.body.append(modal);
+      const markSeen = () => fetch(api, {method:"POST",headers,body:JSON.stringify({p_token:owner.token,p_key:"draft:lesson4-notice",p_value:{seenAt:new Date().toISOString()}})}).catch(()=>{});
+      modal.querySelectorAll(".lesson4-notice-actions a").forEach(link => link.addEventListener("click", markSeen, {once:true}));
+      modal.addEventListener("close", markSeen, {once:true});
+      modal.showModal();
+    } catch {}
+  }
+
   function enhance() {
-    document.querySelectorAll(".course-section").forEach(enhanceCourse);
+    document.querySelectorAll(".course-section").forEach(course => { enhanceCourse(course); showLesson4Notice(course); });
     ensureSoundToggle();
   }
   new MutationObserver(enhance).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ["points"] });

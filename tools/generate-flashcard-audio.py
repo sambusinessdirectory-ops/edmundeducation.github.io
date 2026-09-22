@@ -154,6 +154,11 @@ EXTERNAL_SEED_ASSIGNMENTS = (
         None,
     ),
     (
+        "flashcards-government-civics-book3-data.js",
+        "window.EDMUND_GOVERNMENT_CIVICS_BOOK3_SEED = ",
+        None,
+    ),
+    (
         "flashcards-hkfsd-concept-vocabulary-book1-data.js",
         "window.EDMUND_HKFSD_CONCEPT_VOCABULARY_BOOK1_SEED = ",
         None,
@@ -347,7 +352,10 @@ def extract_static_fronts(source_root: Path) -> list[str]:
     html = (source_root / "flashcards.html").read_text(encoding="utf-8")
     start = html.index(INLINE_ASSIGNMENT) + len(INLINE_ASSIGNMENT)
     end = html.index("</script>", start)
-    inline_seed = json.loads(html[start:end].strip().removesuffix(";"))
+    inline_source = html[start:end].strip().removesuffix(";")
+    # Newer production pages initialise the seed object and load every deck
+    # from external files. Older releases embedded a JSON object here.
+    inline_seed = {} if inline_source.startswith("window.") else json.loads(inline_source)
 
     # Merge decks exactly as the browser does.  A later external seed replaces a
     # deck with the same ID instead of leaving superseded card fronts in the

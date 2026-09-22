@@ -15152,6 +15152,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fa-core-policy-group-discussion"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-3/a-core-policy-group-discussion",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "A. 政策及小組討論",
+    "detail": "Government / Concept Vocabulary / Book 3 / A Core Policy Group Discussion · 20 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-3%2Fa-core-policy-group-discussion"
+  },
+  {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q39",
     "type": "flashcards",
     "ordinal": 39,
@@ -15248,6 +15256,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fb-housing-living-conditions"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-3/b-housing-living-conditions",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "B. 房屋及居住環境",
+    "detail": "Government / Concept Vocabulary / Book 3 / B Housing Living Conditions · 39 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-3%2Fb-housing-living-conditions"
+  },
+  {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q15",
     "type": "flashcards",
     "ordinal": 15,
@@ -15294,6 +15310,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "C. PPE & Breathing Apparatus 個人防護裝備及呼吸器",
     "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / C Ppe Breathing Apparatus · 40 cards",
     "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fc-ppe-breathing-apparatus"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-3/c-healthcare-mental-health",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "C. 醫療及精神健康",
+    "detail": "Government / Concept Vocabulary / Book 3 / C Healthcare Mental Health · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-3%2Fc-healthcare-mental-health"
   },
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q49",
@@ -15414,6 +15438,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "D. Fire Appliances & Emergency Vehicles 消防車輛及緊急車輛",
     "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / D Fire Appliances Emergency Vehicles · 40 cards",
     "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fd-fire-appliances-emergency-vehicles"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-3/d-elderly-people-carers",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "D. 長者及照顧者",
+    "detail": "Government / Concept Vocabulary / Book 3 / D Elderly People Carers · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-3%2Fd-elderly-people-carers"
   },
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q12",
@@ -19128,6 +19160,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fe-firefighting-tools-equipment"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-3/e-families-children-working-parents",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "E. 家庭、兒童及在職父母",
+    "detail": "Government / Concept Vocabulary / Book 3 / E Families Children Working Parents · 20 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-3%2Fe-families-children-working-parents"
+  },
+  {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q15",
     "type": "flashcards",
     "ordinal": 15,
@@ -19184,6 +19224,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Ff-jobs-wages-employment"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-3/f-jobs-wages-employment",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "F. 就業、工資及勞工",
+    "detail": "Government / Concept Vocabulary / Book 3 / F Jobs Wages Employment · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-3%2Ff-jobs-wages-employment"
+  },
+  {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q11",
     "type": "flashcards",
     "ordinal": 11,
@@ -19238,6 +19286,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "G. Fire, Heat, Smoke & Basic Fire Behaviour 火、熱、煙及基本火災行為",
     "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / G Fire Heat Smoke Basic Fire Behaviour · 40 cards",
     "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fg-fire-heat-smoke-basic-fire-behaviour"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-3/g-education-young-people",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "G. 教育及青年",
+    "detail": "Government / Concept Vocabulary / Book 3 / G Education Young People · 30 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-3%2Fg-education-young-people"
   },
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q47",
@@ -19600,6 +19656,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fh-transport-getting-around"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-3/h-transport-getting-around",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "H. 交通及市民出行",
+    "detail": "Government / Concept Vocabulary / Book 3 / H Transport Getting Around · 20 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-3%2Fh-transport-getting-around"
+  },
+  {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q58",
     "type": "flashcards",
     "ordinal": 58,
@@ -19646,6 +19710,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "I. Welfare, Poverty & Helping People in Need 社會福利、扶貧及支援有需要人士",
     "detail": "Government / Concept Vocabulary / Book 2 / I Welfare Poverty Helping People In Need · 40 cards",
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fi-welfare-poverty-helping-people-in-need"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-3/i-welfare-poverty-helping-people-in-need",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "I. 社會福利、扶貧及支援有需要人士",
+    "detail": "Government / Concept Vocabulary / Book 3 / I Welfare Poverty Helping People In Need · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-3%2Fi-welfare-poverty-helping-people-in-need"
   },
   {
     "id": "flash:ielts/listening/Practice 1/part-1",
@@ -24824,6 +24896,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fj-search-rescue-casualty-handling"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-3/j-cost-of-living-peoples-financial-burden",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "J. 生活成本及市民經濟負擔",
+    "detail": "Government / Concept Vocabulary / Book 3 / J Cost Of Living Peoples Financial Burden · 20 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-3%2Fj-cost-of-living-peoples-financial-burden"
+  },
+  {
     "id": "flash:government/concept-vocabulary/book-1/k-environment-everyday-green-living",
     "type": "flashcards",
     "ordinal": null,
@@ -24846,6 +24926,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "K. Road Traffic & Railway Rescue 道路交通及鐵路救援",
     "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / K Road Traffic Railway Rescue · 40 cards",
     "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fk-road-traffic-railway-rescue"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-3/k-public-safety-emergency-preparedness-building-safety",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "K. 公共安全、應急準備及樓宇安全",
+    "detail": "Government / Concept Vocabulary / Book 3 / K Public Safety Emergency Preparedness Building Safety · 20 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-3%2Fk-public-safety-emergency-preparedness-building-safety"
   },
   {
     "id": "flash:government/hkfsd/concept-vocabulary/book-1/l-ambulance-first-aid-medical-response",

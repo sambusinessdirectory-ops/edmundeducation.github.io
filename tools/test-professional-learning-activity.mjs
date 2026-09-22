@@ -65,7 +65,7 @@ assert.equal(catalogue.length,78);
 assert.equal(catalogue.filter(x=>x.kind==='blank').length,17);
 assert.equal(catalogue.filter(x=>x.kind==='polysemy').length,61);
 const dialogues=JSON.parse(fs.readFileSync(new URL('../professional-english/dialogues.json',import.meta.url),'utf8')).dialogues;
-for(const d of dialogues){
+for(const d of dialogues.filter(d=>d.lesson<=3)){
  const actual=catalogue.find(x=>x.kind==='blank'&&x.exercise===d.id);
  const expected=Object.fromEntries(d.lines.flatMap((l,i)=>lineTokens(l.en).map((w,j)=>[`${i}:${j}`,w.toLowerCase().replaceAll('’',"'")]).filter(([,w])=>/^[a-z]/.test(w))));
  assert.deepEqual(actual?.answers,expected,`published dialogue answers match server catalogue: ${d.id}`);

@@ -121,10 +121,10 @@ for (const [index, deck] of Array.from(navigation).entries()) {
 }
 
 assert.match(html, /<script src="flashcards-government-civics-book2-data\.js\?v=20260817-1"><\/script>/, "Book 2 data file is not loaded");
-assert.match(html, /<script src="flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260908-sunny-s3-1"><\/script>/, "Edmund Neural audio cache key is stale");
+assert.match(html, /<script src="flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260920-civics-book3-1"><\/script>/, "Edmund Neural audio cache key is stale");
 assert.ok(html.includes('route === "government-concept-vocabulary-book-2"'), "Book 2 route handler is missing");
 assert.ok(html.includes('route: "government-concept-vocabulary-book-2"'), "Book 2 selector is missing");
-assert.ok(html.includes('addAggregate("government/concept-vocabulary", "政府機構 / 概念詞彙", 2)'), "Book selector aggregate must contain two books");
+assert.ok(html.includes('addAggregate("government/concept-vocabulary", "政府機構 / 概念詞彙", 3)'), "Book selector aggregate must contain three books");
 assert.match(
   audioGeneratorSource,
   /\(\s*"flashcards-government-civics-book2-data\.js",\s*"window\.EDMUND_GOVERNMENT_CIVICS_BOOK2_SEED = ",\s*None,\s*\)/,

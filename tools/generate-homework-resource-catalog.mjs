@@ -188,6 +188,19 @@ async function flashcardResources(allFiles) {
     ["government/concept-vocabulary/book-2/m-economy-tourism-small-businesses", "M. Economy, Tourism & Small Businesses 經濟、旅遊及中小企"],
     ["government/concept-vocabulary/book-2/n-public-safety-emergency-preparedness-building-safety", "N. Public Safety, Emergency Preparedness & Building Safety 公共安全、應急準備及樓宇安全"]
   ]);
+  const civicsBookThreeTitles = new Map([
+    ["government/concept-vocabulary/book-3/a-core-policy-group-discussion", "A. 政策及小組討論"],
+    ["government/concept-vocabulary/book-3/b-housing-living-conditions", "B. 房屋及居住環境"],
+    ["government/concept-vocabulary/book-3/c-healthcare-mental-health", "C. 醫療及精神健康"],
+    ["government/concept-vocabulary/book-3/d-elderly-people-carers", "D. 長者及照顧者"],
+    ["government/concept-vocabulary/book-3/e-families-children-working-parents", "E. 家庭、兒童及在職父母"],
+    ["government/concept-vocabulary/book-3/f-jobs-wages-employment", "F. 就業、工資及勞工"],
+    ["government/concept-vocabulary/book-3/g-education-young-people", "G. 教育及青年"],
+    ["government/concept-vocabulary/book-3/h-transport-getting-around", "H. 交通及市民出行"],
+    ["government/concept-vocabulary/book-3/i-welfare-poverty-helping-people-in-need", "I. 社會福利、扶貧及支援有需要人士"],
+    ["government/concept-vocabulary/book-3/j-cost-of-living-peoples-financial-burden", "J. 生活成本及市民經濟負擔"],
+    ["government/concept-vocabulary/book-3/k-public-safety-emergency-preparedness-building-safety", "K. 公共安全、應急準備及樓宇安全"]
+  ]);
   const hkfsdBookOneTitles = new Map([
     ["government/hkfsd/concept-vocabulary/book-1/a-core-fire-service-emergency-fundamentals", "A. Core Fire Service & Emergency Fundamentals 消防及緊急應變基本詞彙"],
     ["government/hkfsd/concept-vocabulary/book-1/b-fire-station-personnel-duty", "B. Fire Station, Personnel & Duty 消防局、人員及值勤"],
@@ -237,6 +250,7 @@ async function flashcardResources(allFiles) {
         || businessConceptBookOneTitles.get(deckId)
         || hkfsdIncidentReportTitles.get(deckId)
         || hkfsdBookOneTitles.get(deckId)
+        || civicsBookThreeTitles.get(deckId)
         || civicsBookTwoTitles.get(deckId)
         || civicsBookOneTitles.get(deckId)
         || taskTwoTitles.get(deckId)
