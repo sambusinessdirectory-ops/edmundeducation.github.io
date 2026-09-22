@@ -6,11 +6,11 @@ const manifest=JSON.parse(fs.readFileSync(new URL('../polysemy-lab/audio-new.jso
 let missingAudio=[];const allIds=new Set();
 for(const m of modules){
  selectModule(m.id);const senses=new Map(m.senses.map(s=>[s.id,s]));assert.equal(senses.size,m.senses.length);
- for(const q of m.questions){assert.ok(!allIds.has(q.id));allIds.add(q.id);assert.equal(new Set(q.options).size,6);assert.ok(q.options.includes(q.sense));assert.ok(q.options.every(id=>senses.has(id)));assert.ok(q.masked.includes('____'));assert.ok(!q.zh.includes('**'));assert.ok(highlighted(q.en).includes('<mark>'));
+ for(const q of m.questions){assert.ok(!allIds.has(q.id));allIds.add(q.id);assert.equal(new Set(q.options).size,Math.min(6,m.senses.length));assert.ok(q.options.includes(q.sense));assert.ok(q.options.every(id=>senses.has(id)));assert.ok(q.masked.includes('____'));assert.ok(!q.zh.includes('**'));assert.ok(highlighted(q.en).includes('<mark>'));
   if(m.id==='show')continue;
   assert.ok(q.options.filter(id=>id!==q.sense).every(id=>!senses.get(q.sense).excludedOverlaps.includes(id)),q.id+' has overlapping distractor');
-  assert.equal(new Set(q.options.map(id=>senses.get(id).title)).size,6,q.id+' has duplicate labels');
-  assert.equal(Object.keys(q.optionReasons).length,6);
+  assert.equal(new Set(q.options.map(id=>senses.get(id).title)).size,Math.min(6,m.senses.length),q.id+' has duplicate labels');
+  assert.equal(Object.keys(q.optionReasons).length,Math.min(6,m.senses.length));
   const row=manifest[q.id];if(!row){missingAudio.push(q.id);continue;}
   assert.equal(row.voice,(m.number>=16?cycleNew[q.sentenceIndex%3]:cycle[q.sentenceIndex%4]));assert.equal(row.text,q.en);assert.equal(row.sourceSha256,crypto.createHash('sha256').update(q.en).digest('hex'));assert.ok(row.duration>0.8);assert.ok(fs.statSync(new URL('../polysemy-lab/'+row.path,import.meta.url)).size>1000);
  }
@@ -34,6 +34,7 @@ const bytes=Buffer.alloc(80);bytes.write('OggS');const oldRecording={id:crypto.r
 await db.exec(fs.readFileSync(new URL('../supabase/migrations/20260918072120_polysemy_lab_modules_2_15.sql',import.meta.url),'utf8'));
 apiVersion='modules_';
 await db.exec(fs.readFileSync(new URL('../supabase/migrations/20260918193000_polysemy_lab_modules_16_32.sql',import.meta.url),'utf8'));
+await db.exec(fs.readFileSync(new URL('../supabase/migrations/20260922120000_polysemy_lab_modules_33_55.sql',import.meta.url),'utf8'));
 assert.equal((await sync()).events.length,2);assert.ok((await sync()).events.every(e=>e.module==='show'));assert.equal((await recording('list'))[0].module,'show');assert.equal((await recording('get',{id:oldRecording.id})).audio,oldRecording.audio);
 for(const m of modules.slice(1)){
  const run=crypto.randomUUID(),q=m.questions[0],start=event(m.id,'start',{run}),answer=event(m.id,'answer',{run,round:1,question:q.id,choice:q.sense}),view=event(m.id,'view',{sense:q.sense}),time=event(m.id,'time',{seconds:15});
@@ -54,4 +55,4 @@ if(process.argv.includes('--require-audio')){
  const pending=process.argv.includes('--allow-pending-audio')?JSON.parse(fs.readFileSync(new URL('../polysemy-lab/audio-pending.json',import.meta.url))).questions:[];
  assert.deepEqual([...missingAudio].sort(),[...pending].sort(),'Only explicitly approved pending audio may be absent');
 }
-console.log(`PASS: ${modules.length} modules, ${allIds.size} questions; six-option validation, shuffle/retry/counting, cross-module isolation, legacy Show migration, private recordings, atomic/idempotent storage. Missing audio: ${missingAudio.length}.`);
+console.log(`PASS: ${modules.length} modules, ${allIds.size} questions; variable-choice validation, shuffle/retry/counting, cross-module isolation, legacy Show migration, private recordings, atomic/idempotent storage. Missing audio: ${missingAudio.length}.`);

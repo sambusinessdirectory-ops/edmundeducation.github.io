@@ -1,4 +1,4 @@
-import {modules,moduleMap,allQuestionMap} from './catalogue.mjs?v=20260918-modules16-32';
+import {modules,moduleMap,allQuestionMap} from './catalogue.mjs?v=20260922-modules33-55';
 export {modules,moduleMap,allQuestionMap};
 export let showModule,questions,senses,questionMap;
 export function selectModule(id='show'){const m=moduleMap.get(id);if(!m)throw Error('Unknown module');showModule=m;questions=m.questions;senses=new Map(m.senses.map(s=>[s.id,s]));questionMap=new Map(questions.map(q=>[q.id,q]));}

@@ -31648,6 +31648,190 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "polysemy-lab.html?module=life"
   },
   {
+    "id": "polysemy:final",
+    "type": "polysemy",
+    "ordinal": 33,
+    "label": "#33 · final",
+    "detail": "Polysemy #33 · 13 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=final"
+  },
+  {
+    "id": "polysemy:problem",
+    "type": "polysemy",
+    "ordinal": 34,
+    "label": "#34 · problem",
+    "detail": "Polysemy #34 · 16 meanings · 29 questions",
+    "url": "polysemy-lab.html?module=problem"
+  },
+  {
+    "id": "polysemy:place",
+    "type": "polysemy",
+    "ordinal": 35,
+    "label": "#35 · place",
+    "detail": "Polysemy #35 · 36 meanings · 73 questions",
+    "url": "polysemy-lab.html?module=place"
+  },
+  {
+    "id": "polysemy:challenge",
+    "type": "polysemy",
+    "ordinal": 36,
+    "label": "#36 · challenge",
+    "detail": "Polysemy #36 · 19 meanings · 40 questions",
+    "url": "polysemy-lab.html?module=challenge"
+  },
+  {
+    "id": "polysemy:office",
+    "type": "polysemy",
+    "ordinal": 37,
+    "label": "#37 · office",
+    "detail": "Polysemy #37 · 19 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=office"
+  },
+  {
+    "id": "polysemy:travel",
+    "type": "polysemy",
+    "ordinal": 38,
+    "label": "#38 · travel",
+    "detail": "Polysemy #38 · 15 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=travel"
+  },
+  {
+    "id": "polysemy:focus",
+    "type": "polysemy",
+    "ordinal": 39,
+    "label": "#39 · focus",
+    "detail": "Polysemy #39 · 23 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=focus"
+  },
+  {
+    "id": "polysemy:overall",
+    "type": "polysemy",
+    "ordinal": 40,
+    "label": "#40 · overall",
+    "detail": "Polysemy #40 · 7 meanings · 15 questions",
+    "url": "polysemy-lab.html?module=overall"
+  },
+  {
+    "id": "polysemy:company",
+    "type": "polysemy",
+    "ordinal": 41,
+    "label": "#41 · company",
+    "detail": "Polysemy #41 · 29 meanings · 61 questions",
+    "url": "polysemy-lab.html?module=company"
+  },
+  {
+    "id": "polysemy:spend",
+    "type": "polysemy",
+    "ordinal": 42,
+    "label": "#42 · spend",
+    "detail": "Polysemy #42 · 28 meanings · 57 questions",
+    "url": "polysemy-lab.html?module=spend"
+  },
+  {
+    "id": "polysemy:real",
+    "type": "polysemy",
+    "ordinal": 43,
+    "label": "#43 · real",
+    "detail": "Polysemy #43 · 25 meanings · 47 questions",
+    "url": "polysemy-lab.html?module=real"
+  },
+  {
+    "id": "polysemy:attract",
+    "type": "polysemy",
+    "ordinal": 44,
+    "label": "#44 · attract",
+    "detail": "Polysemy #44 · 21 meanings · 43 questions",
+    "url": "polysemy-lab.html?module=attract"
+  },
+  {
+    "id": "polysemy:reason",
+    "type": "polysemy",
+    "ordinal": 45,
+    "label": "#45 · reason",
+    "detail": "Polysemy #45 · 25 meanings · 51 questions",
+    "url": "polysemy-lab.html?module=reason"
+  },
+  {
+    "id": "polysemy:escape",
+    "type": "polysemy",
+    "ordinal": 46,
+    "label": "#46 · escape",
+    "detail": "Polysemy #46 · 18 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=escape"
+  },
+  {
+    "id": "polysemy:quality",
+    "type": "polysemy",
+    "ordinal": 47,
+    "label": "#47 · quality",
+    "detail": "Polysemy #47 · 13 meanings · 27 questions",
+    "url": "polysemy-lab.html?module=quality"
+  },
+  {
+    "id": "polysemy:effective",
+    "type": "polysemy",
+    "ordinal": 48,
+    "label": "#48 · effective",
+    "detail": "Polysemy #48 · 3 meanings · 6 questions",
+    "url": "polysemy-lab.html?module=effective"
+  },
+  {
+    "id": "polysemy:make",
+    "type": "polysemy",
+    "ordinal": 49,
+    "label": "#49 · make",
+    "detail": "Polysemy #49 · 19 meanings · 39 questions",
+    "url": "polysemy-lab.html?module=make"
+  },
+  {
+    "id": "polysemy:hard",
+    "type": "polysemy",
+    "ordinal": 50,
+    "label": "#50 · hard",
+    "detail": "Polysemy #50 · 15 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=hard"
+  },
+  {
+    "id": "polysemy:feel",
+    "type": "polysemy",
+    "ordinal": 51,
+    "label": "#51 · feel",
+    "detail": "Polysemy #51 · 18 meanings · 37 questions",
+    "url": "polysemy-lab.html?module=feel"
+  },
+  {
+    "id": "polysemy:noise",
+    "type": "polysemy",
+    "ordinal": 52,
+    "label": "#52 · noise",
+    "detail": "Polysemy #52 · 13 meanings · 31 questions",
+    "url": "polysemy-lab.html?module=noise"
+  },
+  {
+    "id": "polysemy:soon",
+    "type": "polysemy",
+    "ordinal": 53,
+    "label": "#53 · soon",
+    "detail": "Polysemy #53 · 11 meanings · 23 questions",
+    "url": "polysemy-lab.html?module=soon"
+  },
+  {
+    "id": "polysemy:seem",
+    "type": "polysemy",
+    "ordinal": 54,
+    "label": "#54 · seem",
+    "detail": "Polysemy #54 · 13 meanings · 25 questions",
+    "url": "polysemy-lab.html?module=seem"
+  },
+  {
+    "id": "polysemy:stay",
+    "type": "polysemy",
+    "ordinal": 55,
+    "label": "#55 · stay",
+    "detail": "Polysemy #55 · 17 meanings · 35 questions",
+    "url": "polysemy-lab.html?module=stay"
+  },
+  {
     "id": "proverb:proverb-01",
     "type": "proverb",
     "ordinal": 1,
