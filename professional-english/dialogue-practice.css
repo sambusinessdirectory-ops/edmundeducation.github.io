@@ -23,7 +23,7 @@ body.pro-dialogue-open{margin:0;background:var(--bg,#0c1712);color:var(--text,#e
 @media(max-width:600px){.pro-turn>header{flex-wrap:wrap}.pro-line-actions{margin-left:auto}.pro-current-mode{align-items:start}.pro-current-mode button{font-size:12px!important}.pro-inline-modes label{flex:1;min-width:110px}.pro-inline-modes select{width:100%}.pro-playback .pro-playback-main{flex-wrap:nowrap;overflow-x:auto;padding:2px 0 6px}.pro-playback-main button{white-space:nowrap;flex-shrink:0}.pro-playback .pro-speed{margin-top:6px}}
 
 /* Lesson 4 fill-in-the-blanks uses the same visual language as a WhatsApp chat. */
-.pro-whatsapp-practice {
+.pro-whatsapp-chat {
   background-color: #e9f4ec;
   background-image: radial-gradient(#c8dfce 0.8px, transparent 0.8px), radial-gradient(#d4e8d8 0.8px, transparent 0.8px);
   background-size: 24px 24px, 24px 24px;
@@ -77,23 +77,23 @@ body.pro-dialogue-open{margin:0;background:var(--bg,#0c1712);color:var(--text,#e
   background: #fff;
   clip-path: polygon(100% 0, 100% 100%, 0 0);
 }
-.pro-whatsapp-practice .pro-turn--security,
-.pro-whatsapp-practice .pro-turn--officer {
+.pro-whatsapp-chat .pro-turn--security,
+.pro-whatsapp-chat .pro-turn--officer {
   margin-left: auto;
   margin-right: 0;
   border-radius: 16px 7px 16px 16px;
   background: #dcf8c6;
 }
-.pro-whatsapp-practice .pro-turn--security::before,
-.pro-whatsapp-practice .pro-turn--officer::before {
+.pro-whatsapp-chat .pro-turn--security::before,
+.pro-whatsapp-chat .pro-turn--officer::before {
   left: auto;
   right: -7px;
   background: #dcf8c6;
   clip-path: polygon(0 0, 100% 0, 0 100%);
 }
-.pro-whatsapp-practice .pro-turn--caller,
-.pro-whatsapp-practice .pro-turn--tenant,
-.pro-whatsapp-practice .pro-turn--visitor {
+.pro-whatsapp-chat .pro-turn--caller,
+.pro-whatsapp-chat .pro-turn--tenant,
+.pro-whatsapp-chat .pro-turn--visitor {
   margin-left: 0;
   margin-right: auto;
 }
@@ -155,37 +155,3 @@ body.pro-dialogue-open{margin:0;background:var(--bg,#0c1712);color:var(--text,#e
   .pro-whatsapp-header { margin-inline: -2px; }
   .pro-whatsapp-message p[lang=en] { font-size: .98rem; }
 }
-
-/* Lesson 4 fill-in-the-blanks uses the same visual language as a WhatsApp chat. */
-.pro-whatsapp-practice {
-  background-color: #e9f4ec;
-  background-image: radial-gradient(#c8dfce 0.8px, transparent 0.8px), radial-gradient(#d4e8d8 0.8px, transparent 0.8px);
-  background-size: 24px 24px, 24px 24px;
-  background-position: 0 0, 12px 12px;
-  border-color: #b7d3be;
-}
-.pro-whatsapp-header { display:flex; align-items:center; gap:12px; margin:-10px -10px 22px; padding:12px 16px; border-bottom:1px solid #c4d9c9; background:#f5fbf6; color:#173b2b; }
-.pro-whatsapp-header > div { display:grid; gap:1px; min-width:0; }
-.pro-whatsapp-header strong { font-size:.96rem; }
-.pro-whatsapp-header small { color:#658171; font-size:.75rem; }
-.pro-whatsapp-avatar { display:grid; place-items:center; width:38px; height:38px; flex:0 0 38px; border-radius:50%; background:#1e8061; color:#fff; font-size:.72rem; font-weight:800; }
-.pro-whatsapp-status { margin-left:auto; color:#56816a; font-size:.72rem; }
-.pro-whatsapp-message { position:relative; width:fit-content; max-width:min(82%,760px); margin:10px 0; padding:10px 13px 11px; border:0; border-radius:7px 16px 16px 16px; background:#fff; box-shadow:0 1px 1px #47715a24; }
-.pro-whatsapp-message::before { content:""; position:absolute; left:-7px; top:0; width:12px; height:14px; background:#fff; clip-path:polygon(100% 0,100% 100%,0 0); }
-.pro-whatsapp-practice .pro-turn--security, .pro-whatsapp-practice .pro-turn--officer { margin-left:auto; margin-right:0; border-radius:16px 7px 16px 16px; background:#dcf8c6; }
-.pro-whatsapp-practice .pro-turn--security::before, .pro-whatsapp-practice .pro-turn--officer::before { left:auto; right:-7px; background:#dcf8c6; clip-path:polygon(0 0,100% 0,0 100%); }
-.pro-whatsapp-practice .pro-turn--caller, .pro-whatsapp-practice .pro-turn--tenant, .pro-whatsapp-practice .pro-turn--visitor { margin-left:0; margin-right:auto; }
-.pro-whatsapp-message header { align-items:center; }
-.pro-whatsapp-message .pro-role { color:#356b4a; font-size:.72rem; letter-spacing:0; }
-.pro-whatsapp-message .pro-line-actions { gap:5px; }
-.pro-whatsapp-message .pro-line-actions button { min-height:28px; padding:3px 7px; border-color:#c9dfce; border-radius:9px; background:#f4fbf5; color:#397052; font-size:.72rem; }
-.pro-whatsapp-message p[lang=en] { margin:8px 0 0; font-size:1.04rem; line-height:1.8; }
-.pro-whatsapp-message .pro-whatsapp-meta { display:block; margin-top:4px; color:#6d8979; font-size:.66rem; text-align:right; }
-.pro-whatsapp-message .pro-chinese { border-top-color:#c7dfcc; font-size:.88rem; }
-.pro-whatsapp-practice .pro-gap { border:1px solid #a7c7af; border-bottom:2px solid #3e9970; background:#fff; color:#173b2b; }
-.pro-whatsapp-practice .pro-submit, .pro-whatsapp-composer { max-width:760px; margin-left:auto; margin-right:auto; }
-.pro-whatsapp-composer { display:flex; align-items:center; gap:10px; margin-top:18px; padding:9px 10px 9px 16px; border:1px solid #bfd8c5; border-radius:24px; background:#fff; color:#83988b; box-shadow:0 1px 2px #47715a24; }
-.pro-whatsapp-composer > span:first-child { flex:1; font-size:.9rem; }
-.pro-whatsapp-attach { font-size:1.2rem; color:#608870; }
-.pro-whatsapp-send { display:grid; place-items:center; width:32px; height:32px; border-radius:50%; background:#1e8061; color:#fff; font-size:.9rem; }
-@media (max-width:600px) { .pro-whatsapp-message { max-width:92%; } .pro-whatsapp-header { margin-inline:-2px; } .pro-whatsapp-message p[lang=en] { font-size:.98rem; } }
