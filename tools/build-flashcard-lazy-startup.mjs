@@ -24,6 +24,7 @@ const lazyFiles = [
   ...Array.from({ length: 8 }, (_, index) => [`flashcards-dse-speaking-${2012 + index}-data.js`, "20260713-1"]),
   ["flashcards-government-civics-book1-data.js", "20260808-1"],
   ["flashcards-government-civics-book2-data.js", "20260817-1"],
+  ["flashcards-government-civics-book3-data.js", "20260920-1"],
   ["flashcards-government-concept-logic-book1-data.js", "20260817-1"],
   ["flashcards-hkfsd-concept-vocabulary-book1-data.js", "20260818-1"],
   ["flashcards-hkfsd-incident-reports-data.js", "20260818-1"],
