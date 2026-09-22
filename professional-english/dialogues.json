@@ -1344,6 +1344,390 @@
       ],
       "translationSource": "Traditional Chinese translation of Lesson 3 source dialogue",
       "sourceNote": "Cross-checked against supplied fill-in-the-blanks PDFs and matching original Lesson 3 transcript. Suite spelling normalized."
+    },
+    {
+      "lesson": 4,
+      "id": "l4d1-beginner",
+      "title": "Incoming Call + Transfer to Tenant Office",
+      "titleZh": "接聽來電及轉駁至租戶辦公室",
+      "lines": [
+        {
+          "role": "Security / CS",
+          "en": "Good morning. Three Garden Road CS counter. How can I help you?",
+          "zh": "早上好。這裏是 Three Garden Road 客戶服務櫃位。有甚麼可以幫到您？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Caller",
+          "en": "Hi. Can you put me through to Karen Wong at Apex Design?",
+          "zh": "你好。可以替我轉駁到 Apex Design 的 Karen Wong 嗎？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "May I ask who’s calling, please?",
+          "zh": "請問是哪位來電？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Caller",
+          "en": "Jason Lee from Northstar Supplies.",
+          "zh": "我是 Northstar Supplies 的 Jason Lee。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you. May I have your callback number and what the call is about?",
+          "zh": "謝謝。請問您的回電號碼和來電事項是甚麼？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Caller",
+          "en": "It’s about tomorrow’s delivery schedule.",
+          "zh": "是關於明天的送貨時間安排。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Sorry, could you repeat your company name once more, please?",
+          "zh": "不好意思，可以再重複一次您的公司名稱嗎？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Caller",
+          "en": "Northstar Supplies.",
+          "zh": "Northstar Supplies。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Please hold for a moment while I check.",
+          "zh": "請稍候片刻，讓我查詢一下。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Caller",
+          "en": "Sure.",
+          "zh": "好的。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you for holding. I can transfer you to Apex Design’s office, but I can’t connect you directly to Ms Wong.",
+          "zh": "多謝您在線等候。我可以把您轉駁到 Apex Design 的辦公室，但不能直接轉駁給 Wong 女士。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Caller",
+          "en": "That’s fine. What if nobody answers?",
+          "zh": "沒問題。如果沒有人接聽怎麼辦？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "You can leave a brief message and a callback number, and we can pass the details to the tenant’s office.",
+          "zh": "您可以留下簡短留言和回電號碼，我們可以把資料轉交給租戶辦公室。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Caller",
+          "en": "Okay. Please transfer me.",
+          "zh": "好的，請替我轉駁。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Certainly. I’ll transfer you now. Please hold while I put you through to the tenant’s office.",
+          "zh": "當然可以。我現在替您轉駁。請在線等候，我會把您轉駁到租戶辦公室。",
+          "voice": "american-female"
+        }
+      ],
+      "variant": "beginner",
+      "translationSource": "Lesson 4 source PDF"
+    },
+    {
+      "lesson": 4,
+      "id": "l4d1-professional",
+      "title": "Incoming Call + Transfer to Tenant Office",
+      "titleZh": "接聽來電及轉駁至租戶辦公室",
+      "lines": [
+        {
+          "role": "Security / CS",
+          "en": "Good morning. Three Garden Road Customer Service. How may I assist you?",
+          "zh": "早上好。Three Garden Road 客戶服務。有甚麼可以協助您？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Caller",
+          "en": "Good morning. I’d like to speak with Ms Karen Wong at Apex Design.",
+          "zh": "早上好。我想與 Apex Design 的 Karen Wong 女士通話。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Certainly. May I ask who’s calling, please?",
+          "zh": "當然可以。請問是哪位來電？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Caller",
+          "en": "Jason Lee from Northstar Supplies.",
+          "zh": "我是 Northstar Supplies 的 Jason Lee。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you, Mr Lee. May I have your contact number and the reason for the call, please?",
+          "zh": "謝謝 Lee 先生。請問您的聯絡電話和來電原因是甚麼？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Caller",
+          "en": "It’s 9123 4567, regarding tomorrow’s delivery schedule.",
+          "zh": "電話是 9123 4567，是關於明天的送貨時間安排。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you. Could you please repeat the company name once more so I can record it accurately?",
+          "zh": "謝謝。可以再重複一次公司名稱，好讓我準確記錄嗎？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Caller",
+          "en": "Northstar Supplies.",
+          "zh": "Northstar Supplies。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Please hold for a moment while I check the tenant office contact.",
+          "zh": "請稍候片刻，讓我查詢租戶辦公室聯絡資料。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Caller",
+          "en": "Certainly.",
+          "zh": "好的。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you for holding. I can transfer you to Apex Design’s office, but we’re unable to transfer calls directly to an individual staff member.",
+          "zh": "多謝您在線等候。我可以把您轉駁到 Apex Design 的辦公室，但我們未能把電話直接轉駁給個別職員。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Caller",
+          "en": "Understood. If the office is unavailable, may I leave a message?",
+          "zh": "明白。如果辦公室未能接聽，我可以留言嗎？",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Of course. You may leave a brief message and a callback number, and we’ll pass the details to the tenant’s office.",
+          "zh": "當然可以。您可以留下簡短留言和回電號碼，我們會把資料轉交給租戶辦公室。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Caller",
+          "en": "That’s fine. Please transfer me.",
+          "zh": "沒問題，請替我轉駁。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Certainly. I’ll transfer you now. Please hold while I put you through to the tenant’s office.",
+          "zh": "當然可以。我現在替您轉駁。請在線等候，我會把您轉駁到租戶辦公室。",
+          "voice": "american-female"
+        }
+      ],
+      "variant": "professional",
+      "translationSource": "Lesson 4 source PDF"
+    },
+    {
+      "lesson": 4,
+      "id": "l4d2-beginner",
+      "title": "Confirm a Registered Visitor by WhatsApp",
+      "titleZh": "以 WhatsApp 確認已登記訪客",
+      "lines": [
+        {
+          "role": "Security / CS",
+          "en": "Good morning. This is the CS counter. Mr David Lee from BrightPath Consulting has registered and is waiting in the lobby. Are you expecting him?",
+          "zh": "早上好。這裏是客戶服務櫃位。BrightPath Consulting 的 David Lee 先生已登記，正在大堂等候。您是否預期他到訪？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "Yes. He has a meeting. Please ask him to wait. Amy will come down.",
+          "zh": "是的。他有會議。請叫他等候。Amy 會下來。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you. Where would you like him to wait — at the CS counter or the lobby seating area?",
+          "zh": "謝謝。您希望他在哪裏等候——客戶服務櫃位還是大堂座位區？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "At the CS counter. Yes, please don’t send him up yet.",
+          "zh": "在客戶服務櫃位。是的，請暫時不要讓他上樓。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Just to confirm: Mr Lee will wait at the CS counter, Amy will come down to meet him, and we won’t send him upstairs. I’ll let the visitor know.",
+          "zh": "再確認一下：Lee 先生會在客戶服務櫃位等候，Amy 會下來接他，我們不會讓他上樓。我會通知訪客。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "Correct. Thank you.",
+          "zh": "沒錯，謝謝。",
+          "voice": "british-male"
+        }
+      ],
+      "variant": "beginner",
+      "translationSource": "Lesson 4 source PDF"
+    },
+    {
+      "lesson": 4,
+      "id": "l4d2-professional",
+      "title": "Confirm a Registered Visitor by WhatsApp",
+      "titleZh": "以 WhatsApp 確認已登記訪客",
+      "lines": [
+        {
+          "role": "Security / CS",
+          "en": "Good morning, Ms Chan. This is the Three Garden Road CS counter. A registered visitor, Mr David Lee from BrightPath Consulting, is waiting in the lobby. May I confirm that you are expecting him?",
+          "zh": "早上好，Chan 女士。這裏是 Three Garden Road 客戶服務櫃位。BrightPath Consulting 的 David Lee 先生是一位已登記訪客，正在大堂等候。請問您是否預期他到訪？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "Yes, thank you. He has a meeting with Amy. Please ask him to wait at the CS counter while she comes down.",
+          "zh": "是的，謝謝。他與 Amy 有會議。請叫他在客戶服務櫃位等候，讓她下來。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you. Would you like me to direct him anywhere else, or should I keep him at the CS counter?",
+          "zh": "謝謝。您希望我指引他到其他地方，還是讓他留在客戶服務櫃位？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "Please keep him there. Don’t send him upstairs yet.",
+          "zh": "請讓他留在那裏。暫時不要讓他上樓。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Just to make sure I have this right: Mr Lee will wait at the CS counter, Amy will come down to meet him, and we won’t send him upstairs. I’ll inform him now.",
+          "zh": "再確認一下：Lee 先生會在客戶服務櫃位等候，Amy 會下來接他，我們不會讓他上樓。我現在會通知他。",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "That’s correct. Thank you.",
+          "zh": "沒錯，謝謝。",
+          "voice": "british-male"
+        }
+      ],
+      "variant": "professional",
+      "translationSource": "Lesson 4 source PDF"
+    },
+    {
+      "lesson": 4,
+      "id": "l4d3-beginner",
+      "title": "Parking Exit Barrier Problem",
+      "titleZh": "停車場出口閘故障",
+      "lines": [
+        {
+          "role": "Tenant",
+          "en": "Hi, the exit barrier at the East Wing car park won’t lift. Cars are starting to queue. I need Facilities now.",
+          "zh": "你好，東翼停車場的出口閘升不起來。車輛開始排隊。我現在需要設施部處理。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you for letting us know. I understand the queue is getting longer. Could you confirm the exact location and what the reader is doing?",
+          "zh": "謝謝您通知我們。我明白車龍正在變長。可以確認確切位置和讀卡器的情況嗎？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "B2, East Wing exit, Lane 2. The reader beeps normally, but the barrier stays down.",
+          "zh": "B2、東翼出口、2 號線。讀卡器正常發出嗶聲，但閘機仍然降下。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you. Just to confirm, vehicles can still exit via Lane 1?",
+          "zh": "謝謝。再確認一下，車輛仍可經 1 號線駛出嗎？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "Yes. Lane 1 is open, but six cars are waiting.",
+          "zh": "是的。1 號線開放，但有六輛車在等候。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Understood. I’ll report B2 East Wing, Lane 2; barrier down; queue developing; Lane 1 open. I’ll contact Facilities now and include your urgent request.",
+          "zh": "明白。我會報告 B2 東翼、2 號線；閘機降下；車龍形成；1 號線開放。我現在聯絡設施部，並包括您的緊急要求。",
+          "voice": "american-female"
+        }
+      ],
+      "variant": "beginner",
+      "translationSource": "Lesson 4 source PDF"
+    },
+    {
+      "lesson": 4,
+      "id": "l4d3-professional",
+      "title": "Parking Exit Barrier Problem",
+      "titleZh": "停車場出口閘故障",
+      "lines": [
+        {
+          "role": "Tenant",
+          "en": "Hi, the exit barrier at the East Wing car park won’t lift. Cars are starting to queue. I need the Facilities Manager immediately.",
+          "zh": "你好，東翼停車場的出口閘升不起來。車輛開始排隊。我需要設施部經理立即處理。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you for letting us know. I understand the queue is building. Could you confirm the exact location and whether the reader accepts the scan?",
+          "zh": "謝謝您通知我們。我明白車龍正在形成。可以確認確切位置，以及讀卡器是否接受掃描嗎？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "B2, East Wing exit, Lane 2. The reader beeps normally, but the barrier remains down. Lane 1 is still operating.",
+          "zh": "B2、東翼出口、2 號線。讀卡器正常發出嗶聲，但閘機仍然降下。1 號線仍在運作。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you. Just to confirm, vehicles can still exit via Lane 1?",
+          "zh": "謝謝。再確認一下，車輛仍可經 1 號線駛出嗎？",
+          "voice": "american-female"
+        },
+        {
+          "role": "Tenant",
+          "en": "Yes. Lane 1 is open, but six cars are waiting. I need the Facilities Manager immediately.",
+          "zh": "是的。1 號線開放，但有六輛車在等候。我需要設施部經理立即處理。",
+          "voice": "british-male"
+        },
+        {
+          "role": "Security / CS",
+          "en": "Thank you. I’ll log B2 East Wing, Lane 2: barrier down; queue building; Lane 1 open. I’ll escalate it now and include your Facilities Manager request.",
+          "zh": "謝謝。我會記錄 B2 東翼、2 號線：閘機降下；車龍形成；1 號線開放。我現在會升級匯報，並包括您要求設施部經理處理的事項。",
+          "voice": "american-female"
+        }
+      ],
+      "variant": "professional",
+      "translationSource": "Lesson 4 source PDF"
     }
   ]
 }

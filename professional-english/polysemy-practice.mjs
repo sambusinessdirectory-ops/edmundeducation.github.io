@@ -1,8 +1,8 @@
 import {sourceLink,sourceLabel} from './library-core.mjs?v=20260916-ui-polish1';
 import {fontControl,record,startStudy,saveState,loadState,getCached,session,flush} from './learning-state.mjs?v=20260916-ui-polish1';
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const lessonNumber=value=>[1,2,3].includes(Number(value))?Number(value):1;
-const lessonName=lesson=>`第${['','一','二','三'][lesson]}課`;
+const lessonNumber=value=>[1,2,3,4].includes(Number(value))?Number(value):1;
+const lessonName=lesson=>`第${['','一','二','三','四'][lesson]}課`;
 const correctChoice=(question,choice)=>(question.acceptedAnswers||[question.answer]).includes(choice);
 const ownObject=value=>value&&typeof value==='object'&&!Array.isArray(value);
 const uuid=value=>typeof value==='string'&&/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(value);
@@ -214,7 +214,7 @@ if(typeof document!=='undefined'&&document.body.dataset.professionalPolysemyPage
   async function initialise(){
     if(mounted||!document.querySelector('#root .course-section'))return;mounted=true;
     const lesson=lessonNumber(new URLSearchParams(location.search).get('lesson'));
-    try{const response=await fetch(`./content/lesson-${lesson}-polysemy.json?v=20260916-ui-polish1`);if(!response.ok)throw Error('content');mountPolysemyPage({data:await response.json(),lesson});}
+    try{const response=await fetch(`./content/lesson-${lesson}-polysemy.json?v=20260922-lesson4`);if(!response.ok)throw Error('content');mountPolysemyPage({data:await response.json(),lesson});}
     catch{const note=document.createElement('p');note.className='pro-page-load-error';note.textContent='練習暫時未能載入。';const retry=document.createElement('button');retry.type='button';retry.textContent='重試';retry.onclick=()=>{mounted=false;note.remove();initialise();};note.append(retry);document.body.append(note);}
   }
   new MutationObserver(initialise).observe(document.getElementById('root'),{childList:true,subtree:true});initialise();

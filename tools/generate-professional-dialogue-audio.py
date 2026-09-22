@@ -5,7 +5,7 @@ Aries uses the owner's existing Workers AI account. Credentials stay in memory.
 import argparse,hashlib,json,subprocess,tempfile,time,urllib.request,urllib.error
 from pathlib import Path
 parser=argparse.ArgumentParser();parser.add_argument('--model',type=Path,required=True);parser.add_argument('--voices',type=Path,required=True);parser.add_argument('--wrangler',type=Path,required=True);parser.add_argument('--account',required=True);parser.add_argument('--kind',choices=['local','cloud'],required=True)
-parser.add_argument('--lesson',type=int,choices=[1,2,3],help='Only update audio rows for this lesson; preserve other lessons verbatim')
+parser.add_argument('--lesson',type=int,choices=[1,2,3,4],help='Only update audio rows for this lesson; preserve other lessons verbatim')
 args=parser.parse_args();root=Path(__file__).resolve().parent.parent
 source=json.loads((root/'professional-english/dialogues.json').read_text());out=root/'professional-english/audio/dialogues-v1';out.mkdir(parents=True,exist_ok=True)
 rows={};kokoro=None;token=None
