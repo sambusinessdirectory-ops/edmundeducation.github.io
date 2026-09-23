@@ -12,11 +12,11 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
   window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:{user:{id:'fixture'}}}})},rpc:async(n,args)=>({data:await window.saveFixture(args)})})};
  });
  await page.goto(origin+'/__outfits');
- await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260916-girls-individual1');await cosmetics.restoreCosmetics();});
+ await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260923-olive-tee-leg-gap1');await cosmetics.restoreCosmetics();});
  for(const character of ['celeste','phoebe','elsie']){
   await page.evaluate(async character=>{
    document.querySelector('#inventory').replaceChildren();cosmetics.beginCosmeticsPreview();
-   const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20260916-girls-individual1');
+   const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20260923-olive-tee-leg-gap1');
    window.inventoryController?.abort();window.inventoryController=new AbortController();
    mountClosetInventory(document.querySelector('#inventory'),inventoryController.signal,{character});
   },character);
@@ -45,7 +45,7 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
   await page.evaluate(()=>cosmetics.discardCosmeticsPreview());
   await page.evaluate(async character=>{
    const THREE=await import('/vendor/three/three.module.js');
-   const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260916-girls-individual1');
+   const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260923-olive-tee-leg-gap1');
    const system=new MascotCharacters(undefined,undefined,{preview:false});const actor=await system.create(character,'standing');
    for(let i=0;i<100&&actor.mesh.material.uniforms.flowStrength.value!==0;i++)await new Promise(r=>setTimeout(r,20));
    if(actor.mesh.material.uniforms.flowStrength.value!==0)throw Error('Dressed views must stay unwarped');
@@ -62,7 +62,7 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
   },character);
   await page.locator('#fleece-turns').screenshot({path:'/tmp/'+character+'-fleece-3d.png'});
   await page.evaluate(()=>{fleeceQA.system.dispose();fleeceQA.renderer.dispose();document.querySelector('#fleece-turns').remove();inventoryController.abort();document.querySelector('#inventory').replaceChildren();});
-  await page.evaluate(async character=>{const {openCompanionCloset}=await import('/common-expression-closet-3d.mjs?v=20260916-girls-individual1');window.closet=openCompanionCloset({character});},character);
+  await page.evaluate(async character=>{const {openCompanionCloset}=await import('/common-expression-closet-3d.mjs?v=20260923-olive-tee-leg-gap1');window.closet=openCompanionCloset({character});},character);
   await page.waitForFunction(()=>document.querySelector('[data-closet-stage] canvas')?.dataset.actorPosition&&document.querySelector('[data-closet-loading]').hidden,null,{timeout:90000});
   assert.match(await page.locator('[data-closet-stage] canvas').getAttribute('aria-label'),new RegExp(character,'i'));
   assert.equal(await page.locator('dialog [data-cosmetic]').count(),1);
@@ -74,7 +74,7 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
   assert.equal(await page.evaluate(()=>cosmetics.cosmeticsState().savedEquipment[girl+'Top']),'cream-sherpa-jacket');
   console.log('PASS fitted atlas, blink, closet, inventory, saved/draft:',character);
  }
- await page.reload();await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260916-girls-individual1');await cosmetics.restoreCosmetics();});
+ await page.reload();await page.evaluate(async()=>{window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260923-olive-tee-leg-gap1');await cosmetics.restoreCosmetics();});
  assert.deepEqual(await page.evaluate(()=>cosmetics.cosmeticsState().equipped),saved.equipped);
  assert.deepEqual(errors,[]);console.log('PASS shared girls wardrobe with boys outfit preserved');
 }finally{await browser.close();server.close();}})().catch(e=>{console.error(e);process.exitCode=1;server.close();});

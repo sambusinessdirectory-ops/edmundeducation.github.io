@@ -7,6 +7,7 @@ export const COSMETICS=Object.freeze([
  {id:'brown-leather-bomber',slot:'top',name:'Brown leather bomber jacket',description:'棕色皮革飛行外套 · 拉鍊與翻蓋口袋'},
  {id:'sunburst-hoodie',slot:'top',name:'Charcoal sunburst hoodie',description:'炭黑連帽衫 · 背面太陽圖案'},
  {id:'black-blazer-hoodie',slot:'top',name:'Black blazer over hoodie',description:'黑色雙排扣西裝外套 · 連帽衫內搭'},
+ {id:'olive-plain-tee',slot:'top',name:'Olive plain crew-neck T-shirt',description:'橄欖綠純色圓領短袖T恤',display:'eddy/olive-plain-tee-display.png'},
  {id:'cream-sherpa-jacket',slot:'girlsTop',group:'girls',name:'Cream sherpa jacket',description:'奶油色羊羔絨拉鍊外套',display:'girls/cream-sherpa-display.png'}
 ]);
 const GIRLS=Object.freeze(['celeste','phoebe','elsie']);
@@ -37,9 +38,53 @@ const groupEquipment=(value,character)=>Object.fromEntries(cosmeticsForCharacter
 const sameGroup=(outfit,character)=>wardrobeGroup(character)==='girls'?outfit.character===character:outfit.group!=='girls';
 export const outfitsForCharacter=(outfits,character)=>outfits.filter(outfit=>sameGroup(outfit,character));
 export const isCosmeticEquipped=(value,item,character)=>value[equipmentSlot(item,character)]===item.id;
-export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20260916-girls-individual1',import.meta.url).href;
+export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20260923-olive-tee-leg-gap1',import.meta.url).href;
 let owner='',token='',wardrobe=cleanWardrobe(),equipped={},revision=0,client,connection,pendingRestore,previewActive=false,lastSync=0,saveEpoch=0,saving=0;
 const listeners=new Set(),images=new Map(),atlases=new Map();
+const correctedAtlases=new WeakMap();
+function closeInterlegWhiteMarks(character,base){
+ if(!['eddy','noir'].includes(character)||base?.naturalWidth!==1024||base?.naturalHeight!==1024||typeof document==='undefined')return base;
+ if(correctedAtlases.has(base))return correctedAtlases.get(base);
+ const canvas=document.createElement('canvas');canvas.width=1024;canvas.height=1024;
+ const ctx=canvas.getContext('2d',{willReadFrequently:true});if(!ctx)return base;
+ ctx.drawImage(base,0,0);const image=ctx.getImageData(0,0,1024,1024),pixels=image.data;
+ const pale=(r,g,b,a)=>a>=96&&Math.min(r,g,b)>145&&Math.max(r,g,b)-Math.min(r,g,b)<85;
+ let changed=false;
+ for(let row=0;row<4;row++)for(let col=0;col<4;col++){
+  const x0=col*256+88,y0=row*256+188,w=80,h=58,seen=new Uint8Array(w*h),mask=new Uint8Array(w*h);
+  for(let y=0;y<h;y++)for(let x=0;x<w;x++){const p=((y0+y)*1024+x0+x)*4;mask[y*w+x]=pale(pixels[p],pixels[p+1],pixels[p+2],pixels[p+3])?1:0;}
+  for(let sy=0;sy<h;sy++)for(let sx=0;sx<w;sx++){
+   const start=sy*w+sx;if(!mask[start]||seen[start])continue;
+   const queue=[start],component=[];seen[start]=1;
+   for(let head=0;head<queue.length;head++){
+    const at=queue[head],y=Math.floor(at/w),x=at%w;component.push([x,y]);
+    for(let dy=-1;dy<=1;dy++)for(let dx=-1;dx<=1;dx++){
+     const nx=x+dx,ny=y+dy,n=ny*w+nx;
+     if((dx||dy)&&nx>=0&&nx<w&&ny>=0&&ny<h&&mask[n]&&!seen[n]){seen[n]=1;queue.push(n);}
+    }
+   }
+   const xs=component.map(p=>p[0]),ys=component.map(p=>p[1]),minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys);
+   if(component.length<14||maxX-minX>7||maxY-minY<7)continue;
+   const byRow=new Map();for(const [x,y] of component){if(!byRow.has(y))byRow.set(y,[]);byRow.get(y).push(x);}
+   for(const [y,rowXs] of byRow){
+    const leftXs=[],rightXs=[];
+    for(let d=1;d<=8;d++){
+     const lx=x0+Math.min(...rowXs)-d,rx=x0+Math.max(...rowXs)+d,py=(y0+y)*1024;
+     if(lx>=x0&&pixels[(py+lx)*4+3]>=96&&!pale(pixels[(py+lx)*4],pixels[(py+lx)*4+1],pixels[(py+lx)*4+2],pixels[(py+lx)*4+3]))leftXs.push(lx);
+     if(rx<x0+w&&pixels[(py+rx)*4+3]>=96&&!pale(pixels[(py+rx)*4],pixels[(py+rx)*4+1],pixels[(py+rx)*4+2],pixels[(py+rx)*4+3]))rightXs.push(rx);
+     if(leftXs.length&&rightXs.length)break;
+    }
+    if(!leftXs.length||!rightXs.length)continue;
+    const l=leftXs[0],r=rightXs[0],lp=(y0+y)*1024+l,rp=(y0+y)*1024+r;
+    const lc=[pixels[lp*4],pixels[lp*4+1],pixels[lp*4+2]],rc=[pixels[rp*4],pixels[rp*4+1],pixels[rp*4+2]],lo=Math.min(...rowXs),hi=Math.max(...rowXs);
+    for(const x of rowXs){const t=(x-lo+1)/(hi-lo+2),p=((y0+y)*1024+x0+x)*4;for(let k=0;k<3;k++)pixels[p+k]=Math.round(lc[k]*(1-t)+rc[k]*t);pixels[p+3]=255;changed=true;}
+   }
+  }
+ }
+ if(!changed){correctedAtlases.set(base,base);return base;}
+ ctx.putImageData(image,0,0);canvas.naturalWidth=canvas.width;canvas.naturalHeight=canvas.height;canvas.complete=true;
+ correctedAtlases.set(base,canvas);return canvas;
+}
 const session=()=>globalThis.window?.EdmundSystemNav?.getStudentSession?.();
 const key=id=>'edmund-eddy-wardrobe-v1:'+id;
 const notify=()=>{revision++;atlases.clear();for(const fn of listeners)fn();};
@@ -112,12 +157,14 @@ function load(id,character='eddy'){const key=character+':'+id;if(images.has(key)
 export function cosmeticAtlas(id,base,{preview=false}={}){
  const selected=groupEquipment(preview?equipped:wardrobe.equipped,id);
  const rendered=wardrobeGroup(id)==='girls'?{...(selected[id+'Top']?{top:selected[id+'Top']}:{})}:selected;
- if(!supportsCosmetics(id)||!base?.naturalWidth||!Object.keys(rendered).length)return base;
+ if(!supportsCosmetics(id)||!base?.naturalWidth)return base;
  const cacheKey=id+'|'+base.src+'|'+JSON.stringify(rendered);if(atlases.has(cacheKey))return atlases.get(cacheKey);
+ const corrected=closeInterlegWhiteMarks(id,base);
  const ids=[rendered.top,rendered.headwear,rendered.headwear&&'hat-hide'].filter(Boolean);
- if(ids.map(item=>load(item,id)).some(img=>!img.complete||!img.naturalWidth))return base;
+ if(ids.map(item=>load(item,id)).some(img=>!img.complete||!img.naturalWidth))return corrected;
+ if(!ids.length){atlases.set(cacheKey,corrected);return corrected;}
  const canvas=document.createElement('canvas');canvas.width=base.naturalWidth;canvas.height=base.naturalHeight;
- const ctx=canvas.getContext('2d');ctx.drawImage(base,0,0);
+ const ctx=canvas.getContext('2d');ctx.drawImage(corrected,0,0);
  // Tailored overlays already follow the neck, cuffs and tail cutouts.
  if(rendered.top)ctx.drawImage(load(rendered.top,id),0,0,canvas.width,canvas.height);
  if(rendered.headwear){ctx.globalCompositeOperation='destination-out';ctx.drawImage(load('hat-hide',id),0,0,canvas.width,canvas.height);ctx.globalCompositeOperation='source-over';ctx.drawImage(load(rendered.headwear,id),0,0,canvas.width,canvas.height);}

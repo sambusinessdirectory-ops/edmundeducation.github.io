@@ -1,5 +1,5 @@
 import * as THREE from './vendor/three/three.module.js';
-import { cosmeticAtlas, supportsCosmetics, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260916-girls-individual1';
+import { cosmeticAtlas, supportsCosmetics, restoreCosmetics, subscribeCosmetics, cosmeticsForCharacter, isCosmeticEquipped, cosmeticsState } from './eddy-cosmetics.mjs?v=20260923-olive-tee-leg-gap1';
 import {MASCOT_VIEWS} from './speaking-mascot-views.mjs?v=20260915-phoebe2';
 import {viewPair, mouthOpening, blinkAmount, COAT_COLOURS} from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
 import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20260915-tailored1';
@@ -80,7 +80,8 @@ export class MascotCharacters {
       const texture=(image,original)=>{if(image===original.image)return original;const t=new THREE.CanvasTexture(image);t.colorSpace=THREE.SRGBColorSpace;t.generateMipmaps=false;t.minFilter=THREE.LinearFilter;actor.cosmeticTextures.push(t);return t;};
       const a=texture(open,r.atlas),b=texture(blink,r.blink||r.atlas);
       u.atlas.value=u.headAtlas.value=a;u.headBlinkAtlas.value=b;
-      u.flowStrength.value=open===r.atlas.image?1:0;
+      const wardrobe=cosmeticsState().equipped;
+      u.flowStrength.value=cosmeticsForCharacter(actor.name).some(item=>isCosmeticEquipped(wardrobe,item,actor.name))?0:1;
       actor.cosmeticOpen=open;actor.cosmeticBlink=blink;
     }
   }
