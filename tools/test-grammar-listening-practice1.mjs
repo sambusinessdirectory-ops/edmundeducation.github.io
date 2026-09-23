@@ -111,7 +111,9 @@ const nightNav = read("shared-system-nav.js");
 assert.match(nightNav, /assets\/eddy-night-invitation\.webp/);
 assert.match(nightNav, /會的! 明天我會過來<br>探望 Eddy 和他的朋友!/);
 assert.match(nightNav, /明天休息一下先, 後天之後再來~/);
-assert.doesNotMatch(nightNav, /🌙|🐴/);
+const nightInvitation = nightNav.match(/document\.body\.insertAdjacentHTML\("beforeend", `[\s\S]*?<\/dialog>`\);/)?.[0];
+assert.ok(nightInvitation, "The night invitation must remain present");
+assert.doesNotMatch(nightInvitation, /🌙|🐴/);
 
 const bookmarkSql = read("supabase-learning-portal-bookmarks-20260822.sql");
 assert.match(bookmarkSql, /enable row level security/);
