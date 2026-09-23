@@ -20,28 +20,28 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
   mountClosetInventory(document.querySelector('#inventory'),controller.signal,{character});
  },character);}
  async function save(){await page.locator('[data-save-avatar]').click();await page.getByRole('status').filter({hasText:'Saved to your account'}).waitFor();}
- await mount('elsie');await page.locator('[data-cosmetic=cream-sherpa-jacket]').click();
+ await mount('elsie');await page.locator('[data-cosmetic=pink-rain-jacket]').click();
  await page.locator('#closet-outfit-name').fill('Winter');await page.locator('button[type=submit]').click();await page.getByRole('status').filter({hasText:'Saved to your account'}).waitFor();
- assert.deepEqual(saved.equipped,{headwear:'white-fedora',top:'blue-swordsman-jacket',elsieTop:'cream-sherpa-jacket'});
+ assert.deepEqual(saved.equipped,{headwear:'white-fedora',top:'blue-swordsman-jacket',elsieTop:'pink-rain-jacket'});
  for(const character of ['phoebe','celeste']){
-  await mount(character);assert.equal(await page.locator('[data-cosmetic]').getAttribute('aria-pressed'),'false');
+  await mount(character);assert.equal(await page.locator('[data-cosmetic=pink-rain-jacket]').getAttribute('aria-pressed'),'false');
   assert.equal(await page.locator('[data-outfit=Winter]').count(),0);
   await page.evaluate(async character=>{const base=new Image();base.src='/assets/speaking-system/mascots/v4/'+character+'-standing.png';await base.decode();if(cosmetics.cosmeticAtlas(character,base)!==base)throw Error(character+' inherited Elsie outfit');},character);
  }
- await mount('phoebe');await page.locator('[data-cosmetic]').click();
+ await mount('phoebe');await page.locator('[data-cosmetic=cream-sherpa-jacket]').click();
  await page.locator('#closet-outfit-name').fill('Winter');await page.locator('button[type=submit]').click();await page.getByRole('status').filter({hasText:'Saved to your account'}).waitFor();
- assert.equal(saved.equipped.elsieTop,'cream-sherpa-jacket');assert.equal(saved.equipped.phoebeTop,'cream-sherpa-jacket');assert.equal(saved.equipped.celesteTop,undefined);
+ assert.equal(saved.equipped.elsieTop,'pink-rain-jacket');assert.equal(saved.equipped.phoebeTop,'cream-sherpa-jacket');assert.equal(saved.equipped.celesteTop,undefined);
  await page.locator('[data-favorite=Winter]').click();await page.waitForFunction(()=>cosmetics.cosmeticsState().outfits.some(x=>x.character==='phoebe'&&x.favorite));
  assert.equal(saved.outfits.find(x=>x.character==='elsie').favorite,undefined);
  await mount('elsie');await page.locator('[data-remove-outfit]').click();await save();
  assert.equal(saved.equipped.elsieTop,undefined);assert.equal(saved.equipped.phoebeTop,'cream-sherpa-jacket');assert.equal(saved.equipped.top,'blue-swordsman-jacket');
- await page.reload();await mount('elsie');assert.equal(await page.locator('[data-cosmetic]').getAttribute('aria-pressed'),'false');
+ await page.reload();await mount('elsie');assert.equal(await page.locator('[data-cosmetic=pink-rain-jacket]').getAttribute('aria-pressed'),'false');
  await page.locator('[data-outfit=Winter]').click();await page.getByRole('status').filter({hasText:'Saved to your account'}).waitFor();
- assert.equal(saved.equipped.elsieTop,'cream-sherpa-jacket');assert.equal(saved.equipped.phoebeTop,'cream-sherpa-jacket');assert.equal(saved.equipped.celesteTop,undefined);
+ assert.equal(saved.equipped.elsieTop,'pink-rain-jacket');assert.equal(saved.equipped.phoebeTop,'cream-sherpa-jacket');assert.equal(saved.equipped.celesteTop,undefined);
  await page.evaluate(async()=>{controller.abort();document.querySelector('#inventory').replaceChildren();cosmetics.discardCosmeticsPreview();const {openCompanionCloset}=await import('/common-expression-closet-3d.mjs?v=20260923-olive-tee-leg-gap1');window.closet=openCompanionCloset({character:'celeste'});});
  await page.waitForFunction(()=>document.querySelector('[data-closet-stage] canvas')?.dataset.actorPosition&&document.querySelector('[data-closet-loading]').hidden,null,{timeout:90000});
- assert.equal(await page.locator('dialog [data-cosmetic]').getAttribute('aria-pressed'),'false');
- await page.locator('dialog [data-cosmetic]').click();
+ assert.equal(await page.locator('dialog [data-cosmetic=pink-rain-jacket]').getAttribute('aria-pressed'),'false');
+ await page.locator('dialog [data-cosmetic=pink-rain-jacket]').click();
  page.once('dialog',d=>d.accept());await page.locator('[data-close-closet]').click();
  assert.equal(saved.equipped.celesteTop,undefined);assert.equal(await page.evaluate(()=>cosmetics.cosmeticsState().equipped.celesteTop),undefined);
  assert.deepEqual(errors,[]);console.log('PASS: item available to all girls; independent equip, save, reload, remove, named sets, favorites, real closet and discard; boys unchanged');

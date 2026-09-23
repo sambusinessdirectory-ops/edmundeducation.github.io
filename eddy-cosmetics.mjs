@@ -8,13 +8,14 @@ export const COSMETICS=Object.freeze([
  {id:'sunburst-hoodie',slot:'top',name:'Charcoal sunburst hoodie',description:'炭黑連帽衫 · 背面太陽圖案'},
  {id:'black-blazer-hoodie',slot:'top',name:'Black blazer over hoodie',description:'黑色雙排扣西裝外套 · 連帽衫內搭'},
  {id:'olive-plain-tee',slot:'top',name:'Olive plain crew-neck T-shirt',description:'橄欖綠純色圓領短袖T恤',display:'eddy/olive-plain-tee-display.png'},
- {id:'cream-sherpa-jacket',slot:'girlsTop',group:'girls',name:'Cream sherpa jacket',description:'奶油色羊羔絨拉鍊外套',display:'girls/cream-sherpa-display.png'}
+ {id:'cream-sherpa-jacket',slot:'girlsTop',group:'girls',name:'Cream sherpa jacket',description:'奶油色羊羔絨拉鍊外套',display:'girls/cream-sherpa-display.png'},
+ {id:'pink-rain-jacket',slot:'girlsTop',group:'girls',name:'Pink-piped rain jacket',description:'炭黑色連帽雨衣 · 桃紅色滾邊',display:'girls/pink-rain-jacket-display.png'}
 ]);
 const GIRLS=Object.freeze(['celeste','phoebe','elsie']);
 const equipmentSlot=(item,character)=>item.group==='girls'?character+'Top':item.slot;
 export function cleanEquipment(value){
  const result=Object.fromEntries(COSMETICS.filter(item=>item.group!=='girls'&&value?.[item.slot]===item.id).map(item=>[item.slot,item.id]));
- for(const character of GIRLS){const slot=character+'Top';if((value?.[slot]??value?.girlsTop)==='cream-sherpa-jacket')result[slot]='cream-sherpa-jacket';}
+ for(const character of GIRLS){const slot=character+'Top',id=value?.[slot]??value?.girlsTop;if(COSMETICS.some(item=>item.group==='girls'&&item.id===id))result[slot]=id;}
  return result;
 }
 export function cleanWardrobe(value){

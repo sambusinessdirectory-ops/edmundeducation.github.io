@@ -69,10 +69,10 @@ test('every shared item ships independent Eddy and Noir fits',async()=>{
 test('girls share availability but have independent equipped slots',async()=>{
  const {cosmeticsForCharacter}=await import('../eddy-cosmetics.mjs');
  clearCosmetics('eddy');for(const c of ['celeste','phoebe','elsie'])clearCosmetics(c);
- equipCosmetic('white-fedora');equipCosmetic('blue-swordsman-jacket');equipCosmetic('cream-sherpa-jacket','elsie');
- assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora',top:'blue-swordsman-jacket',elsieTop:'cream-sherpa-jacket'});
- for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['cream-sherpa-jacket']);
- clearCosmetics('phoebe');assert.equal(cosmeticsState().equipped.elsieTop,'cream-sherpa-jacket');
+ equipCosmetic('white-fedora');equipCosmetic('blue-swordsman-jacket');equipCosmetic('pink-rain-jacket','elsie');
+ assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora',top:'blue-swordsman-jacket',elsieTop:'pink-rain-jacket'});
+ for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['cream-sherpa-jacket','pink-rain-jacket']);
+ clearCosmetics('phoebe');assert.equal(cosmeticsState().equipped.elsieTop,'pink-rain-jacket');
  equipCosmetic('cream-sherpa-jacket','phoebe');clearCosmetics('elsie');
  assert.equal(cosmeticsState().equipped.phoebeTop,'cream-sherpa-jacket');assert.equal(cosmeticsState().equipped.elsieTop,undefined);assert.equal(cosmeticsState().equipped.celesteTop,undefined);
  for(const c of ['eddy','celeste','phoebe','elsie'])clearCosmetics(c);
@@ -87,5 +87,19 @@ test('legacy looks and sets migrate into independent character copies',()=>{
 test('the shared fleece has three independent transparent fit assets',async()=>{
  const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
  const hashes=['celeste','phoebe','elsie'].map(character=>{const b=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/cream-sherpa-jacket.webp',import.meta.url));assert.equal(b.toString('ascii',0,4),'RIFF');assert.ok(b.length>10000);return createHash('sha256').update(b).digest('hex');});
+ assert.equal(new Set(hashes).size,3);
+});
+
+test('the pink rain jacket has three independent transparent 16-view overlays',async()=>{
+ const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
+ const {createRequire}=await import('node:module');const sharp=createRequire(import.meta.url)(process.env.HOME+'/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+ const hashes=[];
+ for(const character of ['celeste','phoebe','elsie']){
+  const file=new URL('../assets/speaking-system/cosmetics/'+character+'/pink-rain-jacket.webp',import.meta.url),bytes=readFileSync(file);
+  assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');
+  const metadata=await sharp(bytes).metadata();assert.equal(metadata.width,1024);assert.equal(metadata.height,1024);assert.equal(metadata.hasAlpha,true);
+  const raw=await sharp(bytes).ensureAlpha().raw().toBuffer();for(let cell=0;cell<16;cell++){let count=0;for(let y=Math.floor(cell/4)*256;y<(Math.floor(cell/4)+1)*256;y++)for(let x=(cell%4)*256;x<(cell%4+1)*256;x++)if(raw[(y*1024+x)*4+3])count++;assert.ok(count>100,character+' cell '+cell+' must contain its fitted garment');}
+  hashes.push(createHash('sha256').update(bytes).digest('hex'));
+ }
  assert.equal(new Set(hashes).size,3);
 });
