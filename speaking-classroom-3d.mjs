@@ -2,8 +2,8 @@ import * as THREE from './vendor/three/three.module.js';
 import {GLTFLoader} from './vendor/three/loaders/GLTFLoader.js';
 import {MascotCharacters} from './speaking-mascot-characters.mjs?v=20260923-coin-cosmetics1';
 import {updateAttention,listenerNod} from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
-import {createClassroomEnvironment} from './speaking-classroom-environment.mjs?v=20260908-room10';
-import {CAMERA_START,constrainCamera,constrainTarget,interiorOrbit} from './speaking-classroom-camera.mjs?v=20260908-room10';
+import {createClassroomEnvironment} from './speaking-classroom-environment.mjs?v=20260923-night-classroom1';
+import {CAMERA_START,constrainCamera,constrainTarget,interiorOrbit} from './speaking-classroom-camera.mjs?v=20260923-night-classroom1';
 const cache=new Map();
 const load=name=>{if(!cache.has(name))cache.set(name,new GLTFLoader().loadAsync(new URL(`./assets/speaking-system/classroom/${name}.glb?v=20260908`,import.meta.url).href));return cache.get(name);};
 export function seatLayout(count,index){const angle=(index-(count-1)/2)*(count===2?.55:.40);return {x:Math.sin(angle)*3.25,z:1.15-Math.cos(angle)*3.25,yaw:-angle};}

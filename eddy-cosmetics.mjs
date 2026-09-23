@@ -124,7 +124,7 @@ export function restoreCosmetics(fallbackOwner,{force=false}={}){
  const requestOwner=owner,requestToken=token,epoch=saveEpoch;
  const request=rpc({p_token:requestToken}).then(async result=>{
   if(owner!==requestOwner||token!==requestToken||epoch!==saveEpoch)return;
-  const keepDraft=hasUnsavedCosmetics();wardrobe=result;if(!keepDraft)equipped={...result.equipped};ownedCosmetics=new Set(await rpcRaw({p_token:requestToken},'eddie_farm_owned_cosmetics').catch(()=>[]));lastSync=Date.now();
+  const keepDraft=hasUnsavedCosmetics();wardrobe=result;if(!keepDraft)equipped={...result.equipped};let owned=await rpcRaw({p_token:requestToken},'eddie_farm_owned_cosmetics').catch(()=>[]);try{const adminToken=sessionStorage.getItem('eddie-farm-admin-session-v1');if(adminToken){const preview=await rpcRaw({p_token:adminToken},'eddie_farm_admin_preview_cosmetics').catch(()=>[]);owned=[...new Set([...owned,...preview])];}}catch{}ownedCosmetics=new Set(owned);lastSync=Date.now();
   try{localStorage.setItem(key(owner),JSON.stringify(result));}catch{}notify();
  }).catch(()=>{/* Keep saved cache; a later focus/restore retries. Explicit Save reports errors. */})
  .finally(()=>{if(pendingRestore===request)pendingRestore=null;});

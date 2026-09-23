@@ -95,11 +95,35 @@
     }
     if (!(result.students || []).length) host.textContent = "No matching student accounts.";
   }
+  async function loadCosmeticCatalog() {
+    const host = $("cosmetic-catalog"); host.replaceChildren();
+    const result = await rpc("eddie_farm_admin_cosmetic_catalog", { p_token: adminToken });
+    for (const item of result.items || []) {
+      const row = document.createElement("form"); row.className = "farm-cosmetic-row";
+      const image = document.createElement("img"); image.src = `assets/speaking-system/cosmetics/${item.image_character}/${encodeURIComponent(item.id)}.webp`; image.alt = item.name; image.loading = "lazy";
+      const description = document.createElement("div"); description.className = "farm-cosmetic-description";
+      const title = document.createElement("strong"); title.textContent = item.name;
+      const meta = document.createElement("small"); meta.textContent = `${item.enabled ? "Available in shop" : "Disabled in shop"} · ${item.id}`;
+      description.append(title, meta);
+      const label = document.createElement("label"); label.textContent = "Coin price";
+      const input = document.createElement("input"); input.type = "number"; input.min = "1"; input.max = "100000"; input.step = "1"; input.required = true; input.value = item.price; input.setAttribute("aria-label", `Coin price for ${item.name}`); label.append(input);
+      const save = document.createElement("button"); save.type = "submit"; save.textContent = "Save price";
+      row.append(image, description, label, save); host.append(row);
+      row.addEventListener("submit", async event => {
+        event.preventDefault(); const price = Number(input.value); if (!Number.isInteger(price) || price < 1 || price > 100000) { input.reportValidity(); return; }
+        save.disabled = true;
+        try { const updated = await rpc("eddie_farm_admin_update_cosmetic_price", { p_token: adminToken, p_item: item.id, p_price: price }); item.price = updated.price; input.value = updated.price; statusKey("cosmeticPriceSaved", () => ({ name: item.name, price: Number(updated.price).toLocaleString() })); }
+        catch (error) { statusError(error); }
+        finally { save.disabled = false; }
+      });
+    }
+    if (!(result.items || []).length) host.textContent = "No coin-priced clothing items are configured.";
+  }
   $("wallet-search").addEventListener("submit", async event => { event.preventDefault(); const query = new FormData(event.currentTarget).get("query"); try { await searchWallets(String(query || "").trim()); } catch (error) { statusError(error); } });
 
   async function showAdmin() {
     const data = await rpc("eddie_farm_admin_rules", { p_token: adminToken });
-    renderRules(data.rules || []); view("admin", data.name);
+    renderRules(data.rules || []); view("admin", data.name); await loadCosmeticCatalog();
   }
 
   form.addEventListener("submit", async (event) => {
@@ -127,7 +151,7 @@
   $("logout").addEventListener("click", async () => {
     if (adminToken) { try { await rpc("eddie_farm_admin_logout", { p_token: adminToken }); } catch { /* Clear local session regardless. */ } }
     else window.EdmundSystemNav.forgetStudentSession();
-    adminToken = ""; balance = null; sessionStorage.removeItem(adminKey); $("rules").replaceChildren(); $("balance").textContent = "—"; view("login"); status();
+    adminToken = ""; balance = null; sessionStorage.removeItem(adminKey); $("rules").replaceChildren(); $("cosmetic-catalog").replaceChildren(); $("balance").textContent = "—"; view("login"); status();
   });
   try {
     adminToken = sessionStorage.getItem(adminKey) || "";

@@ -11,7 +11,7 @@
       visitFarm: "Visit Eddie’s Farm →", administration: "FARM ADMINISTRATION", rewardSettings: "Reward settings",
       ruleHelp: "Coin rewards apply to future completions. A changed rule starts a new exercise batch. A return bonus is paid at most once per consecutive Hong Kong calendar day.",
       refreshSettings: "Refresh settings", exercises: "Exercises per batch", returnDay: "Consecutive return day", points: "Coins per batch",
-      enabled: "Enabled", save: "Save", adminBadge: "Admin", settingsSaved: "{title}: settings saved.", walletSaved: "{name} coin balance updated to {balance}.",
+      enabled: "Enabled", save: "Save", adminBadge: "Admin", settingsSaved: "{title}: settings saved.", walletSaved: "{name} coin balance updated to {balance}.", cosmeticPriceSaved: "{name}: price saved at {price} coins.",
       continueLogin: "Please log in to continue.", unexpectedError: "Something went wrong. Please refresh and try again."
     },
     "zh-Hant": {
@@ -23,7 +23,7 @@
       visitFarm: "前往 Eddie 農場 →", administration: "農場管理", rewardSettings: "金幣獎勵設定",
       ruleHelp: "設定只適用於之後完成的練習，已獲得的金幣不受影響。更改規則後，未滿一組的練習進度會重新計算。連續回訪獎勵按香港日期計算，每天最多發放一次。",
       refreshSettings: "更新設定", exercises: "每組練習數量", returnDay: "連續回訪日數", points: "每組獎勵金幣",
-      enabled: "啟用", save: "儲存", adminBadge: "管理員", settingsSaved: "{title}：設定已儲存。", walletSaved: "{name} 的金幣餘額已更新至 {balance}。",
+      enabled: "啟用", save: "儲存", adminBadge: "管理員", settingsSaved: "{title}：設定已儲存。", walletSaved: "{name} 的金幣餘額已更新至 {balance}。", cosmeticPriceSaved: "{name}：已設定為 {price} 金幣。",
       continueLogin: "請先登入以繼續。", unexpectedError: "操作未能完成，請重新整理後再試。"
     }
   };

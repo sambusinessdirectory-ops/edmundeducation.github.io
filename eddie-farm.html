@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260910-home2">
-  <link rel="stylesheet" href="eddie-farm.css">
+  <link rel="stylesheet" href="eddie-farm.css?v=20260923-cosmetic-admin2">
   <script defer src="/pwa-register.js"></script>
 </head>
 <body data-system="eddie-farm">
@@ -65,6 +65,7 @@
       <p data-farm-i18n="ruleHelp">Changes apply to future completions. Existing coin balances stay unchanged; a changed rule starts a new exercise batch. A return bonus is paid at most once per consecutive Hong Kong calendar day.</p>
       <button type="button" data-farm-admin-refresh data-farm-i18n="refreshSettings">Refresh settings</button>
       <section class="farm-wallet-admin"><h2>Student coin wallets</h2><form data-farm-wallet-search><label>Find a student<input type="search" name="query" minlength="2" maxlength="80" placeholder="Enter part of a student name" required></label><button type="submit">Search</button></form><div data-farm-wallet-results aria-live="polite"></div></section>
+      <section class="farm-cosmetic-admin"><h2>Cosmetic coin prices</h2><p>Review each item image and set its coin price. Admin wardrobe preview unlocks every enabled item for trying on, without adding items to student accounts.</p><div data-farm-cosmetic-catalog aria-live="polite">Loading the cosmetic catalog…</div></section>
       <div class="farm-rule-list" data-farm-rules></div>
     </section>
     <p class="farm-status" data-farm-status role="status" aria-live="polite"></p>
@@ -72,8 +73,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="shared-system-nav.js?v=20260911-tools1"></script>
-  <script src="eddie-farm-i18n.js"></script>
+  <script src="eddie-farm-i18n.js?v=20260923-cosmetic-admin2"></script>
   <script src="eddie-farm-api.js"></script>
-  <script src="eddie-farm.js"></script>
+  <script src="eddie-farm.js?v=20260923-cosmetic-admin2"></script>
 </body>
 </html>
