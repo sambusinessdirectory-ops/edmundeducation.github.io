@@ -1,6 +1,16 @@
-import test from 'node:test';
+import test,{beforeEach} from 'node:test';
 import assert from 'node:assert/strict';
 import {cleanEquipment,cleanWardrobe,equipCosmetic,equipOutfit,clearCosmetics,cosmeticsState,restoreCosmetics,saveAvatar} from '../eddy-cosmetics.mjs';
+import {COSMETICS} from '../eddy-cosmetics.mjs';
+let rpcHandler,fixtureAccount;
+const ownedIds=COSMETICS.map(item=>item.id);
+beforeEach(async()=>{
+ const cache=new Map();globalThis.localStorage={getItem:k=>cache.get(k),setItem:(k,v)=>cache.set(k,v)};globalThis.sessionStorage={};
+ fixtureAccount={id:'cosmetic-test-student',token:'cosmetic-test-token'};
+ globalThis.window={EdmundSystemNav:{getStudentSession:()=>fixtureAccount},EDMUND_SUPABASE:{url:'fixture',anonKey:'fixture'},supabase:{createClient:()=>({auth:{getSession:async()=>({data:{session:{}}})},rpc:(method,args)=>rpcHandler(method,args)})}};
+ rpcHandler=async method=>method==='eddy_closet_sync'?{data:{equipped:{},outfits:[]}}:{data:ownedIds};
+ await restoreCosmetics(undefined,{force:true});
+});
 test('independent headwear/top slots allow shared Eddy and Noir catalog items',()=>{
  clearCosmetics();equipCosmetic('white-fedora');equipCosmetic('cream-cable-knit');
  assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora',top:'cream-cable-knit'});
@@ -18,7 +28,8 @@ test('malformed saved outfits are bounded and cannot add unowned item types',()=
 test('stale restore cannot overwrite an edit or another student',async()=>{
  const cache=new Map();globalThis.localStorage={getItem:k=>cache.get(k),setItem:(k,v)=>cache.set(k,v)};globalThis.sessionStorage={};
  let account={id:'student-a',token:'token-a'},resolve;
- globalThis.window={EdmundSystemNav:{getStudentSession:()=>account},EDMUND_SUPABASE:{url:'fixture',anonKey:'fixture'},supabase:{createClient:()=>({auth:{getSession:async()=>({data:{session:{}}})},rpc:()=>new Promise(r=>resolve=r)})}};
+ globalThis.window.EdmundSystemNav.getStudentSession=()=>account;
+ rpcHandler=method=>method==='eddie_farm_owned_cosmetics'?Promise.resolve({data:ownedIds}):new Promise(r=>resolve=r);
  const pending=restoreCosmetics();await new Promise(r=>setTimeout(r,0));equipCosmetic('white-fedora');
  resolve({data:{equipped:{top:'cream-cable-knit'},outfits:[]}});await pending;
  assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora'});
