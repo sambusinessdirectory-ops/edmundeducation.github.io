@@ -77,7 +77,7 @@ test("admin labels and messages translate without changing reward data", () => {
 
 test("translation updates text spans, never replaces inputs or private rule values", () => {
   const html = read("eddie-farm.html");
-  assert.ok(html.indexOf('src="eddie-farm-i18n.js"') < html.indexOf('src="eddie-farm.js"'));
+  assert.ok(html.indexOf('src="eddie-farm-i18n.js') < html.indexOf('src="eddie-farm.js'));
   assert.doesNotMatch(source, /innerHTML|\.value\s*=|replaceChildren|fetch\(|\.rpc\(/);
   assert.doesNotMatch(html, /<(?:input|label)[^>]*data-farm-i18n=/);
   assert.doesNotMatch(source, /exercise_count\s*:\s*\d|password_hash|service_role/);
