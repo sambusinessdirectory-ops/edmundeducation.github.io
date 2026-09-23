@@ -261,12 +261,12 @@ export default {
       "examples": [
         [
           "We bought the tickets at the box office.",
-          "",
+          "「我們在售票處買了門票。」",
           "box office（戲院／電影業）"
         ],
         [
           "The film performed well at the box office.",
-          "",
+          "「這部電影的票房表現很好。」",
           "box office（戲院／電影業）"
         ]
       ],
@@ -1100,7 +1100,7 @@ export default {
       "id": "office-12-0",
       "sense": "office-12",
       "en": "We bought the tickets at the box office.",
-      "zh": "",
+      "zh": "「我們在售票處買了門票。」",
       "masked": "We bought the tickets at the ____.",
       "options": [
         "office-12",
@@ -1129,7 +1129,7 @@ export default {
       "id": "office-12-1",
       "sense": "office-12",
       "en": "The film performed well at the box office.",
-      "zh": "",
+      "zh": "「這部電影的票房表現很好。」",
       "masked": "The film performed well at the ____.",
       "options": [
         "office-12",
