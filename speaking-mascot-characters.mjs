@@ -1,5 +1,5 @@
 import * as THREE from './vendor/three/three.module.js';
-import { cosmeticAtlas, supportsCosmetics, restoreCosmetics, subscribeCosmetics, cosmeticsForCharacter, isCosmeticEquipped, cosmeticsState } from './eddy-cosmetics.mjs?v=20260923-pink-rain-jacket1';
+import { cosmeticAtlas, supportsCosmetics, restoreCosmetics, subscribeCosmetics, cosmeticsForCharacter, isCosmeticEquipped, cosmeticsState } from './eddy-cosmetics.mjs?v=20260923-coin-cosmetics1';
 import {MASCOT_VIEWS} from './speaking-mascot-views.mjs?v=20260915-phoebe2';
 import {viewPair, mouthOpening, blinkAmount, COAT_COLOURS} from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
 import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20260915-tailored1';
@@ -73,14 +73,14 @@ export class MascotCharacters {
     for(const actor of this.actors){
       if(!supportsCosmetics(actor.name)||actor.pose!=='standing')continue;
       const r=actor.resource,u=actor.mesh.material.uniforms;
-      const open=this.cosmeticsEnabled?cosmeticAtlas(actor.name,r.atlas.image,{preview:this.previewCosmetics}):r.atlas.image,blink=this.cosmeticsEnabled?cosmeticAtlas(actor.name,(r.blink||r.atlas).image,{preview:this.previewCosmetics}):(r.blink||r.atlas).image;
+      const open=this.cosmeticsEnabled?cosmeticAtlas(actor.name,r.atlas.image,{preview:this.previewCosmetics,wardrobe:actor.cosmeticWardrobe?.equipped}):r.atlas.image,blink=this.cosmeticsEnabled?cosmeticAtlas(actor.name,(r.blink||r.atlas).image,{preview:this.previewCosmetics,wardrobe:actor.cosmeticWardrobe?.equipped}):(r.blink||r.atlas).image;
       if(actor.cosmeticOpen===open&&actor.cosmeticBlink===blink)continue;
       actor.cosmeticTextures?.forEach(t=>t.dispose());
       actor.cosmeticTextures=[];
       const texture=(image,original)=>{if(image===original.image)return original;const t=new THREE.CanvasTexture(image);t.colorSpace=THREE.SRGBColorSpace;t.generateMipmaps=false;t.minFilter=THREE.LinearFilter;actor.cosmeticTextures.push(t);return t;};
       const a=texture(open,r.atlas),b=texture(blink,r.blink||r.atlas);
       u.atlas.value=u.headAtlas.value=a;u.headBlinkAtlas.value=b;
-      const wardrobe=cosmeticsState().equipped;
+      const wardrobe=actor.cosmeticWardrobe?.equipped||cosmeticsState().equipped;
       u.flowStrength.value=cosmeticsForCharacter(actor.name).some(item=>isCosmeticEquipped(wardrobe,item,actor.name))?0:1;
       actor.cosmeticOpen=open;actor.cosmeticBlink=blink;
     }

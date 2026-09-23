@@ -44,7 +44,7 @@
   }
 
   async function perform(kind, args) {
-    if (!["purchase", "plant", "harvest"].includes(kind)) throw new Error("Unsupported farm action.");
+    if (!["purchase", "plant", "harvest", "cosmetic"].includes(kind)) throw new Error("Unsupported farm action.");
     if (inFlight) throw new Error("Please wait for the current farm action.");
     const account = student();
     if (!account?.token || !account.id) throw new Error("Log in to your student account first.");
@@ -64,7 +64,7 @@
       pending = { kind, args, id: crypto.randomUUID() };
       // Fail closed if storage is unavailable: never start an unrecoverable debit.
       sessionStorage.setItem(key, JSON.stringify(pending));
-      const result = await rpc(`eddie_farm_${kind}`, { ...args, p_request: pending.id, p_token: account.token });
+      const result = await rpc(kind === "cosmetic" ? "eddie_farm_cosmetic" : `eddie_farm_${kind}`, { ...args, p_request: pending.id, p_token: account.token });
       sessionStorage.removeItem(key);
       if (student()?.token !== account.token) throw new Error("Account changed. Refresh the farm.");
       window.dispatchEvent(new CustomEvent("edmund-coin-wallet-refresh"));

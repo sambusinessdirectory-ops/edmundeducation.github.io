@@ -18,3 +18,32 @@
 .question-translation{margin:18px 0 8px;color:var(--ink);font-size:1rem;line-height:1.75}.question-translation+.masked{margin-top:4px}
 
 .polysemy-streak{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:-8px 0 24px;padding:10px 16px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(100deg,#fffdf5,#fff 65%);overflow:hidden}.polysemy-streak-copy{position:relative;display:flex;flex-direction:column;gap:4px;min-width:130px}.polysemy-streak-copy strong{font-size:1rem}.polysemy-streak-copy small{font-size:.75rem}.polysemy-streak-fire{position:absolute;width:36px;height:36px;object-fit:contain;left:-42px;top:50%;transform:translateY(-50%);transition:width .25s,height .25s}.polysemy-streak-eddy{width:min(38vw,300px);height:94px;object-fit:contain;transition:transform .25s,filter .25s}.polysemy-streak[data-streak-stage="1"] .polysemy-streak-fire{width:44px;height:44px}.polysemy-streak[data-streak-stage="2"] .polysemy-streak-fire{width:52px;height:52px}.polysemy-streak[data-streak-stage="3"] .polysemy-streak-fire{width:60px;height:60px}.polysemy-streak[data-streak-stage="4"] .polysemy-streak-fire{width:68px;height:68px}.polysemy-streak[data-streak-stage="1"] .polysemy-streak-eddy{transform:translateY(-2px)}.polysemy-streak[data-streak-stage="2"] .polysemy-streak-eddy{transform:translateY(-4px) scale(1.02)}.polysemy-streak[data-streak-stage="3"] .polysemy-streak-eddy{transform:translateY(-6px) scale(1.04);filter:saturate(1.12)}.polysemy-streak[data-streak-stage="4"] .polysemy-streak-eddy{transform:translateY(-8px) scale(1.06);filter:saturate(1.2) drop-shadow(0 3px 7px #f4a73966)}@media(max-width:620px){.polysemy-streak{gap:8px;padding:9px 12px}.polysemy-streak-eddy{width:42vw;height:68px}.polysemy-streak-copy{min-width:100px}.polysemy-streak-copy strong{font-size:.9rem}}
+
+/* Animated Polysemy game response; 6×5 Eddie sprite atlas, row = streak mood. */
+.polysemy-streak-eddy{position:relative;width:min(38vw,300px);height:110px;display:flex;align-items:center;justify-content:center;overflow:visible;transition:transform .28s,filter .28s}
+.eddy-streak-sprite{display:block;width:100px;height:100px;background-image:url('/assets/speaking-system/mascots/streak/eddy-polysemy-streak-atlas.png');background-repeat:no-repeat;background-size:600% 500%;background-position:0 0;animation:eddy-idle-frames 1.25s steps(1,end) infinite,eddy-bob 2.4s ease-in-out infinite;transform-origin:50% 80%}
+.polysemy-streak[data-streak-stage="1"] .eddy-streak-sprite{background-position-y:25%}
+.polysemy-streak[data-streak-stage="2"] .eddy-streak-sprite{background-position-y:50%}
+.polysemy-streak[data-streak-stage="3"] .eddy-streak-sprite{background-position-y:75%}
+.polysemy-streak[data-streak-stage="4"] .eddy-streak-sprite{background-position-y:100%}
+.eddy-streak-cheer{position:absolute;right:0;top:0;padding:5px 9px;border-radius:12px;background:#fff1be;color:#634514;font-size:.74rem;font-weight:750;opacity:0;transform:translateY(5px) scale(.92);animation:eddy-cheer-in .42s .12s both}
+.polysemy-streak[data-streak-stage="1"] .eddy-streak-cheer,.polysemy-streak[data-streak-stage="2"] .eddy-streak-cheer,.polysemy-streak[data-streak-stage="3"] .eddy-streak-cheer,.polysemy-streak[data-streak-stage="4"] .eddy-streak-cheer{opacity:1}
+.question-card{animation:question-enter .42s cubic-bezier(.2,.8,.2,1) both}
+.question-card .sentence,.question-card .question-translation,.question-card>p,.question-card .answer-grid{animation:reveal-up .38s both}
+.question-card .sentence{animation-delay:.06s}.question-card .question-translation{animation-delay:.13s}.question-card .answer-grid{animation-delay:.19s}
+.question-card .answer-grid button{animation:option-enter .34s both}
+.question-card .answer-grid button:nth-child(1){animation-delay:.18s}.question-card .answer-grid button:nth-child(2){animation-delay:.22s}.question-card .answer-grid button:nth-child(3){animation-delay:.26s}.question-card .answer-grid button:nth-child(4){animation-delay:.3s}.question-card .answer-grid button:nth-child(5){animation-delay:.34s}.question-card .answer-grid button:nth-child(6){animation-delay:.38s}
+.question-card.is-correct .answer-grid button.correct{animation:correct-wobble .48s ease-in-out both}
+.question-card.is-wrong .answer-grid button.wrong{animation:wrong-shake .38s ease-in-out both}
+.question-card .feedback{animation:feedback-reveal .48s cubic-bezier(.2,.8,.2,1) both}
+@keyframes eddy-idle-frames{0%{background-position-x:0%}20%{background-position-x:20%}40%{background-position-x:40%}60%{background-position-x:60%}80%{background-position-x:80%}100%{background-position-x:100%}}
+@keyframes eddy-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@keyframes eddy-cheer-in{to{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes question-enter{from{opacity:0;transform:translateY(12px) scale(.99)}to{opacity:1;transform:none}}
+@keyframes reveal-up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes option-enter{from{opacity:0;transform:translateY(9px) scale(.98)}to{opacity:1;transform:none}}
+@keyframes correct-wobble{0%,100%{transform:rotate(0) scale(1)}25%{transform:rotate(-2deg) scale(1.035)}50%{transform:rotate(2deg) scale(1.05)}75%{transform:rotate(-1deg) scale(1.025)}}
+@keyframes wrong-shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+@keyframes feedback-reveal{from{opacity:0;transform:translateY(12px) scale(.985)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.eddy-streak-sprite,.question-card,.question-card *{animation:none!important;transition:none!important;opacity:1;transform:none}}
+@media(max-width:620px){.polysemy-streak-eddy{width:42vw;height:80px}.eddy-streak-sprite{width:76px;height:76px}.eddy-streak-cheer{font-size:.65rem}}

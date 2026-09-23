@@ -1165,8 +1165,8 @@
     host.replaceChildren();
     document.getElementById("farmPointBalance").textContent = farmSnapshot ? String(farmSnapshot.balance) : "—";
     document.getElementById("farmShopSummary").textContent = farmSnapshot
-      ? farmSnapshot.name + " · " + farmSnapshot.balance + " points · One seed per purchase"
-      : "Log in to your student account to see your points and buy seeds.";
+      ? farmSnapshot.name + " · " + farmSnapshot.balance + " coins · Seeds and clothing"
+      : "Log in to your student account to see your coins and buy seeds or clothing.";
     if (!farmSnapshot) return;
     farmSnapshot.seeds.forEach(function (seed) {
       var card = document.createElement("article"); card.className = "farm-shop-seed";
@@ -1175,10 +1175,20 @@
       if (definition) setIconContent(icon, Object.assign({}, definition, { iconUrl: definition.seedIconUrl }), "farm-shop");
       var title = document.createElement("strong"); title.textContent = seed.name;
       var quantity = document.createElement("p"); quantity.textContent = "Owned: " + seed.quantity;
-      var buy = document.createElement("button"); buy.type = "button"; buy.textContent = "Buy · " + seed.price + " points";
+      var buy = document.createElement("button"); buy.type = "button"; buy.textContent = "Buy · " + seed.price + " coins";
       buy.disabled = farmBusy || farmSnapshot.balance < seed.price;
       buy.addEventListener("click", function () { void farmAction("purchase", { p_seed: seed.id }, seed.name + " seed added."); });
       card.append(icon, title, quantity, buy); host.append(card);
+    });
+    (farmSnapshot.cosmetics || []).forEach(function (item) {
+      var card=document.createElement("article");card.className="farm-shop-seed farm-shop-cosmetic";
+      var icon=document.createElement("span");icon.className="farm-shop-seed-icon";icon.textContent=/fedora|hat/i.test(item.id)?"🧢":"🧥";
+      var title=document.createElement("strong");title.textContent=item.name;
+      var quantity=document.createElement("p");quantity.textContent=item.owned?"Owned · 可在衣櫥穿戴":"Avatar clothing and accessory";
+      var buy=document.createElement("button");buy.type="button";buy.textContent=item.owned?"Owned · 已擁有":"Buy · "+item.price+" coins";
+      buy.disabled=!!item.owned||farmBusy||farmSnapshot.balance<item.price;
+      if(!item.owned)buy.addEventListener("click",function(){void farmAction("cosmetic",{p_item:item.id},item.name+" unlocked.");});
+      card.append(icon,title,quantity,buy);host.append(card);
     });
   }
 

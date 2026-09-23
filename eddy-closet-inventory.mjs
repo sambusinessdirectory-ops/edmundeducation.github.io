@@ -17,12 +17,12 @@ export function mountClosetInventory(host,signal,{character='eddy'}={}){
   const description=document.createElement('small');description.textContent=item.description;
   const state=document.createElement('span');state.className='closet-equipped-status';
   const picture=document.createElement('span');picture.className='closet-item-picture '+item.id;picture.append(image);button.append(picture,title,description,state);grid.append(button);buttons.push([item,button,state]);
-  button.addEventListener('click',()=>{equipCosmetic(item.id,character);status.textContent='Preview updated. Save avatar to keep this look. · 儲存後套用至所有地圖';},{signal});
+  button.addEventListener('click',()=>{if(!cosmeticsState().owned.includes(item.id)){status.textContent='This item must be purchased with coins in Edmund Coin System before it can be equipped. · 請先到 Edmund Coin System 購買造型。';return;}equipCosmetic(item.id,character);status.textContent='Preview updated. Save avatar to keep this look. · 儲存後套用至所有地圖';},{signal});
  }
  let busy=false,lastSets='';
  const render=()=>{
   const data=cosmeticsState();data.outfits=outfitsForCharacter(data.outfits,character);
-  for(const [item,button,state] of buttons){const yes=isCosmeticEquipped(data.equipped,item,character);button.setAttribute('aria-pressed',String(yes));state.textContent=yes?'✓ Equipped · 已裝備':'Equip · 裝備';}
+  for(const [item,button,state] of buttons){const yes=isCosmeticEquipped(data.equipped,item,character),owned=data.owned.includes(item.id);button.setAttribute('aria-pressed',String(yes));state.textContent=yes?'✓ Equipped · 已裝備':owned?'Equip · 裝備':'🔒 '+(item.price||'')+' coins · Edmund Coin System';}
   const serialized=JSON.stringify(data.outfits);
   if(serialized!==lastSets){lastSets=serialized;sets.replaceChildren();if(!data.outfits.length)sets.textContent='No saved sets yet · 尚未儲存套裝';
    for(const outfit of [...data.outfits].sort((a,b)=>Number(b.favorite)-Number(a.favorite))){const button=document.createElement('button');button.type='button';button.textContent=outfit.name;button.dataset.outfit=outfit.name;const row=document.createElement('div');row.className='closet-saved-set';const heart=document.createElement('button');heart.type='button';heart.dataset.favorite=outfit.name;heart.textContent=outfit.favorite?'♥':'♡';heart.setAttribute('aria-label',(outfit.favorite?'Unfavorite ':'Favorite ')+outfit.name);heart.setAttribute('aria-pressed',String(!!outfit.favorite));row.append(button,heart);sets.append(row);}

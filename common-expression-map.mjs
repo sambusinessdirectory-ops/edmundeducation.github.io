@@ -1,5 +1,5 @@
 import { MAP_COMPANIONS } from './map-companions.mjs?v=20260915-noirceleste1';
-import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260923-pink-rain-jacket1';
+import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260923-coin-cosmetics1';
 import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-phoebe2';
 import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
 
@@ -174,7 +174,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     const request = ++closetRequest;
     const pending=document.createElement('div');pending.className='closet-startup';pending.setAttribute('role','status');pending.innerHTML='Opening dressing room…<progress aria-label="Loading 3D closet"></progress>';document.body.append(pending);
     try {
-      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260923-pink-rain-jacket1');
+      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20260923-coin-cosmetics1');
       if (request !== closetRequest) return;
       closetHandle?.close();
       closetHandle = openCompanionCloset({ character });
@@ -362,7 +362,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     root.querySelector('[data-map-description]').textContent=lesson.titleZh;
     root.querySelector('[data-map-description]').title=lesson.titleZh;
     root.querySelector('[data-map-number]').textContent=String(lesson.order).padStart(2,'0');
-    root.querySelectorAll('[data-character]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.character===character)));
+    root.querySelectorAll('[data-character]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.character===character)));const coin=root.querySelector('[data-eddy-map-coins]'),wallet=document.querySelector('[data-edmund-coin-wallet] strong');if(coin)coin.textContent=wallet?.textContent||'—';
     horse?.setAttribute('aria-label',CHARACTERS.find(c=>c.id===character).name);
     const closetButton=root.querySelector('[data-open-closet]');
     if (closetButton) {
@@ -422,7 +422,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     root.className='expression-map';
     root.dataset.theme=theme?.id || 'meadow';
     root.dataset.animating='false';
-    root.innerHTML=`<header class="expression-map-header"><div class="expression-map-heading"><p>${escape(theme?.kicker || 'THE EXPRESSION MEADOW')}</p><h2>${escape(theme?.title ?? '常用語探索之旅')}<small>${lessons.length} 個課題 · 全部開放</small></h2></div><fieldset class="expression-map-characters"><legend>選擇同行角色 · Your companion</legend>${CHARACTERS.map(c=>`<button class="expression-map-character" type="button" data-character="${c.id}" aria-pressed="${c.id===character}"><canvas width="74" height="96" aria-hidden="true"></canvas>${c.name}</button>`).join('')}</fieldset></header>
+    root.innerHTML=`<header class="expression-map-header"><div class="expression-map-heading"><p>${escape(theme?.kicker || 'THE EXPRESSION MEADOW')}</p><h2>${escape(theme?.title ?? '常用語探索之旅')}<small>${lessons.length} 個課題 · 全部開放</small></h2></div><fieldset class="expression-map-characters"><legend>選擇同行角色 · Your companion</legend>${CHARACTERS.map(c=>`<button class="expression-map-character" type="button" data-character="${c.id}" aria-pressed="${c.id===character}"><canvas width="74" height="96" aria-hidden="true"></canvas>${c.name}${c.id==='eddy'?'<span class="expression-map-coin-badge">🪙 <b data-eddy-map-coins>—</b></span>':''}</button>`).join('')}</fieldset></header>
     <div class="expression-map-tools"><label class="expression-map-picker"><span>前往課題</span><select aria-label="前往課題 · Choose any lesson">${lessons.map(l=>`<option value="${escape(l.id)}">${String(l.order).padStart(2,'0')} · ${escape(l.mapLabel || l.titleEn)}</option>`).join('')}</select></label><div class="expression-map-zoom" aria-label="地圖大小"><button type="button" data-zoom="out" aria-label="縮小地圖至標準大小">−</button><button type="button" data-zoom="in" aria-label="放大地圖">＋</button>${theme?.fitOverview ? '<button type="button" data-map-overview aria-pressed="false" aria-label="顯示完整地圖">全圖</button>' : ''}<button type="button" data-save-location aria-pressed="false" aria-label="定位：儲存腳下的石階作為下次登入的起點">定位</button></div></div>
     <div class="expression-map-stage"><div class="expression-map-viewport" tabindex="0" role="region" aria-label="常用語課題地圖；拖動探索，點選石階選擇課題。可用方向鍵或 WASD 走動。"><div class="expression-map-space"><div class="expression-map-world">${theme ? theme.terrain(nodes,lessons) : terrain(nodes,lessons)}${nodes.map((p,i)=>`<button type="button" class="expression-map-stone" data-map-level="${i}" style="left:${p.x}px;top:${p.y}px" aria-pressed="false" aria-expanded="false" aria-controls="${arrivalId}"><span class="expression-map-stone-number">${String(lessons[i].order).padStart(2,'0')}</span><span class="expression-map-stone-caption">${escape(lessons[i].mapLabel || lessons[i].titleEn)}</span><span class="expression-map-stone-status"></span></button>`).join('')}<svg class="expression-map-flag" width="57" height="100" viewBox="0 0 57 100" role="img" hidden><ellipse cx="7" cy="95" rx="7" ry="3" fill="#355530" opacity=".25"/><path d="M7 95V5" stroke="#786b46" stroke-width="4" stroke-linecap="round"/><circle cx="7" cy="5" r="4" fill="#e4d091"/><path class="expression-map-flag-cloth" d="M9 9Q28 3 50 11L44 25L50 40Q30 31 9 39Z" fill="var(--flag-color)" stroke="#fff1ca" stroke-width="1.5"/></svg><span class="expression-map-shadow"></span><canvas class="expression-map-horse" width="272" height="330" role="img" aria-label="Eddie"></canvas></div></div></div>
     ${theme?.overlay || ''}<article id="${arrivalId}" class="expression-map-lesson-card" role="region" aria-label="石階課題" hidden><div class="expression-map-selected"><span class="expression-map-selected-number" data-map-number></span><div class="expression-map-selected-copy"><h3 data-map-title></h3><p data-map-description></p></div><button class="expression-map-open" type="button" data-map-open><span>進入課題<small>Explore lesson</small></span><span aria-hidden="true">→</span></button></div></article></div>
@@ -431,7 +431,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     closetButton.type='button';closetButton.className='expression-map-closet-button';closetButton.dataset.openCloset='';
     closetButton.setAttribute('aria-haspopup','dialog');closetButton.setAttribute('aria-label',"Open Eddie's 3D closet");
     closetButton.innerHTML='<svg viewBox="0 0 28 32" aria-hidden="true"><path d="M3 3h22v26H3z"/><path d="M14 3v26M11 15h1M16 15h1"/><path d="M6 0h16v3H6z"/></svg><span>Closet<small>衣櫥</small></span>';
-    root.querySelector('.expression-map-characters legend').after(closetButton);
+    root.querySelector('.expression-map-characters legend').after(closetButton);window.addEventListener('edmund-coin-wallet-refresh',updateSelection);window.addEventListener('edmund-student-session-change',updateSelection);const walletActions=document.querySelector('.edmund-system-header__actions');if(walletActions&&typeof MutationObserver!=='undefined'){const walletObserver=new MutationObserver(updateSelection);walletObserver.observe(walletActions,{childList:true,subtree:true,characterData:true});}
     viewport=root.querySelector('.expression-map-viewport'); world=root.querySelector('.expression-map-world'); space=root.querySelector('.expression-map-space'); horse=root.querySelector('.expression-map-horse'); shadow=root.querySelector('.expression-map-shadow'); picker=root.querySelector('select'); status=root.querySelector('[role=status]');popup=root.querySelector('.expression-map-lesson-card');flag=root.querySelector('.expression-map-flag');pinButton=root.querySelector('[data-save-location]');
     built=true;
     world.style.width=`${WIDTH}px`; world.style.height=`${HEIGHT}px`;

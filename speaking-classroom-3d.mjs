@@ -1,6 +1,6 @@
 import * as THREE from './vendor/three/three.module.js';
 import {GLTFLoader} from './vendor/three/loaders/GLTFLoader.js';
-import {MascotCharacters} from './speaking-mascot-characters.mjs?v=20260923-pink-rain-jacket1';
+import {MascotCharacters} from './speaking-mascot-characters.mjs?v=20260923-coin-cosmetics1';
 import {updateAttention,listenerNod} from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
 import {createClassroomEnvironment} from './speaking-classroom-environment.mjs?v=20260908-room10';
 import {CAMERA_START,constrainCamera,constrainTarget,interiorOrbit} from './speaking-classroom-camera.mjs?v=20260908-room10';
@@ -26,7 +26,7 @@ export async function mountClassroom(root,candidates,onSelect,{seated=false,show
  for(let i=0;i<candidates.length;i++){
   const c=candidates[i],p=seatLayout(candidates.length,i),seat=new THREE.Group();seat.position.set(p.x,0,p.z);seat.rotation.y=p.yaw;seat.userData.candidateId=c.id;
   seat.add((await load('desk')).scene.clone(true));
-  if(c.name?.trim()){const art=await sprites.create(c.mascot||['eddy','elsie','phoebe'][i%3],seated?'seated':'standing');art.mesh.position.set(0,.04,-.56);seat.add(art.mesh);actors.push({art,yaw:p.yaw,facingYaw:p.yaw,id:c.id,phase:i*1.37,slot:i,lookYaw:0,x:p.x-.56*Math.sin(p.yaw),z:p.z-.56*Math.cos(p.yaw)});}
+  if(c.name?.trim()){const art=await sprites.create(c.mascot||['eddy','elsie','phoebe'][i%3],seated?'seated':'standing');art.cosmeticWardrobe=c.cosmeticWardrobe||null;sprites.refreshCosmetics();art.mesh.position.set(0,.04,-.56);seat.add(art.mesh);actors.push({art,yaw:p.yaw,facingYaw:p.yaw,id:c.id,phase:i*1.37,slot:i,lookYaw:0,x:p.x-.56*Math.sin(p.yaw),z:p.z-.56*Math.cos(p.yaw)});}
   mark(seat);scene.add(seat);pickables.push(seat);
   const ring=new THREE.Mesh(new THREE.TorusGeometry(.66,.028,8,48),new THREE.MeshBasicMaterial({color:0x35a875}));ring.rotation.x=-Math.PI/2;ring.position.set(p.x,.03,p.z);ring.visible=false;scene.add(ring);rings.set(c.id,ring);
  }

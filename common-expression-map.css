@@ -173,3 +173,5 @@
 .closet-startup{position:fixed;z-index:10000;top:50%;left:50%;transform:translate(-50%,-50%);padding:24px;border:1px solid #bd9450;border-radius:16px;background:#231e18;color:#fff1cb;box-shadow:0 10px 60px #0008;font:600 15px system-ui}.closet-startup progress{display:block;margin-top:14px;width:240px;accent-color:#e7bb68}
 
 .expression-map-characters{flex-wrap:wrap;align-items:center}.expression-map-character{min-width:82px}
+
+.expression-map-coin-badge{display:inline-flex;align-items:center;gap:3px;margin-left:5px;padding:2px 5px;border-radius:10px;background:#fff2bd;color:#725210;font-size:10px;white-space:nowrap}.expression-map-coin-badge b{font-variant-numeric:tabular-nums}
