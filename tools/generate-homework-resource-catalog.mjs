@@ -723,14 +723,15 @@ async function orderedLessonResources({ file, globalName, type, idPrefix, system
   });
 }
 
-async function moduleLessonResources({ file, type, systemLabel, page, titleFor, detailFor }) {
+async function moduleLessonResources({ file, type, systemLabel, page, titleFor, detailFor, allowNumberGaps = false }) {
   const moduleUrl = pathToFileURL(path.join(root, file));
   const catalogue = await import(`${moduleUrl.href}?homework-catalogue`);
   const lessons = Array.isArray(catalogue.modules) ? catalogue.modules : [];
   if (!lessons.length) throw new Error(`${systemLabel} module catalogue is empty`);
   return lessons.map((lesson, index) => {
-    const ordinal = index + 1;
-    if (Number(lesson?.number) !== ordinal || !/^[a-z0-9][a-z0-9-]{0,79}$/i.test(String(lesson?.id || ""))) {
+    const ordinal = Number(lesson?.number);
+    const previous = Number(lessons[index - 1]?.number || 0);
+    if (!Number.isSafeInteger(ordinal) || ordinal <= previous || (!allowNumberGaps && ordinal !== index + 1) || !/^[a-z0-9][a-z0-9-]{0,79}$/i.test(String(lesson?.id || ""))) {
       throw new Error(`${systemLabel} module order or id mismatch at option #${ordinal}: ${lesson?.id || "missing id"}`);
     }
     return {
@@ -764,6 +765,7 @@ const resources = [
     type: "polysemy",
     systemLabel: "Polysemy",
     page: "polysemy-lab.html",
+    allowNumberGaps: true,
     titleFor: (lesson) => lesson.word || lesson.id,
     detailFor: (lesson) => `Polysemy #${lesson.number} · ${lesson.senses?.length || 0} meanings · ${lesson.questions?.length || 0} questions`
   }),

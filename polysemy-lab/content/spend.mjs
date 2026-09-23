@@ -6,26 +6,26 @@ export default {
   "senses": [
     {
       "id": "spend-01",
-      "title": "spend + time + doing something（花時間做某事）",
-      "form": "spend = spend + time + doing something（花時間做某事）",
+      "title": "花……時間做……",
+      "form": "spend + time + doing something（花時間做某事）",
       "en": "To use a period of time doing a particular activity.",
-      "zh": "spend + time + doing something（花時間做某事）",
-      "note": "留意語境：spend = spend + time + doing something（花時間做某事）。這裡著重「spend + time + doing something（花時間做某事）」。",
+      "zh": "花……時間做……",
+      "note": "留意語境：spend + time + doing something（花時間做某事）。這裡指「花……時間做……」。",
       "examples": [
         [
           "I had spent months working on the project.",
-          "「我已經花了幾個月時間做／推進這個項目。」",
-          "spend + time + doing something（花時間做某事）"
+          "我已經花了幾個月時間做／推進這個項目。",
+          "花……時間做……"
         ],
         [
           "She spent two hours preparing her slides.",
-          "「她花了兩個小時準備投影片。」",
-          "spend + time + doing something（花時間做某事）"
+          "她花了兩個小時準備投影片。",
+          "花……時間做……"
         ],
         [
           "We spent the afternoon discussing the proposal.",
-          "「我們花了整個下午討論這項提案。」",
-          "spend + time + doing something（花時間做某事）"
+          "我們花了整個下午討論這項提案。",
+          "花……時間做……"
         ]
       ],
       "options": [],
@@ -33,21 +33,21 @@ export default {
     },
     {
       "id": "spend-02",
-      "title": "spend + time + on + noun（把時間花在……）",
-      "form": "spend = spend + time + on + noun（把時間花在……）",
+      "title": "花時間在……上",
+      "form": "spend + time + on + noun（把時間花在……）",
       "en": "spend + time + on + noun（把時間花在……）",
-      "zh": "spend + time + on + noun（把時間花在……）",
-      "note": "留意語境：spend = spend + time + on + noun（把時間花在……）。這裡著重「spend + time + on + noun（把時間花在……）」。",
+      "zh": "花時間在……上",
+      "note": "留意語境：spend + time + on + noun（把時間花在……）。這裡指「花時間在……上」。",
       "examples": [
         [
           "I spent a lot of time on the presentation.",
-          "「我花了很多時間在這次簡報上。」",
-          "spend + time + on + noun（把時間花在……）"
+          "我花了很多時間在這次簡報上。",
+          "花時間在……上"
         ],
         [
           "She spent three weeks on the report.",
-          "「她花了三個星期處理這份報告。」",
-          "spend + time + on + noun（把時間花在……）"
+          "她花了三個星期處理這份報告。",
+          "花時間在……上"
         ]
       ],
       "options": [],
@@ -55,21 +55,21 @@ export default {
     },
     {
       "id": "spend-03",
-      "title": "spend time with someone（與某人共度時間）",
-      "form": "spend = spend time with someone（與某人共度時間）",
+      "title": "跟某人一起過時間",
+      "form": "spend time with someone（與某人共度時間）",
       "en": "spend time with someone（與某人共度時間）",
-      "zh": "spend time with someone（與某人共度時間）",
-      "note": "留意語境：spend = spend time with someone（與某人共度時間）。這裡著重「spend time with someone（與某人共度時間）」。",
+      "zh": "跟某人一起過時間",
+      "note": "留意語境：spend time with someone（與某人共度時間）。這裡指「跟某人一起過時間」。",
       "examples": [
         [
           "I like to spend time with my family.",
-          "「我喜歡跟家人一起共度時間。」",
-          "spend time with someone（與某人共度時間）"
+          "我喜歡跟家人一起共度時間。",
+          "跟某人一起過時間"
         ],
         [
           "She spent the weekend with her friends.",
-          "「她和朋友一起度過了週末。」",
-          "spend time with someone（與某人共度時間）"
+          "她和朋友一起度過了週末。",
+          "跟某人一起過時間"
         ]
       ],
       "options": [],
@@ -77,21 +77,21 @@ export default {
     },
     {
       "id": "spend-04",
-      "title": "spend + period + somewhere（在某地度過一段時間）",
-      "form": "spend = spend + period + somewhere（在某地度過一段時間）",
+      "title": "在……度過",
+      "form": "spend + period + somewhere（在某地度過一段時間）",
       "en": "spend + period + somewhere（在某地度過一段時間）",
-      "zh": "spend + period + somewhere（在某地度過一段時間）",
-      "note": "留意語境：spend = spend + period + somewhere（在某地度過一段時間）。這裡著重「spend + period + somewhere（在某地度過一段時間）」。",
+      "zh": "在……度過",
+      "note": "留意語境：spend + period + somewhere（在某地度過一段時間）。這裡指「在……度過」。",
       "examples": [
         [
           "We spent three days in London.",
-          "「我們在倫敦度過了三天。」",
-          "spend + period + somewhere（在某地度過一段時間）"
+          "我們在倫敦度過了三天。",
+          "在……度過"
         ],
         [
           "She spent the summer abroad.",
-          "「她在海外度過了夏天。」",
-          "spend + period + somewhere（在某地度過一段時間）"
+          "她在海外度過了夏天。",
+          "在……度過"
         ]
       ],
       "options": [],
@@ -99,21 +99,21 @@ export default {
     },
     {
       "id": "spend-05",
-      "title": "spend + period + as/in role（以某身份度過一段時間）",
-      "form": "spend = spend + period + as/in role（以某身份度過一段時間）",
+      "title": "擔任／處於某身份一段時間",
+      "form": "spend + period + as/in role（以某身份度過一段時間）",
       "en": "spend + period + as/in role（以某身份度過一段時間）",
-      "zh": "spend + period + as/in role（以某身份度過一段時間）",
-      "note": "留意語境：spend = spend + period + as/in role（以某身份度過一段時間）。這裡著重「spend + period + as/in role（以某身份度過一段時間）」。",
+      "zh": "擔任／處於某身份一段時間",
+      "note": "留意語境：spend + period + as/in role（以某身份度過一段時間）。這裡指「擔任／處於某身份一段時間」。",
       "examples": [
         [
           "He spent five years as a manager.",
-          "「他當了五年經理。」",
-          "spend + period + as/in role（以某身份度過一段時間）"
+          "他當了五年經理。",
+          "擔任／處於某身份一段時間"
         ],
         [
           "She spent most of her career in finance.",
-          "「她職業生涯的大部分時間都在金融業度過。」",
-          "spend + period + as/in role（以某身份度過一段時間）"
+          "她職業生涯的大部分時間都在金融業度過。",
+          "擔任／處於某身份一段時間"
         ]
       ],
       "options": [],
@@ -121,21 +121,21 @@ export default {
     },
     {
       "id": "spend-06",
-      "title": "spend money（花錢）",
-      "form": "spend = spend money（花錢）",
+      "title": "花費；支出",
+      "form": "spend money（花錢）",
       "en": "To use money to buy something or pay for something.",
-      "zh": "spend money（花錢）",
-      "note": "留意語境：spend = spend money（花錢）。這裡著重「spend money（花錢）」。",
+      "zh": "花費；支出",
+      "note": "留意語境：spend money（花錢）。這裡指「花費；支出」。",
       "examples": [
         [
           "I spent too much money on new equipment.",
-          "「我在新設備上花了太多錢。」",
-          "spend money（花錢）"
+          "我在新設備上花了太多錢。",
+          "花費；支出"
         ],
         [
           "The company spent millions on the new system.",
-          "「公司在新系統上花了數百萬元。」",
-          "spend money（花錢）"
+          "公司在新系統上花了數百萬元。",
+          "花費；支出"
         ]
       ],
       "options": [],
@@ -143,21 +143,21 @@ export default {
     },
     {
       "id": "spend-07",
-      "title": "spend + money + on + noun（在……上花錢）",
-      "form": "spend = spend + money + on + noun（在……上花錢）",
+      "title": "花錢在……",
+      "form": "spend + money + on + noun（在……上花錢）",
       "en": "spend + money + on + noun（在……上花錢）",
-      "zh": "spend + money + on + noun（在……上花錢）",
-      "note": "留意語境：spend = spend + money + on + noun（在……上花錢）。這裡著重「spend + money + on + noun（在……上花錢）」。",
+      "zh": "花錢在……",
+      "note": "留意語境：spend + money + on + noun（在……上花錢）。這裡指「花錢在……」。",
       "examples": [
         [
           "She spent $500 on a new laptop.",
-          "「她花了五百元買一部新手提電腦。」",
-          "spend + money + on + noun（在……上花錢）"
+          "她花了五百元買一部新手提電腦。",
+          "花錢在……"
         ],
         [
           "The business spent heavily on advertising.",
-          "「這家公司在廣告方面投入了大量資金。」",
-          "spend + money + on + noun（在……上花錢）"
+          "這家公司在廣告方面投入了大量資金。",
+          "花錢在……"
         ]
       ],
       "options": [],
@@ -165,21 +165,21 @@ export default {
     },
     {
       "id": "spend-08",
-      "title": "spend + money + doing something（花錢做……）",
-      "form": "spend = spend + money + doing something（花錢做……）",
+      "title": "花費金錢做某事",
+      "form": "spend + money + doing something（花錢做……）",
       "en": "spend + money + doing something（花錢做……）",
-      "zh": "spend + money + doing something（花錢做……）",
-      "note": "留意語境：spend = spend + money + doing something（花錢做……）。這裡著重「spend + money + doing something（花錢做……）」。",
+      "zh": "花費金錢做某事",
+      "note": "留意語境：spend + money + doing something（花錢做……）。這裡指「花費金錢做某事」。",
       "examples": [
         [
           "They spent thousands renovating the office.",
-          "「他們花了數千元翻新辦公室。」",
-          "spend + money + doing something（花錢做……）"
+          "他們花了數千元翻新辦公室。",
+          "花費金錢做某事"
         ],
         [
           "The company spent a lot developing the product.",
-          "「公司花了大量資金開發這個產品。」",
-          "spend + money + doing something（花錢做……）"
+          "公司花了大量資金開發這個產品。",
+          "花費金錢做某事"
         ]
       ],
       "options": [],
@@ -187,21 +187,21 @@ export default {
     },
     {
       "id": "spend-09",
-      "title": "spend on yourself/someone（為自己／某人花錢）",
-      "form": "spend = spend on yourself/someone（為自己／某人花錢）",
+      "title": "為……花費",
+      "form": "spend on yourself/someone（為自己／某人花錢）",
       "en": "spend on yourself/someone（為自己／某人花錢）",
-      "zh": "spend on yourself/someone（為自己／某人花錢）",
-      "note": "留意語境：spend = spend on yourself/someone（為自己／某人花錢）。這裡著重「spend on yourself/someone（為自己／某人花錢）」。",
+      "zh": "為……花費",
+      "note": "留意語境：spend on yourself/someone（為自己／某人花錢）。這裡指「為……花費」。",
       "examples": [
         [
           "She rarely spends money on herself.",
-          "「她很少花錢在自己身上。」",
-          "spend on yourself/someone（為自己／某人花錢）"
+          "她很少花錢在自己身上。",
+          "為……花費"
         ],
         [
           "Parents often spend a lot on their children.",
-          "「父母往往會在子女身上花很多錢。」",
-          "spend on yourself/someone（為自己／某人花錢）"
+          "父母往往會在子女身上花很多錢。",
+          "為……花費"
         ]
       ],
       "options": [],
@@ -209,21 +209,21 @@ export default {
     },
     {
       "id": "spend-10",
-      "title": "spend energy/effort（耗費精力／心力）",
-      "form": "spend = spend energy/effort（耗費精力／心力）",
+      "title": "花費；耗用",
+      "form": "spend energy/effort（耗費精力／心力）",
       "en": "spend energy/effort（耗費精力／心力）",
-      "zh": "spend energy/effort（耗費精力／心力）",
-      "note": "留意語境：spend = spend energy/effort（耗費精力／心力）。這裡著重「spend energy/effort（耗費精力／心力）」。",
+      "zh": "花費；耗用",
+      "note": "留意語境：spend energy/effort（耗費精力／心力）。這裡指「花費；耗用」。",
       "examples": [
         [
           "I spent a lot of energy worrying before the presentation.",
-          "「簡報前我因為擔心而耗費了很多精力。」",
-          "spend energy/effort（耗費精力／心力）"
+          "簡報前我因為擔心而耗費了很多精力。",
+          "花費；耗用"
         ],
         [
           "Don’t spend all your energy on small details.",
-          "「不要把所有精力都耗在小細節上。」",
-          "spend energy/effort（耗費精力／心力）"
+          "不要把所有精力都耗在小細節上。",
+          "花費；耗用"
         ]
       ],
       "options": [],
@@ -231,21 +231,21 @@ export default {
     },
     {
       "id": "spend-11",
-      "title": "spend resources（耗用資源）",
-      "form": "spend = spend resources（耗用資源）",
+      "title": "使用；耗費",
+      "form": "spend resources（耗用資源）",
       "en": "spend resources（耗用資源）",
-      "zh": "spend resources（耗用資源）",
-      "note": "留意語境：spend = spend resources（耗用資源）。這裡著重「spend resources（耗用資源）」。",
+      "zh": "使用；耗費",
+      "note": "留意語境：spend resources（耗用資源）。這裡指「使用；耗費」。",
       "examples": [
         [
           "The project spent more resources than expected.",
-          "「這個項目耗用了比預期更多的資源。」",
-          "spend resources（耗用資源）"
+          "這個項目耗用了比預期更多的資源。",
+          "使用；耗費"
         ],
         [
           "We should avoid spending resources on unnecessary work.",
-          "「我們應避免在不必要的工作上耗用資源。」",
-          "spend resources（耗用資源）"
+          "我們應避免在不必要的工作上耗用資源。",
+          "使用；耗費"
         ]
       ],
       "options": [],
@@ -253,21 +253,21 @@ export default {
     },
     {
       "id": "spend-12",
-      "title": "spend time/money wisely（善用）",
-      "form": "spend = spend time/money wisely（善用）",
+      "title": "明智地花／使用",
+      "form": "spend time/money wisely（善用）",
       "en": "spend time/money wisely（善用）",
-      "zh": "spend time/money wisely（善用）",
-      "note": "留意語境：spend = spend time/money wisely（善用）。這裡著重「spend time/money wisely（善用）」。",
+      "zh": "明智地花／使用",
+      "note": "留意語境：spend time/money wisely（善用）。這裡指「明智地花／使用」。",
       "examples": [
         [
           "Try to spend your time wisely.",
-          "「要嘗試善用時間。」",
-          "spend time/money wisely（善用）"
+          "要嘗試善用時間。",
+          "明智地花／使用"
         ],
         [
           "The company needs to spend its budget wisely.",
-          "「公司需要明智地使用預算。」",
-          "spend time/money wisely（善用）"
+          "公司需要明智地使用預算。",
+          "明智地花／使用"
         ]
       ],
       "options": [],
@@ -275,21 +275,21 @@ export default {
     },
     {
       "id": "spend-13",
-      "title": "spend freely（大方花費）",
-      "form": "spend = spend freely（大方花費）",
+      "title": "大手花錢",
+      "form": "spend freely（大方花費）",
       "en": "spend freely（大方花費）",
-      "zh": "spend freely（大方花費）",
-      "note": "留意語境：spend = spend freely（大方花費）。這裡著重「spend freely（大方花費）」。",
+      "zh": "大手花錢",
+      "note": "留意語境：spend freely（大方花費）。這裡指「大手花錢」。",
       "examples": [
         [
           "Tourists were spending freely in the city.",
-          "「遊客在城內大手花錢。」",
-          "spend freely（大方花費）"
+          "遊客在城內大手花錢。",
+          "大手花錢"
         ],
         [
           "People tend to spend more freely during holidays.",
-          "「人們在假期期間往往會較大方花錢。」",
-          "spend freely（大方花費）"
+          "人們在假期期間往往會較大方花錢。",
+          "大手花錢"
         ]
       ],
       "options": [],
@@ -297,21 +297,21 @@ export default {
     },
     {
       "id": "spend-14",
-      "title": "spend heavily（大量支出）",
-      "form": "spend = spend heavily（大量支出）",
+      "title": "大量花費",
+      "form": "spend heavily（大量支出）",
       "en": "spend heavily（大量支出）",
-      "zh": "spend heavily（大量支出）",
-      "note": "留意語境：spend = spend heavily（大量支出）。這裡著重「spend heavily（大量支出）」。",
+      "zh": "大量花費",
+      "note": "留意語境：spend heavily（大量支出）。這裡指「大量花費」。",
       "examples": [
         [
           "The company spent heavily on research.",
-          "「公司在研究方面投入了大量資金。」",
-          "spend heavily（大量支出）"
+          "公司在研究方面投入了大量資金。",
+          "大量花費"
         ],
         [
           "The government is spending heavily on infrastructure.",
-          "「政府正在基建方面大量投放資金。」",
-          "spend heavily（大量支出）"
+          "政府正在基建方面大量投放資金。",
+          "大量花費"
         ]
       ],
       "options": [],
@@ -319,21 +319,21 @@ export default {
     },
     {
       "id": "spend-15",
-      "title": "use up over time（消耗）",
+      "title": "消耗；耗去",
       "form": "spend = use up over time（消耗）",
       "en": "use up over time（消耗）",
-      "zh": "use up over time（消耗）",
-      "note": "留意語境：spend = use up over time（消耗）。這裡著重「use up over time（消耗）」。",
+      "zh": "消耗；耗去",
+      "note": "留意語境：spend = use up over time（消耗）。這裡指「消耗；耗去」。",
       "examples": [
         [
           "The long journey spent much of his strength.",
-          "「漫長旅程耗去了他大量體力。」",
-          "use up over time（消耗）"
+          "漫長旅程耗去了他大量體力。",
+          "消耗；耗去"
         ],
         [
           "Years of stress had spent his energy.",
-          "「多年的壓力耗盡了他的精力。」",
-          "use up over time（消耗）"
+          "多年的壓力耗盡了他的精力。",
+          "消耗；耗去"
         ]
       ],
       "options": [],
@@ -341,21 +341,21 @@ export default {
     },
     {
       "id": "spend-16",
-      "title": "spending = act/amount of spending money（支出）",
-      "form": "spend = spending = act/amount of spending money（支出）",
+      "title": "開支；消費",
+      "form": "spending = act/amount of spending money（支出）",
       "en": "spending = act/amount of spending money（支出）",
-      "zh": "spending = act/amount of spending money（支出）",
-      "note": "留意語境：spend = spending = act/amount of spending money（支出）。這裡著重「spending = act/amount of spending money（支出）」。",
+      "zh": "開支；消費",
+      "note": "留意語境：spending = act/amount of spending money（支出）。這裡指「開支；消費」。",
       "examples": [
         [
           "The company reduced its spending.",
-          "「公司減少了開支。」",
-          "spending = act/amount of spending money（支出）"
+          "公司減少了開支。",
+          "開支；消費"
         ],
         [
           "Household spending increased last month.",
-          "「家庭消費開支上個月有所增加。」",
-          "spending = act/amount of spending money（支出）"
+          "家庭消費開支上個月有所增加。",
+          "開支；消費"
         ]
       ],
       "options": [],
@@ -363,21 +363,21 @@ export default {
     },
     {
       "id": "spend-17",
-      "title": "consumer spending（消費者支出）",
-      "form": "spend = consumer spending（消費者支出）",
+      "title": "消費開支",
+      "form": "consumer spending（消費者支出）",
       "en": "consumer spending（消費者支出）",
-      "zh": "consumer spending（消費者支出）",
-      "note": "留意語境：spend = consumer spending（消費者支出）。這裡著重「consumer spending（消費者支出）」。",
+      "zh": "消費開支",
+      "note": "留意語境：consumer spending（消費者支出）。這裡指「消費開支」。",
       "examples": [
         [
           "Consumer spending rose during the holiday season.",
-          "「假期期間消費者支出上升。」",
-          "consumer spending（消費者支出）"
+          "假期期間消費者支出上升。",
+          "消費開支"
         ],
         [
           "Weak consumer spending can slow economic growth.",
-          "「疲弱的消費開支可能拖慢經濟增長。」",
-          "consumer spending（消費者支出）"
+          "疲弱的消費開支可能拖慢經濟增長。",
+          "消費開支"
         ]
       ],
       "options": [],
@@ -385,21 +385,21 @@ export default {
     },
     {
       "id": "spend-18",
-      "title": "government/public spending（政府／公共開支）",
-      "form": "spend = government/public spending（政府／公共開支）",
+      "title": "政府支出；公共開支",
+      "form": "government/public spending（政府／公共開支）",
       "en": "government/public spending（政府／公共開支）",
-      "zh": "government/public spending（政府／公共開支）",
-      "note": "留意語境：spend = government/public spending（政府／公共開支）。這裡著重「government/public spending（政府／公共開支）」。",
+      "zh": "政府支出；公共開支",
+      "note": "留意語境：government/public spending（政府／公共開支）。這裡指「政府支出；公共開支」。",
       "examples": [
         [
           "Government spending on healthcare increased.",
-          "「政府在醫療方面的支出增加了。」",
-          "government/public spending（政府／公共開支）"
+          "政府在醫療方面的支出增加了。",
+          "政府支出；公共開支"
         ],
         [
           "The debate focused on public spending.",
-          "「辯論集中討論公共開支。」",
-          "government/public spending（政府／公共開支）"
+          "辯論集中討論公共開支。",
+          "政府支出；公共開支"
         ]
       ],
       "options": [],
@@ -407,21 +407,21 @@ export default {
     },
     {
       "id": "spend-19",
-      "title": "spending cuts（削減開支）",
-      "form": "spend = spending cuts（削減開支）",
+      "title": "開支削減",
+      "form": "spending cuts（削減開支）",
       "en": "spending cuts（削減開支）",
-      "zh": "spending cuts（削減開支）",
-      "note": "留意語境：spend = spending cuts（削減開支）。這裡著重「spending cuts（削減開支）」。",
+      "zh": "開支削減",
+      "note": "留意語境：spending cuts（削減開支）。這裡指「開支削減」。",
       "examples": [
         [
           "The department announced major spending cuts.",
-          "「部門宣布大幅削減開支。」",
-          "spending cuts（削減開支）"
+          "部門宣布大幅削減開支。",
+          "開支削減"
         ],
         [
           "The company introduced spending cuts to reduce costs.",
-          "「公司為降低成本而實施削減支出措施。」",
-          "spending cuts（削減開支）"
+          "公司為降低成本而實施削減支出措施。",
+          "開支削減"
         ]
       ],
       "options": [],
@@ -429,21 +429,21 @@ export default {
     },
     {
       "id": "spend-20",
-      "title": "spending limit（消費／支出上限）",
-      "form": "spend = spending limit（消費／支出上限）",
+      "title": "支出上限",
+      "form": "spending limit（消費／支出上限）",
       "en": "spending limit（消費／支出上限）",
-      "zh": "spending limit（消費／支出上限）",
-      "note": "留意語境：spend = spending limit（消費／支出上限）。這裡著重「spending limit（消費／支出上限）」。",
+      "zh": "支出上限",
+      "note": "留意語境：spending limit（消費／支出上限）。這裡指「支出上限」。",
       "examples": [
         [
           "The card has a daily spending limit.",
-          "「這張卡有每日消費上限。」",
-          "spending limit（消費／支出上限）"
+          "這張卡有每日消費上限。",
+          "支出上限"
         ],
         [
           "The project has a strict spending limit.",
-          "「這個項目有嚴格的支出上限。」",
-          "spending limit（消費／支出上限）"
+          "這個項目有嚴格的支出上限。",
+          "支出上限"
         ]
       ],
       "options": [],
@@ -451,21 +451,21 @@ export default {
     },
     {
       "id": "spend-21",
-      "title": "spender = person/organization that spends money（花錢者）",
-      "form": "spend = spender = person/organization that spends money（花錢者）",
+      "title": "消費者；花錢的人",
+      "form": "spender = person/organization that spends money（花錢者）",
       "en": "spender = person/organization that spends money（花錢者）",
-      "zh": "spender = person/organization that spends money（花錢者）",
-      "note": "留意語境：spend = spender = person/organization that spends money（花錢者）。這裡著重「spender = person/organization that spends money（花錢者）」。",
+      "zh": "消費者；花錢的人",
+      "note": "留意語境：spender = person/organization that spends money（花錢者）。這裡指「消費者；花錢的人」。",
       "examples": [
         [
           "He is a careful spender.",
-          "「他是一個花錢很謹慎的人。」",
-          "spender = person/organization that spends money（花錢者）"
+          "他是一個花錢很謹慎的人。",
+          "消費者；花錢的人"
         ],
         [
           "Young consumers are becoming bigger spenders online.",
-          "「年輕消費者在網上的消費額愈來愈高。」",
-          "spender = person/organization that spends money（花錢者）"
+          "年輕消費者在網上的消費額愈來愈高。",
+          "消費者；花錢的人"
         ]
       ],
       "options": [],
@@ -473,21 +473,21 @@ export default {
     },
     {
       "id": "spend-22",
-      "title": "big spender（花錢很多的人）",
-      "form": "spend = big spender（花錢很多的人）",
+      "title": "大手筆消費者",
+      "form": "big spender（花錢很多的人）",
       "en": "big spender（花錢很多的人）",
-      "zh": "big spender（花錢很多的人）",
-      "note": "留意語境：spend = big spender（花錢很多的人）。這裡著重「big spender（花錢很多的人）」。",
+      "zh": "大手筆消費者",
+      "note": "留意語境：big spender（花錢很多的人）。這裡指「大手筆消費者」。",
       "examples": [
         [
           "The hotel offers special benefits to big spenders.",
-          "「酒店為高消費顧客提供特別優惠。」",
-          "big spender（花錢很多的人）"
+          "酒店為高消費顧客提供特別優惠。",
+          "大手筆消費者"
         ],
         [
           "He has never been a big spender.",
-          "「他從來都不是一個大手花錢的人。」",
-          "big spender（花錢很多的人）"
+          "他從來都不是一個大手花錢的人。",
+          "大手筆消費者"
         ]
       ],
       "options": [],
@@ -495,21 +495,21 @@ export default {
     },
     {
       "id": "spend-23",
-      "title": "spent = used up / exhausted（用盡的）",
-      "form": "spend = spent = used up / exhausted（用盡的）",
+      "title": "耗盡的；已用完的",
+      "form": "spent = used up / exhausted（用盡的）",
       "en": "spent = used up / exhausted（用盡的）",
-      "zh": "spent = used up / exhausted（用盡的）",
-      "note": "留意語境：spend = spent = used up / exhausted（用盡的）。這裡著重「spent = used up / exhausted（用盡的）」。",
+      "zh": "耗盡的；已用完的",
+      "note": "留意語境：spent = used up / exhausted（用盡的）。這裡指「耗盡的；已用完的」。",
       "examples": [
         [
           "The fuel was completely spent.",
-          "「燃料已經完全耗盡。」",
-          "spent = used up / exhausted（用盡的）"
+          "燃料已經完全耗盡。",
+          "耗盡的；已用完的"
         ],
         [
           "The battery was nearly spent.",
-          "「電池電量幾乎耗盡。」",
-          "spent = used up / exhausted（用盡的）"
+          "電池電量幾乎耗盡。",
+          "耗盡的；已用完的"
         ]
       ],
       "options": [],
@@ -517,21 +517,21 @@ export default {
     },
     {
       "id": "spend-24",
-      "title": "spent = extremely tired / exhausted（筋疲力盡的）",
-      "form": "spend = spent = extremely tired / exhausted（筋疲力盡的）",
+      "title": "精疲力盡的",
+      "form": "spent = extremely tired / exhausted（筋疲力盡的）",
       "en": "spent = extremely tired / exhausted（筋疲力盡的）",
-      "zh": "spent = extremely tired / exhausted（筋疲力盡的）",
-      "note": "留意語境：spend = spent = extremely tired / exhausted（筋疲力盡的）。這裡著重「spent = extremely tired / exhausted（筋疲力盡的）」。",
+      "zh": "精疲力盡的",
+      "note": "留意語境：spent = extremely tired / exhausted（筋疲力盡的）。這裡指「精疲力盡的」。",
       "examples": [
         [
           "After the presentation, I felt completely spent.",
-          "「簡報結束後，我感到筋疲力盡。」",
-          "spent = extremely tired / exhausted（筋疲力盡的）"
+          "簡報結束後，我感到筋疲力盡。",
+          "精疲力盡的"
         ],
         [
           "She collapsed into a chair, emotionally spent.",
-          "「她情緒上已經精疲力竭，一下子坐到椅子上。」",
-          "spent = extremely tired / exhausted（筋疲力盡的）"
+          "她情緒上已經精疲力竭，一下子坐到椅子上。",
+          "精疲力盡的"
         ]
       ],
       "options": [],
@@ -539,21 +539,21 @@ export default {
     },
     {
       "id": "spend-25",
-      "title": "spent force（失去力量／影響力的事物）",
-      "form": "spend = spent force（失去力量／影響力的事物）",
+      "title": "已失去作用的力量",
+      "form": "spent force（失去力量／影響力的事物）",
       "en": "spent force（失去力量／影響力的事物）",
-      "zh": "spent force（失去力量／影響力的事物）",
-      "note": "留意語境：spend = spent force（失去力量／影響力的事物）。這裡著重「spent force（失去力量／影響力的事物）」。",
+      "zh": "已失去作用的力量",
+      "note": "留意語境：spent force（失去力量／影響力的事物）。這裡指「已失去作用的力量」。",
       "examples": [
         [
           "The movement had become a spent force.",
-          "「這場運動已經成為一股失去影響力的力量。」",
-          "spent force（失去力量／影響力的事物）"
+          "這場運動已經成為一股失去影響力的力量。",
+          "已失去作用的力量"
         ],
         [
           "By then, the argument was largely a spent force.",
-          "「到了那時，那個論點已經基本上失去影響力。」",
-          "spent force（失去力量／影響力的事物）"
+          "到了那時，那個論點已經基本上失去影響力。",
+          "已失去作用的力量"
         ]
       ],
       "options": [],
@@ -561,21 +561,21 @@ export default {
     },
     {
       "id": "spend-26",
-      "title": "spend the night（過夜）",
-      "form": "spend = spend the night（過夜）",
+      "title": "過夜；住一晚",
+      "form": "spend the night（過夜）",
       "en": "spend the night（過夜）",
-      "zh": "spend the night（過夜）",
-      "note": "留意語境：spend = spend the night（過夜）。這裡著重「spend the night（過夜）」。",
+      "zh": "過夜；住一晚",
+      "note": "留意語境：spend the night（過夜）。這裡指「過夜；住一晚」。",
       "examples": [
         [
           "We spent the night at a hotel.",
-          "「我們在酒店住了一晚／過夜。」",
-          "spend the night（過夜）"
+          "我們在酒店住了一晚／過夜。",
+          "過夜；住一晚"
         ],
         [
           "She had to spend the night at the airport.",
-          "「她不得不在機場過夜。」",
-          "spend the night（過夜）"
+          "她不得不在機場過夜。",
+          "過夜；住一晚"
         ]
       ],
       "options": [],
@@ -583,21 +583,21 @@ export default {
     },
     {
       "id": "spend-27",
-      "title": "spend the day/weekend/holiday（度過）",
-      "form": "spend = spend the day/weekend/holiday（度過）",
+      "title": "度過一天／週末／假期",
+      "form": "spend the day/weekend/holiday（度過）",
       "en": "spend the day/weekend/holiday（度過）",
-      "zh": "spend the day/weekend/holiday（度過）",
-      "note": "留意語境：spend = spend the day/weekend/holiday（度過）。這裡著重「spend the day/weekend/holiday（度過）」。",
+      "zh": "度過一天／週末／假期",
+      "note": "留意語境：spend the day/weekend/holiday（度過）。這裡指「度過一天／週末／假期」。",
       "examples": [
         [
           "I spent the weekend preparing for the presentation.",
-          "「我整個週末都在準備簡報。」",
-          "spend the day/weekend/holiday（度過）"
+          "我整個週末都在準備簡報。",
+          "度過一天／週末／假期"
         ],
         [
           "They spent the holiday with family.",
-          "「他們和家人一起度過假期。」",
-          "spend the day/weekend/holiday（度過）"
+          "他們和家人一起度過假期。",
+          "度過一天／週末／假期"
         ]
       ],
       "options": [],
@@ -605,21 +605,21 @@ export default {
     },
     {
       "id": "spend-28",
-      "title": "spend your life/career doing something（人生／職業生涯投入於……）",
-      "form": "spend = spend your life/career doing something（人生／職業生涯投入於……）",
+      "title": "一生／職業生涯都在……",
+      "form": "spend your life/career doing something（人生／職業生涯投入於……）",
       "en": "spend your life/career doing something（人生／職業生涯投入於……）",
-      "zh": "spend your life/career doing something（人生／職業生涯投入於……）",
-      "note": "留意語境：spend = spend your life/career doing something（人生／職業生涯投入於……）。這裡著重「spend your life/career doing something（人生／職業生涯投入於……）」。",
+      "zh": "一生／職業生涯都在……",
+      "note": "留意語境：spend your life/career doing something（人生／職業生涯投入於……）。這裡指「一生／職業生涯都在……」。",
       "examples": [
         [
           "He spent his career working in education.",
-          "「他的整個職業生涯都投身教育工作。」",
-          "spend your life/career doing something（人生／職業生涯投入於……）"
+          "他的整個職業生涯都投身教育工作。",
+          "一生／職業生涯都在……"
         ],
         [
           "She spent her life helping others.",
-          "「她一生都在幫助別人。」",
-          "spend your life/career doing something（人生／職業生涯投入於……）"
+          "她一生都在幫助別人。",
+          "一生／職業生涯都在……"
         ]
       ],
       "options": [],
@@ -631,7 +631,7 @@ export default {
       "id": "spend-01-0",
       "sense": "spend-01",
       "en": "I had spent months working on the project.",
-      "zh": "「我已經花了幾個月時間做／推進這個項目。」",
+      "zh": "我已經花了幾個月時間做／推進這個項目。",
       "masked": "I had ____ the project.",
       "options": [
         "spend-01",
@@ -641,26 +641,26 @@ export default {
         "spend-05",
         "spend-06"
       ],
-      "explanation": "留意語境：spend = spend + time + doing something（花時間做某事）。這裡著重「spend + time + doing something（花時間做某事）」。",
+      "explanation": "留意語境：spend + time + doing something（花時間做某事）。這裡指「花……時間做……」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent months working on"
       ],
       "optionReasons": {
-        "spend-01": "留意語境：spend = spend + time + doing something（花時間做某事）。這裡著重「spend + time + doing something（花時間做某事）」。",
-        "spend-02": "spend + time + on + noun（把時間花在……） 與本句語境不同。",
-        "spend-03": "spend time with someone（與某人共度時間） 與本句語境不同。",
-        "spend-04": "spend + period + somewhere（在某地度過一段時間） 與本句語境不同。",
-        "spend-05": "spend + period + as/in role（以某身份度過一段時間） 與本句語境不同。",
-        "spend-06": "spend money（花錢） 與本句語境不同。"
+        "spend-01": "本句的意思是「花……時間做……」。",
+        "spend-02": "「花時間在……上」與本句語境不同。",
+        "spend-03": "「跟某人一起過時間」與本句語境不同。",
+        "spend-04": "「在……度過」與本句語境不同。",
+        "spend-05": "「擔任／處於某身份一段時間」與本句語境不同。",
+        "spend-06": "「花費；支出」與本句語境不同。"
       }
     },
     {
       "id": "spend-01-1",
       "sense": "spend-01",
       "en": "She spent two hours preparing her slides.",
-      "zh": "「她花了兩個小時準備投影片。」",
+      "zh": "她花了兩個小時準備投影片。",
       "masked": "She ____ her slides.",
       "options": [
         "spend-01",
@@ -670,26 +670,26 @@ export default {
         "spend-05",
         "spend-06"
       ],
-      "explanation": "留意語境：spend = spend + time + doing something（花時間做某事）。這裡著重「spend + time + doing something（花時間做某事）」。",
+      "explanation": "留意語境：spend + time + doing something（花時間做某事）。這裡指「花……時間做……」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spent two hours preparing"
       ],
       "optionReasons": {
-        "spend-01": "留意語境：spend = spend + time + doing something（花時間做某事）。這裡著重「spend + time + doing something（花時間做某事）」。",
-        "spend-02": "spend + time + on + noun（把時間花在……） 與本句語境不同。",
-        "spend-03": "spend time with someone（與某人共度時間） 與本句語境不同。",
-        "spend-04": "spend + period + somewhere（在某地度過一段時間） 與本句語境不同。",
-        "spend-05": "spend + period + as/in role（以某身份度過一段時間） 與本句語境不同。",
-        "spend-06": "spend money（花錢） 與本句語境不同。"
+        "spend-01": "本句的意思是「花……時間做……」。",
+        "spend-02": "「花時間在……上」與本句語境不同。",
+        "spend-03": "「跟某人一起過時間」與本句語境不同。",
+        "spend-04": "「在……度過」與本句語境不同。",
+        "spend-05": "「擔任／處於某身份一段時間」與本句語境不同。",
+        "spend-06": "「花費；支出」與本句語境不同。"
       }
     },
     {
       "id": "spend-01-2",
       "sense": "spend-01",
       "en": "We spent the afternoon discussing the proposal.",
-      "zh": "「我們花了整個下午討論這項提案。」",
+      "zh": "我們花了整個下午討論這項提案。",
       "masked": "We ____ the proposal.",
       "options": [
         "spend-01",
@@ -699,26 +699,26 @@ export default {
         "spend-05",
         "spend-06"
       ],
-      "explanation": "留意語境：spend = spend + time + doing something（花時間做某事）。這裡著重「spend + time + doing something（花時間做某事）」。",
+      "explanation": "留意語境：spend + time + doing something（花時間做某事）。這裡指「花……時間做……」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "spent the afternoon discussing"
       ],
       "optionReasons": {
-        "spend-01": "留意語境：spend = spend + time + doing something（花時間做某事）。這裡著重「spend + time + doing something（花時間做某事）」。",
-        "spend-02": "spend + time + on + noun（把時間花在……） 與本句語境不同。",
-        "spend-03": "spend time with someone（與某人共度時間） 與本句語境不同。",
-        "spend-04": "spend + period + somewhere（在某地度過一段時間） 與本句語境不同。",
-        "spend-05": "spend + period + as/in role（以某身份度過一段時間） 與本句語境不同。",
-        "spend-06": "spend money（花錢） 與本句語境不同。"
+        "spend-01": "本句的意思是「花……時間做……」。",
+        "spend-02": "「花時間在……上」與本句語境不同。",
+        "spend-03": "「跟某人一起過時間」與本句語境不同。",
+        "spend-04": "「在……度過」與本句語境不同。",
+        "spend-05": "「擔任／處於某身份一段時間」與本句語境不同。",
+        "spend-06": "「花費；支出」與本句語境不同。"
       }
     },
     {
       "id": "spend-02-0",
       "sense": "spend-02",
       "en": "I spent a lot of time on the presentation.",
-      "zh": "「我花了很多時間在這次簡報上。」",
+      "zh": "我花了很多時間在這次簡報上。",
       "masked": "I ____ the presentation.",
       "options": [
         "spend-02",
@@ -728,26 +728,26 @@ export default {
         "spend-06",
         "spend-07"
       ],
-      "explanation": "留意語境：spend = spend + time + on + noun（把時間花在……）。這裡著重「spend + time + on + noun（把時間花在……）」。",
+      "explanation": "留意語境：spend + time + on + noun（把時間花在……）。這裡指「花時間在……上」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent a lot of time on"
       ],
       "optionReasons": {
-        "spend-02": "留意語境：spend = spend + time + on + noun（把時間花在……）。這裡著重「spend + time + on + noun（把時間花在……）」。",
-        "spend-03": "spend time with someone（與某人共度時間） 與本句語境不同。",
-        "spend-04": "spend + period + somewhere（在某地度過一段時間） 與本句語境不同。",
-        "spend-05": "spend + period + as/in role（以某身份度過一段時間） 與本句語境不同。",
-        "spend-06": "spend money（花錢） 與本句語境不同。",
-        "spend-07": "spend + money + on + noun（在……上花錢） 與本句語境不同。"
+        "spend-02": "本句的意思是「花時間在……上」。",
+        "spend-03": "「跟某人一起過時間」與本句語境不同。",
+        "spend-04": "「在……度過」與本句語境不同。",
+        "spend-05": "「擔任／處於某身份一段時間」與本句語境不同。",
+        "spend-06": "「花費；支出」與本句語境不同。",
+        "spend-07": "「花錢在……」與本句語境不同。"
       }
     },
     {
       "id": "spend-02-1",
       "sense": "spend-02",
       "en": "She spent three weeks on the report.",
-      "zh": "「她花了三個星期處理這份報告。」",
+      "zh": "她花了三個星期處理這份報告。",
       "masked": "She ____ the report.",
       "options": [
         "spend-02",
@@ -757,26 +757,26 @@ export default {
         "spend-06",
         "spend-07"
       ],
-      "explanation": "留意語境：spend = spend + time + on + noun（把時間花在……）。這裡著重「spend + time + on + noun（把時間花在……）」。",
+      "explanation": "留意語境：spend + time + on + noun（把時間花在……）。這裡指「花時間在……上」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spent three weeks on"
       ],
       "optionReasons": {
-        "spend-02": "留意語境：spend = spend + time + on + noun（把時間花在……）。這裡著重「spend + time + on + noun（把時間花在……）」。",
-        "spend-03": "spend time with someone（與某人共度時間） 與本句語境不同。",
-        "spend-04": "spend + period + somewhere（在某地度過一段時間） 與本句語境不同。",
-        "spend-05": "spend + period + as/in role（以某身份度過一段時間） 與本句語境不同。",
-        "spend-06": "spend money（花錢） 與本句語境不同。",
-        "spend-07": "spend + money + on + noun（在……上花錢） 與本句語境不同。"
+        "spend-02": "本句的意思是「花時間在……上」。",
+        "spend-03": "「跟某人一起過時間」與本句語境不同。",
+        "spend-04": "「在……度過」與本句語境不同。",
+        "spend-05": "「擔任／處於某身份一段時間」與本句語境不同。",
+        "spend-06": "「花費；支出」與本句語境不同。",
+        "spend-07": "「花錢在……」與本句語境不同。"
       }
     },
     {
       "id": "spend-03-0",
       "sense": "spend-03",
       "en": "I like to spend time with my family.",
-      "zh": "「我喜歡跟家人一起共度時間。」",
+      "zh": "我喜歡跟家人一起共度時間。",
       "masked": "I like to ____ my family.",
       "options": [
         "spend-03",
@@ -786,26 +786,26 @@ export default {
         "spend-07",
         "spend-08"
       ],
-      "explanation": "留意語境：spend = spend time with someone（與某人共度時間）。這裡著重「spend time with someone（與某人共度時間）」。",
+      "explanation": "留意語境：spend time with someone（與某人共度時間）。這裡指「跟某人一起過時間」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spend time with"
       ],
       "optionReasons": {
-        "spend-03": "留意語境：spend = spend time with someone（與某人共度時間）。這裡著重「spend time with someone（與某人共度時間）」。",
-        "spend-04": "spend + period + somewhere（在某地度過一段時間） 與本句語境不同。",
-        "spend-05": "spend + period + as/in role（以某身份度過一段時間） 與本句語境不同。",
-        "spend-06": "spend money（花錢） 與本句語境不同。",
-        "spend-07": "spend + money + on + noun（在……上花錢） 與本句語境不同。",
-        "spend-08": "spend + money + doing something（花錢做……） 與本句語境不同。"
+        "spend-03": "本句的意思是「跟某人一起過時間」。",
+        "spend-04": "「在……度過」與本句語境不同。",
+        "spend-05": "「擔任／處於某身份一段時間」與本句語境不同。",
+        "spend-06": "「花費；支出」與本句語境不同。",
+        "spend-07": "「花錢在……」與本句語境不同。",
+        "spend-08": "「花費金錢做某事」與本句語境不同。"
       }
     },
     {
       "id": "spend-03-1",
       "sense": "spend-03",
       "en": "She spent the weekend with her friends.",
-      "zh": "「她和朋友一起度過了週末。」",
+      "zh": "她和朋友一起度過了週末。",
       "masked": "She ____ her friends.",
       "options": [
         "spend-03",
@@ -815,26 +815,26 @@ export default {
         "spend-07",
         "spend-08"
       ],
-      "explanation": "留意語境：spend = spend time with someone（與某人共度時間）。這裡著重「spend time with someone（與某人共度時間）」。",
+      "explanation": "留意語境：spend time with someone（與某人共度時間）。這裡指「跟某人一起過時間」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spent the weekend with"
       ],
       "optionReasons": {
-        "spend-03": "留意語境：spend = spend time with someone（與某人共度時間）。這裡著重「spend time with someone（與某人共度時間）」。",
-        "spend-04": "spend + period + somewhere（在某地度過一段時間） 與本句語境不同。",
-        "spend-05": "spend + period + as/in role（以某身份度過一段時間） 與本句語境不同。",
-        "spend-06": "spend money（花錢） 與本句語境不同。",
-        "spend-07": "spend + money + on + noun（在……上花錢） 與本句語境不同。",
-        "spend-08": "spend + money + doing something（花錢做……） 與本句語境不同。"
+        "spend-03": "本句的意思是「跟某人一起過時間」。",
+        "spend-04": "「在……度過」與本句語境不同。",
+        "spend-05": "「擔任／處於某身份一段時間」與本句語境不同。",
+        "spend-06": "「花費；支出」與本句語境不同。",
+        "spend-07": "「花錢在……」與本句語境不同。",
+        "spend-08": "「花費金錢做某事」與本句語境不同。"
       }
     },
     {
       "id": "spend-04-0",
       "sense": "spend-04",
       "en": "We spent three days in London.",
-      "zh": "「我們在倫敦度過了三天。」",
+      "zh": "我們在倫敦度過了三天。",
       "masked": "We ____.",
       "options": [
         "spend-04",
@@ -844,26 +844,26 @@ export default {
         "spend-08",
         "spend-09"
       ],
-      "explanation": "留意語境：spend = spend + period + somewhere（在某地度過一段時間）。這裡著重「spend + period + somewhere（在某地度過一段時間）」。",
+      "explanation": "留意語境：spend + period + somewhere（在某地度過一段時間）。這裡指「在……度過」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent three days in London"
       ],
       "optionReasons": {
-        "spend-04": "留意語境：spend = spend + period + somewhere（在某地度過一段時間）。這裡著重「spend + period + somewhere（在某地度過一段時間）」。",
-        "spend-05": "spend + period + as/in role（以某身份度過一段時間） 與本句語境不同。",
-        "spend-06": "spend money（花錢） 與本句語境不同。",
-        "spend-07": "spend + money + on + noun（在……上花錢） 與本句語境不同。",
-        "spend-08": "spend + money + doing something（花錢做……） 與本句語境不同。",
-        "spend-09": "spend on yourself/someone（為自己／某人花錢） 與本句語境不同。"
+        "spend-04": "本句的意思是「在……度過」。",
+        "spend-05": "「擔任／處於某身份一段時間」與本句語境不同。",
+        "spend-06": "「花費；支出」與本句語境不同。",
+        "spend-07": "「花錢在……」與本句語境不同。",
+        "spend-08": "「花費金錢做某事」與本句語境不同。",
+        "spend-09": "「為……花費」與本句語境不同。"
       }
     },
     {
       "id": "spend-04-1",
       "sense": "spend-04",
       "en": "She spent the summer abroad.",
-      "zh": "「她在海外度過了夏天。」",
+      "zh": "她在海外度過了夏天。",
       "masked": "She ____.",
       "options": [
         "spend-04",
@@ -873,26 +873,26 @@ export default {
         "spend-08",
         "spend-09"
       ],
-      "explanation": "留意語境：spend = spend + period + somewhere（在某地度過一段時間）。這裡著重「spend + period + somewhere（在某地度過一段時間）」。",
+      "explanation": "留意語境：spend + period + somewhere（在某地度過一段時間）。這裡指「在……度過」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spent the summer abroad"
       ],
       "optionReasons": {
-        "spend-04": "留意語境：spend = spend + period + somewhere（在某地度過一段時間）。這裡著重「spend + period + somewhere（在某地度過一段時間）」。",
-        "spend-05": "spend + period + as/in role（以某身份度過一段時間） 與本句語境不同。",
-        "spend-06": "spend money（花錢） 與本句語境不同。",
-        "spend-07": "spend + money + on + noun（在……上花錢） 與本句語境不同。",
-        "spend-08": "spend + money + doing something（花錢做……） 與本句語境不同。",
-        "spend-09": "spend on yourself/someone（為自己／某人花錢） 與本句語境不同。"
+        "spend-04": "本句的意思是「在……度過」。",
+        "spend-05": "「擔任／處於某身份一段時間」與本句語境不同。",
+        "spend-06": "「花費；支出」與本句語境不同。",
+        "spend-07": "「花錢在……」與本句語境不同。",
+        "spend-08": "「花費金錢做某事」與本句語境不同。",
+        "spend-09": "「為……花費」與本句語境不同。"
       }
     },
     {
       "id": "spend-05-0",
       "sense": "spend-05",
       "en": "He spent five years as a manager.",
-      "zh": "「他當了五年經理。」",
+      "zh": "他當了五年經理。",
       "masked": "He ____.",
       "options": [
         "spend-05",
@@ -902,26 +902,26 @@ export default {
         "spend-09",
         "spend-10"
       ],
-      "explanation": "留意語境：spend = spend + period + as/in role（以某身份度過一段時間）。這裡著重「spend + period + as/in role（以某身份度過一段時間）」。",
+      "explanation": "留意語境：spend + period + as/in role（以某身份度過一段時間）。這裡指「擔任／處於某身份一段時間」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent five years as a manager"
       ],
       "optionReasons": {
-        "spend-05": "留意語境：spend = spend + period + as/in role（以某身份度過一段時間）。這裡著重「spend + period + as/in role（以某身份度過一段時間）」。",
-        "spend-06": "spend money（花錢） 與本句語境不同。",
-        "spend-07": "spend + money + on + noun（在……上花錢） 與本句語境不同。",
-        "spend-08": "spend + money + doing something（花錢做……） 與本句語境不同。",
-        "spend-09": "spend on yourself/someone（為自己／某人花錢） 與本句語境不同。",
-        "spend-10": "spend energy/effort（耗費精力／心力） 與本句語境不同。"
+        "spend-05": "本句的意思是「擔任／處於某身份一段時間」。",
+        "spend-06": "「花費；支出」與本句語境不同。",
+        "spend-07": "「花錢在……」與本句語境不同。",
+        "spend-08": "「花費金錢做某事」與本句語境不同。",
+        "spend-09": "「為……花費」與本句語境不同。",
+        "spend-10": "「花費；耗用」與本句語境不同。"
       }
     },
     {
       "id": "spend-05-1",
       "sense": "spend-05",
       "en": "She spent most of her career in finance.",
-      "zh": "「她職業生涯的大部分時間都在金融業度過。」",
+      "zh": "她職業生涯的大部分時間都在金融業度過。",
       "masked": "She ____.",
       "options": [
         "spend-05",
@@ -931,26 +931,26 @@ export default {
         "spend-09",
         "spend-10"
       ],
-      "explanation": "留意語境：spend = spend + period + as/in role（以某身份度過一段時間）。這裡著重「spend + period + as/in role（以某身份度過一段時間）」。",
+      "explanation": "留意語境：spend + period + as/in role（以某身份度過一段時間）。這裡指「擔任／處於某身份一段時間」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spent most of her career in finance"
       ],
       "optionReasons": {
-        "spend-05": "留意語境：spend = spend + period + as/in role（以某身份度過一段時間）。這裡著重「spend + period + as/in role（以某身份度過一段時間）」。",
-        "spend-06": "spend money（花錢） 與本句語境不同。",
-        "spend-07": "spend + money + on + noun（在……上花錢） 與本句語境不同。",
-        "spend-08": "spend + money + doing something（花錢做……） 與本句語境不同。",
-        "spend-09": "spend on yourself/someone（為自己／某人花錢） 與本句語境不同。",
-        "spend-10": "spend energy/effort（耗費精力／心力） 與本句語境不同。"
+        "spend-05": "本句的意思是「擔任／處於某身份一段時間」。",
+        "spend-06": "「花費；支出」與本句語境不同。",
+        "spend-07": "「花錢在……」與本句語境不同。",
+        "spend-08": "「花費金錢做某事」與本句語境不同。",
+        "spend-09": "「為……花費」與本句語境不同。",
+        "spend-10": "「花費；耗用」與本句語境不同。"
       }
     },
     {
       "id": "spend-06-0",
       "sense": "spend-06",
       "en": "I spent too much money on new equipment.",
-      "zh": "「我在新設備上花了太多錢。」",
+      "zh": "我在新設備上花了太多錢。",
       "masked": "I ____ on new equipment.",
       "options": [
         "spend-06",
@@ -960,26 +960,26 @@ export default {
         "spend-10",
         "spend-11"
       ],
-      "explanation": "留意語境：spend = spend money（花錢）。這裡著重「spend money（花錢）」。",
+      "explanation": "留意語境：spend money（花錢）。這裡指「花費；支出」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent too much money"
       ],
       "optionReasons": {
-        "spend-06": "留意語境：spend = spend money（花錢）。這裡著重「spend money（花錢）」。",
-        "spend-07": "spend + money + on + noun（在……上花錢） 與本句語境不同。",
-        "spend-08": "spend + money + doing something（花錢做……） 與本句語境不同。",
-        "spend-09": "spend on yourself/someone（為自己／某人花錢） 與本句語境不同。",
-        "spend-10": "spend energy/effort（耗費精力／心力） 與本句語境不同。",
-        "spend-11": "spend resources（耗用資源） 與本句語境不同。"
+        "spend-06": "本句的意思是「花費；支出」。",
+        "spend-07": "「花錢在……」與本句語境不同。",
+        "spend-08": "「花費金錢做某事」與本句語境不同。",
+        "spend-09": "「為……花費」與本句語境不同。",
+        "spend-10": "「花費；耗用」與本句語境不同。",
+        "spend-11": "「使用；耗費」與本句語境不同。"
       }
     },
     {
       "id": "spend-06-1",
       "sense": "spend-06",
       "en": "The company spent millions on the new system.",
-      "zh": "「公司在新系統上花了數百萬元。」",
+      "zh": "公司在新系統上花了數百萬元。",
       "masked": "The company ____ on the new system.",
       "options": [
         "spend-06",
@@ -989,26 +989,26 @@ export default {
         "spend-10",
         "spend-11"
       ],
-      "explanation": "留意語境：spend = spend money（花錢）。這裡著重「spend money（花錢）」。",
+      "explanation": "留意語境：spend money（花錢）。這裡指「花費；支出」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spent millions"
       ],
       "optionReasons": {
-        "spend-06": "留意語境：spend = spend money（花錢）。這裡著重「spend money（花錢）」。",
-        "spend-07": "spend + money + on + noun（在……上花錢） 與本句語境不同。",
-        "spend-08": "spend + money + doing something（花錢做……） 與本句語境不同。",
-        "spend-09": "spend on yourself/someone（為自己／某人花錢） 與本句語境不同。",
-        "spend-10": "spend energy/effort（耗費精力／心力） 與本句語境不同。",
-        "spend-11": "spend resources（耗用資源） 與本句語境不同。"
+        "spend-06": "本句的意思是「花費；支出」。",
+        "spend-07": "「花錢在……」與本句語境不同。",
+        "spend-08": "「花費金錢做某事」與本句語境不同。",
+        "spend-09": "「為……花費」與本句語境不同。",
+        "spend-10": "「花費；耗用」與本句語境不同。",
+        "spend-11": "「使用；耗費」與本句語境不同。"
       }
     },
     {
       "id": "spend-07-0",
       "sense": "spend-07",
       "en": "She spent $500 on a new laptop.",
-      "zh": "「她花了五百元買一部新手提電腦。」",
+      "zh": "她花了五百元買一部新手提電腦。",
       "masked": "She ____ a new laptop.",
       "options": [
         "spend-07",
@@ -1018,26 +1018,26 @@ export default {
         "spend-11",
         "spend-12"
       ],
-      "explanation": "留意語境：spend = spend + money + on + noun（在……上花錢）。這裡著重「spend + money + on + noun（在……上花錢）」。",
+      "explanation": "留意語境：spend + money + on + noun（在……上花錢）。這裡指「花錢在……」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent $500 on"
       ],
       "optionReasons": {
-        "spend-07": "留意語境：spend = spend + money + on + noun（在……上花錢）。這裡著重「spend + money + on + noun（在……上花錢）」。",
-        "spend-08": "spend + money + doing something（花錢做……） 與本句語境不同。",
-        "spend-09": "spend on yourself/someone（為自己／某人花錢） 與本句語境不同。",
-        "spend-10": "spend energy/effort（耗費精力／心力） 與本句語境不同。",
-        "spend-11": "spend resources（耗用資源） 與本句語境不同。",
-        "spend-12": "spend time/money wisely（善用） 與本句語境不同。"
+        "spend-07": "本句的意思是「花錢在……」。",
+        "spend-08": "「花費金錢做某事」與本句語境不同。",
+        "spend-09": "「為……花費」與本句語境不同。",
+        "spend-10": "「花費；耗用」與本句語境不同。",
+        "spend-11": "「使用；耗費」與本句語境不同。",
+        "spend-12": "「明智地花／使用」與本句語境不同。"
       }
     },
     {
       "id": "spend-07-1",
       "sense": "spend-07",
       "en": "The business spent heavily on advertising.",
-      "zh": "「這家公司在廣告方面投入了大量資金。」",
+      "zh": "這家公司在廣告方面投入了大量資金。",
       "masked": "The business ____ advertising.",
       "options": [
         "spend-07",
@@ -1047,26 +1047,26 @@ export default {
         "spend-11",
         "spend-12"
       ],
-      "explanation": "留意語境：spend = spend + money + on + noun（在……上花錢）。這裡著重「spend + money + on + noun（在……上花錢）」。",
+      "explanation": "留意語境：spend + money + on + noun（在……上花錢）。這裡指「花錢在……」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spent heavily on"
       ],
       "optionReasons": {
-        "spend-07": "留意語境：spend = spend + money + on + noun（在……上花錢）。這裡著重「spend + money + on + noun（在……上花錢）」。",
-        "spend-08": "spend + money + doing something（花錢做……） 與本句語境不同。",
-        "spend-09": "spend on yourself/someone（為自己／某人花錢） 與本句語境不同。",
-        "spend-10": "spend energy/effort（耗費精力／心力） 與本句語境不同。",
-        "spend-11": "spend resources（耗用資源） 與本句語境不同。",
-        "spend-12": "spend time/money wisely（善用） 與本句語境不同。"
+        "spend-07": "本句的意思是「花錢在……」。",
+        "spend-08": "「花費金錢做某事」與本句語境不同。",
+        "spend-09": "「為……花費」與本句語境不同。",
+        "spend-10": "「花費；耗用」與本句語境不同。",
+        "spend-11": "「使用；耗費」與本句語境不同。",
+        "spend-12": "「明智地花／使用」與本句語境不同。"
       }
     },
     {
       "id": "spend-08-0",
       "sense": "spend-08",
       "en": "They spent thousands renovating the office.",
-      "zh": "「他們花了數千元翻新辦公室。」",
+      "zh": "他們花了數千元翻新辦公室。",
       "masked": "They ____ the office.",
       "options": [
         "spend-08",
@@ -1076,26 +1076,26 @@ export default {
         "spend-12",
         "spend-13"
       ],
-      "explanation": "留意語境：spend = spend + money + doing something（花錢做……）。這裡著重「spend + money + doing something（花錢做……）」。",
+      "explanation": "留意語境：spend + money + doing something（花錢做……）。這裡指「花費金錢做某事」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent thousands renovating"
       ],
       "optionReasons": {
-        "spend-08": "留意語境：spend = spend + money + doing something（花錢做……）。這裡著重「spend + money + doing something（花錢做……）」。",
-        "spend-09": "spend on yourself/someone（為自己／某人花錢） 與本句語境不同。",
-        "spend-10": "spend energy/effort（耗費精力／心力） 與本句語境不同。",
-        "spend-11": "spend resources（耗用資源） 與本句語境不同。",
-        "spend-12": "spend time/money wisely（善用） 與本句語境不同。",
-        "spend-13": "spend freely（大方花費） 與本句語境不同。"
+        "spend-08": "本句的意思是「花費金錢做某事」。",
+        "spend-09": "「為……花費」與本句語境不同。",
+        "spend-10": "「花費；耗用」與本句語境不同。",
+        "spend-11": "「使用；耗費」與本句語境不同。",
+        "spend-12": "「明智地花／使用」與本句語境不同。",
+        "spend-13": "「大手花錢」與本句語境不同。"
       }
     },
     {
       "id": "spend-08-1",
       "sense": "spend-08",
       "en": "The company spent a lot developing the product.",
-      "zh": "「公司花了大量資金開發這個產品。」",
+      "zh": "公司花了大量資金開發這個產品。",
       "masked": "The company ____ the product.",
       "options": [
         "spend-08",
@@ -1105,26 +1105,26 @@ export default {
         "spend-12",
         "spend-13"
       ],
-      "explanation": "留意語境：spend = spend + money + doing something（花錢做……）。這裡著重「spend + money + doing something（花錢做……）」。",
+      "explanation": "留意語境：spend + money + doing something（花錢做……）。這裡指「花費金錢做某事」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spent a lot developing"
       ],
       "optionReasons": {
-        "spend-08": "留意語境：spend = spend + money + doing something（花錢做……）。這裡著重「spend + money + doing something（花錢做……）」。",
-        "spend-09": "spend on yourself/someone（為自己／某人花錢） 與本句語境不同。",
-        "spend-10": "spend energy/effort（耗費精力／心力） 與本句語境不同。",
-        "spend-11": "spend resources（耗用資源） 與本句語境不同。",
-        "spend-12": "spend time/money wisely（善用） 與本句語境不同。",
-        "spend-13": "spend freely（大方花費） 與本句語境不同。"
+        "spend-08": "本句的意思是「花費金錢做某事」。",
+        "spend-09": "「為……花費」與本句語境不同。",
+        "spend-10": "「花費；耗用」與本句語境不同。",
+        "spend-11": "「使用；耗費」與本句語境不同。",
+        "spend-12": "「明智地花／使用」與本句語境不同。",
+        "spend-13": "「大手花錢」與本句語境不同。"
       }
     },
     {
       "id": "spend-09-0",
       "sense": "spend-09",
       "en": "She rarely spends money on herself.",
-      "zh": "「她很少花錢在自己身上。」",
+      "zh": "她很少花錢在自己身上。",
       "masked": "She rarely ____.",
       "options": [
         "spend-09",
@@ -1134,26 +1134,26 @@ export default {
         "spend-13",
         "spend-14"
       ],
-      "explanation": "留意語境：spend = spend on yourself/someone（為自己／某人花錢）。這裡著重「spend on yourself/someone（為自己／某人花錢）」。",
+      "explanation": "留意語境：spend on yourself/someone（為自己／某人花錢）。這裡指「為……花費」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spends money on herself"
       ],
       "optionReasons": {
-        "spend-09": "留意語境：spend = spend on yourself/someone（為自己／某人花錢）。這裡著重「spend on yourself/someone（為自己／某人花錢）」。",
-        "spend-10": "spend energy/effort（耗費精力／心力） 與本句語境不同。",
-        "spend-11": "spend resources（耗用資源） 與本句語境不同。",
-        "spend-12": "spend time/money wisely（善用） 與本句語境不同。",
-        "spend-13": "spend freely（大方花費） 與本句語境不同。",
-        "spend-14": "spend heavily（大量支出） 與本句語境不同。"
+        "spend-09": "本句的意思是「為……花費」。",
+        "spend-10": "「花費；耗用」與本句語境不同。",
+        "spend-11": "「使用；耗費」與本句語境不同。",
+        "spend-12": "「明智地花／使用」與本句語境不同。",
+        "spend-13": "「大手花錢」與本句語境不同。",
+        "spend-14": "「大量花費」與本句語境不同。"
       }
     },
     {
       "id": "spend-09-1",
       "sense": "spend-09",
       "en": "Parents often spend a lot on their children.",
-      "zh": "「父母往往會在子女身上花很多錢。」",
+      "zh": "父母往往會在子女身上花很多錢。",
       "masked": "Parents often ____ their children.",
       "options": [
         "spend-09",
@@ -1163,26 +1163,26 @@ export default {
         "spend-13",
         "spend-14"
       ],
-      "explanation": "留意語境：spend = spend on yourself/someone（為自己／某人花錢）。這裡著重「spend on yourself/someone（為自己／某人花錢）」。",
+      "explanation": "留意語境：spend on yourself/someone（為自己／某人花錢）。這裡指「為……花費」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spend a lot on"
       ],
       "optionReasons": {
-        "spend-09": "留意語境：spend = spend on yourself/someone（為自己／某人花錢）。這裡著重「spend on yourself/someone（為自己／某人花錢）」。",
-        "spend-10": "spend energy/effort（耗費精力／心力） 與本句語境不同。",
-        "spend-11": "spend resources（耗用資源） 與本句語境不同。",
-        "spend-12": "spend time/money wisely（善用） 與本句語境不同。",
-        "spend-13": "spend freely（大方花費） 與本句語境不同。",
-        "spend-14": "spend heavily（大量支出） 與本句語境不同。"
+        "spend-09": "本句的意思是「為……花費」。",
+        "spend-10": "「花費；耗用」與本句語境不同。",
+        "spend-11": "「使用；耗費」與本句語境不同。",
+        "spend-12": "「明智地花／使用」與本句語境不同。",
+        "spend-13": "「大手花錢」與本句語境不同。",
+        "spend-14": "「大量花費」與本句語境不同。"
       }
     },
     {
       "id": "spend-10-0",
       "sense": "spend-10",
       "en": "I spent a lot of energy worrying before the presentation.",
-      "zh": "「簡報前我因為擔心而耗費了很多精力。」",
+      "zh": "簡報前我因為擔心而耗費了很多精力。",
       "masked": "I ____ worrying before the presentation.",
       "options": [
         "spend-10",
@@ -1192,26 +1192,26 @@ export default {
         "spend-14",
         "spend-15"
       ],
-      "explanation": "留意語境：spend = spend energy/effort（耗費精力／心力）。這裡著重「spend energy/effort（耗費精力／心力）」。",
+      "explanation": "留意語境：spend energy/effort（耗費精力／心力）。這裡指「花費；耗用」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent a lot of energy"
       ],
       "optionReasons": {
-        "spend-10": "留意語境：spend = spend energy/effort（耗費精力／心力）。這裡著重「spend energy/effort（耗費精力／心力）」。",
-        "spend-11": "spend resources（耗用資源） 與本句語境不同。",
-        "spend-12": "spend time/money wisely（善用） 與本句語境不同。",
-        "spend-13": "spend freely（大方花費） 與本句語境不同。",
-        "spend-14": "spend heavily（大量支出） 與本句語境不同。",
-        "spend-15": "use up over time（消耗） 與本句語境不同。"
+        "spend-10": "本句的意思是「花費；耗用」。",
+        "spend-11": "「使用；耗費」與本句語境不同。",
+        "spend-12": "「明智地花／使用」與本句語境不同。",
+        "spend-13": "「大手花錢」與本句語境不同。",
+        "spend-14": "「大量花費」與本句語境不同。",
+        "spend-15": "「消耗；耗去」與本句語境不同。"
       }
     },
     {
       "id": "spend-10-1",
       "sense": "spend-10",
       "en": "Don’t spend all your energy on small details.",
-      "zh": "「不要把所有精力都耗在小細節上。」",
+      "zh": "不要把所有精力都耗在小細節上。",
       "masked": "Don’t ____ on small details.",
       "options": [
         "spend-10",
@@ -1221,26 +1221,26 @@ export default {
         "spend-14",
         "spend-15"
       ],
-      "explanation": "留意語境：spend = spend energy/effort（耗費精力／心力）。這裡著重「spend energy/effort（耗費精力／心力）」。",
+      "explanation": "留意語境：spend energy/effort（耗費精力／心力）。這裡指「花費；耗用」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spend all your energy"
       ],
       "optionReasons": {
-        "spend-10": "留意語境：spend = spend energy/effort（耗費精力／心力）。這裡著重「spend energy/effort（耗費精力／心力）」。",
-        "spend-11": "spend resources（耗用資源） 與本句語境不同。",
-        "spend-12": "spend time/money wisely（善用） 與本句語境不同。",
-        "spend-13": "spend freely（大方花費） 與本句語境不同。",
-        "spend-14": "spend heavily（大量支出） 與本句語境不同。",
-        "spend-15": "use up over time（消耗） 與本句語境不同。"
+        "spend-10": "本句的意思是「花費；耗用」。",
+        "spend-11": "「使用；耗費」與本句語境不同。",
+        "spend-12": "「明智地花／使用」與本句語境不同。",
+        "spend-13": "「大手花錢」與本句語境不同。",
+        "spend-14": "「大量花費」與本句語境不同。",
+        "spend-15": "「消耗；耗去」與本句語境不同。"
       }
     },
     {
       "id": "spend-11-0",
       "sense": "spend-11",
       "en": "The project spent more resources than expected.",
-      "zh": "「這個項目耗用了比預期更多的資源。」",
+      "zh": "這個項目耗用了比預期更多的資源。",
       "masked": "The project ____ than expected.",
       "options": [
         "spend-11",
@@ -1250,26 +1250,26 @@ export default {
         "spend-15",
         "spend-16"
       ],
-      "explanation": "留意語境：spend = spend resources（耗用資源）。這裡著重「spend resources（耗用資源）」。",
+      "explanation": "留意語境：spend resources（耗用資源）。這裡指「使用；耗費」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent more resources"
       ],
       "optionReasons": {
-        "spend-11": "留意語境：spend = spend resources（耗用資源）。這裡著重「spend resources（耗用資源）」。",
-        "spend-12": "spend time/money wisely（善用） 與本句語境不同。",
-        "spend-13": "spend freely（大方花費） 與本句語境不同。",
-        "spend-14": "spend heavily（大量支出） 與本句語境不同。",
-        "spend-15": "use up over time（消耗） 與本句語境不同。",
-        "spend-16": "spending = act/amount of spending money（支出） 與本句語境不同。"
+        "spend-11": "本句的意思是「使用；耗費」。",
+        "spend-12": "「明智地花／使用」與本句語境不同。",
+        "spend-13": "「大手花錢」與本句語境不同。",
+        "spend-14": "「大量花費」與本句語境不同。",
+        "spend-15": "「消耗；耗去」與本句語境不同。",
+        "spend-16": "「開支；消費」與本句語境不同。"
       }
     },
     {
       "id": "spend-11-1",
       "sense": "spend-11",
       "en": "We should avoid spending resources on unnecessary work.",
-      "zh": "「我們應避免在不必要的工作上耗用資源。」",
+      "zh": "我們應避免在不必要的工作上耗用資源。",
       "masked": "We should avoid ____ on unnecessary work.",
       "options": [
         "spend-11",
@@ -1279,26 +1279,26 @@ export default {
         "spend-15",
         "spend-16"
       ],
-      "explanation": "留意語境：spend = spend resources（耗用資源）。這裡著重「spend resources（耗用資源）」。",
+      "explanation": "留意語境：spend resources（耗用資源）。這裡指「使用；耗費」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spending resources"
       ],
       "optionReasons": {
-        "spend-11": "留意語境：spend = spend resources（耗用資源）。這裡著重「spend resources（耗用資源）」。",
-        "spend-12": "spend time/money wisely（善用） 與本句語境不同。",
-        "spend-13": "spend freely（大方花費） 與本句語境不同。",
-        "spend-14": "spend heavily（大量支出） 與本句語境不同。",
-        "spend-15": "use up over time（消耗） 與本句語境不同。",
-        "spend-16": "spending = act/amount of spending money（支出） 與本句語境不同。"
+        "spend-11": "本句的意思是「使用；耗費」。",
+        "spend-12": "「明智地花／使用」與本句語境不同。",
+        "spend-13": "「大手花錢」與本句語境不同。",
+        "spend-14": "「大量花費」與本句語境不同。",
+        "spend-15": "「消耗；耗去」與本句語境不同。",
+        "spend-16": "「開支；消費」與本句語境不同。"
       }
     },
     {
       "id": "spend-12-0",
       "sense": "spend-12",
       "en": "Try to spend your time wisely.",
-      "zh": "「要嘗試善用時間。」",
+      "zh": "要嘗試善用時間。",
       "masked": "Try to ____.",
       "options": [
         "spend-12",
@@ -1308,26 +1308,26 @@ export default {
         "spend-16",
         "spend-17"
       ],
-      "explanation": "留意語境：spend = spend time/money wisely（善用）。這裡著重「spend time/money wisely（善用）」。",
+      "explanation": "留意語境：spend time/money wisely（善用）。這裡指「明智地花／使用」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spend your time wisely"
       ],
       "optionReasons": {
-        "spend-12": "留意語境：spend = spend time/money wisely（善用）。這裡著重「spend time/money wisely（善用）」。",
-        "spend-13": "spend freely（大方花費） 與本句語境不同。",
-        "spend-14": "spend heavily（大量支出） 與本句語境不同。",
-        "spend-15": "use up over time（消耗） 與本句語境不同。",
-        "spend-16": "spending = act/amount of spending money（支出） 與本句語境不同。",
-        "spend-17": "consumer spending（消費者支出） 與本句語境不同。"
+        "spend-12": "本句的意思是「明智地花／使用」。",
+        "spend-13": "「大手花錢」與本句語境不同。",
+        "spend-14": "「大量花費」與本句語境不同。",
+        "spend-15": "「消耗；耗去」與本句語境不同。",
+        "spend-16": "「開支；消費」與本句語境不同。",
+        "spend-17": "「消費開支」與本句語境不同。"
       }
     },
     {
       "id": "spend-12-1",
       "sense": "spend-12",
       "en": "The company needs to spend its budget wisely.",
-      "zh": "「公司需要明智地使用預算。」",
+      "zh": "公司需要明智地使用預算。",
       "masked": "The company needs to ____.",
       "options": [
         "spend-12",
@@ -1337,26 +1337,26 @@ export default {
         "spend-16",
         "spend-17"
       ],
-      "explanation": "留意語境：spend = spend time/money wisely（善用）。這裡著重「spend time/money wisely（善用）」。",
+      "explanation": "留意語境：spend time/money wisely（善用）。這裡指「明智地花／使用」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spend its budget wisely"
       ],
       "optionReasons": {
-        "spend-12": "留意語境：spend = spend time/money wisely（善用）。這裡著重「spend time/money wisely（善用）」。",
-        "spend-13": "spend freely（大方花費） 與本句語境不同。",
-        "spend-14": "spend heavily（大量支出） 與本句語境不同。",
-        "spend-15": "use up over time（消耗） 與本句語境不同。",
-        "spend-16": "spending = act/amount of spending money（支出） 與本句語境不同。",
-        "spend-17": "consumer spending（消費者支出） 與本句語境不同。"
+        "spend-12": "本句的意思是「明智地花／使用」。",
+        "spend-13": "「大手花錢」與本句語境不同。",
+        "spend-14": "「大量花費」與本句語境不同。",
+        "spend-15": "「消耗；耗去」與本句語境不同。",
+        "spend-16": "「開支；消費」與本句語境不同。",
+        "spend-17": "「消費開支」與本句語境不同。"
       }
     },
     {
       "id": "spend-13-0",
       "sense": "spend-13",
       "en": "Tourists were spending freely in the city.",
-      "zh": "「遊客在城內大手花錢。」",
+      "zh": "遊客在城內大手花錢。",
       "masked": "Tourists were ____ in the city.",
       "options": [
         "spend-13",
@@ -1366,26 +1366,26 @@ export default {
         "spend-17",
         "spend-18"
       ],
-      "explanation": "留意語境：spend = spend freely（大方花費）。這裡著重「spend freely（大方花費）」。",
+      "explanation": "留意語境：spend freely（大方花費）。這裡指「大手花錢」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spending freely"
       ],
       "optionReasons": {
-        "spend-13": "留意語境：spend = spend freely（大方花費）。這裡著重「spend freely（大方花費）」。",
-        "spend-14": "spend heavily（大量支出） 與本句語境不同。",
-        "spend-15": "use up over time（消耗） 與本句語境不同。",
-        "spend-16": "spending = act/amount of spending money（支出） 與本句語境不同。",
-        "spend-17": "consumer spending（消費者支出） 與本句語境不同。",
-        "spend-18": "government/public spending（政府／公共開支） 與本句語境不同。"
+        "spend-13": "本句的意思是「大手花錢」。",
+        "spend-14": "「大量花費」與本句語境不同。",
+        "spend-15": "「消耗；耗去」與本句語境不同。",
+        "spend-16": "「開支；消費」與本句語境不同。",
+        "spend-17": "「消費開支」與本句語境不同。",
+        "spend-18": "「政府支出；公共開支」與本句語境不同。"
       }
     },
     {
       "id": "spend-13-1",
       "sense": "spend-13",
       "en": "People tend to spend more freely during holidays.",
-      "zh": "「人們在假期期間往往會較大方花錢。」",
+      "zh": "人們在假期期間往往會較大方花錢。",
       "masked": "People tend to ____ during holidays.",
       "options": [
         "spend-13",
@@ -1395,26 +1395,26 @@ export default {
         "spend-17",
         "spend-18"
       ],
-      "explanation": "留意語境：spend = spend freely（大方花費）。這裡著重「spend freely（大方花費）」。",
+      "explanation": "留意語境：spend freely（大方花費）。這裡指「大手花錢」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spend more freely"
       ],
       "optionReasons": {
-        "spend-13": "留意語境：spend = spend freely（大方花費）。這裡著重「spend freely（大方花費）」。",
-        "spend-14": "spend heavily（大量支出） 與本句語境不同。",
-        "spend-15": "use up over time（消耗） 與本句語境不同。",
-        "spend-16": "spending = act/amount of spending money（支出） 與本句語境不同。",
-        "spend-17": "consumer spending（消費者支出） 與本句語境不同。",
-        "spend-18": "government/public spending（政府／公共開支） 與本句語境不同。"
+        "spend-13": "本句的意思是「大手花錢」。",
+        "spend-14": "「大量花費」與本句語境不同。",
+        "spend-15": "「消耗；耗去」與本句語境不同。",
+        "spend-16": "「開支；消費」與本句語境不同。",
+        "spend-17": "「消費開支」與本句語境不同。",
+        "spend-18": "「政府支出；公共開支」與本句語境不同。"
       }
     },
     {
       "id": "spend-14-0",
       "sense": "spend-14",
       "en": "The company spent heavily on research.",
-      "zh": "「公司在研究方面投入了大量資金。」",
+      "zh": "公司在研究方面投入了大量資金。",
       "masked": "The company ____ research.",
       "options": [
         "spend-14",
@@ -1424,26 +1424,26 @@ export default {
         "spend-18",
         "spend-19"
       ],
-      "explanation": "留意語境：spend = spend heavily（大量支出）。這裡著重「spend heavily（大量支出）」。",
+      "explanation": "留意語境：spend heavily（大量支出）。這裡指「大量花費」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent heavily on"
       ],
       "optionReasons": {
-        "spend-14": "留意語境：spend = spend heavily（大量支出）。這裡著重「spend heavily（大量支出）」。",
-        "spend-15": "use up over time（消耗） 與本句語境不同。",
-        "spend-16": "spending = act/amount of spending money（支出） 與本句語境不同。",
-        "spend-17": "consumer spending（消費者支出） 與本句語境不同。",
-        "spend-18": "government/public spending（政府／公共開支） 與本句語境不同。",
-        "spend-19": "spending cuts（削減開支） 與本句語境不同。"
+        "spend-14": "本句的意思是「大量花費」。",
+        "spend-15": "「消耗；耗去」與本句語境不同。",
+        "spend-16": "「開支；消費」與本句語境不同。",
+        "spend-17": "「消費開支」與本句語境不同。",
+        "spend-18": "「政府支出；公共開支」與本句語境不同。",
+        "spend-19": "「開支削減」與本句語境不同。"
       }
     },
     {
       "id": "spend-14-1",
       "sense": "spend-14",
       "en": "The government is spending heavily on infrastructure.",
-      "zh": "「政府正在基建方面大量投放資金。」",
+      "zh": "政府正在基建方面大量投放資金。",
       "masked": "The government is ____ infrastructure.",
       "options": [
         "spend-14",
@@ -1453,26 +1453,26 @@ export default {
         "spend-18",
         "spend-19"
       ],
-      "explanation": "留意語境：spend = spend heavily（大量支出）。這裡著重「spend heavily（大量支出）」。",
+      "explanation": "留意語境：spend heavily（大量支出）。這裡指「大量花費」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spending heavily on"
       ],
       "optionReasons": {
-        "spend-14": "留意語境：spend = spend heavily（大量支出）。這裡著重「spend heavily（大量支出）」。",
-        "spend-15": "use up over time（消耗） 與本句語境不同。",
-        "spend-16": "spending = act/amount of spending money（支出） 與本句語境不同。",
-        "spend-17": "consumer spending（消費者支出） 與本句語境不同。",
-        "spend-18": "government/public spending（政府／公共開支） 與本句語境不同。",
-        "spend-19": "spending cuts（削減開支） 與本句語境不同。"
+        "spend-14": "本句的意思是「大量花費」。",
+        "spend-15": "「消耗；耗去」與本句語境不同。",
+        "spend-16": "「開支；消費」與本句語境不同。",
+        "spend-17": "「消費開支」與本句語境不同。",
+        "spend-18": "「政府支出；公共開支」與本句語境不同。",
+        "spend-19": "「開支削減」與本句語境不同。"
       }
     },
     {
       "id": "spend-15-0",
       "sense": "spend-15",
       "en": "The long journey spent much of his strength.",
-      "zh": "「漫長旅程耗去了他大量體力。」",
+      "zh": "漫長旅程耗去了他大量體力。",
       "masked": "The long journey ____ much of his strength.",
       "options": [
         "spend-15",
@@ -1482,26 +1482,26 @@ export default {
         "spend-19",
         "spend-20"
       ],
-      "explanation": "留意語境：spend = use up over time（消耗）。這裡著重「use up over time（消耗）」。",
+      "explanation": "留意語境：spend = use up over time（消耗）。這裡指「消耗；耗去」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent"
       ],
       "optionReasons": {
-        "spend-15": "留意語境：spend = use up over time（消耗）。這裡著重「use up over time（消耗）」。",
-        "spend-16": "spending = act/amount of spending money（支出） 與本句語境不同。",
-        "spend-17": "consumer spending（消費者支出） 與本句語境不同。",
-        "spend-18": "government/public spending（政府／公共開支） 與本句語境不同。",
-        "spend-19": "spending cuts（削減開支） 與本句語境不同。",
-        "spend-20": "spending limit（消費／支出上限） 與本句語境不同。"
+        "spend-15": "本句的意思是「消耗；耗去」。",
+        "spend-16": "「開支；消費」與本句語境不同。",
+        "spend-17": "「消費開支」與本句語境不同。",
+        "spend-18": "「政府支出；公共開支」與本句語境不同。",
+        "spend-19": "「開支削減」與本句語境不同。",
+        "spend-20": "「支出上限」與本句語境不同。"
       }
     },
     {
       "id": "spend-15-1",
       "sense": "spend-15",
       "en": "Years of stress had spent his energy.",
-      "zh": "「多年的壓力耗盡了他的精力。」",
+      "zh": "多年的壓力耗盡了他的精力。",
       "masked": "Years of stress had ____ his energy.",
       "options": [
         "spend-15",
@@ -1511,26 +1511,26 @@ export default {
         "spend-19",
         "spend-20"
       ],
-      "explanation": "留意語境：spend = use up over time（消耗）。這裡著重「use up over time（消耗）」。",
+      "explanation": "留意語境：spend = use up over time（消耗）。這裡指「消耗；耗去」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spent"
       ],
       "optionReasons": {
-        "spend-15": "留意語境：spend = use up over time（消耗）。這裡著重「use up over time（消耗）」。",
-        "spend-16": "spending = act/amount of spending money（支出） 與本句語境不同。",
-        "spend-17": "consumer spending（消費者支出） 與本句語境不同。",
-        "spend-18": "government/public spending（政府／公共開支） 與本句語境不同。",
-        "spend-19": "spending cuts（削減開支） 與本句語境不同。",
-        "spend-20": "spending limit（消費／支出上限） 與本句語境不同。"
+        "spend-15": "本句的意思是「消耗；耗去」。",
+        "spend-16": "「開支；消費」與本句語境不同。",
+        "spend-17": "「消費開支」與本句語境不同。",
+        "spend-18": "「政府支出；公共開支」與本句語境不同。",
+        "spend-19": "「開支削減」與本句語境不同。",
+        "spend-20": "「支出上限」與本句語境不同。"
       }
     },
     {
       "id": "spend-16-0",
       "sense": "spend-16",
       "en": "The company reduced its spending.",
-      "zh": "「公司減少了開支。」",
+      "zh": "公司減少了開支。",
       "masked": "The company reduced its ____.",
       "options": [
         "spend-16",
@@ -1540,26 +1540,26 @@ export default {
         "spend-20",
         "spend-21"
       ],
-      "explanation": "留意語境：spend = spending = act/amount of spending money（支出）。這裡著重「spending = act/amount of spending money（支出）」。",
+      "explanation": "留意語境：spending = act/amount of spending money（支出）。這裡指「開支；消費」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spending"
       ],
       "optionReasons": {
-        "spend-16": "留意語境：spend = spending = act/amount of spending money（支出）。這裡著重「spending = act/amount of spending money（支出）」。",
-        "spend-17": "consumer spending（消費者支出） 與本句語境不同。",
-        "spend-18": "government/public spending（政府／公共開支） 與本句語境不同。",
-        "spend-19": "spending cuts（削減開支） 與本句語境不同。",
-        "spend-20": "spending limit（消費／支出上限） 與本句語境不同。",
-        "spend-21": "spender = person/organization that spends money（花錢者） 與本句語境不同。"
+        "spend-16": "本句的意思是「開支；消費」。",
+        "spend-17": "「消費開支」與本句語境不同。",
+        "spend-18": "「政府支出；公共開支」與本句語境不同。",
+        "spend-19": "「開支削減」與本句語境不同。",
+        "spend-20": "「支出上限」與本句語境不同。",
+        "spend-21": "「消費者；花錢的人」與本句語境不同。"
       }
     },
     {
       "id": "spend-16-1",
       "sense": "spend-16",
       "en": "Household spending increased last month.",
-      "zh": "「家庭消費開支上個月有所增加。」",
+      "zh": "家庭消費開支上個月有所增加。",
       "masked": "Household ____ increased last month.",
       "options": [
         "spend-16",
@@ -1569,26 +1569,26 @@ export default {
         "spend-20",
         "spend-21"
       ],
-      "explanation": "留意語境：spend = spending = act/amount of spending money（支出）。這裡著重「spending = act/amount of spending money（支出）」。",
+      "explanation": "留意語境：spending = act/amount of spending money（支出）。這裡指「開支；消費」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spending"
       ],
       "optionReasons": {
-        "spend-16": "留意語境：spend = spending = act/amount of spending money（支出）。這裡著重「spending = act/amount of spending money（支出）」。",
-        "spend-17": "consumer spending（消費者支出） 與本句語境不同。",
-        "spend-18": "government/public spending（政府／公共開支） 與本句語境不同。",
-        "spend-19": "spending cuts（削減開支） 與本句語境不同。",
-        "spend-20": "spending limit（消費／支出上限） 與本句語境不同。",
-        "spend-21": "spender = person/organization that spends money（花錢者） 與本句語境不同。"
+        "spend-16": "本句的意思是「開支；消費」。",
+        "spend-17": "「消費開支」與本句語境不同。",
+        "spend-18": "「政府支出；公共開支」與本句語境不同。",
+        "spend-19": "「開支削減」與本句語境不同。",
+        "spend-20": "「支出上限」與本句語境不同。",
+        "spend-21": "「消費者；花錢的人」與本句語境不同。"
       }
     },
     {
       "id": "spend-17-0",
       "sense": "spend-17",
       "en": "Consumer spending rose during the holiday season.",
-      "zh": "「假期期間消費者支出上升。」",
+      "zh": "假期期間消費者支出上升。",
       "masked": "Consumer ____ rose during the holiday season.",
       "options": [
         "spend-17",
@@ -1598,26 +1598,26 @@ export default {
         "spend-21",
         "spend-22"
       ],
-      "explanation": "留意語境：spend = consumer spending（消費者支出）。這裡著重「consumer spending（消費者支出）」。",
+      "explanation": "留意語境：consumer spending（消費者支出）。這裡指「消費開支」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spending"
       ],
       "optionReasons": {
-        "spend-17": "留意語境：spend = consumer spending（消費者支出）。這裡著重「consumer spending（消費者支出）」。",
-        "spend-18": "government/public spending（政府／公共開支） 與本句語境不同。",
-        "spend-19": "spending cuts（削減開支） 與本句語境不同。",
-        "spend-20": "spending limit（消費／支出上限） 與本句語境不同。",
-        "spend-21": "spender = person/organization that spends money（花錢者） 與本句語境不同。",
-        "spend-22": "big spender（花錢很多的人） 與本句語境不同。"
+        "spend-17": "本句的意思是「消費開支」。",
+        "spend-18": "「政府支出；公共開支」與本句語境不同。",
+        "spend-19": "「開支削減」與本句語境不同。",
+        "spend-20": "「支出上限」與本句語境不同。",
+        "spend-21": "「消費者；花錢的人」與本句語境不同。",
+        "spend-22": "「大手筆消費者」與本句語境不同。"
       }
     },
     {
       "id": "spend-17-1",
       "sense": "spend-17",
       "en": "Weak consumer spending can slow economic growth.",
-      "zh": "「疲弱的消費開支可能拖慢經濟增長。」",
+      "zh": "疲弱的消費開支可能拖慢經濟增長。",
       "masked": "Weak consumer ____ can slow economic growth.",
       "options": [
         "spend-17",
@@ -1627,26 +1627,26 @@ export default {
         "spend-21",
         "spend-22"
       ],
-      "explanation": "留意語境：spend = consumer spending（消費者支出）。這裡著重「consumer spending（消費者支出）」。",
+      "explanation": "留意語境：consumer spending（消費者支出）。這裡指「消費開支」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spending"
       ],
       "optionReasons": {
-        "spend-17": "留意語境：spend = consumer spending（消費者支出）。這裡著重「consumer spending（消費者支出）」。",
-        "spend-18": "government/public spending（政府／公共開支） 與本句語境不同。",
-        "spend-19": "spending cuts（削減開支） 與本句語境不同。",
-        "spend-20": "spending limit（消費／支出上限） 與本句語境不同。",
-        "spend-21": "spender = person/organization that spends money（花錢者） 與本句語境不同。",
-        "spend-22": "big spender（花錢很多的人） 與本句語境不同。"
+        "spend-17": "本句的意思是「消費開支」。",
+        "spend-18": "「政府支出；公共開支」與本句語境不同。",
+        "spend-19": "「開支削減」與本句語境不同。",
+        "spend-20": "「支出上限」與本句語境不同。",
+        "spend-21": "「消費者；花錢的人」與本句語境不同。",
+        "spend-22": "「大手筆消費者」與本句語境不同。"
       }
     },
     {
       "id": "spend-18-0",
       "sense": "spend-18",
       "en": "Government spending on healthcare increased.",
-      "zh": "「政府在醫療方面的支出增加了。」",
+      "zh": "政府在醫療方面的支出增加了。",
       "masked": "Government ____ on healthcare increased.",
       "options": [
         "spend-18",
@@ -1656,26 +1656,26 @@ export default {
         "spend-22",
         "spend-23"
       ],
-      "explanation": "留意語境：spend = government/public spending（政府／公共開支）。這裡著重「government/public spending（政府／公共開支）」。",
+      "explanation": "留意語境：government/public spending（政府／公共開支）。這裡指「政府支出；公共開支」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spending"
       ],
       "optionReasons": {
-        "spend-18": "留意語境：spend = government/public spending（政府／公共開支）。這裡著重「government/public spending（政府／公共開支）」。",
-        "spend-19": "spending cuts（削減開支） 與本句語境不同。",
-        "spend-20": "spending limit（消費／支出上限） 與本句語境不同。",
-        "spend-21": "spender = person/organization that spends money（花錢者） 與本句語境不同。",
-        "spend-22": "big spender（花錢很多的人） 與本句語境不同。",
-        "spend-23": "spent = used up / exhausted（用盡的） 與本句語境不同。"
+        "spend-18": "本句的意思是「政府支出；公共開支」。",
+        "spend-19": "「開支削減」與本句語境不同。",
+        "spend-20": "「支出上限」與本句語境不同。",
+        "spend-21": "「消費者；花錢的人」與本句語境不同。",
+        "spend-22": "「大手筆消費者」與本句語境不同。",
+        "spend-23": "「耗盡的；已用完的」與本句語境不同。"
       }
     },
     {
       "id": "spend-18-1",
       "sense": "spend-18",
       "en": "The debate focused on public spending.",
-      "zh": "「辯論集中討論公共開支。」",
+      "zh": "辯論集中討論公共開支。",
       "masked": "The debate focused on public ____.",
       "options": [
         "spend-18",
@@ -1685,26 +1685,26 @@ export default {
         "spend-22",
         "spend-23"
       ],
-      "explanation": "留意語境：spend = government/public spending（政府／公共開支）。這裡著重「government/public spending（政府／公共開支）」。",
+      "explanation": "留意語境：government/public spending（政府／公共開支）。這裡指「政府支出；公共開支」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spending"
       ],
       "optionReasons": {
-        "spend-18": "留意語境：spend = government/public spending（政府／公共開支）。這裡著重「government/public spending（政府／公共開支）」。",
-        "spend-19": "spending cuts（削減開支） 與本句語境不同。",
-        "spend-20": "spending limit（消費／支出上限） 與本句語境不同。",
-        "spend-21": "spender = person/organization that spends money（花錢者） 與本句語境不同。",
-        "spend-22": "big spender（花錢很多的人） 與本句語境不同。",
-        "spend-23": "spent = used up / exhausted（用盡的） 與本句語境不同。"
+        "spend-18": "本句的意思是「政府支出；公共開支」。",
+        "spend-19": "「開支削減」與本句語境不同。",
+        "spend-20": "「支出上限」與本句語境不同。",
+        "spend-21": "「消費者；花錢的人」與本句語境不同。",
+        "spend-22": "「大手筆消費者」與本句語境不同。",
+        "spend-23": "「耗盡的；已用完的」與本句語境不同。"
       }
     },
     {
       "id": "spend-19-0",
       "sense": "spend-19",
       "en": "The department announced major spending cuts.",
-      "zh": "「部門宣布大幅削減開支。」",
+      "zh": "部門宣布大幅削減開支。",
       "masked": "The department announced major ____.",
       "options": [
         "spend-19",
@@ -1714,26 +1714,26 @@ export default {
         "spend-23",
         "spend-24"
       ],
-      "explanation": "留意語境：spend = spending cuts（削減開支）。這裡著重「spending cuts（削減開支）」。",
+      "explanation": "留意語境：spending cuts（削減開支）。這裡指「開支削減」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spending cuts"
       ],
       "optionReasons": {
-        "spend-19": "留意語境：spend = spending cuts（削減開支）。這裡著重「spending cuts（削減開支）」。",
-        "spend-20": "spending limit（消費／支出上限） 與本句語境不同。",
-        "spend-21": "spender = person/organization that spends money（花錢者） 與本句語境不同。",
-        "spend-22": "big spender（花錢很多的人） 與本句語境不同。",
-        "spend-23": "spent = used up / exhausted（用盡的） 與本句語境不同。",
-        "spend-24": "spent = extremely tired / exhausted（筋疲力盡的） 與本句語境不同。"
+        "spend-19": "本句的意思是「開支削減」。",
+        "spend-20": "「支出上限」與本句語境不同。",
+        "spend-21": "「消費者；花錢的人」與本句語境不同。",
+        "spend-22": "「大手筆消費者」與本句語境不同。",
+        "spend-23": "「耗盡的；已用完的」與本句語境不同。",
+        "spend-24": "「精疲力盡的」與本句語境不同。"
       }
     },
     {
       "id": "spend-19-1",
       "sense": "spend-19",
       "en": "The company introduced spending cuts to reduce costs.",
-      "zh": "「公司為降低成本而實施削減支出措施。」",
+      "zh": "公司為降低成本而實施削減支出措施。",
       "masked": "The company introduced ____ to reduce costs.",
       "options": [
         "spend-19",
@@ -1743,26 +1743,26 @@ export default {
         "spend-23",
         "spend-24"
       ],
-      "explanation": "留意語境：spend = spending cuts（削減開支）。這裡著重「spending cuts（削減開支）」。",
+      "explanation": "留意語境：spending cuts（削減開支）。這裡指「開支削減」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spending cuts"
       ],
       "optionReasons": {
-        "spend-19": "留意語境：spend = spending cuts（削減開支）。這裡著重「spending cuts（削減開支）」。",
-        "spend-20": "spending limit（消費／支出上限） 與本句語境不同。",
-        "spend-21": "spender = person/organization that spends money（花錢者） 與本句語境不同。",
-        "spend-22": "big spender（花錢很多的人） 與本句語境不同。",
-        "spend-23": "spent = used up / exhausted（用盡的） 與本句語境不同。",
-        "spend-24": "spent = extremely tired / exhausted（筋疲力盡的） 與本句語境不同。"
+        "spend-19": "本句的意思是「開支削減」。",
+        "spend-20": "「支出上限」與本句語境不同。",
+        "spend-21": "「消費者；花錢的人」與本句語境不同。",
+        "spend-22": "「大手筆消費者」與本句語境不同。",
+        "spend-23": "「耗盡的；已用完的」與本句語境不同。",
+        "spend-24": "「精疲力盡的」與本句語境不同。"
       }
     },
     {
       "id": "spend-20-0",
       "sense": "spend-20",
       "en": "The card has a daily spending limit.",
-      "zh": "「這張卡有每日消費上限。」",
+      "zh": "這張卡有每日消費上限。",
       "masked": "The card has a daily ____.",
       "options": [
         "spend-20",
@@ -1772,26 +1772,26 @@ export default {
         "spend-24",
         "spend-25"
       ],
-      "explanation": "留意語境：spend = spending limit（消費／支出上限）。這裡著重「spending limit（消費／支出上限）」。",
+      "explanation": "留意語境：spending limit（消費／支出上限）。這裡指「支出上限」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spending limit"
       ],
       "optionReasons": {
-        "spend-20": "留意語境：spend = spending limit（消費／支出上限）。這裡著重「spending limit（消費／支出上限）」。",
-        "spend-21": "spender = person/organization that spends money（花錢者） 與本句語境不同。",
-        "spend-22": "big spender（花錢很多的人） 與本句語境不同。",
-        "spend-23": "spent = used up / exhausted（用盡的） 與本句語境不同。",
-        "spend-24": "spent = extremely tired / exhausted（筋疲力盡的） 與本句語境不同。",
-        "spend-25": "spent force（失去力量／影響力的事物） 與本句語境不同。"
+        "spend-20": "本句的意思是「支出上限」。",
+        "spend-21": "「消費者；花錢的人」與本句語境不同。",
+        "spend-22": "「大手筆消費者」與本句語境不同。",
+        "spend-23": "「耗盡的；已用完的」與本句語境不同。",
+        "spend-24": "「精疲力盡的」與本句語境不同。",
+        "spend-25": "「已失去作用的力量」與本句語境不同。"
       }
     },
     {
       "id": "spend-20-1",
       "sense": "spend-20",
       "en": "The project has a strict spending limit.",
-      "zh": "「這個項目有嚴格的支出上限。」",
+      "zh": "這個項目有嚴格的支出上限。",
       "masked": "The project has a strict ____.",
       "options": [
         "spend-20",
@@ -1801,26 +1801,26 @@ export default {
         "spend-24",
         "spend-25"
       ],
-      "explanation": "留意語境：spend = spending limit（消費／支出上限）。這裡著重「spending limit（消費／支出上限）」。",
+      "explanation": "留意語境：spending limit（消費／支出上限）。這裡指「支出上限」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spending limit"
       ],
       "optionReasons": {
-        "spend-20": "留意語境：spend = spending limit（消費／支出上限）。這裡著重「spending limit（消費／支出上限）」。",
-        "spend-21": "spender = person/organization that spends money（花錢者） 與本句語境不同。",
-        "spend-22": "big spender（花錢很多的人） 與本句語境不同。",
-        "spend-23": "spent = used up / exhausted（用盡的） 與本句語境不同。",
-        "spend-24": "spent = extremely tired / exhausted（筋疲力盡的） 與本句語境不同。",
-        "spend-25": "spent force（失去力量／影響力的事物） 與本句語境不同。"
+        "spend-20": "本句的意思是「支出上限」。",
+        "spend-21": "「消費者；花錢的人」與本句語境不同。",
+        "spend-22": "「大手筆消費者」與本句語境不同。",
+        "spend-23": "「耗盡的；已用完的」與本句語境不同。",
+        "spend-24": "「精疲力盡的」與本句語境不同。",
+        "spend-25": "「已失去作用的力量」與本句語境不同。"
       }
     },
     {
       "id": "spend-21-0",
       "sense": "spend-21",
       "en": "He is a careful spender.",
-      "zh": "「他是一個花錢很謹慎的人。」",
+      "zh": "他是一個花錢很謹慎的人。",
       "masked": "He is a careful ____.",
       "options": [
         "spend-21",
@@ -1830,26 +1830,26 @@ export default {
         "spend-25",
         "spend-26"
       ],
-      "explanation": "留意語境：spend = spender = person/organization that spends money（花錢者）。這裡著重「spender = person/organization that spends money（花錢者）」。",
+      "explanation": "留意語境：spender = person/organization that spends money（花錢者）。這裡指「消費者；花錢的人」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spender"
       ],
       "optionReasons": {
-        "spend-21": "留意語境：spend = spender = person/organization that spends money（花錢者）。這裡著重「spender = person/organization that spends money（花錢者）」。",
-        "spend-22": "big spender（花錢很多的人） 與本句語境不同。",
-        "spend-23": "spent = used up / exhausted（用盡的） 與本句語境不同。",
-        "spend-24": "spent = extremely tired / exhausted（筋疲力盡的） 與本句語境不同。",
-        "spend-25": "spent force（失去力量／影響力的事物） 與本句語境不同。",
-        "spend-26": "spend the night（過夜） 與本句語境不同。"
+        "spend-21": "本句的意思是「消費者；花錢的人」。",
+        "spend-22": "「大手筆消費者」與本句語境不同。",
+        "spend-23": "「耗盡的；已用完的」與本句語境不同。",
+        "spend-24": "「精疲力盡的」與本句語境不同。",
+        "spend-25": "「已失去作用的力量」與本句語境不同。",
+        "spend-26": "「過夜；住一晚」與本句語境不同。"
       }
     },
     {
       "id": "spend-21-1",
       "sense": "spend-21",
       "en": "Young consumers are becoming bigger spenders online.",
-      "zh": "「年輕消費者在網上的消費額愈來愈高。」",
+      "zh": "年輕消費者在網上的消費額愈來愈高。",
       "masked": "Young consumers are becoming bigger ____ online.",
       "options": [
         "spend-21",
@@ -1859,26 +1859,26 @@ export default {
         "spend-25",
         "spend-26"
       ],
-      "explanation": "留意語境：spend = spender = person/organization that spends money（花錢者）。這裡著重「spender = person/organization that spends money（花錢者）」。",
+      "explanation": "留意語境：spender = person/organization that spends money（花錢者）。這裡指「消費者；花錢的人」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spenders"
       ],
       "optionReasons": {
-        "spend-21": "留意語境：spend = spender = person/organization that spends money（花錢者）。這裡著重「spender = person/organization that spends money（花錢者）」。",
-        "spend-22": "big spender（花錢很多的人） 與本句語境不同。",
-        "spend-23": "spent = used up / exhausted（用盡的） 與本句語境不同。",
-        "spend-24": "spent = extremely tired / exhausted（筋疲力盡的） 與本句語境不同。",
-        "spend-25": "spent force（失去力量／影響力的事物） 與本句語境不同。",
-        "spend-26": "spend the night（過夜） 與本句語境不同。"
+        "spend-21": "本句的意思是「消費者；花錢的人」。",
+        "spend-22": "「大手筆消費者」與本句語境不同。",
+        "spend-23": "「耗盡的；已用完的」與本句語境不同。",
+        "spend-24": "「精疲力盡的」與本句語境不同。",
+        "spend-25": "「已失去作用的力量」與本句語境不同。",
+        "spend-26": "「過夜；住一晚」與本句語境不同。"
       }
     },
     {
       "id": "spend-22-0",
       "sense": "spend-22",
       "en": "The hotel offers special benefits to big spenders.",
-      "zh": "「酒店為高消費顧客提供特別優惠。」",
+      "zh": "酒店為高消費顧客提供特別優惠。",
       "masked": "The hotel offers special benefits to ____.",
       "options": [
         "spend-22",
@@ -1888,26 +1888,26 @@ export default {
         "spend-26",
         "spend-27"
       ],
-      "explanation": "留意語境：spend = big spender（花錢很多的人）。這裡著重「big spender（花錢很多的人）」。",
+      "explanation": "留意語境：big spender（花錢很多的人）。這裡指「大手筆消費者」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "big spenders"
       ],
       "optionReasons": {
-        "spend-22": "留意語境：spend = big spender（花錢很多的人）。這裡著重「big spender（花錢很多的人）」。",
-        "spend-23": "spent = used up / exhausted（用盡的） 與本句語境不同。",
-        "spend-24": "spent = extremely tired / exhausted（筋疲力盡的） 與本句語境不同。",
-        "spend-25": "spent force（失去力量／影響力的事物） 與本句語境不同。",
-        "spend-26": "spend the night（過夜） 與本句語境不同。",
-        "spend-27": "spend the day/weekend/holiday（度過） 與本句語境不同。"
+        "spend-22": "本句的意思是「大手筆消費者」。",
+        "spend-23": "「耗盡的；已用完的」與本句語境不同。",
+        "spend-24": "「精疲力盡的」與本句語境不同。",
+        "spend-25": "「已失去作用的力量」與本句語境不同。",
+        "spend-26": "「過夜；住一晚」與本句語境不同。",
+        "spend-27": "「度過一天／週末／假期」與本句語境不同。"
       }
     },
     {
       "id": "spend-22-1",
       "sense": "spend-22",
       "en": "He has never been a big spender.",
-      "zh": "「他從來都不是一個大手花錢的人。」",
+      "zh": "他從來都不是一個大手花錢的人。",
       "masked": "He has never been a ____.",
       "options": [
         "spend-22",
@@ -1917,26 +1917,26 @@ export default {
         "spend-26",
         "spend-27"
       ],
-      "explanation": "留意語境：spend = big spender（花錢很多的人）。這裡著重「big spender（花錢很多的人）」。",
+      "explanation": "留意語境：big spender（花錢很多的人）。這裡指「大手筆消費者」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "big spender"
       ],
       "optionReasons": {
-        "spend-22": "留意語境：spend = big spender（花錢很多的人）。這裡著重「big spender（花錢很多的人）」。",
-        "spend-23": "spent = used up / exhausted（用盡的） 與本句語境不同。",
-        "spend-24": "spent = extremely tired / exhausted（筋疲力盡的） 與本句語境不同。",
-        "spend-25": "spent force（失去力量／影響力的事物） 與本句語境不同。",
-        "spend-26": "spend the night（過夜） 與本句語境不同。",
-        "spend-27": "spend the day/weekend/holiday（度過） 與本句語境不同。"
+        "spend-22": "本句的意思是「大手筆消費者」。",
+        "spend-23": "「耗盡的；已用完的」與本句語境不同。",
+        "spend-24": "「精疲力盡的」與本句語境不同。",
+        "spend-25": "「已失去作用的力量」與本句語境不同。",
+        "spend-26": "「過夜；住一晚」與本句語境不同。",
+        "spend-27": "「度過一天／週末／假期」與本句語境不同。"
       }
     },
     {
       "id": "spend-23-0",
       "sense": "spend-23",
       "en": "The fuel was completely spent.",
-      "zh": "「燃料已經完全耗盡。」",
+      "zh": "燃料已經完全耗盡。",
       "masked": "The fuel was completely ____.",
       "options": [
         "spend-23",
@@ -1946,26 +1946,26 @@ export default {
         "spend-27",
         "spend-28"
       ],
-      "explanation": "留意語境：spend = spent = used up / exhausted（用盡的）。這裡著重「spent = used up / exhausted（用盡的）」。",
+      "explanation": "留意語境：spent = used up / exhausted（用盡的）。這裡指「耗盡的；已用完的」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent"
       ],
       "optionReasons": {
-        "spend-23": "留意語境：spend = spent = used up / exhausted（用盡的）。這裡著重「spent = used up / exhausted（用盡的）」。",
-        "spend-24": "spent = extremely tired / exhausted（筋疲力盡的） 與本句語境不同。",
-        "spend-25": "spent force（失去力量／影響力的事物） 與本句語境不同。",
-        "spend-26": "spend the night（過夜） 與本句語境不同。",
-        "spend-27": "spend the day/weekend/holiday（度過） 與本句語境不同。",
-        "spend-28": "spend your life/career doing something（人生／職業生涯投入於……） 與本句語境不同。"
+        "spend-23": "本句的意思是「耗盡的；已用完的」。",
+        "spend-24": "「精疲力盡的」與本句語境不同。",
+        "spend-25": "「已失去作用的力量」與本句語境不同。",
+        "spend-26": "「過夜；住一晚」與本句語境不同。",
+        "spend-27": "「度過一天／週末／假期」與本句語境不同。",
+        "spend-28": "「一生／職業生涯都在……」與本句語境不同。"
       }
     },
     {
       "id": "spend-23-1",
       "sense": "spend-23",
       "en": "The battery was nearly spent.",
-      "zh": "「電池電量幾乎耗盡。」",
+      "zh": "電池電量幾乎耗盡。",
       "masked": "The battery was nearly ____.",
       "options": [
         "spend-23",
@@ -1975,26 +1975,26 @@ export default {
         "spend-27",
         "spend-28"
       ],
-      "explanation": "留意語境：spend = spent = used up / exhausted（用盡的）。這裡著重「spent = used up / exhausted（用盡的）」。",
+      "explanation": "留意語境：spent = used up / exhausted（用盡的）。這裡指「耗盡的；已用完的」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spent"
       ],
       "optionReasons": {
-        "spend-23": "留意語境：spend = spent = used up / exhausted（用盡的）。這裡著重「spent = used up / exhausted（用盡的）」。",
-        "spend-24": "spent = extremely tired / exhausted（筋疲力盡的） 與本句語境不同。",
-        "spend-25": "spent force（失去力量／影響力的事物） 與本句語境不同。",
-        "spend-26": "spend the night（過夜） 與本句語境不同。",
-        "spend-27": "spend the day/weekend/holiday（度過） 與本句語境不同。",
-        "spend-28": "spend your life/career doing something（人生／職業生涯投入於……） 與本句語境不同。"
+        "spend-23": "本句的意思是「耗盡的；已用完的」。",
+        "spend-24": "「精疲力盡的」與本句語境不同。",
+        "spend-25": "「已失去作用的力量」與本句語境不同。",
+        "spend-26": "「過夜；住一晚」與本句語境不同。",
+        "spend-27": "「度過一天／週末／假期」與本句語境不同。",
+        "spend-28": "「一生／職業生涯都在……」與本句語境不同。"
       }
     },
     {
       "id": "spend-24-0",
       "sense": "spend-24",
       "en": "After the presentation, I felt completely spent.",
-      "zh": "「簡報結束後，我感到筋疲力盡。」",
+      "zh": "簡報結束後，我感到筋疲力盡。",
       "masked": "After the presentation, I felt completely ____.",
       "options": [
         "spend-24",
@@ -2004,26 +2004,26 @@ export default {
         "spend-28",
         "spend-01"
       ],
-      "explanation": "留意語境：spend = spent = extremely tired / exhausted（筋疲力盡的）。這裡著重「spent = extremely tired / exhausted（筋疲力盡的）」。",
+      "explanation": "留意語境：spent = extremely tired / exhausted（筋疲力盡的）。這裡指「精疲力盡的」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent"
       ],
       "optionReasons": {
-        "spend-24": "留意語境：spend = spent = extremely tired / exhausted（筋疲力盡的）。這裡著重「spent = extremely tired / exhausted（筋疲力盡的）」。",
-        "spend-25": "spent force（失去力量／影響力的事物） 與本句語境不同。",
-        "spend-26": "spend the night（過夜） 與本句語境不同。",
-        "spend-27": "spend the day/weekend/holiday（度過） 與本句語境不同。",
-        "spend-28": "spend your life/career doing something（人生／職業生涯投入於……） 與本句語境不同。",
-        "spend-01": "spend + time + doing something（花時間做某事） 與本句語境不同。"
+        "spend-24": "本句的意思是「精疲力盡的」。",
+        "spend-25": "「已失去作用的力量」與本句語境不同。",
+        "spend-26": "「過夜；住一晚」與本句語境不同。",
+        "spend-27": "「度過一天／週末／假期」與本句語境不同。",
+        "spend-28": "「一生／職業生涯都在……」與本句語境不同。",
+        "spend-01": "「花……時間做……」與本句語境不同。"
       }
     },
     {
       "id": "spend-24-1",
       "sense": "spend-24",
       "en": "She collapsed into a chair, emotionally spent.",
-      "zh": "「她情緒上已經精疲力竭，一下子坐到椅子上。」",
+      "zh": "她情緒上已經精疲力竭，一下子坐到椅子上。",
       "masked": "She collapsed into a chair, emotionally ____.",
       "options": [
         "spend-24",
@@ -2033,26 +2033,26 @@ export default {
         "spend-28",
         "spend-01"
       ],
-      "explanation": "留意語境：spend = spent = extremely tired / exhausted（筋疲力盡的）。這裡著重「spent = extremely tired / exhausted（筋疲力盡的）」。",
+      "explanation": "留意語境：spent = extremely tired / exhausted（筋疲力盡的）。這裡指「精疲力盡的」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spent"
       ],
       "optionReasons": {
-        "spend-24": "留意語境：spend = spent = extremely tired / exhausted（筋疲力盡的）。這裡著重「spent = extremely tired / exhausted（筋疲力盡的）」。",
-        "spend-25": "spent force（失去力量／影響力的事物） 與本句語境不同。",
-        "spend-26": "spend the night（過夜） 與本句語境不同。",
-        "spend-27": "spend the day/weekend/holiday（度過） 與本句語境不同。",
-        "spend-28": "spend your life/career doing something（人生／職業生涯投入於……） 與本句語境不同。",
-        "spend-01": "spend + time + doing something（花時間做某事） 與本句語境不同。"
+        "spend-24": "本句的意思是「精疲力盡的」。",
+        "spend-25": "「已失去作用的力量」與本句語境不同。",
+        "spend-26": "「過夜；住一晚」與本句語境不同。",
+        "spend-27": "「度過一天／週末／假期」與本句語境不同。",
+        "spend-28": "「一生／職業生涯都在……」與本句語境不同。",
+        "spend-01": "「花……時間做……」與本句語境不同。"
       }
     },
     {
       "id": "spend-25-0",
       "sense": "spend-25",
       "en": "The movement had become a spent force.",
-      "zh": "「這場運動已經成為一股失去影響力的力量。」",
+      "zh": "這場運動已經成為一股失去影響力的力量。",
       "masked": "The movement had become a ____.",
       "options": [
         "spend-25",
@@ -2062,26 +2062,26 @@ export default {
         "spend-01",
         "spend-02"
       ],
-      "explanation": "留意語境：spend = spent force（失去力量／影響力的事物）。這裡著重「spent force（失去力量／影響力的事物）」。",
+      "explanation": "留意語境：spent force（失去力量／影響力的事物）。這裡指「已失去作用的力量」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent force"
       ],
       "optionReasons": {
-        "spend-25": "留意語境：spend = spent force（失去力量／影響力的事物）。這裡著重「spent force（失去力量／影響力的事物）」。",
-        "spend-26": "spend the night（過夜） 與本句語境不同。",
-        "spend-27": "spend the day/weekend/holiday（度過） 與本句語境不同。",
-        "spend-28": "spend your life/career doing something（人生／職業生涯投入於……） 與本句語境不同。",
-        "spend-01": "spend + time + doing something（花時間做某事） 與本句語境不同。",
-        "spend-02": "spend + time + on + noun（把時間花在……） 與本句語境不同。"
+        "spend-25": "本句的意思是「已失去作用的力量」。",
+        "spend-26": "「過夜；住一晚」與本句語境不同。",
+        "spend-27": "「度過一天／週末／假期」與本句語境不同。",
+        "spend-28": "「一生／職業生涯都在……」與本句語境不同。",
+        "spend-01": "「花……時間做……」與本句語境不同。",
+        "spend-02": "「花時間在……上」與本句語境不同。"
       }
     },
     {
       "id": "spend-25-1",
       "sense": "spend-25",
       "en": "By then, the argument was largely a spent force.",
-      "zh": "「到了那時，那個論點已經基本上失去影響力。」",
+      "zh": "到了那時，那個論點已經基本上失去影響力。",
       "masked": "By then, the argument was largely a ____.",
       "options": [
         "spend-25",
@@ -2091,26 +2091,26 @@ export default {
         "spend-01",
         "spend-02"
       ],
-      "explanation": "留意語境：spend = spent force（失去力量／影響力的事物）。這裡著重「spent force（失去力量／影響力的事物）」。",
+      "explanation": "留意語境：spent force（失去力量／影響力的事物）。這裡指「已失去作用的力量」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spent force"
       ],
       "optionReasons": {
-        "spend-25": "留意語境：spend = spent force（失去力量／影響力的事物）。這裡著重「spent force（失去力量／影響力的事物）」。",
-        "spend-26": "spend the night（過夜） 與本句語境不同。",
-        "spend-27": "spend the day/weekend/holiday（度過） 與本句語境不同。",
-        "spend-28": "spend your life/career doing something（人生／職業生涯投入於……） 與本句語境不同。",
-        "spend-01": "spend + time + doing something（花時間做某事） 與本句語境不同。",
-        "spend-02": "spend + time + on + noun（把時間花在……） 與本句語境不同。"
+        "spend-25": "本句的意思是「已失去作用的力量」。",
+        "spend-26": "「過夜；住一晚」與本句語境不同。",
+        "spend-27": "「度過一天／週末／假期」與本句語境不同。",
+        "spend-28": "「一生／職業生涯都在……」與本句語境不同。",
+        "spend-01": "「花……時間做……」與本句語境不同。",
+        "spend-02": "「花時間在……上」與本句語境不同。"
       }
     },
     {
       "id": "spend-26-0",
       "sense": "spend-26",
       "en": "We spent the night at a hotel.",
-      "zh": "「我們在酒店住了一晚／過夜。」",
+      "zh": "我們在酒店住了一晚／過夜。",
       "masked": "We ____ at a hotel.",
       "options": [
         "spend-26",
@@ -2120,26 +2120,26 @@ export default {
         "spend-02",
         "spend-03"
       ],
-      "explanation": "留意語境：spend = spend the night（過夜）。這裡著重「spend the night（過夜）」。",
+      "explanation": "留意語境：spend the night（過夜）。這裡指「過夜；住一晚」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent the night"
       ],
       "optionReasons": {
-        "spend-26": "留意語境：spend = spend the night（過夜）。這裡著重「spend the night（過夜）」。",
-        "spend-27": "spend the day/weekend/holiday（度過） 與本句語境不同。",
-        "spend-28": "spend your life/career doing something（人生／職業生涯投入於……） 與本句語境不同。",
-        "spend-01": "spend + time + doing something（花時間做某事） 與本句語境不同。",
-        "spend-02": "spend + time + on + noun（把時間花在……） 與本句語境不同。",
-        "spend-03": "spend time with someone（與某人共度時間） 與本句語境不同。"
+        "spend-26": "本句的意思是「過夜；住一晚」。",
+        "spend-27": "「度過一天／週末／假期」與本句語境不同。",
+        "spend-28": "「一生／職業生涯都在……」與本句語境不同。",
+        "spend-01": "「花……時間做……」與本句語境不同。",
+        "spend-02": "「花時間在……上」與本句語境不同。",
+        "spend-03": "「跟某人一起過時間」與本句語境不同。"
       }
     },
     {
       "id": "spend-26-1",
       "sense": "spend-26",
       "en": "She had to spend the night at the airport.",
-      "zh": "「她不得不在機場過夜。」",
+      "zh": "她不得不在機場過夜。",
       "masked": "She had to ____ at the airport.",
       "options": [
         "spend-26",
@@ -2149,26 +2149,26 @@ export default {
         "spend-02",
         "spend-03"
       ],
-      "explanation": "留意語境：spend = spend the night（過夜）。這裡著重「spend the night（過夜）」。",
+      "explanation": "留意語境：spend the night（過夜）。這裡指「過夜；住一晚」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spend the night"
       ],
       "optionReasons": {
-        "spend-26": "留意語境：spend = spend the night（過夜）。這裡著重「spend the night（過夜）」。",
-        "spend-27": "spend the day/weekend/holiday（度過） 與本句語境不同。",
-        "spend-28": "spend your life/career doing something（人生／職業生涯投入於……） 與本句語境不同。",
-        "spend-01": "spend + time + doing something（花時間做某事） 與本句語境不同。",
-        "spend-02": "spend + time + on + noun（把時間花在……） 與本句語境不同。",
-        "spend-03": "spend time with someone（與某人共度時間） 與本句語境不同。"
+        "spend-26": "本句的意思是「過夜；住一晚」。",
+        "spend-27": "「度過一天／週末／假期」與本句語境不同。",
+        "spend-28": "「一生／職業生涯都在……」與本句語境不同。",
+        "spend-01": "「花……時間做……」與本句語境不同。",
+        "spend-02": "「花時間在……上」與本句語境不同。",
+        "spend-03": "「跟某人一起過時間」與本句語境不同。"
       }
     },
     {
       "id": "spend-27-0",
       "sense": "spend-27",
       "en": "I spent the weekend preparing for the presentation.",
-      "zh": "「我整個週末都在準備簡報。」",
+      "zh": "我整個週末都在準備簡報。",
       "masked": "I ____ preparing for the presentation.",
       "options": [
         "spend-27",
@@ -2178,26 +2178,26 @@ export default {
         "spend-03",
         "spend-04"
       ],
-      "explanation": "留意語境：spend = spend the day/weekend/holiday（度過）。這裡著重「spend the day/weekend/holiday（度過）」。",
+      "explanation": "留意語境：spend the day/weekend/holiday（度過）。這裡指「度過一天／週末／假期」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent the weekend"
       ],
       "optionReasons": {
-        "spend-27": "留意語境：spend = spend the day/weekend/holiday（度過）。這裡著重「spend the day/weekend/holiday（度過）」。",
-        "spend-28": "spend your life/career doing something（人生／職業生涯投入於……） 與本句語境不同。",
-        "spend-01": "spend + time + doing something（花時間做某事） 與本句語境不同。",
-        "spend-02": "spend + time + on + noun（把時間花在……） 與本句語境不同。",
-        "spend-03": "spend time with someone（與某人共度時間） 與本句語境不同。",
-        "spend-04": "spend + period + somewhere（在某地度過一段時間） 與本句語境不同。"
+        "spend-27": "本句的意思是「度過一天／週末／假期」。",
+        "spend-28": "「一生／職業生涯都在……」與本句語境不同。",
+        "spend-01": "「花……時間做……」與本句語境不同。",
+        "spend-02": "「花時間在……上」與本句語境不同。",
+        "spend-03": "「跟某人一起過時間」與本句語境不同。",
+        "spend-04": "「在……度過」與本句語境不同。"
       }
     },
     {
       "id": "spend-27-1",
       "sense": "spend-27",
       "en": "They spent the holiday with family.",
-      "zh": "「他們和家人一起度過假期。」",
+      "zh": "他們和家人一起度過假期。",
       "masked": "They ____ with family.",
       "options": [
         "spend-27",
@@ -2207,26 +2207,26 @@ export default {
         "spend-03",
         "spend-04"
       ],
-      "explanation": "留意語境：spend = spend the day/weekend/holiday（度過）。這裡著重「spend the day/weekend/holiday（度過）」。",
+      "explanation": "留意語境：spend the day/weekend/holiday（度過）。這裡指「度過一天／週末／假期」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spent the holiday"
       ],
       "optionReasons": {
-        "spend-27": "留意語境：spend = spend the day/weekend/holiday（度過）。這裡著重「spend the day/weekend/holiday（度過）」。",
-        "spend-28": "spend your life/career doing something（人生／職業生涯投入於……） 與本句語境不同。",
-        "spend-01": "spend + time + doing something（花時間做某事） 與本句語境不同。",
-        "spend-02": "spend + time + on + noun（把時間花在……） 與本句語境不同。",
-        "spend-03": "spend time with someone（與某人共度時間） 與本句語境不同。",
-        "spend-04": "spend + period + somewhere（在某地度過一段時間） 與本句語境不同。"
+        "spend-27": "本句的意思是「度過一天／週末／假期」。",
+        "spend-28": "「一生／職業生涯都在……」與本句語境不同。",
+        "spend-01": "「花……時間做……」與本句語境不同。",
+        "spend-02": "「花時間在……上」與本句語境不同。",
+        "spend-03": "「跟某人一起過時間」與本句語境不同。",
+        "spend-04": "「在……度過」與本句語境不同。"
       }
     },
     {
       "id": "spend-28-0",
       "sense": "spend-28",
       "en": "He spent his career working in education.",
-      "zh": "「他的整個職業生涯都投身教育工作。」",
+      "zh": "他的整個職業生涯都投身教育工作。",
       "masked": "He ____ in education.",
       "options": [
         "spend-28",
@@ -2236,26 +2236,26 @@ export default {
         "spend-04",
         "spend-05"
       ],
-      "explanation": "留意語境：spend = spend your life/career doing something（人生／職業生涯投入於……）。這裡著重「spend your life/career doing something（人生／職業生涯投入於……）」。",
+      "explanation": "留意語境：spend your life/career doing something（人生／職業生涯投入於……）。這裡指「一生／職業生涯都在……」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent his career working"
       ],
       "optionReasons": {
-        "spend-28": "留意語境：spend = spend your life/career doing something（人生／職業生涯投入於……）。這裡著重「spend your life/career doing something（人生／職業生涯投入於……）」。",
-        "spend-01": "spend + time + doing something（花時間做某事） 與本句語境不同。",
-        "spend-02": "spend + time + on + noun（把時間花在……） 與本句語境不同。",
-        "spend-03": "spend time with someone（與某人共度時間） 與本句語境不同。",
-        "spend-04": "spend + period + somewhere（在某地度過一段時間） 與本句語境不同。",
-        "spend-05": "spend + period + as/in role（以某身份度過一段時間） 與本句語境不同。"
+        "spend-28": "本句的意思是「一生／職業生涯都在……」。",
+        "spend-01": "「花……時間做……」與本句語境不同。",
+        "spend-02": "「花時間在……上」與本句語境不同。",
+        "spend-03": "「跟某人一起過時間」與本句語境不同。",
+        "spend-04": "「在……度過」與本句語境不同。",
+        "spend-05": "「擔任／處於某身份一段時間」與本句語境不同。"
       }
     },
     {
       "id": "spend-28-1",
       "sense": "spend-28",
       "en": "She spent her life helping others.",
-      "zh": "「她一生都在幫助別人。」",
+      "zh": "她一生都在幫助別人。",
       "masked": "She ____ others.",
       "options": [
         "spend-28",
@@ -2265,19 +2265,19 @@ export default {
         "spend-04",
         "spend-05"
       ],
-      "explanation": "留意語境：spend = spend your life/career doing something（人生／職業生涯投入於……）。這裡著重「spend your life/career doing something（人生／職業生涯投入於……）」。",
+      "explanation": "留意語境：spend your life/career doing something（人生／職業生涯投入於……）。這裡指「一生／職業生涯都在……」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spent her life helping"
       ],
       "optionReasons": {
-        "spend-28": "留意語境：spend = spend your life/career doing something（人生／職業生涯投入於……）。這裡著重「spend your life/career doing something（人生／職業生涯投入於……）」。",
-        "spend-01": "spend + time + doing something（花時間做某事） 與本句語境不同。",
-        "spend-02": "spend + time + on + noun（把時間花在……） 與本句語境不同。",
-        "spend-03": "spend time with someone（與某人共度時間） 與本句語境不同。",
-        "spend-04": "spend + period + somewhere（在某地度過一段時間） 與本句語境不同。",
-        "spend-05": "spend + period + as/in role（以某身份度過一段時間） 與本句語境不同。"
+        "spend-28": "本句的意思是「一生／職業生涯都在……」。",
+        "spend-01": "「花……時間做……」與本句語境不同。",
+        "spend-02": "「花時間在……上」與本句語境不同。",
+        "spend-03": "「跟某人一起過時間」與本句語境不同。",
+        "spend-04": "「在……度過」與本句語境不同。",
+        "spend-05": "「擔任／處於某身份一段時間」與本句語境不同。"
       }
     }
   ],

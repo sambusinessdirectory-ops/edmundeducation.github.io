@@ -20,7 +20,7 @@ A portal homepage link does not meet the standard. A hand-written catalogue row 
 
 | Homework type | Trigger | Canonical source | Exact route | Current lessons |
 |---|---|---|---|---:|
-| `polysemy` | `Polysemy` | `polysemy-lab/catalogue.mjs` | `polysemy-lab.html?module=<id>` | 55 |
+| `polysemy` | `Polysemy` | `polysemy-lab/catalogue.mjs` | `polysemy-lab.html?module=<id>` | 91 |
 | `native-english` | `Native English` | `natural-english/catalogue.mjs` | `natural-english.html?module=<id>` | 6 |
 
 `Natural English` remains an accepted typing alias for `Native English`. The visible taxonomy and picker use the requested name, Native English.

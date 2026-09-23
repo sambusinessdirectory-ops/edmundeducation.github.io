@@ -4,9 +4,12 @@ import {modules,selectModule,replay,summary,dailyAnswers,highlighted,shuffledQue
 const cycle=['american-female','american-male','british-male','british-female'];const cycleNew=['american-female','british-male','british-female'];
 const manifest=JSON.parse(fs.readFileSync(new URL('../polysemy-lab/audio-new.json',import.meta.url)));
 let missingAudio=[];const allIds=new Set();
+assert.deepEqual(modules.slice(55).map(m=>m.number),[...Array.from({length:25},(_,i)=>i+56),82,89,90,91,103,106,107,124,125,126,127]);
 for(const m of modules){
  selectModule(m.id);const senses=new Map(m.senses.map(s=>[s.id,s]));assert.equal(senses.size,m.senses.length);
- for(const q of m.questions){assert.ok(!allIds.has(q.id));allIds.add(q.id);assert.equal(new Set(q.options).size,Math.min(6,m.senses.length));assert.ok(q.options.includes(q.sense));assert.ok(q.options.every(id=>senses.has(id)));assert.ok(q.masked.includes('____'));assert.ok(!q.zh.includes('**'));assert.ok(highlighted(q.en).includes('<mark>'));
+ if(m.number>55){const bytes=fs.readFileSync(new URL('../polysemy-lab/'+m.source.path,import.meta.url));assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),m.source.sha256,m.id+' source PDF must match the imported lesson');}
+ for(const s of m.senses){assert.match(s.title,/[\u3400-\u9fff]/u,s.id+' needs a Chinese answer label');assert.match(s.zh,/[\u3400-\u9fff]/u,s.id+' needs a Chinese explanation');}
+ for(const q of m.questions){assert.ok(!allIds.has(q.id));allIds.add(q.id);assert.equal(new Set(q.options).size,Math.min(6,m.senses.length));assert.ok(q.options.includes(q.sense));assert.ok(q.options.every(id=>senses.has(id)));assert.ok(q.masked.includes('____'));assert.ok(!q.zh.includes('**'));assert.match(q.zh,/[\u3400-\u9fff]/u,q.id+' needs a full Chinese translation');assert.doesNotMatch(q.zh,/____|＿{2,}/u,q.id+' translation cannot contain blanks');assert.ok(highlighted(q.en).includes('<mark>'));
   if(m.id==='show')continue;
   assert.ok(q.options.filter(id=>id!==q.sense).every(id=>!senses.get(q.sense).excludedOverlaps.includes(id)),q.id+' has overlapping distractor');
   assert.equal(new Set(q.options.map(id=>senses.get(id).title)).size,Math.min(6,m.senses.length),q.id+' has duplicate labels');
@@ -35,6 +38,7 @@ await db.exec(fs.readFileSync(new URL('../supabase/migrations/20260918072120_pol
 apiVersion='modules_';
 await db.exec(fs.readFileSync(new URL('../supabase/migrations/20260918193000_polysemy_lab_modules_16_32.sql',import.meta.url),'utf8'));
 await db.exec(fs.readFileSync(new URL('../supabase/migrations/20260922120000_polysemy_lab_modules_33_55.sql',import.meta.url),'utf8'));
+await db.exec(fs.readFileSync(new URL('../supabase/migrations/20260923210000_polysemy_selected_modules.sql',import.meta.url),'utf8'));
 assert.equal((await sync()).events.length,2);assert.ok((await sync()).events.every(e=>e.module==='show'));assert.equal((await recording('list'))[0].module,'show');assert.equal((await recording('get',{id:oldRecording.id})).audio,oldRecording.audio);
 for(const m of modules.slice(1)){
  const run=crypto.randomUUID(),q=m.questions[0],start=event(m.id,'start',{run}),answer=event(m.id,'answer',{run,round:1,question:q.id,choice:q.sense}),view=event(m.id,'view',{sense:q.sense}),time=event(m.id,'time',{seconds:15});

@@ -42,7 +42,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 6061, "the Homework/Schedule catalogue should include every current learning resource, Speaking mock mode, Reading Comprehension exercise, downloadable file, Common Expression lesson, IELTS Listening part, Polysemy lesson, Native English lesson and learning portal");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 6097, "the Homework/Schedule catalogue should include every current learning resource, Speaking mock mode, Reading Comprehension exercise, downloadable file, Common Expression lesson, IELTS Listening part, Polysemy lesson, Native English lesson and learning portal");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -61,7 +61,7 @@ assert.equal((byType["model-essay-download"] || []).length, 14, "all DSE Writing
 assert.equal((byType["download-material"] || []).length, 939, "every item in the DSE/IELTS download portal should be indexed");
 assert.equal((byType["common-expression"] || []).length, 172, "all six Common Expression catalogues should be indexed");
 assert.equal((byType.listening || []).length, 80, "all 20 IELTS Listening practices and four parts should be indexed");
-assert.equal((byType.polysemy || []).length, 55, "all Polysemy modules should be indexed");
+assert.equal((byType.polysemy || []).length, 91, "all Polysemy modules should be indexed");
 assert.equal((byType["native-english"] || []).length, 6, "all Native English modules should be indexed");
 assert.equal((byType["learning-portal"] || []).length, 18, "all new learning portals should be available for Homework/Schedule linking");
 const writingPracticeAssignments = new Map((byType["writing-submission"] || []).map((resource) => [
