@@ -15,7 +15,7 @@ for(let slot=0;slot<4;slot++){
  assert.ok(Math.max(...values.slice(1).map((v,i)=>Math.abs(v-values[i])*120))<.23,'nod has a gentle angular speed');
  assert.ok(values.filter(v=>v===0).length>values.length*.75,'listeners mostly stay still');
 }
-const drawCalls=[];globalThis.document={createElement(){return {getContext(){return {fillRect(){},fillText(text){drawCalls.push(text);}};}};}};
+const drawCalls=[];globalThis.document={createElement(){return {getContext(){return {fillRect(){},clearRect(){},beginPath(){},moveTo(){},lineTo(){},closePath(){},clip(){},fillText(text){drawCalls.push(text);}};}};}};
 const textures=[];const loader={async loadAsync(url){assert.ok(fs.existsSync(new URL(url)));const t=new THREE.Texture();textures.push(t);return t;}};
 const environment=await createClassroomEnvironment(new THREE.Group(),loader, {night:true,flags:true});environment.group.updateMatrixWorld(true);
 assert.deepEqual(drawCalls,['Edmund Sir','DSE English Speaking Studio']);assert.deepEqual(BLACKBOARD_LINES,drawCalls);
@@ -23,10 +23,9 @@ const floor=environment.group.getObjectByName('Oak plank floor');assert.equal(fl
 const windowView=new THREE.Raycaster(new THREE.Vector3(0,2.95,1.4),new THREE.Vector3(-1,0,0)).intersectObject(environment.group,true);
 assert.ok(windowView.some(hit=>hit.object.visible&&(/City outside the windows|Slim city tower beyond the windows/.test(hit.object.name))),'windows are real openings onto exterior scenery');
 const panorama=environment.group.getObjectByName('City outside the windows');
-const stars=[];environment.group.traverse(o=>{if(o.userData.nightSkyStar)stars.push(o);});
-assert.ok(stars.length>=60,'night stars are behind the exterior panorama');assert.ok(stars.every(star=>star.visible&&star.position.y>4.5),'night stars sit high in the sky');
-const towers=[];environment.group.traverse(o=>{if(o.name==='Slim city tower beyond the windows')towers.push(o);});assert.ok(towers.length>=16&&towers.every(tower=>tower.geometry.parameters.width<.1),'the exterior skyline uses slim buildings');
-const apartmentWindows=[];environment.group.traverse(o=>{if(o.name==='Pinpoint apartment window'&&o.visible)apartmentWindows.push(o);});assert.ok(apartmentWindows.length>10,'some apartment windows glow at night');
+assert.equal(panorama.material.map,textures[2],'night mode uses the illustrated night city image');
+const banners=[];environment.group.traverse(o=>{if(o.name.endsWith('gonfalon'))banners.push(o);});
+assert.equal(banners.length,2,'both school flags have image-backed fabric');
 const flags=[];environment.group.traverse(o=>{if(/gonfalon/.test(o.name))flags.push(o);});assert.equal(flags.length,2);assert.ok(flags.every(flag=>flag.position.z>ROOM.front-1),'gonfalons hang on the examiner wall opposite the blackboard');
 let ceilingPoints=0,halos=0;environment.group.traverse(o=>{if(o.isPointLight)ceilingPoints++;if(o.name===''&&o.geometry?.type==='PlaneGeometry'&&o.material?.blending===THREE.AdditiveBlending)halos++;});assert.equal(ceilingPoints,4);assert.equal(halos,4,'LED fixtures have additive glow halos and point-light spill');
 const origin=new THREE.Vector3().copy(interiorOrbit({...CAMERA_START.target},CAMERA_START.yaw,CAMERA_START.pitch,CAMERA_START.distance));
