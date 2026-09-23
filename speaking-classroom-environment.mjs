@@ -3,14 +3,14 @@ import {ROOM} from './speaking-classroom-camera.mjs?v=20260908-room10';
 export const BLACKBOARD_LINES=Object.freeze(['Edmund Sir','DSE English Speaking Studio']);
 const ASSETS=new URL('./assets/speaking-system/classroom/interior-v1/',import.meta.url);
 
-export async function createClassroomEnvironment(deskScene,loader=new THREE.TextureLoader()){
+export async function createClassroomEnvironment(deskScene,loader=new THREE.TextureLoader(),{night=false,flags=false,deskTimer=false}={}){
  const textures=new Set(),materials=new Set(),geometries=new Set(),group=new THREE.Group();group.name='Enclosed speaking studio';
  let disposed=false;
  const dispose=()=>{if(disposed)return;disposed=true;for(const resource of [...textures,...materials,...geometries])resource.dispose();};
  const loaded=await Promise.allSettled(['oak-floor.png','leafy-city.png'].map(file=>loader.loadAsync(new URL(file,ASSETS).href)));
  for(const result of loaded)if(result.status==='fulfilled')textures.add(result.value);
  if(loaded.some(result=>result.status==='rejected')){dispose();throw new Error('Could not load classroom materials');}
- const [oak,city]=loaded.map(result=>result.value);
+ const [oak,city]=loaded.map(result=>result.value);let nightMode=!!night;const nightObjects=[],glowMeshes=[];let timerTexture=null,timerContext=null;
  for(const t of [oak,city]){t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;}
  oak.wrapS=oak.wrapT=THREE.RepeatWrapping;oak.repeat.set(4,4);
  const material=(colour,extra={})=>{const m=new THREE.MeshStandardMaterial({color:colour,roughness:.85,...extra});materials.add(m);return m;};
@@ -48,7 +48,9 @@ export async function createClassroomEnvironment(deskScene,loader=new THREE.Text
  // A distant panorama has real separation from the window frames and sill plants.
  const panoramaMaterial=new THREE.MeshBasicMaterial({map:city,side:THREE.DoubleSide});materials.add(panoramaMaterial);
  const panoramaGeometry=new THREE.PlaneGeometry(48,16);geometries.add(panoramaGeometry);
- const panorama=new THREE.Mesh(panoramaGeometry,panoramaMaterial);panorama.name='Leafy city beyond the windows';panorama.position.set(left-5,3.3,mid);panorama.rotation.y=Math.PI/2;group.add(panorama);
+ const panorama=new THREE.Mesh(panoramaGeometry,panoramaMaterial);panorama.name='City outside the windows';panorama.position.set(left-5,3.3,mid);panorama.rotation.y=Math.PI/2;group.add(panorama);
+ // Night skyline and stars live beyond the glass; lights twinkle softly when enabled.
+ const starMaterial=material('#fff6cb',{emissive:'#fff0aa',emissiveIntensity:1});for(let i=0;i<64;i++){const geo=new THREE.SphereGeometry(.025+(i%3)*.009,6,6);geometries.add(geo);const star=new THREE.Mesh(geo,starMaterial);star.position.set(left-4.92,4.1+(i*37%27)/10,back+(i*17%100)/100*depth);star.visible=nightMode;group.add(star);nightObjects.push({mesh:star,star:true,phase:i*.31});}const cityWindow=material('#ffd581',{emissive:'#ffb84e',emissiveIntensity:.8});for(let i=0;i<8;i++){const z=back+.4+(i%4)*2.0,x=left-4.4+(i%3)*.42,h=1.2+(i%3)*.36;const building=box('Outside building',x,2.25,z,.52,h,.82,material('#465168'),false);building.visible=nightMode;nightObjects.push({mesh:building});for(let j=0;j<4;j++){const win=box('Lit window',x,1.95+(j%2)*.46,z+(j<2?-.22:.22),.055,.12,.02,cityWindow,false);win.visible=nightMode&&(i+j)%3!==0;nightObjects.push({mesh:win,window:true,phase:i*.7+j,mat:cityWindow});}}
  // Accurate editable lettering, rendered separately from the illustrated exterior.
  const canvas=document.createElement('canvas');canvas.width=1800;canvas.height=540;const context=canvas.getContext('2d');
  context.fillStyle='#294e40';context.fillRect(0,0,canvas.width,canvas.height);
@@ -76,7 +78,7 @@ export async function createClassroomEnvironment(deskScene,loader=new THREE.Text
  box('Door handle',right-.33,1.10,5.14,.085,.08,.16,material('#697571',{metalness:.35,roughness:.4}));
  for(const z of [-1.8,3.3])for(const x of [-2.8,2.8]){
   box('Ceiling light casing',x,height-.055,z,1.72,.07,.43,trim,false);
-  box('Ceiling diffuser',x,height-.10,z,1.60,.035,.32,material('#f8f5df',{emissive:'#f2e9c9',emissiveIntensity:.22}),false);
+  const diffuser=material('#f8f5df',{emissive:'#f2e9c9',emissiveIntensity:nightMode?.62:.22});const light=box('Ceiling diffuser',x,height-.10,z,1.60,.035,.32,diffuser,false);glowMeshes.push({mesh:light,phase:x+z,base:nightMode?.62:.22});
  }
  const plant=(z)=>{
   const potGeometry=new THREE.CylinderGeometry(.14,.10,.20,20);geometries.add(potGeometry);
@@ -90,5 +92,12 @@ export async function createClassroomEnvironment(deskScene,loader=new THREE.Text
  };
  plant(-3.6);plant(5.1);
  for(const x of [-.75,.75]){const desk=deskScene.clone(true);desk.name='Examiner desk';desk.position.set(x,0,2.5);desk.rotation.y=Math.PI;desk.traverse(n=>{if(n.isMesh){n.castShadow=true;n.receiveShadow=true;}});group.add(desk);}
- return {group,dispose};
+ if(flags){
+  const logoFiles=['Static Images/HKU Logo.png','Company Logo for Cover Page.png'];
+  for(let i=0;i<logoFiles.length;i++){const texture=await loader.loadAsync(new URL(logoFiles[i],import.meta.url).href);texture.colorSpace=THREE.SRGBColorSpace;textures.add(texture);const poleGeo=new THREE.CylinderGeometry(.025,.025,1.55,10);geometries.add(poleGeo);const pole=new THREE.Mesh(poleGeo,material('#9c7b43',{metalness:.55,roughness:.35}));pole.position.set((i?1:-1)*.68,3.72,back+.36);group.add(pole);const hangerGeo=new THREE.CylinderGeometry(.018,.018,1.0,8);geometries.add(hangerGeo);const hanger=new THREE.Mesh(hangerGeo,material('#c2a66b',{metalness:.5}));hanger.rotation.z=Math.PI/2;hanger.position.set((i?1:-1)*.68,4.48,back+.36);group.add(hanger);const shape=new THREE.Shape();shape.moveTo(-.48,0);shape.lineTo(.48,0);shape.lineTo(.48,-1.12);shape.lineTo(0,-1.48);shape.lineTo(-.48,-1.12);const geo=new THREE.ShapeGeometry(shape);geometries.add(geo);const flag=new THREE.Mesh(geo,new THREE.MeshStandardMaterial({map:texture,side:THREE.DoubleSide,roughness:.72}));materials.add(flag.material);flag.position.set((i?1:-1)*.68,4.45,back+.39);flag.scale.set(.98,.98,1);flag.name=i?'Edmund Education gonfalon':'HKU gonfalon';group.add(flag);}}
+ if(deskTimer){const canvas=document.createElement('canvas');canvas.width=512;canvas.height=256;timerContext=canvas.getContext('2d');timerTexture=new THREE.CanvasTexture(canvas);timerTexture.colorSpace=THREE.SRGBColorSpace;textures.add(timerTexture);const body=box('3D discussion timer',1.02,1.03,2.12,.62,.34,.10,material('#182a35',{roughness:.34,metalness:.25}));body.rotation.y=Math.PI;const kickstand=box('Timer kickstand',1.02,.82,2.19,.28,.06,.31,material('#65727a',{metalness:.48,roughness:.38}));kickstand.rotation.x=-.28;const screenGeo=new THREE.PlaneGeometry(.54,.22);geometries.add(screenGeo);const screenMat=new THREE.MeshBasicMaterial({map:timerTexture});materials.add(screenMat);const screen=new THREE.Mesh(screenGeo,screenMat);screen.position.set(1.02,1.05,2.055);group.add(screen);}
+ const setNight=value=>{nightMode=!!value;panoramaMaterial.color.set(nightMode?'#64718d':'#ffffff');nightObjects.forEach(item=>{if(item.star)item.mesh.visible=nightMode;else if(item.window)item.mesh.visible=nightMode&&((Math.floor(item.phase*10)%3)!==0);else item.mesh.visible=nightMode;});};
+ const setTimer=value=>{if(!timerContext||!timerTexture)return;timerContext.clearRect(0,0,512,256);timerContext.fillStyle='#172936';timerContext.fillRect(0,0,512,256);timerContext.fillStyle='#f4e4a9';timerContext.font='700 132px ui-monospace,monospace';timerContext.textAlign='center';timerContext.textBaseline='middle';timerContext.fillText(String(value||'00:00'),256,132);timerTexture.needsUpdate=true;};
+ setNight(night);setTimer('08:00');
+ return {group,setNight,setTimer,update(elapsed){if(!nightMode)return;nightObjects.filter(x=>x.star).forEach(x=>{x.mesh.scale.setScalar(.78+.3*(.5+.5*Math.sin(elapsed*2.4+x.phase)));});if(cityWindow)cityWindow.emissiveIntensity=.42+.35*(.5+.5*Math.sin(elapsed*1.3));glowMeshes.forEach(light=>{light.mesh.material.emissiveIntensity=light.base+.12*(.5+.5*Math.sin(elapsed*.8+light.phase));});},dispose};
 }

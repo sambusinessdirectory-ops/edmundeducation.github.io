@@ -3,27 +3,27 @@
   const storageKey = "eddie-farm-language-v1";
   const messages = {
     en: {
-      pageTitle: "Eddie Farm Points | EdmundEducation", skip: "Skip to content", switchSystem: "Switch learning system",
-      library: "EDMUND STUDENT LIBRARY", pointsSystem: "Points system", tagline: "A little progress, a growing farm.",
+      pageTitle: "Edmund Coin System | EdmundEducation", skip: "Skip to content", switchSystem: "Switch learning system",
+      library: "EDMUND STUDENT LIBRARY", pointsSystem: "Coin wallet", tagline: "A little progress, a growing farm.",
       back: "← Back to home", welcome: "WELCOME BACK", login: "Log in", loginHelp: "Use your usual EdmundEducation student account.",
       accountType: "Account type", student: "Student", administrator: "Farm administrator", username: "Username", password: "Password",
-      loginButton: "Log in →", logout: "Log out", myPoints: "My points", balance: "Current balance", refreshBalance: "Refresh balance",
+      loginButton: "Log in →", logout: "Log out", myPoints: "My coins", balance: "Current coin balance", refreshBalance: "Refresh balance",
       visitFarm: "Visit Eddie’s Farm →", administration: "FARM ADMINISTRATION", rewardSettings: "Reward settings",
-      ruleHelp: "Changes apply to future completions. Existing points stay unchanged; a changed rule starts a new exercise batch. A return bonus is paid at most once per consecutive Hong Kong calendar day.",
-      refreshSettings: "Refresh settings", exercises: "Exercises per batch", returnDay: "Consecutive return day", points: "Points per batch",
-      enabled: "Enabled", save: "Save", adminBadge: "Admin", settingsSaved: "{title}: settings saved.",
+      ruleHelp: "Coin rewards apply to future completions. A changed rule starts a new exercise batch. A return bonus is paid at most once per consecutive Hong Kong calendar day.",
+      refreshSettings: "Refresh settings", exercises: "Exercises per batch", returnDay: "Consecutive return day", points: "Coins per batch",
+      enabled: "Enabled", save: "Save", adminBadge: "Admin", settingsSaved: "{title}: settings saved.", walletSaved: "{name} coin balance updated to {balance}.",
       continueLogin: "Please log in to continue.", unexpectedError: "Something went wrong. Please refresh and try again."
     },
     "zh-Hant": {
-      pageTitle: "Eddie Farm 積分系統｜EdmundEducation", skip: "跳至主要內容", switchSystem: "切換學習系統",
-      library: "EDMUND 學生學習平台", pointsSystem: "積分系統", tagline: "每天進步一點，讓農場慢慢成長。",
+      pageTitle: "Edmund Coin System 金幣錢包｜EdmundEducation", skip: "跳至主要內容", switchSystem: "切換學習系統",
+      library: "EDMUND 學生學習平台", pointsSystem: "金幣錢包", tagline: "每天進步一點，讓農場慢慢成長。",
       back: "← 返回主頁", welcome: "歡迎回來", login: "登入", loginHelp: "請使用您現有的 EdmundEducation 學生帳戶登入。",
       accountType: "帳戶類型", student: "學生", administrator: "農場管理員", username: "用戶名稱", password: "密碼",
-      loginButton: "登入 →", logout: "登出", myPoints: "我的積分", balance: "目前積分餘額", refreshBalance: "更新積分",
-      visitFarm: "前往 Eddie 農場 →", administration: "農場管理", rewardSettings: "積分獎勵設定",
-      ruleHelp: "設定只適用於之後完成的練習，已獲得的積分不受影響。更改規則後，未滿一組的練習進度會重新計算。連續回訪獎勵按香港日期計算，每天最多發放一次。",
-      refreshSettings: "更新設定", exercises: "每組練習數量", returnDay: "連續回訪日數", points: "每組獎勵積分",
-      enabled: "啟用", save: "儲存", adminBadge: "管理員", settingsSaved: "{title}：設定已儲存。",
+      loginButton: "登入 →", logout: "登出", myPoints: "我的金幣", balance: "目前金幣餘額", refreshBalance: "更新金幣",
+      visitFarm: "前往 Eddie 農場 →", administration: "農場管理", rewardSettings: "金幣獎勵設定",
+      ruleHelp: "設定只適用於之後完成的練習，已獲得的金幣不受影響。更改規則後，未滿一組的練習進度會重新計算。連續回訪獎勵按香港日期計算，每天最多發放一次。",
+      refreshSettings: "更新設定", exercises: "每組練習數量", returnDay: "連續回訪日數", points: "每組獎勵金幣",
+      enabled: "啟用", save: "儲存", adminBadge: "管理員", settingsSaved: "{title}：設定已儲存。", walletSaved: "{name} 的金幣餘額已更新至 {balance}。",
       continueLogin: "請先登入以繼續。", unexpectedError: "操作未能完成，請重新整理後再試。"
     }
   };

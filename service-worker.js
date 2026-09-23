@@ -4,6 +4,8 @@ const CACHE_NAME = `${CACHE_PREFIX}${RELEASE_ID}`;
 const HARPER_CACHE_PREFIX = "edmund-vendor-harper-";
 const HARPER_CACHE_NAME = "edmund-vendor-harper-2.7.0";
 const HARPER_PATH_PREFIX = "/assets/vendor/harper/2.7.0/";
+const SPEECH_MODEL_PATH = "/assets/speaking-system/models/english-us-0.15.tar.gz";
+const SPEECH_MODEL_CACHE = "edmund-transcription-model-v1";
 const OFFLINE_URL = "/offline.html";
 const SHELL_URLS = [
   "/offline.html",
@@ -71,6 +73,17 @@ self.addEventListener("fetch", (event) => {
 
   if (url.pathname === "/release.json") {
     event.respondWith(fetch(request, { cache: "no-store" }));
+    return;
+  }
+
+  if (url.pathname === SPEECH_MODEL_PATH) {
+    event.respondWith(caches.open(SPEECH_MODEL_CACHE).then(async (cache) => {
+      const cached = await cache.match(request);
+      if (cached) return cached;
+      const response = await fetch(request);
+      if (response.ok) await cache.put(request, response.clone());
+      return response;
+    }));
     return;
   }
 

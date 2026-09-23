@@ -7,7 +7,7 @@ import {CAMERA_START,constrainCamera,constrainTarget,interiorOrbit} from './spea
 const cache=new Map();
 const load=name=>{if(!cache.has(name))cache.set(name,new GLTFLoader().loadAsync(new URL(`./assets/speaking-system/classroom/${name}.glb?v=20260908`,import.meta.url).href));return cache.get(name);};
 export function seatLayout(count,index){const angle=(index-(count-1)/2)*(count===2?.55:.40);return {x:Math.sin(angle)*3.25,z:1.15-Math.cos(angle)*3.25,yaw:-angle};}
-export async function mountClassroom(root,candidates,onSelect,{seated=false,showCosmetics=false}={}){
+export async function mountClassroom(root,candidates,onSelect,{seated=false,showCosmetics=false,night=false,flags=false,deskTimer=false}={}){
  let disposed=false,frame,activeId=null,free=false,environment;
  const scene=new THREE.Scene();scene.background=new THREE.Color('#d8e6e5');
  const camera=new THREE.PerspectiveCamera(40,1,.08,100),target=new THREE.Vector3().copy(CAMERA_START.target);
@@ -17,12 +17,12 @@ export async function mountClassroom(root,candidates,onSelect,{seated=false,show
  root.replaceChildren(controls,renderer.domElement);const canvas=renderer.domElement;canvas.tabIndex=0;canvas.style.touchAction='none';canvas.setAttribute('aria-label','Interactive classroom. Drag to orbit, scroll to zoom. Enable free camera for keyboard movement.');
  const orbit=()=>{camera.position.copy(interiorOrbit(target,yaw,pitch,distance));camera.lookAt(target);};orbit();
  const look=()=>{camera.rotation.order='YXZ';camera.rotation.set(-pitch,yaw,0);};
- scene.add(new THREE.HemisphereLight(0xfff9ee,0x879386,1.8));const sun=new THREE.DirectionalLight(0xfff4df,1.8);sun.position.set(-8,5,4);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.bias=-.0003;sun.shadow.normalBias=.045;Object.assign(sun.shadow.camera,{left:-10,right:10,top:10,bottom:-10,near:.5,far:35});scene.add(sun);
+ const ambient=new THREE.HemisphereLight(0xfff9ee,0x879386,night?.72:1.8);scene.add(ambient);const sun=new THREE.DirectionalLight(0xfff4df,night?.42:1.8);sun.position.set(-8,5,4);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.bias=-.0003;sun.shadow.normalBias=.045;Object.assign(sun.shadow.camera,{left:-10,right:10,top:10,bottom:-10,near:.5,far:35});scene.add(sun);
  const resize=()=>{const w=root.clientWidth||600,h=Math.max(350,Math.min(580,w*.70));renderer.setSize(w,h);camera.aspect=w/h;camera.fov=Math.max(42,Math.min(64,2*Math.atan(Math.tan(21*Math.PI/180)*1.35/camera.aspect)*180/Math.PI));camera.updateProjectionMatrix();};const observer=new ResizeObserver(resize);observer.observe(root);resize();
  const pickables=[],rings=new Map(),actors=[],sprites=new MascotCharacters(undefined,undefined,{cosmeticsEnabled:showCosmetics});
  const mark=o=>o.traverse(n=>{if(n.isMesh){n.castShadow=!n.userData.mascotSurface&&!/floor|wall/i.test(n.name);n.receiveShadow=true;}});
  try {
- environment=await createClassroomEnvironment((await load('desk')).scene);scene.add(environment.group);
+ environment=await createClassroomEnvironment((await load('desk')).scene,undefined,{night,flags,deskTimer});scene.add(environment.group);scene.background=new THREE.Color(night?'#111d32':'#d8e6e5');
  for(let i=0;i<candidates.length;i++){
   const c=candidates[i],p=seatLayout(candidates.length,i),seat=new THREE.Group();seat.position.set(p.x,0,p.z);seat.rotation.y=p.yaw;seat.userData.candidateId=c.id;
   seat.add((await load('desk')).scene.clone(true));
@@ -42,10 +42,10 @@ export async function mountClassroom(root,candidates,onSelect,{seated=false,show
  const ray=new THREE.Raycaster(),mouse=new THREE.Vector2();canvas.onpointerup=e=>{pointers.delete(e.pointerId);if(!down)return;if(!down.moved){const b=canvas.getBoundingClientRect();mouse.set((e.clientX-b.left)/b.width*2-1,-(e.clientY-b.top)/b.height*2+1);ray.setFromCamera(mouse,camera);const hit=ray.intersectObjects(pickables,true)[0];if(hit){let o=hit.object;while(o&&!o.userData.candidateId)o=o.parent;if(o)onSelect(o.userData.candidateId);}}down=null;};canvas.onpointercancel=()=>{pointers.clear();down=null;};canvas.oncontextmenu=e=>e.preventDefault();canvas.addEventListener('wheel',e=>{e.preventDefault();zoom(Math.sign(e.deltaY)*.6);},{passive:false});
  renderer.shadowMap.autoUpdate=false;renderer.shadowMap.needsUpdate=true;
  const reduced=matchMedia('(prefers-reduced-motion: reduce)'),clock=new THREE.Clock();let elapsed=0;
- const render=()=>{if(disposed)return;const dt=Math.min(clock.getDelta(),.05);elapsed+=dt;
+ const render=()=>{if(disposed)return;const dt=Math.min(clock.getDelta(),.05);elapsed+=dt;environment?.update?.(elapsed);
  if(free&&keys.size){const forward=camera.getWorldDirection(new THREE.Vector3()),right=new THREE.Vector3().setFromMatrixColumn(camera.matrix,0);for(const k of keys){if(k==='forward'||k==='back')camera.position.addScaledVector(forward,(k==='forward'?1:-1)*dt*3);if(k==='left'||k==='right')camera.position.addScaledVector(right,(k==='right'?1:-1)*dt*3);if(k==='up'||k==='down')camera.position.y+=(k==='up'?1:-1)*dt*3;}constrainCamera(camera.position);}
  const speaker=actors.find(a=>a.id===activeId);
  for(const a of actors){a.art.mesh.getWorldPosition(a.art.world);const azimuth=Math.atan2(camera.position.x-a.art.world.x,camera.position.z-a.art.world.z);const looking=updateAttention(a,speaker,dt,reduced.matches),nod=listenerNod(elapsed,a.slot,!!speaker&&a!==speaker,reduced.matches);sprites.update(a.art,azimuth,a.yaw,elapsed+a.phase,reduced.matches,a.id===activeId,looking,nod);}
  renderer.render(scene,camera);frame=requestAnimationFrame(render);};render();
- return {active(id){activeId=id;rings.forEach((ring,key)=>ring.visible=key===id);},dispose(){disposed=true;cancelAnimationFrame(frame);observer.disconnect();sprites.dispose();environment?.dispose();renderer.dispose();renderer.forceContextLoss();root.replaceChildren();rings.forEach(r=>{r.geometry.dispose();r.material.dispose();});}};
+ return {active(id){activeId=id;rings.forEach((ring,key)=>ring.visible=key===id);},setTimer(value){environment?.setTimer?.(value);},dispose(){disposed=true;cancelAnimationFrame(frame);observer.disconnect();sprites.dispose();environment?.dispose();renderer.dispose();renderer.forceContextLoss();root.replaceChildren();rings.forEach(r=>{r.geometry.dispose();r.material.dispose();});}};
 }

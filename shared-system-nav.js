@@ -68,7 +68,7 @@
     { id: "bookmark-directory", href: "bookmark-directory.html", zh: "學生書簽總目錄", en: "Bookmark Directory" },
     { id: "execution", href: "execution-system.html", zh: "執行動力系統", en: "Execution Psychology" },
     { id: "reading-comprehension", href: "reading-comprehension.html", zh: "閱讀理解學習系統", en: "Reading Comprehension" },
-    { id: "eddie-farm", href: "eddie-farm.html", zh: "Eddie Farm 積分系統", en: "Farm Points" },
+    { id: "eddie-farm", href: "eddie-farm.html", zh: "Edmund Coin System 金幣系統", en: "Edmund Coin System" },
     { id: "excellent-learning", href: "excellent-learning-system.html", zh: "英文口音學習系統", en: "English Accent Learning System" },
     { id: "polysemy-lab", href: "polysemy-lab.html", zh: "一詞多義學習室", en: "Polysemy Lab" },
     { id: "natural-english", href: "natural-english.html", zh: "自然英文學習系統", en: "Native speakers 怎麼說?" }
@@ -1227,8 +1227,24 @@
     return button;
   }
 
+  async function refreshCoinWallet() {
+    const actions=document.querySelector(".edmund-system-header__actions");if(!actions)return;
+    let chip=actions.querySelector("[data-edmund-coin-wallet]");const student=studentSessionCandidate();
+    if(!student||student.impersonatedByAdmin){chip?.remove();return;}
+    if(!chip){chip=document.createElement("a");chip.className="edmund-coin-wallet";chip.dataset.edmundCoinWallet="";chip.href="eddie-farm.html";chip.innerHTML='<span class="edmund-coin-mark" aria-hidden="true"><span>🐴</span>🪙</span><span class="edmund-coin-copy"><strong>—</strong><small>Edmund Coins</small></span>';actions.prepend(chip);}
+    let config=window.EDMUND_SUPABASE;if(!config?.url||!config?.anonKey){try{await new Promise((resolve,reject)=>{const script=document.createElement("script");script.src=new URL("/supabase-config.js",location.origin).href;script.onload=resolve;script.onerror=reject;document.head.append(script);});config=window.EDMUND_SUPABASE;}catch{return;}}if(!config?.url||!config?.anonKey)return;
+    chip.querySelector("strong").textContent="…";
+    try{const response=await fetch(`${config.url}/rest/v1/rpc/eddie_farm_snapshot`,{method:"POST",cache:"no-store",credentials:"omit",headers:{apikey:config.anonKey,"Content-Type":"application/json"},body:JSON.stringify({p_token:student.token}),signal:AbortSignal.timeout(9000)});if(!response.ok)throw Error();const data=await response.json();if(studentSessionCandidate()?.token!==student.token)return;chip.querySelector("strong").textContent=Number(data.balance||0).toLocaleString();}catch{chip.querySelector("strong").textContent="—";}
+  }
+
   function initialise() {
     bridgeStudentSession(studentSessionCandidate(), true);
+    void refreshCoinWallet();
+    window.addEventListener("edmund-student-session-change",()=>void refreshCoinWallet());
+    window.addEventListener("edmund-coin-wallet-refresh",()=>void refreshCoinWallet());
+    window.addEventListener("focus",()=>void refreshCoinWallet());
+    document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")void refreshCoinWallet();});
+    window.setInterval(()=>{if(document.visibilityState==="visible")void refreshCoinWallet();},30000);
     ensurePasswordButton();
     const switchers = [...document.querySelectorAll("[data-edmund-system-switcher]")];
     switchers.forEach(enhanceSwitcher);
@@ -1271,6 +1287,7 @@
     }),
     searchSystems: systemsMatching,
     rememberStudentSession,
+    refreshCoinWallet,
     systems: SYSTEMS
   });
 

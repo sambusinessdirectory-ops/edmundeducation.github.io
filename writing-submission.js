@@ -1275,10 +1275,43 @@ function createFeedbackRichEditor({ label, value = "", formatting = [], maxLengt
       clearFeedbackSelectionRanges({ keepEditor: true });
     }
   });
+  editor.addEventListener("copy", event => {
+    const range = currentFeedbackSelection(editor);
+    if (!range || !event.clipboardData) return;
+    const holder = createElement("div");
+    holder.append(range.cloneContents());
+    event.clipboardData.setData("text/html", holder.innerHTML);
+    event.clipboardData.setData("text/plain", range.toString());
+    event.preventDefault();
+  });
   editor.addEventListener("paste", event => {
     event.preventDefault();
+    const html = event.clipboardData?.getData("text/html") || "";
     const text = event.clipboardData?.getData("text/plain") || "";
-    document.execCommand("insertText", false, text);
+    const selection = window.getSelection();
+    const range = selection?.rangeCount ? selection.getRangeAt(0) : null;
+    if (!range || !editor.contains(range.commonAncestorContainer)) { document.execCommand("insertText", false, text); return; }
+    range.deleteContents();
+    if (html) {
+      const template = document.createElement("template");
+      template.innerHTML = html;
+      template.content.querySelectorAll("script,style,iframe,object,embed,link,meta,svg,math,form,input,button,video,audio").forEach(node => node.remove());
+      const allowedTags = new Set(["B", "STRONG", "I", "EM", "S", "DEL", "STRIKE", "U", "MARK", "SPAN", "BR", "P", "DIV", "UL", "OL", "LI", "FONT"]);
+      template.content.querySelectorAll("*").forEach(node => {
+        if (!allowedTags.has(node.tagName)) { node.replaceWith(...node.childNodes); return; }
+        [...node.attributes].forEach(attr => { if (attr.name !== "style") node.removeAttribute(attr.name); });
+        if (node.hasAttribute("style")) {
+          const safe = [...node.style].filter(name => ["color", "background-color", "font-weight", "font-style", "text-decoration", "text-decoration-line"].includes(name)).map(name => `${name}:${node.style.getPropertyValue(name)}`).filter(declaration => !/(url\s*\(|expression|var\s*\(|[{}])/i.test(declaration));
+          if (safe.length) node.setAttribute("style", safe.join("; ")); else node.removeAttribute("style");
+        }
+      });
+      const fragment = template.content;
+      const last = fragment.lastChild;
+      range.insertNode(fragment);
+      if (last) range.setStartAfter(last);
+      range.collapse(true); selection.removeAllRanges(); selection.addRange(range);
+    } else document.execCommand("insertText", false, text);
+    editor.dispatchEvent(new Event("input", { bubbles: true }));
   });
   editor.addEventListener("drop", event => {
     event.preventDefault();
@@ -1338,7 +1371,8 @@ function feedbackFormattingToolbar() {
   numbering.type = "button";
   numbering.dataset.feedbackFormat = "numbering";
   numbering.setAttribute("aria-label", "連續編號");
-  numbering.title = "連續編號：自動接續目前最大號碼";
+  numbering.title = "將選取內容整理為編號段落，從目前最高編號接續";
+  numbering.setAttribute("aria-label", "將所選內容套用連續編號");
   toolbar.append(bold, italic, strike, numbering);
   FEEDBACK_HIGHLIGHT_NAMES.forEach(name => {
     const labels = { yellow: "黃色", orange: "橙色", blue: "藍色", green: "綠色", red: "紅色" };
@@ -5122,7 +5156,7 @@ function feedbackPrintLearningCards(title, values, { id = "", pageBreakBefore = 
 }
 
 function feedbackPrintEnhancementCards(title, values, kind, { id = "", pageBreakBefore = false } = {}) {
-  const items = normalizeFeedbackEnhancementParts(values);
+  const items = normalizeFeedbackEnhancementParts(values).filter(item => ["originalSentence", "enhancement", "benefit"].some(field => String(item[field]?.text || "").trim()));
   if (!items.length) return "";
   const kindCopy = feedbackEnhancementKindCopy(kind);
   const prefix = kindCopy.singular;
@@ -6029,6 +6063,14 @@ async function loadFeedbackModelEssayDetails(details, { retry = false } = {}) {
   }
 }
 
+const WRITING_FEEDBACK_MASCOTS = ["eddy", "phoebe", "elsie", "noir", "celeste"];
+function writingFeedbackItemMarker(index) {
+  const number=index+1, mascot=WRITING_FEEDBACK_MASCOTS[index%WRITING_FEEDBACK_MASCOTS.length];
+  const marker=createElement("span","teacher-feedback-item-marker",String(number));marker.dataset.feedbackItemNumber=String(number);
+  const image=document.createElement("img");image.src=`assets/speaking-system/mascots/v4/${mascot}-standing-clean.webp`;image.alt="";image.loading="lazy";marker.prepend(image);return marker;
+}
+function writingFeedbackHeading(label,index) { const heading=createElement("strong","teacher-feedback-numbered-heading");heading.append(document.createTextNode(`${label} `),writingFeedbackItemMarker(index));return heading; }
+
 function renderStudentFeedbackLearningArea(title, itemsValue, { sentenceStructure = false, links = [] } = {}) {
   const items = sentenceStructure
     ? normalizeSentenceStructureMethods(itemsValue)
@@ -6043,11 +6085,7 @@ function renderStudentFeedbackLearningArea(title, itemsValue, { sentenceStructur
     const list = createElement("div", "teacher-feedback-learning-point-list");
     items.forEach((item, index) => {
       const row = createElement("article", "teacher-feedback-learning-point");
-      row.append(createElement(
-        "strong",
-        "",
-        `${sentenceStructure ? "句子結構方法" : "文法重點"} ${index + 1}`
-      ));
+      row.append(writingFeedbackHeading(sentenceStructure ? "句子結構方法" : "文法重點", index));
       const content = createElement("div", "teacher-feedback-rich-content");
       appendStructuredFeedbackRichText(content, item.text, item.formatting);
       row.append(content, feedbackQuestionBox(state.selectedStudentFeedback, `grammar:${index + 1}`, `文法評語 ${index + 1}`, item.text));
@@ -6226,11 +6264,7 @@ function renderStudentFeedbackEnhancementArea(
     ];
     parts.forEach((part, index) => {
       const card = createElement("article", "teacher-feedback-enhancement-card");
-      card.append(createElement(
-        "strong",
-        "teacher-feedback-enhancement-card-title",
-        `${kindCopy.singular} ${index + 1}`
-      ));
+      const title=writingFeedbackHeading(kindCopy.singular,index);title.classList.add("teacher-feedback-enhancement-card-title");card.append(title);
       fields.forEach(([field, label, className]) => {
         const band = createElement("section", `teacher-feedback-enhancement-band ${className}`);
         band.append(createElement("span", "", label));
@@ -6297,6 +6331,7 @@ function renderStudentFeedback(feedback, container) {
     createElement("h2", "", "Edmund Sir 寫作評語")
   );
   if (feedback.updatedAt) head.append(createElement("time", "", `更新：${formatSubmissionDate(feedback.updatedAt)}`));
+  const mascotToggle=createElement("label","teacher-feedback-mascot-toggle");const mascotInput=document.createElement("input");mascotInput.type="checkbox";mascotInput.checked=localStorage.getItem("edmund-writing-feedback-mascots")==="on";mascotToggle.append(mascotInput,document.createTextNode("以角色頭像顯示項目編號"));mascotInput.addEventListener("change",()=>{localStorage.setItem("edmund-writing-feedback-mascots",mascotInput.checked?"on":"off");panel.classList.toggle("uses-feedback-mascots",mascotInput.checked);});head.append(mascotToggle);panel.classList.toggle("uses-feedback-mascots",mascotInput.checked);
   head.append(createElement("p", "teacher-feedback-word-brush-help", "🖌 選取評語內一個或多個字詞，再按浮出的畫筆收藏及製作 Flashcard。"));
   panel.append(head);
   const overall = feedbackTextSection(
@@ -6311,7 +6346,7 @@ function renderStudentFeedback(feedback, container) {
     const pair = createElement("article", "teacher-feedback-read-pair");
     const original = createElement("section", "teacher-feedback-original");
     const originalHead = createElement("div", "teacher-feedback-original-head");
-    originalHead.append(createElement("span", "", `原句 ${index + 1}`));
+    originalHead.append(createElement("span", "", "原句 "), writingFeedbackItemMarker(index));
     if (fragment.id) {
       const bookmark = createElement(
         "button",

@@ -82,6 +82,21 @@
     }
   }
 
+  async function searchWallets(query) {
+    const host = $("wallet-results"); host.replaceChildren();
+    const result = await rpc("eddie_farm_admin_search_wallets", { p_token: adminToken, p_query: query });
+    for (const student of result.students || []) {
+      const row = document.createElement("form"); row.className = "farm-wallet-row";
+      const name = document.createElement("strong"); name.textContent = student.name;
+      const input = document.createElement("input"); input.type = "number"; input.min = "0"; input.max = "1000000000"; input.step = "1"; input.required = true; input.value = student.balance; input.setAttribute("aria-label", `Coin balance for ${student.name}`);
+      const button = document.createElement("button"); button.type = "submit"; button.textContent = "Save balance";
+      row.append(name,input,button); host.append(row);
+      row.addEventListener("submit", async event => { event.preventDefault(); button.disabled = true; try { const updated = await rpc("eddie_farm_admin_set_wallet", { p_token: adminToken, p_student: student.id, p_balance: Number(input.value) }); input.value = updated.balance; statusKey("walletSaved", () => ({ name: updated.name, balance: Number(updated.balance).toLocaleString() })); } catch (error) { statusError(error); } finally { button.disabled = false; } });
+    }
+    if (!(result.students || []).length) host.textContent = "No matching student accounts.";
+  }
+  $("wallet-search").addEventListener("submit", async event => { event.preventDefault(); const query = new FormData(event.currentTarget).get("query"); try { await searchWallets(String(query || "").trim()); } catch (error) { statusError(error); } });
+
   async function showAdmin() {
     const data = await rpc("eddie_farm_admin_rules", { p_token: adminToken });
     renderRules(data.rules || []); view("admin", data.name);

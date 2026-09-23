@@ -12,3 +12,20 @@
 .poly-word-progress progress::-moz-progress-bar,.poly-lesson-progress::-moz-progress-bar{background:#268555;border-radius:10px}
 .poly-complete .poly-word-progress{max-width:540px;margin:24px auto}
 @media(prefers-reduced-motion:reduce){.poly-word-grid button.is-complete{animation:none!important;transition:none!important}}
+
+/* Game-like question reveal and answer response. */
+.poly-question{animation:poly-stage-in .48s cubic-bezier(.2,.75,.25,1) both}
+.poly-question>.pro-eyebrow,.poly-question>h2,.poly-question>.poly-source-link,.poly-question>.poly-context,.poly-question>.poly-sentence,.poly-question>.poly-translation,.poly-question>.poly-prompt{animation:poly-line-in .38s ease both}
+.poly-question>.poly-sentence{animation-delay:.08s}.poly-question>.poly-translation{animation-delay:.14s}.poly-question>.poly-prompt{animation-delay:.2s}
+.poly-options button{animation:poly-choice-in .34s cubic-bezier(.2,.75,.25,1) both;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.poly-options button:nth-child(2){animation-delay:.05s}.poly-options button:nth-child(3){animation-delay:.1s}.poly-options button:nth-child(4){animation-delay:.15s}
+.poly-options button:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 7px 18px #0002}
+.poly-options .is-correct{animation:poly-correct-wobble .48s ease both}
+.poly-feedback{animation:poly-line-in .3s ease both}.poly-feedback.is-correct{font-size:1.08em}
+.poly-word-progress{position:relative}.poly-streak{display:flex;align-items:center;gap:11px;min-height:68px;margin-top:12px;padding:7px 12px;border:1px solid #f1a94c55;border-radius:14px;background:linear-gradient(100deg,#ff9f2f12,#fce6b812);overflow:hidden}
+.poly-streak-fire{display:grid;place-items:center;width:clamp(40px,calc(40px * var(--streak-size)),64px);height:54px;transition:width .3s ease}.poly-streak-fire img{width:100%;height:100%;object-fit:contain}
+.poly-streak-copy{display:flex;flex-direction:column;gap:2px;flex:1}.poly-streak-copy strong{font-size:1rem;color:#ffb44e}.poly-streak-copy small{font-size:.78rem;color:var(--pro-muted)}
+.poly-streak-mascot{width:90px;height:62px;flex:0 0 90px;background-image:url('../assets/speaking-system/mascots/streak/eddy-encouragement-strip.png');background-size:600% 100%;background-position:0% center;background-repeat:no-repeat;filter:drop-shadow(0 2px 3px #0002);animation:poly-mascot-bob 2.6s ease-in-out infinite}
+.poly-streak[data-streak-level="0"] .poly-streak-mascot{background-position:0% center}.poly-streak[data-streak-level="1"] .poly-streak-mascot{background-position:20% center}.poly-streak[data-streak-level="2"] .poly-streak-mascot{background-position:40% center}.poly-streak[data-streak-level="3"] .poly-streak-mascot{background-position:60% center}.poly-streak[data-streak-level="4"] .poly-streak-mascot{background-position:80% center}.poly-streak[data-streak-level="5"] .poly-streak-mascot{background-position:100% center}
+@keyframes poly-stage-in{from{opacity:0;transform:translateY(10px) scale(.992)}to{opacity:1;transform:none}}@keyframes poly-line-in{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}@keyframes poly-choice-in{from{opacity:0;transform:translateY(10px) scale(.985)}to{opacity:1;transform:none}}@keyframes poly-correct-wobble{0%,100%{transform:rotate(0)}25%{transform:rotate(-1.3deg) scale(1.02)}55%{transform:rotate(1.1deg)}75%{transform:rotate(-.5deg)}}@keyframes poly-mascot-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@media(prefers-reduced-motion:reduce){.poly-question,.poly-question>*,.poly-options button,.poly-feedback,.poly-options .is-correct,.poly-streak-mascot{animation:none!important;transition:none!important}}

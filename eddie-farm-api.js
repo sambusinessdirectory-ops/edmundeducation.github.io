@@ -67,6 +67,7 @@
       const result = await rpc(`eddie_farm_${kind}`, { ...args, p_request: pending.id, p_token: account.token });
       sessionStorage.removeItem(key);
       if (student()?.token !== account.token) throw new Error("Account changed. Refresh the farm.");
+      window.dispatchEvent(new CustomEvent("edmund-coin-wallet-refresh"));
       return result;
     } catch (error) {
       if (error.confirmedFailure) sessionStorage.removeItem(key);
