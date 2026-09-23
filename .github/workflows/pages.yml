@@ -30,6 +30,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Install image validation dependency
+        run: npm ci --prefix tools/email-qa --ignore-scripts
+
       - name: Validate execution speedrun timing and recovery
         run: |
           node tools/test-execution-system.mjs
@@ -279,7 +282,6 @@ jobs:
         env:
           EMAIL_QA_MODULES: ${{ github.workspace }}/tools/email-qa/node_modules
         run: |
-          npm ci --prefix tools/email-qa --ignore-scripts
           node tools/test-song-study-progress.mjs
           node tools/test-special-flash-card.mjs
           node tools/test-professional-feedback.mjs

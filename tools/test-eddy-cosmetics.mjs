@@ -91,7 +91,7 @@ test('the shared fleece has three independent transparent fit assets',async()=>{
 });
 test('the pink rain jacket has three independent transparent 16-view overlays',async()=>{
  const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
- const {createRequire}=await import('node:module');let sharp;try{sharp=createRequire(import.meta.url)('sharp');}catch{}
+ const {createRequire}=await import('node:module');const sharp=createRequire(new URL('../tools/email-qa/package.json',import.meta.url))('sharp');
  const hashes=[];
  for(const character of ['celeste','phoebe','elsie']){
   const file=new URL('../assets/speaking-system/cosmetics/'+character+'/pink-rain-jacket.webp',import.meta.url),bytes=readFileSync(file);
