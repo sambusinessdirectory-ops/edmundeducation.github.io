@@ -1017,6 +1017,35 @@ function refreshFeedbackStructuredLivePreview(editor, preview) {
   }
 }
 
+function feedbackMascotsEnabled() {
+  return localStorage.getItem("edmund-writing-feedback-mascots") === "on";
+}
+
+function updateFeedbackMascotControls(enabled) {
+  document.querySelectorAll(".teacher-feedback-live-preview, .teacher-feedback-view").forEach((panel) => {
+    panel.classList.toggle("uses-feedback-mascots", enabled);
+  });
+  document.querySelectorAll("[data-feedback-mascot-toggle]").forEach((button) => {
+    button.setAttribute("aria-pressed", String(enabled));
+    button.textContent = enabled ? "顯示數字" : "改用角色頭像";
+  });
+}
+
+function createFeedbackMascotButton() {
+  const button = createElement("button", "teacher-feedback-mascot-toggle", "");
+  button.type = "button";
+  button.dataset.feedbackMascotToggle = "true";
+  button.setAttribute("aria-label", "切換項目編號與角色頭像");
+  button.addEventListener("click", () => {
+    const enabled = !feedbackMascotsEnabled();
+    localStorage.setItem("edmund-writing-feedback-mascots", enabled ? "on" : "off");
+    updateFeedbackMascotControls(enabled);
+  });
+  button.setAttribute("aria-pressed", String(feedbackMascotsEnabled()));
+  button.textContent = feedbackMascotsEnabled() ? "顯示數字" : "改用角色頭像";
+  return button;
+}
+
 function createFeedbackStructuredLivePreview(editor) {
   const preview = createElement("section", "teacher-feedback-live-preview");
   preview.dataset.feedbackStructuredPreview = editor.dataset.feedbackRichEditor || "feedback";
@@ -1027,7 +1056,10 @@ function createFeedbackStructuredLivePreview(editor) {
   const title = createElement("strong", "", "學生版面即時預覽");
   const count = createElement("span");
   count.dataset.feedbackStructuredPreviewCount = "true";
-  head.append(title, count);
+  const controls = createElement("div", "teacher-feedback-live-preview-controls");
+  controls.append(count, createFeedbackMascotButton());
+  head.append(title, controls);
+  preview.classList.toggle("uses-feedback-mascots", feedbackMascotsEnabled());
 
   const content = createElement(
     "div",
@@ -6352,7 +6384,8 @@ function renderStudentFeedback(feedback, container) {
     createElement("h2", "", "Edmund Sir 寫作評語")
   );
   if (feedback.updatedAt) head.append(createElement("time", "", `更新：${formatSubmissionDate(feedback.updatedAt)}`));
-  const mascotToggle=createElement("label","teacher-feedback-mascot-toggle");const mascotInput=document.createElement("input");mascotInput.type="checkbox";mascotInput.checked=localStorage.getItem("edmund-writing-feedback-mascots")==="on";mascotToggle.append(mascotInput,document.createTextNode("以角色頭像取代項目編號"));mascotInput.addEventListener("change",()=>{localStorage.setItem("edmund-writing-feedback-mascots",mascotInput.checked?"on":"off");panel.classList.toggle("uses-feedback-mascots",mascotInput.checked);});head.append(mascotToggle);panel.classList.toggle("uses-feedback-mascots",mascotInput.checked);
+  head.append(createFeedbackMascotButton());
+  panel.classList.toggle("uses-feedback-mascots", feedbackMascotsEnabled());
   head.append(createElement("p", "teacher-feedback-word-brush-help", "🖌 選取評語內一個或多個字詞，再按浮出的畫筆收藏及製作 Flashcard。"));
   panel.append(head);
   const overall = feedbackTextSection(
