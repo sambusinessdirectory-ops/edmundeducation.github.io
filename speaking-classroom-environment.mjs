@@ -7,11 +7,11 @@ export async function createClassroomEnvironment(deskScene,loader=new THREE.Text
  const textures=new Set(),materials=new Set(),geometries=new Set(),group=new THREE.Group();group.name='Enclosed speaking studio';
  let disposed=false;
  const dispose=()=>{if(disposed)return;disposed=true;for(const resource of [...textures,...materials,...geometries])resource.dispose();};
- const loaded=await Promise.allSettled(['oak-floor.png','leafy-city.png'].map(file=>loader.loadAsync(new URL(file,ASSETS).href)));
+ const loaded=await Promise.allSettled(['oak-floor.png','leafy-city.png','leafy-city-night.png'].map(file=>loader.loadAsync(new URL(file,ASSETS).href)));
  for(const result of loaded)if(result.status==='fulfilled')textures.add(result.value);
  if(loaded.some(result=>result.status==='rejected')){dispose();throw new Error('Could not load classroom materials');}
- const [oak,city]=loaded.map(result=>result.value);let nightMode=!!night;const nightObjects=[],glowMeshes=[];let timerTexture=null,timerContext=null;
- for(const t of [oak,city]){t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;}
+ const [oak,city,nightCity]=loaded.map(result=>result.value);let nightMode=!!night;const nightObjects=[],glowMeshes=[];let timerTexture=null,timerContext=null;
+ for(const t of [oak,city,nightCity]){t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;}
  oak.wrapS=oak.wrapT=THREE.RepeatWrapping;oak.repeat.set(4,4);
  const material=(colour,extra={})=>{const m=new THREE.MeshStandardMaterial({color:colour,roughness:.85,...extra});materials.add(m);return m;};
  const paint=material('#ddd8c9'),sage=material('#81988a'),trim=material('#dae0cf'),frame=material('#967048'),floor=material('#ffffff',{map:oak,roughness:.68,bumpMap:oak,bumpScale:.006}),board=material('#284f42'),paper=material('#f5edda');
@@ -49,25 +49,6 @@ export async function createClassroomEnvironment(deskScene,loader=new THREE.Text
  const panoramaMaterial=new THREE.MeshBasicMaterial({map:city,side:THREE.DoubleSide});materials.add(panoramaMaterial);
  const panoramaGeometry=new THREE.PlaneGeometry(48,16);geometries.add(panoramaGeometry);
  const panorama=new THREE.Mesh(panoramaGeometry,panoramaMaterial);panorama.name='City outside the windows';panorama.position.set(left-5,3.3,mid);panorama.rotation.y=Math.PI/2;group.add(panorama);
- // Stars sit behind the city image, high in the sky; slim towers and small lit windows sit closer to the glass.
- for(let i=0;i<72;i++){
-  const geo=new THREE.SphereGeometry(.018+(i%4)*.006,6,6);geometries.add(geo);
-  const starMat=material('#fff6cb',{emissive:'#fff0aa',emissiveIntensity:1.4});const star=new THREE.Mesh(geo,starMat);star.userData.nightSkyStar=true;star.position.set(left-5.22,5.25+(i*37%22)/10,back+(i*17%100)/100*depth);
-  star.visible=nightMode;group.add(star);nightObjects.push({mesh:star,star:true,phase:i*.31});
- }
- const cityWindow=material('#ffd581',{emissive:'#ffb84e',emissiveIntensity:.8});
- const buildingMaterials=['#35435e','#3e4c68','#46536a'].map(c=>material(c,{roughness:1}));
- for(let i=0;i<18;i++){
-  const z=back+.25+(i*1.31)%(depth-.5),x=left-4.91+(i%3)*.045,h=1.05+(i*29%120)/100,w=.24+(i*13%48)/100;
-  const building=box('Slim city tower beyond the windows',x,1.05+h/2,z,.025,h,w,buildingMaterials[i%buildingMaterials.length],false);
-  building.visible=nightMode;nightObjects.push({mesh:building});
-  const floors=Math.max(3,Math.floor(h/.20));
-  for(let row=0;row<floors;row++)for(let col=0;col<2;col++){
-   const lit=(i*7+row*3+col*5)%5!==0;
-   const win=box('Pinpoint apartment window',x+.018,1.10+row*.17,z+(col?1:-1)*(w*.23),.012,.035,.026,cityWindow,false);
-   win.visible=nightMode&&lit;nightObjects.push({mesh:win,window:true,phase:i*.7+row+col,mat:cityWindow,lit});
-  }
- }
  // Accurate editable lettering, rendered separately from the illustrated exterior.
  const canvas=document.createElement('canvas');canvas.width=1800;canvas.height=540;const context=canvas.getContext('2d');
  context.fillStyle='#294e40';context.fillRect(0,0,canvas.width,canvas.height);
@@ -97,9 +78,9 @@ export async function createClassroomEnvironment(deskScene,loader=new THREE.Text
  const haloCanvas=document.createElement('canvas');haloCanvas.width=128;haloCanvas.height=128;const haloContext=haloCanvas.getContext('2d');if(haloContext.createRadialGradient){const haloGradient=haloContext.createRadialGradient(64,64,5,64,64,64);haloGradient.addColorStop(0,'rgba(255,247,211,.8)');haloGradient.addColorStop(.35,'rgba(255,239,186,.32)');haloGradient.addColorStop(1,'rgba(255,239,186,0)');haloContext.fillStyle=haloGradient;}else haloContext.fillStyle='rgba(255,245,205,.4)';haloContext.fillRect(0,0,128,128);const haloTexture=new THREE.CanvasTexture(haloCanvas);textures.add(haloTexture);
  for(const z of [-1.8,3.3])for(const x of [-2.8,2.8]){
   box('Ceiling light casing',x,height-.055,z,1.72,.07,.43,trim,false);
-  const diffuser=material('#fffdf0',{emissive:'#fff2c3',emissiveIntensity:nightMode?1.8:1.05});const light=box('Ceiling diffuser',x,height-.10,z,1.60,.035,.32,diffuser,false);glowMeshes.push({mesh:light,phase:x+z,base:nightMode?1.8:1.05});
-  const haloMaterial=new THREE.MeshBasicMaterial({map:haloTexture,color:0xfff1c2,transparent:true,opacity:nightMode?.5:.32,blending:THREE.AdditiveBlending,depthWrite:false,side:THREE.DoubleSide});materials.add(haloMaterial);const haloGeometry=new THREE.PlaneGeometry(2.4,1.15);geometries.add(haloGeometry);const halo=new THREE.Mesh(haloGeometry,haloMaterial);halo.rotation.x=-Math.PI/2;halo.position.set(x,height-.145,z);group.add(halo);glowMeshes.push({mesh:halo,phase:x+z,base:haloMaterial.opacity,halo:true});
-  const spill=new THREE.PointLight(0xffefca,nightMode?85:48,7.5,1.8);spill.position.set(x,height-.2,z);group.add(spill);ceilingLights.push(spill);
+  const diffuser=material('#fffdf0',{emissive:'#fff2c3',emissiveIntensity:nightMode?.42:.30});const light=box('Ceiling diffuser',x,height-.10,z,1.60,.035,.32,diffuser,false);glowMeshes.push({mesh:light,phase:x+z,base:nightMode?.42:.30});
+  const haloMaterial=new THREE.MeshBasicMaterial({map:haloTexture,color:0xfff1c2,transparent:true,opacity:nightMode?.13:.07,blending:THREE.AdditiveBlending,depthWrite:false,side:THREE.DoubleSide});materials.add(haloMaterial);const haloGeometry=new THREE.PlaneGeometry(2.4,1.15);geometries.add(haloGeometry);const halo=new THREE.Mesh(haloGeometry,haloMaterial);halo.rotation.x=-Math.PI/2;halo.position.set(x,height-.145,z);group.add(halo);glowMeshes.push({mesh:halo,phase:x+z,base:haloMaterial.opacity,halo:true});
+  const spill=new THREE.PointLight(0xffefca,nightMode?2.8:1.6,7.5,1.8);spill.position.set(x,height-.2,z);group.add(spill);ceilingLights.push(spill);
  }
  const plant=(z)=>{
   const potGeometry=new THREE.CylinderGeometry(.14,.10,.20,20);geometries.add(potGeometry);
@@ -118,21 +99,22 @@ export async function createClassroomEnvironment(deskScene,loader=new THREE.Text
   for(let i=0;i<logoFiles.length;i++){
    const source=await loader.loadAsync(new URL(logoFiles[i],import.meta.url).href);source.colorSpace=THREE.SRGBColorSpace;textures.add(source);
    const canvas=document.createElement('canvas');canvas.width=768;canvas.height=1152;const ctx=canvas.getContext('2d');
+   ctx.clearRect(0,0,canvas.width,canvas.height);
+   ctx.beginPath();ctx.moveTo(0,0);ctx.lineTo(768,0);ctx.lineTo(768,872);ctx.lineTo(384,1152);ctx.lineTo(0,872);ctx.closePath();ctx.clip();
    ctx.fillStyle=i?'#17213f':'#fffdf6';ctx.fillRect(0,0,canvas.width,canvas.height);
-   const image=source.image,scale=image?.width&&image?.height?Math.min((canvas.width*.82)/image.width,(canvas.height*.72)/image.height):1,w=(image?.width||0)*scale,h=(image?.height||0)*scale;
-   if(image?.width&&image?.height)ctx.drawImage(image,(canvas.width-w)/2,(canvas.height-h)/2,w,h);
+   const image=source.image,scale=image?.width&&image?.height?Math.min((canvas.width*.78)/image.width,(canvas.height*.69)/image.height):1,w=(image?.width||0)*scale,h=(image?.height||0)*scale;
+   if(image?.width&&image?.height)ctx.drawImage(image,(canvas.width-w)/2,(canvas.height-h)/2-30,w,h);
    const texture=new THREE.CanvasTexture(canvas);texture.colorSpace=THREE.SRGBColorSpace;textures.add(texture);
    const x=(i?1:-1)*.76,z=front-.30;
    const poleGeo=new THREE.CylinderGeometry(.025,.025,1.38,10);geometries.add(poleGeo);const pole=new THREE.Mesh(poleGeo,material('#9c7b43',{metalness:.55,roughness:.35}));pole.position.set(x,3.22,z);group.add(pole);
    const sleeveGeo=new THREE.CylinderGeometry(.024,.024,.92,10);geometries.add(sleeveGeo);const sleeve=new THREE.Mesh(sleeveGeo,material('#c2a66b',{metalness:.5}));sleeve.rotation.z=Math.PI/2;sleeve.position.set(x,3.88,z);group.add(sleeve);
-   const shape=new THREE.Shape();shape.moveTo(-.48,0);shape.lineTo(.48,0);shape.lineTo(.48,-1.12);shape.lineTo(0,-1.48);shape.lineTo(-.48,-1.12);
-   const geo=new THREE.ShapeGeometry(shape);geometries.add(geo);const flagMat=new THREE.MeshBasicMaterial({map:texture,side:THREE.DoubleSide});materials.add(flagMat);
-   const flag=new THREE.Mesh(geo,flagMat);flag.position.set(x,3.85,z-.02);flag.name=i?'Edmund Education gonfalon':'HKU gonfalon';group.add(flag);
+   const geo=new THREE.PlaneGeometry(.96,1.48);geometries.add(geo);const flagMat=new THREE.MeshBasicMaterial({map:texture,transparent:true,alphaTest:.01,side:THREE.DoubleSide});materials.add(flagMat);
+   const flag=new THREE.Mesh(geo,flagMat);flag.position.set(x,3.11,z-.02);flag.name=i?'Edmund Education gonfalon':'HKU gonfalon';group.add(flag);
   }
  }
  if(deskTimer){const canvas=document.createElement('canvas');canvas.width=512;canvas.height=256;timerContext=canvas.getContext('2d');timerTexture=new THREE.CanvasTexture(canvas);timerTexture.colorSpace=THREE.SRGBColorSpace;textures.add(timerTexture);const body=box('3D discussion timer',1.02,1.03,2.12,.62,.34,.10,material('#182a35',{roughness:.34,metalness:.25}));body.rotation.y=Math.PI;const kickstand=box('Timer kickstand',1.02,.82,2.19,.28,.06,.31,material('#65727a',{metalness:.48,roughness:.38}));kickstand.rotation.x=-.28;const screenGeo=new THREE.PlaneGeometry(.54,.22);geometries.add(screenGeo);const screenMat=new THREE.MeshBasicMaterial({map:timerTexture});materials.add(screenMat);const screen=new THREE.Mesh(screenGeo,screenMat);screen.position.set(1.02,1.05,2.055);group.add(screen);}
- const setNight=value=>{nightMode=!!value;panoramaMaterial.color.set(nightMode?'#64718d':'#ffffff');nightObjects.forEach(item=>{if(item.star)item.mesh.visible=nightMode;else if(item.window)item.mesh.visible=nightMode&&item.lit;else item.mesh.visible=nightMode;});ceilingLights.forEach(light=>light.intensity=nightMode?85:48);glowMeshes.forEach(light=>{light.base=nightMode?1.8:1.05;light.mesh.material.emissiveIntensity=light.base;});};
+ const setNight=value=>{nightMode=!!value;panoramaMaterial.map=nightMode?nightCity:city;panoramaMaterial.needsUpdate=true;ceilingLights.forEach(light=>light.intensity=nightMode?2.8:1.6);glowMeshes.forEach(light=>{light.base=light.halo?(nightMode?.13:.07):(nightMode?.42:.30);if(!light.halo)light.mesh.material.emissiveIntensity=light.base;else light.mesh.material.opacity=light.base;});};
  const setTimer=value=>{if(!timerContext||!timerTexture)return;timerContext.clearRect(0,0,512,256);timerContext.fillStyle='#172936';timerContext.fillRect(0,0,512,256);timerContext.fillStyle='#f4e4a9';timerContext.font='700 132px ui-monospace,monospace';timerContext.textAlign='center';timerContext.textBaseline='middle';timerContext.fillText(String(value||'00:00'),256,132);timerTexture.needsUpdate=true;};
  setNight(night);setTimer('08:00');
- return {group,setNight,setTimer,update(elapsed){if(nightMode){nightObjects.filter(x=>x.star).forEach(x=>{const pulse=.5+.5*Math.sin(elapsed*2.1+x.phase);x.mesh.scale.setScalar(.72+.48*pulse);x.mesh.material.emissiveIntensity=1.1+.8*pulse;});if(cityWindow)cityWindow.emissiveIntensity=.52+.38*(.5+.5*Math.sin(elapsed*1.3));nightObjects.filter(x=>x.window).forEach(x=>{if(x.lit)x.mesh.visible=Math.sin(elapsed*.5+x.phase)>.92;});}glowMeshes.forEach(light=>{if(light.halo)light.mesh.material.opacity=light.base+(nightMode?.16:.09)*(.5+.5*Math.sin(elapsed*.8+light.phase));else light.mesh.material.emissiveIntensity=light.base+(nightMode?.35:.18)*(.5+.5*Math.sin(elapsed*.8+light.phase));});},dispose};
+ return {group,setNight,setTimer,update(elapsed){glowMeshes.forEach(light=>{if(light.halo)light.mesh.material.opacity=light.base+(nightMode?.04:.02)*(.5+.5*Math.sin(elapsed*.8+light.phase));else light.mesh.material.emissiveIntensity=light.base+(nightMode?.09:.06)*(.5+.5*Math.sin(elapsed*.8+light.phase));});},dispose};
 }

@@ -61,3 +61,16 @@
 @media(max-width:620px){.polysemy-streak{align-items:center}.polysemy-streak-copy{gap:8px}.polysemy-streak-fire{width:32px;height:32px}.polysemy-streak[data-streak-stage="1"] .polysemy-streak-fire{width:38px;height:38px}.polysemy-streak[data-streak-stage="2"] .polysemy-streak-fire{width:43px;height:43px}.polysemy-streak[data-streak-stage="3"] .polysemy-streak-fire{width:48px;height:48px}.polysemy-streak[data-streak-stage="4"] .polysemy-streak-fire{width:54px;height:54px}.polysemy-streak-eddy,.polysemy-streak[data-streak-stage] .polysemy-streak-eddy{width:44vw;height:76px;gap:5px;flex-basis:44vw}.eddy-streak-sprite{flex-basis:68px;width:68px;height:68px;background-size:600% 500%}.eddy-streak-cheer{font-size:.62rem;padding:5px 6px}}
 @media(prefers-reduced-motion:reduce){.feedback-step{animation:none;opacity:1;transform:none}}
 .feedback-explanation{margin:.7rem 0}.feedback-explanation-fragment{margin:.25rem 0 0;padding-left:.75rem;border-left:2px solid #c8ded3}
+/* The single-row strip has no art from an adjacent animation row. */
+.eddy-streak-sprite,.polysemy-streak[data-streak-stage] .eddy-streak-sprite{position:relative;overflow:hidden;background-image:url('/assets/speaking-system/mascots/streak/eddy-encouragement-strip.png');background-size:600% 200%;background-position:0% 34%;animation:none;transform:none;filter:none}
+.polysemy-streak[data-streak-stage="1"] .eddy-streak-sprite{background-position:40% 34%}
+.polysemy-streak[data-streak-stage="2"] .eddy-streak-sprite{background-position:60% 34%}
+.polysemy-streak[data-streak-stage="3"] .eddy-streak-sprite{background-position:100% 34%}
+.eddy-streak-sprite::after{content:"";position:absolute;inset:0;background:url('/assets/speaking-system/mascots/streak/eddy-encouragement-strip.png') 20% 34% / 600% 200% no-repeat;opacity:0;animation:eddy-natural-blink 5.8s steps(1,end) infinite}
+.polysemy-streak[data-streak-stage="2"] .eddy-streak-sprite::after,.polysemy-streak[data-streak-stage="3"] .eddy-streak-sprite::after{background-position:80% 34%}
+@keyframes eddy-natural-blink{0%,88%,91%,100%{opacity:0}89%,90%,96%{opacity:1}}
+.polysemy-streak[data-streak-stage="1"] .polysemy-streak-fire{width:46px;height:46px}
+.polysemy-streak[data-streak-stage="2"] .polysemy-streak-fire{width:58px;height:58px}
+.polysemy-streak[data-streak-stage="3"] .polysemy-streak-fire{width:70px;height:70px}
+.feedback-explanation-fragment{white-space:normal;overflow-wrap:normal;word-break:normal;line-break:strict}
+@media(prefers-reduced-motion:reduce){.eddy-streak-sprite::after{animation:none}}

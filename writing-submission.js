@@ -966,7 +966,7 @@ function appendStructuredFeedbackRichText(container, textValue, formattingValue,
       const badge = createElement("span", "feedback-number-badge", item.number);
       const mascot = WRITING_FEEDBACK_MASCOTS[(Math.max(1, Number(item.number) || 1) - 1) % WRITING_FEEDBACK_MASCOTS.length];
       const mascotImage = document.createElement("img");
-      mascotImage.src = `assets/speaking-system/mascots/v4/${mascot}-standing-clean.webp`;
+      mascotImage.src = `assets/writing-submission/mascot-heads/${mascot}.png`;
       mascotImage.alt = "";
       mascotImage.loading = "lazy";
       badge.append(mascotImage);
@@ -1380,7 +1380,9 @@ function feedbackFormattingToolbar() {
   numbering.setAttribute("aria-label", "連續編號");
   numbering.title = "將選取內容整理為編號段落，從目前最高編號接續";
   numbering.setAttribute("aria-label", "將所選內容套用連續編號");
-  toolbar.append(bold, italic, strike, numbering);
+  const nextNumber=createElement("button","teacher-feedback-format-button teacher-feedback-format-numbering","↵ 1.");
+  nextNumber.type="button";nextNumber.dataset.feedbackFormat="next-number";nextNumber.title="將選取文字另起一行，接到下一個連續編號";nextNumber.setAttribute("aria-label","將所選文字移至下一個編號項目");
+  toolbar.append(bold, italic, strike, numbering, nextNumber);
   FEEDBACK_HIGHLIGHT_NAMES.forEach(name => {
     const labels = { yellow: "黃色", orange: "橙色", blue: "藍色", green: "綠色", red: "紅色" };
     const shortcuts = { yellow: "⌘Y", orange: "⌘O", blue: "⌘B", green: "⌘G", red: "⌘R" };
@@ -1420,6 +1422,7 @@ function ensureFeedbackSelectionToolbar() {
   addButton({ command: "italic", text: "I", className: "is-italic", label: "斜體" });
   addButton({ command: "strikethrough", text: "S", className: "is-strike", label: "刪除線" });
   addButton({ command: "numbering", text: "1.", className: "is-numbering", label: "連續編號" });
+  addButton({ command: "next-number", text: "↵ 1.", className: "is-numbering", label: "移至下一個編號項目" });
   const divider = createElement("span", "teacher-feedback-selection-divider");
   divider.setAttribute("aria-hidden", "true");
   toolbar.append(divider);
@@ -1607,7 +1610,7 @@ function applyFeedbackFormatting(command) {
   const retainedRanges = [];
   let nextNumber = 1;
   const numbering = new Map();
-  if (command === "numbering") {
+  if (command === "numbering" || command === "next-number") {
     nextNumber = Math.max(0, ...[...readFeedbackRichEditor(editor).text.matchAll(/^\s*(\d+)[.)]\s+/gmu)]
       .map(match => Number(match[1]) || 0)) + 1;
     [...selectedRanges].sort((left, right) => {
@@ -1617,7 +1620,7 @@ function applyFeedbackFormatting(command) {
         .split("\n")
         .map(line => line.trim() ? `${nextNumber++}. ${line.replace(/^\s*\d+[.)]\s+/u, "")}` : line)
         .join("\n");
-      numbering.set(range.toString(), [...(numbering.get(range.toString()) || []), replacement]);
+      numbering.set(range.toString(), [...(numbering.get(range.toString()) || []), command === "next-number" ? "\n" + replacement : replacement]);
     });
   }
   state.feedbackApplyingFormat = true;
@@ -1628,7 +1631,7 @@ function applyFeedbackFormatting(command) {
       if (command === "bold") document.execCommand("bold", false);
       else if (command === "italic") document.execCommand("italic", false);
       else if (command === "strikethrough") document.execCommand("strikeThrough", false);
-      else if (command === "numbering") {
+      else if (command === "numbering" || command === "next-number") {
         const replacements = numbering.get(range.toString()) || [];
         document.execCommand("insertText", false, replacements.pop() || range.toString());
       }
@@ -5344,6 +5347,7 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
   const admin = role === "admin";
   const includeWriting = mode === "writing" || mode === "both";
   const includeFeedback = mode === "feedback" || mode === "both";
+  const useMascots = localStorage.getItem("edmund-writing-feedback-mascots") === "on";
   const modeLabel = mode === "writing" ? "學生原文" : mode === "feedback" ? "評語" : "學生原文及評語";
   const articles = bundles.map(({ submission, feedback }, index) => {
     const articleKey = `composition-${index + 1}`;
@@ -5372,7 +5376,7 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
     </article>`;
   }).join("");
   return `<!doctype html>
-<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><base href="${escapePrintHtml(new URL('.', window.location.href).href)}">
 <title>EdmundEducation－${escapePrintHtml(modeLabel)}</title>
 <style>
   :root{color-scheme:light}*{box-sizing:border-box}html,body{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
@@ -5391,6 +5395,8 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
   .print-feedback-text,.print-feedback-section,.print-sentence-panel{margin-top:18px}.print-feedback-text{border:1px solid #e4dfef;border-radius:14px;padding:16px 18px;background:#fffdf9;break-inside:avoid;page-break-inside:avoid}.print-feedback-text h3,.print-feedback-section>h3{margin:0 0 10px;color:#272757;font:850 17px system-ui,sans-serif}.print-feedback-text>div{font-size:15px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}
   .print-feedback-pairs,.print-learning-list,.print-enhancement-list{display:grid;gap:14px;margin-top:18px}.print-feedback-pair{overflow:hidden;border:1px solid #deddea;border-radius:15px;break-inside:avoid;page-break-inside:avoid}.print-feedback-band{margin:0;padding:13px 16px}.print-feedback-band>span,.print-enhancement-band>span{display:block;margin-bottom:6px;font:850 11px system-ui,sans-serif;letter-spacing:.03em}.print-feedback-band.is-original{background:#f5f6fa}.print-feedback-band.is-original>span{color:#52516d}.print-feedback-band.is-comment{border-top:1px solid #e8d3bb;background:#fff6e8}.print-feedback-band.is-comment>span{color:#a95416}.print-feedback-band.is-suggestion{border-top:1px solid #d4e7d6;background:#f1fbf3}.print-feedback-band.is-suggestion>span{color:#21703a}
   .print-rich-content{font-size:15px;line-height:1.68;white-space:pre-wrap;overflow-wrap:anywhere}.print-rich-content.is-empty{color:#827f94;font-style:italic}.print-rich-content p{margin:0}.print-rich-content p+p{margin-top:8px}.feedback-numbered-card{display:grid;grid-template-columns:32px 1fr;gap:9px;align-items:start;margin-top:8px;break-inside:avoid;page-break-inside:avoid}.feedback-number-badge{width:30px;height:30px;border-radius:8px;display:grid;place-items:center;color:#fff;background:#184d78;font:850 12px system-ui,sans-serif}.feedback-numbered-body{min-height:30px;border-left:3px solid #dc7a18;padding:5px 9px;background:#fff1d2}
+  .feedback-number-badge{position:relative;overflow:hidden;flex:none}.feedback-number-badge img{display:none!important;position:absolute!important;inset:0!important;width:30px!important;height:30px!important;max-width:30px!important;max-height:30px!important;object-fit:cover!important;object-position:center!important}.uses-feedback-mascots .feedback-number-badge{font-size:0;color:transparent;background:#fff7dc;border:1px solid #d6a94b}.uses-feedback-mascots .feedback-number-badge img{display:block!important}
+  .teacher-feedback-item-marker{display:inline-grid;position:relative;vertical-align:middle;place-items:center;width:25px;height:25px;overflow:hidden;border-radius:50%;background:#405b9e;color:#fff;font:800 11px system-ui,sans-serif}.teacher-feedback-item-marker img{display:none!important;position:absolute!important;inset:0!important;width:25px!important;height:25px!important;max-width:25px!important;max-height:25px!important;object-fit:cover!important}.uses-feedback-mascots .teacher-feedback-item-marker{font-size:0;color:transparent;background:#fff7dc}.uses-feedback-mascots .teacher-feedback-item-marker img{display:block!important}.teacher-feedback-item-marker img,.feedback-number-badge img{break-inside:avoid;page-break-inside:avoid}
   .print-learning-card{border:1px solid #d8e1f1;border-radius:13px;padding:14px 16px;background:#f5f8ff;break-inside:avoid;page-break-inside:avoid}.print-learning-card>strong{display:block;margin-bottom:7px;color:#304794;font:850 12px system-ui,sans-serif}
   .print-enhancement-card{overflow:hidden;border:1px solid #d9dceb;border-radius:15px;background:#fff;break-inside:avoid;page-break-inside:avoid}.print-card-title{display:block;padding:11px 15px;color:#fff;background:#304794;font:850 13px system-ui,sans-serif}.is-rhetorical .print-card-title{background:#7a3c78}.is-phrasal-verb .print-card-title{background:#276848}.is-writing-common-expression .print-card-title{background:#28617d}.is-rhetorical-common-expression .print-card-title{background:#98631d}.print-enhancement-band{margin:0;padding:12px 15px}.print-enhancement-band.is-original{background:#f7f7fa}.print-enhancement-band.is-original>span{color:#55536d}.print-enhancement-band.is-enhancement{border-top:1px solid #d7e7da;background:#f1fbf3}.print-enhancement-band.is-enhancement>span{color:#21703a}.print-enhancement-band.is-benefit{border-top:1px solid #eadbbc;background:#fff8e8}.print-enhancement-band.is-benefit>span{color:#9d5b16}
   .print-sentence-panel{overflow:hidden;border:1px solid #d9dceb;border-radius:15px;background:#f7f8ff;break-inside:avoid;page-break-inside:avoid}.print-sentence-panel>header{padding:13px 15px;display:flex;justify-content:space-between;gap:12px;color:#272757;background:#e9edff;font:12px system-ui,sans-serif}.print-sentence-panel>header strong{font-weight:850}.print-sentence-link-list{display:grid;gap:7px;padding:12px}.print-sentence-link-row{display:grid;grid-template-columns:28px 1fr;gap:9px;align-items:center;border:1px solid #e0e2ed;border-radius:10px;padding:8px 10px;background:#fff;break-inside:avoid;page-break-inside:avoid}.print-sentence-link-row>span{width:25px;height:25px;border-radius:50%;display:grid;place-items:center;color:#fff;background:#304794;font:800 11px system-ui,sans-serif}.print-sentence-link-row a{color:#145c91;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px;font:750 12px/1.45 system-ui,sans-serif}
@@ -5399,7 +5405,7 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
   mark{border-radius:.2em;padding:.03em .08em;color:inherit;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}mark[data-highlight="yellow"]{background:#fff1a8}mark[data-highlight="orange"]{background:#ffd3a1}mark[data-highlight="blue"]{background:#cfe6ff}mark[data-highlight="green"]{background:#d5f2d5}mark[data-highlight="red"]{background:#ffc7c7}em{font-style:italic}s{text-decoration:line-through}strong{font-weight:800}
   @media(max-width:600px){.composition{padding:27px 22px}.export-header{gap:16px}.export-header .brand{font-size:20px}.export-header .elearning{height:30px}h1{font-size:22px}.print-sentence-panel>header{display:grid}.print-feedback-contents>div{grid-template-columns:1fr}}
   @media print{@page{size:A4;margin:10mm 9mm}.print-toolbar{display:none!important}body{background:#fff}main{width:auto;margin:0}.composition{margin:0;padding:0;box-shadow:none}.print-page-start{break-before:page!important;page-break-before:always!important}.print-feedback-contents a{color:#174f83!important}}
-</style></head><body>
+</style></head><body class="${useMascots ? "uses-feedback-mascots" : ""}">
 <div class="print-toolbar"><p>已準備 ${bundles.length} 篇${escapePrintHtml(modeLabel)}${failedCount ? `；${failedCount} 篇未能載入` : ""} · ${escapePrintHtml(generatedAt)}</p><button type="button" id="print-compositions">列印／儲存為 PDF</button></div>
 <main>${articles}</main></body></html>`;
 }
@@ -5481,9 +5487,17 @@ async function exportSubmissionBundles(ids, role, mode = "both") {
     printWindow.document.close();
     const printButton = printWindow.document.querySelector("#print-compositions");
     printButton?.addEventListener("click", () => printWindow.print());
-    const autoPrint = () => window.setTimeout(() => {
-      try { printWindow.focus(); printWindow.print(); } catch { /* The visible print button remains available. */ }
-    }, 350);
+    const images = [...printWindow.document.images];
+    images.forEach(image => { image.loading = "eager"; });
+    const autoPrint = async () => {
+      await Promise.race([
+        Promise.all(images.map(image => image.decode?.().catch(() => {}) || Promise.resolve())),
+        new Promise(resolve => window.setTimeout(resolve, 5000))
+      ]);
+      window.setTimeout(() => {
+        try { printWindow.focus(); printWindow.print(); } catch { /* The visible print button remains available. */ }
+      }, 150);
+    };
     if (printWindow.document.readyState === "complete") autoPrint();
     else printWindow.addEventListener("load", autoPrint, { once: true });
     showToast(failedCount
@@ -6074,7 +6088,7 @@ const WRITING_FEEDBACK_MASCOTS = ["eddy", "phoebe", "elsie", "noir", "celeste"];
 function writingFeedbackItemMarker(index) {
   const number=index+1, mascot=WRITING_FEEDBACK_MASCOTS[index%WRITING_FEEDBACK_MASCOTS.length];
   const marker=createElement("span","teacher-feedback-item-marker",String(number));marker.dataset.feedbackItemNumber=String(number);
-  const image=document.createElement("img");image.src=`assets/speaking-system/mascots/v4/${mascot}-standing-clean.webp`;image.alt="";image.loading="lazy";marker.prepend(image);return marker;
+  const image=document.createElement("img");image.src=`assets/writing-submission/mascot-heads/${mascot}.png`;image.alt="";image.loading="lazy";marker.prepend(image);return marker;
 }
 function writingFeedbackHeading(label,index) { const heading=createElement("strong","teacher-feedback-numbered-heading");heading.append(document.createTextNode(`${label} `),writingFeedbackItemMarker(index));return heading; }
 

@@ -1,8 +1,8 @@
 import * as THREE from './vendor/three/three.module.js';
 import {GLTFLoader} from './vendor/three/loaders/GLTFLoader.js';
-import {MascotCharacters} from './speaking-mascot-characters.mjs?v=20260923-coin-cosmetics1';
+import {MascotCharacters} from './speaking-mascot-characters.mjs?v=20260923-bugfix3';
 import {updateAttention,listenerNod} from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
-import {createClassroomEnvironment} from './speaking-classroom-environment.mjs?v=20260923-night-classroom1';
+import {createClassroomEnvironment} from './speaking-classroom-environment.mjs?v=20260923-bugfix3';
 import {CAMERA_START,constrainCamera,constrainTarget,interiorOrbit} from './speaking-classroom-camera.mjs?v=20260923-night-classroom1';
 const cache=new Map();
 const load=name=>{if(!cache.has(name))cache.set(name,new GLTFLoader().loadAsync(new URL(`./assets/speaking-system/classroom/${name}.glb?v=20260908`,import.meta.url).href));return cache.get(name);};
@@ -17,7 +17,7 @@ export async function mountClassroom(root,candidates,onSelect,{seated=false,show
  root.replaceChildren(controls,renderer.domElement);const canvas=renderer.domElement;canvas.tabIndex=0;canvas.style.touchAction='none';canvas.setAttribute('aria-label','Interactive classroom. Drag to orbit, scroll to zoom. Enable free camera for keyboard movement.');
  const orbit=()=>{camera.position.copy(interiorOrbit(target,yaw,pitch,distance));camera.lookAt(target);};orbit();
  const look=()=>{camera.rotation.order='YXZ';camera.rotation.set(-pitch,yaw,0);};
- const ambient=new THREE.HemisphereLight(0xfff9ee,0x879386,night?.72:1.8);scene.add(ambient);const sun=new THREE.DirectionalLight(0xfff4df,night?.42:1.8);sun.position.set(-8,5,4);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.bias=-.0003;sun.shadow.normalBias=.045;Object.assign(sun.shadow.camera,{left:-10,right:10,top:10,bottom:-10,near:.5,far:35});scene.add(sun);
+ const ambient=new THREE.HemisphereLight(0xfff9ee,0x879386,night?.38:1.10);scene.add(ambient);const sun=new THREE.DirectionalLight(0xfff4df,night?.14:.95);sun.position.set(-8,5,4);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.bias=-.0003;sun.shadow.normalBias=.045;Object.assign(sun.shadow.camera,{left:-10,right:10,top:10,bottom:-10,near:.5,far:35});scene.add(sun);
  const resize=()=>{const w=root.clientWidth||600,h=Math.max(350,Math.min(580,w*.70));renderer.setSize(w,h);camera.aspect=w/h;camera.fov=Math.max(42,Math.min(64,2*Math.atan(Math.tan(21*Math.PI/180)*1.35/camera.aspect)*180/Math.PI));camera.updateProjectionMatrix();};const observer=new ResizeObserver(resize);observer.observe(root);resize();
  const pickables=[],rings=new Map(),actors=[],sprites=new MascotCharacters(undefined,undefined,{cosmeticsEnabled:showCosmetics});
  const mark=o=>o.traverse(n=>{if(n.isMesh){n.castShadow=!n.userData.mascotSurface&&!/floor|wall/i.test(n.name);n.receiveShadow=true;}});
@@ -26,7 +26,7 @@ export async function mountClassroom(root,candidates,onSelect,{seated=false,show
  for(let i=0;i<candidates.length;i++){
   const c=candidates[i],p=seatLayout(candidates.length,i),seat=new THREE.Group();seat.position.set(p.x,0,p.z);seat.rotation.y=p.yaw;seat.userData.candidateId=c.id;
   seat.add((await load('desk')).scene.clone(true));
-  if(c.name?.trim()){const art=await sprites.create(c.mascot||['eddy','elsie','phoebe'][i%3],seated?'seated':'standing');art.cosmeticWardrobe=c.cosmeticWardrobe||null;sprites.refreshCosmetics();art.mesh.position.set(0,.04,-.56);seat.add(art.mesh);actors.push({art,yaw:p.yaw,facingYaw:p.yaw,id:c.id,phase:i*1.37,slot:i,lookYaw:0,x:p.x-.56*Math.sin(p.yaw),z:p.z-.56*Math.cos(p.yaw)});}
+  {const art=await sprites.create(c.mascot||['eddy','elsie','phoebe'][i%3],seated?'seated':'standing');art.cosmeticWardrobe=c.cosmeticWardrobe||null;sprites.refreshCosmetics();art.mesh.position.set(0,.04,-.56);seat.add(art.mesh);actors.push({art,yaw:p.yaw,facingYaw:p.yaw,id:c.id,phase:i*1.37,slot:i,lookYaw:0,x:p.x-.56*Math.sin(p.yaw),z:p.z-.56*Math.cos(p.yaw)});}
   mark(seat);scene.add(seat);pickables.push(seat);
   const ring=new THREE.Mesh(new THREE.TorusGeometry(.66,.028,8,48),new THREE.MeshBasicMaterial({color:0x35a875}));ring.rotation.x=-Math.PI/2;ring.position.set(p.x,.03,p.z);ring.visible=false;scene.add(ring);rings.set(c.id,ring);
  }

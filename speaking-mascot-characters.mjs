@@ -47,7 +47,7 @@ export class MascotCharacters {
   }
   async create(name='eddy',pose='standing') {
     if(!MASCOT_VIEWS[name])name='eddy';
-    if(!['standing','seated'].includes(pose))pose='standing';
+    if(!['standing','seated'].includes(pose)||!MASCOT_VIEWS[name]?.[pose])pose='standing';
     const resource=await this.load(name,pose);
     if(this.disposed||!resource)return null;
     const headResource=pose==='standing'?resource:await this.load(name,'standing');

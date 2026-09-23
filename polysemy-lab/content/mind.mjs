@@ -2298,6 +2298,7 @@ export default {
     {
       "id": "mind-23-0",
       "sense": "mind-23",
+      "acceptedSenses": ["mind-25"],
       "en": "Do you mind if I open the window?",
       "zh": "你介意我打開窗嗎？",
       "masked": "Do you ____ if I open the window?",
@@ -2309,7 +2310,7 @@ export default {
         "mind-27",
         "mind-28"
       ],
-      "explanation": "留意語境：mind = care/object（介意）。這裡指「介意；在意」。",
+      "explanation": "這是 Do you mind if…? 的禮貌問法。「介意；在意」和「你介不介意……」都符合這句語境。",
       "sentenceIndex": 45,
       "sourcePractice": 46,
       "targets": [
@@ -2318,7 +2319,7 @@ export default {
       "optionReasons": {
         "mind-23": "本句的意思是「介意；在意」。",
         "mind-24": "「介不介意……」與本句語境不同。",
-        "mind-25": "「你介不介意……」與本句語境不同。",
+        "mind-25": "這句正是 Do you mind if…?，所以「你介不介意……」也正確。",
         "mind-26": "「我沒所謂；我不介意」與本句語境不同。",
         "mind-27": "「照顧；看管」與本句語境不同。",
         "mind-28": "「小心；留意」與本句語境不同。"
