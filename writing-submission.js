@@ -964,6 +964,13 @@ function appendStructuredFeedbackRichText(container, textValue, formattingValue,
     block.items.forEach((item) => {
       const card = createElement("div", "feedback-numbered-card");
       const badge = createElement("span", "feedback-number-badge", item.number);
+      const mascot = WRITING_FEEDBACK_MASCOTS[(Math.max(1, Number(item.number) || 1) - 1) % WRITING_FEEDBACK_MASCOTS.length];
+      const mascotImage = document.createElement("img");
+      mascotImage.src = `assets/speaking-system/mascots/v4/${mascot}-standing-clean.webp`;
+      mascotImage.alt = "";
+      mascotImage.loading = "lazy";
+      badge.append(mascotImage);
+      badge.dataset.feedbackItemNumber = String(item.number);
       badge.setAttribute("aria-label", `第 ${item.number} 點`);
       const body = createElement("div", "feedback-numbered-body");
       appendFeedbackRichText(
@@ -6331,7 +6338,7 @@ function renderStudentFeedback(feedback, container) {
     createElement("h2", "", "Edmund Sir 寫作評語")
   );
   if (feedback.updatedAt) head.append(createElement("time", "", `更新：${formatSubmissionDate(feedback.updatedAt)}`));
-  const mascotToggle=createElement("label","teacher-feedback-mascot-toggle");const mascotInput=document.createElement("input");mascotInput.type="checkbox";mascotInput.checked=localStorage.getItem("edmund-writing-feedback-mascots")==="on";mascotToggle.append(mascotInput,document.createTextNode("以角色頭像顯示項目編號"));mascotInput.addEventListener("change",()=>{localStorage.setItem("edmund-writing-feedback-mascots",mascotInput.checked?"on":"off");panel.classList.toggle("uses-feedback-mascots",mascotInput.checked);});head.append(mascotToggle);panel.classList.toggle("uses-feedback-mascots",mascotInput.checked);
+  const mascotToggle=createElement("label","teacher-feedback-mascot-toggle");const mascotInput=document.createElement("input");mascotInput.type="checkbox";mascotInput.checked=localStorage.getItem("edmund-writing-feedback-mascots")==="on";mascotToggle.append(mascotInput,document.createTextNode("以角色頭像取代項目編號"));mascotInput.addEventListener("change",()=>{localStorage.setItem("edmund-writing-feedback-mascots",mascotInput.checked?"on":"off");panel.classList.toggle("uses-feedback-mascots",mascotInput.checked);});head.append(mascotToggle);panel.classList.toggle("uses-feedback-mascots",mascotInput.checked);
   head.append(createElement("p", "teacher-feedback-word-brush-help", "🖌 選取評語內一個或多個字詞，再按浮出的畫筆收藏及製作 Flashcard。"));
   panel.append(head);
   const overall = feedbackTextSection(

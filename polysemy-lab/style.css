@@ -47,3 +47,17 @@
 @keyframes feedback-reveal{from{opacity:0;transform:translateY(12px) scale(.985)}to{opacity:1;transform:none}}
 @media(prefers-reduced-motion:reduce){.eddy-streak-sprite,.question-card,.question-card *{animation:none!important;transition:none!important;opacity:1;transform:none}}
 @media(max-width:620px){.polysemy-streak-eddy{width:42vw;height:80px}.eddy-streak-sprite{width:76px;height:76px}.eddy-streak-cheer{font-size:.65rem}}
+
+/* Keep Eddie anchored; show the fire beside the streak and encouragement beside his portrait. */
+.polysemy-streak-copy{position:static;flex-direction:row;align-items:center;gap:12px;min-width:0;flex:0 0 auto}
+.polysemy-streak-fire{position:static;flex:0 0 auto;left:auto;top:auto;transform:none;filter:drop-shadow(0 2px 3px #df812b44)}
+.polysemy-streak-eddy,.polysemy-streak[data-streak-stage] .polysemy-streak-eddy{position:relative;display:flex;align-items:center;justify-content:center;gap:10px;width:min(48vw,320px);height:110px;overflow:visible;transform:none;filter:none;transition:none;flex:0 1 320px}
+.eddy-streak-sprite{flex:0 0 100px;width:100px;height:100px;background-position-x:0%;animation:none;transform:none}
+.polysemy-streak[data-streak-stage="1"] .eddy-streak-sprite,.polysemy-streak[data-streak-stage="2"] .eddy-streak-sprite,.polysemy-streak[data-streak-stage="3"] .eddy-streak-sprite,.polysemy-streak[data-streak-stage="4"] .eddy-streak-sprite{background-position-x:0%}
+.eddy-streak-cheer{position:static;display:block;max-width:150px;opacity:1;transform:none;animation:none;padding:7px 10px;line-height:1.35}
+.feedback-step{animation:feedback-step-in .45s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(.16s + var(--feedback-step,0)*.38s)}
+.feedback-step>p{margin:5px 0 0}
+@keyframes feedback-step-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:620px){.polysemy-streak{align-items:center}.polysemy-streak-copy{gap:8px}.polysemy-streak-fire{width:32px;height:32px}.polysemy-streak[data-streak-stage="1"] .polysemy-streak-fire{width:38px;height:38px}.polysemy-streak[data-streak-stage="2"] .polysemy-streak-fire{width:43px;height:43px}.polysemy-streak[data-streak-stage="3"] .polysemy-streak-fire{width:48px;height:48px}.polysemy-streak[data-streak-stage="4"] .polysemy-streak-fire{width:54px;height:54px}.polysemy-streak-eddy,.polysemy-streak[data-streak-stage] .polysemy-streak-eddy{width:44vw;height:76px;gap:5px;flex-basis:44vw}.eddy-streak-sprite{flex-basis:68px;width:68px;height:68px;background-size:600% 500%}.eddy-streak-cheer{font-size:.62rem;padding:5px 6px}}
+@media(prefers-reduced-motion:reduce){.feedback-step{animation:none;opacity:1;transform:none}}
+.feedback-explanation{margin:.7rem 0}.feedback-explanation-fragment{margin:.25rem 0 0;padding-left:.75rem;border-left:2px solid #c8ded3}
