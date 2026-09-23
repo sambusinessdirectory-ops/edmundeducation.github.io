@@ -948,3 +948,5 @@ html.edmund-pomodoro-page-locked, html.edmund-pomodoro-page-locked body { overfl
   .edmund-system-header__actions .connection-pill, .edmund-system-header__actions .user-pill { font-size:11px; max-width:100%; }
 }
 .edmund-system-header [hidden] { display:none!important; }
+
+.edmund-coin-wallet{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border:1px solid #dfbd61;border-radius:999px;background:linear-gradient(135deg,#fff9df,#ffefb8);color:#503e13;text-decoration:none;box-shadow:0 2px 7px #936c1b16}.edmund-coin-mark{position:relative;display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#e8b93e;font-size:22px;line-height:1}.edmund-coin-mark span{position:absolute;z-index:1;font-size:12px;transform:translateY(-1px);filter:drop-shadow(0 1px #fff)}.edmund-coin-copy{display:grid;line-height:1.05}.edmund-coin-copy strong{font-size:15px;font-variant-numeric:tabular-nums}.edmund-coin-copy small{font-size:9px;font-weight:750;white-space:nowrap}@media(max-width:600px){.edmund-coin-wallet{padding:4px 8px}.edmund-coin-mark{width:28px;height:28px;font-size:18px}}

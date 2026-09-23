@@ -73,7 +73,7 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
   const lesson=lessonNumber(requestedLesson??new URLSearchParams(location.search).get('lesson')??data.lesson);
   const owner=session()?.user?.id,ownsPage=()=>Boolean(owner)&&session()?.user?.id===owner;
   const page=document.createElement('main');page.className='pro-practice-page poly-page';root.append(page);document.body.classList.add('pro-dialogue-open');
-  let word=null,quiz=null,progress=completedWords(owner,lesson),attempt=null,completedAt=null,awarded=false,stopStudy=()=>{},loading=false,loadVersion=0,opening=null,lastUrl=location.href,unloadApproved=false;
+  let word=null,quiz=null,progress=completedWords(owner,lesson),attempt=null,completedAt=null,awarded=false,stopStudy=()=>{},loading=false,loadVersion=0,opening=null,lastUrl=location.href,unloadApproved=false,answerStreak=0;
   const draftKey=w=>`draft:poly:lesson-${lesson}:${w.id}`;
   const completeKey=w=>`draft:poly-complete:lesson-${lesson}:${w.id}`;
   const legacyCompleteKey=w=>`draft:poly-complete:${w.id}`;
@@ -93,7 +93,7 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
     if(mode==='push'&&url.href!==location.href)history.pushState(null,'',url);else if(mode==='replace')history.replaceState(null,'',url);
     lastUrl=location.href;
   }
-  function wordProgress(){const s=quiz?.state||{correctCount:word.questions.length,wordTotal:word.questions.length};return `<div class="poly-word-progress"><label for="poly-word-progress">已答對 <strong data-poly-progress-count>${s.correctCount} / ${s.wordTotal}</strong> 題</label><progress id="poly-word-progress" max="${s.wordTotal}" value="${s.correctCount}" aria-label="這個詞語已答對的題目"></progress></div>`;}
+  function wordProgress(){const s=quiz?.state||{correctCount:word.questions.length,wordTotal:word.questions.length};const level=Math.min(5,Math.floor(answerStreak/2));const cheer=answerStreak>=10?'太厲害了！繼續保持！':answerStreak>=5?'連勝中！你做得到！':answerStreak>=2?'做得好，繼續！':'答對答案，累積連勝！';return `<div class="poly-word-progress"><label for="poly-word-progress">已答對 <strong data-poly-progress-count>${s.correctCount} / ${s.wordTotal}</strong> 題</label><progress id="poly-word-progress" max="${s.wordTotal}" value="${s.correctCount}" aria-label="這個詞語已答對的題目"></progress><div class="poly-streak" data-streak-level="${level}" aria-live="polite"><span class="poly-streak-fire" aria-hidden="true" style="--streak-size:${Math.min(1.55,1+answerStreak*.055)}"><img src="../assets/schedule/day-streak-fire.gif" alt=""></span><span class="poly-streak-copy"><strong>連勝 ${answerStreak}</strong><small>${cheer}</small></span><span class="poly-streak-mascot" role="img" aria-label="Eddie 正在為你加油"></span></div></div>`;}
   function showList({navigate=false}={}){
     if(!ownsPage())return;
     stopStudy();loadVersion++;loading=false;word=null;quiz=null;attempt=null;unloadApproved=false;
@@ -134,7 +134,7 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
     feedback.textContent=s.correct?`答對了！${s.question.zh}`:'這個意思不符合語境。綠色選項是正確答案；這題會在下一輪再出現，請再留意句子中的線索。';
     const next=page.querySelector('[data-poly-next]');next.hidden=false;
     next.innerHTML=s.position+1<s.total?'下一題 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>':s.missed?`重溫答錯的 ${s.missed} 題 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>`:'查看結果 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>';
-    page.querySelector('[data-poly-progress-count]').textContent=`${s.correctCount} / ${s.wordTotal}`;page.querySelector('#poly-word-progress').value=s.correctCount;
+    page.querySelector('[data-poly-progress-count]').textContent=`${s.correctCount} / ${s.wordTotal}`;page.querySelector('#poly-word-progress').value=s.correctCount;const streak=page.querySelector('.poly-streak');if(streak){streak.dataset.streakLevel=String(Math.min(5,Math.floor(answerStreak/2)));streak.querySelector('.poly-streak-copy strong').textContent=`連勝 ${answerStreak}`;streak.querySelector('.poly-streak-copy small').textContent=answerStreak>=10?'太厲害了！繼續保持！':answerStreak>=5?'連勝中！你做得到！':answerStreak>=2?'做得好，繼續！':'答對答案，累積連勝！';streak.querySelector('.poly-streak-fire').style.setProperty('--streak-size',String(Math.min(1.55,1+answerStreak*.055)));}
   }
   function render(){
     if(!ownsPage()||!word||!quiz)return;
@@ -179,7 +179,7 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
       if(mayLeave()){persist();void openWord(button.dataset.polyWord||button.dataset.polyRedo,{redo:button.hasAttribute('data-poly-redo')});}
     }
     else if(button.matches('[data-poly-answer]')&&quiz&&!loading){
-      const correct=quiz.answer(button.dataset.polyAnswer);if(correct===null)return;stopStudy.progress?.();
+      const correct=quiz.answer(button.dataset.polyAnswer);if(correct===null)return;answerStreak=correct?answerStreak+1:0;stopStudy.progress?.();
       if(correct){const q=quiz.state.question;record({kind:'polysemy',exercise:`lesson-${lesson}:${word.id}`,attempt,item:q.id,answer:q.answer},owner);}
       persist();answerFeedback();awardCompletion();page.querySelector('[data-poly-next]')?.focus();
       if(correct)document.dispatchEvent(new CustomEvent('professional-card-marked',{detail:{mark:'green'}}));

@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
-  <meta name="description" content="Eddie Farm 積分系統 — EdmundEducation student points.">
+  <meta name="description" content="Edmund Coin System 金幣系統 — EdmundEducation student points.">
   <meta name="theme-color" content="#c49017">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Eddie Farm 積分">
+  <meta name="apple-mobile-web-app-title" content="Edmund Coins">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-speaking-system.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; worker-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self' blob: https://edmund-speaking-system.edmundeducation.workers.dev">
-  <title>Eddie Farm 積分系統｜EdmundEducation</title>
+  <title>Edmund Coin System 金幣系統｜EdmundEducation</title>
   <link rel="canonical" href="https://edmundeducation.com/eddie-farm.html">
   <link rel="manifest" href="/pwa-manifests/eddie-farm.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
@@ -30,7 +30,7 @@
       <div class="edmund-system-switcher" data-edmund-system-switcher data-system="eddie-farm">
         <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="Switch learning system" data-farm-i18n-aria="switchSystem">
           <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
-          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Eddie Farm 積分系統</small></span>
+          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Edmund Coin System 金幣系統</small></span>
           <span aria-hidden="true">⌄</span>
         </button>
       </div>
@@ -45,7 +45,7 @@
   </header>
   <main id="farm-main" class="farm-shell">
     <section class="farm-login" data-farm-login>
-      <div class="farm-welcome"><span class="farm-eyebrow" data-farm-i18n="library">EDMUND STUDENT LIBRARY</span><div class="farm-mark" aria-hidden="true">🌻</div><h1>Eddie Farm<br><span data-farm-i18n="pointsSystem">Points system</span></h1><p data-farm-i18n="tagline">A little progress, a growing farm.</p><a href="index.html" data-farm-i18n="back">← Back to home</a></div>
+      <div class="farm-welcome"><span class="farm-eyebrow" data-farm-i18n="library">EDMUND STUDENT LIBRARY</span><div class="farm-mark" aria-hidden="true">🌻</div><h1>Edmund Coin System<br><span data-farm-i18n="pointsSystem">Coin wallet</span></h1><p data-farm-i18n="tagline">A little progress, a growing farm.</p><a href="index.html" data-farm-i18n="back">← Back to home</a></div>
       <form class="farm-card" data-farm-form>
         <span class="farm-eyebrow" data-farm-i18n="welcome">WELCOME BACK</span><h2 data-farm-i18n="login">Log in</h2>
         <p data-farm-i18n="loginHelp">Use your usual EdmundEducation student account.</p>
@@ -56,14 +56,15 @@
       </form>
     </section>
     <section class="farm-balance farm-card" data-farm-student hidden>
-      <span class="farm-eyebrow">EDDIE FARM</span><h1 data-farm-i18n="myPoints">My points</h1>
-      <output class="farm-points" data-farm-balance aria-live="polite">—</output><p data-farm-i18n="balance">Current balance</p>
+      <span class="farm-eyebrow">EDMUND COIN SYSTEM</span><h1 data-farm-i18n="myPoints">My coins</h1>
+      <output class="farm-points" data-farm-balance aria-live="polite">—</output><p data-farm-i18n="balance">Current coin balance</p>
       <div class="farm-actions"><button type="button" data-farm-refresh data-farm-i18n="refreshBalance">Refresh balance</button><a class="farm-primary" href="eddy-carrot-patch/" data-farm-i18n="visitFarm">Visit Eddie’s Farm →</a></div>
     </section>
     <section class="farm-card farm-admin" data-farm-admin hidden>
-      <span class="farm-eyebrow" data-farm-i18n="administration">FARM ADMINISTRATION</span><h1 data-farm-i18n="rewardSettings">Reward settings</h1>
+      <span class="farm-eyebrow" data-farm-i18n="administration">EDMUND COIN ADMINISTRATION</span><h1 data-farm-i18n="rewardSettings">Reward settings</h1>
       <p data-farm-i18n="ruleHelp">Changes apply to future completions. Existing points stay unchanged; a changed rule starts a new exercise batch. A return bonus is paid at most once per consecutive Hong Kong calendar day.</p>
       <button type="button" data-farm-admin-refresh data-farm-i18n="refreshSettings">Refresh settings</button>
+      <section class="farm-wallet-admin"><h2>Student coin wallets</h2><form data-farm-wallet-search><label>Find a student<input type="search" name="query" minlength="2" maxlength="80" placeholder="Enter part of a student name" required></label><button type="submit">Search</button></form><div data-farm-wallet-results aria-live="polite"></div></section>
       <div class="farm-rule-list" data-farm-rules></div>
     </section>
     <p class="farm-status" data-farm-status role="status" aria-live="polite"></p>

@@ -6,6 +6,14 @@ export function createEnglishModelStore(scope = window) {
   let deleting = null;
   const modelURL = new URL('./assets/speaking-system/models/english-us-0.15.tar.gz', import.meta.url).href;
   const scriptURL = new URL('./vendor/vosk/vosk-0.0.8.js', import.meta.url).href;
+  const packageCacheName='edmund-transcription-model-v1';
+  async function primePackage(onProgress){
+    if(!scope.caches||!scope.fetch)return;const cache=await scope.caches.open(packageCacheName),cached=await cache.match(modelURL);
+    if(cached){const total=Number(cached.headers.get('content-length'))||0;onProgress?.({file:'english-us-0.15.tar.gz',loaded:total,total,complete:true,cached:true});return;}
+    const response=await scope.fetch(modelURL,{cache:'no-store',credentials:'omit'});if(!response.ok)throw new Error('Could not download the English model package.');
+    const total=Number(response.headers.get('content-length'))||0;let loaded=0;const chunks=[];if(response.body?.getReader){const reader=response.body.getReader();for(;;){const {done,value}=await reader.read();if(done)break;chunks.push(value);loaded+=value.byteLength;onProgress?.({file:'english-us-0.15.tar.gz',loaded,total,complete:false,cached:false});}}else{const blob=await response.blob();loaded=blob.size;chunks.push(blob);onProgress?.({file:'english-us-0.15.tar.gz',loaded,total:total||loaded,complete:false,cached:false});}
+    const headers=new Headers(response.headers);headers.set('content-length',String(loaded));await cache.put(modelURL,new Response(new Blob(chunks),{status:200,headers}));onProgress?.({file:'english-us-0.15.tar.gz',loaded,total:total||loaded,complete:true,cached:false});
+  }
   const channel = scope.BroadcastChannel ? new scope.BroadcastChannel('edmund-local-recognition-storage') : null;
   channel?.unref?.();
   const cancelled = () => Object.assign(new Error('Local recognition data was removed.'), { name: 'AbortError' });
@@ -91,11 +99,12 @@ export function createEnglishModelStore(scope = window) {
       .finally(() => { deleting = null; });
     return deleting;
   }
-  return { load, remove };
+  return { load, remove, primePackage, hasPackage:async()=>Boolean(scope.caches&&await (await scope.caches.open(packageCacheName)).match(modelURL)) };
 }
 let englishModelStore;
 const store = () => englishModelStore ||= createEnglishModelStore();
-export const loadEnglishModel = () => store().load();
+export const loadEnglishModel = async onProgress => { await store().primePackage(onProgress); return store().load(); };
+export const englishModelPackageReady = () => store().hasPackage();
 export const deleteEnglishModel = () => store().remove();
 
 export class LocalEnglishTranscriber {
