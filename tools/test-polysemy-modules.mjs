@@ -15,7 +15,7 @@ for(const m of modules){
   assert.equal(new Set(q.options.map(id=>senses.get(id).title)).size,Math.min(6,m.senses.length),q.id+' has duplicate labels');
   assert.equal(Object.keys(q.optionReasons).length,Math.min(6,m.senses.length));
   const row=manifest[q.id];if(!row){missingAudio.push(q.id);continue;}
-  assert.equal(row.voice,(m.number>=16?cycleNew[q.sentenceIndex%3]:cycle[q.sentenceIndex%4]));assert.equal(row.text,q.en);assert.equal(row.sourceSha256,crypto.createHash('sha256').update(q.en).digest('hex'));assert.ok(row.duration>0.8);assert.ok(fs.statSync(new URL('../polysemy-lab/'+row.path,import.meta.url)).size>1000);
+  assert.equal(row.voice,(m.number>=33?cycle[q.sentenceIndex%4]:m.number>=16?cycleNew[q.sentenceIndex%3]:cycle[q.sentenceIndex%4]));assert.equal(row.text,q.en);assert.equal(row.sourceSha256,crypto.createHash('sha256').update(q.en).digest('hex'));assert.ok(row.duration>0.8);assert.ok(fs.statSync(new URL('../polysemy-lab/'+row.path,import.meta.url)).size>1000);
  }
  for(let seed=0;seed<10;seed++){const shuffled=shuffledQuestions(m.id+seed);assert.equal(new Set(shuffled.map(q=>q.id)).size,m.questions.length);assert.ok(shuffled.slice(1).every((q,i)=>q.sense!==shuffled[i].sense));}
  const run=crypto.randomUUID(),start={module:m.id,kind:'start',id:crypto.randomUUID(),run,at:new Date().toISOString()},events=[start];let first,retryAt;

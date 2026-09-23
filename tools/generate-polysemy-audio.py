@@ -1,7 +1,7 @@
 """Generate each module’s examples with the established four voices, in manual order.
 Credentials stay in memory. Cache immutable source hashes; pad starts for mobile playback.
 """
-import argparse,json,hashlib,subprocess,tempfile,urllib.request,urllib.error,time
+import argparse,json,hashlib,re,subprocess,tempfile,urllib.request,urllib.error,time
 from pathlib import Path
 p=argparse.ArgumentParser();p.add_argument('--model',required=True);p.add_argument('--voices',required=True);p.add_argument('--sentences',required=True);p.add_argument('--output-prefix',default='audio');p.add_argument('--kind',choices=['local','cloud'],required=True);a=p.parse_args()
 root=Path(__file__).resolve().parent.parent;out=root/'polysemy-lab/audio';out.mkdir(exist_ok=True)
@@ -41,9 +41,20 @@ for index,row in enumerate(rows):
     raw=Path(temp)/'raw.mp3';raw.write_bytes(request('@cf/deepgram/aura-2-en',{'text':'Hello. '+row['en'].replace('8 p.m.', 'eight P M'),'speaker':'aries','encoding':'mp3'}))
     result=json.loads(request('@cf/openai/whisper-large-v3-turbo',{'audio':base64.b64encode(raw.read_bytes()).decode(),'language':'en'}))['result']
     words=[w for s in result.get('segments',[]) for w in s.get('words',[])]
-    if len(words)<2 or 'hello' not in words[0]['word'].lower():
+    source_tokens=re.findall(r'[a-z0-9]+',row['en'].replace('8 p.m.','eight P M').lower())
+    recognized_prefix=re.findall(r'[a-z0-9]+',words[0]['word'].lower()) if words else []
+    recognized_remainder=re.findall(r'[a-z0-9]+',' '.join(w['word'] for w in words[1:]).lower()) if len(words)>1 else []
+    # Whisper occasionally hears Aura2's known “Hello.” padding as “Gallo.”
+    # Accept that only when the remaining recognized sentence matches the input exactly.
+    recognized_sentence=re.findall(r'[a-z0-9]+',' '.join(w['word'] for w in words).lower())
+    if len(words)>1 and (recognized_prefix==['hello'] or recognized_remainder==source_tokens):
+     trim=(words[0]['end']+words[1]['start'])/2
+    elif words and recognized_sentence==source_tokens:
+     # Whisper may omit the known prefix. Exact full-sentence recognition lets
+     # us cut before the first spoken source word without clipping its onset.
+     trim=max(0,words[0]['start']-0.1)
+    else:
      debug=Path(tempfile.gettempdir())/('polysemy-prefix-'+row['id']);debug.with_suffix('.mp3').write_bytes(raw.read_bytes());debug.with_suffix('.json').write_text(json.dumps(result));raise RuntimeError('Cannot safely remove generation prefix '+row['id'])
-    trim=(words[0]['end']+words[1]['start'])/2
    subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-i',str(raw),'-af',f'atrim=start={trim},adelay=300:all=1,apad=pad_dur=0.2,asetpts=N/SR/TB','-codec:a','libmp3lame','-b:a','96k','-y',str(dest)],check=True)
  duration=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(dest)],text=True))
  manifest[row['id']]={'path':'audio/'+dest.name,'voice':voice,'index':index,'text':row['en'],'duration':round(duration,3),'speed':recipe['speed'],'sourceSha256':hashlib.sha256(row['en'].encode()).hexdigest()};print(row['id'],voice,round(duration,2),flush=True)

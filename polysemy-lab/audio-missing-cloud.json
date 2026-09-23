@@ -1,0 +1,551 @@
+{
+  "busy-03-1": {
+    "path": "audio/4fa89df27bd769a4243e913b.mp3",
+    "voice": "american-male",
+    "index": 5,
+    "text": "He has been busy with paperwork all morning.",
+    "duration": 2.976,
+    "speed": 1,
+    "sourceSha256": "d1613749bb5cbe1333deb1783ed34de2c586f6e375eb14f1f2eb55c18e75b89f"
+  },
+  "busy-05-0": {
+    "path": "audio/40215b29ef33d9f8e744e283.mp3",
+    "voice": "american-male",
+    "index": 9,
+    "text": "Be careful when crossing this busy road.",
+    "duration": 2.736,
+    "speed": 1,
+    "sourceSha256": "36aafa666a505dfbb2a8b46454c44ee20981a52d0dbde4182603dd14df355cc9"
+  },
+  "watch-01-1": {
+    "path": "audio/17e39fdee331f1b44a9b06ff.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "We watched a documentary after dinner.",
+    "duration": 2.52,
+    "speed": 1,
+    "sourceSha256": "92aa91a350388cb585e6843607a92aaa39bc455cf777c3665a40c0682717c72a"
+  },
+  "watch-13-0": {
+    "path": "audio/c3db9e1d632e33f9a548d8d5.mp3",
+    "voice": "american-male",
+    "index": 25,
+    "text": "Please keep a close watch on the water level.",
+    "duration": 2.736,
+    "speed": 1,
+    "sourceSha256": "c9d48c912b6b0361005ac575863889c5c9afd97a6023ee08fd4166c14f7e4d95"
+  },
+  "watch-15-0": {
+    "path": "audio/da6cabe91497272a2191404f.mp3",
+    "voice": "american-male",
+    "index": 29,
+    "text": "Watch it! You nearly hit me.",
+    "duration": 2.304,
+    "speed": 1,
+    "sourceSha256": "4160e67926646457c90437741b72fcd9d19dce4f4e01b06a2a9bed5eb3d94234"
+  },
+  "watch-17-0": {
+    "path": "audio/ca5946581eee606711b820ed.mp3",
+    "voice": "american-male",
+    "index": 33,
+    "text": "He looked at his watch.",
+    "duration": 1.824,
+    "speed": 1,
+    "sourceSha256": "87557d7cf7a27c0c9b5d71949a780458e47fb6a14f272c1eaf8976508268877d"
+  },
+  "watch-19-0": {
+    "path": "audio/e95bdb2d42921b1854c29135.mp3",
+    "voice": "american-male",
+    "index": 37,
+    "text": "The family kept a watch beside his bed.",
+    "duration": 2.736,
+    "speed": 1,
+    "sourceSha256": "39f828de36214494b20f8cff29ff9190200dc01d72ec44c7d3f9fa831fbd2d06"
+  },
+  "watch-21-0": {
+    "path": "audio/a5b529f5fac636b8ef9ec7cf.mp3",
+    "voice": "american-male",
+    "index": 41,
+    "text": "Security staff remained watchful throughout the event.",
+    "duration": 3.456,
+    "speed": 1,
+    "sourceSha256": "c09f064420a86a491a27e1c1bae7beb062cb50e81001dfca8909bb212e8ffcb6"
+  },
+  "cancel-01-1": {
+    "path": "audio/d11eb7fb0ef6aa67585844b5.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The concert was canceled because of bad weather.",
+    "duration": 2.76,
+    "speed": 1,
+    "sourceSha256": "c249e40b6a3daa396b11539bca2993b70a39f7a595bd71a239abc7cd780ea88a"
+  },
+  "cancel-03-1": {
+    "path": "audio/af720ba3ef2348faf2485545.mp3",
+    "voice": "american-male",
+    "index": 5,
+    "text": "You can cancel the service at any time.",
+    "duration": 2.568,
+    "speed": 1,
+    "sourceSha256": "4772014970518c9376a729dd12e510ced957f1f35fe9ad99316881b77a65d56a"
+  },
+  "cancel-05-1": {
+    "path": "audio/3d63593323a699d583406d44.mp3",
+    "voice": "american-male",
+    "index": 9,
+    "text": "She cancelled the cheque after realizing it had been lost.",
+    "duration": 3.456,
+    "speed": 1,
+    "sourceSha256": "0b04fb802330c2095847b2c31af52bec6fa113a1298e5a3cbc8fd9e17dc4fd4f"
+  },
+  "cancel-07-1": {
+    "path": "audio/0c549183af32f94a8529b3f2.mp3",
+    "voice": "american-male",
+    "index": 13,
+    "text": "The system generates an opposing signal to cancel unwanted sound.",
+    "duration": 3.768,
+    "speed": 1,
+    "sourceSha256": "ec94fa88a191e2ea6dc9d1c716f84ea42d5ce4648261319e14dd28b1c3b47ab6"
+  },
+  "cancel-09-1": {
+    "path": "audio/1d8d79d03f249cbfe497e11e.mp3",
+    "voice": "american-male",
+    "index": 17,
+    "text": "Turning on active noise cancellation reduces low-frequency background noise.",
+    "duration": 4.92,
+    "speed": 1,
+    "sourceSha256": "dc3dd68441b99f53d1cf388285f67257de5c82c13ae127667f5f51ed5b99a11f"
+  },
+  "cancel-11-1": {
+    "path": "audio/74243871acbfef879539cd6a.mp3",
+    "voice": "american-male",
+    "index": 21,
+    "text": "Cancel the x terms on both sides.",
+    "duration": 2.688,
+    "speed": 1,
+    "sourceSha256": "b9fdd6203184588284837bd6d62e8f997da1112ffe82aaeb4c21f94165989983"
+  },
+  "cancel-13-1": {
+    "path": "audio/787f5ba35489a77e1c229a30.mp3",
+    "voice": "american-male",
+    "index": 25,
+    "text": "The brand faced calls to be canceled after the controversy.",
+    "duration": 3.672,
+    "speed": 1,
+    "sourceSha256": "6ed79aaae2224a23b8126538f2cf44e98b9296ee9efeb63008630c39cd1edeee"
+  },
+  "cancel-15-1": {
+    "path": "audio/25bffb40fad0d1428e8e9284.mp3",
+    "voice": "american-male",
+    "index": 29,
+    "text": "Early cancellation may involve a fee.",
+    "duration": 2.712,
+    "speed": 1,
+    "sourceSha256": "dd77816b342883920d0e39d5e8d6462f96ef5376d6f5035b4344394667a2589b"
+  },
+  "cancel-17-1": {
+    "path": "audio/61ce25f80545fbb9b2856644.mp3",
+    "voice": "american-male",
+    "index": 33,
+    "text": "The cancellation policy allows free changes up to 24 hours before arrival.",
+    "duration": 4.584,
+    "speed": 1,
+    "sourceSha256": "b2f86a7f378399d644231ef9bb5311b570c4a2e5623c96965de260d2aadc5647"
+  },
+  "cancel-19-1": {
+    "path": "audio/0a2031bee63a3c8224c718a2.mp3",
+    "voice": "american-male",
+    "index": 37,
+    "text": "This ticket is cancelable without a fee.",
+    "duration": 2.88,
+    "speed": 1,
+    "sourceSha256": "1e5e3de5631e24ab68f587e409a93912a4ca37d5948506d7c78d7dc27de0a140"
+  },
+  "see-11-0": {
+    "path": "audio/99d561b5298831f2e3749906.mp3",
+    "voice": "american-male",
+    "index": 21,
+    "text": "I saw him leaving the office.",
+    "duration": 2.424,
+    "speed": 1,
+    "sourceSha256": "145112ce2ca0f833e5c144a50b693ae1a0ff9a99e018e59dc7a858989b09ef7f"
+  },
+  "see-23-0": {
+    "path": "audio/8cdb0ad4b145b21e62d0950b.mp3",
+    "voice": "american-male",
+    "index": 45,
+    "text": "Seeing that it was late, we went home.",
+    "duration": 2.688,
+    "speed": 1,
+    "sourceSha256": "8259ac4390eed3191aecdf57d56773b9aa7db75c67ee4356364052f1d36bb602"
+  },
+  "late-15-0": {
+    "path": "audio/2d20c50cd572ff88f93bf588.mp3",
+    "voice": "american-male",
+    "index": 29,
+    "text": "Have you heard the latest?",
+    "duration": 1.896,
+    "speed": 1,
+    "sourceSha256": "b2d432355d17c5ea4662661f8ec435dd38e087484b6c481d7b60cac5aa8d9807"
+  },
+  "late-17-0": {
+    "path": "audio/a45b84c77473ed07d3f59edf.mp3",
+    "voice": "american-male",
+    "index": 33,
+    "text": "I\u2019ve been very busy lately.",
+    "duration": 2.208,
+    "speed": 1,
+    "sourceSha256": "db58a764118b32e27fd72c309a39eb6c0c2a95ef133153734be7f360e023effe"
+  },
+  "late-19-0": {
+    "path": "audio/b4a917b603ff07879b7e0ebd.mp3",
+    "voice": "american-male",
+    "index": 37,
+    "text": "Latecomers will not be admitted after the performance begins.",
+    "duration": 3.648,
+    "speed": 1,
+    "sourceSha256": "0caf00740b4655c9d694472f5c8914b41dda55d4f86a63d21e1615118d0afcc5"
+  },
+  "late-21-0": {
+    "path": "audio/7331c02044ee2abed8ca7831.mp3",
+    "voice": "american-male",
+    "index": 41,
+    "text": "Sales have improved of late.",
+    "duration": 2.376,
+    "speed": 1,
+    "sourceSha256": "e449959d98d007d4b9f819838f5b71b441b681180110741d1342146ca621515e"
+  },
+  "late-23-0": {
+    "path": "audio/642d952407f98433361dd23b.mp3",
+    "voice": "american-male",
+    "index": 45,
+    "text": "He finally apologized\u2014 better late than never.",
+    "duration": 3.672,
+    "speed": 1,
+    "sourceSha256": "36a75cf05476fdbb5781a4fe00b9f01f2504accfa84b3781d84637d5027f7762"
+  },
+  "late-25-0": {
+    "path": "audio/98c127efd4aa52522b782923.mp3",
+    "voice": "american-male",
+    "index": 49,
+    "text": "Please accept my belated birthday wishes.",
+    "duration": 2.496,
+    "speed": 1,
+    "sourceSha256": "37cbad41d972f118a4f4328e81f2caf39d47d5dcc78f6499398c62d29beaaa3b"
+  },
+  "work-01-1": {
+    "path": "audio/17b54ef260cb61cf9303e646.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "I have a lot of work today.",
+    "duration": 1.848,
+    "speed": 1,
+    "sourceSha256": "5f5bce780e5f35e8f63c652eb555b18caed60bcb1e6091be55ac822bc42aea33"
+  },
+  "work-03-0": {
+    "path": "audio/9e13c1d020a2de17dac31565.mp3",
+    "voice": "american-male",
+    "index": 5,
+    "text": "I go to work by train.",
+    "duration": 2.112,
+    "speed": 1,
+    "sourceSha256": "793068ae631d7717a1cc835779202b0284388f0ccedd5455637726c877a280f8"
+  },
+  "work-05-0": {
+    "path": "audio/96bea3047716266e75e66c33.mp3",
+    "voice": "american-male",
+    "index": 9,
+    "text": "She works as a designer.",
+    "duration": 2.232,
+    "speed": 1,
+    "sourceSha256": "c7ccbc652745c060e2f6f3792d3f3429370b940996cdd017e8788983a699f5d9"
+  },
+  "work-07-0": {
+    "path": "audio/58ff1e5d64acca2eea7169fa.mp3",
+    "voice": "american-male",
+    "index": 13,
+    "text": "She works in advertising.",
+    "duration": 2.232,
+    "speed": 1,
+    "sourceSha256": "ebcc8a4a28057fa8654a403a41e542f9c873679d7ce9a12d8e0f2f5678281f8e"
+  },
+  "work-09-0": {
+    "path": "audio/df25e9fbbcaffbae462ad1b5.mp3",
+    "voice": "american-male",
+    "index": 17,
+    "text": "I still have some work to finish.",
+    "duration": 2.4,
+    "speed": 1,
+    "sourceSha256": "293655d724ce167af2b4c113caa5b12b8b50921b08d20954a2a0e2ca08c45fd0"
+  },
+  "work-11-0": {
+    "path": "audio/3981ddcd4341e9040e867e48.mp3",
+    "voice": "american-male",
+    "index": 21,
+    "text": "This painting is one of her best works.",
+    "duration": 2.76,
+    "speed": 1,
+    "sourceSha256": "472b800adbad702fe38e27c5c6e9773d312409e716e5211d102dec16e3daf106"
+  },
+  "work-13-0": {
+    "path": "audio/f57087121b8e5c2f0e9bc87d.mp3",
+    "voice": "american-male",
+    "index": 25,
+    "text": "Her work focuses on language learning.",
+    "duration": 2.64,
+    "speed": 1,
+    "sourceSha256": "d9bf8f04e0626a75600e1724ac080fe62883106c578080b712142304b079a229"
+  },
+  "work-15-0": {
+    "path": "audio/f5739cbb4b0887d58d2e989b.mp3",
+    "voice": "american-male",
+    "index": 29,
+    "text": "The app doesn\u2019t work on my phone.",
+    "duration": 2.184,
+    "speed": 1,
+    "sourceSha256": "58878c239d4fce91d0f22fd9d3e2d281baa8ea6b8b0afba90b4a02855116cb98"
+  },
+  "work-17-0": {
+    "path": "audio/91fbe2d759bafdaa5af00d2b.mp3",
+    "voice": "american-male",
+    "index": 33,
+    "text": "The medicine started to work after twenty minutes.",
+    "duration": 3.192,
+    "speed": 1,
+    "sourceSha256": "38ae5804da51d049fb2931745fca65642e0bf42b3a8b9c4e5d7757b0fd66c549"
+  },
+  "work-19-0": {
+    "path": "audio/a76a6bc56dc5d40791333972.mp3",
+    "voice": "american-male",
+    "index": 37,
+    "text": "The metal is easy to work.",
+    "duration": 2.016,
+    "speed": 1,
+    "sourceSha256": "ff86df335849cb2a6cbd8b87c9a991b6c25b7d47d724561eb7aa24caa33f9bd3"
+  },
+  "work-21-0": {
+    "path": "audio/14cf1e8f7aab225ab8f123c7.mp3",
+    "voice": "american-male",
+    "index": 41,
+    "text": "The manager worked the staff very hard.",
+    "duration": 2.736,
+    "speed": 1,
+    "sourceSha256": "215e4973ee1fb803cbd5b9aec46c184a5895e5c78dfbe240ddd38558bf6d9a19"
+  },
+  "work-23-0": {
+    "path": "audio/40d4c8952a2643c1209de0b8.mp3",
+    "voice": "american-male",
+    "index": 45,
+    "text": "She knows how to work a crowd.",
+    "duration": 2.256,
+    "speed": 1,
+    "sourceSha256": "72d99c9307d8345dd3dd23116d66a8d98fde3380db6381e0e24c21445342944c"
+  },
+  "work-25-0": {
+    "path": "audio/6027b83ea0ea8ad078ef0333.mp3",
+    "voice": "american-male",
+    "index": 49,
+    "text": "The programme supports working parents.",
+    "duration": 2.784,
+    "speed": 1,
+    "sourceSha256": "8ab4befb5a954f8ea175410f525d8a45db816aded9f87d2ec63cc84e9eb1c5ba"
+  },
+  "work-27-0": {
+    "path": "audio/e44ebec4b082c0adcc32eece.mp3",
+    "voice": "american-male",
+    "index": 53,
+    "text": "This is our working definition.",
+    "duration": 2.304,
+    "speed": 1,
+    "sourceSha256": "8f404fcadc890e2b0369031384859cd3ec39f998b1c66843d4c55cb04e21c493"
+  },
+  "work-29-0": {
+    "path": "audio/26be738c57ec824628b93f08.mp3",
+    "voice": "american-male",
+    "index": 57,
+    "text": "The company employs thousands of workers.",
+    "duration": 3.192,
+    "speed": 1,
+    "sourceSha256": "b13178b0962296333e173a87bde7f6e701e12e79300012ef6ce19dd4eb4fb654"
+  },
+  "work-31-0": {
+    "path": "audio/7682ac27b571f394d3eb29f9.mp3",
+    "voice": "american-male",
+    "index": 61,
+    "text": "We need a workable solution.",
+    "duration": 1.968,
+    "speed": 1,
+    "sourceSha256": "acb962ef8d4217ec6b86f225229103b073cfccfcb3d75c4c58d21a22370cfeee"
+  },
+  "work-33-0": {
+    "path": "audio/dce597140bc05a8680f54298.mp3",
+    "voice": "american-male",
+    "index": 65,
+    "text": "The headphones show excellent workmanship.",
+    "duration": 2.64,
+    "speed": 1,
+    "sourceSha256": "4fd645688036cb86e15347360733b2d0355e4419427adc76824f6ad599996ed0"
+  },
+  "work-35-0": {
+    "path": "audio/c69bcc45adb9fc3f0222cc8f.mp3",
+    "voice": "american-male",
+    "index": 69,
+    "text": "The company has a global workforce.",
+    "duration": 2.736,
+    "speed": 1,
+    "sourceSha256": "367c3b30a15388575a6e738bfc90ab808e22ea70914d9697ec89c6cf7a03742d"
+  },
+  "work-37-0": {
+    "path": "audio/deebffce0a3156a387f1adb1.mp3",
+    "voice": "american-male",
+    "index": 73,
+    "text": "I attended a writing workshop.",
+    "duration": 2.4,
+    "speed": 1,
+    "sourceSha256": "7468f59f30a646ca1452cb837d8372be44dc2f87c615e09e89a57f211bc3ac2a"
+  },
+  "work-39-0": {
+    "path": "audio/8b6a42c08cf99c848865f390.mp3",
+    "voice": "american-male",
+    "index": 77,
+    "text": "Many employees feel overworked.",
+    "duration": 2.496,
+    "speed": 1,
+    "sourceSha256": "c2dc0b29893f8e870001a09ea81dab7fce8e1c17dd830eff960c121bf5eb57ee"
+  },
+  "work-41-0": {
+    "path": "audio/8a75c70ac4261627af647a34.mp3",
+    "voice": "american-male",
+    "index": 81,
+    "text": "The government invested heavily in public works.",
+    "duration": 3.264,
+    "speed": 1,
+    "sourceSha256": "4df084358bcff398e10f278eb3abe241d7af49e1cf0c47fb6ca697b8301e3317"
+  },
+  "home-01-1": {
+    "path": "audio/64353b785db1a87336e3b9cb.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "What time did you get home?",
+    "duration": 1.632,
+    "speed": 1,
+    "sourceSha256": "6df8bf929c495b07dc5c8bfd8d6dd3349bddc3e4d06f0731f57aa4ec81a4922e"
+  },
+  "home-03-0": {
+    "path": "audio/9e40c622ef71a32de4a92fa5.mp3",
+    "voice": "american-male",
+    "index": 5,
+    "text": "He had a happy home.",
+    "duration": 1.584,
+    "speed": 1,
+    "sourceSha256": "1e1b5ddb6af99cdbbfd80b8c2e882531d6d8f6cdce757c0d1a7443b94965f4ee"
+  },
+  "home-05-0": {
+    "path": "audio/fedcfec571ee04befd8cb0c6.mp3",
+    "voice": "american-male",
+    "index": 9,
+    "text": "Hong Kong will always be home to her.",
+    "duration": 2.184,
+    "speed": 1,
+    "sourceSha256": "311b404c7393ab54d6470cf4c30810231e3dc4e6e7e78efbb048bb92d58e8d41"
+  },
+  "home-07-0": {
+    "path": "audio/e447af9adee3273994ddd7dc.mp3",
+    "voice": "american-male",
+    "index": 13,
+    "text": "She works in a nursing home.",
+    "duration": 2.112,
+    "speed": 1,
+    "sourceSha256": "39b1e9be13ee83b7afb10b981b382a551db5943204ceb50a9c44d58c52881e6e"
+  },
+  "home-09-0": {
+    "path": "audio/4a8d0eca18350c0ba813b681.mp3",
+    "voice": "american-male",
+    "index": 17,
+    "text": "The home team won 3\u20131.",
+    "duration": 1.968,
+    "speed": 1,
+    "sourceSha256": "232b56074c1bb4b3cfddd33edc6dc20d40d88261833df26cc07005ed556a03f0"
+  },
+  "home-11-0": {
+    "path": "audio/8e725e10338209721707c41b.mp3",
+    "voice": "american-male",
+    "index": 21,
+    "text": "Tap Home to return to the main screen.",
+    "duration": 2.544,
+    "speed": 1,
+    "sourceSha256": "919d5036671381e24468a2bfcd7e989d9e3997c9af05fbc04777b2d68420176a"
+  },
+  "home-13-0": {
+    "path": "audio/e3f28ca77ab79ee205b515ab.mp3",
+    "voice": "american-male",
+    "index": 25,
+    "text": "He hit a home run.",
+    "duration": 1.8,
+    "speed": 1,
+    "sourceSha256": "a97c12e0ca24a9b75eb216cf0e1c490329153023c76701413ac3a54c264afd3d"
+  },
+  "home-15-0": {
+    "path": "audio/8790aacb587685e9425eb653.mp3",
+    "voice": "american-male",
+    "index": 29,
+    "text": "I immediately felt at home in the new office.",
+    "duration": 2.88,
+    "speed": 1,
+    "sourceSha256": "b533e47d8862179a2bfb1a9f29e47cea73657fdf3aecaac15753f5255aac2d83"
+  },
+  "home-17-0": {
+    "path": "audio/09f0259c154d59d986d9800f.mp3",
+    "voice": "american-male",
+    "index": 33,
+    "text": "The small hotel became a home away from home.",
+    "duration": 3.144,
+    "speed": 1,
+    "sourceSha256": "12ceb165b508bb7f2caaed6be9b7757cbff40e46f14d51ec8d8d6e71afa88677"
+  },
+  "home-19-0": {
+    "path": "audio/ecbf3313878940ca9f5c4423.mp3",
+    "voice": "american-male",
+    "index": 37,
+    "text": "High prices have made homeownership more difficult.",
+    "duration": 3.408,
+    "speed": 1,
+    "sourceSha256": "11f7e8406357a0330912755b92159cd030194f9e97df05c77e3b9efc36148e70"
+  },
+  "home-21-0": {
+    "path": "audio/6c76540a584194a59d52404c.mp3",
+    "voice": "american-male",
+    "index": 41,
+    "text": "The city introduced measures to reduce homelessness.",
+    "duration": 3.504,
+    "speed": 1,
+    "sourceSha256": "083872c60dbe36de43c439fcd838b29307598126c19e89f3b08fa07411893363"
+  },
+  "home-23-0": {
+    "path": "audio/61423300f23d8ac5f8dbcb74.mp3",
+    "voice": "american-male",
+    "index": 45,
+    "text": "They eventually returned to their homeland.",
+    "duration": 2.736,
+    "speed": 1,
+    "sourceSha256": "adc4d038d386eeb8aca3d87eb434c8a8e27a6f130190ab2bb7b6fe30e72c3153"
+  },
+  "home-25-0": {
+    "path": "audio/648fe753687fc2f242f70a1b.mp3",
+    "voice": "american-male",
+    "index": 49,
+    "text": "She brought some homemade cake.",
+    "duration": 2.424,
+    "speed": 1,
+    "sourceSha256": "d4d3c5ba335542fb3dacdbd4ba2b67d96cb2fa688646b27e7243926afaf599f1"
+  },
+  "home-27-0": {
+    "path": "audio/edeead930d71212adcfb0832.mp3",
+    "voice": "american-male",
+    "index": 53,
+    "text": "The company invests in homegrown talent.",
+    "duration": 2.472,
+    "speed": 1,
+    "sourceSha256": "8ff58837d96018c109efe972c67b269b7c2637990f0c554396908b268b5e2034"
+  }
+}
