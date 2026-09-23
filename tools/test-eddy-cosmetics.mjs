@@ -89,7 +89,6 @@ test('the shared fleece has three independent transparent fit assets',async()=>{
  const hashes=['celeste','phoebe','elsie'].map(character=>{const b=readFileSync(new URL('../assets/speaking-system/cosmetics/'+character+'/cream-sherpa-jacket.webp',import.meta.url));assert.equal(b.toString('ascii',0,4),'RIFF');assert.ok(b.length>10000);return createHash('sha256').update(b).digest('hex');});
  assert.equal(new Set(hashes).size,3);
 });
-
 test('the pink rain jacket has three independent transparent 16-view overlays',async()=>{
  const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
  const {createRequire}=await import('node:module');let sharp;try{sharp=createRequire(import.meta.url)('sharp');}catch{}
@@ -104,4 +103,7 @@ test('the pink rain jacket has three independent transparent 16-view overlays',a
   hashes.push(createHash('sha256').update(bytes).digest('hex'));
  }
  assert.equal(new Set(hashes).size,3);
+ const display=new URL('../assets/speaking-system/cosmetics/girls/pink-rain-jacket-display.png',import.meta.url),thumb=readFileSync(display);
+ const displayMeta=await sharp(thumb).metadata();assert.equal(displayMeta.width,1254);assert.equal(displayMeta.height,1254);assert.equal(displayMeta.hasAlpha,true);
+ const alpha=await sharp(thumb).ensureAlpha().raw().toBuffer();let transparent=0;for(let i=3;i<alpha.length;i+=4)if(alpha[i]<10)transparent++;assert.ok(transparent>thumb.length/5,'inventory thumbnail keeps a transparent background');
 });
