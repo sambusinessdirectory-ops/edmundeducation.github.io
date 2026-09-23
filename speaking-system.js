@@ -2408,6 +2408,7 @@
     dom.content.innerHTML = `
       <section class="content-panel exam-mode-panel dse-panel">
         ${sectionHeader("DSE 考試練習模式", "隨機抽取並鎖定同一套歷屆題目。DSE 模式不設考官自然交流。", "4 種模式")}
+        ${examCoverHtml()}
         <div class="exam-mode-grid dse-mode-grid">
           ${modes.map((mode, index) => `<button class="exam-mode-card" type="button" data-dse-mode="${escapeHtml(mode.id)}">
             <span>${pad(index + 1)} · DSE PRACTICE</span>
@@ -2440,7 +2441,7 @@
 
   function dseGroupCard(session, preparation = false) {
     const translations = dseTranslationFor(session.set).groupDiscussion;
-    return `<section class="dse-practice-card${preparation ? "" : " is-entering"}"><span class="cue-label">PART A · GROUP DISCUSSION · 小組討論</span><h2>${preparation ? "準備以下 3 個討論重點" : "開始小組討論"}</h2>${dseQuestionList(session.set.groupDiscussion, true, translations)}${preparation ? "" : '<button class="dse-voice-button" type="button" data-dse-play-question-voice aria-pressed="false">▶ 聆聽美式男聲讀題</button>'}</section>`;
+    return `<section class="dse-practice-card${preparation ? "" : " is-entering"}"><span class="cue-label">PART A · GROUP DISCUSSION · 小組討論</span><h2>${preparation ? "準備以下 3 個討論重點" : "開始小組討論"}</h2>${dseQuestionList(session.set.groupDiscussion, true, translations)}${preparation ? "" : '<button class="dse-voice-button" type="button" data-dse-play-question-voice aria-pressed="false">▶ 聆聽讀題</button>'}</section>`;
   }
 
   function dseIndividualCard(session) {
@@ -2449,7 +2450,7 @@
     const question = questions[index] || "";
     const translation = dseTranslationFor(session.set).individualResponse?.[index] || "";
     const progress = questions.length ? Math.round(((index + 1) / questions.length) * 100) : 0;
-    return `<section class="dse-individual-stage"><div class="dse-question-progress"><div><span>PART B · INDIVIDUAL RESPONSE</span><strong>第 ${index + 1} / ${questions.length} 題</strong></div><div class="dse-question-progress-track" aria-hidden="true"><i style="width:${progress}%"></i></div></div><section class="dse-single-question is-entering" aria-labelledby="dse-current-question"><span class="cue-label">QUESTION ${index + 1} · 個人發言</span><h2 id="dse-current-question" lang="en">${escapeHtml(question)}</h2>${translation ? `<p lang="zh-Hant">${escapeHtml(translation)}</p>` : ""}<button class="dse-voice-button" type="button" data-dse-play-question-voice aria-pressed="false">▶ 聆聽美式男聲讀題</button></section></section>`;
+    return `<section class="dse-individual-stage"><div class="dse-question-progress"><div><span>PART B · INDIVIDUAL RESPONSE</span><strong>第 ${index + 1} / ${questions.length} 題</strong></div><div class="dse-question-progress-track" aria-hidden="true"><i style="width:${progress}%"></i></div></div><section class="dse-single-question is-entering" aria-labelledby="dse-current-question"><span class="cue-label">QUESTION ${index + 1} · 個人發言</span><h2 id="dse-current-question" lang="en">${escapeHtml(question)}</h2>${translation ? `<p lang="zh-Hant">${escapeHtml(translation)}</p>` : ""}<button class="dse-voice-button" type="button" data-dse-play-question-voice aria-pressed="false">▶ 聆聽讀題</button></section></section>`;
   }
 
   function dseVoiceText(session = state.dseSession) {
@@ -2474,7 +2475,7 @@
     document.querySelectorAll("[data-dse-play-question-voice]").forEach(button => {
       button.classList.toggle("is-playing", playing);
       button.setAttribute("aria-pressed", String(playing));
-      button.textContent = playing ? "■ 停止讀題" : "▶ 聆聽美式男聲讀題";
+      button.textContent = playing ? "■ 停止讀題" : "▶ 聆聽讀題";
     });
   }
 
@@ -2536,7 +2537,7 @@
 
       if (!automatic) {
         state.dseVoiceErrorShown = true;
-        toast("美式男聲暫時未能播放，請稍後再試。題目仍可照常作答。", "error");
+        toast("讀題音訊暫時未能播放，請稍後再試。題目仍可照常作答。", "error");
       }
     } finally {
       if (state.dseVoiceAbortController === controller) state.dseVoiceAbortController = null;
