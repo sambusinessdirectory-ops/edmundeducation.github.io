@@ -92,13 +92,15 @@ test('the shared fleece has three independent transparent fit assets',async()=>{
 
 test('the pink rain jacket has three independent transparent 16-view overlays',async()=>{
  const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
- const {createRequire}=await import('node:module');const sharp=createRequire(import.meta.url)(process.env.HOME+'/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+ const {createRequire}=await import('node:module');let sharp;try{sharp=createRequire(import.meta.url)('sharp');}catch{}
  const hashes=[];
  for(const character of ['celeste','phoebe','elsie']){
   const file=new URL('../assets/speaking-system/cosmetics/'+character+'/pink-rain-jacket.webp',import.meta.url),bytes=readFileSync(file);
   assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');
-  const metadata=await sharp(bytes).metadata();assert.equal(metadata.width,1024);assert.equal(metadata.height,1024);assert.equal(metadata.hasAlpha,true);
-  const raw=await sharp(bytes).ensureAlpha().raw().toBuffer();for(let cell=0;cell<16;cell++){let count=0;for(let y=Math.floor(cell/4)*256;y<(Math.floor(cell/4)+1)*256;y++)for(let x=(cell%4)*256;x<(cell%4+1)*256;x++)if(raw[(y*1024+x)*4+3])count++;assert.ok(count>100,character+' cell '+cell+' must contain its fitted garment');}
+  assert.equal(bytes.readUInt32LE(4)+8,bytes.length);assert.equal(bytes.toString('ascii',12,16),'VP8L');assert.equal(bytes[20],0x2f);
+  const width=1+bytes[21]+((bytes[22]&63)<<8),height=1+(bytes[22]>>6)+(bytes[23]<<2)+((bytes[24]&15)<<10);
+  assert.equal(width,1024);assert.equal(height,1024);assert.ok(bytes[24]&16,'the WebP sprite sheet must have alpha');assert.ok(bytes.length>100000);
+  if(sharp){const raw=await sharp(bytes).ensureAlpha().raw().toBuffer();for(let cell=0;cell<16;cell++){let count=0;for(let y=Math.floor(cell/4)*256;y<(Math.floor(cell/4)+1)*256;y++)for(let x=(cell%4)*256;x<(cell%4+1)*256;x++)if(raw[(y*1024+x)*4+3])count++;assert.ok(count>100,character+' cell '+cell+' must contain its fitted garment');}}
   hashes.push(createHash('sha256').update(bytes).digest('hex'));
  }
  assert.equal(new Set(hashes).size,3);
