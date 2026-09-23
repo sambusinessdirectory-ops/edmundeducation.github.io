@@ -1,4 +1,4 @@
--- The jacket is available to all three girls while equipped slots remain independent.
+-- Preserve the live olive tee while allowing the rain jacket in each independent girl slot.
 create or replace function avatar_closet.valid_equipment(value jsonb)
 returns boolean language sql immutable set search_path='' as $$
  select jsonb_typeof(value)='object'

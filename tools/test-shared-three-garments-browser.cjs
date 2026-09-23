@@ -10,7 +10,7 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  await page.addInitScript(()=>{window.EdmundSystemNav={getStudentSession:()=>({id:'wardrobe-fixture',token:'fixture-token'})};});
  await page.goto('http://127.0.0.1:'+server.address().port+'/__wardrobe_qa');
  await page.evaluate(async()=>{
-  window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260923-olive-tee-leg-gap1');await cosmetics.restoreCosmetics();cosmetics.beginCosmeticsPreview();
+  window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260923-pink-rain-jacket1');await cosmetics.restoreCosmetics();cosmetics.beginCosmeticsPreview();
   window.bases={};window.bare={};for(const character of ['eddy','noir']){const im=new Image();im.src='/assets/speaking-system/mascots/v4/'+character+'-standing-clean.webp?v=20260915-tailored1';await im.decode();bases[character]=im;const canvas=document.createElement('canvas');canvas.width=canvas.height=1024;canvas.getContext('2d').drawImage(cosmetics.cosmeticAtlas(character,im,{preview:true}),0,0);bare[character]=canvas;}
   for(const character of ['eddy','noir'])for(const item of cosmetics.cosmeticsForCharacter(character)){const im=new Image();im.src=cosmetics.cosmeticAsset(item.id,character);await im.decode();}
  });
@@ -30,7 +30,7 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
   assert.equal(await page.evaluate(character=>cosmetics.cosmeticAtlas(character,bases[character],{preview:true})===cosmetics.cosmeticAtlas(character,bases[character],{preview:true}),character),true);
   await page.evaluate(async character=>{
    const THREE=await import('/vendor/three/three.module.js');
-   const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260923-olive-tee-leg-gap1');
+   const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260923-pink-rain-jacket1');
    const system=new MascotCharacters(undefined,undefined,{preview:true,cosmeticsEnabled:true});const actor=await system.create(character,'standing');
    for(let n=0;n<100&&actor.mesh.material.uniforms.flowStrength.value!==0;n++)await new Promise(r=>setTimeout(r,20));
    if(actor.mesh.material.uniforms.flowStrength.value!==0)throw Error('New fitted top used bare-body optical flow');

@@ -41,7 +41,7 @@ for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.POR
  if(await page.locator('[data-horsey-map], [data-sentence-map]').isHidden())await page.locator(selector).click();
 
  const mapRoot=page.locator('[data-horsey-map], [data-sentence-map]');
- await page.evaluate(async first=>{window.wardrobe=await import('/eddy-cosmetics.mjs?v=20260923-olive-tee-leg-gap1');await wardrobe.restoreCosmetics();if(first){wardrobe.beginCosmeticsPreview();wardrobe.equipCosmetic('white-fedora');wardrobe.equipCosmetic('blue-swordsman-jacket');await wardrobe.saveAvatar();wardrobe.equipCosmetic('cream-sherpa-jacket','elsie');await wardrobe.saveAvatar(undefined,'elsie');wardrobe.discardCosmeticsPreview();}},portal==='sentence-structure');
+ await page.evaluate(async first=>{window.wardrobe=await import('/eddy-cosmetics.mjs?v=20260923-pink-rain-jacket1');await wardrobe.restoreCosmetics();if(first){wardrobe.beginCosmeticsPreview();wardrobe.equipCosmetic('white-fedora');wardrobe.equipCosmetic('blue-swordsman-jacket');await wardrobe.saveAvatar();wardrobe.equipCosmetic('cream-sherpa-jacket','elsie');await wardrobe.saveAvatar(undefined,'elsie');wardrobe.discardCosmeticsPreview();}},portal==='sentence-structure');
  await page.waitForFunction(()=>wardrobe.cosmeticsState().savedEquipment.top==='blue-swordsman-jacket');
  await page.evaluate(async()=>{const image=new Image();image.src='/assets/speaking-system/mascots/v4/eddy-standing.png';await image.decode();window.avatarBase=image;wardrobe.cosmeticAtlas('eddy',image);});
  await page.waitForFunction(()=>wardrobe.cosmeticAtlas('eddy',avatarBase)!==avatarBase);
@@ -59,7 +59,7 @@ for(const portal of portals.filter(p=>!process.env.PORTAL || p===process.env.POR
   assert.equal(await page.locator('[data-open-closet]').isEnabled(),true,portal+' '+character+' closet available');
   await page.evaluate(async character=>{window.girl=character;const image=new Image();image.src='/assets/speaking-system/mascots/v4/'+character+'-standing.png';await image.decode();window.girlBase=image;wardrobe.cosmeticAtlas(character,image);},character);
   if(character==='elsie')await page.waitForFunction(()=>wardrobe.cosmeticAtlas(girl,girlBase)!==girlBase);
-  else assert.equal(await page.evaluate(()=>wardrobe.cosmeticAtlas(girl,girlBase)===girlBase),true,portal+' '+character+' remains independently bare');
+  // Bare girl atlases receive the live interleg seam correction too, so saved equipment is the reliable per-character isolation assertion below.
   assert.equal(await page.evaluate(()=>wardrobe.cosmeticsState().savedEquipment[girl+'Top']),character==='elsie'?'cream-sherpa-jacket':undefined);
  }
  assert.deepEqual(errors,[],portal);console.log('PASS saved avatar:',portal);await page.close();

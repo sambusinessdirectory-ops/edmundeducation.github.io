@@ -14,9 +14,9 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
 
  await page.goto(origin+'/__outfits');
  async function mount(character){await page.evaluate(async character=>{
-  window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260923-olive-tee-leg-gap1');await cosmetics.restoreCosmetics();
+  window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260923-pink-rain-jacket1');await cosmetics.restoreCosmetics();
   window.controller?.abort();window.controller=new AbortController();cosmetics.beginCosmeticsPreview();
-  const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20260923-olive-tee-leg-gap1');
+  const {mountClosetInventory}=await import('/eddy-closet-inventory.mjs?v=20260923-pink-rain-jacket1');
   mountClosetInventory(document.querySelector('#inventory'),controller.signal,{character});
  },character);}
  async function save(){await page.locator('[data-save-avatar]').click();await page.getByRole('status').filter({hasText:'Saved to your account'}).waitFor();}
@@ -38,7 +38,7 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  await page.reload();await mount('elsie');assert.equal(await page.locator('[data-cosmetic=pink-rain-jacket]').getAttribute('aria-pressed'),'false');
  await page.locator('[data-outfit=Winter]').click();await page.getByRole('status').filter({hasText:'Saved to your account'}).waitFor();
  assert.equal(saved.equipped.elsieTop,'pink-rain-jacket');assert.equal(saved.equipped.phoebeTop,'cream-sherpa-jacket');assert.equal(saved.equipped.celesteTop,undefined);
- await page.evaluate(async()=>{controller.abort();document.querySelector('#inventory').replaceChildren();cosmetics.discardCosmeticsPreview();const {openCompanionCloset}=await import('/common-expression-closet-3d.mjs?v=20260923-olive-tee-leg-gap1');window.closet=openCompanionCloset({character:'celeste'});});
+ await page.evaluate(async()=>{controller.abort();document.querySelector('#inventory').replaceChildren();cosmetics.discardCosmeticsPreview();const {openCompanionCloset}=await import('/common-expression-closet-3d.mjs?v=20260923-pink-rain-jacket1');window.closet=openCompanionCloset({character:'celeste'});});
  await page.waitForFunction(()=>document.querySelector('[data-closet-stage] canvas')?.dataset.actorPosition&&document.querySelector('[data-closet-loading]').hidden,null,{timeout:90000});
  assert.equal(await page.locator('dialog [data-cosmetic=pink-rain-jacket]').getAttribute('aria-pressed'),'false');
  await page.locator('dialog [data-cosmetic=pink-rain-jacket]').click();
