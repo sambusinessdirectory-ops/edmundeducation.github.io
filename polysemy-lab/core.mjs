@@ -13,12 +13,12 @@ export function replay(events){
  if(!start)return null;const run=start.run;
  // Folding actual saved answers also preserves unfinished runs from the old ordered engine.
  const answers=events.filter(e=>e.kind==='answer'&&e.run===run&&questionMap.has(e.question)).sort((a,b)=>a.at.localeCompare(b.at)||a.id.localeCompare(b.id));
- const correct=new Set(),attempts=new Map(),pending=new Map(),seen=new Set();
- answers.forEach((a,i)=>{seen.add(a.question);attempts.set(a.question,Math.max(attempts.get(a.question)||0,a.round));if(a.choice===questionMap.get(a.question).sense){correct.add(a.question);pending.delete(a.question);}else{const gap=5+Math.floor(random(run+':'+a.question+':'+a.round)()*2);pending.set(a.question,i+gap+1);}});
+ const correct=new Set(),attempts=new Map(),pending=new Map(),seen=new Set();let streak=0,bestStreak=0;
+ answers.forEach((a,i)=>{seen.add(a.question);attempts.set(a.question,Math.max(attempts.get(a.question)||0,a.round));if(a.choice===questionMap.get(a.question).sense){correct.add(a.question);pending.delete(a.question);streak++;bestStreak=Math.max(bestStreak,streak);}else{streak=0;const gap=5+Math.floor(random(run+':'+a.question+':'+a.round)()*2);pending.set(a.question,i+gap+1);}});
  const order=shuffledQuestions(run),fresh=order.filter(q=>!seen.has(q.id)),due=[...pending].filter(([,at])=>at<=answers.length).sort((a,b)=>a[1]-b[1]),complete=!fresh.length&&!pending.size;
  let q=due.length?questionMap.get(due[0][0]):fresh[0],filler=false;
  if(!q&&!complete){filler=true;const pool=order.filter(q=>!pending.has(q.id)&&q.sense!==questionMap.get(answers.at(-1)?.question)?.sense);const eligible=pool.length?pool:order.filter(q=>!pending.has(q.id));q=eligible[Math.floor(random(run+':filler:'+answers.length)()*eligible.length)];}
- return {run,round:q?(attempts.get(q.id)||0)+1:Math.max(1,...attempts.values()),queue:order,position:answers.length,question:q,correct,complete,filler,review:!!q&&pending.has(q.id)};
+ return {run,round:q?(attempts.get(q.id)||0)+1:Math.max(1,...attempts.values()),queue:order,position:answers.length,question:q,correct,streak,bestStreak,complete,filler,review:!!q&&pending.has(q.id)};
 }
 export function summary(events){events=events.filter(e=>(e.module||'show')===showModule.id);const seen=new Set(events.filter(e=>e.kind==='view').map(e=>e.sense)),mastered=new Set(events.filter(e=>e.kind==='answer'&&e.choice===questionMap.get(e.question)?.sense).map(e=>e.question));return {seen,mastered};}
 export const hkDate=at=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Hong_Kong',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(at));
