@@ -21,7 +21,7 @@ const environment=await createClassroomEnvironment(new THREE.Group(),loader);env
 assert.deepEqual(drawCalls,['Edmund Sir','DSE English Speaking Studio']);assert.deepEqual(BLACKBOARD_LINES,drawCalls);
 const floor=environment.group.getObjectByName('Oak plank floor');assert.equal(floor.material.map.wrapS,THREE.RepeatWrapping);
 const windowView=new THREE.Raycaster(new THREE.Vector3(0,2.95,1.4),new THREE.Vector3(-1,0,0)).intersectObject(environment.group,true);
-assert.equal(windowView[0].object.name,'Leafy city beyond the windows','windows are real openings onto exterior scenery');
+assert.equal(windowView.find(hit=>hit.object.visible)?.object.name,'City outside the windows','windows are real openings onto exterior scenery');
 const origin=new THREE.Vector3().copy(interiorOrbit({...CAMERA_START.target},CAMERA_START.yaw,CAMERA_START.pitch,CAMERA_START.distance));
 for(const direction of [new THREE.Vector3(0,1,0),new THREE.Vector3(0,-1,0),new THREE.Vector3(1,0,0),new THREE.Vector3(0,0,1),new THREE.Vector3(0,0,-1),new THREE.Vector3(-1,0,0)]){
  const hits=new THREE.Raycaster(origin,direction).intersectObject(environment.group,true);assert.ok(hits.length,'walls, ceiling, floor or exterior cover every principal view');
