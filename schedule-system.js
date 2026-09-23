@@ -408,6 +408,7 @@ const elements = {
 };
 
 
+let learningBooksLoadedFor = '';
 const state = {
   currentUser: null,
   selectedStudent: null,
@@ -2406,12 +2407,39 @@ function updateLearningPurposeControls() {
   elements.learningPurposeLatest.disabled = unavailable || !purpose.id || purpose.isLatest;
 }
 
+async function loadLearningBooksForActiveStudent() {
+  const student=activeStudent();
+  if(state.currentUser?.role!=="student"||!student?.id||learningBooksLoadedFor===student.id)return;
+  learningBooksLoadedFor=student.id;
+  try {
+    const result=await callRpc("schedule_student_get_learning_books",{p_token:state.currentUser.studentToken});
+    if(activeStudent()?.id!==student.id)return;
+    window.dispatchEvent(new CustomEvent("edmund-learning-books-loaded",{detail:{studentId:student.id,data:result?.data,updatedAt:result?.updatedAt}}));
+  } catch(error) {
+    learningBooksLoadedFor="";
+    console.warn("Could not load student learning books:",error);
+  }
+}
+
+window.addEventListener("edmund-learning-books-save",async(event)=>{
+  const detail=event.detail||{},student=activeStudent();
+  if(state.currentUser?.role!=="student"||!student?.id||String(detail.studentId)!==String(student.id))return;
+  try {
+    const result=await callRpc("schedule_student_save_learning_books",{p_token:state.currentUser.studentToken,p_payload:detail.data});
+    window.dispatchEvent(new CustomEvent("edmund-learning-books-saved",{detail:{studentId:student.id,updatedAt:result?.updatedAt}}));
+  } catch(error) {
+    window.dispatchEvent(new CustomEvent("edmund-learning-books-save-failed",{detail:{studentId:student.id,message:error.message}}));
+  }
+});
+
 function renderLearningPurpose(statusText = "", status = "") {
   if (!elements.learningPurposeMessage
     || !elements.learningPurposePosition
     || !elements.learningPurposeUpdated
     || !elements.learningPurposeStatus) return;
   const purpose = normalizeLearningPurposePayload(state.learningPurpose);
+  elements.learningPurpose.dataset.studentId = activeStudent()?.id || '';
+  void loadLearningBooksForActiveStudent();
   elements.learningPurposeMessage.value = purpose.message;
   elements.learningPurposePosition.textContent = purpose.totalCount
     ? `第 ${purpose.position} / ${purpose.totalCount} 個版本`

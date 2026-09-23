@@ -2424,7 +2424,7 @@
     if (state.dseSession && !state.dseSession.completedAt) abandonDseSession("restarted");
     try {
       const history = readDseStore(DSE_HISTORY_KEY)[dseStorageOwner()] || [];
-      state.dseSession = DSE_MODE.createSession(modeId, DSE_DATA.sets, { excludedKey: history[0]?.sourceKey || "" });
+      state.dseSession = DSE_MODE.createSession(modeId, DSE_DATA.sets.filter(set => !(Number(set.year) === 2014 && String(set.set) === '9.1' && /police/i.test(String(set.title || '')))), { excludedKey: history[0]?.sourceKey || "" });
       state.dseVoiceAutoKey = "";
       persistDseSession();
       navigate({ view: "dse-practice", exam: "dse", modeId });

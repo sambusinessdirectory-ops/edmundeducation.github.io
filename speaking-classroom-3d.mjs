@@ -1,13 +1,13 @@
 import * as THREE from './vendor/three/three.module.js';
 import {GLTFLoader} from './vendor/three/loaders/GLTFLoader.js';
-import {MascotCharacters} from './speaking-mascot-characters.mjs?v=20260916-girls-individual1';
+import {MascotCharacters} from './speaking-mascot-characters.mjs?v=20260923-flex2';
 import {updateAttention,listenerNod} from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
 import {createClassroomEnvironment} from './speaking-classroom-environment.mjs?v=20260908-room10';
 import {CAMERA_START,constrainCamera,constrainTarget,interiorOrbit} from './speaking-classroom-camera.mjs?v=20260908-room10';
 const cache=new Map();
 const load=name=>{if(!cache.has(name))cache.set(name,new GLTFLoader().loadAsync(new URL(`./assets/speaking-system/classroom/${name}.glb?v=20260908`,import.meta.url).href));return cache.get(name);};
 export function seatLayout(count,index){const angle=(index-(count-1)/2)*(count===2?.55:.40);return {x:Math.sin(angle)*3.25,z:1.15-Math.cos(angle)*3.25,yaw:-angle};}
-export async function mountClassroom(root,candidates,onSelect,{seated=false}={}){
+export async function mountClassroom(root,candidates,onSelect,{seated=false,showCosmetics=false}={}){
  let disposed=false,frame,activeId=null,free=false,environment;
  const scene=new THREE.Scene();scene.background=new THREE.Color('#d8e6e5');
  const camera=new THREE.PerspectiveCamera(40,1,.08,100),target=new THREE.Vector3().copy(CAMERA_START.target);
@@ -19,7 +19,7 @@ export async function mountClassroom(root,candidates,onSelect,{seated=false}={})
  const look=()=>{camera.rotation.order='YXZ';camera.rotation.set(-pitch,yaw,0);};
  scene.add(new THREE.HemisphereLight(0xfff9ee,0x879386,1.8));const sun=new THREE.DirectionalLight(0xfff4df,1.8);sun.position.set(-8,5,4);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.bias=-.0003;sun.shadow.normalBias=.045;Object.assign(sun.shadow.camera,{left:-10,right:10,top:10,bottom:-10,near:.5,far:35});scene.add(sun);
  const resize=()=>{const w=root.clientWidth||600,h=Math.max(350,Math.min(580,w*.70));renderer.setSize(w,h);camera.aspect=w/h;camera.fov=Math.max(42,Math.min(64,2*Math.atan(Math.tan(21*Math.PI/180)*1.35/camera.aspect)*180/Math.PI));camera.updateProjectionMatrix();};const observer=new ResizeObserver(resize);observer.observe(root);resize();
- const pickables=[],rings=new Map(),actors=[],sprites=new MascotCharacters();
+ const pickables=[],rings=new Map(),actors=[],sprites=new MascotCharacters(undefined,undefined,{cosmeticsEnabled:showCosmetics});
  const mark=o=>o.traverse(n=>{if(n.isMesh){n.castShadow=!n.userData.mascotSurface&&!/floor|wall/i.test(n.name);n.receiveShadow=true;}});
  try {
  environment=await createClassroomEnvironment((await load('desk')).scene);scene.add(environment.group);

@@ -5,8 +5,8 @@ import {viewPair, mouthOpening, blinkAmount, COAT_COLOURS} from './speaking-masc
 import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20260915-tailored1';
 
 export class MascotCharacters {
-  constructor(loader=new THREE.TextureLoader(), request=globalThis.fetch.bind(globalThis),{preview=false}={}) {
-    this.previewCosmetics=preview;this.loader=loader;this.fetch=request;this.resources=new Map();this.actors=[];this.disposed=false;
+  constructor(loader=new THREE.TextureLoader(), request=globalThis.fetch.bind(globalThis),{preview=false,cosmeticsEnabled=false}={}) {
+    this.previewCosmetics=preview;this.cosmeticsEnabled=!!cosmeticsEnabled;this.loader=loader;this.fetch=request;this.resources=new Map();this.actors=[];this.disposed=false;
     this.unsubscribeCosmetics=subscribeCosmetics(()=>this.refreshCosmetics());
     void restoreCosmetics();
   }
@@ -73,7 +73,7 @@ export class MascotCharacters {
     for(const actor of this.actors){
       if(!supportsCosmetics(actor.name)||actor.pose!=='standing')continue;
       const r=actor.resource,u=actor.mesh.material.uniforms;
-      const open=cosmeticAtlas(actor.name,r.atlas.image,{preview:this.previewCosmetics}),blink=cosmeticAtlas(actor.name,(r.blink||r.atlas).image,{preview:this.previewCosmetics});
+      const open=this.cosmeticsEnabled?cosmeticAtlas(actor.name,r.atlas.image,{preview:this.previewCosmetics}):r.atlas.image,blink=this.cosmeticsEnabled?cosmeticAtlas(actor.name,(r.blink||r.atlas).image,{preview:this.previewCosmetics}):(r.blink||r.atlas).image;
       if(actor.cosmeticOpen===open&&actor.cosmeticBlink===blink)continue;
       actor.cosmeticTextures?.forEach(t=>t.dispose());
       actor.cosmeticTextures=[];
