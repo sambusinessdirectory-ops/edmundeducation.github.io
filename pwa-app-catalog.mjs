@@ -462,9 +462,9 @@ export const EDMUND_PWA_APPS = Object.freeze([
   {
     "id": "eddie-farm",
     "href": "eddie-farm.html",
-    "zh": "Eddie Farm 積分系統",
-    "en": "Farm Points",
-    "name": "Eddie Farm 積分系統｜EdmundEducation",
+    "zh": "Edmund Coin System 金幣系統",
+    "en": "Edmund Coin System",
+    "name": "Edmund Coin System 金幣系統｜EdmundEducation",
     "shortName": "Eddie Farm 積分",
     "manifest": "/pwa-manifests/eddie-farm.webmanifest"
   },

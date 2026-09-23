@@ -236,9 +236,10 @@ test("the service worker is a small privacy-safe offline shell", async () => {
   assert.match(worker, /SKIP_WAITING/);
   assert.equal(
     (worker.match(/cache\.put\(/g) || []).length,
-    1,
-    "only the immutable, same-origin Harper runtime may use runtime caching"
+    2,
+    "only the fixed same-origin speech model and immutable Harper runtime may use runtime caching"
   );
+  assert.match(worker, /if \(url\.pathname === SPEECH_MODEL_PATH\)[\s\S]*cache\.put\(request, response\.clone\(\)\)/);
   assert.match(worker, /if \(url\.pathname\.startsWith\(HARPER_PATH_PREFIX\)\)[\s\S]*cache\.put\(request, response\.clone\(\)\)/);
   assert.doesNotMatch(worker, /supabase|workers\.dev|r2\.dev|\.pdf|\.zip|\.mp3|\.wav|recording/i);
 

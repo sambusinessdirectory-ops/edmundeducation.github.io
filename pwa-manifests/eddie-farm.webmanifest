@@ -1,8 +1,8 @@
 {
   "id": "/apps/eddie-farm",
-  "name": "Eddie Farm 積分系統｜EdmundEducation",
+  "name": "Edmund Coin System 金幣系統｜EdmundEducation",
   "short_name": "Eddie Farm 積分",
-  "description": "Eddie Farm 積分系統（Farm Points）EdmundEducation 學習系統。",
+  "description": "Edmund Coin System 金幣系統（Edmund Coin System）EdmundEducation 學習系統。",
   "lang": "zh-Hant-HK",
   "dir": "ltr",
   "start_url": "/eddie-farm.html?source=pwa",
