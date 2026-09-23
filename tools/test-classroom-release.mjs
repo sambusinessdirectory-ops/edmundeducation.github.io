@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 import {createRequire} from 'node:module';
-import {createProfessionalSession,advanceProfessionalSession,skipPreparation,selectSpeaker,selectIndividualQuestion,candidateSummary} from '../speaking-professional-core.mjs';
+import {createProfessionalSession,advanceProfessionalSession,setIndividualCandidate,endProfessionalSession,startGroup,skipPreparation,selectSpeaker,selectIndividualQuestion,candidateSummary} from '../speaking-professional-core.mjs';
 import {workbookBlob} from '../speaking-professional-export.mjs';
 import {PAPER3_WRITING_TOPICS,paper3Topic,paper3TopicRoute} from '../paper3-writing-topics.mjs';
 const require=createRequire(new URL('./email-qa/package.json',import.meta.url)),{JSDOM}=require('jsdom');
@@ -10,16 +10,16 @@ const read=file=>fs.readFileSync(new URL('../'+file,import.meta.url),'utf8');
 const topic={year:2025,set:'1.1',title:'Topic <safe>',sourceText:'Source',groupDiscussion:['Discuss'],individualResponse:['Question one','Question two']};
 const settings={minutes:8,group:true,individual:true,preparation:true,candidates:'ABCD'.split('').map(id=>({id,name:id}))};
 assert.throws(()=>createProfessionalSession({...settings,minutes:1.5},topic));assert.throws(()=>createProfessionalSession({...settings,group:false,individual:false},topic));
-const s=createProfessionalSession(settings,topic,1000);assert.equal(s.phase,'preparation');skipPreparation(s,2000);assert.equal(s.deadline,482000);
+const s=createProfessionalSession(settings,topic,1000);assert.equal(s.phase,'preparation');skipPreparation(s,2000);assert.equal(s.phase,'group-wait');assert.equal(s.deadline,null);startGroup(s,2000);assert.equal(s.deadline,482000);
 let a=selectSpeaker(s,'A',2000);a.checklist.content.push('point-2-task-response');selectSpeaker(s,'B',242000);selectSpeaker(s,'A',262000);selectSpeaker(s,'A',272000);
 assert.equal(s.activeTurn,null);assert.equal(s.turns.length,3);assert.equal(s.turns[2].number,2);assert.deepEqual(s.turns[2].checklist.content,[]);assert.equal(candidateSummary(s,'A',272000).tone,'red');
 advanceProfessionalSession(s,500000);assert.equal(s.phase,'individual-wait');assert.equal(candidateSummary(s,'A').seconds,250);assert.equal(candidateSummary(s,'B').tone,'yellow');
-for(let i=0;i<4;i++){const start=500000+i*100000;const turn=selectIndividualQuestion(s,1,start);assert.equal(turn.candidateId,'ABCD'[i]);assert.equal(turn.question,topic.individualResponse[1]);advanceProfessionalSession(s,start+70000);assert.equal(turn.durationMs,60000);}
-assert.equal(s.phase,'results');assert.equal(s.turns.length,7);
-const fifty=createProfessionalSession({...settings,preparation:false,individual:false},topic,1000);selectSpeaker(fifty,'A',1000);selectSpeaker(fifty,'A',241000);assert.equal(candidateSummary(fifty,'A').percentage,50);assert.equal(candidateSummary(fifty,'A').tone,'green');
-const capped=createProfessionalSession({...settings,preparation:false,individual:false},topic,1000);selectSpeaker(capped,'A',1000);selectSpeaker(capped,'B',600000);assert.equal(capped.turns.length,1);assert.equal(capped.turns[0].durationMs,480000);assert.equal(capped.phase,'results');
-const prep=createProfessionalSession(settings,topic,1000);advanceProfessionalSession(prep,610000);assert.equal(prep.phase,'group');assert.equal(prep.groupStartedAt,601000);
-const individual=createProfessionalSession({...settings,preparation:false,group:false,candidates:[{id:'B',name:'Bee'}]},topic,1000);assert.equal(individual.phase,'individual-wait');selectIndividualQuestion(individual,0,5000);advanceProfessionalSession(individual,65000);assert.equal(individual.phase,'results');
+for(let i=0;i<4;i++){const start=500000+i*100000;setIndividualCandidate(s,i,start);const turn=selectIndividualQuestion(s,1,start);assert.equal(turn.candidateId,'ABCD'[i]);assert.equal(turn.question,topic.individualResponse[1]);advanceProfessionalSession(s,start+70000);assert.equal(turn.durationMs,60000);}
+assert.equal(s.phase,'individual-wait');endProfessionalSession(s,900000);assert.equal(s.phase,'results');assert.equal(s.turns.length,7);
+const fifty=createProfessionalSession({...settings,preparation:false,individual:false},topic,1000);startGroup(fifty,1000);selectSpeaker(fifty,'A',1000);selectSpeaker(fifty,'A',241000);assert.equal(candidateSummary(fifty,'A').percentage,50);assert.equal(candidateSummary(fifty,'A').tone,'green');
+const capped=createProfessionalSession({...settings,preparation:false,individual:false},topic,1000);startGroup(capped,1000);selectSpeaker(capped,'A',1000);selectSpeaker(capped,'B',600000);assert.equal(capped.turns.length,1);assert.equal(capped.turns[0].durationMs,480000);assert.equal(capped.phase,'results');
+const prep=createProfessionalSession({...settings,preparationMode:'forced'},topic,1000);advanceProfessionalSession(prep,610000);assert.equal(prep.phase,'group-wait');assert.equal(prep.groupStartedAt,null);startGroup(prep,610000);assert.equal(prep.groupStartedAt,610000);
+const individual=createProfessionalSession({...settings,preparation:false,group:false,candidates:[{id:'B',name:'Bee'}]},topic,1000);assert.equal(individual.phase,'individual-wait');selectIndividualQuestion(individual,0,5000);advanceProfessionalSession(individual,65000);assert.equal(individual.phase,'individual-wait');endProfessionalSession(individual,65000);assert.equal(individual.phase,'results');
 assert.equal(PAPER3_WRITING_TOPICS.length,90);assert.equal(new Set(PAPER3_WRITING_TOPICS.map(t=>t.id)).size,90);assert.equal(paper3Topic('paper3-2025-b2-task-5'),null);assert.equal(paper3TopicRoute('paper3-2026-b1-task-7'),'dse-paper3-analysis.html#2026-b1-task-7');
 const blob=workbookBlob({Summary:[['Name','Seconds'],['=HYPERLINK("bad")',240],['中文 & < >',50]],Turns:[['No','Achieved'],[1,1]]});const buffer=Buffer.from(await blob.arrayBuffer());assert.equal(buffer.readUInt32LE(),0x04034b50);
 // Reordering preserves exact DOM nodes and typed answers, with module overrides.
