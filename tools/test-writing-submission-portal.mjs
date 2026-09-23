@@ -497,7 +497,7 @@ test("countdown and role-scoped composition plus feedback exports are fully wire
   assert.match(script, /function feedbackPrintContents\(feedback, articleKey\)/);
   assert.match(script, /class="print-feedback-contents" aria-label="評語內容索引"/);
   assert.match(script, /href="#\$\{escapePrintHtml\(link\.id\)\}"/);
-  assert.doesNotMatch(script, /<base href=/);
+  assert.match(script, /<base href="\$\{escapePrintHtml\(new URL\('\.', window\.location\.href\)\.href\)\}">/);
   assert.match(script, /print-improved-version print-page-start/);
   assert.match(script, /feedbackPrintLearningCards\("文法評語站"[\s\S]*?pageBreakBefore: true/);
   assert.match(script, /feedbackPrintEnhancementCards\("句子結構提升區"[\s\S]*?pageBreakBefore: true/);
