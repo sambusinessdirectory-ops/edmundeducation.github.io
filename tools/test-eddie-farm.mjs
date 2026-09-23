@@ -24,7 +24,7 @@ test("homepage card 59 and all 18 seed types are connected", () => {
   assert.match(cards[60][0], /href="background-music.html"/);
   assert.match(cards[63][0], /href="excellent-learning-system.html"/);
   assert.match(cards[58][0], /href="eddie-farm.html"/);
-  assert.match(cards[58][0], /Eddie Farm<br>積分系統/);
+  assert.match(cards[58][0], /Edmund Coin System<br>金幣系統/);
   const context = { window: {} };
   vm.runInNewContext(read("eddy-carrot-patch/asset-registry.js"), context);
   const cropIds = [...JSON.stringify(context.window).matchAll(/"assetId":"CROP-([^"]+)-001","name"/g)].map((m) => m[1].toLowerCase().replaceAll("-", "_"));

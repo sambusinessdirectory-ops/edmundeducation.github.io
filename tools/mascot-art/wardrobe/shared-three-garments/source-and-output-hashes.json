@@ -1,62 +1,86 @@
 {
-  "tools/mascot-art/wardrobe/shared-three-garments/brown-leather-bomber-original.png": {
-    "sha256": "c9e8646f2addf9b7df1c93952df96567f87edcc8cac2418f214b5564b644ece8",
-    "bytes": 482304
-  },
-  "tools/mascot-art/wardrobe/shared-three-garments/black-blazer-hoodie-original.png": {
-    "sha256": "14cc02bcd224df673f600bb88e5383c30d0256c0f8bdf324892ec628f25b28e5",
-    "bytes": 224494
-  },
-  "tools/mascot-art/wardrobe/shared-three-garments/sunburst-hoodie-original.png": {
-    "sha256": "3f4f1ff2bbe55b5c7e1f8af61b642e69399478a8741c513e47b11a4945dc0e3f",
-    "bytes": 259785
-  },
-  "tools/mascot-art/wardrobe/shared-three-garments/noir-black-blazer-hoodie-fit.png": {
-    "sha256": "50e3895b6d53586d2e72ead1638a325e9729e396577f35cb07acb3f96327c3c1",
-    "bytes": 1715915
-  },
-  "tools/mascot-art/wardrobe/shared-three-garments/eddy-sunburst-hoodie-fit.png": {
-    "sha256": "05f1ffa8db8d3da6c593ce9fc3a0a3a4e5e0e413b37723f902dc8a0c03b1da2a",
-    "bytes": 1426320
-  },
-  "tools/mascot-art/wardrobe/shared-three-garments/noir-brown-leather-bomber-fit.png": {
-    "sha256": "4c014289407fe209889a1272fd0b2916ec41c913898553e2b625a31435f21621",
-    "bytes": 1753445
-  },
-  "tools/mascot-art/wardrobe/shared-three-garments/eddy-brown-leather-bomber-fit.png": {
-    "sha256": "0b503e292829d3ba0fa1f4e4ea5d308058bfb4dfcad2b7facd199af565482b13",
-    "bytes": 1447128
-  },
-  "tools/mascot-art/wardrobe/shared-three-garments/noir-sunburst-hoodie-fit.png": {
-    "sha256": "b3ad72f9c8b67cd9fb3550a4457764b61b21539c30eb34770f256260d72d56cd",
-    "bytes": 1793639
-  },
-  "tools/mascot-art/wardrobe/shared-three-garments/eddy-black-blazer-hoodie-fit.png": {
-    "sha256": "d078a66de46f3323f2762f4f1fe6abe728f8d0a82f2a7848b5e7dfe6f2afdc85",
-    "bytes": 1363853
+  "assets/speaking-system/cosmetics/eddy/black-blazer-hoodie.webp": {
+    "sha256": "57a783df7d4566f43aeea1b82084c6a6bc19025ce7ca973aa029c893d374ac2b",
+    "bytes": 143758
   },
   "assets/speaking-system/cosmetics/eddy/brown-leather-bomber.webp": {
     "sha256": "19a6e2ead7cd34c3be811c8cd5536975cf10513c9829d6681e10818467199262",
     "bytes": 144960
   },
+  "assets/speaking-system/cosmetics/eddy/olive-plain-tee-display.png": {
+    "sha256": "c1f451677fb4309c7411b370166abb7c3288cb9a49bb1999ec6a092ec10d0180",
+    "bytes": 183277
+  },
+  "assets/speaking-system/cosmetics/eddy/olive-plain-tee.webp": {
+    "sha256": "22bca507e9be9db5a4aa5d14d2d4d8420fccd4cf7be9992b713f914d528c1e6d",
+    "bytes": 134616
+  },
   "assets/speaking-system/cosmetics/eddy/sunburst-hoodie.webp": {
     "sha256": "d5788573e25e38551c2c6056200d937c3a7980a43ab8a641aea1a9148e94166a",
     "bytes": 159218
   },
-  "assets/speaking-system/cosmetics/eddy/black-blazer-hoodie.webp": {
-    "sha256": "57a783df7d4566f43aeea1b82084c6a6bc19025ce7ca973aa029c893d374ac2b",
-    "bytes": 143758
+  "assets/speaking-system/cosmetics/noir/black-blazer-hoodie.webp": {
+    "sha256": "35c59d0bb42ce1c90dae41de848297448e6b659bde1b2e58662334d9c7561857",
+    "bytes": 212752
   },
   "assets/speaking-system/cosmetics/noir/brown-leather-bomber.webp": {
     "sha256": "b1d2de58205aa6ee0b60506ba3feca074d73a5d451455f0ee968627d15d7d238",
     "bytes": 149608
   },
+  "assets/speaking-system/cosmetics/noir/olive-plain-tee.webp": {
+    "sha256": "addf5ecd1454f8ddde300f183809c535c52ff7a608476e02966bdaa536427278",
+    "bytes": 86996
+  },
   "assets/speaking-system/cosmetics/noir/sunburst-hoodie.webp": {
     "sha256": "3e3621abb53e281ed06b2ba090842ba60bf8f7cf6a14de48d7b3269879e7b7d3",
     "bytes": 233992
   },
-  "assets/speaking-system/cosmetics/noir/black-blazer-hoodie.webp": {
-    "sha256": "35c59d0bb42ce1c90dae41de848297448e6b659bde1b2e58662334d9c7561857",
-    "bytes": 212752
+  "tools/mascot-art/wardrobe/shared-three-garments/black-blazer-hoodie-original.png": {
+    "sha256": "14cc02bcd224df673f600bb88e5383c30d0256c0f8bdf324892ec628f25b28e5",
+    "bytes": 224494
+  },
+  "tools/mascot-art/wardrobe/shared-three-garments/brown-leather-bomber-original.png": {
+    "sha256": "c9e8646f2addf9b7df1c93952df96567f87edcc8cac2418f214b5564b644ece8",
+    "bytes": 482304
+  },
+  "tools/mascot-art/wardrobe/shared-three-garments/eddy-black-blazer-hoodie-fit.png": {
+    "sha256": "d078a66de46f3323f2762f4f1fe6abe728f8d0a82f2a7848b5e7dfe6f2afdc85",
+    "bytes": 1363853
+  },
+  "tools/mascot-art/wardrobe/shared-three-garments/eddy-brown-leather-bomber-fit.png": {
+    "sha256": "0b503e292829d3ba0fa1f4e4ea5d308058bfb4dfcad2b7facd199af565482b13",
+    "bytes": 1447128
+  },
+  "tools/mascot-art/wardrobe/shared-three-garments/eddy-olive-plain-tee-fit.png": {
+    "sha256": "062719c6a7a346cc02a2523076e4296a8dc6d2977befe855c9008b580b5058e0",
+    "bytes": 1413793
+  },
+  "tools/mascot-art/wardrobe/shared-three-garments/eddy-sunburst-hoodie-fit.png": {
+    "sha256": "05f1ffa8db8d3da6c593ce9fc3a0a3a4e5e0e413b37723f902dc8a0c03b1da2a",
+    "bytes": 1426320
+  },
+  "tools/mascot-art/wardrobe/shared-three-garments/noir-black-blazer-hoodie-fit.png": {
+    "sha256": "50e3895b6d53586d2e72ead1638a325e9729e396577f35cb07acb3f96327c3c1",
+    "bytes": 1715915
+  },
+  "tools/mascot-art/wardrobe/shared-three-garments/noir-brown-leather-bomber-fit.png": {
+    "sha256": "4c014289407fe209889a1272fd0b2916ec41c913898553e2b625a31435f21621",
+    "bytes": 1753445
+  },
+  "tools/mascot-art/wardrobe/shared-three-garments/noir-olive-plain-tee-fit.png": {
+    "sha256": "2148f663a63e664897f997c89d7b876edc74ade35b6a156e1afa0a6810b8f804",
+    "bytes": 1411778
+  },
+  "tools/mascot-art/wardrobe/shared-three-garments/noir-sunburst-hoodie-fit.png": {
+    "sha256": "b3ad72f9c8b67cd9fb3550a4457764b61b21539c30eb34770f256260d72d56cd",
+    "bytes": 1793639
+  },
+  "tools/mascot-art/wardrobe/shared-three-garments/olive-plain-tee-original.png": {
+    "sha256": "c1f451677fb4309c7411b370166abb7c3288cb9a49bb1999ec6a092ec10d0180",
+    "bytes": 183277
+  },
+  "tools/mascot-art/wardrobe/shared-three-garments/sunburst-hoodie-original.png": {
+    "sha256": "3f4f1ff2bbe55b5c7e1f8af61b642e69399478a8741c513e47b11a4945dc0e3f",
+    "bytes": 259785
   }
 }

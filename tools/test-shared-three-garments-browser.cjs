@@ -10,26 +10,28 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
  await page.addInitScript(()=>{window.EdmundSystemNav={getStudentSession:()=>({id:'wardrobe-fixture',token:'fixture-token'})};});
  await page.goto('http://127.0.0.1:'+server.address().port+'/__wardrobe_qa');
  await page.evaluate(async()=>{
-  window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260916-girls-individual1');await cosmetics.restoreCosmetics();cosmetics.beginCosmeticsPreview();
-  window.bases={};for(const character of ['eddy','noir']){const im=new Image();im.src='/assets/speaking-system/mascots/v4/'+character+'-standing.png';await im.decode();bases[character]=im;}
+  window.cosmetics=await import('/eddy-cosmetics.mjs?v=20260923-olive-tee-leg-gap1');await cosmetics.restoreCosmetics();cosmetics.beginCosmeticsPreview();
+  window.bases={};window.bare={};for(const character of ['eddy','noir']){const im=new Image();im.src='/assets/speaking-system/mascots/v4/'+character+'-standing-clean.webp?v=20260915-tailored1';await im.decode();bases[character]=im;const canvas=document.createElement('canvas');canvas.width=canvas.height=1024;canvas.getContext('2d').drawImage(cosmetics.cosmeticAtlas(character,im,{preview:true}),0,0);bare[character]=canvas;}
+  for(const character of ['eddy','noir'])for(const item of cosmetics.cosmeticsForCharacter(character)){const im=new Image();im.src=cosmetics.cosmeticAsset(item.id,character);await im.decode();}
  });
- const items=['brown-leather-bomber','sunburst-hoodie','black-blazer-hoodie'];
+ for(const character of ['eddy','noir']){await page.evaluate(character=>{document.querySelector('#gallery').replaceChildren(bare[character]);},character);await page.locator('#gallery > *').screenshot({path:path.join(qa,character+'-bare-leg-gap.png')});}
+ const items=['cream-cable-knit','charcoal-turtleneck','blue-swordsman-jacket','brown-leather-bomber','sunburst-hoodie','black-blazer-hoodie','olive-plain-tee'];
  for(const character of ['eddy','noir'])for(const item of items){
   await page.evaluate(item=>{cosmetics.clearCosmetics();cosmetics.equipCosmetic(item);},item);
   assert.deepEqual(await page.evaluate(()=>cosmetics.cosmeticsState().equipped),{top:item});
-  await page.waitForFunction(({character})=>cosmetics.cosmeticAtlas(character,bases[character],{preview:true})!==bases[character],{character});
+  await page.waitForFunction(({character})=>{const result=cosmetics.cosmeticAtlas(character,bases[character],{preview:true}),canvas=document.createElement('canvas');canvas.width=canvas.height=1024;canvas.getContext('2d').drawImage(result,0,0);const a=bare[character].getContext('2d').getImageData(0,0,1024,1024).data,b=canvas.getContext('2d').getImageData(0,0,1024,1024).data;let changed=0;for(let p=0;p<b.length;p+=4)if(Math.abs(a[p]-b[p])+Math.abs(a[p+1]-b[p+1])+Math.abs(a[p+2]-b[p+2])>15)changed++;return changed>800;},{character});
   await page.evaluate(character=>{document.querySelector('#gallery').replaceChildren(cosmetics.cosmeticAtlas(character,bases[character],{preview:true}));},character);
   await page.locator('#gallery canvas').screenshot({path:path.join(qa,character+'-'+item+'-alone.png')});
   await page.evaluate(()=>cosmetics.equipCosmetic('white-fedora'));
   assert.deepEqual(await page.evaluate(()=>cosmetics.cosmeticsState().equipped),{top:item,headwear:'white-fedora'});
-  await page.waitForFunction(({character})=>cosmetics.cosmeticAtlas(character,bases[character],{preview:true})!==bases[character],{character});
+  await page.waitForFunction(({character})=>{const result=cosmetics.cosmeticAtlas(character,bases[character],{preview:true}),canvas=document.createElement('canvas');canvas.width=canvas.height=1024;canvas.getContext('2d').drawImage(result,0,0);const a=bare[character].getContext('2d').getImageData(0,0,1024,1024).data,b=canvas.getContext('2d').getImageData(0,0,1024,1024).data;let changed=0;for(let p=0;p<b.length;p+=4)if(Math.abs(a[p]-b[p])+Math.abs(a[p+1]-b[p+1])+Math.abs(a[p+2]-b[p+2])>15)changed++;return changed>800;},{character});
   await page.evaluate(character=>{document.querySelector('#gallery').replaceChildren(cosmetics.cosmeticAtlas(character,bases[character],{preview:true}));},character);
   await page.locator('#gallery canvas').screenshot({path:path.join(qa,character+'-'+item+'-fedora.png')});
   assert.equal(await page.evaluate(character=>cosmetics.cosmeticAtlas(character,bases[character],{preview:true})===cosmetics.cosmeticAtlas(character,bases[character],{preview:true}),character),true);
   await page.evaluate(async character=>{
    const THREE=await import('/vendor/three/three.module.js');
-   const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260916-girls-individual1');
-   const system=new MascotCharacters(undefined,undefined,{preview:true});const actor=await system.create(character,'standing');
+   const {MascotCharacters}=await import('/speaking-mascot-characters.mjs?v=20260923-olive-tee-leg-gap1');
+   const system=new MascotCharacters(undefined,undefined,{preview:true,cosmeticsEnabled:true});const actor=await system.create(character,'standing');
    for(let n=0;n<100&&actor.mesh.material.uniforms.flowStrength.value!==0;n++)await new Promise(r=>setTimeout(r,20));
    if(actor.mesh.material.uniforms.flowStrength.value!==0)throw Error('New fitted top used bare-body optical flow');
    if(actor.cosmeticOpen===actor.resource.atlas.image||actor.cosmeticBlink===actor.resource.blink.image)throw Error('Open/blink dressed atlases did not load');
@@ -45,5 +47,5 @@ const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL
   await page.locator('#new-top-3d').screenshot({path:path.join(qa,character+'-'+item+'-3d-fedora.png')});
   await page.evaluate(()=>{qa3d.system.dispose();qa3d.renderer.dispose();document.querySelector('#new-top-3d').remove();});
  }
- assert.deepEqual(errors,[]);console.log('PASS: six independent new fits, alone/fedora composites, 16-view 3D open/blink atlases and cache reuse');
+ assert.deepEqual(errors,[]);console.log('PASS: all fourteen Eddy/Noir tops, garment-pixel alone/fedora composites, bare atlas correction, 16-view 3D open/blink atlases and cache reuse');
  }finally{await browser.close();server.close();}})().catch(e=>{console.error(e);process.exitCode=1;server.close();});

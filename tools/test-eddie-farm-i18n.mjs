@@ -29,7 +29,7 @@ test("Chinese URL translates all page labels and is remembered", () => {
   const app = boot({ href: "https://example.test/eddie-farm.html?lang=zh-Hant" });
   assert.equal(app.api.language, "zh-Hant");
   assert.equal(app.document.documentElement.lang, "zh-Hant");
-  assert.equal(app.document.title, "Eddie Farm 積分系統｜EdmundEducation");
+  assert.equal(app.document.title, "Edmund Coin System 金幣錢包｜EdmundEducation");
   assert.equal(app.storage.get("eddie-farm-language-v1"), "zh-Hant");
   assert.equal(app.aria.attributes["aria-label"], "切換學習系統");
   assert.equal(app.rule.textContent, "學習卡");

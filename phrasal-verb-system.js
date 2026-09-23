@@ -10,7 +10,7 @@ import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-phoebe2';
  * phrases are highlighted only when content explicitly supplies `highlight` or
  * `highlights` metadata.
  */
-import { createExpressionMap } from './common-expression-map.mjs?v=20260916-girls-individual1';
+import { createExpressionMap } from './common-expression-map.mjs?v=20260923-olive-tee-leg-gap1';
 import { createPhrasalJourney, phrasalJourneyLessons, phrasalMapCompleted, PHRASAL_MAP_LIMIT } from './phrasal-verb-journey.mjs?v=20260914-bakery4';
 
 let phrasalMap = null;

@@ -1,4 +1,4 @@
-"""Extract three independently fitted Eddy/Noir tops from registered references.
+"""Extract four independently fitted Eddy/Noir tops from registered references.
 
 The fitting images are source artwork. Runtime composites keep each canonical base.
 Run from the repository root with Pillow and NumPy.
@@ -10,7 +10,7 @@ from PIL import Image, ImageFilter
 
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE=ROOT/'tools/mascot-art/wardrobe/shared-three-garments'
-ITEMS=('brown-leather-bomber','sunburst-hoodie','black-blazer-hoodie')
+ITEMS=('brown-leather-bomber','sunburst-hoodie','black-blazer-hoodie','olive-plain-tee')
 CHARACTERS=('eddy','noir')
 SIZE=1024
 CELL=256
@@ -47,12 +47,15 @@ def make_cell(src,base,char,item):
         else:
             color=(s[:,:,0]-s[:,:,1]>22)&(s[:,:,1]-s[:,:,2]>8)
         seed=band&foreground&color&(delta>24)
-    else:
+    elif item in ('sunburst-hoodie','black-blazer-hoodie'):
         neutral=np.abs(s[:,:,0]-s[:,:,1])<20
         dark=(s.mean(axis=2)<115)&neutral
         # The ivory back print is item art, despite its bright color.
         print_color=(item=='sunburst-hoodie')&(s.mean(axis=2)>155)&(s.mean(axis=2)<250)&(s[:,:,0]-s[:,:,1]>6)&(s[:,:,1]-s[:,:,2]>6)&(delta>55)
         seed=band&foreground&(dark|print_color)&(delta>23)
+    else:
+        olive=(s[:,:,1]-s[:,:,2]>14)&(s[:,:,0]-s[:,:,2]>18)&(s.mean(axis=2)<175)
+        seed=band&foreground&olive&(delta>22)
     # Close small pixel holes in fabric and keep colored hardware/details that
     # sit directly inside the garment silhouette. Operations stay per cell.
     m=Image.fromarray(seed.astype(np.uint8)*255,'L')
@@ -65,8 +68,10 @@ def make_cell(src,base,char,item):
     near=np.asarray(Image.fromarray(filled.astype(np.uint8)*255,'L').filter(ImageFilter.MaxFilter(15)))>0
     if item=='brown-leather-bomber':
         fabric=(s[:,:,0]-s[:,:,1]>20)&(s.mean(axis=2)<165)
-    else:
+    elif item in ('sunburst-hoodie','black-blazer-hoodie'):
         fabric=((np.abs(s[:,:,0]-s[:,:,1])<20)&(s.mean(axis=2)<120)) | ((item=='sunburst-hoodie')&(s.mean(axis=2)>155)&(s.mean(axis=2)<250)&(s[:,:,0]-s[:,:,1]>6)&(s[:,:,1]-s[:,:,2]>6))
+    else:
+        fabric=(s[:,:,1]-s[:,:,2]>14)&(s[:,:,0]-s[:,:,2]>18)&(s.mean(axis=2)<175)
     filled |= near&fabric&(y>=125)&(y<194)&(s.mean(axis=2)<250)
     main=largest_components(filled)
     # The sunburst's dark center and garment trim can be enclosed holes after
