@@ -261,12 +261,12 @@ export default {
       "examples": [
         [
           "We bought the tickets at the box office.",
-          "我們在售票處買了門票。",
+          "",
           "售票處；票房"
         ],
         [
           "The film performed well at the box office.",
-          "這部電影的票房表現很好。",
+          "",
           "售票處；票房"
         ]
       ],
