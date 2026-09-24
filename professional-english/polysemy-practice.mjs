@@ -68,6 +68,29 @@ export function highlightSentence(word,text){
   const alternatives=[...forms].filter(Boolean).sort((a,b)=>b.length-a.length).map(form=>form.replace(/[.*+?^${}()|[\]\\]/g,'\\$&').replace(/\s+/g,'\\s+')+'(?:s|es|d|ed|ing)?');
   return esc(text).replace(new RegExp(`\\b(${alternatives.join('|')})\\b`,'gi'),match=>`<mark>${match}</mark>`);
 }
+function maskedTranslation(word,question){
+  const source=String(question.zh||'');
+  const answer=word.senses.find(sense=>sense.id===question.answer)?.zh||'';
+  const terms=answer.split(/[；;、，,／/]/).map(term=>term.replace(/[\s…·]/g,'').trim()).filter(Boolean);
+  let start=-1,length=0;
+  for(const term of terms){
+    const at=source.indexOf(term);
+    if(at>=0&&term.length>length){start=at;length=term.length;}
+  }
+  if(start<0){
+    for(const term of terms)for(let size=Math.min(4,term.length);size>=1;size--)for(let i=0;i<=term.length-size;i++){
+      const at=source.indexOf(term.slice(i,i+size));
+      if(at>=0&&size>length){start=at;length=size;}
+    }
+    if(start>=0&&length===1){
+      // A paraphrased translation may share only one character with its sense.
+      // Conceal the short phrase around it rather than showing an answer hint.
+      length=Math.min(4,source.length-start);
+    }
+  }
+  if(start<0){start=Math.max(0,Math.min(source.length-2,Math.round(source.length*.35)));length=Math.min(3,source.length-start);}
+  return esc(source.slice(0,start))+'<span class="poly-blank" aria-label="答案留空">＿＿＿</span>'+esc(source.slice(start+length));
+}
 
 export function mountPolysemyPage({data,root=document.body,lesson:requestedLesson}) {
   const lesson=lessonNumber(requestedLesson??new URLSearchParams(location.search).get('lesson')??data.lesson);
@@ -93,7 +116,7 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
     if(mode==='push'&&url.href!==location.href)history.pushState(null,'',url);else if(mode==='replace')history.replaceState(null,'',url);
     lastUrl=location.href;
   }
-  function wordProgress(){const s=quiz?.state||{correctCount:word.questions.length,wordTotal:word.questions.length};const level=Math.min(5,Math.floor(answerStreak/2));const cheer=answerStreak>=10?'太厲害了！繼續保持！':answerStreak>=5?'連勝中！你做得到！':answerStreak>=2?'做得好，繼續！':'答對答案，累積連勝！';return `<div class="poly-word-progress"><label for="poly-word-progress">已答對 <strong data-poly-progress-count>${s.correctCount} / ${s.wordTotal}</strong> 題</label><progress id="poly-word-progress" max="${s.wordTotal}" value="${s.correctCount}" aria-label="這個詞語已答對的題目"></progress><div class="poly-streak" data-streak-level="${level}" aria-live="polite"><span class="poly-streak-fire" aria-hidden="true" style="--streak-size:${Math.min(1.55,1+answerStreak*.055)}"><img src="../assets/schedule/day-streak-fire.gif" alt=""></span><span class="poly-streak-copy"><strong>連勝 ${answerStreak}</strong><small>${cheer}</small></span><span class="poly-streak-mascot" role="img" aria-label="Eddie 正在為你加油"></span></div></div>`;}
+  function wordProgress(){const s=quiz?.state||{correctCount:word.questions.length,wordTotal:word.questions.length};const level=Math.min(5,Math.floor(answerStreak/2));const cheer=answerStreak>=10?'太厲害了！繼續保持！':answerStreak>=5?'連勝中！你做得到！':answerStreak>=2?'做得好，繼續！':'答對答案，累積連勝！';return `<div class="poly-word-progress"><label for="poly-word-progress">已答對 <strong data-poly-progress-count>${s.correctCount} / ${s.wordTotal}</strong> 題</label><progress id="poly-word-progress" max="${s.wordTotal}" value="${s.correctCount}" aria-label="這個詞語已答對的題目"></progress><div class="poly-streak" data-streak-level="${level}" aria-live="polite"><span class="poly-streak-fire" aria-hidden="true" style="--streak-size:${Math.min(1.55,1+answerStreak*.055)}">✦</span><span class="poly-streak-copy"><strong>連勝 ${answerStreak}</strong><small>${cheer}</small></span><span class="poly-streak-emblem" aria-hidden="true">PE</span></div></div>`;}
   function showList({navigate=false}={}){
     if(!ownsPage())return;
     stopStudy();loadVersion++;loading=false;word=null;quiz=null;attempt=null;unloadApproved=false;
@@ -143,7 +166,7 @@ export function mountPolysemyPage({data,root=document.body,lesson:requestedLesso
     // Deterministic per question so resume does not reshuffle an answered choice.
     const seed=q.id.split('').reduce((n,c)=>((n*31)^c.charCodeAt(0))>>>0,0);
     for(let i=choices.length-1;i>0;i--){const j=(seed+i*2654435761)%(i+1);[choices[i],choices[j]]=[choices[j],choices[i]];}
-    page.innerHTML=header()+`<section class="poly-work"><div class="poly-toolbar"><button type="button" data-poly-list><svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 12H5m6-6-6 6 6 6"/></svg> 詞語列表</button><span>第 ${s.round} 輪 · ${s.position+1} / ${s.total} 題</span></div>${wordProgress()}<div class="poly-question"><p class="pro-eyebrow">${q.kind==='passage'?'最後挑戰 · 課文原句':'意思練習 · 例句'}</p><h2 tabindex="-1" lang="en">${esc(word.word)}</h2>${sourceLink(word.source)}${q.context?`<p class="poly-context">情境：${esc(q.context)}</p>`:''}<p class="poly-sentence" lang="en">${highlightSentence(word,q.en)}</p><p class="poly-translation" lang="zh-Hant">${esc(q.zhMasked).replaceAll('____','<span class="poly-blank" aria-label="意思留空">____</span>')}</p><p class="poly-prompt" id="poly-prompt">${esc(word.word)} 在這句中是甚麼意思？</p><div class="poly-options" role="group" aria-labelledby="poly-prompt">${choices.map((sense,i)=>`<button type="button" data-poly-answer="${esc(sense.id)}" aria-pressed="false"><span aria-hidden="true">${String.fromCharCode(65+i)}</span>${esc(sense.zh)}</button>`).join('')}</div><div class="poly-feedback" role="status" aria-live="polite"></div><button type="button" class="pro-primary poly-next" data-poly-next hidden>下一題 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button></div></section>`;
+    page.innerHTML=header()+`<section class="poly-work"><div class="poly-toolbar"><button type="button" data-poly-list><svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 12H5m6-6-6 6 6 6"/></svg> 詞語列表</button><span>第 ${s.round} 輪 · ${s.position+1} / ${s.total} 題</span></div>${wordProgress()}<div class="poly-question"><p class="pro-eyebrow">${q.kind==='passage'?'最後挑戰 · 課文原句':'意思練習 · 例句'}</p><h2 tabindex="-1" lang="en">${esc(word.word)}</h2>${sourceLink(word.source)}${q.context?`<p class="poly-context">情境：${esc(q.context)}</p>`:''}<p class="poly-sentence" lang="en">${highlightSentence(word,q.en)}</p><p class="poly-translation" lang="zh-Hant">${maskedTranslation(word,q)}</p><p class="poly-prompt" id="poly-prompt">${esc(word.word)} 在這句中是甚麼意思？</p><div class="poly-options" role="group" aria-labelledby="poly-prompt">${choices.map((sense,i)=>`<button type="button" data-poly-answer="${esc(sense.id)}" aria-pressed="false"><span aria-hidden="true">${String.fromCharCode(65+i)}</span>${esc(sense.zh)}</button>`).join('')}</div><div class="poly-feedback" role="status" aria-live="polite"></div><button type="button" class="pro-primary poly-next" data-poly-next hidden>下一題 <svg class="pro-ui-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button></div></section>`;
     answerFeedback();document.title=`${word.word} · 一詞多義練習 · ${lessonName(lesson)} | Professional English`;
   }
   function focusHeading(){page.querySelector('.poly-question h2,.poly-complete h2,.poly-intro h2')?.focus({preventScroll:true});}

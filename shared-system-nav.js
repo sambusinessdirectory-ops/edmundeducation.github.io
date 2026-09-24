@@ -1231,10 +1231,44 @@
     const actions=document.querySelector(".edmund-system-header__actions");if(!actions)return;
     let chip=actions.querySelector("[data-edmund-coin-wallet]");const student=studentSessionCandidate();
     if(!student||student.impersonatedByAdmin){chip?.remove();return;}
-    if(!chip){chip=document.createElement("a");chip.className="edmund-coin-wallet";chip.dataset.edmundCoinWallet="";chip.href="eddie-farm.html";chip.innerHTML='<span class="edmund-coin-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="13.5"/><path d="M9 25c.7-2.5 2.4-4.4 4.8-5.5l-.2-4-2.1-1.6 1.4-1.7 3.1.9 1.9-1.6 3.1 1.2 2 3.2-1.6 1.5-.6 3.2 2 4.4h-3l-1.7-3.2-3.6.5-2.8 2.7z"/><circle class="edmund-coin-eye" cx="18.1" cy="14.5" r=".7"/></svg></span><span class="edmund-coin-copy"><strong>—</strong><small>Edmund Coins</small></span>';actions.prepend(chip);}
+    if(!chip){chip=document.createElement("button");chip.type="button";chip.className="edmund-coin-wallet";chip.dataset.edmundCoinWallet="";chip.setAttribute("aria-label","View Edmund Coins balance and history");chip.innerHTML='<span class="edmund-coin-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="13.5"/><path d="M9 25c.7-2.5 2.4-4.4 4.8-5.5l-.2-4-2.1-1.6 1.4-1.7 3.1.9 1.9-1.6 3.1 1.2 2 3.2-1.6 1.5-.6 3.2 2 4.4h-3l-1.7-3.2-3.6.5-2.8 2.7z"/><circle class="edmund-coin-eye" cx="18.1" cy="14.5" r=".7"/></svg></span><span class="edmund-coin-copy"><strong>—</strong><small>Edmund Coins</small></span>';chip.addEventListener("click",openCoinWallet);actions.prepend(chip);}
     let config=window.EDMUND_SUPABASE;if(!config?.url||!config?.anonKey){try{await new Promise((resolve,reject)=>{const script=document.createElement("script");script.src=new URL("/supabase-config.js",location.origin).href;script.onload=resolve;script.onerror=reject;document.head.append(script);});config=window.EDMUND_SUPABASE;}catch{return;}}if(!config?.url||!config?.anonKey)return;
     chip.querySelector("strong").textContent="…";
     try{const response=await fetch(`${config.url}/rest/v1/rpc/eddie_farm_snapshot`,{method:"POST",cache:"no-store",credentials:"omit",headers:{apikey:config.anonKey,"Content-Type":"application/json"},body:JSON.stringify({p_token:student.token}),signal:AbortSignal.timeout(9000)});if(!response.ok)throw Error();const data=await response.json();if(studentSessionCandidate()?.token!==student.token)return;chip.querySelector("strong").textContent=Number(data.balance||0).toLocaleString();}catch{chip.querySelector("strong").textContent="—";}
+  }
+
+  async function openCoinWallet() {
+    const student=studentSessionCandidate();
+    if(!student||student.impersonatedByAdmin)return;
+    let dialog=document.querySelector("[data-edmund-coin-dialog]");
+    if(!dialog){
+      dialog=document.createElement("dialog");dialog.className="edmund-coin-dialog";dialog.dataset.edmundCoinDialog="";
+      dialog.innerHTML='<div class="edmund-coin-dialog__head"><div><span>EDMUND COINS · 金幣紀錄</span><h2>My coins · 我的金幣</h2></div><button type="button" data-coin-close aria-label="Close">×</button></div><div class="edmund-coin-dialog__balance"><span>Current balance · 現有金幣</span><strong data-coin-balance>…</strong></div><h3>Coins earned by day · 每日獲得</h3><div class="edmund-coin-dialog__history" data-coin-history role="list" aria-live="polite">Loading · 載入中…</div><a class="edmund-coin-dialog__visit" href="eddie-farm.html">Go to Edmund Coin System · 前往金幣系統 <span aria-hidden="true">→</span></a>';
+      dialog.querySelector("[data-coin-close]").addEventListener("click",()=>dialog.close());
+      dialog.addEventListener("click",event=>{if(event.target===dialog)dialog.close();});
+      document.body.append(dialog);
+    }
+    const balance=dialog.querySelector("[data-coin-balance]"),history=dialog.querySelector("[data-coin-history]");
+    balance.textContent=document.querySelector("[data-edmund-coin-wallet] strong")?.textContent||"…";
+    history.textContent="Loading · 載入中…";
+    dialog.showModal();
+    try{
+      const config=window.EDMUND_SUPABASE;
+      if(!config?.url||!config?.anonKey)throw Error("Coin history is unavailable right now.");
+      const response=await fetch(`${config.url}/rest/v1/rpc/eddie_farm_wallet_history`,{method:"POST",cache:"no-store",credentials:"omit",headers:{apikey:config.anonKey,"Content-Type":"application/json"},body:JSON.stringify({p_token:student.token}),signal:AbortSignal.timeout(9000)});
+      if(!response.ok)throw Error("Coin history is unavailable right now.");
+      const data=await response.json();
+      if(studentSessionCandidate()?.token!==student.token)return;
+      balance.textContent=Number(data.balance||0).toLocaleString();
+      history.replaceChildren();
+      if(!Array.isArray(data.days)||!data.days.length){history.textContent="No coins earned yet · 暫時未有金幣紀錄";return;}
+      for(const day of data.days){
+        const row=document.createElement("div");row.className="edmund-coin-dialog__day";row.setAttribute("role","listitem");
+        const date=document.createElement("time");date.dateTime=day.date;date.textContent=new Date(`${day.date}T12:00:00`).toLocaleDateString(undefined,{year:"numeric",month:"short",day:"numeric"});
+        const points=document.createElement("strong");points.textContent=`+${Number(day.points||0).toLocaleString()}`;
+        row.append(date,points);history.append(row);
+      }
+    }catch(error){history.textContent=error.message||"Coin history is unavailable right now.";}
   }
 
   function initialise() {

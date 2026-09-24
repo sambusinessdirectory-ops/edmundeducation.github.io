@@ -196,8 +196,8 @@ test("all six Common Expression portals carry their identity, shared navigation 
       portal.key === "business-speaking" ? /common-expression-system\.js\?v=20260924-closet-all2/ : /common-expression-system\.js\?v=20260924-closet-all2/,
       /shared-speaking-practice\.css\?v=20260829-1/,
       /<script defer src=["']shared-speaking-practice\.js\?v=20260829-2["']><\/script>/,
-      /shared-system-nav\.css\?v=20260910-home2/,
-      /shared-system-nav\.js\?v=20260915-outfits1/
+      /shared-system-nav\.css\?v=20260924-wallet1/,
+      /shared-system-nav\.js\?v=20260924-wallet1/
     ]) assert.match(html, contract, `${portal.file}: missing required portal asset or PWA contract`);
     assert.doesNotMatch(html, /<script[^>]+src=["'][^"']*lamejs/i, `${portal.file}: MP3 encoder must load only after recording is selected`);
 

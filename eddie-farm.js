@@ -98,9 +98,21 @@
   async function loadCosmeticCatalog() {
     const host = $("cosmetic-catalog"); host.replaceChildren();
     const result = await rpc("eddie_farm_admin_cosmetic_catalog", { p_token: adminToken });
+    const shelfImages = {
+      "white-fedora": "eddy/white-fedora-icon.webp",
+      "cream-cable-knit": "eddy/cream-cable-knit-icon.webp",
+      "charcoal-turtleneck": "eddy/charcoal-turtleneck-icon.webp",
+      "blue-swordsman-jacket": "eddy/jacket-display.png",
+      "brown-leather-bomber": "eddy/brown-leather-bomber-display.png",
+      "sunburst-hoodie": "eddy/sunburst-hoodie-display.png",
+      "black-blazer-hoodie": "eddy/black-blazer-hoodie-display.png",
+      "olive-plain-tee": "eddy/olive-plain-tee-display.png",
+      "cream-sherpa-jacket": "girls/cream-sherpa-display.png",
+      "pink-rain-jacket": "girls/pink-rain-jacket-display.png"
+    };
     for (const item of result.items || []) {
       const row = document.createElement("form"); row.className = "farm-cosmetic-row";
-      const image = document.createElement("img"); image.src = `assets/speaking-system/cosmetics/${item.image_character}/${encodeURIComponent(item.id)}.webp`; image.alt = item.name; image.loading = "lazy";
+      const image = document.createElement("img"); image.src = `assets/speaking-system/cosmetics/${shelfImages[item.id] || `${item.image_character}/${encodeURIComponent(item.id)}.webp`}`; image.alt = item.name; image.loading = "lazy";
       const description = document.createElement("div"); description.className = "farm-cosmetic-description";
       const title = document.createElement("strong"); title.textContent = item.name;
       const meta = document.createElement("small"); meta.textContent = `${item.enabled ? "Available in shop" : "Disabled in shop"} · ${item.id}`;

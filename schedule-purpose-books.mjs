@@ -20,27 +20,88 @@ function splitPane(dialog, left, right, label) {
  bar.onpointerdown=e=>{dragging=true;bar.setPointerCapture(e.pointerId);};bar.onpointermove=e=>{if(!dragging)return;const rect=split.getBoundingClientRect();split.style.setProperty('--left-width',`${Math.max(25,Math.min(75,(e.clientX-rect.left)/rect.width*100))}%`);};bar.onpointerup=bar.onpointercancel=()=>dragging=false;
  bar.onkeydown=e=>{if(!['ArrowLeft','ArrowRight'].includes(e.key))return;e.preventDefault();const current=parseFloat(split.style.getPropertyValue('--left-width'))||50;split.style.setProperty('--left-width',`${Math.max(25,Math.min(75,current+(e.key==='ArrowRight'?3:-3)))}%`);};
 }
+const VALUE_CATEGORIES = [
+ ['成長與能力','Growth & ability'],['規律與習慣','Consistency & habits'],['長遠選擇','Long-term choices'],
+ ['溝通與聆聽','Communication'],['錯誤與回饋','Mistakes & feedback'],['自主學習','Self-directed learning'],
+ ['自信與進步','Confidence'],['目標與標準','Goals & standards'],['理解與思考','Understanding'],
+ ['關係與連結','Relationships'],['勇氣與行動','Courage'],['選擇與自由','Choice & autonomy'],
+ ['責任與承諾','Responsibility'],['尊重與謙遜','Respect'],['情緒與挫折','Emotions'],
+ ['學習與人生','Learning & life'],['文化與視野','Culture'],['方法與效率','Methods'],
+ ['健康與平衡','Wellbeing'],['貢獻與成長','Contribution'],['反思中的信念 I','Beliefs to reflect on'],
+ ['反思中的信念 II','Beliefs to reflect on']
+];
+const categoryFor = item => Math.min(VALUE_CATEGORIES.length-1, Math.floor((Number(item.id)-1)/10));
 function openValues() {
- const data=read();let selected=new Set(values(data));
- const dialog=shell('True Values','<div class="true-value-search"><label>搜尋陳述<input type="search" data-search placeholder="搜尋 statements"></label></div><div data-value-split></div>','true-values-dialog');
- const draw=()=>{const available=TRUE_VALUE_STATEMENTS.filter(item=>!selected.has(item.id));const chosen=TRUE_VALUE_STATEMENTS.filter(item=>selected.has(item.id));
-  splitPane(dialog,`<h3>所有陳述</h3><div class="true-value-list" data-available>${available.length?available.map(item=>`<button class="true-value-row" type="button" data-value-add="${esc(item.id)}"><span>${esc(item.zh)}<small>(${esc(item.en)})</small></span><span class="value-check"></span></button>`).join(''):'<p class="book-empty">目前沒有可顯示的陳述。</p>'}</div>`,`<h3>我認同的陳述</h3><div class="true-value-list">${chosen.map(item=>`<button class="true-value-row selected" type="button" data-value-remove="${esc(item.id)}"><span class="value-check">✓</span><span>${esc(item.zh)}<small>(${esc(item.en)})</small></span></button>`).join('')||'<p class="book-empty">勾選左側陳述後會顯示在這裏。</p>'}</div>`,'True Values');
-  dialog.querySelector('[data-search]').oninput=e=>dialog.querySelectorAll('[data-value-add]').forEach(row=>row.hidden=!row.textContent.toLocaleLowerCase().includes(e.target.value.toLocaleLowerCase()));
-  dialog.querySelectorAll('[data-value-add]').forEach(button=>button.onclick=()=>{selected.add(button.dataset.valueAdd);const state=read();state.values=[...selected];write(state);draw();});
-  dialog.querySelectorAll('[data-value-remove]').forEach(button=>button.onclick=()=>{selected.delete(button.dataset.valueRemove);const state=read();state.values=[...selected];write(state);draw();});
+ const selected=new Set(values(read()));
+ let category='all',query='';
+ const dialog=shell('True Values',`<div class="value-intro"><span class="value-intro-icon" aria-hidden="true">✦</span><div><strong>選擇屬於你的信念</strong><p>按主題探索，把認同的陳述放進右邊。</p></div></div><div class="true-value-search"><label>搜尋陳述<input type="search" data-search placeholder="搜尋中文或 English statements"></label><label>主題<select data-value-category><option value="all">全部主題 · All topics</option>${VALUE_CATEGORIES.map(([zh,en],i)=>`<option value="${i}">${esc(zh)} · ${esc(en)}</option>`).join('')}</select></label></div><div class="value-category-tabs" role="group" aria-label="True Values topics"></div><div data-value-split></div>`,'true-values-dialog');
+ splitPane(dialog,'<div class="value-pane-head"><h3>可選陳述</h3><strong data-available-count>0</strong></div><div class="true-value-list" data-available></div>','<div class="value-pane-head"><h3>我認同的陳述</h3><strong data-selected-count>0</strong></div><div class="true-value-list" data-chosen></div>','True Values');
+ const tabs=dialog.querySelector('.value-category-tabs');
+ tabs.innerHTML=`<button type="button" data-topic="all">全部 <small>${TRUE_VALUE_STATEMENTS.length}</small></button>${VALUE_CATEGORIES.map(([zh],i)=>`<button type="button" data-topic="${i}">${esc(zh)} <small>10</small></button>`).join('')}`;
+ const row=(item,chosen)=>`<button class="true-value-row ${chosen?'selected':''}" type="button" data-value-id="${esc(item.id)}" aria-pressed="${chosen}"><span class="value-check" aria-hidden="true">${chosen?'✓':''}</span><span class="value-row-copy"><span>${esc(item.zh)}</span><small>${esc(item.en)}</small></span><span class="value-row-action" aria-hidden="true">${chosen?'−':'＋'}</span></button>`;
+ const draw=()=>{
+  const match=item=>(category==='all'||categoryFor(item)===Number(category))&&(`${item.zh} ${item.en}`.toLocaleLowerCase().includes(query));
+  const shown=TRUE_VALUE_STATEMENTS.filter(match),available=shown.filter(item=>!selected.has(item.id)),chosen=shown.filter(item=>selected.has(item.id));
+  dialog.querySelector('[data-available]').innerHTML=available.map(item=>row(item,false)).join('')||'<p class="book-empty">這個主題沒有可選陳述。</p>';
+  dialog.querySelector('[data-chosen]').innerHTML=chosen.map(item=>row(item,true)).join('')||'<p class="book-empty">這個主題尚未選擇陳述。</p>';
+  dialog.querySelector('[data-available-count]').textContent=`${TRUE_VALUE_STATEMENTS.length-selected.size} 可選 · ${available.length} 顯示`;
+  dialog.querySelector('[data-selected-count]').textContent=`${selected.size} 已選`;
+  tabs.querySelectorAll('[data-topic]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.topic===category)));
+ };
+ dialog.querySelector('[data-search]').oninput=event=>{query=event.target.value.trim().toLocaleLowerCase();draw();};
+ dialog.querySelector('[data-value-category]').onchange=event=>{category=event.target.value;draw();tabs.querySelector(`[data-topic="${category}"]`)?.scrollIntoView({block:'nearest',inline:'nearest'});};
+ tabs.onclick=event=>{const button=event.target.closest('[data-topic]');if(!button)return;category=button.dataset.topic;dialog.querySelector('[data-value-category]').value=category;draw();};
+ dialog.querySelector('[data-value-split]').onclick=event=>{
+  const button=event.target.closest('[data-value-id]');if(!button)return;
+  const id=button.dataset.valueId,wasSelected=selected.has(id),from=button.getBoundingClientRect();
+  const ghost=button.cloneNode(true);ghost.classList.add('value-flight');ghost.style.cssText=`left:${from.left}px;top:${from.top}px;width:${from.width}px;height:${from.height}px`;document.body.append(ghost);
+  wasSelected?selected.delete(id):selected.add(id);
+  const state=read();state.values=[...selected];write(state);draw();
+  const moved=dialog.querySelector(`[data-value-id="${id}"]`);moved?.classList.add('value-arrived');
+  const to=moved?.getBoundingClientRect();if(to&&!matchMedia('(prefers-reduced-motion: reduce)').matches)ghost.animate([{transform:'translate(0,0) scale(1)',opacity:.85},{transform:`translate(${to.left-from.left}px,${to.top-from.top}px) scale(.84)`,opacity:0}],{duration:420,easing:'cubic-bezier(.2,.8,.2,1)'}).finished.finally(()=>ghost.remove());else ghost.remove();
  };
  draw();
 }
 function openHabits() {
- const data=read();let list=habits(data);
- const dialog=shell('Habit Stacking',`<div class="habit-columns"><section><h3>My Current Habit</h3><div data-current-list></div><button type="button" data-add-current>＋ 新增</button></section><section><h3>My Goal Habit</h3><div data-goal-list></div><button type="button" data-add-goal>＋ 新增</button></section><section><h3>Habit Pairing</h3><p class="book-help">先選一項現有習慣，再選一項目標習慣並配對。</p><div data-pair-list></div></section></div>`,'habit-dialog');
- const draw=()=>{dialog.querySelector('[data-current-list]').innerHTML=list.filter(x=>x.kind==='current').map(x=>`<div class="habit-row"><button type="button" class="habit-select ${x.id===dialog.current?'selected':''}" data-select-habit="${x.id}">${esc(x.text)}</button><button type="button" data-edit-habit="${x.id}" aria-label="Edit">✎</button><button type="button" data-delete-habit="${x.id}" aria-label="Delete">×</button></div>`).join('');dialog.querySelector('[data-goal-list]').innerHTML=list.filter(x=>x.kind==='goal').map(x=>`<div class="habit-row"><button type="button" class="habit-select ${x.id===dialog.goal?'selected':''}" data-select-habit="${x.id}">${esc(x.text)}</button><button type="button" data-edit-habit="${x.id}" aria-label="Edit">✎</button><button type="button" data-delete-habit="${x.id}" aria-label="Delete">×</button></div>`).join('');dialog.querySelector('[data-pair-list]').innerHTML=list.filter(x=>x.kind==='pair').map(x=>`<div class="habit-pair"><span>${esc(list.find(y=>y.id===x.current)?.text||'')} → ${esc(list.find(y=>y.id===x.goal)?.text||'')}</span><button type="button" data-delete-habit="${x.id}" aria-label="Delete pairing">×</button></div>`).join('')||'<p class="book-empty">配對會顯示在這裏。</p>';write({...read(),habits:list});
-  dialog.querySelectorAll('[data-select-habit]').forEach(b=>b.onclick=()=>{const item=list.find(x=>x.id===b.dataset.selectHabit);dialog[item.kind]=item.id;if(dialog.current&&dialog.goal){const exists=list.some(x=>x.kind==='pair'&&x.current===dialog.current&&x.goal===dialog.goal);if(!exists)list.push({id:crypto.randomUUID(),kind:'pair',current:dialog.current,goal:dialog.goal});dialog.current=dialog.goal='';}draw();});
-  dialog.querySelectorAll('[data-delete-habit]').forEach(b=>b.onclick=()=>{const removed=list.find(x=>x.id===b.dataset.deleteHabit);list=list.filter(x=>x.id!==b.dataset.deleteHabit&&!(x.kind==='pair'&&(x.current===removed?.id||x.goal===removed?.id)));draw();});
-  dialog.querySelectorAll('[data-edit-habit]').forEach(b=>b.onclick=()=>{const item=list.find(x=>x.id===b.dataset.editHabit),text=prompt('編輯習慣',item.text);if(text?.trim())item.text=text.trim();draw();});
+ let list=habits(read()),first=null,sort='newest',dragSource=null;
+ const dialog=shell('Habit Stacking',`<div class="habit-hero"><span aria-hidden="true">↗</span><div><strong>把好習慣串連起來</strong><p>點選兩邊的習慣，或拖動一項到另一項。拖動起點就是先做的習慣。</p></div></div><div class="habit-columns"><section><header><h3>My Current Habit</h3><strong data-current-count>0</strong></header><div data-current-list></div><button type="button" class="habit-add" data-add-current>＋ 新增現有習慣</button></section><section><header><h3>My Goal Habit</h3><strong data-goal-count>0</strong></header><div data-goal-list></div><button type="button" class="habit-add" data-add-goal>＋ 新增目標習慣</button></section><section><header><h3>Habit Pairing</h3><strong data-pair-count>0</strong></header><label class="habit-sort-label">依成功次數排序 <select data-pair-sort><option value="newest">最新配對</option><option value="desc">最多 → 最少</option><option value="asc">最少 → 最多</option></select></label><div data-pair-list></div></section></div>`,'habit-dialog');
+ const pair=(source,target)=>{
+  const a=list.find(x=>x.id===source),b=list.find(x=>x.id===target);
+  if(!a||!b||a.kind===b.kind||a.kind==='pair'||b.kind==='pair')return;
+  const current=a.kind==='current'?a:b,goal=a.kind==='goal'?a:b,order=a.kind==='current'?'current':'goal';
+  if(!list.some(x=>x.kind==='pair'&&x.current===current.id&&x.goal===goal.id&&(x.first||'current')===order))list.push({id:crypto.randomUUID(),kind:'pair',current:current.id,goal:goal.id,first:order,count:0});
+  first=null;draw();
  };
- const add=kind=>{const text=prompt(kind==='current'?'My Current Habit':'My Goal Habit');if(text?.trim())list.push({id:crypto.randomUUID(),kind,text:text.trim()});draw();};
- dialog.querySelector('[data-add-current]').onclick=()=>add('current');dialog.querySelector('[data-add-goal]').onclick=()=>add('goal');draw();
+ const habitRow=x=>`<div class="habit-row" data-habit-id="${esc(x.id)}" draggable="true"><span class="habit-grip" aria-hidden="true">⋮⋮</span><button type="button" class="habit-select ${first===x.id?'selected':''}" data-select-habit="${esc(x.id)}">${esc(x.text)}</button><button type="button" data-edit-habit="${esc(x.id)}" aria-label="Edit ${esc(x.text)}">✎</button><button type="button" data-delete-habit="${esc(x.id)}" aria-label="Delete ${esc(x.text)}">×</button></div>`;
+ const draw=()=>{
+  const current=list.filter(x=>x.kind==='current'),goal=list.filter(x=>x.kind==='goal'),allPairs=list.filter(x=>x.kind==='pair');
+  const pairs=[...allPairs];if(sort!=='newest')pairs.sort((a,b)=>sort==='desc'?(Number(b.count||0)-Number(a.count||0)):(Number(a.count||0)-Number(b.count||0)));
+  dialog.querySelector('[data-current-list]').innerHTML=current.map(habitRow).join('')||'<p class="book-empty">加入你已經有的習慣。</p>';
+  dialog.querySelector('[data-goal-list]').innerHTML=goal.map(habitRow).join('')||'<p class="book-empty">加入你想養成的習慣。</p>';
+  dialog.querySelector('[data-pair-list]').innerHTML=pairs.map(x=>{const a=list.find(y=>y.id===x.current),b=list.find(y=>y.id===x.goal),firstHabit=x.first==='goal'?b:a,lastHabit=x.first==='goal'?a:b;return `<article class="habit-pair" data-pair-id="${esc(x.id)}"><div class="habit-pair-flow"><strong>${esc(firstHabit?.text||'')}</strong><span aria-hidden="true">→</span><strong>${esc(lastHabit?.text||'')}</strong></div><div class="habit-pair-actions"><button type="button" data-reverse-pair="${esc(x.id)}" aria-label="Reverse pairing order">⇄ <span>換次序</span></button><span class="habit-pair-count"><button type="button" data-decrease-pair="${esc(x.id)}" aria-label="Decrease success count">↓</button><output aria-label="Successful times">${Math.max(0,Number(x.count)||0)}</output><button type="button" data-increase-pair="${esc(x.id)}" aria-label="Increase success count">↑</button></span><button type="button" data-delete-habit="${esc(x.id)}" aria-label="Delete pairing">×</button></div></article>`}).join('')||'<p class="book-empty">把左右兩邊的習慣配在一起。</p>';
+  dialog.querySelector('[data-current-count]').textContent=current.length;dialog.querySelector('[data-goal-count]').textContent=goal.length;dialog.querySelector('[data-pair-count]').textContent=allPairs.length;
+  dialog.querySelector('[data-pair-sort]').value=sort;
+  write({...read(),habits:list});
+ };
+ dialog.onclick=event=>{
+  const b=event.target.closest('button');if(!b)return;
+  if(b.hasAttribute('data-select-habit')){const id=b.dataset.selectHabit,item=list.find(x=>x.id===id),previous=list.find(x=>x.id===first);if(previous&&previous.kind!==item?.kind)pair(previous.id,id);else{first=first===id?null:id;draw();}return;}
+  if(b.hasAttribute('data-add-current')||b.hasAttribute('data-add-goal')){const kind=b.hasAttribute('data-add-current')?'current':'goal',text=prompt(kind==='current'?'My Current Habit':'My Goal Habit');if(text?.trim())list.push({id:crypto.randomUUID(),kind,text:text.trim()});draw();return;}
+  const id=b.dataset.deleteHabit||b.dataset.editHabit||b.dataset.reversePair||b.dataset.increasePair||b.dataset.decreasePair,item=list.find(x=>x.id===id);if(!item)return;
+  if(b.hasAttribute('data-delete-habit'))list=list.filter(x=>x.id!==id&&!(x.kind==='pair'&&(x.current===id||x.goal===id)));
+  else if(b.hasAttribute('data-edit-habit')){const text=prompt('編輯習慣',item.text);if(text?.trim())item.text=text.trim();}
+  else if(b.hasAttribute('data-reverse-pair'))item.first=item.first==='goal'?'current':'goal';
+  else if(b.hasAttribute('data-increase-pair'))item.count=Math.max(0,Number(item.count)||0)+1;
+  else if(b.hasAttribute('data-decrease-pair'))item.count=Math.max(0,(Number(item.count)||0)-1);
+  draw();
+ };
+ dialog.querySelector('[data-pair-sort]').onchange=event=>{sort=event.target.value;draw();};
+ dialog.addEventListener('dragstart',event=>{const row=event.target.closest('[data-habit-id]');if(!row)return;dragSource=row.dataset.habitId;event.dataTransfer.setData('text/plain',dragSource);event.dataTransfer.effectAllowed='link';row.classList.add('dragging');});
+ dialog.addEventListener('dragend',()=>{dragSource=null;dialog.querySelectorAll('.dragging,.drop-ready').forEach(row=>row.classList.remove('dragging','drop-ready'));});
+ dialog.addEventListener('dragover',event=>{const row=event.target.closest('[data-habit-id]');if(!row)return;const source=list.find(x=>x.id===dragSource);if(source&&source.kind!==list.find(x=>x.id===row.dataset.habitId)?.kind){event.preventDefault();row.classList.add('drop-ready');}});
+ dialog.addEventListener('dragleave',event=>event.target.closest('[data-habit-id]')?.classList.remove('drop-ready'));
+ dialog.addEventListener('drop',event=>{const row=event.target.closest('[data-habit-id]');if(!row)return;event.preventDefault();pair(event.dataTransfer.getData('text/plain'),row.dataset.habitId);});
+ draw();
 }
 function openIfThen() {
  const data=read();let list=plans(data);
