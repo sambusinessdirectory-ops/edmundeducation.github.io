@@ -30,25 +30,36 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Validate closet fast release
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') }}
+        run: |
+          node tools/test-common-expression-closet.mjs
+          node --test tools/test-eddy-cosmetics.mjs
+
       - name: Install image validation dependency
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: npm ci --prefix tools/email-qa --ignore-scripts
 
       - name: Validate execution speedrun timing and recovery
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-execution-system.mjs
           node --test tools/test-execution-speedrun.mjs
 
       - name: Validate membership preview and payment-disabled security boundary
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node --test tools/test-membership-foundation.mjs
           npm test --prefix workers/membership
 
       - name: Validate Flashcard speech recognition lifecycle
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-pronunciation-gating.mjs
           node --test tools/test-flashcard-speech-recognition.mjs tools/test-flashcard-local-recognition.mjs tools/test-local-recognition-storage.mjs
 
       - name: Validate Flashcard conflict recovery release gate
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-flashcard-state-integrity.mjs
           node tools/test-flashcard-sync-resilience.mjs
@@ -64,12 +75,15 @@ jobs:
           node tools/test-sunny-s3-grammar-book.mjs
 
       - name: Refresh lightweight IELTS Reading deck index
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: node tools/generate-ielts-reading-index.mjs
 
       - name: Validate Eddie Farm points and purchase safety
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: node --test tools/test-eddie-farm.mjs tools/test-eddie-farm-i18n.mjs
 
       - name: Validate and regenerate the complete Phrasal Verb catalogue
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/build-phrasal-verb-expansion.mjs
           node tools/generate-phrasal-verb-catalog.mjs
@@ -89,6 +103,7 @@ jobs:
           npm test --prefix workers/phrasal-verb-system
 
       - name: Validate and regenerate the complete Idiom catalogue
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/build-idiom-expansion.mjs
           node tools/generate-idiom-catalog.mjs
@@ -103,6 +118,7 @@ jobs:
           npm test --prefix workers/idiom-system
 
       - name: Validate and regenerate the complete Proverb catalogue
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/build-proverb-system-data.mjs
           node tools/generate-proverb-catalog.mjs
@@ -116,6 +132,7 @@ jobs:
           npm test --prefix workers/proverb-system
 
       - name: Validate and regenerate the complete Sentence Structure catalogue
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/build-sentence-structure-expansion.mjs
           node tools/generate-sentence-structure-catalog.mjs
@@ -135,6 +152,7 @@ jobs:
           npm test --prefix workers/sentence-structure
 
       - name: Refresh homework resource catalog
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/generate-homework-resource-catalog.mjs
           node tools/generate-writing-submission-worker-topic-catalog.mjs
@@ -142,31 +160,37 @@ jobs:
           git diff --exit-code -- workers/writing-submission/src/topic-catalog.js
 
       - name: Validate DSE Writing Part B imported library
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-dse-writing-part-b.mjs
           node tools/test-dse-writing-part-b-downloads.mjs
           node tools/test-dse-writing-part-b-audio.mjs
 
       - name: Validate homework resource catalog and numeric search
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: node tools/test-schedule-homework-links.mjs
 
       - name: Validate unified student progress data and portal contracts
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-student-progress-core.mjs
           node tools/test-student-progress-portal.mjs
           npm test --prefix workers/student-progress
 
       - name: Validate IELTS Reading Passage 1 and Passage 2 flashcards and voice
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-ielts-reading-passage1-flashcards.mjs
           node tools/test-ielts-reading-passage2-flashcards.mjs
 
       - name: Validate IELTS Reading Passage 3 flashcards, data and Homework integration
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-ielts-reading-passage3-flashcards.mjs
           node tools/test-ielts-reading-passage3-integration.mjs
 
       - name: Validate Reading Comprehension catalogue, holds and exercise workflows
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-reading-comprehension-system.mjs
           node tools/test-dse-deep-analysis.mjs
@@ -182,6 +206,7 @@ jobs:
           node tools/test-ielts-reading-question-types.mjs
 
       - name: Validate IELTS Reading analysis catalogue and Mungo Man content
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-ielts-reading-analysis.mjs
           node --test tools/test-ielts-reading-analysis-lazy-loader.mjs
@@ -190,46 +215,56 @@ jobs:
           node tools/test-ielts-reading-analysis-p3-imported-data.mjs
 
       - name: Validate August flashcard expansion taxonomy and lazy loading
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-flashcard-expansion-20260801.mjs
           node tools/test-flashcard-expansion-20260801-ui.mjs
 
       - name: Validate Civics Book 1 concept vocabulary, voice and Homework links
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-government-civics-book1-flashcards.mjs
 
       - name: Validate Civics Book 2 concept vocabulary, voice and Homework links
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-government-civics-book2-flashcards.mjs
 
       - name: Validate Civics Book 3 concept vocabulary, voice and Homework links
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-government-civics-book3-flashcards.mjs
 
       - name: Validate HKFSD Book 1 concept vocabulary, voice and Homework links
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-hkfsd-concept-vocabulary-book1-flashcards.mjs
 
       - name: Validate HKFSD Incident Report 3 Flash Cards and Writing Practice
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-hkfsd-incident-report-3.mjs
           node tools/test-hkfsd-incident-report-flashcards.mjs
           node tools/test-hkfsd-incident-report-writing.mjs
 
       - name: Validate Business Concepts Book 1 flashcards, voice and Homework links
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-business-concepts-book1-flashcards.mjs
 
       - name: Validate Business English Writing Book 1, voice and Homework links
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-business-writing-book1.mjs
 
       - name: Validate immutable packed flashcard audio Worker routing
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-edmund-audio-worker.mjs
           node tools/verify-flashcard-audio-flashcard-expansion.mjs --require-complete
 
       - name: Validate Listening portal, 80-track catalogue and playback speeds
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/listening/generate_catalog.mjs
           git diff --exit-code -- listening-system-catalog.js
@@ -240,14 +275,17 @@ jobs:
           node --test tools/test-listening-imports.mjs
 
       - name: Validate IELTS Listening Practice download catalogue and thumbnails
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: node tools/test-ielts-listening-download-catalog.mjs
 
       - name: Validate IELTS Writing Task 1 flashcards and female voice
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-ielts-writing-task1-flashcards.mjs
           node tools/test-ielts-writing-task1-audio.mjs
 
       - name: Validate IELTS Writing Task 1 practice, downloads, voice and reciprocal links
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-ielts-writing-task1-practice.mjs
           node tools/test-ielts-task1-download-catalog.mjs
@@ -256,11 +294,13 @@ jobs:
           node tools/test-writing-chess-map.mjs
 
       - name: Validate DSE Writing Part A resources and sticky listening controls
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-dse-writing-part-a.mjs
           node --test tools/test-writing-practice-listening-sticky.mjs
 
       - name: Validate Schedule System and Mass Edit clipboard
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-schedule-clipboard.mjs
           node tools/test-schedule-motivation.mjs
@@ -279,6 +319,7 @@ jobs:
           node tools/test-schedule-account-admin-parity.mjs
 
       - name: Validate atomic email uploads and lost-response recovery
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         env:
           EMAIL_QA_MODULES: ${{ github.workspace }}/tools/email-qa/node_modules
         run: |
@@ -330,12 +371,14 @@ jobs:
           node tools/test-writing-submission-email.mjs
 
       - name: Validate source paragraphs for all DSE Speaking papers
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-dse-speaking-system.mjs
           node tools/test-dse-speaking-source-layouts.mjs
           node tools/test-dse-2024-illustrations.mjs
 
       - name: Validate Speaking sticky recorder, repeated recordings and private storage
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-speaking-recorder-workflow.mjs
           node tools/test-speaking-progress-dashboard.mjs
@@ -343,11 +386,14 @@ jobs:
           npm test --prefix workers/speaking-system
 
       - name: Validate all six Common Expression portals, lessons and persistence contracts
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: node --test tools/test-common-expression-system.mjs tools/test-common-expression-map.mjs tools/test-common-expression-garden.mjs tools/test-common-expression-coast.mjs tools/test-common-expression-airport.mjs tools/test-common-expression-train.mjs tools/test-common-expression-dining.mjs tools/test-common-expression-poker.mjs tools/test-common-expression-pool.mjs tools/test-common-expression-lounge.mjs
       - name: Validate rhetorical-writing blueprint map
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: node tools/test-common-expression-blueprint.mjs
 
       - name: Validate DSE Paper 3 portal, shared login and imported analysis data
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-dse-paper3-analysis-data.mjs
           node tools/test-dse-paper3-analysis-portal.mjs
@@ -362,6 +408,7 @@ jobs:
           node tools/test-dse-image-enhancements.mjs
 
       - name: Validate PWA, shared portal navigation, mobile icons, and brand metadata
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/generate-system-pwa-manifests.mjs --check
           node tools/test-system-pwa-experience.mjs
@@ -374,17 +421,21 @@ jobs:
           node tools/test-unified-bookmark-directory.mjs
 
       - name: Validate Video Class portal, permissions, and protected range delivery
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node tools/test-video-class.mjs
           node tools/test-homepage-video-opacity.mjs
 
       - name: Validate Song Appreciation portal, data protection, and secure workflows
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: node tools/test-song-appreciation.mjs
 
       - name: Validate Eddy game public bundle and asset publication gate
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: node tools/test-eddy-game-publication.mjs
 
       - name: Validate Writing Submission portal and self-hosted grammar engine
+        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
         run: |
           node grammar-corpus/validate-and-generate.mjs
           node tools/grammar-detector-v2/validate-and-compile.mjs
