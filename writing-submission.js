@@ -968,7 +968,7 @@ function appendStructuredFeedbackRichText(container, textValue, formattingValue,
       const badge = createElement("span", "feedback-number-badge", item.number);
       const mascot = WRITING_FEEDBACK_MASCOTS[(Math.max(1, Number(item.number) || 1) - 1) % WRITING_FEEDBACK_MASCOTS.length];
       const mascotImage = document.createElement("img");
-      mascotImage.src = `assets/writing-submission/mascot-heads/${mascot}.png?v=20260924-feedback-fixes2-noir`;
+      mascotImage.src = `assets/writing-submission/mascot-heads/${mascot}.png?v=${mascot === "elsie" ? "20260924-elsie-thumbnail2" : "20260924-feedback-fixes2-noir"}`;
       mascotImage.alt = "";
       mascotImage.loading = "lazy";
       badge.append(mascotImage);
@@ -5226,7 +5226,7 @@ let printBenefitMascotIndex = 0;
 function feedbackPrintBenefitSpeech(contentHtml) {
   const mascot = WRITING_FEEDBACK_MASCOTS[printBenefitMascotIndex % WRITING_FEEDBACK_MASCOTS.length];
   printBenefitMascotIndex += 1;
-  const imageUrl = new URL(`assets/writing-submission/mascot-heads/${mascot}.png?v=20260924-benefit`, window.location.href).href;
+  const imageUrl = new URL(`assets/writing-submission/mascot-heads/${mascot}.png?v=${mascot === "elsie" ? "20260924-elsie-thumbnail2" : "20260924-benefit"}`, window.location.href).href;
   return `<div class="print-benefit-speech"><img class="print-benefit-mascot" src="${escapePrintHtml(imageUrl)}" alt=""><div class="print-benefit-bubble">${contentHtml}</div></div>`;
 }
 
@@ -6163,7 +6163,7 @@ const WRITING_FEEDBACK_MASCOTS = ["eddy", "phoebe", "elsie", "noir", "celeste"];
 function writingFeedbackItemMarker(index) {
   const number=index+1, mascot=WRITING_FEEDBACK_MASCOTS[index%WRITING_FEEDBACK_MASCOTS.length];
   const marker=createElement("span","teacher-feedback-item-marker",String(number));marker.dataset.feedbackItemNumber=String(number);
-  const image=document.createElement("img");image.src=`assets/writing-submission/mascot-heads/${mascot}.png?v=20260924-feedback-fixes2-noir`;image.alt="";image.loading="lazy";marker.prepend(image);return marker;
+  const image=document.createElement("img");image.src=`assets/writing-submission/mascot-heads/${mascot}.png?v=${mascot === "elsie" ? "20260924-elsie-thumbnail2" : "20260924-feedback-fixes2-noir"}`;image.alt="";image.loading="lazy";marker.prepend(image);return marker;
 }
 function writingFeedbackHeading(label,index) { const heading=createElement("strong","teacher-feedback-numbered-heading");heading.append(document.createTextNode(`${label} `),writingFeedbackItemMarker(index));return heading; }
 
@@ -6282,7 +6282,7 @@ function feedbackBenefitSpeech(content) {
   studentBenefitMascotIndex += 1;
   const image = document.createElement("img");
   image.className = "teacher-feedback-benefit-mascot";
-  image.src = `assets/writing-submission/mascot-heads/${mascot}.png?v=20260924-benefit`;
+  image.src = `assets/writing-submission/mascot-heads/${mascot}.png?v=${mascot === "elsie" ? "20260924-elsie-thumbnail2" : "20260924-benefit"}`;
   image.alt = "";
   image.loading = "lazy";
   const bubble = createElement("div", "teacher-feedback-benefit-bubble");
