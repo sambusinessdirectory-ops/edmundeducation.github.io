@@ -66,7 +66,7 @@ assert.deepEqual(
 );
 
 const home = await read("index.html");
-const homepageCards = [...home.matchAll(/<a class="category learning-portal-card"[^>]*href="([^"]+)"[^>]*>[\s\S]*?<span class="category-name">([\s\S]*?)<\/span>\s*<\/a>/g)];
+const homepageCards = [...home.matchAll(/<a class="category[^\"]*\blearning-portal-card\b[^\"]*"[^>]*href="([^"]+)"[^>]*>[\s\S]*?<span class="category-name">([\s\S]*?)<\/span>\s*<\/a>/g)];
 assert.equal(homepageCards.length, 25, "homepage should append exactly 25 learning portal cards");
 assert.deepEqual(homepageCards.map((match) => match[1]), expected.map(([, , href]) => href));
 assert.deepEqual(homepageCards.map((match) => match[2].trim()), expected.map(([, , , lines]) => lines.join("<br>")));
