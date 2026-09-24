@@ -1051,7 +1051,7 @@ function mountCloset(root, character, signal) {
   plinth.castShadow = true;
   scene.add(plinth);
 
-  const mascots = new MascotCharacters(undefined,undefined,{preview:true});
+  const mascots = new MascotCharacters(undefined,undefined,{preview:true,cosmeticsEnabled:true});
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 
   mascots.create(character, 'standing').then(created => {

@@ -28,7 +28,7 @@ test('Closet control is inserted before Eddie and opens an accessible dialog', (
 
 test('3D closet retains the classroom performance and lifecycle safeguards', () => {
   assert.match(closet, /three\.module\.js/);
-  assert.match(closet, /new MascotCharacters\(undefined,undefined,\{preview:true\}\)/);
+  assert.match(closet, /new MascotCharacters\(undefined,undefined,\{preview:true,cosmeticsEnabled:true\}\)/);
   assert.match(closet, /Math\.min\(devicePixelRatio, 1\.25\)/);
   assert.match(closet, /shadowMap\.autoUpdate = false/);
   assert.match(closet, /new ResizeObserver/);
