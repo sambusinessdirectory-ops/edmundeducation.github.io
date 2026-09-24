@@ -73,7 +73,7 @@ assert.equal(homepageCards.length, 25, "homepage should append exactly 25 learni
 assert.deepEqual(homepageCards.map((match) => match[1]), expected.map(([, , href]) => href));
 assert.deepEqual(homepageCards.map((match) => match[2].trim()), expected.map(([, , , lines]) => lines.join("<br>")));
 const allCardStarts = [...home.matchAll(/<a class="category(?:\s|\")/g)].map((match) => match.index);
-assert.equal(allCardStarts.length, 66, "homepage must contain 66 linked category cards including Natural English");
+assert.equal(allCardStarts.length, 67, "homepage must contain 67 linked category cards including Recall and Natural English");
 assert.match(home.slice(allCardStarts[60]), /href="background-music\.html"/);
 assert.match(home.slice(allCardStarts[63]), /href="excellent-learning-system\.html"/);
 homepageCards.forEach((match, index) => assert.equal(allCardStarts.indexOf(match.index) + 1, index < 20 ? index + 30 : index + 31));
