@@ -5194,6 +5194,9 @@ function feedbackPrintRichHtml(textValue, formattingValue, { structured = false,
   const container = createElement("div", "print-rich-content");
   const append = structured ? appendStructuredFeedbackRichText : appendFeedbackRichText;
   append(container, textValue, formattingValue, { emptyText });
+  container.querySelectorAll("img[src]").forEach(image => {
+    image.src = new URL(image.getAttribute("src"), window.location.href).href;
+  });
   if (!String(textValue || "").trim()) container.classList.add("is-empty");
   return container.outerHTML;
 }
@@ -5219,6 +5222,14 @@ function feedbackPrintLearningCards(title, values, { id = "", pageBreakBefore = 
   </section>`;
 }
 
+let printBenefitMascotIndex = 0;
+function feedbackPrintBenefitSpeech(contentHtml) {
+  const mascot = WRITING_FEEDBACK_MASCOTS[printBenefitMascotIndex % WRITING_FEEDBACK_MASCOTS.length];
+  printBenefitMascotIndex += 1;
+  const imageUrl = new URL(`assets/writing-submission/mascot-heads/${mascot}.png?v=20260924-benefit`, window.location.href).href;
+  return `<div class="print-benefit-speech"><img class="print-benefit-mascot" src="${escapePrintHtml(imageUrl)}" alt=""><div class="print-benefit-bubble">${contentHtml}</div></div>`;
+}
+
 function feedbackPrintEnhancementCards(title, values, kind, { id = "", pageBreakBefore = false } = {}) {
   const items = normalizeFeedbackEnhancementParts(values).filter(item => ["originalSentence", "enhancement", "benefit"].some(field => String(item[field]?.text || "").trim()));
   if (!items.length) return "";
@@ -5234,22 +5245,19 @@ function feedbackPrintEnhancementCards(title, values, kind, { id = "", pageBreak
     <div class="print-enhancement-list">${items.map((item, index) => `
       <article class="print-enhancement-card">
         <strong class="print-card-title">${prefix} ${index + 1}</strong>
-        ${fields.filter(([field]) => (
-          field !== "originalSentence" || Boolean(String(item.originalSentence?.text || "").trim())
-        )).map(([field, label, className]) => `
+        ${fields.filter(([field]) => Boolean(String(item[field]?.text || "").trim())).map(([field, label, className]) => `
           <section class="print-enhancement-band ${className}">
             <span>${escapePrintHtml(label)}</span>
-            ${feedbackPrintRichHtml(item[field]?.text, item[field]?.formatting, {
-              structured: true,
-              emptyText: "未填寫"
-            })}
+            ${field === "benefit" ? feedbackPrintBenefitSpeech(feedbackPrintRichHtml(item[field]?.text, item[field]?.formatting, { structured: true })) : feedbackPrintRichHtml(item[field]?.text, item[field]?.formatting, { structured: true })}
           </section>`).join("")}
       </article>`).join("")}</div>
   </section>`;
 }
 
 function feedbackPrintSynonymTable(title, values, { id = "", pageBreakBefore = false } = {}) {
-  const items = normalizeFeedbackEnhancementParts(values);
+  const items = normalizeFeedbackEnhancementParts(values).filter(item =>
+    ["originalSentence", "enhancement", "benefit"].some(field => String(item[field]?.text || "").trim())
+  );
   if (!items.length) return "";
   const widths = normalizeFeedbackTableColumnWidths(items[0]?.columnWidths);
   const columns = [
@@ -5262,21 +5270,18 @@ function feedbackPrintSynonymTable(title, values, { id = "", pageBreakBefore = f
     <div class="print-synonym-table-wrap"><table class="print-synonym-table">
       <colgroup>${widths.map(width => `<col style="width:${width}%">`).join("")}</colgroup>
       <thead><tr>${columns.map(([, label]) => `<th>${escapePrintHtml(label)}</th>`).join("")}</tr></thead>
-      <tbody>${items.map(item => `<tr>${columns.map(([field]) => `<td>${feedbackPrintRichHtml(
-        item[field]?.text,
-        item[field]?.formatting,
-        { structured: true, emptyText: "未填寫" }
-      )}</td>`).join("")}</tr>`).join("")}</tbody>
+      <tbody>${items.map(item => `<tr>${columns.map(([field]) => `<td>${field === "benefit" && String(item[field]?.text || "").trim()
+        ? feedbackPrintBenefitSpeech(feedbackPrintRichHtml(item[field]?.text, item[field]?.formatting, { structured: true }))
+        : feedbackPrintRichHtml(item[field]?.text, item[field]?.formatting, { structured: true })}</td>`).join("")}</tr>`).join("")}</tbody>
     </table></div>
   </section>`;
 }
 
 function feedbackPrintSentenceLinks(values, { id = "" } = {}) {
   const links = normalizeFeedbackSentencePickerLinks(values).map((link, index) => {
-    const absoluteUrl = new URL(link.url, "https://edmundeducation.com/").href;
     return `<div class="print-sentence-link-row">
       <span aria-hidden="true">${index + 1}</span>
-      <a href="${escapePrintHtml(absoluteUrl)}" aria-label="前往 ${escapePrintHtml(link.label || `句子結構練習 ${index + 1}`)}">${escapePrintHtml(link.label || `句子結構練習 ${index + 1}`)}</a>
+      <span class="print-sentence-link-label">${escapePrintHtml(link.label || `句子結構練習 ${index + 1}`)}</span>
     </div>`;
   });
   if (!links.length) return "";
@@ -5300,9 +5305,10 @@ function feedbackPrintTranscriptions(feedback, { id = "" } = {}) {
 function feedbackPrintSectionLinks(feedback, articleKey) {
   if (!feedback) return [];
   const anchor = key => `${articleKey}-${key}`;
-  const hasEnhancement = key => normalizeFeedbackEnhancementParts(feedback[key]).length > 0;
+  const hasEnhancement = key => normalizeFeedbackEnhancementParts(feedback[key]).some(item =>
+    ["originalSentence", "enhancement", "benefit"].some(field => String(item[field]?.text || "").trim())
+  );
   return [
-    ["feedback", "Edmund Sir 寫作評語", true],
     ["overall", "整體評語", Boolean(String(feedback.overallComment || "").trim())],
     ["fragments", "逐句／逐段評語", Boolean(feedback.fragments?.length)],
     ["final", "最後評語", Boolean(String(feedback.finalComment || "").trim())],
@@ -5313,6 +5319,8 @@ function feedbackPrintSectionLinks(feedback, articleKey) {
     ["sentence-links", "Sentence Structure 練習", Boolean(normalizeFeedbackSentencePickerLinks(feedback.sentenceStructureLinks).length)],
     ["rhetorical", "修辭技巧提升區", hasEnhancement("rhetoricalParts")],
     ["phrasal", "動詞片語 (Phrasal Verb) 提升區", hasEnhancement("phrasalVerbParts")],
+    ["idiom", "Idiom 慣用語提升區", hasEnhancement("idiomParts")],
+    ["proverb", "Proverb 諺語提升區", hasEnhancement("proverbParts")],
     ["writing-expression", "Writing - Common Expression 提升區", hasEnhancement("writingCommonExpressionParts")],
     ["rhetorical-expression", "修辭 Common Expression 提升區", hasEnhancement("rhetoricalCommonExpressionParts")],
     ["synonym", "同義詞改善區", hasEnhancement("synonymImprovementParts")]
@@ -5329,23 +5337,26 @@ function feedbackPrintContents(feedback, articleKey) {
 }
 
 function feedbackPrintHtml(feedback, { articleKey = "feedback", pageBreakBefore = false } = {}) {
+  printBenefitMascotIndex = 0;
   const pageClass = pageBreakBefore ? " print-page-start" : "";
   if (!feedback) return `<section id="${escapePrintHtml(`${articleKey}-feedback`)}" class="print-feedback-empty${pageClass}"><h2>Edmund Sir 寫作評語</h2><p>這篇文章尚未有可匯出的評語。</p></section>`;
   const anchor = key => `${articleKey}-${key}`;
-  const fragments = feedback.fragments.map((fragment, index) => `
+  const fragments = feedback.fragments.filter(fragment =>
+    ["originalFragment", "edmundComment", "suggestedWriting"].some(field => String(fragment[field] || "").trim())
+  ).map((fragment, index) => `
     <article class="print-feedback-pair">
-      <section class="print-feedback-band is-original">
+      ${String(fragment.originalFragment || "").trim() ? `<section class="print-feedback-band is-original">
         <span>原句 ${index + 1}</span>
-        ${feedbackPrintRichHtml(fragment.originalFragment, fragment.originalFormatting, { emptyText: "未填寫" })}
-      </section>
-      <section class="print-feedback-band is-comment">
+        ${feedbackPrintRichHtml(fragment.originalFragment, fragment.originalFormatting)}
+      </section>` : ""}
+      ${String(fragment.edmundComment || "").trim() ? `<section class="print-feedback-band is-comment">
         <span>Edmund 評語</span>
-        ${feedbackPrintRichHtml(fragment.edmundComment, fragment.commentFormatting, { structured: true, emptyText: "未填寫" })}
-      </section>
-      <section class="print-feedback-band is-suggestion">
+        ${feedbackPrintRichHtml(fragment.edmundComment, fragment.commentFormatting, { structured: true })}
+      </section>` : ""}
+      ${String(fragment.suggestedWriting || "").trim() ? `<section class="print-feedback-band is-suggestion">
         <span>建議寫法</span>
-        ${feedbackPrintRichHtml(fragment.suggestedWriting, fragment.suggestionFormatting, { emptyText: "尚未提供建議寫法。" })}
-      </section>
+        ${feedbackPrintRichHtml(fragment.suggestedWriting, fragment.suggestionFormatting)}
+      </section>` : ""}
     </article>`).join("");
   const improvedVersion = feedbackPrintTextSection(
     "保留原意改良版",
@@ -5357,12 +5368,12 @@ function feedbackPrintHtml(feedback, { articleKey = "feedback", pageBreakBefore 
   const feedbackUpdatedLabel = !feedback.isAdminPreview && feedback.updatedAt
     ? `更新：${escapePrintHtml(formatSubmissionDate(feedback.updatedAt))}`
     : "";
+  const overall = String(feedback.overallComment || "").trim();
   return `<section class="print-feedback${pageClass}">
-    <header id="${escapePrintHtml(anchor("feedback"))}" class="print-feedback-head">
-      <p>EDMUND SIR FEEDBACK</p><h2>Edmund Sir 寫作評語</h2>
-      ${feedbackUpdatedLabel ? `<div>${feedbackUpdatedLabel}</div>` : ""}
-    </header>
-    ${feedbackPrintTextSection("整體評語", feedback.overallComment, "print-overall-comment", feedback.overallFormatting, { id: anchor("overall") })}
+    ${overall ? `<section id="${escapePrintHtml(anchor("overall"))}" class="print-feedback-text print-overall-comment">
+      <header class="print-feedback-head"><p>EDMUND SIR FEEDBACK</p><h2>Edmund Sir 寫作評語</h2>${feedbackUpdatedLabel ? `<div>${feedbackUpdatedLabel}</div>` : ""}</header>
+      <h3>整體評語</h3>${feedbackPrintRichHtml(feedback.overallComment, feedback.overallFormatting)}
+    </section>` : ""}
     ${fragments ? `<div id="${escapePrintHtml(anchor("fragments"))}" class="print-feedback-pairs">${fragments}</div>` : ""}
     ${feedbackPrintTextSection("最後評語", feedback.finalComment, "print-final-comment", feedback.finalFormatting, { id: anchor("final") })}
     ${feedbackPrintLearningCards("文法評語站", feedback.grammarPoints, { id: anchor("grammar"), pageBreakBefore: true })}
@@ -5406,10 +5417,10 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
   const articles = bundles.map(({ submission, feedback }, index) => {
     const articleKey = `composition-${index + 1}`;
     return `<article class="composition">
-      <a class="export-header" href="https://edmundeducation.com/index.html" aria-label="返回 EdmundEducation 網站首頁">
+      <div class="export-header">
         <span class="brand">EdmundEducation</span>
         <img class="elearning" src="https://edmundeducation.com/E-Learning.png" alt="E-Learning">
-      </a>
+      </div>
       <header class="article-head">
         <p class="sequence">WRITING SUBMISSION ${index + 1} / ${bundles.length}</p>
         <h1>${escapePrintHtml(admin && submission.studentName ? `${submission.studentName}－寫作文章` : `我的文章 ${index + 1}`)}</h1>
@@ -5430,13 +5441,13 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
     </article>`;
   }).join("");
   return `<!doctype html>
-<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><base href="${escapePrintHtml(new URL('.', window.location.href).href)}">
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>EdmundEducation－${escapePrintHtml(modeLabel)}</title>
 <style>
   :root{color-scheme:light}*{box-sizing:border-box}html,body{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
   body{margin:0;color:#242342;background:#ececf2;font-family:Georgia,"Times New Roman","Noto Serif TC",serif}
   .print-toolbar{position:sticky;top:0;z-index:5;padding:12px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px;color:#fff;background:#272757;font-family:system-ui,sans-serif}
-  .print-toolbar p{margin:0;font-size:13px}.print-toolbar button{border:0;border-radius:999px;padding:10px 16px;color:#272757;background:#fff;cursor:pointer;font-weight:800}
+  .print-toolbar p{margin:0;font-size:13px}.print-toolbar-actions{display:flex;flex-wrap:wrap;gap:8px}.print-toolbar button{border:0;border-radius:999px;padding:10px 16px;color:#272757;background:#fff;cursor:pointer;font-weight:800}.print-toolbar #print-mascot-toggle{color:#fff;border:1px solid #aab4db;background:transparent}
   main{width:min(940px,calc(100% - 28px));margin:26px auto}.composition{margin:0 0 28px;padding:38px 42px;background:#fff;box-shadow:0 12px 38px rgba(20,20,50,.12);break-after:page;page-break-after:always}
   .export-header{margin:0 0 24px;padding:15px 18px;border:1px solid rgba(47,128,237,.14);border-radius:18px;display:flex;align-items:center;justify-content:center;gap:34px;color:#050505;background:#f7faff;text-decoration:none;break-inside:avoid;page-break-inside:avoid}.export-header .brand{font-size:27px;letter-spacing:.1em;font-weight:500}.export-header .elearning{width:auto;height:36px;object-fit:contain}
   .composition:last-child{break-after:auto;page-break-after:auto}.article-head{padding-bottom:14px;border-bottom:2px solid #e6e5ef}.sequence{margin:0 0 8px;color:#bd571b;font:800 11px system-ui,sans-serif;letter-spacing:.13em}
@@ -5444,24 +5455,24 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
   .topic,.answer{margin-top:22px}.topic{border-left:5px solid #e87b2c;padding:14px 18px;background:#fff6e8;break-inside:avoid;page-break-inside:avoid}.topic strong,.answer>strong{display:block;margin-bottom:8px;color:#bd571b;font:800 11px system-ui,sans-serif;letter-spacing:.08em}
   .topic p{margin:0;font-size:15px;line-height:1.65;white-space:pre-wrap}.answer>div{font-size:16px;line-height:1.78;overflow-wrap:anywhere}.answer>div>p{margin:0;break-inside:avoid;page-break-inside:avoid;orphans:3;widows:3}.answer>div>p+p{margin-top:1em}
   .print-feedback-contents{margin-top:24px;border:1px solid #d8dceb;border-radius:15px;padding:17px 18px;background:#f7f8ff;break-inside:avoid;page-break-inside:avoid}.print-feedback-contents>p{margin:0;color:#8a5b17;font:850 10px system-ui,sans-serif;letter-spacing:.13em}.print-feedback-contents>h2{margin:4px 0 12px;color:#272757;font-size:19px}.print-feedback-contents>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.print-feedback-contents a{min-width:0;border:1px solid #dde1f0;border-radius:10px;padding:8px 10px;display:grid;grid-template-columns:24px minmax(0,1fr);align-items:center;gap:8px;color:#174f83;background:#fff;text-decoration:none;font:750 11px/1.4 system-ui,sans-serif}.print-feedback-contents a>span{width:23px;height:23px;border-radius:50%;display:grid;place-items:center;color:#fff;background:#405b9e;font:800 10px system-ui,sans-serif}
-  .print-feedback,.print-feedback-empty{margin-top:30px}.print-feedback-head{margin-bottom:18px;border-radius:16px;padding:18px 20px;color:#fff;background:#272757;break-inside:avoid;page-break-inside:avoid}.print-feedback-head p{margin:0;color:#f6b263;font:800 10px system-ui,sans-serif;letter-spacing:.14em}.print-feedback-head h2{margin:4px 0 6px;font-size:22px}.print-feedback-head div{color:#deddf0;font:12px system-ui,sans-serif}
+  .print-feedback,.print-feedback-empty{margin-top:30px}.print-feedback-head{margin:-16px -18px 16px;border-radius:14px 14px 0 0;padding:18px 20px;color:#fff;background:#272757;break-after:avoid;page-break-after:avoid}.print-feedback-head p{margin:0;color:#f6b263;font:800 10px system-ui,sans-serif;letter-spacing:.14em}.print-feedback-head h2{margin:4px 0 6px;font-size:22px}.print-feedback-head div{color:#deddf0;font:12px system-ui,sans-serif}
   .print-feedback-empty{border:1px dashed #b9b7ca;border-radius:14px;padding:18px;color:#66637c;background:#fafafd;break-inside:avoid;page-break-inside:avoid}.print-feedback-empty h2{margin:0 0 7px;font-size:20px}.print-feedback-empty p{margin:0}
-  .print-feedback-text,.print-feedback-section,.print-sentence-panel{margin-top:18px}.print-feedback-text{border:1px solid #e4dfef;border-radius:14px;padding:16px 18px;background:#fffdf9;break-inside:avoid;page-break-inside:avoid}.print-feedback-text h3,.print-feedback-section>h3{margin:0 0 10px;color:#272757;font:850 17px system-ui,sans-serif}.print-feedback-text>div{font-size:15px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}
+  .print-feedback-text,.print-feedback-section,.print-sentence-panel{margin-top:18px}.print-feedback-text{border:1px solid #e4dfef;border-radius:14px;padding:16px 18px;background:#fffdf9;break-inside:avoid;page-break-inside:avoid}.print-overall-comment{break-inside:auto;page-break-inside:auto}.print-feedback-text h3,.print-feedback-section>h3{margin:0 0 10px;color:#272757;font:850 17px system-ui,sans-serif}.print-feedback-text>div{font-size:15px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}
   .print-feedback-pairs,.print-learning-list,.print-enhancement-list{display:grid;gap:14px;margin-top:18px}.print-feedback-pair{overflow:hidden;border:1px solid #deddea;border-radius:15px;break-inside:avoid;page-break-inside:avoid}.print-feedback-band{margin:0;padding:13px 16px}.print-feedback-band>span,.print-enhancement-band>span{display:block;margin-bottom:6px;font:850 11px system-ui,sans-serif;letter-spacing:.03em}.print-feedback-band.is-original{background:#f5f6fa}.print-feedback-band.is-original>span{color:#52516d}.print-feedback-band.is-comment{border-top:1px solid #e8d3bb;background:#fff6e8}.print-feedback-band.is-comment>span{color:#a95416}.print-feedback-band.is-suggestion{border-top:1px solid #d4e7d6;background:#f1fbf3}.print-feedback-band.is-suggestion>span{color:#21703a}
   .print-rich-content{font-size:15px;line-height:1.68;white-space:pre-wrap;overflow-wrap:anywhere}.print-rich-content.is-empty{color:#827f94;font-style:italic}.print-rich-content p{margin:0}.print-rich-content p+p{margin-top:8px}.feedback-numbered-card{display:grid;grid-template-columns:32px 1fr;gap:9px;align-items:start;margin-top:8px;break-inside:avoid;page-break-inside:avoid}.feedback-number-badge{width:30px;height:30px;border-radius:8px;display:grid;place-items:center;color:#fff;background:#184d78;font:850 12px system-ui,sans-serif}.feedback-numbered-body{min-height:30px;border-left:3px solid #dc7a18;padding:5px 9px;background:#fff1d2}
   .feedback-number-badge{position:relative;overflow:hidden;flex:none}.feedback-number-badge img{display:none!important;position:absolute!important;inset:0!important;width:30px!important;height:30px!important;max-width:30px!important;max-height:30px!important;object-fit:cover!important;object-position:center!important}.uses-feedback-mascots .feedback-number-badge{font-size:0;color:transparent;background:#fff7dc;border:1px solid #d6a94b}.uses-feedback-mascots .feedback-number-badge img{display:block!important}
   .teacher-feedback-item-marker{display:inline-grid;position:relative;vertical-align:middle;place-items:center;width:25px;height:25px;overflow:hidden;border-radius:50%;background:#405b9e;color:#fff;font:800 11px system-ui,sans-serif}.teacher-feedback-item-marker img{display:none!important;position:absolute!important;inset:0!important;width:25px!important;height:25px!important;max-width:25px!important;max-height:25px!important;object-fit:cover!important}.uses-feedback-mascots .teacher-feedback-item-marker{font-size:0;color:transparent;background:#fff7dc}.uses-feedback-mascots .teacher-feedback-item-marker img{display:block!important}.teacher-feedback-item-marker img,.feedback-number-badge img{break-inside:avoid;page-break-inside:avoid}
   .uses-feedback-mascots .feedback-numbered-body{position:relative;border-left:1px solid #e9be71;border-radius:9px}.uses-feedback-mascots .feedback-numbered-body::before{content:"";position:absolute;left:-7px;top:9px;width:12px;height:12px;transform:rotate(45deg);border-left:1px solid #e9be71;border-bottom:1px solid #e9be71;background:#fff1d2}
   .print-learning-card{border:1px solid #d8e1f1;border-radius:13px;padding:14px 16px;background:#f5f8ff;break-inside:avoid;page-break-inside:avoid}.print-learning-card>strong{display:block;margin-bottom:7px;color:#304794;font:850 12px system-ui,sans-serif}
-  .print-enhancement-card{overflow:hidden;border:1px solid #d9dceb;border-radius:15px;background:#fff;break-inside:avoid;page-break-inside:avoid}.print-card-title{display:block;padding:11px 15px;color:#fff;background:#304794;font:850 13px system-ui,sans-serif}.is-rhetorical .print-card-title{background:#7a3c78}.is-phrasal-verb .print-card-title{background:#276848}.is-writing-common-expression .print-card-title{background:#28617d}.is-rhetorical-common-expression .print-card-title{background:#98631d}.print-enhancement-band{margin:0;padding:12px 15px}.print-enhancement-band.is-original{background:#f7f7fa}.print-enhancement-band.is-original>span{color:#55536d}.print-enhancement-band.is-enhancement{border-top:1px solid #d7e7da;background:#f1fbf3}.print-enhancement-band.is-enhancement>span{color:#21703a}.print-enhancement-band.is-benefit{border-top:1px solid #eadbbc;background:#fff8e8}.print-enhancement-band.is-benefit>span{color:#9d5b16}
-  .print-sentence-panel{overflow:hidden;border:1px solid #d9dceb;border-radius:15px;background:#f7f8ff;break-inside:avoid;page-break-inside:avoid}.print-sentence-panel>header{padding:13px 15px;display:flex;justify-content:space-between;gap:12px;color:#272757;background:#e9edff;font:12px system-ui,sans-serif}.print-sentence-panel>header strong{font-weight:850}.print-sentence-link-list{display:grid;gap:7px;padding:12px}.print-sentence-link-row{display:grid;grid-template-columns:28px 1fr;gap:9px;align-items:center;border:1px solid #e0e2ed;border-radius:10px;padding:8px 10px;background:#fff;break-inside:avoid;page-break-inside:avoid}.print-sentence-link-row>span{width:25px;height:25px;border-radius:50%;display:grid;place-items:center;color:#fff;background:#304794;font:800 11px system-ui,sans-serif}.print-sentence-link-row a{color:#145c91;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px;font:750 12px/1.45 system-ui,sans-serif}
+  .print-enhancement-card{overflow:hidden;border:1px solid #d9dceb;border-radius:15px;background:#fff;break-inside:avoid;page-break-inside:avoid}.print-card-title{display:block;padding:11px 15px;color:#fff;background:#304794;font:850 13px system-ui,sans-serif}.is-rhetorical .print-card-title{background:#7a3c78}.is-phrasal-verb .print-card-title{background:#276848}.is-writing-common-expression .print-card-title{background:#28617d}.is-rhetorical-common-expression .print-card-title{background:#98631d}.print-enhancement-band{margin:0;padding:12px 15px}.print-enhancement-band.is-original{background:#f7f7fa}.print-enhancement-band.is-original>span{color:#55536d}.print-enhancement-band.is-enhancement{border-top:1px solid #d7e7da;background:#f1fbf3}.print-enhancement-band.is-enhancement>span{color:#21703a}.print-enhancement-band.is-benefit{border-top:1px solid #eadbbc;background:#fff8e8}.print-enhancement-band.is-benefit>span{color:#9d5b16}.print-benefit-mascot{display:none}.uses-feedback-mascots .print-benefit-speech{display:grid;grid-template-columns:35px minmax(0,1fr);gap:8px;align-items:start}.uses-feedback-mascots .print-benefit-mascot{display:block;width:34px;height:34px;border:1px solid #d6a94b;border-radius:9px;object-fit:cover}.uses-feedback-mascots .print-benefit-bubble{position:relative;border:1px solid #e9be71;border-radius:11px;padding:7px 9px;background:#fff4db}.uses-feedback-mascots .print-benefit-bubble::before{content:"";position:absolute;left:-6px;top:11px;width:10px;height:10px;transform:rotate(45deg);border-left:1px solid #e9be71;border-bottom:1px solid #e9be71;background:#fff4db}
+  .print-sentence-panel{overflow:hidden;border:1px solid #d9dceb;border-radius:15px;background:#f7f8ff;break-inside:avoid;page-break-inside:avoid}.print-sentence-panel>header{padding:13px 15px;display:flex;justify-content:space-between;gap:12px;color:#272757;background:#e9edff;font:12px system-ui,sans-serif}.print-sentence-panel>header strong{font-weight:850}.print-sentence-link-list{display:grid;gap:7px;padding:12px}.print-sentence-link-row{display:grid;grid-template-columns:28px 1fr;gap:9px;align-items:center;border:1px solid #e0e2ed;border-radius:10px;padding:8px 10px;background:#fff;break-inside:avoid;page-break-inside:avoid}.print-sentence-link-row>span:first-child{width:25px;height:25px;border-radius:50%;display:grid;place-items:center;color:#fff;background:#304794;font:800 11px system-ui,sans-serif}.print-sentence-link-label{color:#145c91;font:750 12px/1.45 system-ui,sans-serif}
   .print-transcriptions article{margin-top:10px;border:1px solid #dfe0ea;border-radius:13px;padding:14px 16px;break-inside:avoid;page-break-inside:avoid}.print-transcriptions article>strong{display:block;margin-bottom:8px;color:#304794;font:850 12px system-ui,sans-serif}.print-transcriptions article>div{font-size:15px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}.print-improved-version{border-color:#cfe4d3;background:#f2fbf3}
   .print-synonym-table-wrap{overflow:hidden;border:1px solid #cad4e9;border-radius:13px;background:#fff}.print-synonym-table{width:100%;border-collapse:collapse;table-layout:fixed}.print-synonym-table th{padding:10px 11px;color:#30466f;background:#edf3ff;text-align:left;font:850 11px/1.4 system-ui,sans-serif}.print-synonym-table th+th,.print-synonym-table td+td{border-left:1px solid #cad4e9}.print-synonym-table td{border-top:1px solid #dce3ef;padding:10px 11px;vertical-align:top;background:#fff;overflow-wrap:anywhere}.print-synonym-table tr{break-inside:avoid;page-break-inside:avoid}.print-synonym-table td:nth-child(2){background:#f5f8ff}.print-synonym-table td:nth-child(3){background:#f7fbf8}.print-synonym-table .print-rich-content{font-size:13px;line-height:1.55}
   mark{border-radius:.2em;padding:.03em .08em;color:inherit;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}mark[data-highlight="yellow"]{background:#fff1a8}mark[data-highlight="orange"]{background:#ffd3a1}mark[data-highlight="blue"]{background:#cfe6ff}mark[data-highlight="green"]{background:#d5f2d5}mark[data-highlight="red"]{background:#ffc7c7}em{font-style:italic}s{text-decoration:line-through}strong{font-weight:800}
   @media(max-width:600px){.composition{padding:27px 22px}.export-header{gap:16px}.export-header .brand{font-size:20px}.export-header .elearning{height:30px}h1{font-size:22px}.print-sentence-panel>header{display:grid}.print-feedback-contents>div{grid-template-columns:1fr}}
   @media print{@page{size:A4;margin:10mm 9mm}.print-toolbar{display:none!important}body{background:#fff}main{width:auto;margin:0}.composition{margin:0;padding:0;box-shadow:none}.print-page-start{break-before:page!important;page-break-before:always!important}.print-feedback-contents a{color:#174f83!important}}
 </style></head><body class="${useMascots ? "uses-feedback-mascots" : ""}">
-<div class="print-toolbar"><p>已準備 ${bundles.length} 篇${escapePrintHtml(modeLabel)}${failedCount ? `；${failedCount} 篇未能載入` : ""} · ${escapePrintHtml(generatedAt)}</p><button type="button" id="print-compositions">列印／儲存為 PDF</button></div>
+<div class="print-toolbar"><p>已準備 ${bundles.length} 篇${escapePrintHtml(modeLabel)}${failedCount ? `；${failedCount} 篇未能載入` : ""} · ${escapePrintHtml(generatedAt)}</p><div class="print-toolbar-actions"><button type="button" id="print-mascot-toggle" aria-pressed="${useMascots}">${useMascots ? "隱藏角色頭像" : "顯示角色頭像"}</button><button type="button" id="print-compositions">列印／儲存為 PDF</button></div></div>
 <main>${articles}</main></body></html>`;
 }
 
@@ -5542,6 +5553,15 @@ async function exportSubmissionBundles(ids, role, mode = "both") {
     printWindow.document.close();
     const printButton = printWindow.document.querySelector("#print-compositions");
     printButton?.addEventListener("click", () => printWindow.print());
+    const mascotToggle = printWindow.document.querySelector("#print-mascot-toggle");
+    mascotToggle?.addEventListener("click", () => {
+      const enabled = !printWindow.document.body.classList.contains("uses-feedback-mascots");
+      printWindow.document.body.classList.toggle("uses-feedback-mascots", enabled);
+      mascotToggle.setAttribute("aria-pressed", String(enabled));
+      mascotToggle.textContent = enabled ? "隱藏角色頭像" : "顯示角色頭像";
+      localStorage.setItem("edmund-writing-feedback-mascots", enabled ? "on" : "off");
+      updateFeedbackMascotControls(enabled);
+    });
     const images = [...printWindow.document.images];
     images.forEach(image => { image.loading = "eager"; });
     const autoPrint = async () => {
@@ -6255,6 +6275,22 @@ function renderEnhancementCopyArea(feedback, kind, itemPosition) {
   return section;
 }
 
+let studentBenefitMascotIndex = 0;
+function feedbackBenefitSpeech(content) {
+  const speech = createElement("div", "teacher-feedback-benefit-speech");
+  const mascot = WRITING_FEEDBACK_MASCOTS[studentBenefitMascotIndex % WRITING_FEEDBACK_MASCOTS.length];
+  studentBenefitMascotIndex += 1;
+  const image = document.createElement("img");
+  image.className = "teacher-feedback-benefit-mascot";
+  image.src = `assets/writing-submission/mascot-heads/${mascot}.png?v=20260924-benefit`;
+  image.alt = "";
+  image.loading = "lazy";
+  const bubble = createElement("div", "teacher-feedback-benefit-bubble");
+  bubble.append(content);
+  speech.append(image, bubble);
+  return speech;
+}
+
 function renderStudentSynonymTable(title, parts, feedback) {
   const section = createElement(
     "section",
@@ -6284,14 +6320,10 @@ function renderStudentSynonymTable(title, parts, feedback) {
     SYNONYM_TABLE_COLUMNS.forEach(({ field }) => {
       const cell = document.createElement("td");
       const content = createElement("div", "teacher-feedback-rich-content");
-      appendStructuredFeedbackRichText(
-        content,
-        part[field]?.text,
-        part[field]?.formatting,
-        { emptyText: "未填寫" }
-      );
-      if (!part[field]?.text) content.classList.add("is-empty");
-      cell.append(content);
+      appendStructuredFeedbackRichText(content, part[field]?.text, part[field]?.formatting);
+      if (field === "benefit" && String(part[field]?.text || "").trim()) {
+        cell.append(feedbackBenefitSpeech(content));
+      } else cell.append(content);
       row.append(cell);
     });
     body.append(row);
@@ -6320,7 +6352,9 @@ function renderStudentFeedbackEnhancementArea(
   itemsValue,
   { kind = "sentence", links = [], feedback = null } = {}
 ) {
-  const parts = normalizeFeedbackEnhancementParts(itemsValue);
+  const parts = normalizeFeedbackEnhancementParts(itemsValue).filter(part =>
+    ["originalSentence", "enhancement", "benefit"].some(field => String(part[field]?.text || "").trim())
+  );
   const sentenceLinks = kind === "sentence" ? normalizeFeedbackSentencePickerLinks(links) : [];
   const moduleLinks = feedback?.extensions?.moduleLinks?.[kind] || [];
   if (!parts.length && !sentenceLinks.length && !moduleLinks.length) return null;
@@ -6341,18 +6375,12 @@ function renderStudentFeedbackEnhancementArea(
     parts.forEach((part, index) => {
       const card = createElement("article", "teacher-feedback-enhancement-card");
       const title=writingFeedbackHeading(kindCopy.singular,index);title.classList.add("teacher-feedback-enhancement-card-title");card.append(title);
-      fields.forEach(([field, label, className]) => {
+      fields.filter(([field]) => String(part[field]?.text || "").trim()).forEach(([field, label, className]) => {
         const band = createElement("section", `teacher-feedback-enhancement-band ${className}`);
         band.append(createElement("span", "", label));
         const content = createElement("div", "teacher-feedback-rich-content");
-        appendStructuredFeedbackRichText(
-          content,
-          part[field]?.text,
-          part[field]?.formatting,
-          { emptyText: "未填寫" }
-        );
-        if (!part[field]?.text) content.classList.add("is-empty");
-        band.append(content);
+        appendStructuredFeedbackRichText(content, part[field]?.text, part[field]?.formatting);
+        band.append(field === "benefit" ? feedbackBenefitSpeech(content) : content);
         card.append(band);
       });
       card.append(feedbackQuestionBox(feedback, `enhancement:${kind}:${index + 1}`, `${title} ${index + 1}`, [part.originalSentence?.text, part.enhancement?.text, part.benefit?.text].join("\n")));
@@ -6398,6 +6426,7 @@ function renderSuggestionCopyArea(fragment) {
 
 function renderStudentFeedback(feedback, container) {
   if (!feedback || feedback.status !== "published") return;
+  studentBenefitMascotIndex = 0;
   state.selectedStudentFeedback = feedback;
   const panel = createElement("section", "teacher-feedback-view");
   panel.id = `student-feedback-${feedback.submissionId}`;
