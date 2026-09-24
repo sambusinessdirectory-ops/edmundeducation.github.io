@@ -1,9 +1,17 @@
 import {cosmeticsForCharacter,outfitsForCharacter,isCosmeticEquipped,wardrobeGroup,cosmeticAsset,cosmeticsState,equipCosmetic,equipOutfit,clearCosmetics,saveAvatar,restoreCosmetics,subscribeCosmetics,toggleOutfitFavorite} from './eddy-cosmetics.mjs?v=20260923-admin-cosmetic-preview1';
 export function mountClosetInventory(host,signal,{character='eddy'}={}){
- host.innerHTML='<p class="expression-closet-inventory-kicker">EDDIE’S COLLECTION</p><h3 id="expression-closet-inventory-title">Inventory <small>物品欄</small></h3><div class="closet-equipment-grid"></div><div class="closet-outfit-actions"><button type="button" data-save-avatar>✦ Save avatar · 儲存造型</button><button type="button" data-remove-outfit>↺ Remove all · 全部脫下</button></div><form data-outfit-form><label for="closet-outfit-name">Name this outfit · 造型名稱</label><input id="closet-outfit-name" maxlength="60" required placeholder="My favourite outfit" autocomplete="off"><button type="submit">＋ Save outfit set · 儲存套裝</button></form><h4>My outfit sets · 我的套裝</h4><div data-outfit-sets></div><p class="closet-save-status" role="status" aria-live="polite"></p>';
+ host.innerHTML='<p class="expression-closet-inventory-kicker">EDDIE’S COLLECTION</p><h3 id="expression-closet-inventory-title">Inventory <small>物品欄</small></h3><p class="closet-coin-balance" data-closet-coins>🪙 Coins · 金幣：<strong>…</strong></p><div class="closet-equipment-grid"></div><div class="closet-outfit-actions"><button type="button" data-save-avatar>✦ Save avatar · 儲存造型</button><button type="button" data-remove-outfit>↺ Remove all · 全部脫下</button></div><form data-outfit-form><label for="closet-outfit-name">Name this outfit · 造型名稱</label><input id="closet-outfit-name" maxlength="60" required placeholder="My favourite outfit" autocomplete="off"><button type="submit">＋ Save outfit set · 儲存套裝</button></form><h4>My outfit sets · 我的套裝</h4><div data-outfit-sets></div><p class="closet-save-status" role="status" aria-live="polite"></p>';
  host.querySelector('.expression-closet-inventory-kicker').textContent=character.toUpperCase()+'’S COLLECTION';
- const grid=host.querySelector('.closet-equipment-grid'),status=host.querySelector('[role=status]'),sets=host.querySelector('[data-outfit-sets]');
+ const grid=host.querySelector('.closet-equipment-grid'),status=host.querySelector('[role=status]'),sets=host.querySelector('[data-outfit-sets]'),coinValue=host.querySelector('[data-closet-coins] strong');
  const buttons=[];
+ let shopBalance=null,purchasing=false,shopItems=new Map();
+ const showBalance=value=>{shopBalance=value===null||value===undefined?null:Number(value);coinValue.textContent=shopBalance===null||!Number.isFinite(shopBalance)?'—':shopBalance.toLocaleString();};
+ const showCatalog=snapshot=>{shopItems=new Map((snapshot?.cosmetics||[]).map(item=>[item.id,item]));showBalance(snapshot?.balance);render();};
+ async function refreshBalance(){
+  const api=window.EddieFarmAPI;
+  if(!api?.student()?.token){showCatalog(null);return;}
+  try{const snapshot=await api.snapshot();if(!signal.aborted&&snapshot)showCatalog(snapshot);}catch{if(!signal.aborted)showBalance(null);}
+ }
  const display={
   'blue-swordsman-jacket':'jacket-display.png',
   'brown-leather-bomber':'brown-leather-bomber-display.png',
@@ -17,12 +25,28 @@ export function mountClosetInventory(host,signal,{character='eddy'}={}){
   const description=document.createElement('small');description.textContent=item.description;
   const state=document.createElement('span');state.className='closet-equipped-status';
   const picture=document.createElement('span');picture.className='closet-item-picture '+item.id;picture.append(image);button.append(picture,title,description,state);grid.append(button);buttons.push([item,button,state]);
-  button.addEventListener('click',()=>{if(!cosmeticsState().owned.includes(item.id)){status.textContent='This item must be purchased with coins in Edmund Coin System before it can be equipped. · 請先到 Edmund Coin System 購買造型。';return;}equipCosmetic(item.id,character);status.textContent='Preview updated. Save avatar to keep this look. · 儲存後套用至所有地圖';},{signal});
+  button.addEventListener('click',async()=>{
+   if(cosmeticsState().owned.includes(item.id)){equipCosmetic(item.id,character);status.textContent='Preview updated. Save avatar to keep this look. · 儲存後套用至所有地圖';return;}
+   const api=window.EddieFarmAPI;
+   if(!api?.student()?.token){status.textContent='Sign in to buy this item with Edmund Coins. · 請先登入以金幣購買造型。';return;}
+   if(purchasing)return;
+   purchasing=true;button.disabled=true;status.textContent=`Buying ${item.name}… · 購買中…`;
+   try{
+    const snapshot=await api.perform('cosmetic',{p_item:item.id});
+    if(signal.aborted)return;
+    showCatalog(snapshot);
+    await restoreCosmetics(undefined,{force:true});
+    if(signal.aborted)return;
+    equipCosmetic(item.id,character);
+    status.textContent=`${item.name} purchased and equipped. Save avatar to keep this look. · 已購買並穿上，請儲存造型。`;
+   }catch(error){if(!signal.aborted){status.textContent=error.message||'Purchase failed. Please try again.';await refreshBalance();}}
+   finally{purchasing=false;if(!signal.aborted)render();}
+  },{signal});
  }
  let busy=false,lastSets='';
  const render=()=>{
   const data=cosmeticsState();data.outfits=outfitsForCharacter(data.outfits,character);
-  for(const [item,button,state] of buttons){const yes=isCosmeticEquipped(data.equipped,item,character),owned=data.owned.includes(item.id);button.setAttribute('aria-pressed',String(yes));state.textContent=yes?'✓ Equipped · 已裝備':owned?'Equip · 裝備':'🔒 '+(item.price||'')+' coins · Edmund Coin System';}
+  for(const [item,button,state] of buttons){const yes=isCosmeticEquipped(data.equipped,item,character),owned=data.owned.includes(item.id),price=shopItems.get(item.id)?.price??item.price;button.setAttribute('aria-pressed',String(yes));button.disabled=purchasing&&!owned;state.textContent=yes?'✓ Equipped · 已裝備':owned?'Equip · 裝備':'Buy · 購買 '+price+' coins';}
   const serialized=JSON.stringify(data.outfits);
   if(serialized!==lastSets){lastSets=serialized;sets.replaceChildren();if(!data.outfits.length)sets.textContent='No saved sets yet · 尚未儲存套裝';
    for(const outfit of [...data.outfits].sort((a,b)=>Number(b.favorite)-Number(a.favorite))){const button=document.createElement('button');button.type='button';button.textContent=outfit.name;button.dataset.outfit=outfit.name;const row=document.createElement('div');row.className='closet-saved-set';const heart=document.createElement('button');heart.type='button';heart.dataset.favorite=outfit.name;heart.textContent=outfit.favorite?'♥':'♡';heart.setAttribute('aria-label',(outfit.favorite?'Unfavorite ':'Favorite ')+outfit.name);heart.setAttribute('aria-pressed',String(!!outfit.favorite));row.append(button,heart);sets.append(row);}
@@ -37,5 +61,6 @@ export function mountClosetInventory(host,signal,{character='eddy'}={}){
  host.querySelector('[data-save-avatar]').addEventListener('click',()=>void save(),{signal});
  host.querySelector('[data-remove-outfit]').addEventListener('click',()=>{clearCosmetics(character);status.textContent='All items removed. Save avatar to keep this look.';},{signal});
  host.querySelector('form').addEventListener('submit',event=>{event.preventDefault();void save(host.querySelector('input').value);},{signal});
- const unsubscribe=subscribeCosmetics(render);signal.addEventListener('abort',unsubscribe,{once:true});render();void restoreCosmetics();
+ const unsubscribe=subscribeCosmetics(render);signal.addEventListener('abort',unsubscribe,{once:true});render();void restoreCosmetics();void refreshBalance();
+ window.addEventListener('focus',refreshBalance,{signal});window.addEventListener('edmund-coin-wallet-refresh',refreshBalance,{signal});
 }

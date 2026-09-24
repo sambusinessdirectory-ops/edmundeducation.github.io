@@ -3,7 +3,8 @@
 
   var RUNTIME_SCRIPTS = Object.freeze([
     "../supabase-config.js",
-    "../eddie-farm-api.js",
+    "../shared-system-nav.js?v=20260924-wallet1",
+    "../eddie-farm-api.js?v=20260924-closet-coins1",
     "loader.js",
     "asset-registry.js",
     "production-runtime.js",

@@ -47,8 +47,8 @@
     if (!["purchase", "plant", "harvest", "cosmetic"].includes(kind)) throw new Error("Unsupported farm action.");
     if (inFlight) throw new Error("Please wait for the current farm action.");
     const account = student();
-    if (!account?.token || !account.id) throw new Error("Log in to your student account first.");
-    const key = pendingPrefix + account.id;
+    if (!account?.token) throw new Error("Log in to your student account first.");
+    const key = pendingPrefix + (account.id || account.token);
     let pending;
     try { pending = JSON.parse(sessionStorage.getItem(key) || "null"); } catch { /* No pending action. */ }
     inFlight = true;

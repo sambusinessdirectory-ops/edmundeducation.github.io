@@ -151,6 +151,7 @@
 .expression-closet-inventory .closet-save-status{color:#f0dfbf}
 .expression-closet-inventory form label,.expression-closet-inventory h4,[data-outfit-sets]{color:#f0dfbf}
 .closet-equipped-status{font-weight:700;color:#5b4724;font-size:12px}
+.closet-coin-balance{display:flex;justify-content:space-between;align-items:center;margin:8px 0 14px;padding:11px 14px;border:1px solid #bfa36d;border-radius:12px;background:linear-gradient(135deg,#fff1c9,#f8dfaa);color:#563f17;font-weight:750}.closet-coin-balance strong{font-variant-numeric:tabular-nums;font-size:18px}.closet-equipment-grid .expression-closet-item:not([aria-pressed=true]):hover{transform:translateY(-2px);box-shadow:0 7px 16px #26190e20}.closet-equipment-grid .expression-closet-item{transition:transform .2s,box-shadow .2s,border-color .2s}
 .closet-outfit-actions{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
 .expression-closet-inventory form{display:grid;gap:8px;margin-top:18px}
 .expression-closet-inventory input{width:100%;box-sizing:border-box;border:1px solid #b9aa92;border-radius:8px;padding:10px;background:white;color:#312a20}
