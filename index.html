@@ -2789,6 +2789,46 @@
         padding-top: 70px;
       }
     }
+
+    /* Cards 30–66: layered 2D illustrations with live, accessible titles. */
+    .category.portal-illustrated-card,
+    .category.portal-illustrated-card:hover,
+    .category.portal-illustrated-card:focus-visible {
+      background-color: #203b4a;
+      background-image: linear-gradient(180deg, transparent 30%, rgba(8, 20, 35, .18) 42%, rgba(8, 20, 35, .65) 58%, rgba(8, 20, 35, .88) 100%), var(--portal-card-image);
+      background-size: cover;
+      background-position: center;
+      border-color: rgba(255,255,255,.48);
+      box-shadow: inset 0 2px 0 rgba(255,255,255,.28), inset 0 -5px 0 rgba(0,0,0,.12), 0 8px 0 var(--category-key-lip, #173a4a), 0 20px 30px rgba(12,30,43,.25);
+      overflow: hidden;
+    }
+
+    .category.portal-illustrated-card:hover,
+    .category.portal-illustrated-card:focus-visible {
+      transform: translateY(-5px);
+      box-shadow: inset 0 2px 0 rgba(255,255,255,.32), inset 0 -5px 0 rgba(0,0,0,.12), 0 12px 0 var(--category-key-lip, #173a4a), 0 25px 34px rgba(12,30,43,.28);
+    }
+
+    .category.portal-illustrated-card::before {
+      top: 10px;
+      right: 10px;
+      padding: 5px 7px;
+      border-radius: 9px;
+      color: #fff;
+      background: rgba(12,29,43,.66);
+      font: 800 15px/1 ui-sans-serif,system-ui,sans-serif;
+      text-shadow: none;
+    }
+
+    .category.portal-illustrated-card::after { display: none; }
+
+    .category.portal-illustrated-card .category-name {
+      max-width: 100%;
+      margin-top: 76px;
+      color: #fff;
+      font: 800 clamp(17px, 1.05vw, 22px)/1.08 Georgia,"Noto Serif TC",serif;
+      text-shadow: 0 1px 2px rgba(5,16,26,.55);
+    }
   </style>
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
   <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
@@ -3032,135 +3072,135 @@
           <span class="category-name"><span class="common-expression-card__title">Common Expression</span><br>常用語<br>商務會話 Business speaking</span>
         </a>
 
-        <a class="category learning-portal-card" href="quotes-system.html" aria-label="Quotes 名人英文語錄 學習系統" style="--portal-card-hue:24">
+        <a class="category portal-illustrated-card learning-portal-card" href="quotes-system.html" aria-label="Quotes 名人英文語錄 學習系統" style="--portal-card-image:url('assets/homepage/card-art/card-30.webp');--portal-card-hue:24">
           <span class="category-name">Quotes<br>名人英文語錄<br>學習系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="grammar-system.html" aria-label="Grammar 英文語法學習" style="--portal-card-hue:215">
+        <a class="category portal-illustrated-card learning-portal-card" href="grammar-system.html" aria-label="Grammar 英文語法學習" style="--portal-card-image:url('assets/homepage/card-art/card-31.webp');--portal-card-hue:215">
           <span class="category-name">Grammar<br>英文語法學習</span>
         </a>
 
-        <a class="category learning-portal-card" href="collocation-system.html" aria-label="Collocation 英文配詞 學習系統" style="--portal-card-hue:162">
+        <a class="category portal-illustrated-card learning-portal-card" href="collocation-system.html" aria-label="Collocation 英文配詞 學習系統" style="--portal-card-image:url('assets/homepage/card-art/card-32.webp');--portal-card-hue:162">
           <span class="category-name">Collocation<br>英文配詞<br>學習系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="irregular-verb-system.html" aria-label="Irregular Verb 不規則動詞 學習系統" style="--portal-card-hue:348">
+        <a class="category portal-illustrated-card learning-portal-card" href="irregular-verb-system.html" aria-label="Irregular Verb 不規則動詞 學習系統" style="--portal-card-image:url('assets/homepage/card-art/card-33.webp');--portal-card-hue:348">
           <span class="category-name">Irregular Verb<br>不規則動詞<br>學習系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="thematic-vocabulary-system.html" aria-label="Thematic Vocabulary 主題性生字記錄大全" style="--portal-card-hue:278">
+        <a class="category portal-illustrated-card learning-portal-card" href="thematic-vocabulary-system.html" aria-label="Thematic Vocabulary 主題性生字記錄大全" style="--portal-card-image:url('assets/homepage/card-art/card-34.webp');--portal-card-hue:278">
           <span class="category-name">Thematic Vocabulary<br>主題性生字記錄大全</span>
         </a>
 
-        <a class="category learning-portal-card" href="part-of-speech-system.html" aria-label="Part Of Speech (POS) 詞性練習系統" style="--portal-card-hue:42">
+        <a class="category portal-illustrated-card learning-portal-card" href="part-of-speech-system.html" aria-label="Part Of Speech (POS) 詞性練習系統" style="--portal-card-image:url('assets/homepage/card-art/card-35.webp');--portal-card-hue:42">
           <span class="category-name">Part Of Speech (POS)<br>詞性練習系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="synonyms-system.html" aria-label="Synonyms 同義詞 學習系統" style="--portal-card-hue:188">
+        <a class="category portal-illustrated-card learning-portal-card" href="synonyms-system.html" aria-label="Synonyms 同義詞 學習系統" style="--portal-card-image:url('assets/homepage/card-art/card-36.webp');--portal-card-hue:188">
           <span class="category-name">Synonyms<br>同義詞<br>學習系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="error-identifier-system.html" aria-label="Error Identifier 錯因分析系統" style="--portal-card-hue:4">
+        <a class="category portal-illustrated-card learning-portal-card" href="error-identifier-system.html" aria-label="Error Identifier 錯因分析系統" style="--portal-card-image:url('assets/homepage/card-art/card-37.webp');--portal-card-hue:4">
           <span class="category-name">Error Identifier<br>錯因分析系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="learning-roadmap.html" aria-label="Learning Roadmap 英文學習路線圖" style="--portal-card-hue:228">
+        <a class="category portal-illustrated-card learning-portal-card" href="learning-roadmap.html" aria-label="Learning Roadmap 英文學習路線圖" style="--portal-card-image:url('assets/homepage/card-art/card-38.webp');--portal-card-hue:228">
           <span class="category-name">Learning Roadmap<br>英文學習路線圖</span>
         </a>
 
-        <a class="category learning-portal-card" href="spelling-system.html" aria-label="Spelling 拼寫 練習系統" style="--portal-card-hue:142">
+        <a class="category portal-illustrated-card learning-portal-card" href="spelling-system.html" aria-label="Spelling 拼寫 練習系統" style="--portal-card-image:url('assets/homepage/card-art/card-39.webp');--portal-card-hue:142">
           <span class="category-name">Spelling<br>拼寫<br>練習系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="reading-logic-system.html" aria-label="Reading Logic 閱讀理解 題型邏輯" style="--portal-card-hue:258">
+        <a class="category portal-illustrated-card learning-portal-card" href="reading-logic-system.html" aria-label="Reading Logic 閱讀理解 題型邏輯" style="--portal-card-image:url('assets/homepage/card-art/card-40.webp');--portal-card-hue:258">
           <span class="category-name">Reading Logic<br>閱讀理解<br>題型邏輯</span>
         </a>
 
-        <a class="category learning-portal-card" href="translation-skills-system.html" aria-label="Translation Skills 閱讀理解 英譯中能力學習" style="--portal-card-hue:194">
+        <a class="category portal-illustrated-card learning-portal-card" href="translation-skills-system.html" aria-label="Translation Skills 閱讀理解 英譯中能力學習" style="--portal-card-image:url('assets/homepage/card-art/card-41.webp');--portal-card-hue:194">
           <span class="category-name">Translation Skills<br>閱讀理解<br>英譯中能力學習</span>
         </a>
 
-        <a class="category learning-portal-card" href="business-school-system.html" aria-label="Business School 商學院英文訓練系統" style="--portal-card-hue:38">
+        <a class="category portal-illustrated-card learning-portal-card" href="business-school-system.html" aria-label="Business School 商學院英文訓練系統" style="--portal-card-image:url('assets/homepage/card-art/card-42.webp');--portal-card-hue:38">
           <span class="category-name">Business School<br>商學院英文訓練系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="complex-questions-system.html" aria-label="Complex Questions 英文複雜問句" style="--portal-card-hue:316">
+        <a class="category portal-illustrated-card learning-portal-card" href="complex-questions-system.html" aria-label="Complex Questions 英文複雜問句" style="--portal-card-image:url('assets/homepage/card-art/card-43.webp');--portal-card-hue:316">
           <span class="category-name">Complex Questions<br>英文複雜問句</span>
         </a>
 
-        <a class="category learning-portal-card" href="leisurely-reading.html" aria-label="Leisurely Reading 英文導讀系統" style="--portal-card-hue:118">
+        <a class="category portal-illustrated-card learning-portal-card" href="leisurely-reading.html" aria-label="Leisurely Reading 英文導讀系統" style="--portal-card-image:url('assets/homepage/card-art/card-44.webp');--portal-card-hue:118">
           <span class="category-name">Leisurely Reading<br>英文導讀系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="english-humour-speaking.html" aria-label="English Humour Speaking 英文幽默會話系統" style="--portal-card-hue:52">
+        <a class="category portal-illustrated-card learning-portal-card" href="english-humour-speaking.html" aria-label="English Humour Speaking 英文幽默會話系統" style="--portal-card-image:url('assets/homepage/card-art/card-45.webp');--portal-card-hue:52">
           <span class="category-name">English Humour<br>Speaking<br>英文幽默會話系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="english-humour-writing.html" aria-label="English Humour Speaking 英文幽默寫作系統" style="--portal-card-hue:332">
+        <a class="category portal-illustrated-card learning-portal-card" href="english-humour-writing.html" aria-label="English Humour Speaking 英文幽默寫作系統" style="--portal-card-image:url('assets/homepage/card-art/card-46.webp');--portal-card-hue:332">
           <span class="category-name">English Humour<br>Speaking<br>英文幽默寫作系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="english-joke-collection.html" aria-label="English Joke Collection 英文笑話收集站" style="--portal-card-hue:202">
+        <a class="category portal-illustrated-card learning-portal-card" href="english-joke-collection.html" aria-label="English Joke Collection 英文笑話收集站" style="--portal-card-image:url('assets/homepage/card-art/card-47.webp');--portal-card-hue:202">
           <span class="category-name">English Joke<br>Collection<br>英文笑話收集站</span>
         </a>
 
-        <a class="category learning-portal-card" href="argument-learning-system.html" aria-label="Argument learning 論證 論據 論點 學習系統" style="--portal-card-hue:268">
+        <a class="category portal-illustrated-card learning-portal-card" href="argument-learning-system.html" aria-label="Argument learning 論證 論據 論點 學習系統" style="--portal-card-image:url('assets/homepage/card-art/card-48.webp');--portal-card-hue:268">
           <span class="category-name">Argument learning<br>論證 / 論據 / 論點 學習系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="fragmented-reading-system.html" aria-label="Fragmented Reading 閱讀理解 碎片訓練系統" style="--portal-card-hue:176">
+        <a class="category portal-illustrated-card learning-portal-card" href="fragmented-reading-system.html" aria-label="Fragmented Reading 閱讀理解 碎片訓練系統" style="--portal-card-image:url('assets/homepage/card-art/card-49.webp');--portal-card-hue:176">
           <span class="category-name">Fragmented Reading<br>閱讀理解<br>碎片訓練系統</span>
         </a>
 
-        <a class="category song-appreciation-card" href="song-appreciation.html" aria-label="Song Appreciation 英文歌 聆聽練習" style="--category-gradient:linear-gradient(135deg,#291d37 0%,#874162 54%,#ef7d87 100%);--category-gradient-hover:linear-gradient(135deg,#20162d 0%,#743551 54%,#e46576 100%);--category-key-lip:#57243f;--category-key-shadow:rgba(93,35,65,.28)">
+        <a class="category portal-illustrated-card song-appreciation-card" href="song-appreciation.html" aria-label="Song Appreciation 英文歌 聆聽練習" style="--portal-card-image:url('assets/homepage/card-art/card-50.webp');--category-gradient:linear-gradient(135deg,#291d37 0%,#874162 54%,#ef7d87 100%);--category-gradient-hover:linear-gradient(135deg,#20162d 0%,#743551 54%,#e46576 100%);--category-key-lip:#57243f;--category-key-shadow:rgba(93,35,65,.28)">
           <span class="category-name">Song Appreciation<br>英文歌<br>聆聽練習</span>
         </a>
 
-        <a class="category learning-portal-card" href="precise-language-system.html" aria-label="Precise Language 精準措詞系統" style="--portal-card-hue:12">
+        <a class="category portal-illustrated-card learning-portal-card" href="precise-language-system.html" aria-label="Precise Language 精準措詞系統" style="--portal-card-image:url('assets/homepage/card-art/card-51.webp');--portal-card-hue:12">
           <span class="category-name">Precise Language<br>精準措詞系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="false-friends-system.html" aria-label="False Friends 同形異義詞 學習系統" style="--portal-card-hue:154">
+        <a class="category portal-illustrated-card learning-portal-card" href="false-friends-system.html" aria-label="False Friends 同形異義詞 學習系統" style="--portal-card-image:url('assets/homepage/card-art/card-52.webp');--portal-card-hue:154">
           <span class="category-name">False Friends<br>同形異義詞<br>學習系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="english-in-shows-system.html" aria-label="English in Shows 影視英文 學習系統" style="--portal-card-hue:224">
+        <a class="category portal-illustrated-card learning-portal-card" href="english-in-shows-system.html" aria-label="English in Shows 影視英文 學習系統" style="--portal-card-image:url('assets/homepage/card-art/card-53.webp');--portal-card-hue:224">
           <span class="category-name">English in Shows<br>影視英文<br>學習系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="ted-talk-english-system.html" aria-label="Ted Talk English Ted Talk 英文 學習系統" style="--portal-card-hue:8">
+        <a class="category portal-illustrated-card learning-portal-card" href="ted-talk-english-system.html" aria-label="Ted Talk English Ted Talk 英文 學習系統" style="--portal-card-image:url('assets/homepage/card-art/card-54.webp');--portal-card-hue:8">
           <span class="category-name">Ted Talk English<br>Ted Talk 英文<br>學習系統</span>
         </a>
 
-        <a class="category learning-portal-card" href="poem-english-system.html" aria-label="Poem English 詩句賞識系統" style="--portal-card-hue:286">
+        <a class="category portal-illustrated-card learning-portal-card" href="poem-english-system.html" aria-label="Poem English 詩句賞識系統" style="--portal-card-image:url('assets/homepage/card-art/card-55.webp');--portal-card-hue:286">
           <span class="category-name">Poem English<br>詩句賞識系統</span>
         </a>
 
-        <a class="category bookmark-directory-card" href="bookmark-directory.html" aria-label="學生使用 書簽總目錄" style="--portal-card-hue:267">
+        <a class="category portal-illustrated-card bookmark-directory-card" href="bookmark-directory.html" aria-label="學生使用 書簽總目錄" style="--portal-card-image:url('assets/homepage/card-art/card-56.webp');--portal-card-hue:267">
           <span class="category-name">學生使用<br>書簽總目錄</span>
         </a>
 
-        <a class="category learning-portal-card execution-system-card" href="execution-system.html" aria-label="執行動力系統" style="--portal-card-hue:38">
+        <a class="category portal-illustrated-card learning-portal-card execution-system-card" href="execution-system.html" aria-label="執行動力系統" style="--portal-card-image:url('assets/homepage/card-art/card-57.webp');--portal-card-hue:38">
           <span class="category-name">執行動力系統</span>
         </a>
 
-        <a class="category reading-comprehension-card" href="reading-comprehension.html" aria-label="Reading Comprehension 閱讀理解 學習系統">
+        <a class="category portal-illustrated-card reading-comprehension-card" href="reading-comprehension.html" aria-label="Reading Comprehension 閱讀理解 學習系統" style="--portal-card-image:url('assets/homepage/card-art/card-58.webp')">
           <span class="category-name">Reading Comprehension<br>閱讀理解<br>學習系統</span>
         </a>
 
-        <a class="category learning-portal-card eddie-farm-card" href="eddie-farm.html" aria-label="Edmund Coin System 金幣系統" style="--portal-card-hue:44">
+        <a class="category portal-illustrated-card learning-portal-card eddie-farm-card" href="eddie-farm.html" aria-label="Edmund Coin System 金幣系統" style="--portal-card-image:url('assets/homepage/card-art/card-59.webp');--portal-card-hue:44">
           <span class="category-name">Edmund Coin System<br>金幣系統</span>
         </a>
 
-        <a class="category membership-card" href="membership.html" aria-label="Edmund 學習系統 會員計劃" style="--category-gradient:linear-gradient(135deg,#173d3b 0%,#42715b 58%,#b8a371 100%);--category-gradient-hover:linear-gradient(135deg,#12312f 0%,#355f4b 58%,#a58e5d 100%);--category-key-lip:#214b3c;--category-key-shadow:rgba(26,62,47,.25)">
+        <a class="category portal-illustrated-card membership-card" href="membership.html" aria-label="Edmund 學習系統 會員計劃" style="--portal-card-image:url('assets/homepage/card-art/card-60.webp');--category-gradient:linear-gradient(135deg,#173d3b 0%,#42715b 58%,#b8a371 100%);--category-gradient-hover:linear-gradient(135deg,#12312f 0%,#355f4b 58%,#a58e5d 100%);--category-key-lip:#214b3c;--category-key-shadow:rgba(26,62,47,.25)">
           <span class="category-name">Edmund 學習系統<br>會員計劃</span>
         </a>
-        <a class="category learning-portal-card background-music-card" href="background-music.html" aria-label="Background Music System 背景音樂系統" style="--portal-card-hue:265"><span class="category-name">Background Music<br>背景音樂系統</span></a>
-<a class="category learning-portal-card question-collection-card" href="question-collection.html" aria-label="Question Collection System 提問集" style="--portal-card-hue:350"><span class="category-name">Question Collection<br>提問集</span></a>
-        <a class="category learning-portal-card special-flash-card" href="professional-english/" aria-label="Flash Cards" style="--portal-card-hue:95"><span class="category-name">Flash Cards<br>閃卡</span></a>
-        <a class="category learning-portal-card excellent-learning-card" href="excellent-learning-system.html" aria-label="English Accent Learning System 英文口音學習系統" style="--portal-card-hue:202"><span class="category-name">English Accent Learning System<br>英文口音學習系統</span></a>
-        <a class="category learning-portal-card polysemy-lab-card" href="polysemy-lab.html" aria-label="Polysemy Lab 一詞多義學習室" style="--portal-card-hue:174"><span class="category-name">Polysemy Lab<br>一詞多義學習室</span></a>
-        <a class="category learning-portal-card natural-english-card" href="natural-english.html" aria-label="Native speakers 怎麼說? 自然英文 學習系統" style="--portal-card-hue:28"><span class="category-name">Native speakers<br>怎麼說?<br>自然英文<br>學習系統</span></a>
+        <a class="category portal-illustrated-card learning-portal-card background-music-card" href="background-music.html" aria-label="Background Music System 背景音樂系統" style="--portal-card-image:url('assets/homepage/card-art/card-61.webp');--portal-card-hue:265"><span class="category-name">Background Music<br>背景音樂系統</span></a>
+<a class="category portal-illustrated-card learning-portal-card question-collection-card" href="question-collection.html" aria-label="Question Collection System 提問集" style="--portal-card-image:url('assets/homepage/card-art/card-62.webp');--portal-card-hue:350"><span class="category-name">Question Collection<br>提問集</span></a>
+        <a class="category portal-illustrated-card learning-portal-card special-flash-card" href="professional-english/" aria-label="Flash Cards" style="--portal-card-image:url('assets/homepage/card-art/card-63.webp');--portal-card-hue:95"><span class="category-name">Flash Cards<br>閃卡</span></a>
+        <a class="category portal-illustrated-card learning-portal-card excellent-learning-card" href="excellent-learning-system.html" aria-label="English Accent Learning System 英文口音學習系統" style="--portal-card-image:url('assets/homepage/card-art/card-64.webp');--portal-card-hue:202"><span class="category-name">English Accent Learning System<br>英文口音學習系統</span></a>
+        <a class="category portal-illustrated-card learning-portal-card polysemy-lab-card" href="polysemy-lab.html" aria-label="Polysemy Lab 一詞多義學習室" style="--portal-card-image:url('assets/homepage/card-art/card-65.webp');--portal-card-hue:174"><span class="category-name">Polysemy Lab<br>一詞多義學習室</span></a>
+        <a class="category portal-illustrated-card learning-portal-card natural-english-card" href="natural-english.html" aria-label="Native speakers 怎麼說? 自然英文 學習系統" style="--portal-card-image:url('assets/homepage/card-art/card-66.webp');--portal-card-hue:28"><span class="category-name">Native speakers<br>怎麼說?<br>自然英文<br>學習系統</span></a>
 
 
       </div>
