@@ -6374,7 +6374,8 @@ function renderStudentFeedbackEnhancementArea(
     ];
     parts.forEach((part, index) => {
       const card = createElement("article", "teacher-feedback-enhancement-card");
-      const title=writingFeedbackHeading(kindCopy.singular,index);title.classList.add("teacher-feedback-enhancement-card-title");card.append(title);
+      const itemLabel = `${kindCopy.singular} ${index + 1}`;
+      card.append(createElement("strong", "teacher-feedback-enhancement-card-title", itemLabel));
       fields.filter(([field]) => String(part[field]?.text || "").trim()).forEach(([field, label, className]) => {
         const band = createElement("section", `teacher-feedback-enhancement-band ${className}`);
         band.append(createElement("span", "", label));
@@ -6383,7 +6384,7 @@ function renderStudentFeedbackEnhancementArea(
         band.append(field === "benefit" ? feedbackBenefitSpeech(content) : content);
         card.append(band);
       });
-      card.append(feedbackQuestionBox(feedback, `enhancement:${kind}:${index + 1}`, `${title} ${index + 1}`, [part.originalSentence?.text, part.enhancement?.text, part.benefit?.text].join("\n")));
+      card.append(feedbackQuestionBox(feedback, `enhancement:${kind}:${index + 1}`, itemLabel, [part.originalSentence?.text, part.enhancement?.text, part.benefit?.text].join("\n")));
       const copyArea = ['idiom','proverb'].includes(kind) ? null : renderEnhancementCopyArea(feedback, kind, index + 1);
       if (copyArea) card.append(copyArea);
       list.append(card);
