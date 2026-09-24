@@ -18,7 +18,7 @@ const ok = (data) => ({ ok: true, status: 200, json: async () => data });
 test("homepage card 59 and all 18 seed types are connected", () => {
   const home = read("index.html");
   const cards = [...home.matchAll(/<a class="category(?:\s|\")[\s\S]*?<\/a>/g)];
-  assert.equal(cards.length, 66);
+  assert.equal(cards.length, 67);
   assert.match(cards[65][0], /href="natural-english.html"/);
   assert.match(cards[64][0], /href="polysemy-lab.html"/);
   assert.match(cards[60][0], /href="background-music.html"/);
