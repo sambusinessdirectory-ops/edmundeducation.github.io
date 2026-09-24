@@ -750,7 +750,7 @@ function syncIdiomMap() {
     return;
   }
   // The list remains available while the decorative map loads or if it fails.
-  if (!idiomMapLoad) idiomMapLoad = import('./idiom-paper-map.mjs?v=20260923-pink-rain-jacket1')
+  if (!idiomMapLoad) idiomMapLoad = import('./idiom-paper-map.mjs?v=20260924-closet-all2')
     .then(({mountIdiomMap}) => {
       if (!state.user) { idiomMapLoad = null; return; }
       toggle.hidden = false;
