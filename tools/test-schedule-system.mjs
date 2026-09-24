@@ -248,7 +248,7 @@ for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 
 }
 
 const homepageCards = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?"/g)];
-assert.equal(homepageCards.length, 66, "homepage must contain all 66 linked category cards, including Natural English");
+assert.equal(homepageCards.length, 67, "homepage must contain all 67 linked category cards, including Recall and Natural English");
 const homepageCardHrefs = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?" href="([^"]+)"/g)].map(([, href]) => href);
 assert.equal(homepageCardHrefs[58], "eddie-farm.html", "Eddie Farm must be numbered card 59");
 assert.equal(homepageCardHrefs[59], "membership.html", "Membership remains available after Eddie Farm");
