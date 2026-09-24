@@ -89,7 +89,7 @@ function maskedTranslation(word,question){
     }
   }
   if(start<0){start=Math.max(0,Math.min(source.length-2,Math.round(source.length*.35)));length=Math.min(3,source.length-start);}
-  return esc(source.slice(0,start))+'<span class="poly-blank" aria-label="答案留空">＿＿＿</span>'+esc(source.slice(start+length));
+  return esc(source.slice(0,start))+'<span class="poly-blank" aria-label="答案留空">____</span>'+esc(source.slice(start+length));
 }
 
 export function mountPolysemyPage({data,root=document.body,lesson:requestedLesson}) {
