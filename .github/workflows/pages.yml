@@ -13,7 +13,8 @@ permissions:
 
 concurrency:
   group: pages
-  # Finish the active release; newer pushes replace only the pending release.
+  # Keep the active release and queue later pushes instead of replacing a waiting release.
+  queue: max
   cancel-in-progress: false
 
 jobs:
