@@ -7,6 +7,8 @@ import {
   normalizeFeedbackEnhancementParts,
   normalizeFeedbackTableColumnWidths,
   normalizeGrammarFeedbackPoints,
+  normalizeFeedbackPastedText,
+  numberFeedbackSelection,
   normalizeSentenceStructureDeepLink,
   normalizeSentenceStructureMethods,
   parseNumberedFeedbackBlocks,
@@ -31,6 +33,17 @@ test("format shortcuts keep Command-B blue and reserve Command-Shift-B for bold"
   assert.equal(feedbackFormattingCommandFromEvent({ metaKey: true, shiftKey: true, key: "b" }), "bold");
   assert.equal(feedbackFormattingCommandFromEvent({ ctrlKey: true, shiftKey: true, key: "r" }), null);
   assert.equal(feedbackFormattingCommandFromEvent({ metaKey: true, altKey: true, key: "b" }), null);
+});
+
+test("pasted point forms keep compact list lines and one numbered group", () => {
+  const pasted = "讀者不知道它是指：\n\n•\n demand\n\n• air travel\n\n• the increase\n\n• modern life";
+  const compact = normalizeFeedbackPastedText(pasted);
+  assert.equal(compact, "讀者不知道它是指：\n• demand\n• air travel\n• the increase\n• modern life");
+  const grouped = numberFeedbackSelection(compact, 1);
+  assert.equal(grouped, "1. " + compact);
+  assert.deepEqual(parseNumberedFeedbackBlocks(grouped)[0].items.map(item => item.text), [compact]);
+  assert.equal(numberFeedbackSelection(grouped, 2), grouped, "reapplying numbering must preserve the existing item");
+  assert.equal(numberFeedbackSelection(grouped, 2, { forceNext: true }), "2. " + compact);
 });
 
 test("pasted numbered feedback becomes a source-aligned card group", () => {

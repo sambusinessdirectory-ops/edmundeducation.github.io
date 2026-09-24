@@ -66,6 +66,40 @@ export function feedbackFormattingCommandFromEvent(event) {
   return FEEDBACK_HIGHLIGHT_SHORTCUTS[key] || null;
 }
 
+/** Keeps pasted point-form feedback compact without losing meaningful paragraphs. */
+export function normalizeFeedbackPastedText(value) {
+  const lines = String(value || "").replace(/\r\n?/gu, "\n").replace(/\u00a0/gu, " ")
+    .split("\n").map(line => line.trim());
+  const output = [];
+  for (let index = 0; index < lines.length; index += 1) {
+    let line = lines[index];
+    if (/^\s*[•●▪◦]\s*$/u.test(line)) {
+      const next = lines.slice(index + 1).find(candidate => candidate.trim());
+      if (next) {
+        while (index + 1 < lines.length && !lines[index + 1].trim()) index += 1;
+        line = `${line.trim()} ${lines[++index].trim()}`;
+      }
+    }
+    if (!line.trim()) {
+      const previous = output.at(-1) || "";
+      const next = lines.slice(index + 1).find(candidate => candidate.trim()) || "";
+      const bullet = /^\s*(?:[•●▪◦]|[-*]\s+)/u;
+      if (!previous || !next || !previous.trim() || bullet.test(previous) || bullet.test(next)) continue;
+      output.push("");
+    } else output.push(line);
+  }
+  return output.join("\n").trim();
+}
+
+/** Groups all selected lines under one numbered feedback card. */
+export function numberFeedbackSelection(value, nextNumber, { forceNext = false } = {}) {
+  const text = normalizeFeedbackPastedText(value);
+  if (!text) return "";
+  const marker = text.match(/^([1-9][0-9]{0,2})[.)]\s*/u);
+  const number = marker && !forceNext ? Number(marker[1]) : Math.max(1, Number(nextNumber) || 1);
+  return `${number}. ${marker ? text.slice(marker[0].length) : text}`;
+}
+
 /**
  * Splits feedback into ordinary text blocks and numbered-card groups.
  *

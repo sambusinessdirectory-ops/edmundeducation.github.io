@@ -61,11 +61,13 @@ import {
   normalizeFeedbackEnhancementParts,
   normalizeFeedbackTableColumnWidths,
   normalizeGrammarFeedbackPoints,
+  normalizeFeedbackPastedText,
+  numberFeedbackSelection,
   normalizeSentenceStructureDeepLink,
   normalizeSentenceStructureMethods,
   parseNumberedFeedbackBlocks,
   sliceFeedbackFormattingRuns
-} from "./writing-submission-feedback-tools.mjs?v=20260901-synonym-table1";
+} from "./writing-submission-feedback-tools.mjs?v=20260924-feedback-paste1";
 import { filterHomeworkResources } from "./schedule-homework-links.mjs?v=20260814-2";
 import {
   createWritingProofreadingGate,
@@ -966,7 +968,7 @@ function appendStructuredFeedbackRichText(container, textValue, formattingValue,
       const badge = createElement("span", "feedback-number-badge", item.number);
       const mascot = WRITING_FEEDBACK_MASCOTS[(Math.max(1, Number(item.number) || 1) - 1) % WRITING_FEEDBACK_MASCOTS.length];
       const mascotImage = document.createElement("img");
-      mascotImage.src = `assets/writing-submission/mascot-heads/${mascot}.png`;
+      mascotImage.src = `assets/writing-submission/mascot-heads/${mascot}.png?v=20260924-feedback-fixes1`;
       mascotImage.alt = "";
       mascotImage.loading = "lazy";
       badge.append(mascotImage);
@@ -1321,6 +1323,7 @@ function createFeedbackRichEditor({ label, value = "", formatting = [], maxLengt
     holder.append(range.cloneContents());
     event.clipboardData.setData("text/html", holder.innerHTML);
     event.clipboardData.setData("text/plain", range.toString());
+    event.clipboardData.setData("application/x-edmund-feedback-rich", "1");
     event.preventDefault();
   });
   editor.addEventListener("paste", event => {
@@ -1328,10 +1331,16 @@ function createFeedbackRichEditor({ label, value = "", formatting = [], maxLengt
     const html = event.clipboardData?.getData("text/html") || "";
     const text = event.clipboardData?.getData("text/plain") || "";
     const selection = window.getSelection();
-    const range = selection?.rangeCount ? selection.getRangeAt(0) : null;
-    if (!range || !editor.contains(range.commonAncestorContainer)) { document.execCommand("insertText", false, text); return; }
+    const selected = selection?.rangeCount ? selection.getRangeAt(0) : null;
+    const range = selected && editor.contains(selected.commonAncestorContainer)
+      ? selected.cloneRange()
+      : document.createRange();
+    if (!selected || !editor.contains(selected.commonAncestorContainer)) {
+      range.selectNodeContents(editor);
+      range.collapse(false);
+    }
     range.deleteContents();
-    if (html) {
+    if (html && event.clipboardData?.getData("application/x-edmund-feedback-rich")) {
       const template = document.createElement("template");
       template.innerHTML = html;
       template.content.querySelectorAll("script,style,iframe,object,embed,link,meta,svg,math,form,input,button,video,audio").forEach(node => node.remove());
@@ -1349,7 +1358,15 @@ function createFeedbackRichEditor({ label, value = "", formatting = [], maxLengt
       range.insertNode(fragment);
       if (last) range.setStartAfter(last);
       range.collapse(true); selection.removeAllRanges(); selection.addRange(range);
-    } else document.execCommand("insertText", false, text);
+    } else {
+      const normalized = normalizeFeedbackPastedText(text || html.replace(/<br\s*\/?\s*>|<\/(?:p|div|li)>/giu, "\n").replace(/<[^>]+>/gu, ""));
+      const node = document.createTextNode(normalized);
+      range.insertNode(node);
+      range.setStartAfter(node);
+      range.collapse(true);
+      selection?.removeAllRanges();
+      selection?.addRange(range);
+    }
     editor.dispatchEvent(new Event("input", { bubbles: true }));
   });
   editor.addEventListener("drop", event => {
@@ -1648,11 +1665,10 @@ function applyFeedbackFormatting(command) {
     [...selectedRanges].sort((left, right) => {
       try { return left.compareBoundaryPoints(Range.START_TO_START, right); } catch { return 0; }
     }).forEach((range) => {
-      const replacement = String(range.toString() || "")
-        .split("\n")
-        .map(line => line.trim() ? `${nextNumber++}. ${line.replace(/^\s*\d+[.)]\s+/u, "")}` : line)
-        .join("\n");
-      numbering.set(range.toString(), [...(numbering.get(range.toString()) || []), command === "next-number" ? "\n" + replacement : replacement]);
+      const existing = String(range.toString()).trim().match(/^([1-9][0-9]{0,2})[.)]\s*/u);
+      const number = existing && command === "numbering" ? Number(existing[1]) : nextNumber++;
+      const replacement = numberFeedbackSelection(range.toString(), number, { forceNext: command === "next-number" });
+      numbering.set(range, command === "next-number" ? "\n" + replacement : replacement);
     });
   }
   state.feedbackApplyingFormat = true;
@@ -1664,8 +1680,14 @@ function applyFeedbackFormatting(command) {
       else if (command === "italic") document.execCommand("italic", false);
       else if (command === "strikethrough") document.execCommand("strikeThrough", false);
       else if (command === "numbering" || command === "next-number") {
-        const replacements = numbering.get(range.toString()) || [];
-        document.execCommand("insertText", false, replacements.pop() || range.toString());
+        const replacement = numbering.get(range) || range.toString();
+        range.deleteContents();
+        const node = document.createTextNode(replacement);
+        range.insertNode(node);
+        range.setStartAfter(node);
+        range.collapse(true);
+        selection.removeAllRanges();
+        selection.addRange(range);
       }
       else if (command === "clear") document.execCommand("removeFormat", false);
       else if (FEEDBACK_HIGHLIGHT_NAMES.includes(command)) {
@@ -5429,6 +5451,7 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
   .print-rich-content{font-size:15px;line-height:1.68;white-space:pre-wrap;overflow-wrap:anywhere}.print-rich-content.is-empty{color:#827f94;font-style:italic}.print-rich-content p{margin:0}.print-rich-content p+p{margin-top:8px}.feedback-numbered-card{display:grid;grid-template-columns:32px 1fr;gap:9px;align-items:start;margin-top:8px;break-inside:avoid;page-break-inside:avoid}.feedback-number-badge{width:30px;height:30px;border-radius:8px;display:grid;place-items:center;color:#fff;background:#184d78;font:850 12px system-ui,sans-serif}.feedback-numbered-body{min-height:30px;border-left:3px solid #dc7a18;padding:5px 9px;background:#fff1d2}
   .feedback-number-badge{position:relative;overflow:hidden;flex:none}.feedback-number-badge img{display:none!important;position:absolute!important;inset:0!important;width:30px!important;height:30px!important;max-width:30px!important;max-height:30px!important;object-fit:cover!important;object-position:center!important}.uses-feedback-mascots .feedback-number-badge{font-size:0;color:transparent;background:#fff7dc;border:1px solid #d6a94b}.uses-feedback-mascots .feedback-number-badge img{display:block!important}
   .teacher-feedback-item-marker{display:inline-grid;position:relative;vertical-align:middle;place-items:center;width:25px;height:25px;overflow:hidden;border-radius:50%;background:#405b9e;color:#fff;font:800 11px system-ui,sans-serif}.teacher-feedback-item-marker img{display:none!important;position:absolute!important;inset:0!important;width:25px!important;height:25px!important;max-width:25px!important;max-height:25px!important;object-fit:cover!important}.uses-feedback-mascots .teacher-feedback-item-marker{font-size:0;color:transparent;background:#fff7dc}.uses-feedback-mascots .teacher-feedback-item-marker img{display:block!important}.teacher-feedback-item-marker img,.feedback-number-badge img{break-inside:avoid;page-break-inside:avoid}
+  .uses-feedback-mascots .feedback-numbered-body{position:relative;border-left:1px solid #e9be71;border-radius:9px}.uses-feedback-mascots .feedback-numbered-body::before{content:"";position:absolute;left:-7px;top:9px;width:12px;height:12px;transform:rotate(45deg);border-left:1px solid #e9be71;border-bottom:1px solid #e9be71;background:#fff1d2}
   .print-learning-card{border:1px solid #d8e1f1;border-radius:13px;padding:14px 16px;background:#f5f8ff;break-inside:avoid;page-break-inside:avoid}.print-learning-card>strong{display:block;margin-bottom:7px;color:#304794;font:850 12px system-ui,sans-serif}
   .print-enhancement-card{overflow:hidden;border:1px solid #d9dceb;border-radius:15px;background:#fff;break-inside:avoid;page-break-inside:avoid}.print-card-title{display:block;padding:11px 15px;color:#fff;background:#304794;font:850 13px system-ui,sans-serif}.is-rhetorical .print-card-title{background:#7a3c78}.is-phrasal-verb .print-card-title{background:#276848}.is-writing-common-expression .print-card-title{background:#28617d}.is-rhetorical-common-expression .print-card-title{background:#98631d}.print-enhancement-band{margin:0;padding:12px 15px}.print-enhancement-band.is-original{background:#f7f7fa}.print-enhancement-band.is-original>span{color:#55536d}.print-enhancement-band.is-enhancement{border-top:1px solid #d7e7da;background:#f1fbf3}.print-enhancement-band.is-enhancement>span{color:#21703a}.print-enhancement-band.is-benefit{border-top:1px solid #eadbbc;background:#fff8e8}.print-enhancement-band.is-benefit>span{color:#9d5b16}
   .print-sentence-panel{overflow:hidden;border:1px solid #d9dceb;border-radius:15px;background:#f7f8ff;break-inside:avoid;page-break-inside:avoid}.print-sentence-panel>header{padding:13px 15px;display:flex;justify-content:space-between;gap:12px;color:#272757;background:#e9edff;font:12px system-ui,sans-serif}.print-sentence-panel>header strong{font-weight:850}.print-sentence-link-list{display:grid;gap:7px;padding:12px}.print-sentence-link-row{display:grid;grid-template-columns:28px 1fr;gap:9px;align-items:center;border:1px solid #e0e2ed;border-radius:10px;padding:8px 10px;background:#fff;break-inside:avoid;page-break-inside:avoid}.print-sentence-link-row>span{width:25px;height:25px;border-radius:50%;display:grid;place-items:center;color:#fff;background:#304794;font:800 11px system-ui,sans-serif}.print-sentence-link-row a{color:#145c91;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px;font:750 12px/1.45 system-ui,sans-serif}
@@ -6120,7 +6143,7 @@ const WRITING_FEEDBACK_MASCOTS = ["eddy", "phoebe", "elsie", "noir", "celeste"];
 function writingFeedbackItemMarker(index) {
   const number=index+1, mascot=WRITING_FEEDBACK_MASCOTS[index%WRITING_FEEDBACK_MASCOTS.length];
   const marker=createElement("span","teacher-feedback-item-marker",String(number));marker.dataset.feedbackItemNumber=String(number);
-  const image=document.createElement("img");image.src=`assets/writing-submission/mascot-heads/${mascot}.png`;image.alt="";image.loading="lazy";marker.prepend(image);return marker;
+  const image=document.createElement("img");image.src=`assets/writing-submission/mascot-heads/${mascot}.png?v=20260924-feedback-fixes1`;image.alt="";image.loading="lazy";marker.prepend(image);return marker;
 }
 function writingFeedbackHeading(label,index) { const heading=createElement("strong","teacher-feedback-numbered-heading");heading.append(document.createTextNode(`${label} `),writingFeedbackItemMarker(index));return heading; }
 
