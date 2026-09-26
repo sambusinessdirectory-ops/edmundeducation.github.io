@@ -1,13 +1,13 @@
-import {mountPreparationAnnotations} from './speaking-preparation-annotations.mjs?v=20260926-highlighter1';
+import {mountPreparationAnnotations} from './speaking-preparation-annotations.mjs?v=20260926-timer-persistence1';
 import {storeClip,uploadClip,playClip,recordTurn} from './speaking-professional-audio.mjs';
-import {createProfessionalSession,advanceProfessionalSession,skipPreparation,selectSpeaker,selectIndividualQuestion,candidateSummary,turnDuration,selectTurnPart,turnPartMs,toggleOverlap,overlapMs,endIndividualResponse,endProfessionalSession,startGroup,toggleTimerPause,adjustTime,setIndividualCandidate,adjustTurnDuration,MISTAKES} from './speaking-professional-core.mjs?v=20260926-highlighter1';
+import {createProfessionalSession,advanceProfessionalSession,skipPreparation,selectSpeaker,selectIndividualQuestion,candidateSummary,turnDuration,selectTurnPart,turnPartMs,toggleOverlap,overlapMs,endIndividualResponse,endProfessionalSession,startGroup,toggleTimerPause,adjustTime,setIndividualCandidate,adjustTurnDuration,MISTAKES} from './speaking-professional-core.mjs?v=20260926-timer-persistence1';
 import {hubSession,hubIdentity,hubRequest,escapeHtml as esc} from './learning-hub-client.mjs';
 import {makeLanguage,checklistLabel} from './speaking-professional-labels.mjs';
 import {seatedForPhase} from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
-import {floatPanel} from './speaking-floating-panel.mjs?v=20260926-highlighter1';
+import {floatPanel} from './speaking-floating-panel.mjs?v=20260926-timer-persistence1';
 import {localProfessionalRecords} from './speaking-professional-library.mjs';
 import {LocalEnglishTranscriber,loadEnglishModel,englishModelPackageReady} from './speaking-local-transcription.mjs';
-import {professionalWorkbook} from './speaking-professional-visual-export.mjs?v=20260926-highlighter1';
+import {professionalWorkbook} from './speaking-professional-visual-export.mjs?v=20260926-timer-persistence1';
 const app=document.querySelector('#professional-app'),status=document.querySelector('#professional-status'),indicator=window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR;
 const paperManifest=window.EDMUND_DSE_SPEAKING_PAPERS||{},topicMap=new Map(),baseSpeakingData=window.EDMUND_DSE_SPEAKING_DATA||{};
 [...(baseSpeakingData.sets||Object.values(baseSpeakingData.catalog||{}).flat()),...(window.EDMUND_DSE_SPEAKING_SUPPLEMENT?.sets||[])].forEach(topic=>{const key=`${Number(topic.year)}:${topic.set}`;topicMap.set(key,{...topic,paperPages:topic.paperPages||paperManifest[key]||null});});
@@ -47,7 +47,7 @@ function mountFloats(){
   if(panel&&button){floatPanel(panel,button,active=>{if(active)floatingReferences.add(action);else floatingReferences.delete(action);});if(floatingReferences.has(action))button.click();}
  }
  const panel=app.querySelector('[data-pro-checklist]');if(panel)floatPanel(panel,panel.querySelector('[data-action="float-checklist"]'));
- const timer=app.querySelector('[data-countdown]'),toggle=app.querySelector('[data-action="float-timer"]');if(timer&&toggle)floatPanel(timer,toggle);
+ const timer=app.querySelector('[data-countdown]'),toggle=app.querySelector('[data-action="float-timer"]');if(timer&&toggle){floatPanel(timer,toggle,active=>{session.timerFloating=active;save();});if(session.timerFloating)toggle.click();}
 }
 
 function selectedTurn(){return session.turns.find(t=>t.id===selectedTurnId)||session.turns.find(t=>t.id===session.activeTurn);}
