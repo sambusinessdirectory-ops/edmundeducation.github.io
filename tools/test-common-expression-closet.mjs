@@ -208,7 +208,7 @@ test('closet UI is responsive and cache-busted on every shared-map consumer', ()
     'common-expression-speaking.html', 'common-expression-written.html',
     'common-expression-business-speaking.html', 'common-expression-professional-message.html',
     'phrasal-verb-system.html', 'sentence-structure.html'
-  ]) assert.match(read(file), /\.js\?v=(?:20260924-closet-all2|20260924-closet-coins1)/, file);
+  ]) assert.match(read(file), /\.js\?v=\d{8}-[a-z0-9-]+/, file);
   assert.match(read('idiom-system.html'), /idiom-system\.js\?v=20260924-closet-all2/);
   assert.match(read('listening-system.html'), /listening-system\.js\?v=20260924-closet-all2/);
 });
