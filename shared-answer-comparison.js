@@ -2,7 +2,7 @@
   "use strict";
 
   const JOINING_PUNCTUATION_RE = /[\u0027\u2018\u2019\u201B\u2032\uFF07\p{Pd}]/gu;
-  const NUMERIC_PUNCTUATION_RE = /(?<=\p{N})[,，](?=\p{N})/gu;
+  const NUMERIC_PUNCTUATION_RE = /(\p{N})[,，](?=\p{N})/gu;
   const SEPARATING_PUNCTUATION_RE = /[\p{P}\p{S}]+/gu;
   const WORD_RE = /[\p{L}\p{N}]+/gu;
   const WORD_SEGMENT_RE = /[\p{L}\p{N}]+(?:(?:[\u0027\u2018\u2019\u201B\u2032\uFF07\p{Pd}][\p{L}\p{N}]+)|(?:[,，](?=\p{N})\p{N}+))*/gu;
@@ -29,7 +29,7 @@
   function normalizedSource(value) {
     return String(value ?? "")
       .normalize("NFKC")
-      .replace(NUMERIC_PUNCTUATION_RE, "")
+      .replace(NUMERIC_PUNCTUATION_RE, "$1")
       .replace(JOINING_PUNCTUATION_RE, "")
       .replace(SEPARATING_PUNCTUATION_RE, " ")
       .toLocaleLowerCase("en");

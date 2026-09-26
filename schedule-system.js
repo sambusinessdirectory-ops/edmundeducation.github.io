@@ -7317,6 +7317,17 @@ elements.weekGrid.addEventListener("click", (event) => {
     if (!href || linkModeBlocked) {
       event.preventDefault();
       if (linkModeBlocked) showToast("請先退出選取或移動模式，再開啟功課連結。", "error");
+    } else {
+      // Keep homework on this origin so its session storage is shared.
+      homeworkLink.setAttribute("href", href);
+      if (state.currentUser?.role === "student") {
+        const session = { token: state.currentUser.studentToken, id: state.currentUser.id,
+          name: state.currentUser.name, role: "student" };
+        window.EdmundSystemNav?.rememberStudentSession(session);
+        try {
+          sessionStorage.setItem("edmund-sentence-structure-session-v1", JSON.stringify(session));
+        } catch { /* Storage may be unavailable in private browsing. */ }
+      }
     }
     return;
   }

@@ -493,7 +493,9 @@ async function adminLogin(username, password) {
 }
 
 async function validateRestoredSession() {
-  const saved = readSession();
+  const localSession = readSession();
+  const sharedSession = window.EdmundSystemNav?.getStudentSession?.();
+  const saved = localSession?.role === "admin" ? localSession : (sharedSession || localSession);
   if (!saved?.token || !["student", "admin"].includes(saved.role)) return false;
   state.authToken = String(saved.token);
   state.user = {
@@ -511,7 +513,13 @@ async function validateRestoredSession() {
     return true;
   } catch (error) {
     console.warn("Sentence Structure session restore failed", error);
-    clearSession();
+    // Only an explicit authentication rejection invalidates a saved login.
+    // A temporary network outage must not sign a student out on reload.
+    if (error.status !== 401) {
+      state.user = null;
+      state.authToken = "";
+      setStatus(elements.loginStatus, "暫時未能恢復登入，請檢查網絡後重新整理。", "error");
+    }
     return false;
   }
 }
@@ -2576,7 +2584,6 @@ async function initialise() {
 
 initialise().catch((error) => {
   console.error("Sentence Structure initialisation failed", error);
-  clearSession();
   setConnection("服務暫時離線", "error");
   setStatus(elements.loginStatus, "系統未能完成載入，請重新整理頁面。", "error");
   showView("login");
