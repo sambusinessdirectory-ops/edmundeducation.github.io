@@ -10,7 +10,7 @@ export function createProfessionalSession(settings, topic, now=Date.now()) {
   if(settings.preparation){session.phase='preparation';session.deadline=now+600000;}else beginPractice(session,now);
   return session;
 }
-function beginPractice(s,now){if(s.settings.group){s.phase='group-wait';s.groupStartedAt=null;s.deadline=null;}else{s.phase='individual-wait';s.deadline=null;}}
+function beginPractice(s,now){s.pausedAt=null;if(s.settings.group){s.phase='group-wait';s.groupStartedAt=null;s.deadline=null;}else{s.phase='individual-wait';s.deadline=null;}}
 export function closeTurn(s,now=Date.now()) {
   if(!s.activeTurn)return;
   const turn=s.turns.find(t=>t.id===s.activeTurn);
@@ -19,8 +19,8 @@ export function closeTurn(s,now=Date.now()) {
 }
 function complete(s,now){stopOverlap(s,now);s.phase='results';s.deadline=null;s.completedAt=now;}
 export function advanceProfessionalSession(s,now=Date.now()) {
-  if(s.phase==='preparation'&&s.settings.preparationMode==='forced'&&now>=s.deadline)beginPractice(s,s.deadline);
   if(s.pausedAt!=null)return s;
+  if(s.phase==='preparation'&&s.settings.preparationMode==='forced'&&now>=s.deadline)beginPractice(s,s.deadline);
   if(s.phase==='group'&&now>=s.deadline){const end=s.deadline;closeTurn(s,end);stopOverlap(s,end);s.groupEndedAt=end;if(s.settings.individual){s.phase='individual-wait';s.deadline=null;}else complete(s,end);}
   if(s.phase==='individual'&&now>=s.deadline){const end=s.deadline;closeTurn(s,end);s.phase='individual-wait';s.deadline=null;}
   return s;
@@ -81,6 +81,6 @@ export function adjustTurnDuration(s,turnId,deltaMs){const turn=s.turns.find(t=>
 export function endIndividualResponse(s,now=Date.now()){advanceProfessionalSession(s,now);if(!s.phase.startsWith('individual'))return;closeTurn(s,now);s.phase='individual-wait';s.deadline=null;}
 export function setIndividualCandidate(s,index,now=Date.now()){if(!Number.isInteger(index)||index<0||index>=s.candidates.length)return false;if(s.activeTurn)closeTurn(s,now);s.individualIndex=index;s.phase='individual-wait';s.deadline=null;return true;}
 export function startGroup(s,now=Date.now()){if(s.phase!=='group-wait')return false;s.phase='group';s.groupStartedAt=now;s.deadline=now+s.settings.minutes*60000;return true;}
-export function toggleTimerPause(s,now=Date.now()){if(!['group','individual'].includes(s.phase))return false;if(s.pausedAt==null){s.pausedAt=now;return true;}const shift=Math.max(0,now-s.pausedAt);if(s.deadline!=null)s.deadline+=shift;s.pausePeriods??=[];s.pausePeriods.push({startedAt:s.pausedAt,endedAt:now});s.pausedAt=null;return true;}
+export function toggleTimerPause(s,now=Date.now()){if(!['preparation','group','individual'].includes(s.phase))return false;if(s.pausedAt==null){s.pausedAt=now;return true;}const shift=Math.max(0,now-s.pausedAt);if(s.deadline!=null)s.deadline+=shift;s.pausePeriods??=[];s.pausePeriods.push({startedAt:s.pausedAt,endedAt:now});s.pausedAt=null;return true;}
 export function adjustTime(s,seconds,now=Date.now()){if(!Number.isFinite(seconds)||!s.deadline)return false;const min=s.phase==='preparation'?0:now+1000;s.deadline=Math.max(min,s.deadline+seconds*1000);return true;}
 export function endProfessionalSession(s,now=Date.now()){advanceProfessionalSession(s,now);if(s.phase==='results')return;s.endedEarly=true;if(s.phase==='group')s.groupEndedAt=s.pausedAt??now;closeTurn(s,now);complete(s,now);}

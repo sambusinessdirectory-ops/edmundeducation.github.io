@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {webcrypto} from 'node:crypto';
 globalThis.crypto ??= webcrypto;
-import {createProfessionalSession,startGroup,selectSpeaker,selectTurnPart,toggleTimerPause,endProfessionalSession,candidateSummary,turnPartMs,adjustTurnDuration} from '../speaking-professional-core.mjs';
+import {createProfessionalSession,startGroup,selectSpeaker,selectTurnPart,toggleTimerPause,endProfessionalSession,candidateSummary,turnPartMs,adjustTurnDuration,advanceProfessionalSession,skipPreparation} from '../speaking-professional-core.mjs';
 const topic={title:'QA',groupDiscussion:['Discuss'],individualResponse:['Why?']};
 const make=()=>createProfessionalSession({minutes:8,group:true,individual:false,candidates:[{id:'A'},{id:'B'}]},topic,0);
 const s=make();startGroup(s,0);const a=selectSpeaker(s,'A',0);selectTurnPart(s,'response',0);
@@ -17,3 +17,8 @@ assert.equal(candidateSummary(paused,'A').seconds,10);assert.equal(candidateSumm
 const legacy=make();legacy.groupStartedAt=0;legacy.groupEndedAt=54200;legacy.phase='results';legacy.turns=[{candidateId:'A',phase:'group',startedAt:0,endedAt:54200,durationMs:99300},{candidateId:'B',phase:'group',startedAt:0,endedAt:3500,durationMs:3500}];
 assert.ok(candidateSummary(legacy,'A').percentage<=100);assert.ok(Math.abs(candidateSummary(legacy,'A').percentage+candidateSummary(legacy,'B').percentage-100)<1e-9);
 console.log('Discussion timing: pauses, early ending while paused, corrections and historical overcounts passed.');
+
+const prep=createProfessionalSession({minutes:8,preparation:true,preparationMode:"forced",group:true,candidates:[{id:"A"},{id:"B"}]},topic,0);
+assert.equal(toggleTimerPause(prep,10000),true);advanceProfessionalSession(prep,700000);assert.equal(prep.phase,"preparation");toggleTimerPause(prep,710000);assert.equal(prep.deadline,1300000);advanceProfessionalSession(prep,1299999);assert.equal(prep.phase,"preparation");advanceProfessionalSession(prep,1300000);assert.equal(prep.phase,"group-wait");
+const skip=createProfessionalSession({minutes:8,preparation:true,group:true,candidates:[{id:"A"},{id:"B"}]},topic,0);toggleTimerPause(skip,10000);skipPreparation(skip,20000);assert.equal(skip.pausedAt,null);assert.equal(skip.phase,"group-wait");
+console.log("Preparation pause, resume deadline, forced transition and start while paused passed.");

@@ -66,3 +66,5 @@
 .pro-notecard.pro-floating{left:18px;right:auto;bottom:18px;top:auto;width:min(480px,calc(100vw - 36px));height:50vh;display:flex;flex-direction:column}
 .pro-notecard.pro-floating textarea{flex:1;min-height:130px;width:100%;resize:vertical}
 .pro-notecard.pro-floating .pro-note-question-actions{flex-shrink:0}
+
+.pro-prep-controls{position:sticky;top:8px;z-index:30;padding:12px;background:#fffef9;border:2px solid #5c8078;border-radius:14px;box-shadow:0 4px 18px #203e3b22}.pro-prep-shortcut{position:fixed;right:18px;bottom:18px;z-index:1200}.pro-prep-shortcut button{font-size:17px;padding:14px 20px;box-shadow:0 4px 20px #0004}
