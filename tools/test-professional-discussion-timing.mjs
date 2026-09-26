@@ -1,4 +1,6 @@
 import assert from 'node:assert/strict';
+import {webcrypto} from 'node:crypto';
+globalThis.crypto ??= webcrypto;
 import {createProfessionalSession,startGroup,selectSpeaker,selectTurnPart,toggleTimerPause,endProfessionalSession,candidateSummary,turnPartMs,adjustTurnDuration} from '../speaking-professional-core.mjs';
 const topic={title:'QA',groupDiscussion:['Discuss'],individualResponse:['Why?']};
 const make=()=>createProfessionalSession({minutes:8,group:true,individual:false,candidates:[{id:'A'},{id:'B'}]},topic,0);

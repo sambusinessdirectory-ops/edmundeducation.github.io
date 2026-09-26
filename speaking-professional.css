@@ -61,3 +61,8 @@
 @media(max-width:760px){.pro-session-references{grid-template-columns:1fr}.pro-session-references>.pro-card:not(.pro-floating){max-height:280px}}
 
 .pro-session-references .pro-discussion-prompts header{flex-wrap:wrap}.pro-session-references .pro-discussion-prompts header h2{flex:1 1 100%}
+
+.pro-notecard header[data-float-handle]{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:start;gap:10px;background:#fffef9;touch-action:none}
+.pro-notecard.pro-floating{left:18px;right:auto;bottom:18px;top:auto;width:min(480px,calc(100vw - 36px));height:50vh;display:flex;flex-direction:column}
+.pro-notecard.pro-floating textarea{flex:1;min-height:130px;width:100%;resize:vertical}
+.pro-notecard.pro-floating .pro-note-question-actions{flex-shrink:0}

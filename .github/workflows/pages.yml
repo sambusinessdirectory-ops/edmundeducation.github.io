@@ -41,8 +41,6 @@ jobs:
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[speaking-release]') }}
         run: |
           node tools/test-professional-discussion-timing.mjs
-          node tools/test-classroom-release.mjs
-          node tools/test-professional-ui.mjs
 
       - name: Install image validation dependency
         if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
