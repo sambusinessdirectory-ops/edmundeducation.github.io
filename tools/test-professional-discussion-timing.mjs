@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {createProfessionalSession,startGroup,selectSpeaker,selectTurnPart,toggleTimerPause,endProfessionalSession,candidateSummary,turnPartMs,adjustTurnDuration} from '../speaking-professional-core.mjs';
+const topic={title:'QA',groupDiscussion:['Discuss'],individualResponse:['Why?']};
+const make=()=>createProfessionalSession({minutes:8,group:true,individual:false,candidates:[{id:'A'},{id:'B'}]},topic,0);
+const s=make();startGroup(s,0);const a=selectSpeaker(s,'A',0);selectTurnPart(s,'response',0);
+toggleTimerPause(s,10000);toggleTimerPause(s,60000);selectSpeaker(s,'B',70000);endProfessionalSession(s,80000);
+assert.equal(s.groupStartedAt,0);assert.equal(a.durationMs,20000);assert.equal(turnPartMs(s,a,'response'),20000);
+assert.equal(candidateSummary(s,'A').seconds,20);assert.equal(candidateSummary(s,'B').seconds,10);
+assert.ok(Math.abs(candidateSummary(s,'A').percentage-200/3)<1e-9);
+assert.ok(Math.abs(candidateSummary(s,'A').percentage+candidateSummary(s,'B').percentage-100)<1e-9);
+adjustTurnDuration(s,a.id,80000);assert.ok(candidateSummary(s,'A').percentage<=100);
+assert.ok(Math.abs(candidateSummary(s,'A').percentage+candidateSummary(s,'B').percentage-100)<1e-9);
+const paused=make();startGroup(paused,0);selectSpeaker(paused,'A',0);toggleTimerPause(paused,10000);endProfessionalSession(paused,90000);
+assert.equal(candidateSummary(paused,'A').seconds,10);assert.equal(candidateSummary(paused,'A').percentage,100);
+const legacy=make();legacy.groupStartedAt=0;legacy.groupEndedAt=54200;legacy.phase='results';legacy.turns=[{candidateId:'A',phase:'group',startedAt:0,endedAt:54200,durationMs:99300},{candidateId:'B',phase:'group',startedAt:0,endedAt:3500,durationMs:3500}];
+assert.ok(candidateSummary(legacy,'A').percentage<=100);assert.ok(Math.abs(candidateSummary(legacy,'A').percentage+candidateSummary(legacy,'B').percentage-100)<1e-9);
+console.log('Discussion timing: pauses, early ending while paused, corrections and historical overcounts passed.');

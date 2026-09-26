@@ -48,3 +48,16 @@
 .pro-card-scale{display:flex;align-items:center;gap:8px;font:700 13px system-ui}.pro-card-scale select{padding:7px 10px;border:1px solid #aebfae;border-radius:9px;background:white}.pro-card-image-scroll{overflow:auto;max-height:min(80vh,900px);padding:12px}.pro-digitized-passport-image{width:680px;max-width:none;height:auto;margin:0;object-fit:contain}
 @media(max-width:900px){.pro-control-groups{grid-template-columns:1fr}.pro-timebar .pro-countdown{min-width:170px;min-height:110px;font-size:53px}}
 @media print{.pro-control-groups{display:none}.pro-digitized-passport-image{width:100%!important;max-width:100%!important}.pro-card-image-scroll{overflow:visible;max-height:none}}
+
+.pro-session-references{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start;margin-bottom:18px}
+.pro-session-references>.pro-card:not(.pro-floating){max-height:330px;overflow:auto;margin-bottom:0}
+.pro-session-references header[data-float-handle]{display:flex;align-items:start;justify-content:space-between;gap:12px;background:#fffef9}
+.pro-session-references header h2{margin-bottom:8px}
+.pro-session-references header button{flex:none;padding:8px 10px;font-size:13px}
+.pro-session-references .pro-card-image-scroll{max-height:none}
+.pro-session-references .pro-floating{right:18px;bottom:18px}
+.pro-session-references .pro-discussion-prompts.pro-floating{left:18px;right:auto;top:90px;bottom:auto;width:min(460px,calc(100vw - 36px));height:45vh}
+.pro-session-references .pro-floating [data-float-handle]{touch-action:none}
+@media(max-width:760px){.pro-session-references{grid-template-columns:1fr}.pro-session-references>.pro-card:not(.pro-floating){max-height:280px}}
+
+.pro-session-references .pro-discussion-prompts header{flex-wrap:wrap}.pro-session-references .pro-discussion-prompts header h2{flex:1 1 100%}
