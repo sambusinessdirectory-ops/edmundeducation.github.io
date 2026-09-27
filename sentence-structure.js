@@ -369,30 +369,37 @@ async function apiJson(path, options = {}, includeAuth = true, authToken = state
   const headers = new Headers(options.headers || {});
   if (includeAuth && authToken) headers.set("Authorization", `Bearer ${authToken}`);
   if (options.body && !headers.has("Content-Type")) headers.set("Content-Type", "application/json");
-  let response;
+  const controller = new AbortController();
+  const timeout = window.setTimeout(() => controller.abort(), 15000);
   try {
-    response = await fetch(`${workerBaseUrl()}/${String(path || "").replace(/^\/+/, "")}`, {
-      ...options,
-      headers,
-      credentials: "omit"
-    });
-  } catch (error) {
-    const connectionError = new Error("暫時未能連接句子結構服務，請檢查網絡後再試。");
-    connectionError.cause = error;
-    throw connectionError;
-  }
-  if (!response.ok) {
-    const error = await parseApiError(response);
-    if (includeAuth && response.status === 401 && authToken === state.authToken) {
-      if (state.user?.role === "student") window.EdmundSystemNav?.forgetStudentSession();
-      clearSession();
-      setStatus(elements.loginStatus, "登入時段已結束，請重新登入。", "error");
-      showView("login");
+    let response;
+    try {
+      response = await fetch(`${workerBaseUrl()}/${String(path || "").replace(/^\/+/, "")}`, {
+        ...options,
+        headers,
+        credentials: "omit",
+        signal: controller.signal
+      });
+    } catch (error) {
+      const connectionError = new Error("暫時未能連接句子結構服務，請檢查網絡後再試。");
+      connectionError.cause = error;
+      throw connectionError;
     }
-    throw error;
+    if (!response.ok) {
+      const error = await parseApiError(response);
+      if (includeAuth && response.status === 401 && authToken === state.authToken) {
+        if (state.user?.role === "student") window.EdmundSystemNav?.forgetStudentSession();
+        clearSession();
+        setStatus(elements.loginStatus, "登入時段已結束，請重新登入。", "error");
+        showView("login");
+      }
+      throw error;
+    }
+    if (response.status === 204) return null;
+    return await response.json();
+  } finally {
+    window.clearTimeout(timeout);
   }
-  if (response.status === 204) return null;
-  return response.json();
 }
 
 function saveSession() {
@@ -573,6 +580,8 @@ async function handleLogin(event) {
 }
 
 async function logout() {
+  if (state.currentView === "lesson" && state.lessonPage === 4) readExerciseDrafts();
+  saveExerciseDraft();
   const role = state.user?.role;
   if (role === "student") window.EdmundSystemNav?.forgetStudentSession();
   try {
@@ -1345,7 +1354,8 @@ async function openLesson(lessonId, { page = 1, attempt = null, questionId = "" 
   pauseExerciseClock();
   state.lessonId = lesson.id;
   state.lessonPage = Math.max(1, Math.min(LESSON_PAGES, Number(page) || 1));
-  state.exercise = attempt ? exerciseFromAttempt(attempt) : null;
+  saveExerciseDraft();
+  state.exercise = attempt ? (restoreExerciseDraft(lesson, attempt) || exerciseFromAttempt(attempt)) : null;
   elements.lessonKicker.textContent = lessonEnglishTitle(lesson).toUpperCase();
   elements.lessonTitle.textContent = lessonTitle(lesson);
   showView("lesson");
@@ -1559,13 +1569,51 @@ function exerciseFromAttempt(attempt) {
   };
 }
 
+function draftStorageKey(lessonId) {
+  return state.user?.role === "student" && state.user.id
+    ? `edmund-sentence-draft-v1:${state.user.id}:${lessonId}` : "";
+}
+
+function saveExerciseDraft() {
+  if (!state.exercise) return;
+  const key = draftStorageKey(state.exercise.lessonId);
+  if (!key) return;
+  try {
+    localStorage.setItem(key, JSON.stringify({ savedAt: Date.now(), exercise: state.exercise }));
+  } catch { /* Keep working when device storage is unavailable. */ }
+}
+
+function restoreExerciseDraft(lesson, attempt) {
+  try {
+    const cached = JSON.parse(localStorage.getItem(draftStorageKey(lesson.id)) || "null");
+    const exercise = cached?.exercise;
+    if (!exercise || exercise.completedAt || exercise.lessonId !== lesson.id || !UUID_RE.test(exercise.id)
+      || exercise.lessonVersion !== String(lesson.version || CONTENT.version || "1")
+      || !isPlainObject(exercise.drafts) || !isPlainObject(exercise.questionState)
+      || !Array.isArray(exercise.correctIds) || !Array.isArray(exercise.rounds)) return null;
+    // Do not replace progress that was saved more recently on another device.
+    if (attempt && (attempt.id !== exercise.id || Date.parse(attempt.updatedAt) > cached.savedAt)) {
+      if (attempt.id === exercise.id) {
+        const restored = exerciseFromAttempt(attempt);
+        restored.drafts = exercise.drafts;
+        return restored;
+      }
+      return null;
+    }
+    return exercise;
+  } catch { return null; }
+}
+
 function ensureExercise(lesson) {
   if (state.exercise?.lessonId === lesson.id) return state.exercise;
   const resumable = state.attempts.find((attempt) => attempt.lessonId === lesson.id && attempt.status !== "completed");
-  state.exercise = resumable ? exerciseFromAttempt(resumable) : createExercise(lesson);
+  state.exercise = restoreExerciseDraft(lesson, resumable)
+    || (resumable ? exerciseFromAttempt(resumable) : createExercise(lesson));
+  saveExerciseDraft();
   if (!resumable) persistExercise().catch((error) => console.warn("Initial attempt save failed", error));
   return state.exercise;
 }
+
 
 function questionState(questionId) {
   return state.exercise.questionState[questionId] || { status: "pending", lastAnswer: "", reveal: false };
@@ -1838,6 +1886,7 @@ function renderLessonPage() {
 }
 
 function readExerciseDrafts() {
+  if (!state.exercise) return;
   const inputs = [...document.querySelectorAll("[data-answer-input]")];
   const groupedParts = new Map();
   inputs.forEach((input) => {
@@ -1854,6 +1903,7 @@ function readExerciseDrafts() {
     const question = getQuestion(state.lessonId, questionId);
     state.exercise.drafts[questionId] = combinedAnswerPartValue(question, values);
   });
+  saveExerciseDraft();
 }
 
 function syncExerciseButtons() {
@@ -1909,6 +1959,7 @@ function serializeExerciseResult() {
 
 function persistExercise() {
   if (!state.exercise || state.user?.role !== "student") return;
+  saveExerciseDraft();
   window.clearTimeout(state.exercisePersistTimer);
   state.exercisePersistTimer = null;
   const attemptId = state.exercise.id;
@@ -1973,7 +2024,11 @@ function scheduleExercisePersistence() {
 }
 
 async function submitExercise(kind) {
-  if (state.saveInFlight || !state.exercise || state.exercise.awaitingNextRound) return;
+  if (state.saveInFlight) {
+    showToast("正在儲存上一批答案，請稍候；如連線失敗，會保留答案供重試。");
+    return;
+  }
+  if (!state.exercise || state.exercise.awaitingNextRound) return;
   readExerciseDrafts();
   const lesson = getLesson();
   const available = submissionQuestions(lesson);
@@ -2032,9 +2087,10 @@ async function submitExercise(kind) {
     if (stillWrongInCorrection) state.exercise.round += 1;
   }
 
+  saveExerciseDraft();
   state.saveInFlight = true;
-  renderExercisePage(lesson, { preserveScroll: true });
   try {
+    renderExercisePage(lesson, { preserveScroll: true });
     await Promise.all([
       persistExercise(),
       ...(bookmarkChanged ? [saveBookmarks()] : [])
@@ -2042,7 +2098,7 @@ async function submitExercise(kind) {
     showToast(remaining ? `已檢查 ${targets.length} 題。` : "全部題目完成，記錄已儲存！");
   } catch (error) {
     console.warn("Sentence Structure attempt save failed", error);
-    showToast("答案已檢查，但未能同步練習記錄；請稍後再試。", "error");
+    showToast("未能同步練習記錄；答案已保留在此裝置，請稍後再試。", "error");
   } finally {
     state.saveInFlight = false;
   }
@@ -2508,7 +2564,13 @@ function bindEvents() {
     elements.passwordToggle.setAttribute("aria-pressed", String(!showing));
   });
   elements.logout.addEventListener("click", logout);
-  document.addEventListener("click", handleClick);
+  document.addEventListener("click", (event) => {
+    Promise.resolve().then(() => handleClick(event)).catch((error) => {
+      console.error("Sentence Structure action failed", error);
+      saveExerciseDraft();
+      showToast("操作未能完成；答案已保留，請重新整理後再試。", "error");
+    });
+  });
   document.addEventListener("input", (event) => {
     if (event.target.matches("[data-answer-input]")) syncExerciseButtons();
     if (event.target.matches("[data-lesson-search-input]")) {
@@ -2553,7 +2615,11 @@ function bindEvents() {
     exerciseClockWasRunningBeforeIdleBreak = false;
     pauseExerciseClock();
   });
-  window.addEventListener("pagehide", pauseExerciseClock);
+  window.addEventListener("pagehide", () => {
+    if (state.currentView === "lesson" && state.lessonPage === 4) readExerciseDrafts();
+    pauseExerciseClock();
+    saveExerciseDraft();
+  });
 }
 
 async function checkHealth() {
