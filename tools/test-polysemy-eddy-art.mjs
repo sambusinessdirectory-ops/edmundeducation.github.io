@@ -26,3 +26,10 @@ console.log('PASS: six streak thresholds, matching blink frames, recording artwo
 
 assert.match(recorder,/eddy-recording-audio-exact-v6\.png/);
 assert.deepEqual([...fs.readFileSync('assets/polysemy-lab/eddy-recording-audio-exact-v6.png').subarray(0,8)],[137,80,78,71,13,10,26,10]);
+
+assert.match(recorder,/eddy-recording-microphone-exact-v7\.png/);
+assert.match(css,/recorder-star-twinkle/);
+assert.match(recorder,/mascot.src='\/assets\/polysemy-lab\/eddy-recording-audio-exact-v6\.png'/);
+
+assert.match(css,/animation:eddy-frame-blink/);
+assert.match(css,/::after\{display:none;animation:none\}/);

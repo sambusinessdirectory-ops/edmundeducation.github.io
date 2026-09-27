@@ -109,3 +109,21 @@
 .recording-item{padding:24px!important;margin:0;border-radius:22px;background:#fff;border:1px solid #d0dfda;box-shadow:0 8px 22px #173e4808}
 .recording-card-icon{margin-bottom:16px;width:40px;height:40px;border-radius:12px;font-size:1.15rem}.recording-item h3{font-size:1.05rem;line-height:1.5;margin:0 0 12px}.recording-item p{font-size:.75rem;color:#72817a;line-height:1.6}.recording-item button{border-radius:12px;background:#eff6f2;color:#246350;border:1px solid #bdd5cb;box-shadow:none;font-size:.85rem;padding:12px 16px}.recording-item audio{width:100%}.recording-item a{font-size:.8rem;font-weight:700;color:#236854}
 @media(max-width:650px){[data-recording-list]{grid-template-columns:1fr}.recording-upload{padding:20px!important}.recording-save{width:100%}}
+
+/* A light stardust layer appears only after a valid recording. */
+.recorder-stardust{position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:0;transition:opacity 1.2s ease;overflow:hidden}
+.recorder.has-recording .recorder-stardust{opacity:1}
+.recorder-stardust::before{content:"";position:absolute;inset:-25px;background:radial-gradient(circle,#fff9 .7px,transparent 1.5px) 0 0/137px 97px,radial-gradient(circle,#b9ddff88 .6px,transparent 1.4px) 43px 21px/89px 149px;opacity:.45}
+.recorder-stardust i{position:absolute;left:var(--star-x);top:var(--star-y);width:2px;height:2px;border-radius:50%;background:#fff;box-shadow:0 0 5px 1px #d2c6ff9c;opacity:.2}
+.recorder.has-recording .recorder-stardust i{animation:recorder-star-twinkle 4.8s ease-in-out var(--star-delay) infinite}
+.recorder-stardust i:nth-child(5n){width:3px;height:3px;box-shadow:0 0 7px 2px #ccbcff99}
+.recorder-stardust i:nth-child(5n)::after{content:"";position:absolute;left:-3px;top:1px;width:9px;height:1px;background:linear-gradient(90deg,transparent,#fff,transparent)}
+.recorder-stardust i:nth-child(5n)::before{content:"";position:absolute;left:1px;top:-3px;width:1px;height:9px;background:linear-gradient(transparent,#fff,transparent)}
+@keyframes recorder-star-twinkle{0%,100%{opacity:.15;transform:translateY(0) scale(.8)}50%{opacity:.8;transform:translateY(-5px) scale(1.15)}}
+@media(prefers-reduced-motion:reduce){.recorder-stardust{transition:none}.recorder.has-recording .recorder-stardust i{animation:none;opacity:.45}}
+
+/* Switch complete frames; never layer the closed eyes over the open face. */
+.eddy-streak-sprite::after,.polysemy-streak[data-streak-stage] .eddy-streak-sprite::after{display:none;animation:none}
+.eddy-streak-sprite,.polysemy-streak[data-streak-stage] .eddy-streak-sprite{animation:eddy-frame-blink 5.8s steps(1,end) infinite}
+@keyframes eddy-frame-blink{0%,88%,91%,100%{background-position:var(--eddy-stage-x) 0%}89%,90%,96%{background-position:var(--eddy-stage-x) 100%}}
+@media(prefers-reduced-motion:reduce){.eddy-streak-sprite,.polysemy-streak[data-streak-stage] .eddy-streak-sprite{animation:none;background-position:var(--eddy-stage-x) 0%}}
