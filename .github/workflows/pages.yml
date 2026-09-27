@@ -50,6 +50,8 @@ jobs:
           node --check writing-dse-paper.mjs
           node --check writing-submission-sharing.mjs
           node --check writing-submission-qr.mjs
+          node --check country-name-spelling.js
+          node --test workers/writing-submission/test/*.test.mjs
           node --test --test-name-pattern='article notifications use strict owner-scoped deep links|article and feedback navigation invalidates stale requests|admin feedback queue and fullscreen|structured feedback supports' tools/test-writing-submission-portal.mjs
 
       - name: Install image validation dependency

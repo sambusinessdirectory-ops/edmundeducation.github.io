@@ -6,7 +6,7 @@ export function mountWritingPaperSkin(stack,input){
  controls.append(label);stack.parentElement.before(controls);
  const head=document.createElement('section');head.className='dse-paper-head';head.hidden=true;
  head.innerHTML='<strong>FOR PART B ONLY</strong><p>Put an ‘X’ inside the question number box to indicate the question (Q.2–Q.9) that you have chosen.</p><fieldset><legend>試題編號 Question No.</legend><div class="dse-question-boxes"></div></fieldset>';
- for(let n=2;n<=9;n++){const item=document.createElement('label'),box=document.createElement('input');box.type='radio';box.name='dse-paper-question';box.value=n;box.dataset.dseQuestion='';item.append(document.createTextNode(String(n)),box);head.querySelector('.dse-question-boxes').append(item);}
+ for(let n=2;n<=9;n++){const item=document.createElement('label'),box=document.createElement('input');box.type='checkbox';box.addEventListener('change',()=>{if(box.checked)head.querySelectorAll('[data-dse-question]').forEach(other=>{if(other!==box)other.checked=false;});});box.name='dse-paper-question';box.value=n;box.dataset.dseQuestion='';item.append(document.createTextNode(String(n)),box);head.querySelector('.dse-question-boxes').append(item);}
  stack.before(head);
  const guides=document.createElement('div');guides.className='dse-paper-guides';guides.setAttribute('aria-hidden','true');stack.prepend(guides);
  const footer=document.createElement('small');footer.className='dse-paper-footer';footer.textContent='Answers written in the margins will not be marked.';footer.hidden=true;stack.after(footer);

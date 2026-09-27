@@ -1,0 +1,45 @@
+{
+  "id": "/apps/excellent-learning",
+  "name": "國家名稱拼寫｜EdmundEducation",
+  "short_name": "英文口音",
+  "description": "國家名稱拼寫（Country Name Spelling）EdmundEducation 學習系統。",
+  "lang": "zh-Hant-HK",
+  "dir": "ltr",
+  "start_url": "/country-name-spelling.html?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f2e9",
+  "theme_color": "#10362f",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/edmundeducation-logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/icon-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/icons/icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

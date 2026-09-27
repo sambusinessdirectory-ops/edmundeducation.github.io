@@ -337,6 +337,15 @@ async function route(request, env) {
   if (adminSubmissionMatch && request.method === "GET") {
     return getAdminSubmission(request, env, adminSubmissionMatch[1]);
   }
+  if (adminSubmissionMatch && ["PUT","DELETE"].includes(request.method)) {
+    const admin=await authenticateAdmin(request,env);
+    if(!admin) throw new HttpError(401,"ADMIN_AUTH_REQUIRED","Administrator authentication required");
+    await enforceRateLimit(env.SUBMISSION_WRITE_RATE_LIMITER,`admin-submission-manage:${admin.id}`,"Submission management unavailable","TOO_MANY_SUBMISSION_WRITES","Please wait before updating another submission");
+    let topic=null;
+    if(request.method==="PUT") {const body=await readLimitedJson(request,20000);if(!hasExactKeys(body,["topic"])||typeof body.topic!=="string"||!body.topic.trim()||body.topic.length>MAX_TOPIC_CHARACTERS||new TextEncoder().encode(body.topic).byteLength>MAX_TOPIC_BYTES)throw new HttpError(400,"INVALID_TOPIC","Enter a valid title");topic=body.topic;}
+    const changed=await rpc(env,"writing_submission_admin_manage",{p_admin_token:admin.token,p_submission_id:adminSubmissionMatch[1],p_action:request.method==="DELETE"?"hide":"rename",p_topic:topic});
+    return json({submission:changed},200,request,env);
+  }
   const adminSubmissionFeedbackMatch = url.pathname.match(
     /^\/v1\/admin\/submissions\/([0-9a-f-]{36})\/feedback$/i
   );
@@ -1398,6 +1407,7 @@ function submissionResponse(row) {
   if (Object.prototype.hasOwnProperty.call(row, "has_published_feedback")) {
     response.hasPublishedFeedback = row.has_published_feedback === true;
   }
+  if (Object.prototype.hasOwnProperty.call(row, "feedback_status")) response.feedbackStatus = String(row.feedback_status || "");
   if (Object.prototype.hasOwnProperty.call(row, "feedback_unread")) {
     response.feedbackUnread = row.feedback_unread === true;
   }
@@ -3006,7 +3016,7 @@ async function listAdminSubmissions(request, env, url) {
   if (studentId !== null && !UUID_RE.test(studentId)) {
     throw new HttpError(400, "INVALID_STUDENT", "studentId is invalid");
   }
-  const rows = await rpc(env, "writing_submission_admin_list_submissions_v3", {
+  const rows = await rpc(env, "writing_submission_admin_list_submissions_v4", {
     p_admin_token: admin.token,
     p_student_id: studentId,
     p_limit: pageSize + 1,

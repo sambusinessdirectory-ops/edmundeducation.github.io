@@ -3595,7 +3595,7 @@ test("administrator list and detail routes use only the dedicated admin token", 
         last_submission_at: "2026-07-31T00:00:00.000Z"
       }]);
     }
-    if (rpc.name === "writing_submission_admin_list_submissions_v3") {
+    if (rpc.name === "writing_submission_admin_list_submissions_v4") {
       assert.equal(rpc.body.p_student_id, STUDENT_ID);
       return jsonResponse([{
         id: SUBMISSION_ID,
@@ -6329,4 +6329,14 @@ test('publishing comments requests delivery only for an opted-in queued notifica
  let response=await worker.fetch(request('published'),env);assert.equal(response.status,200);assert.equal((await response.json()).notification.status,'queued');assert.equal(deliveries,1);
  notificationStatus='not_subscribed';response=await worker.fetch(request('published'),env);assert.equal(response.status,200);assert.equal(deliveries,1);
  response=await worker.fetch(request('draft'),env);assert.equal(response.status,200);assert.equal((await response.json()).notification,null);assert.equal(deliveries,1);
+});
+
+test("admin hide and title editing authenticate, validate and use the audited mutation RPC",async t=>{
+ const originalFetch=globalThis.fetch;t.after(()=>{globalThis.fetch=originalFetch;});const calls=[];
+ globalThis.fetch=async(input,init={})=>{const r=rpcRequest(input,init);if(r.name==='writing_submission_admin_me')return jsonResponse(r.body.p_admin_token===ADMIN_TOKEN?adminProfile():[]);if(r.name==='writing_submission_admin_manage'){calls.push(r.body);return jsonResponse({id:SUBMISSION_ID,topic:r.body.p_topic||'Prompt',deletedAt:r.body.p_action==='hide'?'2026-09-27T00:00:00Z':null});}throw Error('Unexpected RPC '+r.name);};
+ const req=(method,token,body)=>new Request(`https://worker.test/v1/admin/submissions/${SUBMISSION_ID}`,{method,headers:{Origin:ORIGIN,Authorization:`Bearer ${token}`,'Content-Type':'application/json'},...(body?{body:JSON.stringify(body)}:{})});
+ assert.equal((await worker.fetch(req('DELETE',STUDENT_TOKEN),environment())).status,401);assert.equal(calls.length,0);
+ assert.equal((await worker.fetch(req('PUT',ADMIN_TOKEN,{topic:'',answer:'changed'}),environment())).status,400);assert.equal(calls.length,0);
+ const renamed=await worker.fetch(req('PUT',ADMIN_TOKEN,{topic:'New title'}),environment());assert.equal(renamed.status,200);assert.equal((await renamed.json()).submission.topic,'New title');assert.equal(calls[0].p_admin_token,ADMIN_TOKEN);assert.equal(calls[0].p_action,'rename');
+ const hidden=await worker.fetch(req('DELETE',ADMIN_TOKEN),environment());assert.equal(hidden.status,200);assert.ok((await hidden.json()).submission.deletedAt);assert.equal(calls[1].p_action,'hide');
 });

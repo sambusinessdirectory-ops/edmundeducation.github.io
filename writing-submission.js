@@ -1,6 +1,6 @@
-import {mountFeedbackReading} from './writing-feedback-reading.mjs?v=20260927-writing1';
-import {submissionSharingControls} from './writing-submission-sharing.mjs?v=20260927-writing1';
-import {mountWritingPaperSkin} from './writing-dse-paper.mjs?v=20260927-writing1';
+import {mountFeedbackReading} from './writing-feedback-reading.mjs?v=20260927-writing2';
+import {submissionSharingControls} from './writing-submission-sharing.mjs?v=20260927-writing2';
+import {mountWritingPaperSkin} from './writing-dse-paper.mjs?v=20260927-writing2';
 import { createWritingEmailPreferences, feedbackPublicationMessage } from "./writing-email-preferences.mjs?v=20260911-collapse1";
 import { PAPER3_WRITING_TOPICS, paper3Topic, paper3TopicRoute } from './paper3-writing-topics.mjs?v=20260906-classroom2';
 import {
@@ -5008,6 +5008,7 @@ function normalizeSubmission(value) {
     occurrenceCount: Number(value?.occurrenceCount ?? value?.occurrence_count ?? 0),
     deletedAt: value?.deletedAt || value?.deleted_at ? String(value.deletedAt || value.deleted_at) : "",
     topicResource: normalizeWritingTopicResource(value?.topicResource || value?.topic_resource),
+    feedbackStatus: String(value?.feedbackStatus || value?.feedback_status || ""),
     hasPublishedFeedback: value?.hasPublishedFeedback === true || value?.has_published_feedback === true,
     feedbackUnread: value?.feedbackUnread === true || value?.feedback_unread === true
   };
@@ -5868,6 +5869,8 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
     exportButton.type = "button";
     exportButton.dataset.exportAdminSubmission = submission.id;
     actions.append(exportButton);
+    const rename=createElement("button","small-button","Edit title / topic · 修改題目");rename.type="button";rename.onclick=async()=>{const topic=prompt("修改文章題目／標題：",submission.topic);if(topic===null||!topic.trim()||topic.trim()===submission.topic)return;rename.disabled=true;try{await manageAdminArticle(submission.id,"PUT",{topic:topic.trim()});}catch(error){handleViewError(error);rename.disabled=false;}};actions.append(rename);
+    if(!submission.deletedAt){const hide=createElement("button","delete-submission-button","Delete from student account · 從學生帳戶刪除");hide.type="button";hide.onclick=async()=>{if(!confirm("這篇文章將從學生帳戶隱藏，但文章及評語會保留在管理員帳戶供查看。繼續？"))return;hide.disabled=true;try{await manageAdminArticle(submission.id,"DELETE");}catch(error){handleViewError(error);hide.disabled=false;}};actions.append(hide);}
     if (!submission.deletedAt) {
       const copyButton = createElement("button", "copy-submission-notice-button", "複製已改好通知");
       copyButton.type = "button";
@@ -6456,7 +6459,7 @@ function renderStudentFeedback(feedback, container) {
     const pair = createElement("article", "teacher-feedback-read-pair");
     const original = createElement("section", "teacher-feedback-original");
     const originalHead = createElement("div", "teacher-feedback-original-head");
-    originalHead.append(createElement("span", "", "原句 "), writingFeedbackItemMarker(index));
+    originalHead.append(createElement("span", "", `原句 ${index+1}`));
     if (fragment.id) {
       const bookmark = createElement(
         "button",
@@ -7676,6 +7679,7 @@ function persistAdminFeedbackRecovery({ force = false } = {}) {
   if (!dirty) {
     clearAdminFeedbackRecovery(submissionId);
     syncAdminFeedbackRecoveryStatus(editor);
+    renderAdminSubmissions();
     return false;
   }
   const key = adminFeedbackRecoveryStorageKey(submissionId);
@@ -7694,6 +7698,7 @@ function persistAdminFeedbackRecovery({ force = false } = {}) {
     return false;
   }
   syncAdminFeedbackRecoveryStatus(editor);
+  renderAdminSubmissions();
   return true;
 }
 
@@ -8235,6 +8240,7 @@ async function saveAdminFeedback(status) {
     if (submissionIndex >= 0) {
       state.adminSubmissions[submissionIndex] = {
         ...state.adminSubmissions[submissionIndex],
+        feedbackStatus: savedFeedback.status,
         hasPublishedFeedback: savedFeedback.status === "published"
       };
       renderAdminSubmissions();
@@ -8286,6 +8292,7 @@ async function deleteAdminFeedback() {
     if (submissionIndex >= 0) {
       state.adminSubmissions[submissionIndex] = {
         ...state.adminSubmissions[submissionIndex],
+        feedbackStatus: "",
         hasPublishedFeedback: false
       };
       renderAdminSubmissions();
@@ -8902,7 +8909,7 @@ function renderAdminSubmissions() {
   for (const submission of submissions) {
     const button = createElement(
       "button",
-      `submission-row${submission.hasPublishedFeedback ? " has-feedback" : ""}`
+      `submission-row${readAdminFeedbackRecovery(submission.id)||submission.feedbackStatus === "draft" ? " has-feedback-draft" : submission.hasPublishedFeedback ? " has-feedback" : ""}`
     );
     button.type = "button";
     button.dataset.adminSubmissionId = submission.id;
@@ -10549,3 +10556,5 @@ async function refreshArticleDelivery(){if(articleDeliveryBusy||document.hidden|
 setInterval(refreshArticleDelivery,30000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshArticleDelivery();});
 
 mountWritingPaperSkin(document.querySelector("[data-writing-editor-stack]"),document.querySelector("[data-writing-input]"));
+
+async function manageAdminArticle(id,method,body){if(state.user?.role!=="admin")return;persistAdminFeedbackRecovery({force:true});const token=state.authToken;const response=await apiJson(`/v1/admin/submissions/${encodeURIComponent(id)}`,{method,...(body?{body:JSON.stringify(body)}:{})});if(token!==state.authToken||state.user?.role!=="admin")return;state.adminSubmissions=state.adminSubmissions.map(item=>item.id===id?{...item,...response.submission}:item);renderAdminSubmissions();await openAdminSubmission(id);showToast(method==="DELETE"?"已從學生帳戶隱藏；管理員仍可查看。":"文章題目已更新。","success");}

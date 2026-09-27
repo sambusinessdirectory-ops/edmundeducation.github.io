@@ -22,7 +22,7 @@ export function mountFeedbackReading(panel){
  const schedule=()=>{if(!frame)frame=requestAnimationFrame(update);};
  toggle.onchange=()=>{enabled=toggle.checked;try{localStorage.setItem(preference,enabled?'on':'off');}catch{}apply();};
  window.addEventListener('scroll',schedule,{passive:true});window.addEventListener('resize',schedule);
- const size=window.ResizeObserver?new ResizeObserver(schedule):null;size?.observe(panel);
+ const header=document.querySelector('.edmund-system-header');const headerSize=window.ResizeObserver?new ResizeObserver(()=>{progress.style.top=Math.max(0,header?.getBoundingClientRect().bottom||0)+'px';schedule();}):null;if(header)headerSize?.observe(header);progress.style.top=Math.max(0,header?.getBoundingClientRect().bottom||0)+'px';const size=window.ResizeObserver?new ResizeObserver(schedule):null;size?.observe(panel);
  apply();update();
- disposePrevious=()=>{observer?.disconnect();size?.disconnect();window.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);cancelAnimationFrame(frame);progress.remove();};
+ disposePrevious=()=>{observer?.disconnect();size?.disconnect();headerSize?.disconnect();window.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);cancelAnimationFrame(frame);progress.remove();};
 }

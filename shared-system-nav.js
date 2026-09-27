@@ -69,6 +69,7 @@
     { id: "execution", href: "execution-system.html", zh: "執行動力系統", en: "Execution Psychology" },
     { id: "reading-comprehension", href: "reading-comprehension.html", zh: "閱讀理解學習系統", en: "Reading Comprehension" },
     { id: "eddie-farm", href: "eddie-farm.html", zh: "Edmund Coin System 金幣系統", en: "Edmund Coin System" },
+    { id: "country-name-spelling", href: "country-name-spelling.html", zh: "國家名稱拼寫", en: "Country Name Spelling", homepageCard: 68 },
     { id: "excellent-learning", href: "excellent-learning-system.html", zh: "英文口音學習系統", en: "English Accent Learning System" },
     { id: "polysemy-lab", href: "polysemy-lab.html", zh: "一詞多義學習室", en: "Polysemy Lab" },
     { id: "natural-english", href: "natural-english.html", zh: "自然英文學習系統", en: "Native speakers 怎麼說?" }

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co wss://ookkxzgpdclzrrhfmvqx.supabase.co; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="description" content="EdmundEducation Country Name Spelling 國家名稱拼寫">
+  <meta name="theme-color" content="#10362f">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Edmund 國家拼寫">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>Country Name Spelling · 國家名稱拼寫</title>
+  <link rel="manifest" href="/pwa-manifests/country-name-spelling.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
+  <link rel="stylesheet" href="country-name-spelling.css?v=20260927-country1">
+  <script defer src="/pwa-register.js"></script>
+</head>
+<body>
+  <header class="edmund-system-header">
+    <div class="edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="country-name-spelling">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Country Name Spelling</small></span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="excellent-header-actions" data-account-actions hidden><span data-account-name></span><button type="button" data-logout>登出 · Log out</button></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="excellent-login" data-view="login">
+      <div class="excellent-intro"><p>68 · NEW LEARNING SPACE</p><h1>國家名稱拼寫<small>Country Name Spelling</small></h1><span>使用您的 EdmundEducation 學生帳戶進入。</span></div>
+      <form data-login-form novalidate>
+        <h2>學生登入<small>Student sign in</small></h2>
+        <label>用戶名稱 · Username<input name="username" autocomplete="username" required></label>
+        <label>密碼 · Password<input name="password" type="password" autocomplete="current-password" required></label>
+        <button type="submit">登入 · Sign in →</button>
+        <p data-login-status role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="excellent-empty spelling-portal" data-view="content" hidden>
+      <p>68 · COUNTRY NAME SPELLING</p><h1>Country Name Spelling<small>國家名稱拼寫</small></h1>
+      <div class="spelling-options" data-spelling-options><button type="button" data-spelling-section="country"><span aria-hidden="true">🌍</span><strong>Country name spelling</strong><small>國家名稱拼寫</small></button><button type="button" data-spelling-section="district"><span aria-hidden="true">🏙</span><strong>Hong Kong district spelling</strong><small>香港地區名稱拼寫</small></button></div>
+      <section class="spelling-empty-section" data-spelling-empty hidden><button type="button" data-spelling-back>← Back · 返回</button><h2 data-spelling-title></h2><p>Content will be added in the future.<br>學習內容將於日後加入。</p></section>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.50.3/dist/umd/supabase.min.js" integrity="sha384-hIOJ3C3LfQJBpaQVNahkcvi607jdU2k3LB0MLyIuyXNDsS5aI2xfaQiX+oSmHvTD" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script src="shared-system-nav.js?v=20260924-wallet1"></script>
+  <script src="country-name-spelling.js?v=20260927-country1"></script>
+</body>
+</html>
