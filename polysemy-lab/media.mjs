@@ -1,17 +1,51 @@
-import {mountRecorder,storeRecording,listRecordings} from './recording.mjs?v=20260927-recorder-stars7';
+import {mountRecorder,storeRecording,listRecordings} from './recording.mjs?v=20260927-recording-memory8';
 import {allQuestionMap,esc} from './core.mjs?v=20260924-polysemy-audio4';
 let manifestPromise;
 const manifest=()=>manifestPromise||=(Promise.all(['audio.json','audio-new.json'].map(file=>fetch(new URL('./'+file+'?v=20260924-polysemy-audio4',import.meta.url)).then(r=>{if(!r.ok)throw Error();return r.json();}))).then(rows=>Object.assign({},...rows)).catch(e=>{manifestPromise=null;throw e;}));
 export function createMedia({getUser,getModule,rpc}){
  let voice=null,dispose=()=>{},epoch=0,urls=[];
+ const questionRecordings=new Map(),recordingLists=new Map();
+ const questionKey=(owner,module,question)=>owner+':'+module+':'+question;
+ function rememberRecording(item){
+  const key=questionKey(item.owner,item.module||'show',item.question);
+  const previous=questionRecordings.get(key);
+  if(!previous||String(item.at||'')>=String(previous.at||''))questionRecordings.set(key,item);
+  try{localStorage.setItem('edmund-polysemy-recorded:'+key,'1');}catch{}
+ }
+ async function findRecording(owner,module,question){
+  const key=questionKey(owner,module,question);
+  if(questionRecordings.has(key))return questionRecordings.get(key);
+  if(!recordingLists.has(owner))recordingLists.set(owner,(async()=>{
+   const token=getUser()?.id===owner?getUser().token:null;if(!token)return;
+   const [local,remote]=await Promise.allSettled([listRecordings(owner),rpc('polysemy_lab_modules_recording',{p_token:token,p_action:'list',p_payload:{}})]);
+   if(getUser()?.id!==owner)return;
+   const merged=new Map();
+   if(local.status==='fulfilled')for(const item of local.value)if(item.id)merged.set(item.id,item);
+   if(remote.status==='fulfilled')for(const item of remote.value)merged.set(item.id,{...merged.get(item.id),...item,owner,synced:true});
+   for(const item of merged.values())rememberRecording({...item,owner});
+   if(remote.status==='rejected')recordingLists.delete(owner);
+  })());
+  await recordingLists.get(owner);
+  return questionRecordings.get(key)||null;
+ }
+ async function restoreRecording(owner,module,question){
+  const item=await findRecording(owner,module,question);if(!item||getUser()?.id!==owner)return null;
+  if(item.blob)return item;
+  const token=getUser().token;
+  const data=await rpc('polysemy_lab_modules_recording',{p_token:token,p_action:'get',p_payload:{id:item.id}});
+  if(getUser()?.id!==owner)return null;
+  const restored={...item,blob:new Blob([Uint8Array.from(atob(data.audio),c=>c.charCodeAt(0))],{type:data.mime})};
+  rememberRecording(restored);return restored;
+ }
+
  function suspend(){voice?.pause();document.querySelectorAll('[data-library] audio').forEach(a=>a.pause());dispose();dispose=()=>{};document.querySelectorAll('[data-sentence-media] .recorder').forEach(p=>p.hidden=true);document.querySelectorAll('[data-open-recorder]').forEach(b=>b.hidden=false);}
  function stop(){epoch++;voice?.pause();voice=null;dispose();dispose=()=>{};document.querySelectorAll('[data-library] audio').forEach(a=>a.pause());urls.forEach(u=>URL.revokeObjectURL(u));urls=[];}
  async function upload(item){const user=getUser();if(user?.id!==item.owner)throw Error('請重新登入。');const token=user.token;const audio=await new Promise((resolve,reject)=>{const f=new FileReader();f.onload=()=>resolve(f.result.split(',')[1]);f.onerror=reject;f.readAsDataURL(item.blob);});await rpc('polysemy_lab_modules_recording',{p_token:token,p_action:'save',p_payload:{id:item.id,module:item.module||'show',question:item.question,mime:item.blob.type.split(';')[0],audio}});item.synced=true;try{await storeRecording(item);}catch{}}
- async function save(blob,question,owner,module){if(blob.size>2097152)throw Error('錄音超過 2 MB，請縮短後再試。');const item={id:crypto.randomUUID(),owner,module,question,blob,at:new Date().toISOString(),synced:false};let cached=false;try{await storeRecording(item);cached=true;}catch{}try{await upload(item);return true;}catch{if(cached)return false;throw Error('未能儲存至帳戶或此裝置，請保持本頁並重試。');}}
+ async function save(blob,question,owner,module){if(blob.size>2097152)throw Error('錄音超過 2 MB，請縮短後再試。');const item={id:crypto.randomUUID(),owner,module,question,blob,at:new Date().toISOString(),synced:false};rememberRecording(item);let cached=false;try{await storeRecording(item);cached=true;}catch{}try{await upload(item);return true;}catch{if(cached)return false;throw Error('未能儲存至帳戶或此裝置，請保持本頁並重試。');}}
  function controls(host,q){const module=getModule().id;const owner=getUser()?.id;if(!owner)return;host.innerHTML='<div class="media-actions"><button data-listen>聽示範</button><button data-open-recorder>錄音朗讀</button></div><p data-audio-status role="status"></p><section class="recorder" hidden></section>';const message=host.querySelector('[data-audio-status]');let playing=false;
  const listen=host.querySelector('[data-listen]');manifest().then(rows=>{if(host.isConnected&&!rows[q.id]){listen.disabled=true;listen.textContent='示範音訊準備中';}}).catch(()=>{});
  host.querySelector('[data-listen]').onclick=async e=>{if(playing){voice?.pause();playing=false;e.currentTarget.textContent='聽示範';return;}const button=e.currentTarget,gen=epoch;button.disabled=true;message.textContent='正在載入…';try{const row=(await manifest())[q.id];if(!row){button.textContent='示範音訊準備中';button.dataset.pending='true';message.textContent='你可以先完成練習及錄音。';return;}if(gen!==epoch||getUser()?.id!==owner||!host.isConnected||document.hidden){message.textContent='';return;}voice?.pause();voice=new Audio(new URL(row.path,import.meta.url));const clip=voice;clip.onended=()=>{playing=false;button.textContent='聽示範';};clip.onerror=()=>{playing=false;button.textContent='聽示範';message.textContent='音訊未能載入，請再試。';};await clip.play();if(gen!==epoch){clip.pause();return;}playing=true;button.textContent='暫停示範';message.textContent='';}catch{message.textContent='音訊未能載入，請再試。';}finally{button.disabled=button.dataset.pending==='true';}};
- host.querySelector('[data-open-recorder]').onclick=e=>{voice?.pause();playing=false;if(!host.querySelector('[data-listen]').disabled)host.querySelector('[data-listen]').textContent='聽示範';const panel=host.querySelector('.recorder');panel.hidden=false;e.currentTarget.hidden=true;dispose=mountRecorder(panel,{key:owner+':'+module+':'+q.id,onRecorded:blob=>save(blob,q.id,owner,module),onSkip:()=>{dispose();dispose=()=>{};panel.hidden=true;host.querySelector('[data-open-recorder]').hidden=false;}});};
+ host.querySelector('[data-open-recorder]').onclick=e=>{voice?.pause();playing=false;if(!host.querySelector('[data-listen]').disabled)host.querySelector('[data-listen]').textContent='聽示範';const panel=host.querySelector('.recorder');panel.hidden=false;e.currentTarget.hidden=true;dispose=mountRecorder(panel,{key:questionKey(owner,module,q.id),loadRecording:()=>restoreRecording(owner,module,q.id),onRecorded:blob=>save(blob,q.id,owner,module),onSkip:()=>{dispose();dispose=()=>{};panel.hidden=true;host.querySelector('[data-open-recorder]').hidden=false;}});};
  }
  async function library(host){stop();const gen=epoch,user=getUser();if(!user)return;const owner=user.id,token=user.token,module=getModule().id,questions=getModule().questions;host.innerHTML='<div class="directory-heading"><h2>我的錄音 · My Recordings</h2><button data-reference>返回詞義總覽</button></div><p>重聽自己的朗讀，或上傳已錄好的句子。錄音只供你的學生帳戶查看。</p><form class="panel recording-upload"><div class="recording-upload-heading"><span class="recording-upload-icon" aria-hidden="true">♫</span><div><p class="eyebrow">YOUR VOICE, YOUR PROGRESS</p><h3>新增錄音 · Add a recording</h3></div></div><label>'+esc(getModule().word)+' · 選擇句子<select name="question">'+questions.map(q=>`<option value="${q.id}">${esc(q.en)}</option>`).join('')+'</select></label><label class="recording-file-label"><span>選擇錄音檔案 · Choose audio</span><small>MP3 · M4A · WAV · WebM · Ogg / 最大 2 MB</small><input type="file" name="audio" accept="audio/webm,audio/mp4,audio/ogg,audio/mpeg,audio/wav,.m4a,.mp3,.wav" required></label><button class="primary recording-save" type="submit">↑ 儲存錄音 · Save recording</button><p role="status"></p></form><p data-library-status role="status">正在載入…</p><div data-recording-list></div>';
  const form=host.querySelector('form');form.onsubmit=async e=>{e.preventDefault();const f=new FormData(form),file=f.get('audio'),status=form.querySelector('[role=status]'),button=form.querySelector('button');button.disabled=true;try{const extension=file.name.split('.').at(-1).toLowerCase(),mime=({'mp3':'audio/mpeg',m4a:'audio/mp4',mp4:'audio/mp4',wav:'audio/wav',webm:'audio/webm',ogg:'audio/ogg'})[extension]||file.type.split(';')[0];if(!['audio/mpeg','audio/mp4','audio/wav','audio/webm','audio/ogg'].includes(mime))throw Error('請選擇 MP3、M4A、WAV、WebM 或 Ogg 錄音。');status.textContent='正在儲存…';const ok=await save(new Blob([file],{type:mime}),f.get('question'),owner,module);if(gen!==epoch)return;await library(host);host.querySelector('form [role=status]').textContent=ok?'已儲存至學生帳戶。':'已保留在此裝置，請重試上傳。';}catch(error){status.textContent=error?.message||'未能儲存，請重試。';}finally{button.disabled=false;}};

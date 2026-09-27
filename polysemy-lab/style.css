@@ -127,3 +127,8 @@
 .eddy-streak-sprite,.polysemy-streak[data-streak-stage] .eddy-streak-sprite{animation:eddy-frame-blink 5.8s steps(1,end) infinite}
 @keyframes eddy-frame-blink{0%,88%,91%,100%{background-position:var(--eddy-stage-x) 0%}89%,90%,96%{background-position:var(--eddy-stage-x) 100%}}
 @media(prefers-reduced-motion:reduce){.eddy-streak-sprite,.polysemy-streak[data-streak-stage] .eddy-streak-sprite{animation:none;background-position:var(--eddy-stage-x) 0%}}
+
+/* Keep Eddy anchored: the alternate blink artwork has different body bounds. */
+.eddy-streak-sprite,.polysemy-streak[data-streak-stage] .eddy-streak-sprite {
+  animation: none; background-position: var(--eddy-stage-x) 0%;
+}
