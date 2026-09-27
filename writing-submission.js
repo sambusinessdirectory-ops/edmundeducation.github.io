@@ -4729,7 +4729,10 @@ function buildProofreadIssueList(answer) {
     while ((match = item.regex.exec(raw)) !== null) {
       const full = match[0];
       if (full.length < 2) continue;
-      let replacement = full.replace(item.regex, item.replacement || full);
+      // Reusing the global scanning regex in replace() resets lastIndex to 0,
+      // causing exec() to find the same spacing issue forever.
+      const replacementPattern = new RegExp(item.regex.source, item.regex.flags.replace("g", ""));
+      const replacement = full.replace(replacementPattern, item.replacement || full);
       const key = `${full.toLowerCase()}|||${replacement.toLowerCase()}`;
       if (unique.has(key)) continue;
       unique.add(key);
