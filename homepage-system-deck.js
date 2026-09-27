@@ -1,182 +1,203 @@
 (function initialiseHomepageSystemDeck() {
   "use strict";
-
   const root = document.querySelector("[data-system-card-deck]");
   const start = document.querySelector("[data-system-card-start]");
   if (!root || !start) return;
-  root.closest(".category-strip")?.classList.add("has-system-card-deck");
-
+  const strip = root.closest(".category-strip");
   const stack = root.querySelector("[data-system-card-deck-stack]");
   const stage = root.querySelector("[data-system-card-deck-stage]");
   const position = root.querySelector("[data-system-card-deck-position]");
-  const sources = [...root.closest(".category-strip").querySelectorAll("a.category[href]")];
+  const previous = root.querySelector("[data-system-card-deck-previous]");
+  const next = root.querySelector("[data-system-card-deck-next]");
+  const sources = [...strip.querySelectorAll("a.category[href]")];
   if (!sources.length) return;
-
   const allCards = sources.map((source, index) => {
     const card = source.cloneNode(true);
-    card.removeAttribute("id");
     card.dataset.cardNumber = String(index + 1).padStart(2, "0");
-    card.dataset.deckIndex = String(index);
     card.id = `system-card-deck-option-${index}`;
     card.setAttribute("role", "option");
     card.tabIndex = -1;
+    card.setAttribute("aria-hidden", "true");
+    card.style.setProperty("--deck-opacity", "0");
     stack.append(card);
     return card;
   });
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const spacing = 56;
+  let cards = allCards, value = 0, target = 0, active = -1;
+  let pointer = null, velocity = 0, animation = 0, paintFrame = 0;
+  let lastFrame = 0, suppressUntil = 0, focusAtRest = false;
+  let painted = new Set();
+  const bound = number => Math.max(0, Math.min(cards.length - 1, number));
 
-  let cards = allCards;
-  let active = 0;
-  let dragY = 0;
-  let pointer = null;
-  let suppressClick = false;
-  let wheelRemainder = 0;
-  let wheelFrame = 0;
-
-  function render({ focus = false } = {}) {
-    allCards.forEach(card => {
-      if (!cards.includes(card)) {
-        card.hidden = true;
-        card.dataset.deckActive = "false";
-        card.style.setProperty("--deck-opacity", "0");
-      }
-    });
-    cards.forEach((card, index) => {
-      card.hidden = false;
-      const distance = index - active;
-      const magnitude = Math.abs(distance);
-      const visible = magnitude <= 5;
-      const offset = distance * -56 + dragY;
-      card.style.setProperty("--deck-offset", `${offset}px`);
+  function render() {
+    const selectedIndex = Math.round(bound(value));
+    const visible = new Set();
+    const first = Math.max(0, Math.floor(value) - 5);
+    const last = Math.min(cards.length - 1, Math.ceil(value) + 5);
+    for (let index = first; index <= last; index++) {
+      const card = cards[index], distance = index - value, magnitude = Math.abs(distance);
+      visible.add(card);
+      card.style.setProperty("--deck-offset", `${distance * spacing}px`);
       card.style.setProperty("--deck-depth", `${-magnitude * 50}px`);
       card.style.setProperty("--deck-tilt", `${distance * -2.2}deg`);
       card.style.setProperty("--deck-scale", String(Math.max(.72, 1 - magnitude * .055)));
-      card.style.setProperty("--deck-opacity", visible ? String(Math.max(.18, 1 - magnitude * .15)) : "0");
-      card.style.setProperty("--deck-saturation", String(Math.max(.55, 1 - magnitude * .09)));
-      card.style.setProperty("--deck-brightness", String(Math.max(.65, 1 - magnitude * .06)));
-      card.style.setProperty("--deck-z", String(cards.length - magnitude));
-      card.dataset.deckActive = String(distance === 0);
-      card.setAttribute("aria-selected", String(distance === 0));
-      card.setAttribute("aria-hidden", String(!visible));
-      card.tabIndex = distance === 0 ? 0 : -1;
-    });
+      card.style.setProperty("--deck-opacity", String(Math.max(.12, 1 - magnitude * .15)));
+      card.style.setProperty("--deck-z", String(100 - Math.round(magnitude * 10)));
+      card.style.willChange = "transform, opacity";
+      card.setAttribute("aria-hidden", "false");
+      card.dataset.deckActive = String(index === selectedIndex);
+      card.setAttribute("aria-selected", String(index === selectedIndex));
+      card.tabIndex = index === selectedIndex ? 0 : -1;
+    }
+    for (const card of painted) {
+      if (visible.has(card)) continue;
+      card.style.setProperty("--deck-opacity", "0");
+      card.style.willChange = "auto";
+      card.dataset.deckActive = "false";
+      card.setAttribute("aria-selected", "false");
+      card.setAttribute("aria-hidden", "true");
+      card.tabIndex = -1;
+    }
+    painted = visible;
+    if (selectedIndex === active) return;
+    active = selectedIndex;
     const selected = cards[active];
     if (!selected) return;
     stage.setAttribute("aria-activedescendant", selected.id);
-    const label = selected.getAttribute("aria-label") || selected.textContent.trim();
     position.textContent = cards.length === allCards.length
       ? `${selected.dataset.cardNumber} / ${allCards.length}`
       : `${active + 1} / ${cards.length} · #${selected.dataset.cardNumber}`;
-    position.setAttribute("aria-label", `${selected.dataset.cardNumber}，${label}`);
-    root.querySelector("[data-system-card-deck-previous]").disabled = active === 0;
-    root.querySelector("[data-system-card-deck-next]").disabled = active === cards.length - 1;
-    if (focus) selected.focus({ preventScroll: true });
+    position.setAttribute("aria-label", `${selected.dataset.cardNumber}，${selected.getAttribute("aria-label") || selected.textContent.trim()}`);
+    previous.disabled = active === 0;
+    next.disabled = active === cards.length - 1;
   }
-
-  function move(direction, options) {
-    active = Math.max(0, Math.min(cards.length - 1, active + direction));
-    dragY = 0;
-    render(options);
+  function paint() {
+    if (paintFrame) return;
+    paintFrame = requestAnimationFrame(() => { paintFrame = 0; render(); });
   }
-
-  root.querySelector("[data-system-card-deck-first]").addEventListener("click", () => { active = 0; render({ focus: true }); });
-  root.querySelector("[data-system-card-deck-previous]").addEventListener("click", () => move(-1, { focus: true }));
-  root.querySelector("[data-system-card-deck-next]").addEventListener("click", () => move(1, { focus: true }));
-  root.querySelector("[data-system-card-deck-last]").addEventListener("click", () => { active = cards.length - 1; render({ focus: true }); });
-
+  function stopAnimation() {
+    cancelAnimationFrame(animation);
+    animation = 0;
+  }
+  function rest() {
+    value = target;
+    velocity = 0;
+    animation = 0;
+    render();
+    root.classList.remove("is-deck-moving");
+    if (focusAtRest) cards[Math.round(value)]?.focus({ preventScroll: true });
+    focusAtRest = false;
+  }
+  function animate(now) {
+    const dt = Math.min(.032, Math.max(.001, (now - lastFrame) / 1000));
+    lastFrame = now;
+    // A damped spring retains the release velocity without a separate jump.
+    velocity += ((target - value) * 240 - velocity * 30) * dt;
+    value = bound(value + velocity * dt);
+    render();
+    if (Math.abs(target - value) < .002 && Math.abs(velocity) < .025) { rest(); return; }
+    animation = requestAnimationFrame(animate);
+  }
+  function settle(destination, { focus = false, releaseVelocity = 0 } = {}) {
+    stopAnimation();
+    target = Math.round(bound(destination));
+    focusAtRest = focus;
+    velocity = releaseVelocity;
+    if (reducedMotion.matches || Math.abs(target - value) < .001) { rest(); return; }
+    root.classList.add("is-deck-moving");
+    lastFrame = performance.now();
+    animation = requestAnimationFrame(animate);
+  }
+  function move(direction, options) { settle(target + direction, options); }
+  root.querySelector("[data-system-card-deck-first]").onclick = () => settle(0, { focus: true });
+  previous.onclick = () => move(-1, { focus: true });
+  next.onclick = () => move(1, { focus: true });
+  const lastButton = root.querySelector("[data-system-card-deck-last]");
+  lastButton.textContent = String(allCards.length);
+  lastButton.onclick = () => settle(cards.length - 1, { focus: true });
   stage.addEventListener("keydown", event => {
-    if (["ArrowUp", "PageUp"].includes(event.key)) { event.preventDefault(); move(-1, { focus: true }); }
-    if (["ArrowDown", "PageDown"].includes(event.key)) { event.preventDefault(); move(1, { focus: true }); }
-    if (event.key === "Home") { event.preventDefault(); active = 0; render({ focus: true }); }
-    if (event.key === "End") { event.preventDefault(); active = cards.length - 1; render({ focus: true }); }
+    if (["ArrowUp", "PageUp", "ArrowDown", "PageDown", "Home", "End"].includes(event.key)) event.preventDefault();
+    if (["ArrowUp", "PageUp"].includes(event.key)) move(-1, { focus: true });
+    if (["ArrowDown", "PageDown"].includes(event.key)) move(1, { focus: true });
+    if (event.key === "Home") settle(0, { focus: true });
+    if (event.key === "End") settle(cards.length - 1, { focus: true });
   });
-
+  let wheelDelta = 0, wheelFrame = 0;
   stage.addEventListener("wheel", event => {
-    if (Math.abs(event.deltaY) < Math.abs(event.deltaX) || Math.abs(event.deltaY) < 5) return;
-    const direction = event.deltaY > 0 ? 1 : -1;
-    if ((direction < 0 && active === 0) || (direction > 0 && active === cards.length - 1)) return;
+    if (event.ctrlKey || Math.abs(event.deltaY) < Math.abs(event.deltaX)) return;
+    if ((event.deltaY < 0 && target === 0) || (event.deltaY > 0 && target === cards.length - 1)) return;
     event.preventDefault();
-    wheelRemainder += event.deltaY;
+    wheelDelta += event.deltaY * (event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? stage.clientHeight : 1);
     if (wheelFrame) return;
     wheelFrame = requestAnimationFrame(() => {
-      const sign = wheelRemainder > 0 ? 1 : -1;
-      const step = Math.max(1, Math.min(2, Math.floor(Math.abs(wheelRemainder) / 54)));
-      move(sign * step);
-      wheelRemainder -= sign * step * 54;
-      if (Math.abs(wheelRemainder) < 18) wheelRemainder = 0;
+      if (Math.abs(wheelDelta) >= 32) {
+        const step = Math.sign(wheelDelta) * Math.min(3, Math.max(1, Math.floor(Math.abs(wheelDelta) / 64)));
+        move(step);
+        wheelDelta = 0;
+      }
       wheelFrame = 0;
     });
   }, { passive: false });
-
+  stage.addEventListener("dragstart", event => event.preventDefault());
   stage.addEventListener("pointerdown", event => {
-    if (event.button !== 0) return;
-    pointer = { id: event.pointerId, type: event.pointerType, x: event.clientX, y: event.clientY, rawDelta: 0, moved: false, captured: false, axis: null };
+    if (event.button !== 0 || event.isPrimary === false || pointer) return;
+    stopAnimation();
+    target = Math.round(value);
+    pointer = { id: event.pointerId, x: event.clientX, y: event.clientY, start: value, last: value, at: performance.now(), velocity: 0, moved: false, axis: null };
+    root.classList.add("is-deck-moving");
   });
   stage.addEventListener("pointermove", event => {
     if (!pointer || pointer.id !== event.pointerId) return;
-    const deltaX = event.clientX - pointer.x;
-    const deltaY = event.clientY - pointer.y;
-    if (pointer.type === "touch" || pointer.type === "pen") {
-      if (!pointer.axis && Math.max(Math.abs(deltaX), Math.abs(deltaY)) > 8) {
-        pointer.axis = Math.abs(deltaX) > Math.abs(deltaY) * 1.15 ? "horizontal" : "vertical";
-      }
-      if (!pointer.axis) return;
-      pointer.rawDelta = pointer.axis === "horizontal" ? deltaX : deltaY;
-    } else {
-      pointer.rawDelta = deltaY;
-    }
-    dragY = Math.max(-90, Math.min(90, pointer.rawDelta));
-    pointer.moved ||= Math.abs(dragY) > 8;
-    if (pointer.moved && !pointer.captured) {
-      pointer.captured = true;
+    const dx = event.clientX - pointer.x, dy = event.clientY - pointer.y;
+    if (!pointer.axis && Math.max(Math.abs(dx), Math.abs(dy)) > 6) pointer.axis = Math.abs(dx) > Math.abs(dy) * 1.15 ? "horizontal" : "vertical";
+    if (!pointer.axis) return;
+    const delta = pointer.axis === "horizontal" ? dx : dy;
+    if (!pointer.moved) {
+      pointer.moved = true;
       try { stage.setPointerCapture(event.pointerId); } catch {}
     }
-    render();
+    const now = performance.now();
+    value = bound(pointer.start - delta / spacing);
+    const dt = Math.max(.008, (now - pointer.at) / 1000);
+    const speed = Math.max(-18, Math.min(18, (value - pointer.last) / dt));
+    pointer.velocity = pointer.velocity * .35 + speed * .65;
+    pointer.last = value;
+    pointer.at = now;
+    paint();
   });
-  function finishPointer(event) {
+  function finishPointer(event, cancelled = false) {
     if (!pointer || pointer.id !== event.pointerId) return;
-    const delta = pointer.rawDelta;
-    suppressClick = pointer.moved;
-    const wasCaptured = pointer.captured;
+    const gesture = pointer;
     pointer = null;
-    if (wasCaptured) { try { stage.releasePointerCapture(event.pointerId); } catch {} }
-    if (Math.abs(delta) >= 42) {
-      const step = Math.max(1, Math.min(14, Math.round(Math.abs(delta) / 46)));
-      move((delta < 0 ? 1 : -1) * step);
+    if (gesture.moved) {
+      suppressUntil = performance.now() + 400;
+      try { stage.releasePointerCapture(event.pointerId); } catch {}
     }
-    else { dragY = 0; render(); }
-    if (suppressClick) window.setTimeout(() => { suppressClick = false; }, 0);
+    const speed = !cancelled && performance.now() - gesture.at < 90 ? gesture.velocity : 0;
+    settle(value + speed * .12, { releaseVelocity: speed });
   }
-  stage.addEventListener("pointerup", finishPointer);
-  stage.addEventListener("pointercancel", event => {
-    if (!pointer || pointer.id !== event.pointerId) return;
-    pointer = null;
-    dragY = 0;
-    render();
-  });
+  stage.addEventListener("pointerup", event => finishPointer(event));
+  stage.addEventListener("pointercancel", event => finishPointer(event, true));
   stack.addEventListener("click", event => {
     const card = event.target.closest("a.category");
-    if (!card) return;
-    if (suppressClick || card.dataset.deckActive !== "true") event.preventDefault();
+    if (card && (performance.now() < suppressUntil || card.dataset.deckActive !== "true")) event.preventDefault();
   });
-
   root.querySelector("[data-system-card-deck-search]")?.addEventListener("input", event => {
+    stopAnimation();
+    pointer = null;
     const query = event.currentTarget.value.trim().toLocaleLowerCase();
     cards = allCards.filter(card => {
-      const searchable = `${card.dataset.cardNumber} ${card.getAttribute("aria-label") || ""} ${card.textContent || ""}`.toLocaleLowerCase();
-      const match = !query || searchable.includes(query);
+      const match = !query || `${card.dataset.cardNumber} ${card.getAttribute("aria-label") || ""} ${card.textContent || ""}`.toLocaleLowerCase().includes(query);
       card.hidden = !match;
       return match;
     });
-    if (!cards.length) {
-      event.currentTarget.setCustomValidity("找不到相符系統");
-      stack.dataset.empty = "true";
-    } else {
-      event.currentTarget.setCustomValidity("");
-      stack.dataset.empty = "false";
-    }
-    active = 0;
+    stack.dataset.empty = String(!cards.length);
+    event.currentTarget.setCustomValidity(cards.length ? "" : "找不到相符系統");
+    value = target = 0;
+    active = -1;
+    root.classList.remove("is-deck-moving");
     render();
   });
-
   render();
 })();
