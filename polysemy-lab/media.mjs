@@ -1,4 +1,4 @@
-import {mountRecorder,storeRecording,listRecordings} from './recording.mjs?v=20260924-polysemy-audio4';
+import {mountRecorder,storeRecording,listRecordings} from './recording.mjs?v=20260927-eddy-art3';
 import {allQuestionMap,esc} from './core.mjs?v=20260924-polysemy-audio4';
 let manifestPromise;
 const manifest=()=>manifestPromise||=(Promise.all(['audio.json','audio-new.json'].map(file=>fetch(new URL('./'+file+'?v=20260924-polysemy-audio4',import.meta.url)).then(r=>{if(!r.ok)throw Error();return r.json();}))).then(rows=>Object.assign({},...rows)).catch(e=>{manifestPromise=null;throw e;}));

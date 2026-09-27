@@ -74,3 +74,24 @@
 .polysemy-streak[data-streak-stage="3"] .polysemy-streak-fire{width:70px;height:70px}
 .feedback-explanation-fragment{white-space:normal;overflow-wrap:normal;word-break:normal;line-break:strict}
 @media(prefers-reduced-motion:reduce){.eddy-streak-sprite::after{animation:none}}
+
+/* Six matching open-eye / blink poses: 0, 5, 10, 15, 20, 25 correct. */
+.polysemy-streak{--eddy-stage-x:0%}
+.polysemy-streak[data-streak-stage="1"]{--eddy-stage-x:20%}
+.polysemy-streak[data-streak-stage="2"]{--eddy-stage-x:40%}
+.polysemy-streak[data-streak-stage="3"]{--eddy-stage-x:60%}
+.polysemy-streak[data-streak-stage="4"]{--eddy-stage-x:80%}
+.polysemy-streak[data-streak-stage="5"]{--eddy-stage-x:100%}
+.eddy-streak-sprite,.polysemy-streak[data-streak-stage] .eddy-streak-sprite{background-image:url('/assets/polysemy-lab/eddy-streak-six-stages-v3.webp');background-size:600% 200%;background-position:var(--eddy-stage-x) 0%}
+.eddy-streak-sprite::after,.polysemy-streak[data-streak-stage] .eddy-streak-sprite::after{background-image:url('/assets/polysemy-lab/eddy-streak-six-stages-v3.webp');background-size:600% 200%;background-position:var(--eddy-stage-x) 100%}
+.recorder{position:relative;overflow:hidden;isolation:isolate;transition:background-color .8s,color .8s,box-shadow .8s}
+.recorder-close{display:block;margin-left:auto;position:relative;z-index:2}
+.recorder-eddy{float:right;width:clamp(110px,24vw,210px);max-width:42%;margin:10px 0 12px 18px;object-fit:contain}
+.recorder::before{content:"";position:absolute;inset:0;z-index:-1;opacity:0;background:radial-gradient(ellipse at 15% 70%,#ae32cd99,transparent 55%),radial-gradient(ellipse at 85% 20%,#398cfb99,transparent 50%),radial-gradient(ellipse at 50% 10%,#7654dcaa,transparent 65%),#100c30;transition:opacity 1s ease}
+.recorder.has-recording{color:#fff;box-shadow:0 0 25px #8955ce55;background-color:#100c30}
+.recorder.has-recording::before{opacity:1}
+.recorder.has-recording h3,.recorder.has-recording .eyebrow,.recorder.has-recording small{color:#ece1ff}
+.recorder.has-recording button{background:#fff1;color:#fff;border-color:#ad93df}
+.recorder audio{display:block;width:min(100%,420px);clear:both;margin:16px 0}
+.recorder audio[hidden]{display:none}
+@media(prefers-reduced-motion:reduce){.recorder,.recorder::before{transition:none}}
