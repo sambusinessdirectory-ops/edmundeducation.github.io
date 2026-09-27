@@ -1,7 +1,7 @@
 import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20260927-pocket1';
 import {preserveTextareaParagraphs,preserveArticleCopy} from './writing-paragraph-clipboard.mjs?v=20260927-pocket1';
 import {mountFeedbackReading} from './writing-feedback-reading.mjs?v=20260927-writing2';
-import {submissionSharingControls} from './writing-submission-sharing.mjs?v=20260927-writing2';
+import {submissionSharingControls} from './writing-submission-sharing.mjs?v=20260927-toolbar1';
 import {mountWritingPaperSkin} from './writing-dse-paper.mjs?v=20260927-writing2';
 import { createWritingEmailPreferences, feedbackPublicationMessage } from "./writing-email-preferences.mjs?v=20260911-collapse1";
 import { PAPER3_WRITING_TOPICS, paper3Topic, paper3TopicRoute } from './paper3-writing-topics.mjs?v=20260906-classroom2';
@@ -5877,8 +5877,8 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
     exportButton.type = "button";
     exportButton.dataset.exportAdminSubmission = submission.id;
     actions.append(exportButton);
-    const rename=createElement("button","small-button","Edit title / topic · 修改題目");rename.type="button";rename.onclick=async()=>{const topic=prompt("修改文章題目／標題：",submission.topic);if(topic===null||!topic.trim()||topic.trim()===submission.topic)return;rename.disabled=true;try{await manageAdminArticle(submission.id,"PUT",{topic:topic.trim()});}catch(error){handleViewError(error);rename.disabled=false;}};actions.append(rename);
-    if(!submission.deletedAt){const hide=createElement("button","delete-submission-button","Delete from student account · 從學生帳戶刪除");hide.type="button";hide.onclick=async()=>{if(!confirm("這篇文章將從學生帳戶隱藏，但文章及評語會保留在管理員帳戶供查看。繼續？"))return;hide.disabled=true;try{await manageAdminArticle(submission.id,"DELETE");}catch(error){handleViewError(error);hide.disabled=false;}};actions.append(hide);}
+    const rename=createElement("button","small-button","修改題目 · Edit title");rename.type="button";rename.onclick=async()=>{const topic=prompt("修改文章題目／標題：",submission.topic);if(topic===null||!topic.trim()||topic.trim()===submission.topic)return;rename.disabled=true;try{await manageAdminArticle(submission.id,"PUT",{topic:topic.trim()});}catch(error){handleViewError(error);rename.disabled=false;}};actions.append(rename);
+    if(!submission.deletedAt){const hide=createElement("button","delete-submission-button","從學生帳戶隱藏 · Hide article");hide.type="button";hide.onclick=async()=>{if(!confirm("這篇文章將從學生帳戶隱藏，但文章及評語會保留在管理員帳戶供查看。繼續？"))return;hide.disabled=true;try{await manageAdminArticle(submission.id,"DELETE");}catch(error){handleViewError(error);hide.disabled=false;}};actions.append(hide);}
     if (!submission.deletedAt) {
       const copyButton = createElement("button", "copy-submission-notice-button", "複製已改好通知");
       copyButton.type = "button";
@@ -5897,7 +5897,17 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
   header.append(actions);
   const content = createElement("div", "submission-content", submission.answer || "（文章內容為空）");
   preserveArticleCopy(content);
-  const copyArticle=createElement("button","small-button","Copy article · 複製全文");copyArticle.type="button";copyArticle.onclick=()=>copyPlainText(submission.answer||"").then(copied=>{if(copied)showToast("全文及段落已複製。","success");}).catch(handleViewError);actions.append(copyArticle);
+  const copyArticle=createElement("button","small-button","複製全文 · Copy article");copyArticle.type="button";copyArticle.onclick=()=>copyPlainText(submission.answer||"").then(copied=>{if(copied)showToast("全文及段落已複製。","success");}).catch(handleViewError);actions.append(copyArticle);
+  const displayTools = createElement("div", "submission-toolbar-display");
+  const articleTools = createElement("div", "submission-toolbar-commands");
+  const manageTools = createElement("div", "submission-toolbar-manage");
+  for (const control of [...actions.children]) {
+    if (control.matches(".feedback-font-scale-control, .submission-link-options")) displayTools.append(control);
+    else if (control.matches(".delete-submission-button")) manageTools.append(control);
+    else articleTools.append(control);
+  }
+  actions.replaceChildren(displayTools, articleTools);
+  if (manageTools.childElementCount) actions.append(manageTools);
   container.replaceChildren(header, content);
   applyFeedbackFontScale();
 }

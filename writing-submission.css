@@ -1770,3 +1770,52 @@ body.writing-feedback-fullscreen { overflow: hidden; }
 .writing-reference-pocket.is-floating{position:fixed;z-index:1800;width:min(420px,calc(100vw - 16px));max-height:calc(100dvh - 24px);box-shadow:0 24px 80px #16132f55;background:#fffaf0}
 .writing-reference-pocket.is-floating .reference-pocket-head{cursor:move;touch-action:none}
 .writing-reference-pocket.is-floating .reference-pocket-content{max-height:min(480px,calc(100dvh - 280px))}
+
+/* Article controls: stable rows, consistent buttons and a quiet management action. */
+.submission-detail-actions {
+  display: grid; gap: 14px; margin-top: 22px; padding: 18px;
+  border: 1px solid rgba(39,39,87,.1); border-radius: 18px;
+  background: rgba(255,255,255,.58); justify-content: stretch;
+}
+.submission-toolbar-display {
+  display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+  align-items: start; gap: 12px; padding-bottom: 14px;
+  border-bottom: 1px solid rgba(39,39,87,.09);
+}
+.submission-toolbar-display .feedback-font-scale-control {
+  width: 100%; min-height: 46px; margin: 0; justify-content: center;
+  box-sizing: border-box; box-shadow: none; border-radius: 12px;
+}
+.submission-toolbar-display .submission-link-options { margin: 0; min-width: 0; }
+.submission-toolbar-display .submission-link-options summary {
+  min-height: 46px; box-sizing: border-box; display: flex; align-items: center;
+  justify-content: center; gap: 8px; padding: 10px 12px;
+  border: 1px solid rgba(39,39,87,.13); border-radius: 12px;
+  color: var(--midnight); background: #fffdf9; font-size: 12px; cursor: pointer;
+  list-style: none;
+}
+.submission-toolbar-display .submission-link-options summary::-webkit-details-marker { display: none; }
+.submission-toolbar-display .submission-link-options summary::before { content: "↗"; font-size: 17px; }
+.submission-toolbar-display .submission-link-options[open] summary { background: #eef2ff; }
+.submission-toolbar-display .submission-link-options > div { display: grid; gap: 8px; margin-top: 10px; }
+.submission-toolbar-commands { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+.submission-toolbar-commands > button {
+  width: 100%; min-height: 44px; margin: 0; padding: 10px 12px;
+  border: 1px solid rgba(39,39,87,.13); border-radius: 11px; box-shadow: none;
+  font: 750 12px/1.45 ui-sans-serif,system-ui,sans-serif;
+  transition: background .18s ease, border-color .18s ease, transform .18s ease;
+}
+.submission-toolbar-commands > button:hover { transform: translateY(-1px); border-color: rgba(39,39,87,.3); }
+.submission-toolbar-manage { display: flex; justify-content: flex-end; padding-top: 10px; border-top: 1px solid rgba(39,39,87,.09); }
+.submission-toolbar-manage .delete-submission-button {
+  min-height: 36px; border: 0; border-radius: 8px; background: transparent;
+  padding: 8px 10px; color: #a3353c; font-size: 11px; box-shadow: none;
+}
+.submission-toolbar-manage .delete-submission-button:hover { background: #fff0ee; }
+.submission-detail-actions :is(button,summary,a):focus-visible { outline: 3px solid #6585ca; outline-offset: 3px; }
+@media (max-width: 620px) {
+  .submission-toolbar-display { grid-template-columns: 1fr; }
+  .submission-detail-actions { padding: 12px; }
+}
+@media (max-width: 380px) { .submission-toolbar-commands { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { .submission-toolbar-commands > button { transition: none; } }
