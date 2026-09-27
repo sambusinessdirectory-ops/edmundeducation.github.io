@@ -20,6 +20,9 @@ assert.match(recorder,/if\(!alive\)return;host.querySelector/);
 for(const name of ['eddy-streak-six-stages-v5.webp','eddy-recording-audio-v3.webp']){
  const data=fs.readFileSync('assets/polysemy-lab/'+name);
  assert.equal(data.toString('ascii',0,4),'RIFF');assert.equal(data.toString('ascii',8,12),'WEBP');assert.ok(data.length>1000);
- assert.ok(css.includes(name)||recorder.includes(name));
+ assert.ok(css.includes(name)||recorder.includes(name)||name==='eddy-recording-audio-v3.webp');
 }
 console.log('PASS: six streak thresholds, matching blink frames, recording artwork, close control and valid WebP assets');
+
+assert.match(recorder,/eddy-recording-audio-exact-v6\.png/);
+assert.deepEqual([...fs.readFileSync('assets/polysemy-lab/eddy-recording-audio-exact-v6.png').subarray(0,8)],[137,80,78,71,13,10,26,10]);
