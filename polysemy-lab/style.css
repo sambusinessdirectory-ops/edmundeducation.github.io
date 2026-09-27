@@ -82,8 +82,8 @@
 .polysemy-streak[data-streak-stage="3"]{--eddy-stage-x:60%}
 .polysemy-streak[data-streak-stage="4"]{--eddy-stage-x:80%}
 .polysemy-streak[data-streak-stage="5"]{--eddy-stage-x:100%}
-.eddy-streak-sprite,.polysemy-streak[data-streak-stage] .eddy-streak-sprite{background-image:url('/assets/polysemy-lab/eddy-streak-six-stages-v4.webp');background-size:600% 200%;background-position:var(--eddy-stage-x) 0%}
-.eddy-streak-sprite::after,.polysemy-streak[data-streak-stage] .eddy-streak-sprite::after{background-image:url('/assets/polysemy-lab/eddy-streak-six-stages-v4.webp');background-size:600% 200%;background-position:var(--eddy-stage-x) 100%}
+.eddy-streak-sprite,.polysemy-streak[data-streak-stage] .eddy-streak-sprite{background-image:url('/assets/polysemy-lab/eddy-streak-six-stages-v5.webp');background-size:600% 200%;background-position:var(--eddy-stage-x) 0%}
+.eddy-streak-sprite::after,.polysemy-streak[data-streak-stage] .eddy-streak-sprite::after{background-image:url('/assets/polysemy-lab/eddy-streak-six-stages-v5.webp');background-size:600% 200%;background-position:var(--eddy-stage-x) 100%}
 .recorder{position:relative;overflow:hidden;isolation:isolate;transition:background-color .8s,color .8s,box-shadow .8s}
 .recorder-close{display:block;margin-left:auto;position:relative;z-index:2}
 .recorder-eddy{float:right;width:clamp(110px,24vw,210px);max-width:42%;margin:10px 0 12px 18px;object-fit:contain}

@@ -17,7 +17,7 @@ assert.match(css,/background-position:var\(--eddy-stage-x\) 100%/);
 assert.match(recorder,/data-close-recorder/);
 assert.match(recorder,/host.classList.add\('has-recording'\)/);
 assert.match(recorder,/if\(!alive\)return;host.querySelector/);
-for(const name of ['eddy-streak-six-stages-v4.webp','eddy-recording-audio-v3.webp']){
+for(const name of ['eddy-streak-six-stages-v5.webp','eddy-recording-audio-v3.webp']){
  const data=fs.readFileSync('assets/polysemy-lab/'+name);
  assert.equal(data.toString('ascii',0,4),'RIFF');assert.equal(data.toString('ascii',8,12),'WEBP');assert.ok(data.length>1000);
  assert.ok(css.includes(name)||recorder.includes(name));
