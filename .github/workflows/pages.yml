@@ -32,7 +32,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Validate closet fast release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[speaking-release]') }}
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
@@ -41,6 +41,16 @@ jobs:
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[speaking-release]') }}
         run: |
           node tools/test-professional-discussion-timing.mjs
+
+      - name: Validate focused Writing release
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[writing-release]') }}
+        run: |
+          node --check writing-submission.js
+          node --check writing-feedback-reading.mjs
+          node --check writing-dse-paper.mjs
+          node --check writing-submission-sharing.mjs
+          node --check writing-submission-qr.mjs
+          node --test --test-name-pattern='article notifications use strict owner-scoped deep links|article and feedback navigation invalidates stale requests|admin feedback queue and fullscreen|structured feedback supports' tools/test-writing-submission-portal.mjs
 
       - name: Install image validation dependency
         if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}

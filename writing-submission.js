@@ -1,3 +1,6 @@
+import {mountFeedbackReading} from './writing-feedback-reading.mjs?v=20260927-writing1';
+import {submissionSharingControls} from './writing-submission-sharing.mjs?v=20260927-writing1';
+import {mountWritingPaperSkin} from './writing-dse-paper.mjs?v=20260927-writing1';
 import { createWritingEmailPreferences, feedbackPublicationMessage } from "./writing-email-preferences.mjs?v=20260911-collapse1";
 import { PAPER3_WRITING_TOPICS, paper3Topic, paper3TopicRoute } from './paper3-writing-topics.mjs?v=20260906-classroom2';
 import {
@@ -5859,7 +5862,7 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
   if (admin && submission.deletedAt) meta.append(createElement("span", "deleted-submission-badge", "學生已從個人文章列表刪除"));
   header.append(meta);
   const actions = createElement("div", "submission-detail-actions");
-  actions.append(feedbackFontScaleControl());
+  actions.append(feedbackFontScaleControl(),submissionSharingControls(submission.id,copyPlainText,showToast));
   if (admin) {
     const exportButton = createElement("button", "export-submission-button", "匯出文章與評語");
     exportButton.type = "button";
@@ -6522,6 +6525,7 @@ function renderStudentFeedback(feedback, container) {
     if (area) panel.append(area);
   }
   container.append(panel);
+  mountFeedbackReading(panel);
   loadFeedbackDiscussion(panel, feedback.submissionId);
 }
 
@@ -10543,3 +10547,5 @@ document.querySelectorAll('[data-paper3-topic-category]').forEach(button=>button
 let articleDeliveryVersion="0",articleDeliveryBusy=false;
 async function refreshArticleDelivery(){if(articleDeliveryBusy||document.hidden||state.user?.role==='admin'||!state.authToken)return;articleDeliveryBusy=true;try{const result=await apiJson('/v1/submissions/delivery-version');if(articleDeliveryVersion!==null&&articleDeliveryVersion!==result.version&&state.currentView==='submissions')await loadSubmissions({selectId:state.selectedSubmissionId||''});articleDeliveryVersion=result.version;}catch{}finally{articleDeliveryBusy=false;}}
 setInterval(refreshArticleDelivery,30000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshArticleDelivery();});
+
+mountWritingPaperSkin(document.querySelector("[data-writing-editor-stack]"),document.querySelector("[data-writing-input]"));
