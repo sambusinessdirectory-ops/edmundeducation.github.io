@@ -4,6 +4,7 @@
   const root = document.querySelector("[data-system-card-deck]");
   const start = document.querySelector("[data-system-card-start]");
   if (!root || !start) return;
+  root.closest(".category-strip")?.classList.add("has-system-card-deck");
 
   const stack = root.querySelector("[data-system-card-deck-stack]");
   const stage = root.querySelector("[data-system-card-deck-stage]");
@@ -118,8 +119,8 @@
       if (!pointer.axis && Math.max(Math.abs(deltaX), Math.abs(deltaY)) > 8) {
         pointer.axis = Math.abs(deltaX) > Math.abs(deltaY) * 1.15 ? "horizontal" : "vertical";
       }
-      if (pointer.axis !== "horizontal") return;
-      pointer.rawDelta = deltaX;
+      if (!pointer.axis) return;
+      pointer.rawDelta = pointer.axis === "horizontal" ? deltaX : deltaY;
     } else {
       pointer.rawDelta = deltaY;
     }

@@ -1751,3 +1751,22 @@ body.writing-feedback-fullscreen { overflow: hidden; }
 .writing-paper-controls label{color:#302a22}.dse-question-boxes input{background:#fff;color:#111}.dse-question-boxes input:checked{background:linear-gradient(45deg,transparent 44%,#111 45%,#111 55%,transparent 56%),linear-gradient(-45deg,transparent 44%,#111 45%,#111 55%,transparent 56%)}.dse-question-boxes input:checked:after{content:none}.writing-editor-stack.is-dse-paper textarea{background-origin:content-box;background-clip:content-box;background-position:0 0;background-size:100% 32px}.writing-editor-stack.is-dse-paper .writing-essay-overlay{display:none}
 .feedback-reading-progress-track{height:14px}.feedback-reading-progress{background:#fff8eb;border-bottom:1px solid #d0b88e}.feedback-reading-progress small{font-size:13px;font-weight:700;padding:3px 16px}.submission-row.has-feedback-draft,.submission-row.has-feedback-draft:hover,.submission-row.has-feedback-draft:focus-visible,.submission-row.has-feedback-draft[aria-current="true"]{background:#fff1b8;border-color:#c99d25;color:#443816}
 [data-admin-list] .submission-row:not(.has-feedback):not(.has-feedback-draft){background:#fffdf9}[data-admin-list] .submission-row:not(.has-feedback):not(.has-feedback-draft)[aria-current="true"]{border-color:#8d8794;box-shadow:0 0 0 2px #8d879422}
+
+/* The student's reference pocket stays beside the editor, below grammar. */
+.writing-reference-sidebar{display:grid;gap:24px;min-width:0}
+.writing-reference-sidebar .grammar-panel{position:static;max-height:65vh}
+.writing-reference-pocket{padding:22px;min-width:0;overflow:hidden}
+.reference-pocket-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.reference-pocket-head h2{font-size:24px;margin:6px 0 16px}
+.reference-pocket-controls{display:flex;flex-wrap:wrap;gap:8px}
+.reference-pocket-controls select{width:100%;min-width:0;padding:12px;border:1px solid #cfc8b8;border-radius:12px;background:#fff;color:#27264d;font:700 14px system-ui}
+.reference-pocket-status{font:600 12px/1.5 system-ui;color:#65607a;margin:12px 0}
+.reference-pocket-content{max-height:480px;overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable;min-height:70px;padding-right:4px}
+.reference-vocabulary{white-space:pre-wrap;overflow-wrap:anywhere;display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px 8px;border-bottom:1px solid #e7dfd0;font-size:14px;line-height:1.5}
+.reference-submission h3{font-size:15px;line-height:1.5;margin:16px 0 4px}
+.reference-submission-date{font:12px system-ui;color:#777186;margin:0 0 12px}
+.reference-suggestion{margin:12px 0;border:1px solid #ddd8cb;border-radius:12px;overflow:hidden;background:white;font-size:14px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}
+.reference-band{padding:12px}.reference-band>strong{display:block;font:700 11px system-ui;margin-bottom:6px;color:#67627a}.reference-band.is-originalSentence{background:#f3f2f7}.reference-band.is-enhancement{background:#edf8ef}.reference-band.is-benefit{background:#fff4d9}.reference-suggestion>div:not(.reference-band){padding:12px}
+.writing-reference-pocket.is-floating{position:fixed;z-index:1800;width:min(420px,calc(100vw - 16px));max-height:calc(100dvh - 24px);box-shadow:0 24px 80px #16132f55;background:#fffaf0}
+.writing-reference-pocket.is-floating .reference-pocket-head{cursor:move;touch-action:none}
+.writing-reference-pocket.is-floating .reference-pocket-content{max-height:min(480px,calc(100dvh - 280px))}

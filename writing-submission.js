@@ -1,3 +1,5 @@
+import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20260927-pocket1';
+import {preserveTextareaParagraphs,preserveArticleCopy} from './writing-paragraph-clipboard.mjs?v=20260927-pocket1';
 import {mountFeedbackReading} from './writing-feedback-reading.mjs?v=20260927-writing2';
 import {submissionSharingControls} from './writing-submission-sharing.mjs?v=20260927-writing2';
 import {mountWritingPaperSkin} from './writing-dse-paper.mjs?v=20260927-writing2';
@@ -1865,6 +1867,8 @@ function formatCompactDuration(secondsValue) {
 }
 
 function showView(name) {
+  if(name === "workspace") void referencePocket.refresh();
+  else referencePocket.reset();
   if (name === "login" || state.user?.role === "admin") emailPreferences.reset();
   closeFeedbackFullscreen();
   if (name !== "admin-pending") state.adminPendingGeneration += 1;
@@ -2868,6 +2872,7 @@ async function loadWritingTopicCatalog() {
 }
 
 function renderSelectedTopicPreview() {
+  queueMicrotask(() => referencePocket.refresh());
   const resource = canonicalWritingTopicResource(state.selectedTopicResource);
   state.selectedTopicResource = resource;
   state.floatingTopicSignature = "";
@@ -5888,6 +5893,8 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
   }
   header.append(actions);
   const content = createElement("div", "submission-content", submission.answer || "（文章內容為空）");
+  preserveArticleCopy(content);
+  const copyArticle=createElement("button","small-button","Copy article · 複製全文");copyArticle.type="button";copyArticle.onclick=()=>copyPlainText(submission.answer||"").then(copied=>{if(copied)showToast("全文及段落已複製。","success");}).catch(handleViewError);actions.append(copyArticle);
   container.replaceChildren(header, content);
   applyFeedbackFontScale();
 }
@@ -10390,7 +10397,33 @@ async function checkHealth() {
   }
 }
 
+const referencePocket = mountReferencePocket({
+ host:document.querySelector('[data-writing-reference-pocket]'),
+ getOwner:()=>state.user?.role==='student'?state.authToken:'',
+ getGlossary:async()=>{const resource=canonicalWritingTopicResource();if(resource?.type==='manual-writing-topic'&&resource.wordList)return [{english:resource.wordList,chinese:''}];const route=selectedTopicReferenceRoute();if(!route)return [];const catalog=await loadTopicReferenceCatalog();return catalog[route.exerciseId]?.vocabulary||[];},
+ getHistory:async()=>{
+  const token=state.authToken;const submissions=[];
+  for(let page=1;;page++){
+   if(state.authToken!==token||state.user?.role!=='student')return [];
+   const payload=await apiJson(`/v1/submissions?page=${page}&pageSize=100`,{},true,token);
+   submissions.push(...submissionArray(payload));if(!payload?.hasMore)break;
+  }
+  const results=[];let index=0;
+  await Promise.all(Array.from({length:Math.min(3,submissions.length)},async()=>{
+   while(index<submissions.length){
+    if(state.authToken!==token||state.user?.role!=='student')return;
+    const submission=submissions[index++];
+    const payload=await apiJson(`/v1/submissions/${encodeURIComponent(submission.id)}/feedback`,{},true,token);
+    const feedback=normalizeTeacherFeedback(payload?.feedback);
+    if(feedback?.status==='published')results.push({...submission,feedback});
+   }
+  }));
+  return state.authToken===token?results:[];
+ },appendRich:appendFeedbackRichText
+});
 async function initialise() {
+  preserveTextareaParagraphs(elements.writingInput);
+  preserveTextareaParagraphs(elements.adminProxyAnswer);
   bindEvents();
   initializeStudentFeedbackWordBrush();
   ensureFeedbackSelectionToolbar();

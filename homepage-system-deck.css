@@ -172,3 +172,12 @@
 @media(max-width:1366px){.system-card-deck{grid-template-columns:minmax(0,1fr) auto;min-height:860px;align-items:start}.system-card-deck__copy{grid-column:1/-1}.system-card-deck__stage{width:100%;min-width:0;height:520px}.system-card-deck .category{width:min(720px,90%)!important}}
 @media(max-width:980px){.system-card-deck{grid-template-columns:minmax(0,1fr) auto}.system-card-deck__copy{grid-column:1/-1}.system-card-deck__stage{min-width:0;width:100%}.system-card-deck .category{width:min(560px,88%)!important}}
 @media(max-width:620px){.system-card-deck{display:grid;grid-template-columns:1fr;min-height:780px;margin-inline:0;padding:22px 12px 26px;overflow:hidden}.system-card-deck__copy{width:100%;min-width:0}.system-card-deck__copy h2{font-size:clamp(30px,10vw,44px)}.system-card-deck__search{width:100%}.system-card-deck__search input{font-size:16px}.system-card-deck__stage{height:430px;width:100%;order:2}.system-card-deck .category,.system-card-deck .category:nth-child(-n + 3){width:min(92vw,430px)!important;max-width:calc(100% - 18px);height:178px;min-height:178px}.system-card-deck__controls{order:3;grid-template-columns:repeat(5,minmax(0,auto));width:100%}.system-card-deck__controls button{width:48px;height:48px}.system-card-deck__controls strong{writing-mode:horizontal-tb}}
+
+/* Avoid reserving the old logo column inside the full-width selector. */
+.category-strip.has-system-card-deck{width:calc(100vw - var(--category-page-pad)*2);max-width:100%;min-width:0}
+.system-card-deck,.system-card-deck *{box-sizing:border-box}
+.system-card-deck{min-width:0;max-width:100%}
+.system-card-deck__stage{touch-action:pinch-zoom}
+.system-card-deck .category{max-width:calc(100% - 24px)}
+@media(pointer:coarse){.system-card-deck{grid-template-columns:minmax(0,1fr) auto;min-height:820px}.system-card-deck__copy{grid-column:1/-1}.system-card-deck__stage{width:100%;height:480px}.system-card-deck .category{width:min(680px,90%)!important}}
+@media(max-width:620px){.system-card-deck{grid-template-columns:minmax(0,1fr)}.system-card-deck__stage{height:430px}}

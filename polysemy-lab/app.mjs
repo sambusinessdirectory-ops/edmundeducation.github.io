@@ -1,4 +1,4 @@
-import {createMedia} from './media.mjs?v=20260927-eddy-art3';
+import {createMedia} from './media.mjs?v=20260927-recordings1';
 import {modules,moduleMap,allQuestionMap,selectModule,showModule,questions,senses,questionMap,orderedOptions,isCorrectAnswer,replay,summary,dailyAnswers,hkDate,esc,highlighted} from './core.mjs?v=20260924-polysemy-fixes1';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 let client,user=null,events=[],outbox=[],timeDays=[],syncing=null,mode='directory',feedback=null,clockSeconds=0,lastAction=Date.now(),lastTick=Date.now(),generation=0,range='7',cacheWarning=false;

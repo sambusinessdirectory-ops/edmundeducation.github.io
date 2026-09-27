@@ -59,6 +59,11 @@ jobs:
           node --check writing-submission-sharing.mjs
           node --check writing-submission-qr.mjs
           node --check country-name-spelling.js
+          node --check writing-reference-pocket.mjs
+          node --check writing-paragraph-clipboard.mjs
+          node --check homepage-system-deck.js
+          node --check polysemy-lab/media.mjs
+          node --check polysemy-lab/app.mjs
           node --test workers/writing-submission/test/*.test.mjs
           node --test --test-name-pattern='article notifications use strict owner-scoped deep links|article and feedback navigation invalidates stale requests|admin feedback queue and fullscreen|structured feedback supports' tools/test-writing-submission-portal.mjs
 
