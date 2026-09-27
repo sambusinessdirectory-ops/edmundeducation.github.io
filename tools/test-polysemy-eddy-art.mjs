@@ -33,3 +33,7 @@ assert.match(recorder,/mascot.src='\/assets\/polysemy-lab\/eddy-recording-audio-
 
 assert.match(css,/animation:eddy-frame-blink/);
 assert.match(css,/::after\{display:none;animation:none\}/);
+
+assert.match(css,/animation:eddy-eyes-only-blink/);
+assert.match(css,/-webkit-mask-image:var\(--eddy-eye-mask\)/);
+assert.match(css,/--eddy-closed-y:93\.333%/);
