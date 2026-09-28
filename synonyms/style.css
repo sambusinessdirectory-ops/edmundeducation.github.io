@@ -125,7 +125,7 @@ body[data-learning-portal="synonyms"] .learning-portal-dashboard__hero { display
 .syn-home>p:not(.syn-kicker),.syn-guide>p:not(.syn-kicker),.syn-false>p:not(.syn-kicker) { color:#5d7a7a; line-height:1.65; }
 .syn-module-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin-top:26px; }
 .syn-module-card { position:relative; display:flex; align-items:flex-start; flex-direction:column; gap:13px; min-height:248px; padding:26px; overflow:hidden; border:1px solid #8acbc2; border-radius:25px; color:#f8fffb; background:linear-gradient(125deg,#0e6668,#1b8a82 62%,#2d9ca0); text-align:left; box-shadow:0 8px 0 #c2e3da,0 18px 35px #1f80702a; transition:transform .23s ease,box-shadow .23s ease; }
-.syn-module-card::after { content:"✦"; position:absolute; top:-43px; right:13px; color:#ffffff19; font-size:220px; line-height:1; transform:rotate(-12deg); pointer-events:none; }
+.syn-module-card::after { content:""; position:absolute; top:-12px; right:13px; width:175px; height:175px; background:url('/synonyms/icons/spark.svg') center/contain no-repeat; opacity:.16; transform:rotate(-12deg); pointer-events:none; }
 .syn-module-card:hover { transform:translateY(-5px); box-shadow:0 13px 0 #c2e3da,0 23px 40px #1f807038; }
 .syn-module-index { position:relative; z-index:1; color:#b9eee6; font-size:11px; font-weight:900; letter-spacing:.17em; }
 .syn-module-card strong { position:relative; z-index:1; margin-top:6px; font-family:Georgia,serif; font-size:clamp(34px,4vw,48px); }
@@ -178,13 +178,21 @@ body[data-learning-portal="synonyms"] .learning-portal-dashboard__hero { display
 .syn-guide-example small { padding:0; border:0; }
 .syn-guide-example .syn-guide-translation { margin:7px 0 10px; color:#655f4d; font-family:inherit; font-size:13px; font-weight:700; }
 .syn-guide-example [data-guide-audio-status] { margin-left:8px; color:#537a75; font-size:12px; }
-.syn-false-card .syn-false-description { margin:10px 0 18px; color:#805527; font-size:clamp(17px,2vw,20px); font-weight:850; line-height:1.55; }
-.syn-false-card h4 { padding-top:14px; border-top:1px solid #ead7bf; }
+.syn-false-card p.syn-false-description { margin:10px 0 18px; color:#805527; font-size:clamp(17px,2vw,20px); font-weight:850; line-height:1.55; }
+.syn-false-card h4 { padding:0; border:0; font-size:26px; }
+.syn-false-card p[lang="en"] { padding-top:14px; border-top:1px solid #ead7bf; }
+.syn-icon { display:inline-block; flex:none; width:18px; height:18px; vertical-align:middle; }
+.syn-app button:has(.syn-icon) { display:inline-flex; align-items:center; justify-content:center; gap:6px; }
+.syn-orbit .syn-icon { width:22px; height:22px; }
+.syn-feedback-symbol .syn-icon { width:25px; height:25px; filter:brightness(0) invert(1); }
+.syn-clear-emblem .syn-icon { width:43px; height:43px; }
+.syn-option-icon .syn-icon { width:20px; height:20px; }
+.syn-question-card .syn-original p { margin:12px 0 0; color:#173f45; font-family:Georgia,Cambria,serif; font-size:clamp(21px,2.45vw,28px); font-weight:700; line-height:1.5; }
 .syn-recorder { margin:15px 0 23px; }
 .syn-recorder-panel { padding:21px; border:1px solid #a4d8d0; border-radius:19px; background:linear-gradient(135deg,#edf9f4,#f2f4ff); box-shadow:0 12px 24px #397e8123; animation:synReveal .3s ease both; }
 .syn-recorder-top { display:flex; align-items:start; justify-content:space-between; gap:12px; }
 .syn-recorder-top h4 { margin:0; color:#175c60; font-family:Georgia,"Noto Serif TC Local",serif; font-size:25px; }
-.syn-recorder-top>button { width:35px; height:35px; border:1px solid #bfdcd6; border-radius:50%; color:#346b67; background:#fff; font-weight:900; }
+.syn-recorder-top>button { min-width:54px; height:35px; padding:0 9px; border:1px solid #bfdcd6; border-radius:999px; color:#346b67; background:#fff; font-weight:900; }
 .syn-recorder-panel>p:not(.syn-kicker) { color:#537272; line-height:1.6; }
 .syn-recorder-actions { display:flex; flex-wrap:wrap; gap:9px; margin:12px 0; }
 .syn-recorder-actions button { padding:9px 14px; border:1px solid #4b9f94; border-radius:11px; color:#fff; background:linear-gradient(135deg,#208b82,#216e7d); font-size:13px; font-weight:850; box-shadow:0 3px 0 #23636c; }

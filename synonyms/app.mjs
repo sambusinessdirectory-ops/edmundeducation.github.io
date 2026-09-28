@@ -1,6 +1,7 @@
 import { importantModule } from './important-data.mjs?v=20260928-important1';
 import { synonymAudio } from './audio-manifest.mjs?v=20260928-four-voices1';
 import { guideAudio } from './guide-audio.mjs?v=20260928-guide1';
+import { detailedFeedback } from './detailed-feedback.mjs?v=20260928-feedback1';
 import {mountRecorder,allRecordings,recordingBlob,uploadRecording} from './recordings.mjs?v=20260928-recordings1';
 
 const words = importantModule.words;
@@ -15,6 +16,7 @@ host.className = 'syn-app';
 host.setAttribute('aria-label', 'Synonyms 同義詞學習系統');
 dashboard?.append(host);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const icon = name => '<img class="syn-icon" src="/synonyms/icons/'+name+'.svg" alt="" aria-hidden="true">';
 const falseSynonyms = [
   {word:'famous / popular',type:'名氣不等於重要',point:'A famous or popular person may attract attention. A prominent person has a notable public position; an influential person changes what others think or do.',zh:'「有名」或「受歡迎」不一定表示地位突出，更不一定有影響力。'},
   {word:'impressive',type:'令人佩服不等於重大',point:'An impressive result catches your eye. A major change is large in scale; a significant change has a meaningful effect.',zh:'「令人印象深刻」說的是觀感，不等於規模大或影響深。'},
@@ -54,7 +56,7 @@ function updateSaveBadge() {
   const badge = host.querySelector('[data-save-state]');
   if (!badge) return;
   const labels = {
-    loading:'正在讀取帳戶進度…',saving:'正在儲存到帳戶…',saved:'✓ 已儲存到學生帳戶',
+    loading:'正在讀取帳戶進度…',saving:'正在儲存到帳戶…',saved:'已儲存到學生帳戶',
     offline:localAvailable?'連線中斷；進度已保留在此裝置':'未能儲存；請保持頁面開啟並重試'
   };
   badge.textContent = labels[saveState];
@@ -223,25 +225,25 @@ function stats() {
 function shell(content) {
   recorderDispose?.();recorderDispose=null;
   host.innerHTML='<div class="syn-ambient" aria-hidden="true"><i></i><i></i><i></i></div>'+
-    '<nav class="syn-global-nav" aria-label="Synonyms 導覽"><button type="button" data-go="home">系統首頁</button><button type="button" data-go="module">Important</button><button type="button" data-go="guide">同義詞指南</button><button type="button" data-go="false">False synonyms</button><button type="button" class="syn-practice-link" data-begin>✦ 開始練習</button><button type="button" data-go="recordings">我的錄音</button></nav>'+
+    '<nav class="syn-global-nav" aria-label="Synonyms 導覽"><button type="button" data-go="home">系統首頁</button><button type="button" data-go="module">Important</button><button type="button" data-go="guide">同義詞指南</button><button type="button" data-go="false">False synonyms</button><button type="button" class="syn-practice-link" data-begin>'+icon('spark')+'開始練習</button><button type="button" data-go="recordings">我的錄音</button></nav>'+
     '<header class="syn-heading"><div><p class="syn-kicker">SYNONYMS · 同義詞學習系統</p><h2>同義詞學習系統</h2><p>從語境理解字詞，選擇更精準的表達。</p></div>'+stats()+'</header>'+
     '<div class="syn-progress" role="progressbar" aria-label="已作答題目" aria-valuemin="0" aria-valuemax="'+total+'" aria-valuenow="'+attempted()+'"><span style="width:'+(attempted()/total*100)+'%"></span></div>'+
     '<div class="syn-save-row" role="status" aria-live="polite"><span data-save-state></span><button type="button" data-retry-save hidden>重試儲存</button></div>'+content;
   updateSaveBadge();
 }
 function renderHome() {
-  shell('<section class="syn-home syn-enter"><p class="syn-kicker">YOUR LEARNING LIBRARY</p><h3>選擇學習模組</h3><p>每個模組先認識詞義，再以語境練習運用。</p><div class="syn-module-grid"><button class="syn-module-card" type="button" data-go="module"><span class="syn-module-index">01 / SYNONYM EXPANSION</span><strong>Important</strong><small>14 個更精準的同義詞 · 28 道選擇題</small><span class="syn-module-progress">已作答 '+attempted()+' / '+total+' 題 <span aria-hidden="true">↗</span></span></button></div></section>');
+  shell('<section class="syn-home syn-enter"><p class="syn-kicker">YOUR LEARNING LIBRARY</p><h3>選擇學習模組</h3><p>每個模組先認識詞義，再以語境練習運用。</p><div class="syn-module-grid"><button class="syn-module-card" type="button" data-go="module"><span class="syn-module-index">01 / SYNONYM EXPANSION</span><strong>Important</strong><small>14 個更精準的同義詞 · 28 道選擇題</small><span class="syn-module-progress">已作答 '+attempted()+' / '+total+' 題</span></button></div></section>');
 }
 function renderModule() {
   shell('<section class="syn-module-front syn-enter"><div class="syn-module-hero"><p class="syn-kicker">MODULE 01 · IMPORTANT</p><h3>重要，究竟有多重要？</h3><p>重大、關鍵、不可或缺、影響深遠——英文會按語境選用不同的字。</p><div class="syn-module-actions"><button class="syn-primary" type="button" data-go="guide">先看 14 個同義詞 →</button><button class="syn-secondary" type="button" data-go="false">認識 False synonyms</button></div></div><div class="syn-module-aside"><strong>'+mastered()+' / '+total+'</strong><span>題已掌握</span><small>開始練習前，先閱讀同義詞指南。</small></div></section>');
 }
 function renderGuide() {
   const cards=words.map(word=>{const example=word.exercises[0].upgrade.replace('______',word.word);const note=word.exercises[0].options.find(o=>o.text===word.word)?.explanation||word.meaning;
-    return '<article class="syn-word-card"><span>'+String(word.order).padStart(2,'0')+'</span><div><h4>'+esc(word.word[0].toUpperCase()+word.word.slice(1))+'</h4><div class="syn-word-audio-controls"><button type="button" data-guide-audio="word:'+word.order+'" aria-label="播放 '+esc(word.word)+' 的讀音">🔊 聽讀音</button><span data-guide-audio-status role="status"></span></div><strong>'+esc(word.meaning)+'</strong><p>'+esc(note)+'</p><div class="syn-guide-example"><small lang="en">'+esc(example)+'</small><p class="syn-guide-translation">'+esc(word.exercises[0].zh)+'</p><button type="button" data-guide-audio="sentence:'+word.order+'" aria-label="播放例句">🔊 聽例句</button><span data-guide-audio-status role="status"></span></div></div></article>';}).join('');
+    return '<article class="syn-word-card"><span>'+String(word.order).padStart(2,'0')+'</span><div><h4>'+esc(word.word[0].toUpperCase()+word.word.slice(1))+'</h4><div class="syn-word-audio-controls"><button type="button" data-guide-audio="word:'+word.order+'" aria-label="播放 '+esc(word.word)+' 的讀音">'+icon('audio')+'聽讀音</button><span data-guide-audio-status role="status"></span></div><strong>'+esc(word.meaning)+'</strong><p>'+esc(note)+'</p><div class="syn-guide-example"><small lang="en">'+esc(example)+'</small><p class="syn-guide-translation">'+esc(word.exercises[0].zh)+'</p><button type="button" data-guide-audio="sentence:'+word.order+'" aria-label="播放例句">'+icon('audio')+'聽例句</button><span data-guide-audio-status role="status"></span></div></div></article>';}).join('');
   shell('<section class="syn-guide syn-enter"><p class="syn-kicker">WORD GUIDE · 先理解，再練習</p><h3>Important 的 14 種更精準說法</h3><p>看看每個字的重點和例句。準備好後，進入隨機排列的 28 題練習。</p><div class="syn-word-grid">'+cards+'</div><div class="syn-guide-actions"><button class="syn-secondary" type="button" data-go="false">先看看 False synonyms</button><button class="syn-primary" type="button" data-begin>'+(progress.order?.length>=total && progress.cursor<progress.order.length && progress.cursor>0?'繼續第 '+(progress.cursor+1)+' 題':'開始 28 題練習')+' →</button></div></section>');
 }
 function renderFalse() {
-  const cards=falseSynonyms.map((item,i)=>'<article class="syn-false-card"><span>'+String(i+1).padStart(2,'0')+'</span><div><p class="syn-kicker">'+esc(item.type)+'</p><p class="syn-false-description">'+esc(item.zh)+'</p><h4>'+esc(item.word)+'</h4><p lang="en">'+esc(item.point)+'</p></div></article>').join('');
+  const cards=falseSynonyms.map((item,i)=>'<article class="syn-false-card"><span>'+String(i+1).padStart(2,'0')+'</span><div><h4>'+esc(item.word)+'</h4><p class="syn-false-description">'+esc(item.zh)+'</p><p lang="en">'+esc(item.point)+'</p></div></article>').join('');
   shell('<section class="syn-false syn-enter"><p class="syn-kicker">FALSE SYNONYMS · 容易選錯的詞</p><h3>看起來相關，意思卻不同</h3><p>這些選項有時似乎合理，但語境或詞性不合。先分清它們，再回到同義詞指南。</p><div class="syn-false-grid">'+cards+'</div><div class="syn-guide-actions"><button class="syn-primary" type="button" data-go="guide">返回同義詞指南 →</button></div></section>');
 }
 function renderQuestion() {
@@ -249,13 +251,13 @@ function renderQuestion() {
   const selected=q.exercise.options.find(o=>o.letter===choice),correct=selected?.text===q.exercise.answer;
   const original=esc(q.exercise.original).replace(/\bimportant\b/gi,'<mark>$&</mark>');
   const options=q.exercise.options.map(o=>{const state=choice?(o.text===q.exercise.answer?'is-correct':o.letter===choice?'is-wrong':'is-muted'):'';
-    return '<button class="syn-option '+state+'" type="button" data-answer="'+o.letter+'" '+(choice?'disabled':'')+'><span class="syn-option-letter">'+o.letter+'</span><span>'+esc(o.text)+'</span><span class="syn-option-icon" aria-hidden="true">'+(choice&&o.text===q.exercise.answer?'✓':choice&&o.letter===choice?'×':'↗')+'</span></button>';}).join('');
-  const feedback=choice?'<section class="syn-feedback '+(correct?'is-right':'is-try-again')+'" tabindex="-1" aria-live="polite"><div class="syn-feedback-top"><span class="syn-feedback-symbol" aria-hidden="true">'+(correct?'✦':'↺')+'</span><div><p class="syn-kicker">'+(correct?'NICE CHOICE':'LEARN THE DIFFERENCE')+'</p><h4>'+(correct?'選得準確！':'再看一次語境；這題稍後會再出現')+'</h4></div></div><p class="syn-reveal"><strong>'+esc(q.exercise.answer)+'</strong> · '+esc(q.word.meaning)+'</p><div class="syn-explanations"><h5>六個選項的解釋</h5>'+q.exercise.options.map(o=>'<div class="'+(o.text===q.exercise.answer?'is-answer':'')+'"><strong>'+o.letter+'. '+esc(o.text)+'</strong><span>'+esc(o.explanation)+'</span></div>').join('')+'</div><button class="syn-primary" type="button" data-next>'+(progress.cursor===progress.order.length-1?'查看結果':'下一題')+' →</button></section>':'';
-  shell('<div class="syn-play syn-enter"><nav class="syn-play-nav" aria-label="練習導覽"><button type="button" data-go="guide">← 同義詞指南</button><span>QUESTION '+String(progress.cursor+1).padStart(2,'0')+' / '+progress.order.length+'</span></nav><div class="syn-track" aria-hidden="true"><span style="width:'+((progress.cursor+1)/progress.order.length*100)+'%"></span></div><section class="syn-question-card"><div class="syn-question-label"><span class="syn-orbit" aria-hidden="true">✦</span><span>選出最適合這句話的同義詞</span></div><div class="syn-original"><span>READ THE CONTEXT · 閱讀語境</span><p lang="en">'+original+'</p></div><p class="syn-question-translation"><strong>中文翻譯</strong> '+esc(q.exercise.zh)+'</p><div class="syn-helpers"><button type="button" data-speak aria-label="播放原句示範音訊">🔊 聽示範</button><button type="button" data-open-recorder>🎙 錄音朗讀</button><span data-audio-status role="status" aria-live="polite"></span></div><section class="syn-recorder" data-recorder hidden></section><div class="syn-options" role="group" aria-label="選擇最貼切的同義詞">'+options+'</div>'+(!choice?'<p class="syn-keyboard">點選答案，或按鍵盤 1–6。</p>':'')+feedback+'</section></div>');
+    return '<button class="syn-option '+state+'" type="button" data-answer="'+o.letter+'" '+(choice?'disabled':'')+'><span class="syn-option-letter">'+o.letter+'</span><span>'+esc(o.text)+'</span><span class="syn-option-icon" aria-hidden="true">'+(choice&&o.text===q.exercise.answer?icon('check'):'')+'</span></button>';}).join('');
+  const feedback=choice?'<section class="syn-feedback '+(correct?'is-right':'is-try-again')+'" tabindex="-1" aria-live="polite"><div class="syn-feedback-top"><span class="syn-feedback-symbol" aria-hidden="true">'+icon(correct?'check':'retry')+'</span><div><p class="syn-kicker">'+(correct?'NICE CHOICE':'LEARN THE DIFFERENCE')+'</p><h4>'+(correct?'選得準確！':'再看一次語境；這題稍後會再出現')+'</h4></div></div><p class="syn-reveal"><strong>'+esc(q.exercise.answer)+'</strong> · '+esc(q.word.meaning)+'</p><div class="syn-explanations"><h5>六個選項的解釋</h5>'+q.exercise.options.map(o=>'<div class="'+(o.text===q.exercise.answer?'is-answer':'')+'"><strong>'+o.letter+'. '+esc(o.text)+'</strong><span>'+esc(detailedFeedback[q.id]?.[o.letter]||o.explanation)+'</span></div>').join('')+'</div><button class="syn-primary" type="button" data-next>'+(progress.cursor===progress.order.length-1?'查看結果':'下一題')+' →</button></section>':'';
+  shell('<div class="syn-play syn-enter"><nav class="syn-play-nav" aria-label="練習導覽"><button type="button" data-go="guide">返回同義詞指南</button><span>QUESTION '+String(progress.cursor+1).padStart(2,'0')+' / '+progress.order.length+'</span></nav><div class="syn-track" aria-hidden="true"><span style="width:'+((progress.cursor+1)/progress.order.length*100)+'%"></span></div><section class="syn-question-card"><div class="syn-question-label"><span class="syn-orbit" aria-hidden="true">'+icon('spark')+'</span><span>選出最適合這句話的同義詞</span></div><div class="syn-original"><span>READ THE CONTEXT · 閱讀語境</span><p lang="en">'+original+'</p></div><p class="syn-question-translation"><strong>中文翻譯</strong> '+esc(q.exercise.zh)+'</p><div class="syn-helpers"><button type="button" data-speak aria-label="播放原句示範音訊">'+icon('audio')+'聽示範</button><button type="button" data-open-recorder>'+icon('microphone')+'錄音朗讀</button><span data-audio-status role="status" aria-live="polite"></span></div><section class="syn-recorder" data-recorder hidden></section><div class="syn-options" role="group" aria-label="選擇最貼切的同義詞">'+options+'</div>'+(!choice?'<p class="syn-keyboard">點選答案，或按鍵盤 1–6。</p>':'')+feedback+'</section></div>');
 }
 function renderFinish() {
   const weak=questions.filter(q=>!record(q.id)?.mastered);
-  shell('<section class="syn-clear syn-enter"><div class="syn-clear-emblem" aria-hidden="true">✧</div><p class="syn-kicker">ROUND COMPLETE</p><h3>28 題完成</h3><p>已掌握 <strong>'+mastered()+' / '+total+'</strong> 題。'+(weak.length?'可再練習未掌握的題目。':'14 個同義詞都已掌握！')+'</p><div class="syn-clear-actions"><button class="syn-secondary" type="button" data-go="home">系統首頁</button><button class="syn-primary" type="button" data-go="guide">再看詞語指南 →</button><button class="syn-primary" type="button" data-new-round>重新隨機練習 ↻</button></div></section>');
+  shell('<section class="syn-clear syn-enter"><div class="syn-clear-emblem" aria-hidden="true">'+icon('spark')+'</div><p class="syn-kicker">ROUND COMPLETE</p><h3>28 題完成</h3><p>已掌握 <strong>'+mastered()+' / '+total+'</strong> 題。'+(weak.length?'可再練習未掌握的題目。':'14 個同義詞都已掌握！')+'</p><div class="syn-clear-actions"><button class="syn-secondary" type="button" data-go="home">系統首頁</button><button class="syn-primary" type="button" data-go="guide">再看詞語指南</button><button class="syn-primary" type="button" data-new-round>重新隨機練習</button></div></section>');
 }
 function renderRecordings() {
   shell('<section class="syn-recordings syn-enter"><p class="syn-kicker">YOUR VOICE ARCHIVE</p><h3>我的錄音</h3><p>在題目按「錄音朗讀」後，可以在這裡重聽。錄音會儲存至學生帳戶。</p><div data-recording-list role="status">正在載入錄音…</div></section>');
@@ -269,7 +271,7 @@ async function loadRecordings() {
     recordingItems.clear();for(const item of items)recordingItems.set(item.id,item);
     list.innerHTML=(offline?'<p class="syn-recording-warning">暫時未能讀取帳戶錄音；以下先顯示此裝置的副本。</p>':'')+(items.length?items.map((item,index)=>{
       const q=byId.get(item.question),when=item.at?new Date(item.at).toLocaleString('zh-HK',{dateStyle:'medium',timeStyle:'short'}):'錄音';
-      return '<article class="syn-recording-card"><span>REC '+String(index+1).padStart(2,'0')+'</span><div><h4>'+esc(q?.exercise.original||'朗讀記錄')+'</h4><p>'+esc(when)+' · '+(item.synced?'已儲存至帳戶':'只在此裝置')+'</p><div class="syn-recorder-actions"><button type="button" data-play-recording="'+esc(item.id)+'">▶ 播放錄音</button>'+(!item.synced?'<button type="button" data-upload-recording="'+esc(item.id)+'">重試上傳</button>':'')+'</div><audio controls hidden></audio><p role="status"></p></div></article>';
+      return '<article class="syn-recording-card"><span>REC '+String(index+1).padStart(2,'0')+'</span><div><h4>'+esc(q?.exercise.original||'朗讀記錄')+'</h4><p>'+esc(when)+' · '+(item.synced?'已儲存至帳戶':'只在此裝置')+'</p><div class="syn-recorder-actions"><button type="button" data-play-recording="'+esc(item.id)+'">'+icon('audio')+'播放錄音</button>'+(!item.synced?'<button type="button" data-upload-recording="'+esc(item.id)+'">重試上傳</button>':'')+'</div><audio controls hidden></audio><p role="status"></p></div></article>';
     }).join(''):'<p class="syn-empty-recordings">還沒有錄音。到練習題按「錄音朗讀」開始。</p>');
   }catch {if(list.isConnected)list.textContent='暫時未能載入錄音，請稍後再試。';}
 }

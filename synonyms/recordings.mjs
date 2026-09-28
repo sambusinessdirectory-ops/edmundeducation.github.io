@@ -50,9 +50,9 @@ export async function recordingBlob(item,token,rpc) {
 }
 export function mountRecorder(host,{owner,token,question,rpc,onClose}) {
   let alive=true,stream=null,recorder=null,timer=null,url=null;
-  host.innerHTML='<div class="syn-recorder-panel"><div class="syn-recorder-top"><div><p class="syn-kicker">YOUR TURN · 錄音朗讀</p><h4>換你說一次</h4></div><button type="button" data-close-recorder aria-label="收起錄音面板">✕</button></div><p>看著原句朗讀。錄好後可重聽，也可在「我的錄音」查看。</p><div class="syn-recorder-actions"><button type="button" data-start-record>● 開始錄音</button><button type="button" data-stop-record hidden>■ 停止錄音</button></div><audio controls hidden aria-label="我的錄音"></audio><p data-record-status role="status"></p></div>';
+  host.innerHTML='<div class="syn-recorder-panel"><div class="syn-recorder-top"><div><p class="syn-kicker">YOUR TURN · 錄音朗讀</p><h4>換你說一次</h4></div><button type="button" data-close-recorder aria-label="收起錄音面板">收起</button></div><p>看著原句朗讀。錄好後可重聽，也可在「我的錄音」查看。</p><div class="syn-recorder-actions"><button type="button" data-start-record><img class="syn-icon" src="/synonyms/icons/microphone.svg" alt="" aria-hidden="true">開始錄音</button><button type="button" data-stop-record hidden>停止錄音</button></div><audio controls hidden aria-label="我的錄音"></audio><p data-record-status role="status"></p></div>';
   const status=message=>{if(alive)host.querySelector('[data-record-status]').textContent=message;};
-  const play=blob=>{if(!alive)return;if(url)URL.revokeObjectURL(url);url=URL.createObjectURL(blob);const player=host.querySelector('audio');player.src=url;player.hidden=false;host.querySelector('[data-start-record]').textContent='↻ 重新錄音';};
+  const play=blob=>{if(!alive)return;if(url)URL.revokeObjectURL(url);url=URL.createObjectURL(blob);const player=host.querySelector('audio');player.src=url;player.hidden=false;host.querySelector('[data-start-record]').textContent='重新錄音';};
   const stop=()=>{clearTimeout(timer);if(recorder?.state==='recording')recorder.stop();stream?.getTracks().forEach(track=>track.stop());stream=null;};
   host.querySelector('[data-close-recorder]').onclick=()=>{stop();onClose();};
   host.querySelector('[data-stop-record]').onclick=stop;
@@ -72,12 +72,12 @@ export function mountRecorder(host,{owner,token,question,rpc,onClose}) {
         const blob=new Blob(chunks,{type:recorder.mimeType||'audio/webm'});
         if(!blob.size||Date.now()-began<600){status('錄音太短，請再試一次。');return;}
         play(blob);status('正在儲存錄音…');
-        try{const saved=await saveRecording({owner,token,question,blob,rpc});status(saved.synced?'✓ 已儲存至學生帳戶。':'已保留在此裝置；請在「我的錄音」重試上傳。');}
+        try{const saved=await saveRecording({owner,token,question,blob,rpc});status(saved.synced?'已儲存至學生帳戶。':'已保留在此裝置；請在「我的錄音」重試上傳。');}
         catch(error){status(error?.message||'未能儲存錄音，請重試。');}
       };
       recorder.start();host.querySelector('[data-stop-record]').hidden=false;status('正在錄音…最長 60 秒。');timer=setTimeout(stop,60000);
     }catch{status('未能使用麥克風。請檢查瀏覽器權限。');}finally{if(alive)start.disabled=false;}
   };
-  void allRecordings(owner,token,rpc).then(({items})=>{const latest=items.find(item=>item.question===question);if(!latest||!alive)return;return recordingBlob(latest,token,rpc).then(blob=>{if(!alive)return;play(blob);status(latest.synced?'✓ 已有錄音，可重聽或重新錄音。':'✓ 錄音在此裝置，請到「我的錄音」重試上傳。');});}).catch(()=>{});
+  void allRecordings(owner,token,rpc).then(({items})=>{const latest=items.find(item=>item.question===question);if(!latest||!alive)return;return recordingBlob(latest,token,rpc).then(blob=>{if(!alive)return;play(blob);status(latest.synced?'已有錄音，可重聽或重新錄音。':'錄音在此裝置，請到「我的錄音」重試上傳。');});}).catch(()=>{});
   return ()=>{alive=false;stop();host.querySelector('audio')?.pause();if(url)URL.revokeObjectURL(url);};
 }
