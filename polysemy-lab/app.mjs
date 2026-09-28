@@ -1,4 +1,4 @@
-import {companionFor,companionName} from './companion.mjs?v=20260928-map-companions1';
+import {companionFor,companionName,companionStorageKeys} from './companion.mjs?v=20260928-map-companions2';
 import {createMedia} from './media.mjs?v=20260928-recording-studio1';
 import {modules,moduleMap,allQuestionMap,selectModule,showModule,questions,senses,questionMap,orderedOptions,isCorrectAnswer,replay,summary,dailyAnswers,hkDate,esc,highlighted} from './core.mjs?v=20260924-polysemy-fixes1';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
@@ -102,7 +102,7 @@ document.addEventListener('visibilitychange',()=>{captureTime();if(document.hidd
 window.addEventListener('pagehide',()=>{media.stop();captureTime();persist();});window.addEventListener('online',()=>void sync());
 window.addEventListener('beforeunload',event=>{if(user&&mode==='practice'&&replay(events)&&!replay(events).complete){persist();event.preventDefault();event.returnValue='';}});
 setInterval(()=>{if(user&&!document.hidden)void sync();},60000);
-window.addEventListener('storage',event=>{if(user&&event.key===`writing-chess-map-v1:${user.id}`){document.body.dataset.polysemyCompanion=companionFor(user.id);if(mode==='practice')renderPractice();return;}if(!user||event.key!==key()||!event.newValue)return;try{const c=JSON.parse(event.newValue);events=unique([...events,...c.events]);outbox=unique([...outbox,...c.outbox]);refreshProgress();void sync();}catch{}});
+window.addEventListener('storage',event=>{if(user&&companionStorageKeys(user.id).includes(event.key)){document.body.dataset.polysemyCompanion=companionFor(user.id);if(mode==='practice')renderPractice();return;}if(!user||event.key!==key()||!event.newValue)return;try{const c=JSON.parse(event.newValue);events=unique([...events,...c.events]);outbox=unique([...outbox,...c.outbox]);refreshProgress();void sync();}catch{}});
 async function enter(token){const gen=++generation;const rows=await rpc('flashcard_student_session_profile',{p_token:token});if(gen!==generation)return false;const row=rows?.[0];if(!row?.id||!row.session_token)return false;user={id:row.id,name:row.name,role:'student',token:row.session_token};document.body.dataset.polysemyCompanion=companionFor(row.id);events=[];outbox=[];timeDays=[];feedback=null;clockSeconds=0;cacheWarning=false;
  try{const c=JSON.parse(localStorage.getItem(key())||'null');if(c&&Array.isArray(c.events)&&Array.isArray(c.outbox)){events=c.events;outbox=c.outbox;timeDays=c.timeDays||[];}}catch{}
  try{selectModule(routedModule()||localStorage.getItem(key()+':module')||'show');}catch{selectModule('show');}
