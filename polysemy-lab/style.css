@@ -147,3 +147,30 @@
 .eddy-streak-sprite::after,.polysemy-streak[data-streak-stage] .eddy-streak-sprite::after{display:block;content:"";position:absolute;inset:0;background-image:url('/assets/polysemy-lab/eddy-streak-six-stages-v5.webp');background-size:600% 200%;background-position:var(--eddy-stage-x) var(--eddy-closed-y);-webkit-mask-image:var(--eddy-eye-mask);mask-image:var(--eddy-eye-mask);-webkit-mask-size:100% 100%;mask-size:100% 100%;opacity:0;animation:eddy-eyes-only-blink 5.8s steps(1,end) infinite;pointer-events:none}
 @keyframes eddy-eyes-only-blink{0%,88%,91%,100%{opacity:0}89%,90%{opacity:1}}
 @media(prefers-reduced-motion:reduce){.eddy-streak-sprite::after,.polysemy-streak[data-streak-stage] .eddy-streak-sprite::after{animation:none;opacity:0}}
+
+/* Chosen Writing-map companion: one anchored atlas cell per streak milestone. */
+body[data-polysemy-companion="phoebe"]{--companion-sheet:url('/assets/polysemy-lab/phoebe-polysemy-eight-poses-v1.png')}
+body[data-polysemy-companion="elsie"]{--companion-sheet:url('/assets/polysemy-lab/elsie-polysemy-eight-poses-v1.png')}
+body[data-polysemy-companion="noir"]{--companion-sheet:url('/assets/polysemy-lab/noir-polysemy-eight-poses-v1.png')}
+body[data-polysemy-companion="celeste"]{--companion-sheet:url('/assets/polysemy-lab/celeste-polysemy-eight-poses-v1.png')}
+body[data-polysemy-companion]:not([data-polysemy-companion="eddy"]) .polysemy-streak{--companion-pose-x:0%;--companion-pose-y:0%}
+body[data-polysemy-companion]:not([data-polysemy-companion="eddy"]) .polysemy-streak[data-streak-stage="1"]{--companion-pose-x:33.333%}
+body[data-polysemy-companion]:not([data-polysemy-companion="eddy"]) .polysemy-streak[data-streak-stage="2"]{--companion-pose-x:66.667%}
+body[data-polysemy-companion]:not([data-polysemy-companion="eddy"]) .polysemy-streak[data-streak-stage="3"]{--companion-pose-x:100%}
+body[data-polysemy-companion]:not([data-polysemy-companion="eddy"]) .polysemy-streak[data-streak-stage="4"]{--companion-pose-x:0%;--companion-pose-y:100%}
+body[data-polysemy-companion]:not([data-polysemy-companion="eddy"]) .polysemy-streak[data-streak-stage="5"]{--companion-pose-x:33.333%;--companion-pose-y:100%}
+body[data-polysemy-companion]:not([data-polysemy-companion="eddy"]) .eddy-streak-sprite{
+ background-image:var(--companion-sheet);background-size:400% 200%;
+ background-position:var(--companion-pose-x) var(--companion-pose-y);animation:none;
+}
+/* The closed-eye fourth pose supplies eyes only; head and body never switch. */
+body[data-polysemy-companion]:not([data-polysemy-companion="eddy"]) .eddy-streak-sprite::after{
+ display:block;content:"";position:absolute;inset:0;opacity:0;pointer-events:none;
+ background-image:var(--companion-sheet);background-size:400% 200%;background-position:100% 0%;
+ -webkit-mask-image:radial-gradient(ellipse 13% 9% at 37% 49%,#000 62%,transparent 82%),radial-gradient(ellipse 13% 9% at 66% 49%,#000 62%,transparent 82%);
+ mask-image:radial-gradient(ellipse 13% 9% at 37% 49%,#000 62%,transparent 82%),radial-gradient(ellipse 13% 9% at 66% 49%,#000 62%,transparent 82%);
+ animation:eddy-eyes-only-blink 5.8s steps(1,end) infinite;
+}
+.recorder .companion-recorder-art{display:block;aspect-ratio:1/1;height:auto;background-image:var(--companion-sheet);background-size:400% 200%;background-position:66.667% 100%;background-repeat:no-repeat}
+.recorder .companion-recorder-art.is-audio{background-position:100% 100%}
+@media(prefers-reduced-motion:reduce){body[data-polysemy-companion]:not([data-polysemy-companion="eddy"]) .eddy-streak-sprite::after{animation:none;opacity:0}}
