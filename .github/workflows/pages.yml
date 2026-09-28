@@ -13,8 +13,9 @@ permissions:
 
 concurrency:
   group: pages
-  # Keep the active release and queue later pushes instead of replacing a waiting release.
-  queue: max
+  # Finish the active release, then deploy only the latest queued commit.
+  # Every main commit includes earlier changes, so intermediate deployments add delay.
+  queue: single
   cancel-in-progress: false
 
 jobs:
