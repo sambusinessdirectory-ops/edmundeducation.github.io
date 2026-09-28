@@ -1,9 +1,10 @@
 /* The permanent store sits beside the 3D fitting room. */
-.expression-closet:has(.expression-closet-shop){display:flex;flex-direction:column;height:calc(100dvh - 28px);overflow:hidden}
-.expression-closet:has(.expression-closet-shop) .expression-closet-workspace{flex:1;min-height:0;grid-template-columns:minmax(0,1fr) clamp(410px,40%,560px)}
-.expression-closet:has(.expression-closet-shop) .expression-closet-stage{min-height:0}
-.expression-closet-shop{box-sizing:border-box;min-width:0;overflow:auto;overscroll-behavior:contain;border-left:1px solid #b9995c;background:#08241c url('./assets/closet/shop/emerald-atelier.webp') center top/100% auto no-repeat;color:#f5e8c8;scrollbar-color:#a7854d #09241b}
-.clothing-shop-header{position:sticky;top:0;z-index:3;padding:17px 7%;border-bottom:1px solid #b8995455;background:#082119ef;backdrop-filter:blur(10px)}
+.expression-closet:has(.expression-closet-shop){display:block;box-sizing:border-box;width:min(1800px,calc(100vw - 24px));max-width:none;height:calc(100dvh - 24px);max-height:none;padding:0;overflow:hidden;border:0;border-radius:0;background:transparent;box-shadow:none}
+.expression-closet:has(.expression-closet-shop) .expression-closet-workspace{display:grid;grid-template-columns:minmax(0,1fr) clamp(370px,28vw,450px);gap:12px;height:100%;min-height:0}
+.expression-closet-room{display:flex;flex-direction:column;min-width:0;min-height:0;overflow:hidden;border:1px solid #715743;border-radius:20px;background:#121110;box-shadow:0 25px 80px #0008}
+.expression-closet:has(.expression-closet-shop) .expression-closet-stage{flex:1;min-height:0}
+.expression-closet-shop{box-sizing:border-box;min-width:0;height:100%;overflow:auto;overscroll-behavior:contain;border:1px solid #b9995c;border-radius:20px;background:#08241c url('./assets/closet/shop/emerald-atelier.webp') center top/100% auto no-repeat;color:#f5e8c8;scrollbar-color:#a7854d #09241b;box-shadow:0 25px 80px #0008}
+.clothing-shop-header{position:sticky;top:0;z-index:3;padding:17px 7%;border-bottom:1px solid #b8995455;border-radius:19px 19px 0 0;background:#082119ef;backdrop-filter:blur(10px)}
 .clothing-shop-header p{margin:0 0 4px;color:#d2b779;font-size:10px;letter-spacing:.25em;font-weight:700}
 .clothing-shop-header h3{margin:0;color:#fff2d3;font:500 26px/1.3 Georgia,'Noto Serif TC',serif}
 .expression-closet-shop button{font:inherit;cursor:pointer}
@@ -24,4 +25,4 @@
 .expression-closet-shop form label{width:100%;color:#f3e8d0}.expression-closet-shop input{min-width:0;flex:1;padding:12px;color:#243429;background:#fff8e8;border:1px solid #b9995c;border-radius:8px}
 .expression-closet-shop h4,.expression-closet-shop .closet-save-status,.expression-closet-shop [data-shop-status]{color:#fff1ce;text-shadow:0 1px 3px #000}
 .expression-closet-shop button:focus-visible,.expression-closet-shop input:focus-visible{outline:3px solid #f2d47f;outline-offset:3px}
-@media(max-width:760px){.expression-closet:has(.expression-closet-shop){overflow:auto}.expression-closet:has(.expression-closet-shop) .expression-closet-workspace{display:block;flex:none}.expression-closet:has(.expression-closet-shop) .expression-closet-stage{min-height:300px;height:min(48dvh,380px)}.expression-closet-shop{overflow:visible;border-left:0;border-top:1px solid #b9995c}.expression-closet-shop .clothing-shop-catalog{padding:18px 5% 36px}}
+@media(max-width:900px){.expression-closet:has(.expression-closet-shop){width:calc(100vw - 12px);height:calc(100dvh - 12px);overflow:auto}.expression-closet:has(.expression-closet-shop) .expression-closet-workspace{display:flex;flex-direction:column;height:auto}.expression-closet-room{flex:none;height:min(62dvh,540px);min-height:380px}.expression-closet:has(.expression-closet-shop) .expression-closet-stage{min-height:0}.expression-closet-shop{flex:none;height:auto;overflow:visible}.expression-closet-shop .clothing-shop-catalog{padding:18px 5% 36px}}

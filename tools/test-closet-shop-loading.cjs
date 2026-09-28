@@ -23,9 +23,14 @@ const server=http.createServer((req,res)=>{const file=path.join(root,new URL(req
  assert.equal(await page.locator('.eddy-clothing-shop').count(),0);
  assert.equal(await page.locator('[data-open-clothing-shop]').count(),0);
  assert.equal(await page.locator('.expression-closet-shop').evaluate(el=>el.getBoundingClientRect().left>document.querySelector('.expression-closet-stage').getBoundingClientRect().right-2),true);
- await page.screenshot({path:'/tmp/emerald-shop-side-desktop.png'});
+ await page.setViewportSize({width:1645,height:1300});
+ await page.waitForTimeout(250);
+ assert.equal(await page.locator('.expression-closet-room').evaluate(el=>el.clientWidth>window.innerWidth*.65),true);
+ assert.equal(await page.locator('.expression-closet-stage canvas').evaluate(el=>Math.abs(el.clientHeight-el.parentElement.clientHeight)<3),true);
+ await page.screenshot({path:'/tmp/emerald-shop-detached-desktop.png'});
  await page.setViewportSize({width:390,height:844});
- await page.screenshot({path:'/tmp/emerald-shop-side-mobile.png'});
+ await page.waitForTimeout(250);
+ await page.screenshot({path:'/tmp/emerald-shop-detached-mobile.png'});
  assert.equal(await page.locator('.expression-closet-shop').evaluate(el=>el.getBoundingClientRect().top>=document.querySelector('.expression-closet-stage').getBoundingClientRect().bottom-2),true);
  assert.equal(await page.locator('.expression-closet').evaluate(el=>el.scrollWidth<=el.clientWidth+1),true);
  await page.locator('[data-close-closet]').click();assert.equal(await page.locator('.expression-closet').count(),0);

@@ -1,6 +1,6 @@
 import {beginCosmeticsPreview,supportsCosmetics,confirmDiscardCosmetics,restoreCosmetics} from './eddy-cosmetics.mjs?v=20260928-independent-avatars1';
 import {closetRoute} from './closet-walking.mjs';
-import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260928-side-shop1';
+import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260928-detached-shop1';
 import {batchClosetSurfaces} from './closet-static-batches.mjs';
 import * as THREE from './vendor/three/three.module.js';
 import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260928-independent-avatars1';
@@ -1169,7 +1169,7 @@ function mountCloset(root, character, signal) {
     const compact = width < 650;
     const minimumHeight = compact ? 300 : 390;
     const maximumHeight = Math.min(690, Math.max(minimumHeight, innerHeight - (compact ? 190 : 220)));
-    const height = clamp(width * .59, minimumHeight, maximumHeight);
+    const height = root.closest('.expression-closet-room') ? Math.max(minimumHeight, root.clientHeight) : clamp(width * .59, minimumHeight, maximumHeight);
     renderer.setSize(width, height);
     camera.aspect = width / height;
     camera.fov = clamp(46 / Math.max(.8, camera.aspect / 1.45), 36, 56);
@@ -1472,11 +1472,17 @@ export function openCompanionCloset({ character = 'eddy' } = {}) {
       '</aside>'
       ) +
     '</div>';
+  if(supportsCosmetics(character)){
+    const workspace=dialog.querySelector('.expression-closet-workspace');
+    const room=document.createElement('section');room.className='expression-closet-room';
+    room.append(dialog.querySelector('.expression-closet-header'),dialog.querySelector('.expression-closet-controls'),dialog.querySelector('.expression-closet-stage'));
+    workspace.prepend(room);
+  }
   document.body.append(dialog);
 
   const controller = new AbortController();
   if(supportsCosmetics(character)){
-    if(!document.querySelector('link[data-clothing-shop-style]')){const style=document.createElement('link');style.rel='stylesheet';style.dataset.clothingShopStyle='';style.href=new URL('./eddy-clothing-shop.css?v=20260928-side-shop1',import.meta.url).href;document.head.append(style);}
+    if(!document.querySelector('link[data-clothing-shop-style]')){const style=document.createElement('link');style.rel='stylesheet';style.dataset.clothingShopStyle='';style.href=new URL('./eddy-clothing-shop.css?v=20260928-detached-shop1',import.meta.url).href;document.head.append(style);}
     mountClosetInventory(dialog.querySelector('.clothing-shop-catalog'),controller.signal,{character});
     dialog.querySelector('.clothing-shop-catalog h3').id='clothing-shop-inventory-title';
   }
