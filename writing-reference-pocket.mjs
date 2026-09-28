@@ -12,8 +12,8 @@ const SECTIONS = [
 ];
 const node=(tag,cls,text)=>{const el=document.createElement(tag);el.className=cls||'';if(text!==undefined)el.textContent=text;return el;};
 let pocketMenuSerial=0;
-export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appendRich}) {
- if(!host)return {refresh(){},reset(){}};
+export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appendRich,getEssayText=()=>'',entryUsed=()=>false}) {
+ if(!host)return {refresh(){},reset(){},refreshGlossaryUsage(){}};
  host.className='writing-reference-pocket glass-panel';
  const head=node('header','reference-pocket-head'), title=node('div');title.append(node('p','eyebrow','MY WRITING POCKET'),node('h2','','寫作參考袋'));
  const float=node('button','small-button','Float · 浮動');float.type='button';float.setAttribute('aria-pressed','false');head.append(title,float);
@@ -28,6 +28,18 @@ export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appen
  const content=node('div','reference-pocket-content');content.tabIndex=0;content.setAttribute('aria-label','Writing reference items');
  const status=node('p','reference-pocket-status');status.setAttribute('role','status');host.append(head,controls,status,content);
  let sequence=0,owner='',history=null,historyPromise=null,reverse=false,floating=false,category='glossary';
+ const dockMarker=document.createComment('Writing Pocket dock');
+ const workspace=host.closest('.view');
+ function refreshGlossaryUsage(){
+  if(category!=='glossary')return;
+  const essay=getEssayText();
+  content.querySelectorAll('[data-reference-vocabulary]').forEach(card=>{
+   const used=entryUsed(essay,card.dataset.referenceVocabulary);
+   card.classList.toggle('is-used',used);
+   const status=card.querySelector('[data-reference-vocabulary-status]');
+   if(status)status.textContent=used?'已使用 · Used in your writing':'尚未使用 · Not yet used';
+  });
+ }
  function syncPicker(){const index=SECTIONS.findIndex(section=>section[0]===category),section=SECTIONS[index];triggerName.textContent=`${section[1]} · ${section[2]}`;trigger.setAttribute('aria-label',`Reference category · 參考類別: ${section[1]} · ${section[2]}`);triggerMark.textContent=String(index+1).padStart(2,'0');optionButtons.forEach((option,i)=>{option.setAttribute('aria-checked',String(i===index));option.classList.toggle('is-selected',i===index);});}
  function closeMenu(restoreFocus=false){if(menu.hidden)return;menu.hidden=true;picker.classList.remove('is-open','opens-up');trigger.setAttribute('aria-expanded','false');if(restoreFocus)trigger.focus();}
  function openMenu(index=SECTIONS.findIndex(section=>section[0]===category)){const rect=trigger.getBoundingClientRect(),below=window.innerHeight-rect.bottom-12,above=rect.top-12,up=below<Math.min(420,window.innerHeight*.45)&&above>below;picker.classList.toggle('opens-up',up);menu.style.maxHeight=`${Math.max(150,Math.min(440,up?above:below))}px`;menu.hidden=false;picker.classList.add('is-open');trigger.setAttribute('aria-expanded','true');optionButtons[index].focus();optionButtons[index].scrollIntoView({block:'nearest'});}
@@ -42,7 +54,8 @@ export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appen
   try{
    if(category==='glossary'){
     const vocabulary=await getGlossary();if(!current())return;
-    for(const row of vocabulary){const card=node('article','reference-vocabulary');card.append(node('strong','',row.english),node('span','',row.chinese));content.append(card);}
+    for(const row of vocabulary){const card=node('article','reference-vocabulary');card.dataset.referenceVocabulary=row.english||'';const english=node('strong','',row.english),chinese=node('span','reference-vocabulary-translation',row.chinese||''),usage=node('span','sr-only');usage.dataset.referenceVocabularyStatus='';card.append(english);if(row.chinese)card.append(chinese);card.append(usage);content.append(card);}
+    refreshGlossaryUsage();
     status.textContent=vocabulary.length?`${vocabulary.length} words · 詞彙`:'此題暫無主題詞彙 · No glossary available for this topic.';
    }else{
     if(!history||force){if(!historyPromise||force)historyPromise=getHistory();const loaded=await historyPromise;if(!current())return;history=loaded;historyPromise=null;}if(!current())return;
@@ -67,7 +80,8 @@ export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appen
   }catch{if(current()){status.textContent='未能載入，請按更新重試 · Could not load. Please refresh.';history=null;historyPromise=null;}}
  }
  function clampPosition(){if(!floating)return;const r=host.getBoundingClientRect();host.style.left=`${Math.max(8,Math.min(r.left,window.innerWidth-r.width-8))}px`;host.style.top=`${Math.max(8,Math.min(r.top,window.innerHeight-80))}px`;}
- function toggleFloat(){floating=!floating;host.classList.toggle('is-floating',floating);float.textContent=floating?'Dock · 放回':'Float · 浮動';float.setAttribute('aria-pressed',String(floating));if(floating){host.style.left=`${Math.max(8,window.innerWidth-Math.min(420,window.innerWidth-16)-24)}px`;host.style.top='120px';clampPosition();}else{host.style.left='';host.style.top='';}}
+ function toggleFloat(){floating=!floating;if(floating){host.before(dockMarker);document.body.append(host);}else if(dockMarker.isConnected){dockMarker.replaceWith(host);}host.classList.toggle('is-floating',floating);float.textContent=floating?'Dock · 放回':'Float · 浮動';float.setAttribute('aria-pressed',String(floating));if(floating){host.style.left=`${Math.max(8,window.innerWidth-Math.min(420,window.innerWidth-16)-24)}px`;host.style.top='120px';clampPosition();}else{host.style.left='';host.style.top='';}}
+ if(workspace){new MutationObserver(()=>{if(floating&&workspace.hidden)toggleFloat();}).observe(workspace,{attributes:true,attributeFilter:['hidden']});}
  float.onclick=toggleFloat;trigger.onclick=()=>menu.hidden?openMenu():closeMenu(true);
  trigger.onkeydown=e=>{if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();openMenu();}};
  optionButtons.forEach((option,index)=>{option.onclick=()=>selectCategory(index);});
@@ -76,5 +90,5 @@ export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appen
  order.onclick=()=>{reverse=!reverse;order.textContent=reverse?'Latest → earliest · 最新優先':'Earliest → latest · 最早優先';render();};refresh.onclick=()=>render(true);
  let drag=null;head.onpointerdown=e=>{if(!floating||e.target.closest('button')||e.button!==0)return;const r=host.getBoundingClientRect();drag={x:e.clientX-r.left,y:e.clientY-r.top,id:e.pointerId};head.setPointerCapture(e.pointerId);};
  head.onpointermove=e=>{if(!drag||drag.id!==e.pointerId)return;host.style.left=`${e.clientX-drag.x}px`;host.style.top=`${e.clientY-drag.y}px`;clampPosition();};head.onpointerup=head.onpointercancel=()=>{drag=null;};window.addEventListener('resize',clampPosition);
- return {refresh:render,reset};
+ return {refresh:render,reset,refreshGlossaryUsage};
 }

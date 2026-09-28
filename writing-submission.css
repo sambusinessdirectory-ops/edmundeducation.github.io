@@ -1775,7 +1775,11 @@ body.writing-feedback-fullscreen { overflow: hidden; }
 .reference-pocket-option-check{visibility:hidden;color:#76592d;font:900 14px ui-sans-serif,system-ui,sans-serif;text-align:center}.reference-pocket-option.is-selected .reference-pocket-option-check{visibility:visible}
 .reference-pocket-status{font:600 12px/1.5 system-ui;color:#dfdcf0;margin:12px 0}
 .reference-pocket-content{max-height:480px;overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable;min-height:70px;padding-right:4px}
-.reference-vocabulary{white-space:pre-wrap;overflow-wrap:anywhere;display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px 8px;border-bottom:1px solid #e7dfd0;font-size:14px;line-height:1.5}
+.reference-vocabulary{white-space:pre-wrap;overflow-wrap:anywhere;display:grid;gap:4px;margin:8px 0;padding:12px 14px;border:1px solid #ded4c0;border-radius:12px;background:#fffdf8;color:#242342;font-size:14px;line-height:1.5;box-shadow:0 2px 8px #100d2714}
+.reference-vocabulary strong{font:750 15px/1.45 ui-sans-serif,system-ui,sans-serif}
+.reference-vocabulary-translation{color:#4b4760;font:600 13px/1.55 ui-sans-serif,system-ui,sans-serif}
+.reference-vocabulary.is-used{border-color:#91cda5;background:#dcf6e5;color:#145c35;box-shadow:inset 4px 0 #2b9d61,0 2px 8px #100d2714}
+.reference-vocabulary.is-used .reference-vocabulary-translation{color:#145c35}
 .reference-submission-date{font:12px system-ui;color:#dfdcf0;margin:16px 0 8px}
 .reference-suggestion{margin:12px 0;border:1px solid #ddd8cb;border-radius:12px;overflow:hidden;background:white;color:#242342;font-size:14px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}
 .reference-band{padding:12px}.reference-band>strong{display:block;font:700 11px system-ui;margin-bottom:6px;color:#67627a}.reference-band.is-originalSentence{background:#f3f2f7}.reference-band.is-enhancement{background:#edf8ef}.reference-band.is-benefit{background:#fff4d9}.reference-suggestion>div:not(.reference-band){padding:12px}

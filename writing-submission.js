@@ -1,4 +1,4 @@
-import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20260928-pocket3';
+import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20260928-pocket4';
 import {preserveTextareaParagraphs,preserveArticleCopy} from './writing-paragraph-clipboard.mjs?v=20260927-pocket1';
 import {mountFeedbackReading} from './writing-feedback-reading.mjs?v=20260927-writing2';
 import {submissionSharingControls} from './writing-submission-sharing.mjs?v=20260927-toolbar1';
@@ -4911,6 +4911,7 @@ function handleWritingInput() {
     state.previousWriting = nextValue;
     updateEditorMetrics();
     refreshVocabularyUsage();
+    referencePocket.refreshGlossaryUsage();
     scheduleDraftSave();
     renderGrammarIssues();
     syncProofreadStatus();
@@ -4930,6 +4931,7 @@ function handleWritingInput() {
   state.previousWriting = nextValue;
   updateEditorMetrics();
   refreshVocabularyUsage();
+  referencePocket.refreshGlossaryUsage();
   scheduleDraftSave();
   renderGrammarIssues();
   syncProofreadStatus();
@@ -10413,6 +10415,8 @@ async function checkHealth() {
 const referencePocket = mountReferencePocket({
  host:document.querySelector('[data-writing-reference-pocket]'),
  getOwner:()=>state.user?.role==='student'?state.authToken:'',
+ getEssayText:()=>elements.writingInput?.value||'',
+ entryUsed:vocabularyEntryUsed,
  getGlossary:async()=>{const resource=canonicalWritingTopicResource();if(resource?.type==='manual-writing-topic'&&resource.wordList)return [{english:resource.wordList,chinese:''}];const route=selectedTopicReferenceRoute();if(!route)return [];const catalog=await loadTopicReferenceCatalog();return catalog[route.exerciseId]?.vocabulary||[];},
  getHistory:async()=>{
   const token=state.authToken;const submissions=[];
