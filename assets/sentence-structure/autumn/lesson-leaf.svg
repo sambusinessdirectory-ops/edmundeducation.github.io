@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none">
+  <defs><linearGradient id="leaf" x1="19" y1="8" x2="79" y2="79" gradientUnits="userSpaceOnUse"><stop stop-color="#f8c664"/><stop offset=".48" stop-color="#d86e35"/><stop offset="1" stop-color="#963d2e"/></linearGradient><filter id="shadow" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="1" dy="3" stdDeviation="2" flood-color="#633b2d" flood-opacity=".3"/></filter></defs>
+  <g filter="url(#shadow)"><path d="M48 10 55 25 67 17 68 34 83 35 74 48 86 57 68 63 72 76 55 72 48 84 41 72 24 76 28 63 10 57 22 48 13 35 28 34 29 17 41 25 48 10Z" fill="url(#leaf)" stroke="#965235" stroke-width="2" stroke-linejoin="round"/><path d="M48 26v55M25 41l23 24m23-24L48 65M24 57l24 16m24-16L48 73" stroke="#f9dfa0" stroke-width="2" stroke-linecap="round" opacity=".77"/><path d="M48 79c2 5 2 9 0 13" stroke="#83513a" stroke-width="3" stroke-linecap="round"/></g>
+</svg>
