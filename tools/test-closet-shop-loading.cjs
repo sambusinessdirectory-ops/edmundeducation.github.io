@@ -1,10 +1,10 @@
 const fs=require('fs'),path=require('path'),http=require('http'),assert=require('node:assert/strict');
 const {chromium}=require(process.env.HOME+'/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const root=path.resolve(__dirname,'..');
-const server=http.createServer((req,res)=>{const file=path.join(root,new URL(req.url,'http://local').pathname);fs.readFile(file,(e,b)=>{res.writeHead(e?404:200,{'Content-Type':/\.(mjs|js)$/.test(file)?'text/javascript':'text/html'});res.end(e?'':b);});});
+const server=http.createServer((req,res)=>{const file=path.join(root,new URL(req.url,'http://local').pathname);fs.readFile(file,(e,b)=>{res.writeHead(e?404:200,{'Content-Type':({'.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.webp':'image/webp','.png':'image/png'})[path.extname(file)]||'text/html'});res.end(e?'':b);});});
 (async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));const browser=await chromium.launch({headless:true});try{
  const page=await browser.newPage();let fail=true,calls=0;const errors=[];page.on('pageerror',e=>errors.push(e.message));
- await page.route('**/__shop',r=>r.fulfill({contentType:'text/html',body:'<div id="inventory"></div>'}));
+ await page.route('**/__shop',r=>r.fulfill({contentType:'text/html',body:'<link rel="stylesheet" href="/common-expression-map.css"><div id="inventory"></div>'}));
  await page.route('https://fixture.invalid/rest/v1/rpc/eddie_farm_snapshot',r=>{calls++;return r.fulfill({status:fail?503:200,contentType:'application/json',body:JSON.stringify(fail?{message:'Temporary shop outage'}:{balance:125,cosmetics:[]})});});
  await page.addInitScript(()=>{window.EdmundSystemNav={getStudentSession:()=>({id:'fixture',token:'fixture',role:'student'})};window.EDMUND_SUPABASE={url:'https://fixture.invalid',anonKey:'fixture'};window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:{}}})},rpc:async name=>({data:name==='eddie_farm_owned_cosmetics'?['cream-cable-knit']:{equipped:{},outfits:[]}})})};});
  await page.goto('http://127.0.0.1:'+server.address().port+'/__shop');
@@ -14,5 +14,16 @@ const server=http.createServer((req,res)=>{const file=path.join(root,new URL(req
  fail=false;await page.locator('[data-shop-retry]').click();await page.waitForFunction(()=>document.querySelector('[data-closet-coins] strong').textContent==='125');
  await page.waitForFunction(()=>document.querySelector('[data-shop-status]').textContent==='');
  await page.locator('[data-cosmetic="cream-cable-knit"]').click();assert.equal(await page.locator('[data-cosmetic="cream-cable-knit"]').getAttribute('aria-pressed'),'true');
- assert.equal(calls,2);assert.deepEqual(errors,[]);console.log('PASS: missing API loaded, failed shop retried, balance restored and owned clothes equipped');
+ assert.equal(calls,2);
+ await page.locator('[data-open-clothing-shop]').click();
+ await page.locator('.eddy-clothing-shop[open]').waitFor();
+ await page.waitForFunction(()=>document.querySelector('.eddy-clothing-shop [data-closet-coins] strong').textContent==='125');
+ await page.waitForFunction(()=>getComputedStyle(document.querySelector('.eddy-clothing-shop')).backgroundImage.includes('emerald-atelier'));
+ await page.screenshot({path:'/tmp/emerald-shop-desktop.png'});
+ assert.equal(await page.locator('.eddy-clothing-shop [data-open-clothing-shop]').count(),0);
+ await page.setViewportSize({width:390,height:844});
+ await page.screenshot({path:'/tmp/emerald-shop-mobile.png'});
+ assert.equal(await page.locator('.eddy-clothing-shop').evaluate(el=>el.scrollWidth<=el.clientWidth+1),true);
+ await page.locator('[data-close-shop]').click();assert.equal(await page.locator('.eddy-clothing-shop').count(),0);
+ assert.deepEqual(errors,[]);console.log('PASS: missing API loaded, failed shop retried, balance restored and owned clothes equipped');
 }finally{await browser.close();server.close();}})().catch(e=>{console.error(e);process.exitCode=1;server.close();});

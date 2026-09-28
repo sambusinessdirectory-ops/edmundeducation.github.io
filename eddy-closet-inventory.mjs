@@ -1,7 +1,14 @@
 import {cosmeticsForCharacter,outfitsForCharacter,isCosmeticEquipped,wardrobeGroup,cosmeticAsset,cosmeticsState,equipCosmetic,equipOutfit,clearCosmetics,saveAvatar,restoreCosmetics,subscribeCosmetics,toggleOutfitFavorite} from './eddy-cosmetics.mjs?v=20260923-admin-cosmetic-preview1';
-export function mountClosetInventory(host,signal,{character='eddy'}={}){
+export function mountClosetInventory(host,signal,{character='eddy',shop=false}={}){
  host.innerHTML='<p class="expression-closet-inventory-kicker">EDDIE’S COLLECTION</p><h3 id="expression-closet-inventory-title">Inventory <small>物品欄</small></h3><p class="closet-coin-balance" data-closet-coins>🪙 Coins · 金幣：<strong>…</strong></p><p data-shop-status role="status" aria-live="polite"></p><button type="button" data-shop-retry hidden>Retry · 重新載入</button><div class="closet-equipment-grid"></div><div class="closet-outfit-actions"><button type="button" data-save-avatar>✦ Save avatar · 儲存造型</button><button type="button" data-remove-outfit>↺ Remove all · 全部脫下</button></div><form data-outfit-form><label for="closet-outfit-name">Name this outfit · 造型名稱</label><input id="closet-outfit-name" maxlength="60" required placeholder="My favourite outfit" autocomplete="off"><button type="submit">＋ Save outfit set · 儲存套裝</button></form><h4>My outfit sets · 我的套裝</h4><div data-outfit-sets></div><p class="closet-save-status" role="status" aria-live="polite"></p>';
  host.querySelector('.expression-closet-inventory-kicker').textContent=character.toUpperCase()+'’S COLLECTION';
+ if(!shop){
+  const browse=document.createElement('button');browse.type='button';browse.textContent='服裝商店 · Browse shop';browse.dataset.openClothingShop='';
+  browse.style.cssText='width:100%;padding:14px;margin:8px 0 14px;background:#123e2d;color:#f3dfac;border:1px solid #c5a366;border-radius:10px;font-weight:700;cursor:pointer';
+  host.querySelector('h3').after(browse);
+  browse.addEventListener('click',async()=>{browse.disabled=true;try{const {openClothingShop}=await import('./eddy-clothing-shop.mjs?v=20260928-emerald-shop1');if(!signal.aborted)openClothingShop({character,signal});}catch{host.querySelector('.closet-save-status').textContent='Shop could not open. Please retry · 商店未能開啟，請再試。';}finally{browse.disabled=false;}},{signal});
+ }
+
  const grid=host.querySelector('.closet-equipment-grid'),status=host.querySelector('.closet-save-status'),sets=host.querySelector('[data-outfit-sets]'),coinValue=host.querySelector('[data-closet-coins] strong');
  const buttons=[];
  let shopBalance=null,purchasing=false,shopItems=new Map();
