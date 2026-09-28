@@ -1,4 +1,5 @@
 import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20260928-pocket4';
+import {mountProofreadChecklist,normalizeProofreadChecklistChecked} from './writing-proofread-checklist.mjs?v=20260928-proofread1';
 import {preserveTextareaParagraphs,preserveArticleCopy} from './writing-paragraph-clipboard.mjs?v=20260927-pocket1';
 import {mountFeedbackReading} from './writing-feedback-reading.mjs?v=20260927-writing2';
 import {submissionSharingControls} from './writing-submission-sharing.mjs?v=20260927-toolbar1';
@@ -1898,6 +1899,7 @@ function showView(name) {
       : state.user.name;
   }
   window.scrollTo({ top: 0, behavior: "smooth" });
+  proofreadChecklist.setVisible(name === "workspace" && state.user?.role === "student" && (isWritingProofreadingActive(state.proofreadingGate) || isWritingProofreadingReady(state.proofreadingGate)));
   scheduleFloatingWritingTopicSync();
 }
 
@@ -2110,6 +2112,7 @@ function clearSession() {
   state.writingTimer = emptyWritingTimer();
   state.writingStopwatch = emptyWritingStopwatch();
   state.proofreadingGate = resetWritingProofreadingGate();
+  proofreadChecklist.setChecked([]);
   state.writingImageZoom = 1;
   state.writingTimerPanelOpen = false;
   state.timerAutoSubmitLock = false;
@@ -3182,6 +3185,7 @@ function readDraft() {
       writingTimer: normalizeWritingTimer(value.writingTimer),
       writingStopwatch: normalizeWritingStopwatch(value.writingStopwatch),
       proofreadingGate: normalizeWritingProofreadingGate(value.proofreadingGate),
+      proofreadChecklistChecked: normalizeProofreadChecklistChecked(value.proofreadChecklistChecked),
       writingImageZoom: [0.5, 1, 2, 3, 4, 5, 7].includes(Number(value.writingImageZoom))
         ? Number(value.writingImageZoom)
         : 1,
@@ -3209,6 +3213,7 @@ function persistDraft() {
       writingTimer: normalizeWritingTimer(state.writingTimer),
       writingStopwatch: normalizeWritingStopwatch(state.writingStopwatch),
       proofreadingGate: normalizeWritingProofreadingGate(state.proofreadingGate),
+      proofreadChecklistChecked: proofreadChecklist.getChecked(),
       writingImageZoom: state.writingImageZoom,
       selectedTopicResource: canonicalWritingTopicResource(state.selectedTopicResource),
       savedAt: new Date().toISOString()
@@ -3294,6 +3299,7 @@ function syncWritingProofreadingUi(now = Date.now()) {
   const remaining = writingProofreadingRemaining(gate, now);
   const active = isWritingProofreadingActive(gate, now);
   const ready = isWritingProofreadingReady(gate, now);
+  proofreadChecklist.setVisible(state.currentView === "workspace" && state.user?.role === "student" && (active || ready));
   const field = elements.writingInput.closest(".writing-field-main");
   field?.classList.toggle("is-proofreading", active);
   if (elements.proofreadingLabel) {
@@ -3651,6 +3657,7 @@ function startNewDraft({ preserveView = false } = {}) {
   state.writingTimer = emptyWritingTimer();
   state.writingStopwatch = emptyWritingStopwatch();
   state.proofreadingGate = resetWritingProofreadingGate();
+  proofreadChecklist.setChecked([]);
   state.writingImageZoom = 1;
   state.timerAutoSubmitLock = false;
   state.writingClockLastAt = Date.now();
@@ -3701,6 +3708,7 @@ async function restoreDraft() {
   state.writingTimer = normalizeWritingTimer(draft?.writingTimer);
   state.writingStopwatch = normalizeWritingStopwatch(draft?.writingStopwatch);
   state.proofreadingGate = normalizeWritingProofreadingGate(draft?.proofreadingGate);
+  proofreadChecklist.setChecked(draft?.proofreadChecklistChecked);
   state.writingImageZoom = draft?.writingImageZoom || 1;
   state.timerAutoSubmitLock = false;
   state.writingClockLastAt = Date.now();
@@ -5813,6 +5821,7 @@ async function loadDraftIntoWorkspace(draft) {
   state.writingTimer = normalizeWritingTimer(draft.countdown);
   state.writingStopwatch = normalizeWritingStopwatch(draft.stopwatch);
   state.proofreadingGate = resetWritingProofreadingGate();
+  proofreadChecklist.setChecked([]);
   state.writingImageZoom = draft.imageZoom;
   state.timerAutoSubmitLock = false;
   state.previousWriting = draft.answer;
@@ -10412,6 +10421,7 @@ async function checkHealth() {
   }
 }
 
+const proofreadChecklist = mountProofreadChecklist(document.querySelector('[data-proofread-checklist]'),()=>persistDraft());
 const referencePocket = mountReferencePocket({
  host:document.querySelector('[data-writing-reference-pocket]'),
  getOwner:()=>state.user?.role==='student'?state.authToken:'',

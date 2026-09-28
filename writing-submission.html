@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260928-pocket4">
+  <link rel="stylesheet" href="writing-submission.css?v=20260928-proofread1">
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260924-wallet1">
 </head>
@@ -641,6 +641,15 @@
     </div>
   </dialog>
 
+  <aside class="proofread-checklist-window" data-proofread-checklist hidden aria-label="校對清單">
+    <div class="proofread-checklist-head">
+      <div><small>PROOFREADING GUIDE</small><strong>校對清單</strong><span data-proofread-checklist-progress aria-live="polite">已檢查 0 / 24</span></div>
+      <button type="button" data-proofread-checklist-collapse aria-expanded="true" aria-controls="proofread-checklist-list">收起</button>
+    </div>
+    <div class="proofread-checklist-list" id="proofread-checklist-list" data-proofread-checklist-list></div>
+    <p class="proofread-checklist-note">逐項檢查並剔選；清單只作提示，不會代替您判斷文章。</p>
+  </aside>
+
   <div class="toast" data-toast role="status" aria-live="polite" hidden></div>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
@@ -649,6 +658,6 @@
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
   <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
-  <script type="module" src="writing-submission.js?v=20260928-modelessay1"></script>
+  <script type="module" src="writing-submission.js?v=20260928-proofread1"></script>
 </body>
 </html>

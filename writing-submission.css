@@ -601,6 +601,18 @@ button { color: inherit; }
 .writing-field-main.is-proofreading textarea { border-color: rgba(180,58,64,.34); background: #fcd9d9; box-shadow: inset 0 0 0 1px rgba(180,58,64,.08), 0 0 0 5px rgba(180,58,64,.07); }
 .writing-editor-title em { margin-left: 9px; border-radius: 999px; padding: 5px 9px; color: #9f3038; background: #fcd9d9; vertical-align: middle; font: 850 11px ui-sans-serif,system-ui,sans-serif; font-style: normal; white-space: nowrap; }
 
+.proofread-checklist-window{position:fixed;z-index:1400;top:calc(var(--writing-feedback-sticky-top,76px) + 12px);left:max(12px,env(safe-area-inset-left));display:flex;flex-direction:column;width:min(300px,calc(100vw - 24px));max-height:min(50dvh,460px);border:1px solid #e2b7a1;border-radius:18px;background:#fffaf2;color:#272342;box-shadow:0 20px 50px #18132f4d;overflow:hidden;font-family:ui-sans-serif,system-ui,sans-serif;color-scheme:light}
+.proofread-checklist-window[hidden]{display:none}
+.proofread-checklist-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 15px;background:linear-gradient(135deg,#fff2e4,#f7ecf1);border-bottom:1px solid #ead4c7}
+.proofread-checklist-head>div{display:grid;gap:2px}.proofread-checklist-head small{color:#9b5a31;font-size:9px;font-weight:850;letter-spacing:.13em}.proofread-checklist-head strong{font-size:19px;line-height:1.2}.proofread-checklist-head span{color:#694e4b;font-size:11px;font-weight:750}
+.proofread-checklist-head button{flex:none;border:1px solid #d3b5a5;border-radius:999px;padding:7px 10px;background:#fff;color:#613a35;font-size:11px;font-weight:800;cursor:pointer}.proofread-checklist-head button:focus-visible,.proofread-checklist-item:focus-within,.proofread-checklist-group summary:focus-visible{outline:3px solid #dd843e;outline-offset:2px}
+.proofread-checklist-list{overflow:auto;overscroll-behavior:contain;padding:9px 12px;scrollbar-color:#bd8e77 #fff5eb}
+.proofread-checklist-group{border:1px solid #eadbd0;border-radius:12px;margin:7px 0;background:#fff}
+.proofread-checklist-group summary{padding:11px 12px;color:#463555;font-size:12px;font-weight:850;cursor:pointer}.proofread-checklist-group[open] summary{border-bottom:1px solid #efe5dc;background:#fff6eb}
+.proofread-checklist-item{display:flex;align-items:flex-start;gap:10px;padding:10px 12px;border-top:1px solid #f2ebe5;cursor:pointer}.proofread-checklist-item:first-of-type{border-top:0}.proofread-checklist-item input{flex:none;width:18px;height:18px;margin:1px 0 0;accent-color:#258351;cursor:pointer}.proofread-checklist-item span{display:grid;gap:3px;min-width:0}.proofread-checklist-item strong{font-size:12px;line-height:1.35}.proofread-checklist-item small{color:#635e68;font-size:11px;line-height:1.45}.proofread-checklist-item.is-checked{background:#e6f7e9}.proofread-checklist-item.is-checked strong{color:#14663d}
+.proofread-checklist-note{margin:0;padding:9px 14px;border-top:1px solid #eadbd0;color:#68616c;font-size:10px;line-height:1.45}.proofread-checklist-window.is-collapsed .proofread-checklist-list,.proofread-checklist-window.is-collapsed .proofread-checklist-note{display:none}
+@media (max-width:720px){.proofread-checklist-window{top:calc(var(--writing-feedback-sticky-top,76px) + 6px);max-height:56dvh}}
+
 .editor-heading-tools { display: flex; align-items: center; gap: 14px; }
 .editor-heading-tools .small-button { white-space: nowrap; }
 .model-essay-mini-panel {
