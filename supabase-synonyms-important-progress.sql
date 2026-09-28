@@ -69,7 +69,7 @@ begin
   insert into public.synonyms_important_answers as saved
     (student_id, question_key, attempts, mastered, last_choice, last_correct, updated_at)
   values (v_student_id, p_question_key, p_attempts, p_mastered, p_last_choice, p_last_correct, pg_catalog.now())
-  on conflict (student_id, question_key) do update set
+  on conflict on constraint synonyms_important_answers_pkey do update set
     attempts = greatest(saved.attempts, excluded.attempts),
     mastered = saved.mastered or excluded.mastered,
     last_choice = case when excluded.attempts >= saved.attempts then excluded.last_choice else saved.last_choice end,
