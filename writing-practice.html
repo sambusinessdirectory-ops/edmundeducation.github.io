@@ -3464,6 +3464,8 @@
   <script src="writing-pronunciation.js?v=20260910-2"></script>
   <script src="italian-1-burro-montato-data.js?v=20260914-1"></script>
   <script src="italian-1-audio.js?v=20260914-1"></script>
+  <script src="italian-2-torta-coi-bischeri-data.js?v=20260929-1"></script>
+  <script src="italian-2-audio.js?v=20260929-1"></script>
   <script src="french-1-fondant-data.js?v=20260914-1"></script>
   <script src="french-1-audio.js?v=20260914-1"></script>
   <script>
@@ -3472,6 +3474,8 @@
     const languageStorage = languageEdition.storage;
     const editionLesson=({it:window.EDMUND_ITALIAN_LESSON,fr:window.EDMUND_FRENCH_LESSON})[languageEdition.language];
     const editionAudio=({it:window.EDMUND_ITALIAN_AUDIO,fr:window.EDMUND_FRENCH_AUDIO})[languageEdition.language];
+    const editionLessons=[editionLesson,...(languageEdition.language==='it'?[window.EDMUND_ITALIAN_LESSON_2]:[])].filter(Boolean);
+    const editionWritingAudio={...(editionAudio?.writing||{}),...(languageEdition.language==='it'?(window.EDMUND_ITALIAN_AUDIO_2?.writing||{}):{})};
     const STUDENTS_KEY = "edmundWritingStudents";
     const SESSION_KEY = "edmundWritingSession";
     const ADMIN_SESSION_PASSWORD_KEY = "edmundWritingAdminPassword";
@@ -5827,9 +5831,9 @@ Device: concession 讓步
       for(const key of Object.keys(writingExercises))delete writingExercises[key];
       for(const key of Object.keys(writingPathways))delete writingPathways[key];
       writingProgressionRows.splice(0,writingProgressionRows.length);
-      if(editionLesson)writingExercises[editionLesson.exercise.id]=editionLesson.exercise;
-      for(const [key,label] of languageEdition.categories)writingPathways[key]={title:label,kind:'language',tasks:[{key:'lessons',label:'文章',deckIds:key==='food-cooking'&&editionLesson?[editionLesson.exercise.id]:[]}]};
-      window.EDMUND_WRITING_AUDIO=editionAudio?.writing || {};
+      for(const lesson of editionLessons)writingExercises[lesson.exercise.id]=lesson.exercise;
+      for(const [key,label] of languageEdition.categories)writingPathways[key]={title:label,kind:'language',tasks:[{key:'lessons',label:'文章',deckIds:key==='food-cooking'?editionLessons.map(lesson=>lesson.exercise.id):[]}]};
+      window.EDMUND_WRITING_AUDIO=editionWritingAudio;
     }
     const supabaseClient = window.supabase?.createClient
       ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
