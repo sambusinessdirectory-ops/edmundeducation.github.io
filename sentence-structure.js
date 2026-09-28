@@ -297,6 +297,7 @@ function currentExerciseDuration() {
 
 function showView(name, { preserveScroll = false } = {}) {
   if (state.currentView === "lesson" && (name !== "lesson" || state.lessonPage !== 4)) pauseExerciseClock();
+  if (name !== "lesson") removeFloatingExerciseActions();
   if (name !== "lesson") { lessonNavigation += 1; elements.lessonStepper.inert = false; }
   state.currentView = name;
   sentenceMap?.setActive(name === "dashboard");
@@ -1793,6 +1794,7 @@ function submissionQuestions(lesson = getLesson()) {
 }
 
 function renderExercisePage(lesson, { preserveScroll = false } = {}) {
+  removeFloatingExerciseActions();
   ensureExercise(lesson);
   const scrollTop = preserveScroll ? window.scrollY : 0;
   const total = lesson.questions?.length || 0;
@@ -1889,15 +1891,30 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     </div>` : ""}
   </section>`;
 
+  mountFloatingExerciseActions();
   updateLessonStepper();
   if (!completed) startExerciseClock();
   syncExerciseButtons();
   if (preserveScroll) requestAnimationFrame(() => window.scrollTo({ top: scrollTop, behavior: "auto" }));
 }
 
+function removeFloatingExerciseActions() {
+  document.querySelector?.("[data-floating-exercise-actions]")?.remove?.();
+  document.body?.classList?.remove("has-sentence-floating-actions");
+}
+
+function mountFloatingExerciseActions() {
+  const actions = elements.lessonContent.querySelector?.(".exercise-actions");
+  if (!actions || !document.body?.appendChild) return;
+  actions.setAttribute("data-floating-exercise-actions", "");
+  document.body.appendChild(actions);
+  document.body.classList?.add("has-sentence-floating-actions");
+}
+
 function renderLessonPage() {
   const lesson = getLesson();
   if (!lesson) return openDashboard();
+  if (state.lessonPage !== 4) removeFloatingExerciseActions();
   updateLessonStepper();
   if (state.lessonPage === 1) renderFormulaPage(lesson);
   else if (state.lessonPage === 2) renderBenefitsPage(lesson);

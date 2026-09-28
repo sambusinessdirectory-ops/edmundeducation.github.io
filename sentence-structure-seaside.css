@@ -282,3 +282,27 @@
   .sentence-seaside-lesson .question-card { padding: 17px 13px 17px 27px; }
   .sentence-seaside-lesson .question-card::before { left: -20px; }
 }
+
+/* The controls live under <body> so the 50-question notebook cannot clip them. */
+body > .exercise-actions[data-floating-exercise-actions] {
+  position: fixed;
+  z-index: 1100;
+  left: 50%;
+  right: auto;
+  bottom: max(12px, env(safe-area-inset-bottom, 0px));
+  width: min(960px, calc(100vw - 32px));
+  max-height: min(32vh, 190px);
+  margin: 0;
+  overflow-y: auto;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, .97);
+  box-shadow: 0 12px 46px rgba(16, 41, 89, .23);
+}
+body.has-sentence-floating-actions .app-shell { padding-bottom: 175px; }
+@media (max-width: 720px) {
+  body > .exercise-actions[data-floating-exercise-actions] {
+    bottom: max(8px, env(safe-area-inset-bottom, 0px));
+    width: calc(100vw - 20px);
+  }
+  body.has-sentence-floating-actions .app-shell { padding-bottom: 205px; }
+}
