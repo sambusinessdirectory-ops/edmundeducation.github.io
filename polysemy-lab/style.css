@@ -149,7 +149,7 @@
 @media(prefers-reduced-motion:reduce){.eddy-streak-sprite::after,.polysemy-streak[data-streak-stage] .eddy-streak-sprite::after{animation:none;opacity:0}}
 
 /* Chosen Writing-map companion: one anchored atlas cell per streak milestone. */
-body[data-polysemy-companion="phoebe"]{--companion-sheet:url('/assets/polysemy-lab/phoebe-polysemy-eight-poses-v1.png')}
+body[data-polysemy-companion="phoebe"]{--companion-sheet:url('/assets/polysemy-lab/phoebe-polysemy-eight-poses-v2.png')}
 body[data-polysemy-companion="elsie"]{--companion-sheet:url('/assets/polysemy-lab/elsie-polysemy-eight-poses-v1.png')}
 body[data-polysemy-companion="noir"]{--companion-sheet:url('/assets/polysemy-lab/noir-polysemy-eight-poses-v1.png')}
 body[data-polysemy-companion="celeste"]{--companion-sheet:url('/assets/polysemy-lab/celeste-polysemy-eight-poses-v1.png')}
