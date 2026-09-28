@@ -11,3 +11,16 @@
 
 /* Native English card 66: responsive, staged game feedback. */
 .stage{animation:ne-stage-enter .38s cubic-bezier(.2,.75,.25,1) both}.stage-heading h2{animation:ne-reveal .35s ease both}.question{animation:ne-reveal .36s ease both}.question:nth-of-type(2){animation-delay:.04s}.question:nth-of-type(3){animation-delay:.08s}.question h3{animation:ne-reveal .32s ease both}.choices button{animation:ne-choice .32s ease both;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}.choices button:nth-child(2){animation-delay:.04s}.choices button:nth-child(3){animation-delay:.08s}.choices button:nth-child(4){animation-delay:.12s}.choices button:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 7px 16px #5c3e2b1b}.choices button.correct{animation:ne-correct .45s ease both}.feedback{animation:ne-reveal .32s ease both}.reveal{animation:ne-reveal .48s cubic-bezier(.2,.75,.25,1) both}.reveal>*{animation:ne-reveal .35s ease both}.reveal>*:nth-child(2){animation-delay:.07s}.reveal>*:nth-child(3){animation-delay:.13s}.reveal>*:nth-child(4){animation-delay:.19s}@keyframes ne-stage-enter{from{opacity:0;transform:translateY(9px) scale(.995)}to{opacity:1;transform:none}}@keyframes ne-reveal{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}@keyframes ne-choice{from{opacity:0;transform:translateY(8px) scale(.99)}to{opacity:1;transform:none}}@keyframes ne-correct{0%,100%{transform:rotate(0)}25%{transform:rotate(-1.2deg) scale(1.02)}55%{transform:rotate(1deg)}75%{transform:rotate(-.4deg)}}@media(prefers-reduced-motion:reduce){.stage,.stage *, .question,.question *, .reveal,.reveal *{animation:none!important;transition:none!important}}
+
+/* Keep answer controls in view throughout long recall stages. */
+.stage:has(.submit-bar){padding-bottom:126px}
+.submit-bar{position:fixed;left:50%;bottom:max(12px,env(safe-area-inset-bottom));transform:translateX(-50%);width:min(1080px,calc(100vw - 28px));margin:0;z-index:80}
+.library-search{display:block;max-width:520px;font-size:.85rem;font-weight:700}
+.library-search input{margin:8px 0 2px}
+[data-library-count]{margin-top:12px;color:var(--muted);font-size:.83rem}
+.library-more{display:block;margin:30px auto 0;padding:13px 24px}
+.module-card{min-height:166px;padding:20px}
+.module-card-copy strong{font-size:clamp(19px,1.6vw,24px);margin:20px 0 7px}
+.module-card-number{font-size:6rem}
+@media(max-width:600px){.submit-bar{bottom:max(6px,env(safe-area-inset-bottom));width:calc(100vw - 12px)}.stage:has(.submit-bar){padding-bottom:170px}.module-card{min-height:150px}}
+.stage:has(.submit-bar){animation:none!important;transform:none!important}
