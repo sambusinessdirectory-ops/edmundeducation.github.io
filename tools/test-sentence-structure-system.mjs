@@ -252,6 +252,7 @@ function createFrontendHarness() {
     localStorage,
     fetch,
     Headers,
+    AbortController,
     crypto: webcrypto,
     performance,
     CSS: { escape: (value) => String(value).replace(/[^a-zA-Z0-9_-]/g, "\\$&") },

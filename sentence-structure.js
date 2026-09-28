@@ -90,6 +90,8 @@ const elements = {
   timeProgressDayTitle: document.querySelector("[data-sentence-time-day-title]"),
   timeProgressDayList: document.querySelector("[data-sentence-time-day-list]"),
   lessonRound: document.querySelector("[data-lesson-round]"),
+  lessonShell: document.querySelector(".lesson-shell"),
+  seasideLevel: document.querySelector("[data-seaside-level]"),
   lessonKicker: document.querySelector("[data-lesson-kicker]"),
   lessonTitle: document.querySelector("[data-lesson-title]"),
   lessonStepper: document.querySelector("[data-lesson-stepper]"),
@@ -1333,6 +1335,7 @@ async function openLesson(lessonId, { page = 1, attempt = null, questionId = "" 
   if (lesson && !lessonIsLoaded(lessonId)) {
     pauseExerciseClock();
     state.lessonId = lessonId;
+    updateSeasideLesson(lesson);
     state.exercise = null;
     elements.lessonKicker.textContent = lessonEnglishTitle(lesson).toUpperCase();
     elements.lessonTitle.textContent = lessonTitle(lesson);
@@ -1353,6 +1356,7 @@ async function openLesson(lessonId, { page = 1, attempt = null, questionId = "" 
   if (!lesson) return;
   pauseExerciseClock();
   state.lessonId = lesson.id;
+  updateSeasideLesson(lesson);
   state.lessonPage = Math.max(1, Math.min(LESSON_PAGES, Number(page) || 1));
   saveExerciseDraft();
   state.exercise = attempt ? (restoreExerciseDraft(lesson, attempt) || exerciseFromAttempt(attempt)) : null;
@@ -1362,6 +1366,16 @@ async function openLesson(lessonId, { page = 1, attempt = null, questionId = "" 
   renderLessonPage();
   const targetQuestionId = questionId || (state.lessonPage === 4 ? currentProgressQuestionId(lesson) : "");
   if (targetQuestionId) focusExerciseQuestion(targetQuestionId);
+}
+
+function updateSeasideLesson(lesson) {
+  const level = Number(lesson?.order || lessonList().findIndex((item) => item.id === lesson?.id) + 1);
+  const isSeaside = level >= 1 && level <= 30;
+  elements.lessonShell?.classList.toggle("sentence-seaside-lesson", isSeaside);
+  if (elements.seasideLevel) {
+    elements.seasideLevel.hidden = !isSeaside;
+    if (isSeaside) elements.seasideLevel.textContent = `LEVEL ${String(level).padStart(2, "0")} · CAPTAIN'S LOG`;
+  }
 }
 
 function setLessonPage(page) {
@@ -1727,7 +1741,7 @@ function questionHtml(question) {
   const partValues = storedAnswerPartValues(question, value);
   const bookmarked = isBookmarked(state.lessonId, question.id);
   const voiceAnswer = answerParts.length ? answerParts.map((part) => part.answer).join(" ") : String(question.answer || "");
-  return `<article class="question-card ${correct ? "is-correct" : wrong ? "is-wrong" : ""} ${collapsed ? "is-collapsed" : ""}" data-question-id="${escapeHtml(question.id)}" data-edmund-prompt-text="${escapeHtml(question.prompt || question.english || "")}"${revealAnswer ? ` data-edmund-answer-text="${escapeHtml(voiceAnswer)}"` : ""} data-edmund-record-id="${escapeHtml(question.id)}" data-edmund-record-title="${escapeHtml(`句子結構 · 第 ${question.number || ""} 題`)}">
+  return `<article class="question-card ${correct ? "is-correct" : wrong ? "is-wrong" : ""} ${collapsed ? "is-collapsed" : ""}" data-question-id="${escapeHtml(question.id)}" data-question-number="${escapeHtml(question.number || "")}" data-edmund-prompt-text="${escapeHtml(question.prompt || question.english || "")}"${revealAnswer ? ` data-edmund-answer-text="${escapeHtml(voiceAnswer)}"` : ""} data-edmund-record-id="${escapeHtml(question.id)}" data-edmund-record-title="${escapeHtml(`句子結構 · 第 ${question.number || ""} 題`)}">
     <div class="question-card-top">
       <span class="question-number">QUESTION ${escapeHtml(question.number || "")}</span>
       <div class="question-card-actions">
@@ -1817,6 +1831,9 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
       </div>
       <div class="exercise-progress" style="--progress:${percentage}%"><span></span></div>
       <div class="exercise-progress-label"><span>已完成 ${escapeHtml(correct)} / ${escapeHtml(total)} 題</span><span>尚餘 ${escapeHtml(remaining)} 題</span></div>
+      ${Number(lesson.order) >= 1 && Number(lesson.order) <= 30 && total === 50 ? `<nav class="seaside-chapters" aria-label="練習題目分段">
+        ${[0, 1, 2, 3, 4].map((chapter) => `<button type="button" data-seaside-chapter="${chapter}" aria-label="跳至第 ${chapter * 10 + 1} 至 ${chapter * 10 + 10} 題"><span aria-hidden="true">${["◈", "◌", "♧", "♜", "✧"][chapter]}</span><strong>${chapter * 10 + 1}–${chapter * 10 + 10}</strong><small>${["海灣起點", "貝殼小橋", "岩石海岸", "燈塔步道", "遠航挑戰"][chapter]}</small></button>`).join("")}
+      </nav>` : ""}
     </header>
 
     ${trophyEarned ? `<section class="round-summary completion-card ss-trophy-celebration" data-sentence-trophy-reveal>
@@ -2478,6 +2495,14 @@ function handleClick(event) {
 
   const step = event.target.closest("[data-step]");
   if (step) return setLessonPage(Number(step.dataset.step));
+  const seasideChapter = event.target.closest("[data-seaside-chapter]");
+  if (seasideChapter) {
+    const number = Number(seasideChapter.dataset.seasideChapter) * 10 + 1;
+    const card = [...elements.lessonContent.querySelectorAll(".question-card")].find((item) => Number(item.dataset.questionNumber) >= number);
+    card?.scrollIntoView({ behavior: "smooth", block: "start" });
+    elements.lessonContent.querySelectorAll("[data-seaside-chapter]").forEach((button) => button.toggleAttribute("aria-current", button === seasideChapter));
+    return;
+  }
   if (event.target.closest("[data-lesson-prev]")) return setLessonPage(state.lessonPage - 1);
   if (event.target.closest("[data-lesson-next]")) return setLessonPage(state.lessonPage + 1);
   if (event.target.closest("[data-submit-partial]")) return submitExercise("partial");
