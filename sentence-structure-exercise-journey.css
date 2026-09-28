@@ -1,17 +1,16 @@
 /* Page 4, modules 1–30: Eddy follows the fifty-question coastal path. */
 .sentence-seaside-lesson .question-list.has-sentence-journey{position:relative;isolation:isolate;gap:18px}
 .sentence-seaside-lesson .question-list.has-sentence-journey::before{content:"";position:absolute;z-index:0;top:45px;bottom:45px;right:58px;width:16px;border:1px solid #d4bb87;border-radius:999px;background:linear-gradient(90deg,#d2bd8e,#fff1ce 27% 70%,#bea779);box-shadow:0 5px 0 #5b705b22,0 0 0 5px #fff8e694}
-.sentence-journey-stop{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) 132px;align-items:center;gap:18px;min-width:0}
+.sentence-journey-stop{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) 132px;align-items:center;gap:18px;min-width:0;content-visibility:auto;contain-intrinsic-size:auto 280px}
 .sentence-journey-stop>.question-card{min-width:0}
-.sentence-journey-platform{position:relative;z-index:2;width:126px;height:91px;justify-self:center;filter:drop-shadow(0 6px 4px #3c645143);transition:filter .25s ease,transform .35s cubic-bezier(.16,1,.3,1)}
-.sentence-journey-platform svg{position:absolute;inset:0;width:100%;height:100%;overflow:hidden}
+.sentence-journey-platform{position:relative;z-index:2;width:126px;height:87px;justify-self:center;contain:layout paint style;transition:transform .35s cubic-bezier(.16,1,.3,1)}
+.sentence-journey-platform img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
 .sentence-journey-platform strong{position:absolute;z-index:2;left:0;right:0;top:16px;color:#285867;text-align:center;font:700 24px/1 Georgia,"Times New Roman",serif;text-shadow:0 1px #fffaf0}
 .sentence-journey-platform span{position:absolute;z-index:3;right:5px;bottom:13px;display:grid;place-items:center;width:25px;height:25px;border:1px solid #c5ccb2;border-radius:9px;background:#fff9e9;color:#285867;font-size:13px;font-weight:900;box-shadow:0 2px 5px #21482a2e}
 .sentence-journey-platform span:empty{display:none}
-.sentence-journey-platform.is-correct{filter:drop-shadow(0 0 4px #baf4be) drop-shadow(0 6px 4px #3c645143)}
 .sentence-journey-platform.is-correct span{background:#477b66;color:#fff;border-color:#d9ebc1}
 .sentence-journey-platform.is-wrong span{background:#fff0dc;color:#a34738;border-color:#e6a59c}
-.sentence-journey-stop[data-eddy-active=true] .sentence-journey-platform{transform:translateY(-2px);filter:drop-shadow(0 0 4px #fffbe5) drop-shadow(0 0 8px #fff2b6) drop-shadow(0 7px 4px #3c645143)}
+.sentence-journey-stop[data-eddy-active=true] .sentence-journey-platform{transform:translateY(-2px)}
 .sentence-journey-eddy{position:absolute;z-index:5;right:17px;top:0;width:98px;height:98px;pointer-events:none;transition:top var(--eddy-walk-duration,700ms) cubic-bezier(.22,.7,.22,1);will-change:top}
 .sentence-journey-eddy-sprite{position:absolute;inset:0;display:block;background:url("assets/sentence-structure/exercise-eddy/eddy-walk-v2.webp") 0 0/800% 100% no-repeat;filter:drop-shadow(0 4px 3px #173c3e3d)}
 .sentence-journey-eddy-shadow{position:absolute;z-index:-1;left:24%;right:24%;bottom:7%;height:10%;border-radius:50%;background:#264d4930;filter:blur(2px);transition:transform .25s ease,opacity .25s ease}

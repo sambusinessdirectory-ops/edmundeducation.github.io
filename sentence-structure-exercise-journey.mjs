@@ -1,4 +1,4 @@
-const PLATFORM_ART = "assets/sentence-structure/coast/props.webp";
+const PLATFORM_ART = "assets/sentence-structure/exercise-eddy/coast-platform.webp";
 let activeQuestionId = "";
 let motionTimer = 0;
 let reactionTimer = 0;
@@ -11,7 +11,7 @@ export function sentenceJourneyEnabled(lesson) {
 export function sentenceJourneyPlatformHtml(number, status = "pending") {
   const label = status === "correct" ? "✓" : status === "wrong" ? "!" : "";
   return `<div class="sentence-journey-platform is-${status}" aria-hidden="true">
-    <svg viewBox="34 157 523 361" preserveAspectRatio="xMidYMax meet"><image href="${PLATFORM_ART}" width="1536" height="1024"></image></svg>
+    <img src="${PLATFORM_ART}" width="252" height="174" loading="lazy" decoding="async" alt="">
     <strong>${String(number).padStart(2, "0")}</strong><span>${label}</span>
   </div>`;
 }

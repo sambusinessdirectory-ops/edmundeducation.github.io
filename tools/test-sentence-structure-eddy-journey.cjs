@@ -28,7 +28,7 @@ let browser;
   const errors = [];
   page.on('pageerror', (error) => errors.push(error.message));
   await page.route('**/sentence-structure.js?*', (route) => {
-    const source = fs.readFileSync(path.join(root, 'sentence-structure.js'), 'utf8').replace(/\ninitialise\(\)\.catch\([\s\S]*$/, '');
+    const source = fs.readFileSync(path.join(root, 'sentence-structure.js'), 'utf8').replace(/\ninitialise\(\)\.catch\([\s\S]*?\n\}\);\s*/, '\n');
     return route.fulfill({ contentType: 'text/javascript', body: `${source}
 bindEvents();
 window.journeyTest = {
@@ -44,16 +44,21 @@ window.journeyTest = {
   await page.goto(`${origin}/sentence-structure.html`);
   await page.waitForFunction(() => window.journeyTest);
   await page.evaluate(() => journeyTest.login());
-  await page.evaluate(() => journeyTest.openLesson('ss1', { page: 4 }));
+  const exerciseLoadMs = await page.evaluate(async () => {
+    const started = performance.now();
+    await journeyTest.openLesson('ss1', { page: 4 });
+    return performance.now() - started;
+  });
   await page.waitForSelector('.question-list.has-sentence-journey');
+  assert.ok(exerciseLoadMs < 2000, `Exercise rendered in ${Math.round(exerciseLoadMs)}ms`);
 
   assert.equal(await page.locator('.sentence-journey-stop').count(), 50);
   assert.equal(await page.locator('.sentence-journey-platform').count(), 50);
   assert.equal(await page.locator('[data-sentence-journey-eddy]').count(), 1);
   assert.equal(await page.locator('.sentence-journey-platform strong').first().textContent(), '01');
   assert.equal(await page.locator('.sentence-journey-platform strong').last().textContent(), '50');
-  const firstPlatformImage = await page.locator('.sentence-journey-platform image').first().getAttribute('href');
-  assert.equal(firstPlatformImage, 'assets/sentence-structure/coast/props.webp');
+  const firstPlatformImage = await page.locator('.sentence-journey-platform img').first().getAttribute('src');
+  assert.equal(firstPlatformImage, 'assets/sentence-structure/exercise-eddy/coast-platform.webp');
 
   const actor = page.locator('[data-sentence-journey-eddy]');
   const firstInput = page.locator('[data-answer-input]').first();
@@ -97,7 +102,7 @@ window.journeyTest = {
   await page.waitForFunction(() => journeyTest.state.lessonId === 'ss31' && journeyTest.state.lessonPage === 4);
   assert.equal(await page.locator('.sentence-journey-stop').count(), 0, 'Journey stays limited to modules 1–30');
   assert.deepEqual(errors, []);
-  console.log('PASS: 50-platform Eddy journey, movement, reactions, module scope and responsive layout');
+  console.log(`PASS: 50-platform Eddy journey rendered in ${Math.round(exerciseLoadMs)}ms; movement, reactions, module scope and responsive layout passed`);
 })().catch((error) => {
   console.error(error);
   process.exitCode = 1;

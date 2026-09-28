@@ -4,6 +4,7 @@ export function installQuestionOrder({system, owner, lessonId}) {
   let queued = false;
   const key = () => `edmund-question-order-v1:${system}:${owner() || 'guest'}`;
   const read = () => {try{return JSON.parse(localStorage.getItem(key()) || '{}');}catch{return {};}};
+  const orderItem = card => card?.closest?.('[data-question-order-item]') || card;
   function update() {
     queued = false;
     const prefs = read(), lesson = String(lessonId() || '');
@@ -27,7 +28,7 @@ export function installQuestionOrder({system, owner, lessonId}) {
         });
         control.append(text, select); view.prepend(control);
       }
-      if(!global){const first=view.querySelector('.question-card[data-question-id]');if(control.hidden!==!first)control.hidden=!first;if(first&&first.previousElementSibling!==control)first.before(control);}
+      if(!global){const first=view.querySelector('.question-card[data-question-id]'),item=orderItem(first);if(control.hidden!==!first)control.hidden=!first;if(item&&item.previousElementSibling!==control)item.before(control);}
       control.querySelector('select').value = global ? prefs.order || 'asc' : prefs.modules?.[lesson] || 'inherit';
     });
     const descending = (prefs.modules?.[lesson] || prefs.order) === 'desc';
@@ -36,13 +37,14 @@ export function installQuestionOrder({system, owner, lessonId}) {
       const number = Number(card.dataset.questionNumber || card.querySelector('.question-number')?.textContent.match(/\d+/)?.[0]);
       if(!number) return;
       card.classList.toggle('is-milestone', number <= 100 && number % 10 === 0);
-      if(!groups.has(card.parentElement)) groups.set(card.parentElement, []);
-      groups.get(card.parentElement).push({card, number});
+      const item=orderItem(card),parent=item.parentElement;
+      if(!groups.has(parent)) groups.set(parent, []);
+      groups.get(parent).push({card,item,number});
     });
     groups.forEach(rows => {
       const sorted = [...rows].sort((a,b) => (a.number-b.number)*(descending?-1:1));
-      if(rows.some((row,i) => row.card !== sorted[i].card)) sorted.forEach(row => row.card.parentElement.append(row.card));
-      const view=sorted[0]?.card.closest('[data-view]'),control=view?.querySelector('.question-order-inline');if(control&&sorted[0].card.previousElementSibling!==control)sorted[0].card.before(control);
+      if(rows.some((row,i) => row.item !== sorted[i].item)) sorted.forEach(row => row.item.parentElement.append(row.item));
+      const first=sorted[0],view=first?.card.closest('[data-view]'),control=view?.querySelector('.question-order-inline');if(control&&first.item.previousElementSibling!==control)first.item.before(control);
     });
   }
   const schedule = () => {if(!queued){queued=true;queueMicrotask(update);}};
