@@ -1,4 +1,5 @@
 import * as scoop from './scoop.mjs';
+import importedLessons from './imported-lessons.mjs';
 const mc=(id,prompt,options,answer,explanation)=>({id,type:'mc',prompt,options,answers:[answer],explanation});
 const blank=(id,prompt,before,after,answers,hint)=>({id,type:'blank',prompt,before,after,answers:Array.isArray(answers)?answers:[answers],hint,explanation:`答案是 ${Array.isArray(answers)?answers[0]:answers}。${hint}`});
 const lesson=(data)=>({...data,questionMap:new Map(data.questions.map(q=>[q.id,q]))});
@@ -117,6 +118,7 @@ export const modules=[
  lesson({id:'ready',number:4,slug:'ready-to-order',titleZh:'我們可以點餐了',titleEn:"We're ready to order.",heading:'準備好點餐，ready!',summary:'準備好或還需要時間，都能自然地回答店員。',surpriseLabel:'你可能會這樣說…',steps:readySteps,questions:readyQuestions,takeaways:["We're ready to order.",'We need a few more minutes.'],completionTitle:'你可以自然地告訴店員是否準備好點餐了！'}),
  lesson({id:'club',number:5,slug:'club-sandwich',titleZh:'公司三文治',titleEn:'club sandwich',heading:'公司三文治，club!',summary:'避開 company sandwich，並練習點餐與選配菜。',surpriseLabel:'你可能會這樣說…',steps:clubSteps,questions:clubQuestions,takeaways:['Can I get a club sandwich?','What would you like on the side?','Fries, please.'],completionTitle:'你可以自然地點一份公司三文治了！'}),
  lesson({id:'dressing',number:6,slug:'salad-dressing',titleZh:'沙律醬',titleEn:'salad dressing',heading:'沙律醬，dressing!',summary:'學會 salad dressing 與 on the side，在餐廳清楚說出需要。',surpriseLabel:'你可能會這樣說…',steps:dressingSteps,questions:dressingQuestions,takeaways:['What salad dressing do you have?','Can I get the dressing on the side?','Can I get some extra dressing?'],completionTitle:'你可以自然地問沙律醬和要求另外放了！'}),
+ ...importedLessons.map(lesson)
 ];
 export const moduleMap=new Map(modules.map(m=>[m.id,m]));
 export const allQuestionMap=new Map(modules.flatMap(m=>m.questions.map(q=>[q.id,q])));

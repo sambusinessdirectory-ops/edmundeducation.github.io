@@ -57,7 +57,9 @@ jobs:
         run: |
           node --check natural-english/app.mjs
           node --check natural-english/catalogue.mjs
-          node tools/test-natural-english-quarantine.mjs
+          node tools/test-natural-english-import.mjs
+          npm ci --prefix tools/email-qa --ignore-scripts
+          node tools/test-natural-english-modules.mjs
 
       - name: Validate focused Speaking release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[speaking-release]') }}
@@ -515,10 +517,7 @@ jobs:
             --exclude='_site' \
             --exclude='*.sql' \
             --exclude='natural-english/imported-lessons.json' \
-            --exclude='natural-english/imported-lessons.mjs' \
             --exclude='natural-english/IMPORT-REVIEW.md' \
-            --exclude='natural-english/audio/imported/' \
-            --exclude='natural-english/audio/imported-manifest.mjs' \
             --exclude='natural-english/audio/imported-metadata.json' \
             --exclude='song-appreciation-data.js' \
             --exclude='tools' \
