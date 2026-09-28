@@ -4,7 +4,7 @@ import { createExpressionMap } from "./common-expression-map.mjs?v=20260928-shar
 import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260924-closet-all2";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260914-hotel3b";
 import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies, syncSentenceTrophyCounter, syncSentenceTrophyControls, animateSentenceTrophy, awardDateMarkup } from "./sentence-structure-trophies.mjs?v=20260915-phoebe2";
-import { sentenceJourneyEnabled, sentenceJourneyPlatformHtml, sentenceJourneyActorHtml, getSentenceJourneyQuestionId, mountSentenceJourney, moveSentenceJourney, reactSentenceJourney } from "./sentence-structure-exercise-journey.mjs?v=20260929-eddy-path3";
+import { sentenceJourneyEnabled, sentenceJourneyPlatformHtml, sentenceJourneyActorHtml, getSentenceJourneyQuestionId, mountSentenceJourney, moveSentenceJourney, reactSentenceJourney } from "./sentence-structure-exercise-journey.mjs?v=20260929-eddy-path4";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const lessonLibrary = createLessonLibrary(new URL("./assets/sentence-structure/library/manifest.json?v=20260908-loading1", import.meta.url));
@@ -1822,6 +1822,11 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   removeFloatingExerciseActions();
   ensureExercise(lesson);
   const scrollTop = preserveScroll ? window.scrollY : 0;
+  const scrollAnchorQuestionId = preserveScroll ? getSentenceJourneyQuestionId() : "";
+  const previousScrollAnchor = scrollAnchorQuestionId
+    ? elements.lessonContent.querySelector?.(`[data-eddy-stop="${CSS.escape(scrollAnchorQuestionId)}"]`)
+    : null;
+  const scrollAnchorTop = previousScrollAnchor?.getBoundingClientRect?.().top;
   const total = lesson.questions?.length || 0;
   const correct = state.exercise.correctIds.length;
   const percentage = total ? Math.round((correct / total) * 100) : 0;
@@ -1931,7 +1936,22 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   if (!completed) startExerciseClock();
   syncExerciseButtons();
   if (sentenceJourneyEnabled(lesson)) mountSentenceJourney(elements.lessonContent);
-  if (preserveScroll) requestAnimationFrame(() => window.scrollTo({ top: scrollTop, behavior: "auto" }));
+  if (preserveScroll) {
+    const restoreScrollAnchor = () => {
+      const nextScrollAnchor = scrollAnchorQuestionId
+        ? elements.lessonContent.querySelector?.(`[data-eddy-stop="${CSS.escape(scrollAnchorQuestionId)}"]`)
+        : null;
+      const nextAnchorTop = nextScrollAnchor?.getBoundingClientRect?.().top;
+      const anchoredTop = Number.isFinite(scrollAnchorTop) && Number.isFinite(nextAnchorTop)
+        ? Math.max(0, window.scrollY + nextAnchorTop - scrollAnchorTop)
+        : scrollTop;
+      window.scrollTo({ top: anchoredTop, behavior: "auto" });
+    };
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      restoreScrollAnchor();
+      window.setTimeout(restoreScrollAnchor, 120);
+    }));
+  }
 }
 
 function removeFloatingExerciseActions() {

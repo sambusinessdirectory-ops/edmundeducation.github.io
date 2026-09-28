@@ -83,10 +83,11 @@ export function moveSentenceJourney(root, questionId, { announce = true } = {}) 
   const { list, actor, status } = journeyElements(root);
   const stop = stopFor(list, questionId);
   if (!list || !actor || !stop) return 0;
+  clearTimeout(reactionTimer);
   const nextTop = actorTop(list, actor, stop);
   const previousTop = Number.parseFloat(actor.style.top || String(nextTop));
   const distance = Math.abs(nextTop - previousTop);
-  const duration = reducedMotion() || distance < 4 ? 0 : Math.round(Math.min(1250, Math.max(430, 360 + distance * .22)));
+  const duration = reducedMotion() || distance < 4 ? 0 : Math.round(Math.min(4200, Math.max(1450, 900 + distance * .58)));
   list.querySelectorAll("[data-eddy-active]").forEach((item) => delete item.dataset.eddyActive);
   stop.dataset.eddyActive = "true";
   actor.dataset.direction = nextTop < previousTop ? "up" : "down";

@@ -34,6 +34,8 @@ bindEvents();
 window.journeyTest = {
   async login(){await lessonLibrary.catalog();state.user={id:'eddy-fixture',name:'Eddy Preview',role:'student'};state.authToken='local-fixture';state.dashboardLoaded=true;renderLessonChoices();showView('dashboard',{preserveScroll:true});},
   openLesson,
+  getLesson,
+  submitExercise,
   state
 };` });
   });
@@ -60,7 +62,7 @@ window.journeyTest = {
   const firstPlatformImage = await page.locator('.sentence-journey-platform img').first().getAttribute('src');
   assert.equal(firstPlatformImage, 'assets/sentence-structure/exercise-eddy/coast-platform.webp');
   assert.equal(await page.locator('.sentence-journey-platform span').count(), 0, 'Platforms have no stray status punctuation');
-  assert.match(await page.locator('.question-list.has-sentence-journey').evaluate((node) => getComputedStyle(node, '::before').backgroundImage), /coast-route\.svg/);
+  assert.match(await page.locator('.question-list.has-sentence-journey').evaluate((node) => getComputedStyle(node, '::before').backgroundImage), /coast-route-v2\.webp/);
 
   const actor = page.locator('[data-sentence-journey-eddy]');
   assert.match(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-standing\.png/);
@@ -74,10 +76,12 @@ window.journeyTest = {
   assert.ok(thirdTop > firstTop, 'Eddy moves down the vertical path');
   assert.equal(await actor.getAttribute('data-motion'), 'walk');
   assert.equal(await page.locator('[data-eddy-active=true]').getAttribute('data-question-number'), '3');
+  assert.ok(Number.parseFloat(await actor.evaluate((node) => node.style.getPropertyValue('--eddy-walk-duration'))) >= 1450, 'Eddy travels at a calm, readable pace');
+  assert.equal(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).animationDuration), '1.02s');
 
   const module = await page.evaluate(async () => {
     const journey = await import('/sentence-structure-exercise-journey.mjs');
-    journey.reactSentenceJourney(document.querySelector('[data-lesson-content]'), { questionId: document.querySelector('[data-answer-input]').dataset.answerInput, correct: true });
+    journey.reactSentenceJourney(document.querySelector('[data-lesson-content]'), { questionId: document.querySelectorAll('[data-answer-input]')[2].dataset.answerInput, correct: true });
     await new Promise((resolve) => setTimeout(resolve, 600));
     return document.querySelector('[data-sentence-journey-eddy]').dataset.motion;
   });
@@ -85,7 +89,7 @@ window.journeyTest = {
   assert.match(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-jump-v2\.webp/);
   await page.evaluate(async () => {
     const journey = await import('/sentence-structure-exercise-journey.mjs');
-    const input = document.querySelectorAll('[data-answer-input]')[1];
+    const input = document.querySelectorAll('[data-answer-input]')[2];
     journey.reactSentenceJourney(document.querySelector('[data-lesson-content]'), { questionId: input.dataset.answerInput, correct: false });
   });
   await page.waitForTimeout(600);
@@ -93,10 +97,24 @@ window.journeyTest = {
   assert.match(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-encourage-v1\.webp/);
 
   await page.waitForTimeout(650);
+  const twelfthStop = page.locator('[data-eddy-stop][data-question-number="12"]');
+  const twelfthInput = twelfthStop.locator('[data-answer-input]').first();
+  await twelfthInput.scrollIntoViewIfNeeded();
+  await page.evaluate(() => window.scrollBy(0, -180));
+  await twelfthInput.focus();
+  await page.waitForTimeout(80);
+  const beforeGradeTop = await twelfthStop.evaluate((node) => node.getBoundingClientRect().top);
+  await twelfthInput.fill(await page.evaluate(() => journeyTest.getLesson().questions[11].answer));
+  await page.evaluate(() => { void journeyTest.submitExercise('partial'); });
+  await page.waitForFunction(() => document.querySelector('[data-eddy-stop][data-question-number="12"] .question-card')?.classList.contains('is-correct'));
+  await page.waitForTimeout(240);
+  const afterGradeTop = await page.locator('[data-eddy-stop][data-question-number="12"]').evaluate((node) => node.getBoundingClientRect().top);
+  assert.ok(Math.abs(afterGradeTop - beforeGradeTop) < 12, `Question 12 remains anchored after grading (${beforeGradeTop.toFixed(1)} → ${afterGradeTop.toFixed(1)})`);
+
   const eighthInput = page.locator('[data-answer-input]').nth(7);
   await eighthInput.scrollIntoViewIfNeeded();
   await eighthInput.focus();
-  await page.waitForTimeout(1300);
+  await page.waitForTimeout(4400);
   assert.equal(await page.locator('[data-eddy-active=true]').getAttribute('data-question-number'), '8', 'Eddy follows question 8, not question 7');
   const alignment = async () => page.evaluate(() => {
     const actorBox = document.querySelector('[data-sentence-journey-eddy]').getBoundingClientRect();
