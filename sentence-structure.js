@@ -1837,7 +1837,7 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
       <div class="exercise-progress" style="--progress:${percentage}%"><span></span></div>
       <div class="exercise-progress-label"><span>已完成 ${escapeHtml(correct)} / ${escapeHtml(total)} 題</span><span>尚餘 ${escapeHtml(remaining)} 題</span></div>
       ${Number(lesson.order) >= 1 && Number(lesson.order) <= 30 && total === 50 ? `<nav class="seaside-chapters" aria-label="練習題目分段">
-        ${[0, 1, 2, 3, 4].map((chapter) => `<button type="button" data-seaside-chapter="${chapter}" aria-label="跳至第 ${chapter * 10 + 1} 至 ${chapter * 10 + 10} 題"><img src="assets/sentence-structure/seaside/chapter-${["shell", "conch", "rocks", "lighthouse", "wheel"][chapter]}.svg" alt="" aria-hidden="true"><strong>${chapter * 10 + 1}–${chapter * 10 + 10}</strong><small>${["海灣起點", "貝殼小橋", "岩石海岸", "燈塔步道", "遠航挑戰"][chapter]}</small></button>`).join("")}
+        ${[0, 1, 2, 3, 4].map((chapter) => `<button type="button" data-seaside-chapter="${chapter}" aria-label="跳至第 ${chapter * 10 + 1} 至 ${chapter * 10 + 10} 題"><img src="assets/sentence-structure/seaside/chapter-${["shell", "conch", "rocks", "lighthouse", "wheel"][chapter]}.svg?v=2" alt="" aria-hidden="true"><strong>${chapter * 10 + 1}–${chapter * 10 + 10}</strong><small>${["海灣起點", "貝殼小橋", "岩石海岸", "燈塔步道", "遠航挑戰"][chapter]}</small></button>`).join("")}
       </nav>` : ""}
     </header>
 

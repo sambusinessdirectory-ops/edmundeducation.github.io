@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#ac8b61" stroke-width="2.5"><circle cx="32" cy="32" r="21"/><circle cx="32" cy="32" r="6" fill="#f4dfbb"/><path d="M32 3v58M3 32h58M11.5 11.5l41 41m0-41-41 41"/><circle cx="32" cy="32" r="17" stroke-width="1"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <defs>
+    <linearGradient id="wood" x1="18" y1="13" x2="64" y2="68" gradientUnits="userSpaceOnUse"><stop stop-color="#f8e1b0"/><stop offset=".48" stop-color="#bf8d55"/><stop offset="1" stop-color="#795438"/></linearGradient>
+    <radialGradient id="hub" cx="0" cy="0" r="1" gradientTransform="translate(37 34) rotate(49) scale(18)"><stop stop-color="#fff3c5"/><stop offset=".55" stop-color="#d4aa6b"/><stop offset="1" stop-color="#805a39"/></radialGradient>
+    <filter id="shade" x="-25%" y="-25%" width="150%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#594b3e" flood-opacity=".3"/></filter>
+  </defs>
+  <ellipse cx="40" cy="72" rx="27" ry="4" fill="#9db8b1" opacity=".29"/>
+  <g filter="url(#shade)" stroke="#77583f" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 4v72M4 40h72M14.5 14.5l51 51m0-51-51 51" stroke="url(#wood)" stroke-width="6"/>
+    <path d="M40 4v72M4 40h72M14.5 14.5l51 51m0-51-51 51" stroke="#f5d9a2" stroke-width="1.1" opacity=".74"/>
+    <circle cx="40" cy="40" r="27" stroke="url(#wood)" stroke-width="6"/>
+    <circle cx="40" cy="40" r="23.7" stroke="#f6dfac" stroke-width="1.5"/>
+    <circle cx="40" cy="40" r="8" fill="url(#hub)" stroke="#805a3d" stroke-width="2"/>
+    <circle cx="40" cy="40" r="2.5" fill="#6b503b" stroke="#f1d39c" stroke-width="1"/>
+    <path d="M40 5v6M75 40h-6M40 75v-6M5 40h6M15 15l5 5m45-5-5 5m5 45-5-5m-45 5 5-5" stroke="#eac58a" stroke-width="1.6"/>
+  </g>
+  <circle cx="40" cy="14" r="1.2" fill="#684b38"/><circle cx="66" cy="40" r="1.2" fill="#684b38"/><circle cx="40" cy="66" r="1.2" fill="#684b38"/><circle cx="14" cy="40" r="1.2" fill="#684b38"/>
+</svg>

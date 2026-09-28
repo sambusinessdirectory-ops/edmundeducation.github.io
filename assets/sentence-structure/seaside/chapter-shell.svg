@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none"><path d="M32 8C18 11 8 25 9 43c6 7 14 11 23 12 9-1 17-5 23-12C56 25 46 11 32 8Z" fill="#f4ddbc" stroke="#af8d66" stroke-width="2"/><path d="M32 9v45M32 12c-5 10-9 23-8 40M32 12c5 10 9 23 8 40M26 13c-9 9-14 21-12 35M38 13c9 9 14 21 12 35" stroke="#ad8d69" stroke-width="1.5"/><path d="M12 43c11-5 29-5 40 0" stroke="#af8d66" stroke-width="2"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <defs>
+    <linearGradient id="shell" x1="15" y1="12" x2="60" y2="68" gradientUnits="userSpaceOnUse"><stop stop-color="#fff9eb"/><stop offset=".38" stop-color="#f5dab6"/><stop offset=".76" stop-color="#d8ad85"/><stop offset="1" stop-color="#ab7c61"/></linearGradient>
+    <linearGradient id="lip" x1="17" y1="55" x2="64" y2="72" gradientUnits="userSpaceOnUse"><stop stop-color="#fbecd2"/><stop offset=".55" stop-color="#c98e75"/><stop offset="1" stop-color="#f4d6b1"/></linearGradient>
+    <filter id="shade" x="-25%" y="-25%" width="150%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#726e6c" flood-opacity=".28"/></filter>
+  </defs>
+  <ellipse cx="41" cy="71" rx="28" ry="4" fill="#a8c0bc" opacity=".34"/>
+  <g filter="url(#shade)">
+    <path d="M40 9C26 10 12 22 10 39c-1 9 3 19 10 25 7 5 13 8 20 9 8-1 17-5 23-12 6-7 9-16 7-24C66 21 54 10 40 9Z" fill="url(#shell)" stroke="#9f785f" stroke-width="1.8"/>
+    <path d="M40 10c-3 15-5 34-2 55M39 11C27 26 23 45 27 65M36 12C19 24 14 43 20 58M44 11c11 13 16 32 12 52M48 13c14 12 19 28 17 43" stroke="#a97861" stroke-width="1.5" stroke-linecap="round" opacity=".82"/>
+    <path d="M41 13c1 14 2 31 2 48M33 17c-4 13-5 26-3 39M51 18c4 11 5 23 4 36" stroke="#fff5df" stroke-width="2" stroke-linecap="round" opacity=".86"/>
+    <path d="M11 49c13-8 43-9 58-2-3 10-14 21-28 25-13-2-25-11-30-23Z" fill="url(#lip)" stroke="#936f62" stroke-width="1.6"/>
+    <path d="M17 51c14-5 36-6 47-2M23 61c13 5 27 4 38-3" stroke="#fff5dc" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
+    <path d="M18 32c1-4 3-7 6-10M56 23c4 4 6 8 7 12" stroke="#fff8e7" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+  </g>
+  <circle cx="62" cy="14" r="1.5" fill="#d8ae77"/><circle cx="67" cy="19" r="1" fill="#c89a68"/>
+</svg>

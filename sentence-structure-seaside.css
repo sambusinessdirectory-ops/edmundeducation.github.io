@@ -214,6 +214,7 @@
 .seaside-chapters { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 8px; margin-top: 17px; }
 .seaside-chapters button {
   min-width: 0;
+  min-height: 72px;
   border: 1px solid #ceddec;
   border-radius: 12px;
   padding: 8px 5px;
@@ -228,7 +229,7 @@
 }
 .seaside-chapters button:hover,
 .seaside-chapters button[aria-current] { border-color: #2974d8; background: #e5f1ff; }
-.seaside-chapters button > img { grid-row: 1 / 3; width: 34px; height: 34px; object-fit: contain; margin: auto; }
+.seaside-chapters button > img { grid-row: 1 / 3; width: 54px; height: 54px; object-fit: contain; margin: auto; }
 .seaside-chapters strong { font: 700 15px Georgia,"Times New Roman",serif; }
 .seaside-chapters small { font-size: 10px; }
 .sentence-seaside-lesson .question-list { gap: 18px; }
