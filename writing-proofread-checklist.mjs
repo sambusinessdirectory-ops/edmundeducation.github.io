@@ -1,4 +1,5 @@
 // Adapted from the teacher's proofreading checklist for use beside a live draft.
+import {mountFloatingWindow} from './floating-window.mjs';
 export const PROOFREAD_CHECKLIST_GROUPS = Object.freeze([
   { id: 'basic', title: '基本檢查', items: [
     ['articles', '冠詞 a / an / the', '第一次提到常用 a / an；特定事物留意 the。檢查 an apple、a university。'],
@@ -37,12 +38,21 @@ export function normalizeProofreadChecklistChecked(value) {
   return [...new Set(Array.isArray(value) ? value : [])].filter(id => ITEM_IDS.has(id));
 }
 
+export function normalizeProofreadChecklistRecord(value) {
+  const checkedIds = normalizeProofreadChecklistChecked(value?.checkedIds ?? value);
+  const touchedIds = normalizeProofreadChecklistChecked(value?.touchedIds ?? checkedIds);
+  const toggleCount = Math.max(touchedIds.length, Math.min(100000, Number.isSafeInteger(value?.toggleCount) ? value.toggleCount : touchedIds.length));
+  return {version: 1, checkedIds, touchedIds, toggleCount};
+}
+
 export function mountProofreadChecklist(host, onChange = () => {}) {
-  if (!host) return {setVisible(){},setChecked(){},getChecked(){return [];}};
+  if (!host) return {setVisible(){},setChecked(){},getChecked(){return [];},setRecord(){},getRecord(){return normalizeProofreadChecklistRecord(null);}};
   const progress = host.querySelector('[data-proofread-checklist-progress]');
   const list = host.querySelector('[data-proofread-checklist-list]');
   const collapse = host.querySelector('[data-proofread-checklist-collapse]');
   let checked = new Set();
+  let touched = new Set();
+  let toggleCount = 0;
   const inputs = new Map();
   for (const [groupIndex, group] of PROOFREAD_CHECKLIST_GROUPS.entries()) {
     const section = document.createElement('details');
@@ -69,6 +79,8 @@ export function mountProofreadChecklist(host, onChange = () => {}) {
       input.addEventListener('change', () => {
         if (input.checked) checked.add(id);
         else checked.delete(id);
+        touched.add(id);
+        toggleCount += 1;
         label.classList.toggle('is-checked', input.checked);
         progress.textContent = `已檢查 ${checked.size} / ${ITEM_IDS.size}`;
         onChange();
@@ -81,6 +93,7 @@ export function mountProofreadChecklist(host, onChange = () => {}) {
     collapse.setAttribute('aria-expanded', String(!collapsed));
     collapse.textContent = collapsed ? '展開清單' : '收起';
   });
+  mountFloatingWindow(host, {dragHandle: host.querySelector('.proofread-checklist-head'), minWidth: 280, minHeight: 220});
   function setChecked(value) {
     checked = new Set(normalizeProofreadChecklistChecked(value));
     for (const [id, input] of inputs) {
@@ -92,6 +105,13 @@ export function mountProofreadChecklist(host, onChange = () => {}) {
   return {
     setVisible(visible) { host.hidden = !visible; },
     setChecked,
-    getChecked() { return [...checked]; }
+    getChecked() { return [...checked]; },
+    setRecord(value) {
+      const record = normalizeProofreadChecklistRecord(value);
+      setChecked(record.checkedIds);
+      touched = new Set(record.touchedIds);
+      toggleCount = record.toggleCount;
+    },
+    getRecord() { return {version: 1, checkedIds: [...checked], touchedIds: [...touched], toggleCount}; }
   };
 }

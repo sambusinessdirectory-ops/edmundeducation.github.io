@@ -391,7 +391,7 @@ test("submission traffic uses a first-party Supabase relay with a safe failure p
   assert.match(html, /writing-submission\.js\?v=\d{8}-[a-z0-9-]+/);
   assert.match(submissionProxy, /const UPSTREAM_ORIGIN = "https:\/\/edmund-writing-submission\.edmundeducation\.workers\.dev"/);
   assert.match(submissionProxy, /const ALLOWED_ORIGINS = new Set/);
-  assert.match(submissionProxy, /request\.method !== "PUT" && request\.method !== "POST"/);
+  assert.match(submissionProxy, /\["GET", "PUT", "POST"\]\.includes\(request\.method\)/);
   assert.match(submissionProxy, /searchParams\.get\("submissionId"\)/);
   assert.match(submissionProxy, /UUID_RE\.test\(submissionId\)[\s\S]*UUID_RE\.test\(sessionToken\)/);
   assert.match(submissionProxy, /body\.byteLength > MAX_BODY_BYTES/);

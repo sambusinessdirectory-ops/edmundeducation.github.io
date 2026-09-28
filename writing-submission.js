@@ -1,5 +1,5 @@
 import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20260928-pocket4';
-import {mountProofreadChecklist,normalizeProofreadChecklistChecked} from './writing-proofread-checklist.mjs?v=20260928-proofread1';
+import {mountProofreadChecklist,normalizeProofreadChecklistChecked,normalizeProofreadChecklistRecord,PROOFREAD_CHECKLIST_GROUPS} from './writing-proofread-checklist.mjs?v=20260928-proofread2';
 import {preserveTextareaParagraphs,preserveArticleCopy} from './writing-paragraph-clipboard.mjs?v=20260927-pocket1';
 import {mountFeedbackReading} from './writing-feedback-reading.mjs?v=20260927-writing2';
 import {submissionSharingControls} from './writing-submission-sharing.mjs?v=20260927-toolbar1';
@@ -1919,6 +1919,15 @@ function apiRequestUrl(path, method = "GET") {
     url.searchParams.set("operation", "admin-submission");
     return url.href;
   }
+  const adminDetailMatch = normalizedPath.match(/^\/v1\/admin\/submissions\/([0-9a-f-]{36})$/iu);
+  if (normalizedMethod === 'GET' && adminDetailMatch) {
+    const proxyUrl = String(CONFIG.submissionProxyUrl || '').trim();
+    if (!proxyUrl.startsWith('https://')) throw new Error('交文後備服務尚未完成設定。');
+    const url = new URL(proxyUrl);
+    url.searchParams.set('operation', 'admin-submission-detail');
+    url.searchParams.set('submissionId', adminDetailMatch[1].toLowerCase());
+    return url.href;
+  }
   const submissionMatch = normalizedPath.match(/^\/v1\/submissions\/([0-9a-f-]{36})$/iu);
   if (normalizedMethod === "PUT" && submissionMatch) {
     const proxyUrl = String(CONFIG.submissionProxyUrl || "").trim();
@@ -2112,7 +2121,7 @@ function clearSession() {
   state.writingTimer = emptyWritingTimer();
   state.writingStopwatch = emptyWritingStopwatch();
   state.proofreadingGate = resetWritingProofreadingGate();
-  proofreadChecklist.setChecked([]);
+  proofreadChecklist.setRecord(null);
   state.writingImageZoom = 1;
   state.writingTimerPanelOpen = false;
   state.timerAutoSubmitLock = false;
@@ -3186,6 +3195,7 @@ function readDraft() {
       writingStopwatch: normalizeWritingStopwatch(value.writingStopwatch),
       proofreadingGate: normalizeWritingProofreadingGate(value.proofreadingGate),
       proofreadChecklistChecked: normalizeProofreadChecklistChecked(value.proofreadChecklistChecked),
+      proofreadChecklist: normalizeProofreadChecklistRecord(value.proofreadChecklist ?? value.proofreadChecklistChecked),
       writingImageZoom: [0.5, 1, 2, 3, 4, 5, 7].includes(Number(value.writingImageZoom))
         ? Number(value.writingImageZoom)
         : 1,
@@ -3214,6 +3224,7 @@ function persistDraft() {
       writingStopwatch: normalizeWritingStopwatch(state.writingStopwatch),
       proofreadingGate: normalizeWritingProofreadingGate(state.proofreadingGate),
       proofreadChecklistChecked: proofreadChecklist.getChecked(),
+      proofreadChecklist: proofreadChecklist.getRecord(),
       writingImageZoom: state.writingImageZoom,
       selectedTopicResource: canonicalWritingTopicResource(state.selectedTopicResource),
       savedAt: new Date().toISOString()
@@ -3657,7 +3668,7 @@ function startNewDraft({ preserveView = false } = {}) {
   state.writingTimer = emptyWritingTimer();
   state.writingStopwatch = emptyWritingStopwatch();
   state.proofreadingGate = resetWritingProofreadingGate();
-  proofreadChecklist.setChecked([]);
+  proofreadChecklist.setRecord(null);
   state.writingImageZoom = 1;
   state.timerAutoSubmitLock = false;
   state.writingClockLastAt = Date.now();
@@ -3708,7 +3719,7 @@ async function restoreDraft() {
   state.writingTimer = normalizeWritingTimer(draft?.writingTimer);
   state.writingStopwatch = normalizeWritingStopwatch(draft?.writingStopwatch);
   state.proofreadingGate = normalizeWritingProofreadingGate(draft?.proofreadingGate);
-  proofreadChecklist.setChecked(draft?.proofreadChecklistChecked);
+  proofreadChecklist.setRecord(draft?.proofreadChecklist ?? draft?.proofreadChecklistChecked);
   state.writingImageZoom = draft?.writingImageZoom || 1;
   state.timerAutoSubmitLock = false;
   state.writingClockLastAt = Date.now();
@@ -5026,6 +5037,9 @@ function normalizeSubmission(value) {
     occurrenceCount: Number(value?.occurrenceCount ?? value?.occurrence_count ?? 0),
     deletedAt: value?.deletedAt || value?.deleted_at ? String(value.deletedAt || value.deleted_at) : "",
     topicResource: normalizeWritingTopicResource(value?.topicResource || value?.topic_resource),
+    proofreadChecklist: value?.proofreadChecklist || value?.proofread_checklist
+      ? normalizeProofreadChecklistRecord(value?.proofreadChecklist || value?.proofread_checklist)
+      : null,
     feedbackStatus: String(value?.feedbackStatus || value?.feedback_status || ""),
     hasPublishedFeedback: value?.hasPublishedFeedback === true || value?.has_published_feedback === true,
     feedbackUnread: value?.feedbackUnread === true || value?.feedback_unread === true
@@ -5821,7 +5835,7 @@ async function loadDraftIntoWorkspace(draft) {
   state.writingTimer = normalizeWritingTimer(draft.countdown);
   state.writingStopwatch = normalizeWritingStopwatch(draft.stopwatch);
   state.proofreadingGate = resetWritingProofreadingGate();
-  proofreadChecklist.setChecked([]);
+  proofreadChecklist.setRecord(null);
   state.writingImageZoom = draft.imageZoom;
   state.timerAutoSubmitLock = false;
   state.previousWriting = draft.answer;
@@ -5920,6 +5934,24 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
   actions.replaceChildren(displayTools, articleTools);
   if (manageTools.childElementCount) actions.append(manageTools);
   container.replaceChildren(header, content);
+  if (admin && submission.proofreadChecklist) {
+    const record = submission.proofreadChecklist;
+    const section = createElement('section', 'admin-proofread-record');
+    section.append(createElement('h3', '', '學生校對清單紀錄'));
+    section.append(createElement('p', '', `提交時勾選 ${record.checkedIds.length} / 24 項 · 曾操作 ${record.touchedIds.length} 項 · 切換 ${record.toggleCount} 次`));
+    const checked = new Set(record.checkedIds);
+    const touched = new Set(record.touchedIds);
+    for (const group of PROOFREAD_CHECKLIST_GROUPS) {
+      const details = createElement('details');
+      const count = group.items.filter(([id]) => checked.has(id)).length;
+      details.append(createElement('summary', '', `${group.title} · ${count} / ${group.items.length}`));
+      const list = createElement('ul');
+      for (const [id, label] of group.items) list.append(createElement('li', '', `${checked.has(id) ? '✓' : touched.has(id) ? '○' : '—'} ${label}`));
+      details.append(list);
+      section.append(details);
+    }
+    container.append(section);
+  }
   applyFeedbackFontScale();
 }
 
@@ -8544,7 +8576,8 @@ async function submitCurrentWriting({ source = "manual" } = {}) {
         topic,
         answer,
         durationSeconds: submittedDurationSeconds,
-        topicResource: canonicalWritingTopicResourceForTransport(state.selectedTopicResource)
+        topicResource: canonicalWritingTopicResourceForTransport(state.selectedTopicResource),
+        proofreadChecklist: proofreadChecklist.getRecord()
       })
     });
     const saved = normalizeSubmission(payload?.submission || payload);
