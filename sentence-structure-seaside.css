@@ -116,7 +116,7 @@
   top: 8px;
   bottom: 8px;
   width: 72px;
-  background: url("assets/sentence-structure/seaside/notebook-ring.svg") left top / 70px 66px repeat-y;
+  background: url("assets/sentence-structure/seaside/notebook-ring.svg?v=2") left top / 70px 130px repeat-y;
   opacity: .95;
   pointer-events: none;
 }
@@ -240,7 +240,7 @@
   box-shadow: 0 6px 19px rgba(30,73,117,.07);
 }
 .sentence-seaside-lesson .question-card::before { content: ""; position: absolute; left: 16px; top: 22px; bottom: 20px; width: 10px; background: radial-gradient(circle,#b6c4d1 0 4px,transparent 5px) top left / 10px 44px repeat-y; }
-.sentence-seaside-lesson .question-card::before { left: -25px; top: 4px; bottom: 4px; width: 52px; background: url("assets/sentence-structure/seaside/notebook-ring.svg") left top / 48px 52px repeat-y; }
+.sentence-seaside-lesson .question-card::before { left: -25px; top: 4px; bottom: 4px; width: 52px; background: url("assets/sentence-structure/seaside/notebook-ring.svg?v=2") left top / 48px 90px no-repeat; }
 .sentence-seaside-lesson .question-card.is-correct { border-color: #99cdb1; }
 .sentence-seaside-lesson .question-card.is-wrong { border-color: #e6a59c; }
 .sentence-seaside-lesson .question-number { border-radius: 4px; padding: 5px 12px; color: #365e94; background: #f3e9d9; font-family: Georgia,"Times New Roman",serif; }
