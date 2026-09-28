@@ -1,4 +1,5 @@
 import { MAP_COMPANIONS } from './map-companions.mjs?v=20260915-noirceleste1';
+import { companionKey, selectedCompanion, selectCompanion } from './shared-companion.mjs?v=20260928-sync1';
 import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260928-independent-avatars1';
 import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-phoebe2';
 import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
@@ -27,7 +28,7 @@ export function mountWritingChessMap(host,{storage,owner,exerciseId,onStart}={})
   const events=new AbortController(), reduced=matchMedia('(prefers-reduced-motion: reduce)');
   const key=`writing-chess-map-v1:${owner||'guest'}`;
   let prefs={};try{prefs=JSON.parse(storage?.getItem(key)||'{}')||{};}catch{}
-  let character=CHARACTERS.some(c=>c.id===prefs.character)?prefs.character:'eddy';
+  let character=selectedCompanion(owner,storage)||(CHARACTERS.some(c=>c.id===prefs.character)?prefs.character:'eddy');
   let selected=Math.max(0,modes.findIndex(m=>prefs.exercise===exerciseId&&m.mode===prefs.mode&&m.difficulty===prefs.difficulty));
   let position=chessPosition(selected), route=[], frame=0,last=0,dead=false,angle=0,arrivalLabel="";
   const images=new Map();
@@ -108,7 +109,8 @@ export function mountWritingChessMap(host,{storage,owner,exerciseId,onStart}={})
   // Open exactly once on a tile click; the original delegated handler must not run twice.
   groups.addEventListener('click',event=>{const button=event.target.closest('[data-chess-index]');if(!button)return;event.stopPropagation();const index=Number(button.dataset.chessIndex);select(index);onStart?.(modes[index].mode,modes[index].difficulty);},{capture:true,signal:events.signal});
   on(groups.querySelector('[data-chess-enter]'),'click',()=>onStart?.(modes[selected].mode,modes[selected].difficulty));
-  on(cast,'click',event=>{const button=event.target.closest('[data-chess-character]');if(!button)return;character=button.dataset.chessCharacter;cast.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));save();draw(performance.now());});
+  on(cast,'click',event=>{const button=event.target.closest('[data-chess-character]');if(!button)return;character=button.dataset.chessCharacter;cast.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));save();selectCompanion(owner,character,storage);draw(performance.now());});
+  on(window,'storage',event=>{if(event.key===companionKey(owner)){character=selectedCompanion(owner,storage)||'eddy';cast.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.chessCharacter===character)));draw(performance.now());}});
   on(groups,'keydown',event=>{const b=event.target.closest('[data-chess-index]');if(!b||!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End'].includes(event.key))return;event.preventDefault();const n=Number(b.dataset.chessIndex);let row=Math.floor(n/4),col=n%4;if(event.key==='ArrowUp')row=Math.max(0,row-1);if(event.key==='ArrowDown')row=Math.min(3,row+1);if(event.key==='ArrowLeft')col=Math.max(0,col-1);if(event.key==='ArrowRight')col=Math.min(3,col+1);const next=event.key==='Home'?0:event.key==='End'?15:row*4+col;select(next);groups.querySelector(`[data-chess-index="${next}"]`).focus();});
   on(document,'visibilitychange',()=>{if(document.hidden){cancelAnimationFrame(frame);frame=0;}else if(!reduced.matches||route.length){last=performance.now();frame=requestAnimationFrame(tick);}});
   on(reduced,'change',()=>{if(reduced.matches){cancelAnimationFrame(frame);frame=0;position=route.at(-1)||position;route=[];draw(0);}else if(!frame){last=performance.now();frame=requestAnimationFrame(tick);}});

@@ -1,4 +1,5 @@
 import { MAP_COMPANIONS } from './map-companions.mjs?v=20260915-noirceleste1';
+import { companionKey, selectedCompanion, selectCompanion } from './shared-companion.mjs?v=20260928-sync1';
 import { cosmeticAtlas, restoreCosmetics, subscribeCosmetics } from './eddy-cosmetics.mjs?v=20260928-independent-avatars1';
 import { MASCOT_VIEWS } from './speaking-mascot-views.mjs?v=20260915-phoebe2';
 import { blinkAmount, screenFacingAngle } from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
@@ -450,7 +451,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
       const button=event.target.closest('button');
       if(button?.hasAttribute('data-map-level')) select(Number(button.dataset.mapLevel));
       else if(button?.hasAttribute('data-open-closet')) void openCloset();
-      else if(button?.dataset.character) { character=button.dataset.character; updateSelection(); save(); drawHorse(performance.now(),Boolean(journey)); }
+      else if(button?.dataset.character) { character=button.dataset.character; updateSelection(); save(); selectCompanion(owner,character); drawHorse(performance.now(),Boolean(journey)); }
       else if(button?.hasAttribute('data-map-open') && standing>=0) openLesson(lessons[standing].id);
       else if(button?.hasAttribute('data-save-location')) saveLocation();
       else if(button?.hasAttribute('data-map-overview')) setScale(0);
@@ -520,6 +521,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
   on(toggle,'click',()=>{mode=!mode;applyMode();save();});
   const unsubscribeCosmetics=subscribeCosmetics(()=>{if(built){drawAvatar('eddy');drawHorse(performance.now(),false);}});
   events.signal.addEventListener('abort',unsubscribeCosmetics,{once:true});
+  on(window,'storage',event=>{if(owner&&event.key===companionKey(owner)){character=selectedCompanion(owner)||'eddy';if(built){updateSelection();drawHorse(performance.now(),false);}}});
   return {
     update(userId) {
       void restoreCosmetics(userId);
@@ -530,7 +532,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
         let current, legacy;
         try {current=JSON.parse(localStorage.getItem(storageKey())||'null');legacy=systemKey === 'speaking' ? JSON.parse(localStorage.getItem(`edmund-expression-meadow-v1:${owner}`)||'null') : null;} catch {current=null;legacy=null;}
         const preference=restoreMapPreferences(current,legacy,nodes.map(n=>n.id));
-        mode=preference.mode;character=preference.character;pinned=preference.pinned;
+        mode=preference.mode;character=selectedCompanion(owner)||preference.character;pinned=preference.pinned;
         selected=Math.max(0,nodes.findIndex(p=>p.id===pinned));standing=selected;position={...nodes[selected]};journey=null;
         clearTimeout(statusTimer);if(status){status.hidden=true;status.textContent='';}
         angle=0; keys.clear();

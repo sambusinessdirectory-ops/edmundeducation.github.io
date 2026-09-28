@@ -1,4 +1,4 @@
-import {companionFor,companionName,companionStorageKeys} from './companion.mjs?v=20260928-map-companions2';
+import {companionFor,companionName,companionStorageKeys} from './companion.mjs?v=20260928-shared-companion1';
 import {createMedia} from './media.mjs?v=20260928-recording-studio1';
 import {modules,moduleMap,allQuestionMap,selectModule,showModule,questions,senses,questionMap,orderedOptions,isCorrectAnswer,replay,summary,dailyAnswers,hkDate,esc,highlighted} from './core.mjs?v=20260924-polysemy-fixes1';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
