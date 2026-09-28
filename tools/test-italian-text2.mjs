@@ -12,6 +12,7 @@ assert.equal(new Set(lesson.cards.map(card => card.front)).size, 48);
 for (const card of lesson.cards) {
   assert.equal(card.examples.length, 5, card.front);
   assert.ok(card.meaning.includes('\n('), card.front);
+  assert.equal(card.sourcePage, undefined, card.front);
   for (const example of card.examples) {
     assert.ok(example.en && example.translation && example.zh, card.front);
   }
@@ -33,7 +34,7 @@ for (const [index, difficulty] of exercise.practiceDifficultySets.entries()) {
 }
 for (const page of ['flashcards.html', 'writing-practice.html']) {
   const html = readFileSync(resolve(root, page), 'utf8');
-  assert.ok(html.includes('italian-2-torta-coi-bischeri-data.js?v=20260929-1'), page);
+  assert.ok(html.includes('italian-2-torta-coi-bischeri-data.js?v=20260929-2'), page);
   assert.ok(html.includes('italian-2-audio.js?v=20260929-1'), page);
   assert.ok(html.includes('editionLessons'), page);
 }

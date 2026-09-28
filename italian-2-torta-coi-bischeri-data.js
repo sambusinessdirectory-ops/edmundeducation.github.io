@@ -31,8 +31,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Let torta coi bischeri cool before serving it.",
           "zh": "(端上 torta coi bischeri 前，先讓它放涼。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "pasta frolla",
@@ -63,8 +62,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Decorate the top with the remaining shortcrust pastry.",
           "zh": "(用剩餘的酥皮裝飾表面。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "svettare",
@@ -95,8 +93,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "In the photo, the points appear to rise above the filling.",
           "zh": "(照片中的尖角看起來比餡料更突出。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "le punte",
@@ -127,8 +124,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Check the points before putting the cake in the oven.",
           "zh": "(把蛋糕放入焗爐前，先檢查尖角。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "un dolce tradizionale",
@@ -159,8 +155,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "In Pisa, you can look for this traditional dessert in pastry shops.",
           "zh": "(在比薩，你可以到糕餅店尋找這款傳統甜點。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "il comune",
@@ -191,8 +186,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "To find the town on a map, look near Pisa.",
           "zh": "(要在地圖上找到這個市鎮，可以在比薩附近搜尋。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "in provincia di",
@@ -223,8 +217,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "To describe Pontasserchio, you can say it is in the province of Pisa.",
           "zh": "(描述 Pontasserchio 時，可以說它位於比薩省。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "secondo la tradizione",
@@ -255,8 +248,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "When speaking about the dessert’s origins, you can say according to tradition.",
           "zh": "(談及這款甜點的起源時，可以使用「按傳統」這個說法。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "veniva offerta",
@@ -287,8 +279,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Today we can explain to whom the cake used to be offered.",
           "zh": "(今天我們可以說明過去這款蛋糕是送給誰的。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "i pellegrini",
@@ -319,8 +310,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "The story of the pilgrims helps explain the cake’s name.",
           "zh": "(朝聖者的故事有助理解這款蛋糕的名稱。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "accorrere",
@@ -351,8 +341,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "In the story, flocking shows how meaningful the festival was.",
           "zh": "(在故事中，蜂擁而來顯示這場慶典深受重視。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "un guscio croccante",
@@ -383,8 +372,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "When the cake is cut, the crisp shell is clearly visible.",
           "zh": "(切開蛋糕時，可以清楚看到酥脆外殼。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "racchiudere",
@@ -415,8 +403,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Before baking, check that the pastry can hold the rice filling.",
           "zh": "(焗製前，檢查酥皮能否包住米餡。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "uno squisito ripieno",
@@ -447,8 +434,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Let the delicious filling cool before adding the egg.",
           "zh": "(加入雞蛋前，先讓美味餡料放涼。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "a base di",
@@ -479,8 +465,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "When you read “made with,” look for the ingredients that follow.",
           "zh": "(讀到 a base di 時，留意後面列出的材料。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "uvetta",
@@ -511,8 +496,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "The ingredient list calls for 50 grams of raisins.",
           "zh": "(材料表列出需要 50 克葡萄乾。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "pinoli",
@@ -543,8 +527,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "The flavour of pine nuts goes well with chocolate.",
           "zh": "(松子的味道與朱古力很相配。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "portare in tavola",
@@ -575,8 +558,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "It is lovely to bring a family recipe to the table.",
           "zh": "(把家傳食譜做成菜式端上桌，是件美好的事。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "celebrare",
@@ -607,8 +589,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "You do not need a big party to celebrate with a dessert.",
           "zh": "(不一定需要大型派對，也可以用甜點慶祝。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "all’ombra dei lecci",
@@ -639,8 +620,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "The memory of the holm oaks’ shade makes the story more personal.",
           "zh": "(聖櫟樹蔭下的回憶令故事更具個人色彩。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "da decenni",
@@ -671,8 +651,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "For decades does not mean for a few months but for many years.",
           "zh": "(Da decenni 不是指幾個月，而是指很多年。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "dove acquistarla",
@@ -703,8 +682,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Before leaving, note where to buy it near the town centre.",
           "zh": "(出發前，記下市中心附近哪裏可以買到它。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "maraschino",
@@ -735,8 +713,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Measure the maraschino before adding it to the other ingredients.",
           "zh": "(把黑櫻桃利口酒加入其他材料前，先量好份量。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "a pezzetti",
@@ -767,8 +744,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "If the pieces are too large, cut them into smaller pieces.",
           "zh": "(如果塊狀太大，就再切成小塊。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "un composto sabbioso",
@@ -799,8 +775,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Do not knead too much when you want a sandy mixture.",
           "zh": "(想要砂粒狀混合物時，不要過度搓揉。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "un pizzico di sale",
@@ -831,8 +806,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "The recipe calls for a pinch of salt together with the egg.",
           "zh": "(食譜要求在加入雞蛋時也加一撮鹽。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "impastare",
@@ -863,8 +837,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "After finishing kneading, put the dough in the fridge.",
           "zh": "(搓揉完成後，把麵團放入雪櫃。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "una pasta soda",
@@ -895,8 +868,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "A firm dough can be rolled out after resting.",
           "zh": "(結實的麵團靜置後便可擀開。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "sul fuoco al minimo",
@@ -927,8 +899,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "If the heat is too high, lower it to the minimum.",
           "zh": "(如果火太猛，就把它調至最低。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "cremoso",
@@ -959,8 +930,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Melted chocolate makes the mixture creamier.",
           "zh": "(融化的朱古力令混合物更幼滑。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "non troppo asciutto",
@@ -991,8 +961,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "If the mixture looks dry, it no longer has enough moisture.",
           "zh": "(如果混合物看起來乾燥，就已經不夠濕潤。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "incorporare",
@@ -1023,8 +992,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Do not fold in the egg while the mixture is still too hot.",
           "zh": "(混合物仍然太熱時，不要加入雞蛋。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "setacciato",
@@ -1055,8 +1023,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Check that the cocoa has been sifted before mixing.",
           "zh": "(攪拌前，檢查可可粉是否已過篩。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "omogeneo",
@@ -1087,8 +1054,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Make the filling even before pouring it into the pastry.",
           "zh": "(把餡料倒入酥皮前，先拌至均勻。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "ben sciolto",
@@ -1119,8 +1085,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Let the filling rest after the chocolate has melted completely.",
           "zh": "(朱古力完全融化後，讓餡料靜置。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "lasciare riposare",
@@ -1151,8 +1116,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "You must also let the pastry dough rest in the fridge.",
           "zh": "(你也需要讓酥皮麵團在雪櫃中靜置。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "leggermente sbattuto",
@@ -1183,8 +1147,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Pour the lightly beaten egg into the lukewarm mixture.",
           "zh": "(把略為打散的雞蛋倒入微暖的混合物。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "stendere la pasta",
@@ -1215,8 +1178,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "After the dough has rested, you can roll it out.",
           "zh": "(麵團靜置後，就可以擀開。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "foderare uno stampo",
@@ -1247,8 +1209,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "You can decorate the cake with the remaining dough after lining the pan.",
           "zh": "(鋪好模具後，可以用剩餘麵團裝飾蛋糕。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "uno stampo a cerniera",
@@ -1279,8 +1240,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Wait for the cake to cool slightly before opening the springform pan.",
           "zh": "(待蛋糕稍微放涼後，才打開活底蛋糕模。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "distanziandole",
@@ -1311,8 +1271,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Before folding the flaps, make the cuts at regular intervals.",
           "zh": "(摺起麵皮前，先等距切口。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "piegare i lembi",
@@ -1343,8 +1302,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Do not overfill the pan before folding the flaps.",
           "zh": "(摺起麵皮邊緣前，不要把模具填得太滿。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "bucherellare il fondo",
@@ -1375,8 +1333,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Before pouring in the rice, check that you have finished pricking the base.",
           "zh": "(倒入米餡前，檢查餅底是否已戳好孔。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "una rotella ondulata",
@@ -1407,8 +1364,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Move the fluted pastry wheel slowly across the rolled-out dough.",
           "zh": "(慢慢把波浪形切麵輪滾過擀好的麵皮。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "forno ventilato",
@@ -1439,8 +1395,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "Check the cake after 45 minutes in the fan oven.",
           "zh": "(蛋糕在熱風焗爐焗了 45 分鐘後要檢查。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "sfornare",
@@ -1471,8 +1426,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "After taking it out of the oven, let the cake cool slightly.",
           "zh": "(蛋糕出爐後，讓它稍微放涼。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "lasciare intiepidire",
@@ -1503,8 +1457,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "After letting the dessert cool slightly, you can serve it cold.",
           "zh": "(甜點稍微放涼後，就可以冷食。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     },
     {
       "front": "sformare",
@@ -1535,8 +1488,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
           "translation": "After unmolding, let the dessert cool completely.",
           "zh": "(脫模後，讓甜點完全放涼。)"
         }
-      ],
-      "sourcePage": 1
+      ]
     }
   ],
   "exercise": {
