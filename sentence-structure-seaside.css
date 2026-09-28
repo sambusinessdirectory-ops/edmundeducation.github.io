@@ -44,11 +44,12 @@
   align-items: flex-end;
 }
 .sentence-seaside-lesson .lesson-title-row h1 {
-  max-width: 900px;
+  max-width: 1200px;
   color: var(--sea-ink);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(38px, 5vw, 68px);
   font-weight: 500;
+  word-break: keep-all;
   text-shadow: 0 2px 2px #fff;
 }
 .sentence-seaside-lesson [data-lesson-kicker] {

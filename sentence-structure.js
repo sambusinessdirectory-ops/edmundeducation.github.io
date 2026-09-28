@@ -188,6 +188,13 @@ function lessonTitle(lesson) {
   return String(lesson?.title || lesson?.titleZh || lesson?.name || "句子結構");
 }
 
+function lessonHeadingTitle(lesson) {
+  const title = lessonTitle(lesson);
+  return Number(lesson?.order) >= 1 && Number(lesson?.order) <= 30
+    ? title.replace(/-(?=[A-Za-z])/g, "-\u2060")
+    : title;
+}
+
 function lessonEnglishTitle(lesson) {
   return String(lesson?.titleEn || lesson?.englishTitle || "Sentence Structure");
 }
@@ -1339,7 +1346,7 @@ async function openLesson(lessonId, { page = 1, attempt = null, questionId = "" 
     updateSeasideLesson(lesson);
     state.exercise = null;
     elements.lessonKicker.textContent = lessonEnglishTitle(lesson).toUpperCase();
-    elements.lessonTitle.textContent = lessonTitle(lesson);
+    elements.lessonTitle.textContent = lessonHeadingTitle(lesson);
     showView("lesson");
     elements.lessonContent.innerHTML = loadingHtml();
     elements.lessonStepper.inert = true;
@@ -1362,7 +1369,7 @@ async function openLesson(lessonId, { page = 1, attempt = null, questionId = "" 
   saveExerciseDraft();
   state.exercise = attempt ? (restoreExerciseDraft(lesson, attempt) || exerciseFromAttempt(attempt)) : null;
   elements.lessonKicker.textContent = lessonEnglishTitle(lesson).toUpperCase();
-  elements.lessonTitle.textContent = lessonTitle(lesson);
+  elements.lessonTitle.textContent = lessonHeadingTitle(lesson);
   showView("lesson");
   renderLessonPage();
   const targetQuestionId = questionId || (state.lessonPage === 4 ? currentProgressQuestionId(lesson) : "");
