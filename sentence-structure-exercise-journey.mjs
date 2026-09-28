@@ -50,6 +50,7 @@ function actorTop(list, actor, stop) {
 function placeActor(list, actor, stop, animate) {
   actor.style.transition = animate ? "" : "none";
   actor.style.top = `${actorTop(list, actor, stop)}px`;
+  actor.dataset.positioned = "true";
   if (!animate) requestAnimationFrame(() => { if (actor.isConnected) actor.style.transition = ""; });
 }
 

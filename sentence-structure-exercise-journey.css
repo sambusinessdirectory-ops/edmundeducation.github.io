@@ -8,6 +8,7 @@
 .sentence-journey-platform strong{position:absolute;z-index:2;left:0;right:0;top:16px;color:#285867;text-align:center;font:700 24px/1 Georgia,"Times New Roman",serif;text-shadow:0 1px #fffaf0}
 .sentence-journey-stop[data-eddy-active=true] .sentence-journey-platform{transform:translateY(-2px)}
 .sentence-journey-eddy{position:absolute;z-index:5;right:17px;top:0;width:98px;height:98px;pointer-events:none;transition:top var(--eddy-walk-duration,700ms) cubic-bezier(.22,.7,.22,1);will-change:top}
+.sentence-journey-eddy:not([data-positioned=true]){visibility:hidden}
 .sentence-journey-eddy-sprite,.sentence-journey-eddy-blink{position:absolute;inset:0;display:block;background:url("assets/speaking-system/mascots/v4/eddy-standing.png") 33.333% 0/400% 400% no-repeat;filter:drop-shadow(0 4px 3px #173c3e3d)}
 .sentence-journey-eddy-blink{background-image:url("assets/speaking-system/mascots/v4/eddy-blink.png");opacity:0;filter:none;animation:sentence-eddy-blink 6.8s linear infinite}
 .sentence-journey-eddy-shadow{position:absolute;z-index:-1;left:24%;right:24%;bottom:7%;height:10%;border-radius:50%;background:#264d4930;filter:blur(2px);transition:transform .25s ease,opacity .25s ease}

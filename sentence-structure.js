@@ -4,7 +4,7 @@ import { createExpressionMap } from "./common-expression-map.mjs?v=20260928-shar
 import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260924-closet-all2";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260914-hotel3b";
 import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies, syncSentenceTrophyCounter, syncSentenceTrophyControls, animateSentenceTrophy, awardDateMarkup } from "./sentence-structure-trophies.mjs?v=20260915-phoebe2";
-import { sentenceJourneyEnabled, sentenceJourneyPlatformHtml, sentenceJourneyActorHtml, getSentenceJourneyQuestionId, mountSentenceJourney, moveSentenceJourney, reactSentenceJourney } from "./sentence-structure-exercise-journey.mjs?v=20260929-eddy-path5";
+import { sentenceJourneyEnabled, sentenceJourneyPlatformHtml, sentenceJourneyActorHtml, getSentenceJourneyQuestionId, mountSentenceJourney, moveSentenceJourney, reactSentenceJourney } from "./sentence-structure-exercise-journey.mjs?v=20260929-eddy-path6";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const lessonLibrary = createLessonLibrary(new URL("./assets/sentence-structure/library/manifest.json?v=20260908-loading1", import.meta.url));
@@ -1821,6 +1821,13 @@ function submissionQuestions(lesson = getLesson()) {
 function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   removeFloatingExerciseActions();
   ensureExercise(lesson);
+  const preservedJourneyActor = sentenceJourneyEnabled(lesson)
+    ? elements.lessonContent.querySelector?.("[data-sentence-journey-eddy]")
+    : null;
+  const preservedJourneyStatus = sentenceJourneyEnabled(lesson)
+    ? elements.lessonContent.querySelector?.("[data-sentence-journey-status]")
+    : null;
+  const preservedQuestionOrderControl = elements.lessonContent.querySelector?.(".question-order-control.question-order-inline");
   const scrollTop = preserveScroll ? window.scrollY : 0;
   const scrollAnchorQuestionId = preserveScroll ? getSentenceJourneyQuestionId() : "";
   const previousScrollAnchor = scrollAnchorQuestionId
@@ -1836,11 +1843,16 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   const correctionScope = state.exercise.correctionMode ? correctionQuestions(lesson) : [];
   const correctionRemaining = correctionScope.filter((question) => !state.exercise.correctIds.includes(question.id));
   const correctionAnswerVisible = correctionRemaining.some((question) => questionState(question.id).reveal === true);
-  const displayQuestions = completed
+  const scopedDisplayQuestions = completed
     ? lesson.questions
     : state.exercise.correctionMode
       ? correctionScope
       : lesson.questions;
+  const displayQuestions = orderQuestions(scopedDisplayQuestions, {
+    system: "sentence-structure",
+    owner: state.user?.id,
+    lessonId: state.lessonId
+  });
   const visibleCorrectIds = displayQuestions
     .filter((question) => state.exercise.correctIds.includes(question.id))
     .map((question) => question.id);
@@ -1930,6 +1942,19 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
       </div>
     </div>` : ""}
   </section>`;
+
+  if (preservedJourneyActor) {
+    const renderedActor = elements.lessonContent.querySelector?.("[data-sentence-journey-eddy]");
+    renderedActor?.replaceWith?.(preservedJourneyActor);
+  }
+  if (preservedJourneyStatus) {
+    const renderedStatus = elements.lessonContent.querySelector?.("[data-sentence-journey-status]");
+    renderedStatus?.replaceWith?.(preservedJourneyStatus);
+  }
+  if (preservedQuestionOrderControl) {
+    const firstQuestionOrderItem = elements.lessonContent.querySelector?.("[data-question-order-item]");
+    firstQuestionOrderItem?.before?.(preservedQuestionOrderControl);
+  }
 
   mountFloatingExerciseActions();
   updateLessonStepper();
