@@ -166,7 +166,7 @@
 @media(prefers-reduced-motion:reduce){.eddy-streak-sprite::after,.polysemy-streak[data-streak-stage] .eddy-streak-sprite::after{animation:none;opacity:0}}
 
 /* Chosen Writing-map companion: one anchored atlas cell per streak milestone. */
-body[data-polysemy-companion="phoebe"]{--companion-sheet:url('/assets/polysemy-lab/phoebe-polysemy-eight-poses-v4.png')}
+body[data-polysemy-companion="phoebe"]{--companion-sheet:url('/assets/polysemy-lab/phoebe-cartoon-streak-six-stages-v1.png')}
 body[data-polysemy-companion="elsie"]{--companion-sheet:url('/assets/polysemy-lab/elsie-polysemy-eight-poses-v1.png')}
 body[data-polysemy-companion="noir"]{--companion-sheet:url('/assets/polysemy-lab/noir-polysemy-eight-poses-v1.png')}
 body[data-polysemy-companion="celeste"]{--companion-sheet:url('/assets/polysemy-lab/celeste-polysemy-eight-poses-v1.png')}
@@ -191,3 +191,22 @@ body[data-polysemy-companion]:not([data-polysemy-companion="eddy"]) .eddy-streak
 .recorder .companion-recorder-art{display:block;aspect-ratio:1/1;height:auto;background-image:var(--companion-sheet);background-size:400% 200%;background-position:66.667% 100%;background-repeat:no-repeat}
 .recorder .companion-recorder-art.is-audio{background-position:100% 100%}
 @media(prefers-reduced-motion:reduce){body[data-polysemy-companion]:not([data-polysemy-companion="eddy"]) .eddy-streak-sprite::after{animation:none;opacity:0}}
+
+/* Phoebe follows Eddy's six gesture stages and aligned blink row. */
+body[data-polysemy-companion="phoebe"] .polysemy-streak{--companion-pose-x:0%;--companion-pose-y:0%}
+body[data-polysemy-companion="phoebe"]:not([data-polysemy-companion="eddy"]) .polysemy-streak[data-streak-stage="1"]{--companion-pose-x:20%}
+body[data-polysemy-companion="phoebe"]:not([data-polysemy-companion="eddy"]) .polysemy-streak[data-streak-stage="2"]{--companion-pose-x:40%}
+body[data-polysemy-companion="phoebe"]:not([data-polysemy-companion="eddy"]) .polysemy-streak[data-streak-stage="3"]{--companion-pose-x:60%}
+body[data-polysemy-companion="phoebe"]:not([data-polysemy-companion="eddy"]) .polysemy-streak[data-streak-stage="4"]{--companion-pose-x:80%;--companion-pose-y:0%}
+body[data-polysemy-companion="phoebe"]:not([data-polysemy-companion="eddy"]) .polysemy-streak[data-streak-stage="5"]{--companion-pose-x:100%;--companion-pose-y:0%}
+body[data-polysemy-companion="phoebe"]:not([data-polysemy-companion="eddy"]) .eddy-streak-sprite{background-size:600% 200%}
+body[data-polysemy-companion="phoebe"]:not([data-polysemy-companion="eddy"]) .eddy-streak-sprite::after{
+  background-size:600% 200%;background-position:var(--companion-pose-x) 100%;
+  -webkit-mask-image:radial-gradient(ellipse 12% 9% at 34% 50%,#000 62%,transparent 84%),radial-gradient(ellipse 12% 9% at 62% 50%,#000 62%,transparent 84%);
+  mask-image:radial-gradient(ellipse 12% 9% at 34% 50%,#000 62%,transparent 84%),radial-gradient(ellipse 12% 9% at 62% 50%,#000 62%,transparent 84%);
+}
+body[data-polysemy-companion="phoebe"] .recorder .companion-recorder-art{
+  background-image:url('/assets/polysemy-lab/phoebe-cartoon-recording-two-poses-v1.png');
+  background-size:200% 100%;background-position:0% 0%;
+}
+body[data-polysemy-companion="phoebe"] .recorder .companion-recorder-art.is-audio{background-position:100% 0%}
