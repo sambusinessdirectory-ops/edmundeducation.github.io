@@ -11,7 +11,7 @@
 .sentence-journey-eddy-sprite,.sentence-journey-eddy-blink{position:absolute;inset:0;display:block;background:url("assets/speaking-system/mascots/v4/eddy-standing.png") 33.333% 0/400% 400% no-repeat;filter:drop-shadow(0 4px 3px #173c3e3d)}
 .sentence-journey-eddy-blink{background-image:url("assets/speaking-system/mascots/v4/eddy-blink.png");opacity:0;filter:none;animation:sentence-eddy-blink 6.8s linear infinite}
 .sentence-journey-eddy-shadow{position:absolute;z-index:-1;left:24%;right:24%;bottom:7%;height:10%;border-radius:50%;background:#264d4930;filter:blur(2px);transition:transform .25s ease,opacity .25s ease}
-.sentence-journey-eddy[data-motion=walk] .sentence-journey-eddy-sprite{background-image:url("assets/sentence-structure/exercise-eddy/eddy-walk-v2.webp");background-position:0 0;background-size:800% 100%;animation:sentence-eddy-walk 1.02s steps(7) infinite}
+.sentence-journey-eddy[data-motion=walk] .sentence-journey-eddy-sprite{background-image:url("assets/sentence-structure/exercise-eddy/eddy-walk-v2.webp");background-position:0 0;background-size:800% 100%;animation:sentence-eddy-walk 1.46s steps(7) infinite}
 .sentence-journey-eddy:not([data-motion=idle]) .sentence-journey-eddy-blink{display:none}
 .sentence-journey-eddy[data-motion=walk][data-direction=up]{transform:rotate(-1.5deg)}
 .sentence-journey-eddy[data-motion=walk][data-direction=down]{transform:rotate(1.5deg)}

@@ -71,6 +71,7 @@ export function mountSentenceJourney(root) {
   if (!stop) return;
   activeQuestionId = stop.dataset.eddyStop || "";
   stop.dataset.eddyActive = "true";
+  placeActor(list, actor, stop, false);
   scheduleStablePosition(list, actor);
   positionObserver?.disconnect();
   positionObserver = typeof ResizeObserver === "function"
@@ -87,7 +88,7 @@ export function moveSentenceJourney(root, questionId, { announce = true } = {}) 
   const nextTop = actorTop(list, actor, stop);
   const previousTop = Number.parseFloat(actor.style.top || String(nextTop));
   const distance = Math.abs(nextTop - previousTop);
-  const duration = reducedMotion() || distance < 4 ? 0 : Math.round(Math.min(4200, Math.max(1450, 900 + distance * .58)));
+  const duration = reducedMotion() || distance < 4 ? 0 : Math.round(Math.min(6000, Math.max(2070, (900 + distance * .58) / .7)));
   list.querySelectorAll("[data-eddy-active]").forEach((item) => delete item.dataset.eddyActive);
   stop.dataset.eddyActive = "true";
   actor.dataset.direction = nextTop < previousTop ? "up" : "down";

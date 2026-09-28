@@ -65,6 +65,7 @@ window.journeyTest = {
   assert.match(await page.locator('.question-list.has-sentence-journey').evaluate((node) => getComputedStyle(node, '::before').backgroundImage), /coast-route-v2\.webp/);
 
   const actor = page.locator('[data-sentence-journey-eddy]');
+  await page.waitForFunction(() => document.querySelector('[data-sentence-journey-eddy]').dataset.motion === 'idle', null, { timeout: 6500 });
   assert.match(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-standing\.png/);
   assert.equal(await actor.locator('.sentence-journey-eddy-blink').evaluate((node) => getComputedStyle(node).animationName), 'sentence-eddy-blink');
   const firstInput = page.locator('[data-answer-input]').first();
@@ -76,8 +77,8 @@ window.journeyTest = {
   assert.ok(thirdTop > firstTop, 'Eddy moves down the vertical path');
   assert.equal(await actor.getAttribute('data-motion'), 'walk');
   assert.equal(await page.locator('[data-eddy-active=true]').getAttribute('data-question-number'), '3');
-  assert.ok(Number.parseFloat(await actor.evaluate((node) => node.style.getPropertyValue('--eddy-walk-duration'))) >= 1450, 'Eddy travels at a calm, readable pace');
-  assert.equal(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).animationDuration), '1.02s');
+  assert.ok(Number.parseFloat(await actor.evaluate((node) => node.style.getPropertyValue('--eddy-walk-duration'))) >= 2070, 'Eddy travels thirty percent slower');
+  assert.equal(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).animationDuration), '1.46s');
 
   const module = await page.evaluate(async () => {
     const journey = await import('/sentence-structure-exercise-journey.mjs');
@@ -105,7 +106,17 @@ window.journeyTest = {
   await page.waitForTimeout(80);
   const beforeGradeTop = await twelfthStop.evaluate((node) => node.getBoundingClientRect().top);
   await twelfthInput.fill(await page.evaluate(() => journeyTest.getLesson().questions[11].answer));
-  await page.evaluate(() => { void journeyTest.submitExercise('partial'); });
+  const immediateGradePosition = await page.evaluate(() => {
+    void journeyTest.submitExercise('partial');
+    const actorBox = document.querySelector('[data-sentence-journey-eddy]').getBoundingClientRect();
+    const platformBox = document.querySelector('[data-eddy-active=true] .sentence-journey-platform').getBoundingClientRect();
+    return {
+      styledTop: Number.parseFloat(document.querySelector('[data-sentence-journey-eddy]').style.top),
+      feetGap: Math.abs((actorBox.bottom - actorBox.height * .1) - (platformBox.top + platformBox.height * .48))
+    };
+  });
+  assert.ok(immediateGradePosition.styledTop > 1000, 'Eddy never flashes back to the start of the route while grading');
+  assert.ok(immediateGradePosition.feetGap < 4, 'Eddy remains planted on the active platform during the grading rerender');
   await page.waitForFunction(() => document.querySelector('[data-eddy-stop][data-question-number="12"] .question-card')?.classList.contains('is-correct'));
   await page.waitForTimeout(240);
   const afterGradeTop = await page.locator('[data-eddy-stop][data-question-number="12"]').evaluate((node) => node.getBoundingClientRect().top);
@@ -114,7 +125,7 @@ window.journeyTest = {
   const eighthInput = page.locator('[data-answer-input]').nth(7);
   await eighthInput.scrollIntoViewIfNeeded();
   await eighthInput.focus();
-  await page.waitForTimeout(4400);
+  await page.waitForFunction(() => document.querySelector('[data-sentence-journey-eddy]').dataset.motion === 'idle', null, { timeout: 6500 });
   assert.equal(await page.locator('[data-eddy-active=true]').getAttribute('data-question-number'), '8', 'Eddy follows question 8, not question 7');
   const alignment = async () => page.evaluate(() => {
     const actorBox = document.querySelector('[data-sentence-journey-eddy]').getBoundingClientRect();
