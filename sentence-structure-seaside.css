@@ -16,11 +16,11 @@
   position: absolute;
   z-index: -1;
   inset: 0 0 auto;
-  height: 258px;
+  height: 290px;
   background:
-    linear-gradient(90deg, rgba(255,255,255,.98) 0%, rgba(255,255,255,.92) 28%, rgba(255,255,255,.1) 67%),
-    linear-gradient(0deg, #f8f6f0 0%, transparent 36%),
-    url("assets/sentence-structure/coast/background-wide.webp") center 12% / cover no-repeat;
+    linear-gradient(90deg, rgba(255,255,255,.97) 0%, rgba(255,255,255,.89) 29%, rgba(255,255,255,.04) 62%),
+    linear-gradient(0deg, #f8f6f0 0%, transparent 31%),
+    url("assets/sentence-structure/seaside/header-v2.webp") center 30% / cover no-repeat;
 }
 .sentence-seaside-lesson .lesson-topbar,
 .sentence-seaside-lesson .lesson-title-row,
@@ -68,18 +68,6 @@
   font: 700 12px Georgia, "Times New Roman", serif;
   letter-spacing: .13em;
 }
-.seaside-sailboat { display: none; }
-.sentence-seaside-lesson .seaside-sailboat {
-  display: block;
-  position: absolute;
-  z-index: 0;
-  top: 106px;
-  right: 22%;
-  font-size: 33px;
-  filter: drop-shadow(0 3px 1px rgba(19, 68, 117, .25));
-  animation: seaside-drift 9s ease-in-out infinite alternate;
-}
-@keyframes seaside-drift { to { transform: translate(22px, -4px) rotate(2deg); } }
 .sentence-seaside-lesson .bookmark-library-button {
   border-color: #bfd4ed;
   background: rgba(255,255,255,.92);
@@ -111,45 +99,43 @@
   position: relative;
   overflow: hidden;
   border: 1px solid #d9c9b5;
+  border-left: 4px solid #cab8a1;
   border-radius: 19px;
   padding: clamp(25px, 3.5vw, 48px) clamp(25px, 4vw, 58px) 28px clamp(45px, 5vw, 77px);
   background:
     radial-gradient(circle at 90% 0%,rgba(230,212,182,.19),transparent 35%),
     repeating-linear-gradient(0deg,transparent 0 35px,rgba(66,126,180,.055) 36px,transparent 37px),
     #fffdf8;
-  box-shadow: 0 18px 42px rgba(38,59,75,.11);
+  box-shadow: -5px 0 0 #f2e9dd, 0 18px 42px rgba(38,59,75,.11);
 }
 .sentence-seaside-lesson .info-page::before,
 .sentence-seaside-lesson .exercise-page::before {
   content: "";
   position: absolute;
-  left: 11px;
-  top: 20px;
-  bottom: 20px;
-  width: 30px;
-  background: radial-gradient(circle at 15px 18px,#b49876 0 4px,#f9f7ef 5px 9px,transparent 10px) center top / 30px 55px repeat-y;
+  left: -24px;
+  top: 8px;
+  bottom: 8px;
+  width: 72px;
+  background: url("assets/sentence-structure/seaside/notebook-ring.svg") left top / 70px 66px repeat-y;
   opacity: .95;
   pointer-events: none;
 }
 .sentence-seaside-lesson .info-page::after,
 .sentence-seaside-lesson .exercise-page::after {
-  content: "✧";
+  content: "";
   position: absolute;
-  right: 37px;
-  top: 23px;
-  width: 84px;
-  height: 84px;
-  border: 2px solid rgba(174,136,93,.35);
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  color: rgba(169,126,75,.45);
-  font-size: 76px;
-  line-height: 1;
+  right: 24px;
+  top: 20px;
+  width: 105px;
+  height: 105px;
+  background: url("assets/sentence-structure/seaside/compass-v2.webp") center / contain no-repeat;
+  opacity: .58;
   pointer-events: none;
 }
 .sentence-seaside-lesson .info-page-header { max-width: calc(100% - 110px); padding-bottom: 20px; border-bottom: 1px solid #d9c7ad; }
-.sentence-seaside-lesson .info-page-header::after { content: "✦"; position: absolute; left: 50%; margin-top: 8px; color: #c8a275; }
+.sentence-seaside-lesson .info-page-header::after { content: ""; position: absolute; left: 50%; margin-top: 2px; width: 28px; height: 28px; background: url("assets/sentence-structure/seaside/compass-v2.webp") center / contain no-repeat; opacity: .53; }
+.sentence-seaside-lesson .seaside-benefits-page .info-page-header { position: relative; min-height: 165px; }
+.sentence-seaside-lesson .seaside-benefits-page .info-page-header::before { content: ""; position: absolute; right: 0; top: -62px; width: 340px; height: 210px; background: url("assets/sentence-structure/seaside/lookout-v2.webp") right center / 500px auto no-repeat; opacity: .79; pointer-events: none; }
 .sentence-seaside-lesson .info-page-header .page-label,
 .sentence-seaside-lesson .exercise-header .eyebrow { color: #547fb5; font-family: Georgia,"Times New Roman",serif; }
 .sentence-seaside-lesson .info-page-header h2,
@@ -206,6 +192,9 @@
 .sentence-seaside-lesson .rule-card { grid-template-columns: auto 1fr; }
 .sentence-seaside-lesson .rule-card > div { border-left: 3px solid #b9d5f5; padding-left: 15px; }
 .sentence-seaside-lesson .rule-card .examples code { color: #17704d; background: #e9f7ee; }
+.seaside-anchor { display: none; }
+.sentence-seaside-lesson .seaside-rules-page .rule-card { grid-template-columns: 45px 44px minmax(0,1fr); align-items: center; }
+.sentence-seaside-lesson .seaside-rules-page .seaside-anchor { display: block; width: 38px; height: 38px; }
 .sentence-seaside-lesson .lesson-navigation .primary-button,
 .sentence-seaside-lesson .exercise-actions .primary-button {
   border-color: #0e2d67;
@@ -239,7 +228,7 @@
 }
 .seaside-chapters button:hover,
 .seaside-chapters button[aria-current] { border-color: #2974d8; background: #e5f1ff; }
-.seaside-chapters button > span { grid-row: 1 / 3; color: #bba183; font-size: 23px; }
+.seaside-chapters button > img { grid-row: 1 / 3; width: 34px; height: 34px; object-fit: contain; margin: auto; }
 .seaside-chapters strong { font: 700 15px Georgia,"Times New Roman",serif; }
 .seaside-chapters small { font-size: 10px; }
 .sentence-seaside-lesson .question-list { gap: 18px; }
@@ -251,6 +240,7 @@
   box-shadow: 0 6px 19px rgba(30,73,117,.07);
 }
 .sentence-seaside-lesson .question-card::before { content: ""; position: absolute; left: 16px; top: 22px; bottom: 20px; width: 10px; background: radial-gradient(circle,#b6c4d1 0 4px,transparent 5px) top left / 10px 44px repeat-y; }
+.sentence-seaside-lesson .question-card::before { left: -25px; top: 4px; bottom: 4px; width: 52px; background: url("assets/sentence-structure/seaside/notebook-ring.svg") left top / 48px 52px repeat-y; }
 .sentence-seaside-lesson .question-card.is-correct { border-color: #99cdb1; }
 .sentence-seaside-lesson .question-card.is-wrong { border-color: #e6a59c; }
 .sentence-seaside-lesson .question-number { border-radius: 4px; padding: 5px 12px; color: #365e94; background: #f3e9d9; font-family: Georgia,"Times New Roman",serif; }
@@ -263,7 +253,7 @@
   .seaside-chapters { grid-template-columns: repeat(5,minmax(110px,1fr)); overflow-x: auto; padding-bottom: 5px; }
 }
 @media (max-width: 600px) {
-  .sentence-seaside-lesson::before { height: 236px; background-position: 55% 0; }
+  .sentence-seaside-lesson::before { height: 253px; background-position: 63% 9%; }
   .sentence-seaside-lesson .lesson-title-row { min-height: 145px; margin-top: 12px; align-items: flex-start; }
   .sentence-seaside-lesson .lesson-title-row h1 { font-size: clamp(31px,9vw,46px); }
   .sentence-seaside-lesson .bookmark-library-button { min-height: 38px; }
@@ -275,9 +265,11 @@
   .sentence-seaside-lesson .info-page,
   .sentence-seaside-lesson .exercise-page { padding: 22px 15px 25px 35px; }
   .sentence-seaside-lesson .info-page::before,
-  .sentence-seaside-lesson .exercise-page::before { left: 2px; }
+  .sentence-seaside-lesson .exercise-page::before { left: -24px; }
   .sentence-seaside-lesson .info-page::after,
-  .sentence-seaside-lesson .exercise-page::after { width: 47px; height: 47px; right: 12px; font-size: 44px; }
+  .sentence-seaside-lesson .exercise-page::after { width: 58px; height: 58px; right: 9px; }
+  .sentence-seaside-lesson .seaside-benefits-page .info-page-header { min-height: 0; }
+  .sentence-seaside-lesson .seaside-benefits-page .info-page-header::before { display: none; }
   .sentence-seaside-lesson .info-page-header { max-width: calc(100% - 50px); }
   .sentence-seaside-lesson .formula-display,
   .sentence-seaside-lesson .example-block { padding: 14px 12px; }
@@ -285,7 +277,8 @@
   .sentence-seaside-lesson .example-block p { margin-left: 11px; }
   .sentence-seaside-lesson .benefit-card,
   .sentence-seaside-lesson .rule-card { padding: 13px; gap: 9px; }
+  .sentence-seaside-lesson .seaside-rules-page .rule-card { grid-template-columns: 34px 34px minmax(0,1fr); }
+  .sentence-seaside-lesson .seaside-rules-page .seaside-anchor { width: 30px; height: 30px; }
   .sentence-seaside-lesson .question-card { padding: 17px 13px 17px 27px; }
-  .sentence-seaside-lesson .question-card::before { left: 7px; }
+  .sentence-seaside-lesson .question-card::before { left: -20px; }
 }
-@media (prefers-reduced-motion: reduce) { .sentence-seaside-lesson .seaside-sailboat { animation: none; } }

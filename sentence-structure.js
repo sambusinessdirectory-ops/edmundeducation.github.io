@@ -1429,8 +1429,11 @@ function updateLessonStepper() {
 }
 
 function infoPageHeader(number, title, english, description = "") {
+  const seasideLabels = ["CAPTAIN'S LOG", "LOOKOUT POINT", "IMPORTANT RULES"];
+  const pageEnglish = elements.lessonShell?.classList.contains("sentence-seaside-lesson")
+    ? seasideLabels[Number(number) - 1] || english : english;
   return `<header class="info-page-header">
-    <span class="page-label">PAGE ${escapeHtml(number)} · ${escapeHtml(english)}</span>
+    <span class="page-label">PAGE ${escapeHtml(number)} · ${escapeHtml(pageEnglish)}</span>
     <h2>${escapeHtml(title)}</h2>
     ${description ? `<p>${escapeHtml(description)}</p>` : ""}
   </header>`;
@@ -1453,7 +1456,7 @@ function renderFormulaPage(lesson) {
   const rawMeaning = lesson.meaning?.zh;
   const meaningLines = (Array.isArray(rawMeaning) ? rawMeaning : rawMeaning ? [rawMeaning] : [])
     .filter((line) => String(line || "").trim());
-  elements.lessonContent.innerHTML = `<article class="info-page">
+  elements.lessonContent.innerHTML = `<article class="info-page seaside-formula-page">
     ${infoPageHeader(1, "公式＋例句", "FORMULA + EXAMPLE", "先掌握句型的固定骨架，再觀察完整例句。")}
     <section class="formula-card">
       <span class="formula-label">FORMULA · 句型公式</span>
@@ -1488,7 +1491,7 @@ function bilingualItem(item) {
 
 function renderBenefitsPage(lesson) {
   const benefits = Array.isArray(lesson.benefits) ? lesson.benefits : [];
-  elements.lessonContent.innerHTML = `<article class="info-page">
+  elements.lessonContent.innerHTML = `<article class="info-page seaside-benefits-page">
     ${infoPageHeader(2, "Benefits 學習好處", "WHY THIS STRUCTURE HELPS", "理解這個句型能為寫作帶來甚麼，練習時會更有方向。")}
     <ol class="benefit-list">
       ${benefits.map((raw, index) => {
@@ -1502,12 +1505,12 @@ function renderBenefitsPage(lesson) {
 
 function renderRulesPage(lesson) {
   const rules = Array.isArray(lesson.rules) ? lesson.rules : [];
-  elements.lessonContent.innerHTML = `<article class="info-page">
+  elements.lessonContent.innerHTML = `<article class="info-page seaside-rules-page">
     ${infoPageHeader(3, "Important Rules 重要規則", "IMPORTANT REMINDERS", "留意容易出錯的位置，特別是動詞形態、冠詞及題目已提供的資料。")}
     <ol class="rule-list">
       ${rules.map((raw, index) => {
         const item = bilingualItem(raw);
-        return `<li class="rule-card"><span>${index + 1}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}${item.examples.length ? `<div class="examples">${item.examples.map((example) => `<code>${escapeHtml(example)}</code>`).join("")}</div>` : ""}</div></li>`;
+        return `<li class="rule-card"><img class="seaside-anchor" src="assets/sentence-structure/seaside/anchor.svg" alt="" aria-hidden="true"><span>${index + 1}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}${item.examples.length ? `<div class="examples">${item.examples.map((example) => `<code>${escapeHtml(example)}</code>`).join("")}</div>` : ""}</div></li>`;
       }).join("")}
     </ol>
     ${navHtml(3)}
@@ -1824,7 +1827,7 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   const trophyProgress = sentenceTrophyState(lesson, [{lessonId: lesson.id, status: completed ? 'completed' : 'in_progress', totalCount: total, correctCount: correct, completedAt:state.exercise.completedAt, result: {correctIds: state.exercise.correctIds,rounds:state.exercise.rounds}}]);
   const trophyEarned = trophyProgress.earned;
   const trophyOrder = lessonList().findIndex(item => item.id === lesson.id) + 1;
-  elements.lessonContent.innerHTML = `<section class="exercise-page">
+  elements.lessonContent.innerHTML = `<section class="exercise-page seaside-practice-page">
     <header class="exercise-header">
       <div class="exercise-header-top">
         <div><p class="eyebrow">PAGE 4 · TYPE THE WHOLE SENTENCE</p><h2>句子改寫練習</h2><p>輸入完整英文句子。部分提交只會檢查已輸入的題目；答對的題目不會重複出現。</p></div>
@@ -1832,7 +1835,7 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
       <div class="exercise-progress" style="--progress:${percentage}%"><span></span></div>
       <div class="exercise-progress-label"><span>已完成 ${escapeHtml(correct)} / ${escapeHtml(total)} 題</span><span>尚餘 ${escapeHtml(remaining)} 題</span></div>
       ${Number(lesson.order) >= 1 && Number(lesson.order) <= 30 && total === 50 ? `<nav class="seaside-chapters" aria-label="練習題目分段">
-        ${[0, 1, 2, 3, 4].map((chapter) => `<button type="button" data-seaside-chapter="${chapter}" aria-label="跳至第 ${chapter * 10 + 1} 至 ${chapter * 10 + 10} 題"><span aria-hidden="true">${["◈", "◌", "♧", "♜", "✧"][chapter]}</span><strong>${chapter * 10 + 1}–${chapter * 10 + 10}</strong><small>${["海灣起點", "貝殼小橋", "岩石海岸", "燈塔步道", "遠航挑戰"][chapter]}</small></button>`).join("")}
+        ${[0, 1, 2, 3, 4].map((chapter) => `<button type="button" data-seaside-chapter="${chapter}" aria-label="跳至第 ${chapter * 10 + 1} 至 ${chapter * 10 + 10} 題"><img src="assets/sentence-structure/seaside/chapter-${["shell", "conch", "rocks", "lighthouse", "wheel"][chapter]}.svg" alt="" aria-hidden="true"><strong>${chapter * 10 + 1}–${chapter * 10 + 10}</strong><small>${["海灣起點", "貝殼小橋", "岩石海岸", "燈塔步道", "遠航挑戰"][chapter]}</small></button>`).join("")}
       </nav>` : ""}
     </header>
 
