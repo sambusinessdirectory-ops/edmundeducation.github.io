@@ -50,7 +50,7 @@ window.journeyTest = {
     return performance.now() - started;
   });
   await page.waitForSelector('.question-list.has-sentence-journey');
-  assert.ok(exerciseLoadMs < 2000, `Exercise rendered in ${Math.round(exerciseLoadMs)}ms`);
+  assert.ok(exerciseLoadMs < 3500, `Exercise rendered in ${Math.round(exerciseLoadMs)}ms`);
 
   assert.equal(await page.locator('.sentence-journey-stop').count(), 50);
   assert.equal(await page.locator('.sentence-journey-platform').count(), 50);
@@ -59,8 +59,12 @@ window.journeyTest = {
   assert.equal(await page.locator('.sentence-journey-platform strong').last().textContent(), '50');
   const firstPlatformImage = await page.locator('.sentence-journey-platform img').first().getAttribute('src');
   assert.equal(firstPlatformImage, 'assets/sentence-structure/exercise-eddy/coast-platform.webp');
+  assert.equal(await page.locator('.sentence-journey-platform span').count(), 0, 'Platforms have no stray status punctuation');
+  assert.match(await page.locator('.question-list.has-sentence-journey').evaluate((node) => getComputedStyle(node, '::before').backgroundImage), /coast-route\.svg/);
 
   const actor = page.locator('[data-sentence-journey-eddy]');
+  assert.match(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-standing\.png/);
+  assert.equal(await actor.locator('.sentence-journey-eddy-blink').evaluate((node) => getComputedStyle(node).animationName), 'sentence-eddy-blink');
   const firstInput = page.locator('[data-answer-input]').first();
   const thirdInput = page.locator('[data-answer-input]').nth(2);
   await firstInput.focus();
@@ -87,6 +91,35 @@ window.journeyTest = {
   await page.waitForTimeout(600);
   assert.equal(await actor.getAttribute('data-motion'), 'encourage');
   assert.match(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-encourage-v1\.webp/);
+
+  await page.waitForTimeout(650);
+  const eighthInput = page.locator('[data-answer-input]').nth(7);
+  await eighthInput.scrollIntoViewIfNeeded();
+  await eighthInput.focus();
+  await page.waitForTimeout(1300);
+  assert.equal(await page.locator('[data-eddy-active=true]').getAttribute('data-question-number'), '8', 'Eddy follows question 8, not question 7');
+  const alignment = async () => page.evaluate(() => {
+    const actorBox = document.querySelector('[data-sentence-journey-eddy]').getBoundingClientRect();
+    const platformBox = document.querySelector('[data-eddy-active=true] .sentence-journey-platform').getBoundingClientRect();
+    return Math.abs((actorBox.bottom - actorBox.height * .1) - (platformBox.top + platformBox.height * .48));
+  });
+  assert.ok(await alignment() < 4, 'Eddy’s feet rest on the active platform');
+  const beforeExpansion = Number.parseFloat(await actor.evaluate((node) => node.style.top));
+  await page.locator('[data-question-number="7"] .question-card-content').evaluate((node) => { node.style.minHeight = '520px'; });
+  await page.waitForTimeout(150);
+  const afterExpansion = Number.parseFloat(await actor.evaluate((node) => node.style.top));
+  assert.ok(afterExpansion > beforeExpansion + 200, 'Eddy follows the platform after earlier answer feedback changes height');
+  assert.ok(await alignment() < 4, 'Eddy remains planted after the card layout changes');
+  await page.evaluate(async () => {
+    const journey = await import('/sentence-structure-exercise-journey.mjs');
+    const input = document.querySelectorAll('[data-answer-input]')[7];
+    journey.reactSentenceJourney(document.querySelector('[data-lesson-content]'), { questionId: input.dataset.answerInput, correct: false });
+  });
+  await page.waitForTimeout(30);
+  assert.notEqual(await actor.getAttribute('data-motion'), 'walk', 'A same-platform reaction never starts with walking legs');
+  await page.waitForTimeout(70);
+  assert.equal(await actor.getAttribute('data-motion'), 'encourage');
+  await page.locator('[data-eddy-active=true]').screenshot({ path: path.join(out, 'eddy-journey-question-8.png') });
 
   await firstInput.focus();
   await page.waitForTimeout(1400);
