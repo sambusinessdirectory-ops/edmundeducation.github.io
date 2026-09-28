@@ -1,4 +1,4 @@
-import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20260928-pocket2';
+import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20260928-pocket3';
 import {preserveTextareaParagraphs,preserveArticleCopy} from './writing-paragraph-clipboard.mjs?v=20260927-pocket1';
 import {mountFeedbackReading} from './writing-feedback-reading.mjs?v=20260927-writing2';
 import {submissionSharingControls} from './writing-submission-sharing.mjs?v=20260927-toolbar1';

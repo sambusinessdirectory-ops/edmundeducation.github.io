@@ -1755,11 +1755,24 @@ body.writing-feedback-fullscreen { overflow: hidden; }
 /* The student's reference pocket stays beside the editor, below grammar. */
 .writing-reference-sidebar{display:grid;gap:24px;min-width:0}
 .writing-reference-sidebar .grammar-panel{position:static;max-height:65vh}
-.writing-reference-pocket{padding:22px;min-width:0;overflow:hidden;color:#f7f5ff}
+.writing-reference-pocket{position:relative;padding:22px;min-width:0;overflow:visible;color:#f7f5ff}
 .reference-pocket-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .reference-pocket-head h2{font-size:24px;margin:6px 0 16px}
 .reference-pocket-controls{display:flex;flex-wrap:wrap;gap:8px}
-.reference-pocket-controls select{width:100%;min-width:0;padding:12px;border:1px solid #cfc8b8;border-radius:12px;background:#fff;color:#27264d;font:700 14px system-ui}
+.reference-pocket-picker{position:relative;width:100%;min-width:0}
+.reference-pocket-trigger{display:flex;align-items:center;gap:12px;width:100%;min-width:0;padding:10px 13px;border:1px solid #dac9aa;border-radius:16px;background:linear-gradient(135deg,#fffdf7,#f3ebd9);box-shadow:inset 0 1px #fff,0 6px 18px #0c0b2526;color:#27264d;text-align:left;cursor:pointer}
+.reference-pocket-trigger:hover,.reference-pocket-picker.is-open .reference-pocket-trigger{border-color:#c9a66a;background:linear-gradient(135deg,#fffdf7,#f8efd9)}
+.reference-pocket-trigger:focus-visible,.reference-pocket-option:focus-visible{outline:3px solid #f4bf71;outline-offset:2px}
+.reference-pocket-trigger-mark{display:grid;place-items:center;flex:none;width:38px;height:38px;border-radius:11px;background:#292746;color:#f6d495;font:800 13px ui-sans-serif,system-ui,sans-serif;letter-spacing:.03em}
+.reference-pocket-trigger-copy{display:grid;gap:3px;min-width:0;flex:1}.reference-pocket-trigger-copy small{color:#84643e;font:800 9px ui-sans-serif,system-ui,sans-serif;letter-spacing:.12em}.reference-pocket-trigger-copy strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:750 14px ui-sans-serif,system-ui,sans-serif}
+.reference-pocket-trigger-chevron{display:grid;place-items:center;flex:none;width:18px;height:18px;margin-right:2px;color:#383653;transition:transform .18s ease}.reference-pocket-trigger-chevron svg{display:block;width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.reference-pocket-picker.is-open .reference-pocket-trigger-chevron{transform:rotate(180deg)}
+.reference-pocket-menu{position:absolute;z-index:20;top:calc(100% + 8px);left:0;right:0;padding:7px;border:1px solid #bca36e;border-radius:16px;background:linear-gradient(165deg,#373450,#201f3c 80%);box-shadow:0 18px 38px #0b0a24a8,inset 0 1px #ffffff26;overflow-y:auto;overscroll-behavior:contain;scrollbar-color:#a98b61 #272440}
+.reference-pocket-picker.opens-up .reference-pocket-menu{top:auto;bottom:calc(100% + 8px)}
+.reference-pocket-option{display:grid;grid-template-columns:28px minmax(0,1fr) 20px;align-items:center;gap:9px;width:100%;min-height:42px;padding:6px 9px;border:1px solid transparent;border-radius:10px;background:transparent;color:#f7f3ed;text-align:left;cursor:pointer}
+.reference-pocket-option:hover,.reference-pocket-option:focus-visible{border-color:#d5b77a88;background:#ffffff16}.reference-pocket-option.is-selected{border-color:#e8d2a2;background:#f7ebd0;color:#292641}
+.reference-pocket-option-number{font:800 10px ui-sans-serif,system-ui,sans-serif;letter-spacing:.04em;color:#d2b987}.reference-pocket-option.is-selected .reference-pocket-option-number{color:#916332}
+.reference-pocket-option-copy{display:flex;align-items:baseline;justify-content:space-between;gap:8px;min-width:0}.reference-pocket-option-copy strong{font:700 13px ui-sans-serif,system-ui,sans-serif}.reference-pocket-option-copy small{flex:none;font:650 11px ui-sans-serif,system-ui,sans-serif;color:#c9c3da}.reference-pocket-option.is-selected .reference-pocket-option-copy small{color:#625672}
+.reference-pocket-option-check{visibility:hidden;color:#76592d;font:900 14px ui-sans-serif,system-ui,sans-serif;text-align:center}.reference-pocket-option.is-selected .reference-pocket-option-check{visibility:visible}
 .reference-pocket-status{font:600 12px/1.5 system-ui;color:#dfdcf0;margin:12px 0}
 .reference-pocket-content{max-height:480px;overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable;min-height:70px;padding-right:4px}
 .reference-vocabulary{white-space:pre-wrap;overflow-wrap:anywhere;display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px 8px;border-bottom:1px solid #e7dfd0;font-size:14px;line-height:1.5}
