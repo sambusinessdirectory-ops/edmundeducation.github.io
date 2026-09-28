@@ -2,9 +2,10 @@
 let dbPromise;
 function db(){return dbPromise ||=new Promise((resolve,reject)=>{const r=indexedDB.open('edmund-natural-english-audio',1);r.onupgradeneeded=()=>r.result.createObjectStore('recordings');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});}
 async function stored(key,value){const d=await db();return new Promise((resolve,reject)=>{const t=d.transaction('recordings',value?'readwrite':'readonly'),r=value?t.objectStore('recordings').put(value,key):t.objectStore('recordings').get(key);t.oncomplete=()=>resolve(r.result);t.onerror=()=>reject(t.error);});}
-export function mountRecorder(host,{key,onRecorded,onSkip}){
+export function mountRecorder(host,{key,instruction,onRecorded,onSkip}){
  let alive=true,recorder=null,stream=null,url=null,timer=null,pending=false;
- host.innerHTML='<p class="eyebrow">選做 · 錄音朗讀</p><h3>換你說一次</h3><p>看著上面的示範句朗讀，錄好後可以重聽、比較及重錄。不需要模仿特定口音。</p><div class="record-actions"><button data-record>開始錄音</button><button data-stop hidden>停止錄音</button><button data-skip>這次先跳過</button></div><audio controls hidden aria-label="我的錄音"></audio><p data-record-status role="status"></p><small>錄音最長 60 秒，會儲存至你的學生帳戶，可從頁首「我的錄音」重聽。離線時先保留在此裝置，請稍後重試上傳。錄過音不代表發音已被評為正確。</small>';
+ host.innerHTML='<p class="eyebrow">選做 · 錄音朗讀</p><h3>換你說一次</h3><p data-record-instruction></p><div class="record-actions"><button data-record>開始錄音</button><button data-stop hidden>停止錄音</button><button data-skip>這次先跳過</button></div><audio controls hidden aria-label="我的錄音"></audio><p data-record-status role="status"></p><small>錄音最長 60 秒，會儲存至你的學生帳戶，可從頁首「我的錄音」重聽。離線時先保留在此裝置，請稍後重試上傳。錄過音不代表發音已被評為正確。</small>';
+ host.querySelector('[data-record-instruction]').textContent=instruction||'看著上面的示範句朗讀，錄好後可以重聽、比較及重錄。不需要模仿特定口音。';
  const status=t=>{if(alive)host.querySelector('[data-record-status]').textContent=t;};
  function playBlob(blob){if(!alive||!blob)return;if(url)URL.revokeObjectURL(url);url=URL.createObjectURL(blob);const a=host.querySelector('audio');a.src=url;a.hidden=false;}
  stored(key).then(playBlob).catch(()=>{});

@@ -24,3 +24,4 @@
 .module-card-number{font-size:6rem}
 @media(max-width:600px){.submit-bar{bottom:max(6px,env(safe-area-inset-bottom));width:calc(100vw - 12px)}.stage:has(.submit-bar){padding-bottom:170px}.module-card{min-height:150px}}
 .stage:has(.submit-bar){animation:none!important;transform:none!important}
+.audio-concealed{margin:10px 0 15px;color:#655b59;font-size:.96rem;line-height:1.6}

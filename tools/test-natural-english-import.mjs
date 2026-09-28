@@ -10,12 +10,12 @@ const voiceCycle=['american-female','american-male','british-male','british-fema
 assert.equal(imported.length,460);
 assert.equal(new Set(imported.map(module=>module.number)).size,460);
 assert.equal(new Set(imported.map(module=>module.id)).size,460);
-assert.equal(imported.reduce((sum,module)=>sum+module.questions.length,0),4600);
+assert.equal(imported.reduce((sum,module)=>sum+module.questions.length,0),4601);
 for(const module of imported){
   assert.match(module.sourceSha256,/^[0-9a-f]{64}$/,module.id);
   assert.match(module.sourceFile,/^\d+_.*\.pdf$/,module.id);
   assert.equal(module.steps.length,8,module.id);
-  assert.equal(module.questions.length,10,module.id);
+  assert.equal(module.questions.length,module.number===102?11:10,module.id);
   assert.deepEqual(new Set(module.steps.flatMap(step=>step.questions)),new Set(module.questions.map(question=>question.id)),module.id);
   for(const question of module.questions){
     assert.ok(question.answers.length,module.id+' '+question.id);
@@ -46,4 +46,4 @@ for(const number of [15,38,46,105,148,171,180,217,231,239,242,244,268,311,338,47
   assert.ok(!imported.some(module=>module.number===number),'held lesson '+number+' must not publish');
   assert.match(held,new RegExp('\\| '+number+' \\|'));
 }
-console.log('PASS: 460 approved lessons, 4,600 valid questions, 17 held PDFs, every model audio present.');
+console.log('PASS: 460 approved lessons, 4,601 valid questions, 17 held PDFs, every model audio present.');
