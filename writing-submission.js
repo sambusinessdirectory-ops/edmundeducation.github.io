@@ -2878,6 +2878,9 @@ function renderSelectedTopicPreview() {
   state.floatingTopicSignature = "";
   syncFloatingWritingTopicContent();
   clearModelEssayState();
+  loadModelEssayReference().catch((error) => {
+    console.warn("Model essay reference load failed", error);
+  });
   if (elements.removeWritingTopic) elements.removeWritingTopic.hidden = !resource;
   if (!elements.selectedTopicPreview) return;
   if (!resource?.questionImages.length) {
@@ -2921,9 +2924,6 @@ function renderSelectedTopicPreview() {
   elements.selectedTopicPreview.replaceChildren(head, images);
   elements.selectedTopicPreview.hidden = false;
   renderSelectedTopicReferences();
-  loadModelEssayReference().catch((error) => {
-    console.warn("Model essay reference load failed", error);
-  });
 }
 
 function removeSelectedWritingTopic() {
