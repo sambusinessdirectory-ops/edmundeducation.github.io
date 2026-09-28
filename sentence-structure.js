@@ -4,6 +4,7 @@ import { createExpressionMap } from "./common-expression-map.mjs?v=20260928-shar
 import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260924-closet-all2";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260914-hotel3b";
 import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies, syncSentenceTrophyCounter, syncSentenceTrophyControls, animateSentenceTrophy, awardDateMarkup } from "./sentence-structure-trophies.mjs?v=20260915-phoebe2";
+import { sentenceJourneyEnabled, sentenceJourneyPlatformHtml, sentenceJourneyActorHtml, getSentenceJourneyQuestionId, mountSentenceJourney, moveSentenceJourney, reactSentenceJourney } from "./sentence-structure-exercise-journey.mjs?v=20260928-eddy-path1";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const lessonLibrary = createLessonLibrary(new URL("./assets/sentence-structure/library/manifest.json?v=20260908-loading1", import.meta.url));
@@ -1766,7 +1767,7 @@ function questionHtml(question) {
   const partValues = storedAnswerPartValues(question, value);
   const bookmarked = isBookmarked(state.lessonId, question.id);
   const voiceAnswer = answerParts.length ? answerParts.map((part) => part.answer).join(" ") : String(question.answer || "");
-  return `<article class="question-card ${correct ? "is-correct" : wrong ? "is-wrong" : ""} ${collapsed ? "is-collapsed" : ""}" data-question-id="${escapeHtml(question.id)}" data-question-number="${escapeHtml(question.number || "")}" data-edmund-prompt-text="${escapeHtml(question.prompt || question.english || "")}"${revealAnswer ? ` data-edmund-answer-text="${escapeHtml(voiceAnswer)}"` : ""} data-edmund-record-id="${escapeHtml(question.id)}" data-edmund-record-title="${escapeHtml(`句子結構 · 第 ${question.number || ""} 題`)}">
+  const card = `<article class="question-card ${correct ? "is-correct" : wrong ? "is-wrong" : ""} ${collapsed ? "is-collapsed" : ""}" data-question-id="${escapeHtml(question.id)}" data-question-number="${escapeHtml(question.number || "")}" data-edmund-prompt-text="${escapeHtml(question.prompt || question.english || "")}"${revealAnswer ? ` data-edmund-answer-text="${escapeHtml(voiceAnswer)}"` : ""} data-edmund-record-id="${escapeHtml(question.id)}" data-edmund-record-title="${escapeHtml(`句子結構 · 第 ${question.number || ""} 題`)}">
     <div class="question-card-top">
       <span class="question-number">QUESTION ${escapeHtml(question.number || "")}</span>
       <div class="question-card-actions">
@@ -1792,6 +1793,9 @@ function questionHtml(question) {
       ${revealAnswer ? `<div class="answer-reveal"><span>SUGGESTED ANSWER · 參考答案（黃色為遺漏或需修改部分）</span>${suggestedAnswerHtml(question, value)}</div>` : ""}
     </div>
   </article>`;
+  if (!sentenceJourneyEnabled(getLesson())) return card;
+  const status = correct ? "correct" : wrong ? "wrong" : "pending";
+  return `<div class="sentence-journey-stop" data-eddy-stop="${escapeHtml(question.id)}" data-question-number="${escapeHtml(question.number || "")}" data-stop-status="${status}">${card}${sentenceJourneyPlatformHtml(question.number || "", status)}</div>`;
 }
 
 function activeQuestions(lesson = getLesson()) {
@@ -1896,13 +1900,14 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
       <button class="bulk-visibility-button" type="button" data-toggle-all-correct-cards aria-pressed="${allVisibleCorrectCollapsed}" aria-controls="sentence-structure-question-list" aria-label="${bulkVisibilityLabel}（${escapeHtml(visibleCorrectIds.length)} 題）">${bulkVisibilityLabel}</button>
     </div>` : ""}
 
-    <div class="question-list" id="sentence-structure-question-list" data-question-list>
+    <div class="question-list ${sentenceJourneyEnabled(lesson) ? "has-sentence-journey" : ""}" id="sentence-structure-question-list" data-question-list>
       ${displayQuestions.map((question, index) => {
         const chapter = isAutumn && !state.exercise.correctionMode && total === 50 && index % 10 === 0
           ? `<div class="autumn-trail-checkpoint" aria-hidden="true"><span>TRAIL ${String(Math.floor(index / 10) + 1).padStart(2, "0")}</span><strong>${["林間起步", "落葉小徑", "溪邊觀察", "木橋探索", "暖屋終點"][Math.floor(index / 10)]}</strong><small>${index + 1}–${Math.min(index + 10, total)} / ${total}</small></div>`
           : "";
         return chapter + questionHtml(question);
       }).join("")}
+      ${sentenceJourneyEnabled(lesson) ? sentenceJourneyActorHtml() : ""}
     </div>
 
     ${!completed && state.exercise.awaitingNextRound ? `<section class="round-summary round-summary-bottom" aria-label="完成檢查後的下一步">
@@ -1925,6 +1930,7 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   updateLessonStepper();
   if (!completed) startExerciseClock();
   syncExerciseButtons();
+  if (sentenceJourneyEnabled(lesson)) mountSentenceJourney(elements.lessonContent);
   if (preserveScroll) requestAnimationFrame(() => window.scrollTo({ top: scrollTop, behavior: "auto" }));
 }
 
@@ -2107,6 +2113,7 @@ async function submitExercise(kind) {
   }
 
   const checkedAt = new Date().toISOString();
+  const journeyQuestionId = getSentenceJourneyQuestionId();
   const correctThisTime = [];
   const incorrectThisTime = [];
   let bookmarkChanged = false;
@@ -2158,6 +2165,15 @@ async function submitExercise(kind) {
   state.saveInFlight = true;
   try {
     renderExercisePage(lesson, { preserveScroll: true });
+    const journeyQuestion = targets.find((question) => question.id === journeyQuestionId)
+      || targets.find((question) => incorrectThisTime.includes(question.id))
+      || targets.find((question) => correctThisTime.includes(question.id));
+    if (journeyQuestion && sentenceJourneyEnabled(lesson)) {
+      reactSentenceJourney(elements.lessonContent, {
+        questionId: journeyQuestion.id,
+        correct: correctThisTime.includes(journeyQuestion.id)
+      });
+    }
     await Promise.all([
       persistExercise(),
       ...(bookmarkChanged ? [saveBookmarks()] : [])
@@ -2651,6 +2667,12 @@ function bindEvents() {
     if (event.target.matches("[data-lesson-search-input]")) {
       clearTimeout(searchTimer);
       searchTimer = setTimeout(renderLessonSearch, 250);
+    }
+  });
+  document.addEventListener("focusin", (event) => {
+    const input = event.target.closest?.("[data-answer-input]");
+    if (input && state.lessonPage === 4 && sentenceJourneyEnabled(getLesson())) {
+      moveSentenceJourney(elements.lessonContent, input.dataset.answerInput);
     }
   });
   elements.lessonSearchForm?.addEventListener("submit", (event) => {

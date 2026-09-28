@@ -1,0 +1,30 @@
+/* Page 4, modules 1–30: Eddy follows the fifty-question coastal path. */
+.sentence-seaside-lesson .question-list.has-sentence-journey{position:relative;isolation:isolate;gap:18px}
+.sentence-seaside-lesson .question-list.has-sentence-journey::before{content:"";position:absolute;z-index:0;top:45px;bottom:45px;right:58px;width:16px;border:1px solid #d4bb87;border-radius:999px;background:linear-gradient(90deg,#d2bd8e,#fff1ce 27% 70%,#bea779);box-shadow:0 5px 0 #5b705b22,0 0 0 5px #fff8e694}
+.sentence-journey-stop{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) 132px;align-items:center;gap:18px;min-width:0}
+.sentence-journey-stop>.question-card{min-width:0}
+.sentence-journey-platform{position:relative;z-index:2;width:126px;height:91px;justify-self:center;filter:drop-shadow(0 6px 4px #3c645143);transition:filter .25s ease,transform .35s cubic-bezier(.16,1,.3,1)}
+.sentence-journey-platform svg{position:absolute;inset:0;width:100%;height:100%;overflow:hidden}
+.sentence-journey-platform strong{position:absolute;z-index:2;left:0;right:0;top:16px;color:#285867;text-align:center;font:700 24px/1 Georgia,"Times New Roman",serif;text-shadow:0 1px #fffaf0}
+.sentence-journey-platform span{position:absolute;z-index:3;right:5px;bottom:13px;display:grid;place-items:center;width:25px;height:25px;border:1px solid #c5ccb2;border-radius:9px;background:#fff9e9;color:#285867;font-size:13px;font-weight:900;box-shadow:0 2px 5px #21482a2e}
+.sentence-journey-platform span:empty{display:none}
+.sentence-journey-platform.is-correct{filter:drop-shadow(0 0 4px #baf4be) drop-shadow(0 6px 4px #3c645143)}
+.sentence-journey-platform.is-correct span{background:#477b66;color:#fff;border-color:#d9ebc1}
+.sentence-journey-platform.is-wrong span{background:#fff0dc;color:#a34738;border-color:#e6a59c}
+.sentence-journey-stop[data-eddy-active=true] .sentence-journey-platform{transform:translateY(-2px);filter:drop-shadow(0 0 4px #fffbe5) drop-shadow(0 0 8px #fff2b6) drop-shadow(0 7px 4px #3c645143)}
+.sentence-journey-eddy{position:absolute;z-index:5;right:17px;top:0;width:98px;height:98px;pointer-events:none;transition:top var(--eddy-walk-duration,700ms) cubic-bezier(.22,.7,.22,1);will-change:top}
+.sentence-journey-eddy-sprite{position:absolute;inset:0;display:block;background:url("assets/sentence-structure/exercise-eddy/eddy-walk-v2.webp") 0 0/800% 100% no-repeat;filter:drop-shadow(0 4px 3px #173c3e3d)}
+.sentence-journey-eddy-shadow{position:absolute;z-index:-1;left:24%;right:24%;bottom:7%;height:10%;border-radius:50%;background:#264d4930;filter:blur(2px);transition:transform .25s ease,opacity .25s ease}
+.sentence-journey-eddy[data-motion=walk] .sentence-journey-eddy-sprite{animation:sentence-eddy-walk .64s steps(7) infinite}
+.sentence-journey-eddy[data-motion=walk][data-direction=up]{transform:rotate(-1.5deg)}
+.sentence-journey-eddy[data-motion=walk][data-direction=down]{transform:rotate(1.5deg)}
+.sentence-journey-eddy[data-motion=jump] .sentence-journey-eddy-sprite{background-image:url("assets/sentence-structure/exercise-eddy/eddy-jump-v2.webp");animation:sentence-eddy-once .92s steps(7) both}
+.sentence-journey-eddy[data-motion=jump] .sentence-journey-eddy-shadow{animation:sentence-eddy-jump-shadow .92s ease both}
+.sentence-journey-eddy[data-motion=encourage] .sentence-journey-eddy-sprite{background-image:url("assets/sentence-structure/exercise-eddy/eddy-encourage-v1.webp");animation:sentence-eddy-once 1.08s steps(7) both}
+.sentence-journey-status{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+@keyframes sentence-eddy-walk{from{background-position-x:0}to{background-position-x:100%}}
+@keyframes sentence-eddy-once{from{background-position-x:0}to{background-position-x:100%}}
+@keyframes sentence-eddy-jump-shadow{0%,100%{transform:scale(1);opacity:1}45%,58%{transform:scale(.55);opacity:.35}}
+@media(max-width:700px){.sentence-journey-stop{grid-template-columns:minmax(0,1fr) 84px;gap:7px}.sentence-seaside-lesson .question-list.has-sentence-journey::before{right:35px;width:12px}.sentence-journey-platform{width:82px;height:61px}.sentence-journey-platform strong{top:10px;font-size:17px}.sentence-journey-platform span{right:2px;bottom:6px;width:20px;height:20px;font-size:11px}.sentence-journey-eddy{right:-1px;width:72px;height:72px}}
+@media(max-width:430px){.sentence-journey-stop{grid-template-columns:minmax(0,1fr) 66px}.sentence-seaside-lesson .question-list.has-sentence-journey::before{right:27px}.sentence-journey-platform{width:70px;height:53px}.sentence-journey-eddy{right:-5px;width:62px;height:62px}}
+@media(prefers-reduced-motion:reduce){.sentence-journey-eddy,.sentence-journey-platform{transition:none!important}.sentence-journey-eddy-sprite,.sentence-journey-eddy-shadow{animation:none!important}.sentence-journey-eddy[data-motion=jump] .sentence-journey-eddy-sprite{background-position-x:57.142857%}.sentence-journey-eddy[data-motion=encourage] .sentence-journey-eddy-sprite{background-position-x:57.142857%}}

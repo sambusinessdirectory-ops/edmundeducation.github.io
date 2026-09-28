@@ -246,6 +246,13 @@ function createFrontendHarness() {
     SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted,
     ...trophyHelpers,
     SENTENCE_REALMS: {},
+    sentenceJourneyEnabled: (lesson) => Number(lesson?.order) >= 1 && Number(lesson?.order) <= 30 && lesson?.questions?.length === 50,
+    sentenceJourneyPlatformHtml: (number, status = "pending") => `<div class="sentence-journey-platform is-${status}"><strong>${String(number).padStart(2, "0")}</strong></div>`,
+    sentenceJourneyActorHtml: () => '<div data-sentence-journey-eddy></div>',
+    getSentenceJourneyQuestionId: () => "",
+    mountSentenceJourney() {},
+    moveSentenceJourney() {},
+    reactSentenceJourney() {},
     // Canvas/interaction behaviour is exercised by the real-browser map fixture.
     createExpressionMap: () => ({update(){},setActive(){},reset(){}}),
     sessionStorage,
