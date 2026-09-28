@@ -33,7 +33,9 @@ for(const module of imported){
   const rows=metadata[module.id]||[];assert.equal(rows.length,models.length,module.id+' metadata entries');
   for(const [index,model] of models.entries()){
     const row=rows[index];assert.equal(row.text,model,module.id+' audio order');
-    assert.equal(row.voice,voiceCycle[index%4],module.id+' voice cycle');
+    const dialogue=module.id==='native-102'&&[1,3].includes(index);
+    assert.equal(row.voice,dialogue?'american-female+british-male':voiceCycle[index%4],module.id+' voice cycle');
+    if(dialogue){assert.equal(row.model,'Kokoro alternating speakers',module.id+' dialogue voice model');assert.match(row.path,/native-102-0[24]-two-voices-[0-9a-f]+\.mp3$/);}
     if(row.voice==='american-male')assert.ok(!row.model||row.model==='Aura 2 Aries',module.id+' male voice');
     assert.equal(row.path,audioManifest[module.id][model],module.id+' manifest path');
     const audio=new URL('../'+row.path,import.meta.url);const bytes=fs.readFileSync(audio);
