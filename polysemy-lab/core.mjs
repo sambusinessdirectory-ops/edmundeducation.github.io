@@ -1,6 +1,18 @@
-import {modules,moduleMap,allQuestionMap} from './catalogue.mjs?v=20260923-bugfix2';
+import {modules,moduleMap,allQuestionMap} from './catalogue.mjs?v=20260929-polysemy-mass1';
 export {modules,moduleMap,allQuestionMap};
 export let showModule,questions,senses,questionMap;
+export async function loadModule(id){
+ const indexed=moduleMap.get(id);
+ if(!indexed)throw Error('Unknown module');
+ if(!indexed.mass||indexed.loaded)return indexed;
+ const loaded=(await import(`./content/${encodeURIComponent(id)}.mjs?v=20260929-polysemy-mass1`)).default;
+ if(loaded.id!==id||loaded.number!==indexed.number)throw Error('Lesson content does not match its index');
+ loaded.loaded=true;
+ const at=modules.findIndex(module=>module.id===id);
+ modules[at]=loaded;moduleMap.set(id,loaded);
+ for(const q of loaded.questions)allQuestionMap.set(q.id,{...q,module:id,word:loaded.word});
+ return loaded;
+}
 export function selectModule(id='show'){const m=moduleMap.get(id);if(!m)throw Error('Unknown module');showModule=m;questions=m.questions;senses=new Map(m.senses.map(s=>[s.id,s]));questionMap=new Map(questions.map(q=>[q.id,q]));}
 selectModule();
 export function orderedOptions(q,round=1){let seed=[...q.id+':'+round].reduce((n,c)=>(n*31+c.charCodeAt(0))>>>0,7);return q.options.map(id=>({id,n:(seed=(Math.imul(seed,1664525)+1013904223)>>>0)})).sort((a,b)=>a.n-b.n).map(x=>x.id);}
