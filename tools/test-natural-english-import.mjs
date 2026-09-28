@@ -16,6 +16,7 @@ for(const module of imported){
   assert.match(module.sourceFile,/^\d+_.*\.pdf$/,module.id);
   assert.equal(module.steps.length,8,module.id);
   assert.equal(module.questions.length,module.number===102?11:10,module.id);
+  if(module.number===102){const dialogues=module.steps.filter(step=>step.dialogue);assert.equal(dialogues.length,2);for(const step of dialogues){assert.deepEqual(step.dialogue.map(turn=>turn.speaker),['A','B','A']);assert.equal(step.dialogue.map(turn=>turn.en).join(' '),step.model);}}
   assert.deepEqual(new Set(module.steps.flatMap(step=>step.questions)),new Set(module.questions.map(question=>question.id)),module.id);
   for(const question of module.questions){
     assert.ok(question.answers.length,module.id+' '+question.id);
