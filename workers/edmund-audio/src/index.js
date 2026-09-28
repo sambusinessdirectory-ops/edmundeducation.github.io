@@ -4,6 +4,7 @@ import flashcardPackIndex from "./flashcard-pack-index.json" with { type: "json"
 import flashcardPassage2PackIndex from "./flashcard-pack-index-passage2.json" with { type: "json" };
 import flashcardReadingExpansionPackIndex from "./flashcard-pack-index-reading-expansion.json" with { type: "json" };
 import flashcardExpansionPackIndex from "./flashcard-pack-index-flashcard-expansion.json" with { type: "json" };
+import polysemyPackIndex from "./polysemy-pack-index.json" with { type: "json" };
 
 const AUDIO_PREFIXES = [
   "assets/writing-practice/audio/edmund-neural/dse-part-b-kokoro-20260911/",
@@ -230,6 +231,24 @@ function flashcardPackEntry(url) {
   return null;
 }
 
+function polysemyPackEntry(url) {
+  if (polysemyPackIndex.meta?.r2UploadComplete !== true) return null;
+  const key = decodedObjectKey(url);
+  const prefix = polysemyPackIndex.audioPathPrefix;
+  if (typeof prefix !== "string" || !key.startsWith(prefix)) return null;
+  const match = /^([0-9a-f])\/([0-9a-f]{24})\.mp3$/.exec(key.slice(prefix.length));
+  if (!match || !match[2].startsWith(match[1])) return null;
+  const shard = match[1];
+  const entry = polysemyPackIndex.entries[shard]?.[match[2].slice(1)];
+  const pack = polysemyPackIndex.packs[shard];
+  if (
+    !Array.isArray(entry) || entry.length !== 2
+    || !Number.isSafeInteger(entry[0]) || !Number.isSafeInteger(entry[1])
+    || entry[0] < 0 || entry[1] <= 1000 || !pack?.key
+  ) return null;
+  return { digest: match[2], key, offset: entry[0], length: entry[1], packKey: pack.key };
+}
+
 function requestedByteRange(header, totalLength) {
   if (!header) return { start: 0, end: totalLength - 1, partial: false };
   const match = /^bytes=(\d*)-(\d*)$/.exec(header.trim());
@@ -328,7 +347,7 @@ export default {
       return listeningCatalogue(request, env);
     }
     if (url.pathname === "/" || url.pathname === "/health") {
-      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["dse-writing-part-b", "part1", "part3", "exam", "flashcards", "ielts-listening", "reading-comprehension", "dse-listening"] }), {
+      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["dse-writing-part-b", "part1", "part3", "exam", "flashcards", "polysemy-lab", "ielts-listening", "reading-comprehension", "dse-listening"] }), {
         headers: {
           "Cache-Control": "no-store",
           "Content-Type": "application/json; charset=utf-8",
@@ -337,8 +356,8 @@ export default {
       });
     }
 
-    const flashcardEntry = flashcardPackEntry(url);
-    if (flashcardEntry) return serveFlashcardPack(request, env, flashcardEntry);
+    const packedEntry = polysemyPackEntry(url) || flashcardPackEntry(url);
+    if (packedEntry) return serveFlashcardPack(request, env, packedEntry);
 
     const key = objectKey(url);
     if (!key) return plainResponse("Not Found", 404);

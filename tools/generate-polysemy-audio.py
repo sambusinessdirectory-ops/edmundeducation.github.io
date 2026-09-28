@@ -3,8 +3,8 @@ Credentials stay in memory. Cache immutable source hashes; pad starts for mobile
 """
 import argparse,json,hashlib,re,subprocess,tempfile,urllib.request,urllib.error,time
 from pathlib import Path
-p=argparse.ArgumentParser();p.add_argument('--model',required=True);p.add_argument('--voices',required=True);p.add_argument('--sentences',required=True);p.add_argument('--output-prefix',default='audio');p.add_argument('--kind',choices=['local','cloud'],required=True);a=p.parse_args()
-root=Path(__file__).resolve().parent.parent;out=root/'polysemy-lab/audio';out.mkdir(exist_ok=True)
+p=argparse.ArgumentParser();p.add_argument('--model',required=True);p.add_argument('--voices',required=True);p.add_argument('--sentences',required=True);p.add_argument('--output-prefix',default='audio');p.add_argument('--kind',choices=['local','cloud'],required=True);p.add_argument('--audio-dir');p.add_argument('--manifest-file');a=p.parse_args()
+root=Path(__file__).resolve().parent.parent;out=Path(a.audio_dir) if a.audio_dir else root/'polysemy-lab/audio';out.mkdir(parents=True,exist_ok=True)
 recipes=json.loads((root/'professional-english/dialogues.json').read_text())['voiceRecipes'];cycle=['american-female','american-male','british-male','british-female'];rows=json.loads(Path(a.sentences).read_text());manifest={}
 if a.kind=='local':
  import onnxruntime as ort,soundfile as sf
@@ -58,4 +58,4 @@ for index,row in enumerate(rows):
    subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-i',str(raw),'-af',f'atrim=start={trim},adelay=300:all=1,apad=pad_dur=0.2,asetpts=N/SR/TB','-codec:a','libmp3lame','-b:a','96k','-y',str(dest)],check=True)
  duration=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(dest)],text=True))
  manifest[row['id']]={'path':'audio/'+dest.name,'voice':voice,'index':index,'text':row['en'],'duration':round(duration,3),'speed':recipe['speed'],'sourceSha256':hashlib.sha256(row['en'].encode()).hexdigest()};print(row['id'],voice,round(duration,2),flush=True)
- (root/f'polysemy-lab/{a.output_prefix}-{a.kind}.json').write_text(json.dumps(manifest,indent=2)+'\n')
+ (Path(a.manifest_file) if a.manifest_file else root/f'polysemy-lab/{a.output_prefix}-{a.kind}.json').write_text(json.dumps(manifest,indent=2)+'\n')
