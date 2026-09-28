@@ -74,9 +74,11 @@ assert.equal(await card.locator("[data-seek]").isEnabled(), true);
 assert.equal(await card.locator("a[download]").isVisible(), true);
 assert.equal(await card.locator("[data-play]").getAttribute("aria-label"), "暫停錄音 · Pause recording");
 assert.equal(await card.evaluate(node => node.classList.contains("is-playing")), true);
-await card.locator('[data-skip="5"]').click();
 await card.locator("[data-play]").click();
+await page.waitForFunction(() => document.querySelector(".recording-item [data-play]").getAttribute("aria-label") === "播放錄音 · Play recording");
 assert.equal(await card.locator("[data-play]").getAttribute("aria-label"), "播放錄音 · Play recording");
+await card.locator('[data-skip="5"]').click();
+await page.waitForFunction(() => document.querySelector(".recording-item audio").currentTime > 0);
 
 for (const width of [768, 390, 320]) {
   await page.setViewportSize({ width, height: 844 });
