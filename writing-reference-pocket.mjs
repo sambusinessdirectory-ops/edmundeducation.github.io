@@ -40,7 +40,7 @@ export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appen
     const sorted=[...history].sort((a,b)=>String(a.submittedAt).localeCompare(String(b.submittedAt))||a.id.localeCompare(b.id));if(reverse)sorted.reverse();
     for(const submission of sorted){
      const items=submission.feedback?.[key]||[];if(!items.length)continue;
-     const group=node('section','reference-submission');group.append(node('h3','',submission.topic),node('p','reference-submission-date',new Date(submission.submittedAt).toLocaleDateString('zh-HK')));
+     const group=node('section','reference-submission');group.append(node('p','reference-submission-date',new Date(submission.submittedAt).toLocaleDateString('zh-HK')));
      for(const item of items){
       if(![item.text,item.originalSentence?.text,item.enhancement?.text,item.benefit?.text].some(v=>String(v||'').trim()))continue;
       const card=node('article','reference-suggestion');count++;

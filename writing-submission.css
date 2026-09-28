@@ -1755,19 +1755,19 @@ body.writing-feedback-fullscreen { overflow: hidden; }
 /* The student's reference pocket stays beside the editor, below grammar. */
 .writing-reference-sidebar{display:grid;gap:24px;min-width:0}
 .writing-reference-sidebar .grammar-panel{position:static;max-height:65vh}
-.writing-reference-pocket{padding:22px;min-width:0;overflow:hidden}
+.writing-reference-pocket{padding:22px;min-width:0;overflow:hidden;color:#f7f5ff}
 .reference-pocket-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .reference-pocket-head h2{font-size:24px;margin:6px 0 16px}
 .reference-pocket-controls{display:flex;flex-wrap:wrap;gap:8px}
 .reference-pocket-controls select{width:100%;min-width:0;padding:12px;border:1px solid #cfc8b8;border-radius:12px;background:#fff;color:#27264d;font:700 14px system-ui}
-.reference-pocket-status{font:600 12px/1.5 system-ui;color:#65607a;margin:12px 0}
+.reference-pocket-status{font:600 12px/1.5 system-ui;color:#dfdcf0;margin:12px 0}
 .reference-pocket-content{max-height:480px;overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable;min-height:70px;padding-right:4px}
 .reference-vocabulary{white-space:pre-wrap;overflow-wrap:anywhere;display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px 8px;border-bottom:1px solid #e7dfd0;font-size:14px;line-height:1.5}
-.reference-submission h3{font-size:15px;line-height:1.5;margin:16px 0 4px}
-.reference-submission-date{font:12px system-ui;color:#777186;margin:0 0 12px}
-.reference-suggestion{margin:12px 0;border:1px solid #ddd8cb;border-radius:12px;overflow:hidden;background:white;font-size:14px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}
+.reference-submission-date{font:12px system-ui;color:#dfdcf0;margin:16px 0 8px}
+.reference-suggestion{margin:12px 0;border:1px solid #ddd8cb;border-radius:12px;overflow:hidden;background:white;color:#242342;font-size:14px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}
 .reference-band{padding:12px}.reference-band>strong{display:block;font:700 11px system-ui;margin-bottom:6px;color:#67627a}.reference-band.is-originalSentence{background:#f3f2f7}.reference-band.is-enhancement{background:#edf8ef}.reference-band.is-benefit{background:#fff4d9}.reference-suggestion>div:not(.reference-band){padding:12px}
-.writing-reference-pocket.is-floating{position:fixed;z-index:1800;width:min(420px,calc(100vw - 16px));max-height:calc(100dvh - 24px);box-shadow:0 24px 80px #16132f55;background:#fffaf0}
+.writing-reference-pocket.is-floating{position:fixed;z-index:1800;width:min(420px,calc(100vw - 16px));max-height:calc(100dvh - 24px);box-shadow:0 24px 80px #16132f55;background:#fffaf0;color:var(--ink)}
+.writing-reference-pocket.is-floating .reference-pocket-status,.writing-reference-pocket.is-floating .reference-submission-date{color:#5f5b72}
 .writing-reference-pocket.is-floating .reference-pocket-head{cursor:move;touch-action:none}
 .writing-reference-pocket.is-floating .reference-pocket-content{max-height:min(480px,calc(100dvh - 280px))}
 
