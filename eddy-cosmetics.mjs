@@ -1,4 +1,4 @@
-// Account-scoped equipment shared by the 2D maps and 3D standing characters.
+// Account-owned clothes with independent saved equipment and outfits per character.
 export const COSMETICS=Object.freeze([
  {id:'white-fedora',slot:'headwear',price:15,name:'White fedora',description:'白色 Fedora 帽'},
  {id:'cream-cable-knit',slot:'top',price:25,name:'Cream cable-knit crewneck',description:'奶油色麻花針織毛衣'},
@@ -12,21 +12,29 @@ export const COSMETICS=Object.freeze([
  {id:'pink-rain-jacket',slot:'girlsTop',group:'girls',price:35,name:'Pink-piped rain jacket',description:'炭黑色連帽雨衣 · 桃紅色滾邊',display:'girls/pink-rain-jacket-display.png'}
 ]);
 const GIRLS=Object.freeze(['celeste','phoebe','elsie']);
-const equipmentSlot=(item,character)=>item.group==='girls'?character+'Top':item.slot;
+const equipmentSlot=(item,character)=>item.group==='girls'?character+'Top':character+(item.slot==='headwear'?'Headwear':'Top');
+const OUTFIT_CHARACTERS=['eddy','noir',...GIRLS];
 export function cleanEquipment(value){
- const result=Object.fromEntries(COSMETICS.filter(item=>item.group!=='girls'&&value?.[item.slot]===item.id).map(item=>[item.slot,item.id]));
- for(const character of GIRLS){const slot=character+'Top',id=value?.[slot]??value?.girlsTop;if(COSMETICS.some(item=>item.group==='girls'&&item.id===id))result[slot]=id;}
+ const result={};
+ for(const character of OUTFIT_CHARACTERS){
+  for(const item of COSMETICS.filter(item=>(item.group==='girls')===GIRLS.includes(character))){
+   const slot=equipmentSlot(item,character);
+   const id=value?.[slot]??(character==='eddy'?value?.[item.slot]:GIRLS.includes(character)?value?.girlsTop:undefined);
+   if(id===item.id)result[slot]=id;
+  }
+ }
  return result;
 }
 export function cleanWardrobe(value){
  const outfits=[],counts=new Map();
  for(const x of (Array.isArray(value?.outfits)?value.outfits:[]).slice(0,200)){
   if(typeof x?.name!=='string'||!x.name.trim())continue;
-  const characters=x.group==='girls'?(x.character===undefined?GIRLS:GIRLS.includes(x.character)?[x.character]:[]):[null];
+  const characters=x.group==='girls'?(x.character===undefined?GIRLS:GIRLS.includes(x.character)?[x.character]:[]):(x.character===undefined?['eddy']:['eddy','noir'].includes(x.character)?[x.character]:[]);
   for(const character of characters){
    const count=counts.get(character)||0;if(count>=50)continue;counts.set(character,count+1);
-   const cleaned=cleanEquipment(x.equipped),selected=character?Object.fromEntries(Object.entries(cleaned).filter(([slot])=>slot===character+'Top')):Object.fromEntries(Object.entries(cleaned).filter(([slot])=>slot==='top'||slot==='headwear'));
-   outfits.push({name:x.name.trim().slice(0,60),equipped:selected,...(x.favorite===true?{favorite:true}:{}),...(character?{group:'girls',character}:{})});
+   const cleaned=cleanEquipment(x.equipped);
+   const selected=Object.fromEntries(Object.entries(cleaned).filter(([slot])=>slot===character+'Top'||slot===character+'Headwear'));
+   outfits.push({name:x.name.trim().slice(0,60),equipped:selected,...(x.favorite===true?{favorite:true}:{}),group:GIRLS.includes(character)?'girls':'boys',character});
   }
  }
  return {equipped:cleanEquipment(value?.equipped),outfits:outfits.slice(0,200)};
@@ -36,7 +44,7 @@ export const supportsCosmetics=id=>COSMETIC_CHARACTERS.includes(id);
 export const wardrobeGroup=id=>GIRLS.includes(id)?'girls':'boys';
 export const cosmeticsForCharacter=id=>supportsCosmetics(id)?COSMETICS.filter(item=>(item.group||'boys')===wardrobeGroup(id)):[];
 const groupEquipment=(value,character)=>Object.fromEntries(cosmeticsForCharacter(character).filter(item=>value[equipmentSlot(item,character)]===item.id).map(item=>[equipmentSlot(item,character),item.id]));
-const sameGroup=(outfit,character)=>wardrobeGroup(character)==='girls'?outfit.character===character:outfit.group!=='girls';
+const sameGroup=(outfit,character)=>outfit.character===character;
 export const outfitsForCharacter=(outfits,character)=>outfits.filter(outfit=>sameGroup(outfit,character));
 export const isCosmeticEquipped=(value,item,character)=>value[equipmentSlot(item,character)]===item.id;
 export const cosmeticAsset=(id,character='eddy')=>new URL('./assets/speaking-system/cosmetics/'+(supportsCosmetics(character)?character:'eddy')+'/'+id+'.webp?v=20260923-coin-cosmetics1',import.meta.url).href;
@@ -91,7 +99,7 @@ const key=id=>'edmund-eddy-wardrobe-v1:'+id;
 const notify=()=>{revision++;atlases.clear();for(const fn of listeners)fn();};
 export function subscribeCosmetics(fn){listeners.add(fn);return()=>listeners.delete(fn);}
 export function cosmeticsState(){return {owner,equipped:{...equipped},savedEquipment:{...wardrobe.equipped},owned:[...ownedCosmetics],previewActive,dirty:hasUnsavedCosmetics(),saving:saving>0,outfits:wardrobe.outfits.map(x=>({...x,equipped:{...x.equipped}})),revision};}
-export function hasUnsavedCosmetics(){return ['headwear','top',...GIRLS.map(c=>c+'Top')].some(slot=>equipped[slot]!==wardrobe.equipped[slot]);}
+export function hasUnsavedCosmetics(){return ['eddyHeadwear','eddyTop','noirHeadwear','noirTop',...GIRLS.map(c=>c+'Top')].some(slot=>equipped[slot]!==wardrobe.equipped[slot]);}
 export function beginCosmeticsPreview(){equipped={...wardrobe.equipped};previewActive=true;notify();}
 export function discardCosmeticsPreview(){equipped={...wardrobe.equipped};previewActive=false;notify();}
 export const UNSAVED_OUTFIT_MESSAGE='You have unsaved outfit changes. Leave without saving? These changes will be discarded, and your previously saved avatar will remain unchanged across all systems. Choose Cancel to stay and save.\n\n造型尚未儲存。確定離開？未儲存的更改將會放棄，所有系統仍使用原先儲存的造型。選擇「取消」可返回儲存。';
@@ -138,8 +146,8 @@ export async function saveAvatar(name,character='eddy'){
  if(owner!==requestOwner||token!==requestToken)throw Error('The account changed. Please reopen the closet.');
  const requestRevision=revision;saveEpoch++;
  const outfits=wardrobe.outfits.map(x=>({...x}));
- if(name!==undefined){name=String(name).trim();if(!name||name.length>60)throw Error('Use an outfit name from 1 to 60 characters.');const i=outfits.findIndex(x=>x.name===name&&sameGroup(x,character));const item={name,equipped:groupEquipment(equipped,character),...(wardrobeGroup(character)==='girls'?{group:'girls',character}:{}),...(i>=0&&outfits[i].favorite?{favorite:true}:{})};if(i>=0)outfits[i]=item;else {if(outfitsForCharacter(outfits,character).length>=50)throw Error('You can save up to 50 outfits for this character.');outfits.push(item);}}
- const result=await rpc({p_token:requestToken,p_character:wardrobeGroup(character)==='girls'?character:'boys',p_equipped:groupEquipment(equipped,character),p_outfits:outfitsForCharacter(outfits,character)},'character_closet_sync');
+ if(name!==undefined){name=String(name).trim();if(!name||name.length>60)throw Error('Use an outfit name from 1 to 60 characters.');const i=outfits.findIndex(x=>x.name===name&&sameGroup(x,character));const item={name,equipped:groupEquipment(equipped,character),group:wardrobeGroup(character),character,...(i>=0&&outfits[i].favorite?{favorite:true}:{})};if(i>=0)outfits[i]=item;else {if(outfitsForCharacter(outfits,character).length>=50)throw Error('You can save up to 50 outfits for this character.');outfits.push(item);}}
+ const result=await rpc({p_token:requestToken,p_character:character,p_equipped:groupEquipment(equipped,character),p_outfits:outfitsForCharacter(outfits,character)},'character_closet_sync');
  if(owner!==requestOwner||token!==requestToken)throw Error('The account changed. Please reopen the closet.');
  wardrobe=result;try{localStorage.setItem(key(owner),JSON.stringify(result));}catch{}
  if(revision===requestRevision)equipped={...result.equipped};notify();return result;
@@ -150,7 +158,7 @@ export async function toggleOutfitFavorite(name,character='eddy'){
  const requestOwner=owner,requestToken=token;saveEpoch++;saving++;
  try {
  const outfits=wardrobe.outfits.map(x=>x.name===name&&sameGroup(x,character)?{...x,favorite:!x.favorite}:{...x});
- const result=await rpc({p_token:requestToken,p_character:wardrobeGroup(character)==='girls'?character:'boys',p_outfits:outfitsForCharacter(outfits,character)},'character_closet_sync');
+ const result=await rpc({p_token:requestToken,p_character:character,p_outfits:outfitsForCharacter(outfits,character)},'character_closet_sync');
  if(owner!==requestOwner||token!==requestToken)throw Error('The account changed. Please reopen the closet.');
  wardrobe=result;try{localStorage.setItem(key(owner),JSON.stringify(result));}catch{}notify();return result;
  }finally{saving--;}
@@ -159,7 +167,7 @@ function load(id,character='eddy'){const key=character+':'+id;if(images.has(key)
 // One composite per equipment/base combination, never one per animation frame.
 export function cosmeticAtlas(id,base,{preview=false,wardrobe:wardrobeOverride=null}={}){
  const selected=groupEquipment(wardrobeOverride|| (preview?equipped:wardrobe.equipped),id);
- const rendered=wardrobeGroup(id)==='girls'?{...(selected[id+'Top']?{top:selected[id+'Top']}:{})}:selected;
+ const rendered={...(selected[id+'Top']?{top:selected[id+'Top']}:{}) ,...(selected[id+'Headwear']?{headwear:selected[id+'Headwear']}:{})};
  if(!supportsCosmetics(id)||!base?.naturalWidth)return base;
  const cacheKey=id+'|'+base.src+'|'+JSON.stringify(rendered);if(atlases.has(cacheKey))return atlases.get(cacheKey);
  const corrected=closeInterlegWhiteMarks(id,base);

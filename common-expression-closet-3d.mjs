@@ -1,9 +1,9 @@
-import {beginCosmeticsPreview,supportsCosmetics,confirmDiscardCosmetics,restoreCosmetics} from './eddy-cosmetics.mjs?v=20260923-admin-cosmetic-preview1';
+import {beginCosmeticsPreview,supportsCosmetics,confirmDiscardCosmetics,restoreCosmetics} from './eddy-cosmetics.mjs?v=20260928-independent-avatars1';
 import {closetRoute} from './closet-walking.mjs';
-import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260928-emerald-shop1';
+import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20260928-side-shop1';
 import {batchClosetSurfaces} from './closet-static-batches.mjs';
 import * as THREE from './vendor/three/three.module.js';
-import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260923-admin-cosmetic-preview1';
+import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20260928-independent-avatars1';
 import { buildPhoebeCloset, PHOEBE_CLOSET_PROFILE } from './phoebe-closet-3d.mjs?v=20260915-phoebe2';
 
 let activeClose = null;
@@ -1457,19 +1457,29 @@ export function openCompanionCloset({ character = 'eddy' } = {}) {
       '<div class="expression-closet-stage" data-closet-stage>' +
         '<p class="expression-closet-loading" data-closet-loading role="status"><span>Preparing the dressing room…</span><progress max="100" value="0" aria-label="Dressing room loading progress"></progress></p>' +
       '</div>' +
-      '<aside class="expression-closet-inventory" aria-labelledby="expression-closet-inventory-title">' +
+      (supportsCosmetics(character)
+        ? '<aside class="expression-closet-shop" aria-labelledby="clothing-shop-title">' +
+            '<header class="clothing-shop-header"><p>EDMUND ATELIER</p><h3 id="clothing-shop-title">服裝商店</h3></header>' +
+            '<div class="clothing-shop-catalog expression-closet-inventory"></div>' +
+          '</aside>'
+        :       '<aside class="expression-closet-inventory" aria-labelledby="expression-closet-inventory-title">' +
         `<p class="expression-closet-inventory-kicker">${characterName.toUpperCase()}’S COLLECTION</p>` +
         '<h3 id="expression-closet-inventory-title">Inventory <small>物品欄</small></h3>' +
         '<table><caption class="sr-only">Two-column clothing inventory</caption><tbody>' +
           collection +
         '</tbody></table>' +
         `<p class="expression-closet-inventory-help">${isPhoebe ? 'Phoebe’s tailored garments and accessories are arranged in the powder-blue built-ins.' : isElsie ? 'Elsie’s accessories are arranged throughout the illuminated display bays.' : 'Outfit fitting is on hold while the walk-in closet is refined.'}</p>` +
-      '</aside>' +
+      '</aside>'
+      ) +
     '</div>';
   document.body.append(dialog);
 
   const controller = new AbortController();
-  if(supportsCosmetics(character))mountClosetInventory(dialog.querySelector('.expression-closet-inventory'),controller.signal,{character});
+  if(supportsCosmetics(character)){
+    if(!document.querySelector('link[data-clothing-shop-style]')){const style=document.createElement('link');style.rel='stylesheet';style.dataset.clothingShopStyle='';style.href=new URL('./eddy-clothing-shop.css?v=20260928-side-shop1',import.meta.url).href;document.head.append(style);}
+    mountClosetInventory(dialog.querySelector('.clothing-shop-catalog'),controller.signal,{character});
+    dialog.querySelector('.clothing-shop-catalog h3').id='clothing-shop-inventory-title';
+  }
   let closed = false;
   const close = () => {
     if (closed) return true;

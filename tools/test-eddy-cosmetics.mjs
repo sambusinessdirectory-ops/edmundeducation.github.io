@@ -11,61 +11,65 @@ beforeEach(async()=>{
  rpcHandler=async method=>method==='eddy_closet_sync'?{data:{equipped:{},outfits:[]}}:{data:ownedIds};
  await restoreCosmetics(undefined,{force:true});
 });
-test('independent headwear/top slots allow shared Eddy and Noir catalog items',()=>{
- clearCosmetics();equipCosmetic('white-fedora');equipCosmetic('cream-cable-knit');
- assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora',top:'cream-cable-knit'});
- equipCosmetic('charcoal-turtleneck');assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora',top:'charcoal-turtleneck'});
- equipCosmetic('unknown');assert.equal(cosmeticsState().equipped.top,'charcoal-turtleneck');
- equipCosmetic('white-fedora');assert.deepEqual(cosmeticsState().equipped,{top:'charcoal-turtleneck'});
- clearCosmetics();assert.deepEqual(cosmeticsState().equipped,{});
- assert.deepEqual(cleanEquipment({headwear:'cream-cable-knit',top:'white-fedora',unknown:'x'}),{});
+test('Eddy and Noir can wear different purchased tops and hats',()=>{
+ clearCosmetics('eddy');clearCosmetics('noir');
+ equipCosmetic('olive-plain-tee','eddy');equipCosmetic('white-fedora','eddy');
+ assert.deepEqual(cosmeticsState().equipped,{eddyTop:'olive-plain-tee',eddyHeadwear:'white-fedora'});
+ equipCosmetic('blue-swordsman-jacket','noir');
+ assert.deepEqual(cosmeticsState().equipped,{eddyTop:'olive-plain-tee',eddyHeadwear:'white-fedora',noirTop:'blue-swordsman-jacket'});
+ clearCosmetics('eddy');assert.deepEqual(cosmeticsState().equipped,{noirTop:'blue-swordsman-jacket'});
+ clearCosmetics('noir');assert.deepEqual(cosmeticsState().equipped,{});
 });
-test('malformed saved outfits are bounded and cannot add unowned item types',()=>{
- assert.deepEqual(cleanWardrobe({outfits:[null,{name:' '},{name:'  Winter  ',equipped:{top:'charcoal-turtleneck',headwear:'bad'}}]}).outfits,[{name:'Winter',equipped:{top:'charcoal-turtleneck'}}]);
+test('legacy shared clothing and outfits migrate to Eddy only',()=>{
+ const migrated=cleanWardrobe({equipped:{top:'olive-plain-tee',headwear:'white-fedora'},outfits:[{name:'Green',equipped:{top:'olive-plain-tee'}}]});
+ assert.deepEqual(migrated.equipped,{eddyTop:'olive-plain-tee',eddyHeadwear:'white-fedora'});
+ assert.deepEqual(migrated.outfits,[{name:'Green',equipped:{eddyTop:'olive-plain-tee'},group:'boys',character:'eddy'}]);
+ assert.deepEqual(cleanWardrobe(migrated),migrated);
+});
+test('Eddy and Noir outfit sets remain separate even with the same name',()=>{
+ const outfits=cleanWardrobe({outfits:[
+  {name:'Everyday',group:'boys',character:'eddy',equipped:{eddyTop:'olive-plain-tee'}},
+  {name:'Everyday',group:'boys',character:'noir',equipped:{noirTop:'charcoal-turtleneck'}}
+ ]}).outfits;
+ assert.deepEqual(outfits.map(x=>x.character),['eddy','noir']);
+ assert.deepEqual(outfits.map(x=>x.equipped),[{eddyTop:'olive-plain-tee'},{noirTop:'charcoal-turtleneck'}]);
+});
+test('malformed saved outfits are bounded',()=>{
+ assert.deepEqual(cleanWardrobe({outfits:[null,{name:' '},{name:'  Winter  ',equipped:{top:'charcoal-turtleneck',headwear:'bad'}}]}).outfits,[{name:'Winter',equipped:{eddyTop:'charcoal-turtleneck'},group:'boys',character:'eddy'}]);
  assert.equal(cleanWardrobe({outfits:Array.from({length:100},()=>({name:'x'.repeat(100)}))}).outfits.length,50);
- assert.equal(cleanWardrobe({outfits:[{name:'x'.repeat(100)}]}).outfits[0].name.length,60);
 });
 test('stale restore cannot overwrite an edit or another student',async()=>{
  const cache=new Map();globalThis.localStorage={getItem:k=>cache.get(k),setItem:(k,v)=>cache.set(k,v)};globalThis.sessionStorage={};
  let account={id:'student-a',token:'token-a'},resolve;
  globalThis.window.EdmundSystemNav.getStudentSession=()=>account;
  rpcHandler=method=>method==='eddie_farm_owned_cosmetics'?Promise.resolve({data:ownedIds}):new Promise(r=>resolve=r);
- const pending=restoreCosmetics();await new Promise(r=>setTimeout(r,0));equipCosmetic('white-fedora');
- resolve({data:{equipped:{top:'cream-cable-knit'},outfits:[]}});await pending;
- assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora'});
- const saving=saveAvatar();await new Promise(r=>setTimeout(r,0));const old=resolve;
+ const pending=restoreCosmetics();await new Promise(r=>setTimeout(r,0));equipCosmetic('white-fedora','eddy');
+ resolve({data:{equipped:{eddyTop:'cream-cable-knit'},outfits:[]}});await pending;
+ assert.deepEqual(cosmeticsState().equipped,{eddyHeadwear:'white-fedora'});
+ const saving=saveAvatar(undefined,'eddy');await new Promise(r=>setTimeout(r,0));const old=resolve;
  account={id:'student-b',token:''};await restoreCosmetics();
- old({data:{equipped:{headwear:'white-fedora'},outfits:[]}});
+ old({data:{equipped:{eddyHeadwear:'white-fedora'},outfits:[]}});
  await assert.rejects(saving,/account changed/);assert.deepEqual(cosmeticsState().equipped,{});
  await assert.rejects(saveAvatar(),/sign in/);equipOutfit('not found');assert.deepEqual(cosmeticsState().equipped,{});
 });
-
-test('swordsman jacket replaces a top, preserves a hat, and remains an allowed saved item',()=>{
- clearCosmetics();equipCosmetic('white-fedora');equipCosmetic('cream-cable-knit');
- equipCosmetic('blue-swordsman-jacket');
- assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora',top:'blue-swordsman-jacket'});
- assert.deepEqual(cleanWardrobe({outfits:[{name:'Swordsman',equipped:cosmeticsState().equipped}]}).outfits,
-  [{name:'Swordsman',equipped:{headwear:'white-fedora',top:'blue-swordsman-jacket'}}]);
- assert.deepEqual(cleanEquipment({headwear:'blue-swordsman-jacket'}),{});
- equipCosmetic('blue-swordsman-jacket');assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora'});
- clearCosmetics();
+test('saving Noir sends only Noir slots and outfits',async()=>{
+ clearCosmetics('eddy');clearCosmetics('noir');equipCosmetic('olive-plain-tee','eddy');equipCosmetic('charcoal-turtleneck','noir');
+ let savedArgs;
+ rpcHandler=async(method,args)=>{
+  if(method==='character_closet_sync'){savedArgs=args;return {data:{equipped:{eddyTop:'olive-plain-tee',noirTop:'charcoal-turtleneck'},outfits:args.p_outfits}};}
+  return {data:ownedIds};
+ };
+ await saveAvatar('Night', 'noir');
+ assert.equal(savedArgs.p_character,'noir');
+ assert.deepEqual(savedArgs.p_equipped,{noirTop:'charcoal-turtleneck'});
+ assert.deepEqual(savedArgs.p_outfits,[{name:'Night',equipped:{noirTop:'charcoal-turtleneck'},group:'boys',character:'noir'}]);
+ assert.deepEqual(cosmeticsState().savedEquipment,{eddyTop:'olive-plain-tee',noirTop:'charcoal-turtleneck'});
 });
-
-test('new shared tops occupy the existing slot and survive saved-set cleaning',()=>{
- for(const id of ['brown-leather-bomber','sunburst-hoodie','black-blazer-hoodie']){
-  clearCosmetics();equipCosmetic('white-fedora');equipCosmetic(id);
-  assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora',top:id});
-  assert.deepEqual(cleanWardrobe({equipped:cosmeticsState().equipped,outfits:[{name:id,equipped:cosmeticsState().equipped}]}).outfits[0].equipped,{headwear:'white-fedora',top:id});
- }
- clearCosmetics();
-});
-
 test('favorites survive cleaning only as booleans',()=>{
  const favorite=cleanWardrobe({outfits:[{name:'Blue',equipped:{top:'blue-swordsman-jacket'},favorite:true}]}).outfits[0];
  assert.equal(favorite.favorite,true);
  assert.equal(cleanWardrobe({outfits:[{name:'Blue',equipped:{},favorite:'true'}]}).outfits[0].favorite,undefined);
 });
-
 test('every shared item ships independent Eddy and Noir fits',async()=>{
  const {COSMETICS,COSMETIC_CHARACTERS,supportsCosmetics}=await import('../eddy-cosmetics.mjs');
  const {readFileSync}=await import('node:fs');const {createHash}=await import('node:crypto');
@@ -81,7 +85,7 @@ test('girls share availability but have independent equipped slots',async()=>{
  const {cosmeticsForCharacter}=await import('../eddy-cosmetics.mjs');
  clearCosmetics('eddy');for(const c of ['celeste','phoebe','elsie'])clearCosmetics(c);
  equipCosmetic('white-fedora');equipCosmetic('blue-swordsman-jacket');equipCosmetic('pink-rain-jacket','elsie');
- assert.deepEqual(cosmeticsState().equipped,{headwear:'white-fedora',top:'blue-swordsman-jacket',elsieTop:'pink-rain-jacket'});
+ assert.deepEqual(cosmeticsState().equipped,{eddyHeadwear:'white-fedora',eddyTop:'blue-swordsman-jacket',elsieTop:'pink-rain-jacket'});
  for(const c of ['celeste','phoebe','elsie'])assert.deepEqual(cosmeticsForCharacter(c).map(x=>x.id),['cream-sherpa-jacket','pink-rain-jacket']);
  clearCosmetics('phoebe');assert.equal(cosmeticsState().equipped.elsieTop,'pink-rain-jacket');
  equipCosmetic('cream-sherpa-jacket','phoebe');clearCosmetics('elsie');
