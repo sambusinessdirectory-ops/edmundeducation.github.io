@@ -1248,14 +1248,14 @@
       "title": "我在路上了",
       "family": "social",
       "styles": [
+        "audio",
+        "tone",
         "speak",
         "continue",
-        "tone",
-        "rewrite",
-        "audio"
+        "rewrite"
       ],
       "sourceSha256": "6bec75617c446211dccdabc8495f8923bad90cbc6a33ac8a2ef3032680bd1276",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 92,
@@ -1263,14 +1263,14 @@
       "title": "我剛出門",
       "family": "action",
       "styles": [
-        "detail",
-        "final",
         "audio",
+        "detail",
         "explain",
-        "speak"
+        "speak",
+        "final"
       ],
       "sourceSha256": "3487a1a9efbaae8e3ef696559e4d607b96432bf8249d6f770d2881a7715bce5a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 93,
@@ -1278,15 +1278,15 @@
       "title": "我會晚五分鐘",
       "family": "social",
       "styles": [
+        "audio",
         "tone",
-        "speak",
         "rewrite",
+        "speak",
         "continue",
-        "final",
-        "audio"
+        "final"
       ],
       "sourceSha256": "d3c0ffad119461bd437d026310a0da705194b557fb5deedf065e4a63e7bf2759",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 94,
@@ -1301,7 +1301,7 @@
         "transfer"
       ],
       "sourceSha256": "69a85b6d3c95669b5270cca022bf68cd5c4a759bf5ce373197153774b042b5fe",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 95,
@@ -1309,14 +1309,14 @@
       "title": "別人不小心撞你",
       "family": "social",
       "styles": [
-        "final",
-        "speak",
+        "audio",
         "tone",
         "rewrite",
-        "audio"
+        "speak",
+        "final"
       ],
       "sourceSha256": "44896fa88e92a8b4bcb112d7da9d3aa94942333ef4ecd0d3eed4ee17c5887c33",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 96,
@@ -1324,14 +1324,14 @@
       "title": "可以讓我過去嗎？",
       "family": "request",
       "styles": [
-        "audio",
+        "final",
         "speak",
-        "tone",
         "rewrite",
-        "final"
+        "tone",
+        "audio"
       ],
       "sourceSha256": "59ad04555334b57b2f8c32fae40efb1f26f2eb07464ac873166a5b15ee300f2e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 97,
@@ -1339,15 +1339,15 @@
       "title": "「借過，我要過去」",
       "family": "action",
       "styles": [
-        "detail",
-        "transfer",
-        "branch",
         "audio",
+        "detail",
         "scene",
+        "branch",
+        "transfer",
         "final"
       ],
       "sourceSha256": "fe2b78ca992da5d6bf4d7e8d5a6feeb1791872dbf31c5df85dd2588f6e4f5491",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 98,
@@ -1355,15 +1355,15 @@
       "title": "小心撞頭",
       "family": "action",
       "styles": [
-        "branch",
-        "explain",
+        "audio",
         "repair",
+        "explain",
         "speak",
-        "continue",
-        "audio"
+        "branch",
+        "continue"
       ],
       "sourceSha256": "303b0ebfc2f76ec63bbc84c70344ee7e17a7a05e1dc3bb90ebe65d918b2a531d",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 99,
@@ -1371,14 +1371,14 @@
       "title": "把東西帶走",
       "family": "object",
       "styles": [
-        "speak",
         "audio",
         "contrast",
-        "final",
-        "reverse"
+        "speak",
+        "reverse",
+        "final"
       ],
       "sourceSha256": "7c3bfc2360e6a9f934cfae241dccc3508b0f511f0d1212638108674bc7cef178",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 100,
@@ -1394,7 +1394,7 @@
         "scene"
       ],
       "sourceSha256": "54c4347cd12a1f01a548d181b5bfaa92fac8e17f6cbe44edbc387f8dbd226944",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 101,
