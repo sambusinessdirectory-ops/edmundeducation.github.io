@@ -1,14 +1,16 @@
 import { importantModule } from './important-data.mjs?v=20260928-important1';
+import { socialMediaModule } from './social-media-data.mjs?v=20260929-social1';
+import { socialMediaAudio } from './social-media-audio.mjs?v=20260929-social1';
 import { synonymAudio } from './audio-manifest.mjs?v=20260928-four-voices1';
 import { guideAudio } from './guide-audio.mjs?v=20260928-guide1';
 import { detailedFeedback } from './detailed-feedback.mjs?v=20260928-feedback1';
 import {mountRecorder,allRecordings,recordingBlob,uploadRecording} from './recordings.mjs?v=20260928-recordings1';
 
-const words = importantModule.words;
+const modules = {important:importantModule,'social-media':socialMediaModule};
 const voices = ['american-female', 'american-male', 'british-male', 'british-female'];
-const questions = words.flatMap((word, wi) => word.exercises.map((exercise, ei) => ({id: `${wi + 1}-${ei + 1}`, wi, ei, word, exercise, voice: voices[(wi * 2 + ei) % 4]})));
-const byId = new Map(questions.map(question => [question.id, question]));
-const total = questions.length;
+let moduleId = 'important', moduleData = importantModule, words = moduleData.words;
+const makeQuestions = (id,items) => items.flatMap((word, wi) => word.exercises.map((exercise, ei) => ({id: `${id === 'important' ? '' : 'social-'}${wi + 1}-${ei + 1}`, wi, ei, word, exercise, voice: voices[(wi * 2 + ei) % 4]})));
+let questions = makeQuestions(moduleId,words), byId = new Map(questions.map(question => [question.id, question])), total = questions.length;
 const dashboard = document.querySelector('[data-view="dashboard"]');
 dashboard?.querySelector('.learning-portal-empty')?.remove();
 const host = document.createElement('section');
@@ -17,7 +19,7 @@ host.setAttribute('aria-label', 'Synonyms 同義詞學習系統');
 dashboard?.append(host);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const icon = name => '<img class="syn-icon" src="/synonyms/icons/'+name+'.svg" alt="" aria-hidden="true">';
-const falseSynonyms = [
+const importantFalseSynonyms = [
   {word:'famous / popular',type:'名氣不等於重要',point:'A famous or popular person may attract attention. A prominent person has a notable public position; an influential person changes what others think or do.',zh:'「有名」或「受歡迎」不一定表示地位突出，更不一定有影響力。'},
   {word:'impressive',type:'令人佩服不等於重大',point:'An impressive result catches your eye. A major change is large in scale; a significant change has a meaningful effect.',zh:'「令人印象深刻」說的是觀感，不等於規模大或影響深。'},
   {word:'interesting',type:'有趣不等於重要',point:'An interesting idea holds attention. A key idea matters to the result; a fundamental idea supports the whole argument.',zh:'「有趣」不能代替「關鍵」或「基礎」。'},
@@ -31,12 +33,30 @@ const audio = new Audio();
 const cloudAudio = new Map();
 let audioTicket = 0, activeAudioStatus = null;
 let owner = null, token = null, progress = {answers:{},order:[],cursor:0};
-let view = 'home', choice = null, streak = 0, saveState = 'loading', localAvailable = true, syncing = false;
+let view = 'home', choice = null, streak = 0, saveState = 'loading', localAvailable = true;
+const moduleStates = new Map();
+let falseSynonyms = importantFalseSynonyms;
 let recorderDispose = null, recordingsEpoch = 0;
 const recordingUrls = [];
 const recordingItems = new Map();
-const pending = new Map();
-const progressKey = () => `edmund-synonyms-important-v1:${owner}`;
+let pending = new Map();
+const progressKey = (id=moduleId) => `edmund-synonyms-${id === 'important' ? 'important' : 'social-media'}-v1:${owner}`;
+const blankProgress = () => ({answers:{},order:[],cursor:0});
+function selectModule(id) {
+  if (!modules[id] || id === moduleId) return;
+  moduleStates.set(moduleId,{progress,pending,saveState,localAvailable,streak});
+  stopVoice(); moduleId=id;moduleData=modules[id];words=moduleData.words;questions=makeQuestions(id,words);byId=new Map(questions.map(q=>[q.id,q]));total=questions.length;falseSynonyms=id==='important'?importantFalseSynonyms:moduleData.falseSynonyms;
+  const state=moduleStates.get(id);
+  if (state) ({progress,pending,saveState,localAvailable,streak}=state);
+  else {progress=blankProgress();pending=new Map();streak=0;readLocal();saveState='loading';}
+  choice=null;
+  if(owner&&token)void loadAccount();
+}
+function moduleProgress(id) {
+  if(id===moduleId)return progress;
+  if(moduleStates.has(id))return moduleStates.get(id).progress;
+  try{return JSON.parse(localStorage.getItem(progressKey(id))||'null')||blankProgress();}catch{return blankProgress();}
+}
 const current = () => byId.get(progress.order?.[progress.cursor]) || null;
 const record = id => progress.answers[id] || null;
 const attempted = () => questions.filter(q => (record(q.id)?.attempts || 0) > 0).length;
@@ -83,38 +103,38 @@ function mergeServer(rows) {
 }
 async function loadAccount() {
   if (!owner || !token) return;
-  const expected = owner;
+  const expected = owner, expectedModule=moduleId;
   saveState = 'loading'; updateSaveBadge();
   try {
     const rows = await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc('synonyms_important_list',{p_token:token});
-    if (owner !== expected) return;
+    if (owner !== expected || moduleId !== expectedModule) return;
     mergeServer(rows);
     saveState = pending.size ? 'saving' : 'saved'; updateSaveBadge();
     if (pending.size) void syncPending();
     render();
   } catch {
-    if (owner !== expected) return;
+    if (owner !== expected || moduleId !== expectedModule) return;
     saveState = 'offline'; updateSaveBadge(); render();
   }
 }
 async function syncPending() {
-  if (syncing || !owner || !token || !pending.size) return;
-  syncing = true;
-  const expected = owner;
-  saveState = 'saving'; updateSaveBadge();
+  if (!owner || !token || !pending.size) return;
+  const expected=owner, target=pending, targetModule=moduleId;
+  if(target.syncing)return;
+  target.syncing=true;saveState='saving';updateSaveBadge();
   try {
-    while (pending.size && owner === expected) {
-      const [id,item] = pending.entries().next().value;
+    while(target.size && owner===expected) {
+      const [id,item]=target.entries().next().value;
       await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc('synonyms_important_record',{
         p_token:token,p_question_key:id,p_attempts:item.attempts,p_mastered:Boolean(item.mastered),
         p_last_choice:item.lastChoice,p_last_correct:Boolean(item.lastCorrect)
       });
-      if (pending.get(id)?.attempts === item.attempts) pending.delete(id);
+      if(target.get(id)?.attempts===item.attempts)target.delete(id);
     }
-    if (owner === expected) saveState = 'saved';
-  } catch { if (owner === expected) saveState = 'offline'; }
-  syncing = false;
-  updateSaveBadge();
+    if(owner===expected && moduleId===targetModule)saveState='saved';
+  } catch {if(owner===expected && moduleId===targetModule)saveState='offline';}
+  target.syncing=false;
+  if(moduleId===targetModule)updateSaveBadge();
 }
 function randomNumber(max) {
   if (globalThis.crypto?.getRandomValues) {
@@ -142,7 +162,7 @@ function go(next) {
   recordingItems.clear();
   view = next;
   if (next !== 'question') { choice = null; stopVoice(); }
-  const hash = next === 'false' ? 'false-synonyms' : next;
+  const hash = moduleId === 'important' ? (next === 'false' ? 'false-synonyms' : next) : `social-media:${next}`;
   history.pushState({synonymsView:next},'',`#${hash}`);
   render();
   host.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
@@ -211,11 +231,11 @@ async function playClip(item,cacheKey,status) {
 }
 function playVoice() {
   const q=current();if(!q)return;
-  return playClip(synonymAudio[q.id],q.id,host.querySelector('[data-audio-status]'));
+  return playClip(moduleId==='important'?synonymAudio[q.id]:socialMediaAudio.exercises[q.id],q.id,host.querySelector('[data-audio-status]'));
 }
 function playGuideAudio(kind,index,button) {
   const status=button.parentElement.querySelector('[data-guide-audio-status]');
-  const path=guideAudio[String(index)]?.[kind];
+  const path=(moduleId==='important'?guideAudio:socialMediaAudio.guide)[String(index)]?.[kind];
   if(!path){if(status)status.textContent='音訊暫不可用。';return;}
   return playClip({path},'guide:'+index+':'+kind,status);
 }
@@ -225,22 +245,26 @@ function stats() {
 function shell(content) {
   recorderDispose?.();recorderDispose=null;
   host.innerHTML='<div class="syn-ambient" aria-hidden="true"><i></i><i></i><i></i></div>'+
-    '<nav class="syn-global-nav" aria-label="Synonyms 導覽"><button type="button" data-go="home">系統首頁</button><button type="button" data-go="module">Important</button><button type="button" data-go="guide">同義詞指南</button><button type="button" data-go="false">False synonyms</button><button type="button" class="syn-practice-link" data-begin>'+icon('spark')+'開始練習</button><button type="button" data-go="recordings">我的錄音</button></nav>'+
+    '<nav class="syn-global-nav" aria-label="Synonyms 導覽"><button type="button" data-go="home">系統首頁</button><button type="button" data-go="module">'+esc(moduleData.title)+'</button><button type="button" data-go="guide">同義詞指南</button><button type="button" data-go="false">False synonyms</button><button type="button" class="syn-practice-link" data-begin>'+icon('spark')+'開始練習</button><button type="button" data-go="recordings">我的錄音</button></nav>'+
     '<header class="syn-heading"><div><p class="syn-kicker">SYNONYMS · 同義詞學習系統</p><h2>同義詞學習系統</h2><p>從語境理解字詞，選擇更精準的表達。</p></div>'+stats()+'</header>'+
     '<div class="syn-progress" role="progressbar" aria-label="已作答題目" aria-valuemin="0" aria-valuemax="'+total+'" aria-valuenow="'+attempted()+'"><span style="width:'+(attempted()/total*100)+'%"></span></div>'+
     '<div class="syn-save-row" role="status" aria-live="polite"><span data-save-state></span><button type="button" data-retry-save hidden>重試儲存</button></div>'+content;
   updateSaveBadge();
 }
 function renderHome() {
-  shell('<section class="syn-home syn-enter"><p class="syn-kicker">YOUR LEARNING LIBRARY</p><h3>選擇學習模組</h3><p>每個模組先認識詞義，再以語境練習運用。</p><div class="syn-module-grid"><button class="syn-module-card" type="button" data-go="module"><span class="syn-module-index">01 / SYNONYM EXPANSION</span><strong>Important</strong><small>14 個更精準的同義詞 · 28 道選擇題</small><span class="syn-module-progress">已作答 '+attempted()+' / '+total+' 題</span></button></div></section>');
+  const cards=Object.entries(modules).map(([id,data],index)=>{
+    const saved=moduleProgress(id), count=Object.keys(saved.answers||{}).filter(key=>key.startsWith(id==='important'?'':'social-') && (saved.answers[key]?.attempts||0)>0).length;
+    return '<button class="syn-module-card" type="button" data-module="'+id+'"><span class="syn-module-index">'+String(index+1).padStart(2,'0')+' / SYNONYM EXPANSION</span><strong>'+esc(data.title)+'</strong><small>'+data.words.length+' 個更精準的詞組 · '+data.words.reduce((n,w)=>n+w.exercises.length,0)+' 道選擇題</small><span class="syn-module-progress">已作答 '+count+' / '+data.words.reduce((n,w)=>n+w.exercises.length,0)+' 題</span></button>';
+  }).join('');
+  shell('<section class="syn-home syn-enter"><p class="syn-kicker">YOUR LEARNING LIBRARY</p><h3>選擇學習模組</h3><p>每個模組先認識詞義，再以語境練習運用。</p><div class="syn-module-grid">'+cards+'</div></section>');
 }
 function renderModule() {
-  shell('<section class="syn-module-front syn-enter"><div class="syn-module-hero"><p class="syn-kicker">MODULE 01 · IMPORTANT</p><h3>重要，究竟有多重要？</h3><p>重大、關鍵、不可或缺、影響深遠——英文會按語境選用不同的字。</p><div class="syn-module-actions"><button class="syn-primary" type="button" data-go="guide">先看 14 個同義詞 →</button><button class="syn-secondary" type="button" data-go="false">認識 False synonyms</button></div></div><div class="syn-module-aside"><strong>'+mastered()+' / '+total+'</strong><span>題已掌握</span><small>開始練習前，先閱讀同義詞指南。</small></div></section>');
+  shell('<section class="syn-module-front syn-enter"><div class="syn-module-hero"><p class="syn-kicker">MODULE '+(moduleId==='important'?'01 · IMPORTANT':'02 · SOCIAL MEDIA')+'</p><h3>'+esc(moduleData.subtitle||'重要，究竟有多重要？')+'</h3><p>'+esc(moduleData.description||'重大、關鍵、不可或缺、影響深遠——英文會按語境選用不同的字。')+'</p><div class="syn-module-actions"><button class="syn-primary" type="button" data-go="guide">先看 '+words.length+' 個詞組 →</button><button class="syn-secondary" type="button" data-go="false">認識 False synonyms</button></div></div><div class="syn-module-aside"><strong>'+mastered()+' / '+total+'</strong><span>題已掌握</span><small>開始練習前，先閱讀同義詞指南。</small></div></section>');
 }
 function renderGuide() {
-  const cards=words.map(word=>{const example=word.exercises[0].upgrade.replace('______',word.word);const note=word.exercises[0].options.find(o=>o.text===word.word)?.explanation||word.meaning;
+  const cards=words.map(word=>{const example=word.exercises[0].upgrade.replace('______',word.word);const note=word.note||word.exercises[0].options.find(o=>o.text===word.word)?.explanation||word.meaning;
     return '<article class="syn-word-card"><span>'+String(word.order).padStart(2,'0')+'</span><div><h4>'+esc(word.word[0].toUpperCase()+word.word.slice(1))+'</h4><div class="syn-word-audio-controls"><button type="button" data-guide-audio="word:'+word.order+'" aria-label="播放 '+esc(word.word)+' 的讀音">'+icon('audio')+'聽讀音</button><span data-guide-audio-status role="status"></span></div><strong>'+esc(word.meaning)+'</strong><p>'+esc(note)+'</p><div class="syn-guide-example"><small lang="en">'+esc(example)+'</small><p class="syn-guide-translation">'+esc(word.exercises[0].zh)+'</p><button type="button" data-guide-audio="sentence:'+word.order+'" aria-label="播放例句">'+icon('audio')+'聽例句</button><span data-guide-audio-status role="status"></span></div></div></article>';}).join('');
-  shell('<section class="syn-guide syn-enter"><p class="syn-kicker">WORD GUIDE · 先理解，再練習</p><h3>Important 的 14 種更精準說法</h3><p>看看每個字的重點和例句。準備好後，進入隨機排列的 28 題練習。</p><div class="syn-word-grid">'+cards+'</div><div class="syn-guide-actions"><button class="syn-secondary" type="button" data-go="false">先看看 False synonyms</button><button class="syn-primary" type="button" data-begin>'+(progress.order?.length>=total && progress.cursor<progress.order.length && progress.cursor>0?'繼續第 '+(progress.cursor+1)+' 題':'開始 28 題練習')+' →</button></div></section>');
+  shell('<section class="syn-guide syn-enter"><p class="syn-kicker">WORD GUIDE · 先理解，再練習</p><h3>'+esc(moduleData.title)+' 的 '+words.length+' 種更精準說法</h3><p>看看每個詞組的重點和例句。準備好後，進入隨機排列的 '+total+' 題練習。</p><div class="syn-word-grid">'+cards+'</div><div class="syn-guide-actions"><button class="syn-secondary" type="button" data-go="false">先看看 False synonyms</button><button class="syn-primary" type="button" data-begin>'+(progress.order?.length>=total && progress.cursor<progress.order.length && progress.cursor>0?'繼續第 '+(progress.cursor+1)+' 題':'開始 '+total+' 題練習')+' →</button></div></section>');
 }
 function renderFalse() {
   const cards=falseSynonyms.map((item,i)=>'<article class="syn-false-card"><span>'+String(i+1).padStart(2,'0')+'</span><div><h4>'+esc(item.word)+'</h4><p class="syn-false-description">'+esc(item.zh)+'</p><p lang="en">'+esc(item.point)+'</p></div></article>').join('');
@@ -249,7 +273,7 @@ function renderFalse() {
 function renderQuestion() {
   const q=current();if (!q) {go('guide');return;}
   const selected=q.exercise.options.find(o=>o.letter===choice),correct=selected?.text===q.exercise.answer;
-  const original=esc(q.exercise.original).replace(/\bimportant\b/gi,'<mark>$&</mark>');
+  const original=esc(q.exercise.original).replace(moduleId==='important'?/\bimportant\b/gi:/\bsocial media\b/gi,'<mark>$&</mark>');
   const options=q.exercise.options.map(o=>{const state=choice?(o.text===q.exercise.answer?'is-correct':o.letter===choice?'is-wrong':'is-muted'):'';
     return '<button class="syn-option '+state+'" type="button" data-answer="'+o.letter+'" '+(choice?'disabled':'')+'><span class="syn-option-letter">'+o.letter+'</span><span>'+esc(o.text)+'</span><span class="syn-option-icon" aria-hidden="true">'+(choice&&o.text===q.exercise.answer?icon('check'):'')+'</span></button>';}).join('');
   const feedback=choice?'<section class="syn-feedback '+(correct?'is-right':'is-try-again')+'" tabindex="-1" aria-live="polite"><div class="syn-feedback-top"><span class="syn-feedback-symbol" aria-hidden="true">'+icon(correct?'check':'retry')+'</span><div><p class="syn-kicker">'+(correct?'NICE CHOICE':'LEARN THE DIFFERENCE')+'</p><h4>'+(correct?'選得準確！':'再看一次語境；這題稍後會再出現')+'</h4></div></div><p class="syn-reveal"><strong>'+esc(q.exercise.answer)+'</strong> · '+esc(q.word.meaning)+'</p><div class="syn-explanations"><h5>六個選項的解釋</h5>'+q.exercise.options.map(o=>'<div class="'+(o.text===q.exercise.answer?'is-answer':'')+'"><strong>'+o.letter+'. '+esc(o.text)+'</strong><span>'+esc(detailedFeedback[q.id]?.[o.letter]||o.explanation)+'</span></div>').join('')+'</div><button class="syn-primary" type="button" data-next>'+(progress.cursor===progress.order.length-1?'查看結果':'下一題')+' →</button></section>':'';
@@ -257,7 +281,7 @@ function renderQuestion() {
 }
 function renderFinish() {
   const weak=questions.filter(q=>!record(q.id)?.mastered);
-  shell('<section class="syn-clear syn-enter"><div class="syn-clear-emblem" aria-hidden="true">'+icon('spark')+'</div><p class="syn-kicker">ROUND COMPLETE</p><h3>28 題完成</h3><p>已掌握 <strong>'+mastered()+' / '+total+'</strong> 題。'+(weak.length?'可再練習未掌握的題目。':'14 個同義詞都已掌握！')+'</p><div class="syn-clear-actions"><button class="syn-secondary" type="button" data-go="home">系統首頁</button><button class="syn-primary" type="button" data-go="guide">再看詞語指南</button><button class="syn-primary" type="button" data-new-round>重新隨機練習</button></div></section>');
+  shell('<section class="syn-clear syn-enter"><div class="syn-clear-emblem" aria-hidden="true">'+icon('spark')+'</div><p class="syn-kicker">ROUND COMPLETE</p><h3>'+total+' 題完成</h3><p>已掌握 <strong>'+mastered()+' / '+total+'</strong> 題。'+(weak.length?'可再練習未掌握的題目。':words.length+' 個詞組都已掌握！')+'</p><div class="syn-clear-actions"><button class="syn-secondary" type="button" data-go="home">系統首頁</button><button class="syn-primary" type="button" data-go="guide">再看詞語指南</button><button class="syn-primary" type="button" data-new-round>重新隨機練習</button></div></section>');
 }
 function renderRecordings() {
   shell('<section class="syn-recordings syn-enter"><p class="syn-kicker">YOUR VOICE ARCHIVE</p><h3>我的錄音</h3><p>在題目按「錄音朗讀」後，可以在這裡重聽。錄音會儲存至學生帳戶。</p><div data-recording-list role="status">正在載入錄音…</div></section>');
@@ -268,8 +292,9 @@ async function loadRecordings() {
   try {
     const {items,offline}=await allRecordings(expected,token,window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc);
     if(epoch!==recordingsEpoch||owner!==expected||!list.isConnected)return;
-    recordingItems.clear();for(const item of items)recordingItems.set(item.id,item);
-    list.innerHTML=(offline?'<p class="syn-recording-warning">暫時未能讀取帳戶錄音；以下先顯示此裝置的副本。</p>':'')+(items.length?items.map((item,index)=>{
+    const moduleItems=items.filter(item=>byId.has(item.question));
+    recordingItems.clear();for(const item of moduleItems)recordingItems.set(item.id,item);
+    list.innerHTML=(offline?'<p class="syn-recording-warning">暫時未能讀取帳戶錄音；以下先顯示此裝置的副本。</p>':'')+(moduleItems.length?moduleItems.map((item,index)=>{
       const q=byId.get(item.question),when=item.at?new Date(item.at).toLocaleString('zh-HK',{dateStyle:'medium',timeStyle:'short'}):'錄音';
       return '<article class="syn-recording-card"><span>REC '+String(index+1).padStart(2,'0')+'</span><div><h4>'+esc(q?.exercise.original||'朗讀記錄')+'</h4><p>'+esc(when)+' · '+(item.synced?'已儲存至帳戶':'只在此裝置')+'</p><div class="syn-recorder-actions"><button type="button" data-play-recording="'+esc(item.id)+'">'+icon('audio')+'播放錄音</button>'+(!item.synced?'<button type="button" data-upload-recording="'+esc(item.id)+'">重試上傳</button>':'')+'</div><audio controls hidden></audio><p role="status"></p></div></article>';
     }).join(''):'<p class="syn-empty-recordings">還沒有錄音。到練習題按「錄音朗讀」開始。</p>');
@@ -286,13 +311,13 @@ function syncSession() {
   recorderDispose?.();recorderDispose=null;recordingsEpoch++;
   for(const url of recordingUrls.splice(0))URL.revokeObjectURL(url);recordingItems.clear();
   stopVoice();for(const url of cloudAudio.values())URL.revokeObjectURL(url);cloudAudio.clear();
-  owner=next;token=snapshot?.token||null;streak=0;choice=null;pending.clear();view='home';
+  owner=next;token=snapshot?.token||null;streak=0;choice=null;pending=new Map();moduleStates.clear();moduleId='important';moduleData=importantModule;words=moduleData.words;questions=makeQuestions(moduleId,words);byId=new Map(questions.map(q=>[q.id,q]));total=questions.length;falseSynonyms=importantFalseSynonyms;view='home';
   if(owner){readLocal();saveState='loading';render();void loadAccount();}else{progress={answers:{},order:[],cursor:0};host.replaceChildren();}
 }
 window.addEventListener('edmund:learning-portal-session',syncSession);
 window.addEventListener('storage',event=>{if(owner&&event.key===progressKey()){readLocal();render();}});
 window.addEventListener('online',()=>{if(owner){if(pending.size)void syncPending();else void loadAccount();}});
-window.addEventListener('popstate',()=>{if(!owner)return;const hash=location.hash.slice(1);view=hash==='false-synonyms'?'false':['home','module','guide','question','finish','recordings'].includes(hash)?hash:'home';if(view==='question'&&!current())view='guide';render();});
+window.addEventListener('popstate',()=>{if(!owner)return;const hash=location.hash.slice(1);const social=hash.startsWith('social-media:');selectModule(social?'social-media':'important');const part=social?hash.slice(13):hash;view=part==='false-synonyms'?'false':['home','module','guide','question','finish','recordings','false'].includes(part)?part:'home';if(view==='question'&&!current())view='guide';render();});
 async function playRecording(button) {
   const item=recordingItems.get(button.dataset.playRecording),card=button.closest('.syn-recording-card'),status=card?.querySelector('[role="status"]'),player=card?.querySelector('audio');
   if(!item||!player)return;
@@ -313,7 +338,8 @@ async function retryRecording(button) {
 }
 host.addEventListener('click',event=>{
   const button=event.target.closest('button');if(!button)return;
-  if(button.dataset.go)go(button.dataset.go);
+  if(button.dataset.module){selectModule(button.dataset.module);go('module');}
+  else if(button.dataset.go)go(button.dataset.go);
   else if(button.hasAttribute('data-begin'))beginRound();
   else if(button.hasAttribute('data-new-round')){go('guide');beginRound(true);}
   else if(button.dataset.answer)answer(button.dataset.answer);
