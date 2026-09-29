@@ -721,15 +721,15 @@
       "title": "薯條當配菜",
       "family": "object",
       "styles": [
-        "reverse",
-        "detail",
-        "speak",
-        "final",
         "audio",
-        "repair"
+        "detail",
+        "repair",
+        "reverse",
+        "speak",
+        "final"
       ],
       "sourceSha256": "c4d6df91dd426ebcc11aa60282461519690feef432a53844b31dedd487bb0755",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 58,
@@ -737,14 +737,14 @@
       "title": "昨晚剩下的菜",
       "family": "object",
       "styles": [
-        "final",
-        "scene",
-        "speak",
         "audio",
-        "contrast"
+        "scene",
+        "contrast",
+        "speak",
+        "final"
       ],
       "sourceSha256": "81c29e544840fb2d23bfd5c1fba95457556d02c4ae95a0a96a289fd13d8d87b7",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 59,
@@ -752,15 +752,15 @@
       "title": "普通尺寸",
       "family": "object",
       "styles": [
-        "detail",
         "audio",
+        "detail",
         "transfer",
+        "repair",
         "reverse",
-        "final",
-        "repair"
+        "final"
       ],
       "sourceSha256": "42ad360e6bfd11223b0c45352a6b798fd06af0b79b2b6930e0ed61816c04c9c2",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 60,
@@ -769,13 +769,13 @@
       "family": "object",
       "styles": [
         "audio",
-        "transfer",
         "explain",
+        "scene",
         "reverse",
-        "scene"
+        "transfer"
       ],
       "sourceSha256": "8d7c5bbc65b1e5e71de09694dffbbafb98705fe424e6c059881663e08318e344",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 61,
