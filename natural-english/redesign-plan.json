@@ -425,15 +425,15 @@
       "title": "持續低沉嗡聲",
       "family": "condition",
       "styles": [
+        "audio",
+        "detail",
+        "contrast",
         "speak",
         "rewrite",
-        "detail",
-        "final",
-        "audio",
-        "contrast"
+        "final"
       ],
       "sourceSha256": "51ff909711085c7af8e99cbb6744b771fd05a165e32343b6970071815ea20b6f",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 37,
@@ -441,14 +441,14 @@
       "title": "回電",
       "family": "object",
       "styles": [
-        "speak",
         "scene",
-        "contrast",
         "audio",
+        "contrast",
+        "speak",
         "reverse"
       ],
       "sourceSha256": "4d546256cb856ffafedd40a894a2a0914af762afb88c7a295cad2e1bb70192ac",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 39,
@@ -456,15 +456,15 @@
       "title": "視訊畫面卡住",
       "family": "condition",
       "styles": [
-        "speak",
-        "final",
+        "audio",
         "scene",
         "contrast",
+        "speak",
         "rewrite",
-        "audio"
+        "final"
       ],
       "sourceSha256": "f538341b9d8573375c8205363b9bf2cb4809fb0df93d0c1965312530abd5de33",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 40,
@@ -472,15 +472,15 @@
       "title": "通話突然斷掉",
       "family": "condition",
       "styles": [
-        "final",
-        "rewrite",
         "audio",
         "explain",
         "repair",
-        "transfer"
+        "rewrite",
+        "transfer",
+        "final"
       ],
       "sourceSha256": "cadf8665246d9ccf87d748477961e7d1d71de2cc5b2a1be05569107dd03d9c5f",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 41,
