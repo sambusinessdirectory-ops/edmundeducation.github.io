@@ -1402,7 +1402,7 @@ function updateSeasideLesson(lesson) {
   if (elements.seasideLevel) {
     elements.seasideLevel.hidden = !isSeaside && !isAutumn;
     if (isSeaside) elements.seasideLevel.textContent = `LEVEL ${String(level).padStart(2, "0")} · CAPTAIN'S LOG`;
-    if (isAutumn) elements.seasideLevel.textContent = `LEVEL ${String(level).padStart(2, "0")} · WOODLAND FIELD GUIDE`;
+    if (isAutumn) elements.seasideLevel.textContent = `LEVEL ${String(level).padStart(2, "0")}`;
   }
 }
 
@@ -1458,7 +1458,7 @@ function updateLessonStepper() {
 
 function infoPageHeader(number, title, english, description = "") {
   const seasideLabels = ["CAPTAIN'S LOG", "LOOKOUT POINT", "IMPORTANT RULES"];
-  const autumnLabels = ["TRAILHEAD · DISCOVER", "SUNLIT CLEARING · UNDERSTAND", "RANGER NOTES · REMEMBER"];
+  const autumnLabels = ["FORMULA + EXAMPLE", "FOREST INSIGHTS", "IMPORTANT RULES"];
   const pageEnglish = elements.lessonShell?.classList.contains("sentence-autumn-lesson")
     ? autumnLabels[Number(number) - 1] || english
     : elements.lessonShell?.classList.contains("sentence-seaside-lesson")
@@ -1478,7 +1478,6 @@ function navHtml(page) {
 }
 
 function renderFormulaPage(lesson) {
-  const isAutumn = elements.lessonShell?.classList.contains("sentence-autumn-lesson");
   const formulaRows = Array.isArray(lesson.formulas) && lesson.formulas.length
     ? lesson.formulas
     : (Array.isArray(lesson.formula) ? lesson.formula : [lesson.formula]).map((formula) => ({ formula }));
@@ -1489,9 +1488,8 @@ function renderFormulaPage(lesson) {
   const meaningLines = (Array.isArray(rawMeaning) ? rawMeaning : rawMeaning ? [rawMeaning] : [])
     .filter((line) => String(line || "").trim());
   elements.lessonContent.innerHTML = `<article class="info-page seaside-formula-page">
-    ${infoPageHeader(1, isAutumn ? "公式與例句 · 小徑起點" : "公式＋例句", "FORMULA + EXAMPLE", "先掌握句型的固定骨架，再觀察完整例句。")}
+    ${infoPageHeader(1, "公式＋例句", "FORMULA + EXAMPLE", "先掌握句型的固定骨架，再觀察完整例句。")}
     <section class="formula-card">
-      ${isAutumn ? '<div class="autumn-field-scene" aria-hidden="true"><span>01 · THE TRAILHEAD</span><i></i></div>' : ""}
       <span class="formula-label">FORMULA · 句型公式</span>
       <div class="formula-display">${formulaRows.filter((row) => row?.formula || typeof row === "string").map((row) => {
         const formula = typeof row === "string" ? row : row.formula;
@@ -1526,8 +1524,7 @@ function renderBenefitsPage(lesson) {
   const benefits = Array.isArray(lesson.benefits) ? lesson.benefits : [];
   const isAutumn = elements.lessonShell?.classList.contains("sentence-autumn-lesson");
   elements.lessonContent.innerHTML = `<article class="info-page seaside-benefits-page">
-    ${infoPageHeader(2, isAutumn ? "沿途發現 · 學習好處" : "Benefits 學習好處", "WHY THIS STRUCTURE HELPS", "理解這個句型能為寫作帶來甚麼，練習時會更有方向。")}
-    ${isAutumn ? '<div class="autumn-clearing-scene" aria-hidden="true"><span>02 · A WALK THROUGH THE CLEARING</span></div>' : ""}
+    ${infoPageHeader(2, isAutumn ? "學習好處｜Benefits" : "Benefits 學習好處", "WHY THIS STRUCTURE HELPS", "理解這個句型能為寫作帶來甚麼，練習時會更有方向。")}
     <ol class="benefit-list">
       ${benefits.map((raw, index) => {
         const item = bilingualItem(raw);
@@ -1542,8 +1539,7 @@ function renderRulesPage(lesson) {
   const rules = Array.isArray(lesson.rules) ? lesson.rules : [];
   const isAutumn = elements.lessonShell?.classList.contains("sentence-autumn-lesson");
   elements.lessonContent.innerHTML = `<article class="info-page seaside-rules-page">
-    ${infoPageHeader(3, isAutumn ? "護林筆記 · 重要規則" : "Important Rules 重要規則", "IMPORTANT REMINDERS", "留意容易出錯的位置，特別是動詞形態、冠詞及題目已提供的資料。")}
-    ${isAutumn ? '<div class="autumn-ranger-scene" aria-hidden="true"><span>03 · FIELD NOTES</span></div>' : ""}
+    ${infoPageHeader(3, isAutumn ? "重要規則" : "Important Rules 重要規則", "IMPORTANT REMINDERS", "留意容易出錯的位置，特別是動詞形態、冠詞及題目已提供的資料。")}
     <ol class="rule-list">
       ${rules.map((raw, index) => {
         const item = bilingualItem(raw);
@@ -1885,19 +1881,15 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   const trophyProgress = sentenceTrophyState(lesson, [{lessonId: lesson.id, status: completed ? 'completed' : 'in_progress', totalCount: total, correctCount: correct, completedAt:state.exercise.completedAt, result: {correctIds: state.exercise.correctIds,rounds:state.exercise.rounds}}]);
   const trophyEarned = trophyProgress.earned;
   const trophyOrder = lessonList().findIndex(item => item.id === lesson.id) + 1;
-  const isAutumn = Number(lesson.order) >= 31 && Number(lesson.order) <= 60;
   elements.lessonContent.innerHTML = `<section class="exercise-page seaside-practice-page">
     <header class="exercise-header">
       <div class="exercise-header-top">
-        <div><p class="eyebrow">${isAutumn ? "PAGE 4 · WOODLAND TRAIL CHALLENGE" : "PAGE 4 · TYPE THE WHOLE SENTENCE"}</p><h2>${isAutumn ? "林間改寫挑戰" : "句子改寫練習"}</h2><p>輸入完整英文句子。部分提交只會檢查已輸入的題目；答對的題目不會重複出現。</p></div>
+        <div><p class="eyebrow">PAGE 4 · TYPE THE WHOLE SENTENCE</p><h2>句子改寫練習</h2><p>輸入完整英文句子。部分提交只會檢查已輸入的題目；答對的題目不會重複出現。</p></div>
       </div>
       <div class="exercise-progress" style="--progress:${percentage}%"><span></span></div>
       <div class="exercise-progress-label"><span>已完成 ${escapeHtml(correct)} / ${escapeHtml(total)} 題</span><span>尚餘 ${escapeHtml(remaining)} 題</span></div>
       ${Number(lesson.order) >= 1 && Number(lesson.order) <= 30 && total === 50 ? `<nav class="seaside-chapters" aria-label="練習題目分段">
         ${[0, 1, 2, 3, 4].map((chapter) => `<button type="button" data-seaside-chapter="${chapter}" aria-label="跳至第 ${chapter * 10 + 1} 至 ${chapter * 10 + 10} 題"><img src="assets/sentence-structure/seaside/chapter-${["shell", "conch", "rocks", "lighthouse", "wheel"][chapter]}.svg?v=2" alt="" aria-hidden="true"><strong>${chapter * 10 + 1}–${chapter * 10 + 10}</strong><small>${["海灣起點", "貝殼小橋", "岩石海岸", "燈塔步道", "遠航挑戰"][chapter]}</small></button>`).join("")}
-      </nav>` : ""}
-      ${isAutumn && total === 50 ? `<nav class="autumn-chapters" aria-label="林間練習分段">
-        ${[0, 1, 2, 3, 4].map((chapter) => `<button type="button" data-seaside-chapter="${chapter}" style="--trail-position:${chapter * 25}%" aria-label="跳至第 ${chapter * 10 + 1} 至 ${chapter * 10 + 10} 題"><span class="autumn-chapter-number">${chapter * 10 + 1}–${chapter * 10 + 10}</span><small>${["林間起步", "落葉小徑", "溪邊觀察", "木橋探索", "暖屋終點"][chapter]}</small></button>`).join("")}
       </nav>` : ""}
     </header>
 
@@ -1932,11 +1924,8 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     </div>` : ""}
 
     <div class="question-list ${sentenceJourneyEnabled(lesson) ? "has-sentence-journey" : ""}" id="sentence-structure-question-list" data-question-list>
-      ${displayQuestions.map((question, index) => {
-        const chapter = isAutumn && !state.exercise.correctionMode && total === 50 && index % 10 === 0
-          ? `<div class="autumn-trail-checkpoint" aria-hidden="true"><span>TRAIL ${String(Math.floor(index / 10) + 1).padStart(2, "0")}</span><strong>${["林間起步", "落葉小徑", "溪邊觀察", "木橋探索", "暖屋終點"][Math.floor(index / 10)]}</strong><small>${index + 1}–${Math.min(index + 10, total)} / ${total}</small></div>`
-          : "";
-        return chapter + questionHtml(question);
+      ${displayQuestions.map((question) => {
+        return questionHtml(question);
       }).join("")}
       ${sentenceJourneyEnabled(lesson) ? sentenceJourneyActorHtml() : ""}
     </div>

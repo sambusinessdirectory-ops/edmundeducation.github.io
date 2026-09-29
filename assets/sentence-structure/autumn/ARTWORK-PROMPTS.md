@@ -2,6 +2,14 @@
 
 Created 12 September 2026 for Sentence Structure lessons 31–60. The reference artwork establishes the visual style; lesson text and behaviour come from the existing application.
 
+## Lesson header panorama
+
+Use case: illustration-story. Asset type: wide responsive lesson header, no UI or text.
+
+Create a wide cinematic autumn storybook panorama for an educational grammar lesson. Follow the supplied references closely: luminous cream sky and quiet mountain haze on the left for readable lesson titles; a shallow stream and rustic wooden bridge through the centre; a warmly lit timber cabin among dense orange, copper, gold and evergreen trees on the upper right; and a small realistic-cute white rabbit seated near the lower-right edge. Use painterly, refined book-illustration detail, soft natural depth, warm late-afternoon light and an elegant composition. Keep the left 40 percent calm, pale and low contrast. Do not draw interface panels, labels, letters, numbers, paths, platforms, mascots other than the rabbit, or a decorative border. The picture must crop cleanly at wide desktop and narrow mobile ratios.
+
+Production asset: `lesson-header-v2.webp` (1944 × 809). The source PNG is intentionally omitted after WebP export.
+
 ## Background generation
 
 Use case: illustration-story. Asset type: production game environment background, no UI.
