@@ -28,6 +28,12 @@ The five rule tags use the same aged blank parchment memo shape and a different 
 
 The step marker is a circular carved wood slice with bark rim, fine gold trim, autumn forest scenery, a quiet blank center for the live 1–4 or completion check, and a tiny copper leaf on the rim. The exercise sign is a wide blank honey-oak board with a dark carved edge, natural grain, and two antique brass corner studs; its title, instructions and progress are live HTML. All these assets were created with ImageGen without embedded text or numbers. Keep the transparent backgrounds, and position text inside the clear areas at desktop and mobile widths.
 
+## Autumn exercise trail
+
+Use case: narrow transparent repeating route for the question-side Eddy journey. Production asset: `exercise-log-trail-v3.webp`, visually paired with the map's `stone.webp` log. The approved coastal route from the Eddy journey manual supplies the standard for tactile depth, varied fitted surfaces, subtle inset detail and careful alpha edges, but the autumn material is honey flagstone set into packed earth with moss, pebbles, tiny rust leaves and acorn caps. Prompt: “Create one production-ready vertical repeating road tile for a premium hand-painted autumn woodland educational game. Use the approved coastal road for winding continuous composition and material quality, and the autumn log platform for color and painterly style. Replace turquoise and shell masonry with irregular warm honey flagstones set into pale compacted earth, subtly mossy seams, shallow eroded edges, fine pebbles and small copper leaves near the outer edges. Keep the path quieter than the lesson text, clear under Eddy and the log numbers, fully within the transparent canvas, and visually continuous at the top and bottom. No platform, character, words, numbers or UI.”
+
+The final narrow WebP crop preserves alpha. Select top and bottom edges with matching path silhouette and foliage so the raster itself repeats continuously; render it as one CSS background. Review several consecutive joins at desktop and phone widths for clipping, visual dominance and hoof clearance before release.
+
 ## Background generation
 
 Use case: illustration-story. Asset type: production game environment background, no UI.
