@@ -1033,14 +1033,14 @@
       "title": "清倉商品",
       "family": "object",
       "styles": [
-        "reverse",
-        "contrast",
         "audio",
+        "contrast",
+        "reverse",
         "speak",
         "final"
       ],
       "sourceSha256": "552c3b4c519a0116b252130db6251e2d3f85b8de060a791a300bc7c0b7cba444",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 78,
@@ -1048,14 +1048,14 @@
       "title": "卡被拒絕",
       "family": "condition",
       "styles": [
-        "speak",
+        "audio",
         "contrast",
-        "final",
+        "speak",
         "rewrite",
-        "audio"
+        "final"
       ],
       "sourceSha256": "d3cf91459ffa111b8693a40638fb4e7b5d29d1b86c0db28fa334fcb85e57dda9",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 79,
@@ -1063,15 +1063,15 @@
       "title": "蚊子咬的包",
       "family": "object",
       "styles": [
-        "reverse",
         "audio",
-        "repair",
-        "final",
+        "contrast",
+        "reverse",
         "speak",
-        "contrast"
+        "repair",
+        "final"
       ],
       "sourceSha256": "1a03b5f0eb8c907233a116a8ca913da338a4035c9bbc2e05654d5f7156e6903e",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 80,
@@ -1079,14 +1079,14 @@
       "title": "嘴唇乾裂",
       "family": "object",
       "styles": [
-        "detail",
         "audio",
+        "detail",
         "transfer",
         "speak",
         "final"
       ],
       "sourceSha256": "1305f772a69dc66a53c215e9d2761271093ca155de603b7e449c74628b0eea26",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 81,
