@@ -628,14 +628,14 @@
       "title": "擦乾身體",
       "family": "object",
       "styles": [
-        "explain",
-        "final",
         "audio",
+        "explain",
+        "reverse",
         "speak",
-        "reverse"
+        "final"
       ],
       "sourceSha256": "d6dbf056588a2e30eec0bb97b9697601fc67735753732cb04fc98ed98a72971a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 52,
@@ -643,15 +643,15 @@
       "title": "「我先走了」",
       "family": "social",
       "styles": [
-        "tone",
         "audio",
+        "tone",
+        "branch",
         "speak",
         "transfer",
-        "branch",
         "rewrite"
       ],
       "sourceSha256": "66c01a624181d96805c7a14d10538d65ae8a3159676d86e480787bb7c04bcaf9",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 53,
@@ -659,15 +659,15 @@
       "title": "我要走了",
       "family": "action",
       "styles": [
-        "continue",
-        "detail",
         "audio",
+        "detail",
         "scene",
         "speak",
+        "continue",
         "transfer"
       ],
       "sourceSha256": "420212fa937157cbfc8f9098caae1d5cc885ed24548497851861f05fcb4fafe2",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 54,
@@ -675,14 +675,14 @@
       "title": "過來我家",
       "family": "object",
       "styles": [
-        "speak",
         "audio",
-        "final",
         "contrast",
-        "reverse"
+        "reverse",
+        "speak",
+        "final"
       ],
       "sourceSha256": "ae56eaa2da18cf6e1792736019a340d0e10f0fe19f27113017164a83c0af4965",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 55,
