@@ -690,15 +690,15 @@
       "title": "不要氣泡水，要普通水",
       "family": "object",
       "styles": [
-        "explain",
-        "reverse",
         "audio",
-        "repair",
         "contrast",
+        "explain",
+        "repair",
+        "reverse",
         "final"
       ],
       "sourceSha256": "46b3e7925df3a23e1036cb44b2e6554251bf1f39dee322f7f8419bfe3b03c6d2",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 56,
@@ -706,14 +706,14 @@
       "title": "普通咖啡，不要低咖啡因",
       "family": "object",
       "styles": [
-        "reverse",
+        "audio",
         "detail",
         "explain",
-        "final",
-        "audio"
+        "reverse",
+        "final"
       ],
       "sourceSha256": "6340a9104605c5883c36845addb0ff4f36811f4d3cd246c8d7063beec2d0be1b",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 57,
