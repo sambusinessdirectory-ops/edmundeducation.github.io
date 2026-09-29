@@ -51,8 +51,9 @@ async function main() {
       await page.evaluate((id) => window.autumnLessonTest.open(id), lessonId);
       await page.waitForSelector(".sentence-autumn-lesson .info-page");
       assert.equal(await page.locator(".lesson-stepper button").count(), 4, `${lessonId}: four learning stages`);
-      assert.match(await page.locator("[data-seaside-level]").innerText(), /^LEVEL (31|45|60)$/);
-      assert.match(await page.locator(".sentence-autumn-lesson").evaluate((node) => getComputedStyle(node, "::before").backgroundImage), /lesson-header-v2\.webp/);
+      assert.deepEqual(await page.locator(".lesson-stepper button strong").allInnerTexts(), ["發現 · Discover", "理解 · Understand", "記住 · Remember", "練習 · Practise"]);
+      assert.match(await page.locator("[data-seaside-level]").innerText(), /^LEVEL (31|45|60) · 森林漫步$/);
+      assert.match(await page.locator(".sentence-autumn-lesson").evaluate((node) => getComputedStyle(node, "::before").backgroundImage), /lesson-header-v4\.webp/);
 
       await page.evaluate(() => window.autumnLessonTest.page(1));
       await page.waitForSelector(".formula-display");

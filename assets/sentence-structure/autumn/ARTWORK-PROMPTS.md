@@ -8,7 +8,17 @@ Use case: illustration-story. Asset type: wide responsive lesson header, no UI o
 
 Create a wide cinematic autumn storybook panorama for an educational grammar lesson. Follow the supplied references closely: luminous cream sky and quiet mountain haze on the left for readable lesson titles; a shallow stream and rustic wooden bridge through the centre; a warmly lit timber cabin among dense orange, copper, gold and evergreen trees on the upper right; and a small realistic-cute white rabbit seated near the lower-right edge. Use painterly, refined book-illustration detail, soft natural depth, warm late-afternoon light and an elegant composition. Keep the left 40 percent calm, pale and low contrast. Do not draw interface panels, labels, letters, numbers, paths, platforms, mascots other than the rabbit, or a decorative border. The picture must crop cleanly at wide desktop and narrow mobile ratios.
 
-Production asset: `lesson-header-v2.webp` (1944 × 809). The source PNG is intentionally omitted after WebP export.
+Production asset: `lesson-header-v4.webp` (1944 × 809). A later image edit moved the small brown rabbit higher, onto a rock beside the cabin, so it stays visible in a shallow desktop header. The generated source PNG is intentionally omitted after WebP export.
+
+## Lesson ornaments
+
+Use case: isolated transparent storybook cutouts. Production assets: `maple-leaf.webp`, `acorn-leaves.webp`, and `botanical-branch.webp`.
+
+- Maple badge: one copper and burnt-orange maple leaf, seen flat from above, with natural veins and a short stem. Keep a clear central area for a CSS-rendered white number.
+- Row ending: two copper oak leaves, one muted golden leaf, a brown acorn, and fine twigs, arranged as a small horizontal ornament. Keep all objects fully visible and do not add a card or label.
+- Margin branch: a slim curved vertical twig with rust-orange, gold and olive leaves, red berries, one acorn and a tiny pinecone. Keep transparent space between elements so the branch can sit beside readable text.
+
+All ornaments are painted watercolor/gouache illustrations with real alpha transparency. CSS positions them as decoration; all lesson text and numbers remain DOM content.
 
 ## Background generation
 

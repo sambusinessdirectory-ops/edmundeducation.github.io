@@ -1402,8 +1402,27 @@ function updateSeasideLesson(lesson) {
   if (elements.seasideLevel) {
     elements.seasideLevel.hidden = !isSeaside && !isAutumn;
     if (isSeaside) elements.seasideLevel.textContent = `LEVEL ${String(level).padStart(2, "0")} · CAPTAIN'S LOG`;
-    if (isAutumn) elements.seasideLevel.textContent = `LEVEL ${String(level).padStart(2, "0")}`;
+    if (isAutumn) elements.seasideLevel.textContent = `LEVEL ${String(level).padStart(2, "0")} · 森林漫步`;
   }
+  const autumnStages = [
+    ["發現 · Discover", "Formula + Example"],
+    ["理解 · Understand", "Why it helps"],
+    ["記住 · Remember", "Important Rules"],
+    ["練習 · Practise", "Exercise"]
+  ];
+  const standardStages = [
+    ["公式＋例句", "Formula + Example"],
+    ["學習好處", "Benefits"],
+    ["重要規則", "Important Rules"],
+    ["句子練習", "Exercise"]
+  ];
+  elements.lessonStepper?.querySelectorAll("[data-step]").forEach((button, index) => {
+    const [title, subtitle] = (isAutumn ? autumnStages : standardStages)[index];
+    const titleNode = button.querySelector?.("strong");
+    const subtitleNode = button.querySelector?.("small");
+    if (titleNode) titleNode.textContent = title;
+    if (subtitleNode) subtitleNode.textContent = subtitle;
+  });
 }
 
 function setLessonPage(page) {
@@ -1528,7 +1547,7 @@ function renderBenefitsPage(lesson) {
     <ol class="benefit-list">
       ${benefits.map((raw, index) => {
         const item = bilingualItem(raw);
-        return `<li class="benefit-card"><span>${index + 1}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}</div></li>`;
+        return `<li class="benefit-card"><span>${String(index + 1).padStart(2, "0")}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}</div></li>`;
       }).join("")}
     </ol>
     ${navHtml(2)}
@@ -1543,7 +1562,7 @@ function renderRulesPage(lesson) {
     <ol class="rule-list">
       ${rules.map((raw, index) => {
         const item = bilingualItem(raw);
-        return `<li class="rule-card"><img class="seaside-anchor" src="assets/sentence-structure/seaside/anchor.svg" alt="" aria-hidden="true"><span>${index + 1}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}${item.examples.length ? `<div class="examples">${item.examples.map((example) => `<code>${escapeHtml(example)}</code>`).join("")}</div>` : ""}</div></li>`;
+        return `<li class="rule-card"><img class="seaside-anchor" src="assets/sentence-structure/seaside/anchor.svg" alt="" aria-hidden="true"><span>${String(index + 1).padStart(2, "0")}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}${item.examples.length ? `<div class="examples">${item.examples.map((example) => `<code>${escapeHtml(example)}</code>`).join("")}</div>` : ""}</div></li>`;
       }).join("")}
     </ol>
     ${navHtml(3)}

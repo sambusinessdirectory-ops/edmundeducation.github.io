@@ -50,9 +50,11 @@ Test fixtures use local accounts and block external services; they do not write 
 
 ## Lesson-page reference design
 
-Levels 31–60 use `sentence-structure-autumn-reference.css` and `lesson-header-v2.webp` for all four teaching stages. The retired `sentence-structure-autumn-lessons.css` design is not loaded and must not be restored.
+Levels 31–60 use `sentence-structure-autumn-reference.css` and `lesson-header-v4.webp` for all four teaching stages. The retired `sentence-structure-autumn-lessons.css` design is not loaded and must not be restored.
 
 Keep one visual grammar across the lesson: the generated cabin panorama forms the header; the four-step navigation uses warm paper cards; the body is a ring-bound cream parchment sheet; copper, olive and gold leaves provide restrained accents; dark navy remains the primary teaching text; orange marks the current stage; and deep forest green is reserved for forward actions. Formula, benefit and rule content remain real DOM text. Exercise cards keep the existing inputs, answer checks, recording controls, bookmarks, progress, persistence and Eddy journey behavior.
+
+The detailed treatment uses an edited brown rabbit in the header, an illustrated maple leaf behind each benefit number, oak leaves and an acorn at row ends, a rope-like divider, metal rings on the binding, botanical branches along the paper margins, warm wood around the parchment, and a two-line green next-page button. Decoration must never overlap a lesson title, answer input, bookmark control, or feedback. Keep the real question text and answer state separate from these images.
 
 The four stages have distinct content layouts inside the same shell: formula and examples use a large framed formula block; benefits use numbered horizontal rows; important rules use numbered parchment strips; and exercises use ruled-paper question cards. Never reintroduce decorative scene cards, checkpoint banners, or a second lesson trail within these pages.
 
