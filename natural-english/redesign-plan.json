@@ -302,15 +302,15 @@
       "title": "鼻塞",
       "family": "condition",
       "styles": [
-        "speak",
         "detail",
-        "contrast",
         "audio",
-        "final",
-        "rewrite"
+        "contrast",
+        "rewrite",
+        "speak",
+        "final"
       ],
       "sourceSha256": "9a83ceec5f0ee2a8e0702b53d7825d2addeff0b9f82420514a658040188e2854",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 29,
@@ -318,14 +318,14 @@
       "title": "可以試穿嗎？",
       "family": "request",
       "styles": [
-        "speak",
+        "reverse",
         "tone",
         "audio",
         "branch",
-        "reverse"
+        "speak"
       ],
       "sourceSha256": "a1d85dcfeb35f14f8bab1a5ee996547338ed3693d9e28245b25efe9cd42d6070",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 30,
@@ -333,14 +333,14 @@
       "title": "有點緊",
       "family": "action",
       "styles": [
+        "scene",
         "audio",
         "explain",
-        "scene",
         "speak",
         "final"
       ],
       "sourceSha256": "28420fe0c45fdbc08ea8206bdd23e27b7cd2d18e8f028900569c40c4042006d6",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 31,
