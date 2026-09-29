@@ -68,9 +68,10 @@ export function mountSentenceJourney(root) {
   let stop = stopFor(list, activeQuestionId);
   if (!stop) stop = list.querySelector("[data-eddy-stop]:not([data-stop-status='correct'])") || list.querySelector("[data-eddy-stop]");
   if (!stop) return;
+  const keepsStablePosition = actor.dataset.positioned === "true" && stop.dataset.eddyStop === activeQuestionId;
   activeQuestionId = stop.dataset.eddyStop || "";
   stop.dataset.eddyActive = "true";
-  placeActor(list, actor, stop, false);
+  if (!keepsStablePosition) placeActor(list, actor, stop, false);
   scheduleStablePosition(list, actor);
   positionObserver?.disconnect();
   positionObserver = typeof ResizeObserver === "function"
@@ -106,7 +107,8 @@ export function moveSentenceJourney(root, questionId, { announce = true } = {}) 
 export function reactSentenceJourney(root, { questionId, correct }) {
   const { actor, status, list } = journeyElements(root);
   if (!actor || !list) return;
-  const travel = moveSentenceJourney(root, questionId, { announce: false });
+  const alreadyOnPlatform = actor.dataset.positioned === "true" && activeQuestionId === String(questionId);
+  const travel = alreadyOnPlatform ? 0 : moveSentenceJourney(root, questionId, { announce: false });
   clearTimeout(reactionTimer);
   reactionTimer = setTimeout(() => {
     if (!actor.isConnected) return;

@@ -118,6 +118,16 @@ window.journeyTest = {
   await twelfthInput.focus();
   await page.waitForTimeout(80);
   const beforeGradeTop = await twelfthStop.evaluate((node) => node.getBoundingClientRect().top);
+  const beforeGradeGeometry = await page.evaluate(() => {
+    const list = document.querySelector('[data-question-list]');
+    const actor = document.querySelector('[data-sentence-journey-eddy]');
+    const platform = document.querySelector('[data-eddy-active=true] .sentence-journey-platform');
+    return {
+      actorTop: Number.parseFloat(actor.style.top),
+      actorHeight: actor.offsetHeight,
+      platformTop: platform.getBoundingClientRect().top - list.getBoundingClientRect().top
+    };
+  });
   await twelfthInput.fill(await page.evaluate(() => journeyTest.getLesson().questions[11].answer));
   const gradingFrames = await page.evaluate(() => {
     const originalActor = document.querySelector('[data-sentence-journey-eddy]');
@@ -128,9 +138,12 @@ window.journeyTest = {
         const currentActor = document.querySelector('[data-sentence-journey-eddy]');
         const actorBox = currentActor.getBoundingClientRect();
         const platformBox = document.querySelector('[data-eddy-active=true] .sentence-journey-platform').getBoundingClientRect();
+        const listBox = document.querySelector('[data-question-list]').getBoundingClientRect();
         frames.push({
           sameActor: currentActor === originalActor,
           styledTop: Number.parseFloat(currentActor.style.top),
+          actorHeight: currentActor.offsetHeight,
+          platformTop: platformBox.top - listBox.top,
           feetGap: Math.abs((actorBox.bottom - actorBox.height * .1) - (platformBox.top + platformBox.height * .48)),
           visibility: getComputedStyle(currentActor).visibility,
           platformCount: document.querySelectorAll('.sentence-journey-platform').length,
@@ -144,6 +157,8 @@ window.journeyTest = {
   });
   assert.ok(gradingFrames.every((frame) => frame.sameActor), 'Grading preserves the same Eddy element without a replacement-frame flash');
   assert.ok(gradingFrames.every((frame) => frame.styledTop > 1000), 'Eddy never flashes back to the start of the route while grading');
+  assert.ok(gradingFrames.every((frame) => Math.abs(frame.styledTop - beforeGradeGeometry.actorTop) < 1), `Card expansion never changes Eddy’s route coordinate: ${JSON.stringify({ beforeGradeGeometry, gradingFrames })}`);
+  assert.ok(gradingFrames.every((frame) => Math.abs(frame.platformTop - beforeGradeGeometry.platformTop) < 1), 'Card expansion never changes the active platform coordinate');
   assert.ok(gradingFrames.every((frame) => frame.feetGap < 4), `Eddy remains planted on the active platform throughout the grading rerender: ${JSON.stringify(gradingFrames)}`);
   assert.ok(gradingFrames.every((frame) => frame.visibility === 'visible'), 'Eddy is visible only after a final platform position is applied');
   assert.ok(gradingFrames.every((frame) => frame.platformCount === 50 && frame.paintedPlatforms === 50), 'All fifty CSS-painted platforms remain visible throughout grading');
