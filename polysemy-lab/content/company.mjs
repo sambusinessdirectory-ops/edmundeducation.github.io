@@ -2,656 +2,632 @@ export default {
   "id": "company",
   "word": "company",
   "number": 41,
-  "version": 1,
+  "version": 2,
   "senses": [
     {
-      "id": "company-01",
-      "title": "公司；企業",
-      "form": "company = business organization（商業機構）",
-      "en": "An organization that sells goods or services, employs people, and carries out business activities.",
-      "zh": "公司；企業",
-      "note": "留意語境：company = business organization（商業機構）。這裡指「公司；企業」。",
+      "id": "company-mcq-01",
+      "title": "從事商業或專業活動、僱用員工並提供產品／服務的企業組織",
+      "form": "company — business organization",
+      "en": "company — business organization",
+      "zh": "從事商業或專業活動、僱用員工並提供產品／服務的企業組織",
+      "note": "來源詞義：從事商業或專業活動、僱用員工並提供產品／服務的企業組織",
       "examples": [
         [
           "I gave a formal presentation at a company event.",
           "我在一個公司活動上作正式簡報。",
-          "公司；企業"
+          "從事商業或專業活動、僱用員工並提供產品／服務的企業組織"
         ],
         [
           "She works for an international technology company.",
           "她在一家國際科技公司工作。",
-          "公司；企業"
+          "從事商業或專業活動、僱用員工並提供產品／服務的企業組織"
         ],
         [
           "The company employs more than five thousand people.",
           "這家公司僱用了五千多名員工。",
-          "公司；企業"
+          "從事商業或專業活動、僱用員工並提供產品／服務的企業組織"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-02",
-      "title": "公司的；企業內部的",
-      "form": "company + noun（公司相關）",
-      "en": "company + noun（公司相關）",
-      "zh": "公司的；企業內部的",
-      "note": "留意語境：company + noun（公司相關）。這裡指「公司的；企業內部的」。",
+      "id": "company-mcq-02",
+      "title": "表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關",
+      "form": "company + noun",
+      "en": "company + noun",
+      "zh": "表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關",
+      "note": "來源詞義：表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關",
       "examples": [
         [
           "We discussed the new company policy.",
           "我們討論了新的公司政策。",
-          "公司的；企業內部的"
+          "表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關"
         ],
         [
           "The presentation took place at a company event.",
           "簡報在一個公司活動上進行。",
-          "公司的；企業內部的"
+          "表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-03",
-      "title": "該公司；公司方面",
-      "form": "company = particular business entity（特定企業）",
-      "en": "particular business entity（特定企業）",
-      "zh": "該公司；公司方面",
-      "note": "留意語境：company = particular business entity（特定企業）。這裡指「該公司；公司方面」。",
+      "id": "company-mcq-03",
+      "title": "語境中已知的企業機構及代表該機構行動的公司方面",
+      "form": "the company — organization collectively",
+      "en": "the company — organization collectively",
+      "zh": "語境中已知的企業機構及代表該機構行動的公司方面",
+      "note": "來源詞義：語境中已知的企業機構及代表該機構行動的公司方面",
       "examples": [
         [
           "The company announced a new strategy.",
           "公司方面公布了一項新策略。",
-          "該公司；公司方面"
+          "語境中已知的企業機構及代表該機構行動的公司方面"
         ],
         [
           "The company plans to hire more staff next year.",
           "該公司計劃明年增聘員工。",
-          "該公司；公司方面"
+          "語境中已知的企業機構及代表該機構行動的公司方面"
         ],
         [
           "The company welcomed the visitors at the entrance.",
           "公司方面／公司人員在入口迎接訪客。",
-          "該公司；公司方面"
+          "語境中已知的企業機構及代表該機構行動的公司方面"
         ],
         [
           "The company thanked employees for their hard work.",
           "公司方面感謝員工的辛勤工作。",
-          "該公司；公司方面"
+          "語境中已知的企業機構及代表該機構行動的公司方面"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-04",
-      "title": "陪伴；有人作伴",
-      "form": "company = companionship / being with other people（陪伴）",
-      "en": "The state of being with another person or other people, especially so that someone is not alone.",
-      "zh": "陪伴；有人作伴",
-      "note": "留意語境：company = companionship / being with other people（陪伴）。這裡指「陪伴；有人作伴」。",
+      "id": "company-mcq-04",
+      "title": "與另一個人／其他人在一起、有人作伴而不獨處的狀態",
+      "form": "company — companionship",
+      "en": "company — companionship",
+      "zh": "與另一個人／其他人在一起、有人作伴而不獨處的狀態",
+      "note": "來源詞義：與另一個人／其他人在一起、有人作伴而不獨處的狀態",
       "examples": [
         [
           "I was glad to have some company on the long journey.",
           "漫長旅程中有人陪伴／作伴，我很高興。",
-          "陪伴；有人作伴"
+          "與另一個人／其他人在一起、有人作伴而不獨處的狀態"
         ],
         [
           "She enjoys his company.",
           "她很享受和他相處／有他陪伴。",
-          "陪伴；有人作伴"
+          "與另一個人／其他人在一起、有人作伴而不獨處的狀態"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-05",
-      "title": "喜歡某人的陪伴",
-      "form": "enjoy someone’s company（喜歡和某人相處）",
-      "en": "enjoy someone’s company（喜歡和某人相處）",
-      "zh": "喜歡某人的陪伴",
-      "note": "留意語境：enjoy someone’s company（喜歡和某人相處）。這裡指「喜歡某人的陪伴」。",
+      "id": "company-mcq-05",
+      "title": "覺得跟某人相處愉快、舒服或有趣",
+      "form": "enjoy someone’s company",
+      "en": "enjoy someone’s company",
+      "zh": "覺得跟某人相處愉快、舒服或有趣",
+      "note": "來源詞義：覺得跟某人相處愉快、舒服或有趣",
       "examples": [
         [
           "I really enjoy her company.",
           "我真的很喜歡跟她相處／享受她的陪伴。",
-          "喜歡某人的陪伴"
+          "覺得跟某人相處愉快、舒服或有趣"
         ],
         [
           "He is quiet, but I always enjoy his company.",
           "他雖然很安靜，但我一直都很喜歡和他相處。",
-          "喜歡某人的陪伴"
+          "覺得跟某人相處愉快、舒服或有趣"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-06",
-      "title": "陪某人；給某人作伴",
-      "form": "keep someone company（陪伴某人）",
-      "en": "keep someone company（陪伴某人）",
-      "zh": "陪某人；給某人作伴",
-      "note": "留意語境：keep someone company（陪伴某人）。這裡指「陪某人；給某人作伴」。",
+      "id": "company-mcq-06",
+      "title": "留在某人身邊陪伴對方，使對方不用獨處",
+      "form": "keep someone company",
+      "en": "keep someone company",
+      "zh": "留在某人身邊陪伴對方，使對方不用獨處",
+      "note": "來源詞義：留在某人身邊陪伴對方，使對方不用獨處",
       "examples": [
         [
           "I stayed to keep her company while she waited.",
           "她等候期間，我留下來陪她／給她作伴。",
-          "陪某人；給某人作伴"
+          "留在某人身邊陪伴對方，使對方不用獨處"
         ],
         [
           "Would you like me to keep you company?",
           "你想不想我陪你一下／給你作伴？",
-          "陪某人；給某人作伴"
+          "留在某人身邊陪伴對方，使對方不用獨處"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-07",
-      "title": "有客人；有人來訪",
-      "form": "have company（有客人／有人陪伴）",
-      "en": "have company（有客人／有人陪伴）",
-      "zh": "有客人；有人來訪",
-      "note": "留意語境：have company（有客人／有人陪伴）。這裡指「有客人；有人來訪」。",
+      "id": "company-mcq-07",
+      "title": "有訪客、朋友或親友到來作客／陪伴",
+      "form": "have company",
+      "en": "have company",
+      "zh": "有訪客、朋友或親友到來作客／陪伴",
+      "note": "來源詞義：有訪客、朋友或親友到來作客／陪伴",
       "examples": [
         [
           "We can’t go out tonight because we’re having company.",
           "我們今晚不能出去，因為有客人來。",
-          "有客人；有人來訪"
+          "有訪客、朋友或親友到來作客／陪伴"
         ],
         [
           "I didn’t realize you had company.",
           "我不知道你有客人在／有人來訪。",
-          "有客人；有人來訪"
+          "有訪客、朋友或親友到來作客／陪伴"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-08",
-      "title": "訪客；客人",
-      "form": "company = visitors/guests collectively（客人）",
-      "en": "visitors/guests collectively（客人）",
-      "zh": "訪客；客人",
-      "note": "留意語境：company = visitors/guests collectively（客人）。這裡指「訪客；客人」。",
+      "id": "company-mcq-08",
+      "title": "到某人家中探訪、作客或一起相處的人",
+      "form": "company — visitors",
+      "en": "company — visitors",
+      "zh": "到某人家中探訪、作客或一起相處的人",
+      "note": "來源詞義：到某人家中探訪、作客或一起相處的人",
       "examples": [
         [
           "We’re expecting company this evening.",
           "我們今晚預計有客人來訪。",
-          "訪客；客人"
+          "到某人家中探訪、作客或一起相處的人"
         ],
         [
           "The house was full of company all weekend.",
           "整個週末屋裡都有很多來訪的親友／客人。",
-          "訪客；客人"
+          "到某人家中探訪、作客或一起相處的人"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-09",
-      "title": "與某人一起；在某人陪同下",
-      "form": "in someone’s company（與某人在一起）",
-      "en": "in someone’s company（與某人在一起）",
-      "zh": "與某人一起；在某人陪同下",
-      "note": "留意語境：in someone’s company（與某人在一起）。這裡指「與某人一起；在某人陪同下」。",
+      "id": "company-mcq-09",
+      "title": "與某人一起、處於某人的陪伴之中",
+      "form": "in someone’s company",
+      "en": "in someone’s company",
+      "zh": "與某人一起、處於某人的陪伴之中",
+      "note": "來源詞義：與某人一起、處於某人的陪伴之中",
       "examples": [
         [
           "She felt relaxed in the company of close friends.",
           "她跟親密朋友在一起時感到很放鬆。",
-          "與某人一起；在某人陪同下"
+          "與某人一起、處於某人的陪伴之中"
         ],
         [
           "He seemed nervous in the company of senior managers.",
           "他跟高層經理相處／同處一個場合時顯得很緊張。",
-          "與某人一起；在某人陪同下"
-        ]
-      ],
-      "options": [],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "company-10",
-      "title": "在有人陪同的情況下",
-      "form": "in company（有人在場／與別人一起）",
-      "en": "in company（有人在場／與別人一起）",
-      "zh": "在有人陪同的情況下",
-      "note": "留意語境：in company（有人在場／與別人一起）。這裡指「在有人陪同的情況下」。",
-      "examples": [
+          "與某人一起、處於某人的陪伴之中"
+        ],
         [
           "He behaves differently when he is in company.",
           "他有其他人在場時的表現會不同。",
-          "在有人陪同的情況下"
+          "與某人一起、處於某人的陪伴之中"
         ],
         [
           "She rarely drinks when in company.",
           "她和別人在一起時很少喝酒。",
-          "在有人陪同的情況下"
+          "與某人一起、處於某人的陪伴之中"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-11",
-      "title": "交往圈子；同伴",
-      "form": "company = people someone regularly associates with（交往的人）",
-      "en": "people someone regularly associates with（交往的人）",
-      "zh": "交往圈子；同伴",
-      "note": "留意語境：company = people someone regularly associates with（交往的人）。這裡指「交往圈子；同伴」。",
+      "id": "company-mcq-10",
+      "title": "某人平日經常相處、來往或結交的一群人",
+      "form": "company someone keeps",
+      "en": "company someone keeps",
+      "zh": "某人平日經常相處、來往或結交的一群人",
+      "note": "來源詞義：某人平日經常相處、來往或結交的一群人",
       "examples": [
         [
           "His parents worried about the company he kept.",
           "他的父母擔心他平日交往的朋友／圈子。",
-          "交往圈子；同伴"
+          "某人平日經常相處、來往或結交的一群人"
         ],
         [
           "Young people can be influenced by the company they keep.",
           "年輕人可能會受到自己交往圈子／朋友群的影響。",
-          "交往圈子；同伴"
+          "某人平日經常相處、來往或結交的一群人"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-12",
-      "title": "好／壞的朋友或交往圈子",
-      "form": "good/bad company（交往對象）",
-      "en": "good/bad company（交往對象）",
-      "zh": "好／壞的朋友或交往圈子",
-      "note": "留意語境：good/bad company（交往對象）。這裡指「好／壞的朋友或交往圈子」。",
+      "id": "company-mcq-11",
+      "title": "可能對某人產生不良影響的朋友或交往對象",
+      "form": "bad company",
+      "en": "bad company",
+      "zh": "可能對某人產生不良影響的朋友或交往對象",
+      "note": "來源詞義：可能對某人產生不良影響的朋友或交往對象",
       "examples": [
         [
           "His parents thought some of his friends were bad company.",
           "他的父母認為他有些朋友是不良的交往對象。",
-          "好／壞的朋友或交往圈子"
+          "可能對某人產生不良影響的朋友或交往對象"
         ],
         [
           "She is excellent company on a long journey.",
           "長途旅程中她是一個很好的旅伴／很好相處的人。",
-          "好／壞的朋友或交往圈子"
+          "可能對某人產生不良影響的朋友或交往對象"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-13",
-      "title": "是很好的伴；相處愉快",
-      "form": "someone is good company（某人很好相處）",
-      "en": "someone is good company（某人很好相處）",
-      "zh": "是很好的伴；相處愉快",
-      "note": "留意語境：someone is good company（某人很好相處）。這裡指「是很好的伴；相處愉快」。",
+      "id": "company-mcq-12",
+      "title": "跟別人相處時令人感到愉快、有趣或舒服",
+      "form": "be good company",
+      "en": "be good company",
+      "zh": "跟別人相處時令人感到愉快、有趣或舒服",
+      "note": "來源詞義：跟別人相處時令人感到愉快、有趣或舒服",
       "examples": [
         [
           "He tells great stories and is always good company.",
           "他很會說故事，而且一直都是個很好相處、很適合作伴的人。",
-          "是很好的伴；相處愉快"
+          "跟別人相處時令人感到愉快、有趣或舒服"
         ],
         [
           "She was excellent company during the trip.",
           "旅途中她是一位非常好的旅伴／相處很愉快的人。",
-          "是很好的伴；相處愉快"
+          "跟別人相處時令人感到愉快、有趣或舒服"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-14",
-      "title": "跟某人來往；結交",
-      "form": "keep company with someone（與某人交往）",
-      "en": "keep company with someone（與某人交往）",
-      "zh": "跟某人來往；結交",
-      "note": "留意語境：keep company with someone（與某人交往）。這裡指「跟某人來往；結交」。",
+      "id": "company-mcq-13",
+      "title": "經常與某人交往或相處；較傳統／正式",
+      "form": "keep company with",
+      "en": "keep company with",
+      "zh": "經常與某人交往或相處；較傳統／正式",
+      "note": "來源詞義：經常與某人交往或相處；較傳統／正式",
       "examples": [
         [
           "He began to keep company with a group of artists.",
           "他開始跟一群藝術家來往。",
-          "跟某人來往；結交"
+          "經常與某人交往或相處；較傳統／正式"
         ],
         [
           "People judged him by the people he kept company with.",
           "別人會根據他平日跟甚麼人來往來評價他。",
-          "跟某人來往；結交"
+          "經常與某人交往或相處；較傳統／正式"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-15",
-      "title": "一行人；同行者",
-      "form": "company = group of people together（同伴／一群人）",
-      "en": "group of people together（同伴／一群人）",
-      "zh": "一行人；同行者",
-      "note": "留意語境：company = group of people together（同伴／一群人）。這裡指「一行人；同行者」。",
+      "id": "company-mcq-14",
+      "title": "為共同活動、旅程或目的聚在一起的一群人",
+      "form": "a company of people",
+      "en": "a company of people",
+      "zh": "為共同活動、旅程或目的聚在一起的一群人",
+      "note": "來源詞義：為共同活動、旅程或目的聚在一起的一群人",
       "examples": [
         [
           "A small company of travellers entered the village.",
           "一小群旅人／同行者進入村莊。",
-          "一行人；同行者"
+          "為共同活動、旅程或目的聚在一起的一群人"
         ],
         [
           "He joined a company of friends for dinner.",
           "他加入了一群朋友一起吃晚飯。",
-          "一行人；同行者"
+          "為共同活動、旅程或目的聚在一起的一群人"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-16",
-      "title": "劇團；演藝團體",
-      "form": "company = theatre/acting group（劇團）",
-      "en": "theatre/acting group（劇團）",
-      "zh": "劇團；演藝團體",
-      "note": "留意語境：company = theatre/acting group（劇團）。這裡指「劇團；演藝團體」。",
+      "id": "company-mcq-15",
+      "title": "由演員、導演等共同製作舞台演出的專業劇團",
+      "form": "theatre company",
+      "en": "theatre company",
+      "zh": "由演員、導演等共同製作舞台演出的專業劇團",
+      "note": "來源詞義：由演員、導演等共同製作舞台演出的專業劇團",
       "examples": [
         [
           "She joined a professional theatre company.",
           "她加入了一個專業劇團。",
-          "劇團；演藝團體"
+          "由演員、導演等共同製作舞台演出的專業劇團"
         ],
         [
           "The company is performing Shakespeare this season.",
           "這個劇團今季正在演出莎士比亞作品。",
-          "劇團；演藝團體"
+          "由演員、導演等共同製作舞台演出的專業劇團"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-17",
-      "title": "舞蹈團體；舞團",
-      "form": "dance company（舞團）",
-      "en": "dance company（舞團）",
-      "zh": "舞蹈團體；舞團",
-      "note": "留意語境：dance company（舞團）。這裡指「舞蹈團體；舞團」。",
+      "id": "company-mcq-16",
+      "title": "由專業舞蹈員及相關製作人員組成的舞團",
+      "form": "dance company",
+      "en": "dance company",
+      "zh": "由專業舞蹈員及相關製作人員組成的舞團",
+      "note": "來源詞義：由專業舞蹈員及相關製作人員組成的舞團",
       "examples": [
         [
           "She performs with an international dance company.",
           "她在一個國際舞團表演。",
-          "舞蹈團體；舞團"
+          "由專業舞蹈員及相關製作人員組成的舞團"
         ],
         [
           "The dance company toured Europe last year.",
           "這個舞團去年在歐洲巡演。",
-          "舞蹈團體；舞團"
+          "由專業舞蹈員及相關製作人員組成的舞團"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-18",
-      "title": "專業表演團體",
-      "form": "opera/ballet company（歌劇團／芭蕾舞團）",
-      "en": "opera/ballet company（歌劇團／芭蕾舞團）",
-      "zh": "專業表演團體",
-      "note": "留意語境：opera/ballet company（歌劇團／芭蕾舞團）。這裡指「專業表演團體」。",
+      "id": "company-mcq-17",
+      "title": "共同製作歌劇／芭蕾舞演出的固定專業團體",
+      "form": "opera/ballet company",
+      "en": "opera/ballet company",
+      "zh": "共同製作歌劇／芭蕾舞演出的固定專業團體",
+      "note": "來源詞義：共同製作歌劇／芭蕾舞演出的固定專業團體",
       "examples": [
         [
           "He works for a national opera company.",
           "他在一家國家級歌劇團工作。",
-          "專業表演團體"
+          "共同製作歌劇／芭蕾舞演出的固定專業團體"
         ],
         [
           "The ballet company has dancers from twelve countries.",
           "這個芭蕾舞團有來自十二個國家的舞蹈員。",
-          "專業表演團體"
+          "共同製作歌劇／芭蕾舞演出的固定專業團體"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-19",
-      "title": "連；連隊",
-      "form": "company = military unit（軍事單位）",
-      "en": "military unit（軍事單位）",
-      "zh": "連；連隊",
-      "note": "留意語境：company = military unit（軍事單位）。這裡指「連；連隊」。",
+      "id": "company-mcq-18",
+      "title": "軍隊中的一個編制單位；連／連隊",
+      "form": "military company",
+      "en": "military company",
+      "zh": "軍隊中的一個編制單位；連／連隊",
+      "note": "來源詞義：軍隊中的一個編制單位；連／連隊",
       "examples": [
         [
           "He commanded a company of soldiers.",
           "他指揮一個連的士兵／連隊。",
-          "連；連隊"
+          "軍隊中的一個編制單位；連／連隊"
         ],
         [
           "The company moved into position before dawn.",
           "該連隊在黎明前移動到指定位置。",
-          "連；連隊"
+          "軍隊中的一個編制單位；連／連隊"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-20",
-      "title": "軍事單位指揮官",
-      "form": "company commander（連長）",
-      "en": "company commander（連長）",
-      "zh": "軍事單位指揮官",
-      "note": "留意語境：company commander（連長）。這裡指「軍事單位指揮官」。",
+      "id": "company-mcq-19",
+      "title": "負責指揮一個軍事連隊的軍官；連長",
+      "form": "company commander",
+      "en": "company commander",
+      "zh": "負責指揮一個軍事連隊的軍官；連長",
+      "note": "來源詞義：負責指揮一個軍事連隊的軍官；連長",
       "examples": [
         [
           "The company commander briefed the soldiers.",
           "連長向士兵作出簡報。",
-          "軍事單位指揮官"
+          "負責指揮一個軍事連隊的軍官；連長"
         ],
         [
           "She served as a company commander.",
           "她曾擔任連長。",
-          "軍事單位指揮官"
+          "負責指揮一個軍事連隊的軍官；連長"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-21",
-      "title": "分別；分道揚鑣",
-      "form": "part company（分開；分道揚鑣）",
-      "en": "part company（分開；分道揚鑣）",
-      "zh": "分別；分道揚鑣",
-      "note": "留意語境：part company（分開；分道揚鑣）。這裡指「分別；分道揚鑣」。",
+      "id": "company-mcq-20",
+      "title": "原本一起或合作的人／組織分開、不再共同前進或合作",
+      "form": "part company — separate",
+      "en": "part company — separate",
+      "zh": "原本一起或合作的人／組織分開、不再共同前進或合作",
+      "note": "來源詞義：原本一起或合作的人／組織分開、不再共同前進或合作",
       "examples": [
         [
           "We parted company after dinner.",
           "晚飯後我們便分開，各自離去。",
-          "分別；分道揚鑣"
+          "原本一起或合作的人／組織分開、不再共同前進或合作"
         ],
         [
           "The two business partners eventually parted company.",
           "兩名生意伙伴最後分道揚鑣，不再合作。",
-          "分別；分道揚鑣"
+          "原本一起或合作的人／組織分開、不再共同前進或合作"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-22",
-      "title": "與某人在某問題上意見不同",
-      "form": "part company with someone over something（意見分歧）",
-      "en": "part company with someone over something（意見分歧）",
-      "zh": "與某人在某問題上意見不同",
-      "note": "留意語境：part company with someone over something（意見分歧）。這裡指「與某人在某問題上意見不同」。",
+      "id": "company-mcq-21",
+      "title": "在某項觀點、判斷或原則上不再與另一人持相同立場",
+      "form": "part company — disagree",
+      "en": "part company — disagree",
+      "zh": "在某項觀點、判斷或原則上不再與另一人持相同立場",
+      "note": "來源詞義：在某項觀點、判斷或原則上不再與另一人持相同立場",
       "examples": [
         [
           "I agree with most of his argument, but I part company with him on this point.",
           "我同意他的大部分論點，但在這一點上我跟他的看法不同。",
-          "與某人在某問題上意見不同"
+          "在某項觀點、判斷或原則上不再與另一人持相同立場"
         ],
         [
           "The two researchers part company over how the results should be interpreted.",
           "兩位研究人員對結果應如何解讀意見出現分歧。",
-          "與某人在某問題上意見不同"
+          "在某項觀點、判斷或原則上不再與另一人持相同立場"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-23",
-      "title": "全公司範圍的",
-      "form": "company-wide（全公司的）",
-      "en": "company-wide（全公司的）",
-      "zh": "全公司範圍的",
-      "note": "留意語境：company-wide（全公司的）。這裡指「全公司範圍的」。",
+      "id": "company-mcq-22",
+      "title": "涉及或適用於整家公司所有部門或員工的",
+      "form": "company-wide",
+      "en": "company-wide",
+      "zh": "涉及或適用於整家公司所有部門或員工的",
+      "note": "來源詞義：涉及或適用於整家公司所有部門或員工的",
       "examples": [
         [
           "The new policy will be introduced company-wide.",
           "新政策會在全公司範圍內推行。",
-          "全公司範圍的"
+          "涉及或適用於整家公司所有部門或員工的"
         ],
         [
           "The organization held a company-wide meeting.",
           "該機構舉行了一次全公司會議。",
-          "全公司範圍的"
+          "涉及或適用於整家公司所有部門或員工的"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-24",
-      "title": "公司所有的",
-      "form": "company-owned（公司擁有的）",
-      "en": "company-owned（公司擁有的）",
-      "zh": "公司所有的",
-      "note": "留意語境：company-owned（公司擁有的）。這裡指「公司所有的」。",
+      "id": "company-mcq-23",
+      "title": "所有權屬於公司的，而不是私人所有的",
+      "form": "company-owned",
+      "en": "company-owned",
+      "zh": "所有權屬於公司的，而不是私人所有的",
+      "note": "來源詞義：所有權屬於公司的，而不是私人所有的",
       "examples": [
         [
           "Employees can use company-owned equipment.",
           "員工可以使用公司擁有的設備。",
-          "公司所有的"
+          "所有權屬於公司的，而不是私人所有的"
         ],
         [
           "The vehicle is company-owned.",
           "這輛車是公司所有的。",
-          "公司所有的"
+          "所有權屬於公司的，而不是私人所有的"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-25",
-      "title": "公司提供的汽車",
-      "form": "company car（公司車輛）",
-      "en": "company car（公司車輛）",
-      "zh": "公司提供的汽車",
-      "note": "留意語境：company car（公司車輛）。這裡指「公司提供的汽車」。",
-      "examples": [
-        [
-          "Senior managers are given a company car.",
-          "高層經理會獲公司提供一輛公司車／公務車。",
-          "公司提供的汽車"
-        ],
-        [
-          "He uses his company car for business trips.",
-          "他出差時使用公司提供的汽車。",
-          "公司提供的汽車"
-        ]
-      ],
-      "options": [],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "company-26",
-      "title": "企業文化",
-      "form": "company culture（公司文化）",
-      "en": "company culture（公司文化）",
-      "zh": "企業文化",
-      "note": "留意語境：company culture（公司文化）。這裡指「企業文化」。",
+      "id": "company-mcq-24",
+      "title": "公司內共同形成的價值觀、工作方式、行為規範及互動模式",
+      "form": "company culture",
+      "en": "company culture",
+      "zh": "公司內共同形成的價值觀、工作方式、行為規範及互動模式",
+      "note": "來源詞義：公司內共同形成的價值觀、工作方式、行為規範及互動模式",
       "examples": [
         [
           "The new manager wants to change the company culture.",
           "新經理希望改變公司文化／企業文化。",
-          "企業文化"
+          "公司內共同形成的價值觀、工作方式、行為規範及互動模式"
         ],
         [
           "A supportive company culture can improve employee retention.",
           "良好的企業文化可以提升員工留任率。",
-          "企業文化"
+          "公司內共同形成的價值觀、工作方式、行為規範及互動模式"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-27",
-      "title": "公司規定；企業政策",
-      "form": "company policy（公司政策）",
-      "en": "company policy（公司政策）",
-      "zh": "公司規定；企業政策",
-      "note": "留意語境：company policy（公司政策）。這裡指「公司規定；企業政策」。",
+      "id": "company-mcq-25",
+      "title": "公司正式訂立、用來規範員工或業務運作的政策／規則",
+      "form": "company policy",
+      "en": "company policy",
+      "zh": "公司正式訂立、用來規範員工或業務運作的政策／規則",
+      "note": "來源詞義：公司正式訂立、用來規範員工或業務運作的政策／規則",
       "examples": [
         [
           "Working from home is allowed under company policy.",
           "按照公司政策／公司規定，員工可以在家工作。",
-          "公司規定；企業政策"
+          "公司正式訂立、用來規範員工或業務運作的政策／規則"
         ],
         [
           "The decision was consistent with company policy.",
           "這項決定符合公司政策。",
-          "公司規定；企業政策"
+          "公司正式訂立、用來規範員工或業務運作的政策／規則"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-28",
-      "title": "商號／公司名稱",
-      "form": "company name（公司名稱）",
-      "en": "company name（公司名稱）",
-      "zh": "商號／公司名稱",
-      "note": "留意語境：company name（公司名稱）。這裡指「商號／公司名稱」。",
+      "id": "company-mcq-26",
+      "title": "由公司擁有或租用並提供員工作工作用途的汽車",
+      "form": "company car",
+      "en": "company car",
+      "zh": "由公司擁有或租用並提供員工作工作用途的汽車",
+      "note": "來源詞義：由公司擁有或租用並提供員工作工作用途的汽車",
       "examples": [
+        [
+          "Senior managers are given a company car.",
+          "高層經理會獲公司提供一輛公司車／公務車。",
+          "由公司擁有或租用並提供員工作工作用途的汽車"
+        ],
+        [
+          "He uses his company car for business trips.",
+          "他出差時使用公司提供的汽車。",
+          "由公司擁有或租用並提供員工作工作用途的汽車"
+        ],
         [
           "Please enter the company name on the form.",
           "請在表格上填寫公司名稱。",
-          "商號／公司名稱"
+          "由公司擁有或租用並提供員工作工作用途的汽車"
         ],
         [
           "The business changed its company name after the merger.",
           "企業合併後更改了公司名稱。",
-          "商號／公司名稱"
+          "由公司擁有或租用並提供員工作工作用途的汽車"
         ]
       ],
       "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "company-29",
-      "title": "公司城鎮；企業主導社區",
-      "form": "company town（企業主導的城鎮）",
-      "en": "company town（企業主導的城鎮）",
-      "zh": "公司城鎮；企業主導社區",
-      "note": "留意語境：company town（企業主導的城鎮）。這裡指「公司城鎮；企業主導社區」。",
+      "id": "company-mcq-27",
+      "title": "某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮",
+      "form": "company town",
+      "en": "company town",
+      "zh": "某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮",
+      "note": "來源詞義：某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮",
       "examples": [
         [
           "The settlement began as a mining company town.",
           "這個聚居地最初是一個由礦業公司建立的公司城鎮。",
-          "公司城鎮；企業主導社區"
+          "某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮"
         ],
         [
           "Most residents of the company town worked for the same employer.",
           "這個企業主導的城鎮中，大部分居民都為同一僱主工作。",
-          "公司城鎮；企業主導社區"
+          "某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮"
         ]
       ],
       "options": [],
@@ -661,1772 +637,1833 @@ export default {
   "questions": [
     {
       "id": "company-01-0",
-      "sense": "company-01",
+      "sense": "company-mcq-01",
       "en": "I gave a formal presentation at a company event.",
       "zh": "我在一個公司活動上作正式簡報。",
       "masked": "I gave a formal presentation at a ____ event.",
       "options": [
-        "company-01",
-        "company-02",
-        "company-03",
-        "company-04",
-        "company-05",
-        "company-06"
+        "company-mcq-01",
+        "company-mcq-02",
+        "company-mcq-03",
+        "company-mcq-04",
+        "company-mcq-05",
+        "company-mcq-06"
       ],
-      "explanation": "留意語境：company = business organization（商業機構）。這裡指「公司；企業」。",
+      "explanation": "本句的「company」指「從事商業或專業活動、僱用員工並提供產品／服務的企業組織」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-01": "本句的意思是「公司；企業」。",
-        "company-02": "「公司的；企業內部的」與本句語境不同。",
-        "company-03": "「該公司；公司方面」與本句語境不同。",
-        "company-04": "「陪伴；有人作伴」與本句語境不同。",
-        "company-05": "「喜歡某人的陪伴」與本句語境不同。",
-        "company-06": "「陪某人；給某人作伴」與本句語境不同。"
-      }
+        "company-mcq-01": "本句指「從事商業或專業活動、僱用員工並提供產品／服務的企業組織」。",
+        "company-mcq-02": "「表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關」是「company + noun」的用法，與本句語境不同。",
+        "company-mcq-03": "「語境中已知的企業機構及代表該機構行動的公司方面」是「the company — organization collectively」的用法，與本句語境不同。",
+        "company-mcq-04": "「與另一個人／其他人在一起、有人作伴而不獨處的狀態」是「company — companionship」的用法，與本句語境不同。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-01"
     },
     {
       "id": "company-01-1",
-      "sense": "company-01",
+      "sense": "company-mcq-01",
       "en": "She works for an international technology company.",
       "zh": "她在一家國際科技公司工作。",
       "masked": "She works for an international technology ____.",
       "options": [
-        "company-01",
-        "company-02",
-        "company-03",
-        "company-04",
-        "company-05",
-        "company-06"
+        "company-mcq-01",
+        "company-mcq-02",
+        "company-mcq-03",
+        "company-mcq-04",
+        "company-mcq-05",
+        "company-mcq-06"
       ],
-      "explanation": "留意語境：company = business organization（商業機構）。這裡指「公司；企業」。",
+      "explanation": "本句的「company」指「從事商業或專業活動、僱用員工並提供產品／服務的企業組織」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-01": "本句的意思是「公司；企業」。",
-        "company-02": "「公司的；企業內部的」與本句語境不同。",
-        "company-03": "「該公司；公司方面」與本句語境不同。",
-        "company-04": "「陪伴；有人作伴」與本句語境不同。",
-        "company-05": "「喜歡某人的陪伴」與本句語境不同。",
-        "company-06": "「陪某人；給某人作伴」與本句語境不同。"
-      }
+        "company-mcq-01": "本句指「從事商業或專業活動、僱用員工並提供產品／服務的企業組織」。",
+        "company-mcq-02": "「表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關」是「company + noun」的用法，與本句語境不同。",
+        "company-mcq-03": "「語境中已知的企業機構及代表該機構行動的公司方面」是「the company — organization collectively」的用法，與本句語境不同。",
+        "company-mcq-04": "「與另一個人／其他人在一起、有人作伴而不獨處的狀態」是「company — companionship」的用法，與本句語境不同。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-01"
     },
     {
       "id": "company-01-2",
-      "sense": "company-01",
+      "sense": "company-mcq-01",
       "en": "The company employs more than five thousand people.",
       "zh": "這家公司僱用了五千多名員工。",
       "masked": "The ____ employs more than five thousand people.",
       "options": [
-        "company-01",
-        "company-02",
-        "company-03",
-        "company-04",
-        "company-05",
-        "company-06"
+        "company-mcq-01",
+        "company-mcq-02",
+        "company-mcq-03",
+        "company-mcq-04",
+        "company-mcq-05",
+        "company-mcq-06"
       ],
-      "explanation": "留意語境：company = business organization（商業機構）。這裡指「公司；企業」。",
+      "explanation": "本句的「company」指「從事商業或專業活動、僱用員工並提供產品／服務的企業組織」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-01": "本句的意思是「公司；企業」。",
-        "company-02": "「公司的；企業內部的」與本句語境不同。",
-        "company-03": "「該公司；公司方面」與本句語境不同。",
-        "company-04": "「陪伴；有人作伴」與本句語境不同。",
-        "company-05": "「喜歡某人的陪伴」與本句語境不同。",
-        "company-06": "「陪某人；給某人作伴」與本句語境不同。"
-      }
+        "company-mcq-01": "本句指「從事商業或專業活動、僱用員工並提供產品／服務的企業組織」。",
+        "company-mcq-02": "「表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關」是「company + noun」的用法，與本句語境不同。",
+        "company-mcq-03": "「語境中已知的企業機構及代表該機構行動的公司方面」是「the company — organization collectively」的用法，與本句語境不同。",
+        "company-mcq-04": "「與另一個人／其他人在一起、有人作伴而不獨處的狀態」是「company — companionship」的用法，與本句語境不同。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-01"
     },
     {
       "id": "company-02-0",
-      "sense": "company-02",
+      "sense": "company-mcq-02",
       "en": "We discussed the new company policy.",
       "zh": "我們討論了新的公司政策。",
       "masked": "We discussed the new ____.",
       "options": [
-        "company-02",
-        "company-03",
-        "company-04",
-        "company-05",
-        "company-06",
-        "company-07"
+        "company-mcq-02",
+        "company-mcq-01",
+        "company-mcq-03",
+        "company-mcq-04",
+        "company-mcq-05",
+        "company-mcq-06"
       ],
-      "explanation": "留意語境：company + noun（公司相關）。這裡指「公司的；企業內部的」。",
+      "explanation": "本句的「company policy」指「表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company policy"
       ],
       "optionReasons": {
-        "company-02": "本句的意思是「公司的；企業內部的」。",
-        "company-03": "「該公司；公司方面」與本句語境不同。",
-        "company-04": "「陪伴；有人作伴」與本句語境不同。",
-        "company-05": "「喜歡某人的陪伴」與本句語境不同。",
-        "company-06": "「陪某人；給某人作伴」與本句語境不同。",
-        "company-07": "「有客人；有人來訪」與本句語境不同。"
-      }
+        "company-mcq-02": "本句指「表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關」。",
+        "company-mcq-01": "「從事商業或專業活動、僱用員工並提供產品／服務的企業組織」是「company — business organization」的用法，與本句語境不同。",
+        "company-mcq-03": "「語境中已知的企業機構及代表該機構行動的公司方面」是「the company — organization collectively」的用法，與本句語境不同。",
+        "company-mcq-04": "「與另一個人／其他人在一起、有人作伴而不獨處的狀態」是「company — companionship」的用法，與本句語境不同。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-02"
     },
     {
       "id": "company-02-1",
-      "sense": "company-02",
+      "sense": "company-mcq-02",
       "en": "The presentation took place at a company event.",
       "zh": "簡報在一個公司活動上進行。",
       "masked": "The presentation took place at a ____.",
       "options": [
-        "company-02",
-        "company-03",
-        "company-04",
-        "company-05",
-        "company-06",
-        "company-07"
+        "company-mcq-02",
+        "company-mcq-01",
+        "company-mcq-03",
+        "company-mcq-04",
+        "company-mcq-05",
+        "company-mcq-06"
       ],
-      "explanation": "留意語境：company + noun（公司相關）。這裡指「公司的；企業內部的」。",
+      "explanation": "本句的「company event」指「表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company event"
       ],
       "optionReasons": {
-        "company-02": "本句的意思是「公司的；企業內部的」。",
-        "company-03": "「該公司；公司方面」與本句語境不同。",
-        "company-04": "「陪伴；有人作伴」與本句語境不同。",
-        "company-05": "「喜歡某人的陪伴」與本句語境不同。",
-        "company-06": "「陪某人；給某人作伴」與本句語境不同。",
-        "company-07": "「有客人；有人來訪」與本句語境不同。"
-      }
+        "company-mcq-02": "本句指「表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關」。",
+        "company-mcq-01": "「從事商業或專業活動、僱用員工並提供產品／服務的企業組織」是「company — business organization」的用法，與本句語境不同。",
+        "company-mcq-03": "「語境中已知的企業機構及代表該機構行動的公司方面」是「the company — organization collectively」的用法，與本句語境不同。",
+        "company-mcq-04": "「與另一個人／其他人在一起、有人作伴而不獨處的狀態」是「company — companionship」的用法，與本句語境不同。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-02"
     },
     {
       "id": "company-03-0",
-      "sense": "company-03",
+      "sense": "company-mcq-03",
       "en": "The company announced a new strategy.",
       "zh": "公司方面公布了一項新策略。",
       "masked": "The ____ announced a new strategy.",
       "options": [
-        "company-03",
-        "company-04",
-        "company-05",
-        "company-06",
-        "company-07",
-        "company-08"
+        "company-mcq-03",
+        "company-mcq-02",
+        "company-mcq-04",
+        "company-mcq-01",
+        "company-mcq-05",
+        "company-mcq-06"
       ],
-      "explanation": "留意語境：company = particular business entity（特定企業）。這裡指「該公司；公司方面」。",
+      "explanation": "本句的「company」指「語境中已知的企業機構及代表該機構行動的公司方面」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-03": "本句的意思是「該公司；公司方面」。",
-        "company-04": "「陪伴；有人作伴」與本句語境不同。",
-        "company-05": "「喜歡某人的陪伴」與本句語境不同。",
-        "company-06": "「陪某人；給某人作伴」與本句語境不同。",
-        "company-07": "「有客人；有人來訪」與本句語境不同。",
-        "company-08": "「訪客；客人」與本句語境不同。"
-      }
+        "company-mcq-03": "本句指「語境中已知的企業機構及代表該機構行動的公司方面」。",
+        "company-mcq-02": "「表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關」是「company + noun」的用法，與本句語境不同。",
+        "company-mcq-04": "「與另一個人／其他人在一起、有人作伴而不獨處的狀態」是「company — companionship」的用法，與本句語境不同。",
+        "company-mcq-01": "「從事商業或專業活動、僱用員工並提供產品／服務的企業組織」是「company — business organization」的用法，與本句語境不同。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-03"
     },
     {
       "id": "company-03-1",
-      "sense": "company-03",
+      "sense": "company-mcq-03",
       "en": "The company plans to hire more staff next year.",
       "zh": "該公司計劃明年增聘員工。",
       "masked": "The ____ plans to hire more staff next year.",
       "options": [
-        "company-03",
-        "company-04",
-        "company-05",
-        "company-06",
-        "company-07",
-        "company-08"
+        "company-mcq-03",
+        "company-mcq-02",
+        "company-mcq-04",
+        "company-mcq-01",
+        "company-mcq-05",
+        "company-mcq-06"
       ],
-      "explanation": "留意語境：company = particular business entity（特定企業）。這裡指「該公司；公司方面」。",
+      "explanation": "本句的「company」指「語境中已知的企業機構及代表該機構行動的公司方面」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-03": "本句的意思是「該公司；公司方面」。",
-        "company-04": "「陪伴；有人作伴」與本句語境不同。",
-        "company-05": "「喜歡某人的陪伴」與本句語境不同。",
-        "company-06": "「陪某人；給某人作伴」與本句語境不同。",
-        "company-07": "「有客人；有人來訪」與本句語境不同。",
-        "company-08": "「訪客；客人」與本句語境不同。"
-      }
+        "company-mcq-03": "本句指「語境中已知的企業機構及代表該機構行動的公司方面」。",
+        "company-mcq-02": "「表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關」是「company + noun」的用法，與本句語境不同。",
+        "company-mcq-04": "「與另一個人／其他人在一起、有人作伴而不獨處的狀態」是「company — companionship」的用法，與本句語境不同。",
+        "company-mcq-01": "「從事商業或專業活動、僱用員工並提供產品／服務的企業組織」是「company — business organization」的用法，與本句語境不同。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-03"
     },
     {
       "id": "company-03-2",
-      "sense": "company-03",
+      "sense": "company-mcq-03",
       "en": "The company welcomed the visitors at the entrance.",
       "zh": "公司方面／公司人員在入口迎接訪客。",
       "masked": "The ____ welcomed the visitors at the entrance.",
       "options": [
-        "company-03",
-        "company-04",
-        "company-05",
-        "company-06",
-        "company-07",
-        "company-08"
+        "company-mcq-03",
+        "company-mcq-02",
+        "company-mcq-04",
+        "company-mcq-01",
+        "company-mcq-05",
+        "company-mcq-06"
       ],
-      "explanation": "留意語境：company = particular business entity（特定企業）。這裡指「該公司；公司方面」。",
+      "explanation": "本句的「company」指「語境中已知的企業機構及代表該機構行動的公司方面」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-03": "本句的意思是「該公司；公司方面」。",
-        "company-04": "「陪伴；有人作伴」與本句語境不同。",
-        "company-05": "「喜歡某人的陪伴」與本句語境不同。",
-        "company-06": "「陪某人；給某人作伴」與本句語境不同。",
-        "company-07": "「有客人；有人來訪」與本句語境不同。",
-        "company-08": "「訪客；客人」與本句語境不同。"
-      }
+        "company-mcq-03": "本句指「語境中已知的企業機構及代表該機構行動的公司方面」。",
+        "company-mcq-02": "「表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關」是「company + noun」的用法，與本句語境不同。",
+        "company-mcq-04": "「與另一個人／其他人在一起、有人作伴而不獨處的狀態」是「company — companionship」的用法，與本句語境不同。",
+        "company-mcq-01": "「從事商業或專業活動、僱用員工並提供產品／服務的企業組織」是「company — business organization」的用法，與本句語境不同。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-03"
     },
     {
       "id": "company-03-3",
-      "sense": "company-03",
+      "sense": "company-mcq-03",
       "en": "The company thanked employees for their hard work.",
       "zh": "公司方面感謝員工的辛勤工作。",
       "masked": "The ____ thanked employees for their hard work.",
       "options": [
-        "company-03",
-        "company-04",
-        "company-05",
-        "company-06",
-        "company-07",
-        "company-08"
+        "company-mcq-03",
+        "company-mcq-02",
+        "company-mcq-04",
+        "company-mcq-01",
+        "company-mcq-05",
+        "company-mcq-06"
       ],
-      "explanation": "留意語境：company = particular business entity（特定企業）。這裡指「該公司；公司方面」。",
+      "explanation": "本句的「company」指「語境中已知的企業機構及代表該機構行動的公司方面」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-03": "本句的意思是「該公司；公司方面」。",
-        "company-04": "「陪伴；有人作伴」與本句語境不同。",
-        "company-05": "「喜歡某人的陪伴」與本句語境不同。",
-        "company-06": "「陪某人；給某人作伴」與本句語境不同。",
-        "company-07": "「有客人；有人來訪」與本句語境不同。",
-        "company-08": "「訪客；客人」與本句語境不同。"
-      }
+        "company-mcq-03": "本句指「語境中已知的企業機構及代表該機構行動的公司方面」。",
+        "company-mcq-02": "「表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關」是「company + noun」的用法，與本句語境不同。",
+        "company-mcq-04": "「與另一個人／其他人在一起、有人作伴而不獨處的狀態」是「company — companionship」的用法，與本句語境不同。",
+        "company-mcq-01": "「從事商業或專業活動、僱用員工並提供產品／服務的企業組織」是「company — business organization」的用法，與本句語境不同。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-03"
     },
     {
       "id": "company-04-0",
-      "sense": "company-04",
+      "sense": "company-mcq-04",
       "en": "I was glad to have some company on the long journey.",
       "zh": "漫長旅程中有人陪伴／作伴，我很高興。",
       "masked": "I was glad to have some ____ on the long journey.",
       "options": [
-        "company-04",
-        "company-05",
-        "company-06",
-        "company-07",
-        "company-08",
-        "company-09"
+        "company-mcq-04",
+        "company-mcq-03",
+        "company-mcq-05",
+        "company-mcq-02",
+        "company-mcq-06",
+        "company-mcq-01"
       ],
-      "explanation": "留意語境：company = companionship / being with other people（陪伴）。這裡指「陪伴；有人作伴」。",
+      "explanation": "本句的「company」指「與另一個人／其他人在一起、有人作伴而不獨處的狀態」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-04": "本句的意思是「陪伴；有人作伴」。",
-        "company-05": "「喜歡某人的陪伴」與本句語境不同。",
-        "company-06": "「陪某人；給某人作伴」與本句語境不同。",
-        "company-07": "「有客人；有人來訪」與本句語境不同。",
-        "company-08": "「訪客；客人」與本句語境不同。",
-        "company-09": "「與某人一起；在某人陪同下」與本句語境不同。"
-      }
+        "company-mcq-04": "本句指「與另一個人／其他人在一起、有人作伴而不獨處的狀態」。",
+        "company-mcq-03": "「語境中已知的企業機構及代表該機構行動的公司方面」是「the company — organization collectively」的用法，與本句語境不同。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。",
+        "company-mcq-02": "「表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關」是「company + noun」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
+        "company-mcq-01": "「從事商業或專業活動、僱用員工並提供產品／服務的企業組織」是「company — business organization」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-04"
     },
     {
       "id": "company-04-1",
-      "sense": "company-04",
+      "sense": "company-mcq-04",
       "en": "She enjoys his company.",
       "zh": "她很享受和他相處／有他陪伴。",
       "masked": "She enjoys his ____.",
       "options": [
-        "company-04",
-        "company-05",
-        "company-06",
-        "company-07",
-        "company-08",
-        "company-09"
+        "company-mcq-04",
+        "company-mcq-03",
+        "company-mcq-05",
+        "company-mcq-02",
+        "company-mcq-06",
+        "company-mcq-01"
       ],
-      "explanation": "留意語境：company = companionship / being with other people（陪伴）。這裡指「陪伴；有人作伴」。",
+      "explanation": "本句的「company」指「與另一個人／其他人在一起、有人作伴而不獨處的狀態」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-04": "本句的意思是「陪伴；有人作伴」。",
-        "company-05": "「喜歡某人的陪伴」與本句語境不同。",
-        "company-06": "「陪某人；給某人作伴」與本句語境不同。",
-        "company-07": "「有客人；有人來訪」與本句語境不同。",
-        "company-08": "「訪客；客人」與本句語境不同。",
-        "company-09": "「與某人一起；在某人陪同下」與本句語境不同。"
-      }
+        "company-mcq-04": "本句指「與另一個人／其他人在一起、有人作伴而不獨處的狀態」。",
+        "company-mcq-03": "「語境中已知的企業機構及代表該機構行動的公司方面」是「the company — organization collectively」的用法，與本句語境不同。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。",
+        "company-mcq-02": "「表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關」是「company + noun」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
+        "company-mcq-01": "「從事商業或專業活動、僱用員工並提供產品／服務的企業組織」是「company — business organization」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-04"
     },
     {
       "id": "company-05-0",
-      "sense": "company-05",
+      "sense": "company-mcq-05",
       "en": "I really enjoy her company.",
       "zh": "我真的很喜歡跟她相處／享受她的陪伴。",
       "masked": "I really ____.",
       "options": [
-        "company-05",
-        "company-06",
-        "company-07",
-        "company-08",
-        "company-09",
-        "company-10"
+        "company-mcq-05",
+        "company-mcq-04",
+        "company-mcq-06",
+        "company-mcq-03",
+        "company-mcq-07",
+        "company-mcq-02"
       ],
-      "explanation": "留意語境：enjoy someone’s company（喜歡和某人相處）。這裡指「喜歡某人的陪伴」。",
+      "explanation": "本句的「enjoy her company」指「覺得跟某人相處愉快、舒服或有趣」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "enjoy her company"
       ],
       "optionReasons": {
-        "company-05": "本句的意思是「喜歡某人的陪伴」。",
-        "company-06": "「陪某人；給某人作伴」與本句語境不同。",
-        "company-07": "「有客人；有人來訪」與本句語境不同。",
-        "company-08": "「訪客；客人」與本句語境不同。",
-        "company-09": "「與某人一起；在某人陪同下」與本句語境不同。",
-        "company-10": "「在有人陪同的情況下」與本句語境不同。"
-      }
+        "company-mcq-05": "本句指「覺得跟某人相處愉快、舒服或有趣」。",
+        "company-mcq-04": "「與另一個人／其他人在一起、有人作伴而不獨處的狀態」是「company — companionship」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
+        "company-mcq-03": "「語境中已知的企業機構及代表該機構行動的公司方面」是「the company — organization collectively」的用法，與本句語境不同。",
+        "company-mcq-07": "「有訪客、朋友或親友到來作客／陪伴」是「have company」的用法，與本句語境不同。",
+        "company-mcq-02": "「表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關」是「company + noun」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-05"
     },
     {
       "id": "company-05-1",
-      "sense": "company-05",
+      "sense": "company-mcq-05",
       "en": "He is quiet, but I always enjoy his company.",
       "zh": "他雖然很安靜，但我一直都很喜歡和他相處。",
       "masked": "He is quiet, but I always ____.",
       "options": [
-        "company-05",
-        "company-06",
-        "company-07",
-        "company-08",
-        "company-09",
-        "company-10"
+        "company-mcq-05",
+        "company-mcq-04",
+        "company-mcq-06",
+        "company-mcq-03",
+        "company-mcq-07",
+        "company-mcq-02"
       ],
-      "explanation": "留意語境：enjoy someone’s company（喜歡和某人相處）。這裡指「喜歡某人的陪伴」。",
+      "explanation": "本句的「enjoy his company」指「覺得跟某人相處愉快、舒服或有趣」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "enjoy his company"
       ],
       "optionReasons": {
-        "company-05": "本句的意思是「喜歡某人的陪伴」。",
-        "company-06": "「陪某人；給某人作伴」與本句語境不同。",
-        "company-07": "「有客人；有人來訪」與本句語境不同。",
-        "company-08": "「訪客；客人」與本句語境不同。",
-        "company-09": "「與某人一起；在某人陪同下」與本句語境不同。",
-        "company-10": "「在有人陪同的情況下」與本句語境不同。"
-      }
+        "company-mcq-05": "本句指「覺得跟某人相處愉快、舒服或有趣」。",
+        "company-mcq-04": "「與另一個人／其他人在一起、有人作伴而不獨處的狀態」是「company — companionship」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
+        "company-mcq-03": "「語境中已知的企業機構及代表該機構行動的公司方面」是「the company — organization collectively」的用法，與本句語境不同。",
+        "company-mcq-07": "「有訪客、朋友或親友到來作客／陪伴」是「have company」的用法，與本句語境不同。",
+        "company-mcq-02": "「表示某事物屬於、由某家公司舉辦或與該公司的業務／員工有關」是「company + noun」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-05"
     },
     {
       "id": "company-06-0",
-      "sense": "company-06",
+      "sense": "company-mcq-06",
       "en": "I stayed to keep her company while she waited.",
       "zh": "她等候期間，我留下來陪她／給她作伴。",
       "masked": "I stayed to ____ while she waited.",
       "options": [
-        "company-06",
-        "company-07",
-        "company-08",
-        "company-09",
-        "company-10",
-        "company-11"
+        "company-mcq-06",
+        "company-mcq-05",
+        "company-mcq-07",
+        "company-mcq-04",
+        "company-mcq-08",
+        "company-mcq-03"
       ],
-      "explanation": "留意語境：keep someone company（陪伴某人）。這裡指「陪某人；給某人作伴」。",
+      "explanation": "本句的「keep her company」指「留在某人身邊陪伴對方，使對方不用獨處」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "keep her company"
       ],
       "optionReasons": {
-        "company-06": "本句的意思是「陪某人；給某人作伴」。",
-        "company-07": "「有客人；有人來訪」與本句語境不同。",
-        "company-08": "「訪客；客人」與本句語境不同。",
-        "company-09": "「與某人一起；在某人陪同下」與本句語境不同。",
-        "company-10": "「在有人陪同的情況下」與本句語境不同。",
-        "company-11": "「交往圈子；同伴」與本句語境不同。"
-      }
+        "company-mcq-06": "本句指「留在某人身邊陪伴對方，使對方不用獨處」。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。",
+        "company-mcq-07": "「有訪客、朋友或親友到來作客／陪伴」是「have company」的用法，與本句語境不同。",
+        "company-mcq-04": "「與另一個人／其他人在一起、有人作伴而不獨處的狀態」是「company — companionship」的用法，與本句語境不同。",
+        "company-mcq-08": "「到某人家中探訪、作客或一起相處的人」是「company — visitors」的用法，與本句語境不同。",
+        "company-mcq-03": "「語境中已知的企業機構及代表該機構行動的公司方面」是「the company — organization collectively」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-06"
     },
     {
       "id": "company-06-1",
-      "sense": "company-06",
+      "sense": "company-mcq-06",
       "en": "Would you like me to keep you company?",
       "zh": "你想不想我陪你一下／給你作伴？",
       "masked": "Would you like me to ____?",
       "options": [
-        "company-06",
-        "company-07",
-        "company-08",
-        "company-09",
-        "company-10",
-        "company-11"
+        "company-mcq-06",
+        "company-mcq-05",
+        "company-mcq-07",
+        "company-mcq-04",
+        "company-mcq-08",
+        "company-mcq-03"
       ],
-      "explanation": "留意語境：keep someone company（陪伴某人）。這裡指「陪某人；給某人作伴」。",
+      "explanation": "本句的「keep you company」指「留在某人身邊陪伴對方，使對方不用獨處」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "keep you company"
       ],
       "optionReasons": {
-        "company-06": "本句的意思是「陪某人；給某人作伴」。",
-        "company-07": "「有客人；有人來訪」與本句語境不同。",
-        "company-08": "「訪客；客人」與本句語境不同。",
-        "company-09": "「與某人一起；在某人陪同下」與本句語境不同。",
-        "company-10": "「在有人陪同的情況下」與本句語境不同。",
-        "company-11": "「交往圈子；同伴」與本句語境不同。"
-      }
+        "company-mcq-06": "本句指「留在某人身邊陪伴對方，使對方不用獨處」。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。",
+        "company-mcq-07": "「有訪客、朋友或親友到來作客／陪伴」是「have company」的用法，與本句語境不同。",
+        "company-mcq-04": "「與另一個人／其他人在一起、有人作伴而不獨處的狀態」是「company — companionship」的用法，與本句語境不同。",
+        "company-mcq-08": "「到某人家中探訪、作客或一起相處的人」是「company — visitors」的用法，與本句語境不同。",
+        "company-mcq-03": "「語境中已知的企業機構及代表該機構行動的公司方面」是「the company — organization collectively」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-06"
     },
     {
       "id": "company-07-0",
-      "sense": "company-07",
+      "sense": "company-mcq-07",
       "en": "We can’t go out tonight because we’re having company.",
       "zh": "我們今晚不能出去，因為有客人來。",
       "masked": "We can’t go out tonight because we’re ____.",
       "options": [
-        "company-07",
-        "company-08",
-        "company-09",
-        "company-10",
-        "company-11",
-        "company-12"
+        "company-mcq-07",
+        "company-mcq-06",
+        "company-mcq-08",
+        "company-mcq-05",
+        "company-mcq-09",
+        "company-mcq-04"
       ],
-      "explanation": "留意語境：have company（有客人／有人陪伴）。這裡指「有客人；有人來訪」。",
+      "explanation": "本句的「having company」指「有訪客、朋友或親友到來作客／陪伴」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "having company"
       ],
       "optionReasons": {
-        "company-07": "本句的意思是「有客人；有人來訪」。",
-        "company-08": "「訪客；客人」與本句語境不同。",
-        "company-09": "「與某人一起；在某人陪同下」與本句語境不同。",
-        "company-10": "「在有人陪同的情況下」與本句語境不同。",
-        "company-11": "「交往圈子；同伴」與本句語境不同。",
-        "company-12": "「好／壞的朋友或交往圈子」與本句語境不同。"
-      }
+        "company-mcq-07": "本句指「有訪客、朋友或親友到來作客／陪伴」。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
+        "company-mcq-08": "「到某人家中探訪、作客或一起相處的人」是「company — visitors」的用法，與本句語境不同。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。",
+        "company-mcq-09": "「與某人一起、處於某人的陪伴之中」是「in someone’s company」的用法，與本句語境不同。",
+        "company-mcq-04": "「與另一個人／其他人在一起、有人作伴而不獨處的狀態」是「company — companionship」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-07"
     },
     {
       "id": "company-07-1",
-      "sense": "company-07",
+      "sense": "company-mcq-07",
       "en": "I didn’t realize you had company.",
       "zh": "我不知道你有客人在／有人來訪。",
       "masked": "I didn’t realize you had ____.",
       "options": [
-        "company-07",
-        "company-08",
-        "company-09",
-        "company-10",
-        "company-11",
-        "company-12"
+        "company-mcq-07",
+        "company-mcq-06",
+        "company-mcq-08",
+        "company-mcq-05",
+        "company-mcq-09",
+        "company-mcq-04"
       ],
-      "explanation": "留意語境：have company（有客人／有人陪伴）。這裡指「有客人；有人來訪」。",
+      "explanation": "本句的「company」指「有訪客、朋友或親友到來作客／陪伴」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-07": "本句的意思是「有客人；有人來訪」。",
-        "company-08": "「訪客；客人」與本句語境不同。",
-        "company-09": "「與某人一起；在某人陪同下」與本句語境不同。",
-        "company-10": "「在有人陪同的情況下」與本句語境不同。",
-        "company-11": "「交往圈子；同伴」與本句語境不同。",
-        "company-12": "「好／壞的朋友或交往圈子」與本句語境不同。"
-      }
+        "company-mcq-07": "本句指「有訪客、朋友或親友到來作客／陪伴」。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
+        "company-mcq-08": "「到某人家中探訪、作客或一起相處的人」是「company — visitors」的用法，與本句語境不同。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。",
+        "company-mcq-09": "「與某人一起、處於某人的陪伴之中」是「in someone’s company」的用法，與本句語境不同。",
+        "company-mcq-04": "「與另一個人／其他人在一起、有人作伴而不獨處的狀態」是「company — companionship」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-07"
     },
     {
       "id": "company-08-0",
-      "sense": "company-08",
+      "sense": "company-mcq-08",
       "en": "We’re expecting company this evening.",
       "zh": "我們今晚預計有客人來訪。",
       "masked": "We’re expecting ____ this evening.",
       "options": [
-        "company-08",
-        "company-09",
-        "company-10",
-        "company-11",
-        "company-12",
-        "company-13"
+        "company-mcq-08",
+        "company-mcq-07",
+        "company-mcq-09",
+        "company-mcq-06",
+        "company-mcq-10",
+        "company-mcq-05"
       ],
-      "explanation": "留意語境：company = visitors/guests collectively（客人）。這裡指「訪客；客人」。",
+      "explanation": "本句的「company」指「到某人家中探訪、作客或一起相處的人」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-08": "本句的意思是「訪客；客人」。",
-        "company-09": "「與某人一起；在某人陪同下」與本句語境不同。",
-        "company-10": "「在有人陪同的情況下」與本句語境不同。",
-        "company-11": "「交往圈子；同伴」與本句語境不同。",
-        "company-12": "「好／壞的朋友或交往圈子」與本句語境不同。",
-        "company-13": "「是很好的伴；相處愉快」與本句語境不同。"
-      }
+        "company-mcq-08": "本句指「到某人家中探訪、作客或一起相處的人」。",
+        "company-mcq-07": "「有訪客、朋友或親友到來作客／陪伴」是「have company」的用法，與本句語境不同。",
+        "company-mcq-09": "「與某人一起、處於某人的陪伴之中」是「in someone’s company」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
+        "company-mcq-10": "「某人平日經常相處、來往或結交的一群人」是「company someone keeps」的用法，與本句語境不同。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-08"
     },
     {
       "id": "company-08-1",
-      "sense": "company-08",
+      "sense": "company-mcq-08",
       "en": "The house was full of company all weekend.",
       "zh": "整個週末屋裡都有很多來訪的親友／客人。",
       "masked": "The house was full of ____ all weekend.",
       "options": [
-        "company-08",
-        "company-09",
-        "company-10",
-        "company-11",
-        "company-12",
-        "company-13"
+        "company-mcq-08",
+        "company-mcq-07",
+        "company-mcq-09",
+        "company-mcq-06",
+        "company-mcq-10",
+        "company-mcq-05"
       ],
-      "explanation": "留意語境：company = visitors/guests collectively（客人）。這裡指「訪客；客人」。",
+      "explanation": "本句的「company」指「到某人家中探訪、作客或一起相處的人」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-08": "本句的意思是「訪客；客人」。",
-        "company-09": "「與某人一起；在某人陪同下」與本句語境不同。",
-        "company-10": "「在有人陪同的情況下」與本句語境不同。",
-        "company-11": "「交往圈子；同伴」與本句語境不同。",
-        "company-12": "「好／壞的朋友或交往圈子」與本句語境不同。",
-        "company-13": "「是很好的伴；相處愉快」與本句語境不同。"
-      }
+        "company-mcq-08": "本句指「到某人家中探訪、作客或一起相處的人」。",
+        "company-mcq-07": "「有訪客、朋友或親友到來作客／陪伴」是「have company」的用法，與本句語境不同。",
+        "company-mcq-09": "「與某人一起、處於某人的陪伴之中」是「in someone’s company」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
+        "company-mcq-10": "「某人平日經常相處、來往或結交的一群人」是「company someone keeps」的用法，與本句語境不同。",
+        "company-mcq-05": "「覺得跟某人相處愉快、舒服或有趣」是「enjoy someone’s company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-08"
     },
     {
       "id": "company-09-0",
-      "sense": "company-09",
+      "sense": "company-mcq-09",
       "en": "She felt relaxed in the company of close friends.",
       "zh": "她跟親密朋友在一起時感到很放鬆。",
       "masked": "She felt relaxed in the ____.",
       "options": [
-        "company-09",
-        "company-10",
-        "company-11",
-        "company-12",
-        "company-13",
-        "company-14"
+        "company-mcq-09",
+        "company-mcq-08",
+        "company-mcq-10",
+        "company-mcq-07",
+        "company-mcq-11",
+        "company-mcq-06"
       ],
-      "explanation": "留意語境：in someone’s company（與某人在一起）。這裡指「與某人一起；在某人陪同下」。",
+      "explanation": "本句的「company of close friends」指「與某人一起、處於某人的陪伴之中」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company of close friends"
       ],
       "optionReasons": {
-        "company-09": "本句的意思是「與某人一起；在某人陪同下」。",
-        "company-10": "「在有人陪同的情況下」與本句語境不同。",
-        "company-11": "「交往圈子；同伴」與本句語境不同。",
-        "company-12": "「好／壞的朋友或交往圈子」與本句語境不同。",
-        "company-13": "「是很好的伴；相處愉快」與本句語境不同。",
-        "company-14": "「跟某人來往；結交」與本句語境不同。"
-      }
+        "company-mcq-09": "本句指「與某人一起、處於某人的陪伴之中」。",
+        "company-mcq-08": "「到某人家中探訪、作客或一起相處的人」是「company — visitors」的用法，與本句語境不同。",
+        "company-mcq-10": "「某人平日經常相處、來往或結交的一群人」是「company someone keeps」的用法，與本句語境不同。",
+        "company-mcq-07": "「有訪客、朋友或親友到來作客／陪伴」是「have company」的用法，與本句語境不同。",
+        "company-mcq-11": "「可能對某人產生不良影響的朋友或交往對象」是「bad company」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-09"
     },
     {
       "id": "company-09-1",
-      "sense": "company-09",
+      "sense": "company-mcq-09",
       "en": "He seemed nervous in the company of senior managers.",
       "zh": "他跟高層經理相處／同處一個場合時顯得很緊張。",
       "masked": "He seemed nervous in the ____.",
       "options": [
-        "company-09",
-        "company-10",
-        "company-11",
-        "company-12",
-        "company-13",
-        "company-14"
+        "company-mcq-09",
+        "company-mcq-08",
+        "company-mcq-10",
+        "company-mcq-07",
+        "company-mcq-11",
+        "company-mcq-06"
       ],
-      "explanation": "留意語境：in someone’s company（與某人在一起）。這裡指「與某人一起；在某人陪同下」。",
+      "explanation": "本句的「company of senior managers」指「與某人一起、處於某人的陪伴之中」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company of senior managers"
       ],
       "optionReasons": {
-        "company-09": "本句的意思是「與某人一起；在某人陪同下」。",
-        "company-10": "「在有人陪同的情況下」與本句語境不同。",
-        "company-11": "「交往圈子；同伴」與本句語境不同。",
-        "company-12": "「好／壞的朋友或交往圈子」與本句語境不同。",
-        "company-13": "「是很好的伴；相處愉快」與本句語境不同。",
-        "company-14": "「跟某人來往；結交」與本句語境不同。"
-      }
+        "company-mcq-09": "本句指「與某人一起、處於某人的陪伴之中」。",
+        "company-mcq-08": "「到某人家中探訪、作客或一起相處的人」是「company — visitors」的用法，與本句語境不同。",
+        "company-mcq-10": "「某人平日經常相處、來往或結交的一群人」是「company someone keeps」的用法，與本句語境不同。",
+        "company-mcq-07": "「有訪客、朋友或親友到來作客／陪伴」是「have company」的用法，與本句語境不同。",
+        "company-mcq-11": "「可能對某人產生不良影響的朋友或交往對象」是「bad company」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-09"
     },
     {
       "id": "company-10-0",
-      "sense": "company-10",
+      "sense": "company-mcq-09",
       "en": "He behaves differently when he is in company.",
       "zh": "他有其他人在場時的表現會不同。",
       "masked": "He behaves differently when he is ____.",
       "options": [
-        "company-10",
-        "company-11",
-        "company-12",
-        "company-13",
-        "company-14",
-        "company-15"
+        "company-mcq-09",
+        "company-mcq-08",
+        "company-mcq-10",
+        "company-mcq-07",
+        "company-mcq-11",
+        "company-mcq-06"
       ],
-      "explanation": "留意語境：in company（有人在場／與別人一起）。這裡指「在有人陪同的情況下」。",
+      "explanation": "本句的「in company」指「與某人一起、處於某人的陪伴之中」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "in company"
       ],
       "optionReasons": {
-        "company-10": "本句的意思是「在有人陪同的情況下」。",
-        "company-11": "「交往圈子；同伴」與本句語境不同。",
-        "company-12": "「好／壞的朋友或交往圈子」與本句語境不同。",
-        "company-13": "「是很好的伴；相處愉快」與本句語境不同。",
-        "company-14": "「跟某人來往；結交」與本句語境不同。",
-        "company-15": "「一行人；同行者」與本句語境不同。"
-      }
+        "company-mcq-09": "本句指「與某人一起、處於某人的陪伴之中」。",
+        "company-mcq-08": "「到某人家中探訪、作客或一起相處的人」是「company — visitors」的用法，與本句語境不同。",
+        "company-mcq-10": "「某人平日經常相處、來往或結交的一群人」是「company someone keeps」的用法，與本句語境不同。",
+        "company-mcq-07": "「有訪客、朋友或親友到來作客／陪伴」是「have company」的用法，與本句語境不同。",
+        "company-mcq-11": "「可能對某人產生不良影響的朋友或交往對象」是「bad company」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-09"
     },
     {
       "id": "company-10-1",
-      "sense": "company-10",
+      "sense": "company-mcq-09",
       "en": "She rarely drinks when in company.",
       "zh": "她和別人在一起時很少喝酒。",
       "masked": "She rarely drinks when ____.",
       "options": [
-        "company-10",
-        "company-11",
-        "company-12",
-        "company-13",
-        "company-14",
-        "company-15"
+        "company-mcq-09",
+        "company-mcq-08",
+        "company-mcq-10",
+        "company-mcq-07",
+        "company-mcq-11",
+        "company-mcq-06"
       ],
-      "explanation": "留意語境：in company（有人在場／與別人一起）。這裡指「在有人陪同的情況下」。",
+      "explanation": "本句的「in company」指「與某人一起、處於某人的陪伴之中」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "in company"
       ],
       "optionReasons": {
-        "company-10": "本句的意思是「在有人陪同的情況下」。",
-        "company-11": "「交往圈子；同伴」與本句語境不同。",
-        "company-12": "「好／壞的朋友或交往圈子」與本句語境不同。",
-        "company-13": "「是很好的伴；相處愉快」與本句語境不同。",
-        "company-14": "「跟某人來往；結交」與本句語境不同。",
-        "company-15": "「一行人；同行者」與本句語境不同。"
-      }
+        "company-mcq-09": "本句指「與某人一起、處於某人的陪伴之中」。",
+        "company-mcq-08": "「到某人家中探訪、作客或一起相處的人」是「company — visitors」的用法，與本句語境不同。",
+        "company-mcq-10": "「某人平日經常相處、來往或結交的一群人」是「company someone keeps」的用法，與本句語境不同。",
+        "company-mcq-07": "「有訪客、朋友或親友到來作客／陪伴」是「have company」的用法，與本句語境不同。",
+        "company-mcq-11": "「可能對某人產生不良影響的朋友或交往對象」是「bad company」的用法，與本句語境不同。",
+        "company-mcq-06": "「留在某人身邊陪伴對方，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-09"
     },
     {
       "id": "company-11-0",
-      "sense": "company-11",
+      "sense": "company-mcq-10",
       "en": "His parents worried about the company he kept.",
       "zh": "他的父母擔心他平日交往的朋友／圈子。",
       "masked": "His parents worried about the ____.",
       "options": [
-        "company-11",
-        "company-12",
-        "company-13",
-        "company-14",
-        "company-15",
-        "company-16"
+        "company-mcq-10",
+        "company-mcq-09",
+        "company-mcq-11",
+        "company-mcq-08",
+        "company-mcq-12",
+        "company-mcq-07"
       ],
-      "explanation": "留意語境：company = people someone regularly associates with（交往的人）。這裡指「交往圈子；同伴」。",
+      "explanation": "本句的「company he kept」指「某人平日經常相處、來往或結交的一群人」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company he kept"
       ],
       "optionReasons": {
-        "company-11": "本句的意思是「交往圈子；同伴」。",
-        "company-12": "「好／壞的朋友或交往圈子」與本句語境不同。",
-        "company-13": "「是很好的伴；相處愉快」與本句語境不同。",
-        "company-14": "「跟某人來往；結交」與本句語境不同。",
-        "company-15": "「一行人；同行者」與本句語境不同。",
-        "company-16": "「劇團；演藝團體」與本句語境不同。"
-      }
+        "company-mcq-10": "本句指「某人平日經常相處、來往或結交的一群人」。",
+        "company-mcq-09": "「與某人一起、處於某人的陪伴之中」是「in someone’s company」的用法，與本句語境不同。",
+        "company-mcq-11": "「可能對某人產生不良影響的朋友或交往對象」是「bad company」的用法，與本句語境不同。",
+        "company-mcq-08": "「到某人家中探訪、作客或一起相處的人」是「company — visitors」的用法，與本句語境不同。",
+        "company-mcq-12": "「跟別人相處時令人感到愉快、有趣或舒服」是「be good company」的用法，與本句語境不同。",
+        "company-mcq-07": "「有訪客、朋友或親友到來作客／陪伴」是「have company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-10"
     },
     {
       "id": "company-11-1",
-      "sense": "company-11",
+      "sense": "company-mcq-10",
       "en": "Young people can be influenced by the company they keep.",
       "zh": "年輕人可能會受到自己交往圈子／朋友群的影響。",
       "masked": "Young people can be influenced by the ____ they keep.",
       "options": [
-        "company-11",
-        "company-12",
-        "company-13",
-        "company-14",
-        "company-15",
-        "company-16"
+        "company-mcq-10",
+        "company-mcq-09",
+        "company-mcq-11",
+        "company-mcq-08",
+        "company-mcq-12",
+        "company-mcq-07"
       ],
-      "explanation": "留意語境：company = people someone regularly associates with（交往的人）。這裡指「交往圈子；同伴」。",
+      "explanation": "本句的「company」指「某人平日經常相處、來往或結交的一群人」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-11": "本句的意思是「交往圈子；同伴」。",
-        "company-12": "「好／壞的朋友或交往圈子」與本句語境不同。",
-        "company-13": "「是很好的伴；相處愉快」與本句語境不同。",
-        "company-14": "「跟某人來往；結交」與本句語境不同。",
-        "company-15": "「一行人；同行者」與本句語境不同。",
-        "company-16": "「劇團；演藝團體」與本句語境不同。"
-      }
+        "company-mcq-10": "本句指「某人平日經常相處、來往或結交的一群人」。",
+        "company-mcq-09": "「與某人一起、處於某人的陪伴之中」是「in someone’s company」的用法，與本句語境不同。",
+        "company-mcq-11": "「可能對某人產生不良影響的朋友或交往對象」是「bad company」的用法，與本句語境不同。",
+        "company-mcq-08": "「到某人家中探訪、作客或一起相處的人」是「company — visitors」的用法，與本句語境不同。",
+        "company-mcq-12": "「跟別人相處時令人感到愉快、有趣或舒服」是「be good company」的用法，與本句語境不同。",
+        "company-mcq-07": "「有訪客、朋友或親友到來作客／陪伴」是「have company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-10"
     },
     {
       "id": "company-12-0",
-      "sense": "company-12",
+      "sense": "company-mcq-11",
       "en": "His parents thought some of his friends were bad company.",
       "zh": "他的父母認為他有些朋友是不良的交往對象。",
       "masked": "His parents thought some of his friends were ____.",
       "options": [
-        "company-12",
-        "company-13",
-        "company-14",
-        "company-15",
-        "company-16",
-        "company-17"
+        "company-mcq-11",
+        "company-mcq-10",
+        "company-mcq-12",
+        "company-mcq-09",
+        "company-mcq-13",
+        "company-mcq-08"
       ],
-      "explanation": "留意語境：good/bad company（交往對象）。這裡指「好／壞的朋友或交往圈子」。",
+      "explanation": "本句的「bad company」指「可能對某人產生不良影響的朋友或交往對象」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "bad company"
       ],
       "optionReasons": {
-        "company-12": "本句的意思是「好／壞的朋友或交往圈子」。",
-        "company-13": "「是很好的伴；相處愉快」與本句語境不同。",
-        "company-14": "「跟某人來往；結交」與本句語境不同。",
-        "company-15": "「一行人；同行者」與本句語境不同。",
-        "company-16": "「劇團；演藝團體」與本句語境不同。",
-        "company-17": "「舞蹈團體；舞團」與本句語境不同。"
-      }
+        "company-mcq-11": "本句指「可能對某人產生不良影響的朋友或交往對象」。",
+        "company-mcq-10": "「某人平日經常相處、來往或結交的一群人」是「company someone keeps」的用法，與本句語境不同。",
+        "company-mcq-12": "「跟別人相處時令人感到愉快、有趣或舒服」是「be good company」的用法，與本句語境不同。",
+        "company-mcq-09": "「與某人一起、處於某人的陪伴之中」是「in someone’s company」的用法，與本句語境不同。",
+        "company-mcq-13": "「經常與某人交往或相處；較傳統／正式」是「keep company with」的用法，與本句語境不同。",
+        "company-mcq-08": "「到某人家中探訪、作客或一起相處的人」是「company — visitors」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-11"
     },
     {
       "id": "company-12-1",
-      "sense": "company-12",
+      "sense": "company-mcq-11",
       "en": "She is excellent company on a long journey.",
       "zh": "長途旅程中她是一個很好的旅伴／很好相處的人。",
       "masked": "She is excellent ____ on a long journey.",
       "options": [
-        "company-12",
-        "company-13",
-        "company-14",
-        "company-15",
-        "company-16",
-        "company-17"
+        "company-mcq-11",
+        "company-mcq-10",
+        "company-mcq-12",
+        "company-mcq-09",
+        "company-mcq-13",
+        "company-mcq-08"
       ],
-      "explanation": "留意語境：good/bad company（交往對象）。這裡指「好／壞的朋友或交往圈子」。",
+      "explanation": "本句的「company」指「可能對某人產生不良影響的朋友或交往對象」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-12": "本句的意思是「好／壞的朋友或交往圈子」。",
-        "company-13": "「是很好的伴；相處愉快」與本句語境不同。",
-        "company-14": "「跟某人來往；結交」與本句語境不同。",
-        "company-15": "「一行人；同行者」與本句語境不同。",
-        "company-16": "「劇團；演藝團體」與本句語境不同。",
-        "company-17": "「舞蹈團體；舞團」與本句語境不同。"
-      }
+        "company-mcq-11": "本句指「可能對某人產生不良影響的朋友或交往對象」。",
+        "company-mcq-10": "「某人平日經常相處、來往或結交的一群人」是「company someone keeps」的用法，與本句語境不同。",
+        "company-mcq-12": "「跟別人相處時令人感到愉快、有趣或舒服」是「be good company」的用法，與本句語境不同。",
+        "company-mcq-09": "「與某人一起、處於某人的陪伴之中」是「in someone’s company」的用法，與本句語境不同。",
+        "company-mcq-13": "「經常與某人交往或相處；較傳統／正式」是「keep company with」的用法，與本句語境不同。",
+        "company-mcq-08": "「到某人家中探訪、作客或一起相處的人」是「company — visitors」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-11"
     },
     {
       "id": "company-13-0",
-      "sense": "company-13",
+      "sense": "company-mcq-12",
       "en": "He tells great stories and is always good company.",
       "zh": "他很會說故事，而且一直都是個很好相處、很適合作伴的人。",
       "masked": "He tells great stories and is always ____.",
       "options": [
-        "company-13",
-        "company-14",
-        "company-15",
-        "company-16",
-        "company-17",
-        "company-18"
+        "company-mcq-12",
+        "company-mcq-11",
+        "company-mcq-13",
+        "company-mcq-10",
+        "company-mcq-14",
+        "company-mcq-09"
       ],
-      "explanation": "留意語境：someone is good company（某人很好相處）。這裡指「是很好的伴；相處愉快」。",
+      "explanation": "本句的「good company」指「跟別人相處時令人感到愉快、有趣或舒服」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "good company"
       ],
       "optionReasons": {
-        "company-13": "本句的意思是「是很好的伴；相處愉快」。",
-        "company-14": "「跟某人來往；結交」與本句語境不同。",
-        "company-15": "「一行人；同行者」與本句語境不同。",
-        "company-16": "「劇團；演藝團體」與本句語境不同。",
-        "company-17": "「舞蹈團體；舞團」與本句語境不同。",
-        "company-18": "「專業表演團體」與本句語境不同。"
-      }
+        "company-mcq-12": "本句指「跟別人相處時令人感到愉快、有趣或舒服」。",
+        "company-mcq-11": "「可能對某人產生不良影響的朋友或交往對象」是「bad company」的用法，與本句語境不同。",
+        "company-mcq-13": "「經常與某人交往或相處；較傳統／正式」是「keep company with」的用法，與本句語境不同。",
+        "company-mcq-10": "「某人平日經常相處、來往或結交的一群人」是「company someone keeps」的用法，與本句語境不同。",
+        "company-mcq-14": "「為共同活動、旅程或目的聚在一起的一群人」是「a company of people」的用法，與本句語境不同。",
+        "company-mcq-09": "「與某人一起、處於某人的陪伴之中」是「in someone’s company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-12"
     },
     {
       "id": "company-13-1",
-      "sense": "company-13",
+      "sense": "company-mcq-12",
       "en": "She was excellent company during the trip.",
       "zh": "旅途中她是一位非常好的旅伴／相處很愉快的人。",
       "masked": "She was excellent ____ during the trip.",
       "options": [
-        "company-13",
-        "company-14",
-        "company-15",
-        "company-16",
-        "company-17",
-        "company-18"
+        "company-mcq-12",
+        "company-mcq-11",
+        "company-mcq-13",
+        "company-mcq-10",
+        "company-mcq-14",
+        "company-mcq-09"
       ],
-      "explanation": "留意語境：someone is good company（某人很好相處）。這裡指「是很好的伴；相處愉快」。",
+      "explanation": "本句的「company」指「跟別人相處時令人感到愉快、有趣或舒服」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-13": "本句的意思是「是很好的伴；相處愉快」。",
-        "company-14": "「跟某人來往；結交」與本句語境不同。",
-        "company-15": "「一行人；同行者」與本句語境不同。",
-        "company-16": "「劇團；演藝團體」與本句語境不同。",
-        "company-17": "「舞蹈團體；舞團」與本句語境不同。",
-        "company-18": "「專業表演團體」與本句語境不同。"
-      }
+        "company-mcq-12": "本句指「跟別人相處時令人感到愉快、有趣或舒服」。",
+        "company-mcq-11": "「可能對某人產生不良影響的朋友或交往對象」是「bad company」的用法，與本句語境不同。",
+        "company-mcq-13": "「經常與某人交往或相處；較傳統／正式」是「keep company with」的用法，與本句語境不同。",
+        "company-mcq-10": "「某人平日經常相處、來往或結交的一群人」是「company someone keeps」的用法，與本句語境不同。",
+        "company-mcq-14": "「為共同活動、旅程或目的聚在一起的一群人」是「a company of people」的用法，與本句語境不同。",
+        "company-mcq-09": "「與某人一起、處於某人的陪伴之中」是「in someone’s company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-12"
     },
     {
       "id": "company-14-0",
-      "sense": "company-14",
+      "sense": "company-mcq-13",
       "en": "He began to keep company with a group of artists.",
       "zh": "他開始跟一群藝術家來往。",
       "masked": "He began to ____ a group of artists.",
       "options": [
-        "company-14",
-        "company-15",
-        "company-16",
-        "company-17",
-        "company-18",
-        "company-19"
+        "company-mcq-13",
+        "company-mcq-12",
+        "company-mcq-14",
+        "company-mcq-11",
+        "company-mcq-15",
+        "company-mcq-10"
       ],
-      "explanation": "留意語境：keep company with someone（與某人交往）。這裡指「跟某人來往；結交」。",
+      "explanation": "本句的「keep company with」指「經常與某人交往或相處；較傳統／正式」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "keep company with"
       ],
       "optionReasons": {
-        "company-14": "本句的意思是「跟某人來往；結交」。",
-        "company-15": "「一行人；同行者」與本句語境不同。",
-        "company-16": "「劇團；演藝團體」與本句語境不同。",
-        "company-17": "「舞蹈團體；舞團」與本句語境不同。",
-        "company-18": "「專業表演團體」與本句語境不同。",
-        "company-19": "「連；連隊」與本句語境不同。"
-      }
+        "company-mcq-13": "本句指「經常與某人交往或相處；較傳統／正式」。",
+        "company-mcq-12": "「跟別人相處時令人感到愉快、有趣或舒服」是「be good company」的用法，與本句語境不同。",
+        "company-mcq-14": "「為共同活動、旅程或目的聚在一起的一群人」是「a company of people」的用法，與本句語境不同。",
+        "company-mcq-11": "「可能對某人產生不良影響的朋友或交往對象」是「bad company」的用法，與本句語境不同。",
+        "company-mcq-15": "「由演員、導演等共同製作舞台演出的專業劇團」是「theatre company」的用法，與本句語境不同。",
+        "company-mcq-10": "「某人平日經常相處、來往或結交的一群人」是「company someone keeps」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-13"
     },
     {
       "id": "company-14-1",
-      "sense": "company-14",
+      "sense": "company-mcq-13",
       "en": "People judged him by the people he kept company with.",
       "zh": "別人會根據他平日跟甚麼人來往來評價他。",
       "masked": "People judged him by the people he ____.",
       "options": [
-        "company-14",
-        "company-15",
-        "company-16",
-        "company-17",
-        "company-18",
-        "company-19"
+        "company-mcq-13",
+        "company-mcq-12",
+        "company-mcq-14",
+        "company-mcq-11",
+        "company-mcq-15",
+        "company-mcq-10"
       ],
-      "explanation": "留意語境：keep company with someone（與某人交往）。這裡指「跟某人來往；結交」。",
+      "explanation": "本句的「kept company with」指「經常與某人交往或相處；較傳統／正式」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "kept company with"
       ],
       "optionReasons": {
-        "company-14": "本句的意思是「跟某人來往；結交」。",
-        "company-15": "「一行人；同行者」與本句語境不同。",
-        "company-16": "「劇團；演藝團體」與本句語境不同。",
-        "company-17": "「舞蹈團體；舞團」與本句語境不同。",
-        "company-18": "「專業表演團體」與本句語境不同。",
-        "company-19": "「連；連隊」與本句語境不同。"
-      }
+        "company-mcq-13": "本句指「經常與某人交往或相處；較傳統／正式」。",
+        "company-mcq-12": "「跟別人相處時令人感到愉快、有趣或舒服」是「be good company」的用法，與本句語境不同。",
+        "company-mcq-14": "「為共同活動、旅程或目的聚在一起的一群人」是「a company of people」的用法，與本句語境不同。",
+        "company-mcq-11": "「可能對某人產生不良影響的朋友或交往對象」是「bad company」的用法，與本句語境不同。",
+        "company-mcq-15": "「由演員、導演等共同製作舞台演出的專業劇團」是「theatre company」的用法，與本句語境不同。",
+        "company-mcq-10": "「某人平日經常相處、來往或結交的一群人」是「company someone keeps」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-13"
     },
     {
       "id": "company-15-0",
-      "sense": "company-15",
+      "sense": "company-mcq-14",
       "en": "A small company of travellers entered the village.",
       "zh": "一小群旅人／同行者進入村莊。",
       "masked": "A small ____ entered the village.",
       "options": [
-        "company-15",
-        "company-16",
-        "company-17",
-        "company-18",
-        "company-19",
-        "company-20"
+        "company-mcq-14",
+        "company-mcq-13",
+        "company-mcq-15",
+        "company-mcq-12",
+        "company-mcq-16",
+        "company-mcq-11"
       ],
-      "explanation": "留意語境：company = group of people together（同伴／一群人）。這裡指「一行人；同行者」。",
+      "explanation": "本句的「company of travellers」指「為共同活動、旅程或目的聚在一起的一群人」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company of travellers"
       ],
       "optionReasons": {
-        "company-15": "本句的意思是「一行人；同行者」。",
-        "company-16": "「劇團；演藝團體」與本句語境不同。",
-        "company-17": "「舞蹈團體；舞團」與本句語境不同。",
-        "company-18": "「專業表演團體」與本句語境不同。",
-        "company-19": "「連；連隊」與本句語境不同。",
-        "company-20": "「軍事單位指揮官」與本句語境不同。"
-      }
+        "company-mcq-14": "本句指「為共同活動、旅程或目的聚在一起的一群人」。",
+        "company-mcq-13": "「經常與某人交往或相處；較傳統／正式」是「keep company with」的用法，與本句語境不同。",
+        "company-mcq-15": "「由演員、導演等共同製作舞台演出的專業劇團」是「theatre company」的用法，與本句語境不同。",
+        "company-mcq-12": "「跟別人相處時令人感到愉快、有趣或舒服」是「be good company」的用法，與本句語境不同。",
+        "company-mcq-16": "「由專業舞蹈員及相關製作人員組成的舞團」是「dance company」的用法，與本句語境不同。",
+        "company-mcq-11": "「可能對某人產生不良影響的朋友或交往對象」是「bad company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-14"
     },
     {
       "id": "company-15-1",
-      "sense": "company-15",
+      "sense": "company-mcq-14",
       "en": "He joined a company of friends for dinner.",
       "zh": "他加入了一群朋友一起吃晚飯。",
       "masked": "He joined a ____ for dinner.",
       "options": [
-        "company-15",
-        "company-16",
-        "company-17",
-        "company-18",
-        "company-19",
-        "company-20"
+        "company-mcq-14",
+        "company-mcq-13",
+        "company-mcq-15",
+        "company-mcq-12",
+        "company-mcq-16",
+        "company-mcq-11"
       ],
-      "explanation": "留意語境：company = group of people together（同伴／一群人）。這裡指「一行人；同行者」。",
+      "explanation": "本句的「company of friends」指「為共同活動、旅程或目的聚在一起的一群人」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company of friends"
       ],
       "optionReasons": {
-        "company-15": "本句的意思是「一行人；同行者」。",
-        "company-16": "「劇團；演藝團體」與本句語境不同。",
-        "company-17": "「舞蹈團體；舞團」與本句語境不同。",
-        "company-18": "「專業表演團體」與本句語境不同。",
-        "company-19": "「連；連隊」與本句語境不同。",
-        "company-20": "「軍事單位指揮官」與本句語境不同。"
-      }
+        "company-mcq-14": "本句指「為共同活動、旅程或目的聚在一起的一群人」。",
+        "company-mcq-13": "「經常與某人交往或相處；較傳統／正式」是「keep company with」的用法，與本句語境不同。",
+        "company-mcq-15": "「由演員、導演等共同製作舞台演出的專業劇團」是「theatre company」的用法，與本句語境不同。",
+        "company-mcq-12": "「跟別人相處時令人感到愉快、有趣或舒服」是「be good company」的用法，與本句語境不同。",
+        "company-mcq-16": "「由專業舞蹈員及相關製作人員組成的舞團」是「dance company」的用法，與本句語境不同。",
+        "company-mcq-11": "「可能對某人產生不良影響的朋友或交往對象」是「bad company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-14"
     },
     {
       "id": "company-16-0",
-      "sense": "company-16",
+      "sense": "company-mcq-15",
       "en": "She joined a professional theatre company.",
       "zh": "她加入了一個專業劇團。",
       "masked": "She joined a professional theatre ____.",
       "options": [
-        "company-16",
-        "company-17",
-        "company-18",
-        "company-19",
-        "company-20",
-        "company-21"
+        "company-mcq-15",
+        "company-mcq-14",
+        "company-mcq-16",
+        "company-mcq-13",
+        "company-mcq-17",
+        "company-mcq-12"
       ],
-      "explanation": "留意語境：company = theatre/acting group（劇團）。這裡指「劇團；演藝團體」。",
+      "explanation": "本句的「company」指「由演員、導演等共同製作舞台演出的專業劇團」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-16": "本句的意思是「劇團；演藝團體」。",
-        "company-17": "「舞蹈團體；舞團」與本句語境不同。",
-        "company-18": "「專業表演團體」與本句語境不同。",
-        "company-19": "「連；連隊」與本句語境不同。",
-        "company-20": "「軍事單位指揮官」與本句語境不同。",
-        "company-21": "「分別；分道揚鑣」與本句語境不同。"
-      }
+        "company-mcq-15": "本句指「由演員、導演等共同製作舞台演出的專業劇團」。",
+        "company-mcq-14": "「為共同活動、旅程或目的聚在一起的一群人」是「a company of people」的用法，與本句語境不同。",
+        "company-mcq-16": "「由專業舞蹈員及相關製作人員組成的舞團」是「dance company」的用法，與本句語境不同。",
+        "company-mcq-13": "「經常與某人交往或相處；較傳統／正式」是「keep company with」的用法，與本句語境不同。",
+        "company-mcq-17": "「共同製作歌劇／芭蕾舞演出的固定專業團體」是「opera/ballet company」的用法，與本句語境不同。",
+        "company-mcq-12": "「跟別人相處時令人感到愉快、有趣或舒服」是「be good company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-15"
     },
     {
       "id": "company-16-1",
-      "sense": "company-16",
+      "sense": "company-mcq-15",
       "en": "The company is performing Shakespeare this season.",
       "zh": "這個劇團今季正在演出莎士比亞作品。",
       "masked": "The ____ is performing Shakespeare this season.",
       "options": [
-        "company-16",
-        "company-17",
-        "company-18",
-        "company-19",
-        "company-20",
-        "company-21"
+        "company-mcq-15",
+        "company-mcq-14",
+        "company-mcq-16",
+        "company-mcq-13",
+        "company-mcq-17",
+        "company-mcq-12"
       ],
-      "explanation": "留意語境：company = theatre/acting group（劇團）。這裡指「劇團；演藝團體」。",
+      "explanation": "本句的「company」指「由演員、導演等共同製作舞台演出的專業劇團」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-16": "本句的意思是「劇團；演藝團體」。",
-        "company-17": "「舞蹈團體；舞團」與本句語境不同。",
-        "company-18": "「專業表演團體」與本句語境不同。",
-        "company-19": "「連；連隊」與本句語境不同。",
-        "company-20": "「軍事單位指揮官」與本句語境不同。",
-        "company-21": "「分別；分道揚鑣」與本句語境不同。"
-      }
+        "company-mcq-15": "本句指「由演員、導演等共同製作舞台演出的專業劇團」。",
+        "company-mcq-14": "「為共同活動、旅程或目的聚在一起的一群人」是「a company of people」的用法，與本句語境不同。",
+        "company-mcq-16": "「由專業舞蹈員及相關製作人員組成的舞團」是「dance company」的用法，與本句語境不同。",
+        "company-mcq-13": "「經常與某人交往或相處；較傳統／正式」是「keep company with」的用法，與本句語境不同。",
+        "company-mcq-17": "「共同製作歌劇／芭蕾舞演出的固定專業團體」是「opera/ballet company」的用法，與本句語境不同。",
+        "company-mcq-12": "「跟別人相處時令人感到愉快、有趣或舒服」是「be good company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-15"
     },
     {
       "id": "company-17-0",
-      "sense": "company-17",
+      "sense": "company-mcq-16",
       "en": "She performs with an international dance company.",
       "zh": "她在一個國際舞團表演。",
       "masked": "She performs with an international dance ____.",
       "options": [
-        "company-17",
-        "company-18",
-        "company-19",
-        "company-20",
-        "company-21",
-        "company-22"
+        "company-mcq-16",
+        "company-mcq-15",
+        "company-mcq-17",
+        "company-mcq-14",
+        "company-mcq-18",
+        "company-mcq-13"
       ],
-      "explanation": "留意語境：dance company（舞團）。這裡指「舞蹈團體；舞團」。",
+      "explanation": "本句的「company」指「由專業舞蹈員及相關製作人員組成的舞團」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-17": "本句的意思是「舞蹈團體；舞團」。",
-        "company-18": "「專業表演團體」與本句語境不同。",
-        "company-19": "「連；連隊」與本句語境不同。",
-        "company-20": "「軍事單位指揮官」與本句語境不同。",
-        "company-21": "「分別；分道揚鑣」與本句語境不同。",
-        "company-22": "「與某人在某問題上意見不同」與本句語境不同。"
-      }
+        "company-mcq-16": "本句指「由專業舞蹈員及相關製作人員組成的舞團」。",
+        "company-mcq-15": "「由演員、導演等共同製作舞台演出的專業劇團」是「theatre company」的用法，與本句語境不同。",
+        "company-mcq-17": "「共同製作歌劇／芭蕾舞演出的固定專業團體」是「opera/ballet company」的用法，與本句語境不同。",
+        "company-mcq-14": "「為共同活動、旅程或目的聚在一起的一群人」是「a company of people」的用法，與本句語境不同。",
+        "company-mcq-18": "「軍隊中的一個編制單位；連／連隊」是「military company」的用法，與本句語境不同。",
+        "company-mcq-13": "「經常與某人交往或相處；較傳統／正式」是「keep company with」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-16"
     },
     {
       "id": "company-17-1",
-      "sense": "company-17",
+      "sense": "company-mcq-16",
       "en": "The dance company toured Europe last year.",
       "zh": "這個舞團去年在歐洲巡演。",
       "masked": "The dance ____ toured Europe last year.",
       "options": [
-        "company-17",
-        "company-18",
-        "company-19",
-        "company-20",
-        "company-21",
-        "company-22"
+        "company-mcq-16",
+        "company-mcq-15",
+        "company-mcq-17",
+        "company-mcq-14",
+        "company-mcq-18",
+        "company-mcq-13"
       ],
-      "explanation": "留意語境：dance company（舞團）。這裡指「舞蹈團體；舞團」。",
+      "explanation": "本句的「company」指「由專業舞蹈員及相關製作人員組成的舞團」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-17": "本句的意思是「舞蹈團體；舞團」。",
-        "company-18": "「專業表演團體」與本句語境不同。",
-        "company-19": "「連；連隊」與本句語境不同。",
-        "company-20": "「軍事單位指揮官」與本句語境不同。",
-        "company-21": "「分別；分道揚鑣」與本句語境不同。",
-        "company-22": "「與某人在某問題上意見不同」與本句語境不同。"
-      }
+        "company-mcq-16": "本句指「由專業舞蹈員及相關製作人員組成的舞團」。",
+        "company-mcq-15": "「由演員、導演等共同製作舞台演出的專業劇團」是「theatre company」的用法，與本句語境不同。",
+        "company-mcq-17": "「共同製作歌劇／芭蕾舞演出的固定專業團體」是「opera/ballet company」的用法，與本句語境不同。",
+        "company-mcq-14": "「為共同活動、旅程或目的聚在一起的一群人」是「a company of people」的用法，與本句語境不同。",
+        "company-mcq-18": "「軍隊中的一個編制單位；連／連隊」是「military company」的用法，與本句語境不同。",
+        "company-mcq-13": "「經常與某人交往或相處；較傳統／正式」是「keep company with」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-16"
     },
     {
       "id": "company-18-0",
-      "sense": "company-18",
+      "sense": "company-mcq-17",
       "en": "He works for a national opera company.",
       "zh": "他在一家國家級歌劇團工作。",
       "masked": "He works for a national opera ____.",
       "options": [
-        "company-18",
-        "company-19",
-        "company-20",
-        "company-21",
-        "company-22",
-        "company-23"
+        "company-mcq-17",
+        "company-mcq-16",
+        "company-mcq-18",
+        "company-mcq-15",
+        "company-mcq-19",
+        "company-mcq-14"
       ],
-      "explanation": "留意語境：opera/ballet company（歌劇團／芭蕾舞團）。這裡指「專業表演團體」。",
+      "explanation": "本句的「company」指「共同製作歌劇／芭蕾舞演出的固定專業團體」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-18": "本句的意思是「專業表演團體」。",
-        "company-19": "「連；連隊」與本句語境不同。",
-        "company-20": "「軍事單位指揮官」與本句語境不同。",
-        "company-21": "「分別；分道揚鑣」與本句語境不同。",
-        "company-22": "「與某人在某問題上意見不同」與本句語境不同。",
-        "company-23": "「全公司範圍的」與本句語境不同。"
-      }
+        "company-mcq-17": "本句指「共同製作歌劇／芭蕾舞演出的固定專業團體」。",
+        "company-mcq-16": "「由專業舞蹈員及相關製作人員組成的舞團」是「dance company」的用法，與本句語境不同。",
+        "company-mcq-18": "「軍隊中的一個編制單位；連／連隊」是「military company」的用法，與本句語境不同。",
+        "company-mcq-15": "「由演員、導演等共同製作舞台演出的專業劇團」是「theatre company」的用法，與本句語境不同。",
+        "company-mcq-19": "「負責指揮一個軍事連隊的軍官；連長」是「company commander」的用法，與本句語境不同。",
+        "company-mcq-14": "「為共同活動、旅程或目的聚在一起的一群人」是「a company of people」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-17"
     },
     {
       "id": "company-18-1",
-      "sense": "company-18",
+      "sense": "company-mcq-17",
       "en": "The ballet company has dancers from twelve countries.",
       "zh": "這個芭蕾舞團有來自十二個國家的舞蹈員。",
       "masked": "The ballet ____ has dancers from twelve countries.",
       "options": [
-        "company-18",
-        "company-19",
-        "company-20",
-        "company-21",
-        "company-22",
-        "company-23"
+        "company-mcq-17",
+        "company-mcq-16",
+        "company-mcq-18",
+        "company-mcq-15",
+        "company-mcq-19",
+        "company-mcq-14"
       ],
-      "explanation": "留意語境：opera/ballet company（歌劇團／芭蕾舞團）。這裡指「專業表演團體」。",
+      "explanation": "本句的「company」指「共同製作歌劇／芭蕾舞演出的固定專業團體」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-18": "本句的意思是「專業表演團體」。",
-        "company-19": "「連；連隊」與本句語境不同。",
-        "company-20": "「軍事單位指揮官」與本句語境不同。",
-        "company-21": "「分別；分道揚鑣」與本句語境不同。",
-        "company-22": "「與某人在某問題上意見不同」與本句語境不同。",
-        "company-23": "「全公司範圍的」與本句語境不同。"
-      }
+        "company-mcq-17": "本句指「共同製作歌劇／芭蕾舞演出的固定專業團體」。",
+        "company-mcq-16": "「由專業舞蹈員及相關製作人員組成的舞團」是「dance company」的用法，與本句語境不同。",
+        "company-mcq-18": "「軍隊中的一個編制單位；連／連隊」是「military company」的用法，與本句語境不同。",
+        "company-mcq-15": "「由演員、導演等共同製作舞台演出的專業劇團」是「theatre company」的用法，與本句語境不同。",
+        "company-mcq-19": "「負責指揮一個軍事連隊的軍官；連長」是「company commander」的用法，與本句語境不同。",
+        "company-mcq-14": "「為共同活動、旅程或目的聚在一起的一群人」是「a company of people」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-17"
     },
     {
       "id": "company-19-0",
-      "sense": "company-19",
+      "sense": "company-mcq-18",
       "en": "He commanded a company of soldiers.",
       "zh": "他指揮一個連的士兵／連隊。",
       "masked": "He commanded a ____ of soldiers.",
       "options": [
-        "company-19",
-        "company-20",
-        "company-21",
-        "company-22",
-        "company-23",
-        "company-24"
+        "company-mcq-18",
+        "company-mcq-17",
+        "company-mcq-19",
+        "company-mcq-16",
+        "company-mcq-20",
+        "company-mcq-15"
       ],
-      "explanation": "留意語境：company = military unit（軍事單位）。這裡指「連；連隊」。",
+      "explanation": "本句的「company」指「軍隊中的一個編制單位；連／連隊」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-19": "本句的意思是「連；連隊」。",
-        "company-20": "「軍事單位指揮官」與本句語境不同。",
-        "company-21": "「分別；分道揚鑣」與本句語境不同。",
-        "company-22": "「與某人在某問題上意見不同」與本句語境不同。",
-        "company-23": "「全公司範圍的」與本句語境不同。",
-        "company-24": "「公司所有的」與本句語境不同。"
-      }
+        "company-mcq-18": "本句指「軍隊中的一個編制單位；連／連隊」。",
+        "company-mcq-17": "「共同製作歌劇／芭蕾舞演出的固定專業團體」是「opera/ballet company」的用法，與本句語境不同。",
+        "company-mcq-19": "「負責指揮一個軍事連隊的軍官；連長」是「company commander」的用法，與本句語境不同。",
+        "company-mcq-16": "「由專業舞蹈員及相關製作人員組成的舞團」是「dance company」的用法，與本句語境不同。",
+        "company-mcq-20": "「原本一起或合作的人／組織分開、不再共同前進或合作」是「part company — separate」的用法，與本句語境不同。",
+        "company-mcq-15": "「由演員、導演等共同製作舞台演出的專業劇團」是「theatre company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-18"
     },
     {
       "id": "company-19-1",
-      "sense": "company-19",
+      "sense": "company-mcq-18",
       "en": "The company moved into position before dawn.",
       "zh": "該連隊在黎明前移動到指定位置。",
       "masked": "The ____ moved into position before dawn.",
       "options": [
-        "company-19",
-        "company-20",
-        "company-21",
-        "company-22",
-        "company-23",
-        "company-24"
+        "company-mcq-18",
+        "company-mcq-17",
+        "company-mcq-19",
+        "company-mcq-16",
+        "company-mcq-20",
+        "company-mcq-15"
       ],
-      "explanation": "留意語境：company = military unit（軍事單位）。這裡指「連；連隊」。",
+      "explanation": "本句的「company」指「軍隊中的一個編制單位；連／連隊」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company"
       ],
       "optionReasons": {
-        "company-19": "本句的意思是「連；連隊」。",
-        "company-20": "「軍事單位指揮官」與本句語境不同。",
-        "company-21": "「分別；分道揚鑣」與本句語境不同。",
-        "company-22": "「與某人在某問題上意見不同」與本句語境不同。",
-        "company-23": "「全公司範圍的」與本句語境不同。",
-        "company-24": "「公司所有的」與本句語境不同。"
-      }
+        "company-mcq-18": "本句指「軍隊中的一個編制單位；連／連隊」。",
+        "company-mcq-17": "「共同製作歌劇／芭蕾舞演出的固定專業團體」是「opera/ballet company」的用法，與本句語境不同。",
+        "company-mcq-19": "「負責指揮一個軍事連隊的軍官；連長」是「company commander」的用法，與本句語境不同。",
+        "company-mcq-16": "「由專業舞蹈員及相關製作人員組成的舞團」是「dance company」的用法，與本句語境不同。",
+        "company-mcq-20": "「原本一起或合作的人／組織分開、不再共同前進或合作」是「part company — separate」的用法，與本句語境不同。",
+        "company-mcq-15": "「由演員、導演等共同製作舞台演出的專業劇團」是「theatre company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-18"
     },
     {
       "id": "company-20-0",
-      "sense": "company-20",
+      "sense": "company-mcq-19",
       "en": "The company commander briefed the soldiers.",
       "zh": "連長向士兵作出簡報。",
       "masked": "The ____ briefed the soldiers.",
       "options": [
-        "company-20",
-        "company-21",
-        "company-22",
-        "company-23",
-        "company-24",
-        "company-25"
+        "company-mcq-19",
+        "company-mcq-18",
+        "company-mcq-20",
+        "company-mcq-17",
+        "company-mcq-21",
+        "company-mcq-16"
       ],
-      "explanation": "留意語境：company commander（連長）。這裡指「軍事單位指揮官」。",
+      "explanation": "本句的「company commander」指「負責指揮一個軍事連隊的軍官；連長」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company commander"
       ],
       "optionReasons": {
-        "company-20": "本句的意思是「軍事單位指揮官」。",
-        "company-21": "「分別；分道揚鑣」與本句語境不同。",
-        "company-22": "「與某人在某問題上意見不同」與本句語境不同。",
-        "company-23": "「全公司範圍的」與本句語境不同。",
-        "company-24": "「公司所有的」與本句語境不同。",
-        "company-25": "「公司提供的汽車」與本句語境不同。"
-      }
+        "company-mcq-19": "本句指「負責指揮一個軍事連隊的軍官；連長」。",
+        "company-mcq-18": "「軍隊中的一個編制單位；連／連隊」是「military company」的用法，與本句語境不同。",
+        "company-mcq-20": "「原本一起或合作的人／組織分開、不再共同前進或合作」是「part company — separate」的用法，與本句語境不同。",
+        "company-mcq-17": "「共同製作歌劇／芭蕾舞演出的固定專業團體」是「opera/ballet company」的用法，與本句語境不同。",
+        "company-mcq-21": "「在某項觀點、判斷或原則上不再與另一人持相同立場」是「part company — disagree」的用法，與本句語境不同。",
+        "company-mcq-16": "「由專業舞蹈員及相關製作人員組成的舞團」是「dance company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-19"
     },
     {
       "id": "company-20-1",
-      "sense": "company-20",
+      "sense": "company-mcq-19",
       "en": "She served as a company commander.",
       "zh": "她曾擔任連長。",
       "masked": "She served as a ____.",
       "options": [
-        "company-20",
-        "company-21",
-        "company-22",
-        "company-23",
-        "company-24",
-        "company-25"
+        "company-mcq-19",
+        "company-mcq-18",
+        "company-mcq-20",
+        "company-mcq-17",
+        "company-mcq-21",
+        "company-mcq-16"
       ],
-      "explanation": "留意語境：company commander（連長）。這裡指「軍事單位指揮官」。",
+      "explanation": "本句的「company commander」指「負責指揮一個軍事連隊的軍官；連長」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company commander"
       ],
       "optionReasons": {
-        "company-20": "本句的意思是「軍事單位指揮官」。",
-        "company-21": "「分別；分道揚鑣」與本句語境不同。",
-        "company-22": "「與某人在某問題上意見不同」與本句語境不同。",
-        "company-23": "「全公司範圍的」與本句語境不同。",
-        "company-24": "「公司所有的」與本句語境不同。",
-        "company-25": "「公司提供的汽車」與本句語境不同。"
-      }
+        "company-mcq-19": "本句指「負責指揮一個軍事連隊的軍官；連長」。",
+        "company-mcq-18": "「軍隊中的一個編制單位；連／連隊」是「military company」的用法，與本句語境不同。",
+        "company-mcq-20": "「原本一起或合作的人／組織分開、不再共同前進或合作」是「part company — separate」的用法，與本句語境不同。",
+        "company-mcq-17": "「共同製作歌劇／芭蕾舞演出的固定專業團體」是「opera/ballet company」的用法，與本句語境不同。",
+        "company-mcq-21": "「在某項觀點、判斷或原則上不再與另一人持相同立場」是「part company — disagree」的用法，與本句語境不同。",
+        "company-mcq-16": "「由專業舞蹈員及相關製作人員組成的舞團」是「dance company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-19"
     },
     {
       "id": "company-21-0",
-      "sense": "company-21",
+      "sense": "company-mcq-20",
       "en": "We parted company after dinner.",
       "zh": "晚飯後我們便分開，各自離去。",
       "masked": "We ____ after dinner.",
       "options": [
-        "company-21",
-        "company-22",
-        "company-23",
-        "company-24",
-        "company-25",
-        "company-26"
+        "company-mcq-20",
+        "company-mcq-19",
+        "company-mcq-21",
+        "company-mcq-18",
+        "company-mcq-22",
+        "company-mcq-17"
       ],
-      "explanation": "留意語境：part company（分開；分道揚鑣）。這裡指「分別；分道揚鑣」。",
+      "explanation": "本句的「parted company」指「原本一起或合作的人／組織分開、不再共同前進或合作」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "parted company"
       ],
       "optionReasons": {
-        "company-21": "本句的意思是「分別；分道揚鑣」。",
-        "company-22": "「與某人在某問題上意見不同」與本句語境不同。",
-        "company-23": "「全公司範圍的」與本句語境不同。",
-        "company-24": "「公司所有的」與本句語境不同。",
-        "company-25": "「公司提供的汽車」與本句語境不同。",
-        "company-26": "「企業文化」與本句語境不同。"
-      }
+        "company-mcq-20": "本句指「原本一起或合作的人／組織分開、不再共同前進或合作」。",
+        "company-mcq-19": "「負責指揮一個軍事連隊的軍官；連長」是「company commander」的用法，與本句語境不同。",
+        "company-mcq-21": "「在某項觀點、判斷或原則上不再與另一人持相同立場」是「part company — disagree」的用法，與本句語境不同。",
+        "company-mcq-18": "「軍隊中的一個編制單位；連／連隊」是「military company」的用法，與本句語境不同。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。",
+        "company-mcq-17": "「共同製作歌劇／芭蕾舞演出的固定專業團體」是「opera/ballet company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-20"
     },
     {
       "id": "company-21-1",
-      "sense": "company-21",
+      "sense": "company-mcq-20",
       "en": "The two business partners eventually parted company.",
       "zh": "兩名生意伙伴最後分道揚鑣，不再合作。",
       "masked": "The two business partners eventually ____.",
       "options": [
-        "company-21",
-        "company-22",
-        "company-23",
-        "company-24",
-        "company-25",
-        "company-26"
+        "company-mcq-20",
+        "company-mcq-19",
+        "company-mcq-21",
+        "company-mcq-18",
+        "company-mcq-22",
+        "company-mcq-17"
       ],
-      "explanation": "留意語境：part company（分開；分道揚鑣）。這裡指「分別；分道揚鑣」。",
+      "explanation": "本句的「parted company」指「原本一起或合作的人／組織分開、不再共同前進或合作」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "parted company"
       ],
       "optionReasons": {
-        "company-21": "本句的意思是「分別；分道揚鑣」。",
-        "company-22": "「與某人在某問題上意見不同」與本句語境不同。",
-        "company-23": "「全公司範圍的」與本句語境不同。",
-        "company-24": "「公司所有的」與本句語境不同。",
-        "company-25": "「公司提供的汽車」與本句語境不同。",
-        "company-26": "「企業文化」與本句語境不同。"
-      }
+        "company-mcq-20": "本句指「原本一起或合作的人／組織分開、不再共同前進或合作」。",
+        "company-mcq-19": "「負責指揮一個軍事連隊的軍官；連長」是「company commander」的用法，與本句語境不同。",
+        "company-mcq-21": "「在某項觀點、判斷或原則上不再與另一人持相同立場」是「part company — disagree」的用法，與本句語境不同。",
+        "company-mcq-18": "「軍隊中的一個編制單位；連／連隊」是「military company」的用法，與本句語境不同。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。",
+        "company-mcq-17": "「共同製作歌劇／芭蕾舞演出的固定專業團體」是「opera/ballet company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-20"
     },
     {
       "id": "company-22-0",
-      "sense": "company-22",
+      "sense": "company-mcq-21",
       "en": "I agree with most of his argument, but I part company with him on this point.",
       "zh": "我同意他的大部分論點，但在這一點上我跟他的看法不同。",
       "masked": "I agree with most of his argument, but I ____ on this point.",
       "options": [
-        "company-22",
-        "company-23",
-        "company-24",
-        "company-25",
-        "company-26",
-        "company-27"
+        "company-mcq-21",
+        "company-mcq-20",
+        "company-mcq-22",
+        "company-mcq-19",
+        "company-mcq-23",
+        "company-mcq-18"
       ],
-      "explanation": "留意語境：part company with someone over something（意見分歧）。這裡指「與某人在某問題上意見不同」。",
+      "explanation": "本句的「part company with him」指「在某項觀點、判斷或原則上不再與另一人持相同立場」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "part company with him"
       ],
       "optionReasons": {
-        "company-22": "本句的意思是「與某人在某問題上意見不同」。",
-        "company-23": "「全公司範圍的」與本句語境不同。",
-        "company-24": "「公司所有的」與本句語境不同。",
-        "company-25": "「公司提供的汽車」與本句語境不同。",
-        "company-26": "「企業文化」與本句語境不同。",
-        "company-27": "「公司規定；企業政策」與本句語境不同。"
-      }
+        "company-mcq-21": "本句指「在某項觀點、判斷或原則上不再與另一人持相同立場」。",
+        "company-mcq-20": "「原本一起或合作的人／組織分開、不再共同前進或合作」是「part company — separate」的用法，與本句語境不同。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。",
+        "company-mcq-19": "「負責指揮一個軍事連隊的軍官；連長」是「company commander」的用法，與本句語境不同。",
+        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-18": "「軍隊中的一個編制單位；連／連隊」是「military company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-21"
     },
     {
       "id": "company-22-1",
-      "sense": "company-22",
+      "sense": "company-mcq-21",
       "en": "The two researchers part company over how the results should be interpreted.",
       "zh": "兩位研究人員對結果應如何解讀意見出現分歧。",
       "masked": "The two researchers ____ over how the results should be interpreted.",
       "options": [
-        "company-22",
-        "company-23",
-        "company-24",
-        "company-25",
-        "company-26",
-        "company-27"
+        "company-mcq-21",
+        "company-mcq-20",
+        "company-mcq-22",
+        "company-mcq-19",
+        "company-mcq-23",
+        "company-mcq-18"
       ],
-      "explanation": "留意語境：part company with someone over something（意見分歧）。這裡指「與某人在某問題上意見不同」。",
+      "explanation": "本句的「part company」指「在某項觀點、判斷或原則上不再與另一人持相同立場」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "part company"
       ],
       "optionReasons": {
-        "company-22": "本句的意思是「與某人在某問題上意見不同」。",
-        "company-23": "「全公司範圍的」與本句語境不同。",
-        "company-24": "「公司所有的」與本句語境不同。",
-        "company-25": "「公司提供的汽車」與本句語境不同。",
-        "company-26": "「企業文化」與本句語境不同。",
-        "company-27": "「公司規定；企業政策」與本句語境不同。"
-      }
+        "company-mcq-21": "本句指「在某項觀點、判斷或原則上不再與另一人持相同立場」。",
+        "company-mcq-20": "「原本一起或合作的人／組織分開、不再共同前進或合作」是「part company — separate」的用法，與本句語境不同。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。",
+        "company-mcq-19": "「負責指揮一個軍事連隊的軍官；連長」是「company commander」的用法，與本句語境不同。",
+        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-18": "「軍隊中的一個編制單位；連／連隊」是「military company」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-21"
     },
     {
       "id": "company-23-0",
-      "sense": "company-23",
+      "sense": "company-mcq-22",
       "en": "The new policy will be introduced company-wide.",
       "zh": "新政策會在全公司範圍內推行。",
       "masked": "The new policy will be introduced ____.",
       "options": [
-        "company-23",
-        "company-24",
-        "company-25",
-        "company-26",
-        "company-27",
-        "company-28"
+        "company-mcq-22",
+        "company-mcq-21",
+        "company-mcq-23",
+        "company-mcq-20",
+        "company-mcq-24",
+        "company-mcq-19"
       ],
-      "explanation": "留意語境：company-wide（全公司的）。這裡指「全公司範圍的」。",
+      "explanation": "本句的「company-wide」指「涉及或適用於整家公司所有部門或員工的」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company-wide"
       ],
       "optionReasons": {
-        "company-23": "本句的意思是「全公司範圍的」。",
-        "company-24": "「公司所有的」與本句語境不同。",
-        "company-25": "「公司提供的汽車」與本句語境不同。",
-        "company-26": "「企業文化」與本句語境不同。",
-        "company-27": "「公司規定；企業政策」與本句語境不同。",
-        "company-28": "「商號／公司名稱」與本句語境不同。"
-      }
+        "company-mcq-22": "本句指「涉及或適用於整家公司所有部門或員工的」。",
+        "company-mcq-21": "「在某項觀點、判斷或原則上不再與另一人持相同立場」是「part company — disagree」的用法，與本句語境不同。",
+        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-20": "「原本一起或合作的人／組織分開、不再共同前進或合作」是「part company — separate」的用法，與本句語境不同。",
+        "company-mcq-24": "「公司內共同形成的價值觀、工作方式、行為規範及互動模式」是「company culture」的用法，與本句語境不同。",
+        "company-mcq-19": "「負責指揮一個軍事連隊的軍官；連長」是「company commander」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-22"
     },
     {
       "id": "company-23-1",
-      "sense": "company-23",
+      "sense": "company-mcq-22",
       "en": "The organization held a company-wide meeting.",
       "zh": "該機構舉行了一次全公司會議。",
       "masked": "The organization held a ____.",
       "options": [
-        "company-23",
-        "company-24",
-        "company-25",
-        "company-26",
-        "company-27",
-        "company-28"
+        "company-mcq-22",
+        "company-mcq-21",
+        "company-mcq-23",
+        "company-mcq-20",
+        "company-mcq-24",
+        "company-mcq-19"
       ],
-      "explanation": "留意語境：company-wide（全公司的）。這裡指「全公司範圍的」。",
+      "explanation": "本句的「company-wide meeting」指「涉及或適用於整家公司所有部門或員工的」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company-wide meeting"
       ],
       "optionReasons": {
-        "company-23": "本句的意思是「全公司範圍的」。",
-        "company-24": "「公司所有的」與本句語境不同。",
-        "company-25": "「公司提供的汽車」與本句語境不同。",
-        "company-26": "「企業文化」與本句語境不同。",
-        "company-27": "「公司規定；企業政策」與本句語境不同。",
-        "company-28": "「商號／公司名稱」與本句語境不同。"
-      }
+        "company-mcq-22": "本句指「涉及或適用於整家公司所有部門或員工的」。",
+        "company-mcq-21": "「在某項觀點、判斷或原則上不再與另一人持相同立場」是「part company — disagree」的用法，與本句語境不同。",
+        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-20": "「原本一起或合作的人／組織分開、不再共同前進或合作」是「part company — separate」的用法，與本句語境不同。",
+        "company-mcq-24": "「公司內共同形成的價值觀、工作方式、行為規範及互動模式」是「company culture」的用法，與本句語境不同。",
+        "company-mcq-19": "「負責指揮一個軍事連隊的軍官；連長」是「company commander」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-22"
     },
     {
       "id": "company-24-0",
-      "sense": "company-24",
+      "sense": "company-mcq-23",
       "en": "Employees can use company-owned equipment.",
       "zh": "員工可以使用公司擁有的設備。",
       "masked": "Employees can use ____.",
       "options": [
-        "company-24",
-        "company-25",
-        "company-26",
-        "company-27",
-        "company-28",
-        "company-29"
+        "company-mcq-23",
+        "company-mcq-22",
+        "company-mcq-24",
+        "company-mcq-21",
+        "company-mcq-25",
+        "company-mcq-20"
       ],
-      "explanation": "留意語境：company-owned（公司擁有的）。這裡指「公司所有的」。",
+      "explanation": "本句的「company-owned equipment」指「所有權屬於公司的，而不是私人所有的」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company-owned equipment"
       ],
       "optionReasons": {
-        "company-24": "本句的意思是「公司所有的」。",
-        "company-25": "「公司提供的汽車」與本句語境不同。",
-        "company-26": "「企業文化」與本句語境不同。",
-        "company-27": "「公司規定；企業政策」與本句語境不同。",
-        "company-28": "「商號／公司名稱」與本句語境不同。",
-        "company-29": "「公司城鎮；企業主導社區」與本句語境不同。"
-      }
+        "company-mcq-23": "本句指「所有權屬於公司的，而不是私人所有的」。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。",
+        "company-mcq-24": "「公司內共同形成的價值觀、工作方式、行為規範及互動模式」是「company culture」的用法，與本句語境不同。",
+        "company-mcq-21": "「在某項觀點、判斷或原則上不再與另一人持相同立場」是「part company — disagree」的用法，與本句語境不同。",
+        "company-mcq-25": "「公司正式訂立、用來規範員工或業務運作的政策／規則」是「company policy」的用法，與本句語境不同。",
+        "company-mcq-20": "「原本一起或合作的人／組織分開、不再共同前進或合作」是「part company — separate」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-23"
     },
     {
       "id": "company-24-1",
-      "sense": "company-24",
+      "sense": "company-mcq-23",
       "en": "The vehicle is company-owned.",
       "zh": "這輛車是公司所有的。",
       "masked": "The vehicle is ____.",
       "options": [
-        "company-24",
-        "company-25",
-        "company-26",
-        "company-27",
-        "company-28",
-        "company-29"
+        "company-mcq-23",
+        "company-mcq-22",
+        "company-mcq-24",
+        "company-mcq-21",
+        "company-mcq-25",
+        "company-mcq-20"
       ],
-      "explanation": "留意語境：company-owned（公司擁有的）。這裡指「公司所有的」。",
+      "explanation": "本句的「company-owned」指「所有權屬於公司的，而不是私人所有的」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company-owned"
       ],
       "optionReasons": {
-        "company-24": "本句的意思是「公司所有的」。",
-        "company-25": "「公司提供的汽車」與本句語境不同。",
-        "company-26": "「企業文化」與本句語境不同。",
-        "company-27": "「公司規定；企業政策」與本句語境不同。",
-        "company-28": "「商號／公司名稱」與本句語境不同。",
-        "company-29": "「公司城鎮；企業主導社區」與本句語境不同。"
-      }
+        "company-mcq-23": "本句指「所有權屬於公司的，而不是私人所有的」。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。",
+        "company-mcq-24": "「公司內共同形成的價值觀、工作方式、行為規範及互動模式」是「company culture」的用法，與本句語境不同。",
+        "company-mcq-21": "「在某項觀點、判斷或原則上不再與另一人持相同立場」是「part company — disagree」的用法，與本句語境不同。",
+        "company-mcq-25": "「公司正式訂立、用來規範員工或業務運作的政策／規則」是「company policy」的用法，與本句語境不同。",
+        "company-mcq-20": "「原本一起或合作的人／組織分開、不再共同前進或合作」是「part company — separate」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-23"
     },
     {
       "id": "company-25-0",
-      "sense": "company-25",
+      "sense": "company-mcq-26",
       "en": "Senior managers are given a company car.",
       "zh": "高層經理會獲公司提供一輛公司車／公務車。",
       "masked": "Senior managers are given a ____.",
       "options": [
-        "company-25",
-        "company-26",
-        "company-27",
-        "company-28",
-        "company-29",
-        "company-01"
+        "company-mcq-26",
+        "company-mcq-25",
+        "company-mcq-27",
+        "company-mcq-24",
+        "company-mcq-23",
+        "company-mcq-22"
       ],
-      "explanation": "留意語境：company car（公司車輛）。這裡指「公司提供的汽車」。",
+      "explanation": "本句的「company car」指「由公司擁有或租用並提供員工作工作用途的汽車」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company car"
       ],
       "optionReasons": {
-        "company-25": "本句的意思是「公司提供的汽車」。",
-        "company-26": "「企業文化」與本句語境不同。",
-        "company-27": "「公司規定；企業政策」與本句語境不同。",
-        "company-28": "「商號／公司名稱」與本句語境不同。",
-        "company-29": "「公司城鎮；企業主導社區」與本句語境不同。",
-        "company-01": "「公司；企業」與本句語境不同。"
-      }
+        "company-mcq-26": "本句指「由公司擁有或租用並提供員工作工作用途的汽車」。",
+        "company-mcq-25": "「公司正式訂立、用來規範員工或業務運作的政策／規則」是「company policy」的用法，與本句語境不同。",
+        "company-mcq-27": "「某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮」是「company town」的用法，與本句語境不同。",
+        "company-mcq-24": "「公司內共同形成的價值觀、工作方式、行為規範及互動模式」是「company culture」的用法，與本句語境不同。",
+        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-26"
     },
     {
       "id": "company-25-1",
-      "sense": "company-25",
+      "sense": "company-mcq-26",
       "en": "He uses his company car for business trips.",
       "zh": "他出差時使用公司提供的汽車。",
       "masked": "He uses his ____ for business trips.",
       "options": [
-        "company-25",
-        "company-26",
-        "company-27",
-        "company-28",
-        "company-29",
-        "company-01"
+        "company-mcq-26",
+        "company-mcq-25",
+        "company-mcq-27",
+        "company-mcq-24",
+        "company-mcq-23",
+        "company-mcq-22"
       ],
-      "explanation": "留意語境：company car（公司車輛）。這裡指「公司提供的汽車」。",
+      "explanation": "本句的「company car」指「由公司擁有或租用並提供員工作工作用途的汽車」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company car"
       ],
       "optionReasons": {
-        "company-25": "本句的意思是「公司提供的汽車」。",
-        "company-26": "「企業文化」與本句語境不同。",
-        "company-27": "「公司規定；企業政策」與本句語境不同。",
-        "company-28": "「商號／公司名稱」與本句語境不同。",
-        "company-29": "「公司城鎮；企業主導社區」與本句語境不同。",
-        "company-01": "「公司；企業」與本句語境不同。"
-      }
+        "company-mcq-26": "本句指「由公司擁有或租用並提供員工作工作用途的汽車」。",
+        "company-mcq-25": "「公司正式訂立、用來規範員工或業務運作的政策／規則」是「company policy」的用法，與本句語境不同。",
+        "company-mcq-27": "「某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮」是「company town」的用法，與本句語境不同。",
+        "company-mcq-24": "「公司內共同形成的價值觀、工作方式、行為規範及互動模式」是「company culture」的用法，與本句語境不同。",
+        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-26"
     },
     {
       "id": "company-26-0",
-      "sense": "company-26",
+      "sense": "company-mcq-24",
       "en": "The new manager wants to change the company culture.",
       "zh": "新經理希望改變公司文化／企業文化。",
       "masked": "The new manager wants to change the ____.",
       "options": [
-        "company-26",
-        "company-27",
-        "company-28",
-        "company-29",
-        "company-01",
-        "company-02"
+        "company-mcq-24",
+        "company-mcq-23",
+        "company-mcq-25",
+        "company-mcq-22",
+        "company-mcq-26",
+        "company-mcq-21"
       ],
-      "explanation": "留意語境：company culture（公司文化）。這裡指「企業文化」。",
+      "explanation": "本句的「company culture」指「公司內共同形成的價值觀、工作方式、行為規範及互動模式」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company culture"
       ],
       "optionReasons": {
-        "company-26": "本句的意思是「企業文化」。",
-        "company-27": "「公司規定；企業政策」與本句語境不同。",
-        "company-28": "「商號／公司名稱」與本句語境不同。",
-        "company-29": "「公司城鎮；企業主導社區」與本句語境不同。",
-        "company-01": "「公司；企業」與本句語境不同。",
-        "company-02": "「公司的；企業內部的」與本句語境不同。"
-      }
+        "company-mcq-24": "本句指「公司內共同形成的價值觀、工作方式、行為規範及互動模式」。",
+        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-25": "「公司正式訂立、用來規範員工或業務運作的政策／規則」是「company policy」的用法，與本句語境不同。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。",
+        "company-mcq-26": "「由公司擁有或租用並提供員工作工作用途的汽車」是「company car」的用法，與本句語境不同。",
+        "company-mcq-21": "「在某項觀點、判斷或原則上不再與另一人持相同立場」是「part company — disagree」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-24"
     },
     {
       "id": "company-26-1",
-      "sense": "company-26",
+      "sense": "company-mcq-24",
       "en": "A supportive company culture can improve employee retention.",
       "zh": "良好的企業文化可以提升員工留任率。",
       "masked": "A supportive ____ can improve employee retention.",
       "options": [
-        "company-26",
-        "company-27",
-        "company-28",
-        "company-29",
-        "company-01",
-        "company-02"
+        "company-mcq-24",
+        "company-mcq-23",
+        "company-mcq-25",
+        "company-mcq-22",
+        "company-mcq-26",
+        "company-mcq-21"
       ],
-      "explanation": "留意語境：company culture（公司文化）。這裡指「企業文化」。",
+      "explanation": "本句的「company culture」指「公司內共同形成的價值觀、工作方式、行為規範及互動模式」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company culture"
       ],
       "optionReasons": {
-        "company-26": "本句的意思是「企業文化」。",
-        "company-27": "「公司規定；企業政策」與本句語境不同。",
-        "company-28": "「商號／公司名稱」與本句語境不同。",
-        "company-29": "「公司城鎮；企業主導社區」與本句語境不同。",
-        "company-01": "「公司；企業」與本句語境不同。",
-        "company-02": "「公司的；企業內部的」與本句語境不同。"
-      }
+        "company-mcq-24": "本句指「公司內共同形成的價值觀、工作方式、行為規範及互動模式」。",
+        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-25": "「公司正式訂立、用來規範員工或業務運作的政策／規則」是「company policy」的用法，與本句語境不同。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。",
+        "company-mcq-26": "「由公司擁有或租用並提供員工作工作用途的汽車」是「company car」的用法，與本句語境不同。",
+        "company-mcq-21": "「在某項觀點、判斷或原則上不再與另一人持相同立場」是「part company — disagree」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-24"
     },
     {
       "id": "company-27-0",
-      "sense": "company-27",
+      "sense": "company-mcq-25",
       "en": "Working from home is allowed under company policy.",
       "zh": "按照公司政策／公司規定，員工可以在家工作。",
       "masked": "Working from home is allowed under ____.",
       "options": [
-        "company-27",
-        "company-28",
-        "company-29",
-        "company-01",
-        "company-02",
-        "company-03"
+        "company-mcq-25",
+        "company-mcq-24",
+        "company-mcq-26",
+        "company-mcq-23",
+        "company-mcq-27",
+        "company-mcq-22"
       ],
-      "explanation": "留意語境：company policy（公司政策）。這裡指「公司規定；企業政策」。",
+      "explanation": "本句的「company policy」指「公司正式訂立、用來規範員工或業務運作的政策／規則」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company policy"
       ],
       "optionReasons": {
-        "company-27": "本句的意思是「公司規定；企業政策」。",
-        "company-28": "「商號／公司名稱」與本句語境不同。",
-        "company-29": "「公司城鎮；企業主導社區」與本句語境不同。",
-        "company-01": "「公司；企業」與本句語境不同。",
-        "company-02": "「公司的；企業內部的」與本句語境不同。",
-        "company-03": "「該公司；公司方面」與本句語境不同。"
-      }
+        "company-mcq-25": "本句指「公司正式訂立、用來規範員工或業務運作的政策／規則」。",
+        "company-mcq-24": "「公司內共同形成的價值觀、工作方式、行為規範及互動模式」是「company culture」的用法，與本句語境不同。",
+        "company-mcq-26": "「由公司擁有或租用並提供員工作工作用途的汽車」是「company car」的用法，與本句語境不同。",
+        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-27": "「某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮」是「company town」的用法，與本句語境不同。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-25"
     },
     {
       "id": "company-27-1",
-      "sense": "company-27",
+      "sense": "company-mcq-25",
       "en": "The decision was consistent with company policy.",
       "zh": "這項決定符合公司政策。",
       "masked": "The decision was consistent with ____.",
       "options": [
-        "company-27",
-        "company-28",
-        "company-29",
-        "company-01",
-        "company-02",
-        "company-03"
+        "company-mcq-25",
+        "company-mcq-24",
+        "company-mcq-26",
+        "company-mcq-23",
+        "company-mcq-27",
+        "company-mcq-22"
       ],
-      "explanation": "留意語境：company policy（公司政策）。這裡指「公司規定；企業政策」。",
+      "explanation": "本句的「company policy」指「公司正式訂立、用來規範員工或業務運作的政策／規則」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company policy"
       ],
       "optionReasons": {
-        "company-27": "本句的意思是「公司規定；企業政策」。",
-        "company-28": "「商號／公司名稱」與本句語境不同。",
-        "company-29": "「公司城鎮；企業主導社區」與本句語境不同。",
-        "company-01": "「公司；企業」與本句語境不同。",
-        "company-02": "「公司的；企業內部的」與本句語境不同。",
-        "company-03": "「該公司；公司方面」與本句語境不同。"
-      }
+        "company-mcq-25": "本句指「公司正式訂立、用來規範員工或業務運作的政策／規則」。",
+        "company-mcq-24": "「公司內共同形成的價值觀、工作方式、行為規範及互動模式」是「company culture」的用法，與本句語境不同。",
+        "company-mcq-26": "「由公司擁有或租用並提供員工作工作用途的汽車」是「company car」的用法，與本句語境不同。",
+        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-27": "「某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮」是「company town」的用法，與本句語境不同。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-25"
     },
     {
       "id": "company-28-0",
-      "sense": "company-28",
+      "sense": "company-mcq-26",
       "en": "Please enter the company name on the form.",
       "zh": "請在表格上填寫公司名稱。",
       "masked": "Please enter the ____ on the form.",
       "options": [
-        "company-28",
-        "company-29",
-        "company-01",
-        "company-02",
-        "company-03",
-        "company-04"
+        "company-mcq-26",
+        "company-mcq-25",
+        "company-mcq-27",
+        "company-mcq-24",
+        "company-mcq-23",
+        "company-mcq-22"
       ],
-      "explanation": "留意語境：company name（公司名稱）。這裡指「商號／公司名稱」。",
+      "explanation": "本句的「company name」指「由公司擁有或租用並提供員工作工作用途的汽車」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company name"
       ],
       "optionReasons": {
-        "company-28": "本句的意思是「商號／公司名稱」。",
-        "company-29": "「公司城鎮；企業主導社區」與本句語境不同。",
-        "company-01": "「公司；企業」與本句語境不同。",
-        "company-02": "「公司的；企業內部的」與本句語境不同。",
-        "company-03": "「該公司；公司方面」與本句語境不同。",
-        "company-04": "「陪伴；有人作伴」與本句語境不同。"
-      }
+        "company-mcq-26": "本句指「由公司擁有或租用並提供員工作工作用途的汽車」。",
+        "company-mcq-25": "「公司正式訂立、用來規範員工或業務運作的政策／規則」是「company policy」的用法，與本句語境不同。",
+        "company-mcq-27": "「某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮」是「company town」的用法，與本句語境不同。",
+        "company-mcq-24": "「公司內共同形成的價值觀、工作方式、行為規範及互動模式」是「company culture」的用法，與本句語境不同。",
+        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-26"
     },
     {
       "id": "company-28-1",
-      "sense": "company-28",
+      "sense": "company-mcq-26",
       "en": "The business changed its company name after the merger.",
       "zh": "企業合併後更改了公司名稱。",
       "masked": "The business changed its ____ after the merger.",
       "options": [
-        "company-28",
-        "company-29",
-        "company-01",
-        "company-02",
-        "company-03",
-        "company-04"
+        "company-mcq-26",
+        "company-mcq-25",
+        "company-mcq-27",
+        "company-mcq-24",
+        "company-mcq-23",
+        "company-mcq-22"
       ],
-      "explanation": "留意語境：company name（公司名稱）。這裡指「商號／公司名稱」。",
+      "explanation": "本句的「company name」指「由公司擁有或租用並提供員工作工作用途的汽車」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company name"
       ],
       "optionReasons": {
-        "company-28": "本句的意思是「商號／公司名稱」。",
-        "company-29": "「公司城鎮；企業主導社區」與本句語境不同。",
-        "company-01": "「公司；企業」與本句語境不同。",
-        "company-02": "「公司的；企業內部的」與本句語境不同。",
-        "company-03": "「該公司；公司方面」與本句語境不同。",
-        "company-04": "「陪伴；有人作伴」與本句語境不同。"
-      }
+        "company-mcq-26": "本句指「由公司擁有或租用並提供員工作工作用途的汽車」。",
+        "company-mcq-25": "「公司正式訂立、用來規範員工或業務運作的政策／規則」是「company policy」的用法，與本句語境不同。",
+        "company-mcq-27": "「某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮」是「company town」的用法，與本句語境不同。",
+        "company-mcq-24": "「公司內共同形成的價值觀、工作方式、行為規範及互動模式」是「company culture」的用法，與本句語境不同。",
+        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-26"
     },
     {
       "id": "company-29-0",
-      "sense": "company-29",
+      "sense": "company-mcq-27",
       "en": "The settlement began as a mining company town.",
       "zh": "這個聚居地最初是一個由礦業公司建立的公司城鎮。",
       "masked": "The settlement began as a mining ____.",
       "options": [
-        "company-29",
-        "company-01",
-        "company-02",
-        "company-03",
-        "company-04",
-        "company-05"
+        "company-mcq-27",
+        "company-mcq-26",
+        "company-mcq-25",
+        "company-mcq-24",
+        "company-mcq-23",
+        "company-mcq-22"
       ],
-      "explanation": "留意語境：company town（企業主導的城鎮）。這裡指「公司城鎮；企業主導社區」。",
+      "explanation": "本句的「company town」指「某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "company town"
       ],
       "optionReasons": {
-        "company-29": "本句的意思是「公司城鎮；企業主導社區」。",
-        "company-01": "「公司；企業」與本句語境不同。",
-        "company-02": "「公司的；企業內部的」與本句語境不同。",
-        "company-03": "「該公司；公司方面」與本句語境不同。",
-        "company-04": "「陪伴；有人作伴」與本句語境不同。",
-        "company-05": "「喜歡某人的陪伴」與本句語境不同。"
-      }
+        "company-mcq-27": "本句指「某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮」。",
+        "company-mcq-26": "「由公司擁有或租用並提供員工作工作用途的汽車」是「company car」的用法，與本句語境不同。",
+        "company-mcq-25": "「公司正式訂立、用來規範員工或業務運作的政策／規則」是「company policy」的用法，與本句語境不同。",
+        "company-mcq-24": "「公司內共同形成的價值觀、工作方式、行為規範及互動模式」是「company culture」的用法，與本句語境不同。",
+        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-27"
     },
     {
       "id": "company-29-1",
-      "sense": "company-29",
+      "sense": "company-mcq-27",
       "en": "Most residents of the company town worked for the same employer.",
       "zh": "這個企業主導的城鎮中，大部分居民都為同一僱主工作。",
       "masked": "Most residents of the ____ worked for the same employer.",
       "options": [
-        "company-29",
-        "company-01",
-        "company-02",
-        "company-03",
-        "company-04",
-        "company-05"
+        "company-mcq-27",
+        "company-mcq-26",
+        "company-mcq-25",
+        "company-mcq-24",
+        "company-mcq-23",
+        "company-mcq-22"
       ],
-      "explanation": "留意語境：company town（企業主導的城鎮）。這裡指「公司城鎮；企業主導社區」。",
+      "explanation": "本句的「company town」指「某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "company town"
       ],
       "optionReasons": {
-        "company-29": "本句的意思是「公司城鎮；企業主導社區」。",
-        "company-01": "「公司；企業」與本句語境不同。",
-        "company-02": "「公司的；企業內部的」與本句語境不同。",
-        "company-03": "「該公司；公司方面」與本句語境不同。",
-        "company-04": "「陪伴；有人作伴」與本句語境不同。",
-        "company-05": "「喜歡某人的陪伴」與本句語境不同。"
-      }
+        "company-mcq-27": "本句指「某家公司在當地就業、經濟或社區生活中佔主導地位的城鎮」。",
+        "company-mcq-26": "「由公司擁有或租用並提供員工作工作用途的汽車」是「company car」的用法，與本句語境不同。",
+        "company-mcq-25": "「公司正式訂立、用來規範員工或業務運作的政策／規則」是「company policy」的用法，與本句語境不同。",
+        "company-mcq-24": "「公司內共同形成的價值觀、工作方式、行為規範及互動模式」是「company culture」的用法，與本句語境不同。",
+        "company-mcq-23": "「所有權屬於公司的，而不是私人所有的」是「company-owned」的用法，與本句語境不同。",
+        "company-mcq-22": "「涉及或適用於整家公司所有部門或員工的」是「company-wide」的用法，與本句語境不同。"
+      },
+      "correctOption": "company-mcq-27"
     }
   ],
   "comparisons": [],
@@ -2436,5 +2473,6 @@ export default {
     "path": "manuals/company.pdf",
     "pages": 32,
     "sha256": "50cc5f5e77914993fe4f5a1c8e441e4f2f8e892e2f8ebcc888c9fd7deb7cc47f"
-  }
+  },
+  "mcqSource": "master-comparison"
 };

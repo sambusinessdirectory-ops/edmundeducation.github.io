@@ -2,1697 +2,1603 @@ export default {
   "id": "pot",
   "word": "pot",
   "number": 381,
-  "version": 1,
+  "version": 2,
   "mass": true,
   "senses": [
     {
-      "id": "pot-01",
-      "title": "花盆；盆",
-      "form": "pot + plant/flower（植物容器）",
-      "en": "pot + plant/flower（植物容器）",
-      "zh": "花盆；盆",
-      "note": "留意語境：pot + plant/flower（植物容器）。這裡指「花盆；盆」。",
+      "id": "pot-mcq-01",
+      "title": "盛載泥土和植物、供植物生長的花盆／容器",
+      "form": "pot — plant container",
+      "en": "pot — plant container",
+      "zh": "盛載泥土和植物、供植物生長的花盆／容器",
+      "note": "來源詞義：盛載泥土和植物、供植物生長的花盆／容器",
       "examples": [
         [
           "I remember seeing little pots of herbs and flowers near her windows.",
           "我記得她窗邊放著一些種有香草和花的小花盆。",
-          "花盆；盆"
+          "盛載泥土和植物、供植物生長的花盆／容器"
         ],
         [
           "She moved the lemon tree into a larger pot.",
           "她把檸檬樹移到一個更大的花盆裡。",
-          "花盆；盆"
+          "盛載泥土和植物、供植物生長的花盆／容器"
         ],
         [
           "Make sure the pot has holes for drainage.",
           "要確保花盆有排水孔。",
-          "花盆；盆"
+          "盛載泥土和植物、供植物生長的花盆／容器"
         ]
       ],
-      "options": [
-        "pot-01",
-        "pot-02",
-        "pot-03",
-        "pot-04",
-        "pot-05",
-        "pot-06"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-02",
-      "title": "鍋；煲",
-      "form": "pot = cooking vessel（煮食器皿）",
-      "en": "pot = cooking vessel（煮食器皿）",
-      "zh": "鍋；煲",
-      "note": "留意語境：pot = cooking vessel（煮食器皿）。這裡指「鍋；煲」。",
+      "id": "pot-mcq-02",
+      "title": "用來煮食物或液體、通常較深的烹飪器皿",
+      "form": "pot — cooking vessel",
+      "en": "pot — cooking vessel",
+      "zh": "用來煮食物或液體、通常較深的烹飪器皿",
+      "note": "來源詞義：用來煮食物或液體、通常較深的烹飪器皿",
       "examples": [
         [
           "She cooked the soup in a large pot.",
           "她用一個大鍋／煲煮湯。",
-          "鍋；煲"
+          "用來煮食物或液體、通常較深的烹飪器皿"
         ],
         [
           "Put the water in the pot and bring it to a boil.",
           "把水倒進鍋裡，然後煮滾。",
-          "鍋；煲"
+          "用來煮食物或液體、通常較深的烹飪器皿"
         ]
       ],
-      "options": [
-        "pot-02",
-        "pot-03",
-        "pot-04",
-        "pot-05",
-        "pot-06",
-        "pot-07"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-03",
-      "title": "壺；罐；容器",
-      "form": "pot = container designed to hold/serve something（盛載器皿）",
-      "en": "pot = container designed to hold/serve something（盛載器皿）",
-      "zh": "壺；罐；容器",
-      "note": "留意語境：pot = container designed to hold/serve something（盛載器皿）。這裡指「壺；罐；容器」。",
+      "id": "pot-mcq-03",
+      "title": "用來盛載、沖泡或供應食物／飲品的壺、罐或容器",
+      "form": "pot — serving/storage container",
+      "en": "pot — serving/storage container",
+      "zh": "用來盛載、沖泡或供應食物／飲品的壺、罐或容器",
+      "note": "來源詞義：用來盛載、沖泡或供應食物／飲品的壺、罐或容器",
       "examples": [
         [
           "She brought a pot of tea to the table.",
           "她端了一壺茶到桌上。",
-          "壺；罐；容器"
+          "用來盛載、沖泡或供應食物／飲品的壺、罐或容器"
         ],
         [
           "There was a small pot of cream beside the coffee.",
           "咖啡旁邊有一小壺／小罐忌廉。",
-          "壺；罐；容器"
+          "用來盛載、沖泡或供應食物／飲品的壺、罐或容器"
         ]
       ],
-      "options": [
-        "pot-03",
-        "pot-04",
-        "pot-05",
-        "pot-06",
-        "pot-07",
-        "pot-08"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-04",
-      "title": "一鍋；一壺；一罐",
-      "form": "a pot of + food/drink（容器所盛的量）",
-      "en": "a pot of + food/drink（容器所盛的量）",
-      "zh": "一鍋；一壺；一罐",
-      "note": "留意語境：a pot of + food/drink（容器所盛的量）。這裡指「一鍋；一壺；一罐」。",
+      "id": "pot-mcq-04",
+      "title": "一個 pot 所能盛載的一整份食物／飲品數量",
+      "form": "a pot of something",
+      "en": "a pot of something",
+      "zh": "一個 pot 所能盛載的一整份食物／飲品數量",
+      "note": "來源詞義：一個 pot 所能盛載的一整份食物／飲品數量",
       "examples": [
         [
           "She made a pot of soup.",
           "她煮了一鍋湯。",
-          "一鍋；一壺；一罐"
+          "一個 pot 所能盛載的一整份食物／飲品數量"
         ],
         [
           "We shared a pot of coffee.",
           "我們一起喝了一壺咖啡。",
-          "一鍋；一壺；一罐"
+          "一個 pot 所能盛載的一整份食物／飲品數量"
         ]
       ],
-      "options": [
-        "pot-04",
-        "pot-05",
-        "pot-06",
-        "pot-07",
-        "pot-08",
-        "pot-09"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-05",
-      "title": "小盒；小罐",
-      "form": "pot = small commercial container of food/cosmetics（小盒／小罐）",
-      "en": "pot = small commercial container of food/cosmetics（小盒／小罐）",
-      "zh": "小盒；小罐",
-      "note": "留意語境：pot = small commercial container of food/cosmetics（小盒／小罐）。這裡指「小盒；小罐」。",
+      "id": "pot-mcq-05",
+      "title": "裝乳酪、面霜等食品／產品的小型容器，尤其英式英語",
+      "form": "pot — packaged container",
+      "en": "pot — packaged container",
+      "zh": "裝乳酪、面霜等食品／產品的小型容器，尤其英式英語",
+      "note": "來源詞義：裝乳酪、面霜等食品／產品的小型容器，尤其英式英語",
       "examples": [
         [
           "She had a small pot of yoghurt.",
           "她有一小杯／盒乳酪。",
-          "小盒；小罐"
+          "裝乳酪、面霜等食品／產品的小型容器，尤其英式英語"
         ],
         [
           "I bought a little pot of face cream.",
           "我買了一小罐面霜。",
-          "小盒；小罐"
+          "裝乳酪、面霜等食品／產品的小型容器，尤其英式英語"
         ]
       ],
-      "options": [
-        "pot-05",
-        "pot-06",
-        "pot-07",
-        "pot-08",
-        "pot-09",
-        "pot-10"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-06",
-      "title": "彩池；獎金池；共同款項",
-      "form": "pot = pooled money/prize fund（共同金額）",
-      "en": "pot = pooled money/prize fund（共同金額）",
-      "zh": "彩池；獎金池；共同款項",
-      "note": "留意語境：pot = pooled money/prize fund（共同金額）。這裡指「彩池；獎金池；共同款項」。",
+      "id": "pot-mcq-06",
+      "title": "多人共同投入、按規則分配或由勝者取得的一筆錢",
+      "form": "pot — pooled money",
+      "en": "pot — pooled money",
+      "zh": "多人共同投入、按規則分配或由勝者取得的一筆錢",
+      "note": "來源詞義：多人共同投入、按規則分配或由勝者取得的一筆錢",
       "examples": [
         [
           "Everyone contributed money to the pot.",
           "每個人都把錢放進共同的款項／基金裡。",
-          "彩池；獎金池；共同款項"
+          "多人共同投入、按規則分配或由勝者取得的一筆錢"
         ],
         [
           "The winner took the entire pot.",
           "勝出者拿走了整個獎金池／彩池。",
-          "彩池；獎金池；共同款項"
+          "多人共同投入、按規則分配或由勝者取得的一筆錢"
         ]
       ],
-      "options": [
-        "pot-06",
-        "pot-07",
-        "pot-08",
-        "pot-09",
-        "pot-10",
-        "pot-11"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-07",
-      "title": "頭獎；累積大獎",
-      "form": "jackpot（獎項）",
-      "en": "jackpot（獎項）",
-      "zh": "頭獎；累積大獎",
-      "note": "留意語境：jackpot（獎項）。這裡指「頭獎；累積大獎」。",
-      "examples": [
-        [
-          "She won the jackpot.",
-          "她中了頭獎／巨額累積獎金。",
-          "頭獎；累積大獎"
-        ],
-        [
-          "The machine displayed the current jackpot.",
-          "機器顯示目前的累積大獎金額。",
-          "頭獎；累積大獎"
-        ]
-      ],
-      "options": [
-        "pot-07",
-        "pot-08",
-        "pot-09",
-        "pot-10",
-        "pot-11",
-        "pot-12"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "pot-08",
-      "title": "大麻",
-      "form": "pot = cannabis/marijuana（非正式）",
-      "en": "pot = cannabis/marijuana（非正式）",
-      "zh": "大麻",
-      "note": "留意語境：pot = cannabis/marijuana（非正式）。這裡指「大麻」。",
+      "id": "pot-mcq-07",
+      "title": "marijuana/cannabis 的非正式稱呼",
+      "form": "pot — cannabis",
+      "en": "pot — cannabis",
+      "zh": "marijuana/cannabis 的非正式稱呼",
+      "note": "來源詞義：marijuana/cannabis 的非正式稱呼",
       "examples": [
         [
           "The article discusses changing attitudes toward pot.",
           "這篇文章討論人們對大麻態度的改變。",
-          "大麻"
+          "marijuana/cannabis 的非正式稱呼"
         ],
         [
           "In informal American English, ‘pot’ can refer to marijuana.",
           "在非正式美式英語中，pot 可以指大麻。",
-          "大麻"
+          "marijuana/cannabis 的非正式稱呼"
         ]
       ],
-      "options": [
-        "pot-08",
-        "pot-09",
-        "pot-10",
-        "pot-11",
-        "pot-12",
-        "pot-13"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-09",
-      "title": "把植物栽進花盆",
-      "form": "pot + plant（動詞）",
-      "en": "pot + plant（動詞）",
-      "zh": "把植物栽進花盆",
-      "note": "留意語境：pot + plant（動詞）。這裡指「把植物栽進花盆」。",
+      "id": "pot-mcq-08",
+      "title": "把植物移入裝有泥土的花盆中栽種",
+      "form": "pot a plant",
+      "en": "pot a plant",
+      "zh": "把植物移入裝有泥土的花盆中栽種",
+      "note": "來源詞義：把植物移入裝有泥土的花盆中栽種",
       "examples": [
         [
           "She potted the young tomato plants.",
           "她把幼小番茄苗栽進花盆。",
-          "把植物栽進花盆"
+          "把植物移入裝有泥土的花盆中栽種"
         ],
         [
           "These herbs are ready to be potted.",
           "這些香草已經可以移栽到花盆裡了。",
-          "把植物栽進花盆"
+          "把植物移入裝有泥土的花盆中栽種"
         ]
       ],
-      "options": [
-        "pot-09",
-        "pot-10",
-        "pot-11",
-        "pot-12",
-        "pot-13",
-        "pot-14"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-10",
-      "title": "盆栽植物",
-      "form": "potted plant（植物）",
-      "en": "potted plant（植物）",
-      "zh": "盆栽植物",
-      "note": "留意語境：potted plant（植物）。這裡指「盆栽植物」。",
+      "id": "pot-mcq-09",
+      "title": "種植在花盆而非直接種在地裡的植物",
+      "form": "potted plant",
+      "en": "potted plant",
+      "zh": "種植在花盆而非直接種在地裡的植物",
+      "note": "來源詞義：種植在花盆而非直接種在地裡的植物",
       "examples": [
         [
           "She keeps several potted plants near the window.",
           "她在窗邊放了幾盆盆栽植物。",
-          "盆栽植物"
+          "種植在花盆而非直接種在地裡的植物"
         ],
         [
           "Potted plants need regular watering.",
           "盆栽植物需要定期澆水。",
-          "盆栽植物"
+          "種植在花盆而非直接種在地裡的植物"
         ]
       ],
-      "options": [
-        "pot-10",
-        "pot-11",
-        "pot-12",
-        "pot-13",
-        "pot-14",
-        "pot-15"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-11",
-      "title": "盆栽土；培養土",
-      "form": "potting soil / potting mix（園藝）",
-      "en": "potting soil / potting mix（園藝）",
-      "zh": "盆栽土；培養土",
-      "note": "留意語境：potting soil / potting mix（園藝）。這裡指「盆栽土；培養土」。",
+      "id": "pot-mcq-10",
+      "title": "專供盆栽植物生長使用的栽培介質",
+      "form": "potting soil/mix",
+      "en": "potting soil/mix",
+      "zh": "專供盆栽植物生長使用的栽培介質",
+      "note": "來源詞義：專供盆栽植物生長使用的栽培介質",
       "examples": [
         [
           "Use fresh potting soil for the herbs.",
           "種香草時使用新鮮的盆栽土／培養土。",
-          "盆栽土；培養土"
+          "專供盆栽植物生長使用的栽培介質"
         ],
         [
           "This potting mix drains well.",
           "這種盆栽培養土排水良好。",
-          "盆栽土；培養土"
+          "專供盆栽植物生長使用的栽培介質"
         ]
       ],
-      "options": [
-        "pot-11",
-        "pot-12",
-        "pot-13",
-        "pot-14",
-        "pot-15",
-        "pot-16"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-12",
-      "title": "陶器；陶製品",
-      "form": "pottery = pots and other objects made from clay",
-      "en": "pottery = pots and other objects made from clay",
-      "zh": "陶器；陶製品",
-      "note": "留意語境：pottery = pots and other objects made from clay。這裡指「陶器；陶製品」。",
+      "id": "pot-mcq-11",
+      "title": "用陶土燒製的器皿／物品整體",
+      "form": "pottery — objects",
+      "en": "pottery — objects",
+      "zh": "用陶土燒製的器皿／物品整體",
+      "note": "來源詞義：用陶土燒製的器皿／物品整體",
       "examples": [
         [
           "The museum displays ancient pottery.",
           "博物館展出古代陶器。",
-          "陶器；陶製品"
+          "用陶土燒製的器皿／物品整體"
         ],
         [
           "She collects handmade pottery.",
           "她收藏手工陶器。",
-          "陶器；陶製品"
+          "用陶土燒製的器皿／物品整體"
         ]
       ],
-      "options": [
-        "pot-12",
-        "pot-13",
-        "pot-14",
-        "pot-15",
-        "pot-16",
-        "pot-17"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-13",
-      "title": "陶藝；製陶",
-      "form": "pottery = craft/activity of making clay objects",
-      "en": "pottery = craft/activity of making clay objects",
-      "zh": "陶藝；製陶",
-      "note": "留意語境：pottery = craft/activity of making clay objects。這裡指「陶藝；製陶」。",
+      "id": "pot-mcq-12",
+      "title": "用陶土塑形並燒製器物的工藝／活動",
+      "form": "pottery — craft",
+      "en": "pottery — craft",
+      "zh": "用陶土塑形並燒製器物的工藝／活動",
+      "note": "來源詞義：用陶土塑形並燒製器物的工藝／活動",
       "examples": [
         [
           "She takes a pottery class on Saturdays.",
           "她星期六上陶藝課。",
-          "陶藝；製陶"
+          "用陶土塑形並燒製器物的工藝／活動"
         ],
         [
           "Pottery requires patience and practice.",
           "陶藝／製陶需要耐性和練習。",
-          "陶藝；製陶"
+          "用陶土塑形並燒製器物的工藝／活動"
         ]
       ],
-      "options": [
-        "pot-13",
-        "pot-14",
-        "pot-15",
-        "pot-16",
-        "pot-17",
-        "pot-18"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-14",
-      "title": "陶工；陶藝家",
-      "form": "potter = person who makes pottery",
-      "en": "potter = person who makes pottery",
-      "zh": "陶工；陶藝家",
-      "note": "留意語境：potter = person who makes pottery。這裡指「陶工；陶藝家」。",
+      "id": "pot-mcq-13",
+      "title": "以陶土製作器物的陶工／陶藝家",
+      "form": "potter",
+      "en": "potter",
+      "zh": "以陶土製作器物的陶工／陶藝家",
+      "note": "來源詞義：以陶土製作器物的陶工／陶藝家",
       "examples": [
         [
           "The bowl was made by a local potter.",
           "這隻碗由一位本地陶藝家／陶工製作。",
-          "陶工；陶藝家"
+          "以陶土製作器物的陶工／陶藝家"
         ],
         [
           "The potter shaped the clay by hand.",
           "陶工用手塑造陶泥。",
-          "陶工；陶藝家"
+          "以陶土製作器物的陶工／陶藝家"
         ]
       ],
-      "options": [
-        "pot-14",
-        "pot-15",
-        "pot-16",
-        "pot-17",
-        "pot-18",
-        "pot-19"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-15",
-      "title": "把球擊入袋中",
-      "form": "pot = sink a ball into a pocket/hole（桌球／撞球）",
-      "en": "pot = sink a ball into a pocket/hole（桌球／撞球）",
-      "zh": "把球擊入袋中",
-      "note": "留意語境：pot = sink a ball into a pocket/hole（桌球／撞球）。這裡指「把球擊入袋中」。",
+      "id": "pot-mcq-14",
+      "title": "在桌球／撞球中把球擊進球袋",
+      "form": "pot — cue sports",
+      "en": "pot — cue sports",
+      "zh": "在桌球／撞球中把球擊進球袋",
+      "note": "來源詞義：在桌球／撞球中把球擊進球袋",
       "examples": [
         [
           "He potted the final ball and won the match.",
           "他把最後一球擊入袋中，贏得比賽。",
-          "把球擊入袋中"
+          "在桌球／撞球中把球擊進球袋"
         ],
         [
           "She failed to pot the red ball.",
           "她未能把紅球擊入球袋。",
-          "把球擊入袋中"
+          "在桌球／撞球中把球擊進球袋"
         ]
       ],
-      "options": [
-        "pot-15",
-        "pot-16",
-        "pot-17",
-        "pot-18",
-        "pot-19",
-        "pot-01"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-16",
-      "title": "擊入；入球",
-      "form": "pot = score by putting a ball into a target/hole（球類）",
-      "en": "pot = score by putting a ball into a target/hole（球類）",
-      "zh": "擊入；入球",
-      "note": "留意語境：pot = score by putting a ball into a target/hole（球類）。這裡指「擊入；入球」。",
-      "examples": [
-        [
-          "He calmly potted the ball.",
-          "他冷靜地把球擊入袋中。",
-          "擊入；入球"
-        ],
-        [
-          "The player had several chances to pot.",
-          "那位球員有幾次把球擊入袋中的機會。",
-          "擊入；入球"
-        ]
-      ],
-      "options": [
-        "pot-16",
-        "pot-17",
-        "pot-18",
-        "pot-19",
-        "pot-01",
-        "pot-02"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "pot-17",
-      "title": "罐裝／盆裝保存的；製成肉醬的",
-      "form": "potted = preserved/cooked in a pot（食物）",
-      "en": "potted = preserved/cooked in a pot（食物）",
-      "zh": "罐裝／盆裝保存的；製成肉醬的",
-      "note": "留意語境：potted = preserved/cooked in a pot（食物）。這裡指「罐裝／盆裝保存的；製成肉醬的」。",
+      "id": "pot-mcq-15",
+      "title": "經烹調後放入小罐／盆中保存的食品",
+      "form": "potted food",
+      "en": "potted food",
+      "zh": "經烹調後放入小罐／盆中保存的食品",
+      "note": "來源詞義：經烹調後放入小罐／盆中保存的食品",
       "examples": [
         [
           "The restaurant serves potted shrimp.",
           "餐廳供應罐裝／奶油封存蝦。",
-          "罐裝／盆裝保存的；製成肉醬的"
+          "經烹調後放入小罐／盆中保存的食品"
         ],
         [
           "Potted meat was traditionally stored under a layer of fat.",
           "傳統的罐存肉醬／封存肉製品會以脂肪層保存。",
-          "罐裝／盆裝保存的；製成肉醬的"
+          "經烹調後放入小罐／盆中保存的食品"
         ]
       ],
-      "options": [
-        "pot-17",
-        "pot-18",
-        "pot-19",
-        "pot-01",
-        "pot-02",
-        "pot-03"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-18",
-      "title": "簡略的；濃縮的",
-      "form": "potted + history/biography/summary（簡短濃縮）",
-      "en": "potted + history/biography/summary（簡短濃縮）",
-      "zh": "簡略的；濃縮的",
-      "note": "留意語境：potted + history/biography/summary（簡短濃縮）。這裡指「簡略的；濃縮的」。",
+      "id": "pot-mcq-16",
+      "title": "把大量資料濃縮成非常簡短的概略版本",
+      "form": "potted history/account",
+      "en": "potted history/account",
+      "zh": "把大量資料濃縮成非常簡短的概略版本",
+      "note": "來源詞義：把大量資料濃縮成非常簡短的概略版本",
       "examples": [
         [
           "The book begins with a potted history of the town.",
           "這本書開首先提供該城鎮的簡略歷史概述。",
-          "簡略的；濃縮的"
+          "把大量資料濃縮成非常簡短的概略版本"
         ],
         [
           "She gave us a potted biography of the artist.",
           "她向我們簡短介紹了那位藝術家的生平概述。",
-          "簡略的；濃縮的"
+          "把大量資料濃縮成非常簡短的概略版本"
         ]
       ],
-      "options": [
-        "pot-18",
-        "pot-19",
-        "pot-01",
-        "pot-02",
-        "pot-03",
-        "pot-04"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "pot-19",
-      "title": "百樂餐；每人帶食物分享的聚餐",
-      "form": "potluck = meal where people bring food to share",
-      "en": "potluck = meal where people bring food to share",
-      "zh": "百樂餐；每人帶食物分享的聚餐",
-      "note": "留意語境：potluck = meal where people bring food to share。這裡指「百樂餐；每人帶食物分享的聚餐」。",
+      "id": "pot-mcq-17",
+      "title": "每名參加者各自帶食物共同分享的聚餐",
+      "form": "potluck",
+      "en": "potluck",
+      "zh": "每名參加者各自帶食物共同分享的聚餐",
+      "note": "來源詞義：每名參加者各自帶食物共同分享的聚餐",
       "examples": [
         [
           "We’re having a potluck this weekend.",
           "我們這個週末會舉行一場每人帶一道食物來分享的聚餐。",
-          "百樂餐；每人帶食物分享的聚餐"
+          "每名參加者各自帶食物共同分享的聚餐"
         ],
         [
           "Everyone brought a dish to the potluck.",
           "每個人都帶了一道菜去參加百樂餐／共享聚餐。",
-          "百樂餐；每人帶食物分享的聚餐"
+          "每名參加者各自帶食物共同分享的聚餐"
         ]
       ],
-      "options": [
-        "pot-19",
-        "pot-01",
-        "pot-02",
-        "pot-03",
-        "pot-04",
-        "pot-05"
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "pot-mcq-18",
+      "title": "彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功",
+      "form": "jackpot",
+      "en": "jackpot",
+      "zh": "彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功",
+      "note": "來源詞義：彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功",
+      "examples": [
+        [
+          "She won the jackpot.",
+          "她中了頭獎／巨額累積獎金。",
+          "彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功"
+        ],
+        [
+          "The machine displayed the current jackpot.",
+          "機器顯示目前的累積大獎金額。",
+          "彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功"
+        ]
       ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "pot-mcq-19",
+      "title": "表示擊入；入球",
+      "form": "16. pot = score by putting a ball into a target/hole（球類） — 擊入；入球",
+      "en": "16. pot = score by putting a ball into a target/hole（球類） — 擊入；入球",
+      "zh": "表示擊入；入球",
+      "note": "來源詞義：表示擊入；入球",
+      "examples": [
+        [
+          "He calmly potted the ball.",
+          "他冷靜地把球擊入袋中。",
+          "表示擊入；入球"
+        ],
+        [
+          "The player had several chances to pot.",
+          "那位球員有幾次把球擊入袋中的機會。",
+          "表示擊入；入球"
+        ]
+      ],
+      "options": [],
       "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "pot-01-0",
-      "sense": "pot-01",
+      "sense": "pot-mcq-01",
       "en": "I remember seeing little pots of herbs and flowers near her windows.",
       "zh": "我記得她窗邊放著一些種有香草和花的小花盆。",
       "masked": "I remember seeing little ____ of herbs and flowers near her windows.",
       "options": [
-        "pot-01",
-        "pot-02",
-        "pot-03",
-        "pot-04",
-        "pot-05",
-        "pot-06"
+        "pot-mcq-01",
+        "pot-mcq-02",
+        "pot-mcq-03",
+        "pot-mcq-04",
+        "pot-mcq-05",
+        "pot-mcq-06"
       ],
-      "explanation": "留意語境：pot + plant/flower（植物容器）。這裡指「花盆；盆」。",
+      "explanation": "本句的「pots」指「盛載泥土和植物、供植物生長的花盆／容器」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "pots"
       ],
       "optionReasons": {
-        "pot-01": "本句的意思是「花盆；盆」。",
-        "pot-02": "「鍋；煲」與本句語境不同。",
-        "pot-03": "「壺；罐；容器」與本句語境不同。",
-        "pot-04": "「一鍋；一壺；一罐」與本句語境不同。",
-        "pot-05": "「小盒；小罐」與本句語境不同。",
-        "pot-06": "「彩池；獎金池；共同款項」與本句語境不同。"
-      }
+        "pot-mcq-01": "本句指「盛載泥土和植物、供植物生長的花盆／容器」。",
+        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。",
+        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
+        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
+        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-01"
     },
     {
       "id": "pot-01-1",
-      "sense": "pot-01",
+      "sense": "pot-mcq-01",
       "en": "She moved the lemon tree into a larger pot.",
       "zh": "她把檸檬樹移到一個更大的花盆裡。",
       "masked": "She moved the lemon tree into a larger ____.",
       "options": [
-        "pot-01",
-        "pot-02",
-        "pot-03",
-        "pot-04",
-        "pot-05",
-        "pot-06"
+        "pot-mcq-01",
+        "pot-mcq-02",
+        "pot-mcq-03",
+        "pot-mcq-04",
+        "pot-mcq-05",
+        "pot-mcq-06"
       ],
-      "explanation": "留意語境：pot + plant/flower（植物容器）。這裡指「花盆；盆」。",
+      "explanation": "本句的「pot」指「盛載泥土和植物、供植物生長的花盆／容器」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "pot"
       ],
       "optionReasons": {
-        "pot-01": "本句的意思是「花盆；盆」。",
-        "pot-02": "「鍋；煲」與本句語境不同。",
-        "pot-03": "「壺；罐；容器」與本句語境不同。",
-        "pot-04": "「一鍋；一壺；一罐」與本句語境不同。",
-        "pot-05": "「小盒；小罐」與本句語境不同。",
-        "pot-06": "「彩池；獎金池；共同款項」與本句語境不同。"
-      }
+        "pot-mcq-01": "本句指「盛載泥土和植物、供植物生長的花盆／容器」。",
+        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。",
+        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
+        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
+        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-01"
     },
     {
       "id": "pot-01-2",
-      "sense": "pot-01",
+      "sense": "pot-mcq-01",
       "en": "Make sure the pot has holes for drainage.",
       "zh": "要確保花盆有排水孔。",
       "masked": "Make sure the ____ has holes for drainage.",
       "options": [
-        "pot-01",
-        "pot-02",
-        "pot-03",
-        "pot-04",
-        "pot-05",
-        "pot-06"
+        "pot-mcq-01",
+        "pot-mcq-02",
+        "pot-mcq-03",
+        "pot-mcq-04",
+        "pot-mcq-05",
+        "pot-mcq-06"
       ],
-      "explanation": "留意語境：pot + plant/flower（植物容器）。這裡指「花盆；盆」。",
+      "explanation": "本句的「pot」指「盛載泥土和植物、供植物生長的花盆／容器」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "pot"
       ],
       "optionReasons": {
-        "pot-01": "本句的意思是「花盆；盆」。",
-        "pot-02": "「鍋；煲」與本句語境不同。",
-        "pot-03": "「壺；罐；容器」與本句語境不同。",
-        "pot-04": "「一鍋；一壺；一罐」與本句語境不同。",
-        "pot-05": "「小盒；小罐」與本句語境不同。",
-        "pot-06": "「彩池；獎金池；共同款項」與本句語境不同。"
-      }
+        "pot-mcq-01": "本句指「盛載泥土和植物、供植物生長的花盆／容器」。",
+        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。",
+        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
+        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
+        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-01"
     },
     {
       "id": "pot-02-0",
-      "sense": "pot-02",
+      "sense": "pot-mcq-02",
       "en": "She cooked the soup in a large pot.",
       "zh": "她用一個大鍋／煲煮湯。",
       "masked": "She cooked the soup in a large ____.",
       "options": [
-        "pot-02",
-        "pot-03",
-        "pot-04",
-        "pot-05",
-        "pot-06",
-        "pot-07"
+        "pot-mcq-02",
+        "pot-mcq-01",
+        "pot-mcq-03",
+        "pot-mcq-04",
+        "pot-mcq-05",
+        "pot-mcq-06"
       ],
-      "explanation": "留意語境：pot = cooking vessel（煮食器皿）。這裡指「鍋；煲」。",
+      "explanation": "本句的「pot」指「用來煮食物或液體、通常較深的烹飪器皿」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "pot"
       ],
       "optionReasons": {
-        "pot-02": "本句的意思是「鍋；煲」。",
-        "pot-03": "「壺；罐；容器」與本句語境不同。",
-        "pot-04": "「一鍋；一壺；一罐」與本句語境不同。",
-        "pot-05": "「小盒；小罐」與本句語境不同。",
-        "pot-06": "「彩池；獎金池；共同款項」與本句語境不同。",
-        "pot-07": "「頭獎；累積大獎」與本句語境不同。"
-      }
+        "pot-mcq-02": "本句指「用來煮食物或液體、通常較深的烹飪器皿」。",
+        "pot-mcq-01": "「盛載泥土和植物、供植物生長的花盆／容器」是「pot — plant container」的用法，與本句語境不同。",
+        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
+        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
+        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-02"
     },
     {
       "id": "pot-02-1",
-      "sense": "pot-02",
+      "sense": "pot-mcq-02",
       "en": "Put the water in the pot and bring it to a boil.",
       "zh": "把水倒進鍋裡，然後煮滾。",
       "masked": "Put the water in the ____ and bring it to a boil.",
       "options": [
-        "pot-02",
-        "pot-03",
-        "pot-04",
-        "pot-05",
-        "pot-06",
-        "pot-07"
+        "pot-mcq-02",
+        "pot-mcq-01",
+        "pot-mcq-03",
+        "pot-mcq-04",
+        "pot-mcq-05",
+        "pot-mcq-06"
       ],
-      "explanation": "留意語境：pot = cooking vessel（煮食器皿）。這裡指「鍋；煲」。",
+      "explanation": "本句的「pot」指「用來煮食物或液體、通常較深的烹飪器皿」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "pot"
       ],
       "optionReasons": {
-        "pot-02": "本句的意思是「鍋；煲」。",
-        "pot-03": "「壺；罐；容器」與本句語境不同。",
-        "pot-04": "「一鍋；一壺；一罐」與本句語境不同。",
-        "pot-05": "「小盒；小罐」與本句語境不同。",
-        "pot-06": "「彩池；獎金池；共同款項」與本句語境不同。",
-        "pot-07": "「頭獎；累積大獎」與本句語境不同。"
-      }
+        "pot-mcq-02": "本句指「用來煮食物或液體、通常較深的烹飪器皿」。",
+        "pot-mcq-01": "「盛載泥土和植物、供植物生長的花盆／容器」是「pot — plant container」的用法，與本句語境不同。",
+        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
+        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
+        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-02"
     },
     {
       "id": "pot-03-0",
-      "sense": "pot-03",
+      "sense": "pot-mcq-03",
       "en": "She brought a pot of tea to the table.",
       "zh": "她端了一壺茶到桌上。",
       "masked": "She brought a ____ to the table.",
       "options": [
-        "pot-03",
-        "pot-04",
-        "pot-05",
-        "pot-06",
-        "pot-07",
-        "pot-08"
+        "pot-mcq-03",
+        "pot-mcq-02",
+        "pot-mcq-04",
+        "pot-mcq-01",
+        "pot-mcq-05",
+        "pot-mcq-06"
       ],
-      "explanation": "留意語境：pot = container designed to hold/serve something（盛載器皿）。這裡指「壺；罐；容器」。",
+      "explanation": "本句的「pot of tea」指「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "pot of tea"
       ],
       "optionReasons": {
-        "pot-03": "本句的意思是「壺；罐；容器」。",
-        "pot-04": "「一鍋；一壺；一罐」與本句語境不同。",
-        "pot-05": "「小盒；小罐」與本句語境不同。",
-        "pot-06": "「彩池；獎金池；共同款項」與本句語境不同。",
-        "pot-07": "「頭獎；累積大獎」與本句語境不同。",
-        "pot-08": "「大麻」與本句語境不同。"
-      }
+        "pot-mcq-03": "本句指「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」。",
+        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。",
+        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
+        "pot-mcq-01": "「盛載泥土和植物、供植物生長的花盆／容器」是「pot — plant container」的用法，與本句語境不同。",
+        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-03"
     },
     {
       "id": "pot-03-1",
-      "sense": "pot-03",
+      "sense": "pot-mcq-03",
       "en": "There was a small pot of cream beside the coffee.",
       "zh": "咖啡旁邊有一小壺／小罐忌廉。",
       "masked": "There was a small ____ beside the coffee.",
       "options": [
-        "pot-03",
-        "pot-04",
-        "pot-05",
-        "pot-06",
-        "pot-07",
-        "pot-08"
+        "pot-mcq-03",
+        "pot-mcq-02",
+        "pot-mcq-04",
+        "pot-mcq-01",
+        "pot-mcq-05",
+        "pot-mcq-06"
       ],
-      "explanation": "留意語境：pot = container designed to hold/serve something（盛載器皿）。這裡指「壺；罐；容器」。",
+      "explanation": "本句的「pot of cream」指「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "pot of cream"
       ],
       "optionReasons": {
-        "pot-03": "本句的意思是「壺；罐；容器」。",
-        "pot-04": "「一鍋；一壺；一罐」與本句語境不同。",
-        "pot-05": "「小盒；小罐」與本句語境不同。",
-        "pot-06": "「彩池；獎金池；共同款項」與本句語境不同。",
-        "pot-07": "「頭獎；累積大獎」與本句語境不同。",
-        "pot-08": "「大麻」與本句語境不同。"
-      }
+        "pot-mcq-03": "本句指「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」。",
+        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。",
+        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
+        "pot-mcq-01": "「盛載泥土和植物、供植物生長的花盆／容器」是「pot — plant container」的用法，與本句語境不同。",
+        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-03"
     },
     {
       "id": "pot-04-0",
-      "sense": "pot-04",
+      "sense": "pot-mcq-04",
       "en": "She made a pot of soup.",
       "zh": "她煮了一鍋湯。",
       "masked": "She made a ____.",
       "options": [
-        "pot-04",
-        "pot-05",
-        "pot-06",
-        "pot-07",
-        "pot-08",
-        "pot-09"
+        "pot-mcq-04",
+        "pot-mcq-03",
+        "pot-mcq-05",
+        "pot-mcq-02",
+        "pot-mcq-06",
+        "pot-mcq-01"
       ],
-      "explanation": "留意語境：a pot of + food/drink（容器所盛的量）。這裡指「一鍋；一壺；一罐」。",
+      "explanation": "本句的「pot of soup」指「一個 pot 所能盛載的一整份食物／飲品數量」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "pot of soup"
       ],
       "optionReasons": {
-        "pot-04": "本句的意思是「一鍋；一壺；一罐」。",
-        "pot-05": "「小盒；小罐」與本句語境不同。",
-        "pot-06": "「彩池；獎金池；共同款項」與本句語境不同。",
-        "pot-07": "「頭獎；累積大獎」與本句語境不同。",
-        "pot-08": "「大麻」與本句語境不同。",
-        "pot-09": "「把植物栽進花盆」與本句語境不同。"
-      }
+        "pot-mcq-04": "本句指「一個 pot 所能盛載的一整份食物／飲品數量」。",
+        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
+        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
+        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
+        "pot-mcq-01": "「盛載泥土和植物、供植物生長的花盆／容器」是「pot — plant container」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-04"
     },
     {
       "id": "pot-04-1",
-      "sense": "pot-04",
+      "sense": "pot-mcq-04",
       "en": "We shared a pot of coffee.",
       "zh": "我們一起喝了一壺咖啡。",
       "masked": "We shared a ____.",
       "options": [
-        "pot-04",
-        "pot-05",
-        "pot-06",
-        "pot-07",
-        "pot-08",
-        "pot-09"
+        "pot-mcq-04",
+        "pot-mcq-03",
+        "pot-mcq-05",
+        "pot-mcq-02",
+        "pot-mcq-06",
+        "pot-mcq-01"
       ],
-      "explanation": "留意語境：a pot of + food/drink（容器所盛的量）。這裡指「一鍋；一壺；一罐」。",
+      "explanation": "本句的「pot of coffee」指「一個 pot 所能盛載的一整份食物／飲品數量」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "pot of coffee"
       ],
       "optionReasons": {
-        "pot-04": "本句的意思是「一鍋；一壺；一罐」。",
-        "pot-05": "「小盒；小罐」與本句語境不同。",
-        "pot-06": "「彩池；獎金池；共同款項」與本句語境不同。",
-        "pot-07": "「頭獎；累積大獎」與本句語境不同。",
-        "pot-08": "「大麻」與本句語境不同。",
-        "pot-09": "「把植物栽進花盆」與本句語境不同。"
-      }
+        "pot-mcq-04": "本句指「一個 pot 所能盛載的一整份食物／飲品數量」。",
+        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
+        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
+        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
+        "pot-mcq-01": "「盛載泥土和植物、供植物生長的花盆／容器」是「pot — plant container」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-04"
     },
     {
       "id": "pot-05-0",
-      "sense": "pot-05",
+      "sense": "pot-mcq-05",
       "en": "She had a small pot of yoghurt.",
       "zh": "她有一小杯／盒乳酪。",
       "masked": "She had a small ____.",
       "options": [
-        "pot-05",
-        "pot-06",
-        "pot-07",
-        "pot-08",
-        "pot-09",
-        "pot-10"
+        "pot-mcq-05",
+        "pot-mcq-04",
+        "pot-mcq-06",
+        "pot-mcq-03",
+        "pot-mcq-07",
+        "pot-mcq-02"
       ],
-      "explanation": "留意語境：pot = small commercial container of food/cosmetics（小盒／小罐）。這裡指「小盒；小罐」。",
+      "explanation": "本句的「pot of yoghurt」指「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "pot of yoghurt"
       ],
       "optionReasons": {
-        "pot-05": "本句的意思是「小盒；小罐」。",
-        "pot-06": "「彩池；獎金池；共同款項」與本句語境不同。",
-        "pot-07": "「頭獎；累積大獎」與本句語境不同。",
-        "pot-08": "「大麻」與本句語境不同。",
-        "pot-09": "「把植物栽進花盆」與本句語境不同。",
-        "pot-10": "「盆栽植物」與本句語境不同。"
-      }
+        "pot-mcq-05": "本句指「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」。",
+        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
+        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
+        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
+        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-05"
     },
     {
       "id": "pot-05-1",
-      "sense": "pot-05",
+      "sense": "pot-mcq-05",
       "en": "I bought a little pot of face cream.",
       "zh": "我買了一小罐面霜。",
       "masked": "I bought a little ____.",
       "options": [
-        "pot-05",
-        "pot-06",
-        "pot-07",
-        "pot-08",
-        "pot-09",
-        "pot-10"
+        "pot-mcq-05",
+        "pot-mcq-04",
+        "pot-mcq-06",
+        "pot-mcq-03",
+        "pot-mcq-07",
+        "pot-mcq-02"
       ],
-      "explanation": "留意語境：pot = small commercial container of food/cosmetics（小盒／小罐）。這裡指「小盒；小罐」。",
+      "explanation": "本句的「pot of face cream」指「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "pot of face cream"
       ],
       "optionReasons": {
-        "pot-05": "本句的意思是「小盒；小罐」。",
-        "pot-06": "「彩池；獎金池；共同款項」與本句語境不同。",
-        "pot-07": "「頭獎；累積大獎」與本句語境不同。",
-        "pot-08": "「大麻」與本句語境不同。",
-        "pot-09": "「把植物栽進花盆」與本句語境不同。",
-        "pot-10": "「盆栽植物」與本句語境不同。"
-      }
+        "pot-mcq-05": "本句指「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」。",
+        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
+        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
+        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
+        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-05"
     },
     {
       "id": "pot-06-0",
-      "sense": "pot-06",
+      "sense": "pot-mcq-06",
       "en": "Everyone contributed money to the pot.",
       "zh": "每個人都把錢放進共同的款項／基金裡。",
       "masked": "Everyone contributed money to the ____.",
       "options": [
-        "pot-06",
-        "pot-07",
-        "pot-08",
-        "pot-09",
-        "pot-10",
-        "pot-11"
+        "pot-mcq-06",
+        "pot-mcq-05",
+        "pot-mcq-07",
+        "pot-mcq-04",
+        "pot-mcq-08",
+        "pot-mcq-03"
       ],
-      "explanation": "留意語境：pot = pooled money/prize fund（共同金額）。這裡指「彩池；獎金池；共同款項」。",
+      "explanation": "本句的「pot」指「多人共同投入、按規則分配或由勝者取得的一筆錢」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "pot"
       ],
       "optionReasons": {
-        "pot-06": "本句的意思是「彩池；獎金池；共同款項」。",
-        "pot-07": "「頭獎；累積大獎」與本句語境不同。",
-        "pot-08": "「大麻」與本句語境不同。",
-        "pot-09": "「把植物栽進花盆」與本句語境不同。",
-        "pot-10": "「盆栽植物」與本句語境不同。",
-        "pot-11": "「盆栽土；培養土」與本句語境不同。"
-      }
+        "pot-mcq-06": "本句指「多人共同投入、按規則分配或由勝者取得的一筆錢」。",
+        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
+        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
+        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
+        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
+        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-06"
     },
     {
       "id": "pot-06-1",
-      "sense": "pot-06",
+      "sense": "pot-mcq-06",
       "en": "The winner took the entire pot.",
       "zh": "勝出者拿走了整個獎金池／彩池。",
       "masked": "The winner took the entire ____.",
       "options": [
-        "pot-06",
-        "pot-07",
-        "pot-08",
-        "pot-09",
-        "pot-10",
-        "pot-11"
+        "pot-mcq-06",
+        "pot-mcq-05",
+        "pot-mcq-07",
+        "pot-mcq-04",
+        "pot-mcq-08",
+        "pot-mcq-03"
       ],
-      "explanation": "留意語境：pot = pooled money/prize fund（共同金額）。這裡指「彩池；獎金池；共同款項」。",
+      "explanation": "本句的「pot」指「多人共同投入、按規則分配或由勝者取得的一筆錢」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "pot"
       ],
       "optionReasons": {
-        "pot-06": "本句的意思是「彩池；獎金池；共同款項」。",
-        "pot-07": "「頭獎；累積大獎」與本句語境不同。",
-        "pot-08": "「大麻」與本句語境不同。",
-        "pot-09": "「把植物栽進花盆」與本句語境不同。",
-        "pot-10": "「盆栽植物」與本句語境不同。",
-        "pot-11": "「盆栽土；培養土」與本句語境不同。"
-      }
+        "pot-mcq-06": "本句指「多人共同投入、按規則分配或由勝者取得的一筆錢」。",
+        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
+        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
+        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
+        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
+        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-06"
     },
     {
       "id": "pot-07-0",
-      "sense": "pot-07",
+      "sense": "pot-mcq-18",
       "en": "She won the jackpot.",
       "zh": "她中了頭獎／巨額累積獎金。",
       "masked": "She won the ____.",
       "options": [
-        "pot-07",
-        "pot-08",
-        "pot-09",
-        "pot-10",
-        "pot-11",
-        "pot-12"
+        "pot-mcq-18",
+        "pot-mcq-17",
+        "pot-mcq-19",
+        "pot-mcq-16",
+        "pot-mcq-15",
+        "pot-mcq-14"
       ],
-      "explanation": "留意語境：jackpot（獎項）。這裡指「頭獎；累積大獎」。",
+      "explanation": "本句的「jackpot」指「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "jackpot"
       ],
       "optionReasons": {
-        "pot-07": "本句的意思是「頭獎；累積大獎」。",
-        "pot-08": "「大麻」與本句語境不同。",
-        "pot-09": "「把植物栽進花盆」與本句語境不同。",
-        "pot-10": "「盆栽植物」與本句語境不同。",
-        "pot-11": "「盆栽土；培養土」與本句語境不同。",
-        "pot-12": "「陶器；陶製品」與本句語境不同。"
-      }
+        "pot-mcq-18": "本句指「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」。",
+        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
+        "pot-mcq-19": "「表示擊入；入球」是「16. pot = score by putting a ball into a target/hole（球類） — 擊入；入球」的用法，與本句語境不同。",
+        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
+        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
+        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-18"
     },
     {
       "id": "pot-07-1",
-      "sense": "pot-07",
+      "sense": "pot-mcq-18",
       "en": "The machine displayed the current jackpot.",
       "zh": "機器顯示目前的累積大獎金額。",
       "masked": "The machine displayed the current ____.",
       "options": [
-        "pot-07",
-        "pot-08",
-        "pot-09",
-        "pot-10",
-        "pot-11",
-        "pot-12"
+        "pot-mcq-18",
+        "pot-mcq-17",
+        "pot-mcq-19",
+        "pot-mcq-16",
+        "pot-mcq-15",
+        "pot-mcq-14"
       ],
-      "explanation": "留意語境：jackpot（獎項）。這裡指「頭獎；累積大獎」。",
+      "explanation": "本句的「jackpot」指「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "jackpot"
       ],
       "optionReasons": {
-        "pot-07": "本句的意思是「頭獎；累積大獎」。",
-        "pot-08": "「大麻」與本句語境不同。",
-        "pot-09": "「把植物栽進花盆」與本句語境不同。",
-        "pot-10": "「盆栽植物」與本句語境不同。",
-        "pot-11": "「盆栽土；培養土」與本句語境不同。",
-        "pot-12": "「陶器；陶製品」與本句語境不同。"
-      }
+        "pot-mcq-18": "本句指「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」。",
+        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
+        "pot-mcq-19": "「表示擊入；入球」是「16. pot = score by putting a ball into a target/hole（球類） — 擊入；入球」的用法，與本句語境不同。",
+        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
+        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
+        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-18"
     },
     {
       "id": "pot-08-0",
-      "sense": "pot-08",
+      "sense": "pot-mcq-07",
       "en": "The article discusses changing attitudes toward pot.",
       "zh": "這篇文章討論人們對大麻態度的改變。",
       "masked": "The article discusses changing attitudes toward ____.",
       "options": [
-        "pot-08",
-        "pot-09",
-        "pot-10",
-        "pot-11",
-        "pot-12",
-        "pot-13"
+        "pot-mcq-07",
+        "pot-mcq-06",
+        "pot-mcq-08",
+        "pot-mcq-05",
+        "pot-mcq-09",
+        "pot-mcq-04"
       ],
-      "explanation": "留意語境：pot = cannabis/marijuana（非正式）。這裡指「大麻」。",
+      "explanation": "本句的「pot」指「marijuana/cannabis 的非正式稱呼」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "pot"
       ],
       "optionReasons": {
-        "pot-08": "本句的意思是「大麻」。",
-        "pot-09": "「把植物栽進花盆」與本句語境不同。",
-        "pot-10": "「盆栽植物」與本句語境不同。",
-        "pot-11": "「盆栽土；培養土」與本句語境不同。",
-        "pot-12": "「陶器；陶製品」與本句語境不同。",
-        "pot-13": "「陶藝；製陶」與本句語境不同。"
-      }
+        "pot-mcq-07": "本句指「marijuana/cannabis 的非正式稱呼」。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
+        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
+        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
+        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
+        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-07"
     },
     {
       "id": "pot-08-1",
-      "sense": "pot-08",
+      "sense": "pot-mcq-07",
       "en": "In informal American English, ‘pot’ can refer to marijuana.",
       "zh": "在非正式美式英語中，pot 可以指大麻。",
       "masked": "In informal American English, ‘____’ can refer to marijuana.",
       "options": [
-        "pot-08",
-        "pot-09",
-        "pot-10",
-        "pot-11",
-        "pot-12",
-        "pot-13"
+        "pot-mcq-07",
+        "pot-mcq-06",
+        "pot-mcq-08",
+        "pot-mcq-05",
+        "pot-mcq-09",
+        "pot-mcq-04"
       ],
-      "explanation": "留意語境：pot = cannabis/marijuana（非正式）。這裡指「大麻」。",
+      "explanation": "本句的「pot」指「marijuana/cannabis 的非正式稱呼」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "pot"
       ],
       "optionReasons": {
-        "pot-08": "本句的意思是「大麻」。",
-        "pot-09": "「把植物栽進花盆」與本句語境不同。",
-        "pot-10": "「盆栽植物」與本句語境不同。",
-        "pot-11": "「盆栽土；培養土」與本句語境不同。",
-        "pot-12": "「陶器；陶製品」與本句語境不同。",
-        "pot-13": "「陶藝；製陶」與本句語境不同。"
-      }
+        "pot-mcq-07": "本句指「marijuana/cannabis 的非正式稱呼」。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
+        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
+        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
+        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
+        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-07"
     },
     {
       "id": "pot-09-0",
-      "sense": "pot-09",
+      "sense": "pot-mcq-08",
       "en": "She potted the young tomato plants.",
       "zh": "她把幼小番茄苗栽進花盆。",
       "masked": "She ____ the young tomato plants.",
       "options": [
-        "pot-09",
-        "pot-10",
-        "pot-11",
-        "pot-12",
-        "pot-13",
-        "pot-14"
+        "pot-mcq-08",
+        "pot-mcq-07",
+        "pot-mcq-09",
+        "pot-mcq-06",
+        "pot-mcq-10",
+        "pot-mcq-05"
       ],
-      "explanation": "留意語境：pot + plant（動詞）。這裡指「把植物栽進花盆」。",
+      "explanation": "本句的「potted」指「把植物移入裝有泥土的花盆中栽種」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "potted"
       ],
       "optionReasons": {
-        "pot-09": "本句的意思是「把植物栽進花盆」。",
-        "pot-10": "「盆栽植物」與本句語境不同。",
-        "pot-11": "「盆栽土；培養土」與本句語境不同。",
-        "pot-12": "「陶器；陶製品」與本句語境不同。",
-        "pot-13": "「陶藝；製陶」與本句語境不同。",
-        "pot-14": "「陶工；陶藝家」與本句語境不同。"
-      }
+        "pot-mcq-08": "本句指「把植物移入裝有泥土的花盆中栽種」。",
+        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
+        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
+        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
+        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-08"
     },
     {
       "id": "pot-09-1",
-      "sense": "pot-09",
+      "sense": "pot-mcq-08",
       "en": "These herbs are ready to be potted.",
       "zh": "這些香草已經可以移栽到花盆裡了。",
       "masked": "These herbs are ready to be ____.",
       "options": [
-        "pot-09",
-        "pot-10",
-        "pot-11",
-        "pot-12",
-        "pot-13",
-        "pot-14"
+        "pot-mcq-08",
+        "pot-mcq-07",
+        "pot-mcq-09",
+        "pot-mcq-06",
+        "pot-mcq-10",
+        "pot-mcq-05"
       ],
-      "explanation": "留意語境：pot + plant（動詞）。這裡指「把植物栽進花盆」。",
+      "explanation": "本句的「potted」指「把植物移入裝有泥土的花盆中栽種」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "potted"
       ],
       "optionReasons": {
-        "pot-09": "本句的意思是「把植物栽進花盆」。",
-        "pot-10": "「盆栽植物」與本句語境不同。",
-        "pot-11": "「盆栽土；培養土」與本句語境不同。",
-        "pot-12": "「陶器；陶製品」與本句語境不同。",
-        "pot-13": "「陶藝；製陶」與本句語境不同。",
-        "pot-14": "「陶工；陶藝家」與本句語境不同。"
-      }
+        "pot-mcq-08": "本句指「把植物移入裝有泥土的花盆中栽種」。",
+        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
+        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
+        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
+        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-08"
     },
     {
       "id": "pot-10-0",
-      "sense": "pot-10",
+      "sense": "pot-mcq-09",
       "en": "She keeps several potted plants near the window.",
       "zh": "她在窗邊放了幾盆盆栽植物。",
       "masked": "She keeps several ____ near the window.",
       "options": [
-        "pot-10",
-        "pot-11",
-        "pot-12",
-        "pot-13",
-        "pot-14",
-        "pot-15"
+        "pot-mcq-09",
+        "pot-mcq-08",
+        "pot-mcq-10",
+        "pot-mcq-07",
+        "pot-mcq-11",
+        "pot-mcq-06"
       ],
-      "explanation": "留意語境：potted plant（植物）。這裡指「盆栽植物」。",
+      "explanation": "本句的「potted plants」指「種植在花盆而非直接種在地裡的植物」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "potted plants"
       ],
       "optionReasons": {
-        "pot-10": "本句的意思是「盆栽植物」。",
-        "pot-11": "「盆栽土；培養土」與本句語境不同。",
-        "pot-12": "「陶器；陶製品」與本句語境不同。",
-        "pot-13": "「陶藝；製陶」與本句語境不同。",
-        "pot-14": "「陶工；陶藝家」與本句語境不同。",
-        "pot-15": "「把球擊入袋中」與本句語境不同。"
-      }
+        "pot-mcq-09": "本句指「種植在花盆而非直接種在地裡的植物」。",
+        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
+        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
+        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
+        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-09"
     },
     {
       "id": "pot-10-1",
-      "sense": "pot-10",
+      "sense": "pot-mcq-09",
       "en": "Potted plants need regular watering.",
       "zh": "盆栽植物需要定期澆水。",
       "masked": "____ plants need regular watering.",
       "options": [
-        "pot-10",
-        "pot-11",
-        "pot-12",
-        "pot-13",
-        "pot-14",
-        "pot-15"
+        "pot-mcq-09",
+        "pot-mcq-08",
+        "pot-mcq-10",
+        "pot-mcq-07",
+        "pot-mcq-11",
+        "pot-mcq-06"
       ],
-      "explanation": "留意語境：potted plant（植物）。這裡指「盆栽植物」。",
+      "explanation": "本句的「Potted」指「種植在花盆而非直接種在地裡的植物」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "Potted"
       ],
       "optionReasons": {
-        "pot-10": "本句的意思是「盆栽植物」。",
-        "pot-11": "「盆栽土；培養土」與本句語境不同。",
-        "pot-12": "「陶器；陶製品」與本句語境不同。",
-        "pot-13": "「陶藝；製陶」與本句語境不同。",
-        "pot-14": "「陶工；陶藝家」與本句語境不同。",
-        "pot-15": "「把球擊入袋中」與本句語境不同。"
-      }
+        "pot-mcq-09": "本句指「種植在花盆而非直接種在地裡的植物」。",
+        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
+        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
+        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
+        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
+        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-09"
     },
     {
       "id": "pot-11-0",
-      "sense": "pot-11",
+      "sense": "pot-mcq-10",
       "en": "Use fresh potting soil for the herbs.",
       "zh": "種香草時使用新鮮的盆栽土／培養土。",
       "masked": "Use fresh ____ for the herbs.",
       "options": [
-        "pot-11",
-        "pot-12",
-        "pot-13",
-        "pot-14",
-        "pot-15",
-        "pot-16"
+        "pot-mcq-10",
+        "pot-mcq-09",
+        "pot-mcq-11",
+        "pot-mcq-08",
+        "pot-mcq-12",
+        "pot-mcq-07"
       ],
-      "explanation": "留意語境：potting soil / potting mix（園藝）。這裡指「盆栽土；培養土」。",
+      "explanation": "本句的「potting soil」指「專供盆栽植物生長使用的栽培介質」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "potting soil"
       ],
       "optionReasons": {
-        "pot-11": "本句的意思是「盆栽土；培養土」。",
-        "pot-12": "「陶器；陶製品」與本句語境不同。",
-        "pot-13": "「陶藝；製陶」與本句語境不同。",
-        "pot-14": "「陶工；陶藝家」與本句語境不同。",
-        "pot-15": "「把球擊入袋中」與本句語境不同。",
-        "pot-16": "「擊入；入球」與本句語境不同。"
-      }
+        "pot-mcq-10": "本句指「專供盆栽植物生長使用的栽培介質」。",
+        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
+        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
+        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
+        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
+        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-10"
     },
     {
       "id": "pot-11-1",
-      "sense": "pot-11",
+      "sense": "pot-mcq-10",
       "en": "This potting mix drains well.",
       "zh": "這種盆栽培養土排水良好。",
       "masked": "This ____ mix drains well.",
       "options": [
-        "pot-11",
-        "pot-12",
-        "pot-13",
-        "pot-14",
-        "pot-15",
-        "pot-16"
+        "pot-mcq-10",
+        "pot-mcq-09",
+        "pot-mcq-11",
+        "pot-mcq-08",
+        "pot-mcq-12",
+        "pot-mcq-07"
       ],
-      "explanation": "留意語境：potting soil / potting mix（園藝）。這裡指「盆栽土；培養土」。",
+      "explanation": "本句的「potting」指「專供盆栽植物生長使用的栽培介質」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "potting"
       ],
       "optionReasons": {
-        "pot-11": "本句的意思是「盆栽土；培養土」。",
-        "pot-12": "「陶器；陶製品」與本句語境不同。",
-        "pot-13": "「陶藝；製陶」與本句語境不同。",
-        "pot-14": "「陶工；陶藝家」與本句語境不同。",
-        "pot-15": "「把球擊入袋中」與本句語境不同。",
-        "pot-16": "「擊入；入球」與本句語境不同。"
-      }
+        "pot-mcq-10": "本句指「專供盆栽植物生長使用的栽培介質」。",
+        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
+        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
+        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
+        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
+        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-10"
     },
     {
       "id": "pot-12-0",
-      "sense": "pot-12",
+      "sense": "pot-mcq-11",
       "en": "The museum displays ancient pottery.",
       "zh": "博物館展出古代陶器。",
       "masked": "The museum displays ancient ____.",
       "options": [
-        "pot-12",
-        "pot-13",
-        "pot-14",
-        "pot-15",
-        "pot-16",
-        "pot-17"
+        "pot-mcq-11",
+        "pot-mcq-10",
+        "pot-mcq-12",
+        "pot-mcq-09",
+        "pot-mcq-13",
+        "pot-mcq-08"
       ],
-      "explanation": "留意語境：pottery = pots and other objects made from clay。這裡指「陶器；陶製品」。",
+      "explanation": "本句的「pottery」指「用陶土燒製的器皿／物品整體」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "pottery"
       ],
       "optionReasons": {
-        "pot-12": "本句的意思是「陶器；陶製品」。",
-        "pot-13": "「陶藝；製陶」與本句語境不同。",
-        "pot-14": "「陶工；陶藝家」與本句語境不同。",
-        "pot-15": "「把球擊入袋中」與本句語境不同。",
-        "pot-16": "「擊入；入球」與本句語境不同。",
-        "pot-17": "「罐裝／盆裝保存的；製成肉醬的」與本句語境不同。"
-      }
+        "pot-mcq-11": "本句指「用陶土燒製的器皿／物品整體」。",
+        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
+        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
+        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
+        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
+        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-11"
     },
     {
       "id": "pot-12-1",
-      "sense": "pot-12",
+      "sense": "pot-mcq-11",
       "en": "She collects handmade pottery.",
       "zh": "她收藏手工陶器。",
       "masked": "She collects handmade ____.",
       "options": [
-        "pot-12",
-        "pot-13",
-        "pot-14",
-        "pot-15",
-        "pot-16",
-        "pot-17"
+        "pot-mcq-11",
+        "pot-mcq-10",
+        "pot-mcq-12",
+        "pot-mcq-09",
+        "pot-mcq-13",
+        "pot-mcq-08"
       ],
-      "explanation": "留意語境：pottery = pots and other objects made from clay。這裡指「陶器；陶製品」。",
+      "explanation": "本句的「pottery」指「用陶土燒製的器皿／物品整體」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "pottery"
       ],
       "optionReasons": {
-        "pot-12": "本句的意思是「陶器；陶製品」。",
-        "pot-13": "「陶藝；製陶」與本句語境不同。",
-        "pot-14": "「陶工；陶藝家」與本句語境不同。",
-        "pot-15": "「把球擊入袋中」與本句語境不同。",
-        "pot-16": "「擊入；入球」與本句語境不同。",
-        "pot-17": "「罐裝／盆裝保存的；製成肉醬的」與本句語境不同。"
-      }
+        "pot-mcq-11": "本句指「用陶土燒製的器皿／物品整體」。",
+        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
+        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
+        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
+        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
+        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-11"
     },
     {
       "id": "pot-13-0",
-      "sense": "pot-13",
+      "sense": "pot-mcq-12",
       "en": "She takes a pottery class on Saturdays.",
       "zh": "她星期六上陶藝課。",
       "masked": "She takes a ____ class on Saturdays.",
       "options": [
-        "pot-13",
-        "pot-14",
-        "pot-15",
-        "pot-16",
-        "pot-17",
-        "pot-18"
+        "pot-mcq-12",
+        "pot-mcq-11",
+        "pot-mcq-13",
+        "pot-mcq-10",
+        "pot-mcq-14",
+        "pot-mcq-09"
       ],
-      "explanation": "留意語境：pottery = craft/activity of making clay objects。這裡指「陶藝；製陶」。",
+      "explanation": "本句的「pottery」指「用陶土塑形並燒製器物的工藝／活動」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "pottery"
       ],
       "optionReasons": {
-        "pot-13": "本句的意思是「陶藝；製陶」。",
-        "pot-14": "「陶工；陶藝家」與本句語境不同。",
-        "pot-15": "「把球擊入袋中」與本句語境不同。",
-        "pot-16": "「擊入；入球」與本句語境不同。",
-        "pot-17": "「罐裝／盆裝保存的；製成肉醬的」與本句語境不同。",
-        "pot-18": "「簡略的；濃縮的」與本句語境不同。"
-      }
+        "pot-mcq-12": "本句指「用陶土塑形並燒製器物的工藝／活動」。",
+        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
+        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
+        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
+        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
+        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-12"
     },
     {
       "id": "pot-13-1",
-      "sense": "pot-13",
+      "sense": "pot-mcq-12",
       "en": "Pottery requires patience and practice.",
       "zh": "陶藝／製陶需要耐性和練習。",
       "masked": "____ requires patience and practice.",
       "options": [
-        "pot-13",
-        "pot-14",
-        "pot-15",
-        "pot-16",
-        "pot-17",
-        "pot-18"
+        "pot-mcq-12",
+        "pot-mcq-11",
+        "pot-mcq-13",
+        "pot-mcq-10",
+        "pot-mcq-14",
+        "pot-mcq-09"
       ],
-      "explanation": "留意語境：pottery = craft/activity of making clay objects。這裡指「陶藝；製陶」。",
+      "explanation": "本句的「Pottery」指「用陶土塑形並燒製器物的工藝／活動」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "Pottery"
       ],
       "optionReasons": {
-        "pot-13": "本句的意思是「陶藝；製陶」。",
-        "pot-14": "「陶工；陶藝家」與本句語境不同。",
-        "pot-15": "「把球擊入袋中」與本句語境不同。",
-        "pot-16": "「擊入；入球」與本句語境不同。",
-        "pot-17": "「罐裝／盆裝保存的；製成肉醬的」與本句語境不同。",
-        "pot-18": "「簡略的；濃縮的」與本句語境不同。"
-      }
+        "pot-mcq-12": "本句指「用陶土塑形並燒製器物的工藝／活動」。",
+        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
+        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
+        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
+        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
+        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-12"
     },
     {
       "id": "pot-14-0",
-      "sense": "pot-14",
+      "sense": "pot-mcq-13",
       "en": "The bowl was made by a local potter.",
       "zh": "這隻碗由一位本地陶藝家／陶工製作。",
       "masked": "The bowl was made by a local ____.",
       "options": [
-        "pot-14",
-        "pot-15",
-        "pot-16",
-        "pot-17",
-        "pot-18",
-        "pot-19"
+        "pot-mcq-13",
+        "pot-mcq-12",
+        "pot-mcq-14",
+        "pot-mcq-11",
+        "pot-mcq-15",
+        "pot-mcq-10"
       ],
-      "explanation": "留意語境：potter = person who makes pottery。這裡指「陶工；陶藝家」。",
+      "explanation": "本句的「potter」指「以陶土製作器物的陶工／陶藝家」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "potter"
       ],
       "optionReasons": {
-        "pot-14": "本句的意思是「陶工；陶藝家」。",
-        "pot-15": "「把球擊入袋中」與本句語境不同。",
-        "pot-16": "「擊入；入球」與本句語境不同。",
-        "pot-17": "「罐裝／盆裝保存的；製成肉醬的」與本句語境不同。",
-        "pot-18": "「簡略的；濃縮的」與本句語境不同。",
-        "pot-19": "「百樂餐；每人帶食物分享的聚餐」與本句語境不同。"
-      }
+        "pot-mcq-13": "本句指「以陶土製作器物的陶工／陶藝家」。",
+        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
+        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
+        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
+        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
+        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-13"
     },
     {
       "id": "pot-14-1",
-      "sense": "pot-14",
+      "sense": "pot-mcq-13",
       "en": "The potter shaped the clay by hand.",
       "zh": "陶工用手塑造陶泥。",
       "masked": "The ____ shaped the clay by hand.",
       "options": [
-        "pot-14",
-        "pot-15",
-        "pot-16",
-        "pot-17",
-        "pot-18",
-        "pot-19"
+        "pot-mcq-13",
+        "pot-mcq-12",
+        "pot-mcq-14",
+        "pot-mcq-11",
+        "pot-mcq-15",
+        "pot-mcq-10"
       ],
-      "explanation": "留意語境：potter = person who makes pottery。這裡指「陶工；陶藝家」。",
+      "explanation": "本句的「potter」指「以陶土製作器物的陶工／陶藝家」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "potter"
       ],
       "optionReasons": {
-        "pot-14": "本句的意思是「陶工；陶藝家」。",
-        "pot-15": "「把球擊入袋中」與本句語境不同。",
-        "pot-16": "「擊入；入球」與本句語境不同。",
-        "pot-17": "「罐裝／盆裝保存的；製成肉醬的」與本句語境不同。",
-        "pot-18": "「簡略的；濃縮的」與本句語境不同。",
-        "pot-19": "「百樂餐；每人帶食物分享的聚餐」與本句語境不同。"
-      }
+        "pot-mcq-13": "本句指「以陶土製作器物的陶工／陶藝家」。",
+        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
+        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
+        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
+        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
+        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-13"
     },
     {
       "id": "pot-15-0",
-      "sense": "pot-15",
+      "sense": "pot-mcq-14",
       "en": "He potted the final ball and won the match.",
       "zh": "他把最後一球擊入袋中，贏得比賽。",
       "masked": "He ____ the final ball and won the match.",
       "options": [
-        "pot-15",
-        "pot-16",
-        "pot-17",
-        "pot-18",
-        "pot-19",
-        "pot-01"
+        "pot-mcq-14",
+        "pot-mcq-13",
+        "pot-mcq-15",
+        "pot-mcq-12",
+        "pot-mcq-16",
+        "pot-mcq-11"
       ],
-      "explanation": "留意語境：pot = sink a ball into a pocket/hole（桌球／撞球）。這裡指「把球擊入袋中」。",
+      "explanation": "本句的「potted」指「在桌球／撞球中把球擊進球袋」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "potted"
       ],
       "optionReasons": {
-        "pot-15": "本句的意思是「把球擊入袋中」。",
-        "pot-16": "「擊入；入球」與本句語境不同。",
-        "pot-17": "「罐裝／盆裝保存的；製成肉醬的」與本句語境不同。",
-        "pot-18": "「簡略的；濃縮的」與本句語境不同。",
-        "pot-19": "「百樂餐；每人帶食物分享的聚餐」與本句語境不同。",
-        "pot-01": "「花盆；盆」與本句語境不同。"
-      }
+        "pot-mcq-14": "本句指「在桌球／撞球中把球擊進球袋」。",
+        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
+        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
+        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
+        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
+        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-14"
     },
     {
       "id": "pot-15-1",
-      "sense": "pot-15",
+      "sense": "pot-mcq-14",
       "en": "She failed to pot the red ball.",
       "zh": "她未能把紅球擊入球袋。",
       "masked": "She failed to ____ the red ball.",
       "options": [
-        "pot-15",
-        "pot-16",
-        "pot-17",
-        "pot-18",
-        "pot-19",
-        "pot-01"
+        "pot-mcq-14",
+        "pot-mcq-13",
+        "pot-mcq-15",
+        "pot-mcq-12",
+        "pot-mcq-16",
+        "pot-mcq-11"
       ],
-      "explanation": "留意語境：pot = sink a ball into a pocket/hole（桌球／撞球）。這裡指「把球擊入袋中」。",
+      "explanation": "本句的「pot」指「在桌球／撞球中把球擊進球袋」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "pot"
       ],
       "optionReasons": {
-        "pot-15": "本句的意思是「把球擊入袋中」。",
-        "pot-16": "「擊入；入球」與本句語境不同。",
-        "pot-17": "「罐裝／盆裝保存的；製成肉醬的」與本句語境不同。",
-        "pot-18": "「簡略的；濃縮的」與本句語境不同。",
-        "pot-19": "「百樂餐；每人帶食物分享的聚餐」與本句語境不同。",
-        "pot-01": "「花盆；盆」與本句語境不同。"
-      }
+        "pot-mcq-14": "本句指「在桌球／撞球中把球擊進球袋」。",
+        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
+        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
+        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
+        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
+        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-14"
     },
     {
       "id": "pot-16-0",
-      "sense": "pot-16",
+      "sense": "pot-mcq-19",
       "en": "He calmly potted the ball.",
       "zh": "他冷靜地把球擊入袋中。",
       "masked": "He calmly ____ the ball.",
       "options": [
-        "pot-16",
-        "pot-17",
-        "pot-18",
-        "pot-19",
-        "pot-01",
-        "pot-02"
+        "pot-mcq-19",
+        "pot-mcq-18",
+        "pot-mcq-17",
+        "pot-mcq-16",
+        "pot-mcq-15",
+        "pot-mcq-14"
       ],
-      "explanation": "留意語境：pot = score by putting a ball into a target/hole（球類）。這裡指「擊入；入球」。",
+      "explanation": "本句的「potted」指「表示擊入；入球」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "potted"
       ],
       "optionReasons": {
-        "pot-16": "本句的意思是「擊入；入球」。",
-        "pot-17": "「罐裝／盆裝保存的；製成肉醬的」與本句語境不同。",
-        "pot-18": "「簡略的；濃縮的」與本句語境不同。",
-        "pot-19": "「百樂餐；每人帶食物分享的聚餐」與本句語境不同。",
-        "pot-01": "「花盆；盆」與本句語境不同。",
-        "pot-02": "「鍋；煲」與本句語境不同。"
-      }
+        "pot-mcq-19": "本句指「表示擊入；入球」。",
+        "pot-mcq-18": "「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」是「jackpot」的用法，與本句語境不同。",
+        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
+        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
+        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
+        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-19"
     },
     {
       "id": "pot-16-1",
-      "sense": "pot-16",
+      "sense": "pot-mcq-19",
       "en": "The player had several chances to pot.",
       "zh": "那位球員有幾次把球擊入袋中的機會。",
       "masked": "The player had several chances to ____.",
       "options": [
-        "pot-16",
-        "pot-17",
-        "pot-18",
-        "pot-19",
-        "pot-01",
-        "pot-02"
+        "pot-mcq-19",
+        "pot-mcq-18",
+        "pot-mcq-17",
+        "pot-mcq-16",
+        "pot-mcq-15",
+        "pot-mcq-14"
       ],
-      "explanation": "留意語境：pot = score by putting a ball into a target/hole（球類）。這裡指「擊入；入球」。",
+      "explanation": "本句的「pot」指「表示擊入；入球」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "pot"
       ],
       "optionReasons": {
-        "pot-16": "本句的意思是「擊入；入球」。",
-        "pot-17": "「罐裝／盆裝保存的；製成肉醬的」與本句語境不同。",
-        "pot-18": "「簡略的；濃縮的」與本句語境不同。",
-        "pot-19": "「百樂餐；每人帶食物分享的聚餐」與本句語境不同。",
-        "pot-01": "「花盆；盆」與本句語境不同。",
-        "pot-02": "「鍋；煲」與本句語境不同。"
-      }
+        "pot-mcq-19": "本句指「表示擊入；入球」。",
+        "pot-mcq-18": "「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」是「jackpot」的用法，與本句語境不同。",
+        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
+        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
+        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
+        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-19"
     },
     {
       "id": "pot-17-0",
-      "sense": "pot-17",
+      "sense": "pot-mcq-15",
       "en": "The restaurant serves potted shrimp.",
       "zh": "餐廳供應罐裝／奶油封存蝦。",
       "masked": "The restaurant serves ____.",
       "options": [
-        "pot-17",
-        "pot-18",
-        "pot-19",
-        "pot-01",
-        "pot-02",
-        "pot-03"
+        "pot-mcq-15",
+        "pot-mcq-14",
+        "pot-mcq-16",
+        "pot-mcq-13",
+        "pot-mcq-17",
+        "pot-mcq-12"
       ],
-      "explanation": "留意語境：potted = preserved/cooked in a pot（食物）。這裡指「罐裝／盆裝保存的；製成肉醬的」。",
+      "explanation": "本句的「potted shrimp」指「經烹調後放入小罐／盆中保存的食品」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "potted shrimp"
       ],
       "optionReasons": {
-        "pot-17": "本句的意思是「罐裝／盆裝保存的；製成肉醬的」。",
-        "pot-18": "「簡略的；濃縮的」與本句語境不同。",
-        "pot-19": "「百樂餐；每人帶食物分享的聚餐」與本句語境不同。",
-        "pot-01": "「花盆；盆」與本句語境不同。",
-        "pot-02": "「鍋；煲」與本句語境不同。",
-        "pot-03": "「壺；罐；容器」與本句語境不同。"
-      }
+        "pot-mcq-15": "本句指「經烹調後放入小罐／盆中保存的食品」。",
+        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
+        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
+        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
+        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
+        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-15"
     },
     {
       "id": "pot-17-1",
-      "sense": "pot-17",
+      "sense": "pot-mcq-15",
       "en": "Potted meat was traditionally stored under a layer of fat.",
       "zh": "傳統的罐存肉醬／封存肉製品會以脂肪層保存。",
       "masked": "____ meat was traditionally stored under a layer of fat.",
       "options": [
-        "pot-17",
-        "pot-18",
-        "pot-19",
-        "pot-01",
-        "pot-02",
-        "pot-03"
+        "pot-mcq-15",
+        "pot-mcq-14",
+        "pot-mcq-16",
+        "pot-mcq-13",
+        "pot-mcq-17",
+        "pot-mcq-12"
       ],
-      "explanation": "留意語境：potted = preserved/cooked in a pot（食物）。這裡指「罐裝／盆裝保存的；製成肉醬的」。",
+      "explanation": "本句的「Potted」指「經烹調後放入小罐／盆中保存的食品」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "Potted"
       ],
       "optionReasons": {
-        "pot-17": "本句的意思是「罐裝／盆裝保存的；製成肉醬的」。",
-        "pot-18": "「簡略的；濃縮的」與本句語境不同。",
-        "pot-19": "「百樂餐；每人帶食物分享的聚餐」與本句語境不同。",
-        "pot-01": "「花盆；盆」與本句語境不同。",
-        "pot-02": "「鍋；煲」與本句語境不同。",
-        "pot-03": "「壺；罐；容器」與本句語境不同。"
-      }
+        "pot-mcq-15": "本句指「經烹調後放入小罐／盆中保存的食品」。",
+        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
+        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
+        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
+        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
+        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-15"
     },
     {
       "id": "pot-18-0",
-      "sense": "pot-18",
+      "sense": "pot-mcq-16",
       "en": "The book begins with a potted history of the town.",
       "zh": "這本書開首先提供該城鎮的簡略歷史概述。",
       "masked": "The book begins with a ____ of the town.",
       "options": [
-        "pot-18",
-        "pot-19",
-        "pot-01",
-        "pot-02",
-        "pot-03",
-        "pot-04"
+        "pot-mcq-16",
+        "pot-mcq-15",
+        "pot-mcq-17",
+        "pot-mcq-14",
+        "pot-mcq-18",
+        "pot-mcq-13"
       ],
-      "explanation": "留意語境：potted + history/biography/summary（簡短濃縮）。這裡指「簡略的；濃縮的」。",
+      "explanation": "本句的「potted history」指「把大量資料濃縮成非常簡短的概略版本」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "potted history"
       ],
       "optionReasons": {
-        "pot-18": "本句的意思是「簡略的；濃縮的」。",
-        "pot-19": "「百樂餐；每人帶食物分享的聚餐」與本句語境不同。",
-        "pot-01": "「花盆；盆」與本句語境不同。",
-        "pot-02": "「鍋；煲」與本句語境不同。",
-        "pot-03": "「壺；罐；容器」與本句語境不同。",
-        "pot-04": "「一鍋；一壺；一罐」與本句語境不同。"
-      }
+        "pot-mcq-16": "本句指「把大量資料濃縮成非常簡短的概略版本」。",
+        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
+        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
+        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
+        "pot-mcq-18": "「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」是「jackpot」的用法，與本句語境不同。",
+        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-16"
     },
     {
       "id": "pot-18-1",
-      "sense": "pot-18",
+      "sense": "pot-mcq-16",
       "en": "She gave us a potted biography of the artist.",
       "zh": "她向我們簡短介紹了那位藝術家的生平概述。",
       "masked": "She gave us a ____ biography of the artist.",
       "options": [
-        "pot-18",
-        "pot-19",
-        "pot-01",
-        "pot-02",
-        "pot-03",
-        "pot-04"
+        "pot-mcq-16",
+        "pot-mcq-15",
+        "pot-mcq-17",
+        "pot-mcq-14",
+        "pot-mcq-18",
+        "pot-mcq-13"
       ],
-      "explanation": "留意語境：potted + history/biography/summary（簡短濃縮）。這裡指「簡略的；濃縮的」。",
+      "explanation": "本句的「potted」指「把大量資料濃縮成非常簡短的概略版本」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "potted"
       ],
       "optionReasons": {
-        "pot-18": "本句的意思是「簡略的；濃縮的」。",
-        "pot-19": "「百樂餐；每人帶食物分享的聚餐」與本句語境不同。",
-        "pot-01": "「花盆；盆」與本句語境不同。",
-        "pot-02": "「鍋；煲」與本句語境不同。",
-        "pot-03": "「壺；罐；容器」與本句語境不同。",
-        "pot-04": "「一鍋；一壺；一罐」與本句語境不同。"
-      }
+        "pot-mcq-16": "本句指「把大量資料濃縮成非常簡短的概略版本」。",
+        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
+        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
+        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
+        "pot-mcq-18": "「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」是「jackpot」的用法，與本句語境不同。",
+        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-16"
     },
     {
       "id": "pot-19-0",
-      "sense": "pot-19",
+      "sense": "pot-mcq-17",
       "en": "We’re having a potluck this weekend.",
       "zh": "我們這個週末會舉行一場每人帶一道食物來分享的聚餐。",
       "masked": "We’re having a ____ this weekend.",
       "options": [
-        "pot-19",
-        "pot-01",
-        "pot-02",
-        "pot-03",
-        "pot-04",
-        "pot-05"
+        "pot-mcq-17",
+        "pot-mcq-16",
+        "pot-mcq-18",
+        "pot-mcq-15",
+        "pot-mcq-19",
+        "pot-mcq-14"
       ],
-      "explanation": "留意語境：potluck = meal where people bring food to share。這裡指「百樂餐；每人帶食物分享的聚餐」。",
+      "explanation": "本句的「potluck」指「每名參加者各自帶食物共同分享的聚餐」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "potluck"
       ],
       "optionReasons": {
-        "pot-19": "本句的意思是「百樂餐；每人帶食物分享的聚餐」。",
-        "pot-01": "「花盆；盆」與本句語境不同。",
-        "pot-02": "「鍋；煲」與本句語境不同。",
-        "pot-03": "「壺；罐；容器」與本句語境不同。",
-        "pot-04": "「一鍋；一壺；一罐」與本句語境不同。",
-        "pot-05": "「小盒；小罐」與本句語境不同。"
-      }
+        "pot-mcq-17": "本句指「每名參加者各自帶食物共同分享的聚餐」。",
+        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
+        "pot-mcq-18": "「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」是「jackpot」的用法，與本句語境不同。",
+        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
+        "pot-mcq-19": "「表示擊入；入球」是「16. pot = score by putting a ball into a target/hole（球類） — 擊入；入球」的用法，與本句語境不同。",
+        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-17"
     },
     {
       "id": "pot-19-1",
-      "sense": "pot-19",
+      "sense": "pot-mcq-17",
       "en": "Everyone brought a dish to the potluck.",
       "zh": "每個人都帶了一道菜去參加百樂餐／共享聚餐。",
       "masked": "Everyone brought a dish to the ____.",
       "options": [
-        "pot-19",
-        "pot-01",
-        "pot-02",
-        "pot-03",
-        "pot-04",
-        "pot-05"
+        "pot-mcq-17",
+        "pot-mcq-16",
+        "pot-mcq-18",
+        "pot-mcq-15",
+        "pot-mcq-19",
+        "pot-mcq-14"
       ],
-      "explanation": "留意語境：potluck = meal where people bring food to share。這裡指「百樂餐；每人帶食物分享的聚餐」。",
+      "explanation": "本句的「potluck」指「每名參加者各自帶食物共同分享的聚餐」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "potluck"
       ],
       "optionReasons": {
-        "pot-19": "本句的意思是「百樂餐；每人帶食物分享的聚餐」。",
-        "pot-01": "「花盆；盆」與本句語境不同。",
-        "pot-02": "「鍋；煲」與本句語境不同。",
-        "pot-03": "「壺；罐；容器」與本句語境不同。",
-        "pot-04": "「一鍋；一壺；一罐」與本句語境不同。",
-        "pot-05": "「小盒；小罐」與本句語境不同。"
-      }
+        "pot-mcq-17": "本句指「每名參加者各自帶食物共同分享的聚餐」。",
+        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
+        "pot-mcq-18": "「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」是「jackpot」的用法，與本句語境不同。",
+        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
+        "pot-mcq-19": "「表示擊入；入球」是「16. pot = score by putting a ball into a target/hole（球類） — 擊入；入球」的用法，與本句語境不同。",
+        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。"
+      },
+      "correctOption": "pot-mcq-17"
     }
   ],
   "comparisons": [],
@@ -1701,5 +1607,6 @@ export default {
     "file": "381_pot_Polysemy Exercise.pdf",
     "sha256": "efd5ba5d56e082a4384cfe42aea45806e7f7a520eec8efec2e789232c7a26143",
     "pages": 16
-  }
+  },
+  "mcqSource": "master-comparison"
 };

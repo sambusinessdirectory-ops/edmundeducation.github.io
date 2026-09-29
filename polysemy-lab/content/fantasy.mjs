@@ -2,1576 +2,1485 @@ export default {
   "id": "fantasy",
   "word": "fantasy",
   "number": 464,
-  "version": 1,
+  "version": 2,
   "mass": true,
   "senses": [
     {
-      "id": "fantasy-01",
-      "title": "奇幻；奇幻文學；幻想類型",
-      "form": "Passage anchor > “In terms of genre, I would describe it as a mix of fiction, fantasy, and philosophical drama.",
-      "en": "Passage anchor > “In terms of genre, I would describe it as a mix of fiction, fantasy, and philosophical drama.",
-      "zh": "奇幻；奇幻文學；幻想類型",
-      "note": "留意語境：Passage anchor > “In terms of genre, I would describe it as a mix of fiction, fantasy, and philosophical drama.。這裡指「奇幻；奇幻文學；幻想類型」。",
+      "id": "fantasy-mcq-01",
+      "title": "包含魔法、超自然或不可能元素的奇幻文學／奇幻類型",
+      "form": "fantasy — literary genre",
+      "en": "fantasy — literary genre",
+      "zh": "包含魔法、超自然或不可能元素的奇幻文學／奇幻類型",
+      "note": "來源詞義：包含魔法、超自然或不可能元素的奇幻文學／奇幻類型",
       "examples": [
         [
           "The novel combines philosophy with fantasy.",
           "這本小說把哲學元素與奇幻結合起來。",
-          "奇幻；奇幻文學；幻想類型"
+          "包含魔法、超自然或不可能元素的奇幻文學／奇幻類型"
         ],
         [
           "She enjoys reading fantasy novels.",
           "她喜歡閱讀奇幻小說。",
-          "奇幻；奇幻文學；幻想類型"
-        ]
-      ],
-      "options": [
-        "fantasy-01",
-        "fantasy-02",
-        "fantasy-03",
-        "fantasy-04",
-        "fantasy-05",
-        "fantasy-06"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "fantasy-02",
-      "title": "奇幻；奇幻文學",
-      "form": "fantasy — imaginative genre = fiction involving magical, supernatural, mythical, or impossible elements 奇幻；奇幻文學",
-      "en": "fiction involving magical, supernatural, mythical, or impossible elements",
-      "zh": "奇幻；奇幻文學",
-      "note": "留意語境：fantasy — imaginative genre = fiction involving magical, supernatural, mythical, or impossible elements 奇幻；奇幻文學。這裡指「奇幻；奇幻文學」。",
-      "examples": [
+          "包含魔法、超自然或不可能元素的奇幻文學／奇幻類型"
+        ],
         [
           "He mainly reads fantasy and science fiction.",
           "他主要閱讀奇幻和科幻作品。",
-          "奇幻；奇幻文學"
+          "包含魔法、超自然或不可能元素的奇幻文學／奇幻類型"
         ],
         [
           "The story has strong fantasy elements.",
           "這個故事有很濃厚的奇幻元素。",
-          "奇幻；奇幻文學"
+          "包含魔法、超自然或不可能元素的奇幻文學／奇幻類型"
         ]
       ],
-      "options": [
-        "fantasy-02",
-        "fantasy-03",
-        "fantasy-04",
-        "fantasy-05",
-        "fantasy-06",
-        "fantasy-07"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-03",
-      "title": "奇幻小說；奇幻文學",
-      "form": "fantasy novel / fantasy fiction = novel or fiction in the fantasy genre 奇幻小說；奇幻文學",
-      "en": "novel or fiction in the fantasy genre",
-      "zh": "奇幻小說；奇幻文學",
-      "note": "留意語境：fantasy novel / fantasy fiction = novel or fiction in the fantasy genre 奇幻小說；奇幻文學。這裡指「奇幻小說；奇幻文學」。",
+      "id": "fantasy-mcq-02",
+      "title": "屬於奇幻類型的小說／虛構作品",
+      "form": "fantasy novel/fiction",
+      "en": "fantasy novel/fiction",
+      "zh": "屬於奇幻類型的小說／虛構作品",
+      "note": "來源詞義：屬於奇幻類型的小說／虛構作品",
       "examples": [
         [
           "It is one of the most popular fantasy novels of the decade.",
           "這是近十年最受歡迎的奇幻小說之一。",
-          "奇幻小說；奇幻文學"
+          "屬於奇幻類型的小說／虛構作品"
         ],
         [
           "She writes fantasy fiction for young adults.",
           "她為青少年創作奇幻文學。",
-          "奇幻小說；奇幻文學"
+          "屬於奇幻類型的小說／虛構作品"
         ]
       ],
-      "options": [
-        "fantasy-03",
-        "fantasy-04",
-        "fantasy-05",
-        "fantasy-06",
-        "fantasy-07",
-        "fantasy-08"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-04",
-      "title": "幻想；想像情境；白日夢",
-      "form": "fantasy — imagined scenario = situation imagined in the mind, especially one that is pleasant, exciting, or unlikely to happen 幻想；想像情境；白日夢",
-      "en": "situation imagined in the mind, especially one that is pleasant, exciting, or unlikely to happen",
-      "zh": "幻想；想像情境；白日夢",
-      "note": "留意語境：fantasy — imagined scenario = situation imagined in the mind, especially one that is pleasant, exciting, or unlikely to happen 幻想；想像情境；白日夢。這裡指「幻想；想像情境；白日夢」。",
+      "id": "fantasy-mcq-03",
+      "title": "腦海中想像出來、通常並非現實的情境；幻想",
+      "form": "fantasy — imagined scenario",
+      "en": "fantasy — imagined scenario",
+      "zh": "腦海中想像出來、通常並非現實的情境；幻想",
+      "note": "來源詞義：腦海中想像出來、通常並非現實的情境；幻想",
       "examples": [
         [
           "He often escaped into fantasy.",
           "他常常沉浸在幻想中。",
-          "幻想；想像情境；白日夢"
+          "腦海中想像出來、通常並非現實的情境；幻想"
         ],
         [
           "She had a fantasy about living by the sea.",
           "她曾幻想住在海邊。",
-          "幻想；想像情境；白日夢"
+          "腦海中想像出來、通常並非現實的情境；幻想"
         ]
       ],
-      "options": [
-        "fantasy-04",
-        "fantasy-05",
-        "fantasy-06",
-        "fantasy-07",
-        "fantasy-08",
-        "fantasy-09"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-05",
-      "title": "活在幻想中",
-      "form": "live in a fantasy = believe in or mentally inhabit an imagined situation that is not realistic 活在幻想中",
-      "en": "believe in or mentally inhabit an imagined situation that is not realistic",
-      "zh": "活在幻想中",
-      "note": "留意語境：live in a fantasy = believe in or mentally inhabit an imagined situation that is not realistic 活在幻想中。這裡指「活在幻想中」。",
+      "id": "fantasy-mcq-04",
+      "title": "沉浸在不切實際的想像中；活在幻想裡",
+      "form": "live in a fantasy",
+      "en": "live in a fantasy",
+      "zh": "沉浸在不切實際的想像中；活在幻想裡",
+      "note": "來源詞義：沉浸在不切實際的想像中；活在幻想裡",
       "examples": [
         [
           "You can’t live in a fantasy forever.",
           "你不能永遠活在幻想中。",
-          "活在幻想中"
+          "沉浸在不切實際的想像中；活在幻想裡"
         ],
         [
           "He seemed to be living in a fantasy world.",
           "他似乎一直活在幻想世界裡。",
-          "活在幻想中"
+          "沉浸在不切實際的想像中；活在幻想裡"
         ]
       ],
-      "options": [
-        "fantasy-05",
-        "fantasy-06",
-        "fantasy-07",
-        "fantasy-08",
-        "fantasy-09",
-        "fantasy-10"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-06",
-      "title": "不切實際的幻想；空想",
-      "form": "fantasy — unrealistic belief = idea or expectation that is not based on reality 不切實際的幻想；空想",
-      "en": "idea or expectation that is not based on reality",
-      "zh": "不切實際的幻想；空想",
-      "note": "留意語境：fantasy — unrealistic belief = idea or expectation that is not based on reality 不切實際的幻想；空想。這裡指「不切實際的幻想；空想」。",
+      "id": "fantasy-mcq-05",
+      "title": "缺乏現實根據的空想／幻想",
+      "form": "fantasy — unrealistic belief",
+      "en": "fantasy — unrealistic belief",
+      "zh": "缺乏現實根據的空想／幻想",
+      "note": "來源詞義：缺乏現實根據的空想／幻想",
       "examples": [
         [
           "The plan was pure fantasy.",
           "那個計畫根本是不切實際的空想。",
-          "不切實際的幻想；空想"
+          "缺乏現實根據的空想／幻想"
         ],
         [
           "The belief that success would come without effort was a fantasy.",
           "認為不努力也會成功是一種幻想。",
-          "不切實際的幻想；空想"
+          "缺乏現實根據的空想／幻想"
         ]
       ],
-      "options": [
-        "fantasy-06",
-        "fantasy-07",
-        "fantasy-08",
-        "fantasy-09",
-        "fantasy-10",
-        "fantasy-11"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-07",
-      "title": "純屬幻想；完全不切實際",
-      "form": "pure fantasy = completely unrealistic or imaginary 純屬幻想；完全不切實際",
-      "en": "completely unrealistic or imaginary",
-      "zh": "純屬幻想；完全不切實際",
-      "note": "留意語境：pure fantasy = completely unrealistic or imaginary 純屬幻想；完全不切實際。這裡指「純屬幻想；完全不切實際」。",
+      "id": "fantasy-mcq-06",
+      "title": "完全不切實際或純屬想像",
+      "form": "pure fantasy",
+      "en": "pure fantasy",
+      "zh": "完全不切實際或純屬想像",
+      "note": "來源詞義：完全不切實際或純屬想像",
       "examples": [
         [
           "The idea is pure fantasy.",
           "這個想法純屬幻想。",
-          "純屬幻想；完全不切實際"
+          "完全不切實際或純屬想像"
         ],
         [
           "Expecting everything to go perfectly is pure fantasy.",
           "期待一切都完美進行是完全不切實際的想法。",
-          "純屬幻想；完全不切實際"
+          "完全不切實際或純屬想像"
         ]
       ],
-      "options": [
-        "fantasy-07",
-        "fantasy-08",
-        "fantasy-09",
-        "fantasy-10",
-        "fantasy-11",
-        "fantasy-12"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-08",
-      "title": "幻想；夢想中的情境",
-      "form": "fantasy — wished-for imagined experience = imagined fulfillment of a strong wish or desire 幻想；夢想中的情境",
-      "en": "imagined fulfillment of a strong wish or desire",
-      "zh": "幻想；夢想中的情境",
-      "note": "留意語境：fantasy — wished-for imagined experience = imagined fulfillment of a strong wish or desire 幻想；夢想中的情境。這裡指「幻想；夢想中的情境」。",
+      "id": "fantasy-mcq-07",
+      "title": "對理想、願望實現情境的想像",
+      "form": "fantasy — wish fulfillment",
+      "en": "fantasy — wish fulfillment",
+      "zh": "對理想、願望實現情境的想像",
+      "note": "來源詞義：對理想、願望實現情境的想像",
       "examples": [
         [
           "Winning the lottery was his favorite fantasy.",
           "中彩券是他最常有的幻想。",
-          "幻想；夢想中的情境"
+          "對理想、願望實現情境的想像"
         ],
         [
           "The advertisement sells a fantasy of effortless luxury.",
           "那則廣告販賣的是一種毫不費力就能擁有奢華生活的幻想。",
-          "幻想；夢想中的情境"
+          "對理想、願望實現情境的想像"
         ]
       ],
-      "options": [
-        "fantasy-08",
-        "fantasy-09",
-        "fantasy-10",
-        "fantasy-11",
-        "fantasy-12",
-        "fantasy-13"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-09",
-      "title": "性幻想",
-      "form": "sexual fantasy = imagined sexual situation or scenario 性幻想",
-      "en": "imagined sexual situation or scenario",
-      "zh": "性幻想",
-      "note": "留意語境：sexual fantasy = imagined sexual situation or scenario 性幻想。這裡指「性幻想」。",
+      "id": "fantasy-mcq-08",
+      "title": "想像中的性情境；性幻想",
+      "form": "sexual fantasy",
+      "en": "sexual fantasy",
+      "zh": "想像中的性情境；性幻想",
+      "note": "來源詞義：想像中的性情境；性幻想",
       "examples": [
         [
           "The topic of sexual fantasy is discussed in psychology.",
           "心理學中會討論性幻想。",
-          "性幻想"
+          "想像中的性情境；性幻想"
         ],
         [
           "People may have private sexual fantasies.",
           "人們可能會有私人的性幻想。",
-          "性幻想"
+          "想像中的性情境；性幻想"
         ]
       ],
-      "options": [
-        "fantasy-09",
-        "fantasy-10",
-        "fantasy-11",
-        "fantasy-12",
-        "fantasy-13",
-        "fantasy-14"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-10",
-      "title": "幻想世界；奇幻世界",
-      "form": "fantasy world = imagined world with unreal, magical, or impossible elements 幻想世界；奇幻世界",
-      "en": "imagined world with unreal, magical, or impossible elements",
-      "zh": "幻想世界；奇幻世界",
-      "note": "留意語境：fantasy world = imagined world with unreal, magical, or impossible elements 幻想世界；奇幻世界。這裡指「幻想世界；奇幻世界」。",
+      "id": "fantasy-mcq-09",
+      "title": "虛構、魔法或不現實的幻想／奇幻世界",
+      "form": "fantasy world",
+      "en": "fantasy world",
+      "zh": "虛構、魔法或不現實的幻想／奇幻世界",
+      "note": "來源詞義：虛構、魔法或不現實的幻想／奇幻世界",
       "examples": [
         [
           "The game is set in a detailed fantasy world.",
           "這款遊戲設定在一個細緻的奇幻世界中。",
-          "幻想世界；奇幻世界"
+          "虛構、魔法或不現實的幻想／奇幻世界"
         ],
         [
           "Children often create elaborate fantasy worlds.",
           "孩子常會創造出豐富的幻想世界。",
-          "幻想世界；奇幻世界"
+          "虛構、魔法或不現實的幻想／奇幻世界"
         ]
       ],
-      "options": [
-        "fantasy-10",
-        "fantasy-11",
-        "fantasy-12",
-        "fantasy-13",
-        "fantasy-14",
-        "fantasy-15"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-11",
-      "title": "奇幻角色扮演",
-      "form": "fantasy role-playing = games or stories in which players take roles in imagined magical worlds 奇幻角色扮演",
-      "en": "games or stories in which players take roles in imagined magical worlds",
-      "zh": "奇幻角色扮演",
-      "note": "留意語境：fantasy role-playing = games or stories in which players take roles in imagined magical worlds 奇幻角色扮演。這裡指「奇幻角色扮演」。",
+      "id": "fantasy-mcq-10",
+      "title": "以奇幻世界為背景的角色扮演",
+      "form": "fantasy role-playing",
+      "en": "fantasy role-playing",
+      "zh": "以奇幻世界為背景的角色扮演",
+      "note": "來源詞義：以奇幻世界為背景的角色扮演",
       "examples": [
         [
           "He enjoys fantasy role-playing games.",
           "他喜歡玩奇幻角色扮演遊戲。",
-          "奇幻角色扮演"
+          "以奇幻世界為背景的角色扮演"
         ],
         [
           "The campaign takes place in a medieval fantasy setting.",
           "這場遊戲設定在中世紀奇幻背景中。",
-          "奇幻角色扮演"
+          "以奇幻世界為背景的角色扮演"
         ]
       ],
-      "options": [
-        "fantasy-11",
-        "fantasy-12",
-        "fantasy-13",
-        "fantasy-14",
-        "fantasy-15",
-        "fantasy-16"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-12",
-      "title": "夢幻體育；虛擬體育聯賽",
-      "form": "fantasy sports = game in which participants create imaginary teams based on real athletes and score points according to real-world performance 夢幻體育；虛擬體育聯賽",
-      "en": "game in which participants create imaginary teams based on real athletes and score points",
-      "zh": "夢幻體育；虛擬體育聯賽",
-      "note": "留意語境：fantasy sports = game in which participants create imaginary teams based on real athletes and score points according to real-world performance 夢幻體育；虛擬體育聯賽。這裡指「夢幻體育；虛擬體育聯賽」。",
+      "id": "fantasy-mcq-11",
+      "title": "根據真實球員表現計分的虛擬／夢幻體育遊戲",
+      "form": "fantasy sports",
+      "en": "fantasy sports",
+      "zh": "根據真實球員表現計分的虛擬／夢幻體育遊戲",
+      "note": "來源詞義：根據真實球員表現計分的虛擬／夢幻體育遊戲",
       "examples": [
         [
           "He plays fantasy football with his friends.",
           "他和朋友玩夢幻足球。",
-          "夢幻體育；虛擬體育聯賽"
+          "根據真實球員表現計分的虛擬／夢幻體育遊戲"
         ],
         [
           "Fantasy sports use real player statistics.",
           "夢幻體育會使用真實球員數據。",
-          "夢幻體育；虛擬體育聯賽"
+          "根據真實球員表現計分的虛擬／夢幻體育遊戲"
         ]
       ],
-      "options": [
-        "fantasy-12",
-        "fantasy-13",
-        "fantasy-14",
-        "fantasy-15",
-        "fantasy-16",
-        "fantasy-18"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-13",
-      "title": "夢幻足球／虛擬足球聯賽",
-      "form": "fantasy football = fantasy sports game based on football/soccer or American football, depending on region 夢幻足球／虛擬足球聯賽",
-      "en": "fantasy sports game based on football/soccer or American football, depending on region",
-      "zh": "夢幻足球／虛擬足球聯賽",
-      "note": "留意語境：fantasy football = fantasy sports game based on football/soccer or American football, depending on region 夢幻足球／虛擬足球聯賽。這裡指「夢幻足球／虛擬足球聯賽」。",
+      "id": "fantasy-mcq-12",
+      "title": "以真實足球／美式足球球員數據組隊計分的夢幻聯賽",
+      "form": "fantasy football",
+      "en": "fantasy football",
+      "zh": "以真實足球／美式足球球員數據組隊計分的夢幻聯賽",
+      "note": "來源詞義：以真實足球／美式足球球員數據組隊計分的夢幻聯賽",
       "examples": [
         [
           "She joined a fantasy football league.",
           "她加入了一個夢幻足球聯賽。",
-          "夢幻足球／虛擬足球聯賽"
+          "以真實足球／美式足球球員數據組隊計分的夢幻聯賽"
         ],
         [
           "His fantasy football team performed well this week.",
           "他的夢幻足球隊這星期表現不錯。",
-          "夢幻足球／虛擬足球聯賽"
+          "以真實足球／美式足球球員數據組隊計分的夢幻聯賽"
         ]
       ],
-      "options": [
-        "fantasy-13",
-        "fantasy-14",
-        "fantasy-15",
-        "fantasy-16",
-        "fantasy-18",
-        "fantasy-19"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-14",
-      "title": "幻想曲",
-      "form": "fantasy / fantasia — free-form musical composition = musical composition with a free, imaginative structure 幻想曲",
-      "en": "musical composition with a free, imaginative structure",
-      "zh": "幻想曲",
-      "note": "留意語境：fantasy / fantasia — free-form musical composition = musical composition with a free, imaginative structure 幻想曲。這裡指「幻想曲」。",
+      "id": "fantasy-mcq-13",
+      "title": "結構自由、富想像性的幻想曲",
+      "form": "fantasy/fantasia — music",
+      "en": "fantasy/fantasia — music",
+      "zh": "結構自由、富想像性的幻想曲",
+      "note": "來源詞義：結構自由、富想像性的幻想曲",
       "examples": [
         [
           "The pianist performed a romantic fantasy.",
           "鋼琴家演奏了一首浪漫派幻想曲。",
-          "幻想曲"
+          "結構自由、富想像性的幻想曲"
         ],
         [
           "The work is written in the style of a fantasia.",
           "這首作品以幻想曲形式寫成。",
-          "幻想曲"
+          "結構自由、富想像性的幻想曲"
         ]
       ],
-      "options": [
-        "fantasy-14",
-        "fantasy-15",
-        "fantasy-16",
-        "fantasy-18",
-        "fantasy-19",
-        "fantasy-01"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-15",
-      "title": "幻想；想像",
-      "form": "fantasize / fantasise = imagine pleasant, exciting, or unrealistic situations 幻想；想像",
-      "en": "imagine pleasant, exciting, or unrealistic situations",
-      "zh": "幻想；想像",
-      "note": "留意語境：fantasize / fantasise = imagine pleasant, exciting, or unrealistic situations 幻想；想像。這裡指「幻想；想像」。",
+      "id": "fantasy-mcq-14",
+      "title": "在腦中幻想某種理想、刺激或不現實情境",
+      "form": "fantasize / fantasise",
+      "en": "fantasize / fantasise",
+      "zh": "在腦中幻想某種理想、刺激或不現實情境",
+      "note": "來源詞義：在腦中幻想某種理想、刺激或不現實情境",
       "examples": [
         [
           "She often fantasized about travelling the world.",
           "她常常幻想環遊世界。",
-          "幻想；想像"
+          "在腦中幻想某種理想、刺激或不現實情境"
         ],
         [
           "He fantasised about quitting his job.",
           "他曾幻想辭掉工作。",
-          "幻想；想像"
+          "在腦中幻想某種理想、刺激或不現實情境"
         ]
       ],
-      "options": [
-        "fantasy-15",
-        "fantasy-16",
-        "fantasy-18",
-        "fantasy-19",
-        "fantasy-01",
-        "fantasy-02"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-16",
-      "title": "奇幻的；怪誕幻想的",
-      "form": "fantastical = highly imaginative, strange, magical, or unreal 奇幻的；怪誕幻想的",
-      "en": "highly imaginative, strange, magical, or unreal",
-      "zh": "奇幻的；怪誕幻想的",
-      "note": "留意語境：fantastical = highly imaginative, strange, magical, or unreal 奇幻的；怪誕幻想的。這裡指「奇幻的；怪誕幻想的」。",
+      "id": "fantasy-mcq-15",
+      "title": "極富想像、奇幻、怪誕而不現實的",
+      "form": "fantastical",
+      "en": "fantastical",
+      "zh": "極富想像、奇幻、怪誕而不現實的",
+      "note": "來源詞義：極富想像、奇幻、怪誕而不現實的",
       "examples": [
         [
           "The book contains fantastical creatures.",
           "這本書裡有很多奇幻生物。",
-          "奇幻的；怪誕幻想的"
+          "極富想像、奇幻、怪誕而不現實的"
         ],
         [
           "The film has a fantastical atmosphere.",
           "這部電影有一種奇幻氛圍。",
-          "奇幻的；怪誕幻想的"
+          "極富想像、奇幻、怪誕而不現實的"
         ]
       ],
-      "options": [
-        "fantasy-16",
-        "fantasy-18",
-        "fantasy-19",
-        "fantasy-01",
-        "fantasy-02",
-        "fantasy-03"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-18",
-      "title": "夢想成真；幻想成真",
-      "form": "fantasy come true = imagined wish that becomes reality 夢想成真；幻想成真",
-      "en": "imagined wish that becomes reality",
-      "zh": "夢想成真；幻想成真",
-      "note": "留意語境：fantasy come true = imagined wish that becomes reality 夢想成真；幻想成真。這裡指「夢想成真；幻想成真」。",
+      "id": "fantasy-mcq-16",
+      "title": "現代常用：非常好、極出色的",
+      "form": "fantastic — excellent",
+      "en": "fantastic — excellent",
+      "zh": "現代常用：非常好、極出色的",
+      "note": "來源詞義：現代常用：非常好、極出色的",
+      "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "fantasy-mcq-17",
+      "title": "原本只存在想像中的願望變成現實；夢想成真",
+      "form": "fantasy come true",
+      "en": "fantasy come true",
+      "zh": "原本只存在想像中的願望變成現實；夢想成真",
+      "note": "來源詞義：原本只存在想像中的願望變成現實；夢想成真",
       "examples": [
         [
           "Winning the award felt like a fantasy come true.",
           "獲獎感覺像是夢想成真。",
-          "夢想成真；幻想成真"
+          "原本只存在想像中的願望變成現實；夢想成真"
         ],
         [
           "The trip was a childhood fantasy come true.",
           "這趟旅程是童年夢想成真。",
-          "夢想成真；幻想成真"
+          "原本只存在想像中的願望變成現實；夢想成真"
         ]
       ],
-      "options": [
-        "fantasy-18",
-        "fantasy-19",
-        "fantasy-01",
-        "fantasy-02",
-        "fantasy-03",
-        "fantasy-04"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "fantasy-19",
-      "title": "逃進幻想世界；沉浸於幻想",
-      "form": "escape into fantasy = mentally withdraw from reality into imagination 逃進幻想世界；沉浸於幻想",
-      "en": "mentally withdraw from reality into imagination",
-      "zh": "逃進幻想世界；沉浸於幻想",
-      "note": "留意語境：escape into fantasy = mentally withdraw from reality into imagination 逃進幻想世界；沉浸於幻想。這裡指「逃進幻想世界；沉浸於幻想」。",
+      "id": "fantasy-mcq-18",
+      "title": "暫時離開現實，沉浸於想像世界",
+      "form": "escape into fantasy",
+      "en": "escape into fantasy",
+      "zh": "暫時離開現實，沉浸於想像世界",
+      "note": "來源詞義：暫時離開現實，沉浸於想像世界",
       "examples": [
         [
           "He used books to escape into fantasy.",
           "他透過書本逃進幻想世界。",
-          "逃進幻想世界；沉浸於幻想"
+          "暫時離開現實，沉浸於想像世界"
         ],
         [
           "Some stories let readers escape into fantasy for a while.",
           "有些故事能讓讀者暫時沉浸在幻想中。",
-          "逃進幻想世界；沉浸於幻想"
+          "暫時離開現實，沉浸於想像世界"
         ]
       ],
-      "options": [
-        "fantasy-19",
-        "fantasy-01",
-        "fantasy-02",
-        "fantasy-03",
-        "fantasy-04",
-        "fantasy-05"
-      ],
+      "options": [],
       "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "fantasy-01-0",
-      "sense": "fantasy-01",
+      "sense": "fantasy-mcq-01",
       "en": "The novel combines philosophy with fantasy.",
       "zh": "這本小說把哲學元素與奇幻結合起來。",
       "masked": "The novel combines philosophy with ____.",
       "options": [
-        "fantasy-01",
-        "fantasy-02",
-        "fantasy-03",
-        "fantasy-04",
-        "fantasy-05",
-        "fantasy-06"
+        "fantasy-mcq-01",
+        "fantasy-mcq-02",
+        "fantasy-mcq-03",
+        "fantasy-mcq-04",
+        "fantasy-mcq-05",
+        "fantasy-mcq-06"
       ],
-      "explanation": "留意語境：Passage anchor > “In terms of genre, I would describe it as a mix of fiction, fantasy, and philosophical drama.。這裡指「奇幻；奇幻文學；幻想類型」。",
+      "explanation": "本句的「fantasy」指「包含魔法、超自然或不可能元素的奇幻文學／奇幻類型」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "fantasy"
       ],
       "optionReasons": {
-        "fantasy-01": "本句的意思是「奇幻；奇幻文學；幻想類型」。",
-        "fantasy-02": "「奇幻；奇幻文學」與本句語境不同。",
-        "fantasy-03": "「奇幻小說；奇幻文學」與本句語境不同。",
-        "fantasy-04": "「幻想；想像情境；白日夢」與本句語境不同。",
-        "fantasy-05": "「活在幻想中」與本句語境不同。",
-        "fantasy-06": "「不切實際的幻想；空想」與本句語境不同。"
-      }
+        "fantasy-mcq-01": "本句指「包含魔法、超自然或不可能元素的奇幻文學／奇幻類型」。",
+        "fantasy-mcq-02": "「屬於奇幻類型的小說／虛構作品」是「fantasy novel/fiction」的用法，與本句語境不同。",
+        "fantasy-mcq-03": "「腦海中想像出來、通常並非現實的情境；幻想」是「fantasy — imagined scenario」的用法，與本句語境不同。",
+        "fantasy-mcq-04": "「沉浸在不切實際的想像中；活在幻想裡」是「live in a fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-01"
     },
     {
       "id": "fantasy-01-1",
-      "sense": "fantasy-01",
+      "sense": "fantasy-mcq-01",
       "en": "She enjoys reading fantasy novels.",
       "zh": "她喜歡閱讀奇幻小說。",
       "masked": "She enjoys reading ____ novels.",
       "options": [
-        "fantasy-01",
-        "fantasy-02",
-        "fantasy-03",
-        "fantasy-04",
-        "fantasy-05",
-        "fantasy-06"
+        "fantasy-mcq-01",
+        "fantasy-mcq-02",
+        "fantasy-mcq-03",
+        "fantasy-mcq-04",
+        "fantasy-mcq-05",
+        "fantasy-mcq-06"
       ],
-      "explanation": "留意語境：Passage anchor > “In terms of genre, I would describe it as a mix of fiction, fantasy, and philosophical drama.。這裡指「奇幻；奇幻文學；幻想類型」。",
+      "explanation": "本句的「fantasy」指「包含魔法、超自然或不可能元素的奇幻文學／奇幻類型」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "fantasy"
       ],
       "optionReasons": {
-        "fantasy-01": "本句的意思是「奇幻；奇幻文學；幻想類型」。",
-        "fantasy-02": "「奇幻；奇幻文學」與本句語境不同。",
-        "fantasy-03": "「奇幻小說；奇幻文學」與本句語境不同。",
-        "fantasy-04": "「幻想；想像情境；白日夢」與本句語境不同。",
-        "fantasy-05": "「活在幻想中」與本句語境不同。",
-        "fantasy-06": "「不切實際的幻想；空想」與本句語境不同。"
-      }
+        "fantasy-mcq-01": "本句指「包含魔法、超自然或不可能元素的奇幻文學／奇幻類型」。",
+        "fantasy-mcq-02": "「屬於奇幻類型的小說／虛構作品」是「fantasy novel/fiction」的用法，與本句語境不同。",
+        "fantasy-mcq-03": "「腦海中想像出來、通常並非現實的情境；幻想」是「fantasy — imagined scenario」的用法，與本句語境不同。",
+        "fantasy-mcq-04": "「沉浸在不切實際的想像中；活在幻想裡」是「live in a fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-01"
     },
     {
       "id": "fantasy-02-0",
-      "sense": "fantasy-02",
+      "sense": "fantasy-mcq-01",
       "en": "He mainly reads fantasy and science fiction.",
       "zh": "他主要閱讀奇幻和科幻作品。",
       "masked": "He mainly reads ____ and science fiction.",
       "options": [
-        "fantasy-02",
-        "fantasy-03",
-        "fantasy-04",
-        "fantasy-05",
-        "fantasy-06",
-        "fantasy-07"
+        "fantasy-mcq-01",
+        "fantasy-mcq-02",
+        "fantasy-mcq-03",
+        "fantasy-mcq-04",
+        "fantasy-mcq-05",
+        "fantasy-mcq-06"
       ],
-      "explanation": "留意語境：fantasy — imaginative genre = fiction involving magical, supernatural, mythical, or impossible elements 奇幻；奇幻文學。這裡指「奇幻；奇幻文學」。",
+      "explanation": "本句的「fantasy」指「包含魔法、超自然或不可能元素的奇幻文學／奇幻類型」。",
       "sentenceIndex": 2,
       "sourcePractice": 1,
       "targets": [
         "fantasy"
       ],
       "optionReasons": {
-        "fantasy-02": "本句的意思是「奇幻；奇幻文學」。",
-        "fantasy-03": "「奇幻小說；奇幻文學」與本句語境不同。",
-        "fantasy-04": "「幻想；想像情境；白日夢」與本句語境不同。",
-        "fantasy-05": "「活在幻想中」與本句語境不同。",
-        "fantasy-06": "「不切實際的幻想；空想」與本句語境不同。",
-        "fantasy-07": "「純屬幻想；完全不切實際」與本句語境不同。"
-      }
+        "fantasy-mcq-01": "本句指「包含魔法、超自然或不可能元素的奇幻文學／奇幻類型」。",
+        "fantasy-mcq-02": "「屬於奇幻類型的小說／虛構作品」是「fantasy novel/fiction」的用法，與本句語境不同。",
+        "fantasy-mcq-03": "「腦海中想像出來、通常並非現實的情境；幻想」是「fantasy — imagined scenario」的用法，與本句語境不同。",
+        "fantasy-mcq-04": "「沉浸在不切實際的想像中；活在幻想裡」是「live in a fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-01"
     },
     {
       "id": "fantasy-02-1",
-      "sense": "fantasy-02",
+      "sense": "fantasy-mcq-01",
       "en": "The story has strong fantasy elements.",
       "zh": "這個故事有很濃厚的奇幻元素。",
       "masked": "The story has strong ____ elements.",
       "options": [
-        "fantasy-02",
-        "fantasy-03",
-        "fantasy-04",
-        "fantasy-05",
-        "fantasy-06",
-        "fantasy-07"
+        "fantasy-mcq-01",
+        "fantasy-mcq-02",
+        "fantasy-mcq-03",
+        "fantasy-mcq-04",
+        "fantasy-mcq-05",
+        "fantasy-mcq-06"
       ],
-      "explanation": "留意語境：fantasy — imaginative genre = fiction involving magical, supernatural, mythical, or impossible elements 奇幻；奇幻文學。這裡指「奇幻；奇幻文學」。",
+      "explanation": "本句的「fantasy」指「包含魔法、超自然或不可能元素的奇幻文學／奇幻類型」。",
       "sentenceIndex": 3,
       "sourcePractice": 2,
       "targets": [
         "fantasy"
       ],
       "optionReasons": {
-        "fantasy-02": "本句的意思是「奇幻；奇幻文學」。",
-        "fantasy-03": "「奇幻小說；奇幻文學」與本句語境不同。",
-        "fantasy-04": "「幻想；想像情境；白日夢」與本句語境不同。",
-        "fantasy-05": "「活在幻想中」與本句語境不同。",
-        "fantasy-06": "「不切實際的幻想；空想」與本句語境不同。",
-        "fantasy-07": "「純屬幻想；完全不切實際」與本句語境不同。"
-      }
+        "fantasy-mcq-01": "本句指「包含魔法、超自然或不可能元素的奇幻文學／奇幻類型」。",
+        "fantasy-mcq-02": "「屬於奇幻類型的小說／虛構作品」是「fantasy novel/fiction」的用法，與本句語境不同。",
+        "fantasy-mcq-03": "「腦海中想像出來、通常並非現實的情境；幻想」是「fantasy — imagined scenario」的用法，與本句語境不同。",
+        "fantasy-mcq-04": "「沉浸在不切實際的想像中；活在幻想裡」是「live in a fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-01"
     },
     {
       "id": "fantasy-03-0",
-      "sense": "fantasy-03",
+      "sense": "fantasy-mcq-02",
       "en": "It is one of the most popular fantasy novels of the decade.",
       "zh": "這是近十年最受歡迎的奇幻小說之一。",
       "masked": "It is one of the most popular ____ of the decade.",
       "options": [
-        "fantasy-03",
-        "fantasy-04",
-        "fantasy-05",
-        "fantasy-06",
-        "fantasy-07",
-        "fantasy-08"
+        "fantasy-mcq-02",
+        "fantasy-mcq-01",
+        "fantasy-mcq-03",
+        "fantasy-mcq-04",
+        "fantasy-mcq-05",
+        "fantasy-mcq-06"
       ],
-      "explanation": "留意語境：fantasy novel / fantasy fiction = novel or fiction in the fantasy genre 奇幻小說；奇幻文學。這裡指「奇幻小說；奇幻文學」。",
+      "explanation": "本句的「fantasy novels」指「屬於奇幻類型的小說／虛構作品」。",
       "sentenceIndex": 4,
       "sourcePractice": 1,
       "targets": [
         "fantasy novels"
       ],
       "optionReasons": {
-        "fantasy-03": "本句的意思是「奇幻小說；奇幻文學」。",
-        "fantasy-04": "「幻想；想像情境；白日夢」與本句語境不同。",
-        "fantasy-05": "「活在幻想中」與本句語境不同。",
-        "fantasy-06": "「不切實際的幻想；空想」與本句語境不同。",
-        "fantasy-07": "「純屬幻想；完全不切實際」與本句語境不同。",
-        "fantasy-08": "「幻想；夢想中的情境」與本句語境不同。"
-      }
+        "fantasy-mcq-02": "本句指「屬於奇幻類型的小說／虛構作品」。",
+        "fantasy-mcq-01": "「包含魔法、超自然或不可能元素的奇幻文學／奇幻類型」是「fantasy — literary genre」的用法，與本句語境不同。",
+        "fantasy-mcq-03": "「腦海中想像出來、通常並非現實的情境；幻想」是「fantasy — imagined scenario」的用法，與本句語境不同。",
+        "fantasy-mcq-04": "「沉浸在不切實際的想像中；活在幻想裡」是「live in a fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-02"
     },
     {
       "id": "fantasy-03-1",
-      "sense": "fantasy-03",
+      "sense": "fantasy-mcq-02",
       "en": "She writes fantasy fiction for young adults.",
       "zh": "她為青少年創作奇幻文學。",
       "masked": "She writes ____ for young adults.",
       "options": [
-        "fantasy-03",
-        "fantasy-04",
-        "fantasy-05",
-        "fantasy-06",
-        "fantasy-07",
-        "fantasy-08"
+        "fantasy-mcq-02",
+        "fantasy-mcq-01",
+        "fantasy-mcq-03",
+        "fantasy-mcq-04",
+        "fantasy-mcq-05",
+        "fantasy-mcq-06"
       ],
-      "explanation": "留意語境：fantasy novel / fantasy fiction = novel or fiction in the fantasy genre 奇幻小說；奇幻文學。這裡指「奇幻小說；奇幻文學」。",
+      "explanation": "本句的「fantasy fiction」指「屬於奇幻類型的小說／虛構作品」。",
       "sentenceIndex": 5,
       "sourcePractice": 2,
       "targets": [
         "fantasy fiction"
       ],
       "optionReasons": {
-        "fantasy-03": "本句的意思是「奇幻小說；奇幻文學」。",
-        "fantasy-04": "「幻想；想像情境；白日夢」與本句語境不同。",
-        "fantasy-05": "「活在幻想中」與本句語境不同。",
-        "fantasy-06": "「不切實際的幻想；空想」與本句語境不同。",
-        "fantasy-07": "「純屬幻想；完全不切實際」與本句語境不同。",
-        "fantasy-08": "「幻想；夢想中的情境」與本句語境不同。"
-      }
+        "fantasy-mcq-02": "本句指「屬於奇幻類型的小說／虛構作品」。",
+        "fantasy-mcq-01": "「包含魔法、超自然或不可能元素的奇幻文學／奇幻類型」是「fantasy — literary genre」的用法，與本句語境不同。",
+        "fantasy-mcq-03": "「腦海中想像出來、通常並非現實的情境；幻想」是「fantasy — imagined scenario」的用法，與本句語境不同。",
+        "fantasy-mcq-04": "「沉浸在不切實際的想像中；活在幻想裡」是「live in a fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-02"
     },
     {
       "id": "fantasy-04-0",
-      "sense": "fantasy-04",
+      "sense": "fantasy-mcq-03",
       "en": "He often escaped into fantasy.",
       "zh": "他常常沉浸在幻想中。",
       "masked": "He often escaped into ____.",
       "options": [
-        "fantasy-04",
-        "fantasy-05",
-        "fantasy-06",
-        "fantasy-07",
-        "fantasy-08",
-        "fantasy-09"
+        "fantasy-mcq-03",
+        "fantasy-mcq-02",
+        "fantasy-mcq-04",
+        "fantasy-mcq-01",
+        "fantasy-mcq-05",
+        "fantasy-mcq-06"
       ],
-      "explanation": "留意語境：fantasy — imagined scenario = situation imagined in the mind, especially one that is pleasant, exciting, or unlikely to happen 幻想；想像情境；白日夢。這裡指「幻想；想像情境；白日夢」。",
+      "explanation": "本句的「fantasy」指「腦海中想像出來、通常並非現實的情境；幻想」。",
       "sentenceIndex": 6,
       "sourcePractice": 1,
       "targets": [
         "fantasy"
       ],
       "optionReasons": {
-        "fantasy-04": "本句的意思是「幻想；想像情境；白日夢」。",
-        "fantasy-05": "「活在幻想中」與本句語境不同。",
-        "fantasy-06": "「不切實際的幻想；空想」與本句語境不同。",
-        "fantasy-07": "「純屬幻想；完全不切實際」與本句語境不同。",
-        "fantasy-08": "「幻想；夢想中的情境」與本句語境不同。",
-        "fantasy-09": "「性幻想」與本句語境不同。"
-      }
+        "fantasy-mcq-03": "本句指「腦海中想像出來、通常並非現實的情境；幻想」。",
+        "fantasy-mcq-02": "「屬於奇幻類型的小說／虛構作品」是「fantasy novel/fiction」的用法，與本句語境不同。",
+        "fantasy-mcq-04": "「沉浸在不切實際的想像中；活在幻想裡」是「live in a fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-01": "「包含魔法、超自然或不可能元素的奇幻文學／奇幻類型」是「fantasy — literary genre」的用法，與本句語境不同。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-03"
     },
     {
       "id": "fantasy-04-1",
-      "sense": "fantasy-04",
+      "sense": "fantasy-mcq-03",
       "en": "She had a fantasy about living by the sea.",
       "zh": "她曾幻想住在海邊。",
       "masked": "She had a ____ about living by the sea.",
       "options": [
-        "fantasy-04",
-        "fantasy-05",
-        "fantasy-06",
-        "fantasy-07",
-        "fantasy-08",
-        "fantasy-09"
+        "fantasy-mcq-03",
+        "fantasy-mcq-02",
+        "fantasy-mcq-04",
+        "fantasy-mcq-01",
+        "fantasy-mcq-05",
+        "fantasy-mcq-06"
       ],
-      "explanation": "留意語境：fantasy — imagined scenario = situation imagined in the mind, especially one that is pleasant, exciting, or unlikely to happen 幻想；想像情境；白日夢。這裡指「幻想；想像情境；白日夢」。",
+      "explanation": "本句的「fantasy」指「腦海中想像出來、通常並非現實的情境；幻想」。",
       "sentenceIndex": 7,
       "sourcePractice": 2,
       "targets": [
         "fantasy"
       ],
       "optionReasons": {
-        "fantasy-04": "本句的意思是「幻想；想像情境；白日夢」。",
-        "fantasy-05": "「活在幻想中」與本句語境不同。",
-        "fantasy-06": "「不切實際的幻想；空想」與本句語境不同。",
-        "fantasy-07": "「純屬幻想；完全不切實際」與本句語境不同。",
-        "fantasy-08": "「幻想；夢想中的情境」與本句語境不同。",
-        "fantasy-09": "「性幻想」與本句語境不同。"
-      }
+        "fantasy-mcq-03": "本句指「腦海中想像出來、通常並非現實的情境；幻想」。",
+        "fantasy-mcq-02": "「屬於奇幻類型的小說／虛構作品」是「fantasy novel/fiction」的用法，與本句語境不同。",
+        "fantasy-mcq-04": "「沉浸在不切實際的想像中；活在幻想裡」是「live in a fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-01": "「包含魔法、超自然或不可能元素的奇幻文學／奇幻類型」是「fantasy — literary genre」的用法，與本句語境不同。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-03"
     },
     {
       "id": "fantasy-05-0",
-      "sense": "fantasy-05",
+      "sense": "fantasy-mcq-04",
       "en": "You can’t live in a fantasy forever.",
       "zh": "你不能永遠活在幻想中。",
       "masked": "You can’t ____ forever.",
       "options": [
-        "fantasy-05",
-        "fantasy-06",
-        "fantasy-07",
-        "fantasy-08",
-        "fantasy-09",
-        "fantasy-10"
+        "fantasy-mcq-04",
+        "fantasy-mcq-03",
+        "fantasy-mcq-05",
+        "fantasy-mcq-02",
+        "fantasy-mcq-06",
+        "fantasy-mcq-01"
       ],
-      "explanation": "留意語境：live in a fantasy = believe in or mentally inhabit an imagined situation that is not realistic 活在幻想中。這裡指「活在幻想中」。",
+      "explanation": "本句的「live in a fantasy」指「沉浸在不切實際的想像中；活在幻想裡」。",
       "sentenceIndex": 8,
       "sourcePractice": 1,
       "targets": [
         "live in a fantasy"
       ],
       "optionReasons": {
-        "fantasy-05": "本句的意思是「活在幻想中」。",
-        "fantasy-06": "「不切實際的幻想；空想」與本句語境不同。",
-        "fantasy-07": "「純屬幻想；完全不切實際」與本句語境不同。",
-        "fantasy-08": "「幻想；夢想中的情境」與本句語境不同。",
-        "fantasy-09": "「性幻想」與本句語境不同。",
-        "fantasy-10": "「幻想世界；奇幻世界」與本句語境不同。"
-      }
+        "fantasy-mcq-04": "本句指「沉浸在不切實際的想像中；活在幻想裡」。",
+        "fantasy-mcq-03": "「腦海中想像出來、通常並非現實的情境；幻想」是「fantasy — imagined scenario」的用法，與本句語境不同。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。",
+        "fantasy-mcq-02": "「屬於奇幻類型的小說／虛構作品」是「fantasy novel/fiction」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-01": "「包含魔法、超自然或不可能元素的奇幻文學／奇幻類型」是「fantasy — literary genre」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-04"
     },
     {
       "id": "fantasy-05-1",
-      "sense": "fantasy-05",
+      "sense": "fantasy-mcq-04",
       "en": "He seemed to be living in a fantasy world.",
       "zh": "他似乎一直活在幻想世界裡。",
       "masked": "He seemed to be ____.",
       "options": [
-        "fantasy-05",
-        "fantasy-06",
-        "fantasy-07",
-        "fantasy-08",
-        "fantasy-09",
-        "fantasy-10"
+        "fantasy-mcq-04",
+        "fantasy-mcq-03",
+        "fantasy-mcq-05",
+        "fantasy-mcq-02",
+        "fantasy-mcq-06",
+        "fantasy-mcq-01"
       ],
-      "explanation": "留意語境：live in a fantasy = believe in or mentally inhabit an imagined situation that is not realistic 活在幻想中。這裡指「活在幻想中」。",
+      "explanation": "本句的「living in a fantasy world」指「沉浸在不切實際的想像中；活在幻想裡」。",
       "sentenceIndex": 9,
       "sourcePractice": 2,
       "targets": [
         "living in a fantasy world"
       ],
       "optionReasons": {
-        "fantasy-05": "本句的意思是「活在幻想中」。",
-        "fantasy-06": "「不切實際的幻想；空想」與本句語境不同。",
-        "fantasy-07": "「純屬幻想；完全不切實際」與本句語境不同。",
-        "fantasy-08": "「幻想；夢想中的情境」與本句語境不同。",
-        "fantasy-09": "「性幻想」與本句語境不同。",
-        "fantasy-10": "「幻想世界；奇幻世界」與本句語境不同。"
-      }
+        "fantasy-mcq-04": "本句指「沉浸在不切實際的想像中；活在幻想裡」。",
+        "fantasy-mcq-03": "「腦海中想像出來、通常並非現實的情境；幻想」是「fantasy — imagined scenario」的用法，與本句語境不同。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。",
+        "fantasy-mcq-02": "「屬於奇幻類型的小說／虛構作品」是「fantasy novel/fiction」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-01": "「包含魔法、超自然或不可能元素的奇幻文學／奇幻類型」是「fantasy — literary genre」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-04"
     },
     {
       "id": "fantasy-06-0",
-      "sense": "fantasy-06",
+      "sense": "fantasy-mcq-05",
       "en": "The plan was pure fantasy.",
       "zh": "那個計畫根本是不切實際的空想。",
       "masked": "The plan was pure ____.",
       "options": [
-        "fantasy-06",
-        "fantasy-07",
-        "fantasy-08",
-        "fantasy-09",
-        "fantasy-10",
-        "fantasy-11"
+        "fantasy-mcq-05",
+        "fantasy-mcq-04",
+        "fantasy-mcq-06",
+        "fantasy-mcq-03",
+        "fantasy-mcq-07",
+        "fantasy-mcq-02"
       ],
-      "explanation": "留意語境：fantasy — unrealistic belief = idea or expectation that is not based on reality 不切實際的幻想；空想。這裡指「不切實際的幻想；空想」。",
+      "explanation": "本句的「fantasy」指「缺乏現實根據的空想／幻想」。",
       "sentenceIndex": 10,
       "sourcePractice": 1,
       "targets": [
         "fantasy"
       ],
       "optionReasons": {
-        "fantasy-06": "本句的意思是「不切實際的幻想；空想」。",
-        "fantasy-07": "「純屬幻想；完全不切實際」與本句語境不同。",
-        "fantasy-08": "「幻想；夢想中的情境」與本句語境不同。",
-        "fantasy-09": "「性幻想」與本句語境不同。",
-        "fantasy-10": "「幻想世界；奇幻世界」與本句語境不同。",
-        "fantasy-11": "「奇幻角色扮演」與本句語境不同。"
-      }
+        "fantasy-mcq-05": "本句指「缺乏現實根據的空想／幻想」。",
+        "fantasy-mcq-04": "「沉浸在不切實際的想像中；活在幻想裡」是「live in a fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-03": "「腦海中想像出來、通常並非現實的情境；幻想」是「fantasy — imagined scenario」的用法，與本句語境不同。",
+        "fantasy-mcq-07": "「對理想、願望實現情境的想像」是「fantasy — wish fulfillment」的用法，與本句語境不同。",
+        "fantasy-mcq-02": "「屬於奇幻類型的小說／虛構作品」是「fantasy novel/fiction」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-05"
     },
     {
       "id": "fantasy-06-1",
-      "sense": "fantasy-06",
+      "sense": "fantasy-mcq-05",
       "en": "The belief that success would come without effort was a fantasy.",
       "zh": "認為不努力也會成功是一種幻想。",
       "masked": "The belief that success would come without effort was a ____.",
       "options": [
-        "fantasy-06",
-        "fantasy-07",
-        "fantasy-08",
-        "fantasy-09",
-        "fantasy-10",
-        "fantasy-11"
+        "fantasy-mcq-05",
+        "fantasy-mcq-04",
+        "fantasy-mcq-06",
+        "fantasy-mcq-03",
+        "fantasy-mcq-07",
+        "fantasy-mcq-02"
       ],
-      "explanation": "留意語境：fantasy — unrealistic belief = idea or expectation that is not based on reality 不切實際的幻想；空想。這裡指「不切實際的幻想；空想」。",
+      "explanation": "本句的「fantasy」指「缺乏現實根據的空想／幻想」。",
       "sentenceIndex": 11,
       "sourcePractice": 2,
       "targets": [
         "fantasy"
       ],
       "optionReasons": {
-        "fantasy-06": "本句的意思是「不切實際的幻想；空想」。",
-        "fantasy-07": "「純屬幻想；完全不切實際」與本句語境不同。",
-        "fantasy-08": "「幻想；夢想中的情境」與本句語境不同。",
-        "fantasy-09": "「性幻想」與本句語境不同。",
-        "fantasy-10": "「幻想世界；奇幻世界」與本句語境不同。",
-        "fantasy-11": "「奇幻角色扮演」與本句語境不同。"
-      }
+        "fantasy-mcq-05": "本句指「缺乏現實根據的空想／幻想」。",
+        "fantasy-mcq-04": "「沉浸在不切實際的想像中；活在幻想裡」是「live in a fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-03": "「腦海中想像出來、通常並非現實的情境；幻想」是「fantasy — imagined scenario」的用法，與本句語境不同。",
+        "fantasy-mcq-07": "「對理想、願望實現情境的想像」是「fantasy — wish fulfillment」的用法，與本句語境不同。",
+        "fantasy-mcq-02": "「屬於奇幻類型的小說／虛構作品」是「fantasy novel/fiction」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-05"
     },
     {
       "id": "fantasy-07-0",
-      "sense": "fantasy-07",
+      "sense": "fantasy-mcq-06",
       "en": "The idea is pure fantasy.",
       "zh": "這個想法純屬幻想。",
       "masked": "The idea is ____.",
       "options": [
-        "fantasy-07",
-        "fantasy-08",
-        "fantasy-09",
-        "fantasy-10",
-        "fantasy-11",
-        "fantasy-12"
+        "fantasy-mcq-06",
+        "fantasy-mcq-05",
+        "fantasy-mcq-07",
+        "fantasy-mcq-04",
+        "fantasy-mcq-08",
+        "fantasy-mcq-03"
       ],
-      "explanation": "留意語境：pure fantasy = completely unrealistic or imaginary 純屬幻想；完全不切實際。這裡指「純屬幻想；完全不切實際」。",
+      "explanation": "本句的「pure fantasy」指「完全不切實際或純屬想像」。",
       "sentenceIndex": 12,
       "sourcePractice": 1,
       "targets": [
         "pure fantasy"
       ],
       "optionReasons": {
-        "fantasy-07": "本句的意思是「純屬幻想；完全不切實際」。",
-        "fantasy-08": "「幻想；夢想中的情境」與本句語境不同。",
-        "fantasy-09": "「性幻想」與本句語境不同。",
-        "fantasy-10": "「幻想世界；奇幻世界」與本句語境不同。",
-        "fantasy-11": "「奇幻角色扮演」與本句語境不同。",
-        "fantasy-12": "「夢幻體育；虛擬體育聯賽」與本句語境不同。"
-      }
+        "fantasy-mcq-06": "本句指「完全不切實際或純屬想像」。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。",
+        "fantasy-mcq-07": "「對理想、願望實現情境的想像」是「fantasy — wish fulfillment」的用法，與本句語境不同。",
+        "fantasy-mcq-04": "「沉浸在不切實際的想像中；活在幻想裡」是「live in a fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-08": "「想像中的性情境；性幻想」是「sexual fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-03": "「腦海中想像出來、通常並非現實的情境；幻想」是「fantasy — imagined scenario」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-06"
     },
     {
       "id": "fantasy-07-1",
-      "sense": "fantasy-07",
+      "sense": "fantasy-mcq-06",
       "en": "Expecting everything to go perfectly is pure fantasy.",
       "zh": "期待一切都完美進行是完全不切實際的想法。",
       "masked": "Expecting everything to go perfectly is ____.",
       "options": [
-        "fantasy-07",
-        "fantasy-08",
-        "fantasy-09",
-        "fantasy-10",
-        "fantasy-11",
-        "fantasy-12"
+        "fantasy-mcq-06",
+        "fantasy-mcq-05",
+        "fantasy-mcq-07",
+        "fantasy-mcq-04",
+        "fantasy-mcq-08",
+        "fantasy-mcq-03"
       ],
-      "explanation": "留意語境：pure fantasy = completely unrealistic or imaginary 純屬幻想；完全不切實際。這裡指「純屬幻想；完全不切實際」。",
+      "explanation": "本句的「pure fantasy」指「完全不切實際或純屬想像」。",
       "sentenceIndex": 13,
       "sourcePractice": 2,
       "targets": [
         "pure fantasy"
       ],
       "optionReasons": {
-        "fantasy-07": "本句的意思是「純屬幻想；完全不切實際」。",
-        "fantasy-08": "「幻想；夢想中的情境」與本句語境不同。",
-        "fantasy-09": "「性幻想」與本句語境不同。",
-        "fantasy-10": "「幻想世界；奇幻世界」與本句語境不同。",
-        "fantasy-11": "「奇幻角色扮演」與本句語境不同。",
-        "fantasy-12": "「夢幻體育；虛擬體育聯賽」與本句語境不同。"
-      }
+        "fantasy-mcq-06": "本句指「完全不切實際或純屬想像」。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。",
+        "fantasy-mcq-07": "「對理想、願望實現情境的想像」是「fantasy — wish fulfillment」的用法，與本句語境不同。",
+        "fantasy-mcq-04": "「沉浸在不切實際的想像中；活在幻想裡」是「live in a fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-08": "「想像中的性情境；性幻想」是「sexual fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-03": "「腦海中想像出來、通常並非現實的情境；幻想」是「fantasy — imagined scenario」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-06"
     },
     {
       "id": "fantasy-08-0",
-      "sense": "fantasy-08",
+      "sense": "fantasy-mcq-07",
       "en": "Winning the lottery was his favorite fantasy.",
       "zh": "中彩券是他最常有的幻想。",
       "masked": "Winning the lottery was his favorite ____.",
       "options": [
-        "fantasy-08",
-        "fantasy-09",
-        "fantasy-10",
-        "fantasy-11",
-        "fantasy-12",
-        "fantasy-13"
+        "fantasy-mcq-07",
+        "fantasy-mcq-06",
+        "fantasy-mcq-08",
+        "fantasy-mcq-05",
+        "fantasy-mcq-09",
+        "fantasy-mcq-04"
       ],
-      "explanation": "留意語境：fantasy — wished-for imagined experience = imagined fulfillment of a strong wish or desire 幻想；夢想中的情境。這裡指「幻想；夢想中的情境」。",
+      "explanation": "本句的「fantasy」指「對理想、願望實現情境的想像」。",
       "sentenceIndex": 14,
       "sourcePractice": 1,
       "targets": [
         "fantasy"
       ],
       "optionReasons": {
-        "fantasy-08": "本句的意思是「幻想；夢想中的情境」。",
-        "fantasy-09": "「性幻想」與本句語境不同。",
-        "fantasy-10": "「幻想世界；奇幻世界」與本句語境不同。",
-        "fantasy-11": "「奇幻角色扮演」與本句語境不同。",
-        "fantasy-12": "「夢幻體育；虛擬體育聯賽」與本句語境不同。",
-        "fantasy-13": "「夢幻足球／虛擬足球聯賽」與本句語境不同。"
-      }
+        "fantasy-mcq-07": "本句指「對理想、願望實現情境的想像」。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-08": "「想像中的性情境；性幻想」是「sexual fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。",
+        "fantasy-mcq-09": "「虛構、魔法或不現實的幻想／奇幻世界」是「fantasy world」的用法，與本句語境不同。",
+        "fantasy-mcq-04": "「沉浸在不切實際的想像中；活在幻想裡」是「live in a fantasy」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-07"
     },
     {
       "id": "fantasy-08-1",
-      "sense": "fantasy-08",
+      "sense": "fantasy-mcq-07",
       "en": "The advertisement sells a fantasy of effortless luxury.",
       "zh": "那則廣告販賣的是一種毫不費力就能擁有奢華生活的幻想。",
       "masked": "The advertisement sells a ____ of effortless luxury.",
       "options": [
-        "fantasy-08",
-        "fantasy-09",
-        "fantasy-10",
-        "fantasy-11",
-        "fantasy-12",
-        "fantasy-13"
+        "fantasy-mcq-07",
+        "fantasy-mcq-06",
+        "fantasy-mcq-08",
+        "fantasy-mcq-05",
+        "fantasy-mcq-09",
+        "fantasy-mcq-04"
       ],
-      "explanation": "留意語境：fantasy — wished-for imagined experience = imagined fulfillment of a strong wish or desire 幻想；夢想中的情境。這裡指「幻想；夢想中的情境」。",
+      "explanation": "本句的「fantasy」指「對理想、願望實現情境的想像」。",
       "sentenceIndex": 15,
       "sourcePractice": 2,
       "targets": [
         "fantasy"
       ],
       "optionReasons": {
-        "fantasy-08": "本句的意思是「幻想；夢想中的情境」。",
-        "fantasy-09": "「性幻想」與本句語境不同。",
-        "fantasy-10": "「幻想世界；奇幻世界」與本句語境不同。",
-        "fantasy-11": "「奇幻角色扮演」與本句語境不同。",
-        "fantasy-12": "「夢幻體育；虛擬體育聯賽」與本句語境不同。",
-        "fantasy-13": "「夢幻足球／虛擬足球聯賽」與本句語境不同。"
-      }
+        "fantasy-mcq-07": "本句指「對理想、願望實現情境的想像」。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-08": "「想像中的性情境；性幻想」是「sexual fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。",
+        "fantasy-mcq-09": "「虛構、魔法或不現實的幻想／奇幻世界」是「fantasy world」的用法，與本句語境不同。",
+        "fantasy-mcq-04": "「沉浸在不切實際的想像中；活在幻想裡」是「live in a fantasy」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-07"
     },
     {
       "id": "fantasy-09-0",
-      "sense": "fantasy-09",
+      "sense": "fantasy-mcq-08",
       "en": "The topic of sexual fantasy is discussed in psychology.",
       "zh": "心理學中會討論性幻想。",
       "masked": "The topic of ____ is discussed in psychology.",
       "options": [
-        "fantasy-09",
-        "fantasy-10",
-        "fantasy-11",
-        "fantasy-12",
-        "fantasy-13",
-        "fantasy-14"
+        "fantasy-mcq-08",
+        "fantasy-mcq-07",
+        "fantasy-mcq-09",
+        "fantasy-mcq-06",
+        "fantasy-mcq-10",
+        "fantasy-mcq-05"
       ],
-      "explanation": "留意語境：sexual fantasy = imagined sexual situation or scenario 性幻想。這裡指「性幻想」。",
+      "explanation": "本句的「sexual fantasy」指「想像中的性情境；性幻想」。",
       "sentenceIndex": 16,
       "sourcePractice": 1,
       "targets": [
         "sexual fantasy"
       ],
       "optionReasons": {
-        "fantasy-09": "本句的意思是「性幻想」。",
-        "fantasy-10": "「幻想世界；奇幻世界」與本句語境不同。",
-        "fantasy-11": "「奇幻角色扮演」與本句語境不同。",
-        "fantasy-12": "「夢幻體育；虛擬體育聯賽」與本句語境不同。",
-        "fantasy-13": "「夢幻足球／虛擬足球聯賽」與本句語境不同。",
-        "fantasy-14": "「幻想曲」與本句語境不同。"
-      }
+        "fantasy-mcq-08": "本句指「想像中的性情境；性幻想」。",
+        "fantasy-mcq-07": "「對理想、願望實現情境的想像」是「fantasy — wish fulfillment」的用法，與本句語境不同。",
+        "fantasy-mcq-09": "「虛構、魔法或不現實的幻想／奇幻世界」是「fantasy world」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-10": "「以奇幻世界為背景的角色扮演」是「fantasy role-playing」的用法，與本句語境不同。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-08"
     },
     {
       "id": "fantasy-09-1",
-      "sense": "fantasy-09",
+      "sense": "fantasy-mcq-08",
       "en": "People may have private sexual fantasies.",
       "zh": "人們可能會有私人的性幻想。",
       "masked": "People may have private ____.",
       "options": [
-        "fantasy-09",
-        "fantasy-10",
-        "fantasy-11",
-        "fantasy-12",
-        "fantasy-13",
-        "fantasy-14"
+        "fantasy-mcq-08",
+        "fantasy-mcq-07",
+        "fantasy-mcq-09",
+        "fantasy-mcq-06",
+        "fantasy-mcq-10",
+        "fantasy-mcq-05"
       ],
-      "explanation": "留意語境：sexual fantasy = imagined sexual situation or scenario 性幻想。這裡指「性幻想」。",
+      "explanation": "本句的「sexual fantasies」指「想像中的性情境；性幻想」。",
       "sentenceIndex": 17,
       "sourcePractice": 2,
       "targets": [
         "sexual fantasies"
       ],
       "optionReasons": {
-        "fantasy-09": "本句的意思是「性幻想」。",
-        "fantasy-10": "「幻想世界；奇幻世界」與本句語境不同。",
-        "fantasy-11": "「奇幻角色扮演」與本句語境不同。",
-        "fantasy-12": "「夢幻體育；虛擬體育聯賽」與本句語境不同。",
-        "fantasy-13": "「夢幻足球／虛擬足球聯賽」與本句語境不同。",
-        "fantasy-14": "「幻想曲」與本句語境不同。"
-      }
+        "fantasy-mcq-08": "本句指「想像中的性情境；性幻想」。",
+        "fantasy-mcq-07": "「對理想、願望實現情境的想像」是「fantasy — wish fulfillment」的用法，與本句語境不同。",
+        "fantasy-mcq-09": "「虛構、魔法或不現實的幻想／奇幻世界」是「fantasy world」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-10": "「以奇幻世界為背景的角色扮演」是「fantasy role-playing」的用法，與本句語境不同。",
+        "fantasy-mcq-05": "「缺乏現實根據的空想／幻想」是「fantasy — unrealistic belief」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-08"
     },
     {
       "id": "fantasy-10-0",
-      "sense": "fantasy-10",
+      "sense": "fantasy-mcq-09",
       "en": "The game is set in a detailed fantasy world.",
       "zh": "這款遊戲設定在一個細緻的奇幻世界中。",
       "masked": "The game is set in a detailed ____.",
       "options": [
-        "fantasy-10",
-        "fantasy-11",
-        "fantasy-12",
-        "fantasy-13",
-        "fantasy-14",
-        "fantasy-15"
+        "fantasy-mcq-09",
+        "fantasy-mcq-08",
+        "fantasy-mcq-10",
+        "fantasy-mcq-07",
+        "fantasy-mcq-11",
+        "fantasy-mcq-06"
       ],
-      "explanation": "留意語境：fantasy world = imagined world with unreal, magical, or impossible elements 幻想世界；奇幻世界。這裡指「幻想世界；奇幻世界」。",
+      "explanation": "本句的「fantasy world」指「虛構、魔法或不現實的幻想／奇幻世界」。",
       "sentenceIndex": 18,
       "sourcePractice": 1,
       "targets": [
         "fantasy world"
       ],
       "optionReasons": {
-        "fantasy-10": "本句的意思是「幻想世界；奇幻世界」。",
-        "fantasy-11": "「奇幻角色扮演」與本句語境不同。",
-        "fantasy-12": "「夢幻體育；虛擬體育聯賽」與本句語境不同。",
-        "fantasy-13": "「夢幻足球／虛擬足球聯賽」與本句語境不同。",
-        "fantasy-14": "「幻想曲」與本句語境不同。",
-        "fantasy-15": "「幻想；想像」與本句語境不同。"
-      }
+        "fantasy-mcq-09": "本句指「虛構、魔法或不現實的幻想／奇幻世界」。",
+        "fantasy-mcq-08": "「想像中的性情境；性幻想」是「sexual fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-10": "「以奇幻世界為背景的角色扮演」是「fantasy role-playing」的用法，與本句語境不同。",
+        "fantasy-mcq-07": "「對理想、願望實現情境的想像」是「fantasy — wish fulfillment」的用法，與本句語境不同。",
+        "fantasy-mcq-11": "「根據真實球員表現計分的虛擬／夢幻體育遊戲」是「fantasy sports」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-09"
     },
     {
       "id": "fantasy-10-1",
-      "sense": "fantasy-10",
+      "sense": "fantasy-mcq-09",
       "en": "Children often create elaborate fantasy worlds.",
       "zh": "孩子常會創造出豐富的幻想世界。",
       "masked": "Children often create elaborate ____.",
       "options": [
-        "fantasy-10",
-        "fantasy-11",
-        "fantasy-12",
-        "fantasy-13",
-        "fantasy-14",
-        "fantasy-15"
+        "fantasy-mcq-09",
+        "fantasy-mcq-08",
+        "fantasy-mcq-10",
+        "fantasy-mcq-07",
+        "fantasy-mcq-11",
+        "fantasy-mcq-06"
       ],
-      "explanation": "留意語境：fantasy world = imagined world with unreal, magical, or impossible elements 幻想世界；奇幻世界。這裡指「幻想世界；奇幻世界」。",
+      "explanation": "本句的「fantasy worlds」指「虛構、魔法或不現實的幻想／奇幻世界」。",
       "sentenceIndex": 19,
       "sourcePractice": 2,
       "targets": [
         "fantasy worlds"
       ],
       "optionReasons": {
-        "fantasy-10": "本句的意思是「幻想世界；奇幻世界」。",
-        "fantasy-11": "「奇幻角色扮演」與本句語境不同。",
-        "fantasy-12": "「夢幻體育；虛擬體育聯賽」與本句語境不同。",
-        "fantasy-13": "「夢幻足球／虛擬足球聯賽」與本句語境不同。",
-        "fantasy-14": "「幻想曲」與本句語境不同。",
-        "fantasy-15": "「幻想；想像」與本句語境不同。"
-      }
+        "fantasy-mcq-09": "本句指「虛構、魔法或不現實的幻想／奇幻世界」。",
+        "fantasy-mcq-08": "「想像中的性情境；性幻想」是「sexual fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-10": "「以奇幻世界為背景的角色扮演」是「fantasy role-playing」的用法，與本句語境不同。",
+        "fantasy-mcq-07": "「對理想、願望實現情境的想像」是「fantasy — wish fulfillment」的用法，與本句語境不同。",
+        "fantasy-mcq-11": "「根據真實球員表現計分的虛擬／夢幻體育遊戲」是「fantasy sports」的用法，與本句語境不同。",
+        "fantasy-mcq-06": "「完全不切實際或純屬想像」是「pure fantasy」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-09"
     },
     {
       "id": "fantasy-11-0",
-      "sense": "fantasy-11",
+      "sense": "fantasy-mcq-10",
       "en": "He enjoys fantasy role-playing games.",
       "zh": "他喜歡玩奇幻角色扮演遊戲。",
       "masked": "He enjoys ____.",
       "options": [
-        "fantasy-11",
-        "fantasy-12",
-        "fantasy-13",
-        "fantasy-14",
-        "fantasy-15",
-        "fantasy-16"
+        "fantasy-mcq-10",
+        "fantasy-mcq-09",
+        "fantasy-mcq-11",
+        "fantasy-mcq-08",
+        "fantasy-mcq-12",
+        "fantasy-mcq-07"
       ],
-      "explanation": "留意語境：fantasy role-playing = games or stories in which players take roles in imagined magical worlds 奇幻角色扮演。這裡指「奇幻角色扮演」。",
+      "explanation": "本句的「fantasy role-playing games」指「以奇幻世界為背景的角色扮演」。",
       "sentenceIndex": 20,
       "sourcePractice": 1,
       "targets": [
         "fantasy role-playing games"
       ],
       "optionReasons": {
-        "fantasy-11": "本句的意思是「奇幻角色扮演」。",
-        "fantasy-12": "「夢幻體育；虛擬體育聯賽」與本句語境不同。",
-        "fantasy-13": "「夢幻足球／虛擬足球聯賽」與本句語境不同。",
-        "fantasy-14": "「幻想曲」與本句語境不同。",
-        "fantasy-15": "「幻想；想像」與本句語境不同。",
-        "fantasy-16": "「奇幻的；怪誕幻想的」與本句語境不同。"
-      }
+        "fantasy-mcq-10": "本句指「以奇幻世界為背景的角色扮演」。",
+        "fantasy-mcq-09": "「虛構、魔法或不現實的幻想／奇幻世界」是「fantasy world」的用法，與本句語境不同。",
+        "fantasy-mcq-11": "「根據真實球員表現計分的虛擬／夢幻體育遊戲」是「fantasy sports」的用法，與本句語境不同。",
+        "fantasy-mcq-08": "「想像中的性情境；性幻想」是「sexual fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-12": "「以真實足球／美式足球球員數據組隊計分的夢幻聯賽」是「fantasy football」的用法，與本句語境不同。",
+        "fantasy-mcq-07": "「對理想、願望實現情境的想像」是「fantasy — wish fulfillment」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-10"
     },
     {
       "id": "fantasy-11-1",
-      "sense": "fantasy-11",
+      "sense": "fantasy-mcq-10",
       "en": "The campaign takes place in a medieval fantasy setting.",
       "zh": "這場遊戲設定在中世紀奇幻背景中。",
       "masked": "The campaign takes place in a medieval ____.",
       "options": [
-        "fantasy-11",
-        "fantasy-12",
-        "fantasy-13",
-        "fantasy-14",
-        "fantasy-15",
-        "fantasy-16"
+        "fantasy-mcq-10",
+        "fantasy-mcq-09",
+        "fantasy-mcq-11",
+        "fantasy-mcq-08",
+        "fantasy-mcq-12",
+        "fantasy-mcq-07"
       ],
-      "explanation": "留意語境：fantasy role-playing = games or stories in which players take roles in imagined magical worlds 奇幻角色扮演。這裡指「奇幻角色扮演」。",
+      "explanation": "本句的「fantasy setting」指「以奇幻世界為背景的角色扮演」。",
       "sentenceIndex": 21,
       "sourcePractice": 2,
       "targets": [
         "fantasy setting"
       ],
       "optionReasons": {
-        "fantasy-11": "本句的意思是「奇幻角色扮演」。",
-        "fantasy-12": "「夢幻體育；虛擬體育聯賽」與本句語境不同。",
-        "fantasy-13": "「夢幻足球／虛擬足球聯賽」與本句語境不同。",
-        "fantasy-14": "「幻想曲」與本句語境不同。",
-        "fantasy-15": "「幻想；想像」與本句語境不同。",
-        "fantasy-16": "「奇幻的；怪誕幻想的」與本句語境不同。"
-      }
+        "fantasy-mcq-10": "本句指「以奇幻世界為背景的角色扮演」。",
+        "fantasy-mcq-09": "「虛構、魔法或不現實的幻想／奇幻世界」是「fantasy world」的用法，與本句語境不同。",
+        "fantasy-mcq-11": "「根據真實球員表現計分的虛擬／夢幻體育遊戲」是「fantasy sports」的用法，與本句語境不同。",
+        "fantasy-mcq-08": "「想像中的性情境；性幻想」是「sexual fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-12": "「以真實足球／美式足球球員數據組隊計分的夢幻聯賽」是「fantasy football」的用法，與本句語境不同。",
+        "fantasy-mcq-07": "「對理想、願望實現情境的想像」是「fantasy — wish fulfillment」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-10"
     },
     {
       "id": "fantasy-12-0",
-      "sense": "fantasy-12",
+      "sense": "fantasy-mcq-11",
       "en": "He plays fantasy football with his friends.",
       "zh": "他和朋友玩夢幻足球。",
       "masked": "He plays ____ with his friends.",
       "options": [
-        "fantasy-12",
-        "fantasy-13",
-        "fantasy-14",
-        "fantasy-15",
-        "fantasy-16",
-        "fantasy-18"
+        "fantasy-mcq-11",
+        "fantasy-mcq-10",
+        "fantasy-mcq-12",
+        "fantasy-mcq-09",
+        "fantasy-mcq-13",
+        "fantasy-mcq-08"
       ],
-      "explanation": "留意語境：fantasy sports = game in which participants create imaginary teams based on real athletes and score points according to real-world performance 夢幻體育；虛擬體育聯賽。這裡指「夢幻體育；虛擬體育聯賽」。",
+      "explanation": "本句的「fantasy football」指「根據真實球員表現計分的虛擬／夢幻體育遊戲」。",
       "sentenceIndex": 22,
       "sourcePractice": 1,
       "targets": [
         "fantasy football"
       ],
       "optionReasons": {
-        "fantasy-12": "本句的意思是「夢幻體育；虛擬體育聯賽」。",
-        "fantasy-13": "「夢幻足球／虛擬足球聯賽」與本句語境不同。",
-        "fantasy-14": "「幻想曲」與本句語境不同。",
-        "fantasy-15": "「幻想；想像」與本句語境不同。",
-        "fantasy-16": "「奇幻的；怪誕幻想的」與本句語境不同。",
-        "fantasy-18": "「夢想成真；幻想成真」與本句語境不同。"
-      }
+        "fantasy-mcq-11": "本句指「根據真實球員表現計分的虛擬／夢幻體育遊戲」。",
+        "fantasy-mcq-10": "「以奇幻世界為背景的角色扮演」是「fantasy role-playing」的用法，與本句語境不同。",
+        "fantasy-mcq-12": "「以真實足球／美式足球球員數據組隊計分的夢幻聯賽」是「fantasy football」的用法，與本句語境不同。",
+        "fantasy-mcq-09": "「虛構、魔法或不現實的幻想／奇幻世界」是「fantasy world」的用法，與本句語境不同。",
+        "fantasy-mcq-13": "「結構自由、富想像性的幻想曲」是「fantasy/fantasia — music」的用法，與本句語境不同。",
+        "fantasy-mcq-08": "「想像中的性情境；性幻想」是「sexual fantasy」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-11"
     },
     {
       "id": "fantasy-12-1",
-      "sense": "fantasy-12",
+      "sense": "fantasy-mcq-11",
       "en": "Fantasy sports use real player statistics.",
       "zh": "夢幻體育會使用真實球員數據。",
       "masked": "____ use real player statistics.",
       "options": [
-        "fantasy-12",
-        "fantasy-13",
-        "fantasy-14",
-        "fantasy-15",
-        "fantasy-16",
-        "fantasy-18"
+        "fantasy-mcq-11",
+        "fantasy-mcq-10",
+        "fantasy-mcq-12",
+        "fantasy-mcq-09",
+        "fantasy-mcq-13",
+        "fantasy-mcq-08"
       ],
-      "explanation": "留意語境：fantasy sports = game in which participants create imaginary teams based on real athletes and score points according to real-world performance 夢幻體育；虛擬體育聯賽。這裡指「夢幻體育；虛擬體育聯賽」。",
+      "explanation": "本句的「Fantasy sports」指「根據真實球員表現計分的虛擬／夢幻體育遊戲」。",
       "sentenceIndex": 23,
       "sourcePractice": 2,
       "targets": [
         "Fantasy sports"
       ],
       "optionReasons": {
-        "fantasy-12": "本句的意思是「夢幻體育；虛擬體育聯賽」。",
-        "fantasy-13": "「夢幻足球／虛擬足球聯賽」與本句語境不同。",
-        "fantasy-14": "「幻想曲」與本句語境不同。",
-        "fantasy-15": "「幻想；想像」與本句語境不同。",
-        "fantasy-16": "「奇幻的；怪誕幻想的」與本句語境不同。",
-        "fantasy-18": "「夢想成真；幻想成真」與本句語境不同。"
-      }
+        "fantasy-mcq-11": "本句指「根據真實球員表現計分的虛擬／夢幻體育遊戲」。",
+        "fantasy-mcq-10": "「以奇幻世界為背景的角色扮演」是「fantasy role-playing」的用法，與本句語境不同。",
+        "fantasy-mcq-12": "「以真實足球／美式足球球員數據組隊計分的夢幻聯賽」是「fantasy football」的用法，與本句語境不同。",
+        "fantasy-mcq-09": "「虛構、魔法或不現實的幻想／奇幻世界」是「fantasy world」的用法，與本句語境不同。",
+        "fantasy-mcq-13": "「結構自由、富想像性的幻想曲」是「fantasy/fantasia — music」的用法，與本句語境不同。",
+        "fantasy-mcq-08": "「想像中的性情境；性幻想」是「sexual fantasy」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-11"
     },
     {
       "id": "fantasy-13-0",
-      "sense": "fantasy-13",
+      "sense": "fantasy-mcq-12",
       "en": "She joined a fantasy football league.",
       "zh": "她加入了一個夢幻足球聯賽。",
       "masked": "She joined a ____ league.",
       "options": [
-        "fantasy-13",
-        "fantasy-14",
-        "fantasy-15",
-        "fantasy-16",
-        "fantasy-18",
-        "fantasy-19"
+        "fantasy-mcq-12",
+        "fantasy-mcq-11",
+        "fantasy-mcq-13",
+        "fantasy-mcq-10",
+        "fantasy-mcq-14",
+        "fantasy-mcq-09"
       ],
-      "explanation": "留意語境：fantasy football = fantasy sports game based on football/soccer or American football, depending on region 夢幻足球／虛擬足球聯賽。這裡指「夢幻足球／虛擬足球聯賽」。",
+      "explanation": "本句的「fantasy football」指「以真實足球／美式足球球員數據組隊計分的夢幻聯賽」。",
       "sentenceIndex": 24,
       "sourcePractice": 1,
       "targets": [
         "fantasy football"
       ],
       "optionReasons": {
-        "fantasy-13": "本句的意思是「夢幻足球／虛擬足球聯賽」。",
-        "fantasy-14": "「幻想曲」與本句語境不同。",
-        "fantasy-15": "「幻想；想像」與本句語境不同。",
-        "fantasy-16": "「奇幻的；怪誕幻想的」與本句語境不同。",
-        "fantasy-18": "「夢想成真；幻想成真」與本句語境不同。",
-        "fantasy-19": "「逃進幻想世界；沉浸於幻想」與本句語境不同。"
-      }
+        "fantasy-mcq-12": "本句指「以真實足球／美式足球球員數據組隊計分的夢幻聯賽」。",
+        "fantasy-mcq-11": "「根據真實球員表現計分的虛擬／夢幻體育遊戲」是「fantasy sports」的用法，與本句語境不同。",
+        "fantasy-mcq-13": "「結構自由、富想像性的幻想曲」是「fantasy/fantasia — music」的用法，與本句語境不同。",
+        "fantasy-mcq-10": "「以奇幻世界為背景的角色扮演」是「fantasy role-playing」的用法，與本句語境不同。",
+        "fantasy-mcq-14": "「在腦中幻想某種理想、刺激或不現實情境」是「fantasize / fantasise」的用法，與本句語境不同。",
+        "fantasy-mcq-09": "「虛構、魔法或不現實的幻想／奇幻世界」是「fantasy world」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-12"
     },
     {
       "id": "fantasy-13-1",
-      "sense": "fantasy-13",
+      "sense": "fantasy-mcq-12",
       "en": "His fantasy football team performed well this week.",
       "zh": "他的夢幻足球隊這星期表現不錯。",
       "masked": "His ____ team performed well this week.",
       "options": [
-        "fantasy-13",
-        "fantasy-14",
-        "fantasy-15",
-        "fantasy-16",
-        "fantasy-18",
-        "fantasy-19"
+        "fantasy-mcq-12",
+        "fantasy-mcq-11",
+        "fantasy-mcq-13",
+        "fantasy-mcq-10",
+        "fantasy-mcq-14",
+        "fantasy-mcq-09"
       ],
-      "explanation": "留意語境：fantasy football = fantasy sports game based on football/soccer or American football, depending on region 夢幻足球／虛擬足球聯賽。這裡指「夢幻足球／虛擬足球聯賽」。",
+      "explanation": "本句的「fantasy football」指「以真實足球／美式足球球員數據組隊計分的夢幻聯賽」。",
       "sentenceIndex": 25,
       "sourcePractice": 2,
       "targets": [
         "fantasy football"
       ],
       "optionReasons": {
-        "fantasy-13": "本句的意思是「夢幻足球／虛擬足球聯賽」。",
-        "fantasy-14": "「幻想曲」與本句語境不同。",
-        "fantasy-15": "「幻想；想像」與本句語境不同。",
-        "fantasy-16": "「奇幻的；怪誕幻想的」與本句語境不同。",
-        "fantasy-18": "「夢想成真；幻想成真」與本句語境不同。",
-        "fantasy-19": "「逃進幻想世界；沉浸於幻想」與本句語境不同。"
-      }
+        "fantasy-mcq-12": "本句指「以真實足球／美式足球球員數據組隊計分的夢幻聯賽」。",
+        "fantasy-mcq-11": "「根據真實球員表現計分的虛擬／夢幻體育遊戲」是「fantasy sports」的用法，與本句語境不同。",
+        "fantasy-mcq-13": "「結構自由、富想像性的幻想曲」是「fantasy/fantasia — music」的用法，與本句語境不同。",
+        "fantasy-mcq-10": "「以奇幻世界為背景的角色扮演」是「fantasy role-playing」的用法，與本句語境不同。",
+        "fantasy-mcq-14": "「在腦中幻想某種理想、刺激或不現實情境」是「fantasize / fantasise」的用法，與本句語境不同。",
+        "fantasy-mcq-09": "「虛構、魔法或不現實的幻想／奇幻世界」是「fantasy world」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-12"
     },
     {
       "id": "fantasy-14-0",
-      "sense": "fantasy-14",
+      "sense": "fantasy-mcq-13",
       "en": "The pianist performed a romantic fantasy.",
       "zh": "鋼琴家演奏了一首浪漫派幻想曲。",
       "masked": "The pianist performed a romantic ____.",
       "options": [
-        "fantasy-14",
-        "fantasy-15",
-        "fantasy-16",
-        "fantasy-18",
-        "fantasy-19",
-        "fantasy-01"
+        "fantasy-mcq-13",
+        "fantasy-mcq-12",
+        "fantasy-mcq-14",
+        "fantasy-mcq-11",
+        "fantasy-mcq-15",
+        "fantasy-mcq-10"
       ],
-      "explanation": "留意語境：fantasy / fantasia — free-form musical composition = musical composition with a free, imaginative structure 幻想曲。這裡指「幻想曲」。",
+      "explanation": "本句的「fantasy」指「結構自由、富想像性的幻想曲」。",
       "sentenceIndex": 26,
       "sourcePractice": 1,
       "targets": [
         "fantasy"
       ],
       "optionReasons": {
-        "fantasy-14": "本句的意思是「幻想曲」。",
-        "fantasy-15": "「幻想；想像」與本句語境不同。",
-        "fantasy-16": "「奇幻的；怪誕幻想的」與本句語境不同。",
-        "fantasy-18": "「夢想成真；幻想成真」與本句語境不同。",
-        "fantasy-19": "「逃進幻想世界；沉浸於幻想」與本句語境不同。",
-        "fantasy-01": "「奇幻；奇幻文學；幻想類型」與本句語境不同。"
-      }
+        "fantasy-mcq-13": "本句指「結構自由、富想像性的幻想曲」。",
+        "fantasy-mcq-12": "「以真實足球／美式足球球員數據組隊計分的夢幻聯賽」是「fantasy football」的用法，與本句語境不同。",
+        "fantasy-mcq-14": "「在腦中幻想某種理想、刺激或不現實情境」是「fantasize / fantasise」的用法，與本句語境不同。",
+        "fantasy-mcq-11": "「根據真實球員表現計分的虛擬／夢幻體育遊戲」是「fantasy sports」的用法，與本句語境不同。",
+        "fantasy-mcq-15": "「極富想像、奇幻、怪誕而不現實的」是「fantastical」的用法，與本句語境不同。",
+        "fantasy-mcq-10": "「以奇幻世界為背景的角色扮演」是「fantasy role-playing」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-13"
     },
     {
       "id": "fantasy-14-1",
-      "sense": "fantasy-14",
+      "sense": "fantasy-mcq-13",
       "en": "The work is written in the style of a fantasia.",
       "zh": "這首作品以幻想曲形式寫成。",
       "masked": "The work is written in the style of a ____.",
       "options": [
-        "fantasy-14",
-        "fantasy-15",
-        "fantasy-16",
-        "fantasy-18",
-        "fantasy-19",
-        "fantasy-01"
+        "fantasy-mcq-13",
+        "fantasy-mcq-12",
+        "fantasy-mcq-14",
+        "fantasy-mcq-11",
+        "fantasy-mcq-15",
+        "fantasy-mcq-10"
       ],
-      "explanation": "留意語境：fantasy / fantasia — free-form musical composition = musical composition with a free, imaginative structure 幻想曲。這裡指「幻想曲」。",
+      "explanation": "本句的「fantasia」指「結構自由、富想像性的幻想曲」。",
       "sentenceIndex": 27,
       "sourcePractice": 2,
       "targets": [
         "fantasia"
       ],
       "optionReasons": {
-        "fantasy-14": "本句的意思是「幻想曲」。",
-        "fantasy-15": "「幻想；想像」與本句語境不同。",
-        "fantasy-16": "「奇幻的；怪誕幻想的」與本句語境不同。",
-        "fantasy-18": "「夢想成真；幻想成真」與本句語境不同。",
-        "fantasy-19": "「逃進幻想世界；沉浸於幻想」與本句語境不同。",
-        "fantasy-01": "「奇幻；奇幻文學；幻想類型」與本句語境不同。"
-      }
+        "fantasy-mcq-13": "本句指「結構自由、富想像性的幻想曲」。",
+        "fantasy-mcq-12": "「以真實足球／美式足球球員數據組隊計分的夢幻聯賽」是「fantasy football」的用法，與本句語境不同。",
+        "fantasy-mcq-14": "「在腦中幻想某種理想、刺激或不現實情境」是「fantasize / fantasise」的用法，與本句語境不同。",
+        "fantasy-mcq-11": "「根據真實球員表現計分的虛擬／夢幻體育遊戲」是「fantasy sports」的用法，與本句語境不同。",
+        "fantasy-mcq-15": "「極富想像、奇幻、怪誕而不現實的」是「fantastical」的用法，與本句語境不同。",
+        "fantasy-mcq-10": "「以奇幻世界為背景的角色扮演」是「fantasy role-playing」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-13"
     },
     {
       "id": "fantasy-15-0",
-      "sense": "fantasy-15",
+      "sense": "fantasy-mcq-14",
       "en": "She often fantasized about travelling the world.",
       "zh": "她常常幻想環遊世界。",
       "masked": "She often ____.",
       "options": [
-        "fantasy-15",
-        "fantasy-16",
-        "fantasy-18",
-        "fantasy-19",
-        "fantasy-01",
-        "fantasy-02"
+        "fantasy-mcq-14",
+        "fantasy-mcq-13",
+        "fantasy-mcq-15",
+        "fantasy-mcq-12",
+        "fantasy-mcq-16",
+        "fantasy-mcq-11"
       ],
-      "explanation": "留意語境：fantasize / fantasise = imagine pleasant, exciting, or unrealistic situations 幻想；想像。這裡指「幻想；想像」。",
+      "explanation": "本句的「fantasized about travelling the world」指「在腦中幻想某種理想、刺激或不現實情境」。",
       "sentenceIndex": 28,
       "sourcePractice": 1,
       "targets": [
         "fantasized about travelling the world"
       ],
       "optionReasons": {
-        "fantasy-15": "本句的意思是「幻想；想像」。",
-        "fantasy-16": "「奇幻的；怪誕幻想的」與本句語境不同。",
-        "fantasy-18": "「夢想成真；幻想成真」與本句語境不同。",
-        "fantasy-19": "「逃進幻想世界；沉浸於幻想」與本句語境不同。",
-        "fantasy-01": "「奇幻；奇幻文學；幻想類型」與本句語境不同。",
-        "fantasy-02": "「奇幻；奇幻文學」與本句語境不同。"
-      }
+        "fantasy-mcq-14": "本句指「在腦中幻想某種理想、刺激或不現實情境」。",
+        "fantasy-mcq-13": "「結構自由、富想像性的幻想曲」是「fantasy/fantasia — music」的用法，與本句語境不同。",
+        "fantasy-mcq-15": "「極富想像、奇幻、怪誕而不現實的」是「fantastical」的用法，與本句語境不同。",
+        "fantasy-mcq-12": "「以真實足球／美式足球球員數據組隊計分的夢幻聯賽」是「fantasy football」的用法，與本句語境不同。",
+        "fantasy-mcq-16": "「現代常用：非常好、極出色的」是「fantastic — excellent」的用法，與本句語境不同。",
+        "fantasy-mcq-11": "「根據真實球員表現計分的虛擬／夢幻體育遊戲」是「fantasy sports」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-14"
     },
     {
       "id": "fantasy-15-1",
-      "sense": "fantasy-15",
+      "sense": "fantasy-mcq-14",
       "en": "He fantasised about quitting his job.",
       "zh": "他曾幻想辭掉工作。",
       "masked": "He ____.",
       "options": [
-        "fantasy-15",
-        "fantasy-16",
-        "fantasy-18",
-        "fantasy-19",
-        "fantasy-01",
-        "fantasy-02"
+        "fantasy-mcq-14",
+        "fantasy-mcq-13",
+        "fantasy-mcq-15",
+        "fantasy-mcq-12",
+        "fantasy-mcq-16",
+        "fantasy-mcq-11"
       ],
-      "explanation": "留意語境：fantasize / fantasise = imagine pleasant, exciting, or unrealistic situations 幻想；想像。這裡指「幻想；想像」。",
+      "explanation": "本句的「fantasised about quitting his job」指「在腦中幻想某種理想、刺激或不現實情境」。",
       "sentenceIndex": 29,
       "sourcePractice": 2,
       "targets": [
         "fantasised about quitting his job"
       ],
       "optionReasons": {
-        "fantasy-15": "本句的意思是「幻想；想像」。",
-        "fantasy-16": "「奇幻的；怪誕幻想的」與本句語境不同。",
-        "fantasy-18": "「夢想成真；幻想成真」與本句語境不同。",
-        "fantasy-19": "「逃進幻想世界；沉浸於幻想」與本句語境不同。",
-        "fantasy-01": "「奇幻；奇幻文學；幻想類型」與本句語境不同。",
-        "fantasy-02": "「奇幻；奇幻文學」與本句語境不同。"
-      }
+        "fantasy-mcq-14": "本句指「在腦中幻想某種理想、刺激或不現實情境」。",
+        "fantasy-mcq-13": "「結構自由、富想像性的幻想曲」是「fantasy/fantasia — music」的用法，與本句語境不同。",
+        "fantasy-mcq-15": "「極富想像、奇幻、怪誕而不現實的」是「fantastical」的用法，與本句語境不同。",
+        "fantasy-mcq-12": "「以真實足球／美式足球球員數據組隊計分的夢幻聯賽」是「fantasy football」的用法，與本句語境不同。",
+        "fantasy-mcq-16": "「現代常用：非常好、極出色的」是「fantastic — excellent」的用法，與本句語境不同。",
+        "fantasy-mcq-11": "「根據真實球員表現計分的虛擬／夢幻體育遊戲」是「fantasy sports」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-14"
     },
     {
       "id": "fantasy-16-0",
-      "sense": "fantasy-16",
+      "sense": "fantasy-mcq-15",
       "en": "The book contains fantastical creatures.",
       "zh": "這本書裡有很多奇幻生物。",
       "masked": "The book contains ____.",
       "options": [
-        "fantasy-16",
-        "fantasy-18",
-        "fantasy-19",
-        "fantasy-01",
-        "fantasy-02",
-        "fantasy-03"
+        "fantasy-mcq-15",
+        "fantasy-mcq-14",
+        "fantasy-mcq-16",
+        "fantasy-mcq-13",
+        "fantasy-mcq-17",
+        "fantasy-mcq-12"
       ],
-      "explanation": "留意語境：fantastical = highly imaginative, strange, magical, or unreal 奇幻的；怪誕幻想的。這裡指「奇幻的；怪誕幻想的」。",
+      "explanation": "本句的「fantastical creatures」指「極富想像、奇幻、怪誕而不現實的」。",
       "sentenceIndex": 30,
       "sourcePractice": 1,
       "targets": [
         "fantastical creatures"
       ],
       "optionReasons": {
-        "fantasy-16": "本句的意思是「奇幻的；怪誕幻想的」。",
-        "fantasy-18": "「夢想成真；幻想成真」與本句語境不同。",
-        "fantasy-19": "「逃進幻想世界；沉浸於幻想」與本句語境不同。",
-        "fantasy-01": "「奇幻；奇幻文學；幻想類型」與本句語境不同。",
-        "fantasy-02": "「奇幻；奇幻文學」與本句語境不同。",
-        "fantasy-03": "「奇幻小說；奇幻文學」與本句語境不同。"
-      }
+        "fantasy-mcq-15": "本句指「極富想像、奇幻、怪誕而不現實的」。",
+        "fantasy-mcq-14": "「在腦中幻想某種理想、刺激或不現實情境」是「fantasize / fantasise」的用法，與本句語境不同。",
+        "fantasy-mcq-16": "「現代常用：非常好、極出色的」是「fantastic — excellent」的用法，與本句語境不同。",
+        "fantasy-mcq-13": "「結構自由、富想像性的幻想曲」是「fantasy/fantasia — music」的用法，與本句語境不同。",
+        "fantasy-mcq-17": "「原本只存在想像中的願望變成現實；夢想成真」是「fantasy come true」的用法，與本句語境不同。",
+        "fantasy-mcq-12": "「以真實足球／美式足球球員數據組隊計分的夢幻聯賽」是「fantasy football」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-15"
     },
     {
       "id": "fantasy-16-1",
-      "sense": "fantasy-16",
+      "sense": "fantasy-mcq-15",
       "en": "The film has a fantastical atmosphere.",
       "zh": "這部電影有一種奇幻氛圍。",
       "masked": "The film has a ____.",
       "options": [
-        "fantasy-16",
-        "fantasy-18",
-        "fantasy-19",
-        "fantasy-01",
-        "fantasy-02",
-        "fantasy-03"
+        "fantasy-mcq-15",
+        "fantasy-mcq-14",
+        "fantasy-mcq-16",
+        "fantasy-mcq-13",
+        "fantasy-mcq-17",
+        "fantasy-mcq-12"
       ],
-      "explanation": "留意語境：fantastical = highly imaginative, strange, magical, or unreal 奇幻的；怪誕幻想的。這裡指「奇幻的；怪誕幻想的」。",
+      "explanation": "本句的「fantastical atmosphere」指「極富想像、奇幻、怪誕而不現實的」。",
       "sentenceIndex": 31,
       "sourcePractice": 2,
       "targets": [
         "fantastical atmosphere"
       ],
       "optionReasons": {
-        "fantasy-16": "本句的意思是「奇幻的；怪誕幻想的」。",
-        "fantasy-18": "「夢想成真；幻想成真」與本句語境不同。",
-        "fantasy-19": "「逃進幻想世界；沉浸於幻想」與本句語境不同。",
-        "fantasy-01": "「奇幻；奇幻文學；幻想類型」與本句語境不同。",
-        "fantasy-02": "「奇幻；奇幻文學」與本句語境不同。",
-        "fantasy-03": "「奇幻小說；奇幻文學」與本句語境不同。"
-      }
+        "fantasy-mcq-15": "本句指「極富想像、奇幻、怪誕而不現實的」。",
+        "fantasy-mcq-14": "「在腦中幻想某種理想、刺激或不現實情境」是「fantasize / fantasise」的用法，與本句語境不同。",
+        "fantasy-mcq-16": "「現代常用：非常好、極出色的」是「fantastic — excellent」的用法，與本句語境不同。",
+        "fantasy-mcq-13": "「結構自由、富想像性的幻想曲」是「fantasy/fantasia — music」的用法，與本句語境不同。",
+        "fantasy-mcq-17": "「原本只存在想像中的願望變成現實；夢想成真」是「fantasy come true」的用法，與本句語境不同。",
+        "fantasy-mcq-12": "「以真實足球／美式足球球員數據組隊計分的夢幻聯賽」是「fantasy football」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-15"
     },
     {
       "id": "fantasy-18-0",
-      "sense": "fantasy-18",
+      "sense": "fantasy-mcq-17",
       "en": "Winning the award felt like a fantasy come true.",
       "zh": "獲獎感覺像是夢想成真。",
       "masked": "Winning the award felt like a ____.",
       "options": [
-        "fantasy-18",
-        "fantasy-19",
-        "fantasy-01",
-        "fantasy-02",
-        "fantasy-03",
-        "fantasy-04"
+        "fantasy-mcq-17",
+        "fantasy-mcq-16",
+        "fantasy-mcq-18",
+        "fantasy-mcq-15",
+        "fantasy-mcq-14",
+        "fantasy-mcq-13"
       ],
-      "explanation": "留意語境：fantasy come true = imagined wish that becomes reality 夢想成真；幻想成真。這裡指「夢想成真；幻想成真」。",
+      "explanation": "本句的「fantasy come true」指「原本只存在想像中的願望變成現實；夢想成真」。",
       "sentenceIndex": 32,
       "sourcePractice": 1,
       "targets": [
         "fantasy come true"
       ],
       "optionReasons": {
-        "fantasy-18": "本句的意思是「夢想成真；幻想成真」。",
-        "fantasy-19": "「逃進幻想世界；沉浸於幻想」與本句語境不同。",
-        "fantasy-01": "「奇幻；奇幻文學；幻想類型」與本句語境不同。",
-        "fantasy-02": "「奇幻；奇幻文學」與本句語境不同。",
-        "fantasy-03": "「奇幻小說；奇幻文學」與本句語境不同。",
-        "fantasy-04": "「幻想；想像情境；白日夢」與本句語境不同。"
-      }
+        "fantasy-mcq-17": "本句指「原本只存在想像中的願望變成現實；夢想成真」。",
+        "fantasy-mcq-16": "「現代常用：非常好、極出色的」是「fantastic — excellent」的用法，與本句語境不同。",
+        "fantasy-mcq-18": "「暫時離開現實，沉浸於想像世界」是「escape into fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-15": "「極富想像、奇幻、怪誕而不現實的」是「fantastical」的用法，與本句語境不同。",
+        "fantasy-mcq-14": "「在腦中幻想某種理想、刺激或不現實情境」是「fantasize / fantasise」的用法，與本句語境不同。",
+        "fantasy-mcq-13": "「結構自由、富想像性的幻想曲」是「fantasy/fantasia — music」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-17"
     },
     {
       "id": "fantasy-18-1",
-      "sense": "fantasy-18",
+      "sense": "fantasy-mcq-17",
       "en": "The trip was a childhood fantasy come true.",
       "zh": "這趟旅程是童年夢想成真。",
       "masked": "The trip was a childhood ____.",
       "options": [
-        "fantasy-18",
-        "fantasy-19",
-        "fantasy-01",
-        "fantasy-02",
-        "fantasy-03",
-        "fantasy-04"
+        "fantasy-mcq-17",
+        "fantasy-mcq-16",
+        "fantasy-mcq-18",
+        "fantasy-mcq-15",
+        "fantasy-mcq-14",
+        "fantasy-mcq-13"
       ],
-      "explanation": "留意語境：fantasy come true = imagined wish that becomes reality 夢想成真；幻想成真。這裡指「夢想成真；幻想成真」。",
+      "explanation": "本句的「fantasy come true」指「原本只存在想像中的願望變成現實；夢想成真」。",
       "sentenceIndex": 33,
       "sourcePractice": 2,
       "targets": [
         "fantasy come true"
       ],
       "optionReasons": {
-        "fantasy-18": "本句的意思是「夢想成真；幻想成真」。",
-        "fantasy-19": "「逃進幻想世界；沉浸於幻想」與本句語境不同。",
-        "fantasy-01": "「奇幻；奇幻文學；幻想類型」與本句語境不同。",
-        "fantasy-02": "「奇幻；奇幻文學」與本句語境不同。",
-        "fantasy-03": "「奇幻小說；奇幻文學」與本句語境不同。",
-        "fantasy-04": "「幻想；想像情境；白日夢」與本句語境不同。"
-      }
+        "fantasy-mcq-17": "本句指「原本只存在想像中的願望變成現實；夢想成真」。",
+        "fantasy-mcq-16": "「現代常用：非常好、極出色的」是「fantastic — excellent」的用法，與本句語境不同。",
+        "fantasy-mcq-18": "「暫時離開現實，沉浸於想像世界」是「escape into fantasy」的用法，與本句語境不同。",
+        "fantasy-mcq-15": "「極富想像、奇幻、怪誕而不現實的」是「fantastical」的用法，與本句語境不同。",
+        "fantasy-mcq-14": "「在腦中幻想某種理想、刺激或不現實情境」是「fantasize / fantasise」的用法，與本句語境不同。",
+        "fantasy-mcq-13": "「結構自由、富想像性的幻想曲」是「fantasy/fantasia — music」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-17"
     },
     {
       "id": "fantasy-19-0",
-      "sense": "fantasy-19",
+      "sense": "fantasy-mcq-18",
       "en": "He used books to escape into fantasy.",
       "zh": "他透過書本逃進幻想世界。",
       "masked": "He used books to ____.",
       "options": [
-        "fantasy-19",
-        "fantasy-01",
-        "fantasy-02",
-        "fantasy-03",
-        "fantasy-04",
-        "fantasy-05"
+        "fantasy-mcq-18",
+        "fantasy-mcq-17",
+        "fantasy-mcq-16",
+        "fantasy-mcq-15",
+        "fantasy-mcq-14",
+        "fantasy-mcq-13"
       ],
-      "explanation": "留意語境：escape into fantasy = mentally withdraw from reality into imagination 逃進幻想世界；沉浸於幻想。這裡指「逃進幻想世界；沉浸於幻想」。",
+      "explanation": "本句的「escape into fantasy」指「暫時離開現實，沉浸於想像世界」。",
       "sentenceIndex": 34,
       "sourcePractice": 1,
       "targets": [
         "escape into fantasy"
       ],
       "optionReasons": {
-        "fantasy-19": "本句的意思是「逃進幻想世界；沉浸於幻想」。",
-        "fantasy-01": "「奇幻；奇幻文學；幻想類型」與本句語境不同。",
-        "fantasy-02": "「奇幻；奇幻文學」與本句語境不同。",
-        "fantasy-03": "「奇幻小說；奇幻文學」與本句語境不同。",
-        "fantasy-04": "「幻想；想像情境；白日夢」與本句語境不同。",
-        "fantasy-05": "「活在幻想中」與本句語境不同。"
-      }
+        "fantasy-mcq-18": "本句指「暫時離開現實，沉浸於想像世界」。",
+        "fantasy-mcq-17": "「原本只存在想像中的願望變成現實；夢想成真」是「fantasy come true」的用法，與本句語境不同。",
+        "fantasy-mcq-16": "「現代常用：非常好、極出色的」是「fantastic — excellent」的用法，與本句語境不同。",
+        "fantasy-mcq-15": "「極富想像、奇幻、怪誕而不現實的」是「fantastical」的用法，與本句語境不同。",
+        "fantasy-mcq-14": "「在腦中幻想某種理想、刺激或不現實情境」是「fantasize / fantasise」的用法，與本句語境不同。",
+        "fantasy-mcq-13": "「結構自由、富想像性的幻想曲」是「fantasy/fantasia — music」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-18"
     },
     {
       "id": "fantasy-19-1",
-      "sense": "fantasy-19",
+      "sense": "fantasy-mcq-18",
       "en": "Some stories let readers escape into fantasy for a while.",
       "zh": "有些故事能讓讀者暫時沉浸在幻想中。",
       "masked": "Some stories let readers ____ for a while.",
       "options": [
-        "fantasy-19",
-        "fantasy-01",
-        "fantasy-02",
-        "fantasy-03",
-        "fantasy-04",
-        "fantasy-05"
+        "fantasy-mcq-18",
+        "fantasy-mcq-17",
+        "fantasy-mcq-16",
+        "fantasy-mcq-15",
+        "fantasy-mcq-14",
+        "fantasy-mcq-13"
       ],
-      "explanation": "留意語境：escape into fantasy = mentally withdraw from reality into imagination 逃進幻想世界；沉浸於幻想。這裡指「逃進幻想世界；沉浸於幻想」。",
+      "explanation": "本句的「escape into fantasy」指「暫時離開現實，沉浸於想像世界」。",
       "sentenceIndex": 35,
       "sourcePractice": 2,
       "targets": [
         "escape into fantasy"
       ],
       "optionReasons": {
-        "fantasy-19": "本句的意思是「逃進幻想世界；沉浸於幻想」。",
-        "fantasy-01": "「奇幻；奇幻文學；幻想類型」與本句語境不同。",
-        "fantasy-02": "「奇幻；奇幻文學」與本句語境不同。",
-        "fantasy-03": "「奇幻小說；奇幻文學」與本句語境不同。",
-        "fantasy-04": "「幻想；想像情境；白日夢」與本句語境不同。",
-        "fantasy-05": "「活在幻想中」與本句語境不同。"
-      }
+        "fantasy-mcq-18": "本句指「暫時離開現實，沉浸於想像世界」。",
+        "fantasy-mcq-17": "「原本只存在想像中的願望變成現實；夢想成真」是「fantasy come true」的用法，與本句語境不同。",
+        "fantasy-mcq-16": "「現代常用：非常好、極出色的」是「fantastic — excellent」的用法，與本句語境不同。",
+        "fantasy-mcq-15": "「極富想像、奇幻、怪誕而不現實的」是「fantastical」的用法，與本句語境不同。",
+        "fantasy-mcq-14": "「在腦中幻想某種理想、刺激或不現實情境」是「fantasize / fantasise」的用法，與本句語境不同。",
+        "fantasy-mcq-13": "「結構自由、富想像性的幻想曲」是「fantasy/fantasia — music」的用法，與本句語境不同。"
+      },
+      "correctOption": "fantasy-mcq-18"
     }
   ],
   "comparisons": [],
@@ -1580,5 +1489,6 @@ export default {
     "file": "464_fantasy_Polysemy Exercise.pdf",
     "sha256": "17ea7bc5f8d322ef2bd1d68ffb7681f627781ef8505886ce1246e0b51e0b3f4e",
     "pages": 12
-  }
+  },
+  "mcqSource": "master-comparison"
 };

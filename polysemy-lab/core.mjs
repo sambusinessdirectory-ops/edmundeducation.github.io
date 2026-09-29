@@ -1,11 +1,11 @@
-import {modules,moduleMap,allQuestionMap} from './catalogue.mjs?v=20260929-polysemy-mass1';
+import {modules,moduleMap,allQuestionMap} from './catalogue.mjs?v=20260929-polysemy-mcq2';
 export {modules,moduleMap,allQuestionMap};
 export let showModule,questions,senses,questionMap;
 export async function loadModule(id){
  const indexed=moduleMap.get(id);
  if(!indexed)throw Error('Unknown module');
  if(!indexed.mass||indexed.loaded)return indexed;
- const loaded=(await import(`./content/${encodeURIComponent(id)}.mjs?v=20260929-polysemy-mass1`)).default;
+ const loaded=(await import(`./content/${encodeURIComponent(id)}.mjs?v=20260929-polysemy-mcq2`)).default;
  if(loaded.id!==id||loaded.number!==indexed.number)throw Error('Lesson content does not match its index');
  loaded.loaded=true;
  const at=modules.findIndex(module=>module.id===id);
@@ -16,7 +16,7 @@ export async function loadModule(id){
 export function selectModule(id='show'){const m=moduleMap.get(id);if(!m)throw Error('Unknown module');showModule=m;questions=m.questions;senses=new Map(m.senses.map(s=>[s.id,s]));questionMap=new Map(questions.map(q=>[q.id,q]));}
 selectModule();
 export function orderedOptions(q,round=1){let seed=[...q.id+':'+round].reduce((n,c)=>(n*31+c.charCodeAt(0))>>>0,7);return q.options.map(id=>({id,n:(seed=(Math.imul(seed,1664525)+1013904223)>>>0)})).sort((a,b)=>a.n-b.n).map(x=>x.id);}
-export function isCorrectAnswer(q,choice){return !!q&&(choice===q.sense||q.acceptedSenses?.includes(choice));}
+export function isCorrectAnswer(q,choice){return !!q&&(q.correctOption?choice===q.correctOption:choice===q.sense||q.acceptedSenses?.includes(choice));}
 // A run UUID is the shuffle seed, so resuming on another device keeps the order.
 function random(seed){let n=[...seed].reduce((n,c)=>(Math.imul(n,31)+c.charCodeAt(0))>>>0,7);return()=>((n=(Math.imul(n,1664525)+1013904223)>>>0)/4294967296);}
 export function shuffledQuestions(run){const rand=random(run),pool=[...questions],out=[];while(pool.length){const candidates=pool.filter(q=>q.sense!==out.at(-1)?.sense),q=(candidates.length?candidates:pool)[Math.floor(rand()*(candidates.length||pool.length))];out.push(q);pool.splice(pool.indexOf(q),1);}for(let i=1;i<out.length;i++){if(out[i].sense!==out[i-1].sense)continue;const j=out.findIndex((q,k)=>k<i-1&&q.sense!==out[i-1].sense&&q.sense!==out[i+1]?.sense&&out[i].sense!==out[k-1]?.sense&&out[i].sense!==out[k+1]?.sense);if(j>=0)[out[i],out[j]]=[out[j],out[i]];}return out;}

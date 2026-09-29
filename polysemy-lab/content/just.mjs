@@ -2,2393 +2,2247 @@ export default {
   "id": "just",
   "word": "just",
   "number": 151,
-  "version": 1,
+  "version": 2,
   "mass": true,
   "senses": [
     {
-      "id": "just-01",
-      "title": "只是；僅僅",
-      "form": "just = only / merely（只是）",
-      "en": "just = only / merely（只是）",
-      "zh": "只是；僅僅",
-      "note": "留意語境：just = only / merely（只是）。這裡指「只是；僅僅」。",
+      "id": "just-mcq-01",
+      "title": "表示事情只限於某個原因、目的、身份或程度；只是／僅僅",
+      "form": "just — only/merely",
+      "en": "just — only/merely",
+      "zh": "表示事情只限於某個原因、目的、身份或程度；只是／僅僅",
+      "note": "來源詞義：表示事情只限於某個原因、目的、身份或程度；只是／僅僅",
       "examples": [
         [
           "I like her not just because she is family.",
           "我喜歡她不只是因為她是家人。",
-          "只是；僅僅"
+          "表示事情只限於某個原因、目的、身份或程度；只是／僅僅"
         ],
         [
           "I’m just trying to help.",
           "我只是想幫忙。",
-          "只是；僅僅"
+          "表示事情只限於某個原因、目的、身份或程度；只是／僅僅"
         ],
         [
           "It was just a joke.",
           "那只是一個玩笑。",
-          "只是；僅僅"
+          "表示事情只限於某個原因、目的、身份或程度；只是／僅僅"
         ]
       ],
-      "options": [
-        "just-01",
-        "just-02",
-        "just-03",
-        "just-04",
-        "just-05",
-        "just-06"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-02",
-      "title": "不僅……還……",
-      "form": "not just…but also…（不只是……而且……）",
-      "en": "not just…but also…（不只是……而且……）",
-      "zh": "不僅……還……",
-      "note": "留意語境：not just…but also…（不只是……而且……）。這裡指「不僅……還……」。",
+      "id": "just-mcq-02",
+      "title": "A 並非唯一情況；除 A 外，B 亦同樣／更加重要",
+      "form": "not just…but…",
+      "en": "not just…but…",
+      "zh": "A 並非唯一情況；除 A 外，B 亦同樣／更加重要",
+      "note": "來源詞義：A 並非唯一情況；除 A 外，B 亦同樣／更加重要",
       "examples": [
         [
           "She is not just kind but also very patient.",
           "她不只善良，而且非常有耐性。",
-          "不僅……還……"
+          "A 並非唯一情況；除 A 外，B 亦同樣／更加重要"
         ],
         [
           "The job requires not just experience but also patience.",
           "這份工作不只需要經驗，也需要耐性。",
-          "不僅……還……"
+          "A 並非唯一情況；除 A 外，B 亦同樣／更加重要"
         ]
       ],
-      "options": [
-        "just-02",
-        "just-03",
-        "just-04",
-        "just-05",
-        "just-06",
-        "just-07"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-03",
-      "title": "僅僅因為",
-      "form": "just because（只是因為）",
-      "en": "just because（只是因為）",
-      "zh": "僅僅因為",
-      "note": "留意語境：just because（只是因為）。這裡指「僅僅因為」。",
+      "id": "just-mcq-03",
+      "title": "僅僅因為某一個原因",
+      "form": "just because",
+      "en": "just because",
+      "zh": "僅僅因為某一個原因",
+      "note": "來源詞義：僅僅因為某一個原因",
       "examples": [
         [
           "You shouldn’t agree just because everyone else does.",
           "你不應該只是因為其他人都同意就跟著同意。",
-          "僅僅因為"
+          "僅僅因為某一個原因"
         ],
         [
           "I didn’t choose it just because it was cheap.",
           "我不是單單因為它便宜才選它。",
-          "僅僅因為"
+          "僅僅因為某一個原因"
         ]
       ],
-      "options": [
-        "just-03",
-        "just-04",
-        "just-05",
-        "just-06",
-        "just-07",
-        "just-08"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-04",
-      "title": "正好；恰恰",
-      "form": "just = exactly（正好；恰好）",
-      "en": "Exactly; precisely.",
-      "zh": "正好；恰恰",
-      "note": "留意語境：just = exactly（正好；恰好）。這裡指「正好；恰恰」。",
+      "id": "just-mcq-04",
+      "title": "完全準確地符合某個時間、位置、情況或描述",
+      "form": "just — exactly",
+      "en": "just — exactly",
+      "zh": "完全準確地符合某個時間、位置、情況或描述",
+      "note": "來源詞義：完全準確地符合某個時間、位置、情況或描述",
       "examples": [
         [
           "That is just what I needed.",
           "那正是我需要的。",
-          "正好；恰恰"
+          "完全準確地符合某個時間、位置、情況或描述"
         ],
         [
           "You arrived at just the right time.",
           "你來得正是時候。",
-          "正好；恰恰"
+          "完全準確地符合某個時間、位置、情況或描述"
         ]
       ],
-      "options": [
-        "just-04",
-        "just-05",
-        "just-06",
-        "just-07",
-        "just-08",
-        "just-09"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-05",
-      "title": "正合適；剛剛好",
-      "form": "just the right…（恰到好處）",
-      "en": "just the right…（恰到好處）",
-      "zh": "正合適；剛剛好",
-      "note": "留意語境：just the right…（恰到好處）。這裡指「正合適；剛剛好」。",
+      "id": "just-mcq-05",
+      "title": "程度、大小、時間等完全合適，不多不少",
+      "form": "just right",
+      "en": "just right",
+      "zh": "程度、大小、時間等完全合適，不多不少",
+      "note": "來源詞義：程度、大小、時間等完全合適，不多不少",
       "examples": [
         [
           "The room is just the right size.",
           "房間大小剛剛好。",
-          "正合適；剛剛好"
+          "程度、大小、時間等完全合適，不多不少"
         ],
         [
           "This tea is just the right temperature.",
           "這杯茶的溫度恰到好處。",
-          "正合適；剛剛好"
+          "程度、大小、時間等完全合適，不多不少"
         ]
       ],
-      "options": [
-        "just-05",
-        "just-06",
-        "just-07",
-        "just-08",
-        "just-09",
-        "just-10"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-06",
-      "title": "就像；正如",
-      "form": "just like（正像；就像）",
-      "en": "just like（正像；就像）",
-      "zh": "就像；正如",
-      "note": "留意語境：just like（正像；就像）。這裡指「就像；正如」。",
+      "id": "just-mcq-06",
+      "title": "與某人／某物非常或完全相似",
+      "form": "just like",
+      "en": "just like",
+      "zh": "與某人／某物非常或完全相似",
+      "note": "來源詞義：與某人／某物非常或完全相似",
       "examples": [
         [
           "She looks just like her mother.",
           "她看起來就像她媽媽。",
-          "就像；正如"
+          "與某人／某物非常或完全相似"
         ],
         [
           "The place is just like I remember it.",
           "這個地方和我記得的一模一樣。",
-          "就像；正如"
+          "與某人／某物非常或完全相似"
         ]
       ],
-      "options": [
-        "just-06",
-        "just-07",
-        "just-08",
-        "just-09",
-        "just-10",
-        "just-11"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-07",
-      "title": "正如；正當……時",
-      "form": "just as（正如；正當）",
-      "en": "just as（正如；正當）",
-      "zh": "正如；正當……時",
-      "note": "留意語境：just as（正如；正當）。這裡指「正如；正當……時」。",
+      "id": "just-mcq-07",
+      "title": "完全按照某方式；或正好在某事件發生時",
+      "form": "just as",
+      "en": "just as",
+      "zh": "完全按照某方式；或正好在某事件發生時",
+      "note": "來源詞義：完全按照某方式；或正好在某事件發生時",
       "examples": [
         [
           "Do it just as I showed you.",
           "完全照我示範的方式去做。",
-          "正如；正當……時"
+          "完全按照某方式；或正好在某事件發生時"
         ],
         [
           "I arrived just as the meeting started.",
           "我到達時正好會議開始。",
-          "正如；正當……時"
+          "完全按照某方式；或正好在某事件發生時"
         ]
       ],
-      "options": [
-        "just-07",
-        "just-08",
-        "just-09",
-        "just-10",
-        "just-11",
-        "just-12"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-08",
-      "title": "剛剛；才",
-      "form": "just = very recently（剛剛）",
-      "en": "just = very recently（剛剛）",
-      "zh": "剛剛；才",
-      "note": "留意語境：just = very recently（剛剛）。這裡指「剛剛；才」。",
+      "id": "just-mcq-08",
+      "title": "某件事情在很短時間之前發生",
+      "form": "just — recently",
+      "en": "just — recently",
+      "zh": "某件事情在很短時間之前發生",
+      "note": "來源詞義：某件事情在很短時間之前發生",
       "examples": [
         [
           "I’ve just finished.",
           "我剛剛完成。",
-          "剛剛；才"
+          "某件事情在很短時間之前發生"
         ],
         [
           "She has just arrived.",
           "她剛到。",
-          "剛剛；才"
+          "某件事情在很短時間之前發生"
         ]
       ],
-      "options": [
-        "just-08",
-        "just-09",
-        "just-10",
-        "just-11",
-        "just-12",
-        "just-13"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-09",
-      "title": "剛才；剛剛",
-      "form": "just now（剛才）",
-      "en": "just now（剛才）",
-      "zh": "剛才；剛剛",
-      "note": "留意語境：just now（剛才）。這裡指「剛才；剛剛」。",
+      "id": "just-mcq-09",
+      "title": "在很短時間之前；剛才",
+      "form": "just now",
+      "en": "just now",
+      "zh": "在很短時間之前；剛才",
+      "note": "來源詞義：在很短時間之前；剛才",
       "examples": [
         [
           "I saw her just now.",
           "我剛才看見她。",
-          "剛才；剛剛"
+          "在很短時間之前；剛才"
         ],
         [
           "He called me just now.",
           "他剛剛打電話給我。",
-          "剛才；剛剛"
+          "在很短時間之前；剛才"
         ]
       ],
-      "options": [
-        "just-09",
-        "just-10",
-        "just-11",
-        "just-12",
-        "just-13",
-        "just-14"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-10",
-      "title": "就在那一刻",
-      "form": "just then（就在那時）",
-      "en": "just then（就在那時）",
-      "zh": "就在那一刻",
-      "note": "留意語境：just then（就在那時）。這裡指「就在那一刻」。",
+      "id": "just-mcq-10",
+      "title": "正是在所述的那一刻",
+      "form": "just then",
+      "en": "just then",
+      "zh": "正是在所述的那一刻",
+      "note": "來源詞義：正是在所述的那一刻",
       "examples": [
         [
           "Just then, the phone rang.",
           "就在那時，電話響了。",
-          "就在那一刻"
+          "正是在所述的那一刻"
         ],
         [
           "Just then, someone opened the door.",
           "就在那一刻，有人打開了門。",
-          "就在那一刻"
+          "正是在所述的那一刻"
         ]
       ],
-      "options": [
-        "just-10",
-        "just-11",
-        "just-12",
-        "just-13",
-        "just-14",
-        "just-15"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-11",
-      "title": "剛好；勉強",
-      "form": "just = barely / narrowly（勉強；差一點）",
-      "en": "just = barely / narrowly（勉強；差一點）",
-      "zh": "剛好；勉強",
-      "note": "留意語境：just = barely / narrowly（勉強；差一點）。這裡指「剛好；勉強」。",
+      "id": "just-mcq-11",
+      "title": "僅僅達到最低程度，或非常接近錯過／失敗",
+      "form": "just — barely",
+      "en": "just — barely",
+      "zh": "僅僅達到最低程度，或非常接近錯過／失敗",
+      "note": "來源詞義：僅僅達到最低程度，或非常接近錯過／失敗",
       "examples": [
         [
           "I just passed the exam.",
           "我勉強及格。",
-          "剛好；勉強"
+          "僅僅達到最低程度，或非常接近錯過／失敗"
         ],
         [
           "We just caught the train.",
           "我們剛好趕上火車。",
-          "剛好；勉強"
+          "僅僅達到最低程度，或非常接近錯過／失敗"
         ]
       ],
-      "options": [
-        "just-11",
-        "just-12",
-        "just-13",
-        "just-14",
-        "just-15",
-        "just-16"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-12",
-      "title": "剛好夠",
-      "form": "just enough（剛剛足夠）",
-      "en": "just enough（剛剛足夠）",
-      "zh": "剛好夠",
-      "note": "留意語境：just enough（剛剛足夠）。這裡指「剛好夠」。",
+      "id": "just-mcq-12",
+      "title": "數量／程度正好足夠，但沒有多餘",
+      "form": "just enough",
+      "en": "just enough",
+      "zh": "數量／程度正好足夠，但沒有多餘",
+      "note": "來源詞義：數量／程度正好足夠，但沒有多餘",
       "examples": [
         [
           "We have just enough time.",
           "我們的時間剛剛好夠。",
-          "剛好夠"
+          "數量／程度正好足夠，但沒有多餘"
         ],
         [
           "There is just enough food for everyone.",
           "食物剛好夠所有人吃。",
-          "剛好夠"
+          "數量／程度正好足夠，但沒有多餘"
         ]
       ],
-      "options": [
-        "just-12",
-        "just-13",
-        "just-14",
-        "just-15",
-        "just-16",
-        "just-17"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-13",
-      "title": "剛好趕上；及時",
-      "form": "just in time（及時趕上）",
-      "en": "just in time（及時趕上）",
-      "zh": "剛好趕上；及時",
-      "note": "留意語境：just in time（及時趕上）。這裡指「剛好趕上；及時」。",
+      "id": "just-mcq-13",
+      "title": "在最後可接受的時刻之前到達／完成",
+      "form": "just in time",
+      "en": "just in time",
+      "zh": "在最後可接受的時刻之前到達／完成",
+      "note": "來源詞義：在最後可接受的時刻之前到達／完成",
       "examples": [
         [
           "We arrived just in time.",
           "我們剛好及時趕到。",
-          "剛好趕上；及時"
+          "在最後可接受的時刻之前到達／完成"
         ],
         [
           "She reached the station just in time for the train.",
           "她剛好趕上那班火車。",
-          "剛好趕上；及時"
+          "在最後可接受的時刻之前到達／完成"
         ]
       ],
-      "options": [
-        "just-13",
-        "just-14",
-        "just-15",
-        "just-16",
-        "just-17",
-        "just-18"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-14",
-      "title": "幾乎；差不多",
-      "form": "just about（差不多；幾乎）",
-      "en": "just about（差不多；幾乎）",
-      "zh": "幾乎；差不多",
-      "note": "留意語境：just about（差不多；幾乎）。這裡指「幾乎；差不多」。",
+      "id": "just-mcq-14",
+      "title": "幾乎／差不多達到某狀態",
+      "form": "just about",
+      "en": "just about",
+      "zh": "幾乎／差不多達到某狀態",
+      "note": "來源詞義：幾乎／差不多達到某狀態",
       "examples": [
         [
           "I’m just about ready.",
           "我差不多準備好了。",
-          "幾乎；差不多"
+          "幾乎／差不多達到某狀態"
         ],
         [
           "We’ve just about finished.",
           "我們差不多完成了。",
-          "幾乎；差不多"
+          "幾乎／差不多達到某狀態"
         ]
       ],
-      "options": [
-        "just-14",
-        "just-15",
-        "just-16",
-        "just-17",
-        "just-18",
-        "just-19"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-15",
-      "title": "簡直；就是",
-      "form": "just = simply / really, for emphasis（簡直；真的）",
-      "en": "just = simply / really, for emphasis（簡直；真的）",
-      "zh": "簡直；就是",
-      "note": "留意語境：just = simply / really, for emphasis（簡直；真的）。這裡指「簡直；就是」。",
+      "id": "just-mcq-15",
+      "title": "加強情緒、評價或肯定語氣；真的／簡直",
+      "form": "just — emphasis",
+      "en": "just — emphasis",
+      "zh": "加強情緒、評價或肯定語氣；真的／簡直",
+      "note": "來源詞義：加強情緒、評價或肯定語氣；真的／簡直",
       "examples": [
         [
           "That’s just amazing.",
           "那簡直太驚人了。",
-          "簡直；就是"
+          "加強情緒、評價或肯定語氣；真的／簡直"
         ],
         [
           "I just love this place.",
           "我真的很喜歡這個地方。",
-          "簡直；就是"
+          "加強情緒、評價或肯定語氣；真的／簡直"
         ]
       ],
-      "options": [
-        "just-15",
-        "just-16",
-        "just-17",
-        "just-18",
-        "just-19",
-        "just-20"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-16",
-      "title": "實在；真的",
-      "form": "I just don’t know（就是不知道）",
-      "en": "I just don’t know（就是不知道）",
-      "zh": "實在；真的",
-      "note": "留意語境：I just don’t know（就是不知道）。這裡指「實在；真的」。",
-      "examples": [
-        [
-          "I just don’t know what to say.",
-          "我真的不知道該說甚麼。",
-          "實在；真的"
-        ],
-        [
-          "I just can’t believe it.",
-          "我實在無法相信。",
-          "實在；真的"
-        ]
-      ],
-      "options": [
-        "just-16",
-        "just-17",
-        "just-18",
-        "just-19",
-        "just-20",
-        "just-21"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "just-17",
-      "title": "語氣緩和",
-      "form": "just = simply for politeness/softening（只是想……）",
-      "en": "just = simply for politeness/softening（只是想……）",
-      "zh": "語氣緩和",
-      "note": "留意語境：just = simply for politeness/softening（只是想……）。這裡指「語氣緩和」。",
+      "id": "just-mcq-16",
+      "title": "在請求、說明中令語氣較柔和、較不強硬",
+      "form": "just — softener",
+      "en": "just — softener",
+      "zh": "在請求、說明中令語氣較柔和、較不強硬",
+      "note": "來源詞義：在請求、說明中令語氣較柔和、較不強硬",
       "examples": [
         [
           "I just wanted to ask a question.",
           "我只是想問一個問題。",
-          "語氣緩和"
+          "在請求、說明中令語氣較柔和、較不強硬"
         ],
         [
           "I’m just checking whether you received the message.",
           "我只是想確認你有沒有收到訊息。",
-          "語氣緩和"
+          "在請求、說明中令語氣較柔和、較不強硬"
         ]
       ],
-      "options": [
-        "just-17",
-        "just-18",
-        "just-19",
-        "just-20",
-        "just-21",
-        "just-22"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-18",
-      "title": "就；馬上",
-      "form": "just = immediately / right now in commands（現在就）",
-      "en": "just = immediately / right now in commands（現在就）",
-      "zh": "就；馬上",
-      "note": "留意語境：just = immediately / right now in commands（現在就）。這裡指「就；馬上」。",
-      "examples": [
-        [
-          "Just wait here.",
-          "你就在這裡等。",
-          "就；馬上"
-        ],
-        [
-          "Just listen for a moment.",
-          "你先聽一下。",
-          "就；馬上"
-        ]
-      ],
-      "options": [
-        "just-18",
-        "just-19",
-        "just-20",
-        "just-21",
-        "just-22",
-        "just-23"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "just-19",
-      "title": "公平的；公正的",
-      "form": "just = adjective: fair（公正的）",
-      "en": "Morally fair and based on what is right.",
-      "zh": "公平的；公正的",
-      "note": "留意語境：just = adjective: fair（公正的）。這裡指「公平的；公正的」。",
+      "id": "just-mcq-17",
+      "title": "符合公平、正義和道德原則的",
+      "form": "just — fair",
+      "en": "just — fair",
+      "zh": "符合公平、正義和道德原則的",
+      "note": "來源詞義：符合公平、正義和道德原則的",
       "examples": [
         [
           "We need a just decision.",
           "我們需要一個公正的決定。",
-          "公平的；公正的"
+          "符合公平、正義和道德原則的"
         ],
         [
           "Everyone deserves a just system.",
           "每個人都應該享有一個公平公正的制度。",
-          "公平的；公正的"
+          "符合公平、正義和道德原則的"
         ]
       ],
-      "options": [
-        "just-19",
-        "just-20",
-        "just-21",
-        "just-22",
-        "just-23",
-        "just-24"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-20",
-      "title": "應得而公平",
-      "form": "just punishment/reward（公正的處罰／回報）",
-      "en": "just punishment/reward（公正的處罰／回報）",
-      "zh": "應得而公平",
-      "note": "留意語境：just punishment/reward（公正的處罰／回報）。這裡指「應得而公平」。",
-      "examples": [
-        [
-          "The court must impose a just punishment.",
-          "法院必須作出公正適當的處罰。",
-          "應得而公平"
-        ],
-        [
-          "They wanted a just outcome.",
-          "他們希望得到一個公平合理的結果。",
-          "應得而公平"
-        ]
-      ],
-      "options": [
-        "just-20",
-        "just-21",
-        "just-22",
-        "just-23",
-        "just-24",
-        "just-25"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "just-21",
-      "title": "正義；公正；司法",
-      "form": "justice（正義／司法）",
-      "en": "justice（正義／司法）",
-      "zh": "正義；公正；司法",
-      "note": "留意語境：justice（正義／司法）。這裡指「正義；公正；司法」。",
+      "id": "just-mcq-18",
+      "title": "公平正義的原則；亦可指司法制度",
+      "form": "justice",
+      "en": "justice",
+      "zh": "公平正義的原則；亦可指司法制度",
+      "note": "來源詞義：公平正義的原則；亦可指司法制度",
       "examples": [
         [
           "They wanted justice.",
           "他們希望得到公義／公正對待。",
-          "正義；公正；司法"
+          "公平正義的原則；亦可指司法制度"
         ],
         [
           "The justice system should treat people fairly.",
           "司法制度應公平對待人們。",
-          "正義；公正；司法"
+          "公平正義的原則；亦可指司法制度"
         ]
       ],
-      "options": [
-        "just-21",
-        "just-22",
-        "just-23",
-        "just-24",
-        "just-25",
-        "just-26"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-22",
-      "title": "充分表現；不辜負",
-      "form": "do justice to（充分呈現／公平評價）",
-      "en": "do justice to（充分呈現／公平評價）",
-      "zh": "充分表現；不辜負",
-      "note": "留意語境：do justice to（充分呈現／公平評價）。這裡指「充分表現；不辜負」。",
+      "id": "just-mcq-19",
+      "title": "充分、公平地展現某人／某物真正的價值或品質",
+      "form": "do justice to",
+      "en": "do justice to",
+      "zh": "充分、公平地展現某人／某物真正的價值或品質",
+      "note": "來源詞義：充分、公平地展現某人／某物真正的價值或品質",
       "examples": [
         [
           "The photo doesn’t do justice to the view.",
           "這張照片無法充分呈現景色真正的美。",
-          "充分表現；不辜負"
+          "充分、公平地展現某人／某物真正的價值或品質"
         ],
         [
           "A short summary cannot do justice to her life story.",
           "簡短摘要不足以充分呈現她的人生故事。",
-          "充分表現；不辜負"
+          "充分、公平地展現某人／某物真正的價值或品質"
         ]
       ],
-      "options": [
-        "just-22",
-        "just-23",
-        "just-24",
-        "just-25",
-        "just-26",
-        "just-27"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-23",
-      "title": "證明合理；為……辯解",
-      "form": "justify（證明……有道理／合理化）",
-      "en": "justify（證明……有道理／合理化）",
-      "zh": "證明合理；為……辯解",
-      "note": "留意語境：justify（證明……有道理／合理化）。這裡指「證明合理；為……辯解」。",
+      "id": "just-mcq-20",
+      "title": "提供足夠理由證明某事合理／正當",
+      "form": "justify",
+      "en": "justify",
+      "zh": "提供足夠理由證明某事合理／正當",
+      "note": "來源詞義：提供足夠理由證明某事合理／正當",
       "examples": [
         [
           "Can you justify your decision?",
           "你能證明你的決定有合理理由嗎？",
-          "證明合理；為……辯解"
+          "提供足夠理由證明某事合理／正當"
         ],
         [
           "The result does not justify the cost.",
           "這個結果不足以證明那筆成本是值得／合理的。",
-          "證明合理；為……辯解"
-        ]
-      ],
-      "options": [
-        "just-23",
-        "just-24",
-        "just-25",
-        "just-26",
-        "just-27",
-        "just-01"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "just-24",
-      "title": "證明有理",
-      "form": "justify doing something（為做某事提供正當理由）",
-      "en": "justify doing something（為做某事提供正當理由）",
-      "zh": "證明有理",
-      "note": "留意語境：justify doing something（為做某事提供正當理由）。這裡指「證明有理」。",
-      "examples": [
+          "提供足夠理由證明某事合理／正當"
+        ],
         [
           "Nothing can justify treating people badly.",
           "沒有任何事情能合理化惡劣對待別人的行為。",
-          "證明有理"
+          "提供足夠理由證明某事合理／正當"
         ],
         [
           "The risk may justify taking extra precautions.",
           "這個風險可能足以證明採取額外預防措施是合理的。",
-          "證明有理"
+          "提供足夠理由證明某事合理／正當"
         ]
       ],
-      "options": [
-        "just-24",
-        "just-25",
-        "just-26",
-        "just-27",
-        "just-01",
-        "just-02"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-25",
-      "title": "合理的；有正當理由的",
-      "form": "justified（有充分理由的）",
-      "en": "justified（有充分理由的）",
-      "zh": "合理的；有正當理由的",
-      "note": "留意語境：justified（有充分理由的）。這裡指「合理的；有正當理由的」。",
+      "id": "just-mcq-21",
+      "title": "有足夠理由／證據支持，因此合理",
+      "form": "justified",
+      "en": "justified",
+      "zh": "有足夠理由／證據支持，因此合理",
+      "note": "來源詞義：有足夠理由／證據支持，因此合理",
       "examples": [
         [
           "Her concern was completely justified.",
           "她的擔心是完全有道理／有充分理由的。",
-          "合理的；有正當理由的"
+          "有足夠理由／證據支持，因此合理"
         ],
         [
           "He felt justified in refusing.",
           "他認為自己拒絕是有正當理由的。",
-          "合理的；有正當理由的"
+          "有足夠理由／證據支持，因此合理"
         ]
       ],
-      "options": [
-        "just-25",
-        "just-26",
-        "just-27",
-        "just-01",
-        "just-02",
-        "just-03"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-26",
-      "title": "理由；正當性",
-      "form": "justification（理由／正當依據）",
-      "en": "justification（理由／正當依據）",
-      "zh": "理由；正當性",
-      "note": "留意語境：justification（理由／正當依據）。這裡指「理由；正當性」。",
+      "id": "just-mcq-22",
+      "title": "用來證明某行動、決定或信念合理的理由／依據",
+      "form": "justification",
+      "en": "justification",
+      "zh": "用來證明某行動、決定或信念合理的理由／依據",
+      "note": "來源詞義：用來證明某行動、決定或信念合理的理由／依據",
       "examples": [
         [
           "There was no justification for the delay.",
           "延誤沒有任何合理理由。",
-          "理由；正當性"
+          "用來證明某行動、決定或信念合理的理由／依據"
         ],
         [
           "She gave a clear justification for her decision.",
           "她清楚說明了自己決定的理由／依據。",
-          "理由；正當性"
+          "用來證明某行動、決定或信念合理的理由／依據"
         ]
       ],
-      "options": [
-        "just-26",
-        "just-27",
-        "just-01",
-        "just-02",
-        "just-03",
-        "just-04"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "just-27",
-      "title": "公平地；合理地",
-      "form": "justly（公正地）",
-      "en": "justly（公正地）",
-      "zh": "公平地；合理地",
-      "note": "留意語境：justly（公正地）。這裡指「公平地；合理地」。",
+      "id": "just-mcq-23",
+      "title": "以公平、合理或應得的方式",
+      "form": "justly",
+      "en": "justly",
+      "zh": "以公平、合理或應得的方式",
+      "note": "來源詞義：以公平、合理或應得的方式",
       "examples": [
         [
           "He was justly praised for his work.",
           "他因工作表現而受到應得的讚賞。",
-          "公平地；合理地"
+          "以公平、合理或應得的方式"
         ],
         [
           "The decision was justly criticized.",
           "這個決定受到批評是有充分理由的。",
-          "公平地；合理地"
+          "以公平、合理或應得的方式"
         ]
       ],
-      "options": [
-        "just-27",
-        "just-01",
-        "just-02",
-        "just-03",
-        "just-04",
-        "just-05"
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "just-mcq-24",
+      "title": "加強說話者的無奈、驚訝、肯定等情緒",
+      "form": "16. I just don’t know（就是不知道） — 實在；真的",
+      "en": "16. I just don’t know（就是不知道） — 實在；真的",
+      "zh": "加強說話者的無奈、驚訝、肯定等情緒",
+      "note": "來源詞義：加強說話者的無奈、驚訝、肯定等情緒",
+      "examples": [
+        [
+          "I just don’t know what to say.",
+          "我真的不知道該說甚麼。",
+          "加強說話者的無奈、驚訝、肯定等情緒"
+        ],
+        [
+          "I just can’t believe it.",
+          "我實在無法相信。",
+          "加強說話者的無奈、驚訝、肯定等情緒"
+        ]
       ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "just-mcq-25",
+      "title": "常用來令指示顯得簡單直接，有時也可柔化或加強語氣",
+      "form": "18. just = immediately / right now in commands（現在就） — 就；馬上",
+      "en": "18. just = immediately / right now in commands（現在就） — 就；馬上",
+      "zh": "常用來令指示顯得簡單直接，有時也可柔化或加強語氣",
+      "note": "來源詞義：常用來令指示顯得簡單直接，有時也可柔化或加強語氣",
+      "examples": [
+        [
+          "Just wait here.",
+          "你就在這裡等。",
+          "常用來令指示顯得簡單直接，有時也可柔化或加強語氣"
+        ],
+        [
+          "Just listen for a moment.",
+          "你先聽一下。",
+          "常用來令指示顯得簡單直接，有時也可柔化或加強語氣"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "just-mcq-26",
+      "title": "結果／待遇與行為、權利或情況相稱而公平",
+      "form": "20. just punishment/reward（公正的處罰／回報） — 應得而公平",
+      "en": "20. just punishment/reward（公正的處罰／回報） — 應得而公平",
+      "zh": "結果／待遇與行為、權利或情況相稱而公平",
+      "note": "來源詞義：結果／待遇與行為、權利或情況相稱而公平",
+      "examples": [
+        [
+          "The court must impose a just punishment.",
+          "法院必須作出公正適當的處罰。",
+          "結果／待遇與行為、權利或情況相稱而公平"
+        ],
+        [
+          "They wanted a just outcome.",
+          "他們希望得到一個公平合理的結果。",
+          "結果／待遇與行為、權利或情況相稱而公平"
+        ]
+      ],
+      "options": [],
       "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "just-01-0",
-      "sense": "just-01",
+      "sense": "just-mcq-01",
       "en": "I like her not just because she is family.",
       "zh": "我喜歡她不只是因為她是家人。",
       "masked": "I like her ____ she is family.",
       "options": [
-        "just-01",
-        "just-02",
-        "just-03",
-        "just-04",
-        "just-05",
-        "just-06"
+        "just-mcq-01",
+        "just-mcq-02",
+        "just-mcq-03",
+        "just-mcq-04",
+        "just-mcq-05",
+        "just-mcq-06"
       ],
-      "explanation": "留意語境：just = only / merely（只是）。這裡指「只是；僅僅」。",
+      "explanation": "本句的「not just because」指「表示事情只限於某個原因、目的、身份或程度；只是／僅僅」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "not just because"
       ],
       "optionReasons": {
-        "just-01": "本句的意思是「只是；僅僅」。",
-        "just-02": "「不僅……還……」與本句語境不同。",
-        "just-03": "「僅僅因為」與本句語境不同。",
-        "just-04": "「正好；恰恰」與本句語境不同。",
-        "just-05": "「正合適；剛剛好」與本句語境不同。",
-        "just-06": "「就像；正如」與本句語境不同。"
-      }
+        "just-mcq-01": "本句指「表示事情只限於某個原因、目的、身份或程度；只是／僅僅」。",
+        "just-mcq-02": "「A 並非唯一情況；除 A 外，B 亦同樣／更加重要」是「not just…but…」的用法，與本句語境不同。",
+        "just-mcq-03": "「僅僅因為某一個原因」是「just because」的用法，與本句語境不同。",
+        "just-mcq-04": "「完全準確地符合某個時間、位置、情況或描述」是「just — exactly」的用法，與本句語境不同。",
+        "just-mcq-05": "「程度、大小、時間等完全合適，不多不少」是「just right」的用法，與本句語境不同。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-01"
     },
     {
       "id": "just-01-1",
-      "sense": "just-01",
+      "sense": "just-mcq-01",
       "en": "I’m just trying to help.",
       "zh": "我只是想幫忙。",
       "masked": "I’m ____.",
       "options": [
-        "just-01",
-        "just-02",
-        "just-03",
-        "just-04",
-        "just-05",
-        "just-06"
+        "just-mcq-01",
+        "just-mcq-02",
+        "just-mcq-03",
+        "just-mcq-04",
+        "just-mcq-05",
+        "just-mcq-06"
       ],
-      "explanation": "留意語境：just = only / merely（只是）。這裡指「只是；僅僅」。",
+      "explanation": "本句的「just trying to help」指「表示事情只限於某個原因、目的、身份或程度；只是／僅僅」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "just trying to help"
       ],
       "optionReasons": {
-        "just-01": "本句的意思是「只是；僅僅」。",
-        "just-02": "「不僅……還……」與本句語境不同。",
-        "just-03": "「僅僅因為」與本句語境不同。",
-        "just-04": "「正好；恰恰」與本句語境不同。",
-        "just-05": "「正合適；剛剛好」與本句語境不同。",
-        "just-06": "「就像；正如」與本句語境不同。"
-      }
+        "just-mcq-01": "本句指「表示事情只限於某個原因、目的、身份或程度；只是／僅僅」。",
+        "just-mcq-02": "「A 並非唯一情況；除 A 外，B 亦同樣／更加重要」是「not just…but…」的用法，與本句語境不同。",
+        "just-mcq-03": "「僅僅因為某一個原因」是「just because」的用法，與本句語境不同。",
+        "just-mcq-04": "「完全準確地符合某個時間、位置、情況或描述」是「just — exactly」的用法，與本句語境不同。",
+        "just-mcq-05": "「程度、大小、時間等完全合適，不多不少」是「just right」的用法，與本句語境不同。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-01"
     },
     {
       "id": "just-01-2",
-      "sense": "just-01",
+      "sense": "just-mcq-01",
       "en": "It was just a joke.",
       "zh": "那只是一個玩笑。",
       "masked": "It was ____.",
       "options": [
-        "just-01",
-        "just-02",
-        "just-03",
-        "just-04",
-        "just-05",
-        "just-06"
+        "just-mcq-01",
+        "just-mcq-02",
+        "just-mcq-03",
+        "just-mcq-04",
+        "just-mcq-05",
+        "just-mcq-06"
       ],
-      "explanation": "留意語境：just = only / merely（只是）。這裡指「只是；僅僅」。",
+      "explanation": "本句的「just a joke」指「表示事情只限於某個原因、目的、身份或程度；只是／僅僅」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "just a joke"
       ],
       "optionReasons": {
-        "just-01": "本句的意思是「只是；僅僅」。",
-        "just-02": "「不僅……還……」與本句語境不同。",
-        "just-03": "「僅僅因為」與本句語境不同。",
-        "just-04": "「正好；恰恰」與本句語境不同。",
-        "just-05": "「正合適；剛剛好」與本句語境不同。",
-        "just-06": "「就像；正如」與本句語境不同。"
-      }
+        "just-mcq-01": "本句指「表示事情只限於某個原因、目的、身份或程度；只是／僅僅」。",
+        "just-mcq-02": "「A 並非唯一情況；除 A 外，B 亦同樣／更加重要」是「not just…but…」的用法，與本句語境不同。",
+        "just-mcq-03": "「僅僅因為某一個原因」是「just because」的用法，與本句語境不同。",
+        "just-mcq-04": "「完全準確地符合某個時間、位置、情況或描述」是「just — exactly」的用法，與本句語境不同。",
+        "just-mcq-05": "「程度、大小、時間等完全合適，不多不少」是「just right」的用法，與本句語境不同。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-01"
     },
     {
       "id": "just-02-0",
-      "sense": "just-02",
+      "sense": "just-mcq-02",
       "en": "She is not just kind but also very patient.",
       "zh": "她不只善良，而且非常有耐性。",
       "masked": "She is ____.",
       "options": [
-        "just-02",
-        "just-03",
-        "just-04",
-        "just-05",
-        "just-06",
-        "just-07"
+        "just-mcq-02",
+        "just-mcq-01",
+        "just-mcq-03",
+        "just-mcq-04",
+        "just-mcq-05",
+        "just-mcq-06"
       ],
-      "explanation": "留意語境：not just…but also…（不只是……而且……）。這裡指「不僅……還……」。",
+      "explanation": "本句的「not just kind but also very patient」指「A 並非唯一情況；除 A 外，B 亦同樣／更加重要」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "not just kind but also very patient"
       ],
       "optionReasons": {
-        "just-02": "本句的意思是「不僅……還……」。",
-        "just-03": "「僅僅因為」與本句語境不同。",
-        "just-04": "「正好；恰恰」與本句語境不同。",
-        "just-05": "「正合適；剛剛好」與本句語境不同。",
-        "just-06": "「就像；正如」與本句語境不同。",
-        "just-07": "「正如；正當……時」與本句語境不同。"
-      }
+        "just-mcq-02": "本句指「A 並非唯一情況；除 A 外，B 亦同樣／更加重要」。",
+        "just-mcq-01": "「表示事情只限於某個原因、目的、身份或程度；只是／僅僅」是「just — only/merely」的用法，與本句語境不同。",
+        "just-mcq-03": "「僅僅因為某一個原因」是「just because」的用法，與本句語境不同。",
+        "just-mcq-04": "「完全準確地符合某個時間、位置、情況或描述」是「just — exactly」的用法，與本句語境不同。",
+        "just-mcq-05": "「程度、大小、時間等完全合適，不多不少」是「just right」的用法，與本句語境不同。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-02"
     },
     {
       "id": "just-02-1",
-      "sense": "just-02",
+      "sense": "just-mcq-02",
       "en": "The job requires not just experience but also patience.",
       "zh": "這份工作不只需要經驗，也需要耐性。",
       "masked": "The job requires not ____ experience but also patience.",
       "options": [
-        "just-02",
-        "just-03",
-        "just-04",
-        "just-05",
-        "just-06",
-        "just-07"
+        "just-mcq-02",
+        "just-mcq-01",
+        "just-mcq-03",
+        "just-mcq-04",
+        "just-mcq-05",
+        "just-mcq-06"
       ],
-      "explanation": "留意語境：not just…but also…（不只是……而且……）。這裡指「不僅……還……」。",
+      "explanation": "本句的「just」指「A 並非唯一情況；除 A 外，B 亦同樣／更加重要」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "just"
       ],
       "optionReasons": {
-        "just-02": "本句的意思是「不僅……還……」。",
-        "just-03": "「僅僅因為」與本句語境不同。",
-        "just-04": "「正好；恰恰」與本句語境不同。",
-        "just-05": "「正合適；剛剛好」與本句語境不同。",
-        "just-06": "「就像；正如」與本句語境不同。",
-        "just-07": "「正如；正當……時」與本句語境不同。"
-      }
+        "just-mcq-02": "本句指「A 並非唯一情況；除 A 外，B 亦同樣／更加重要」。",
+        "just-mcq-01": "「表示事情只限於某個原因、目的、身份或程度；只是／僅僅」是「just — only/merely」的用法，與本句語境不同。",
+        "just-mcq-03": "「僅僅因為某一個原因」是「just because」的用法，與本句語境不同。",
+        "just-mcq-04": "「完全準確地符合某個時間、位置、情況或描述」是「just — exactly」的用法，與本句語境不同。",
+        "just-mcq-05": "「程度、大小、時間等完全合適，不多不少」是「just right」的用法，與本句語境不同。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-02"
     },
     {
       "id": "just-03-0",
-      "sense": "just-03",
+      "sense": "just-mcq-03",
       "en": "You shouldn’t agree just because everyone else does.",
       "zh": "你不應該只是因為其他人都同意就跟著同意。",
       "masked": "You shouldn’t agree ____ everyone else does.",
       "options": [
-        "just-03",
-        "just-04",
-        "just-05",
-        "just-06",
-        "just-07",
-        "just-08"
+        "just-mcq-03",
+        "just-mcq-02",
+        "just-mcq-04",
+        "just-mcq-01",
+        "just-mcq-05",
+        "just-mcq-06"
       ],
-      "explanation": "留意語境：just because（只是因為）。這裡指「僅僅因為」。",
+      "explanation": "本句的「just because」指「僅僅因為某一個原因」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "just because"
       ],
       "optionReasons": {
-        "just-03": "本句的意思是「僅僅因為」。",
-        "just-04": "「正好；恰恰」與本句語境不同。",
-        "just-05": "「正合適；剛剛好」與本句語境不同。",
-        "just-06": "「就像；正如」與本句語境不同。",
-        "just-07": "「正如；正當……時」與本句語境不同。",
-        "just-08": "「剛剛；才」與本句語境不同。"
-      }
+        "just-mcq-03": "本句指「僅僅因為某一個原因」。",
+        "just-mcq-02": "「A 並非唯一情況；除 A 外，B 亦同樣／更加重要」是「not just…but…」的用法，與本句語境不同。",
+        "just-mcq-04": "「完全準確地符合某個時間、位置、情況或描述」是「just — exactly」的用法，與本句語境不同。",
+        "just-mcq-01": "「表示事情只限於某個原因、目的、身份或程度；只是／僅僅」是「just — only/merely」的用法，與本句語境不同。",
+        "just-mcq-05": "「程度、大小、時間等完全合適，不多不少」是「just right」的用法，與本句語境不同。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-03"
     },
     {
       "id": "just-03-1",
-      "sense": "just-03",
+      "sense": "just-mcq-03",
       "en": "I didn’t choose it just because it was cheap.",
       "zh": "我不是單單因為它便宜才選它。",
       "masked": "I didn’t choose it ____ because it was cheap.",
       "options": [
-        "just-03",
-        "just-04",
-        "just-05",
-        "just-06",
-        "just-07",
-        "just-08"
+        "just-mcq-03",
+        "just-mcq-02",
+        "just-mcq-04",
+        "just-mcq-01",
+        "just-mcq-05",
+        "just-mcq-06"
       ],
-      "explanation": "留意語境：just because（只是因為）。這裡指「僅僅因為」。",
+      "explanation": "本句的「just」指「僅僅因為某一個原因」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "just"
       ],
       "optionReasons": {
-        "just-03": "本句的意思是「僅僅因為」。",
-        "just-04": "「正好；恰恰」與本句語境不同。",
-        "just-05": "「正合適；剛剛好」與本句語境不同。",
-        "just-06": "「就像；正如」與本句語境不同。",
-        "just-07": "「正如；正當……時」與本句語境不同。",
-        "just-08": "「剛剛；才」與本句語境不同。"
-      }
+        "just-mcq-03": "本句指「僅僅因為某一個原因」。",
+        "just-mcq-02": "「A 並非唯一情況；除 A 外，B 亦同樣／更加重要」是「not just…but…」的用法，與本句語境不同。",
+        "just-mcq-04": "「完全準確地符合某個時間、位置、情況或描述」是「just — exactly」的用法，與本句語境不同。",
+        "just-mcq-01": "「表示事情只限於某個原因、目的、身份或程度；只是／僅僅」是「just — only/merely」的用法，與本句語境不同。",
+        "just-mcq-05": "「程度、大小、時間等完全合適，不多不少」是「just right」的用法，與本句語境不同。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-03"
     },
     {
       "id": "just-04-0",
-      "sense": "just-04",
+      "sense": "just-mcq-04",
       "en": "That is just what I needed.",
       "zh": "那正是我需要的。",
       "masked": "That is ____.",
       "options": [
-        "just-04",
-        "just-05",
-        "just-06",
-        "just-07",
-        "just-08",
-        "just-09"
+        "just-mcq-04",
+        "just-mcq-03",
+        "just-mcq-05",
+        "just-mcq-02",
+        "just-mcq-06",
+        "just-mcq-01"
       ],
-      "explanation": "留意語境：just = exactly（正好；恰好）。這裡指「正好；恰恰」。",
+      "explanation": "本句的「just what I needed」指「完全準確地符合某個時間、位置、情況或描述」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "just what I needed"
       ],
       "optionReasons": {
-        "just-04": "本句的意思是「正好；恰恰」。",
-        "just-05": "「正合適；剛剛好」與本句語境不同。",
-        "just-06": "「就像；正如」與本句語境不同。",
-        "just-07": "「正如；正當……時」與本句語境不同。",
-        "just-08": "「剛剛；才」與本句語境不同。",
-        "just-09": "「剛才；剛剛」與本句語境不同。"
-      }
+        "just-mcq-04": "本句指「完全準確地符合某個時間、位置、情況或描述」。",
+        "just-mcq-03": "「僅僅因為某一個原因」是「just because」的用法，與本句語境不同。",
+        "just-mcq-05": "「程度、大小、時間等完全合適，不多不少」是「just right」的用法，與本句語境不同。",
+        "just-mcq-02": "「A 並非唯一情況；除 A 外，B 亦同樣／更加重要」是「not just…but…」的用法，與本句語境不同。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。",
+        "just-mcq-01": "「表示事情只限於某個原因、目的、身份或程度；只是／僅僅」是「just — only/merely」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-04"
     },
     {
       "id": "just-04-1",
-      "sense": "just-04",
+      "sense": "just-mcq-04",
       "en": "You arrived at just the right time.",
       "zh": "你來得正是時候。",
       "masked": "You arrived at ____.",
       "options": [
-        "just-04",
-        "just-05",
-        "just-06",
-        "just-07",
-        "just-08",
-        "just-09"
+        "just-mcq-04",
+        "just-mcq-03",
+        "just-mcq-05",
+        "just-mcq-02",
+        "just-mcq-06",
+        "just-mcq-01"
       ],
-      "explanation": "留意語境：just = exactly（正好；恰好）。這裡指「正好；恰恰」。",
+      "explanation": "本句的「just the right time」指「完全準確地符合某個時間、位置、情況或描述」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "just the right time"
       ],
       "optionReasons": {
-        "just-04": "本句的意思是「正好；恰恰」。",
-        "just-05": "「正合適；剛剛好」與本句語境不同。",
-        "just-06": "「就像；正如」與本句語境不同。",
-        "just-07": "「正如；正當……時」與本句語境不同。",
-        "just-08": "「剛剛；才」與本句語境不同。",
-        "just-09": "「剛才；剛剛」與本句語境不同。"
-      }
+        "just-mcq-04": "本句指「完全準確地符合某個時間、位置、情況或描述」。",
+        "just-mcq-03": "「僅僅因為某一個原因」是「just because」的用法，與本句語境不同。",
+        "just-mcq-05": "「程度、大小、時間等完全合適，不多不少」是「just right」的用法，與本句語境不同。",
+        "just-mcq-02": "「A 並非唯一情況；除 A 外，B 亦同樣／更加重要」是「not just…but…」的用法，與本句語境不同。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。",
+        "just-mcq-01": "「表示事情只限於某個原因、目的、身份或程度；只是／僅僅」是「just — only/merely」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-04"
     },
     {
       "id": "just-05-0",
-      "sense": "just-05",
+      "sense": "just-mcq-05",
       "en": "The room is just the right size.",
       "zh": "房間大小剛剛好。",
       "masked": "The room is ____.",
       "options": [
-        "just-05",
-        "just-06",
-        "just-07",
-        "just-08",
-        "just-09",
-        "just-10"
+        "just-mcq-05",
+        "just-mcq-04",
+        "just-mcq-06",
+        "just-mcq-03",
+        "just-mcq-07",
+        "just-mcq-02"
       ],
-      "explanation": "留意語境：just the right…（恰到好處）。這裡指「正合適；剛剛好」。",
+      "explanation": "本句的「just the right size」指「程度、大小、時間等完全合適，不多不少」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "just the right size"
       ],
       "optionReasons": {
-        "just-05": "本句的意思是「正合適；剛剛好」。",
-        "just-06": "「就像；正如」與本句語境不同。",
-        "just-07": "「正如；正當……時」與本句語境不同。",
-        "just-08": "「剛剛；才」與本句語境不同。",
-        "just-09": "「剛才；剛剛」與本句語境不同。",
-        "just-10": "「就在那一刻」與本句語境不同。"
-      }
+        "just-mcq-05": "本句指「程度、大小、時間等完全合適，不多不少」。",
+        "just-mcq-04": "「完全準確地符合某個時間、位置、情況或描述」是「just — exactly」的用法，與本句語境不同。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。",
+        "just-mcq-03": "「僅僅因為某一個原因」是「just because」的用法，與本句語境不同。",
+        "just-mcq-07": "「完全按照某方式；或正好在某事件發生時」是「just as」的用法，與本句語境不同。",
+        "just-mcq-02": "「A 並非唯一情況；除 A 外，B 亦同樣／更加重要」是「not just…but…」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-05"
     },
     {
       "id": "just-05-1",
-      "sense": "just-05",
+      "sense": "just-mcq-05",
       "en": "This tea is just the right temperature.",
       "zh": "這杯茶的溫度恰到好處。",
       "masked": "This tea is ____ the right temperature.",
       "options": [
-        "just-05",
-        "just-06",
-        "just-07",
-        "just-08",
-        "just-09",
-        "just-10"
+        "just-mcq-05",
+        "just-mcq-04",
+        "just-mcq-06",
+        "just-mcq-03",
+        "just-mcq-07",
+        "just-mcq-02"
       ],
-      "explanation": "留意語境：just the right…（恰到好處）。這裡指「正合適；剛剛好」。",
+      "explanation": "本句的「just」指「程度、大小、時間等完全合適，不多不少」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "just"
       ],
       "optionReasons": {
-        "just-05": "本句的意思是「正合適；剛剛好」。",
-        "just-06": "「就像；正如」與本句語境不同。",
-        "just-07": "「正如；正當……時」與本句語境不同。",
-        "just-08": "「剛剛；才」與本句語境不同。",
-        "just-09": "「剛才；剛剛」與本句語境不同。",
-        "just-10": "「就在那一刻」與本句語境不同。"
-      }
+        "just-mcq-05": "本句指「程度、大小、時間等完全合適，不多不少」。",
+        "just-mcq-04": "「完全準確地符合某個時間、位置、情況或描述」是「just — exactly」的用法，與本句語境不同。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。",
+        "just-mcq-03": "「僅僅因為某一個原因」是「just because」的用法，與本句語境不同。",
+        "just-mcq-07": "「完全按照某方式；或正好在某事件發生時」是「just as」的用法，與本句語境不同。",
+        "just-mcq-02": "「A 並非唯一情況；除 A 外，B 亦同樣／更加重要」是「not just…but…」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-05"
     },
     {
       "id": "just-06-0",
-      "sense": "just-06",
+      "sense": "just-mcq-06",
       "en": "She looks just like her mother.",
       "zh": "她看起來就像她媽媽。",
       "masked": "She looks ____ her mother.",
       "options": [
-        "just-06",
-        "just-07",
-        "just-08",
-        "just-09",
-        "just-10",
-        "just-11"
+        "just-mcq-06",
+        "just-mcq-05",
+        "just-mcq-07",
+        "just-mcq-04",
+        "just-mcq-08",
+        "just-mcq-03"
       ],
-      "explanation": "留意語境：just like（正像；就像）。這裡指「就像；正如」。",
+      "explanation": "本句的「just like」指「與某人／某物非常或完全相似」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "just like"
       ],
       "optionReasons": {
-        "just-06": "本句的意思是「就像；正如」。",
-        "just-07": "「正如；正當……時」與本句語境不同。",
-        "just-08": "「剛剛；才」與本句語境不同。",
-        "just-09": "「剛才；剛剛」與本句語境不同。",
-        "just-10": "「就在那一刻」與本句語境不同。",
-        "just-11": "「剛好；勉強」與本句語境不同。"
-      }
+        "just-mcq-06": "本句指「與某人／某物非常或完全相似」。",
+        "just-mcq-05": "「程度、大小、時間等完全合適，不多不少」是「just right」的用法，與本句語境不同。",
+        "just-mcq-07": "「完全按照某方式；或正好在某事件發生時」是「just as」的用法，與本句語境不同。",
+        "just-mcq-04": "「完全準確地符合某個時間、位置、情況或描述」是「just — exactly」的用法，與本句語境不同。",
+        "just-mcq-08": "「某件事情在很短時間之前發生」是「just — recently」的用法，與本句語境不同。",
+        "just-mcq-03": "「僅僅因為某一個原因」是「just because」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-06"
     },
     {
       "id": "just-06-1",
-      "sense": "just-06",
+      "sense": "just-mcq-06",
       "en": "The place is just like I remember it.",
       "zh": "這個地方和我記得的一模一樣。",
       "masked": "The place is ____ like I remember it.",
       "options": [
-        "just-06",
-        "just-07",
-        "just-08",
-        "just-09",
-        "just-10",
-        "just-11"
+        "just-mcq-06",
+        "just-mcq-05",
+        "just-mcq-07",
+        "just-mcq-04",
+        "just-mcq-08",
+        "just-mcq-03"
       ],
-      "explanation": "留意語境：just like（正像；就像）。這裡指「就像；正如」。",
+      "explanation": "本句的「just」指「與某人／某物非常或完全相似」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "just"
       ],
       "optionReasons": {
-        "just-06": "本句的意思是「就像；正如」。",
-        "just-07": "「正如；正當……時」與本句語境不同。",
-        "just-08": "「剛剛；才」與本句語境不同。",
-        "just-09": "「剛才；剛剛」與本句語境不同。",
-        "just-10": "「就在那一刻」與本句語境不同。",
-        "just-11": "「剛好；勉強」與本句語境不同。"
-      }
+        "just-mcq-06": "本句指「與某人／某物非常或完全相似」。",
+        "just-mcq-05": "「程度、大小、時間等完全合適，不多不少」是「just right」的用法，與本句語境不同。",
+        "just-mcq-07": "「完全按照某方式；或正好在某事件發生時」是「just as」的用法，與本句語境不同。",
+        "just-mcq-04": "「完全準確地符合某個時間、位置、情況或描述」是「just — exactly」的用法，與本句語境不同。",
+        "just-mcq-08": "「某件事情在很短時間之前發生」是「just — recently」的用法，與本句語境不同。",
+        "just-mcq-03": "「僅僅因為某一個原因」是「just because」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-06"
     },
     {
       "id": "just-07-0",
-      "sense": "just-07",
+      "sense": "just-mcq-07",
       "en": "Do it just as I showed you.",
       "zh": "完全照我示範的方式去做。",
       "masked": "Do it ____ I showed you.",
       "options": [
-        "just-07",
-        "just-08",
-        "just-09",
-        "just-10",
-        "just-11",
-        "just-12"
+        "just-mcq-07",
+        "just-mcq-06",
+        "just-mcq-08",
+        "just-mcq-05",
+        "just-mcq-09",
+        "just-mcq-04"
       ],
-      "explanation": "留意語境：just as（正如；正當）。這裡指「正如；正當……時」。",
+      "explanation": "本句的「just as」指「完全按照某方式；或正好在某事件發生時」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "just as"
       ],
       "optionReasons": {
-        "just-07": "本句的意思是「正如；正當……時」。",
-        "just-08": "「剛剛；才」與本句語境不同。",
-        "just-09": "「剛才；剛剛」與本句語境不同。",
-        "just-10": "「就在那一刻」與本句語境不同。",
-        "just-11": "「剛好；勉強」與本句語境不同。",
-        "just-12": "「剛好夠」與本句語境不同。"
-      }
+        "just-mcq-07": "本句指「完全按照某方式；或正好在某事件發生時」。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。",
+        "just-mcq-08": "「某件事情在很短時間之前發生」是「just — recently」的用法，與本句語境不同。",
+        "just-mcq-05": "「程度、大小、時間等完全合適，不多不少」是「just right」的用法，與本句語境不同。",
+        "just-mcq-09": "「在很短時間之前；剛才」是「just now」的用法，與本句語境不同。",
+        "just-mcq-04": "「完全準確地符合某個時間、位置、情況或描述」是「just — exactly」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-07"
     },
     {
       "id": "just-07-1",
-      "sense": "just-07",
+      "sense": "just-mcq-07",
       "en": "I arrived just as the meeting started.",
       "zh": "我到達時正好會議開始。",
       "masked": "I arrived ____ the meeting started.",
       "options": [
-        "just-07",
-        "just-08",
-        "just-09",
-        "just-10",
-        "just-11",
-        "just-12"
+        "just-mcq-07",
+        "just-mcq-06",
+        "just-mcq-08",
+        "just-mcq-05",
+        "just-mcq-09",
+        "just-mcq-04"
       ],
-      "explanation": "留意語境：just as（正如；正當）。這裡指「正如；正當……時」。",
+      "explanation": "本句的「just as」指「完全按照某方式；或正好在某事件發生時」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "just as"
       ],
       "optionReasons": {
-        "just-07": "本句的意思是「正如；正當……時」。",
-        "just-08": "「剛剛；才」與本句語境不同。",
-        "just-09": "「剛才；剛剛」與本句語境不同。",
-        "just-10": "「就在那一刻」與本句語境不同。",
-        "just-11": "「剛好；勉強」與本句語境不同。",
-        "just-12": "「剛好夠」與本句語境不同。"
-      }
+        "just-mcq-07": "本句指「完全按照某方式；或正好在某事件發生時」。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。",
+        "just-mcq-08": "「某件事情在很短時間之前發生」是「just — recently」的用法，與本句語境不同。",
+        "just-mcq-05": "「程度、大小、時間等完全合適，不多不少」是「just right」的用法，與本句語境不同。",
+        "just-mcq-09": "「在很短時間之前；剛才」是「just now」的用法，與本句語境不同。",
+        "just-mcq-04": "「完全準確地符合某個時間、位置、情況或描述」是「just — exactly」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-07"
     },
     {
       "id": "just-08-0",
-      "sense": "just-08",
+      "sense": "just-mcq-08",
       "en": "I’ve just finished.",
       "zh": "我剛剛完成。",
       "masked": "I’ve ____.",
       "options": [
-        "just-08",
-        "just-09",
-        "just-10",
-        "just-11",
-        "just-12",
-        "just-13"
+        "just-mcq-08",
+        "just-mcq-07",
+        "just-mcq-09",
+        "just-mcq-06",
+        "just-mcq-10",
+        "just-mcq-05"
       ],
-      "explanation": "留意語境：just = very recently（剛剛）。這裡指「剛剛；才」。",
+      "explanation": "本句的「just finished」指「某件事情在很短時間之前發生」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "just finished"
       ],
       "optionReasons": {
-        "just-08": "本句的意思是「剛剛；才」。",
-        "just-09": "「剛才；剛剛」與本句語境不同。",
-        "just-10": "「就在那一刻」與本句語境不同。",
-        "just-11": "「剛好；勉強」與本句語境不同。",
-        "just-12": "「剛好夠」與本句語境不同。",
-        "just-13": "「剛好趕上；及時」與本句語境不同。"
-      }
+        "just-mcq-08": "本句指「某件事情在很短時間之前發生」。",
+        "just-mcq-07": "「完全按照某方式；或正好在某事件發生時」是「just as」的用法，與本句語境不同。",
+        "just-mcq-09": "「在很短時間之前；剛才」是「just now」的用法，與本句語境不同。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。",
+        "just-mcq-10": "「正是在所述的那一刻」是「just then」的用法，與本句語境不同。",
+        "just-mcq-05": "「程度、大小、時間等完全合適，不多不少」是「just right」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-08"
     },
     {
       "id": "just-08-1",
-      "sense": "just-08",
+      "sense": "just-mcq-08",
       "en": "She has just arrived.",
       "zh": "她剛到。",
       "masked": "She has ____ arrived.",
       "options": [
-        "just-08",
-        "just-09",
-        "just-10",
-        "just-11",
-        "just-12",
-        "just-13"
+        "just-mcq-08",
+        "just-mcq-07",
+        "just-mcq-09",
+        "just-mcq-06",
+        "just-mcq-10",
+        "just-mcq-05"
       ],
-      "explanation": "留意語境：just = very recently（剛剛）。這裡指「剛剛；才」。",
+      "explanation": "本句的「just」指「某件事情在很短時間之前發生」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "just"
       ],
       "optionReasons": {
-        "just-08": "本句的意思是「剛剛；才」。",
-        "just-09": "「剛才；剛剛」與本句語境不同。",
-        "just-10": "「就在那一刻」與本句語境不同。",
-        "just-11": "「剛好；勉強」與本句語境不同。",
-        "just-12": "「剛好夠」與本句語境不同。",
-        "just-13": "「剛好趕上；及時」與本句語境不同。"
-      }
+        "just-mcq-08": "本句指「某件事情在很短時間之前發生」。",
+        "just-mcq-07": "「完全按照某方式；或正好在某事件發生時」是「just as」的用法，與本句語境不同。",
+        "just-mcq-09": "「在很短時間之前；剛才」是「just now」的用法，與本句語境不同。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。",
+        "just-mcq-10": "「正是在所述的那一刻」是「just then」的用法，與本句語境不同。",
+        "just-mcq-05": "「程度、大小、時間等完全合適，不多不少」是「just right」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-08"
     },
     {
       "id": "just-09-0",
-      "sense": "just-09",
+      "sense": "just-mcq-09",
       "en": "I saw her just now.",
       "zh": "我剛才看見她。",
       "masked": "I saw her ____.",
       "options": [
-        "just-09",
-        "just-10",
-        "just-11",
-        "just-12",
-        "just-13",
-        "just-14"
+        "just-mcq-09",
+        "just-mcq-08",
+        "just-mcq-10",
+        "just-mcq-07",
+        "just-mcq-11",
+        "just-mcq-06"
       ],
-      "explanation": "留意語境：just now（剛才）。這裡指「剛才；剛剛」。",
+      "explanation": "本句的「just now」指「在很短時間之前；剛才」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "just now"
       ],
       "optionReasons": {
-        "just-09": "本句的意思是「剛才；剛剛」。",
-        "just-10": "「就在那一刻」與本句語境不同。",
-        "just-11": "「剛好；勉強」與本句語境不同。",
-        "just-12": "「剛好夠」與本句語境不同。",
-        "just-13": "「剛好趕上；及時」與本句語境不同。",
-        "just-14": "「幾乎；差不多」與本句語境不同。"
-      }
+        "just-mcq-09": "本句指「在很短時間之前；剛才」。",
+        "just-mcq-08": "「某件事情在很短時間之前發生」是「just — recently」的用法，與本句語境不同。",
+        "just-mcq-10": "「正是在所述的那一刻」是「just then」的用法，與本句語境不同。",
+        "just-mcq-07": "「完全按照某方式；或正好在某事件發生時」是「just as」的用法，與本句語境不同。",
+        "just-mcq-11": "「僅僅達到最低程度，或非常接近錯過／失敗」是「just — barely」的用法，與本句語境不同。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-09"
     },
     {
       "id": "just-09-1",
-      "sense": "just-09",
+      "sense": "just-mcq-09",
       "en": "He called me just now.",
       "zh": "他剛剛打電話給我。",
       "masked": "He called me ____ now.",
       "options": [
-        "just-09",
-        "just-10",
-        "just-11",
-        "just-12",
-        "just-13",
-        "just-14"
+        "just-mcq-09",
+        "just-mcq-08",
+        "just-mcq-10",
+        "just-mcq-07",
+        "just-mcq-11",
+        "just-mcq-06"
       ],
-      "explanation": "留意語境：just now（剛才）。這裡指「剛才；剛剛」。",
+      "explanation": "本句的「just」指「在很短時間之前；剛才」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "just"
       ],
       "optionReasons": {
-        "just-09": "本句的意思是「剛才；剛剛」。",
-        "just-10": "「就在那一刻」與本句語境不同。",
-        "just-11": "「剛好；勉強」與本句語境不同。",
-        "just-12": "「剛好夠」與本句語境不同。",
-        "just-13": "「剛好趕上；及時」與本句語境不同。",
-        "just-14": "「幾乎；差不多」與本句語境不同。"
-      }
+        "just-mcq-09": "本句指「在很短時間之前；剛才」。",
+        "just-mcq-08": "「某件事情在很短時間之前發生」是「just — recently」的用法，與本句語境不同。",
+        "just-mcq-10": "「正是在所述的那一刻」是「just then」的用法，與本句語境不同。",
+        "just-mcq-07": "「完全按照某方式；或正好在某事件發生時」是「just as」的用法，與本句語境不同。",
+        "just-mcq-11": "「僅僅達到最低程度，或非常接近錯過／失敗」是「just — barely」的用法，與本句語境不同。",
+        "just-mcq-06": "「與某人／某物非常或完全相似」是「just like」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-09"
     },
     {
       "id": "just-10-0",
-      "sense": "just-10",
+      "sense": "just-mcq-10",
       "en": "Just then, the phone rang.",
       "zh": "就在那時，電話響了。",
       "masked": "____, the phone rang.",
       "options": [
-        "just-10",
-        "just-11",
-        "just-12",
-        "just-13",
-        "just-14",
-        "just-15"
+        "just-mcq-10",
+        "just-mcq-09",
+        "just-mcq-11",
+        "just-mcq-08",
+        "just-mcq-12",
+        "just-mcq-07"
       ],
-      "explanation": "留意語境：just then（就在那時）。這裡指「就在那一刻」。",
+      "explanation": "本句的「Just then」指「正是在所述的那一刻」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "Just then"
       ],
       "optionReasons": {
-        "just-10": "本句的意思是「就在那一刻」。",
-        "just-11": "「剛好；勉強」與本句語境不同。",
-        "just-12": "「剛好夠」與本句語境不同。",
-        "just-13": "「剛好趕上；及時」與本句語境不同。",
-        "just-14": "「幾乎；差不多」與本句語境不同。",
-        "just-15": "「簡直；就是」與本句語境不同。"
-      }
+        "just-mcq-10": "本句指「正是在所述的那一刻」。",
+        "just-mcq-09": "「在很短時間之前；剛才」是「just now」的用法，與本句語境不同。",
+        "just-mcq-11": "「僅僅達到最低程度，或非常接近錯過／失敗」是「just — barely」的用法，與本句語境不同。",
+        "just-mcq-08": "「某件事情在很短時間之前發生」是「just — recently」的用法，與本句語境不同。",
+        "just-mcq-12": "「數量／程度正好足夠，但沒有多餘」是「just enough」的用法，與本句語境不同。",
+        "just-mcq-07": "「完全按照某方式；或正好在某事件發生時」是「just as」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-10"
     },
     {
       "id": "just-10-1",
-      "sense": "just-10",
+      "sense": "just-mcq-10",
       "en": "Just then, someone opened the door.",
       "zh": "就在那一刻，有人打開了門。",
       "masked": "____ then, someone opened the door.",
       "options": [
-        "just-10",
-        "just-11",
-        "just-12",
-        "just-13",
-        "just-14",
-        "just-15"
+        "just-mcq-10",
+        "just-mcq-09",
+        "just-mcq-11",
+        "just-mcq-08",
+        "just-mcq-12",
+        "just-mcq-07"
       ],
-      "explanation": "留意語境：just then（就在那時）。這裡指「就在那一刻」。",
+      "explanation": "本句的「Just」指「正是在所述的那一刻」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "Just"
       ],
       "optionReasons": {
-        "just-10": "本句的意思是「就在那一刻」。",
-        "just-11": "「剛好；勉強」與本句語境不同。",
-        "just-12": "「剛好夠」與本句語境不同。",
-        "just-13": "「剛好趕上；及時」與本句語境不同。",
-        "just-14": "「幾乎；差不多」與本句語境不同。",
-        "just-15": "「簡直；就是」與本句語境不同。"
-      }
+        "just-mcq-10": "本句指「正是在所述的那一刻」。",
+        "just-mcq-09": "「在很短時間之前；剛才」是「just now」的用法，與本句語境不同。",
+        "just-mcq-11": "「僅僅達到最低程度，或非常接近錯過／失敗」是「just — barely」的用法，與本句語境不同。",
+        "just-mcq-08": "「某件事情在很短時間之前發生」是「just — recently」的用法，與本句語境不同。",
+        "just-mcq-12": "「數量／程度正好足夠，但沒有多餘」是「just enough」的用法，與本句語境不同。",
+        "just-mcq-07": "「完全按照某方式；或正好在某事件發生時」是「just as」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-10"
     },
     {
       "id": "just-11-0",
-      "sense": "just-11",
+      "sense": "just-mcq-11",
       "en": "I just passed the exam.",
       "zh": "我勉強及格。",
       "masked": "I ____ the exam.",
       "options": [
-        "just-11",
-        "just-12",
-        "just-13",
-        "just-14",
-        "just-15",
-        "just-16"
+        "just-mcq-11",
+        "just-mcq-10",
+        "just-mcq-12",
+        "just-mcq-09",
+        "just-mcq-13",
+        "just-mcq-08"
       ],
-      "explanation": "留意語境：just = barely / narrowly（勉強；差一點）。這裡指「剛好；勉強」。",
+      "explanation": "本句的「just passed」指「僅僅達到最低程度，或非常接近錯過／失敗」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "just passed"
       ],
       "optionReasons": {
-        "just-11": "本句的意思是「剛好；勉強」。",
-        "just-12": "「剛好夠」與本句語境不同。",
-        "just-13": "「剛好趕上；及時」與本句語境不同。",
-        "just-14": "「幾乎；差不多」與本句語境不同。",
-        "just-15": "「簡直；就是」與本句語境不同。",
-        "just-16": "「實在；真的」與本句語境不同。"
-      }
+        "just-mcq-11": "本句指「僅僅達到最低程度，或非常接近錯過／失敗」。",
+        "just-mcq-10": "「正是在所述的那一刻」是「just then」的用法，與本句語境不同。",
+        "just-mcq-12": "「數量／程度正好足夠，但沒有多餘」是「just enough」的用法，與本句語境不同。",
+        "just-mcq-09": "「在很短時間之前；剛才」是「just now」的用法，與本句語境不同。",
+        "just-mcq-13": "「在最後可接受的時刻之前到達／完成」是「just in time」的用法，與本句語境不同。",
+        "just-mcq-08": "「某件事情在很短時間之前發生」是「just — recently」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-11"
     },
     {
       "id": "just-11-1",
-      "sense": "just-11",
+      "sense": "just-mcq-11",
       "en": "We just caught the train.",
       "zh": "我們剛好趕上火車。",
       "masked": "We ____ the train.",
       "options": [
-        "just-11",
-        "just-12",
-        "just-13",
-        "just-14",
-        "just-15",
-        "just-16"
+        "just-mcq-11",
+        "just-mcq-10",
+        "just-mcq-12",
+        "just-mcq-09",
+        "just-mcq-13",
+        "just-mcq-08"
       ],
-      "explanation": "留意語境：just = barely / narrowly（勉強；差一點）。這裡指「剛好；勉強」。",
+      "explanation": "本句的「just caught」指「僅僅達到最低程度，或非常接近錯過／失敗」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "just caught"
       ],
       "optionReasons": {
-        "just-11": "本句的意思是「剛好；勉強」。",
-        "just-12": "「剛好夠」與本句語境不同。",
-        "just-13": "「剛好趕上；及時」與本句語境不同。",
-        "just-14": "「幾乎；差不多」與本句語境不同。",
-        "just-15": "「簡直；就是」與本句語境不同。",
-        "just-16": "「實在；真的」與本句語境不同。"
-      }
+        "just-mcq-11": "本句指「僅僅達到最低程度，或非常接近錯過／失敗」。",
+        "just-mcq-10": "「正是在所述的那一刻」是「just then」的用法，與本句語境不同。",
+        "just-mcq-12": "「數量／程度正好足夠，但沒有多餘」是「just enough」的用法，與本句語境不同。",
+        "just-mcq-09": "「在很短時間之前；剛才」是「just now」的用法，與本句語境不同。",
+        "just-mcq-13": "「在最後可接受的時刻之前到達／完成」是「just in time」的用法，與本句語境不同。",
+        "just-mcq-08": "「某件事情在很短時間之前發生」是「just — recently」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-11"
     },
     {
       "id": "just-12-0",
-      "sense": "just-12",
+      "sense": "just-mcq-12",
       "en": "We have just enough time.",
       "zh": "我們的時間剛剛好夠。",
       "masked": "We have ____.",
       "options": [
-        "just-12",
-        "just-13",
-        "just-14",
-        "just-15",
-        "just-16",
-        "just-17"
+        "just-mcq-12",
+        "just-mcq-11",
+        "just-mcq-13",
+        "just-mcq-10",
+        "just-mcq-14",
+        "just-mcq-09"
       ],
-      "explanation": "留意語境：just enough（剛剛足夠）。這裡指「剛好夠」。",
+      "explanation": "本句的「just enough time」指「數量／程度正好足夠，但沒有多餘」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "just enough time"
       ],
       "optionReasons": {
-        "just-12": "本句的意思是「剛好夠」。",
-        "just-13": "「剛好趕上；及時」與本句語境不同。",
-        "just-14": "「幾乎；差不多」與本句語境不同。",
-        "just-15": "「簡直；就是」與本句語境不同。",
-        "just-16": "「實在；真的」與本句語境不同。",
-        "just-17": "「語氣緩和」與本句語境不同。"
-      }
+        "just-mcq-12": "本句指「數量／程度正好足夠，但沒有多餘」。",
+        "just-mcq-11": "「僅僅達到最低程度，或非常接近錯過／失敗」是「just — barely」的用法，與本句語境不同。",
+        "just-mcq-13": "「在最後可接受的時刻之前到達／完成」是「just in time」的用法，與本句語境不同。",
+        "just-mcq-10": "「正是在所述的那一刻」是「just then」的用法，與本句語境不同。",
+        "just-mcq-14": "「幾乎／差不多達到某狀態」是「just about」的用法，與本句語境不同。",
+        "just-mcq-09": "「在很短時間之前；剛才」是「just now」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-12"
     },
     {
       "id": "just-12-1",
-      "sense": "just-12",
+      "sense": "just-mcq-12",
       "en": "There is just enough food for everyone.",
       "zh": "食物剛好夠所有人吃。",
       "masked": "There is ____ enough food for everyone.",
       "options": [
-        "just-12",
-        "just-13",
-        "just-14",
-        "just-15",
-        "just-16",
-        "just-17"
+        "just-mcq-12",
+        "just-mcq-11",
+        "just-mcq-13",
+        "just-mcq-10",
+        "just-mcq-14",
+        "just-mcq-09"
       ],
-      "explanation": "留意語境：just enough（剛剛足夠）。這裡指「剛好夠」。",
+      "explanation": "本句的「just」指「數量／程度正好足夠，但沒有多餘」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "just"
       ],
       "optionReasons": {
-        "just-12": "本句的意思是「剛好夠」。",
-        "just-13": "「剛好趕上；及時」與本句語境不同。",
-        "just-14": "「幾乎；差不多」與本句語境不同。",
-        "just-15": "「簡直；就是」與本句語境不同。",
-        "just-16": "「實在；真的」與本句語境不同。",
-        "just-17": "「語氣緩和」與本句語境不同。"
-      }
+        "just-mcq-12": "本句指「數量／程度正好足夠，但沒有多餘」。",
+        "just-mcq-11": "「僅僅達到最低程度，或非常接近錯過／失敗」是「just — barely」的用法，與本句語境不同。",
+        "just-mcq-13": "「在最後可接受的時刻之前到達／完成」是「just in time」的用法，與本句語境不同。",
+        "just-mcq-10": "「正是在所述的那一刻」是「just then」的用法，與本句語境不同。",
+        "just-mcq-14": "「幾乎／差不多達到某狀態」是「just about」的用法，與本句語境不同。",
+        "just-mcq-09": "「在很短時間之前；剛才」是「just now」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-12"
     },
     {
       "id": "just-13-0",
-      "sense": "just-13",
+      "sense": "just-mcq-13",
       "en": "We arrived just in time.",
       "zh": "我們剛好及時趕到。",
       "masked": "We arrived ____.",
       "options": [
-        "just-13",
-        "just-14",
-        "just-15",
-        "just-16",
-        "just-17",
-        "just-18"
+        "just-mcq-13",
+        "just-mcq-12",
+        "just-mcq-14",
+        "just-mcq-11",
+        "just-mcq-15",
+        "just-mcq-10"
       ],
-      "explanation": "留意語境：just in time（及時趕上）。這裡指「剛好趕上；及時」。",
+      "explanation": "本句的「just in time」指「在最後可接受的時刻之前到達／完成」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "just in time"
       ],
       "optionReasons": {
-        "just-13": "本句的意思是「剛好趕上；及時」。",
-        "just-14": "「幾乎；差不多」與本句語境不同。",
-        "just-15": "「簡直；就是」與本句語境不同。",
-        "just-16": "「實在；真的」與本句語境不同。",
-        "just-17": "「語氣緩和」與本句語境不同。",
-        "just-18": "「就；馬上」與本句語境不同。"
-      }
+        "just-mcq-13": "本句指「在最後可接受的時刻之前到達／完成」。",
+        "just-mcq-12": "「數量／程度正好足夠，但沒有多餘」是「just enough」的用法，與本句語境不同。",
+        "just-mcq-14": "「幾乎／差不多達到某狀態」是「just about」的用法，與本句語境不同。",
+        "just-mcq-11": "「僅僅達到最低程度，或非常接近錯過／失敗」是「just — barely」的用法，與本句語境不同。",
+        "just-mcq-15": "「加強情緒、評價或肯定語氣；真的／簡直」是「just — emphasis」的用法，與本句語境不同。",
+        "just-mcq-10": "「正是在所述的那一刻」是「just then」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-13"
     },
     {
       "id": "just-13-1",
-      "sense": "just-13",
+      "sense": "just-mcq-13",
       "en": "She reached the station just in time for the train.",
       "zh": "她剛好趕上那班火車。",
       "masked": "She reached the station ____ in time for the train.",
       "options": [
-        "just-13",
-        "just-14",
-        "just-15",
-        "just-16",
-        "just-17",
-        "just-18"
+        "just-mcq-13",
+        "just-mcq-12",
+        "just-mcq-14",
+        "just-mcq-11",
+        "just-mcq-15",
+        "just-mcq-10"
       ],
-      "explanation": "留意語境：just in time（及時趕上）。這裡指「剛好趕上；及時」。",
+      "explanation": "本句的「just」指「在最後可接受的時刻之前到達／完成」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "just"
       ],
       "optionReasons": {
-        "just-13": "本句的意思是「剛好趕上；及時」。",
-        "just-14": "「幾乎；差不多」與本句語境不同。",
-        "just-15": "「簡直；就是」與本句語境不同。",
-        "just-16": "「實在；真的」與本句語境不同。",
-        "just-17": "「語氣緩和」與本句語境不同。",
-        "just-18": "「就；馬上」與本句語境不同。"
-      }
+        "just-mcq-13": "本句指「在最後可接受的時刻之前到達／完成」。",
+        "just-mcq-12": "「數量／程度正好足夠，但沒有多餘」是「just enough」的用法，與本句語境不同。",
+        "just-mcq-14": "「幾乎／差不多達到某狀態」是「just about」的用法，與本句語境不同。",
+        "just-mcq-11": "「僅僅達到最低程度，或非常接近錯過／失敗」是「just — barely」的用法，與本句語境不同。",
+        "just-mcq-15": "「加強情緒、評價或肯定語氣；真的／簡直」是「just — emphasis」的用法，與本句語境不同。",
+        "just-mcq-10": "「正是在所述的那一刻」是「just then」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-13"
     },
     {
       "id": "just-14-0",
-      "sense": "just-14",
+      "sense": "just-mcq-14",
       "en": "I’m just about ready.",
       "zh": "我差不多準備好了。",
       "masked": "I’m ____.",
       "options": [
-        "just-14",
-        "just-15",
-        "just-16",
-        "just-17",
-        "just-18",
-        "just-19"
+        "just-mcq-14",
+        "just-mcq-13",
+        "just-mcq-15",
+        "just-mcq-12",
+        "just-mcq-16",
+        "just-mcq-11"
       ],
-      "explanation": "留意語境：just about（差不多；幾乎）。這裡指「幾乎；差不多」。",
+      "explanation": "本句的「just about ready」指「幾乎／差不多達到某狀態」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "just about ready"
       ],
       "optionReasons": {
-        "just-14": "本句的意思是「幾乎；差不多」。",
-        "just-15": "「簡直；就是」與本句語境不同。",
-        "just-16": "「實在；真的」與本句語境不同。",
-        "just-17": "「語氣緩和」與本句語境不同。",
-        "just-18": "「就；馬上」與本句語境不同。",
-        "just-19": "「公平的；公正的」與本句語境不同。"
-      }
+        "just-mcq-14": "本句指「幾乎／差不多達到某狀態」。",
+        "just-mcq-13": "「在最後可接受的時刻之前到達／完成」是「just in time」的用法，與本句語境不同。",
+        "just-mcq-15": "「加強情緒、評價或肯定語氣；真的／簡直」是「just — emphasis」的用法，與本句語境不同。",
+        "just-mcq-12": "「數量／程度正好足夠，但沒有多餘」是「just enough」的用法，與本句語境不同。",
+        "just-mcq-16": "「在請求、說明中令語氣較柔和、較不強硬」是「just — softener」的用法，與本句語境不同。",
+        "just-mcq-11": "「僅僅達到最低程度，或非常接近錯過／失敗」是「just — barely」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-14"
     },
     {
       "id": "just-14-1",
-      "sense": "just-14",
+      "sense": "just-mcq-14",
       "en": "We’ve just about finished.",
       "zh": "我們差不多完成了。",
       "masked": "We’ve ____ about finished.",
       "options": [
-        "just-14",
-        "just-15",
-        "just-16",
-        "just-17",
-        "just-18",
-        "just-19"
+        "just-mcq-14",
+        "just-mcq-13",
+        "just-mcq-15",
+        "just-mcq-12",
+        "just-mcq-16",
+        "just-mcq-11"
       ],
-      "explanation": "留意語境：just about（差不多；幾乎）。這裡指「幾乎；差不多」。",
+      "explanation": "本句的「just」指「幾乎／差不多達到某狀態」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "just"
       ],
       "optionReasons": {
-        "just-14": "本句的意思是「幾乎；差不多」。",
-        "just-15": "「簡直；就是」與本句語境不同。",
-        "just-16": "「實在；真的」與本句語境不同。",
-        "just-17": "「語氣緩和」與本句語境不同。",
-        "just-18": "「就；馬上」與本句語境不同。",
-        "just-19": "「公平的；公正的」與本句語境不同。"
-      }
+        "just-mcq-14": "本句指「幾乎／差不多達到某狀態」。",
+        "just-mcq-13": "「在最後可接受的時刻之前到達／完成」是「just in time」的用法，與本句語境不同。",
+        "just-mcq-15": "「加強情緒、評價或肯定語氣；真的／簡直」是「just — emphasis」的用法，與本句語境不同。",
+        "just-mcq-12": "「數量／程度正好足夠，但沒有多餘」是「just enough」的用法，與本句語境不同。",
+        "just-mcq-16": "「在請求、說明中令語氣較柔和、較不強硬」是「just — softener」的用法，與本句語境不同。",
+        "just-mcq-11": "「僅僅達到最低程度，或非常接近錯過／失敗」是「just — barely」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-14"
     },
     {
       "id": "just-15-0",
-      "sense": "just-15",
+      "sense": "just-mcq-15",
       "en": "That’s just amazing.",
       "zh": "那簡直太驚人了。",
       "masked": "That’s ____.",
       "options": [
-        "just-15",
-        "just-16",
-        "just-17",
-        "just-18",
-        "just-19",
-        "just-20"
+        "just-mcq-15",
+        "just-mcq-14",
+        "just-mcq-16",
+        "just-mcq-13",
+        "just-mcq-17",
+        "just-mcq-12"
       ],
-      "explanation": "留意語境：just = simply / really, for emphasis（簡直；真的）。這裡指「簡直；就是」。",
+      "explanation": "本句的「just amazing」指「加強情緒、評價或肯定語氣；真的／簡直」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "just amazing"
       ],
       "optionReasons": {
-        "just-15": "本句的意思是「簡直；就是」。",
-        "just-16": "「實在；真的」與本句語境不同。",
-        "just-17": "「語氣緩和」與本句語境不同。",
-        "just-18": "「就；馬上」與本句語境不同。",
-        "just-19": "「公平的；公正的」與本句語境不同。",
-        "just-20": "「應得而公平」與本句語境不同。"
-      }
+        "just-mcq-15": "本句指「加強情緒、評價或肯定語氣；真的／簡直」。",
+        "just-mcq-14": "「幾乎／差不多達到某狀態」是「just about」的用法，與本句語境不同。",
+        "just-mcq-16": "「在請求、說明中令語氣較柔和、較不強硬」是「just — softener」的用法，與本句語境不同。",
+        "just-mcq-13": "「在最後可接受的時刻之前到達／完成」是「just in time」的用法，與本句語境不同。",
+        "just-mcq-17": "「符合公平、正義和道德原則的」是「just — fair」的用法，與本句語境不同。",
+        "just-mcq-12": "「數量／程度正好足夠，但沒有多餘」是「just enough」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-15"
     },
     {
       "id": "just-15-1",
-      "sense": "just-15",
+      "sense": "just-mcq-15",
       "en": "I just love this place.",
       "zh": "我真的很喜歡這個地方。",
       "masked": "I ____ love this place.",
       "options": [
-        "just-15",
-        "just-16",
-        "just-17",
-        "just-18",
-        "just-19",
-        "just-20"
+        "just-mcq-15",
+        "just-mcq-14",
+        "just-mcq-16",
+        "just-mcq-13",
+        "just-mcq-17",
+        "just-mcq-12"
       ],
-      "explanation": "留意語境：just = simply / really, for emphasis（簡直；真的）。這裡指「簡直；就是」。",
+      "explanation": "本句的「just」指「加強情緒、評價或肯定語氣；真的／簡直」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "just"
       ],
       "optionReasons": {
-        "just-15": "本句的意思是「簡直；就是」。",
-        "just-16": "「實在；真的」與本句語境不同。",
-        "just-17": "「語氣緩和」與本句語境不同。",
-        "just-18": "「就；馬上」與本句語境不同。",
-        "just-19": "「公平的；公正的」與本句語境不同。",
-        "just-20": "「應得而公平」與本句語境不同。"
-      }
+        "just-mcq-15": "本句指「加強情緒、評價或肯定語氣；真的／簡直」。",
+        "just-mcq-14": "「幾乎／差不多達到某狀態」是「just about」的用法，與本句語境不同。",
+        "just-mcq-16": "「在請求、說明中令語氣較柔和、較不強硬」是「just — softener」的用法，與本句語境不同。",
+        "just-mcq-13": "「在最後可接受的時刻之前到達／完成」是「just in time」的用法，與本句語境不同。",
+        "just-mcq-17": "「符合公平、正義和道德原則的」是「just — fair」的用法，與本句語境不同。",
+        "just-mcq-12": "「數量／程度正好足夠，但沒有多餘」是「just enough」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-15"
     },
     {
       "id": "just-16-0",
-      "sense": "just-16",
+      "sense": "just-mcq-24",
       "en": "I just don’t know what to say.",
       "zh": "我真的不知道該說甚麼。",
       "masked": "I ____ what to say.",
       "options": [
-        "just-16",
-        "just-17",
-        "just-18",
-        "just-19",
-        "just-20",
-        "just-21"
+        "just-mcq-24",
+        "just-mcq-23",
+        "just-mcq-25",
+        "just-mcq-22",
+        "just-mcq-26",
+        "just-mcq-21"
       ],
-      "explanation": "留意語境：I just don’t know（就是不知道）。這裡指「實在；真的」。",
+      "explanation": "本句的「just don’t know」指「加強說話者的無奈、驚訝、肯定等情緒」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "just don’t know"
       ],
       "optionReasons": {
-        "just-16": "本句的意思是「實在；真的」。",
-        "just-17": "「語氣緩和」與本句語境不同。",
-        "just-18": "「就；馬上」與本句語境不同。",
-        "just-19": "「公平的；公正的」與本句語境不同。",
-        "just-20": "「應得而公平」與本句語境不同。",
-        "just-21": "「正義；公正；司法」與本句語境不同。"
-      }
+        "just-mcq-24": "本句指「加強說話者的無奈、驚訝、肯定等情緒」。",
+        "just-mcq-23": "「以公平、合理或應得的方式」是「justly」的用法，與本句語境不同。",
+        "just-mcq-25": "「常用來令指示顯得簡單直接，有時也可柔化或加強語氣」是「18. just = immediately / right now in commands（現在就） — 就；馬上」的用法，與本句語境不同。",
+        "just-mcq-22": "「用來證明某行動、決定或信念合理的理由／依據」是「justification」的用法，與本句語境不同。",
+        "just-mcq-26": "「結果／待遇與行為、權利或情況相稱而公平」是「20. just punishment/reward（公正的處罰／回報） — 應得而公平」的用法，與本句語境不同。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-24"
     },
     {
       "id": "just-16-1",
-      "sense": "just-16",
+      "sense": "just-mcq-24",
       "en": "I just can’t believe it.",
       "zh": "我實在無法相信。",
       "masked": "I ____ can’t believe it.",
       "options": [
-        "just-16",
-        "just-17",
-        "just-18",
-        "just-19",
-        "just-20",
-        "just-21"
+        "just-mcq-24",
+        "just-mcq-23",
+        "just-mcq-25",
+        "just-mcq-22",
+        "just-mcq-26",
+        "just-mcq-21"
       ],
-      "explanation": "留意語境：I just don’t know（就是不知道）。這裡指「實在；真的」。",
+      "explanation": "本句的「just」指「加強說話者的無奈、驚訝、肯定等情緒」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "just"
       ],
       "optionReasons": {
-        "just-16": "本句的意思是「實在；真的」。",
-        "just-17": "「語氣緩和」與本句語境不同。",
-        "just-18": "「就；馬上」與本句語境不同。",
-        "just-19": "「公平的；公正的」與本句語境不同。",
-        "just-20": "「應得而公平」與本句語境不同。",
-        "just-21": "「正義；公正；司法」與本句語境不同。"
-      }
+        "just-mcq-24": "本句指「加強說話者的無奈、驚訝、肯定等情緒」。",
+        "just-mcq-23": "「以公平、合理或應得的方式」是「justly」的用法，與本句語境不同。",
+        "just-mcq-25": "「常用來令指示顯得簡單直接，有時也可柔化或加強語氣」是「18. just = immediately / right now in commands（現在就） — 就；馬上」的用法，與本句語境不同。",
+        "just-mcq-22": "「用來證明某行動、決定或信念合理的理由／依據」是「justification」的用法，與本句語境不同。",
+        "just-mcq-26": "「結果／待遇與行為、權利或情況相稱而公平」是「20. just punishment/reward（公正的處罰／回報） — 應得而公平」的用法，與本句語境不同。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-24"
     },
     {
       "id": "just-17-0",
-      "sense": "just-17",
+      "sense": "just-mcq-16",
       "en": "I just wanted to ask a question.",
       "zh": "我只是想問一個問題。",
       "masked": "I ____ a question.",
       "options": [
-        "just-17",
-        "just-18",
-        "just-19",
-        "just-20",
-        "just-21",
-        "just-22"
+        "just-mcq-16",
+        "just-mcq-15",
+        "just-mcq-17",
+        "just-mcq-14",
+        "just-mcq-18",
+        "just-mcq-13"
       ],
-      "explanation": "留意語境：just = simply for politeness/softening（只是想……）。這裡指「語氣緩和」。",
+      "explanation": "本句的「just wanted to ask」指「在請求、說明中令語氣較柔和、較不強硬」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "just wanted to ask"
       ],
       "optionReasons": {
-        "just-17": "本句的意思是「語氣緩和」。",
-        "just-18": "「就；馬上」與本句語境不同。",
-        "just-19": "「公平的；公正的」與本句語境不同。",
-        "just-20": "「應得而公平」與本句語境不同。",
-        "just-21": "「正義；公正；司法」與本句語境不同。",
-        "just-22": "「充分表現；不辜負」與本句語境不同。"
-      }
+        "just-mcq-16": "本句指「在請求、說明中令語氣較柔和、較不強硬」。",
+        "just-mcq-15": "「加強情緒、評價或肯定語氣；真的／簡直」是「just — emphasis」的用法，與本句語境不同。",
+        "just-mcq-17": "「符合公平、正義和道德原則的」是「just — fair」的用法，與本句語境不同。",
+        "just-mcq-14": "「幾乎／差不多達到某狀態」是「just about」的用法，與本句語境不同。",
+        "just-mcq-18": "「公平正義的原則；亦可指司法制度」是「justice」的用法，與本句語境不同。",
+        "just-mcq-13": "「在最後可接受的時刻之前到達／完成」是「just in time」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-16"
     },
     {
       "id": "just-17-1",
-      "sense": "just-17",
+      "sense": "just-mcq-16",
       "en": "I’m just checking whether you received the message.",
       "zh": "我只是想確認你有沒有收到訊息。",
       "masked": "I’m ____ checking whether you received the message.",
       "options": [
-        "just-17",
-        "just-18",
-        "just-19",
-        "just-20",
-        "just-21",
-        "just-22"
+        "just-mcq-16",
+        "just-mcq-15",
+        "just-mcq-17",
+        "just-mcq-14",
+        "just-mcq-18",
+        "just-mcq-13"
       ],
-      "explanation": "留意語境：just = simply for politeness/softening（只是想……）。這裡指「語氣緩和」。",
+      "explanation": "本句的「just」指「在請求、說明中令語氣較柔和、較不強硬」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "just"
       ],
       "optionReasons": {
-        "just-17": "本句的意思是「語氣緩和」。",
-        "just-18": "「就；馬上」與本句語境不同。",
-        "just-19": "「公平的；公正的」與本句語境不同。",
-        "just-20": "「應得而公平」與本句語境不同。",
-        "just-21": "「正義；公正；司法」與本句語境不同。",
-        "just-22": "「充分表現；不辜負」與本句語境不同。"
-      }
+        "just-mcq-16": "本句指「在請求、說明中令語氣較柔和、較不強硬」。",
+        "just-mcq-15": "「加強情緒、評價或肯定語氣；真的／簡直」是「just — emphasis」的用法，與本句語境不同。",
+        "just-mcq-17": "「符合公平、正義和道德原則的」是「just — fair」的用法，與本句語境不同。",
+        "just-mcq-14": "「幾乎／差不多達到某狀態」是「just about」的用法，與本句語境不同。",
+        "just-mcq-18": "「公平正義的原則；亦可指司法制度」是「justice」的用法，與本句語境不同。",
+        "just-mcq-13": "「在最後可接受的時刻之前到達／完成」是「just in time」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-16"
     },
     {
       "id": "just-18-0",
-      "sense": "just-18",
+      "sense": "just-mcq-25",
       "en": "Just wait here.",
       "zh": "你就在這裡等。",
       "masked": "____ here.",
       "options": [
-        "just-18",
-        "just-19",
-        "just-20",
-        "just-21",
-        "just-22",
-        "just-23"
+        "just-mcq-25",
+        "just-mcq-24",
+        "just-mcq-26",
+        "just-mcq-23",
+        "just-mcq-22",
+        "just-mcq-21"
       ],
-      "explanation": "留意語境：just = immediately / right now in commands（現在就）。這裡指「就；馬上」。",
+      "explanation": "本句的「Just wait」指「常用來令指示顯得簡單直接，有時也可柔化或加強語氣」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "Just wait"
       ],
       "optionReasons": {
-        "just-18": "本句的意思是「就；馬上」。",
-        "just-19": "「公平的；公正的」與本句語境不同。",
-        "just-20": "「應得而公平」與本句語境不同。",
-        "just-21": "「正義；公正；司法」與本句語境不同。",
-        "just-22": "「充分表現；不辜負」與本句語境不同。",
-        "just-23": "「證明合理；為……辯解」與本句語境不同。"
-      }
+        "just-mcq-25": "本句指「常用來令指示顯得簡單直接，有時也可柔化或加強語氣」。",
+        "just-mcq-24": "「加強說話者的無奈、驚訝、肯定等情緒」是「16. I just don’t know（就是不知道） — 實在；真的」的用法，與本句語境不同。",
+        "just-mcq-26": "「結果／待遇與行為、權利或情況相稱而公平」是「20. just punishment/reward（公正的處罰／回報） — 應得而公平」的用法，與本句語境不同。",
+        "just-mcq-23": "「以公平、合理或應得的方式」是「justly」的用法，與本句語境不同。",
+        "just-mcq-22": "「用來證明某行動、決定或信念合理的理由／依據」是「justification」的用法，與本句語境不同。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-25"
     },
     {
       "id": "just-18-1",
-      "sense": "just-18",
+      "sense": "just-mcq-25",
       "en": "Just listen for a moment.",
       "zh": "你先聽一下。",
       "masked": "____ listen for a moment.",
       "options": [
-        "just-18",
-        "just-19",
-        "just-20",
-        "just-21",
-        "just-22",
-        "just-23"
+        "just-mcq-25",
+        "just-mcq-24",
+        "just-mcq-26",
+        "just-mcq-23",
+        "just-mcq-22",
+        "just-mcq-21"
       ],
-      "explanation": "留意語境：just = immediately / right now in commands（現在就）。這裡指「就；馬上」。",
+      "explanation": "本句的「Just」指「常用來令指示顯得簡單直接，有時也可柔化或加強語氣」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "Just"
       ],
       "optionReasons": {
-        "just-18": "本句的意思是「就；馬上」。",
-        "just-19": "「公平的；公正的」與本句語境不同。",
-        "just-20": "「應得而公平」與本句語境不同。",
-        "just-21": "「正義；公正；司法」與本句語境不同。",
-        "just-22": "「充分表現；不辜負」與本句語境不同。",
-        "just-23": "「證明合理；為……辯解」與本句語境不同。"
-      }
+        "just-mcq-25": "本句指「常用來令指示顯得簡單直接，有時也可柔化或加強語氣」。",
+        "just-mcq-24": "「加強說話者的無奈、驚訝、肯定等情緒」是「16. I just don’t know（就是不知道） — 實在；真的」的用法，與本句語境不同。",
+        "just-mcq-26": "「結果／待遇與行為、權利或情況相稱而公平」是「20. just punishment/reward（公正的處罰／回報） — 應得而公平」的用法，與本句語境不同。",
+        "just-mcq-23": "「以公平、合理或應得的方式」是「justly」的用法，與本句語境不同。",
+        "just-mcq-22": "「用來證明某行動、決定或信念合理的理由／依據」是「justification」的用法，與本句語境不同。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-25"
     },
     {
       "id": "just-19-0",
-      "sense": "just-19",
+      "sense": "just-mcq-17",
       "en": "We need a just decision.",
       "zh": "我們需要一個公正的決定。",
       "masked": "We need a ____.",
       "options": [
-        "just-19",
-        "just-20",
-        "just-21",
-        "just-22",
-        "just-23",
-        "just-24"
+        "just-mcq-17",
+        "just-mcq-16",
+        "just-mcq-18",
+        "just-mcq-15",
+        "just-mcq-19",
+        "just-mcq-14"
       ],
-      "explanation": "留意語境：just = adjective: fair（公正的）。這裡指「公平的；公正的」。",
+      "explanation": "本句的「just decision」指「符合公平、正義和道德原則的」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "just decision"
       ],
       "optionReasons": {
-        "just-19": "本句的意思是「公平的；公正的」。",
-        "just-20": "「應得而公平」與本句語境不同。",
-        "just-21": "「正義；公正；司法」與本句語境不同。",
-        "just-22": "「充分表現；不辜負」與本句語境不同。",
-        "just-23": "「證明合理；為……辯解」與本句語境不同。",
-        "just-24": "「證明有理」與本句語境不同。"
-      }
+        "just-mcq-17": "本句指「符合公平、正義和道德原則的」。",
+        "just-mcq-16": "「在請求、說明中令語氣較柔和、較不強硬」是「just — softener」的用法，與本句語境不同。",
+        "just-mcq-18": "「公平正義的原則；亦可指司法制度」是「justice」的用法，與本句語境不同。",
+        "just-mcq-15": "「加強情緒、評價或肯定語氣；真的／簡直」是「just — emphasis」的用法，與本句語境不同。",
+        "just-mcq-19": "「充分、公平地展現某人／某物真正的價值或品質」是「do justice to」的用法，與本句語境不同。",
+        "just-mcq-14": "「幾乎／差不多達到某狀態」是「just about」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-17"
     },
     {
       "id": "just-19-1",
-      "sense": "just-19",
+      "sense": "just-mcq-17",
       "en": "Everyone deserves a just system.",
       "zh": "每個人都應該享有一個公平公正的制度。",
       "masked": "Everyone deserves a ____ system.",
       "options": [
-        "just-19",
-        "just-20",
-        "just-21",
-        "just-22",
-        "just-23",
-        "just-24"
+        "just-mcq-17",
+        "just-mcq-16",
+        "just-mcq-18",
+        "just-mcq-15",
+        "just-mcq-19",
+        "just-mcq-14"
       ],
-      "explanation": "留意語境：just = adjective: fair（公正的）。這裡指「公平的；公正的」。",
+      "explanation": "本句的「just」指「符合公平、正義和道德原則的」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "just"
       ],
       "optionReasons": {
-        "just-19": "本句的意思是「公平的；公正的」。",
-        "just-20": "「應得而公平」與本句語境不同。",
-        "just-21": "「正義；公正；司法」與本句語境不同。",
-        "just-22": "「充分表現；不辜負」與本句語境不同。",
-        "just-23": "「證明合理；為……辯解」與本句語境不同。",
-        "just-24": "「證明有理」與本句語境不同。"
-      }
+        "just-mcq-17": "本句指「符合公平、正義和道德原則的」。",
+        "just-mcq-16": "「在請求、說明中令語氣較柔和、較不強硬」是「just — softener」的用法，與本句語境不同。",
+        "just-mcq-18": "「公平正義的原則；亦可指司法制度」是「justice」的用法，與本句語境不同。",
+        "just-mcq-15": "「加強情緒、評價或肯定語氣；真的／簡直」是「just — emphasis」的用法，與本句語境不同。",
+        "just-mcq-19": "「充分、公平地展現某人／某物真正的價值或品質」是「do justice to」的用法，與本句語境不同。",
+        "just-mcq-14": "「幾乎／差不多達到某狀態」是「just about」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-17"
     },
     {
       "id": "just-20-0",
-      "sense": "just-20",
+      "sense": "just-mcq-26",
       "en": "The court must impose a just punishment.",
       "zh": "法院必須作出公正適當的處罰。",
       "masked": "The court must impose a ____.",
       "options": [
-        "just-20",
-        "just-21",
-        "just-22",
-        "just-23",
-        "just-24",
-        "just-25"
+        "just-mcq-26",
+        "just-mcq-25",
+        "just-mcq-24",
+        "just-mcq-23",
+        "just-mcq-22",
+        "just-mcq-21"
       ],
-      "explanation": "留意語境：just punishment/reward（公正的處罰／回報）。這裡指「應得而公平」。",
+      "explanation": "本句的「just punishment」指「結果／待遇與行為、權利或情況相稱而公平」。",
       "sentenceIndex": 39,
       "sourcePractice": 40,
       "targets": [
         "just punishment"
       ],
       "optionReasons": {
-        "just-20": "本句的意思是「應得而公平」。",
-        "just-21": "「正義；公正；司法」與本句語境不同。",
-        "just-22": "「充分表現；不辜負」與本句語境不同。",
-        "just-23": "「證明合理；為……辯解」與本句語境不同。",
-        "just-24": "「證明有理」與本句語境不同。",
-        "just-25": "「合理的；有正當理由的」與本句語境不同。"
-      }
+        "just-mcq-26": "本句指「結果／待遇與行為、權利或情況相稱而公平」。",
+        "just-mcq-25": "「常用來令指示顯得簡單直接，有時也可柔化或加強語氣」是「18. just = immediately / right now in commands（現在就） — 就；馬上」的用法，與本句語境不同。",
+        "just-mcq-24": "「加強說話者的無奈、驚訝、肯定等情緒」是「16. I just don’t know（就是不知道） — 實在；真的」的用法，與本句語境不同。",
+        "just-mcq-23": "「以公平、合理或應得的方式」是「justly」的用法，與本句語境不同。",
+        "just-mcq-22": "「用來證明某行動、決定或信念合理的理由／依據」是「justification」的用法，與本句語境不同。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-26"
     },
     {
       "id": "just-20-1",
-      "sense": "just-20",
+      "sense": "just-mcq-26",
       "en": "They wanted a just outcome.",
       "zh": "他們希望得到一個公平合理的結果。",
       "masked": "They wanted a ____ outcome.",
       "options": [
-        "just-20",
-        "just-21",
-        "just-22",
-        "just-23",
-        "just-24",
-        "just-25"
+        "just-mcq-26",
+        "just-mcq-25",
+        "just-mcq-24",
+        "just-mcq-23",
+        "just-mcq-22",
+        "just-mcq-21"
       ],
-      "explanation": "留意語境：just punishment/reward（公正的處罰／回報）。這裡指「應得而公平」。",
+      "explanation": "本句的「just」指「結果／待遇與行為、權利或情況相稱而公平」。",
       "sentenceIndex": 40,
       "sourcePractice": 41,
       "targets": [
         "just"
       ],
       "optionReasons": {
-        "just-20": "本句的意思是「應得而公平」。",
-        "just-21": "「正義；公正；司法」與本句語境不同。",
-        "just-22": "「充分表現；不辜負」與本句語境不同。",
-        "just-23": "「證明合理；為……辯解」與本句語境不同。",
-        "just-24": "「證明有理」與本句語境不同。",
-        "just-25": "「合理的；有正當理由的」與本句語境不同。"
-      }
+        "just-mcq-26": "本句指「結果／待遇與行為、權利或情況相稱而公平」。",
+        "just-mcq-25": "「常用來令指示顯得簡單直接，有時也可柔化或加強語氣」是「18. just = immediately / right now in commands（現在就） — 就；馬上」的用法，與本句語境不同。",
+        "just-mcq-24": "「加強說話者的無奈、驚訝、肯定等情緒」是「16. I just don’t know（就是不知道） — 實在；真的」的用法，與本句語境不同。",
+        "just-mcq-23": "「以公平、合理或應得的方式」是「justly」的用法，與本句語境不同。",
+        "just-mcq-22": "「用來證明某行動、決定或信念合理的理由／依據」是「justification」的用法，與本句語境不同。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-26"
     },
     {
       "id": "just-21-0",
-      "sense": "just-21",
+      "sense": "just-mcq-18",
       "en": "They wanted justice.",
       "zh": "他們希望得到公義／公正對待。",
       "masked": "They wanted ____.",
       "options": [
-        "just-21",
-        "just-22",
-        "just-23",
-        "just-24",
-        "just-25",
-        "just-26"
+        "just-mcq-18",
+        "just-mcq-17",
+        "just-mcq-19",
+        "just-mcq-16",
+        "just-mcq-20",
+        "just-mcq-15"
       ],
-      "explanation": "留意語境：justice（正義／司法）。這裡指「正義；公正；司法」。",
+      "explanation": "本句的「justice」指「公平正義的原則；亦可指司法制度」。",
       "sentenceIndex": 41,
       "sourcePractice": 42,
       "targets": [
         "justice"
       ],
       "optionReasons": {
-        "just-21": "本句的意思是「正義；公正；司法」。",
-        "just-22": "「充分表現；不辜負」與本句語境不同。",
-        "just-23": "「證明合理；為……辯解」與本句語境不同。",
-        "just-24": "「證明有理」與本句語境不同。",
-        "just-25": "「合理的；有正當理由的」與本句語境不同。",
-        "just-26": "「理由；正當性」與本句語境不同。"
-      }
+        "just-mcq-18": "本句指「公平正義的原則；亦可指司法制度」。",
+        "just-mcq-17": "「符合公平、正義和道德原則的」是「just — fair」的用法，與本句語境不同。",
+        "just-mcq-19": "「充分、公平地展現某人／某物真正的價值或品質」是「do justice to」的用法，與本句語境不同。",
+        "just-mcq-16": "「在請求、說明中令語氣較柔和、較不強硬」是「just — softener」的用法，與本句語境不同。",
+        "just-mcq-20": "「提供足夠理由證明某事合理／正當」是「justify」的用法，與本句語境不同。",
+        "just-mcq-15": "「加強情緒、評價或肯定語氣；真的／簡直」是「just — emphasis」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-18"
     },
     {
       "id": "just-21-1",
-      "sense": "just-21",
+      "sense": "just-mcq-18",
       "en": "The justice system should treat people fairly.",
       "zh": "司法制度應公平對待人們。",
       "masked": "The ____ system should treat people fairly.",
       "options": [
-        "just-21",
-        "just-22",
-        "just-23",
-        "just-24",
-        "just-25",
-        "just-26"
+        "just-mcq-18",
+        "just-mcq-17",
+        "just-mcq-19",
+        "just-mcq-16",
+        "just-mcq-20",
+        "just-mcq-15"
       ],
-      "explanation": "留意語境：justice（正義／司法）。這裡指「正義；公正；司法」。",
+      "explanation": "本句的「justice」指「公平正義的原則；亦可指司法制度」。",
       "sentenceIndex": 42,
       "sourcePractice": 43,
       "targets": [
         "justice"
       ],
       "optionReasons": {
-        "just-21": "本句的意思是「正義；公正；司法」。",
-        "just-22": "「充分表現；不辜負」與本句語境不同。",
-        "just-23": "「證明合理；為……辯解」與本句語境不同。",
-        "just-24": "「證明有理」與本句語境不同。",
-        "just-25": "「合理的；有正當理由的」與本句語境不同。",
-        "just-26": "「理由；正當性」與本句語境不同。"
-      }
+        "just-mcq-18": "本句指「公平正義的原則；亦可指司法制度」。",
+        "just-mcq-17": "「符合公平、正義和道德原則的」是「just — fair」的用法，與本句語境不同。",
+        "just-mcq-19": "「充分、公平地展現某人／某物真正的價值或品質」是「do justice to」的用法，與本句語境不同。",
+        "just-mcq-16": "「在請求、說明中令語氣較柔和、較不強硬」是「just — softener」的用法，與本句語境不同。",
+        "just-mcq-20": "「提供足夠理由證明某事合理／正當」是「justify」的用法，與本句語境不同。",
+        "just-mcq-15": "「加強情緒、評價或肯定語氣；真的／簡直」是「just — emphasis」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-18"
     },
     {
       "id": "just-22-0",
-      "sense": "just-22",
+      "sense": "just-mcq-19",
       "en": "The photo doesn’t do justice to the view.",
       "zh": "這張照片無法充分呈現景色真正的美。",
       "masked": "The photo doesn’t ____ the view.",
       "options": [
-        "just-22",
-        "just-23",
-        "just-24",
-        "just-25",
-        "just-26",
-        "just-27"
+        "just-mcq-19",
+        "just-mcq-18",
+        "just-mcq-20",
+        "just-mcq-17",
+        "just-mcq-21",
+        "just-mcq-16"
       ],
-      "explanation": "留意語境：do justice to（充分呈現／公平評價）。這裡指「充分表現；不辜負」。",
+      "explanation": "本句的「do justice to」指「充分、公平地展現某人／某物真正的價值或品質」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "targets": [
         "do justice to"
       ],
       "optionReasons": {
-        "just-22": "本句的意思是「充分表現；不辜負」。",
-        "just-23": "「證明合理；為……辯解」與本句語境不同。",
-        "just-24": "「證明有理」與本句語境不同。",
-        "just-25": "「合理的；有正當理由的」與本句語境不同。",
-        "just-26": "「理由；正當性」與本句語境不同。",
-        "just-27": "「公平地；合理地」與本句語境不同。"
-      }
+        "just-mcq-19": "本句指「充分、公平地展現某人／某物真正的價值或品質」。",
+        "just-mcq-18": "「公平正義的原則；亦可指司法制度」是「justice」的用法，與本句語境不同。",
+        "just-mcq-20": "「提供足夠理由證明某事合理／正當」是「justify」的用法，與本句語境不同。",
+        "just-mcq-17": "「符合公平、正義和道德原則的」是「just — fair」的用法，與本句語境不同。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。",
+        "just-mcq-16": "「在請求、說明中令語氣較柔和、較不強硬」是「just — softener」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-19"
     },
     {
       "id": "just-22-1",
-      "sense": "just-22",
+      "sense": "just-mcq-19",
       "en": "A short summary cannot do justice to her life story.",
       "zh": "簡短摘要不足以充分呈現她的人生故事。",
       "masked": "A short summary cannot do ____ to her life story.",
       "options": [
-        "just-22",
-        "just-23",
-        "just-24",
-        "just-25",
-        "just-26",
-        "just-27"
+        "just-mcq-19",
+        "just-mcq-18",
+        "just-mcq-20",
+        "just-mcq-17",
+        "just-mcq-21",
+        "just-mcq-16"
       ],
-      "explanation": "留意語境：do justice to（充分呈現／公平評價）。這裡指「充分表現；不辜負」。",
+      "explanation": "本句的「justice」指「充分、公平地展現某人／某物真正的價值或品質」。",
       "sentenceIndex": 44,
       "sourcePractice": 45,
       "targets": [
         "justice"
       ],
       "optionReasons": {
-        "just-22": "本句的意思是「充分表現；不辜負」。",
-        "just-23": "「證明合理；為……辯解」與本句語境不同。",
-        "just-24": "「證明有理」與本句語境不同。",
-        "just-25": "「合理的；有正當理由的」與本句語境不同。",
-        "just-26": "「理由；正當性」與本句語境不同。",
-        "just-27": "「公平地；合理地」與本句語境不同。"
-      }
+        "just-mcq-19": "本句指「充分、公平地展現某人／某物真正的價值或品質」。",
+        "just-mcq-18": "「公平正義的原則；亦可指司法制度」是「justice」的用法，與本句語境不同。",
+        "just-mcq-20": "「提供足夠理由證明某事合理／正當」是「justify」的用法，與本句語境不同。",
+        "just-mcq-17": "「符合公平、正義和道德原則的」是「just — fair」的用法，與本句語境不同。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。",
+        "just-mcq-16": "「在請求、說明中令語氣較柔和、較不強硬」是「just — softener」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-19"
     },
     {
       "id": "just-23-0",
-      "sense": "just-23",
+      "sense": "just-mcq-20",
       "en": "Can you justify your decision?",
       "zh": "你能證明你的決定有合理理由嗎？",
       "masked": "Can you ____?",
       "options": [
-        "just-23",
-        "just-24",
-        "just-25",
-        "just-26",
-        "just-27",
-        "just-01"
+        "just-mcq-20",
+        "just-mcq-19",
+        "just-mcq-21",
+        "just-mcq-18",
+        "just-mcq-22",
+        "just-mcq-17"
       ],
-      "explanation": "留意語境：justify（證明……有道理／合理化）。這裡指「證明合理；為……辯解」。",
+      "explanation": "本句的「justify your decision」指「提供足夠理由證明某事合理／正當」。",
       "sentenceIndex": 45,
       "sourcePractice": 46,
       "targets": [
         "justify your decision"
       ],
       "optionReasons": {
-        "just-23": "本句的意思是「證明合理；為……辯解」。",
-        "just-24": "「證明有理」與本句語境不同。",
-        "just-25": "「合理的；有正當理由的」與本句語境不同。",
-        "just-26": "「理由；正當性」與本句語境不同。",
-        "just-27": "「公平地；合理地」與本句語境不同。",
-        "just-01": "「只是；僅僅」與本句語境不同。"
-      }
+        "just-mcq-20": "本句指「提供足夠理由證明某事合理／正當」。",
+        "just-mcq-19": "「充分、公平地展現某人／某物真正的價值或品質」是「do justice to」的用法，與本句語境不同。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。",
+        "just-mcq-18": "「公平正義的原則；亦可指司法制度」是「justice」的用法，與本句語境不同。",
+        "just-mcq-22": "「用來證明某行動、決定或信念合理的理由／依據」是「justification」的用法，與本句語境不同。",
+        "just-mcq-17": "「符合公平、正義和道德原則的」是「just — fair」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-20"
     },
     {
       "id": "just-23-1",
-      "sense": "just-23",
+      "sense": "just-mcq-20",
       "en": "The result does not justify the cost.",
       "zh": "這個結果不足以證明那筆成本是值得／合理的。",
       "masked": "The result does not ____ the cost.",
       "options": [
-        "just-23",
-        "just-24",
-        "just-25",
-        "just-26",
-        "just-27",
-        "just-01"
+        "just-mcq-20",
+        "just-mcq-19",
+        "just-mcq-21",
+        "just-mcq-18",
+        "just-mcq-22",
+        "just-mcq-17"
       ],
-      "explanation": "留意語境：justify（證明……有道理／合理化）。這裡指「證明合理；為……辯解」。",
+      "explanation": "本句的「justify」指「提供足夠理由證明某事合理／正當」。",
       "sentenceIndex": 46,
       "sourcePractice": 47,
       "targets": [
         "justify"
       ],
       "optionReasons": {
-        "just-23": "本句的意思是「證明合理；為……辯解」。",
-        "just-24": "「證明有理」與本句語境不同。",
-        "just-25": "「合理的；有正當理由的」與本句語境不同。",
-        "just-26": "「理由；正當性」與本句語境不同。",
-        "just-27": "「公平地；合理地」與本句語境不同。",
-        "just-01": "「只是；僅僅」與本句語境不同。"
-      }
+        "just-mcq-20": "本句指「提供足夠理由證明某事合理／正當」。",
+        "just-mcq-19": "「充分、公平地展現某人／某物真正的價值或品質」是「do justice to」的用法，與本句語境不同。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。",
+        "just-mcq-18": "「公平正義的原則；亦可指司法制度」是「justice」的用法，與本句語境不同。",
+        "just-mcq-22": "「用來證明某行動、決定或信念合理的理由／依據」是「justification」的用法，與本句語境不同。",
+        "just-mcq-17": "「符合公平、正義和道德原則的」是「just — fair」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-20"
     },
     {
       "id": "just-24-0",
-      "sense": "just-24",
+      "sense": "just-mcq-20",
       "en": "Nothing can justify treating people badly.",
       "zh": "沒有任何事情能合理化惡劣對待別人的行為。",
       "masked": "Nothing can ____.",
       "options": [
-        "just-24",
-        "just-25",
-        "just-26",
-        "just-27",
-        "just-01",
-        "just-02"
+        "just-mcq-20",
+        "just-mcq-19",
+        "just-mcq-21",
+        "just-mcq-18",
+        "just-mcq-22",
+        "just-mcq-17"
       ],
-      "explanation": "留意語境：justify doing something（為做某事提供正當理由）。這裡指「證明有理」。",
+      "explanation": "本句的「justify treating people badly」指「提供足夠理由證明某事合理／正當」。",
       "sentenceIndex": 47,
       "sourcePractice": 48,
       "targets": [
         "justify treating people badly"
       ],
       "optionReasons": {
-        "just-24": "本句的意思是「證明有理」。",
-        "just-25": "「合理的；有正當理由的」與本句語境不同。",
-        "just-26": "「理由；正當性」與本句語境不同。",
-        "just-27": "「公平地；合理地」與本句語境不同。",
-        "just-01": "「只是；僅僅」與本句語境不同。",
-        "just-02": "「不僅……還……」與本句語境不同。"
-      }
+        "just-mcq-20": "本句指「提供足夠理由證明某事合理／正當」。",
+        "just-mcq-19": "「充分、公平地展現某人／某物真正的價值或品質」是「do justice to」的用法，與本句語境不同。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。",
+        "just-mcq-18": "「公平正義的原則；亦可指司法制度」是「justice」的用法，與本句語境不同。",
+        "just-mcq-22": "「用來證明某行動、決定或信念合理的理由／依據」是「justification」的用法，與本句語境不同。",
+        "just-mcq-17": "「符合公平、正義和道德原則的」是「just — fair」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-20"
     },
     {
       "id": "just-24-1",
-      "sense": "just-24",
+      "sense": "just-mcq-20",
       "en": "The risk may justify taking extra precautions.",
       "zh": "這個風險可能足以證明採取額外預防措施是合理的。",
       "masked": "The risk may ____ taking extra precautions.",
       "options": [
-        "just-24",
-        "just-25",
-        "just-26",
-        "just-27",
-        "just-01",
-        "just-02"
+        "just-mcq-20",
+        "just-mcq-19",
+        "just-mcq-21",
+        "just-mcq-18",
+        "just-mcq-22",
+        "just-mcq-17"
       ],
-      "explanation": "留意語境：justify doing something（為做某事提供正當理由）。這裡指「證明有理」。",
+      "explanation": "本句的「justify」指「提供足夠理由證明某事合理／正當」。",
       "sentenceIndex": 48,
       "sourcePractice": 49,
       "targets": [
         "justify"
       ],
       "optionReasons": {
-        "just-24": "本句的意思是「證明有理」。",
-        "just-25": "「合理的；有正當理由的」與本句語境不同。",
-        "just-26": "「理由；正當性」與本句語境不同。",
-        "just-27": "「公平地；合理地」與本句語境不同。",
-        "just-01": "「只是；僅僅」與本句語境不同。",
-        "just-02": "「不僅……還……」與本句語境不同。"
-      }
+        "just-mcq-20": "本句指「提供足夠理由證明某事合理／正當」。",
+        "just-mcq-19": "「充分、公平地展現某人／某物真正的價值或品質」是「do justice to」的用法，與本句語境不同。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。",
+        "just-mcq-18": "「公平正義的原則；亦可指司法制度」是「justice」的用法，與本句語境不同。",
+        "just-mcq-22": "「用來證明某行動、決定或信念合理的理由／依據」是「justification」的用法，與本句語境不同。",
+        "just-mcq-17": "「符合公平、正義和道德原則的」是「just — fair」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-20"
     },
     {
       "id": "just-25-0",
-      "sense": "just-25",
+      "sense": "just-mcq-21",
       "en": "Her concern was completely justified.",
       "zh": "她的擔心是完全有道理／有充分理由的。",
       "masked": "Her concern was completely ____.",
       "options": [
-        "just-25",
-        "just-26",
-        "just-27",
-        "just-01",
-        "just-02",
-        "just-03"
+        "just-mcq-21",
+        "just-mcq-20",
+        "just-mcq-22",
+        "just-mcq-19",
+        "just-mcq-23",
+        "just-mcq-18"
       ],
-      "explanation": "留意語境：justified（有充分理由的）。這裡指「合理的；有正當理由的」。",
+      "explanation": "本句的「justified」指「有足夠理由／證據支持，因此合理」。",
       "sentenceIndex": 49,
       "sourcePractice": 50,
       "targets": [
         "justified"
       ],
       "optionReasons": {
-        "just-25": "本句的意思是「合理的；有正當理由的」。",
-        "just-26": "「理由；正當性」與本句語境不同。",
-        "just-27": "「公平地；合理地」與本句語境不同。",
-        "just-01": "「只是；僅僅」與本句語境不同。",
-        "just-02": "「不僅……還……」與本句語境不同。",
-        "just-03": "「僅僅因為」與本句語境不同。"
-      }
+        "just-mcq-21": "本句指「有足夠理由／證據支持，因此合理」。",
+        "just-mcq-20": "「提供足夠理由證明某事合理／正當」是「justify」的用法，與本句語境不同。",
+        "just-mcq-22": "「用來證明某行動、決定或信念合理的理由／依據」是「justification」的用法，與本句語境不同。",
+        "just-mcq-19": "「充分、公平地展現某人／某物真正的價值或品質」是「do justice to」的用法，與本句語境不同。",
+        "just-mcq-23": "「以公平、合理或應得的方式」是「justly」的用法，與本句語境不同。",
+        "just-mcq-18": "「公平正義的原則；亦可指司法制度」是「justice」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-21"
     },
     {
       "id": "just-25-1",
-      "sense": "just-25",
+      "sense": "just-mcq-21",
       "en": "He felt justified in refusing.",
       "zh": "他認為自己拒絕是有正當理由的。",
       "masked": "He felt ____ in refusing.",
       "options": [
-        "just-25",
-        "just-26",
-        "just-27",
-        "just-01",
-        "just-02",
-        "just-03"
+        "just-mcq-21",
+        "just-mcq-20",
+        "just-mcq-22",
+        "just-mcq-19",
+        "just-mcq-23",
+        "just-mcq-18"
       ],
-      "explanation": "留意語境：justified（有充分理由的）。這裡指「合理的；有正當理由的」。",
+      "explanation": "本句的「justified」指「有足夠理由／證據支持，因此合理」。",
       "sentenceIndex": 50,
       "sourcePractice": 51,
       "targets": [
         "justified"
       ],
       "optionReasons": {
-        "just-25": "本句的意思是「合理的；有正當理由的」。",
-        "just-26": "「理由；正當性」與本句語境不同。",
-        "just-27": "「公平地；合理地」與本句語境不同。",
-        "just-01": "「只是；僅僅」與本句語境不同。",
-        "just-02": "「不僅……還……」與本句語境不同。",
-        "just-03": "「僅僅因為」與本句語境不同。"
-      }
+        "just-mcq-21": "本句指「有足夠理由／證據支持，因此合理」。",
+        "just-mcq-20": "「提供足夠理由證明某事合理／正當」是「justify」的用法，與本句語境不同。",
+        "just-mcq-22": "「用來證明某行動、決定或信念合理的理由／依據」是「justification」的用法，與本句語境不同。",
+        "just-mcq-19": "「充分、公平地展現某人／某物真正的價值或品質」是「do justice to」的用法，與本句語境不同。",
+        "just-mcq-23": "「以公平、合理或應得的方式」是「justly」的用法，與本句語境不同。",
+        "just-mcq-18": "「公平正義的原則；亦可指司法制度」是「justice」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-21"
     },
     {
       "id": "just-26-0",
-      "sense": "just-26",
+      "sense": "just-mcq-22",
       "en": "There was no justification for the delay.",
       "zh": "延誤沒有任何合理理由。",
       "masked": "There was no ____ for the delay.",
       "options": [
-        "just-26",
-        "just-27",
-        "just-01",
-        "just-02",
-        "just-03",
-        "just-04"
+        "just-mcq-22",
+        "just-mcq-21",
+        "just-mcq-23",
+        "just-mcq-20",
+        "just-mcq-24",
+        "just-mcq-19"
       ],
-      "explanation": "留意語境：justification（理由／正當依據）。這裡指「理由；正當性」。",
+      "explanation": "本句的「justification」指「用來證明某行動、決定或信念合理的理由／依據」。",
       "sentenceIndex": 51,
       "sourcePractice": 52,
       "targets": [
         "justification"
       ],
       "optionReasons": {
-        "just-26": "本句的意思是「理由；正當性」。",
-        "just-27": "「公平地；合理地」與本句語境不同。",
-        "just-01": "「只是；僅僅」與本句語境不同。",
-        "just-02": "「不僅……還……」與本句語境不同。",
-        "just-03": "「僅僅因為」與本句語境不同。",
-        "just-04": "「正好；恰恰」與本句語境不同。"
-      }
+        "just-mcq-22": "本句指「用來證明某行動、決定或信念合理的理由／依據」。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。",
+        "just-mcq-23": "「以公平、合理或應得的方式」是「justly」的用法，與本句語境不同。",
+        "just-mcq-20": "「提供足夠理由證明某事合理／正當」是「justify」的用法，與本句語境不同。",
+        "just-mcq-24": "「加強說話者的無奈、驚訝、肯定等情緒」是「16. I just don’t know（就是不知道） — 實在；真的」的用法，與本句語境不同。",
+        "just-mcq-19": "「充分、公平地展現某人／某物真正的價值或品質」是「do justice to」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-22"
     },
     {
       "id": "just-26-1",
-      "sense": "just-26",
+      "sense": "just-mcq-22",
       "en": "She gave a clear justification for her decision.",
       "zh": "她清楚說明了自己決定的理由／依據。",
       "masked": "She gave a clear ____ for her decision.",
       "options": [
-        "just-26",
-        "just-27",
-        "just-01",
-        "just-02",
-        "just-03",
-        "just-04"
+        "just-mcq-22",
+        "just-mcq-21",
+        "just-mcq-23",
+        "just-mcq-20",
+        "just-mcq-24",
+        "just-mcq-19"
       ],
-      "explanation": "留意語境：justification（理由／正當依據）。這裡指「理由；正當性」。",
+      "explanation": "本句的「justification」指「用來證明某行動、決定或信念合理的理由／依據」。",
       "sentenceIndex": 52,
       "sourcePractice": 53,
       "targets": [
         "justification"
       ],
       "optionReasons": {
-        "just-26": "本句的意思是「理由；正當性」。",
-        "just-27": "「公平地；合理地」與本句語境不同。",
-        "just-01": "「只是；僅僅」與本句語境不同。",
-        "just-02": "「不僅……還……」與本句語境不同。",
-        "just-03": "「僅僅因為」與本句語境不同。",
-        "just-04": "「正好；恰恰」與本句語境不同。"
-      }
+        "just-mcq-22": "本句指「用來證明某行動、決定或信念合理的理由／依據」。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。",
+        "just-mcq-23": "「以公平、合理或應得的方式」是「justly」的用法，與本句語境不同。",
+        "just-mcq-20": "「提供足夠理由證明某事合理／正當」是「justify」的用法，與本句語境不同。",
+        "just-mcq-24": "「加強說話者的無奈、驚訝、肯定等情緒」是「16. I just don’t know（就是不知道） — 實在；真的」的用法，與本句語境不同。",
+        "just-mcq-19": "「充分、公平地展現某人／某物真正的價值或品質」是「do justice to」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-22"
     },
     {
       "id": "just-27-0",
-      "sense": "just-27",
+      "sense": "just-mcq-23",
       "en": "He was justly praised for his work.",
       "zh": "他因工作表現而受到應得的讚賞。",
       "masked": "He was ____ for his work.",
       "options": [
-        "just-27",
-        "just-01",
-        "just-02",
-        "just-03",
-        "just-04",
-        "just-05"
+        "just-mcq-23",
+        "just-mcq-22",
+        "just-mcq-24",
+        "just-mcq-21",
+        "just-mcq-25",
+        "just-mcq-20"
       ],
-      "explanation": "留意語境：justly（公正地）。這裡指「公平地；合理地」。",
+      "explanation": "本句的「justly praised」指「以公平、合理或應得的方式」。",
       "sentenceIndex": 53,
       "sourcePractice": 54,
       "targets": [
         "justly praised"
       ],
       "optionReasons": {
-        "just-27": "本句的意思是「公平地；合理地」。",
-        "just-01": "「只是；僅僅」與本句語境不同。",
-        "just-02": "「不僅……還……」與本句語境不同。",
-        "just-03": "「僅僅因為」與本句語境不同。",
-        "just-04": "「正好；恰恰」與本句語境不同。",
-        "just-05": "「正合適；剛剛好」與本句語境不同。"
-      }
+        "just-mcq-23": "本句指「以公平、合理或應得的方式」。",
+        "just-mcq-22": "「用來證明某行動、決定或信念合理的理由／依據」是「justification」的用法，與本句語境不同。",
+        "just-mcq-24": "「加強說話者的無奈、驚訝、肯定等情緒」是「16. I just don’t know（就是不知道） — 實在；真的」的用法，與本句語境不同。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。",
+        "just-mcq-25": "「常用來令指示顯得簡單直接，有時也可柔化或加強語氣」是「18. just = immediately / right now in commands（現在就） — 就；馬上」的用法，與本句語境不同。",
+        "just-mcq-20": "「提供足夠理由證明某事合理／正當」是「justify」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-23"
     },
     {
       "id": "just-27-1",
-      "sense": "just-27",
+      "sense": "just-mcq-23",
       "en": "The decision was justly criticized.",
       "zh": "這個決定受到批評是有充分理由的。",
       "masked": "The decision was ____ criticized.",
       "options": [
-        "just-27",
-        "just-01",
-        "just-02",
-        "just-03",
-        "just-04",
-        "just-05"
+        "just-mcq-23",
+        "just-mcq-22",
+        "just-mcq-24",
+        "just-mcq-21",
+        "just-mcq-25",
+        "just-mcq-20"
       ],
-      "explanation": "留意語境：justly（公正地）。這裡指「公平地；合理地」。",
+      "explanation": "本句的「justly」指「以公平、合理或應得的方式」。",
       "sentenceIndex": 54,
       "sourcePractice": 55,
       "targets": [
         "justly"
       ],
       "optionReasons": {
-        "just-27": "本句的意思是「公平地；合理地」。",
-        "just-01": "「只是；僅僅」與本句語境不同。",
-        "just-02": "「不僅……還……」與本句語境不同。",
-        "just-03": "「僅僅因為」與本句語境不同。",
-        "just-04": "「正好；恰恰」與本句語境不同。",
-        "just-05": "「正合適；剛剛好」與本句語境不同。"
-      }
+        "just-mcq-23": "本句指「以公平、合理或應得的方式」。",
+        "just-mcq-22": "「用來證明某行動、決定或信念合理的理由／依據」是「justification」的用法，與本句語境不同。",
+        "just-mcq-24": "「加強說話者的無奈、驚訝、肯定等情緒」是「16. I just don’t know（就是不知道） — 實在；真的」的用法，與本句語境不同。",
+        "just-mcq-21": "「有足夠理由／證據支持，因此合理」是「justified」的用法，與本句語境不同。",
+        "just-mcq-25": "「常用來令指示顯得簡單直接，有時也可柔化或加強語氣」是「18. just = immediately / right now in commands（現在就） — 就；馬上」的用法，與本句語境不同。",
+        "just-mcq-20": "「提供足夠理由證明某事合理／正當」是「justify」的用法，與本句語境不同。"
+      },
+      "correctOption": "just-mcq-23"
     }
   ],
   "comparisons": [],
@@ -2397,5 +2251,6 @@ export default {
     "file": "151_just_Polysemy Exercise.pdf",
     "sha256": "92be0de48f26a5a7d327ccaa30544976c92828852fb4155d6ddd2e3a88ef2bbf",
     "pages": 27
-  }
+  },
+  "mcqSource": "master-comparison"
 };

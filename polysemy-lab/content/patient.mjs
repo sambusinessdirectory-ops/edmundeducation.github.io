@@ -2,2132 +2,2000 @@ export default {
   "id": "patient",
   "word": "patient",
   "number": 144,
-  "version": 1,
+  "version": 2,
   "mass": true,
   "senses": [
     {
-      "id": "patient-01",
-      "title": "有耐性的；耐心的",
-      "form": "patient = able to wait calmly（等待時）",
-      "en": "patient = able to wait calmly（等待時）",
-      "zh": "有耐性的；耐心的",
-      "note": "留意語境：patient = able to wait calmly（等待時）。這裡指「有耐性的；耐心的」。",
+      "id": "patient-mcq-01",
+      "title": "即使需要等待，也能保持冷靜而不因延誤變得煩躁",
+      "form": "patient — waiting calmly",
+      "en": "patient — waiting calmly",
+      "zh": "即使需要等待，也能保持冷靜而不因延誤變得煩躁",
+      "note": "來源詞義：即使需要等待，也能保持冷靜而不因延誤變得煩躁",
       "examples": [
         [
           "People often describe her as patient.",
           "人們常常形容她很有耐性。",
-          "有耐性的；耐心的"
+          "即使需要等待，也能保持冷靜而不因延誤變得煩躁"
         ],
         [
           "You need to be patient while you wait for the results.",
           "等待結果期間，你需要有耐性一點。",
-          "有耐性的；耐心的"
+          "即使需要等待，也能保持冷靜而不因延誤變得煩躁"
         ],
         [
           "She waited patiently for her turn.",
           "她耐心地等候輪到自己。",
-          "有耐性的；耐心的"
+          "即使需要等待，也能保持冷靜而不因延誤變得煩躁"
         ]
       ],
-      "options": [
-        "patient-01",
-        "patient-02",
-        "patient-03",
-        "patient-04",
-        "patient-05",
-        "patient-06"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-02",
-      "title": "對……有耐性；包容",
-      "form": "patient with + person（對某人有耐性）",
-      "en": "patient with + person（對某人有耐性）",
-      "zh": "對……有耐性；包容",
-      "note": "留意語境：patient with + person（對某人有耐性）。這裡指「對……有耐性；包容」。",
+      "id": "patient-mcq-02",
+      "title": "面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容",
+      "form": "patient with someone",
+      "en": "patient with someone",
+      "zh": "面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容",
+      "note": "來源詞義：面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容",
       "examples": [
         [
           "She is very patient with her grandchildren.",
           "她對孫兒女非常有耐性。",
-          "對……有耐性；包容"
+          "面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容"
         ],
         [
           "Please be patient with him while he learns.",
           "他正在學習，請對他多一點耐性。",
-          "對……有耐性；包容"
-        ]
-      ],
-      "options": [
-        "patient-02",
-        "patient-03",
-        "patient-04",
-        "patient-05",
-        "patient-06",
-        "patient-07"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "patient-03",
-      "title": "耐心處理",
-      "form": "patient with + mistakes/problems（面對問題有耐性）",
-      "en": "patient with + mistakes/problems（面對問題有耐性）",
-      "zh": "耐心處理",
-      "note": "留意語境：patient with + mistakes/problems（面對問題有耐性）。這裡指「耐心處理」。",
-      "examples": [
+          "面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容"
+        ],
         [
           "Good teachers are patient with mistakes.",
           "好的老師會耐心看待學生的錯誤。",
-          "耐心處理"
+          "面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容"
         ],
         [
           "She remained patient despite all the difficulties.",
           "儘管遇到很多困難，她仍然保持耐性和冷靜。",
-          "耐心處理"
+          "面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容"
         ]
       ],
-      "options": [
-        "patient-03",
-        "patient-04",
-        "patient-05",
-        "patient-06",
-        "patient-07",
-        "patient-08"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-04",
-      "title": "等一等；要有耐性 A very common conversational expression.",
-      "form": "be patient =",
-      "en": "be patient =",
-      "zh": "等一等；要有耐性 A very common conversational expression.",
-      "note": "留意語境：be patient =。這裡指「等一等；要有耐性 A very common conversational expression.」。",
-      "examples": [
-        [
-          "Just be patient. It will take a little time.",
-          "耐心一點，這需要一些時間。",
-          "等一等；要有耐性 A very common conversational expression."
-        ],
-        [
-          "Be patient with yourself.",
-          "對自己有耐性一點。",
-          "等一等；要有耐性 A very common conversational expression."
-        ]
-      ],
-      "options": [
-        "patient-04",
-        "patient-05",
-        "patient-06",
-        "patient-07",
-        "patient-08",
-        "patient-09"
-      ],
+      "id": "patient-mcq-03",
+      "title": "面對困難、反覆問題或進展緩慢時仍能耐心處理",
+      "form": "patient — difficulty/repetition",
+      "en": "patient — difficulty/repetition",
+      "zh": "面對困難、反覆問題或進展緩慢時仍能耐心處理",
+      "note": "來源詞義：面對困難、反覆問題或進展緩慢時仍能耐心處理",
+      "examples": [],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-05",
-      "title": "耐心的；不急於求成",
-      "form": "patient = willing to continue carefully for a long time（耐心細緻的）",
-      "en": "patient = willing to continue carefully for a long time（耐心細緻的）",
-      "zh": "耐心的；不急於求成",
-      "note": "留意語境：patient = willing to continue carefully for a long time（耐心細緻的）。這裡指「耐心的；不急於求成」。",
+      "id": "patient-mcq-04",
+      "title": "願意花時間細心處理／聆聽，而不急於求成",
+      "form": "patient listener/approach",
+      "en": "patient listener/approach",
+      "zh": "願意花時間細心處理／聆聽，而不急於求成",
+      "note": "來源詞義：願意花時間細心處理／聆聽，而不急於求成",
       "examples": [
         [
           "The work requires a patient approach.",
           "這項工作需要一種耐心而不急躁的處理方式。",
-          "耐心的；不急於求成"
+          "願意花時間細心處理／聆聽，而不急於求成"
         ],
         [
           "She is a patient listener.",
           "她是一個很有耐性的聆聽者。",
-          "耐心的；不急於求成"
+          "願意花時間細心處理／聆聽，而不急於求成"
         ]
       ],
-      "options": [
-        "patient-05",
-        "patient-06",
-        "patient-07",
-        "patient-08",
-        "patient-09",
-        "patient-10"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-06",
-      "title": "病人；患者",
-      "form": "patient — noun = person receiving medical treatment（病人）",
-      "en": "patient — noun = person receiving medical treatment（病人）",
-      "zh": "病人；患者",
-      "note": "留意語境：patient — noun = person receiving medical treatment（病人）。這裡指「病人；患者」。",
+      "id": "patient-mcq-05",
+      "title": "正在接受醫療專業人員診斷、照顧或治療的人",
+      "form": "patient — medical noun",
+      "en": "patient — medical noun",
+      "zh": "正在接受醫療專業人員診斷、照顧或治療的人",
+      "note": "來源詞義：正在接受醫療專業人員診斷、照顧或治療的人",
       "examples": [
         [
           "The doctor examined the patient.",
           "醫生為病人進行檢查。",
-          "病人；患者"
+          "正在接受醫療專業人員診斷、照顧或治療的人"
         ],
         [
           "The hospital treats hundreds of patients every day.",
           "這間醫院每天治療數百名患者。",
-          "病人；患者"
+          "正在接受醫療專業人員診斷、照顧或治療的人"
         ]
       ],
-      "options": [
-        "patient-06",
-        "patient-07",
-        "patient-08",
-        "patient-09",
-        "patient-10",
-        "patient-11"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-07",
-      "title": "病人照護；患者護理",
-      "form": "patient care（醫療）",
-      "en": "patient care（醫療）",
-      "zh": "病人照護；患者護理",
-      "note": "留意語境：patient care（醫療）。這裡指「病人照護；患者護理」。",
+      "id": "patient-mcq-06",
+      "title": "醫療人員為病人提供的治療、護理和支援",
+      "form": "patient care",
+      "en": "patient care",
+      "zh": "醫療人員為病人提供的治療、護理和支援",
+      "note": "來源詞義：醫療人員為病人提供的治療、護理和支援",
       "examples": [
         [
           "Good communication is essential to patient care.",
           "良好溝通對病人照護非常重要。",
-          "病人照護；患者護理"
+          "醫療人員為病人提供的治療、護理和支援"
         ],
         [
           "The hospital is improving the quality of patient care.",
           "醫院正在改善患者照護質素。",
-          "病人照護；患者護理"
+          "醫療人員為病人提供的治療、護理和支援"
         ]
       ],
-      "options": [
-        "patient-07",
-        "patient-08",
-        "patient-09",
-        "patient-10",
-        "patient-11",
-        "patient-12"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-08",
-      "title": "病人安全",
+      "id": "patient-mcq-07",
+      "title": "避免患者在接受醫療服務時受到可預防傷害的措施／原則",
       "form": "patient safety",
       "en": "patient safety",
-      "zh": "病人安全",
-      "note": "留意語境：patient safety。這裡指「病人安全」。",
+      "zh": "避免患者在接受醫療服務時受到可預防傷害的措施／原則",
+      "note": "來源詞義：避免患者在接受醫療服務時受到可預防傷害的措施／原則",
       "examples": [
         [
           "The new system was introduced to improve patient safety.",
           "新系統是為了提升病人安全而引入的。",
-          "病人安全"
+          "避免患者在接受醫療服務時受到可預防傷害的措施／原則"
         ],
         [
           "Medication errors can affect patient safety.",
           "藥物錯誤可能影響患者安全。",
-          "病人安全"
+          "避免患者在接受醫療服務時受到可預防傷害的措施／原則"
         ]
       ],
-      "options": [
-        "patient-08",
-        "patient-09",
-        "patient-10",
-        "patient-11",
-        "patient-12",
-        "patient-13"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-09",
-      "title": "住院病人 A useful medical family extension.",
-      "form": "inpatient =",
-      "en": "inpatient =",
-      "zh": "住院病人 A useful medical family extension.",
-      "note": "留意語境：inpatient =。這裡指「住院病人 A useful medical family extension.」。",
+      "id": "patient-mcq-08",
+      "title": "入住醫院一段時間接受治療的病人",
+      "form": "inpatient",
+      "en": "inpatient",
+      "zh": "入住醫院一段時間接受治療的病人",
+      "note": "來源詞義：入住醫院一段時間接受治療的病人",
       "examples": [
         [
           "He was admitted as an inpatient.",
           "他被安排住院治療／成為住院病人。",
-          "住院病人 A useful medical family extension."
+          "入住醫院一段時間接受治療的病人"
         ],
         [
           "The hospital provides both inpatient and outpatient services.",
           "醫院同時提供住院及門診服務。",
-          "住院病人 A useful medical family extension."
+          "入住醫院一段時間接受治療的病人"
         ]
       ],
-      "options": [
-        "patient-09",
-        "patient-10",
-        "patient-11",
-        "patient-12",
-        "patient-13",
-        "patient-14"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-10",
-      "title": "門診病人",
-      "form": "outpatient =",
-      "en": "outpatient =",
-      "zh": "門診病人",
-      "note": "留意語境：outpatient =。這裡指「門診病人」。",
+      "id": "patient-mcq-09",
+      "title": "接受醫療服務但不需要入住醫院過夜的病人",
+      "form": "outpatient",
+      "en": "outpatient",
+      "zh": "接受醫療服務但不需要入住醫院過夜的病人",
+      "note": "來源詞義：接受醫療服務但不需要入住醫院過夜的病人",
       "examples": [
         [
           "She received treatment as an outpatient.",
           "她以門診病人身份接受治療。",
-          "門診病人"
+          "接受醫療服務但不需要入住醫院過夜的病人"
         ],
         [
           "Most minor procedures are now performed on outpatients.",
           "現在很多較小型的醫療程序都以門診形式進行。",
-          "門診病人"
+          "接受醫療服務但不需要入住醫院過夜的病人"
         ]
       ],
-      "options": [
-        "patient-10",
-        "patient-11",
-        "patient-12",
-        "patient-13",
-        "patient-14",
-        "patient-15"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-11",
-      "title": "耐心；耐性",
-      "form": "patience = ability to wait calmly（耐性）",
-      "en": "patience = ability to wait calmly（耐性）",
-      "zh": "耐心；耐性",
-      "note": "留意語境：patience = ability to wait calmly（耐性）。這裡指「耐心；耐性」。",
+      "id": "patient-mcq-10",
+      "title": "面對等待、困難或進展緩慢時仍能保持冷靜的能力",
+      "form": "patience",
+      "en": "patience",
+      "zh": "面對等待、困難或進展緩慢時仍能保持冷靜的能力",
+      "note": "來源詞義：面對等待、困難或進展緩慢時仍能保持冷靜的能力",
       "examples": [
         [
           "She has a lot of patience.",
           "她非常有耐性。",
-          "耐心；耐性"
+          "面對等待、困難或進展緩慢時仍能保持冷靜的能力"
         ],
         [
           "Learning a language requires patience.",
           "學習語言需要耐性。",
-          "耐心；耐性"
+          "面對等待、困難或進展緩慢時仍能保持冷靜的能力"
         ]
       ],
-      "options": [
-        "patient-11",
-        "patient-12",
-        "patient-13",
-        "patient-14",
-        "patient-15",
-        "patient-16"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-12",
-      "title": "耐性；包容",
-      "form": "patience with + person/situation（對……的耐性）",
-      "en": "patience with + person/situation（對……的耐性）",
-      "zh": "耐性；包容",
-      "note": "留意語境：patience with + person/situation（對……的耐性）。這裡指「耐性；包容」。",
+      "id": "patient-mcq-11",
+      "title": "面對某人／某情況時所保持的耐性和包容",
+      "form": "patience with",
+      "en": "patience with",
+      "zh": "面對某人／某情況時所保持的耐性和包容",
+      "note": "來源詞義：面對某人／某情況時所保持的耐性和包容",
       "examples": [
         [
           "She has endless patience with children.",
           "她對小孩有非常大的耐性。",
-          "耐性；包容"
+          "面對某人／某情況時所保持的耐性和包容"
         ],
         [
           "Thank you for your patience with us.",
           "感謝你對我們的耐心和包容。",
-          "耐性；包容"
+          "面對某人／某情況時所保持的耐性和包容"
         ]
       ],
-      "options": [
-        "patient-12",
-        "patient-13",
-        "patient-14",
-        "patient-15",
-        "patient-16",
-        "patient-17"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-13",
-      "title": "有耐性",
+      "id": "patient-mcq-12",
+      "title": "具備等待和冷靜忍耐的能力",
       "form": "have patience",
       "en": "have patience",
-      "zh": "有耐性",
-      "note": "留意語境：have patience。這裡指「有耐性」。",
+      "zh": "具備等待和冷靜忍耐的能力",
+      "note": "來源詞義：具備等待和冷靜忍耐的能力",
       "examples": [
         [
           "You need to have patience.",
           "你需要有耐性。",
-          "有耐性"
+          "具備等待和冷靜忍耐的能力"
         ],
         [
           "Have a little patience and let her finish.",
           "耐心一點，讓她先說完。",
-          "有耐性"
+          "具備等待和冷靜忍耐的能力"
         ]
       ],
-      "options": [
-        "patient-13",
-        "patient-14",
-        "patient-15",
-        "patient-16",
-        "patient-17",
-        "patient-18"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-14",
-      "title": "失去耐性；開始不耐煩",
+      "id": "patient-mcq-13",
+      "title": "因等待、反覆問題或挫折而不再能保持冷靜",
       "form": "lose patience",
       "en": "lose patience",
-      "zh": "失去耐性；開始不耐煩",
-      "note": "留意語境：lose patience。這裡指「失去耐性；開始不耐煩」。",
+      "zh": "因等待、反覆問題或挫折而不再能保持冷靜",
+      "note": "來源詞義：因等待、反覆問題或挫折而不再能保持冷靜",
       "examples": [
         [
           "He began to lose patience.",
           "他開始失去耐性／變得不耐煩。",
-          "失去耐性；開始不耐煩"
+          "因等待、反覆問題或挫折而不再能保持冷靜"
         ],
         [
           "She rarely loses patience with her grandchildren.",
           "她很少對孫兒女失去耐性。",
-          "失去耐性；開始不耐煩"
+          "因等待、反覆問題或挫折而不再能保持冷靜"
         ]
       ],
-      "options": [
-        "patient-14",
-        "patient-15",
-        "patient-16",
-        "patient-17",
-        "patient-18",
-        "patient-19"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-15",
-      "title": "耐性用盡",
+      "id": "patient-mcq-14",
+      "title": "忍耐已接近或達到極限",
       "form": "run out of patience",
       "en": "run out of patience",
-      "zh": "耐性用盡",
-      "note": "留意語境：run out of patience。這裡指「耐性用盡」。",
+      "zh": "忍耐已接近或達到極限",
+      "note": "來源詞義：忍耐已接近或達到極限",
       "examples": [
         [
           "I’m beginning to run out of patience.",
           "我的耐性快要用盡了。",
-          "耐性用盡"
+          "忍耐已接近或達到極限"
         ],
         [
           "After waiting for two hours, everyone ran out of patience.",
           "等了兩個小時後，大家都失去耐性了。",
-          "耐性用盡"
+          "忍耐已接近或達到極限"
         ]
       ],
-      "options": [
-        "patient-15",
-        "patient-16",
-        "patient-17",
-        "patient-18",
-        "patient-19",
-        "patient-20"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-16",
-      "title": "考驗某人的耐性",
+      "id": "patient-mcq-15",
+      "title": "令某人愈來愈難保持耐性",
       "form": "test someone's patience",
       "en": "test someone's patience",
-      "zh": "考驗某人的耐性",
-      "note": "留意語境：test someone's patience。這裡指「考驗某人的耐性」。",
+      "zh": "令某人愈來愈難保持耐性",
+      "note": "來源詞義：令某人愈來愈難保持耐性",
       "examples": [
         [
           "The repeated delays tested everyone's patience.",
           "一再延誤考驗了大家的耐性。",
-          "考驗某人的耐性"
+          "令某人愈來愈難保持耐性"
         ],
         [
           "His constant interruptions were beginning to test her patience.",
           "他不斷插話，開始令她的耐性受到考驗。",
-          "考驗某人的耐性"
+          "令某人愈來愈難保持耐性"
         ]
       ],
-      "options": [
-        "patient-16",
-        "patient-17",
-        "patient-18",
-        "patient-19",
-        "patient-20",
-        "patient-21"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-17",
-      "title": "耐心最終有回報",
-      "form": "patience pays off",
-      "en": "patience pays off",
-      "zh": "耐心最終有回報",
-      "note": "留意語境：patience pays off。這裡指「耐心最終有回報」。",
+      "id": "patient-mcq-16",
+      "title": "以冷靜、不急躁並願意等待的方式",
+      "form": "patiently",
+      "en": "patiently",
+      "zh": "以冷靜、不急躁並願意等待的方式",
+      "note": "來源詞義：以冷靜、不急躁並願意等待的方式",
       "examples": [
         [
           "Sometimes patience pays off.",
           "有時候有耐性最終會有回報。",
-          "耐心最終有回報"
+          "以冷靜、不急躁並願意等待的方式"
         ],
         [
           "Her patience paid off when the project finally succeeded.",
           "當項目最終成功時，她的耐心終於得到回報。",
-          "耐心最終有回報"
-        ]
-      ],
-      "options": [
-        "patient-17",
-        "patient-18",
-        "patient-19",
-        "patient-20",
-        "patient-21",
-        "patient-22"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "patient-18",
-      "title": "耐心地",
-      "form": "patiently = calmly without becoming annoyed（耐心地）",
-      "en": "patiently = calmly without becoming annoyed（耐心地）",
-      "zh": "耐心地",
-      "note": "留意語境：patiently = calmly without becoming annoyed（耐心地）。這裡指「耐心地」。",
-      "examples": [
+          "以冷靜、不急躁並願意等待的方式"
+        ],
         [
           "She listened patiently.",
           "她耐心地聆聽。",
-          "耐心地"
+          "以冷靜、不急躁並願意等待的方式"
         ],
         [
           "He patiently explained the process again.",
           "他耐心地再次解釋整個過程。",
-          "耐心地"
+          "以冷靜、不急躁並願意等待的方式"
         ]
       ],
-      "options": [
-        "patient-18",
-        "patient-19",
-        "patient-20",
-        "patient-21",
-        "patient-22",
-        "patient-23"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-19",
-      "title": "沒耐性的；不耐煩的",
-      "form": "impatient = unable/unwilling to wait calmly（不耐煩的）",
-      "en": "impatient = unable/unwilling to wait calmly（不耐煩的）",
-      "zh": "沒耐性的；不耐煩的",
-      "note": "留意語境：impatient = unable/unwilling to wait calmly（不耐煩的）。這裡指「沒耐性的；不耐煩的」。",
+      "id": "patient-mcq-17",
+      "title": "難以忍受等待／緩慢，因此容易感到煩躁",
+      "form": "impatient — annoyed",
+      "en": "impatient — annoyed",
+      "zh": "難以忍受等待／緩慢，因此容易感到煩躁",
+      "note": "來源詞義：難以忍受等待／緩慢，因此容易感到煩躁",
       "examples": [
         [
           "The children became impatient while waiting.",
           "孩子們等候期間開始變得不耐煩。",
-          "沒耐性的；不耐煩的"
+          "難以忍受等待／緩慢，因此容易感到煩躁"
         ],
         [
           "Don't be so impatient.",
           "不要那麼沒耐性／不耐煩。",
-          "沒耐性的；不耐煩的"
+          "難以忍受等待／緩慢，因此容易感到煩躁"
         ]
       ],
-      "options": [
-        "patient-19",
-        "patient-20",
-        "patient-21",
-        "patient-22",
-        "patient-23",
-        "patient-24"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-20",
-      "title": "對……失去耐性",
-      "form": "impatient with + person/thing（對……不耐煩）",
-      "en": "impatient with + person/thing（對……不耐煩）",
-      "zh": "對……失去耐性",
-      "note": "留意語境：impatient with + person/thing（對……不耐煩）。這裡指「對……失去耐性」。",
+      "id": "patient-mcq-18",
+      "title": "對某人或某情況難以保持耐性",
+      "form": "impatient with",
+      "en": "impatient with",
+      "zh": "對某人或某情況難以保持耐性",
+      "note": "來源詞義：對某人或某情況難以保持耐性",
       "examples": [
         [
           "He became impatient with the slow service.",
           "他開始對緩慢的服務感到不耐煩。",
-          "對……失去耐性"
+          "對某人或某情況難以保持耐性"
         ],
         [
           "Try not to be impatient with beginners.",
           "盡量不要對初學者沒有耐性。",
-          "對……失去耐性"
+          "對某人或某情況難以保持耐性"
         ]
       ],
-      "options": [
-        "patient-20",
-        "patient-21",
-        "patient-22",
-        "patient-23",
-        "patient-24",
-        "patient-01"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-21",
-      "title": "急於；迫不及待",
-      "form": "impatient to + verb / for + event（急切想要……）",
-      "en": "impatient to + verb / for + event（急切想要……）",
-      "zh": "急於；迫不及待",
-      "note": "留意語境：impatient to + verb / for + event（急切想要……）。這裡指「急於；迫不及待」。",
+      "id": "patient-mcq-19",
+      "title": "非常渴望某事盡快發生，因此迫不及待",
+      "form": "impatient to/for",
+      "en": "impatient to/for",
+      "zh": "非常渴望某事盡快發生，因此迫不及待",
+      "note": "來源詞義：非常渴望某事盡快發生，因此迫不及待",
       "examples": [
         [
           "She was impatient to hear the news.",
           "她急著想知道／迫不及待想聽那個消息。",
-          "急於；迫不及待"
+          "非常渴望某事盡快發生，因此迫不及待"
         ],
         [
           "The children were impatient for the holiday to begin.",
           "孩子們迫不及待地等著假期開始。",
-          "急於；迫不及待"
+          "非常渴望某事盡快發生，因此迫不及待"
         ]
       ],
-      "options": [
-        "patient-21",
-        "patient-22",
-        "patient-23",
-        "patient-24",
-        "patient-01",
-        "patient-02"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-22",
-      "title": "不耐煩；缺乏耐性",
-      "form": "impatience = inability to wait calmly（不耐煩）",
-      "en": "impatience = inability to wait calmly（不耐煩）",
-      "zh": "不耐煩；缺乏耐性",
-      "note": "留意語境：impatience = inability to wait calmly（不耐煩）。這裡指「不耐煩；缺乏耐性」。",
+      "id": "patient-mcq-20",
+      "title": "因等待或進展緩慢而產生的不耐煩和急躁",
+      "form": "impatience — irritation",
+      "en": "impatience — irritation",
+      "zh": "因等待或進展緩慢而產生的不耐煩和急躁",
+      "note": "來源詞義：因等待或進展緩慢而產生的不耐煩和急躁",
       "examples": [
         [
           "His impatience was obvious.",
           "他的不耐煩非常明顯。",
-          "不耐煩；缺乏耐性"
+          "因等待或進展緩慢而產生的不耐煩和急躁"
         ],
         [
           "She showed no impatience despite the delay.",
           "儘管出現延誤，她沒有表現出任何不耐煩。",
-          "不耐煩；缺乏耐性"
+          "因等待或進展緩慢而產生的不耐煩和急躁"
         ]
       ],
-      "options": [
-        "patient-22",
-        "patient-23",
-        "patient-24",
-        "patient-01",
-        "patient-02",
-        "patient-03"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-23",
-      "title": "急切；迫不及待",
-      "form": "impatience = eagerness for something to happen（急切）",
-      "en": "impatience = eagerness for something to happen（急切）",
-      "zh": "急切；迫不及待",
-      "note": "留意語境：impatience = eagerness for something to happen（急切）。這裡指「急切；迫不及待」。",
+      "id": "patient-mcq-21",
+      "title": "強烈希望某件事立即發生、不願再等的急切感",
+      "form": "impatience — eagerness",
+      "en": "impatience — eagerness",
+      "zh": "強烈希望某件事立即發生、不願再等的急切感",
+      "note": "來源詞義：強烈希望某件事立即發生、不願再等的急切感",
       "examples": [
         [
           "She waited with impatience for the results.",
           "她急切地／迫不及待地等待結果。",
-          "急切；迫不及待"
+          "強烈希望某件事立即發生、不願再等的急切感"
         ],
         [
           "His impatience to begin was obvious.",
           "他那種急著開始、迫不及待的心情非常明顯。",
-          "急切；迫不及待"
+          "強烈希望某件事立即發生、不願再等的急切感"
         ]
       ],
-      "options": [
-        "patient-23",
-        "patient-24",
-        "patient-01",
-        "patient-02",
-        "patient-03",
-        "patient-04"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "patient-24",
-      "title": "不耐煩地；急切地",
-      "form": "impatiently = in an annoyed/eager way（不耐煩／急切地）",
-      "en": "impatiently = in an annoyed/eager way（不耐煩／急切地）",
-      "zh": "不耐煩地；急切地",
-      "note": "留意語境：impatiently = in an annoyed/eager way（不耐煩／急切地）。這裡指「不耐煩地；急切地」。",
+      "id": "patient-mcq-22",
+      "title": "不要急躁，給事情、別人或自己足夠時間",
+      "form": "4. be patient = 等一等；要有耐性",
+      "en": "4. be patient = 等一等；要有耐性",
+      "zh": "不要急躁，給事情、別人或自己足夠時間",
+      "note": "來源詞義：不要急躁，給事情、別人或自己足夠時間",
+      "examples": [
+        [
+          "Just be patient. It will take a little time.",
+          "耐心一點，這需要一些時間。",
+          "不要急躁，給事情、別人或自己足夠時間"
+        ],
+        [
+          "Be patient with yourself.",
+          "對自己有耐性一點。",
+          "不要急躁，給事情、別人或自己足夠時間"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "patient-mcq-23",
+      "title": "以缺乏耐性、煩躁，或急切希望事情快點發生的方式",
+      "form": "24. impatiently = in an annoyed/eager way（不耐煩／急切地） — 不耐煩地；急切地",
+      "en": "24. impatiently = in an annoyed/eager way（不耐煩／急切地） — 不耐煩地；急切地",
+      "zh": "以缺乏耐性、煩躁，或急切希望事情快點發生的方式",
+      "note": "來源詞義：以缺乏耐性、煩躁，或急切希望事情快點發生的方式",
       "examples": [
         [
           "He tapped his fingers impatiently.",
           "他不耐煩地用手指敲著桌面。",
-          "不耐煩地；急切地"
+          "以缺乏耐性、煩躁，或急切希望事情快點發生的方式"
         ],
         [
           "She waited impatiently for the announcement.",
           "她迫不及待地等候公布結果。",
-          "不耐煩地；急切地"
+          "以缺乏耐性、煩躁，或急切希望事情快點發生的方式"
         ]
       ],
-      "options": [
-        "patient-24",
-        "patient-01",
-        "patient-02",
-        "patient-03",
-        "patient-04",
-        "patient-05"
-      ],
+      "options": [],
       "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "patient-01-0",
-      "sense": "patient-01",
+      "sense": "patient-mcq-01",
       "en": "People often describe her as patient.",
       "zh": "人們常常形容她很有耐性。",
       "masked": "People often describe her as ____.",
       "options": [
-        "patient-01",
-        "patient-02",
-        "patient-03",
-        "patient-04",
-        "patient-05",
-        "patient-06"
+        "patient-mcq-01",
+        "patient-mcq-02",
+        "patient-mcq-03",
+        "patient-mcq-04",
+        "patient-mcq-05",
+        "patient-mcq-06"
       ],
-      "explanation": "留意語境：patient = able to wait calmly（等待時）。這裡指「有耐性的；耐心的」。",
+      "explanation": "本句的「patient」指「即使需要等待，也能保持冷靜而不因延誤變得煩躁」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "patient"
       ],
       "optionReasons": {
-        "patient-01": "本句的意思是「有耐性的；耐心的」。",
-        "patient-02": "「對……有耐性；包容」與本句語境不同。",
-        "patient-03": "「耐心處理」與本句語境不同。",
-        "patient-04": "「等一等；要有耐性 A very common conversational expression.」與本句語境不同。",
-        "patient-05": "「耐心的；不急於求成」與本句語境不同。",
-        "patient-06": "「病人；患者」與本句語境不同。"
-      }
+        "patient-mcq-01": "本句指「即使需要等待，也能保持冷靜而不因延誤變得煩躁」。",
+        "patient-mcq-02": "「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」是「patient with someone」的用法，與本句語境不同。",
+        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
+        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
+        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-01"
     },
     {
       "id": "patient-01-1",
-      "sense": "patient-01",
+      "sense": "patient-mcq-01",
       "en": "You need to be patient while you wait for the results.",
       "zh": "等待結果期間，你需要有耐性一點。",
       "masked": "You need to be ____ while you wait for the results.",
       "options": [
-        "patient-01",
-        "patient-02",
-        "patient-03",
-        "patient-04",
-        "patient-05",
-        "patient-06"
+        "patient-mcq-01",
+        "patient-mcq-02",
+        "patient-mcq-03",
+        "patient-mcq-04",
+        "patient-mcq-05",
+        "patient-mcq-06"
       ],
-      "explanation": "留意語境：patient = able to wait calmly（等待時）。這裡指「有耐性的；耐心的」。",
+      "explanation": "本句的「patient」指「即使需要等待，也能保持冷靜而不因延誤變得煩躁」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "patient"
       ],
       "optionReasons": {
-        "patient-01": "本句的意思是「有耐性的；耐心的」。",
-        "patient-02": "「對……有耐性；包容」與本句語境不同。",
-        "patient-03": "「耐心處理」與本句語境不同。",
-        "patient-04": "「等一等；要有耐性 A very common conversational expression.」與本句語境不同。",
-        "patient-05": "「耐心的；不急於求成」與本句語境不同。",
-        "patient-06": "「病人；患者」與本句語境不同。"
-      }
+        "patient-mcq-01": "本句指「即使需要等待，也能保持冷靜而不因延誤變得煩躁」。",
+        "patient-mcq-02": "「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」是「patient with someone」的用法，與本句語境不同。",
+        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
+        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
+        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-01"
     },
     {
       "id": "patient-01-2",
-      "sense": "patient-01",
+      "sense": "patient-mcq-01",
       "en": "She waited patiently for her turn.",
       "zh": "她耐心地等候輪到自己。",
       "masked": "She waited ____ for her turn.",
       "options": [
-        "patient-01",
-        "patient-02",
-        "patient-03",
-        "patient-04",
-        "patient-05",
-        "patient-06"
+        "patient-mcq-01",
+        "patient-mcq-02",
+        "patient-mcq-03",
+        "patient-mcq-04",
+        "patient-mcq-05",
+        "patient-mcq-06"
       ],
-      "explanation": "留意語境：patient = able to wait calmly（等待時）。這裡指「有耐性的；耐心的」。",
+      "explanation": "本句的「patiently」指「即使需要等待，也能保持冷靜而不因延誤變得煩躁」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "patiently"
       ],
       "optionReasons": {
-        "patient-01": "本句的意思是「有耐性的；耐心的」。",
-        "patient-02": "「對……有耐性；包容」與本句語境不同。",
-        "patient-03": "「耐心處理」與本句語境不同。",
-        "patient-04": "「等一等；要有耐性 A very common conversational expression.」與本句語境不同。",
-        "patient-05": "「耐心的；不急於求成」與本句語境不同。",
-        "patient-06": "「病人；患者」與本句語境不同。"
-      }
+        "patient-mcq-01": "本句指「即使需要等待，也能保持冷靜而不因延誤變得煩躁」。",
+        "patient-mcq-02": "「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」是「patient with someone」的用法，與本句語境不同。",
+        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
+        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
+        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-01"
     },
     {
       "id": "patient-02-0",
-      "sense": "patient-02",
+      "sense": "patient-mcq-02",
       "en": "She is very patient with her grandchildren.",
       "zh": "她對孫兒女非常有耐性。",
       "masked": "She is very ____ her grandchildren.",
       "options": [
-        "patient-02",
-        "patient-03",
-        "patient-04",
-        "patient-05",
-        "patient-06",
-        "patient-07"
+        "patient-mcq-02",
+        "patient-mcq-01",
+        "patient-mcq-03",
+        "patient-mcq-04",
+        "patient-mcq-05",
+        "patient-mcq-06"
       ],
-      "explanation": "留意語境：patient with + person（對某人有耐性）。這裡指「對……有耐性；包容」。",
+      "explanation": "本句的「patient with」指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "patient with"
       ],
       "optionReasons": {
-        "patient-02": "本句的意思是「對……有耐性；包容」。",
-        "patient-03": "「耐心處理」與本句語境不同。",
-        "patient-04": "「等一等；要有耐性 A very common conversational expression.」與本句語境不同。",
-        "patient-05": "「耐心的；不急於求成」與本句語境不同。",
-        "patient-06": "「病人；患者」與本句語境不同。",
-        "patient-07": "「病人照護；患者護理」與本句語境不同。"
-      }
+        "patient-mcq-02": "本句指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
+        "patient-mcq-01": "「即使需要等待，也能保持冷靜而不因延誤變得煩躁」是「patient — waiting calmly」的用法，與本句語境不同。",
+        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
+        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
+        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-02"
     },
     {
       "id": "patient-02-1",
-      "sense": "patient-02",
+      "sense": "patient-mcq-02",
       "en": "Please be patient with him while he learns.",
       "zh": "他正在學習，請對他多一點耐性。",
       "masked": "Please be ____ him while he learns.",
       "options": [
-        "patient-02",
-        "patient-03",
-        "patient-04",
-        "patient-05",
-        "patient-06",
-        "patient-07"
+        "patient-mcq-02",
+        "patient-mcq-01",
+        "patient-mcq-03",
+        "patient-mcq-04",
+        "patient-mcq-05",
+        "patient-mcq-06"
       ],
-      "explanation": "留意語境：patient with + person（對某人有耐性）。這裡指「對……有耐性；包容」。",
+      "explanation": "本句的「patient with」指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "patient with"
       ],
       "optionReasons": {
-        "patient-02": "本句的意思是「對……有耐性；包容」。",
-        "patient-03": "「耐心處理」與本句語境不同。",
-        "patient-04": "「等一等；要有耐性 A very common conversational expression.」與本句語境不同。",
-        "patient-05": "「耐心的；不急於求成」與本句語境不同。",
-        "patient-06": "「病人；患者」與本句語境不同。",
-        "patient-07": "「病人照護；患者護理」與本句語境不同。"
-      }
+        "patient-mcq-02": "本句指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
+        "patient-mcq-01": "「即使需要等待，也能保持冷靜而不因延誤變得煩躁」是「patient — waiting calmly」的用法，與本句語境不同。",
+        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
+        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
+        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-02"
     },
     {
       "id": "patient-03-0",
-      "sense": "patient-03",
+      "sense": "patient-mcq-02",
       "en": "Good teachers are patient with mistakes.",
       "zh": "好的老師會耐心看待學生的錯誤。",
       "masked": "Good teachers are ____ mistakes.",
       "options": [
-        "patient-03",
-        "patient-04",
-        "patient-05",
-        "patient-06",
-        "patient-07",
-        "patient-08"
+        "patient-mcq-02",
+        "patient-mcq-01",
+        "patient-mcq-03",
+        "patient-mcq-04",
+        "patient-mcq-05",
+        "patient-mcq-06"
       ],
-      "explanation": "留意語境：patient with + mistakes/problems（面對問題有耐性）。這裡指「耐心處理」。",
+      "explanation": "本句的「patient with」指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "patient with"
       ],
       "optionReasons": {
-        "patient-03": "本句的意思是「耐心處理」。",
-        "patient-04": "「等一等；要有耐性 A very common conversational expression.」與本句語境不同。",
-        "patient-05": "「耐心的；不急於求成」與本句語境不同。",
-        "patient-06": "「病人；患者」與本句語境不同。",
-        "patient-07": "「病人照護；患者護理」與本句語境不同。",
-        "patient-08": "「病人安全」與本句語境不同。"
-      }
+        "patient-mcq-02": "本句指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
+        "patient-mcq-01": "「即使需要等待，也能保持冷靜而不因延誤變得煩躁」是「patient — waiting calmly」的用法，與本句語境不同。",
+        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
+        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
+        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-02"
     },
     {
       "id": "patient-03-1",
-      "sense": "patient-03",
+      "sense": "patient-mcq-02",
       "en": "She remained patient despite all the difficulties.",
       "zh": "儘管遇到很多困難，她仍然保持耐性和冷靜。",
       "masked": "She remained ____ despite all the difficulties.",
       "options": [
-        "patient-03",
-        "patient-04",
-        "patient-05",
-        "patient-06",
-        "patient-07",
-        "patient-08"
+        "patient-mcq-02",
+        "patient-mcq-01",
+        "patient-mcq-03",
+        "patient-mcq-04",
+        "patient-mcq-05",
+        "patient-mcq-06"
       ],
-      "explanation": "留意語境：patient with + mistakes/problems（面對問題有耐性）。這裡指「耐心處理」。",
+      "explanation": "本句的「patient」指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "patient"
       ],
       "optionReasons": {
-        "patient-03": "本句的意思是「耐心處理」。",
-        "patient-04": "「等一等；要有耐性 A very common conversational expression.」與本句語境不同。",
-        "patient-05": "「耐心的；不急於求成」與本句語境不同。",
-        "patient-06": "「病人；患者」與本句語境不同。",
-        "patient-07": "「病人照護；患者護理」與本句語境不同。",
-        "patient-08": "「病人安全」與本句語境不同。"
-      }
+        "patient-mcq-02": "本句指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
+        "patient-mcq-01": "「即使需要等待，也能保持冷靜而不因延誤變得煩躁」是「patient — waiting calmly」的用法，與本句語境不同。",
+        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
+        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
+        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-02"
     },
     {
       "id": "patient-04-0",
-      "sense": "patient-04",
+      "sense": "patient-mcq-22",
       "en": "Just be patient. It will take a little time.",
       "zh": "耐心一點，這需要一些時間。",
       "masked": "Just ____. It will take a little time.",
       "options": [
-        "patient-04",
-        "patient-05",
-        "patient-06",
-        "patient-07",
-        "patient-08",
-        "patient-09"
+        "patient-mcq-22",
+        "patient-mcq-21",
+        "patient-mcq-23",
+        "patient-mcq-20",
+        "patient-mcq-19",
+        "patient-mcq-18"
       ],
-      "explanation": "留意語境：be patient =。這裡指「等一等；要有耐性 A very common conversational expression.」。",
+      "explanation": "本句的「be patient」指「不要急躁，給事情、別人或自己足夠時間」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "be patient"
       ],
       "optionReasons": {
-        "patient-04": "本句的意思是「等一等；要有耐性 A very common conversational expression.」。",
-        "patient-05": "「耐心的；不急於求成」與本句語境不同。",
-        "patient-06": "「病人；患者」與本句語境不同。",
-        "patient-07": "「病人照護；患者護理」與本句語境不同。",
-        "patient-08": "「病人安全」與本句語境不同。",
-        "patient-09": "「住院病人 A useful medical family extension.」與本句語境不同。"
-      }
+        "patient-mcq-22": "本句指「不要急躁，給事情、別人或自己足夠時間」。",
+        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
+        "patient-mcq-23": "「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」是「24. impatiently = in an annoyed/eager way（不耐煩／急切地） — 不耐煩地；急切地」的用法，與本句語境不同。",
+        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
+        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-22"
     },
     {
       "id": "patient-04-1",
-      "sense": "patient-04",
+      "sense": "patient-mcq-22",
       "en": "Be patient with yourself.",
       "zh": "對自己有耐性一點。",
       "masked": "Be ____ with yourself.",
       "options": [
-        "patient-04",
-        "patient-05",
-        "patient-06",
-        "patient-07",
-        "patient-08",
-        "patient-09"
+        "patient-mcq-22",
+        "patient-mcq-21",
+        "patient-mcq-23",
+        "patient-mcq-20",
+        "patient-mcq-19",
+        "patient-mcq-18"
       ],
-      "explanation": "留意語境：be patient =。這裡指「等一等；要有耐性 A very common conversational expression.」。",
+      "explanation": "本句的「patient」指「不要急躁，給事情、別人或自己足夠時間」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "patient"
       ],
       "optionReasons": {
-        "patient-04": "本句的意思是「等一等；要有耐性 A very common conversational expression.」。",
-        "patient-05": "「耐心的；不急於求成」與本句語境不同。",
-        "patient-06": "「病人；患者」與本句語境不同。",
-        "patient-07": "「病人照護；患者護理」與本句語境不同。",
-        "patient-08": "「病人安全」與本句語境不同。",
-        "patient-09": "「住院病人 A useful medical family extension.」與本句語境不同。"
-      }
+        "patient-mcq-22": "本句指「不要急躁，給事情、別人或自己足夠時間」。",
+        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
+        "patient-mcq-23": "「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」是「24. impatiently = in an annoyed/eager way（不耐煩／急切地） — 不耐煩地；急切地」的用法，與本句語境不同。",
+        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
+        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-22"
     },
     {
       "id": "patient-05-0",
-      "sense": "patient-05",
+      "sense": "patient-mcq-04",
       "en": "The work requires a patient approach.",
       "zh": "這項工作需要一種耐心而不急躁的處理方式。",
       "masked": "The work requires a ____ approach.",
       "options": [
-        "patient-05",
-        "patient-06",
-        "patient-07",
-        "patient-08",
-        "patient-09",
-        "patient-10"
+        "patient-mcq-04",
+        "patient-mcq-03",
+        "patient-mcq-05",
+        "patient-mcq-02",
+        "patient-mcq-06",
+        "patient-mcq-01"
       ],
-      "explanation": "留意語境：patient = willing to continue carefully for a long time（耐心細緻的）。這裡指「耐心的；不急於求成」。",
+      "explanation": "本句的「patient」指「願意花時間細心處理／聆聽，而不急於求成」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "patient"
       ],
       "optionReasons": {
-        "patient-05": "本句的意思是「耐心的；不急於求成」。",
-        "patient-06": "「病人；患者」與本句語境不同。",
-        "patient-07": "「病人照護；患者護理」與本句語境不同。",
-        "patient-08": "「病人安全」與本句語境不同。",
-        "patient-09": "「住院病人 A useful medical family extension.」與本句語境不同。",
-        "patient-10": "「門診病人」與本句語境不同。"
-      }
+        "patient-mcq-04": "本句指「願意花時間細心處理／聆聽，而不急於求成」。",
+        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
+        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
+        "patient-mcq-02": "「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」是「patient with someone」的用法，與本句語境不同。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
+        "patient-mcq-01": "「即使需要等待，也能保持冷靜而不因延誤變得煩躁」是「patient — waiting calmly」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-04"
     },
     {
       "id": "patient-05-1",
-      "sense": "patient-05",
+      "sense": "patient-mcq-04",
       "en": "She is a patient listener.",
       "zh": "她是一個很有耐性的聆聽者。",
       "masked": "She is a ____ listener.",
       "options": [
-        "patient-05",
-        "patient-06",
-        "patient-07",
-        "patient-08",
-        "patient-09",
-        "patient-10"
+        "patient-mcq-04",
+        "patient-mcq-03",
+        "patient-mcq-05",
+        "patient-mcq-02",
+        "patient-mcq-06",
+        "patient-mcq-01"
       ],
-      "explanation": "留意語境：patient = willing to continue carefully for a long time（耐心細緻的）。這裡指「耐心的；不急於求成」。",
+      "explanation": "本句的「patient」指「願意花時間細心處理／聆聽，而不急於求成」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "patient"
       ],
       "optionReasons": {
-        "patient-05": "本句的意思是「耐心的；不急於求成」。",
-        "patient-06": "「病人；患者」與本句語境不同。",
-        "patient-07": "「病人照護；患者護理」與本句語境不同。",
-        "patient-08": "「病人安全」與本句語境不同。",
-        "patient-09": "「住院病人 A useful medical family extension.」與本句語境不同。",
-        "patient-10": "「門診病人」與本句語境不同。"
-      }
+        "patient-mcq-04": "本句指「願意花時間細心處理／聆聽，而不急於求成」。",
+        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
+        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
+        "patient-mcq-02": "「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」是「patient with someone」的用法，與本句語境不同。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
+        "patient-mcq-01": "「即使需要等待，也能保持冷靜而不因延誤變得煩躁」是「patient — waiting calmly」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-04"
     },
     {
       "id": "patient-06-0",
-      "sense": "patient-06",
+      "sense": "patient-mcq-05",
       "en": "The doctor examined the patient.",
       "zh": "醫生為病人進行檢查。",
       "masked": "The doctor examined the ____.",
       "options": [
-        "patient-06",
-        "patient-07",
-        "patient-08",
-        "patient-09",
-        "patient-10",
-        "patient-11"
+        "patient-mcq-05",
+        "patient-mcq-04",
+        "patient-mcq-06",
+        "patient-mcq-03",
+        "patient-mcq-07",
+        "patient-mcq-02"
       ],
-      "explanation": "留意語境：patient — noun = person receiving medical treatment（病人）。這裡指「病人；患者」。",
+      "explanation": "本句的「patient」指「正在接受醫療專業人員診斷、照顧或治療的人」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "patient"
       ],
       "optionReasons": {
-        "patient-06": "本句的意思是「病人；患者」。",
-        "patient-07": "「病人照護；患者護理」與本句語境不同。",
-        "patient-08": "「病人安全」與本句語境不同。",
-        "patient-09": "「住院病人 A useful medical family extension.」與本句語境不同。",
-        "patient-10": "「門診病人」與本句語境不同。",
-        "patient-11": "「耐心；耐性」與本句語境不同。"
-      }
+        "patient-mcq-05": "本句指「正在接受醫療專業人員診斷、照顧或治療的人」。",
+        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
+        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
+        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
+        "patient-mcq-02": "「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」是「patient with someone」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-05"
     },
     {
       "id": "patient-06-1",
-      "sense": "patient-06",
+      "sense": "patient-mcq-05",
       "en": "The hospital treats hundreds of patients every day.",
       "zh": "這間醫院每天治療數百名患者。",
       "masked": "The hospital treats hundreds of ____ every day.",
       "options": [
-        "patient-06",
-        "patient-07",
-        "patient-08",
-        "patient-09",
-        "patient-10",
-        "patient-11"
+        "patient-mcq-05",
+        "patient-mcq-04",
+        "patient-mcq-06",
+        "patient-mcq-03",
+        "patient-mcq-07",
+        "patient-mcq-02"
       ],
-      "explanation": "留意語境：patient — noun = person receiving medical treatment（病人）。這裡指「病人；患者」。",
+      "explanation": "本句的「patients」指「正在接受醫療專業人員診斷、照顧或治療的人」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "patients"
       ],
       "optionReasons": {
-        "patient-06": "本句的意思是「病人；患者」。",
-        "patient-07": "「病人照護；患者護理」與本句語境不同。",
-        "patient-08": "「病人安全」與本句語境不同。",
-        "patient-09": "「住院病人 A useful medical family extension.」與本句語境不同。",
-        "patient-10": "「門診病人」與本句語境不同。",
-        "patient-11": "「耐心；耐性」與本句語境不同。"
-      }
+        "patient-mcq-05": "本句指「正在接受醫療專業人員診斷、照顧或治療的人」。",
+        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
+        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
+        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
+        "patient-mcq-02": "「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」是「patient with someone」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-05"
     },
     {
       "id": "patient-07-0",
-      "sense": "patient-07",
+      "sense": "patient-mcq-06",
       "en": "Good communication is essential to patient care.",
       "zh": "良好溝通對病人照護非常重要。",
       "masked": "Good communication is essential to ____.",
       "options": [
-        "patient-07",
-        "patient-08",
-        "patient-09",
-        "patient-10",
-        "patient-11",
-        "patient-12"
+        "patient-mcq-06",
+        "patient-mcq-05",
+        "patient-mcq-07",
+        "patient-mcq-04",
+        "patient-mcq-08",
+        "patient-mcq-03"
       ],
-      "explanation": "留意語境：patient care（醫療）。這裡指「病人照護；患者護理」。",
+      "explanation": "本句的「patient care」指「醫療人員為病人提供的治療、護理和支援」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "patient care"
       ],
       "optionReasons": {
-        "patient-07": "本句的意思是「病人照護；患者護理」。",
-        "patient-08": "「病人安全」與本句語境不同。",
-        "patient-09": "「住院病人 A useful medical family extension.」與本句語境不同。",
-        "patient-10": "「門診病人」與本句語境不同。",
-        "patient-11": "「耐心；耐性」與本句語境不同。",
-        "patient-12": "「耐性；包容」與本句語境不同。"
-      }
+        "patient-mcq-06": "本句指「醫療人員為病人提供的治療、護理和支援」。",
+        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
+        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
+        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
+        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
+        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-06"
     },
     {
       "id": "patient-07-1",
-      "sense": "patient-07",
+      "sense": "patient-mcq-06",
       "en": "The hospital is improving the quality of patient care.",
       "zh": "醫院正在改善患者照護質素。",
       "masked": "The hospital is improving the quality of ____.",
       "options": [
-        "patient-07",
-        "patient-08",
-        "patient-09",
-        "patient-10",
-        "patient-11",
-        "patient-12"
+        "patient-mcq-06",
+        "patient-mcq-05",
+        "patient-mcq-07",
+        "patient-mcq-04",
+        "patient-mcq-08",
+        "patient-mcq-03"
       ],
-      "explanation": "留意語境：patient care（醫療）。這裡指「病人照護；患者護理」。",
+      "explanation": "本句的「patient care」指「醫療人員為病人提供的治療、護理和支援」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "patient care"
       ],
       "optionReasons": {
-        "patient-07": "本句的意思是「病人照護；患者護理」。",
-        "patient-08": "「病人安全」與本句語境不同。",
-        "patient-09": "「住院病人 A useful medical family extension.」與本句語境不同。",
-        "patient-10": "「門診病人」與本句語境不同。",
-        "patient-11": "「耐心；耐性」與本句語境不同。",
-        "patient-12": "「耐性；包容」與本句語境不同。"
-      }
+        "patient-mcq-06": "本句指「醫療人員為病人提供的治療、護理和支援」。",
+        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
+        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
+        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
+        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
+        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-06"
     },
     {
       "id": "patient-08-0",
-      "sense": "patient-08",
+      "sense": "patient-mcq-07",
       "en": "The new system was introduced to improve patient safety.",
       "zh": "新系統是為了提升病人安全而引入的。",
       "masked": "The new system was introduced to improve ____.",
       "options": [
-        "patient-08",
-        "patient-09",
-        "patient-10",
-        "patient-11",
-        "patient-12",
-        "patient-13"
+        "patient-mcq-07",
+        "patient-mcq-06",
+        "patient-mcq-08",
+        "patient-mcq-05",
+        "patient-mcq-09",
+        "patient-mcq-04"
       ],
-      "explanation": "留意語境：patient safety。這裡指「病人安全」。",
+      "explanation": "本句的「patient safety」指「避免患者在接受醫療服務時受到可預防傷害的措施／原則」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "patient safety"
       ],
       "optionReasons": {
-        "patient-08": "本句的意思是「病人安全」。",
-        "patient-09": "「住院病人 A useful medical family extension.」與本句語境不同。",
-        "patient-10": "「門診病人」與本句語境不同。",
-        "patient-11": "「耐心；耐性」與本句語境不同。",
-        "patient-12": "「耐性；包容」與本句語境不同。",
-        "patient-13": "「有耐性」與本句語境不同。"
-      }
+        "patient-mcq-07": "本句指「避免患者在接受醫療服務時受到可預防傷害的措施／原則」。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
+        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
+        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
+        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
+        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-07"
     },
     {
       "id": "patient-08-1",
-      "sense": "patient-08",
+      "sense": "patient-mcq-07",
       "en": "Medication errors can affect patient safety.",
       "zh": "藥物錯誤可能影響患者安全。",
       "masked": "Medication errors can affect ____.",
       "options": [
-        "patient-08",
-        "patient-09",
-        "patient-10",
-        "patient-11",
-        "patient-12",
-        "patient-13"
+        "patient-mcq-07",
+        "patient-mcq-06",
+        "patient-mcq-08",
+        "patient-mcq-05",
+        "patient-mcq-09",
+        "patient-mcq-04"
       ],
-      "explanation": "留意語境：patient safety。這裡指「病人安全」。",
+      "explanation": "本句的「patient safety」指「避免患者在接受醫療服務時受到可預防傷害的措施／原則」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "patient safety"
       ],
       "optionReasons": {
-        "patient-08": "本句的意思是「病人安全」。",
-        "patient-09": "「住院病人 A useful medical family extension.」與本句語境不同。",
-        "patient-10": "「門診病人」與本句語境不同。",
-        "patient-11": "「耐心；耐性」與本句語境不同。",
-        "patient-12": "「耐性；包容」與本句語境不同。",
-        "patient-13": "「有耐性」與本句語境不同。"
-      }
+        "patient-mcq-07": "本句指「避免患者在接受醫療服務時受到可預防傷害的措施／原則」。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
+        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
+        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
+        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
+        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-07"
     },
     {
       "id": "patient-09-0",
-      "sense": "patient-09",
+      "sense": "patient-mcq-08",
       "en": "He was admitted as an inpatient.",
       "zh": "他被安排住院治療／成為住院病人。",
       "masked": "He was admitted as an ____.",
       "options": [
-        "patient-09",
-        "patient-10",
-        "patient-11",
-        "patient-12",
-        "patient-13",
-        "patient-14"
+        "patient-mcq-08",
+        "patient-mcq-07",
+        "patient-mcq-09",
+        "patient-mcq-06",
+        "patient-mcq-10",
+        "patient-mcq-05"
       ],
-      "explanation": "留意語境：inpatient =。這裡指「住院病人 A useful medical family extension.」。",
+      "explanation": "本句的「inpatient」指「入住醫院一段時間接受治療的病人」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "inpatient"
       ],
       "optionReasons": {
-        "patient-09": "本句的意思是「住院病人 A useful medical family extension.」。",
-        "patient-10": "「門診病人」與本句語境不同。",
-        "patient-11": "「耐心；耐性」與本句語境不同。",
-        "patient-12": "「耐性；包容」與本句語境不同。",
-        "patient-13": "「有耐性」與本句語境不同。",
-        "patient-14": "「失去耐性；開始不耐煩」與本句語境不同。"
-      }
+        "patient-mcq-08": "本句指「入住醫院一段時間接受治療的病人」。",
+        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
+        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
+        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
+        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-08"
     },
     {
       "id": "patient-09-1",
-      "sense": "patient-09",
+      "sense": "patient-mcq-08",
       "en": "The hospital provides both inpatient and outpatient services.",
       "zh": "醫院同時提供住院及門診服務。",
       "masked": "The hospital provides both ____ and outpatient services.",
       "options": [
-        "patient-09",
-        "patient-10",
-        "patient-11",
-        "patient-12",
-        "patient-13",
-        "patient-14"
+        "patient-mcq-08",
+        "patient-mcq-07",
+        "patient-mcq-09",
+        "patient-mcq-06",
+        "patient-mcq-10",
+        "patient-mcq-05"
       ],
-      "explanation": "留意語境：inpatient =。這裡指「住院病人 A useful medical family extension.」。",
+      "explanation": "本句的「inpatient」指「入住醫院一段時間接受治療的病人」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "inpatient"
       ],
       "optionReasons": {
-        "patient-09": "本句的意思是「住院病人 A useful medical family extension.」。",
-        "patient-10": "「門診病人」與本句語境不同。",
-        "patient-11": "「耐心；耐性」與本句語境不同。",
-        "patient-12": "「耐性；包容」與本句語境不同。",
-        "patient-13": "「有耐性」與本句語境不同。",
-        "patient-14": "「失去耐性；開始不耐煩」與本句語境不同。"
-      }
+        "patient-mcq-08": "本句指「入住醫院一段時間接受治療的病人」。",
+        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
+        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
+        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
+        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-08"
     },
     {
       "id": "patient-10-0",
-      "sense": "patient-10",
+      "sense": "patient-mcq-09",
       "en": "She received treatment as an outpatient.",
       "zh": "她以門診病人身份接受治療。",
       "masked": "She received treatment as an ____.",
       "options": [
-        "patient-10",
-        "patient-11",
-        "patient-12",
-        "patient-13",
-        "patient-14",
-        "patient-15"
+        "patient-mcq-09",
+        "patient-mcq-08",
+        "patient-mcq-10",
+        "patient-mcq-07",
+        "patient-mcq-11",
+        "patient-mcq-06"
       ],
-      "explanation": "留意語境：outpatient =。這裡指「門診病人」。",
+      "explanation": "本句的「outpatient」指「接受醫療服務但不需要入住醫院過夜的病人」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "outpatient"
       ],
       "optionReasons": {
-        "patient-10": "本句的意思是「門診病人」。",
-        "patient-11": "「耐心；耐性」與本句語境不同。",
-        "patient-12": "「耐性；包容」與本句語境不同。",
-        "patient-13": "「有耐性」與本句語境不同。",
-        "patient-14": "「失去耐性；開始不耐煩」與本句語境不同。",
-        "patient-15": "「耐性用盡」與本句語境不同。"
-      }
+        "patient-mcq-09": "本句指「接受醫療服務但不需要入住醫院過夜的病人」。",
+        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
+        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
+        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
+        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-09"
     },
     {
       "id": "patient-10-1",
-      "sense": "patient-10",
+      "sense": "patient-mcq-09",
       "en": "Most minor procedures are now performed on outpatients.",
       "zh": "現在很多較小型的醫療程序都以門診形式進行。",
       "masked": "Most minor procedures are now performed on ____.",
       "options": [
-        "patient-10",
-        "patient-11",
-        "patient-12",
-        "patient-13",
-        "patient-14",
-        "patient-15"
+        "patient-mcq-09",
+        "patient-mcq-08",
+        "patient-mcq-10",
+        "patient-mcq-07",
+        "patient-mcq-11",
+        "patient-mcq-06"
       ],
-      "explanation": "留意語境：outpatient =。這裡指「門診病人」。",
+      "explanation": "本句的「outpatients」指「接受醫療服務但不需要入住醫院過夜的病人」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "outpatients"
       ],
       "optionReasons": {
-        "patient-10": "本句的意思是「門診病人」。",
-        "patient-11": "「耐心；耐性」與本句語境不同。",
-        "patient-12": "「耐性；包容」與本句語境不同。",
-        "patient-13": "「有耐性」與本句語境不同。",
-        "patient-14": "「失去耐性；開始不耐煩」與本句語境不同。",
-        "patient-15": "「耐性用盡」與本句語境不同。"
-      }
+        "patient-mcq-09": "本句指「接受醫療服務但不需要入住醫院過夜的病人」。",
+        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
+        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
+        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
+        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
+        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-09"
     },
     {
       "id": "patient-11-0",
-      "sense": "patient-11",
+      "sense": "patient-mcq-10",
       "en": "She has a lot of patience.",
       "zh": "她非常有耐性。",
       "masked": "She has a lot of ____.",
       "options": [
-        "patient-11",
-        "patient-12",
-        "patient-13",
-        "patient-14",
-        "patient-15",
-        "patient-16"
+        "patient-mcq-10",
+        "patient-mcq-09",
+        "patient-mcq-11",
+        "patient-mcq-08",
+        "patient-mcq-12",
+        "patient-mcq-07"
       ],
-      "explanation": "留意語境：patience = ability to wait calmly（耐性）。這裡指「耐心；耐性」。",
+      "explanation": "本句的「patience」指「面對等待、困難或進展緩慢時仍能保持冷靜的能力」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "patience"
       ],
       "optionReasons": {
-        "patient-11": "本句的意思是「耐心；耐性」。",
-        "patient-12": "「耐性；包容」與本句語境不同。",
-        "patient-13": "「有耐性」與本句語境不同。",
-        "patient-14": "「失去耐性；開始不耐煩」與本句語境不同。",
-        "patient-15": "「耐性用盡」與本句語境不同。",
-        "patient-16": "「考驗某人的耐性」與本句語境不同。"
-      }
+        "patient-mcq-10": "本句指「面對等待、困難或進展緩慢時仍能保持冷靜的能力」。",
+        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
+        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
+        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
+        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
+        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-10"
     },
     {
       "id": "patient-11-1",
-      "sense": "patient-11",
+      "sense": "patient-mcq-10",
       "en": "Learning a language requires patience.",
       "zh": "學習語言需要耐性。",
       "masked": "Learning a language requires ____.",
       "options": [
-        "patient-11",
-        "patient-12",
-        "patient-13",
-        "patient-14",
-        "patient-15",
-        "patient-16"
+        "patient-mcq-10",
+        "patient-mcq-09",
+        "patient-mcq-11",
+        "patient-mcq-08",
+        "patient-mcq-12",
+        "patient-mcq-07"
       ],
-      "explanation": "留意語境：patience = ability to wait calmly（耐性）。這裡指「耐心；耐性」。",
+      "explanation": "本句的「patience」指「面對等待、困難或進展緩慢時仍能保持冷靜的能力」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "patience"
       ],
       "optionReasons": {
-        "patient-11": "本句的意思是「耐心；耐性」。",
-        "patient-12": "「耐性；包容」與本句語境不同。",
-        "patient-13": "「有耐性」與本句語境不同。",
-        "patient-14": "「失去耐性；開始不耐煩」與本句語境不同。",
-        "patient-15": "「耐性用盡」與本句語境不同。",
-        "patient-16": "「考驗某人的耐性」與本句語境不同。"
-      }
+        "patient-mcq-10": "本句指「面對等待、困難或進展緩慢時仍能保持冷靜的能力」。",
+        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
+        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
+        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
+        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
+        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-10"
     },
     {
       "id": "patient-12-0",
-      "sense": "patient-12",
+      "sense": "patient-mcq-11",
       "en": "She has endless patience with children.",
       "zh": "她對小孩有非常大的耐性。",
       "masked": "She has endless ____ children.",
       "options": [
-        "patient-12",
-        "patient-13",
-        "patient-14",
-        "patient-15",
-        "patient-16",
-        "patient-17"
+        "patient-mcq-11",
+        "patient-mcq-10",
+        "patient-mcq-12",
+        "patient-mcq-09",
+        "patient-mcq-13",
+        "patient-mcq-08"
       ],
-      "explanation": "留意語境：patience with + person/situation（對……的耐性）。這裡指「耐性；包容」。",
+      "explanation": "本句的「patience with」指「面對某人／某情況時所保持的耐性和包容」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "patience with"
       ],
       "optionReasons": {
-        "patient-12": "本句的意思是「耐性；包容」。",
-        "patient-13": "「有耐性」與本句語境不同。",
-        "patient-14": "「失去耐性；開始不耐煩」與本句語境不同。",
-        "patient-15": "「耐性用盡」與本句語境不同。",
-        "patient-16": "「考驗某人的耐性」與本句語境不同。",
-        "patient-17": "「耐心最終有回報」與本句語境不同。"
-      }
+        "patient-mcq-11": "本句指「面對某人／某情況時所保持的耐性和包容」。",
+        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
+        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
+        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
+        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
+        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-11"
     },
     {
       "id": "patient-12-1",
-      "sense": "patient-12",
+      "sense": "patient-mcq-11",
       "en": "Thank you for your patience with us.",
       "zh": "感謝你對我們的耐心和包容。",
       "masked": "Thank you for your ____ us.",
       "options": [
-        "patient-12",
-        "patient-13",
-        "patient-14",
-        "patient-15",
-        "patient-16",
-        "patient-17"
+        "patient-mcq-11",
+        "patient-mcq-10",
+        "patient-mcq-12",
+        "patient-mcq-09",
+        "patient-mcq-13",
+        "patient-mcq-08"
       ],
-      "explanation": "留意語境：patience with + person/situation（對……的耐性）。這裡指「耐性；包容」。",
+      "explanation": "本句的「patience with」指「面對某人／某情況時所保持的耐性和包容」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "patience with"
       ],
       "optionReasons": {
-        "patient-12": "本句的意思是「耐性；包容」。",
-        "patient-13": "「有耐性」與本句語境不同。",
-        "patient-14": "「失去耐性；開始不耐煩」與本句語境不同。",
-        "patient-15": "「耐性用盡」與本句語境不同。",
-        "patient-16": "「考驗某人的耐性」與本句語境不同。",
-        "patient-17": "「耐心最終有回報」與本句語境不同。"
-      }
+        "patient-mcq-11": "本句指「面對某人／某情況時所保持的耐性和包容」。",
+        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
+        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
+        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
+        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
+        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-11"
     },
     {
       "id": "patient-13-0",
-      "sense": "patient-13",
+      "sense": "patient-mcq-12",
       "en": "You need to have patience.",
       "zh": "你需要有耐性。",
       "masked": "You need to ____.",
       "options": [
-        "patient-13",
-        "patient-14",
-        "patient-15",
-        "patient-16",
-        "patient-17",
-        "patient-18"
+        "patient-mcq-12",
+        "patient-mcq-11",
+        "patient-mcq-13",
+        "patient-mcq-10",
+        "patient-mcq-14",
+        "patient-mcq-09"
       ],
-      "explanation": "留意語境：have patience。這裡指「有耐性」。",
+      "explanation": "本句的「have patience」指「具備等待和冷靜忍耐的能力」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "have patience"
       ],
       "optionReasons": {
-        "patient-13": "本句的意思是「有耐性」。",
-        "patient-14": "「失去耐性；開始不耐煩」與本句語境不同。",
-        "patient-15": "「耐性用盡」與本句語境不同。",
-        "patient-16": "「考驗某人的耐性」與本句語境不同。",
-        "patient-17": "「耐心最終有回報」與本句語境不同。",
-        "patient-18": "「耐心地」與本句語境不同。"
-      }
+        "patient-mcq-12": "本句指「具備等待和冷靜忍耐的能力」。",
+        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
+        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
+        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
+        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
+        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-12"
     },
     {
       "id": "patient-13-1",
-      "sense": "patient-13",
+      "sense": "patient-mcq-12",
       "en": "Have a little patience and let her finish.",
       "zh": "耐心一點，讓她先說完。",
       "masked": "Have a little ____ and let her finish.",
       "options": [
-        "patient-13",
-        "patient-14",
-        "patient-15",
-        "patient-16",
-        "patient-17",
-        "patient-18"
+        "patient-mcq-12",
+        "patient-mcq-11",
+        "patient-mcq-13",
+        "patient-mcq-10",
+        "patient-mcq-14",
+        "patient-mcq-09"
       ],
-      "explanation": "留意語境：have patience。這裡指「有耐性」。",
+      "explanation": "本句的「patience」指「具備等待和冷靜忍耐的能力」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "patience"
       ],
       "optionReasons": {
-        "patient-13": "本句的意思是「有耐性」。",
-        "patient-14": "「失去耐性；開始不耐煩」與本句語境不同。",
-        "patient-15": "「耐性用盡」與本句語境不同。",
-        "patient-16": "「考驗某人的耐性」與本句語境不同。",
-        "patient-17": "「耐心最終有回報」與本句語境不同。",
-        "patient-18": "「耐心地」與本句語境不同。"
-      }
+        "patient-mcq-12": "本句指「具備等待和冷靜忍耐的能力」。",
+        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
+        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
+        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
+        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
+        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-12"
     },
     {
       "id": "patient-14-0",
-      "sense": "patient-14",
+      "sense": "patient-mcq-13",
       "en": "He began to lose patience.",
       "zh": "他開始失去耐性／變得不耐煩。",
       "masked": "He began to ____.",
       "options": [
-        "patient-14",
-        "patient-15",
-        "patient-16",
-        "patient-17",
-        "patient-18",
-        "patient-19"
+        "patient-mcq-13",
+        "patient-mcq-12",
+        "patient-mcq-14",
+        "patient-mcq-11",
+        "patient-mcq-15",
+        "patient-mcq-10"
       ],
-      "explanation": "留意語境：lose patience。這裡指「失去耐性；開始不耐煩」。",
+      "explanation": "本句的「lose patience」指「因等待、反覆問題或挫折而不再能保持冷靜」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "lose patience"
       ],
       "optionReasons": {
-        "patient-14": "本句的意思是「失去耐性；開始不耐煩」。",
-        "patient-15": "「耐性用盡」與本句語境不同。",
-        "patient-16": "「考驗某人的耐性」與本句語境不同。",
-        "patient-17": "「耐心最終有回報」與本句語境不同。",
-        "patient-18": "「耐心地」與本句語境不同。",
-        "patient-19": "「沒耐性的；不耐煩的」與本句語境不同。"
-      }
+        "patient-mcq-13": "本句指「因等待、反覆問題或挫折而不再能保持冷靜」。",
+        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
+        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
+        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
+        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
+        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-13"
     },
     {
       "id": "patient-14-1",
-      "sense": "patient-14",
+      "sense": "patient-mcq-13",
       "en": "She rarely loses patience with her grandchildren.",
       "zh": "她很少對孫兒女失去耐性。",
       "masked": "She rarely ____ with her grandchildren.",
       "options": [
-        "patient-14",
-        "patient-15",
-        "patient-16",
-        "patient-17",
-        "patient-18",
-        "patient-19"
+        "patient-mcq-13",
+        "patient-mcq-12",
+        "patient-mcq-14",
+        "patient-mcq-11",
+        "patient-mcq-15",
+        "patient-mcq-10"
       ],
-      "explanation": "留意語境：lose patience。這裡指「失去耐性；開始不耐煩」。",
+      "explanation": "本句的「loses patience」指「因等待、反覆問題或挫折而不再能保持冷靜」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "loses patience"
       ],
       "optionReasons": {
-        "patient-14": "本句的意思是「失去耐性；開始不耐煩」。",
-        "patient-15": "「耐性用盡」與本句語境不同。",
-        "patient-16": "「考驗某人的耐性」與本句語境不同。",
-        "patient-17": "「耐心最終有回報」與本句語境不同。",
-        "patient-18": "「耐心地」與本句語境不同。",
-        "patient-19": "「沒耐性的；不耐煩的」與本句語境不同。"
-      }
+        "patient-mcq-13": "本句指「因等待、反覆問題或挫折而不再能保持冷靜」。",
+        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
+        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
+        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
+        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
+        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-13"
     },
     {
       "id": "patient-15-0",
-      "sense": "patient-15",
+      "sense": "patient-mcq-14",
       "en": "I’m beginning to run out of patience.",
       "zh": "我的耐性快要用盡了。",
       "masked": "I’m beginning to ____.",
       "options": [
-        "patient-15",
-        "patient-16",
-        "patient-17",
-        "patient-18",
-        "patient-19",
-        "patient-20"
+        "patient-mcq-14",
+        "patient-mcq-13",
+        "patient-mcq-15",
+        "patient-mcq-12",
+        "patient-mcq-16",
+        "patient-mcq-11"
       ],
-      "explanation": "留意語境：run out of patience。這裡指「耐性用盡」。",
+      "explanation": "本句的「run out of patience」指「忍耐已接近或達到極限」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "run out of patience"
       ],
       "optionReasons": {
-        "patient-15": "本句的意思是「耐性用盡」。",
-        "patient-16": "「考驗某人的耐性」與本句語境不同。",
-        "patient-17": "「耐心最終有回報」與本句語境不同。",
-        "patient-18": "「耐心地」與本句語境不同。",
-        "patient-19": "「沒耐性的；不耐煩的」與本句語境不同。",
-        "patient-20": "「對……失去耐性」與本句語境不同。"
-      }
+        "patient-mcq-14": "本句指「忍耐已接近或達到極限」。",
+        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
+        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
+        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
+        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
+        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-14"
     },
     {
       "id": "patient-15-1",
-      "sense": "patient-15",
+      "sense": "patient-mcq-14",
       "en": "After waiting for two hours, everyone ran out of patience.",
       "zh": "等了兩個小時後，大家都失去耐性了。",
       "masked": "After waiting for two hours, everyone ____.",
       "options": [
-        "patient-15",
-        "patient-16",
-        "patient-17",
-        "patient-18",
-        "patient-19",
-        "patient-20"
+        "patient-mcq-14",
+        "patient-mcq-13",
+        "patient-mcq-15",
+        "patient-mcq-12",
+        "patient-mcq-16",
+        "patient-mcq-11"
       ],
-      "explanation": "留意語境：run out of patience。這裡指「耐性用盡」。",
+      "explanation": "本句的「ran out of patience」指「忍耐已接近或達到極限」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "ran out of patience"
       ],
       "optionReasons": {
-        "patient-15": "本句的意思是「耐性用盡」。",
-        "patient-16": "「考驗某人的耐性」與本句語境不同。",
-        "patient-17": "「耐心最終有回報」與本句語境不同。",
-        "patient-18": "「耐心地」與本句語境不同。",
-        "patient-19": "「沒耐性的；不耐煩的」與本句語境不同。",
-        "patient-20": "「對……失去耐性」與本句語境不同。"
-      }
+        "patient-mcq-14": "本句指「忍耐已接近或達到極限」。",
+        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
+        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
+        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
+        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
+        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-14"
     },
     {
       "id": "patient-16-0",
-      "sense": "patient-16",
+      "sense": "patient-mcq-15",
       "en": "The repeated delays tested everyone's patience.",
       "zh": "一再延誤考驗了大家的耐性。",
       "masked": "The repeated delays ____.",
       "options": [
-        "patient-16",
-        "patient-17",
-        "patient-18",
-        "patient-19",
-        "patient-20",
-        "patient-21"
+        "patient-mcq-15",
+        "patient-mcq-14",
+        "patient-mcq-16",
+        "patient-mcq-13",
+        "patient-mcq-17",
+        "patient-mcq-12"
       ],
-      "explanation": "留意語境：test someone's patience。這裡指「考驗某人的耐性」。",
+      "explanation": "本句的「tested everyone's patience」指「令某人愈來愈難保持耐性」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "tested everyone's patience"
       ],
       "optionReasons": {
-        "patient-16": "本句的意思是「考驗某人的耐性」。",
-        "patient-17": "「耐心最終有回報」與本句語境不同。",
-        "patient-18": "「耐心地」與本句語境不同。",
-        "patient-19": "「沒耐性的；不耐煩的」與本句語境不同。",
-        "patient-20": "「對……失去耐性」與本句語境不同。",
-        "patient-21": "「急於；迫不及待」與本句語境不同。"
-      }
+        "patient-mcq-15": "本句指「令某人愈來愈難保持耐性」。",
+        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
+        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
+        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
+        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
+        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-15"
     },
     {
       "id": "patient-16-1",
-      "sense": "patient-16",
+      "sense": "patient-mcq-15",
       "en": "His constant interruptions were beginning to test her patience.",
       "zh": "他不斷插話，開始令她的耐性受到考驗。",
       "masked": "His constant interruptions were beginning to ____.",
       "options": [
-        "patient-16",
-        "patient-17",
-        "patient-18",
-        "patient-19",
-        "patient-20",
-        "patient-21"
+        "patient-mcq-15",
+        "patient-mcq-14",
+        "patient-mcq-16",
+        "patient-mcq-13",
+        "patient-mcq-17",
+        "patient-mcq-12"
       ],
-      "explanation": "留意語境：test someone's patience。這裡指「考驗某人的耐性」。",
+      "explanation": "本句的「test her patience」指「令某人愈來愈難保持耐性」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "test her patience"
       ],
       "optionReasons": {
-        "patient-16": "本句的意思是「考驗某人的耐性」。",
-        "patient-17": "「耐心最終有回報」與本句語境不同。",
-        "patient-18": "「耐心地」與本句語境不同。",
-        "patient-19": "「沒耐性的；不耐煩的」與本句語境不同。",
-        "patient-20": "「對……失去耐性」與本句語境不同。",
-        "patient-21": "「急於；迫不及待」與本句語境不同。"
-      }
+        "patient-mcq-15": "本句指「令某人愈來愈難保持耐性」。",
+        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
+        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
+        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
+        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
+        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-15"
     },
     {
       "id": "patient-17-0",
-      "sense": "patient-17",
+      "sense": "patient-mcq-16",
       "en": "Sometimes patience pays off.",
       "zh": "有時候有耐性最終會有回報。",
       "masked": "Sometimes ____.",
       "options": [
-        "patient-17",
-        "patient-18",
-        "patient-19",
-        "patient-20",
-        "patient-21",
-        "patient-22"
+        "patient-mcq-16",
+        "patient-mcq-15",
+        "patient-mcq-17",
+        "patient-mcq-14",
+        "patient-mcq-18",
+        "patient-mcq-13"
       ],
-      "explanation": "留意語境：patience pays off。這裡指「耐心最終有回報」。",
+      "explanation": "本句的「patience pays off」指「以冷靜、不急躁並願意等待的方式」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "patience pays off"
       ],
       "optionReasons": {
-        "patient-17": "本句的意思是「耐心最終有回報」。",
-        "patient-18": "「耐心地」與本句語境不同。",
-        "patient-19": "「沒耐性的；不耐煩的」與本句語境不同。",
-        "patient-20": "「對……失去耐性」與本句語境不同。",
-        "patient-21": "「急於；迫不及待」與本句語境不同。",
-        "patient-22": "「不耐煩；缺乏耐性」與本句語境不同。"
-      }
+        "patient-mcq-16": "本句指「以冷靜、不急躁並願意等待的方式」。",
+        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
+        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
+        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
+        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-16"
     },
     {
       "id": "patient-17-1",
-      "sense": "patient-17",
+      "sense": "patient-mcq-16",
       "en": "Her patience paid off when the project finally succeeded.",
       "zh": "當項目最終成功時，她的耐心終於得到回報。",
       "masked": "Her ____ paid off when the project finally succeeded.",
       "options": [
-        "patient-17",
-        "patient-18",
-        "patient-19",
-        "patient-20",
-        "patient-21",
-        "patient-22"
+        "patient-mcq-16",
+        "patient-mcq-15",
+        "patient-mcq-17",
+        "patient-mcq-14",
+        "patient-mcq-18",
+        "patient-mcq-13"
       ],
-      "explanation": "留意語境：patience pays off。這裡指「耐心最終有回報」。",
+      "explanation": "本句的「patience」指「以冷靜、不急躁並願意等待的方式」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "patience"
       ],
       "optionReasons": {
-        "patient-17": "本句的意思是「耐心最終有回報」。",
-        "patient-18": "「耐心地」與本句語境不同。",
-        "patient-19": "「沒耐性的；不耐煩的」與本句語境不同。",
-        "patient-20": "「對……失去耐性」與本句語境不同。",
-        "patient-21": "「急於；迫不及待」與本句語境不同。",
-        "patient-22": "「不耐煩；缺乏耐性」與本句語境不同。"
-      }
+        "patient-mcq-16": "本句指「以冷靜、不急躁並願意等待的方式」。",
+        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
+        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
+        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
+        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-16"
     },
     {
       "id": "patient-18-0",
-      "sense": "patient-18",
+      "sense": "patient-mcq-16",
       "en": "She listened patiently.",
       "zh": "她耐心地聆聽。",
       "masked": "She listened ____.",
       "options": [
-        "patient-18",
-        "patient-19",
-        "patient-20",
-        "patient-21",
-        "patient-22",
-        "patient-23"
+        "patient-mcq-16",
+        "patient-mcq-15",
+        "patient-mcq-17",
+        "patient-mcq-14",
+        "patient-mcq-18",
+        "patient-mcq-13"
       ],
-      "explanation": "留意語境：patiently = calmly without becoming annoyed（耐心地）。這裡指「耐心地」。",
+      "explanation": "本句的「patiently」指「以冷靜、不急躁並願意等待的方式」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "patiently"
       ],
       "optionReasons": {
-        "patient-18": "本句的意思是「耐心地」。",
-        "patient-19": "「沒耐性的；不耐煩的」與本句語境不同。",
-        "patient-20": "「對……失去耐性」與本句語境不同。",
-        "patient-21": "「急於；迫不及待」與本句語境不同。",
-        "patient-22": "「不耐煩；缺乏耐性」與本句語境不同。",
-        "patient-23": "「急切；迫不及待」與本句語境不同。"
-      }
+        "patient-mcq-16": "本句指「以冷靜、不急躁並願意等待的方式」。",
+        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
+        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
+        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
+        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-16"
     },
     {
       "id": "patient-18-1",
-      "sense": "patient-18",
+      "sense": "patient-mcq-16",
       "en": "He patiently explained the process again.",
       "zh": "他耐心地再次解釋整個過程。",
       "masked": "He ____ explained the process again.",
       "options": [
-        "patient-18",
-        "patient-19",
-        "patient-20",
-        "patient-21",
-        "patient-22",
-        "patient-23"
+        "patient-mcq-16",
+        "patient-mcq-15",
+        "patient-mcq-17",
+        "patient-mcq-14",
+        "patient-mcq-18",
+        "patient-mcq-13"
       ],
-      "explanation": "留意語境：patiently = calmly without becoming annoyed（耐心地）。這裡指「耐心地」。",
+      "explanation": "本句的「patiently」指「以冷靜、不急躁並願意等待的方式」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "patiently"
       ],
       "optionReasons": {
-        "patient-18": "本句的意思是「耐心地」。",
-        "patient-19": "「沒耐性的；不耐煩的」與本句語境不同。",
-        "patient-20": "「對……失去耐性」與本句語境不同。",
-        "patient-21": "「急於；迫不及待」與本句語境不同。",
-        "patient-22": "「不耐煩；缺乏耐性」與本句語境不同。",
-        "patient-23": "「急切；迫不及待」與本句語境不同。"
-      }
+        "patient-mcq-16": "本句指「以冷靜、不急躁並願意等待的方式」。",
+        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
+        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
+        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
+        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-16"
     },
     {
       "id": "patient-19-0",
-      "sense": "patient-19",
+      "sense": "patient-mcq-17",
       "en": "The children became impatient while waiting.",
       "zh": "孩子們等候期間開始變得不耐煩。",
       "masked": "The children became ____ while waiting.",
       "options": [
-        "patient-19",
-        "patient-20",
-        "patient-21",
-        "patient-22",
-        "patient-23",
-        "patient-24"
+        "patient-mcq-17",
+        "patient-mcq-16",
+        "patient-mcq-18",
+        "patient-mcq-15",
+        "patient-mcq-19",
+        "patient-mcq-14"
       ],
-      "explanation": "留意語境：impatient = unable/unwilling to wait calmly（不耐煩的）。這裡指「沒耐性的；不耐煩的」。",
+      "explanation": "本句的「impatient」指「難以忍受等待／緩慢，因此容易感到煩躁」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "impatient"
       ],
       "optionReasons": {
-        "patient-19": "本句的意思是「沒耐性的；不耐煩的」。",
-        "patient-20": "「對……失去耐性」與本句語境不同。",
-        "patient-21": "「急於；迫不及待」與本句語境不同。",
-        "patient-22": "「不耐煩；缺乏耐性」與本句語境不同。",
-        "patient-23": "「急切；迫不及待」與本句語境不同。",
-        "patient-24": "「不耐煩地；急切地」與本句語境不同。"
-      }
+        "patient-mcq-17": "本句指「難以忍受等待／緩慢，因此容易感到煩躁」。",
+        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
+        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
+        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
+        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-17"
     },
     {
       "id": "patient-19-1",
-      "sense": "patient-19",
+      "sense": "patient-mcq-17",
       "en": "Don't be so impatient.",
       "zh": "不要那麼沒耐性／不耐煩。",
       "masked": "Don't be so ____.",
       "options": [
-        "patient-19",
-        "patient-20",
-        "patient-21",
-        "patient-22",
-        "patient-23",
-        "patient-24"
+        "patient-mcq-17",
+        "patient-mcq-16",
+        "patient-mcq-18",
+        "patient-mcq-15",
+        "patient-mcq-19",
+        "patient-mcq-14"
       ],
-      "explanation": "留意語境：impatient = unable/unwilling to wait calmly（不耐煩的）。這裡指「沒耐性的；不耐煩的」。",
+      "explanation": "本句的「impatient」指「難以忍受等待／緩慢，因此容易感到煩躁」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "impatient"
       ],
       "optionReasons": {
-        "patient-19": "本句的意思是「沒耐性的；不耐煩的」。",
-        "patient-20": "「對……失去耐性」與本句語境不同。",
-        "patient-21": "「急於；迫不及待」與本句語境不同。",
-        "patient-22": "「不耐煩；缺乏耐性」與本句語境不同。",
-        "patient-23": "「急切；迫不及待」與本句語境不同。",
-        "patient-24": "「不耐煩地；急切地」與本句語境不同。"
-      }
+        "patient-mcq-17": "本句指「難以忍受等待／緩慢，因此容易感到煩躁」。",
+        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
+        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
+        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
+        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-17"
     },
     {
       "id": "patient-20-0",
-      "sense": "patient-20",
+      "sense": "patient-mcq-18",
       "en": "He became impatient with the slow service.",
       "zh": "他開始對緩慢的服務感到不耐煩。",
       "masked": "He became ____ the slow service.",
       "options": [
-        "patient-20",
-        "patient-21",
-        "patient-22",
-        "patient-23",
-        "patient-24",
-        "patient-01"
+        "patient-mcq-18",
+        "patient-mcq-17",
+        "patient-mcq-19",
+        "patient-mcq-16",
+        "patient-mcq-20",
+        "patient-mcq-15"
       ],
-      "explanation": "留意語境：impatient with + person/thing（對……不耐煩）。這裡指「對……失去耐性」。",
+      "explanation": "本句的「impatient with」指「對某人或某情況難以保持耐性」。",
       "sentenceIndex": 39,
       "sourcePractice": 40,
       "targets": [
         "impatient with"
       ],
       "optionReasons": {
-        "patient-20": "本句的意思是「對……失去耐性」。",
-        "patient-21": "「急於；迫不及待」與本句語境不同。",
-        "patient-22": "「不耐煩；缺乏耐性」與本句語境不同。",
-        "patient-23": "「急切；迫不及待」與本句語境不同。",
-        "patient-24": "「不耐煩地；急切地」與本句語境不同。",
-        "patient-01": "「有耐性的；耐心的」與本句語境不同。"
-      }
+        "patient-mcq-18": "本句指「對某人或某情況難以保持耐性」。",
+        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
+        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
+        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
+        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
+        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-18"
     },
     {
       "id": "patient-20-1",
-      "sense": "patient-20",
+      "sense": "patient-mcq-18",
       "en": "Try not to be impatient with beginners.",
       "zh": "盡量不要對初學者沒有耐性。",
       "masked": "Try not to be ____ beginners.",
       "options": [
-        "patient-20",
-        "patient-21",
-        "patient-22",
-        "patient-23",
-        "patient-24",
-        "patient-01"
+        "patient-mcq-18",
+        "patient-mcq-17",
+        "patient-mcq-19",
+        "patient-mcq-16",
+        "patient-mcq-20",
+        "patient-mcq-15"
       ],
-      "explanation": "留意語境：impatient with + person/thing（對……不耐煩）。這裡指「對……失去耐性」。",
+      "explanation": "本句的「impatient with」指「對某人或某情況難以保持耐性」。",
       "sentenceIndex": 40,
       "sourcePractice": 41,
       "targets": [
         "impatient with"
       ],
       "optionReasons": {
-        "patient-20": "本句的意思是「對……失去耐性」。",
-        "patient-21": "「急於；迫不及待」與本句語境不同。",
-        "patient-22": "「不耐煩；缺乏耐性」與本句語境不同。",
-        "patient-23": "「急切；迫不及待」與本句語境不同。",
-        "patient-24": "「不耐煩地；急切地」與本句語境不同。",
-        "patient-01": "「有耐性的；耐心的」與本句語境不同。"
-      }
+        "patient-mcq-18": "本句指「對某人或某情況難以保持耐性」。",
+        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
+        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
+        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
+        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
+        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-18"
     },
     {
       "id": "patient-21-0",
-      "sense": "patient-21",
+      "sense": "patient-mcq-19",
       "en": "She was impatient to hear the news.",
       "zh": "她急著想知道／迫不及待想聽那個消息。",
       "masked": "She was ____ the news.",
       "options": [
-        "patient-21",
-        "patient-22",
-        "patient-23",
-        "patient-24",
-        "patient-01",
-        "patient-02"
+        "patient-mcq-19",
+        "patient-mcq-18",
+        "patient-mcq-20",
+        "patient-mcq-17",
+        "patient-mcq-21",
+        "patient-mcq-16"
       ],
-      "explanation": "留意語境：impatient to + verb / for + event（急切想要……）。這裡指「急於；迫不及待」。",
+      "explanation": "本句的「impatient to hear」指「非常渴望某事盡快發生，因此迫不及待」。",
       "sentenceIndex": 41,
       "sourcePractice": 42,
       "targets": [
         "impatient to hear"
       ],
       "optionReasons": {
-        "patient-21": "本句的意思是「急於；迫不及待」。",
-        "patient-22": "「不耐煩；缺乏耐性」與本句語境不同。",
-        "patient-23": "「急切；迫不及待」與本句語境不同。",
-        "patient-24": "「不耐煩地；急切地」與本句語境不同。",
-        "patient-01": "「有耐性的；耐心的」與本句語境不同。",
-        "patient-02": "「對……有耐性；包容」與本句語境不同。"
-      }
+        "patient-mcq-19": "本句指「非常渴望某事盡快發生，因此迫不及待」。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
+        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
+        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
+        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
+        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-19"
     },
     {
       "id": "patient-21-1",
-      "sense": "patient-21",
+      "sense": "patient-mcq-19",
       "en": "The children were impatient for the holiday to begin.",
       "zh": "孩子們迫不及待地等著假期開始。",
       "masked": "The children were ____ the holiday to begin.",
       "options": [
-        "patient-21",
-        "patient-22",
-        "patient-23",
-        "patient-24",
-        "patient-01",
-        "patient-02"
+        "patient-mcq-19",
+        "patient-mcq-18",
+        "patient-mcq-20",
+        "patient-mcq-17",
+        "patient-mcq-21",
+        "patient-mcq-16"
       ],
-      "explanation": "留意語境：impatient to + verb / for + event（急切想要……）。這裡指「急於；迫不及待」。",
+      "explanation": "本句的「impatient for」指「非常渴望某事盡快發生，因此迫不及待」。",
       "sentenceIndex": 42,
       "sourcePractice": 43,
       "targets": [
         "impatient for"
       ],
       "optionReasons": {
-        "patient-21": "本句的意思是「急於；迫不及待」。",
-        "patient-22": "「不耐煩；缺乏耐性」與本句語境不同。",
-        "patient-23": "「急切；迫不及待」與本句語境不同。",
-        "patient-24": "「不耐煩地；急切地」與本句語境不同。",
-        "patient-01": "「有耐性的；耐心的」與本句語境不同。",
-        "patient-02": "「對……有耐性；包容」與本句語境不同。"
-      }
+        "patient-mcq-19": "本句指「非常渴望某事盡快發生，因此迫不及待」。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
+        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
+        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
+        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
+        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-19"
     },
     {
       "id": "patient-22-0",
-      "sense": "patient-22",
+      "sense": "patient-mcq-20",
       "en": "His impatience was obvious.",
       "zh": "他的不耐煩非常明顯。",
       "masked": "His ____ was obvious.",
       "options": [
-        "patient-22",
-        "patient-23",
-        "patient-24",
-        "patient-01",
-        "patient-02",
-        "patient-03"
+        "patient-mcq-20",
+        "patient-mcq-19",
+        "patient-mcq-21",
+        "patient-mcq-18",
+        "patient-mcq-22",
+        "patient-mcq-17"
       ],
-      "explanation": "留意語境：impatience = inability to wait calmly（不耐煩）。這裡指「不耐煩；缺乏耐性」。",
+      "explanation": "本句的「impatience」指「因等待或進展緩慢而產生的不耐煩和急躁」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "targets": [
         "impatience"
       ],
       "optionReasons": {
-        "patient-22": "本句的意思是「不耐煩；缺乏耐性」。",
-        "patient-23": "「急切；迫不及待」與本句語境不同。",
-        "patient-24": "「不耐煩地；急切地」與本句語境不同。",
-        "patient-01": "「有耐性的；耐心的」與本句語境不同。",
-        "patient-02": "「對……有耐性；包容」與本句語境不同。",
-        "patient-03": "「耐心處理」與本句語境不同。"
-      }
+        "patient-mcq-20": "本句指「因等待或進展緩慢而產生的不耐煩和急躁」。",
+        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
+        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
+        "patient-mcq-22": "「不要急躁，給事情、別人或自己足夠時間」是「4. be patient = 等一等；要有耐性」的用法，與本句語境不同。",
+        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-20"
     },
     {
       "id": "patient-22-1",
-      "sense": "patient-22",
+      "sense": "patient-mcq-20",
       "en": "She showed no impatience despite the delay.",
       "zh": "儘管出現延誤，她沒有表現出任何不耐煩。",
       "masked": "She showed no ____ despite the delay.",
       "options": [
-        "patient-22",
-        "patient-23",
-        "patient-24",
-        "patient-01",
-        "patient-02",
-        "patient-03"
+        "patient-mcq-20",
+        "patient-mcq-19",
+        "patient-mcq-21",
+        "patient-mcq-18",
+        "patient-mcq-22",
+        "patient-mcq-17"
       ],
-      "explanation": "留意語境：impatience = inability to wait calmly（不耐煩）。這裡指「不耐煩；缺乏耐性」。",
+      "explanation": "本句的「impatience」指「因等待或進展緩慢而產生的不耐煩和急躁」。",
       "sentenceIndex": 44,
       "sourcePractice": 45,
       "targets": [
         "impatience"
       ],
       "optionReasons": {
-        "patient-22": "本句的意思是「不耐煩；缺乏耐性」。",
-        "patient-23": "「急切；迫不及待」與本句語境不同。",
-        "patient-24": "「不耐煩地；急切地」與本句語境不同。",
-        "patient-01": "「有耐性的；耐心的」與本句語境不同。",
-        "patient-02": "「對……有耐性；包容」與本句語境不同。",
-        "patient-03": "「耐心處理」與本句語境不同。"
-      }
+        "patient-mcq-20": "本句指「因等待或進展緩慢而產生的不耐煩和急躁」。",
+        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
+        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
+        "patient-mcq-22": "「不要急躁，給事情、別人或自己足夠時間」是「4. be patient = 等一等；要有耐性」的用法，與本句語境不同。",
+        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-20"
     },
     {
       "id": "patient-23-0",
-      "sense": "patient-23",
+      "sense": "patient-mcq-21",
       "en": "She waited with impatience for the results.",
       "zh": "她急切地／迫不及待地等待結果。",
       "masked": "She waited with ____ for the results.",
       "options": [
-        "patient-23",
-        "patient-24",
-        "patient-01",
-        "patient-02",
-        "patient-03",
-        "patient-04"
+        "patient-mcq-21",
+        "patient-mcq-20",
+        "patient-mcq-22",
+        "patient-mcq-19",
+        "patient-mcq-23",
+        "patient-mcq-18"
       ],
-      "explanation": "留意語境：impatience = eagerness for something to happen（急切）。這裡指「急切；迫不及待」。",
+      "explanation": "本句的「impatience」指「強烈希望某件事立即發生、不願再等的急切感」。",
       "sentenceIndex": 45,
       "sourcePractice": 46,
       "targets": [
         "impatience"
       ],
       "optionReasons": {
-        "patient-23": "本句的意思是「急切；迫不及待」。",
-        "patient-24": "「不耐煩地；急切地」與本句語境不同。",
-        "patient-01": "「有耐性的；耐心的」與本句語境不同。",
-        "patient-02": "「對……有耐性；包容」與本句語境不同。",
-        "patient-03": "「耐心處理」與本句語境不同。",
-        "patient-04": "「等一等；要有耐性 A very common conversational expression.」與本句語境不同。"
-      }
+        "patient-mcq-21": "本句指「強烈希望某件事立即發生、不願再等的急切感」。",
+        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
+        "patient-mcq-22": "「不要急躁，給事情、別人或自己足夠時間」是「4. be patient = 等一等；要有耐性」的用法，與本句語境不同。",
+        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
+        "patient-mcq-23": "「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」是「24. impatiently = in an annoyed/eager way（不耐煩／急切地） — 不耐煩地；急切地」的用法，與本句語境不同。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-21"
     },
     {
       "id": "patient-23-1",
-      "sense": "patient-23",
+      "sense": "patient-mcq-21",
       "en": "His impatience to begin was obvious.",
       "zh": "他那種急著開始、迫不及待的心情非常明顯。",
       "masked": "His ____ to begin was obvious.",
       "options": [
-        "patient-23",
-        "patient-24",
-        "patient-01",
-        "patient-02",
-        "patient-03",
-        "patient-04"
+        "patient-mcq-21",
+        "patient-mcq-20",
+        "patient-mcq-22",
+        "patient-mcq-19",
+        "patient-mcq-23",
+        "patient-mcq-18"
       ],
-      "explanation": "留意語境：impatience = eagerness for something to happen（急切）。這裡指「急切；迫不及待」。",
+      "explanation": "本句的「impatience」指「強烈希望某件事立即發生、不願再等的急切感」。",
       "sentenceIndex": 46,
       "sourcePractice": 47,
       "targets": [
         "impatience"
       ],
       "optionReasons": {
-        "patient-23": "本句的意思是「急切；迫不及待」。",
-        "patient-24": "「不耐煩地；急切地」與本句語境不同。",
-        "patient-01": "「有耐性的；耐心的」與本句語境不同。",
-        "patient-02": "「對……有耐性；包容」與本句語境不同。",
-        "patient-03": "「耐心處理」與本句語境不同。",
-        "patient-04": "「等一等；要有耐性 A very common conversational expression.」與本句語境不同。"
-      }
+        "patient-mcq-21": "本句指「強烈希望某件事立即發生、不願再等的急切感」。",
+        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
+        "patient-mcq-22": "「不要急躁，給事情、別人或自己足夠時間」是「4. be patient = 等一等；要有耐性」的用法，與本句語境不同。",
+        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
+        "patient-mcq-23": "「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」是「24. impatiently = in an annoyed/eager way（不耐煩／急切地） — 不耐煩地；急切地」的用法，與本句語境不同。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-21"
     },
     {
       "id": "patient-24-0",
-      "sense": "patient-24",
+      "sense": "patient-mcq-23",
       "en": "He tapped his fingers impatiently.",
       "zh": "他不耐煩地用手指敲著桌面。",
       "masked": "He tapped his fingers ____.",
       "options": [
-        "patient-24",
-        "patient-01",
-        "patient-02",
-        "patient-03",
-        "patient-04",
-        "patient-05"
+        "patient-mcq-23",
+        "patient-mcq-22",
+        "patient-mcq-21",
+        "patient-mcq-20",
+        "patient-mcq-19",
+        "patient-mcq-18"
       ],
-      "explanation": "留意語境：impatiently = in an annoyed/eager way（不耐煩／急切地）。這裡指「不耐煩地；急切地」。",
+      "explanation": "本句的「impatiently」指「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」。",
       "sentenceIndex": 47,
       "sourcePractice": 48,
       "targets": [
         "impatiently"
       ],
       "optionReasons": {
-        "patient-24": "本句的意思是「不耐煩地；急切地」。",
-        "patient-01": "「有耐性的；耐心的」與本句語境不同。",
-        "patient-02": "「對……有耐性；包容」與本句語境不同。",
-        "patient-03": "「耐心處理」與本句語境不同。",
-        "patient-04": "「等一等；要有耐性 A very common conversational expression.」與本句語境不同。",
-        "patient-05": "「耐心的；不急於求成」與本句語境不同。"
-      }
+        "patient-mcq-23": "本句指「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」。",
+        "patient-mcq-22": "「不要急躁，給事情、別人或自己足夠時間」是「4. be patient = 等一等；要有耐性」的用法，與本句語境不同。",
+        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
+        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
+        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-23"
     },
     {
       "id": "patient-24-1",
-      "sense": "patient-24",
+      "sense": "patient-mcq-23",
       "en": "She waited impatiently for the announcement.",
       "zh": "她迫不及待地等候公布結果。",
       "masked": "She waited ____ for the announcement.",
       "options": [
-        "patient-24",
-        "patient-01",
-        "patient-02",
-        "patient-03",
-        "patient-04",
-        "patient-05"
+        "patient-mcq-23",
+        "patient-mcq-22",
+        "patient-mcq-21",
+        "patient-mcq-20",
+        "patient-mcq-19",
+        "patient-mcq-18"
       ],
-      "explanation": "留意語境：impatiently = in an annoyed/eager way（不耐煩／急切地）。這裡指「不耐煩地；急切地」。",
+      "explanation": "本句的「impatiently」指「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」。",
       "sentenceIndex": 48,
       "sourcePractice": 49,
       "targets": [
         "impatiently"
       ],
       "optionReasons": {
-        "patient-24": "本句的意思是「不耐煩地；急切地」。",
-        "patient-01": "「有耐性的；耐心的」與本句語境不同。",
-        "patient-02": "「對……有耐性；包容」與本句語境不同。",
-        "patient-03": "「耐心處理」與本句語境不同。",
-        "patient-04": "「等一等；要有耐性 A very common conversational expression.」與本句語境不同。",
-        "patient-05": "「耐心的；不急於求成」與本句語境不同。"
-      }
+        "patient-mcq-23": "本句指「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」。",
+        "patient-mcq-22": "「不要急躁，給事情、別人或自己足夠時間」是「4. be patient = 等一等；要有耐性」的用法，與本句語境不同。",
+        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
+        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
+        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
+        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。"
+      },
+      "correctOption": "patient-mcq-23"
     }
   ],
   "comparisons": [],
@@ -2136,5 +2004,6 @@ export default {
     "file": "144_patient_Polysemy Exercise.pdf",
     "sha256": "89ed5f22e2c4d89e4815b9273ac0fd6f294b00f53c8f1290d700e7dffbda80c6",
     "pages": 20
-  }
+  },
+  "mcqSource": "master-comparison"
 };
