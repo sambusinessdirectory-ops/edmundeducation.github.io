@@ -6,6 +6,7 @@ import {authored,plan} from './plan-native-english-redesign.mjs';
 
 const allocations=plan().rows.filter(row=>row.status==='draft-needs-editorial-review');
 assert.equal(allocations.length,authored.size);
+const answerPositions=[0,0,0,0];
 for(const allocation of allocations){
   const number=allocation.number;
   const draft=(await import(new URL(`../natural-english/lesson-${String(number).padStart(3,'0')}.mjs`,import.meta.url))).default;
@@ -31,6 +32,7 @@ for(const allocation of allocations){
     if(question.type==='mc'){
       assert.ok(question.options.includes(question.answers[0]),question.id);
       assert.equal(new Set(question.options).size,question.options.length,question.id);
+      if(question.options.length===4)answerPositions[question.options.indexOf(question.answers[0])]++;
     }else assert.equal(question.type,'blank',question.id);
   }
   for(const model of new Set([...draft.steps.map(step=>step.model).filter(Boolean),...draft.takeaways])){
@@ -41,4 +43,5 @@ for(const allocation of allocations){
     assert.match(createHash('sha256').update(bytes).digest('hex'),/^[0-9a-f]{64}$/);
   }
 }
+if(answerPositions.reduce((a,b)=>a+b,0)>=20)assert.ok(answerPositions.every(count=>count>=3),'answer positions must be distributed across A–D');
 console.log(`PASS: ${allocations.length} editorial drafts have five or six distinct styles, new progress IDs, no prompt/hint answer leaks, and existing model audio.`);

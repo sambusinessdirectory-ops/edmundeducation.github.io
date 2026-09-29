@@ -1,4 +1,4 @@
-const mc=(id,style,prompt,options,answer,explanation)=>({id,type:'mc',style,prompt,options,answers:[answer],explanation});
+import {mc} from './editorial-question.mjs';
 
 const questions=[
   mc('native-029-v2-reverse','reverse',
