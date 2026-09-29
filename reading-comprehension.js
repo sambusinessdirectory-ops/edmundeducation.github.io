@@ -703,7 +703,8 @@ function updateFloatingOffsets() {
   const headerHeight = $('.edmund-system-header')?.offsetHeight || 76;
   const progressHeight = state.view === 'exercise' ? $('[data-answer-progress-dock]').offsetHeight + 10 : 0;
   const toolbar = $('.study-toolbar');
-  const toolbarHeight = state.view === 'exercise' && getComputedStyle(toolbar).position === 'sticky' ? toolbar.offsetHeight + 12 : 0;
+  const toolbarHeight = isFullExamOpen() ? $('[data-full-exam-navigation]').offsetHeight + 12
+    : state.view === 'exercise' && getComputedStyle(toolbar).position === 'sticky' ? toolbar.offsetHeight + 12 : 0;
   document.documentElement.style.setProperty('--reading-header-height', `${headerHeight + 8}px`);
   document.documentElement.style.setProperty('--reading-progress-height', `${progressHeight}px`);
   document.documentElement.style.setProperty('--reading-tools-height', `${toolbarHeight}px`);
