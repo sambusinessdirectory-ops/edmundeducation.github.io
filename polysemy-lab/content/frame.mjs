@@ -2,1837 +2,1720 @@ export default {
   "id": "frame",
   "word": "frame",
   "number": 482,
-  "version": 1,
+  "version": 2,
   "mass": true,
   "senses": [
     {
-      "id": "frame-01",
-      "title": "畫框；相框",
-      "form": "frame = border around a picture/photo",
-      "en": "frame = border around a picture/photo",
-      "zh": "畫框；相框",
-      "note": "留意語境：frame = border around a picture/photo。這裡指「畫框；相框」。",
+      "id": "frame-mcq-01",
+      "title": "圍住並支撐畫作或照片的硬質邊框",
+      "form": "frame — artwork/photo",
+      "en": "frame — artwork/photo",
+      "zh": "圍住並支撐畫作或照片的硬質邊框",
+      "note": "來源詞義：圍住並支撐畫作或照片的硬質邊框",
       "examples": [
         [
           "The painting has a simple wooden frame.",
           "這幅畫配了一個簡單的木製畫框。",
-          "畫框；相框"
+          "圍住並支撐畫作或照片的硬質邊框"
         ],
         [
           "She put the photograph in a silver frame.",
           "她把照片放進一個銀色相框裡。",
-          "畫框；相框"
+          "圍住並支撐畫作或照片的硬質邊框"
         ]
       ],
-      "options": [
-        "frame-01",
-        "frame-02",
-        "frame-03",
-        "frame-04",
-        "frame-05",
-        "frame-06"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-02",
-      "title": "裝框；裱框",
-      "form": "frame = put a picture/photo in a frame",
-      "en": "frame = put a picture/photo in a frame",
-      "zh": "裝框；裱框",
-      "note": "留意語境：frame = put a picture/photo in a frame。這裡指「裝框；裱框」。",
+      "id": "frame-mcq-02",
+      "title": "把畫作、照片等固定在框內供展示",
+      "form": "frame — verb: artwork",
+      "en": "frame — verb: artwork",
+      "zh": "把畫作、照片等固定在框內供展示",
+      "note": "來源詞義：把畫作、照片等固定在框內供展示",
       "examples": [
         [
           "...once it was properly framed.",
           "等它被妥善裱框之後。",
-          "裝框；裱框"
+          "把畫作、照片等固定在框內供展示"
         ],
         [
           "We had the print professionally framed.",
           "我們請專業人士替那幅印刷品裝框。",
-          "裝框；裱框"
+          "把畫作、照片等固定在框內供展示"
         ]
       ],
-      "options": [
-        "frame-02",
-        "frame-03",
-        "frame-04",
-        "frame-05",
-        "frame-06",
-        "frame-07"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-03",
-      "title": "框架；骨架；架構",
-      "form": "frame = supporting structure of something",
-      "en": "frame = supporting structure of something",
-      "zh": "框架；骨架；架構",
-      "note": "留意語境：frame = supporting structure of something。這裡指「框架；骨架；架構」。",
+      "id": "frame-mcq-03",
+      "title": "支撐物件形狀、重量或結構的主要骨架",
+      "form": "frame — structure",
+      "en": "frame — structure",
+      "zh": "支撐物件形狀、重量或結構的主要骨架",
+      "note": "來源詞義：支撐物件形狀、重量或結構的主要骨架",
       "examples": [
         [
           "The building’s steel frame was completed first.",
           "建築物的鋼製骨架／框架先完成。",
-          "框架；骨架；架構"
+          "支撐物件形狀、重量或結構的主要骨架"
         ],
         [
           "The bicycle has a lightweight aluminium frame.",
           "這輛單車有一個輕量鋁製車架。",
-          "框架；骨架；架構"
+          "支撐物件形狀、重量或結構的主要骨架"
         ]
       ],
-      "options": [
-        "frame-03",
-        "frame-04",
-        "frame-05",
-        "frame-06",
-        "frame-07",
-        "frame-08"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-04",
-      "title": "門框；窗框 A highly common structural use.",
-      "form": "door/window frame =",
-      "en": "door/window frame =",
-      "zh": "門框；窗框 A highly common structural use.",
-      "note": "留意語境：door/window frame =。這裡指「門框；窗框 A highly common structural use.」。",
-      "examples": [
-        [
-          "The window frame needs repainting.",
-          "窗框需要重新上漆。",
-          "門框；窗框 A highly common structural use."
-        ],
-        [
-          "He leaned against the door frame.",
-          "他靠在門框上。",
-          "門框；窗框 A highly common structural use."
-        ]
-      ],
-      "options": [
-        "frame-04",
-        "frame-05",
-        "frame-06",
-        "frame-07",
-        "frame-08",
-        "frame-09"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "frame-05",
-      "title": "體格；骨架",
-      "form": "frame = body build / body structure",
-      "en": "frame = body build / body structure",
-      "zh": "體格；骨架",
-      "note": "留意語境：frame = body build / body structure。這裡指「體格；骨架」。",
+      "id": "frame-mcq-04",
+      "title": "一個人的骨骼大小及整體身體結構",
+      "form": "frame — body",
+      "en": "frame — body",
+      "zh": "一個人的骨骼大小及整體身體結構",
+      "note": "來源詞義：一個人的骨骼大小及整體身體結構",
       "examples": [
         [
           "He has a small frame.",
           "他的體格／骨架較小。",
-          "體格；骨架"
+          "一個人的骨骼大小及整體身體結構"
         ],
         [
           "She has a strong athletic frame.",
           "她有結實的運動型體格。",
-          "體格；骨架"
+          "一個人的骨骼大小及整體身體結構"
         ]
       ],
-      "options": [
-        "frame-05",
-        "frame-06",
-        "frame-07",
-        "frame-08",
-        "frame-09",
-        "frame-10"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-06",
-      "title": "眼鏡框",
-      "form": "frame = glasses frame",
-      "en": "frame = glasses frame",
-      "zh": "眼鏡框",
-      "note": "留意語境：frame = glasses frame。這裡指「眼鏡框」。",
+      "id": "frame-mcq-05",
+      "title": "固定鏡片並戴在臉上的支架",
+      "form": "frame — glasses",
+      "en": "frame — glasses",
+      "zh": "固定鏡片並戴在臉上的支架",
+      "note": "來源詞義：固定鏡片並戴在臉上的支架",
       "examples": [
         [
           "These glasses have thin metal frames.",
           "這副眼鏡有幼細的金屬鏡框。",
-          "眼鏡框"
+          "固定鏡片並戴在臉上的支架"
         ],
         [
           "She chose a black frame for her new glasses.",
           "她為新眼鏡選了一副黑色鏡框。",
-          "眼鏡框"
+          "固定鏡片並戴在臉上的支架"
         ]
       ],
-      "options": [
-        "frame-06",
-        "frame-07",
-        "frame-08",
-        "frame-09",
-        "frame-10",
-        "frame-11"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-07",
-      "title": "影格；幀",
-      "form": "frame = single image in film/video",
-      "en": "frame = single image in film/video",
-      "zh": "影格；幀",
-      "note": "留意語境：frame = single image in film/video。這裡指「影格；幀」。",
+      "id": "frame-mcq-06",
+      "title": "影片連續影像中的一個單獨畫面",
+      "form": "frame — video",
+      "en": "frame — video",
+      "zh": "影片連續影像中的一個單獨畫面",
+      "note": "來源詞義：影片連續影像中的一個單獨畫面",
       "examples": [
         [
           "The video freezes on one frame.",
           "影片停在其中一個影格／幀上。",
-          "影格；幀"
+          "影片連續影像中的一個單獨畫面"
         ],
         [
           "Each frame contains a slightly different image.",
           "每個影格都包含略有不同的畫面。",
-          "影格；幀"
+          "影片連續影像中的一個單獨畫面"
         ]
       ],
-      "options": [
-        "frame-07",
-        "frame-08",
-        "frame-09",
-        "frame-10",
-        "frame-11",
-        "frame-12"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-08",
-      "title": "幀率；影格率 A major technical compound.",
-      "form": "frame rate =",
-      "en": "frame rate =",
-      "zh": "幀率；影格率 A major technical compound.",
-      "note": "留意語境：frame rate =。這裡指「幀率；影格率 A major technical compound.」。",
+      "id": "frame-mcq-07",
+      "title": "每秒顯示／記錄的影格數量",
+      "form": "frame rate",
+      "en": "frame rate",
+      "zh": "每秒顯示／記錄的影格數量",
+      "note": "來源詞義：每秒顯示／記錄的影格數量",
       "examples": [
         [
           "The video was recorded at a high frame rate.",
           "影片以高幀率／影格率錄製。",
-          "幀率；影格率 A major technical compound."
+          "每秒顯示／記錄的影格數量"
         ],
         [
           "A higher frame rate can make motion look smoother.",
           "較高的幀率可以令動作看起來更流暢。",
-          "幀率；影格率 A major technical compound."
+          "每秒顯示／記錄的影格數量"
         ]
       ],
-      "options": [
-        "frame-08",
-        "frame-09",
-        "frame-10",
-        "frame-11",
-        "frame-12",
-        "frame-13"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-09",
-      "title": "畫面範圍；取景框",
-      "form": "frame = visual boundary/composition area",
-      "en": "frame = visual boundary/composition area",
-      "zh": "畫面範圍；取景框",
-      "note": "留意語境：frame = visual boundary/composition area。這裡指「畫面範圍；取景框」。",
+      "id": "frame-mcq-08",
+      "title": "相機／影片畫面所包含的可見範圍",
+      "form": "frame — camera view",
+      "en": "frame — camera view",
+      "zh": "相機／影片畫面所包含的可見範圍",
+      "note": "來源詞義：相機／影片畫面所包含的可見範圍",
       "examples": [
         [
           "Keep the subject in the centre of the frame.",
           "把主體放在畫面／取景框中央。",
-          "畫面範圍；取景框"
+          "相機／影片畫面所包含的可見範圍"
         ],
         [
           "A tree entered the frame from the left.",
           "一棵樹從左邊進入畫面。",
-          "畫面範圍；取景框"
+          "相機／影片畫面所包含的可見範圍"
         ]
       ],
-      "options": [
-        "frame-09",
-        "frame-10",
-        "frame-11",
-        "frame-12",
-        "frame-13",
-        "frame-14"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-10",
-      "title": "框架；理解角度",
-      "form": "frame = context/perspective used to understand something",
-      "en": "frame = context/perspective used to understand something",
-      "zh": "框架；理解角度",
-      "note": "留意語境：frame = context/perspective used to understand something。這裡指「框架；理解角度」。",
+      "id": "frame-mcq-09",
+      "title": "用來界定、組織或理解問題的觀點／概念結構",
+      "form": "frame — conceptual",
+      "en": "frame — conceptual",
+      "zh": "用來界定、組織或理解問題的觀點／概念結構",
+      "note": "來源詞義：用來界定、組織或理解問題的觀點／概念結構",
       "examples": [
         [
           "We need a different frame for understanding the problem.",
           "我們需要用不同的框架／角度理解這個問題。",
-          "框架；理解角度"
+          "用來界定、組織或理解問題的觀點／概念結構"
         ],
         [
           "The debate was presented within an economic frame.",
           "這場辯論是在經濟框架下呈現的。",
-          "框架；理解角度"
+          "用來界定、組織或理解問題的觀點／概念結構"
         ]
       ],
-      "options": [
-        "frame-10",
-        "frame-11",
-        "frame-12",
-        "frame-13",
-        "frame-14",
-        "frame-15"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-11",
-      "title": "以某種方式表述；界定",
-      "form": "frame = present/describe something from a particular angle",
-      "en": "frame = present/describe something from a particular angle",
-      "zh": "以某種方式表述；界定",
-      "note": "留意語境：frame = present/describe something from a particular angle。這裡指「以某種方式表述；界定」。",
+      "id": "frame-mcq-10",
+      "title": "透過特定角度、語言或重點呈現某事",
+      "form": "frame — presentation verb",
+      "en": "frame — presentation verb",
+      "zh": "透過特定角度、語言或重點呈現某事",
+      "note": "來源詞義：透過特定角度、語言或重點呈現某事",
       "examples": [
         [
           "She framed the issue as a question of fairness.",
           "她把這個問題界定／表述為公平問題。",
-          "以某種方式表述；界定"
+          "透過特定角度、語言或重點呈現某事"
         ],
         [
           "The report frames the change in positive terms.",
           "報告以正面的方式描述／界定這項改變。",
-          "以某種方式表述；界定"
+          "透過特定角度、語言或重點呈現某事"
         ]
       ],
-      "options": [
-        "frame-11",
-        "frame-12",
-        "frame-13",
-        "frame-14",
-        "frame-15",
-        "frame-16"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-12",
-      "title": "組織；擬定；表述 A related formal verb use.",
-      "form": "frame a question/argument =",
-      "en": "frame a question/argument =",
-      "zh": "組織；擬定；表述 A related formal verb use.",
-      "note": "留意語境：frame a question/argument =。這裡指「組織；擬定；表述 A related formal verb use.」。",
+      "id": "frame-mcq-11",
+      "title": "把問題／論點組織成特定形式",
+      "form": "frame a question",
+      "en": "frame a question",
+      "zh": "把問題／論點組織成特定形式",
+      "note": "來源詞義：把問題／論點組織成特定形式",
       "examples": [
         [
           "She carefully framed her question.",
           "她仔細組織／措辭自己的問題。",
-          "組織；擬定；表述 A related formal verb use."
+          "把問題／論點組織成特定形式"
         ],
         [
           "The argument was framed in simple language.",
           "這個論點用簡單語言表述。",
-          "組織；擬定；表述 A related formal verb use."
+          "把問題／論點組織成特定形式"
         ]
       ],
-      "options": [
-        "frame-12",
-        "frame-13",
-        "frame-14",
-        "frame-15",
-        "frame-16",
-        "frame-17"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-13",
-      "title": "栽贓；誣陷",
-      "form": "frame = falsely make someone appear guilty",
-      "en": "frame = falsely make someone appear guilty",
-      "zh": "栽贓；誣陷",
-      "note": "留意語境：frame = falsely make someone appear guilty。這裡指「栽贓；誣陷」。",
+      "id": "frame-mcq-12",
+      "title": "製造虛假證據令無辜的人看起來有罪；栽贓",
+      "form": "frame someone",
+      "en": "frame someone",
+      "zh": "製造虛假證據令無辜的人看起來有罪；栽贓",
+      "note": "來源詞義：製造虛假證據令無辜的人看起來有罪；栽贓",
       "examples": [
         [
           "He claimed that he had been framed.",
           "他聲稱自己被人栽贓／誣陷。",
-          "栽贓；誣陷"
+          "製造虛假證據令無辜的人看起來有罪；栽贓"
         ],
         [
           "Someone framed him for the theft.",
           "有人把那宗盜竊案栽贓給他。",
-          "栽贓；誣陷"
-        ]
-      ],
-      "options": [
-        "frame-13",
-        "frame-14",
-        "frame-15",
-        "frame-16",
-        "frame-17",
-        "frame-18"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "frame-14",
-      "title": "栽贓某人犯…… A key construction.",
-      "form": "frame someone for + crime =",
-      "en": "frame someone for + crime =",
-      "zh": "栽贓某人犯…… A key construction.",
-      "note": "留意語境：frame someone for + crime =。這裡指「栽贓某人犯…… A key construction.」。",
-      "examples": [
+          "製造虛假證據令無辜的人看起來有罪；栽贓"
+        ],
         [
           "She was framed for a crime she did not commit.",
           "她被栽贓犯下一宗自己沒有做過的罪行。",
-          "栽贓某人犯…… A key construction."
+          "製造虛假證據令無辜的人看起來有罪；栽贓"
         ],
         [
           "The evidence had been planted to frame him for fraud.",
           "有人放置虛假證據，企圖栽贓他詐騙。",
-          "栽贓某人犯…… A key construction."
+          "製造虛假證據令無辜的人看起來有罪；栽贓"
         ]
       ],
-      "options": [
-        "frame-14",
-        "frame-15",
-        "frame-16",
-        "frame-17",
-        "frame-18",
-        "frame-19"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-15",
-      "title": "搭建框架；架構",
-      "form": "frame = construct/build a supporting structure",
-      "en": "frame = construct/build a supporting structure",
-      "zh": "搭建框架；架構",
-      "note": "留意語境：frame = construct/build a supporting structure。這裡指「搭建框架；架構」。",
+      "id": "frame-mcq-13",
+      "title": "搭建物件／建築的支撐骨架",
+      "form": "frame — construction",
+      "en": "frame — construction",
+      "zh": "搭建物件／建築的支撐骨架",
+      "note": "來源詞義：搭建物件／建築的支撐骨架",
       "examples": [
         [
           "Workers framed the walls before installing the panels.",
           "工人先搭好牆身骨架，再安裝面板。",
-          "搭建框架；架構"
+          "搭建物件／建築的支撐骨架"
         ],
         [
           "The roof was framed with timber.",
           "屋頂以木材搭建骨架。",
-          "搭建框架；架構"
+          "搭建物件／建築的支撐骨架"
         ]
       ],
-      "options": [
-        "frame-15",
-        "frame-16",
-        "frame-17",
-        "frame-18",
-        "frame-19",
-        "frame-20"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-16",
-      "title": "被……環繞；襯托",
-      "form": "framed = surrounded/bordered by something",
-      "en": "framed = surrounded/bordered by something",
-      "zh": "被……環繞；襯托",
-      "note": "留意語境：framed = surrounded/bordered by something。這裡指「被……環繞；襯托」。",
+      "id": "frame-mcq-14",
+      "title": "被某物從四周圍住、襯托或突出",
+      "form": "be framed by",
+      "en": "be framed by",
+      "zh": "被某物從四周圍住、襯托或突出",
+      "note": "來源詞義：被某物從四周圍住、襯托或突出",
       "examples": [
         [
           "Her face was framed by dark hair.",
           "她的臉被深色頭髮環繞／襯托。",
-          "被……環繞；襯托"
+          "被某物從四周圍住、襯托或突出"
         ],
         [
           "The lake was framed by mountains.",
           "湖泊被群山環繞，形成天然畫框般的景色。",
-          "被……環繞；襯托"
+          "被某物從四周圍住、襯托或突出"
         ]
       ],
-      "options": [
-        "frame-16",
-        "frame-17",
-        "frame-18",
-        "frame-19",
-        "frame-20",
-        "frame-21"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-17",
-      "title": "時間範圍；時限",
-      "form": "frame = time frame",
-      "en": "frame = time frame",
-      "zh": "時間範圍；時限",
-      "note": "留意語境：frame = time frame。這裡指「時間範圍；時限」。",
+      "id": "frame-mcq-15",
+      "title": "某件事預計／允許發生或完成的時間範圍",
+      "form": "time frame",
+      "en": "time frame",
+      "zh": "某件事預計／允許發生或完成的時間範圍",
+      "note": "來源詞義：某件事預計／允許發生或完成的時間範圍",
       "examples": [
         [
           "The work must be completed within a short time frame.",
           "工作必須在很短的時間範圍／期限內完成。",
-          "時間範圍；時限"
+          "某件事預計／允許發生或完成的時間範圍"
         ],
         [
           "We need a realistic time frame for the project.",
           "我們需要為這個項目設定一個實際的時間表／時限。",
-          "時間範圍；時限"
+          "某件事預計／允許發生或完成的時間範圍"
         ]
       ],
-      "options": [
-        "frame-17",
-        "frame-18",
-        "frame-19",
-        "frame-20",
-        "frame-21",
-        "frame-01"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-18",
-      "title": "參照系；理解框架 A high-value academic/scientific expression.",
-      "form": "frame of reference =",
-      "en": "frame of reference =",
-      "zh": "參照系；理解框架 A high-value academic/scientific expression.",
-      "note": "留意語境：frame of reference =。這裡指「參照系；理解框架 A high-value academic/scientific expression.」。",
+      "id": "frame-mcq-16",
+      "title": "用來理解、判斷或測量事物的參照系統",
+      "form": "frame of reference",
+      "en": "frame of reference",
+      "zh": "用來理解、判斷或測量事物的參照系統",
+      "note": "來源詞義：用來理解、判斷或測量事物的參照系統",
       "examples": [
         [
           "People judge art from different frames of reference.",
           "人們會從不同的理解框架／參照角度評價藝術。",
-          "參照系；理解框架 A high-value academic/scientific expression."
+          "用來理解、判斷或測量事物的參照系統"
         ],
         [
           "Motion depends on the observer’s frame of reference.",
           "運動狀態取決於觀察者的參照系。",
-          "參照系；理解框架 A high-value academic/scientific expression."
+          "用來理解、判斷或測量事物的參照系統"
         ]
       ],
-      "options": [
-        "frame-18",
-        "frame-19",
-        "frame-20",
-        "frame-21",
-        "frame-01",
-        "frame-02"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-19",
-      "title": "心境；心態 A common fixed expression.",
-      "form": "frame of mind =",
-      "en": "frame of mind =",
-      "zh": "心境；心態 A common fixed expression.",
-      "note": "留意語境：frame of mind =。這裡指「心境；心態 A common fixed expression.」。",
+      "id": "frame-mcq-17",
+      "title": "某一刻的心理狀態或心境",
+      "form": "frame of mind",
+      "en": "frame of mind",
+      "zh": "某一刻的心理狀態或心境",
+      "note": "來源詞義：某一刻的心理狀態或心境",
       "examples": [
         [
           "I was not in the right frame of mind to work.",
           "我當時沒有適合工作的心境／狀態。",
-          "心境；心態 A common fixed expression."
+          "某一刻的心理狀態或心境"
         ],
         [
           "Music can put you in a calmer frame of mind.",
           "音樂可以讓你進入較平靜的心境。",
-          "心境；心態 A common fixed expression."
+          "某一刻的心理狀態或心境"
         ]
       ],
-      "options": [
-        "frame-19",
-        "frame-20",
-        "frame-21",
-        "frame-01",
-        "frame-02",
-        "frame-03"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-20",
-      "title": "議題框架；表述方式",
-      "form": "framing = way an issue is presented",
-      "en": "framing = way an issue is presented",
-      "zh": "議題框架；表述方式",
-      "note": "留意語境：framing = way an issue is presented。這裡指「議題框架；表述方式」。",
+      "id": "frame-mcq-18",
+      "title": "透過角度、字眼和重點設定某議題的呈現方式",
+      "form": "framing",
+      "en": "framing",
+      "zh": "透過角度、字眼和重點設定某議題的呈現方式",
+      "note": "來源詞義：透過角度、字眼和重點設定某議題的呈現方式",
       "examples": [
         [
           "The framing of the question influenced the answers.",
           "問題的表述方式／框架設定影響了答案。",
-          "議題框架；表述方式"
+          "透過角度、字眼和重點設定某議題的呈現方式"
         ],
         [
           "Media framing can shape how audiences understand an event.",
           "媒體的框架方式可能影響觀眾如何理解事件。",
-          "議題框架；表述方式"
+          "透過角度、字眼和重點設定某議題的呈現方式"
         ]
       ],
-      "options": [
-        "frame-20",
-        "frame-21",
-        "frame-01",
-        "frame-02",
-        "frame-03",
-        "frame-04"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "frame-21",
-      "title": "框架效應",
-      "form": "framing effect（心理學）",
-      "en": "framing effect（心理學）",
-      "zh": "框架效應",
-      "note": "留意語境：framing effect（心理學）。這裡指「框架效應」。",
+      "id": "frame-mcq-19",
+      "title": "同樣資訊因表達框架不同而改變判斷的心理現象",
+      "form": "framing effect",
+      "en": "framing effect",
+      "zh": "同樣資訊因表達框架不同而改變判斷的心理現象",
+      "note": "來源詞義：同樣資訊因表達框架不同而改變判斷的心理現象",
       "examples": [
         [
           "The framing effect can influence decisions.",
           "框架效應可以影響決策。",
-          "框架效應"
+          "同樣資訊因表達框架不同而改變判斷的心理現象"
         ],
         [
           "People responded differently when the same choice was framed as a gain rather than a loss.",
           "當同一選擇被表述成獲益而不是損失時，人們的反應不同，這就是框架效應。",
-          "框架效應"
+          "同樣資訊因表達框架不同而改變判斷的心理現象"
         ]
       ],
-      "options": [
-        "frame-21",
-        "frame-01",
-        "frame-02",
-        "frame-03",
-        "frame-04",
-        "frame-05"
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "frame-mcq-20",
+      "title": "圍繞門、窗等開口並支撐其結構的邊框",
+      "form": "4. door/window frame = 門框；窗框",
+      "en": "4. door/window frame = 門框；窗框",
+      "zh": "圍繞門、窗等開口並支撐其結構的邊框",
+      "note": "來源詞義：圍繞門、窗等開口並支撐其結構的邊框",
+      "examples": [
+        [
+          "The window frame needs repainting.",
+          "窗框需要重新上漆。",
+          "圍繞門、窗等開口並支撐其結構的邊框"
+        ],
+        [
+          "He leaned against the door frame.",
+          "他靠在門框上。",
+          "圍繞門、窗等開口並支撐其結構的邊框"
+        ]
       ],
+      "options": [],
       "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "frame-01-0",
-      "sense": "frame-01",
+      "sense": "frame-mcq-01",
       "en": "The painting has a simple wooden frame.",
       "zh": "這幅畫配了一個簡單的木製畫框。",
       "masked": "The painting has a simple wooden ____.",
       "options": [
-        "frame-01",
-        "frame-02",
-        "frame-03",
-        "frame-04",
-        "frame-05",
-        "frame-06"
+        "frame-mcq-01",
+        "frame-mcq-02",
+        "frame-mcq-03",
+        "frame-mcq-04",
+        "frame-mcq-05",
+        "frame-mcq-06"
       ],
-      "explanation": "留意語境：frame = border around a picture/photo。這裡指「畫框；相框」。",
+      "explanation": "本句的「frame」指「圍住並支撐畫作或照片的硬質邊框」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-01": "本句的意思是「畫框；相框」。",
-        "frame-02": "「裝框；裱框」與本句語境不同。",
-        "frame-03": "「框架；骨架；架構」與本句語境不同。",
-        "frame-04": "「門框；窗框 A highly common structural use.」與本句語境不同。",
-        "frame-05": "「體格；骨架」與本句語境不同。",
-        "frame-06": "「眼鏡框」與本句語境不同。"
-      }
+        "frame-mcq-01": "本句指「圍住並支撐畫作或照片的硬質邊框」。",
+        "frame-mcq-02": "「把畫作、照片等固定在框內供展示」是「frame — verb: artwork」的用法，與本句語境不同。",
+        "frame-mcq-03": "「支撐物件形狀、重量或結構的主要骨架」是「frame — structure」的用法，與本句語境不同。",
+        "frame-mcq-04": "「一個人的骨骼大小及整體身體結構」是「frame — body」的用法，與本句語境不同。",
+        "frame-mcq-05": "「固定鏡片並戴在臉上的支架」是「frame — glasses」的用法，與本句語境不同。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-01"
     },
     {
       "id": "frame-01-1",
-      "sense": "frame-01",
+      "sense": "frame-mcq-01",
       "en": "She put the photograph in a silver frame.",
       "zh": "她把照片放進一個銀色相框裡。",
       "masked": "She put the photograph in a silver ____.",
       "options": [
-        "frame-01",
-        "frame-02",
-        "frame-03",
-        "frame-04",
-        "frame-05",
-        "frame-06"
+        "frame-mcq-01",
+        "frame-mcq-02",
+        "frame-mcq-03",
+        "frame-mcq-04",
+        "frame-mcq-05",
+        "frame-mcq-06"
       ],
-      "explanation": "留意語境：frame = border around a picture/photo。這裡指「畫框；相框」。",
+      "explanation": "本句的「frame」指「圍住並支撐畫作或照片的硬質邊框」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-01": "本句的意思是「畫框；相框」。",
-        "frame-02": "「裝框；裱框」與本句語境不同。",
-        "frame-03": "「框架；骨架；架構」與本句語境不同。",
-        "frame-04": "「門框；窗框 A highly common structural use.」與本句語境不同。",
-        "frame-05": "「體格；骨架」與本句語境不同。",
-        "frame-06": "「眼鏡框」與本句語境不同。"
-      }
+        "frame-mcq-01": "本句指「圍住並支撐畫作或照片的硬質邊框」。",
+        "frame-mcq-02": "「把畫作、照片等固定在框內供展示」是「frame — verb: artwork」的用法，與本句語境不同。",
+        "frame-mcq-03": "「支撐物件形狀、重量或結構的主要骨架」是「frame — structure」的用法，與本句語境不同。",
+        "frame-mcq-04": "「一個人的骨骼大小及整體身體結構」是「frame — body」的用法，與本句語境不同。",
+        "frame-mcq-05": "「固定鏡片並戴在臉上的支架」是「frame — glasses」的用法，與本句語境不同。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-01"
     },
     {
       "id": "frame-02-0",
-      "sense": "frame-02",
+      "sense": "frame-mcq-02",
       "en": "...once it was properly framed.",
       "zh": "等它被妥善裱框之後。",
       "masked": "...once it was properly ____.",
       "options": [
-        "frame-02",
-        "frame-03",
-        "frame-04",
-        "frame-05",
-        "frame-06",
-        "frame-07"
+        "frame-mcq-02",
+        "frame-mcq-01",
+        "frame-mcq-03",
+        "frame-mcq-04",
+        "frame-mcq-05",
+        "frame-mcq-06"
       ],
-      "explanation": "留意語境：frame = put a picture/photo in a frame。這裡指「裝框；裱框」。",
+      "explanation": "本句的「framed」指「把畫作、照片等固定在框內供展示」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "framed"
       ],
       "optionReasons": {
-        "frame-02": "本句的意思是「裝框；裱框」。",
-        "frame-03": "「框架；骨架；架構」與本句語境不同。",
-        "frame-04": "「門框；窗框 A highly common structural use.」與本句語境不同。",
-        "frame-05": "「體格；骨架」與本句語境不同。",
-        "frame-06": "「眼鏡框」與本句語境不同。",
-        "frame-07": "「影格；幀」與本句語境不同。"
-      }
+        "frame-mcq-02": "本句指「把畫作、照片等固定在框內供展示」。",
+        "frame-mcq-01": "「圍住並支撐畫作或照片的硬質邊框」是「frame — artwork/photo」的用法，與本句語境不同。",
+        "frame-mcq-03": "「支撐物件形狀、重量或結構的主要骨架」是「frame — structure」的用法，與本句語境不同。",
+        "frame-mcq-04": "「一個人的骨骼大小及整體身體結構」是「frame — body」的用法，與本句語境不同。",
+        "frame-mcq-05": "「固定鏡片並戴在臉上的支架」是「frame — glasses」的用法，與本句語境不同。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-02"
     },
     {
       "id": "frame-02-1",
-      "sense": "frame-02",
+      "sense": "frame-mcq-02",
       "en": "We had the print professionally framed.",
       "zh": "我們請專業人士替那幅印刷品裝框。",
       "masked": "We had the print professionally ____.",
       "options": [
-        "frame-02",
-        "frame-03",
-        "frame-04",
-        "frame-05",
-        "frame-06",
-        "frame-07"
+        "frame-mcq-02",
+        "frame-mcq-01",
+        "frame-mcq-03",
+        "frame-mcq-04",
+        "frame-mcq-05",
+        "frame-mcq-06"
       ],
-      "explanation": "留意語境：frame = put a picture/photo in a frame。這裡指「裝框；裱框」。",
+      "explanation": "本句的「framed」指「把畫作、照片等固定在框內供展示」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "framed"
       ],
       "optionReasons": {
-        "frame-02": "本句的意思是「裝框；裱框」。",
-        "frame-03": "「框架；骨架；架構」與本句語境不同。",
-        "frame-04": "「門框；窗框 A highly common structural use.」與本句語境不同。",
-        "frame-05": "「體格；骨架」與本句語境不同。",
-        "frame-06": "「眼鏡框」與本句語境不同。",
-        "frame-07": "「影格；幀」與本句語境不同。"
-      }
+        "frame-mcq-02": "本句指「把畫作、照片等固定在框內供展示」。",
+        "frame-mcq-01": "「圍住並支撐畫作或照片的硬質邊框」是「frame — artwork/photo」的用法，與本句語境不同。",
+        "frame-mcq-03": "「支撐物件形狀、重量或結構的主要骨架」是「frame — structure」的用法，與本句語境不同。",
+        "frame-mcq-04": "「一個人的骨骼大小及整體身體結構」是「frame — body」的用法，與本句語境不同。",
+        "frame-mcq-05": "「固定鏡片並戴在臉上的支架」是「frame — glasses」的用法，與本句語境不同。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-02"
     },
     {
       "id": "frame-03-0",
-      "sense": "frame-03",
+      "sense": "frame-mcq-03",
       "en": "The building’s steel frame was completed first.",
       "zh": "建築物的鋼製骨架／框架先完成。",
       "masked": "The building’s steel ____ was completed first.",
       "options": [
-        "frame-03",
-        "frame-04",
-        "frame-05",
-        "frame-06",
-        "frame-07",
-        "frame-08"
+        "frame-mcq-03",
+        "frame-mcq-02",
+        "frame-mcq-04",
+        "frame-mcq-01",
+        "frame-mcq-05",
+        "frame-mcq-06"
       ],
-      "explanation": "留意語境：frame = supporting structure of something。這裡指「框架；骨架；架構」。",
+      "explanation": "本句的「frame」指「支撐物件形狀、重量或結構的主要骨架」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-03": "本句的意思是「框架；骨架；架構」。",
-        "frame-04": "「門框；窗框 A highly common structural use.」與本句語境不同。",
-        "frame-05": "「體格；骨架」與本句語境不同。",
-        "frame-06": "「眼鏡框」與本句語境不同。",
-        "frame-07": "「影格；幀」與本句語境不同。",
-        "frame-08": "「幀率；影格率 A major technical compound.」與本句語境不同。"
-      }
+        "frame-mcq-03": "本句指「支撐物件形狀、重量或結構的主要骨架」。",
+        "frame-mcq-02": "「把畫作、照片等固定在框內供展示」是「frame — verb: artwork」的用法，與本句語境不同。",
+        "frame-mcq-04": "「一個人的骨骼大小及整體身體結構」是「frame — body」的用法，與本句語境不同。",
+        "frame-mcq-01": "「圍住並支撐畫作或照片的硬質邊框」是「frame — artwork/photo」的用法，與本句語境不同。",
+        "frame-mcq-05": "「固定鏡片並戴在臉上的支架」是「frame — glasses」的用法，與本句語境不同。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-03"
     },
     {
       "id": "frame-03-1",
-      "sense": "frame-03",
+      "sense": "frame-mcq-03",
       "en": "The bicycle has a lightweight aluminium frame.",
       "zh": "這輛單車有一個輕量鋁製車架。",
       "masked": "The bicycle has a lightweight aluminium ____.",
       "options": [
-        "frame-03",
-        "frame-04",
-        "frame-05",
-        "frame-06",
-        "frame-07",
-        "frame-08"
+        "frame-mcq-03",
+        "frame-mcq-02",
+        "frame-mcq-04",
+        "frame-mcq-01",
+        "frame-mcq-05",
+        "frame-mcq-06"
       ],
-      "explanation": "留意語境：frame = supporting structure of something。這裡指「框架；骨架；架構」。",
+      "explanation": "本句的「frame」指「支撐物件形狀、重量或結構的主要骨架」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-03": "本句的意思是「框架；骨架；架構」。",
-        "frame-04": "「門框；窗框 A highly common structural use.」與本句語境不同。",
-        "frame-05": "「體格；骨架」與本句語境不同。",
-        "frame-06": "「眼鏡框」與本句語境不同。",
-        "frame-07": "「影格；幀」與本句語境不同。",
-        "frame-08": "「幀率；影格率 A major technical compound.」與本句語境不同。"
-      }
+        "frame-mcq-03": "本句指「支撐物件形狀、重量或結構的主要骨架」。",
+        "frame-mcq-02": "「把畫作、照片等固定在框內供展示」是「frame — verb: artwork」的用法，與本句語境不同。",
+        "frame-mcq-04": "「一個人的骨骼大小及整體身體結構」是「frame — body」的用法，與本句語境不同。",
+        "frame-mcq-01": "「圍住並支撐畫作或照片的硬質邊框」是「frame — artwork/photo」的用法，與本句語境不同。",
+        "frame-mcq-05": "「固定鏡片並戴在臉上的支架」是「frame — glasses」的用法，與本句語境不同。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-03"
     },
     {
       "id": "frame-04-0",
-      "sense": "frame-04",
+      "sense": "frame-mcq-20",
       "en": "The window frame needs repainting.",
       "zh": "窗框需要重新上漆。",
       "masked": "The ____ needs repainting.",
       "options": [
-        "frame-04",
-        "frame-05",
-        "frame-06",
-        "frame-07",
-        "frame-08",
-        "frame-09"
+        "frame-mcq-20",
+        "frame-mcq-19",
+        "frame-mcq-18",
+        "frame-mcq-17",
+        "frame-mcq-16",
+        "frame-mcq-15"
       ],
-      "explanation": "留意語境：door/window frame =。這裡指「門框；窗框 A highly common structural use.」。",
+      "explanation": "本句的「window frame」指「圍繞門、窗等開口並支撐其結構的邊框」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "window frame"
       ],
       "optionReasons": {
-        "frame-04": "本句的意思是「門框；窗框 A highly common structural use.」。",
-        "frame-05": "「體格；骨架」與本句語境不同。",
-        "frame-06": "「眼鏡框」與本句語境不同。",
-        "frame-07": "「影格；幀」與本句語境不同。",
-        "frame-08": "「幀率；影格率 A major technical compound.」與本句語境不同。",
-        "frame-09": "「畫面範圍；取景框」與本句語境不同。"
-      }
+        "frame-mcq-20": "本句指「圍繞門、窗等開口並支撐其結構的邊框」。",
+        "frame-mcq-19": "「同樣資訊因表達框架不同而改變判斷的心理現象」是「framing effect」的用法，與本句語境不同。",
+        "frame-mcq-18": "「透過角度、字眼和重點設定某議題的呈現方式」是「framing」的用法，與本句語境不同。",
+        "frame-mcq-17": "「某一刻的心理狀態或心境」是「frame of mind」的用法，與本句語境不同。",
+        "frame-mcq-16": "「用來理解、判斷或測量事物的參照系統」是「frame of reference」的用法，與本句語境不同。",
+        "frame-mcq-15": "「某件事預計／允許發生或完成的時間範圍」是「time frame」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-20"
     },
     {
       "id": "frame-04-1",
-      "sense": "frame-04",
+      "sense": "frame-mcq-20",
       "en": "He leaned against the door frame.",
       "zh": "他靠在門框上。",
       "masked": "He leaned against the door ____.",
       "options": [
-        "frame-04",
-        "frame-05",
-        "frame-06",
-        "frame-07",
-        "frame-08",
-        "frame-09"
+        "frame-mcq-20",
+        "frame-mcq-19",
+        "frame-mcq-18",
+        "frame-mcq-17",
+        "frame-mcq-16",
+        "frame-mcq-15"
       ],
-      "explanation": "留意語境：door/window frame =。這裡指「門框；窗框 A highly common structural use.」。",
+      "explanation": "本句的「frame」指「圍繞門、窗等開口並支撐其結構的邊框」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-04": "本句的意思是「門框；窗框 A highly common structural use.」。",
-        "frame-05": "「體格；骨架」與本句語境不同。",
-        "frame-06": "「眼鏡框」與本句語境不同。",
-        "frame-07": "「影格；幀」與本句語境不同。",
-        "frame-08": "「幀率；影格率 A major technical compound.」與本句語境不同。",
-        "frame-09": "「畫面範圍；取景框」與本句語境不同。"
-      }
+        "frame-mcq-20": "本句指「圍繞門、窗等開口並支撐其結構的邊框」。",
+        "frame-mcq-19": "「同樣資訊因表達框架不同而改變判斷的心理現象」是「framing effect」的用法，與本句語境不同。",
+        "frame-mcq-18": "「透過角度、字眼和重點設定某議題的呈現方式」是「framing」的用法，與本句語境不同。",
+        "frame-mcq-17": "「某一刻的心理狀態或心境」是「frame of mind」的用法，與本句語境不同。",
+        "frame-mcq-16": "「用來理解、判斷或測量事物的參照系統」是「frame of reference」的用法，與本句語境不同。",
+        "frame-mcq-15": "「某件事預計／允許發生或完成的時間範圍」是「time frame」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-20"
     },
     {
       "id": "frame-05-0",
-      "sense": "frame-05",
+      "sense": "frame-mcq-04",
       "en": "He has a small frame.",
       "zh": "他的體格／骨架較小。",
       "masked": "He has a small ____.",
       "options": [
-        "frame-05",
-        "frame-06",
-        "frame-07",
-        "frame-08",
-        "frame-09",
-        "frame-10"
+        "frame-mcq-04",
+        "frame-mcq-03",
+        "frame-mcq-05",
+        "frame-mcq-02",
+        "frame-mcq-06",
+        "frame-mcq-01"
       ],
-      "explanation": "留意語境：frame = body build / body structure。這裡指「體格；骨架」。",
+      "explanation": "本句的「frame」指「一個人的骨骼大小及整體身體結構」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-05": "本句的意思是「體格；骨架」。",
-        "frame-06": "「眼鏡框」與本句語境不同。",
-        "frame-07": "「影格；幀」與本句語境不同。",
-        "frame-08": "「幀率；影格率 A major technical compound.」與本句語境不同。",
-        "frame-09": "「畫面範圍；取景框」與本句語境不同。",
-        "frame-10": "「框架；理解角度」與本句語境不同。"
-      }
+        "frame-mcq-04": "本句指「一個人的骨骼大小及整體身體結構」。",
+        "frame-mcq-03": "「支撐物件形狀、重量或結構的主要骨架」是「frame — structure」的用法，與本句語境不同。",
+        "frame-mcq-05": "「固定鏡片並戴在臉上的支架」是「frame — glasses」的用法，與本句語境不同。",
+        "frame-mcq-02": "「把畫作、照片等固定在框內供展示」是「frame — verb: artwork」的用法，與本句語境不同。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。",
+        "frame-mcq-01": "「圍住並支撐畫作或照片的硬質邊框」是「frame — artwork/photo」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-04"
     },
     {
       "id": "frame-05-1",
-      "sense": "frame-05",
+      "sense": "frame-mcq-04",
       "en": "She has a strong athletic frame.",
       "zh": "她有結實的運動型體格。",
       "masked": "She has a strong athletic ____.",
       "options": [
-        "frame-05",
-        "frame-06",
-        "frame-07",
-        "frame-08",
-        "frame-09",
-        "frame-10"
+        "frame-mcq-04",
+        "frame-mcq-03",
+        "frame-mcq-05",
+        "frame-mcq-02",
+        "frame-mcq-06",
+        "frame-mcq-01"
       ],
-      "explanation": "留意語境：frame = body build / body structure。這裡指「體格；骨架」。",
+      "explanation": "本句的「frame」指「一個人的骨骼大小及整體身體結構」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-05": "本句的意思是「體格；骨架」。",
-        "frame-06": "「眼鏡框」與本句語境不同。",
-        "frame-07": "「影格；幀」與本句語境不同。",
-        "frame-08": "「幀率；影格率 A major technical compound.」與本句語境不同。",
-        "frame-09": "「畫面範圍；取景框」與本句語境不同。",
-        "frame-10": "「框架；理解角度」與本句語境不同。"
-      }
+        "frame-mcq-04": "本句指「一個人的骨骼大小及整體身體結構」。",
+        "frame-mcq-03": "「支撐物件形狀、重量或結構的主要骨架」是「frame — structure」的用法，與本句語境不同。",
+        "frame-mcq-05": "「固定鏡片並戴在臉上的支架」是「frame — glasses」的用法，與本句語境不同。",
+        "frame-mcq-02": "「把畫作、照片等固定在框內供展示」是「frame — verb: artwork」的用法，與本句語境不同。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。",
+        "frame-mcq-01": "「圍住並支撐畫作或照片的硬質邊框」是「frame — artwork/photo」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-04"
     },
     {
       "id": "frame-06-0",
-      "sense": "frame-06",
+      "sense": "frame-mcq-05",
       "en": "These glasses have thin metal frames.",
       "zh": "這副眼鏡有幼細的金屬鏡框。",
       "masked": "These glasses have thin metal ____.",
       "options": [
-        "frame-06",
-        "frame-07",
-        "frame-08",
-        "frame-09",
-        "frame-10",
-        "frame-11"
+        "frame-mcq-05",
+        "frame-mcq-04",
+        "frame-mcq-06",
+        "frame-mcq-03",
+        "frame-mcq-07",
+        "frame-mcq-02"
       ],
-      "explanation": "留意語境：frame = glasses frame。這裡指「眼鏡框」。",
+      "explanation": "本句的「frames」指「固定鏡片並戴在臉上的支架」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "frames"
       ],
       "optionReasons": {
-        "frame-06": "本句的意思是「眼鏡框」。",
-        "frame-07": "「影格；幀」與本句語境不同。",
-        "frame-08": "「幀率；影格率 A major technical compound.」與本句語境不同。",
-        "frame-09": "「畫面範圍；取景框」與本句語境不同。",
-        "frame-10": "「框架；理解角度」與本句語境不同。",
-        "frame-11": "「以某種方式表述；界定」與本句語境不同。"
-      }
+        "frame-mcq-05": "本句指「固定鏡片並戴在臉上的支架」。",
+        "frame-mcq-04": "「一個人的骨骼大小及整體身體結構」是「frame — body」的用法，與本句語境不同。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。",
+        "frame-mcq-03": "「支撐物件形狀、重量或結構的主要骨架」是「frame — structure」的用法，與本句語境不同。",
+        "frame-mcq-07": "「每秒顯示／記錄的影格數量」是「frame rate」的用法，與本句語境不同。",
+        "frame-mcq-02": "「把畫作、照片等固定在框內供展示」是「frame — verb: artwork」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-05"
     },
     {
       "id": "frame-06-1",
-      "sense": "frame-06",
+      "sense": "frame-mcq-05",
       "en": "She chose a black frame for her new glasses.",
       "zh": "她為新眼鏡選了一副黑色鏡框。",
       "masked": "She chose a black ____ for her new glasses.",
       "options": [
-        "frame-06",
-        "frame-07",
-        "frame-08",
-        "frame-09",
-        "frame-10",
-        "frame-11"
+        "frame-mcq-05",
+        "frame-mcq-04",
+        "frame-mcq-06",
+        "frame-mcq-03",
+        "frame-mcq-07",
+        "frame-mcq-02"
       ],
-      "explanation": "留意語境：frame = glasses frame。這裡指「眼鏡框」。",
+      "explanation": "本句的「frame」指「固定鏡片並戴在臉上的支架」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-06": "本句的意思是「眼鏡框」。",
-        "frame-07": "「影格；幀」與本句語境不同。",
-        "frame-08": "「幀率；影格率 A major technical compound.」與本句語境不同。",
-        "frame-09": "「畫面範圍；取景框」與本句語境不同。",
-        "frame-10": "「框架；理解角度」與本句語境不同。",
-        "frame-11": "「以某種方式表述；界定」與本句語境不同。"
-      }
+        "frame-mcq-05": "本句指「固定鏡片並戴在臉上的支架」。",
+        "frame-mcq-04": "「一個人的骨骼大小及整體身體結構」是「frame — body」的用法，與本句語境不同。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。",
+        "frame-mcq-03": "「支撐物件形狀、重量或結構的主要骨架」是「frame — structure」的用法，與本句語境不同。",
+        "frame-mcq-07": "「每秒顯示／記錄的影格數量」是「frame rate」的用法，與本句語境不同。",
+        "frame-mcq-02": "「把畫作、照片等固定在框內供展示」是「frame — verb: artwork」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-05"
     },
     {
       "id": "frame-07-0",
-      "sense": "frame-07",
+      "sense": "frame-mcq-06",
       "en": "The video freezes on one frame.",
       "zh": "影片停在其中一個影格／幀上。",
       "masked": "The video freezes on one ____.",
       "options": [
-        "frame-07",
-        "frame-08",
-        "frame-09",
-        "frame-10",
-        "frame-11",
-        "frame-12"
+        "frame-mcq-06",
+        "frame-mcq-05",
+        "frame-mcq-07",
+        "frame-mcq-04",
+        "frame-mcq-08",
+        "frame-mcq-03"
       ],
-      "explanation": "留意語境：frame = single image in film/video。這裡指「影格；幀」。",
+      "explanation": "本句的「frame」指「影片連續影像中的一個單獨畫面」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-07": "本句的意思是「影格；幀」。",
-        "frame-08": "「幀率；影格率 A major technical compound.」與本句語境不同。",
-        "frame-09": "「畫面範圍；取景框」與本句語境不同。",
-        "frame-10": "「框架；理解角度」與本句語境不同。",
-        "frame-11": "「以某種方式表述；界定」與本句語境不同。",
-        "frame-12": "「組織；擬定；表述 A related formal verb use.」與本句語境不同。"
-      }
+        "frame-mcq-06": "本句指「影片連續影像中的一個單獨畫面」。",
+        "frame-mcq-05": "「固定鏡片並戴在臉上的支架」是「frame — glasses」的用法，與本句語境不同。",
+        "frame-mcq-07": "「每秒顯示／記錄的影格數量」是「frame rate」的用法，與本句語境不同。",
+        "frame-mcq-04": "「一個人的骨骼大小及整體身體結構」是「frame — body」的用法，與本句語境不同。",
+        "frame-mcq-08": "「相機／影片畫面所包含的可見範圍」是「frame — camera view」的用法，與本句語境不同。",
+        "frame-mcq-03": "「支撐物件形狀、重量或結構的主要骨架」是「frame — structure」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-06"
     },
     {
       "id": "frame-07-1",
-      "sense": "frame-07",
+      "sense": "frame-mcq-06",
       "en": "Each frame contains a slightly different image.",
       "zh": "每個影格都包含略有不同的畫面。",
       "masked": "Each ____ contains a slightly different image.",
       "options": [
-        "frame-07",
-        "frame-08",
-        "frame-09",
-        "frame-10",
-        "frame-11",
-        "frame-12"
+        "frame-mcq-06",
+        "frame-mcq-05",
+        "frame-mcq-07",
+        "frame-mcq-04",
+        "frame-mcq-08",
+        "frame-mcq-03"
       ],
-      "explanation": "留意語境：frame = single image in film/video。這裡指「影格；幀」。",
+      "explanation": "本句的「frame」指「影片連續影像中的一個單獨畫面」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-07": "本句的意思是「影格；幀」。",
-        "frame-08": "「幀率；影格率 A major technical compound.」與本句語境不同。",
-        "frame-09": "「畫面範圍；取景框」與本句語境不同。",
-        "frame-10": "「框架；理解角度」與本句語境不同。",
-        "frame-11": "「以某種方式表述；界定」與本句語境不同。",
-        "frame-12": "「組織；擬定；表述 A related formal verb use.」與本句語境不同。"
-      }
+        "frame-mcq-06": "本句指「影片連續影像中的一個單獨畫面」。",
+        "frame-mcq-05": "「固定鏡片並戴在臉上的支架」是「frame — glasses」的用法，與本句語境不同。",
+        "frame-mcq-07": "「每秒顯示／記錄的影格數量」是「frame rate」的用法，與本句語境不同。",
+        "frame-mcq-04": "「一個人的骨骼大小及整體身體結構」是「frame — body」的用法，與本句語境不同。",
+        "frame-mcq-08": "「相機／影片畫面所包含的可見範圍」是「frame — camera view」的用法，與本句語境不同。",
+        "frame-mcq-03": "「支撐物件形狀、重量或結構的主要骨架」是「frame — structure」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-06"
     },
     {
       "id": "frame-08-0",
-      "sense": "frame-08",
+      "sense": "frame-mcq-07",
       "en": "The video was recorded at a high frame rate.",
       "zh": "影片以高幀率／影格率錄製。",
       "masked": "The video was recorded at a high ____.",
       "options": [
-        "frame-08",
-        "frame-09",
-        "frame-10",
-        "frame-11",
-        "frame-12",
-        "frame-13"
+        "frame-mcq-07",
+        "frame-mcq-06",
+        "frame-mcq-08",
+        "frame-mcq-05",
+        "frame-mcq-09",
+        "frame-mcq-04"
       ],
-      "explanation": "留意語境：frame rate =。這裡指「幀率；影格率 A major technical compound.」。",
+      "explanation": "本句的「frame rate」指「每秒顯示／記錄的影格數量」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "frame rate"
       ],
       "optionReasons": {
-        "frame-08": "本句的意思是「幀率；影格率 A major technical compound.」。",
-        "frame-09": "「畫面範圍；取景框」與本句語境不同。",
-        "frame-10": "「框架；理解角度」與本句語境不同。",
-        "frame-11": "「以某種方式表述；界定」與本句語境不同。",
-        "frame-12": "「組織；擬定；表述 A related formal verb use.」與本句語境不同。",
-        "frame-13": "「栽贓；誣陷」與本句語境不同。"
-      }
+        "frame-mcq-07": "本句指「每秒顯示／記錄的影格數量」。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。",
+        "frame-mcq-08": "「相機／影片畫面所包含的可見範圍」是「frame — camera view」的用法，與本句語境不同。",
+        "frame-mcq-05": "「固定鏡片並戴在臉上的支架」是「frame — glasses」的用法，與本句語境不同。",
+        "frame-mcq-09": "「用來界定、組織或理解問題的觀點／概念結構」是「frame — conceptual」的用法，與本句語境不同。",
+        "frame-mcq-04": "「一個人的骨骼大小及整體身體結構」是「frame — body」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-07"
     },
     {
       "id": "frame-08-1",
-      "sense": "frame-08",
+      "sense": "frame-mcq-07",
       "en": "A higher frame rate can make motion look smoother.",
       "zh": "較高的幀率可以令動作看起來更流暢。",
       "masked": "A higher ____ rate can make motion look smoother.",
       "options": [
-        "frame-08",
-        "frame-09",
-        "frame-10",
-        "frame-11",
-        "frame-12",
-        "frame-13"
+        "frame-mcq-07",
+        "frame-mcq-06",
+        "frame-mcq-08",
+        "frame-mcq-05",
+        "frame-mcq-09",
+        "frame-mcq-04"
       ],
-      "explanation": "留意語境：frame rate =。這裡指「幀率；影格率 A major technical compound.」。",
+      "explanation": "本句的「frame」指「每秒顯示／記錄的影格數量」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-08": "本句的意思是「幀率；影格率 A major technical compound.」。",
-        "frame-09": "「畫面範圍；取景框」與本句語境不同。",
-        "frame-10": "「框架；理解角度」與本句語境不同。",
-        "frame-11": "「以某種方式表述；界定」與本句語境不同。",
-        "frame-12": "「組織；擬定；表述 A related formal verb use.」與本句語境不同。",
-        "frame-13": "「栽贓；誣陷」與本句語境不同。"
-      }
+        "frame-mcq-07": "本句指「每秒顯示／記錄的影格數量」。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。",
+        "frame-mcq-08": "「相機／影片畫面所包含的可見範圍」是「frame — camera view」的用法，與本句語境不同。",
+        "frame-mcq-05": "「固定鏡片並戴在臉上的支架」是「frame — glasses」的用法，與本句語境不同。",
+        "frame-mcq-09": "「用來界定、組織或理解問題的觀點／概念結構」是「frame — conceptual」的用法，與本句語境不同。",
+        "frame-mcq-04": "「一個人的骨骼大小及整體身體結構」是「frame — body」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-07"
     },
     {
       "id": "frame-09-0",
-      "sense": "frame-09",
+      "sense": "frame-mcq-08",
       "en": "Keep the subject in the centre of the frame.",
       "zh": "把主體放在畫面／取景框中央。",
       "masked": "Keep the subject in the centre of the ____.",
       "options": [
-        "frame-09",
-        "frame-10",
-        "frame-11",
-        "frame-12",
-        "frame-13",
-        "frame-14"
+        "frame-mcq-08",
+        "frame-mcq-07",
+        "frame-mcq-09",
+        "frame-mcq-06",
+        "frame-mcq-10",
+        "frame-mcq-05"
       ],
-      "explanation": "留意語境：frame = visual boundary/composition area。這裡指「畫面範圍；取景框」。",
+      "explanation": "本句的「frame」指「相機／影片畫面所包含的可見範圍」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-09": "本句的意思是「畫面範圍；取景框」。",
-        "frame-10": "「框架；理解角度」與本句語境不同。",
-        "frame-11": "「以某種方式表述；界定」與本句語境不同。",
-        "frame-12": "「組織；擬定；表述 A related formal verb use.」與本句語境不同。",
-        "frame-13": "「栽贓；誣陷」與本句語境不同。",
-        "frame-14": "「栽贓某人犯…… A key construction.」與本句語境不同。"
-      }
+        "frame-mcq-08": "本句指「相機／影片畫面所包含的可見範圍」。",
+        "frame-mcq-07": "「每秒顯示／記錄的影格數量」是「frame rate」的用法，與本句語境不同。",
+        "frame-mcq-09": "「用來界定、組織或理解問題的觀點／概念結構」是「frame — conceptual」的用法，與本句語境不同。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。",
+        "frame-mcq-10": "「透過特定角度、語言或重點呈現某事」是「frame — presentation verb」的用法，與本句語境不同。",
+        "frame-mcq-05": "「固定鏡片並戴在臉上的支架」是「frame — glasses」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-08"
     },
     {
       "id": "frame-09-1",
-      "sense": "frame-09",
+      "sense": "frame-mcq-08",
       "en": "A tree entered the frame from the left.",
       "zh": "一棵樹從左邊進入畫面。",
       "masked": "A tree entered the ____ from the left.",
       "options": [
-        "frame-09",
-        "frame-10",
-        "frame-11",
-        "frame-12",
-        "frame-13",
-        "frame-14"
+        "frame-mcq-08",
+        "frame-mcq-07",
+        "frame-mcq-09",
+        "frame-mcq-06",
+        "frame-mcq-10",
+        "frame-mcq-05"
       ],
-      "explanation": "留意語境：frame = visual boundary/composition area。這裡指「畫面範圍；取景框」。",
+      "explanation": "本句的「frame」指「相機／影片畫面所包含的可見範圍」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-09": "本句的意思是「畫面範圍；取景框」。",
-        "frame-10": "「框架；理解角度」與本句語境不同。",
-        "frame-11": "「以某種方式表述；界定」與本句語境不同。",
-        "frame-12": "「組織；擬定；表述 A related formal verb use.」與本句語境不同。",
-        "frame-13": "「栽贓；誣陷」與本句語境不同。",
-        "frame-14": "「栽贓某人犯…… A key construction.」與本句語境不同。"
-      }
+        "frame-mcq-08": "本句指「相機／影片畫面所包含的可見範圍」。",
+        "frame-mcq-07": "「每秒顯示／記錄的影格數量」是「frame rate」的用法，與本句語境不同。",
+        "frame-mcq-09": "「用來界定、組織或理解問題的觀點／概念結構」是「frame — conceptual」的用法，與本句語境不同。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。",
+        "frame-mcq-10": "「透過特定角度、語言或重點呈現某事」是「frame — presentation verb」的用法，與本句語境不同。",
+        "frame-mcq-05": "「固定鏡片並戴在臉上的支架」是「frame — glasses」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-08"
     },
     {
       "id": "frame-10-0",
-      "sense": "frame-10",
+      "sense": "frame-mcq-09",
       "en": "We need a different frame for understanding the problem.",
       "zh": "我們需要用不同的框架／角度理解這個問題。",
       "masked": "We need a different ____ for understanding the problem.",
       "options": [
-        "frame-10",
-        "frame-11",
-        "frame-12",
-        "frame-13",
-        "frame-14",
-        "frame-15"
+        "frame-mcq-09",
+        "frame-mcq-08",
+        "frame-mcq-10",
+        "frame-mcq-07",
+        "frame-mcq-11",
+        "frame-mcq-06"
       ],
-      "explanation": "留意語境：frame = context/perspective used to understand something。這裡指「框架；理解角度」。",
+      "explanation": "本句的「frame」指「用來界定、組織或理解問題的觀點／概念結構」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-10": "本句的意思是「框架；理解角度」。",
-        "frame-11": "「以某種方式表述；界定」與本句語境不同。",
-        "frame-12": "「組織；擬定；表述 A related formal verb use.」與本句語境不同。",
-        "frame-13": "「栽贓；誣陷」與本句語境不同。",
-        "frame-14": "「栽贓某人犯…… A key construction.」與本句語境不同。",
-        "frame-15": "「搭建框架；架構」與本句語境不同。"
-      }
+        "frame-mcq-09": "本句指「用來界定、組織或理解問題的觀點／概念結構」。",
+        "frame-mcq-08": "「相機／影片畫面所包含的可見範圍」是「frame — camera view」的用法，與本句語境不同。",
+        "frame-mcq-10": "「透過特定角度、語言或重點呈現某事」是「frame — presentation verb」的用法，與本句語境不同。",
+        "frame-mcq-07": "「每秒顯示／記錄的影格數量」是「frame rate」的用法，與本句語境不同。",
+        "frame-mcq-11": "「把問題／論點組織成特定形式」是「frame a question」的用法，與本句語境不同。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-09"
     },
     {
       "id": "frame-10-1",
-      "sense": "frame-10",
+      "sense": "frame-mcq-09",
       "en": "The debate was presented within an economic frame.",
       "zh": "這場辯論是在經濟框架下呈現的。",
       "masked": "The debate was presented within an economic ____.",
       "options": [
-        "frame-10",
-        "frame-11",
-        "frame-12",
-        "frame-13",
-        "frame-14",
-        "frame-15"
+        "frame-mcq-09",
+        "frame-mcq-08",
+        "frame-mcq-10",
+        "frame-mcq-07",
+        "frame-mcq-11",
+        "frame-mcq-06"
       ],
-      "explanation": "留意語境：frame = context/perspective used to understand something。這裡指「框架；理解角度」。",
+      "explanation": "本句的「frame」指「用來界定、組織或理解問題的觀點／概念結構」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-10": "本句的意思是「框架；理解角度」。",
-        "frame-11": "「以某種方式表述；界定」與本句語境不同。",
-        "frame-12": "「組織；擬定；表述 A related formal verb use.」與本句語境不同。",
-        "frame-13": "「栽贓；誣陷」與本句語境不同。",
-        "frame-14": "「栽贓某人犯…… A key construction.」與本句語境不同。",
-        "frame-15": "「搭建框架；架構」與本句語境不同。"
-      }
+        "frame-mcq-09": "本句指「用來界定、組織或理解問題的觀點／概念結構」。",
+        "frame-mcq-08": "「相機／影片畫面所包含的可見範圍」是「frame — camera view」的用法，與本句語境不同。",
+        "frame-mcq-10": "「透過特定角度、語言或重點呈現某事」是「frame — presentation verb」的用法，與本句語境不同。",
+        "frame-mcq-07": "「每秒顯示／記錄的影格數量」是「frame rate」的用法，與本句語境不同。",
+        "frame-mcq-11": "「把問題／論點組織成特定形式」是「frame a question」的用法，與本句語境不同。",
+        "frame-mcq-06": "「影片連續影像中的一個單獨畫面」是「frame — video」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-09"
     },
     {
       "id": "frame-11-0",
-      "sense": "frame-11",
+      "sense": "frame-mcq-10",
       "en": "She framed the issue as a question of fairness.",
       "zh": "她把這個問題界定／表述為公平問題。",
       "masked": "She ____ the issue as a question of fairness.",
       "options": [
-        "frame-11",
-        "frame-12",
-        "frame-13",
-        "frame-14",
-        "frame-15",
-        "frame-16"
+        "frame-mcq-10",
+        "frame-mcq-09",
+        "frame-mcq-11",
+        "frame-mcq-08",
+        "frame-mcq-12",
+        "frame-mcq-07"
       ],
-      "explanation": "留意語境：frame = present/describe something from a particular angle。這裡指「以某種方式表述；界定」。",
+      "explanation": "本句的「framed」指「透過特定角度、語言或重點呈現某事」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "framed"
       ],
       "optionReasons": {
-        "frame-11": "本句的意思是「以某種方式表述；界定」。",
-        "frame-12": "「組織；擬定；表述 A related formal verb use.」與本句語境不同。",
-        "frame-13": "「栽贓；誣陷」與本句語境不同。",
-        "frame-14": "「栽贓某人犯…… A key construction.」與本句語境不同。",
-        "frame-15": "「搭建框架；架構」與本句語境不同。",
-        "frame-16": "「被……環繞；襯托」與本句語境不同。"
-      }
+        "frame-mcq-10": "本句指「透過特定角度、語言或重點呈現某事」。",
+        "frame-mcq-09": "「用來界定、組織或理解問題的觀點／概念結構」是「frame — conceptual」的用法，與本句語境不同。",
+        "frame-mcq-11": "「把問題／論點組織成特定形式」是「frame a question」的用法，與本句語境不同。",
+        "frame-mcq-08": "「相機／影片畫面所包含的可見範圍」是「frame — camera view」的用法，與本句語境不同。",
+        "frame-mcq-12": "「製造虛假證據令無辜的人看起來有罪；栽贓」是「frame someone」的用法，與本句語境不同。",
+        "frame-mcq-07": "「每秒顯示／記錄的影格數量」是「frame rate」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-10"
     },
     {
       "id": "frame-11-1",
-      "sense": "frame-11",
+      "sense": "frame-mcq-10",
       "en": "The report frames the change in positive terms.",
       "zh": "報告以正面的方式描述／界定這項改變。",
       "masked": "The report ____ the change in positive terms.",
       "options": [
-        "frame-11",
-        "frame-12",
-        "frame-13",
-        "frame-14",
-        "frame-15",
-        "frame-16"
+        "frame-mcq-10",
+        "frame-mcq-09",
+        "frame-mcq-11",
+        "frame-mcq-08",
+        "frame-mcq-12",
+        "frame-mcq-07"
       ],
-      "explanation": "留意語境：frame = present/describe something from a particular angle。這裡指「以某種方式表述；界定」。",
+      "explanation": "本句的「frames」指「透過特定角度、語言或重點呈現某事」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "frames"
       ],
       "optionReasons": {
-        "frame-11": "本句的意思是「以某種方式表述；界定」。",
-        "frame-12": "「組織；擬定；表述 A related formal verb use.」與本句語境不同。",
-        "frame-13": "「栽贓；誣陷」與本句語境不同。",
-        "frame-14": "「栽贓某人犯…… A key construction.」與本句語境不同。",
-        "frame-15": "「搭建框架；架構」與本句語境不同。",
-        "frame-16": "「被……環繞；襯托」與本句語境不同。"
-      }
+        "frame-mcq-10": "本句指「透過特定角度、語言或重點呈現某事」。",
+        "frame-mcq-09": "「用來界定、組織或理解問題的觀點／概念結構」是「frame — conceptual」的用法，與本句語境不同。",
+        "frame-mcq-11": "「把問題／論點組織成特定形式」是「frame a question」的用法，與本句語境不同。",
+        "frame-mcq-08": "「相機／影片畫面所包含的可見範圍」是「frame — camera view」的用法，與本句語境不同。",
+        "frame-mcq-12": "「製造虛假證據令無辜的人看起來有罪；栽贓」是「frame someone」的用法，與本句語境不同。",
+        "frame-mcq-07": "「每秒顯示／記錄的影格數量」是「frame rate」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-10"
     },
     {
       "id": "frame-12-0",
-      "sense": "frame-12",
+      "sense": "frame-mcq-11",
       "en": "She carefully framed her question.",
       "zh": "她仔細組織／措辭自己的問題。",
       "masked": "She carefully ____ her question.",
       "options": [
-        "frame-12",
-        "frame-13",
-        "frame-14",
-        "frame-15",
-        "frame-16",
-        "frame-17"
+        "frame-mcq-11",
+        "frame-mcq-10",
+        "frame-mcq-12",
+        "frame-mcq-09",
+        "frame-mcq-13",
+        "frame-mcq-08"
       ],
-      "explanation": "留意語境：frame a question/argument =。這裡指「組織；擬定；表述 A related formal verb use.」。",
+      "explanation": "本句的「framed」指「把問題／論點組織成特定形式」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "framed"
       ],
       "optionReasons": {
-        "frame-12": "本句的意思是「組織；擬定；表述 A related formal verb use.」。",
-        "frame-13": "「栽贓；誣陷」與本句語境不同。",
-        "frame-14": "「栽贓某人犯…… A key construction.」與本句語境不同。",
-        "frame-15": "「搭建框架；架構」與本句語境不同。",
-        "frame-16": "「被……環繞；襯托」與本句語境不同。",
-        "frame-17": "「時間範圍；時限」與本句語境不同。"
-      }
+        "frame-mcq-11": "本句指「把問題／論點組織成特定形式」。",
+        "frame-mcq-10": "「透過特定角度、語言或重點呈現某事」是「frame — presentation verb」的用法，與本句語境不同。",
+        "frame-mcq-12": "「製造虛假證據令無辜的人看起來有罪；栽贓」是「frame someone」的用法，與本句語境不同。",
+        "frame-mcq-09": "「用來界定、組織或理解問題的觀點／概念結構」是「frame — conceptual」的用法，與本句語境不同。",
+        "frame-mcq-13": "「搭建物件／建築的支撐骨架」是「frame — construction」的用法，與本句語境不同。",
+        "frame-mcq-08": "「相機／影片畫面所包含的可見範圍」是「frame — camera view」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-11"
     },
     {
       "id": "frame-12-1",
-      "sense": "frame-12",
+      "sense": "frame-mcq-11",
       "en": "The argument was framed in simple language.",
       "zh": "這個論點用簡單語言表述。",
       "masked": "The argument was ____ in simple language.",
       "options": [
-        "frame-12",
-        "frame-13",
-        "frame-14",
-        "frame-15",
-        "frame-16",
-        "frame-17"
+        "frame-mcq-11",
+        "frame-mcq-10",
+        "frame-mcq-12",
+        "frame-mcq-09",
+        "frame-mcq-13",
+        "frame-mcq-08"
       ],
-      "explanation": "留意語境：frame a question/argument =。這裡指「組織；擬定；表述 A related formal verb use.」。",
+      "explanation": "本句的「framed」指「把問題／論點組織成特定形式」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "framed"
       ],
       "optionReasons": {
-        "frame-12": "本句的意思是「組織；擬定；表述 A related formal verb use.」。",
-        "frame-13": "「栽贓；誣陷」與本句語境不同。",
-        "frame-14": "「栽贓某人犯…… A key construction.」與本句語境不同。",
-        "frame-15": "「搭建框架；架構」與本句語境不同。",
-        "frame-16": "「被……環繞；襯托」與本句語境不同。",
-        "frame-17": "「時間範圍；時限」與本句語境不同。"
-      }
+        "frame-mcq-11": "本句指「把問題／論點組織成特定形式」。",
+        "frame-mcq-10": "「透過特定角度、語言或重點呈現某事」是「frame — presentation verb」的用法，與本句語境不同。",
+        "frame-mcq-12": "「製造虛假證據令無辜的人看起來有罪；栽贓」是「frame someone」的用法，與本句語境不同。",
+        "frame-mcq-09": "「用來界定、組織或理解問題的觀點／概念結構」是「frame — conceptual」的用法，與本句語境不同。",
+        "frame-mcq-13": "「搭建物件／建築的支撐骨架」是「frame — construction」的用法，與本句語境不同。",
+        "frame-mcq-08": "「相機／影片畫面所包含的可見範圍」是「frame — camera view」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-11"
     },
     {
       "id": "frame-13-0",
-      "sense": "frame-13",
+      "sense": "frame-mcq-12",
       "en": "He claimed that he had been framed.",
       "zh": "他聲稱自己被人栽贓／誣陷。",
       "masked": "He claimed that he had been ____.",
       "options": [
-        "frame-13",
-        "frame-14",
-        "frame-15",
-        "frame-16",
-        "frame-17",
-        "frame-18"
+        "frame-mcq-12",
+        "frame-mcq-11",
+        "frame-mcq-13",
+        "frame-mcq-10",
+        "frame-mcq-14",
+        "frame-mcq-09"
       ],
-      "explanation": "留意語境：frame = falsely make someone appear guilty。這裡指「栽贓；誣陷」。",
+      "explanation": "本句的「framed」指「製造虛假證據令無辜的人看起來有罪；栽贓」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "framed"
       ],
       "optionReasons": {
-        "frame-13": "本句的意思是「栽贓；誣陷」。",
-        "frame-14": "「栽贓某人犯…… A key construction.」與本句語境不同。",
-        "frame-15": "「搭建框架；架構」與本句語境不同。",
-        "frame-16": "「被……環繞；襯托」與本句語境不同。",
-        "frame-17": "「時間範圍；時限」與本句語境不同。",
-        "frame-18": "「參照系；理解框架 A high-value academic/scientific expression.」與本句語境不同。"
-      }
+        "frame-mcq-12": "本句指「製造虛假證據令無辜的人看起來有罪；栽贓」。",
+        "frame-mcq-11": "「把問題／論點組織成特定形式」是「frame a question」的用法，與本句語境不同。",
+        "frame-mcq-13": "「搭建物件／建築的支撐骨架」是「frame — construction」的用法，與本句語境不同。",
+        "frame-mcq-10": "「透過特定角度、語言或重點呈現某事」是「frame — presentation verb」的用法，與本句語境不同。",
+        "frame-mcq-14": "「被某物從四周圍住、襯托或突出」是「be framed by」的用法，與本句語境不同。",
+        "frame-mcq-09": "「用來界定、組織或理解問題的觀點／概念結構」是「frame — conceptual」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-12"
     },
     {
       "id": "frame-13-1",
-      "sense": "frame-13",
+      "sense": "frame-mcq-12",
       "en": "Someone framed him for the theft.",
       "zh": "有人把那宗盜竊案栽贓給他。",
       "masked": "Someone ____ him for the theft.",
       "options": [
-        "frame-13",
-        "frame-14",
-        "frame-15",
-        "frame-16",
-        "frame-17",
-        "frame-18"
+        "frame-mcq-12",
+        "frame-mcq-11",
+        "frame-mcq-13",
+        "frame-mcq-10",
+        "frame-mcq-14",
+        "frame-mcq-09"
       ],
-      "explanation": "留意語境：frame = falsely make someone appear guilty。這裡指「栽贓；誣陷」。",
+      "explanation": "本句的「framed」指「製造虛假證據令無辜的人看起來有罪；栽贓」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "framed"
       ],
       "optionReasons": {
-        "frame-13": "本句的意思是「栽贓；誣陷」。",
-        "frame-14": "「栽贓某人犯…… A key construction.」與本句語境不同。",
-        "frame-15": "「搭建框架；架構」與本句語境不同。",
-        "frame-16": "「被……環繞；襯托」與本句語境不同。",
-        "frame-17": "「時間範圍；時限」與本句語境不同。",
-        "frame-18": "「參照系；理解框架 A high-value academic/scientific expression.」與本句語境不同。"
-      }
+        "frame-mcq-12": "本句指「製造虛假證據令無辜的人看起來有罪；栽贓」。",
+        "frame-mcq-11": "「把問題／論點組織成特定形式」是「frame a question」的用法，與本句語境不同。",
+        "frame-mcq-13": "「搭建物件／建築的支撐骨架」是「frame — construction」的用法，與本句語境不同。",
+        "frame-mcq-10": "「透過特定角度、語言或重點呈現某事」是「frame — presentation verb」的用法，與本句語境不同。",
+        "frame-mcq-14": "「被某物從四周圍住、襯托或突出」是「be framed by」的用法，與本句語境不同。",
+        "frame-mcq-09": "「用來界定、組織或理解問題的觀點／概念結構」是「frame — conceptual」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-12"
     },
     {
       "id": "frame-14-0",
-      "sense": "frame-14",
+      "sense": "frame-mcq-12",
       "en": "She was framed for a crime she did not commit.",
       "zh": "她被栽贓犯下一宗自己沒有做過的罪行。",
       "masked": "She was ____ a crime she did not commit.",
       "options": [
-        "frame-14",
-        "frame-15",
-        "frame-16",
-        "frame-17",
-        "frame-18",
-        "frame-19"
+        "frame-mcq-12",
+        "frame-mcq-11",
+        "frame-mcq-13",
+        "frame-mcq-10",
+        "frame-mcq-14",
+        "frame-mcq-09"
       ],
-      "explanation": "留意語境：frame someone for + crime =。這裡指「栽贓某人犯…… A key construction.」。",
+      "explanation": "本句的「framed for」指「製造虛假證據令無辜的人看起來有罪；栽贓」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "framed for"
       ],
       "optionReasons": {
-        "frame-14": "本句的意思是「栽贓某人犯…… A key construction.」。",
-        "frame-15": "「搭建框架；架構」與本句語境不同。",
-        "frame-16": "「被……環繞；襯托」與本句語境不同。",
-        "frame-17": "「時間範圍；時限」與本句語境不同。",
-        "frame-18": "「參照系；理解框架 A high-value academic/scientific expression.」與本句語境不同。",
-        "frame-19": "「心境；心態 A common fixed expression.」與本句語境不同。"
-      }
+        "frame-mcq-12": "本句指「製造虛假證據令無辜的人看起來有罪；栽贓」。",
+        "frame-mcq-11": "「把問題／論點組織成特定形式」是「frame a question」的用法，與本句語境不同。",
+        "frame-mcq-13": "「搭建物件／建築的支撐骨架」是「frame — construction」的用法，與本句語境不同。",
+        "frame-mcq-10": "「透過特定角度、語言或重點呈現某事」是「frame — presentation verb」的用法，與本句語境不同。",
+        "frame-mcq-14": "「被某物從四周圍住、襯托或突出」是「be framed by」的用法，與本句語境不同。",
+        "frame-mcq-09": "「用來界定、組織或理解問題的觀點／概念結構」是「frame — conceptual」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-12"
     },
     {
       "id": "frame-14-1",
-      "sense": "frame-14",
+      "sense": "frame-mcq-12",
       "en": "The evidence had been planted to frame him for fraud.",
       "zh": "有人放置虛假證據，企圖栽贓他詐騙。",
       "masked": "The evidence had been planted to ____ him for fraud.",
       "options": [
-        "frame-14",
-        "frame-15",
-        "frame-16",
-        "frame-17",
-        "frame-18",
-        "frame-19"
+        "frame-mcq-12",
+        "frame-mcq-11",
+        "frame-mcq-13",
+        "frame-mcq-10",
+        "frame-mcq-14",
+        "frame-mcq-09"
       ],
-      "explanation": "留意語境：frame someone for + crime =。這裡指「栽贓某人犯…… A key construction.」。",
+      "explanation": "本句的「frame」指「製造虛假證據令無辜的人看起來有罪；栽贓」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-14": "本句的意思是「栽贓某人犯…… A key construction.」。",
-        "frame-15": "「搭建框架；架構」與本句語境不同。",
-        "frame-16": "「被……環繞；襯托」與本句語境不同。",
-        "frame-17": "「時間範圍；時限」與本句語境不同。",
-        "frame-18": "「參照系；理解框架 A high-value academic/scientific expression.」與本句語境不同。",
-        "frame-19": "「心境；心態 A common fixed expression.」與本句語境不同。"
-      }
+        "frame-mcq-12": "本句指「製造虛假證據令無辜的人看起來有罪；栽贓」。",
+        "frame-mcq-11": "「把問題／論點組織成特定形式」是「frame a question」的用法，與本句語境不同。",
+        "frame-mcq-13": "「搭建物件／建築的支撐骨架」是「frame — construction」的用法，與本句語境不同。",
+        "frame-mcq-10": "「透過特定角度、語言或重點呈現某事」是「frame — presentation verb」的用法，與本句語境不同。",
+        "frame-mcq-14": "「被某物從四周圍住、襯托或突出」是「be framed by」的用法，與本句語境不同。",
+        "frame-mcq-09": "「用來界定、組織或理解問題的觀點／概念結構」是「frame — conceptual」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-12"
     },
     {
       "id": "frame-15-0",
-      "sense": "frame-15",
+      "sense": "frame-mcq-13",
       "en": "Workers framed the walls before installing the panels.",
       "zh": "工人先搭好牆身骨架，再安裝面板。",
       "masked": "Workers ____ the walls before installing the panels.",
       "options": [
-        "frame-15",
-        "frame-16",
-        "frame-17",
-        "frame-18",
-        "frame-19",
-        "frame-20"
+        "frame-mcq-13",
+        "frame-mcq-12",
+        "frame-mcq-14",
+        "frame-mcq-11",
+        "frame-mcq-15",
+        "frame-mcq-10"
       ],
-      "explanation": "留意語境：frame = construct/build a supporting structure。這裡指「搭建框架；架構」。",
+      "explanation": "本句的「framed」指「搭建物件／建築的支撐骨架」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "framed"
       ],
       "optionReasons": {
-        "frame-15": "本句的意思是「搭建框架；架構」。",
-        "frame-16": "「被……環繞；襯托」與本句語境不同。",
-        "frame-17": "「時間範圍；時限」與本句語境不同。",
-        "frame-18": "「參照系；理解框架 A high-value academic/scientific expression.」與本句語境不同。",
-        "frame-19": "「心境；心態 A common fixed expression.」與本句語境不同。",
-        "frame-20": "「議題框架；表述方式」與本句語境不同。"
-      }
+        "frame-mcq-13": "本句指「搭建物件／建築的支撐骨架」。",
+        "frame-mcq-12": "「製造虛假證據令無辜的人看起來有罪；栽贓」是「frame someone」的用法，與本句語境不同。",
+        "frame-mcq-14": "「被某物從四周圍住、襯托或突出」是「be framed by」的用法，與本句語境不同。",
+        "frame-mcq-11": "「把問題／論點組織成特定形式」是「frame a question」的用法，與本句語境不同。",
+        "frame-mcq-15": "「某件事預計／允許發生或完成的時間範圍」是「time frame」的用法，與本句語境不同。",
+        "frame-mcq-10": "「透過特定角度、語言或重點呈現某事」是「frame — presentation verb」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-13"
     },
     {
       "id": "frame-15-1",
-      "sense": "frame-15",
+      "sense": "frame-mcq-13",
       "en": "The roof was framed with timber.",
       "zh": "屋頂以木材搭建骨架。",
       "masked": "The roof was ____ with timber.",
       "options": [
-        "frame-15",
-        "frame-16",
-        "frame-17",
-        "frame-18",
-        "frame-19",
-        "frame-20"
+        "frame-mcq-13",
+        "frame-mcq-12",
+        "frame-mcq-14",
+        "frame-mcq-11",
+        "frame-mcq-15",
+        "frame-mcq-10"
       ],
-      "explanation": "留意語境：frame = construct/build a supporting structure。這裡指「搭建框架；架構」。",
+      "explanation": "本句的「framed」指「搭建物件／建築的支撐骨架」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "framed"
       ],
       "optionReasons": {
-        "frame-15": "本句的意思是「搭建框架；架構」。",
-        "frame-16": "「被……環繞；襯托」與本句語境不同。",
-        "frame-17": "「時間範圍；時限」與本句語境不同。",
-        "frame-18": "「參照系；理解框架 A high-value academic/scientific expression.」與本句語境不同。",
-        "frame-19": "「心境；心態 A common fixed expression.」與本句語境不同。",
-        "frame-20": "「議題框架；表述方式」與本句語境不同。"
-      }
+        "frame-mcq-13": "本句指「搭建物件／建築的支撐骨架」。",
+        "frame-mcq-12": "「製造虛假證據令無辜的人看起來有罪；栽贓」是「frame someone」的用法，與本句語境不同。",
+        "frame-mcq-14": "「被某物從四周圍住、襯托或突出」是「be framed by」的用法，與本句語境不同。",
+        "frame-mcq-11": "「把問題／論點組織成特定形式」是「frame a question」的用法，與本句語境不同。",
+        "frame-mcq-15": "「某件事預計／允許發生或完成的時間範圍」是「time frame」的用法，與本句語境不同。",
+        "frame-mcq-10": "「透過特定角度、語言或重點呈現某事」是「frame — presentation verb」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-13"
     },
     {
       "id": "frame-16-0",
-      "sense": "frame-16",
+      "sense": "frame-mcq-14",
       "en": "Her face was framed by dark hair.",
       "zh": "她的臉被深色頭髮環繞／襯托。",
       "masked": "Her face was ____ dark hair.",
       "options": [
-        "frame-16",
-        "frame-17",
-        "frame-18",
-        "frame-19",
-        "frame-20",
-        "frame-21"
+        "frame-mcq-14",
+        "frame-mcq-13",
+        "frame-mcq-15",
+        "frame-mcq-12",
+        "frame-mcq-16",
+        "frame-mcq-11"
       ],
-      "explanation": "留意語境：framed = surrounded/bordered by something。這裡指「被……環繞；襯托」。",
+      "explanation": "本句的「framed by」指「被某物從四周圍住、襯托或突出」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "framed by"
       ],
       "optionReasons": {
-        "frame-16": "本句的意思是「被……環繞；襯托」。",
-        "frame-17": "「時間範圍；時限」與本句語境不同。",
-        "frame-18": "「參照系；理解框架 A high-value academic/scientific expression.」與本句語境不同。",
-        "frame-19": "「心境；心態 A common fixed expression.」與本句語境不同。",
-        "frame-20": "「議題框架；表述方式」與本句語境不同。",
-        "frame-21": "「框架效應」與本句語境不同。"
-      }
+        "frame-mcq-14": "本句指「被某物從四周圍住、襯托或突出」。",
+        "frame-mcq-13": "「搭建物件／建築的支撐骨架」是「frame — construction」的用法，與本句語境不同。",
+        "frame-mcq-15": "「某件事預計／允許發生或完成的時間範圍」是「time frame」的用法，與本句語境不同。",
+        "frame-mcq-12": "「製造虛假證據令無辜的人看起來有罪；栽贓」是「frame someone」的用法，與本句語境不同。",
+        "frame-mcq-16": "「用來理解、判斷或測量事物的參照系統」是「frame of reference」的用法，與本句語境不同。",
+        "frame-mcq-11": "「把問題／論點組織成特定形式」是「frame a question」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-14"
     },
     {
       "id": "frame-16-1",
-      "sense": "frame-16",
+      "sense": "frame-mcq-14",
       "en": "The lake was framed by mountains.",
       "zh": "湖泊被群山環繞，形成天然畫框般的景色。",
       "masked": "The lake was ____ by mountains.",
       "options": [
-        "frame-16",
-        "frame-17",
-        "frame-18",
-        "frame-19",
-        "frame-20",
-        "frame-21"
+        "frame-mcq-14",
+        "frame-mcq-13",
+        "frame-mcq-15",
+        "frame-mcq-12",
+        "frame-mcq-16",
+        "frame-mcq-11"
       ],
-      "explanation": "留意語境：framed = surrounded/bordered by something。這裡指「被……環繞；襯托」。",
+      "explanation": "本句的「framed」指「被某物從四周圍住、襯托或突出」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "framed"
       ],
       "optionReasons": {
-        "frame-16": "本句的意思是「被……環繞；襯托」。",
-        "frame-17": "「時間範圍；時限」與本句語境不同。",
-        "frame-18": "「參照系；理解框架 A high-value academic/scientific expression.」與本句語境不同。",
-        "frame-19": "「心境；心態 A common fixed expression.」與本句語境不同。",
-        "frame-20": "「議題框架；表述方式」與本句語境不同。",
-        "frame-21": "「框架效應」與本句語境不同。"
-      }
+        "frame-mcq-14": "本句指「被某物從四周圍住、襯托或突出」。",
+        "frame-mcq-13": "「搭建物件／建築的支撐骨架」是「frame — construction」的用法，與本句語境不同。",
+        "frame-mcq-15": "「某件事預計／允許發生或完成的時間範圍」是「time frame」的用法，與本句語境不同。",
+        "frame-mcq-12": "「製造虛假證據令無辜的人看起來有罪；栽贓」是「frame someone」的用法，與本句語境不同。",
+        "frame-mcq-16": "「用來理解、判斷或測量事物的參照系統」是「frame of reference」的用法，與本句語境不同。",
+        "frame-mcq-11": "「把問題／論點組織成特定形式」是「frame a question」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-14"
     },
     {
       "id": "frame-17-0",
-      "sense": "frame-17",
+      "sense": "frame-mcq-15",
       "en": "The work must be completed within a short time frame.",
       "zh": "工作必須在很短的時間範圍／期限內完成。",
       "masked": "The work must be completed within a short ____.",
       "options": [
-        "frame-17",
-        "frame-18",
-        "frame-19",
-        "frame-20",
-        "frame-21",
-        "frame-01"
+        "frame-mcq-15",
+        "frame-mcq-14",
+        "frame-mcq-16",
+        "frame-mcq-13",
+        "frame-mcq-17",
+        "frame-mcq-12"
       ],
-      "explanation": "留意語境：frame = time frame。這裡指「時間範圍；時限」。",
+      "explanation": "本句的「time frame」指「某件事預計／允許發生或完成的時間範圍」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "time frame"
       ],
       "optionReasons": {
-        "frame-17": "本句的意思是「時間範圍；時限」。",
-        "frame-18": "「參照系；理解框架 A high-value academic/scientific expression.」與本句語境不同。",
-        "frame-19": "「心境；心態 A common fixed expression.」與本句語境不同。",
-        "frame-20": "「議題框架；表述方式」與本句語境不同。",
-        "frame-21": "「框架效應」與本句語境不同。",
-        "frame-01": "「畫框；相框」與本句語境不同。"
-      }
+        "frame-mcq-15": "本句指「某件事預計／允許發生或完成的時間範圍」。",
+        "frame-mcq-14": "「被某物從四周圍住、襯托或突出」是「be framed by」的用法，與本句語境不同。",
+        "frame-mcq-16": "「用來理解、判斷或測量事物的參照系統」是「frame of reference」的用法，與本句語境不同。",
+        "frame-mcq-13": "「搭建物件／建築的支撐骨架」是「frame — construction」的用法，與本句語境不同。",
+        "frame-mcq-17": "「某一刻的心理狀態或心境」是「frame of mind」的用法，與本句語境不同。",
+        "frame-mcq-12": "「製造虛假證據令無辜的人看起來有罪；栽贓」是「frame someone」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-15"
     },
     {
       "id": "frame-17-1",
-      "sense": "frame-17",
+      "sense": "frame-mcq-15",
       "en": "We need a realistic time frame for the project.",
       "zh": "我們需要為這個項目設定一個實際的時間表／時限。",
       "masked": "We need a realistic time ____ for the project.",
       "options": [
-        "frame-17",
-        "frame-18",
-        "frame-19",
-        "frame-20",
-        "frame-21",
-        "frame-01"
+        "frame-mcq-15",
+        "frame-mcq-14",
+        "frame-mcq-16",
+        "frame-mcq-13",
+        "frame-mcq-17",
+        "frame-mcq-12"
       ],
-      "explanation": "留意語境：frame = time frame。這裡指「時間範圍；時限」。",
+      "explanation": "本句的「frame」指「某件事預計／允許發生或完成的時間範圍」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-17": "本句的意思是「時間範圍；時限」。",
-        "frame-18": "「參照系；理解框架 A high-value academic/scientific expression.」與本句語境不同。",
-        "frame-19": "「心境；心態 A common fixed expression.」與本句語境不同。",
-        "frame-20": "「議題框架；表述方式」與本句語境不同。",
-        "frame-21": "「框架效應」與本句語境不同。",
-        "frame-01": "「畫框；相框」與本句語境不同。"
-      }
+        "frame-mcq-15": "本句指「某件事預計／允許發生或完成的時間範圍」。",
+        "frame-mcq-14": "「被某物從四周圍住、襯托或突出」是「be framed by」的用法，與本句語境不同。",
+        "frame-mcq-16": "「用來理解、判斷或測量事物的參照系統」是「frame of reference」的用法，與本句語境不同。",
+        "frame-mcq-13": "「搭建物件／建築的支撐骨架」是「frame — construction」的用法，與本句語境不同。",
+        "frame-mcq-17": "「某一刻的心理狀態或心境」是「frame of mind」的用法，與本句語境不同。",
+        "frame-mcq-12": "「製造虛假證據令無辜的人看起來有罪；栽贓」是「frame someone」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-15"
     },
     {
       "id": "frame-18-0",
-      "sense": "frame-18",
+      "sense": "frame-mcq-16",
       "en": "People judge art from different frames of reference.",
       "zh": "人們會從不同的理解框架／參照角度評價藝術。",
       "masked": "People judge art from different ____.",
       "options": [
-        "frame-18",
-        "frame-19",
-        "frame-20",
-        "frame-21",
-        "frame-01",
-        "frame-02"
+        "frame-mcq-16",
+        "frame-mcq-15",
+        "frame-mcq-17",
+        "frame-mcq-14",
+        "frame-mcq-18",
+        "frame-mcq-13"
       ],
-      "explanation": "留意語境：frame of reference =。這裡指「參照系；理解框架 A high-value academic/scientific expression.」。",
+      "explanation": "本句的「frames of reference」指「用來理解、判斷或測量事物的參照系統」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "frames of reference"
       ],
       "optionReasons": {
-        "frame-18": "本句的意思是「參照系；理解框架 A high-value academic/scientific expression.」。",
-        "frame-19": "「心境；心態 A common fixed expression.」與本句語境不同。",
-        "frame-20": "「議題框架；表述方式」與本句語境不同。",
-        "frame-21": "「框架效應」與本句語境不同。",
-        "frame-01": "「畫框；相框」與本句語境不同。",
-        "frame-02": "「裝框；裱框」與本句語境不同。"
-      }
+        "frame-mcq-16": "本句指「用來理解、判斷或測量事物的參照系統」。",
+        "frame-mcq-15": "「某件事預計／允許發生或完成的時間範圍」是「time frame」的用法，與本句語境不同。",
+        "frame-mcq-17": "「某一刻的心理狀態或心境」是「frame of mind」的用法，與本句語境不同。",
+        "frame-mcq-14": "「被某物從四周圍住、襯托或突出」是「be framed by」的用法，與本句語境不同。",
+        "frame-mcq-18": "「透過角度、字眼和重點設定某議題的呈現方式」是「framing」的用法，與本句語境不同。",
+        "frame-mcq-13": "「搭建物件／建築的支撐骨架」是「frame — construction」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-16"
     },
     {
       "id": "frame-18-1",
-      "sense": "frame-18",
+      "sense": "frame-mcq-16",
       "en": "Motion depends on the observer’s frame of reference.",
       "zh": "運動狀態取決於觀察者的參照系。",
       "masked": "Motion depends on the observer’s ____ of reference.",
       "options": [
-        "frame-18",
-        "frame-19",
-        "frame-20",
-        "frame-21",
-        "frame-01",
-        "frame-02"
+        "frame-mcq-16",
+        "frame-mcq-15",
+        "frame-mcq-17",
+        "frame-mcq-14",
+        "frame-mcq-18",
+        "frame-mcq-13"
       ],
-      "explanation": "留意語境：frame of reference =。這裡指「參照系；理解框架 A high-value academic/scientific expression.」。",
+      "explanation": "本句的「frame」指「用來理解、判斷或測量事物的參照系統」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-18": "本句的意思是「參照系；理解框架 A high-value academic/scientific expression.」。",
-        "frame-19": "「心境；心態 A common fixed expression.」與本句語境不同。",
-        "frame-20": "「議題框架；表述方式」與本句語境不同。",
-        "frame-21": "「框架效應」與本句語境不同。",
-        "frame-01": "「畫框；相框」與本句語境不同。",
-        "frame-02": "「裝框；裱框」與本句語境不同。"
-      }
+        "frame-mcq-16": "本句指「用來理解、判斷或測量事物的參照系統」。",
+        "frame-mcq-15": "「某件事預計／允許發生或完成的時間範圍」是「time frame」的用法，與本句語境不同。",
+        "frame-mcq-17": "「某一刻的心理狀態或心境」是「frame of mind」的用法，與本句語境不同。",
+        "frame-mcq-14": "「被某物從四周圍住、襯托或突出」是「be framed by」的用法，與本句語境不同。",
+        "frame-mcq-18": "「透過角度、字眼和重點設定某議題的呈現方式」是「framing」的用法，與本句語境不同。",
+        "frame-mcq-13": "「搭建物件／建築的支撐骨架」是「frame — construction」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-16"
     },
     {
       "id": "frame-19-0",
-      "sense": "frame-19",
+      "sense": "frame-mcq-17",
       "en": "I was not in the right frame of mind to work.",
       "zh": "我當時沒有適合工作的心境／狀態。",
       "masked": "I was not in the right ____ to work.",
       "options": [
-        "frame-19",
-        "frame-20",
-        "frame-21",
-        "frame-01",
-        "frame-02",
-        "frame-03"
+        "frame-mcq-17",
+        "frame-mcq-16",
+        "frame-mcq-18",
+        "frame-mcq-15",
+        "frame-mcq-19",
+        "frame-mcq-14"
       ],
-      "explanation": "留意語境：frame of mind =。這裡指「心境；心態 A common fixed expression.」。",
+      "explanation": "本句的「frame of mind」指「某一刻的心理狀態或心境」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "frame of mind"
       ],
       "optionReasons": {
-        "frame-19": "本句的意思是「心境；心態 A common fixed expression.」。",
-        "frame-20": "「議題框架；表述方式」與本句語境不同。",
-        "frame-21": "「框架效應」與本句語境不同。",
-        "frame-01": "「畫框；相框」與本句語境不同。",
-        "frame-02": "「裝框；裱框」與本句語境不同。",
-        "frame-03": "「框架；骨架；架構」與本句語境不同。"
-      }
+        "frame-mcq-17": "本句指「某一刻的心理狀態或心境」。",
+        "frame-mcq-16": "「用來理解、判斷或測量事物的參照系統」是「frame of reference」的用法，與本句語境不同。",
+        "frame-mcq-18": "「透過角度、字眼和重點設定某議題的呈現方式」是「framing」的用法，與本句語境不同。",
+        "frame-mcq-15": "「某件事預計／允許發生或完成的時間範圍」是「time frame」的用法，與本句語境不同。",
+        "frame-mcq-19": "「同樣資訊因表達框架不同而改變判斷的心理現象」是「framing effect」的用法，與本句語境不同。",
+        "frame-mcq-14": "「被某物從四周圍住、襯托或突出」是「be framed by」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-17"
     },
     {
       "id": "frame-19-1",
-      "sense": "frame-19",
+      "sense": "frame-mcq-17",
       "en": "Music can put you in a calmer frame of mind.",
       "zh": "音樂可以讓你進入較平靜的心境。",
       "masked": "Music can put you in a calmer ____ of mind.",
       "options": [
-        "frame-19",
-        "frame-20",
-        "frame-21",
-        "frame-01",
-        "frame-02",
-        "frame-03"
+        "frame-mcq-17",
+        "frame-mcq-16",
+        "frame-mcq-18",
+        "frame-mcq-15",
+        "frame-mcq-19",
+        "frame-mcq-14"
       ],
-      "explanation": "留意語境：frame of mind =。這裡指「心境；心態 A common fixed expression.」。",
+      "explanation": "本句的「frame」指「某一刻的心理狀態或心境」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "frame"
       ],
       "optionReasons": {
-        "frame-19": "本句的意思是「心境；心態 A common fixed expression.」。",
-        "frame-20": "「議題框架；表述方式」與本句語境不同。",
-        "frame-21": "「框架效應」與本句語境不同。",
-        "frame-01": "「畫框；相框」與本句語境不同。",
-        "frame-02": "「裝框；裱框」與本句語境不同。",
-        "frame-03": "「框架；骨架；架構」與本句語境不同。"
-      }
+        "frame-mcq-17": "本句指「某一刻的心理狀態或心境」。",
+        "frame-mcq-16": "「用來理解、判斷或測量事物的參照系統」是「frame of reference」的用法，與本句語境不同。",
+        "frame-mcq-18": "「透過角度、字眼和重點設定某議題的呈現方式」是「framing」的用法，與本句語境不同。",
+        "frame-mcq-15": "「某件事預計／允許發生或完成的時間範圍」是「time frame」的用法，與本句語境不同。",
+        "frame-mcq-19": "「同樣資訊因表達框架不同而改變判斷的心理現象」是「framing effect」的用法，與本句語境不同。",
+        "frame-mcq-14": "「被某物從四周圍住、襯托或突出」是「be framed by」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-17"
     },
     {
       "id": "frame-20-0",
-      "sense": "frame-20",
+      "sense": "frame-mcq-18",
       "en": "The framing of the question influenced the answers.",
       "zh": "問題的表述方式／框架設定影響了答案。",
       "masked": "The ____ of the question influenced the answers.",
       "options": [
-        "frame-20",
-        "frame-21",
-        "frame-01",
-        "frame-02",
-        "frame-03",
-        "frame-04"
+        "frame-mcq-18",
+        "frame-mcq-17",
+        "frame-mcq-19",
+        "frame-mcq-16",
+        "frame-mcq-20",
+        "frame-mcq-15"
       ],
-      "explanation": "留意語境：framing = way an issue is presented。這裡指「議題框架；表述方式」。",
+      "explanation": "本句的「framing」指「透過角度、字眼和重點設定某議題的呈現方式」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "framing"
       ],
       "optionReasons": {
-        "frame-20": "本句的意思是「議題框架；表述方式」。",
-        "frame-21": "「框架效應」與本句語境不同。",
-        "frame-01": "「畫框；相框」與本句語境不同。",
-        "frame-02": "「裝框；裱框」與本句語境不同。",
-        "frame-03": "「框架；骨架；架構」與本句語境不同。",
-        "frame-04": "「門框；窗框 A highly common structural use.」與本句語境不同。"
-      }
+        "frame-mcq-18": "本句指「透過角度、字眼和重點設定某議題的呈現方式」。",
+        "frame-mcq-17": "「某一刻的心理狀態或心境」是「frame of mind」的用法，與本句語境不同。",
+        "frame-mcq-19": "「同樣資訊因表達框架不同而改變判斷的心理現象」是「framing effect」的用法，與本句語境不同。",
+        "frame-mcq-16": "「用來理解、判斷或測量事物的參照系統」是「frame of reference」的用法，與本句語境不同。",
+        "frame-mcq-20": "「圍繞門、窗等開口並支撐其結構的邊框」是「4. door/window frame = 門框；窗框」的用法，與本句語境不同。",
+        "frame-mcq-15": "「某件事預計／允許發生或完成的時間範圍」是「time frame」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-18"
     },
     {
       "id": "frame-20-1",
-      "sense": "frame-20",
+      "sense": "frame-mcq-18",
       "en": "Media framing can shape how audiences understand an event.",
       "zh": "媒體的框架方式可能影響觀眾如何理解事件。",
       "masked": "Media ____ can shape how audiences understand an event.",
       "options": [
-        "frame-20",
-        "frame-21",
-        "frame-01",
-        "frame-02",
-        "frame-03",
-        "frame-04"
+        "frame-mcq-18",
+        "frame-mcq-17",
+        "frame-mcq-19",
+        "frame-mcq-16",
+        "frame-mcq-20",
+        "frame-mcq-15"
       ],
-      "explanation": "留意語境：framing = way an issue is presented。這裡指「議題框架；表述方式」。",
+      "explanation": "本句的「framing」指「透過角度、字眼和重點設定某議題的呈現方式」。",
       "sentenceIndex": 39,
       "sourcePractice": 40,
       "targets": [
         "framing"
       ],
       "optionReasons": {
-        "frame-20": "本句的意思是「議題框架；表述方式」。",
-        "frame-21": "「框架效應」與本句語境不同。",
-        "frame-01": "「畫框；相框」與本句語境不同。",
-        "frame-02": "「裝框；裱框」與本句語境不同。",
-        "frame-03": "「框架；骨架；架構」與本句語境不同。",
-        "frame-04": "「門框；窗框 A highly common structural use.」與本句語境不同。"
-      }
+        "frame-mcq-18": "本句指「透過角度、字眼和重點設定某議題的呈現方式」。",
+        "frame-mcq-17": "「某一刻的心理狀態或心境」是「frame of mind」的用法，與本句語境不同。",
+        "frame-mcq-19": "「同樣資訊因表達框架不同而改變判斷的心理現象」是「framing effect」的用法，與本句語境不同。",
+        "frame-mcq-16": "「用來理解、判斷或測量事物的參照系統」是「frame of reference」的用法，與本句語境不同。",
+        "frame-mcq-20": "「圍繞門、窗等開口並支撐其結構的邊框」是「4. door/window frame = 門框；窗框」的用法，與本句語境不同。",
+        "frame-mcq-15": "「某件事預計／允許發生或完成的時間範圍」是「time frame」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-18"
     },
     {
       "id": "frame-21-0",
-      "sense": "frame-21",
+      "sense": "frame-mcq-19",
       "en": "The framing effect can influence decisions.",
       "zh": "框架效應可以影響決策。",
       "masked": "The ____ can influence decisions.",
       "options": [
-        "frame-21",
-        "frame-01",
-        "frame-02",
-        "frame-03",
-        "frame-04",
-        "frame-05"
+        "frame-mcq-19",
+        "frame-mcq-18",
+        "frame-mcq-20",
+        "frame-mcq-17",
+        "frame-mcq-16",
+        "frame-mcq-15"
       ],
-      "explanation": "留意語境：framing effect（心理學）。這裡指「框架效應」。",
+      "explanation": "本句的「framing effect」指「同樣資訊因表達框架不同而改變判斷的心理現象」。",
       "sentenceIndex": 40,
       "sourcePractice": 41,
       "targets": [
         "framing effect"
       ],
       "optionReasons": {
-        "frame-21": "本句的意思是「框架效應」。",
-        "frame-01": "「畫框；相框」與本句語境不同。",
-        "frame-02": "「裝框；裱框」與本句語境不同。",
-        "frame-03": "「框架；骨架；架構」與本句語境不同。",
-        "frame-04": "「門框；窗框 A highly common structural use.」與本句語境不同。",
-        "frame-05": "「體格；骨架」與本句語境不同。"
-      }
+        "frame-mcq-19": "本句指「同樣資訊因表達框架不同而改變判斷的心理現象」。",
+        "frame-mcq-18": "「透過角度、字眼和重點設定某議題的呈現方式」是「framing」的用法，與本句語境不同。",
+        "frame-mcq-20": "「圍繞門、窗等開口並支撐其結構的邊框」是「4. door/window frame = 門框；窗框」的用法，與本句語境不同。",
+        "frame-mcq-17": "「某一刻的心理狀態或心境」是「frame of mind」的用法，與本句語境不同。",
+        "frame-mcq-16": "「用來理解、判斷或測量事物的參照系統」是「frame of reference」的用法，與本句語境不同。",
+        "frame-mcq-15": "「某件事預計／允許發生或完成的時間範圍」是「time frame」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-19"
     },
     {
       "id": "frame-21-1",
-      "sense": "frame-21",
+      "sense": "frame-mcq-19",
       "en": "People responded differently when the same choice was framed as a gain rather than a loss.",
       "zh": "當同一選擇被表述成獲益而不是損失時，人們的反應不同，這就是框架效應。",
       "masked": "People responded differently when the same choice was ____ as a gain rather than a loss.",
       "options": [
-        "frame-21",
-        "frame-01",
-        "frame-02",
-        "frame-03",
-        "frame-04",
-        "frame-05"
+        "frame-mcq-19",
+        "frame-mcq-18",
+        "frame-mcq-20",
+        "frame-mcq-17",
+        "frame-mcq-16",
+        "frame-mcq-15"
       ],
-      "explanation": "留意語境：framing effect（心理學）。這裡指「框架效應」。",
+      "explanation": "本句的「framed」指「同樣資訊因表達框架不同而改變判斷的心理現象」。",
       "sentenceIndex": 41,
       "sourcePractice": 42,
       "targets": [
         "framed"
       ],
       "optionReasons": {
-        "frame-21": "本句的意思是「框架效應」。",
-        "frame-01": "「畫框；相框」與本句語境不同。",
-        "frame-02": "「裝框；裱框」與本句語境不同。",
-        "frame-03": "「框架；骨架；架構」與本句語境不同。",
-        "frame-04": "「門框；窗框 A highly common structural use.」與本句語境不同。",
-        "frame-05": "「體格；骨架」與本句語境不同。"
-      }
+        "frame-mcq-19": "本句指「同樣資訊因表達框架不同而改變判斷的心理現象」。",
+        "frame-mcq-18": "「透過角度、字眼和重點設定某議題的呈現方式」是「framing」的用法，與本句語境不同。",
+        "frame-mcq-20": "「圍繞門、窗等開口並支撐其結構的邊框」是「4. door/window frame = 門框；窗框」的用法，與本句語境不同。",
+        "frame-mcq-17": "「某一刻的心理狀態或心境」是「frame of mind」的用法，與本句語境不同。",
+        "frame-mcq-16": "「用來理解、判斷或測量事物的參照系統」是「frame of reference」的用法，與本句語境不同。",
+        "frame-mcq-15": "「某件事預計／允許發生或完成的時間範圍」是「time frame」的用法，與本句語境不同。"
+      },
+      "correctOption": "frame-mcq-19"
     }
   ],
   "comparisons": [],
@@ -1841,5 +1724,6 @@ export default {
     "file": "482_frame_Polysemy Exercise.pdf",
     "sha256": "65c092562283f6c7b458149d353ea277a4e22d125b541c3f19a143b6cd6dd718",
     "pages": 19
-  }
+  },
+  "mcqSource": "master-comparison"
 };

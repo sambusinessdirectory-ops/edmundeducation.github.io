@@ -4,7 +4,7 @@ import { createExpressionMap } from "./common-expression-map.mjs?v=20260928-shar
 import { SENTENCE_REALMS } from "./sentence-structure-realms.mjs?v=20260924-closet-all2";
 import { SENTENCE_MAP_LIMIT, sentenceMapLessons, sentenceMapCompleted } from "./sentence-structure-map.mjs?v=20260914-hotel3b";
 import { GOLDEN_EDDIE_ART, sentenceTrophyState, sentenceTrophyCollection, goldenEddieFigure, renderSentenceTrophyShelf, syncSentenceMapTrophies, syncSentenceTrophyCounter, syncSentenceTrophyControls, animateSentenceTrophy, awardDateMarkup } from "./sentence-structure-trophies.mjs?v=20260915-phoebe2";
-import { sentenceJourneyEnabled, sentenceJourneyPlatformHtml, sentenceJourneyActorHtml, getSentenceJourneyQuestionId, mountSentenceJourney, moveSentenceJourney, reactSentenceJourney } from "./sentence-structure-exercise-journey.mjs?v=20260929-eddy-path5";
+import { sentenceJourneyEnabled, sentenceJourneyPlatformHtml, sentenceJourneyActorHtml, getSentenceJourneyQuestionId, mountSentenceJourney, moveSentenceJourney, reactSentenceJourney } from "./sentence-structure-exercise-journey.mjs?v=20260929-eddy-path9";
 const CONFIG = window.EDMUND_SENTENCE_STRUCTURE_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const lessonLibrary = createLessonLibrary(new URL("./assets/sentence-structure/library/manifest.json?v=20260908-loading1", import.meta.url));
@@ -20,6 +20,8 @@ const SECTION_BOOKMARK_ID = "__section__";
 const MAX_BOOKMARKS = 20000;
 const LESSON_PAGES = 4;
 const ATTEMPT_PAGE_SIZE = 100;
+const PENDING_ATTEMPT_WRITES_KEY = "edmund-sentence-structure-pending-attempt-writes-v1";
+const ATTEMPT_RETRY_DELAY_MS = 4000;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const SPELLING_EQUIVALENTS = Object.freeze({
   analyse: "analyze", analysed: "analyzed", analysing: "analyzing",
@@ -129,6 +131,8 @@ const state = {
   bookmarkSaveQueue: Promise.resolve(),
   bookmarkWriteRevision: 0,
   attemptSaveQueue: Promise.resolve(),
+  attemptPendingRevision: 0,
+  attemptRetryTimer: null,
   saveInFlight: false,
   exercisePersistTimer: null,
   toastTimer: null,
@@ -141,6 +145,13 @@ let lessonSearchIndexCache = null;
 let sentenceMap = null;
 let sentenceTrophies = [], earnedSentenceTrophies = new Set();
 let exerciseClockWasRunningBeforeIdleBreak = false;
+const exerciseKeyboardViewport = {
+  baselineHeight: window.visualViewport?.height || window.innerHeight,
+  baselineWidth: window.visualViewport?.width || window.innerWidth,
+  anchor: null,
+  opened: false,
+  restoreTimer: 0
+};
 
 function idleBreakIsPaused() {
   return window.EdmundIdleBreak?.isPaused?.() === true;
@@ -469,6 +480,8 @@ function clearSession() {
   // must not discard an answer the student already submitted; each queued
   // request carries the token and payload from the moment it was requested.
   state.attemptSaveQueue = state.attemptSaveQueue.catch(() => undefined);
+  window.clearTimeout(state.attemptRetryTimer);
+  state.attemptRetryTimer = null;
   state.adminStudents = [];
   state.selectedAdminStudentId = "";
   try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Ignore unavailable storage. */ }
@@ -705,6 +718,7 @@ async function openDashboard({ force = false } = {}) {
     renderLessonChoices();
     renderProgressDashboard();
     renderAttemptHistory();
+    schedulePendingAttemptRetry(0);
     if (state.currentView === "dashboard") openRequestedHomeworkLesson();
   } catch (error) {
     if (String(state.user?.id || "") !== userId || String(state.authToken || "") !== authToken) return;
@@ -1388,8 +1402,27 @@ function updateSeasideLesson(lesson) {
   if (elements.seasideLevel) {
     elements.seasideLevel.hidden = !isSeaside && !isAutumn;
     if (isSeaside) elements.seasideLevel.textContent = `LEVEL ${String(level).padStart(2, "0")} · CAPTAIN'S LOG`;
-    if (isAutumn) elements.seasideLevel.textContent = `LEVEL ${String(level).padStart(2, "0")} · WOODLAND FIELD GUIDE`;
+    if (isAutumn) elements.seasideLevel.textContent = `LEVEL ${String(level).padStart(2, "0")} · 森林漫步`;
   }
+  const autumnStages = [
+    ["發現 · Discover", "Formula + Example"],
+    ["理解 · Understand", "Why it helps"],
+    ["記住 · Remember", "Important Rules"],
+    ["練習 · Practise", "Exercise"]
+  ];
+  const standardStages = [
+    ["公式＋例句", "Formula + Example"],
+    ["學習好處", "Benefits"],
+    ["重要規則", "Important Rules"],
+    ["句子練習", "Exercise"]
+  ];
+  elements.lessonStepper?.querySelectorAll("[data-step]").forEach((button, index) => {
+    const [title, subtitle] = (isAutumn ? autumnStages : standardStages)[index];
+    const titleNode = button.querySelector?.("strong");
+    const subtitleNode = button.querySelector?.("small");
+    if (titleNode) titleNode.textContent = title;
+    if (subtitleNode) subtitleNode.textContent = subtitle;
+  });
 }
 
 function setLessonPage(page) {
@@ -1444,7 +1477,7 @@ function updateLessonStepper() {
 
 function infoPageHeader(number, title, english, description = "") {
   const seasideLabels = ["CAPTAIN'S LOG", "LOOKOUT POINT", "IMPORTANT RULES"];
-  const autumnLabels = ["TRAILHEAD · DISCOVER", "SUNLIT CLEARING · UNDERSTAND", "RANGER NOTES · REMEMBER"];
+  const autumnLabels = ["FORMULA + EXAMPLE", "FOREST INSIGHTS", "IMPORTANT RULES"];
   const pageEnglish = elements.lessonShell?.classList.contains("sentence-autumn-lesson")
     ? autumnLabels[Number(number) - 1] || english
     : elements.lessonShell?.classList.contains("sentence-seaside-lesson")
@@ -1464,7 +1497,6 @@ function navHtml(page) {
 }
 
 function renderFormulaPage(lesson) {
-  const isAutumn = elements.lessonShell?.classList.contains("sentence-autumn-lesson");
   const formulaRows = Array.isArray(lesson.formulas) && lesson.formulas.length
     ? lesson.formulas
     : (Array.isArray(lesson.formula) ? lesson.formula : [lesson.formula]).map((formula) => ({ formula }));
@@ -1475,9 +1507,8 @@ function renderFormulaPage(lesson) {
   const meaningLines = (Array.isArray(rawMeaning) ? rawMeaning : rawMeaning ? [rawMeaning] : [])
     .filter((line) => String(line || "").trim());
   elements.lessonContent.innerHTML = `<article class="info-page seaside-formula-page">
-    ${infoPageHeader(1, isAutumn ? "公式與例句 · 小徑起點" : "公式＋例句", "FORMULA + EXAMPLE", "先掌握句型的固定骨架，再觀察完整例句。")}
+    ${infoPageHeader(1, "公式＋例句", "FORMULA + EXAMPLE", "先掌握句型的固定骨架，再觀察完整例句。")}
     <section class="formula-card">
-      ${isAutumn ? '<div class="autumn-field-scene" aria-hidden="true"><span>01 · THE TRAILHEAD</span><i></i></div>' : ""}
       <span class="formula-label">FORMULA · 句型公式</span>
       <div class="formula-display">${formulaRows.filter((row) => row?.formula || typeof row === "string").map((row) => {
         const formula = typeof row === "string" ? row : row.formula;
@@ -1512,12 +1543,11 @@ function renderBenefitsPage(lesson) {
   const benefits = Array.isArray(lesson.benefits) ? lesson.benefits : [];
   const isAutumn = elements.lessonShell?.classList.contains("sentence-autumn-lesson");
   elements.lessonContent.innerHTML = `<article class="info-page seaside-benefits-page">
-    ${infoPageHeader(2, isAutumn ? "沿途發現 · 學習好處" : "Benefits 學習好處", "WHY THIS STRUCTURE HELPS", "理解這個句型能為寫作帶來甚麼，練習時會更有方向。")}
-    ${isAutumn ? '<div class="autumn-clearing-scene" aria-hidden="true"><span>02 · A WALK THROUGH THE CLEARING</span></div>' : ""}
+    ${infoPageHeader(2, isAutumn ? "學習好處｜Benefits" : "Benefits 學習好處", "WHY THIS STRUCTURE HELPS", "理解這個句型能為寫作帶來甚麼，練習時會更有方向。")}
     <ol class="benefit-list">
       ${benefits.map((raw, index) => {
         const item = bilingualItem(raw);
-        return `<li class="benefit-card"><span>${index + 1}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}</div></li>`;
+        return `<li class="benefit-card"><span>${String(index + 1).padStart(2, "0")}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}</div></li>`;
       }).join("")}
     </ol>
     ${navHtml(2)}
@@ -1528,12 +1558,11 @@ function renderRulesPage(lesson) {
   const rules = Array.isArray(lesson.rules) ? lesson.rules : [];
   const isAutumn = elements.lessonShell?.classList.contains("sentence-autumn-lesson");
   elements.lessonContent.innerHTML = `<article class="info-page seaside-rules-page">
-    ${infoPageHeader(3, isAutumn ? "護林筆記 · 重要規則" : "Important Rules 重要規則", "IMPORTANT REMINDERS", "留意容易出錯的位置，特別是動詞形態、冠詞及題目已提供的資料。")}
-    ${isAutumn ? '<div class="autumn-ranger-scene" aria-hidden="true"><span>03 · FIELD NOTES</span></div>' : ""}
+    ${infoPageHeader(3, isAutumn ? "重要規則" : "Important Rules 重要規則", "IMPORTANT REMINDERS", "留意容易出錯的位置，特別是動詞形態、冠詞及題目已提供的資料。")}
     <ol class="rule-list">
       ${rules.map((raw, index) => {
         const item = bilingualItem(raw);
-        return `<li class="rule-card"><img class="seaside-anchor" src="assets/sentence-structure/seaside/anchor.svg" alt="" aria-hidden="true"><span>${index + 1}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}${item.examples.length ? `<div class="examples">${item.examples.map((example) => `<code>${escapeHtml(example)}</code>`).join("")}</div>` : ""}</div></li>`;
+        return `<li class="rule-card"><img class="seaside-anchor" src="assets/sentence-structure/seaside/anchor.svg" alt="" aria-hidden="true"><span>${String(index + 1).padStart(2, "0")}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}${item.examples.length ? `<div class="examples">${item.examples.map((example) => `<code>${escapeHtml(example)}</code>`).join("")}</div>` : ""}</div></li>`;
       }).join("")}
     </ol>
     ${navHtml(3)}
@@ -1821,6 +1850,13 @@ function submissionQuestions(lesson = getLesson()) {
 function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   removeFloatingExerciseActions();
   ensureExercise(lesson);
+  const preservedJourneyActor = sentenceJourneyEnabled(lesson)
+    ? elements.lessonContent.querySelector?.("[data-sentence-journey-eddy]")
+    : null;
+  const preservedJourneyStatus = sentenceJourneyEnabled(lesson)
+    ? elements.lessonContent.querySelector?.("[data-sentence-journey-status]")
+    : null;
+  const preservedQuestionOrderControl = elements.lessonContent.querySelector?.(".question-order-control.question-order-inline");
   const scrollTop = preserveScroll ? window.scrollY : 0;
   const scrollAnchorQuestionId = preserveScroll ? getSentenceJourneyQuestionId() : "";
   const previousScrollAnchor = scrollAnchorQuestionId
@@ -1836,11 +1872,16 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   const correctionScope = state.exercise.correctionMode ? correctionQuestions(lesson) : [];
   const correctionRemaining = correctionScope.filter((question) => !state.exercise.correctIds.includes(question.id));
   const correctionAnswerVisible = correctionRemaining.some((question) => questionState(question.id).reveal === true);
-  const displayQuestions = completed
+  const scopedDisplayQuestions = completed
     ? lesson.questions
     : state.exercise.correctionMode
       ? correctionScope
       : lesson.questions;
+  const displayQuestions = orderQuestions(scopedDisplayQuestions, {
+    system: "sentence-structure",
+    owner: state.user?.id,
+    lessonId: state.lessonId
+  });
   const visibleCorrectIds = displayQuestions
     .filter((question) => state.exercise.correctIds.includes(question.id))
     .map((question) => question.id);
@@ -1859,19 +1900,15 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   const trophyProgress = sentenceTrophyState(lesson, [{lessonId: lesson.id, status: completed ? 'completed' : 'in_progress', totalCount: total, correctCount: correct, completedAt:state.exercise.completedAt, result: {correctIds: state.exercise.correctIds,rounds:state.exercise.rounds}}]);
   const trophyEarned = trophyProgress.earned;
   const trophyOrder = lessonList().findIndex(item => item.id === lesson.id) + 1;
-  const isAutumn = Number(lesson.order) >= 31 && Number(lesson.order) <= 60;
   elements.lessonContent.innerHTML = `<section class="exercise-page seaside-practice-page">
     <header class="exercise-header">
       <div class="exercise-header-top">
-        <div><p class="eyebrow">${isAutumn ? "PAGE 4 · WOODLAND TRAIL CHALLENGE" : "PAGE 4 · TYPE THE WHOLE SENTENCE"}</p><h2>${isAutumn ? "林間改寫挑戰" : "句子改寫練習"}</h2><p>輸入完整英文句子。部分提交只會檢查已輸入的題目；答對的題目不會重複出現。</p></div>
+        <div><p class="eyebrow">PAGE 4 · TYPE THE WHOLE SENTENCE</p><h2>句子改寫練習</h2><p>輸入完整英文句子。部分提交只會檢查已輸入的題目；答對的題目不會重複出現。</p></div>
       </div>
       <div class="exercise-progress" style="--progress:${percentage}%"><span></span></div>
       <div class="exercise-progress-label"><span>已完成 ${escapeHtml(correct)} / ${escapeHtml(total)} 題</span><span>尚餘 ${escapeHtml(remaining)} 題</span></div>
       ${Number(lesson.order) >= 1 && Number(lesson.order) <= 30 && total === 50 ? `<nav class="seaside-chapters" aria-label="練習題目分段">
         ${[0, 1, 2, 3, 4].map((chapter) => `<button type="button" data-seaside-chapter="${chapter}" aria-label="跳至第 ${chapter * 10 + 1} 至 ${chapter * 10 + 10} 題"><img src="assets/sentence-structure/seaside/chapter-${["shell", "conch", "rocks", "lighthouse", "wheel"][chapter]}.svg?v=2" alt="" aria-hidden="true"><strong>${chapter * 10 + 1}–${chapter * 10 + 10}</strong><small>${["海灣起點", "貝殼小橋", "岩石海岸", "燈塔步道", "遠航挑戰"][chapter]}</small></button>`).join("")}
-      </nav>` : ""}
-      ${isAutumn && total === 50 ? `<nav class="autumn-chapters" aria-label="林間練習分段">
-        ${[0, 1, 2, 3, 4].map((chapter) => `<button type="button" data-seaside-chapter="${chapter}" style="--trail-position:${chapter * 25}%" aria-label="跳至第 ${chapter * 10 + 1} 至 ${chapter * 10 + 10} 題"><span class="autumn-chapter-number">${chapter * 10 + 1}–${chapter * 10 + 10}</span><small>${["林間起步", "落葉小徑", "溪邊觀察", "木橋探索", "暖屋終點"][chapter]}</small></button>`).join("")}
       </nav>` : ""}
     </header>
 
@@ -1906,11 +1943,8 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     </div>` : ""}
 
     <div class="question-list ${sentenceJourneyEnabled(lesson) ? "has-sentence-journey" : ""}" id="sentence-structure-question-list" data-question-list>
-      ${displayQuestions.map((question, index) => {
-        const chapter = isAutumn && !state.exercise.correctionMode && total === 50 && index % 10 === 0
-          ? `<div class="autumn-trail-checkpoint" aria-hidden="true"><span>TRAIL ${String(Math.floor(index / 10) + 1).padStart(2, "0")}</span><strong>${["林間起步", "落葉小徑", "溪邊觀察", "木橋探索", "暖屋終點"][Math.floor(index / 10)]}</strong><small>${index + 1}–${Math.min(index + 10, total)} / ${total}</small></div>`
-          : "";
-        return chapter + questionHtml(question);
+      ${displayQuestions.map((question) => {
+        return questionHtml(question);
       }).join("")}
       ${sentenceJourneyEnabled(lesson) ? sentenceJourneyActorHtml() : ""}
     </div>
@@ -1930,6 +1964,19 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
       </div>
     </div>` : ""}
   </section>`;
+
+  if (preservedJourneyActor) {
+    const renderedActor = elements.lessonContent.querySelector?.("[data-sentence-journey-eddy]");
+    renderedActor?.replaceWith?.(preservedJourneyActor);
+  }
+  if (preservedJourneyStatus) {
+    const renderedStatus = elements.lessonContent.querySelector?.("[data-sentence-journey-status]");
+    renderedStatus?.replaceWith?.(preservedJourneyStatus);
+  }
+  if (preservedQuestionOrderControl) {
+    const firstQuestionOrderItem = elements.lessonContent.querySelector?.("[data-question-order-item]");
+    firstQuestionOrderItem?.before?.(preservedQuestionOrderControl);
+  }
 
   mountFloatingExerciseActions();
   updateLessonStepper();
@@ -2050,6 +2097,92 @@ function serializeExerciseResult() {
   };
 }
 
+function readPendingAttemptWrites() {
+  try {
+    const rows = JSON.parse(localStorage.getItem(PENDING_ATTEMPT_WRITES_KEY) || "[]");
+    return Array.isArray(rows) ? rows.filter((row) => row && UUID_RE.test(String(row.attemptId || "")) && isPlainObject(row.payload)) : [];
+  } catch {
+    return [];
+  }
+}
+
+function writePendingAttemptWrites(rows) {
+  try {
+    if (rows.length) localStorage.setItem(PENDING_ATTEMPT_WRITES_KEY, JSON.stringify(rows.slice(-100)));
+    else localStorage.removeItem(PENDING_ATTEMPT_WRITES_KEY);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function stagePendingAttemptWrite(attemptId, userId, payload) {
+  const rows = readPendingAttemptWrites();
+  const revision = state.attemptPendingRevision = Math.max(Date.now(), state.attemptPendingRevision + 1);
+  const record = { attemptId, userId, payload, revision };
+  const retained = rows.filter((row) => !(row.attemptId === attemptId && row.userId === userId));
+  writePendingAttemptWrites([...retained, record]);
+  return record;
+}
+
+function clearPendingAttemptWrite(record) {
+  const rows = readPendingAttemptWrites();
+  writePendingAttemptWrites(rows.filter((row) => !(
+    row.attemptId === record.attemptId
+    && row.userId === record.userId
+    && Number(row.revision) === Number(record.revision)
+  )));
+}
+
+function retryableAttemptSaveError(error) {
+  const status = Number(error?.status || 0);
+  return status === 0 || [408, 425, 429, 500, 502, 503, 504].includes(status);
+}
+
+function applySavedAttempt(record, response) {
+  if (String(state.user?.id || "") !== record.userId) return;
+  const saved = normalizeAttempt(response?.attempt || { id: record.attemptId, ...record.payload });
+  const index = state.attempts.findIndex((attempt) => attempt.id === saved.id);
+  if (index >= 0) state.attempts[index] = saved;
+  else state.attempts.unshift(saved);
+  state.dashboardLoaded = true;
+}
+
+function schedulePendingAttemptRetry(delay = ATTEMPT_RETRY_DELAY_MS) {
+  if (state.attemptRetryTimer || state.user?.role !== "student") return;
+  state.attemptRetryTimer = window.setTimeout(() => {
+    state.attemptRetryTimer = null;
+    void retryPendingAttemptWrites();
+  }, Math.max(0, Number(delay || 0)));
+}
+
+function retryPendingAttemptWrites() {
+  const userId = String(state.user?.id || "");
+  const authToken = String(state.authToken || "");
+  if (!userId || !authToken || state.user?.role !== "student") return Promise.resolve({ pending: 0 });
+  const run = async () => {
+    const records = readPendingAttemptWrites().filter((record) => record.userId === userId);
+    for (const record of records) {
+      try {
+        const response = await apiJson(`/v1/attempts/${encodeURIComponent(record.attemptId)}`, {
+          method: "PUT",
+          body: JSON.stringify(record.payload)
+        }, true, authToken);
+        clearPendingAttemptWrite(record);
+        applySavedAttempt(record, response);
+      } catch (error) {
+        if (retryableAttemptSaveError(error)) schedulePendingAttemptRetry();
+        else console.warn("Sentence Structure pending attempt needs attention", error);
+        break;
+      }
+    }
+    return { pending: readPendingAttemptWrites().filter((record) => record.userId === userId).length };
+  };
+  const pending = state.attemptSaveQueue.then(run, run);
+  state.attemptSaveQueue = pending.catch(() => undefined);
+  return pending;
+}
+
 function persistExercise() {
   if (!state.exercise || state.user?.role !== "student") return;
   saveExerciseDraft();
@@ -2072,20 +2205,27 @@ function persistExercise() {
     completedAt: state.exercise.completedAt || null,
     result: serializeExerciseResult()
   };
+  const record = stagePendingAttemptWrite(attemptId, userId, payload);
   const write = async () => {
-    const response = await apiJson(`/v1/attempts/${encodeURIComponent(attemptId)}`, {
-      method: "PUT",
-      body: JSON.stringify(payload)
-    }, true, authToken);
+    let response;
+    try {
+      response = await apiJson(`/v1/attempts/${encodeURIComponent(attemptId)}`, {
+        method: "PUT",
+        body: JSON.stringify(payload)
+      }, true, authToken);
+    } catch (error) {
+      if (retryableAttemptSaveError(error)) {
+        schedulePendingAttemptRetry();
+        return { pending: true, error };
+      }
+      throw error;
+    }
+    clearPendingAttemptWrite(record);
     if (
       String(state.user?.id || "") !== userId
       || String(state.authToken || "") !== authToken
     ) return response;
-    const saved = normalizeAttempt(response?.attempt || { id: attemptId, ...payload });
-    const index = state.attempts.findIndex((attempt) => attempt.id === saved.id);
-    if (index >= 0) state.attempts[index] = saved;
-    else state.attempts.unshift(saved);
-    state.dashboardLoaded = true;
+    applySavedAttempt(record, response);
     return response;
   };
   // Initial creation, answer submission, correction controls and card-display
@@ -2194,11 +2334,17 @@ async function submitExercise(kind) {
         correct: correctThisTime.includes(journeyQuestion.id)
       });
     }
-    await Promise.all([
-      persistExercise(),
-      ...(bookmarkChanged ? [saveBookmarks()] : [])
-    ]);
-    showToast(remaining ? `已檢查 ${targets.length} 題。` : "全部題目完成，記錄已儲存！");
+    const attemptSave = await persistExercise();
+    if (bookmarkChanged) {
+      try {
+        await saveBookmarks();
+      } catch (bookmarkError) {
+        console.warn("Sentence Structure bookmark answer sync failed", bookmarkError);
+      }
+    }
+    showToast(attemptSave?.pending
+      ? `已檢查 ${targets.length} 題；記錄已安全保留，系統會自動同步。`
+      : remaining ? `已檢查 ${targets.length} 題。` : "全部題目完成，記錄已儲存！");
   } catch (error) {
     console.warn("Sentence Structure attempt save failed", error);
     showToast("未能同步練習記錄；答案已保留在此裝置，請稍後再試。", "error");
@@ -2393,6 +2539,61 @@ function restoreSectionBookmarkFocus(lessonId) {
     document.querySelector(`[data-toggle-section-bookmark="${CSS.escape(lessonId)}"]`)
       ?.focus?.({ preventScroll: true });
   });
+}
+
+function rememberExerciseKeyboardAnchor(input) {
+  const viewport = window.visualViewport;
+  const card = input?.closest?.("[data-eddy-stop]");
+  if (!viewport || !card) return;
+  const keyboardGap = exerciseKeyboardViewport.baselineHeight - viewport.height;
+  if (keyboardGap > 80 && exerciseKeyboardViewport.anchor) return;
+  exerciseKeyboardViewport.baselineHeight = Math.max(exerciseKeyboardViewport.baselineHeight, viewport.height);
+  exerciseKeyboardViewport.baselineWidth = viewport.width;
+  exerciseKeyboardViewport.anchor = {
+    questionId: card.dataset.eddyStop || input.dataset.answerInput || "",
+    viewportTop: card.getBoundingClientRect().top - viewport.offsetTop
+  };
+  exerciseKeyboardViewport.opened = false;
+}
+
+function restoreExerciseKeyboardAnchor() {
+  const viewport = window.visualViewport;
+  const anchor = exerciseKeyboardViewport.anchor;
+  if (!viewport || !anchor) return;
+  const restore = () => {
+    const card = elements.lessonContent.querySelector?.(`[data-eddy-stop="${CSS.escape(anchor.questionId)}"]`);
+    if (!card) return;
+    const currentTop = card.getBoundingClientRect().top - viewport.offsetTop;
+    window.scrollTo({ top: Math.max(0, window.scrollY + currentTop - anchor.viewportTop), behavior: "auto" });
+  };
+  window.clearTimeout(exerciseKeyboardViewport.restoreTimer);
+  requestAnimationFrame(() => requestAnimationFrame(restore));
+  exerciseKeyboardViewport.restoreTimer = window.setTimeout(() => {
+    restore();
+    exerciseKeyboardViewport.restoreTimer = window.setTimeout(restore, 240);
+  }, 120);
+  exerciseKeyboardViewport.anchor = null;
+  exerciseKeyboardViewport.opened = false;
+  exerciseKeyboardViewport.baselineHeight = viewport.height;
+}
+
+function handleExerciseKeyboardViewportResize() {
+  const viewport = window.visualViewport;
+  if (!viewport) return;
+  if (Math.abs(viewport.width - exerciseKeyboardViewport.baselineWidth) > 80) {
+    exerciseKeyboardViewport.baselineWidth = viewport.width;
+    exerciseKeyboardViewport.baselineHeight = viewport.height;
+    exerciseKeyboardViewport.anchor = null;
+    exerciseKeyboardViewport.opened = false;
+    return;
+  }
+  const keyboardGap = exerciseKeyboardViewport.baselineHeight - viewport.height;
+  if (keyboardGap > 120 && exerciseKeyboardViewport.anchor) {
+    exerciseKeyboardViewport.opened = true;
+    return;
+  }
+  if (exerciseKeyboardViewport.opened && keyboardGap < 60) restoreExerciseKeyboardAnchor();
+  else if (!exerciseKeyboardViewport.opened) exerciseKeyboardViewport.baselineHeight = Math.max(exerciseKeyboardViewport.baselineHeight, viewport.height);
 }
 
 function upgradeBookmarkAnswer(lessonId, questionId) {
@@ -2692,8 +2893,14 @@ function bindEvents() {
   document.addEventListener("focusin", (event) => {
     const input = event.target.closest?.("[data-answer-input]");
     if (input && state.lessonPage === 4 && sentenceJourneyEnabled(getLesson())) {
+      rememberExerciseKeyboardAnchor(input);
       moveSentenceJourney(elements.lessonContent, input.dataset.answerInput);
     }
+  });
+  window.visualViewport?.addEventListener?.("resize", handleExerciseKeyboardViewportResize);
+  window.addEventListener("online", () => schedulePendingAttemptRetry(0));
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") schedulePendingAttemptRetry(0);
   });
   elements.lessonSearchForm?.addEventListener("submit", (event) => {
     event.preventDefault();

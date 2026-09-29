@@ -2,2132 +2,2001 @@ export default {
   "id": "steady",
   "word": "steady",
   "number": 348,
-  "version": 1,
+  "version": 2,
   "mass": true,
   "senses": [
     {
-      "id": "steady-01",
-      "title": "穩定的；平穩的",
-      "form": "steady = stable / not changing much（穩定的）",
-      "en": "steady = stable / not changing much（穩定的）",
-      "zh": "穩定的；平穩的",
-      "note": "留意語境：steady = stable / not changing much（穩定的）。這裡指「穩定的；平穩的」。",
+      "id": "steady-mcq-01",
+      "title": "狀態、表現或進展持續一致，沒有突然大幅改變",
+      "form": "steady — stable/consistent",
+      "en": "steady — stable/consistent",
+      "zh": "狀態、表現或進展持續一致，沒有突然大幅改變",
+      "note": "來源詞義：狀態、表現或進展持續一致，沒有突然大幅改變",
       "examples": [
         [
           "Kindness can be quiet, steady, and deeply powerful.",
           "善良可以很安靜、很穩定持久，卻非常有力量。",
-          "穩定的；平穩的"
+          "狀態、表現或進展持續一致，沒有突然大幅改變"
         ],
         [
           "She made steady progress.",
           "她取得了穩定的進步。",
-          "穩定的；平穩的"
+          "狀態、表現或進展持續一致，沒有突然大幅改變"
         ],
         [
           "The company has shown steady growth.",
           "公司一直保持穩定增長。",
-          "穩定的；平穩的"
+          "狀態、表現或進展持續一致，沒有突然大幅改變"
         ]
       ],
-      "options": [
-        "steady-01",
-        "steady-02",
-        "steady-03",
-        "steady-04",
-        "steady-05",
-        "steady-06"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-02",
-      "title": "穩定的；不搖晃的",
-      "form": "steady = physically firm / not shaking（穩的）",
-      "en": "steady = physically firm / not shaking（穩的）",
-      "zh": "穩定的；不搖晃的",
-      "note": "留意語境：steady = physically firm / not shaking（穩的）。這裡指「穩定的；不搖晃的」。",
+      "id": "steady-mcq-02",
+      "title": "保持平衡、不搖晃、不顫抖或不容易倒下的",
+      "form": "steady — physical",
+      "en": "steady — physical",
+      "zh": "保持平衡、不搖晃、不顫抖或不容易倒下的",
+      "note": "來源詞義：保持平衡、不搖晃、不顫抖或不容易倒下的",
       "examples": [
         [
           "Keep your hand steady.",
           "保持手部穩定，不要抖動。",
-          "穩定的；不搖晃的"
+          "保持平衡、不搖晃、不顫抖或不容易倒下的"
         ],
         [
           "The table is not very steady.",
           "這張桌子不太穩固。",
-          "穩定的；不搖晃的"
+          "保持平衡、不搖晃、不顫抖或不容易倒下的"
         ]
       ],
-      "options": [
-        "steady-02",
-        "steady-03",
-        "steady-04",
-        "steady-05",
-        "steady-06",
-        "steady-07"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-03",
-      "title": "穩定的手；沉著能力",
-      "form": "steady hand（手穩／沉著）",
-      "en": "steady hand（手穩／沉著）",
-      "zh": "穩定的手；沉著能力",
-      "note": "留意語境：steady hand（手穩／沉著）。這裡指「穩定的手；沉著能力」。",
+      "id": "steady-mcq-03",
+      "title": "手部控制穩定、不容易抖動",
+      "form": "steady hand",
+      "en": "steady hand",
+      "zh": "手部控制穩定、不容易抖動",
+      "note": "來源詞義：手部控制穩定、不容易抖動",
       "examples": [
         [
           "A surgeon needs a steady hand.",
           "外科醫生需要有一雙穩定的手。",
-          "穩定的手；沉著能力"
+          "手部控制穩定、不容易抖動"
         ],
         [
           "She painted the fine details with a steady hand.",
           "她用很穩的手畫出細節。",
-          "穩定的手；沉著能力"
+          "手部控制穩定、不容易抖動"
         ]
       ],
-      "options": [
-        "steady-03",
-        "steady-04",
-        "steady-05",
-        "steady-06",
-        "steady-07",
-        "steady-08"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-04",
-      "title": "沉著的；冷靜的",
-      "form": "steady = calm / emotionally controlled（情緒穩定）",
-      "en": "steady = calm / emotionally controlled（情緒穩定）",
-      "zh": "沉著的；冷靜的",
-      "note": "留意語境：steady = calm / emotionally controlled（情緒穩定）。這裡指「沉著的；冷靜的」。",
+      "id": "steady-mcq-04",
+      "title": "情緒、語氣或反應在壓力下仍保持平穩和沉著",
+      "form": "steady — emotional",
+      "en": "steady — emotional",
+      "zh": "情緒、語氣或反應在壓力下仍保持平穩和沉著",
+      "note": "來源詞義：情緒、語氣或反應在壓力下仍保持平穩和沉著",
       "examples": [
         [
           "She kept her voice steady.",
           "她保持聲音平穩鎮定。",
-          "沉著的；冷靜的"
+          "情緒、語氣或反應在壓力下仍保持平穩和沉著"
         ],
         [
           "He remained steady under pressure.",
           "他在壓力下仍然保持沉著穩定。",
-          "沉著的；冷靜的"
+          "情緒、語氣或反應在壓力下仍保持平穩和沉著"
         ]
       ],
-      "options": [
-        "steady-04",
-        "steady-05",
-        "steady-06",
-        "steady-07",
-        "steady-08",
-        "steady-09"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-05",
-      "title": "平穩的；均勻的",
-      "form": "steady voice / breathing（平穩）",
-      "en": "steady voice / breathing（平穩）",
-      "zh": "平穩的；均勻的",
-      "note": "留意語境：steady voice / breathing（平穩）。這裡指「平穩的；均勻的」。",
+      "id": "steady-mcq-05",
+      "title": "聲音、呼吸或節奏均勻而不突然變化",
+      "form": "steady voice/breathing",
+      "en": "steady voice/breathing",
+      "zh": "聲音、呼吸或節奏均勻而不突然變化",
+      "note": "來源詞義：聲音、呼吸或節奏均勻而不突然變化",
       "examples": [
         [
           "She spoke in a steady voice.",
           "她用平穩的聲音說話。",
-          "平穩的；均勻的"
+          "聲音、呼吸或節奏均勻而不突然變化"
         ],
         [
           "His breathing became steady again.",
           "他的呼吸再次變得平穩。",
-          "平穩的；均勻的"
+          "聲音、呼吸或節奏均勻而不突然變化"
         ]
       ],
-      "options": [
-        "steady-05",
-        "steady-06",
-        "steady-07",
-        "steady-08",
-        "steady-09",
-        "steady-10"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-06",
-      "title": "穩定的；均勻的",
-      "form": "steady pace / speed（速度）",
-      "en": "steady pace / speed（速度）",
-      "zh": "穩定的；均勻的",
-      "note": "留意語境：steady pace / speed（速度）。這裡指「穩定的；均勻的」。",
+      "id": "steady-mcq-06",
+      "title": "速度大致保持一致，不突然加快或減慢",
+      "form": "steady pace/speed",
+      "en": "steady pace/speed",
+      "zh": "速度大致保持一致，不突然加快或減慢",
+      "note": "來源詞義：速度大致保持一致，不突然加快或減慢",
       "examples": [
         [
           "Walk at a steady pace.",
           "以穩定的步速行走。",
-          "穩定的；均勻的"
+          "速度大致保持一致，不突然加快或減慢"
         ],
         [
           "The car maintained a steady speed.",
           "汽車保持穩定車速。",
-          "穩定的；均勻的"
+          "速度大致保持一致，不突然加快或減慢"
         ]
       ],
-      "options": [
-        "steady-06",
-        "steady-07",
-        "steady-08",
-        "steady-09",
-        "steady-10",
-        "steady-11"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-07",
-      "title": "持續穩定的",
-      "form": "steady flow / supply（流量／供應）",
-      "en": "steady flow / supply（流量／供應）",
-      "zh": "持續穩定的",
-      "note": "留意語境：steady flow / supply（流量／供應）。這裡指「持續穩定的」。",
+      "id": "steady-mcq-07",
+      "title": "持續出現／供應，數量或頻率相對穩定",
+      "form": "steady flow/supply",
+      "en": "steady flow/supply",
+      "zh": "持續出現／供應，數量或頻率相對穩定",
+      "note": "來源詞義：持續出現／供應，數量或頻率相對穩定",
       "examples": [
         [
           "There was a steady flow of visitors.",
           "訪客一直穩定地陸續到來。",
-          "持續穩定的"
+          "持續出現／供應，數量或頻率相對穩定"
         ],
         [
           "The factory needs a steady supply of materials.",
           "工廠需要穩定持續的原材料供應。",
-          "持續穩定的"
+          "持續出現／供應，數量或頻率相對穩定"
         ]
       ],
-      "options": [
-        "steady-07",
-        "steady-08",
-        "steady-09",
-        "steady-10",
-        "steady-11",
-        "steady-12"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-08",
-      "title": "穩定的；可靠的",
-      "form": "steady income/job（收入／工作）",
-      "en": "steady income/job（收入／工作）",
-      "zh": "穩定的；可靠的",
-      "note": "留意語境：steady income/job（收入／工作）。這裡指「穩定的；可靠的」。",
+      "id": "steady-mcq-08",
+      "title": "能持續提供可靠工作／收入和一定保障的",
+      "form": "steady job/income",
+      "en": "steady job/income",
+      "zh": "能持續提供可靠工作／收入和一定保障的",
+      "note": "來源詞義：能持續提供可靠工作／收入和一定保障的",
       "examples": [
         [
           "He wants a steady job.",
           "他想找一份穩定的工作。",
-          "穩定的；可靠的"
+          "能持續提供可靠工作／收入和一定保障的"
         ],
         [
           "A steady income gives people more security.",
           "穩定收入會令人更有安全感。",
-          "穩定的；可靠的"
+          "能持續提供可靠工作／收入和一定保障的"
         ]
       ],
-      "options": [
-        "steady-08",
-        "steady-09",
-        "steady-10",
-        "steady-11",
-        "steady-12",
-        "steady-13"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-09",
-      "title": "穩定的；持久的",
-      "form": "steady relationship（關係）",
-      "en": "steady relationship（關係）",
-      "zh": "穩定的；持久的",
-      "note": "留意語境：steady relationship（關係）。這裡指「穩定的；持久的」。",
+      "id": "steady-mcq-09",
+      "title": "持續、可靠而不反覆變化的關係",
+      "form": "steady relationship",
+      "en": "steady relationship",
+      "zh": "持續、可靠而不反覆變化的關係",
+      "note": "來源詞義：持續、可靠而不反覆變化的關係",
       "examples": [
         [
           "They have been in a steady relationship for years.",
           "他們多年來一直維持一段穩定的感情關係。",
-          "穩定的；持久的"
+          "持續、可靠而不反覆變化的關係"
         ],
         [
           "She prefers a steady relationship to something casual.",
           "她比較喜歡穩定長久的關係，而不是隨意的關係。",
-          "穩定的；持久的"
+          "持續、可靠而不反覆變化的關係"
         ]
       ],
-      "options": [
-        "steady-09",
-        "steady-10",
-        "steady-11",
-        "steady-12",
-        "steady-13",
-        "steady-14"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-10",
-      "title": "持續的；規律的",
-      "form": "steady = regular / continuous（固定持續）",
-      "en": "steady = regular / continuous（固定持續）",
-      "zh": "持續的；規律的",
-      "note": "留意語境：steady = regular / continuous（固定持續）。這裡指「持續的；規律的」。",
+      "id": "steady-mcq-10",
+      "title": "某件事情持續發生，節奏或強度相對規律",
+      "form": "steady — regular/continuous",
+      "en": "steady — regular/continuous",
+      "zh": "某件事情持續發生，節奏或強度相對規律",
+      "note": "來源詞義：某件事情持續發生，節奏或強度相對規律",
       "examples": [
         [
           "There was a steady rain all afternoon.",
           "整個下午一直下著持續而穩定的雨。",
-          "持續的；規律的"
+          "某件事情持續發生，節奏或強度相對規律"
         ],
         [
           "She heard a steady tapping sound.",
           "她聽到一陣持續而規律的敲擊聲。",
-          "持續的；規律的"
+          "某件事情持續發生，節奏或強度相對規律"
         ]
       ],
-      "options": [
-        "steady-10",
-        "steady-11",
-        "steady-12",
-        "steady-13",
-        "steady-14",
-        "steady-15"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-11",
-      "title": "穩重可靠的",
-      "form": "steady = dependable / reliable（可靠的）",
-      "en": "steady = dependable / reliable（可靠的）",
-      "zh": "穩重可靠的",
-      "note": "留意語境：steady = dependable / reliable（可靠的）。這裡指「穩重可靠的」。",
+      "id": "steady-mcq-11",
+      "title": "長期表現可靠、一致而不容易失控的人",
+      "form": "steady — dependable person",
+      "en": "steady — dependable person",
+      "zh": "長期表現可靠、一致而不容易失控的人",
+      "note": "來源詞義：長期表現可靠、一致而不容易失控的人",
       "examples": [
         [
           "He is a steady and dependable worker.",
           "他是一個穩重可靠的員工。",
-          "穩重可靠的"
+          "長期表現可靠、一致而不容易失控的人"
         ],
         [
           "She has always been a steady presence in the family.",
           "她一直是家中一個穩定可靠的存在。",
-          "穩重可靠的"
+          "長期表現可靠、一致而不容易失控的人"
         ]
       ],
-      "options": [
-        "steady-11",
-        "steady-12",
-        "steady-13",
-        "steady-14",
-        "steady-15",
-        "steady-16"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-12",
-      "title": "穩定而令人安心的存在",
-      "form": "steady presence（穩定存在）",
-      "en": "steady presence（穩定存在）",
-      "zh": "穩定而令人安心的存在",
-      "note": "留意語境：steady presence（穩定存在）。這裡指「穩定而令人安心的存在」。",
+      "id": "steady-mcq-12",
+      "title": "長時間提供可靠、沉著和令人安心支持的存在",
+      "form": "steady presence",
+      "en": "steady presence",
+      "zh": "長時間提供可靠、沉著和令人安心支持的存在",
+      "note": "來源詞義：長時間提供可靠、沉著和令人安心支持的存在",
       "examples": [
         [
           "Her grandmother was a steady presence throughout her childhood.",
           "她外婆在她整個童年都是一個穩定而令人安心的存在。",
-          "穩定而令人安心的存在"
+          "長時間提供可靠、沉著和令人安心支持的存在"
         ],
         [
           "His calm, steady presence reassured everyone.",
           "他平靜而穩定的存在感令大家安心。",
-          "穩定而令人安心的存在"
+          "長時間提供可靠、沉著和令人安心支持的存在"
         ]
       ],
-      "options": [
-        "steady-12",
-        "steady-13",
-        "steady-14",
-        "steady-15",
-        "steady-16",
-        "steady-17"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-13",
-      "title": "穩定進步；穩步發展",
-      "form": "steady progress（穩步進展）",
-      "en": "steady progress（穩步進展）",
-      "zh": "穩定進步；穩步發展",
-      "note": "留意語境：steady progress（穩步進展）。這裡指「穩定進步；穩步發展」。",
+      "id": "steady-mcq-13",
+      "title": "不一定很快，但持續可靠地向前發展",
+      "form": "steady progress",
+      "en": "steady progress",
+      "zh": "不一定很快，但持續可靠地向前發展",
+      "note": "來源詞義：不一定很快，但持續可靠地向前發展",
       "examples": [
         [
           "The student is making steady progress.",
           "這名學生正在穩步進步。",
-          "穩定進步；穩步發展"
+          "不一定很快，但持續可靠地向前發展"
         ],
         [
           "Recovery has been slow but steady.",
           "康復雖然慢，但一直穩定進展。",
-          "穩定進步；穩步發展"
+          "不一定很快，但持續可靠地向前發展"
         ]
       ],
-      "options": [
-        "steady-13",
-        "steady-14",
-        "steady-15",
-        "steady-16",
-        "steady-17",
-        "steady-18"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-14",
-      "title": "穩步增長",
-      "form": "steady growth/increase（穩定增長）",
-      "en": "steady growth/increase（穩定增長）",
-      "zh": "穩步增長",
-      "note": "留意語境：steady growth/increase（穩定增長）。這裡指「穩步增長」。",
+      "id": "steady-mcq-14",
+      "title": "數值持續上升而沒有劇烈波動",
+      "form": "steady growth",
+      "en": "steady growth",
+      "zh": "數值持續上升而沒有劇烈波動",
+      "note": "來源詞義：數值持續上升而沒有劇烈波動",
       "examples": [
         [
           "Sales showed a steady increase.",
           "銷售錄得穩定增長。",
-          "穩步增長"
+          "數值持續上升而沒有劇烈波動"
         ],
         [
           "The population has grown at a steady rate.",
           "人口一直以穩定速度增長。",
-          "穩步增長"
+          "數值持續上升而沒有劇烈波動"
         ]
       ],
-      "options": [
-        "steady-14",
-        "steady-15",
-        "steady-16",
-        "steady-17",
-        "steady-18",
-        "steady-19"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-15",
-      "title": "維持不變；保持平穩",
-      "form": "hold/remain steady（保持穩定）",
-      "en": "hold/remain steady（保持穩定）",
-      "zh": "維持不變；保持平穩",
-      "note": "留意語境：hold/remain steady（保持穩定）。這裡指「維持不變；保持平穩」。",
+      "id": "steady-mcq-15",
+      "title": "保持原本穩定狀態，不明顯移動或波動",
+      "form": "hold/remain steady",
+      "en": "hold/remain steady",
+      "zh": "保持原本穩定狀態，不明顯移動或波動",
+      "note": "來源詞義：保持原本穩定狀態，不明顯移動或波動",
       "examples": [
         [
           "Prices remained steady.",
           "價格保持穩定。",
-          "維持不變；保持平穩"
+          "保持原本穩定狀態，不明顯移動或波動"
         ],
         [
           "Hold the camera steady.",
           "把相機拿穩。",
-          "維持不變；保持平穩"
+          "保持原本穩定狀態，不明顯移動或波動"
         ]
       ],
-      "options": [
-        "steady-15",
-        "steady-16",
-        "steady-17",
-        "steady-18",
-        "steady-19",
-        "steady-20"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-16",
-      "title": "穩住；使平穩",
-      "form": "steady — verb = make something stable（使穩定）",
-      "en": "steady — verb = make something stable（使穩定）",
-      "zh": "穩住；使平穩",
-      "note": "留意語境：steady — verb = make something stable（使穩定）。這裡指「穩住；使平穩」。",
+      "id": "steady-mcq-16",
+      "title": "令某人／某物停止搖晃、失衡或不穩",
+      "form": "steady — verb",
+      "en": "steady — verb",
+      "zh": "令某人／某物停止搖晃、失衡或不穩",
+      "note": "來源詞義：令某人／某物停止搖晃、失衡或不穩",
       "examples": [
         [
           "She used the wall to steady herself.",
           "她扶著牆壁來穩住自己。",
-          "穩住；使平穩"
+          "令某人／某物停止搖晃、失衡或不穩"
         ],
         [
           "He reached out to steady the chair.",
           "他伸手去扶穩椅子。",
-          "穩住；使平穩"
+          "令某人／某物停止搖晃、失衡或不穩"
         ]
       ],
-      "options": [
-        "steady-16",
-        "steady-17",
-        "steady-18",
-        "steady-19",
-        "steady-20",
-        "steady-21"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-17",
-      "title": "站穩；鎮定自己",
-      "form": "steady yourself（穩住自己）",
-      "en": "steady yourself（穩住自己）",
-      "zh": "站穩；鎮定自己",
-      "note": "留意語境：steady yourself（穩住自己）。這裡指「站穩；鎮定自己」。",
+      "id": "steady-mcq-17",
+      "title": "使自己的身體重新取得平衡",
+      "form": "steady yourself — physical",
+      "en": "steady yourself — physical",
+      "zh": "使自己的身體重新取得平衡",
+      "note": "來源詞義：使自己的身體重新取得平衡",
       "examples": [
         [
           "She paused to steady herself before standing.",
           "她停了一下，先穩住身體再站起來。",
-          "站穩；鎮定自己"
+          "使自己的身體重新取得平衡"
         ],
         [
           "He took a deep breath to steady himself.",
           "他深呼吸一下，好讓自己鎮定下來。",
-          "站穩；鎮定自己"
+          "使自己的身體重新取得平衡"
         ]
       ],
-      "options": [
-        "steady-17",
-        "steady-18",
-        "steady-19",
-        "steady-20",
-        "steady-21",
-        "steady-22"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-18",
-      "title": "穩住；鎮定",
-      "form": "steady nerves/emotions（使情緒平復）",
-      "en": "steady nerves/emotions（使情緒平復）",
-      "zh": "穩住；鎮定",
-      "note": "留意語境：steady nerves/emotions（使情緒平復）。這裡指「穩住；鎮定」。",
+      "id": "steady-mcq-18",
+      "title": "令自己的情緒恢復平靜和控制",
+      "form": "steady yourself — emotional",
+      "en": "steady yourself — emotional",
+      "zh": "令自己的情緒恢復平靜和控制",
+      "note": "來源詞義：令自己的情緒恢復平靜和控制",
       "examples": [
         [
           "She took a moment to steady her nerves.",
           "她花了一點時間讓自己鎮定下來。",
-          "穩住；鎮定"
+          "令自己的情緒恢復平靜和控制"
         ],
         [
           "His calm words helped steady everyone.",
           "他平靜的話語幫助大家穩定情緒。",
-          "穩住；鎮定"
+          "令自己的情緒恢復平靜和控制"
         ]
       ],
-      "options": [
-        "steady-18",
-        "steady-19",
-        "steady-20",
-        "steady-21",
-        "steady-22",
-        "steady-23"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-19",
-      "title": "穩定地；持續地",
-      "form": "steadily = at a constant rate（穩定地）",
-      "en": "steadily = at a constant rate（穩定地）",
-      "zh": "穩定地；持續地",
-      "note": "留意語境：steadily = at a constant rate（穩定地）。這裡指「穩定地；持續地」。",
+      "id": "steady-mcq-19",
+      "title": "以持續、一致、沒有劇烈變化的方式",
+      "form": "steadily — consistency",
+      "en": "steadily — consistency",
+      "zh": "以持續、一致、沒有劇烈變化的方式",
+      "note": "來源詞義：以持續、一致、沒有劇烈變化的方式",
       "examples": [
         [
           "The temperature rose steadily.",
           "溫度穩定地持續上升。",
-          "穩定地；持續地"
+          "以持續、一致、沒有劇烈變化的方式"
         ],
         [
           "She has been improving steadily.",
           "她一直穩步進步。",
-          "穩定地；持續地"
+          "以持續、一致、沒有劇烈變化的方式"
         ]
       ],
-      "options": [
-        "steady-19",
-        "steady-20",
-        "steady-21",
-        "steady-22",
-        "steady-23",
-        "steady-24"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-20",
-      "title": "平穩地；不抖地",
-      "form": "steadily = without shaking（穩穩地）",
-      "en": "steadily = without shaking（穩穩地）",
-      "zh": "平穩地；不抖地",
-      "note": "留意語境：steadily = without shaking（穩穩地）。這裡指「平穩地；不抖地」。",
+      "id": "steady-mcq-20",
+      "title": "以不晃動、不顫抖的方式",
+      "form": "steadily — physically",
+      "en": "steadily — physically",
+      "zh": "以不晃動、不顫抖的方式",
+      "note": "來源詞義：以不晃動、不顫抖的方式",
       "examples": [
         [
           "Hold the cup steadily.",
           "把杯子穩穩地拿著。",
-          "平穩地；不抖地"
+          "以不晃動、不顫抖的方式"
         ],
         [
           "She looked steadily at him.",
           "她定定地／穩定地望著他。",
-          "平穩地；不抖地"
+          "以不晃動、不顫抖的方式"
         ]
       ],
-      "options": [
-        "steady-20",
-        "steady-21",
-        "steady-22",
-        "steady-23",
-        "steady-24",
-        "steady-01"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-21",
-      "title": "穩定；平穩",
-      "form": "steadiness = physical stability（穩定性）",
-      "en": "steadiness = physical stability（穩定性）",
-      "zh": "穩定；平穩",
-      "note": "留意語境：steadiness = physical stability（穩定性）。這裡指「穩定；平穩」。",
+      "id": "steady-mcq-21",
+      "title": "不搖晃、不失衡並能保持穩定的程度",
+      "form": "steadiness — physical",
+      "en": "steadiness — physical",
+      "zh": "不搖晃、不失衡並能保持穩定的程度",
+      "note": "來源詞義：不搖晃、不失衡並能保持穩定的程度",
       "examples": [
         [
           "The job requires great hand steadiness.",
           "這份工作需要很高的手部穩定性。",
-          "穩定；平穩"
+          "不搖晃、不失衡並能保持穩定的程度"
         ],
         [
           "The camera’s steadiness improved the image.",
           "相機的穩定性改善了影像效果。",
-          "穩定；平穩"
+          "不搖晃、不失衡並能保持穩定的程度"
         ]
       ],
-      "options": [
-        "steady-21",
-        "steady-22",
-        "steady-23",
-        "steady-24",
-        "steady-01",
-        "steady-02"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-22",
-      "title": "沉著；穩定性",
-      "form": "steadiness = emotional reliability/calmness（沉著／穩重）",
-      "en": "steadiness = emotional reliability/calmness（沉著／穩重）",
-      "zh": "沉著；穩定性",
-      "note": "留意語境：steadiness = emotional reliability/calmness（沉著／穩重）。這裡指「沉著；穩定性」。",
+      "id": "steady-mcq-22",
+      "title": "面對壓力仍能保持冷靜、一致和可靠的特質",
+      "form": "steadiness — emotional",
+      "en": "steadiness — emotional",
+      "zh": "面對壓力仍能保持冷靜、一致和可靠的特質",
+      "note": "來源詞義：面對壓力仍能保持冷靜、一致和可靠的特質",
       "examples": [
         [
           "Everyone admired her emotional steadiness.",
           "大家都欣賞她情緒上的沉著穩定。",
-          "沉著；穩定性"
+          "面對壓力仍能保持冷靜、一致和可靠的特質"
         ],
         [
           "His steadiness during the crisis reassured the team.",
           "他在危機中的沉著穩重令團隊安心。",
-          "沉著；穩定性"
+          "面對壓力仍能保持冷靜、一致和可靠的特質"
         ]
       ],
-      "options": [
-        "steady-22",
-        "steady-23",
-        "steady-24",
-        "steady-01",
-        "steady-02",
-        "steady-03"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "steady-23",
-      "title": "令人穩定的；",
-      "form": "steadying = making something more stable/calming（穩定／安定作用）",
-      "en": "steadying = making something more stable/calming（穩定／安定作用）",
-      "zh": "令人穩定的；",
-      "note": "留意語境：steadying = making something more stable/calming（穩定／安定作用）。這裡指「令人穩定的；」。",
+      "id": "steady-mcq-23",
+      "title": "能令某人／某物變得更穩、更冷靜或更有安全感的",
+      "form": "steadying",
+      "en": "steadying",
+      "zh": "能令某人／某物變得更穩、更冷靜或更有安全感的",
+      "note": "來源詞義：能令某人／某物變得更穩、更冷靜或更有安全感的",
       "examples": [
         [
           "Her voice had a steadying effect on him.",
           "她的聲音對他有一種安定情緒的作用。",
-          "令人穩定的；"
+          "能令某人／某物變得更穩、更冷靜或更有安全感的"
         ],
         [
           "He placed a steadying hand on her shoulder.",
           "他把手放在她肩上，給她一種穩定／安慰作用。",
-          "令人穩定的；"
-        ]
-      ],
-      "options": [
-        "steady-23",
-        "steady-24",
-        "steady-01",
-        "steady-02",
-        "steady-03",
-        "steady-04"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "steady-24",
-      "title": "慢著；冷靜點；別過火",
-      "form": "steady on!（英式口語）",
-      "en": "steady on!（英式口語）",
-      "zh": "慢著；冷靜點；別過火",
-      "note": "留意語境：steady on!（英式口語）。這裡指「慢著；冷靜點；別過火」。",
-      "examples": [
+          "能令某人／某物變得更穩、更冷靜或更有安全感的"
+        ],
         [
           "Steady on! There’s no need to get angry.",
           "冷靜點！不用生氣。",
-          "慢著；冷靜點；別過火"
+          "能令某人／某物變得更穩、更冷靜或更有安全感的"
         ],
         [
           "Steady on—you’re moving too fast.",
           "慢著／別急！你進度太快了。",
-          "慢著；冷靜點；別過火"
+          "能令某人／某物變得更穩、更冷靜或更有安全感的"
         ]
       ],
-      "options": [
-        "steady-24",
-        "steady-01",
-        "steady-02",
-        "steady-03",
-        "steady-04",
-        "steady-05"
-      ],
+      "options": [],
       "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "steady-01-0",
-      "sense": "steady-01",
+      "sense": "steady-mcq-01",
       "en": "Kindness can be quiet, steady, and deeply powerful.",
       "zh": "善良可以很安靜、很穩定持久，卻非常有力量。",
       "masked": "Kindness can be quiet, ____, and deeply powerful.",
       "options": [
-        "steady-01",
-        "steady-02",
-        "steady-03",
-        "steady-04",
-        "steady-05",
-        "steady-06"
+        "steady-mcq-01",
+        "steady-mcq-02",
+        "steady-mcq-03",
+        "steady-mcq-04",
+        "steady-mcq-05",
+        "steady-mcq-06"
       ],
-      "explanation": "留意語境：steady = stable / not changing much（穩定的）。這裡指「穩定的；平穩的」。",
+      "explanation": "本句的「steady」指「狀態、表現或進展持續一致，沒有突然大幅改變」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-01": "本句的意思是「穩定的；平穩的」。",
-        "steady-02": "「穩定的；不搖晃的」與本句語境不同。",
-        "steady-03": "「穩定的手；沉著能力」與本句語境不同。",
-        "steady-04": "「沉著的；冷靜的」與本句語境不同。",
-        "steady-05": "「平穩的；均勻的」與本句語境不同。",
-        "steady-06": "「穩定的；均勻的」與本句語境不同。"
-      }
+        "steady-mcq-01": "本句指「狀態、表現或進展持續一致，沒有突然大幅改變」。",
+        "steady-mcq-02": "「保持平衡、不搖晃、不顫抖或不容易倒下的」是「steady — physical」的用法，與本句語境不同。",
+        "steady-mcq-03": "「手部控制穩定、不容易抖動」是「steady hand」的用法，與本句語境不同。",
+        "steady-mcq-04": "「情緒、語氣或反應在壓力下仍保持平穩和沉著」是「steady — emotional」的用法，與本句語境不同。",
+        "steady-mcq-05": "「聲音、呼吸或節奏均勻而不突然變化」是「steady voice/breathing」的用法，與本句語境不同。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-01"
     },
     {
       "id": "steady-01-1",
-      "sense": "steady-01",
+      "sense": "steady-mcq-01",
       "en": "She made steady progress.",
       "zh": "她取得了穩定的進步。",
       "masked": "She made ____ progress.",
       "options": [
-        "steady-01",
-        "steady-02",
-        "steady-03",
-        "steady-04",
-        "steady-05",
-        "steady-06"
+        "steady-mcq-01",
+        "steady-mcq-02",
+        "steady-mcq-03",
+        "steady-mcq-04",
+        "steady-mcq-05",
+        "steady-mcq-06"
       ],
-      "explanation": "留意語境：steady = stable / not changing much（穩定的）。這裡指「穩定的；平穩的」。",
+      "explanation": "本句的「steady」指「狀態、表現或進展持續一致，沒有突然大幅改變」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-01": "本句的意思是「穩定的；平穩的」。",
-        "steady-02": "「穩定的；不搖晃的」與本句語境不同。",
-        "steady-03": "「穩定的手；沉著能力」與本句語境不同。",
-        "steady-04": "「沉著的；冷靜的」與本句語境不同。",
-        "steady-05": "「平穩的；均勻的」與本句語境不同。",
-        "steady-06": "「穩定的；均勻的」與本句語境不同。"
-      }
+        "steady-mcq-01": "本句指「狀態、表現或進展持續一致，沒有突然大幅改變」。",
+        "steady-mcq-02": "「保持平衡、不搖晃、不顫抖或不容易倒下的」是「steady — physical」的用法，與本句語境不同。",
+        "steady-mcq-03": "「手部控制穩定、不容易抖動」是「steady hand」的用法，與本句語境不同。",
+        "steady-mcq-04": "「情緒、語氣或反應在壓力下仍保持平穩和沉著」是「steady — emotional」的用法，與本句語境不同。",
+        "steady-mcq-05": "「聲音、呼吸或節奏均勻而不突然變化」是「steady voice/breathing」的用法，與本句語境不同。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-01"
     },
     {
       "id": "steady-01-2",
-      "sense": "steady-01",
+      "sense": "steady-mcq-01",
       "en": "The company has shown steady growth.",
       "zh": "公司一直保持穩定增長。",
       "masked": "The company has shown ____ growth.",
       "options": [
-        "steady-01",
-        "steady-02",
-        "steady-03",
-        "steady-04",
-        "steady-05",
-        "steady-06"
+        "steady-mcq-01",
+        "steady-mcq-02",
+        "steady-mcq-03",
+        "steady-mcq-04",
+        "steady-mcq-05",
+        "steady-mcq-06"
       ],
-      "explanation": "留意語境：steady = stable / not changing much（穩定的）。這裡指「穩定的；平穩的」。",
+      "explanation": "本句的「steady」指「狀態、表現或進展持續一致，沒有突然大幅改變」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-01": "本句的意思是「穩定的；平穩的」。",
-        "steady-02": "「穩定的；不搖晃的」與本句語境不同。",
-        "steady-03": "「穩定的手；沉著能力」與本句語境不同。",
-        "steady-04": "「沉著的；冷靜的」與本句語境不同。",
-        "steady-05": "「平穩的；均勻的」與本句語境不同。",
-        "steady-06": "「穩定的；均勻的」與本句語境不同。"
-      }
+        "steady-mcq-01": "本句指「狀態、表現或進展持續一致，沒有突然大幅改變」。",
+        "steady-mcq-02": "「保持平衡、不搖晃、不顫抖或不容易倒下的」是「steady — physical」的用法，與本句語境不同。",
+        "steady-mcq-03": "「手部控制穩定、不容易抖動」是「steady hand」的用法，與本句語境不同。",
+        "steady-mcq-04": "「情緒、語氣或反應在壓力下仍保持平穩和沉著」是「steady — emotional」的用法，與本句語境不同。",
+        "steady-mcq-05": "「聲音、呼吸或節奏均勻而不突然變化」是「steady voice/breathing」的用法，與本句語境不同。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-01"
     },
     {
       "id": "steady-02-0",
-      "sense": "steady-02",
+      "sense": "steady-mcq-02",
       "en": "Keep your hand steady.",
       "zh": "保持手部穩定，不要抖動。",
       "masked": "Keep your hand ____.",
       "options": [
-        "steady-02",
-        "steady-03",
-        "steady-04",
-        "steady-05",
-        "steady-06",
-        "steady-07"
+        "steady-mcq-02",
+        "steady-mcq-01",
+        "steady-mcq-03",
+        "steady-mcq-04",
+        "steady-mcq-05",
+        "steady-mcq-06"
       ],
-      "explanation": "留意語境：steady = physically firm / not shaking（穩的）。這裡指「穩定的；不搖晃的」。",
+      "explanation": "本句的「steady」指「保持平衡、不搖晃、不顫抖或不容易倒下的」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-02": "本句的意思是「穩定的；不搖晃的」。",
-        "steady-03": "「穩定的手；沉著能力」與本句語境不同。",
-        "steady-04": "「沉著的；冷靜的」與本句語境不同。",
-        "steady-05": "「平穩的；均勻的」與本句語境不同。",
-        "steady-06": "「穩定的；均勻的」與本句語境不同。",
-        "steady-07": "「持續穩定的」與本句語境不同。"
-      }
+        "steady-mcq-02": "本句指「保持平衡、不搖晃、不顫抖或不容易倒下的」。",
+        "steady-mcq-01": "「狀態、表現或進展持續一致，沒有突然大幅改變」是「steady — stable/consistent」的用法，與本句語境不同。",
+        "steady-mcq-03": "「手部控制穩定、不容易抖動」是「steady hand」的用法，與本句語境不同。",
+        "steady-mcq-04": "「情緒、語氣或反應在壓力下仍保持平穩和沉著」是「steady — emotional」的用法，與本句語境不同。",
+        "steady-mcq-05": "「聲音、呼吸或節奏均勻而不突然變化」是「steady voice/breathing」的用法，與本句語境不同。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-02"
     },
     {
       "id": "steady-02-1",
-      "sense": "steady-02",
+      "sense": "steady-mcq-02",
       "en": "The table is not very steady.",
       "zh": "這張桌子不太穩固。",
       "masked": "The table is not very ____.",
       "options": [
-        "steady-02",
-        "steady-03",
-        "steady-04",
-        "steady-05",
-        "steady-06",
-        "steady-07"
+        "steady-mcq-02",
+        "steady-mcq-01",
+        "steady-mcq-03",
+        "steady-mcq-04",
+        "steady-mcq-05",
+        "steady-mcq-06"
       ],
-      "explanation": "留意語境：steady = physically firm / not shaking（穩的）。這裡指「穩定的；不搖晃的」。",
+      "explanation": "本句的「steady」指「保持平衡、不搖晃、不顫抖或不容易倒下的」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-02": "本句的意思是「穩定的；不搖晃的」。",
-        "steady-03": "「穩定的手；沉著能力」與本句語境不同。",
-        "steady-04": "「沉著的；冷靜的」與本句語境不同。",
-        "steady-05": "「平穩的；均勻的」與本句語境不同。",
-        "steady-06": "「穩定的；均勻的」與本句語境不同。",
-        "steady-07": "「持續穩定的」與本句語境不同。"
-      }
+        "steady-mcq-02": "本句指「保持平衡、不搖晃、不顫抖或不容易倒下的」。",
+        "steady-mcq-01": "「狀態、表現或進展持續一致，沒有突然大幅改變」是「steady — stable/consistent」的用法，與本句語境不同。",
+        "steady-mcq-03": "「手部控制穩定、不容易抖動」是「steady hand」的用法，與本句語境不同。",
+        "steady-mcq-04": "「情緒、語氣或反應在壓力下仍保持平穩和沉著」是「steady — emotional」的用法，與本句語境不同。",
+        "steady-mcq-05": "「聲音、呼吸或節奏均勻而不突然變化」是「steady voice/breathing」的用法，與本句語境不同。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-02"
     },
     {
       "id": "steady-03-0",
-      "sense": "steady-03",
+      "sense": "steady-mcq-03",
       "en": "A surgeon needs a steady hand.",
       "zh": "外科醫生需要有一雙穩定的手。",
       "masked": "A surgeon needs a ____.",
       "options": [
-        "steady-03",
-        "steady-04",
-        "steady-05",
-        "steady-06",
-        "steady-07",
-        "steady-08"
+        "steady-mcq-03",
+        "steady-mcq-02",
+        "steady-mcq-04",
+        "steady-mcq-01",
+        "steady-mcq-05",
+        "steady-mcq-06"
       ],
-      "explanation": "留意語境：steady hand（手穩／沉著）。這裡指「穩定的手；沉著能力」。",
+      "explanation": "本句的「steady hand」指「手部控制穩定、不容易抖動」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "steady hand"
       ],
       "optionReasons": {
-        "steady-03": "本句的意思是「穩定的手；沉著能力」。",
-        "steady-04": "「沉著的；冷靜的」與本句語境不同。",
-        "steady-05": "「平穩的；均勻的」與本句語境不同。",
-        "steady-06": "「穩定的；均勻的」與本句語境不同。",
-        "steady-07": "「持續穩定的」與本句語境不同。",
-        "steady-08": "「穩定的；可靠的」與本句語境不同。"
-      }
+        "steady-mcq-03": "本句指「手部控制穩定、不容易抖動」。",
+        "steady-mcq-02": "「保持平衡、不搖晃、不顫抖或不容易倒下的」是「steady — physical」的用法，與本句語境不同。",
+        "steady-mcq-04": "「情緒、語氣或反應在壓力下仍保持平穩和沉著」是「steady — emotional」的用法，與本句語境不同。",
+        "steady-mcq-01": "「狀態、表現或進展持續一致，沒有突然大幅改變」是「steady — stable/consistent」的用法，與本句語境不同。",
+        "steady-mcq-05": "「聲音、呼吸或節奏均勻而不突然變化」是「steady voice/breathing」的用法，與本句語境不同。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-03"
     },
     {
       "id": "steady-03-1",
-      "sense": "steady-03",
+      "sense": "steady-mcq-03",
       "en": "She painted the fine details with a steady hand.",
       "zh": "她用很穩的手畫出細節。",
       "masked": "She painted the fine details with a ____.",
       "options": [
-        "steady-03",
-        "steady-04",
-        "steady-05",
-        "steady-06",
-        "steady-07",
-        "steady-08"
+        "steady-mcq-03",
+        "steady-mcq-02",
+        "steady-mcq-04",
+        "steady-mcq-01",
+        "steady-mcq-05",
+        "steady-mcq-06"
       ],
-      "explanation": "留意語境：steady hand（手穩／沉著）。這裡指「穩定的手；沉著能力」。",
+      "explanation": "本句的「steady hand」指「手部控制穩定、不容易抖動」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "steady hand"
       ],
       "optionReasons": {
-        "steady-03": "本句的意思是「穩定的手；沉著能力」。",
-        "steady-04": "「沉著的；冷靜的」與本句語境不同。",
-        "steady-05": "「平穩的；均勻的」與本句語境不同。",
-        "steady-06": "「穩定的；均勻的」與本句語境不同。",
-        "steady-07": "「持續穩定的」與本句語境不同。",
-        "steady-08": "「穩定的；可靠的」與本句語境不同。"
-      }
+        "steady-mcq-03": "本句指「手部控制穩定、不容易抖動」。",
+        "steady-mcq-02": "「保持平衡、不搖晃、不顫抖或不容易倒下的」是「steady — physical」的用法，與本句語境不同。",
+        "steady-mcq-04": "「情緒、語氣或反應在壓力下仍保持平穩和沉著」是「steady — emotional」的用法，與本句語境不同。",
+        "steady-mcq-01": "「狀態、表現或進展持續一致，沒有突然大幅改變」是「steady — stable/consistent」的用法，與本句語境不同。",
+        "steady-mcq-05": "「聲音、呼吸或節奏均勻而不突然變化」是「steady voice/breathing」的用法，與本句語境不同。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-03"
     },
     {
       "id": "steady-04-0",
-      "sense": "steady-04",
+      "sense": "steady-mcq-04",
       "en": "She kept her voice steady.",
       "zh": "她保持聲音平穩鎮定。",
       "masked": "She kept her voice ____.",
       "options": [
-        "steady-04",
-        "steady-05",
-        "steady-06",
-        "steady-07",
-        "steady-08",
-        "steady-09"
+        "steady-mcq-04",
+        "steady-mcq-03",
+        "steady-mcq-05",
+        "steady-mcq-02",
+        "steady-mcq-06",
+        "steady-mcq-01"
       ],
-      "explanation": "留意語境：steady = calm / emotionally controlled（情緒穩定）。這裡指「沉著的；冷靜的」。",
+      "explanation": "本句的「steady」指「情緒、語氣或反應在壓力下仍保持平穩和沉著」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-04": "本句的意思是「沉著的；冷靜的」。",
-        "steady-05": "「平穩的；均勻的」與本句語境不同。",
-        "steady-06": "「穩定的；均勻的」與本句語境不同。",
-        "steady-07": "「持續穩定的」與本句語境不同。",
-        "steady-08": "「穩定的；可靠的」與本句語境不同。",
-        "steady-09": "「穩定的；持久的」與本句語境不同。"
-      }
+        "steady-mcq-04": "本句指「情緒、語氣或反應在壓力下仍保持平穩和沉著」。",
+        "steady-mcq-03": "「手部控制穩定、不容易抖動」是「steady hand」的用法，與本句語境不同。",
+        "steady-mcq-05": "「聲音、呼吸或節奏均勻而不突然變化」是「steady voice/breathing」的用法，與本句語境不同。",
+        "steady-mcq-02": "「保持平衡、不搖晃、不顫抖或不容易倒下的」是「steady — physical」的用法，與本句語境不同。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。",
+        "steady-mcq-01": "「狀態、表現或進展持續一致，沒有突然大幅改變」是「steady — stable/consistent」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-04"
     },
     {
       "id": "steady-04-1",
-      "sense": "steady-04",
+      "sense": "steady-mcq-04",
       "en": "He remained steady under pressure.",
       "zh": "他在壓力下仍然保持沉著穩定。",
       "masked": "He remained ____ under pressure.",
       "options": [
-        "steady-04",
-        "steady-05",
-        "steady-06",
-        "steady-07",
-        "steady-08",
-        "steady-09"
+        "steady-mcq-04",
+        "steady-mcq-03",
+        "steady-mcq-05",
+        "steady-mcq-02",
+        "steady-mcq-06",
+        "steady-mcq-01"
       ],
-      "explanation": "留意語境：steady = calm / emotionally controlled（情緒穩定）。這裡指「沉著的；冷靜的」。",
+      "explanation": "本句的「steady」指「情緒、語氣或反應在壓力下仍保持平穩和沉著」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-04": "本句的意思是「沉著的；冷靜的」。",
-        "steady-05": "「平穩的；均勻的」與本句語境不同。",
-        "steady-06": "「穩定的；均勻的」與本句語境不同。",
-        "steady-07": "「持續穩定的」與本句語境不同。",
-        "steady-08": "「穩定的；可靠的」與本句語境不同。",
-        "steady-09": "「穩定的；持久的」與本句語境不同。"
-      }
+        "steady-mcq-04": "本句指「情緒、語氣或反應在壓力下仍保持平穩和沉著」。",
+        "steady-mcq-03": "「手部控制穩定、不容易抖動」是「steady hand」的用法，與本句語境不同。",
+        "steady-mcq-05": "「聲音、呼吸或節奏均勻而不突然變化」是「steady voice/breathing」的用法，與本句語境不同。",
+        "steady-mcq-02": "「保持平衡、不搖晃、不顫抖或不容易倒下的」是「steady — physical」的用法，與本句語境不同。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。",
+        "steady-mcq-01": "「狀態、表現或進展持續一致，沒有突然大幅改變」是「steady — stable/consistent」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-04"
     },
     {
       "id": "steady-05-0",
-      "sense": "steady-05",
+      "sense": "steady-mcq-05",
       "en": "She spoke in a steady voice.",
       "zh": "她用平穩的聲音說話。",
       "masked": "She spoke in a ____.",
       "options": [
-        "steady-05",
-        "steady-06",
-        "steady-07",
-        "steady-08",
-        "steady-09",
-        "steady-10"
+        "steady-mcq-05",
+        "steady-mcq-04",
+        "steady-mcq-06",
+        "steady-mcq-03",
+        "steady-mcq-07",
+        "steady-mcq-02"
       ],
-      "explanation": "留意語境：steady voice / breathing（平穩）。這裡指「平穩的；均勻的」。",
+      "explanation": "本句的「steady voice」指「聲音、呼吸或節奏均勻而不突然變化」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "steady voice"
       ],
       "optionReasons": {
-        "steady-05": "本句的意思是「平穩的；均勻的」。",
-        "steady-06": "「穩定的；均勻的」與本句語境不同。",
-        "steady-07": "「持續穩定的」與本句語境不同。",
-        "steady-08": "「穩定的；可靠的」與本句語境不同。",
-        "steady-09": "「穩定的；持久的」與本句語境不同。",
-        "steady-10": "「持續的；規律的」與本句語境不同。"
-      }
+        "steady-mcq-05": "本句指「聲音、呼吸或節奏均勻而不突然變化」。",
+        "steady-mcq-04": "「情緒、語氣或反應在壓力下仍保持平穩和沉著」是「steady — emotional」的用法，與本句語境不同。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。",
+        "steady-mcq-03": "「手部控制穩定、不容易抖動」是「steady hand」的用法，與本句語境不同。",
+        "steady-mcq-07": "「持續出現／供應，數量或頻率相對穩定」是「steady flow/supply」的用法，與本句語境不同。",
+        "steady-mcq-02": "「保持平衡、不搖晃、不顫抖或不容易倒下的」是「steady — physical」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-05"
     },
     {
       "id": "steady-05-1",
-      "sense": "steady-05",
+      "sense": "steady-mcq-05",
       "en": "His breathing became steady again.",
       "zh": "他的呼吸再次變得平穩。",
       "masked": "His breathing became ____ again.",
       "options": [
-        "steady-05",
-        "steady-06",
-        "steady-07",
-        "steady-08",
-        "steady-09",
-        "steady-10"
+        "steady-mcq-05",
+        "steady-mcq-04",
+        "steady-mcq-06",
+        "steady-mcq-03",
+        "steady-mcq-07",
+        "steady-mcq-02"
       ],
-      "explanation": "留意語境：steady voice / breathing（平穩）。這裡指「平穩的；均勻的」。",
+      "explanation": "本句的「steady」指「聲音、呼吸或節奏均勻而不突然變化」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-05": "本句的意思是「平穩的；均勻的」。",
-        "steady-06": "「穩定的；均勻的」與本句語境不同。",
-        "steady-07": "「持續穩定的」與本句語境不同。",
-        "steady-08": "「穩定的；可靠的」與本句語境不同。",
-        "steady-09": "「穩定的；持久的」與本句語境不同。",
-        "steady-10": "「持續的；規律的」與本句語境不同。"
-      }
+        "steady-mcq-05": "本句指「聲音、呼吸或節奏均勻而不突然變化」。",
+        "steady-mcq-04": "「情緒、語氣或反應在壓力下仍保持平穩和沉著」是「steady — emotional」的用法，與本句語境不同。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。",
+        "steady-mcq-03": "「手部控制穩定、不容易抖動」是「steady hand」的用法，與本句語境不同。",
+        "steady-mcq-07": "「持續出現／供應，數量或頻率相對穩定」是「steady flow/supply」的用法，與本句語境不同。",
+        "steady-mcq-02": "「保持平衡、不搖晃、不顫抖或不容易倒下的」是「steady — physical」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-05"
     },
     {
       "id": "steady-06-0",
-      "sense": "steady-06",
+      "sense": "steady-mcq-06",
       "en": "Walk at a steady pace.",
       "zh": "以穩定的步速行走。",
       "masked": "Walk at a ____.",
       "options": [
-        "steady-06",
-        "steady-07",
-        "steady-08",
-        "steady-09",
-        "steady-10",
-        "steady-11"
+        "steady-mcq-06",
+        "steady-mcq-05",
+        "steady-mcq-07",
+        "steady-mcq-04",
+        "steady-mcq-08",
+        "steady-mcq-03"
       ],
-      "explanation": "留意語境：steady pace / speed（速度）。這裡指「穩定的；均勻的」。",
+      "explanation": "本句的「steady pace」指「速度大致保持一致，不突然加快或減慢」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "steady pace"
       ],
       "optionReasons": {
-        "steady-06": "本句的意思是「穩定的；均勻的」。",
-        "steady-07": "「持續穩定的」與本句語境不同。",
-        "steady-08": "「穩定的；可靠的」與本句語境不同。",
-        "steady-09": "「穩定的；持久的」與本句語境不同。",
-        "steady-10": "「持續的；規律的」與本句語境不同。",
-        "steady-11": "「穩重可靠的」與本句語境不同。"
-      }
+        "steady-mcq-06": "本句指「速度大致保持一致，不突然加快或減慢」。",
+        "steady-mcq-05": "「聲音、呼吸或節奏均勻而不突然變化」是「steady voice/breathing」的用法，與本句語境不同。",
+        "steady-mcq-07": "「持續出現／供應，數量或頻率相對穩定」是「steady flow/supply」的用法，與本句語境不同。",
+        "steady-mcq-04": "「情緒、語氣或反應在壓力下仍保持平穩和沉著」是「steady — emotional」的用法，與本句語境不同。",
+        "steady-mcq-08": "「能持續提供可靠工作／收入和一定保障的」是「steady job/income」的用法，與本句語境不同。",
+        "steady-mcq-03": "「手部控制穩定、不容易抖動」是「steady hand」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-06"
     },
     {
       "id": "steady-06-1",
-      "sense": "steady-06",
+      "sense": "steady-mcq-06",
       "en": "The car maintained a steady speed.",
       "zh": "汽車保持穩定車速。",
       "masked": "The car maintained a ____.",
       "options": [
-        "steady-06",
-        "steady-07",
-        "steady-08",
-        "steady-09",
-        "steady-10",
-        "steady-11"
+        "steady-mcq-06",
+        "steady-mcq-05",
+        "steady-mcq-07",
+        "steady-mcq-04",
+        "steady-mcq-08",
+        "steady-mcq-03"
       ],
-      "explanation": "留意語境：steady pace / speed（速度）。這裡指「穩定的；均勻的」。",
+      "explanation": "本句的「steady speed」指「速度大致保持一致，不突然加快或減慢」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "steady speed"
       ],
       "optionReasons": {
-        "steady-06": "本句的意思是「穩定的；均勻的」。",
-        "steady-07": "「持續穩定的」與本句語境不同。",
-        "steady-08": "「穩定的；可靠的」與本句語境不同。",
-        "steady-09": "「穩定的；持久的」與本句語境不同。",
-        "steady-10": "「持續的；規律的」與本句語境不同。",
-        "steady-11": "「穩重可靠的」與本句語境不同。"
-      }
+        "steady-mcq-06": "本句指「速度大致保持一致，不突然加快或減慢」。",
+        "steady-mcq-05": "「聲音、呼吸或節奏均勻而不突然變化」是「steady voice/breathing」的用法，與本句語境不同。",
+        "steady-mcq-07": "「持續出現／供應，數量或頻率相對穩定」是「steady flow/supply」的用法，與本句語境不同。",
+        "steady-mcq-04": "「情緒、語氣或反應在壓力下仍保持平穩和沉著」是「steady — emotional」的用法，與本句語境不同。",
+        "steady-mcq-08": "「能持續提供可靠工作／收入和一定保障的」是「steady job/income」的用法，與本句語境不同。",
+        "steady-mcq-03": "「手部控制穩定、不容易抖動」是「steady hand」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-06"
     },
     {
       "id": "steady-07-0",
-      "sense": "steady-07",
+      "sense": "steady-mcq-07",
       "en": "There was a steady flow of visitors.",
       "zh": "訪客一直穩定地陸續到來。",
       "masked": "There was a ____ of visitors.",
       "options": [
-        "steady-07",
-        "steady-08",
-        "steady-09",
-        "steady-10",
-        "steady-11",
-        "steady-12"
+        "steady-mcq-07",
+        "steady-mcq-06",
+        "steady-mcq-08",
+        "steady-mcq-05",
+        "steady-mcq-09",
+        "steady-mcq-04"
       ],
-      "explanation": "留意語境：steady flow / supply（流量／供應）。這裡指「持續穩定的」。",
+      "explanation": "本句的「steady flow」指「持續出現／供應，數量或頻率相對穩定」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "steady flow"
       ],
       "optionReasons": {
-        "steady-07": "本句的意思是「持續穩定的」。",
-        "steady-08": "「穩定的；可靠的」與本句語境不同。",
-        "steady-09": "「穩定的；持久的」與本句語境不同。",
-        "steady-10": "「持續的；規律的」與本句語境不同。",
-        "steady-11": "「穩重可靠的」與本句語境不同。",
-        "steady-12": "「穩定而令人安心的存在」與本句語境不同。"
-      }
+        "steady-mcq-07": "本句指「持續出現／供應，數量或頻率相對穩定」。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。",
+        "steady-mcq-08": "「能持續提供可靠工作／收入和一定保障的」是「steady job/income」的用法，與本句語境不同。",
+        "steady-mcq-05": "「聲音、呼吸或節奏均勻而不突然變化」是「steady voice/breathing」的用法，與本句語境不同。",
+        "steady-mcq-09": "「持續、可靠而不反覆變化的關係」是「steady relationship」的用法，與本句語境不同。",
+        "steady-mcq-04": "「情緒、語氣或反應在壓力下仍保持平穩和沉著」是「steady — emotional」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-07"
     },
     {
       "id": "steady-07-1",
-      "sense": "steady-07",
+      "sense": "steady-mcq-07",
       "en": "The factory needs a steady supply of materials.",
       "zh": "工廠需要穩定持續的原材料供應。",
       "masked": "The factory needs a ____ of materials.",
       "options": [
-        "steady-07",
-        "steady-08",
-        "steady-09",
-        "steady-10",
-        "steady-11",
-        "steady-12"
+        "steady-mcq-07",
+        "steady-mcq-06",
+        "steady-mcq-08",
+        "steady-mcq-05",
+        "steady-mcq-09",
+        "steady-mcq-04"
       ],
-      "explanation": "留意語境：steady flow / supply（流量／供應）。這裡指「持續穩定的」。",
+      "explanation": "本句的「steady supply」指「持續出現／供應，數量或頻率相對穩定」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "steady supply"
       ],
       "optionReasons": {
-        "steady-07": "本句的意思是「持續穩定的」。",
-        "steady-08": "「穩定的；可靠的」與本句語境不同。",
-        "steady-09": "「穩定的；持久的」與本句語境不同。",
-        "steady-10": "「持續的；規律的」與本句語境不同。",
-        "steady-11": "「穩重可靠的」與本句語境不同。",
-        "steady-12": "「穩定而令人安心的存在」與本句語境不同。"
-      }
+        "steady-mcq-07": "本句指「持續出現／供應，數量或頻率相對穩定」。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。",
+        "steady-mcq-08": "「能持續提供可靠工作／收入和一定保障的」是「steady job/income」的用法，與本句語境不同。",
+        "steady-mcq-05": "「聲音、呼吸或節奏均勻而不突然變化」是「steady voice/breathing」的用法，與本句語境不同。",
+        "steady-mcq-09": "「持續、可靠而不反覆變化的關係」是「steady relationship」的用法，與本句語境不同。",
+        "steady-mcq-04": "「情緒、語氣或反應在壓力下仍保持平穩和沉著」是「steady — emotional」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-07"
     },
     {
       "id": "steady-08-0",
-      "sense": "steady-08",
+      "sense": "steady-mcq-08",
       "en": "He wants a steady job.",
       "zh": "他想找一份穩定的工作。",
       "masked": "He wants a ____.",
       "options": [
-        "steady-08",
-        "steady-09",
-        "steady-10",
-        "steady-11",
-        "steady-12",
-        "steady-13"
+        "steady-mcq-08",
+        "steady-mcq-07",
+        "steady-mcq-09",
+        "steady-mcq-06",
+        "steady-mcq-10",
+        "steady-mcq-05"
       ],
-      "explanation": "留意語境：steady income/job（收入／工作）。這裡指「穩定的；可靠的」。",
+      "explanation": "本句的「steady job」指「能持續提供可靠工作／收入和一定保障的」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "steady job"
       ],
       "optionReasons": {
-        "steady-08": "本句的意思是「穩定的；可靠的」。",
-        "steady-09": "「穩定的；持久的」與本句語境不同。",
-        "steady-10": "「持續的；規律的」與本句語境不同。",
-        "steady-11": "「穩重可靠的」與本句語境不同。",
-        "steady-12": "「穩定而令人安心的存在」與本句語境不同。",
-        "steady-13": "「穩定進步；穩步發展」與本句語境不同。"
-      }
+        "steady-mcq-08": "本句指「能持續提供可靠工作／收入和一定保障的」。",
+        "steady-mcq-07": "「持續出現／供應，數量或頻率相對穩定」是「steady flow/supply」的用法，與本句語境不同。",
+        "steady-mcq-09": "「持續、可靠而不反覆變化的關係」是「steady relationship」的用法，與本句語境不同。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。",
+        "steady-mcq-10": "「某件事情持續發生，節奏或強度相對規律」是「steady — regular/continuous」的用法，與本句語境不同。",
+        "steady-mcq-05": "「聲音、呼吸或節奏均勻而不突然變化」是「steady voice/breathing」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-08"
     },
     {
       "id": "steady-08-1",
-      "sense": "steady-08",
+      "sense": "steady-mcq-08",
       "en": "A steady income gives people more security.",
       "zh": "穩定收入會令人更有安全感。",
       "masked": "A ____ gives people more security.",
       "options": [
-        "steady-08",
-        "steady-09",
-        "steady-10",
-        "steady-11",
-        "steady-12",
-        "steady-13"
+        "steady-mcq-08",
+        "steady-mcq-07",
+        "steady-mcq-09",
+        "steady-mcq-06",
+        "steady-mcq-10",
+        "steady-mcq-05"
       ],
-      "explanation": "留意語境：steady income/job（收入／工作）。這裡指「穩定的；可靠的」。",
+      "explanation": "本句的「steady income」指「能持續提供可靠工作／收入和一定保障的」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "steady income"
       ],
       "optionReasons": {
-        "steady-08": "本句的意思是「穩定的；可靠的」。",
-        "steady-09": "「穩定的；持久的」與本句語境不同。",
-        "steady-10": "「持續的；規律的」與本句語境不同。",
-        "steady-11": "「穩重可靠的」與本句語境不同。",
-        "steady-12": "「穩定而令人安心的存在」與本句語境不同。",
-        "steady-13": "「穩定進步；穩步發展」與本句語境不同。"
-      }
+        "steady-mcq-08": "本句指「能持續提供可靠工作／收入和一定保障的」。",
+        "steady-mcq-07": "「持續出現／供應，數量或頻率相對穩定」是「steady flow/supply」的用法，與本句語境不同。",
+        "steady-mcq-09": "「持續、可靠而不反覆變化的關係」是「steady relationship」的用法，與本句語境不同。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。",
+        "steady-mcq-10": "「某件事情持續發生，節奏或強度相對規律」是「steady — regular/continuous」的用法，與本句語境不同。",
+        "steady-mcq-05": "「聲音、呼吸或節奏均勻而不突然變化」是「steady voice/breathing」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-08"
     },
     {
       "id": "steady-09-0",
-      "sense": "steady-09",
+      "sense": "steady-mcq-09",
       "en": "They have been in a steady relationship for years.",
       "zh": "他們多年來一直維持一段穩定的感情關係。",
       "masked": "They have been in a ____ for years.",
       "options": [
-        "steady-09",
-        "steady-10",
-        "steady-11",
-        "steady-12",
-        "steady-13",
-        "steady-14"
+        "steady-mcq-09",
+        "steady-mcq-08",
+        "steady-mcq-10",
+        "steady-mcq-07",
+        "steady-mcq-11",
+        "steady-mcq-06"
       ],
-      "explanation": "留意語境：steady relationship（關係）。這裡指「穩定的；持久的」。",
+      "explanation": "本句的「steady relationship」指「持續、可靠而不反覆變化的關係」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "steady relationship"
       ],
       "optionReasons": {
-        "steady-09": "本句的意思是「穩定的；持久的」。",
-        "steady-10": "「持續的；規律的」與本句語境不同。",
-        "steady-11": "「穩重可靠的」與本句語境不同。",
-        "steady-12": "「穩定而令人安心的存在」與本句語境不同。",
-        "steady-13": "「穩定進步；穩步發展」與本句語境不同。",
-        "steady-14": "「穩步增長」與本句語境不同。"
-      }
+        "steady-mcq-09": "本句指「持續、可靠而不反覆變化的關係」。",
+        "steady-mcq-08": "「能持續提供可靠工作／收入和一定保障的」是「steady job/income」的用法，與本句語境不同。",
+        "steady-mcq-10": "「某件事情持續發生，節奏或強度相對規律」是「steady — regular/continuous」的用法，與本句語境不同。",
+        "steady-mcq-07": "「持續出現／供應，數量或頻率相對穩定」是「steady flow/supply」的用法，與本句語境不同。",
+        "steady-mcq-11": "「長期表現可靠、一致而不容易失控的人」是「steady — dependable person」的用法，與本句語境不同。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-09"
     },
     {
       "id": "steady-09-1",
-      "sense": "steady-09",
+      "sense": "steady-mcq-09",
       "en": "She prefers a steady relationship to something casual.",
       "zh": "她比較喜歡穩定長久的關係，而不是隨意的關係。",
       "masked": "She prefers a ____ relationship to something casual.",
       "options": [
-        "steady-09",
-        "steady-10",
-        "steady-11",
-        "steady-12",
-        "steady-13",
-        "steady-14"
+        "steady-mcq-09",
+        "steady-mcq-08",
+        "steady-mcq-10",
+        "steady-mcq-07",
+        "steady-mcq-11",
+        "steady-mcq-06"
       ],
-      "explanation": "留意語境：steady relationship（關係）。這裡指「穩定的；持久的」。",
+      "explanation": "本句的「steady」指「持續、可靠而不反覆變化的關係」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-09": "本句的意思是「穩定的；持久的」。",
-        "steady-10": "「持續的；規律的」與本句語境不同。",
-        "steady-11": "「穩重可靠的」與本句語境不同。",
-        "steady-12": "「穩定而令人安心的存在」與本句語境不同。",
-        "steady-13": "「穩定進步；穩步發展」與本句語境不同。",
-        "steady-14": "「穩步增長」與本句語境不同。"
-      }
+        "steady-mcq-09": "本句指「持續、可靠而不反覆變化的關係」。",
+        "steady-mcq-08": "「能持續提供可靠工作／收入和一定保障的」是「steady job/income」的用法，與本句語境不同。",
+        "steady-mcq-10": "「某件事情持續發生，節奏或強度相對規律」是「steady — regular/continuous」的用法，與本句語境不同。",
+        "steady-mcq-07": "「持續出現／供應，數量或頻率相對穩定」是「steady flow/supply」的用法，與本句語境不同。",
+        "steady-mcq-11": "「長期表現可靠、一致而不容易失控的人」是「steady — dependable person」的用法，與本句語境不同。",
+        "steady-mcq-06": "「速度大致保持一致，不突然加快或減慢」是「steady pace/speed」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-09"
     },
     {
       "id": "steady-10-0",
-      "sense": "steady-10",
+      "sense": "steady-mcq-10",
       "en": "There was a steady rain all afternoon.",
       "zh": "整個下午一直下著持續而穩定的雨。",
       "masked": "There was a ____ rain all afternoon.",
       "options": [
-        "steady-10",
-        "steady-11",
-        "steady-12",
-        "steady-13",
-        "steady-14",
-        "steady-15"
+        "steady-mcq-10",
+        "steady-mcq-09",
+        "steady-mcq-11",
+        "steady-mcq-08",
+        "steady-mcq-12",
+        "steady-mcq-07"
       ],
-      "explanation": "留意語境：steady = regular / continuous（固定持續）。這裡指「持續的；規律的」。",
+      "explanation": "本句的「steady」指「某件事情持續發生，節奏或強度相對規律」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-10": "本句的意思是「持續的；規律的」。",
-        "steady-11": "「穩重可靠的」與本句語境不同。",
-        "steady-12": "「穩定而令人安心的存在」與本句語境不同。",
-        "steady-13": "「穩定進步；穩步發展」與本句語境不同。",
-        "steady-14": "「穩步增長」與本句語境不同。",
-        "steady-15": "「維持不變；保持平穩」與本句語境不同。"
-      }
+        "steady-mcq-10": "本句指「某件事情持續發生，節奏或強度相對規律」。",
+        "steady-mcq-09": "「持續、可靠而不反覆變化的關係」是「steady relationship」的用法，與本句語境不同。",
+        "steady-mcq-11": "「長期表現可靠、一致而不容易失控的人」是「steady — dependable person」的用法，與本句語境不同。",
+        "steady-mcq-08": "「能持續提供可靠工作／收入和一定保障的」是「steady job/income」的用法，與本句語境不同。",
+        "steady-mcq-12": "「長時間提供可靠、沉著和令人安心支持的存在」是「steady presence」的用法，與本句語境不同。",
+        "steady-mcq-07": "「持續出現／供應，數量或頻率相對穩定」是「steady flow/supply」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-10"
     },
     {
       "id": "steady-10-1",
-      "sense": "steady-10",
+      "sense": "steady-mcq-10",
       "en": "She heard a steady tapping sound.",
       "zh": "她聽到一陣持續而規律的敲擊聲。",
       "masked": "She heard a ____ tapping sound.",
       "options": [
-        "steady-10",
-        "steady-11",
-        "steady-12",
-        "steady-13",
-        "steady-14",
-        "steady-15"
+        "steady-mcq-10",
+        "steady-mcq-09",
+        "steady-mcq-11",
+        "steady-mcq-08",
+        "steady-mcq-12",
+        "steady-mcq-07"
       ],
-      "explanation": "留意語境：steady = regular / continuous（固定持續）。這裡指「持續的；規律的」。",
+      "explanation": "本句的「steady」指「某件事情持續發生，節奏或強度相對規律」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-10": "本句的意思是「持續的；規律的」。",
-        "steady-11": "「穩重可靠的」與本句語境不同。",
-        "steady-12": "「穩定而令人安心的存在」與本句語境不同。",
-        "steady-13": "「穩定進步；穩步發展」與本句語境不同。",
-        "steady-14": "「穩步增長」與本句語境不同。",
-        "steady-15": "「維持不變；保持平穩」與本句語境不同。"
-      }
+        "steady-mcq-10": "本句指「某件事情持續發生，節奏或強度相對規律」。",
+        "steady-mcq-09": "「持續、可靠而不反覆變化的關係」是「steady relationship」的用法，與本句語境不同。",
+        "steady-mcq-11": "「長期表現可靠、一致而不容易失控的人」是「steady — dependable person」的用法，與本句語境不同。",
+        "steady-mcq-08": "「能持續提供可靠工作／收入和一定保障的」是「steady job/income」的用法，與本句語境不同。",
+        "steady-mcq-12": "「長時間提供可靠、沉著和令人安心支持的存在」是「steady presence」的用法，與本句語境不同。",
+        "steady-mcq-07": "「持續出現／供應，數量或頻率相對穩定」是「steady flow/supply」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-10"
     },
     {
       "id": "steady-11-0",
-      "sense": "steady-11",
+      "sense": "steady-mcq-11",
       "en": "He is a steady and dependable worker.",
       "zh": "他是一個穩重可靠的員工。",
       "masked": "He is a ____ and dependable worker.",
       "options": [
-        "steady-11",
-        "steady-12",
-        "steady-13",
-        "steady-14",
-        "steady-15",
-        "steady-16"
+        "steady-mcq-11",
+        "steady-mcq-10",
+        "steady-mcq-12",
+        "steady-mcq-09",
+        "steady-mcq-13",
+        "steady-mcq-08"
       ],
-      "explanation": "留意語境：steady = dependable / reliable（可靠的）。這裡指「穩重可靠的」。",
+      "explanation": "本句的「steady」指「長期表現可靠、一致而不容易失控的人」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-11": "本句的意思是「穩重可靠的」。",
-        "steady-12": "「穩定而令人安心的存在」與本句語境不同。",
-        "steady-13": "「穩定進步；穩步發展」與本句語境不同。",
-        "steady-14": "「穩步增長」與本句語境不同。",
-        "steady-15": "「維持不變；保持平穩」與本句語境不同。",
-        "steady-16": "「穩住；使平穩」與本句語境不同。"
-      }
+        "steady-mcq-11": "本句指「長期表現可靠、一致而不容易失控的人」。",
+        "steady-mcq-10": "「某件事情持續發生，節奏或強度相對規律」是「steady — regular/continuous」的用法，與本句語境不同。",
+        "steady-mcq-12": "「長時間提供可靠、沉著和令人安心支持的存在」是「steady presence」的用法，與本句語境不同。",
+        "steady-mcq-09": "「持續、可靠而不反覆變化的關係」是「steady relationship」的用法，與本句語境不同。",
+        "steady-mcq-13": "「不一定很快，但持續可靠地向前發展」是「steady progress」的用法，與本句語境不同。",
+        "steady-mcq-08": "「能持續提供可靠工作／收入和一定保障的」是「steady job/income」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-11"
     },
     {
       "id": "steady-11-1",
-      "sense": "steady-11",
+      "sense": "steady-mcq-11",
       "en": "She has always been a steady presence in the family.",
       "zh": "她一直是家中一個穩定可靠的存在。",
       "masked": "She has always been a ____ in the family.",
       "options": [
-        "steady-11",
-        "steady-12",
-        "steady-13",
-        "steady-14",
-        "steady-15",
-        "steady-16"
+        "steady-mcq-11",
+        "steady-mcq-10",
+        "steady-mcq-12",
+        "steady-mcq-09",
+        "steady-mcq-13",
+        "steady-mcq-08"
       ],
-      "explanation": "留意語境：steady = dependable / reliable（可靠的）。這裡指「穩重可靠的」。",
+      "explanation": "本句的「steady presence」指「長期表現可靠、一致而不容易失控的人」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "steady presence"
       ],
       "optionReasons": {
-        "steady-11": "本句的意思是「穩重可靠的」。",
-        "steady-12": "「穩定而令人安心的存在」與本句語境不同。",
-        "steady-13": "「穩定進步；穩步發展」與本句語境不同。",
-        "steady-14": "「穩步增長」與本句語境不同。",
-        "steady-15": "「維持不變；保持平穩」與本句語境不同。",
-        "steady-16": "「穩住；使平穩」與本句語境不同。"
-      }
+        "steady-mcq-11": "本句指「長期表現可靠、一致而不容易失控的人」。",
+        "steady-mcq-10": "「某件事情持續發生，節奏或強度相對規律」是「steady — regular/continuous」的用法，與本句語境不同。",
+        "steady-mcq-12": "「長時間提供可靠、沉著和令人安心支持的存在」是「steady presence」的用法，與本句語境不同。",
+        "steady-mcq-09": "「持續、可靠而不反覆變化的關係」是「steady relationship」的用法，與本句語境不同。",
+        "steady-mcq-13": "「不一定很快，但持續可靠地向前發展」是「steady progress」的用法，與本句語境不同。",
+        "steady-mcq-08": "「能持續提供可靠工作／收入和一定保障的」是「steady job/income」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-11"
     },
     {
       "id": "steady-12-0",
-      "sense": "steady-12",
+      "sense": "steady-mcq-12",
       "en": "Her grandmother was a steady presence throughout her childhood.",
       "zh": "她外婆在她整個童年都是一個穩定而令人安心的存在。",
       "masked": "Her grandmother was a ____ throughout her childhood.",
       "options": [
-        "steady-12",
-        "steady-13",
-        "steady-14",
-        "steady-15",
-        "steady-16",
-        "steady-17"
+        "steady-mcq-12",
+        "steady-mcq-11",
+        "steady-mcq-13",
+        "steady-mcq-10",
+        "steady-mcq-14",
+        "steady-mcq-09"
       ],
-      "explanation": "留意語境：steady presence（穩定存在）。這裡指「穩定而令人安心的存在」。",
+      "explanation": "本句的「steady presence」指「長時間提供可靠、沉著和令人安心支持的存在」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "steady presence"
       ],
       "optionReasons": {
-        "steady-12": "本句的意思是「穩定而令人安心的存在」。",
-        "steady-13": "「穩定進步；穩步發展」與本句語境不同。",
-        "steady-14": "「穩步增長」與本句語境不同。",
-        "steady-15": "「維持不變；保持平穩」與本句語境不同。",
-        "steady-16": "「穩住；使平穩」與本句語境不同。",
-        "steady-17": "「站穩；鎮定自己」與本句語境不同。"
-      }
+        "steady-mcq-12": "本句指「長時間提供可靠、沉著和令人安心支持的存在」。",
+        "steady-mcq-11": "「長期表現可靠、一致而不容易失控的人」是「steady — dependable person」的用法，與本句語境不同。",
+        "steady-mcq-13": "「不一定很快，但持續可靠地向前發展」是「steady progress」的用法，與本句語境不同。",
+        "steady-mcq-10": "「某件事情持續發生，節奏或強度相對規律」是「steady — regular/continuous」的用法，與本句語境不同。",
+        "steady-mcq-14": "「數值持續上升而沒有劇烈波動」是「steady growth」的用法，與本句語境不同。",
+        "steady-mcq-09": "「持續、可靠而不反覆變化的關係」是「steady relationship」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-12"
     },
     {
       "id": "steady-12-1",
-      "sense": "steady-12",
+      "sense": "steady-mcq-12",
       "en": "His calm, steady presence reassured everyone.",
       "zh": "他平靜而穩定的存在感令大家安心。",
       "masked": "His calm, ____ reassured everyone.",
       "options": [
-        "steady-12",
-        "steady-13",
-        "steady-14",
-        "steady-15",
-        "steady-16",
-        "steady-17"
+        "steady-mcq-12",
+        "steady-mcq-11",
+        "steady-mcq-13",
+        "steady-mcq-10",
+        "steady-mcq-14",
+        "steady-mcq-09"
       ],
-      "explanation": "留意語境：steady presence（穩定存在）。這裡指「穩定而令人安心的存在」。",
+      "explanation": "本句的「steady presence」指「長時間提供可靠、沉著和令人安心支持的存在」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "steady presence"
       ],
       "optionReasons": {
-        "steady-12": "本句的意思是「穩定而令人安心的存在」。",
-        "steady-13": "「穩定進步；穩步發展」與本句語境不同。",
-        "steady-14": "「穩步增長」與本句語境不同。",
-        "steady-15": "「維持不變；保持平穩」與本句語境不同。",
-        "steady-16": "「穩住；使平穩」與本句語境不同。",
-        "steady-17": "「站穩；鎮定自己」與本句語境不同。"
-      }
+        "steady-mcq-12": "本句指「長時間提供可靠、沉著和令人安心支持的存在」。",
+        "steady-mcq-11": "「長期表現可靠、一致而不容易失控的人」是「steady — dependable person」的用法，與本句語境不同。",
+        "steady-mcq-13": "「不一定很快，但持續可靠地向前發展」是「steady progress」的用法，與本句語境不同。",
+        "steady-mcq-10": "「某件事情持續發生，節奏或強度相對規律」是「steady — regular/continuous」的用法，與本句語境不同。",
+        "steady-mcq-14": "「數值持續上升而沒有劇烈波動」是「steady growth」的用法，與本句語境不同。",
+        "steady-mcq-09": "「持續、可靠而不反覆變化的關係」是「steady relationship」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-12"
     },
     {
       "id": "steady-13-0",
-      "sense": "steady-13",
+      "sense": "steady-mcq-13",
       "en": "The student is making steady progress.",
       "zh": "這名學生正在穩步進步。",
       "masked": "The student is making ____.",
       "options": [
-        "steady-13",
-        "steady-14",
-        "steady-15",
-        "steady-16",
-        "steady-17",
-        "steady-18"
+        "steady-mcq-13",
+        "steady-mcq-12",
+        "steady-mcq-14",
+        "steady-mcq-11",
+        "steady-mcq-15",
+        "steady-mcq-10"
       ],
-      "explanation": "留意語境：steady progress（穩步進展）。這裡指「穩定進步；穩步發展」。",
+      "explanation": "本句的「steady progress」指「不一定很快，但持續可靠地向前發展」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "steady progress"
       ],
       "optionReasons": {
-        "steady-13": "本句的意思是「穩定進步；穩步發展」。",
-        "steady-14": "「穩步增長」與本句語境不同。",
-        "steady-15": "「維持不變；保持平穩」與本句語境不同。",
-        "steady-16": "「穩住；使平穩」與本句語境不同。",
-        "steady-17": "「站穩；鎮定自己」與本句語境不同。",
-        "steady-18": "「穩住；鎮定」與本句語境不同。"
-      }
+        "steady-mcq-13": "本句指「不一定很快，但持續可靠地向前發展」。",
+        "steady-mcq-12": "「長時間提供可靠、沉著和令人安心支持的存在」是「steady presence」的用法，與本句語境不同。",
+        "steady-mcq-14": "「數值持續上升而沒有劇烈波動」是「steady growth」的用法，與本句語境不同。",
+        "steady-mcq-11": "「長期表現可靠、一致而不容易失控的人」是「steady — dependable person」的用法，與本句語境不同。",
+        "steady-mcq-15": "「保持原本穩定狀態，不明顯移動或波動」是「hold/remain steady」的用法，與本句語境不同。",
+        "steady-mcq-10": "「某件事情持續發生，節奏或強度相對規律」是「steady — regular/continuous」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-13"
     },
     {
       "id": "steady-13-1",
-      "sense": "steady-13",
+      "sense": "steady-mcq-13",
       "en": "Recovery has been slow but steady.",
       "zh": "康復雖然慢，但一直穩定進展。",
       "masked": "Recovery has been slow but ____.",
       "options": [
-        "steady-13",
-        "steady-14",
-        "steady-15",
-        "steady-16",
-        "steady-17",
-        "steady-18"
+        "steady-mcq-13",
+        "steady-mcq-12",
+        "steady-mcq-14",
+        "steady-mcq-11",
+        "steady-mcq-15",
+        "steady-mcq-10"
       ],
-      "explanation": "留意語境：steady progress（穩步進展）。這裡指「穩定進步；穩步發展」。",
+      "explanation": "本句的「steady」指「不一定很快，但持續可靠地向前發展」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-13": "本句的意思是「穩定進步；穩步發展」。",
-        "steady-14": "「穩步增長」與本句語境不同。",
-        "steady-15": "「維持不變；保持平穩」與本句語境不同。",
-        "steady-16": "「穩住；使平穩」與本句語境不同。",
-        "steady-17": "「站穩；鎮定自己」與本句語境不同。",
-        "steady-18": "「穩住；鎮定」與本句語境不同。"
-      }
+        "steady-mcq-13": "本句指「不一定很快，但持續可靠地向前發展」。",
+        "steady-mcq-12": "「長時間提供可靠、沉著和令人安心支持的存在」是「steady presence」的用法，與本句語境不同。",
+        "steady-mcq-14": "「數值持續上升而沒有劇烈波動」是「steady growth」的用法，與本句語境不同。",
+        "steady-mcq-11": "「長期表現可靠、一致而不容易失控的人」是「steady — dependable person」的用法，與本句語境不同。",
+        "steady-mcq-15": "「保持原本穩定狀態，不明顯移動或波動」是「hold/remain steady」的用法，與本句語境不同。",
+        "steady-mcq-10": "「某件事情持續發生，節奏或強度相對規律」是「steady — regular/continuous」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-13"
     },
     {
       "id": "steady-14-0",
-      "sense": "steady-14",
+      "sense": "steady-mcq-14",
       "en": "Sales showed a steady increase.",
       "zh": "銷售錄得穩定增長。",
       "masked": "Sales showed a ____.",
       "options": [
-        "steady-14",
-        "steady-15",
-        "steady-16",
-        "steady-17",
-        "steady-18",
-        "steady-19"
+        "steady-mcq-14",
+        "steady-mcq-13",
+        "steady-mcq-15",
+        "steady-mcq-12",
+        "steady-mcq-16",
+        "steady-mcq-11"
       ],
-      "explanation": "留意語境：steady growth/increase（穩定增長）。這裡指「穩步增長」。",
+      "explanation": "本句的「steady increase」指「數值持續上升而沒有劇烈波動」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "steady increase"
       ],
       "optionReasons": {
-        "steady-14": "本句的意思是「穩步增長」。",
-        "steady-15": "「維持不變；保持平穩」與本句語境不同。",
-        "steady-16": "「穩住；使平穩」與本句語境不同。",
-        "steady-17": "「站穩；鎮定自己」與本句語境不同。",
-        "steady-18": "「穩住；鎮定」與本句語境不同。",
-        "steady-19": "「穩定地；持續地」與本句語境不同。"
-      }
+        "steady-mcq-14": "本句指「數值持續上升而沒有劇烈波動」。",
+        "steady-mcq-13": "「不一定很快，但持續可靠地向前發展」是「steady progress」的用法，與本句語境不同。",
+        "steady-mcq-15": "「保持原本穩定狀態，不明顯移動或波動」是「hold/remain steady」的用法，與本句語境不同。",
+        "steady-mcq-12": "「長時間提供可靠、沉著和令人安心支持的存在」是「steady presence」的用法，與本句語境不同。",
+        "steady-mcq-16": "「令某人／某物停止搖晃、失衡或不穩」是「steady — verb」的用法，與本句語境不同。",
+        "steady-mcq-11": "「長期表現可靠、一致而不容易失控的人」是「steady — dependable person」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-14"
     },
     {
       "id": "steady-14-1",
-      "sense": "steady-14",
+      "sense": "steady-mcq-14",
       "en": "The population has grown at a steady rate.",
       "zh": "人口一直以穩定速度增長。",
       "masked": "The population has grown at a ____.",
       "options": [
-        "steady-14",
-        "steady-15",
-        "steady-16",
-        "steady-17",
-        "steady-18",
-        "steady-19"
+        "steady-mcq-14",
+        "steady-mcq-13",
+        "steady-mcq-15",
+        "steady-mcq-12",
+        "steady-mcq-16",
+        "steady-mcq-11"
       ],
-      "explanation": "留意語境：steady growth/increase（穩定增長）。這裡指「穩步增長」。",
+      "explanation": "本句的「steady rate」指「數值持續上升而沒有劇烈波動」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "steady rate"
       ],
       "optionReasons": {
-        "steady-14": "本句的意思是「穩步增長」。",
-        "steady-15": "「維持不變；保持平穩」與本句語境不同。",
-        "steady-16": "「穩住；使平穩」與本句語境不同。",
-        "steady-17": "「站穩；鎮定自己」與本句語境不同。",
-        "steady-18": "「穩住；鎮定」與本句語境不同。",
-        "steady-19": "「穩定地；持續地」與本句語境不同。"
-      }
+        "steady-mcq-14": "本句指「數值持續上升而沒有劇烈波動」。",
+        "steady-mcq-13": "「不一定很快，但持續可靠地向前發展」是「steady progress」的用法，與本句語境不同。",
+        "steady-mcq-15": "「保持原本穩定狀態，不明顯移動或波動」是「hold/remain steady」的用法，與本句語境不同。",
+        "steady-mcq-12": "「長時間提供可靠、沉著和令人安心支持的存在」是「steady presence」的用法，與本句語境不同。",
+        "steady-mcq-16": "「令某人／某物停止搖晃、失衡或不穩」是「steady — verb」的用法，與本句語境不同。",
+        "steady-mcq-11": "「長期表現可靠、一致而不容易失控的人」是「steady — dependable person」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-14"
     },
     {
       "id": "steady-15-0",
-      "sense": "steady-15",
+      "sense": "steady-mcq-15",
       "en": "Prices remained steady.",
       "zh": "價格保持穩定。",
       "masked": "Prices remained ____.",
       "options": [
-        "steady-15",
-        "steady-16",
-        "steady-17",
-        "steady-18",
-        "steady-19",
-        "steady-20"
+        "steady-mcq-15",
+        "steady-mcq-14",
+        "steady-mcq-16",
+        "steady-mcq-13",
+        "steady-mcq-17",
+        "steady-mcq-12"
       ],
-      "explanation": "留意語境：hold/remain steady（保持穩定）。這裡指「維持不變；保持平穩」。",
+      "explanation": "本句的「steady」指「保持原本穩定狀態，不明顯移動或波動」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-15": "本句的意思是「維持不變；保持平穩」。",
-        "steady-16": "「穩住；使平穩」與本句語境不同。",
-        "steady-17": "「站穩；鎮定自己」與本句語境不同。",
-        "steady-18": "「穩住；鎮定」與本句語境不同。",
-        "steady-19": "「穩定地；持續地」與本句語境不同。",
-        "steady-20": "「平穩地；不抖地」與本句語境不同。"
-      }
+        "steady-mcq-15": "本句指「保持原本穩定狀態，不明顯移動或波動」。",
+        "steady-mcq-14": "「數值持續上升而沒有劇烈波動」是「steady growth」的用法，與本句語境不同。",
+        "steady-mcq-16": "「令某人／某物停止搖晃、失衡或不穩」是「steady — verb」的用法，與本句語境不同。",
+        "steady-mcq-13": "「不一定很快，但持續可靠地向前發展」是「steady progress」的用法，與本句語境不同。",
+        "steady-mcq-17": "「使自己的身體重新取得平衡」是「steady yourself — physical」的用法，與本句語境不同。",
+        "steady-mcq-12": "「長時間提供可靠、沉著和令人安心支持的存在」是「steady presence」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-15"
     },
     {
       "id": "steady-15-1",
-      "sense": "steady-15",
+      "sense": "steady-mcq-15",
       "en": "Hold the camera steady.",
       "zh": "把相機拿穩。",
       "masked": "Hold the camera ____.",
       "options": [
-        "steady-15",
-        "steady-16",
-        "steady-17",
-        "steady-18",
-        "steady-19",
-        "steady-20"
+        "steady-mcq-15",
+        "steady-mcq-14",
+        "steady-mcq-16",
+        "steady-mcq-13",
+        "steady-mcq-17",
+        "steady-mcq-12"
       ],
-      "explanation": "留意語境：hold/remain steady（保持穩定）。這裡指「維持不變；保持平穩」。",
+      "explanation": "本句的「steady」指「保持原本穩定狀態，不明顯移動或波動」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-15": "本句的意思是「維持不變；保持平穩」。",
-        "steady-16": "「穩住；使平穩」與本句語境不同。",
-        "steady-17": "「站穩；鎮定自己」與本句語境不同。",
-        "steady-18": "「穩住；鎮定」與本句語境不同。",
-        "steady-19": "「穩定地；持續地」與本句語境不同。",
-        "steady-20": "「平穩地；不抖地」與本句語境不同。"
-      }
+        "steady-mcq-15": "本句指「保持原本穩定狀態，不明顯移動或波動」。",
+        "steady-mcq-14": "「數值持續上升而沒有劇烈波動」是「steady growth」的用法，與本句語境不同。",
+        "steady-mcq-16": "「令某人／某物停止搖晃、失衡或不穩」是「steady — verb」的用法，與本句語境不同。",
+        "steady-mcq-13": "「不一定很快，但持續可靠地向前發展」是「steady progress」的用法，與本句語境不同。",
+        "steady-mcq-17": "「使自己的身體重新取得平衡」是「steady yourself — physical」的用法，與本句語境不同。",
+        "steady-mcq-12": "「長時間提供可靠、沉著和令人安心支持的存在」是「steady presence」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-15"
     },
     {
       "id": "steady-16-0",
-      "sense": "steady-16",
+      "sense": "steady-mcq-16",
       "en": "She used the wall to steady herself.",
       "zh": "她扶著牆壁來穩住自己。",
       "masked": "She used the wall to ____ herself.",
       "options": [
-        "steady-16",
-        "steady-17",
-        "steady-18",
-        "steady-19",
-        "steady-20",
-        "steady-21"
+        "steady-mcq-16",
+        "steady-mcq-15",
+        "steady-mcq-17",
+        "steady-mcq-14",
+        "steady-mcq-18",
+        "steady-mcq-13"
       ],
-      "explanation": "留意語境：steady — verb = make something stable（使穩定）。這裡指「穩住；使平穩」。",
+      "explanation": "本句的「steady」指「令某人／某物停止搖晃、失衡或不穩」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-16": "本句的意思是「穩住；使平穩」。",
-        "steady-17": "「站穩；鎮定自己」與本句語境不同。",
-        "steady-18": "「穩住；鎮定」與本句語境不同。",
-        "steady-19": "「穩定地；持續地」與本句語境不同。",
-        "steady-20": "「平穩地；不抖地」與本句語境不同。",
-        "steady-21": "「穩定；平穩」與本句語境不同。"
-      }
+        "steady-mcq-16": "本句指「令某人／某物停止搖晃、失衡或不穩」。",
+        "steady-mcq-15": "「保持原本穩定狀態，不明顯移動或波動」是「hold/remain steady」的用法，與本句語境不同。",
+        "steady-mcq-17": "「使自己的身體重新取得平衡」是「steady yourself — physical」的用法，與本句語境不同。",
+        "steady-mcq-14": "「數值持續上升而沒有劇烈波動」是「steady growth」的用法，與本句語境不同。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。",
+        "steady-mcq-13": "「不一定很快，但持續可靠地向前發展」是「steady progress」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-16"
     },
     {
       "id": "steady-16-1",
-      "sense": "steady-16",
+      "sense": "steady-mcq-16",
       "en": "He reached out to steady the chair.",
       "zh": "他伸手去扶穩椅子。",
       "masked": "He reached out to ____ the chair.",
       "options": [
-        "steady-16",
-        "steady-17",
-        "steady-18",
-        "steady-19",
-        "steady-20",
-        "steady-21"
+        "steady-mcq-16",
+        "steady-mcq-15",
+        "steady-mcq-17",
+        "steady-mcq-14",
+        "steady-mcq-18",
+        "steady-mcq-13"
       ],
-      "explanation": "留意語境：steady — verb = make something stable（使穩定）。這裡指「穩住；使平穩」。",
+      "explanation": "本句的「steady」指「令某人／某物停止搖晃、失衡或不穩」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-16": "本句的意思是「穩住；使平穩」。",
-        "steady-17": "「站穩；鎮定自己」與本句語境不同。",
-        "steady-18": "「穩住；鎮定」與本句語境不同。",
-        "steady-19": "「穩定地；持續地」與本句語境不同。",
-        "steady-20": "「平穩地；不抖地」與本句語境不同。",
-        "steady-21": "「穩定；平穩」與本句語境不同。"
-      }
+        "steady-mcq-16": "本句指「令某人／某物停止搖晃、失衡或不穩」。",
+        "steady-mcq-15": "「保持原本穩定狀態，不明顯移動或波動」是「hold/remain steady」的用法，與本句語境不同。",
+        "steady-mcq-17": "「使自己的身體重新取得平衡」是「steady yourself — physical」的用法，與本句語境不同。",
+        "steady-mcq-14": "「數值持續上升而沒有劇烈波動」是「steady growth」的用法，與本句語境不同。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。",
+        "steady-mcq-13": "「不一定很快，但持續可靠地向前發展」是「steady progress」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-16"
     },
     {
       "id": "steady-17-0",
-      "sense": "steady-17",
+      "sense": "steady-mcq-17",
       "en": "She paused to steady herself before standing.",
       "zh": "她停了一下，先穩住身體再站起來。",
       "masked": "She paused to ____ before standing.",
       "options": [
-        "steady-17",
-        "steady-18",
-        "steady-19",
-        "steady-20",
-        "steady-21",
-        "steady-22"
+        "steady-mcq-17",
+        "steady-mcq-16",
+        "steady-mcq-18",
+        "steady-mcq-15",
+        "steady-mcq-19",
+        "steady-mcq-14"
       ],
-      "explanation": "留意語境：steady yourself（穩住自己）。這裡指「站穩；鎮定自己」。",
+      "explanation": "本句的「steady herself」指「使自己的身體重新取得平衡」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "steady herself"
       ],
       "optionReasons": {
-        "steady-17": "本句的意思是「站穩；鎮定自己」。",
-        "steady-18": "「穩住；鎮定」與本句語境不同。",
-        "steady-19": "「穩定地；持續地」與本句語境不同。",
-        "steady-20": "「平穩地；不抖地」與本句語境不同。",
-        "steady-21": "「穩定；平穩」與本句語境不同。",
-        "steady-22": "「沉著；穩定性」與本句語境不同。"
-      }
+        "steady-mcq-17": "本句指「使自己的身體重新取得平衡」。",
+        "steady-mcq-16": "「令某人／某物停止搖晃、失衡或不穩」是「steady — verb」的用法，與本句語境不同。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。",
+        "steady-mcq-15": "「保持原本穩定狀態，不明顯移動或波動」是「hold/remain steady」的用法，與本句語境不同。",
+        "steady-mcq-19": "「以持續、一致、沒有劇烈變化的方式」是「steadily — consistency」的用法，與本句語境不同。",
+        "steady-mcq-14": "「數值持續上升而沒有劇烈波動」是「steady growth」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-17"
     },
     {
       "id": "steady-17-1",
-      "sense": "steady-17",
+      "sense": "steady-mcq-17",
       "en": "He took a deep breath to steady himself.",
       "zh": "他深呼吸一下，好讓自己鎮定下來。",
       "masked": "He took a deep breath to ____.",
       "options": [
-        "steady-17",
-        "steady-18",
-        "steady-19",
-        "steady-20",
-        "steady-21",
-        "steady-22"
+        "steady-mcq-17",
+        "steady-mcq-16",
+        "steady-mcq-18",
+        "steady-mcq-15",
+        "steady-mcq-19",
+        "steady-mcq-14"
       ],
-      "explanation": "留意語境：steady yourself（穩住自己）。這裡指「站穩；鎮定自己」。",
+      "explanation": "本句的「steady himself」指「使自己的身體重新取得平衡」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "steady himself"
       ],
       "optionReasons": {
-        "steady-17": "本句的意思是「站穩；鎮定自己」。",
-        "steady-18": "「穩住；鎮定」與本句語境不同。",
-        "steady-19": "「穩定地；持續地」與本句語境不同。",
-        "steady-20": "「平穩地；不抖地」與本句語境不同。",
-        "steady-21": "「穩定；平穩」與本句語境不同。",
-        "steady-22": "「沉著；穩定性」與本句語境不同。"
-      }
+        "steady-mcq-17": "本句指「使自己的身體重新取得平衡」。",
+        "steady-mcq-16": "「令某人／某物停止搖晃、失衡或不穩」是「steady — verb」的用法，與本句語境不同。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。",
+        "steady-mcq-15": "「保持原本穩定狀態，不明顯移動或波動」是「hold/remain steady」的用法，與本句語境不同。",
+        "steady-mcq-19": "「以持續、一致、沒有劇烈變化的方式」是「steadily — consistency」的用法，與本句語境不同。",
+        "steady-mcq-14": "「數值持續上升而沒有劇烈波動」是「steady growth」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-17"
     },
     {
       "id": "steady-18-0",
-      "sense": "steady-18",
+      "sense": "steady-mcq-18",
       "en": "She took a moment to steady her nerves.",
       "zh": "她花了一點時間讓自己鎮定下來。",
       "masked": "She took a moment to ____.",
       "options": [
-        "steady-18",
-        "steady-19",
-        "steady-20",
-        "steady-21",
-        "steady-22",
-        "steady-23"
+        "steady-mcq-18",
+        "steady-mcq-17",
+        "steady-mcq-19",
+        "steady-mcq-16",
+        "steady-mcq-20",
+        "steady-mcq-15"
       ],
-      "explanation": "留意語境：steady nerves/emotions（使情緒平復）。這裡指「穩住；鎮定」。",
+      "explanation": "本句的「steady her nerves」指「令自己的情緒恢復平靜和控制」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "steady her nerves"
       ],
       "optionReasons": {
-        "steady-18": "本句的意思是「穩住；鎮定」。",
-        "steady-19": "「穩定地；持續地」與本句語境不同。",
-        "steady-20": "「平穩地；不抖地」與本句語境不同。",
-        "steady-21": "「穩定；平穩」與本句語境不同。",
-        "steady-22": "「沉著；穩定性」與本句語境不同。",
-        "steady-23": "「令人穩定的；」與本句語境不同。"
-      }
+        "steady-mcq-18": "本句指「令自己的情緒恢復平靜和控制」。",
+        "steady-mcq-17": "「使自己的身體重新取得平衡」是「steady yourself — physical」的用法，與本句語境不同。",
+        "steady-mcq-19": "「以持續、一致、沒有劇烈變化的方式」是「steadily — consistency」的用法，與本句語境不同。",
+        "steady-mcq-16": "「令某人／某物停止搖晃、失衡或不穩」是「steady — verb」的用法，與本句語境不同。",
+        "steady-mcq-20": "「以不晃動、不顫抖的方式」是「steadily — physically」的用法，與本句語境不同。",
+        "steady-mcq-15": "「保持原本穩定狀態，不明顯移動或波動」是「hold/remain steady」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-18"
     },
     {
       "id": "steady-18-1",
-      "sense": "steady-18",
+      "sense": "steady-mcq-18",
       "en": "His calm words helped steady everyone.",
       "zh": "他平靜的話語幫助大家穩定情緒。",
       "masked": "His calm words helped ____ everyone.",
       "options": [
-        "steady-18",
-        "steady-19",
-        "steady-20",
-        "steady-21",
-        "steady-22",
-        "steady-23"
+        "steady-mcq-18",
+        "steady-mcq-17",
+        "steady-mcq-19",
+        "steady-mcq-16",
+        "steady-mcq-20",
+        "steady-mcq-15"
       ],
-      "explanation": "留意語境：steady nerves/emotions（使情緒平復）。這裡指「穩住；鎮定」。",
+      "explanation": "本句的「steady」指「令自己的情緒恢復平靜和控制」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "steady"
       ],
       "optionReasons": {
-        "steady-18": "本句的意思是「穩住；鎮定」。",
-        "steady-19": "「穩定地；持續地」與本句語境不同。",
-        "steady-20": "「平穩地；不抖地」與本句語境不同。",
-        "steady-21": "「穩定；平穩」與本句語境不同。",
-        "steady-22": "「沉著；穩定性」與本句語境不同。",
-        "steady-23": "「令人穩定的；」與本句語境不同。"
-      }
+        "steady-mcq-18": "本句指「令自己的情緒恢復平靜和控制」。",
+        "steady-mcq-17": "「使自己的身體重新取得平衡」是「steady yourself — physical」的用法，與本句語境不同。",
+        "steady-mcq-19": "「以持續、一致、沒有劇烈變化的方式」是「steadily — consistency」的用法，與本句語境不同。",
+        "steady-mcq-16": "「令某人／某物停止搖晃、失衡或不穩」是「steady — verb」的用法，與本句語境不同。",
+        "steady-mcq-20": "「以不晃動、不顫抖的方式」是「steadily — physically」的用法，與本句語境不同。",
+        "steady-mcq-15": "「保持原本穩定狀態，不明顯移動或波動」是「hold/remain steady」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-18"
     },
     {
       "id": "steady-19-0",
-      "sense": "steady-19",
+      "sense": "steady-mcq-19",
       "en": "The temperature rose steadily.",
       "zh": "溫度穩定地持續上升。",
       "masked": "The temperature rose ____.",
       "options": [
-        "steady-19",
-        "steady-20",
-        "steady-21",
-        "steady-22",
-        "steady-23",
-        "steady-24"
+        "steady-mcq-19",
+        "steady-mcq-18",
+        "steady-mcq-20",
+        "steady-mcq-17",
+        "steady-mcq-21",
+        "steady-mcq-16"
       ],
-      "explanation": "留意語境：steadily = at a constant rate（穩定地）。這裡指「穩定地；持續地」。",
+      "explanation": "本句的「steadily」指「以持續、一致、沒有劇烈變化的方式」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "steadily"
       ],
       "optionReasons": {
-        "steady-19": "本句的意思是「穩定地；持續地」。",
-        "steady-20": "「平穩地；不抖地」與本句語境不同。",
-        "steady-21": "「穩定；平穩」與本句語境不同。",
-        "steady-22": "「沉著；穩定性」與本句語境不同。",
-        "steady-23": "「令人穩定的；」與本句語境不同。",
-        "steady-24": "「慢著；冷靜點；別過火」與本句語境不同。"
-      }
+        "steady-mcq-19": "本句指「以持續、一致、沒有劇烈變化的方式」。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。",
+        "steady-mcq-20": "「以不晃動、不顫抖的方式」是「steadily — physically」的用法，與本句語境不同。",
+        "steady-mcq-17": "「使自己的身體重新取得平衡」是「steady yourself — physical」的用法，與本句語境不同。",
+        "steady-mcq-21": "「不搖晃、不失衡並能保持穩定的程度」是「steadiness — physical」的用法，與本句語境不同。",
+        "steady-mcq-16": "「令某人／某物停止搖晃、失衡或不穩」是「steady — verb」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-19"
     },
     {
       "id": "steady-19-1",
-      "sense": "steady-19",
+      "sense": "steady-mcq-19",
       "en": "She has been improving steadily.",
       "zh": "她一直穩步進步。",
       "masked": "She has been improving ____.",
       "options": [
-        "steady-19",
-        "steady-20",
-        "steady-21",
-        "steady-22",
-        "steady-23",
-        "steady-24"
+        "steady-mcq-19",
+        "steady-mcq-18",
+        "steady-mcq-20",
+        "steady-mcq-17",
+        "steady-mcq-21",
+        "steady-mcq-16"
       ],
-      "explanation": "留意語境：steadily = at a constant rate（穩定地）。這裡指「穩定地；持續地」。",
+      "explanation": "本句的「steadily」指「以持續、一致、沒有劇烈變化的方式」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "steadily"
       ],
       "optionReasons": {
-        "steady-19": "本句的意思是「穩定地；持續地」。",
-        "steady-20": "「平穩地；不抖地」與本句語境不同。",
-        "steady-21": "「穩定；平穩」與本句語境不同。",
-        "steady-22": "「沉著；穩定性」與本句語境不同。",
-        "steady-23": "「令人穩定的；」與本句語境不同。",
-        "steady-24": "「慢著；冷靜點；別過火」與本句語境不同。"
-      }
+        "steady-mcq-19": "本句指「以持續、一致、沒有劇烈變化的方式」。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。",
+        "steady-mcq-20": "「以不晃動、不顫抖的方式」是「steadily — physically」的用法，與本句語境不同。",
+        "steady-mcq-17": "「使自己的身體重新取得平衡」是「steady yourself — physical」的用法，與本句語境不同。",
+        "steady-mcq-21": "「不搖晃、不失衡並能保持穩定的程度」是「steadiness — physical」的用法，與本句語境不同。",
+        "steady-mcq-16": "「令某人／某物停止搖晃、失衡或不穩」是「steady — verb」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-19"
     },
     {
       "id": "steady-20-0",
-      "sense": "steady-20",
+      "sense": "steady-mcq-20",
       "en": "Hold the cup steadily.",
       "zh": "把杯子穩穩地拿著。",
       "masked": "Hold the cup ____.",
       "options": [
-        "steady-20",
-        "steady-21",
-        "steady-22",
-        "steady-23",
-        "steady-24",
-        "steady-01"
+        "steady-mcq-20",
+        "steady-mcq-19",
+        "steady-mcq-21",
+        "steady-mcq-18",
+        "steady-mcq-22",
+        "steady-mcq-17"
       ],
-      "explanation": "留意語境：steadily = without shaking（穩穩地）。這裡指「平穩地；不抖地」。",
+      "explanation": "本句的「steadily」指「以不晃動、不顫抖的方式」。",
       "sentenceIndex": 39,
       "sourcePractice": 40,
       "targets": [
         "steadily"
       ],
       "optionReasons": {
-        "steady-20": "本句的意思是「平穩地；不抖地」。",
-        "steady-21": "「穩定；平穩」與本句語境不同。",
-        "steady-22": "「沉著；穩定性」與本句語境不同。",
-        "steady-23": "「令人穩定的；」與本句語境不同。",
-        "steady-24": "「慢著；冷靜點；別過火」與本句語境不同。",
-        "steady-01": "「穩定的；平穩的」與本句語境不同。"
-      }
+        "steady-mcq-20": "本句指「以不晃動、不顫抖的方式」。",
+        "steady-mcq-19": "「以持續、一致、沒有劇烈變化的方式」是「steadily — consistency」的用法，與本句語境不同。",
+        "steady-mcq-21": "「不搖晃、不失衡並能保持穩定的程度」是「steadiness — physical」的用法，與本句語境不同。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。",
+        "steady-mcq-22": "「面對壓力仍能保持冷靜、一致和可靠的特質」是「steadiness — emotional」的用法，與本句語境不同。",
+        "steady-mcq-17": "「使自己的身體重新取得平衡」是「steady yourself — physical」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-20"
     },
     {
       "id": "steady-20-1",
-      "sense": "steady-20",
+      "sense": "steady-mcq-20",
       "en": "She looked steadily at him.",
       "zh": "她定定地／穩定地望著他。",
       "masked": "She looked ____ at him.",
       "options": [
-        "steady-20",
-        "steady-21",
-        "steady-22",
-        "steady-23",
-        "steady-24",
-        "steady-01"
+        "steady-mcq-20",
+        "steady-mcq-19",
+        "steady-mcq-21",
+        "steady-mcq-18",
+        "steady-mcq-22",
+        "steady-mcq-17"
       ],
-      "explanation": "留意語境：steadily = without shaking（穩穩地）。這裡指「平穩地；不抖地」。",
+      "explanation": "本句的「steadily」指「以不晃動、不顫抖的方式」。",
       "sentenceIndex": 40,
       "sourcePractice": 41,
       "targets": [
         "steadily"
       ],
       "optionReasons": {
-        "steady-20": "本句的意思是「平穩地；不抖地」。",
-        "steady-21": "「穩定；平穩」與本句語境不同。",
-        "steady-22": "「沉著；穩定性」與本句語境不同。",
-        "steady-23": "「令人穩定的；」與本句語境不同。",
-        "steady-24": "「慢著；冷靜點；別過火」與本句語境不同。",
-        "steady-01": "「穩定的；平穩的」與本句語境不同。"
-      }
+        "steady-mcq-20": "本句指「以不晃動、不顫抖的方式」。",
+        "steady-mcq-19": "「以持續、一致、沒有劇烈變化的方式」是「steadily — consistency」的用法，與本句語境不同。",
+        "steady-mcq-21": "「不搖晃、不失衡並能保持穩定的程度」是「steadiness — physical」的用法，與本句語境不同。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。",
+        "steady-mcq-22": "「面對壓力仍能保持冷靜、一致和可靠的特質」是「steadiness — emotional」的用法，與本句語境不同。",
+        "steady-mcq-17": "「使自己的身體重新取得平衡」是「steady yourself — physical」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-20"
     },
     {
       "id": "steady-21-0",
-      "sense": "steady-21",
+      "sense": "steady-mcq-21",
       "en": "The job requires great hand steadiness.",
       "zh": "這份工作需要很高的手部穩定性。",
       "masked": "The job requires great hand ____.",
       "options": [
-        "steady-21",
-        "steady-22",
-        "steady-23",
-        "steady-24",
-        "steady-01",
-        "steady-02"
+        "steady-mcq-21",
+        "steady-mcq-20",
+        "steady-mcq-22",
+        "steady-mcq-19",
+        "steady-mcq-23",
+        "steady-mcq-18"
       ],
-      "explanation": "留意語境：steadiness = physical stability（穩定性）。這裡指「穩定；平穩」。",
+      "explanation": "本句的「steadiness」指「不搖晃、不失衡並能保持穩定的程度」。",
       "sentenceIndex": 41,
       "sourcePractice": 42,
       "targets": [
         "steadiness"
       ],
       "optionReasons": {
-        "steady-21": "本句的意思是「穩定；平穩」。",
-        "steady-22": "「沉著；穩定性」與本句語境不同。",
-        "steady-23": "「令人穩定的；」與本句語境不同。",
-        "steady-24": "「慢著；冷靜點；別過火」與本句語境不同。",
-        "steady-01": "「穩定的；平穩的」與本句語境不同。",
-        "steady-02": "「穩定的；不搖晃的」與本句語境不同。"
-      }
+        "steady-mcq-21": "本句指「不搖晃、不失衡並能保持穩定的程度」。",
+        "steady-mcq-20": "「以不晃動、不顫抖的方式」是「steadily — physically」的用法，與本句語境不同。",
+        "steady-mcq-22": "「面對壓力仍能保持冷靜、一致和可靠的特質」是「steadiness — emotional」的用法，與本句語境不同。",
+        "steady-mcq-19": "「以持續、一致、沒有劇烈變化的方式」是「steadily — consistency」的用法，與本句語境不同。",
+        "steady-mcq-23": "「能令某人／某物變得更穩、更冷靜或更有安全感的」是「steadying」的用法，與本句語境不同。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-21"
     },
     {
       "id": "steady-21-1",
-      "sense": "steady-21",
+      "sense": "steady-mcq-21",
       "en": "The camera’s steadiness improved the image.",
       "zh": "相機的穩定性改善了影像效果。",
       "masked": "The camera’s ____ improved the image.",
       "options": [
-        "steady-21",
-        "steady-22",
-        "steady-23",
-        "steady-24",
-        "steady-01",
-        "steady-02"
+        "steady-mcq-21",
+        "steady-mcq-20",
+        "steady-mcq-22",
+        "steady-mcq-19",
+        "steady-mcq-23",
+        "steady-mcq-18"
       ],
-      "explanation": "留意語境：steadiness = physical stability（穩定性）。這裡指「穩定；平穩」。",
+      "explanation": "本句的「steadiness」指「不搖晃、不失衡並能保持穩定的程度」。",
       "sentenceIndex": 42,
       "sourcePractice": 43,
       "targets": [
         "steadiness"
       ],
       "optionReasons": {
-        "steady-21": "本句的意思是「穩定；平穩」。",
-        "steady-22": "「沉著；穩定性」與本句語境不同。",
-        "steady-23": "「令人穩定的；」與本句語境不同。",
-        "steady-24": "「慢著；冷靜點；別過火」與本句語境不同。",
-        "steady-01": "「穩定的；平穩的」與本句語境不同。",
-        "steady-02": "「穩定的；不搖晃的」與本句語境不同。"
-      }
+        "steady-mcq-21": "本句指「不搖晃、不失衡並能保持穩定的程度」。",
+        "steady-mcq-20": "「以不晃動、不顫抖的方式」是「steadily — physically」的用法，與本句語境不同。",
+        "steady-mcq-22": "「面對壓力仍能保持冷靜、一致和可靠的特質」是「steadiness — emotional」的用法，與本句語境不同。",
+        "steady-mcq-19": "「以持續、一致、沒有劇烈變化的方式」是「steadily — consistency」的用法，與本句語境不同。",
+        "steady-mcq-23": "「能令某人／某物變得更穩、更冷靜或更有安全感的」是「steadying」的用法，與本句語境不同。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-21"
     },
     {
       "id": "steady-22-0",
-      "sense": "steady-22",
+      "sense": "steady-mcq-22",
       "en": "Everyone admired her emotional steadiness.",
       "zh": "大家都欣賞她情緒上的沉著穩定。",
       "masked": "Everyone admired her emotional ____.",
       "options": [
-        "steady-22",
-        "steady-23",
-        "steady-24",
-        "steady-01",
-        "steady-02",
-        "steady-03"
+        "steady-mcq-22",
+        "steady-mcq-21",
+        "steady-mcq-23",
+        "steady-mcq-20",
+        "steady-mcq-19",
+        "steady-mcq-18"
       ],
-      "explanation": "留意語境：steadiness = emotional reliability/calmness（沉著／穩重）。這裡指「沉著；穩定性」。",
+      "explanation": "本句的「steadiness」指「面對壓力仍能保持冷靜、一致和可靠的特質」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "targets": [
         "steadiness"
       ],
       "optionReasons": {
-        "steady-22": "本句的意思是「沉著；穩定性」。",
-        "steady-23": "「令人穩定的；」與本句語境不同。",
-        "steady-24": "「慢著；冷靜點；別過火」與本句語境不同。",
-        "steady-01": "「穩定的；平穩的」與本句語境不同。",
-        "steady-02": "「穩定的；不搖晃的」與本句語境不同。",
-        "steady-03": "「穩定的手；沉著能力」與本句語境不同。"
-      }
+        "steady-mcq-22": "本句指「面對壓力仍能保持冷靜、一致和可靠的特質」。",
+        "steady-mcq-21": "「不搖晃、不失衡並能保持穩定的程度」是「steadiness — physical」的用法，與本句語境不同。",
+        "steady-mcq-23": "「能令某人／某物變得更穩、更冷靜或更有安全感的」是「steadying」的用法，與本句語境不同。",
+        "steady-mcq-20": "「以不晃動、不顫抖的方式」是「steadily — physically」的用法，與本句語境不同。",
+        "steady-mcq-19": "「以持續、一致、沒有劇烈變化的方式」是「steadily — consistency」的用法，與本句語境不同。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-22"
     },
     {
       "id": "steady-22-1",
-      "sense": "steady-22",
+      "sense": "steady-mcq-22",
       "en": "His steadiness during the crisis reassured the team.",
       "zh": "他在危機中的沉著穩重令團隊安心。",
       "masked": "His ____ during the crisis reassured the team.",
       "options": [
-        "steady-22",
-        "steady-23",
-        "steady-24",
-        "steady-01",
-        "steady-02",
-        "steady-03"
+        "steady-mcq-22",
+        "steady-mcq-21",
+        "steady-mcq-23",
+        "steady-mcq-20",
+        "steady-mcq-19",
+        "steady-mcq-18"
       ],
-      "explanation": "留意語境：steadiness = emotional reliability/calmness（沉著／穩重）。這裡指「沉著；穩定性」。",
+      "explanation": "本句的「steadiness」指「面對壓力仍能保持冷靜、一致和可靠的特質」。",
       "sentenceIndex": 44,
       "sourcePractice": 45,
       "targets": [
         "steadiness"
       ],
       "optionReasons": {
-        "steady-22": "本句的意思是「沉著；穩定性」。",
-        "steady-23": "「令人穩定的；」與本句語境不同。",
-        "steady-24": "「慢著；冷靜點；別過火」與本句語境不同。",
-        "steady-01": "「穩定的；平穩的」與本句語境不同。",
-        "steady-02": "「穩定的；不搖晃的」與本句語境不同。",
-        "steady-03": "「穩定的手；沉著能力」與本句語境不同。"
-      }
+        "steady-mcq-22": "本句指「面對壓力仍能保持冷靜、一致和可靠的特質」。",
+        "steady-mcq-21": "「不搖晃、不失衡並能保持穩定的程度」是「steadiness — physical」的用法，與本句語境不同。",
+        "steady-mcq-23": "「能令某人／某物變得更穩、更冷靜或更有安全感的」是「steadying」的用法，與本句語境不同。",
+        "steady-mcq-20": "「以不晃動、不顫抖的方式」是「steadily — physically」的用法，與本句語境不同。",
+        "steady-mcq-19": "「以持續、一致、沒有劇烈變化的方式」是「steadily — consistency」的用法，與本句語境不同。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-22"
     },
     {
       "id": "steady-23-0",
-      "sense": "steady-23",
+      "sense": "steady-mcq-23",
       "en": "Her voice had a steadying effect on him.",
       "zh": "她的聲音對他有一種安定情緒的作用。",
       "masked": "Her voice had a ____ on him.",
       "options": [
-        "steady-23",
-        "steady-24",
-        "steady-01",
-        "steady-02",
-        "steady-03",
-        "steady-04"
+        "steady-mcq-23",
+        "steady-mcq-22",
+        "steady-mcq-21",
+        "steady-mcq-20",
+        "steady-mcq-19",
+        "steady-mcq-18"
       ],
-      "explanation": "留意語境：steadying = making something more stable/calming（穩定／安定作用）。這裡指「令人穩定的；」。",
+      "explanation": "本句的「steadying effect」指「能令某人／某物變得更穩、更冷靜或更有安全感的」。",
       "sentenceIndex": 45,
       "sourcePractice": 46,
       "targets": [
         "steadying effect"
       ],
       "optionReasons": {
-        "steady-23": "本句的意思是「令人穩定的；」。",
-        "steady-24": "「慢著；冷靜點；別過火」與本句語境不同。",
-        "steady-01": "「穩定的；平穩的」與本句語境不同。",
-        "steady-02": "「穩定的；不搖晃的」與本句語境不同。",
-        "steady-03": "「穩定的手；沉著能力」與本句語境不同。",
-        "steady-04": "「沉著的；冷靜的」與本句語境不同。"
-      }
+        "steady-mcq-23": "本句指「能令某人／某物變得更穩、更冷靜或更有安全感的」。",
+        "steady-mcq-22": "「面對壓力仍能保持冷靜、一致和可靠的特質」是「steadiness — emotional」的用法，與本句語境不同。",
+        "steady-mcq-21": "「不搖晃、不失衡並能保持穩定的程度」是「steadiness — physical」的用法，與本句語境不同。",
+        "steady-mcq-20": "「以不晃動、不顫抖的方式」是「steadily — physically」的用法，與本句語境不同。",
+        "steady-mcq-19": "「以持續、一致、沒有劇烈變化的方式」是「steadily — consistency」的用法，與本句語境不同。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-23"
     },
     {
       "id": "steady-23-1",
-      "sense": "steady-23",
+      "sense": "steady-mcq-23",
       "en": "He placed a steadying hand on her shoulder.",
       "zh": "他把手放在她肩上，給她一種穩定／安慰作用。",
       "masked": "He placed a ____ on her shoulder.",
       "options": [
-        "steady-23",
-        "steady-24",
-        "steady-01",
-        "steady-02",
-        "steady-03",
-        "steady-04"
+        "steady-mcq-23",
+        "steady-mcq-22",
+        "steady-mcq-21",
+        "steady-mcq-20",
+        "steady-mcq-19",
+        "steady-mcq-18"
       ],
-      "explanation": "留意語境：steadying = making something more stable/calming（穩定／安定作用）。這裡指「令人穩定的；」。",
+      "explanation": "本句的「steadying hand」指「能令某人／某物變得更穩、更冷靜或更有安全感的」。",
       "sentenceIndex": 46,
       "sourcePractice": 47,
       "targets": [
         "steadying hand"
       ],
       "optionReasons": {
-        "steady-23": "本句的意思是「令人穩定的；」。",
-        "steady-24": "「慢著；冷靜點；別過火」與本句語境不同。",
-        "steady-01": "「穩定的；平穩的」與本句語境不同。",
-        "steady-02": "「穩定的；不搖晃的」與本句語境不同。",
-        "steady-03": "「穩定的手；沉著能力」與本句語境不同。",
-        "steady-04": "「沉著的；冷靜的」與本句語境不同。"
-      }
+        "steady-mcq-23": "本句指「能令某人／某物變得更穩、更冷靜或更有安全感的」。",
+        "steady-mcq-22": "「面對壓力仍能保持冷靜、一致和可靠的特質」是「steadiness — emotional」的用法，與本句語境不同。",
+        "steady-mcq-21": "「不搖晃、不失衡並能保持穩定的程度」是「steadiness — physical」的用法，與本句語境不同。",
+        "steady-mcq-20": "「以不晃動、不顫抖的方式」是「steadily — physically」的用法，與本句語境不同。",
+        "steady-mcq-19": "「以持續、一致、沒有劇烈變化的方式」是「steadily — consistency」的用法，與本句語境不同。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-23"
     },
     {
       "id": "steady-24-0",
-      "sense": "steady-24",
+      "sense": "steady-mcq-23",
       "en": "Steady on! There’s no need to get angry.",
       "zh": "冷靜點！不用生氣。",
       "masked": "____ There’s no need to get angry.",
       "options": [
-        "steady-24",
-        "steady-01",
-        "steady-02",
-        "steady-03",
-        "steady-04",
-        "steady-05"
+        "steady-mcq-23",
+        "steady-mcq-22",
+        "steady-mcq-21",
+        "steady-mcq-20",
+        "steady-mcq-19",
+        "steady-mcq-18"
       ],
-      "explanation": "留意語境：steady on!（英式口語）。這裡指「慢著；冷靜點；別過火」。",
+      "explanation": "本句的「Steady on!」指「能令某人／某物變得更穩、更冷靜或更有安全感的」。",
       "sentenceIndex": 47,
       "sourcePractice": 48,
       "targets": [
         "Steady on!"
       ],
       "optionReasons": {
-        "steady-24": "本句的意思是「慢著；冷靜點；別過火」。",
-        "steady-01": "「穩定的；平穩的」與本句語境不同。",
-        "steady-02": "「穩定的；不搖晃的」與本句語境不同。",
-        "steady-03": "「穩定的手；沉著能力」與本句語境不同。",
-        "steady-04": "「沉著的；冷靜的」與本句語境不同。",
-        "steady-05": "「平穩的；均勻的」與本句語境不同。"
-      }
+        "steady-mcq-23": "本句指「能令某人／某物變得更穩、更冷靜或更有安全感的」。",
+        "steady-mcq-22": "「面對壓力仍能保持冷靜、一致和可靠的特質」是「steadiness — emotional」的用法，與本句語境不同。",
+        "steady-mcq-21": "「不搖晃、不失衡並能保持穩定的程度」是「steadiness — physical」的用法，與本句語境不同。",
+        "steady-mcq-20": "「以不晃動、不顫抖的方式」是「steadily — physically」的用法，與本句語境不同。",
+        "steady-mcq-19": "「以持續、一致、沒有劇烈變化的方式」是「steadily — consistency」的用法，與本句語境不同。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-23"
     },
     {
       "id": "steady-24-1",
-      "sense": "steady-24",
+      "sense": "steady-mcq-23",
       "en": "Steady on—you’re moving too fast.",
       "zh": "慢著／別急！你進度太快了。",
       "masked": "____ on—you’re moving too fast.",
       "options": [
-        "steady-24",
-        "steady-01",
-        "steady-02",
-        "steady-03",
-        "steady-04",
-        "steady-05"
+        "steady-mcq-23",
+        "steady-mcq-22",
+        "steady-mcq-21",
+        "steady-mcq-20",
+        "steady-mcq-19",
+        "steady-mcq-18"
       ],
-      "explanation": "留意語境：steady on!（英式口語）。這裡指「慢著；冷靜點；別過火」。",
+      "explanation": "本句的「Steady」指「能令某人／某物變得更穩、更冷靜或更有安全感的」。",
       "sentenceIndex": 48,
       "sourcePractice": 49,
       "targets": [
         "Steady"
       ],
       "optionReasons": {
-        "steady-24": "本句的意思是「慢著；冷靜點；別過火」。",
-        "steady-01": "「穩定的；平穩的」與本句語境不同。",
-        "steady-02": "「穩定的；不搖晃的」與本句語境不同。",
-        "steady-03": "「穩定的手；沉著能力」與本句語境不同。",
-        "steady-04": "「沉著的；冷靜的」與本句語境不同。",
-        "steady-05": "「平穩的；均勻的」與本句語境不同。"
-      }
+        "steady-mcq-23": "本句指「能令某人／某物變得更穩、更冷靜或更有安全感的」。",
+        "steady-mcq-22": "「面對壓力仍能保持冷靜、一致和可靠的特質」是「steadiness — emotional」的用法，與本句語境不同。",
+        "steady-mcq-21": "「不搖晃、不失衡並能保持穩定的程度」是「steadiness — physical」的用法，與本句語境不同。",
+        "steady-mcq-20": "「以不晃動、不顫抖的方式」是「steadily — physically」的用法，與本句語境不同。",
+        "steady-mcq-19": "「以持續、一致、沒有劇烈變化的方式」是「steadily — consistency」的用法，與本句語境不同。",
+        "steady-mcq-18": "「令自己的情緒恢復平靜和控制」是「steady yourself — emotional」的用法，與本句語境不同。"
+      },
+      "correctOption": "steady-mcq-23"
     }
   ],
   "comparisons": [],
@@ -2136,5 +2005,6 @@ export default {
     "file": "348_steady_Polysemy Exercise.pdf",
     "sha256": "c0289ff8030b36901663178e091e1c060e64905d5b80ebd6153aadca18ca6bb6",
     "pages": 19
-  }
+  },
+  "mcqSource": "master-comparison"
 };

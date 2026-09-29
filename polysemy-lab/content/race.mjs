@@ -2,2480 +2,2293 @@ export default {
   "id": "race",
   "word": "race",
   "number": 334,
-  "version": 1,
+  "version": 2,
   "mass": true,
   "senses": [
     {
-      "id": "race-01",
-      "title": "賽跑；競賽；速度比賽",
-      "form": "race = speed competition（競速比賽）",
-      "en": "A competition in which people, animals, vehicles, etc. try to reach a finish point before",
-      "zh": "賽跑；競賽；速度比賽",
-      "note": "留意語境：race = speed competition（競速比賽）。這裡指「賽跑；競賽；速度比賽」。",
+      "id": "race-mcq-01",
+      "title": "參賽者比較速度，看誰最先到達終點的比賽",
+      "form": "race — speed competition",
+      "en": "race — speed competition",
+      "zh": "參賽者比較速度，看誰最先到達終點的比賽",
+      "note": "來源詞義：參賽者比較速度，看誰最先到達終點的比賽",
       "examples": [
         [
           "She won the 100-metre race.",
           "她贏得了一百米賽跑。",
-          "賽跑；競賽；速度比賽"
+          "參賽者比較速度，看誰最先到達終點的比賽"
         ],
         [
           "The car race attracted thousands of spectators.",
           "這場汽車競速賽吸引了數千名觀眾。",
-          "賽跑；競賽；速度比賽"
+          "參賽者比較速度，看誰最先到達終點的比賽"
         ]
       ],
-      "options": [
-        "race-01",
-        "race-02",
-        "race-03",
-        "race-04",
-        "race-05",
-        "race-06"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-02",
-      "title": "賽跑；競賽",
-      "form": "race = compete in a race（參加競速比賽）",
-      "en": "race = compete in a race（參加競速比賽）",
-      "zh": "賽跑；競賽",
-      "note": "留意語境：race = compete in a race（參加競速比賽）。這裡指「賽跑；競賽」。",
+      "id": "race-mcq-02",
+      "title": "在速度比賽中跟其他人競爭",
+      "form": "race — compete",
+      "en": "race — compete",
+      "zh": "在速度比賽中跟其他人競爭",
+      "note": "來源詞義：在速度比賽中跟其他人競爭",
       "examples": [
         [
           "They raced each other to the finish line.",
           "他們互相賽跑到終點。",
-          "賽跑；競賽"
+          "在速度比賽中跟其他人競爭"
         ],
         [
           "She races professionally.",
           "她以專業身份參加競速比賽。",
-          "賽跑；競賽"
+          "在速度比賽中跟其他人競爭"
         ]
       ],
-      "options": [
-        "race-02",
-        "race-03",
-        "race-04",
-        "race-05",
-        "race-06",
-        "race-07"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-03",
-      "title": "與……比速度",
-      "form": "race against + person/team（跟……競速）",
-      "en": "race against + person/team（跟……競速）",
-      "zh": "與……比速度",
-      "note": "留意語境：race against + person/team（跟……競速）。這裡指「與……比速度」。",
+      "id": "race-mcq-03",
+      "title": "跟另一個人／隊伍直接比較速度",
+      "form": "race against someone",
+      "en": "race against someone",
+      "zh": "跟另一個人／隊伍直接比較速度",
+      "note": "來源詞義：跟另一個人／隊伍直接比較速度",
       "examples": [
         [
           "He raced against the national champion.",
           "他跟全國冠軍比賽速度。",
-          "與……比速度"
+          "跟另一個人／隊伍直接比較速度"
         ],
         [
           "The children raced against each other across the field.",
           "孩子們在草地上互相賽跑。",
-          "與……比速度"
+          "跟另一個人／隊伍直接比較速度"
         ]
       ],
-      "options": [
-        "race-03",
-        "race-04",
-        "race-05",
-        "race-06",
-        "race-07",
-        "race-08"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-04",
-      "title": "飛奔；急速趕往",
-      "form": "race to + place（迅速奔向）",
-      "en": "To move somewhere very quickly.",
-      "zh": "飛奔；急速趕往",
-      "note": "留意語境：race to + place（迅速奔向）。這裡指「飛奔；急速趕往」。",
+      "id": "race-mcq-04",
+      "title": "以非常快的速度奔向／趕往某個地方",
+      "form": "race to + place",
+      "en": "race to + place",
+      "zh": "以非常快的速度奔向／趕往某個地方",
+      "note": "來源詞義：以非常快的速度奔向／趕往某個地方",
       "examples": [
         [
           "She raced to the station when she realized she was late.",
           "她發現自己遲到後，便飛奔到車站。",
-          "飛奔；急速趕往"
+          "以非常快的速度奔向／趕往某個地方"
         ],
         [
           "He raced across the room to answer the phone.",
           "他急步／飛快跑過房間去接電話。",
-          "飛奔；急速趕往"
-        ]
-      ],
-      "options": [
-        "race-04",
-        "race-05",
-        "race-06",
-        "race-07",
-        "race-08",
-        "race-09"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "race-05",
-      "title": "飛快離開；趕回",
-      "form": "race away/off/home（急速離開／趕回去）",
-      "en": "race away/off/home（急速離開／趕回去）",
-      "zh": "飛快離開；趕回",
-      "note": "留意語境：race away/off/home（急速離開／趕回去）。這裡指「飛快離開；趕回」。",
-      "examples": [
+          "以非常快的速度奔向／趕往某個地方"
+        ],
         [
           "He raced home after work.",
           "他下班後飛快趕回家。",
-          "飛快離開；趕回"
+          "以非常快的速度奔向／趕往某個地方"
         ],
         [
           "The car raced away from the scene.",
           "汽車從現場高速駛離。",
-          "飛快離開；趕回"
+          "以非常快的速度奔向／趕往某個地方"
         ]
       ],
-      "options": [
-        "race-05",
-        "race-06",
-        "race-07",
-        "race-08",
-        "race-09",
-        "race-10"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-06",
-      "title": "心跳非常快",
-      "form": "heart races（心跳加速）",
-      "en": "heart races（心跳加速）",
-      "zh": "心跳非常快",
-      "note": "留意語境：heart races（心跳加速）。這裡指「心跳非常快」。",
+      "id": "race-mcq-05",
+      "title": "心臟因緊張、恐懼、興奮或運動而快速跳動",
+      "form": "heart races",
+      "en": "heart races",
+      "zh": "心臟因緊張、恐懼、興奮或運動而快速跳動",
+      "note": "來源詞義：心臟因緊張、恐懼、興奮或運動而快速跳動",
       "examples": [
         [
           "My heart would race.",
           "我會心跳加速。",
-          "心跳非常快"
+          "心臟因緊張、恐懼、興奮或運動而快速跳動"
         ],
         [
           "Her heart raced when she heard her name.",
           "她聽到自己的名字時，心跳突然加快。",
-          "心跳非常快"
+          "心臟因緊張、恐懼、興奮或運動而快速跳動"
         ],
         [
           "My heart was racing before I went on stage.",
           "我上台前心跳得非常快。",
-          "心跳非常快"
+          "心臟因緊張、恐懼、興奮或運動而快速跳動"
         ]
       ],
-      "options": [
-        "race-06",
-        "race-07",
-        "race-08",
-        "race-09",
-        "race-10",
-        "race-11"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-07",
-      "title": "思緒飛轉；腦中想法不停湧現",
-      "form": "mind/thoughts race（思緒飛快運轉）",
-      "en": "mind/thoughts race（思緒飛快運轉）",
-      "zh": "思緒飛轉；腦中想法不停湧現",
-      "note": "留意語境：mind/thoughts race（思緒飛快運轉）。這裡指「思緒飛轉；腦中想法不停湧現」。",
+      "id": "race-mcq-06",
+      "title": "很多想法在短時間內快速出現，使思緒停不下來",
+      "form": "mind/thoughts race",
+      "en": "mind/thoughts race",
+      "zh": "很多想法在短時間內快速出現，使思緒停不下來",
+      "note": "來源詞義：很多想法在短時間內快速出現，使思緒停不下來",
       "examples": [
         [
           "My mind was racing before the presentation.",
           "簡報前，我的腦中思緒飛快轉動／想個不停。",
-          "思緒飛轉；腦中想法不停湧現"
+          "很多想法在短時間內快速出現，使思緒停不下來"
         ],
         [
           "Her thoughts raced as she tried to decide what to do.",
           "她試圖決定該怎麼做時，腦中思緒飛快掠過。",
-          "思緒飛轉；腦中想法不停湧現"
+          "很多想法在短時間內快速出現，使思緒停不下來"
         ]
       ],
-      "options": [
-        "race-07",
-        "race-08",
-        "race-09",
-        "race-10",
-        "race-11",
-        "race-12"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-08",
-      "title": "脈搏加快",
-      "form": "pulse races（脈搏加速）",
-      "en": "pulse races（脈搏加速）",
-      "zh": "脈搏加快",
-      "note": "留意語境：pulse races（脈搏加速）。這裡指「脈搏加快」。",
+      "id": "race-mcq-07",
+      "title": "脈搏快速跳動",
+      "form": "pulse races",
+      "en": "pulse races",
+      "zh": "脈搏快速跳動",
+      "note": "來源詞義：脈搏快速跳動",
       "examples": [
         [
           "His pulse raced after the sudden shock.",
           "受到突然驚嚇後，他的脈搏加快。",
-          "脈搏加快"
+          "脈搏快速跳動"
         ],
         [
           "Her pulse was racing.",
           "她的脈搏跳得很快。",
-          "脈搏加快"
+          "脈搏快速跳動"
         ]
       ],
-      "options": [
-        "race-08",
-        "race-09",
-        "race-10",
-        "race-11",
-        "race-12",
-        "race-13"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-09",
-      "title": "爭分奪秒；趕時間",
-      "form": "race against time（與時間競賽）",
-      "en": "To try to complete something before a deadline or before it becomes too late.",
-      "zh": "爭分奪秒；趕時間",
-      "note": "留意語境：race against time（與時間競賽）。這裡指「爭分奪秒；趕時間」。",
+      "id": "race-mcq-08",
+      "title": "因時間非常有限而必須爭分奪秒完成某件事",
+      "form": "race against time",
+      "en": "race against time",
+      "zh": "因時間非常有限而必須爭分奪秒完成某件事",
+      "note": "來源詞義：因時間非常有限而必須爭分奪秒完成某件事",
       "examples": [
         [
           "We were racing against time to finish the slides.",
           "我們為了完成投影片而爭分奪秒。",
-          "爭分奪秒；趕時間"
+          "因時間非常有限而必須爭分奪秒完成某件事"
         ],
         [
           "Doctors were racing against time to save him.",
           "醫生正在跟時間競賽／爭分奪秒搶救他。",
-          "爭分奪秒；趕時間"
+          "因時間非常有限而必須爭分奪秒完成某件事"
         ]
       ],
-      "options": [
-        "race-09",
-        "race-10",
-        "race-11",
-        "race-12",
-        "race-13",
-        "race-14"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-10",
-      "title": "爭相；搶著",
-      "form": "race to do something（爭先恐後做……）",
-      "en": "race to do something（爭先恐後做……）",
-      "zh": "爭相；搶著",
-      "note": "留意語境：race to do something（爭先恐後做……）。這裡指「爭相；搶著」。",
+      "id": "race-mcq-09",
+      "title": "多方快速行動，希望比別人更早完成或取得某事",
+      "form": "race to do something",
+      "en": "race to do something",
+      "zh": "多方快速行動，希望比別人更早完成或取得某事",
+      "note": "來源詞義：多方快速行動，希望比別人更早完成或取得某事",
       "examples": [
         [
           "Companies are racing to develop better technology.",
           "各家公司都在爭相開發更好的科技。",
-          "爭相；搶著"
+          "多方快速行動，希望比別人更早完成或取得某事"
         ],
         [
           "Investors raced to buy the shares.",
           "投資者爭相買入股份。",
-          "爭相；搶著"
+          "多方快速行動，希望比別人更早完成或取得某事"
         ]
       ],
-      "options": [
-        "race-10",
-        "race-11",
-        "race-12",
-        "race-13",
-        "race-14",
-        "race-15"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-11",
-      "title": "競逐；爭奪",
-      "form": "race for + position/prize（爭奪）",
-      "en": "race for + position/prize（爭奪）",
-      "zh": "競逐；爭奪",
-      "note": "留意語境：race for + position/prize（爭奪）。這裡指「競逐；爭奪」。",
+      "id": "race-mcq-10",
+      "title": "多個人／團體競爭取得同一職位、獎項或結果",
+      "form": "race for something",
+      "en": "race for something",
+      "zh": "多個人／團體競爭取得同一職位、獎項或結果",
+      "note": "來源詞義：多個人／團體競爭取得同一職位、獎項或結果",
       "examples": [
         [
           "Several candidates are in the race for the top job.",
           "幾名候選人正在爭奪最高職位。",
-          "競逐；爭奪"
+          "多個人／團體競爭取得同一職位、獎項或結果"
         ],
         [
           "The team is still in the race for the title.",
           "這支隊伍仍然有機會爭奪冠軍。",
-          "競逐；爭奪"
+          "多個人／團體競爭取得同一職位、獎項或結果"
         ]
       ],
-      "options": [
-        "race-11",
-        "race-12",
-        "race-13",
-        "race-14",
-        "race-15",
-        "race-16"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-12",
-      "title": "競爭；競逐",
-      "form": "race = competitive struggle（競爭）",
-      "en": "race = competitive struggle（競爭）",
-      "zh": "競爭；競逐",
-      "note": "留意語境：race = competitive struggle（競爭）。這裡指「競爭；競逐」。",
+      "id": "race-mcq-11",
+      "title": "多方為領先或首先達成目標而展開的競爭",
+      "form": "race — competitive struggle",
+      "en": "race — competitive struggle",
+      "zh": "多方為領先或首先達成目標而展開的競爭",
+      "note": "來源詞義：多方為領先或首先達成目標而展開的競爭",
       "examples": [
         [
           "The two companies are locked in a technology race.",
           "兩家公司正在進行激烈的科技競爭。",
-          "競爭；競逐"
+          "多方為領先或首先達成目標而展開的競爭"
         ],
         [
           "The country entered the global AI race.",
           "該國加入了全球人工智能競賽／競爭。",
-          "競爭；競逐"
+          "多方為領先或首先達成目標而展開的競爭"
         ]
       ],
-      "options": [
-        "race-12",
-        "race-13",
-        "race-14",
-        "race-15",
-        "race-16",
-        "race-17"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-13",
-      "title": "軍備競賽",
-      "form": "arms race（軍備競賽）",
-      "en": "arms race（軍備競賽）",
-      "zh": "軍備競賽",
-      "note": "留意語境：arms race（軍備競賽）。這裡指「軍備競賽」。",
+      "id": "race-mcq-12",
+      "title": "多方不斷增加軍事能力／武器以免被對方超越的競賽",
+      "form": "arms race",
+      "en": "arms race",
+      "zh": "多方不斷增加軍事能力／武器以免被對方超越的競賽",
+      "note": "來源詞義：多方不斷增加軍事能力／武器以免被對方超越的競賽",
       "examples": [
         [
           "The two countries entered an arms race.",
           "兩國進入了軍備競賽。",
-          "軍備競賽"
+          "多方不斷增加軍事能力／武器以免被對方超越的競賽"
         ],
         [
           "Experts warned of a new technological arms race.",
           "專家警告可能出現新的科技軍備競賽式競爭。",
-          "軍備競賽"
+          "多方不斷增加軍事能力／武器以免被對方超越的競賽"
         ]
       ],
-      "options": [
-        "race-13",
-        "race-14",
-        "race-15",
-        "race-16",
-        "race-17",
-        "race-18"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-14",
-      "title": "太空競賽",
-      "form": "space race（太空競賽）",
-      "en": "space race（太空競賽）",
-      "zh": "太空競賽",
-      "note": "留意語境：space race（太空競賽）。這裡指「太空競賽」。",
+      "id": "race-mcq-13",
+      "title": "不同國家／組織競爭取得太空科技／探索成果",
+      "form": "space race",
+      "en": "space race",
+      "zh": "不同國家／組織競爭取得太空科技／探索成果",
+      "note": "來源詞義：不同國家／組織競爭取得太空科技／探索成果",
       "examples": [
         [
           "The space race accelerated scientific research.",
           "太空競賽加速了科學研究。",
-          "太空競賽"
+          "不同國家／組織競爭取得太空科技／探索成果"
         ],
         [
           "Several countries are participating in a new space race.",
           "多個國家正在參與新的太空競賽。",
-          "太空競賽"
+          "不同國家／組織競爭取得太空科技／探索成果"
         ]
       ],
-      "options": [
-        "race-14",
-        "race-15",
-        "race-16",
-        "race-17",
-        "race-18",
-        "race-19"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-15",
-      "title": "選舉競逐",
-      "form": "race = election contest（選舉競爭）",
-      "en": "race = election contest（選舉競爭）",
-      "zh": "選舉競逐",
-      "note": "留意語境：race = election contest（選舉競爭）。這裡指「選舉競逐」。",
+      "id": "race-mcq-14",
+      "title": "多名候選人競爭取得同一選舉職位的競逐",
+      "form": "race — election contest",
+      "en": "race — election contest",
+      "zh": "多名候選人競爭取得同一選舉職位的競逐",
+      "note": "來源詞義：多名候選人競爭取得同一選舉職位的競逐",
       "examples": [
         [
           "Three candidates entered the race.",
           "三名候選人加入了這場選舉競逐。",
-          "選舉競逐"
+          "多名候選人競爭取得同一選舉職位的競逐"
         ],
         [
           "She withdrew from the race.",
           "她退出了這場競選。",
-          "選舉競逐"
+          "多名候選人競爭取得同一選舉職位的競逐"
         ]
       ],
-      "options": [
-        "race-15",
-        "race-16",
-        "race-17",
-        "race-18",
-        "race-19",
-        "race-20"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-16",
-      "title": "賽車／賽馬／競速運動",
-      "form": "racing = the sport/activity of racing（競速運動）",
-      "en": "racing = the sport/activity of racing（競速運動）",
-      "zh": "賽車／賽馬／競速運動",
-      "note": "留意語境：racing = the sport/activity of racing（競速運動）。這裡指「賽車／賽馬／競速運動」。",
+      "id": "race-mcq-15",
+      "title": "以速度競賽為核心的運動／活動",
+      "form": "racing",
+      "en": "racing",
+      "zh": "以速度競賽為核心的運動／活動",
+      "note": "來源詞義：以速度競賽為核心的運動／活動",
       "examples": [
         [
           "He has always been interested in motor racing.",
           "他一直對賽車運動很有興趣。",
-          "賽車／賽馬／競速運動"
+          "以速度競賽為核心的運動／活動"
         ],
         [
           "Horse racing is popular in many countries.",
           "賽馬在很多國家都很受歡迎。",
-          "賽車／賽馬／競速運動"
-        ]
-      ],
-      "options": [
-        "race-16",
-        "race-17",
-        "race-18",
-        "race-19",
-        "race-20",
-        "race-21"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "race-17",
-      "title": "賽車用的；競速用的",
-      "form": "racing car/bike（賽車／競賽車輛）",
-      "en": "racing car/bike（賽車／競賽車輛）",
-      "zh": "賽車用的；競速用的",
-      "note": "留意語境：racing car/bike（賽車／競賽車輛）。這裡指「賽車用的；競速用的」。",
-      "examples": [
+          "以速度競賽為核心的運動／活動"
+        ],
         [
           "He drives a professional racing car.",
           "他駕駛一輛專業賽車。",
-          "賽車用的；競速用的"
+          "以速度競賽為核心的運動／活動"
         ],
         [
           "The bike was designed for racing.",
           "這輛單車是為競速比賽而設計的。",
-          "賽車用的；競速用的"
+          "以速度競賽為核心的運動／活動"
         ]
       ],
-      "options": [
-        "race-17",
-        "race-18",
-        "race-19",
-        "race-20",
-        "race-21",
-        "race-22"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-18",
-      "title": "競速選手；賽車手",
-      "form": "racer = person/animal/vehicle that races（參賽者／賽車手）",
-      "en": "racer = person/animal/vehicle that races（參賽者／賽車手）",
-      "zh": "競速選手；賽車手",
-      "note": "留意語境：racer = person/animal/vehicle that races（參賽者／賽車手）。這裡指「競速選手；賽車手」。",
+      "id": "race-mcq-16",
+      "title": "參與競速比賽的人、動物或車輛",
+      "form": "racer",
+      "en": "racer",
+      "zh": "參與競速比賽的人、動物或車輛",
+      "note": "來源詞義：參與競速比賽的人、動物或車輛",
       "examples": [
         [
           "She is a professional racer.",
           "她是一名專業賽車手／競速選手。",
-          "競速選手；賽車手"
+          "參與競速比賽的人、動物或車輛"
         ],
         [
           "The young racer won his first championship.",
           "這名年輕賽車手贏得首個冠軍。",
-          "競速選手；賽車手"
+          "參與競速比賽的人、動物或車輛"
         ]
       ],
-      "options": [
-        "race-18",
-        "race-19",
-        "race-20",
-        "race-21",
-        "race-22",
-        "race-23"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-19",
-      "title": "賽馬場；競賽場地",
-      "form": "racecourse（賽馬場／賽道）",
-      "en": "racecourse（賽馬場／賽道）",
-      "zh": "賽馬場；競賽場地",
-      "note": "留意語境：racecourse（賽馬場／賽道）。這裡指「賽馬場；競賽場地」。",
+      "id": "race-mcq-17",
+      "title": "特別為賽馬／競速活動而設的場地或路線",
+      "form": "racecourse",
+      "en": "racecourse",
+      "zh": "特別為賽馬／競速活動而設的場地或路線",
+      "note": "來源詞義：特別為賽馬／競速活動而設的場地或路線",
       "examples": [
         [
           "Thousands of spectators went to the racecourse.",
           "數千名觀眾前往賽馬場。",
-          "賽馬場；競賽場地"
+          "特別為賽馬／競速活動而設的場地或路線"
         ],
         [
           "The racecourse was wet after heavy rain.",
           "大雨後賽道／賽馬場跑道很濕。",
-          "賽馬場；競賽場地"
+          "特別為賽馬／競速活動而設的場地或路線"
         ]
       ],
-      "options": [
-        "race-19",
-        "race-20",
-        "race-21",
-        "race-22",
-        "race-23",
-        "race-24"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-20",
-      "title": "賽車道；競速跑道",
-      "form": "racetrack（賽道）",
-      "en": "racetrack（賽道）",
-      "zh": "賽車道；競速跑道",
-      "note": "留意語境：racetrack（賽道）。這裡指「賽車道；競速跑道」。",
+      "id": "race-mcq-18",
+      "title": "為車輛、跑步或其他速度競賽設計的賽道",
+      "form": "racetrack",
+      "en": "racetrack",
+      "zh": "為車輛、跑步或其他速度競賽設計的賽道",
+      "note": "來源詞義：為車輛、跑步或其他速度競賽設計的賽道",
       "examples": [
         [
           "The cars returned to the racetrack.",
           "賽車返回賽道。",
-          "賽車道；競速跑道"
+          "為車輛、跑步或其他速度競賽設計的賽道"
         ],
         [
           "The racetrack has several sharp corners.",
           "這條賽道有幾個急彎。",
-          "賽車道；競速跑道"
+          "為車輛、跑步或其他速度競賽設計的賽道"
         ]
       ],
-      "options": [
-        "race-20",
-        "race-21",
-        "race-22",
-        "race-23",
-        "race-24",
-        "race-25"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-21",
-      "title": "種族；人種",
-      "form": "race = group of humans traditionally classified by shared ancestry/physical traits（族群分類）",
-      "en": "A broad social/historical classification of people based on perceived ancestry and",
-      "zh": "種族；人種",
-      "note": "留意語境：race = group of humans traditionally classified by shared ancestry/physical traits（族群分類）。這裡指「種族；人種」。",
+      "id": "race-mcq-19",
+      "title": "社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念",
+      "form": "race — social category",
+      "en": "race — social category",
+      "zh": "社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念",
+      "note": "來源詞義：社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念",
       "examples": [
         [
           "The form asks for information about race and ethnicity.",
           "表格要求填寫有關種族及族裔的資料。",
-          "種族；人種"
+          "社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念"
         ],
         [
           "The study examined differences in reported experiences across racial groups.",
           "這項研究分析不同種族群體所報告經歷的差異。",
-          "種族；人種"
+          "社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念"
         ]
       ],
-      "options": [
-        "race-21",
-        "race-22",
-        "race-23",
-        "race-24",
-        "race-25",
-        "race-26"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-22",
-      "title": "種族的；與種族有關的",
-      "form": "racial（種族相關的）",
-      "en": "racial（種族相關的）",
-      "zh": "種族的；與種族有關的",
-      "note": "留意語境：racial（種族相關的）。這裡指「種族的；與種族有關的」。",
+      "id": "race-mcq-20",
+      "title": "與種族分類、身份或不同種族群體關係有關的",
+      "form": "racial",
+      "en": "racial",
+      "zh": "與種族分類、身份或不同種族群體關係有關的",
+      "note": "來源詞義：與種族分類、身份或不同種族群體關係有關的",
       "examples": [
         [
           "The organization provides training on racial equality.",
           "該機構提供有關種族平等的培訓。",
-          "種族的；與種族有關的"
+          "與種族分類、身份或不同種族群體關係有關的"
         ],
         [
           "The report discusses racial discrimination.",
           "報告討論種族歧視問題。",
-          "種族的；與種族有關的"
-        ]
-      ],
-      "options": [
-        "race-22",
-        "race-23",
-        "race-24",
-        "race-25",
-        "race-26",
-        "race-27"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "race-23",
-      "title": "種族主義；種族歧視",
-      "form": "racism（種族歧視／種族主義）",
-      "en": "racism（種族歧視／種族主義）",
-      "zh": "種族主義；種族歧視",
-      "note": "留意語境：racism（種族歧視／種族主義）。這裡指「種族主義；種族歧視」。",
-      "examples": [
+          "與種族分類、身份或不同種族群體關係有關的"
+        ],
         [
           "The campaign aims to challenge racism.",
           "這項運動旨在反對種族主義／種族歧視。",
-          "種族主義；種族歧視"
+          "與種族分類、身份或不同種族群體關係有關的"
         ],
         [
           "The company has policies against racism.",
           "公司有反對種族歧視的政策。",
-          "種族主義；種族歧視"
+          "與種族分類、身份或不同種族群體關係有關的"
         ]
       ],
-      "options": [
-        "race-23",
-        "race-24",
-        "race-25",
-        "race-26",
-        "race-27",
-        "race-28"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-24",
-      "title": "人類；全人類",
-      "form": "human race（全人類）",
-      "en": "human race（全人類）",
-      "zh": "人類；全人類",
-      "note": "留意語境：human race（全人類）。這裡指「人類；全人類」。",
+      "id": "race-mcq-21",
+      "title": "全體人類作為一個整體／物種",
+      "form": "human race",
+      "en": "human race",
+      "zh": "全體人類作為一個整體／物種",
+      "note": "來源詞義：全體人類作為一個整體／物種",
       "examples": [
         [
           "Climate change affects the entire human race.",
           "氣候變化影響全人類。",
-          "人類；全人類"
+          "全體人類作為一個整體／物種"
         ],
         [
           "The discovery could benefit the human race.",
           "這項發現可能令整個人類受益。",
-          "人類；全人類"
+          "全體人類作為一個整體／物種"
         ]
       ],
-      "options": [
-        "race-24",
-        "race-25",
-        "race-26",
-        "race-27",
-        "race-28",
-        "race-01"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-25",
-      "title": "品系；種類",
-      "form": "race = breed/lineage of animals（品種／血統；較舊／專門）",
-      "en": "race = breed/lineage of animals（品種／血統；較舊／專門）",
-      "zh": "品系；種類",
-      "note": "留意語境：race = breed/lineage of animals（品種／血統；較舊／專門）。這裡指「品系；種類」。",
+      "id": "race-mcq-22",
+      "title": "以非常快的速度完成、閱讀或處理某件事",
+      "form": "race through something",
+      "en": "race through something",
+      "zh": "以非常快的速度完成、閱讀或處理某件事",
+      "note": "來源詞義：以非常快的速度完成、閱讀或處理某件事",
       "examples": [
         [
           "The text refers to an ancient race of horses.",
           "文章提到一種古老的馬匹品系。",
-          "品系；種類"
+          "以非常快的速度完成、閱讀或處理某件事"
         ],
         [
           "The species developed into several distinct local races.",
           "這個物種發展出幾個不同的地方類群／品系。",
-          "品系；種類"
-        ]
-      ],
-      "options": [
-        "race-25",
-        "race-26",
-        "race-27",
-        "race-28",
-        "race-01",
-        "race-02"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "race-26",
-      "title": "快速做完；飛快讀完",
-      "form": "race through + work/book/task（飛快完成／閱讀）",
-      "en": "race through + work/book/task（飛快完成／閱讀）",
-      "zh": "快速做完；飛快讀完",
-      "note": "留意語境：race through + work/book/task（飛快完成／閱讀）。這裡指「快速做完；飛快讀完」。",
-      "examples": [
+          "以非常快的速度完成、閱讀或處理某件事"
+        ],
         [
           "She raced through the final slides.",
           "她飛快地講完／略過最後幾張投影片。",
-          "快速做完；飛快讀完"
+          "以非常快的速度完成、閱讀或處理某件事"
         ],
         [
           "I raced through the report before the meeting.",
           "我在會議前快速看完了報告。",
-          "快速做完；飛快讀完"
+          "以非常快的速度完成、閱讀或處理某件事"
         ]
       ],
-      "options": [
-        "race-26",
-        "race-27",
-        "race-28",
-        "race-01",
-        "race-02",
-        "race-03"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-27",
-      "title": "快速領先；迅速向前",
-      "form": "race ahead（迅速領先／快速發展）",
-      "en": "race ahead（迅速領先／快速發展）",
-      "zh": "快速領先；迅速向前",
-      "note": "留意語境：race ahead（迅速領先／快速發展）。這裡指「快速領先；迅速向前」。",
+      "id": "race-mcq-23",
+      "title": "非常快速地前進、發展或取得領先",
+      "form": "race ahead",
+      "en": "race ahead",
+      "zh": "非常快速地前進、發展或取得領先",
+      "note": "來源詞義：非常快速地前進、發展或取得領先",
       "examples": [
         [
           "The company raced ahead of its competitors.",
           "公司迅速領先競爭對手。",
-          "快速領先；迅速向前"
+          "非常快速地前進、發展或取得領先"
         ],
         [
           "Technology is racing ahead.",
           "科技正在飛速發展。",
-          "快速領先；迅速向前"
+          "非常快速地前進、發展或取得領先"
         ]
       ],
-      "options": [
-        "race-27",
-        "race-28",
-        "race-01",
-        "race-02",
-        "race-03",
-        "race-04"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "race-28",
-      "title": "匆匆趕來趕去",
-      "form": "race from one thing/place to another（匆忙奔波）",
-      "en": "race from one thing/place to another（匆忙奔波）",
-      "zh": "匆匆趕來趕去",
-      "note": "留意語境：race from one thing/place to another（匆忙奔波）。這裡指「匆匆趕來趕去」。",
+      "id": "race-mcq-24",
+      "title": "因時間緊迫而在不同地方／工作之間快速奔波",
+      "form": "race from X to Y",
+      "en": "race from X to Y",
+      "zh": "因時間緊迫而在不同地方／工作之間快速奔波",
+      "note": "來源詞義：因時間緊迫而在不同地方／工作之間快速奔波",
       "examples": [
         [
           "She spent the morning racing from one meeting to another.",
           "她整個早上都在不同會議之間匆忙趕來趕去。",
-          "匆匆趕來趕去"
+          "因時間緊迫而在不同地方／工作之間快速奔波"
         ],
         [
           "I was racing from task to task all day.",
           "我整天都在不同工作之間忙著趕來趕去。",
-          "匆匆趕來趕去"
+          "因時間緊迫而在不同地方／工作之間快速奔波"
         ]
       ],
-      "options": [
-        "race-28",
-        "race-01",
-        "race-02",
-        "race-03",
-        "race-04",
-        "race-05"
-      ],
+      "options": [],
       "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "race-01-0",
-      "sense": "race-01",
+      "sense": "race-mcq-01",
       "en": "She won the 100-metre race.",
       "zh": "她贏得了一百米賽跑。",
       "masked": "She won the 100-metre ____.",
       "options": [
-        "race-01",
-        "race-02",
-        "race-03",
-        "race-04",
-        "race-05",
-        "race-06"
+        "race-mcq-01",
+        "race-mcq-02",
+        "race-mcq-03",
+        "race-mcq-04",
+        "race-mcq-05",
+        "race-mcq-06"
       ],
-      "explanation": "留意語境：race = speed competition（競速比賽）。這裡指「賽跑；競賽；速度比賽」。",
+      "explanation": "本句的「race」指「參賽者比較速度，看誰最先到達終點的比賽」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "race"
       ],
       "optionReasons": {
-        "race-01": "本句的意思是「賽跑；競賽；速度比賽」。",
-        "race-02": "「賽跑；競賽」與本句語境不同。",
-        "race-03": "「與……比速度」與本句語境不同。",
-        "race-04": "「飛奔；急速趕往」與本句語境不同。",
-        "race-05": "「飛快離開；趕回」與本句語境不同。",
-        "race-06": "「心跳非常快」與本句語境不同。"
-      }
+        "race-mcq-01": "本句指「參賽者比較速度，看誰最先到達終點的比賽」。",
+        "race-mcq-02": "「在速度比賽中跟其他人競爭」是「race — compete」的用法，與本句語境不同。",
+        "race-mcq-03": "「跟另一個人／隊伍直接比較速度」是「race against someone」的用法，與本句語境不同。",
+        "race-mcq-04": "「以非常快的速度奔向／趕往某個地方」是「race to + place」的用法，與本句語境不同。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-01"
     },
     {
       "id": "race-01-1",
-      "sense": "race-01",
+      "sense": "race-mcq-01",
       "en": "The car race attracted thousands of spectators.",
       "zh": "這場汽車競速賽吸引了數千名觀眾。",
       "masked": "The car ____ attracted thousands of spectators.",
       "options": [
-        "race-01",
-        "race-02",
-        "race-03",
-        "race-04",
-        "race-05",
-        "race-06"
+        "race-mcq-01",
+        "race-mcq-02",
+        "race-mcq-03",
+        "race-mcq-04",
+        "race-mcq-05",
+        "race-mcq-06"
       ],
-      "explanation": "留意語境：race = speed competition（競速比賽）。這裡指「賽跑；競賽；速度比賽」。",
+      "explanation": "本句的「race」指「參賽者比較速度，看誰最先到達終點的比賽」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "race"
       ],
       "optionReasons": {
-        "race-01": "本句的意思是「賽跑；競賽；速度比賽」。",
-        "race-02": "「賽跑；競賽」與本句語境不同。",
-        "race-03": "「與……比速度」與本句語境不同。",
-        "race-04": "「飛奔；急速趕往」與本句語境不同。",
-        "race-05": "「飛快離開；趕回」與本句語境不同。",
-        "race-06": "「心跳非常快」與本句語境不同。"
-      }
+        "race-mcq-01": "本句指「參賽者比較速度，看誰最先到達終點的比賽」。",
+        "race-mcq-02": "「在速度比賽中跟其他人競爭」是「race — compete」的用法，與本句語境不同。",
+        "race-mcq-03": "「跟另一個人／隊伍直接比較速度」是「race against someone」的用法，與本句語境不同。",
+        "race-mcq-04": "「以非常快的速度奔向／趕往某個地方」是「race to + place」的用法，與本句語境不同。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-01"
     },
     {
       "id": "race-02-0",
-      "sense": "race-02",
+      "sense": "race-mcq-02",
       "en": "They raced each other to the finish line.",
       "zh": "他們互相賽跑到終點。",
       "masked": "They ____ each other to the finish line.",
       "options": [
-        "race-02",
-        "race-03",
-        "race-04",
-        "race-05",
-        "race-06",
-        "race-07"
+        "race-mcq-02",
+        "race-mcq-01",
+        "race-mcq-03",
+        "race-mcq-04",
+        "race-mcq-05",
+        "race-mcq-06"
       ],
-      "explanation": "留意語境：race = compete in a race（參加競速比賽）。這裡指「賽跑；競賽」。",
+      "explanation": "本句的「raced」指「在速度比賽中跟其他人競爭」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "raced"
       ],
       "optionReasons": {
-        "race-02": "本句的意思是「賽跑；競賽」。",
-        "race-03": "「與……比速度」與本句語境不同。",
-        "race-04": "「飛奔；急速趕往」與本句語境不同。",
-        "race-05": "「飛快離開；趕回」與本句語境不同。",
-        "race-06": "「心跳非常快」與本句語境不同。",
-        "race-07": "「思緒飛轉；腦中想法不停湧現」與本句語境不同。"
-      }
+        "race-mcq-02": "本句指「在速度比賽中跟其他人競爭」。",
+        "race-mcq-01": "「參賽者比較速度，看誰最先到達終點的比賽」是「race — speed competition」的用法，與本句語境不同。",
+        "race-mcq-03": "「跟另一個人／隊伍直接比較速度」是「race against someone」的用法，與本句語境不同。",
+        "race-mcq-04": "「以非常快的速度奔向／趕往某個地方」是「race to + place」的用法，與本句語境不同。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-02"
     },
     {
       "id": "race-02-1",
-      "sense": "race-02",
+      "sense": "race-mcq-02",
       "en": "She races professionally.",
       "zh": "她以專業身份參加競速比賽。",
       "masked": "She ____ professionally.",
       "options": [
-        "race-02",
-        "race-03",
-        "race-04",
-        "race-05",
-        "race-06",
-        "race-07"
+        "race-mcq-02",
+        "race-mcq-01",
+        "race-mcq-03",
+        "race-mcq-04",
+        "race-mcq-05",
+        "race-mcq-06"
       ],
-      "explanation": "留意語境：race = compete in a race（參加競速比賽）。這裡指「賽跑；競賽」。",
+      "explanation": "本句的「races」指「在速度比賽中跟其他人競爭」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "races"
       ],
       "optionReasons": {
-        "race-02": "本句的意思是「賽跑；競賽」。",
-        "race-03": "「與……比速度」與本句語境不同。",
-        "race-04": "「飛奔；急速趕往」與本句語境不同。",
-        "race-05": "「飛快離開；趕回」與本句語境不同。",
-        "race-06": "「心跳非常快」與本句語境不同。",
-        "race-07": "「思緒飛轉；腦中想法不停湧現」與本句語境不同。"
-      }
+        "race-mcq-02": "本句指「在速度比賽中跟其他人競爭」。",
+        "race-mcq-01": "「參賽者比較速度，看誰最先到達終點的比賽」是「race — speed competition」的用法，與本句語境不同。",
+        "race-mcq-03": "「跟另一個人／隊伍直接比較速度」是「race against someone」的用法，與本句語境不同。",
+        "race-mcq-04": "「以非常快的速度奔向／趕往某個地方」是「race to + place」的用法，與本句語境不同。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-02"
     },
     {
       "id": "race-03-0",
-      "sense": "race-03",
+      "sense": "race-mcq-03",
       "en": "He raced against the national champion.",
       "zh": "他跟全國冠軍比賽速度。",
       "masked": "He ____ the national champion.",
       "options": [
-        "race-03",
-        "race-04",
-        "race-05",
-        "race-06",
-        "race-07",
-        "race-08"
+        "race-mcq-03",
+        "race-mcq-02",
+        "race-mcq-04",
+        "race-mcq-01",
+        "race-mcq-05",
+        "race-mcq-06"
       ],
-      "explanation": "留意語境：race against + person/team（跟……競速）。這裡指「與……比速度」。",
+      "explanation": "本句的「raced against」指「跟另一個人／隊伍直接比較速度」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "raced against"
       ],
       "optionReasons": {
-        "race-03": "本句的意思是「與……比速度」。",
-        "race-04": "「飛奔；急速趕往」與本句語境不同。",
-        "race-05": "「飛快離開；趕回」與本句語境不同。",
-        "race-06": "「心跳非常快」與本句語境不同。",
-        "race-07": "「思緒飛轉；腦中想法不停湧現」與本句語境不同。",
-        "race-08": "「脈搏加快」與本句語境不同。"
-      }
+        "race-mcq-03": "本句指「跟另一個人／隊伍直接比較速度」。",
+        "race-mcq-02": "「在速度比賽中跟其他人競爭」是「race — compete」的用法，與本句語境不同。",
+        "race-mcq-04": "「以非常快的速度奔向／趕往某個地方」是「race to + place」的用法，與本句語境不同。",
+        "race-mcq-01": "「參賽者比較速度，看誰最先到達終點的比賽」是「race — speed competition」的用法，與本句語境不同。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-03"
     },
     {
       "id": "race-03-1",
-      "sense": "race-03",
+      "sense": "race-mcq-03",
       "en": "The children raced against each other across the field.",
       "zh": "孩子們在草地上互相賽跑。",
       "masked": "The children ____ each other across the field.",
       "options": [
-        "race-03",
-        "race-04",
-        "race-05",
-        "race-06",
-        "race-07",
-        "race-08"
+        "race-mcq-03",
+        "race-mcq-02",
+        "race-mcq-04",
+        "race-mcq-01",
+        "race-mcq-05",
+        "race-mcq-06"
       ],
-      "explanation": "留意語境：race against + person/team（跟……競速）。這裡指「與……比速度」。",
+      "explanation": "本句的「raced against」指「跟另一個人／隊伍直接比較速度」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "raced against"
       ],
       "optionReasons": {
-        "race-03": "本句的意思是「與……比速度」。",
-        "race-04": "「飛奔；急速趕往」與本句語境不同。",
-        "race-05": "「飛快離開；趕回」與本句語境不同。",
-        "race-06": "「心跳非常快」與本句語境不同。",
-        "race-07": "「思緒飛轉；腦中想法不停湧現」與本句語境不同。",
-        "race-08": "「脈搏加快」與本句語境不同。"
-      }
+        "race-mcq-03": "本句指「跟另一個人／隊伍直接比較速度」。",
+        "race-mcq-02": "「在速度比賽中跟其他人競爭」是「race — compete」的用法，與本句語境不同。",
+        "race-mcq-04": "「以非常快的速度奔向／趕往某個地方」是「race to + place」的用法，與本句語境不同。",
+        "race-mcq-01": "「參賽者比較速度，看誰最先到達終點的比賽」是「race — speed competition」的用法，與本句語境不同。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-03"
     },
     {
       "id": "race-04-0",
-      "sense": "race-04",
+      "sense": "race-mcq-04",
       "en": "She raced to the station when she realized she was late.",
       "zh": "她發現自己遲到後，便飛奔到車站。",
       "masked": "She ____ the station when she realized she was late.",
       "options": [
-        "race-04",
-        "race-05",
-        "race-06",
-        "race-07",
-        "race-08",
-        "race-09"
+        "race-mcq-04",
+        "race-mcq-03",
+        "race-mcq-05",
+        "race-mcq-02",
+        "race-mcq-06",
+        "race-mcq-01"
       ],
-      "explanation": "留意語境：race to + place（迅速奔向）。這裡指「飛奔；急速趕往」。",
+      "explanation": "本句的「raced to」指「以非常快的速度奔向／趕往某個地方」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "raced to"
       ],
       "optionReasons": {
-        "race-04": "本句的意思是「飛奔；急速趕往」。",
-        "race-05": "「飛快離開；趕回」與本句語境不同。",
-        "race-06": "「心跳非常快」與本句語境不同。",
-        "race-07": "「思緒飛轉；腦中想法不停湧現」與本句語境不同。",
-        "race-08": "「脈搏加快」與本句語境不同。",
-        "race-09": "「爭分奪秒；趕時間」與本句語境不同。"
-      }
+        "race-mcq-04": "本句指「以非常快的速度奔向／趕往某個地方」。",
+        "race-mcq-03": "「跟另一個人／隊伍直接比較速度」是「race against someone」的用法，與本句語境不同。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。",
+        "race-mcq-02": "「在速度比賽中跟其他人競爭」是「race — compete」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。",
+        "race-mcq-01": "「參賽者比較速度，看誰最先到達終點的比賽」是「race — speed competition」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-04"
     },
     {
       "id": "race-04-1",
-      "sense": "race-04",
+      "sense": "race-mcq-04",
       "en": "He raced across the room to answer the phone.",
       "zh": "他急步／飛快跑過房間去接電話。",
       "masked": "He ____ the room to answer the phone.",
       "options": [
-        "race-04",
-        "race-05",
-        "race-06",
-        "race-07",
-        "race-08",
-        "race-09"
+        "race-mcq-04",
+        "race-mcq-03",
+        "race-mcq-05",
+        "race-mcq-02",
+        "race-mcq-06",
+        "race-mcq-01"
       ],
-      "explanation": "留意語境：race to + place（迅速奔向）。這裡指「飛奔；急速趕往」。",
+      "explanation": "本句的「raced across」指「以非常快的速度奔向／趕往某個地方」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "raced across"
       ],
       "optionReasons": {
-        "race-04": "本句的意思是「飛奔；急速趕往」。",
-        "race-05": "「飛快離開；趕回」與本句語境不同。",
-        "race-06": "「心跳非常快」與本句語境不同。",
-        "race-07": "「思緒飛轉；腦中想法不停湧現」與本句語境不同。",
-        "race-08": "「脈搏加快」與本句語境不同。",
-        "race-09": "「爭分奪秒；趕時間」與本句語境不同。"
-      }
+        "race-mcq-04": "本句指「以非常快的速度奔向／趕往某個地方」。",
+        "race-mcq-03": "「跟另一個人／隊伍直接比較速度」是「race against someone」的用法，與本句語境不同。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。",
+        "race-mcq-02": "「在速度比賽中跟其他人競爭」是「race — compete」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。",
+        "race-mcq-01": "「參賽者比較速度，看誰最先到達終點的比賽」是「race — speed competition」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-04"
     },
     {
       "id": "race-05-0",
-      "sense": "race-05",
+      "sense": "race-mcq-04",
       "en": "He raced home after work.",
       "zh": "他下班後飛快趕回家。",
       "masked": "He ____ after work.",
       "options": [
-        "race-05",
-        "race-06",
-        "race-07",
-        "race-08",
-        "race-09",
-        "race-10"
+        "race-mcq-04",
+        "race-mcq-03",
+        "race-mcq-05",
+        "race-mcq-02",
+        "race-mcq-06",
+        "race-mcq-01"
       ],
-      "explanation": "留意語境：race away/off/home（急速離開／趕回去）。這裡指「飛快離開；趕回」。",
+      "explanation": "本句的「raced home」指「以非常快的速度奔向／趕往某個地方」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "raced home"
       ],
       "optionReasons": {
-        "race-05": "本句的意思是「飛快離開；趕回」。",
-        "race-06": "「心跳非常快」與本句語境不同。",
-        "race-07": "「思緒飛轉；腦中想法不停湧現」與本句語境不同。",
-        "race-08": "「脈搏加快」與本句語境不同。",
-        "race-09": "「爭分奪秒；趕時間」與本句語境不同。",
-        "race-10": "「爭相；搶著」與本句語境不同。"
-      }
+        "race-mcq-04": "本句指「以非常快的速度奔向／趕往某個地方」。",
+        "race-mcq-03": "「跟另一個人／隊伍直接比較速度」是「race against someone」的用法，與本句語境不同。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。",
+        "race-mcq-02": "「在速度比賽中跟其他人競爭」是「race — compete」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。",
+        "race-mcq-01": "「參賽者比較速度，看誰最先到達終點的比賽」是「race — speed competition」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-04"
     },
     {
       "id": "race-05-1",
-      "sense": "race-05",
+      "sense": "race-mcq-04",
       "en": "The car raced away from the scene.",
       "zh": "汽車從現場高速駛離。",
       "masked": "The car ____ from the scene.",
       "options": [
-        "race-05",
-        "race-06",
-        "race-07",
-        "race-08",
-        "race-09",
-        "race-10"
+        "race-mcq-04",
+        "race-mcq-03",
+        "race-mcq-05",
+        "race-mcq-02",
+        "race-mcq-06",
+        "race-mcq-01"
       ],
-      "explanation": "留意語境：race away/off/home（急速離開／趕回去）。這裡指「飛快離開；趕回」。",
+      "explanation": "本句的「raced away」指「以非常快的速度奔向／趕往某個地方」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "raced away"
       ],
       "optionReasons": {
-        "race-05": "本句的意思是「飛快離開；趕回」。",
-        "race-06": "「心跳非常快」與本句語境不同。",
-        "race-07": "「思緒飛轉；腦中想法不停湧現」與本句語境不同。",
-        "race-08": "「脈搏加快」與本句語境不同。",
-        "race-09": "「爭分奪秒；趕時間」與本句語境不同。",
-        "race-10": "「爭相；搶著」與本句語境不同。"
-      }
+        "race-mcq-04": "本句指「以非常快的速度奔向／趕往某個地方」。",
+        "race-mcq-03": "「跟另一個人／隊伍直接比較速度」是「race against someone」的用法，與本句語境不同。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。",
+        "race-mcq-02": "「在速度比賽中跟其他人競爭」是「race — compete」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。",
+        "race-mcq-01": "「參賽者比較速度，看誰最先到達終點的比賽」是「race — speed competition」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-04"
     },
     {
       "id": "race-06-0",
-      "sense": "race-06",
+      "sense": "race-mcq-05",
       "en": "My heart would race.",
       "zh": "我會心跳加速。",
       "masked": "My ____.",
       "options": [
-        "race-06",
-        "race-07",
-        "race-08",
-        "race-09",
-        "race-10",
-        "race-11"
+        "race-mcq-05",
+        "race-mcq-04",
+        "race-mcq-06",
+        "race-mcq-03",
+        "race-mcq-07",
+        "race-mcq-02"
       ],
-      "explanation": "留意語境：heart races（心跳加速）。這裡指「心跳非常快」。",
+      "explanation": "本句的「heart would race」指「心臟因緊張、恐懼、興奮或運動而快速跳動」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "heart would race"
       ],
       "optionReasons": {
-        "race-06": "本句的意思是「心跳非常快」。",
-        "race-07": "「思緒飛轉；腦中想法不停湧現」與本句語境不同。",
-        "race-08": "「脈搏加快」與本句語境不同。",
-        "race-09": "「爭分奪秒；趕時間」與本句語境不同。",
-        "race-10": "「爭相；搶著」與本句語境不同。",
-        "race-11": "「競逐；爭奪」與本句語境不同。"
-      }
+        "race-mcq-05": "本句指「心臟因緊張、恐懼、興奮或運動而快速跳動」。",
+        "race-mcq-04": "「以非常快的速度奔向／趕往某個地方」是「race to + place」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。",
+        "race-mcq-03": "「跟另一個人／隊伍直接比較速度」是「race against someone」的用法，與本句語境不同。",
+        "race-mcq-07": "「脈搏快速跳動」是「pulse races」的用法，與本句語境不同。",
+        "race-mcq-02": "「在速度比賽中跟其他人競爭」是「race — compete」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-05"
     },
     {
       "id": "race-06-1",
-      "sense": "race-06",
+      "sense": "race-mcq-05",
       "en": "Her heart raced when she heard her name.",
       "zh": "她聽到自己的名字時，心跳突然加快。",
       "masked": "Her ____ when she heard her name.",
       "options": [
-        "race-06",
-        "race-07",
-        "race-08",
-        "race-09",
-        "race-10",
-        "race-11"
+        "race-mcq-05",
+        "race-mcq-04",
+        "race-mcq-06",
+        "race-mcq-03",
+        "race-mcq-07",
+        "race-mcq-02"
       ],
-      "explanation": "留意語境：heart races（心跳加速）。這裡指「心跳非常快」。",
+      "explanation": "本句的「heart raced」指「心臟因緊張、恐懼、興奮或運動而快速跳動」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "heart raced"
       ],
       "optionReasons": {
-        "race-06": "本句的意思是「心跳非常快」。",
-        "race-07": "「思緒飛轉；腦中想法不停湧現」與本句語境不同。",
-        "race-08": "「脈搏加快」與本句語境不同。",
-        "race-09": "「爭分奪秒；趕時間」與本句語境不同。",
-        "race-10": "「爭相；搶著」與本句語境不同。",
-        "race-11": "「競逐；爭奪」與本句語境不同。"
-      }
+        "race-mcq-05": "本句指「心臟因緊張、恐懼、興奮或運動而快速跳動」。",
+        "race-mcq-04": "「以非常快的速度奔向／趕往某個地方」是「race to + place」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。",
+        "race-mcq-03": "「跟另一個人／隊伍直接比較速度」是「race against someone」的用法，與本句語境不同。",
+        "race-mcq-07": "「脈搏快速跳動」是「pulse races」的用法，與本句語境不同。",
+        "race-mcq-02": "「在速度比賽中跟其他人競爭」是「race — compete」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-05"
     },
     {
       "id": "race-06-2",
-      "sense": "race-06",
+      "sense": "race-mcq-05",
       "en": "My heart was racing before I went on stage.",
       "zh": "我上台前心跳得非常快。",
       "masked": "My ____ before I went on stage.",
       "options": [
-        "race-06",
-        "race-07",
-        "race-08",
-        "race-09",
-        "race-10",
-        "race-11"
+        "race-mcq-05",
+        "race-mcq-04",
+        "race-mcq-06",
+        "race-mcq-03",
+        "race-mcq-07",
+        "race-mcq-02"
       ],
-      "explanation": "留意語境：heart races（心跳加速）。這裡指「心跳非常快」。",
+      "explanation": "本句的「heart was racing」指「心臟因緊張、恐懼、興奮或運動而快速跳動」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "heart was racing"
       ],
       "optionReasons": {
-        "race-06": "本句的意思是「心跳非常快」。",
-        "race-07": "「思緒飛轉；腦中想法不停湧現」與本句語境不同。",
-        "race-08": "「脈搏加快」與本句語境不同。",
-        "race-09": "「爭分奪秒；趕時間」與本句語境不同。",
-        "race-10": "「爭相；搶著」與本句語境不同。",
-        "race-11": "「競逐；爭奪」與本句語境不同。"
-      }
+        "race-mcq-05": "本句指「心臟因緊張、恐懼、興奮或運動而快速跳動」。",
+        "race-mcq-04": "「以非常快的速度奔向／趕往某個地方」是「race to + place」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。",
+        "race-mcq-03": "「跟另一個人／隊伍直接比較速度」是「race against someone」的用法，與本句語境不同。",
+        "race-mcq-07": "「脈搏快速跳動」是「pulse races」的用法，與本句語境不同。",
+        "race-mcq-02": "「在速度比賽中跟其他人競爭」是「race — compete」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-05"
     },
     {
       "id": "race-07-0",
-      "sense": "race-07",
+      "sense": "race-mcq-06",
       "en": "My mind was racing before the presentation.",
       "zh": "簡報前，我的腦中思緒飛快轉動／想個不停。",
       "masked": "My ____ before the presentation.",
       "options": [
-        "race-07",
-        "race-08",
-        "race-09",
-        "race-10",
-        "race-11",
-        "race-12"
+        "race-mcq-06",
+        "race-mcq-05",
+        "race-mcq-07",
+        "race-mcq-04",
+        "race-mcq-08",
+        "race-mcq-03"
       ],
-      "explanation": "留意語境：mind/thoughts race（思緒飛快運轉）。這裡指「思緒飛轉；腦中想法不停湧現」。",
+      "explanation": "本句的「mind was racing」指「很多想法在短時間內快速出現，使思緒停不下來」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "mind was racing"
       ],
       "optionReasons": {
-        "race-07": "本句的意思是「思緒飛轉；腦中想法不停湧現」。",
-        "race-08": "「脈搏加快」與本句語境不同。",
-        "race-09": "「爭分奪秒；趕時間」與本句語境不同。",
-        "race-10": "「爭相；搶著」與本句語境不同。",
-        "race-11": "「競逐；爭奪」與本句語境不同。",
-        "race-12": "「競爭；競逐」與本句語境不同。"
-      }
+        "race-mcq-06": "本句指「很多想法在短時間內快速出現，使思緒停不下來」。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。",
+        "race-mcq-07": "「脈搏快速跳動」是「pulse races」的用法，與本句語境不同。",
+        "race-mcq-04": "「以非常快的速度奔向／趕往某個地方」是「race to + place」的用法，與本句語境不同。",
+        "race-mcq-08": "「因時間非常有限而必須爭分奪秒完成某件事」是「race against time」的用法，與本句語境不同。",
+        "race-mcq-03": "「跟另一個人／隊伍直接比較速度」是「race against someone」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-06"
     },
     {
       "id": "race-07-1",
-      "sense": "race-07",
+      "sense": "race-mcq-06",
       "en": "Her thoughts raced as she tried to decide what to do.",
       "zh": "她試圖決定該怎麼做時，腦中思緒飛快掠過。",
       "masked": "Her ____ as she tried to decide what to do.",
       "options": [
-        "race-07",
-        "race-08",
-        "race-09",
-        "race-10",
-        "race-11",
-        "race-12"
+        "race-mcq-06",
+        "race-mcq-05",
+        "race-mcq-07",
+        "race-mcq-04",
+        "race-mcq-08",
+        "race-mcq-03"
       ],
-      "explanation": "留意語境：mind/thoughts race（思緒飛快運轉）。這裡指「思緒飛轉；腦中想法不停湧現」。",
+      "explanation": "本句的「thoughts raced」指「很多想法在短時間內快速出現，使思緒停不下來」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "thoughts raced"
       ],
       "optionReasons": {
-        "race-07": "本句的意思是「思緒飛轉；腦中想法不停湧現」。",
-        "race-08": "「脈搏加快」與本句語境不同。",
-        "race-09": "「爭分奪秒；趕時間」與本句語境不同。",
-        "race-10": "「爭相；搶著」與本句語境不同。",
-        "race-11": "「競逐；爭奪」與本句語境不同。",
-        "race-12": "「競爭；競逐」與本句語境不同。"
-      }
+        "race-mcq-06": "本句指「很多想法在短時間內快速出現，使思緒停不下來」。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。",
+        "race-mcq-07": "「脈搏快速跳動」是「pulse races」的用法，與本句語境不同。",
+        "race-mcq-04": "「以非常快的速度奔向／趕往某個地方」是「race to + place」的用法，與本句語境不同。",
+        "race-mcq-08": "「因時間非常有限而必須爭分奪秒完成某件事」是「race against time」的用法，與本句語境不同。",
+        "race-mcq-03": "「跟另一個人／隊伍直接比較速度」是「race against someone」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-06"
     },
     {
       "id": "race-08-0",
-      "sense": "race-08",
+      "sense": "race-mcq-07",
       "en": "His pulse raced after the sudden shock.",
       "zh": "受到突然驚嚇後，他的脈搏加快。",
       "masked": "His ____ after the sudden shock.",
       "options": [
-        "race-08",
-        "race-09",
-        "race-10",
-        "race-11",
-        "race-12",
-        "race-13"
+        "race-mcq-07",
+        "race-mcq-06",
+        "race-mcq-08",
+        "race-mcq-05",
+        "race-mcq-09",
+        "race-mcq-04"
       ],
-      "explanation": "留意語境：pulse races（脈搏加速）。這裡指「脈搏加快」。",
+      "explanation": "本句的「pulse raced」指「脈搏快速跳動」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "pulse raced"
       ],
       "optionReasons": {
-        "race-08": "本句的意思是「脈搏加快」。",
-        "race-09": "「爭分奪秒；趕時間」與本句語境不同。",
-        "race-10": "「爭相；搶著」與本句語境不同。",
-        "race-11": "「競逐；爭奪」與本句語境不同。",
-        "race-12": "「競爭；競逐」與本句語境不同。",
-        "race-13": "「軍備競賽」與本句語境不同。"
-      }
+        "race-mcq-07": "本句指「脈搏快速跳動」。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。",
+        "race-mcq-08": "「因時間非常有限而必須爭分奪秒完成某件事」是「race against time」的用法，與本句語境不同。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。",
+        "race-mcq-09": "「多方快速行動，希望比別人更早完成或取得某事」是「race to do something」的用法，與本句語境不同。",
+        "race-mcq-04": "「以非常快的速度奔向／趕往某個地方」是「race to + place」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-07"
     },
     {
       "id": "race-08-1",
-      "sense": "race-08",
+      "sense": "race-mcq-07",
       "en": "Her pulse was racing.",
       "zh": "她的脈搏跳得很快。",
       "masked": "Her ____.",
       "options": [
-        "race-08",
-        "race-09",
-        "race-10",
-        "race-11",
-        "race-12",
-        "race-13"
+        "race-mcq-07",
+        "race-mcq-06",
+        "race-mcq-08",
+        "race-mcq-05",
+        "race-mcq-09",
+        "race-mcq-04"
       ],
-      "explanation": "留意語境：pulse races（脈搏加速）。這裡指「脈搏加快」。",
+      "explanation": "本句的「pulse was racing」指「脈搏快速跳動」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "pulse was racing"
       ],
       "optionReasons": {
-        "race-08": "本句的意思是「脈搏加快」。",
-        "race-09": "「爭分奪秒；趕時間」與本句語境不同。",
-        "race-10": "「爭相；搶著」與本句語境不同。",
-        "race-11": "「競逐；爭奪」與本句語境不同。",
-        "race-12": "「競爭；競逐」與本句語境不同。",
-        "race-13": "「軍備競賽」與本句語境不同。"
-      }
+        "race-mcq-07": "本句指「脈搏快速跳動」。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。",
+        "race-mcq-08": "「因時間非常有限而必須爭分奪秒完成某件事」是「race against time」的用法，與本句語境不同。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。",
+        "race-mcq-09": "「多方快速行動，希望比別人更早完成或取得某事」是「race to do something」的用法，與本句語境不同。",
+        "race-mcq-04": "「以非常快的速度奔向／趕往某個地方」是「race to + place」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-07"
     },
     {
       "id": "race-09-0",
-      "sense": "race-09",
+      "sense": "race-mcq-08",
       "en": "We were racing against time to finish the slides.",
       "zh": "我們為了完成投影片而爭分奪秒。",
       "masked": "We were ____ to finish the slides.",
       "options": [
-        "race-09",
-        "race-10",
-        "race-11",
-        "race-12",
-        "race-13",
-        "race-14"
+        "race-mcq-08",
+        "race-mcq-07",
+        "race-mcq-09",
+        "race-mcq-06",
+        "race-mcq-10",
+        "race-mcq-05"
       ],
-      "explanation": "留意語境：race against time（與時間競賽）。這裡指「爭分奪秒；趕時間」。",
+      "explanation": "本句的「racing against time」指「因時間非常有限而必須爭分奪秒完成某件事」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "racing against time"
       ],
       "optionReasons": {
-        "race-09": "本句的意思是「爭分奪秒；趕時間」。",
-        "race-10": "「爭相；搶著」與本句語境不同。",
-        "race-11": "「競逐；爭奪」與本句語境不同。",
-        "race-12": "「競爭；競逐」與本句語境不同。",
-        "race-13": "「軍備競賽」與本句語境不同。",
-        "race-14": "「太空競賽」與本句語境不同。"
-      }
+        "race-mcq-08": "本句指「因時間非常有限而必須爭分奪秒完成某件事」。",
+        "race-mcq-07": "「脈搏快速跳動」是「pulse races」的用法，與本句語境不同。",
+        "race-mcq-09": "「多方快速行動，希望比別人更早完成或取得某事」是「race to do something」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。",
+        "race-mcq-10": "「多個人／團體競爭取得同一職位、獎項或結果」是「race for something」的用法，與本句語境不同。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-08"
     },
     {
       "id": "race-09-1",
-      "sense": "race-09",
+      "sense": "race-mcq-08",
       "en": "Doctors were racing against time to save him.",
       "zh": "醫生正在跟時間競賽／爭分奪秒搶救他。",
       "masked": "Doctors were ____ to save him.",
       "options": [
-        "race-09",
-        "race-10",
-        "race-11",
-        "race-12",
-        "race-13",
-        "race-14"
+        "race-mcq-08",
+        "race-mcq-07",
+        "race-mcq-09",
+        "race-mcq-06",
+        "race-mcq-10",
+        "race-mcq-05"
       ],
-      "explanation": "留意語境：race against time（與時間競賽）。這裡指「爭分奪秒；趕時間」。",
+      "explanation": "本句的「racing against time」指「因時間非常有限而必須爭分奪秒完成某件事」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "racing against time"
       ],
       "optionReasons": {
-        "race-09": "本句的意思是「爭分奪秒；趕時間」。",
-        "race-10": "「爭相；搶著」與本句語境不同。",
-        "race-11": "「競逐；爭奪」與本句語境不同。",
-        "race-12": "「競爭；競逐」與本句語境不同。",
-        "race-13": "「軍備競賽」與本句語境不同。",
-        "race-14": "「太空競賽」與本句語境不同。"
-      }
+        "race-mcq-08": "本句指「因時間非常有限而必須爭分奪秒完成某件事」。",
+        "race-mcq-07": "「脈搏快速跳動」是「pulse races」的用法，與本句語境不同。",
+        "race-mcq-09": "「多方快速行動，希望比別人更早完成或取得某事」是「race to do something」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。",
+        "race-mcq-10": "「多個人／團體競爭取得同一職位、獎項或結果」是「race for something」的用法，與本句語境不同。",
+        "race-mcq-05": "「心臟因緊張、恐懼、興奮或運動而快速跳動」是「heart races」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-08"
     },
     {
       "id": "race-10-0",
-      "sense": "race-10",
+      "sense": "race-mcq-09",
       "en": "Companies are racing to develop better technology.",
       "zh": "各家公司都在爭相開發更好的科技。",
       "masked": "Companies are ____ better technology.",
       "options": [
-        "race-10",
-        "race-11",
-        "race-12",
-        "race-13",
-        "race-14",
-        "race-15"
+        "race-mcq-09",
+        "race-mcq-08",
+        "race-mcq-10",
+        "race-mcq-07",
+        "race-mcq-11",
+        "race-mcq-06"
       ],
-      "explanation": "留意語境：race to do something（爭先恐後做……）。這裡指「爭相；搶著」。",
+      "explanation": "本句的「racing to develop」指「多方快速行動，希望比別人更早完成或取得某事」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "racing to develop"
       ],
       "optionReasons": {
-        "race-10": "本句的意思是「爭相；搶著」。",
-        "race-11": "「競逐；爭奪」與本句語境不同。",
-        "race-12": "「競爭；競逐」與本句語境不同。",
-        "race-13": "「軍備競賽」與本句語境不同。",
-        "race-14": "「太空競賽」與本句語境不同。",
-        "race-15": "「選舉競逐」與本句語境不同。"
-      }
+        "race-mcq-09": "本句指「多方快速行動，希望比別人更早完成或取得某事」。",
+        "race-mcq-08": "「因時間非常有限而必須爭分奪秒完成某件事」是「race against time」的用法，與本句語境不同。",
+        "race-mcq-10": "「多個人／團體競爭取得同一職位、獎項或結果」是「race for something」的用法，與本句語境不同。",
+        "race-mcq-07": "「脈搏快速跳動」是「pulse races」的用法，與本句語境不同。",
+        "race-mcq-11": "「多方為領先或首先達成目標而展開的競爭」是「race — competitive struggle」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-09"
     },
     {
       "id": "race-10-1",
-      "sense": "race-10",
+      "sense": "race-mcq-09",
       "en": "Investors raced to buy the shares.",
       "zh": "投資者爭相買入股份。",
       "masked": "Investors ____ the shares.",
       "options": [
-        "race-10",
-        "race-11",
-        "race-12",
-        "race-13",
-        "race-14",
-        "race-15"
+        "race-mcq-09",
+        "race-mcq-08",
+        "race-mcq-10",
+        "race-mcq-07",
+        "race-mcq-11",
+        "race-mcq-06"
       ],
-      "explanation": "留意語境：race to do something（爭先恐後做……）。這裡指「爭相；搶著」。",
+      "explanation": "本句的「raced to buy」指「多方快速行動，希望比別人更早完成或取得某事」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "raced to buy"
       ],
       "optionReasons": {
-        "race-10": "本句的意思是「爭相；搶著」。",
-        "race-11": "「競逐；爭奪」與本句語境不同。",
-        "race-12": "「競爭；競逐」與本句語境不同。",
-        "race-13": "「軍備競賽」與本句語境不同。",
-        "race-14": "「太空競賽」與本句語境不同。",
-        "race-15": "「選舉競逐」與本句語境不同。"
-      }
+        "race-mcq-09": "本句指「多方快速行動，希望比別人更早完成或取得某事」。",
+        "race-mcq-08": "「因時間非常有限而必須爭分奪秒完成某件事」是「race against time」的用法，與本句語境不同。",
+        "race-mcq-10": "「多個人／團體競爭取得同一職位、獎項或結果」是「race for something」的用法，與本句語境不同。",
+        "race-mcq-07": "「脈搏快速跳動」是「pulse races」的用法，與本句語境不同。",
+        "race-mcq-11": "「多方為領先或首先達成目標而展開的競爭」是「race — competitive struggle」的用法，與本句語境不同。",
+        "race-mcq-06": "「很多想法在短時間內快速出現，使思緒停不下來」是「mind/thoughts race」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-09"
     },
     {
       "id": "race-11-0",
-      "sense": "race-11",
+      "sense": "race-mcq-10",
       "en": "Several candidates are in the race for the top job.",
       "zh": "幾名候選人正在爭奪最高職位。",
       "masked": "Several candidates are in the ____ the top job.",
       "options": [
-        "race-11",
-        "race-12",
-        "race-13",
-        "race-14",
-        "race-15",
-        "race-16"
+        "race-mcq-10",
+        "race-mcq-09",
+        "race-mcq-11",
+        "race-mcq-08",
+        "race-mcq-12",
+        "race-mcq-07"
       ],
-      "explanation": "留意語境：race for + position/prize（爭奪）。這裡指「競逐；爭奪」。",
+      "explanation": "本句的「race for」指「多個人／團體競爭取得同一職位、獎項或結果」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "race for"
       ],
       "optionReasons": {
-        "race-11": "本句的意思是「競逐；爭奪」。",
-        "race-12": "「競爭；競逐」與本句語境不同。",
-        "race-13": "「軍備競賽」與本句語境不同。",
-        "race-14": "「太空競賽」與本句語境不同。",
-        "race-15": "「選舉競逐」與本句語境不同。",
-        "race-16": "「賽車／賽馬／競速運動」與本句語境不同。"
-      }
+        "race-mcq-10": "本句指「多個人／團體競爭取得同一職位、獎項或結果」。",
+        "race-mcq-09": "「多方快速行動，希望比別人更早完成或取得某事」是「race to do something」的用法，與本句語境不同。",
+        "race-mcq-11": "「多方為領先或首先達成目標而展開的競爭」是「race — competitive struggle」的用法，與本句語境不同。",
+        "race-mcq-08": "「因時間非常有限而必須爭分奪秒完成某件事」是「race against time」的用法，與本句語境不同。",
+        "race-mcq-12": "「多方不斷增加軍事能力／武器以免被對方超越的競賽」是「arms race」的用法，與本句語境不同。",
+        "race-mcq-07": "「脈搏快速跳動」是「pulse races」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-10"
     },
     {
       "id": "race-11-1",
-      "sense": "race-11",
+      "sense": "race-mcq-10",
       "en": "The team is still in the race for the title.",
       "zh": "這支隊伍仍然有機會爭奪冠軍。",
       "masked": "The team is still in the ____ the title.",
       "options": [
-        "race-11",
-        "race-12",
-        "race-13",
-        "race-14",
-        "race-15",
-        "race-16"
+        "race-mcq-10",
+        "race-mcq-09",
+        "race-mcq-11",
+        "race-mcq-08",
+        "race-mcq-12",
+        "race-mcq-07"
       ],
-      "explanation": "留意語境：race for + position/prize（爭奪）。這裡指「競逐；爭奪」。",
+      "explanation": "本句的「race for」指「多個人／團體競爭取得同一職位、獎項或結果」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "race for"
       ],
       "optionReasons": {
-        "race-11": "本句的意思是「競逐；爭奪」。",
-        "race-12": "「競爭；競逐」與本句語境不同。",
-        "race-13": "「軍備競賽」與本句語境不同。",
-        "race-14": "「太空競賽」與本句語境不同。",
-        "race-15": "「選舉競逐」與本句語境不同。",
-        "race-16": "「賽車／賽馬／競速運動」與本句語境不同。"
-      }
+        "race-mcq-10": "本句指「多個人／團體競爭取得同一職位、獎項或結果」。",
+        "race-mcq-09": "「多方快速行動，希望比別人更早完成或取得某事」是「race to do something」的用法，與本句語境不同。",
+        "race-mcq-11": "「多方為領先或首先達成目標而展開的競爭」是「race — competitive struggle」的用法，與本句語境不同。",
+        "race-mcq-08": "「因時間非常有限而必須爭分奪秒完成某件事」是「race against time」的用法，與本句語境不同。",
+        "race-mcq-12": "「多方不斷增加軍事能力／武器以免被對方超越的競賽」是「arms race」的用法，與本句語境不同。",
+        "race-mcq-07": "「脈搏快速跳動」是「pulse races」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-10"
     },
     {
       "id": "race-12-0",
-      "sense": "race-12",
+      "sense": "race-mcq-11",
       "en": "The two companies are locked in a technology race.",
       "zh": "兩家公司正在進行激烈的科技競爭。",
       "masked": "The two companies are locked in a technology ____.",
       "options": [
-        "race-12",
-        "race-13",
-        "race-14",
-        "race-15",
-        "race-16",
-        "race-17"
+        "race-mcq-11",
+        "race-mcq-10",
+        "race-mcq-12",
+        "race-mcq-09",
+        "race-mcq-13",
+        "race-mcq-08"
       ],
-      "explanation": "留意語境：race = competitive struggle（競爭）。這裡指「競爭；競逐」。",
+      "explanation": "本句的「race」指「多方為領先或首先達成目標而展開的競爭」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "race"
       ],
       "optionReasons": {
-        "race-12": "本句的意思是「競爭；競逐」。",
-        "race-13": "「軍備競賽」與本句語境不同。",
-        "race-14": "「太空競賽」與本句語境不同。",
-        "race-15": "「選舉競逐」與本句語境不同。",
-        "race-16": "「賽車／賽馬／競速運動」與本句語境不同。",
-        "race-17": "「賽車用的；競速用的」與本句語境不同。"
-      }
+        "race-mcq-11": "本句指「多方為領先或首先達成目標而展開的競爭」。",
+        "race-mcq-10": "「多個人／團體競爭取得同一職位、獎項或結果」是「race for something」的用法，與本句語境不同。",
+        "race-mcq-12": "「多方不斷增加軍事能力／武器以免被對方超越的競賽」是「arms race」的用法，與本句語境不同。",
+        "race-mcq-09": "「多方快速行動，希望比別人更早完成或取得某事」是「race to do something」的用法，與本句語境不同。",
+        "race-mcq-13": "「不同國家／組織競爭取得太空科技／探索成果」是「space race」的用法，與本句語境不同。",
+        "race-mcq-08": "「因時間非常有限而必須爭分奪秒完成某件事」是「race against time」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-11"
     },
     {
       "id": "race-12-1",
-      "sense": "race-12",
+      "sense": "race-mcq-11",
       "en": "The country entered the global AI race.",
       "zh": "該國加入了全球人工智能競賽／競爭。",
       "masked": "The country entered the global AI ____.",
       "options": [
-        "race-12",
-        "race-13",
-        "race-14",
-        "race-15",
-        "race-16",
-        "race-17"
+        "race-mcq-11",
+        "race-mcq-10",
+        "race-mcq-12",
+        "race-mcq-09",
+        "race-mcq-13",
+        "race-mcq-08"
       ],
-      "explanation": "留意語境：race = competitive struggle（競爭）。這裡指「競爭；競逐」。",
+      "explanation": "本句的「race」指「多方為領先或首先達成目標而展開的競爭」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "race"
       ],
       "optionReasons": {
-        "race-12": "本句的意思是「競爭；競逐」。",
-        "race-13": "「軍備競賽」與本句語境不同。",
-        "race-14": "「太空競賽」與本句語境不同。",
-        "race-15": "「選舉競逐」與本句語境不同。",
-        "race-16": "「賽車／賽馬／競速運動」與本句語境不同。",
-        "race-17": "「賽車用的；競速用的」與本句語境不同。"
-      }
+        "race-mcq-11": "本句指「多方為領先或首先達成目標而展開的競爭」。",
+        "race-mcq-10": "「多個人／團體競爭取得同一職位、獎項或結果」是「race for something」的用法，與本句語境不同。",
+        "race-mcq-12": "「多方不斷增加軍事能力／武器以免被對方超越的競賽」是「arms race」的用法，與本句語境不同。",
+        "race-mcq-09": "「多方快速行動，希望比別人更早完成或取得某事」是「race to do something」的用法，與本句語境不同。",
+        "race-mcq-13": "「不同國家／組織競爭取得太空科技／探索成果」是「space race」的用法，與本句語境不同。",
+        "race-mcq-08": "「因時間非常有限而必須爭分奪秒完成某件事」是「race against time」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-11"
     },
     {
       "id": "race-13-0",
-      "sense": "race-13",
+      "sense": "race-mcq-12",
       "en": "The two countries entered an arms race.",
       "zh": "兩國進入了軍備競賽。",
       "masked": "The two countries entered an ____.",
       "options": [
-        "race-13",
-        "race-14",
-        "race-15",
-        "race-16",
-        "race-17",
-        "race-18"
+        "race-mcq-12",
+        "race-mcq-11",
+        "race-mcq-13",
+        "race-mcq-10",
+        "race-mcq-14",
+        "race-mcq-09"
       ],
-      "explanation": "留意語境：arms race（軍備競賽）。這裡指「軍備競賽」。",
+      "explanation": "本句的「arms race」指「多方不斷增加軍事能力／武器以免被對方超越的競賽」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "arms race"
       ],
       "optionReasons": {
-        "race-13": "本句的意思是「軍備競賽」。",
-        "race-14": "「太空競賽」與本句語境不同。",
-        "race-15": "「選舉競逐」與本句語境不同。",
-        "race-16": "「賽車／賽馬／競速運動」與本句語境不同。",
-        "race-17": "「賽車用的；競速用的」與本句語境不同。",
-        "race-18": "「競速選手；賽車手」與本句語境不同。"
-      }
+        "race-mcq-12": "本句指「多方不斷增加軍事能力／武器以免被對方超越的競賽」。",
+        "race-mcq-11": "「多方為領先或首先達成目標而展開的競爭」是「race — competitive struggle」的用法，與本句語境不同。",
+        "race-mcq-13": "「不同國家／組織競爭取得太空科技／探索成果」是「space race」的用法，與本句語境不同。",
+        "race-mcq-10": "「多個人／團體競爭取得同一職位、獎項或結果」是「race for something」的用法，與本句語境不同。",
+        "race-mcq-14": "「多名候選人競爭取得同一選舉職位的競逐」是「race — election contest」的用法，與本句語境不同。",
+        "race-mcq-09": "「多方快速行動，希望比別人更早完成或取得某事」是「race to do something」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-12"
     },
     {
       "id": "race-13-1",
-      "sense": "race-13",
+      "sense": "race-mcq-12",
       "en": "Experts warned of a new technological arms race.",
       "zh": "專家警告可能出現新的科技軍備競賽式競爭。",
       "masked": "Experts warned of a new technological ____.",
       "options": [
-        "race-13",
-        "race-14",
-        "race-15",
-        "race-16",
-        "race-17",
-        "race-18"
+        "race-mcq-12",
+        "race-mcq-11",
+        "race-mcq-13",
+        "race-mcq-10",
+        "race-mcq-14",
+        "race-mcq-09"
       ],
-      "explanation": "留意語境：arms race（軍備競賽）。這裡指「軍備競賽」。",
+      "explanation": "本句的「arms race」指「多方不斷增加軍事能力／武器以免被對方超越的競賽」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "arms race"
       ],
       "optionReasons": {
-        "race-13": "本句的意思是「軍備競賽」。",
-        "race-14": "「太空競賽」與本句語境不同。",
-        "race-15": "「選舉競逐」與本句語境不同。",
-        "race-16": "「賽車／賽馬／競速運動」與本句語境不同。",
-        "race-17": "「賽車用的；競速用的」與本句語境不同。",
-        "race-18": "「競速選手；賽車手」與本句語境不同。"
-      }
+        "race-mcq-12": "本句指「多方不斷增加軍事能力／武器以免被對方超越的競賽」。",
+        "race-mcq-11": "「多方為領先或首先達成目標而展開的競爭」是「race — competitive struggle」的用法，與本句語境不同。",
+        "race-mcq-13": "「不同國家／組織競爭取得太空科技／探索成果」是「space race」的用法，與本句語境不同。",
+        "race-mcq-10": "「多個人／團體競爭取得同一職位、獎項或結果」是「race for something」的用法，與本句語境不同。",
+        "race-mcq-14": "「多名候選人競爭取得同一選舉職位的競逐」是「race — election contest」的用法，與本句語境不同。",
+        "race-mcq-09": "「多方快速行動，希望比別人更早完成或取得某事」是「race to do something」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-12"
     },
     {
       "id": "race-14-0",
-      "sense": "race-14",
+      "sense": "race-mcq-13",
       "en": "The space race accelerated scientific research.",
       "zh": "太空競賽加速了科學研究。",
       "masked": "The ____ accelerated scientific research.",
       "options": [
-        "race-14",
-        "race-15",
-        "race-16",
-        "race-17",
-        "race-18",
-        "race-19"
+        "race-mcq-13",
+        "race-mcq-12",
+        "race-mcq-14",
+        "race-mcq-11",
+        "race-mcq-15",
+        "race-mcq-10"
       ],
-      "explanation": "留意語境：space race（太空競賽）。這裡指「太空競賽」。",
+      "explanation": "本句的「space race」指「不同國家／組織競爭取得太空科技／探索成果」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "space race"
       ],
       "optionReasons": {
-        "race-14": "本句的意思是「太空競賽」。",
-        "race-15": "「選舉競逐」與本句語境不同。",
-        "race-16": "「賽車／賽馬／競速運動」與本句語境不同。",
-        "race-17": "「賽車用的；競速用的」與本句語境不同。",
-        "race-18": "「競速選手；賽車手」與本句語境不同。",
-        "race-19": "「賽馬場；競賽場地」與本句語境不同。"
-      }
+        "race-mcq-13": "本句指「不同國家／組織競爭取得太空科技／探索成果」。",
+        "race-mcq-12": "「多方不斷增加軍事能力／武器以免被對方超越的競賽」是「arms race」的用法，與本句語境不同。",
+        "race-mcq-14": "「多名候選人競爭取得同一選舉職位的競逐」是「race — election contest」的用法，與本句語境不同。",
+        "race-mcq-11": "「多方為領先或首先達成目標而展開的競爭」是「race — competitive struggle」的用法，與本句語境不同。",
+        "race-mcq-15": "「以速度競賽為核心的運動／活動」是「racing」的用法，與本句語境不同。",
+        "race-mcq-10": "「多個人／團體競爭取得同一職位、獎項或結果」是「race for something」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-13"
     },
     {
       "id": "race-14-1",
-      "sense": "race-14",
+      "sense": "race-mcq-13",
       "en": "Several countries are participating in a new space race.",
       "zh": "多個國家正在參與新的太空競賽。",
       "masked": "Several countries are participating in a new ____.",
       "options": [
-        "race-14",
-        "race-15",
-        "race-16",
-        "race-17",
-        "race-18",
-        "race-19"
+        "race-mcq-13",
+        "race-mcq-12",
+        "race-mcq-14",
+        "race-mcq-11",
+        "race-mcq-15",
+        "race-mcq-10"
       ],
-      "explanation": "留意語境：space race（太空競賽）。這裡指「太空競賽」。",
+      "explanation": "本句的「space race」指「不同國家／組織競爭取得太空科技／探索成果」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "space race"
       ],
       "optionReasons": {
-        "race-14": "本句的意思是「太空競賽」。",
-        "race-15": "「選舉競逐」與本句語境不同。",
-        "race-16": "「賽車／賽馬／競速運動」與本句語境不同。",
-        "race-17": "「賽車用的；競速用的」與本句語境不同。",
-        "race-18": "「競速選手；賽車手」與本句語境不同。",
-        "race-19": "「賽馬場；競賽場地」與本句語境不同。"
-      }
+        "race-mcq-13": "本句指「不同國家／組織競爭取得太空科技／探索成果」。",
+        "race-mcq-12": "「多方不斷增加軍事能力／武器以免被對方超越的競賽」是「arms race」的用法，與本句語境不同。",
+        "race-mcq-14": "「多名候選人競爭取得同一選舉職位的競逐」是「race — election contest」的用法，與本句語境不同。",
+        "race-mcq-11": "「多方為領先或首先達成目標而展開的競爭」是「race — competitive struggle」的用法，與本句語境不同。",
+        "race-mcq-15": "「以速度競賽為核心的運動／活動」是「racing」的用法，與本句語境不同。",
+        "race-mcq-10": "「多個人／團體競爭取得同一職位、獎項或結果」是「race for something」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-13"
     },
     {
       "id": "race-15-0",
-      "sense": "race-15",
+      "sense": "race-mcq-14",
       "en": "Three candidates entered the race.",
       "zh": "三名候選人加入了這場選舉競逐。",
       "masked": "Three candidates entered the ____.",
       "options": [
-        "race-15",
-        "race-16",
-        "race-17",
-        "race-18",
-        "race-19",
-        "race-20"
+        "race-mcq-14",
+        "race-mcq-13",
+        "race-mcq-15",
+        "race-mcq-12",
+        "race-mcq-16",
+        "race-mcq-11"
       ],
-      "explanation": "留意語境：race = election contest（選舉競爭）。這裡指「選舉競逐」。",
+      "explanation": "本句的「race」指「多名候選人競爭取得同一選舉職位的競逐」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "race"
       ],
       "optionReasons": {
-        "race-15": "本句的意思是「選舉競逐」。",
-        "race-16": "「賽車／賽馬／競速運動」與本句語境不同。",
-        "race-17": "「賽車用的；競速用的」與本句語境不同。",
-        "race-18": "「競速選手；賽車手」與本句語境不同。",
-        "race-19": "「賽馬場；競賽場地」與本句語境不同。",
-        "race-20": "「賽車道；競速跑道」與本句語境不同。"
-      }
+        "race-mcq-14": "本句指「多名候選人競爭取得同一選舉職位的競逐」。",
+        "race-mcq-13": "「不同國家／組織競爭取得太空科技／探索成果」是「space race」的用法，與本句語境不同。",
+        "race-mcq-15": "「以速度競賽為核心的運動／活動」是「racing」的用法，與本句語境不同。",
+        "race-mcq-12": "「多方不斷增加軍事能力／武器以免被對方超越的競賽」是「arms race」的用法，與本句語境不同。",
+        "race-mcq-16": "「參與競速比賽的人、動物或車輛」是「racer」的用法，與本句語境不同。",
+        "race-mcq-11": "「多方為領先或首先達成目標而展開的競爭」是「race — competitive struggle」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-14"
     },
     {
       "id": "race-15-1",
-      "sense": "race-15",
+      "sense": "race-mcq-14",
       "en": "She withdrew from the race.",
       "zh": "她退出了這場競選。",
       "masked": "She withdrew from the ____.",
       "options": [
-        "race-15",
-        "race-16",
-        "race-17",
-        "race-18",
-        "race-19",
-        "race-20"
+        "race-mcq-14",
+        "race-mcq-13",
+        "race-mcq-15",
+        "race-mcq-12",
+        "race-mcq-16",
+        "race-mcq-11"
       ],
-      "explanation": "留意語境：race = election contest（選舉競爭）。這裡指「選舉競逐」。",
+      "explanation": "本句的「race」指「多名候選人競爭取得同一選舉職位的競逐」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "race"
       ],
       "optionReasons": {
-        "race-15": "本句的意思是「選舉競逐」。",
-        "race-16": "「賽車／賽馬／競速運動」與本句語境不同。",
-        "race-17": "「賽車用的；競速用的」與本句語境不同。",
-        "race-18": "「競速選手；賽車手」與本句語境不同。",
-        "race-19": "「賽馬場；競賽場地」與本句語境不同。",
-        "race-20": "「賽車道；競速跑道」與本句語境不同。"
-      }
+        "race-mcq-14": "本句指「多名候選人競爭取得同一選舉職位的競逐」。",
+        "race-mcq-13": "「不同國家／組織競爭取得太空科技／探索成果」是「space race」的用法，與本句語境不同。",
+        "race-mcq-15": "「以速度競賽為核心的運動／活動」是「racing」的用法，與本句語境不同。",
+        "race-mcq-12": "「多方不斷增加軍事能力／武器以免被對方超越的競賽」是「arms race」的用法，與本句語境不同。",
+        "race-mcq-16": "「參與競速比賽的人、動物或車輛」是「racer」的用法，與本句語境不同。",
+        "race-mcq-11": "「多方為領先或首先達成目標而展開的競爭」是「race — competitive struggle」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-14"
     },
     {
       "id": "race-16-0",
-      "sense": "race-16",
+      "sense": "race-mcq-15",
       "en": "He has always been interested in motor racing.",
       "zh": "他一直對賽車運動很有興趣。",
       "masked": "He has always been interested in motor ____.",
       "options": [
-        "race-16",
-        "race-17",
-        "race-18",
-        "race-19",
-        "race-20",
-        "race-21"
+        "race-mcq-15",
+        "race-mcq-14",
+        "race-mcq-16",
+        "race-mcq-13",
+        "race-mcq-17",
+        "race-mcq-12"
       ],
-      "explanation": "留意語境：racing = the sport/activity of racing（競速運動）。這裡指「賽車／賽馬／競速運動」。",
+      "explanation": "本句的「racing」指「以速度競賽為核心的運動／活動」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "racing"
       ],
       "optionReasons": {
-        "race-16": "本句的意思是「賽車／賽馬／競速運動」。",
-        "race-17": "「賽車用的；競速用的」與本句語境不同。",
-        "race-18": "「競速選手；賽車手」與本句語境不同。",
-        "race-19": "「賽馬場；競賽場地」與本句語境不同。",
-        "race-20": "「賽車道；競速跑道」與本句語境不同。",
-        "race-21": "「種族；人種」與本句語境不同。"
-      }
+        "race-mcq-15": "本句指「以速度競賽為核心的運動／活動」。",
+        "race-mcq-14": "「多名候選人競爭取得同一選舉職位的競逐」是「race — election contest」的用法，與本句語境不同。",
+        "race-mcq-16": "「參與競速比賽的人、動物或車輛」是「racer」的用法，與本句語境不同。",
+        "race-mcq-13": "「不同國家／組織競爭取得太空科技／探索成果」是「space race」的用法，與本句語境不同。",
+        "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。",
+        "race-mcq-12": "「多方不斷增加軍事能力／武器以免被對方超越的競賽」是「arms race」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-15"
     },
     {
       "id": "race-16-1",
-      "sense": "race-16",
+      "sense": "race-mcq-15",
       "en": "Horse racing is popular in many countries.",
       "zh": "賽馬在很多國家都很受歡迎。",
       "masked": "Horse ____ is popular in many countries.",
       "options": [
-        "race-16",
-        "race-17",
-        "race-18",
-        "race-19",
-        "race-20",
-        "race-21"
+        "race-mcq-15",
+        "race-mcq-14",
+        "race-mcq-16",
+        "race-mcq-13",
+        "race-mcq-17",
+        "race-mcq-12"
       ],
-      "explanation": "留意語境：racing = the sport/activity of racing（競速運動）。這裡指「賽車／賽馬／競速運動」。",
+      "explanation": "本句的「racing」指「以速度競賽為核心的運動／活動」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "racing"
       ],
       "optionReasons": {
-        "race-16": "本句的意思是「賽車／賽馬／競速運動」。",
-        "race-17": "「賽車用的；競速用的」與本句語境不同。",
-        "race-18": "「競速選手；賽車手」與本句語境不同。",
-        "race-19": "「賽馬場；競賽場地」與本句語境不同。",
-        "race-20": "「賽車道；競速跑道」與本句語境不同。",
-        "race-21": "「種族；人種」與本句語境不同。"
-      }
+        "race-mcq-15": "本句指「以速度競賽為核心的運動／活動」。",
+        "race-mcq-14": "「多名候選人競爭取得同一選舉職位的競逐」是「race — election contest」的用法，與本句語境不同。",
+        "race-mcq-16": "「參與競速比賽的人、動物或車輛」是「racer」的用法，與本句語境不同。",
+        "race-mcq-13": "「不同國家／組織競爭取得太空科技／探索成果」是「space race」的用法，與本句語境不同。",
+        "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。",
+        "race-mcq-12": "「多方不斷增加軍事能力／武器以免被對方超越的競賽」是「arms race」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-15"
     },
     {
       "id": "race-17-0",
-      "sense": "race-17",
+      "sense": "race-mcq-15",
       "en": "He drives a professional racing car.",
       "zh": "他駕駛一輛專業賽車。",
       "masked": "He drives a professional ____.",
       "options": [
-        "race-17",
-        "race-18",
-        "race-19",
-        "race-20",
-        "race-21",
-        "race-22"
+        "race-mcq-15",
+        "race-mcq-14",
+        "race-mcq-16",
+        "race-mcq-13",
+        "race-mcq-17",
+        "race-mcq-12"
       ],
-      "explanation": "留意語境：racing car/bike（賽車／競賽車輛）。這裡指「賽車用的；競速用的」。",
+      "explanation": "本句的「racing car」指「以速度競賽為核心的運動／活動」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "racing car"
       ],
       "optionReasons": {
-        "race-17": "本句的意思是「賽車用的；競速用的」。",
-        "race-18": "「競速選手；賽車手」與本句語境不同。",
-        "race-19": "「賽馬場；競賽場地」與本句語境不同。",
-        "race-20": "「賽車道；競速跑道」與本句語境不同。",
-        "race-21": "「種族；人種」與本句語境不同。",
-        "race-22": "「種族的；與種族有關的」與本句語境不同。"
-      }
+        "race-mcq-15": "本句指「以速度競賽為核心的運動／活動」。",
+        "race-mcq-14": "「多名候選人競爭取得同一選舉職位的競逐」是「race — election contest」的用法，與本句語境不同。",
+        "race-mcq-16": "「參與競速比賽的人、動物或車輛」是「racer」的用法，與本句語境不同。",
+        "race-mcq-13": "「不同國家／組織競爭取得太空科技／探索成果」是「space race」的用法，與本句語境不同。",
+        "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。",
+        "race-mcq-12": "「多方不斷增加軍事能力／武器以免被對方超越的競賽」是「arms race」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-15"
     },
     {
       "id": "race-17-1",
-      "sense": "race-17",
+      "sense": "race-mcq-15",
       "en": "The bike was designed for racing.",
       "zh": "這輛單車是為競速比賽而設計的。",
       "masked": "The bike was designed for ____.",
       "options": [
-        "race-17",
-        "race-18",
-        "race-19",
-        "race-20",
-        "race-21",
-        "race-22"
+        "race-mcq-15",
+        "race-mcq-14",
+        "race-mcq-16",
+        "race-mcq-13",
+        "race-mcq-17",
+        "race-mcq-12"
       ],
-      "explanation": "留意語境：racing car/bike（賽車／競賽車輛）。這裡指「賽車用的；競速用的」。",
+      "explanation": "本句的「racing」指「以速度競賽為核心的運動／活動」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "racing"
       ],
       "optionReasons": {
-        "race-17": "本句的意思是「賽車用的；競速用的」。",
-        "race-18": "「競速選手；賽車手」與本句語境不同。",
-        "race-19": "「賽馬場；競賽場地」與本句語境不同。",
-        "race-20": "「賽車道；競速跑道」與本句語境不同。",
-        "race-21": "「種族；人種」與本句語境不同。",
-        "race-22": "「種族的；與種族有關的」與本句語境不同。"
-      }
+        "race-mcq-15": "本句指「以速度競賽為核心的運動／活動」。",
+        "race-mcq-14": "「多名候選人競爭取得同一選舉職位的競逐」是「race — election contest」的用法，與本句語境不同。",
+        "race-mcq-16": "「參與競速比賽的人、動物或車輛」是「racer」的用法，與本句語境不同。",
+        "race-mcq-13": "「不同國家／組織競爭取得太空科技／探索成果」是「space race」的用法，與本句語境不同。",
+        "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。",
+        "race-mcq-12": "「多方不斷增加軍事能力／武器以免被對方超越的競賽」是「arms race」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-15"
     },
     {
       "id": "race-18-0",
-      "sense": "race-18",
+      "sense": "race-mcq-16",
       "en": "She is a professional racer.",
       "zh": "她是一名專業賽車手／競速選手。",
       "masked": "She is a professional ____.",
       "options": [
-        "race-18",
-        "race-19",
-        "race-20",
-        "race-21",
-        "race-22",
-        "race-23"
+        "race-mcq-16",
+        "race-mcq-15",
+        "race-mcq-17",
+        "race-mcq-14",
+        "race-mcq-18",
+        "race-mcq-13"
       ],
-      "explanation": "留意語境：racer = person/animal/vehicle that races（參賽者／賽車手）。這裡指「競速選手；賽車手」。",
+      "explanation": "本句的「racer」指「參與競速比賽的人、動物或車輛」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "racer"
       ],
       "optionReasons": {
-        "race-18": "本句的意思是「競速選手；賽車手」。",
-        "race-19": "「賽馬場；競賽場地」與本句語境不同。",
-        "race-20": "「賽車道；競速跑道」與本句語境不同。",
-        "race-21": "「種族；人種」與本句語境不同。",
-        "race-22": "「種族的；與種族有關的」與本句語境不同。",
-        "race-23": "「種族主義；種族歧視」與本句語境不同。"
-      }
+        "race-mcq-16": "本句指「參與競速比賽的人、動物或車輛」。",
+        "race-mcq-15": "「以速度競賽為核心的運動／活動」是「racing」的用法，與本句語境不同。",
+        "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。",
+        "race-mcq-14": "「多名候選人競爭取得同一選舉職位的競逐」是「race — election contest」的用法，與本句語境不同。",
+        "race-mcq-18": "「為車輛、跑步或其他速度競賽設計的賽道」是「racetrack」的用法，與本句語境不同。",
+        "race-mcq-13": "「不同國家／組織競爭取得太空科技／探索成果」是「space race」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-16"
     },
     {
       "id": "race-18-1",
-      "sense": "race-18",
+      "sense": "race-mcq-16",
       "en": "The young racer won his first championship.",
       "zh": "這名年輕賽車手贏得首個冠軍。",
       "masked": "The young ____ won his first championship.",
       "options": [
-        "race-18",
-        "race-19",
-        "race-20",
-        "race-21",
-        "race-22",
-        "race-23"
+        "race-mcq-16",
+        "race-mcq-15",
+        "race-mcq-17",
+        "race-mcq-14",
+        "race-mcq-18",
+        "race-mcq-13"
       ],
-      "explanation": "留意語境：racer = person/animal/vehicle that races（參賽者／賽車手）。這裡指「競速選手；賽車手」。",
+      "explanation": "本句的「racer」指「參與競速比賽的人、動物或車輛」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "racer"
       ],
       "optionReasons": {
-        "race-18": "本句的意思是「競速選手；賽車手」。",
-        "race-19": "「賽馬場；競賽場地」與本句語境不同。",
-        "race-20": "「賽車道；競速跑道」與本句語境不同。",
-        "race-21": "「種族；人種」與本句語境不同。",
-        "race-22": "「種族的；與種族有關的」與本句語境不同。",
-        "race-23": "「種族主義；種族歧視」與本句語境不同。"
-      }
+        "race-mcq-16": "本句指「參與競速比賽的人、動物或車輛」。",
+        "race-mcq-15": "「以速度競賽為核心的運動／活動」是「racing」的用法，與本句語境不同。",
+        "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。",
+        "race-mcq-14": "「多名候選人競爭取得同一選舉職位的競逐」是「race — election contest」的用法，與本句語境不同。",
+        "race-mcq-18": "「為車輛、跑步或其他速度競賽設計的賽道」是「racetrack」的用法，與本句語境不同。",
+        "race-mcq-13": "「不同國家／組織競爭取得太空科技／探索成果」是「space race」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-16"
     },
     {
       "id": "race-19-0",
-      "sense": "race-19",
+      "sense": "race-mcq-17",
       "en": "Thousands of spectators went to the racecourse.",
       "zh": "數千名觀眾前往賽馬場。",
       "masked": "Thousands of spectators went to the ____.",
       "options": [
-        "race-19",
-        "race-20",
-        "race-21",
-        "race-22",
-        "race-23",
-        "race-24"
+        "race-mcq-17",
+        "race-mcq-16",
+        "race-mcq-18",
+        "race-mcq-15",
+        "race-mcq-19",
+        "race-mcq-14"
       ],
-      "explanation": "留意語境：racecourse（賽馬場／賽道）。這裡指「賽馬場；競賽場地」。",
+      "explanation": "本句的「racecourse」指「特別為賽馬／競速活動而設的場地或路線」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "racecourse"
       ],
       "optionReasons": {
-        "race-19": "本句的意思是「賽馬場；競賽場地」。",
-        "race-20": "「賽車道；競速跑道」與本句語境不同。",
-        "race-21": "「種族；人種」與本句語境不同。",
-        "race-22": "「種族的；與種族有關的」與本句語境不同。",
-        "race-23": "「種族主義；種族歧視」與本句語境不同。",
-        "race-24": "「人類；全人類」與本句語境不同。"
-      }
+        "race-mcq-17": "本句指「特別為賽馬／競速活動而設的場地或路線」。",
+        "race-mcq-16": "「參與競速比賽的人、動物或車輛」是「racer」的用法，與本句語境不同。",
+        "race-mcq-18": "「為車輛、跑步或其他速度競賽設計的賽道」是「racetrack」的用法，與本句語境不同。",
+        "race-mcq-15": "「以速度競賽為核心的運動／活動」是「racing」的用法，與本句語境不同。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。",
+        "race-mcq-14": "「多名候選人競爭取得同一選舉職位的競逐」是「race — election contest」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-17"
     },
     {
       "id": "race-19-1",
-      "sense": "race-19",
+      "sense": "race-mcq-17",
       "en": "The racecourse was wet after heavy rain.",
       "zh": "大雨後賽道／賽馬場跑道很濕。",
       "masked": "The ____ was wet after heavy rain.",
       "options": [
-        "race-19",
-        "race-20",
-        "race-21",
-        "race-22",
-        "race-23",
-        "race-24"
+        "race-mcq-17",
+        "race-mcq-16",
+        "race-mcq-18",
+        "race-mcq-15",
+        "race-mcq-19",
+        "race-mcq-14"
       ],
-      "explanation": "留意語境：racecourse（賽馬場／賽道）。這裡指「賽馬場；競賽場地」。",
+      "explanation": "本句的「racecourse」指「特別為賽馬／競速活動而設的場地或路線」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "racecourse"
       ],
       "optionReasons": {
-        "race-19": "本句的意思是「賽馬場；競賽場地」。",
-        "race-20": "「賽車道；競速跑道」與本句語境不同。",
-        "race-21": "「種族；人種」與本句語境不同。",
-        "race-22": "「種族的；與種族有關的」與本句語境不同。",
-        "race-23": "「種族主義；種族歧視」與本句語境不同。",
-        "race-24": "「人類；全人類」與本句語境不同。"
-      }
+        "race-mcq-17": "本句指「特別為賽馬／競速活動而設的場地或路線」。",
+        "race-mcq-16": "「參與競速比賽的人、動物或車輛」是「racer」的用法，與本句語境不同。",
+        "race-mcq-18": "「為車輛、跑步或其他速度競賽設計的賽道」是「racetrack」的用法，與本句語境不同。",
+        "race-mcq-15": "「以速度競賽為核心的運動／活動」是「racing」的用法，與本句語境不同。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。",
+        "race-mcq-14": "「多名候選人競爭取得同一選舉職位的競逐」是「race — election contest」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-17"
     },
     {
       "id": "race-20-0",
-      "sense": "race-20",
+      "sense": "race-mcq-18",
       "en": "The cars returned to the racetrack.",
       "zh": "賽車返回賽道。",
       "masked": "The cars returned to the ____.",
       "options": [
-        "race-20",
-        "race-21",
-        "race-22",
-        "race-23",
-        "race-24",
-        "race-25"
+        "race-mcq-18",
+        "race-mcq-17",
+        "race-mcq-19",
+        "race-mcq-16",
+        "race-mcq-20",
+        "race-mcq-15"
       ],
-      "explanation": "留意語境：racetrack（賽道）。這裡指「賽車道；競速跑道」。",
+      "explanation": "本句的「racetrack」指「為車輛、跑步或其他速度競賽設計的賽道」。",
       "sentenceIndex": 39,
       "sourcePractice": 40,
       "targets": [
         "racetrack"
       ],
       "optionReasons": {
-        "race-20": "本句的意思是「賽車道；競速跑道」。",
-        "race-21": "「種族；人種」與本句語境不同。",
-        "race-22": "「種族的；與種族有關的」與本句語境不同。",
-        "race-23": "「種族主義；種族歧視」與本句語境不同。",
-        "race-24": "「人類；全人類」與本句語境不同。",
-        "race-25": "「品系；種類」與本句語境不同。"
-      }
+        "race-mcq-18": "本句指「為車輛、跑步或其他速度競賽設計的賽道」。",
+        "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。",
+        "race-mcq-16": "「參與競速比賽的人、動物或車輛」是「racer」的用法，與本句語境不同。",
+        "race-mcq-20": "「與種族分類、身份或不同種族群體關係有關的」是「racial」的用法，與本句語境不同。",
+        "race-mcq-15": "「以速度競賽為核心的運動／活動」是「racing」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-18"
     },
     {
       "id": "race-20-1",
-      "sense": "race-20",
+      "sense": "race-mcq-18",
       "en": "The racetrack has several sharp corners.",
       "zh": "這條賽道有幾個急彎。",
       "masked": "The ____ has several sharp corners.",
       "options": [
-        "race-20",
-        "race-21",
-        "race-22",
-        "race-23",
-        "race-24",
-        "race-25"
+        "race-mcq-18",
+        "race-mcq-17",
+        "race-mcq-19",
+        "race-mcq-16",
+        "race-mcq-20",
+        "race-mcq-15"
       ],
-      "explanation": "留意語境：racetrack（賽道）。這裡指「賽車道；競速跑道」。",
+      "explanation": "本句的「racetrack」指「為車輛、跑步或其他速度競賽設計的賽道」。",
       "sentenceIndex": 40,
       "sourcePractice": 41,
       "targets": [
         "racetrack"
       ],
       "optionReasons": {
-        "race-20": "本句的意思是「賽車道；競速跑道」。",
-        "race-21": "「種族；人種」與本句語境不同。",
-        "race-22": "「種族的；與種族有關的」與本句語境不同。",
-        "race-23": "「種族主義；種族歧視」與本句語境不同。",
-        "race-24": "「人類；全人類」與本句語境不同。",
-        "race-25": "「品系；種類」與本句語境不同。"
-      }
+        "race-mcq-18": "本句指「為車輛、跑步或其他速度競賽設計的賽道」。",
+        "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。",
+        "race-mcq-16": "「參與競速比賽的人、動物或車輛」是「racer」的用法，與本句語境不同。",
+        "race-mcq-20": "「與種族分類、身份或不同種族群體關係有關的」是「racial」的用法，與本句語境不同。",
+        "race-mcq-15": "「以速度競賽為核心的運動／活動」是「racing」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-18"
     },
     {
       "id": "race-21-0",
-      "sense": "race-21",
+      "sense": "race-mcq-19",
       "en": "The form asks for information about race and ethnicity.",
       "zh": "表格要求填寫有關種族及族裔的資料。",
       "masked": "The form asks for information about ____.",
       "options": [
-        "race-21",
-        "race-22",
-        "race-23",
-        "race-24",
-        "race-25",
-        "race-26"
+        "race-mcq-19",
+        "race-mcq-18",
+        "race-mcq-20",
+        "race-mcq-17",
+        "race-mcq-21",
+        "race-mcq-16"
       ],
-      "explanation": "留意語境：race = group of humans traditionally classified by shared ancestry/physical traits（族群分類）。這裡指「種族；人種」。",
+      "explanation": "本句的「race and ethnicity」指「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」。",
       "sentenceIndex": 41,
       "sourcePractice": 42,
       "targets": [
         "race and ethnicity"
       ],
       "optionReasons": {
-        "race-21": "本句的意思是「種族；人種」。",
-        "race-22": "「種族的；與種族有關的」與本句語境不同。",
-        "race-23": "「種族主義；種族歧視」與本句語境不同。",
-        "race-24": "「人類；全人類」與本句語境不同。",
-        "race-25": "「品系；種類」與本句語境不同。",
-        "race-26": "「快速做完；飛快讀完」與本句語境不同。"
-      }
+        "race-mcq-19": "本句指「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」。",
+        "race-mcq-18": "「為車輛、跑步或其他速度競賽設計的賽道」是「racetrack」的用法，與本句語境不同。",
+        "race-mcq-20": "「與種族分類、身份或不同種族群體關係有關的」是「racial」的用法，與本句語境不同。",
+        "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。",
+        "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
+        "race-mcq-16": "「參與競速比賽的人、動物或車輛」是「racer」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-19"
     },
     {
       "id": "race-21-1",
-      "sense": "race-21",
+      "sense": "race-mcq-19",
       "en": "The study examined differences in reported experiences across racial groups.",
       "zh": "這項研究分析不同種族群體所報告經歷的差異。",
       "masked": "The study examined differences in reported experiences across ____ groups.",
       "options": [
-        "race-21",
-        "race-22",
-        "race-23",
-        "race-24",
-        "race-25",
-        "race-26"
+        "race-mcq-19",
+        "race-mcq-18",
+        "race-mcq-20",
+        "race-mcq-17",
+        "race-mcq-21",
+        "race-mcq-16"
       ],
-      "explanation": "留意語境：race = group of humans traditionally classified by shared ancestry/physical traits（族群分類）。這裡指「種族；人種」。",
+      "explanation": "本句的「racial」指「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」。",
       "sentenceIndex": 42,
       "sourcePractice": 43,
       "targets": [
         "racial"
       ],
       "optionReasons": {
-        "race-21": "本句的意思是「種族；人種」。",
-        "race-22": "「種族的；與種族有關的」與本句語境不同。",
-        "race-23": "「種族主義；種族歧視」與本句語境不同。",
-        "race-24": "「人類；全人類」與本句語境不同。",
-        "race-25": "「品系；種類」與本句語境不同。",
-        "race-26": "「快速做完；飛快讀完」與本句語境不同。"
-      }
+        "race-mcq-19": "本句指「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」。",
+        "race-mcq-18": "「為車輛、跑步或其他速度競賽設計的賽道」是「racetrack」的用法，與本句語境不同。",
+        "race-mcq-20": "「與種族分類、身份或不同種族群體關係有關的」是「racial」的用法，與本句語境不同。",
+        "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。",
+        "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
+        "race-mcq-16": "「參與競速比賽的人、動物或車輛」是「racer」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-19"
     },
     {
       "id": "race-22-0",
-      "sense": "race-22",
+      "sense": "race-mcq-20",
       "en": "The organization provides training on racial equality.",
       "zh": "該機構提供有關種族平等的培訓。",
       "masked": "The organization provides training on ____.",
       "options": [
-        "race-22",
-        "race-23",
-        "race-24",
-        "race-25",
-        "race-26",
-        "race-27"
+        "race-mcq-20",
+        "race-mcq-19",
+        "race-mcq-21",
+        "race-mcq-18",
+        "race-mcq-22",
+        "race-mcq-17"
       ],
-      "explanation": "留意語境：racial（種族相關的）。這裡指「種族的；與種族有關的」。",
+      "explanation": "本句的「racial equality」指「與種族分類、身份或不同種族群體關係有關的」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "targets": [
         "racial equality"
       ],
       "optionReasons": {
-        "race-22": "本句的意思是「種族的；與種族有關的」。",
-        "race-23": "「種族主義；種族歧視」與本句語境不同。",
-        "race-24": "「人類；全人類」與本句語境不同。",
-        "race-25": "「品系；種類」與本句語境不同。",
-        "race-26": "「快速做完；飛快讀完」與本句語境不同。",
-        "race-27": "「快速領先；迅速向前」與本句語境不同。"
-      }
+        "race-mcq-20": "本句指「與種族分類、身份或不同種族群體關係有關的」。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。",
+        "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
+        "race-mcq-18": "「為車輛、跑步或其他速度競賽設計的賽道」是「racetrack」的用法，與本句語境不同。",
+        "race-mcq-22": "「以非常快的速度完成、閱讀或處理某件事」是「race through something」的用法，與本句語境不同。",
+        "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-20"
     },
     {
       "id": "race-22-1",
-      "sense": "race-22",
+      "sense": "race-mcq-20",
       "en": "The report discusses racial discrimination.",
       "zh": "報告討論種族歧視問題。",
       "masked": "The report discusses ____.",
       "options": [
-        "race-22",
-        "race-23",
-        "race-24",
-        "race-25",
-        "race-26",
-        "race-27"
+        "race-mcq-20",
+        "race-mcq-19",
+        "race-mcq-21",
+        "race-mcq-18",
+        "race-mcq-22",
+        "race-mcq-17"
       ],
-      "explanation": "留意語境：racial（種族相關的）。這裡指「種族的；與種族有關的」。",
+      "explanation": "本句的「racial discrimination」指「與種族分類、身份或不同種族群體關係有關的」。",
       "sentenceIndex": 44,
       "sourcePractice": 45,
       "targets": [
         "racial discrimination"
       ],
       "optionReasons": {
-        "race-22": "本句的意思是「種族的；與種族有關的」。",
-        "race-23": "「種族主義；種族歧視」與本句語境不同。",
-        "race-24": "「人類；全人類」與本句語境不同。",
-        "race-25": "「品系；種類」與本句語境不同。",
-        "race-26": "「快速做完；飛快讀完」與本句語境不同。",
-        "race-27": "「快速領先；迅速向前」與本句語境不同。"
-      }
+        "race-mcq-20": "本句指「與種族分類、身份或不同種族群體關係有關的」。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。",
+        "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
+        "race-mcq-18": "「為車輛、跑步或其他速度競賽設計的賽道」是「racetrack」的用法，與本句語境不同。",
+        "race-mcq-22": "「以非常快的速度完成、閱讀或處理某件事」是「race through something」的用法，與本句語境不同。",
+        "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-20"
     },
     {
       "id": "race-23-0",
-      "sense": "race-23",
+      "sense": "race-mcq-20",
       "en": "The campaign aims to challenge racism.",
       "zh": "這項運動旨在反對種族主義／種族歧視。",
       "masked": "The campaign aims to challenge ____.",
       "options": [
-        "race-23",
-        "race-24",
-        "race-25",
-        "race-26",
-        "race-27",
-        "race-28"
+        "race-mcq-20",
+        "race-mcq-19",
+        "race-mcq-21",
+        "race-mcq-18",
+        "race-mcq-22",
+        "race-mcq-17"
       ],
-      "explanation": "留意語境：racism（種族歧視／種族主義）。這裡指「種族主義；種族歧視」。",
+      "explanation": "本句的「racism」指「與種族分類、身份或不同種族群體關係有關的」。",
       "sentenceIndex": 45,
       "sourcePractice": 46,
       "targets": [
         "racism"
       ],
       "optionReasons": {
-        "race-23": "本句的意思是「種族主義；種族歧視」。",
-        "race-24": "「人類；全人類」與本句語境不同。",
-        "race-25": "「品系；種類」與本句語境不同。",
-        "race-26": "「快速做完；飛快讀完」與本句語境不同。",
-        "race-27": "「快速領先；迅速向前」與本句語境不同。",
-        "race-28": "「匆匆趕來趕去」與本句語境不同。"
-      }
+        "race-mcq-20": "本句指「與種族分類、身份或不同種族群體關係有關的」。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。",
+        "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
+        "race-mcq-18": "「為車輛、跑步或其他速度競賽設計的賽道」是「racetrack」的用法，與本句語境不同。",
+        "race-mcq-22": "「以非常快的速度完成、閱讀或處理某件事」是「race through something」的用法，與本句語境不同。",
+        "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-20"
     },
     {
       "id": "race-23-1",
-      "sense": "race-23",
+      "sense": "race-mcq-20",
       "en": "The company has policies against racism.",
       "zh": "公司有反對種族歧視的政策。",
       "masked": "The company has policies against ____.",
       "options": [
-        "race-23",
-        "race-24",
-        "race-25",
-        "race-26",
-        "race-27",
-        "race-28"
+        "race-mcq-20",
+        "race-mcq-19",
+        "race-mcq-21",
+        "race-mcq-18",
+        "race-mcq-22",
+        "race-mcq-17"
       ],
-      "explanation": "留意語境：racism（種族歧視／種族主義）。這裡指「種族主義；種族歧視」。",
+      "explanation": "本句的「racism」指「與種族分類、身份或不同種族群體關係有關的」。",
       "sentenceIndex": 46,
       "sourcePractice": 47,
       "targets": [
         "racism"
       ],
       "optionReasons": {
-        "race-23": "本句的意思是「種族主義；種族歧視」。",
-        "race-24": "「人類；全人類」與本句語境不同。",
-        "race-25": "「品系；種類」與本句語境不同。",
-        "race-26": "「快速做完；飛快讀完」與本句語境不同。",
-        "race-27": "「快速領先；迅速向前」與本句語境不同。",
-        "race-28": "「匆匆趕來趕去」與本句語境不同。"
-      }
+        "race-mcq-20": "本句指「與種族分類、身份或不同種族群體關係有關的」。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。",
+        "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
+        "race-mcq-18": "「為車輛、跑步或其他速度競賽設計的賽道」是「racetrack」的用法，與本句語境不同。",
+        "race-mcq-22": "「以非常快的速度完成、閱讀或處理某件事」是「race through something」的用法，與本句語境不同。",
+        "race-mcq-17": "「特別為賽馬／競速活動而設的場地或路線」是「racecourse」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-20"
     },
     {
       "id": "race-24-0",
-      "sense": "race-24",
+      "sense": "race-mcq-21",
       "en": "Climate change affects the entire human race.",
       "zh": "氣候變化影響全人類。",
       "masked": "Climate change affects the entire ____.",
       "options": [
-        "race-24",
-        "race-25",
-        "race-26",
-        "race-27",
-        "race-28",
-        "race-01"
+        "race-mcq-21",
+        "race-mcq-20",
+        "race-mcq-22",
+        "race-mcq-19",
+        "race-mcq-23",
+        "race-mcq-18"
       ],
-      "explanation": "留意語境：human race（全人類）。這裡指「人類；全人類」。",
+      "explanation": "本句的「human race」指「全體人類作為一個整體／物種」。",
       "sentenceIndex": 47,
       "sourcePractice": 48,
       "targets": [
         "human race"
       ],
       "optionReasons": {
-        "race-24": "本句的意思是「人類；全人類」。",
-        "race-25": "「品系；種類」與本句語境不同。",
-        "race-26": "「快速做完；飛快讀完」與本句語境不同。",
-        "race-27": "「快速領先；迅速向前」與本句語境不同。",
-        "race-28": "「匆匆趕來趕去」與本句語境不同。",
-        "race-01": "「賽跑；競賽；速度比賽」與本句語境不同。"
-      }
+        "race-mcq-21": "本句指「全體人類作為一個整體／物種」。",
+        "race-mcq-20": "「與種族分類、身份或不同種族群體關係有關的」是「racial」的用法，與本句語境不同。",
+        "race-mcq-22": "「以非常快的速度完成、閱讀或處理某件事」是「race through something」的用法，與本句語境不同。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。",
+        "race-mcq-23": "「非常快速地前進、發展或取得領先」是「race ahead」的用法，與本句語境不同。",
+        "race-mcq-18": "「為車輛、跑步或其他速度競賽設計的賽道」是「racetrack」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-21"
     },
     {
       "id": "race-24-1",
-      "sense": "race-24",
+      "sense": "race-mcq-21",
       "en": "The discovery could benefit the human race.",
       "zh": "這項發現可能令整個人類受益。",
       "masked": "The discovery could benefit the ____.",
       "options": [
-        "race-24",
-        "race-25",
-        "race-26",
-        "race-27",
-        "race-28",
-        "race-01"
+        "race-mcq-21",
+        "race-mcq-20",
+        "race-mcq-22",
+        "race-mcq-19",
+        "race-mcq-23",
+        "race-mcq-18"
       ],
-      "explanation": "留意語境：human race（全人類）。這裡指「人類；全人類」。",
+      "explanation": "本句的「human race」指「全體人類作為一個整體／物種」。",
       "sentenceIndex": 48,
       "sourcePractice": 49,
       "targets": [
         "human race"
       ],
       "optionReasons": {
-        "race-24": "本句的意思是「人類；全人類」。",
-        "race-25": "「品系；種類」與本句語境不同。",
-        "race-26": "「快速做完；飛快讀完」與本句語境不同。",
-        "race-27": "「快速領先；迅速向前」與本句語境不同。",
-        "race-28": "「匆匆趕來趕去」與本句語境不同。",
-        "race-01": "「賽跑；競賽；速度比賽」與本句語境不同。"
-      }
+        "race-mcq-21": "本句指「全體人類作為一個整體／物種」。",
+        "race-mcq-20": "「與種族分類、身份或不同種族群體關係有關的」是「racial」的用法，與本句語境不同。",
+        "race-mcq-22": "「以非常快的速度完成、閱讀或處理某件事」是「race through something」的用法，與本句語境不同。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。",
+        "race-mcq-23": "「非常快速地前進、發展或取得領先」是「race ahead」的用法，與本句語境不同。",
+        "race-mcq-18": "「為車輛、跑步或其他速度競賽設計的賽道」是「racetrack」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-21"
     },
     {
       "id": "race-25-0",
-      "sense": "race-25",
+      "sense": "race-mcq-22",
       "en": "The text refers to an ancient race of horses.",
       "zh": "文章提到一種古老的馬匹品系。",
       "masked": "The text refers to an ancient ____.",
       "options": [
-        "race-25",
-        "race-26",
-        "race-27",
-        "race-28",
-        "race-01",
-        "race-02"
+        "race-mcq-22",
+        "race-mcq-21",
+        "race-mcq-23",
+        "race-mcq-20",
+        "race-mcq-24",
+        "race-mcq-19"
       ],
-      "explanation": "留意語境：race = breed/lineage of animals（品種／血統；較舊／專門）。這裡指「品系；種類」。",
+      "explanation": "本句的「race of horses」指「以非常快的速度完成、閱讀或處理某件事」。",
       "sentenceIndex": 49,
       "sourcePractice": 50,
       "targets": [
         "race of horses"
       ],
       "optionReasons": {
-        "race-25": "本句的意思是「品系；種類」。",
-        "race-26": "「快速做完；飛快讀完」與本句語境不同。",
-        "race-27": "「快速領先；迅速向前」與本句語境不同。",
-        "race-28": "「匆匆趕來趕去」與本句語境不同。",
-        "race-01": "「賽跑；競賽；速度比賽」與本句語境不同。",
-        "race-02": "「賽跑；競賽」與本句語境不同。"
-      }
+        "race-mcq-22": "本句指「以非常快的速度完成、閱讀或處理某件事」。",
+        "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
+        "race-mcq-23": "「非常快速地前進、發展或取得領先」是「race ahead」的用法，與本句語境不同。",
+        "race-mcq-20": "「與種族分類、身份或不同種族群體關係有關的」是「racial」的用法，與本句語境不同。",
+        "race-mcq-24": "「因時間緊迫而在不同地方／工作之間快速奔波」是「race from X to Y」的用法，與本句語境不同。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-22"
     },
     {
       "id": "race-25-1",
-      "sense": "race-25",
+      "sense": "race-mcq-22",
       "en": "The species developed into several distinct local races.",
       "zh": "這個物種發展出幾個不同的地方類群／品系。",
       "masked": "The species developed into several distinct local ____.",
       "options": [
-        "race-25",
-        "race-26",
-        "race-27",
-        "race-28",
-        "race-01",
-        "race-02"
+        "race-mcq-22",
+        "race-mcq-21",
+        "race-mcq-23",
+        "race-mcq-20",
+        "race-mcq-24",
+        "race-mcq-19"
       ],
-      "explanation": "留意語境：race = breed/lineage of animals（品種／血統；較舊／專門）。這裡指「品系；種類」。",
+      "explanation": "本句的「races」指「以非常快的速度完成、閱讀或處理某件事」。",
       "sentenceIndex": 50,
       "sourcePractice": 51,
       "targets": [
         "races"
       ],
       "optionReasons": {
-        "race-25": "本句的意思是「品系；種類」。",
-        "race-26": "「快速做完；飛快讀完」與本句語境不同。",
-        "race-27": "「快速領先；迅速向前」與本句語境不同。",
-        "race-28": "「匆匆趕來趕去」與本句語境不同。",
-        "race-01": "「賽跑；競賽；速度比賽」與本句語境不同。",
-        "race-02": "「賽跑；競賽」與本句語境不同。"
-      }
+        "race-mcq-22": "本句指「以非常快的速度完成、閱讀或處理某件事」。",
+        "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
+        "race-mcq-23": "「非常快速地前進、發展或取得領先」是「race ahead」的用法，與本句語境不同。",
+        "race-mcq-20": "「與種族分類、身份或不同種族群體關係有關的」是「racial」的用法，與本句語境不同。",
+        "race-mcq-24": "「因時間緊迫而在不同地方／工作之間快速奔波」是「race from X to Y」的用法，與本句語境不同。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-22"
     },
     {
       "id": "race-26-0",
-      "sense": "race-26",
+      "sense": "race-mcq-22",
       "en": "She raced through the final slides.",
       "zh": "她飛快地講完／略過最後幾張投影片。",
       "masked": "She ____ the final slides.",
       "options": [
-        "race-26",
-        "race-27",
-        "race-28",
-        "race-01",
-        "race-02",
-        "race-03"
+        "race-mcq-22",
+        "race-mcq-21",
+        "race-mcq-23",
+        "race-mcq-20",
+        "race-mcq-24",
+        "race-mcq-19"
       ],
-      "explanation": "留意語境：race through + work/book/task（飛快完成／閱讀）。這裡指「快速做完；飛快讀完」。",
+      "explanation": "本句的「raced through」指「以非常快的速度完成、閱讀或處理某件事」。",
       "sentenceIndex": 51,
       "sourcePractice": 52,
       "targets": [
         "raced through"
       ],
       "optionReasons": {
-        "race-26": "本句的意思是「快速做完；飛快讀完」。",
-        "race-27": "「快速領先；迅速向前」與本句語境不同。",
-        "race-28": "「匆匆趕來趕去」與本句語境不同。",
-        "race-01": "「賽跑；競賽；速度比賽」與本句語境不同。",
-        "race-02": "「賽跑；競賽」與本句語境不同。",
-        "race-03": "「與……比速度」與本句語境不同。"
-      }
+        "race-mcq-22": "本句指「以非常快的速度完成、閱讀或處理某件事」。",
+        "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
+        "race-mcq-23": "「非常快速地前進、發展或取得領先」是「race ahead」的用法，與本句語境不同。",
+        "race-mcq-20": "「與種族分類、身份或不同種族群體關係有關的」是「racial」的用法，與本句語境不同。",
+        "race-mcq-24": "「因時間緊迫而在不同地方／工作之間快速奔波」是「race from X to Y」的用法，與本句語境不同。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-22"
     },
     {
       "id": "race-26-1",
-      "sense": "race-26",
+      "sense": "race-mcq-22",
       "en": "I raced through the report before the meeting.",
       "zh": "我在會議前快速看完了報告。",
       "masked": "I ____ the report before the meeting.",
       "options": [
-        "race-26",
-        "race-27",
-        "race-28",
-        "race-01",
-        "race-02",
-        "race-03"
+        "race-mcq-22",
+        "race-mcq-21",
+        "race-mcq-23",
+        "race-mcq-20",
+        "race-mcq-24",
+        "race-mcq-19"
       ],
-      "explanation": "留意語境：race through + work/book/task（飛快完成／閱讀）。這裡指「快速做完；飛快讀完」。",
+      "explanation": "本句的「raced through」指「以非常快的速度完成、閱讀或處理某件事」。",
       "sentenceIndex": 52,
       "sourcePractice": 53,
       "targets": [
         "raced through"
       ],
       "optionReasons": {
-        "race-26": "本句的意思是「快速做完；飛快讀完」。",
-        "race-27": "「快速領先；迅速向前」與本句語境不同。",
-        "race-28": "「匆匆趕來趕去」與本句語境不同。",
-        "race-01": "「賽跑；競賽；速度比賽」與本句語境不同。",
-        "race-02": "「賽跑；競賽」與本句語境不同。",
-        "race-03": "「與……比速度」與本句語境不同。"
-      }
+        "race-mcq-22": "本句指「以非常快的速度完成、閱讀或處理某件事」。",
+        "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
+        "race-mcq-23": "「非常快速地前進、發展或取得領先」是「race ahead」的用法，與本句語境不同。",
+        "race-mcq-20": "「與種族分類、身份或不同種族群體關係有關的」是「racial」的用法，與本句語境不同。",
+        "race-mcq-24": "「因時間緊迫而在不同地方／工作之間快速奔波」是「race from X to Y」的用法，與本句語境不同。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-22"
     },
     {
       "id": "race-27-0",
-      "sense": "race-27",
+      "sense": "race-mcq-23",
       "en": "The company raced ahead of its competitors.",
       "zh": "公司迅速領先競爭對手。",
       "masked": "The company ____ of its competitors.",
       "options": [
-        "race-27",
-        "race-28",
-        "race-01",
-        "race-02",
-        "race-03",
-        "race-04"
+        "race-mcq-23",
+        "race-mcq-22",
+        "race-mcq-24",
+        "race-mcq-21",
+        "race-mcq-20",
+        "race-mcq-19"
       ],
-      "explanation": "留意語境：race ahead（迅速領先／快速發展）。這裡指「快速領先；迅速向前」。",
+      "explanation": "本句的「raced ahead」指「非常快速地前進、發展或取得領先」。",
       "sentenceIndex": 53,
       "sourcePractice": 54,
       "targets": [
         "raced ahead"
       ],
       "optionReasons": {
-        "race-27": "本句的意思是「快速領先；迅速向前」。",
-        "race-28": "「匆匆趕來趕去」與本句語境不同。",
-        "race-01": "「賽跑；競賽；速度比賽」與本句語境不同。",
-        "race-02": "「賽跑；競賽」與本句語境不同。",
-        "race-03": "「與……比速度」與本句語境不同。",
-        "race-04": "「飛奔；急速趕往」與本句語境不同。"
-      }
+        "race-mcq-23": "本句指「非常快速地前進、發展或取得領先」。",
+        "race-mcq-22": "「以非常快的速度完成、閱讀或處理某件事」是「race through something」的用法，與本句語境不同。",
+        "race-mcq-24": "「因時間緊迫而在不同地方／工作之間快速奔波」是「race from X to Y」的用法，與本句語境不同。",
+        "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
+        "race-mcq-20": "「與種族分類、身份或不同種族群體關係有關的」是「racial」的用法，與本句語境不同。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-23"
     },
     {
       "id": "race-27-1",
-      "sense": "race-27",
+      "sense": "race-mcq-23",
       "en": "Technology is racing ahead.",
       "zh": "科技正在飛速發展。",
       "masked": "Technology is ____.",
       "options": [
-        "race-27",
-        "race-28",
-        "race-01",
-        "race-02",
-        "race-03",
-        "race-04"
+        "race-mcq-23",
+        "race-mcq-22",
+        "race-mcq-24",
+        "race-mcq-21",
+        "race-mcq-20",
+        "race-mcq-19"
       ],
-      "explanation": "留意語境：race ahead（迅速領先／快速發展）。這裡指「快速領先；迅速向前」。",
+      "explanation": "本句的「racing ahead」指「非常快速地前進、發展或取得領先」。",
       "sentenceIndex": 54,
       "sourcePractice": 55,
       "targets": [
         "racing ahead"
       ],
       "optionReasons": {
-        "race-27": "本句的意思是「快速領先；迅速向前」。",
-        "race-28": "「匆匆趕來趕去」與本句語境不同。",
-        "race-01": "「賽跑；競賽；速度比賽」與本句語境不同。",
-        "race-02": "「賽跑；競賽」與本句語境不同。",
-        "race-03": "「與……比速度」與本句語境不同。",
-        "race-04": "「飛奔；急速趕往」與本句語境不同。"
-      }
+        "race-mcq-23": "本句指「非常快速地前進、發展或取得領先」。",
+        "race-mcq-22": "「以非常快的速度完成、閱讀或處理某件事」是「race through something」的用法，與本句語境不同。",
+        "race-mcq-24": "「因時間緊迫而在不同地方／工作之間快速奔波」是「race from X to Y」的用法，與本句語境不同。",
+        "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
+        "race-mcq-20": "「與種族分類、身份或不同種族群體關係有關的」是「racial」的用法，與本句語境不同。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-23"
     },
     {
       "id": "race-28-0",
-      "sense": "race-28",
+      "sense": "race-mcq-24",
       "en": "She spent the morning racing from one meeting to another.",
       "zh": "她整個早上都在不同會議之間匆忙趕來趕去。",
       "masked": "She spent the morning ____.",
       "options": [
-        "race-28",
-        "race-01",
-        "race-02",
-        "race-03",
-        "race-04",
-        "race-05"
+        "race-mcq-24",
+        "race-mcq-23",
+        "race-mcq-22",
+        "race-mcq-21",
+        "race-mcq-20",
+        "race-mcq-19"
       ],
-      "explanation": "留意語境：race from one thing/place to another（匆忙奔波）。這裡指「匆匆趕來趕去」。",
+      "explanation": "本句的「racing from one meeting to another」指「因時間緊迫而在不同地方／工作之間快速奔波」。",
       "sentenceIndex": 55,
       "sourcePractice": 56,
       "targets": [
         "racing from one meeting to another"
       ],
       "optionReasons": {
-        "race-28": "本句的意思是「匆匆趕來趕去」。",
-        "race-01": "「賽跑；競賽；速度比賽」與本句語境不同。",
-        "race-02": "「賽跑；競賽」與本句語境不同。",
-        "race-03": "「與……比速度」與本句語境不同。",
-        "race-04": "「飛奔；急速趕往」與本句語境不同。",
-        "race-05": "「飛快離開；趕回」與本句語境不同。"
-      }
+        "race-mcq-24": "本句指「因時間緊迫而在不同地方／工作之間快速奔波」。",
+        "race-mcq-23": "「非常快速地前進、發展或取得領先」是「race ahead」的用法，與本句語境不同。",
+        "race-mcq-22": "「以非常快的速度完成、閱讀或處理某件事」是「race through something」的用法，與本句語境不同。",
+        "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
+        "race-mcq-20": "「與種族分類、身份或不同種族群體關係有關的」是「racial」的用法，與本句語境不同。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-24"
     },
     {
       "id": "race-28-1",
-      "sense": "race-28",
+      "sense": "race-mcq-24",
       "en": "I was racing from task to task all day.",
       "zh": "我整天都在不同工作之間忙著趕來趕去。",
       "masked": "I was ____ all day.",
       "options": [
-        "race-28",
-        "race-01",
-        "race-02",
-        "race-03",
-        "race-04",
-        "race-05"
+        "race-mcq-24",
+        "race-mcq-23",
+        "race-mcq-22",
+        "race-mcq-21",
+        "race-mcq-20",
+        "race-mcq-19"
       ],
-      "explanation": "留意語境：race from one thing/place to another（匆忙奔波）。這裡指「匆匆趕來趕去」。",
+      "explanation": "本句的「racing from task to task」指「因時間緊迫而在不同地方／工作之間快速奔波」。",
       "sentenceIndex": 56,
       "sourcePractice": 57,
       "targets": [
         "racing from task to task"
       ],
       "optionReasons": {
-        "race-28": "本句的意思是「匆匆趕來趕去」。",
-        "race-01": "「賽跑；競賽；速度比賽」與本句語境不同。",
-        "race-02": "「賽跑；競賽」與本句語境不同。",
-        "race-03": "「與……比速度」與本句語境不同。",
-        "race-04": "「飛奔；急速趕往」與本句語境不同。",
-        "race-05": "「飛快離開；趕回」與本句語境不同。"
-      }
+        "race-mcq-24": "本句指「因時間緊迫而在不同地方／工作之間快速奔波」。",
+        "race-mcq-23": "「非常快速地前進、發展或取得領先」是「race ahead」的用法，與本句語境不同。",
+        "race-mcq-22": "「以非常快的速度完成、閱讀或處理某件事」是「race through something」的用法，與本句語境不同。",
+        "race-mcq-21": "「全體人類作為一個整體／物種」是「human race」的用法，與本句語境不同。",
+        "race-mcq-20": "「與種族分類、身份或不同種族群體關係有關的」是「racial」的用法，與本句語境不同。",
+        "race-mcq-19": "「社會／歷史上按祖源及被認為共有的外貌特徵等因素形成的人群分類概念」是「race — social category」的用法，與本句語境不同。"
+      },
+      "correctOption": "race-mcq-24"
     }
   ],
   "comparisons": [],
@@ -2484,5 +2297,6 @@ export default {
     "file": "334_race_Polysemy Exercise.pdf",
     "sha256": "ed5b658676c8d01f16f77b3a26e44ed4b804de1f98ba005d84c2daafe8eac17c",
     "pages": 23
-  }
+  },
+  "mcqSource": "master-comparison"
 };

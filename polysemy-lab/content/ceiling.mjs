@@ -2,420 +2,400 @@ export default {
   "id": "ceiling",
   "word": "ceiling",
   "number": 550,
-  "version": 1,
+  "version": 2,
   "mass": true,
   "senses": [
     {
-      "id": "ceiling-01",
-      "title": "天花板",
-      "form": "ceiling = upper interior surface of a room（建築）",
-      "en": "The top inside surface of a room or enclosed space.",
-      "zh": "天花板",
-      "note": "留意語境：ceiling = upper interior surface of a room（建築）。這裡指「天花板」。",
+      "id": "ceiling-mcq-01",
+      "title": "房間或建築物內部最上方的表面；天花板",
+      "form": "ceiling — room/building",
+      "en": "ceiling — room/building",
+      "zh": "房間或建築物內部最上方的表面；天花板",
+      "note": "來源詞義：房間或建築物內部最上方的表面；天花板",
       "examples": [
         [
           "The ceilings are high.",
           "天花板很高。",
-          "天花板"
+          "房間或建築物內部最上方的表面；天花板"
         ],
         [
           "The bedroom has a low ceiling.",
           "睡房的天花板很低。",
-          "天花板"
+          "房間或建築物內部最上方的表面；天花板"
         ],
         [
           "A light was hanging from the ceiling.",
           "一盞燈從天花板垂下來。",
-          "天花板"
+          "房間或建築物內部最上方的表面；天花板"
         ]
       ],
-      "options": [
-        "ceiling-01",
-        "ceiling-02",
-        "ceiling-03",
-        "ceiling-04",
-        "ceiling-05"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "ceiling-02",
-      "title": "上限；最高限度",
-      "form": "ceiling = upper limit / maximum allowed level（上限）",
-      "en": "ceiling = upper limit / maximum allowed level（上限）",
-      "zh": "上限；最高限度",
-      "note": "留意語境：ceiling = upper limit / maximum allowed level（上限）。這裡指「上限；最高限度」。",
+      "id": "ceiling-mcq-02",
+      "title": "價格、支出、數值、能力等所能達到或被允許的最高限度",
+      "form": "ceiling — upper limit",
+      "en": "ceiling — upper limit",
+      "zh": "價格、支出、數值、能力等所能達到或被允許的最高限度",
+      "note": "來源詞義：價格、支出、數值、能力等所能達到或被允許的最高限度",
       "examples": [
         [
           "The government introduced a price ceiling.",
           "政府設立了價格上限。",
-          "上限；最高限度"
+          "價格、支出、數值、能力等所能達到或被允許的最高限度"
         ],
         [
           "There is a strict spending ceiling.",
           "支出有嚴格的上限。",
-          "上限；最高限度"
+          "價格、支出、數值、能力等所能達到或被允許的最高限度"
         ]
       ],
-      "options": [
-        "ceiling-02",
-        "ceiling-03",
-        "ceiling-04",
-        "ceiling-05",
-        "ceiling-01"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "ceiling-03",
-      "title": "上限；瓶頸",
-      "form": "ceiling = highest possible level someone can reach（發展／晉升）",
-      "en": "ceiling = highest possible level someone can reach（發展／晉升）",
-      "zh": "上限；瓶頸",
-      "note": "留意語境：ceiling = highest possible level someone can reach（發展／晉升）。這裡指「上限；瓶頸」。",
+      "id": "ceiling-mcq-03",
+      "title": "發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義",
+      "form": "ceiling — career/potential",
+      "en": "ceiling — career/potential",
+      "zh": "發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義",
+      "note": "來源詞義：發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義",
       "examples": [
         [
           "She felt she had reached a ceiling in her career.",
           "她覺得自己的職業發展已經碰到上限／瓶頸。",
-          "上限；瓶頸"
+          "發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義"
         ],
         [
           "The role offers a higher earning ceiling.",
           "這個職位有更高的收入上限。",
-          "上限；瓶頸"
+          "發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義"
         ]
       ],
-      "options": [
-        "ceiling-03",
-        "ceiling-04",
-        "ceiling-05",
-        "ceiling-01",
-        "ceiling-02"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "ceiling-04",
-      "title": "升限；上界",
-      "form": "ceiling = maximum altitude / upper boundary（航空／空間）",
-      "en": "ceiling = maximum altitude / upper boundary（航空／空間）",
-      "zh": "升限；上界",
-      "note": "留意語境：ceiling = maximum altitude / upper boundary（航空／空間）。這裡指「升限；上界」。",
+      "id": "ceiling-mcq-04",
+      "title": "航空或氣象中的高度上限／雲幕高度",
+      "form": "ceiling — aviation/weather",
+      "en": "ceiling — aviation/weather",
+      "zh": "航空或氣象中的高度上限／雲幕高度",
+      "note": "來源詞義：航空或氣象中的高度上限／雲幕高度",
       "examples": [
         [
           "The aircraft has a service ceiling of 12,000 metres.",
           "這架飛機的實用升限是 12,000 米。",
-          "升限；上界"
+          "航空或氣象中的高度上限／雲幕高度"
         ],
         [
           "The cloud ceiling was very low.",
           "雲底高度／雲幕高度很低。",
-          "升限；上界"
+          "航空或氣象中的高度上限／雲幕高度"
         ]
       ],
-      "options": [
-        "ceiling-04",
-        "ceiling-05",
-        "ceiling-01",
-        "ceiling-02",
-        "ceiling-03"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "ceiling-05",
-      "title": "無形上限",
-      "form": "ceiling = barrier to advancement（固定比喻）",
-      "en": "ceiling = barrier to advancement（固定比喻）",
-      "zh": "無形上限",
-      "note": "留意語境：ceiling = barrier to advancement（固定比喻）。這裡指「無形上限」。",
+      "id": "ceiling-mcq-05",
+      "title": "阻礙某些群體晉升的無形障礙",
+      "form": "glass ceiling",
+      "en": "glass ceiling",
+      "zh": "阻礙某些群體晉升的無形障礙",
+      "note": "來源詞義：阻礙某些群體晉升的無形障礙",
       "examples": [
         [
           "Many women still face a glass ceiling in some industries.",
           "很多女性在某些行業仍面對玻璃天花板／無形晉升障礙。",
-          "無形上限"
+          "阻礙某些群體晉升的無形障礙"
         ]
       ],
-      "options": [
-        "ceiling-05",
-        "ceiling-01",
-        "ceiling-02",
-        "ceiling-03",
-        "ceiling-04"
-      ],
+      "options": [],
       "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "ceiling-01-0",
-      "sense": "ceiling-01",
+      "sense": "ceiling-mcq-01",
       "en": "The ceilings are high.",
       "zh": "天花板很高。",
       "masked": "The ____ are high.",
       "options": [
-        "ceiling-01",
-        "ceiling-02",
-        "ceiling-03",
-        "ceiling-04",
-        "ceiling-05"
+        "ceiling-mcq-01",
+        "ceiling-mcq-02",
+        "ceiling-mcq-03",
+        "ceiling-mcq-04",
+        "ceiling-mcq-05"
       ],
-      "explanation": "留意語境：ceiling = upper interior surface of a room（建築）。這裡指「天花板」。",
+      "explanation": "本句的「ceilings」指「房間或建築物內部最上方的表面；天花板」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "ceilings"
       ],
       "optionReasons": {
-        "ceiling-01": "本句的意思是「天花板」。",
-        "ceiling-02": "「上限；最高限度」與本句語境不同。",
-        "ceiling-03": "「上限；瓶頸」與本句語境不同。",
-        "ceiling-04": "「升限；上界」與本句語境不同。",
-        "ceiling-05": "「無形上限」與本句語境不同。"
-      }
+        "ceiling-mcq-01": "本句指「房間或建築物內部最上方的表面；天花板」。",
+        "ceiling-mcq-02": "「價格、支出、數值、能力等所能達到或被允許的最高限度」是「ceiling — upper limit」的用法，與本句語境不同。",
+        "ceiling-mcq-03": "「發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義」是「ceiling — career/potential」的用法，與本句語境不同。",
+        "ceiling-mcq-04": "「航空或氣象中的高度上限／雲幕高度」是「ceiling — aviation/weather」的用法，與本句語境不同。",
+        "ceiling-mcq-05": "「阻礙某些群體晉升的無形障礙」是「glass ceiling」的用法，與本句語境不同。"
+      },
+      "correctOption": "ceiling-mcq-01"
     },
     {
       "id": "ceiling-01-1",
-      "sense": "ceiling-01",
+      "sense": "ceiling-mcq-01",
       "en": "The bedroom has a low ceiling.",
       "zh": "睡房的天花板很低。",
       "masked": "The bedroom has a low ____.",
       "options": [
-        "ceiling-01",
-        "ceiling-02",
-        "ceiling-03",
-        "ceiling-04",
-        "ceiling-05"
+        "ceiling-mcq-01",
+        "ceiling-mcq-02",
+        "ceiling-mcq-03",
+        "ceiling-mcq-04",
+        "ceiling-mcq-05"
       ],
-      "explanation": "留意語境：ceiling = upper interior surface of a room（建築）。這裡指「天花板」。",
+      "explanation": "本句的「ceiling」指「房間或建築物內部最上方的表面；天花板」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "ceiling"
       ],
       "optionReasons": {
-        "ceiling-01": "本句的意思是「天花板」。",
-        "ceiling-02": "「上限；最高限度」與本句語境不同。",
-        "ceiling-03": "「上限；瓶頸」與本句語境不同。",
-        "ceiling-04": "「升限；上界」與本句語境不同。",
-        "ceiling-05": "「無形上限」與本句語境不同。"
-      }
+        "ceiling-mcq-01": "本句指「房間或建築物內部最上方的表面；天花板」。",
+        "ceiling-mcq-02": "「價格、支出、數值、能力等所能達到或被允許的最高限度」是「ceiling — upper limit」的用法，與本句語境不同。",
+        "ceiling-mcq-03": "「發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義」是「ceiling — career/potential」的用法，與本句語境不同。",
+        "ceiling-mcq-04": "「航空或氣象中的高度上限／雲幕高度」是「ceiling — aviation/weather」的用法，與本句語境不同。",
+        "ceiling-mcq-05": "「阻礙某些群體晉升的無形障礙」是「glass ceiling」的用法，與本句語境不同。"
+      },
+      "correctOption": "ceiling-mcq-01"
     },
     {
       "id": "ceiling-01-2",
-      "sense": "ceiling-01",
+      "sense": "ceiling-mcq-01",
       "en": "A light was hanging from the ceiling.",
       "zh": "一盞燈從天花板垂下來。",
       "masked": "A light was hanging from the ____.",
       "options": [
-        "ceiling-01",
-        "ceiling-02",
-        "ceiling-03",
-        "ceiling-04",
-        "ceiling-05"
+        "ceiling-mcq-01",
+        "ceiling-mcq-02",
+        "ceiling-mcq-03",
+        "ceiling-mcq-04",
+        "ceiling-mcq-05"
       ],
-      "explanation": "留意語境：ceiling = upper interior surface of a room（建築）。這裡指「天花板」。",
+      "explanation": "本句的「ceiling」指「房間或建築物內部最上方的表面；天花板」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "ceiling"
       ],
       "optionReasons": {
-        "ceiling-01": "本句的意思是「天花板」。",
-        "ceiling-02": "「上限；最高限度」與本句語境不同。",
-        "ceiling-03": "「上限；瓶頸」與本句語境不同。",
-        "ceiling-04": "「升限；上界」與本句語境不同。",
-        "ceiling-05": "「無形上限」與本句語境不同。"
-      }
+        "ceiling-mcq-01": "本句指「房間或建築物內部最上方的表面；天花板」。",
+        "ceiling-mcq-02": "「價格、支出、數值、能力等所能達到或被允許的最高限度」是「ceiling — upper limit」的用法，與本句語境不同。",
+        "ceiling-mcq-03": "「發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義」是「ceiling — career/potential」的用法，與本句語境不同。",
+        "ceiling-mcq-04": "「航空或氣象中的高度上限／雲幕高度」是「ceiling — aviation/weather」的用法，與本句語境不同。",
+        "ceiling-mcq-05": "「阻礙某些群體晉升的無形障礙」是「glass ceiling」的用法，與本句語境不同。"
+      },
+      "correctOption": "ceiling-mcq-01"
     },
     {
       "id": "ceiling-02-0",
-      "sense": "ceiling-02",
+      "sense": "ceiling-mcq-02",
       "en": "The government introduced a price ceiling.",
       "zh": "政府設立了價格上限。",
       "masked": "The government introduced a price ____.",
       "options": [
-        "ceiling-02",
-        "ceiling-03",
-        "ceiling-04",
-        "ceiling-05",
-        "ceiling-01"
+        "ceiling-mcq-02",
+        "ceiling-mcq-01",
+        "ceiling-mcq-03",
+        "ceiling-mcq-04",
+        "ceiling-mcq-05"
       ],
-      "explanation": "留意語境：ceiling = upper limit / maximum allowed level（上限）。這裡指「上限；最高限度」。",
+      "explanation": "本句的「ceiling」指「價格、支出、數值、能力等所能達到或被允許的最高限度」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "ceiling"
       ],
       "optionReasons": {
-        "ceiling-02": "本句的意思是「上限；最高限度」。",
-        "ceiling-03": "「上限；瓶頸」與本句語境不同。",
-        "ceiling-04": "「升限；上界」與本句語境不同。",
-        "ceiling-05": "「無形上限」與本句語境不同。",
-        "ceiling-01": "「天花板」與本句語境不同。"
-      }
+        "ceiling-mcq-02": "本句指「價格、支出、數值、能力等所能達到或被允許的最高限度」。",
+        "ceiling-mcq-01": "「房間或建築物內部最上方的表面；天花板」是「ceiling — room/building」的用法，與本句語境不同。",
+        "ceiling-mcq-03": "「發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義」是「ceiling — career/potential」的用法，與本句語境不同。",
+        "ceiling-mcq-04": "「航空或氣象中的高度上限／雲幕高度」是「ceiling — aviation/weather」的用法，與本句語境不同。",
+        "ceiling-mcq-05": "「阻礙某些群體晉升的無形障礙」是「glass ceiling」的用法，與本句語境不同。"
+      },
+      "correctOption": "ceiling-mcq-02"
     },
     {
       "id": "ceiling-02-1",
-      "sense": "ceiling-02",
+      "sense": "ceiling-mcq-02",
       "en": "There is a strict spending ceiling.",
       "zh": "支出有嚴格的上限。",
       "masked": "There is a strict spending ____.",
       "options": [
-        "ceiling-02",
-        "ceiling-03",
-        "ceiling-04",
-        "ceiling-05",
-        "ceiling-01"
+        "ceiling-mcq-02",
+        "ceiling-mcq-01",
+        "ceiling-mcq-03",
+        "ceiling-mcq-04",
+        "ceiling-mcq-05"
       ],
-      "explanation": "留意語境：ceiling = upper limit / maximum allowed level（上限）。這裡指「上限；最高限度」。",
+      "explanation": "本句的「ceiling」指「價格、支出、數值、能力等所能達到或被允許的最高限度」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "ceiling"
       ],
       "optionReasons": {
-        "ceiling-02": "本句的意思是「上限；最高限度」。",
-        "ceiling-03": "「上限；瓶頸」與本句語境不同。",
-        "ceiling-04": "「升限；上界」與本句語境不同。",
-        "ceiling-05": "「無形上限」與本句語境不同。",
-        "ceiling-01": "「天花板」與本句語境不同。"
-      }
+        "ceiling-mcq-02": "本句指「價格、支出、數值、能力等所能達到或被允許的最高限度」。",
+        "ceiling-mcq-01": "「房間或建築物內部最上方的表面；天花板」是「ceiling — room/building」的用法，與本句語境不同。",
+        "ceiling-mcq-03": "「發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義」是「ceiling — career/potential」的用法，與本句語境不同。",
+        "ceiling-mcq-04": "「航空或氣象中的高度上限／雲幕高度」是「ceiling — aviation/weather」的用法，與本句語境不同。",
+        "ceiling-mcq-05": "「阻礙某些群體晉升的無形障礙」是「glass ceiling」的用法，與本句語境不同。"
+      },
+      "correctOption": "ceiling-mcq-02"
     },
     {
       "id": "ceiling-03-0",
-      "sense": "ceiling-03",
+      "sense": "ceiling-mcq-03",
       "en": "She felt she had reached a ceiling in her career.",
       "zh": "她覺得自己的職業發展已經碰到上限／瓶頸。",
       "masked": "She felt she had reached a ____ in her career.",
       "options": [
-        "ceiling-03",
-        "ceiling-04",
-        "ceiling-05",
-        "ceiling-01",
-        "ceiling-02"
+        "ceiling-mcq-03",
+        "ceiling-mcq-02",
+        "ceiling-mcq-04",
+        "ceiling-mcq-01",
+        "ceiling-mcq-05"
       ],
-      "explanation": "留意語境：ceiling = highest possible level someone can reach（發展／晉升）。這裡指「上限；瓶頸」。",
+      "explanation": "本句的「ceiling」指「發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "ceiling"
       ],
       "optionReasons": {
-        "ceiling-03": "本句的意思是「上限；瓶頸」。",
-        "ceiling-04": "「升限；上界」與本句語境不同。",
-        "ceiling-05": "「無形上限」與本句語境不同。",
-        "ceiling-01": "「天花板」與本句語境不同。",
-        "ceiling-02": "「上限；最高限度」與本句語境不同。"
-      }
+        "ceiling-mcq-03": "本句指「發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義」。",
+        "ceiling-mcq-02": "「價格、支出、數值、能力等所能達到或被允許的最高限度」是「ceiling — upper limit」的用法，與本句語境不同。",
+        "ceiling-mcq-04": "「航空或氣象中的高度上限／雲幕高度」是「ceiling — aviation/weather」的用法，與本句語境不同。",
+        "ceiling-mcq-01": "「房間或建築物內部最上方的表面；天花板」是「ceiling — room/building」的用法，與本句語境不同。",
+        "ceiling-mcq-05": "「阻礙某些群體晉升的無形障礙」是「glass ceiling」的用法，與本句語境不同。"
+      },
+      "correctOption": "ceiling-mcq-03"
     },
     {
       "id": "ceiling-03-1",
-      "sense": "ceiling-03",
+      "sense": "ceiling-mcq-03",
       "en": "The role offers a higher earning ceiling.",
       "zh": "這個職位有更高的收入上限。",
       "masked": "The role offers a higher earning ____.",
       "options": [
-        "ceiling-03",
-        "ceiling-04",
-        "ceiling-05",
-        "ceiling-01",
-        "ceiling-02"
+        "ceiling-mcq-03",
+        "ceiling-mcq-02",
+        "ceiling-mcq-04",
+        "ceiling-mcq-01",
+        "ceiling-mcq-05"
       ],
-      "explanation": "留意語境：ceiling = highest possible level someone can reach（發展／晉升）。這裡指「上限；瓶頸」。",
+      "explanation": "本句的「ceiling」指「發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "ceiling"
       ],
       "optionReasons": {
-        "ceiling-03": "本句的意思是「上限；瓶頸」。",
-        "ceiling-04": "「升限；上界」與本句語境不同。",
-        "ceiling-05": "「無形上限」與本句語境不同。",
-        "ceiling-01": "「天花板」與本句語境不同。",
-        "ceiling-02": "「上限；最高限度」與本句語境不同。"
-      }
+        "ceiling-mcq-03": "本句指「發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義」。",
+        "ceiling-mcq-02": "「價格、支出、數值、能力等所能達到或被允許的最高限度」是「ceiling — upper limit」的用法，與本句語境不同。",
+        "ceiling-mcq-04": "「航空或氣象中的高度上限／雲幕高度」是「ceiling — aviation/weather」的用法，與本句語境不同。",
+        "ceiling-mcq-01": "「房間或建築物內部最上方的表面；天花板」是「ceiling — room/building」的用法，與本句語境不同。",
+        "ceiling-mcq-05": "「阻礙某些群體晉升的無形障礙」是「glass ceiling」的用法，與本句語境不同。"
+      },
+      "correctOption": "ceiling-mcq-03"
     },
     {
       "id": "ceiling-04-0",
-      "sense": "ceiling-04",
+      "sense": "ceiling-mcq-04",
       "en": "The aircraft has a service ceiling of 12,000 metres.",
       "zh": "這架飛機的實用升限是 12,000 米。",
       "masked": "The aircraft has a service ____ of 12,000 metres.",
       "options": [
-        "ceiling-04",
-        "ceiling-05",
-        "ceiling-01",
-        "ceiling-02",
-        "ceiling-03"
+        "ceiling-mcq-04",
+        "ceiling-mcq-03",
+        "ceiling-mcq-05",
+        "ceiling-mcq-02",
+        "ceiling-mcq-01"
       ],
-      "explanation": "留意語境：ceiling = maximum altitude / upper boundary（航空／空間）。這裡指「升限；上界」。",
+      "explanation": "本句的「ceiling」指「航空或氣象中的高度上限／雲幕高度」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "ceiling"
       ],
       "optionReasons": {
-        "ceiling-04": "本句的意思是「升限；上界」。",
-        "ceiling-05": "「無形上限」與本句語境不同。",
-        "ceiling-01": "「天花板」與本句語境不同。",
-        "ceiling-02": "「上限；最高限度」與本句語境不同。",
-        "ceiling-03": "「上限；瓶頸」與本句語境不同。"
-      }
+        "ceiling-mcq-04": "本句指「航空或氣象中的高度上限／雲幕高度」。",
+        "ceiling-mcq-03": "「發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義」是「ceiling — career/potential」的用法，與本句語境不同。",
+        "ceiling-mcq-05": "「阻礙某些群體晉升的無形障礙」是「glass ceiling」的用法，與本句語境不同。",
+        "ceiling-mcq-02": "「價格、支出、數值、能力等所能達到或被允許的最高限度」是「ceiling — upper limit」的用法，與本句語境不同。",
+        "ceiling-mcq-01": "「房間或建築物內部最上方的表面；天花板」是「ceiling — room/building」的用法，與本句語境不同。"
+      },
+      "correctOption": "ceiling-mcq-04"
     },
     {
       "id": "ceiling-04-1",
-      "sense": "ceiling-04",
+      "sense": "ceiling-mcq-04",
       "en": "The cloud ceiling was very low.",
       "zh": "雲底高度／雲幕高度很低。",
       "masked": "The cloud ____ was very low.",
       "options": [
-        "ceiling-04",
-        "ceiling-05",
-        "ceiling-01",
-        "ceiling-02",
-        "ceiling-03"
+        "ceiling-mcq-04",
+        "ceiling-mcq-03",
+        "ceiling-mcq-05",
+        "ceiling-mcq-02",
+        "ceiling-mcq-01"
       ],
-      "explanation": "留意語境：ceiling = maximum altitude / upper boundary（航空／空間）。這裡指「升限；上界」。",
+      "explanation": "本句的「ceiling」指「航空或氣象中的高度上限／雲幕高度」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "ceiling"
       ],
       "optionReasons": {
-        "ceiling-04": "本句的意思是「升限；上界」。",
-        "ceiling-05": "「無形上限」與本句語境不同。",
-        "ceiling-01": "「天花板」與本句語境不同。",
-        "ceiling-02": "「上限；最高限度」與本句語境不同。",
-        "ceiling-03": "「上限；瓶頸」與本句語境不同。"
-      }
+        "ceiling-mcq-04": "本句指「航空或氣象中的高度上限／雲幕高度」。",
+        "ceiling-mcq-03": "「發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義」是「ceiling — career/potential」的用法，與本句語境不同。",
+        "ceiling-mcq-05": "「阻礙某些群體晉升的無形障礙」是「glass ceiling」的用法，與本句語境不同。",
+        "ceiling-mcq-02": "「價格、支出、數值、能力等所能達到或被允許的最高限度」是「ceiling — upper limit」的用法，與本句語境不同。",
+        "ceiling-mcq-01": "「房間或建築物內部最上方的表面；天花板」是「ceiling — room/building」的用法，與本句語境不同。"
+      },
+      "correctOption": "ceiling-mcq-04"
     },
     {
       "id": "ceiling-05-0",
-      "sense": "ceiling-05",
+      "sense": "ceiling-mcq-05",
       "en": "Many women still face a glass ceiling in some industries.",
       "zh": "很多女性在某些行業仍面對玻璃天花板／無形晉升障礙。",
       "masked": "Many women still face a ____ in some industries.",
       "options": [
-        "ceiling-05",
-        "ceiling-01",
-        "ceiling-02",
-        "ceiling-03",
-        "ceiling-04"
+        "ceiling-mcq-05",
+        "ceiling-mcq-04",
+        "ceiling-mcq-03",
+        "ceiling-mcq-02",
+        "ceiling-mcq-01"
       ],
-      "explanation": "留意語境：ceiling = barrier to advancement（固定比喻）。這裡指「無形上限」。",
+      "explanation": "本句的「glass ceiling」指「阻礙某些群體晉升的無形障礙」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "glass ceiling"
       ],
       "optionReasons": {
-        "ceiling-05": "本句的意思是「無形上限」。",
-        "ceiling-01": "「天花板」與本句語境不同。",
-        "ceiling-02": "「上限；最高限度」與本句語境不同。",
-        "ceiling-03": "「上限；瓶頸」與本句語境不同。",
-        "ceiling-04": "「升限；上界」與本句語境不同。"
-      }
+        "ceiling-mcq-05": "本句指「阻礙某些群體晉升的無形障礙」。",
+        "ceiling-mcq-04": "「航空或氣象中的高度上限／雲幕高度」是「ceiling — aviation/weather」的用法，與本句語境不同。",
+        "ceiling-mcq-03": "「發展、收入或晉升所能達到的最高程度；通常併入 upper-limit 義」是「ceiling — career/potential」的用法，與本句語境不同。",
+        "ceiling-mcq-02": "「價格、支出、數值、能力等所能達到或被允許的最高限度」是「ceiling — upper limit」的用法，與本句語境不同。",
+        "ceiling-mcq-01": "「房間或建築物內部最上方的表面；天花板」是「ceiling — room/building」的用法，與本句語境不同。"
+      },
+      "correctOption": "ceiling-mcq-05"
     }
   ],
   "comparisons": [],
@@ -424,5 +404,6 @@ export default {
     "file": "550_ceiling_Polysemy Exercise.pdf",
     "sha256": "14d584a9da83490871ce36d3b07073dfa4de0949921c60abe17e3f6a5d3edbc8",
     "pages": 7
-  }
+  },
+  "mcqSource": "master-comparison"
 };

@@ -2,1436 +2,1345 @@ export default {
   "id": "rescue",
   "word": "rescue",
   "number": 225,
-  "version": 1,
+  "version": 2,
   "mass": true,
   "senses": [
     {
-      "id": "rescue-01",
-      "title": "救出；營救",
-      "form": "rescue — verb = save someone from danger（營救）",
-      "en": "rescue — verb = save someone from danger（營救）",
-      "zh": "救出；營救",
-      "note": "留意語境：rescue — verb = save someone from danger（營救）。這裡指「救出；營救」。",
+      "id": "rescue-mcq-01",
+      "title": "把某人從危險、受困或可能受傷的情況中安全救出",
+      "form": "rescue — person",
+      "en": "rescue — person",
+      "zh": "把某人從危險、受困或可能受傷的情況中安全救出",
+      "note": "來源詞義：把某人從危險、受困或可能受傷的情況中安全救出",
       "examples": [
         [
           "Firefighters rescued the child from the building.",
           "消防員從大樓中救出了那個小朋友。",
-          "救出；營救"
+          "把某人從危險、受困或可能受傷的情況中安全救出"
         ],
         [
           "The hikers were rescued after getting lost.",
           "那些行山人士迷路後被救援人員救出。",
-          "救出；營救"
+          "把某人從危險、受困或可能受傷的情況中安全救出"
         ]
       ],
-      "options": [
-        "rescue-01",
-        "rescue-02",
-        "rescue-03",
-        "rescue-04",
-        "rescue-05",
-        "rescue-06"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "rescue-02",
-      "title": "拯救；救援",
-      "form": "rescue an animal（救助動物）",
-      "en": "rescue an animal（救助動物）",
-      "zh": "拯救；救援",
-      "note": "留意語境：rescue an animal（救助動物）。這裡指「拯救；救援」。",
+      "id": "rescue-mcq-02",
+      "title": "把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助",
+      "form": "rescue — animal",
+      "en": "rescue — animal",
+      "zh": "把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助",
+      "note": "來源詞義：把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助",
       "examples": [
         [
           "They rescued an injured dog.",
           "他們救助了一隻受傷的狗。",
-          "拯救；救援"
+          "把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助"
         ],
         [
           "The charity rescues abandoned animals.",
           "這間慈善機構會救助被遺棄的動物。",
-          "拯救；救援"
+          "把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助"
         ]
       ],
-      "options": [
-        "rescue-02",
-        "rescue-03",
-        "rescue-04",
-        "rescue-05",
-        "rescue-06",
-        "rescue-07"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "rescue-03",
-      "title": "挽救；保住",
-      "form": "rescue = save something from destruction/loss（挽救）",
-      "en": "rescue = save something from destruction/loss（挽救）",
-      "zh": "挽救；保住",
-      "note": "留意語境：rescue = save something from destruction/loss（挽救）。這裡指「挽救；保住」。",
+      "id": "rescue-mcq-03",
+      "title": "使某事物免於失敗、毀壞、消失或嚴重損失",
+      "form": "rescue — organization/project",
+      "en": "rescue — organization/project",
+      "zh": "使某事物免於失敗、毀壞、消失或嚴重損失",
+      "note": "來源詞義：使某事物免於失敗、毀壞、消失或嚴重損失",
       "examples": [
         [
           "The new funding helped rescue the project.",
           "新的資金幫助挽救了這個項目。",
-          "挽救；保住"
+          "使某事物免於失敗、毀壞、消失或嚴重損失"
         ],
         [
           "They managed to rescue the business from collapse.",
           "他們成功把公司從倒閉邊緣挽救回來。",
-          "挽救；保住"
+          "使某事物免於失敗、毀壞、消失或嚴重損失"
         ]
       ],
-      "options": [
-        "rescue-03",
-        "rescue-04",
-        "rescue-05",
-        "rescue-06",
-        "rescue-07",
-        "rescue-08"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "rescue-04",
-      "title": "搶救；挽回",
-      "form": "rescue = recover/save data or possessions（搶救／救回）",
-      "en": "rescue = recover/save data or possessions（搶救／救回）",
-      "zh": "搶救；挽回",
-      "note": "留意語境：rescue = recover/save data or possessions（搶救／救回）。這裡指「搶救；挽回」。",
+      "id": "rescue-mcq-04",
+      "title": "在資料／物品即將損壞或失去時把它保存／取回",
+      "form": "rescue — data/property",
+      "en": "rescue — data/property",
+      "zh": "在資料／物品即將損壞或失去時把它保存／取回",
+      "note": "來源詞義：在資料／物品即將損壞或失去時把它保存／取回",
       "examples": [
         [
           "Technicians managed to rescue most of the data.",
           "技術人員成功救回了大部分資料。",
-          "搶救；挽回"
+          "在資料／物品即將損壞或失去時把它保存／取回"
         ],
         [
           "They rescued several photographs from the damaged house.",
           "他們從受損的房子裡搶救出幾張照片。",
-          "搶救；挽回"
+          "在資料／物品即將損壞或失去時把它保存／取回"
         ]
       ],
-      "options": [
-        "rescue-04",
-        "rescue-05",
-        "rescue-06",
-        "rescue-07",
-        "rescue-08",
-        "rescue-09"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "rescue-05",
-      "title": "營救；救援",
-      "form": "rescue — noun = act of saving someone（救援行動）",
-      "en": "rescue — noun = act of saving someone（救援行動）",
-      "zh": "營救；救援",
-      "note": "留意語境：rescue — noun = act of saving someone（救援行動）。這裡指「營救；救援」。",
+      "id": "rescue-mcq-05",
+      "title": "把人／動物從危險中救出的行動／過程",
+      "form": "rescue — noun",
+      "en": "rescue — noun",
+      "zh": "把人／動物從危險中救出的行動／過程",
+      "note": "來源詞義：把人／動物從危險中救出的行動／過程",
       "examples": [
         [
           "The rescue took several hours.",
           "整個救援行動花了幾個小時。",
-          "營救；救援"
+          "把人／動物從危險中救出的行動／過程"
         ],
         [
           "A difficult rescue was carried out at sea.",
           "海上進行了一次艱難的救援。",
-          "營救；救援"
+          "把人／動物從危險中救出的行動／過程"
         ]
       ],
-      "options": [
-        "rescue-05",
-        "rescue-06",
-        "rescue-07",
-        "rescue-08",
-        "rescue-09",
-        "rescue-10"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "rescue-06",
-      "title": "救援行動；救援任務",
-      "form": "rescue operation / mission（救援行動）",
-      "en": "rescue operation / mission（救援行動）",
-      "zh": "救援行動；救援任務",
-      "note": "留意語境：rescue operation / mission（救援行動）。這裡指「救援行動；救援任務」。",
+      "id": "rescue-mcq-06",
+      "title": "有組織地尋找並救出處於危險中的人／動物的行動",
+      "form": "rescue operation/mission",
+      "en": "rescue operation/mission",
+      "zh": "有組織地尋找並救出處於危險中的人／動物的行動",
+      "note": "來源詞義：有組織地尋找並救出處於危險中的人／動物的行動",
       "examples": [
         [
           "A major rescue operation began immediately.",
           "一場大型救援行動立即展開。",
-          "救援行動；救援任務"
+          "有組織地尋找並救出處於危險中的人／動物的行動"
         ],
         [
           "The helicopter joined the rescue mission.",
           "直升機加入了救援任務。",
-          "救援行動；救援任務"
+          "有組織地尋找並救出處於危險中的人／動物的行動"
         ]
       ],
-      "options": [
-        "rescue-06",
-        "rescue-07",
-        "rescue-08",
-        "rescue-09",
-        "rescue-10",
-        "rescue-11"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "rescue-07",
-      "title": "救援隊伍",
-      "form": "rescue team（救援隊）",
-      "en": "rescue team（救援隊）",
-      "zh": "救援隊伍",
-      "note": "留意語境：rescue team（救援隊）。這裡指「救援隊伍」。",
+      "id": "rescue-mcq-07",
+      "title": "專門搜尋、營救和協助受困人士的隊伍",
+      "form": "rescue team",
+      "en": "rescue team",
+      "zh": "專門搜尋、營救和協助受困人士的隊伍",
+      "note": "來源詞義：專門搜尋、營救和協助受困人士的隊伍",
       "examples": [
         [
           "The rescue team reached the hikers before dark.",
           "救援隊在天黑前找到那些行山人士。",
-          "救援隊伍"
+          "專門搜尋、營救和協助受困人士的隊伍"
         ],
         [
           "A mountain rescue team was called.",
           "一支山區救援隊接到召喚。",
-          "救援隊伍"
+          "專門搜尋、營救和協助受困人士的隊伍"
         ]
       ],
-      "options": [
-        "rescue-07",
-        "rescue-08",
-        "rescue-09",
-        "rescue-10",
-        "rescue-11",
-        "rescue-12"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "rescue-08",
-      "title": "救援中心；救助中心",
-      "form": "rescue centre（救援中心）",
-      "en": "rescue centre（救援中心）",
-      "zh": "救援中心；救助中心",
-      "note": "留意語境：rescue centre（救援中心）。這裡指「救援中心；救助中心」。",
+      "id": "rescue-mcq-08",
+      "title": "專門救援、接收、照顧或協助需要救助的人／動物的地方",
+      "form": "rescue centre",
+      "en": "rescue centre",
+      "zh": "專門救援、接收、照顧或協助需要救助的人／動物的地方",
+      "note": "來源詞義：專門救援、接收、照顧或協助需要救助的人／動物的地方",
       "examples": [
         [
           "The living room … turns into … a rescue centre.",
           "客廳……甚至變成一個救援中心。",
-          "救援中心；救助中心"
+          "專門救援、接收、照顧或協助需要救助的人／動物的地方"
         ],
         [
           "The injured animals were taken to a rescue centre.",
           "受傷的動物被送到救助中心。",
-          "救援中心；救助中心"
+          "專門救援、接收、照顧或協助需要救助的人／動物的地方"
         ],
         [
           "The children pretended their classroom was a rescue centre.",
           "孩子們假裝課室是一個救援中心。",
-          "救援中心；救助中心"
+          "專門救援、接收、照顧或協助需要救助的人／動物的地方"
         ]
       ],
-      "options": [
-        "rescue-08",
-        "rescue-09",
-        "rescue-10",
-        "rescue-11",
-        "rescue-12",
-        "rescue-13"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "rescue-09",
-      "title": "動物救助",
-      "form": "animal rescue（動物救援／救助）",
-      "en": "animal rescue（動物救援／救助）",
-      "zh": "動物救助",
-      "note": "留意語境：animal rescue（動物救援／救助）。這裡指「動物救助」。",
+      "id": "rescue-mcq-09",
+      "title": "救助、治療及安置受困／被遺棄動物的工作",
+      "form": "animal rescue",
+      "en": "animal rescue",
+      "zh": "救助、治療及安置受困／被遺棄動物的工作",
+      "note": "來源詞義：救助、治療及安置受困／被遺棄動物的工作",
       "examples": [
         [
           "She volunteers with an animal rescue organization.",
           "她在一個動物救助組織做義工。",
-          "動物救助"
+          "救助、治療及安置受困／被遺棄動物的工作"
         ],
         [
           "The shelter is involved in animal rescue.",
           "這間收容所參與動物救助工作。",
-          "動物救助"
+          "救助、治療及安置受困／被遺棄動物的工作"
         ]
       ],
-      "options": [
-        "rescue-09",
-        "rescue-10",
-        "rescue-11",
-        "rescue-12",
-        "rescue-13",
-        "rescue-14"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "rescue-10",
-      "title": "搜索及救援；搜救",
-      "form": "search and rescue（搜救）",
-      "en": "search and rescue（搜救）",
-      "zh": "搜索及救援；搜救",
-      "note": "留意語境：search and rescue（搜救）。這裡指「搜索及救援；搜救」。",
+      "id": "rescue-mcq-10",
+      "title": "尋找失蹤／受困者並將其安全救出的專業行動",
+      "form": "search and rescue",
+      "en": "search and rescue",
+      "zh": "尋找失蹤／受困者並將其安全救出的專業行動",
+      "note": "來源詞義：尋找失蹤／受困者並將其安全救出的專業行動",
       "examples": [
         [
           "A search-and-rescue team was sent to the area.",
           "一支搜救隊被派往該區。",
-          "搜索及救援；搜救"
+          "尋找失蹤／受困者並將其安全救出的專業行動"
         ],
         [
           "The coastguard began a search and rescue operation.",
           "海岸防衛隊展開了搜索及救援行動。",
-          "搜索及救援；搜救"
+          "尋找失蹤／受困者並將其安全救出的專業行動"
         ]
       ],
-      "options": [
-        "rescue-10",
-        "rescue-11",
-        "rescue-12",
-        "rescue-13",
-        "rescue-14",
-        "rescue-15"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "rescue-11",
-      "title": "趕來解圍；伸出援手",
-      "form": "come to someone’s rescue（來解救／幫忙）",
-      "en": "come to someone’s rescue（來解救／幫忙）",
-      "zh": "趕來解圍；伸出援手",
-      "note": "留意語境：come to someone’s rescue（來解救／幫忙）。這裡指「趕來解圍；伸出援手」。",
+      "id": "rescue-mcq-11",
+      "title": "在某人遇到危險、困難或尷尬時及時提供幫助",
+      "form": "come to the rescue",
+      "en": "come to the rescue",
+      "zh": "在某人遇到危險、困難或尷尬時及時提供幫助",
+      "note": "來源詞義：在某人遇到危險、困難或尷尬時及時提供幫助",
       "examples": [
         [
           "Her brother came to her rescue.",
           "她哥哥趕來幫她解圍／救她。",
-          "趕來解圍；伸出援手"
+          "在某人遇到危險、困難或尷尬時及時提供幫助"
         ],
         [
           "My friend came to the rescue when my car broke down.",
           "我的車壞掉時，朋友趕來幫忙解困。",
-          "趕來解圍；伸出援手"
+          "在某人遇到危險、困難或尷尬時及時提供幫助"
         ]
       ],
-      "options": [
-        "rescue-11",
-        "rescue-12",
-        "rescue-13",
-        "rescue-14",
-        "rescue-15",
-        "rescue-16"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "rescue-12",
-      "title": "幫某人解困",
-      "form": "rescue someone from embarrassment/failure（解圍／挽救）",
-      "en": "rescue someone from embarrassment/failure（解圍／挽救）",
-      "zh": "幫某人解困",
-      "note": "留意語境：rescue someone from embarrassment/failure（解圍／挽救）。這裡指「幫某人解困」。",
+      "id": "rescue-mcq-12",
+      "title": "幫某人擺脫尷尬或不利處境",
+      "form": "rescue someone from embarrassment",
+      "en": "rescue someone from embarrassment",
+      "zh": "幫某人擺脫尷尬或不利處境",
+      "note": "來源詞義：幫某人擺脫尷尬或不利處境",
       "examples": [
         [
           "She rescued me from an awkward conversation.",
           "她把我從一場尷尬的談話中解救出來。",
-          "幫某人解困"
+          "幫某人擺脫尷尬或不利處境"
         ],
         [
           "His quick answer rescued the team from embarrassment.",
           "他的快速回答令團隊避免了尷尬。",
-          "幫某人解困"
+          "幫某人擺脫尷尬或不利處境"
         ]
       ],
-      "options": [
-        "rescue-12",
-        "rescue-13",
-        "rescue-14",
-        "rescue-15",
-        "rescue-16",
-        "rescue-01"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "rescue-13",
-      "title": "救助／紓困方案",
-      "form": "rescue package / rescue deal（紓困方案）",
-      "en": "rescue package / rescue deal（紓困方案）",
-      "zh": "救助／紓困方案",
-      "note": "留意語境：rescue package / rescue deal（紓困方案）。這裡指「救助／紓困方案」。",
+      "id": "rescue-mcq-13",
+      "title": "為防止公司／機構陷入嚴重財務失敗而提供的援助安排",
+      "form": "rescue package/deal",
+      "en": "rescue package/deal",
+      "zh": "為防止公司／機構陷入嚴重財務失敗而提供的援助安排",
+      "note": "來源詞義：為防止公司／機構陷入嚴重財務失敗而提供的援助安排",
       "examples": [
         [
           "The government announced a financial rescue package.",
           "政府公布了一項財政紓困方案。",
-          "救助／紓困方案"
+          "為防止公司／機構陷入嚴重財務失敗而提供的援助安排"
         ],
         [
           "The company survived after agreeing to a rescue deal.",
           "公司在達成一項拯救／紓困協議後得以生存。",
-          "救助／紓困方案"
-        ]
-      ],
-      "options": [
-        "rescue-13",
-        "rescue-14",
-        "rescue-15",
-        "rescue-16",
-        "rescue-01",
-        "rescue-02"
-      ],
-      "excludedOverlaps": []
-    },
-    {
-      "id": "rescue-14",
-      "title": "緊急援助資金",
-      "form": "rescue loan / rescue funding（救助資金）",
-      "en": "rescue loan / rescue funding（救助資金）",
-      "zh": "緊急援助資金",
-      "note": "留意語境：rescue loan / rescue funding（救助資金）。這裡指「緊急援助資金」。",
-      "examples": [
+          "為防止公司／機構陷入嚴重財務失敗而提供的援助安排"
+        ],
         [
           "The organization received emergency rescue funding.",
           "該機構獲得了緊急救助資金。",
-          "緊急援助資金"
+          "為防止公司／機構陷入嚴重財務失敗而提供的援助安排"
         ],
         [
           "A rescue loan kept the business operating.",
           "一筆紓困貸款令公司得以繼續營運。",
-          "緊急援助資金"
+          "為防止公司／機構陷入嚴重財務失敗而提供的援助安排"
         ]
       ],
-      "options": [
-        "rescue-14",
-        "rescue-15",
-        "rescue-16",
-        "rescue-01",
-        "rescue-02",
-        "rescue-03"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "rescue-15",
-      "title": "救援人員；救人者",
-      "form": "rescuer = person who rescues（救援者）",
-      "en": "rescuer = person who rescues（救援者）",
-      "zh": "救援人員；救人者",
-      "note": "留意語境：rescuer = person who rescues（救援者）。這裡指「救援人員；救人者」。",
+      "id": "rescue-mcq-14",
+      "title": "負責把人／動物從危險中救出的救援人員",
+      "form": "rescuer",
+      "en": "rescuer",
+      "zh": "負責把人／動物從危險中救出的救援人員",
+      "note": "來源詞義：負責把人／動物從危險中救出的救援人員",
       "examples": [
         [
           "The rescuers reached the climbers safely.",
           "救援人員安全到達攀山人士所在位置。",
-          "救援人員；救人者"
+          "負責把人／動物從危險中救出的救援人員"
         ],
         [
           "One of the rescuers was injured.",
           "其中一名救援人員受傷了。",
-          "救援人員；救人者"
+          "負責把人／動物從危險中救出的救援人員"
         ]
       ],
-      "options": [
-        "rescue-15",
-        "rescue-16",
-        "rescue-01",
-        "rescue-02",
-        "rescue-03",
-        "rescue-04"
-      ],
+      "options": [],
       "excludedOverlaps": []
     },
     {
-      "id": "rescue-16",
-      "title": "被救出的；獲救的",
-      "form": "rescued = saved from danger（獲救的）",
-      "en": "rescued = saved from danger（獲救的）",
-      "zh": "被救出的；獲救的",
-      "note": "留意語境：rescued = saved from danger（獲救的）。這裡指「被救出的；獲救的」。",
+      "id": "rescue-mcq-15",
+      "title": "已從危險、受困或不安全情況中被救出的",
+      "form": "rescued",
+      "en": "rescued",
+      "zh": "已從危險、受困或不安全情況中被救出的",
+      "note": "來源詞義：已從危險、受困或不安全情況中被救出的",
       "examples": [
         [
           "The rescued animals were taken to a shelter.",
           "獲救的動物被送到收容所。",
-          "被救出的；獲救的"
+          "已從危險、受困或不安全情況中被救出的"
         ],
         [
           "The rescued hikers were tired but safe.",
           "獲救的行山人士雖然疲倦，但很安全。",
-          "被救出的；獲救的"
+          "已從危險、受困或不安全情況中被救出的"
         ]
       ],
-      "options": [
-        "rescue-16",
-        "rescue-01",
-        "rescue-02",
-        "rescue-03",
-        "rescue-04",
-        "rescue-05"
-      ],
+      "options": [],
       "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "rescue-01-0",
-      "sense": "rescue-01",
+      "sense": "rescue-mcq-01",
       "en": "Firefighters rescued the child from the building.",
       "zh": "消防員從大樓中救出了那個小朋友。",
       "masked": "Firefighters ____ the child from the building.",
       "options": [
-        "rescue-01",
-        "rescue-02",
-        "rescue-03",
-        "rescue-04",
-        "rescue-05",
-        "rescue-06"
+        "rescue-mcq-01",
+        "rescue-mcq-02",
+        "rescue-mcq-03",
+        "rescue-mcq-04",
+        "rescue-mcq-05",
+        "rescue-mcq-06"
       ],
-      "explanation": "留意語境：rescue — verb = save someone from danger（營救）。這裡指「救出；營救」。",
+      "explanation": "本句的「rescued」指「把某人從危險、受困或可能受傷的情況中安全救出」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "rescued"
       ],
       "optionReasons": {
-        "rescue-01": "本句的意思是「救出；營救」。",
-        "rescue-02": "「拯救；救援」與本句語境不同。",
-        "rescue-03": "「挽救；保住」與本句語境不同。",
-        "rescue-04": "「搶救；挽回」與本句語境不同。",
-        "rescue-05": "「營救；救援」與本句語境不同。",
-        "rescue-06": "「救援行動；救援任務」與本句語境不同。"
-      }
+        "rescue-mcq-01": "本句指「把某人從危險、受困或可能受傷的情況中安全救出」。",
+        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。",
+        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
+        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
+        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-01"
     },
     {
       "id": "rescue-01-1",
-      "sense": "rescue-01",
+      "sense": "rescue-mcq-01",
       "en": "The hikers were rescued after getting lost.",
       "zh": "那些行山人士迷路後被救援人員救出。",
       "masked": "The hikers were ____ after getting lost.",
       "options": [
-        "rescue-01",
-        "rescue-02",
-        "rescue-03",
-        "rescue-04",
-        "rescue-05",
-        "rescue-06"
+        "rescue-mcq-01",
+        "rescue-mcq-02",
+        "rescue-mcq-03",
+        "rescue-mcq-04",
+        "rescue-mcq-05",
+        "rescue-mcq-06"
       ],
-      "explanation": "留意語境：rescue — verb = save someone from danger（營救）。這裡指「救出；營救」。",
+      "explanation": "本句的「rescued」指「把某人從危險、受困或可能受傷的情況中安全救出」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "rescued"
       ],
       "optionReasons": {
-        "rescue-01": "本句的意思是「救出；營救」。",
-        "rescue-02": "「拯救；救援」與本句語境不同。",
-        "rescue-03": "「挽救；保住」與本句語境不同。",
-        "rescue-04": "「搶救；挽回」與本句語境不同。",
-        "rescue-05": "「營救；救援」與本句語境不同。",
-        "rescue-06": "「救援行動；救援任務」與本句語境不同。"
-      }
+        "rescue-mcq-01": "本句指「把某人從危險、受困或可能受傷的情況中安全救出」。",
+        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。",
+        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
+        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
+        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-01"
     },
     {
       "id": "rescue-02-0",
-      "sense": "rescue-02",
+      "sense": "rescue-mcq-02",
       "en": "They rescued an injured dog.",
       "zh": "他們救助了一隻受傷的狗。",
       "masked": "They ____ an injured dog.",
       "options": [
-        "rescue-02",
-        "rescue-03",
-        "rescue-04",
-        "rescue-05",
-        "rescue-06",
-        "rescue-07"
+        "rescue-mcq-02",
+        "rescue-mcq-01",
+        "rescue-mcq-03",
+        "rescue-mcq-04",
+        "rescue-mcq-05",
+        "rescue-mcq-06"
       ],
-      "explanation": "留意語境：rescue an animal（救助動物）。這裡指「拯救；救援」。",
+      "explanation": "本句的「rescued」指「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "rescued"
       ],
       "optionReasons": {
-        "rescue-02": "本句的意思是「拯救；救援」。",
-        "rescue-03": "「挽救；保住」與本句語境不同。",
-        "rescue-04": "「搶救；挽回」與本句語境不同。",
-        "rescue-05": "「營救；救援」與本句語境不同。",
-        "rescue-06": "「救援行動；救援任務」與本句語境不同。",
-        "rescue-07": "「救援隊伍」與本句語境不同。"
-      }
+        "rescue-mcq-02": "本句指「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」。",
+        "rescue-mcq-01": "「把某人從危險、受困或可能受傷的情況中安全救出」是「rescue — person」的用法，與本句語境不同。",
+        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
+        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
+        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-02"
     },
     {
       "id": "rescue-02-1",
-      "sense": "rescue-02",
+      "sense": "rescue-mcq-02",
       "en": "The charity rescues abandoned animals.",
       "zh": "這間慈善機構會救助被遺棄的動物。",
       "masked": "The charity ____ abandoned animals.",
       "options": [
-        "rescue-02",
-        "rescue-03",
-        "rescue-04",
-        "rescue-05",
-        "rescue-06",
-        "rescue-07"
+        "rescue-mcq-02",
+        "rescue-mcq-01",
+        "rescue-mcq-03",
+        "rescue-mcq-04",
+        "rescue-mcq-05",
+        "rescue-mcq-06"
       ],
-      "explanation": "留意語境：rescue an animal（救助動物）。這裡指「拯救；救援」。",
+      "explanation": "本句的「rescues」指「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "rescues"
       ],
       "optionReasons": {
-        "rescue-02": "本句的意思是「拯救；救援」。",
-        "rescue-03": "「挽救；保住」與本句語境不同。",
-        "rescue-04": "「搶救；挽回」與本句語境不同。",
-        "rescue-05": "「營救；救援」與本句語境不同。",
-        "rescue-06": "「救援行動；救援任務」與本句語境不同。",
-        "rescue-07": "「救援隊伍」與本句語境不同。"
-      }
+        "rescue-mcq-02": "本句指「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」。",
+        "rescue-mcq-01": "「把某人從危險、受困或可能受傷的情況中安全救出」是「rescue — person」的用法，與本句語境不同。",
+        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
+        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
+        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-02"
     },
     {
       "id": "rescue-03-0",
-      "sense": "rescue-03",
+      "sense": "rescue-mcq-03",
       "en": "The new funding helped rescue the project.",
       "zh": "新的資金幫助挽救了這個項目。",
       "masked": "The new funding helped ____ the project.",
       "options": [
-        "rescue-03",
-        "rescue-04",
-        "rescue-05",
-        "rescue-06",
-        "rescue-07",
-        "rescue-08"
+        "rescue-mcq-03",
+        "rescue-mcq-02",
+        "rescue-mcq-04",
+        "rescue-mcq-01",
+        "rescue-mcq-05",
+        "rescue-mcq-06"
       ],
-      "explanation": "留意語境：rescue = save something from destruction/loss（挽救）。這裡指「挽救；保住」。",
+      "explanation": "本句的「rescue」指「使某事物免於失敗、毀壞、消失或嚴重損失」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "rescue"
       ],
       "optionReasons": {
-        "rescue-03": "本句的意思是「挽救；保住」。",
-        "rescue-04": "「搶救；挽回」與本句語境不同。",
-        "rescue-05": "「營救；救援」與本句語境不同。",
-        "rescue-06": "「救援行動；救援任務」與本句語境不同。",
-        "rescue-07": "「救援隊伍」與本句語境不同。",
-        "rescue-08": "「救援中心；救助中心」與本句語境不同。"
-      }
+        "rescue-mcq-03": "本句指「使某事物免於失敗、毀壞、消失或嚴重損失」。",
+        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。",
+        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
+        "rescue-mcq-01": "「把某人從危險、受困或可能受傷的情況中安全救出」是「rescue — person」的用法，與本句語境不同。",
+        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-03"
     },
     {
       "id": "rescue-03-1",
-      "sense": "rescue-03",
+      "sense": "rescue-mcq-03",
       "en": "They managed to rescue the business from collapse.",
       "zh": "他們成功把公司從倒閉邊緣挽救回來。",
       "masked": "They managed to ____ the business from collapse.",
       "options": [
-        "rescue-03",
-        "rescue-04",
-        "rescue-05",
-        "rescue-06",
-        "rescue-07",
-        "rescue-08"
+        "rescue-mcq-03",
+        "rescue-mcq-02",
+        "rescue-mcq-04",
+        "rescue-mcq-01",
+        "rescue-mcq-05",
+        "rescue-mcq-06"
       ],
-      "explanation": "留意語境：rescue = save something from destruction/loss（挽救）。這裡指「挽救；保住」。",
+      "explanation": "本句的「rescue」指「使某事物免於失敗、毀壞、消失或嚴重損失」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "rescue"
       ],
       "optionReasons": {
-        "rescue-03": "本句的意思是「挽救；保住」。",
-        "rescue-04": "「搶救；挽回」與本句語境不同。",
-        "rescue-05": "「營救；救援」與本句語境不同。",
-        "rescue-06": "「救援行動；救援任務」與本句語境不同。",
-        "rescue-07": "「救援隊伍」與本句語境不同。",
-        "rescue-08": "「救援中心；救助中心」與本句語境不同。"
-      }
+        "rescue-mcq-03": "本句指「使某事物免於失敗、毀壞、消失或嚴重損失」。",
+        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。",
+        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
+        "rescue-mcq-01": "「把某人從危險、受困或可能受傷的情況中安全救出」是「rescue — person」的用法，與本句語境不同。",
+        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-03"
     },
     {
       "id": "rescue-04-0",
-      "sense": "rescue-04",
+      "sense": "rescue-mcq-04",
       "en": "Technicians managed to rescue most of the data.",
       "zh": "技術人員成功救回了大部分資料。",
       "masked": "Technicians managed to ____ most of the data.",
       "options": [
-        "rescue-04",
-        "rescue-05",
-        "rescue-06",
-        "rescue-07",
-        "rescue-08",
-        "rescue-09"
+        "rescue-mcq-04",
+        "rescue-mcq-03",
+        "rescue-mcq-05",
+        "rescue-mcq-02",
+        "rescue-mcq-06",
+        "rescue-mcq-01"
       ],
-      "explanation": "留意語境：rescue = recover/save data or possessions（搶救／救回）。這裡指「搶救；挽回」。",
+      "explanation": "本句的「rescue」指「在資料／物品即將損壞或失去時把它保存／取回」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "rescue"
       ],
       "optionReasons": {
-        "rescue-04": "本句的意思是「搶救；挽回」。",
-        "rescue-05": "「營救；救援」與本句語境不同。",
-        "rescue-06": "「救援行動；救援任務」與本句語境不同。",
-        "rescue-07": "「救援隊伍」與本句語境不同。",
-        "rescue-08": "「救援中心；救助中心」與本句語境不同。",
-        "rescue-09": "「動物救助」與本句語境不同。"
-      }
+        "rescue-mcq-04": "本句指「在資料／物品即將損壞或失去時把它保存／取回」。",
+        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
+        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
+        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
+        "rescue-mcq-01": "「把某人從危險、受困或可能受傷的情況中安全救出」是「rescue — person」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-04"
     },
     {
       "id": "rescue-04-1",
-      "sense": "rescue-04",
+      "sense": "rescue-mcq-04",
       "en": "They rescued several photographs from the damaged house.",
       "zh": "他們從受損的房子裡搶救出幾張照片。",
       "masked": "They ____ several photographs from the damaged house.",
       "options": [
-        "rescue-04",
-        "rescue-05",
-        "rescue-06",
-        "rescue-07",
-        "rescue-08",
-        "rescue-09"
+        "rescue-mcq-04",
+        "rescue-mcq-03",
+        "rescue-mcq-05",
+        "rescue-mcq-02",
+        "rescue-mcq-06",
+        "rescue-mcq-01"
       ],
-      "explanation": "留意語境：rescue = recover/save data or possessions（搶救／救回）。這裡指「搶救；挽回」。",
+      "explanation": "本句的「rescued」指「在資料／物品即將損壞或失去時把它保存／取回」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "rescued"
       ],
       "optionReasons": {
-        "rescue-04": "本句的意思是「搶救；挽回」。",
-        "rescue-05": "「營救；救援」與本句語境不同。",
-        "rescue-06": "「救援行動；救援任務」與本句語境不同。",
-        "rescue-07": "「救援隊伍」與本句語境不同。",
-        "rescue-08": "「救援中心；救助中心」與本句語境不同。",
-        "rescue-09": "「動物救助」與本句語境不同。"
-      }
+        "rescue-mcq-04": "本句指「在資料／物品即將損壞或失去時把它保存／取回」。",
+        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
+        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
+        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
+        "rescue-mcq-01": "「把某人從危險、受困或可能受傷的情況中安全救出」是「rescue — person」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-04"
     },
     {
       "id": "rescue-05-0",
-      "sense": "rescue-05",
+      "sense": "rescue-mcq-05",
       "en": "The rescue took several hours.",
       "zh": "整個救援行動花了幾個小時。",
       "masked": "The ____ took several hours.",
       "options": [
-        "rescue-05",
-        "rescue-06",
-        "rescue-07",
-        "rescue-08",
-        "rescue-09",
-        "rescue-10"
+        "rescue-mcq-05",
+        "rescue-mcq-04",
+        "rescue-mcq-06",
+        "rescue-mcq-03",
+        "rescue-mcq-07",
+        "rescue-mcq-02"
       ],
-      "explanation": "留意語境：rescue — noun = act of saving someone（救援行動）。這裡指「營救；救援」。",
+      "explanation": "本句的「rescue」指「把人／動物從危險中救出的行動／過程」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "rescue"
       ],
       "optionReasons": {
-        "rescue-05": "本句的意思是「營救；救援」。",
-        "rescue-06": "「救援行動；救援任務」與本句語境不同。",
-        "rescue-07": "「救援隊伍」與本句語境不同。",
-        "rescue-08": "「救援中心；救助中心」與本句語境不同。",
-        "rescue-09": "「動物救助」與本句語境不同。",
-        "rescue-10": "「搜索及救援；搜救」與本句語境不同。"
-      }
+        "rescue-mcq-05": "本句指「把人／動物從危險中救出的行動／過程」。",
+        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
+        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
+        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
+        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-05"
     },
     {
       "id": "rescue-05-1",
-      "sense": "rescue-05",
+      "sense": "rescue-mcq-05",
       "en": "A difficult rescue was carried out at sea.",
       "zh": "海上進行了一次艱難的救援。",
       "masked": "A difficult ____ was carried out at sea.",
       "options": [
-        "rescue-05",
-        "rescue-06",
-        "rescue-07",
-        "rescue-08",
-        "rescue-09",
-        "rescue-10"
+        "rescue-mcq-05",
+        "rescue-mcq-04",
+        "rescue-mcq-06",
+        "rescue-mcq-03",
+        "rescue-mcq-07",
+        "rescue-mcq-02"
       ],
-      "explanation": "留意語境：rescue — noun = act of saving someone（救援行動）。這裡指「營救；救援」。",
+      "explanation": "本句的「rescue」指「把人／動物從危險中救出的行動／過程」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "rescue"
       ],
       "optionReasons": {
-        "rescue-05": "本句的意思是「營救；救援」。",
-        "rescue-06": "「救援行動；救援任務」與本句語境不同。",
-        "rescue-07": "「救援隊伍」與本句語境不同。",
-        "rescue-08": "「救援中心；救助中心」與本句語境不同。",
-        "rescue-09": "「動物救助」與本句語境不同。",
-        "rescue-10": "「搜索及救援；搜救」與本句語境不同。"
-      }
+        "rescue-mcq-05": "本句指「把人／動物從危險中救出的行動／過程」。",
+        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
+        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
+        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
+        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-05"
     },
     {
       "id": "rescue-06-0",
-      "sense": "rescue-06",
+      "sense": "rescue-mcq-06",
       "en": "A major rescue operation began immediately.",
       "zh": "一場大型救援行動立即展開。",
       "masked": "A major ____ began immediately.",
       "options": [
-        "rescue-06",
-        "rescue-07",
-        "rescue-08",
-        "rescue-09",
-        "rescue-10",
-        "rescue-11"
+        "rescue-mcq-06",
+        "rescue-mcq-05",
+        "rescue-mcq-07",
+        "rescue-mcq-04",
+        "rescue-mcq-08",
+        "rescue-mcq-03"
       ],
-      "explanation": "留意語境：rescue operation / mission（救援行動）。這裡指「救援行動；救援任務」。",
+      "explanation": "本句的「rescue operation」指「有組織地尋找並救出處於危險中的人／動物的行動」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "rescue operation"
       ],
       "optionReasons": {
-        "rescue-06": "本句的意思是「救援行動；救援任務」。",
-        "rescue-07": "「救援隊伍」與本句語境不同。",
-        "rescue-08": "「救援中心；救助中心」與本句語境不同。",
-        "rescue-09": "「動物救助」與本句語境不同。",
-        "rescue-10": "「搜索及救援；搜救」與本句語境不同。",
-        "rescue-11": "「趕來解圍；伸出援手」與本句語境不同。"
-      }
+        "rescue-mcq-06": "本句指「有組織地尋找並救出處於危險中的人／動物的行動」。",
+        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
+        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
+        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
+        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
+        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-06"
     },
     {
       "id": "rescue-06-1",
-      "sense": "rescue-06",
+      "sense": "rescue-mcq-06",
       "en": "The helicopter joined the rescue mission.",
       "zh": "直升機加入了救援任務。",
       "masked": "The helicopter joined the ____.",
       "options": [
-        "rescue-06",
-        "rescue-07",
-        "rescue-08",
-        "rescue-09",
-        "rescue-10",
-        "rescue-11"
+        "rescue-mcq-06",
+        "rescue-mcq-05",
+        "rescue-mcq-07",
+        "rescue-mcq-04",
+        "rescue-mcq-08",
+        "rescue-mcq-03"
       ],
-      "explanation": "留意語境：rescue operation / mission（救援行動）。這裡指「救援行動；救援任務」。",
+      "explanation": "本句的「rescue mission」指「有組織地尋找並救出處於危險中的人／動物的行動」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "rescue mission"
       ],
       "optionReasons": {
-        "rescue-06": "本句的意思是「救援行動；救援任務」。",
-        "rescue-07": "「救援隊伍」與本句語境不同。",
-        "rescue-08": "「救援中心；救助中心」與本句語境不同。",
-        "rescue-09": "「動物救助」與本句語境不同。",
-        "rescue-10": "「搜索及救援；搜救」與本句語境不同。",
-        "rescue-11": "「趕來解圍；伸出援手」與本句語境不同。"
-      }
+        "rescue-mcq-06": "本句指「有組織地尋找並救出處於危險中的人／動物的行動」。",
+        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
+        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
+        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
+        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
+        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-06"
     },
     {
       "id": "rescue-07-0",
-      "sense": "rescue-07",
+      "sense": "rescue-mcq-07",
       "en": "The rescue team reached the hikers before dark.",
       "zh": "救援隊在天黑前找到那些行山人士。",
       "masked": "The ____ reached the hikers before dark.",
       "options": [
-        "rescue-07",
-        "rescue-08",
-        "rescue-09",
-        "rescue-10",
-        "rescue-11",
-        "rescue-12"
+        "rescue-mcq-07",
+        "rescue-mcq-06",
+        "rescue-mcq-08",
+        "rescue-mcq-05",
+        "rescue-mcq-09",
+        "rescue-mcq-04"
       ],
-      "explanation": "留意語境：rescue team（救援隊）。這裡指「救援隊伍」。",
+      "explanation": "本句的「rescue team」指「專門搜尋、營救和協助受困人士的隊伍」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "rescue team"
       ],
       "optionReasons": {
-        "rescue-07": "本句的意思是「救援隊伍」。",
-        "rescue-08": "「救援中心；救助中心」與本句語境不同。",
-        "rescue-09": "「動物救助」與本句語境不同。",
-        "rescue-10": "「搜索及救援；搜救」與本句語境不同。",
-        "rescue-11": "「趕來解圍；伸出援手」與本句語境不同。",
-        "rescue-12": "「幫某人解困」與本句語境不同。"
-      }
+        "rescue-mcq-07": "本句指「專門搜尋、營救和協助受困人士的隊伍」。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
+        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
+        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
+        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
+        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-07"
     },
     {
       "id": "rescue-07-1",
-      "sense": "rescue-07",
+      "sense": "rescue-mcq-07",
       "en": "A mountain rescue team was called.",
       "zh": "一支山區救援隊接到召喚。",
       "masked": "A mountain ____ was called.",
       "options": [
-        "rescue-07",
-        "rescue-08",
-        "rescue-09",
-        "rescue-10",
-        "rescue-11",
-        "rescue-12"
+        "rescue-mcq-07",
+        "rescue-mcq-06",
+        "rescue-mcq-08",
+        "rescue-mcq-05",
+        "rescue-mcq-09",
+        "rescue-mcq-04"
       ],
-      "explanation": "留意語境：rescue team（救援隊）。這裡指「救援隊伍」。",
+      "explanation": "本句的「rescue team」指「專門搜尋、營救和協助受困人士的隊伍」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "rescue team"
       ],
       "optionReasons": {
-        "rescue-07": "本句的意思是「救援隊伍」。",
-        "rescue-08": "「救援中心；救助中心」與本句語境不同。",
-        "rescue-09": "「動物救助」與本句語境不同。",
-        "rescue-10": "「搜索及救援；搜救」與本句語境不同。",
-        "rescue-11": "「趕來解圍；伸出援手」與本句語境不同。",
-        "rescue-12": "「幫某人解困」與本句語境不同。"
-      }
+        "rescue-mcq-07": "本句指「專門搜尋、營救和協助受困人士的隊伍」。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
+        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
+        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
+        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
+        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-07"
     },
     {
       "id": "rescue-08-0",
-      "sense": "rescue-08",
+      "sense": "rescue-mcq-08",
       "en": "The living room … turns into … a rescue centre.",
       "zh": "客廳……甚至變成一個救援中心。",
       "masked": "The living room … turns into … a ____.",
       "options": [
-        "rescue-08",
-        "rescue-09",
-        "rescue-10",
-        "rescue-11",
-        "rescue-12",
-        "rescue-13"
+        "rescue-mcq-08",
+        "rescue-mcq-07",
+        "rescue-mcq-09",
+        "rescue-mcq-06",
+        "rescue-mcq-10",
+        "rescue-mcq-05"
       ],
-      "explanation": "留意語境：rescue centre（救援中心）。這裡指「救援中心；救助中心」。",
+      "explanation": "本句的「rescue centre」指「專門救援、接收、照顧或協助需要救助的人／動物的地方」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "rescue centre"
       ],
       "optionReasons": {
-        "rescue-08": "本句的意思是「救援中心；救助中心」。",
-        "rescue-09": "「動物救助」與本句語境不同。",
-        "rescue-10": "「搜索及救援；搜救」與本句語境不同。",
-        "rescue-11": "「趕來解圍；伸出援手」與本句語境不同。",
-        "rescue-12": "「幫某人解困」與本句語境不同。",
-        "rescue-13": "「救助／紓困方案」與本句語境不同。"
-      }
+        "rescue-mcq-08": "本句指「專門救援、接收、照顧或協助需要救助的人／動物的地方」。",
+        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
+        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
+        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-08"
     },
     {
       "id": "rescue-08-1",
-      "sense": "rescue-08",
+      "sense": "rescue-mcq-08",
       "en": "The injured animals were taken to a rescue centre.",
       "zh": "受傷的動物被送到救助中心。",
       "masked": "The injured animals were taken to a ____.",
       "options": [
-        "rescue-08",
-        "rescue-09",
-        "rescue-10",
-        "rescue-11",
-        "rescue-12",
-        "rescue-13"
+        "rescue-mcq-08",
+        "rescue-mcq-07",
+        "rescue-mcq-09",
+        "rescue-mcq-06",
+        "rescue-mcq-10",
+        "rescue-mcq-05"
       ],
-      "explanation": "留意語境：rescue centre（救援中心）。這裡指「救援中心；救助中心」。",
+      "explanation": "本句的「rescue centre」指「專門救援、接收、照顧或協助需要救助的人／動物的地方」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "rescue centre"
       ],
       "optionReasons": {
-        "rescue-08": "本句的意思是「救援中心；救助中心」。",
-        "rescue-09": "「動物救助」與本句語境不同。",
-        "rescue-10": "「搜索及救援；搜救」與本句語境不同。",
-        "rescue-11": "「趕來解圍；伸出援手」與本句語境不同。",
-        "rescue-12": "「幫某人解困」與本句語境不同。",
-        "rescue-13": "「救助／紓困方案」與本句語境不同。"
-      }
+        "rescue-mcq-08": "本句指「專門救援、接收、照顧或協助需要救助的人／動物的地方」。",
+        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
+        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
+        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-08"
     },
     {
       "id": "rescue-08-2",
-      "sense": "rescue-08",
+      "sense": "rescue-mcq-08",
       "en": "The children pretended their classroom was a rescue centre.",
       "zh": "孩子們假裝課室是一個救援中心。",
       "masked": "The children pretended their classroom was a ____.",
       "options": [
-        "rescue-08",
-        "rescue-09",
-        "rescue-10",
-        "rescue-11",
-        "rescue-12",
-        "rescue-13"
+        "rescue-mcq-08",
+        "rescue-mcq-07",
+        "rescue-mcq-09",
+        "rescue-mcq-06",
+        "rescue-mcq-10",
+        "rescue-mcq-05"
       ],
-      "explanation": "留意語境：rescue centre（救援中心）。這裡指「救援中心；救助中心」。",
+      "explanation": "本句的「rescue centre」指「專門救援、接收、照顧或協助需要救助的人／動物的地方」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "rescue centre"
       ],
       "optionReasons": {
-        "rescue-08": "本句的意思是「救援中心；救助中心」。",
-        "rescue-09": "「動物救助」與本句語境不同。",
-        "rescue-10": "「搜索及救援；搜救」與本句語境不同。",
-        "rescue-11": "「趕來解圍；伸出援手」與本句語境不同。",
-        "rescue-12": "「幫某人解困」與本句語境不同。",
-        "rescue-13": "「救助／紓困方案」與本句語境不同。"
-      }
+        "rescue-mcq-08": "本句指「專門救援、接收、照顧或協助需要救助的人／動物的地方」。",
+        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
+        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
+        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-08"
     },
     {
       "id": "rescue-09-0",
-      "sense": "rescue-09",
+      "sense": "rescue-mcq-09",
       "en": "She volunteers with an animal rescue organization.",
       "zh": "她在一個動物救助組織做義工。",
       "masked": "She volunteers with an ____ organization.",
       "options": [
-        "rescue-09",
-        "rescue-10",
-        "rescue-11",
-        "rescue-12",
-        "rescue-13",
-        "rescue-14"
+        "rescue-mcq-09",
+        "rescue-mcq-08",
+        "rescue-mcq-10",
+        "rescue-mcq-07",
+        "rescue-mcq-11",
+        "rescue-mcq-06"
       ],
-      "explanation": "留意語境：animal rescue（動物救援／救助）。這裡指「動物救助」。",
+      "explanation": "本句的「animal rescue」指「救助、治療及安置受困／被遺棄動物的工作」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "animal rescue"
       ],
       "optionReasons": {
-        "rescue-09": "本句的意思是「動物救助」。",
-        "rescue-10": "「搜索及救援；搜救」與本句語境不同。",
-        "rescue-11": "「趕來解圍；伸出援手」與本句語境不同。",
-        "rescue-12": "「幫某人解困」與本句語境不同。",
-        "rescue-13": "「救助／紓困方案」與本句語境不同。",
-        "rescue-14": "「緊急援助資金」與本句語境不同。"
-      }
+        "rescue-mcq-09": "本句指「救助、治療及安置受困／被遺棄動物的工作」。",
+        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
+        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
+        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-09"
     },
     {
       "id": "rescue-09-1",
-      "sense": "rescue-09",
+      "sense": "rescue-mcq-09",
       "en": "The shelter is involved in animal rescue.",
       "zh": "這間收容所參與動物救助工作。",
       "masked": "The shelter is involved in ____.",
       "options": [
-        "rescue-09",
-        "rescue-10",
-        "rescue-11",
-        "rescue-12",
-        "rescue-13",
-        "rescue-14"
+        "rescue-mcq-09",
+        "rescue-mcq-08",
+        "rescue-mcq-10",
+        "rescue-mcq-07",
+        "rescue-mcq-11",
+        "rescue-mcq-06"
       ],
-      "explanation": "留意語境：animal rescue（動物救援／救助）。這裡指「動物救助」。",
+      "explanation": "本句的「animal rescue」指「救助、治療及安置受困／被遺棄動物的工作」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "animal rescue"
       ],
       "optionReasons": {
-        "rescue-09": "本句的意思是「動物救助」。",
-        "rescue-10": "「搜索及救援；搜救」與本句語境不同。",
-        "rescue-11": "「趕來解圍；伸出援手」與本句語境不同。",
-        "rescue-12": "「幫某人解困」與本句語境不同。",
-        "rescue-13": "「救助／紓困方案」與本句語境不同。",
-        "rescue-14": "「緊急援助資金」與本句語境不同。"
-      }
+        "rescue-mcq-09": "本句指「救助、治療及安置受困／被遺棄動物的工作」。",
+        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
+        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
+        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
+        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-09"
     },
     {
       "id": "rescue-10-0",
-      "sense": "rescue-10",
+      "sense": "rescue-mcq-10",
       "en": "A search-and-rescue team was sent to the area.",
       "zh": "一支搜救隊被派往該區。",
       "masked": "A ____ team was sent to the area.",
       "options": [
-        "rescue-10",
-        "rescue-11",
-        "rescue-12",
-        "rescue-13",
-        "rescue-14",
-        "rescue-15"
+        "rescue-mcq-10",
+        "rescue-mcq-09",
+        "rescue-mcq-11",
+        "rescue-mcq-08",
+        "rescue-mcq-12",
+        "rescue-mcq-07"
       ],
-      "explanation": "留意語境：search and rescue（搜救）。這裡指「搜索及救援；搜救」。",
+      "explanation": "本句的「search-and-rescue」指「尋找失蹤／受困者並將其安全救出的專業行動」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "search-and-rescue"
       ],
       "optionReasons": {
-        "rescue-10": "本句的意思是「搜索及救援；搜救」。",
-        "rescue-11": "「趕來解圍；伸出援手」與本句語境不同。",
-        "rescue-12": "「幫某人解困」與本句語境不同。",
-        "rescue-13": "「救助／紓困方案」與本句語境不同。",
-        "rescue-14": "「緊急援助資金」與本句語境不同。",
-        "rescue-15": "「救援人員；救人者」與本句語境不同。"
-      }
+        "rescue-mcq-10": "本句指「尋找失蹤／受困者並將其安全救出的專業行動」。",
+        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
+        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
+        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
+        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
+        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-10"
     },
     {
       "id": "rescue-10-1",
-      "sense": "rescue-10",
+      "sense": "rescue-mcq-10",
       "en": "The coastguard began a search and rescue operation.",
       "zh": "海岸防衛隊展開了搜索及救援行動。",
       "masked": "The coastguard began a ____ operation.",
       "options": [
-        "rescue-10",
-        "rescue-11",
-        "rescue-12",
-        "rescue-13",
-        "rescue-14",
-        "rescue-15"
+        "rescue-mcq-10",
+        "rescue-mcq-09",
+        "rescue-mcq-11",
+        "rescue-mcq-08",
+        "rescue-mcq-12",
+        "rescue-mcq-07"
       ],
-      "explanation": "留意語境：search and rescue（搜救）。這裡指「搜索及救援；搜救」。",
+      "explanation": "本句的「search and rescue」指「尋找失蹤／受困者並將其安全救出的專業行動」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "search and rescue"
       ],
       "optionReasons": {
-        "rescue-10": "本句的意思是「搜索及救援；搜救」。",
-        "rescue-11": "「趕來解圍；伸出援手」與本句語境不同。",
-        "rescue-12": "「幫某人解困」與本句語境不同。",
-        "rescue-13": "「救助／紓困方案」與本句語境不同。",
-        "rescue-14": "「緊急援助資金」與本句語境不同。",
-        "rescue-15": "「救援人員；救人者」與本句語境不同。"
-      }
+        "rescue-mcq-10": "本句指「尋找失蹤／受困者並將其安全救出的專業行動」。",
+        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
+        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
+        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
+        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
+        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-10"
     },
     {
       "id": "rescue-11-0",
-      "sense": "rescue-11",
+      "sense": "rescue-mcq-11",
       "en": "Her brother came to her rescue.",
       "zh": "她哥哥趕來幫她解圍／救她。",
       "masked": "Her brother ____.",
       "options": [
-        "rescue-11",
-        "rescue-12",
-        "rescue-13",
-        "rescue-14",
-        "rescue-15",
-        "rescue-16"
+        "rescue-mcq-11",
+        "rescue-mcq-10",
+        "rescue-mcq-12",
+        "rescue-mcq-09",
+        "rescue-mcq-13",
+        "rescue-mcq-08"
       ],
-      "explanation": "留意語境：come to someone’s rescue（來解救／幫忙）。這裡指「趕來解圍；伸出援手」。",
+      "explanation": "本句的「came to her rescue」指「在某人遇到危險、困難或尷尬時及時提供幫助」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "came to her rescue"
       ],
       "optionReasons": {
-        "rescue-11": "本句的意思是「趕來解圍；伸出援手」。",
-        "rescue-12": "「幫某人解困」與本句語境不同。",
-        "rescue-13": "「救助／紓困方案」與本句語境不同。",
-        "rescue-14": "「緊急援助資金」與本句語境不同。",
-        "rescue-15": "「救援人員；救人者」與本句語境不同。",
-        "rescue-16": "「被救出的；獲救的」與本句語境不同。"
-      }
+        "rescue-mcq-11": "本句指「在某人遇到危險、困難或尷尬時及時提供幫助」。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
+        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
+        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
+        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
+        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-11"
     },
     {
       "id": "rescue-11-1",
-      "sense": "rescue-11",
+      "sense": "rescue-mcq-11",
       "en": "My friend came to the rescue when my car broke down.",
       "zh": "我的車壞掉時，朋友趕來幫忙解困。",
       "masked": "My friend ____ when my car broke down.",
       "options": [
-        "rescue-11",
-        "rescue-12",
-        "rescue-13",
-        "rescue-14",
-        "rescue-15",
-        "rescue-16"
+        "rescue-mcq-11",
+        "rescue-mcq-10",
+        "rescue-mcq-12",
+        "rescue-mcq-09",
+        "rescue-mcq-13",
+        "rescue-mcq-08"
       ],
-      "explanation": "留意語境：come to someone’s rescue（來解救／幫忙）。這裡指「趕來解圍；伸出援手」。",
+      "explanation": "本句的「came to the rescue」指「在某人遇到危險、困難或尷尬時及時提供幫助」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "came to the rescue"
       ],
       "optionReasons": {
-        "rescue-11": "本句的意思是「趕來解圍；伸出援手」。",
-        "rescue-12": "「幫某人解困」與本句語境不同。",
-        "rescue-13": "「救助／紓困方案」與本句語境不同。",
-        "rescue-14": "「緊急援助資金」與本句語境不同。",
-        "rescue-15": "「救援人員；救人者」與本句語境不同。",
-        "rescue-16": "「被救出的；獲救的」與本句語境不同。"
-      }
+        "rescue-mcq-11": "本句指「在某人遇到危險、困難或尷尬時及時提供幫助」。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
+        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
+        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
+        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
+        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-11"
     },
     {
       "id": "rescue-12-0",
-      "sense": "rescue-12",
+      "sense": "rescue-mcq-12",
       "en": "She rescued me from an awkward conversation.",
       "zh": "她把我從一場尷尬的談話中解救出來。",
       "masked": "She ____ me from an awkward conversation.",
       "options": [
-        "rescue-12",
-        "rescue-13",
-        "rescue-14",
-        "rescue-15",
-        "rescue-16",
-        "rescue-01"
+        "rescue-mcq-12",
+        "rescue-mcq-11",
+        "rescue-mcq-13",
+        "rescue-mcq-10",
+        "rescue-mcq-14",
+        "rescue-mcq-09"
       ],
-      "explanation": "留意語境：rescue someone from embarrassment/failure（解圍／挽救）。這裡指「幫某人解困」。",
+      "explanation": "本句的「rescued」指「幫某人擺脫尷尬或不利處境」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "rescued"
       ],
       "optionReasons": {
-        "rescue-12": "本句的意思是「幫某人解困」。",
-        "rescue-13": "「救助／紓困方案」與本句語境不同。",
-        "rescue-14": "「緊急援助資金」與本句語境不同。",
-        "rescue-15": "「救援人員；救人者」與本句語境不同。",
-        "rescue-16": "「被救出的；獲救的」與本句語境不同。",
-        "rescue-01": "「救出；營救」與本句語境不同。"
-      }
+        "rescue-mcq-12": "本句指「幫某人擺脫尷尬或不利處境」。",
+        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
+        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
+        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
+        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-12"
     },
     {
       "id": "rescue-12-1",
-      "sense": "rescue-12",
+      "sense": "rescue-mcq-12",
       "en": "His quick answer rescued the team from embarrassment.",
       "zh": "他的快速回答令團隊避免了尷尬。",
       "masked": "His quick answer ____ the team from embarrassment.",
       "options": [
-        "rescue-12",
-        "rescue-13",
-        "rescue-14",
-        "rescue-15",
-        "rescue-16",
-        "rescue-01"
+        "rescue-mcq-12",
+        "rescue-mcq-11",
+        "rescue-mcq-13",
+        "rescue-mcq-10",
+        "rescue-mcq-14",
+        "rescue-mcq-09"
       ],
-      "explanation": "留意語境：rescue someone from embarrassment/failure（解圍／挽救）。這裡指「幫某人解困」。",
+      "explanation": "本句的「rescued」指「幫某人擺脫尷尬或不利處境」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "rescued"
       ],
       "optionReasons": {
-        "rescue-12": "本句的意思是「幫某人解困」。",
-        "rescue-13": "「救助／紓困方案」與本句語境不同。",
-        "rescue-14": "「緊急援助資金」與本句語境不同。",
-        "rescue-15": "「救援人員；救人者」與本句語境不同。",
-        "rescue-16": "「被救出的；獲救的」與本句語境不同。",
-        "rescue-01": "「救出；營救」與本句語境不同。"
-      }
+        "rescue-mcq-12": "本句指「幫某人擺脫尷尬或不利處境」。",
+        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
+        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
+        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
+        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-12"
     },
     {
       "id": "rescue-13-0",
-      "sense": "rescue-13",
+      "sense": "rescue-mcq-13",
       "en": "The government announced a financial rescue package.",
       "zh": "政府公布了一項財政紓困方案。",
       "masked": "The government announced a financial ____.",
       "options": [
-        "rescue-13",
-        "rescue-14",
-        "rescue-15",
-        "rescue-16",
-        "rescue-01",
-        "rescue-02"
+        "rescue-mcq-13",
+        "rescue-mcq-12",
+        "rescue-mcq-14",
+        "rescue-mcq-11",
+        "rescue-mcq-15",
+        "rescue-mcq-10"
       ],
-      "explanation": "留意語境：rescue package / rescue deal（紓困方案）。這裡指「救助／紓困方案」。",
+      "explanation": "本句的「rescue package」指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "rescue package"
       ],
       "optionReasons": {
-        "rescue-13": "本句的意思是「救助／紓困方案」。",
-        "rescue-14": "「緊急援助資金」與本句語境不同。",
-        "rescue-15": "「救援人員；救人者」與本句語境不同。",
-        "rescue-16": "「被救出的；獲救的」與本句語境不同。",
-        "rescue-01": "「救出；營救」與本句語境不同。",
-        "rescue-02": "「拯救；救援」與本句語境不同。"
-      }
+        "rescue-mcq-13": "本句指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
+        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
+        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
+        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
+        "rescue-mcq-15": "「已從危險、受困或不安全情況中被救出的」是「rescued」的用法，與本句語境不同。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-13"
     },
     {
       "id": "rescue-13-1",
-      "sense": "rescue-13",
+      "sense": "rescue-mcq-13",
       "en": "The company survived after agreeing to a rescue deal.",
       "zh": "公司在達成一項拯救／紓困協議後得以生存。",
       "masked": "The company survived after agreeing to a ____.",
       "options": [
-        "rescue-13",
-        "rescue-14",
-        "rescue-15",
-        "rescue-16",
-        "rescue-01",
-        "rescue-02"
+        "rescue-mcq-13",
+        "rescue-mcq-12",
+        "rescue-mcq-14",
+        "rescue-mcq-11",
+        "rescue-mcq-15",
+        "rescue-mcq-10"
       ],
-      "explanation": "留意語境：rescue package / rescue deal（紓困方案）。這裡指「救助／紓困方案」。",
+      "explanation": "本句的「rescue deal」指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "rescue deal"
       ],
       "optionReasons": {
-        "rescue-13": "本句的意思是「救助／紓困方案」。",
-        "rescue-14": "「緊急援助資金」與本句語境不同。",
-        "rescue-15": "「救援人員；救人者」與本句語境不同。",
-        "rescue-16": "「被救出的；獲救的」與本句語境不同。",
-        "rescue-01": "「救出；營救」與本句語境不同。",
-        "rescue-02": "「拯救；救援」與本句語境不同。"
-      }
+        "rescue-mcq-13": "本句指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
+        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
+        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
+        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
+        "rescue-mcq-15": "「已從危險、受困或不安全情況中被救出的」是「rescued」的用法，與本句語境不同。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-13"
     },
     {
       "id": "rescue-14-0",
-      "sense": "rescue-14",
+      "sense": "rescue-mcq-13",
       "en": "The organization received emergency rescue funding.",
       "zh": "該機構獲得了緊急救助資金。",
       "masked": "The organization received emergency ____.",
       "options": [
-        "rescue-14",
-        "rescue-15",
-        "rescue-16",
-        "rescue-01",
-        "rescue-02",
-        "rescue-03"
+        "rescue-mcq-13",
+        "rescue-mcq-12",
+        "rescue-mcq-14",
+        "rescue-mcq-11",
+        "rescue-mcq-15",
+        "rescue-mcq-10"
       ],
-      "explanation": "留意語境：rescue loan / rescue funding（救助資金）。這裡指「緊急援助資金」。",
+      "explanation": "本句的「rescue funding」指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "rescue funding"
       ],
       "optionReasons": {
-        "rescue-14": "本句的意思是「緊急援助資金」。",
-        "rescue-15": "「救援人員；救人者」與本句語境不同。",
-        "rescue-16": "「被救出的；獲救的」與本句語境不同。",
-        "rescue-01": "「救出；營救」與本句語境不同。",
-        "rescue-02": "「拯救；救援」與本句語境不同。",
-        "rescue-03": "「挽救；保住」與本句語境不同。"
-      }
+        "rescue-mcq-13": "本句指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
+        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
+        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
+        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
+        "rescue-mcq-15": "「已從危險、受困或不安全情況中被救出的」是「rescued」的用法，與本句語境不同。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-13"
     },
     {
       "id": "rescue-14-1",
-      "sense": "rescue-14",
+      "sense": "rescue-mcq-13",
       "en": "A rescue loan kept the business operating.",
       "zh": "一筆紓困貸款令公司得以繼續營運。",
       "masked": "A ____ kept the business operating.",
       "options": [
-        "rescue-14",
-        "rescue-15",
-        "rescue-16",
-        "rescue-01",
-        "rescue-02",
-        "rescue-03"
+        "rescue-mcq-13",
+        "rescue-mcq-12",
+        "rescue-mcq-14",
+        "rescue-mcq-11",
+        "rescue-mcq-15",
+        "rescue-mcq-10"
       ],
-      "explanation": "留意語境：rescue loan / rescue funding（救助資金）。這裡指「緊急援助資金」。",
+      "explanation": "本句的「rescue loan」指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "rescue loan"
       ],
       "optionReasons": {
-        "rescue-14": "本句的意思是「緊急援助資金」。",
-        "rescue-15": "「救援人員；救人者」與本句語境不同。",
-        "rescue-16": "「被救出的；獲救的」與本句語境不同。",
-        "rescue-01": "「救出；營救」與本句語境不同。",
-        "rescue-02": "「拯救；救援」與本句語境不同。",
-        "rescue-03": "「挽救；保住」與本句語境不同。"
-      }
+        "rescue-mcq-13": "本句指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
+        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
+        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
+        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
+        "rescue-mcq-15": "「已從危險、受困或不安全情況中被救出的」是「rescued」的用法，與本句語境不同。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-13"
     },
     {
       "id": "rescue-15-0",
-      "sense": "rescue-15",
+      "sense": "rescue-mcq-14",
       "en": "The rescuers reached the climbers safely.",
       "zh": "救援人員安全到達攀山人士所在位置。",
       "masked": "The ____ reached the climbers safely.",
       "options": [
-        "rescue-15",
-        "rescue-16",
-        "rescue-01",
-        "rescue-02",
-        "rescue-03",
-        "rescue-04"
+        "rescue-mcq-14",
+        "rescue-mcq-13",
+        "rescue-mcq-15",
+        "rescue-mcq-12",
+        "rescue-mcq-11",
+        "rescue-mcq-10"
       ],
-      "explanation": "留意語境：rescuer = person who rescues（救援者）。這裡指「救援人員；救人者」。",
+      "explanation": "本句的「rescuers」指「負責把人／動物從危險中救出的救援人員」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "rescuers"
       ],
       "optionReasons": {
-        "rescue-15": "本句的意思是「救援人員；救人者」。",
-        "rescue-16": "「被救出的；獲救的」與本句語境不同。",
-        "rescue-01": "「救出；營救」與本句語境不同。",
-        "rescue-02": "「拯救；救援」與本句語境不同。",
-        "rescue-03": "「挽救；保住」與本句語境不同。",
-        "rescue-04": "「搶救；挽回」與本句語境不同。"
-      }
+        "rescue-mcq-14": "本句指「負責把人／動物從危險中救出的救援人員」。",
+        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
+        "rescue-mcq-15": "「已從危險、受困或不安全情況中被救出的」是「rescued」的用法，與本句語境不同。",
+        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
+        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-14"
     },
     {
       "id": "rescue-15-1",
-      "sense": "rescue-15",
+      "sense": "rescue-mcq-14",
       "en": "One of the rescuers was injured.",
       "zh": "其中一名救援人員受傷了。",
       "masked": "One of the ____ was injured.",
       "options": [
-        "rescue-15",
-        "rescue-16",
-        "rescue-01",
-        "rescue-02",
-        "rescue-03",
-        "rescue-04"
+        "rescue-mcq-14",
+        "rescue-mcq-13",
+        "rescue-mcq-15",
+        "rescue-mcq-12",
+        "rescue-mcq-11",
+        "rescue-mcq-10"
       ],
-      "explanation": "留意語境：rescuer = person who rescues（救援者）。這裡指「救援人員；救人者」。",
+      "explanation": "本句的「rescuers」指「負責把人／動物從危險中救出的救援人員」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "rescuers"
       ],
       "optionReasons": {
-        "rescue-15": "本句的意思是「救援人員；救人者」。",
-        "rescue-16": "「被救出的；獲救的」與本句語境不同。",
-        "rescue-01": "「救出；營救」與本句語境不同。",
-        "rescue-02": "「拯救；救援」與本句語境不同。",
-        "rescue-03": "「挽救；保住」與本句語境不同。",
-        "rescue-04": "「搶救；挽回」與本句語境不同。"
-      }
+        "rescue-mcq-14": "本句指「負責把人／動物從危險中救出的救援人員」。",
+        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
+        "rescue-mcq-15": "「已從危險、受困或不安全情況中被救出的」是「rescued」的用法，與本句語境不同。",
+        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
+        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-14"
     },
     {
       "id": "rescue-16-0",
-      "sense": "rescue-16",
+      "sense": "rescue-mcq-15",
       "en": "The rescued animals were taken to a shelter.",
       "zh": "獲救的動物被送到收容所。",
       "masked": "The ____ animals were taken to a shelter.",
       "options": [
-        "rescue-16",
-        "rescue-01",
-        "rescue-02",
-        "rescue-03",
-        "rescue-04",
-        "rescue-05"
+        "rescue-mcq-15",
+        "rescue-mcq-14",
+        "rescue-mcq-13",
+        "rescue-mcq-12",
+        "rescue-mcq-11",
+        "rescue-mcq-10"
       ],
-      "explanation": "留意語境：rescued = saved from danger（獲救的）。這裡指「被救出的；獲救的」。",
+      "explanation": "本句的「rescued」指「已從危險、受困或不安全情況中被救出的」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "rescued"
       ],
       "optionReasons": {
-        "rescue-16": "本句的意思是「被救出的；獲救的」。",
-        "rescue-01": "「救出；營救」與本句語境不同。",
-        "rescue-02": "「拯救；救援」與本句語境不同。",
-        "rescue-03": "「挽救；保住」與本句語境不同。",
-        "rescue-04": "「搶救；挽回」與本句語境不同。",
-        "rescue-05": "「營救；救援」與本句語境不同。"
-      }
+        "rescue-mcq-15": "本句指「已從危險、受困或不安全情況中被救出的」。",
+        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
+        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
+        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
+        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-15"
     },
     {
       "id": "rescue-16-1",
-      "sense": "rescue-16",
+      "sense": "rescue-mcq-15",
       "en": "The rescued hikers were tired but safe.",
       "zh": "獲救的行山人士雖然疲倦，但很安全。",
       "masked": "The ____ hikers were tired but safe.",
       "options": [
-        "rescue-16",
-        "rescue-01",
-        "rescue-02",
-        "rescue-03",
-        "rescue-04",
-        "rescue-05"
+        "rescue-mcq-15",
+        "rescue-mcq-14",
+        "rescue-mcq-13",
+        "rescue-mcq-12",
+        "rescue-mcq-11",
+        "rescue-mcq-10"
       ],
-      "explanation": "留意語境：rescued = saved from danger（獲救的）。這裡指「被救出的；獲救的」。",
+      "explanation": "本句的「rescued」指「已從危險、受困或不安全情況中被救出的」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "rescued"
       ],
       "optionReasons": {
-        "rescue-16": "本句的意思是「被救出的；獲救的」。",
-        "rescue-01": "「救出；營救」與本句語境不同。",
-        "rescue-02": "「拯救；救援」與本句語境不同。",
-        "rescue-03": "「挽救；保住」與本句語境不同。",
-        "rescue-04": "「搶救；挽回」與本句語境不同。",
-        "rescue-05": "「營救；救援」與本句語境不同。"
-      }
+        "rescue-mcq-15": "本句指「已從危險、受困或不安全情況中被救出的」。",
+        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
+        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
+        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
+        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
+        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+      },
+      "correctOption": "rescue-mcq-15"
     }
   ],
   "comparisons": [],
@@ -1440,5 +1349,6 @@ export default {
     "file": "225_rescue_Polysemy Exercise.pdf",
     "sha256": "3d4d10fb23938a79beac722988b796e84e57e932a9b6a5779ed0706b77dd3e47",
     "pages": 16
-  }
+  },
+  "mcqSource": "master-comparison"
 };

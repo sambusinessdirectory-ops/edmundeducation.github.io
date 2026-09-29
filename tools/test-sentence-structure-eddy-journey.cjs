@@ -59,8 +59,8 @@ window.journeyTest = {
   assert.equal(await page.locator('[data-sentence-journey-eddy]').count(), 1);
   assert.equal(await page.locator('.sentence-journey-platform strong').first().textContent(), '01');
   assert.equal(await page.locator('.sentence-journey-platform strong').last().textContent(), '50');
-  const firstPlatformImage = await page.locator('.sentence-journey-platform img').first().getAttribute('src');
-  assert.equal(firstPlatformImage, 'assets/sentence-structure/exercise-eddy/coast-platform.webp');
+  assert.equal(await page.locator('.sentence-journey-platform img').count(), 0, 'Platforms do not depend on recreated lazy image elements');
+  assert.match(await page.locator('.sentence-journey-platform').first().evaluate((node) => getComputedStyle(node).backgroundImage), /coast-platform\.webp/);
   assert.equal(await page.locator('.sentence-journey-platform span').count(), 0, 'Platforms have no stray status punctuation');
   assert.match(await page.locator('.question-list.has-sentence-journey').evaluate((node) => getComputedStyle(node, '::before').backgroundImage), /coast-route-v2\.webp/);
 
@@ -68,6 +68,22 @@ window.journeyTest = {
   await page.waitForFunction(() => document.querySelector('[data-sentence-journey-eddy]').dataset.motion === 'idle', null, { timeout: 6500 });
   assert.match(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-standing\.png/);
   assert.equal(await actor.locator('.sentence-journey-eddy-blink').evaluate((node) => getComputedStyle(node).animationName), 'sentence-eddy-blink');
+  const keyboardStop = page.locator('[data-eddy-stop][data-question-number="4"]');
+  const keyboardInput = keyboardStop.locator('[data-answer-input]').first();
+  await keyboardInput.scrollIntoViewIfNeeded();
+  await page.evaluate(() => window.scrollBy(0, -120));
+  await keyboardInput.focus();
+  await page.waitForTimeout(60);
+  const beforeKeyboardTop = await keyboardStop.evaluate((node) => node.getBoundingClientRect().top);
+  await page.setViewportSize({ width: 1440, height: 650 });
+  await page.waitForTimeout(60);
+  await page.evaluate(() => window.scrollBy(0, 180));
+  const keyboardShiftedTop = await keyboardStop.evaluate((node) => node.getBoundingClientRect().top);
+  assert.ok(Math.abs(keyboardShiftedTop - beforeKeyboardTop) > 100, 'Keyboard simulation pushes the active question card');
+  await page.setViewportSize({ width: 1440, height: 1050 });
+  await page.waitForTimeout(480);
+  const afterKeyboardTop = await keyboardStop.evaluate((node) => node.getBoundingClientRect().top);
+  assert.ok(Math.abs(afterKeyboardTop - beforeKeyboardTop) < 12, `Closing the keyboard restores the question card (${beforeKeyboardTop.toFixed(1)} → ${afterKeyboardTop.toFixed(1)})`);
   const firstInput = page.locator('[data-answer-input]').first();
   const thirdInput = page.locator('[data-answer-input]').nth(2);
   await firstInput.focus();
@@ -80,22 +96,22 @@ window.journeyTest = {
   assert.ok(Number.parseFloat(await actor.evaluate((node) => node.style.getPropertyValue('--eddy-walk-duration'))) >= 2070, 'Eddy travels thirty percent slower');
   assert.equal(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).animationDuration), '1.46s');
 
-  const module = await page.evaluate(async () => {
+  await page.evaluate(async () => {
     const journey = await import('/sentence-structure-exercise-journey.mjs');
     journey.reactSentenceJourney(document.querySelector('[data-lesson-content]'), { questionId: document.querySelectorAll('[data-answer-input]')[2].dataset.answerInput, correct: true });
-    await new Promise((resolve) => setTimeout(resolve, 600));
-    return document.querySelector('[data-sentence-journey-eddy]').dataset.motion;
   });
-  assert.equal(module, 'jump');
-  assert.match(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-jump-v2\.webp/);
+  await page.waitForFunction(() => document.querySelector('[data-sentence-journey-eddy]').dataset.motion === 'jump');
+  assert.match(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-standing\.png/, 'the standing layer remains painted beneath every reaction');
+  assert.match(await actor.locator('.sentence-journey-eddy-jump').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-jump-v3\.webp/);
+  assert.equal(await actor.locator('.sentence-journey-eddy-jump').evaluate((node) => getComputedStyle(node).opacity), '1');
   await page.evaluate(async () => {
     const journey = await import('/sentence-structure-exercise-journey.mjs');
     const input = document.querySelectorAll('[data-answer-input]')[2];
     journey.reactSentenceJourney(document.querySelector('[data-lesson-content]'), { questionId: input.dataset.answerInput, correct: false });
   });
-  await page.waitForTimeout(600);
-  assert.equal(await actor.getAttribute('data-motion'), 'encourage');
-  assert.match(await actor.locator('.sentence-journey-eddy-sprite').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-encourage-v1\.webp/);
+  await page.waitForFunction(() => document.querySelector('[data-sentence-journey-eddy]').dataset.motion === 'encourage');
+  assert.match(await actor.locator('.sentence-journey-eddy-encourage').evaluate((node) => getComputedStyle(node).backgroundImage), /eddy-encourage-v2\.webp/);
+  assert.equal(await actor.locator('.sentence-journey-eddy-encourage').evaluate((node) => getComputedStyle(node).opacity), '1');
 
   await page.waitForTimeout(650);
   const twelfthStop = page.locator('[data-eddy-stop][data-question-number="12"]');
@@ -105,18 +121,53 @@ window.journeyTest = {
   await twelfthInput.focus();
   await page.waitForTimeout(80);
   const beforeGradeTop = await twelfthStop.evaluate((node) => node.getBoundingClientRect().top);
-  await twelfthInput.fill(await page.evaluate(() => journeyTest.getLesson().questions[11].answer));
-  const immediateGradePosition = await page.evaluate(() => {
-    void journeyTest.submitExercise('partial');
-    const actorBox = document.querySelector('[data-sentence-journey-eddy]').getBoundingClientRect();
-    const platformBox = document.querySelector('[data-eddy-active=true] .sentence-journey-platform').getBoundingClientRect();
+  const beforeGradeGeometry = await page.evaluate(() => {
+    const list = document.querySelector('[data-question-list]');
+    const actor = document.querySelector('[data-sentence-journey-eddy]');
+    const platform = document.querySelector('[data-eddy-active=true] .sentence-journey-platform');
     return {
-      styledTop: Number.parseFloat(document.querySelector('[data-sentence-journey-eddy]').style.top),
-      feetGap: Math.abs((actorBox.bottom - actorBox.height * .1) - (platformBox.top + platformBox.height * .48))
+      actorTop: Number.parseFloat(actor.style.top),
+      actorHeight: actor.offsetHeight,
+      platformTop: platform.getBoundingClientRect().top - list.getBoundingClientRect().top
     };
   });
-  assert.ok(immediateGradePosition.styledTop > 1000, 'Eddy never flashes back to the start of the route while grading');
-  assert.ok(immediateGradePosition.feetGap < 4, 'Eddy remains planted on the active platform during the grading rerender');
+  await twelfthInput.fill(await page.evaluate(() => journeyTest.getLesson().questions[11].answer));
+  const gradingFrames = await page.evaluate(() => {
+    const originalActor = document.querySelector('[data-sentence-journey-eddy]');
+    void journeyTest.submitExercise('partial');
+    return new Promise((resolve) => {
+      const frames = [];
+      const sample = () => {
+        const currentActor = document.querySelector('[data-sentence-journey-eddy]');
+        const actorBox = currentActor.getBoundingClientRect();
+        const platformBox = document.querySelector('[data-eddy-active=true] .sentence-journey-platform').getBoundingClientRect();
+        const listBox = document.querySelector('[data-question-list]').getBoundingClientRect();
+        frames.push({
+          sameActor: currentActor === originalActor,
+          styledTop: Number.parseFloat(currentActor.style.top),
+          actorHeight: currentActor.offsetHeight,
+          platformTop: platformBox.top - listBox.top,
+          feetGap: Math.abs((actorBox.bottom - actorBox.height * .1) - (platformBox.top + platformBox.height * .48)),
+          visibility: getComputedStyle(currentActor).visibility,
+          standingLayerPainted: getComputedStyle(currentActor.querySelector('.sentence-journey-eddy-sprite')).backgroundImage.includes('eddy-standing.png'),
+          reactionLayerCount: currentActor.querySelectorAll('.sentence-journey-eddy-action').length,
+          platformCount: document.querySelectorAll('.sentence-journey-platform').length,
+          paintedPlatforms: [...document.querySelectorAll('.sentence-journey-platform')].filter((node) => getComputedStyle(node).backgroundImage.includes('coast-platform.webp')).length
+        });
+        if (frames.length < 12) requestAnimationFrame(sample);
+        else resolve(frames);
+      };
+      requestAnimationFrame(sample);
+    });
+  });
+  assert.ok(gradingFrames.every((frame) => frame.sameActor), 'Grading preserves the same Eddy element without a replacement-frame flash');
+  assert.ok(gradingFrames.every((frame) => frame.styledTop > 1000), 'Eddy never flashes back to the start of the route while grading');
+  assert.ok(gradingFrames.every((frame) => Math.abs(frame.styledTop - beforeGradeGeometry.actorTop) < 1), `Card expansion never changes Eddy’s route coordinate: ${JSON.stringify({ beforeGradeGeometry, gradingFrames })}`);
+  assert.ok(gradingFrames.every((frame) => Math.abs(frame.platformTop - beforeGradeGeometry.platformTop) < 1), 'Card expansion never changes the active platform coordinate');
+  assert.ok(gradingFrames.every((frame) => frame.feetGap < 4), `Eddy remains planted on the active platform throughout the grading rerender: ${JSON.stringify(gradingFrames)}`);
+  assert.ok(gradingFrames.every((frame) => frame.visibility === 'visible'), 'Eddy is visible only after a final platform position is applied');
+  assert.ok(gradingFrames.every((frame) => frame.standingLayerPainted && frame.reactionLayerCount === 2), 'A painted standing Eddy remains underneath both permanently loaded reaction layers');
+  assert.ok(gradingFrames.every((frame) => frame.platformCount === 50 && frame.paintedPlatforms === 50), 'All fifty CSS-painted platforms remain visible throughout grading');
   await page.waitForFunction(() => document.querySelector('[data-eddy-stop][data-question-number="12"] .question-card')?.classList.contains('is-correct'));
   await page.waitForTimeout(240);
   const afterGradeTop = await page.locator('[data-eddy-stop][data-question-number="12"]').evaluate((node) => node.getBoundingClientRect().top);
@@ -148,6 +199,7 @@ window.journeyTest = {
   assert.notEqual(await actor.getAttribute('data-motion'), 'walk', 'A same-platform reaction never starts with walking legs');
   await page.waitForTimeout(70);
   assert.equal(await actor.getAttribute('data-motion'), 'encourage');
+  await page.waitForTimeout(450);
   await page.locator('[data-eddy-active=true]').screenshot({ path: path.join(out, 'eddy-journey-question-8.png') });
 
   await firstInput.focus();

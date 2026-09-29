@@ -36,8 +36,8 @@ window.coastTest={
 
  const map=page.locator('[data-sentence-map]'),viewport=page.locator('.expression-map-viewport');
  await map.scrollIntoViewIfNeeded();await viewport.focus();
- assert.equal(await page.locator('.expression-map-stone').count(),150);
- assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),195);
+ assert.equal(await page.locator('.expression-map-stone').count(),180);
+ assert.equal(await page.locator('[data-remaining-lesson-grid] [data-open-lesson]').count(),165);
  await page.locator('.expression-map-picker select').selectOption('ss31');await page.waitForTimeout(3400);
  assert.equal(await page.locator('[data-map-level="30"]').getAttribute('data-arrived'),'true');
  await viewport.evaluate(el=>{el.scrollTop=1950*Number(document.querySelector('[data-sentence-map]').dataset.scale);});
@@ -78,11 +78,13 @@ window.coastTest={
  assert.equal(await page.locator('.expression-map-flag').isVisible(),false);
  await page.evaluate(()=>coastTest.logout());await page.evaluate(()=>coastTest.login());
  assert.equal(await page.locator('[data-map-level="30"]').getAttribute('data-arrived'),'true');
- await page.locator('.expression-map-lesson-card').waitFor({state:'visible',timeout:4000});
- assert.equal(await page.locator('.expression-map-lesson-card').isVisible(),true,'Login centres the saved autumn stone');
+ await page.locator('.expression-map-flag').waitFor({state:'visible',timeout:10000});
+ assert.equal(await page.locator('.expression-map-flag').getAttribute('data-flag-level'),'ss31','Login restores the saved autumn stone');
  assert.equal(await page.locator('[data-character=phoebe]').getAttribute('aria-pressed'),'true');
  // Cross the penetrable realm border in both directions using real selector travel.
- for(const id of ['ss30','ss31','ss30','ss31']){await page.locator('.expression-map-picker select').selectOption(id);await page.waitForTimeout(3400);assert.equal(await page.locator(`[data-map-level="${Number(id.slice(2))-1}"]`).getAttribute('data-arrived'),'true');}
+ await page.emulateMedia({reducedMotion:'reduce'});
+ for(const id of ['ss30','ss31','ss30','ss31']){await page.locator('.expression-map-picker select').selectOption(id);await page.waitForTimeout(500);assert.equal(await page.locator(`[data-map-level="${Number(id.slice(2))-1}"]`).getAttribute('data-arrived'),'true');}
+ await page.emulateMedia({reducedMotion:'no-preference'});
  await viewport.evaluate(el=>{el.scrollTop=1690*Number(document.querySelector('[data-sentence-map]').dataset.scale);});await map.screenshot({path:path.join(out,'realm-cloud-border.png')});
  // Walk through the mist with arrow keys, including camera-follow.
  await page.emulateMedia({reducedMotion:'reduce'});await page.locator('.expression-map-picker select').selectOption('ss30');
