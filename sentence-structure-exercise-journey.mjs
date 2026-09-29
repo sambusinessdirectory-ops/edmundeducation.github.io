@@ -25,7 +25,7 @@ function outfitKey() {
 
 function journeyAsset(kind, outfit = outfitKey()) {
   return outfit
-    ? new URL(`assets/sentence-structure/exercise-eddy/eddy-${outfit}-${kind}-v1.webp`, import.meta.url).href
+    ? new URL(`assets/sentence-structure/exercise-eddy/eddy-${outfit}-${kind}-v1.webp?v=20260929-detailed-fit2`, import.meta.url).href
     : kind === 'walk'
       ? new URL('assets/sentence-structure/exercise-eddy/eddy-walk-v2.webp', import.meta.url).href
       : REACTION_ASSET_URLS[kind];
