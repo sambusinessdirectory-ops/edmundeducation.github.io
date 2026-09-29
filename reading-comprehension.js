@@ -9,13 +9,15 @@ const MOCK_EXAM_KEY = "edmund-ielts-reading-mock-exams-v1";
 let ARTICLE_ID = "p1-069-albert-einstein";
 const CATALOGUE_VERSION = '20260829-audio1';
 const DSE_CATALOGUE_VERSION = '20260905-dse-2024-b1';
+const DSE_PAPER_SCANS_VERSION = '20260930-native-paper1';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
 const QUESTION_TYPE_INDEX = window.EDMUND_IELTS_READING_QUESTION_TYPES || { taxonomy: [], articles: [] };
 const audioTimingCache = new Map();
+let dsePaperScansPromise;
 
 const state = {
   supabase: null, token: "", user: null, view: "login", data: null, analysis: null,
-  system: 'ielts', dseCatalogue: [], dseCataloguePromise: null, dseSort: 'desc',
+  system: 'ielts', dseCatalogue: [], dseCataloguePromise: null, dseSort: 'desc', dsePaperMode: 'practice',
   attemptId: null, answers: {}, results: {}, bookmarks: new Set(), bookmarkItems: new Map(), pendingBookmarks: new Set(), bookmarkError: false, activeAnalysis: 0, activeSkimming: 0, analysisMode: 'analysis',
   timerRunning: false, durationMs: 0, timerStartedAt: 0, timerHandle: 0, autosaveHandle: 0,
   timerMode: "stopwatch", countdownMinutes: 20, forceSubmit: false, submitting: false,
@@ -471,6 +473,7 @@ async function openFullExamSection(index, saveCurrent = true) {
     exam.index = index;
     state.answers = { ...(exam.answers?.[entry.id] || {}) };
     renderPassage(); renderQuestions(); setupAudio(); lockQuestionForm(false);
+    if (exam.examType === 'dse') await configureDsePaperViews();
     $$('[data-answer-part]', el.questionForm).forEach((control) => {
       const value = state.answers[control.name] || '';
       if (control.type === 'radio') control.checked = control.value === value;
@@ -675,11 +678,62 @@ async function openDashboard() {
 
 function setExerciseSystem(system) {
   const dse = system === 'dse'; state.system = system;
-  $('[data-view="exercise"]').classList.toggle('dse-exercise', dse);
+  const exercise = $('[data-view="exercise"]');
+  exercise.classList.toggle('dse-exercise', dse);
+  if (!dse) {
+    exercise.classList.remove('dse-paper-view', 'dse-scan-view');
+    $('[data-dse-paper-view-switch]').hidden = true;
+    $('[data-dse-paper-view-note]').hidden = true;
+    $('[data-dse-scan-gallery]').hidden = true;
+  }
   $$('[data-ielts-only]').forEach((node) => { node.hidden = dse; });
   $('[data-dse-tools-notice]').hidden = !dse;
   $('[data-dse-draft-note]').hidden = !dse;
   if (dse) { el.forceSubmit.checked = false; state.forceSubmit = false; el.forceLabel.hidden = true; }
+}
+
+async function loadDsePaperScans() {
+  if (!dsePaperScansPromise) dsePaperScansPromise = fetch(`dse-reading-paper-scans.json?v=${DSE_PAPER_SCANS_VERSION}`)
+    .then((response) => { if (!response.ok) throw new Error('Original scan manifest unavailable'); return response.json(); })
+    .catch((error) => { console.warn(error); dsePaperScansPromise = null; return {}; });
+  return dsePaperScansPromise;
+}
+
+function setDsePaperMode(mode, remember = false) {
+  if (state.system !== 'dse') return;
+  const scanAvailable = !$('[data-dse-display-mode="scan"]').hidden;
+  const next = ['practice', 'paper', 'scan'].includes(mode) && (mode !== 'scan' || scanAvailable) ? mode : 'practice';
+  state.dsePaperMode = next;
+  const exercise = $('[data-view="exercise"]');
+  exercise.classList.toggle('dse-paper-view', next === 'paper');
+  exercise.classList.toggle('dse-scan-view', next === 'scan');
+  $('[data-dse-scan-gallery]').hidden = next !== 'scan';
+  $('[data-dse-paper-view-note]').hidden = next !== 'paper';
+  $$('[data-dse-display-mode]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.dseDisplayMode === next)));
+  if (remember && next !== 'scan') {
+    try { localStorage.setItem('edmund-dse-reading-view-v1', next); } catch {}
+  }
+  requestAnimationFrame(updateFloatingOffsets);
+}
+
+async function configureDsePaperViews() {
+  const manifest = await loadDsePaperScans();
+  const pages = Array.isArray(manifest[ARTICLE_ID]) ? manifest[ARTICLE_ID].filter((page) =>
+    /^(?:passage|questions)$/.test(page.kind) && Number.isInteger(page.number) &&
+    /^assets\/reading-comprehension\/dse\/papers\/\d{4}\/(?:a|b1|b2)\/(?:passage|questions)-\d+\.webp$/.test(page.src)
+  ) : [];
+  const gallery = $('[data-dse-scan-pages]');
+  gallery.innerHTML = pages.map((page) => `<figure class="dse-scan-page"><figcaption>${page.kind === 'passage' ? '文章' : '題目'} · 原卷第 ${page.number} 頁</figcaption><a href="${escapeHtml(page.src)}" target="_blank" rel="noopener"><img src="${escapeHtml(page.src)}" alt="${escapeHtml(state.data.year)} Part ${escapeHtml(state.data.section)} ${page.kind === 'passage' ? '文章' : '題目'}原卷第 ${page.number} 頁" loading="lazy"></a></figure>`).join('');
+  $('[data-dse-display-mode="scan"]').hidden = !pages.length;
+  $('[data-dse-paper-view-note]').textContent = pages.length
+    ? '這個版本使用已數碼化的原卷文字與題目；如需核對原卷的頁碼、行距及圖像細節，請切換至原卷影像。'
+    : '這個版本使用已數碼化的原卷文字與題目；這份試卷的原卷影像暫未在網站提供。';
+  $('[data-dse-paper-view-switch]').hidden = false;
+  let preferred = state.dsePaperMode;
+  if (preferred === 'practice') {
+    try { preferred = localStorage.getItem('edmund-dse-reading-view-v1') || preferred; } catch {}
+  }
+  setDsePaperMode(preferred);
 }
 
 function updateAnswerProgress() {
@@ -1280,6 +1334,7 @@ async function openDseExercise(id) {
       : '答案及分析會稍後加入。';
     updateReadingFlashcardLink(`dse/reading/part-${state.data.section.toLowerCase()}/${state.data.year}`);
     resetAttemptState(); renderPassage(); renderQuestions(); setupAudio(); restoreDseDraft(); updateAnswerProgress();
+    await configureDsePaperViews();
     state.exerciseReady = true;
     state.timerHandle = setInterval(updateTimer, 250);
     $('[data-exercise-title]').textContent = entry.title; $('#passage-title').textContent = entry.title;
@@ -1389,6 +1444,11 @@ $$('[data-passage-tab]').forEach((button) => button.addEventListener("click", ()
 document.addEventListener("click", (event) => {
   const deepButton = event.target.closest('[data-deep-analysis]'); if (deepButton) return openDseDeepAnalysis(Number(deepButton.dataset.deepAnalysis), deepButton);
   const dseExerciseButton = event.target.closest('[data-open-dse-exercise]'); if (dseExerciseButton?.dataset.openDseExercise) return openDseExercise(dseExerciseButton.dataset.openDseExercise);
+  const displayMode = event.target.closest('[data-dse-display-mode]');
+  if (displayMode) {
+    if (isFullExamOpen()) scheduleFullExamSave(); else saveDseDraft();
+    return setDsePaperMode(displayMode.dataset.dseDisplayMode, true);
+  }
   const exerciseButton = event.target.closest('[data-open-exercise]'); if (exerciseButton) return openExercise(exerciseButton.dataset.openExercise || ARTICLE_ID);
   const interactive = event.target.closest('[data-interactive-flashcards]'); if (interactive) return openInteractiveFlashcards(interactive.dataset.interactiveFlashcards);
   const catalogueButton = event.target.closest('[data-catalogue-bookmark]'); if (catalogueButton) { const entry = state.catalogue.find((item) => item.id === catalogueButton.dataset.catalogueBookmark); if (entry) return toggleReadingBookmark(catalogueBookmark(entry)).then(renderCatalogue); }
