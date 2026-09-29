@@ -11,10 +11,12 @@ import lesson014 from '../natural-english/lesson-014.mjs';
 import lesson016 from '../natural-english/lesson-016.mjs';
 import lesson017 from '../natural-english/lesson-017.mjs';
 import lesson018 from '../natural-english/lesson-018.mjs';
+import lesson019 from '../natural-english/lesson-019.mjs';
+import lesson020 from '../natural-english/lesson-020.mjs';
 import {audioManifest} from '../natural-english/audio/manifest.mjs';
 import {plan} from './plan-native-english-redesign.mjs';
 
-for(const [number,draft] of [[7,lesson007],[8,lesson008],[9,lesson009],[10,lesson010],[11,lesson011],[12,lesson012],[14,lesson014],[16,lesson016],[17,lesson017],[18,lesson018]]){
+for(const [number,draft] of [[7,lesson007],[8,lesson008],[9,lesson009],[10,lesson010],[11,lesson011],[12,lesson012],[14,lesson014],[16,lesson016],[17,lesson017],[18,lesson018],[19,lesson019],[20,lesson020]]){
   const allocation=plan().rows.find(row=>row.number===number);
   const lessonId=`native-${String(number).padStart(3,'0')}`;
   const questionIds=new Set(draft.questions.map(question=>question.id));
@@ -45,4 +47,4 @@ for(const [number,draft] of [[7,lesson007],[8,lesson008],[9,lesson009],[10,lesso
     assert.match(createHash('sha256').update(bytes).digest('hex'),/^[0-9a-f]{64}$/);
   }
 }
-console.log('PASS: ten editorial drafts have five or six distinct styles, new progress IDs, no prompt/hint answer leaks, and existing model audio.');
+console.log('PASS: twelve editorial drafts have five or six distinct styles, new progress IDs, no prompt/hint answer leaks, and existing model audio.');

@@ -193,15 +193,15 @@
       "title": "走洋蔥",
       "family": "action",
       "styles": [
-        "branch",
-        "continue",
-        "speak",
-        "repair",
         "audio",
-        "detail"
+        "detail",
+        "branch",
+        "repair",
+        "continue",
+        "speak"
       ],
       "sourceSha256": "3107a33c556525d53f9602bf3009521932fb768b137f3920bb40b3f4f7fe37d2",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 20,
@@ -216,7 +216,7 @@
         "final"
       ],
       "sourceSha256": "35bea55bb7cf7e9bfb75dd6852bfd36e9d05bc724f926ce5d9522ac926a2287a",
-      "status": "needs-content-authoring"
+      "status": "draft-needs-editorial-review"
     },
     {
       "number": 21,

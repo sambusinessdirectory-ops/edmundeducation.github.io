@@ -40,6 +40,8 @@ const authored={
   16:['audio','explain','rewrite','continue','speak','final'],
   17:['scene','audio','rewrite','continue','speak','transfer'],
   18:['reverse','audio','contrast','repair','speak'],
+  19:['audio','detail','branch','repair','continue','speak'],
+  20:['reverse','audio','contrast','speak','final'],
 };
 
 const hash=(...parts)=>Number.parseInt(createHash('sha256').update(parts.join(':')).digest('hex').slice(0,8),16);
