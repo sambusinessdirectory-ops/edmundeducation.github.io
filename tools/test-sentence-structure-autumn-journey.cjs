@@ -40,7 +40,7 @@ let browser;
     assert.equal(await page.locator('.sentence-journey-platform').count(), 50, `${lessonId}: 50 logs`);
     assert.equal(await page.locator('[data-sentence-journey-eddy]').count(), 1, `${lessonId}: one actor`);
     assert.match(await page.locator('.sentence-journey-platform').first().evaluate((node) => getComputedStyle(node).backgroundImage), /autumn\/stone\.webp/);
-    assert.match(await page.locator('.has-sentence-journey').evaluate((node) => getComputedStyle(node, '::after').backgroundImage), /exercise-log-trail-v3\.webp/);
+    assert.match(await page.locator('.has-sentence-journey').evaluate((node) => getComputedStyle(node, '::after').backgroundImage), /exercise-wooden-path-v3\.webp/);
   }
 
   const actor = page.locator('[data-sentence-journey-eddy]');
