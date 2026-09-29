@@ -474,6 +474,19 @@
     .student-card-action:disabled { cursor: not-allowed; opacity: .5; }
     .student-card-action.danger { color: #922f2b; border-color: rgba(175,67,62,.28); background: #fff1f0; }
     .student-admin-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+    .homework-export-tools { display: flex; justify-content: flex-end; margin: 0 0 12px; }
+    dialog[data-homework-export-dialog] { width: min(720px, calc(100vw - 28px)); max-height: calc(100dvh - 28px); overflow: auto; }
+    .homework-export-card { display: grid; gap: 14px; }
+    .homework-export-card h3 { margin: 0; font-size: 16px; }
+    .homework-export-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+    .homework-export-row label { display: inline-flex; align-items: center; gap: 6px; }
+    .homework-export-row input[type="date"], .homework-export-row select, .homework-export-search { min-height: 40px; border: 1px solid var(--line); border-radius: 9px; padding: 7px 10px; background: #fff; font: inherit; }
+    .homework-export-search { width: 100%; }
+    .homework-export-students { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 7px; max-height: 180px; overflow: auto; border: 1px solid var(--line); border-radius: 12px; padding: 10px; }
+    .homework-export-students label { display: flex; gap: 7px; align-items: center; min-width: 0; }
+    .homework-export-week-list { display: flex; flex-wrap: wrap; gap: 6px; }
+    .homework-export-week-list button { border: 1px solid var(--line); border-radius: 999px; padding: 5px 9px; background: #fff; cursor: pointer; }
+    .homework-export-scope[hidden] { display: none; }
     .student-sort-controls { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
     .student-sort-button { border: 1px solid rgba(109,60,34,.2); border-radius: 999px; padding: 8px 12px; color: #604131; background: #fff; font: inherit; font-size: 12px; font-weight: 850; cursor: pointer; }
     .student-sort-button[aria-pressed="true"] { color: #fff; border-color: var(--amber-dark); background: var(--amber-dark); }
@@ -2271,6 +2284,7 @@
             <span class="inactive-student-toggle">自訂排序可拖放，或使用上移／下移按鈕。</span>
           </div>
         </div>
+        <div class="homework-export-tools"><button class="secondary-button" type="button" data-open-homework-export>匯出功課資料（TXT）</button></div>
         <div class="student-grid" data-student-list>
           <p class="empty-state">正在載入學生帳戶…</p>
         </div>
@@ -2667,6 +2681,22 @@
     </form>
   </dialog>
 
+  <dialog data-homework-export-dialog aria-labelledby="homework-export-title">
+    <section class="dialog-card homework-export-card">
+      <div class="student-profile-heading"><div><p class="eyebrow">HOMEWORK DATA EXPORT</p><h2 id="homework-export-title">匯出功課資料</h2><p class="dialog-meta">下載所選學生與星期的完整安排、狀態及標籤。只包含已有安排的格子。</p></div><button class="secondary-button" type="button" data-close-homework-export>關閉</button></div>
+      <h3>1. 選擇學生 <span data-homework-export-student-count></span></h3>
+      <div class="homework-export-row"><button class="secondary-button" type="button" data-export-select-active>所有使用中</button><button class="secondary-button" type="button" data-export-select-all>所有學生（包括已停用）</button><button class="secondary-button" type="button" data-export-select-visible>選取搜尋結果</button><button class="secondary-button" type="button" data-export-clear-students>清除</button></div>
+      <input class="homework-export-search" type="search" data-homework-export-search placeholder="搜尋學生名稱" aria-label="搜尋匯出學生">
+      <div class="homework-export-students" data-homework-export-students></div>
+      <h3>2. 選擇星期</h3>
+      <label>範圍 <select data-homework-export-week-mode><option value="all">所有星期</option><option value="single">一個星期</option><option value="range">連續星期</option><option value="selected">指定多個星期</option></select></label>
+      <div class="homework-export-row homework-export-scope" data-export-single hidden><label>星期一 <input type="date" data-export-single-week></label></div>
+      <div class="homework-export-row homework-export-scope" data-export-range hidden><label>由星期一 <input type="date" data-export-from-week></label><label>至星期一 <input type="date" data-export-to-week></label></div>
+      <div class="homework-export-scope" data-export-selected hidden><div class="homework-export-row"><label>加入星期一 <input type="date" data-export-add-week></label><button class="secondary-button" type="button" data-export-add-week-button>加入</button></div><div class="homework-export-week-list" data-export-week-list></div></div>
+      <p class="form-status" data-homework-export-status role="status" aria-live="polite"></p>
+      <div class="dialog-actions"><button class="secondary-button" type="button" data-homework-export-prepare>預覽數量</button><button class="primary-button" type="button" data-homework-export-download disabled>下載 TXT</button></div>
+    </section>
+  </dialog>
   <dialog data-student-profile-dialog aria-labelledby="student-profile-dialog-title">
     <section class="dialog-card student-profile-card">
       <div class="student-profile-heading">
@@ -2736,7 +2766,7 @@
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="shared-system-nav.js?v=20260924-wallet1"></script>
-  <script type="module" src="schedule-system.js?v=20260926-homework-session1"></script>
+  <script type="module" src="schedule-system.js?v=20260929-homework-text-export1"></script>
   <script src="student-activity-log.js?v=20260910-1"></script>
 </body>
 </html>

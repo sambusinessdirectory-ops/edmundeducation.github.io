@@ -33,7 +33,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Validate closet fast release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') }}
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
@@ -71,6 +71,14 @@ jobs:
           node tools/test-natural-english-import.mjs
           npm ci --prefix tools/email-qa --ignore-scripts
           node tools/test-natural-english-modules.mjs
+
+      - name: Validate focused Homework export release
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[homework-release]') }}
+        run: |
+          node --check schedule-system.js
+          node --check schedule-homework-export.mjs
+          node tools/test-schedule-homework-export.mjs
+          node tools/test-schedule-clipboard.mjs
 
       - name: Validate focused Speaking release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[speaking-release]') }}

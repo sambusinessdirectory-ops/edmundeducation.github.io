@@ -52,6 +52,7 @@ import {
   parseScheduleMessage,
   serializeScheduleMessage
 } from "./schedule-homework-links.mjs?v=20260919-polysemy-native1";
+import { formatHomeworkExport, validExportWeek } from "./schedule-homework-export.mjs?v=20260929-1";
 import {
   ScheduleGroupShiftError,
   planScheduleGroupShift
@@ -242,6 +243,19 @@ const elements = {
   parentAdminStatus: document.querySelector("[data-parent-admin-status]"),
   studentSortButtons: [...document.querySelectorAll("[data-student-sort-mode]")],
   studentStatusFilter: document.querySelector("[data-student-status-filter]"),
+  homeworkExportDialog: document.querySelector("[data-homework-export-dialog]"),
+  homeworkExportStudents: document.querySelector("[data-homework-export-students]"),
+  homeworkExportSearch: document.querySelector("[data-homework-export-search]"),
+  homeworkExportStudentCount: document.querySelector("[data-homework-export-student-count]"),
+  homeworkExportWeekMode: document.querySelector("[data-homework-export-week-mode]"),
+  homeworkExportSingleWeek: document.querySelector("[data-export-single-week]"),
+  homeworkExportFromWeek: document.querySelector("[data-export-from-week]"),
+  homeworkExportToWeek: document.querySelector("[data-export-to-week]"),
+  homeworkExportAddWeek: document.querySelector("[data-export-add-week]"),
+  homeworkExportWeekList: document.querySelector("[data-export-week-list]"),
+  homeworkExportStatus: document.querySelector("[data-homework-export-status]"),
+  homeworkExportPrepare: document.querySelector("[data-homework-export-prepare]"),
+  homeworkExportDownload: document.querySelector("[data-homework-export-download]"),
   studentProfileDialog: document.querySelector("[data-student-profile-dialog]"),
   studentProfileTitle: document.querySelector("[data-student-profile-title]"),
   studentProfileStatus: document.querySelector("[data-student-profile-status]"),
@@ -418,6 +432,11 @@ const state = {
   studentSortMode: "asc",
   studentOrder: [],
   studentStatusFilter: "active",
+  homeworkExportSelectedIds: new Set(),
+  homeworkExportWeeks: new Set(),
+  homeworkExportPrepared: null,
+  homeworkExportBusy: false,
+  homeworkExportRevision: 0,
   draggingStudentId: null,
   adminTeacherAssignmentStudentIds: new Set(),
   adminHomeworkLinks: [],
@@ -4032,6 +4051,149 @@ function renderStudentList() {
   }
 }
 
+function invalidateHomeworkExport() {
+  state.homeworkExportRevision += 1;
+  state.homeworkExportPrepared = null;
+  elements.homeworkExportDownload.disabled = true;
+  setStatus(elements.homeworkExportStatus, "選好學生及星期後，先按「預覽數量」。");
+}
+
+function renderHomeworkExportStudents() {
+  const query = elements.homeworkExportSearch.value.trim().toLocaleLowerCase();
+  const visible = state.adminStudents.filter((student) =>
+    !query || String(student.name || "").toLocaleLowerCase().includes(query)
+  );
+  elements.homeworkExportStudents.replaceChildren();
+  for (const student of visible) {
+    const label = document.createElement("label");
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.value = student.id;
+    checkbox.checked = state.homeworkExportSelectedIds.has(String(student.id));
+    const text = document.createElement("span");
+    text.textContent = `${student.name}${isStudentActive(student) ? "" : "（已停用）"}`;
+    label.append(checkbox, text);
+    elements.homeworkExportStudents.append(label);
+  }
+  if (!visible.length) elements.homeworkExportStudents.textContent = "沒有符合的學生。";
+  elements.homeworkExportStudentCount.textContent = `（已選 ${state.homeworkExportSelectedIds.size} 位）`;
+}
+
+function renderHomeworkExportWeeks() {
+  const mode = elements.homeworkExportWeekMode.value;
+  document.querySelector("[data-export-single]").hidden = mode !== "single";
+  document.querySelector("[data-export-range]").hidden = mode !== "range";
+  document.querySelector("[data-export-selected]").hidden = mode !== "selected";
+  elements.homeworkExportWeekList.replaceChildren();
+  for (const week of [...state.homeworkExportWeeks].sort()) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.dataset.removeExportWeek = week;
+    button.textContent = `${week} ×`;
+    button.setAttribute("aria-label", `移除 ${week} 開始的星期`);
+    elements.homeworkExportWeekList.append(button);
+  }
+}
+
+function openHomeworkExport() {
+  if (state.currentUser?.role !== "admin") return;
+  state.homeworkExportSelectedIds = new Set(state.adminStudents.filter(isStudentActive).map((student) => String(student.id)));
+  state.homeworkExportWeeks = new Set();
+  elements.homeworkExportSearch.value = "";
+  elements.homeworkExportWeekMode.value = "all";
+  for (const input of [elements.homeworkExportSingleWeek, elements.homeworkExportFromWeek,
+    elements.homeworkExportToWeek, elements.homeworkExportAddWeek]) input.value = state.weekStart;
+  renderHomeworkExportStudents();
+  renderHomeworkExportWeeks();
+  invalidateHomeworkExport();
+  elements.homeworkExportDialog.showModal();
+}
+
+function selectedHomeworkExportScope() {
+  const mode = elements.homeworkExportWeekMode.value;
+  if (mode === "all") return { label: "all", args: {} };
+  if (mode === "single") {
+    const week = elements.homeworkExportSingleWeek.value;
+    if (!validExportWeek(week)) throw new Error("請選擇星期一作為起始日。");
+    return { label: week, args: { p_week_starts: [week] } };
+  }
+  if (mode === "range") {
+    const from = elements.homeworkExportFromWeek.value;
+    const to = elements.homeworkExportToWeek.value;
+    if (!validExportWeek(from) || !validExportWeek(to) || from > to) {
+      throw new Error("請選擇有效的星期一，且結束星期不可早於開始星期。");
+    }
+    return { label: `${from}..${to}`, args: { p_from_week: from, p_to_week: to } };
+  }
+  const weeks = [...state.homeworkExportWeeks].sort();
+  if (!weeks.length) throw new Error("請先加入最少一個星期。");
+  return { label: weeks.join(","), args: { p_week_starts: weeks } };
+}
+
+async function prepareHomeworkExport() {
+  if (state.homeworkExportBusy || state.currentUser?.role !== "admin") return;
+  state.homeworkExportPrepared = null;
+  elements.homeworkExportDownload.disabled = true;
+  try {
+    const students = state.adminStudents.filter((student) =>
+      state.homeworkExportSelectedIds.has(String(student.id))
+    );
+    if (!students.length) throw new Error("請選擇最少一位學生。");
+    const scope = selectedHomeworkExportScope();
+    const revision = state.homeworkExportRevision;
+    state.homeworkExportBusy = true;
+    elements.homeworkExportPrepare.disabled = true;
+    const entries = [];
+    let afterId = null;
+    while (true) {
+      setStatus(elements.homeworkExportStatus, `正在讀取功課安排…已載入 ${entries.length} 項。`);
+      const page = await callRpc("schedule_admin_export_homework_entries", {
+        p_admin_token: state.currentUser.adminToken,
+        p_student_ids: students.map((student) => student.id),
+        ...scope.args,
+        p_after_id: afterId,
+        p_limit: 500
+      });
+      if (revision !== state.homeworkExportRevision || state.currentUser?.role !== "admin") {
+        throw new Error("選擇已變更，請重新預覽。");
+      }
+      if (!Array.isArray(page)) throw new Error("資料格式不正確，匯出已停止。");
+      entries.push(...page);
+      if (page.length < 500) break;
+      const nextId = page[page.length - 1]?.id;
+      if (!nextId || nextId === afterId) throw new Error("無法繼續讀取下一頁資料。");
+      afterId = nextId;
+    }
+    const exportedAt = new Date().toISOString();
+    const contents = formatHomeworkExport({ students, entries, scope: scope.label, exportedAt });
+    if (revision !== state.homeworkExportRevision) throw new Error("選擇已變更，請重新預覽。");
+    state.homeworkExportPrepared = { contents, count: entries.length, students: students.length };
+    elements.homeworkExportDownload.disabled = false;
+    setStatus(elements.homeworkExportStatus,
+      `已準備 ${students.length} 位學生、${entries.length} 項安排，檔案約 ${new Blob([contents]).size.toLocaleString()} bytes。`);
+  } catch (error) {
+    setStatus(elements.homeworkExportStatus, error.message || "未能匯出功課資料。", "error");
+    if (isExpiredSessionError(error)) await logout();
+  } finally {
+    state.homeworkExportBusy = false;
+    elements.homeworkExportPrepare.disabled = false;
+  }
+}
+
+function downloadHomeworkExport() {
+  const prepared = state.homeworkExportPrepared;
+  if (!prepared) return;
+  const blob = new Blob([prepared.contents], { type: "text/plain;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `homework-export-${new Date().toISOString().slice(0, 10)}.txt`;
+  document.body.append(link);
+  link.click();
+  link.remove();
+  window.setTimeout(() => URL.revokeObjectURL(url), 60_000);
+}
+
 function linkedHomeworkStudentIds() {
   return new Set(state.adminHomeworkLinks.flatMap((group) => (
     Array.isArray(group?.members) ? group.members.map((member) => String(member.studentId || "")) : []
@@ -7113,6 +7275,51 @@ elements.studentStatusFilter?.addEventListener("change", () => {
   state.studentStatusFilter = elements.studentStatusFilter.value;
   renderStudentList();
 });
+document.querySelector("[data-open-homework-export]")?.addEventListener("click", openHomeworkExport);
+document.querySelector("[data-close-homework-export]")?.addEventListener("click", () => elements.homeworkExportDialog.close());
+elements.homeworkExportDialog?.addEventListener("close", () => { state.homeworkExportPrepared = null; });
+elements.homeworkExportSearch?.addEventListener("input", renderHomeworkExportStudents);
+elements.homeworkExportStudents?.addEventListener("change", (event) => {
+  const checkbox = event.target.closest('input[type="checkbox"]');
+  if (!checkbox) return;
+  if (checkbox.checked) state.homeworkExportSelectedIds.add(checkbox.value);
+  else state.homeworkExportSelectedIds.delete(checkbox.value);
+  renderHomeworkExportStudents();
+  invalidateHomeworkExport();
+});
+document.querySelector("[data-export-select-active]")?.addEventListener("click", () => {
+  state.homeworkExportSelectedIds = new Set(state.adminStudents.filter(isStudentActive).map((student) => String(student.id)));
+  renderHomeworkExportStudents(); invalidateHomeworkExport();
+});
+document.querySelector("[data-export-select-all]")?.addEventListener("click", () => {
+  state.homeworkExportSelectedIds = new Set(state.adminStudents.map((student) => String(student.id)));
+  renderHomeworkExportStudents(); invalidateHomeworkExport();
+});
+document.querySelector("[data-export-select-visible]")?.addEventListener("click", () => {
+  const query = elements.homeworkExportSearch.value.trim().toLocaleLowerCase();
+  state.adminStudents.filter((student) => !query || String(student.name || "").toLocaleLowerCase().includes(query))
+    .forEach((student) => state.homeworkExportSelectedIds.add(String(student.id)));
+  renderHomeworkExportStudents(); invalidateHomeworkExport();
+});
+document.querySelector("[data-export-clear-students]")?.addEventListener("click", () => {
+  state.homeworkExportSelectedIds.clear(); renderHomeworkExportStudents(); invalidateHomeworkExport();
+});
+elements.homeworkExportWeekMode?.addEventListener("change", () => { renderHomeworkExportWeeks(); invalidateHomeworkExport(); });
+for (const input of [elements.homeworkExportSingleWeek, elements.homeworkExportFromWeek,
+  elements.homeworkExportToWeek, elements.homeworkExportAddWeek]) input?.addEventListener("change", invalidateHomeworkExport);
+document.querySelector("[data-export-add-week-button]")?.addEventListener("click", () => {
+  const week = elements.homeworkExportAddWeek.value;
+  if (!validExportWeek(week)) { setStatus(elements.homeworkExportStatus, "請選擇星期一。", "error"); return; }
+  state.homeworkExportWeeks.add(week); renderHomeworkExportWeeks(); invalidateHomeworkExport();
+});
+elements.homeworkExportWeekList?.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-remove-export-week]");
+  if (!button) return;
+  state.homeworkExportWeeks.delete(button.dataset.removeExportWeek);
+  renderHomeworkExportWeeks(); invalidateHomeworkExport();
+});
+elements.homeworkExportPrepare?.addEventListener("click", prepareHomeworkExport);
+elements.homeworkExportDownload?.addEventListener("click", downloadHomeworkExport);
 elements.homeworkLinkForm?.addEventListener("submit", linkHomeworkAccounts);
 elements.homeworkLinkStudentA?.addEventListener("change", renderHomeworkLinks);
 elements.homeworkLinkStudentB?.addEventListener("change", renderHomeworkLinks);
