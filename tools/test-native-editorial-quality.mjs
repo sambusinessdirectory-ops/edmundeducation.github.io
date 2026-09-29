@@ -14,6 +14,7 @@ for(const {row,draft} of drafts){
   if(audio>1)issues.push(`${id}: concealed listening appears after answer-bearing steps`);
   if(final>=0&&final!==draft.steps.length-1)issues.push(`${id}: final challenge is not last`);
   const explanations=new Map(),optionSets=new Map();
+  if(!draft.questions.some(q=>q.type==='open'))issues.push(`${id}: no independent no-option production task`);
   for(const q of draft.questions){
     const explanation=String(q.explanation||'').trim();
     if(explanation.length<22)issues.push(`${id}: ${q.id} has non-specific feedback`);
