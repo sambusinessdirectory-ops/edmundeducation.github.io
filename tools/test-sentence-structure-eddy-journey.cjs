@@ -119,7 +119,7 @@ window.journeyTest = {
   await twelfthInput.scrollIntoViewIfNeeded();
   await page.evaluate(() => window.scrollBy(0, -180));
   await twelfthInput.focus();
-  await page.waitForTimeout(80);
+  await page.waitForFunction(() => document.querySelector('[data-sentence-journey-eddy]').dataset.motion === 'idle', null, { timeout: 6500 });
   const beforeGradeTop = await twelfthStop.evaluate((node) => node.getBoundingClientRect().top);
   const beforeGradeGeometry = await page.evaluate(() => {
     const list = document.querySelector('[data-question-list]');
@@ -166,7 +166,7 @@ window.journeyTest = {
   assert.ok(gradingFrames.every((frame) => Math.abs(frame.platformTop - beforeGradeGeometry.platformTop) < 1), 'Card expansion never changes the active platform coordinate');
   assert.ok(gradingFrames.every((frame) => frame.feetGap < 4), `Eddy remains planted on the active platform throughout the grading rerender: ${JSON.stringify(gradingFrames)}`);
   assert.ok(gradingFrames.every((frame) => frame.visibility === 'visible'), 'Eddy is visible only after a final platform position is applied');
-  assert.ok(gradingFrames.every((frame) => frame.standingLayerPainted && frame.reactionLayerCount === 2), 'A painted standing Eddy remains underneath both permanently loaded reaction layers');
+  assert.ok(gradingFrames.every((frame) => frame.standingLayerPainted && frame.reactionLayerCount === 2), `A painted standing Eddy remains underneath both permanently loaded reaction layers: ${JSON.stringify(gradingFrames)}`);
   assert.ok(gradingFrames.every((frame) => frame.platformCount === 50 && frame.paintedPlatforms === 50), 'All fifty CSS-painted platforms remain visible throughout grading');
   await page.waitForFunction(() => document.querySelector('[data-eddy-stop][data-question-number="12"] .question-card')?.classList.contains('is-correct'));
   await page.waitForTimeout(240);
@@ -212,9 +212,9 @@ window.journeyTest = {
     await page.locator('.sentence-journey-stop').first().screenshot({ path: path.join(out, `eddy-journey-${name}.png`) });
   }
 
-  await page.evaluate(() => journeyTest.openLesson('ss31', { page: 4 }));
-  await page.waitForFunction(() => journeyTest.state.lessonId === 'ss31' && journeyTest.state.lessonPage === 4);
-  assert.equal(await page.locator('.sentence-journey-stop').count(), 0, 'Journey stays limited to modules 1–30');
+  await page.evaluate(() => journeyTest.openLesson('ss61', { page: 4 }));
+  await page.waitForFunction(() => journeyTest.state.lessonId === 'ss61' && journeyTest.state.lessonPage === 4);
+  assert.equal(await page.locator('.sentence-journey-stop').count(), 0, 'Journey remains scoped to modules 1–60');
   assert.deepEqual(errors, []);
   console.log(`PASS: 50-platform Eddy journey rendered in ${Math.round(exerciseLoadMs)}ms; movement, reactions, module scope and responsive layout passed`);
 })().catch((error) => {

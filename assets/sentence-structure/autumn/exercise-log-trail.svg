@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 480" width="120" height="480">
+  <defs>
+    <path id="trail" d="M60 0 C60 36 75 59 75 94 C75 142 45 149 44 194 C43 240 76 257 76 304 C76 353 44 370 44 412 C44 447 60 456 60 480"/>
+    <pattern id="earth" width="28" height="36" patternUnits="userSpaceOnUse">
+      <rect width="28" height="36" fill="#d7b784"/>
+      <path d="M3 8l5-2m12 14l4 1M5 29l3-1" fill="none" stroke="#9c784d" stroke-width="1.5" opacity=".46"/>
+      <circle cx="15" cy="7" r="1.5" fill="#f4dcaa"/>
+      <circle cx="18" cy="31" r="1" fill="#9b7448"/>
+    </pattern>
+    <filter id="soft"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+  <use href="#trail" fill="none" stroke="#59452f" stroke-opacity=".24" stroke-width="85" transform="translate(2 4)" filter="url(#soft)"/>
+  <use href="#trail" fill="none" stroke="#846445" stroke-width="79" stroke-linecap="round"/>
+  <use href="#trail" fill="none" stroke="#edce96" stroke-width="73" stroke-linecap="round"/>
+  <use href="#trail" fill="none" stroke="url(#earth)" stroke-width="65" stroke-linecap="round"/>
+  <use href="#trail" fill="none" stroke="#f8e2b6" stroke-opacity=".65" stroke-width="2" stroke-dasharray="2 15" stroke-linecap="round"/>
+  <g fill="#b86738" stroke="#8d4b2c" stroke-width=".7" opacity=".8">
+    <path d="M7 67 Q18 55 22 70 Q18 84 7 67Z"/><path d="M115 238 Q99 225 99 241 Q101 254 115 238Z"/>
+    <path d="M5 356 Q19 350 18 366 Q12 376 5 356Z"/>
+  </g>
+  <g fill="#7f8a4e" opacity=".65"><circle cx="12" cy="130" r="2"/><circle cx="107" cy="379" r="2.3"/></g>
+</svg>

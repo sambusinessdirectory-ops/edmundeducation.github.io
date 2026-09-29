@@ -20,6 +20,20 @@ Use case: isolated transparent storybook cutouts. Production assets: `maple-leaf
 
 All ornaments are painted watercolor/gouache illustrations with real alpha transparency. CSS positions them as decoration; all lesson text and numbers remain DOM content.
 
+## Lesson memo tags, step medallion, and sign
+
+Use case: isolated transparent storybook cutouts for the level 31–60 lesson UI. Production assets are `rule-memo-maple.webp`, `rule-memo-pinecone.webp`, `rule-memo-berries.webp`, `rule-memo-ginkgo.webp`, `rule-memo-oak.webp`, `step-medallion.webp`, and `wooden-sign.webp`.
+
+The five rule tags use the same aged blank parchment memo shape and a different seasonal plant at the upper-left edge: copper maple with acorn; olive oak with pinecone; red berries with rust leaf; gold ginkgo with twigs; and russet oak with acorn. Each has a pin/twig attachment, worn irregular edges, and clear center for a live two-digit HTML number. The transparent margin around each composition remains part of the asset so the foliage is never clipped.
+
+The step marker is a circular carved wood slice with bark rim, fine gold trim, autumn forest scenery, a quiet blank center for the live 1–4 or completion check, and a tiny copper leaf on the rim. The exercise sign is a wide blank honey-oak board with a dark carved edge, natural grain, and two antique brass corner studs; its title, instructions and progress are live HTML. All these assets were created with ImageGen without embedded text or numbers. Keep the transparent backgrounds, and position text inside the clear areas at desktop and mobile widths.
+
+## Autumn exercise trail
+
+Use case: narrow transparent repeating route for the question-side Eddy journey. Production asset: `exercise-wooden-path-v3.webp`, visually paired with the map's `stone.webp` log. The approved coastal route from the Eddy journey manual supplies the standard for tactile depth, varied fitted surfaces, subtle inset detail and careful alpha edges, but this level uses a calm honey-oak boardwalk, a few large rust/gold maple leaves, small moss tufts and clearly recognizable acorns resting at the edges. Prompt: “Create one production-ready transparent vertical wooden walkway tile for a premium hand-painted autumn woodland educational game. Match the map log’s honey-oak palette and the manual’s winding route composition and tactile depth. Use three or four long lengthwise timber planks following a gentle S-curve, with sparse irregular staggered joints rather than regular cross-boards. Keep the broad walking surface smooth and calm. Put a few large copper and gold maple leaves, small moss tufts, and recognizable acorns with caps at the outer edges, grounded with contact shadows. Keep the path quieter than the lesson text, clear under Eddy and the log numbers, fully within the transparent canvas, and visually continuous at the top and bottom. No stone, pebble speckles, fine grain, floating motifs, platform, character, words, numbers or UI.”
+
+The final narrow WebP crop preserves alpha. Select top and bottom edges with matching path silhouette and foliage so the raster itself repeats continuously; render it as one CSS background. Review several consecutive joins at desktop and phone widths for clipping, visual dominance and hoof clearance before release.
+
 ## Background generation
 
 Use case: illustration-story. Asset type: production game environment background, no UI.
